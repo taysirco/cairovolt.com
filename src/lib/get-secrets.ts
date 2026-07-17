@@ -34,8 +34,12 @@ export async function getSecret(name: string): Promise<string | undefined> {
             cache[name] = payload;
             return payload;
         }
-    } catch (error) {
-        console.error(`Failed to fetch secret '${name}' from Secret Manager:`, error);
+    } catch {
+        if (process.env.NODE_ENV === 'development') {
+            console.warn(`[Secret Manager] Unable to load ${name}.`);
+        } else {
+            console.error('[Secret Manager] Runtime secret access failed.');
+        }
     }
 
     return undefined;

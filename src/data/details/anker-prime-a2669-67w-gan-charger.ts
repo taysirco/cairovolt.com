@@ -2,23 +2,19 @@ import type { ProductDetail } from './_types';
 export const anker_prime_a2669_67w_gan_charger_detail: ProductDetail = {
     aiTldr: {
   "en": [
-    "67W GaNPrime split live across 3 ports — MacBook + iPhone together.",
-    "PowerIQ 4.0 reallocates wattage per device automatically, no switching.",
-    "Held 66.8W at just 46°C on our Charger Lab KM003C bench.",
-    "Charges iPhone 17 Pro Max 0→50% in about 30 minutes.",
-    "✅ CairoVolt: 18-month warranty, ActiveShield 2.0, COD across Egypt."
+    "Up to 67W total from a three-port GaNPrime charger; output is shared in multi-device use.",
+    "PowerIQ 4.0 is designed to adjust power allocation for compatible connected devices.",
+    "Supports USB-C PD phones, tablets and compatible laptops; charging time varies by device, cable and battery state."
   ],
   "ar": [
-    "67 واط GaNPrime بتتوزّع على 3 منافذ — ماك بوك وايفون سوا.",
-    "PowerIQ 4.0 بيعيد توزيع الواط لكل جهاز تلقائياً من غير تبديل.",
-    "ثبت عند 66.8 واط وحرارة 46°C على جهاز Charger Lab KM003C.",
-    "بيشحن ايفون 17 برو ماكس من 0 لـ 50% في 30 دقيقة تقريباً.",
-    "✅ CairoVolt: ضمان 18 شهر، ActiveShield 2.0، دفع عند الاستلام في مصر."
+    "خرج إجمالي يصل إلى 67 واط من شاحن GaNPrime بثلاثة منافذ؛ وتتوزع الطاقة عند توصيل أكثر من جهاز.",
+    "PowerIQ 4.0 مصممة لضبط توزيع الطاقة للأجهزة المتوافقة المتصلة.",
+    "يدعم هواتف وتابلت ولابتوب USB-C PD المتوافق؛ وتختلف مدة الشحن حسب الجهاز والكابل وحالة البطارية."
   ]
 },
     localContext: {
-  "en": "During Cairo's July load-shedding, the voltage on a Maadi block swung from 245V down to 198V in a single evening — the kind of surge that fries a desk full of chargers. The A2669's ActiveShield 2.0 samples its own temperature 3,000,000 times a day and throttles power before that spike ever reaches your MacBook's battery.",
-  "ar": "في تخفيف أحمال يوليو في القاهرة، الفولتية في عمارة بالمعادي نطّت من 245 فولت لـ 198 فولت في ليلة واحدة — النبضة دي بتحرق مكتب مليان شواحن. الـ A2669 بتقنية ActiveShield 2.0 بيقيس حرارته 3,000,000 مرة في اليوم وبيقلل الطاقة قبل ما النبضة توصل لبطارية الماك بوك بتاعك."
+  "en": "The A2669 is aimed at desks and travel kits that need one adapter for several USB devices. Its 67W ceiling is shared according to the port combination, so a laptop may receive less when a phone or accessory is added. The 100–240V input range describes compatibility with standard mains; ActiveShield 2.0 is a manufacturer-listed internal safeguard and should not be treated as protection for faulty wiring or severe external surges.",
+  "ar": "يناسب A2669 المكاتب وحقائب السفر التي تحتاج محولاً واحداً لعدة أجهزة USB. حد 67 واط يتوزع حسب مجموعة المنافذ المستخدمة، لذلك قد يحصل اللابتوب على قدرة أقل عند إضافة هاتف أو ملحق. نطاق الدخل 100–240 فولت يوضح التوافق مع مصادر الكهرباء القياسية؛ أما ActiveShield 2.0 فهي حماية داخلية تذكرها انكر ولا تُعد بديلاً عن معالجة التمديدات التالفة أو اضطرابات الكهرباء الخارجية الشديدة."
 },
     specifications: {
   "Product Type": {
@@ -46,19 +42,8 @@ export const anker_prime_a2669_67w_gan_charger_detail: ProductDetail = {
     "ar": "142.2 جرام"
   },
   "Safety": {
-    "en": "100–240V universal input, over-voltage / surge / short-circuit protection, ActiveShield 2.0",
-    "ar": "دخل عالمي 100–240 فولت، حماية من ارتفاع الفولتية والصواعق والقصور، ActiveShield 2.0"
+    "en": "100–240V input and manufacturer-listed electrical protections with ActiveShield 2.0",
+    "ar": "دخل 100–240 فولت ووظائف حماية كهربائية مذكورة في مواصفات انكر مع ActiveShield 2.0"
   }
 },
-    labVerified: {
-        result: {
-  "en": "Delivered a stable 66.8W on a single USB-C port to a MacBook Air M3, peaking at just 46°C surface temperature after 60 minutes.",
-  "ar": "دفع 66.8 واط ثابتة على منفذ USB-C واحد لماك بوك اير M3، بحرارة سطح 46°C كحد أقصى بعد 60 دقيقة."
-},
-        conditions: {
-  "en": "Tested February 2026, Cairo, Charger Lab KM003C meter, 32°C ambient, 60-minute sustained load.",
-  "ar": "اختبار فبراير 2026، القاهرة، جهاز Charger Lab KM003C، حرارة محيطة 32°C، حمل مستمر 60 دقيقة."
-},
-        expertName: 'Eng. Ahmed Medhat'
-    }
 };

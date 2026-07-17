@@ -27,7 +27,7 @@ export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
             metaDescription: 'دليلك الشامل لتعلم طريقة اختيار شواحن وإكسسوارات هواتف سامسونج فئة A (مثل Galaxy A55 و A35 و A15) بمصر بأمان. واكتشف سر الـ 25 واط وقاعدة الـ PPS لتجنب خسارة...',
             keywords: 'افضل هاتف سامسونج فئة a, سعر سامسونج a55 في مصر, سعر سامسونج a15 في مصر, سعر سامسونج a24 في مصر, سعر سامسونج a52 في مصر الآن, اسعار الموبايلات السامسونج في مصر, اكسسوارات سامسونج a55, شاحن سامسونج a15',
             excerpt: 'اشتريت سامسونج A55 أو A35 ولقيت العلبة فاضية بدون شاحن؟ بنشرح لك بالفيزياء أداء الشحن الحقيقي (الـ 25 واط) وأفضل الإكسسوارات الاقتصادية.',
-            quickAnswer: 'هواتف سامسونج فئة A (مثل Galaxy A55 وA35 وA15) **لا تدعم الشحن بقوة 45 واط** نهائياً؛ الحد الأقصى لقدرتها هو **25 واط** (أو **15 واط** للموديلات الاقتصادية مثل A05). لتشغيل الشحن السريع الفائق (Super Fast Charging), يجب شراء **شاحن يدعم بروتوكول PD 3.0 PPS بقوة 25 واط** على الأقل (مثل شاحن أنكر 25 واط أو جويروم 25 واط). شراء شاحن 45 واط لن يزيد من سرعة الشحن وسيكون هدرًا للمال.',
+            quickAnswer: 'قدرات الشحن تختلف بين موديلات سامسونج Galaxy A وإصداراتها. راجع مواصفات رقم الطراز، ثم طابق شاحن انكر أو جويروم أو غيره مع USB-PD وPPS والقدرة والكابل المطلوبة؛ الشاحن الأعلى قدرة لا يفرض قدرة إضافية على الهاتف.',
             faq: [
                 {
                     question: 'هل شاحن سامسونج 45 واط بيشحن موبايل جالاكسي A55 أسرع من شاحن 25 واط؟',
@@ -39,7 +39,7 @@ export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
                 },
                 {
                     question: 'هل يمكنني استخدام شاحن لابتوب بقوة 65 واط لشحن هاتف سامسونج A15؟',
-                    answer: 'نعم، هذا آمن تماماً. بفضل توافق بروتوكول USB-PD، يقوم الهاتف بالتفاوض مع الشاحن وسحب الطاقة التي يحتاجها فقط (وهي 25 واط لهاتف A15 5G أو 15 واط لهاتف A15 4G)، دون أي خطر على صحة البطارية.'
+                    answer: 'قد يعمل عند تطابق تصنيفات الشاحن والكابل وملفات USB-PD المطلوبة، ويحدد الهاتف الوضع المتفاوض عليه. لا تفترض قدرة ثابتة لكل نسخة A15 أو غياب أي خطر؛ راجع مواصفات رقم الطراز واستخدم معدات سليمة.'
                 },
                 {
                     question: 'هل تأتي هواتف سامسونج فئة A مع جراب حماية وسكرينة في العلبة بمصر؟',
@@ -104,10 +104,10 @@ export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
 <p>هذا التذبذب في التيار يرفع حرارة الهاتف الداخلية لتتعدى 50 درجة مئوية أثناء الشحن السريع، مما يؤدي لتحلل الطبقة العازلة للإلكتروليت وتولد غازات مضغوطة تتسبب حتماً في انتفاخ البطارية وتلفها، وقد ينتهي الأمر بقصر دائرة داخلية (Short Circuit) واشتعال البطارية بالكامل.</p>
 
 <h2>ثالثاً: ترشيحات الشواحن المتوافقة والاقتصادية لفئة A بمصر</h2>
-<p>بدلاً من شراء شاحن سامسونج الأصلي الذي تكثر منه النسخ المقلدة في المحلات غير المضمونة، نوصي بالبدائل المعتمدة ذات الجودة العالية والضمان الرسمي:</p>
+<p>بدلاً من الاعتماد على وصف «أصلي» أو على قناة البيع وحدها، قارن الشواحن البديلة برقم الموديل وملفات PPS والقدرة وبيانات البائع والفاتورة وشروط الضمان المكتوبة:</p>
 <ol style="line-height:1.8;">
-    <li>⭐ <strong>شاحن أنكر 25 واط (Anker PowerPort III 25W):</strong> هذا الشاحن هو الخيار الممتاز والموثوق. يدعم بروتوكول PPS الخاص بسامسونج بالكامل، ويأتي بحجم صغير جداً بفضل استخدام السيليكون عالي الكفاءة، مع نظام حماية الحرارة الفائق ونظام ضمان 18 شهر من الوكيل المعتمد بمصر. يمكنك الاطلاع عليه عبر <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">صفحة شاحن أنكر 25 واط</a>.</li>
-    <li>💰 <strong>شاحن جويروم 25 واط الاقتصادي (Joyroom 25W USB-C Charger):</strong> إذا كنت تبحث عن القيمة القصوى مقابل السعر، فإن جويروم تقدم شاحناً معتمداً بقوة 25 واط ويدعم PPS بالكامل وبنصف سعر شاحن سامسونج الأصلي تقريباً. الشاحن مصنع من مواد مقاومة للحريق ويأتي بضمان 12 شهر، وهو كافٍ تماماً لشحن هواتف A35 وA15 بالسرعة القصوى الآمنة. تفاصيل المنتج متوفرة على <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">صفحة شاحن جويروم 25 واط</a>.</li>
+    <li>⭐ <strong>شاحن انكر 25 واط (PowerPort III 25W):</strong> راجع صفحة الموديل للتأكد من دعم PPS وملفات الخرج المطلوبة لهاتفك، ومن مدة الضمان والجهة المقدمة والتغطية الحالية: <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">صفحة شاحن انكر 25 واط</a>.</li>
+    <li>💰 <strong>شاحن جوي روم 25 واط (USB-C Charger):</strong> تحقق من ملفات PPS الفعلية والخامات المعلنة والسعر ومدة الضمان الحالية، ثم طابقها مع طراز A35 أو A15؛ لا تفترض نصف سعر أو سرعة أو أماناً أقصى لكل نسخة. التفاصيل على <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">صفحة شاحن جوي روم 25 واط</a>.</li>
 </ol>
 
 <h2>رابعاً: اختيار كابل الشحن الملائم لفئة A</h2>
@@ -250,10 +250,10 @@ export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
 <p>This electrical instability raises the internal cell temperature above 50°C during fast charging, leading to electrolyte degradation and gas build-up. Over time, this causes the pouch cell to swell, destroying the battery and posing a risk of internal short circuits and fires.</p>
 
 <h2>3. Recommended Chargers for Galaxy A-Series in Egypt</h2>
-<p>Instead of risking counterfeit Samsung chargers from unverified retailers, we recommend these certified third-party adapters backed by local warranties:</p>
+<p>Instead of relying on an “original” label or sales channel alone, compare third-party adapters by model number, PPS profiles, electrical ratings, seller identity, invoice, and written warranty terms:</p>
 <ol style="line-height:1.8;">
-    <li>⭐ <strong>Anker 25W Charger (Anker PowerPort III 25W):</strong> This charger is our top recommendation. It supports Samsung\'s PPS protocol, features a compact build, integrates thermal monitoring safety, and comes with an 18-month warranty from the authorized agent. You can view it on the <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W Charger page</a>.</li>
-    <li>💰 <strong>Joyroom 25W Charger (Joyroom 25W USB-C Charger):</strong> If you want the best value for money, Joyroom offers a certified 25W charger with full PPS support at almost half the price of the original Samsung adapter. It is built with flame-retardant materials and features a 12-month warranty, making it perfect for charging the A35 and A15 at maximum safe speeds. Learn more on the <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Charger page</a>.</li>
+    <li>⭐ <strong>Anker 25W Charger (Anker PowerPort III 25W):</strong> Check the model page for the PPS profiles required by the exact phone, plus the current warranty provider, term, coverage, and exclusions: <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W Charger page</a>.</li>
+    <li>💰 <strong>Joyroom 25W Charger (Joyroom 25W USB-C Charger):</strong> Verify the actual PPS profiles, stated materials, live price, and current warranty terms, then match them to the A35 or A15 variant; do not assume half the price or maximum speed and safety for every version. See the <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Charger page</a>.</li>
 </ol>
 
 <h2>4. Choosing the Best Charging Cable</h2>

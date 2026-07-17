@@ -52,8 +52,8 @@ export interface ContentMap {
 export const contentGraph: ContentMap = {
     anker: {
         main: {
-            topic: 'Anker Egypt - Official Mobile Accessories',
-            topicAr: 'انكر مصر - إكسسوارات الموبايل الأصلية',
+            topic: 'Anker Products and Mobile Accessories in Egypt',
+            topicAr: 'منتجات انكر وإكسسوارات الموبايل في مصر',
             url: '/anker',
             pageType: 'navigational',
         },

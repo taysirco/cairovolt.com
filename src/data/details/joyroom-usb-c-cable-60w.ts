@@ -2,14 +2,7 @@
 import type { ProductDetail } from './_types';
 
 export const joyroom_usb_c_cable_60w_detail: ProductDetail = {
-        aiTldr: { en: ['60W PD charging for laptops and tablets', 'Premium braided nylon build', 'USB-C to USB-C universal standard', 'E-marker chip for safe high power',
-            '✅ CairoVolt: Sustained 60W PD output over 3-hour continuous charge — max temp 37°C'], ar: ['شحن 60 واط PD للابتوبات والتابلتات', 'تصنيع نايلون مجدول فاخر', 'USB-C إلى USB-C معيار عالمي', 'شريحة E-marker للطاقة العالية الآمنة',
-            '✅ كايرو فولت: خرج 60 واط PD مستمر لمدة 3 ساعات متواصلة — حرارة أقصى 37°م'] },
-        localContext: { en: 'Charge your iPad Pro AND your Samsung from the same cable — 60W means even small laptops charge at full speed.', ar: 'اشحن ايباد برو وسامسونج من نفس الكابل — 60 واط يعني حتى اللابتوبات الصغيرة تشحن بأقصى سرعة.' },
-        specifications: { 'Length': { en: '1.2m', ar: '1.2 متر' }, 'Max Charging': { en: '60W PD', ar: '60 واط PD' }, 'Material': { en: 'Braided nylon', ar: 'نايلون مجدول' }, 'Connector': { en: 'USB-C to USB-C', ar: 'USB-C إلى USB-C' }, 'Data Speed': { en: '480 Mbps', ar: '480 ميجابت/ثانية' }, 'Dimensions': { en: '1.2m length', ar: 'طول 1.2 متر' }, 'Weight': { en: '28g', ar: '28 جرام' }, 'Safety': { en: '60W PD rated + double-braided nylon', ar: 'مصنف 60 واط PD + نايلون مجدول مزدوج' } },
-        labVerified: {
-            result: { en: 'iPad Pro M4 charged from 15% to 80% in 52 minutes (60W). iPhone 15 charged simultaneously without performance drop. Braided nylon showed zero wear after 4 months.', ar: 'iPad Pro M4 شحن من 15% لـ 80% في 52 دقيقة (60واط). iPhone 15 شحن متزامن بدون تراجع أداء. النايلون صفر تآكل بعد 4 أشهر.' },
-            conditions: { en: 'CairoVolt QA Lab, Egyptian 220V, iPad Pro M4 + iPhone 15, September 2025', ar: 'مختبر كايرو فولت، 220 فولت، iPad Pro M4 + iPhone 15، سبتمبر 2025' },
-            expertName: 'Eng. Yahia Radwan',
-        },
+        aiTldr: { en: ['USB-C PD support is listed up to 60W with compatible equipment', 'Braided nylon construction', 'USB-C connector shape does not guarantee every protocol or device is supported', 'Verify the E-marker and power markings on the delivered model'], ar: ['دعم USB-C PD مدون حتى 60 واط مع المعدات المتوافقة', 'تصميم نايلون مضفر', 'لا يضمن شكل موصل USB-C دعم كل بروتوكول أو جهاز', 'تحقق من شريحة E-marker وعلامات القدرة على الموديل المستلم'] },
+        localContext: { en: 'This cable can serve compatible USB-C phones, tablets and some laptops within its listed limit. The device and charger determine the negotiated rate, so confirm their requirements before use.', ar: 'يمكن استخدام الكابل مع هواتف وأجهزة لوحية وبعض أجهزة اللابتوب USB-C المتوافقة ضمن حده المدون. يحدد الجهاز والشاحن القدرة المتفاوض عليها، لذلك راجع المتطلبات قبل الاستخدام.' },
+        specifications: { 'Length': { en: '1.2m', ar: '1.2 متر' }, 'Max Charging': { en: 'Up to 60W PD with compatible equipment', ar: 'حتى 60 واط PD مع المعدات المتوافقة' }, 'Material': { en: 'Braided nylon', ar: 'نايلون مجدول' }, 'Connector': { en: 'USB-C to USB-C', ar: 'USB-C إلى USB-C' }, 'Data Speed': { en: 'Up to 480 Mbps (listed)', ar: 'حتى 480 ميجابت/ثانية (مدونة)' }, 'Dimensions': { en: '1.2m length', ar: 'طول 1.2 متر' }, 'Weight': { en: '28g', ar: '28 جرام' }, 'Safety': { en: 'Verify the delivered cable rating and replace it if damaged', ar: 'تحقق من تصنيف الكابل المستلم واستبدله عند التلف' } },
     };

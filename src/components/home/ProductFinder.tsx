@@ -73,38 +73,38 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
       en: 'Better sound',
       feelAr: 'فاهمينك — دوشة المواصلات والشغل مش المفروض تبقى خلفية يومك.',
       feelEn: 'We get it — commutes and offices should not be the soundtrack of your day.',
-      resultAr: 'اختيارات بتقفل الدوشة وتفتح مزاجك',
-      resultEn: 'Picks that mute the noise and lift your mood',
+      resultAr: 'اختيارات بعزل ضوضاء في الموديلات الداعمة',
+      resultEn: 'Noise-cancelling options where the model supports it',
     },
     {
       key: 'power',
       icon: 'battery',
       ar: 'بطاريتي ما تخلصش',
       en: 'All-day power',
-      feelAr: 'قلق الـ 1% في نص اليوم؟ خلّيه ذكرى — دي طاقة تمشي معاك لآخر مشوار.',
-      feelEn: 'That 1% anxiety mid-day? Make it history — power that outlasts your day.',
-      resultAr: 'طاقة تكفي يومك كله من غير ما تدوّر على فيشة',
-      resultEn: 'Power for your whole day — no outlet hunting',
+      feelAr: 'قلق الـ 1% في نص اليوم؟ اختار السعة والمخارج المناسبة لاستخدامك.',
+      feelEn: 'Worried about reaching 1% mid-day? Choose the capacity and ports that fit your use.',
+      resultAr: 'سعات ومخارج مختلفة حسب أجهزتك',
+      resultEn: 'Different capacities and ports for different devices',
     },
     {
       key: 'charging',
       icon: 'bolt',
       ar: 'عايز أشحن أسرع',
       en: 'Faster charging',
-      feelAr: 'ربع ساعة قبل ما تنزل تفرق — شحن أسرع وأأمن يلحق إيقاعك.',
-      feelEn: 'Fifteen minutes before you leave should count — faster, safer charging that keeps up.',
-      resultAr: 'شواحن انكر GaN — أسرع وأبرد وأأمن',
-      resultEn: 'Anker GaN chargers — faster, cooler, safer',
+      feelAr: 'اختار قدرة الشاحن والبروتوكول المناسبين لجهازك قبل الطلب.',
+      feelEn: 'Match the charger wattage and protocol to your device before ordering.',
+      resultAr: 'شواحن انكر بقدرات ومنافذ متعددة',
+      resultEn: 'Anker chargers with multiple power and port options',
     },
     {
       key: 'cables',
       icon: 'cable',
       ar: 'كابل يستحمل',
       en: 'A cable that lasts',
-      feelAr: 'زهقت من كابل بيتقشر أو بيفصل بعد شهرين؟ إحنا كمان — عشان كده بنرشّح اللي يعيش سنين.',
-      feelEn: 'Tired of cables fraying after two months? So are we — these are built to last for years.',
-      resultAr: 'كابلات انكر مضفرة — تتشد وتتلوى وتعيش',
-      resultEn: 'Braided Anker cables — bend, pull, and last',
+      feelAr: 'اختار الطول والموصل والقدرة المناسبة، مع خيارات مضفرة للاستخدام اليومي.',
+      feelEn: 'Choose the right length, connector, and power rating, with braided options for daily use.',
+      resultAr: 'كابلات انكر بخيارات توصيل وقدرات مختلفة',
+      resultEn: 'Anker cables with different connectors and power ratings',
     },
     {
       key: 'car',
@@ -118,30 +118,29 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
     },
   ];
 
-  // Why-this-pick: one concrete, feelable benefit per curated product.
+  // Short catalogue-based reason for each suggestion.
   const whyPick: Record<string, { ar: string; en: string }> = {
-    'anker-soundcore-r50i-nc': { ar: 'عزل 42dB — سكوت فوري للزحمة', en: '42dB ANC — instant quiet' },
-    'anker-soundcore-k20i': { ar: 'خفيفة ومريحة لليوم كله', en: 'Light and comfy all day' },
-    'joyroom-t03s-pro-earbuds': { ar: 'أذكى بداية بأقل ميزانية', en: 'The smartest budget start' },
-    'anker-soundcore-flare-2': { ar: 'صوت يملأ المكان وإضاءة حفلة', en: 'Room-filling sound, party light' },
-    'anker-zolo-a110e-20000': { ar: 'بكابل مدمج — مش هتنسى الكابل تاني', en: 'Built-in cable — never forgotten' },
-    'anker-prime-a1695-25000': { ar: 'قوة تشحن اللابتوب نفسه', en: 'Charges your laptop too' },
-    'anker-nano-45w': { ar: 'الأشهر — صغير وسعره مظبوط', en: 'The crowd favourite 45W' },
-    'joyroom-20w-usb-c-charger': { ar: 'الأساسي اليومي بسعر مريح', en: 'The easy everyday pick' },
-    'anker-zolo-30w-a2698-charger': { ar: 'أبرد شاحن GaN — بحجم علبة كبريت', en: 'Coolest GaN — matchbox size' },
-    'anker-nano-45w-smart-display-charger': { ar: 'شاشة بتطمّنك على كل واط', en: 'A display that shows every watt' },
+    'anker-soundcore-r50i-nc': { ar: 'عزل ضوضاء نشط حسب مواصفات الموديل', en: 'Active noise cancellation in the model specification' },
+    'anker-soundcore-k20i': { ar: 'تصميم خفيف للاستخدام اليومي', en: 'Lightweight design for daily use' },
+    'joyroom-t03s-pro-earbuds': { ar: 'خيار بسعر اقتصادي', en: 'A lower-price option' },
+    'anker-soundcore-flare-2': { ar: 'سبيكر محمول بإضاءة مدمجة', en: 'Portable speaker with integrated lighting' },
+    'anker-zolo-a110e-20000': { ar: 'باور بانك بكابل مدمج', en: 'Power bank with a built-in cable' },
+    'anker-prime-a1695-25000': { ar: 'قدرة تدعم لابتوبات متوافقة', en: 'Power output for compatible laptops' },
+    'anker-nano-45w': { ar: 'قدرة 45 واط وتصميم مدمج', en: '45W output in a compact design' },
+    'joyroom-20w-usb-c-charger': { ar: 'شاحن USB-C بقدرة 20 واط', en: '20W USB-C charger' },
+    'anker-zolo-30w-a2698-charger': { ar: 'شاحن GaN مدمج بقدرة 30 واط', en: 'Compact 30W GaN charger' },
+    'anker-nano-45w-smart-display-charger': { ar: 'شاشة مدمجة لمعلومات الشحن', en: 'Integrated charging-information display' },
     'anker-prime-a2669-67w-gan-charger': { ar: '3 منافذ — لابتوب وموبايلين مرة واحدة', en: '3 ports — laptop + two phones' },
-    'anker-a8050-usb-c-cable': { ar: 'مضفر يستحمل الشد اليومي', en: 'Braided for daily pulling' },
-    'anker-310-usb-c-lightning-cable': { ar: 'للآيفون — شحن سريع في 30 دقيقة', en: 'iPhone fast-charge in 30 min' },
-    'anker-zolo-usb-c-braided-cable': { ar: '240 واط — جاهز لأي لابتوب', en: '240W — ready for any laptop' },
+    'anker-a8050-usb-c-cable': { ar: 'كابل USB-C بتشطيب مضفر', en: 'USB-C cable with a braided finish' },
+    'anker-310-usb-c-lightning-cable': { ar: 'USB-C إلى Lightning؛ راجع توافق جهازك', en: 'USB-C to Lightning; check device compatibility' },
+    'anker-zolo-usb-c-braided-cable': { ar: 'قدرة معلنة حتى 240 واط للأجهزة المتوافقة', en: 'Rated up to 240W for compatible devices' },
     'anker-a2216-magnetic-wireless-car-charger': { ar: 'مغناطيس — تثبيت وشحن بحركة واحدة', en: 'Magnetic — snap in, charge on' },
     'joyroom-60w-car-charger': { ar: 'كابلين سحّاب مدمجين — مفيش وايرات', en: 'Two built-in retractable cables' },
     'anker-prime-fusion-a1339-9600mah-65w': { ar: 'شاحن حائط وباور بانك في واحد', en: 'Wall charger + power bank in one' },
-    'soundcore-a25i-earbuds': { ar: 'خفيفة وبطاريتها 28 ساعة', en: '28-hour battery, featherlight' },
+    'soundcore-a25i-earbuds': { ar: 'بطارية معلنة حتى 28 ساعة', en: 'Claimed battery life of up to 28 hours' },
   };
 
-  // The community favourite for each need — social proof at the decision moment.
-  const popularPick: Record<Need, string> = {
+  const suggestedPick: Record<Need, string> = {
     sound: 'anker-soundcore-r50i-nc',
     power: 'anker-zolo-a110e-20000',
     charging: 'anker-nano-45w',
@@ -264,9 +263,9 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
                   <div className="p-4">
                     <div className="flex items-center justify-between gap-2">
                       <span className="text-[10px] font-bold uppercase tracking-[.14em] text-blue-700">{getBrandDisplayName(product.brand, locale)}</span>
-                      {popularPick[need] === product.slug && (
+                      {suggestedPick[need] === product.slug && (
                         <span className="rounded-full bg-[#07111f] px-2 py-1 text-[10px] font-bold text-amber-300">
-                          {isAr ? '⭐ الأكثر طلبًا' : '⭐ Most requested'}
+                          {isAr ? '⭐ اختيار مقترح' : '⭐ Suggested pick'}
                         </span>
                       )}
                     </div>
@@ -285,13 +284,12 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
               ))}
             </div>
 
-            {/* Decision-moment reassurance: remove the last worries exactly
-                where the customer commits. */}
+            {/* Purchase details shown alongside the recommendations. */}
             {recommendations.length > 0 && (
               <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-white/10 pt-4 text-xs text-slate-300">
                 {[
-                  { icon: 'check-circle', ar: 'أصلي ويمكن التحقق منه', en: 'Verifiably original' },
-                  { icon: 'shield', ar: 'ضمان حسب المنتج', en: 'Product-specific warranty' },
+                  { icon: 'check-circle', ar: 'بيانات المنتج موضحة', en: 'Product details provided' },
+                  { icon: 'shield', ar: 'ضمان كايرو فولت حسب المنتج', en: 'Product-specific CairoVolt warranty' },
                   { icon: 'money', ar: 'ادفع لما يوصلك', en: 'Pay when it arrives' },
                 ].map((item) => (
                   <span key={item.icon} className="flex items-center gap-1.5">

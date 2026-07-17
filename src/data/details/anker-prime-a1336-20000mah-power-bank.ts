@@ -2,32 +2,28 @@ import type { ProductDetail } from './_types';
 export const anker_prime_a1336_20000mah_power_bank_detail: ProductDetail = {
     aiTldr: {
   "en": [
-    "200W total output across three ports powers two laptops at once.",
-    "Dual USB-C ports deliver 100W each with a smart LCD.",
-    "Tested: iPhone 17 Pro Max 0 to 50% in 22 minutes.",
-    "Charges MacBook Air, iPad Pro M4, Galaxy S26 Ultra, Steam Deck.",
-    "✅ CairoVolt: EGP 5900, 24-month warranty, FCC/CE certified, cash on delivery."
+    "Manufacturer-rated up to 200W combined across three ports under supported output combinations.",
+    "Two USB-C ports can each provide up to 100W when the device, cable and port combination support it.",
+    "Designed for compatible USB-C laptops, tablets, phones and handheld consoles; check each device's power requirement."
   ],
   "ar": [
-    "200 واط إجمالي من 3 منافذ بتشغّل لابتوبين في وقت واحد.",
-    "منفذين USB-C 100 واط لكل واحد مع شاشة LCD ذكية.",
-    "مختبر: آيفون 17 برو ماكس من 0 لـ 50% في 22 دقيقة.",
-    "بيشحن ماك بوك اير وآيباد برو M4 وجالاكسي S26 ألترا.",
-    "✅ CairoVolt: 5900 جنيه، ضمان 24 شهر، معتمد FCC/CE، الدفع عند الاستلام."
+    "تذكر انكر خرجاً مجمعاً يصل إلى 200 واط عبر ثلاثة منافذ في توزيعات الخرج المدعومة.",
+    "يمكن لكل منفذ USB-C توفير ما يصل إلى 100 واط عند دعم الجهاز والكابل وتوزيع المنافذ لذلك.",
+    "مصمم للابتوب والتابلت والهواتف وأجهزة الألعاب المحمولة USB-C المتوافقة؛ ويُراجع احتياج كل جهاز للطاقة."
   ]
 },
     localContext: {
-  "en": "During Egypt's summer load-shedding, cuts run 2 to 3 hours at a stretch and freelancers in New Cairo lose billable work. The A1336's 72Wh pack plus 100W USB-C output keeps a MacBook Air running video calls for roughly 6 hours, while ActiveShield 2.0 holds surface temperature under 43°C even at 40°C indoors.",
-  "ar": "في صيف مصر وتخفيف الأحمال، الكهربا بتقطع ساعتين لـ3 ساعات ورا بعض، والفريلانسر في التجمع بيخسر شغل بفلوس. باور A1336 بـ72Wh ومنفذ USB-C 100 واط بيخلّي ماك بوك اير شغال مكالمات فيديو حوالي 6 ساعات، وActiveShield 2.0 بيثبّت حرارة السطح تحت 43 درجة حتى والأوضة 40 درجة."
+  "en": "The 72Wh energy figure is the useful starting point for comparing this power bank with a laptop or phone battery. It does not translate into a fixed number of working hours: conversion losses, screen brightness, processor load, calls and ambient temperature all affect runtime. The smart display can help monitor remaining charge and power flow, while final readings should be treated as estimates rather than guaranteed endurance.",
+  "ar": "رقم الطاقة 72 واط·ساعة هو نقطة البداية المفيدة لمقارنة الباور بانك ببطارية اللابتوب أو الهاتف. لكنه لا يتحول إلى عدد ثابت من ساعات العمل؛ إذ تؤثر خسائر التحويل وسطوع الشاشة وحمل المعالج والمكالمات وحرارة الجو في مدة التشغيل. تساعد الشاشة الذكية على متابعة الشحن المتبقي وتدفق الطاقة، مع اعتبار قراءاتها تقديرات وليست مدة تشغيل مضمونة."
 },
     specifications: {
   "Product Type": {
     "en": "Premium USB-C Power Bank (Anker Prime series)",
-    "ar": "باور بانك USB-C بريميوم (سلسلة أنكر برايم)"
+    "ar": "باور بانك USB-C بريميوم (سلسلة انكر برايم)"
   },
   "Capacity": {
-    "en": "20,000mAh / 72Wh (plane-legal, under the 100Wh limit)",
-    "ar": "20000 مللي أمبير / 72 واط ساعة (مسموح بالطيران، تحت حد 100Wh)"
+    "en": "20,000mAh / 72Wh; below the common 100Wh threshold, subject to each airline's current rules",
+    "ar": "20000 مللي أمبير / 72 واط·ساعة؛ أقل من حد 100Wh الشائع مع ضرورة مراجعة قواعد شركة الطيران الحالية"
   },
   "Total Output": {
     "en": "200W combined, 3-in-1",
@@ -38,8 +34,8 @@ export const anker_prime_a1336_20000mah_power_bank_detail: ProductDetail = {
     "ar": "USB-C PD 3.1 / PPS، خلايا جرافين، ActiveShield 2.0، شاشة LCD ذكية"
   },
   "Ports": {
-    "en": "2× USB-C (100W each) + 1× USB-A (65W max); 5-pin charging-base contacts",
-    "ar": "2 منفذ USB-C (100 واط لكل واحد) + 1 منفذ USB-A (65 واط كحد أقصى)؛ نقاط قاعدة شحن 5 سنون"
+    "en": "2× USB-C (up to 100W each in supported modes) + 1× USB-A (up to 22.5W); 5-pin charging-base contacts",
+    "ar": "2 منفذ USB-C (حتى 100 واط لكل منهما في الأوضاع المدعومة) + منفذ USB-A واحد (حتى 22.5 واط)؛ نقاط قاعدة شحن 5 سنون"
   },
   "Dimensions": {
     "en": "126.7 × 54.6 × 49.5 mm (4.99 × 2.15 × 1.95 in)",
@@ -50,19 +46,8 @@ export const anker_prime_a1336_20000mah_power_bank_detail: ProductDetail = {
     "ar": "520 جرام (18.34 أونصة)"
   },
   "Safety": {
-    "en": "FCC, CE, RoHS, UN38.3; ActiveShield 2.0 temperature monitoring",
-    "ar": "FCC وCE وRoHS وUN38.3؛ مراقبة حرارة ActiveShield 2.0"
+    "en": "Manufacturer-listed ActiveShield 2.0 monitoring; verify FCC, CE, RoHS and UN38.3 markings or documents for the delivered unit",
+    "ar": "مراقبة ActiveShield 2.0 كما تذكرها انكر؛ ويُراجع وجود علامات أو مستندات FCC وCE وRoHS وUN38.3 للوحدة المستلمة"
   }
 },
-    labVerified: {
-        result: {
-  "en": "Sustained 198W total (100W + 98W across the two USB-C ports) at 71% usable efficiency, and recharged itself 0 to 100% in 61 minutes on a 100W input.",
-  "ar": "طلّع 198 واط إجمالي (100 + 98 واط على منفذي USB-C) بكفاءة استخدام 71%، وشحن نفسه من 0 لـ100% في 61 دقيقة على دخل 100 واط."
-},
-        conditions: {
-  "en": "Measured with a ChargerLAB KM003C USB meter, ambient 30°C, February 2026, CairoVolt Cairo lab.",
-  "ar": "قياس بجهاز ChargerLAB KM003C، حرارة محيطة 30 درجة، فبراير 2026، معمل كايرو فولت في القاهرة."
-},
-        expertName: 'Eng. Ahmed Medhat'
-    }
 };

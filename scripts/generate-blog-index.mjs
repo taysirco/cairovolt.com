@@ -4,7 +4,7 @@
  * generate-blog-index.mjs — Generates a standalone lightweight blog index.
  *
  * Reads each blog/*.ts file with regex to extract ONLY metadata fields
- * (no content/faq/quickAnswer/expertQuote). Writes a self-contained
+ * (no content, FAQ answers, or quick-answer body text). Writes a self-contained
  * src/data/blog-index.generated.ts that has ZERO imports from the blog barrel.
  *
  * Run:  node scripts/generate-blog-index.mjs
@@ -166,7 +166,7 @@ let output = `// AUTO-GENERATED — DO NOT EDIT MANUALLY
 //
 // Standalone lightweight blog index — NO imports from blog barrel.
 // Contains only metadata fields (slug, category, title, excerpt, etc.)
-// Excludes: content HTML, faq, quickAnswer, expertQuote
+// Excludes: content HTML, FAQ answers, and quick-answer body text
 
 export interface BlogIndexEntry {
     slug: string;

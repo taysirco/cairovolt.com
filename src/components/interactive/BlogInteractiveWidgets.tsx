@@ -1,7 +1,6 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 // Dynamic imports for interactive components (zero impact on initial bundle)
 const MermaidDiagram = dynamic(() => import('./MermaidDiagram'), { ssr: false });
@@ -14,8 +13,8 @@ const ChargingSpeedCalculator = dynamic(() => import('./ChargingSpeedCalculator'
  */
 export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale: string }) {
     const isArabic = locale === 'ar';
-    const localizeChartBrands = (chart: string) =>
-        isArabic ? localizeArabicBrandNames(chart) : chart;
+    const chartByLocale = (arabicChart: string, englishChart: string) =>
+        isArabic ? arabicChart : englishChart;
 
     // Map slugs to their interactive content
     const widgets: Record<string, React.ReactNode> = {
@@ -26,20 +25,29 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
                 <MermaidDiagram
                     title={isArabic ? '🗺️ خريطة اختيار الباور بانك المناسب' : '🗺️ Power Bank Selection Flowchart'}
                     locale={locale}
-                    chart={localizeChartBrands(`flowchart TD
-    A["What's your budget?"] --> B{"Less than 1,000 EGP?"}
-    B -->|Yes| C["Joyroom 20000mAh\\n997 EGP"]
-    B -->|No| D{"Need to charge laptop?"}
-    D -->|Yes| E["Anker Prime 27650mAh\\n3,799 EGP"]
-    D -->|No| F{"Want smallest size?"}
-    F -->|Yes| G["Anker Nano 10000mAh\\n1,300 EGP"]
-    F -->|No| H["Anker PowerCore 20000mAh\\n1,550 EGP"]
-    
+                    chart={chartByLocale(`flowchart TD
+    A["حدد الأجهزة التي ستشحنها"] --> B{"هل تحتاج لشحن لابتوب؟"}
+    B -->|نعم| C["طابق قدرة USB-C PD المطلوبة مع مواصفات اللابتوب"]
+    B -->|لا| D{"كم مرة تحتاج لإعادة شحن الهاتف؟"}
+    D -->|استخدام يومي خفيف| E["قارن خيارات السعة الأصغر والوزن"]
+    D -->|رحلات أو استخدام ممتد| F["قارن السعة الأكبر والوزن وقيود السفر"]
+    C --> G["راجع المنافذ والكابل والتوافر وشروط الضمان"]
+    E --> G
+    F --> G
+
     style A fill:#3b82f6,color:#fff,stroke:#2563eb
-    style C fill:#ef4444,color:#fff,stroke:#dc2626
-    style E fill:#3b82f6,color:#fff,stroke:#2563eb
-    style G fill:#3b82f6,color:#fff,stroke:#2563eb
-    style H fill:#22c55e,color:#fff,stroke:#16a34a`)}
+    style G fill:#22c55e,color:#fff,stroke:#16a34a`, `flowchart TD
+    A["List the devices you need to charge"] --> B{"Do you need laptop charging?"}
+    B -->|Yes| C["Match the required USB-C PD output to the laptop specifications"]
+    B -->|No| D{"How many phone recharges do you need?"}
+    D -->|Light daily use| E["Compare lower-capacity options and weight"]
+    D -->|Travel or extended use| F["Compare higher capacity, weight, and travel limits"]
+    C --> G["Review ports, cable, availability, and warranty terms"]
+    E --> G
+    F --> G
+
+    style A fill:#3b82f6,color:#fff,stroke:#2563eb
+    style G fill:#22c55e,color:#fff,stroke:#16a34a`)}
                 />
             </>
         ),
@@ -51,20 +59,29 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
                 <MermaidDiagram
                     title={isArabic ? '🗺️ خريطة اختيار شاحن الايفون' : '🗺️ iPhone Charger Selection Guide'}
                     locale={locale}
-                    chart={localizeChartBrands(`flowchart TD
-    A["What devices do you charge?"] --> B{"iPhone only?"}
-    B -->|Yes| C{"Want fastest speed?"}
-    C -->|Yes| D["Anker Nano 45W GaN\\n770 EGP"]
-    C -->|No| E["Anker 20W\\n400 EGP"]
-    B -->|No| F{"iPhone + MacBook?"}
-    F -->|Yes| G["Anker 65W GaN\\n999 EGP"]
-    F -->|No| H["Anker Nano 45W GaN\\n770 EGP"]
-    
+                    chart={chartByLocale(`flowchart TD
+    A["حدد موديل الايفون والأجهزة الأخرى"] --> B{"هل ستشحن جهازًا واحدًا؟"}
+    B -->|نعم| C["راجع القدرة ومعيار الشحن الموصى بهما من الشركة المصنّعة"]
+    B -->|لا| D["احسب توزيع القدرة بين المنافذ عند الاستخدام المتزامن"]
+    C --> E{"هل الكابل مناسب لمنفذ الهاتف والشاحن؟"}
+    D --> E
+    E -->|نعم| F["قارن الحجم والسعر والتوافر وشروط الضمان"]
+    E -->|لا| G["اختر كابلًا متوافقًا قبل الطلب"]
+
     style A fill:#f59e0b,color:#fff,stroke:#d97706
-    style D fill:#22c55e,color:#fff,stroke:#16a34a
-    style E fill:#3b82f6,color:#fff,stroke:#2563eb
-    style G fill:#8b5cf6,color:#fff,stroke:#7c3aed
-    style H fill:#22c55e,color:#fff,stroke:#16a34a`)}
+    style F fill:#22c55e,color:#fff,stroke:#16a34a
+    style G fill:#3b82f6,color:#fff,stroke:#2563eb`, `flowchart TD
+    A["Identify the iPhone model and any other devices"] --> B{"Will you charge one device?"}
+    B -->|Yes| C["Review the manufacturer-recommended output and charging standard"]
+    B -->|No| D["Check power allocation across ports during simultaneous charging"]
+    C --> E{"Does the cable match the phone and charger ports?"}
+    D --> E
+    E -->|Yes| F["Compare size, price, availability, and warranty terms"]
+    E -->|No| G["Choose a compatible cable before ordering"]
+
+    style A fill:#f59e0b,color:#fff,stroke:#d97706
+    style F fill:#22c55e,color:#fff,stroke:#16a34a
+    style G fill:#3b82f6,color:#fff,stroke:#2563eb`)}
                 />
             </>
         ),
@@ -74,51 +91,63 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
             <>
                 <BatteryCalculator locale={locale} />
                 <MermaidDiagram
-                    title={isArabic ? '🗺️ أيهما تختار: انكر أم Joyroom؟' : '🗺️ Anker vs Joyroom: Which to Choose?'}
+                    title={isArabic ? '🗺️ أيهما تختار: انكر أم جوي روم؟' : '🗺️ Anker vs Joyroom: Which to Choose?'}
                     locale={locale}
-                    chart={localizeChartBrands(`flowchart TD
-    A["What matters most?"] --> B{"Top quality + latest tech?"}
-    B -->|Yes| C["Choose Anker"]
-    B -->|No| D{"Budget is priority?"}
-    D -->|Yes| E["Choose Joyroom"]
-    D -->|No| F{"Need laptop charging?"}
-    F -->|Yes| G["Choose Anker\\n(GaN + Prime series)"]
-    F -->|No| H{"Want best earbuds?"}
-    H -->|Yes| I["Choose Anker\\n(Soundcore)"]
-    H -->|No| J["Choose Joyroom\\n(Great value)"]
-    
+                    chart={chartByLocale(`flowchart TD
+    A["حدد الجهاز والاستخدام"] --> B["اكتب القدرة والمنفذ والميزات المطلوبة"]
+    B --> C["كوّن قائمة موديلات مطابقة من انكر وجوي روم"]
+    C --> D["قارن المواصفات المنشورة والسعر الحالي والتوافر"]
+    D --> E["راجع مدة ضمان كايرو فولت وشروطه لكل موديل"]
+    E --> F["اختر الموديل الأنسب لاحتياجك وميزانيتك"]
+
     style A fill:#6366f1,color:#fff,stroke:#4f46e5
-    style C fill:#3b82f6,color:#fff,stroke:#2563eb
-    style E fill:#ef4444,color:#fff,stroke:#dc2626
-    style G fill:#3b82f6,color:#fff,stroke:#2563eb
-    style I fill:#3b82f6,color:#fff,stroke:#2563eb
-    style J fill:#ef4444,color:#fff,stroke:#dc2626`)}
+    style F fill:#22c55e,color:#fff,stroke:#16a34a`, `flowchart TD
+    A["Define the device and use case"] --> B["List the required output, port, and features"]
+    B --> C["Shortlist matching Anker and Joyroom models"]
+    C --> D["Compare published specifications, current price, and availability"]
+    D --> E["Review the CairoVolt warranty duration and terms for each model"]
+    E --> F["Choose the model that fits your needs and budget"]
+
+    style A fill:#6366f1,color:#fff,stroke:#4f46e5
+    style F fill:#22c55e,color:#fff,stroke:#16a34a`)}
                 />
             </>
         ),
 
-        // How to identify original Anker — verification flowchart
+        // Product-information review flowchart. Packaging cues alone are not proof.
         'how-to-identify-original-anker': (
             <MermaidDiagram
-                title={isArabic ? '🗺️ خطوات التحقق من أصالة منتج انكر' : '🗺️ Anker Authenticity Verification Steps'}
+                title={isArabic ? '🗺️ خطوات مراجعة بيانات منتج انكر' : '🗺️ Anker Product Information Checks'}
                 locale={locale}
-                chart={localizeChartBrands(`flowchart TD
-    A["Got an Anker product?"] --> B{"Has QR code?"}
-    B -->|No| X1["❌ Likely FAKE"]
-    B -->|Yes| C{"Scan: shows Authentic?"}
-    C -->|No| X2["❌ FAKE"]
-    C -->|Yes| D{"Weight matches specs?"}
-    D -->|No| X3["⚠️ Suspicious"]
-    D -->|Yes| E{"Smooth matte plastic?"}
-    E -->|No| X4["⚠️ Suspicious"]
-    E -->|Yes| F["✅ ORIGINAL"]
-    
+                chart={chartByLocale(`flowchart TD
+    A["راجع منتج انكر"] --> B{"هل رقم الموديل والقدرة يطابقان وثائق الشركة؟"}
+    B -->|لا| X1["أوقف المراجعة وتواصل مع البائع أو دعم الشركة"]
+    B -->|نعم| C{"هل توجد أداة تحقق من الشركة لهذا الموديل؟"}
+    C -->|نعم| D["اتبع تعليمات الأداة أو دعم الشركة"]
+    C -->|لا| E["احتفظ بالفاتورة وشروط ضمان البائع"]
+    D --> E
+    E --> F{"هل يوجد تلف أو سخونة غير معتادة؟"}
+    F -->|نعم| X2["توقف عن الاستخدام واطلب دعمًا مؤهلًا"]
+    F -->|لا| G["اكتملت المراجعة الأولية — وليست شهادة أصالة"]
+
     style A fill:#3b82f6,color:#fff
-    style F fill:#22c55e,color:#fff,stroke:#16a34a
-    style X1 fill:#ef4444,color:#fff,stroke:#dc2626
-    style X2 fill:#ef4444,color:#fff,stroke:#dc2626
-    style X3 fill:#f59e0b,color:#fff,stroke:#d97706
-    style X4 fill:#f59e0b,color:#fff,stroke:#d97706`)}
+    style G fill:#22c55e,color:#fff,stroke:#16a34a
+    style X1 fill:#f59e0b,color:#fff,stroke:#d97706
+    style X2 fill:#ef4444,color:#fff,stroke:#dc2626`, `flowchart TD
+    A["Review an Anker product"] --> B{"Do the model number and rating match manufacturer documentation?"}
+    B -->|No| X1["Pause and contact the seller or manufacturer support"]
+    B -->|Yes| C{"Is a manufacturer verification tool available for this model?"}
+    C -->|Yes| D["Follow the tool or manufacturer support instructions"]
+    C -->|No| E["Keep the invoice and the seller's warranty terms"]
+    D --> E
+    E --> F{"Is there damage or unusual heat?"}
+    F -->|Yes| X2["Stop use and seek qualified support"]
+    F -->|No| G["Initial checks complete — not an authenticity certificate"]
+
+    style A fill:#3b82f6,color:#fff
+    style G fill:#22c55e,color:#fff,stroke:#16a34a
+    style X1 fill:#f59e0b,color:#fff,stroke:#d97706
+    style X2 fill:#ef4444,color:#fff,stroke:#dc2626`)}
             />
         ),
 
@@ -127,20 +156,33 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
             <MermaidDiagram
                 title={isArabic ? '🗺️ خريطة اختيار السماعة المناسبة' : '🗺️ Earbuds Selection Guide'}
                 locale={locale}
-                chart={localizeChartBrands(`flowchart TD
-    A["What's your priority?"] --> B{"Noise Cancellation?"}
-    B -->|Yes| C["Soundcore Liberty 4 NC\\n~2,570 EGP"]
-    B -->|No| D{"Budget under 500 EGP?"}
-    D -->|Yes| E["Joyroom T03S\\n774 EGP"]
-    D -->|No| F{"Want AirPods look?"}
-    F -->|Yes| G["Joyroom T03S Pro\\n664 EGP"]
-    F -->|No| H["Soundcore R50i\\n~900 EGP"]
-    
+                chart={chartByLocale(`flowchart TD
+    A["حدد استخدامك الأساسي"] --> B{"هل تحتاج عزل ضوضاء؟"}
+    B -->|نعم| C["قارن موديلات ANC ودرجة الملاءمة والبطارية"]
+    B -->|لا| D{"هل الأولوية للمكالمات أم الموسيقى أم الرياضة؟"}
+    D -->|مكالمات| E["راجع مواصفات الميكروفون وتعدد الأجهزة"]
+    D -->|موسيقى| F["راجع الكودكات وخيارات EQ"]
+    D -->|رياضة| G["راجع الثبات ومقاومة الماء"]
+    C --> H["قارن السعر الحالي والتوافر وشروط الضمان"]
+    E --> H
+    F --> H
+    G --> H
+
     style A fill:#8b5cf6,color:#fff,stroke:#7c3aed
-    style C fill:#3b82f6,color:#fff,stroke:#2563eb
-    style E fill:#ef4444,color:#fff,stroke:#dc2626
-    style G fill:#ef4444,color:#fff,stroke:#dc2626
-    style H fill:#3b82f6,color:#fff,stroke:#2563eb`)}
+    style H fill:#22c55e,color:#fff,stroke:#16a34a`, `flowchart TD
+    A["Define the main use case"] --> B{"Do you need noise cancellation?"}
+    B -->|Yes| C["Compare ANC models, fit, and battery specifications"]
+    B -->|No| D{"Are calls, music, or exercise the priority?"}
+    D -->|Calls| E["Review microphone and multipoint specifications"]
+    D -->|Music| F["Review codecs and EQ options"]
+    D -->|Exercise| G["Review fit and water-resistance rating"]
+    C --> H["Compare current price, availability, and warranty terms"]
+    E --> H
+    F --> H
+    G --> H
+
+    style A fill:#8b5cf6,color:#fff,stroke:#7c3aed
+    style H fill:#22c55e,color:#fff,stroke:#16a34a`)}
             />
         ),
 
@@ -151,23 +193,31 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
                 <MermaidDiagram
                     title={isArabic ? '🗺️ دورة حياة بطارية الباور بانك' : '🗺️ Power Bank Battery Lifecycle'}
                     locale={locale}
-                    chart={`flowchart LR
-    A["New\\n100% capacity"] --> B["Year 1\\n~95% capacity"]
-    B --> C["Year 2\\n~85% capacity"]
-    C --> D["Year 3\\n~70% capacity"]
-    D --> E["Replace?"]
-    
-    F["Bad habits"] -.->|"Heat + full drain"| G["Year 1\\n~60% capacity"]
-    G -.-> H["Needs replacing"]
-    
+                    chart={chartByLocale(`flowchart LR
+    A["باور بانك جديد"] --> B["استخدام وشحن وفق تعليمات الشركة"]
+    B --> C["راقب مدة التشغيل والحالة الجسدية"]
+    C --> D{"هل يوجد انتفاخ أو تلف أو سخونة غير معتادة؟"}
+    D -->|نعم| E["توقف عن الاستخدام واطلب دعمًا مؤهلًا"]
+    D -->|لا| F["استمر في الاستخدام والمراقبة"]
+    G["حرارة عالية أو تفريغ متكرر"] -.-> H["قد يسرّع تآكل البطارية"]
+    H -.-> C
+
     style A fill:#22c55e,color:#fff
-    style B fill:#84cc16,color:#fff
-    style C fill:#eab308,color:#fff
-    style D fill:#f97316,color:#fff
     style E fill:#ef4444,color:#fff
-    style F fill:#991b1b,color:#fff
-    style G fill:#ef4444,color:#fff
-    style H fill:#7f1d1d,color:#fff`}
+    style F fill:#84cc16,color:#fff
+    style G fill:#991b1b,color:#fff`, `flowchart LR
+    A["New power bank"] --> B["Use and charge according to manufacturer guidance"]
+    B --> C["Monitor runtime and physical condition"]
+    C --> D{"Any swelling, damage, or unusual heat?"}
+    D -->|Yes| E["Stop use and seek qualified support"]
+    D -->|No| F["Continue use and monitoring"]
+    G["High heat or repeated deep discharge"] -.-> H["May accelerate battery wear"]
+    H -.-> C
+
+    style A fill:#22c55e,color:#fff
+    style E fill:#ef4444,color:#fff
+    style F fill:#84cc16,color:#fff
+    style G fill:#991b1b,color:#fff`)}
                 />
             </>
         ),

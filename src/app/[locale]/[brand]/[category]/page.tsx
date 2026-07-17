@@ -82,7 +82,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const catProducts = getLandingPageProducts(brandKey, categoryKey);
     const productCount = catProducts.length;
 
-    const arTitle = `أفضل ${arCategoryName} ⚡ ${productCount} منتج | الأسعار والتوصيل في مصر`;
+    const arTitle = `${arCategoryName} ⚡ ${productCount} منتج | الأسعار والتوصيل في مصر`;
     const enTitle = `${enCategoryName} in Egypt ⚡ ${productCount} Products | Prices & COD`;
 
     const dynamicTitle = isArabic ? arTitle : enTitle;
@@ -143,8 +143,8 @@ export default async function DynamicCategoryPage({ params }: Props) {
     // This prevents "empty" pages if client-side fetching fails
     const categoryProducts = getLandingPageProducts(brandKey, categoryKey);
 
-    // Default order = demand order: curated best sellers first (same ranking
-    // the brand hubs use), then the rest in catalog order. This drives both
+    // Default order = curated catalogue picks first (the same order used by
+    // brand hubs), then the rest in catalogue order. This drives both
     // the visible grid AND the ItemList schema positions.
     const bestSellerRank = new Map(
         [...ankerBestSellers, ...soundcoreBestSellers].map((slug, idx) => [slug, idx]),
@@ -164,7 +164,6 @@ export default async function DynamicCategoryPage({ params }: Props) {
         brand: p.brand,
         categorySlug: p.categorySlug,
         price: p.price,
-        originalPrice: p.originalPrice,
         images: p.images.map(img => ({ url: img.url, alt: img.alt, isPrimary: img.isPrimary })),
         translations: p.translations
     }));

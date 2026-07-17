@@ -4,14 +4,14 @@ export const anker_nano_45w_smart_display_charger = {
     gtin: "6978252855843", gtin13: "6978252855843", mpn: "A121D", price: 1900, originalPrice: 2700, stock: 450, featured: true, status: "active",
     images: [
         { id: "img_1", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-charger-front-180-foldable-white-cairovolt.webp", alt: "Anker Nano 45W Smart Display charger A121D front view with 180° foldable plug and Hi greeting animation on TFT screen - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-        { id: "img_2", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-perfect-match-iphone-17-tuv-reddot-cairovolt.webp", alt: "شاحن انكر نانو A121D بقوة 45 واط مع ايفون 17 - حائز على جائزة Red Dot 2026 وشهادة TÜV Rheinland - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-        { id: "img_3", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-fast-charging-iphone-17-pro-50-percent-20-minutes-cairovolt.webp", alt: "Anker A121D 45W fast charging iPhone 17 Pro to 50% in just 20 minutes with smart display showing real-time wattage - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-        { id: "img_4", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-size-comparison-airpods-baseball-compact-cairovolt.webp", alt: "مقارنة حجم شاحن انكر نانو A121D بقوة 45 واط بعلبة ايربودز وكرة بيسبول - أصغر شاحن 45 واط في العالم - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-        { id: "img_5", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-care-mode-tap-switch-sleep-battery-protection-overnight-cairovolt.webp", alt: "Anker A121D 45W Care Mode overnight battery protection - double tap to switch between Auto and Care charging modes on smart display - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-perfect-match-iphone-17-tuv-reddot-cairovolt.webp", alt: "شاحن انكر نانو A121D بقوة 45 واط مع هاتف متوافق وشاشة ذكية - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-fast-charging-iphone-17-pro-50-percent-20-minutes-cairovolt.webp", alt: "Anker A121D 45W USB-C charger connected to an iPhone with charging information on its display - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-size-comparison-airpods-baseball-compact-cairovolt.webp", alt: "مقارنة توضيحية لحجم شاحن انكر نانو A121D بقوة 45 واط مع أشياء يومية - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-care-mode-tap-switch-sleep-battery-protection-overnight-cairovolt.webp", alt: "Anker A121D 45W charger display showing selectable Auto and Care modes - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
         { id: "img_6", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-180-degree-foldable-prongs-flexible-plug-cairovolt.webp", alt: "شاحن انكر نانو A121D بقوة 45 واط بقابس قابل للطي 180 درجة - مقارنة زوايا 0° و90° و180° للتوصيل في الأماكن الضيقة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
         { id: "img_7", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-four-colors-white-blue-orange-black-cairovolt.webp", alt: "Anker Nano A121D 45W Smart Display charger available in 4 colors white blue orange black with animated AI display - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
         { id: "img_8", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-internal-gan-chip-exploded-view-technology-cairovolt.webp", alt: "Anker Nano A121D 45W GaN charger internal exploded view showing GaN chip layers and smart display circuit board - CairoVolt", order: 7, isPrimary: false, width: 1080, height: 1080 },
-        { id: "img_9", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-a121d-retail-box-front-specifications-cairovolt.webp", alt: "علبة شاحن انكر نانو A121D بقوة 45 واط الأصلية من الأمام مع مواصفات الشحن السريع والشاشة الذكية - كايرو فولت", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-a121d-retail-box-front-specifications-cairovolt.webp", alt: "علبة شاحن انكر نانو A121D من الأمام مع مواصفات الشحن والشاشة - كايرو فولت", order: 8, isPrimary: false, width: 1080, height: 1080 },
         { id: "img_10", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-a121d-box-back-full-specs-100-240v-input-cairovolt.webp", alt: "Anker Nano A121D 45W smart display charger box back with full specifications model number barcode and safety certifications - CairoVolt", order: 9, isPrimary: false, width: 1080, height: 1080 },
         { id: "img_11", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-screen-fast45w-care-mode-ai-cairovolt.webp", alt: "شاشة شاحن انكر A121D الذكية تعرض سرعة الشحن 45 واط ونسبة البطارية ووضع العناية AI Care Mode - كايرو فولت", order: 10, isPrimary: false, width: 1080, height: 1080 }
     ],
@@ -26,117 +26,112 @@ export const anker_nano_45w_smart_display_charger = {
     ],
     translations: {
         en: {
-            name: "Anker Nano 45W Smart Display GaN Charger (A121D) | 180° Foldable | Care Mode | TÜV + Red Dot 2026 | 18-Month Warranty",
-            shortDescription: "⚡ 45W GaN USB-C PD 3.0 | 📺 Smart Display with AI Animations | 📱 iPhone 17 Pro 0→50% in 20 Min | 🔄 180° Foldable Plug | 🛡️ TÜV-Certified Care Mode | 🏆 Red Dot Winner 2026 | 💤 Overnight Battery Protection | 🎨 4 Colors",
+            name: "Anker Nano 45W Smart Display GaN Charger (A121D) | 180° Foldable Plug | USB-C PD",
+            shortDescription: "⚡ Up to 45W USB-C output | 📺 Integrated smart display | 🔄 180° foldable plug | 🔌 Match the printed PD/PPS profiles to your device | 🎨 Color availability shown on the page",
             description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike standard chargers that leave you guessing, the Anker Nano 45W Smart Display (A121D) is the <strong>world's first GaN charger with an interactive TFT display</strong> — showing real-time wattage, battery percentage, and AI animations while it charges. 45W USB-C PD 3.0 output charges iPhone 17 Pro from 0→50% in just 20 minutes. TÜV Rheinland-certified Care Mode protects your battery overnight. Red Dot Design Award 2026 winner with 180° foldable plug. Available at <strong>EGP 1900</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker Nano 45W Smart Display (A121D)</strong> combines a single USB-C charging port, a compact body, an integrated display and a 180° foldable plug. Its rated ceiling is 45W; the power a phone, tablet or laptop actually draws depends on the output profile printed on the unit, the cable and the device's supported protocol. Confirm the exact display functions, package contents and compliance marks on the physical product, then review the live price, stock and applicable CairoVolt warranty on this page.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
-    <li>⚡ <strong>45W GaN Output:</strong> Single USB-C PD 3.0 — fast charges iPhone 17 Pro, Samsung S26 Ultra, iPad Pro, and MacBook Air M4.</li>
-    <li>📺 <strong>Smart TFT Display:</strong> Real-time wattage, battery %, device name recognition, AI character animations — not a dumb LED, a full dashboard.</li>
-    <li>🔄 <strong>180° Foldable Plug:</strong> Full-rotation prongs fit tight outlets, power strips, and behind furniture — tested 1000+ fold cycles.</li>
-    <li>🛡️ <strong>TÜV Care Mode:</strong> Double-tap to activate overnight protection. Charger stays 36°F cooler, phone battery 9°F cooler. Extends battery lifespan.</li>
-    <li>🏆 <strong>Red Dot 2026:</strong> Award-winning design — compact enough to sit next to AirPods case.</li>
-    <li>🎨 <strong>4 Colors:</strong> Available in White, Arctic Blue, Sunset Orange, and Midnight Black.</li>
-<li>💰 <strong>3.52 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
+    <li>⚡ <strong>45W class:</strong> Check the printed USB-C output profiles to confirm the maximum available for your device.</li>
+    <li>📺 <strong>Integrated display:</strong> Presents charging information and status; available fields can vary by connected device and firmware.</li>
+    <li>🔄 <strong>180° foldable plug:</strong> Helps position the charger in supported wall outlets and power strips.</li>
+    <li>🔌 <strong>One USB-C port:</strong> One device charges at a time; a suitable cable is required.</li>
+    <li>🎨 <strong>Finish options:</strong> Select only the color currently shown as available on this page.</li>
+    <li>💰 <strong>Current listing:</strong> Review the live price, stock, package contents and applicable warranty before ordering.</li></ul></div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The A121D changes what a charger can be. That display isn't gimmicky — it tells you exactly what's happening: 'Fast 45W → iPhone 17 Pro Max → 15%' with animated AI characters. We tested it through Cairo's summer voltage fluctuations and the Care Mode is genuinely smart — it slows charging at 80% overnight so your battery doesn't cook. The 180° foldable plug solved our behind-the-nightstand problem that no other charger could. At 45W, it's the perfect single-charger solution for iPhone AND MacBook Air. GaN keeps it cool at 44°C max. At 1900 EGP with 30% off, this is the most feature-packed charger we've ever tested."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A121D</strong>, start with the manufacturer-rated input/output profiles, port layout and supported charging protocols printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">Smart Display: Your Charging Dashboard</h2>
-    <p class="text-gray-700">This isn't another charger with a number on it. The <strong>TFT Smart Display</strong> shows: real-time wattage (e.g. "Fast 45W"), current battery percentage, <strong>device name recognition</strong> (it knows it's charging "iPhone 17 Pro Max" and displays it), charging mode indicator, and Anker's signature AI character animations. The display uses minimal power — less than 0.1W — and auto-dims after charging completes. In Egypt's frequent power fluctuation environment, seeing exactly what voltage your charger is delivering gives real peace of mind.</p></section>
-    <section><h2 class="text-2xl font-bold mb-2">Care Mode: TÜV-Certified Battery Protection</h2>
-    <p class="text-gray-700">Double-tap the charger to switch between <strong>Auto</strong> (fastest charging) and <strong>Care</strong> (battery-first) modes. Care Mode is <strong>TÜV Rheinland certified</strong> — it intelligently slows charging when your phone hits 80%, keeping the charger 36°F cooler and the phone battery 9°F cooler overnight. This matters in Egypt where ambient temperatures already stress batteries. After 12 months of nightly Care Mode use, expect <strong>15-20% better battery health</strong> vs standard fast charging.</p></section>
+    <p class="text-gray-700">The integrated display is intended to make charging status easier to read. Verify which fields the A121D supports from the box or manual: some connected devices expose more information than others, so a device name or battery percentage should not be assumed for every phone or laptop. Treat any displayed power figure as a live status indicator, not as an independent laboratory meter.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2">Charging Modes: Check the A121D Instructions</h2>
+    <p class="text-gray-700">If the supplied unit lists Auto or Care modes, use the controls exactly as described in the manufacturer instructions. Charging temperature and battery ageing depend on the device, ambient temperature, cable, workload and charging settings; no mode can guarantee a particular battery-health result. For unattended charging, follow the phone and charger safety guidance, keep ventilation clear and stop using damaged equipment.</p></section>
     <section><h2 class="text-2xl font-bold mb-2">180° Foldable Plug: Fits Everywhere</h2>
-    <p class="text-gray-700">Standard foldable plugs fold to 0° (flat) or 90° (up). The A121D's prongs rotate a full <strong>180°</strong> — meaning you can angle them in any direction. Behind the nightstand? Behind the sofa? Crowded power strip at a Cairo café? This plug adapts. Tested at 1000+ fold cycles with zero loosening. Combined with its compact GaN body smaller than an AirPods case, this is the most travel-friendly 45W charger available.</p></section>
+    <p class="text-gray-700">The foldable mechanism can make the charger easier to pack and position, but it does not make every angle or socket safe. Insert it fully into a compatible outlet, avoid forcing the hinge, leave space for ventilation and inspect the plug for looseness or damage over time. The 100–240V input, if printed on your unit, describes voltage acceptance; a destination-specific plug adapter may still be required when travelling.</p></section>
 </div>
-<div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
+<div class="device-compatibility"><h3 class="font-bold mb-2">Compatibility guide based on listed specifications:</h3>
 <ul class="list-disc list-inside text-gray-700">
-    <li>📱 <strong>iPhone 17/16/15 series:</strong> 45W PD fast charging — 0→50% in ~20 minutes. Display shows device name.</li>
-    <li>📱 <strong>Samsung Galaxy S26/S25 Ultra:</strong> Full PD + PPS fast charging via USB-C.</li>
-    <li>📱 <strong>iPad Pro / iPad Air:</strong> 45W PD — significantly faster than the included 20W charger.</li>
-    <li>💻 <strong>MacBook Air M3/M4:</strong> Full-speed 45W charging — complete charge in ~2 hours.</li>
-    <li>🎧 <strong>AirPods Pro / Galaxy Buds:</strong> Efficient low-power trickle charging with animated display.</li>
-    <li>⌚ <strong>Apple Watch (USB-C cable):</strong> Full-speed charging support.</li>
+    <li>📱 <strong>USB-C iPhone models:</strong> Use a USB-C cable and confirm the phone's USB-PD input; charge time varies by model, battery level and temperature.</li>
+    <li>📱 <strong>Samsung Galaxy devices:</strong> Confirm that the A121D label lists the PD/PPS profile required by the exact device.</li>
+    <li>📱 <strong>iPad and other tablets:</strong> Compatible when their required USB-C PD profile is within the charger's printed output table.</li>
+    <li>💻 <strong>USB-C laptops:</strong> Suitable only for models whose required wattage does not exceed the supported profile; high-power laptops may charge slowly or not at all.</li>
+    <li>🎧 <strong>Earbuds and accessories:</strong> Use the manufacturer's recommended USB-C cable and charging conditions.</li>
 </ul></div>
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Smart Display chargers are prime counterfeiting targets due to high demand. Fake versions use cheap TN panels that show incorrect wattage, lack Care Mode certification, and may overheat. Always verify at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a> using the scratch-off security label.</p>
+    <p class="text-gray-700">Match model <strong>A121D</strong> and its input/output table on the charger with the box and order listing. If the package includes a manufacturer verification label, follow its printed instructions and the current guidance on <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">Anker's verification page</a>; do not rely on appearance alone. Stop use if the plug, port, cable or body is damaged or becomes unusually hot.</p>
 </div>
 `,
-            features: ["⚡ 45W GaN USB-C Charger", "📺 Smart Display with AI", "📱 iPhone 0→50% in 20 Min", "🔄 180° Foldable Plug", "🛡️ TÜV Care Mode", "🏆 Red Dot 2026", "💤 Overnight Protection", "🌍 100-240V Universal", "🏆 18-Month Warranty", "🔒 UL + FCC + CE Certified → Global Safety Standards"],
-            metaTitle: "Anker Nano 45W Smart Display ⚡ 30% OFF | Care Mode | COD",
-            metaDesc: "Buy Anker Nano 45W Smart Display GaN Charger (A121D) in Egypt. iPhone 17 Pro 0→50% in 20 min. 180° foldable plug. TÜV Care Mode. ✓ 18-Month Warranty ✓ COD.",
+            features: ["⚡ Up to 45W USB-C output", "📺 Integrated smart display", "🔄 180° foldable plug", "🔌 Single USB-C port", "🌍 Check 100–240V marking on unit", "🧾 Model A121D", "🏆 Warranty follows the current product policy", "🔎 Verify output and compliance marks on the unit"],
+            metaTitle: "Anker Nano A121D 45W Smart Display Charger | Egypt",
+            metaDesc: "Shop Anker Nano A121D 45W USB-C charger with smart display and 180° foldable plug in Egypt. Check live price, stock, output profiles and warranty terms.",
             faqs: [
-                { question: "What does the Smart Display show?", answer: "Five live data points at once: output wattage, battery level, connected device name, current charging mode, and AI animations. The display auto-dims when charging completes and consumes under 0.1W — no impact on charging speed." },
-                { question: "Can this charge a MacBook Air?", answer: "Yes. MacBook Air M3/M4 requires 30-45W — this charger maxes it out. For MacBook Pro 14\", it provides slower travel charging. You'll need a USB-C to USB-C cable rated for 45W+ (sold separately)." },
-                { question: "What is Care Mode and how do I activate it?", answer: "Two quick taps on the charger body toggles between Auto and Care. In Care mode, charging slows at 80% to reduce heat stress overnight. TÜV Rheinland verified the battery health benefit — expect 15-20% better battery capacity retention after 12 months of nightly use." },
-                { question: "What makes the 180° foldable plug special?", answer: "Full-rotation prongs let you plug in at any angle — especially useful behind Egyptian nightstands and crowded multi-sockets. The mechanism is rated for 1000+ cycles without loosening. No adapter needed for Egyptian 220V outlets." },
-                { question: "Does the 18-month warranty cover the display?", answer: "Yes — display, port, internal circuitry, and overheating protection are all covered. CairoVolt handles replacements directly within Egypt. Keep your order confirmation as proof of purchase." }
+                { question: "What does the Smart Display show?", answer: "The display presents charging and status information. Confirm the exact fields supported by model A121D in the supplied manual because available data can vary with the connected device and firmware." },
+                { question: "Can this charge a USB-C laptop?", answer: "It can charge a laptop only when the laptop accepts one of the A121D output profiles and its required power is within the 45W class. Check both labels and use a suitably rated USB-C cable; higher-power laptops may charge slowly or not at all." },
+                { question: "How should I use Auto or Care mode?", answer: "Follow the control sequence and behaviour described in the supplied A121D instructions. Battery temperature and ageing depend on many conditions, so the mode should not be treated as a guarantee of a specific battery-health improvement." },
+                { question: "What is the benefit of the 180° foldable plug?", answer: "It can help with packing and positioning in compatible outlets. Do not force the hinge or use an unstable socket, and check whether a plug adapter is required for the destination." },
+                { question: "What does the warranty cover?", answer: "Coverage, duration, exclusions and the process are governed by the warranty terms currently shown for this listing. Keep the order confirmation and contact CairoVolt before returning the unit." }
             ]
         },
         ar: {
-            name: "شاحن أنكر نانو 45 واط بشاشة ذكية (A121D) | قابس 180° | وضع العناية | TÜV + Red Dot 2026 | ضمان 18 شهر",
-            shortDescription: "⚡ 45 واط GaN بمنفذ USB-C PD 3.0 | 📺 شاشة ذكية بأنيميشن AI | 📱 ايفون 17 برو من 0 لـ 50% في 20 دقيقة | 🔄 قابس قابل للطي 180° | 🛡️ وضع العناية بشهادة TÜV | 🏆 فائز Red Dot 2026 | 💤 حماية بطارية ليلية | 🎨 4 ألوان",
+            name: "شاحن انكر نانو 45 واط بشاشة ذكية (A121D) | قابس 180° | USB-C PD",
+            shortDescription: "⚡ خرج USB-C حتى 45 واط | 📺 شاشة ذكية مدمجة | 🔄 قابس قابل للطي 180° | 🔌 طابق بروفايلات PD/PPS المطبوعة مع جهازك | 🎨 الألوان حسب المتاح",
             description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الشواحن العادية اللي مش بتعرف إيه اللي بيحصل جوّاها، شاحن أنكر نانو 45 واط (A121D) هو <strong>أول شاحن GaN في العالم بشاشة TFT ذكية تفاعلية</strong> — بتعرض الواط الحقيقي ونسبة البطارية واسم جهازك وأنيميشن AI وهو بيشحن. 45 واط USB-C PD 3.0 بيشحن ايفون 17 برو من 0 لـ 50% في 20 دقيقة بس. وضع العناية Care Mode معتمد من TÜV Rheinland بيحمي بطاريتك بالليل. فائز بجائزة Red Dot 2026 بقابس قابل للطي 180°. بسعر <strong>1900 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed">شاحن <strong>انكر نانو 45 واط بشاشة ذكية (A121D)</strong> يجمع منفذ USB-C واحداً وشاشة مدمجة وجسماً صغيراً وقابساً قابلاً للطي 180°. الحد الاسمي 45 واط، لكن الطاقة التي يستقبلها الهاتف أو التابلت أو اللابتوب تعتمد على بروفايل الخرج المطبوع والكابل والبروتوكول الذي يدعمه الجهاز. تحقّق من وظائف الشاشة ومحتويات العبوة وعلامات المطابقة على المنتج الفعلي، وراجع السعر والمخزون والضمان المطبق حالياً في الصفحة.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">
-    <li>⚡ <strong>45 واط GaN:</strong> منفذ USB-C واحد بـ PD 3.0 — بيشحن ايفون 17 برو وسامسونج S26 الترا وايباد برو وماك بوك اير M4.</li>
-    <li>📺 <strong>شاشة TFT ذكية:</strong> بتعرض الواط الحقيقي ونسبة البطارية واسم الجهاز وأنيميشن AI — مش LED بسيط، ده داشبورد شحن كامل.</li>
-    <li>🔄 <strong>قابس 180°:</strong> السنون بتلف 180 درجة كاملة — بيدخل في الفيش الضيقة والمشتركات وورا الأثاث. متجرب 1000+ مرة.</li>
-    <li>🛡️ <strong>وضع العناية TÜV:</strong> انقر مرتين عشان تفعّل الحماية الليلية. الشاحن بيفضل أبرد بـ 20°C والبطارية أبرد بـ 5°C.</li>
-    <li>🏆 <strong>Red Dot 2026:</strong> تصميم حائز على جائزة — أصغر من علبة ايربودز.</li>
-    <li>🎨 <strong>4 ألوان:</strong> أبيض، أزرق سماوي، برتقالي، وأسود.</li>
+    <li>⚡ <strong>فئة 45 واط:</strong> راجع جدول خرج USB-C المطبوع لتأكيد أقصى طاقة متاحة لجهازك.</li>
+    <li>📺 <strong>شاشة مدمجة:</strong> تعرض معلومات وحالة الشحن؛ التفاصيل المتاحة قد تختلف حسب الجهاز والبرنامج الداخلي.</li>
+    <li>🔄 <strong>قابس 180°:</strong> يساعد في وضع الشاحن داخل المقابس والمشتركات المتوافقة.</li>
+    <li>🔌 <strong>منفذ USB-C واحد:</strong> يشحن جهازاً واحداً في كل مرة ويحتاج كابلاً مناسباً.</li>
+    <li>🎨 <strong>خيارات اللون:</strong> اختر اللون الظاهر كمتاح حالياً في الصفحة.</li>
+    <li>💰 <strong>بيانات الشراء:</strong> راجع السعر والمخزون ومحتويات العبوة والضمان المطبق قبل الطلب.</li>
 </ul></div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ A121D غيّر فكرة الشاحن عندنا. الشاشة مش للفشخرة — بتقولك بالضبط إيه اللي بيحصل: 'Fast 45W → iPhone 17 Pro Max → 15%' مع شخصيات AI متحركة. جرّبناه في تذبذب فولتية صيف القاهرة ووضع العناية ذكي فعلاً — بيبطّئ الشحن عند 80% بالليل عشان البطارية متتأذيش. القابس 180° حل مشكلة الشحن ورا الكومودينو اللي مفيش شاحن تاني قدر يحلها. بـ 45 واط، ده شاحن واحد لايفونك وماك بوك اير في نفس الوقت. الـ GaN بيخليه بارد — 44°C كحد أقصى. بـ 1900 جنيه مع خصم 30%، أكتر شاحن فيه مميزات جرّبناه لحد النهارده."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A121D</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">الشاشة الذكية: داشبورد الشحن بتاعك</h2>
-    <p class="text-gray-700">ده مش شاحن عليه رقم وخلاص. <strong>شاشة TFT الذكية</strong> بتعرض: الواط الحقيقي (مثلاً "Fast 45W")، نسبة البطارية الحالية، <strong>اسم الجهاز</strong> (بيعرف إنه بيشحن "iPhone 17 Pro Max" وبيعرضه)، مؤشر وضع الشحن، وشخصيات AI المتحركة من أنكر. الشاشة بتستهلك أقل من 0.1 واط — وبتطفي لوحدها بعد ما الشحن يخلص. في ظل تذبذب كهرباء مصر المتكرر، إنك تشوف بالضبط كام واط بيوصل لجهازك — ده راحة بال حقيقية.</p></section>
-    <section><h2 class="text-2xl font-bold mb-2">وضع العناية: حماية بطارية معتمدة من TÜV</h2>
-    <p class="text-gray-700">انقر مرتين على الشاحن عشان تتحول بين <strong>Auto</strong> (أسرع شحن) و<strong>Care</strong> (البطارية أولاً). وضع العناية <strong>معتمد من TÜV Rheinland</strong> — بيبطّئ الشحن بذكاء لما موبايلك يوصل 80%، الشاحن بيفضل أبرد بـ 20°C والبطارية أبرد بـ 5°C بالليل. ده مهم جداً في مصر لأن الحرارة المحيطة أصلاً بتضغط على البطاريات. بعد 12 شهر استخدام يومي لوضع العناية، توقع <strong>صحة بطارية أحسن بـ 15-20%</strong> مقارنة بالشحن السريع العادي.</p></section>
+    <p class="text-gray-700">الغرض من الشاشة المدمجة هو تسهيل قراءة حالة الشحن. راجع العبوة أو الدليل لمعرفة البيانات التي يدعمها الموديل A121D؛ بعض الأجهزة تتيح معلومات أكثر من غيرها، فلا تفترض ظهور اسم الجهاز أو نسبة البطارية مع كل هاتف أو لابتوب. اعتبر رقم الطاقة المعروض مؤشراً للحالة وليس جهاز قياس معملياً مستقلاً.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2">أوضاع الشحن: ارجع إلى تعليمات A121D</h2>
+    <p class="text-gray-700">إذا كانت الوحدة الموردة تتضمن وضعي Auto أو Care، فاستخدم التحكم كما هو موضح في تعليمات الشركة المصنّعة. حرارة الشحن وعمر البطارية يتأثران بالجهاز والحرارة والكابل والاستخدام والإعدادات؛ لذلك لا يضمن أي وضع نسبة محددة لتحسن صحة البطارية. اترك تهوية كافية وتوقف عن استخدام أي شاحن أو كابل تالف.</p></section>
     <section><h2 class="text-2xl font-bold mb-2">قابس 180°: بيتركب في أي مكان</h2>
-    <p class="text-gray-700">القوابس العادية القابلة للطي بتتطوي مسطح بس (0° أو 90°). قابس الـ A121D بيلف <strong>180° كاملة</strong> — يعني تقدر تخليه في أي زاوية. ورا الكومودينو؟ ورا الكنبة؟ مشترك كهرباء مزحوم في كافيه في القاهرة؟ القابس ده بيتأقلم. متجرب 1000+ مرة طي من غير أي تخلخل. مع جسمه الصغير بتقنية GaN — أصغر من علبة ايربودز — ده أكتر شاحن 45 واط مناسب للسفر.</p></section>
+    <p class="text-gray-700">آلية الطي تساعد في التخزين وتحديد الوضع داخل المقابس المتوافقة، لكنها لا تجعل كل زاوية أو مقبس مناسباً. أدخل القابس بالكامل ولا تضغط على المفصلة واترك مساحة للتهوية وافحصه دورياً. إذا كان دخل 100–240 فولت مطبوعاً على وحدتك فهذا يصف نطاق الجهد، وقد تظل بحاجة إلى محول شكل القابس عند السفر.</p></section>
 </div>
-<div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر:</h3>
+<div class="device-compatibility"><h3 class="font-bold mb-2">دليل توافق حسب المواصفات:</h3>
 <ul class="list-disc list-inside text-gray-700">
-    <li>📱 <strong>ايفون 17/16/15:</strong> شحن PD سريع 45 واط — من 0 لـ 50% في ~20 دقيقة. الشاشة بتعرض اسم الجهاز.</li>
-    <li>📱 <strong>سامسونج جالكسي S26/S25 الترا:</strong> شحن PD + PPS سريع كامل عبر USB-C.</li>
-    <li>📱 <strong>ايباد برو / ايباد اير:</strong> شحن PD بـ 45 واط — أسرع بكتير من الشاحن المرفق 20 واط.</li>
-    <li>💻 <strong>ماك بوك اير M3/M4:</strong> شحن بالسرعة الكاملة 45 واط — شحن كامل في ~ساعتين.</li>
-    <li>🎧 <strong>ايربودز برو / Galaxy Buds:</strong> شحن هادئ وكفء مع عرض أنيميشن على الشاشة.</li>
-    <li>⌚ <strong>ابل واتش (كابل USB-C):</strong> شحن بالسرعة الكاملة.</li>
+    <li>📱 <strong>موديلات ايفون USB-C:</strong> استخدم كابل USB-C وتأكد من دعم الهاتف لـUSB-PD؛ الوقت يتغير حسب الموديل والبطارية والحرارة.</li>
+    <li>📱 <strong>أجهزة سامسونج جالكسي:</strong> تأكد أن ملصق A121D يذكر بروفايل PD/PPS المطلوب لموديلك.</li>
+    <li>📱 <strong>ايباد والتابلت:</strong> متوافق عندما يكون بروفايل USB-C PD المطلوب ضمن جدول الخرج المطبوع.</li>
+    <li>💻 <strong>لابتوب USB-C:</strong> مناسب فقط إذا كانت الطاقة المطلوبة ضمن البروفايل المدعوم؛ الأجهزة الأعلى طاقة قد تشحن ببطء أو لا تشحن.</li>
+    <li>🎧 <strong>السماعات والاكسسوارات:</strong> استخدم الكابل وظروف الشحن التي توصي بها الشركة المصنّعة.</li>
 </ul></div>
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">شواحن الشاشة الذكية هدف رئيسي للتقليد بسبب الطلب العالي. النسخ المقلدة بتستخدم شاشات TN رخيصة بتعرض واط غلط ومفيهاش وضع العناية المعتمد وممكن تسخن. تأكد دايماً من أصالة منتج أنكر على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a> باستخدام ملصق الأمان على العلبة.</p>
+    <p class="text-gray-700">طابق رقم الموديل <strong>A121D</strong> وجدول الدخل والخرج على الشاحن مع العبوة وصفحة الطلب. إذا تضمنت العبوة ملصق تحقق من الشركة المصنّعة فاتبع التعليمات المطبوعة عليه والإرشادات الحالية في <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">صفحة تحقق انكر</a> ولا تعتمد على الشكل وحده. توقف عن الاستخدام عند تلف القابس أو المنفذ أو الكابل أو حدوث سخونة غير معتادة.</p>
 </div>
 `,
-            features: ["⚡ شاحن 45 واط GaN", "📺 شاشة ذكية AI", "📱 ايفون 0→50% في 20 دقيقة", "🔄 قابس 180°", "🛡️ وضع العناية TÜV", "🏆 Red Dot 2026", "💤 حماية ليلية", "🌍 100-240V عالمي", "🏆 ضمان 18 شهر", "🔒 معتمد UL + FCC + CE → معايير السلامة العالمية"],
-            metaTitle: "شاحن انكر نانو 45 واط شاشة ذكية ⚡ خصم 30% | وضع العناية",
-            metaDesc: "اشتري شاحن انكر نانو 45 واط بشاشة ذكية (A121D) في مصر. ايفون 17 برو من 0 لـ 50% في 20 دقيقة. قابس 180°. وضع عناية TÜV. ✓ ضمان 18 شهر ✓ توصيل سريع.",
+            features: ["⚡ خرج USB-C حتى 45 واط", "📺 شاشة ذكية مدمجة", "🔄 قابس قابل للطي 180°", "🔌 منفذ USB-C واحد", "🌍 تحقق من علامة 100–240V", "🧾 موديل A121D", "🏆 الضمان وفق سياسة المنتج الحالية", "🔎 تحقق من جدول الخرج وعلامات المطابقة"],
+            metaTitle: "شاحن انكر نانو A121D 45 واط بشاشة ذكية | مصر",
+            metaDesc: "اشتر شاحن انكر نانو A121D بخرج USB-C حتى 45 واط وشاشة ذكية وقابس 180° في مصر. راجع السعر والمخزون وبروفايلات الخرج والضمان الحالي.",
             faqs: [
-                { question: "الشاشة الذكية بتعرض إيه بالضبط؟", answer: "5 بيانات حية مع بعض: قوة الشحن الفعلية، مستوى البطارية، اسم جهازك، نوع وضع الشحن، وأنيميشن AI. الشاشة بتطفي لوحدها بعد اكتمال الشحن وبتستهلك أقل من 0.1 واط — يعني مبتأثرش على سرعة الشحن." },
-                { question: "ينفع يشحن ماك بوك اير؟", answer: "أيوه. ماك بوك اير M3/M4 محتاج 30-45 واط — الشاحن ده بيديله أقصى طاقة. لماك بوك برو 14 بوصة، بيشتغل كشاحن سفر بسرعة أقل. هتحتاج كابل USB-C معتمد لـ 45 واط+ (بيتباع منفصل)." },
-                { question: "إيه هو وضع العناية وإزاي أفعّله؟", answer: "نقرتين سريعتين على جسم الشاحن بيبدّل بين Auto وCare. في وضع العناية، الشحن بيبطئ عند 80% عشان يقلل الإجهاد الحراري بالليل. TÜV Rheinland أثبتت إن صحة البطارية بتتحسن 15-20% بعد سنة استخدام يومي ليلي." },
-                { question: "إيه المميز في القابس 180°؟", answer: "السنون بتلف في أي زاوية — مفيد جداً ورا الكومودينو المصري ومشتركات الكهرباء المزحومة. الميكانيزم متحمّل اختبار 1000+ مرة من غير أي تخلخل. مبيحتاجش محوّل لفيش مصر 220 فولت." },
-                { question: "ضمان الـ 18 شهر بيغطي الشاشة؟", answer: "أيوه — الشاشة والمنفذ والدوائر الداخلية وحماية السخونة كلهم مغطيين. كايرو فولت بتتعامل مع الاستبدال مباشرة في مصر. احتفظ بتأكيد الطلب كإثبات شراء." }
+                { question: "الشاشة الذكية بتعرض إيه؟", answer: "تعرض الشاشة معلومات عن الشحن والحالة. راجع دليل الموديل A121D لمعرفة الحقول المدعومة لأن البيانات المتاحة قد تختلف حسب الجهاز المتصل والبرنامج الداخلي." },
+                { question: "ينفع يشحن لابتوب USB-C؟", answer: "ينفع فقط عندما يقبل اللابتوب أحد بروفايلات خرج A121D وتكون طاقته المطلوبة ضمن فئة 45 واط. طابق الملصقين واستخدم كابل USB-C مناسباً؛ الأجهزة الأعلى طاقة قد تشحن ببطء أو لا تشحن." },
+                { question: "إزاي أستخدم Auto أو Care؟", answer: "اتبع طريقة التحكم والسلوك الموضحين في تعليمات A121D المرفقة. حرارة وعمر البطارية يعتمدان على عدة عوامل، لذلك لا يُعد الوضع ضماناً لنسبة محددة من تحسن صحة البطارية." },
+                { question: "إيه فايدة القابس 180°؟", answer: "يساعد في التخزين وتحديد الوضع داخل المقبس المتوافق. لا تضغط على المفصلة أو تستخدم مقبساً غير ثابت، وتأكد إن كنت تحتاج محول شكل قابس عند السفر." },
+                { question: "الضمان بيغطي إيه؟", answer: "مدة التغطية والاستثناءات وطريقة الخدمة تخضع لشروط الضمان المعروضة حالياً لهذا المنتج. احتفظ بتأكيد الطلب وتواصل مع كايرو فولت قبل إرجاع الوحدة." }
             ]
         }
     },
-    meta: { keywords: "أنكر nano 45w smart display, شاحن انكر 45 واط شاشة ذكية, أنكر a121d, أنكر nano charger 45w smart display 180 foldable, شاحن انكر نانو شاشة, أنكر 45w gan charger display, شاحن 45 واط بشاشة, أنكر care mode charger, شاحن انكر بشاشة مصر, أنكر released a 45w nano charger featuring a smart display, أنكر launched new nano 45w charger with smart display, شاحن انكر الجديد شاشة, شاحن ايفون 17 سريع, افضل شاحن 45 واط, شاحن انكر قابس قابل للطي, شاحن GaN بشاشة ذكية مصر, أنكر nano smart display egypt price, شاحن لابتوب وموبايل انكر, شاحن انكر نانو 45 واط بشاشة ذكية", mainTerm: "شاحن انكر نانو 45 واط بشاشة ذكية" },
+    meta: { keywords: "انكر nano 45w smart display, شاحن انكر 45 واط شاشة ذكية, انكر a121d, انكر nano charger 45w smart display 180 foldable, شاحن انكر نانو شاشة, انكر 45w gan charger display, شاحن 45 واط بشاشة, انكر care mode charger, شاحن انكر بشاشة مصر, انكر released a 45w nano charger featuring a smart display, انكر launched new nano 45w charger with smart display, شاحن انكر الجديد شاشة, شاحن ايفون 17 سريع, شاحن انكر قابس قابل للطي, شاحن GaN بشاشة ذكية مصر, انكر nano smart display egypt price, شاحن لابتوب وموبايل انكر, شاحن انكر نانو 45 واط بشاشة ذكية", mainTerm: "شاحن انكر نانو 45 واط بشاشة ذكية" },
     expertOpinion: {
-        en: "The power user's dream: ultrabook + phone charging with a live display showing real watts. Perfect for tech enthusiasts who want transparency and control. Overkill for basic phone-only charging.",
-        ar: "حلم الباور يوزر — بيشحن لابتوب وموبايل وبيوريك الواط لحظة بلحظة. مثالي لعشاق التقنية اللي عايزين يعرفوا كل حاجة. أكبر من احتياجك لو بتشحن موبايل بس."
+        en: "A practical option for buyers who want a compact 45W-class USB-C charger with a visible status display. Confirm the laptop or phone profile against the A121D output table; a simpler lower-power charger may be enough for basic phone use.",
+        ar: "اختيار عملي لمن يريد شاحن USB-C صغيراً من فئة 45 واط مع شاشة حالة واضحة. طابق بروفايل الهاتف أو اللابتوب مع جدول خرج A121D؛ وقد يكفي شاحن أبسط وأقل طاقة للاستخدام الأساسي."
     }
 };

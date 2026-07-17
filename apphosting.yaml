@@ -1,21 +1,6 @@
-# ═══════════════════════════════════════════════════════
-# CairoVolt — Firebase App Hosting Configuration
-# Project: CairoVolt (cairovolt.com)
-# Firebase Project ID: gadgets-b0bdb (legacy, immutable)
-# ═══════════════════════════════════════════════════════
-
 runConfig:
-  # 💰 cpu:1 (كان 2) — الـvCPU-ثانية هو المكوّن المهيمن في فاتورة Cloud Run
-  #    (~10× سعر الذاكرة)، فخفضه للنصف = نصف تكلفة المعالجة. الذاكرة تبقى 2048
-  #    عمداً: headroom كامل لـ sharp (تحسين الصور) بعد كل rollout لما يكون كاش
-  #    الـCDN بارداً — الذاكرة رخيصة والـOOM غالٍ. لا تنزل بالذاكرة تحت 1024.
   cpu: 1
   memoryMiB: 2048
-  # 💰 minInstances: 0 — لا webhook حسّاس للـ cold-start هنا (الوحيد هو طلب تقييم
-  #    من Google Apps Script بعد التوصيل — غير حرج، يتحمّل الإيقاظ). الصفحات
-  #    الثابتة/ISR تُخدَم من CDN بلا لمس الـ instance، والـ checkout مبادَر من العميل
-  #    (cold-start = ثوانٍ، بلا فقدان بيانات). الـ instance الدائم 2vCPU/2GB كان
-  #    يستهلك أغلب فاتورة $38.54؛ مع 0 نُحاسَب على زمن المعالجة فقط.
   minInstances: 0
   maxInstances: 4
   concurrency: 50
@@ -25,40 +10,64 @@ env:
     value: --max-old-space-size=4096
     availability:
       - BUILD
+
   - variable: FIREBASE_PROJECT_ID
-    value: gadgets-b0bdb  # CairoVolt — Firebase Project ID (immutable)
+    value: gadgets-b0bdb
+
+  - variable: FIREBASE_DATABASE_ID
+    value: gadgets
+
   - variable: GOOGLE_SHEET_ID
     value: 1laNmzAhUHJpkm-DTqzn0fsZxZNZ7S-Du2-_m7WFDYc8
-  - variable: FIREBASE_DATABASE_ID
-    value: gadgets  # CairoVolt — Firestore Database ID (immutable)
-  - variable: ADMIN_TASKS_SECRET
-    value: 7c3540be1c25d60937460700ff450ebfd1778369deac734a  # Gates /api/reviews/sync + /api/admin/purge-seeded-reviews (rotate by changing this value)
-    availability:
-      - RUNTIME
-  - variable: CRM_WEBHOOK_URL
-    value: https://crm--my-crm-bfac7.asia-southeast1.hosted.app/api/webhook/new-lead  # Leads CRM (my-crm-bfac7) — كل طلب يُرسل كليد فور تسجيله
     availability:
       - RUNTIME
 
-  # 🔐 الأسرار — يجب أن تكون داخل env: بمفتاح secret: (مواصفة App Hosting).
-  #    كانت في قسم secrets: مستقل يُتجاهَل بصمت → كل النسخ المنشورة كانت بلا أسرار
-  #    إطلاقاً (ويبهوك الـCRM بلا مصادقة → 401 دائم، الكوبونات على الـfallback، TikTok S2S معطل).
-  - variable: FIREBASE_CLIENT_EMAIL
-    secret: firebase_client_email
-  - variable: FIREBASE_PRIVATE_KEY
-    secret: firebase_private_key
+  - variable: CRM_WEBHOOK_URL
+    value: https://crm--my-crm-bfac7.asia-southeast1.hosted.app/api/webhook/new-lead
+    availability:
+      - RUNTIME
+
+  - variable: ADMIN_TASKS_SECRET
+    secret: admin_tasks_secret
+    availability:
+      - RUNTIME
+
+  - variable: ADMIN_SESSION_SECRET
+    secret: admin_session_secret
+    availability:
+      - RUNTIME
+
+  - variable: REVIEW_WEBHOOK_SECRET
+    secret: review_webhook_secret
+    availability:
+      - RUNTIME
+
+  - variable: INDEXING_WEBHOOK_SECRET
+    secret: indexing_webhook_secret
+    availability:
+      - RUNTIME
+
   - variable: GOOGLE_SERVICE_ACCOUNT_EMAIL
     secret: google_service_account_email
+    availability:
+      - RUNTIME
+
   - variable: GOOGLE_PRIVATE_KEY
     secret: google_private_key
+    availability:
+      - RUNTIME
+
   - variable: CAIROVOLT_API_KEY
     secret: cairovolt_api_key
-  - variable: CAIROVOLT_PRIVATE_KEY
-    secret: cairovolt_private_key
-  - variable: CAIROVOLT_PUBLIC_KEY
-    secret: cairovolt_public_key
+    availability:
+      - RUNTIME
+
   - variable: TIKTOK_ACCESS_TOKEN
     secret: tiktok_access_token
+    availability:
+      - RUNTIME
+
   - variable: CRM_WEBHOOK_SECRET
     secret: crm_webhook_secret
-    # Bearer لويبهوك الـCRM — نفس القيمة يجب ضبطها كـ WEBHOOK_SECRET في بيئة الـCRM لتفعيل التحقق
+    availability:
+      - RUNTIME

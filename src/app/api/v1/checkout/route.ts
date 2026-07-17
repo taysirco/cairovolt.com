@@ -5,19 +5,20 @@ import { staticProducts } from '@/lib/static-products';
 import { safeAppendOrderToSheet } from '@/lib/google-sheets';
 import { safeSendLeadToCRM } from '@/lib/crm';
 import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { checkRateLimit } from '@/lib/rate-limit';
+import { getClientIp } from '@/lib/request-ip';
+import {
+    getMerchantProductUrl,
+    STANDARD_SHIPPING_MAX_EGP,
+    STANDARD_SHIPPING_MIN_EGP,
+} from '@/lib/merchant-product-data';
+import { randomUUID } from 'node:crypto';
+import { governorates } from '@/data/governorates';
 
 /**
- * M2M Checkout API — Simplified endpoint for AI agents & programmatic commerce
- * 
- * Flow:
- *   1. GET  /api/v1/checkout?sku=XXX          → Price + availability check
- *   2. POST /api/v1/checkout { sku, qty, ... } → Place order atomically
- * 
- * This endpoint is designed for:
- *   - Smart assistants (Siri, Google Assistant, Alexa)
- *   - AI agents (ChatGPT, Gemini, Claude)
- *   - IoT devices (smartwatches, smart speakers)
- *   - Third-party integrations
+ * Documented product lookup and cash-on-delivery order endpoint.
+ * GET checks current catalogue price and availability; POST validates the
+ * same catalogue data again before recording a customer-authorized order.
  */
 
 // ============================================
@@ -32,6 +33,35 @@ function sanitizeInput(input: unknown, maxLength = 500): string {
         .replace(/javascript\s*:/gi, '')
         .trim()
         .slice(0, maxLength);
+}
+
+const VALID_GOVERNORATE_SLUGS = new Set(governorates.map(({ slug }) => slug));
+
+function findStaticProductReference(input: { slug?: string | null; sku?: string | null }) {
+    const slug = input.slug?.trim();
+    if (slug) {
+        return {
+            product: staticProducts.find(product => product.slug === slug && product.status === 'active'),
+            ambiguousSlugs: [] as string[],
+        };
+    }
+
+    const reference = input.sku?.trim();
+    if (!reference) return { product: undefined, ambiguousSlugs: [] as string[] };
+
+    // Existing integrations sometimes submit a slug in the `sku` field.
+    const slugMatch = staticProducts.find(
+        product => product.slug === reference && product.status === 'active'
+    );
+    if (slugMatch) return { product: slugMatch, ambiguousSlugs: [] as string[] };
+
+    const skuMatches = staticProducts.filter(
+        product => product.sku === reference && product.status === 'active'
+    );
+    return {
+        product: skuMatches.length === 1 ? skuMatches[0] : undefined,
+        ambiguousSlugs: skuMatches.length > 1 ? skuMatches.map(product => product.slug) : [],
+    };
 }
 
 // ============================================
@@ -57,7 +87,7 @@ function normaliseQuery(raw: string): string {
         .replace(/كابل|وصلة/gi, 'cable')
         .replace(/انكر/gi, 'anker')
         .replace(/جوي\s*روم/gi, 'joyroom')
-        .replace(/سوندكور/gi, 'soundcore');
+        .replace(/ساوند\s*كور|سوندكور/gi, 'soundcore');
 }
 
 /**
@@ -142,6 +172,15 @@ async function smartSearch(
 // ============================================
 
 export async function GET(req: NextRequest) {
+    const ip = getClientIp(req.headers);
+    const rateCheck = checkRateLimit(ip, false);
+    if (!rateCheck.allowed) {
+        return NextResponse.json(
+            { error: 'Too many requests' },
+            { status: 429, headers: { 'Retry-After': '60' } },
+        );
+    }
+
     const url = new URL(req.url);
     const sku = url.searchParams.get('sku');
     const slug = url.searchParams.get('slug');
@@ -162,12 +201,17 @@ export async function GET(req: NextRequest) {
         // Use static data first for accurate pricing (source of truth)
         let product: Record<string, unknown> | null = null;
 
-        const staticMatch = staticProducts.find(p => {
-            if (sku) return p.sku === sku;
-            if (slug) return p.slug === slug;
-            return false;
-        });
+        const staticLookup = findStaticProductReference({ slug, sku });
 
+        if (staticLookup.ambiguousSlugs.length) {
+            return NextResponse.json({
+                available: false,
+                error: 'SKU matches more than one catalog product; use the product slug',
+                matchingSlugs: staticLookup.ambiguousSlugs,
+            }, { status: 409 });
+        }
+
+        const staticMatch = staticLookup.product;
         if (staticMatch) {
             product = { id: `static_${staticMatch.slug}`, ...staticMatch } as unknown as Record<string, unknown>;
         }
@@ -181,8 +225,15 @@ export async function GET(req: NextRequest) {
                 } else if (sku) {
                     const snapshot = await db.collection('products')
                         .where('sku', '==', sku)
-                        .limit(1)
+                        .limit(3)
                         .get();
+                    if (snapshot.size > 1) {
+                        return NextResponse.json({
+                            available: false,
+                            error: 'SKU matches more than one catalog product; use the product slug',
+                            matchingSlugs: snapshot.docs.map(doc => String(doc.data().slug || doc.id)),
+                        }, { status: 409 });
+                    }
                     if (!snapshot.empty) {
                         product = { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
                     }
@@ -209,7 +260,11 @@ export async function GET(req: NextRequest) {
         const primaryImage = images?.find(img => img.isPrimary)?.url || images?.[0]?.url || null;
         const stock = Number(product.stock) || 0;
         const price = Number(product.price) || 0;
-        const originalPrice = product.originalPrice ? Number(product.originalPrice) : null;
+        const productUrl = getMerchantProductUrl({
+            brand: String(product.brand || ''),
+            categorySlug: String(product.categorySlug || ''),
+            slug: String(product.slug || ''),
+        });
 
         return NextResponse.json({
             available: stock > 0,
@@ -230,31 +285,35 @@ export async function GET(req: NextRequest) {
                 price: {
                     amount: price,
                     currency: 'EGP',
-                    originalPrice: originalPrice,
-                    discount: originalPrice && originalPrice > price
-                        ? Math.round((1 - price / originalPrice) * 100)
-                        : null,
                 },
                 stock: stock,
-                image: primaryImage ? `https://cairovolt.com${primaryImage}` : null,
-                url: `https://cairovolt.com/${(product.brand as string || '').toLowerCase()}/${product.categorySlug}/${product.slug}`,
+                image: primaryImage
+                    ? (primaryImage.startsWith('http') ? primaryImage : `https://cairovolt.com${primaryImage}`)
+                    : null,
+                url: productUrl,
             },
             shipping: {
-                fee: price >= FREE_SHIPPING_THRESHOLD ? 0 : 70, // Minimum / Default shipping
+                fee: price >= FREE_SHIPPING_THRESHOLD ? 0 : null,
                 currency: 'EGP',
                 freeAbove: FREE_SHIPPING_THRESHOLD,
+                feeRange: price >= FREE_SHIPPING_THRESHOLD
+                    ? { min: 0, max: 0 }
+                    : { min: STANDARD_SHIPPING_MIN_EGP, max: STANDARD_SHIPPING_MAX_EGP },
+                note: price >= FREE_SHIPPING_THRESHOLD
+                    ? 'Free shipping threshold met'
+                    : 'Final fee depends on the governorate submitted with the order',
                 estimatedDays: { min: 1, max: 5 },
             },
             payment: {
                 methods: ['cash_on_delivery'],
-                note: 'Pay after inspection — no prepayment required',
+                note: 'Pay on delivery — no online prepayment required',
             },
             actions: {
                 buy: {
                     method: 'POST',
                     url: 'https://cairovolt.com/api/v1/checkout',
                     body: {
-                        sku: product.sku || product.slug,
+                        slug: product.slug,
                         quantity: 1,
                         customerName: '(required)',
                         phone: '(required)',
@@ -278,6 +337,15 @@ export async function GET(req: NextRequest) {
 // ============================================
 
 export async function POST(req: NextRequest) {
+    const ip = getClientIp(req.headers);
+    const rateCheck = checkRateLimit(ip, true);
+    if (!rateCheck.allowed) {
+        return NextResponse.json(
+            { success: false, error: 'Too many requests. Please try again later.' },
+            { status: 429, headers: { 'Retry-After': '60' } },
+        );
+    }
+
     let db;
     try {
         db = await getFirestore();
@@ -315,12 +383,40 @@ export async function POST(req: NextRequest) {
             }, { status: 400 });
         }
 
+        const city = sanitizeInput(data.city, 50);
+        if (!VALID_GOVERNORATE_SLUGS.has(city)) {
+            return NextResponse.json({
+                success: false,
+                error: 'Unknown city/governorate code',
+                validCityCodes: [...VALID_GOVERNORATE_SLUGS],
+            }, { status: 400 });
+        }
+
+        const quantity = data.quantity === undefined ? 1 : Number(data.quantity);
+        if (!Number.isInteger(quantity) || quantity < 1 || quantity > 10) {
+            return NextResponse.json({
+                success: false,
+                error: 'Quantity must be a whole number from 1 to 10',
+            }, { status: 400 });
+        }
+
         // Find product — static data first for accurate pricing
         let product: Record<string, unknown> | null = null;
-        const identifier = data.sku || data.slug;
+        const requestedSlug = sanitizeInput(data.slug, 150) || undefined;
+        const requestedSku = sanitizeInput(data.sku, 70) || undefined;
+        const identifier = requestedSlug || requestedSku || '';
 
         // Static catalog is the price source of truth
-        const staticMatch = staticProducts.find(p => p.sku === identifier || p.slug === identifier);
+        const staticLookup = findStaticProductReference({ slug: requestedSlug, sku: requestedSku });
+        if (staticLookup.ambiguousSlugs.length) {
+            return NextResponse.json({
+                success: false,
+                error: 'SKU matches more than one catalog product; submit the product slug',
+                matchingSlugs: staticLookup.ambiguousSlugs,
+            }, { status: 409 });
+        }
+
+        const staticMatch = staticLookup.product;
         if (staticMatch) {
             product = { id: `static_${staticMatch.slug}`, ...staticMatch } as unknown as Record<string, unknown>;
         }
@@ -328,19 +424,26 @@ export async function POST(req: NextRequest) {
         // Fallback: try Firestore if not found in static data
         if (!product) {
             try {
-                const snapshot = await db.collection('products')
-                    .where('sku', '==', identifier)
-                    .limit(1)
-                    .get();
-
-                if (!snapshot.empty) {
-                    product = { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
+                const doc = await db.collection('products').doc(identifier).get();
+                if (doc.exists && doc.data()?.status === 'active') {
+                    product = { id: doc.id, ...doc.data() };
                 }
 
-                if (!product) {
-                    const doc = await db.collection('products').doc(identifier).get();
-                    if (doc.exists) {
-                        product = { id: doc.id, ...doc.data() };
+                if (!product && requestedSku) {
+                    const snapshot = await db.collection('products')
+                        .where('sku', '==', requestedSku)
+                        .where('status', '==', 'active')
+                        .limit(3)
+                        .get();
+                    if (snapshot.size > 1) {
+                        return NextResponse.json({
+                            success: false,
+                            error: 'SKU matches more than one catalog product; submit the product slug',
+                            matchingSlugs: snapshot.docs.map(doc => String(doc.data().slug || doc.id)),
+                        }, { status: 409 });
+                    }
+                    if (!snapshot.empty) {
+                        product = { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
                     }
                 }
             } catch {
@@ -367,25 +470,32 @@ export async function POST(req: NextRequest) {
             }, { status: 409 });
         }
 
-        const quantity = Math.max(1, Number(data.quantity) || 1);
+        const normalizedPhone = String(data.phone).replace(/[^0-9+]/g, '').slice(0, 20);
+        if (!/^(?:\+?20|0)?1[0125]\d{8}$/.test(normalizedPhone)) {
+            return NextResponse.json({
+                success: false,
+                error: 'A valid Egyptian mobile number is required',
+            }, { status: 400 });
+        }
+
         const price = Number(product.price) || 0;
         const totalProducts = price * quantity;
-        const shippingFee = getShippingFee(data.city as string || '', totalProducts);
+        const shippingFee = getShippingFee(city, totalProducts);
         const totalAmount = totalProducts + shippingFee;
 
         const translations = product.translations as Record<string, Record<string, string>> | undefined;
 
         // Generate order ID
-        const orderId = `CV-${Math.floor(Date.now() / 1000).toString().slice(-6)}`;
+        const orderId = `CV-${randomUUID().slice(0, 8).toUpperCase()}`;
 
         const orderData = {
             orderId,
             source: 'm2m_checkout',
             customerName: sanitizeInput(data.customerName, 100),
-            phone: String(data.phone).replace(/[^0-9+]/g, '').slice(0, 20),
+            phone: normalizedPhone,
             whatsapp: String(data.whatsapp || data.phone).replace(/[^0-9+]/g, '').slice(0, 20),
             address: sanitizeInput(data.address, 300),
-            city: sanitizeInput(data.city, 50),
+            city,
             items: [{
                 productId: product.id,
                 sku: product.sku || product.slug,
@@ -439,7 +549,7 @@ export async function POST(req: NextRequest) {
                 },
                 payment: {
                     method: 'cash_on_delivery',
-                    note: 'Pay after inspection',
+                    note: 'Pay on delivery',
                 },
             },
             tracking: {

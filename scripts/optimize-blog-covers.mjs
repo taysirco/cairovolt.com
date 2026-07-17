@@ -3,8 +3,6 @@
 //   - Re-encode with sharp WebP at quality 82 + effort 6 + smartSubsample
 //     (perceptually identical to q85/q88 with default effort, but much smaller).
 //   - Preserve every EXIF/XMP field we set in the original pipelines.
-//   - Preserve the full C2PA manifest, appending a c2pa.color_adjustments
-//     action so the optimization step is itself attested.
 //   - Skip files where the re-encoded version isn't smaller.
 //
 // Run from repo root:  node scripts/optimize-blog-covers.mjs [--dry] [--only=<slug>]
@@ -26,15 +24,6 @@ const only = onlyArg ? onlyArg.split('=')[1] : null;
 const Q = 82;       // perceptually transparent vs the original q85/q88
 const EFFORT = 6;   // max — slow encode, smallest file
 const KEEP_THRESHOLD = 0.97; // only commit if new file is < 97% of original
-
-function readC2pa(filePath) {
-    try {
-        const out = execFileSync('c2patool', [filePath], { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] });
-        return JSON.parse(out);
-    } catch {
-        return null;
-    }
-}
 
 function readExif(filePath) {
     try {
@@ -76,47 +65,6 @@ function applyExif(filePath, tags) {
     }
 }
 
-function rebuildC2paManifest(originalReport) {
-    if (!originalReport || !originalReport.active_manifest) return null;
-    const activeId = originalReport.active_manifest;
-    const m = originalReport.manifests?.[activeId];
-    if (!m) return null;
-
-    // Carry the existing actions forward and append our optimization action.
-    const carried = (m.assertions || []).map(a => {
-        if (a.label && a.label.startsWith('c2pa.actions')) {
-            const actions = [...(a.data?.actions || [])];
-            actions.push({
-                action: 'c2pa.color_adjustments',
-                softwareAgent: `sharp WebP q${Q} effort ${EFFORT} smartSubsample — perceptually-lossless delivery optimization`,
-            });
-            return { label: 'c2pa.actions', data: { actions } };
-        }
-        return { label: a.label, data: a.data };
-    });
-
-    return {
-        claim_generator: 'CairoVolt-CMS/1.0 + cairovolt-image-optimizer',
-        title: m.title || path.basename(originalReport._filePath || ''),
-        assertions: carried,
-    };
-}
-
-function applyC2pa(filePath, manifest) {
-    if (!manifest) return false;
-    const mPath = filePath + '.manifest.json';
-    fs.writeFileSync(mPath, JSON.stringify(manifest));
-    try {
-        execFileSync('c2patool', [filePath, '--manifest', mPath, '--output', filePath, '--force'], { stdio: 'pipe' });
-        return true;
-    } catch (e) {
-        console.warn(`  C2PA re-apply failed: ${e.message?.split('\n')[0]}`);
-        return false;
-    } finally {
-        if (fs.existsSync(mPath)) fs.unlinkSync(mPath);
-    }
-}
-
 async function main() {
     if (!fs.existsSync(POSTS_DIR)) {
         console.error(`Posts dir not found: ${POSTS_DIR}`);
@@ -134,17 +82,14 @@ async function main() {
     console.log(`Settings: webp q=${Q} effort=${EFFORT} smartSubsample, commit if <${(KEEP_THRESHOLD * 100).toFixed(0)}% of original.\n`);
 
     let totalBefore = 0, totalAfter = 0;
-    let optimized = 0, skipped = 0, exifOk = 0, c2paOk = 0;
+    let optimized = 0, skipped = 0, exifOk = 0;
 
     for (const name of files) {
         const filePath = path.join(POSTS_DIR, name);
         const before = fs.statSync(filePath).size;
         totalBefore += before;
 
-        const c2paReport = readC2pa(filePath);
-        if (c2paReport) c2paReport._filePath = filePath;
         const exifTags = readExif(filePath);
-        const hadC2pa = !!c2paReport?.active_manifest;
 
         let buf;
         try {
@@ -175,10 +120,6 @@ async function main() {
 
         fs.writeFileSync(filePath, buf);
         if (applyExif(filePath, exifTags)) exifOk++;
-        const newManifest = rebuildC2paManifest(c2paReport);
-        if (hadC2pa && newManifest) {
-            if (applyC2pa(filePath, newManifest)) c2paOk++;
-        }
 
         const after = fs.statSync(filePath).size;
         totalAfter += after;
@@ -188,7 +129,7 @@ async function main() {
     }
 
     const savedMB = (totalBefore - totalAfter) / 1024 / 1024;
-    console.log(`\nDone. Optimized: ${optimized} | Skipped: ${skipped} | EXIF: ${exifOk} | C2PA: ${c2paOk}`);
+    console.log(`\nDone. Optimized: ${optimized} | Skipped: ${skipped} | EXIF: ${exifOk}`);
     console.log(`Total: ${(totalBefore / 1024 / 1024).toFixed(2)}MB → ${(totalAfter / 1024 / 1024).toFixed(2)}MB (saved ${savedMB.toFixed(2)}MB)`);
 }
 

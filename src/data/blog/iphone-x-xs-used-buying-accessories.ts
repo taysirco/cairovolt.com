@@ -28,7 +28,7 @@ export const iphone_x_xs_used_buying_accessories: BlogArticle = {
             metaDescription: 'دليل شامل ومفصل لفحص وشراء هاتف ايفون X أو ايفون XS مستعمل في مصر. تعرف على كيفية اختبار شاشات الـ OLED وعيوب اللوحة الأم المزدوجة وبصمة الوجه والبطارية.',
             keywords: 'ايفون x مستعمل, سعر ايفون xs max مستعمل في مصر, عيوب ايفون x مستعمل, شاحن ايفون x اصلي, بطارية ايفون xs max اصلية, جرابات ايفون x',
             excerpt: 'تبحث عن ايفون X أو XS مستعمل بسعر مناسب بمصر؟ نوضح لك بالخطوات الهندسية كيفية كشف الشاشات المقلدة وعيوب البوردة المزدوجة واختيار ملحقات الشحن الأصلية.',
-            quickAnswer: 'عند شراء ايفون X أو XS مستعمل في مصر: (1) **افحص بصمة الوجه (Face ID)** بدقة؛ حيث أن تلفها غالباً غير قابل للإصلاح بسبب التشفير مع المعالج. (2) **اكشف الشاشات الـ LCD المقلدة** عبر عرض صورة سوداء بالكامل بالوضع الليلي؛ شاشات الأموليد الأصلية لا تطلق أي ضوء في المناطق السوداء. (3) **الشحن السريع**: يدعم الهاتف تقنية USB-PD بقدرة 18 واط؛ استخدم شاحن جويروم 30 واط مع كابل معتمد.',
+            quickAnswer: 'عند شراء iPhone X أو XS مستعمل، اختبر Face ID والشاشة والبطارية والكاميرات والمنافذ والشبكة، وراجع سجل القطع والرسائل داخل النظام إن توفرت. صورة سوداء قد تفرق بين تقنيات عرض لكنها لا تثبت أن الشاشة أصلية؛ اطلب فحصاً مستقلاً وفاتورة واضحة، وطابق الشاحن والكابل مع إرشادات Apple للموديل.',
             faq: [
                 {
                     question: 'هل يمكن تحديث ايفون X وايفون XS إلى نظام iOS 18؟',
@@ -40,14 +40,14 @@ export const iphone_x_xs_used_buying_accessories: BlogArticle = {
                 },
                 {
                     question: 'كيف يمكنني التمييز بين شاشة OLED الأصلية وشاشة LCD التجارية المقلدة؟',
-                    answer: 'افتح صورة سوداء بالكامل في غرفة مظلمة وارفع السطوع لأقصى درجة. إذا لاحظت أن الخلفية السوداء تطلق وهجاً رمادياً باهتاً، فالشاشة هي LCD مقلدة، وإذا ظلت مطفأة تماماً كأن الهاتف مغلق، فالشاشة OLED أصلية.'
+                    answer: 'قد تساعد صورة سوداء في ملاحظة الفرق بين OLED وشاشة ذات إضاءة خلفية، لكنها لا تثبت أن لوحة OLED أصلية أو لم تُستبدل. راجع رسائل سجل القطع إن كانت متاحة، واختبر اللمس والسطوع والألوان وTrue Tone، واطلب فحصاً مستقلاً قبل الشراء.'
                 },
                 {
                     question: 'ما هو عيب انفصال البوردة المزدوجة الشهير في ايفون X؟',
                     answer: 'اعتمدت أبل لأول مرة في ايفون X على لوحة أم مكونة من طبقتين ملتصقتين بنقاط لحام القصدير (Interposer). عند سقوط الهاتف أو تعرضه لحرارة شديدة، تنفصل هذه النقاط، مما يؤدي لتعطل الواي فاي أو الكاميرا أو التوقف التام.'
                 }
             ],
-            content: `<p>يعد هاتفا **iPhone X** و **iPhone XS** (ومعه النسخة الأكبر XS Max) علامتين فارقتين في تاريخ هواتف أبل؛ حيث قدما لأول مرة شاشات الـ Super Retina بنوتش الكاميرا الشهير وبصمة الوجه المبتكرة (**Face ID**)، متخلين تماماً عن زر الهوم التقليدي. في سوق الموبايلات المستعملة بمصر، تمثل هذه الطرازات بوابة دخول اقتصادية ومغرية جداً للحصول على تصميم الايفون الحديث ذو الحواف النحيفة والخامات المعدنية الفاخرة من الستانلس ستيل بسعر يقارب الهواتف المتوسطة الجديدة. ولكن شراء هذه الأجهزة تحديداً ينطوي على مخاطرة بالغة؛ نظراً لمرور عدة سنوات على تصنيعها، وشهرة ايفون X بعيوب تصنيعية محددة في اللوحة الأم والشاشات المقلدة. في هذا الدليل التقني الصارم، سنشرح لك بالتفصيل كيفية فحص عيوب البوردة والشاشة وبصمة الوجه، ونوجهك لاختيار الإكسسوارات الصحيحة لحماية استقرار الهاتف.</p>
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>يعد هاتفا **iPhone X** و **iPhone XS** (ومعه النسخة الأكبر XS Max) علامتين فارقتين في تاريخ هواتف أبل؛ حيث قدما لأول مرة شاشات الـ Super Retina بنوتش الكاميرا الشهير وبصمة الوجه المبتكرة (**Face ID**)، متخلين تماماً عن زر الهوم التقليدي. في سوق الموبايلات المستعملة بمصر، تمثل هذه الطرازات بوابة دخول اقتصادية ومغرية جداً للحصول على تصميم الايفون الحديث ذو الحواف النحيفة والخامات المعدنية الفاخرة من الستانلس ستيل بسعر يقارب الهواتف المتوسطة الجديدة. ولكن شراء هذه الأجهزة تحديداً ينطوي على مخاطرة بالغة؛ نظراً لمرور عدة سنوات على تصنيعها، وشهرة ايفون X بعيوب تصنيعية محددة في اللوحة الأم والشاشات المقلدة. في هذا الدليل التقني الصارم، سنشرح لك بالتفصيل كيفية فحص عيوب البوردة والشاشة وبصمة الوجه، ونوجهك لاختيار الإكسسوارات الصحيحة لحماية استقرار الهاتف.</p>
 
 <h2>أولاً: لماذا لا تزال أجهزة ايفون X وايفون XS تجذب المشترين بمصر؟</h2>
 <p>تقدم هذه الهواتف خامات تصنيع ممتازة من الستانلس ستيل المقاوم للخدش والزجاج القوي، مع شاشات أوليد مذهلة الألوان تمنحك عمقاً استثنائياً للون الأسود. وبفضل معالجات A11 Bionic و A12 Bionic، لا يزال الأداء اليومي للتطبيقات والتنقل سلساً وممتازاً؛ مما يجعله صفقة رابحة لمن يفضل تجربة الـ Premium الفاخرة لمنتجات أبل على الهواتف الاقتصادية الجديدة المصنوعة من البلاستيك.</p>
@@ -160,7 +160,7 @@ export const iphone_x_xs_used_buying_accessories: BlogArticle = {
             metaDescription: 'Detailed guide to inspect & buy a used iPhone X or XS in Egypt. Learn to test OLED screens, stacked motherboards, Face ID sensors, and select original chargers.',
             keywords: 'used iphone x egypt, used iphone xs max price egypt, used iphone x problems checklist, original iphone x charger, iphone xs max battery replacement, iphone x cases',
             excerpt: 'Searching for a used iPhone X or XS in Egypt? We outline the engineering diagnostics for double-layer motherboard failures, Face ID components, and safe charging.',
-            quickAnswer: 'When buying a used iPhone X or XS in Egypt: (1) **Test Face ID functionality**; damage to the dot projector is cryptographic and usually irreparable. (2) **Detect LCD clone screens** by opening a black image in Dark Mode; original OLED panels display absolute blacks without emitting light. (3) **Charging**: Both devices support 18W USB-PD fast charging; pair them with a certified PPS charger (like the Joyroom 30W adapter) and MFi Lightning cord.',
+            quickAnswer: 'When buying a used iPhone X or XS, test Face ID, the display, battery, cameras, ports, and network, and review any available parts and service history in iOS. A black image may distinguish display technologies but does not prove a panel is genuine. Request an independent inspection and receipt, and match the charger and cable to Apple\'s model guidance.',
             faq: [
                 {
                     question: 'Can I update the iPhone X and iPhone XS to iOS 18?',
@@ -172,14 +172,14 @@ export const iphone_x_xs_used_buying_accessories: BlogArticle = {
                 },
                 {
                     question: 'How can I distinguish between an original OLED display and a cheap LCD aftermarket screen?',
-                    answer: 'View a solid black image in a dark room at maximum brightness. If you see a grey backlight glow, it is a cheap LCD copy. If the screen remains completely dark (acting as if it is powered off), it is a genuine OLED.'
+                    answer: 'A black image can help distinguish OLED behavior from a backlit LCD, but it cannot prove that an OLED panel is genuine or has never been replaced. Review any available parts history, test touch, brightness, color, and True Tone, and obtain an independent inspection before purchase.'
                 },
                 {
                     question: 'What is the double-layer motherboard separation issue in the iPhone X?',
                     answer: 'To save space, Apple stacked two motherboards together in a sandwich design using low-temperature solder balls (interposer). Drop impacts or high charging heat can cause these solder joints to fracture, disabling Wi-Fi, cameras, or cellular signals.'
                 }
             ],
-            content: `<p>The release of the **iPhone X** and the subsequent **iPhone XS** and XS Max represented a monumental shift in smartphone engineering. These devices introduced Super Retina OLED screens with the signature notch design and **Face ID** facial recognition, phasing out the physical Home button. In Egypt\'s pre-owned smartphone market, these models remain highly sought after as affordable entry points into Apple\'s modern bezel-less design, constructed from premium surgical-grade stainless steel and glass. However, buying a used device from this generation carries substantial risks due to age and known hardware failure points like motherboard solder fatigue and counterfeit screen replacements. In this technical guide, we will analyze the key motherboard and display diagnostics and recommend compatible accessories to safeguard your purchase.</p>
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>The release of the **iPhone X** and the subsequent **iPhone XS** and XS Max represented a monumental shift in smartphone engineering. These devices introduced Super Retina OLED screens with the signature notch design and **Face ID** facial recognition, phasing out the physical Home button. In Egypt\'s pre-owned smartphone market, these models remain highly sought after as affordable entry points into Apple\'s modern bezel-less design, constructed from premium surgical-grade stainless steel and glass. However, buying a used device from this generation carries substantial risks due to age and known hardware failure points like motherboard solder fatigue and counterfeit screen replacements. In this technical guide, we will analyze the key motherboard and display diagnostics and recommend compatible accessories to safeguard your purchase.</p>
 
 <h2>1. Why the iPhone X and iPhone XS Remain Popular in Egypt</h2>
 <p>These devices offer exceptional materials—stainless steel rails and durable glass backs—coupled with rich Super Retina displays that output deep contrast ratios. Powered by the A11 and A12 Bionic chips, they handle daily tasks smoothly, making them a much more premium alternative to plastic-backed entry-level Android devices in the same price segment.</p>

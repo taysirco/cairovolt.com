@@ -2,9 +2,7 @@ import { Metadata } from 'next';
 import { Suspense } from 'react';
 import VerifyClient from './VerifyClient';
 
-/* ──────────────────────────────────────────────────
-   SEO Metadata — Server-rendered for Googlebot
-   ────────────────────────────────────────────────── */
+/* Page metadata */
 export async function generateMetadata({
     params,
 }: {
@@ -14,12 +12,12 @@ export async function generateMetadata({
     const isArabic = locale === 'ar';
 
     const title = isArabic
-        ? 'تحقق من أصالة المنتج | نظام الفحص الجنائي C2PA — كايرو فولت'
-        : 'Product Authentication | C2PA Verification System — CairoVolt';
+        ? 'التحقق من رقم السيريال وسجل الضمان — كايرو فولت'
+        : 'Serial & Warranty Record Verification — CairoVolt';
 
     const description = isArabic
-        ? 'تحقق من أن منتجك أصلي 100% عبر نظام البصمة الرقمية C2PA من كايرو فولت. أدخل رقم السيريال المطبوع على كرت الضمان لمطابقة قاعدة البيانات وتفعيل الضمان الذهبي 14 يوماً. السوق المصري ممتلئ بالمنتجات المقلدة — تحقق الآن.'
-        : 'Verify your product is 100% authentic using CairoVolt C2PA digital authentication system. Enter the serial number from your warranty card to match our database and activate your 14-day golden warranty.';
+        ? 'أدخل رقم السيريال المطبوع على كرت الضمان للتحقق من أنه صادر عن كايرو فولت، ثم تفعيل سجل الضمان وفق مدة المنتج وشروطه المكتوبة أو عرض حالته.'
+        : 'Enter the serial number printed on the warranty card to confirm that it was issued by CairoVolt, then activate or view the record under the product\'s written warranty terms.';
 
     return {
         title: { absolute: title },
@@ -35,7 +33,7 @@ export async function generateMetadata({
             },
         },
         openGraph: {
-            title: isArabic ? 'تحقق من أصالة المنتج — كايرو فولت' : 'Product Authentication — CairoVolt',
+            title: isArabic ? 'التحقق من السيريال والضمان — كايرو فولت' : 'Serial & Warranty Verification — CairoVolt',
             description,
             url: isArabic ? 'https://cairovolt.com/verify' : 'https://cairovolt.com/en/verify',
             locale: isArabic ? 'ar_EG' : 'en_US',
@@ -63,9 +61,7 @@ export async function generateMetadata({
     };
 }
 
-/* ──────────────────────────────────────────────────
-   Server Component — Visible to Googlebot
-   ────────────────────────────────────────────────── */
+/* Server-rendered verification page */
 export default async function VerifyPage({
     params,
 }: {
@@ -78,12 +74,12 @@ export default async function VerifyPage({
     const faqs = isArabic
         ? [
             {
-                question: 'ما هو نظام الفحص الجنائي C2PA؟',
-                answer: 'نظام C2PA هو بروتوكول عالمي للتحقق من أصالة المحتوى والمنتجات. كايرو فولت تستخدم هذا النظام لربط كل منتج ببصمة جنائية فريدة مسجلة في قاعدة بيانات مشفرة. عند إدخال رقم السيريال، يتم مطابقته مع البصمة الأصلية للتأكد من أن المنتج أصلي وليس مقلداً.',
+                question: 'ما الذي يؤكده فحص رقم السيريال؟',
+                answer: 'يؤكد الفحص أن رقم السيريال صدر من كايرو فولت وأن له سجلاً في قاعدة بيانات الضمان. لا يُعد هذا الفحص شهادة مستقلة من الشركة المصنعة لإثبات أصالة المنتج.',
             },
             {
-                question: 'لماذا يجب التحقق من أصالة المنتج؟',
-                answer: 'السوق المصري يعاني من انتشار خلايا الليثيوم المقلدة التي قد تسبب تلف الأجهزة أو حتى حرائق. التحقق من الأصالة يحمي جهازك ويفعّل الضمان الذهبي 14 يوماً من كايرو فولت.',
+                question: 'لماذا أتحقق من رقم السيريال؟',
+                answer: 'للتحقق من تسجيل كرت الضمان لدى كايرو فولت، وتفعيل فترة الضمان المرتبطة بالسيريال أو عرض بيانات التفعيل السابقة.',
             },
             {
                 question: 'كيف أجد رقم السيريال؟',
@@ -91,17 +87,17 @@ export default async function VerifyPage({
             },
             {
                 question: 'ماذا يحدث بعد التفعيل؟',
-                answer: 'بعد التحقق الناجح، يتم تفعيل الضمان الذهبي لمدة 14 يوماً. تحصل على رقم ضمان فريد يمكنك استخدامه للتواصل مع الدعم. كما تحصل على كود خصم 10% على طلبك القادم كهدية توثيق.',
+                answer: 'إذا كان السيريال مسجلاً وغير مُفعّل، تُسجَّل بداية ضمان كايرو فولت وفق المدة المكتوبة للمنتج ويظهر رقم الضمان. وإذا كان مُفعّلاً من قبل، تظهر حالة السجل والتواريخ المسجلة.',
             },
         ]
         : [
             {
-                question: 'What is the C2PA digital verification system?',
-                answer: 'C2PA is a global protocol for verifying content and product authenticity. CairoVolt uses this system to link each product to a unique digital fingerprint stored in an encrypted database. When you enter your serial number, it is matched against the original fingerprint to confirm authenticity.',
+                question: 'What does the serial check confirm?',
+                answer: 'It confirms that the serial number was issued by CairoVolt and has a record in the CairoVolt warranty database. It is not an independent manufacturer certificate of product authenticity.',
             },
             {
-                question: 'Why should I verify my product?',
-                answer: 'The Egyptian market is flooded with counterfeit lithium cells that can damage devices or even cause fires. Verifying authenticity protects your device and activates the 14-day golden warranty from CairoVolt.',
+                question: 'Why should I check the serial number?',
+                answer: 'To confirm that the warranty card is registered with CairoVolt and to activate the warranty period associated with the serial or view an existing activation.',
             },
             {
                 question: 'Where do I find the serial number?',
@@ -109,100 +105,12 @@ export default async function VerifyPage({
             },
             {
                 question: 'What happens after activation?',
-                answer: 'After successful verification, your 14-day golden warranty is activated. You receive a unique warranty code for support inquiries. You also get a 10% discount code on your next order as a verification gift.',
+                answer: 'If the registered serial is not yet active, the CairoVolt warranty record starts under the written terms for that product and a warranty number is shown. Existing records display their saved status and dates.',
             },
         ];
 
     return (
         <>
-            {/* ═══════════════════════════════════════
-                JSON-LD: SoftwareApplication Schema
-                ═══════════════════════════════════════ */}
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'SoftwareApplication',
-                        name: isArabic ? 'نظام التحقق من أصالة المنتج — كايرو فولت' : 'CairoVolt Product Authentication System',
-                        applicationCategory: 'SecurityApplication',
-                        operatingSystem: 'Web',
-                        offers: {
-                            '@type': 'Offer',
-                            price: '0',
-                            priceCurrency: 'EGP',
-                        },
-                        provider: {
-                            '@type': 'Organization',
-                            '@id': 'https://cairovolt.com/#organization',
-                            name: isArabic ? 'كايرو فولت' : 'CairoVolt',
-                            url: 'https://cairovolt.com',
-                        },
-                        description: isArabic
-                            ? 'نظام التحقق من أصالة المنتج عبر البصمة الرقمية C2PA. تحقق من أن جهازك أصلي 100% وفعّل الضمان الذهبي.'
-                            : 'C2PA digital product authentication system. Verify your device is 100% authentic and activate your golden warranty.',
-                        featureList: [
-                            'C2PA Forensic Authentication',
-                            '14-Day Golden Warranty Activation',
-                            'QR Code Verification',
-                            'Real-time Database Matching',
-                        ],
-                        screenshot: 'https://cairovolt.com/og-cover.png',
-                        inLanguage: isArabic ? 'ar-EG' : 'en-US',
-                        areaServed: {
-                            '@type': 'Country',
-                            name: 'Egypt',
-                            sameAs: 'https://en.wikipedia.org/wiki/Egypt',
-                        },
-                    }),
-                }}
-            />
-
-            {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
-
-            {/* ═══════════════════════════════════════
-                JSON-LD: HowTo Schema
-                ═══════════════════════════════════════ */}
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'HowTo',
-                        name: isArabic ? 'كيف تتحقق من أصالة منتجك عبر كايرو فولت' : 'How to Verify Your Product Authenticity with CairoVolt',
-                        description: isArabic
-                            ? 'خطوات التحقق من أصالة المنتج وتفعيل الضمان الذهبي'
-                            : 'Steps to verify product authenticity and activate golden warranty',
-                        step: [
-                            {
-                                '@type': 'HowToStep',
-                                position: 1,
-                                text: isArabic ? 'أمسك كرت الضمان المرفق مع المنتج وابحث عن رقم السيريال المكون من 13 حرفاً' : 'Find the 13-character serial number on the warranty card included with your product',
-                            },
-                            {
-                                '@type': 'HowToStep',
-                                position: 2,
-                                text: isArabic ? 'أدخل رقم السيريال في خانة التحقق أو امسح QR Code' : 'Enter the serial number in the verification field or scan the QR code',
-                            },
-                            {
-                                '@type': 'HowToStep',
-                                position: 3,
-                                text: isArabic ? 'انتظر مطابقة البصمة الرقمية مع قاعدة بيانات CairoVolt' : 'Wait for the digital fingerprint to be matched against the CairoVolt database',
-                            },
-                            {
-                                '@type': 'HowToStep',
-                                position: 4,
-                                text: isArabic ? 'احصل على شهادة التوثيق وكود الضمان الذهبي 14 يوماً' : 'Receive your authentication certificate and 14-day golden warranty code',
-                            },
-                        ],
-                        totalTime: 'PT1M',
-                    }),
-                }}
-            />
-
-            {/* ═══════════════════════════════════════
-                Interactive Client Component (wrapped in Suspense)
-                ═══════════════════════════════════════ */}
             <Suspense fallback={
                 <div style={{
                     minHeight: '60vh',
@@ -223,24 +131,22 @@ export default async function VerifyPage({
                 <VerifyClient />
             </Suspense>
 
-            {/* ═══════════════════════════════════════
-                Server-Rendered SEO Content (Googlebot reads this)
-                ═══════════════════════════════════════ */}
+            {/* Server-rendered supporting content */}
             <section
                 style={{ background: '#0a0a0b', borderTop: '1px solid #27272a', padding: '48px 0' }}
                 dir={isArabic ? 'rtl' : 'ltr'}
             >
                 <div style={{ maxWidth: '48rem', margin: '0 auto', padding: '0 16px' }}>
-                    <h1 style={{ fontSize: 'clamp(1.5rem, 4vw, 1.875rem)', fontWeight: 700, textAlign: 'center', color: '#fafafa', marginBottom: '32px' }}>
+                    <h2 style={{ fontSize: 'clamp(1.5rem, 4vw, 1.875rem)', fontWeight: 700, textAlign: 'center', color: '#fafafa', marginBottom: '32px' }}>
                         {isArabic
-                            ? 'نظام التحقق من أصالة المنتج — C2PA'
-                            : 'Product Authentication System — C2PA'}
-                    </h1>
+                            ? 'التحقق من رقم السيريال وسجل الضمان'
+                            : 'Serial & Warranty Record Verification'}
+                    </h2>
 
                     <p style={{ color: '#a1a1aa', textAlign: 'center', marginBottom: '40px', lineHeight: 1.7 }}>
                         {isArabic
-                            ? 'كايرو فولت تستخدم بروتوكول C2PA العالمي للتحقق من أصالة كل منتج. أدخل رقم السيريال المطبوع على كرت الضمان للتأكد من أن منتجك أصلي 100% وتفعيل الضمان الذهبي 14 يوماً.'
-                            : 'CairoVolt uses the global C2PA protocol to verify the authenticity of every product. Enter the serial number printed on your warranty card to confirm your product is 100% authentic and activate your 14-day golden warranty.'}
+                            ? 'أدخل رقم السيريال المطبوع على كرت الضمان للتحقق من أنه صادر عن كايرو فولت وتفعيل سجل الضمان وفق مدة المنتج وشروطه المكتوبة أو عرض حالته. هذا الفحص لا يحل محل تحقق الشركة المصنعة من أصالة المنتج.'
+                            : 'Enter the serial number printed on the warranty card to confirm that it was issued by CairoVolt and activate or view the record under the product\'s written warranty terms. This check does not replace manufacturer authenticity verification.'}
                     </p>
 
                     {/* FAQ Section — Server-Rendered */}
@@ -264,10 +170,10 @@ export default async function VerifyPage({
                     {/* Trust Signals */}
                     <div style={{ marginTop: '40px', display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '12px', textAlign: 'center' }}>
                         {[
-                            { icon: '🛡️', label: isArabic ? 'ضمان 14 يوم' : '14-Day Warranty' },
-                            { icon: '🔬', label: isArabic ? 'فحص جنائي C2PA' : 'C2PA Forensic' },
-                            { icon: '📱', label: isArabic ? 'QR Code فوري' : 'Instant QR' },
-                            { icon: '🇪🇬', label: isArabic ? 'مصر فقط' : 'Egypt Only' },
+                            { icon: '🛡️', label: isArabic ? 'مدة الضمان حسب المنتج' : 'Product-Specific Warranty' },
+                            { icon: '✓', label: isArabic ? 'سيريال صادر من كايرو فولت' : 'CairoVolt-Issued Serial' },
+                            { icon: '📱', label: isArabic ? 'إدخال مباشر أو QR' : 'Direct or QR Entry' },
+                            { icon: '📋', label: isArabic ? 'عرض حالة التفعيل' : 'Activation Status' },
                         ].map((item, i) => (
                             <div key={i} style={{ padding: '12px', background: '#18181b', borderRadius: '12px', border: '1px solid #27272a' }}>
                                 <span style={{ fontSize: '1.5rem', display: 'block', marginBottom: '4px' }}>{item.icon}</span>

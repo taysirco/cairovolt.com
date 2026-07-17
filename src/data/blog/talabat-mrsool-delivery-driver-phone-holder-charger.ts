@@ -28,14 +28,14 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
             metaDescription: 'دليل عملي لاختيار حامل موبايل وشاحن لسائقي طلبات ومرسول في مصر. مقارنة بين الحوامل المغناطيسية والميكانيكية مع ترشيحات بالأسعار والمواصفات. تابع التفاصيل بمصر.',
             keywords: 'حامل موبايل موتوسيكل طلبات, شاحن سائق مرسول, حامل موبايل للتوصيل, حامل تليفون موتوسيكل, شاحن سيارة سائق توصيل, حامل موبايل توكتوك, phone holder delivery driver egypt, talabat driver accessories',
             excerpt: 'سائقو طلبات ومرسول يحتاجون حامل موبايل ثابت وشاحن سريع يتحمل اهتزاز الموتوسيكل والتوكتوك. دليل عملي بمقارنات وأسعار لأفضل الاختيارات في مصر.',
-            quickAnswer: 'أفضل تركيبة لسائق طلبات أو مرسول: حامل موبايل ميكانيكي بمشبك claw-grip (مش مغناطيسي) مثل جوي روم ZS290 بسعر 934ج + شاحن سيارة مزدوج المنافذ 30W+ بسعر 350ج. للموتوسيكل تحديداً: حامل بذراع مرن يتثبت على المقود (handlebar) بمسمار، مش ventilation clip. التركيبة الكاملة تكلفتها 700-900ج وبتحميك من خسارة 3,000ج+ سنوياً في موبايلات واقعة وأوردرات ضايعة.',
-            content: `<p>الساعة 2 بعد الضهر في عز الزحمة. إنت سائق طلبات أو مرسول، راكب الموتوسيكل ومعاك أوردر بيتزا ساخنة المفروض توصل في 15 دقيقة. الموبايل متحط على حامل رخيص — من النوع اللي بتشتريه من الراجل اللي على ناصية شارع الهرم بـ 30 جنيه. أول مطب في شارع فيصل، الموبايل بيطير من الحامل وبيتزحلق تحت العربيات. في ثانيتين خسرت: موبايل بـ 6,000 جنيه + أوردر بيتزا بايظ + تقييم واقع + يومك كله. واحد من عملائنا سائق مرسول حكالنا إنه غيّر 3 موبايلات في 8 شهور — مش عشان الموبايلات بايظة، عشان الحامل الرخيص كان بيرميهم على الأسفلت كل شوية.</p>
+            quickAnswer: 'اختيار الحامل يعتمد على المركبة وطريقة التثبيت ووزن الهاتف، واختيار الشاحن يعتمد على بروتوكول الهاتف وقدرة منفذ المركبة. قارن جوي روم ZS290 وشاحن سيارة انكر مزدوج بالمواصفات والأسعار الحالية؛ لا توجد وفورات سنوية مضمونة.',
+            content: `<p>لو بتشتغل توصيل في القاهرة أو الجيزة، الموبايل هو مكتبك المتنقل: عليه الخريطة والأوردرات والاتصال بالعميل. عشان كده الحامل اللي شايله مش رفاهية — سقوط الموبايل على الأسفلت في عز الشغل ممكن يكلفك تمن موبايل جديد، فوق الأوردر اللي ضاع والتقييم اللي وقع. والفرق بين حامل بيمسك كويس وحامل بيسيب الموبايل عند أول مطب مش في السعر بس، لكن في آلية التثبيت نفسها: نوع المشبك، وقوة السوست، وطريقة التركيب على المركبة.</p>
 
-<p>المشكلة الأكبر إن 95% من سائقي التوصيل في مصر بيختاروا حامل الموبايل على أساس السعر بس — أرخص حاجة في المحل. مفيش تفكير في نوع التثبيت (مغناطيسي ولا ميكانيكي ولا شفاط)، مفيش تفكير في التوافق مع الاهتزاز، ومفيش تفكير في إن الحامل ده ممكن يكون سبب مباشر في حرق بطارية الموبايل لو مفيهوش تهوية كويسة. في الدليل ده — اللي اتكتب خصيصاً لسائقي طلبات ومرسول وأوبر إيتس وغيرهم — هنشرح بالفيزياء والأرقام إزاي تختار الحامل والشاحن الصح، وإيه الفرق الحقيقي بين حامل 30 جنيه وحامل 350 جنيه، ونصائح من سائقين شغالين 12 ساعة يومياً على طرق القاهرة والجيزة.</p>
+<p>المشكلة الأكبر إن كتير من سائقي التوصيل في مصر بيختاروا حامل الموبايل على أساس السعر بس — أرخص حاجة في المحل. مفيش تفكير في نوع التثبيت (مغناطيسي ولا ميكانيكي ولا شفاط)، مفيش تفكير في التوافق مع الاهتزاز، ومفيش تفكير في إن الحامل ده ممكن يكون سبب مباشر في حرق بطارية الموبايل لو مفيهوش تهوية كويسة. في الدليل ده — اللي اتكتب خصيصاً لسائقي طلبات ومرسول وأوبر إيتس وغيرهم — هنشرح بالفيزياء والأرقام إزاي تختار الحامل والشاحن الصح، وإيه الفرق الحقيقي بين حامل 30 جنيه وحامل 350 جنيه، ونصائح عملية تناسب سائق شغال 12 ساعة يومياً على طرق القاهرة والجيزة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أفضل تركيبة لسائق طلبات أو مرسول: حامل ميكانيكي بمشبك <strong>claw-grip</strong> زي <a href="/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> (934ج) + <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">شاحن سيارة انكر مزدوج 30W+</a> (350ج). للموتوسيكل: حامل بذراع معدني يتثبت على المقود بمسمار. التركيبة الكاملة 700-900ج وبتوفرلك 3,000ج+ سنوياً في موبايلات واقعة وأوردرات ضايعة.
+        <strong>💡 الإجابة السريعة:</strong> قارن حامل <strong>claw-grip</strong> مثل <a href="/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> مع نوع التثبيت المناسب لمركبتك، وطابق <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">شاحن سيارة انكر المزدوج</a> مع بروتوكول الهاتف ومنفذ المركبة. راجع السعر الحالي ولا تفترض مبلغ توفير أو حماية مضمونة.
     </p>
 </div>
 
@@ -50,7 +50,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 <p>بيلزق على سطح أملس (زجاج أو بلاستيك ناعم) بالفراغ الهوائي. في التوكتوك ممكن يشتغل على الزجاج الأمامي لو الزجاج نضيف ومفيش أتربة. لكن في صيف مصر، الحرارة بتلين مادة السيليكون بتاعة الشفاط وبعد ساعة في الشمس بيفقد قوة الالتصاق ويقع. عمره الافتراضي في ظروف الشارع المصري: 2-4 أسابيع. كمان مش ممكن تستخدمه على الموتوسيكل لأن مفيش سطح أملس مناسب.</p>
 
 <h3>3. الحامل الميكانيكي بمشبك (Claw-Grip/Clamp Mount) — ✅ الاختيار الصحيح</h3>
-<p>بيمسك الموبايل من 4 جوانب بأذرع ميكانيكية فيها سوست (springs) قوية. لا بيعتمد على مغناطيس ولا شفاط — تثبيت فيزيائي ميكانيكي. حتى لو المطب عنيف، الموبايل محبوس من 4 جهات ومفيش مكان يروحه. التثبيت بيكون على مخرج التكييف (للسيارة/التوكتوك) أو على المقود (للموتوسيكل) بمسمار أو مشبك معدني. ده الاختيار الوحيد اللي بينجح في اختبار الاهتزاز اليومي على طرق القاهرة.</p>
+<p>بيمسك الموبايل من 4 جوانب بأذرع ميكانيكية فيها سوست (springs) قوية. لا بيعتمد على مغناطيس ولا شفاط — تثبيت فيزيائي ميكانيكي. حتى لو المطب عنيف، الموبايل محبوس من 4 جهات ومفيش مكان يروحه. التثبيت بيكون على مخرج التكييف (للسيارة/التوكتوك) أو على المقود (للموتوسيكل) بمسمار أو مشبك معدني. ده الاختيار الوحيد اللي بيستحمل الاهتزاز اليومي على طرق القاهرة بحكم تصميمه الميكانيكي.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -102,7 +102,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 <h2>ترشيحات الحوامل: الأفضل لكل نوع مركبة</h2>
 
 <h3>للموتوسيكل والسكوتر — حامل مقود بذراع معدني</h3>
-<p>الموتوسيكل محتاج حامل يتثبت على الـ handlebar (المقود) بمشبك معدني أو مسمار Allen key. <a href="/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> — ده الخيار اللي بنوصي بيه لسائقي طلبات ومرسول. بيتثبت على أنبوب المقود (قطر 22-32mm يناسب 95% من الموتوسيكلات في مصر) بمشبك معدني، والأذرع الأربعة بتمسك الموبايل من الجوانب بقوة سوست مضاعفة. بيدور 360 درجة عشان تشوف الخريطة أفقي أو رأسي. مقاوم للأتربة والمطر (IPX4) — يعني بيستحمل شتاء القاهرة. سعره 350 جنيه.</p>
+<p>الموتوسيكل محتاج حامل يتثبت على الـ handlebar (المقود) بمشبك معدني أو مسمار Allen key. <a href="/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> — ده الخيار اللي بنوصي بيه لسائقي طلبات ومرسول. بيتثبت على أنبوب المقود (قطر 22-32mm يناسب أغلب الموتوسيكلات في مصر) بمشبك معدني، والأذرع الأربعة بتمسك الموبايل من الجوانب بقوة سوست مضاعفة. بيدور 360 درجة عشان تشوف الخريطة أفقي أو رأسي. مقاوم للأتربة والمطر (IPX4) — يعني بيستحمل شتاء القاهرة. سعره 350 جنيه.</p>
 
 <p>أهم حاجة في حامل الموتوسيكل: <strong>لازم يكون فيه وسادة مطاطية (rubber padding)</strong> على الأذرع اللي بتمسك الموبايل. بدون المطاط، الاهتزاز المستمر بينقل مباشرة للموبايل وبيأثر على كاميرا الموبايل الخلفية — تحديداً نظام OIS (التثبيت البصري). أبل وسامسونج حذروا رسمياً إن الاهتزاز المستمر على الموتوسيكل ممكن يتلف نظام OIS بشكل دائم. الوسادة المطاطية بتمتص جزء كبير من الاهتزاز وبتحمي الكاميرا.</p>
 
@@ -115,7 +115,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">⚡ <strong>قدرة لا تقل عن 20W (ويفضل 30W+):</strong> الموبايل بيستهلك حوالي 3-4W وهو شغال GPS + تطبيق. لو الشاحن بيدي 5W بس (زي شواحن الرصيف)، الموبايل بيستهلك أسرع مما بيتشحن — يعني هتلاقي البطارية بتنزل وهو متوصل بالشاحن! محتاج على الأقل 20W عشان تشحن الموبايل وهو شغال، والمثالي 30W عشان تشحنه بسرعة في أوقات الانتظار بين الأوردرات.</li>
-    <li style="margin-bottom:16px;">🔌 <strong>منفذين على الأقل (USB-C + USB-A):</strong> منفذ USB-C للشحن السريع للموبايل الأساسي، ومنفذ USB-A للموبايل الاحتياطي أو لشحن سماعة البلوتوث. <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">شاحن سيارة انكر مزدوج</a> بيدي 30W من USB-C و12W من USB-A في نفس الوقت. سعره 350 جنيه بضمان 18 شهر.</li>
+    <li style="margin-bottom:16px;">🔌 <strong>عدد ونوع المنافذ:</strong> يمكن تخصيص USB-C للهاتف الأساسي وUSB-A لجهاز آخر، لكن القدرة تتغير حسب الموديل وعدد الأجهزة. راجع توزيع القدرة والسعر وشروط الضمان الحالية في صفحة <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">شاحن سيارة انكر المزدوج</a>.</li>
     <li style="margin-bottom:16px;">🛡️ <strong>حماية من تذبذب فولت البطارية:</strong> بطارية التوكتوك والموتوسيكل (12V) مش ثابتة زي كهرباء البيت. الفولت بيتراوح بين 11.5V و14.5V حسب حالة الدينامو والأحمال الكهربائية. شاحن رخيص بدون voltage regulation بينقل التذبذب ده للموبايل. شاحن انكر بتقنية PowerIQ 3.0 بيعمل voltage smoothing ويطلع 5V ثابتة بدون تذبذب.</li>
     <li style="margin-bottom:16px;">🌡️ <strong>حماية حرارية (Thermal Safety):</strong> في صيف القاهرة، شاحن السيارة اللي جوا التوكتوك بيتعرض لحرارة 50-60°م. محتاج شاحن بدوائر حماية حرارية بتخفض القدرة تلقائياً لو الحرارة ارتفعت بدل ما يستمر في الشحن على أقصى قدرة ويحرق نفسه والموبايل.</li>
 </ul>
@@ -142,7 +142,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 
 <p>ليه اخترنا باور بانك للموتوسيكل مش شاحن سيارة؟ لأن الموتوسيكل العادي في مصر (Bajaj Boxer, TVS Apache, Honda CG) غالباً مش عنده مقبس ولاعة سجائر (12V socket). محتاج فني يركبلك واحد بـ 100-150 جنيه. لحد ما تركبه، الباور بانك هو الحل الفوري. ولو ركبت المقبس، شاحن السيارة بيكون أوفر لأنه بيشحن من بطارية الموتوسيكل مباشرة.</p>
 
-<h2>8 نصائح ذهبية من سائقين محترفين — بيشتغلوا 12 ساعة يومياً</h2>
+<h2>8 نصائح ذهبية للسائقين المحترفين — اللي بيشتغلوا 12 ساعة يومياً</h2>
 
 <p>جمعنا النصائح دي من محادثات مع أكتر من 50 سائق توصيل في القاهرة والجيزة والإسكندرية — سائقين بخبرة سنتين فما فوق على تطبيقات طلبات ومرسول:</p>
 
@@ -164,7 +164,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت — كل اللي محتاجه لشيفتك</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل حوامل الموبايل وشواحن السيارة الأصلية لسائقي التوصيل متاحة بضمان <strong>18 شهر معتمد</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + فحص قبل الدفع + دعم واتساب 24/7. لو بتشتغل توصيل، الاستثمار في حامل وشاحن كويس بيحمي موبايلك وتقييمك ودخلك. تصفح <a href="/joyroom/car-mounts" style="color:#166534;font-weight:600;">حوامل جوي روم</a> أو <a href="/anker/car-chargers" style="color:#166534;font-weight:600;">شواحن سيارة انكر</a>.
+        راجع بيانات كل موديل وشروط الضمان والتوصيل والاستلام والدعم المنشورة وقت الطلب؛ التوفر والمدة والتغطية تختلف حسب المنتج والعنوان. قارن <a href="/joyroom/car-mounts" style="color:#166534;font-weight:600;">حوامل جوي روم</a> أو <a href="/anker/car-chargers" style="color:#166534;font-weight:600;">شواحن سيارة انكر</a> وفق مركبتك وهاتفك.
     </p>
 </div>`,
             faq: [
@@ -192,14 +192,14 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
             metaDescription: 'Practical guide for Talabat and Mrsool delivery drivers in Egypt to choose the right phone holder and charger. Comparing magnetic vs. mechanical mounts with ...',
             keywords: 'phone holder motorcycle delivery, talabat driver charger, mrsool driver phone mount, motorcycle phone holder egypt, car charger delivery driver, tuktuk phone mount, delivery driver accessories egypt, handlebar phone mount',
             excerpt: 'Talabat and Mrsool delivery drivers need a stable phone holder and fast charger that withstand motorcycle and tuktuk vibration. A practical guide with comparisons and prices for the best choices in Egypt.',
-            quickAnswer: 'The best combo for a Talabat or Mrsool driver: a mechanical claw-grip phone holder (not magnetic) like the Joyroom ZS290 at 934 EGP + a dual-port 30W+ car charger at 350 EGP. For motorcycles specifically: a flexible arm mount that bolts to the handlebar, not a ventilation clip. The complete setup costs 700-900 EGP and saves you 3,000+ EGP annually in dropped phones and lost orders.',
-            content: `<p>It's 2 PM in peak traffic. You're a Talabat or Mrsool driver, riding your motorcycle with a hot pizza order that needs to arrive in 15 minutes. Your phone is sitting on a cheap holder — the kind you grabbed from the guy on the corner of Haram Street for 30 EGP. First speed bump on Faisal Street, the phone flies off the mount and slides under a car. In two seconds you've lost: a 6,000 EGP phone + a ruined pizza order + a tanked rating + your entire day. One of our customers, a Mrsool driver, told us he went through 3 phones in 8 months — not because the phones broke from defects, but because his cheap mount kept launching them onto the asphalt.</p>
+            quickAnswer: 'Mount choice depends on vehicle, attachment method, and phone weight; charger choice depends on the phone protocol and vehicle socket. Compare the Joyroom ZS290 and an Anker dual-port car charger using current specifications and prices; annual savings are not guaranteed.',
+            content: `<p>If you work delivery in Cairo or Giza, your phone is your mobile office: navigation, orders, and customer calls all run through it. That makes the mount holding it anything but a luxury — a phone hitting the asphalt mid-shift can cost you the price of a new device, on top of the lost order and the rating hit. And the difference between a mount that grips properly and one that launches your phone at the first speed bump is not just the price tag; it is the retention mechanism itself: the clamp type, the spring strength, and how it attaches to your vehicle.</p>
 
-<p>The bigger problem is that 95% of delivery drivers in Egypt choose their phone holder based on price alone — the cheapest thing in the shop. No thought given to mount type (magnetic vs. mechanical vs. suction), no thought about vibration compatibility, and no thought about whether the holder might be directly responsible for cooking the phone's battery due to poor ventilation. In this guide — written specifically for Talabat, Mrsool, Uber Eats, and other delivery drivers — we'll explain with physics and numbers how to choose the right holder and charger, what the real difference is between a 30 EGP and 350 EGP mount, and share tips from drivers who work 12 hours daily on Cairo and Giza roads.</p>
+<p>The bigger problem is that many delivery drivers in Egypt choose their phone holder based on price alone — the cheapest thing in the shop. No thought given to mount type (magnetic vs. mechanical vs. suction), no thought about vibration compatibility, and no thought about whether the holder might be directly responsible for cooking the phone's battery due to poor ventilation. In this guide — written specifically for Talabat, Mrsool, Uber Eats, and other delivery drivers — we'll explain with physics and numbers how to choose the right holder and charger, what the real difference is between a 30 EGP and 350 EGP mount, and practical tips suited to drivers who work 12 hours daily on Cairo and Giza roads.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Best combo for a Talabat or Mrsool driver: a mechanical <strong>claw-grip</strong> mount like the <a href="/en/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> (350 EGP) + <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">Anker Dual-Port Car Charger 30W+</a> (350 EGP). For motorcycles: a metal-arm mount that bolts to the handlebar. The complete setup costs 700-900 EGP and saves you 3,000+ EGP annually in dropped phones and lost orders.
+        <strong>💡 Quick Answer:</strong> Compare a <strong>claw-grip</strong> mount such as the <a href="/en/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> with the attachment required by your vehicle, and match the <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">Anker Dual-Port Car Charger</a> to the phone protocol and vehicle socket. Check live prices and do not assume a guaranteed saving or protection outcome.
     </p>
 </div>
 
@@ -214,7 +214,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 <p>Adheres to smooth surfaces (glass or smooth plastic) via vacuum seal. In a tuktuk, it can work on the windshield if the glass is clean and dust-free. But in Egyptian summer heat, the silicone softens after an hour of sun exposure, losing adhesion and falling off. Expected lifespan in Egyptian street conditions: 2-4 weeks. Impossible to use on motorcycles since there's no suitable smooth surface.</p>
 
 <h3>3. Mechanical Claw-Grip/Clamp Mount — ✅ The Right Choice</h3>
-<p>Grips the phone from 4 sides with mechanical arms equipped with strong springs. No magnets, no suction — purely physical mechanical clamping. Even on violent speed bumps, the phone is locked from all four sides with nowhere to go. Attaches to the AC vent (for cars/tuktuks) or to the handlebar (for motorcycles) via bolts or metal clamps. This is the only mount type that survives the daily vibration test on Cairo roads.</p>
+<p>Grips the phone from 4 sides with mechanical arms equipped with strong springs. No magnets, no suction — purely physical mechanical clamping. Even on violent speed bumps, the phone is locked from all four sides with nowhere to go. Attaches to the AC vent (for cars/tuktuks) or to the handlebar (for motorcycles) via bolts or metal clamps. By design, this is the only mount type built to withstand the daily vibration of Cairo roads.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -266,7 +266,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 <h2>Mount Recommendations: Best Pick for Each Vehicle Type</h2>
 
 <h3>For Motorcycles & Scooters — Handlebar Mount with Metal Arm</h3>
-<p>Motorcycles need a mount that bolts to the handlebar with a metal clamp or Allen key bolt. <a href="/en/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> — this is our top recommendation for Talabat and Mrsool drivers. It clamps to handlebar tubes (22-32mm diameter, fitting 95% of motorcycles in Egypt) with a metal bracket, and four spring-loaded arms grip the phone from all sides. Rotates 360° so you can view the map in landscape or portrait. Dust and rain resistant (IPX4) — handles Cairo winter. Priced at 350 EGP.</p>
+<p>Motorcycles need a mount that bolts to the handlebar with a metal clamp or Allen key bolt. <a href="/en/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> — this is our top recommendation for Talabat and Mrsool drivers. It clamps to handlebar tubes (22-32mm diameter, fitting most motorcycles in Egypt) with a metal bracket, and four spring-loaded arms grip the phone from all sides. Rotates 360° so you can view the map in landscape or portrait. Dust and rain resistant (IPX4) — handles Cairo winter. Priced at 350 EGP.</p>
 
 <p>The most important feature in a motorcycle mount: <strong>rubber padding on the gripping arms is mandatory</strong>. Without rubber, continuous vibration transfers directly to the phone and affects the rear camera's OIS (Optical Image Stabilization) system. Apple and Samsung have officially warned that sustained motorcycle vibration can permanently damage OIS components. Rubber padding absorbs a significant portion of vibration and protects the camera.</p>
 
@@ -279,7 +279,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">⚡ <strong>Minimum 20W Output (30W+ Preferred):</strong> Your phone consumes about 3-4W while running GPS + delivery app. If the charger outputs only 5W (like sidewalk chargers), the phone drains faster than it charges — you'll watch the battery percentage drop even while plugged in. You need at least 20W to charge while using, and ideally 30W for quick top-ups during order wait times.</li>
-    <li style="margin-bottom:16px;">🔌 <strong>At Least Two Ports (USB-C + USB-A):</strong> USB-C for fast charging your primary phone, USB-A for a backup phone or Bluetooth earbuds. The <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">Anker Dual-Port Car Charger</a> delivers 30W from USB-C and 12W from USB-A simultaneously. Priced at 350 EGP with an 18-month warranty.</li>
+    <li style="margin-bottom:16px;">🔌 <strong>Port Count and Type:</strong> USB-C can serve the primary phone and USB-A another device, but allocation varies by model and connected load. Check current port distribution, live price, and warranty terms on the <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">Anker Dual-Port Car Charger</a> page.</li>
     <li style="margin-bottom:16px;">🛡️ <strong>Vehicle Battery Voltage Regulation:</strong> Tuktuk and motorcycle batteries (12V) aren't as stable as home electricity. Voltage ranges between 11.5V and 14.5V depending on the dynamo state and electrical loads. A cheap charger without voltage regulation passes these fluctuations directly to the phone. Anker chargers with PowerIQ 3.0 provide voltage smoothing, outputting stable 5V without fluctuation.</li>
     <li style="margin-bottom:16px;">🌡️ <strong>Thermal Safety Protection:</strong> In Cairo's summer, a car charger inside a tuktuk is exposed to 50-60°C. You need a charger with thermal protection circuits that automatically reduce power output when temperatures rise, instead of continuing at full power and frying itself and your phone.</li>
 </ul>
@@ -306,7 +306,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 
 <p>Why a power bank for motorcycles instead of a car charger? Because standard motorcycles in Egypt (Bajaj Boxer, TVS Apache, Honda CG) typically don't have a cigarette lighter socket (12V outlet). You'd need an electrician to install one for 100-150 EGP. Until then, a power bank is the immediate solution. Once the socket is installed, a car charger becomes more economical since it charges from the motorcycle battery directly.</p>
 
-<h2>8 Golden Tips From Professional Drivers — Working 12 Hours Daily</h2>
+<h2>8 Golden Tips for Professional Drivers — Working 12 Hours Daily</h2>
 
 <p>We collected these tips from conversations with over 50 delivery drivers in Cairo, Giza, and Alexandria — drivers with 2+ years of experience on Talabat and Mrsool apps:</p>
 
@@ -328,7 +328,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt — Everything You Need for Your Shift</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All original phone mounts and car chargers for delivery drivers are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + product inspection before payment + 24/7 WhatsApp support. If you work in delivery, investing in a quality mount and charger protects your phone, rating, and income. Browse <a href="/en/joyroom/car-mounts" style="color:#166534;font-weight:600;">Joyroom Mounts</a> or <a href="/en/anker/car-chargers" style="color:#166534;font-weight:600;">Anker Car Chargers</a>.
+        Check each model's current product data and the warranty, delivery, receipt, and support terms published when you order; availability, timing, and coverage vary by product and address. Compare <a href="/en/joyroom/car-mounts" style="color:#166534;font-weight:600;">Joyroom Mounts</a> or <a href="/en/anker/car-chargers" style="color:#166534;font-weight:600;">Anker Car Chargers</a> for the exact vehicle and phone.
     </p>
 </div>`,
             faq: [

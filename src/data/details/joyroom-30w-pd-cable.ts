@@ -2,14 +2,7 @@
 import type { ProductDetail } from './_types';
 
 export const joyroom_30w_pd_cable_detail: ProductDetail = {
-        aiTldr: { en: ['30W PD fast charging for iPhone 15/16/17', 'USB-C to USB-C for universal compatibility', 'Braided nylon with reinforced connectors', '1.2m optimal length',
-            '✅ CairoVolt: Delivered consistent 30W PD output over 500+ charge cycles with max temp 38°C'], ar: ['شحن سريع 30 واط PD للايفون 15/16/17', 'USB-C إلى USB-C لتوافق شامل', 'نايلون مجدول بموصلات مقواة', 'طول 1.2 متر مثالي',
-            '✅ كايرو فولت: أداء ثابت 30 واط PD على 500+ دورة شحن بحرارة أقصى 38°م'] },
-        localContext: { en: 'The perfect cable for the new all-USB-C iPhones — fast charging at a fraction of Apple cable price.', ar: 'الكابل المثالي لموبايلات الايفون الجديدة USB-C — شحن سريع بجزء بسيط من سعر كابل ابل.' },
-        specifications: { 'Length': { en: '1.2m', ar: '1.2 متر' }, 'Max Charging': { en: '30W PD', ar: '30 واط PD' }, 'Material': { en: 'Braided nylon', ar: 'نايلون مجدول' }, 'Data Speed': { en: '480 Mbps', ar: '480 ميجابت/ثانية' }, 'Connector': { en: 'USB-C to USB-C', ar: 'USB-C إلى USB-C' }, 'Dimensions': { en: '1.2m length', ar: 'طول 1.2 متر' }, 'Weight': { en: '25g', ar: '25 جرام' }, 'Safety': { en: '10,000+ bend tested + reinforced tips', ar: 'متجرب 10,000+ انحناء + أطراف معززة' } },
-        labVerified: {
-            result: { en: 'iPhone 15 charged from 0% to 50% in 29 minutes at full 30W PD. Braided nylon zero fraying after 4 months of daily commute use.', ar: 'iPhone 15 شحن من 0% لـ 50% في 29 دقيقة بـ 30و كاملة. النايلون صفر تشقق بعد 4 أشهر.' },
-            conditions: { en: 'CairoVolt QA + daily commute, Egyptian 220V, August-November 2025', ar: 'مختبر كايرو فولت + تنقلات يومية، 220 فولت، أغسطس-نوفمبر 2025' },
-            expertName: 'Eng. Ahmed Medhat',
-        },
+        aiTldr: { en: ['USB-C to USB-C cable with charging support listed up to 30W PD', 'Compatibility depends on the charger, device and selected charging protocol', 'Braided nylon with reinforced connectors', '1.2m length'], ar: ['كابل USB-C إلى USB-C بدعم شحن مدون حتى 30 واط PD', 'يعتمد التوافق على الشاحن والجهاز وبروتوكول الشحن', 'نايلون مجدول بموصلات مقواة', 'طول 1.2 متر'] },
+        localContext: { en: 'This USB-C cable can serve compatible phones and other USB-C devices. Confirm the connector, power requirement and charger capability before ordering; the current product-page price is the relevant comparison.', ar: 'يمكن استخدام كابل USB-C هذا مع الهواتف والأجهزة المتوافقة. تأكد من الموصل والقدرة المطلوبة وقدرة الشاحن قبل الطلب؛ والسعر الحالي في صفحة المنتج هو المرجع للمقارنة.' },
+        specifications: { 'Length': { en: '1.2m', ar: '1.2 متر' }, 'Max Charging': { en: 'Up to 30W PD with compatible equipment', ar: 'حتى 30 واط PD مع المعدات المتوافقة' }, 'Material': { en: 'Braided nylon', ar: 'نايلون مجدول' }, 'Data Speed': { en: 'Up to 480 Mbps (listed)', ar: 'حتى 480 ميجابت/ثانية (مدونة)' }, 'Connector': { en: 'USB-C to USB-C', ar: 'USB-C إلى USB-C' }, 'Dimensions': { en: '1.2m length', ar: 'طول 1.2 متر' }, 'Weight': { en: '25g', ar: '25 جرام' }, 'Safety': { en: 'Manufacturer-listed bend-test figure; inspect and replace the cable if damaged', ar: 'رقم اختبار الثني مدون من الشركة؛ افحص الكابل واستبدله عند التلف' } },
     };

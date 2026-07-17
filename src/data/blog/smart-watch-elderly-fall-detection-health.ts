@@ -162,7 +162,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ ساعة ذكية صحية لكبار السن — على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — نبض القلب 24/7 + تنبيه أدوية + مكالمات بلوتوث + شاشة 1.96 بوصة + بطارية 7 أيام. متوافقة مع أي موبايل. بضمان 12 شهر + توصيل لكل المحافظات.
+        <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — راجع صفحة المنتج للتأكد من خصائص النبض والتنبيهات والمكالمات ومقاس الشاشة وعمر البطارية، ثم تحقق من توافق التطبيق مع هاتفك وشروط الضمان والتوصيل الحالية قبل الطلب.
     </p>
 </div>`,
             faq: [
@@ -325,7 +325,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Health Smartwatch for Elderly Parents — on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — 24/7 heart rate + medication reminders + Bluetooth calls + 1.96" screen + 7-day battery. Compatible with any phone. 12-month warranty + delivery across all governorates.
+        <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — review the product page for heart-rate, reminder, calling, display, and battery specifications; then verify app compatibility with the exact phone and the current warranty and delivery terms before ordering.
     </p>
 </div>`,
             faq: [

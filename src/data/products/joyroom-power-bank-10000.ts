@@ -14,170 +14,154 @@ export const joyroom_power_bank_10000 = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-1.webp", alt: "باور بانك جوي روم 10000 الأصلي مصر - شحن سريع iPhone 17 - كايرو فولت", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-2.webp", alt: "شاحن متنقل جوي روم 10000 مللي أمبير - توصيل القاهرة - ضمان 12 شهر - JR-T012 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-3.webp", alt: "باور بانك جوي روم نحيف 10000 - أفضل سعر في مصر فبراير - كايرو فولت", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-4.webp", alt: "Joyroom 10000mAh Power Bank Original Egypt - Quick Charge 3.0 - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom Slim Power Bank 10000 - CairoVolt Verified Original", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك جوي روم 10000 - أفضل قيمة مقابل سعر - ضمان رسمي مصر - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-1.webp", alt: "باور بانك جوي روم 10000 في مصر - موديل JR-T012 - كايرو فولت", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-2.webp", alt: "شاحن متنقل جوي روم 10000 مللي أمبير - توصيل القاهرة - راجع سياسة الضمان والاسترجاع الحالية - JR-T012 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-3.webp", alt: "باور بانك جوي روم نحيف 10000 - السعر الحالي في مصر فبراير - كايرو فولت", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-4.webp", alt: "Joyroom JR-T012 10000mAh power bank with Quick Charge 3.0 - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom 10000mAh slim power bank model JR-T012 - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك جوي روم 10000 بشاشة رقمية ومخرجي USB - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
-                name: "Joyroom 10000mAh Slim Power Bank | QC 3.0 | LED Display | 12-Month Warranty",
-                shortDescription: "🔋 10,000mAh (2x iPhone 17) | ⚡ Quick Charge 3.0 | 📊 LED Battery Display | 📏 Ultra-Slim 14mm | 🔌 Dual USB Output",
+                name: "Joyroom 10000mAh Slim Power Bank | QC 3.0 | LED Display",
+                shortDescription: "🔋 Manufacturer-listed 10,000mAh (37Wh) | ⚡ Quick Charge 3.0 | 📊 Estimated LED Battery Display | 📏 Listed 14mm Thickness | 🔌 Dual USB Output",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Joyroom 10000mAh Slim Power Bank</strong> features <strong>QC 3.0 fast output + LED display showing exact battery %</strong>. Ultra-slim design fits in shirt pockets. At 1,624 EGP, it's the premium compact power bank for professionals. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom JR-T012 10000mAh Slim Power Bank</strong> is listed with a 37Wh cell rating, Quick Charge 3.0 output, two USB-A ports and a digital battery indicator. The display is an estimate and delivered energy is lower than the internal cell rating after conversion. Verify the printed input/output table, dimensions and package contents, then check the current price, stock and warranty terms before ordering.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
-        <li>🔋 <strong>10,000mAh:</strong> Charges iPhone 17 twice or Samsung S26 1.5 times.</li>
-        <li>⚡ <strong>Quick Charge 3.0:</strong> 4x faster than standard 5W charging.</li>
-        <li>📊 <strong>LED Display:</strong> Shows exact battery percentage (not just dots).</li>
-        <li>📏 <strong>Ultra-Slim 14mm:</strong> Thinner than your phone. Perfect for pockets.</li>
-    <li>💰 <strong>4.51 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul>
+        <li>🔋 <strong>10,000mAh / 37Wh cell rating:</strong> usable USB energy and charge count vary after conversion.</li>
+        <li>⚡ <strong>Quick Charge 3.0:</strong> requires a compatible device, cable and output profile.</li>
+        <li>📊 <strong>LED Display:</strong> provides an estimated remaining percentage.</li>
+        <li>📏 <strong>Listed 14mm thickness:</strong> confirm the dimensions and pocket fit on the supplied model.</li>
+    <li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "We gave the Joyroom 10000 to a delivery driver in Giza who uses his phone 12+ hours daily for GPS and calls. After a week, his verdict: 'It's a lifesaver.' He charged his Samsung A54 once in the morning and once in the evening, with battery to spare. The LED display meant he always knew exactly when to plug in. At 14mm slim, it slid into his jeans pocket alongside his phone. For anyone who thinks quality power banks have to cost a fortune, Joyroom proves otherwise. The Quick Charge 3.0 is the cherry on top — noticeably faster than the generic power banks flooding the market."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>JR-T012</strong>, start with the manufacturer-rated Wh/mAh, input/output profiles and airline limits printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Premium Features at a Budget Price</h2>
-        <p class="text-gray-700">The Joyroom 10000mAh delivers what budget power banks don't: <strong>Quick Charge 3.0</strong> (4x faster than standard), a <strong>digital LED display</strong> showing exact battery percentage, and <strong>dual USB output</strong> to charge your phone and earbuds simultaneously. All at a price point that's significantly lower than premium brands for the same 10,000mAh capacity.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Quick Charge, Display and Dual Outputs</h2>
+        <p class="text-gray-700">JR-T012 combines <strong>Quick Charge 3.0</strong>, a <strong>digital LED indicator</strong> and <strong>two USB outputs</strong>. A connected device accepts only a supported profile, and power may be shared when two devices charge. Treat the displayed percentage as an estimate and compare the live price and port table with alternatives.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Thinner Than Your Phone: 14mm Ultra-Slim</h2>
-        <p class="text-gray-700">At just <strong>14mm thick</strong>, this is one of the slimmest 10,000mAh power banks available. It slides into a jeans pocket, a small clutch, or a jacket pocket without creating a bulge. Verified with <strong>Golden Code</strong> authentication to guarantee it's 100% original Joyroom — not a counterfeit.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Listed 14mm Slim Profile</h2>
+        <p class="text-gray-700">The listing states a thickness of <strong>14mm</strong>; confirm that dimension and the exact model on the supplied label. A compact body can fit common pockets and small bags, but fit varies. If the package includes a Golden Code or other manufacturer verification label, follow its printed verification process rather than treating the code name alone as a guarantee of authenticity.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">LED Display: Know Your Exact Battery Level</h2>
-        <p class="text-gray-700">No more guessing with 4 LED dots. The <strong>digital percentage display</strong> shows you exactly how much charge remains — whether it's 73% or 12%, you know precisely. This feature is usually found on power banks costing 2-3x more. Pair with a <a href="/en/joyroom/wall-chargers" class="text-blue-600 hover:underline">Joyroom fast charger</a> to recharge in 3-4 hours.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">LED Display and Recharging</h2>
+        <p class="text-gray-700">The <strong>digital percentage display</strong> is more detailed than four indicator dots but remains an estimate affected by load and calibration. Recharge time depends on the printed input profile, source, cable and temperature. Match a <a href="/en/joyroom/wall-chargers" class="text-blue-600 hover:underline">Joyroom charger</a> to the exact input rather than relying on one universal time.</p>
     </section>
 </div>
 <div class="device-compatibility">
-    <h3 class="font-bold mb-2">How Many Charges Per Device:</h3>
+    <h3 class="font-bold mb-2">How to Estimate Charge Count:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17 / 17 Pro Max:</strong> ~2 full charges.</li>
-        <li>📱 <strong>Samsung S26 Ultra / S25:</strong> ~1.5 full charges.</li>
-        <li>📱 <strong>Samsung A-Series (4000mAh):</strong> ~2.5 full charges.</li>
-        <li>🎧 <strong>AirPods Pro 2 / Galaxy Buds:</strong> ~20+ full charges.</li>
-        <li>⌚ <strong>Apple Watch / Smart Watch:</strong> ~10+ full charges.</li>
+        <li>📱 <strong>Phones:</strong> compare usable watt-hours with the phone battery and allow for conversion loss and use while charging.</li>
+        <li>🎧 <strong>Earbud cases:</strong> verify the case input and expect the number of top-ups to vary with its battery condition.</li>
+        <li>⌚ <strong>Wearables:</strong> use only a compatible charging accessory within the listed output.</li>
+        <li>🔌 <strong>Two devices:</strong> consult the shared-output table instead of assuming both retain maximum speed.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Does NOT support PD protocol — iPhone 17/16/15 charges at standard QC speed, not maximum PD. 10000mAh gives about 2 full charges for most phones, not 3+. No wireless charging. LED display drains a small amount of standby power.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">Before purchase:</h3><p class="text-gray-700">Do not infer USB-C PD or wireless charging from the capacity name. Check JR-T012's printed ports and output profiles against your device. The 10,000mAh cell rating does not promise a fixed number of phone charges, and the LED percentage is an estimate.</p></div>
 `,
                 features: [
-                    "🔋 10,000mAh (2x iPhone 17 Charges)",
-                    "⚡ Quick Charge 3.0 (4x Faster)",
+                    "🔋 Manufacturer-listed 10,000mAh (37Wh)",
+                    "⚡ Quick Charge 3.0 for Compatible Devices",
                     "📊 LED Digital Battery Display",
                     "📏 Ultra-Slim 14mm Design",
                     "🔌 Dual USB Output",
-                    "✈️ Airline Approved (37Wh)",
-                    "✅ Golden Code Verified Original",
-                    "🏆 12-Month Warranty", "🔒 CE + FCC Certified → Global Safety Standards"],
+                    "✈️ Check Current Airline Rules (37Wh)",
+                    "✅ Use Official Golden Code Process If Supplied",
+                    "🏆 current warranty and return policy", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Joyroom 10000mAh Power Bank ⚡ QC 3.0 + LED Display | COD",
-                metaDesc: "Buy Joyroom 10000mAh power bank in Egypt. 2x iPhone charges, QC 3.0, LED display, ultra-slim 14mm. ✓ Original Sealed ✓ 14-Day Returns.",
+                metaDesc: "Buy Joyroom JR-T012 10000mAh power bank in Egypt with QC 3.0, digital LED display, listed 14mm profile and dual USB output. Check current terms.",
                 faqs: [
-                    { question: "What is the price of Joyroom 10000mAh in Egypt?", answer: "Joyroom 10000mAh power bank price is EGP 1,624 at CairoVolt. Includes 12-month warranty and fast delivery to Cairo and Giza." },
-                    { question: "How many times does Joyroom 10000 charge iPhone 17?", answer: "It charges iPhone 17 twice or Samsung S26 about 1.5 times. Perfect for a day trip or short travel." },
-                    { question: "Does Joyroom 10000 support fast charging?", answer: "Yes, it supports Quick Charge 3.0 via USB-A ports. Charges your phone 4x faster than standard chargers." },
-                    { question: "What makes Joyroom 10000 special?", answer: "Joyroom offers premium features like LED display and slim design at an unbeatable price. It is the excellent budget choice." },
-                    { question: "Does Joyroom 10000 work as a power source for Bluetooth speakers?", answer: "Yes, the USB-A port delivers 5V/2A which powers most portable Bluetooth speakers. Tested with JBL Go 3 and Anker Soundcore — both worked perfectly." },
-                    { question: "What's the difference between Joyroom 10000 and Joyroom 20000?", answer: "10000mAh = 2.5 iPhone charges, 220g, pocket-friendly. 20000mAh = 5 iPhone charges, 350g, backpack territory. Double capacity, 60% heavier." },
+                    { question: "What is the price of Joyroom 10000mAh in Egypt?", answer: "The live price is displayed on this page. Review current stock, delivery options and the written warranty and return policy before ordering." },
+                    { question: "How many times does Joyroom 10000 charge a phone?", answer: "There is no fixed count. Compare usable watt-hours with the phone battery and allow for conversion loss, cable loss and phone use while charging." },
+                    { question: "Does Joyroom 10000 support fast charging?", answer: "It lists Quick Charge 3.0 on compatible USB-A output. Actual speed depends on the phone, cable, accepted profile, temperature and battery level." },
+                    { question: "What makes Joyroom 10000 useful?", answer: "It combines a listed 10,000mAh cell rating, digital indicator, slim profile and two USB outputs. Compare the live price and exact port table with your needs." },
+                    { question: "Can Joyroom 10000 power a Bluetooth speaker?", answer: "Only if the speaker accepts USB power within the power bank port's listed 5V output. Check the speaker input requirement and use its recommended cable." },
+                    { question: "What's the difference between Joyroom 10000 and Joyroom 20000?", answer: "The 20,000mAh class has a higher cell rating but is typically larger and heavier. Compare the exact Wh, dimensions, weight, ports and current price; neither capacity promises a fixed charge count." },
                     { question: "Does it come with a charging cable?", answer: "Yes, includes a short Micro-USB cable to recharge the power bank. We recommend USB-C cable for your phone." },
-                    { question: "How long to recharge Joyroom 10000?", answer: "With 18W charger: 3-4 hours. With standard 5W: 6-8 hours. Fast charger recommended." }
+                    { question: "How long does Joyroom 10000 take to recharge?", answer: "Use the printed input rating and a compatible source. Time varies with source power, cable, temperature, battery condition and use during charging." }
                 ]
             },
             ar: {
-                name: "باور بانك جوي روم 10000 مللي | الفئة الاقتصادية (منقذ الطلبة) | ضمان 12 شهر",
-                shortDescription: "أرخص باور بانك أصلي في مصر | 🔋 10,000 مللي (شحنتين ايفون 17) | ⚡ أسرع 4 مرات من الشاحن العادي | 📊 شاشة ديجيتال للنسبة",
+                name: "باور بانك جوي روم 10000 مللي | الفئة الاقتصادية (منقذ الطلبة)",
+                shortDescription: "🔋 سعة خلايا معلنة 10,000 مللي أمبير (37Wh) | ⚡ Quick Charge 3.0 | 📊 شاشة نسبة تقديرية | 📏 سمك معلن 14مم | 🔌 مخرجا USB",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، باور بانك <strong>جوي روم 10000mAh نحيف</strong> بميزة <strong>QC 3.0 خرج سريع + شاشة LED بتوريك نسبة البطارية بالظبط</strong>. تصميم نحيف جداً بيدخل جيب القميص. بـ 1,624 جنيه، باور بانك المحترفين الفاخر. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">باور بانك <strong>جوي روم JR-T012 سعة 10000mAh</strong> مدرج بتصنيف خلايا 37Wh وخرج Quick Charge 3.0 ومخرجي USB-A وشاشة رقمية للبطارية. الشاشة تقديرية والطاقة المسلمة أقل من تصنيف الخلايا بعد التحويل. تحقق من جدول الإدخال والإخراج والأبعاد ومحتويات العبوة، ثم راجع السعر والمخزون وشروط الضمان قبل الطلب.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
-        <li>🔋 <strong>10,000 مللي أمبير:</strong> يشحن ايفون 17 مرتين أو سامسونج S26 مرة ونص.</li>
-        <li>⚡ <strong>Quick Charge 3.0:</strong> أسرع 4× من الشحن العادي 5 واط.</li>
-        <li>📊 <strong>شاشة LED:</strong> تعرض نسبة البطارية بالضبط (مش بس نقاط).</li>
-        <li>📏 <strong>نحيف 14مم:</strong> أنحف من موبايلك. مثالي للجيب.</li>
+        <li>🔋 <strong>تصنيف خلايا 10,000 مللي أمبير / 37Wh:</strong> الطاقة الفعلية وعدد الشحنات يتغيران بعد التحويل.</li>
+        <li>⚡ <strong>Quick Charge 3.0:</strong> يحتاج جهازاً وكابلاً وبروفايلاً متوافقين.</li>
+        <li>📊 <strong>شاشة LED:</strong> تعرض تقديراً للنسبة المتبقية.</li>
+        <li>📏 <strong>سمك معلن 14مم:</strong> تحقق من الأبعاد وملاءمة الجيب للموديل المورّد.</li>
     </ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "نحن في فريق كايرو فولت سلّمنا جوي روم 10000 لسواق دليفري في الجيزة بيستخدم موبايله 12+ ساعة يومياً للـ GPS والمكالمات. بعد أسبوع، رأيه: 'ده منقذة حياة.' كان بيشحن سامسونج A54 مرة الصبح ومرة بالليل، ولسه بطارية فاضلة. شاشة LED خلّته دايماً يعرف بالظبط إمتى يوصّل. بسمك 14مم، دخل جيب الجينز جنب الموبايل (الهاتف الذكي). لأي حد فاكر إن الباور بانك الكويس لازم يكون غالي، جوي روم بتثبت العكس. Quick Charge 3.0 الكرزة على التورتة — أسرع بشكل ملحوظ من الباور بانك العشوائي اللي مالي السوق."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>JR-T012</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">مميزات فاخرة بسعر اقتصادي</h2>
-        <p class="text-gray-700">في ظل انقطاعات الكهرباء المتكررة في مصر، جوي روم 10000 بيوفر اللي الباور بانك الرخيصة مبتوفرهوش: <strong>Quick Charge 3.0</strong> (أسرع 4× من العادي)، <strong>شاشة LED رقمية</strong> بتعرض نسبة البطارية بالظبط، و<strong>مخرجين USB</strong> لشحن الموبايل والايربودز في نفس الوقت. كل ده بسعر أقل بكتير من الماركات الفاخرة لنفس السعة.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Quick Charge وشاشة ومخرجان</h2>
+        <p class="text-gray-700">يجمع JR-T012 بين <strong>Quick Charge 3.0</strong> و<strong>مؤشر LED رقمي</strong> و<strong>مخرجي USB</strong>. يقبل الجهاز المتصل البروفايل الذي يدعمه فقط، وقد تتوزع القدرة عند شحن جهازين. تعامل مع النسبة المعروضة كتقدير وقارن السعر الحالي وجدول المنافذ بالبدائل.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">أنحف من موبايلك: 14مم نحيف جداً</h2>
-        <p class="text-gray-700">بسمك <strong>14 ملليمتر فقط</strong>، ده من أنحف باور بانك 10,000 مللي أمبير. بيدخل جيب الجينز، شنطة صغيرة، أو جيب الجاكيت بدون انتفاخ. متحقق بـ<strong>الكود الذهبي (Golden Code)</strong> لضمان إنه أصلي 100% من جوي روم — مش تقليد.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">سمك مدرج 14مم</h2>
+        <p class="text-gray-700">راجع السمك والأبعاد والوزن المعلنة للموديل على الوحدة قبل اختيار حجم الشنطة أو الجيب. إذا توفر <strong>Golden Code</strong> فاستخدم فقط عملية التحقق الرسمية المطبوعة؛ الكود وحده لا يضمن كل جوانب المصدر أو الضمان.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">شاشة LED: اعرف مستوى بطاريتك بالظبط</h2>
-        <p class="text-gray-700">مفيش تخمين تاني مع 4 نقاط LED. <strong>الشاشة الرقمية</strong> بتعرضلك بالظبط كام شحن متبقي — سواء 73% أو 12%، بتعرف بدقة. الميزة دي عادة بتكون في باور بانك سعره 2-3× أكتر. استخدمه مع <a href="/joyroom/wall-chargers" class="text-blue-600 hover:underline">شاحن جوي روم سريع</a> لإعادة شحنه في 3-4 ساعات.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">شاشة LED وإعادة الشحن</h2>
+        <p class="text-gray-700">تعرض <strong>الشاشة الرقمية</strong> تقديراً أكثر تفصيلاً من أربع لمبات، لكنها تتأثر بالحمل والمعايرة. تتغير مدة إعادة الشحن حسب دخل الوحدة المطبوع والمصدر والكابل والحرارة. طابق <a href="/joyroom/wall-chargers" class="text-blue-600 hover:underline">شاحن جوي روم</a> مع بروفايل الإدخال بدلاً من الاعتماد على مدة واحدة للجميع.</p>
     </section>
 </div>
 <div class="device-compatibility">
-    <h3 class="font-bold mb-2">كام شحنة لكل جهاز:</h3>
+    <h3 class="font-bold mb-2">طريقة تقدير عدد الشحنات:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>ايفون 17 / 17 برو ماكس:</strong> ~2 شحنة كاملة.</li>
-        <li>📱 <strong>سامسونج S26 الترا / S25:</strong> ~1.5 شحنة.</li>
-        <li>📱 <strong>سامسونج A-Series (4000mAh):</strong> ~2.5 شحنة.</li>
-        <li>🎧 <strong>ايربودز برو 2 / Galaxy Buds:</strong> ~20+ شحنة.</li>
-        <li>⌚ <strong>ابل واتش / ساعة ذكية:</strong> ~10+ شحنة.</li>
+        <li>📱 <strong>الهواتف:</strong> قارن الطاقة القابلة للاستخدام ببطارية الهاتف واحتسب فقد التحويل والاستخدام أثناء الشحن.</li>
+        <li>🎧 <strong>علب السماعات:</strong> تحقق من الدخل وتوقع اختلاف عدد مرات التعبئة حسب حالة البطارية.</li>
+        <li>⌚ <strong>الساعات:</strong> استخدم ملحق شحن متوافقاً ضمن الخرج المعلن.</li>
+        <li>🔌 <strong>جهازان:</strong> راجع جدول توزيع القدرة ولا تفترض بقاء السرعة القصوى للمنفذين.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">مش بيدعم بروتوكول PD — ايفون 17/16/15 بيشحن بسرعة QC العادية، مش أقصى PD. 10000mAh بيدّي حوالي 2 شحنة كاملة لمعظم الموبايلات، مش 3+. مفيش شحن لاسلكي. شاشة LED بتستهلك كمية صغيرة من طاقة الاستعداد.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">قبل الشراء:</h3><p class="text-gray-700">لا تستنتج USB-C PD أو الشحن اللاسلكي من اسم السعة. طابق منافذ JR-T012 وبروفايلات الخرج المطبوعة مع جهازك. تصنيف 10,000mAh لا يضمن عدداً ثابتاً من شحنات الهاتف، والنسبة على الشاشة تقديرية.</p></div>
 `,
                 features: [
-                    "🔋 10,000 مللي أمبير (شحنتين ايفون 17)",
-                    "⚡ Quick Charge 3.0 (أسرع 4×)",
+                    "🔋 سعة خلايا معلنة 10,000 مللي أمبير (37Wh)",
+                    "⚡ Quick Charge 3.0 للأجهزة المتوافقة",
                     "📊 شاشة LED رقمية",
                     "📏 نحيف 14مم",
                     "🔌 مخرجين USB",
-                    "✈️ مسموح بالطائرة (37Wh)",
-                    "✅ أصلي بالكود الذهبي",
-                    "🏆 ضمان 12 شهر", "🔒 معتمد CE + FCC → معايير السلامة العالمية"],
-                metaTitle: "باور بانك جوي روم 10000 الأصلي ⚡ QC 3.0 + شاشة LED | COD مصر",
-                metaDesc: "اشتري باور بانك جوي روم 10000 في مصر. شحنتين ايفون، QC 3.0، شاشة LED، نحيف 14مم. ✓ ضمان 12 شهر ✓ كود ذهبي أصلي ✓ توصيل سريع.",
+                    "✈️ تحقق من قواعد الطيران الحالية (37Wh)",
+                    "✅ استخدم عملية Golden Code الرسمية إذا كانت مطبوعة",
+                    "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
+                metaTitle: "باور بانك جوي روم 10000 | QC 3.0 وشاشة LED | مصر",
+                metaDesc: "اشتري باور بانك جوي روم JR-T012 سعة 10000 في مصر مع QC 3.0 وشاشة LED وسمك معلن 14مم ومخرجي USB. راجع السعر والمخزون والضمان الحالي.",
                 faqs: [
-                    { question: "كم سعر باور بانك جوي روم 10000 في مصر؟", answer: "سعر باور بانك جوي روم 10000 في مصر هو 1,624 جنيه من CairoVolt. يشمل ضمان 12 شهر وتوصيل سريع للقاهرة والجيزة." },
-                    { question: "كم مرة يشحن جوي روم 10000 الايفون 17؟", answer: "يشحن iPhone 17 مرتين كاملتين، أو Samsung S26 حوالي 1.5 مرة. مثالي لرحلة يومية أو سفر قصير." },
-                    { question: "هل باور بانك جوي روم 10000 يدعم الشحن السريع؟", answer: "نعم، يدعم Quick Charge 3.0 عبر منافذ USB-A. يشحن هاتفك أسرع 4 مرات من الشواحن العادية." },
-                    { question: "لماذا هذا الباور بانك قيمة ممتازة؟", answer: "جوي روم يقدم سعة 10000 مللي أمبير الحقيقية بتصميم نحيف وشاشة رقمية بسعر منافس جداً. هو الخيار الاقتصادي الأذكي." },
-                    { question: "جوي روم 10000 بيشتغل كمصدر طاقة لسماعة بلوتوث؟", answer: "أيوه، منفذ USB-A بيطلع 5V/2A وده بيشغّل أغلب سماعات البلوتوث المحمولة. جربناه مع JBL Go 3 وAnker ساوندكور — الاتنين اشتغلوا تمام." },
-                    { question: "إيه الفرق بين جوي روم 10000 و 20000؟", answer: "10000 = 2.5 شحنة ايفون، 220 جم، بيدخل الجيب. 20000 = 5 شحنات ايفون، 350 جم، مكانه الشنطة. ضعف السعة، أتقل 60%." },
+                    { question: "كم سعر باور بانك جوي روم 10000 في مصر؟", answer: "اعتمد السعر الحالي الظاهر في الصفحة، وراجع المخزون والتوصيل وشروط الضمان والاسترجاع قبل الطلب." },
+                    { question: "كم مرة يشحن جوي روم 10000 الهاتف؟", answer: "لا يوجد عدد ثابت. قارن الطاقة القابلة للاستخدام ببطارية الهاتف واحتسب فقد التحويل والكابل واستخدام الهاتف أثناء الشحن." },
+                    { question: "هل باور بانك جوي روم 10000 يدعم الشحن السريع؟", answer: "يدرج Quick Charge 3.0 عبر خرج USB-A المتوافق. تتغير السرعة حسب الهاتف والكابل والبروفايل والحرارة ونسبة البطارية." },
+                    { question: "ما أهم مميزات باور بانك جوي روم 10000؟", answer: "يجمع تصنيف خلايا 10,000 مللي أمبير وشاشة رقمية وتصميماً نحيفاً ومخرجي USB. قارن السعر الحالي وجدول المنافذ باحتياجك." },
+                    { question: "جوي روم 10000 ينفع كمصدر طاقة لسماعة بلوتوث؟", answer: "ينفع فقط لو السماعة تقبل طاقة USB ضمن خرج 5V المعلن للمنفذ. راجع متطلبات دخل السماعة واستخدم الكابل الموصى به." },
+                    { question: "إيه الفرق بين جوي روم 10000 و 20000؟", answer: "فئة 20,000 مللي أمبير أعلى في تصنيف الخلايا لكنها عادة أكبر وأثقل. قارن Wh والأبعاد والوزن والمنافذ والسعر الحالي؛ السعة وحدها لا تضمن عدداً ثابتاً من الشحنات." },
                     { question: "هل يأتي مع كابل شحن؟", answer: "نعم، يشمل كابل Micro-USB قصير لشحن الباور بانك نفسه. ننصح بكابل USB-C لشحن هاتفك." },
-                    { question: "كم وقت شحن باور بانك جوي روم 10000؟", answer: "بشاحن 18 واط: 3-4 ساعات. بشاحن 5 واط عادي: 6-8 ساعات. ننصح بشاحن سريع لتوفير الوقت." }
+                    { question: "كم وقت شحن باور بانك جوي روم 10000؟", answer: "استخدم دخل الوحدة المطبوع ومصدراً متوافقاً. تتغير المدة حسب قدرة المصدر والكابل والحرارة وحالة البطارية والاستخدام أثناء الشحن." }
                 ]
             }
         },
         meta: {
-            keywords: "باور بانك جوي روم 10000, باور بانك جوي روم, جوي روم power bank, سعر باور بانك جوي روم 10000, باور بانك جوي روم 10000, باور بانك جوي روم, power bank جوي روم 10000, جوي روم باور بانك, سعر باور بانك جوي روم ١٠٠٠٠, شاحن متنقل جوي روم, باور بانك جوي روم الأصلي, أفضل باور بانك رخيص مصر, باور بانك 10000 شحن سريع, جوي روم 10000mah egypt, جوي روم power bank price egypt",
+            keywords: "باور بانك جوي روم 10000, باور بانك جوي روم, جوي روم power bank, سعر باور بانك جوي روم 10000, باور بانك جوي روم 10000, باور بانك جوي روم, power bank جوي روم 10000, جوي روم باور بانك, سعر باور بانك جوي روم ١٠٠٠٠, شاحن متنقل جوي روم, تحقق من موديل باور بانك جوي روم, باور بانك 10000 شحن سريع, جوي روم 10000mah egypt, جوي روم power bank price egypt",
             mainTerm: "باور بانك جوي روم 10000"
         },
         expertOpinion: {
-        en: "The everyday pocket companion for students, commuters, and light travelers. Slim enough to forget it's in your bag, with a percentage display so you're never caught off guard. Not for laptop charging — get the 20K for that.",
-        ar: "رفيق الجيب اليومي للطلاب واللي بيتنقلوا كتير — رفيع بشاشة بتقولك الشحن فاضل كام بالظبط. مش للابتوب — لو محتاج ده خد الـ 20 ألف."
+        en: "JR-T012 may suit buyers comparing a 10,000mAh-class battery with a percentage display for compatible phones. Confirm its printed Wh, profiles, dimensions, weight and usable-energy conditions; choose any laptop option only after matching the laptop's required USB-PD input.",
+        ar: "قد يناسب JR-T012 من يقارن بطارية من فئة 10,000 مللي أمبير مع شاشة نسبة لهاتف متوافق. تحقّق من Wh والبروفايلات والأبعاد والوزن وشروط الطاقة القابلة للاستخدام، ولا تختَر خياراً للابتوب إلا بعد مطابقة مدخل USB-PD المطلوب."
     },
         relatedProducts: [
         "joyroom-magnetic-power-bank-10000",

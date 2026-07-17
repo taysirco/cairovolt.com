@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useCallback, useEffect, useState } from 'react';
+import type { FormEvent } from 'react';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
 interface ReviewRequest {
@@ -17,53 +18,74 @@ interface ReviewRequest {
     createdAt: string;
 }
 
-const ADMIN_KEY_STORAGE = 'cv_admin_key';
-
-function getAdminKey(): string {
-    if (typeof window === 'undefined') return '';
-    let key = localStorage.getItem(ADMIN_KEY_STORAGE) || '';
-    if (!key) {
-        key = window.prompt('أدخل مفتاح الأدمن (ADMIN_TASKS_SECRET):')?.trim() || '';
-        if (key) localStorage.setItem(ADMIN_KEY_STORAGE, key);
-    }
-    return key;
+interface SyncResultItem {
+    rowNumber: number;
+    customerName?: string;
+    productName?: string;
+    status: string;
+    whatsappLink?: string;
 }
+
+interface SyncResponse {
+    success: boolean;
+    processed?: number;
+    results?: SyncResultItem[];
+    error?: string;
+}
+
+const UNMATCHED_REASON_LABELS: Record<string, string> = {
+    'invalid-phone': 'رقم واتساب غير صالح',
+    'order-not-found': 'تعذر العثور على الطلب في قاعدة البيانات',
+    'order-details-mismatch': 'بيانات العميل أو المنتج لا تطابق الطلب',
+    'product-not-matched': 'لم يُطابق منتجاً في الكتالوج',
+};
 
 export default function ReviewsDashboard() {
     const [requests, setRequests] = useState<ReviewRequest[]>([]);
     const [loading, setLoading] = useState(false);
     const [syncing, setSyncing] = useState(false);
-    const [syncResults, setSyncResults] = useState<any>(null);
+    const [syncResults, setSyncResults] = useState<SyncResponse | null>(null);
     const [error, setError] = useState<string | null>(null);
+    const [authenticated, setAuthenticated] = useState<boolean | null>(null);
+    const [adminSecret, setAdminSecret] = useState('');
+    const [authenticating, setAuthenticating] = useState(false);
 
     const authHeaders = (): Record<string, string> => ({
-        'Authorization': `Bearer ${getAdminKey()}`,
         'Content-Type': 'application/json',
     });
 
-    const handleAuthFailure = () => {
-        localStorage.removeItem(ADMIN_KEY_STORAGE);
-        setError('المفتاح غير صحيح — حدّث الصفحة وأدخله من جديد');
-    };
+    const handleAuthFailure = useCallback(() => {
+        setAuthenticated(false);
+        setError('انتهت جلسة الإدارة. سجّل الدخول من جديد.');
+    }, []);
 
     // Fetch existing review requests
-    const fetchRequests = async () => {
+    const fetchRequests = useCallback(async () => {
         setLoading(true);
         try {
-            const response = await fetch('/api/reviews/sync', { method: 'POST', headers: authHeaders() });
+            const response = await fetch('/api/reviews/sync', {
+                method: 'POST',
+                headers: authHeaders(),
+                credentials: 'same-origin',
+                cache: 'no-store',
+            });
             if (response.status === 401) { handleAuthFailure(); return; }
-            const data = await response.json();
+            const data = await response.json() as {
+                success?: boolean;
+                requests?: ReviewRequest[];
+                error?: string;
+            };
             if (data.success) {
                 setRequests(data.requests || []);
             } else {
-                setError(data.error);
+                setError(data.error || 'تعذر تحميل طلبات التقييم.');
             }
-        } catch (err: any) {
-            setError(err.message);
+        } catch {
+            setError('تعذر الاتصال بالخادم.');
         } finally {
             setLoading(false);
         }
-    };
+    }, [handleAuthFailure]);
 
     // Sync new orders from Google Sheets
     const syncFromSheets = async () => {
@@ -71,18 +93,22 @@ export default function ReviewsDashboard() {
         setSyncResults(null);
         setError(null);
         try {
-            const response = await fetch('/api/reviews/sync', { headers: authHeaders() });
+            const response = await fetch('/api/reviews/sync', {
+                headers: authHeaders(),
+                credentials: 'same-origin',
+                cache: 'no-store',
+            });
             if (response.status === 401) { handleAuthFailure(); return; }
-            const data = await response.json();
+            const data = await response.json() as SyncResponse;
             setSyncResults(data);
             if (data.success) {
                 // Refresh the list
                 await fetchRequests();
             } else {
-                setError(data.error);
+                setError(data.error || 'تعذرت مزامنة الطلبات.');
             }
-        } catch (err: any) {
-            setError(err.message);
+        } catch {
+            setError('تعذر الاتصال بالخادم.');
         } finally {
             setSyncing(false);
         }
@@ -94,24 +120,119 @@ export default function ReviewsDashboard() {
             const response = await fetch('/api/reviews/sync', {
                 method: 'PATCH',
                 headers: authHeaders(),
+                credentials: 'same-origin',
+                cache: 'no-store',
                 body: JSON.stringify({ id, status }),
             });
             if (response.status === 401) { handleAuthFailure(); return; }
-            const data = await response.json();
+            const data = await response.json() as { success?: boolean; error?: string };
             if (data.success) {
                 setRequests(prev => prev.map(r => r.id === id ? { ...r, status } : r));
             } else {
-                setError(data.error);
+                setError(data.error || 'تعذر تحديث الطلب.');
             }
-        } catch (err: any) {
-            setError(err.message);
+        } catch {
+            setError('تعذر الاتصال بالخادم.');
         }
     };
 
     useEffect(() => {
-        fetchRequests();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+        let cancelled = false;
+        void (async () => {
+            try {
+                const response = await fetch('/api/admin/session', {
+                    credentials: 'same-origin',
+                    cache: 'no-store',
+                });
+                const data = response.ok
+                    ? await response.json() as { authenticated?: boolean }
+                    : null;
+                if (cancelled) return;
+                const isAuthenticated = data?.authenticated === true;
+                setAuthenticated(isAuthenticated);
+                if (isAuthenticated) await fetchRequests();
+            } catch {
+                if (!cancelled) setAuthenticated(false);
+            }
+        })();
+        return () => { cancelled = true; };
+    }, [fetchRequests]);
+
+    const handleLogin = async (event: FormEvent<HTMLFormElement>) => {
+        event.preventDefault();
+        if (!adminSecret || authenticating) return;
+
+        const submittedSecret = adminSecret;
+        setAdminSecret('');
+        setAuthenticating(true);
+        setError(null);
+        try {
+            const response = await fetch('/api/admin/session', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                credentials: 'same-origin',
+                cache: 'no-store',
+                body: JSON.stringify({ secret: submittedSecret }),
+            });
+            if (!response.ok) {
+                setError(response.status === 503
+                    ? 'تسجيل الدخول غير مهيأ على الخادم.'
+                    : 'مفتاح الإدارة غير صحيح.');
+                return;
+            }
+
+            setAuthenticated(true);
+            await fetchRequests();
+        } catch {
+            setError('تعذر الاتصال بالخادم. حاول مرة أخرى.');
+        } finally {
+            setAuthenticating(false);
+        }
+    };
+
+    if (authenticated === null) {
+        return (
+            <main className="min-h-screen bg-gray-950 text-white grid place-items-center" dir="rtl">
+                <p>جارِ التحقق من جلسة الإدارة…</p>
+            </main>
+        );
+    }
+
+    if (!authenticated) {
+        return (
+            <main className="min-h-screen bg-gray-950 grid place-items-center p-4" dir="rtl">
+                <form
+                    onSubmit={handleLogin}
+                    className="w-full max-w-md rounded-2xl border border-gray-800 bg-gray-900 p-8 shadow-2xl"
+                >
+                    <h1 className="text-2xl font-bold text-white mb-2">لوحة إدارة التقييمات</h1>
+                    <p className="text-sm text-gray-400 mb-6">سجّل الدخول بجلسة الإدارة الآمنة للمتابعة.</p>
+                    <label htmlFor="reviews-admin-secret" className="block text-sm font-semibold text-gray-200 mb-2">
+                        مفتاح الإدارة
+                    </label>
+                    <input
+                        id="reviews-admin-secret"
+                        type="password"
+                        value={adminSecret}
+                        onChange={(event) => setAdminSecret(event.target.value)}
+                        autoComplete="off"
+                        autoCapitalize="none"
+                        spellCheck={false}
+                        required
+                        className="w-full rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 text-white outline-none focus:border-blue-500"
+                    />
+                    {error && <p role="alert" className="mt-3 text-sm text-red-400">{error}</p>}
+                    <button
+                        type="submit"
+                        disabled={authenticating || !adminSecret}
+                        className="mt-5 w-full rounded-xl bg-blue-600 px-4 py-3 font-bold text-white disabled:opacity-50"
+                    >
+                        {authenticating ? 'جارِ تسجيل الدخول…' : 'دخول آمن'}
+                    </button>
+                </form>
+            </main>
+        );
+    }
 
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-gray-950 py-8" dir="rtl">
@@ -164,7 +285,7 @@ export default function ReviewsDashboard() {
                         {syncResults.success ? (
                             <>
                                 <SvgIcon name="check-circle" className="w-5 h-5 inline-block" /> تم معالجة {syncResults.processed} طلب جديد
-                                {syncResults.results?.map((r: any, i: number) => (
+                                {syncResults.results?.map((r, i) => (
                                     <div key={i} className="mt-2 text-sm">
                                         صف {r.rowNumber}: {r.customerName} - {r.productName}
                                         {r.status === 'created' && (
@@ -227,7 +348,7 @@ export default function ReviewsDashboard() {
                         <div className="p-8 text-center text-gray-500">
                             <SvgIcon name="mail" className="w-10 h-10 mx-auto" />
                             <p className="mt-2">لا توجد طلبات تقييم بعد</p>
-                            <p className="text-sm">اضغط "مزامنة الطلبات الجديدة" لجلب الطلبات من Google Sheets</p>
+                            <p className="text-sm">اضغط «مزامنة الطلبات الجديدة» لجلب الطلبات من Google Sheets</p>
                         </div>
                     ) : (
                         <div className="overflow-x-auto">
@@ -256,7 +377,8 @@ export default function ReviewsDashboard() {
                                                 {request.productName || request.sheetProductName}
                                                 {request.status === 'unmatched' && (
                                                     <div className="text-xs text-red-500 mt-1">
-                                                        {request.reason === 'invalid-phone' ? 'رقم واتساب غير صالح' : 'لم يُطابق منتجاً في الكتالوج'}
+                                                        {UNMATCHED_REASON_LABELS[request.reason || '']
+                                                            || 'يحتاج مراجعة يدوية'}
                                                     </div>
                                                 )}
                                             </td>
@@ -334,10 +456,10 @@ export default function ReviewsDashboard() {
                         <SvgIcon name="clipboard" className="w-5 h-5 inline-block" /> كيفية الاستخدام
                     </h3>
                     <ol className="list-decimal list-inside space-y-2 text-blue-700 dark:text-blue-400 text-sm">
-                        <li>غيّر حالة الطلب في Google Sheets إلى <strong>"تم التوصيل"</strong></li>
-                        <li>المزامنة تعمل تلقائياً كل يوم (أو اضغط <strong>"مزامنة الطلبات الجديدة"</strong> يدوياً) — تُعالَج الطلبات بعد 6 أيام من تاريخ الطلب وحتى 45 يوماً</li>
-                        <li>اضغط <strong>"واتساب"</strong> لفتح الرسالة الجاهزة وإرسالها، ثم اضغط <strong>"✓ تم الإرسال"</strong></li>
-                        <li>الطلبات في قسم <strong>"مطابقة يدوية"</strong> اسم منتجها في الشيت لم يطابق الكتالوج — راسل العميل يدوياً أو تجاهلها</li>
+                        <li>غيّر حالة الطلب في Google Sheets إلى <strong>«تم التوصيل»</strong></li>
+                        <li>المزامنة تعمل تلقائياً كل يوم (أو اضغط <strong>«مزامنة الطلبات الجديدة»</strong> يدوياً) — تُعالَج الطلبات بعد 6 أيام من تاريخ الطلب وحتى 45 يوماً</li>
+                        <li>اضغط <strong>«واتساب»</strong> لفتح الرسالة الجاهزة وإرسالها، ثم اضغط <strong>«✓ تم الإرسال»</strong></li>
+                        <li>الطلبات في قسم <strong>«مطابقة يدوية»</strong> اسم منتجها في الشيت لم يطابق الكتالوج — راسل العميل يدوياً أو تجاهلها</li>
                         <li>العميل يرى كود شكر (<strong>{'SHOKRAN10'}</strong>) بعد إرسال أي تقييم — إيجابي أو سلبي — لا تَعِد به مقابل تقييم إيجابي أبداً</li>
                     </ol>
                 </div>

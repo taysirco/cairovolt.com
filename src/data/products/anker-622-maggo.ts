@@ -14,155 +14,133 @@ export const anker_622_maggo = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-622-maggo/anker-622-maggo-package-box-contents-cable-egypt.webp", alt: "محتويات علبة انكر 622 ماج جو الأصلية مع كابل USB-C - كايرو فولت مصر", order: 0, isPrimary: true, width: 676, height: 811 },
+            { id: "img_1", url: "/products/anker/anker-622-maggo/anker-622-maggo-package-box-contents-cable-egypt.webp", alt: "محتويات علبة انكر 622 ماج جو مع كابل USB-C - كايرو فولت مصر", order: 0, isPrimary: true, width: 676, height: 811 },
             { id: "img_2", url: "/products/anker/anker-622-maggo/anker-622-maggo-5000mah-magsafe-wireless-power-bank-cairovolt.webp", alt: "باور بانك انكر 622 ماج جو 5000 مللي أمبير شحن لاسلكي MagSafe - A1610011 - كايرو فولت", order: 1, isPrimary: false, width: 530, height: 722 },
-            { id: "img_3", url: "/products/anker/anker-622-maggo/anker-622-maggo-magnetic-attachment-iphone-wireless-charging.webp", alt: "Anker 622 MagGo magnetic attachment snapping onto iPhone wireless charging test - CairoVolt", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_3", url: "/products/anker/anker-622-maggo/anker-622-maggo-magnetic-attachment-iphone-wireless-charging.webp", alt: "Anker 622 MagGo magnetically attached to a compatible iPhone for wireless charging", order: 2, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_4", url: "/products/anker/anker-622-maggo/anker-622-maggo-foldable-kickstand-phone-stand-viewing.webp", alt: "حامل قابل للطي لباور بانك انكر 622 ماج جو - زاوية مشاهدة بدون يدين - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_5", url: "/products/anker/anker-622-maggo/anker-622-maggo-usb-c-port-input-output-detail.webp", alt: "Anker 622 MagGo USB-C input output port detail for charging and power delivery - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_6", url: "/products/anker/anker-622-maggo/anker-622-maggo-slim-7mm-design-thickness-profile.webp", alt: "تصميم رفيع 7mm لباور بانك انكر 622 ماج جو - ملف عرض جانبي - كايرو فولت", order: 5, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_7", url: "/products/anker/anker-622-maggo/anker-622-maggo-charging-iphone-magnetic-alignment-test.webp", alt: "Anker 622 MagGo charging iPhone magnetic alignment test - CairoVolt Lab Egypt", order: 6, isPrimary: false, width: 1024, height: 1024 }
+            { id: "img_7", url: "/products/anker/anker-622-maggo/anker-622-maggo-charging-iphone-magnetic-alignment-test.webp", alt: "Anker 622 MagGo magnetic alignment while charging a compatible iPhone", order: 6, isPrimary: false, width: 1024, height: 1024 }
         ],
         relatedProducts: [
         "anker-a2216-magnetic-wireless-car-charger","anker-powercore-10000", "anker-powercore-20000", "anker-a8050-usb-c-cable", "anker-powerport-20w", "anker-powerline-usb-c-lightning"],
         translations: {
             en: {
-                name: "Anker 622 Magnetic Battery (MagGo) | MagSafe | Foldable Stand | 18-Month Warranty",
+                name: "Anker 622 Magnetic Battery (MagGo) | MagSafe | Foldable Stand",
                 shortDescription: "🧲 MagSafe Wireless Charging | 📱 Built-in Foldable Kickstand | 🪨 Ultra-Slim Design | 🔌 USB-C Two-Way Charging",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>أنكر 622 MagGo (A1610)</strong> is a MagSafe-compatible wireless battery pack for iPhone 17/16/15/14/13/12. It snaps magnetically to the back of your iPhone and charges at 7.5W while you use it. Built-in foldable kickstand for hands-free video calls. 13mm thin, USB-C pass-through charging. EGP 2,800, 18-month warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker 622 MagGo (A1610)</strong> is a magnetic wireless battery pack with a foldable stand for supported iPhones and compatible magnetic cases. The listing states wireless charging up to 7.5W, a 13mm profile and USB-C two-way charging; verify pass-through behavior and exact compatibility in the current manual. Check the live price, stock, package contents and applicable warranty terms before ordering.</p>
 </div>
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Knock-off magnetic batteries from Shein/Temu use weak magnets that detach during use and lack proper Qi certification — risking phone damage from improper charging. أنكر 622 uses N52-grade magnets and is Qi-certified. Check for the أنكر holographic seal on the box. احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A1610011</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
-        <li>🧲 <strong>MagSafe Wireless:</strong> 7.5W magnetic wireless charging for iPhone 17/16/15/14/13/12.</li>
+        <li>🧲 <strong>Magnetic wireless charging:</strong> listed up to 7.5W with supported phones and cases; verify the exact model.</li>
         <li>📱 <strong>Foldable Stand:</strong> Built-in kickstand for hands-free video calls and streaming.</li>
-        <li>🔌 <strong>USB-C Port:</strong> Two-way charging — charge the battery and your phone simultaneously.</li>
-        <li>🪨 <strong>Ultra-Slim:</strong> Only 13mm thin — barely adds bulk to your iPhone.</li>
-    <li>💰 <strong>5.19 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
+        <li>🔌 <strong>USB-C port:</strong> verify input, output and pass-through behaviour in the current manual.</li>
+        <li>📐 <strong>Listed 13mm profile:</strong> confirm the combined phone and case fit before carrying.</li>
+    <li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "We used the MagGo 622 for a full week as our daily carry. The a significant upgrade? The foldable kickstand. During a 45-minute FaceTime call at a Zamalek café, we propped the iPhone 17 up on the table and it charged wirelessly the entire time — no cable clutter, no holding the phone. The magnetic grip is strong enough to stay attached during a bumpy Uber ride. At 7.5W, it's not blazing fast, but that's the point: it's designed to keep your battery topped up throughout the day, not race to 100%. It slips into a back pocket and you forget it's there."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A1610011</strong>, check the printed Wh/mAh, wireless profile, USB-C functions, dimensions and phone or case compatibility. Actual attachment, power, usable energy and temperature vary by setup. Check current package contents, live price, stock and written service terms before ordering.</p></div>
 
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Snap On, Charge Wirelessly, Keep Using Your Phone</h2>
-        <p class="text-gray-700">The أنكر 622 MagGo snaps onto the back of your iPhone using <strong>powerful magnets</strong> that align perfectly with MagSafe. No plugging in cables — just snap and go. The magnetic hold is strong enough for normal use: scrolling, texting, even taking photos. It charges at <strong>7.5W</strong>, the standard for third-party MagSafe accessories, keeping your battery topped up without overheating.</p>
+        <p class="text-gray-700">The Anker 622 MagGo uses magnetic alignment with compatible iPhones. Hold strength depends on the phone, case, surface and movement, so it should not be treated as a drop-prevention device. Wireless power depends on device support and alignment; charging can generate heat, so keep it ventilated and stop use if heat is unusual.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Built-in Kickstand: Watch, Call, Charge — Hands-Free</h2>
-        <p class="text-gray-700">The built-in <strong>foldable kickstand</strong> is what separates the 622 from every other magnetic battery. Prop your iPhone upright for FaceTime calls, Netflix binges, or following a recipe in the kitchen — all while charging. No need for a separate <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">phone stand</a>. It's the perfect desk companion.</p>
+        <p class="text-gray-700">The built-in <strong>foldable kickstand</strong> can hold a compatible phone at a viewing angle while the battery is attached. Stability depends on the phone, case, magnetic alignment, surface and stand angle. Compare the current <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">power-bank options</a> if stand use is a priority.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Slim Enough to Forget It's There</h2>
-        <p class="text-gray-700">At only <strong>13mm thin</strong>, the MagGo 622 barely adds bulk to your iPhone. Slide it into your back pocket, toss it in your bag, or leave it magnetically attached all day. The USB-C port supports <strong>pass-through charging</strong>, meaning you can charge both the battery and your iPhone at the same time from a single cable.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Dimensions and Pass-Through Check</h2>
+        <p class="text-gray-700">The listing gives the MagGo 622 a thickness of <strong>13mm</strong>; confirm the dimensions and combined phone/case fit before carrying it in a pocket or bag. Verify pass-through behaviour, temperature guidance and supported charging sequence in the current manual, because simultaneous charging conditions can affect speed and heat.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17 / 17 Pro / 17 Pro Max:</strong> Full MagSafe magnetic alignment.</li>
-        <li>📱 <strong>iPhone 16 / 16 Pro / 16 Pro Max:</strong> Perfect snap-on fit.</li>
-        <li>📱 <strong>iPhone 15 / 14 / 13 / 12 Series:</strong> All MagSafe-compatible models.</li>
-        <li>❌ <strong>Not Compatible:</strong> Android phones, iPhone 11 and earlier (no MagSafe).</li>
+        <li>📱 <strong>Magnetic iPhones and cases:</strong> verify the exact phone, case, alignment and current model guidance.</li>
+        <li>📱 <strong>Other phones:</strong> do not assume attachment or wireless compatibility; a suitable magnetic case may still require separate verification.</li>
+        <li>🔌 <strong>USB-C charging:</strong> match the printed input or output profile with the connected device and cable.</li>
     </ul>
 </div>
 `,
-                features: ["🧲 7.5W MagSafe Wireless Charging", "📱 Built-in Foldable Kickstand", "🪨 Ultra-Slim (13mm)", "🔌 USB-C Two-Way Charging", "🔄 Pass-Through Charging", "🛡️ 18-Month Anker Warranty", "🔒 MultiProtect 11-Point Safety", "✈️ Airline-Approved (<100Wh)"],
-                metaTitle: "Anker 622 MagGo Wireless ⚡ 7% OFF | MagSafe iPhone | COD",
-                metaDesc: "Buy Anker 622 MagGo in Egypt. MagSafe wireless for iPhone 17/16/15. Built-in kickstand, ultra-slim. ✓ Replacement Warranty ✓ 24-48H Shipping. anker maggo.",
+                features: ["🧲 Listed 7.5W Magnetic Wireless Charging", "📱 Built-in Foldable Kickstand", "📐 Check listed 13mm thickness", "🔌 USB-C Two-Way Charging", "🔄 Verify Pass-Through Support in Manual", "🧾 Current Anker Warranty Terms", "🔎 Verify ratings on the unit and manufacturer documentation", "✈️ Check Current Airline Rules"],
+                metaTitle: "Anker 622 MagGo Wireless | MagSafe iPhone | COD",
+                metaDesc: "Buy Anker 622 MagGo in Egypt. Magnetic wireless charging for supported iPhones, built-in kickstand and slim design. Check current warranty, stock and delivery terms.",
                 faqs: [
-                    { question: "Does it work with non-MagSafe cases?", answer: "No, it requires a magnetic MagSafe case or a bare iPhone (15/16/17 series) to attach securely." },
-                    { question: "How fast is the wireless charging?", answer: "It provides 7.5W max wireless charging for iPhones, which is the standard for 3rd party magnetic battery packs." },
-                    { question: "Can I charge the battery while using it?", answer: "Yes, it supports pass-through charging, so you can charge the power bank and your phone simultaneously." },
-                    { question: "How does MagGo compare to Apple's MagSafe Battery?", answer: "MagGo costs less and has a built-in kickstand that Apple's doesn't. Same 7.5W wireless charging, better value." }
+                    { question: "Does it work with non-magnetic cases?", answer: "Attachment and charging depend on the exact phone, case, alignment and wireless standard. Thick, metal-containing or non-magnetic cases may prevent attachment or reduce charging." },
+                    { question: "How fast is the wireless charging?", answer: "The listing states up to 7.5W under supported conditions. Actual power varies with phone, case, alignment, battery state and temperature." },
+                    { question: "Can I charge the battery while using it?", answer: "Verify pass-through support and the required sequence in the current manual. Simultaneous charging can change speed and temperature." },
+                    { question: "How does MagGo compare to Apple's MagSafe Battery?", answer: "The 622 includes a foldable stand and is listed for up to 7.5W wireless charging. Compare the current prices, capacity, dimensions and compatibility before choosing." }
                 ,
-                    { question: "What does the 18-month CairoVolt warranty cover?", answer: "Full replacement for any manufacturing defect — battery degradation, charging failure, or magnet weakness. Bring it to CairoVolt or ship it free." }]
+                    { question: "What do the current CairoVolt warranty terms cover?", answer: "Coverage and eligibility depend on the current published warranty and return policy. Keep the invoice and contact CairoVolt with the model and fault details for assessment." }]
             },
             ar: {
-                name: "باور بانك انكر 622 MagGo ايفون 17 وايرلس | بستاند للمكالمات | ضمان 18 شهر",
-                shortDescription: "لزقة في ضهر ايفونك مبتطحركش | 🧲 شحن وايرلس MagSafe | 📱 ستاند مدمج لمكالمات الفيديو في الكافيهات | 🪨 رفيع جداً (13مم) مش هتحس بيه",
+                name: "باور بانك انكر 622 MagGo للايفون | بستاند مدمج",
+                shortDescription: "شحن لاسلكي مغناطيسي معلن حتى 7.5 واط | حامل قابل للطي | سمك مدرج 13مم | تحقق من الهاتف أو الجراب ووظائف USB-C",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، <strong>أنكر 622 MagGo (A1610)</strong> بطارية لاسلكية متوافقة مع MagSafe لايفون 17/16/15/14/13/12. بتلتصق مغناطيسي على ظهر ايفونك وبتشحن 7.5 واط وإنت بتستخدمه. حامل مدمج قابل للطي لمكالمات الفيديو بدون ما تمسك. سمك 13مم، شحن USB-C تمريري. سعر 2,800 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>انكر 622 MagGo (A1610)</strong> بطارية شحن لاسلكية مغناطيسية بحامل قابل للطي للايفون المدعوم والجرابات المغناطيسية المتوافقة. تذكر القائمة شحناً لاسلكياً حتى 7.5 واط وسمك 13مم وشحن USB-C في الاتجاهين؛ تحقق من الشحن التمريري والتوافق الدقيق في الدليل الحالي. راجع السعر والمخزون ومحتويات العبوة وشروط الضمان المطبقة قبل الطلب.</p>
 </div>
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">في حرارة صيف مصر، الشحن اللاسلكي المقلد بيسخن موبايلك ويأثر على البطارية. البطاريات المغناطيسية المضروبة من Shein/Temu بتستخدم مغناطيسات ضعيفة بتفصل وقت الاستخدام ومفيهاش شهادة Qi — بتضر الموبايل (الهاتف الذكي) من شحن غير سليم. أنكر 622 بيستخدم مغناطيسات N52 ومعتمد Qi. دور على ختم أنكر الهولوجرافي على العلبة.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A1610011</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
-        <li>🧲 <strong>شحن MagSafe لاسلكي:</strong> 7.5 واط لايفون 17/16/15/14/13/12.</li>
+        <li>🧲 <strong>شحن مغناطيسي لاسلكي:</strong> معلن حتى 7.5 واط مع هاتف أو جراب مدعوم؛ تحقق من الموديل.</li>
         <li>📱 <strong>حامل مدمج:</strong> قابل للطي لمكالمات الفيديو ومشاهدة المحتوى.</li>
-        <li>🔌 <strong>منفذ USB-C:</strong> شحن في الاتجاهين — اشحن البطارية وايفونك في نفس الوقت.</li>
-        <li>🪨 <strong>نحيف جداً:</strong> 13 ملليمتر فقط — مش هتحس بيه على ايفونك.</li>
+        <li>🔌 <strong>منفذ USB-C:</strong> تحقق من الإدخال والإخراج والشحن التمريري في الدليل الحالي.</li>
+        <li>📐 <strong>سمك مدرج 13مم:</strong> أكد ملاءمة الهاتف والجراب معاً قبل الحمل.</li>
     </ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تجربتنا الفعلية للمنتج ده 🔍</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "نحن في فريق كايرو فولت استخدمنا MagGo 622 لمدة أسبوع كامل كشاحن يومي. اللي غيّر اللعبة؟ الحامل القابل للطي. في مكالمة FaceTime لمدة 45 دقيقة في كافيه في الزمالك، حطّينا ايفون 17 على الترابيزة واتشحن لاسلكي طول الوقت — من غير كابلات ولا مسك الموبايل. المغناطيس قوي كفاية إنه يفضل ملتصق حتى في رحلة أوبر على طريق مطبات. بـ 7.5 واط، مش سريع جداً، بس ده الهدف: يخلّي بطاريتك مشحونة طول اليوم، مش يسابق لـ 100%. بيدخل جيبك الخلفي وبتنسى إنه موجود."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A1610011</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">ثبّته على ايفونك، اشحن لاسلكي، وكمّل استخدامك</h2>
-        <p class="text-gray-700">بطارية انكر 622 MagGo بتلتصق على ظهر ايفونك بـ<strong>مغناطيسات قوية</strong> بتتماشى مع MagSafe. من غير كابلات — بس ثبّت وامشي. الالتصاق المغناطيسي قوي كفاية للاستخدام العادي: تصفح، رسائل، حتى تصوير. بيشحن بقوة <strong>7.5 واط</strong>، المعيار لإكسسوارات MagSafe، وبيخلّي بطاريتك مشحونة من غير سخونية.</p>
+        <p class="text-gray-700">بطارية انكر 622 MagGo تستخدم محاذاة مغناطيسية مع الايفون والجرابات المتوافقة. قوة التثبيت تتغير حسب الهاتف والجراب والحركة، لذلك لا تُستخدم كوسيلة لمنع السقوط. قدرة الشحن المعلنة تصل إلى <strong>7.5 واط</strong> مع الأجهزة المدعومة؛ قد ترتفع الحرارة أثناء الشحن اللاسلكي، فحافظ على التهوية وأوقف الاستخدام عند السخونة غير المعتادة.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">حامل مدمج: اتفرج، اتكلم، اشحن — من غير ما تمسك</h2>
-        <p class="text-gray-700"><strong>الحامل القابل للطي</strong> المدمج هو اللي بيفرّق 622 عن أي بطارية مغناطيسية تانية. حطّ ايفونك واقف لمكالمات FaceTime، أو مشاهدة Netflix، أو متابعة وصفة في المطبخ — كله وهو بيشحن. مش محتاج <a href="/anker/power-banks" class="text-blue-600 hover:underline">ستاند موبايل</a> منفصل. رفيق المكتب المثالي.</p>
+        <p class="text-gray-700">يمكن استخدام <strong>الحامل القابل للطي</strong> لعرض هاتف متوافق بزاوية أثناء اتصال البطارية. يعتمد الثبات على الهاتف والجراب والمحاذاة المغناطيسية والسطح وزاوية الحامل. قارن <a href="/anker/power-banks" class="text-blue-600 hover:underline">خيارات الباور بانك</a> الحالية إذا كان الحامل مهماً لك.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">نحيف لدرجة إنك هتنساه</h2>
-        <p class="text-gray-700">بسمك <strong>13 ملليمتر فقط</strong>، MagGo 622 بالكاد بيضيف حجم على ايفونك. حطّه في جيبك الخلفي، ارميه في شنطتك، أو سيبه ملتصق مغناطيسي طول اليوم. منفذ USB-C بيدعم <strong>الشحن التمريري</strong>، يعني تقدر تشحن البطارية وايفونك في نفس الوقت من كابل واحد.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">الأبعاد وفحص الشحن التمريري</h2>
+        <p class="text-gray-700">تعرض القائمة سمكاً يبلغ <strong>13 ملليمتر</strong>. تحقق من الأبعاد وملاءمة الهاتف والجراب قبل وضع الوحدة في جيب أو حقيبة. راجع دعم الشحن التمريري وترتيب التوصيل وإرشادات الحرارة في الدليل؛ قد يغير الشحن المتزامن السرعة والحرارة.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>ايفون 17 / 17 برو / 17 برو ماكس:</strong> توافق MagSafe كامل.</li>
-        <li>📱 <strong>ايفون 16 / 16 برو / 16 برو ماكس:</strong> التصاق مثالي.</li>
-        <li>📱 <strong>ايفون 15 / 14 / 13 / 12:</strong> جميع الموديلات المتوافقة مع MagSafe.</li>
-        <li>❌ <strong>غير متوافق:</strong> هواتف اندرويد، ايفون 11 وأقدم (لا يوجد MagSafe).</li>
+        <li>📱 <strong>ايفون وجرابات مغناطيسية:</strong> تحقق من الموديل والجراب والمحاذاة وإرشادات انكر الحالية.</li>
+        <li>📱 <strong>هواتف أخرى:</strong> لا تفترض التثبيت أو الشحن؛ قد يحتاج الهاتف جراباً مغناطيسياً مع تحقق منفصل من معيار اللاسلكي.</li>
+        <li>🔌 <strong>شحن USB-C:</strong> طابق بروفايل الإدخال أو الإخراج المطبوع مع الجهاز والكابل.</li>
     </ul>
 </div>
 `,
-                features: ["🧲 شحن MagSafe لاسلكي 7.5 واط", "📱 حامل مدمج قابل للطي", "🪨 نحيف جداً (13مم)", "🔌 USB-C شحن في الاتجاهين", "🔄 شحن تمريري", "🛡️ ضمان انكر 18 شهر", "🔒 حماية MultiProtect من 11 نقطة", "✈️ مسموح على الطائرة (<100Wh)"],
-                metaTitle: "باور بانك انكر 622 MagGo ⚡ خصم 7% | شحن لاسلكي ايفون",
-                metaDesc: "اشتري بطارية انكر 622 MagGo في مصر. شحن لاسلكي MagSafe لايفون 17/16/15. حامل مدمج، نحيف جداً. ✓ ضمان 18 شهر ✓ توصيل سريع.",
+                features: ["🧲 شحن لاسلكي مغناطيسي معلن 7.5 واط", "📱 حامل مدمج قابل للطي", "📐 تحقق من السمك المعلن 13مم", "🔌 USB-C في الاتجاهين", "🔄 تحقق من دعم الشحن التمريري في الدليل", "🧾 راجع شروط ضمان انكر الحالية", "🔎 تحقق من القيم على الوحدة ووثائق الشركة", "✈️ تحقق من قواعد الطيران الحالية"],
+                metaTitle: "باور بانك انكر 622 MagGo | شحن لاسلكي ايفون",
+                metaDesc: "اشتري بطارية انكر 622 MagGo في مصر. شحن لاسلكي MagSafe لايفون 17/16/15. حامل مدمج، نحيف جداً. ✓ راجع سياسة الضمان والاسترجاع الحالية ✓ توصيل سريع.",
                 faqs: [
-                    { question: "هل يعمل مع الجرابات العادية؟", answer: "لا، يتطلب جراب MagSafe مغناطيسي أو ايفون بدون جراب (سلسلة 15/16/17) لضمان الالتصاق." },
-                    { question: "ما سرعة الشحن اللاسلكي؟", answer: "يوفر 7.5 واط كحد أقصى للايفون، وهو المعدل القياسي للبطاريات المغناطيسية." },
-                    { question: "هل يمكنني شحن البطارية أثناء استخدامها؟", answer: "نعم، تدعم الشحن التمريري، يمكنك شحن البطارية والهاتف في نفس الوقت." },
-                    { question: "كيف يقارن MagGo مع بطارية أبل MagSafe؟", answer: "MagGo أرخص وله حامل مدمج غير موجود في أبل. نفس شحن 7.5 واط، قيمة أفضل." }
+                    { question: "هل يعمل مع الجرابات غير المغناطيسية؟", answer: "التثبيت والشحن يعتمدان على الهاتف والجراب والمحاذاة ومعيار اللاسلكي. الجراب السميك أو المعدني أو غير المغناطيسي قد يمنع التثبيت أو يقلل الشحن." },
+                    { question: "ما سرعة الشحن اللاسلكي؟", answer: "تذكر القائمة حتى 7.5 واط تحت شروط متوافقة. تتغير القدرة حسب الهاتف والجراب والمحاذاة ومستوى البطارية والحرارة." },
+                    { question: "هل يمكنني شحن البطارية أثناء استخدامها؟", answer: "تحقق من دعم الشحن التمريري وترتيب التوصيل في الدليل الحالي؛ قد يغير الشحن المتزامن السرعة والحرارة." },
+                    { question: "كيف يقارن MagGo مع بطارية أبل MagSafe؟", answer: "يضم 622 حاملاً قابلاً للطي وقدرة شحن لاسلكي معلنة حتى 7.5 واط. قارن السعر الحالي والسعة والأبعاد والتوافق قبل الاختيار." }
                 ,
-                    { question: "ضمان كايرو فولت 18 شهر بيغطي إيه بالظبط؟", answer: "استبدال كامل لأي عيب صناعة — تدهور بطارية، فشل شحن، أو ضعف المغناطيس. سلمه لكايرو فولت أو اشحنه مجاناً." }]
+                    { question: "شروط ضمان كايرو فولت الحالية بتغطي إيه؟", answer: "التغطية والأهلية تخضعان لسياسة الضمان والاسترجاع المنشورة وقت الطلب. احتفظ بالفاتورة وتواصل مع كايرو فولت برقم الموديل ووصف العطل للتقييم." }]
             }
         },
-        meta: { keywords: "أنكر maggo, أنكر 622, magsafe power bank, باور بانك ماج سيف, أنكر portable charger, أنكر best power bank egypt 2026, أنكر travel power bank, أنكر cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك اصلي مصر, أنكر power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع, أنكر 622 maggo FCC certified", mainTerm: "anker maggo" },
+        meta: { keywords: "انكر 622 MagGo, انكر A1610011, باور بانك مغناطيسي انكر, حامل مدمج, شحن لاسلكي مغناطيسي, Anker 622 MagGo Egypt, magnetic power bank", mainTerm: "anker 622 maggo" },
         expertOpinion: {
-        en: "Perfect for iPhone MagSafe users who want a stand-and-charge combo — ideal for desk FaceTime, nightstand charging, or watching videos while powering up. Skip if you need fast emergency charging or use a non-MagSafe phone.",
-        ar: "مثالي لمستخدمي MagSafe اللي عايزين يشحنوا ويتفرجوا في نفس الوقت — ممتاز للمكتب أو الكومودينو. مش مناسب لو محتاج شحن طوارئ سريع أو موبايلك مش MagSafe."
+        en: "A622 may suit a compatible magnetic-phone setup when a foldable stand and attached charging are useful. Verify the exact phone or case, alignment, listed battery and wireless-output conditions, live price and current warranty.",
+        ar: "قد يناسب A1610011 من يريد بطارية مغناطيسية بحامل قابل للطي، بعد التحقق من الهاتف أو الجراب والمحاذاة وبروفايل اللاسلكي ووظائف USB-C. قارن بخيار سلكي إذا لم يكن الهاتف متوافقاً مغناطيسياً."
     }
     };

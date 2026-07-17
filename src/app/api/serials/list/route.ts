@@ -1,22 +1,30 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
-
-const API_KEY = process.env.SERIALS_API_KEY || 'cv-serials-dev-key-2026';
+import { isAdminRequestAuthorized } from '@/lib/admin-session';
 
 export async function GET(request: NextRequest) {
     try {
-        const apiKey = request.headers.get('x-api-key');
-        if (apiKey !== API_KEY) {
+        if (!isAdminRequestAuthorized(request)) {
             return NextResponse.json(
                 { error: 'unauthorized' },
-                { status: 401 }
+                { status: 401, headers: { 'Cache-Control': 'no-store' } }
             );
         }
 
         const { searchParams } = new URL(request.url);
         const productId = searchParams.get('productId');
         const status = searchParams.get('status') || 'unused';
-        const limit = Math.min(parseInt(searchParams.get('limit') || '50'), 200);
+        const parsedLimit = Number.parseInt(searchParams.get('limit') || '50', 10);
+        const limit = Number.isFinite(parsedLimit) && parsedLimit > 0
+            ? Math.min(parsedLimit, 200)
+            : 50;
+
+        if (status !== 'unused' && status !== 'activated') {
+            return NextResponse.json(
+                { error: 'invalid_status', message: 'status must be unused or activated.' },
+                { status: 400, headers: { 'Cache-Control': 'no-store' } },
+            );
+        }
 
         const db = await getFirestore();
         let query = db.collection('warranty_serials')
@@ -55,13 +63,13 @@ export async function GET(request: NextRequest) {
             total: serials.length,
             counts,
             serials,
-        });
+        }, { headers: { 'Cache-Control': 'no-store' } });
 
     } catch (error) {
         console.error('[Serials List] Error:', error);
         return NextResponse.json(
             { error: 'server_error', message: 'Failed to list serials.' },
-            { status: 500 }
+            { status: 500, headers: { 'Cache-Control': 'no-store' } }
         );
     }
 }

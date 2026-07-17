@@ -1,46 +1,51 @@
 import { staticProducts } from '@/lib/static-products';
 import { Feed } from 'feed';
+import {
+    CATALOG_LAST_REVIEWED_AT,
+    getMerchantProductUrl,
+    MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
+} from '@/lib/merchant-product-data';
 
-// Standard RSS Syndication Feed for Content Discovery
-// Automatically aggregates new product listings for external syndication channels.
+// RSS feed for active catalogue listings.
 
 export const revalidate = 3600; // Refreshes the feed every hour
 
 export async function GET() {
     const baseUrl = 'https://cairovolt.com';
-    const date = new Date();
+    const date = new Date(CATALOG_LAST_REVIEWED_AT);
 
     const feed = new Feed({
-        title: "CairoVolt - Premium Electrical Engineering Accessories",
-        description: "Egypt's premier source for authentic Anker and Joyroom mobile accessories. Verified, tested, and guaranteed.",
+        title: 'CairoVolt Product Catalogue',
+        description: 'Active Anker, Soundcore, and Joyroom product listings with current catalogue prices and links.',
         id: baseUrl,
         link: baseUrl,
         language: "en, ar",
         image: `${baseUrl}/logo.png`,
         favicon: `${baseUrl}/favicon.ico`,
-        copyright: `All rights reserved ${date.getFullYear()}, CairoVolt Engineers`,
-        updated: date, // Today's date
-        generator: "Next.js Feed System",
+        copyright: `© ${date.getFullYear()} CairoVolt`,
+        updated: date,
+        generator: 'CairoVolt',
         feedLinks: {
             rss2: `${baseUrl}/feed.xml`,
         },
         author: {
-            name: "Eng. Ahmed Salem",
-            email: "info@cairovolt.com",
+            name: 'CairoVolt',
+            email: 'support@cairovolt.com',
             link: baseUrl
         }
     });
 
-    // Populate the feed with our products
-    staticProducts.forEach(product => {
-        const url = `${baseUrl}/en/${product.brand.toLowerCase()}/${product.categorySlug}/${product.slug}`;
+    staticProducts.filter(product =>
+        product.status === 'active'
+        && !MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(product.slug)
+    ).forEach(product => {
+        const url = getMerchantProductUrl(product, 'en');
 
         feed.addItem({
-            title: `${product.brand} - ${product.translations.en.name} | Officially Tested`,
+            title: `${product.brand} - ${product.translations.en.name}`,
             id: url,
             link: url,
             description: product.translations.en.shortDescription || product.translations.en.description,
-            // Add a snippet of the Arabic description so feeds include Arabic content
             content: `
                 <h3>${product.translations.en.name}</h3>
                 <p><strong>Brand:</strong> ${product.brand}</p>
@@ -52,23 +57,18 @@ export async function GET() {
             `,
             author: [
                 {
-                    name: "CairoVolt Validation Labs",
-                    email: "labs@cairovolt.com",
-                    link: `${baseUrl}/about`
+                    name: 'CairoVolt',
+                    email: 'support@cairovolt.com',
+                    link: baseUrl,
                 }
             ],
-            contributor: [
-                {
-                    name: "Eng. Ahmed",
-                    link: baseUrl
-                }
-            ],
-            date: new Date(),
-            image: product.images.length > 0 ? `${baseUrl}${product.images[0].url}` : undefined
+            date,
+            image: product.images.length > 0
+                ? (product.images[0].url.startsWith('http') ? product.images[0].url : `${baseUrl}${product.images[0].url}`)
+                : undefined,
         });
     });
 
-    // Output raw RSS 2.0 XML
     return new Response(feed.rss2(), {
         status: 200,
         headers: {

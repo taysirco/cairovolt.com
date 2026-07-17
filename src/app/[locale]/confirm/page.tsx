@@ -377,7 +377,7 @@ function ConfirmContent() {
                             </div>
                             <div>
                                 <p className="font-medium">{isArabic ? 'تجهيز الطلب' : 'Order Processing'}</p>
-                                <p className="text-sm text-gray-500">{isArabic ? 'سيتم تجهيز طلبك وشحنه خلال 24 ساعة' : 'Your order will be prepared and shipped within 24 hours'}</p>
+                                <p className="text-sm text-gray-500">{isArabic ? 'سنتواصل لتأكيد الطلب ثم نبدأ التجهيز وفق موعد التوصيل الظاهر' : 'We will confirm the order, then prepare it according to the displayed delivery estimate'}</p>
                             </div>
                         </div>
                         <div className="flex items-start gap-3">

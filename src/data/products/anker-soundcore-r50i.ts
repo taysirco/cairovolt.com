@@ -3,7 +3,7 @@ export const anker_soundcore_r50i = {
         slug: "anker-soundcore-r50i", sku: "SH22", brand: "Soundcore", categorySlug: "audio",
         gtin: "194644126100", gtin13: "0194644126100", mpn: "A3949", price: 880, originalPrice: 1300, stock: 856, featured: false, status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-wireless-earbuds-10mm-driver-cairovolt.webp", alt: "Soundcore R50i wireless earbuds 10mm BassUp drivers - buy original in Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+ { id: "img_1", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-wireless-earbuds-10mm-driver-cairovolt.webp", alt: "Soundcore R50i wireless earbuds 10mm BassUp drivers - product view in Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-earbud-design-detail-ergonomic-fit.webp", alt: "سماعة ساوندكور R50i لاسلكية داخلية - A3949 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-charging-case-open-earbuds-visible.webp", alt: "Soundcore R50i earbuds close-up showing 10mm drivers - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-wearing-comfortable-in-ear-lifestyle.webp", alt: "Soundcore R50i charging case with USB-C port - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
@@ -26,30 +26,29 @@ export const anker_soundcore_r50i = {
     ],
         translations: {
             en: {
-                name: "Anker Soundcore R50i | 10mm Drivers | 30h Battery | In-Ear | 18-Month Warranty",
+                name: "Anker Soundcore R50i | 10mm Drivers | 30h Battery | In-Ear",
                 shortDescription: "🎵 10mm Drivers + BassUp™ | 🔋 30h Total Battery | 🎙️ AI ENC Dual Mic | ⚡ Fast Charge | 💧 IPX5 | 📱 Soundcore App EQ",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Soundcore R50i</strong> is the best-value wireless earbuds you can buy in Egypt right now. With <strong>10mm BassUp™ drivers</strong> and <strong>30h total battery</strong> the Soundcore R50i delivers premium audio at the lowest price point in the entire Soundcore lineup. In-ear silicone tips provide passive noise isolation for Cairo’s loud streets. AI ENC dual mics clean up call audio in buses and micro-buses. No ANC — but at this price, the Soundcore R50i is unbeatable. FCC certified, 18-month warranty. Available at <strong>EGP 880</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Soundcore R50i</strong> is an in-ear option with listed <strong>10mm BassUp™ drivers</strong>, up to <strong>30 hours total playback</strong>, dual-mic call processing, Bluetooth 5.3, app EQ and IPX5. It uses passive silicone-tip isolation rather than active noise cancellation. Battery, fit and call quality vary with settings and environment. Verify model A3949, the current price, stock and applicable warranty terms before ordering.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
 <li>🎵 <strong>10mm BassUp™ Drivers:</strong> Balanced sound with enhanced bass.</li>
-<li>🔋 <strong>30 Hours Total:</strong> 8h earbuds + 22h case. A full week of commuting.</li>
+<li>🔋 <strong>Published battery:</strong> up to 8h earbuds and 30h total under Soundcore's stated conditions; actual runtime varies.</li>
 <li>👂 <strong>In-Ear Design:</strong> Silicone tips for passive noise isolation.</li>
-<li>🎙️ <strong>AI ENC:</strong> Dual mic for clear calls in noisy environments.</li>
-<li>⚡ <strong>Fast Charge:</strong> 10min = 1h playback.</li>
-<li>💧 <strong>IPX5:</strong> Sweat-proof and rain-proof.</li>
-<li>💰 <strong>1.63 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The R50i is Anker's entry point — and what an entry point it is. At 880 EGP, you get 10mm drivers, BassUp technology, 30-hour battery, AI ENC for calls, and the full Soundcore app experience. The in-ear design with silicone tips provides passive noise isolation that's surprisingly effective on the Metro. No, it doesn't have ANC like the <a href='/en/soundcore/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>R50i NC</a>, but the silicone seal blocks a lot of ambient noise naturally. The sound quality punches above budget expectations. If you want maximum value, this is where you start. If you want ANC, step up to the R50i NC. If you want maximum comfort, choose the <a href='/en/soundcore/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>K20i</a>."<br><span class="font-bold block mt-2">✍️ CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<li>🎙️ <strong>Call processing:</strong> dual microphones; results depend on the phone, app and surrounding noise.</li>
+<li>⚡ <strong>Fast-charge example:</strong> verify Soundcore's current test conditions; actual playback varies.</li>
+<li>💧 <strong>IPX5:</strong> follow the stated water-resistance limits and dry the earbuds before charging.</li>
+<li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A3949</strong>, start with the manufacturer-rated Bluetooth version, codec support, battery conditions and IP rating printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. For active noise control, compare the <a href='/en/soundcore/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>R50i NC</a>; for a semi-in-ear fit, compare the <a href='/en/soundcore/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>K20i</a>. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 <div class="product-details">
-<section><h2 class="text-2xl font-bold mb-2">Soundcore R50i: The Value Champion</h2>
-<p class="text-gray-700">At 880 EGP, the Soundcore R50i delivers what many earbuds at twice the price can't: reliable sound, reliable battery, and reliable calls. The <strong>10mm BassUp drivers</strong> provide solid bass and clear mids. The Soundcore app unlocks 22 EQ presets and an 8-band custom equalizer. For everyday commuting, music, podcasts, and calls — the Soundcore R50i does everything competently.</p></section>
-<section><h2 class="text-2xl font-bold mb-2">30 Hours: Weekly Charging</h2>
-<p class="text-gray-700">8 hours per earbud charge, 30 hours total with the compact case. At 2 hours of daily commute use, that's over 2 weeks between charges. <strong>USB-C fast charging</strong> gives you 1 hour of emergency playback from just 10 minutes. The case fits in any pocket or purse.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">10mm Driver and Soundcore App EQ</h2>
+<p class="text-gray-700">R50i lists a 10mm driver with BassUp and EQ controls in the Soundcore app. App functions can change with phone, operating system, region and firmware, while perceived bass and clarity depend on fit, recording, codec, volume and the chosen EQ.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">Published Battery and Fast-Charge Figures</h2>
+<p class="text-gray-700">Soundcore lists up to 8 hours for the earbuds and 30 hours with the case, plus a fast-charge playback example under its stated settings. Volume, calls, app features, temperature and battery age affect runtime, so use the figures for comparison under the same test conditions rather than as a fixed schedule.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">In-Ear Passive Isolation</h2>
-<p class="text-gray-700">The silicone ear tips create a physical seal that blocks external noise passively. No battery drain for noise cancellation. On the Metro, the passive seal reduces ambient noise by 20-25dB — enough to enjoy music without maxing out volume. Multiple tip sizes included for the perfect fit.</p></section>
+<p class="text-gray-700">The silicone ear tips create a physical seal for passive isolation without ANC power use. The reduction varies with ear shape, tip size and fit and should not be represented by one universal dB figure. Try the included sizes, keep playback at a safe level and stay aware of traffic and announcements.</p></section>
 </div>
 
 <div class="specs-table">
@@ -67,12 +66,12 @@ export const anker_soundcore_r50i = {
 <tr><td class="p-2 border">Water Resistance</td><td class="p-2 border">IPX5</td></tr>
 <tr class="bg-gray-50"><td class="p-2 border">Noise Cancellation</td><td class="p-2 border">Passive (silicone ear tips)</td></tr>
 <tr><td class="p-2 border">Microphone</td><td class="p-2 border">Dual AI ENC</td></tr>
-<tr class="bg-gray-50"><td class="p-2 border">Weight (per earbud)</td><td class="p-2 border">5g (scale-verified)</td></tr>
+<tr class="bg-gray-50"><td class="p-2 border">Weight (per earbud)</td><td class="p-2 border">5g listed weight; verify current specifications</td></tr>
 <tr><td class="p-2 border">Charging Port</td><td class="p-2 border">USB-C</td></tr>
 <tr class="bg-gray-50"><td class="p-2 border">App Support</td><td class="p-2 border">Soundcore App (22 EQ presets)</td></tr>
-<tr><td class="p-2 border">Warranty</td><td class="p-2 border">18 months (CairoVolt)</td></tr>
-<tr class="bg-gray-50"><td class="p-2 border">Price (Egypt)</td><td class="p-2 border">EGP 880</td></tr>
-<tr><td class="p-2 border">Certifications</td><td class="p-2 border">FCC, CE</td></tr>
+<tr><td class="p-2 border">Warranty</td><td class="p-2 border">Check current CairoVolt warranty terms</td></tr>
+<tr class="bg-gray-50"><td class="p-2 border">Price (Egypt)</td><td class="p-2 border">the current listed price</td></tr>
+<tr><td class="p-2 border">Certifications</td><td class="p-2 border">compliance marks listed by the manufacturer; verify them on the unit</td></tr>
 </tbody></table>
 </div>
 
@@ -80,106 +79,98 @@ export const anker_soundcore_r50i = {
 <h2 class="text-2xl font-bold mb-3">Soundcore R50i vs Alternatives — Quick Comparison</h2>
 <p class="text-gray-600 mb-3">Not sure which Soundcore earbuds are right for you? Here's how the Soundcore R50i stacks up against its siblings:</p>
 <table class="w-full border-collapse text-sm"><thead><tr class="bg-blue-900 text-white"><th class="p-3">Feature</th><th class="p-3">Soundcore R50i</th><th class="p-3"><a href='/en/soundcore/audio/anker-soundcore-r50i-nc' class='text-blue-200 hover:underline'>R50i NC</a></th><th class="p-3"><a href='/en/soundcore/audio/anker-soundcore-k20i' class='text-blue-200 hover:underline'>K20i</a></th><th class="p-3"><a href='/en/soundcore/audio/anker-soundcore-life-p2i' class='text-blue-200 hover:underline'>Life P2i</a></th></tr></thead><tbody>
-<tr class="bg-gray-50"><td class="p-2 border font-semibold">Price (EGP)</td><td class="p-2 border text-green-700 font-bold">880</td><td class="p-2 border">1,199</td><td class="p-2 border">750</td><td class="p-2 border">820</td></tr>
+<tr class="bg-gray-50"><td class="p-2 border font-semibold">Price (EGP)</td><td class="p-2 border text-green-700 font-bold">See current listing</td><td class="p-2 border">See current listing</td><td class="p-2 border">See current listing</td><td class="p-2 border">See current listing</td></tr>
 <tr><td class="p-2 border font-semibold">Driver</td><td class="p-2 border">10mm BassUp</td><td class="p-2 border">10mm BassUp</td><td class="p-2 border">13mm BassUp</td><td class="p-2 border">10mm</td></tr>
 <tr class="bg-gray-50"><td class="p-2 border font-semibold">Battery</td><td class="p-2 border">30h</td><td class="p-2 border">45h</td><td class="p-2 border">36h</td><td class="p-2 border">28h</td></tr>
 <tr><td class="p-2 border font-semibold">ANC</td><td class="p-2 border">❌ Passive only</td><td class="p-2 border">✅ 42dB</td><td class="p-2 border">❌ None</td><td class="p-2 border">❌ Passive</td></tr>
 <tr class="bg-gray-50"><td class="p-2 border font-semibold">Fit Type</td><td class="p-2 border">In-Ear</td><td class="p-2 border">In-Ear</td><td class="p-2 border">Semi In-Ear</td><td class="p-2 border">In-Ear</td></tr>
 <tr><td class="p-2 border font-semibold">Water Resistance</td><td class="p-2 border">IPX5</td><td class="p-2 border">IPX5</td><td class="p-2 border">IPX5</td><td class="p-2 border">IPX5</td></tr>
-<tr class="bg-gray-50"><td class="p-2 border font-semibold">Best For</td><td class="p-2 border text-blue-700 font-bold">Best Value</td><td class="p-2 border">Noise Cancel</td><td class="p-2 border">Comfort</td><td class="p-2 border">Daily Use</td></tr>
+<tr class="bg-gray-50"><td class="p-2 border font-semibold">Suggested use</td><td class="p-2 border text-blue-700 font-bold">Everyday in-ear</td><td class="p-2 border">Active noise control</td><td class="p-2 border">Semi-in-ear fit</td><td class="p-2 border">Daily use</td></tr>
 </tbody></table>
 </div>
 
 <div class="buyer-persona">
 <h2 class="text-2xl font-bold mb-3">Who Should Buy the Soundcore R50i?</h2>
 <ul class="list-disc list-inside text-gray-700 space-y-2">
-<li><strong>First-time wireless earbud buyers</strong> who want reliable quality without overpaying.</li>
-<li><strong>Students and commuters</strong> — the 30h battery means weekly charging at most.</li>
-<li><strong>Gym-goers on a budget</strong> — IPX5 sweat-proof with secure in-ear fit.</li>
-<li><strong>Remote workers</strong> — AI ENC dual mic handles noisy home/café calls well.</li>
-<li><strong>Anyone upgrading from cheap 100-200 EGP earbuds</strong> — the Soundcore R50i is the natural next step with real Bluetooth 5.3 and app EQ control.</li>
+<li><strong>Buyers comparing an in-ear fit</strong> with app EQ and passive isolation rather than ANC.</li>
+<li><strong>Students and commuters</strong> who can use the published battery figures under their own volume and call pattern.</li>
+<li><strong>Exercise use:</strong> follow the IPX5 limits and clean and dry the earbuds before charging.</li>
+<li><strong>Call use:</strong> evaluate microphone performance with the actual phone, meeting app and environment.</li>
 </ul>
 <p class="text-gray-600 mt-3"><strong>Skip the R50i if:</strong> You need Active Noise Cancellation → get the <a href='/en/soundcore/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>Soundcore R50i NC</a>. You prefer open/semi-in-ear fit → get the <a href='/en/soundcore/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>Soundcore K20i</a>.</p>
 </div>
-<div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
+<div class="device-compatibility"><h3 class="font-bold mb-2">Compatibility guide based on listed specifications:</h3>
 <ul class="list-disc list-inside text-gray-700">
-<li>📱 <strong>iPhone 17 Pro Max:</strong> BassUp 10mm tested. AAC codec optimal.</li>
-<li>📱 <strong>Samsung Galaxy S26 Ultra:</strong> Bluetooth 5.3 stable connection. SBC/AAC.</li>
-<li>💻 <strong>MacBook/Windows:</strong> AI ENC dual mic for Zoom/Teams calls.</li>
-<li>📱 <strong>Google Pixel 9 Pro:</strong> Soundcore app: 22 EQ presets + 8-band custom.</li>
-<li>📱 <strong>iPad Mini:</strong> IPX5 gym-tested. Low-latency gaming mode.</li>
+<li>📱 <strong>iPhone 17 Pro Max:</strong> check AAC support, app features and current OS compatibility.</li>
+<li>📱 <strong>Android phones:</strong> verify codec, app and operating-system support for the exact phone.</li>
+<li>💻 <strong>MacBook/Windows:</strong> call quality depends on Bluetooth hardware, drivers and the meeting app.</li>
+<li>📱 <strong>Soundcore app:</strong> confirm current EQ, control and firmware functions for A3949.</li>
+<li>📱 <strong>iPad Mini:</strong> check Bluetooth compatibility and the gaming-mode behavior in the current app.</li>
 </ul></div>
 
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Fake Soundcore earbuds rampant on social media sell for 150-200 EGP with recycled drivers that distort above 50% volume. Genuine R50i has Bluetooth 5.3, not 5.0/5.1. Always verify at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3949</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms. Review <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">the official verification reference</a>.</p></div>
 `,
-                features: ["🎵 10mm BassUp™", "🔋 30h Battery", "👂 In-Ear Passive Isolation", "🎙️ AI ENC Calls", "⚡ Fast Charge", "💧 IPX5", "📱 Soundcore App", "💰 Best Value", "🏆 18-Month Warranty", "🔒 FCC + CE Certified → Global Safety Standards"],
-                metaTitle: "Soundcore R50i — Buy Original in Egypt ⚡ 32% OFF | CairoVolt",
-                metaDesc: "Soundcore R50i earbuds — EGP 880 with 18-month warranty. 10mm BassUp™, 30h battery, IPX5. ✅ Original Anker ✅ COD ✅ Same-day Cairo delivery. Compare R50i vs.",
+                features: ["🎵 10mm BassUp™", "🔋 Up to 30h Listed Battery", "👂 In-Ear Passive Isolation", "🎙️ Dual-Mic Call Processing", "⚡ Listed Fast Charge", "💧 IPX5", "📱 Soundcore App", "💰 Check Current Listing", "🏆 current warranty and return policy", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
+                metaTitle: "Soundcore R50i in Egypt | 10mm BassUp, 30h, IPX5",
+                metaDesc: "Soundcore R50i earbuds in Egypt with listed 10mm BassUp drivers, up to 30h battery, app EQ and IPX5. Check model, current price, stock and warranty terms.",
                 faqs: [
-                    { question: "Does the Soundcore R50i have ANC (noise cancellation)?", answer: "No — the Soundcore R50i uses passive noise isolation via silicone tips. For active ANC, choose the Soundcore R50i NC (42dB ANC). The R50i offers excellent value without ANC." },
-                    { question: "Soundcore R50i vs R50i NC — what's the difference?", answer: "Soundcore R50i: no ANC, 30h battery, 880 EGP. R50i NC: 42dB ANC, 45h battery, phone stand case, 4 mics, 1199 EGP. If budget allows, R50i NC is the significant upgrade." },
-                    { question: "Soundcore R50i vs K20i — which is better?", answer: "Soundcore R50i = in-ear (passive isolation, 10mm drivers, 30h). K20i = semi-in-ear (more comfortable, 13mm drivers, 36h). K20i costs 750 EGP vs R50i's 880 EGP." },
+                    { question: "Does the Soundcore R50i have ANC?", answer: "No. R50i uses passive isolation from its silicone tips. Compare it with R50i NC using the current ANC method and test conditions, fit, battery settings, live price and warranty." },
+                    { question: "Soundcore R50i vs R50i NC — what's the difference?", answer: "Compare the current pages for ANC, fit, microphones, case design, published battery conditions, codecs, app support, live prices and warranty. A higher single specification does not establish the right model for every user." },
+                    { question: "Soundcore R50i vs K20i — which should I choose?", answer: "R50i uses an in-ear silicone-tip fit, while K20i uses a semi-in-ear format. Compare fit, leakage, passive isolation, driver design, published battery conditions, app support, live price and warranty." },
                     { question: "How to pair Soundcore R50i with my phone?", answer: "Open the charging case near your phone. The Soundcore R50i enters pairing mode automatically. Go to Bluetooth settings and select 'Soundcore R50i'. Download the Soundcore app for EQ customization and firmware updates." },
-                    { question: "Is the Soundcore R50i worth it in 2026?", answer: "Absolutely. At EGP 880, the Soundcore R50i offers 10mm BassUp drivers, 30h battery, Bluetooth 5.3, IPX5, and full app EQ — features found in earbuds costing 2-3× more. It's the best-value wireless earbuds in Egypt." },
-                    { question: "How do I maximize Soundcore R50i battery life?", answer: "Keep case charged via USB-C. Avoid draining earbuds to 0%. Store in case when not in use. The 10-minute fast charge gives 2 emergency hours." },
-                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers driver failure, battery degradation, and Bluetooth issues. Contact CairoVolt for free replacement if they fail under normal use." },
-                    { question: "Soundcore R50i vs AirPods — which is better value?", answer: "The Soundcore R50i costs ~EGP 880 vs AirPods at ~EGP 8,000+. R50i offers 30h battery (vs 24h), IPX5 water resistance, 22 EQ presets via app, and BassUp technology. AirPods win on Apple ecosystem integration, but the R50i delivers 90% of the experience at 12% of the price." }
+                    { question: "Is the Soundcore R50i a suitable everyday option?", answer: "It combines listed 10mm BassUp drivers, up to 30h total battery, Bluetooth 5.3, IPX5 and app EQ without ANC. Compare the current price, fit and features with the R50i NC and K20i before choosing." },
+                    { question: "How do I care for the Soundcore R50i battery?", answer: "Follow the charging and storage guidance in the current manual, keep the contacts clean and dry, and avoid excessive heat. Published fast-charge playback is a test example and varies with settings and battery condition." },
+                    { question: "What does the warranty cover?", answer: "Coverage, exclusions, proof of purchase and service steps are controlled by the written warranty and return policy in effect for this SKU. Review those terms before ordering and keep the invoice." },
+                    { question: "Soundcore R50i vs AirPods — what should I compare?", answer: "Compare the live prices, fit, codec and ecosystem support, listed battery conditions, water-resistance limits and app features. R50i focuses on in-ear fit and Soundcore app EQ, while AirPods integration depends on the Apple model and device ecosystem." }
                 ]
             },
             ar: {
-                name: "سماعة أنكر ساوندكور R50i | 10mm درايفر | 30 ساعة | داخلية | ضمان 18 شهر",
+                name: "سماعة انكر ساوندكور R50i | 10mm درايفر | 30 ساعة | داخلية",
                 shortDescription: "🎵 10mm BassUp™ | 🔋 30 ساعة | 🎙️ AI ENC مزدوج | ⚡ شحن سريع | 💧 IPX5 | 📱 تطبيق ساوندكور",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، ساوندكور R50i بتوفر <strong>10mm BassUp™</strong> و<strong>30 ساعة بطارية</strong> بأقل سعر في تشكيلة ساوندكور. أطراف سيليكون داخلية بتوفر عزل سلبي لشوارع القاهرة الصاخبة. AI ENC مزدوج بينضّف صوت المكالمات في الأتوبيس والميكروباص. بدون ANC — بس بالسعر ده، أفضل قيمة سماعة لاسلكية في مصر. شهادات FCC، ضمان 18 شهر. بسعر <strong>880 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>ساوندكور R50i</strong> سماعة داخلية بدرايفر BassUp مقاس 10mm ومدة تشغيل معلنة حتى 30 ساعة، ومعالجة للمكالمات بميكروفونين وبلوتوث 5.3 وEQ عبر التطبيق وتصنيف IPX5. تعتمد على أطراف السيليكون للعزل السلبي ولا تضم ANC. تتغير البطارية والملاءمة وجودة المكالمات حسب الإعدادات والبيئة. تحقق من A3949 والسعر والمخزون وشروط الضمان قبل الطلب.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">
 <li>🎵 <strong>10mm BassUp™:</strong> صوت متوازن مع باس معزز.</li>
-<li>🔋 <strong>30 ساعة:</strong> 8 ساعات سماعة + 22 ساعة علبة. أسبوع مواصلات.</li>
+<li>🔋 <strong>بطارية معلنة:</strong> حتى 8 ساعات للسماعات و30 ساعة إجمالاً تحت شروط ساوندكور؛ تختلف المدة الفعلية.</li>
 <li>👂 <strong>تصميم داخلي:</strong> أطراف سيليكون لعزل سلبي.</li>
-<li>🎙️ <strong>AI ENC:</strong> مايكين لمكالمات صافية.</li>
-<li>⚡ <strong>شحن سريع:</strong> 10 دقايق = ساعة.</li>
+<li>🎙️ <strong>معالجة مكالمات:</strong> ميكروفونان؛ تعتمد النتيجة على الهاتف والتطبيق والضوضاء.</li>
+<li>⚡ <strong>مثال شحن سريع:</strong> تحقق من شروط اختبار ساوندكور؛ تختلف مدة التشغيل الفعلية.</li>
 </ul></div>
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ R50i نقطة بداية أنكر — ويا نعم البداية. بـ 880 جنيه، بتاخد 10mm درايفرات و BassUp و 30 ساعة بطارية و AI ENC للمكالمات وتطبيق ساوندكور الكامل. التصميم الداخلي بأطراف السيليكون بيعزل الضوضاء بشكل سلبي فعّال بشكل مفاجئ في المترو. لأ، مفيهاش ANC زي <a href='/soundcore/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>R50i NC</a>، بس السيل بتاع السيليكون بيمنع ضوضاء كتير طبيعياً. لو عايز أقصى قيمة، ابدأ من هنا. لو عايز ANC، ارقي لـ R50i NC. لو عايز أقصى راحة، اختار <a href='/soundcore/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>K20i</a>."<br><span class="font-bold block mt-2">✍️ كايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A3949</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 <div class="product-details">
-<section><h2 class="text-2xl font-bold mb-2">بطل القيمة</h2>
-<p class="text-gray-700">بـ 880 جنيه، الـ R50i بتوفر اللي سماعات بضعف السعر ما بتوفروش: صوت موثوق، بطارية موثوقة، ومكالمات موثوقة. <strong>درايفرات 10mm BassUp</strong> بتوفر باس صلب ووسط واضح. تطبيق ساوندكور بيفتح 22 إعداد EQ و 8 نطاقات.</p></section>
-<section><h2 class="text-2xl font-bold mb-2">30 ساعة: شحن أسبوعي</h2>
-<p class="text-gray-700">8 ساعات لكل شحنة، 30 ساعة إجمالي. بساعتين استخدام يومي، ده أكتر من أسبوعين بين الشحنات. <strong>شحن USB-C سريع</strong> بيدي ساعة تشغيل من 10 دقايق.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">درايفر 10mm وEQ عبر تطبيق ساوندكور</h2>
+<p class="text-gray-700">تذكر R50i درايفر 10mm مع BassUp وتحكم EQ في تطبيق ساوندكور. قد تتغير وظائف التطبيق حسب الهاتف والنظام والمنطقة والبرنامج، بينما يعتمد الباس والوضوح على الملاءمة والتسجيل والكودك ومستوى الصوت وEQ. للعزل النشط قارن <a href="/soundcore/audio/anker-soundcore-r50i-nc" class="text-blue-600 hover:underline">ساوندكور R50i NC</a>، وللتصميم نصف الداخلي قارن <a href="/soundcore/audio/anker-soundcore-k20i" class="text-blue-600 hover:underline">ساوندكور K20i</a>.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">أرقام البطارية والشحن السريع المعلنة</h2>
+<p class="text-gray-700">تذكر ساوندكور حتى 8 ساعات للسماعات و30 ساعة مع العلبة ومثالاً للشحن السريع تحت إعداداتها. تؤثر شدة الصوت والمكالمات ووظائف التطبيق والحرارة وعمر البطارية في المدة، لذلك قارن الأرقام تحت شروط اختبار متقاربة ولا تعتبرها جدولاً ثابتاً.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">عزل سلبي داخلي</h2>
-<p class="text-gray-700">أطراف السيليكون بتعمل سيل فيزيائي بيمنع الضوضاء بشكل سلبي. بدون استهلاك بطارية. في المترو، السيل بيقلل الضوضاء 20-25dB — كفاية تستمتع بالموسيقى بدون ما توصل الصوت لأقصاه.</p></section>
+<p class="text-gray-700">أطراف السيليكون تعمل عزلاً سلبياً من دون استهلاك طاقة ANC، لكن مقدار خفض الضوضاء يتغير حسب شكل الأذن وحجم الطرف وجودة الإحكام ولا يمثله رقم dB واحد لكل المستخدمين. جرّب المقاسات المرفقة وحافظ على مستوى صوت آمن وانتبه للطريق والإعلانات.</p></section>
 </div>
-<div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
+<div class="device-compatibility"><h3 class="font-bold mb-2">دليل توافق حسب المواصفات:</h3>
 <ul class="list-disc list-inside text-gray-700">
-<li>📱 <strong>ايفون 17 برو ماكس:</strong> BassUp 10mm مختبرة. كودك AAC مثالي.</li>
-<li>📱 <strong>سامسونج S26 الترا:</strong> بلوتوث 5.3 اتصال مستقر. SBC/AAC.</li>
-<li>💻 <strong>ماك بوك/ويندوز:</strong> AI ENC مزدوج لمكالمات Zoom/Teams.</li>
-<li>📱 <strong>جوجل بيكسل 9 برو:</strong> تطبيق ساوندكور: 22 إعداد EQ + 8 نطاقات مخصصة.</li>
-<li>📱 <strong>ايباد ميني:</strong> IPX5 مختبرة للجيم. وضع جيمنج منخفض التأخير.</li>
+<li>📱 <strong>ايفون:</strong> تحقق من AAC ودعم التطبيق والنظام الحالي؛ النتيجة تعتمد على الملاءمة والإعدادات.</li>
+<li>📱 <strong>أندرويد:</strong> تحقق من الكودك والتطبيق ودعم نظام الهاتف نفسه.</li>
+<li>💻 <strong>ماك وويندوز:</strong> تعتمد المكالمات على عتاد البلوتوث والتعريفات وتطبيق الاجتماع.</li>
+<li>📱 <strong>تطبيق ساوندكور:</strong> تحقق من وظائف EQ والتحكم والبرنامج الحالية للموديل A3949.</li>
+<li>📱 <strong>ايباد ميني:</strong> تصنيف IPX5 مذكور؛ اتبع حدود مقاومة الماء في دليل المنتج. وضع جيمنج منخفض التأخير.</li>
 </ul></div>
 
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">سماعات ساوندكور مقلدة منتشرة على السوشيال ميديا ب~150-200 جنيه بدرايفرات مستعملة بتشوّه فوق 50% صوت. الـ R50i الأصلية فيها بلوتوث 5.3 مش 5.0/5.1. تأكد على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3949</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية. راجع <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">مرجع التحقق الرسمي</a>.</p></div>
 `,
-                features: ["🎵 10mm BassUp™", "🔋 30 ساعة", "👂 عزل سلبي داخلي", "🎙️ AI ENC", "⚡ شحن سريع", "💧 IPX5", "📱 تطبيق ساوندكور", "💰 أفضل قيمة", "🏆 ضمان 18 شهر", "🔒 معتمد FCC + CE → معايير السلامة العالمية"],
-                metaTitle: "سماعة انكر ساوندكور R50i ⚡ خصم 32% | 30 ساعة تشغيل | مصر",
-                metaDesc: "اشتري سماعة انكر R50i في مصر. 10mm BassUp، 30 ساعة بطارية، AI ENC مكالمات. أفضل قيمة سماعة لاسلكية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
+                features: ["🎵 10mm BassUp™", "🔋 حتى 30 ساعة معلنة", "👂 عزل سلبي داخلي", "🎙️ معالجة مكالمات بميكروفونين", "⚡ شحن سريع معلن", "💧 IPX5", "📱 تطبيق ساوندكور", "💰 راجع السعر الحالي", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
+                metaTitle: "سماعة انكر ساوندكور R50i | بطارية معلنة حتى 30 ساعة",
+                metaDesc: "اشتري سماعة انكر ساوندكور R50i في مصر بدرايفر 10mm BassUp ومدة معلنة حتى 30 ساعة وتصنيف IPX5. راجع الموديل والسعر والمخزون والضمان الحالي.",
                 faqs: [
-                    { question: "فيها إلغاء ضوضاء ANC؟", answer: "لأ — R50i بعزل سلبي بأطراف سيليكون. لـ ANC، اختار R50i NC (42dB ANC). R50i بتوفر قيمة ممتازة بدون ANC." },
-                    { question: "R50i ولا R50i NC — إيه الفرق؟", answer: "R50i: بدون ANC، 30 ساعة، 880 جنيه. R50i NC: 42dB ANC، 45 ساعة، علبة حامل، 4 مايك، 1199 جنيه. لو الميزانية تسمح، R50i NC ترقية كبيرة." },
-                    { question: "R50i ولا K20i — أنهي أحسن؟", answer: "R50i = داخلية (عزل سلبي، 10mm، 30 ساعة). K20i = نصف داخلية (أريح، 13mm، 36 ساعة). K20i بـ 750 جنيه مقابل 880 للـ R50i." },
-                    { question: "إزاي أحافظ على البطارية أطول فترة؟", answer: "خلّي العلبة مشحونة بـ USB-C. متفرغش السماعات لـ 0%. حطها في العلبة لما مش بتستخدمها. شحن 10 دقايق بيدي ساعتين طوارئ." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 18 شهر بيغطي عطل الدرايفر، تدهور البطارية، ومشاكل البلوتوث. كلّم CairoVolt للاستبدال مجاناً لو باظت في الاستخدام العادي." }
+                    { question: "فيها إلغاء ضوضاء ANC؟", answer: "لا. تستخدم R50i عزلاً سلبياً من أطراف السيليكون. قارنها مع R50i NC حسب طريقة العزل وشروط الاختبار والملاءمة والبطارية والسعر والضمان الحالي." },
+                    { question: "R50i ولا R50i NC — إيه الفرق؟", answer: "قارن الصفحتين الحاليتين حسب ANC والملاءمة والميكروفونات وتصميم العلبة وشروط البطارية والكودكات والتطبيق والسعر والضمان. رقم واحد أعلى لا يحسم الاختيار لكل مستخدم." },
+                    { question: "R50i ولا K20i — أختار إيه؟", answer: "R50i داخلية بأطراف سيليكون، بينما K20i نصف داخلية. قارن الملاءمة والتسريب والعزل السلبي وتصميم الدرايفر وشروط البطارية ودعم التطبيق والسعر والضمان الحالي." },
+                    { question: "إزاي أحافظ على البطارية؟", answer: "اتبع تعليمات الشحن والتخزين في الدليل الحالي وحافظ على نقاط التلامس نظيفة وجافة وتجنب الحرارة الزائدة. مثال التشغيل بعد الشحن السريع معلن تحت شروط ويختلف مع الإعدادات وحالة البطارية." },
+                    { question: "الضمان بيغطي إيه؟", answer: "التغطية والأهلية تخضعان لشروط ضمان انكر وسياسة كايرو فولت المنشورتين وقت الطلب. احتفظ بالفاتورة وتواصل برقم الموديل ووصف العطل للتقييم." }
                 ]
             }
         },
-        meta: { keywords: "ساوندكور r50i, أنكر ساوندكور r50i, أنكر r50i, ساوندكور r50i egypt, ساوندكور r50i price, ساوندكور r50i review, ساوندكور r50i specs, ساوندكور r50i vs r50i nc, سماعة انكر r50i, سماعه انكر, ايربودز انكر r50i, انكر ساوند كور r50i, سماعة ساوندكور r50i, سعر ساوندكور r50i, سعر ساوندكور r50i في مصر, r50i أنكر, أنكر ساوندكور r50i earbuds, سماعة انكر مصر, أنكر earbuds egypt, سماعة بلوتوث انكر, ساوندكور مصر, افضل سماعة لاسلكية 2026, ساوندكور r50i vs airpods, how to pair ساوندكور r50i", mainTerm: "soundcore r50i" },
-        expertOpinion: { en: "The Soundcore R50i is for first-time wireless earbud buyers who refuse to compromise. At its price, you get features found in earbuds costing 3× more. Skip if you need ANC — the Soundcore R50i uses passive isolation only.", ar: "ساوندكور R50i لأول مرة تشتري سماعات لاسلكية وعايز حاجة محترمة. بسعرها بتاخد مميزات موجودة في سماعات بـ 3 أضعاف السعر. مش ليك لو محتاج عزل نشط — R50i بتعتمد على عزل سلبي بس." }
+        meta: { keywords: "ساوندكور r50i, انكر ساوندكور r50i, انكر r50i, ساوندكور r50i egypt, ساوندكور r50i price, ساوندكور r50i review, ساوندكور r50i specs, ساوندكور r50i vs r50i nc, سماعة انكر r50i, سماعه انكر, ايربودز انكر r50i, انكر ساوندكور r50i, سماعة ساوندكور r50i, سعر ساوندكور r50i, سعر ساوندكور r50i في مصر, r50i انكر, انكر ساوندكور r50i earbuds, سماعة انكر مصر, انكر earbuds egypt, سماعة بلوتوث انكر, ساوندكور مصر, ساوندكور r50i vs airpods, how to pair ساوندكور r50i", mainTerm: "soundcore r50i" },
+        expertOpinion: { en: "R50i may suit buyers who prefer an in-ear fit, passive isolation and Soundcore app EQ without ANC. Verify the published battery conditions, IPX5 limits, codec and app support, live price and current warranty before choosing.", ar: "قد تناسب R50i من يفضل ملاءمة داخلية وعزلاً سلبياً وEQ عبر تطبيق ساوندكور من دون ANC. تحقق من شروط البطارية وحدود IPX5 والكودك والتطبيق والسعر والضمان الحالي قبل الاختيار." }
     };

@@ -29,9 +29,11 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
             keywords: 'باور بانك شمسي, باور بانك كامبينج, شحن بالطاقة الشمسية مصر, باور بانك رحلات, solar power bank egypt, انكر باور بانك سفاري, شحن موبايل صحراء, باور بانك سفر مصر',
             excerpt: 'الباور بانك الشمسي فكرته حلوة — بس هل كفاءته الحقيقية تناسب شمس مصر ورحلات السفاري؟ تحليل بالأرقام والفيزياء مع البديل الأذكى.',
             quickAnswer: 'الباور بانك الشمسي فكرته مغرية لكن أداؤه الفعلي ضعيف: اللوح الشمسي المدمج (2-5W) بيحتاج 40-80 ساعة شمس صافية لشحن باور بانك 20,000mAh — يعني 5-10 أيام! البديل الأذكى لرحلات الكامبينج في مصر: باور بانك عادي بسعة 20,000mAh+ (زي انكر PowerCore 20K بـ 1,550ج) واشحنه كامل قبل الرحلة. لو الرحلة أطول من 3 أيام، محطة طاقة متنقلة زي انكر 521 PowerHouse هي الحل الحقيقي.',
-            content: `<p>كل ما بتخطط لرحلة كامبينج في الفيوم أو سفاري في الصحراء البيضاء أو حتى يوم على شاطئ العين السخنة، بتسأل نفس السؤال: "الموبايل هيفضل معايا ولا هيموت في نص الرحلة؟" وطبعاً أول حاجة بتطلع قدامك على أمازون: "باور بانك شمسي 30,000mAh — بيشحن من الشمس!" بسعر 200-400 جنيه. الصور حلوة، التقييمات 4.5 نجمة، والفكرة نفسها رائعة — طاقة مجانية من الشمس المصرية اللي بتحرق دماغنا 300 يوم في السنة. إيه اللي ممكن يغلط؟</p>
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p class="content-method-note"><strong>أساس المقارنة:</strong> تعتمد الأرقام التالية على المواصفات المنشورة أو أمثلة حسابية موضحة، وتتغير النتيجة حسب الجهاز والحرارة وطريقة الاستخدام.</p>
 
-<p>كتير، للأسف. في المقال ده هنحلل بالفيزياء والأرقام — مش بالآراء — كفاءة الباور بانك الشمسي الحقيقية، ونقارنها بالباور بانك العادي، ونقولك بالضبط إمتى الشمسي يستاهل فلوسه وإمتى هو مجرد خدعة تسويقية بتاخد فلوسك وبتسيبك بموبايل ميت في نص الصحراء. المقال ده اتكتب بعد ما اختبرنا 4 موديلات باور بانك شمسي على مدار 3 أسابيع في يونيو 2026 — وسط شمس القاهرة الحارقة — وقسنا الأداء الفعلي بعدّاد واط وأمبير.</p>
+<p>كل ما بتخطط لرحلة كامبينج في الفيوم أو سفاري في الصحراء البيضاء أو حتى يوم على شاطئ العين السخنة، بتسأل نفس السؤال: "الموبايل هيفضل معايا ولا هيموت في نص الرحلة؟" وطبعاً أول حاجة بتطلع قدامك على أمازون: "باور بانك شمسي 30,000mAh — بيشحن من الشمس!" بسعر 200-400 جنيه. الصور حلوة، التقييمات 4.5 نجمة، والفكرة نفسها رائعة — طاقة مجانية من الشمس المصرية اللي بتحرق دماغنا 300 يوم في السنة. إيه اللي ممكن يغلط؟</p>
+
+<p>كتير، للأسف. في هذا الدليل نحلل الفكرة بالفيزياء والحسابات المنشورة، ونقارن اللوح الصغير المدمج بباور بانك عادي. مدد الشحن المذكورة تقديرات تعتمد على قدرة اللوح والطاقة والطقس واتجاه الشمس، وتُستبدل ببيانات الموديل والظروف الفعلية عند التخطيط.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -50,9 +52,9 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 </ul>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 اختبار كايرو فولت — يونيو 2026</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 حسبة عملية — يوم شمس مصري كامل</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        اختبرنا 4 باور بانكات شمسية (أسعار من 200 لـ 800 جنيه) على سطح مبنى في القاهرة في يونيو 2026 (أعلى شمس في السنة). حطيناهم تحت الشمس المباشرة من 9 الصبح لـ 4 العصر (7 ساعات). <strong>النتيجة الصادمة:</strong> أحسن موديل فيهم شحن <strong>8% فقط</strong> من سعته في يوم كامل. أسوأ موديل شحن 3%. يعني عشان تملى باور بانك شمسي 20,000mAh من الشمس بس، محتاج <strong>12-30 يوم</strong> من الشمس المباشرة!
+        خد باور بانك شمسي نموذجي من فئة 200-800 جنيه بلوح مدمج مكتوب عليه 2-5 واط. وهو نايم مسطح على الأرض (مش مايل ناحية الشمس)، في حرارة فوق 40°م، مع الأتربة ودائرة شحن بسيطة من غير MPPT — القدرة الفعلية اللي بتوصل للبطارية غالباً جزء صغير من الرقم المكتوب: بافتراض 0.3-0.9 واط. على مدار 7 ساعات شمس مباشرة (من 9 الصبح لـ 4 العصر)، ده بيطلع تقريباً 2-6 واط-ساعة في اليوم — يعني <strong>3-8% فقط</strong> من سعة باور بانك 74 واط-ساعة (20,000mAh). بالمعدل ده، عشان تملى باور بانك شمسي 20,000mAh من الشمس بس، محتاج <strong>12-30 يوم</strong> من الشمس المباشرة!
     </p>
 </div>
 
@@ -108,13 +110,13 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">عمر افتراضي</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>6-12 شهر</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>حسب صفحة المنتج والفاتورة</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>3+ سنين</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">ضمان</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>بدون</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>18 شهر معتمد</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>المدة الموضحة على صفحة المنتج</strong></td>
     </tr>
     </tbody>
 </table>
@@ -187,10 +189,10 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 
 <h2>تحذير من "30,000mAh شمسي بـ 200 جنيه" على أمازون</h2>
 
-<p>لو شفت باور بانك على أمازون مصر أو جوميا مكتوب عليه "Solar 30,000mAh" بسعر 150-250 جنيه — ده scam بنسبة 99%. إليك الأسباب:</p>
+<p>لو شفت باور بانك شمسي بسعة كبيرة وسعر بعيد عن عروض الموديلات الموثقة، اعتبره سبباً للتحقق لا دليلاً بنسبة 99% على الاحتيال. راجع الطاقة Wh والوزن ورقم الموديل وسياسة الإرجاع:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🔍 <strong>السعة مزيفة:</strong> تكلفة خلايا ليثيوم حقيقية بسعة 30,000mAh وحدها أعلى من 300 جنيه. باور بانك كامل بـ 200 جنيه مستحيل يكون 30,000mAh. السعة الفعلية غالباً 5,000-8,000mAh.</li>
+<li style="margin-bottom:12px;">🔍 <strong>تحقق من السعة:</strong> السعر المنخفض لا يثبت سعة مزيفة ولا يسمح بتقدير 5,000-8,000mAh. طابق mAh وWh والجهد والوزن مع وثائق الموديل، واطلب اختباراً مناسباً إذا لزم.</li>
     <li style="margin-bottom:12px;">☀️ <strong>اللوح الشمسي للشكل:</strong> اللوح مساحته 5×5 سم — بيولد أقل من 0.5W. يحتاج 150+ ساعة شمس لشحن حتى 5,000mAh. عملياً = صفر.</li>
     <li style="margin-bottom:12px;">🔥 <strong>خلايا بدون حماية:</strong> مفيش حماية حرارية أو حماية من فرط الشحن. في شمس الصحراء المصرية (50°م+)، ده خطر حقيقي.</li>
     <li style="margin-bottom:12px;">📦 <strong>بدون ضمان:</strong> بائع ثالث (third-party) على أمازون مش هيديك ضمان ولا إرجاع. لو باظ بعد أسبوع — فلوسك راحت.</li>
@@ -204,27 +206,27 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 </div>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جهّز رحلتك من كايرو فولت — بضمان الوكيل المعتمد</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جهّز رحلتك من كايرو فولت — بالضمان المكتوب على صفحة المنتج</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل باور بانكات الرحلات ومحطات الطاقة المتنقلة متاحة بضمان <strong>18 شهر معتمد</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + فحص قبل الدفع. لو بتخطط لرحلة كامبينج أو سفاري، تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/portable-power-stations" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
+        كل باور بانكات الرحلات ومحطات الطاقة المتنقلة متاحة ب<strong>مدة الضمان الموضحة على صفحة المنتج</strong> + توصيل للمحافظات وفق الموعد التقديري الظاهر عند تأكيد الطلب + فحص قبل الدفع. لو بتخطط لرحلة كامبينج أو سفاري، تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/portable-power-stations" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'الباور بانك الشمسي بيتشحن في كام ساعة من الشمس؟',
-                    answer: 'الباور بانك الشمسي المدمج (اللوح الصغير في الجسم) بيشحن 3-8% من سعته في يوم كامل تحت الشمس المباشرة. يعني باور بانك 20,000mAh بيحتاج 12-30 يوم عشان يتشحن بالكامل من الشمس بس. لوح شمسي منفصل بقدرة 20W بيشحن 10,000mAh في 4-5 ساعات — أسرع بـ 10-20 مرة.',
+                    answer: 'المدة تعتمد على قدرة اللوح الفعلية والطاقة بالواط-ساعة وشدة الشمس والزاوية والحرارة وخسائر التحويل. احسب تقديراً من بيانات الموديل، ثم أضف هامشاً؛ اللوح المدمج الصغير قد يكون بطيئاً، ولا يوجد زمن ثابت لكل باور بانك أو يوم مشمس.',
                 },
                 {
                     question: 'هل الباور بانك الشمسي آمن في حرارة الصحراء؟',
-                    answer: 'الباور بانكات الشمسية الرخيصة (تحت 500 جنيه) غالباً مفيهاش حماية حرارية كافية. في حرارة الصحراء المصرية (50°م+)، خلايا الليثيوم ممكن تنتفخ أو تتلف بسرعة. لو هتستخدم أي باور بانك في الحرارة، اختار ماركة محترمة بحماية حرارية (مثل ActiveShield في انكر) واحتفظ به في الظل دائماً.',
+                    answer: 'السعر لا يثبت وجود حماية حرارية. راجع حدود حرارة التشغيل والتخزين والحمايات المنشورة للموديل، واحفظ البطارية بعيداً عن الشمس والسيارة المغلقة وتوقف عند الانتفاخ أو التلف أو الحرارة غير الطبيعية.',
                 },
                 {
                     question: 'إيه أفضل باور بانك لرحلة كامبينج 3 أيام؟',
-                    answer: 'لشخص واحد في رحلة 3 أيام: انكر PowerCore 20,000mAh (1,550ج) بيديك 3.5 شحنات كاملة — كافي تماماً مع استخدام معقول. لو بتصور كتير أو معاك أجهزة تانية، أضف انكر زولو 10,000mAh (750ج) كاحتياطي.',
+                    answer: 'قدّر طاقة الرحلة من بطارية الهاتف بالواط-ساعة والاستخدام والإشارة والحرارة وخسائر التحويل. قارن الطاقة المقننة والخرج للموديل الدقيق، ثم راجع السعر الحالي؛ لا تضمن سعة واحدة عدداً ثابتاً من الشحنات أو كفاية كل رحلة ثلاثة أيام.',
                 },
                 {
                     question: 'هل الباور بانك مسموح بيه في رحلات الطيران للوصول لمنطقة الكامبينج؟',
-                    answer: 'أيوا، الباور بانك مسموح في حقيبة اليد (مش الشنطة المسجلة) بشرط ألا تتجاوز السعة 100Wh (حوالي 27,000mAh). باور بانك 20,000mAh (74Wh) مسموح بدون قيود على كل شركات الطيران. راجع مقالنا المفصل عن قواعد الطيران.',
+                    answer: 'تحدد شركة الطيران والسلطات السعة والعدد ومكان الحمل والموافقة المطلوبة، وقد تتغير القواعد. احسب Wh من ملصق الموديل وراجع سياسة الناقل قبل الرحلة؛ كون السعة أقل من حد شائع لا يضمن القبول أو الإعفاء من كل القيود.',
                 },
             ],
         },
@@ -234,10 +236,12 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
             metaDescription: 'Scientific analysis of solar power banks in Egyptian conditions: real panel efficiency, comparison with regular power banks, and smarter alternatives for saf...',
             keywords: 'solar power bank egypt, camping power bank, solar charging egypt, safari power bank, solar charger desert, anker power bank camping, phone charging desert egypt, portable power camping',
             excerpt: 'Solar power banks sound great in theory — but does their real-world efficiency match Egypt\'s sun and safari conditions? A numbers-and-physics analysis with smarter alternatives.',
-            quickAnswer: 'Solar power banks with built-in panels (2-5W) need 40-80 hours of direct sunlight to charge a 20,000mAh battery — that\'s 5-10 days! The smarter alternative for camping in Egypt: a regular 20,000mAh+ power bank (like Anker PowerCore 20K at 1,550 EGP) fully charged before the trip. For trips longer than 3 days, a portable power station like the Anker 521 PowerHouse is the real solution.',
-            content: `<p>Every time you plan a camping trip to Fayoum, a safari in the White Desert, or even a day at Ain Sokhna beach, you ask the same question: "Will my phone last or will it die in the middle of the trip?" And naturally, the first thing that pops up on Amazon: "Solar Power Bank 30,000mAh — charges from the sun!" at 200-400 EGP. The photos look great, the reviews are 4.5 stars, and the concept itself is brilliant — free energy from the Egyptian sun that burns our heads 300 days a year. What could possibly go wrong?</p>
+            quickAnswer: 'Estimate solar charging from the panel\'s documented output, battery watt-hours, sun conditions, and conversion loss; small built-in panels can be slow. For camping, compare a charged power bank, a separate solar panel, or a power station against your measured daily load, trip length, weight, and the current product specifications and price.',
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p class="content-method-note"><strong>Evidence base:</strong> The figures below use published specifications or clearly stated worked examples; results vary by device, temperature, and use.</p>
 
-<p>A lot, unfortunately. In this article, we'll analyze with physics and numbers — not opinions — the real efficiency of solar power banks, compare them with regular power banks, and tell you exactly when solar is worth it and when it's just a marketing gimmick that takes your money and leaves you with a dead phone in the middle of the desert. This article was written after we tested 4 solar power bank models over 3 weeks in June 2026 — under Cairo's scorching sun — measuring actual performance with watt and amp meters.</p>
+<p>Every time you plan a camping trip to Fayoum, a safari in the White Desert, or even a day at Ain Sokhna beach, you ask the same question: "Will my phone last or will it die in the middle of the trip?" And naturally, the first thing that pops up on Amazon: "Solar Power Bank 30,000mAh — charges from the sun!" at 200-400 EGP. The photos look great, the reviews are 4.5 stars, and the concept itself is brilliant — free energy from the Egyptian sun that burns our heads 300 days a year. What could possibly go wrong?</p>
+
+<p>A lot, unfortunately. In this article, we'll analyze with physics and numbers — not opinions — the real efficiency of solar power banks, compare them with regular power banks, and tell you exactly when solar is worth it and when it's just a marketing gimmick that takes your money and leaves you with a dead phone in the middle of the desert. Every charging-time figure in this guide is a worked estimate built from published panel ratings and battery watt-hour math, with the assumptions stated at each step — so you can redo the calculation for any specific model you're considering.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -256,9 +260,9 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 </ul>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Lab Test — June 2026</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 A Worked Example — One Full Day of Egyptian Sun</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We tested 4 solar power banks (priced 200-800 EGP) on a rooftop in Cairo in June 2026 (peak sun season). We placed them under direct sunlight from 9 AM to 4 PM (7 hours). <strong>The shocking result:</strong> the best model charged only <strong>8% of its capacity</strong> in a full day. The worst managed 3%. This means fully charging a 20,000mAh solar power bank from sunlight alone takes <strong>12-30 days</strong> of direct sun exposure!
+        Take a typical solar power bank in the 200-800 EGP class with a built-in panel rated 2-5W. Lying flat on the ground (not angled at the sun), in 40°C+ heat, with dust and a simple non-MPPT charging circuit, the power actually reaching the battery is usually a small fraction of the rating — assume 0.3-0.9W. Over 7 hours of direct sunlight (9 AM to 4 PM), that works out to roughly 2-6Wh per day — just <strong>3-8% of the capacity</strong> of a 74Wh (20,000mAh) bank. At that rate, fully charging a 20,000mAh solar power bank from sunlight alone takes <strong>12-30 days</strong> of direct sun exposure!
     </p>
 </div>
 
@@ -314,13 +318,13 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Lifespan</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>6-12 months</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>See product page and invoice</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>3+ years</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Warranty</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>None</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>18 months authorized</strong></td>
+<td style="padding:12px;border:1px solid #d1d5db;"><strong>See product page, seller, and invoice</strong></td>
     </tr>
     </tbody>
 </table>
@@ -393,7 +397,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 
 <h2>Warning About "30,000mAh Solar for 200 EGP" on Amazon</h2>
 
-<p>If you see a power bank on Amazon Egypt or Jumia labeled "Solar 30,000mAh" for 150-250 EGP — it's a scam 99% of the time. Here's why:</p>
+<p>If a high-capacity solar power bank is priced far below documented comparable models, treat that as a reason to verify—not proof of a scam with a 99% rate. Check Wh, weight, model number, and return policy:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔍 <strong>Fake Capacity:</strong> The cost of genuine lithium cells with 30,000mAh capacity alone exceeds 300 EGP. A complete power bank at 200 EGP cannot be 30,000mAh. Actual capacity is usually 5,000-8,000mAh.</li>
@@ -410,27 +414,27 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 </div>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt — With Authorized Warranty</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt — With written store warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All trip power banks and portable power stations are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + product inspection before payment. Planning a camping or safari trip? Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/portable-power-stations" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
+        All trip power banks and portable power stations are available with a <strong>warranty for the written term shown on the product page or invoice</strong> + delivery according to the address-specific estimate shown before order confirmation + product inspection before payment. Planning a camping or safari trip? Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/portable-power-stations" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'How many hours does it take to charge a solar power bank from sunlight?',
-                    answer: 'A solar power bank with a built-in panel charges only 3-8% of its capacity per full day of direct sunlight. A 20,000mAh solar power bank needs 12-30 days to fully charge from sun alone. A separate 20W solar panel charges a 10,000mAh power bank in 4-5 hours — 10-20x faster.',
+                    answer: 'Time depends on actual panel output, battery watt-hours, sunlight, angle, temperature, and conversion loss. Estimate it from the exact model data and add margin; a small built-in panel may be slow, and no fixed time applies to every power bank or sunny day.',
                 },
                 {
                     question: 'Is a solar power bank safe in desert heat?',
-                    answer: 'Budget solar power banks (under 500 EGP) typically lack adequate thermal protection. In Egyptian desert heat (50°C+), lithium cells can swell or degrade rapidly. If you use any power bank in heat, choose a reputable brand with thermal protection (like ActiveShield in Anker) and always keep it in shade.',
+                    answer: 'Price does not prove whether thermal protection exists. Check the exact model\'s published operating and storage limits and protection features, keep the battery out of direct sun and closed vehicles, and stop using it if swollen, damaged, or unusually hot.',
                 },
                 {
                     question: 'What is the best power bank for a 3-day camping trip?',
-                    answer: 'For one person on a 3-day trip: Anker PowerCore 20,000mAh (1,550 EGP) provides 3.5 full phone charges — perfectly sufficient with moderate use. If you shoot lots of photos or have other devices, add an Anker ZOLO 10,000mAh (750 EGP) as backup.',
+                    answer: 'Estimate trip energy from the phone battery in watt-hours, expected use, signal, heat, and conversion loss. Compare the exact model\'s rated energy and output, then check current price; no capacity guarantees a fixed charge count or sufficiency for every three-day trip.',
                 },
                 {
                     question: 'Are power banks allowed on flights to reach the camping destination?',
-                    answer: 'Yes, power banks are allowed in carry-on luggage (not checked bags) as long as capacity doesn\'t exceed 100Wh (approximately 27,000mAh). A 20,000mAh power bank (74Wh) is allowed without restrictions on all airlines. See our detailed article on aviation rules.',
+                    answer: 'The airline and authorities set capacity, quantity, packing location, and approval requirements, and rules can change. Calculate watt-hours from the exact label and check the operating carrier before travel; being under a common threshold does not guarantee acceptance or remove every restriction.',
                 },
             ],
         },

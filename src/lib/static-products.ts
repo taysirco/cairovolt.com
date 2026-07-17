@@ -3,6 +3,7 @@
 
 import { products, categories } from '@/data/seed-products';
 import { contentGraph, getInternalLinksForPage, getRelatedEntities } from '@/data/content-graph';
+import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
 
 /** A single variant configuration (e.g. different capacity/wattage tiers) */
 export interface ProductVariant {
@@ -191,7 +192,8 @@ export function getProductBySlug(slug: string): StaticProduct | undefined {
  * الثابت (Firestore فقط) تُعيد null فيُبقي المستدعي سعر العميل.
  */
 export type CatalogPricing =
-    | { status: 'ok'; price: number; originalPrice?: number; sku: string; slug: string; variantId?: string }
+    | { status: 'ok'; price: number; sku: string; slug: string; variantId?: string }
+    | { status: 'ambiguous'; slugs: string[] }
     // منتج بمتغيّرات لكن العنصر لم يحدّد المتغيّر — طلب مُلفَّق/معطوب (السلال الحقيقية
     // تحمل دائماً المتغيّر). المستدعي يرفض بدل الوثوق بسعر العميل.
     | { status: 'variant-unresolved'; slug: string }
@@ -219,8 +221,12 @@ export function resolveCatalogPricing(item: {
         (idSlug && staticProducts.find(p => p.slug === idSlug)) || undefined;
     if (!product && item?.slug) product = staticProducts.find(p => p.slug === item.slug);
     if (!product && item?.sku) {
-        product = staticProducts.find(p =>
+        const skuMatches = staticProducts.filter(p =>
             p.sku === item.sku || (p.variants || []).some(v => v.sku === item.sku));
+        if (skuMatches.length > 1) {
+            return { status: 'ambiguous', slugs: skuMatches.map(match => match.slug) };
+        }
+        product = skuMatches[0];
     }
 
     if (!product) {
@@ -240,14 +246,13 @@ export function resolveCatalogPricing(item: {
         return {
             status: 'ok',
             price: variant.price,
-            originalPrice: variant.originalPrice,
             sku: variant.sku,
             slug: product.slug,
             variantId: variant.id,
         };
     }
 
-    return { status: 'ok', price: product.price, originalPrice: product.originalPrice, sku: product.sku, slug: product.slug };
+    return { status: 'ok', price: product.price, sku: product.sku, slug: product.slug };
 }
 
 export function getProductsByCategory(categorySlug: string): StaticProduct[] {
@@ -348,9 +353,6 @@ const complementaryMatrix: Record<string, Array<{
     ],
 };
 
-/** Bundle discount percentage */
-export const BUNDLE_DISCOUNT_PERCENT = 5;
-
 /** Result type for smart bundle recommendations */
 export interface BundleProduct {
     product: StaticProduct;
@@ -365,7 +367,7 @@ export interface BundleResult {
     totalAfterDiscount: number;     // total after 5% bundle discount
     fullBundlePrice: number;        // main + bundle products after discount
     dailyCost: number;              // full bundle price / 365
-    totalSavings: number;           // originalPrice savings + bundle discount
+    totalSavings: number;           // server-applied bundle discount
 }
 
 /**
@@ -446,11 +448,6 @@ export function getSmartBundleProducts(product: StaticProduct): BundleResult {
             // Featured products get bonus
             if (p.featured) score += 10;
 
-            // Products with bigger discount get bonus (shows more savings)
-            if (p.originalPrice && p.originalPrice > p.price) {
-                score += 8;
-            }
-
             // Prefer lower-priced options for accessory slot
             if (entry.slot === 'accessory') {
                 score += Math.max(0, 10 - Math.floor(priceRatio * 10));
@@ -500,10 +497,8 @@ export function getSmartBundleProducts(product: StaticProduct): BundleResult {
         : 0;
     const fullBundlePrice = fullPriceBeforeDiscount - bundleDiscount;
 
-    // Total savings = original price discounts + bundle discount
-    const originalPriceSavings = [product, ...bundleProducts.map(bp => bp.product)]
-        .reduce((sum, p) => sum + ((p.originalPrice || p.price) - p.price), 0);
-    const totalSavings = originalPriceSavings + bundleDiscount;
+    // Only report the discount that checkout applies to the complete bundle.
+    const totalSavings = bundleDiscount;
 
     // Daily cost (psychological pricing: spread over 1 year)
     const dailyCost = Math.round((fullBundlePrice / 365) * 10) / 10;
@@ -569,4 +564,3 @@ export function getBundleSuggestion(productSlug: string): {
     const bundleProducts = getSmartRelatedProducts(mainProduct, 2);
     return { mainProduct, bundleProducts };
 }
-

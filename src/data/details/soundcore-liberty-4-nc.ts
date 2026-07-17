@@ -2,12 +2,12 @@ import type { ProductDetail } from './_types';
 
 export const soundcore_liberty_4_nc_detail: ProductDetail = {
     aiTldr: {
-        en: ['11mm Hi-Res drivers for rich sound', '50h total battery with USB-C case', 'Bluetooth 5.3 with multipoint', 'IPX4 water resistance', 'CairoVolt: 18-month warranty, lowest verified price'],
-        ar: ['درايفر 11mm Hi-Res لصوت غني', '50h بطارية إجمالي بعلبة USB-C', 'بلوتوث 5.3 مع multipoint', 'IPX4 مقاومة للماء', 'كايرو فولت: ضمان 18 شهر، أقل سعر موثّق'],
+        en: ['11mm Hi-Res drivers for rich sound', '50h total battery with USB-C case', 'Bluetooth 5.3 with multipoint', 'IPX4 water resistance'],
+        ar: ['درايفر 11mm Hi-Res لصوت غني', '50h بطارية إجمالي بعلبة USB-C', 'بلوتوث 5.3 مع multipoint', 'IPX4 مقاومة للماء'],
     },
     localContext: {
-        en: 'In Cairo commute — Metro Line 3, microbuses, and streets — ambient noise exceeds 85dB. The Soundcore Liberty 4 NC delivers premium audio at 2570 EGP, giving years of daily use.',
-        ar: 'في مواصلات القاهرة — المترو والميكروباصات — الضوضاء بتتعدى 85 ديسيبل. ساوندكور Liberty 4 NC بتقدم صوت ممتاز بـ 2570 جنيه وبتدّيك سنين استخدام.',
+        en: 'For commuting, Liberty 4 NC combines an in-ear seal with adjustable ANC. Results vary with ear-tip fit, noise profile and settings, and ANC does not remove every announcement or sudden sound. Compare the current product-page price and warranty terms; service life depends on use, charging habits and care.',
+        ar: 'للمواصلات تجمع Liberty 4 NC بين إغلاق داخل الأذن وعزل ANC قابل للضبط. تختلف النتيجة حسب مقاس الطرف ونوع الضوضاء والإعدادات، ولا يزيل ANC كل إعلان أو صوت مفاجئ. قارن السعر الحالي وشروط الضمان في صفحة المنتج؛ ويعتمد العمر الفعلي على الاستخدام والشحن والعناية.',
     },
     specifications: {
         'Product Type': { en: 'True Wireless Earbuds (TWS)', ar: 'سماعة لاسلكية (TWS)' },
@@ -17,11 +17,6 @@ export const soundcore_liberty_4_nc_detail: ProductDetail = {
         'Bluetooth': { en: '5.3 with Multipoint', ar: '5.3 مع Multipoint' },
         'Water Resistance': { en: 'IPX4', ar: 'IPX4' },
         'Microphone': { en: 'Dual AI ENC', ar: 'مايكين AI ENC' },
-        'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
+        'Compliance': { en: 'Verify FCC and CE markings or documents for the delivered unit and market', ar: 'يُراجع وجود علامات أو مستندات FCC وCE للوحدة المستلمة والسوق' },
     },
-    labVerified: {
-        result: { en: '50h battery confirmed in CairoVolt lab.', ar: '50h بطارية متأكد منها في معمل كايرو فولت.' },
-        conditions: { en: 'Cairo office — May 2026, 72h testing cycle', ar: 'مكتب القاهرة — مايو 2026، دورة اختبار 72 ساعة' },
-        expertName: 'Dr. Sherif Hassan'
-    }
 };

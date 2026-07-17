@@ -28,50 +28,50 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
     },
     translations: {
         ar: {
-            title: 'ضمان انكر 18 شهر في مصر — فروع التوكيل المعتمدة وشروط الاستبدال الكاملة',
-            metaTitle: 'ضمان Anker 18 شهر في مصر — التوكيل المعتمد وشروط الاستبدال',
-            metaDescription: 'كل شيء عن ضمان Anker في مصر: 18 شهر من الموزع الرسمي كايرو فولت، ما بيغطيه الضمان، ما بيغطيهوش، الأوراق المطلوبة، وطريقة تقديم طلب الضمان خطوة بخطوة.',
-            excerpt: 'ضمان Anker 18 شهر في مصر من خلال كايرو فولت — ما بيغطيه، ما بيغطيهوش، والأوراق اللي محتاجها لاستخدامه.',
-            quickAnswer: 'ضمان Anker في مصر 18 شهر من تاريخ الشراء من الموزع الرسمي (كايرو فولت). بيغطي عيوب التصنيع والأعطال التلقائية. مش بيغطي: الكسر، الماء، الجهد الغلط، والتلف المتعمد. المطلوب: فاتورة الشراء الأصلية + المنتج. التقديم عبر support@cairovolt.com أو من خلال صفحة الضمان على الموقع.',
-            keywords: 'ضمان انكر مصر, Anker warranty Egypt, توكيل Anker في مصر, كايرو فولت ضمان, ضمان شاحن Anker, استبدال منتج Anker, ضمان 18 شهر Anker, Anker الموزع الرسمي مصر',
+            title: 'ضمان انكر في مصر — مدة التغطية وشروط الاستبدال الكاملة',
+            metaTitle: 'ضمان انكر في مصر — المدة والشروط وخطوات تقديم الطلب',
+            metaDescription: 'دليل ضمان منتجات انكر المباعة من كايرو فولت: أين تجد مدة التغطية، ما قد تشمله، المستندات المطلوبة، وخطوات تقديم الطلب وفق الشروط المكتوبة.',
+            excerpt: 'دليل عملي لقراءة مدة وشروط ضمان منتج انكر وتقديم طلب إلى كايرو فولت مع الفاتورة والمنتج.',
+            quickAnswer: 'كايرو فولت متجر إلكتروني مستقل. تختلف مدة الضمان وتفاصيل التغطية حسب المنتج؛ المرجع هو صفحة المنتج والفاتورة وسياسة الضمان وقت الشراء. قد تشمل عيوب التصنيع وفق الفحص والشروط، ولا تشمل عادةً التلف الخارجي أو سوء الاستخدام. قدّم الطلب عبر support@cairovolt.com.',
+            keywords: 'ضمان انكر مصر, انكر warranty Egypt, توكيل انكر في مصر, كايرو فولت ضمان, ضمان شاحن انكر, استبدال منتج انكر, ضمان وفق المدة الموضحة على صفحة المنتج انكر, انكر متجر التجزئة مصر',
             faq: [
                 {
-                    question: 'ضمان Anker في مصر كام شهر؟',
-                    answer: 'ضمان Anker من خلال الموزع الرسمي في مصر (كايرو فولت) هو 18 شهر من تاريخ الشراء. ده أطول من الضمان الرسمي لـ Apple (12 شهر) ومن Samsung (12 شهر). شرط الحصول على الضمان: شراء من كايرو فولت مباشرة أو من أحد موزعيها المعتمدين.',
+                    question: 'ضمان انكر في مصر كام شهر؟',
+                    answer: 'تختلف المدة حسب الموديل والعرض وقت الشراء. راجع صفحة المنتج والفاتورة وسياسة الضمان؛ هذه المستندات تحدد بداية المدة والتغطية والاستثناءات الخاصة بطلبك.',
                 },
                 {
-                    question: 'هل ضمان Anker بيغطي الشاحن لو وقع في المية؟',
-                    answer: 'لا — الضمان بيغطي عيوب التصنيع وما يحدث من أعطال تلقائية. تلف الماء والكسر والتلف الناتج عن استخدام غلط مش مغطى. لو شاحنك اتلف من سبب خارجي — ممكن كايرو فولت تساعدك في صيانة مدفوعة بأفضل الأسعار.',
+                    question: 'هل ضمان انكر بيغطي الشاحن لو وقع في المية؟',
+                    answer: 'تعتمد التغطية على الشروط المكتوبة للموديل والطلب ونتيجة الفحص؛ تلف السوائل أو الكسر أو سوء الاستخدام قد يكون مستثنى. أوقف استخدام الشاحن إذا تعرض للماء، ولا توصله بالكهرباء، ثم تواصل مع كايرو فولت إذا كان هو البائع لمعرفة خطوات الفحص المتاحة من دون افتراض إصلاح أو استبدال.',
                 },
                 {
                     question: 'لازم يكون عندي الكارتون الأصلي عشان أستخدم الضمان؟',
-                    answer: 'لا، الكارتون مش شرط. المطلوب بس: (1) فاتورة الشراء الأصلية من كايرو فولت أو الموزع المعتمد، و(2) المنتج نفسه. لو اشتريت أونلاين، الفاتورة الإلكترونية (email) كافية.',
+                    answer: 'راجع الشروط المكتوبة لطلبك؛ عادةً يلزم إثبات الشراء والمنتج، وقد تُطلب صور أو ملحقات مرتبطة بالفحص. احتفظ بالعبوة إن أمكن لأنها تساعد في مطابقة الموديل والملحقات.',
                 },
                 {
-                    question: 'هل ممكن أطالب بالضمان لو اشتريت Anker من أمازون؟',
-                    answer: 'الضمان بيكون بحسب مكان الشراء. لو اشتريت من Amazon.eg أو من كايرو فولت — ضمانك 18 شهر. لو اشتريت من Amazon.com الأمريكي — Anker هتوفرلك ضمان 18 شهر بس لازم تتواصل مع الدعم الأمريكي مش المصري. لو اشتريت من محل غير معتمد — مش هيكون عندك ضمان رسمي.',
+                    question: 'هل ممكن أطالب بالضمان لو اشتريت انكر من أمازون؟',
+                    answer: 'الضمان يتبع البائع وشروط العرض الذي اشتريت منه. راجع اسم البائع والفاتورة داخل Amazon، ثم تواصل مع الجهة المكتوبة في مستند الشراء. كايرو فولت يعالج فقط الطلبات التي يكون هو البائع فيها وفق شروطه المكتوبة.',
                 },
             ],
-            content: `<p>هل اشتريت شاحن أو باور بانك أو كابل من منتجات Anker وعايز تفهم حقوقك الاستهلاكية والضمانية بالكامل في مصر؟ أو بتفكر تشتري ومتردد عشان خايف من مشاكل ما بعد البيع في السوق المصري؟ في المقال ده، بصفتنا مهندسين تقنيين وموزعين رسميين، هنشرح بالتفصيل الممل كل ما يخص سياسة ضمان Anker الممتدة لـ 18 شهر في مصر — إيه اللي بيغطيه الضمان الفعلي، وإيه الحالات اللي بتلغيه فوراً، والأوراق القانونية المطلوبة لتقديم طلب الاستبدال بسهولة تامة وبدون تعقيدات.</p>
+            content: `<p><strong>إفصاح الهوية:</strong> كايرو فولت متجر إلكتروني مستقل لملحقات التقنية، ولا يقدّم نفسه بصفته الوكيل أو الموزع الرسمي لانكر. يشرح هذا الدليل ضمان المتجر للمنتجات التي يكون كايرو فولت بائعها؛ وتظل صفحة المنتج والفاتورة والسياسة المنشورة وقت الشراء هي المرجع للمدة والتغطية والاستثناءات.</p>
 
 <div class="quick-answer-inline" style="background: #f0f7ff; border-right: 4px solid #2563eb; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
-<strong>الإجابة السريعة:</strong> ضمان Anker في مصر 18 شهر من كايرو فولت (الموزع الرسمي). بيغطي عيوب التصنيع والأعطال التلقائية. المطلوب: فاتورة الشراء + المنتج. التقديم عبر support@cairovolt.com.
+<strong>الإجابة السريعة:</strong> راجع صفحة المنتج والفاتورة لمعرفة مدة وشروط الضمان الخاصة بطلبك. احتفظ بإثبات الشراء والمنتج، وقدّم وصف المشكلة والصور المتاحة عبر support@cairovolt.com للمراجعة وفق السياسة المكتوبة.
 </div>
 
-<h2>Anker في مصر — الموزع الرسمي والتوكيل</h2>
+<h2>انكر في مصر — هوية البائع ونطاق ضمان المتجر</h2>
 
-<p>كايرو فولت هي الموزع الرسمي المعتمد لـ Anker في مصر. ده معناه إن المنتجات اللي بتتباع من خلال كايرو فولت:</p>
+<p>كايرو فولت متجر إلكتروني مستقل لملحقات التقنية في مصر. ده معناه إن المنتجات اللي بتتباع من خلال كايرو فولت:</p>
 
 <ul style="line-height: 1.9; margin-right: 20px;">
-<li>منتجات أصلية 100% مستوردة مباشرة من Anker</li>
-<li>ضمان 18 شهر من تاريخ الشراء</li>
+<li>صفحة منتج توضح اسم الموديل والصور والسعر والتوافر</li>
+<li>مدة وشروط ضمان مكتوبة تختلف حسب المنتج</li>
 <li>دعم فني بالعربي واللغة المصرية</li>
-<li>استبدال من مخزون مصر بدون انتظار شحن دولي</li>
+<li>مراجعة طلبات الضمان أو الاستبدال وفق السياسة والمخزون المتاح</li>
 </ul>
 
-<h2>مدة الضمان — 18 شهر مش 12</h2>
+<h2>مدة الضمان — أين تجد المدة الصحيحة؟</h2>
 
-<p>Anker بتوفر ضمان 18 شهر من خلال موزعيها المعتمدين — وده أطول من ضمانات معظم العلامات التجارية التانية:</p>
+<p>لا تفترض مدة موحدة لكل العلامات أو الموديلات. قارن ما هو مكتوب على صفحة المنتج والفاتورة وسياسة البائع وقت الشراء:</p>
 
 <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
 <thead>
@@ -84,18 +84,18 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <tbody>
 <tr style="background: #f8fafc;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Apple (شواحن وكابلات)</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">12 شهر</td>
-<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">من التوكيل الرسمي فقط</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">حسب صفحة المنتج والفاتورة</td>
+<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">من الجهة المدرجة لدى العلامة فقط</td>
 </tr>
 <tr>
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Samsung (شواحن)</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">12 شهر</td>
-<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">من التوكيل الرسمي فقط</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">حسب صفحة المنتج والفاتورة</td>
+<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">من الجهة المدرجة لدى العلامة فقط</td>
 </tr>
 <tr style="background: #f0fdf4;">
-<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><strong>Anker (من كايرو فولت)</strong></td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>18 شهر</strong></td>
-<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">من الموزع الرسمي</td>
+<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><strong>انكر (من كايرو فولت)</strong></td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>المدة المكتوبة على صفحة المنتج والفاتورة</strong></td>
+<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">من متجر التجزئة</td>
 </tr>
 <tr>
 <td style="padding: 10px;">ماركات مجهولة</td>
@@ -105,7 +105,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 </tbody>
 </table>
 
-<h2>ما بيغطيه ضمان Anker</h2>
+<h2>ما بيغطيه ضمان انكر</h2>
 
 <p>الضمان بيغطي عيوب التصنيع والأعطال التلقائية. يعني:</p>
 
@@ -114,7 +114,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <li>الشاحن توقف عن الشحن بدون أي سبب خارجي</li>
 <li>Power Bank مش بيشحن أو مش بيوفر طاقة</li>
 <li>الكابل توقف عن نقل البيانات أو الشحن بدون تلف ظاهري</li>
-<li>عيب في التصنيع (لحام، دائرة كهربائية) ظهر خلال 18 شهر</li>
+<li>عيب في التصنيع (لحام، دائرة كهربائية) ظهر خلال المدة المكتوبة على صفحة المنتج والفاتورة</li>
 <li>LED أو شاشة عرض كسرت بدون صدمة</li>
 <li>منتج وصل غير شغّال من البداية (DOA — Dead on Arrival)</li>
 </ul>
@@ -138,7 +138,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <p>محتاج بس حاجتين:</p>
 
 <ol style="line-height: 1.9; margin-right: 20px;">
-<li><strong>فاتورة الشراء الأصلية:</strong> من كايرو فولت أو الموزع المعتمد — ورقية أو إلكترونية (email كافية). الفاتورة لازم تبيّن: اسم المنتج، تاريخ الشراء، والمبلغ المدفوع.</li>
+<li><strong>فاتورة الشراء الأصلية:</strong> من كايرو فولت أو البائع الموضح في الفاتورة — ورقية أو إلكترونية (email كافية). الفاتورة لازم تبيّن: اسم المنتج، تاريخ الشراء، والمبلغ المدفوع.</li>
 <li><strong>المنتج نفسه:</strong> في حالة جيدة بصرياً ما عدا العيب المُبلَّغ عنه.</li>
 </ol>
 
@@ -150,7 +150,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <li><strong>التواصل الأولي:</strong> ابعت إيميل لـ support@cairovolt.com بموضوع: "طلب ضمان — [اسم المنتج]"</li>
 <li><strong>تفاصيل الطلب:</strong> اكتب في الإيميل: اسمك، رقم تليفونك، اسم المنتج، رقم الطلب (لو موجود)، وشرح مختصر للمشكلة</li>
 <li><strong>المرفقات:</strong> حط صورة الفاتورة + صورة المنتج + صورة للعيب لو ظاهر</li>
-<li><strong>الرد:</strong> فريق كايرو فولت بيرد خلال 48 ساعة عمل (الأحد للخميس)</li>
+<li><strong>الرد:</strong> يراجع فريق الدعم الطلب ويرسل تحديثاً خلال ساعات العمل بحسب حجم الطلبات والمعلومات المتاحة</li>
 <li><strong>الفحص والقرار:</strong> بعد مراجعة الطلب، كايرو فولت بتحدد هل يتم الاستبدال أو الإصلاح</li>
 <li><strong>التسليم:</strong> الاستبدال بيتم من خلال نفس طريقة الاستلام الأصلية (توصيل للمنزل أو استلام من مكان محدد)</li>
 </ol>
@@ -171,20 +171,20 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <tr style="background: #f8fafc;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">كايرو فولت (مباشر)</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">كايرو فولت</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">18 شهر</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">المدة المكتوبة على صفحة المنتج والفاتورة</td>
 </tr>
 <tr>
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Amazon.eg (seller: كايرو فولت)</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">كايرو فولت</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">18 شهر</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">المدة المكتوبة على صفحة المنتج والفاتورة</td>
 </tr>
 <tr style="background: #f8fafc;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Amazon.com (الأمريكي)</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">Anker مباشر</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">18 شهر</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">انكر مباشر</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">المدة المكتوبة على صفحة المنتج والفاتورة</td>
 </tr>
 <tr>
-<td style="padding: 10px;">محل غير معتمد</td>
+<td style="padding: 10px;">متجر لا يوضح شروط ضمانه</td>
 <td style="padding: 10px; text-align: center;">ضمان المحل فقط</td>
 <td style="padding: 10px; text-align: center;">متفاوت أو صفر</td>
 </tr>
@@ -193,11 +193,11 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 
 <h3>المنتج وصلك DOA (مش شغّال من البداية)</h3>
 
-<p>لو فتحت المنتج ولقيته مش شغّال — بلّغ خلال 7 أيام من تاريخ الاستلام. في الحالة دي الاستبدال بيكون فوري بدون أي إجراءات. بعد 7 أيام بيتعامل كطلب ضمان عادي.</p>
+<p>لو وصل المنتج غير شغّال، بلّغ الدعم فور ملاحظة المشكلة واحتفظ بالعبوة والملحقات. يراجع الفريق الطلب وفق سياسة الإرجاع والضمان المكتوبة ولا يُفترض قبول الاستبدال قبل الفحص.</p>
 
-<h3>شراء منتجات Anker من محلات غير معتمدة (الاستيراد الموازي)</h3>
+<h3>شراء منتجات انكر من بائع أو قناة توريد مختلفة</h3>
 
-<p>تنتشر في بعض المحلات المصرية منتجات Anker مستوردة بشكل غير رسمي (استيراد موازي أو رمادي). هذه المنتجات قد تكون أصلية بالفعل، ولكنها لم تدخل مصر عبر القنوات الرسمية لكايرو فولت. في هذه الحالة، لا يغطي ضمان كايرو فولت هذه المنتجات؛ حيث يجب على العميل الرجوع للمحل الذي اشترى منه للمطالبة بأي ضمان. لتفادي هذا الموقف المحرج، ننصح دائماً بالتحقق من وجود ملصق الوكيل المعتمد (كايرو فولت) على علبة المنتج الخارجية قبل إتمام الشراء، أو الشراء مباشرة من موقعنا.</p>
+<p>قد تختلف جهة الضمان باختلاف البائع والسوق الذي جاءت منه القطعة. ضمان كايرو فولت يخص الطلبات التي يكون كايرو فولت بائعها فقط؛ أما المشتريات من متجر آخر فيجب الرجوع إلى الفاتورة وسياسة ذلك المتجر. لا يُعد ملصق منفرد دليلاً كافياً على الأصالة أو التغطية.</p>
 
 <h2>نصيحة قبل تقديم طلب الضمان</h2>
 
@@ -211,43 +211,43 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 </ul>
 </div>
 
-<p>لمعرفة كيفية التحقق من أصالة منتج Anker قبل الشراء، اقرأ مقالنا: <a href="/blog/anker-original-website-verify-barcode-guide">خطوات التحقق من باركود ضمان Anker على موقعه الرسمي</a>.</p>
+<p>لمعرفة كيفية التحقق من أصالة منتج انكر قبل الشراء، اقرأ مقالنا: <a href="/blog/anker-original-website-verify-barcode-guide">خطوات التحقق من باركود ضمان انكر على موقعه الرسمي</a>.</p>
 
 <h2>الضمان وقانون حماية المستهلك المصري (رقم 181 لسنة 2018)</h2>
 
-<p>شروط ضمان كايرو فولت تتوافق بالكامل مع قانون حماية المستهلك المصري واللوائح التنفيذية المعمول بها. بموجب هذا القانون، يحق للعميل استبدال المنتج أو إرجاعه والحصول على قيمته النقدية بالكامل خلال 14 يوماً من تاريخ الشراء بدون إبداء أي أسباب، بشرط أن يكون المنتج بحالته الأصلية التي تم شراؤه عليها ولم يتم فتحه أو استخدامه. كما يمتد هذا الحق إلى 30 يوماً كاملة في حال وجود أي عيب صناعة واضح أو خفي في المنتج المبيع.</p>
+<p>توضح سياسة الإرجاع المنشورة إجراءات الطلب ومدده وشروط حالة المنتج، مع بقاء الحقوق النظامية المقررة للمستهلك نافذة. عند التعارض أو الشك، راجع النص الرسمي لقانون حماية المستهلك أو تواصل مع جهاز حماية المستهلك؛ هذه الفقرة إرشاد عام وليست استشارة قانونية.</p>
 
-<p>لكن ضمان كايرو فولت الحصري لمنتجات Anker يذهب إلى ما هو أبعد من مجرد المدة القانونية الدنيا؛ حيث نمنح عملاءنا 18 شهراً كاملاً (أي ما يعادل 540 يوماً متواصلة) من التغطية الشاملة ضد عيوب الصناعة والأعطال التلقائية. هذا الالتزام يعكس ثقتنا الكاملة في جودة تصنيع ملحقات Anker وقدرتها على الصمود والعمل تحت مختلف ظروف التشغيل اليومية الشاقة.</p>
+<p>ضمان كايرو فولت هو ضمان متجر للطلبات المؤهلة، وتحدد صفحة المنتج والفاتورة والسياسة مدته ونطاقه. قبول الطلب ووسيلة المعالجة يتوقفان على الفحص والاستثناءات والمخزون المتاح.</p>
 
 <h2>تأثير تذبذب الجهد وتخفيف الأحمال في مصر على شروط الضمان</h2>
 
 <p>تتعرض شبكة الكهرباء في مصر، خاصة في فترات الصيف والذروة وتخفيف الأحمال، لتذبذبات حادة في الجهد والتيار عند عودة التيار الكهربائي فجأة للبيوت والمكاتب. هذه الدفعات الفجائية من التيار المرتفع (voltage spikes) يمكن أن تدمر أي شواحن عادية أو أجهزة غير محمية.</p>
 
-<p>تقنيات الحماية المتقدمة المدمجة في شواحن Anker الأصلية، مثل ActiveShield 2.0 و multiprotect، مصممة خصيصاً لمقاومة وامتصاص هذه التذبذبات بنسبة كبيرة وحماية المكونات الداخلية للشاحن بل وحماية الموبايل المتصل به أيضاً. لو تعرض شاحن Anker الخاص بك للتلف التلقائي نتيجة تذبذب في التيار العام بدون أي تلف ظاهري أو حرق مادي للمنفذ، فإن الضمان من كايرو فولت يغطي هذا العطل تماماً ويحق لك استبدال الشاحن بآخر جديد. ولكن في حال حدوث تفحم مادي كامل وظاهر أو انصهار في هيكل الشاحن الخارجي نتيجة ماس كهربائي شديد في قابس الحائط (الفيشة)، فإن هذا يُعتبر تلفاً ناتجاً عن عوامل خارجية قاهرة وخارجة عن عيوب التصنيع، وبالتالي يخرج عن تغطية الضمان. لذلك، ننصح عملاءنا دائماً باتباع إجراء وقائي بسيط: افصل الشواحن من البريزة فور انقطاع الكهرباء، وأعد توصيلها بعد دقيقتين أو ثلاث دقائق من عودة التيار العام لتفادي الدفعة الأولى العنيفة.</p>
+<p>قد تتضمن بعض موديلات انكر ميزات حماية موثقة مثل ActiveShield أو MultiProtect، لكن نطاقها يختلف ولا يجعل الشاحن محصناً من كل اضطراب كهربائي. أي عطل أو أثر احتراق أو انصهار يُراجع وفق سبب العطل وحالة المنتج وشروط التغطية والاستثناءات المكتوبة؛ لا نفترض تغطية كاملة أو حقاً تلقائياً في منتج جديد قبل الفحص. عند انقطاع الكهرباء اتبع إرشادات شركة الكهرباء والشركة المصنّعة، وافصل أي قطعة تظهر عليها حرارة أو رائحة أو تلف غير معتاد.</p>
 
-<h2>معمل الفحص الفني في كايرو فولت — استبدال فوري بمنتج جديد</h2>
+<h2>مراجعة طلب الضمان في كايرو فولت</h2>
 
-<p>في كثير من الأسواق، تماطل بعض مراكز الصيانة والتوكيلات في فحص المنتجات أو تأخذ الشاحن أو الباور بانك لتقوم بفتحه وصيانته داخلياً ثم إعادته للعميل كمنتج مصلح (Refurbished). في كايرو فولت، نتبع بروتوكولاً صارماً يركز على راحة العميل الكاملة: **لا نقوم بصيانة المنتجات التالفة وإعادتها للعميل أبداً**. في حال قبول طلب الضمان وتأكيد وجود العيب التلقائي، يتم استبدال المنتج بآخر جديد تماماً في علبته المغلقة.</p>
+<p>عند تقديم مطالبة، يراجع كايرو فولت سجل الشراء والعطل المبلغ عنه وحالة المنتج والشروط المكتوبة السارية. قد يختلف العلاج المتاح حسب الحالة والمخزون والسياسة؛ ولا يُوعد بإصلاح أو استبدال أو رد مبلغ، أو بقطعة جديدة مغلقة، قبل اكتمال المراجعة.</p>
 
-<p>عندما يرسل العميل طلباً للضمان، يتم إرسال المنتج التالف إلى معمل الفحص الفني الخاص بنا في القاهرة. يقوم المهندسون بفحص المنتج باستخدام أجهزة قياس دقيقة لاختبار الجهد المخرج وقدرة استيعاب الخلايا في الباور بانك للتأكد من المشكلة. عملية الفحص والتشخيص تستغرق عادة ما بين 24 إلى 48 ساعة كحد أقصى، ويتم بعدها إخطار العميل بقرار الاستبدال وشحن المنتج البديل مباشرة إلى عنوانه.</p>
+<p>بعد استلام معلومات الطلب، يحدد الدعم ما إذا كانت هناك حاجة لاستلام المنتج أو صور أو بيانات إضافية. يُبلّغ العميل بنتيجة المراجعة وخيار المعالجة المتاح وفق الشروط المكتوبة؛ ولا تُذكر مدة قطعية أو نتيجة مضمونة قبل اكتمال الفحص.</p>
 
 <h2>خلاصة ودليل الشراء الآمن</h2>
 
-<p>ضمان Anker الممتد لـ 18 شهر من خلال الموزع الرسمي كايرو فولت هو الضمان الأقوى والأكثر موثوقية لملحقات الشحن في مصر. الشروط معلنة وشفافة، والإجراءات بسيطة تتم بالكامل عبر البريد الإلكتروني دون الحاجة لتضييع وقتك في مشاوير لمراكز الصيانة. للاستفادة الكاملة من الضمان، تأكد دائماً من شراء منتجك من منافذ كايرو فولت مباشرة أو من موزعينا المعتمدين واحتفظ بفاتورة الشراء الأصلية.</p>
+<p>ضمان انكر الممتد لـ المدة المكتوبة على صفحة المنتج والفاتورة من خلال متجر كايرو فولت هو ضمان متجر بشروط مكتوبة لملحقات الشحن في مصر. الشروط معلنة وشفافة، والإجراءات بسيطة تتم بالكامل عبر البريد الإلكتروني دون الحاجة لتضييع وقتك في مشاوير لمراكز الصيانة. للاستفادة الكاملة من الضمان، تأكد دائماً من شراء منتجك من منافذ كايرو فولت مباشرة أو من قنوات البيع الموضحة في الفاتورة واحتفظ بفاتورة الشراء الأصلية.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت بضمان 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن وكابلات معتمدة: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن أنكر 30 واط</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل أنكر USB-C</a> · <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">باور بانك أنكر زولو 20 ألف</a>.</p></div>`,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت بمدة الضمان الموضحة على صفحة المنتج:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">قارن بيانات الموديل والشروط: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30 واط</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a> · <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">باور بانك انكر زولو 20 ألف</a>.</p></div>`,
         },
         en: {
-            title: 'Anker 18-Month Warranty in Egypt — Authorized Branches and Full Replacement Conditions',
-            metaTitle: 'Anker Warranty Egypt — 18 Months, Authorized Distributor, and Replacement Process',
-            metaDescription: 'Complete guide to Anker 18-month warranty in Egypt through CairoVolt. What is covered, what is not, and how to file a replacement claim easily.',
-            excerpt: 'Anker\'s 18-month warranty in Egypt through CairoVolt — exactly what it covers, what voids it, and how to claim it with minimal hassle.',
-            quickAnswer: 'Anker warranty in Egypt is 18 months from purchase date through authorized distributor CairoVolt. Covers manufacturing defects and spontaneous failures. Does NOT cover: physical damage, water, wrong voltage, or tampering. Required: original purchase invoice + product. Submit claims via support@cairovolt.com.',
-            keywords: 'Anker warranty Egypt, Anker authorized distributor Egypt, CairoVolt Anker warranty, Anker 18 month warranty, Anker warranty claim Egypt, Anker replacement Egypt, Anker warranty conditions, Anker original Egypt',
+            title: 'Anker Warranty in Egypt — Coverage Term and Replacement Conditions',
+            metaTitle: 'Anker Warranty Egypt — Term, Conditions, and Claim Steps',
+            metaDescription: 'Guide to CairoVolt store warranty for Anker products: where to find the term, possible coverage, required records, and how to submit a claim under the written policy.',
+            excerpt: 'A practical guide to checking an Anker product\'s written warranty term and submitting a CairoVolt store-warranty claim with your purchase record.',
+            quickAnswer: 'CairoVolt is an independent online retailer. Warranty term and coverage vary by product; use the product page, invoice, and policy provided at purchase. Manufacturing defects may be covered after review, while external damage or misuse is normally excluded. Submit a claim through support@cairovolt.com.',
+            keywords: 'Anker warranty Egypt, Anker retailer with clear identity and written policies Egypt, CairoVolt Anker warranty, Anker warranty for the written term shown on the product page or invoice, Anker warranty claim Egypt, Anker replacement Egypt, Anker warranty conditions, Anker original Egypt',
             faq: [
                 {
                     question: 'How long is the Anker warranty in Egypt?',
-                    answer: 'Anker warranty through authorized distributor CairoVolt in Egypt is 18 months from purchase date. This is longer than Apple accessories (12 months) and Samsung accessories (12 months). The 18-month warranty applies only to purchases from CairoVolt or its authorized resellers.',
+                    answer: 'The term varies by model and the offer in effect at purchase. Check the product page, invoice, and warranty policy; those records define the start date, coverage, and exclusions for your order.',
                 },
                 {
                     question: 'Does Anker warranty cover water damage?',
@@ -255,31 +255,31 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
                 },
                 {
                     question: 'Do I need the original box to claim warranty?',
-                    answer: 'No — the box is not required. You need only: (1) the original purchase invoice from CairoVolt or an authorized reseller (electronic/email invoice is sufficient), and (2) the product itself. Photos of the defect help speed up the process.',
+                    answer: 'Check the written terms for your order. Proof of purchase and the product are normally needed, and photos or related accessories may be requested for review. Keeping the box can help match the model and included items.',
                 },
                 {
                     question: 'Can I claim warranty on Anker products bought from Amazon?',
-                    answer: 'It depends on which Amazon. If you bought from Amazon.eg with CairoVolt as the seller — 18-month warranty applies. If you bought from Amazon.com (US) — Anker\'s US support handles the claim (still 18 months, but different process). If you bought from an unauthorized seller anywhere — no official warranty.',
+                    answer: 'Warranty follows the seller and the offer you purchased. Check the seller name and invoice in Amazon, then contact the party named in the purchase record. CairoVolt handles only orders where CairoVolt is the seller, under its written terms.',
                 },
             ],
-            content: `<p>Have you recently purchased an Anker charger, power bank, or cable and want to understand your consumer rights under Egypt's warranty framework? Or are you considering a purchase but feel hesitant about after-sales support in the Egyptian market? In this article, written from a technical engineering perspective, we break down everything regarding Anker’s extended 18-month warranty policy in Egypt — what is covered, what immediately voids your coverage, and the required documentation to file a replacement claim without any hassle.</p>
+            content: `<p><strong>Identity disclosure:</strong> CairoVolt is an independent online retailer of technology accessories and does not present itself as Anker's official agent or distributor. This guide explains CairoVolt's store warranty when CairoVolt is the seller; the product page, invoice, and policy supplied at purchase remain the source for term, coverage, and exclusions.</p>
 
 <div class="quick-answer-inline" style="background: #f0f7ff; border-left: 4px solid #2563eb; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
-<strong>Quick Answer:</strong> Anker warranty in Egypt: 18 months through CairoVolt (authorized distributor). Covers manufacturing defects and spontaneous failures. Required: purchase invoice + product. Submit via support@cairovolt.com.
+<strong>Quick Answer:</strong> Check the product page and invoice for the warranty term and conditions that apply to your order. Keep the purchase record and product, then send a problem description and available photos to support@cairovolt.com for review under the written policy.
 </div>
 
-<h2>Anker in Egypt — The Authorized Distributor</h2>
+<h2>Anker in Egypt — Seller Identity and Store-Warranty Scope</h2>
 
-<p>CairoVolt is Anker's authorized distributor in Egypt. Products sold through CairoVolt are:</p>
+<p>CairoVolt is an independent online retailer. For products sold by CairoVolt, the store provides:</p>
 
 <ul style="line-height: 1.9; margin-left: 20px;">
-<li>100% genuine Anker products imported directly from the manufacturer</li>
-<li>Backed by an 18-month warranty from date of purchase</li>
+<li>A product page showing the model name, images, price, and stock status</li>
+<li>A written warranty term and conditions that may vary by product</li>
 <li>Supported in Arabic by a local team</li>
-<li>Replaceable from Egyptian inventory (no international shipping delays)</li>
+<li>Warranty or replacement review under the policy and available stock</li>
 </ul>
 
-<h2>18 Months — Longer Than Competitors</h2>
+<h2>Warranty Period — Where to Find the Applicable Term</h2>
 
 <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
 <thead>
@@ -292,18 +292,18 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <tbody>
 <tr style="background: #f8fafc;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Apple (accessories)</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">12 months</td>
-<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Authorized reseller only</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">See product page and invoice</td>
+<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">retailer with clear identity and written policies only</td>
 </tr>
 <tr>
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Samsung (chargers)</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">12 months</td>
-<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Authorized reseller only</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">See product page and invoice</td>
+<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">retailer with clear identity and written policies only</td>
 </tr>
 <tr style="background: #f0fdf4;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><strong>Anker (via CairoVolt)</strong></td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>18 months</strong></td>
-<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Authorized distributor</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>the term shown on the product page and invoice</strong></td>
+<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">retailer with clear identity and written policies</td>
 </tr>
 <tr>
 <td style="padding: 10px;">Unknown brands</td>
@@ -320,7 +320,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <li>Charger stops charging without any external cause</li>
 <li>Power bank won't charge or deliver power</li>
 <li>Cable stops transferring data or charging without visible physical damage</li>
-<li>Manufacturing defect (soldering, circuit) appearing within 18 months</li>
+<li>Manufacturing defect (soldering, circuit) appearing within the term shown on the product page and invoice</li>
 <li>LED indicator or display failure without physical impact</li>
 <li>Product arrives non-functional (Dead on Arrival)</li>
 </ul>
@@ -344,7 +344,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <p>You only need two things:</p>
 
 <ol style="line-height: 1.9; margin-left: 20px;">
-<li><strong>Original purchase invoice:</strong> From CairoVolt or an authorized reseller — paper or electronic (email is sufficient). Must show: product name, purchase date, amount paid.</li>
+<li><strong>Original purchase invoice:</strong> From CairoVolt or a retailer with clear identity and written policies — paper or electronic (email is sufficient). Must show: product name, purchase date, amount paid.</li>
 <li><strong>The product itself:</strong> In normal condition visually, except for the reported defect.</li>
 </ol>
 
@@ -377,35 +377,35 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <tr style="background: #f8fafc;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">CairoVolt directly</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">CairoVolt</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">18 months</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">the term shown on the product page and invoice</td>
 </tr>
 <tr>
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Amazon.eg (seller: CairoVolt)</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">CairoVolt</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">18 months</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">the term shown on the product page and invoice</td>
 </tr>
 <tr style="background: #f8fafc;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Amazon.com (US)</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">Anker directly</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">18 months</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">the term shown on the product page and invoice</td>
 </tr>
 <tr>
-<td style="padding: 10px;">Unauthorized reseller</td>
+<td style="padding: 10px;">Seller with no written identity or terms</td>
 <td style="padding: 10px; text-align: center;">Store warranty only</td>
 <td style="padding: 10px; text-align: center;">Variable or none</td>
 </tr>
 </tbody>
 </table>
 
-<h3>Anker Products from Unauthorized Resellers (Gray Market Imports)</h3>
+<h3>Anker Products from Sellers without clearly stated identity or terms (Gray Market Imports)</h3>
 
-<p>A common issue in the Egyptian retail market is the presence of gray market or parallel imports of Anker accessories. While these products may be genuine physical units manufactured by Anker, they were imported into Egypt through unofficial channels rather than authorized distributors. Consequently, CairoVolt's 18-month warranty does not apply to these units. If a defect occurs, the customer must contact the specific retail store where the purchase was made to request their store warranty, if any exists. To avoid this inconvenient situation, we strongly advise consumers to look for the official CairoVolt distributor sticker on the product packaging before purchase, or simply order directly from our official website.</p>
+<p>Warranty responsibility can differ by seller and market. CairoVolt's store warranty applies only when CairoVolt is the seller; purchases from another store follow that store's invoice and policy. A sticker alone is not conclusive proof of authenticity or coverage, so keep the purchase record and verify the seller details.</p>
 
 <h2>Before Filing a Warranty Claim</h2>
 
 <h3>Detailed Troubleshooting Guidelines Before Your Claim</h3>
 
-<p>Before initiating your official warranty request, our engineering team recommends taking a few systematic diagnostic steps to ensure the hardware is actually defective. For example, if your Power Bank seems unresponsive, try performing a soft reset: connect the power bank to a wall charger and hold down the power button for 10 to 15 seconds. This resets the internal safety chips that might have locked up due to an overload. Additionally, try using different high-quality cables and wall adapters, as many reported charger failures are actually caused by a degraded cable or a faulty wall outlet.</p>
+<p>Before submitting a warranty request, follow only the troubleshooting steps published for the exact model. You may test with a known-good compatible cable and adapter, but do not hold buttons or perform a reset unless the manufacturer documents that procedure. Stop using swollen, damaged, leaking, or abnormally hot equipment and contact support.</p>
 
 <div class="expert-callout" style="background: #f0f7ff; border: 1px solid #3b82f6; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
 <strong>Try these simple checks first:</strong>
@@ -421,27 +421,27 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 
 <h2>The Legal Framework and Egyptian Consumer Protection Law (No. 181 of 2018)</h2>
 
-<p>Our warranty terms at CairoVolt are designed to fully align with and exceed the protections outlined in the Egyptian Consumer Protection Law. Under Law No. 181 of 2018, consumers have the legal right to return or exchange any product within 14 days of purchase without providing a reason, provided the product remains in its original, unopened, and unused condition. This period extends to 30 days if the product has a manufacturing defect or does not match the specifications advertised.</p>
+<p>The published return policy explains request steps, timing, and product-condition requirements, while applicable statutory consumer rights remain in force. For an authoritative interpretation, consult the official Egyptian Consumer Protection Agency or qualified counsel; this paragraph is general information, not legal advice.</p>
 
-<p>However, CairoVolt’s exclusive 18-month warranty goes far beyond the minimum legal baseline. We offer a full 18 months (540 days) of continuous protection against manufacturing defects and spontaneous hardware failures. This level of coverage is a testament to the build quality of Anker's products and our commitment to providing long-term reliability to the Egyptian consumer market.</p>
+<p>CairoVolt's warranty is a store warranty for eligible orders. The product page, invoice, and policy define its term and scope; acceptance and remedy depend on review, exclusions, and available stock.</p>
 
 <h2>How Voltage Fluctuation and Summer Load Shedding Affect Your Warranty</h2>
 
 <p>Egypt’s electrical grid, particularly during hot summer months and peak consumption periods, experiences frequent power outages and scheduled load-shedding cycles. When electricity returns to households and offices, it often carries sharp voltage and current spikes. These sudden surges can be highly destructive to generic or poorly insulated electronics.</p>
 
-<p>Genuine Anker chargers feature advanced protection technologies, including ActiveShield 2.0 and MultiProtect systems, which continuously monitor temperature and actively adjust power output to prevent overheating. If an Anker charger fails spontaneously due to grid fluctuations without showing external physical damage, it is fully covered by CairoVolt's 18-month warranty and will be replaced. However, if the charger suffers severe, visible physical burning, melting, or scorch marks due to an electrical fire at the wall outlet, this is classified as damage from an external hazard and is not covered. To protect your devices, we advise unplugging chargers during power outages and waiting two minutes after power returns before plugging them back in.</p>
+<p>Some Anker models document protection features such as ActiveShield or MultiProtect, but scope varies and does not make a charger immune to every electrical disturbance. Any failure, burn, melt, or scorch claim is reviewed against cause, product condition, written coverage, and exclusions; this guide does not promise full coverage or replacement before evaluation. Follow manufacturer and electricity-provider guidance during outages and disconnect hardware that shows unusual heat, smell, or damage.</p>
 
 <h2>Diagnostic Testing at CairoVolt's Technical Inspection Lab</h2>
 
-<p>Many retailers and service centers in Egypt delay warranty claims or attempt to open and repair defective products, returning them to the user as refurbished units. CairoVolt operates under a strict, customer-first policy: **we never repair and return defective items**. If your warranty claim is approved, you receive a brand-new, factory-sealed replacement product.</p>
+<p>When a claim is submitted, CairoVolt reviews the purchase record, reported fault, product condition, and applicable written terms. The available remedy may vary by case; no repair, replacement, or refund outcome is promised before review.</p>
 
-<p>Once you submit a warranty claim, the item is sent to our technical inspection lab in Cairo. Our engineers test the unit using precise multimeters and battery diagnostic tools to verify the spontaneous failure. This diagnostic process is typically completed within 24 to 48 hours. Once the defect is verified, a brand-new replacement is immediately prepared and shipped to your address.</p>
+<p>Support may request the product, photos, or additional information. The customer is then informed of the review result and the remedy available under the written policy; timing depends on the case and required information.</p>
 
 <h2>Summary and Smart Buying Guide</h2>
 
-<p>Anker’s 18-month warranty through its authorized distributor CairoVolt is the most reliable protection program for mobile accessories in Egypt. The terms are fully transparent, the filing process is completed online, and replacements are handled quickly. To ensure you have access to this warranty, always purchase your Anker products from CairoVolt or our verified resellers, and keep your original purchase invoice safe.</p>
+<p>For an Anker item sold by CairoVolt, keep the invoice and review the product-specific warranty terms before purchase. Claims can be submitted online, and their outcome follows the written policy and review of the individual case.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Certified accessories: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker Zolo 20000mAh Power Bank</a>.</p></div>`,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt (warranty for the term shown on the product page):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Compare model details and terms: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker Zolo 20000mAh Power Bank</a>.</p></div>`,
         },
     },
 };

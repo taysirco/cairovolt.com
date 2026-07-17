@@ -29,13 +29,13 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
     },
     translations: {
         ar: {
-            title: 'Soundcore K20i — مراجعة السماعة شبه المفتوحة للمكالمات الطويلة بدون ألم الأذن',
-            metaTitle: 'مراجعة سماعة Soundcore K20i ومميزات التصميم المفتوح | كايرو فولت',
-            metaDescription: 'مراجعة سماعة Soundcore K20i شبه المفتوحة للمكالمات. أداء محركات 13مم، عمر البطارية 36 ساعة، وتطبيق الموبايل، والفرق بينها وبين P20i والضمان بمصر.',
+            title: 'ساوندكور K20i — دليل السماعة شبه المفتوحة للمكالمات والارتداء الطويل',
+            metaTitle: 'دليل سماعة ساوندكور K20i ومزايا التصميم المفتوح | كايرو فولت',
+            metaDescription: 'دليل سماعة ساوندكور K20i شبه المفتوحة: مواصفات المحركات والبطارية والتطبيق، والفرق بينها وبين P20i، والسعر والضمان الحالي بمصر.',
             keywords: 'soundcore k20i مراجعة, سماعة open fit مصر, سماعة شبه مفتوحة soundcore, k20i للقيادة, k20i مكالمات, soundcore k20i سعر مصر, سماعة بدون ضغط الأذن, سماعة للسائقين مصر, soundcore k20i بلوتوث, anker k20i مراجعة',
-            excerpt: 'تأتي سماعة Soundcore K20i بتصميم شبه مفتوح مريح للغاية للارتداء الطويل دون ضغط على قناة الأذن، مع محركات 13 مم وصوت نقي للمكالمات والدراسة.',
-            quickAnswer: 'تعد سماعة Soundcore K20i الخيار الأفضل لمن يكرهون سدادات الأذن المطاطية ويبحثون عن سماعة مكالمات مريحة لساعات طويلة (بسعر 850 إلى 1,300 جنيه). وتتميز بمحركات 13 مم كبيرة وصوت نقي، وبطارية 6 ساعات للسماعة و36 ساعة إجمالية، مع دعم كامل لتطبيق Soundcore لتخصيص الإيكوالايزر والتحكم باللمس.',
-            content: `<p>يعاني قطاع واسع من مستخدمي السماعات اللاسلكية من مشكلة الضغط المزعج والألم داخل غضروف الأذن وقناة السمع عند ارتداء السماعات التقليدية (In-Ear) المزودة بسدادات مطاطية لفترات طويلة. يبرز هذا الأمر بشكل خاص لدى السائقين الذين يحتاجون لمراقبة الشارع أثناء التحدث، وموظفي خدمة العملاء والكول سنتر الذين يجرون مكالمات تمتد لعدة ساعات يومياً، والطلاب أثناء المحاضرات الطويلة. تقدم أنكر سماعة Soundcore K20i بتصميم شبه مفتوح (Semi-Open / Open Fit) ليكون الحل المثالي لهذه الفئة. قمنا في معمل كايرو فولت بإخضاع السماعة لاختبارات مكثفة للتحقق من جودة الصوت، وعمر البطارية الفعلي، وأداء الميكروفونات في عزل الضجيج.</p>
+            excerpt: 'تأتي سماعة ساوندكور K20i بتصميم شبه مفتوح؛ راجع المقاس وثباتها ومواصفات المحركات والبطارية لتحديد ملاءمتها للمكالمات والدراسة.',
+            quickAnswer: 'ساوندكور K20i خيار بتصميم شبه مفتوح لمن لا يفضلون السدادات المطاطية. تحقق من الراحة على أذنك، ومواصفات المحركات والبطارية المنشورة، ودعم تطبيق ساوندكور والسعر والتوفر وقت الشراء.',
+            content: `<p>يعاني قطاع واسع من مستخدمي السماعات اللاسلكية من مشكلة الضغط المزعج والألم داخل غضروف الأذن وقناة السمع عند ارتداء السماعات التقليدية (In-Ear) المزودة بسدادات مطاطية لفترات طويلة. يبرز هذا الأمر بشكل خاص لدى السائقين الذين يحتاجون لمراقبة الشارع أثناء التحدث، وموظفي خدمة العملاء والكول سنتر الذين يجرون مكالمات تمتد لعدة ساعات يومياً، والطلاب أثناء المحاضرات الطويلة. تقدم أنكر سماعة Soundcore K20i بتصميم شبه مفتوح (Semi-Open / Open Fit) ليكون الحل المثالي لهذه الفئة. نستعرض في هذا الدليل المواصفات المنشورة لجودة الصوت وعمر البطارية وأداء الميكروفونات، وكيف تنعكس هذه المواصفات عملياً على المكالمات والاستخدام اليومي.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -43,14 +43,14 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
     </p>
 </div>
 
-<h2>مواصفات Soundcore K20i — الجدول التقني المعتمد</h2>
-<p>إليك المواصفات الفنية الموثقة التي سجلناها خلال اختبارات معمل كايرو فولت:</p>
+<h2>مواصفات ساوندكور K20i — الجدول التقني المنشور</h2>
+<p>إليك المواصفات الفنية للسماعة كما وردت في البيانات المنشورة من الشركة المصنعة للطراز K20i:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المواصفة التقنية</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">القيمة والتقييم الفعلي</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">القيمة والتفاصيل المنشورة</th>
         </tr>
     </thead>
     <tbody>
@@ -91,7 +91,7 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
 <h2>فوائد التصميم شبه المفتوح (Open Fit) ومستويات الأمان</h2>
 <p>يتميز تصميم Open Fit في سماعة K20i بفوائد صحية وعملية تفوق التصميمات التقليدية المغلقة في سيناريوهات استخدام محددة:</p>
 <ul>
-    <li><strong>أمان كامل أثناء القيادة والشارع:</strong> تسمح السماعة بمرور الأصوات البيئية مثل أبواق السيارات، والحديث الجانبي بشكل طبيعي تماماً، مما يمنع الحوادث ويوفر وعياً تاماً بالمحيط أثناء التنقل والسير في شوارع القاهرة المزدحمة.</li>
+    <li><strong>وعي محيطي أفضل من العزل الكامل:</strong> التصميم المفتوح قد يسمح بسماع بعض الأصوات الخارجية، لكنه لا يمنع الحوادث ولا يضمن وعياً كاملاً. تجنب استخدام السماعات أثناء القيادة والتزم بقواعد الطريق.</li>
     <li><strong>إلغاء تأثير الانسداد المزعج (Occlusion Effect):</strong> في السماعات المغلقة، تسبب حركة عظام الفك أثناء التحدث صدداً داخلياً مزعجاً لصوتك الخاص يبدو وكأنك تتكلم داخل نفق. نظراً لأن قناة أذنك تظل مفتوحة مع K20i، يخرج صوتك بشكل طبيعي دون أي صدى في دماغك، مما يجعل المكالمات الطويلة مريحة للغاية ومماثلة للحديث المباشر.</li>
 </ul>
 
@@ -102,7 +102,7 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
     <li><strong>مدى اتصال واسع ومستقر:</strong> يمتد مدى البلوتوث الفعلي إلى 10 أمتار كاملة مع ثبات تام للإشارة دون أي تقطيع أو تداخل، حتى عند وجود جدران أو عوائق متوسطة في الشقة، مما يمنحك حرية حركة كاملة أثناء التحدث أو الاستماع.</li>
 </ul>
 
-<h2>تكامل تطبيق Soundcore — 22 إعداد إيكوالايزر وتعديل الأزرار</h2>
+<h2>تكامل تطبيق ساوندكور — إعدادات الإيكوالايزر وتعديل الأزرار</h2>
 <p>خلافاً لبعض السماعات الاقتصادية الأخرى مثل R100، تدعم سماعة K20i تطبيق Soundcore الرسمي على هاتفك بشكل كامل:</p>
 <ul>
     <li><strong>تخصيص الصوت بالكامل:</strong> يوفر لك التطبيق إمكانية الاختيار من بين 22 وضع إيكوالايزر مسبق الإعداد، مما يسمح لك بتعزيز ترددات الباص (Bass Booster) لتعويض تسريب الصوت الطبيعي للتصميم المفتوح، أو تفعيل وضع التحدث (Podcast) لتوضيح أصوات المذيعين.</li>
@@ -170,18 +170,18 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
 </ul>
 
 <h2>الضمان المعتمد وخدمات الصيانة والدعم الفني في مصر</h2>
-<p>يحظى مشترو الموديل K20i في مصر بضمان استثنائي يمتد لـ 18 شهراً من الوكيل الرسمي، والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول جهازك في مراكز الدعم الفني الرسمية.</p>
-<p>ملاحظة هامة من فريق الصيانة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن خارج المراكز المعتمدة. كما يوصى بالتحقق من ملصق الضمان الفضي الموجود على كرتونة المنتج للتأكد من الموزع المحلي المسؤول عن التغطية.</p>
+<p>تختلف مدة ضمان K20i وجهة الخدمة والإجراء حسب البائع والسياسة المكتوبة وقت الشراء. راجع صفحة المنتج والفاتورة لمعرفة التغطية والاستثناءات، واحتفظ بإثبات الشراء والرقم التسلسلي وأي عبوة تطلبها السياسة؛ ولا تفترض استبدالاً تلقائياً قبل مراجعة الشروط المكتوبة في الفاتورة وصفحة المنتج.</p>
+<p>ملاحظة هامة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن خارج المراكز المعتمدة. كما يوصى بالتحقق من ملصق الضمان الفضي الموجود على كرتونة المنتج للتأكد من الموزع المحلي المسؤول عن التغطية.</p>
 
 <h2>مزايا الشراء الموثوق والتوصيل السريع من كايرو فولت</h2>
-<p>عند طلب سماعة Soundcore K20i من كايرو فولت، ستحصل على المزايا التالية:</p>
+<p>قبل طلب سماعة ساوندكور K20i من كايرو فولت، راجع تفاصيل المنتج والسياسات المنشورة وقت الشراء:</p>
 <ul>
-    <li><strong>أصلية 100%:</strong> بضمان استبدال حقيقي ومعتمد لمدة 18 شهراً ضد عيوب الصناعة.</li>
-    <li><strong>توصيل سريع للغاية:</strong> شحن لكافة المحافظات المصرية خلال 24 إلى 48 ساعة فقط.</li>
-    <li><strong>معاينة وفحص قبل الدفع:</strong> تتيح لك سياسة المتجر فحص الشحنة خارجياً والتأكد من سلامتها بالكامل قبل تسليم المبلغ للمندوب.</li>
+    <li><strong>بيانات المنتج:</strong> تحقق من الموديل والمواصفات ومدة الضمان والجهة المقدمة له في صفحة المنتج والفاتورة.</li>
+    <li><strong>التوصيل:</strong> تظهر المناطق المتاحة والمدة والتكلفة المقدرة أثناء الطلب وفق العنوان وشركة الشحن.</li>
+    <li><strong>الاستلام:</strong> اتبع سياسة الاستلام والفحص المنشورة، وأبلغ خدمة العملاء فوراً إذا ظهر تلف خارجي أو اختلاف في الشحنة.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 تسوق سماعات أنكر الفاخرة بضمان 18 شهراً من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد العروض الحالية: <a href="/soundcore/soundcore-k20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore K20i المفتوحة</a> · <a href="/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a> · <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الشهيرة</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 قارن موديلات ساوندكور المتاحة على كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع الأسعار والمواصفات وشروط الضمان الحالية: <a href="/soundcore/soundcore-k20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور K20i المفتوحة</a> · <a href="/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور P20i الاقتصادية</a> · <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة ساوندكور R50i</a>.</p></div>` ,
             faq: [
                 {
                     question: 'هل تدعم سماعة Soundcore K20i تطبيق الموبايل لتعديل الصوت؟',
@@ -208,7 +208,7 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
             keywords: 'soundcore k20i review, open fit earbuds egypt, soundcore k20i semi-open, k20i for driving, k20i call quality, soundcore k20i price egypt, earbuds no ear pressure, earbuds for drivers egypt, soundcore k20i bluetooth 5.3, anker k20i review',
             excerpt: 'The Soundcore K20i features a lightweight, semi-open design optimized for extended call sessions, clear vocal performance, and reliable daily commuting.',
             quickAnswer: 'The Soundcore K20i is the ideal choice for users who dislike rubber ear tips and require comfortable earbuds for long call sessions (priced between EGP 850 and 1,300 in Egypt). It features large 13mm dynamic drivers, 6 hours of single-charge battery (36 hours total with the case), and full Soundcore app support for customized EQ.',
-            content: `<p>A significant percentage of wireless earbud users experience fatigue, physical pressure, and discomfort inside their ear canals when wearing standard in-ear monitors (IEMs) with silicone ear tips for extended periods. This issue is particularly troublesome for delivery riders, office employees on long conference calls, and students attending online lectures. To solve this common ergonomic complaint, Anker designed the Soundcore K20i with a semi-open (Open Fit) architecture. At CairoVolt, we spent a month testing this lightweight model to verify its acoustic properties, microphone efficiency, and battery performance under daily use.</p>
+            content: `<p>A significant percentage of wireless earbud users experience fatigue, physical pressure, and discomfort inside their ear canals when wearing standard in-ear monitors (IEMs) with silicone ear tips for extended periods. This issue is particularly troublesome for delivery riders, office employees on long conference calls, and students attending online lectures. To solve this common ergonomic complaint, Anker designed the Soundcore K20i with a semi-open (Open Fit) architecture. In this guide, we walk through the manufacturer's published specifications for this lightweight model — its acoustic design, microphone system, and battery ratings — and explain how they translate into daily use.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -216,14 +216,14 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
     </p>
 </div>
 
-<h2>Specifications and CairoVolt Benchmarks</h2>
-<p>We compared the official specification sheet of the Soundcore K20i with our laboratory results:</p>
+<h2>Soundcore K20i Specifications — Published Technical Sheet</h2>
+<p>The table below summarizes the official specification sheet published by the manufacturer for the Soundcore K20i:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Specification</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">CairoVolt Verified Benchmark</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Published Value and Details</th>
         </tr>
     </thead>
     <tbody>
@@ -241,7 +241,7 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud Runtime</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Up to 6 hours continuous playback on a single charge</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Up to 6 hours continuous playback on a single charge (per the official rating)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Total Charging Case Battery</td>
@@ -283,7 +283,7 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
 </ul>
 
 <h2>Sweat Resistance and Outdoor Usability (IPX5 Rating)</h2>
-<p>The K20i features an IPX5 water resistance rating, making it well-suited for hot and humid climates in Egypt. This protection shield guarantees that your earbuds remain safe from sweat during outdoor runs, gym workouts, or walking through dusty streets. The nano-coating prevents water ingress from rain showers, helping preserve driver calibration and internal microchips over years of regular use.</p>
+<p>Check the K20i's published water-resistance rating and its test conditions. A rating is not a waterproof guarantee, can decline with wear, and does not cover every sweat, rain, dust, or charging-case exposure. Dry the earbuds fully before charging and follow the manufacturer guidance.</p>
 
 <h2>Comparative Analysis: Soundcore K20i vs Soundcore P20i</h2>
 <p>This table compares the two most popular budget options from Anker in Egypt:</p>
@@ -333,24 +333,23 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
 <h2>Charging Safeguards in Egyptian Power Grids</h2>
 <p>To shield the internal charging case circuitry and the 350mAh lithium cell from electrical fluctuations and spikes common in local grids, follow these simple safety guidelines:</p>
 <ul>
-    <li><strong>Avoid High-Wattage Adapters:</strong> Do not charge the case using fast-charging mobile blocks (33W, 67W, or higher). High-wattage power supplies can overheat the internal battery, reducing its total lifespan. Always use a standard 5W (5V/1A) wall plug or charge via a computer USB port.</li>
+    <li><strong>Use a compliant adapter:</strong> follow the case or manual input rating. A compliant charger does not force its maximum wattage into the case. Stop charging if you notice abnormal heat.</li>
     <li><strong>Keep Contacts Clean:</strong> Regularly clean the copper charging pins on the stems and inside the case with a dry cotton swab to prevent dirt or sweat buildup from blocking the current.</li>
 </ul>
 
-<h2>Official Local Warranty and Technical Support in Egypt</h2>
-<p>Buyers of the Model K20i in Egypt receive a comprehensive 18-month warranty from the authorized local distributor. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or connection failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim at official service centers.</p>
-<p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. Always cross-check the localized silver warranty sticker on the retail packaging to identify the exact local distributor responsible for servicing your product.</p>
-<p>The customer service centers in Cairo and Alexandria are fully equipped with specialized testing rigs to evaluate battery health and driver calibration. If a replacement is approved under warranty, the transaction is processed quickly. This gives local buyers absolute peace of mind compared to grey-market imports that lack warranty protection.</p>
+<h2>Local Warranty and Technical Support in Egypt</h2>
+<p>Warranty provider, duration and remedies depend on the seller and batch. Keep proof of purchase and the serial number, and follow the written policy provided with the product. CairoVolt orders are assessed under CairoVolt's published terms without a promise of automatic replacement.</p>
+<p>Do not submerge or disassemble the product. Check the invoice and packaging to identify the party responsible for any claim.</p>
 
-<h2>Secure Purchase and Delivery at CairoVolt</h2>
-<p>Ordering the Soundcore K20i from CairoVolt guarantees a premium customer experience:</p>
+<h2>Purchase and Delivery Information at CairoVolt</h2>
+<p>Check the current product and policy pages before ordering:</p>
 <ul>
-    <li><strong>100% Authentic Units:</strong> Accompanied by a certified 18-month local replacement warranty.</li>
-    <li><strong>Express Shipping:</strong> Doorstep delivery across all Egyptian governorates in 24 to 48 hours.</li>
-    <li><strong>Inspection Prior to Payment:</strong> We allow you to open and inspect the package before paying the courier.</li>
+    <li><strong>Product details:</strong> compare the exact model, box contents and written warranty duration.</li>
+    <li><strong>Shipping:</strong> the estimate depends on stock and destination.</li>
+    <li><strong>Inspection:</strong> follow the inspection and return rules shown at checkout and in the policy pages.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Shop Original Soundcore models at CairoVolt (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Check current offers: <a href="/en/soundcore/soundcore-k20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore K20i Open Fit</a> · <a href="/en/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i (Sealed Bass)</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i (Best Seller)</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Compare Soundcore models available at CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Check current prices, specifications, and warranty terms: <a href="/en/soundcore/soundcore-k20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore K20i Open Fit</a> · <a href="/en/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i (Sealed Bass)</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a>.</p></div>` ,
             faq: [
                 {
                     question: 'Does the Soundcore K20i support the companion mobile app?',

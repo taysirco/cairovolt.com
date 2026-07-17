@@ -14,141 +14,63 @@ export const joyroom_20w_usb_c_charger = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-1.webp", alt: "joyroom 20w usb c charger - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-2.webp", alt: "جوي روم 20w usb c charger - أصلي بباركود الشركة | JR-TCF20 - كايرو فولت مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-3.webp", alt: "joyroom 20w usb c charger - Lowest Price Guarantee Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-4.webp", alt: "جوي روم 20w usb c charger - منتج أصلي معتمد | شحن مصر كلها - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-5.webp", alt: "joyroom 20w usb c charger - Certified by Distributor - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-6.webp", alt: "جوي روم 20w usb c charger - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-7.webp", alt: "joyroom 20w usb c charger - Full Warranty Coverage Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-1.webp", alt: "Joyroom 20W USB-C charger JR-TCF20 product view - CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-2.webp", alt: "شاحن جوي روم 20 واط USB-C موديل JR-TCF20 - كايرو فولت مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-3.webp", alt: "Joyroom 20W USB-C charger product view in Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-4.webp", alt: "شاحن جوي روم JR-TCF20 بمنفذ USB-C - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-5.webp", alt: "Joyroom JR-TCF20 USB-C wall charger detail - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-6.webp", alt: "شاحن جوي روم 20 واط مع تفاصيل العبوة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-7.webp", alt: "Joyroom 20W USB-C charger packaging and model details - CairoVolt Egypt", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
-                name: "Joyroom 20W USB-C PD Charger | iPhone 17 Fast Charge | 12-Month Warranty",
-                shortDescription: "⚡ 20W PD Fast Charging | 📱 iPhone 17/16/15 0→50% in 30 Min | 🛡️ MultiProtect Safety | 🔌 Ultra-Compact | 💰 Best Price Egypt",
+                name: "Joyroom 20W USB-C PD Charger | iPhone 17 Fast Charge",
+                shortDescription: "⚡ Listed 20W USB-C PD output | 📱 Compatible phones and accessories | 🛡️ Check printed protection functions | 🔌 Compact single-port design",
+
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike bulky old 5W Apple chargers that take 3 hours for a full charge, The <strong>Joyroom 20W PD charger</strong> delivers <strong>real 20W Power Delivery</strong> — not the fake "20W" flooding Egypt's market. iPhone 17 from 0→50% in 30 min. 5-layer protection. Smaller than AirPods case. At <strong>236 EGP</strong>, it's the cheapest legitimate PD charger in Egypt. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
-<div class="product-summary">
-    <h3 class="font-bold mb-2">Key Features:</h3>
-    <ul class="list-none space-y-1">
-        <li>⚡ <strong>20W PD:</strong> iPhone 17 from 0→50% in ~30 minutes.</li>
-        <li>🛡️ <strong>MultiProtect:</strong> Over-voltage, over-current, over-temperature, short-circuit protection.</li>
-        <li>🔌 <strong>Ultra-Compact:</strong> Smaller than AirPods case — fits any pocket.</li>
-        <li>💰 <strong>Best Value:</strong> Same PD speed as premium brands at half the price.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "I kept one at home and one at the office for 4 months. Both still look brand new. The 20W PD charges my iPhone 15 Pro from dead to 50% in exactly 28 minutes — I timed it. It barely gets warm, even in summer with Cairo's heat. For under 250 EGP, you're getting real PD fast charging, not the fake '20W' chargers flooding the market. Pair it with the <a href='/en/joyroom/cables' class='text-blue-600 hover:underline'>Joyroom USB-C to Lightning cable</a> and you have the cheapest legitimate fast-charging setup in Egypt."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
-
-<div class="product-details">
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Real 20W PD — Not Fake Fast Charging</h2>
-        <p class="text-gray-700">Egypt's market is flooded with chargers claiming "20W" that actually deliver 10W. The Joyroom 20W uses genuine <strong>Power Delivery (PD) protocol</strong>, the same standard used by Apple and Samsung. Your iPhone negotiates the maximum safe wattage automatically. Result: <strong>0→50% in ~30 minutes</strong> for iPhone 17/16/15. That's 3x faster than the old 5W charger Apple used to include.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">MultiProtect: 5 Safety Layers</h2>
-        <p class="text-gray-700">Cheap chargers can damage your phone's battery. This charger includes <strong>over-voltage protection</strong>, <strong>over-current protection</strong>, <strong>over-temperature control</strong>, <strong>short-circuit prevention</strong>, and <strong>smart power negotiation</strong>. The chip adjusts output in real-time to match what your device needs — never more, never less.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Smaller Than Your AirPods Case</h2>
-        <p class="text-gray-700">The ultra-compact design is smaller than an AirPods case. Throw it in your pocket, laptop bag, or travel pouch. No bulky brick. Foldable prongs keep it tangle-free. Perfect as a <strong>secondary charger for the office</strong> or a dedicated travel charger.</p>
-    </section>
-</div>
-<div class="device-compatibility">
-    <h3 class="font-bold mb-2">Compatible Devices:</h3>
-    <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17/16/15/14:</strong> 20W PD fast charging.</li>
-        <li>📱 <strong>Samsung S26/S25/A-Series:</strong> 15-18W fast charging.</li>
-        <li>📱 <strong>Pixel / OnePlus / Xiaomi:</strong> PD fast charging.</li>
-        <li>🎧 <strong>AirPods Pro / Galaxy Buds:</strong> Safe slow charge.</li>
-        <li>⌚ <strong>Apple Watch (USB-C):</strong> Compatible.</li>
-    </ul>
-</div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Cable NOT included — you need a USB-C cable separately. This charger has a single USB-C port; it cannot charge two devices simultaneously. For Samsung Super Fast Charging (25W+), see our Joyroom 25W charger.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom 20W USB-C PD charger (JR-TCF20)</strong> is a compact single-port wall charger for compatible phones and accessories. Confirm the input range, USB-C output table and supported protocols on the supplied unit. Charging speed depends on the device, cable, battery level and temperature. Check the current price, stock, package contents and warranty terms before ordering.</p></div>
+<div class="product-summary"><h3 class="font-bold mb-2">Key Features:</h3><ul class="list-none space-y-1"><li>⚡ <strong>USB-C PD output:</strong> verify the printed profiles for JR-TCF20.</li><li>🛡️ <strong>Listed protection functions:</strong> use sound sockets and undamaged cables.</li><li>🔌 <strong>Compact single-port design:</strong> suitable for a desk or travel pouch.</li><li>💰 <strong>Current listing:</strong> compare the live price, stock and warranty terms.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For <strong>JR-TCF20</strong>, compare the input voltage, output profiles, port layout and supported protocols printed on the unit or packaging with your device. A charging-time example is not a universal result. Confirm whether a cable is included and review current service terms.</p></div>
+<div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">20W USB-C Power Delivery</h2><p class="text-gray-700">USB Power Delivery lets a compatible charger and device negotiate a supported voltage and current profile. Confirm the output table on JR-TCF20 and use a cable rated for the required power. Actual charging time varies by phone model, battery level, temperature and background activity.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">Protection Functions and Safe Use</h2><p class="text-gray-700">The listing describes voltage, current, temperature and short-circuit controls. These functions do not replace normal precautions: use a sound socket, keep the charger ventilated and dry, and stop if the case, port or cable is damaged or unusually hot.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">Compact Single-Port Design</h2><p class="text-gray-700">The compact body is intended for bags, desks and travel pouches. Check the plug format and dimensions if space is important. One USB-C port charges one connected device at a time, and the package contents should be confirmed on this listing.</p></section></div>
+<div class="device-compatibility"><h3 class="font-bold mb-2">Compatibility Guide:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>Compatible iPhones:</strong> USB-PD charging with the correct cable.</li><li>📱 <strong>Android devices:</strong> speed depends on their supported PD profile.</li><li>🎧 <strong>Earbuds and accessories:</strong> the connected device controls accepted input.</li></ul></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">Before You Buy:</h3><p class="text-gray-700">Confirm whether a cable is included; compare suitable <a href="/en/joyroom/cables" class="text-blue-600 hover:underline">Joyroom USB-C cables</a> when needed. This charger has one USB-C port. Devices requiring a higher-power or proprietary protocol may charge at a lower supported rate.</p></div>
 `,
-                features: ["⚡ 20W PD Fast Charging", "📱 iPhone 0→50% in 30 Min", "🛡️ MultiProtect 5-Layer Safety", "🔌 Ultra-Compact Design", "🌍 AC 100-240V Universal", "💰 Best Price Egypt", "🏆 12-Month Warranty", "🔒 Overcurrent + Overheat Protection"],
-                metaTitle: "Joyroom 20W USB-C Charger ⚡ 15% OFF | iPhone Fast | COD",
-                metaDesc: "Buy Joyroom 20W USB-C PD charger in Egypt. iPhone 17 0→50% in 30 min, MultiProtect safety, ultra-compact. Best price with 12-month warranty.",
+                features: ["⚡ Listed 20W USB-C PD output", "📱 Device profiles vary", "🛡️ Printed protection functions", "🔌 Compact single-port design", "🌍 Verify AC input range", "💰 Check current listed price", "🏆 Check current warranty", "🔒 Use sound sockets and cables"],
+                metaTitle: "Joyroom 20W USB-C Charger | iPhone Fast | COD",
+                metaDesc: "Buy Joyroom JR-TCF20 20W USB-C PD charger in Egypt. Check output profiles, compact design, package contents and current warranty.",
                 faqs: [
-                    { question: "Does it heat up?", answer: "It utilizes smart temperature control chips to keep the charger cool even during fast charging sessions." },
-                    { question: "How does Joyroom 20W compare to Anker 20W?", answer: "Both deliver identical 20W PD output. Joyroom costs 40% less. Anker has 18-month warranty vs Joyroom's 12-month. For budget buyers, Joyroom wins on value." },
-                    { question: "Does it support Samsung Super Fast Charging?", answer: "It supports standard fast charging (15W-18W) for Samsung devices. For Super Fast Charging (25W+), a higher wattage charger is required." },
-                    { question: "Is this charger good for travel?", answer: "Yes! Its ultra-compact design fits in any pocket or bag easily. Perfect for travel." }
-                ,
-                    { question: "Does the charging LED indicator change color?", answer: "Yes. Blue = charging normally. No light = fully charged or disconnected. Flashing = connection issue — try a different cable." }]
+                    { question: "Does it heat up?", answer: "Some warmth can occur. Temperature depends on load, device, ambient conditions and ventilation; stop use if heat is unusual." },
+                    { question: "How does it compare with another 20W charger?", answer: "Compare the printed PD profiles, plug, port count, included cable, live price and current warranty rather than assuming identical performance." },
+                    { question: "Does it support Samsung Super Fast Charging?", answer: "Confirm the Samsung model and required PPS or PD profile. An unsupported profile may use a lower compatible rate." },
+                    { question: "Is it suitable for travel?", answer: "The compact form can suit travel, subject to the destination plug and voltage requirements." },
+                    { question: "What does the LED mean?", answer: "Check the supplied manual for exact LED states; the indicator alone does not confirm negotiated power or battery completion." }
+                ]
             },
             ar: {
-                name: "شاحن جوي روم 20 واط PD | أرخص شاحن سريع أصلي يحمي بطاريتك | ضمان 12 شهر",
-                shortDescription: "بلاش تبوظ بطاريتك بشواحن الشارع الرخيصة | ⚡ 20 واط PD أصلي بحماية 5 طبقات | 📱 ايفون 17 من 0→50% في 30 دقيقة | 🔌 صغير مبياخدش مكان في الشنطة",
+                name: "شاحن جوي روم JR-TCF20 بقدرة 20 واط PD | USB-C",
+                shortDescription: "⚡ خرج USB-C PD مدرج 20 واط | 📱 للهواتف والملحقات المتوافقة | 🛡️ تحقق من وظائف الحماية المطبوعة | 🔌 تصميم صغير بمنفذ واحد",
+
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، شاحن <strong>جوي روم 20 واط PD</strong> بيدّي <strong>20 واط Power Delivery حقيقي</strong> — مش الـ "20 واط" المزيفة اللي مالية سوق مصر. ايفون 17 من 0→50% في 30 دقيقة. حماية 5 طبقات. أصغر من علبة AirPods. بـ <strong>236 جنيه</strong>، أرخص شاحن PD شرعي في مصر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
-<div class="product-summary">
-    <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
-    <ul class="list-none space-y-1">
-        <li>⚡ <strong>20 واط PD:</strong> ايفون 17 من 0→50% في ~30 دقيقة.</li>
-        <li>🛡️ <strong>حماية متعددة:</strong> حماية من زيادة الفولت والتيار والحرارة والقصر.</li>
-        <li>🔌 <strong>تصميم صغير جداً:</strong> أصغر من علبة AirPods — بيدخل أي جيب.</li>
-        <li>💰 <strong>أفضل قيمة:</strong> نفس سرعة PD للماركات الغالية بنص السعر.</li>
-    </ul>
-</div>
-
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "خلّيت واحد في البيت وواحد في المكتب لمدة 4 شهور. الاتنين لسه شكلهم جديد. الـ 20 واط PD شحن ايفون 15 برو بتاعي من صفر لـ 50% في 28 دقيقة بالظبط — وقّتها. بالعافية بيسخن، حتى في حرّ القاهرة في الصيف. بأقل من 250 جنيه، بتاخد شحن PD حقيقي، مش شواحن '20 واط' المزيفة اللي مالية السوق. وصّله بـ <a href='/joyroom/cables' class='text-blue-600 hover:underline'>كابل جوي روم USB-C to Lightning</a> وعندك أرخص سيستم شحن سريع شرعي في مصر."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
-
-<div class="product-details">
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">20 واط PD حقيقي — مش شحن سريع مزيف</h2>
-        <p class="text-gray-700">السوق المصري مليان شواحن بتقول "20 واط" وفي الحقيقة بتدّي 10 واط. شاحن جوي روم 20 واط بيستخدم بروتوكول <strong>Power Delivery (PD)</strong> الحقيقي، نفس المعيار اللي بتستخدمه Apple وSamsung. الايفون بتاعك بيتفاوض على أقصى واط آمن أوتوماتيك. النتيجة: <strong>0→50% في ~30 دقيقة</strong> لايفون 17/16/15. ده 3 أضعاف سرعة شاحن 5 واط القديم.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">حماية متعددة: 5 طبقات أمان</h2>
-        <p class="text-gray-700">الشواحن الرخيصة ممكن تضر بطارية موبايلك. الشاحن ده فيه <strong>حماية من زيادة الفولت</strong> و<strong>حماية من زيادة التيار</strong> و<strong>تحكم في الحرارة</strong> و<strong>منع القصر</strong> و<strong>تفاوض ذكي للطاقة</strong>. الشريحة بتضبط الخرج في الوقت الحقيقي لتناسب جهازك — لا أكتر ولا أقل.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">أصغر من علبة AirPods بتاعتك</h2>
-        <p class="text-gray-700">التصميم الصغير جداً أصغر من علبة AirPods. حطّه في جيبك أو شنطة اللابتوب أو حقيبة السفر. مفيش طوبة كبيرة. أسنان قابلة للطي عشان ميتلخبطش. مثالي كـ <strong>شاحن ثانوي للمكتب</strong> أو شاحن سفر مخصص.</p>
-    </section>
-</div>
-<div class="device-compatibility">
-    <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
-    <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>ايفون 17/16/15/14:</strong> شحن سريع 20 واط PD.</li>
-        <li>📱 <strong>سامسونج S26/S25/A-Series:</strong> شحن سريع 15-18 واط.</li>
-        <li>📱 <strong>Pixel / OnePlus / Xiaomi:</strong> شحن سريع PD.</li>
-        <li>🎧 <strong>AirPods Pro / Galaxy Buds:</strong> شحن بطيء آمن.</li>
-        <li>⌚ <strong>Apple Watch (USB-C):</strong> متوافق.</li>
-    </ul>
-</div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل مش في العلبة — محتاج كابل USB-C لوحده. الشاحن ده فيه منفذ USB-C واحد؛ مش بيشحن جهازين في نفس الوقت. لسامسونج فائق السرعة (25 واط+)، شوف شاحن جوي روم 25 واط.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed"><strong>شاحن جوي روم 20 واط USB-C PD (JR-TCF20)</strong> شاحن حائط صغير بمنفذ واحد للهواتف والملحقات المتوافقة. تحقق من مدى الإدخال وجدول خرج USB-C والبروتوكولات على الوحدة الموردة. تعتمد السرعة على الجهاز والكابل ونسبة البطارية والحرارة. راجع السعر والمخزون ومحتويات العبوة وشروط الضمان الحالية قبل الطلب.</p></div>
+<div class="product-summary"><h3 class="font-bold mb-2">الخلاصة:</h3><ul class="list-none space-y-1"><li>⚡ <strong>خرج USB-C PD:</strong> تحقق من البروفايلات المطبوعة للموديل JR-TCF20.</li><li>🛡️ <strong>وظائف حماية مدرجة:</strong> استخدم مقبساً سليماً وكابلات غير تالفة.</li><li>🔌 <strong>تصميم صغير بمنفذ واحد:</strong> مناسب للمكتب أو حقيبة السفر.</li><li>💰 <strong>بيانات الشراء:</strong> قارن السعر والمخزون وشروط الضمان الحالية.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">للموديل <strong>JR-TCF20</strong>، قارن جهد الإدخال وبروفايلات الخرج والمنفذ والبروتوكولات المطبوعة بمتطلبات جهازك. مثال زمن الشحن ليس نتيجة واحدة للجميع. تحقق من وجود الكابل وراجع شروط الخدمة الحالية.</p></div>
+<div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">شحن USB-C Power Delivery بقدرة مدرجة 20 واط</h2><p class="text-gray-700">تسمح USB Power Delivery للشاحن والجهاز المتوافقين بالتفاوض على بروفايل جهد وتيار مدعوم. تحقق من الجدول على JR-TCF20 واستخدم كابلاً مصنفاً للقدرة المطلوبة. تتغير مدة الشحن حسب الهاتف ونسبة البطارية والحرارة والنشاط في الخلفية.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">وظائف الحماية والاستخدام السليم</h2><p class="text-gray-700">تذكر القائمة التحكم في الجهد والتيار والحرارة والقصر. لا تستبدل هذه الوظائف احتياطات الاستخدام: استخدم مقبساً سليماً، وحافظ على التهوية والجفاف، وتوقف عند تلف الهيكل أو المنفذ أو الكابل أو ظهور سخونة غير معتادة.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">تصميم صغير بمنفذ واحد</h2><p class="text-gray-700">الجسم الصغير مخصص للحقائب والمكاتب والسفر. تحقق من شكل القابس والأبعاد إن كانت المساحة مهمة. يشحن منفذ USB-C الواحد جهازاً واحداً في كل مرة، ويجب تأكيد محتويات العبوة من هذه الصفحة.</p></section></div>
+<div class="device-compatibility"><h3 class="font-bold mb-2">دليل التوافق:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>أجهزة ايفون المتوافقة:</strong> شحن USB-PD بالكابل الصحيح.</li><li>📱 <strong>أجهزة اندرويد:</strong> السرعة حسب بروفايل PD المدعوم.</li><li>🎧 <strong>السماعات والملحقات:</strong> الجهاز المتصل يحدد الإدخال المقبول.</li></ul></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">قبل الشراء:</h3><p class="text-gray-700">تأكد هل الكابل موجود في العبوة، وقارن <a href="/joyroom/cables" class="text-blue-600 hover:underline">كابلات جوي روم USB-C</a> المناسبة عند الحاجة. يحتوي الشاحن على منفذ USB-C واحد. الأجهزة التي تحتاج قدرة أعلى أو بروتوكولاً خاصاً قد تشحن على معدل أقل مدعوم.</p></div>
 `,
-                features: ["⚡ شحن سريع 20 واط PD", "📱 ايفون 0→50% في 30 دقيقة", "🛡️ حماية 5 طبقات", "🔌 تصميم صغير جداً", "🌍 AC 100-240V عالمي", "💰 أفضل سعر مصر", "🏆 ضمان 12 شهر", "🔒 معتمد CE للسلامة → معيار السلامة الأوروبي للشواحن"],
-                metaTitle: "شاحن جوي روم 20 واط ⚡ خصم 15% | شحن سريع ايفون | COD مصر",
-                metaDesc: "اشتري شاحن جوي روم 20 واط USB-C PD في مصر. ايفون 17 من 0→50% في 30 دقيقة، حماية 5 طبقات، تصميم صغير. أفضل سعر مع ضمان 12 شهر.",
+                features: ["⚡ خرج USB-C PD مدرج 20 واط", "📱 البروفايل يختلف حسب الجهاز", "🛡️ وظائف حماية مطبوعة", "🔌 تصميم صغير بمنفذ واحد", "🌍 تحقق من مدى AC", "💰 راجع السعر الحالي", "🏆 راجع الضمان الحالي", "🔎 تحقق من العلامات والوثائق"],
+                metaTitle: "شاحن جوي روم 20 واط | شحن سريع ايفون | COD مصر",
+                metaDesc: "اشتري شاحن جوي روم JR-TCF20 بخرج USB-C PD مدرج 20 واط في مصر. تحقق من البروفايلات والعبوة والضمان الحالي.",
                 faqs: [
-                    { question: "هل يسخن الشاحن؟", answer: "يستخدم شرائح تحكم ذكية للحفاظ على برودة الشاحن حتى أثناء الشحن السريع." },
-                    { question: "إيه الفرق بين جويروم 20 واط وانكر 20 واط؟", answer: "الاتنين بيطلعوا 20 واط PD. جويروم أرخص 40%. انكر ضمانه 18 شهر مقابل 12 شهر لجويروم. لو الميزانية مهمة، جويروم أحسن قيمة." },
-                    { question: "هل يدعم سامسونج فائق السرعة؟", answer: "يدعم الشحن السريع القياسي (15-18 واط). للشحن الفائق (25 واط)، شاهد انكر 25 واط." },
-                    { question: "كيف يقارن مع انكر 20 واط؟", answer: "جوي روم أرخص بأداء مماثل. انكر ضمان أطول وتصميم أنيق." }
-                ,
-                    { question: "لمبة الشحن بتتغير لونها؟", answer: "أيوه. أزرق = بيشحن عادي. مفيش لمبة = الشحن اكتمل أو مفصول. بتفلش = مشكلة توصيل — جرب كابل تاني." }]
+                    { question: "هل يسخن الشاحن؟", answer: "قد تظهر سخونة طبيعية. تعتمد الحرارة على الحمل والجهاز والجو والتهوية؛ توقف إذا كانت السخونة غير معتادة." },
+                    { question: "كيف أقارنه بشاحن آخر 20 واط؟", answer: "قارن بروفايلات PD المطبوعة والقابس وعدد المنافذ والكابل والسعر والضمان الحالي، ولا تفترض أداء متماثلاً." },
+                    { question: "هل يدعم سامسونج فائق السرعة؟", answer: "تحقق من موديل سامسونج وبروفايل PPS أو PD المطلوب. البروفايل غير المدعوم قد يستخدم معدلاً أقل متوافقاً." },
+                    { question: "هل يناسب السفر؟", answer: "الحجم الصغير قد يناسب السفر مع مراعاة شكل القابس ومتطلبات الجهد في الوجهة." },
+                    { question: "ماذا تعني اللمبة؟", answer: "راجع دليل الوحدة لمعاني اللمبة؛ المؤشر وحده لا يثبت القدرة المتفاوض عليها أو اكتمال البطارية." }
+                ]
             }
         },
-        meta: { keywords: "شاحن جوي روم, شاحن جوي روم, جوي روم charger, جوي روم fast charger, جوي روم wall charger egypt, جوي روم usb c charger, جوي روم gan charger, جوي روم iphone charger egypt, جوي روم samsung charger, جوي روم best charger egypt 2026, جوي روم cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, شاحن جوي روم مصر, جوي روم charger egypt, شاحن سريع رخيص مصر, شاحن USB-C مصر", mainTerm: "شاحن جوي روم" },
+        meta: { keywords: "شاحن جوي روم, شاحن جوي روم, جوي روم charger, جوي روم fast charger, جوي روم wall charger egypt, جوي روم usb c charger, جوي روم gan charger, جوي روم iphone charger egypt, جوي روم samsung charger, جوي روم cod egypt charger, سعر شاحن جوي روم, شاحن جوي روم مصر, جوي روم charger egypt, شاحن سريع رخيص مصر, شاحن USB-C مصر", mainTerm: "شاحن جوي روم" },
         relatedProducts: ["joyroom-usb-c-lightning-cable",
         "joyroom-power-bank-10000",
         "joyroom-25w-fast-charger",
@@ -156,7 +78,7 @@ export const joyroom_20w_usb_c_charger = {
         "joyroom-3-in-1-wireless-charging-station",
         "joyroom-30w-fast-charger", 'joyroom-jr-t03-wireless-earbuds', 'joyroom-power-bank-20000'],
         expertOpinion: {
-            en: "A fantastic alternative to more expensive brands. It delivers the same 20W PD charging speed for iPhones as the big names. It runs cool and feels solid. I've used this personally for months with zero issues. Great for a secondary charger at the office.",
-            ar: "بديل رائع للماركات الأغلى. يوفر نفس سرعة شحن 20 واط PD للايفون مثل الأسماء الكبيرة. يعمل بشكل بارد وملمسه قوي. لقد استخدمته شخصياً لشهور دون أي مشاكل. رائع كشاحن ثانوي في المكتب."
+            en: "A compact single-port option for devices whose required USB-PD profile appears on JR-TCF20. Compare the printed output table, cable needs, live price and current warranty.",
+            ar: "خيار صغير بمنفذ واحد للأجهزة التي يظهر بروفايل USB-PD المطلوب لها على JR-TCF20. قارن جدول الخرج والكابل والسعر والضمان الحالي."
         }
     };

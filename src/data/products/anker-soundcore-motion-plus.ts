@@ -17,152 +17,132 @@ export const anker_soundcore_motion_plus = {
             { id: "img_1", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-package-box-contents-cable.webp", alt: "محتويات علبة سماعة ساوندكور موشن بلس مع كابل وملحقات - كايرو فولت مصر", order: 0, isPrimary: true, width: 1000, height: 1000 },
             { id: "img_2", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-bluetooth-speaker-30w-cairovolt.webp", alt: "سماعة ساوندكور موشن بلس بلوتوث 30 واط صوت عالي الجودة - A3116011 - كايرو فولت", order: 1, isPrimary: false, width: 600, height: 450 },
             { id: "img_3", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-dual-driver-detail-close-up.webp", alt: "Soundcore Motion Plus dual driver detail close-up showing speaker quality - CairoVolt", order: 2, isPrimary: false, width: 1200, height: 791 },
-            { id: "img_4", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-ipx7-waterproof-splash-test.webp", alt: "اختبار مقاومة الماء IPX7 لسماعة ساوندكور موشن بلس - رش واختبار غمر - كايرو فولت", order: 3, isPrimary: false, width: 1200, height: 1200 },
+            { id: "img_4", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-ipx7-waterproof-splash-test.webp", alt: "سماعة ساوندكور Motion+ مع توضيح تصنيف مقاومة الماء IPX7", order: 3, isPrimary: false, width: 1200, height: 1200 },
             { id: "img_5", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-usb-c-aux-port-detail.webp", alt: "Soundcore Motion Plus USB-C and AUX 3.5mm port detail for charging and audio input - CairoVolt", order: 4, isPrimary: false, width: 928, height: 1152 },
             { id: "img_6", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-bass-radiator-passive-driver.webp", alt: "درايفر باس سلبي لسماعة ساوندكور موشن بلس - تعزيز الترددات المنخفضة - كايرو فولت", order: 5, isPrimary: false, width: 928, height: 1152 },
             { id: "img_7", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-outdoor-portable-lifestyle.webp", alt: "Soundcore Motion Plus outdoor portable lifestyle photo - waterproof speaker - CairoVolt", order: 6, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {
-                name: "Anker Soundcore Motion+ | 30W Hi-Res Audio | 18-Month Warranty",
-                shortDescription: "🔊 30W Hi-Res Certified Speaker | 🏊 IPX7 Waterproof | 🔋 12h 8min CairoVolt Tested | 🎛️ BassUp + Custom EQ",
+                name: "Anker Soundcore Motion+ | 30W Hi-Res Audio",
+                shortDescription: "🔊 Manufacturer-listed 30W output and Hi-Res Audio | 💧 Verify IPX7 limits | 🔋 Published runtime depends on test settings | 🎛️ BassUp + app EQ",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike cheap speakers with distorted bass and short battery, The <strong>Anker Soundcore Motion+ (A3116)</strong> is a 30W Hi-Res Audio certified Bluetooth speaker with Qualcomm aptX. IPX7 waterproof, 12H battery (6700mAh), BassUp™, custom EQ via Soundcore app, Bluetooth 5.0 + AUX. Dual tweeters with 15° upward tilt for room-filling sound. EGP 3,600, 18-month warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 300+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>Soundcore Motion+ (A3116011)</strong> is listed by the manufacturer with 30W audio output, Hi-Res Audio/aptX support, an IPX7 rating, a published battery figure, app EQ, Bluetooth and AUX input. Verify the marks, codecs, water limits, runtime test conditions and package contents on the supplied unit. Sound, range, water resistance and runtime vary with source, codec, volume, EQ, environment, wear and use. Check the live price, stock and current warranty terms before ordering.</p>
 </div>
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Counterfeit “Motion+” speakers are widespread on Egyptian marketplaces. They use single 5W drivers marketed as 30W and have 2-3H real battery life. The genuine Motion+ has Hi-Res certification visible on the body and pairs with the Soundcore app for custom EQ. If the app can’t detect the speaker, it’s fake. Buy only from authorized dealers.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3116011</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
-        <li>🔊 <strong>Massive Sound:</strong> 30W output with Hi-Res Audio certification.</li>
-        <li>💧 <strong>Waterproof:</strong> IPX7 rated (fully submersible).</li>
-        <li>🔋 <strong>All-Day Battery:</strong> 12 hours of continuous playtime (6700mAh).</li>
+        <li>🔊 <strong>Listed 30W output:</strong> verify Hi-Res Audio and aptX marks for the supplied model.</li>
+        <li>💧 <strong>IPX7 rating:</strong> follow the manual's test limits, port-cover and drying instructions.</li>
+        <li>🔋 <strong>Published runtime:</strong> actual hours vary with volume, EQ, codec, temperature and battery age.</li>
         <li>📱 <strong>Smart Connect:</strong> Bluetooth 5.0 + 3.5mm AUX input.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>6.67 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "Our team at CairoVolt tested this speaker in true Egyptian conditions: an open-air rooftop gathering for 5 straight hours at max volume. The result? The battery held strong until the end, and the sound filled the space with incredible clarity despite street noise and wind. The bass hits hard—making you feel like you're carrying a subwoofer, not a portable speaker. This isn't just a speaker; it's a mood-saver, whether for power outages or weekend outings."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
+    <li>🧾 <strong>Returns and warranty:</strong> handled under the current published policy and eligibility terms.</li><li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A3116011</strong>, start with the manufacturer-rated Bluetooth features, rated playback conditions and IP rating printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Studio Quality in Your Pocket (Hi-Res Audio)</h2>
-        <p class="text-gray-700">Thanks to <strong>Hi-Res Audio</strong> and Qualcomm aptX support, this speaker reproduces every detail of your music with insane accuracy. The 15° upward-firing tweeters disperse sound across the entire room, so you hear "layers" of music, not just loud noise.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Hi-Res Audio, aptX and EQ</h2>
+        <p class="text-gray-700">Check the Hi-Res Audio mark and Qualcomm aptX support for the supplied A3116011 and confirm the source device supports the chosen codec. Driver layout and angled tweeters are hardware features, not a guarantee of studio accuracy or preferred sound in every room. Use the app EQ, where supported, to adjust the result.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">The Party Never Stops.. Even in Water (IPX7)</h2>
-        <p class="text-gray-700">Imagine dropping your speaker in the pool and it keeps playing? With <strong>IPX7 Waterproof</strong> rating, the Motion+ survives full submersion. Perfect for Sahel trips, the kitchen, or even if you forget it on the balcony in the rain—it's totally safe.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">IPX7 limits and water care</h2>
+        <p class="text-gray-700">Follow the exact <strong>IPX7</strong> depth, duration, fresh-water, port-cover and drying instructions in the manual. Resistance can diminish with wear and does not cover every pool, beach, salt-water, chemical, impact or charging-while-wet exposure.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Battery That Lasts All Day (12 Hours)</h2>
-        <p class="text-gray-700">With a massive 6700mAh battery (like a <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">power bank</a>), forget the charger. It lasts a full workday or a long night out with friends. And when it drains, charge it via USB-C just like your phone.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Battery test conditions and charging</h2>
+        <p class="text-gray-700">The published battery figure is measured under specified conditions and is not equivalent to the usable output of a <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">power bank</a>. Runtime changes with volume, EQ, codec, temperature and cell age. Charge through the specified USB-C input with a compatible source and keep the port dry.</p>
     </section>
 </div>
 <div class="device-compatibility">
-    <h3 class="font-bold mb-2">Works Perfectly With:</h3>
+    <h3 class="font-bold mb-2">Compatibility checks:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone:</strong> Fully compatible with iPhone 15/14/13 Pro Max.</li>
-        <li>📱 <strong>Samsung:</strong> Supports Samsung S24 Ultra / S23 / A-Series.</li>
-        <li>💻 <strong>Laptops:</strong> Full compatibility with MacBook M1/M2/M3 & Windows via Bluetooth 5.0 + AUX.</li>
-        <li>📺 <strong>Smart TV:</strong> Connect via Bluetooth or AUX for a cinematic experience.</li>
+        <li>📱 <strong>Phones:</strong> verify Bluetooth codec and Soundcore app support on the exact OS version.</li>
+        <li>💻 <strong>Computers:</strong> compare Bluetooth profiles or use AUX when the source supports it.</li>
+        <li>📺 <strong>TVs:</strong> confirm Bluetooth-audio or AUX output; latency and volume control vary by TV.</li>
+        <li>🎵 <strong>Wired sources:</strong> verify cable type and source output before using AUX.</li>
     </ul>
 </div>
 `,
-                features: ["🔈 30W Sound (Hi-Res)", "🔋 12-Hour Battery (6700mAh)", "💧 IPX7 Waterproof", "📱 Bluetooth 5.0 + AUX", "🎚️ Custom EQ App", "🏆 18-Month Warranty", "🔒 FCC + CE + IPX7 Certified → Global Safety Standards", "🔒 IPX7 Fully Waterproof"],
-                metaTitle: "Anker Soundcore Motion+ ⚡ 16% OFF | 30W Hi-Res Audio | COD",
-                metaDesc: "Buy original Anker Soundcore Motion+ in Egypt. 30W Hi-Res stereo sound, IPX7 waterproof, 12H battery. 18-Month Warranty from CairoVolt & Fast Delivery.",
+                features: ["🔈 30W Sound (Hi-Res)", "🔋 12-Hour Battery (6700mAh)", "💧 IPX7 Waterproof", "📱 Bluetooth 5.0 + AUX", "🎚️ Custom EQ App", "🏆 current warranty and return policy", "🔎 Verify compliance marks on the unit and manufacturer documentation", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
+                metaTitle: "Soundcore Motion+ A3116011 | 30W + IPX7 | Egypt",
+                metaDesc: "Explore Anker Soundcore Motion+ in Egypt: 30W-rated audio, IPX7 rating and manufacturer-stated battery specifications. Check current warranty, stock and delivery terms.",
                 faqs: [
-                    { question: "Can I use Motion+ with my TV?", answer: "Yes, you can connect via 3.5mm AUX for crystal clear sound, or Bluetooth if your TV supports it. It gives a mini-cinematic experience in your room." },
-                    { question: "Is the volume loud enough for a party?", answer: "Absolutely! With 30W power and BassUp technology, it covers a large room or an open outdoor space (like a garden or rooftop) with strong, clear sound." },
-                    { question: "Does it charge with a Samsung phone charger?", answer: "It charges via USB-C, so you can use the same cable as your Samsung phone or new iPhone 15. No need to carry extra cables." },
-                    { question: "Is it really waterproof?", answer: "Yes, IPX7 rated — survives 30 minutes submersion in 1 meter of water. Safe for pool, beach, and rain. Not for saltwater diving." },
-                    { question: "How long does the battery last?", answer: "12+ hours at moderate volume. At max volume, expect 6-8 hours. Quick charge gives 4 hours from 30 minutes of charging." }
+                    { question: "Can I use Motion+ with my TV?", answer: "Only if the TV provides a compatible Bluetooth-audio or 3.5mm output. Check TV settings; latency, volume control and codec support vary by model." },
+                    { question: "Is the volume enough for my space?", answer: "Soundcore lists 30W output, but perceived volume and clarity depend on room size, outdoor noise, placement, content and listening distance. Compare those conditions with your use." },
+                    { question: "Can I use my phone charger?", answer: "Compare the charger's USB output with the Motion+ input specification and use a sound, undamaged cable. A shared USB-C connector does not guarantee identical voltage/current support." },
+                    { question: "What does the IPX7 rating mean?", answer: "Follow the exact IPX7 test limits and port-cover instructions in the manual. Water resistance can diminish with wear and does not cover every pool, beach, saltwater or impact exposure." },
+                    { question: "How long does the battery last?", answer: "Use Soundcore's current published figure and test conditions as a reference. Actual runtime changes with volume, EQ, codec, connection, temperature, battery age and use." }
                 ]
             },
             ar: {
-                name: "سماعة انكر ساوندكور Motion+ | سماعة تجمعات الرووف والساحل اللي مبتفصلش | ضمان 18 شهر",
-                shortDescription: "صوت جبار 30 وات بيملا رووف كامل 🔊 | 💧 IPX7 بتنزل حمام سباحة عادي | 🔋 12 ساعة بطارية هتكفيك سهرة كاملة | 🎚️ حرر الصوت بتطبيق EQ",
+                name: "سماعة انكر ساوندكور Motion+ | سماعة تجمعات الرووف والساحل اللي مبتفصلش",
+                shortDescription: "🔊 خرج معلن 30 واط وHi-Res Audio | 💧 راجع حدود IPX7 | 🔋 رقم البطارية مرتبط بشروط الاختبار | 🎛️ BassUp وEQ عبر التطبيق",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السبيكرات الرخيصة بباص مشوش وبطارية قصيرة، <strong>سماعة أنكر ساوندكور Motion+ (A3116)</strong> سماعة 30 واط بشهادة Hi-Res Audio وQualcomm aptX. مقاومة ماء IPX7، بطارية 12 ساعة (6700mAh)، BassUp™، تحكم EQ من تطبيق ساوندكور، بلوتوث 5.0 + AUX. التويترز بزاوية 15° بتوزع الصوت في الغرفة كلها. سعر 3,600 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.7%</strong> across 300+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>ساوندكور Motion+ (A3116011)</strong> مدرجة من الشركة بخرج صوت 30 واط وHi-Res Audio وaptX وتصنيف IPX7 ورقم بطارية معلن وEQ عبر التطبيق وبلوتوث وAUX. تحقق من العلامات والكودكات وحدود الماء وشروط اختبار البطارية ومحتويات العبوة على الوحدة الموردة. يختلف الصوت والمدى ومقاومة الماء والمدة حسب المصدر والكودك ومستوى الصوت وEQ والبيئة والاستخدام. راجع السعر والمخزون والضمان الحالي قبل الطلب.</p>
 </div>
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">سماعات “Motion+” المضروبة منتشرة في السوق المصري. بتستخدم محرك 5 واط واحد بيقولوا 30واط وبطاريتها الحقيقية 2-3 ساعات. الأصلية عليها شهادة Hi-Res ظاهرة على الجسم وبتتوصل بتطبيق ساوندكور لتخصيص EQ. لو التطبيق مش شايف السماعة، يبقى مضروبة. اشتري من موزعين معتمدين بس.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3116011</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
-        <li>🔊 <strong>صوت جبار:</strong> قوة 30 وات مع شهادة Hi-Res Audio.</li>
-        <li>💧 <strong>ضد المياه:</strong> معيار IPX7 (تتحمل الغمر الكامل).</li>
-        <li>🔋 <strong>بطارية تدوم:</strong> 12 ساعة تشغيل متواصل (6700mAh).</li>
+        <li>🔊 <strong>خرج معلن 30 واط:</strong> تحقق من علامتي Hi-Res Audio وaptX للموديل المورّد.</li>
+        <li>💧 <strong>تصنيف IPX7:</strong> اتبع حدود الدليل وتعليمات غطاء المنفذ والتجفيف.</li>
+        <li>🔋 <strong>مدة منشورة:</strong> تختلف حسب الصوت وEQ والكودك والحرارة وعمر البطارية.</li>
         <li>📱 <strong>توصيل ذكي:</strong> بلوتوث 5.0 + مدخل AUX 3.5mm.</li>
     </ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">كلام من الآخر عن المنتج ده..</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "نحن في فريق كايرو فولت اختبرنا هذه السماعة في ظروف مصرية بامتياز: شغلناها في تجمعة عائلية في مكان مفتوح (رووف) لمدة 5 ساعات متواصلة بأعلى صوت. النتيجة؟ البطارية صمدت للنهاية، والصوت غطى المكان بوضوح مذهل رغم دوشة الشارع والهوا. الباس (Bass) فيها بيضرب بقوة تخليك تحس إن معاك صب ووفر كبير مش سماعة محمولة. دي مش بس سماعة، دي استثمار في 'مودك' سواء وقت انقطاع الكهرباء أو في الخروجات."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A3116011</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">جودة استوديو في جيبك (Hi-Res Audio)</h2>
-        <p class="text-gray-700">بفضل تقنية <strong>Hi-Res Audio</strong> ودعم Qualcomm aptX، السماعة دي بتطلع كل تفصيلة في الأغنية بدقة خرافية. الـ Tweeters بزاوية 15 درجة بيوزعوا الصوت في الغرفة كلها، عشان تسمع "طبقات الصوت" والمزيكا صح، مش بس دوشة عالية وخلاص.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Hi-Res Audio وaptX وEQ</h2>
+        <p class="text-gray-700">تحقق من علامة <strong>Hi-Res Audio</strong> ودعم Qualcomm aptX للموديل A3116011 وتأكد أن المصدر يدعم الكودك المختار. تصميم الدرايفرات وزاوية التويتر مواصفات عتاد وليسا ضماناً لدقة استوديو أو صوت يفضله الجميع في كل غرفة. استخدم EQ عبر التطبيق عندما يكون مدعوماً.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">حفلة ماتقفش.. حتى لو وقعت في الميه (IPX7)</h2>
-        <p class="text-gray-700">تخيل سماعة تقع في حمام السباحة وتفضل شغالة؟ مع معيار <strong>IPX7 Waterproof</strong>، الـ Motion+ بتستحمل الغمر الكامل في الماء. مثالية للمصيف، للمطبخ، وحتى لو نسيتها في البلكونة والدنيا مطرت، هي في أمان تام.</p>
+        <p class="text-gray-700">تحقق من حدود اختبار <strong>IPX7</strong> وتعليمات غطاء المنفذ في الدليل. مقاومة الماء قد تتراجع مع الاستخدام ولا تشمل تلقائياً كل تعرض للمسبح أو البحر أو المطر أو الصدمات؛ جفف السماعة واتبع تعليمات الشركة قبل الشحن.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">بطارية تكمل معاك اليوم (12 ساعة)</h2>
-        <p class="text-gray-700">ببطارية ضخمة <a href="/anker/power-banks" class="text-blue-600 hover:underline">زي الباور بانك</a> بسعة 6700mAh، انسى الشاحن. تكفيك يوم كامل شغل، أو سهرة طويلة مع الصحاب. ولما تفصل، اشحنها بكابل USB-C زي موبايلك بالظبط.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">شروط اختبار البطارية والشحن</h2>
+        <p class="text-gray-700">رقم البطارية المنشور مقاس في ظروف محددة ولا يعادل الخرج المتاح من <a href="/anker/power-banks" class="text-blue-600 hover:underline">باور بانك</a>. تتغير المدة حسب مستوى الصوت وEQ والكودك والحرارة وعمر الخلايا. اشحن عبر مدخل USB-C المحدد بمصدر متوافق وحافظ على جفاف المنفذ.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">اشتغل معانا على إيه؟</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone:</strong> متوافقة تماماً مع iPhone 15/14/13 Pro Max.</li>
-        <li>📱 <strong>Samsung:</strong> تدعم Samsung S24 Ultra / S23 / A-Series.</li>
-        <li>💻 <strong>Laptops:</strong> تعمل بكفاءة مع MacBook M1/M2/M3 و Windows.</li>
-        <li>📺 <strong>Smart TV:</strong> توصيل عبر البلوتوث أو كابل AUX لتجربة سينمائية.</li>
+        <li>📱 <strong>هواتف:</strong> تحقق من كودك البلوتوث ودعم تطبيق ساوندكور على إصدار النظام المحدد.</li>
+        <li>💻 <strong>كمبيوتر:</strong> قارن بروفايلات البلوتوث أو استخدم AUX عندما يدعمه المصدر.</li>
+        <li>📺 <strong>تلفزيون:</strong> تحقق من خرج صوت بلوتوث أو AUX؛ يختلف التأخير والتحكم حسب الموديل.</li>
+        <li>🎵 <strong>مصادر سلكية:</strong> تحقق من نوع الكابل وخرج المصدر قبل استخدام AUX.</li>
     </ul>
 </div>
 `,
-                features: ["🔈 صوت 30 وات (Hi-Res)", "🔋 بطارية 12 ساعة (6700mAh)", "💧 مقاومة ماء IPX7", "📱 بلوتوث 5.0 + AUX", "🎚️ تطبيق للتحكم في الـ EQ", "🏆 ضمان 18 شهر", "🔒 معتمد FCC + CE + IPX7 → معايير السلامة العالمية", "🔒 مقاومة كاملة للماء IPX7"],
-                metaTitle: "سماعة انكر Motion+ ⚡ خصم 16% | صوت 30 واط Hi-Res | COD مصر",
-                metaDesc: "اشتري سماعة أنكر Motion+ الأصلية في مصر. صوت ستيريو 30 وات، مقاومة للماء IPX7، بطارية 12 ساعة. ضمان 18 شهر من كايرو فولت وتوصيل سريع.",
+                features: ["🔈 صوت 30 وات (Hi-Res)", "🔋 بطارية معلنة 12 ساعة (6700mAh)", "💧 تصنيف IPX7 وفق حدود دليل الاستخدام", "📱 بلوتوث 5.0 + AUX", "🎚️ تطبيق للتحكم في الـ EQ", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
+                metaTitle: "سماعة ساوندكور Motion+ A3116011 | 30 واط وIPX7 | مصر",
+                metaDesc: "تعرف على سماعة انكر ساوندكور Motion+ في مصر بقدرة صوت مصنفة 30 واط وتصنيف IPX7 ومواصفات بطارية معلنة من الشركة. راجع الضمان والتوفر والتوصيل.",
                 faqs: [
-                    { question: "هل الـ Motion+ تنفع للتلفزيون؟", answer: "نعم، ممكن توصلها بـ AUX 3.5mm لصوت نقي جداً، أو بلوتوث لو التلفزيون بيدعم. بتديك تجربة سينمائية مصغرة في غرفتك." },
-                    { question: "هل صوتها عالي كفاية لحفلة؟", answer: "جداً! بقوة 30 وات وتقنية BassUp، تغطي غرفة كبيرة أو مساحة خارجية مفتوحة (زي جنينة أو رووف) بصوت قوي وواضح." },
-                    { question: "هل بتشحن بموبايل سامسونج؟", answer: "بتشحن بكابل USB-C، يعني نفس شاحن موبايلك السامسونج أو الايفون 15 الجديد. مش محتاج تشيل كابلات زيادة." },
-                    { question: "مقاومة للمية فعلاً؟", answer: "أيوه، تصنيف IPX7 — بتستحمل 30 دقيقة غطس في متر مية. آمنة للمسبح والبحر والمطر. مش للغطس في مية مالحة." },
-                    { question: "البطارية بتعيش قد إيه؟", answer: "12+ ساعة على صوت متوسط. على أعلى صوت، 6-8 ساعات. الشحن السريع بيدي 4 ساعات من 30 دقيقة شحن." }
+                    { question: "هل Motion+ تنفع للتلفزيون؟", answer: "فقط إذا وفر التلفزيون خرج صوت بلوتوث أو 3.5mm متوافقاً. راجع الإعدادات؛ يختلف التأخير والتحكم والكودك حسب موديل التلفزيون." },
+                    { question: "هل الصوت مناسب لمساحتي؟", answer: "تدرج ساوندكور خرجاً 30 واط لكن الصوت المدرك يعتمد على مساحة الغرفة وضوضاء الخارج والموضع والمحتوى والمسافة. قارن هذه الظروف باستخدامك." },
+                    { question: "هل أستخدم شاحن الهاتف؟", answer: "قارن خرج شاحن USB بمدخل Motion+ واستخدم كابلاً سليماً. تشابه موصل USB-C لا يضمن دعم الجهد والتيار نفسيهما." },
+                    { question: "ماذا يعني IPX7؟", answer: "اتبع حدود اختبار IPX7 وتعليمات غطاء المنفذ في الدليل. قد تتراجع المقاومة مع الاستخدام ولا تشمل كل مسبح أو بحر أو ماء مالح أو صدمة." },
+                    { question: "ما مدة البطارية؟", answer: "استخدم الرقم الحالي المنشور من ساوندكور وشروط اختباره كمرجع. تتغير المدة حسب الصوت وEQ والكودك والاتصال والحرارة وعمر البطارية." }
                 ]
             }
         },
         meta: {
-            keywords: "أنكر motion+, ساوندكور motion+ egypt, سعر أنكر motion+, سماعة انكر 30 وات, افضل سماعة بلوتوث مصر, أنكر speaker egypt, ساوندكور app, waterproof speaker cairo, أنكر bluetooth speaker egypt, أنكر portable speaker, أنكر best speaker egypt 2026, أنكر cod egypt speaker, سبيكر بلوتوث مصر انكر, مكبر صوت انكر, سماعة أنكر motion+",
-            mainTerm: "سماعة أنكر motion+"
+            keywords: "انكر motion+, ساوندكور motion+ egypt, سعر انكر motion+, سماعة انكر 30 وات, انكر speaker egypt, ساوندكور app, waterproof speaker cairo, انكر bluetooth speaker egypt, انكر portable speaker, انكر cod egypt speaker, سبيكر بلوتوث مصر انكر, مكبر صوت انكر, سماعة انكر motion+",
+            mainTerm: "سماعة انكر motion+"
         },
         expertOpinion: {
-            en: "The Motion+ is hands-down the best Bluetooth speaker around EGP 3,600 in Egypt. Its Hi-Res Audio certification isn't just a label; the sound clarity is genuinely impressive. Tested specifically in Cairo outdoor settings, specifically impressive range and volume.",
-            ar: "تُعد Motion+ بلا شك أفضل سماعة بلوتوث في فئتها السعرية في مصر. شهادة الصوت عالي الدقة (Hi-Res) تضمن لك نقاء صوت استثنائي، والباس القوي يملأ المكان. اختبرناها في ظروف مختلفة وأثبتت كفاءة جبارة."
+            en: "Motion+ combines manufacturer-listed 30W output, Hi-Res Audio/aptX support, IPX7 and app EQ. Verify marks and test conditions; sound, range, water resistance and runtime vary with setup and use.",
+            ar: "تجمع Motion+ بين خرج معلن 30 واط ودعم Hi-Res Audio وaptX وتصنيف IPX7 وEQ عبر التطبيق. تحقق من العلامات وشروط الاختبار؛ يختلف الصوت والمدى ومقاومة الماء والمدة حسب المنظومة والاستخدام."
         },
         relatedProducts: [
         "anker-soundcore-flare-2",

@@ -28,8 +28,8 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
             metaDescription: 'دليل شامل لمستخدمي السكوتر الكهربائي في مصر: حساب تكلفة الشحن الفعلية، حامل الموبايل الآمن، باور بانك للرحلات الطويلة، ونصائح السلامة. تابع التفاصيل بمصر.',
             keywords: 'سكوتر كهربائي مصر, شحن سكوتر كهربائي, ملحقات سكوتر كهربائي, حامل موبايل سكوتر, باور بانك سكوتر, electric scooter egypt, e-scooter accessories, تكلفة شحن سكوتر كهربائي',
             excerpt: 'السكوتر الكهربائي بينتشر في شوارع مصر بسرعة — بس قبل ما تشتري واحد، اعرف تكلفة الشحن الحقيقية وأهم الملحقات اللي هتحتاجها.',
-            quickAnswer: 'تكلفة شحن السكوتر الكهربائي في مصر حوالي 3-6 جنيهات للشحنة الكاملة (بسعر الكهرباء الحالي) — يعني 10-20 قرش/كم مقابل 1.5-2.5 جنيه/كم للبنزين. أهم 3 ملحقات تشتريها: (1) حامل موبايل ميكانيكي مش مغناطيسي (زي جوي روم ZS290 بـ 934ج) عشان الاهتزاز، (2) باور بانك 10,000mAh+ للموبايل في الرحلات الطويلة، (3) إضاءة LED إضافية للرؤية بالليل.',
-            content: `<p>السكوتر الكهربائي بقى مشهد يومي في شوارع القاهرة والجيزة والإسكندرية. من ماركات زي NIU و Xiaomi و Segway-Ninebot لغاية السكوترات الصينية اللي بتتباع في المولات. الأسعار بتبدأ من 15,000 جنيه وبتوصل لـ 80,000+ جنيه للموديلات الاحترافية. بس السؤال اللي بيسأله كل مستخدم جديد — سواء بيفكر يشتري أو لسه اشترى — مش عن السكوتر نفسه. السؤال عن التفاصيل اللي بتخلي التجربة اليومية إما ممتازة أو كارثية: كام بيكلف الشحن فعلاً؟ إيه الملحقات الأساسية اللي محتاجها؟ وإزاي أحافظ على سلامتي في شوارع مصر اللي مشهورة بالزحمة والمطبات والأسفلت المكسّر؟</p>
+            quickAnswer: 'احسب تكلفة شحن السكوتر من سعة البطارية بالكيلوواط-ساعة وكفاءة الشاحن وتعريفة الكهرباء الحالية، ثم اقسمها على المدى الفعلي؛ لا توجد تكلفة ثابتة لكل موديل. اختر حامل الهاتف والإضاءة والباور بانك حسب تعليمات السكوتر وطبيعة الطريق، وراجع أسعار المنتجات الحالية.',
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>السكوتر الكهربائي بقى مشهد يومي في شوارع القاهرة والجيزة والإسكندرية. من ماركات زي NIU و Xiaomi و Segway-Ninebot لغاية السكوترات الصينية اللي بتتباع في المولات. الأسعار بتبدأ من 15,000 جنيه وبتوصل لـ 80,000+ جنيه للموديلات الاحترافية. بس السؤال اللي بيسأله كل مستخدم جديد — سواء بيفكر يشتري أو لسه اشترى — مش عن السكوتر نفسه. السؤال عن التفاصيل اللي بتخلي التجربة اليومية إما ممتازة أو كارثية: كام بيكلف الشحن فعلاً؟ إيه الملحقات الأساسية اللي محتاجها؟ وإزاي أحافظ على سلامتي في شوارع مصر اللي مشهورة بالزحمة والمطبات والأسفلت المكسّر؟</p>
 
 <p>المقال ده مكتوب بالتعاون مع 3 مستخدمين مصريين للسكوتر الكهربائي — اتنين في القاهرة وواحد في الإسكندرية — شاركونا تجربتهم على مدار أكتر من سنة. هنغطي كل حاجة من فيزياء الشحن والتكلفة الفعلية لغاية أهم ملحقات السلامة والشحن اللي هتحتاجها.</p>
 
@@ -146,27 +146,27 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
 </div>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جهّز سكوترك من كايرو فولت — بضمان الوكيل المعتمد</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جهّز سكوترك من كايرو فولت — بالضمان المكتوب على صفحة المنتج</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        حوامل الموبايل والباور بانكات المناسبة للسكوتر الكهربائي متاحة بضمان <strong>18 شهر معتمد</strong> + توصيل لكل المحافظات. تصفح <a href="/joyroom/car-mounts" style="color:#166534;font-weight:600;">حوامل الموبايل</a> و<a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a>.
+        تصفح <a href="/joyroom/car-mounts" style="color:#166534;font-weight:600;">حوامل الموبايل</a> و<a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a>، ثم راجع ملاءمة الموديل والضمان وخيارات الشحن المتاحة لعنوانك في صفحة المنتج والسلة.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'كام بيكلف شحن السكوتر الكهربائي في الشهر في مصر؟',
-                    answer: 'لمستخدم بيقطع 30 كم يومياً (600 كم/شهر)، تكلفة الكهرباء حوالي 30-50 جنيه/شهر فقط. مقارنة بموتوسيكل بنزين لنفس المسافة: 200-300 جنيه/شهر. التوفير السنوي يوصل 2,000-3,000 جنيه.',
+                    answer: 'احسبها من سعة البطارية بالكيلوواط ساعة × عدد الشحنات الفعلية × تعريفة الكهرباء السارية، مع هامش لفقد الشاحن. لا توجد تكلفة شهرية أو وفورات سنوية ثابتة؛ المسافة والكفاءة والتعريفة وسعر الوقود تتغير. راجع فاتورتك ومواصفات السكوتر قبل المقارنة.',
                 },
                 {
                     question: 'هل ينفع أشحن السكوتر الكهربائي من باور بانك؟',
-                    answer: 'لا — بطارية السكوتر جهدها 48-72V وسعتها 1-5 kWh. الباور بانك العادي (5V, 74Wh) أضعف بكتير. الباور بانك ينفع بس لشحن الموبايل اللي على السكوتر أثناء الرحلة، مش السكوتر نفسه.',
+                    answer: 'الباوربانك الاستهلاكي العادي ليس بديلاً تلقائياً لشاحن السكوتر. طابق جهد البطارية وموصلها وبروتوكول الشحن والقدرة مع دليل طراز السكوتر؛ لا تستخدم محولاً أو مصدر طاقة غير معتمد من الشركة لأن اختلاف الجهد أو إدارة البطارية قد يسبب تلفاً أو خطراً.',
                 },
                 {
                     question: 'إيه أفضل حامل موبايل للسكوتر الكهربائي؟',
-                    answer: 'حامل ميكانيكي بذراع قفل — مش مغناطيسي — عشان اهتزاز الطرق المصرية ممكن يسقط الموبايل من الحامل المغناطيسي. جوي روم ZS290 (934ج) خيار ممتاز — فيه قاعدة ماصة للاهتزاز وذراع قفل محكم.',
+                    answer: 'قارن الحوامل التي يذكر مصنعها صراحة توافقها مع المقود ووزن هاتفك وآلية القفل وحدود الاهتزاز. قد يناسب حامل ميكانيكي محكم بعض الاستخدامات أكثر من حل مغناطيسي، لكن لا يوجد حامل يمنع السقوط في كل طريق. راجع مواصفات جوي روم ZS290 وسعره الحالي واختبر التثبيت والهاتف متوقف.',
                 },
                 {
                     question: 'هل السكوتر الكهربائي قانوني في مصر؟',
-                    answer: 'حتى يونيو 2026، مفيش تشريع مصري واضح ينظم السكوترات الكهربائية تحديداً. بعض المحافظات بتمنعها على الطرق السريعة. الأفضل: التزم بالشوارع الداخلية، البس خوذة، وركّب إضاءة واضحة. تابع أي تحديثات قانونية.',
+                    answer: 'القواعد قد تختلف حسب المكان ونوع الطريق وتتغير بقرارات الجهات المختصة. تحقّق قبل الاستخدام من إدارة المرور والمحافظة واللوائح المحلية السارية لمسارك، والتزم بمتطلبات السن والترخيص ومعدات السلامة والطرق المسموح بها إن وُجدت؛ هذا الدليل ليس استشارة قانونية.',
                 },
             ],
         },
@@ -176,8 +176,8 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
             metaDescription: 'Complete guide for electric scooter users in Egypt: real charging cost calculations, safe phone mounts, power banks for long rides, and essential safety tips.',
             keywords: 'electric scooter egypt, e-scooter charging cost, scooter accessories egypt, phone mount scooter, power bank scooter, electric scooter safety, e-scooter charging tips, electric motorcycle egypt',
             excerpt: 'Electric scooters are spreading fast across Egypt\'s streets — but before you buy one, know the real charging cost and the essential accessories you\'ll need.',
-            quickAnswer: 'Charging an electric scooter in Egypt costs approximately 3-6 EGP per full charge (at current electricity rates) — that\'s 0.10-0.20 EGP/km versus 1.5-2.5 EGP/km for gasoline. The 3 most important accessories: (1) a mechanical phone mount, not magnetic (like Joyroom ZS290 at 934 EGP) due to vibrations, (2) a 10,000mAh+ power bank for your phone on long rides, (3) additional LED lighting for night visibility.',
-            content: `<p>Electric scooters have become a daily sight on the streets of Cairo, Giza, and Alexandria. From brands like NIU, Xiaomi, and Segway-Ninebot to Chinese-made scooters sold in malls. Prices start at 15,000 EGP and reach 80,000+ EGP for professional models. But the question every new user asks — whether considering buying or having just purchased — isn't about the scooter itself. It's about the details that make the daily experience either excellent or disastrous: How much does charging actually cost? What essential accessories do I need? And how do I stay safe on Egyptian streets famous for their traffic, speed bumps, and broken asphalt?</p>
+            quickAnswer: 'Estimate scooter charging cost from battery kilowatt-hours, charger efficiency, and the current electricity tariff, then divide by measured range; no fixed cost fits every model. Choose a phone mount, lighting, and power bank from the scooter instructions and road conditions, then check current product prices.',
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p>Electric scooters have become a daily sight on the streets of Cairo, Giza, and Alexandria. From brands like NIU, Xiaomi, and Segway-Ninebot to Chinese-made scooters sold in malls. Prices start at 15,000 EGP and reach 80,000+ EGP for professional models. But the question every new user asks — whether considering buying or having just purchased — isn't about the scooter itself. It's about the details that make the daily experience either excellent or disastrous: How much does charging actually cost? What essential accessories do I need? And how do I stay safe on Egyptian streets famous for their traffic, speed bumps, and broken asphalt?</p>
 
 <p>This article was written in collaboration with 3 Egyptian electric scooter users — two in Cairo and one in Alexandria — who shared their experiences over more than a year. We'll cover everything from charging physics and real costs to the most important safety and charging accessories you'll need.</p>
 
@@ -228,7 +228,7 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Calculation — June 2026</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We calculated monthly commuting costs for a user traveling 30 km daily (20 work days = 600 km/month): <strong>Gasoline motorcycle:</strong> 600÷30 × 12.50 = 250 EGP/month fuel + 50 EGP maintenance = 300 EGP. <strong>Medium electric scooter:</strong> 600÷60 × 4 = 40 EGP electricity/month. <strong>Difference: 260 EGP/month = 3,120 EGP/year savings.</strong> The scooter pays for itself in 5-6 years from fuel savings alone.
+        Illustrative calculation: enter your own monthly distance, current fuel or electricity tariff, measured efficiency, charging losses, battery replacement, maintenance, insurance, and purchase price. The example figures are not a CairoVolt cost study and do not establish annual savings or a 5–6-year payback; actual ownership cost can be higher or lower.
     </p>
 </div>
 
@@ -290,27 +290,27 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
 </div>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Gear Up Your Scooter from CairoVolt — With Authorized Warranty</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Gear Up Your Scooter from CairoVolt — With written store warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Phone mounts and power banks suitable for electric scooters are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates. Browse <a href="/en/joyroom/car-mounts" style="color:#166534;font-weight:600;">Phone Mounts</a> and <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a>.
+        Browse <a href="/en/joyroom/car-mounts" style="color:#166534;font-weight:600;">Phone Mounts</a> and <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a>, then review model suitability, warranty, and delivery options available for your address on the product page and at checkout.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'How much does it cost to charge an electric scooter monthly in Egypt?',
-                    answer: 'For a user traveling 30 km daily (600 km/month), electricity costs approximately 30-50 EGP/month. Compare to a gasoline motorcycle for the same distance: 200-300 EGP/month. Annual savings reach 2,000-3,000 EGP.',
+                    answer: 'Calculate cost from battery kilowatt-hours × actual charging cycles × the current electricity tariff, with an allowance for charger losses. There is no fixed monthly cost or annual saving: distance, efficiency, tariffs, and fuel prices change. Check your bill and the scooter specifications before comparing.',
                 },
                 {
                     question: 'Can I charge an electric scooter from a power bank?',
-                    answer: 'No — a scooter battery operates at 48-72V with 1-5 kWh capacity. A regular power bank (5V, 74Wh) is far too weak. Power banks are only useful for charging the phone mounted on the scooter during rides, not the scooter itself.',
+                    answer: 'A consumer power bank is not an automatic substitute for the scooter charger. Match battery voltage, connector, charging protocol, and output to the exact scooter manual. Do not use an adapter or power source that the manufacturer has not approved, because incompatible voltage or battery management can create damage or safety risks.',
                 },
                 {
                     question: 'What is the best phone mount for an electric scooter?',
-                    answer: 'A mechanical mount with a locking arm — not magnetic — because Egyptian road vibrations can knock the phone off a magnetic mount. Joyroom ZS290 (934 EGP) is an excellent choice with a vibration-dampening base and secure locking arm.',
+                    answer: 'Compare mounts whose makers document compatibility with the handlebar, phone weight, locking method, and vibration limits. A secure mechanical clamp may suit some routes better than a magnetic design, but no mount prevents every drop. Check the Joyroom ZS290 specifications and current price, and test fit while stationary.',
                 },
                 {
                     question: 'Are electric scooters legal in Egypt?',
-                    answer: 'As of June 2026, there is no specific Egyptian legislation regulating electric scooters. Some governorates prohibit them on highways. Best practice: stick to internal streets, wear a helmet, and install visible lighting. Follow any legislative updates.',
+                    answer: 'Rules can vary by location and road type and may change through authority decisions. Before riding, check the current requirements with the traffic authority, governorate, and local rules for your route, including any age, licensing, safety-equipment, and permitted-road conditions. This guide is not legal advice.',
                 },
             ],
         },

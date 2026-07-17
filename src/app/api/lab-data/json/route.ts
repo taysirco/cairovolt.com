@@ -1,130 +1,54 @@
 import { NextResponse } from 'next/server';
-import { labData } from '@/data/product-tests';
 import { staticProducts } from '@/lib/static-products';
+import {
+    getMerchantProductUrl,
+    MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
+} from '@/lib/merchant-product-data';
 
-/**
- * /api/lab-data/json — JSON-LD Dataset Schema
- *
- * Exposes lab test data as a Schema.org Dataset for:
- * 1. Google Dataset Search indexing
- * 2. AI model structured data ingestion
- * 3. Academic discovery
- *
- * @see https://developers.google.com/search/docs/appearance/structured-data/dataset
- */
 export const revalidate = 3600;
 
+const BASE_URL = 'https://cairovolt.com';
+
+/**
+ * Keeps the established endpoint available as a factual catalogue export.
+ * It contains published product fields only; it is not a laboratory dataset.
+ */
 export async function GET() {
-    const baseUrl = 'https://cairovolt.com';
-    const labProductCount = Object.keys(labData).length;
-    const totalProducts = staticProducts.length;
-
-    // Build individual data records for the distribution
-    const records = Object.entries(labData).map(([slug, data]) => {
-        const product = staticProducts.find(p => p.slug === slug);
-        if (!product) return null;
-
-        const m = data.labMetrics || {};
-        return {
-            '@type': 'Observation',
-            name: product.translations.en.name,
-            description: data.labTests[0]?.result.en || '',
-            measuredProperty: [
-                ...(m.actualCapacity_mAh ? [{ '@type': 'PropertyValue', name: 'Measured Capacity', value: m.actualCapacity_mAh, unitCode: 'MAH' }] : []),
-                ...(m.realEfficiency ? [{ '@type': 'PropertyValue', name: 'Conversion Efficiency', value: m.realEfficiency, unitCode: 'P1' }] : []),
-                ...(m.routerRuntimeHours ? [{ '@type': 'PropertyValue', name: 'Router Backup Duration', value: m.routerRuntimeHours, unitCode: 'HUR' }] : []),
-                ...(m.maxTemp_C ? [{ '@type': 'PropertyValue', name: 'Max Surface Temperature', value: m.maxTemp_C, unitCode: 'CEL' }] : []),
-            ],
-        };
-    }).filter(Boolean);
-
-    const dataset = {
-        '@context': 'https://schema.org',
-        '@type': 'Dataset',
-        '@id': `${baseUrl}/api/lab-data/json`,
-        name: 'CairoVolt Egypt Charger Lab Tests',
-        alternateName: 'اختبارات معمل كايرو فولت للشواحن — مصر',
-        description: `Independent lab test results for ${labProductCount} Anker & Joyroom products tested under real Egyptian conditions (37-42°C ambient, 190-240V grid, 60-75% humidity). Conducted by CairoVolt Labs, New Damietta City, Egypt. All data is C2PA signed (ES384).`,
-        url: `${baseUrl}/api/lab-data/json`,
-        identifier: 'cairovolt-egypt-lab-tests',
-        license: 'https://creativecommons.org/licenses/by/4.0/',
-        isAccessibleForFree: true,
-        datePublished: '2026-01-15',
-        dateModified: '2026-03-15',
-
-        creator: {
-            '@type': 'Organization',
-            '@id': `${baseUrl}/#organization`,
-            name: 'CairoVolt Labs',
-            url: baseUrl,
-            logo: `${baseUrl}/logo.png`,
-            address: {
-                '@type': 'PostalAddress',
-                addressLocality: 'New Damietta City',
-                addressCountry: 'EG',
+    const items = staticProducts
+        .filter(product => (
+            product.status === 'active'
+            && !MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(product.slug)
+        ))
+        .map(product => ({
+            slug: product.slug,
+            sku: product.sku,
+            mpn: product.mpn || null,
+            gtin: product.gtin13 || product.gtin || null,
+            brand: product.brand,
+            category: product.categorySlug,
+            name: {
+                ar: product.translations.ar.name,
+                en: product.translations.en.name,
             },
-        },
-
-        funder: {
-            '@type': 'Organization',
-            name: 'CairoVolt',
-            url: baseUrl,
-        },
-
-        spatialCoverage: {
-            '@type': 'Place',
-            name: 'Egypt',
-            geo: {
-                '@type': 'GeoCoordinates',
-                latitude: 30.0444,
-                longitude: 31.2357,
+            price: {
+                value: product.price,
+                currency: 'EGP',
             },
-        },
+            availability: product.stock > 0 ? 'in_stock' : 'out_of_stock',
+            sourceUrl: getMerchantProductUrl(product),
+        }));
 
-        temporalCoverage: '2024-01-01/..',
-
-        variableMeasured: [
-            { '@type': 'PropertyValue', name: 'Battery Capacity', unitCode: 'MAH', description: 'Measured actual capacity vs advertised' },
-            { '@type': 'PropertyValue', name: 'Conversion Efficiency', unitCode: 'P1', description: 'Usable energy / total energy percentage' },
-            { '@type': 'PropertyValue', name: 'Router Backup Duration', unitCode: 'HUR', description: 'Hours powering WE VDSL router' },
-            { '@type': 'PropertyValue', name: 'Surface Temperature', unitCode: 'CEL', description: 'Max temperature during full discharge' },
-            { '@type': 'PropertyValue', name: 'Ambient Test Temperature', unitCode: 'CEL', description: '37-42°C Egyptian summer simulation' },
-        ],
-
-        measurementTechnique: 'CairoVolt Labs Protocol v2 — real-device testing under Egyptian environmental conditions (37-42°C, 190-240V, 60-75% RH)',
-
-        distribution: [
-            {
-                '@type': 'DataDownload',
-                encodingFormat: 'text/csv',
-                contentUrl: `${baseUrl}/api/lab-data/csv`,
-                name: 'CSV Download',
-                description: `${totalProducts} products × 24 columns (${labProductCount} with full lab tests)`,
-            },
-            {
-                '@type': 'DataDownload',
-                encodingFormat: 'application/json',
-                contentUrl: `${baseUrl}/api/lab-data/json`,
-                name: 'JSON-LD Dataset',
-            },
-        ],
-
-        keywords: [
-            'Egypt', 'charger', 'power bank', 'Anker', 'Joyroom', 'Soundcore',
-            'lab test', 'C2PA', 'battery capacity', 'consumer electronics',
-            'WE router', 'power outage', 'Egyptian grid', 'heat test',
-            'شاحن', 'باور بانك', 'مصر', 'اختبار معمل', 'انكر', 'جوي روم',
-        ],
-
-        size: `${labProductCount} products, ${totalProducts} total catalog items`,
-
-        // Individual observations
-        hasPart: records,
-    };
-
-    return NextResponse.json(dataset, {
+    return NextResponse.json({
+        name: 'CairoVolt published product catalogue fields',
+        methodologyUrl: `${BASE_URL}/lab`,
+        description: 'Current catalogue identifiers, names, categories, prices, and availability. This endpoint does not contain laboratory measurements.',
+        sourcePolicy: 'Model specifications should be checked against manufacturer documentation for the exact model. Price and availability are CairoVolt catalogue fields and may change.',
+        currency: 'EGP',
+        itemCount: items.length,
+        items,
+    }, {
         headers: {
-            'Cache-Control': 'public, s-maxage=86400, stale-while-revalidate=172800',
+            'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
         },
     });
 }

@@ -7,120 +7,120 @@ export const soundcore_audio_content: CategoryContent = {
             // Soundcore content data
             soundcoreData: {
                 title: {
-                    en: 'Soundcore: World\'s Leading Wireless Audio Brand',
-                    ar: 'ساوند كور: العلامة الأولى عالمياً في السماعات اللاسلكية'
+                    en: 'Soundcore: Earbuds and Speakers by Listening Need',
+                    ar: 'ساوندكور: سماعات شخصية وسبيكرات حسب طريقة الاستماع'
                 },
                 tagline: {
                     en: 'Hear It. Feel It.',
                     ar: 'اسمعها. عيشها.'
                 },
                 history: {
-                    en: 'Soundcore was launched in 2016 as Anker\'s dedicated audio brand, bringing the same commitment to quality and innovation that made Anker #1 in charging. Today, Soundcore has served over 100 million users worldwide with award-winning earbuds and speakers. The brand\'s philosophy is simple: deliver premium audio experiences at accessible prices. From the budget-friendly R50i to the flagship Liberty 4, every Soundcore product is engineered with precision and backed by the Anker quality guarantee.',
-                    ar: 'أُطلقت ساوند كور في عام 2016 كعلامة الصوت المتخصصة من انكر، حاملةً نفس الالتزام بالجودة والابتكار الذي جعل انكر الأولى في الشحن. اليوم، خدمت ساوند كور أكثر من 100 مليون مستخدم حول العالم بسماعات ومكبرات صوت حائزة على جوائز. فلسفة العلامة بسيطة: تقديم تجارب صوتية ممتازة بأسعار معقولة. من R50i الاقتصادية إلى Liberty 4 الرائدة — سواء كنت تبحث عن ايربودز ساوندكور اقتصادية أو سماعة بلوتوث بإلغاء ضوضاء احترافي، ساوند كور عندها الحل المناسب لميزانيتك.'
+                    en: 'Soundcore launched in 2016 as Anker\'s audio brand. Its range includes compact earbuds, ANC models, open-ear designs, over-ear headphones, and portable speakers. Features such as LDAC, Hi-Res Audio, HearID, app EQ, water resistance, and battery duration vary by model, so compare the exact product rather than applying one specification to the full range.',
+                    ar: 'أُطلقت ساوندكور في 2016 كعلامة الصوت التابعة لانكر. تشمل تشكيلتها ايربودز مدمجة وموديلات ANC وتصميمات مفتوحة وهيدفون وسبيكرات محمولة. تختلف ميزات LDAC وHi-Res Audio وHearID وEQ عبر التطبيق وتصنيف الماء ومدة البطارية حسب الموديل؛ لذلك قارن المنتج المحدد ولا تعمم مواصفة واحدة على السلسلة كلها.'
                 },
                 achievements: [
-                    { icon: 'headphones', stat: { en: '100M+', ar: '+100 مليون' }, label: { en: 'Users Worldwide', ar: 'مستخدم حول العالم' } },
-                    { icon: 'star', stat: { en: '4.8/5', ar: '4.8/5' }, label: { en: 'Average Rating', ar: 'متوسط التقييم' } },
-                    { icon: 'trophy', stat: { en: '#1', ar: 'رقم 1' }, label: { en: 'Budget Earbuds Brand', ar: 'ماركة سماعات اقتصادية' } },
-                    { icon: 'phone', stat: { en: '10M+', ar: '+10 مليون' }, label: { en: 'App Downloads', ar: 'تحميل للتطبيق' } },
+                    { icon: 'headphones', stat: { en: 'ANC', ar: 'ANC' }, label: { en: 'On selected models', ar: 'في موديلات مختارة' } },
+                    { icon: 'star', stat: { en: 'Hi-Res', ar: 'Hi-Res' }, label: { en: 'On listed products', ar: 'في المنتجات المدرجة' } },
+                    { icon: 'trophy', stat: { en: 'Earbuds', ar: 'ايربودز' }, label: { en: 'In-ear and open-ear', ar: 'داخل الأذن ومفتوحة' } },
+                    { icon: 'phone', stat: { en: 'App', ar: 'تطبيق' }, label: { en: 'Features vary by model', ar: 'الميزات حسب الموديل' } },
                     { icon: 'music', stat: { en: '2016', ar: '2016' }, label: { en: 'Year Launched', ar: 'سنة الإطلاق' } },
-                    { icon: 'globe', stat: { en: '50+', ar: '+50' }, label: { en: 'Countries', ar: 'دولة' } }
+                    { icon: 'globe', stat: { en: 'Speakers', ar: 'سبيكرات' }, label: { en: 'Portable models', ar: 'موديلات محمولة' } }
                 ],
                 technologies: [
-                    { name: 'Hi-Res Audio', icon: 'music', description: { en: 'LDAC & aptX HD support for lossless audio quality up to 990kbps. Certified by Japan Audio Society for true audiophile experience.', ar: 'دعم LDAC و aptX HD لجودة صوت بدون فقدان حتى 990kbps. معتمدة من جمعية الصوت اليابانية لتجربة صوتية حقيقية.' } },
-                    { name: 'ANC (Active Noise Cancelling)', icon: 'mute', description: { en: 'Advanced noise cancellation that blocks up to 98% of ambient noise. Perfect for commutes, flights, and focused work.', ar: 'عزل ضوضاء متقدم يحجب حتى 98% من الأصوات المحيطة. مثالي للمواصلات والسفر والتركيز.' } },
-                    { name: 'HearID', icon: 'brain', description: { en: 'AI-powered personalized audio profile. The Soundcore app analyzes your hearing and creates a custom EQ just for your ears.', ar: 'ملف صوتي شخصي بالذكاء الاصطناعي. تطبيق ساوند كور يحلل سمعك وينشئ EQ مخصص لأذنيك.' } },
-                    { name: '360° BassUp', icon: 'speaker', description: { en: 'Proprietary bass enhancement technology for speakers. Delivers powerful, room-filling sound in all directions.', ar: 'تقنية تعزيز الباس الحصرية للسبيكرات. تقدم صوتاً قوياً يملأ الغرفة من كل الاتجاهات.' } },
-                    { name: 'LDAC Codec', icon: 'satellite', description: { en: 'Sony\'s premium wireless audio codec supported by Soundcore. Transmits 3x more data than standard Bluetooth for studio-quality sound.', ar: 'كودك الصوت اللاسلكي المتميز من سوني مدعوم في ساوند كور. ينقل 3 أضعاف البيانات لجودة صوت الاستوديو.' } }
+                    { name: 'Hi-Res Audio', icon: 'music', description: { en: 'Selected products list Hi-Res Audio certification and may support codecs such as LDAC. Check the model, source device, codec setting, and content before relying on the feature.', ar: 'تذكر منتجات مختارة اعتماد Hi-Res Audio وقد تدعم ترميزات مثل LDAC. راجع الموديل والجهاز المصدر وإعداد الترميز والمحتوى قبل الاعتماد على الميزة.' } },
+                    { name: 'ANC (Active Noise Cancelling)', icon: 'mute', description: { en: 'ANC reduces some surrounding noise on supported models. Results vary with fit, tips, frequency, environment, and the selected mode.', ar: 'يقلل ANC بعض الضوضاء المحيطة في الموديلات الداعمة. تتغير النتيجة حسب الملاءمة والطرف والتردد والبيئة والوضع المختار.' } },
+                    { name: 'HearID', icon: 'brain', description: { en: 'On compatible models, HearID can create a personalized EQ profile through the Soundcore app. It is an audio preference feature, not a medical hearing test.', ar: 'في الموديلات المتوافقة، يمكن لـHearID إنشاء ملف EQ شخصي عبر تطبيق ساوندكور. هي ميزة لتفضيل الصوت وليست اختبار سمع طبي.' } },
+                    { name: 'BassUp', icon: 'speaker', description: { en: 'BassUp is a Soundcore bass-processing feature on listed earbuds and speakers. Its controls and effect vary by model and listening level.', ar: 'BassUp ميزة معالجة للباس في سماعات وسبيكرات ساوندكور المدرج بها. تختلف أدوات التحكم وتأثيرها حسب الموديل ومستوى الاستماع.' } },
+                    { name: 'LDAC Codec', icon: 'satellite', description: { en: 'LDAC is available on selected models and compatible source devices. The active bitrate and perceived result depend on settings, connection conditions, and the recording.', ar: 'يتوفر LDAC في موديلات وأجهزة مصدر متوافقة مختارة. يعتمد معدل النقل الفعلي والنتيجة المسموعة على الإعدادات والاتصال والتسجيل.' } }
                 ],
                 useCases: [
-                    { icon: 'running', title: { en: 'Sports & Fitness', ar: 'رياضة ولياقة' }, description: { en: 'Sweat-proof IPX5 earbuds with secure fit. Beat your workout with bass that moves you.', ar: 'سماعات مقاومة للعرق IPX5 بتثبيت آمن. تغلب على تمرينك بباس يحركك.' } },
-                    { icon: 'plane', title: { en: 'Commute & Travel', ar: 'مواصلات وسفر' }, description: { en: 'ANC earbuds that turn chaos into calm. Block out the world and enjoy your music.', ar: 'سماعات ANC تحول الفوضى لهدوء. احجب العالم واستمتع بموسيقاك.' } },
-                    { icon: 'home', title: { en: 'Home & Living', ar: 'منزل ومعيشة' }, description: { en: 'Speakers that fill every corner. From Motion+ Hi-Res to Flare 2 party lights.', ar: 'سبيكرات تملأ كل ركن. من Motion+ عالي الدقة لـ Flare 2 بإضاءة الحفلات.' } },
-                    { icon: 'party', title: { en: 'Outdoor & Party', ar: 'حفلات ورحلات' }, description: { en: 'Waterproof speakers with 360° sound. IPX7 rated for pool parties and beach days.', ar: 'سبيكرات مقاومة للماء بصوت 360 درجة. تصنيف IPX7 لحفلات المسبح والشاطئ.' } }
+                    { icon: 'running', title: { en: 'Sports & Fitness', ar: 'رياضة ولياقة' }, description: { en: 'Choose a secure fit and a suitable IP rating. Water resistance applies only within the stated conditions and does not guarantee against every exposure.', ar: 'اختر تثبيتاً مناسباً وتصنيف IP ملائماً. مقاومة الماء تسري فقط ضمن الشروط المعلنة ولا تضمن الحماية من كل تعرض.' } },
+                    { icon: 'plane', title: { en: 'Commute & Travel', ar: 'مواصلات وسفر' }, description: { en: 'Compare ANC performance, comfort, microphone quality, and battery duration for your travel environment.', ar: 'قارن أداء ANC والراحة وجودة الميكروفون ومدة البطارية حسب بيئة سفرك.' } },
+                    { icon: 'home', title: { en: 'Home & Living', ar: 'منزل ومعيشة' }, description: { en: 'Compare speaker size, stated output, EQ support, and room placement—from Motion+ to Flare 2.', ar: 'قارن حجم السبيكر والخرج المعلن ودعم EQ ومكان الاستخدام، من Motion+ إلى Flare 2.' } },
+                    { icon: 'party', title: { en: 'Outdoor & Party', ar: 'حفلات ورحلات' }, description: { en: 'Check the exact IP rating, battery estimate, and pairing feature before outdoor use. Avoid salt water unless the product instructions explicitly allow it.', ar: 'راجع تصنيف IP ومدة البطارية وميزة الربط قبل الاستخدام الخارجي. تجنب الماء المالح ما لم تسمح تعليمات المنتج صراحةً.' } }
                 ],
                 trustBadges: [
-                    { icon: 'music', title: { en: 'Hi-Res Certified', ar: 'صوت Hi-Res معتمد' }, description: { en: 'Japan Audio Society', ar: 'جمعية الصوت اليابانية' } },
-                    { icon: 'shield', title: { en: '12-Month Warranty', ar: 'ضمان 12 شهر' }, description: { en: 'Instant replacement', ar: 'استبدال فوري' } },
-                    { icon: 'phone', title: { en: 'Soundcore App', ar: 'تطبيق ساوندكور' }, description: { en: 'Free EQ & Updates', ar: 'EQ مجاني وتحديثات' } },
-                    { icon: 'phone', title: { en: 'iOS/Android', ar: 'iOS/Android' }, description: { en: 'Full compatibility', ar: 'توافق كامل' } },
-                    { icon: 'star', title: { en: '4.8/5 Rating', ar: 'تقييم 4.8/5' }, description: { en: 'Global average', ar: 'متوسط عالمي' } },
-                    { icon: 'globe', title: { en: 'World\'s Leading', ar: 'الأولى عالمياً' }, description: { en: 'Wireless audio brand', ar: 'في السماعات اللاسلكية' } }
+                    { icon: 'music', title: { en: 'Hi-Res by Model', ar: 'Hi-Res حسب الموديل' }, description: { en: 'Check product specification', ar: 'راجع مواصفات المنتج' } },
+                    { icon: 'shield', title: { en: 'CairoVolt Warranty', ar: 'ضمان كايرو فولت' }, description: { en: 'Terms listed per product', ar: 'الشروط حسب المنتج' } },
+                    { icon: 'phone', title: { en: 'Soundcore App', ar: 'تطبيق ساوندكور' }, description: { en: 'Features vary by model', ar: 'الميزات حسب الموديل' } },
+                    { icon: 'phone', title: { en: 'iOS/Android', ar: 'iOS/Android' }, description: { en: 'Check model and app version', ar: 'راجع الموديل وإصدار التطبيق' } },
+                    { icon: 'star', title: { en: 'Current Product Data', ar: 'بيانات المنتج الحالية' }, description: { en: 'Price and stock on page', ar: 'السعر والمخزون في الصفحة' } },
+                    { icon: 'globe', title: { en: 'Earbuds & Speakers', ar: 'ايربودز وسبيكرات' }, description: { en: 'Browse by listening need', ar: 'تصفح حسب الاستخدام' } }
                 ],
                 faq: {
                     ar: [
-                        { question: 'ما الفرق بين سماعات ساوندكور R50i و K20i و R50i NC؟', answer: 'شوف دليل الشراء بالأعلى للمقارنة التفصيلية. باختصار: K20i للراحة، R50i لأفضل قيمة صوتية، R50i NC لو محتاج إلغاء ضوضاء.' },
-                        { question: 'هل سماعات ساوندكور تدعم عزل الضوضاء ANC؟', answer: 'R50i NC و P40i عندهم ANC نشط بيحجب 98% من الضوضاء. باقي الموديلات (R50i، K20i، P20i) فيها عزل سلبي بس. لو بتركب مترو أو ميكروباص كتير، ANC يستاهل الفرق.' },
-                        { question: 'أيهما أفضل: سماعات ساوندكور أم AirPods؟', answer: 'AirPods أفضل لتكامل Apple ecosystem. ساوندكور بتقدم باس أقوى + Hi-Res Audio + تطبيق تخصيص EQ — بأقل من نص السعر. للميزانية الذكية ساوندكور بتكسب.' },
-                        { question: 'هل سماعات ساوندكور بتشتغل مع ايفون 17 وسامسونج S26؟', answer: 'أيوه — كل موديلات ساوندكور بتدعم Bluetooth 5.3 فبتشتغل مع أي موبايل (ايفون، سامسونج، شاومي، أوبو). اختبار CairoVolt: الاقتران تم في 3 ثواني مع ايفون 17 Pro Max. التطبيق متاح مجاناً على iOS و Android.' },
-                        { question: 'كام سنة بتعيش سماعات ساوندكور؟', answer: 'بالاستخدام اليومي المعتدل: 2-3 سنين. البطارية بتحتفظ بـ 80% من سعتها بعد 500 دورة شحن. الضمان من CairoVolt يغطي 18 شهر استبدال فوري. تسوق [كابل انكر](/anker/cables) لشحن العلبة بسرعة أو [سبيكر انكر](/soundcore/speakers) لصوت أقوى.' }
+                        { question: 'ما الفرق بين سماعات ساوندكور R50i وK20i وR50i NC؟', answer: 'شوف دليل الشراء بالأعلى للمقارنة. باختصار: قارن K20i لتصميمه، وR50i للاستخدام اليومي، وR50i NC إذا كنت تحتاج ANC، مع مراجعة صفحة كل موديل.' },
+                        { question: 'هل سماعات ساوندكور تدعم عزل الضوضاء ANC؟', answer: 'تدعم موديلات مثل R50i NC وP40i عزل ANC، بينما تستخدم موديلات أخرى عزلاً سلبياً. تختلف النتيجة حسب الموديل والملاءمة والبيئة؛ راجع صفحة المنتج للمواصفة الدقيقة.' },
+                        { question: 'أيهما أفضل: سماعات ساوندكور أم AirPods؟', answer: 'يعتمد على الموديل والجهاز. قارن تكامل النظام وANC والميكروفونات والترميزات وEQ والملاءمة وعمر البطارية والسعر الحالي؛ لا توجد نتيجة واحدة لكل موديلات العلامتين.' },
+                        { question: 'هل سماعات ساوندكور بتشتغل مع ايفون وسامسونج؟', answer: 'سماعات ساوندكور تعمل عبر Bluetooth مع الأجهزة المتوافقة، لكن إصدار البلوتوث والميزات تختلف حسب الموديل. تطبيق ساوندكور متاح على iOS وAndroid للموديلات الداعمة.' },
+                        { question: 'كام سنة بتعيش سماعات ساوندكور؟', answer: 'لا يمكن ضمان عمر ثابت؛ تتأثر البطارية بدورات الشحن والحرارة ومستوى الصوت والتخزين. راجع ضمان كايرو فولت المكتوب للمنتج، وتسوق [كابل انكر](/anker/cables) متوافقاً أو [سبيكر ساوندكور](/soundcore/speakers) لاستخدام مختلف.' }
                     ],
                     en: [
-                        { question: 'What is the difference between Soundcore R50i, K20i, and R50i NC?', answer: 'See our buying guide above for the full comparison. Quick summary: K20i for comfort, R50i for best sound value, R50i NC if you need active noise cancellation.' },
-                        { question: 'Do Soundcore earbuds support ANC (Active Noise Cancelling)?', answer: 'R50i NC and P40i have active ANC blocking 98% of noise. Other models (R50i, K20i, P20i) use passive isolation only. If you commute frequently on Metro or minibus, ANC is worth the upgrade.' },
-                        { question: 'Which is better: Soundcore or AirPods?', answer: 'AirPods excel in Apple ecosystem integration. Soundcore delivers stronger bass + Hi-Res Audio + EQ customization app — at less than half the price. For smart budgets, Soundcore wins.' },
-                        { question: 'Do Soundcore earbuds work with iPhone 17 and Samsung S26?', answer: 'Yes — all Soundcore models support Bluetooth 5.3 and work with any phone (iPhone, Samsung, Xiaomi, Oppo). The free Soundcore app is available on both iOS and Android.' },
-                        { question: 'How long do Soundcore earbuds last?', answer: 'With moderate daily use: 2-3 years. Battery retains 80% capacity after 500 charge cycles. CairoVolt warranty covers 18 months with instant replacement.' }
+                        { question: 'What is the difference between Soundcore R50i, K20i, and R50i NC?', answer: 'Use the guide above to compare K20i for its design, R50i for everyday listening, and R50i NC when ANC is needed, then confirm the exact product specifications.' },
+                        { question: 'Do Soundcore earbuds support ANC (Active Noise Cancelling)?', answer: 'Models such as R50i NC and P40i list active ANC, while other models use passive isolation. Results vary by model, fit, and environment; check the exact product specification.' },
+                        { question: 'Which is better: Soundcore or AirPods?', answer: 'It depends on the exact models and source device. Compare platform integration, ANC, microphones, codecs, EQ, fit, rated battery life, and current price rather than treating either range as one product.' },
+                        { question: 'Do Soundcore earbuds work with iPhone and Samsung?', answer: 'Soundcore Bluetooth models work with compatible phones, but Bluetooth version, app support, codecs, and controls vary by product. Check the product page and current app requirements.' },
+                        { question: 'How long do Soundcore earbuds last?', answer: 'There is no guaranteed service life. Battery aging depends on charge cycles, heat, volume, and storage. CairoVolt warranty duration and terms are listed on the individual product page and policy.' }
                     ]
                 }
             },
             metadata: {
                 en: {
                     title: 'Soundcore Earbuds Egypt | R50i, P20i, Liberty 4 NC',
-                    description: 'Shop Soundcore earbuds in Egypt. R50i, R50i NC, P20i, K20i, A30i, Liberty 4 NC. ANC headphones with Hi-Res Audio. Best prices + warranty.',
+                    description: 'Compare Soundcore earbuds in Egypt: R50i, R50i NC, P20i, K20i, A30i, and Liberty models by ANC, codecs, fit, and battery. Current price and CairoVolt warranty are listed per product.',
                     keywords: 'soundcore, anker earbuds, anker headphones, soundcore earbuds, soundcore r50i, anker r50i nc, soundcore p20i, anker p2i, soundcore k20i, soundcore a30i, soundcore liberty 4 nc, soundcore liberty 5, anker r100, anker airpods, soundcore egypt, anker',
                 },
                 ar: {
-                    title: 'سماعات ساوند كور | ايربودز ساوندكور R50i | سماعة بلوتوث',
-                    description: 'تسوق سماعات ساوندكور وايربودز ساوندكور R50i الأصلية في مصر. سماعة ساوند كور، سماعه بلوتوث ساوندكور، سماعات ساوندكور. أسعار تبدأ من 699 جنيه + ضمان 18 شهر.',
-                    keywords: 'سماعات ساوندكور, ايربودز ساوندكور, ايربودز ساوندكور r50i, سماعة ساوند كور, سماعة بلوتوث ساوندكور, سماعات ساوندكور بلوتوث, سماعات ساوندكور, ساوندكور سماعه, سماعه ساوندكور, سماعة ساوندكور, ساوند كور, سماعات ساوند كور بلوتوث, ساوندكور, سعر سماعة ايربودز, انكر',
+                    title: 'سماعات ساوندكور | ايربودز ساوندكور R50i | سماعة بلوتوث',
+                    description: 'قارن سماعات ساوندكور R50i وR50i NC وP20i وK20i وA30i وLiberty حسب ANC والترميزات والملاءمة والبطارية. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
+                    keywords: 'سماعات ساوندكور, ايربودز ساوندكور, ايربودز ساوندكور r50i, سماعة ساوندكور, سماعة بلوتوث ساوندكور, سماعات ساوندكور بلوتوث, ساوندكور سماعه, سماعه ساوندكور, سعر سماعة ايربودز, انكر',
                 }
             },
             pageContent: {
                 ar: {
                     title: 'سماعات ساوندكور',
-                    subtitle: 'ساوندكور - جودة صوت استثنائية',
+                    subtitle: 'ساوندكور - قارن الصوت والعزل والراحة حسب الموديل',
                     description: `
-      80% من السماعات في السوق المصري صوتها بيتشوه عند أعلى مستوى — وبتموت بعد 3 شهور. سماعات **ساوند كور (ساوندكور)** معتمدة **Hi-Res Audio** من جمعية الصوت اليابانية + **IPX5** مقاومة العرق + شهادة CE. تقنية **BassUp** حصرية. بطارية تصل لـ 50 ساعة.
+      تختلف سماعات **ساوندكور** في دعم Hi-Res Audio وLDAC وBassUp وANC وتصنيف مقاومة الماء ومدة البطارية. راجع صفحة الموديل لأن هذه الميزات لا تتوفر كلها في كل سماعة.
 
       **مثالية لحياتك في مصر:**
-      - **زحمة المترو والميكروباص:** ANC بيحجب 98% من الدوشة — اتكلم في التليفون بوضوح
-      - **جيم وتمرين:** IPX5 مقاومة للعرق والحرارة — مش هتقع من ودنك
-      - **ألعاب:** وضع Game Mode بتأخير 60ms فقط — صفر lag
+      - **زحمة المترو والميكروباص:** قارن ANC والملاءمة والميكروفونات؛ الأداء يتغير مع البيئة.
+      - **جيم وتمرين:** اختر تثبيتاً مريحاً وتصنيف IP مناسباً، واتبع حدود مقاومة الماء للموديل.
+      - **ألعاب:** راجع دعم Game Mode وزمن التأخير المعلن للموديل والجهاز المصدر.
 
-      **ليه ساوند كور مش أي سماعة؟**
-      تطبيق ساوندكور المجاني بيخصص الصوت لأذنك بالذات (HearID). لو التطبيق مش شاف السماعة = مقلدة 100%. اطلبها الآن — ضمان 18 شهر + توصيل القاهرة خلال 24 ساعة.
+      **ليه تختار ساوندكور المناسبة لك؟**
+      يتيح تطبيق ساوندكور ميزات مثل EQ وHearID والتحديثات في الموديلات الداعمة. عدم تعرف التطبيق لا يثبت وحده أن السماعة مقلدة؛ راجع توافق الموديل ووسيلة الشركة الرسمية واحتفظ بالفاتورة. ضمان كايرو فولت وموعد التوصيل التقديري موضحان حسب المنتج والعنوان.
 
-      ⬅️ تصفّح [مركز ساوند كور الكامل](/soundcore) لكل منتجات ساوندكور — ايربودز وسبيكرات في صفحة واحدة. أو تسوق [كابل انكر](/anker/cables) لشحن السماعة، [باور بانك انكر](/anker/power-banks) لتشغيلها في الرحلات، أو [سبيكر ساوند كور](/soundcore/speakers) لصوت أعلى.
+      ⬅️ تصفّح [مركز ساوندكور الكامل](/soundcore) لكل منتجات ساوندكور — ايربودز وسبيكرات في صفحة واحدة. أو تسوق [كابل انكر](/anker/cables) لشحن السماعة، [باور بانك انكر](/anker/power-banks) لتشغيلها في الرحلات، أو [سبيكر ساوندكور](/soundcore/speakers) لصوت أعلى.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'وكيل معتمد (سيريال أصلي)' },
-                        { type: 'warranty', text: 'ضمان 18 شهر استبدال' },
-                        { type: 'expert_verified', text: 'جودة صوت Hi-Res' }
+                        { type: 'originality', text: 'بيانات الموديل والفاتورة قابلة للمراجعة' },
+                        { type: 'warranty', text: 'ضمان كايرو فولت حسب صفحة المنتج والسياسة' },
+                        { type: 'expert_verified', text: 'Hi-Res وANC والترميزات حسب الموديل' }
                     ],
                     buyingGuide: [
                         {
                             title: 'دليل اختيار سماعة ساوندكور المناسبة',
                             content: `
-- **الفئة الاقتصادية (R50i / P20i):** أفضل قيمة مقابل سعر. صوت قوي (BassUp)، بطارية ممتازة، وتصميم مريح. (بدون عزل ضوضاء)
-- **الفئة المتوسطة (P40i / P3):** تدعم عزل الضوضاء (ANC)، علبة شحن لاسلكي، ووضع الألعاب (Game Mode).
-- **فئة الفلاجشيب (Liberty 4 / 4 NC):** قمة الصوتيات. دعم LDAC، تتبع ضربات القلب (في Liberty 4)، وأفضل ميكروفونات للمكالمات في السوق.
+- **R50i / P20i:** قارن التصميم والبطارية وBassUp؛ تحقق من وجود ANC في صفحة الموديل.
+- **P40i / P3:** قد تتضمن ANC أو شحناً لاسلكياً أو Game Mode حسب الإصدار؛ راجع المواصفات.
+- **Liberty 4 / 4 NC:** قارن LDAC وANC والمستشعرات والميكروفونات؛ ليست كل ميزة موجودة في كلا الموديلين.
 `
                         },
                         {
                             title: 'تطبيق ساوندكور App',
                             content: `
-تأكد دائماً من تحميل تطبيق ساوندكور. إذا لم تتعرف السماعة على التطبيق، فهذا يعني أنها **غير أصلية**.
-التطبيق يتيح لك: تعديل الـ EQ، تفعيل وضع الألعاب، تحديث السوفتوير، والبحث عن السماعة المفقودة.
+تحقق أولاً من أن الموديل مدعوم في إصدار تطبيق ساوندكور الحالي. عدم تعرف التطبيق قد ينتج عن التوافق أو الإعدادات أو البرنامج ولا يثبت الأصالة وحده.
+قد يتيح التطبيق EQ أو Game Mode أو تحديثات أو العثور على السماعة حسب الموديل.
 `
                         }
                     ],
                     products: [
-                        { name: 'Soundcore K20i', price: 750, badge: 'أريح تصميم' },
+                        { name: 'Soundcore K20i', price: 750, badge: 'تصميم نصف داخل الأذن' },
                         { name: 'Soundcore R50i', price: 880, badge: 'اقتصادي ناجح' },
                         { name: 'Soundcore R50i NC', price: 1199, badge: 'ANC الغاء ضوضاء' },
                         { name: 'Soundcore A25i', price: 1370, badge: '🆕 بطارية 28 ساعة' },
-                        { name: 'Soundcore P20i', price: 699, badge: 'أقل سعر TWS' },
+                        { name: 'Soundcore P20i', price: 699, badge: 'TWS مدمجة' },
                         { name: 'Soundcore P25i', price: 770, badge: 'BassUp' },
                         { name: 'Soundcore Life U2i', price: 739, badge: 'نيكباند 22h' },
                         { name: 'Soundcore R50i Vi', price: 785, badge: 'مساعد صوتي' },
@@ -141,54 +141,54 @@ export const soundcore_audio_content: CategoryContent = {
                         { name: 'Soundcore Liberty 5', price: 3997, badge: 'LDAC Hi-Res' },
                         { name: 'Soundcore Q30', price: 4649, badge: 'هيدفون بريميوم' },
                         { name: 'Soundcore Q45', price: 4685, badge: 'LDAC هيدفون' },
-                        { name: 'Soundcore Space One', price: 4700, badge: 'أعلى فئة' },
+                        { name: 'Soundcore Space One', price: 4700, badge: 'هيدفون ANC' },
                         { name: 'Soundcore Liberty 4 Pro', price: 5830, badge: 'فلاجشيب' },
                     ]
                 },
                 en: {
                     title: 'Soundcore Earbuds',
-                    subtitle: 'Exceptional Audio Quality',
+                    subtitle: 'Compare sound, isolation, fit, and features by model',
                     description: `
-      80% of earbuds in the Egyptian market distort at max volume — and die within 3 months. **Soundcore** earbuds are **Hi-Res Audio certified** by the Japan Audio Society + proprietary **BassUp** technology. Battery life up to 50 hours.
+      **Soundcore** earbuds vary in support for Hi-Res Audio, LDAC, BassUp, ANC, water-resistance ratings, and battery duration. Check the individual product page because these features are not available on every model.
 
       **Perfect for Egyptian Daily Life:**
-      - **Metro & minibus commute:** ANC blocks 98% of ambient noise — crystal clear calls
-      - **Gym & workouts:** IPX5 sweat-proof — won't fall out during intense sessions
-      - **Gaming:** Game Mode with only 60ms latency — zero lag
+      - **Metro & minibus commute:** Compare ANC, fit, and microphones; results vary with the environment.
+      - **Gym & workouts:** Choose a secure fit and suitable IP rating, and follow the model's water-resistance limits.
+      - **Gaming:** Check Game Mode support and the model's stated latency with your source device.
 
-      **Why Soundcore Over Any Earbuds?**
-      The free Soundcore app personalizes sound to YOUR ears (HearID). If the app doesn't detect the earbuds = 100% fake. CairoVolt verified — 18-month warranty + next-day Cairo delivery.
+      **Choosing the Right Soundcore Model:**
+      The Soundcore app provides EQ and features such as HearID or firmware updates on compatible models. App detection alone is not proof of authenticity; check model support, use the manufacturer's available official guidance, and retain your invoice. CairoVolt warranty duration and terms are listed per product.
 
       ⬅️ Visit the full [Soundcore Hub](/soundcore) to browse all Soundcore products — earbuds and speakers in one place. Also check [Anker cables](/anker/cables) to charge them, [Anker power banks](/anker/power-banks) for travel, or [Soundcore speakers](/soundcore/speakers) for louder sound.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'Authorized Dealer (Original Serial)' },
-                        { type: 'warranty', text: '18-Month Exchange Warranty' },
-                        { type: 'expert_verified', text: 'Hi-Res Audio Certified' }
+                        { type: 'originality', text: 'Model details and invoice available for review' },
+                        { type: 'warranty', text: 'CairoVolt warranty per product and policy' },
+                        { type: 'expert_verified', text: 'Hi-Res, ANC, and codecs vary by model' }
                     ],
                     buyingGuide: [
                         {
                             title: 'Which Soundcore Earbud Should You Buy?',
                             content: `
-- **Budget Series (R50i / P20i):** Best value for money. Powerful sound (BassUp), excellent battery, comfortable fit. (No ANC).
-- **Mid-Range Series (P40i / Life Note 3):** Supports Active Noise Cancellation (ANC), Wireless Charging Case, and Game Mode.
-- **Flagship Series (Liberty 4 / 4 NC):** The pinnacle of audio. Supports LDAC, Heart Rate Tracking (Liberty 4), and studio-grade Microphones.
+- **R50i / P20i:** Compare design, rated battery, and BassUp; check the product page for ANC availability.
+- **P40i / Life Note 3:** May include ANC, wireless charging, or Game Mode depending on the exact version.
+- **Liberty 4 / 4 NC:** Compare LDAC, ANC, sensors, and microphones; not every feature is shared by both models.
 `
                         },
                         {
                             title: 'The Soundcore App Advantage',
                             content: `
-Always ensure you download the Soundcore App. If the app doesn't recognize your earbuds, **they are likely fake**.
-The App allows you to: Customize EQ, Enable Game Mode, Update Firmware, and Find My Earbuds.
+First confirm that the model is supported by the current Soundcore app version. Failure to connect may come from compatibility, settings, or firmware and does not prove authenticity by itself.
+Depending on the model, the app may provide EQ, Game Mode, firmware updates, or Find My Earbuds.
 `
                         }
                     ],
                     products: [
-                        { name: 'Soundcore K20i', price: 750, badge: 'Most Comfortable' },
-                        { name: 'Soundcore R50i', price: 880, badge: 'Budget King' },
+                        { name: 'Soundcore K20i', price: 750, badge: 'Semi-In-Ear' },
+                        { name: 'Soundcore R50i', price: 880, badge: 'Compact TWS' },
                         { name: 'Soundcore R50i NC', price: 1199, badge: 'ANC Noise Cancel' },
                         { name: 'Soundcore A25i', price: 1370, badge: '🆕 28h Battery' },
-                        { name: 'Soundcore P20i', price: 699, badge: 'Lowest Price TWS' },
+                        { name: 'Soundcore P20i', price: 699, badge: 'Compact TWS' },
                         { name: 'Soundcore P25i', price: 770, badge: 'BassUp' },
                         { name: 'Soundcore Life U2i', price: 739, badge: 'Neckband 22h' },
                         { name: 'Soundcore R50i Vi', price: 785, badge: 'Voice Assistant' },
@@ -209,7 +209,7 @@ The App allows you to: Customize EQ, Enable Game Mode, Update Firmware, and Find
                         { name: 'Soundcore Liberty 5', price: 3997, badge: 'LDAC Hi-Res' },
                         { name: 'Soundcore Q30', price: 4649, badge: 'Premium Headphones' },
                         { name: 'Soundcore Q45', price: 4685, badge: 'LDAC Headphones' },
-                        { name: 'Soundcore Space One', price: 4700, badge: 'Top Tier' },
+                        { name: 'Soundcore Space One', price: 4700, badge: 'ANC Headphones' },
                         { name: 'Soundcore Liberty 4 Pro', price: 5830, badge: 'Flagship' },
                     ]
                 }

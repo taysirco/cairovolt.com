@@ -29,7 +29,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
             keywords: 'شاحن سيارة 3 أجهزة, توزيع قدرة شاحن سيارة, شحن 3 موبايلات في السيارة, شاحن سيارة 60 واط, شاحن سيارة متعدد المنافذ, power distribution car charger, شاحن جوي روم 60 واط سيارة, شاحن انكر سيارة مصر, شحن موبايل وتابلت في السيارة, أفضل شاحن سيارة متعدد',
             excerpt: 'دليل توزيع 60 واط على 3 أجهزة في شاحن سيارة واحد — سيناريوهات واقعية وجداول توزيع القدرة مع أفضل شواحن متعددة المنافذ في مصر.',
             quickAnswer: 'شاحن سيارة 60W مش بيقسم القدرة بالتساوي — كل جهاز بيتفاوض على احتياجه. موبايل بياخد 15-25W، تابلت بياخد 15-20W، والباقي للجهاز التالت. أفضل استراتيجية: وصّل الجهاز الأكتر احتياجاً الأول على منفذ USB-C PD، والباقي على USB-A. شاحن جوي روم 60W بيوزّع القدرة تلقائياً بين 3 منافذ بدون تدخل منك.',
-            content: `
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p class="content-method-note"><strong>أساس المقارنة:</strong> تعتمد الأرقام التالية على المواصفات المنشورة أو أمثلة حسابية موضحة، وتتغير النتيجة حسب الجهاز والحرارة وطريقة الاستخدام.</p>
 <p>الموقف ده هيبقى مألوف عند أي حد عنده عيلة أو صحاب: إنت سايق على طريق الساحل، الموبايل بتاعك على 8% عشان Google Maps شغال من ساعة ما طلعت من المعادي، مراتك — أو صاحبك — قاعد جنبك والموبايل بتاعه على 15% عشان كان بيعمل Reels على الطريق، وفي الكرسي الخلفي واحد تالت بيسأل "ممكن أشحن عندكم؟" وموبايله على 3%. إنت عندك شاحن سيارة واحد فيه 3 منافذ وبيطلع 60 واط. السؤال اللي بيفرض نفسه: مين هياخد كام واط؟ وهل الـ 60 واط دول هيتقسموا 20-20-20 بالعدل؟ يا ريت! الموضوع أعقد من كده — وأذكى.</p>
 
 <p>لو فاكر إن الشاحن بيقسم القدرة بالتساوي زي ما تقسم بيتزا على 3، إنت غلطان. الشاحن الذكي أشبه بأب مصري بيوزّع المصروف: مش بالتساوي، لكن حسب الاحتياج. اللي محتاج كتير بياخد كتير، واللي بطاريته شبه مليانة بياخد حتة صغيرة. وفي المقال ده هنشرح بالأرقام والفيزياء — من غير لغة خشب — إزاي الـ 60 واط بيتوزعوا فعلياً على 3 أجهزة، وإيه اللي ممكن يغلط، وإزاي تضمن إن كل جهاز ياخد نصيبه.</p>
@@ -129,7 +129,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <h2>أخطاء مصرية شائعة في شحن أجهزة متعددة في السيارة</h2>
 
-<p>من خبرتنا في كايرو فولت وتعاملنا مع آلاف العملاء، فيه 6 أخطاء بنشوفها كل يوم:</p>
+<p>بناءً على مبادئ توزيع القدرة والمواصفات المنشورة، دي 6 أخطاء شائعة تستحق المراجعة؛ لا نقدمها كإحصاء داخلي عن آلاف العملاء:</p>
 
 <h3>❌ الخطأ الأول: استخدام سبليتر ولاعة سجاير رخيص</h3>
 
@@ -269,7 +269,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <div class="cta-box" style="background:linear-gradient(135deg,#1e40af 0%,#3b82f6 100%);border-radius:12px;padding:32px 24px;margin:32px 0;text-align:center;">
     <p style="font-size:20px;font-weight:700;color:#fff;margin:0 0 12px;">🔌 جهّز عربيتك لأي رحلة</p>
-    <p style="font-size:15px;color:#dbeafe;margin:0 0 20px;">شواحن سيارة أصلية من انكر وجوي روم — ضمان 18 شهر + توصيل لكل المحافظات.</p>
+    <p style="font-size:15px;color:#dbeafe;margin:0 0 20px;">تصفح شواحن سيارة انكر وجوي روم، وراجع الموديل والضمان وخيارات الشحن المتاحة لعنوانك في صفحة المنتج والسلة.</p>
     <p style="margin:0;"><a href="/joyroom/car-chargers" style="display:inline-block;background:#fff;color:#1e40af;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">تسوّق شواحن السيارة</a></p>
 </div>
 
@@ -310,7 +310,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
             keywords: 'car charger 3 devices, power distribution car charger, charging 3 phones car, 60w car charger, multi port car charger, car charger power splitting, joyroom 60w car charger, anker car charger egypt, charging phone tablet car, best multi device car charger',
             excerpt: 'A guide to distributing 60 watts across 3 devices on a single car charger — real-world scenarios and power distribution tables with the best multi-port car chargers in Egypt.',
             quickAnswer: 'A 60W car charger doesn\'t split power equally — each device negotiates its needs. A phone takes 15-25W, a tablet takes 15-20W, and the remainder goes to the third device. Best strategy: connect the most depleted device first to the USB-C PD port, and the rest to USB-A. The Joyroom 60W charger automatically distributes power across 3 ports without manual intervention.',
-            content: `
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p class="content-method-note"><strong>Evidence base:</strong> The figures below use published specifications or clearly stated worked examples; results vary by device, temperature, and use.</p>
 <p>Here's a scene you've probably lived through: you're driving down the Cairo-Alexandria Desert Road at 6 AM, your phone is at 8% because Google Maps has been running since Maadi, your passenger's phone is at 15% from recording Reels the entire trip, and someone in the back seat asks "can I charge mine too?" with their phone at 3%. You've got one car charger with 3 ports pumping out 60 watts total. The million-dollar question: who gets how many watts? Will the charger split 60W into a neat 20-20-20? Not even close. The reality is far more interesting — and far smarter.</p>
 
 <p>If you think a car charger divides power equally like slicing a pizza three ways, you're in for a surprise. A smart charger works more like a seasoned Egyptian father distributing pocket money: not equally, but according to need. The device that needs the most gets the most, and the one with a nearly full battery gets a trickle. In this guide, we'll break down — with actual numbers and physics, no jargon — exactly how 60 watts get distributed across 3 devices, what can go wrong, and how to ensure every device gets its fair share.</p>
@@ -410,7 +410,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <h2>Common Egyptian Mistakes in Multi-Device Car Charging</h2>
 
-<p>From our experience at CairoVolt dealing with thousands of customers, here are 6 mistakes we see every day:</p>
+<p>Based on power-distribution principles and published specifications, here are six common mistakes to review; this is not presented as an internal dataset about thousands of customers:</p>
 
 <h3>❌ Mistake #1: Using a Cheap Cigarette Lighter Splitter</h3>
 
@@ -550,7 +550,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <div class="cta-box" style="background:linear-gradient(135deg,#1e40af 0%,#3b82f6 100%);border-radius:12px;padding:32px 24px;margin:32px 0;text-align:center;">
     <p style="font-size:20px;font-weight:700;color:#fff;margin:0 0 12px;">🔌 Equip Your Car for Any Trip</p>
-    <p style="font-size:15px;color:#dbeafe;margin:0 0 20px;">Original car chargers from Anker and Joyroom — 18-month warranty + delivery to all governorates across Egypt.</p>
+    <p style="font-size:15px;color:#dbeafe;margin:0 0 20px;">Browse Anker and Joyroom car chargers, then review model, warranty, and delivery options available for your address on the product page and at checkout.</p>
     <p style="margin:0;"><a href="/en/joyroom/car-chargers" style="display:inline-block;background:#fff;color:#1e40af;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">Shop Car Chargers</a></p>
 </div>
 
@@ -580,7 +580,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
                 },
                 {
                     question: 'What is the difference between USB-C and USB-A ports in power distribution?',
-                    answer: 'USB-C PD can deliver up to 60W from a single port because it supports higher voltages (5V/9V/12V/15V/20V). USB-A is limited to 5V × 2.4A = 12W maximum. That means USB-C delivers 3-5x the power of USB-A. Always connect your most important or most depleted device to the USB-C port.'
+                    answer: 'Connector shape alone does not define output. USB-C ports may support USB PD profiles, while USB-A ports can use several vendor protocols; the available power also changes with the charger model and simultaneous-port allocation. Match each device and cable to the exact port table, and prioritize the device that needs the documented higher-power profile.'
                 },
             ],
         },

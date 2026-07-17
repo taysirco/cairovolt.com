@@ -77,9 +77,6 @@ export default function VariantSelector({
                 {variants.map((variant, idx) => {
                     const isSelected = variant.id === selectedVariantId;
                     const isOutOfStock = variant.stock <= 0;
-                    const discount = variant.originalPrice
-                        ? Math.round((1 - variant.price / variant.originalPrice) * 100)
-                        : 0;
 
                     return (
                         <button
@@ -167,16 +164,6 @@ export default function VariantSelector({
                                         {isRTL ? 'ج.م' : 'EGP'}
                                     </span>
                                 </div>
-                                {discount > 0 && !isOutOfStock && (
-                                    <div className="flex items-center gap-1 mt-0.5">
-                                        <span className="text-[9px] sm:text-[10px] line-through text-gray-400">
-                                            {variant.originalPrice.toLocaleString()}
-                                        </span>
-                                        <span className="text-[9px] sm:text-[10px] font-bold text-green-600 bg-green-50 dark:bg-green-900/30 px-1 py-0.5 rounded">
-                                            -{discount}%
-                                        </span>
-                                    </div>
-                                )}
                             </div>
 
                             {/* Stock indicator — الرقم مخفي عمداً: المخزون الحقيقي يُدار في

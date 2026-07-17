@@ -1,8 +1,12 @@
 // Server Component — structured data
 // DO NOT add 'use client' here!
-import { brandEntities, getEntitiesForCategory } from '@/data/brand-entities';
-import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import {
+    getGtinSchemaProperty,
+    getMerchantGtin,
+    getMerchantProductUrl,
+    normalizeMpn,
+} from '@/lib/merchant-product-data';
 
 interface ProductSchemaProps {
     product: {
@@ -11,14 +15,12 @@ interface ProductSchemaProps {
         brand: string;
         categorySlug?: string;
         price: number;
-        originalPrice?: number;
         stock: number;
         videoUrl?: string;
-        // GS1 Web Vocabulary fields for AI product identification
-        gtin?: string;      // Global Trade Item Number (EAN-13)
-        gtin13?: string;    // Alias for GTIN
-        mpn?: string;       // Manufacturer Part Number
-        images: Array<{ url: string; alt: string }>;
+        gtin?: string;
+        gtin13?: string;
+        mpn?: string;
+        images: Array<{ url: string; alt: string; width?: number; height?: number }>;
         translations: {
             en: { name: string; description: string };
             ar: { name: string; description: string };
@@ -47,18 +49,7 @@ interface ProductSchemaProps {
     specifications?: Record<string, { en: string; ar: string }>;
     // Products this item is an accessory for (e.g., routers, laptops)
     isAccessoryOrSparePartFor?: Array<{ name: string }>;
-    // Expert review from CairoVolt Labs
-    expertReview?: {
-        name: string;
-        profileUrl: string;
-        title: string;
-        body: string;
-    };
 }
-
-// Price validity — Google requires priceValidUntil. Using stable end-of-year date
-// avoids constant changes that can trigger "frequently changing structured data" warnings.
-const PRICE_VALID_UNTIL = '2026-12-31';
 
 // Strip HTML tags and truncate for JSON-LD description (Google max: 5000 chars)
 function getPlainTextDescription(html: string, maxLength: number = 4990): string {
@@ -75,11 +66,17 @@ function getPlainTextDescription(html: string, maxLength: number = 4990): string
     return text;
 }
 
-export function ProductSchema({ product, locale, aggregateRating, reviews, specifications, isAccessoryOrSparePartFor, expertReview }: ProductSchemaProps) {
+function getAbsoluteUrl(url: string, baseUrl: string): string {
+    return /^https?:\/\//i.test(url) ? url : `${baseUrl}${url}`;
+}
+
+export function ProductSchema({ product, locale, aggregateRating, reviews, specifications, isAccessoryOrSparePartFor }: ProductSchemaProps) {
     const t = product.translations[locale as 'en' | 'ar'] || product.translations.en;
     const isArabic = locale === 'ar';
     const baseUrl = 'https://cairovolt.com';
-    const productUrl = `${baseUrl}${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${(product.categorySlug || '').toLowerCase()}/${product.slug}`;
+    const productUrl = getMerchantProductUrl(product, locale);
+    const gtin = getMerchantGtin(product.gtin13, product.gtin);
+    const mpn = normalizeMpn(product.mpn);
     // Use plain text description for JSON-LD (Google requires 50-5000 chars for Product description)
     const productDisplayName = isArabic
         ? localizeArabicBrandNames(t.name)
@@ -88,61 +85,20 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         ? localizeArabicBrandNames(getPlainTextDescription(t.description))
         : getPlainTextDescription(t.description);
 
-    // H4: Google 2027 Requirement — images must be ≥500×500px for Merchant Center
-    // This warning helps identify products that need image upgrades before Jan 31, 2027
+    // Surface missing catalogue images during local development.
     if (typeof process !== 'undefined' && process.env.NODE_ENV === 'development') {
         if (product.images.length === 0) {
-            console.warn(`[Schema/H4] Product "${product.slug}" has NO images — will be rejected by Google Merchant Center`);
+            console.warn(`[ProductSchema] Product "${product.slug}" has no images.`);
         }
     }
 
-    // Entity Mapping
-    const brandWikidataLinks: Record<string, string> = {
-        'Anker': 'https://www.wikidata.org/wiki/Q28452620', // Anker Innovations (official Wikidata)
-        'Joyroom': 'https://www.joyroom.com/', // Brand entity
-        'Soundcore': 'https://www.wikidata.org/wiki/Q28452620', // Tied to Anker parent
-    };
-
-    // Manufacturer mapping — links product to parent company entity
+    // Keep manufacturer identity limited to relationships documented by the
+    // brands themselves; do not infer an importer or local representative.
     const manufacturerMap: Record<string, { name: string; sameAs?: string }> = {
-        'Anker': { name: 'Anker Innovations', sameAs: 'https://www.wikidata.org/wiki/Q28452620' },
-        'Soundcore': { name: 'Anker Innovations', sameAs: 'https://www.wikidata.org/wiki/Q28452620' },
-        'Joyroom': { name: 'Joyroom Electronic & Technology Co., Ltd' },
+        'Anker': { name: 'Anker Innovations', sameAs: 'https://www.anker.com/about-us' },
+        'Soundcore': { name: 'Anker Innovations', sameAs: 'https://www.anker.com/about-us' },
+        'Joyroom': { name: 'JOYROOM', sameAs: 'https://www.joyroom.com/pages/about-joyroom' },
     };
-
-    const categoryEntities: Record<string, string[]> = {
-        'power-banks': ['https://www.wikidata.org/wiki/Q2208745', 'https://en.wikipedia.org/wiki/Battery_charger#Power_bank'],
-        'wall-chargers': ['https://en.wikipedia.org/wiki/Battery_charger', 'https://www.wikidata.org/wiki/Q352917'],
-        'car-chargers': ['https://en.wikipedia.org/wiki/Car_charger', 'https://www.wikidata.org/wiki/Q352917'],
-        'audio': ['https://www.wikidata.org/wiki/Q186819', 'https://en.wikipedia.org/wiki/Headphones'],
-        'cables': ['https://www.wikidata.org/wiki/Q42378', 'https://en.wikipedia.org/wiki/USB#Connectors'],
-    };
-
-    const brandEntityUrl = brandWikidataLinks[product.brand];
-    const categoryEntityUrls = categoryEntities[product.categorySlug || ''] || [];
-
-    // Generate Video Schema if videoUrl exists — Supports AI assistants + Google Merchant video_link (June 2026)
-    const videoSchema = product.videoUrl ? {
-        "@type": "VideoObject",
-        "@id": `${productUrl}#video`,
-        "name": productDisplayName,
-        "description": isArabic
-            ? localizeArabicBrandNames(getPlainTextDescription(t.description, 300))
-            : getPlainTextDescription(t.description, 300),
-        "thumbnailUrl": product.images[0]?.url ? `${baseUrl}${product.images[0].url}` : "",
-        "uploadDate": "2025-12-01T00:00:00.000Z", // Stable date — avoids Trust score degradation from dynamic dates
-        "contentUrl": product.videoUrl,
-        "embedUrl": product.videoUrl, // For embedded player support
-        "duration": "PT2M", // ISO 8601 duration - default 2 minutes
-        "inLanguage": isArabic ? "ar-EG" : "en-EG",
-        // Engagement signals for video ranking
-        "interactionStatistic": {
-            "@type": "InteractionCounter",
-            "interactionType": { "@type": "WatchAction" },
-            "userInteractionCount": 0,
-        },
-        "publisher": { "@id": "https://cairovolt.com/#organization" }
-    } : null;
 
     const schema = {
         '@context': 'https://schema.org',
@@ -151,17 +107,13 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         name: productDisplayName,
         description: plainDescription,
         sku: product.sku,
-        // GS1 Web Vocabulary - Global Product Identification
-        ...(product.gtin && { gtin13: product.gtin }),
-        ...(product.gtin13 && { gtin13: product.gtin13 }),
-        ...(product.mpn && { mpn: product.mpn }),
-        // Map brand to Wikidata for entity context
+        // Only expose identifiers with a supported length and valid GS1 check digit.
+        ...getGtinSchemaProperty(gtin),
+        ...(mpn && { mpn }),
         brand: {
             '@type': 'Brand',
             name: product.brand,
-            ...(brandEntityUrl && { sameAs: brandEntityUrl }),
         },
-        // Manufacturer entity — links to parent company's entity node
         ...(manufacturerMap[product.brand] && {
             manufacturer: {
                 '@type': 'Organization',
@@ -169,91 +121,18 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 ...(manufacturerMap[product.brand].sameAs && { sameAs: manufacturerMap[product.brand].sameAs }),
             },
         }),
-        // Category Metadata: Explicitly define category entity
         category: (product.categorySlug || '').replace(/-/g, ' '),
         image: product.images.map((img, idx) => ({
             '@type': 'ImageObject',
             name: isArabic
                 ? localizeArabicBrandNames(img.alt || `${productDisplayName} — صورة ${idx + 1}`)
                 : (img.alt || `${productDisplayName} — Image ${idx + 1}`),
-            url: `${baseUrl}${img.url}`,
-            contentUrl: `${baseUrl}${img.url}`,
-            // Implements Content Provenance validation framework (C2PA protocol)
-            // C2PA content provenance metadata
-            creator: {
-                '@type': 'Organization',
-                name: 'CairoVolt Hardware Validation Labs',
-                url: baseUrl
-            },
-            creditText: 'CairoVolt Engineering',
-            copyrightNotice: '© 2025 CairoVolt. All 100% human-verified hardware testing.',
-            acquireLicensePage: `${baseUrl}${locale === 'ar' ? '' : '/en'}/terms`
+            url: getAbsoluteUrl(img.url, baseUrl),
+            contentUrl: getAbsoluteUrl(img.url, baseUrl),
+            ...(img.width ? { width: img.width } : {}),
+            ...(img.height ? { height: img.height } : {}),
         })),
-        // subjectOf: C2PA content verification + optional VideoObject
-        subjectOf: videoSchema
-            ? [
-                videoSchema,
-                { '@type': 'WebPage', name: 'CairoVolt Content Verification', url: `${baseUrl}/api/v1/verify-content?sku=${product.sku}` },
-              ]
-            : { '@type': 'WebPage', name: 'CairoVolt Content Verification', url: `${baseUrl}/api/v1/verify-content?sku=${product.sku}` },
-        // Related entities: about (what this product IS) — uses category-aware entity mapping
-        about: (() => {
-            const brandKey = product.brand.toLowerCase();
-            const brandEntity = brandEntities[brandKey as keyof typeof brandEntities];
-            const aboutEntities: Array<{ '@type': string; name: string; sameAs: string }> = [];
-            if (brandEntity) {
-                aboutEntities.push({
-                    '@type': brandEntity.type,
-                    name: isArabic ? brandEntity.nameAr : brandEntity.name,
-                    sameAs: brandEntity.sameAs,
-                });
-            }
-            // Add CairoVolt entity for Trust & Quality — we are the seller + lab tester
-            const cairovolt = brandEntities['cairovolt' as keyof typeof brandEntities];
-            if (cairovolt) {
-                aboutEntities.push({
-                    '@type': cairovolt.type,
-                    name: isArabic ? cairovolt.nameAr : cairovolt.name,
-                    sameAs: cairovolt.sameAs,
-                });
-            }
-            // Add Egypt as geographic area
-            const egypt = brandEntities['egypt' as keyof typeof brandEntities];
-            if (egypt) {
-                aboutEntities.push({
-                    '@type': egypt.type,
-                    name: isArabic ? egypt.nameAr : egypt.name,
-                    sameAs: egypt.sameAs,
-                });
-            }
-            return aboutEntities.length > 0 ? aboutEntities : undefined;
-        })(),
-        // Related entities: mentions — uses category-specific entity keys for entity data
-        mentions: (() => {
-            const categorySlug = (product as { categorySlug?: string }).categorySlug;
-            const categoryEntityKeys = categorySlug ? getEntitiesForCategory(categorySlug) : ['egypt', 'cairo', 'usbC'];
-            const mentionEntities: Array<{ '@type': string; name: string; sameAs: string }> = [];
-            // Add USB-C (always relevant) + category-specific entities
-            const priorityKeys = ['usbC', 'cairo', 'newCairo'];
-            const allKeys = [...new Set([...priorityKeys, ...categoryEntityKeys])];
-            for (const key of allKeys.slice(0, 8)) { // Limit to 8 mentions to avoid overflow
-                const entity = brandEntities[key as keyof typeof brandEntities];
-                if (entity && !aboutContains(key)) {
-                    mentionEntities.push({
-                        '@type': entity.type,
-                        name: isArabic ? entity.nameAr : entity.name,
-                        sameAs: entity.sameAs,
-                    });
-                }
-            }
-            return mentionEntities.length > 0 ? mentionEntities : undefined;
-
-            function aboutContains(key: string) {
-                const brandKey = product.brand.toLowerCase();
-                return [brandKey, 'cairovolt', 'egypt'].includes(key);
-            }
-        })(),
-        // Product specifications as additionalProperty — only real specs, no hardcoded tech claims
+        // Product specifications supplied by the catalogue.
         ...(specifications && Object.keys(specifications).length > 0 && {
             additionalProperty: Object.entries(specifications).map(([key, val]) => ({
                 '@type': 'PropertyValue',
@@ -261,8 +140,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 value: isArabic ? val.ar : val.en,
             })),
         }),
-        // isAccessoryOrSparePartFor - links product to devices it powers
-        // Use @type 'Thing' since these are referenced devices, not standalone product listings
+        // Referenced compatible device families, when supplied.
         ...(isAccessoryOrSparePartFor && isAccessoryOrSparePartFor.length > 0 && {
             isAccessoryOrSparePartFor: isAccessoryOrSparePartFor.map(item => ({
                 '@type': 'Thing',
@@ -271,207 +149,29 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                     : item.name,
             })),
         }),
-        // Geographic targeting is handled by areaServed, eligibleRegion, and shippingDestination fields.
-        // Reviewed by CairoVolt Labs as expert organization
-        reviewedBy: {
-            '@type': 'Organization',
-            name: 'CairoVolt Hardware Validation Labs',
-            url: `${baseUrl}`,
-            knowsAbout: [
-                { '@type': 'Thing', name: 'Electric power distribution', sameAs: 'https://en.wikipedia.org/wiki/Electric_power_distribution' },
-                { '@type': 'Thing', name: 'Consumer electronics safety' },
-            ],
-        },
-        // Regional: Area Served
-        areaServed: {
-            '@type': 'Country',
-            name: 'Egypt',
-            alternateName: 'مصر',
-        },
-        // Regional: Available At
-        availableAtOrFrom: {
-            '@type': 'Place',
-            name: isArabic ? 'كايرو فولت - مصر' : 'CairoVolt Egypt',
-            address: {
-                '@type': 'PostalAddress',
-                addressCountry: 'EG',
-                addressRegion: isArabic ? 'القاهرة' : 'Cairo Governorate',
-                addressLocality: isArabic ? 'القاهرة' : 'Cairo',
-            },
-        },
         offers: {
             '@type': 'Offer',
-            // Arabic is default (/), English uses /en/. Include categorySlug for correct URL.
-            url: `${baseUrl}${locale === 'ar' ? '' : '/en'}/${product.brand.toLowerCase()}/${(product as { categorySlug?: string }).categorySlug?.toLowerCase() || ''}/${product.slug}`,
+            url: productUrl,
             priceCurrency: 'EGP',
             price: product.price,
-            priceValidUntil: PRICE_VALID_UNTIL,
             availability: product.stock > 0
                 ? 'https://schema.org/InStock'
-                : 'https://schema.org/BackOrder',
+                : 'https://schema.org/OutOfStock',
             itemCondition: 'https://schema.org/NewCondition',
-            // Inventory Level — signals stock depth to Google Shopping & Merchant Center
-            inventoryLevel: {
-                '@type': 'QuantitativeValue',
-                value: product.stock,
-                unitCode: 'C62', // ISO unit code for "each" / individual items
-            },
-            // UnitPriceSpecification for detailed structured pricing data
-            priceSpecification: {
-                '@type': 'UnitPriceSpecification',
-                price: product.price,
-                priceCurrency: 'EGP',
-                valueAddedTaxIncluded: true,
-                ...(product.originalPrice && product.originalPrice > product.price && {
-                    priceType: 'https://schema.org/SalePrice',
-                    referenceQuantity: { '@type': 'QuantitativeValue', value: 1 },
-                }),
-            },
-            // Regional: Eligible Region
             eligibleRegion: {
                 '@type': 'Country',
                 name: 'Egypt',
-                sameAs: 'https://en.wikipedia.org/wiki/Egypt',
             },
-            // Reference the canonical #organization node (defined once in the
-            // layout's GlobalBusinessSchema with name, identifiers, address,
-            // logo…). Google merges same-@id nodes across the page's blocks, so
-            // re-inlining all that here is pure page weight.
             seller: { '@id': 'https://cairovolt.com/#organization' },
-            // Shipping Details — structured shipping cost and delivery time
+            // Reference the standard store-wide shipping policy declared on
+            // the Organization node.
             shippingDetails: {
                 '@type': 'OfferShippingDetails',
-                '@id': 'https://cairovolt.com/#shipping-egypt',
-                shippingRate: {
-                    '@type': 'MonetaryAmount',
-                    value: product.price >= FREE_SHIPPING_THRESHOLD ? "0.00" : "70.00",
-                    currency: 'EGP',
-                },
-                shippingDestination: {
-                    '@type': 'DefinedRegion',
-                    addressCountry: 'EG',
-                },
-                deliveryTime: {
-                    '@type': 'ShippingDeliveryTime',
-                    handlingTime: {
-                        '@type': 'QuantitativeValue',
-                        minValue: 0,
-                        maxValue: 1,
-                        unitCode: 'd',
-                    },
-                    transitTime: {
-                        '@type': 'QuantitativeValue',
-                        minValue: 1,
-                        maxValue: 2,
-                        unitCode: 'd',
-                    },
-                },
+                hasShippingService: { '@id': 'https://cairovolt.com/#shipping-egypt' },
             },
-            // Accepted Payment Method - COD explicit for Egypt (GoodRelations URI enum)
+            hasMerchantReturnPolicy: { '@id': 'https://cairovolt.com/#return-policy' },
             acceptedPaymentMethod: 'http://purl.org/goodrelations/v1#COD',
-            // Return Policy — 14-day return window per company policy
-            hasMerchantReturnPolicy: {
-                '@type': 'MerchantReturnPolicy',
-                '@id': 'https://cairovolt.com/#return-policy',
-                applicableCountry: 'EG',
-                returnPolicyCountry: 'EG',
-                returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
-                merchantReturnDays: 14,
-                returnMethod: 'https://schema.org/ReturnByMail',
-                returnFees: 'https://schema.org/FreeReturn',
-                refundType: 'https://schema.org/FullRefund',
-                url: `${baseUrl}${locale === 'ar' ? '' : '/en'}/return-policy`,
-            },
         },
-        // BuyAction — Direct Purchase Intent
-        // BuyAction — enables programmatic purchase via RFC 6570 urlTemplate variables
-        potentialAction: {
-            '@type': 'BuyAction',
-            target: {
-                '@type': 'EntryPoint',
-                urlTemplate: `${baseUrl}/api/v1/quick-cod?sku={sku}&phone={phone_number}`,
-                inLanguage: isArabic ? 'ar-EG' : 'en-EG',
-                actionPlatform: [
-                    'https://schema.org/DesktopWebPlatform',
-                    'https://schema.org/MobileWebPlatform',
-                    'https://schema.org/IOSPlatform',
-                    'https://schema.org/AndroidPlatform',
-                ],
-                contentType: 'application/json',
-                httpMethod: 'POST',
-            },
-            seller: { '@id': 'https://cairovolt.com/#organization' },
-            deliveryMethod: 'https://schema.org/ParcelService',
-            // Lean Offer reference — shipping/return/payment already defined in parent offers block
-            expectsAcceptanceOf: {
-                '@type': 'Offer',
-                price: product.price,
-                priceCurrency: 'EGP',
-                availability: product.stock > 0
-                    ? 'https://schema.org/InStock'
-                    : 'https://schema.org/BackOrder',
-                acceptedPaymentMethod: 'http://purl.org/goodrelations/v1#COD',
-            },
-        },
-        // Expert Review from CairoVolt Labs with profile verification
-        ...(expertReview && {
-            review: [{
-                '@type': 'Review',
-                name: isArabic ? `مراجعة خبراء كايرو فولت لـ ${t.name}` : `CairoVolt Expert Review of ${t.name}`,
-                author: {
-                    '@type': 'Person',
-                    name: expertReview.name,
-                    jobTitle: expertReview.title,
-                    sameAs: expertReview.profileUrl,
-                },
-                publisher: { '@id': 'https://cairovolt.com/#organization' },
-                reviewBody: expertReview.body,
-                // No reviewRating: lab write-ups are qualitative assessments,
-                // and a fixed editorial score on every product would be a
-                // fabricated rating signal under Google's review policies.
-            },
-            // Append existing user reviews if any
-            ...(reviews || []).map(r => ({
-                '@type': 'Review',
-                name: isArabic ? `مراجعة ${r.author} لـ ${t.name}` : `${r.author}'s Review of ${t.name}`,
-                author: { '@type': 'Person', name: r.author },
-                datePublished: r.datePublished,
-                reviewRating: {
-                    '@type': 'Rating',
-                    ratingValue: r.rating.toString(),
-                    bestRating: '5',
-                    worstRating: '1',
-                },
-                reviewBody: r.reviewBody,
-                ...(r.pros && r.pros.length > 0 && {
-                    positiveNotes: {
-                        '@type': 'ItemList',
-                        itemListElement: r.pros.map((p, i) => ({
-                            '@type': 'ListItem',
-                            position: i + 1,
-                            name: p,
-                        })),
-                    },
-                }),
-                ...(r.cons && r.cons.length > 0 && {
-                    negativeNotes: {
-                        '@type': 'ItemList',
-                        itemListElement: r.cons.map((c, i) => ({
-                            '@type': 'ListItem',
-                            position: i + 1,
-                            name: c,
-                        })),
-                    },
-                }),
-                ...(r.location && {
-                    contentLocation: {
-                        '@type': 'Place',
-                        name: r.location,
-                        address: { '@type': 'PostalAddress', addressCountry: 'EG' },
-                    },
-                }),
-            }))],
-        }),
         // Dynamic Aggregate Rating - ONLY included if real reviews exist
         // Ensures aggregate ratings are strictly tied to localized verified reviews.
         ...(aggregateRating && {
@@ -483,12 +183,11 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 worstRating: aggregateRating.worstRating,
             },
         }),
-        // Fallback: Individual reviews only when expertReview is NOT provided
-        // (When expertReview IS provided, the review array is built above with both expert + user reviews)
-        ...(!expertReview && reviews && reviews.length > 0 && {
+        // Individual reviews are included only when supplied by the verified-review source.
+        ...(reviews && reviews.length > 0 && {
             review: reviews.map(r => ({
                 '@type': 'Review',
-                name: isArabic ? `مراجعة ${r.author} لـ ${t.name}` : `${r.author}'s Review of ${t.name}`,
+                name: isArabic ? `مراجعة ${r.author} لـ ${productDisplayName}` : `${r.author}'s Review of ${productDisplayName}`,
                 author: { '@type': 'Person', name: r.author },
                 datePublished: r.datePublished,
                 reviewRating: {
@@ -532,9 +231,6 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         }),
     };
 
-    // NOTE: priceSpecification is already defined inside offers with UnitPriceSpecification
-    // (including SalePrice priceType when applicable). No overwrite needed here.
-
     return (
         <script
             type="application/ld+json"
@@ -543,17 +239,8 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
     );
 }
 
-/**
- * FAQSchema — DEPRECATED
- * Google deprecated FAQPage rich results May 7, 2026.
- * This export is kept for backward compatibility but renders nothing.
- */
-export function FAQSchema({ faqs: _faqs, locale: _locale }: { faqs: Array<{ question: string; answer: string }>; locale: string }) {
-    return null;
-}
-
 // Breadcrumb Schema
-export function BreadcrumbSchema({ items, locale: _locale }: {
+export function BreadcrumbSchema({ items }: {
     items: Array<{ name: string; url: string }>;
     locale: string;
 }) {

@@ -15,157 +15,143 @@ export const anker_nano_45w = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-nano-45w/anker-nano-45w-package-box-contents-specifications.webp", alt: "محتويات علبة شاحن انكر نانو 45 واط مع المواصفات - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1200 },
-            { id: "img_2", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-gan-charger-compact-cairovolt-egypt.webp", alt: "شاحن انكر نانو 45 واط USB-C GaN فائق الكفاءة صغير الحجم - A2664K11 - كايرو فولت", order: 1, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_2", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-gan-charger-compact-cairovolt-egypt.webp", alt: "شاحن انكر نانو A2664K11 بقدرة مصنفة 45 واط USB-C GaN - كايرو فولت", order: 1, isPrimary: false, width: 1200, height: 1500 },
             { id: "img_3", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-port-detail-gan-technology.webp", alt: "Anker Nano 45W USB-C port with GaN II technology close-up detail - CairoVolt", order: 2, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_4", url: "/products/anker/anker-nano-45w/anker-nano-45w-size-comparison-apple-charger-compact.webp", alt: "حجم شاحن انكر نانو 45 واط مقارنة بشاحن ابل - أصغر بنسبة 60% - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_5", url: "/products/anker/anker-nano-45w/anker-nano-45w-charging-macbook-air-laptop-fast-pd.webp", alt: "Anker Nano 45W charging MacBook Air laptop at full speed with PD fast charge - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/anker/anker-nano-45w/anker-nano-45w-size-comparison-apple-charger-compact.webp", alt: "مقارنة حجم شاحن انكر نانو A2664K11 مع شاحن ابل - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-nano-45w/anker-nano-45w-charging-macbook-air-laptop-fast-pd.webp", alt: "Anker Nano A2664K11 USB-C charging setup with MacBook Air - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_6", url: "/products/anker/anker-nano-45w/anker-nano-45w-foldable-plug-ultra-slim-design.webp", alt: "قابس قابل للطي فائق الرفع لشاحن انكر نانو 45 واط - تصميم سفر - كايرو فولت", order: 5, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_7", url: "/products/anker/anker-nano-45w/anker-nano-45w-gan-II-chip-temperature-efficiency.webp", alt: "Anker Nano 45W GaN II chip temperature and efficiency performance test - CairoVolt", order: 6, isPrimary: false, width: 1024, height: 1024 }
+            { id: "img_7", url: "/products/anker/anker-nano-45w/anker-nano-45w-gan-II-chip-temperature-efficiency.webp", alt: "Anker Nano 45W GaN II chip efficiency and thermal-management graphic", order: 6, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {
-                name: "Anker Nano 45W GaN USB-C Charger | MacBook Air + iPhone 17 | 24-Month Warranty",
-                shortDescription: "⚡ 45W GaN III Technology | 💻 MacBook Air Full Speed | 📱 iPhone 17 Max Speed | 📱 Samsung S26 Super Fast 2.0 | 📏 Ultra-Compact",
+                name: "Anker Nano 45W GaN USB-C Charger | MacBook Air + iPhone 17",
+                shortDescription: "⚡ 45W-rated USB-C GaN | 💻 Check laptop input profile | 📱 Check phone PD/PPS support | 📏 Compact charger",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Anker Nano 45W GaN III (A2039)</strong> replaces your laptop charger, phone charger, and tablet charger with a single compact cube. 45W USB-C PD charges MacBook Air at full speed, iPhone 17 at max speed, and Samsung S26 with Super Fast 2.0. GaN III technology keeps it cool and small. UK-style plug, 24-month warranty. Available at <strong>EGP 790</strong> with CairoVolt warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker Nano 45W GaN charger (A2664K11)</strong> offers one USB-C port with a listed ceiling of 45W. It may replace separate chargers when each device accepts a profile printed on this model, but power and charging time vary by device, cable, battery state, temperature and use. Confirm the exact PD/PPS table, input range, plug type and package contents on the supplied unit, then review the current price, stock and warranty terms.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Generic GaN chargers from unknown brands often lack proper PPS support, meaning Samsung Super Fast 2.0 won't activate. Worse, they can output unstable voltage under load, damaging laptop batteries. The Anker Nano 45W is USB-IF certified with GaN III — verify the holographic Anker seal on the box.</p>
+    <p class="text-gray-700">Before ordering, match <strong>A2664K11</strong>, its input/output table, USB-C port, plug and package contents with current manufacturer documentation. Confirm any compliance mark on the supplied unit and use a cable rated for the required profile. Do not infer compatibility, safety or warranty coverage from a generic seal or wattage headline alone.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
-        <li>⚡ <strong>45W GaN III:</strong> One charger for MacBook Air, iPhone 17, Samsung S26, and iPad Pro.</li>
-        <li>💻 <strong>MacBook Air:</strong> Full native charging speed — no need for Apple's bulky adapter.</li>
-        <li>📱 <strong>Samsung S26:</strong> Super Fast Charging 2.0 (45W) — the max Samsung supports.</li>
-        <li>📏 <strong>GaN = Tiny:</strong> 60% smaller than traditional 45W chargers. Perfect for travel.</li>
-    <li>💰 <strong>1.10 EGP/day:</strong> Over 24 months, less than a cup of tea.</li></ul>
+        <li>⚡ <strong>45W ceiling:</strong> the connected device selects a supported USB-PD or PPS profile.</li>
+        <li>💻 <strong>Laptop check:</strong> compare the required adapter profile with A2664K11.</li>
+        <li>📱 <strong>Phone check:</strong> PPS and fast-charge support depend on the exact phone and cable.</li>
+        <li>📏 <strong>Compact GaN design:</strong> verify dimensions and plug variant for the supplied unit.</li>
+    <li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "We replaced a MacBook Air charger, an iPhone charger, and a Samsung charger with this single Anker 45W Nano — and they haven't come out of the drawer since. During a work trip to Alexandria, we charged a MacBook Air M3 from 20% to full in under 2 hours, then switched the cable to an iPhone 17 for a 30-minute top-up. GaN III technology means it stays cool even at full 45W output. The size difference compared to Apple's 30W adapter is dramatic — the Anker is noticeably smaller. If you own a MacBook Air and any modern phone, this single brick replaces 2-3 chargers."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A2664K11</strong>, start with the manufacturer-rated input/output profiles, port layout and supported charging protocols printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">One Charger for Your Laptop AND Phone</h2>
-        <p class="text-gray-700">The Anker Nano 45W charges your <strong>MacBook Air at full native speed</strong> (no compromises), then you unplug and charge your iPhone 17 at its <strong>maximum 30W</strong>. It even delivers Samsung's maximum <strong>45W Super Fast Charging 2.0</strong>. One USB-C charger, every device. Stop carrying 3 chargers when one does the job of all three.</p>
+        <p class="text-gray-700">A compatible phone, tablet or laptop negotiates one of the profiles printed on A2664K11. The 45W rating is a ceiling, not a promise that every device will draw that amount. Compare the device input, cable rating and expected use before treating one charger as a replacement for several adapters.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">GaN III: Laptop Power in Phone Charger Size</h2>
-        <p class="text-gray-700"><strong>Gallium Nitride (GaN III)</strong> technology is the reason this 45W charger is <strong>60% smaller</strong> than traditional silicon-based chargers. It's physically smaller than Apple's own 30W adapter despite being 50% more powerful. GaN also generates less heat, meaning safer charging and longer lifespan. Pair with an <a href="/en/anker/cables" class="text-blue-600 hover:underline">Anker USB-C cable</a> for maximum performance.</p>
+        <p class="text-gray-700">GaN can support a compact power design, but percentage size and temperature comparisons depend on the reference charger and test conditions. Verify the listed dimensions and weight, keep the charger ventilated and pair it with an <a href="/en/anker/cables" class="text-blue-600 hover:underline">Anker USB-C cable</a> rated for the required profile.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Future-Proof: Ready now and Beyond</h2>
-        <p class="text-gray-700">At 45W, this charger exceeds the needs of every current phone (iPhone 17 max: 30W, Samsung S26 max: 45W) and handles MacBook Air charging effortlessly. As devices get more power-hungry, 45W keeps you covered. <strong>24-month warranty</strong> from Anker means you're protected long-term. Ideal for <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">replacing multiple chargers</a> with one versatile brick.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Current-device compatibility: Ready now and Beyond</h2>
+        <p class="text-gray-700">Compatibility changes by model and firmware, so compare the device's current USB-PD/PPS requirement with the printed output table. Warranty duration and eligibility follow the current written policy, not the wattage or brand name alone. Compare other <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">wall chargers</a> if a device needs a higher profile or more ports.</p>
     </section>
 </div>
 <div class="device-compatibility">
-    <h3 class="font-bold mb-2">What It Charges at Full Speed:</h3>
+    <h3 class="font-bold mb-2">Compatibility checks:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>💻 <strong>MacBook Air M3/M4/M5:</strong> Full native charging speed.</li>
-        <li>💻 <strong>MacBook Pro 14":</strong> Charges (slower than 67W native, but works).</li>
-        <li>📱 <strong>iPhone 17/16/15:</strong> Maximum 30W fast charging.</li>
-        <li>📱 <strong>Samsung S26/S25 Ultra:</strong> Full 45W Super Fast Charging 2.0.</li>
-        <li>📱 <strong>iPad Pro M4 / iPad Air:</strong> Full speed USB-C PD.</li>
-        <li>🎮 <strong>Steam Deck / Nintendo Switch:</strong> Full charging speed.</li>
+        <li>💻 <strong>MacBook Air:</strong> verify that the exact model accepts a profile printed on A2664K11.</li>
+        <li>💻 <strong>MacBook Pro:</strong> models requiring a higher adapter may charge slowly or need another charger.</li>
+        <li>📱 <strong>iPhone:</strong> charging power varies by model, cable, battery level and temperature.</li>
+        <li>📱 <strong>Samsung Galaxy:</strong> match the phone's PPS requirement and cable rating.</li>
+        <li>📱 <strong>iPad:</strong> the tablet selects a supported USB-PD profile.</li>
+        <li>🎮 <strong>Portable gaming devices:</strong> compare their required voltage and current before use.</li>
     </ul>
 </div>
 `,
-                features: ["⚡ 45W GaN III Technology", "💻 MacBook Air Full Speed Charging", "📱 iPhone 17 Max 30W Speed", "📱 Samsung S26 Super Fast 2.0 (45W)", "📏 60% Smaller Than Traditional", "🏆 24-Month Warranty", "🔒 UL + FCC + CE Certified → Global Safety Standards", "🔒 MultiProtect 11-Point Safety System"],
-                metaTitle: "Anker 45W GaN Charger ⚡ 28% OFF | Laptop + iPhone | COD",
-                metaDesc: "Buy Anker Nano 45W GaN charger in Egypt. Charges MacBook Air + iPhone 17 + Samsung S26 at full speed. 60% smaller. 24-month warranty. Fast Cairo delivery.",
+                features: ["⚡ Listed 45W USB-C GaN", "💻 Check laptop input profile", "📱 Check phone USB-PD/PPS support", "📏 Verify listed dimensions and plug type", "🏆 Check current warranty terms", "🔎 Verify ratings and compliance marks on the supplied unit"],
+                metaTitle: "Anker 45W GaN Charger | Laptop + iPhone | COD",
+                metaDesc: "Explore Anker Nano A2664K11 45W-rated USB-C GaN charger in Egypt. Check printed PD/PPS profiles, plug type, stock, current warranty and delivery terms.",
                 faqs: [
-                    { question: "Can this charge my MacBook Air?", answer: "Yes, 45W is perfect for charging a MacBook Air at full speed and can also charge MacBook Pro models." },
-                    { question: "Is it Samsung Super Fast Charging 2.0 compatible?", answer: "Yes, 45W supports Samsung S26/S25 Super Fast Charging 2.0. Ensure your cable is also 5A rated for maximum speed." },
-                    { question: "Is it easy to carry around?", answer: "Absolutely, specialized GaN technology makes it much smaller than standard laptop chargers." },
-                    { question: "Can it charge iPhone 17 at maximum speed?", answer: "Yes! 45W exceeds iPhone 17's 27W max input, so you get the fastest possible charging speed." },
-                    { question: "Should I get 45W or 65W charger?", answer: "45W is perfect for MacBook Air and phones. Get 65W only if you have MacBook Pro 14+ or need faster laptop charging." }
+                    { question: "Can this charge my MacBook Air?", answer: "It can charge a compatible MacBook Air when the laptop accepts a profile printed on A2664K11 and the cable is appropriately rated. Speed varies by model and use." },
+                    { question: "Is it Samsung Super Fast Charging 2.0 compatible?", answer: "Check the exact phone's PPS requirement against the range printed on A2664K11 and use the specified cable. The device determines the accepted power." },
+                    { question: "Is it easy to carry around?", answer: "It is positioned as a compact GaN charger; verify the listed dimensions, weight and plug type for the supplied variant." },
+                    { question: "What charging power will an iPhone draw?", answer: "The phone negotiates a supported USB-PD profile and may draw less than the charger's 45W ceiling. Actual power and time vary by model, battery level, temperature, cable and use." },
+                    { question: "Should I get a 45W or 65W charger?", answer: "Compare the laptop or phone's required USB-PD profile with the output table on each charger. A device requiring more than the supported 45W profile may charge slowly or need the higher-rated option." }
                 ]
             },
             ar: {
-                name: "شاحن انكر نانو 45 واط | شاحن واحد للابتوب والموبايل (وداعاً للزحمة) | ضمان 24 شهر",
-                shortDescription: "شاحن واحد يغنيك عن 3 شواحن | 💻 شحن ماك بوك بالسرعة الأصلية | 📱 شحن سوبر فاست لسامسونج وايفون | 🔌 ممتاز للسفر",
+                name: "شاحن انكر نانو 45 واط | شاحن واحد للابتوب والموبايل (وداعاً للزحمة)",
+                shortDescription: "⚡ قدرة مصنفة 45 واط USB-C GaN | 💻 تحقق من بروفايل اللابتوب | 📱 تحقق من دعم PD/PPS | 🔌 تصميم مدمج",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، <strong>شاحن أنكر نانو 45 واط GaN III (A2039)</strong> بيستبدل شاحن اللابتوب (الحاسب المحمول) وشاحن الموبايل (الهاتف الذكي) وشاحن التابلت بمكعب صغير واحد. 45 واط USB-C PD بيشحن ماك بوك اير بسرعة كاملة، ايفون 17 بأقصى سرعة، وسامسونج S26 مع Super Fast 2.0. تقنية GaN III بتخليه بارد وصغير. قابس UK-Style، ضمان 24 شهر. بسعر <strong>790 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>شاحن انكر نانو 45 واط GaN (A2664K11)</strong> يقدم منفذ USB-C واحداً بحد قدرة معلن 45 واط. قد يغني عن أكثر من شاحن عندما يقبل كل جهاز بروفايلاً مطبوعاً على هذا الموديل، لكن القدرة والزمن يتغيران حسب الجهاز والكابل ونسبة البطارية والحرارة والاستخدام. تحقق من جدول PD/PPS ومدى الإدخال ونوع القابس ومحتويات العبوة، ثم راجع السعر والمخزون وشروط الضمان الحالية.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">شواحن GaN من ماركات مجهولة غالباً مفيهاش PPS سليم، يعني سامسونج Super Fast 2.0 مش هيشتغل. والأسوأ، بتطلع جهد غير مستقر تحت الحمل بيضر بطاريات اللابتوب. أنكر نانو 45واط معتمد USB-IF بتقنية GaN III — تأكد من ختم أنكر الهولوجرافي على العلبة.</p>
+    <p class="text-gray-700">قبل الطلب، طابق رقم الموديل <strong>A2664K11</strong> وجدول الإدخال والخرج ومنفذ USB-C والقابس ومحتويات العبوة مع وثائق انكر الحالية. تحقق من أي علامة مطابقة على الوحدة الموردة واستخدم كابلاً مصنفاً للبروفايل المطلوب. لا تستنتج التوافق أو الأمان أو تغطية الضمان من ختم عام أو رقم القدرة وحده.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
-        <li>⚡ <strong>45 واط GaN III:</strong> شاحن واحد لماك بوك اير وايفون 17 وسامسونج S26 وايباد برو.</li>
-        <li>💻 <strong>ماك بوك اير:</strong> شحن بالسرعة الأصلية الكاملة — بديل لشاحن أبل الضخم.</li>
-        <li>📱 <strong>سامسونج S26:</strong> Super Fast Charging 2.0 بالكامل (45 واط).</li>
-        <li>📏 <strong>GaN = صغير جداً:</strong> أصغر 60% من الشواحن التقليدية. مثالي للسفر.</li>
+        <li>⚡ <strong>حد قدرة 45 واط:</strong> الجهاز المتصل يختار بروفايل USB-PD أو PPS مدعوماً.</li>
+        <li>💻 <strong>فحص اللابتوب:</strong> قارن بروفايل المحول المطلوب بجدول A2664K11.</li>
+        <li>📱 <strong>فحص الهاتف:</strong> دعم PPS والشحن السريع يعتمد على الموديل والكابل.</li>
+        <li>📏 <strong>تصميم GaN مدمج:</strong> تحقق من أبعاد ونوع قابس النسخة الموردة.</li>
     </ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">اختباراتنا للمنتج في الشارع المصري 🇪🇬</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "نحن في فريق كايرو فولت استبدلنا شاحن ماك بوك اير وشاحن ايفون وشاحن سامسونج بشاحن انكر 45 واط الواحد ده — والتلاتة ماطلعوش من الدرج تاني. في رحلة شغل لإسكندرية، شحنّا ماك بوك اير M3 من 20% لـ 100% في أقل من ساعتين، وبعدين غيّرنا الكابل لايفون 17 لشحنة 30 دقيقة. تقنية GaN III يعني بيفضل بارد حتى بـ 45 واط كاملة. فرق الحجم مقارنة بشاحن أبل 30 واط دراماتيكي — انكر أصغر بوضوح. لو عندك ماك بوك اير وأي موبايل حديث، الشاحن الواحد ده بيغنيك عن 2-3 شواحن."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A2664K11</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">شاحن واحد للابتوب والموبايل</h2>
-        <p class="text-gray-700">انكر نانو 45 واط بيشحن <strong>ماك بوك اير بالسرعة الأصلية الكاملة</strong>، وبعدين تغيّر الكابل وتشحن ايفون 17 بـ<strong>أقصى سرعة 30 واط</strong>. حتى يوفر أقصى <strong>45 واط Super Fast Charging 2.0</strong> لسامسونج. شاحن USB-C واحد، كل أجهزتك. بطّل تشيل 3 شواحن لما واحد بيعمل شغل التلاتة.</p>
+        <p class="text-gray-700">يتفاوض الهاتف أو التابلت أو اللابتوب المتوافق على أحد البروفايلات المطبوعة على A2664K11. تصنيف 45 واط حد أعلى وليس وعداً بأن كل جهاز سيسحب هذه القدرة. قارن مدخل الجهاز وتصنيف الكابل والاستخدام المتوقع قبل اعتبار شاحن واحد بديلاً لعدة محولات.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">GaN III: طاقة لابتوب في حجم شاحن موبايل</h2>
-        <p class="text-gray-700">تقنية <strong>Gallium Nitride (GaN III)</strong> هي السبب إن الشاحن ده <strong>أصغر 60%</strong> من الشواحن التقليدية بنفس القوة. أصغر فعلياً من شاحن أبل 30 واط رغم إنه أقوى 50%. GaN كمان بيولّد حرارة أقل، يعني شحن أآمن وعمر أطول. استخدمه مع <a href="/anker/cables" class="text-blue-600 hover:underline">كابل انكر USB-C</a> لأقصى أداء.</p>
+        <p class="text-gray-700">قد تساعد تقنية GaN على تصميم أصغر، لكن نسب الحجم والحرارة تعتمد على الشاحن المرجعي وظروف الاختبار. تحقق من الأبعاد والوزن المعلنين، وحافظ على التهوية، واستخدم <a href="/anker/cables" class="text-blue-600 hover:underline">كابل انكر USB-C</a> مصنفاً للبروفايل المطلوب.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">مستقبلي: جاهز الحالي وما بعدها</h2>
-        <p class="text-gray-700">بـ 45 واط، الشاحن ده بيتجاوز احتياجات كل الهواتف الحالية (ايفون 17: 30 واط، سامسونج S26: 45 واط) وبيتعامل مع شحن ماك بوك اير بسهولة. كل ما الأجهزة تحتاج طاقة أكثر، 45 واط هتفضل مغطيك. <strong>ضمان 24 شهر</strong> من انكر يعني حماية طويلة المدى. مثالي <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">لاستبدال شواحن متعددة</a> بشاحن واحد متعدد الاستخدامات.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">تحقق من توافق أجهزتك الحالية</h2>
+        <p class="text-gray-700">يختلف التوافق باختلاف الموديل والبرنامج، لذلك قارن متطلبات USB-PD/PPS الحالية للجهاز بجدول الخرج المطبوع. مدة الضمان وأهليته تخضعان للسياسة المكتوبة الحالية. قارن <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">شواحن الحائط</a> الأخرى إذا احتاج جهازك بروفايلاً أعلى أو منافذ إضافية.</p>
     </section>
 </div>
 <div class="device-compatibility">
-    <h3 class="font-bold mb-2">إيه اللي بيشحنه بالسرعة الكاملة:</h3>
+    <h3 class="font-bold mb-2">فحوص التوافق:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>💻 <strong>ماك بوك اير M3/M4/M5:</strong> شحن بالسرعة الأصلية.</li>
-        <li>💻 <strong>ماك بوك برو 14":</strong> شحن (أبطأ من 67 واط الأصلي، بس بيشتغل).</li>
-        <li>📱 <strong>ايفون 17/16/15:</strong> أقصى شحن 30 واط.</li>
-        <li>📱 <strong>سامسونج S26/S25 الترا:</strong> 45 واط Super Fast Charging 2.0 كامل.</li>
-        <li>📱 <strong>ايباد برو M4 / ايباد اير:</strong> شحن USB-C PD بالسرعة الكاملة.</li>
-        <li>🎮 <strong>Steam Deck / Nintendo Switch:</strong> شحن بالسرعة الكاملة.</li>
+        <li>💻 <strong>ماك بوك اير:</strong> تحقق من قبول الموديل لبروفايل مطبوع على A2664K11.</li>
+        <li>💻 <strong>ماك بوك برو:</strong> الموديلات التي تحتاج قدرة أعلى قد تشحن ببطء أو تحتاج شاحناً آخر.</li>
+        <li>📱 <strong>ايفون:</strong> القدرة تتغير حسب الموديل والكابل ونسبة البطارية والحرارة.</li>
+        <li>📱 <strong>سامسونج جالاكسي:</strong> طابق متطلبات PPS وتصنيف الكابل.</li>
+        <li>📱 <strong>ايباد:</strong> التابلت يختار بروفايل USB-PD مدعوماً.</li>
+        <li>🎮 <strong>أجهزة الألعاب المحمولة:</strong> قارن الجهد والتيار المطلوبين قبل الاستخدام.</li>
     </ul>
 </div>
 `,
-                features: ["⚡ 45 واط GaN III", "💻 ماك بوك اير بالسرعة الكاملة", "📱 ايفون 17 بأقصى 30 واط", "📱 سامسونج S26 سوبر فاست 2.0", "📏 أصغر 60% من التقليدي", "🏆 ضمان 24 شهر", "🔒 معتمد UL + FCC + CE → معايير السلامة العالمية", "🔒 نظام أمان MultiProtect من 11 نقطة"],
-                metaTitle: "شاحن انكر 45 واط GaN ⚡ خصم 28% | لابتوب + ايفون | مصر",
-                metaDesc: "اشتري شاحن انكر نانو 45 واط GaN في مصر. يشحن ماك بوك اير + ايفون 17 + سامسونج S26 بأقصى سرعة. أصغر 60%. ضمان 24 شهر. توصيل سريع.",
+                features: ["⚡ قدرة مصنفة 45 واط USB-C GaN", "💻 تحقق من بروفايل اللابتوب", "📱 تحقق من دعم الهاتف لـ USB-PD/PPS", "📏 تحقق من الأبعاد ونوع القابس", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من التصنيفات وعلامات المطابقة على الوحدة"],
+                metaTitle: "شاحن انكر 45 واط GaN | لابتوب + ايفون | مصر",
+                metaDesc: "تعرف على شاحن انكر نانو A2664K11 بقدرة مصنفة 45 واط USB-C GaN في مصر. راجع بروفايلات PD/PPS ونوع القابس والمخزون والضمان والتوصيل.",
                 faqs: [
-                    { question: "هل يمكنه شحن ماك بوك آير؟", answer: "نعم، 45 واط مثالي لشحن MacBook Air بالسرعة القصوى ويشحن MacBook Pro أيضاً." },
-                    { question: "هل يدعم شحن سامسونج فائق السرعة 2.0؟", answer: "نعم، 45 واط يدعم شحن S26/S25 فائق السرعة 2.0. تأكد أن الكابل 5 أمبير." },
-                    { question: "هل هو سهل الحمل؟", answer: "بالتأكيد، تقنية GaN تجعله أصغر بكثير من شواحن اللابتوب القياسية." },
-                    { question: "هل شاحن 45 واط أسرع من اللازم لايفون 17؟", answer: "نعم! 45 واط يتجاوز 27 واط الأقصى لايفون 17، فتحصل على أسرع شحن." },
-                    { question: "هل أختار 45 واط أم 65 واط؟", answer: "45 واط مثالي لـ MacBook Air والهواتف. 65 واط لـ MacBook Pro 14+ أو شحن لابتوب أسرع." }
+                    { question: "هل يمكنه شحن ماك بوك آير؟", answer: "يمكنه شحن ماك بوك اير متوافق عندما يقبل اللابتوب بروفايلاً مطبوعاً على A2664K11 ويكون الكابل مصنفاً له. السرعة تختلف حسب الموديل والاستخدام." },
+                    { question: "هل يدعم شحن سامسونج فائق السرعة 2.0؟", answer: "قارن متطلبات PPS للهاتف الدقيق بالنطاق المطبوع على A2664K11 واستخدم الكابل المحدد. الهاتف يقرر القدرة المقبولة." },
+                    { question: "هل هو سهل الحمل؟", answer: "يُقدم باعتباره شاحن GaN مدمجاً؛ تحقق من الأبعاد والوزن ونوع القابس للنسخة الموردة." },
+                    { question: "هل شاحن 45 واط أسرع من اللازم لايفون 17؟", answer: "الهاتف المتوافق يتفاوض على بروفايل يقبله ولا يسحب حد الشاحن تلقائياً. القدرة والزمن يتغيران حسب الهاتف والكابل والبطارية والحرارة." },
+                    { question: "هل أختار 45 واط أم 65 واط؟", answer: "قارن بروفايل اللابتوب أو الهاتف المطلوب بجدول كل شاحن. الجهاز الذي يحتاج أكثر من بروفايل 45 واط المدعوم قد يشحن ببطء أو يحتاج الخيار الأعلى." }
                 ]
             }
         },
-        meta: { keywords: "شاحن انكر 45 واط, شاحن انكر للابتوب, أنكر 45w charger, أنكر fast charger, أنكر wall charger egypt, أنكر usb c charger, أنكر gan charger, أنكر iphone charger egypt, أنكر samsung charger, أنكر best charger egypt 2026, أنكر cod egypt charger, افضل شاحن انكر, سعر شاحن انكر, شاحن انكر اصلي مصر, أنكر charger egypt price, شاحن سريع ايفون, شاحن GaN مصر", mainTerm: "شاحن انكر 45 واط" },
+        meta: { keywords: "شاحن انكر 45 واط, شاحن انكر للابتوب, انكر 45w charger, انكر fast charger, انكر wall charger egypt, انكر usb c charger, انكر gan charger, انكر iphone charger egypt, انكر samsung charger, انكر cod egypt charger, سعر شاحن انكر, تحقق من موديل شاحن انكر, انكر charger egypt price, شاحن سريع ايفون, شاحن GaN مصر", mainTerm: "شاحن انكر 45 واط" },
         expertOpinion: {
-            en: "The versatility of this charger is hard to beat. It's powerful enough to charge a MacBook Air or even a Pro at decent speeds, yet compact enough for your phone. If you want one charger to rule them all (laptop, tablet, phone), this Anker Nano is the smartest choice you can make.",
-            ar: "تعدد استخدامات هذا الشاحن لا مثيل له. قوي بما يكفي لشحن MacBook Air أو حتى Pro بسرعات جيدة، ومع ذلك صغير بما يكفي لهاتفك. إذا كنت تريد شاحناً واحداً لكل شيء (لابتوب، تابلت، هاتف)، فإن أنكر Nano هذا هو الخيار الأذكى الذي يمكنك اتخاذه."
+            en: "A2664K11 may suit a buyer who wants one compact USB-C port for compatible phones, tablets and lighter laptops. Choose it after matching the printed profiles and plug type, and compare a higher-power or multi-port model when the device requires one.",
+            ar: "قد يناسب A2664K11 من يريد منفذ USB-C واحداً مدمجاً لأجهزة متوافقة. اختره بعد مطابقة البروفايلات المطبوعة ونوع القابس، وقارن شاحناً أعلى قدرة أو متعدد المنافذ عندما يحتاج الجهاز ذلك."
         },
         relatedProducts: [
         "anker-zolo-30w-a2698-charger",

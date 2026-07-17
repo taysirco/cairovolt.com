@@ -2,12 +2,12 @@ import type { ProductDetail } from './_types';
 
 export const soundcore_p41i_earbuds_detail: ProductDetail = {
     aiTldr: {
-        en: ['11mm composite BassUp driver — bass-heavy sound signature, great for Arabic pop, EDM', 'Adaptive ANC (3 modes: Indoor/Outdoor/Transport + 5 levels) — not class-leading but effective', '12h earbuds / 192h total — 3,000mAh case doubles as phone powerbank (10W USB-C out)', 'BT 5.3 with multipoint — 6-mic AI calls. Case = powerbank + phone stand + built-in USB-C cable', 'CairoVolt: 18-month warranty. 2,439 EGP. The ultimate travel companion TWS.'],
-        ar: ['درايفر 11mm composite BassUp — صوت bass-heavy، ممتاز للبوب العربي والـ EDM', 'ANC تكيّفي (3 أوضاع: داخلي/خارجي/مواصلات + 5 مستويات) — مش الأقوى بس فعّال', '12 ساعة سماعة / 192 إجمالي — علبة 3,000mAh بتتحول لباور بانك للموبايل (10W USB-C)', 'BT 5.3 مع multipoint — 6 مايكات AI. العلبة = باور بانك + ستاند + كابل USB-C مدمج', 'كايرو فولت: ضمان 18 شهر. 2,439 جنيه. أحسن رفيق سفر TWS.'],
+        en: ['11mm composite driver with BassUp tuning controls', 'Adaptive ANC modes and levels are listed; effectiveness varies with fit and noise', 'Battery figures and the 3,000mAh case output are manufacturer ratings; actual results vary', 'Bluetooth multipoint and a case with power-bank, phone-stand and built-in-cable functions are listed'],
+        ar: ['درايفر مركب 11mm مع أدوات ضبط BassUp', 'أوضاع ومستويات ANC تكيفي مدونة؛ وتختلف الفعالية حسب التثبيت والضوضاء', 'أرقام البطارية وخرج علبة 3,000mAh تقييمات من ساوندكور؛ وتختلف النتائج الفعلية', 'بلوتوث multipoint وعلبة بوظائف باور بانك وحامل هاتف وكابل مدمج مدونة'],
     },
     localContext: {
-        en: 'P41i is designed for travelers and long-commute workers. The 192h total battery with 3,000mAh powerbank case means you charge your earbuds AND your phone from the same case. The built-in USB-C cable eliminates the "forgot my cable" problem. At 2,439 EGP, it sits between P40i (2,052, better pure audio) and Liberty 4 NC (2,570, better ANC). Choose P41i if battery and travel utility are your #1 priorities.',
-        ar: 'P41i مصممة للمسافرين وأصحاب المواصلات الطويلة. الـ 192 ساعة بطارية إجمالي مع علبة باور بانك 3,000mAh يعني بتشحن السماعات والموبايل من نفس العلبة. كابل USB-C المدمج بيلغي مشكلة "نسيت الكابل". بـ 2,439 جنيه، بين P40i (2,052، صوت أفضل) وLiberty 4 NC (2,570، ANC أقوى). اختار P41i لو البطارية والسفر أولوية #1.',
+        en: 'P41i is designed around a high-capacity case that can also supply limited power to a compatible phone. The manufacturer-rated total playback depends on volume, ANC and case use, while phone charging reduces the energy available to the earbuds. Compare the case functions, fit, ANC controls and current product-page prices with P40i and Liberty models.',
+        ar: 'تعتمد P41i على علبة مرتفعة السعة يمكنها أيضًا تزويد هاتف متوافق بقدرة محدودة. يتأثر إجمالي التشغيل المقيم من ساوندكور بمستوى الصوت وANC واستخدام العلبة، كما يقلل شحن الهاتف الطاقة المتاحة للسماعتين. قارن وظائف العلبة والتثبيت والتحكم في ANC والأسعار الحالية في صفحات P40i وموديلات Liberty.',
     },
     specifications: {
         'Product Type': { en: 'True Wireless (TWS) In-Ear', ar: 'لاسلكية حقيقية TWS داخل الأذن' },
@@ -17,17 +17,12 @@ export const soundcore_p41i_earbuds_detail: ProductDetail = {
         'Battery (Earbuds)': { en: '12h (ANC off) / 10h (ANC on)', ar: '12 ساعة (بدون ANC) / 10 (مع ANC)' },
         'Battery (Total)': { en: '192 hours', ar: '192 ساعة' },
         'Case Battery': { en: '3,000mAh (doubles as 10W powerbank)', ar: '3,000mAh (بتتحول لباور بانك 10W)' },
-        'Fast Charge': { en: '10 min = 5h playback', ar: '10 دقائق = 5 ساعات تشغيل' },
+        'Fast Charge': { en: 'Manufacturer estimate: 10 minutes for up to 5 hours playback under stated conditions', ar: 'تقدير ساوندكور: 10 دقائق لما يصل إلى 5 ساعات تشغيل تحت الظروف المعلنة' },
         'Bluetooth': { en: '5.3 Multipoint', ar: '5.3 Multipoint' },
         'Mics': { en: '6-mic AI-enhanced calls', ar: '6 مايكات AI للمكالمات' },
         'Water': { en: 'IPX5', ar: 'IPX5' },
         'Case Features': { en: 'Powerbank (10W) + Phone Stand + Built-in USB-C cable', ar: 'باور بانك (10W) + ستاند موبايل + كابل USB-C مدمج' },
         'App': { en: 'Soundcore App (EQ + ANC modes)', ar: 'تطبيق ساوندكور (EQ + أوضاع ANC)' },
-        'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
+        'Compliance': { en: 'Verify FCC and CE markings or documents for the delivered unit and market', ar: 'يُراجع وجود علامات أو مستندات FCC وCE للوحدة المستلمة والسوق' },
     },
-    labVerified: {
-        result: { en: 'Case powerbank charged iPhone 17 from 15% to 45% (~30% charge). 10W output confirmed. Built-in USB-C cable survived 100 bends without damage. Phone stand holds S26 Ultra stably. ANC effective against engine drone (~30dB measured) but less effective against speech. 12h earbuds battery measured 11.2h at 50% volume. 192h total realistic with intermittent use.', ar: 'باور بانك العلبة شحن iPhone 17 من 15% لـ 45% (~30% شحن). خرج 10W متأكد. كابل USB-C المدمج نجح في 100 ثني بدون تلف. ستاند الموبايل بيمسك S26 Ultra بثبات. ANC فعّال ضد دمدمة المحرك (~30dB مقاس) بس أقل فعالية ضد الكلام. بطارية 12 ساعة مقاسة 11.2 ساعة على 50% صوت. 192 ساعة إجمالي واقعية مع الاستخدام المتقطع.' },
-        conditions: { en: 'CairoVolt Lab, Cairo — May 2026, 96h testing cycle', ar: 'معمل كايرو فولت، القاهرة — مايو 2026، دورة اختبار 96 ساعة' },
-        expertName: 'Dr. Sherif Hassan'
-    }
 };

@@ -54,8 +54,8 @@ ${ARTICLE_EXCERPT_AR}
 ${ARTICLE_URL}
 
 ━━━━━━━━━━━━━━━━
-🏪 كايرو فولت — الوكيل الرسمي لـ Anker و Joyroom في مصر
-📦 توصيل لكل المحافظات | ضمان أصلي
+🏪 كايرو فولت — متجر متخصص في منتجات انكر وجوي روم
+📦 توصيل لكل المحافظات | ضمان كايرو فولت
 🌐 cairovolt.com`;
 }
 
@@ -94,8 +94,15 @@ async function postToFacebook() {
   if (!DRY_RUN && COVER_URL) {
     console.log('  🔄 تحديث Facebook OG cache...');
     try {
-      const scrapeUrl = `https://graph.facebook.com/v21.0/?id=${encodeURIComponent(ARTICLE_URL)}&scrape=true&access_token=${FB_PAGE_ACCESS_TOKEN}`;
-      const scrapeRes = await fetch(scrapeUrl, { method: 'POST' });
+      const scrapeRes = await fetch('https://graph.facebook.com/v21.0/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: ARTICLE_URL,
+          scrape: true,
+          access_token: FB_PAGE_ACCESS_TOKEN,
+        }),
+      });
       const scrapeData = await scrapeRes.json();
       if (scrapeData.og_object) {
         console.log('  ✅ Cache محدّث بنجاح');

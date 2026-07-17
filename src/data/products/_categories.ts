@@ -11,7 +11,7 @@ export const categories = [
             en: { name: "Power Banks", description: "Essential backup power for outages — keeps your router and phone running." },
             ar: { name: "باور بانك", description: "المنقذ الحقيقي وقت تخفيف الأحمال وقطع الكهرباء.. هيشحن موبايلك والراوتر في الطوارئ." }
         },
-        meta: { keywords: "باور بانك, باور بنك, شاحن متنقل, بطارية متنقلة, power bank, أنكر power bank, انكر باور بانك, أنكر powerbank" }
+        meta: { keywords: "باور بانك, باور بنك, شاحن متنقل, بطارية متنقلة, power bank, انكر power bank, انكر باور بانك, انكر powerbank" }
     },
     {
         slug: "wall-chargers",
@@ -23,7 +23,7 @@ export const categories = [
             en: { name: "Wall Chargers", description: "Stable current chargers protecting your devices from grid voltage fluctuations." },
             ar: { name: "شواحن حائط", description: "شواحن بتيار ثابت تحمي بطارية موبايلك من تذبذب الكهربا وتخريف التاتش." }
         },
-        meta: { keywords: "شاحن, شاحن حائط, شاحن سريع, wall charger, شاحن انكر, راس شاحن انكر, شاحن type c, أنكر charger, شاحن ايفون انكر" }
+        meta: { keywords: "شاحن, شاحن حائط, شاحن سريع, wall charger, شاحن انكر, راس شاحن انكر, شاحن type c, انكر charger, شاحن ايفون انكر" }
     },
     {
         slug: "cables",
@@ -32,10 +32,10 @@ export const categories = [
         status: "active",
         productCount: 0,
         translations: {
-            en: { name: "Charging Cables", description: "Ultra-durable certified cables — never risk a counterfeit destroying your phone battery." },
-            ar: { name: "كابلات شحن", description: "كابلات بتعيش بالسنين.. بلاش تسترخص وتدمر بطاريتك بكابلات مضروبة من العتبة." }
+            en: { name: "Charging Cables", description: "Compare connector type, printed power and data ratings, construction, compatibility and current warranty terms." },
+            ar: { name: "كابلات شحن", description: "قارن نوع الموصل وتصنيف الطاقة والبيانات المطبوع والخامات والتوافق وشروط الضمان الحالية." }
         },
-        meta: { keywords: "كابل, سلك شحن, وصلة ايفون, cable, وصلة انكر, وصله انكر, أنكر cable type c, أنكر lightning" }
+        meta: { keywords: "كابل, سلك شحن, وصلة ايفون, cable, وصلة انكر, وصله انكر, انكر cable type c, انكر lightning" }
     },
     {
         slug: "car-chargers",
@@ -47,7 +47,7 @@ export const categories = [
             en: { name: "Car Chargers", description: "Cool-running fast chargers surviving extreme heat and summer traffic." },
             ar: { name: "شواحن سيارة", description: "شحن سريع مبيسخنش تحت شمس الأسفلت وفي زحمة الدائري أثناء تشغيل الـ GPS." }
         },
-        meta: { keywords: "شاحن سيارة, car charger, أنكر car charger, car charger أنكر, شاحن سيارة انكر" }
+        meta: { keywords: "شاحن سيارة, car charger, انكر car charger, car charger انكر, شاحن سيارة انكر" }
     },
     {
         slug: "audio",
@@ -57,9 +57,9 @@ export const categories = [
         productCount: 0,
         translations: {
             en: { name: "Audio & Earbuds", description: "True ANC earbuds sealing out street noise, metro sounds, and traffic." },
-            ar: { name: "سماعات وايربودز", description: "عزل ضوضاء حقيقي يفصلك تماماً عن دوشة الشارع والمترو والميكروباصات." }
+            ar: { name: "سماعات وايربودز", description: "قارن الملاءمة وطريقة العزل وشروط الاختبار؛ تختلف نتيجة تقليل الضوضاء حسب الموديل والأذن والبيئة." }
         },
-        meta: { keywords: "سماعات, ايربودز, earbuds, ايربودز انكر, سماعه انكر, سماعة بلوتوث انكر, أنكر earbuds, ساوندكور earbuds, أنكر headphones" }
+        meta: { keywords: "سماعات, ايربودز, earbuds, ايربودز انكر, سماعه انكر, سماعة بلوتوث انكر, انكر earbuds, ساوندكور earbuds, انكر headphones" }
     },
     {
         slug: "smart-watches",
@@ -92,7 +92,7 @@ export const categories = [
         status: "active",
         productCount: 0,
         translations: {
-            en: { name: "Bluetooth Speakers", description: "Massive sound and endless battery perfectly suited for summer beach weekends." },
+            en: { name: "Bluetooth Speakers", description: "Compare listed output, battery test conditions, connectivity, size and water-resistance limits for portable listening." },
             ar: { name: "مكبرات صوت بلوتوث", description: "سماعات بصوت جبار وبطارية مبتفصلش عشان خروجات الساحل وتجمعات الرووف." }
         },
         meta: { keywords: "speaker, bluetooth speaker, ساوندكور, مكبر صوت, سماعة بلوتوث, ساوندكور speaker, سماعة ساوندكور" }

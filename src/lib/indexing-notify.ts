@@ -1,7 +1,6 @@
 /**
- * Helper to notify the Indexing API when pages update.
- * Use this from any backend code (admin panels, API routes, etc.)
- * when you need to notify Google of a URL update or deletion.
+ * Revalidate changed product surfaces and notify IndexNow-compatible engines.
+ * Google discovery continues through the sitemap and normal crawling.
  */
 import { logger } from '@/lib/logger';
 export async function notifyIndexing(
@@ -48,15 +47,15 @@ export async function notifyIndexing(
         const result = await response.json();
 
         if (result.success) {
-            logger.info(`[Indexing] ✅ Google Index pinged: ${targetUrl}`);
+            logger.info(`[Discovery] Product surfaces refreshed: ${targetUrl}`);
             return { success: true };
         } else {
-            console.error(`[Indexing] ❌ Ping failed:`, result.error);
+            console.error('[Discovery] Refresh request failed:', result.error);
             return { success: false, error: result.error };
         }
     } catch (error) {
         const message = error instanceof Error ? error.message : 'Unknown error';
-        console.error(`[Indexing] ❌ Network error:`, message);
+        console.error('[Discovery] Network error:', message);
         return { success: false, error: message };
     }
 }

@@ -30,24 +30,25 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
         ar: {
             title: 'باور بانك لشحن 4 أجهزة معاً — موبايل + لابتوب + سماعة + ساعة في مصر 2026',
             metaTitle: 'باور بانك يشحن 4 أجهزة في نفس الوقت — الدليل الكامل | كايرو فولت',
-            metaDescription: 'إزاي تشحن موبايل ولابتوب وسماعة وساعة ذكية من باور بانك واحد؟ فيزياء توزيع الوات + جدول التوافق + أفضل 4 موديلات من 997ج لـ 3,950ج في مصر 2026.',
+            metaDescription: 'إزاي تشحن موبايل ولابتوب وسماعة وساعة من باور بانك واحد؟ راجع توزيع قدرة المنافذ والبروتوكولات والكابلات والتوافق والسعر الحالي.',
             keywords: 'باور بانك 4 اجهزة, باور بانك يشحن لابتوب وموبايل, شحن اجهزة متعددة باور بانك, انكر برايم 25000, انكر 737 باور بانك, باور بانك متعدد المنافذ مصر, power bank 4 devices egypt, باور بانك USB-C PD لابتوب, افضل باور بانك للسفر 2026, توزيع واط باور بانك',
-            excerpt: 'دليل عملي لشحن 4 أجهزة في وقت واحد من باور بانك واحد — الشروط التقنية الحقيقية وأفضل الموديلات المتاحة في مصر بالأسعار.',
-            quickAnswer: 'أيوا، تقدر تشحن موبايل + لابتوب + سماعة + ساعة من باور بانك واحد — بشرط 3 حاجات: (1) سعة 20,000mAh على الأقل (المثالي 25,000mAh)، (2) 3 منافذ خرج أو أكتر مع دعم USB-C PD بقدرة 65W+، (3) إجمالي خرج 100W+ علشان الوات يتوزع كفاية. أفضل خيار: أنكر Prime A1695 — 25,000mAh، 165W إجمالي، منفذين USB-C + USB-A، بيشحن لابتوب كامل + 3 أجهزة صغيرة معاً.',
-            content: `<p>إنت قاعد في كافيه أو مسافر الساحل بالعربية — ومعاك لابتوب على وشك يقفل، الموبايل على 12%، السماعات اللاسلكية فاضية، والساعة الذكية بتقولك "شحن منخفض". الحل المنطقي؟ باور بانك واحد يشحن الكل في نفس الوقت. بس مش أي باور بانك يقدر يعمل كده — ده بيحتاج مواصفات محددة. وأغلب اللي بيتباع في السوق المصري مش هيعرف يعمل الحركة دي.</p>
+            excerpt: 'دليل عملي لشحن عدة أجهزة من باور بانك واحد وفق توزيع قدرة المنافذ والبروتوكولات والكابلات.',
+            quickAnswer: 'يمكن شحن أكثر من جهاز من باور بانك واحد إذا كان عدد المنافذ وتوزيع القدرة المنشور والبروتوكولات يطابق كل جهاز. لا توجد سعة أو قدرة إجمالية واحدة تضمن شحن لابتوب وهاتف وسماعة وساعة معاً؛ راجع متطلبات كل موديل، وحد كل منفذ عند التشغيل المتزامن، والكابلات المطلوبة. صفحة انكر Prime A1695 تعرض السعة والمنافذ والخرج الحالي للمقارنة.',
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p>
+
+<p>إنت قاعد في كافيه أو مسافر الساحل بالعربية — ومعاك لابتوب على وشك يقفل، الموبايل على 12%، السماعات اللاسلكية فاضية، والساعة الذكية بتقولك "شحن منخفض". باور بانك واحد قد يشحن أكثر من جهاز، لكن النتيجة تعتمد على عدد المنافذ وتوزيع القدرة المنشور عند تشغيلها معاً وبروتوكول وكابل كل جهاز.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        أيوا، تقدر تشحن موبايل + لابتوب + سماعة + ساعة من باور بانك واحد — بشرط 3 حاجات: (1) سعة 20,000mAh على الأقل (المثالي 25,000mAh)، (2) 3 منافذ خرج أو أكتر مع دعم USB-C PD بقدرة 65W+، (3) إجمالي خرج 100W+ علشان الوات يتوزع كفاية. أفضل خيار: <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695</a> — 25,000mAh، 165W إجمالي، منفذين USB-C + USB-A، بيشحن لابتوب كامل + 3 أجهزة صغيرة معاً.
+        يمكن شحن موبايل ولابتوب وسماعة وساعة من مصدر واحد عندما تتوافق المنافذ والبروتوكولات والكابلات ويكفي توزيع القدرة المنشور لكل جهاز. راجع متطلبات اللابتوب أولاً، ثم مواصفات <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695</a> والسعر الحالي؛ الخرج الإجمالي لا يعني أن كل منفذ يعطي أقصى قدرة في الوقت نفسه.
     </p>
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 اختبار كايرو فولت — توزيع الوات الحقيقي:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📋 طريقة التحقق من توزيع القدرة:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        وصّلنا 4 أجهزة (MacBook Air M2 + iPhone 17 Pro + AirPods Pro 3 + ساعة ذكية) على 3 باور بانكات مختلفة في مايو 2026 وقسنا الخرج الفعلي لكل منفذ بمقياس USB-C. 
-        <strong>النتيجة:</strong> <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695</a> وزّع 62W للابتوب + 18W للموبايل + 5W للسماعة + 2.5W للساعة = 87.5W إجمالي من أصل 165W. باور بانك رخيص بمنفذين بس — فشل يشحن اللابتوب خالص وأعطى الموبايل 10W بدل 25W.
+        ابدأ بجدول توزيع المنافذ المنشور للموديل، ثم قارنه بقدرة الشحن المطلوبة لكل جهاز وكابل. صفحة <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695</a> هي المرجع لمواصفات هذا الموديل؛ القدرة الفعلية تتغير مع الأجهزة المتصلة ونسبة البطارية والحرارة والتفاوض عبر USB-C PD.
     </p>
 </div>
 
@@ -104,7 +105,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
     </tbody>
 </table>
 
-<p>النتيجة واضحة: محتاج باور بانك بإجمالي خرج 100W على الأقل علشان الأربع أجهزة يشحنوا بسرعة معقولة. لو الإجمالي أقل من 45W، اللابتوب مش هيشحن واللي هيحصل إنه هيفضل ثابت أو ينزل ببطء والباقي يشحنوا ببطء شديد.</p>
+<p>النتيجة: اجمع احتياجات أجهزتك ثم راجع جدول التوزيع عند التشغيل المتزامن، لا رقم الخرج الإجمالي وحده. بعض اللابتوبات تقبل قدرات أقل مع شحن أبطأ، وبعضها يحتاج ملف PD محدداً؛ دليل الجهاز هو المرجع.</p>
 
 <p>لو عايز تفهم الفرق بين سعات الباور بانك بالتفصيل — 5,000 ضد 10,000 ضد 20,000 — اقرأ <a href="/blog/5000-vs-10000-vs-20000-mah-which-capacity" style="color:#2563eb;font-weight:600;">دليل اختيار السعة المناسبة</a>.</p>
 
@@ -172,7 +173,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
 <h2>5 أخطاء بتخلي الباور بانك يفشل في شحن أجهزة متعددة</h2>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#991b1b;"><strong>⚠️ تحذير:</strong> 3 من كل 5 شكاوى "الباور بانك مش بيشحن اللابتوب" سببها كابل USB-C رخيص مش بيدعم PD. الكابل اللي جاي مع الموبايل غالباً بيدعم 15-18W بس — مش 65W اللي اللابتوب محتاجها. استخدم كابل USB-C بيدعم 100W PD على الأقل.</p>
+    <p style="margin:0;color:#991b1b;"><strong>⚠️ تحذير:</strong> الكابل غير المطابق قد يمنع ملف USB-C PD المطلوب. افحص تصنيف الكابل ومتطلبات اللابتوب؛ لا تفترض أن كابل الهاتف أو رقم 100W مطلوبان لكل جهاز.</p>
 </div>
 
 <ul style="list-style:none;padding:0;">
@@ -193,51 +194,52 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت بضمان رسمي</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ قارن الموديلات المتاحة على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل الباور بانكات المذكورة <strong>أصلية 100%</strong> بضمان 18 شهر + توصيل لكل محافظات مصر خلال 24-72 ساعة + دفع عند الاستلام + دعم فني واتساب 24/7.
+        كل باور بانك مذكور مرتبط بصفحة تعرض رقم الموديل والقدرة وتوزيع المنافذ والسعر الحالي. راجع شروط ضمان كايرو فولت المكتوبة وطرق الدفع وتقدير الشحن حسب عنوانك قبل تأكيد الطلب.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'هل ممكن أشحن لابتوب جيمنج من باور بانك؟',
-                    answer: 'غالباً لا. لابتوبات الجيمنج بتحتاج 150-300W وبتستخدم منفذ DC مخصوص مش USB-C. حتى أنكر Prime (165W) مش هيكفي. الاستثناء الوحيد: لابتوبات جيمنج خفيفة زي ASUS ROG Flow اللي بتقبل شحن USB-C PD بـ 100W — لكن هتشحن ببطء وأنت مش بتلعب.'
+                    answer: 'غالباً لا. لابتوبات الجيمنج بتحتاج 150-300W وبتستخدم منفذ DC مخصوص مش USB-C. حتى انكر Prime (165W) مش هيكفي. الاستثناء الوحيد: لابتوبات جيمنج خفيفة زي ASUS ROG Flow اللي بتقبل شحن USB-C PD بـ 100W — لكن هتشحن ببطء وأنت مش بتلعب.'
                 },
                 {
                     question: 'لو وصّلت 4 أجهزة، البطارية هتخلص في قد إيه؟',
-                    answer: 'بيعتمد على السعة والاستهلاك. أنكر Prime (25,000mAh / 92.7Wh) بيشحن MacBook Air M2 شحنة كاملة (30Wh) + iPhone 17 Pro (16Wh) + سماعة (1.5Wh) + ساعة (1Wh) = 48.5Wh — وبعد حساب كفاءة التحويل (85%)، بيفضل معاك حوالي 30% من الباور بانك. يعني رحلة واحدة مريحة.'
+                    answer: 'بيعتمد على السعة والاستهلاك. انكر Prime (25,000mAh / 92.7Wh) بيشحن MacBook Air M2 شحنة كاملة (30Wh) + iPhone 17 Pro (16Wh) + سماعة (1.5Wh) + ساعة (1Wh) = 48.5Wh — وبعد حساب كفاءة التحويل (85%)، بيفضل معاك حوالي 30% من الباور بانك. يعني رحلة واحدة مريحة.'
                 },
                 {
                     question: 'هل الشحن المتعدد بيأذي بطارية الباور بانك؟',
-                    answer: 'لا، بشرط إنك تستخدم باور بانك فيه رقاقة حماية ذكية (زي ActiveShield 2.0 في أنكر). الرقاقة بتراقب الحرارة والتيار لكل منفذ على حدة. اللي بيأذي البطارية فعلاً هو: (1) السخونة فوق 45°م، (2) التفريغ لـ 0% باستمرار، (3) استخدام كابلات مضروبة.'
+                    answer: 'الشحن المتعدد ضمن توزيع القدرة وحدود الحرارة المنشورة للموديل استخدام متوقع، لكنه قد يرفع الحمل والحرارة. راجع دليل انكر للموديل وتهويته، واستخدم كابلات مطابقة، وأوقف الاستخدام عند سخونة غير طبيعية؛ لا تفترض أن اسم ميزة حماية وحده يضمن نتيجة مطلقة.'
                 },
                 {
                     question: 'أقدر أستخدم كابل 3-في-1 بدل 3 كابلات منفصلة؟',
-                    answer: 'أيوا، لكن بتحفظ. كابلات 3-في-1 بتدعم 15-18W إجمالي بس — يعني كفاية للموبايل + السماعة + الساعة. لكن مش هتنفع للابتوب أبداً. الحل العملي: كابل USB-C PD 100W مستقل للابتوب + كابل 3-في-1 لباقي الأجهزة.'
+                    answer: 'يعتمد على مواصفات كابل 3-في-1 وتوزيع قدرته وبروتوكول كل طرف. كثير من هذه الكابلات لا يوفر ملف USB-C PD المطلوب للابتوب، لكن لا يوجد حد 15–18W ينطبق على الجميع؛ راجع ملصق الكابل والأجهزة، واستخدم للابتوب كابلاً مستقلاً موثق القدرة ويدعم ملفه المطلوب.'
                 }
             ]
         },
         en: {
             title: 'Power Bank for Charging 4 Devices Simultaneously — Phone + Laptop + Earbuds + Watch in Egypt 2026',
             metaTitle: 'Power Bank for 4 Devices at Once — Complete Guide | CairoVolt',
-            metaDescription: 'How to charge a phone, laptop, earbuds, and smartwatch from one power bank. Wattage distribution physics + compatibility chart + top 4 models from 997 to 3,9...',
+            metaDescription: 'Charge a phone, laptop, earbuds, and watch from one power bank by checking port allocation, protocols, cables, compatibility, and current price.',
             keywords: 'power bank 4 devices simultaneously, power bank charge laptop phone, multi-port power bank egypt, anker prime 25000 egypt, anker 737 power bank, power bank usb-c pd laptop, best multi-device power bank 2026, power bank wattage distribution, charge 4 devices one power bank, power bank egypt egp price',
-            excerpt: 'A practical guide to charging 4 devices at once from a single power bank — the real technical requirements and best models available in Egypt with prices.',
-            quickAnswer: 'Yes, you can charge a phone + laptop + earbuds + smartwatch from a single power bank — with 3 conditions: (1) at least 20,000mAh capacity (ideally 25,000mAh), (2) 3 or more output ports with USB-C PD support at 65W+, (3) total output of 100W+ so wattage distributes adequately. Best pick: Anker Prime A1695 — 25,000mAh, 165W total, dual USB-C + USB-A, charges a full laptop + 3 smaller devices simultaneously.',
-            content: `<p>You are sitting in a café or driving to the North Coast — your laptop is about to die, your phone is at 12%, your wireless earbuds are empty, and your smartwatch says "low battery." The logical solution? One power bank that charges everything at the same time. But not just any power bank can pull this off — it requires very specific specifications. And most of what is sold on the Egyptian market simply cannot do it.</p>
+            excerpt: 'A practical guide to charging several devices from one power bank using port allocation, protocols, cables, and compatibility.',
+            quickAnswer: 'A single power bank can charge several devices when its ports, published multi-port allocation, protocols, and cables match each device. No universal capacity or total wattage guarantees a laptop, phone, earbuds, and watch will all charge as expected; check each model requirement and each port limit. The Anker Prime A1695 page provides its current capacity, ports, and output for comparison.',
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Prices and availability are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p>
+
+<p>You are sitting in a café or driving to the North Coast—your laptop is low, your phone is at 12%, and your earbuds and watch also need power. One power bank may serve several devices, but the outcome depends on port count, the published allocation when ports are used together, and each device's protocol and cable.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        Yes, you can charge a phone + laptop + earbuds + smartwatch from a single power bank — with 3 conditions: (1) at least 20,000mAh capacity (ideally 25,000mAh), (2) 3 or more output ports with USB-C PD support at 65W+, (3) total output of 100W+ so wattage distributes adequately. Best pick: <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695</a> — 25,000mAh, 165W total, dual USB-C + USB-A, charges a full laptop + 3 smaller devices simultaneously.
+        A phone, laptop, earbuds, and watch can share one source when its ports, protocols, cables, and published allocation meet each device's requirements. Check the laptop first, then the current <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695</a> specifications and price; total output does not mean every port supplies its maximum at once.
     </p>
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Field Test — Real Wattage Distribution:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📋 How to verify port allocation:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We connected 4 devices (MacBook Air M2 + iPhone 17 Pro + AirPods Pro 3 + smartwatch) to 3 different power banks in May 2026 and measured the actual output per port using a USB-C meter.
-        <strong>Result:</strong> The <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695</a> distributed 62W to the laptop + 18W to the phone + 5W to earbuds + 2.5W to the watch = 87.5W total out of 165W. A cheap 2-port power bank failed to charge the laptop entirely and delivered only 10W to the phone instead of 25W.
+        Start with the model's published multi-port table, then compare it with each device's charging requirement and cable rating. The <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695</a> page is the reference for that model; actual power changes with connected devices, state of charge, temperature, and USB-C PD negotiation.
     </p>
 </div>
 
@@ -294,7 +296,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
     </tbody>
 </table>
 
-<p>The conclusion is clear: you need a power bank with at least 100W total output for all four devices to charge at a reasonable speed. If the total is below 45W, the laptop will not charge — it will stay flat or drain slowly, and everything else charges at a crawl.</p>
+<p>Conclusion: total your devices' requirements, then check the allocation table with ports active together rather than relying on total output alone. Some laptops accept a lower profile more slowly, while others require a specific PD profile; the device manual is the reference.</p>
 
 <p>If you want to understand the difference between power bank capacities in detail — 5,000 vs 10,000 vs 20,000 — read our <a href="/en/blog/5000-vs-10000-vs-20000-mah-which-capacity" style="color:#2563eb;font-weight:600;">capacity selection guide</a>.</p>
 
@@ -362,7 +364,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
 <h2>5 Mistakes That Make Your Power Bank Fail at Multi-Device Charging</h2>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#991b1b;"><strong>⚠️ Warning:</strong> 3 out of 5 complaints about "power bank won't charge laptop" are caused by cheap USB-C cables that do not support PD. The cable that came with your phone typically supports only 15-18W — not the 65W your laptop needs. Use a USB-C cable rated for 100W PD minimum.</p>
+    <p style="margin:0;color:#991b1b;"><strong>⚠️ Warning:</strong> A cable that does not support the required USB-C PD profile can prevent charging. Check the cable rating and laptop requirements; do not assume a phone cable is sufficient or that every device requires a 100W cable.</p>
 </div>
 
 <ul style="list-style:none;padding:0;">
@@ -383,9 +385,9 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt with Official Warranty</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Compare Models Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All listed power banks are <strong>100% authentic</strong> with 18-month warranty + delivery to all Egyptian governorates within 24-72 hours + cash on delivery + 24/7 WhatsApp support.
+        Each listed power bank links to its exact model, output distribution, and live price. Review CairoVolt's written warranty terms, available payment methods, and the delivery estimate for your address before confirming the order.
     </p>
 </div>`,
             faq: [
@@ -399,11 +401,11 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
                 },
                 {
                     question: 'Does multi-device charging damage the power bank battery?',
-                    answer: 'No, as long as the power bank has a smart protection chip (like ActiveShield 2.0 in Anker models). The chip monitors temperature and current per port independently. What actually damages the battery is: (1) heat above 45°C, (2) constantly draining to 0%, (3) using counterfeit cables.'
+                    answer: 'Multi-port use within the model\'s published allocation and temperature limits is an intended scenario, but it may increase load and heat. Check the Anker model manual, provide ventilation, use rated cables, and stop if anything becomes unusually hot; a protection feature name is not an absolute guarantee.'
                 },
                 {
                     question: 'Can I use a 3-in-1 cable instead of 3 separate cables?',
-                    answer: 'Yes, but with caveats. 3-in-1 cables typically support only 15-18W total — sufficient for phone + earbuds + watch but absolutely not for a laptop. The practical solution: one standalone 100W USB-C PD cable for the laptop + a 3-in-1 cable for the remaining devices.'
+                    answer: 'It depends on the 3-in-1 cable\'s published power allocation and each connector\'s protocol. Many do not provide the USB-C PD profile a laptop requires, but one 15–18W limit does not apply to every product. Check the cable and device labels, and use a separately rated cable that supports the laptop\'s required profile.'
                 }
             ]
         }

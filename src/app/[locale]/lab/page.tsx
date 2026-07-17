@@ -1,8 +1,6 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
-import { labData } from '@/data/product-tests';
-import { staticProducts } from '@/lib/static-products';
-import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import { setRequestLocale } from 'next-intl/server';
 
 export const revalidate = 86400;
 
@@ -10,266 +8,260 @@ type Props = {
     params: Promise<{ locale: string }>;
 };
 
-const BASE = 'https://cairovolt.com';
+const BASE_URL = 'https://cairovolt.com';
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale } = await params;
     const isArabic = locale === 'ar';
-    const testedCount = Object.keys(labData).length;
+    const canonical = `${BASE_URL}${isArabic ? '' : '/en'}/lab`;
+
+    const title = isArabic
+        ? 'مختبر كايرو فولت للمواصفات — حسابات الشحن والتوافق'
+        : 'CairoVolt Specs Lab — Charging Calculations & Compatibility';
+    const description = isArabic
+        ? 'مركز عملي لفهم مواصفات الباور بانك والشواحن والكابلات: طريقة تحويل mAh إلى Wh، تقدير عدد الشحنات، وفحص توافق PD وPPS مع توضيح المصادر والافتراضات.'
+        : 'A practical hub for understanding power-bank, charger, and cable specifications, including mAh-to-Wh calculations, estimated charge counts, and PD/PPS compatibility with transparent sources and assumptions.';
 
     return {
-        title: isArabic
-            ? `مختبرات كايرو فولت — ${testedCount}+ منتج مُختبر فعلياً في مصر`
-            : `CairoVolt Labs — ${testedCount}+ Products Actually Tested in Egypt`,
-        description: isArabic
-            ? `بيانات اختبار حقيقية من مصر: السعة الفعلية للباور بانك، الحرارة تحت شبكة كهرباء 190–240V، عمر البطارية، ودورات الثني للكابلات. ${testedCount}+ منتج مُختبر بظروف الاستخدام المصرية.`
-            : `Real test data from Egypt: actual power bank capacity, thermals on the 190–240V grid, battery life, cable bend cycles. ${testedCount}+ products tested under Egyptian conditions.`,
+        title: { absolute: title },
+        description,
         alternates: {
-            canonical: isArabic ? `${BASE}/lab` : `${BASE}/en/lab`,
+            canonical,
             languages: {
-                'ar-EG': `${BASE}/lab`,
-                'en-EG': `${BASE}/en/lab`,
-                'x-default': `${BASE}/lab`,
+                'ar-EG': `${BASE_URL}/lab`,
+                'en-EG': `${BASE_URL}/en/lab`,
+                'x-default': `${BASE_URL}/lab`,
             },
         },
         openGraph: {
-            title: isArabic ? 'مختبرات كايرو فولت — بيانات اختبار حقيقية' : 'CairoVolt Labs — Real Test Data',
-            description: isArabic
-                ? 'نختبر ما نبيعه: قياسات فعلية تحت ظروف الاستخدام المصرية.'
-                : 'We test what we sell: real measurements under Egyptian conditions.',
-            locale: isArabic ? 'ar_EG' : 'en_US',
+            title,
+            description,
+            url: canonical,
+            locale: isArabic ? 'ar_EG' : 'en_EG',
             type: 'website',
         },
     };
 }
 
-/** Human-readable chips for the headline metrics of each tested product */
-function metricChips(metrics: Record<string, number | undefined>, isArabic: boolean): string[] {
-    const chips: string[] = [];
-    if (metrics.actualCapacity_mAh) chips.push(isArabic ? `سعة فعلية ${metrics.actualCapacity_mAh} مللي أمبير` : `${metrics.actualCapacity_mAh} mAh actual`);
-    if (metrics.routerRuntimeHours) chips.push(isArabic ? `يشغّل الراوتر ${metrics.routerRuntimeHours} ساعة` : `${metrics.routerRuntimeHours}h router runtime`);
-    if (metrics.maxTemp_C) chips.push(isArabic ? `أقصى حرارة ${metrics.maxTemp_C}°C` : `${metrics.maxTemp_C}°C max temp`);
-    if (metrics.realEfficiency) chips.push(isArabic ? `كفاءة ${metrics.realEfficiency}%` : `${metrics.realEfficiency}% efficiency`);
-    if (metrics.bendCycles) chips.push(isArabic ? `${metrics.bendCycles.toLocaleString()} دورة ثني` : `${metrics.bendCycles.toLocaleString()} bend cycles`);
-    if (metrics.batteryLife_hours) chips.push(isArabic ? `بطارية ${metrics.batteryLife_hours} ساعة` : `${metrics.batteryLife_hours}h battery`);
-    if (metrics.noiseReduction_dB) chips.push(isArabic ? `عزل ${metrics.noiseReduction_dB} ديسيبل` : `${metrics.noiseReduction_dB} dB ANC`);
-    if (metrics.chargingSpeed_W) chips.push(isArabic ? `شحن ${metrics.chargingSpeed_W} واط` : `${metrics.chargingSpeed_W}W charging`);
-    return chips.slice(0, 3);
-}
-
 export default async function LabPage({ params }: Props) {
     const { locale } = await params;
+    setRequestLocale(locale);
+
     const isArabic = locale === 'ar';
     const prefix = isArabic ? '' : '/en';
+    const canonical = `${BASE_URL}${prefix}/lab`;
 
-    const testedSlugs = Object.keys(labData);
-    const testedCount = testedSlugs.length;
+    const methodology = isArabic
+        ? [
+            {
+                title: 'المصدر أولاً',
+                body: 'نبدأ برقم الموديل والمواصفات المنشورة من الشركة المصنّعة، ثم نطابقها مع بيانات العبوة وصفحة المنتج. وأي قياس عملي يحتاج تقريراً يوضح العينة والأدوات والمنهج والنتيجة.',
+            },
+            {
+                title: 'الحساب منفصل عن القياس',
+                body: 'أي نتيجة مشتقة من mAh أو Wh تُعرض كتقدير حسابي مع المعادلة والافتراضات. النتيجة الفعلية تتغير حسب الجهاز والكابل والحرارة وحالة البطارية.',
+            },
+            {
+                title: 'الموديل قبل العلامة',
+                body: 'تقنيات مثل PD وPPS وGaN وANC وLDAC لا توجد في كل منتجات العلامة. لذلك نربط كل معلومة بالموديل المحدد بدلاً من تعميمها على كل المنتجات.',
+            },
+        ]
+        : [
+            {
+                title: 'Start with the source',
+                body: 'We begin with the exact model number and manufacturer-published specifications, then compare them with the packaging and product page. A practical measurement requires a report identifying the sample, tools, method, and result.',
+            },
+            {
+                title: 'Calculations are not measurements',
+                body: 'Results derived from mAh or Wh are labeled as estimates and show their assumptions. Actual results vary with the device, cable, temperature, and battery condition.',
+            },
+            {
+                title: 'Model before brand',
+                body: 'PD, PPS, GaN, ANC, and LDAC are model-specific features. We connect each explanation to the relevant model instead of generalizing it across an entire brand.',
+            },
+        ];
 
-    // Join lab entries with the catalog (link + name + image); entries without
-    // a catalog product are counted but not carded.
-    const cards = testedSlugs
-        .map(slug => {
-            const product = staticProducts.find(p => p.slug === slug);
-            if (!product) return null;
-            const lab = labData[slug];
-            const test = lab.labTests?.[0];
-            return {
-                slug,
-                url: `${prefix}/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${slug}`,
-                name: isArabic
-                    ? localizeArabicBrandNames(product.translations?.ar?.name || slug)
-                    : product.translations?.en?.name || slug,
-                brand: getBrandDisplayName(product.brand, locale),
-                image: product.images?.[0]?.url || '',
-                scenario: test ? (isArabic ? localizeArabicBrandNames(test.scenario.ar) : test.scenario.en) : '',
-                conditions: test ? (isArabic ? localizeArabicBrandNames(test.conditions.ar) : test.conditions.en) : '',
-                chips: metricChips((lab.labMetrics || {}) as Record<string, number | undefined>, isArabic),
-            };
-        })
-        .filter((c): c is NonNullable<typeof c> => c !== null);
+    const categoryLinks = isArabic
+        ? [
+            { href: '/power-banks', title: 'باور بانك', body: 'قارن السعة بالواط/ساعة والقدرة والمنافذ.' },
+            { href: '/chargers', title: 'شواحن', body: 'طابق القدرة والبروتوكول مع هاتفك أو اللابتوب.' },
+            { href: '/cables', title: 'كابلات', body: 'راجع القدرة ونقل البيانات ونوع الموصل.' },
+            { href: '/earbuds', title: 'سماعات بلوتوث', body: 'قارن الترميز والعزل والبطارية والتوافق.' },
+        ]
+        : [
+            { href: '/en/power-banks', title: 'Power banks', body: 'Compare watt-hours, output power, and ports.' },
+            { href: '/en/chargers', title: 'Chargers', body: 'Match wattage and protocol to your phone or laptop.' },
+            { href: '/en/cables', title: 'Cables', body: 'Check power rating, data support, and connector type.' },
+            { href: '/en/earbuds', title: 'Bluetooth audio', body: 'Compare codecs, noise control, battery, and compatibility.' },
+        ];
 
-    // Dataset JSON-LD — makes the lab data eligible for Google Dataset Search
-    // and gives AI engines a citable, machine-readable source.
-    const datasetSchema = {
+    const guideLinks = isArabic
+        ? [
+            { href: '/blog/pd-qc-pps-fast-charging-abbreviations-explained', title: 'شرح PD وPPS وQC' },
+            { href: '/blog/mah-vs-wh-power-bank-real-capacity-explained', title: 'الفرق بين mAh وWh' },
+            { href: '/blog/20w-30w-45w-65w-100w-charger-which-you-need', title: 'اختيار قدرة الشاحن المناسبة' },
+            { href: '/blog/usb-c-cable-guide-egypt-2026', title: 'دليل كابلات USB-C' },
+        ]
+        : [
+            { href: '/en/blog/pd-qc-pps-fast-charging-abbreviations-explained', title: 'PD, PPS, and QC explained' },
+            { href: '/en/blog/mah-vs-wh-power-bank-real-capacity-explained', title: 'mAh versus Wh' },
+            { href: '/en/blog/20w-30w-45w-65w-100w-charger-which-you-need', title: 'Choose the right charger wattage' },
+            { href: '/en/blog/usb-c-cable-guide-egypt-2026', title: 'USB-C cable guide' },
+        ];
+
+    const schema = {
         '@context': 'https://schema.org',
         '@graph': [
             {
-                '@type': 'Dataset',
-                '@id': `${BASE}/lab#dataset`,
+                '@type': 'WebPage',
+                '@id': `${canonical}#webpage`,
+                url: canonical,
                 name: isArabic
-                    ? 'بيانات اختبارات مختبرات كايرو فولت — إكسسوارات الموبايل في الظروف المصرية'
-                    : 'CairoVolt Labs Test Data — Mobile Accessories under Egyptian Conditions',
+                    ? 'مختبر كايرو فولت للمواصفات والحسابات'
+                    : 'CairoVolt Specifications and Calculations Lab',
                 description: isArabic
-                    ? `قياسات اختبار فعلية لـ${testedCount}+ من إكسسوارات الموبايل (انكر، جوي روم، ساوندكور) تحت ظروف الاستخدام المصرية: تذبذب شبكة الكهرباء 190–240V، حرارة الصيف، انقطاعات الكهرباء. تشمل: السعة الفعلية، زمن تشغيل الراوتر، أقصى حرارة، الكفاءة الحقيقية، دورات الثني، عمر البطارية.`
-                    : `Actual test measurements for ${testedCount}+ mobile accessories (Anker, Joyroom, Soundcore) under Egyptian conditions: 190–240V grid fluctuation, summer heat, load-shedding. Covers: actual capacity, router runtime, max temperature, real efficiency, bend cycles, battery life.`,
-                url: `${BASE}${prefix}/lab`,
-                creator: { '@id': `${BASE}/#organization` },
-                publisher: { '@id': `${BASE}/#organization` },
-                inLanguage: ['ar-EG', 'en-EG'],
-                isAccessibleForFree: true,
-                spatialCoverage: { '@type': 'Place', name: 'Egypt' },
-                variableMeasured: [
-                    'actualCapacity_mAh', 'routerRuntimeHours', 'maxTemp_C',
-                    'chargeCycles', 'realEfficiency', 'bendCycles',
-                    'noiseReduction_dB', 'batteryLife_hours', 'chargingSpeed_W',
-                ].map(v => ({ '@type': 'PropertyValue', name: v })),
-                distribution: [
-                    {
-                        '@type': 'DataDownload',
-                        encodingFormat: 'application/json',
-                        contentUrl: `${BASE}/api/lab-data/json`,
-                    },
-                    {
-                        '@type': 'DataDownload',
-                        encodingFormat: 'text/csv',
-                        contentUrl: `${BASE}/api/lab-data/csv`,
-                    },
+                    ? 'منهجية واضحة لفهم مواصفات الشحن وإجراء حسابات تقديرية قبل الشراء.'
+                    : 'A transparent method for understanding charging specifications and making disclosed estimates before buying.',
+                inLanguage: isArabic ? 'ar-EG' : 'en-EG',
+                isPartOf: { '@id': `${BASE_URL}/#website` },
+                about: [
+                    { '@type': 'Thing', name: 'USB Power Delivery' },
+                    { '@type': 'Thing', name: 'Programmable Power Supply' },
+                    { '@type': 'Thing', name: 'Battery energy in watt-hours' },
                 ],
             },
             {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                    { '@type': 'ListItem', position: 1, name: isArabic ? 'الرئيسية' : 'Home', item: `${BASE}${prefix || '/'}` },
-                    { '@type': 'ListItem', position: 2, name: isArabic ? 'المختبر' : 'Lab', item: `${BASE}${prefix}/lab` },
+                    {
+                        '@type': 'ListItem',
+                        position: 1,
+                        name: isArabic ? 'الرئيسية' : 'Home',
+                        item: `${BASE_URL}${prefix || '/'}`,
+                    },
+                    {
+                        '@type': 'ListItem',
+                        position: 2,
+                        name: isArabic ? 'مختبر المواصفات' : 'Specs Lab',
+                        item: canonical,
+                    },
                 ],
             },
         ],
     };
 
     return (
-        <>
+        <main dir={isArabic ? 'rtl' : 'ltr'} className="bg-white text-slate-950 dark:bg-slate-950 dark:text-white">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
             />
-            <div dir={isArabic ? 'rtl' : 'ltr'}>
-                {/* Hero */}
-                <section className="bg-gradient-to-br from-blue-700 via-blue-800 to-blue-900 dark:from-gray-950 dark:via-blue-950 dark:to-gray-950 text-white py-16">
-                    <div className="container mx-auto px-4 max-w-5xl">
-                        <h1 className="text-3xl md:text-4xl font-bold mb-4">
-                            {isArabic ? '🔬 مختبرات كايرو فولت' : '🔬 CairoVolt Labs'}
-                        </h1>
-                        <p className="text-blue-100 text-lg max-w-3xl leading-relaxed">
-                            {isArabic
-                                ? `لا ننقل مواصفات المصنّع — نقيسها. ${testedCount}+ منتج مُختبر تحت ظروف الاستخدام المصرية الحقيقية: تذبذب الكهرباء (190–240V)، حرارة الصيف، قطع الكهرباء، ومترو القاهرة.`
-                                : `We don't copy manufacturer specs — we measure them. ${testedCount}+ products tested under real Egyptian conditions: grid fluctuation (190–240V), summer heat, load-shedding, and the Cairo metro.`}
-                        </p>
-                        <div className="flex flex-wrap gap-3 mt-6 text-sm">
-                            <span className="bg-white/10 border border-white/20 rounded-full px-4 py-1.5">
-                                {isArabic ? `${testedCount}+ منتج مُختبر` : `${testedCount}+ products tested`}
-                            </span>
-                            <span className="bg-white/10 border border-white/20 rounded-full px-4 py-1.5">
-                                {isArabic ? 'القياسات منشورة كبيانات مفتوحة' : 'Published as open data'}
-                            </span>
-                            <span className="bg-white/10 border border-white/20 rounded-full px-4 py-1.5">
-                                {isArabic ? 'مختبر القاهرة الجديدة ودمياط الجديدة' : 'New Cairo & New Damietta facilities'}
-                            </span>
-                        </div>
-                    </div>
-                </section>
 
-                {/* Methodology */}
-                <section className="py-10 bg-gray-50 dark:bg-gray-900/40">
-                    <div className="container mx-auto px-4 max-w-5xl">
-                        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                            {isArabic ? 'منهجية الاختبار' : 'Testing methodology'}
-                        </h2>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
-                            <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 border border-gray-100 dark:border-gray-800">
-                                <div className="font-semibold text-gray-900 dark:text-white mb-2">
-                                    {isArabic ? '⚡ ظروف الشبكة المصرية' : '⚡ Egyptian grid conditions'}
-                                </div>
-                                <p className="text-gray-600 dark:text-gray-400">
-                                    {isArabic
-                                        ? 'الشحن يُقاس على جهد متذبذب 190–240V كما في الشبكة الفعلية، لا على جهد معملي ثابت.'
-                                        : 'Charging measured on a fluctuating 190–240V supply as found on the real grid, not a stable lab feed.'}
-                                </p>
-                            </div>
-                            <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 border border-gray-100 dark:border-gray-800">
-                                <div className="font-semibold text-gray-900 dark:text-white mb-2">
-                                    {isArabic ? '🔋 سيناريوهات قطع الكهرباء' : '🔋 Load-shedding scenarios'}
-                                </div>
-                                <p className="text-gray-600 dark:text-gray-400">
-                                    {isArabic
-                                        ? 'زمن تشغيل راوتر WE VDSL الفعلي يُقاس بالساعات حتى نفاد الشحنة — أهم رقم لأي بيت مصري.'
-                                        : 'Actual WE VDSL router runtime measured in hours to depletion — the number that matters in every Egyptian home.'}
-                                </p>
-                            </div>
-                            <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 border border-gray-100 dark:border-gray-800">
-                                <div className="font-semibold text-gray-900 dark:text-white mb-2">
-                                    {isArabic ? '🌡️ الاستخدام الواقعي' : '🌡️ Real-world usage'}
-                                </div>
-                                <p className="text-gray-600 dark:text-gray-400">
-                                    {isArabic
-                                        ? 'اختبارات حمل يومي: مترو القاهرة، السفر، حرارة الصيف — مع قياس الحرارة القصوى والسعة الفعلية.'
-                                        : 'Daily-carry tests: Cairo metro, travel, summer heat — logging max temperature and actual delivered capacity.'}
-                                </p>
-                            </div>
-                        </div>
-                        <div className="flex flex-wrap gap-3 mt-6 text-sm">
-                            <a href="/api/lab-data/json" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
-                                {isArabic ? '⬇ البيانات كاملة JSON' : '⬇ Full data (JSON)'}
-                            </a>
-                            <a href="/api/lab-data/csv" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
-                                {isArabic ? '⬇ البيانات كاملة CSV' : '⬇ Full data (CSV)'}
-                            </a>
-                        </div>
-                    </div>
-                </section>
+            <section className="bg-gradient-to-br from-blue-700 via-blue-800 to-slate-950 py-14 text-white md:py-20">
+                <div className="container mx-auto max-w-5xl px-4">
+                    <p className="mb-3 text-sm font-bold text-cyan-200">
+                        {isArabic ? 'مركز رقمي للمواصفات والحسابات' : 'A digital specifications and calculations hub'}
+                    </p>
+                    <h1 className="max-w-4xl text-3xl font-black leading-tight md:text-5xl">
+                        {isArabic
+                            ? 'مختبر كايرو فولت: افهم مواصفات الشحن قبل أن تختار'
+                            : 'CairoVolt Specs Lab: understand charging specifications before you choose'}
+                    </h1>
+                    <p className="mt-5 max-w-3xl text-base leading-8 text-blue-100 md:text-lg">
+                        {isArabic
+                            ? 'نحوّل أرقام العبوة إلى أسئلة عملية: هل القدرة مناسبة؟ ما الطاقة بالواط/ساعة؟ وما الذي يجب مطابقته بين الشاحن والكابل والجهاز؟ كل حساب تقديري موضح بفرضياته، ولا نعرضه كاختبار معملي.'
+                            : 'We turn packaging numbers into practical questions: Is the wattage suitable? What is the energy in watt-hours? What must match between the charger, cable, and device? Every estimate discloses its assumptions and is not presented as a laboratory test.'}
+                    </p>
+                </div>
+            </section>
 
-                {/* Tested products */}
-                <section className="py-12">
-                    <div className="container mx-auto px-4 max-w-5xl">
-                        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">
-                            {isArabic ? 'المنتجات المُختبرة' : 'Tested products'}
+            <section className="py-12 md:py-16">
+                <div className="container mx-auto max-w-5xl px-4">
+                    <h2 className="text-2xl font-black md:text-3xl">
+                        {isArabic ? 'كيف نُعد أدلة المواصفات؟' : 'How we prepare specification guides'}
+                    </h2>
+                    <div className="mt-7 grid gap-4 md:grid-cols-3">
+                        {methodology.map((item, index) => (
+                            <article key={item.title} className="rounded-2xl border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-900">
+                                <span className="text-sm font-bold text-blue-600 dark:text-blue-300">0{index + 1}</span>
+                                <h3 className="mt-2 text-lg font-bold">{item.title}</h3>
+                                <p className="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-300">{item.body}</p>
+                            </article>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            <section className="border-y border-slate-200 bg-slate-50 py-12 dark:border-slate-800 dark:bg-slate-900/60 md:py-16">
+                <div className="container mx-auto max-w-5xl px-4">
+                    <h2 className="text-2xl font-black md:text-3xl">
+                        {isArabic ? 'من mAh إلى عدد شحنات تقديري' : 'From mAh to an estimated charge count'}
+                    </h2>
+                    <p className="mt-4 max-w-4xl leading-8 text-slate-600 dark:text-slate-300">
+                        {isArabic
+                            ? 'السعة المكتوبة بالملي أمبير/ساعة لا تساوي مباشرة الطاقة التي تصل للهاتف. الأفضل استخدام قيمة Wh المنشورة للموديل. عند غيابها يمكن إجراء تقدير أولي من جهد الخلايا الاسمي، ثم خصم خسائر التحويل والكابل. لا توجد نسبة كفاءة واحدة صحيحة لكل المنتجات.'
+                            : 'The capacity printed in mAh is not the energy that reaches a phone. Prefer the model’s published Wh value. If it is unavailable, a first-pass estimate can use nominal cell voltage and then account for conversion and cable losses. There is no single efficiency percentage that is correct for every product.'}
+                    </p>
+                    <div className="mt-6 grid gap-3 font-mono text-sm md:grid-cols-3">
+                        <div className="rounded-xl bg-white p-4 shadow-sm dark:bg-slate-950">Wh ≈ (mAh × V) ÷ 1000</div>
+                        <div className="rounded-xl bg-white p-4 shadow-sm dark:bg-slate-950">{isArabic ? 'الطاقة المتاحة ≈ Wh × كفاءة مفترضة' : 'Usable energy ≈ Wh × assumed efficiency'}</div>
+                        <div className="rounded-xl bg-white p-4 shadow-sm dark:bg-slate-950">{isArabic ? 'الشحنات ≈ الطاقة المتاحة ÷ طاقة بطارية الهاتف' : 'Charges ≈ usable energy ÷ phone battery Wh'}</div>
+                    </div>
+                    <p className="mt-5 text-sm leading-7 text-slate-500 dark:text-slate-400">
+                        {isArabic
+                            ? 'هذه طريقة تقدير وليست وعد أداء. راجع Rated Capacity أو Wh في بيانات الموديل، وقد تتغير النتيجة مع الحرارة وعمر البطارية واستخدام الهاتف أثناء الشحن.'
+                            : 'This is an estimation method, not a performance promise. Check rated capacity or Wh in the model data; temperature, battery age, and using the phone while charging can change the result.'}
+                    </p>
+                </div>
+            </section>
+
+            <section className="py-12 md:py-16">
+                <div className="container mx-auto max-w-5xl px-4">
+                    <h2 className="text-2xl font-black md:text-3xl">
+                        {isArabic ? 'ابدأ من نوع المنتج' : 'Start with the product type'}
+                    </h2>
+                    <div className="mt-7 grid gap-4 sm:grid-cols-2">
+                        {categoryLinks.map(item => (
+                            <Link key={item.href} href={item.href} className="rounded-2xl border border-slate-200 p-6 transition hover:border-blue-400 hover:shadow-md dark:border-slate-800 dark:hover:border-blue-500">
+                                <h3 className="font-bold text-blue-700 dark:text-blue-300">{item.title}</h3>
+                                <p className="mt-2 text-sm leading-7 text-slate-600 dark:text-slate-300">{item.body}</p>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            <section className="bg-blue-50 py-12 dark:bg-blue-950/30 md:py-16">
+                <div className="container mx-auto grid max-w-5xl gap-8 px-4 md:grid-cols-[1fr_.8fr]">
+                    <div>
+                        <h2 className="text-2xl font-black md:text-3xl">
+                            {isArabic ? 'أدلة مرتبطة بالحساب والتوافق' : 'Guides for calculations and compatibility'}
                         </h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                            {cards.map(card => (
-                                <Link
-                                    key={card.slug}
-                                    href={card.url}
-                                    className="block bg-white dark:bg-gray-900/60 border border-gray-200 dark:border-gray-700/50 rounded-2xl p-5 hover:border-blue-300 hover:shadow-md transition-all"
-                                >
-                                    <div className="flex items-start gap-4">
-                                        {card.image && (
-                                            // eslint-disable-next-line @next/next/no-img-element
-                                            <img
-                                                src={card.image.replace(/\.webp$/, '-480.webp')}
-                                                alt={card.name}
-                                                width={64}
-                                                height={64}
-                                                loading="lazy"
-                                                className="w-16 h-16 rounded-xl object-cover bg-gray-50 dark:bg-gray-800 shrink-0"
-                                            />
-                                        )}
-                                        <div className="min-w-0">
-                                            <div className="font-bold text-gray-900 dark:text-white">{card.name}</div>
-                                            <div className="text-xs text-gray-500 mb-2">{card.brand}</div>
-                                            {card.scenario && (
-                                                <p className="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-2">
-                                                    {card.scenario}
-                                                </p>
-                                            )}
-                                            <div className="flex flex-wrap gap-1.5">
-                                                {card.chips.map((chip, i) => (
-                                                    <span key={i} className="text-[11px] bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full px-2.5 py-0.5">
-                                                        {chip}
-                                                    </span>
-                                                ))}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Link>
+                        <ul className="mt-6 space-y-3">
+                            {guideLinks.map(item => (
+                                <li key={item.href}>
+                                    <Link href={item.href} className="font-semibold text-blue-700 underline-offset-4 hover:underline dark:text-blue-300">
+                                        {item.title}
+                                    </Link>
+                                </li>
                             ))}
-                        </div>
-                        <p className="text-sm text-gray-500 mt-8">
-                            {isArabic
-                                ? `كل بطاقة تفتح صفحة المنتج وفيها تفاصيل الاختبار كاملة (السيناريو، الظروف، النتيجة). إجمالي الاختبارات المنشورة: ${testedCount}.`
-                                : `Each card opens the product page with the full test details (scenario, conditions, result). Total published tests: ${testedCount}.`}
-                        </p>
+                        </ul>
                     </div>
-                </section>
-            </div>
-        </>
+                    <aside className="rounded-2xl border border-blue-200 bg-white p-6 dark:border-blue-800 dark:bg-slate-950">
+                        <h2 className="text-xl font-black">
+                            {isArabic ? 'سياسة الدقة والتصحيح' : 'Accuracy and corrections policy'}
+                        </h2>
+                        <p className="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-300">
+                            {isArabic
+                                ? 'إذا اختلفت بيانات صفحة مع مستند الشركة المصنّعة للموديل، نراجع رقم الموديل ونصحح النص الظاهر والبيانات المنظمة مع توضيح تاريخ التحديث. السعر والتوافر يُراجعان من صفحة المنتج وقت الطلب.'
+                                : 'If a page conflicts with the manufacturer documentation for the exact model, we review the model number and correct both visible copy and structured data with an updated review date. Price and availability are checked on the product page when ordering.'}
+                        </p>
+                        <Link href={`${prefix}/contact`} className="mt-5 inline-flex font-bold text-blue-700 hover:underline dark:text-blue-300">
+                            {isArabic ? 'أبلغنا عن معلومة تحتاج مراجعة' : 'Report information that needs review'}
+                        </Link>
+                    </aside>
+                </div>
+            </section>
+        </main>
     );
 }

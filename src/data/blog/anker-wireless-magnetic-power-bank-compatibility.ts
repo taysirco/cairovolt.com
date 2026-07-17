@@ -34,7 +34,7 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
             keywords: 'باور بانك مغناطيسي لاسلكي, جوي روم magsafe 10000, باور بانك MagSafe مصر, لاسلكي ضد سلكي باور بانك, باور بانك magsafe آيفون, شحن لاسلكي باور بانك سرعة, جوي روم magnetic power bank, انكر magsafe باور بانك, باور بانك لاسلكي أندرويد, MagSafe egypt price',
             excerpt: 'الباور بانك المغناطيسي بيلتصق بالموبايل من غير كابل — بس اللاسلكي 7.5W مقابل السلكي 20W يعني وقت شحن أطول بـ 2.7 ضعف. امتى يستحق السعر الزيادة ولمين؟',
             quickAnswer: 'الباور بانك المغناطيسي مناسب لـ آيفون 12 وما بعده بدون إضافات. الأندرويد محتاج خاتم مغناطيسي (بيجي مع بعض الموديلات). الشحن اللاسلكي 7.5W أبطأ من السلكي 20W بـ 2.7 مرة. يستحق لو حياتك تمنع الكابل — في الجيم، على السرير، في السيارة بدون يد حرة.',
-            content: `<p>فكرة الباور بانك المغناطيسي بسيطة وجذابة: تحط الموبايل على الباور بانك، يلتصق مغناطيسياً، ويشحن من غير ما تحتاج تدخل كابل. لكن قبل ما تشتري، في تفاصيل مهمة لازم تعرفها — خصوصاً لو عندك أندرويد أو محتاج الشحن يبقى سريع.</p>
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>فكرة الباور بانك المغناطيسي بسيطة وجذابة: تحط الموبايل على الباور بانك، يلتصق مغناطيسياً، ويشحن من غير ما تحتاج تدخل كابل. لكن قبل ما تشتري، في تفاصيل مهمة لازم تعرفها — خصوصاً لو عندك أندرويد أو محتاج الشحن يبقى سريع.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -111,14 +111,14 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
 
 <h2>الأمان الديناميكي والكشف عن الأجسام الغريبة (FOD)</h2>
 <p>من أهم ميزات الأمان الضرورية في الشواحن المتنقلة اللاسلكية هي تقنية الكشف عن الأجسام الغريبة (Foreign Object Detection). تعمل هذه التقنية باستمرار بمجرد تفعيل حقل الحث المغناطيسي. إذا تم وضع أي قطعة معدنية (مثل العملات المعدنية، المفاتيح، أو الحلقات الحديدية غير المتوافقة) بطريق الخطأ بين الباور بانك وظهر الهاتف، فإن حقل الحث سيقوم بتسخين هذا الجسم المعدني بسرعة فائقة لدرجة قد تتسبب في حروق للجلد أو انصهار البلاستيك.</p>
-<p>تقوم باور بانكات أنكر وجوي روم الأصلية بفصل التيار فوراً بمجرد استشعار أي إشارة ترددية غير طبيعية تدل على وجود معدن غير ملف الاستقبال النحاسي القياسي، مع وميض مؤشر LED باللون الأحمر لتحذير المستخدم. هذا النظام الوقائي ضروري لحماية هاتفك الذكي من أي مخاطر كهربائية أو حرارية أثناء الاستخدام اليومي المعتاد.</p>
+<p>تقوم باور بانكات انكر وجوي روم الأصلية بفصل التيار فوراً بمجرد استشعار أي إشارة ترددية غير طبيعية تدل على وجود معدن غير ملف الاستقبال النحاسي القياسي، مع وميض مؤشر LED باللون الأحمر لتحذير المستخدم. هذا النظام الوقائي ضروري لحماية هاتفك الذكي من أي مخاطر كهربائية أو حرارية أثناء الاستخدام اليومي المعتاد.</p>
 
 <h2>جرابات الهواتف والـ MagSafe: تأثير السمك على قوة الالتصاق المغناطيسي</h2>
 <p>مغناطيسات الباور بانك والجرابات تخضع لقانون التربيع العكسي الفيزيائي، مما يعني أن كل مليمتر إضافي من البلاستيك أو السيليكون يفصل بين مغناطيسات الهاتف ومغناطيسات الباور بانك يضعف قوة الالتصاق بشكل حاد جداً. إذا كنت تستخدم جراباً تقليدياً سميكاً (بدون حلقات مغناطيسية مدمجة)، فلن يلتصق الباور بانك بثبات وسيسقط مع أدنى حركة، بالإضافة إلى زيادة المسافة الكفيلة بإفشال عملية الشحن اللاسلكي تماماً.</p>
 <p>لذا، نوصي دائماً باستخدام جرابات تدعم تقنية MagSafe تحتوي على حلقة مغناطيسية مدمجة تعيد توجيه وتركيز خطوط المجال المغناطيسي لضمان التصاق حديدي. كما نحذر من استخدام الجرابات التي تحتوي على قطع معدنية أو مساند خلفية من الحديد، لأنها تسخن بشدة تحت تأثير الحث المغناطيسي وقد تسبب ضرراً بالغاً لبطارية هاتفك.</p>
 
 <h2>قوة الالتصاق والأمان العملي: هل يمكنك الثقة في التثبيت المغناطيسي؟</h2>
-<p>يقلق الكثير من المستخدمين من احتمالية انزلاق الهاتف وسقوطه أثناء استخدام الباور بانك المغناطيسي باليد. تقاس قوة الالتصاق المغناطيسي بالنيوتن، وتفرض معايير أبل MagSafe الصارمة قوة جذب تتراوح بين 8 إلى 12 نيوتن لمنع الانفصال العشوائي. توفر الشواحن المتنقلة من ماركات موثوقة مثل جوي روم وأنكر مغناطيسات نيوديميوم (Neodymium Magnets) قوية وموزعة بدقة تحاكي المعيار الأصلي.</p>
+<p>يقلق الكثير من المستخدمين من احتمالية انزلاق الهاتف وسقوطه أثناء استخدام الباور بانك المغناطيسي باليد. تقاس قوة الالتصاق المغناطيسي بالنيوتن، وتفرض معايير أبل MagSafe الصارمة قوة جذب تتراوح بين 8 إلى 12 نيوتن لمنع الانفصال العشوائي. توفر الشواحن المتنقلة من ماركات موثوقة مثل جوي روم وانكر مغناطيسات نيوديميوم (Neodymium Magnets) قوية وموزعة بدقة تحاكي المعيار الأصلي.</p>
 <p>يتضمن التصميم أيضاً مغناطيساً إضافياً صغيراً في الأسفل مخصصاً لتحديد الاتجاه العمودي (Orientation Magnet)، مما يمنع الباور بانك من الدوران حول نفسه أو الانحراف أثناء الاستخدام باليد أو وضعه داخل الجيب، مما يمنحك ثباتاً حديدياً كاملاً وموثوقية عالية أثناء الحركة والأنشطة اليومية المتنوعة.</p>
 
 <h2>المعايير المستقبلية: ما هو Qi2 وماذا يعني لمستخدمي الأندرويد؟</h2>
@@ -169,12 +169,12 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
     </tbody>
 </table>
 
-<p>الـ 850ج لجوي روم المغناطيسي مقابل 1,300ج للأنكر العادي اللي مالوش لاسلكي — ده معناه إن الميزة اللاسلكية بتيجي بسعر أرخص فعلياً. لو آيفون 12+ عندك والباور بانك العادي مش معاك دلوقتي — جوي روم المغناطيسي قرار سهل وسريع لراحتك اليومية.</p>
+<p>الـ 850ج لجوي روم المغناطيسي مقابل 1,300ج للانكر العادي اللي مالوش لاسلكي — ده معناه إن الميزة اللاسلكية بتيجي بسعر أرخص فعلياً. لو آيفون 12+ عندك والباور بانك العادي مش معاك دلوقتي — جوي روم المغناطيسي قرار سهل وسريع لراحتك اليومية.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جوي روم المغناطيسي 10,000mAh متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#166534;font-weight:600;">جوي روم Magnetic 10K — 850ج</a> بضمان 12 شهر. يجي مع خاتم مغناطيسي للأندرويد. أصلي 100% بكود تحقق. توصيل لكل المحافظات + دفع عند الاستلام.
+        راجع <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#166534;font-weight:600;">جوي روم Magnetic 10K</a> لمعرفة السعر والمخزون ومحتويات العبوة وشروط ضمان كايرو فولت الحالية. لا تفترض وجود خاتم أو كود تحقق إلا إذا وردا في صفحة رقم الموديل؛ وتظهر خيارات الشحن والدفع للعنوان المؤهل عند الطلب.
     </p>
 </div>`,
             faq: [
@@ -203,7 +203,7 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
             keywords: 'magnetic wireless power bank egypt, joyroom magsafe power bank 10000, magsafe power bank egypt, wireless vs wired power bank, magsafe power bank iphone, wireless charging speed power bank, joyroom magnetic power bank, anker magsafe power bank, wireless power bank android, magsafe egypt price egp',
             excerpt: 'A magnetic power bank attaches to your phone without a cable — but the 7.5W wireless output versus 20W wired means charging takes 2.7 times longer. When is it worth the premium and for whom?',
             quickAnswer: 'Magnetic power banks work instantly with iPhone 12 and later. Android needs a magnetic ring (included with some models). Wireless charging at 7.5W is 2.7× slower than wired at 20W. Worth it if your lifestyle benefits: gym use, bedside charging, in-car use with one hand.',
-            content: `<p>The idea behind a magnetic power bank is simple and appealing: place your phone on it, it snaps on magnetically, and charging begins without inserting a cable. But before you buy, there are important details to understand — especially if you have an Android phone or need fast charging.</p>
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>The idea behind a magnetic power bank is simple and appealing: place your phone on it, it snaps on magnetically, and charging begins without inserting a cable. But before you buy, there are important details to understand — especially if you have an Android phone or need fast charging.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -342,7 +342,7 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Joyroom Magnetic 10,000mAh Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#166534;font-weight:600;">Joyroom Magnetic 10K — 850 EGP</a> with 12-month warranty. Includes magnetic ring for Android. 100% authentic with verification code. Delivery to all governorates + cash on delivery.
+        Review the <a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#166534;font-weight:600;">Joyroom Magnetic 10K</a> for current price, stock, box contents, and CairoVolt warranty terms. Do not assume a ring or verification code is included unless the exact model page says so; delivery and payment options appear for an eligible address at checkout.
     </p>
 </div>`,
             faq: [

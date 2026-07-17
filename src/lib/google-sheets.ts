@@ -2,6 +2,44 @@ import { GoogleSpreadsheet } from 'google-spreadsheet';
 import { JWT } from 'google-auth-library';
 import { getSecret } from './get-secrets';
 import { staticProducts } from './static-products';
+import { logger } from './logger';
+
+interface SheetOrderItem {
+    productId?: unknown;
+    slug?: unknown;
+    sku?: unknown;
+    name?: unknown;
+    quantity?: unknown;
+    price?: unknown;
+}
+
+interface SheetOrderData {
+    id?: string;
+    orderId?: string;
+    source?: string;
+    customerName?: string;
+    phone?: string;
+    whatsapp?: string;
+    city?: string;
+    cityLabel?: string | null;
+    address?: string;
+    items?: SheetOrderItem[];
+    totalAmount?: number;
+    shippingFee?: number;
+    couponCode?: string | null;
+    couponDiscount?: number;
+}
+
+function getErrorProperty(error: unknown, property: 'code' | 'message'): unknown {
+    return error && typeof error === 'object' && property in error
+        ? (error as Record<string, unknown>)[property]
+        : undefined;
+}
+
+function numberOr(value: unknown, fallback: number): number {
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? parsed : fallback;
+}
 
 // Cache the JWT auth object to avoid rebuilding on every call
 let cachedAuth: JWT | null = null;
@@ -17,7 +55,7 @@ async function getAuth() {
     ]);
 
     if (!GOOGLE_CLIENT_EMAIL || !GOOGLE_PRIVATE_KEY) {
-        console.error('Google Sheets secrets missing. Email:', !!GOOGLE_CLIENT_EMAIL, 'Key:', !!GOOGLE_PRIVATE_KEY);
+        console.error('[Sheets] Required runtime credentials are unavailable.');
         return null;
     }
 
@@ -30,35 +68,33 @@ async function getAuth() {
             scopes: ['https://www.googleapis.com/auth/spreadsheets'],
         });
         cachedAuth = auth;
-        if (process.env.NODE_ENV === 'development') {
-            console.log('Google Sheets Auth initialized for:', GOOGLE_CLIENT_EMAIL);
-        }
+        logger.info('[Sheets] Authentication initialized.');
         return auth;
-    } catch (error) {
-        console.error('Google Auth Init Failed:', error);
+    } catch {
+        console.error('[Sheets] Authentication initialization failed.');
         return null;
     }
 }
 
 // Build notes field with coupon info for Google Sheets
-function buildNotesField(orderData: any): string {
-    const parts: string[] = [`طلب من الموقع - ${orderData.items.length} منتج`];
+function buildNotesField(orderData: SheetOrderData): string {
+    const parts: string[] = [`طلب من الموقع - ${orderData.items?.length || 0} منتج`];
     if (orderData.couponCode) {
         parts.push(`كوبون: ${orderData.couponCode} | خصم: ${orderData.couponDiscount} جنيه`);
     }
     return parts.join(' | ');
 }
 
-// ── Product Lookup Helpers (zero-latency: in-memory static data) ──
+// Product lookup helpers use the in-memory catalog.
 
 /** Look up a product by its slug/productId from the static catalog */
-function findProduct(item: any) {
-    const id = item.slug || item.productId || '';
+function findProduct(item: SheetOrderItem) {
+    const id = String(item.slug || item.productId || '');
     return staticProducts.find(p => p.slug === id);
 }
 
 /** Get a short, clean product name (strip brand prefix + trim) */
-function getShortName(item: any): string {
+function getShortName(item: SheetOrderItem): string {
     const product = findProduct(item);
     if (product) {
         // Use Arabic short name: e.g. "زولو A110E 20000" instead of full name"
@@ -71,23 +107,23 @@ function getShortName(item: any): string {
         return name.length > 40 ? name.slice(0, 37) + '...' : name;
     }
     // Fallback: first segment before "|", then truncate
-    const raw = String(item.name || '').split('|')[0].trim();
+        const raw = String(item.name || '').split('|')[0].trim();
     return raw.length > 40 ? raw.slice(0, 37) + '...' : raw;
 }
 
 /** Build a short product link using internal /go/ shortener */
-function getShortLink(item: any): string {
+function getShortLink(item: SheetOrderItem): string {
     const product = findProduct(item);
     if (product) {
         return `cairovolt.com/go/${product.slug}`;
     }
     // Fallback: use slug/productId if available
-    const slug = item.slug || item.productId || '';
+    const slug = String(item.slug || item.productId || '');
     return slug ? `cairovolt.com/go/${slug}` : '';
 }
 
 // Determine order source label + product link for the المصدر column
-function getSourceField(orderData: any): string {
+function getSourceField(orderData: SheetOrderData): string {
     let source = 'الموقع';
     if (orderData.source === 'quick_cod') source = 'Quick COD';
     else if (orderData.source === 'm2m_checkout') source = 'M2M';
@@ -99,12 +135,17 @@ function getSourceField(orderData: any): string {
     return link ? `${source} | ${link}` : source;
 }
 
-export async function appendOrderToSheet(orderData: any) {
+function protectSheetCell(value: string | number): string | number {
+    if (typeof value !== 'string') return value;
+    return /^[\s]*[=+\-@]/.test(value) ? `'${value}` : value;
+}
+
+export async function appendOrderToSheet(orderData: SheetOrderData) {
     const SHEET_ID = process.env.GOOGLE_SHEET_ID;
     const auth = await getAuth();
 
     if (!SHEET_ID || !auth) {
-        console.error('[Sheets] ❌ credentials missing or invalid');
+        console.error('[Sheets] Integration is unavailable.');
         return;
     }
 
@@ -114,46 +155,46 @@ export async function appendOrderToSheet(orderData: any) {
 
         const sheet = doc.sheetsByIndex[0]; // First sheet
 
-        // ═══ صف واحد لكل طلب (مهما تعددت المنتجات — كومبو أو سلة) ═══
-        // المنتجات تُجمع داخل خلية H بسطر لكل منتج (\n يظهر متعدد الأسطر في
-        // الشيت)، والكمية في I إجمالية، وأسماء مختصرة مجمعة في K — لا صفوف
-        // مكررة لنفس العميل، وكل بيانات الطلب (الإجمالي/الشحن/الملاحظات) محفوظة.
-        const items: any[] = orderData.items || [];
+        // Store one row per order and combine line items in the product cell.
+        const items: SheetOrderItem[] = orderData.items || [];
         const itemsSummary = items
-            .map((item: any) => `${String(item.name || '').split('|')[0].trim()} (x${item.quantity}) - ${(item.price || 0) * (item.quantity || 1)} EGP`)
+            .map(item => {
+                const quantity = numberOr(item.quantity, 1);
+                return `${String(item.name || '').split('|')[0].trim()} (x${quantity}) - ${numberOr(item.price, 0) * quantity} EGP`;
+            })
             .join('\n');
-        const totalQuantity = items.reduce((sum: number, item: any) => sum + (item.quantity || 1), 0);
-        const shortNames = items.map((item: any) => {
+        const totalQuantity = items.reduce((sum, item) => sum + numberOr(item.quantity, 1), 0);
+        const shortNames = items.map(item => {
             const short = getShortName(item);
-            return items.length > 1 && (item.quantity || 1) > 1 ? `${short} x${item.quantity}` : short;
+            const quantity = numberOr(item.quantity, 1);
+            return items.length > 1 && quantity > 1 ? `${short} x${quantity}` : short;
         }).join(' + ');
 
-        // 🧬 بصمة SKU للطلب: sku القطعة الأعلى قيمة (نفس منطق ويبهوك الـCRM). يقرأها
-        // smart-engine من العمود X (النطاق A2:X) فيبصم الطلب skuResolvedBy:'store'
-        // بلا تخمين بالاسم — شبكة أمان لو فشل مسار الويبهوك المتوازي. fallback من
-        // الكتالوج الثابت لو القطعة وصلت بلا sku (سلة قديمة/إضافة سريعة).
+        // Use the highest-value line item's SKU for downstream reconciliation.
         const primaryItem = items.length
-            ? [...items].sort((a: any, b: any) => ((b.price || 0) * (b.quantity || 1)) - ((a.price || 0) * (a.quantity || 1)))[0]
+            ? [...items].sort((a, b) =>
+                (numberOr(b.price, 0) * numberOr(b.quantity, 1))
+                - (numberOr(a.price, 0) * numberOr(a.quantity, 1)))[0]
             : null;
         const primarySku = String(primaryItem?.sku || (primaryItem ? findProduct(primaryItem)?.sku : '') || '');
 
-        const row = [
+        const row: Array<string | number> = [
             /* A */ (() => { const d = new Date(); return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`; })(),
-            /* B */ orderData.customerName,
-            /* C */ orderData.phone,
-            /* D */ orderData.whatsapp || orderData.phone,
-            /* E */ orderData.cityLabel || orderData.city,
+            /* B */ orderData.customerName || '',
+            /* C */ orderData.phone || '',
+            /* D */ orderData.whatsapp || orderData.phone || '',
+            /* E */ orderData.cityLabel || orderData.city || '',
             /* F */ '',
-            /* G */ orderData.address,
+            /* G */ orderData.address || '',
             /* H */ itemsSummary,
             /* I */ totalQuantity,
-            /* J */ orderData.totalAmount,
+            /* J */ orderData.totalAmount ?? 0,
             /* K */ shortNames,
             /* L */ 'جديد',
             /* M */ buildNotesField(orderData),
             /* N */ getSourceField(orderData),
             /* O */ '', // whatsappSent — يملؤه الـCRM (خريطة أعمدة smart-engine)
-            /* P */ orderData.orderId || orderData.id || '', // 🆔 بصمة النظام — نفس fingerprint المرسل لويبهوك الـCRM؛ بها تربط المزامنة الصف بالليد ولا تستورده مكرراً
+            /* P */ orderData.orderId || orderData.id || '', // Stable order reference for reconciliation
             /* Q */ '', // assignee — يملؤه الـCRM
             /* R */ '',
             /* S */ '', // bostaTrackingNumber — يملؤه الـCRM
@@ -161,15 +202,17 @@ export async function appendOrderToSheet(orderData: any) {
             /* U */ '', // lastBostaUpdate — يملؤه الـCRM
             /* V */ '', // bostaRanking — يملؤه الـCRM
             /* W */ orderData.shippingFee ?? '', // رسوم الشحن (0 = شحن مجاني) — بعيداً عن أعمدة الـCRM المحجوزة A..V
-            /* X */ primarySku, // 🧬 بصمة SKU من المتجر — يقرأها smart-engine (A2:X) فيبصم الطلب store
+            /* X */ primarySku, // Primary SKU for reconciliation
         ];
 
-        await sheet.addRows([row]);
-        console.log(`[Sheets] ✅ Order synced (1 row, ${items.length} items): ${orderData.orderId || 'N/A'} | Phone: ${orderData.phone}`);
-    } catch (error: any) {
-        console.error('[Sheets] ❌ Error:', error?.message || error, 'Code:', error?.code, 'Status:', error?.status);
+        await sheet.addRows([row.map(protectSheetCell)]);
+        logger.info(`[Sheets] Order synchronized (${items.length} line items).`);
+    } catch (error: unknown) {
+        console.error('[Sheets] Synchronization request failed.');
         // Reset cached auth on auth errors so it's rebuilt next time
-        if (error?.code === 401 || error?.code === 403 || error?.message?.includes('invalid_grant')) {
+        const code = getErrorProperty(error, 'code');
+        const message = getErrorProperty(error, 'message');
+        if (code === 401 || code === 403 || (typeof message === 'string' && message.includes('invalid_grant'))) {
             cachedAuth = null;
         }
         // Re-throw so callers (safeAppendOrderToSheet) can retry
@@ -186,7 +229,7 @@ export async function appendOrderToSheet(orderData: any) {
  * This replaces the unreliable after() pattern on Firebase App Hosting (Cloud Run),
  * where the container may terminate before deferred callbacks complete.
  */
-export async function safeAppendOrderToSheet(orderData: any): Promise<boolean> {
+export async function safeAppendOrderToSheet(orderData: SheetOrderData): Promise<boolean> {
     const TIMEOUT_MS = 5000;
 
     for (let attempt = 1; attempt <= 2; attempt++) {
@@ -198,8 +241,8 @@ export async function safeAppendOrderToSheet(orderData: any): Promise<boolean> {
                 ),
             ]);
             return true; // Success
-        } catch (error: any) {
-            console.error(`[Sheets] ⚠️ Attempt ${attempt}/2 failed for order ${orderData.orderId || 'N/A'}:`, error?.message || error);
+        } catch {
+            console.error(`[Sheets] Synchronization attempt ${attempt}/2 failed.`);
             if (attempt < 2) {
                 // Brief pause before retry
                 await new Promise(r => setTimeout(r, 500));
@@ -207,6 +250,6 @@ export async function safeAppendOrderToSheet(orderData: any): Promise<boolean> {
         }
     }
 
-    console.error(`[Sheets] 🚨 CRITICAL: Order ${orderData.orderId || 'N/A'} (Phone: ${orderData.phone}) failed to sync after 2 attempts. Order exists in Firestore but NOT in Google Sheets.`);
+    console.error('[Sheets] Synchronization failed after retry; the Firestore order remains authoritative.');
     return false; // All attempts failed — order is in Firestore but not Sheets
 }

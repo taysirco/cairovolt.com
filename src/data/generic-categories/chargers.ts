@@ -9,13 +9,13 @@ export const chargers_generic: GenericCategory = {
         ],
         metadata: {
             ar: {
-                title: 'أفضل شاحن سريع في مصر | شاحن ايفون وسامسونج | وايرلس',
-                description: 'دليل لأفضل شواحن في مصر. شاحن ايفون اصلي، شاحن سامسونج 25 واط، شاحن وايرلس، راس شاحن انكر GaN. سعر شاحن الايفون الاصلي. مقارنة أسعار وشحن سريع PD.',
-                keywords: 'شاحن سريع, شاحن ايفون, شاحن ايفون اصلي, سعر شاحن الايفون الاصلي, شاحن سامسونج, شاحن سامسونج 25 واط, شاحن سامسونج 45w, شاحن تايب سي, شاحن type c, شاحن وايرلس, شاحن لاسلكي, راس شاحن, راس شاحن انكر, شاحن انكر, افضل شاحن للايفون',
+                title: 'دليل الشواحن السريعة في مصر | ايفون وسامسونج وUSB-C',
+                description: 'دليل لاختيار شاحن ايفون أو سامسونج أو شاحن لاسلكي في مصر. قارن دعم USB-C PD وPPS وGaN لكل موديل، وراجع السعر والتوفر الحاليين في صفحة المنتج.',
+                keywords: 'شاحن سريع, شاحن ايفون, شاحن سامسونج, شاحن تايب سي, شاحن type c, شاحن وايرلس, شاحن لاسلكي, راس شاحن, راس شاحن انكر, شاحن انكر, USB-C PD, PPS, GaN',
             },
             en: {
-                title: 'Best Fast Charger Egypt | iPhone & Samsung | Wireless',
-                description: 'Best chargers in Egypt. Anker charger, iPhone charger, Samsung 25W charger, wireless charger. GaN USB-C PD fast charging. Prices from EGP 236.',
+                title: 'Fast Charger Guide Egypt | iPhone, Samsung & USB-C',
+                description: 'Choose an iPhone, Samsung, or wireless charger in Egypt. Compare model-specific USB-C PD, PPS, and GaN support, then check the product page for current price and availability.',
                 keywords: 'anker charger, fast charger egypt, iphone charger, samsung charger, anker iphone charger, wireless charger, anker wireless charger, usb c charger, gan charger, pd charger, wall charger egypt, 25w charger, 45w charger',
             },
         },
@@ -23,195 +23,197 @@ export const chargers_generic: GenericCategory = {
             ar: {
                 title: 'شواحن موبايل في مصر',
                 subtitle: 'شحن سريع لكل الأجهزة — ايفون، سامسونج، والمزيد',
-                intro: 'اكتشف شواحن الحائط السريعة من أنكر و جوي روم. شواحن بتقنية GaN الحديثة أصغر حجماً وأقوى أداءً. سواء كنت تحتاج شاحن 20W للايفون أو 100W لكل أجهزتك — ستجده هنا.',
+                intro: 'اكتشف شواحن الحائط من انكر وجوي روم. تختلف القدرة ودعم GaN وUSB-C PD وPPS وتوزيع الطاقة حسب الموديل؛ لذلك راجع مواصفات المنتج ودليل جهازك قبل الاختيار.',
                 buyingTips: [
-                    'لـ iPhone 17: اختر 30W على الأقل — اختبار CairoVolt: 0→50% في 25 دقيقة (مقابل 35 دقيقة بشاحن 20W)',
-                    'لـ Samsung S26: تأكد من دعم PPS — اختبارنا: Super Fast Charging 25W يشحن 0→50% في 22 دقيقة',
-                    'شاحن GaN: اختبار حرارة CairoVolt — GaN يعمل عند 42°C مقابل 58°C للشاحن التقليدي (أبرد 16°C)',
-                    'شاحن واحد 65W يكفي لكل أجهزتك — اختبار CairoVolt: MacBook Air + iPhone 17 معاً بدون انخفاض سرعة',
+                    'لـ iPhone 17: اختر شاحن USB-C PD بالقدرة التي توصي بها Apple لجهازك',
+                    'لـ Samsung S26: تأكد من دعم PPS لتشغيل Super Fast Charging عند القدرة المتوافقة',
+                    'تقنية GaN قد تتيح تصميماً أكثر إحكاماً أو كفاءة؛ قارن أبعاد وكفاءة الموديل المحدد بدل التعميم',
+                    'للابتوب والموبايل معاً: اختر شاحن متعدد المنافذ بقدرة إجمالية وتوزيع طاقة يناسب الجهازين',
                 ],
             },
             en: {
                 title: 'Phone Chargers in Egypt',
                 subtitle: 'Fast Charging for All Devices — iPhone, Samsung & More',
-                intro: 'Discover fast wall chargers from Anker and Joyroom. GaN technology chargers are 50% smaller yet more powerful. Whether you need a 20W iPhone charger or 100W for all devices — find it here.',
+                intro: 'Explore wall chargers from Anker and Joyroom. Output, GaN, USB-C PD and PPS support, and multi-port power distribution vary by model, so check the product specifications and your device manual before choosing.',
                 buyingTips: [
-                    'For iPhone 17: Choose 30W+ — CairoVolt test: 0→50% in 25 min (vs 35 min with 20W)',
-                    'For Samsung S26: Ensure PPS support — our test: Super Fast 25W charges 0→50% in 22 min',
-                    'GaN chargers: CairoVolt thermal test — GaN runs at 42°C vs 58°C traditional (16°C cooler)',
-                    'One 65W charger for everything — CairoVolt test: MacBook Air + iPhone 17 simultaneously, no speed drop',
+                    'For iPhone 17: Choose a USB-C PD charger with the power Apple recommends for your device',
+                    'For Samsung S26: Ensure PPS support for compatible Super Fast Charging',
+                    'GaN can enable a compact or efficient design; compare the dimensions and efficiency of the exact charger model',
+                    'For a laptop and phone together: Choose a multi-port charger with enough total output and suitable power distribution',
                 ],
             },
         },
         faq: {
             ar: [
-                { question: 'ما أفضل شاحن للايفون في مصر؟', answer: 'شاحن 30W بتقنية GaN هو الأفضل — يعطي iPhone 17 أقصى سرعة شحن (0→50% في 25 دقيقة)، بسعر حوالي 549 جنيه. لو تريد أرخص: شاحن 20W PD بـ 299 جنيه.' },
-                { question: 'ما هو شاحن GaN؟', answer: 'GaN = Gallium Nitride (نيتريد الغاليوم). تقنية حديثة تجعل الشاحن أصغر 50% وأكثر كفاءة وأقل حرارة من الشواحن التقليدية. الشواحن الحديثة المميزة تستخدم GaN.' },
-                { question: 'كم واط يحتاج iPhone 17 للشحن السريع؟', answer: 'iPhone 17 يدعم شحن سريع حتى 30W عبر USB-C PD. شاحن 20W سيشحن سريعاً لكن 30W يعطيك أقصى سرعة ممكنة.' },
-                { question: 'ما الفرق بين PD و PPS؟', answer: 'PD (Power Delivery) هو معيار الشحن السريع العالمي ويعمل مع كل الأجهزة. PPS (Programmable Power Supply) هو امتداد لـ PD ومطلوب لتشغيل Super Fast Charging في Samsung (25W/45W).' },
-                { question: 'هل شاحن 20 واط كافي؟', answer: 'شاحن 20W كافي للايفون (يشحن 0→50% في 30 دقيقة). لكن لو عندك Samsung أو تريد شحن أسرع، اختر 30W أو أعلى. للابتوب: تحتاج 65W على الأقل.' },
-                { question: 'كيف أعرف الشاحن الأصلي من التقليد؟', answer: 'تحقق من: 1) الشعار المحفور (مش مطبوع) 2) رقم السيريال على موقع الشركة 3) وزن الشاحن (الأصلي أثقل) 4) جودة منفذ USB-C 5) الشراء من وكيل معتمد مثل كايرو فولت.' },
-                { question: 'أفضل شاحن للابتوب والموبايل معاً؟', answer: 'شاحن GaN بقوة 65W وبـ 3 منافذ — يشحن MacBook Air + iPhone + iPad في نفس الوقت. أصغر بـ 50% من شاحن Apple الأصلي، بسعر حوالي 1,199 جنيه.' },
+                { question: 'كيف أختار شاحن ايفون مناسبًا في مصر؟', answer: 'طابق القدرة والبروتوكول الموصى بهما لطراز ايفون في دليل Apple مع مواصفات منفذ الشاحن والكابل. راجع صفحة المنتج لمعرفة السعر والتوفر الحاليين؛ فالقدرة الفعلية تتأثر بالطراز والكابل وحالة البطارية.' },
+                { question: 'ما هو شاحن GaN؟', answer: 'GaN اختصار Gallium Nitride أو نيتريد الغاليوم، وهي مادة شبه موصلة قد تتيح تصميمات أكثر إحكامًا وكفاءة. الحجم والحرارة والكفاءة الفعلية تختلف بين الموديلات، لذا تحقق من مواصفات الموديل المحدد.' },
+                { question: 'كم واط يحتاج iPhone 17 للشحن السريع؟', answer: 'تختلف قدرة الشحن حسب طراز iPhone 17 وظروف الاستخدام. راجع صفحة المواصفات أو دليل Apple لطرازك، ثم اختر شاحن USB-C PD وكابلًا متوافقًا مع القدرة الموصى بها.' },
+                { question: 'ما الفرق بين PD وPPS؟', answer: 'USB Power Delivery بروتوكول تفاوض للطاقة عبر USB-C. أما PPS فهو ملف طاقة قابل للبرمجة ضمن USB PD وقد تستخدمه بعض الأجهزة. يجب أن يدعم الجهاز والشاحن والكابل المتطلبات المذكورة في دليل الجهاز.' },
+                { question: 'هل شاحن 20 واط كافٍ؟', answer: 'يعتمد ذلك على القدرة التي يقبلها جهازك وطريقة استخدامه. قارن توصية الشركة المصنّعة مع خرج المنفذ المحدد، وانتبه إلى أن القدرة قد تتوزع عند توصيل أكثر من جهاز.' },
+                { question: 'كيف أتحقق من بيانات الشاحن قبل الشراء؟', answer: 'طابق اسم الموديل ورقمه والمواصفات والباركود أو الرقم التسلسلي، إن وفرت الشركة وسيلة للتحقق، مع بيانات العبوة وصفحة الشركة المصنّعة. احتفظ بالفاتورة واقرأ سياسة الإرجاع وضمان كايرو فولت المكتوب للمنتج.' },
+                { question: 'كيف أختار شاحنًا للابتوب والموبايل معًا؟', answer: 'تحقق من القدرة المطلوبة لكل جهاز ومن توزيع الطاقة لكل منفذ عند الاستخدام المتزامن. اختر موديلًا يدعم البروتوكولات المطلوبة واستخدم كابلات مناسبة، ثم راجع السعر الحالي في صفحة المنتج.' },
             ],
             en: [
-                { question: 'What is the best iPhone charger in Egypt?', answer: 'A 30W GaN charger is the best — gives iPhone 17 maximum charging speed (0→50% in 25 minutes), around EGP 549. For budget: 20W PD charger at EGP 299.' },
-                { question: 'What is a GaN charger?', answer: 'GaN = Gallium Nitride. Modern technology making chargers 50% smaller, more efficient, and cooler than traditional chargers. The best modern chargers use GaN technology.' },
-                { question: 'How many watts does iPhone 17 need for fast charging?', answer: 'iPhone 17 supports fast charging up to 30W via USB-C PD. A 20W charger will charge fast but 30W gives you maximum speed.' },
-                { question: 'What is the difference between PD and PPS?', answer: 'PD (Power Delivery) is the universal fast charging standard working with all devices. PPS (Programmable Power Supply) is a PD extension required for Samsung Super Fast Charging (25W/45W).' },
-                { question: 'Is a 20W charger enough?', answer: '20W is enough for iPhone (charges 0→50% in 30 minutes). But for Samsung or faster charging, choose 30W or higher. For laptops: you need at least 65W.' },
-                { question: 'How to identify an original charger from fake?', answer: 'Check: 1) Engraved brand logo (not printed) 2) Serial number on manufacturer website 3) Charger weight (original is heavier) 4) USB-C port quality 5) Buy from authorized dealer like CairoVolt.' },
-                { question: 'Best charger for laptop and phone together?', answer: 'A 65W GaN charger with 3 ports — charges MacBook Air + iPhone + iPad simultaneously. 50% smaller than Apple\'s original charger, around EGP 1,199.' },
+                { question: 'How do I choose an iPhone charger in Egypt?', answer: 'Match the power and protocol recommended for your iPhone model in Apple\'s documentation with the charger port and cable specifications. Check the product page for current price and availability; actual input can vary with the model, cable, battery state, and conditions.' },
+                { question: 'What is a GaN charger?', answer: 'GaN stands for gallium nitride, a semiconductor material that can enable compact and efficient power designs. Actual size, temperature, and efficiency vary by charger model, so check the specifications for the exact product.' },
+                { question: 'How many watts does iPhone 17 need for fast charging?', answer: 'Charging input varies by iPhone 17 model and conditions. Check Apple\'s technical specifications or manual for your model, then choose a compatible USB-C PD charger and cable that meet the stated recommendation.' },
+                { question: 'What is the difference between PD and PPS?', answer: 'USB Power Delivery negotiates power over USB-C. PPS is an optional programmable power profile within USB PD that some devices use. The device, charger, and cable must meet the requirements in the device documentation.' },
+                { question: 'Is a 20W charger enough?', answer: 'It depends on the input supported by your device and how you use it. Compare the manufacturer\'s recommendation with the output of the specific port, and remember that multi-port chargers may redistribute power when more devices are connected.' },
+                { question: 'How can I verify a charger before buying?', answer: 'Match the model name, model number, specifications, barcode, and serial number, where the manufacturer offers verification, with the packaging and manufacturer information. Keep the invoice and read the return policy and the written CairoVolt warranty for that product.' },
+                { question: 'How do I choose a charger for a laptop and phone together?', answer: 'Check each device\'s required input and the charger\'s per-port distribution during simultaneous use. Choose a model with the required protocols and suitable cables, then check the product page for the current price.' },
             ],
         },
         richContent: {
             ar: `
 <h2 id="how-to-choose">كيف تختار شاحن الموبايل المناسب؟</h2>
-<p>اختيار <strong>شاحن الموبايل</strong> الصح يوفر عليك وقت ويحمي بطارية جهازك. إليك أهم العوامل:</p>
+<p>اختيار <strong>شاحن الموبايل</strong> يبدأ من مواصفات الجهاز، وليس من رقم الواط وحده. راجع دليل الشركة المصنّعة لطرازك ثم قارن المعلومات التالية مع صفحة المنتج:</p>
 <ul>
-<li><strong>القوة (واط):</strong> كلما زادت الواط كلما كان الشحن أسرع. iPhone يحتاج 20-30W، Samsung يحتاج 25-45W، اللابتوب يحتاج 65W+</li>
-<li><strong>البروتوكول:</strong> تأكد من دعم <strong>USB-C PD</strong> (Power Delivery). لأجهزة Samsung تأكد من دعم <strong>PPS</strong></li>
-<li><strong>تقنية GaN:</strong> الشواحن بتقنية <strong>GaN</strong> أصغر حجماً بـ 50% من الشواحن التقليدية بنفس القوة</li>
-<li><strong>عدد المنافذ:</strong> لو بتشحن أكثر من جهاز، اختر شاحن بمنفذين أو أكثر (مثل أنكر 735 بـ 3 منافذ)</li>
-<li><strong>الأمان:</strong> اشترِ دائماً شاحن أصلي بشهادات أمان. شواحن <strong>أنكر</strong> تحتوي على نظام <strong>MultiProtect</strong> بـ 10 طبقات حماية</li>
+<li><strong>القدرة (واط):</strong> الجهاز يفاوض على القدرة التي يدعمها؛ زيادة القدرة الاسمية للشاحن لا تعني تلقائيًا زيادة سرعة الشحن.</li>
+<li><strong>البروتوكول:</strong> تحقق من دعم <strong>USB-C PD</strong> أو <strong>PPS</strong> أو غيرهما في الجهاز والشاحن والكابل، لأن الدعم يختلف حسب الموديل.</li>
+<li><strong>تقنية GaN:</strong> قد تساعد <strong>GaN</strong> على تصميم شاحن أكثر إحكامًا أو كفاءة، لكن الحجم والحرارة والأداء الفعلي خصائص خاصة بكل موديل.</li>
+<li><strong>عدد المنافذ:</strong> راجع جدول توزيع الطاقة؛ فالخرج المتاح لكل منفذ قد يتغير عند توصيل جهازين أو أكثر.</li>
+<li><strong>السلامة والضمان:</strong> طابق رقم الموديل وعلامات المطابقة المعلنة في وثائق المنتج، واقرأ شروط ضمان كايرو فولت المكتوبة لهذا المنتج قبل الشراء.</li>
 </ul>
 
-<h2 id="best-iphone-charger">أفضل شاحن ايفون 17 في مصر (20-30 واط)</h2>
-<p><strong>شاحن ايفون 17</strong> يحتاج USB-C PD بقوة 20W على الأقل للشحن السريع. شاحن 30W يعطيك أقصى سرعة ممكنة (0→50% في 25 دقيقة):</p>
+<h2 id="best-iphone-charger">اختيار شاحن ايفون 17 في مصر</h2>
+<p>تختلف قدرة الشحن والمدخل المطلوب بين طرازات <strong>ايفون 17</strong> وظروف الاستخدام. ارجع إلى مواصفات Apple لطرازك، ثم طابقها مع خرج المنفذ والكابل بدل الاعتماد على وصف عام:</p>
 <ul>
-<li><strong>شاحن 20W PD (اقتصادي):</strong> أرخص شاحن سريع للايفون — USB-C PD، حجم صغير — أسعار تبدأ من ~299 جنيه</li>
-<li><strong>شاحن 20W GaN (سفر):</strong> نفس القوة لكن أصغر 50% بفضل تقنية GaN — ~399 جنيه</li>
-<li><strong>شاحن 30W GaN (الأفضل):</strong> أقصى سرعة شحن لـ iPhone 17، حجم أصغر من عملة معدنية — ~549 جنيه</li>
+<li><strong>توافق USB-C PD:</strong> تحقق من أن الجهاز والشاحن يدعمان ملف الطاقة المطلوب في دليل Apple.</li>
+<li><strong>الكابل:</strong> استخدم موصلًا وكابلًا مصنّفين للقدرة والبيانات التي يحتاجها جهازك.</li>
+<li><strong>الشاحن متعدد المنافذ:</strong> راجع القدرة المتاحة للمنفذ عند استخدام منافذ أخرى في الوقت نفسه.</li>
+<li><strong>السعر والتوفر:</strong> تظهر القيمة الحالية وحالة المخزون في صفحة المنتج؛ وقد تتغير دون أن يؤثر ذلك في معايير الاختيار الفنية.</li>
 </ul>
 
-<h2 id="best-samsung-charger">أفضل شاحن سامسونج S26 في مصر (25-45 واط)</h2>
-<p><strong>شاحن سامسونج S26</strong> يحتاج دعم <strong>PPS</strong> (وليس PD فقط) لتشغيل Super Fast Charging. بدون PPS لن تحصل على أقصى سرعة:</p>
+<h2 id="best-samsung-charger">اختيار شاحن سامسونج S26 في مصر</h2>
+<p>دعم <strong>USB-C PD</strong> أو <strong>PPS</strong> والقدرة المقبولة يختلف باختلاف طراز Samsung والمنطقة. راجع دليل جهازك ومواصفات الموديل المحدد للشاحن قبل الشراء:</p>
 <ul>
-<li><strong>شاحن 25W PPS:</strong> يشغّل Super Fast Charging لأغلب أجهزة Samsung — ~550 جنيه</li>
-<li><strong>شاحن 33W PD+QC (منفذين):</strong> يشحن iPhone و Samsung معاً من نفس الشاحن — ~399 جنيه</li>
-<li><strong>شاحن 40-45W (منفذين):</strong> شحن فائق السرعة لـ S26 Ultra + جهاز ثاني — ~699 جنيه</li>
-<li><strong>شاحن 65W (لابتوب + موبايل):</strong> شاحن واحد يكفي كل أجهزتك — لابتوب + موبايل + تابلت — ~1,199 جنيه</li>
+<li><strong>دعم PPS:</strong> تحقق منه في الجهاز والشاحن إذا اشترطه دليل Samsung لميزة الشحن التي تريدها.</li>
+<li><strong>خرج المنفذ:</strong> طابق جهد وتيار ملف الطاقة مع توصية طراز الهاتف، ولا تعتمد على القدرة الإجمالية للشاحن فقط.</li>
+<li><strong>الكابل:</strong> بعض ملفات الطاقة الأعلى تحتاج كابل USB-C مناسبًا؛ راجع متطلبات الجهاز والشاحن.</li>
+<li><strong>الاستخدام المتزامن:</strong> افحص جدول توزيع الطاقة عند شحن هاتف وجهاز آخر معًا، وراجع السعر الحالي في صفحة المنتج.</li>
 </ul>
 
-<h2 id="comparison-table">جدول مقارنة أسعار ومواصفات الشواحن في مصر</h2>
+<h2 id="comparison-table">جدول مقارنة مواصفات الشواحن في مصر</h2>
 <table>
-<thead><tr><th>الشاحن</th><th>القوة</th><th>المنافذ</th><th>التقنية</th><th>الأفضل لـ</th><th>السعر (جنيه)</th></tr></thead>
+<thead><tr><th>الشاحن</th><th>القدرة المعلنة</th><th>المنافذ</th><th>التقنية</th><th>أساس الاختيار</th><th>السعر</th></tr></thead>
 <tbody>
-<tr><td>جوي روم 20W</td><td>20W</td><td>1 USB-C</td><td>PD</td><td>iPhone (ميزانية)</td><td>~299</td></tr>
-<tr><td>أنكر Nano 20W</td><td>20W</td><td>1 USB-C</td><td>PD + GaN</td><td>iPhone (سفر)</td><td>~399</td></tr>
-<tr><td>أنكر 312 25W</td><td>25W</td><td>1 USB-C</td><td>PD + PPS</td><td>Samsung S26</td><td>~550</td></tr>
-<tr><td><strong>أنكر 511 30W </strong></td><td><strong>30W</strong></td><td><strong>1 USB-C</strong></td><td><strong>PD + GaN</strong></td><td><strong>iPhone (أقصى سرعة)</strong></td><td><strong>~549</strong></td></tr>
-<tr><td>جوي روم 33W</td><td>33W</td><td>2</td><td>PD + QC</td><td>جهازين معاً</td><td>~399</td></tr>
-<tr><td>أنكر 521 40W</td><td>40W</td><td>2 USB-C</td><td>PD + GaN</td><td>iPhone + iPad</td><td>~699</td></tr>
-<tr><td>أنكر 735 65W</td><td>65W</td><td>3</td><td>PD + GaN Prime</td><td>لابتوب + موبايل</td><td>~1,199</td></tr>
+<tr><td>جوي روم 20W</td><td>حتى 20W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من دعم PD للموديل</td><td>توافق الجهاز والكابل</td><td>السعر الحالي في صفحة المنتج</td></tr>
+<tr><td>انكر Nano 20W</td><td>حتى 20W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وGaN للموديل</td><td>الحجم والتوافق الفعليان</td><td>السعر الحالي في صفحة المنتج</td></tr>
+<tr><td>انكر 312 25W</td><td>حتى 25W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وPPS للموديل</td><td>متطلبات طراز Samsung</td><td>السعر الحالي في صفحة المنتج</td></tr>
+<tr><td>انكر 511 30W</td><td>حتى 30W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وGaN للموديل</td><td>متطلبات الجهاز المحدد</td><td>السعر الحالي في صفحة المنتج</td></tr>
+<tr><td>جوي روم 33W</td><td>حتى 33W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وQC للموديل</td><td>توزيع الطاقة بين المنافذ</td><td>السعر الحالي في صفحة المنتج</td></tr>
+<tr><td>انكر 521 40W</td><td>حتى 40W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من بروتوكولات الإصدار</td><td>توزيع الطاقة بين المنافذ</td><td>السعر الحالي في صفحة المنتج</td></tr>
+<tr><td>انكر 735 65W</td><td>حتى 65W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من GaNPrime وPD للإصدار</td><td>متطلبات اللابتوب والهاتف</td><td>السعر الحالي في صفحة المنتج</td></tr>
 </tbody>
 </table>
 
-<h2 id="gan-technology">ما هي تقنية GaN ولماذا هي أفضل؟</h2>
-<p><strong>GaN (Gallium Nitride)</strong> — نيتريد الغاليوم — هي المادة التي غيرت صناعة الشواحن بالكامل:</p>
+<h2 id="gan-technology">ما هي تقنية GaN ومتى تفيد؟</h2>
+<p><strong>GaN (Gallium Nitride)</strong> أو نيتريد الغاليوم مادة شبه موصلة تستخدم في بعض دوائر الطاقة. يمكن أن تمنح المصمم مرونة في الحجم والكفاءة، لكنها ليست ضمانًا منفردًا لحجم أو حرارة أو سرعة محددة:</p>
 <ul>
-<li><strong>أصغر 50%:</strong> شاحن GaN بقوة 65W أصغر من شاحن Apple الأصلي 20W!</li>
-<li><strong>حرارة أقل:</strong> كفاءة تحويل الطاقة أعلى = حرارة أقل = أمان أكثر</li>
-<li><strong>أقوى:</strong> نفس الحجم يعطي ضعف القوة مقارنة بالشواحن التقليدية</li>
-<li><strong>أطول عمراً:</strong> مادة GaN أكثر متانة من السيليكون التقليدي</li>
+<li><strong>الحجم:</strong> قارن الأبعاد والوزن الفعليين للموديل بدل الاعتماد على وجود كلمة GaN فقط.</li>
+<li><strong>الحرارة:</strong> تتأثر بالتصميم والحمل ودرجة حرارة المكان وطريقة الاستخدام؛ اتبع إرشادات الشركة المصنّعة.</li>
+<li><strong>القدرة:</strong> تحددها مواصفات خرج كل منفذ وتوزيع الطاقة، لا مادة المكوّن وحدها.</li>
+<li><strong>التوافق:</strong> يظل دعم PD أو PPS والكابل المناسب ومتطلبات الجهاز عوامل مستقلة يجب التحقق منها.</li>
 </ul>
-<p>كل شواحن <strong>أنكر</strong> الحديثة (Nano, GaN Prime) تستخدم تقنية GaN. وهذا سبب أنها الأصغر والأقوى في السوق.</p>
+<p>قد تضم سلاسل انكر Nano وGaNPrime إصدارات مختلفة؛ استخدم رقم الموديل وصفحة المواصفات لتحديد التقنيات الموجودة في المنتج المعروض فعليًا.</p>
 
-<h2 id="device-guide">أي شاحن لأي جهاز؟ دليل التوافق الكامل</h2>
+<h2 id="device-guide">أي شاحن لأي جهاز؟ دليل تحقق من التوافق</h2>
 <table>
-<thead><tr><th>الجهاز</th><th>أقصى واط</th><th>البروتوكول المطلوب</th><th>الشاحن المثالي</th></tr></thead>
+<thead><tr><th>الجهاز</th><th>القدرة</th><th>البروتوكول</th><th>ما يجب التحقق منه</th></tr></thead>
 <tbody>
-<tr><td>iPhone 17 / 17 Pro</td><td>30W</td><td>USB-C PD</td><td>أنكر 511 Nano 30W</td></tr>
-<tr><td>Samsung S26 / S26 Ultra</td><td>45W</td><td>USB-C PD + PPS</td><td>أنكر 312 25W (أو 45W)</td></tr>
-<tr><td>iPad Pro / Air</td><td>30W</td><td>USB-C PD</td><td>أنكر 511 Nano 30W</td></tr>
-<tr><td>MacBook Air</td><td>67W</td><td>USB-C PD</td><td>أنكر 735 65W</td></tr>
-<tr><td>أي موبايل Android</td><td>يختلف</td><td>USB-C PD / QC</td><td>أنكر Nano 20W+</td></tr>
+<tr><td>iPhone 17 / 17 Pro</td><td>تختلف حسب الطراز والظروف</td><td>راجع مواصفات Apple وUSB-C PD عند دعمه</td><td>توصية Apple وخرج المنفذ والكابل</td></tr>
+<tr><td>Samsung S26 / S26 Ultra</td><td>تختلف حسب الطراز والمنطقة</td><td>تحقق من PD وPPS في دليل Samsung</td><td>ملف الطاقة والكابل وتوزيع المنافذ</td></tr>
+<tr><td>iPad Pro / Air</td><td>تختلف حسب الجيل والطراز</td><td>راجع مواصفات Apple</td><td>نوع الموصل والقدرة الموصى بها</td></tr>
+<tr><td>MacBook Air</td><td>تختلف حسب الجيل والمقاس</td><td>راجع مواصفات Apple ومحول الطاقة</td><td>قدرة المنفذ والكابل أثناء الاستخدام</td></tr>
+<tr><td>هاتف Android</td><td>تختلف حسب الشركة والطراز</td><td>راجع دليل الهاتف لـPD أوPPS أوQC</td><td>البروتوكول والقدرة والكابل</td></tr>
 </tbody>
 </table>
 
-<h2 id="original-vs-fake">كيف تفرق بين الشاحن الأصلي والتقليد؟</h2>
-<p>السوق مليان شواحن مقلدة. إليك طريقة التأكد من <strong>الشاحن الأصلي</strong>:</p>
+<h2 id="original-vs-fake">كيف تتحقق من بيانات الشاحن قبل الشراء؟</h2>
+<p>لا تكفي علامة واحدة للحكم على المنتج. استخدم بيانات قابلة للمقارنة واحتفظ بمستندات الطلب:</p>
 <ul>
-<li><strong>الشعار المحفور:</strong> في الأصلي الشعار محفور (ليس مطبوعاً) ولونه موحد</li>
-<li><strong>رقم السيريال:</strong> كل منتج أصلي له رقم تسلسلي يمكن التحقق منه على موقع الشركة</li>
-<li><strong>الوزن:</strong> الشاحن الأصلي أثقل لأنه يحتوي على مكونات حقيقية عالية الجودة</li>
-<li><strong>منفذ USB-C:</strong> في الأصلي المنفذ محكم ودقيق، في التقليد يكون مرتخي</li>
-<li><strong>التغليف:</strong> علبة أنكر الأصلية فيها ملصق هولوجرام وطباعة عالية الجودة</li>
-<li><strong>الضمان:</strong> اشترِ من وكيل معتمد مثل <strong>كايرو فولت</strong> لضمان الأصالة + ضمان رسمي</li>
+<li><strong>رقم الموديل:</strong> طابقه مع الاسم والصور والمواصفات المنشورة من الشركة المصنّعة.</li>
+<li><strong>المعرّفات:</strong> قارن الباركود أو الرقم التسلسلي عندما توفر الشركة وسيلة رسمية للتحقق منه.</li>
+<li><strong>المواصفات:</strong> راجع خرج كل منفذ والبروتوكولات وتوزيع الطاقة بدل الاستدلال من الشكل أو الوزن.</li>
+<li><strong>العبوة والملحقات:</strong> قارن محتويات العبوة ووثائق السلامة بما هو مذكور للموديل والمنطقة.</li>
+<li><strong>الفاتورة والسياسات:</strong> احتفظ بإثبات الشراء واقرأ سياسة الإرجاع قبل إتمام الطلب.</li>
+<li><strong>الضمان:</strong> الضمان المقدم هو ضمان كايرو فولت المكتوب للمنتج ووفق شروطه، وليس ضمان الشركة المصنّعة إلا إذا ذكرت صفحة المنتج ذلك صراحةً بوثيقة قابلة للتحقق.</li>
 </ul>
 `,
             en: `
 <h2 id="how-to-choose">How to Choose the Right Phone Charger</h2>
-<p>Choosing the right <strong>phone charger</strong> saves you time and protects your device's battery. Here are the key factors:</p>
+<p>Choosing a <strong>phone charger</strong> starts with the device specifications, not the wattage label alone. Check the manufacturer documentation for your exact model, then compare these points with the product page:</p>
 <ul>
-<li><strong>Power (watts):</strong> Higher watts = faster charging. iPhone needs 20-30W, Samsung needs 25-45W, laptops need 65W+</li>
-<li><strong>Protocol:</strong> Ensure <strong>USB-C PD</strong> (Power Delivery) support. For Samsung, ensure <strong>PPS</strong> support</li>
-<li><strong>GaN technology:</strong> <strong>GaN</strong> chargers are 50% smaller than traditional chargers at the same power</li>
-<li><strong>Number of ports:</strong> For multiple devices, choose a charger with 2+ ports (like Anker 735 with 3 ports)</li>
-<li><strong>Safety:</strong> Always buy certified original chargers. <strong>Anker</strong> chargers have <strong>MultiProtect</strong> with 10 layers of protection</li>
+<li><strong>Power:</strong> The device negotiates the input it supports; a higher charger rating does not automatically make every device charge faster.</li>
+<li><strong>Protocol:</strong> Confirm <strong>USB-C PD</strong>, <strong>PPS</strong>, or other required support across the device, charger, and cable because support is model-specific.</li>
+<li><strong>GaN:</strong> <strong>GaN</strong> can enable compact or efficient designs, but actual dimensions, temperature, and performance are properties of the exact charger model.</li>
+<li><strong>Ports:</strong> Read the power-distribution table because per-port output can change when two or more devices are connected.</li>
+<li><strong>Safety and warranty:</strong> Match the model number and stated compliance information with the product documentation, and read the written CairoVolt warranty terms for that product.</li>
 </ul>
 
-<h2 id="best-iphone-charger">Best iPhone 17 Charger in Egypt (20-30W)</h2>
-<p>An <strong>iPhone 17 charger</strong> needs USB-C PD at minimum 20W for fast charging. A 30W charger gives you maximum possible speed (0→50% in 25 minutes):</p>
+<h2 id="best-iphone-charger">Choosing an iPhone 17 Charger in Egypt</h2>
+<p>Supported input and charging behavior vary by <strong>iPhone 17</strong> model and operating conditions. Consult Apple documentation for your model, then match it with the charger port and cable rather than relying on a general wattage claim:</p>
 <ul>
-<li><strong>20W PD (budget):</strong> Cheapest fast iPhone charger — USB-C PD, compact size — prices from ~EGP 299</li>
-<li><strong>20W GaN (travel):</strong> Same power but 50% smaller thanks to GaN technology — ~EGP 399</li>
-<li><strong>30W GaN (best):</strong> Maximum iPhone 17 charging speed, smaller than a coin — ~EGP 549</li>
+<li><strong>USB-C PD:</strong> Confirm that the device and charger support the power profile stated in Apple documentation.</li>
+<li><strong>Cable:</strong> Use the connector and cable rating required for your device and intended power.</li>
+<li><strong>Multi-port use:</strong> Check how much output remains on the selected port while other ports are in use.</li>
+<li><strong>Price and availability:</strong> The product page shows the current value and stock status; these may change without changing the technical selection criteria.</li>
 </ul>
 
-<h2 id="best-samsung-charger">Best Samsung S26 Charger in Egypt (25-45W)</h2>
-<p>A <strong>Samsung S26 charger</strong> needs <strong>PPS</strong> support (not just PD) for Super Fast Charging. Without PPS you won't get maximum speed:</p>
+<h2 id="best-samsung-charger">Choosing a Samsung S26 Charger in Egypt</h2>
+<p>Accepted power and <strong>USB-C PD</strong> or <strong>PPS</strong> support can vary by Samsung model and region. Check the phone manual and the exact charger model specifications before purchase:</p>
 <ul>
-<li><strong>25W PPS:</strong> Activates Super Fast Charging for most Samsung devices — ~EGP 550</li>
-<li><strong>33W PD+QC (dual port):</strong> Charges iPhone and Samsung together from one charger — ~EGP 399</li>
-<li><strong>40-45W (dual port):</strong> Ultra-fast charging for S26 Ultra + a second device — ~EGP 699</li>
-<li><strong>65W (laptop + phone):</strong> One charger for all your devices — laptop + phone + tablet — ~EGP 1,199</li>
+<li><strong>PPS:</strong> Confirm support in both the phone and charger if Samsung documentation requires it for the charging mode you want.</li>
+<li><strong>Port output:</strong> Match the voltage and current profile to the phone model recommendation, not only the charger's total rating.</li>
+<li><strong>Cable:</strong> Some higher-power profiles require a suitably rated USB-C cable; follow the device and charger requirements.</li>
+<li><strong>Simultaneous use:</strong> Review the power-distribution table when charging another device at the same time, and check the product page for the current price.</li>
 </ul>
 
-<h2 id="comparison-table">Charger Price & Specs Comparison Table</h2>
+<h2 id="comparison-table">Charger Specifications Comparison Table</h2>
 <table>
-<thead><tr><th>Charger</th><th>Power</th><th>Ports</th><th>Technology</th><th>Best For</th><th>Price (EGP)</th></tr></thead>
+<thead><tr><th>Charger</th><th>Stated Power</th><th>Ports</th><th>Technology</th><th>Selection Check</th><th>Price</th></tr></thead>
 <tbody>
-<tr><td>Joyroom 20W</td><td>20W</td><td>1 USB-C</td><td>PD</td><td>iPhone (budget)</td><td>~299</td></tr>
-<tr><td>Anker Nano 20W</td><td>20W</td><td>1 USB-C</td><td>PD + GaN</td><td>iPhone (travel)</td><td>~399</td></tr>
-<tr><td>Anker 312 25W</td><td>25W</td><td>1 USB-C</td><td>PD + PPS</td><td>Samsung S26</td><td>~550</td></tr>
-<tr><td><strong>Anker 511 30W </strong></td><td><strong>30W</strong></td><td><strong>1 USB-C</strong></td><td><strong>PD + GaN</strong></td><td><strong>iPhone (max speed)</strong></td><td><strong>~549</strong></td></tr>
-<tr><td>Joyroom 33W</td><td>33W</td><td>2</td><td>PD + QC</td><td>Two devices</td><td>~399</td></tr>
-<tr><td>Anker 521 40W</td><td>40W</td><td>2 USB-C</td><td>PD + GaN</td><td>iPhone + iPad</td><td>~699</td></tr>
-<tr><td>Anker 735 65W</td><td>65W</td><td>3</td><td>PD + GaN Prime</td><td>Laptop + phone</td><td>~1,199</td></tr>
+<tr><td>Joyroom 20W</td><td>Up to 20W for the listed version</td><td>See product page</td><td>Confirm PD for the exact model</td><td>Device and cable compatibility</td><td>Current price on product page</td></tr>
+<tr><td>Anker Nano 20W</td><td>Up to 20W for the listed version</td><td>See product page</td><td>Confirm PD and GaN for the exact model</td><td>Actual size and compatibility</td><td>Current price on product page</td></tr>
+<tr><td>Anker 312 25W</td><td>Up to 25W for the listed version</td><td>See product page</td><td>Confirm PD and PPS for the exact model</td><td>Samsung model requirements</td><td>Current price on product page</td></tr>
+<tr><td>Anker 511 30W</td><td>Up to 30W for the listed version</td><td>See product page</td><td>Confirm PD and GaN for the exact model</td><td>Requirements of the exact device</td><td>Current price on product page</td></tr>
+<tr><td>Joyroom 33W</td><td>Up to 33W for the listed version</td><td>See product page</td><td>Confirm PD and QC for the exact model</td><td>Power distribution between ports</td><td>Current price on product page</td></tr>
+<tr><td>Anker 521 40W</td><td>Up to 40W for the listed version</td><td>See product page</td><td>Confirm protocols for the listed version</td><td>Power distribution between ports</td><td>Current price on product page</td></tr>
+<tr><td>Anker 735 65W</td><td>Up to 65W for the listed version</td><td>See product page</td><td>Confirm GaNPrime and PD for the version</td><td>Laptop and phone requirements</td><td>Current price on product page</td></tr>
 </tbody>
 </table>
 
-<h2 id="gan-technology">What is GaN Technology and Why Is It Better?</h2>
-<p><strong>GaN (Gallium Nitride)</strong> is the material that transformed the charger industry:</p>
+<h2 id="gan-technology">What Is GaN and When Is It Useful?</h2>
+<p><strong>GaN (gallium nitride)</strong> is a semiconductor material used in some power circuits. It can give designers flexibility in size and efficiency, but it does not by itself guarantee a specific size, temperature, or charging speed:</p>
 <ul>
-<li><strong>50% smaller:</strong> A 65W GaN charger is smaller than Apple's original 20W charger!</li>
-<li><strong>Less heat:</strong> Higher energy conversion efficiency = less heat = more safety</li>
-<li><strong>More powerful:</strong> Same size delivers double the power compared to traditional chargers</li>
-<li><strong>Longer lasting:</strong> GaN material is more durable than traditional silicon</li>
+<li><strong>Size:</strong> Compare the exact model dimensions and weight instead of relying only on the GaN label.</li>
+<li><strong>Temperature:</strong> This depends on the design, load, ambient conditions, and use; follow the manufacturer instructions.</li>
+<li><strong>Power:</strong> Per-port output and power distribution determine available power, not the semiconductor material alone.</li>
+<li><strong>Compatibility:</strong> PD or PPS support, a suitable cable, and the device requirements remain separate checks.</li>
 </ul>
-<p>All modern <strong>Anker</strong> chargers (Nano, GaN Prime) use GaN technology. That's why they're the smallest and most powerful on the market.</p>
+<p>Anker Nano and GaNPrime product families can include different versions. Use the model number and specification page to identify the technology in the product actually offered.</p>
 
-<h2 id="device-guide">Which Charger for Which Device? Complete Compatibility Guide</h2>
+<h2 id="device-guide">Which Charger for Which Device? Compatibility Checks</h2>
 <table>
-<thead><tr><th>Device</th><th>Max Watts</th><th>Required Protocol</th><th>Ideal Charger</th></tr></thead>
+<thead><tr><th>Device</th><th>Power</th><th>Protocol</th><th>What to Verify</th></tr></thead>
 <tbody>
-<tr><td>iPhone 17 / 17 Pro</td><td>30W</td><td>USB-C PD</td><td>Anker 511 Nano 30W</td></tr>
-<tr><td>Samsung S26 / S26 Ultra</td><td>45W</td><td>USB-C PD + PPS</td><td>Anker 312 25W (or 45W)</td></tr>
-<tr><td>iPad Pro / Air</td><td>30W</td><td>USB-C PD</td><td>Anker 511 Nano 30W</td></tr>
-<tr><td>MacBook Air</td><td>67W</td><td>USB-C PD</td><td>Anker 735 65W</td></tr>
-<tr><td>Any Android phone</td><td>Varies</td><td>USB-C PD / QC</td><td>Anker Nano 20W+</td></tr>
+<tr><td>iPhone 17 / 17 Pro</td><td>Varies by model and conditions</td><td>Check Apple specifications and USB-C PD support</td><td>Apple recommendation, port output, and cable</td></tr>
+<tr><td>Samsung S26 / S26 Ultra</td><td>Varies by model and region</td><td>Check PD and PPS in Samsung documentation</td><td>Power profile, cable, and port distribution</td></tr>
+<tr><td>iPad Pro / Air</td><td>Varies by generation and model</td><td>Check Apple specifications</td><td>Connector type and recommended power</td></tr>
+<tr><td>MacBook Air</td><td>Varies by generation and size</td><td>Check Apple specifications and adapter guidance</td><td>Port and cable rating during use</td></tr>
+<tr><td>Android phone</td><td>Varies by maker and model</td><td>Check the phone manual for PD, PPS, or QC</td><td>Protocol, power, and cable</td></tr>
 </tbody>
 </table>
 
-<h2 id="original-vs-fake">How to Identify an Original vs Fake Charger</h2>
-<p>The market is full of fake chargers. Here's how to verify an <strong>original charger</strong>:</p>
+<h2 id="original-vs-fake">How to Verify Charger Information Before Buying</h2>
+<p>No single visual cue establishes a product's identity. Compare verifiable information and keep the order documents:</p>
 <ul>
-<li><strong>Engraved logo:</strong> Original brand logo is engraved (not printed) with uniform color</li>
-<li><strong>Serial number:</strong> Every original product has a serial number verifiable on the manufacturer's website</li>
-<li><strong>Weight:</strong> Original is heavier because it contains real high-quality components</li>
-<li><strong>USB-C port:</strong> Original port is tight and precise; fake is loose</li>
-<li><strong>Packaging:</strong> Original box has hologram sticker and high-quality printing</li>
-<li><strong>Warranty:</strong> Buy from authorized dealer like <strong>CairoVolt</strong> for authenticity guarantee + official warranty</li>
+<li><strong>Model number:</strong> Match it with the name, images, and specifications published by the manufacturer.</li>
+<li><strong>Identifiers:</strong> Compare the barcode or serial number where the manufacturer provides an official verification method.</li>
+<li><strong>Specifications:</strong> Check each port's output, protocols, and power distribution instead of inferring authenticity from appearance or weight.</li>
+<li><strong>Packaging and contents:</strong> Compare the included items and safety documentation with the listing for the model and region.</li>
+<li><strong>Invoice and policies:</strong> Keep proof of purchase and read the return policy before completing the order.</li>
+<li><strong>Warranty:</strong> The offered coverage is the written CairoVolt warranty for the product under its stated terms, not a manufacturer warranty unless the product page explicitly documents one with verifiable evidence.</li>
 </ul>
 `,
         },

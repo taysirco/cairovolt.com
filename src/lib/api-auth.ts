@@ -1,15 +1,16 @@
+import { createHash, timingSafeEqual } from 'node:crypto';
 import { NextRequest, NextResponse } from 'next/server';
-import { logger } from '@/lib/logger';
 
 /**
  * API Key Authentication for Write Operations
  * 
- * Read endpoints (GET) remain public for AI agents.
+ * Catalogue read endpoints (GET) are public.
  * Write endpoints (POST/PUT/DELETE) on /api/products and /api/categories
  * require a valid API key via the X-API-Key header.
  * 
- * The M2M checkout endpoint (/api/v1/checkout) is intentionally public
- * to allow AI agents to place orders without authentication.
+ * The checkout endpoint is customer-facing, like the website checkout. It
+ * remains public while validating catalogue prices and quantities and applying
+ * server-side input limits and rate limits.
  * 
  * Set the API key via environment variable:
  *   CAIROVOLT_API_KEY="your-strong-secret-here"
@@ -17,13 +18,34 @@ import { logger } from '@/lib/logger';
 
 const API_KEY_HEADER = 'x-api-key';
 
+/**
+ * Compare secrets without leaking how many leading characters matched.
+ * Hashing first gives timingSafeEqual fixed-size buffers for every input.
+ */
+export function safeSecretEqual(provided: string, expected: string): boolean {
+    const providedDigest = createHash('sha256').update(provided, 'utf8').digest();
+    const expectedDigest = createHash('sha256').update(expected, 'utf8').digest();
+
+    return timingSafeEqual(providedDigest, expectedDigest);
+}
+
+export function hasValidApiKey(req: NextRequest): boolean {
+    const apiKey = process.env.CAIROVOLT_API_KEY;
+    const providedKey = req.headers.get(API_KEY_HEADER);
+
+    return Boolean(apiKey && providedKey && safeSecretEqual(providedKey, apiKey));
+}
+
 export function validateApiKey(req: NextRequest): NextResponse | null {
     const apiKey = process.env.CAIROVOLT_API_KEY;
 
-    // If no API key is configured, skip auth (development mode)
     if (!apiKey) {
-        logger.warn('CAIROVOLT_API_KEY not set — write APIs are unprotected');
-        return null;
+        return NextResponse.json({
+            error: 'Authentication unavailable',
+        }, {
+            status: 503,
+            headers: { 'Cache-Control': 'no-store' },
+        });
     }
 
     const providedKey = req.headers.get(API_KEY_HEADER);
@@ -32,14 +54,19 @@ export function validateApiKey(req: NextRequest): NextResponse | null {
         return NextResponse.json({
             error: 'Authentication required',
             message: 'Provide API key via X-API-Key header',
-            docs: 'https://cairovolt.com/api/openapi.json',
-        }, { status: 401 });
+        }, {
+            status: 401,
+            headers: { 'Cache-Control': 'no-store' },
+        });
     }
 
-    if (providedKey !== apiKey) {
+    if (!safeSecretEqual(providedKey, apiKey)) {
         return NextResponse.json({
             error: 'Invalid API key',
-        }, { status: 403 });
+        }, {
+            status: 403,
+            headers: { 'Cache-Control': 'no-store' },
+        });
     }
 
     return null; // Auth passed

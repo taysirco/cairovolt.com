@@ -3,8 +3,6 @@ import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
 import { validateApiKey } from '@/lib/api-auth';
-import { buildManifest, signManifest } from '@/lib/media-verification';
-import { logger } from '@/lib/logger';
 
 // ============================================
 // GET - List all products with pagination & filtering
@@ -19,6 +17,7 @@ export async function GET(req: NextRequest) {
     const status = url.searchParams.get('status');
     const search = url.searchParams.get('search');
     const slug = url.searchParams.get('slug');
+    const sku = url.searchParams.get('sku');
     const limit = parseInt(url.searchParams.get('limit') || '50');
     const page = parseInt(url.searchParams.get('page') || '1');
 
@@ -39,6 +38,9 @@ export async function GET(req: NextRequest) {
     if (slug) {
         products = products.filter(p => p.slug === slug);
     }
+    if (sku) {
+        products = products.filter(p => p.sku === sku);
+    }
     if (search) {
         const searchLower = search.toLowerCase();
         products = products.filter(p =>
@@ -57,7 +59,13 @@ export async function GET(req: NextRequest) {
     // Add IDs for compatibility with client components
     const productsWithIds = paginatedProducts.map((p) => ({
         id: `static_${p.slug}`,
-        ...p
+        ...p,
+        // Public catalogue responses expose the current checkout price only.
+        originalPrice: undefined,
+        variants: p.variants?.map(variant => ({
+            ...variant,
+            originalPrice: undefined,
+        })),
     }));
 
     return NextResponse.json({
@@ -170,30 +178,13 @@ export async function POST(req: NextRequest) {
             updatedAt: FieldValue.serverTimestamp(),
         };
 
-        // Sign a Content Credential manifest for this product
-        let contentCredentials = null;
-        try {
-            const manifest = buildManifest({
-                title: data.enName,
-                format: 'image/jpeg',
-                captureMethod: 'c2pa.captured',
-            });
-            contentCredentials = await signManifest(manifest);
-        } catch (signingErr) {
-            logger.warn('Content credentials signing skipped (keys not configured):', signingErr);
-        }
-
         // Use slug as doc ID for consistency with seeding script
         const docRef = db.collection('products').doc(data.slug);
-        await docRef.set({
-            ...productData,
-            ...(contentCredentials ? { contentCredentials } : {}),
-        });
+        await docRef.set(productData);
 
         return NextResponse.json({
             success: true,
             id: data.slug,
-            contentCredentialsSigned: contentCredentials !== null,
             ...productData,
         });
     } catch (error) {

@@ -9,13 +9,8 @@ import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackBeginCheckout } from '@/lib/analytics';
 import { ttqInitiateCheckout } from '@/lib/tiktokPixel';
 import { getShippingFee } from '@/lib/shipping';
-import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/static-products';
-import type { Metadata } from 'next';
+import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
-
-// Metadata must be exported from a server layout/page — this is handled by the
-// checkout layout.tsx or the admin-level noindex. As a fallback, the middleware
-// already blocks bots from /checkout via 410 Gone.
 
 // All Egyptian Governorates (bilingual)
 const GOVERNORATES = {
@@ -105,11 +100,10 @@ async function validateCouponRemote(code: string): Promise<{ valid: boolean; typ
 
 export default function CheckoutPage() {
     const t = useTranslations('Checkout');
-    const tCommon = useTranslations('Common');
     const locale = useLocale();
     const isArabic = locale === 'ar';
     const router = useRouter();
-    const { items: cartItems, totalAmount, totalOriginalAmount, clearCart, addToCart, isLoaded } = useCart();
+    const { items: cartItems, totalAmount, clearCart, addToCart, isLoaded } = useCart();
     const searchParams = useSearchParams();
     const [loading, setLoading] = useState(false);
     const [phone, setPhone] = useState('');
@@ -134,15 +128,15 @@ export default function CheckoutPage() {
         try {
             const fromVerify = localStorage.getItem('cv_verify_completed') === 'true';
             if (fromVerify && !couponCode) {
-                // Auto-apply the verification gift silently (بعد تحقق ديناميكي)
-                const code = 'ORIGINAL10';
+                // Auto-apply the warranty activation thank-you discount.
+                const code = 'WARRANTY10';
                 validateCouponRemote(code).then((v) => {
                     if (!v.valid) return;
                     setCouponInput(code);
                     setCouponCode(code);
                     setCouponType(v.type);
                     setCouponValue(v.value);
-                    setCouponLabel(isArabic ? 'خصم 10% — هدية التوثيق' : '10% Off — Verification Gift');
+                    setCouponLabel(isArabic ? 'خصم 10% — شكر تفعيل الضمان' : '10% Off — Warranty Activation Thank You');
                 });
             }
         } catch { /* private browsing */ }
@@ -167,8 +161,11 @@ export default function CheckoutPage() {
             );
             setCouponError('');
             // GA4 event
-            if (typeof (window as any).gtag === 'function') {
-                (window as any).gtag('event', 'coupon_applied', { coupon_code: code, discount: v.value });
+            const analyticsWindow = window as unknown as {
+                gtag?: (command: string, eventName: string, parameters: Record<string, unknown>) => void;
+            };
+            if (typeof analyticsWindow.gtag === 'function') {
+                analyticsWindow.gtag('event', 'coupon_applied', { coupon_code: code, discount: v.value });
             }
         } else {
             setCouponCode(null);
@@ -190,25 +187,26 @@ export default function CheckoutPage() {
     const discountAmount = couponCode
         ? (couponType === 'fixed' ? Math.min(Math.round(couponValue), totalAmount) : Math.round(totalAmount * (couponValue / 100)))
         : 0;
-    // 🏆 خصم الكومبو الذهبي: 5% على كل مجموعة عناصر تشارك bundleId (≥2 منتجات مختلفة).
-    //    يُعرَض هنا للعميل، والخادم يعيد حسابه من أسعار الكتالوج (المرجع الموثوق).
+    // A combo discounts one unit of each distinct product in the set. Extra
+    // quantities keep their normal price, matching the server-side quote.
     const bundleDiscount = (() => {
-        const groups: Record<string, { sum: number; ids: Set<string> }> = {};
+        const groups: Record<string, Map<string, number>> = {};
         for (const it of cartItems) {
             if (!it.bundleId) continue;
-            const g = groups[it.bundleId] || (groups[it.bundleId] = { sum: 0, ids: new Set() });
-            g.sum += (it.price || 0) * (it.quantity || 1);
-            g.ids.add(it.productId);
+            const group = groups[it.bundleId] || (groups[it.bundleId] = new Map());
+            if (!group.has(it.productId)) group.set(it.productId, it.price || 0);
         }
         let d = 0;
-        for (const k in groups) if (groups[k].ids.size >= 2) d += Math.round(groups[k].sum * BUNDLE_DISCOUNT_PERCENT / 100);
-        return Math.min(d, totalAmount - discountAmount); // لا يتجاوز المتبقي بعد الكوبون
+        for (const group of Object.values(groups)) {
+            if (group.size < 2) continue;
+            const oneSetTotal = [...group.values()].reduce((sum, price) => sum + price, 0);
+            d += Math.round(oneSetTotal * BUNDLE_DISCOUNT_PERCENT / 100);
+        }
+        return Math.min(d, totalAmount - discountAmount);
     })();
     const subtotalAfterDiscount = totalAmount - discountAmount - bundleDiscount;
     const shipping = getShippingFee(city, subtotalAfterDiscount);
-    const productSavings = Math.max(0, (totalOriginalAmount || totalAmount) - totalAmount);
-
-    // Direct Buy URL support: ?add_sku=XXX (for BuyAction schema / M2M Commerce)
+    // Direct-buy URL support for the documented product page action.
     useEffect(() => {
         const addSku = searchParams.get('add_sku');
         if (addSku && !directBuyProcessed) {
@@ -216,21 +214,29 @@ export default function CheckoutPage() {
             // Fetch product by SKU and add to cart
             fetch(`/api/products?sku=${encodeURIComponent(addSku)}`)
                 .then(res => res.ok ? res.json() : null)
-                .then(product => {
-                    if (product) {
+                .then(payload => {
+                    const product = Array.isArray(payload?.items) ? payload.items[0] : null;
+                    const price = Number(product?.price);
+                    const stock = Number(product?.stock);
+                    if (product && Number.isFinite(price) && price > 0 && stock > 0) {
+                        const translation = product.translations?.[isArabic ? 'ar' : 'en']
+                            || product.translations?.en;
+                        const primaryImage = product.images?.find((image: { isPrimary?: boolean }) => image.isPrimary)
+                            || product.images?.[0];
                         addToCart({
-                            productId: product.productId || product.id || addSku,
-                            sku: product.sku || addSku, // 🧬 بصمة الشراء المباشر (add_sku هو الـSKU نفسه)
-                            name: product.name || addSku,
-                            price: product.price || 0,
-                            image: product.image || '',
+                            productId: product.slug || product.id || addSku,
+                            sku: product.sku || addSku,
+                            name: translation?.name || product.slug || addSku,
+                            price,
+                            image: primaryImage?.url || '',
+                            brand: product.brand,
                             quantity: 1,
                         });
                     }
                 })
                 .catch(() => { /* silently fail for invalid SKU */ });
         }
-    }, [searchParams, directBuyProcessed, addToCart]);
+    }, [searchParams, directBuyProcessed, addToCart, isArabic]);
 
     // Redirect if cart is empty (only after localStorage has been loaded)
     useEffect(() => {
@@ -312,9 +318,22 @@ export default function CheckoutPage() {
                 body: JSON.stringify(orderData),
             });
 
-            if (!res.ok) throw new Error('Failed to place order');
-
             const result = await res.json();
+            if (!res.ok) {
+                throw new Error(
+                    typeof result?.error === 'string'
+                        ? result.error
+                        : (isArabic ? 'تعذر إتمام الطلب. حاول مرة أخرى.' : 'Unable to place the order. Please try again.'),
+                );
+            }
+
+            const serverPricing = result.pricing || {};
+            const confirmedSubtotal = Number(serverPricing.subtotalBeforeDiscount ?? totalAmount);
+            const confirmedCouponDiscount = Number(serverPricing.couponDiscount ?? discountAmount);
+            const confirmedBundleDiscount = Number(serverPricing.bundleDiscount ?? bundleDiscount);
+            const confirmedShipping = Number(serverPricing.shippingFee ?? shipping);
+            const confirmedTotal = Number(serverPricing.totalAmount ?? finalTotal);
+            const confirmedItems = Array.isArray(result.items) ? result.items : cartItems;
 
             // Prepare order data for confirmation page
             const confirmData = {
@@ -325,14 +344,14 @@ export default function CheckoutPage() {
                 address: formData.get('address') as string,
                 city: city,
                 cityLabel: cityLabel,
-                items: cartItems,
-                subtotal: totalAmount,
+                items: confirmedItems,
+                subtotal: confirmedSubtotal,
                 couponCode: couponCode || null,
-                couponDiscount: discountAmount,
-                bundleDiscount: bundleDiscount,
-                subtotalAfterDiscount: subtotalAfterDiscount,
-                shipping: shipping,
-                total: finalTotal,
+                couponDiscount: confirmedCouponDiscount,
+                bundleDiscount: confirmedBundleDiscount,
+                subtotalAfterDiscount: confirmedSubtotal - confirmedCouponDiscount - confirmedBundleDiscount,
+                shipping: confirmedShipping,
+                total: confirmedTotal,
                 orderDate: new Date().toLocaleDateString(isArabic ? 'ar-EG' : 'en-US', {
                     year: 'numeric',
                     month: 'long',
@@ -356,7 +375,9 @@ export default function CheckoutPage() {
             // loading stays true so useEffect won't redirect to home
             setTimeout(() => clearCart(), 1500);
         } catch (error) {
-            alert(isArabic ? 'حدث خطأ أثناء إرسال الطلب. حاول مرة أخرى.' : 'An error occurred while placing your order. Please try again.');
+            alert(error instanceof Error && error.message
+                ? error.message
+                : (isArabic ? 'حدث خطأ أثناء إرسال الطلب. حاول مرة أخرى.' : 'An error occurred while placing your order. Please try again.'));
             setLoading(false);
         }
     }
@@ -428,14 +449,6 @@ export default function CheckoutPage() {
                                 <p className="text-red-500 text-[10px] mt-1 animate-pulse">❌ {couponError}</p>
                             )}
                         </div>
-
-                        {/* Product Savings line */}
-                        {productSavings > 0 && (
-                            <div className="flex justify-between pt-2 text-sm text-green-600 font-medium">
-                                <span>🏷️ {isArabic ? 'خصم على المنتجات' : 'Products Discount'}</span>
-                                <span>- {productSavings.toLocaleString()} {currency}</span>
-                            </div>
-                        )}
 
                         {/* Discount line */}
                         {couponCode && discountAmount > 0 && (
@@ -607,8 +620,9 @@ export default function CheckoutPage() {
                         </div>
                         <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 text-center">
                             <p className="text-xs text-gray-500">
-                                🏪 <strong>{isArabic ? 'انكر:' : 'Anker:'}</strong> {isArabic ? 'ضمان 18 شهر' : '18 month warranty'} |
-                                🏪 <strong>Joyroom:</strong> {isArabic ? 'ضمان 12 شهر' : '12 month warranty'}
+                                {isArabic
+                                    ? 'تظهر مدة ضمان كايرو فولت وشروطه في صفحة كل منتج.'
+                                    : 'The applicable CairoVolt warranty duration and terms are stated on each product page.'}
                             </p>
                         </div>
                     </div>

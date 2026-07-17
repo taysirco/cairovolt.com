@@ -7,133 +7,133 @@ export const anker_cables_content: CategoryContent = {
             metadata: {
                 en: {
                     title: 'Anker Cable Egypt | Lightning, USB-C, PowerLine',
-                    description: 'Original Anker cables in Egypt. PowerLine III Kevlar USB-C & Lightning. MFi certified, 35,000+ bend tested. ✓ CairoVolt verified ✓ 18-month warranty',
+                    description: 'Compare Anker PowerLine USB-C and Lightning cables in Egypt by connector, charging power, data support, and model-specific durability. CairoVolt warranty terms are listed per product.',
                     keywords: 'anker cable, anker lightning cable, anker type c cable, anker powerline, cable egypt, anker cable price egypt, MFi cable egypt, usb c cable anker',
                 },
                 ar: {
-                    title: 'كابل انكر | أنكر Cable Egypt - وصلة انكر للايفون',
-                    description: 'كابل انكر الأصلي في مصر. PowerLine III Kevlar شحن سريع USB-C + Lightning. شهادة MFi، يتحمل 35,000+ ثنية. ✓ ضمان 18 شهر ✓ توصيل القاهرة',
-                    keywords: 'وصلة انكر للايفون, وصله انكر, وصلة شاحن انكر, كابل شاحن انكر, كابل انكر ايفون, وصلة ايفون, أنكر type c cable, أنكر cable type c, أنكر usb type c, أنكر lightning',
+                    title: 'كابل انكر | Anker Cable Egypt - وصلة انكر للايفون',
+                    description: 'قارن كابلات انكر PowerLine بتوصيلات USB-C وLightning حسب قدرة الشحن ونقل البيانات وتقييم المتانة الخاص بكل موديل. ضمان كايرو فولت موضح في صفحة المنتج.',
+                    keywords: 'وصلة انكر للايفون, وصله انكر, وصلة شاحن انكر, كابل شاحن انكر, كابل انكر ايفون, وصلة ايفون, انكر type c cable, انكر cable type c, انكر usb type c, انكر lightning',
                 }
             },
             pageContent: {
                 ar: {
-                    title: 'كابلات انكر (الأكثر متانة في العالم)',
-                    subtitle: 'أنكر PowerLine - كابل العمر الطويل',
+                    title: 'كابلات انكر PowerLine للشحن ونقل البيانات',
+                    subtitle: 'انكر PowerLine - اختر الموصل والقدرة المناسبة',
                     description: `
-      على عكس الكابلات الرخيصة اللي بتتقطع من عند الرأس وبتظهر رسالة "ملحق غير مدعوم" — كابل **أنكر PowerLine** مصنوع من ألياف **Kevlar** (نفس المستخدمة في الدروع الواقية). 35,000 ثنية. شريحة Apple MFi C94 أصلية. صفر مشاكل.
+      تضم عائلة **انكر PowerLine** كابلات USB-C وLightning بخامات وموصلات وتقييمات متانة تختلف حسب الموديل. بعض موديلات Lightning تحمل اعتماد MFi؛ راجع صفحة المنتج للتأكد من الاعتماد والقدرة ودعم نقل البيانات.
 
       **استثمار مش كابل:**
-      كابل أبل الأصلي يتقطع بعد 6 شهور — كابل انكر PowerLine+ III يتحمل 3 سنوات استخدام يومي. ده توفير 800+ جنيه في السنة. اختبار CairoVolt: شددنا الكابل بقوة 80 كجم — لم ينقطع.
+      كابلات انكر PowerLine+ III مصممة بموصلات مدعمة وغلاف متين، مع تقييمات متانة معلنة من الشركة تختلف حسب الموديل.
 
-      **ليه انكر الرقم 1 عالمياً؟**
-      - **Power Delivery سريع:** يشحن ايفون 17 من 0-50% في 30 دقيقة عبر USB-C
-      - **معتمد MFi من أبل:** شريحة C94 = توافق تام + لا تحديثات تعطله
-      - **ضمان 18 شهر CairoVolt:** استبدال فوري — اطلبه الآن وتوصيل القاهرة خلال 24 ساعة. تسوق [شاحن انكر](/anker/wall-chargers) + كابل PowerLine = أقصى شحن سريع.
+      **لماذا تختار كابل انكر مناسباً لجهازك؟**
+      - **USB-C Power Delivery:** يدعم الشحن المتوافق عندما يدعم الكابل والشاحن والجهاز البروتوكول والقدرة المطلوبة.
+      - **MFi للموديلات المدرجة بهذا الاعتماد:** مصمم للتوافق مع أجهزة Apple وفق مواصفات الموديل.
+      - **ضمان كايرو فولت:** التغطية والمدة والاستبدال تخضع لما هو مكتوب في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري ويتحدد حسب العنوان وتأكيد الطلب. تسوق [شاحن انكر](/anker/wall-chargers) لاختيار منظومة متوافقة.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'شريحة Apple C94 أصلية' },
-                        { type: 'warranty', text: 'ضمان 18 شهر' },
-                        { type: 'expert_verified', text: 'يتحمل 80 كجم شد — USB-IF معتمد' }
+                        { type: 'originality', text: 'اعتماد MFi موضح للموديلات الداعمة' },
+                        { type: 'warranty', text: 'ضمان كايرو فولت حسب صفحة المنتج' },
+                        { type: 'expert_verified', text: 'قدرة الشحن ونقل البيانات تختلف حسب الموديل' }
                     ],
                     buyingGuide: [
                         {
                             title: 'الفرق بين إصدارات PowerLine',
                             content: `
-- **PowerLine II:** الإصدار الكلاسيكي القوي. يتحمل 12,000 ثنية. (الأكثر مبيعاً)
-- **PowerLine III:** أنحف وأقوى. يتحمل 25,000 ثنية.
-- **PowerLine+ III:** مغلف بالنايلون المضفر (Braided) وغير قابل للتشابك. يتحمل 35,000 ثنية.
+- **PowerLine II:** إصدار كلاسيكي بموصلات مدعمة؛ راجع تقييم الثني المكتوب للموديل.
+- **PowerLine III:** تصميم أنحف في موديلات مختارة، مع تقييم متانة معلن يختلف حسب الإصدار.
+- **PowerLine+ III:** غلاف نايلون مضفر في الموديلات الداعمة للمساعدة على مقاومة الاهتراء والتشابك.
 `
                         },
                         {
                             title: 'هل يدعم الشحن السريع؟',
                             content: `
-طبعاً. كابلات USB-C to Lightning و USB-C to USB-C تدعم بروتوكول PD لشحن الايفون والسامسونج واللابتوب بأقصى سرعة. تسوق [شاحن انكر](/anker/wall-chargers) + كابل PowerLine = أقصى شحن سريع.
+يدعم عدد من كابلات USB-C to Lightning وUSB-C to USB-C بروتوكول PD. تحقق من قدرة الكابل ومتطلبات الجهاز، ثم اختر [شاحن انكر](/anker/wall-chargers) متوافقاً؛ فالسرعة الفعلية يحددها أبطأ عنصر في المنظومة.
 `
                         }
                     ],
                     faq: [
                         {
                             question: 'لماذا سعر كابل انكر أغلى من الكابلات العادية؟',
-                            answer: 'لأنك تشتري كابل يعيش 5 أضعاف عمر الكابل العادي — اختبار CairoVolt: 35,000 ثنية بدون أي تلف. ومعتمد رسمياً MFi يحمي دائرة شحن هاتفك.'
+                            answer: 'لأن كابلات PowerLine تستخدم موصلات مدعمة وخامات متينة، وبعض الموديلات تحمل تقييمات ثني مرتفعة من الشركة. موديلات Lightning المعتمدة MFi مصممة للتوافق مع أجهزة Apple.'
                         },
                         {
                             question: '⚖️ تحذير: إزاي تفرق بين كابل انكر الأصلي والمقلد؟',
-                            answer: 'كابلات مقلدة كتير في السوق بتضر دائرة شحن الموبايل. الأصلي: 1) MFi معتمد — المقلد رسالة خطأ iOS 2) نايلون مجدول — المقلد بلاستيك 3) 35K ثنية — المقلد 2K 4) ضمان 18 شهر CairoVolt.'
+                            answer: 'راجع رقم الموديل وجودة التغليف ووسيلة التحقق الرسمية المتاحة من الشركة، وتأكد من وجود اعتماد MFi على صفحة الموديل عند شراء كابل Lightning. احتفظ بالفاتورة وسجل الضمان؛ الرقم التسلسلي أو سجل الضمان وحده لا يثبت أصالة الشركة المصنّعة.'
                         },
                         {
                             question: 'ما الفرق بين وصلة انكر للايفون ووصله انكر العادية؟',
-                            answer: 'وصلة انكر للايفون (Lightning أو USB-C to Lightning) معتمدة MFi — تعمل مع iOS بدون رسائل خطأ. متوفر من CairoVolt بضمان 18 شهر، توصيل القاهرة، دفع عند الاستلام.'
+                            answer: 'اختر وصلة انكر Lightning مدرجاً عليها اعتماد MFi في صفحة المنتج، أو USB-C لأجهزة iPhone الأحدث ذات المنفذ المتوافق. ضمان كايرو فولت ومدته موضحان لكل منتج، والتوصيل يتحدد حسب العنوان.'
                         },
                         {
                             question: 'هل كابل انكر تايب سي يناسب سامسونج؟',
-                            answer: 'أيوه! كابل انكر USB-C يشحن سامسونج سوبر فاست (25W+)، ويتحمل 35,000 ثنية. متوفر من CairoVolt مع ضمان 18 شهر.'
+                            answer: 'يمكن لكابل انكر USB-C المناسب دعم شحن Samsung السريع إذا كانت قدرته والشاحن يدعمان PD/PPS المطلوبين للهاتف. راجع صفحة المنتج لمعرفة القدرة وتقييم المتانة والضمان.'
                         },
                         {
                             question: 'هل كابل انكر بيشحن ايفون 17 Pro Max بسرعة؟',
-                            answer: 'أيوه! كابل USB-C to Lightning بدعم PD بيشحن ايفون 17 Pro Max من 0 لـ 50% في 30 دقيقة مع شاحن انكر 30W. اختبار CairoVolt: أسرع 3 مرات من الكابل العادي.'
+                            answer: 'يدعم كابل USB-C to Lightning المتوافق شحن USB-C PD عند استخدام شاحن وجهاز يدعمانه. السرعة الفعلية تعتمد على موديل الهاتف والشاحن وحالة البطارية.'
                         },
                         {
                             question: 'هل كابل انكر يدعم سامسونج Super Fast Charging؟',
-                            answer: 'نعم! كابل USB-C to USB-C من انكر بيدعم Samsung Super Fast Charging حتى 45W لسامسونج S26 Ultra. كل كابلاتنا معتمدة USB-IF ومتوافقة مع كل أجهزة USB-C.'
+                            answer: 'اختر كابل USB-C to USB-C بقدرة مناسبة مع شاحن يدعم PD/PPS الذي يتطلبه هاتف Samsung. ليست كل الكابلات متطابقة في القدرة أو نقل البيانات، لذلك راجع مواصفات الموديل.'
                         },
                         {
                             question: 'ما ضمان كابل انكر من CairoVolt؟',
-                            answer: 'ضمان 18 شهر استبدال فوري. لو الكابل اتقطع أو ظهرت رسالة خطأ — استبدال مجاني خلال 14 يوم. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
+                            answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال مكتوبة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري بعد تأكيد العنوان والطلب، مع إتاحة الدفع عند الاستلام للطلبات المؤهلة.'
                         },
                         {
                             question: 'هل كابل انكر بينقل بيانات ولا شحن بس؟',
-                            answer: 'الاتنين! كابلات انكر USB-C بتدعم نقل بيانات حتى 480Mbps + شحن PD سريع في نفس الكابل. بنقل 1GB من الصور في 17 ثانية (اختبار CairoVolt).'
+                            answer: 'الاتنين حسب الموديل. كثير من كابلات انكر USB-C تدعم نقل بيانات حتى 480Mbps إلى جانب شحن PD؛ راجع مواصفات صفحة المنتج للتأكد.'
                         }
                     ],
                     products: [
                         { name: 'كابل انكر 310 USB-C لايتننج', price: 730, badge: 'جديد' },
                         { name: 'كابل انكر زولو USB-C مضفر', price: 790, badge: 'جديد' },
-                        { name: 'كابل انكر A8050 مضفر USB-C', price: 570, badge: '⭐ الأكثر طلباً' },
+                        { name: 'كابل انكر A8050 مضفر USB-C', price: 570, badge: 'مضفر USB-C' },
                         { name: 'كابل انكر SureStrong لايتننج', price: 599, badge: 'متين للايفون' },
                         { name: 'Anker PowerLine II (USB-C to Lightning)', price: 630, badge: 'شحن سريع' },
                         { name: 'Anker 322 Cable (USB-C to USB-C)', price: 590, badge: 'اقتصادي' },
                     ]
                 },
                 en: {
-                    title: 'Anker Cables (World\'s Strongest)',
-                    subtitle: 'Anker PowerLine - The Last Cable You\'ll Buy',
+                    title: 'Anker PowerLine Charging and Data Cables',
+                    subtitle: 'Choose the right connector, power rating, and data support',
                     description: `
-      Unlike cheap cables that snap at the connector and trigger "Accessory Not Supported" errors — **Anker PowerLine** is made from **Kevlar fiber** (same material used in body armor). 35,000 bends. Apple MFi C94 chip. Zero issues.
+      The **Anker PowerLine** family includes USB-C and Lightning cables with materials, connector designs, and manufacturer-rated durability that vary by model. Some Lightning models are MFi certified; check the product page for certification, power, and data support.
 
       **An Investment, Not Just a Cable:**
-      Apple's original cable breaks in 6 months — Anker PowerLine+ III lasts 3+ years of daily use. That's EGP 800+ saved per year. CairoVolt test: we pulled the cable with 80kg force — it didn't break.
+      Anker PowerLine+ III cables use reinforced connectors and durable jackets, with manufacturer-rated bend durability that varies by model.
 
-      **Why Anker Is #1 Worldwide:**
-      - **Power Delivery fast charging:** iPhone 17 from 0-50% in 30 minutes via USB-C
-      - **MFi Certified by Apple:** C94 chip = perfect compatibility + no software updates will disable it
-      - **18-month CairoVolt warranty:** Instant replacement — order now, next-day Cairo delivery
+      **Why choose the right Anker cable for your device?**
+      - **USB-C Power Delivery:** supported when the cable, charger, and device all meet the required protocol and power rating.
+      - **MFi on listed models:** designed for Apple-device compatibility according to the individual model specification.
+      - **CairoVolt warranty:** coverage, duration, and replacement terms are those shown on the product page and warranty policy. Delivery estimates depend on the confirmed address.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'Original Apple C94 Chip' },
-                        { type: 'warranty', text: '18-Month Warranty — Kevlar Guaranteed' },
-                        { type: 'expert_verified', text: 'Withstands 80kg Pull — USB-IF Certified' }
+                        { type: 'originality', text: 'MFi status shown for supported models' },
+                        { type: 'warranty', text: 'CairoVolt warranty as listed per product' },
+                        { type: 'expert_verified', text: 'Charging and data ratings vary by model' }
                     ],
                     buyingGuide: [
                         {
                             title: 'PowerLine Generations Explained',
                             content: `
-- **PowerLine II:** The classic Durability King. 12,000 bend lifespan. (Best Seller)
-- **PowerLine III:** Slimmer yet stronger. 25,000 bend lifespan.
-- **PowerLine+ III:** Premium Braided Nylon, tangle-free. 35,000 bend lifespan.
+- **PowerLine II:** A classic reinforced design; check the model's listed bend rating.
+- **PowerLine III:** A slimmer design on selected models, with durability ratings that vary by version.
+- **PowerLine+ III:** Braided nylon on supported models to help resist wear and tangling.
 `
                         },
                         {
                             title: 'Does it support Fast Charging?',
                             content: `
-Absolutely. Our USB-C to Lightning and USB-C to USB-C cables fully support PD protocols for iPhone, Samsung, and MacBooks.
+Many USB-C to Lightning and USB-C to USB-C models support PD. Check the cable rating and device requirements; actual charging speed is limited by the lowest-rated part of the setup.
 `
                         }
                     ],
                     products: [
                         { name: 'Anker 310 USB-C to Lightning', price: 730, badge: 'New' },
                         { name: 'Anker Zolo USB-C Braided Cable', price: 790, badge: 'New' },
-                        { name: 'Anker A8050 Braided USB-C', price: 570, badge: '⭐ Most Requested' },
+                        { name: 'Anker A8050 Braided USB-C', price: 570, badge: 'Braided USB-C' },
                         { name: 'Anker SureStrong USB-C to Lightning', price: 599, badge: 'iPhone Tough' },
                         { name: 'Anker PowerLine II (USB-C to Lightning)', price: 630, badge: 'Fast Charge' },
                         { name: 'Anker 322 Cable (USB-C to USB-C)', price: 590, badge: 'Value' },

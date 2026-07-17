@@ -50,7 +50,7 @@ export function generateCategoryMetadata(locale: string, categorySlug: string): 
             locale: isArabic ? 'ar_EG' : 'en_US',
             alternateLocale: isArabic ? 'en_US' : 'ar_EG',
             type: 'website',
-            siteName: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+            siteName: isArabic ? 'كايرو فولت' : 'CairoVolt',
             images: [{
                 url: 'https://cairovolt.com/logo.png',
                 width: 1200,
@@ -66,11 +66,8 @@ export function generateCategoryMetadata(locale: string, categorySlug: string): 
         },
         robots: { index: true, follow: true },
         other: {
-            'article:author': isArabic ? 'كايرو فولت' : 'Cairo Volt',
+            'article:author': isArabic ? 'كايرو فولت' : 'CairoVolt',
             'geo.region': 'EG',
-            'geo.placename': isArabic ? 'القاهرة، مصر' : 'Cairo, Egypt',
-            'geo.position': '30.0444;31.2357',
-            'ICBM': '30.0444, 31.2357',
         },
     };
 }
@@ -140,7 +137,7 @@ export function GenericCategoryContent({
                 ]}
                 locale={locale}
             />
-            {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
+            {/* FAQs stay visible without asserting FAQPage rich-result eligibility. */}
 
             <main className="min-h-screen bg-gray-50 dark:bg-gray-950" dir={isArabic ? 'rtl' : 'ltr'} itemScope itemType="https://schema.org/CollectionPage">
                 <meta itemProp="name" content={content.title} />
@@ -199,9 +196,6 @@ export function GenericCategoryContent({
                                     : rawTranslation;
                                 const localizedBrandDisplay = getBrandDisplayName(product.brandDisplay, locale);
                                 const primaryImage = product.images?.find(i => i.isPrimary)?.url || product.images?.[0]?.url;
-                                const discount = product.originalPrice > product.price
-                                    ? Math.round((1 - product.price / product.originalPrice) * 100)
-                                    : 0;
 
                                 return (
                                     <Link
@@ -211,11 +205,6 @@ export function GenericCategoryContent({
                                     >
                                         {/* Image */}
                                         <div className="relative aspect-square bg-white p-4" itemProp="image">
-                                            {discount > 0 && (
-                                                <span className={`absolute top-2 ${isArabic ? 'right-2' : 'left-2'} px-2 py-1 bg-red-500 text-white text-xs font-bold rounded-full z-10`}>
-                                                    -{discount}%
-                                                </span>
-                                            )}
                                             <span className={`absolute top-2 ${isArabic ? 'left-2' : 'right-2'} px-2 py-0.5 text-xs font-medium rounded-full z-10 ${
                                                 product.brandDisplay === 'Anker'
                                                     ? 'bg-blue-100 text-blue-700'
@@ -253,16 +242,11 @@ export function GenericCategoryContent({
                                             </h3>
                                             <div className="flex items-end gap-2" itemProp="offers" itemScope itemType="https://schema.org/Offer">
                                                 <meta itemProp="priceCurrency" content="EGP" />
-                                                <meta itemProp="availability" content={product.stock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/BackOrder'} />
+                                                <meta itemProp="availability" content={product.stock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock'} />
                                                 <span className="text-lg font-bold text-gray-900" itemProp="price" content={String(product.price)}>
                                                     {product.price.toLocaleString()}
                                                 </span>
                                                 <span className="text-xs text-gray-500">{isArabic ? 'ج.م' : 'EGP'}</span>
-                                                {product.originalPrice > product.price && (
-                                                    <span className="text-xs text-gray-400 line-through">
-                                                        {product.originalPrice.toLocaleString()}
-                                                    </span>
-                                                )}
                                             </div>
                                         </div>
                                     </Link>
@@ -324,9 +308,8 @@ export function GenericCategoryContent({
                 {richContent && (
                     <article className="bg-white dark:bg-gray-900 py-12 border-t border-gray-100 dark:border-gray-800" itemScope itemType="https://schema.org/Article">
                         <meta itemProp="headline" content={content.title} />
-                        <meta itemProp="author" content={isArabic ? 'كايرو فولت' : 'Cairo Volt'} />
-                        <meta itemProp="dateModified" content="2025-12-01" />
-                        <meta itemProp="publisher" content={isArabic ? 'كايرو فولت' : 'Cairo Volt'} />
+                        <meta itemProp="author" content={isArabic ? 'كايرو فولت' : 'CairoVolt'} />
+                        <meta itemProp="publisher" content={isArabic ? 'كايرو فولت' : 'CairoVolt'} />
                         <meta itemProp="inLanguage" content={isArabic ? 'ar-EG' : 'en-EG'} />
                         <div className="container mx-auto px-4 max-w-4xl">
                             <div
@@ -406,24 +389,7 @@ export function GenericCategoryContent({
                     }}
                 />
 
-                {/* Speakable schema */}
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{
-                        __html: JSON.stringify({
-                            '@context': 'https://schema.org',
-                            '@type': 'WebPage',
-                            name: content.title,
-                            speakable: {
-                                '@type': 'SpeakableSpecification',
-                                cssSelector: ['h1', '.prose h2', '.prose p', 'summary', 'details > div'],
-                            },
-                            url: `https://cairovolt.com${isArabic ? '' : '/en'}/${categorySlug}`,
-                        }),
-                    }}
-                />
-
-                {/* CollectionPage Schema + AggregateOffer */}
+                {/* CollectionPage schema */}
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
@@ -435,11 +401,10 @@ export function GenericCategoryContent({
                             description: metadata.description,
                             url: `https://cairovolt.com${isArabic ? '' : '/en'}/${categorySlug}`,
                             inLanguage: isArabic ? 'ar-EG' : 'en-EG',
-                            dateModified: '2025-12-01',
                             author: {
                                 '@type': 'Organization',
                                 '@id': 'https://cairovolt.com/#organization',
-                                name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+                                name: isArabic ? 'كايرو فولت' : 'CairoVolt',
                                 url: 'https://cairovolt.com',
                             },
                             isPartOf: {
@@ -463,14 +428,6 @@ export function GenericCategoryContent({
                                             ? localizeArabicBrandNames(p.translations.ar?.name || p.slug)
                                             : p.translations.en?.name || p.slug,
                                     })),
-                                },
-                                offers: {
-                                    '@type': 'AggregateOffer',
-                                    priceCurrency: 'EGP',
-                                    lowPrice: Math.min(...sortedProducts.map(p => p.price)),
-                                    highPrice: Math.max(...sortedProducts.map(p => p.price)),
-                                    offerCount: sortedProducts.length,
-                                    availability: 'https://schema.org/InStock',
                                 },
                             }),
                         }),

@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? 'مدونة كايرو فولت | أدلة شراء ومراجعات اكسسوارات الموبايل'
         : 'CairoVolt Blog | Mobile Accessories Guides & Reviews';
     const description = isArabic
-        ? 'أدلة شراء شاملة ومقارنات ومراجعات لأفضل اكسسوارات الموبايل في مصر. باور بانك، شواحن، سماعات من انكر وJoyroom.'
-        : 'Complete buying guides, comparisons, and reviews for the best mobile accessories in Egypt. Power banks, chargers, earbuds from Anker & Joyroom.';
+        ? 'أدلة شراء ومقارنات ومراجعات تساعدك على اختيار اكسسوارات الموبايل المناسبة في مصر، ومنها الباور بانك والشواحن والسماعات من انكر وجوي روم.'
+        : 'Buying guides, comparisons, and reviews to help you choose suitable mobile accessories in Egypt, including power banks, chargers, and earbuds from Anker and Joyroom.';
 
     return {
         title: { absolute: title },
@@ -41,12 +41,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             locale: isArabic ? 'ar_EG' : 'en_US',
             type: 'website',
             siteName: isArabic ? 'كايرو فولت' : 'CairoVolt',
-        },
-        other: {
-            'geo.region': 'EG',
-            'geo.placename': isArabic ? 'القاهرة، مصر' : 'Cairo, Egypt',
-            'geo.position': '30.0444;31.2357',
-            'ICBM': '30.0444, 31.2357',
         },
     };
 }
@@ -108,8 +102,8 @@ export default async function BlogPage({ params }: Props) {
                         </h1>
                         <p className="text-xl md:text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                             {isArabic
-                                ? 'أدلة شراء شاملة، مقارنات، ونصائح لاختيار أفضل اكسسوارات الموبايل في مصر'
-                                : 'Complete buying guides, comparisons, and tips for choosing the best mobile accessories in Egypt'}
+                                ? 'أدلة شراء ومقارنات ونصائح لاختيار اكسسوارات الموبايل المناسبة في مصر'
+                                : 'Buying guides, comparisons, and tips for choosing suitable mobile accessories in Egypt'}
                         </p>
                         {/* Article count badge */}
                         <div className="mt-4 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm font-medium">

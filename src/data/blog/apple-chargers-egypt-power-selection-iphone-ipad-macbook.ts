@@ -31,18 +31,18 @@ export const apple_chargers_egypt_power_selection_iphone_ipad_macbook: BlogArtic
         ar: {
             title: 'شواحن Apple في مصر — إزاي تختار القدرة المناسبة للآيفون والآيباد والماك بوك؟',
             metaTitle: 'دليل شواحن ابل للآيفون والآيباد والماك بوك بمصر | كايرو فولت',
-            metaDescription: 'دليلك الفني الشامل لاختيار شواحن ابل المناسبة للآيفون والآيباد والماك بوك. أحدث أسعار السوق المصري والبدائل الاقتصادية المعتمدة وكشف المغشوش.',
+            metaDescription: 'دليل اختيار شاحن Apple للآيفون والآيباد والماك بوك حسب رقم الموديل وقدرة USB-C PD والكابل، مع مقارنة السعر الحالي والبائع والضمان.',
             keywords: 'اسعار شواحن ابل في مصر, شاحن ابل 20 واط الاصلي, شاحن ابل 30 واط بمصر, شاحن ماك بوك اير, بديل شاحن ايفون الاصلي',
-            excerpt: 'محتار تشتري شاحن 20 واط أم 30 واط لهاتفك الآيفون الجديد؟ نستعرض تفاصيل قدرات الشحن لجميع أجهزة ابل وأسعار الشواحن الأصلية والبدائل المعتمدة في مصر.',
-            quickAnswer: 'للآيفون (من آيفون 12 إلى 16) ننصح بشاحن <strong>20 واط أو 30 واط</strong>. لأجهزة الآيباد برو والآيباد إير، يفضل شاحن <strong>30 واط أو 35 واط</strong>. أما الماك بوك إير فيحتاج <strong>30 واط على الأقل</strong> (ويدعم 70 واط للشحن السريع)، والماك بوك برو يتطلب شاحن <strong>70 واط إلى 140 واط</strong> حسب مقاس الشاشة والمعالج. يمكنك شحن الآيفون بشاحن الماك بوك بأمان تام لأن الهاتف ينظم الطاقة تلقائياً.',
-            content: `<p>منذ أن اتخذت شركة ابل (Apple) قرارها المثير للجدل بإلغاء رؤوس الشحن من علب هواتف الآيفون بالكامل لحماية البيئة وتقليل الانبعاثات الكربونية كما تزعم، وجد ملايين المستخدمين في مصر أنفسهم أمام حيرة حقيقية عند شراء جهاز جديد. فلم يعد الأمر مقتصرًا على التكلفة الإضافية، بل امتد لضرورة فهم القدرة الكهربائية المناسبة (Wattage) التي يحتاجها كل جهاز ليعمل بكفاءة ودون تعريض البطارية للتلف.</p>
+            excerpt: 'اختَر بين شواحن 20W و30W والقدرات الأعلى بعد مطابقة طراز جهاز Apple مع مواصفات USB-C PD والكابل والسعر الحالي.',
+            quickAnswer: 'لا توجد قدرة واحدة مناسبة لكل أجهزة Apple. راجع صفحة المواصفات أو دليل طراز الآيفون أو الآيباد أو الماك بوك لمعرفة الشاحن والكابل المدعومين، ثم طابق ملف USB-C PD وقدرة كل منفذ. قد يعمل شاحن أعلى قدرة عندما يكون متوافقاً، لكنه لا يضمن سرعة أعلى أو انعدام الحرارة أو الأثر في كل ظرف.',
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>منذ أن اتخذت شركة ابل (Apple) قرارها المثير للجدل بإلغاء رؤوس الشحن من علب هواتف الآيفون بالكامل لحماية البيئة وتقليل الانبعاثات الكربونية كما تزعم، وجد ملايين المستخدمين في مصر أنفسهم أمام حيرة حقيقية عند شراء جهاز جديد. فلم يعد الأمر مقتصرًا على التكلفة الإضافية، بل امتد لضرورة فهم القدرة الكهربائية المناسبة (Wattage) التي يحتاجها كل جهاز ليعمل بكفاءة ودون تعريض البطارية للتلف.</p>
 
 <p>يتساءل الكثير من المشترين في مصر: هل شاحن الآيفون 20 واط كافٍ لشحن جهاز الآيباد؟ وهل يمكن استخدام رأس شاحن الماك بوك بقدرة 96 واط لشحن الآيفون 15 أو 16 بأمان؟ وما هي الأسعار الرسمية لشواحن ابل الأصلية لدى الموزعين المعتمدين مقارنة بالبدائل الموثوقة؟ في هذا الدليل المعملي الشامل من كايرو فولت، نجيب على جميع استفساراتك لنساعدك على اختيار رأس الشاحن المثالي لكل أجهزتك بأمان وتوفير.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الخلاصة التقنية السريعة:</strong>
-        شاحن ابل بقوة 30 واط أو البدائل الموثوقة مثل أنكر نانو 30 واط يمثلان الخيار "الجوكر" الأكثر ذكاءً، حيث يمكنهما شحن الآيفون بأقصى سرعة ممكنة، وشحن الآيباد بكفاءة عالية، وتوفير طاقة كافية لتشغيل الماك بوك إير بسلاسة.
+        شاحن ابل بقوة 30 واط أو البدائل الموثوقة مثل انكر نانو 30 واط يمثلان الخيار "الجوكر" الأكثر ذكاءً، حيث يمكنهما شحن الآيفون بأقصى سرعة ممكنة، وشحن الآيباد بكفاءة عالية، وتوفير طاقة كافية لتشغيل الماك بوك إير بسلاسة.
     </p>
 </div>
 
@@ -87,15 +87,15 @@ export const apple_chargers_egypt_power_selection_iphone_ipad_macbook: BlogArtic
 <h2>سابعاً: أفضل البدائل المعتمدة والموفرة من ماركات أخرى بمصر</h2>
 <p>إذا كنت تجد أسعار شواحن ابل الأصلية مرتفعة، فإن هناك بدائل عالمية معتمدة وآمنة تماماً تدعم بروتوكولات ابل وتقدم أداءً ممتازاً بضمان أطول وبنصف السعر:</p>
 <ol style="line-height:2;">
-    <li><strong>أنكر نانو 30 واط (Anker Nano 30W):</strong> بديل ممتاز لشاحن ابل 30 واط، يتميز بحجم أصغر بكثير وتقنية GaN الموفرة للطاقة وحماية حرارية ذكية، وسعره يتراوح بين <strong>680 إلى 790 جنيه</strong> بضمان 18 شهراً.</li>
+    <li><strong>انكر نانو 30 واط (انكر Nano 30W):</strong> بديل يمكن مقارنته بشاحن ابل 30 واط حسب الأبعاد وملفات USB-C PD والكابل والسعر الحالي. نطاق السعر لقطة وقت التحرير، ومدة ضمان المتجر السارية تظهر في صفحة المنتج والفاتورة.</li>
     <li><strong><a href="/anker/wall-chargers/anker-powerport-iii-20w-a2639" style="color:#2563eb;font-weight:600;">شاحن انكر PowerPort III 20W</a>:</strong> كيوب 20 واط PD مثالي للآيفون — بديل معتمد لشاحن ابل 20 واط الأصلي بنص السعر تقريباً، وسعره <strong>520 جنيه</strong> فقط مع نفس سرعة الشحن الكاملة.</li>
     <li><strong>شاحن جويروم 25 واط أو 30 واط (Joyroom):</strong> الخيار الاقتصادي الأفضل بمصر، يوفر كفاءة شحن كاملة للآيفون والآيباد، وسعره يتراوح بين <strong>520 إلى 650 جنيه</strong> مع دوائر حماية مدمجة.</li>
-    <li><strong>شاحن أنكر غان برايم 65 واط (Anker GaNPrime 65W):</strong> شاحن ثلاثي المنافذ رائع، يستطيع شحن الماك بوك والآيفون والآيباد معاً بتوزيع طاقة ذكي، وسعره يتراوح بين <strong>1800 إلى 2200 جنيه</strong>، وهو بديل اقتصادي هائل لشواحن الماك بوك المرتفعة السعر.</li>
+    <li><strong>شاحن انكر غان برايم 65 واط (انكر GaNPrime 65W):</strong> شاحن ثلاثي المنافذ رائع، يستطيع شحن الماك بوك والآيفون والآيباد معاً بتوزيع طاقة ذكي، وسعره يتراوح بين <strong>1800 إلى 2200 جنيه</strong>، وهو بديل اقتصادي هائل لشواحن الماك بوك المرتفعة السعر.</li>
     <li><strong><a href="/anker/wall-chargers/anker-prime-a2688-100w-charger" style="color:#2563eb;font-weight:600;">شاحن انكر برايم 100W</a>:</strong> قوة 100 واط بتقنية GaN مع 3 منافذ — يشحن لابتوب وموبايلين في نفس الوقت، وسعره <strong>1999 جنيه</strong>، يعني بديل عملي جداً لشاحن ماك بوك 96 واط الأصلي اللي سعره بيتخطى الـ 3200 جنيه.</li>
 </ol>
 
 <h2>ثامناً: الفروق الهندسية الدقيقة لكشف شاحن ابل 20 واط المغشوش</h2>
-<p>بسبب انتشار النسخ المقلدة رديئة الصنع التي تباع في علب مطابقة للأصل تماماً، يوصي معملنا بإجراء هذه الاختبارات الهندسية البسيطة:</p>
+<p>بسبب انتشار النسخ المقلدة رديئة الصنع التي تباع في علب مطابقة للأصل تماماً، يوصي المراجع والمواصفات المنشورة بإجراء هذه الاختبارات الهندسية البسيطة:</p>
 <ul style="line-height:2;">
     <li><strong>الوزن الدقيق للشاحن:</strong> يزن رأس شاحن ابل 20 واط الأصلي حوالي **58 جراماً** نتيجة للمكونات النحاسية الثقيلة والمكثفات الصلبة. الشواحن المقلدة تزن عادة ما بين 35 إلى 42 جراماً وتكون خفيفة جداً.</li>
     <li><strong>فحص قراءة النظام في نظام iOS:</strong> عند توصيل الشاحن الأصلي بالآيفون، يمكنك الذهاب إلى إعدادات الهاتف (Settings) ثم "عام" (General) ثم "حول" (About) لترى موديل الشاحن والرقم التسلسلي يظهر بشكل رسمي. الشواحن المقلدة لا تظهر معلوماتها داخل النظام لعدم احتوائها على الرقاقة البرمجية المعتمدة.</li>
@@ -103,13 +103,13 @@ export const apple_chargers_egypt_power_selection_iphone_ipad_macbook: BlogArtic
 </ul>
 
 <h2>تاسعاً: تأثير انقطاع وتذبذب التيار في مصر على شواحن ابل والبدائل</h2>
-<p>تعاني شبكة الكهرباء في مصر أحياناً من تذبذب الجهد الكهربائي خاصة في فصل الصيف ومع عودة الكهرباء بعد انقطاعها. شواحن ابل الأصلية والبدائل المعتمدة (مثل أنكر) تحتوي على صمامات أمان حرارية وكهربائية مدمجة تنصهر وتقطع التيار تلقائياً لحماية الهاتف والبطارية من الاحتراق نتيجة الجهد المرتفع. أما الشواحن المقلدة الرخيصة فتفتقر لهذه التقنيات البسيطة وتمرر الفولت الزائد مباشرة لجهازك، مما يؤدي لحرق رقاقة الشحن بالآيفون (U2 IC). ننصح بفصل الشواحن فور انقطاع التيار وتوصيلها بعد دقيقتين من عودته لضمان استقرار الشبكة.</p>
+<p>تعاني شبكة الكهرباء في مصر أحياناً من تذبذب الجهد الكهربائي خاصة في فصل الصيف ومع عودة الكهرباء بعد انقطاعها. شواحن ابل الأصلية والبدائل المعتمدة (مثل انكر) تحتوي على صمامات أمان حرارية وكهربائية مدمجة تنصهر وتقطع التيار تلقائياً لحماية الهاتف والبطارية من الاحتراق نتيجة الجهد المرتفع. أما الشواحن المقلدة الرخيصة فتفتقر لهذه التقنيات البسيطة وتمرر الفولت الزائد مباشرة لجهازك، مما يؤدي لحرق رقاقة الشحن بالآيفون (U2 IC). ننصح بفصل الشواحن فور انقطاع التيار وتوصيلها بعد دقيقتين من عودته لضمان استقرار الشبكة.</p>
 
 <h2>عاشراً: كابلات الشحن المتوافقة (USB-C و Lightning)</h2>
 <p>لا يكتمل أداء الشاحن بدون كابل بجودة عالية. لشحن أجهزة الآيفون القديمة (آيفون 14 وما قبله)، تأكد من استخدام كابل يحمل ترخيص **MFi (Made for iPhone)** من ابل لضمان عدم تلف منفذ الشحن بالهاتف. أما لأجهزة الآيفون الحديثة والآيباد والماك بوك التي تستخدم منفذ USB-C، يفضل استخدام كابلات تدعم تيار 3 أمبير للقدرات حتى 60 واط، وكابلات 5 أمبير مع شريحة E-Marker للأجهزة التي تتطلب طاقة أعلى من 60 واط (مثل الماك بوك برو 16 بوصة). اختيار الكابلات النحاسية السميكة وذات الأطوال المناسبة (1.2 متر إلى 1.8 متر) يمنع حدوث هبوط في الجهد والتيار أثناء النقل ويحافظ على كفاءة دوائر الشحن كاملة.</p>
 
 <h2>حادي عشر: نصائح معملية للحفاظ على صحة بطارية أجهزة ابل</h2>
-<p>لإطالة العمر الافتراضي لبطارية أجهزتك وتجنب تدهور صحتها بسرعة، نوصي باتباع هذه النصائح الفنية من معمل كايرو فولت:</p>
+<p>لإطالة العمر الافتراضي لبطارية أجهزتك وتجنب تدهور صحتها بسرعة، نوصي باتباع هذه النصائح الفنية في هذا الدليل:</p>
 <ul style="line-height:2;">
     <li><strong>تفعيل ميزة الشحن المحسن (Optimized Battery Charging):</strong> تتوفر هذه الميزة في أنظمة iOS و macOS وتقوم بتأخير شحن الجهاز فوق 80% بناءً على سلوكك اليومي لتقليل إجهاد خلايا البطارية ومنع بقائها تحت ضغط الفولت المرتفع لعدة ساعات متتالية.</li>
     <li><strong>تجنب استخدام الأجهزة أثناء الشحن السريع:</strong> استخدام الهاتف في الألعاب، تصفح وسائل التواصل، أو مكالمات الفيديو أثناء الشحن يولد حرارة مضاعفة ناتجة عن عمل المعالج والشاحن معاً، مما يسرع من تحلل خلايا الليثيوم وفقدان سعتها الكيميائية.</li>
@@ -123,32 +123,32 @@ export const apple_chargers_egypt_power_selection_iphone_ipad_macbook: BlogArtic
             faq: [
                 {
                     question: 'هل يمكنني استخدام شاحن ابل 20 واط لشحن ماك بوك اير؟',
-                    answer: 'نعم، يمكنك استخدامه ولكن عملية الشحن ستكون بطيئة جداً ولن تشحن البطارية إلا إذا كان الجهاز مغلقاً أو في وضع السكون، لأن الماك بوك اير يحتاج 30 واط كحد أدنى.'
+                    answer: 'قد يتعرف بعض طرازات MacBook Air على شاحن 20W، لكنه قد يشحن ببطء شديد أو لا يغطي استهلاك الجهاز أثناء الاستخدام. راجع القدرة الموصى بها لطرازك في مواصفات Apple؛ لا نفترض حد تشغيل واحداً أو أن الشحن يحدث فقط عند الإغلاق.'
                 },
                 {
                     question: 'هل شحن الايفون بشاحن 96 واط يؤثر على صحة البطارية؟',
-                    answer: 'لا، لأن الايفون يحتوي على دوائر تنظيم طاقة ذكية تتواصل مع الشاحن وتسحب فقط الطاقة التي يحتاجها الهاتف (بين 20 إلى 27 واط كحد أقصى) مما يجعله آمناً تماماً.'
+                    answer: 'قد يعمل شاحن 96W المتوافق مع USB-C PD لأن الهاتف يفاوض على ملف مدعوم، لكن القدرة المطبوعة وحدها لا تثبت التوافق أو الأمان المطلق. استخدم شاحناً وكابلاً مطابقين لإرشادات Apple، وراقب الحرارة والتلف؛ الحد الفعلي يختلف حسب موديل الهاتف وحالته.'
                 },
                 {
                     question: 'ما هو سعر شاحن ابل 20 واط الاصلي في تريد لاين؟',
-                    answer: 'يتراوح سعر شاحن ابل 20 واط الأصلي لدى الوكلاء المعتمدين مثل تريد لاين بين 950 إلى 1200 جنيه مصري مع ضمان محلي لمدة عام ضد عيوب الصناعة.'
+                    answer: 'السعر والضمان يتغيران حسب البائع والمخزون والعرض. راجع صفحة البائع والسلة، وطابق رقم الموديل والفاتورة، وتحقق من صفة البائع لدى Apple إذا ادعاها ومن جهة الضمان ومدته المكتوبة قبل الدفع.'
                 },
                 {
-                    question: 'هل تدعم شواحن أنكر الشحن السريع لأجهزة ابل بالكامل؟',
-                    answer: 'نعم، تدعم شواحن أنكر بروتوكول USB-PD المعتمد من ابل بالكامل، وتقدم أداء شحن مطابق للشاحن الأصلي وبأحجام أصغر بفضل تقنية GaN المتطورة.'
+                    question: 'هل تدعم شواحن انكر الشحن السريع لأجهزة ابل بالكامل؟',
+                    answer: 'يعتمد ذلك على رقم الموديل. طابق ملفات USB-C PD وقدرة المنفذ والكابل مع متطلبات جهاز Apple، خصوصاً عند استخدام عدة منافذ. قد تقدم بعض موديلات انكر أداءً مناسباً، لكن لا نضمن زمناً مطابقاً لشاحن Apple أو حجماً أصغر لكل موديل.'
                 }
             ]
         },
         en: {
             title: 'Apple Charger Guide Egypt: Choosing the Right Wattage for iPhone, iPad, and MacBook',
             metaTitle: 'Apple Charger Power Selection & Prices Egypt | CairoVolt',
-            metaDescription: 'Find the right Apple charger for iPhone, iPad, and MacBook in Egypt. Learn about original reseller prices, certified alternatives, and how to spot fakes.',
+            metaDescription: 'Choose an Apple-device charger by exact iPhone, iPad, or MacBook model, USB-C PD output, cable, current price, seller identity, and written warranty.',
             keywords: 'apple charger price egypt, apple 20w usb-c power adapter, apple 30w charger price, best charger for macbook air, authentic apple charger selection egypt',
-            excerpt: 'Confused between 20W and 30W chargers for your new iPhone? We break down the exact wattage requirements for all Apple devices, including prices and budget alternatives.',
-            quickAnswer: 'For iPhones (iPhone 12 to 16), a <strong>20W or 30W</strong> charger is ideal. For iPads, a <strong>30W or 35W</strong> adapter is recommended. MacBooks require at least <strong>30W</strong> (MacBook Air) or <strong>70W to 140W</strong> (MacBook Pro). Charging iPhones with a MacBook block is safe as the device regulates intake.',
-            content: `<p>Since Apple decided to remove charging adapters from iPhone boxes to minimize carbon emissions, consumers have had to purchase wall plugs separately. This policy has not only added an extra expense but has also forced users to understand electrical specifications—specifically wattage—to ensure they select compatible and safe adapters for their devices.</p>
+            excerpt: 'Choose between 20W, 30W, and higher-output chargers after matching the exact Apple device to its USB-C PD and cable requirements and current price.',
+            quickAnswer: 'There is no single wattage for every Apple device. Check the specifications or manual for the exact iPhone, iPad, or MacBook, then match its USB-C PD profile, cable, and per-port output. A higher-rated compatible charger may work, but it does not guarantee faster charging, no heat, or no effect in every condition.',
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>Since Apple decided to remove charging adapters from iPhone boxes to minimize carbon emissions, consumers have had to purchase wall plugs separately. This policy has not only added an extra expense but has also forced users to understand electrical specifications—specifically wattage—to ensure they select compatible and safe adapters for their devices.</p>
 
-<p>Many Apple users in Egypt ask: Is a standard 20W USB-C charger enough for an iPad? Can you use a 96W MacBook Pro charger to power an iPhone 15 or 16 without damaging its battery cells? What are the retail prices of genuine Apple adapters in Egypt compared to certified third-party alternatives? In this technical guide, the CairoVolt lab addresses these questions to help you choose the right adapter safely and cost-effectively.</p>
+<p>Many Apple users in Egypt ask: Is a standard 20W USB-C charger enough for an iPad? Can you use a 96W MacBook Pro charger to power an iPhone 15 or 16 without damaging its battery cells? What are the retail prices of genuine Apple adapters in Egypt compared to certified third-party alternatives? In this technical guide, this guide addresses these questions to help you choose the right adapter safely and cost-effectively.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -219,7 +219,7 @@ export const apple_chargers_egypt_power_selection_iphone_ipad_macbook: BlogArtic
 <h2>10. USB-C and Lightning Cable Requirements</h2>
 <p>A high-quality charger requires a compatible cable to deliver maximum current efficiently. For older iPhones (iPhone 14 and earlier), use a cable with **MFi (Made for iPhone)** certification to ensure hardware compatibility and avoid iOS lockouts. For USB-C devices, use a standard 3A-rated cable for up to 60W charging. For devices requiring more than 60W (such as MacBook Pro models), use a 5A-rated cable containing an E-Marker chip to allow safe, dynamic power delivery. High-quality cables ensure stable transmission and protect your ports from micro-arcing.</p>
 
-<h2>11. CairoVolt Lab Practices for Apple Battery Health</h2>
+<h2>11. this guide Practices for Apple Battery Health</h2>
 <p>Follow these guidelines to extend your Apple device\'s battery lifespan:</p>
 <ul style="line-height:2;">
     <li><strong>Enable Optimized Battery Charging:</strong> This setting on iOS and macOS delays charging past 80% based on your daily routine, minimizing the time the battery spends at high voltage stress levels.</li>
@@ -239,19 +239,19 @@ export const apple_chargers_egypt_power_selection_iphone_ipad_macbook: BlogArtic
             faq: [
                 {
                     question: 'Can I use a 20W charger for a MacBook Air?',
-                    answer: 'Yes, but it will charge very slowly and may only charge when the laptop is asleep or shut down, as the MacBook Air requires at least 30W for normal operation.'
+                    answer: 'Some MacBook Air models may recognize a 20W adapter, but it can charge very slowly or fail to cover power use while the computer is active. Check Apple’s recommended power for the exact model rather than assuming one operating threshold or that charging occurs only while shut down.'
                 },
                 {
                     question: 'Does charging an iPhone with a 96W block degrade the battery?',
-                    answer: 'No, because the iPhone\'s power management IC limits the intake to its maximum supported power (between 20W and 27W depending on the model).'
+                    answer: 'A compatible 96W USB-C PD adapter may work because the phone negotiates a supported profile, but printed wattage alone does not establish compatibility or absolute safety. Use an Apple-compatible adapter and cable, monitor heat and damage, and check the exact phone guidance because limits vary by model and condition.'
                 },
                 {
                     question: 'What is the price of a genuine Apple 20W charger in Egypt?',
-                    answer: 'At authorized resellers like Tradeline, a genuine Apple 20W charger costs between 950 and 1,200 EGP and comes with a 1-year warranty.'
+                    answer: 'Price and warranty vary by seller, stock, and offer. Check the seller page and cart, match the model number and invoice, verify any claimed Apple reseller status with Apple, and identify the written warranty provider and term before paying.'
                 },
                 {
                     question: 'Are Anker chargers fully compatible with Apple devices?',
-                    answer: 'Yes, Anker chargers support the USB-PD protocol and provide charging speeds identical to original Apple chargers in a smaller form factor.'
+                    answer: 'It depends on the exact model. Match USB-C PD profiles, per-port output, and cable to the Apple device requirements, especially with multiple ports in use. Some Anker models may be suitable, but identical Apple-charger time or a smaller form factor is not guaranteed for every model.'
                 }
             ]
         }

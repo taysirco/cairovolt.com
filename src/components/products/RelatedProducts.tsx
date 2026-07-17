@@ -62,9 +62,6 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                             : (t?.name || product.slug);
                         const brandDisplayName = getBrandDisplayName(product.brand, locale);
                         const productUrl = getLocalizedHref(`/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${product.slug}`);
-                        const discount = product.originalPrice
-                            ? Math.round((1 - product.price / product.originalPrice) * 100)
-                            : 0;
 
                         return (
                             <Link
@@ -93,14 +90,6 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                         </div>
                                     )}
 
-                                    {/* Discount Badge */}
-                                    {discount > 0 && (
-                                        <span className="absolute top-2 left-2 bg-red-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full z-10">
-                                            -{discount}%
-                                        </span>
-                                    )}
-
-                                    {/* C2PA provenance: crawler-only (JSON-LD + EXIF/XMP) — visible badge removed */}
                                 </div>
 
                                 {/* Product Info */}
@@ -117,11 +106,6 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                         <span className="font-bold text-blue-600 text-base">
                                             {product.price.toLocaleString()} <span className="text-xs">{isArabic ? 'ج.م' : 'EGP'}</span>
                                         </span>
-                                        {product.originalPrice && (
-                                            <span className="text-xs text-gray-600 dark:text-gray-400 line-through">
-                                                {product.originalPrice.toLocaleString()}
-                                            </span>
-                                        )}
                                     </div>
                                 </div>
                             </Link>

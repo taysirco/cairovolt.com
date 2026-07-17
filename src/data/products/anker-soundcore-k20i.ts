@@ -26,108 +26,96 @@ export const anker_soundcore_k20i = {
     ],
         translations: {
             en: {
-                name: "Anker Soundcore K20i | 13mm Drivers | 36h Battery | Semi-In-Ear | 18-Month Warranty",
-                shortDescription: "🎵 13mm BassUp™ Drivers | 🔋 36h Total Battery | 👂 Comfortable Semi-In-Ear | 🎙️ AI ENC Dual Mic | ⚡ 10min = 2h Charge | 💧 IPX5 Waterproof",
+                name: "Anker Soundcore K20i | 13mm Drivers | 36h Battery | Semi-In-Ear",
+                shortDescription: "🎵 Manufacturer-listed 13mm driver + BassUp | 🔋 Published runtime depends on test settings | 👂 Semi-in-ear fit | 🎙️ Dual-mic call processing | 💧 Verify IPX5 limits",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike AirPods-style earbuds that hurt after 2 hours, the Soundcore K20i uses a <strong>semi-in-ear design (3.3g)</strong> with zero ear-canal pressure. Its oversized <strong>13mm BassUp™ drivers</strong> deliver deeper bass than earbuds at twice the price. 36h total battery lasts a full Cairo commute week. AI ENC passed our Metro Line 3 rush-hour call test — FCC certified, 18-month warranty. Available at <strong>EGP 750</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Soundcore lists K20i (A3994) with a semi-in-ear fit, 13mm driver and BassUp processing, dual-microphone call-noise processing and published battery figures. Comfort, bass response, call clarity and runtime vary with ear shape, fit, source, volume, codec, wind, noise, temperature and use. Verify Bluetooth, app, IPX5, battery-test and package details on the supplied unit, then review the current CairoVolt warranty terms.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
-<li>🎵 <strong>13mm BassUp™ Drivers:</strong> Oversized drivers deliver rich, deep bass and crystal-clear mids.</li>
-<li>🔋 <strong>36 Hours Total:</strong> 6h earbuds + 30h case. One charge lasts a full work week of commuting.</li>
-<li>👂 <strong>Semi-In-Ear Comfort:</strong> No ear tips = no pressure. All-day comfort at only 3.3g per earbud.</li>
-<li>🎙️ <strong>AI ENC:</strong> Dual microphones filter background noise for crystal-clear calls.</li>
-<li>⚡ <strong>10min Fast Charge:</strong> 10 minutes = 2 hours of playback. Emergency boost.</li>
-<li>💧 <strong>IPX5:</strong> Sweat-proof and rain-proof for Cairo summers.</li>
-<li>💰 <strong>1.39 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The K20i solved a problem most earbuds ignore: comfort. After 3 hours of in-ear earbuds, your ears hurt. The K20i's semi-in-ear design means ZERO pressure — you forget you're wearing them. We tested them during 6-hour meeting marathons and daily Metro Line 3 commutes. The 13mm BassUp drivers sound significantly better than the price suggests. The 36-hour total battery eliminated charging anxiety entirely — we charged once on Sunday and lasted until Thursday evening. The AI ENC filtered out Metro noise during phone calls so well that colleagues didn't know we were underground. At this price, the K20i competes with earbuds twice its cost. The best value semi-in-ear in Egypt."<br><span class="font-bold block mt-2">✍️ CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<li>🎵 <strong>Listed 13mm driver and BassUp:</strong> preferred sound depends on fit, EQ and content.</li>
+<li>🔋 <strong>Published battery figures:</strong> check volume, codec and recharge conditions; actual runtime varies.</li>
+<li>👂 <strong>Semi-in-ear fit:</strong> comfort and stability differ by ear shape and activity.</li>
+<li>🎙️ <strong>Dual-microphone processing:</strong> calls vary with wind, noise, microphone position and connection.</li>
+<li>⚡ <strong>Quick-charge claim:</strong> use Soundcore's stated source and test settings as a reference.</li>
+<li>💧 <strong>Listed IPX5:</strong> follow water limits; the case may not share the rating.</li>
+<li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A3994</strong>, start with the manufacturer-rated Bluetooth version, codec support, battery conditions and IP rating printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 <div class="product-details">
-<section><h2 class="text-2xl font-bold mb-2">13mm BassUp™: Oversized Sound, Undersized Price</h2>
-<p class="text-gray-700">Most budget earbuds use 6mm drivers. The K20i packs <strong>13mm diaphragms</strong> — more than double the surface area. More diaphragm = more air displacement = deeper bass, wider soundstage, and less distortion at high volumes. BassUp™ DSP enhances low frequencies in real-time without muddying vocals. Through the <strong>Soundcore app</strong>, customize the 8-band EQ or choose from 22 presets to match your music genre.</p></section>
-<section><h2 class="text-2xl font-bold mb-2">36 Hours: Charge Sunday, Listen Until Thursday</h2>
-<p class="text-gray-700">6 hours per earbud charge, 36 hours total with the case. That's a full work week of 2-hour daily commutes. The <strong>10-minute fast charge</strong> via USB-C gives 2 hours of emergency playback — perfect for the "meeting in 10 minutes" panic. The LED indicators on the case show remaining charge at a glance.</p></section>
-<section><h2 class="text-2xl font-bold mb-2">Cairo Metro Tested: AI ENC Calls</h2>
-<p class="text-gray-700">The K20i's <strong>dual-mic AI ENC</strong> doesn't passively block noise — it actively identifies and removes it. We tested calls on Metro Line 3 during rush hour: colleagues on the other end couldn't tell we were in the subway. The AI separates your voice from ambient noise using a deep-learning neural network. Bus, micro-bus, tuk-tuk — the K20i handles all of Cairo's audio chaos.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">13mm driver, BassUp and app EQ</h2>
+<p class="text-gray-700">Driver diameter is a hardware specification, not a guarantee of deeper bass, wider soundstage or lower distortion than another earbud. Soundcore lists BassUp and app EQ for K20i; availability can vary with firmware, region and OS, and the audible result depends on fit, content and preference.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">Battery and quick-charge conditions</h2>
+<p class="text-gray-700">Published earbud, case and quick-charge figures use specified volume and test settings. Actual runtime changes with calls, codec, connection, temperature, battery age and use. Treat the case LEDs as a status estimate rather than a calibrated capacity measurement.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">AI ENC calls: performance depends on the environment</h2>
+<p class="text-gray-700">K20i uses manufacturer-described dual-microphone processing for calls. It does not create silence for the listener or caller. Call clarity varies with fit, microphone position, wind, background noise, network, application and connected device.</p></section>
 </div>
-<div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
+<div class="device-compatibility"><h3 class="font-bold mb-2">Compatibility guide based on listed specifications:</h3>
 <ul class="list-disc list-inside text-gray-700">
-<li>📱 <strong>iPhone 17 Pro Max:</strong> BassUp bass test — rich low-end via Apple Music.</li>
-<li>📱 <strong>Samsung Galaxy S26 Ultra:</strong> Bluetooth 5.3 stable, codec: AAC/SBC.</li>
-<li>💻 <strong>MacBook Pro:</strong> Stable PC audio + Teams/Zoom calls via AI ENC.</li>
-<li>📱 <strong>Google Pixel 9 Pro:</strong> Android Soundcore app full EQ + controls.</li>
-<li>📱 <strong>iPad Pro M4:</strong> Low-latency gaming mode 60ms.</li>
+<li>📱 <strong>Phones and tablets:</strong> verify Bluetooth codec and app support for the current OS version.</li>
+<li>💻 <strong>Computers:</strong> call quality depends on the conferencing app and selected Bluetooth profile.</li>
+<li>🎮 <strong>Gaming:</strong> latency varies by source, app, codec and mode; verify the current manufacturer figure.</li>
 </ul></div>
 
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Fake Soundcore earbuds use recycled drivers that distort at 60% volume and have batteries lasting only 1.5h instead of 6h. Always buy from authorized sellers and verify at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3994</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms. Review <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">the official verification reference</a>.</p></div>
 `,
-                features: ["🎵 13mm BassUp™ Drivers", "🔋 36h Total Battery", "👂 Semi-In-Ear Comfort", "🎙️ AI ENC Dual Mic", "⚡ 10min Fast Charge", "💧 IPX5 Waterproof", "📱 Soundcore App EQ", "🎮 Low-Latency Mode", "🏆 18-Month Warranty"],
-                metaTitle: "Anker Soundcore K20i ⚡ 10% OFF | 36h Battery Life | COD",
-                metaDesc: "Buy Anker Soundcore K20i in Egypt. 13mm BassUp drivers, 36h battery, semi-in-ear comfort, AI ENC calls. ✓ 18-Month Warranty ✓ Fast Delivery.",
+                features: ["🎵 13mm BassUp™ Drivers", "🔋 36h Total Battery", "👂 Semi-In-Ear Comfort", "🎙️ AI ENC Dual Mic", "⚡ 10min Fast Charge", "💧 IPX5 Waterproof", "📱 Soundcore App EQ", "🎮 Low-Latency Mode", "🏆 current warranty and return policy"],
+                metaTitle: "Soundcore K20i A3994 Semi-In-Ear Earbuds | Egypt",
+                metaDesc: "Explore Soundcore K20i A3994 in Egypt. Review manufacturer driver, battery, call, IPX5, app and fit specifications plus stock and current warranty terms.",
                 faqs: [
-                    { question: "Are semi-in-ear earbuds comfortable for all-day wear?", answer: "Yes! Semi-in-ear means no silicone tips pressing into your ear canal. At 3.3g per earbud, you forget you're wearing them. Perfect for 6+ hour sessions." },
-                    { question: "How good is the bass compared to AirPods?", answer: "The 13mm BassUp drivers deliver significantly deeper bass than AirPods. The oversized diaphragm moves more air = more bass. Plus you can customize EQ via the Soundcore app." },
-                    { question: "Does AI ENC work for calls in noisy places?", answer: "Yes — tested on Cairo's Metro Line 3 during rush hour. Colleagues couldn't tell we were in the subway. AI neural network separates voice from noise." },
+                    { question: "Are semi-in-ear earbuds comfortable for long wear?", answer: "They avoid a sealed silicone tip, but comfort and stability differ by ear shape and movement. Take listening breaks and stop if you feel pressure or irritation." },
+                    { question: "How should I assess the bass?", answer: "Driver diameter alone does not determine bass quality. Evaluate fit, EQ, content and listening preference; BassUp and app settings may change the balance." },
+                    { question: "Does AI ENC help with calls in noisy places?", answer: "The K20i uses AI-assisted call-noise reduction. Results vary with fit, microphone position, wind, and surrounding noise." },
                     { question: "What's the difference between K20i and R50i?", answer: "K20i = semi-in-ear (no tips, maximum comfort, no ANC). R50i = in-ear (silicone tips, passive isolation, basic ENC). K20i has bigger 13mm drivers vs R50i's 10mm." },
-                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers driver failure, battery degradation, and Bluetooth issues. If they fail under normal use, contact CairoVolt for free replacement." }
+                    { question: "What does the current warranty and return policy cover?", answer: "Anker's current warranty and return policy covers driver failure, battery degradation, and Bluetooth issues. If they fail under normal use, Contact CairoVolt to check eligibility under the current warranty and return policy." }
                 ]
             },
             ar: {
-                name: "سماعة أنكر ساوندكور K20i | 13mm درايفر | 36 ساعة بطارية | نصف داخلية | ضمان 18 شهر",
-                shortDescription: "🎵 13mm BassUp™ | 🔋 36 ساعة إجمالي | 👂 نصف داخلية مريحة | 🎙️ AI ENC مايك مزدوج | ⚡ 10 دقايق = ساعتين | 💧 IPX5",
+                name: "سماعة انكر ساوندكور K20i | 13mm درايفر | 36 ساعة بطارية | نصف داخلية",
+                shortDescription: "🎵 درايفر 13mm وBassUp معلنان | 🔋 المدة مرتبطة بشروط الاختبار | 👂 ملاءمة نصف داخلية | 🎙️ معالجة مكالمات بمايكين | 💧 راجع حدود IPX5",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس سماعات ايربودز اللي بتوجع بعد ساعتين، ساوندكور K20i بتستخدم <strong>تصميم نصف داخلي (3.3 جرام)</strong> بدون ضغط على قناة الأذن. درايفرات <strong>13mm BassUp™</strong> بتوفر باس أعمق من سماعات بضعف السعر. بطارية 36 ساعة بتكفي أسبوع مواصلات كامل. AI ENC نجحت في اختبار مترو الخط 3 — شهادات FCC/CE، ضمان 18 شهر. بسعر <strong>750 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed">تدرج ساوندكور K20i (A3994) بملاءمة نصف داخلية ودرايفر 13mm ومعالجة BassUp ومعالجة مكالمات بمايكين وأرقام بطارية منشورة. تختلف الراحة والباس ووضوح المكالمات والمدة حسب شكل الأذن والملاءمة والمصدر والصوت والكودك والهوا والضوضاء والحرارة والاستخدام. تحقق من البلوتوث والتطبيق وIPX5 وشروط اختبار البطارية ومحتويات العبوة على الوحدة الموردة وراجع ضمان كايرو فولت الحالي.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">
-<li>🎵 <strong>13mm BassUp™:</strong> درايفرات كبيرة بباس عميق وصوت نقي.</li>
-<li>🔋 <strong>36 ساعة:</strong> 6 ساعات سماعة + 30 ساعة علبة. شحنة أسبوع كامل.</li>
-<li>👂 <strong>نصف داخلية:</strong> بدون أطراف سيليكون = بدون ضغط. 3.3 جرام بس.</li>
-<li>🎙️ <strong>AI ENC:</strong> مايكين بيفلتروا الضوضاء لمكالمات صافية.</li>
-<li>⚡ <strong>شحن 10 دقايق:</strong> 10 دقايق = ساعتين تشغيل. شحن طوارئ.</li>
-<li>💧 <strong>IPX5:</strong> مقاومة للعرق والمطر.</li>
+<li>🎵 <strong>درايفر 13mm وBassUp:</strong> يعتمد الصوت المفضل على الملاءمة وEQ والمحتوى.</li>
+<li>🔋 <strong>أرقام البطارية المنشورة:</strong> راجع الصوت والكودك وشروط إعادة الشحن؛ تختلف المدة الفعلية.</li>
+<li>👂 <strong>ملاءمة نصف داخلية:</strong> تختلف الراحة والثبات حسب شكل الأذن والنشاط.</li>
+<li>🎙️ <strong>معالجة بمايكين:</strong> تتأثر المكالمات بالهوا والضوضاء ومكان المايك والاتصال.</li>
+<li>⚡ <strong>رقم الشحن السريع:</strong> استخدم مصدر وإعدادات اختبار ساوندكور كمرجع.</li>
+<li>💧 <strong>IPX5 معلن:</strong> اتبع حدود الماء؛ قد لا تشارك العلبة التصنيف.</li>
 </ul></div>
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ K20i حلت مشكلة أغلب السماعات بتتجاهلها: الراحة. بعد 3 ساعات سماعات داخلية، ودانك بتوجعك. التصميم النصف داخلي للـ K20i يعني صفر ضغط — بتنسى إنك لابسها. جربناها في ماراثون اجتماعات 6 ساعات ورحلات مترو الخط 3 اليومية. درايفرات 13mm BassUp صوتها أحسن بكتير من سعرها. بطارية 36 ساعة خلّصت على قلق الشحن — شحنّا يوم الحد وكفت لمساء الخميس. الـ AI ENC فلترت ضوضاء المترو وقت المكالمات بشكل إن الزملاء مكانوش عارفين إننا تحت الأرض. بالسعر ده، الـ K20i بتنافس سماعات ضعف سعرها. أفضل قيمة سماعة نصف داخلية في مصر."<br><span class="font-bold block mt-2">✍️ كايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A3994</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 <div class="product-details">
-<section><h2 class="text-2xl font-bold mb-2">13mm BassUp™: صوت كبير، سعر صغير</h2>
-<p class="text-gray-700">أغلب السماعات الاقتصادية بتستخدم درايفرات 6mm. الـ K20i فيها <strong>13mm</strong> — أكتر من ضعف المساحة. درايفر أكبر = هوا أكتر = باس أعمق وصوت أوسع. BassUp™ بتعزز الترددات المنخفضة لحظياً بدون ما تأثر على الصوت. من تطبيق <strong>ساوندكور</strong>، اظبط الـ EQ بـ 8 نطاقات أو اختار من 22 إعداد مسبق.</p></section>
-<section><h2 class="text-2xl font-bold mb-2">36 ساعة: اشحن يوم الحد، اسمع لحد الخميس</h2>
-<p class="text-gray-700">6 ساعات لكل شحنة سماعة، 36 ساعة إجمالي مع العلبة. ده أسبوع شغل كامل بساعتين مواصلات يومياً. <strong>شحن 10 دقايق</strong> عبر USB-C بيدي ساعتين تشغيل طوارئ — مثالي لـ "الميتنج بعد 10 دقايق".</p></section>
-<section><h2 class="text-2xl font-bold mb-2">مختبرة في مترو القاهرة: مكالمات AI ENC</h2>
-<p class="text-gray-700">الـ AI ENC بتاعت الـ K20i مش بتمنع الضوضاء بشكل سلبي — بتكتشفها وبتشيلها. جربنا المكالمات في مترو الخط 3 وقت الزحمة: الزملاء على الطرف التاني مكانوش عارفين إننا في المترو. الذكاء الاصطناعي بيفصل صوتك عن الضوضاء.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">درايفر 13mm وBassUp وEQ</h2>
+<p class="text-gray-700">قطر الدرايفر مواصفة عتاد وليس ضماناً لباس أعمق أو صوت أوسع أو تشوه أقل من سماعة أخرى. تدرج ساوندكور BassUp وEQ عبر التطبيق؛ قد يتغير التوفر حسب الفيرموير والمنطقة والنظام وتعتمد النتيجة على الملاءمة والمحتوى والتفضيل.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">شروط البطارية والشحن السريع</h2>
+<p class="text-gray-700">تستخدم أرقام السماعة والعلبة والشحن السريع المنشورة مستوى صوت وإعدادات اختبار محددة. تتغير المدة حسب المكالمات والكودك والاتصال والحرارة وعمر البطارية والاستخدام. مؤشرات العلبة تقدير للحالة وليست قياس سعة معملياً.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">مكالمات AI ENC: الأداء يعتمد على البيئة</h2>
+<p class="text-gray-700">تستخدم K20i معالجة مكالمات بمايكين حسب وصف الشركة. لا تصنع هذه المعالجة صمتاً للمستمع أو المتصل. يختلف الوضوح حسب الملاءمة ومكان المايك والهوا والضوضاء والشبكة والتطبيق والجهاز.</p></section>
 </div>
-<div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
+<div class="device-compatibility"><h3 class="font-bold mb-2">دليل توافق حسب المواصفات:</h3>
 <ul class="list-disc list-inside text-gray-700">
-<li>📱 <strong>ايفون 17 برو ماكس:</strong> اختبار باس BassUp — باس غني عبر Apple Music.</li>
-<li>📱 <strong>سامسونج S26 الترا:</strong> بلوتوث 5.3 مستقر، كودك: AAC/SBC.</li>
-<li>💻 <strong>ماك بوك برو:</strong> صوت PC مستقر + مكالمات Teams/Zoom عبر AI ENC.</li>
-<li>📱 <strong>جوجل بيكسل 9 برو:</strong> تطبيق ساوندكور كامل EQ + تحكم.</li>
-<li>📱 <strong>ايباد برو M4:</strong> وضع جيمنج منخفض التأخير 60ms.</li>
+<li>📱 <strong>هواتف وتابلت:</strong> تحقق من الكودك ودعم التطبيق لإصدار النظام الحالي.</li>
+<li>💻 <strong>كمبيوتر:</strong> تعتمد المكالمات على تطبيق الاجتماع وبروفايل البلوتوث المختار.</li>
+<li>🎮 <strong>ألعاب:</strong> يتغير التأخير حسب المصدر والتطبيق والكودك والوضع؛ راجع رقم الشركة الحالي.</li>
 </ul></div>
 
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">سماعات ساوندكور مقلدة بتستخدم درايفرات مستعملة بتشوّه عند 60% صوت وبطاريتها ساعة ونص بس بدل 6 ساعات. اشتري من بائعين معتمدين وتأكد على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3994</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية. راجع <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">مرجع التحقق الرسمي</a>.</p></div>
 `,
-                features: ["🎵 13mm BassUp™", "🔋 36 ساعة إجمالي", "👂 نصف داخلية مريحة", "🎙️ AI ENC مزدوج", "⚡ شحن 10 دقايق", "💧 IPX5", "📱 تطبيق ساوندكور", "🎮 وضع تأخير منخفض", "🏆 ضمان 18 شهر"],
-                metaTitle: "سعر سماعة انكر K20i في مصر ⚡ خصم 10% | ايربودز انكر 36 ساعة",
-                metaDesc: "اشتري سماعة انكر K20i في مصر. 13mm BassUp، 36 ساعة بطارية، نصف داخلية مريحة. ✓ ضمان 18 شهر ✓ توصيل سريع.",
+                features: ["🎵 13mm BassUp™", "🔋 36 ساعة إجمالي", "👂 نصف داخلية مريحة", "🎙️ AI ENC مزدوج", "⚡ شحن 10 دقايق", "💧 IPX5", "📱 تطبيق ساوندكور", "🎮 وضع تأخير منخفض", "🧾 راجع سياسة الضمان والاسترجاع"],
+                metaTitle: "سماعة ساوندكور K20i A3994 نصف داخلية | مصر",
+                metaDesc: "تعرف على ساوندكور K20i A3994 في مصر. راجع مواصفات الدرايفر والبطارية والمكالمات وIPX5 والتطبيق والملاءمة والمخزون والضمان الحالي.",
                 faqs: [
-                    { question: "السماعات النصف داخلية مريحة طول اليوم؟", answer: "أيوه! بدون أطراف سيليكون = بدون ضغط. بـ 3.3 جرام بس، بتنسى إنك لابسها. مثالية لجلسات 6+ ساعات." },
-                    { question: "الباس أحسن من ايربودز؟", answer: "درايفرات 13mm BassUp بتوفر باس أعمق بكتير من ايربودز. الدرايفر الكبير بيحرك هوا أكتر = باس أكتر." },
-                    { question: "AI ENC بتشتغل كويس في الأماكن الزحمة؟", answer: "أيوه — اختبرناها في مترو القاهرة خط 3 وقت الزحمة. الزملاء ما عرفوش إننا في المترو. شبكة AI العصبية بتفصل الصوت عن الضوضاء." },
+                    { question: "هل السماعات النصف داخلية مريحة لفترة طويلة؟", answer: "تتجنب الطرف السيليكون المغلق لكن الراحة والثبات يختلفان حسب شكل الأذن والحركة. خذ فواصل وتوقف عند وجود ضغط أو تهيج." },
+                    { question: "كيف أقيّم الباس؟", answer: "قطر الدرايفر وحده لا يحدد جودة الباس. قيّم الملاءمة وEQ والمحتوى وتفضيل السمع؛ قد تغير إعدادات BassUp والتطبيق التوازن." },
+                    { question: "AI ENC بتساعد في المكالمات وسط الزحمة؟", answer: "K20i تستخدم تقليل ضوضاء للمكالمات بمساعدة الذكاء الاصطناعي. النتيجة تختلف حسب ثبات السماعة ومكان الميكروفون والهواء والضوضاء المحيطة." },
                     { question: "إيه الفرق بين K20i و R50i؟", answer: "K20i = نصف داخلية (بدون أطراف، راحة قصوى، بدون ANC). R50i = داخلية (أطراف سيليكون، عزل سلبي). K20i عندها 13mm مقابل 10mm في R50i." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 18 شهر بيغطي عطل الدرايفر، تدهور البطارية، ومشاكل البلوتوث. لو باظت في الاستخدام العادي، كلّم CairoVolt للاستبدال مجاناً." }
+                    { question: "الضمان بيغطي إيه؟", answer: "التغطية والأهلية تخضعان لشروط ضمان انكر وسياسة كايرو فولت المنشورتين وقت الطلب. احتفظ بالفاتورة وتواصل برقم الموديل ووصف العطل للتقييم." }
                 ]
             }
         },
-        meta: { keywords: "أنكر k20i, أنكر ساوندكور k20i, سماعة انكر k20i, ايربودز انكر, سماعة بلوتوث انكر, سماعه انكر, انكر k20i, ساوندكور airpods, اير بودز انكر, أنكر earbuds egypt, أنكر wireless earbuds, أنكر bluetooth earbuds egypt, أنكر best earbuds egypt 2026, أنكر noise cancelling, أنكر cod egypt, افضل سماعة انكر, سعر سماعة انكر, أنكر ساوندكور k20i earbuds", mainTerm: "anker soundcore k20i earbuds" },
-        expertOpinion: { en: "Buy the K20i if ear fatigue from in-ear buds is your problem. The open-ear design trades noise isolation for all-day comfort. Not for gym or metro commuters who need tight seal against noise.", ar: "اشتري K20i لو مشكلتك ألم الأذن من السماعات الداخلية. التصميم المفتوح بيضحي بعزل الضوضاء مقابل راحة طول اليوم. مش للجيم أو المترو اللي محتاج عزل صوت قوي." }
+        meta: { keywords: "انكر k20i, انكر ساوندكور k20i, سماعة انكر k20i, ايربودز انكر, سماعة بلوتوث انكر, سماعه انكر, انكر k20i, ساوندكور airpods, اير بودز انكر, انكر earbuds egypt, انكر wireless earbuds, انكر bluetooth earbuds egypt, انكر noise cancelling, انكر cod egypt, سعر سماعة انكر, انكر ساوندكور k20i earbuds", mainTerm: "anker soundcore k20i earbuds" },
+        expertOpinion: { en: "K20i's semi-in-ear design may suit listeners who dislike a sealed silicone tip, but comfort and stability are individual. Compare fit, isolation needs, app support and battery test conditions before choosing.", ar: "قد يناسب تصميم K20i النصف داخلي من لا يفضل الطرف السيليكون المغلق، لكن الراحة والثبات فرديان. قارن الملاءمة واحتياج العزل ودعم التطبيق وشروط البطارية قبل الاختيار." }
     };

@@ -1,9 +1,8 @@
 /**
- * UX Signal Engine — Deep Engagement Analytics
+ * UX Signal Engine — Privacy-conscious engagement analytics
  * 
- * This module captures every meaningful user interaction and sends it to GA4.
- * CRITICAL: All events use the standard GA4 gtag() API which works on ALL browsers
- * (Chrome, Safari, Firefox, Edge, Samsung Internet).
+ * This module records a limited set of aggregate interaction signals through GA4.
+ * All collectors fail safely when the analytics library is unavailable.
  * 
  * Signals tracked:
  * 1. Dwell Time — cumulative active time on page
@@ -50,8 +49,8 @@ function idleDispatch(eventName: string, params: Record<string, unknown>): void 
 }
 
 /**
- * Fire event using sendBeacon for guaranteed delivery on page unload.
- * Falls back to gtag() if Measurement Protocol isn't needed.
+ * Ask GA4 to use beacon transport for a best-effort unload event.
+ * Browsers can still discard telemetry during shutdown or network loss.
  */
 function beaconDispatch(eventName: string, params: Record<string, unknown>): void {
     // Use gtag directly — GA4 handles beacon internally for unload events
@@ -63,7 +62,7 @@ function beaconDispatch(eventName: string, params: Record<string, unknown>): voi
         w.gtag('event', eventName, {
             ...params,
             send_to: 'G-ZH7YYZRWSE',
-            transport_type: 'beacon', // Ensures delivery even on page unload
+            transport_type: 'beacon', // Improves the chance of unload delivery
         });
     } catch {
         // Graceful degradation
@@ -134,7 +133,7 @@ function startDwellTimer(): () => void {
         }
     }, 5000);
 
-    // Send final dwell time on page unload (beacon for guaranteed delivery)
+    // Attempt to send final dwell time on page unload.
     const handleUnload = () => {
         const total = dwellAccumulated + (dwellIsActive ? Date.now() - dwellStartTime : 0);
         const seconds = Math.floor(total / 1000);
@@ -164,8 +163,8 @@ function startDwellTimer(): () => void {
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-// 2. ENHANCED SCROLL DEPTH
-// 10 milestones instead of 4 — gives Google granular engagement data
+// 2. SCROLL DEPTH
+// Coarse milestones help the team understand whether long pages are useful.
 // ═════════════════════════════════════════════════════════════════════════════
 
 const scrollMilestones = new Set<number>();
@@ -225,7 +224,7 @@ function trackClickSatisfaction(): () => void {
         }
 
         // CTA button click (Add to cart, Buy now, WhatsApp)
-        const ctaBtn = target.closest('[data-add-to-cart], [data-cart-action], .cv-promo-btn, a[href*="wa.me"], a[href*="checkout"]');
+        const ctaBtn = target.closest('[data-add-to-cart], [data-cart-action], a[href*="wa.me"], a[href*="checkout"]');
         if (ctaBtn) {
             const ctaType = ctaBtn.getAttribute('data-add-to-cart') ? 'add_to_cart' :
                 ctaBtn.getAttribute('data-cart-action') ? 'cart_action' :
@@ -262,22 +261,35 @@ function trackClickSatisfaction(): () => void {
 
 // ═════════════════════════════════════════════════════════════════════════════
 // 4. WEB VITALS → GA4
-// Sends Core Web Vitals to GA4 from ALL browsers (not just Chrome CrUX).
-// Google correlates this with its own CrUX data to validate performance.
-// Uses the web-vitals library pattern but implemented inline for zero deps.
+// Sends supported performance measurements to the store's analytics property.
+// Implemented inline to avoid adding a client-side dependency.
 // ═════════════════════════════════════════════════════════════════════════════
+
+interface LayoutShiftEntry extends PerformanceEntry {
+    hadRecentInput: boolean;
+    value: number;
+}
+
+interface EventTimingEntry extends PerformanceEntry {
+    duration: number;
+}
+
+interface NavigatorWithDeviceSignals extends Navigator {
+    connection?: { effectiveType?: string };
+    deviceMemory?: number;
+}
 
 function trackWebVitals(): () => void {
     const observers: PerformanceObserver[] = [];
     let clsHandler: (() => void) | null = null;
 
-    // LCP (Largest Contentful Paint) — critical for search ranking
+    // LCP (Largest Contentful Paint)
     if ('PerformanceObserver' in window) {
         try {
             // LCP
             const lcpObserver = new PerformanceObserver((list) => {
                 const entries = list.getEntries();
-                const lastEntry = entries[entries.length - 1] as any;
+                const lastEntry = entries[entries.length - 1];
                 if (lastEntry && once('cwv_lcp')) {
                     const value = Math.round(lastEntry.startTime);
                     idleDispatch('web_vitals', {
@@ -296,8 +308,9 @@ function trackWebVitals(): () => void {
             let clsValue = 0;
             const clsObserver = new PerformanceObserver((list) => {
                 for (const entry of list.getEntries()) {
-                    if (!(entry as any).hadRecentInput) {
-                        clsValue += (entry as any).value;
+                    const layoutShift = entry as LayoutShiftEntry;
+                    if (!layoutShift.hadRecentInput) {
+                        clsValue += layoutShift.value;
                     }
                 }
             });
@@ -323,20 +336,26 @@ function trackWebVitals(): () => void {
             // INP (Interaction to Next Paint) — replaced FID in March 2024
             const inpObserver = new PerformanceObserver((list) => {
                 for (const entry of list.getEntries()) {
-                    const duration = (entry as any).duration || 0;
+                    const eventTiming = entry as EventTimingEntry;
+                    const duration = eventTiming.duration || 0;
                     if (duration > 0 && once(`cwv_inp_${Math.round(duration)}`)) {
                         idleDispatch('web_vitals', {
                             event_category: 'web_vitals',
                             metric_name: 'INP',
                             metric_value: Math.round(duration),
                             metric_rating: duration <= 200 ? 'good' : duration <= 500 ? 'needs_improvement' : 'poor',
-                            metric_event_type: (entry as any).name || 'unknown',
+                            metric_event_type: eventTiming.name || 'unknown',
                             non_interaction: true,
                         });
                     }
                 }
             });
-            inpObserver.observe({ type: 'event', buffered: true, durationThreshold: 16 } as any);
+            const eventObserverOptions: PerformanceObserverInit & { durationThreshold: number } = {
+                type: 'event',
+                buffered: true,
+                durationThreshold: 16,
+            };
+            inpObserver.observe(eventObserverOptions);
             observers.push(inpObserver);
 
             // FCP (First Contentful Paint) — secondary but valuable
@@ -578,13 +597,14 @@ export function initUXSignals(): () => void {
     const cleanupFaq = trackFaqToggles();
 
     // Enhanced page_view with engagement parameters
+    const deviceSignals = navigator as NavigatorWithDeviceSignals;
     idleDispatch('page_view', {
         page_type: getPageType(),
         page_path: window.location.pathname,
         referrer: document.referrer,
         screen_width: window.innerWidth,
-        connection_type: (navigator as any).connection?.effectiveType || 'unknown',
-        device_memory: (navigator as any).deviceMemory || 'unknown',
+        connection_type: deviceSignals.connection?.effectiveType || 'unknown',
+        device_memory: deviceSignals.deviceMemory || 'unknown',
     });
 
     return () => {

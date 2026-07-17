@@ -171,7 +171,6 @@ export default function CategoryTemplate({
                 ? localizeArabicBrandNames(p.translations?.ar?.name || p.translations?.en?.name || 'Product')
                 : (p.translations?.en?.name || 'Product'),
             price: p.price,
-            originalPrice: p.originalPrice,
             image: imageUrl,
             categorySlug: p.categorySlug,
             badge: undefined as string | undefined
@@ -251,7 +250,7 @@ export default function CategoryTemplate({
                                 href={`${localePrefix}/soundcore`}
                                 className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-white text-orange-700 rounded-full font-bold text-xs md:text-sm shadow-md hover:shadow-lg hover:scale-105 transition-all"
                             >
-                                {isRTL ? localizeArabicBrandNames('مركز ساوند كور') : 'Soundcore Hub'}
+                                {isRTL ? localizeArabicBrandNames('مركز ساوندكور') : 'Soundcore Hub'}
                                 <span>{isRTL ? '←' : '→'}</span>
                             </Link>
                             <Link
@@ -259,8 +258,8 @@ export default function CategoryTemplate({
                                 className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 bg-black/20 text-white rounded-full font-medium text-xs hover:bg-black/30 transition-colors"
                             >
                                 {categorySlug === 'audio'
-                                    ? (isRTL ? localizeArabicBrandNames('🔊 سبيكرات ساوند كور') : '🔊 Soundcore Speakers')
-                                    : (isRTL ? localizeArabicBrandNames('🎧 ايربودز ساوند كور') : '🎧 Soundcore Earbuds')}
+                                    ? (isRTL ? localizeArabicBrandNames('🔊 سبيكرات ساوندكور') : '🔊 Soundcore Speakers')
+                                    : (isRTL ? localizeArabicBrandNames('🎧 ايربودز ساوندكور') : '🎧 Soundcore Earbuds')}
                             </Link>
                         </div>
                     </div>
@@ -378,7 +377,6 @@ export default function CategoryTemplate({
                                         </span>
                                     </div>
                                 )}
-                                {/* C2PA provenance: crawler-only (JSON-LD + EXIF/XMP) — visible badge removed */}
                             </div>
 
                             {/* Product Info */}
@@ -397,9 +395,6 @@ export default function CategoryTemplate({
                                             {product.price}
                                         </span>
                                         <span className="text-[10px] text-gray-500 font-normal ml-1">{locale === 'ar' ? 'ج.م' : 'EGP'}</span>
-                                        {product.originalPrice && product.originalPrice > product.price && (
-                                            <span className="text-xs text-gray-500 dark:text-gray-400 line-through ml-2">{product.originalPrice}</span>
-                                        )}
                                     </div>
                                     <span className={`w-6 h-6 rounded-full flex items-center justify-center ${brandColorClass} text-white shadow-sm text-xs`}>
                                         →
@@ -458,7 +453,7 @@ export default function CategoryTemplate({
                         {/* Audio Technologies */}
                         <div className="max-w-5xl mx-auto mb-12">
                             <h3 className="text-2xl font-bold text-center mb-8 dark:text-white">
-                                {isRTL ? 'تقنيات الصوت الحصرية' : 'Exclusive Audio Technologies'}
+                                {isRTL ? 'تقنيات الصوت' : 'Audio Technologies'}
                             </h3>
                             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                                 {displaySoundcoreData.technologies.map((tech, idx) => (
@@ -517,7 +512,7 @@ export default function CategoryTemplate({
                         {/* Soundcore FAQs */}
                         <div className="max-w-4xl mx-auto">
                             <h3 className="text-2xl font-bold text-center mb-8 dark:text-white">
-                                {isRTL ? localizeArabicBrandNames('أسئلة شائعة عن Soundcore') : 'Soundcore FAQ'}
+                                {isRTL ? localizeArabicBrandNames('أسئلة شائعة عن ساوندكور') : 'Soundcore FAQ'}
                             </h3>
                             <div className="space-y-4">
                                 {(isRTL ? displaySoundcoreData.faq.ar : displaySoundcoreData.faq.en).map((item, idx) => (
@@ -579,7 +574,7 @@ export default function CategoryTemplate({
                         {/* Charging Technologies */}
                         <div className="max-w-5xl mx-auto mb-12">
                             <h3 className="text-2xl font-bold text-center mb-8 dark:text-white">
-                                {isRTL ? 'تقنيات الشحن الحصرية' : 'Exclusive Charging Technologies'}
+                                {isRTL ? 'تقنيات الشحن' : 'Charging Technologies'}
                             </h3>
                             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                                 {displayPowerBankData.technologies.map((tech, idx) => (
@@ -753,14 +748,14 @@ export default function CategoryTemplate({
                             {(() => {
                                 const categoryHash = typeof categorySlug === 'string' ? categorySlug.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
                                 const arTrustBoxSets = [
-                                    ['منتجات أصلية 100%', 'ضمان الوكيل الرسمي', 'استرجاع خلال 14 يوم'],
-                                    ['باركود أصلي قابل للفحص', 'كفالة استبدال فوري', 'دفع عند الاستلام'],
-                                    ['مختوم بختم الشركة', 'حماية لمدة 18 شهر', 'توصيل لجميع المحافظات'],
+                                    ['مواصفات وسعر واضحان', 'ضمان كايرو فولت حسب صفحة المنتج', 'إرجاع خلال 14 يومًا وفق الشروط'],
+                                    ['بيانات الموديل قابلة للمراجعة', 'سياسة استبدال مكتوبة', 'دفع عند الاستلام للطلبات المؤهلة'],
+                                    ['مدة الضمان موضحة لكل منتج', 'شروط الضمان والاسترجاع منشورة', 'التوصيل متاح حسب العنوان'],
                                 ];
                                 const enTrustBoxSets = [
-                                    ['100% Original', 'Official Warranty', '14 Days Return'],
-                                    ['Scan-Verifiable Barcode', 'Instant Replacement', 'Cash on Delivery'],
-                                    ['Company Stamped', '18-Month Protection', 'Nationwide Delivery'],
+                                    ['Clear specifications and price', 'CairoVolt warranty as stated per product', '14-day returns subject to terms'],
+                                    ['Reviewable model details', 'Written replacement policy', 'Cash on delivery for eligible orders'],
+                                    ['Warranty duration stated per product', 'Published warranty and return terms', 'Delivery subject to the address'],
                                 ];
                                 const trustBoxSet = locale === 'ar' ? arTrustBoxSets[categoryHash % arTrustBoxSets.length] : enTrustBoxSets[categoryHash % enTrustBoxSets.length];
                                 return (

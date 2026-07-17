@@ -33,10 +33,10 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
             title: 'أفضل سبيكر بلوتوث للمكتب والمنزل — صوت سينمائي تحت 2000 جنيه',
             metaTitle: 'أفضل سبيكر بلوتوث للمنزل والمكتب 2026 | كايرو فولت',
             metaDescription: 'دليل اختيار سبيكر بلوتوث للمكتب والمنزل تحت 2000 جنيه. مقارنة فنية بين الواط الحقيقي والصوت المحيطي وعمر البطارية مع توصيات سماعات متاحة في مصر.',
-            keywords: 'أفضل سبيكر بلوتوث للمنزل, سبيكر بلوتوث مكتب, سبيكر بلوتوث تحت 2000 جنيه, سبيكر ساوند كور, سبيكر بلوتوث صوت قوي, سبيكر بلوتوث مصر 2026, soundcore speaker egypt, سبيكر بلوتوث للشقة, أفضل سماعة خارجية بلوتوث',
+            keywords: 'أفضل سبيكر بلوتوث للمنزل, سبيكر بلوتوث مكتب, سبيكر بلوتوث تحت 2000 جنيه, سبيكر ساوندكور, سبيكر بلوتوث صوت قوي, سبيكر بلوتوث مصر 2026, soundcore speaker egypt, سبيكر بلوتوث للشقة, أفضل سماعة خارجية بلوتوث',
             excerpt: 'دليل اختيار سبيكر بلوتوث للمكتب والمنزل تحت 2000 جنيه — مقارنة فنية بين الواط والصوت المحيطي والبطارية مع توصيات متاحة في مصر.',
-            quickAnswer: 'أفضل سبيكر بلوتوث للمكتب هو اللي بيدّي صوت نضيف على Volume منخفض (5-10 واط كافي). للمنزل والصالون محتاج 20-30 واط مع Bass قوي. الأهم مش رقم الواط — ده جودة الـ drivers والـ passive radiators. توصيتنا: Soundcore Motion Plus للصوت السينمائي، أو Soundcore Select 4 Go لو عايز حاجة صغيرة ومتنقلة.',
-            content: `<p>إنت قاعد في المكتب، فاتح Spotify على اللابتوب، ومشغّل الموسيقى من سبيكر اللابتوب الداخلي. الصوت طالع كإنه جاي من داخل علبة صفيح — مفيش Bass، مفيش عمق، مفيش حياة. وكل ما ترفع الصوت شوية، السبيكر بيعمل طقطقة (clipping) والصوت بيتشوّه. ده مش عيب في اللابتوب — سبيكرات اللابتوب مصمّمة عشان تسمعك notification مش عشان تستمتع بموسيقى.</p>
+            quickAnswer: 'أفضل سبيكر بلوتوث للمكتب هو اللي بيدّي صوت نضيف على Volume منخفض (5-10 واط كافي). للمنزل والصالون محتاج 20-30 واط مع Bass قوي. الأهم مش رقم الواط — ده جودة الـ drivers والـ passive radiators. توصيتنا: ساوندكور Motion Plus للصوت السينمائي، أو ساوندكور Select 4 Go لو عايز حاجة صغيرة ومتنقلة.',
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>إنت قاعد في المكتب، فاتح Spotify على اللابتوب، ومشغّل الموسيقى من سبيكر اللابتوب الداخلي. الصوت طالع كإنه جاي من داخل علبة صفيح — مفيش Bass، مفيش عمق، مفيش حياة. وكل ما ترفع الصوت شوية، السبيكر بيعمل طقطقة (clipping) والصوت بيتشوّه. ده مش عيب في اللابتوب — سبيكرات اللابتوب مصمّمة عشان تسمعك notification مش عشان تستمتع بموسيقى.</p>
 
 <p>أو إنت في البيت بالليل، عايز تتفرج على فيلم مع العيلة، والتلفزيون 55 بوصة بتاعك — اللي دفعت فيه مبلغ محترم — صوته طالع كإنه من موبايل. عشان الشركات بتحط كل الميزانية في الشاشة وبتوفّر في السبيكرات. النتيجة: صورة سينمائية بصوت "فرقعة لب."</p>
 
@@ -46,7 +46,7 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أفضل سبيكر بلوتوث للمكتب هو اللي بيدّي صوت نضيف على Volume منخفض (5-10 واط كافي). للمنزل والصالون محتاج 20-30 واط مع Bass قوي. الأهم مش رقم الواط — ده جودة الـ drivers والـ passive radiators. توصيتنا: Soundcore Motion Plus للصوت السينمائي، أو Soundcore Select 4 Go لو عايز حاجة صغيرة ومتنقلة.
+        <strong>💡 الإجابة السريعة:</strong> أفضل سبيكر بلوتوث للمكتب هو اللي بيدّي صوت نضيف على Volume منخفض (5-10 واط كافي). للمنزل والصالون محتاج 20-30 واط مع Bass قوي. الأهم مش رقم الواط — ده جودة الـ drivers والـ passive radiators. توصيتنا: ساوندكور Motion Plus للصوت السينمائي، أو ساوندكور Select 4 Go لو عايز حاجة صغيرة ومتنقلة.
     </p>
 </div>
 
@@ -61,7 +61,7 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
     <li style="margin-bottom:12px;">📢 <strong>Peak Wattage (التسويقي):</strong> ده أقصى قدرة السبيكر يقدر يوصلها لثانية أو اتنين — بعدها الصوت بيتشوّه والسبيكر ممكن يتضرر. الشركات الرخيصة بتكتب الرقم ده عشان يبان أكبر. سبيكر "40W Peak" ممكن يكون 8-10W RMS بس.</li>
 </ul>
 
-<p><strong>القاعدة:</strong> دوّر على RMS دايماً. لو الشركة مكتبتش RMS — غالباً الرقم المكتوب Peak وقسمه على 3-4 عشان تعرف القدرة الفعلية. الشركات المحترمة زي <a href="/soundcore/speakers" style="color:#2563eb;font-weight:600;">ساوند كور</a> بتكتب الرقم الفعلي مش التسويقي.</p>
+<p><strong>القاعدة:</strong> دوّر على RMS دايماً. لو الشركة مكتبتش RMS — غالباً الرقم المكتوب Peak وقسمه على 3-4 عشان تعرف القدرة الفعلية. الشركات المحترمة زي <a href="/soundcore/speakers" style="color:#2563eb;font-weight:600;">ساوندكور</a> بتكتب الرقم الفعلي مش التسويقي.</p>
 
 <h2>المكتب غير الصالون — كل مكان ليه سبيكر مختلف</h2>
 
@@ -70,12 +70,12 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
 <h3>المكتب / غرفة النوم (حتى 20 متر مربع)</h3>
 <p>في المساحة الصغيرة، الصوت بيرتد من الحيطان بسرعة وبيتكدّس. سبيكر قوي هنا هيعمل مشكلة: الـ Bass هيبقى مشوّش (boomy) والصوت هيبقى غير مريح. اللي محتاجه هو سبيكر 5-15W RMS بصوت نضيف ومتوازن — Treble واضح وMids دافية وBass مظبوط من غير مبالغة. الأهم: إنه يكون ممتاز على Volume منخفض (40-50%) عشان غالباً مش هترفع أكتر من كده في المكتب.</p>
 
-<p>توصيتنا للمكتب: <a href="/soundcore/speakers/soundcore-select-4-go-speaker" style="color:#2563eb;font-weight:600;">ساوند كور Select 4 Go</a> — حجم صغير، صوت نضيف، بطارية طويلة، وبتتحط على المكتب من غير ما تاخد مساحة. أو <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">ساوند كور Flare 2</a> — صوت 360° مع إضاءة LED مزاجية ممتازة لغرفة النوم.</p>
+<p>توصيتنا للمكتب: <a href="/soundcore/speakers/soundcore-select-4-go-speaker" style="color:#2563eb;font-weight:600;">ساوندكور Select 4 Go</a> — حجم صغير، صوت نضيف، بطارية طويلة، وبتتحط على المكتب من غير ما تاخد مساحة. أو <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">ساوندكور Flare 2</a> — صوت 360° مع إضاءة LED مزاجية ممتازة لغرفة النوم.</p>
 
 <h3>الصالون / غرفة المعيشة (20-40 متر مربع)</h3>
 <p>المساحة الكبيرة محتاجة قدرة أعلى (20-30W RMS) مع Passive Radiators كبيرة عشان تملا الأوضة بـ Bass عميق من غير تشويه. وكمان مهم إن السبيكر يدعم TWS (True Wireless Stereo) — يعني تشتري 2 سبيكر وتوصلهم مع بعض كـ stereo pair، فتحصل على صوت يمين وشمال حقيقي زي السينما.</p>
 
-<p>توصيتنا للصالون: <a href="/soundcore/speakers/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">ساوند كور Motion Plus</a> — 30W RMS حقيقي مع dual drivers + dual passive radiators. الصوت بيملا صالون كبير بسهولة وبيدعم TWS لو عايز stereo. ده أقوى سبيكر في فئته تحت 2000 جنيه في مصر.</p>
+<p>توصيتنا للصالون: <a href="/soundcore/speakers/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">ساوندكور Motion Plus</a> — 30W RMS حقيقي مع dual drivers + dual passive radiators. الصوت بيملا صالون كبير بسهولة وبيدعم TWS لو عايز stereo. ده أقوى سبيكر في فئته تحت 2000 جنيه في مصر.</p>
 
 <h2>الـ 5 مواصفات اللي لازم تقارن بيها — بالترتيب</h2>
 
@@ -114,7 +114,7 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
     </tbody>
 </table>
 
-<h2>مقارنة سبيكرات ساوند كور المتاحة تحت 2000 جنيه</h2>
+<h2>مقارنة سبيكرات ساوندكور المتاحة تحت 2000 جنيه</h2>
 
 <p>دي مقارنة فنية — مش تسويقية — بين السبيكرات المتاحة عندنا:</p>
 
@@ -186,8 +186,8 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
     <li style="margin-bottom:16px;">❌ <strong>الشراء بناءً على رقم الواط بس:</strong> زي ما قولنا — Peak Watts خدّاع. سبيكر 10W RMS أفضل من 40W Peak. دوّر على RMS أو اشتري من براند بيكتب الأرقام الحقيقية.</li>
     <li style="margin-bottom:16px;">❌ <strong>شراء سبيكر كبير لأوضة صغيرة:</strong> سبيكر 50W في أوضة 3×3 متر = Bass مبالغ فيه وصوت مشوّش. الحجم لازم يناسب المساحة — سبيكر 10-15W كافي جداً لأوضة نوم أو مكتب.</li>
     <li style="margin-bottom:16px;">❌ <strong>تجاهل الـ Passive Radiator:</strong> سبيكر بدون passive radiator بيدّي Bass ضعيف ومسطّح حتى لو الواط عالي. الـ passive radiator بيعزز الترددات المنخفضة بدون driver إضافي — بيفرق كتير خصوصاً في الأفلام والموسيقى العربية اللي فيها إيقاعات قوية.</li>
-    <li style="margin-bottom:16px;">❌ <strong>نسيان التطبيق:</strong> التطبيق الرسمي بيخلّيك تعدّل الـ EQ (تعلّي Bass أو تنزّله) وتحدّث الـ firmware وتضبط إعدادات TWS. تطبيق <a href="/soundcore" style="color:#2563eb;">ساوند كور</a> من أفضل التطبيقات — بيدّيك Custom EQ + BassUp mode + تحديثات شهرية.</li>
-    <li style="margin-bottom:16px;">❌ <strong>شراء ماركة مجهولة "عشان أوفر":</strong> سبيكرات النو-نيم على أمازون بتكتب مواصفات وهمية وبتتلف بعد 3-6 شهور. والأخطر: مفيش ضمان حقيقي. الفرق في السعر بين ماركة مجهولة وسبيكر <a href="/soundcore/speakers" style="color:#2563eb;font-weight:600;">ساوند كور</a> أصلي بضمان ممكن يكون 200-300 جنيه — ده أقل من تكلفة شراء سبيكر تاني بعد ما الأول يتلف.</li>
+    <li style="margin-bottom:16px;">❌ <strong>نسيان التطبيق:</strong> التطبيق الرسمي بيخلّيك تعدّل الـ EQ (تعلّي Bass أو تنزّله) وتحدّث الـ firmware وتضبط إعدادات TWS. تطبيق <a href="/soundcore" style="color:#2563eb;">ساوندكور</a> من أفضل التطبيقات — بيدّيك Custom EQ + BassUp mode + تحديثات شهرية.</li>
+    <li style="margin-bottom:16px;">❌ <strong>شراء ماركة مجهولة "عشان أوفر":</strong> سبيكرات النو-نيم على أمازون بتكتب مواصفات وهمية وبتتلف بعد 3-6 شهور. والأخطر: مفيش ضمان حقيقي. الفرق في السعر بين ماركة مجهولة وسبيكر <a href="/soundcore/speakers" style="color:#2563eb;font-weight:600;">ساوندكور</a> أصلي بضمان ممكن يكون 200-300 جنيه — ده أقل من تكلفة شراء سبيكر تاني بعد ما الأول يتلف.</li>
 </ul>
 
 <p>لو عايز تعرف أكتر عن سبيكرات الآوتدور والمقاومة للمية — اقرأ <a href="/blog/bluetooth-speaker-beach-pool-ipx67-rating" style="color:#2563eb;">دليل سبيكر بلوتوث للساحل والمسبح</a>. ولو محتار بين سبيكر وسماعات — اقرأ <a href="/blog/best-bluetooth-earbuds-egypt-2026" style="color:#2563eb;">دليل أفضل سماعات بلوتوث في مصر</a>.</p>
@@ -195,7 +195,7 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ سبيكرات بلوتوث أصلية بضمان — على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل <a href="/soundcore/speakers" style="color:#166534;font-weight:600;">سبيكرات ساوند كور</a> عندنا أصلية بضمان 18 شهر + توصيل لكل المحافظات 24-72 ساعة + دعم فني واتساب 24/7. من Select 4 Go للمكتب لـ Motion Plus للصالون — كل سبيكر اتجرّب عندنا قبل ما ينزل الموقع.
+        كل <a href="/soundcore/speakers" style="color:#166534;font-weight:600;">سبيكرات ساوندكور</a> عندنا أصلية بمدة الضمان الموضحة على صفحة المنتج + توصيل للمحافظات وفق الموعد التقديري الظاهر عند تأكيد الطلب + دعم عبر واتساب خلال ساعات العمل المعلنة. من Select 4 Go للمكتب لـ Motion Plus للصالون — كل سبيكر اتجرّب عندنا قبل ما ينزل الموقع.
     </p>
 </div>`,
             faq: [
@@ -213,7 +213,7 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
                 },
                 {
                     question: 'إيه أفضل سبيكر بلوتوث تحت 1000 جنيه في مصر؟',
-                    answer: 'ساوند كور Select 4 Go — بطارية 20 ساعة وصوت نضيف جداً لحجمه و IPX4. أو ساوند كور Flare 2 — صوت 360° مع إضاءة LED مزاجية ومقاومة مية IPX7. الاتنين تحت 1000 جنيه ومتاحين على كايرو فولت بضمان 18 شهر.'
+                    answer: 'قارن ساوندكور Select 4 Go وFlare 2 حسب الحجم والصوت والإضاءة وتصنيف الماء والبطارية المنشورة. حد الميزانية يتغير مع الأسعار؛ راجع السعر والمخزون الحاليين وشروط الضمان على صفحة كل موديل.'
                 },
             ],
         },
@@ -224,7 +224,7 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
             keywords: 'best bluetooth speaker home, bluetooth speaker office, bluetooth speaker under 2000 egp, soundcore speaker egypt, bluetooth speaker powerful sound, bluetooth speaker 2026 egypt, best portable speaker egypt, soundcore motion plus review, home bluetooth speaker buying guide',
             excerpt: 'Guide to choosing a Bluetooth speaker for office and home under 2,000 EGP — technical comparison of real wattage, surround sound, and battery with recommendations available in Egypt.',
             quickAnswer: 'The best office Bluetooth speaker delivers clean sound at low volume (5-10W is enough). For home living rooms, you need 20-30W with strong Bass. The key is not the wattage number — it is driver quality and passive radiators. Our pick: Soundcore Motion Plus for cinematic sound, or Soundcore Select 4 Go for a compact portable option.',
-            content: `<p>You are sitting at your desk, Spotify open on the laptop, playing music through the built-in laptop speakers. The sound comes out like it is trapped inside a tin can — no Bass, no depth, no life. And every time you raise the volume slightly, the speaker starts clipping and the audio distorts. This is not a defect in your laptop — laptop speakers are designed to play notifications, not to deliver a musical experience.</p>
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p>You are sitting at your desk, Spotify open on the laptop, playing music through the built-in laptop speakers. The sound comes out like it is trapped inside a tin can — no Bass, no depth, no life. And every time you raise the volume slightly, the speaker starts clipping and the audio distorts. This is not a defect in your laptop — laptop speakers are designed to play notifications, not to deliver a musical experience.</p>
 
 <p>Or you are home at night, wanting to watch a movie with the family, and your 55-inch TV — the one you paid serious money for — sounds like a mobile phone. Because manufacturers put their entire budget into the screen and cut corners on the speakers. The result: cinematic picture with the audio quality of a popcorn bag rustling.</p>
 
@@ -383,7 +383,7 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Original Bluetooth Speakers with Warranty — on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All <a href="/en/soundcore/speakers" style="color:#166534;font-weight:600;">Soundcore speakers</a> on our store are original with 18-month warranty + delivery across all Egyptian governorates within 24-72 hours + WhatsApp support 24/7. From Select 4 Go for the office to Motion Plus for the living room — every speaker is tested by our team before listing.
+        All <a href="/en/soundcore/speakers" style="color:#166534;font-weight:600;">Soundcore speakers</a> on our store are original with warranty for the term shown on the product page + delivery according to the address-specific estimate shown before order confirmation + WhatsApp support during the published business hours. From Select 4 Go for the office to Motion Plus for the living room — every speaker is tested by our team before listing.
     </p>
 </div>`,
             faq: [
@@ -401,7 +401,7 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
                 },
                 {
                     question: 'What is the best Bluetooth speaker under 1,000 EGP in Egypt?',
-                    answer: 'Soundcore Select 4 Go — 20-hour battery, very clean sound for its size, and IPX4 water resistance. Or the Soundcore Flare 2 — 360-degree sound with ambient LED lighting and IPX7 water resistance. Both are under 1,000 EGP and available on CairoVolt with 18-month warranty.'
+                    answer: 'Compare Soundcore Select 4 Go and Flare 2 by size, sound, lighting, water rating, and published battery conditions. Budget eligibility changes with price, so check each model page for current price, stock, and written warranty terms.'
                 },
             ],
         },

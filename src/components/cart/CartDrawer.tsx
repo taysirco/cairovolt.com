@@ -6,12 +6,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
 import { useTranslations } from 'next-intl';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 export default function CartDrawer({ locale }: { locale: string }) {
-    const { items, isOpen, setIsOpen, updateQuantity, removeFromCart, totalAmount, totalOriginalAmount, clearCart } = useCart();
+    const { items, isOpen, setIsOpen, updateQuantity, removeFromCart, totalAmount, clearCart } = useCart();
     const t = useTranslations('Checkout'); // Reusing Checkout translations or Common
     const isRTL = locale === 'ar';
     const drawerRef = useRef<HTMLDivElement>(null);
@@ -52,10 +53,19 @@ export default function CartDrawer({ locale }: { locale: string }) {
         };
     }, [isOpen, setIsOpen]);
 
-    // Free Shipping Logic
-    const progress = Math.min((totalAmount / FREE_SHIPPING_THRESHOLD) * 100, 100);
-    const amountLeft = FREE_SHIPPING_THRESHOLD - totalAmount;
-    const isFreeShipping = totalAmount >= FREE_SHIPPING_THRESHOLD;
+    // Mirror the known bundle discount before estimating free-shipping
+    // eligibility. A coupon entered at checkout can still change the result.
+    const bundleTotals = new Map<string, number>();
+    for (const item of items) {
+        if (!item.bundleId) continue;
+        bundleTotals.set(item.bundleId, (bundleTotals.get(item.bundleId) || 0) + item.price);
+    }
+    const knownBundleDiscount = [...bundleTotals.values()]
+        .reduce((sum, groupTotal) => sum + Math.round(groupTotal * BUNDLE_DISCOUNT_PERCENT / 100), 0);
+    const shippingEligibilitySubtotal = Math.max(0, totalAmount - knownBundleDiscount);
+    const progress = Math.min((shippingEligibilitySubtotal / FREE_SHIPPING_THRESHOLD) * 100, 100);
+    const amountLeft = Math.max(0, FREE_SHIPPING_THRESHOLD - shippingEligibilitySubtotal);
+    const isFreeShipping = shippingEligibilitySubtotal >= FREE_SHIPPING_THRESHOLD;
 
     // Log cart view for analytics
     useEffect(() => {
@@ -101,7 +111,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
                     <div className="mb-2 text-sm text-center font-medium">
                         {isFreeShipping ? (
                             <span className="text-green-600 dark:text-green-400">
-                                <SvgIcon name="gift" className="w-5 h-5 inline-block text-green-500" /> {isRTL ? 'مبروك! لقد حصلت على شحن مجاني' : 'Congrats! You got Free Shipping'}
+                                <SvgIcon name="gift" className="w-5 h-5 inline-block text-green-500" /> {isRTL ? 'مؤهل مبدئياً للشحن المجاني؛ يُؤكد بعد الخصومات' : 'Provisionally eligible for free shipping; confirmed after discounts'}
                             </span>
                         ) : (
                             <span className="text-gray-700 dark:text-gray-300">
@@ -199,11 +209,6 @@ export default function CartDrawer({ locale }: { locale: string }) {
                         <div className="flex justify-between items-center mb-4">
                             <span className="text-gray-500">{isRTL ? 'المجموع الفرعي' : 'Subtotal'}</span>
                             <div className="text-end">
-                                {totalOriginalAmount > totalAmount && (
-                                    <span className="text-sm font-semibold text-green-600 block mb-1">
-                                        {isRTL ? `وفرت ${(totalOriginalAmount - totalAmount).toLocaleString()} ج.م` : `Saved ${(totalOriginalAmount - totalAmount).toLocaleString()} EGP`}
-                                    </span>
-                                )}
                                 <span className="text-xl font-bold">{totalAmount.toLocaleString()} {isRTL ? 'ج.م' : 'EGP'}</span>
                             </div>
                         </div>

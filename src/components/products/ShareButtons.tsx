@@ -32,8 +32,8 @@ function getWhatsAppText(productName: string, price: number | undefined, url: st
 /** Build Twitter/X share text */
 function getTwitterText(productName: string, isArabic: boolean): string {
     return isArabic
-        ? `${productName} - أوريجينال ومتوفر على CairoVolt 🇪🇬`
-        : `${productName} - Original & available on CairoVolt 🇪🇬`;
+        ? `${productName} - متوفر على كايرو فولت 🇪🇬`
+        : `${productName} - Available on CairoVolt 🇪🇬`;
 }
 
 export default function ShareButtons({ slug, productName, price, locale = 'ar', compact = false }: ShareButtonsProps) {

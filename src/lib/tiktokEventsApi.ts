@@ -2,8 +2,8 @@
  * TikTok Events API — Server-Side Tracking
  * 
  * Sends conversion events directly from the server to TikTok's API.
- * This provides reliable tracking that bypasses ad blockers and
- * improves match rates for better ad optimization.
+ * This provides consistent server-side conversion measurement for completed
+ * storefront actions.
  * 
  * Endpoint: https://business-api.tiktok.com/open_api/v1.3/event/track/
  * Docs: https://business-api.tiktok.com/portal/docs?id=1741601162187777
@@ -100,8 +100,8 @@ export async function sendTiktokServerEvent(
         });
 
         if (!response.ok) {
-            const errorBody = await response.text();
-            console.error(`[TikTok S2S] API error ${response.status}:`, errorBody);
+            await response.body?.cancel().catch(() => undefined);
+            console.error(`[TikTok S2S] API error ${response.status}`);
         } else {
             const result = await response.json();
             if (result.code !== 0) {

@@ -1,4 +1,5 @@
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 // ============================================
 // CATEGORY OVERVIEW BLOCK
@@ -31,6 +32,12 @@ export function CategoryOverviewBlock({
     shortDescription
 }: CategoryOverviewBlockProps) {
     const isArabic = locale === 'ar';
+    const displayProductName = isArabic ? localizeArabicBrandNames(productName) : productName;
+    const displayBrand = isArabic ? localizeArabicBrandNames(brand) : brand;
+    const displayCategory = isArabic ? localizeArabicBrandNames(category) : category;
+    const displayDescription = shortDescription
+        ? (isArabic ? localizeArabicBrandNames(shortDescription) : shortDescription)
+        : undefined;
 
     // Hash to rotate content naturally based on the product/brand
     const hash = typeof productName === 'string' ? productName.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
@@ -56,39 +63,39 @@ export function CategoryOverviewBlock({
 
         if (variant === 'product') {
             const arProductTemplates = [
-                `${productName} الأصلي من ${brand} متوفر الآن في مصر بسعر ${formattedPrice}. يتميز بضمان الوكيل الرسمي مع توصيل سريع لجميع المحافظات. ${shortDescription || 'منتج أصلي 100% مع استبدال فوري.'}`,
-                `${productName} من ${brand} — السعر في مصر ${formattedPrice}. ضمان استبدال فوري من الوكيل + شحن مجاني للطلبات فوق 3,700 جنيه. ${shortDescription || 'أصلي ومختوم بباركود الشركة.'}`,
-                `احصل على ${productName} الأصلي بسعر ${formattedPrice}. معتمد من ${brand} مع كفالة رسمية وتوصيل لكل المحافظات. ${shortDescription || 'مختبر في معاملنا قبل ما يوصلك.'}`,
-                `${productName} — ${brand} مصر بسعر ${formattedPrice}. مضمون بختم الوكيل ومتاح بالدفع عند الاستلام. ${shortDescription || 'جودة أصلية مع ضمان استبدال كامل.'}`,
+                `${displayProductName} من ${displayBrand} متوفر بسعر ${formattedPrice}. راجع المواصفات والتوافر ومدة ضمان كايرو فولت وشروطه في صفحة المنتج. ${displayDescription || 'تظهر تفاصيل الطلب قبل إتمام الشراء.'}`,
+                `${displayProductName} من ${displayBrand} بسعر ${formattedPrice}. قارن قدرة الشحن والتوافق والملحقات المرفقة قبل الطلب. ${displayDescription || 'صفحة المنتج هي المرجع للتفاصيل الحالية.'}`,
+                `تعرّف على ${displayProductName} من ${displayBrand} بسعر ${formattedPrice}. توضح الصفحة مواصفات الموديل والتوافر وشروط ضمان كايرو فولت. ${displayDescription || 'اختره بعد التأكد من توافقه مع جهازك.'}`,
+                `${displayProductName} ضمن قسم ${displayCategory} بسعر ${formattedPrice}. راجع بيانات الموديل وخيارات الدفع والتوصيل المتاحة لعنوانك. ${displayDescription || 'قد تختلف المزايا حسب الموديل.'}`,
             ];
             const enProductTemplates = [
-                `The original ${productName} from ${brand} is now available in Egypt for ${formattedPrice}. Features official warranty with fast delivery nationwide. ${shortDescription || '100% authentic with instant replacement guarantee.'}`,
-                `${productName} by ${brand} — ${formattedPrice} in Egypt. Instant replacement warranty + free Cairo & Giza delivery. ${shortDescription || 'Factory-sealed with barcode verification.'}`,
-                `Get the genuine ${productName} for ${formattedPrice}. Certified by ${brand} with full coverage nationwide. ${shortDescription || 'Lab-tested before shipping to you.'}`,
-                `${productName} — ${brand} Egypt at ${formattedPrice}. Dealer-stamped guarantee, cash on delivery available. ${shortDescription || 'Original quality with full replacement warranty.'}`,
+                `${displayProductName} by ${displayBrand} is listed at ${formattedPrice}. Review specifications, availability, and the written CairoVolt warranty duration and terms on the product page. ${displayDescription || 'Order details are shown before checkout.'}`,
+                `${displayProductName} by ${displayBrand} is listed at ${formattedPrice}. Compare charging output, compatibility, and included accessories before ordering. ${displayDescription || 'The product page is the source for current details.'}`,
+                `Review ${displayProductName} by ${displayBrand} at ${formattedPrice}. The page states the model specifications, availability, and CairoVolt warranty terms. ${displayDescription || 'Confirm compatibility with your device before ordering.'}`,
+                `${displayProductName} appears in the ${displayCategory} section at ${formattedPrice}. Check the model details and the payment and delivery options available for your address. ${displayDescription || 'Features can vary by model.'}`,
             ];
             return isArabic ? arProductTemplates[hash % arProductTemplates.length] : enProductTemplates[hash % enProductTemplates.length];
         }
 
         if (variant === 'category') {
             const arCatTemplates = [
-                `تسوق مجموعة ${category} من ${brand} الأصلية في مصر. أسعار تبدأ من ${formattedPrice} مع ضمان رسمي وتوصيل سريع. منتجات أصلية 100% معتمدة من الوكيل.`,
-                `${category} ${brand} الأصلية — أسعار من ${formattedPrice}. كل قطعة مختومة بباركود الشركة وعليها كفالة رسمية.`,
-                `تشكيلة ${category} من ${brand} بأسعار تبدأ من ${formattedPrice}. متوفرة بالدفع عند الاستلام مع استبدال فوري.`,
+                `تصفح قسم ${displayCategory} من ${displayBrand} بأسعار تبدأ من ${formattedPrice}. تعرض كل صفحة مواصفات الموديل والتوافر وشروط ضمان كايرو فولت.`,
+                `قارن منتجات ${displayCategory} من ${displayBrand} ابتداءً من ${formattedPrice}. تحقق من القدرة والتوافق والملحقات قبل اختيار المنتج.`,
+                `يضم قسم ${displayCategory} من ${displayBrand} خيارات تبدأ من ${formattedPrice}. تتحدد خيارات الدفع والتوصيل ومدة الضمان حسب المنتج والطلب.`,
             ];
             const enCatTemplates = [
-                `Shop authentic ${brand} ${category} collection in Egypt. Prices starting from ${formattedPrice} with official warranty and fast delivery. 100% original dealer-certified products.`,
-                `${brand} ${category} — prices from ${formattedPrice}. Each unit factory-sealed with barcode verification and official coverage.`,
-                `${category} by ${brand} starting at ${formattedPrice}. Cash on delivery available with instant replacement guarantee.`,
+                `Browse ${displayBrand} ${displayCategory} from ${formattedPrice}. Each product page states the model specifications, availability, and CairoVolt warranty terms.`,
+                `Compare ${displayBrand} ${displayCategory} from ${formattedPrice}. Check output, compatibility, and included accessories before choosing a product.`,
+                `${displayBrand} ${displayCategory} options start at ${formattedPrice}. Payment, delivery, and warranty details vary by product and order.`,
             ];
             return isArabic ? arCatTemplates[hash % arCatTemplates.length] : enCatTemplates[hash % enCatTemplates.length];
         }
 
         if (variant === 'brand') {
             if (isArabic) {
-                return `${brand} مصر - الموزع الرسمي المعتمد. تشكيلة كاملة من ${category} الأصلية مع ضمان 18 شهر واستبدال فوري. توصيل لجميع محافظات مصر.`;
+                return `تصفح منتجات ${displayBrand} المتاحة في قسم ${displayCategory}. توضح صفحة كل منتج السعر والمواصفات والتوافر ومدة ضمان كايرو فولت وشروطه.`;
             }
-            return `${brand} Egypt - Authorized Official Dealer. Complete collection of original ${category} with 18-month warranty and instant replacement. Nationwide delivery across Egypt.`;
+            return `Browse available ${displayBrand} products in the ${displayCategory} section. Each product page states its price, specifications, availability, and CairoVolt warranty terms.`;
         }
 
         return '';
@@ -123,20 +130,20 @@ export function CategoryOverviewBlock({
             {/* Quality Indicators — Dynamically Rotated */}
             <div className="mt-4 pt-3 border-t border-gray-200 dark:border-gray-700 flex flex-wrap gap-3 text-xs text-gray-600 dark:text-gray-400">
                 {(() => {
-                    const arTrustSets = [
-                        ['أصلي 100%', 'ضمان رسمي', 'توصيل سريع'],
-                        ['مختوم بباركود الشركة', 'كفالة الوكيل المعتمد', 'دفع عند الاستلام'],
-                        ['معتمد من الموزع', 'ضمان استبدال فوري', 'شحن لكل المحافظات'],
-                        ['أصلي بختم الوكيل', 'ضمان 18 شهر', 'توصيل مجاني القاهرة'],
+                    const arInfoSets = [
+                        ['السعر الحالي موضح', 'شروط ضمان كايرو فولت', 'التوصيل حسب العنوان'],
+                        ['مواصفات الموديل', 'التوافر وقت الطلب', 'خيارات الدفع المتاحة'],
+                        ['التوافق حسب الجهاز', 'مدة الضمان حسب المنتج', 'دعم كايرو فولت'],
+                        ['تفاصيل الملحقات', 'سياسة الاستبدال مكتوبة', 'مراجعة الطلب قبل الشحن'],
                     ];
-                    const enTrustSets = [
-                        ['100% Genuine', 'Dealer Warranty', 'Nationwide Shipping'],
-                        ['Barcode Verified', 'Authorized Coverage', 'Cash on Delivery'],
-                        ['Distributor Certified', 'Instant Replacement', 'All Governorates'],
-                        ['Factory Sealed', '18-Month Guarantee', 'Free Cairo Delivery'],
+                    const enInfoSets = [
+                        ['Current price shown', 'CairoVolt warranty terms', 'Address-based delivery'],
+                        ['Model specifications', 'Availability at order time', 'Available payment options'],
+                        ['Device compatibility', 'Product-specific warranty', 'CairoVolt support'],
+                        ['Included accessories', 'Written exchange policy', 'Order review before dispatch'],
                     ];
-                    const trustSet = isArabic ? arTrustSets[hash % arTrustSets.length] : enTrustSets[hash % enTrustSets.length];
-                    return trustSet.map((text, i) => (
+                    const infoSet = isArabic ? arInfoSets[hash % arInfoSets.length] : enInfoSets[hash % enInfoSets.length];
+                    return infoSet.map((text, i) => (
                         <span key={i} className="flex items-center gap-1">
                             <svg className="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -172,6 +179,7 @@ export function CollectionOverviewBlock({
     locale
 }: CollectionOverviewBlockProps) {
     const isArabic = locale === 'ar';
+    const displayBrand = isArabic ? localizeArabicBrandNames(brand) : brand;
     const hash = typeof categoryName === 'string' ? categoryName.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
 
     const arCategoryAria = ['نظرة عامة على القسم', 'اكتشف القسم', 'محتويات القسم سريعا'];
@@ -197,9 +205,9 @@ export function CollectionOverviewBlock({
         const name = isArabic ? categoryNameAr : categoryName;
 
         if (isArabic) {
-            return `اكتشف ${productCount}+ منتج من ${name} ${brand} الأصلية في مصر. الأسعار من ${formatPrice(priceRange.min)} إلى ${formatPrice(priceRange.max)}. جميع المنتجات بضمان الوكيل الرسمي مع توصيل سريع لجميع المحافظات.`;
+            return `تصفح ${productCount} منتجًا من ${name} ${displayBrand}. تتراوح الأسعار الحالية من ${formatPrice(priceRange.min)} إلى ${formatPrice(priceRange.max)}، وتوضح صفحة كل منتج مواصفاته وتوافره وشروط ضمان كايرو فولت.`;
         }
-        return `Discover ${productCount}+ original ${brand} ${name} products in Egypt. Prices from ${formatPrice(priceRange.min)} to ${formatPrice(priceRange.max)}. All products with official dealer warranty and fast nationwide delivery.`;
+        return `Browse ${productCount} ${displayBrand} ${name} products. Current prices range from ${formatPrice(priceRange.min)} to ${formatPrice(priceRange.max)}, and each product page states its specifications, availability, and CairoVolt warranty terms.`;
     };
 
     return (
@@ -226,7 +234,7 @@ export function CollectionOverviewBlock({
                     <div className="mt-4 grid grid-cols-3 gap-4">
                         <div className="text-center">
                             <div className="text-xl md:text-2xl font-bold text-blue-600 dark:text-blue-400">
-                                {productCount}+
+                                {productCount}
                             </div>
                             <div className="text-xs text-gray-600 dark:text-gray-400">
                                 {isArabic ? 'منتج' : 'Products'}
@@ -234,18 +242,18 @@ export function CollectionOverviewBlock({
                         </div>
                         <div className="text-center">
                             <div className="text-xl md:text-2xl font-bold text-green-600 dark:text-green-400">
-                                18
+                                {isArabic ? 'حسب المنتج' : 'By product'}
                             </div>
                             <div className="text-xs text-gray-600 dark:text-gray-400">
-                                {isArabic ? 'شهر ضمان' : 'Month Warranty'}
+                                {isArabic ? 'مدة الضمان' : 'Warranty term'}
                             </div>
                         </div>
                         <div className="text-center">
                             <div className="text-xl md:text-2xl font-bold text-purple-600 dark:text-purple-400">
-                                27
+                                {isArabic ? 'حسب العنوان' : 'By address'}
                             </div>
                             <div className="text-xs text-gray-600 dark:text-gray-400">
-                                {isArabic ? 'محافظة' : 'Governorates'}
+                                {isArabic ? 'التوصيل' : 'Delivery'}
                             </div>
                         </div>
                     </div>
@@ -275,12 +283,14 @@ export function BrandOverviewBlock({
     locale
 }: BrandOverviewBlockProps) {
     const isArabic = locale === 'ar';
+    const displayBrandName = isArabic ? localizeArabicBrandNames(brandName) : brandName;
+    const displayBrandDescription = isArabic ? localizeArabicBrandNames(brandDescription) : brandDescription;
 
     const getSummary = () => {
         if (isArabic) {
-            return `${brandName} على كايرو فولت. ${brandDescription} تضم الصفحة ${totalProducts} منتجًا في ${categoryCount} أقسام، مع توضيح مدة ضمان كايرو فولت وشروطها على صفحة كل منتج، وتوصيل متاح إلى محافظات مصر.`;
+            return `${displayBrandName} على كايرو فولت. ${displayBrandDescription} تضم الصفحة ${totalProducts} منتجًا في ${categoryCount} أقسام، مع توضيح مدة ضمان كايرو فولت وشروطه على صفحة كل منتج، وتوصيل متاح داخل مصر حسب العنوان.`;
         }
-        return `${brandName} at CairoVolt. ${brandDescription} This page covers ${totalProducts} products across ${categoryCount} categories. CairoVolt warranty duration and terms are stated on each product page, with delivery available across Egypt.`;
+        return `${displayBrandName} at CairoVolt. ${displayBrandDescription} This page covers ${totalProducts} products across ${categoryCount} categories. CairoVolt warranty duration and terms are stated on each product page, with delivery in Egypt subject to the address.`;
     };
 
     return (

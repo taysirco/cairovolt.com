@@ -7,33 +7,18 @@ import { staticProducts } from '@/lib/static-products';
 import { safeAppendOrderToSheet } from '@/lib/google-sheets';
 import { safeSendLeadToCRM } from '@/lib/crm';
 import { checkRateLimit } from '@/lib/rate-limit';
+import { getClientIp } from '@/lib/request-ip';
 import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { getGovernorateBySlug } from '@/data/governorates';
+import {
+    STANDARD_SHIPPING_MAX_EGP,
+    STANDARD_SHIPPING_MIN_EGP,
+} from '@/lib/merchant-product-data';
 
 /**
- * ═══════════════════════════════════════════════════════════
- *  Quick-COD API — Direct Purchase Endpoint
- * ═══════════════════════════════════════════════════════════
- *
- *  Designed as the fastest purchase endpoint for CairoVolt:
- *    - BuyAction Schema for Google Shopping
- *    - AI agents (Gemini, ChatGPT, Siri, Google Assistant)
- *    - iOS/Android shortcuts & deep links
- *    - M2M commerce (IoT, smart speakers)
- *
- *  Flow:
- *    1. Customer sees product in Google → taps "Order Now"
- *    2. Enters Egyptian mobile number only
- *    3. Order is registered in Firestore as "pending_cod"
- *    4. Bosta courier calls within 1 hour to confirm address
- *    5. Delivery + Cash on Delivery payment
- *
- *  Security layers:
- *    - Rate limiting: 20 write requests/min per IP
- *    - Egyptian phone regex: strict 01[0125] 11-digit format
- *    - SKU validation against product catalog
- *    - Duplicate order detection (same phone + SKU in 24h)
- *    - IP + User-Agent tracking for abuse detection
- * ═══════════════════════════════════════════════════════════
+ * Quick Cash-on-Delivery endpoint for a single catalog product.
+ * Requests are rate-limited, validated against the catalog, and deduplicated
+ * by phone and SKU before an order is created for manual confirmation.
  */
 
 // ═══════════ Zod Validation Schema ═══════════
@@ -51,51 +36,84 @@ const QuickCODSchema = z.object({
     name: z.string().max(100).optional(),
     source: z.enum(['search', 'ai_agent', 'shortcut', 'direct']).default('search'),
     locale: z.enum(['ar', 'en']).default('ar'),
+    city: z.string()
+        .trim()
+        .max(50)
+        .refine((value) => Boolean(getGovernorateBySlug(value)), 'Unknown governorate code')
+        .optional(),
 });
 
 type QuickCODInput = z.infer<typeof QuickCODSchema>;
 
 // ═══════════ Product Lookup ═══════════
 
+type ProductLookupResult = {
+    product: Record<string, unknown> | null;
+    ambiguousSlugs?: string[];
+};
+
 async function findProductBySKU(
-    sku: string,
+    reference: string,
     db: FirebaseFirestore.Firestore
-): Promise<Record<string, unknown> | null> {
+): Promise<ProductLookupResult> {
     // 1. Static catalog first — source of truth for pricing
-    const staticMatch = staticProducts.find(
-        p => (p.sku === sku || p.slug === sku) && p.status === 'active'
+    const staticSlugMatch = staticProducts.find(
+        p => p.slug === reference && p.status === 'active'
     );
-    if (staticMatch) {
+    if (staticSlugMatch) {
+        return { product: {
+            id: `static_${staticSlugMatch.slug}`,
+            ...staticSlugMatch,
+        } as unknown as Record<string, unknown> };
+    }
+
+    const staticSkuMatches = staticProducts.filter(
+        p => p.sku === reference && p.status === 'active'
+    );
+    if (staticSkuMatches.length > 1) {
         return {
+            product: null,
+            ambiguousSlugs: staticSkuMatches.map(product => product.slug),
+        };
+    }
+    if (staticSkuMatches.length === 1) {
+        const staticMatch = staticSkuMatches[0];
+        return { product: {
             id: `static_${staticMatch.slug}`,
             ...staticMatch,
-        } as unknown as Record<string, unknown>;
+        } as unknown as Record<string, unknown> };
     }
 
     // 2. Firestore fallback — for products not in static catalog
     try {
-        const snapshot = await db.collection('products')
-            .where('sku', '==', sku)
-            .where('status', '==', 'active')
-            .limit(1)
-            .get();
-
-        if (!snapshot.empty) {
-            return { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
-        }
-
-        const slugDoc = await db.collection('products').doc(sku).get();
+        const slugDoc = await db.collection('products').doc(reference).get();
         if (slugDoc.exists) {
             const data = slugDoc.data()!;
             if (data.status === 'active') {
-                return { id: slugDoc.id, ...data };
+                return { product: { id: slugDoc.id, ...data } };
             }
+        }
+
+        const snapshot = await db.collection('products')
+            .where('sku', '==', reference)
+            .where('status', '==', 'active')
+            .limit(3)
+            .get();
+
+        if (snapshot.size > 1) {
+            return {
+                product: null,
+                ambiguousSlugs: snapshot.docs.map(doc => String(doc.data().slug || doc.id)),
+            };
+        }
+        if (!snapshot.empty) {
+            return { product: { id: snapshot.docs[0].id, ...snapshot.docs[0].data() } };
         }
     } catch {
         // Firestore unavailable — continue with null
     }
 
-    return null;
+    return { product: null };
 }
 
 // ═══════════ Duplicate Detection ═══════════
@@ -132,7 +150,7 @@ async function isDuplicateOrder(
 // Every response must include CORS headers for cross-origin API access
 
 const CORS_HEADERS: Record<string, string> = {
-    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Origin': 'https://cairovolt.com',
     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type, Authorization',
     'Access-Control-Max-Age': '86400',
@@ -161,9 +179,7 @@ export async function OPTIONS() {
 
 export async function POST(req: NextRequest) {
     // ── 1. Rate Limiting ──
-    const ip = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim()
-        || req.headers.get('x-real-ip')
-        || 'unknown';
+    const ip = getClientIp(req.headers);
 
     const rateCheck = checkRateLimit(ip, true);
     if (!rateCheck.allowed) {
@@ -217,9 +233,9 @@ export async function POST(req: NextRequest) {
     }
 
     // ── 4. Find Product (with error boundary) ──
-    let product: Record<string, unknown> | null;
+    let lookup: ProductLookupResult;
     try {
-        product = await findProductBySKU(input.sku, db);
+        lookup = await findProductBySKU(input.sku, db);
     } catch (lookupError) {
         console.error('[Quick-COD] Product lookup failed:', lookupError);
         return jsonResponse({
@@ -228,6 +244,17 @@ export async function POST(req: NextRequest) {
             error_ar: 'فشل في البحث عن المنتج',
         }, { status: 503 });
     }
+
+    if (lookup.ambiguousSlugs?.length) {
+        return jsonResponse({
+            success: false,
+            error: 'SKU matches more than one catalog product; submit the product slug',
+            error_ar: 'رمز SKU يطابق أكثر من منتج؛ أرسل slug الخاص بالمنتج',
+            matchingSlugs: lookup.ambiguousSlugs,
+        }, { status: 409 });
+    }
+
+    const product = lookup.product;
 
     if (!product) {
         return jsonResponse({
@@ -279,7 +306,14 @@ export async function POST(req: NextRequest) {
 
     // ── 7. Create Order in Firestore ──
     const price = Number(product.price) || 0;
-    const shippingFee = getShippingFee('', price); 
+    const shippingIsExact = price >= FREE_SHIPPING_THRESHOLD || Boolean(input.city);
+    const shippingFee = price >= FREE_SHIPPING_THRESHOLD
+        ? 0
+        : input.city
+            ? getShippingFee(input.city, price)
+            : STANDARD_SHIPPING_MAX_EGP;
+    const shippingMin = shippingIsExact ? shippingFee : STANDARD_SHIPPING_MIN_EGP;
+    const shippingMax = shippingFee;
     const totalAmount = price + shippingFee;
     const translations = product.translations as
         Record<string, Record<string, string>> | undefined;
@@ -296,7 +330,7 @@ export async function POST(req: NextRequest) {
         phone: input.phone,
         whatsapp: input.phone,
         address: 'يتم التأكيد عبر الهاتف',
-        city: 'pending_confirmation',
+        city: input.city || 'pending_confirmation',
         items: [{
             productId: product.id,
             sku: String(product.sku || product.slug),
@@ -306,12 +340,16 @@ export async function POST(req: NextRequest) {
             quantity: 1,
         }],
         shippingFee,
+        shippingFeeMin: shippingMin,
+        shippingFeeMax: shippingMax,
+        pricingStatus: shippingIsExact ? 'confirmed' : 'pending_address_confirmation',
         totalAmount,
         status: 'pending_cod',
         paymentMethod: 'cod',
-        sourceLabel: 'طلب Quick-COD من محرك البحث',
-        ip,
-        userAgent: req.headers.get('user-agent') || '',
+        sourceLabel: 'طلب سريع - الدفع عند الاستلام',
+        ...(!shippingIsExact && {
+            notes: `رسوم الشحن تقديرية بين ${shippingMin} و${shippingMax} ج.م وتُحدد نهائياً بعد تأكيد المحافظة والعنوان.`,
+        }),
         createdAt: FieldValue.serverTimestamp(),
         updatedAt: FieldValue.serverTimestamp(),
     };
@@ -345,8 +383,8 @@ export async function POST(req: NextRequest) {
     return jsonResponse({
         success: true,
         message: input.locale === 'ar'
-            ? 'تم تسجيل طلبك بنجاح! سيتصل بك مندوب بوسطة خلال ساعة لتأكيد العنوان والتوصيل.'
-            : 'Order registered! A Bosta courier will call you within 1 hour to confirm delivery.',
+            ? 'تم تسجيل طلبك بنجاح. سيتواصل معك فريق كايرو فولت لتأكيد العنوان وموعد التوصيل.'
+            : 'Order registered. CairoVolt will contact you to confirm the address and delivery estimate.',
         order: {
             id: docRef.id,
             orderId,
@@ -361,6 +399,10 @@ export async function POST(req: NextRequest) {
                 shipping: shippingFee,
                 total: totalAmount,
                 currency: 'EGP',
+                isEstimate: !shippingIsExact,
+                status: shippingIsExact ? 'confirmed' : 'pending_address_confirmation',
+                shippingRange: { min: shippingMin, max: shippingMax },
+                totalRange: { min: price + shippingMin, max: price + shippingMax },
                 ...(price >= FREE_SHIPPING_THRESHOLD && {
                     freeShippingNote: input.locale === 'ar'
                         ? 'شحن مجاني ✅'
@@ -371,8 +413,12 @@ export async function POST(req: NextRequest) {
                 method: 'Bosta COD',
                 estimatedDays: { min: 1, max: 5 },
                 note: input.locale === 'ar'
-                    ? 'الدفع عند الاستلام — بعد الفحص'
-                    : 'Cash on delivery — after inspection',
+                    ? (shippingIsExact
+                        ? 'الدفع عند الاستلام'
+                        : 'الدفع عند الاستلام؛ تُحدد الرسوم النهائية بعد تأكيد المحافظة والعنوان')
+                    : (shippingIsExact
+                        ? 'Cash on delivery'
+                        : 'Cash on delivery; the final fee is confirmed after the governorate and address'),
             },
         },
         tracking: {
@@ -402,9 +448,7 @@ export async function GET(req: NextRequest) {
     }
 
     // Rate limit reads too
-    const ip = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim()
-        || req.headers.get('x-real-ip')
-        || 'unknown';
+    const ip = getClientIp(req.headers);
 
     const rateCheck = checkRateLimit(ip, false);
     if (!rateCheck.allowed) {
@@ -415,7 +459,18 @@ export async function GET(req: NextRequest) {
 
     try {
         const db = await getFirestore();
-        const product = await findProductBySKU(sku, db);
+        const lookup = await findProductBySKU(sku, db);
+
+        if (lookup.ambiguousSlugs?.length) {
+            return jsonResponse({
+                available: false,
+                error: 'SKU matches more than one catalog product; use a product slug',
+                error_ar: 'رمز SKU يطابق أكثر من منتج؛ استخدم رابط المنتج المختصر slug',
+                matchingSlugs: lookup.ambiguousSlugs,
+            }, { status: 409 });
+        }
+
+        const product = lookup.product;
 
         if (!product) {
             return jsonResponse({
@@ -450,9 +505,15 @@ export async function GET(req: NextRequest) {
                 image: primaryImage ? `https://cairovolt.com${primaryImage}` : null,
             },
             shipping: {
-                fee: getShippingFee('', price),
+                fee: price >= FREE_SHIPPING_THRESHOLD ? 0 : null,
                 currency: 'EGP',
                 freeAbove: FREE_SHIPPING_THRESHOLD,
+                feeRange: price >= FREE_SHIPPING_THRESHOLD
+                    ? { min: 0, max: 0 }
+                    : { min: STANDARD_SHIPPING_MIN_EGP, max: STANDARD_SHIPPING_MAX_EGP },
+                note: price >= FREE_SHIPPING_THRESHOLD
+                    ? 'Free shipping threshold met'
+                    : 'Final fee depends on the governorate supplied with the order',
                 estimatedDays: { min: 1, max: 5 },
             },
             quick_buy: {
@@ -461,6 +522,7 @@ export async function GET(req: NextRequest) {
                 body: {
                     sku,
                     phone: '01XXXXXXXXX (Egyptian mobile — 11 digits)',
+                    city: '(optional valid governorate slug; required for an exact shipping fee)',
                 },
                 note: 'Phone must match: 01[0125]XXXXXXXX',
             },

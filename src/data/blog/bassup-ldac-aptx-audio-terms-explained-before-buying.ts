@@ -27,7 +27,7 @@ export const bassup_ldac_aptx_audio_terms_explained_before_buying: BlogArticle =
             metaDescription: 'دليل مبسط وشامل لفهم مصطلحات الصوت اللاسلكي بالتفصيل. اعرف معنى تقنيات LDAC و aptX وتقنية BassUp وكيف تختار سماعة البلوتوث المناسبة لنوع هاتفك الذكي.',
             keywords: 'مصطلحات الصوت, تقنية ldac, الفرق بين ldac و aptx, ما هو bassup, بروتوكول ldac سوني, سماعات صوت نقي, كودك الصوت بلوتوث',
             excerpt: 'تشتري سماعة بلوتوث وتفاجأ برموز غريبة مثل LDAC و aptX و BassUp؟ نشرح لك هذه المصطلحات ببساطة لتختار أفضل تجربة صوتية لموبايلك.',
-            quickAnswer: 'هذه المصطلحات تشير إلى جودة البث الصوتي وتقوية الترددات: (1) **LDAC** هو برنامج ترميز (Codec) مطور من سوني ينقل الصوت بدقة فائقة الـ Hi-Res بمعدل نقل بيانات يصل لـ 990 كيلوبت/ثانية، وهو متوفر على هواتف الأندرويد. (2) **aptX** هو عائلة برامج ترميز مملوكة لكوالكوم تقدم جودة ممتازة مع تأخير منخفض للصوت، وتستخدمها هواتف الأندرويد بمعالجات سناب دراجون. (3) **BassUp** هي تقنية حصرية من شركة ساوندكور (Anker Soundcore) تقوم بتحليل الترددات المنخفضة بالذكاء الاصطناعي وتقوية الباس (البيس أو الرنين) في اللحظة الفعلية لتقديم صوت قوي ومجسم.',
+            quickAnswer: 'هذه المصطلحات تشير إلى جودة البث الصوتي وتقوية الترددات: (1) **LDAC** هو برنامج ترميز (Codec) مطور من سوني ينقل الصوت بدقة فائقة الـ Hi-Res بمعدل نقل بيانات يصل لـ 990 كيلوبت/ثانية، وهو متوفر على هواتف الأندرويد. (2) **aptX** هو عائلة برامج ترميز مملوكة لكوالكوم تقدم جودة ممتازة مع تأخير منخفض للصوت، وتستخدمها هواتف الأندرويد بمعالجات سناب دراجون. (3) **BassUp** هي تقنية حصرية من شركة ساوندكور (انكر ساوندكور) تقوم بتحليل الترددات المنخفضة بالذكاء الاصطناعي وتقوية الباس (البيس أو الرنين) في اللحظة الفعلية لتقديم صوت قوي ومجسم.',
             faq: [
                 {
                     question: 'هل يمكن تشغيل الـ LDAC على الآيفون لشحن جودة الصوت؟',
@@ -39,7 +39,7 @@ export const bassup_ldac_aptx_audio_terms_explained_before_buying: BlogArticle =
                 },
                 {
                     question: 'مين الأفضل في الألعاب ومشاهدة الفيديو: aptX أم LDAC؟',
-                    answer: 'في الألعاب، الـ **aptX Low Latency (aptX LL)** أو **aptX Adaptive** هو الفائز بلا منازع، لأنه بيقلل زمن التأخير (Latency) لـ 40 مللي ثانية بس، فميحصلش تأخير بين حركة اللعبة وصوت السلاح. الـ LDAC مخصص للجودة الموسيقية الفائقة وممكن يسبب بعض التأخير الخفيف لو الإشارة مش قوية.'
+                    answer: 'قد تقلل أوضاع aptX منخفضة التأخير زمن المعالجة عندما يدعمها الهاتف والسماعة والتطبيق، بينما يركز LDAC على معدل نقل أعلى. زمن التأخير الفعلي يختلف حسب الأجهزة والإعدادات والإشارة؛ تحقق من دعم الطرفين ولا تفترض رقماً ثابتاً.'
                 },
                 {
                     question: 'هل بحتاج اشتراك ساوند كلاود أو سبوتيفاي بريميوم لتفعيل الـ LDAC؟',
@@ -48,7 +48,7 @@ export const bassup_ldac_aptx_audio_terms_explained_before_buying: BlogArticle =
             ],
             content: `<p>لو كنت بتستعد لشراء سماعة بلوتوث (Earbuds) أو هيدفون جديد، أو حتى سماعة سبيكر خارجية لحفلاتك، أكيد دخلت في دوامة المقارنات الفنية والريفيوهات على اليوتيوب. وهناك هتلاقي مراجعين كتير بيتكلموا بحماس رهيب عن مصطلحات زي: "السماعة دي بتدعم الـ LDAC عشان الصوت يكون نقي جداً"، أو "دي فيها تقنية BassUp لو بتحب رنة البيس القوية"، أو "دي ممتازة عشان فيها كودك الـ aptX". كل الكلام ده جميل، بس إيه معناه الفعلي ليك كمستخدم عادي؟ وهل هتحس بفرق حقيقي في ودنك يستاهل تدفع علشانه فلوس زيادة؟</p>
 
-<p>في معمل كايرو فولت، اتعلمنا إن تفاصيل التكنولوجيا هي اللي بتعمل الفرق بين تجربة صوت ممتعة ومبهرة وتجربة تانية تخليك تحس بالصداع بعد نص ساعة. الصوت اللاسلكي مش سحر؛ هو عبارة عن ملفات كهربائية بتنضغط وتتبعت في الهوا عبر موجات البلوتوث وتتفك شفرتها جوه ودنك. الطريقة اللي بتتم بيها العملية دي هي اللي بتحدد نقاء الصوت وسرعته وقوة رنينه. في الدليل المبسط ده، هنشرحلك معاني المصطلحات التلاتة دي بالتفصيل والفيزياء المبسطة لتختار السماعة المثالية لموبايلك.</p>
+<p>في هذا الدليل، اتعلمنا إن تفاصيل التكنولوجيا هي اللي بتعمل الفرق بين تجربة صوت ممتعة ومبهرة وتجربة تانية تخليك تحس بالصداع بعد نص ساعة. الصوت اللاسلكي مش سحر؛ هو عبارة عن ملفات كهربائية بتنضغط وتتبعت في الهوا عبر موجات البلوتوث وتتفك شفرتها جوه ودنك. الطريقة اللي بتتم بيها العملية دي هي اللي بتحدد نقاء الصوت وسرعته وقوة رنينه. في الدليل المبسط ده، هنشرحلك معاني المصطلحات التلاتة دي بالتفصيل والفيزياء المبسطة لتختار السماعة المثالية لموبايلك.</p>
 
 <div class="quick-answer-inline" style="background:#f0fdf4;border-left:4px solid #10b981;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#14532d;">
@@ -97,7 +97,7 @@ export const bassup_ldac_aptx_audio_terms_explained_before_buying: BlogArticle =
 <p>الـ aptX بيشتغل بشكل ممتاز جداً على الهواتف اللي بتحمل معالجات كوالكوم سناب دراجون، ولكنه غير متوفر على الآيفون أيضاً.</p>
 
 <h2>رابعاً: تقنية BassUp من ساوندكور — قوة النبض والرنين</h2>
-<p>على الجانب الآخر، تظهر تقنية **BassUp** الشهيرة من شركة **Anker Soundcore**، وهي ليست كودك بث صوتی مثل الـ LDAC أو الـ aptX، بل هي **معالج صوتي رقمي (DSP)** يعمل داخل عقل السماعة نفسها.</p>
+<p>على الجانب الآخر، تظهر تقنية **BassUp** الشهيرة من شركة **انكر ساوندكور**، وهي ليست كودك بث صوتی مثل الـ LDAC أو الـ aptX، بل هي **معالج صوتي رقمي (DSP)** يعمل داخل عقل السماعة نفسها.</p>
 <p style="text-align:center;font-weight:bold;font-size:18px;margin:16px 0;color:#2563eb;">الـ LDAC بيجيبلك الأغنية كاملة ونقية من الموبايل، والـ BassUp بيظبط طبقة البيس جوه السماعة نفسها!</p>
 
 <p>السماعات العادية لما بتيجي تقوي الصوت المنخفض (Bass)، بتقوم برفع الفولت على كامل الأغنية، فالنتيجة إن الصوت بيتشوه ويصبح مخنوق ومكتوم (Muffled). خوارزمية BassUp بتعمل كالتالي:</p>
@@ -164,7 +164,7 @@ export const bassup_ldac_aptx_audio_terms_explained_before_buying: BlogArticle =
 <p>عشان نسهل عليك قرار الشراء، حدد نوع موبايلك واستخدامك:</p>
 <ul style="line-height:2;">
     <li>🍎 <strong>لو موبايلك آيفون:</strong> وفر فلوسك تماماً ومتدفعش أي قرش زيادة في سماعة عشان بس مكتوب عليها LDAC أو aptX. الآيفون مش هيشغلهم وهيجبر السماعة تشتغل على AAC الافتراضي. ركز في مميزات تانية زي العزل النشط للضوضاء (ANC) وجودة المايكروفون.</li>
-    <li>🤖 <strong>لو موبايلك أندرويد وبتحب جودة الاستوديو:</strong> دور على سماعات تدعم الـ **LDAC** (زي سلسلة Soundcore Liberty) واشترك في خدمة بث تقدم جودة عالية مثل Apple Music أو Tidal. هتنبهر بكمية التفاصيل والنقاء اللي مكنتش بتسمعها قبل كدة!</li>
+    <li>🤖 <strong>لو موبايلك أندرويد وبتحب جودة الاستوديو:</strong> دور على سماعات تدعم الـ **LDAC** (زي سلسلة ساوندكور Liberty) واشترك في خدمة بث تقدم جودة عالية مثل Apple Music أو Tidal. هتنبهر بكمية التفاصيل والنقاء اللي مكنتش بتسمعها قبل كدة!</li>
     <li>🎮 <strong>لو استخدامك ألعاب جيمنج ويوتيوب:</strong> دور على سماعة تدعم كودك **aptX Adaptive** أو تمتلك زر مخصص لتفعيل "وضع الألعاب" (Game Mode/Low Latency Mode) لتقليل زمن التأخير.</li>
     <li>🏋️ <strong>لو بتحب الحماس والرياضة:</strong> سماعة تدعم **BassUp** هتكون شريكك المثالي في الجيم لأنها بتضخ طاقة قوية ومحفزة في ودانك مع كل ضربة إيقاعية.</li>
 </ul>
@@ -189,7 +189,7 @@ export const bassup_ldac_aptx_audio_terms_explained_before_buying: BlogArticle =
                 },
                 {
                     question: 'Which codec is better for gaming and movies: aptX or LDAC?',
-                    answer: 'For gaming, **aptX Adaptive** or **aptX Low Latency (aptX LL)** is superior because it dynamically scales latency down to ~40ms, preventing audio delay. LDAC is optimized for maximum audio bandwidth (music fidelity) and can suffer from higher latency under poor signal conditions.'
+                    answer: 'Low-latency aptX modes may reduce processing delay when the phone, earbuds, and app support them, while LDAC emphasizes higher data rates. Actual latency varies by devices, settings, and signal; verify support at both ends rather than assuming a fixed figure.'
                 },
                 {
                     question: 'Do I need premium music streaming services to benefit from LDAC?',
@@ -198,7 +198,7 @@ export const bassup_ldac_aptx_audio_terms_explained_before_buying: BlogArticle =
             ],
             content: `<p>If you are shopping for a new pair of wireless earbuds, noise-canceling headphones, or a portable Bluetooth speaker, you have likely encountered a dizzying array of technical terms in product descriptions and reviews. Reviewers rave about products because "they support Sony's LDAC for high-fidelity audio," "they feature Qualcomm's aptX codec," or "they have BassUp technology for a richer low-end." But what do these terms actually mean for you as an everyday listener? Will you notice a real difference, and are they worth paying extra for?</p>
 
-<p>At the CairoVolt lab, we have learned that technical details represent the difference between an immersive, crystal-clear audio experience and one that leaves you with listener fatigue after half an hour. Wireless audio is not magic; it is a system of compressing digital files, transmitting them over Bluetooth radio waves, and decoding them inside your headphones. The methods used in this process determine sound quality, latency, and dynamic range. In this guide, we will break down these three key audio terms in simple, practical terms to help you make an informed purchase.</p>
+<p>In this guide, we have learned that technical details represent the difference between an immersive, crystal-clear audio experience and one that leaves you with listener fatigue after half an hour. Wireless audio is not magic; it is a system of compressing digital files, transmitting them over Bluetooth radio waves, and decoding them inside your headphones. The methods used in this process determine sound quality, latency, and dynamic range. In this guide, we will break down these three key audio terms in simple, practical terms to help you make an informed purchase.</p>
 
 <div class="quick-answer-inline" style="background:#f0fdf4;border-left:4px solid #10b981;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#14532d;">

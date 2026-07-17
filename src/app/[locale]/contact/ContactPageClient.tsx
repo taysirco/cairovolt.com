@@ -34,6 +34,19 @@ export default function ContactPageClient() {
                 </div>
             </section>
 
+            <section className="container mx-auto px-4 pt-10">
+                <div className="max-w-4xl mx-auto rounded-2xl border border-blue-100 bg-blue-50/70 p-5 text-sm leading-relaxed text-blue-950 dark:border-blue-900 dark:bg-blue-950/30 dark:text-blue-100">
+                    <h2 className="font-bold mb-2">
+                        {isRTL ? 'بيانات المتجر وطريقة الخدمة' : 'Store identity and service model'}
+                    </h2>
+                    <p>
+                        {isRTL
+                            ? 'الاسم المستخدم في الموقع والطلبات: كايرو فولت (CairoVolt). نحن بائع تجزئة إلكتروني مستقل ولسنا وكيلاً أو موزعاً رسمياً للعلامات المعروضة. نخدم عناوين التوصيل المؤهلة داخل مصر، ولا نعلن حالياً عن فرع استقبال أو استلام حضوري. تكلفة الشحن والمدة التقديرية تتحددان حسب العنوان وتظهران قبل تأكيد الطلب.'
+                            : 'The name used on this website and order records is CairoVolt. We are an independent online retailer, not an official agent or authorized distributor of the displayed brands. We serve eligible delivery addresses in Egypt and do not currently advertise a walk-in or pickup branch. Shipping cost and estimated timing depend on the address and are shown before order confirmation.'}
+                    </p>
+                </div>
+            </section>
+
             {/* Contact Methods */}
             <section className="container mx-auto px-4 py-12">
                 <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
@@ -92,7 +105,7 @@ export default function ContactPageClient() {
                             {isRTL ? 'البريد الإلكتروني' : 'Email'}
                         </h3>
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
-                            {isRTL ? 'نرد خلال 24 ساعة' : 'We reply within 24 hours'}
+                            {isRTL ? 'أرسل تفاصيل استفسارك' : 'Send your enquiry details'}
                         </p>
                         <span className="inline-block px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium group-hover:bg-purple-500 group-hover:text-white transition-colors">
                             {isRTL ? 'أرسل رسالة' : 'Send Email'}
@@ -108,15 +121,15 @@ export default function ContactPageClient() {
                 </h2>
                 <div className="max-w-3xl mx-auto space-y-4">
                     {(isRTL ? [
-                        { q: 'ما هي طرق الدفع المتاحة؟', a: 'نوفر الدفع عند الاستلام (كاش) في جميع المحافظات، بالإضافة إلى الدفع بالبطاقة الائتمانية.' },
-                        { q: 'كم تستغرق مدة الشحن؟', a: 'الشحن يستغرق من 2-3 أيام عمل للقاهرة والجيزة، و3-5 أيام للمحافظات الأخرى.' },
-                        { q: 'هل المنتجات أصلية؟', a: 'نعم! جميع منتجاتنا أصلية 100% مع ضمان رسمي من الوكيل المعتمد.' },
-                        { q: 'ما هي سياسة الاستبدال والإرجاع؟', a: 'يمكنك استبدال أو إرجاع المنتج خلال 14 يوم من تاريخ الاستلام بشرط أن يكون في حالته الأصلية.' },
+                        { q: 'ما هي طرق الدفع المتاحة؟', a: 'نوفر حالياً الدفع عند الاستلام في المحافظات التي تشملها خدمة التوصيل.' },
+                        { q: 'كم تستغرق مدة الشحن؟', a: 'المدة التقديرية غالباً 1-2 يوم عمل للقاهرة والجيزة و3-5 أيام عمل لباقي العناوين المؤهلة، وقد تختلف حسب العنوان وشركة الشحن.' },
+                        { q: 'أين أجد بيانات المنتج والضمان؟', a: 'تعرض صفحة كل منتج رقم الموديل والمواصفات والسعر والتوافر وشروط ضمان كايرو فولت المكتوبة. سجل الضمان لا يعد شهادة أصالة من الشركة المصنّعة.' },
+                        { q: 'ما هي سياسة الاستبدال والإرجاع؟', a: 'يمكن طلب إرجاع المنتج المؤهل خلال 14 يوماً من الاستلام، وتحدد السياسة المنشورة شروط الحالة والفحص والشحن والاسترداد.' },
                     ] : [
-                        { q: 'What payment methods are available?', a: 'We offer Cash on Delivery (COD) in all governorates, plus credit card payment.' },
-                        { q: 'How long does shipping take?', a: 'Shipping takes 2-3 business days for Cairo and Giza, and 3-5 days for other governorates.' },
-                        { q: 'Are the products original?', a: 'Yes! All our products are 100% original with official warranty from the authorized dealer.' },
-                        { q: 'What is the return policy?', a: 'You can exchange or return the product within 14 days of receipt, provided it\'s in its original condition.' },
+                        { q: 'What payment methods are available?', a: 'We currently offer Cash on Delivery in the governorates covered by our delivery service.' },
+                        { q: 'How long does shipping take?', a: 'The estimate is commonly 1-2 business days for Cairo and Giza and 3-5 business days for other eligible addresses, but it can vary by address and carrier.' },
+                        { q: 'Where can I find product and warranty details?', a: 'Each product page lists the model, specifications, price, availability, and written CairoVolt warranty terms. The warranty record is not a manufacturer authenticity certificate.' },
+                        { q: 'What is the return policy?', a: 'You may request a return for an eligible product within 14 days of receipt. The published policy states the condition, inspection, shipping, and refund requirements.' },
                     ]).map((faq, idx) => (
                         <details
                             key={idx}
@@ -142,8 +155,8 @@ export default function ContactPageClient() {
                     </h3>
                     <p className="mb-6 text-white/90">
                         {isRTL
-                            ? 'تواصل معنا الآن عبر واتساب وسنرد عليك فوراً'
-                            : 'Contact us now via WhatsApp and we\'ll respond immediately'}
+                            ? 'أرسل استفسارك عبر واتساب وسيتابعه فريق خدمة العملاء'
+                            : 'Send your enquiry on WhatsApp for follow-up by our customer-service team'}
                     </p>
                     <a
                         href="https://wa.me/201558245974"

@@ -14,152 +14,102 @@ export const joyroom_car_mount_zs290 = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-1.webp", alt: "joyroom car mount zs290 - Official Distributor | Nationwide Shipping - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-2.webp", alt: "جوي روم car mount zs290 - منتج أصلي معتمد | شحن مصر كلها - JR-ZS290 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-3.webp", alt: "joyroom car mount zs290 - Competitive Pricing Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-4.webp", alt: "جوي روم car mount zs290 - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-5.webp", alt: "joyroom car mount zs290 - Authorized Egypt Dealer - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-6.webp", alt: "جوي روم car mount zs290 الأصلي في مصر | توصيل لأي محافظة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-7.webp", alt: "joyroom car mount zs290 - Full Warranty Coverage Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-8.webp", alt: "جوي روم car mount zs290 - مختوم بختم الشركة | كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-1.webp", alt: "Joyroom JR-ZS290 magnetic air-vent car phone mount front view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-2.webp", alt: "حامل موبايل جوي روم JR-ZS290 مغناطيسي لفتحة التكييف - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-3.webp", alt: "Joyroom JR-ZS290 360-degree ball joint detail - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-4.webp", alt: "حامل جوي روم JR-ZS290 مع مشبك فتحة التكييف - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-5.webp", alt: "Joyroom JR-ZS290 magnetic phone alignment view - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-6.webp", alt: "جوي روم JR-ZS290 حامل موبايل مغناطيسي داخل السيارة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-7.webp", alt: "Joyroom JR-ZS290 included mount components - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-8.webp", alt: "تفاصيل حامل جوي روم JR-ZS290 المغناطيسي - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
-                name: "Joyroom Magnetic Car Mount ZS290 | N52 Magnets | MagSafe | 360° | 12-Month Warranty",
+                name: "Joyroom Magnetic Car Mount ZS290 | N52 Magnets | MagSafe | 360°",
                 shortDescription: "🧲 N52 Strong Magnets | 📱 MagSafe iPhone 17/16/15 | 🔄 360° Rotation | ❄️ Air Vent Clip | 🖐️ One-Hand Operation",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap phone mounts that lose grip in Egyptian summer heat, The <strong>Joyroom ZS290 MagSafe car mount</strong> uses <strong>N52 magnets</strong> — the strongest consumer-grade magnets available. Holds iPhone firmly at 120km/h on Cairo's Ring Road. <strong>360° rotation</strong> for landscape GPS. At 934 EGP, it's the premium car mount. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom JR-ZS290 magnetic car mount</strong> is a vent-mounted holder listed with N52 magnets, a 360-degree ball joint and direct alignment for MagSafe-compatible iPhones or cases. Holding force depends on phone weight, case thickness, magnetic-ring alignment, vent shape, clip installation, road vibration and temperature; an N52 label alone does not guarantee a phone will remain attached in every vehicle or road condition. Check the current package contents, supported mounting method, warranty and return terms before ordering.</p></div>
 <div class="product-summary">
-    <h3 class="font-bold mb-2">Key Features:</h3>
+    <h3 class="font-bold mb-2">Key checks</h3>
     <ul class="list-none space-y-1">
-        <li>🧲 <strong>N52 Magnets:</strong> Strongest grade — holds iPhone 17 Pro Max on speed bumps.</li>
-        <li>📱 <strong>MagSafe Direct:</strong> iPhone 15/16/17 attach without metal plate.</li>
-        <li>🔄 <strong>360° Rotation:</strong> Portrait, landscape, or any angle.</li>
-        <li>🖐️ <strong>One-Hand:</strong> Snap phone on, pull phone off. Zero fumbling.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>2.56 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul></div>
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "I drove Cairo-Alexandria highway and back with iPhone 15 Pro Max on this mount. Not a single wobble — even when I hit a pothole near the Ain Sokhna exit. The N52 magnets are genuinely strong. MagSafe iPhones snap on instantly without any metal plate. The air vent clip doesn't rattle, even with the AC on full blast in August heat. At this price, it's the easiest car accessory decision you'll make. I now keep one in each car."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
-
-<div class="product-details">
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">N52 Magnets: The Strongest Grade Available</h2>
-        <p class="text-gray-700">Cheap car mounts use N35 or N40 magnets that can't hold heavy phones. The ZS290 uses <strong>N52 neodymium magnets</strong> — the strongest commercially available grade. Your <strong>iPhone 17 Pro Max</strong> (the heaviest iPhone ever) stays locked in place over speed bumps, sharp turns, and rough Cairo roads. No bounce, no slide.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">MagSafe: No Metal Plate Needed for iPhone</h2>
-        <p class="text-gray-700">iPhone 15/16/17 series with built-in MagSafe magnets attach directly — no ugly metal plate to stick on your phone or case. For Samsung and older iPhones, a thin metal plate is included (sticks inside your case, invisible). <strong>Works with cases up to 3mm thick.</strong></p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">360° + Air Vent = Clean Dashboard</h2>
-        <p class="text-gray-700"><strong>360-degree ball joint</strong> lets you angle your phone in portrait for navigation or landscape for media. The <strong>air vent clip</strong> keeps your dashboard clean — no suction cups, no sticky adhesives. The compact design doesn't block significant airflow from your AC.</p>
-    </section>
-</div>
-<div class="device-compatibility">
-    <h3 class="font-bold mb-2">Compatible Devices:</h3>
-    <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17/16/15 (MagSafe):</strong> Direct magnetic attach.</li>
-        <li>📱 <strong>iPhone 14/13/12 (MagSafe):</strong> Direct magnetic attach.</li>
-        <li>📱 <strong>Samsung S26/S25/A-Series:</strong> With included metal plate.</li>
-        <li>📱 <strong>Any phone:</strong> Universal with metal plate.</li>
+        <li><strong>N52 magnet specification:</strong> verify the exact model and do not infer universal holding force from magnet grade alone.</li>
+        <li><strong>MagSafe alignment:</strong> direct magnetic attachment requires a compatible phone or case with an aligned magnetic ring.</li>
+        <li><strong>360-degree joint:</strong> position the screen only where it does not obstruct the road, controls or airbags.</li>
+        <li><strong>Vent clip:</strong> compatibility depends on blade size, strength, direction and vehicle design.</li>
+        <li><strong>Current listing:</strong> confirm whether a metal ring or plate is included and review live stock and after-sales terms.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">MagSafe ONLY — does NOT work with non-MagSafe phones unless you add a MagSafe ring (sold separately). iPhone 12 and newer only. Not compatible with thick cases (>2mm). Dashboard adhesive may weaken in extreme Cairo summer heat (>50°C).</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">Install and test before driving</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>JR-ZS290</strong>, follow the printed installation instructions, attach the clip to a suitable intact vent blade and test the phone while the vehicle is stationary. Recheck the clip and magnetic alignment after changing the case or device. Remove the phone if the mount shifts, blocks controls or puts excessive load on the vent.</p></div>
+
+<div class="product-details">
+    <section><h2 class="text-2xl font-bold mb-2 text-gray-900">Magnetic attachment and cases</h2><p class="text-gray-700">MagSafe-compatible iPhones and magnetic cases may attach directly when the ring is correctly aligned. Non-magnetic phones or cases require the compatible accessory specified for this model. Thick, textured or poorly aligned cases can reduce holding force. A metal plate or ring can affect wireless charging and should be installed only as instructed.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2 text-gray-900">360-degree positioning</h2><p class="text-gray-700">The ball joint allows portrait or landscape positioning within its mechanical range. Tighten the joint as instructed and place the display so it does not reduce visibility, interfere with vehicle controls or distract the driver.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2 text-gray-900">Vent compatibility and heat</h2><p class="text-gray-700">Vent blades vary widely. Inspect the blade and clip regularly and avoid installation on a loose, damaged or incompatible vent. Cabin heat, cold air, vibration and repeated adjustment can affect the grip over time. Do not leave the phone or mount exposed to extreme heat.</p></section>
+</div>
+<div class="device-compatibility"><h3 class="font-bold mb-2">Compatibility checklist</h3><ul class="list-disc list-inside text-gray-700"><li>Confirm your phone or case has a compatible, centered magnetic ring.</li><li>Check case thickness and any camera-bump interference.</li><li>Confirm the vehicle vent blade can carry the combined phone and mount load.</li><li>Keep magnetic-stripe cards, medical devices and other magnet-sensitive items at the distance recommended by their manufacturers.</li></ul></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">Safety note</h3><p class="text-gray-700">No phone mount can guarantee retention over every bump, turn or temperature. Test the setup while stationary, inspect it regularly and remove the phone if attachment weakens. Follow local rules for screen placement and phone use while driving.</p></div>
 `,
-                features: ["🧲 N52 Strongest Magnets", "📱 MagSafe Direct Attach", "🔄 360° Ball Joint", "❄️ Air Vent Clip", "🖐️ One-Hand Operation", "📦 Metal Plate Included", "🏆 12-Month Warranty", "🔒 Anti-Scratch Silicone Grip"],
+                features: ["🧲 Listed N52 Magnets", "📱 MagSafe-Compatible Alignment", "🔄 360° Ball Joint", "❄️ Air Vent Clip", "🖐️ One-Hand Placement", "📦 Check Included Ring or Plate", "🏆 current warranty and return policy", "🔒 Silicone Contact Surface"],
                 metaTitle: "Joyroom Magnetic Car Mount ⚡ N52 MagSafe | COD Egypt",
-                metaDesc: "Buy Joyroom car mount (ZS290) in Egypt. N52 magnets, MagSafe iPhone direct attach, 360° rotation, air vent clip. Holds iPhone 17 Pro Max. 12-month warranty.",
+                metaDesc: "Joyroom JR-ZS290 magnetic car mount with listed N52 magnets, MagSafe-compatible alignment, 360° joint and air-vent clip. Check phone, case and vent compatibility.",
                 faqs: [
-                    { question: "Are N52 magnets strong enough for iPhone 17 Pro Max?", answer: "Yes, the powerful N52 magnets are strong enough to securely hold heavy phones like the iPhone 17 Pro Max, even on bumpy roads." },
-                    { question: "Does it block airflow?", answer: "Its compact design attaches to the vent blades but allows sufficient airflow around the mount." },
-                    { question: "Do I need to stick a metal plate?", answer: "For non-MagSafe phones, yes (plate included). For iPhone 15/16/17 series with MagSafe, it attaches directly without a plate." },
-                    { question: "Does it work with phone cases?", answer: "Yes, it works with thin cases up to 3mm. Thicker cases may reduce magnetic strength." },
+                    { question: "Can it hold a large phone?", answer: "Do not judge retention from the N52 label alone. Phone weight, case, ring alignment, vent strength, installation, vibration and heat all matter. Test the exact setup while stationary and inspect it regularly." },
+                    { question: "Does it block airflow?", answer: "The effect depends on the vehicle's vent size and the mount position. Install it only where airflow, controls, visibility and airbags remain unobstructed." },
+                    { question: "Do I need a metal ring or plate?", answer: "A compatible MagSafe phone or case may align directly. Other setups require the accessory specified by the manufacturer; confirm what is included and whether it affects wireless charging." },
+                    { question: "Does it work with phone cases?", answer: "Compatibility depends on case thickness, material, magnetic-ring position and camera bump. Thick or poorly aligned cases can reduce holding force." },
                     { question: "Will it damage credit cards?", answer: "Keep cards away from the magnet. The magnetic field is focused toward the phone but can affect cards if placed directly on it." }
                 ]
             },
             ar: {
-                name: "حامل جوال مغناطيسي جوي روم ZS290 | موبايلك مش هيقع في مطبات القاهرة | ضمان 12 شهر",
-                shortDescription: "أقوى مغناطيس للسيارة في مصر | 🧲 N52 بيمسك ايفون برو ماكس كأنه ملزوق | ❄️ بيركب في التكييف من غير ما يكسر الريش | 🖐️ بتركبه وتفكه بإيد واحدة",
+                name: "حامل موبايل مغناطيسي جوي روم ZS290 | MagSafe ومفصل 360° | راجع الشروط الحالية",
+                shortDescription: "مغناطيس N52 معلن | محاذاة MagSafe للأجهزة والجرابات المتوافقة | مفصل 360° | مشبك فتحة التكييف | تحقق من الهاتف والجراب والسيارة",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الحوامل الرخيصة اللي بتسيب الموبايل (الهاتف الذكي) في حرارة صيف مصر، حامل <strong>جوي روم ZS290 MagSafe للسيارة</strong> بيستخدم <strong>مغناطيس N52</strong> — أقوى مغناطيس متاح للمستهلك. بيمسك الايفون بثبات عند 120 كم/س على الدائري. <strong>دوران 360°</strong> لوضع GPS الأفقي. بـ 934 جنيه، الحامل الفاخر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">حامل <strong>جوي روم JR-ZS290 المغناطيسي للسيارة</strong> يثبت على فتحة التكييف وهو مدرج بمغناطيس N52 ومفصل كروي 360 درجة ومحاذاة مباشرة لهواتف أو جرابات MagSafe المتوافقة. تعتمد قوة التثبيت على وزن الهاتف وسمك الجراب ومحاذاة الحلقة وشكل فتحة التكييف وتركيب المشبك واهتزاز الطريق والحرارة؛ كتابة N52 وحدها لا تضمن بقاء الهاتف ثابتًا في كل سيارة أو طريق. راجع محتويات العبوة وطريقة التثبيت المدعومة وشروط الضمان والاسترجاع الحالية قبل الطلب.</p></div>
 <div class="product-summary">
-    <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
+    <h3 class="font-bold mb-2">نقاط تحقق مهمة</h3>
     <ul class="list-none space-y-1">
-        <li>🧲 <strong>مغناطيس N52:</strong> أقوى درجة — بيمسك ايفون 17 برو ماكس على المطبات.</li>
-        <li>📱 <strong>MagSafe مباشر:</strong> ايفون 15/16/17 بيتثبت من غير قطعة معدنية.</li>
-        <li>🔄 <strong>دوران 360°:</strong> طولي أو عرضي أو أي زاوية.</li>
-        <li>🖐️ <strong>بيد واحدة:</strong> ثبّت الموبايل أو اشيله. من غير عناء.</li>
+        <li><strong>مواصفة مغناطيس N52:</strong> تحقق من الموديل ولا تستنتج قوة تثبيت عامة من درجة المغناطيس وحدها.</li>
+        <li><strong>محاذاة MagSafe:</strong> التثبيت المباشر يحتاج هاتفًا أو جرابًا متوافقًا وحلقة مغناطيسية في الموضع الصحيح.</li>
+        <li><strong>مفصل 360 درجة:</strong> ضع الشاشة بحيث لا تحجب الطريق أو أدوات التحكم أو الوسائد الهوائية.</li>
+        <li><strong>مشبك التكييف:</strong> التوافق يعتمد على حجم الريشة وقوتها واتجاهها وتصميم السيارة.</li>
+        <li><strong>القائمة الحالية:</strong> تأكد من وجود الحلقة أو القطعة المعدنية وراجع المخزون وخدمة ما بعد البيع.</li>
     </ul>
 </div>
-
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تجربتنا الفعلية للمنتج ده 🔍</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "سقت طريق القاهرة-الإسكندرية رايح جاي وايفون 15 برو ماكس على الحامل ده. ولا اهتزازة واحدة — حتى لما ضربت حفرة قرب مخرج العين السخنة. مغناطيسات N52 قوية فعلاً. ايفون MagSafe بيتثبت فوراً من غير أي قطعة معدنية. مشبك التكييف مش بيطقطق، حتى مع التكييف على الآخر في حر أغسطس. بالسعر ده، أسهل قرار إكسسوار سيارة هتاخده. دلوقتي عندي واحد في كل عربية."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">ركّب واختبر قبل القيادة</h2><p class="text-gray-700 leading-relaxed text-lg">للموديل <strong>JR-ZS290</strong> اتبع تعليمات التركيب المطبوعة وثبت المشبك في ريشة مناسبة وسليمة واختبر الهاتف والسيارة متوقفة. أعد فحص المشبك والمحاذاة بعد تغيير الجراب أو الهاتف. أزل الهاتف إذا تحرك الحامل أو حجب التحكم أو حمّل فتحة التكييف أكثر من اللازم.</p></div>
 
 <div class="product-details">
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">مغناطيس N52: أقوى درجة متاحة</h2>
-        <p class="text-gray-700">حوامل السيارة الرخيصة بتستخدم مغناطيس N35 أو N40 مش بيقدروا يمسكوا الهواتف التقيلة. ZS290 بيستخدم <strong>مغناطيسات نيوديميوم N52</strong> — أقوى درجة متاحة تجارياً. <strong>ايفون 17 برو ماكس</strong> (أتقل ايفون على الإطلاق) بيفضل ثابت فوق المطبات واللفات الحادة وطرق القاهرة الوعرة. لا اهتزاز ولا انزلاق.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">MagSafe: من غير قطعة معدنية للايفون</h2>
-        <p class="text-gray-700">سلسلة ايفون 15/16/17 بمغناطيسات MagSafe المدمجة بتتثبت مباشرة — من غير قطعة معدنية وحشة على موبايلك أو الكفر. لسامسونج وايفون القديم، قطعة معدنية رفيعة مشمولة (بتتلصق جوه الكفر، مش باينة). <strong>بيشتغل مع كفرات لحد 3 مم سُمك.</strong></p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">360° + تكييف = تابلوه نظيف</h2>
-        <p class="text-gray-700"><strong>مفصل كروي 360 درجة</strong> بيخلّيك تظبط موبايلك طولي للخريطة أو عرضي للفيديو. <strong>مشبك التكييف</strong> بيحافظ على التابلوه نظيف — مفيش كبّاسات ولا لاصق. التصميم الصغير مش بيمنع هوا التكييف بشكل ملحوظ.</p>
-    </section>
+    <section><h2 class="text-2xl font-bold mb-2 text-gray-900">التثبيت المغناطيسي والجرابات</h2><p class="text-gray-700">قد تتثبت أجهزة ايفون وجرابات MagSafe المتوافقة مباشرة عند محاذاة الحلقة جيدًا. الهواتف أو الجرابات غير المغناطيسية تحتاج الملحق المتوافق المحدد لهذا الموديل. قد تقل قوة التثبيت مع الجراب السميك أو الخشن أو غير المحاذي. يمكن أن تؤثر الحلقة أو القطعة المعدنية في الشحن اللاسلكي ويجب تركيبها وفق التعليمات.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2 text-gray-900">ضبط 360 درجة</h2><p class="text-gray-700">يسمح المفصل الكروي بالوضع الطولي أو العرضي ضمن مداه الميكانيكي. اربط المفصل حسب التعليمات وضع الشاشة بحيث لا تقلل الرؤية أو تعطل أدوات السيارة أو تشتت السائق.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2 text-gray-900">توافق فتحة التكييف والحرارة</h2><p class="text-gray-700">تختلف ريش التكييف بين السيارات. افحص الريشة والمشبك دوريًا وتجنب التركيب على فتحة مرتخية أو تالفة أو غير متوافقة. قد تؤثر حرارة المقصورة والهواء البارد والاهتزاز والتعديل المتكرر في التثبيت مع الوقت. لا تترك الهاتف أو الحامل في حرارة شديدة.</p></section>
 </div>
-<div class="device-compatibility">
-    <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
-    <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>ايفون 17/16/15 (MagSafe):</strong> تثبيت مغناطيسي مباشر.</li>
-        <li>📱 <strong>ايفون 14/13/12 (MagSafe):</strong> تثبيت مغناطيسي مباشر.</li>
-        <li>📱 <strong>سامسونج S26/S25/A-Series:</strong> بالقطعة المعدنية المشمولة.</li>
-        <li>📱 <strong>أي هاتف:</strong> عالمي بالقطعة المعدنية.</li>
-    </ul>
-</div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">MagSafe بس — مش بيشتغل مع موبايلات بدون MagSafe إلا لو ضفت حلقة MagSafe (بتتباع لوحدها). ايفون 12 والأحدث بس. مش متوافق مع الجرابات السميكة (أكتر من 2 مم). لاصق التابلوه ممكن يضعف في حرارة صيف القاهرة الشديدة (فوق 50°م).</p></div>
+<div class="device-compatibility"><h3 class="font-bold mb-2">قائمة تحقق للتوافق</h3><ul class="list-disc list-inside text-gray-700"><li>تأكد من وجود حلقة مغناطيسية متوافقة ومتمركزة في الهاتف أو الجراب.</li><li>راجع سمك الجراب وأي تعارض مع بروز الكاميرا.</li><li>تأكد من قدرة ريشة التكييف على حمل الهاتف والحامل معًا.</li><li>أبعد البطاقات ذات الشريط المغناطيسي والأجهزة الطبية والأشياء الحساسة للمغناطيس بالمسافة التي توصي بها شركاتها.</li></ul></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">ملاحظة سلامة</h3><p class="text-gray-700">لا يستطيع أي حامل هاتف ضمان الثبات في كل مطب أو منعطف أو درجة حرارة. اختبر التركيب والسيارة متوقفة وافحصه دوريًا وأزل الهاتف إذا ضعف التثبيت. اتبع القواعد المحلية لموضع الشاشة واستخدام الهاتف أثناء القيادة.</p></div>
 `,
-                features: ["🧲 مغناطيس N52 الأقوى", "📱 MagSafe تثبيت مباشر", "🔄 360° مفصل كروي", "❄️ مشبك التكييف", "🖐️ بيد واحدة", "📦 قطعة معدنية مشمولة", "🏆 ضمان 12 شهر", "🔒 معتمد CE → معيار السلامة الأوروبي لإكسسوارات السيارات"],
+                features: ["🧲 مغناطيس N52 معلن", "📱 محاذاة MagSafe متوافقة", "🔄 مفصل كروي 360°", "❄️ مشبك فتحة التكييف", "🖐️ وضع بيد واحدة", "📦 تحقق من الحلقة أو القطعة المرفقة", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 اختبر التثبيت والسيارة متوقفة"],
                 metaTitle: "حامل جوال مغناطيسي جوي روم ⚡ N52 MagSafe | ادفع عند الاستلام",
-                metaDesc: "اشتري حامل جوال مغناطيسي جوي روم في مصر. مغناطيس N52، تثبيت MagSafe مباشر، دوران 360°، مشبك التكييف. يمسك ايفون 17 برو ماكس. ضمان 12 شهر.",
+                metaDesc: "حامل جوي روم JR-ZS290 بمغناطيس N52 معلن ومحاذاة MagSafe المتوافقة ومفصل 360° ومشبك تكييف. تحقق من توافق الهاتف والجراب وفتحة السيارة.",
                 faqs: [
                     {
                         question: "هل يتحمل ايفون 14 برو ماكس؟",
-                        answer: "نعم، مغناطيسات N52 القوية كافية لتثبيت الهواتف الثقيلة مثل iPhone 17 Pro Max بأمان."
+                        answer: "لا تُحدد درجة N52 وحدها أمان التثبيت. يعتمد ذلك على الوزن والجراب ومحاذاة الحلقة وقوة فتحة التكييف والتركيب والاهتزاز والحرارة. اختبر الهاتف والسيارة متوقفة وافحصه دوريًا."
                     },
                     {
                         question: "هل يمنع تدفق هواء التكييف؟",
-                        answer: "تصميمه المدمج يثبت على ريش التكييف ولكنه يسمح بتدفق مكافٍ للهواء حول الحامل."
+                        answer: "يعتمد تأثيره على حجم فتحة التكييف وموضع الحامل. ركّبه فقط إذا بقي تدفق الهواء والرؤية وأدوات التحكم والوسائد الهوائية بلا عائق."
                     },
                     {
                         question: "هل أحتاج لإلصاق قطعة معدنية؟",
-                        answer: "للهواتف غير MagSafe، نعم (القطعة مشمولة). لسلسلة ايفون 12/13/14/15 مع MagSafe، يلتصق مباشرة بدون قطعة معدنية."
+                        answer: "قد يتثبت هاتف أو جراب MagSafe متوافق مباشرة. تحتاج التركيبات الأخرى إلى الملحق الذي تحدده الشركة؛ تأكد مما هو مرفق وتأثيره المحتمل في الشحن اللاسلكي."
                     },
-                    { question: "بيشيل موبايلات تقيلة زي ايفون 17 برو ماكس؟", answer: "أيوه. الحامل بيشيل موبايلات لحد 250 جرام و6.9 بوصة. ايفون 17 برو ماكس (227 جم) بيثبت حتى على طرق القاهرة المتعرجة." },
-                    { question: "كاسة الشفط بتستحمل حر صيف مصر؟", answer: "أيوه. اتختبرت لحد 45°C على التابلوه. كاسة الشفط الصناعية مش بتسيح أو تفقد التماسك في الصيف." }
+                    { question: "بيشيل موبايلات كبيرة؟", answer: "راجع حد الوزن والمقاس المعلن للموديل، ثم اختبر الهاتف والجراب وفتحة التكييف والسيارة متوقفة. لا يوجد ضمان للثبات على كل طريق أو مع كل جراب." },
+                    { question: "كاسة الشفط بتستحمل حر صيف مصر؟", answer: "راجع نطاق الحرارة المعلن للموديل في العبوة أو وثائق الشركة. قوة الشفط تتأثر بنظافة السطح والحرارة والوقت؛ افحص الحامل دورياً ولا تترك الهاتف أو الحامل في حرارة شديدة." }
                 ]
             }
         },
-        meta: { keywords: "جوي روم car mount, magnetic car holder, حامل جوال سيارة, حامل مغناطيسي, جوي روم phone holder car, جوي روم best car mount 2026, جوي روم dashboard mount, جوي روم cod egypt, افضل حامل سيارة جوي روم, سعر حامل موبايل جوي روم, حامل موبايل سيارة جوي روم, جوي روم car mount egypt, حامل تلفون عربية مصر, ستاند موبايل سيارة, جوي روم egypt store, جوي روم genuine egypt, جوي روم car mount FCC certified", mainTerm: "joyroom car mount" },
+        meta: { keywords: "جوي روم car mount, magnetic car holder, حامل جوال سيارة, حامل مغناطيسي, جوي روم phone holder car, جوي روم dashboard mount, جوي روم cod egypt, سعر حامل موبايل جوي روم, حامل موبايل سيارة جوي روم, جوي روم car mount egypt, حامل تلفون عربية مصر, ستاند موبايل سيارة, جوي روم egypt store, تحقق من موديل حامل جوي روم, جوي روم car mount compliance marks that should be verified on the physical unit and manufacturer documentation", mainTerm: "joyroom car mount" },
         expertOpinion: {
-            en: "Simple, strong, and effective. The magnet is surprisingly powerful – my phone didn't budge even on speed bumps. It clips securely to the air vent and doesn't rattle. If you want a minimalist mount that just holds your phone securely, this is the one.",
-            ar: "بسيط، قوي، وفعال. المغناطيس قوي بشكل مدهش – لم يتحرك هاتفي حتى على المطبات. يشبك بإحكام في فتحة التكييف ولا يهتز. إذا كنت تريد حاملاً بسيطاً يمسك هاتفك بإحكام فقط، فهذا هو."
+            en: "JR-ZS290 is a compact magnetic vent mount with a listed N52 magnet specification and a 360-degree joint. Suitability depends on the exact phone, case, magnetic alignment and vent; install and test it while stationary and recheck the attachment regularly.",
+            ar: "JR-ZS290 حامل مغناطيسي صغير لفتحة التكييف بمواصفة N52 معلنة ومفصل 360 درجة. تعتمد الملاءمة على الهاتف والجراب والمحاذاة والفتحة؛ ركّبه واختبره والسيارة متوقفة وأعد فحص التثبيت دوريًا."
         },
         relatedProducts: [
         "joyroom-car-phone-mount",

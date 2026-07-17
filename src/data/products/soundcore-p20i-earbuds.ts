@@ -17,7 +17,7 @@ export const soundcore_p20i_earbuds = {
             { id: "img_1", url: "/products/anker/soundcore-p20i-earbuds/soundcore-p20i-earbuds-main-view-cairovolt.webp", alt: "Soundcore P20i A3949Z11 main view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/soundcore-p20i-earbuds/soundcore-p20i-earbuds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور P20i A3949Z11 features angle - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/anker/soundcore-p20i-earbuds/soundcore-p20i-earbuds-specifications-detail-cairovolt.webp", alt: "Soundcore P20i A3949Z11 specifications detail - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/soundcore-p20i-earbuds/soundcore-p20i-earbuds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور P20i A3949Z11 retail box authentic - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+ { id: "img_4", url: "/products/anker/soundcore-p20i-earbuds/soundcore-p20i-earbuds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور P20i A3949Z11 retail box and model details - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/anker/soundcore-p20i-earbuds/soundcore-p20i-earbuds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore P20i A3949Z11 in use lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_6", url: "/products/anker/soundcore-p20i-earbuds/soundcore-p20i-earbuds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور P20i A3949Z11 size comparison - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_7", url: "/products/anker/soundcore-p20i-earbuds/soundcore-p20i-earbuds-accessories-included-cairovolt.webp", alt: "Soundcore P20i A3949Z11 accessories included - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
@@ -29,87 +29,65 @@ export const soundcore_p20i_earbuds = {
 
     translations: {
         en: {
-            name: "Soundcore P20i | 10mm Drivers | 30h Battery | Bluetooth 5.3 | 18-Month Warranty",
-            shortDescription: "Original Anker Soundcore — 18-month CairoVolt warranty",
+            name: "Soundcore P20i | 10mm Drivers | 30h Battery | Bluetooth 5.3",
+            shortDescription: "10mm BassUp driver | manufacturer-rated battery up to 30h total | Bluetooth 5.3 | IPX5 listing | current CairoVolt terms",
             description: `<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-3">10mm BassUp Architecture: Engineered for Depth</h2>
-        <p class="text-gray-700 leading-relaxed">The P20i houses a custom 10mm driver tuned with Soundcore's BassUp algorithm. Unlike generic budget earbuds that push mid-range frequencies indiscriminately, the P20i's DSP separates sub-bass from vocal range, delivering punch without muddying dialogue. The polycarbonate acoustic chamber creates a rear-vent design that prevents pressure buildup during extended wear.</p>
-        <p class="text-gray-700 leading-relaxed">Bluetooth 5.3 with multipoint connectivity means switching between your phone and laptop happens automatically. The 30-hour total battery — 8 hours per charge with 22 from the case — converts to roughly two weeks of daily commuting before you need a USB-C cable.</p>
+        <p class="text-gray-700 leading-relaxed">P20i uses a listed 10mm driver with Soundcore BassUp processing. Driver size and DSP do not guarantee a particular bass or vocal balance; perceived sound depends on the ear-tip seal, recording, codec, volume and app settings.</p>
+        <p class="text-gray-700 leading-relaxed">The listing includes Bluetooth 5.3 and a manufacturer battery figure up to 30 hours total with the case under stated conditions. Confirm whether multipoint is supported by the current model and firmware. Actual runtime and switching behavior vary with device, calls, volume, radio conditions and battery age.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-3">IPX5 Sweat Engineering: Built for Egyptian Summers</h2>
-        <p class="text-gray-700 leading-relaxed">Each earbud has a nano-coating applied at the PCB level, not just on the housing. This means the P20i survives not just rain and sweat, but the condensation that forms when moving between Cairo's aggressive air conditioning and 42°C outdoor heat. The wrist-strap on the case adds practicality for gym sessions — clip it to your bag and you never lose the case.</p>
+        <h2 class="text-2xl font-bold mb-3">IPX5 splash-resistance limits</h2>
+        <p class="text-gray-700 leading-relaxed">Follow the manufacturer limits for the IPX5 listing. It does not make the earbuds suitable for swimming, immersion or charging while wet, and it does not guarantee protection from condensation or every sweat exposure. Dry the earbuds and contacts fully before returning them to the case.</p>
     </section>
 </div>
 
-<div class="buyer-warning">
-    <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700 leading-relaxed mb-3">Counterfeit Soundcore earbuds flood Egyptian social media at 100-150 EGP. They use recycled drivers that distort above 40% volume and Bluetooth 5.0 chipsets instead of 5.3.</p>
-    <p class="font-bold mb-2">How to verify authenticity:</p>
-    <ul class="list-decimal list-inside text-gray-700 space-y-1">
-        <li><strong>Model:</strong> A3949Z11 printed inside the case lid</li>
-        <li><strong>Logo:</strong> Soundcore logo laser-etched, not painted</li>
-        <li><strong>Weight:</strong> ~5g per earbud — counterfeits are noticeably lighter</li>
-        <li><strong>Packaging:</strong> Matte black box with holographic seal</li>
-        <li><strong>Price:</strong> Below 500 EGP is suspicious</li>
-    </ul>
-</div>`,
-            features: ["🎧 10mm BassUp", "🔋 30h", "🔒 18-Month Warranty"],
-            metaTitle: "Soundcore P20i Earbuds ⚡ Best Value TWS | Egypt | CairoVolt",
-            metaDesc: "Buy Soundcore P20i in Egypt — 10mm BassUp drivers, 30h battery, Bluetooth 5.3, IPX5. ✓ 18-month warranty ✓ COD ✓ Same-day Cairo delivery.",
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3949Z11</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
+            features: ["🎧 10mm BassUp", "🔋 30h", "🔒 current warranty and return policy"],
+            metaTitle: "Soundcore P20i Earbuds | 10mm BassUp | Egypt",
+            metaDesc: "Soundcore P20i with 10mm BassUp driver, manufacturer-rated battery up to 30h total, Bluetooth 5.3 and IPX5 listing. Check current price and terms.",
             faqs: [
-                    { question: "Does the Soundcore P20i support multipoint connection?", answer: "Yes — P20i connects to 2 devices simultaneously via Bluetooth 5.3. It auto-switches audio between your phone and laptop." },
-                    { question: "Can the Soundcore P20i handle Cairo gym humidity?", answer: "Yes — IPX5 with nano-coated PCB. Tested against sweat, rain, and condensation from AC-to-outdoor transitions." },
-                    { question: "Soundcore P20i vs R50i — which should I buy?", answer: "P20i: 699 EGP, basic BassUp, 30h, great value entry. R50i: 880 EGP, enhanced BassUp, Soundcore app EQ, more refined sound. R50i if budget allows." },
-                    { question: "Does the Soundcore P20i work with the Soundcore app?", answer: "Yes — full EQ customization, touch control configuration, and firmware updates available through the Soundcore app on iOS and Android." },
-                    { question: "How long does the P20i case take to fully charge?", answer: "About 2 hours via USB-C. The 10-minute quick charge gives 1 hour of emergency playback." },
+                    { question: "Does the Soundcore P20i support multipoint?", answer: "Confirm multipoint in the current model documentation and firmware; a Bluetooth 5.3 label alone does not prove simultaneous two-device support or identical switching behavior." },
+                    { question: "Can the Soundcore P20i handle gym sweat?", answer: "The P20i carries an IPX5 rating for sweat and splashes within the manufacturer's limits. It is not designed for swimming or submersion; dry it before charging." },
+                    { question: "Soundcore P20i vs R50i — which should I buy?", answer: "Compare the current listings by driver and app controls, published battery conditions, codec and connection features, fit, price and warranty. Sound preference and comfort remain personal." },
+                    { question: "Does the Soundcore P20i work with the Soundcore app?", answer: "Check the current Soundcore app compatibility and available EQ, control and firmware functions for the exact model and your operating system." },
+                    { question: "How long does charging take?", answer: "Treat charging-time and quick-charge figures as manufacturer examples under stated conditions. Charger input, starting level, temperature and battery age affect the result." },
             ]
         },
         ar: {
-            name: "سماعة ساوندكور P20i | 10mm درايفر | 30 ساعة بطارية | بلوتوث 5.3 | ضمان 18 شهر",
-            shortDescription: "أصلي من أنكر ساوندكور — ضمان كايرو فولت 18 شهر",
+            name: "سماعة ساوندكور P20i | 10mm درايفر | 30 ساعة بطارية | بلوتوث 5.3",
+            shortDescription: "درايفر 10mm BassUp | بطارية معلنة حتى 30 ساعة إجمالًا | Bluetooth 5.3 | تصنيف IPX5 | شروط كايرو فولت الحالية",
             description: `<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-3">هندسة BassUp بـ 10mm: عمق صوتي مُصمَّم</h2>
-        <p class="text-gray-700 leading-relaxed">الـ P20i فيها درايفر 10mm مضبوط بخوارزمية BassUp من ساوندكور. على عكس السماعات الرخيصة اللي بتخلط الترددات، الـ P20i بتفصل الباس العميق عن الأصوات البشرية. الغرفة الصوتية من البولي كربونيت بتمنع تراكم الضغط وبتخلي اللبس مريح لساعات.</p>
-        <p class="text-gray-700 leading-relaxed">بلوتوث 5.3 مع multipoint بيخلّيك تتنقل بين الموبايل واللاب أوتوماتيك. 30 ساعة بطارية إجمالي — يعني أسبوعين مواصلات تقريباً قبل ما تحتاج كابل USB-C.</p>
+        <p class="text-gray-700 leading-relaxed">تستخدم P20i درايفر 10mm معلنًا مع معالجة BassUp من ساوندكور. لا يضمن حجم الدرايفر أو المعالجة توازنًا محددًا للباس أو الأصوات؛ تعتمد النتيجة على إحكام الطرف والتسجيل والكودك ومستوى الصوت وإعدادات التطبيق.</p>
+        <p class="text-gray-700 leading-relaxed">تذكر القائمة Bluetooth 5.3 وبطارية معلنة حتى 30 ساعة إجمالًا مع العلبة وفق ظروف محددة. تحقق من دعم Multipoint في الموديل والبرنامج الحاليين. يختلف الزمن والتبديل حسب الجهاز والمكالمات والصوت والإشارة وعمر البطارية.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-3">حماية IPX5: مُصممة لصيف مصر</h2>
-        <p class="text-gray-700 leading-relaxed">كل سماعة عليها طبقة نانو على مستوى الـ PCB، مش بس على الغلاف الخارجي. ده معناه إن الـ P20i بتستحمل مش بس المطر والعرق، لكن كمان التكثف اللي بيحصل لما تتحرك بين التكييف وحرارة 42°م بره. حبل المعصم على العلبة بيضيف عملية للجيم.</p>
+        <h2 class="text-2xl font-bold mb-3">حدود مقاومة الرذاذ IPX5</h2>
+        <p class="text-gray-700 leading-relaxed">اتبع حدود الشركة لتصنيف IPX5. لا يجعل التصنيف السماعات مناسبة للسباحة أو الغمر أو الشحن وهي مبتلة، ولا يضمن الحماية من التكثف أو كل تعرض للعرق. جفف السماعات ونقاط التلامس تمامًا قبل إعادتها للعلبة.</p>
     </section>
 </div>
 
-<div class="buyer-warning">
-    <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700 leading-relaxed mb-3">سماعات ساوندكور مقلدة منتشرة على السوشيال ميديا بـ 100-150 جنيه. بتستخدم درايفرات مُعاد تدويرها بتشوّه فوق 40% صوت.</p>
-    <p class="font-bold mb-2">إزاي تتأكد إنها أصلية؟</p>
-    <ul class="list-decimal list-inside text-gray-700 space-y-1">
-        <li><strong>الموديل:</strong> A3949Z11 مطبوع جوه غطا العلبة</li>
-        <li><strong>اللوجو:</strong> شعار ساوندكور محفور بالليزر مش مطبوع</li>
-        <li><strong>الوزن:</strong> ~5 جرام للسماعة — المقلدة أخف</li>
-        <li><strong>التغليف:</strong> علبة سوداء مطفية بختم هولوجرافيك</li>
-        <li><strong>السعر:</strong> أقل من 500 جنيه = مشكوك فيه</li>
-    </ul>
-</div>`,
-            features: ["🎧 10mm BassUp", "🔋 30h", "🔒 ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور P20i ⚡ أفضل سعر | مصر | كايرو فولت",
-            metaDesc: "اشتري سماعة ساوندكور P20i في مصر — 10mm درايفر BassUp، 30 ساعة بطارية، بلوتوث 5.3. ✓ ضمان 18 شهر ✓ الدفع عند الاستلام ✓ توصيل سريع.",
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3949Z11</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
+            features: ["🎧 10mm BassUp", "🔋 30h", "🔒 راجع سياسة الضمان والاسترجاع الحالية"],
+            metaTitle: "سماعة ساوندكور P20i ⚡ السعر الحالي | مصر | كايرو فولت",
+            metaDesc: "اشتري سماعة ساوندكور P20i في مصر — 10mm درايفر BassUp، 30 ساعة بطارية، بلوتوث 5.3. ✓ راجع سياسة الضمان والاسترجاع الحالية ✓ الدفع عند الاستلام ✓ توصيل سريع.",
             faqs: [
-                    { question: "الـ P20i بتتوصل بجهازين في نفس الوقت؟", answer: "أيوه — multipoint بتوتوث 5.3 بتتصل بالموبايل واللاب مع بعض وبتبدّل الصوت أوتوماتيك." },
-                    { question: "الـ P20i بتستحمل رطوبة الجيم في القاهرة؟", answer: "أيوه — IPX5 مع طبقة نانو على الـ PCB. مُختبرة ضد العرق والمطر وتكثف التكييف." },
-                    { question: "P20i ولا R50i — أشتري أنهي؟", answer: "P20i: 699 جنيه، BassUp أساسي، 30 ساعة، قيمة ممتازة. R50i: 880 جنيه، BassUp محسّن، تطبيق ساوندكور EQ. لو الميزانية تسمح، R50i أفضل." },
-                    { question: "الـ P20i بتشتغل مع تطبيق ساوندكور؟", answer: "أيوه — تخصيص EQ كامل، ضبط أزرار اللمس، وتحديثات firmware من تطبيق ساوندكور على iOS و Android." },
-                    { question: "علبة الـ P20i بتتشحن في كام ساعة؟", answer: "حوالي ساعتين بـ USB-C. الشحن السريع 10 دقايق بيدّيك ساعة تشغيل طوارئ." },
+                    { question: "الـ P20i بتتوصل بجهازين؟", answer: "تحقق من دعم Multipoint في وثائق الموديل والبرنامج الحالي؛ كتابة Bluetooth 5.3 وحدها لا تثبت الاتصال بجهازين أو سلوك التبديل نفسه." },
+                    { question: "الـ P20i مناسبة لعرق الجيم؟", answer: "تحمل تصنيف IPX5 ضمن حدود الشركة، لكنها ليست للسباحة أو الغمر أو الشحن وهي مبللة. جفف السماعات ونقاط التلامس قبل وضعها في العلبة." },
+                    { question: "P20i ولا R50i — أشتري أنهي؟", answer: "قارن الدرايفر وتحكم التطبيق والبطارية المعلنة والكودك وميزات الاتصال والملاءمة والسعر والضمان الحالي. تفضيل الصوت والراحة شخصي." },
+                    { question: "الـ P20i بتشتغل مع تطبيق ساوندكور؟", answer: "راجع توافق إصدار تطبيق ساوندكور والوظائف المتاحة من EQ وتحكم وتحديثات للموديل ونظام التشغيل الحاليين." },
+                    { question: "علبة الـ P20i بتتشحن في كام؟", answer: "تعامل مع وقت الشحن والشحن السريع كمثال شركة تحت ظروف محددة. يؤثر دخل الشاحن ونسبة البداية والحرارة وعمر البطارية في النتيجة." },
             ]
         }
     },
 
-    meta: { keywords: "ساوندكور p20i, ساوندكور p20i egypt, أنكر p20i, p20i earbuds, ساوندكور p20i price egypt, ساوندكور p20i review, best budget earbuds egypt 2026, ساوندكور p20i vs r50i, سماعة ساوندكور p20i, ساوندكور p20i, سعر ساوندكور p20i, سماعة انكر p20i, ايربودز p20i, أفضل سماعة لاسلكية رخيصة مصر", mainTerm: "soundcore p20i" },
+    meta: { keywords: "ساوندكور p20i, ساوندكور p20i egypt, انكر p20i, p20i earbuds, ساوندكور p20i price egypt, ساوندكور p20i review, ساوندكور p20i vs r50i, سماعة ساوندكور p20i, ساوندكور p20i, سعر ساوندكور p20i, سماعة انكر p20i, ايربودز p20i", mainTerm: "soundcore p20i" },
 
     expertOpinion: {
-        en: "Best budget TWS in Egypt under 700 EGP. The P20i delivers BassUp 10mm drivers, 30h battery, and Bluetooth 5.3 at a price that makes cheap knockoffs pointless.",
-        ar: "أفضل سماعة لاسلكية في مصر تحت 700 جنيه. الـ P20i بتوفر درايفر BassUp 10mm و30 ساعة بطارية وبلوتوث 5.3 بسعر بيخلّي المقلد مالوش لازمة."
+        en: "P20i is an entry-level Soundcore option with a listed 10mm BassUp driver, manufacturer-rated total battery up to 30 hours, Bluetooth 5.3 and IPX5. Compare current app support, fit, price and warranty before choosing it.",
+        ar: "سماعة اقتصادية للاستخدام اليومي؛ قارن درايفر BassUp 10mm ومدة البطارية المعلنة وبلوتوث 5.3 والسعر الحالي مع احتياجاتك الفعلية."
     }
 };

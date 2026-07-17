@@ -5,121 +5,121 @@ export const joyroom_wall_chargers_content: CategoryContent = {
             categoryName: 'Wall Chargers',
             metadata: {
                 en: {
-                    title: 'Joyroom Charger Egypt | GaN PD 20W-65W from EGP 236',
-                    description: 'Shop Joyroom charger in Egypt. GaN PD 20W-65W, Smart IC, fire-retardant PC V0. ✓ CairoVolt tested ✓ 1-year warranty ✓ Cairo delivery',
+                    title: 'Joyroom Charger Egypt | GaN and USB-C PD 20W-65W',
+                    description: 'Compare Joyroom chargers by output, USB-C PD/PPS support, ports, GaN, and protection features. Current price and CairoVolt warranty are listed per product.',
                     keywords: 'جوي روم charger, جوي روم 20w, جوي روم GaN, جوي روم PD charger, fast charger egypt, جوي روم charger price egypt, شاحن جوي روم',
                 },
                 ar: {
-                    title: 'شاحن جوي روم مصر | GaN PD 20W-65W من 236 جنيه',
-                    description: 'تسوق شاحن جوي روم في مصر. GaN PD 20W-65W + Smart IC + مقاوم حريق. ✓ اختبار CairoVolt ✓ ضمان سنة ✓ توصيل القاهرة ✓ دفع عند الاستلام',
+                    title: 'شاحن جوي روم مصر | GaN وUSB-C PD من 20W إلى 65W',
+                    description: 'قارن شواحن جوي روم حسب القدرة ودعم USB-C PD/PPS والمنافذ وGaN وخصائص الحماية. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
                     keywords: 'شاحن جوي روم, سعر شاحن جوي روم, شاحن جيروم, شاحن GaN, شاحن PD سريع, شاحن ايفون مصر',
                 }
             },
             pageContent: {
                 ar: {
-                    title: 'شواحن جوي روم (The Safe Choice)',
-                    subtitle: 'جوي روم Chargers - تكنولوجيا تبريد ذكية',
+                    title: 'شواحن جوي روم حسب القدرة والبروتوكول',
+                    subtitle: 'قارن GaN وUSB-C PD وPPS وخصائص الحماية',
                     description: `
-      كل صيف في مصر، تذبذب الكهرباء بيحرق شواحن رخيصة بالآلاف. شاحن **جوي روم** مختلف — بيفصل تلقائياً عند 100% + مادة **مقاومة للحريق**. حماية حقيقية. سعر في المتناول.
-      **ليه بيختاروه المحترفون في مصر؟**
-      شاحن بيستحمل تذبذب كهرباء مصر، بيحافظ على Battery Health لايفون 17 وسامسونج S26، وحجمه بيدخل جيب القميص. شوف دليل الشراء بالأسفل لاختيار الواطية المناسبة.
-      اطلبه الآن — ضمان سنة CairoVolt + توصيل القاهرة خلال 24 ساعة. تسوق [كابل جوي روم](/joyroom/cables) لمنظومة شحن كاملة.
+      تتوفر شواحن **جوي روم** بقدرات ومنافذ وتقنيات مختلفة. قد تتضمن موديلات محددة GaN أو Smart IC أو مواد ذات تصنيف مقاومة للهب؛ راجع مواصفات المنتج بدلاً من تعميم الميزة على السلسلة.
+      **اختيار مناسب لمصدر الكهرباء والجهاز:**
+      تحقق من نطاق الدخل المكتوب ودعم PD/PPS والقدرة التي يطلبها الهاتف أو اللابتوب. استخدم واقي تيار مناسباً عند عدم استقرار الكهرباء وافصل الشاحن عند وجود عطل واضح.
+      ضمان كايرو فولت ومدته وشروطه موضحة في صفحة المنتج والسياسة. موعد التوصيل تقديري حسب العنوان. تسوق [كابل جوي روم](/joyroom/cables) لمنظومة متوافقة.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'ضمان الوكيل الرسمي' },
-                        { type: 'warranty', text: 'آمن على صحة البطارية' },
-                        { type: 'expert_verified', text: 'مواد مقاومة للحريق — UL + CE + FCC معتمد | تقنية GaN III' }
+                        { type: 'originality', text: 'بيانات الموديل والخرج قابلة للمراجعة' },
+                        { type: 'warranty', text: 'ضمان كايرو فولت حسب صفحة المنتج والسياسة' },
+                        { type: 'expert_verified', text: 'GaN ومواد الهيكل والحماية تختلف حسب الموديل' }
                     ],
                     buyingGuide: [
                         {
                             title: 'اشتري 20W ولا 35W؟',
                             content: `
-- **لايفون 17 / 16 العادي:** شاحن 20W أو 25W كافٍ جداً (يشحن 50% في نصف ساعة).
-- **لايفون 17 Pro Max / ايباد:** ننصح بشاحن 30W أو 35W للاستفادة من أقصى سرعة شحن ممكنة (PD 3.0).
-- **لسامسونج S26:** شاحن 25W PPS يفتح Samsung Super Fast Charging.
+- **لايفون المتوافق:** اختر USB-C PD بقدرة تساوي ما يدعمه موديل الهاتف أو تزيد عليه دون افتراض أن الهاتف سيسحبها كاملة.
+- **ايفون Pro Max أو iPad:** راجع قدرة الجهاز الموصى بها ودعم PD، فالسرعة تتغير مع الحرارة وحالة البطارية والكابل.
+- **سامسونج:** تتطلب بعض أوضاع Super Fast Charging دعماً لـPPS بقدرة تختلف حسب موديل الهاتف.
 `
                         },
                         {
                             title: 'هل الشاحن بيستحمل كهرباء مصر؟',
                             content: `
-شواحن جوي روم بتدعم جهد من 100V لـ 240V — يعني بتتعامل مع تذبذب كهرباء مصر (160V-260V) تلقائياً. شريحة GaN III بتحافظ على حرارة أقل 16 درجة من الشواحن العادية. اختبار CairoVolt في عز الصيف: صفر مشاكل.
+موديلات جوي روم التي تحمل نطاق دخل 100V-240V مناسبة لمصادر الكهرباء داخل هذا النطاق. تقنية GaN تتيح عادةً تصميماً أصغر وكفاءة أعلى؛ راجع ملصق كل موديل ومواصفاته.
 `
                         }
                     ],
                     faq: [
                         {
                             question: 'كام سعر شاحن جوي روم (جيروم) في مصر 2026؟',
-                            answer: 'من 236 جنيه (20W PD) إلى 342 جنيه (35W GaN Dual). شاحن 65W للابتوب بـ 280 جنيه — أرخص 50% من شاحن أبل الأصلي. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
+                            answer: 'السعر الحالي يظهر في بطاقة وصفحة كل منتج وقد يتغير حسب القدرة والمنافذ والمخزون والعروض. راجع أيضاً ضمان كايرو فولت وموعد التوصيل التقديري لعنوانك.'
                         },
                         {
                             question: 'الشاحن بيسخن ولا آمن؟',
-                            answer: 'آمن 100%. اختبار CairoVolt الميداني: GaN 35W حرارته 38°م فقط بعد ساعة شحن متواصل. الشواحن المقلدة وصلت 65°م وسببت انتفاخ بطارية!'
+                            answer: 'الشاحن قد يصبح دافئاً أثناء الاستخدام. اختر موديلًا يذكر أنظمة الحماية المطلوبة، ووفر تهوية مناسبة، وتوقف عن الاستخدام إذا ظهرت حرارة أو رائحة غير طبيعية.'
                         },
                         {
                             question: 'إيه الفرق بين 20W و 35W و 65W؟',
-                            answer: 'شوف دليل الشراء بالأعلى للمقارنة التفصيلية. باختصار: 20W كافي للموبايل اليومي (236 ج). 35W لشحن جهازين معاً (342 ج). 65W ضروري للابتوب (280 ج).'
+                            answer: '20W قد يناسب هاتفاً متوافقاً، و35W قد يوفر هامشاً أو منفذين حسب الموديل، و65W قد يناسب بعض اللابتوبات. راجع متطلبات الجهاز وتوزيع القدرة والسعر الحالي في صفحة المنتج.'
                         },
                         {
                             question: 'هل بيستحمل تذبذب كهرباء مصر؟',
-                            answer: 'نعم. بعد انقطاع الكهرباء والرجوع المفاجئ (voltage spike)، شواحن جوي روم بتفصل تلقائياً لحماية الموبايل — اختبرنا الموضوع ده في CairoVolt بسيناريو 300V spike. الشواحن الرخيصة احترقت. جوي روم فصل ورجع يشتغل عادي.'
+                            answer: 'تحقق من نطاق الدخل المكتوب على الشاحن. عند وجود تذبذب شديد أو ارتفاعات مفاجئة، استخدم واقي تيار مناسباً وافصل الشاحن حتى استقرار الكهرباء.'
                         },
                         {
                             question: '⚠️ إزاي افرق بين شاحن جوي روم الأصلي والمقلد؟',
-                            answer: 'شواحن مقلدة كتير في السوق بتسخن وبتضر الموبايل. الأصلي: 1) علبة بكود QR للتحقق 2) مادة مقاومة للحريق V0 3) شحن PD حقيقي مش بطيء 4) ضمان سنة من CairoVolt. المقلد بيوصل 65°م واحنا اختبرناه — احترق في شهرين!'
+                            answer: 'راجع جودة التغليف ورقم الموديل والخرج ووسيلة التحقق الرسمية المتاحة من الشركة. احتفظ بالفاتورة؛ الرقم التسلسلي أو سجل الضمان وحده لا يثبت أصالة الشركة المصنّعة. تجنب أي شاحن لا يطابق مواصفات العبوة أو يسخن بشكل غير طبيعي.'
                         },
                         {
                             question: 'هل شاحن جوي روم بيشحن ايفون 17 بسرعة؟',
-                            answer: 'أيوه. شاحن 20W PD بيشحن ايفون 17 من 0 لـ 50% في 30 دقيقة. شاحن 35W بيوصل 50% في 22 دقيقة (اختبار CairoVolt). المهم تستخدم كابل USB-C to Lightning أصلي.'
+                            answer: 'موديلات USB-C PD المتوافقة تدعم الشحن السريع لأجهزة iPhone ضمن قدرة الجهاز. استخدم كابلاً مناسباً، مع العلم أن السرعة تختلف حسب الموديل وحالة البطارية.'
                         },
                         {
                             question: 'هل شاحن جوي روم بيشحن سامسونج S26؟',
-                            answer: 'نعم، شاحن 25W بدعم PPS بيفتح Samsung Super Fast Charging لسامسونج S26. اختبار CairoVolt: 0→50% في 25 دقيقة. لـ S26 Ultra ننصح بشاحن 35W للسرعة القصوى.'
+                            answer: 'اختر موديلًا يدعم USB-C PD وPPS بالقدرة التي يطلبها هاتف Samsung المحدد لتشغيل وضع الشحن المتوافق.'
                         },
                         {
                             question: 'ما ضمان شاحن جوي روم في مصر؟',
-                            answer: 'ضمان سنة من CairoVolt. استبدال فوري خلال 14 يوم. الضمان يشمل: المنافذ، الشريحة، الجسم الخارجي. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
+                            answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال مكتوبة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         }
                     ],
                     products: [
                         { name: 'Joyroom 20W PD Charger', price: 236, badge: 'اقتصادي' },
-                        { name: 'Joyroom 35W GaN Dual', price: 342, badge: 'الأسرع' },
+                        { name: 'Joyroom 35W GaN Dual', price: 342, badge: 'منفذان حسب الموديل' },
                         { name: 'Joyroom 65W Laptop Charger', price: 280, badge: 'للابتوب' },
                         { name: 'محطة جوي روم 3 في 1 لاسلكي', price: 1206, badge: '🆕 ايفون + ساعة + ايربودز' }
                     ]
                 },
                 en: {
-                    title: 'Joyroom Chargers - Safe & Smart',
-                    subtitle: 'Original Performance at Half Price',
+                    title: 'Joyroom Chargers by Power and Protocol',
+                    subtitle: 'Compare GaN, USB-C PD, PPS, ports, and listed protections',
                     description: `
-      Egypt's summer voltage fluctuations destroy cheap chargers and damage phones. Joyroom chargers auto-stop at 100% to preserve Battery Health. Fire-retardant housing that won't melt or catch fire.
-      **The Smart Difference:**
-      Most chargers keep pushing current after 100% — that's why Battery Health drops to 80% in a year. Joyroom cuts power completely. Your phone charges overnight safely.
-      See buying guide below to choose the right wattage. CairoVolt verified — next-day Cairo delivery.
+      Joyroom chargers come with different outputs, ports, and technologies. Selected models may list GaN, Smart IC, or a flame-retardant material rating; check the individual product specification rather than applying one claim to the whole range.
+      **Match the Charger to the Source and Device:**
+      Check the printed input range, PD/PPS support, and the power your phone or laptop requires. Use suitable surge protection when the supply is unstable and unplug equipment when a clear fault is present.
+      See the buying guide below. CairoVolt warranty terms are listed per product and delivery timing is estimated from the confirmed address.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'Official Agent Warranty' },
-                        { type: 'warranty', text: 'Battery Health Safe' },
-                        { type: 'expert_verified', text: 'Fire-Proof Material — UL + CE + FCC Certified' }
+                        { type: 'originality', text: 'Model and output details available for review' },
+                        { type: 'warranty', text: 'CairoVolt warranty per product and policy' },
+                        { type: 'expert_verified', text: 'GaN, housing material, and protections vary by model' }
                     ],
                     buyingGuide: [
                         {
                             title: 'Should I buy 20W or 35W?',
                             content: `
-- **For Standard iPhone 17/16:** A 20W or 25W charger is perfect (0-50% in 30 mins).
-- **For iPhone 17 Pro Max / iPad:** We recommend 30W or 35W to unlock maximum charging potential (PD 3.0).
-- **For Samsung S26:** 25W PPS charger unlocks Samsung Super Fast Charging.
+- **For compatible iPhones:** Choose USB-C PD at or above the model's supported input without assuming the phone will draw the full charger rating.
+- **For Pro Max or iPad models:** Check the device's recommended power and PD support; speed changes with temperature, battery state, and cable.
+- **For Samsung:** Some Super Fast Charging modes require PPS at a power level that varies by phone model.
 `
                         },
                         {
                             title: 'Can It Handle Egyptian Voltage?',
                             content: `
-Joyroom chargers support 100V-240V wide voltage input — automatically handles Egyptian grid fluctuations (160V-260V). GaN III chip keeps temperature 16°C cooler than traditional chargers. CairoVolt tested during peak summer: zero issues.
+Joyroom models labeled for 100V-240V input can be used within that stated range. GaN technology generally enables a smaller, more efficient design; check each model's label and specifications.
 `
                         }
                     ],
                     products: [
                         { name: 'Joyroom 20W PD Charger', price: 236, badge: 'Value' },
-                        { name: 'Joyroom 35W GaN Dual', price: 342, badge: 'Fastest' },
+                        { name: 'Joyroom 35W GaN Dual', price: 342, badge: 'Dual Port by Model' },
                         { name: 'Joyroom 65W Laptop Charger', price: 280, badge: 'Laptop-Ready' },
                         { name: 'Joyroom 3-in-1 Wireless Station', price: 1206, badge: '🆕 iPhone + Watch + Buds' }
                     ]

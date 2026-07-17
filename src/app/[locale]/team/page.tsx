@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import { recommendedCreators, getCountryFlag, getCountryName, type RecommendedCreator } from '@/data/team-members';
+import { recommendedCreators, getCountryFlag, getCountryName } from '@/data/team-members';
 
 export const revalidate = 2592000;
 
@@ -18,11 +18,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         : 'https://cairovolt.com/en/team';
 
     const title = isArabic
-        ? 'خبراء التقنية الذين ننصح بمتابعتهم | كايرو فولت'
-        : 'Tech Experts We Recommend Following | CairoVolt';
+        ? 'صنّاع محتوى تقني وروابط قنواتهم | كايرو فولت'
+        : 'Tech Creators and Their Channels | CairoVolt';
     const description = isArabic
-        ? 'قائمة منسقة من أبرز صنّاع المحتوى التقني المستقلين في الوطن العربي الذين نتابعهم ونثق في مراجعاتهم للشواحن والباور بانك. صنّاع مستقلون — لا تربطهم علاقة عمل بكايرو فولت.'
-        : 'A curated list of the top independent Arab tech creators we follow and trust for charger, power bank, and accessory reviews. Independent creators — not affiliated with CairoVolt.';
+        ? 'دليل مختصر لصنّاع محتوى تقني عرب مع روابط قنواتهم العامة. لا تربطهم علاقة عمل أو رعاية بكايرو فولت، ويظل تقييم محتواهم وقرارات الشراء مسؤولية الزائر.'
+        : 'A short directory of Arab tech creators with links to their public channels. They have no employment or sponsorship relationship with CairoVolt; visitors should evaluate their content independently.';
 
     return {
         title: { absolute: title },
@@ -46,51 +46,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             locale: isArabic ? 'ar_EG' : 'en_US',
             type: 'website',
             siteName: isArabic ? 'كايرو فولت' : 'CairoVolt',
-            images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: isArabic ? 'كايرو فولت - خبراء ننصح بمتابعتهم' : 'CairoVolt - Tech Experts We Recommend' }],
-        },
-        other: {
-            'geo.region': 'EG',
-            'geo.placename': isArabic ? 'القاهرة، مصر' : 'Cairo, Egypt',
-            'geo.position': '30.0444;31.2357',
-            'ICBM': '30.0444, 31.2357',
+            images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: isArabic ? 'كايرو فولت - دليل قنوات تقنية' : 'CairoVolt - Technology Channel Directory' }],
         },
     };
-}
-
-/**
- * Person JSON-LD for a recommended creator.
- * NOTE: No `worksFor`/affiliation to CairoVolt — these are independent creators we
- * recommend, not staff. `sameAs` points to their own channels (their real identity),
- * and `mainEntityOfPage` is each creator's own primary platform, not our site.
- */
-function PersonSchema({ member, locale }: { member: RecommendedCreator; locale: string }) {
-    const isArabic = locale === 'ar';
-    const lang = isArabic ? 'ar' : 'en';
-    const sameAs = Object.values(member.socials).filter(Boolean) as string[];
-
-    const schema = {
-        '@context': 'https://schema.org',
-        '@type': 'Person',
-        '@id': `https://cairovolt.com/team#${member.id}`,
-        name: member.name[lang],
-        url: member.url || sameAs[0],
-        jobTitle: member.title[lang],
-        description: member.bio[lang],
-        image: `https://cairovolt.com${member.avatar}`,
-        sameAs,
-        knowsAbout: member.expertise[lang],
-        nationality: {
-            '@type': 'Country',
-            name: getCountryName(member.country, lang as 'ar' | 'en'),
-        },
-    };
-
-    return (
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-    );
 }
 
 /** Social icon link component */
@@ -118,15 +76,10 @@ export default async function TeamPage({ params }: Props) {
             <BreadcrumbSchema
                 items={[
                     { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
-                    { name: isArabic ? 'خبراء ننصح بمتابعتهم' : 'Recommended Experts', url: `https://cairovolt.com${isArabic ? '' : '/en'}/team` },
+                    { name: isArabic ? 'صنّاع محتوى تقني' : 'Tech Creators', url: `https://cairovolt.com${isArabic ? '' : '/en'}/team` },
                 ]}
                 locale={locale}
             />
-
-            {/* Person JSON-LD for each team member */}
-            {recommendedCreators.map((member) => (
-                <PersonSchema key={member.id} member={member} locale={locale} />
-            ))}
 
             <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800" dir={isArabic ? 'rtl' : 'ltr'}>
                 <div className="container mx-auto px-4 py-16">
@@ -134,15 +87,15 @@ export default async function TeamPage({ params }: Props) {
                     <div className="text-center mb-16 max-w-4xl mx-auto">
                         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm font-medium mb-6">
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
-                            {isArabic ? 'صنّاع محتوى ننصح بمتابعتهم' : 'Creators We Recommend Following'}
+                            {isArabic ? 'دليل قنوات تقنية عامة' : 'Public Tech Channel Directory'}
                         </div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                            {isArabic ? 'خبراء التقنية الذين ننصح بمتابعتهم' : 'Tech Experts We Recommend'}
+                            {isArabic ? 'صنّاع محتوى تقني وروابط قنواتهم' : 'Tech Creators and Their Channels'}
                         </h1>
                         <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
                             {isArabic
-                                ? 'قبل ما تشتري إكسسوار، تابع المراجعات المستقلة. جمعنا لك أبرز صنّاع المحتوى التقني في الوطن العربي ممن نتابعهم بأنفسنا ونثق في مراجعاتهم للشواحن والباور بانك والإكسسوارات.'
-                                : 'Before you buy an accessory, watch the independent reviews. We curated the top Arab tech creators we personally follow and trust for charger, power bank, and accessory reviews.'}
+                                ? 'استخدم الروابط للوصول إلى القنوات المنشورة ومقارنة أكثر من مصدر قبل الشراء. وجود صانع المحتوى في هذه الصفحة لا يعني اعتماد كايرو فولت لكل رأي أو ادعاء ينشره.'
+                                : 'Use these links to visit the published channels and compare more than one source before buying. Inclusion here does not mean CairoVolt endorses every opinion or claim a creator publishes.'}
                         </p>
                     </div>
 
@@ -151,8 +104,8 @@ export default async function TeamPage({ params }: Props) {
                         <svg className="w-5 h-5 text-amber-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                         <p className="text-amber-800 dark:text-amber-300">
                             {isArabic
-                                ? 'هؤلاء صنّاع محتوى مستقلون لا تربطهم علاقة عمل أو رعاية بكايرو فولت، ولا يكتبون محتوى موقعنا. نرشّحهم فقط لجودة مراجعاتهم المستقلة. محتوى كايرو فولت يكتبه فريق التحرير لدينا.'
-                                : 'These are independent creators with no employment or sponsorship relationship with CairoVolt, and they do not write our content. We list them solely for the quality of their independent reviews. CairoVolt content is written by our own editorial team.'}
+                                ? 'لا تربط هؤلاء المبدعين علاقة عمل أو رعاية بكايرو فولت، ولا يكتبون محتوى الموقع. الروابط مقدمة كدليل تصفح فقط، ومحتوى كل قناة مسؤولية ناشرها.'
+                                : 'These creators have no employment or sponsorship relationship with CairoVolt and do not write this site\'s content. The links are provided as a browsing directory; each publisher is responsible for their own content.'}
                         </p>
                     </div>
 
@@ -261,19 +214,19 @@ export default async function TeamPage({ params }: Props) {
                         })}
                     </div>
 
-                    {/* Editorial Methodology Section — E-E-A-T */}
+                    {/* Guidance for evaluating linked third-party content. */}
                     <div className="max-w-4xl mx-auto">
                         <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg mb-8">
                             <h2 className="text-2xl font-semibold mb-6 flex items-center gap-3">
                                 <span className="text-3xl text-blue-500">
                                     <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" /></svg>
                                 </span>
-                                {isArabic ? 'لماذا نوصي بهؤلاء تحديداً؟' : 'Why We Recommend These Creators'}
+                                {isArabic ? 'كيف تستخدم هذا الدليل؟' : 'How to Use This Directory'}
                             </h2>
                             <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
                                 {isArabic
-                                    ? 'نختار من نرشّحه بعناية. هذه هي المعايير التي يجب أن تتوفر في صانع المحتوى قبل أن نضعه في هذه القائمة:'
-                                    : 'We pick who we recommend carefully. These are the criteria a creator must meet before we add them to this list:'}
+                                    ? 'راجع المصدر والتاريخ والموديل المذكور، وقارن أكثر من رأي قبل اتخاذ قرار الشراء.'
+                                    : 'Check the source, publication date, and exact model, then compare more than one view before making a purchase decision.'}
                             </p>
                             <div className="grid md:grid-cols-2 gap-5">
                                 <div className="flex items-start gap-3 p-4 bg-green-50 dark:bg-green-900/20 rounded-xl border border-green-100 dark:border-green-800">
@@ -282,12 +235,12 @@ export default async function TeamPage({ params }: Props) {
                                     </span>
                                     <div>
                                         <h3 className="font-bold text-sm text-green-800 dark:text-green-300 mb-1">
-                                            {isArabic ? 'اختبار عملي حقيقي' : 'Real Hands-on Testing'}
+                                            {isArabic ? 'روابط مباشرة للقنوات' : 'Direct Channel Links'}
                                         </h3>
                                         <p className="text-xs text-green-700 dark:text-green-400">
                                             {isArabic
-                                                ? 'يختبرون المنتجات بأنفسهم بأجهزة قياس فعلية (USB Testers) ويقدمون نتائج عملية — لا مراجعات نظرية.'
-                                                : 'They test products themselves with real measuring equipment (USB testers) and share practical results — not theoretical reviews.'}
+                                                ? 'افتح قناة الناشر الأصلية وراجع الفيديو أو المقال الكامل بدلاً من الاعتماد على ملخص منقول.'
+                                                : 'Open the publisher\'s original channel and review the full video or article instead of relying on a copied summary.'}
                                         </p>
                                     </div>
                                 </div>
@@ -297,12 +250,12 @@ export default async function TeamPage({ params }: Props) {
                                     </span>
                                     <div>
                                         <h3 className="font-bold text-sm text-blue-800 dark:text-blue-300 mb-1">
-                                            {isArabic ? 'استقلالية المحتوى' : 'Genuine Independence'}
+                                            {isArabic ? 'لا توجد علاقة تجارية' : 'No Commercial Relationship'}
                                         </h3>
                                         <p className="text-xs text-blue-700 dark:text-blue-400">
                                             {isArabic
-                                                ? 'كثير منهم يشتري المنتجات بماله الخاص ويرفض الإعلانات المدفوعة — ما يجعل رأيه محايداً وغير متحيز.'
-                                                : 'Many buy products with their own money and refuse paid promotions — keeping their opinions neutral and unbiased.'}
+                                                ? 'لا يعمل المبدعون المدرجون لدى كايرو فولت ولا ترعاهم كايرو فولت، ولا تُنسب آراؤهم إلى المتجر.'
+                                                : 'The listed creators do not work for or receive sponsorship from CairoVolt, and their opinions are not attributed to the store.'}
                                         </p>
                                     </div>
                                 </div>
@@ -312,12 +265,12 @@ export default async function TeamPage({ params }: Props) {
                                     </span>
                                     <div>
                                         <h3 className="font-bold text-sm text-purple-800 dark:text-purple-300 mb-1">
-                                            {isArabic ? 'خبرة متخصصة موثقة' : 'Documented Expertise'}
+                                            {isArabic ? 'تحقق من التفاصيل' : 'Check the Details'}
                                         </h3>
                                         <p className="text-xs text-purple-700 dark:text-purple-400">
                                             {isArabic
-                                                ? 'لكل منهم قناة يوتيوب أو منصة محتوى فعلية يمكنك أن تتحقق من سجل أعماله ومصداقيته بنفسك.'
-                                                : 'Each has a YouTube channel or active content platform where you can verify their track record and credibility yourself.'}
+                                                ? 'تأكد من تطابق رقم الموديل والقدرة والإصدار مع المنتج الذي تفكر فيه؛ فقد تختلف النتائج بين الإصدارات.'
+                                                : 'Confirm that the model number, power rating, and version match the product you are considering; results can differ between revisions.'}
                                         </p>
                                     </div>
                                 </div>
@@ -327,36 +280,14 @@ export default async function TeamPage({ params }: Props) {
                                     </span>
                                     <div>
                                         <h3 className="font-bold text-sm text-amber-800 dark:text-amber-300 mb-1">
-                                            {isArabic ? 'شفافية العيوب والمميزات' : 'Transparent Pros & Cons'}
+                                            {isArabic ? 'راجع الإفصاحات' : 'Review Disclosures'}
                                         </h3>
                                         <p className="text-xs text-amber-700 dark:text-amber-400">
                                             {isArabic
-                                                ? 'يذكرون عيوب المنتجات بصراحة. لا يخفون المشاكل ولا يبالغون في المميزات — ما يساعدك على اتخاذ القرار الصحيح.'
-                                                : 'They point out product flaws honestly. No hiding issues, no exaggerating features — helping you make the right decision.'}
+                                                ? 'تحقق من وجود إعلان أو رعاية أو رابط عمولة في المحتوى، ووازن بين المزايا والعيوب المذكورة.'
+                                                : 'Check whether the content discloses advertising, sponsorship, or affiliate links, and weigh the stated pros and cons.'}
                                         </p>
                                     </div>
-                                </div>
-                            </div>
-                        </section>
-
-                        {/* Trust Stats */}
-                        <section className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-                                <div>
-                                    <p className="text-4xl font-bold">7</p>
-                                    <p className="text-sm opacity-80">{isArabic ? 'صنّاع محتوى نرشّحهم' : 'Creators We Recommend'}</p>
-                                </div>
-                                <div>
-                                    <p className="text-4xl font-bold">4</p>
-                                    <p className="text-sm opacity-80">{isArabic ? 'دول عربية' : 'Arab Countries'}</p>
-                                </div>
-                                <div>
-                                    <p className="text-4xl font-bold">15M+</p>
-                                    <p className="text-sm opacity-80">{isArabic ? 'مجموع متابعيهم على قنواتهم' : 'Their Combined Audience'}</p>
-                                </div>
-                                <div>
-                                    <p className="text-4xl font-bold">10+</p>
-                                    <p className="text-sm opacity-80">{isArabic ? 'أعوام من خبرتهم الجماعية' : 'Years of Their Experience'}</p>
                                 </div>
                             </div>
                         </section>

@@ -18,135 +18,121 @@ export const joyroom_3_in_1_wireless_charging_station = {
             { id: "img_2", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-2.webp", alt: "محطة شحن لاسلكية 3 في 1 جوي روم مصر - JR-WQN01 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-3.webp", alt: "Joyroom MagSafe Charger iPhone Watch AirPods - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-4.webp", alt: "شاحن لاسلكي للايفون والساعة والايربودز - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-5.webp", alt: "Joyroom Wireless Station Best Price Egypt - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-5.webp", alt: "Joyroom Wireless Station Current Price Egypt - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_6", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-6.webp", alt: "محطة شحن ابل 3 في 1 - توصيل القاهرة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
-                name: "Joyroom 3-in-1 MagSafe Station | iPhone 17 + Apple Watch + AirPods | 15W | Aluminum | 18-Month Warranty",
-                shortDescription: "📱 iPhone 17 15W MagSafe | ⌚ Apple Watch Fast Charge | 🎧 AirPods Pro 2 | 🔄 3 Devices Simultaneously | 🏛️ Premium Aluminum | 🏆 18-Month Warranty",
+                name: "Joyroom 3-in-1 MagSafe Station | iPhone 17 + Apple Watch + AirPods | 15W | Aluminum",
+                shortDescription: "Three wireless charging positions | verify phone, watch and case compatibility | check simultaneous-output table, required adapter and package contents",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Joyroom 3-in-1 MagSafe Station</strong> charges <strong>iPhone 17 + Apple Watch + AirPods simultaneously</strong> at 15W. Premium aluminum build. Eliminates 3 cables from your nightstand. At 1,206 EGP, the premium Apple ecosystem dock. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom JR-WQN01 3-in-1 wireless charging station</strong> provides separate positions for a compatible magnetic-charging iPhone, Apple Watch and wireless-charging earbud case. Confirm the exact output of each position, simultaneous-output limits, required adapter, device compatibility and package contents on the supplied unit. Actual power and temperature vary with alignment, case, adapter, battery state and use. Check current price, stock and warranty terms.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
-        <li>📱 <strong>iPhone 17:</strong> 15W MagSafe wireless charging.</li>
-        <li>⌚ <strong>Apple Watch:</strong> Ultra 2, Series 10, all models fast charge.</li>
-        <li>🎧 <strong>AirPods:</strong> Pro 2 / 3rd Gen wireless pad.</li>
-        <li>🏛️ <strong>Premium:</strong> Aluminum alloy, adjustable angle, single cable.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>2.23 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "This replaced 3 chargers and 3 cables on my nightstand. Now it's one elegant aluminum station with one cable. I place my iPhone 15 Pro on the MagSafe pad, click my Apple Watch Ultra on the charging puck, and drop my AirPods Pro 2 on the bottom pad. Everything charges overnight, and in the morning I grab all three devices fully charged. The adjustable angle is perfect for using the iPhone as a bedside clock with StandBy mode. The aluminum build feels premium — it doesn't feel like a budget accessory at all. For anyone with the Apple trifecta (iPhone + Watch + AirPods), this is the cleanest charging solution under 1,500 EGP."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
+        <li>📱 <strong>Magnetic phone position:</strong> verify the supported standard and listed output for the exact phone.</li>
+        <li>⌚ <strong>Watch position:</strong> check Apple Watch model and fast-charge support.</li>
+        <li>🎧 <strong>Earbud position:</strong> requires a compatible wireless-charging case.</li>
+        <li>🏛️ <strong>Construction:</strong> listed aluminum build, adjustable angle and single input cable.</li>
+    <li>🧾 <strong>Returns and warranty:</strong> handled under the current published policy and eligibility terms.</li><li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>JR-WQN01</strong>, start with the manufacturer-rated input/output profiles, port layout and supported charging protocols printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">3 Devices, 1 Station, 1 Cable</h2>
-        <p class="text-gray-700">Stop juggling 3 chargers. Place your <strong>iPhone 17 on MagSafe</strong> (15W), click your <strong>Apple Watch on the puck</strong>, and drop <strong>AirPods Pro 2 on the pad</strong>. All three charge simultaneously from a single USB-C cable. Your nightstand or desk goes from cable spaghetti to clean minimalism.</p>
+        <p class="text-gray-700">The station can hold three compatible devices at once according to the listing. Simultaneous charging may redistribute available power, so compare the required adapter and per-position output table with the phone, watch and earbud case before ordering.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">iPhone StandBy Mode: Your Bedside Clock</h2>
-        <p class="text-gray-700">The <strong>adjustable viewing angle</strong> tilts your iPhone to the perfect position for iOS 17+ StandBy mode. Your iPhone becomes a smart bedside clock showing time, weather, and notifications while charging. No separate alarm clock needed.</p>
+        <p class="text-gray-700">The <strong>adjustable viewing angle</strong> can position a compatible iPhone for StandBy features supported by its current iOS version and settings. Displayed information, orientation and charging behaviour depend on the phone, case, software, alignment and power source.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Aluminum Build: Looks as Good as Apple</h2>
-        <p class="text-gray-700"><strong>Premium aluminum alloy construction</strong> with a matte finish that matches Apple's design language. This isn't a cheap plastic accessory — it looks like it belongs next to your MacBook and iPad. Weighted base prevents tipping when you remove your phone.</p>
+        <p class="text-gray-700">The listing describes an aluminum-alloy body with a matte finish and weighted base. Stability still depends on placement, phone size, case and how the device is removed; use the station on a flat, dry surface.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17/16/15/14/13/12:</strong> 15W MagSafe wireless.</li>
-        <li>⌚ <strong>Apple Watch Ultra 2 / Series 10/9/8:</strong> Fast charging.</li>
-        <li>🎧 <strong>AirPods Pro 2 / 3rd Gen:</strong> Wireless charging case.</li>
+        <li>📱 <strong>Compatible magnetic-charging iPhones:</strong> verify the standard, case and listed output.</li>
+        <li>⌚ <strong>Apple Watch:</strong> verify exact model and charging-speed support.</li>
+        <li>🎧 <strong>AirPods and other cases:</strong> the case must support the station's wireless standard.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Apple ecosystem ONLY — does NOT charge Samsung or Android wirelessly. Apple Watch charger module is Watch-specific. iPhone must be MagSafe compatible (iPhone 12+). AirPods must be wireless charging case model. Power adapter NOT included.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Before ordering:</h3><p class="text-gray-700">Match JR-WQN01, its input and per-position outputs, supported charging standards and current package contents with your devices. Do not assume Android exclusion or Apple fast charging from the product shape alone; check each device and case. Confirm separately whether a power adapter is included.</p></div>
 `,
-                features: ["📱 15W MagSafe iPhone", "⌚ Apple Watch Fast Charge", "🎧 AirPods Pro 2 Wireless", "🔄 3 Devices Simultaneously", "🏛️ Premium Aluminum", "📐 Adjustable StandBy Angle", "🔌 Single Cable Setup", "🏆 18-Month Warranty"],
+                features: ["📱 Verify magnetic-phone standard and output", "⌚ Check Apple Watch model support", "🎧 For compatible wireless earbud cases", "🔄 Check simultaneous-output table", "🏛️ Listed aluminum construction", "📐 Adjustable viewing angle", "🔌 Single input cable", "🏆 Current warranty terms"],
                 metaTitle: "Joyroom 3-in-1 Wireless Station ⚡ iPhone+Watch+AirPods | COD",
-                metaDesc: "Buy Joyroom 3-in-1 MagSafe station in Egypt. iPhone 17 15W + Apple Watch fast charge + AirPods Pro 2. Premium aluminum. 18-month warranty. Best price.",
+                metaDesc: "Explore Joyroom JR-WQN01 3-in-1 wireless charging station in Egypt. Check phone, Apple Watch and earbud-case compatibility, output, adapter, stock and warranty.",
                 faqs: [
-                    { question: "Does it support Apple Watch Ultra 2?", answer: "Yes! The Watch charging spot supports all Apple Watch models including Ultra 2, Series 10, and older. It provides fast charging for compatible Watch models." },
-                    { question: "What iPhone models are compatible?", answer: "All MagSafe iPhones: iPhone 17, 16, 15, 14, 13, and 12 series. The magnetic alignment ensures optimal 15W charging speed for all compatible models." },
-                    { question: "Do I need a special power adapter?", answer: "For full 15W iPhone charging speed, use a 30W+ USB-C power adapter (not included). Lower wattage adapters will still work but at reduced charging speeds." },
-                    { question: "Can I use it while traveling?", answer: "Yes, the compact foldable design is travel-friendly. Replace 3 separate chargers with this single station - perfect for trips." }
+                    { question: "Does it support Apple Watch Ultra 2?", answer: "Check the current JR-WQN01 compatibility list and the watch's charging requirements. Watch model support and fast-charge behavior should be confirmed for the exact supplied station." },
+                    { question: "What iPhone models are compatible?", answer: "Check the phone's magnetic-charging standard, case and current JR-WQN01 compatibility list. The listed maximum is not guaranteed for every model or setup." },
+                    { question: "Do I need a special power adapter?", answer: "Use an adapter that matches the station's printed input and the simultaneous-output requirement. Confirm the current package contents rather than assuming an adapter is included." },
+                    { question: "Can I use it while traveling?", answer: "The foldable design can reduce packed parts, but confirm the supplied power adapter, plug, input voltage, device compatibility and airline or accommodation rules for the destination." }
                 ,
-                    { question: "What does the CairoVolt warranty cover?", answer: "18-month full replacement warranty. Covers charging coil failure, overheating, or base defects. Free return shipping across Egypt." }]
+                    { question: "What does the CairoVolt warranty cover?", answer: "The written terms currently shown for this listing define duration, eligible defects, exclusions, proof of purchase and service or shipping steps. Review them before ordering." }]
             },
             ar: {
-                name: "محطة شحن جوي روم 3 في 1 | كومودينو رايق بدون كركبة سلوك | ضمان 18 شهر",
+                name: "محطة شحن جوي روم 3 في 1 | كومودينو رايق بدون كركبة سلوك",
                 shortDescription: "شاحن واحد للايفون والساعة والايربودز | 📱 MagSafe 15 واط | ⌚ شحن ابل واتش سريع | 🏛️ تصميم ألومنيوم فخم",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، محطة <strong>جوي روم 3 في 1 MagSafe</strong> بتشحن <strong>ايفون 17 + ساعة أبل + AirPods في نفس الوقت</strong> بـ 15 واط. بناء ألومنيوم فاخر. بتلغي 3 كابلات من الكومودينو. بـ 1,206 جنيه، محطة شحن نظام أبل الفاخرة. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">توفر <strong>محطة جوي روم JR-WQN01 للشحن اللاسلكي 3 في 1</strong> مواضع منفصلة لهاتف ايفون متوافق مع الشحن المغناطيسي وساعة ابل وعلبة سماعات تدعم الشحن اللاسلكي. تحقق من خرج كل موضع وحدود الخرج المتزامن والمحول المطلوب والتوافق ومحتويات العبوة على الوحدة الموردة. القدرة والحرارة تتغيران حسب المحاذاة والجراب والمحول والبطارية والاستخدام. راجع السعر والمخزون والضمان الحالي.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
     <ul class="list-none space-y-1">
-        <li>📱 <strong>ايفون 17:</strong> شحن MagSafe لاسلكي 15 واط.</li>
-        <li>⌚ <strong>ابل واتش:</strong> الترا 2، سيريس 10، كل الموديلات شحن سريع.</li>
-        <li>🎧 <strong>ايربودز:</strong> برو 2 / الجيل الثالث لاسلكي.</li>
-        <li>🏛️ <strong>فاخر:</strong> ألومنيوم، زاوية قابلة للتعديل، كابل واحد.</li>
+        <li>📱 <strong>موضع الهاتف المغناطيسي:</strong> تحقق من المعيار والخرج المدعومين للهاتف الدقيق.</li>
+        <li>⌚ <strong>موضع الساعة:</strong> تحقق من موديل ابل واتش ودعم الشحن السريع.</li>
+        <li>🎧 <strong>موضع السماعات:</strong> يحتاج علبة شحن لاسلكي متوافقة.</li>
+        <li>🏛️ <strong>الخامات:</strong> هيكل ألومنيوم معلن وزاوية قابلة للتعديل وكابل دخل واحد.</li>
     </ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "استبدلت 3 شواحن و 3 كابلات على الكومودينو. دلوقتي محطة ألومنيوم أنيقة بكابل واحد. بحط ايفون 15 برو على MagSafe، بثبّت ابل واتش ألترا على الشاحن، وبحط ايربودز برو 2 على القاعدة. كل حاجة بتتشحن بالليل، والصبح باخد التلات أجهزة مشحونة بالكامل. الزاوية القابلة للتعديل مثالية لوضع StandBy كساعة جنب السرير. الألومنيوم حاسسك بفخامة — مش حاسسك إنه إكسسوار رخيص خالص. لأي حد عنده ثلاثي Apple (ايفون + واتش + ايربودز)، ده أنظف حل شحن تحت 1,500 جنيه."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>JR-WQN01</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">3 أجهزة، محطة واحدة، كابل واحد</h2>
-        <p class="text-gray-700">بطّل تلعب بـ 3 شواحن. حط <strong>ايفون 17 على MagSafe</strong> (15 واط)، ثبّت <strong>ابل واتش على الشاحن</strong>، وحط <strong>ايربودز برو 2 على القاعدة</strong>. التلاتة بيتشحنوا في نفس الوقت من كابل USB-C واحد. الكومودينو بيتحول من فوضى كابلات لنظافة مثالية.</p>
+        <p class="text-gray-700">يمكن للمحطة حمل ثلاثة أجهزة متوافقة معاً وفق القائمة. قد يعيد الشحن المتزامن توزيع القدرة المتاحة، لذلك قارن المحول المطلوب وجدول خرج كل موضع بمتطلبات الهاتف والساعة وعلبة السماعات.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">وضع StandBy: ساعة جنب السرير</h2>
-        <p class="text-gray-700"><strong>الزاوية القابلة للتعديل</strong> بتميّل ايفونك للوضع المثالي لوضع StandBy في iOS 17+. ايفونك بيتحول لساعة ذكية جنب السرير بتعرض الوقت والطقس والإشعارات وانت بتشحن. مفيش حاجة لساعة منبّه منفصلة.</p>
+        <p class="text-gray-700">تساعد <strong>الزاوية القابلة للتعديل</strong> على وضع ايفون متوافق لميزات StandBy التي يدعمها إصدار iOS والإعدادات الحالية. تعتمد المعلومات والاتجاه والشحن على الهاتف والجراب والبرنامج والمحاذاة ومصدر الطاقة.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">ألومنيوم: شكله زي Apple</h2>
-        <p class="text-gray-700"><strong>تصنيع ألومنيوم فاخر</strong> بلمسة مات بتطابق لغة تصميم Apple. ده مش إكسسوار بلاستيك رخيص — شكله كإنه مكانه جنب ال MacBook وال iPad. قاعدة ثقيلة بتمنع الإنقلاب لما تشيل الموبايل (الهاتف الذكي).</p>
+        <p class="text-gray-700">تصف القائمة هيكل ألومنيوم بلمسة مطفية وقاعدة موزونة. الثبات الفعلي يعتمد على السطح وحجم الهاتف والجراب وطريقة رفع الجهاز؛ استخدم المحطة على سطح مستو وجاف.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>ايفون 17/16/15/14/13/12:</strong> 15 واط MagSafe لاسلكي.</li>
-        <li>⌚ <strong>ابل واتش الترا 2 / سيريس 10/9/8:</strong> شحن سريع.</li>
-        <li>🎧 <strong>ايربودز برو 2 / الجيل الثالث:</strong> علبة شحن لاسلكية.</li>
+        <li>📱 <strong>ايفون المتوافق مع الشحن المغناطيسي:</strong> تحقق من المعيار والجراب والخرج المعلن.</li>
+        <li>⌚ <strong>ابل واتش:</strong> تحقق من الموديل الدقيق ودعم سرعة الشحن.</li>
+        <li>🎧 <strong>ايربودز والعلب الأخرى:</strong> يجب أن تدعم العلبة معيار المحطة اللاسلكي.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">تذبذب كهرباء مصر ممكن يأثر على الشحن اللاسلكي — الستيشن دي فيها حماية فولتية مدمجة. نظام أبل بس — مش بتشحن سامسونج أو أندرويد لاسلكياً. وحدة شحن ساعة أبل خاصة بالساعة بس. الايفون لازم يكون متوافق MagSafe (ايفون 12+). AirPods لازم يكون موديل العلبة اللاسلكية. محول الطاقة مش في العلبة.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحقق قبل الطلب:</h3><p class="text-gray-700">طابق JR-WQN01 ومدخلها وخرج كل موضع ومعايير الشحن المدعومة ومحتويات العبوة الحالية مع أجهزتك. لا تفترض استبعاد اندرويد أو دعم شحن ابل السريع من شكل المنتج وحده؛ راجع كل جهاز وجراب. تأكد منفصلاً مما إذا كان محول الطاقة مرفقاً.</p></div>
 `,
-                features: ["📱 15 واط MagSafe ايفون", "⌚ ابل واتش شحن سريع", "🎧 ايربودز برو 2 لاسلكي", "🔄 3 أجهزة معاً", "🏛️ ألومنيوم فاخر", "📐 زاوية StandBy", "🔌 كابل واحد", "🏆 ضمان 18 شهر", "🔒 معتمد Qi رسمياً → توافق رسمي مع معيار الشحن اللاسلكي"],
+                features: ["📱 شحن مغناطيسي معلن حتى 15 واط", "⌚ موضع شحن لساعة ابل المتوافقة", "🎧 موضع شحن لاسلكي للعلب المتوافقة", "🔄 3 أجهزة معاً حسب التوافق", "🏛️ هيكل ألومنيوم", "📐 زاوية StandBy", "🔌 كابل واحد", "🧾 راجع سياسة الضمان والاسترجاع", "🔒 تحقق من علامة Qi والموديل على الوحدة ووثائق الشركة"],
                 metaTitle: "محطة شحن جوي روم 3 في 1 ⚡ ايفون + واتش + ايربودز | COD مصر",
-                metaDesc: "اشتري محطة شحن جوي روم 3 في 1 في مصر. ايفون 17 MagSafe 15 واط + ابل واتش شحن سريع + ايربودز برو 2. ألومنيوم فاخر. ضمان 18 شهر. أفضل سعر.",
+                metaDesc: "تعرف على محطة جوي روم JR-WQN01 للشحن اللاسلكي 3 في 1 في مصر. راجع توافق الهاتف وساعة ابل وعلبة السماعات والخرج والمحول والمخزون والضمان.",
                 faqs: [
-                    { question: "هل تدعم ابل واتش الترا 2؟", answer: "نعم! مكان شحن الساعة يدعم جميع موديلات ابل واتش بما فيها الترا 2 وسيريس 10 والأقدم. يوفر شحن سريع للموديلات المتوافقة." },
-                    { question: "ما موديلات الايفون المتوافقة؟", answer: "جميع أجهزة MagSafe: ايفون 17 و16 و15 و14 و13 و12. المحاذاة المغناطيسية تضمن سرعة شحن 15 واط المثلى لجميع الموديلات المتوافقة." },
-                    { question: "هل أحتاج شاحن خاص؟", answer: "للحصول على سرعة شحن 15 واط الكاملة للايفون، استخدم شاحن USB-C 30 واط أو أعلى (غير مشمول). الشواحن الأقل ستعمل لكن بسرعة أقل." },
-                    { question: "هل يمكن استخدامها في السفر؟", answer: "نعم، التصميم المدمج القابل للطي مناسب للسفر. استبدل 3 شواحن منفصلة بهذه المحطة الواحدة - مثالية للرحلات." }
+                    { question: "هل تدعم ابل واتش الترا 2؟", answer: "راجع قائمة توافق JR-WQN01 الحالية ومتطلبات الساعة. يجب تأكيد دعم الموديل وسلوك الشحن السريع للمحطة الموردة." },
+                    { question: "ما موديلات الايفون المتوافقة؟", answer: "راجع معيار الشحن المغناطيسي للهاتف والجراب وقائمة توافق JR-WQN01 الحالية. الحد المعلن لا يتحقق بالضرورة مع كل موديل أو إعداد." },
+                    { question: "هل أحتاج شاحن خاص؟", answer: "استخدم محولاً يطابق دخل المحطة المطبوع ومتطلبات الخرج المتزامن. تحقق من محتويات العبوة الحالية ولا تفترض وجود المحول." },
+                    { question: "هل يمكن استخدامها في السفر؟", answer: "قد يقلل التصميم القابل للطي عدد القطع المحمولة، لكن تحقق من محول الطاقة والقابس وجهد الدخل وتوافق الأجهزة وقواعد شركة الطيران أو مكان الإقامة في الوجهة." }
                 ,
-                    { question: "ضمان كايرو فولت 18 شهر بيغطي إيه؟", answer: "استبدال كامل. بيغطي عطل ملف الشحن، ارتفاع حرارة، أو عيوب القاعدة. شحن إرجاع مجاني لكل مصر." }]
+                    { question: "شروط ضمان كايرو فولت الحالية بتغطي إيه؟", answer: "التغطية والأهلية وإجراءات الإرجاع تخضع للسياسة المنشورة وقت الطلب. احتفظ بالفاتورة وتواصل مع كايرو فولت برقم الموديل ووصف العطل للتقييم." }]
             }
         },
-        meta: { keywords: "جوي روم 3 in 1 charger, محطة شحن 3 في 1, شاحن ايفون ساعة ايربودز, magsafe charging station egypt, شاحن لاسلكي ابل مصر, جوي روم fast charger, جوي روم wall charger egypt, جوي روم usb c charger, جوي روم gan charger, جوي روم iphone charger egypt, جوي روم samsung charger, جوي روم best charger egypt 2026, جوي روم cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, جوي روم 3-in-1 wireless charger, جوي روم wireless charging station FCC CE certified", mainTerm: "joyroom 3-in-1 wireless charger" },
+        meta: { keywords: "جوي روم 3 in 1 charger, محطة شحن 3 في 1, شاحن ايفون ساعة ايربودز, magsafe charging station egypt, شاحن لاسلكي ابل مصر, جوي روم fast charger, جوي روم wall charger egypt, جوي روم usb c charger, جوي روم gan charger, جوي روم iphone charger egypt, جوي روم samsung charger, جوي روم cod egypt charger, سعر شاحن جوي روم, جوي روم 3-in-1 wireless charger, verify wireless charging station compliance marks", mainTerm: "joyroom 3-in-1 wireless charger" },
         expertOpinion: {
-            en: "Clean up your nightstand instanty. One cable for phone, watch, and pods. The build quality feels premium with the metal accents. It charges the watch surprisingly fast for a 3-in-1. Essential for anyone deep in the Apple ecosystem.",
-            ar: "نظف منضدتك فوراً. كابل واحد للهاتف والساعة والسماعات. جودة التصنيع تشعرك بالفخامة مع اللمسات المعدنية. يشحن الساعة بسرعة مدهشة لكونه 3 في 1. ضروري لأي شخص منغمس في نظام أبل."
+            en: "JR-WQN01 may suit buyers who want three compatible charging positions from one station. Confirm each device, simultaneous-output table, required adapter, package contents and current warranty before choosing.",
+            ar: "قد تناسب JR-WQN01 من يريد ثلاثة مواضع شحن متوافقة في محطة واحدة. تحقق من كل جهاز وجدول الخرج المتزامن والمحول المطلوب ومحتويات العبوة والضمان الحالي قبل الاختيار."
         },
         relatedProducts: ["joyroom-20w-usb-c-charger", "joyroom-25w-fast-charger", "joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-magnetic-power-bank-10000"],
 

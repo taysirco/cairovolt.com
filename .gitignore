@@ -46,6 +46,7 @@ next-env.d.ts
 functions/node_modules
 functions/*.json
 !functions/package.json
+!functions/package-lock.json
 functions/.secret.*
 
 # Service account keys (NEVER commit these)
@@ -65,9 +66,16 @@ firebase-debug.log
 cairovolt_content_blueprint.md
 cairovolt-blog.md
 cairovolt-blog-topics-2026.md
+cairovolt-dominance-playbook.md
+cairovolt-keyword-strategy.md
 voice.md
 new_product_guide.md
 keyword_analysis_report.md
+anker-reviews-313.xlsx
+docs/main-category-hubs-redesign-plan-ar.md
+keyword-research/
+marketing/
+.claude/
 
 # Content plans & roadmaps (local-only — never push)
 cairovolt-blog-roadmap.md
@@ -89,8 +97,6 @@ invoice_*.pdf
 # Wholesale catalogs & dashboards (standalone HTML) — local business docs, keep out of repo
 anker_wholesale_catalog.html
 wholesale-dashboard.html
-# Exception: the in-app staff catalog tool IS published (served at /wholesale-dashboard.html, noindex)
-!public/wholesale-dashboard.html
 
 # Chrome extension (separate project)
 cairovolt-authenticator/
@@ -115,7 +121,7 @@ cairovolt-authenticator.zip
 !/scripts/schedule-blog.mjs
 !/scripts/next-publish-date.mjs
 !/scripts/optimize-blog-covers.mjs
-!/scripts/prepare-category-assets.mjs
+!/scripts/check-repository-hygiene.mjs
 
 # Root-level utility scripts (local tools)
 /convert_all.py
@@ -132,12 +138,15 @@ product-page-new
 # Analysis datasets & keyword research CSVs
 public/datasets/
 
-# C2PA manifests (generated dynamically in src/lib/media-verification.ts)
+# Legacy/generated provenance artifacts are local-only.
 .c2pa-manifests/
-!.c2pa-manifests/
-.c2pa-manifests/*
-!.c2pa-manifests/category-cards/
-!.c2pa-manifests/category-cards/**
+
+# Local review imports and retired presentation fallbacks.
+src/data/reviews/
+src/data/product-reviews.ts
+src/components/home/SocialProofStrip.tsx
+public/images/blog/og/cairovolt-c2pa-authentication-card.jpg
+public/images/blog/posts/cairovolt-c2pa-authentication-card.webp
 
 # IDE & editor settings
 .vscode/

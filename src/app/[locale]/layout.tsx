@@ -71,15 +71,15 @@ export async function generateMetadata({
     title: isAr
       ? {
           template: '%s | كايرو فولت',
-          default: 'كايرو فولت | اكسسوارات موبايل أصلية في مصر — انكر وجوي روم',
+          default: 'كايرو فولت | اكسسوارات موبايل في مصر — انكر وجوي روم',
         }
       : {
           template: '%s | CairoVolt',
-          default: 'CairoVolt | Original Mobile Accessories in Egypt — Anker & Joyroom',
+          default: 'CairoVolt | Mobile Accessories in Egypt — Anker & Joyroom',
         },
     description: isAr
-      ? 'كايرو فولت — وجهتك لاكسسوارات الموبايل الأصلية في مصر: باور بانك، شواحن، سماعات وكابلات من انكر وساوندكور وجوي روم بضمان حقيقي والدفع عند الاستلام.'
-      : 'Shop the best mobile accessories from Anker and Joyroom in Egypt. Power banks, chargers, earbuds, cables at the best prices with official warranty.',
+      ? 'كايرو فولت متجر متخصص في اكسسوارات الموبايل في مصر: باور بانك، شواحن، سماعات وكابلات من انكر وساوندكور وجوي روم بشروط ضمان كايرو فولت المكتوبة والدفع عند الاستلام.'
+      : 'Shop Anker, Soundcore, and Joyroom mobile accessories in Egypt with written CairoVolt warranty terms and cash on delivery.',
     icons: {
       icon: [
         { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
@@ -102,7 +102,7 @@ export async function generateMetadata({
           width: 1200,
           height: 630,
           alt: isAr
-            ? 'كايرو فولت — اكسسوارات موبايل أصلية في مصر'
+            ? 'كايرو فولت — اكسسوارات موبايل في مصر'
             : 'CairoVolt - Premium Mobile Accessories in Egypt',
         },
       ],
@@ -110,11 +110,11 @@ export async function generateMetadata({
     twitter: {
       card: 'summary_large_image',
       title: isAr
-        ? 'كايرو فولت | اكسسوارات موبايل أصلية في مصر'
+        ? 'كايرو فولت | اكسسوارات موبايل في مصر'
         : 'CairoVolt - Premium Mobile Accessories in Egypt',
       description: isAr
-        ? 'منتجات انكر وساوندكور وجوي روم الأصلية بضمان حقيقي والدفع عند الاستلام — توصيل لكل محافظات مصر.'
-        : 'Shop original Anker & Joyroom accessories with official warranty. Power banks, chargers, earbuds, cables.',
+        ? 'منتجات انكر وساوندكور وجوي روم بشروط ضمان كايرو فولت المكتوبة والدفع عند الاستلام — توصيل لكل محافظات مصر.'
+        : 'Shop Anker, Soundcore, and Joyroom accessories with written CairoVolt warranty terms, including power banks, chargers, earbuds, and cables.',
       images: ['/og-cover.png'],
     },
   };
@@ -336,17 +336,17 @@ export default async function RootLayout({
                   });
 
                   navigator.modelContext.registerTool({
-                    name: 'verify_product',
-                    description: 'Verify CairoVolt product authenticity using a 13-character serial number from the warranty card. Uses C2PA digital fingerprinting.',
+                    name: 'check_warranty_serial',
+                    description: 'Check whether a 13-character warranty-card serial was issued by CairoVolt and view or activate its CairoVolt warranty record. This does not certify manufacturer authenticity.',
                     inputSchema: {
                       type: 'object',
                       properties: {
-                        serial: { type: 'string', description: '13-character serial number (format: CV-XXXXXXXXXXX)' }
+                        serial: { type: 'string', description: '13-character CairoVolt serial (format: CV-1XXXXXm313)' }
                       },
                       required: ['serial']
                     },
                     execute: async function(params) {
-                      var res = await fetch('/api/v1/verify-content', {
+                      var res = await fetch('/api/verify', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ serial: params.serial })

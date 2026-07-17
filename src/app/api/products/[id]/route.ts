@@ -22,10 +22,21 @@ export async function GET(
             return NextResponse.json({ error: 'Product not found' }, { status: 404 });
         }
 
-        return NextResponse.json({
-            id: doc.id,
-            ...doc.data()
-        });
+        const data = (doc.data() || {}) as Record<string, unknown>;
+        const variants = Array.isArray(data.variants)
+            ? data.variants.map(variant => {
+                if (!variant || typeof variant !== 'object') return variant;
+                const publicVariant = { ...(variant as Record<string, unknown>) };
+                delete publicVariant.originalPrice;
+                delete publicVariant.discountPercentage;
+                return publicVariant;
+            })
+            : data.variants;
+        const publicProduct: Record<string, unknown> = { ...data, variants };
+        delete publicProduct.originalPrice;
+        delete publicProduct.discountPercentage;
+
+        return NextResponse.json({ id: doc.id, ...publicProduct });
     } catch (error) {
         console.error('Error fetching product:', error);
         return NextResponse.json({ error: 'Failed to fetch product' }, { status: 500 });

@@ -37,7 +37,6 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
       productId: product.slug,
       name: isAr ? localizeArabicBrandNames(product.name.ar) : product.name.en,
       price: product.price,
-      originalPrice: product.originalPrice,
       quantity: 1,
       image: product.image,
       brand: product.brand,
@@ -131,11 +130,6 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
                     <span className={`text-[10px] font-bold uppercase tracking-[.14em] sm:text-[11px] ${brandColor}`}>
                       {getBrandDisplayName(product.brand, locale)}
                     </span>
-                    {product.originalPrice && product.originalPrice > product.price && (
-                      <span className="rounded-full bg-rose-50 px-2 py-1 text-[9px] font-bold text-rose-700 sm:text-[10px]">
-                        -{Math.round((1 - product.price / product.originalPrice) * 100)}%
-                      </span>
-                    )}
                   </div>
 
                   <Link
@@ -153,9 +147,6 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
                   <div className="mt-auto flex flex-wrap items-baseline gap-x-1.5 pt-4">
                     <strong className="font-outfit text-lg text-[#07111f] sm:text-xl">{product.price.toLocaleString()}</strong>
                     <span className="text-[10px] text-slate-500 sm:text-xs">{isAr ? 'ج.م' : 'EGP'}</span>
-                    {product.originalPrice && (
-                      <span className="text-[10px] text-slate-400 line-through sm:text-xs">{product.originalPrice.toLocaleString()}</span>
-                    )}
                   </div>
 
                   <button

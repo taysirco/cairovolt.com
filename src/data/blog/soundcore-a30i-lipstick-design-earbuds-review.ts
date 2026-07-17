@@ -30,64 +30,64 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
     translations: {
         ar: {
             title: 'سماعة بتصميم علبة الشفاه — مراجعة A30i بين الأناقة وعزل الضوضاء الفعلي',
-            metaTitle: 'مراجعة سماعة Soundcore A30i وعزل الضوضاء والتصميم | كايرو فولت',
-            metaDescription: 'مراجعة سماعة Soundcore A30i الأنيقة بتصميم علبة الشفاه. تحليل أداء عزل الضوضاء ANC الفعلي حتى 46 ديسيبل، وعمر البطارية الفعلي، والضمان في مصر.',
+            metaTitle: 'مراجعة سماعة ساوندكور A30i وعزل الضوضاء والتصميم | كايرو فولت',
+            metaDescription: 'دليل سماعة ساوندكور A30i بتصميم العلبة الأسطوانية، مع مراجعة مواصفات ANC والبطارية والتطبيق والسعر والتوفر وشروط الضمان الحالية في مصر.',
             keywords: 'soundcore a30i مراجعة, soundcore a30i مصر, سماعة علبة الشفاه soundcore, a30i تصميم, soundcore a30i بطارية, a30i صوت, soundcore a30i سعر مصر, سماعة انيقة مصر, سماعة للبنات مصر, soundcore a30i مواصفات',
-            excerpt: 'A30i من Soundcore جاية بتصميم فريد — كيس أسطواني زي علبة الشفاه بالظبط. لكن هل التصميم الجميل بييجي على حساب الصوت وعزل الضوضاء؟ مراجعة صادقة بالأرقام.',
-            quickAnswer: 'Soundcore A30i سماعة أنيقة بكيس أسطواني مستوحى من علبة الشفاه. تضم تقنية عزل الضوضاء النشط ANC الذكي حتى 46 ديسيبل ودعم كامل لتطبيق Soundcore. تقدم بطارية 7 ساعات (5 ساعات مع ANC) وإجمالي 24 ساعة مع الكيس.',
-            content: `<p>إذا كنتِ تبحثين عن سماعة لاسلكية تجمع بين المظهر الجمالي الفريد والأداء التقني القوي، فإن سماعة Soundcore A30i (المعروفة بتصميم Lipstick) هي أحد الخيارات الملفتة للانتباه في السوق المصري. ولكن خلف هذا التصميم الأنيق والمبتكر، هناك العديد من التساؤلات والمعلومات المغلوطة المنتشرة على الإنترنت؛ حيث تدعي بعض المواقع افتقارها لعزل الضوضاء النشط، أو تبالغ في أرقام عمر البطارية. في هذه المراجعة الفنية الصادقة من معمل كايرو فولت، سنضع السماعة تحت الاختبار الفعلي لنوضح لكِ حقيقة الأداء الصوتي وعزل الضوضاء وعمر البطارية الحقيقي.</p>
+            excerpt: 'A30i من ساوندكور بتصميم علبة أسطوانية؛ الدليل يقارن المواصفات المنشورة للصوت وعزل الضوضاء والبطارية مع ظروف الاستخدام التي قد تغيّر النتيجة.',
+            quickAnswer: 'ساوندكور A30i سماعة بعلبة أسطوانية وتدعم تطبيق ساوندكور. راجع مواصفات ANC والبطارية المنشورة للموديل، لأن النتيجة الفعلية تتغير حسب مستوى الصوت والعزل والهاتف والبيئة.',
+            content: `
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>الحكم النهائي لـ Soundcore A30i:</strong> تتميز السماعة بعلبة شحن أسطوانية مبتكرة تشبه علبة أحمر الشفاه تماماً، وتضم تقنية <strong>عزل الضوضاء النشط (ANC) القوي حتى 46 ديسيبل</strong> مع دعم كامل لتطبيق Soundcore. تقدم بطارية تصل إلى 7 ساعات متواصلة (أو 5 ساعات مع تشغيل العزل)، وتعتبر خياراً ممتازاً يدمج الفخامة والأداء العملي في فئتها السعرية.
+        <strong>الحكم النهائي لسماعة ساوندكور A30i:</strong> تتميز السماعة بعلبة شحن أسطوانية مبتكرة تشبه علبة أحمر الشفاه تماماً، وتضم تقنية <strong>عزل الضوضاء النشط (ANC) القوي حتى 46 ديسيبل</strong> مع دعم كامل لتطبيق ساوندكور. تقدم بطارية تصل إلى 7 ساعات متواصلة (أو 5 ساعات مع تشغيل العزل)، وتعتبر خياراً ممتازاً يدمج الفخامة والأداء العملي في فئتها السعرية.
     </p>
 </div>
 
 <h2>التصميم والهيكل الخارجي — أسلوب فريد في الشارع المصري</h2>
-<p>أول ما يجذب الانتباه في سماعة Soundcore A30i هو شكل علبة الشحن (Case). بدلاً من الصناديق المربعة والمستطيلة التقليدية، تأتي العلبة على شكل أسطوانة مدمجة تماماً تشبه أحمر الشفاه الفاخر. يبلغ طول العلبة حوالي 6.5 سم فقط وقطرها 4 سم، مما يجعلها سهلة الحمل للغاية داخل الحقائب النسائية الصغيرة أو الجيوب الضيقة دون إحداث أي بروز مزعج.</p>
+<p>أول ما يجذب الانتباه في سماعة ساوندكور A30i هو شكل علبة الشحن (Case). بدلاً من الصناديق المربعة والمستطيلة التقليدية، تأتي العلبة على شكل أسطوانة مدمجة تماماً تشبه أحمر الشفاه الفاخر. يبلغ طول العلبة حوالي 6.5 سم فقط وقطرها 4 سم، مما يجعلها سهلة الحمل للغاية داخل الحقائب النسائية الصغيرة أو الجيوب الضيقة دون إحداث أي بروز مزعج.</p>
 <p>آلية فتح العلبة تعتمد على السحب للأعلى لإخراج قطعتي السماعة اللتين تستقران في مكانهما بواسطة مغناطيس قوي يمنع سقوطهما حتى عند قلب العلبة رأسًا على عقب. تتوفر السماعة بألوان الباستيل الناعمة والراقية مثل الوردي الهادئ، الأسود المطفي، والأبيض اللؤلؤي بلمسات معدنية ناعمة تمنحها مظهراً فخماً يليق بالمناسبات اليومية والعملية.</p>
 
-<h2>مواصفات Soundcore A30i — الأرقام الحقيقية والتحليل الفني</h2>
-<p>لكي نضمن مصداقية المراجعة، قمنا بتجميع المواصفات المادية الموثقة للموديل A30i في الجدول التالي مقارنة بأداء المعمل:</p>
+<h2>مواصفات ساوندكور A30i — الأرقام المنشورة والتحليل الفني</h2>
+<p>يجمع الجدول التالي المواصفات الرسمية المنشورة من ساوندكور للموديل A30i، مع ملاحظات عملية توضح معنى كل رقم في الاستخدام اليومي:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المواصفة التقنية</th>
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">القيمة الرسمية</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">النتائج والتقييم الفعلي</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">ماذا يعني الرقم عملياً</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">محرك الصوت (Driver)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">10 مم ديناميكي</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">صوت متوازن، وضوح رائع للمدى المتوسط والطبقات العالية.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">درايفر ديناميكي واحد كبير نسبياً في فئته، بمعايرة تركز على وضوح المدى المتوسط، مع إمكانية تعديل التوقيع عبر الـ EQ في التطبيق.</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">عزل الضوضاء النشط (ANC)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">نعم — حتى 46 ديسيبل</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">عزل متكيف ذكي ممتاز للمكاتب والمواصلات العامة وتقليل صوت مكيف الهواء.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">العزل المتكيف يستهدف بطبيعته الترددات المنخفضة مثل هدير المحركات وصوت التكييف، وهي أنسب البيئات لهذه التقنية.</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">بطارية السماعة (بدون ANC)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">7 ساعات متواصلة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">تعطي حوالي 6.5 ساعة فعلية على مستوى صوت 70% في الموسيقى.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">رقم المصنّع محسوب عند مستوى صوت متوسط؛ رفع الصوت أو تفعيل وضع 3D يقلل المدة الفعلية في أي سماعة.</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">بطارية السماعة (مع تشغيل ANC)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">5 ساعات متواصلة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">تستمر لنحو 4.5 ساعات شحن فعلي نتيجة استهلاك خوارزمية العزل للبطارية.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">تعمل ميكروفونات العزل ومعالجته باستمرار، وهو ما يفسر انخفاض المدة المعلنة بحوالي ساعتين (نحو 30%) مقارنة بإيقاف العزل.</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">بطارية العلبة الإجمالية</td>
             <td style="padding:12px;border:1px solid #d1d5db;">تصل لـ 24 ساعة (مع العلبة)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">تقدم 17 ساعة إضافية من الشحن (2.5 شحنة كاملة للسماعات).</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">بحسبة بسيطة: 24 ساعة إجمالية ناقص 7 ساعات في السماعة تعني نحو 17 ساعة إضافية من العلبة، أي قرابة 2.5 شحنة كاملة.</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">نسخة البلوتوث (Bluetooth)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Bluetooth 5.3</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">اتصال مستقر وسريع جداً مع دعم تقنية الاقتران متعدد الأجهزة.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">بروتوكول حديث يدعم الاقتران متعدد الأجهزة بحسب المواصفات المنشورة للموديل.</td>
         </tr>
     </tbody>
 </table>
@@ -95,28 +95,28 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
 <h2>التصميم الأسطواني ضد التصاميم التقليدية — الإيجابيات والسلبيات في الاستخدام اليومي</h2>
 <p>عند مقارنة الهيكل الأسطواني لسماعة A30i بالتصاميم المربعة والمستطيلة المعتادة (مثل P20i أو R50i)، تبرز عدة نقاط هندسية وعملية هامة:</p>
 <ul>
-    <li><strong>توزيع المساحة الداخلية:</strong> لتوفير هذا التصميم النحيف، اضطرت أنكر لاستخدام بطارية أسطوانية ضيقة ومضغوطة داخل علبة الشحن. هذا هو السبب في أن سعة بطارية العلبة الإجمالية هي 24 ساعة فقط مقارنة بـ 45 ساعة في R50i التي تمتلك علبة شحن أعرض ومساحة بطارية أكبر.</li>
+    <li><strong>توزيع المساحة الداخلية:</strong> لتوفير هذا التصميم النحيف، اضطرت انكر لاستخدام بطارية أسطوانية ضيقة ومضغوطة داخل علبة الشحن. هذا هو السبب في أن سعة بطارية العلبة الإجمالية هي 24 ساعة فقط مقارنة بـ 45 ساعة في R50i التي تمتلك علبة شحن أعرض ومساحة بطارية أكبر.</li>
     <li><strong>الملاءمة للجيوب والحقائب:</strong> التصميم الأسطواني ينزلق بسلاسة متناهية داخل حقائب اليد الصغيرة جداً دون أن يشغل مساحة تذكر، ولكنه قد يسبب بروزاً واضحاً ومزعجاً إذا وُضع في جيوب البنطلونات الضيقة للرجال مقارنة بالعلب المسطحة.</li>
     <li><strong>عمر آلية السحب المغناطيسي:</strong> على عكس المفصلات التقليدية التي قد ترتخي مع مرور الوقت وكثرة الاستخدام، تعتمد آلية السحب في A30i على مجرى انزلاقي ومغناطيس قوي. هذا يقلل من الاحتكاك الميكانيكي ويطيل العمر الافتراضي لعلبة الشحن بشكل كبير.</li>
 </ul>
 <p>وإذا لم يكن التصميم الأسطواني أولوية بالنسبة لكِ وتفضلين بطارية أطول بسعر أقل، فقد وصلت حديثاً إلى مخازن كايرو فولت <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور A25i</a> بسعر 1370 جنيه؛ تمنحكِ 28 ساعة تشغيل إجمالية مع تقنية BassUp لتعزيز الباس ومقاومة IPX5 للماء والعرق — سماعة يومية متوازنة بسعر عاقل فعلاً.</p>
 
 <h2>أداء عزل الضوضاء النشط (ANC) — هل هو فعال حقاً؟</h2>
-<p>خلافاً للشائعات التي تدعي عدم وجود ميزة العزل، فإن سماعة Soundcore A30i مزودة بنظام عزل ضوضاء نشط ذكي يعتمد على خوارزمية متكيفة وميكروفونات مزدوجة في كل قطعة لالتقاط الأصوات الخارجية ومعاكستها:</p>
+<p>خلافاً للشائعات التي تدعي عدم وجود ميزة العزل، فإن سماعة ساوندكور A30i مزودة بنظام عزل ضوضاء نشط ذكي يعتمد على خوارزمية متكيفة وميكروفونات مزدوجة في كل قطعة لالتقاط الأصوات الخارجية ومعاكستها:</p>
 <ul>
     <li><strong>عزل الضوضاء التكيفي الذكي:</strong> يتعرف النظام تلقائياً على مستويات الضجيج المحيطة ويقوم بضبط قوة العزل. في بيئة العمل الهادئة يقلل العزل لتجنب الشعور بالضغط داخل الأذن، وعند ركوب المترو أو السير في شوارع القاهرة المزدحمة يرفع قوة العزل لأقصى درجة لحجب أصوات محركات السيارات والضوضاء المحيطة بنسبة تصل لـ 85%.</li>
     <li><strong>وضع الشفافية (Transparency Mode):</strong> يمكنك تفعيل هذا الوضع بلمسة واحدة لتمرير الأصوات الخارجية بوضوح، مما يتيح لكِ التحدث مع المحيطين بكِ أو سماع التنبيهات في الشارع دون الحاجة لخلع السماعة من أذنك.</li>
 </ul>
 
 <h2>ميزة الصوت المحيطي ثلاثي الأبعاد (3D Spatial Audio)</h2>
-<p>من الإضافات الرائعة المتاحة في تطبيق Soundcore لسماعة A30i هي ميزة الصوت المحيطي ثلاثي الأبعاد:</p>
+<p>من الإضافات الرائعة المتاحة في تطبيق ساوندكور لسماعة A30i هي ميزة الصوت المحيطي ثلاثي الأبعاد:</p>
 <ul>
     <li><strong>خوارزمية محاكاة المسرح الصوتي (Soundstage Simulation):</strong> عند تفعيل هذا الوضع، تقوم شريحة المعالجة الداخلية بتعديل استجابة الترددات وإضافة تأثيرات صدى خفيفة لمحاكاة صوت يأتي من جميع الاتجاهات المحيطة بكِ. هذا الوضع ممتاز جداً عند مشاهدة الأفلام السينمائية أو مسلسلات المنصات الرقمية؛ حيث يمنحكِ شعوراً بالاندماج الكامل داخل المشهد.</li>
     <li><strong>الاستخدام الموسيقي والألعاب:</strong> بالنسبة للموسيقى العادية، قد يؤدي وضع 3D إلى جعل بعض الترددات المتوسطة تبدو بعيدة أو غير طبيعية، لذا نوصي بإلغاء تفعيله عند الاستماع للأغاني والتركيز على الـ EQ الافتراضي. وفي الألعاب، يساعد هذا الوضع في تحديد اتجاه الأصوات بشكل أفضل قليلاً.</li>
 </ul>
 
 <h2>جودة الصوت وتجربة الموسيقى والـ EQ</h2>
-<p>بفضل محرك الصوت بقطر 10 مم وتكاملها البرمجي مع تطبيق Soundcore الرسمي، تقدم A30i أداءً صوتياً ممتازاً يتفوق بوضوح على معظم السماعات العادية:</p>
+<p>بفضل محرك الصوت بقطر 10 مم وتكاملها البرمجي مع تطبيق ساوندكور الرسمي، تقدم A30i أداءً صوتياً ممتازاً يتفوق بوضوح على معظم السماعات العادية:</p>
 <ul>
     <li><strong>توقيع الصوت الافتراضي:</strong> يتميز الصوت الافتراضي بالتوازن الكبير؛ حيث تظهر الترددات المتوسطة (الأصوات البشرية والآلات الموسيقية الكلاسيكية) بنقاء رائع دون كتم، مع وجود ترددات باسي دافئة وغير مبالغ فيها تناسب الأغاني الكلاسيكية والموسيقى الهادئة.</li>
     <li><strong>تعديل الصوت عبر التطبيق:</strong> يوفر التطبيق أكثر من 22 إعداداً مسبقاً للصوت لتناسب مختلف الأذواق الموسيقية، بما في ذلك وضع Bass Booster لمحبي إيقاع الباس القوي والعميق، بالإضافة لإمكانية تعديل الـ EQ يدوياً بالكامل.</li>
@@ -130,7 +130,7 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
 </ul>
 
 <h2>تصميم مريح للأذن وثبات ممتاز</h2>
-<p>تم تصميم قطعتي سماعة A30i بشكل مائل ليتناسب بشكل مريح مع المنحنيات الطبيعية للأذن البشرية. تأتي السماعة بوزن فائق الخفة (حوالي 4.8 جرام للقطعة الواحدة) مما يجعلك تنسى وجودها في أذنك بعد دقائق من ارتدائها. كما ترفق أنكر ثلاثة مقاسات مختلفة من الأطراف المطاطية (Ear tips) لضمان الحصول على أفضل عزل سلبي وثبات تام أثناء الحركة والمشي السريع.</p>
+<p>تم تصميم قطعتي سماعة A30i بشكل مائل ليتناسب بشكل مريح مع المنحنيات الطبيعية للأذن البشرية. تأتي السماعة بوزن فائق الخفة (حوالي 4.8 جرام للقطعة الواحدة) مما يجعلك تنسى وجودها في أذنك بعد دقائق من ارتدائها. كما ترفق انكر ثلاثة مقاسات مختلفة من الأطراف المطاطية (Ear tips) لضمان الحصول على أفضل عزل سلبي وثبات تام أثناء الحركة والمشي السريع.</p>
 
 <h2>دوائر حماية البطارية والتعامل مع تذبذب الكهرباء في مصر</h2>
 <p>نظراً لتكرار تغير الجهد الكهربائي وانقطاع الكهرباء في مصر، تم تجهيز علبة شحن A30i بدوائر حماية متطورة لحماية بطارية الليثيوم الداخلية بسعة 350 مللي أمبير:</p>
@@ -140,33 +140,33 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
 </ul>
 
 <h2>الضمان المعتمد وخدمات الصيانة والدعم الفني في مصر</h2>
-<p>يحظى مشترو الموديل A30i في مصر بضمان استثنائي يمتد لـ 18 شهراً من الوكيل الرسمي، والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول جهازك في مراكز الدعم الفني الرسمية.</p>
+<p>تختلف مدة ضمان A30i وجهة الخدمة والإجراء حسب البائع والسياسة المكتوبة وقت الشراء. راجع صفحة المنتج والفاتورة لمعرفة التغطية والاستثناءات، واحتفظ بإثبات الشراء والرقم التسلسلي وأي عبوة تطلبها السياسة؛ ولا تفترض استبدالاً تلقائياً إلا إذا نصّت السياسة المكتوبة وقت الشراء عليه صراحة.</p>
 <p>ملاحظة هامة من فريق الصيانة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن خارج المراكز المعتمدة. كما يوصى بالتحقق من ملصق الضمان الفضي الموجود على كرتونة المنتج للتأكد من الموزع المحلي المسؤول عن التغطية.</p>
 
 <h2>تفاصيل الضمان والتوصيل من كايرو فولت</h2>
-<p>عند شرائك سماعة Soundcore A30i من موقعنا، ستحصلين على تجربة تسوق موثوقة بالكامل تشمل:</p>
+<p>قبل شراء سماعة ساوندكور A30i، راجعي بيانات المنتج والسياسات المنشورة وقت الطلب:</p>
 <ul>
-    <li><strong>ضمان استبدال فوري لمدة 18 شهراً:</strong> لحمايتكِ ضد أي عيوب تصنيعية أو أعطال فنية بالبطارية أو الميكروفون.</li>
-    <li><strong>توصيل سريع لباب البيت:</strong> شحن لجميع محافظات مصر خلال 24 إلى 48 ساعة فقط، مع إمكانية فحص الطرد والتحقق من سلامته الخارجية قبل الدفع للمندوب.</li>
+    <li><strong>الضمان:</strong> راجعي المدة والجهة المقدمة والتغطية والاستثناءات في صفحة المنتج والفاتورة؛ لا يُفترض استبدال فوري إلا إذا نصت السياسة الحالية عليه.</li>
+    <li><strong>التوصيل والاستلام:</strong> تظهر المناطق المتاحة والمدة والتكلفة المقدرة أثناء الطلب، وتطبق إجراءات الفحص والاستلام المنشورة وقت الشراء.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 عروض حصرية على سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">أفضل الموديلات بأفضل الأسعار: <a href="/soundcore/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore A30i الأنيقة</a> · <a href="/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a> · <a href="/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 قارني سماعات ساوندكور المتاحة على كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجعي المواصفات والأسعار وشروط الضمان الحالية: <a href="/soundcore/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور A30i</a> · <a href="/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور P20i</a> · <a href="/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة ساوندكور R50i NC</a>.</p></div>` ,
             faq: [
                 {
-                    question: 'هل تدعم سماعة Soundcore A30i عزل الضوضاء النشط (ANC)؟',
-                    answer: 'نعم، تدعم سماعة Soundcore A30i تقنية عزل الضوضاء النشط (ANC) الذكي والمتكيف حتى 46 ديسيبل، والذي يقوم بحجب الضوضاء الخارجية وضجيج المحركات بنسبة تصل إلى 85%.'
+                    question: 'هل تدعم سماعة ساوندكور A30i عزل الضوضاء النشط (ANC)؟',
+                    answer: 'نعم، تدعم سماعة ساوندكور A30i تقنية عزل الضوضاء النشط (ANC) الذكي والمتكيف حتى 46 ديسيبل بحسب المواصفات المنشورة، والذي يستهدف حجب الضوضاء الخارجية وضجيج المحركات بنسبة تصل إلى 85%.'
                 },
                 {
-                    question: 'ما هو عمر بطارية سماعة Soundcore A30i الحقيقي؟',
+                    question: 'ما هو عمر بطارية سماعة ساوندكور A30i الحقيقي؟',
                     answer: 'تعطي السماعة حتى 7 ساعات تشغيل متواصلة (أو 5 ساعات مع تشغيل وضع عزل الضوضاء ANC). وتوفر علبة الشحن الأسطوانية شحنات إضافية ترفع عمر التشغيل الإجمالي إلى 24 ساعة (أو 18 ساعة مع تشغيل العزل).'
                 },
                 {
-                    question: 'هل تدعم سماعة Soundcore A30i تطبيق الموبايل؟',
-                    answer: 'نعم، تدعم السماعة تطبيق Soundcore الرسمي بالكامل على هواتف أندرويد وآيفون؛ مما يتيح لكِ تعديل 22 وضع إيكوالايزر، وتخصيص أزرار التحكم باللمس، وتحديث نظام التشغيل للسماعة.'
+                    question: 'هل تدعم سماعة ساوندكور A30i تطبيق الموبايل؟',
+                    answer: 'نعم، تدعم السماعة تطبيق ساوندكور الرسمي بالكامل على هواتف أندرويد وآيفون؛ مما يتيح لكِ تعديل 22 وضع إيكوالايزر، وتخصيص أزرار التحكم باللمس، وتحديث نظام التشغيل للسماعة.'
                 },
                 {
                     question: 'هل يؤثر التصميم الأسطواني الأنيق لعلبة A30i على أدائها؟',
-                    answer: 'لا، التصميم الأسطواني عملي جداً وسهل الحمل في الحقائب الصغيرة. لم تضحِّ أنكر بجودة الصوت أو البطارية؛ حيث تحتوي السماعة على درايفر 10 مم وتقدم بطارية إجمالية تصل لـ 24 ساعة.'
+                    answer: 'لا، التصميم الأسطواني عملي جداً وسهل الحمل في الحقائب الصغيرة. لم تضحِّ انكر بجودة الصوت أو البطارية؛ حيث تحتوي السماعة على درايفر 10 مم وتقدم بطارية إجمالية تصل لـ 24 ساعة.'
                 }
             ]
         },
@@ -177,7 +177,7 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
             keywords: 'soundcore a30i review, soundcore a30i egypt, lipstick style earbuds, soundcore a30i specifications, a30i active noise cancelling, soundcore a30i battery, soundcore a30i price egypt, elegant wireless earbuds, women earbuds egypt, soundcore a30i specs',
             excerpt: 'The Soundcore A30i offers an innovative cylindrical case resembling a premium lipstick container. Does this fashion-first design compromise ANC and audio performance? Honest teardown.',
             quickAnswer: 'The Soundcore A30i features a unique cylindrical lipstick-inspired charging case, smart adaptive Active Noise Cancellation (ANC) up to 46dB, and Soundcore app integration. Battery life delivers 7 hours (5 hours with ANC) and 24 hours total.',
-            content: `<p>If you are looking for a wireless earbud that blends unique aesthetics with solid technical performance, the Soundcore A30i (commonly known for its lipstick-styled charging case) is one of the most striking choices in the Egyptian market. However, behind its elegant and innovative shape, there are many misconceptions online, with some sites falsely claiming it lacks Active Noise Cancellation (ANC) or overstating its battery capacity. In this honest engineering review by CairoVolt, we test the earbuds to reveal the physical truth about sound quality, active noise isolation, and real-world battery runtime.</p>
+            content: `
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -190,41 +190,41 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
 <p>To access the earbuds, you pull the sliding carriage upwards. The earbuds are nested securely via strong magnets that prevent them from falling out even if the case is held upside down. Available in soft pastel hues like pale pink, matte black, and pearl white, the case features metallic accents that deliver a luxury feel suitable for both professional and casual environments.</p>
 
 <h2>Specifications and Verified Benchmarks</h2>
-<p>To ensure a reliable evaluation, we have compiled the verified specifications of the Soundcore A30i below alongside our laboratory test results:</p>
+<p>The table below gathers the official specifications Soundcore publishes for the A30i, with practical notes explaining what each figure means in day-to-day listening:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Specification</th>
             <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Official Rating</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Verified Benchmark</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">What It Means in Practice</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Driver Diameter</td>
             <td style="padding:12px;border:1px solid #d1d5db;">10mm Dynamic</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Delivers a balanced soundstage with clean vocals and smooth trebles.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">A relatively large single dynamic driver for this class, tuned for clear vocals — and the app EQ lets you reshape the signature.</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Active Noise Cancelling (ANC)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Yes — Up to 46dB adaptive</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Effectively dampens low-frequency engine hums and ventilation noises.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Adaptive cancellation targets low-frequency noise such as engine hum and ventilation — the range ANC handles best by design.</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud Runtime (ANC Off)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">7 Hours continuous</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Expect approximately 6.5 hours of real playback at 70% volume.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">A manufacturer rating taken at moderate volume; louder listening or 3D mode shortens runtime on any earbud.</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud Runtime (ANC On)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">5 Hours continuous</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Filters run continuously, draining the cell in approximately 4.5 hours.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">The ANC microphones and processing draw power continuously, which explains the roughly 2-hour (about 30%) drop versus ANC off.</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Total Charging Case Battery</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Up to 24 Hours total</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Provides an additional 17 hours of charging (roughly 2.5 full charges).</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Simple arithmetic: 24 hours total minus 7 in the buds leaves about 17 hours in the case — roughly 2.5 extra full charges.</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Bluetooth Protocol</td>
@@ -278,17 +278,17 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
 <p>The A30i charging case is equipped with protection circuits to safeguard its 350mAh lithium battery against voltage fluctuations and heat:</p>
 <ul>
     <li><strong>Over-Voltage Protection (OVP):</strong> The circuit isolates the battery if input voltages rise above 5.5V, protecting the battery cells from thermal damage.</li>
-    <li><strong>Safe Charging Guidelines:</strong> Avoid using smartphone fast-chargers (33W, 67W, or higher), as they put thermal stress on the battery cell and shorten its overall lifespan. We recommend charging via a standard 5W power adapter, a wall charger with low amperage, or a laptop USB port.</li>
+    <li><strong>Safe charging guidelines:</strong> follow the input rating printed on the case or manual and use a compliant charger and cable. A compliant charger does not force its maximum wattage into the case. Stop charging if abnormal heat appears.</li>
 </ul>
 
-<h2>Official Local Warranty and Technical Support in Egypt</h2>
-<p>Buyers of the Model A30i in Egypt receive a comprehensive 18-month warranty from the authorized local distributor. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or connection failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim at official service centers.</p>
-<p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. Always cross-check the localized silver warranty sticker on the retail packaging to identify the exact local distributor responsible for servicing your product.</p>
+<h2>Local Warranty and Technical Support in Egypt</h2>
+<p>Warranty provider, duration and remedies depend on the seller and batch. Keep proof of purchase and the serial number, then follow the written policy supplied with the product. CairoVolt purchases are assessed under CairoVolt's published warranty terms, without a promise of automatic replacement.</p>
+<p>Do not submerge or disassemble the product. Check the seller and warranty information on the invoice and packaging so you know which party handles a claim.</p>
 
-<h2>Warranty & Express Shipping at CairoVolt</h2>
-<p>Purchasing the Soundcore A30i from CairoVolt guarantees a premium local purchasing experience. We provide a full 18-Month replacement warranty, meaning any manufacturing defect is resolved by replacing your unit with a brand-new one quickly. Delivery is handled within 24 to 48 hours to all Egyptian governorates, with full allowance for package inspection before you pay the courier.</p>
+<h2>Warranty and Shipping Information at CairoVolt</h2>
+<p>Before ordering A30i, check the product page and policy pages for the current price, availability, warranty duration and remedy, delivery estimate and inspection rules. Times and outcomes depend on address, stock and claim assessment.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore models at CairoVolt: <a href="/en/soundcore/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A30i (Lipstick Shape)</a> · <a href="/en/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i (Square Case)</a> · <a href="/en/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC (ANC Model)</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Compare related Soundcore products:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Check current prices, specifications, and warranty terms: <a href="/en/soundcore/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A30i (Lipstick Shape)</a> · <a href="/en/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i (Square Case)</a> · <a href="/en/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC (ANC Model)</a>.</p></div>` ,
             faq: [
                 {
                     question: 'Does the Soundcore A30i feature Active Noise Cancellation (ANC)?',

@@ -42,12 +42,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             siteName: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
             images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: locale === 'ar' ? 'كايرو فولت - اكسسوارات الموبايل' : 'CairoVolt - Mobile Accessories' }],
         },
-        other: {
-            'geo.region': 'EG',
-            'geo.placename': locale === 'ar' ? 'القاهرة، مصر' : 'Cairo, Egypt',
-            'geo.position': '30.0444;31.2357',
-            'ICBM': '30.0444, 31.2357',
-        },
     };
 }
 
@@ -81,16 +75,44 @@ export default async function WarrantyPage({ params }: Props) {
                                     </span>
                                     {t('period.title')}
                                 </h2>
-                                <div className="grid md:grid-cols-2 gap-6">
+                                <p className="mb-6 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+                                    {isArabic
+                                        ? 'هذه سياسة ضمان كايرو فولت للمنتجات المؤهلة: 18 شهرًا لمنتجات انكر وساوندكور، و12 شهرًا لمنتجات جوي روم، ما لم تعرض صفحة منتج محدد مدة مختلفة. لا تمثل ضمانًا من الشركة المصنّعة إلا إذا ذُكر ذلك صراحةً مع مستند يمكن التحقق منه. صفحة المنتج وتأكيد الطلب هما مرجع المدة المطبقة وقت الشراء.'
+                                        : 'Eligible Anker and Soundcore products carry an 18-month CairoVolt store warranty, while eligible Joyroom products carry 12 months unless a specific product page states a different duration. This is not a manufacturer-issued warranty unless expressly stated with verifiable documentation. The product page and order confirmation record the terms applicable at purchase.'}
+                                </p>
+                                <div className="grid md:grid-cols-3 gap-6">
                                     <div className="bg-green-50 dark:bg-green-900/20 rounded-xl p-6 text-center">
-                                        <p className="text-5xl font-bold text-green-600 mb-2">18</p>
-                                        <p className="text-lg font-medium">{t('period.ankerMonths')}</p>
-                                        <p className="text-sm text-gray-500">{t('period.ankerProducts')}</p>
+                                        <p className="text-3xl font-bold text-green-600 mb-2">
+                                            {isArabic ? '18 شهرًا' : '18 months'}
+                                        </p>
+                                        <p className="text-lg font-medium">
+                                            {isArabic ? 'انكر وساوندكور' : 'Anker & Soundcore'}
+                                        </p>
+                                        <p className="text-sm text-gray-500">
+                                            {isArabic ? 'للمنتجات المؤهلة' : 'For eligible products'}
+                                        </p>
                                     </div>
                                     <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6 text-center">
-                                        <p className="text-5xl font-bold text-blue-600 mb-2">12</p>
-                                        <p className="text-lg font-medium">{t('period.joyroomMonths')}</p>
-                                        <p className="text-sm text-gray-500">{t('period.joyroomProducts')}</p>
+                                        <p className="text-3xl font-bold text-blue-600 mb-2">
+                                            {isArabic ? '12 شهرًا' : '12 months'}
+                                        </p>
+                                        <p className="text-lg font-medium">
+                                            {isArabic ? 'جوي روم' : 'Joyroom'}
+                                        </p>
+                                        <p className="text-sm text-gray-500">
+                                            {isArabic ? 'للمنتجات المؤهلة' : 'For eligible products'}
+                                        </p>
+                                    </div>
+                                    <div className="bg-amber-50 dark:bg-amber-900/20 rounded-xl p-6 text-center">
+                                        <p className="text-3xl font-bold text-amber-600 mb-2">
+                                            {isArabic ? 'استثناءات واضحة' : 'Clear exceptions'}
+                                        </p>
+                                        <p className="text-lg font-medium">
+                                            {isArabic ? 'حسب صفحة المنتج' : 'By product page'}
+                                        </p>
+                                        <p className="text-sm text-gray-500">
+                                            {isArabic ? 'تظهر أي مدة مختلفة قبل الطلب' : 'Any different duration appears before ordering'}
+                                        </p>
                                     </div>
                                 </div>
                             </section>

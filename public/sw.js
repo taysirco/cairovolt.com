@@ -1,17 +1,17 @@
 /**
- * CairoVolt Service Worker v4 — Fast, validated media
+ * CairoVolt Service Worker v5 — Fast, validated media
  * 
  * Strategy:
- * - App Shell (layout, fonts, CSS): Cache First — instant load
+ * - App Shell (layout, fonts, CSS): Cache First
  * - Product Images: Cache First after MIME validation
  * - API Routes: Network Only — always fresh data
- * - HTML Pages: Stale-While-Revalidate — instant load + background refresh
+ * - HTML Pages: Stale-While-Revalidate with background refresh
  * - Cloudflare-aware: respects cf-cache-status headers
  * 
- * Result: Repeat visits load in ~0ms (from cache)
+ * Cached assets can reduce repeat-visit network work.
  */
 
-const CACHE_VERSION = 'v4';
+const CACHE_VERSION = 'v5';
 const CACHE_NAME = `cairovolt-${CACHE_VERSION}`;
 const STATIC_CACHE = `cairovolt-static-${CACHE_VERSION}`;
 const IMG_CACHE = `cairovolt-images-${CACHE_VERSION}`;
@@ -106,7 +106,7 @@ async function fetchValidatedImage(request) {
     if (isValidImageResponse(response)) return response;
 
     // A stale edge can occasionally return an HTML fallback with status 200
-    // for an image URL. A stable query key bypasses that poisoned object.
+    // for an image URL. Retry with a versioned query key to refresh the object.
     const retryUrl = new URL(request.url);
     retryUrl.searchParams.set('cv-image-retry', CACHE_VERSION);
     const retryRequest = new Request(retryUrl.toString(), {

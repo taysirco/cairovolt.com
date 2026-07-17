@@ -3,48 +3,30 @@
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 
-/**
- * PromoBanner — ORIGINAL10 Display Banner
- * 
- * Shows a gold promo banner at the top of the main site
- * ONLY when the visitor has completed the C2PA verification
- * (detected via localStorage flag or utm_campaign=c2pa).
- * 
- * The ORIGINAL10 code gives 10% discount — validated in checkout page + server-side in orders API.
- */
+/** Show the warranty thank-you offer only after a successful record lookup. */
 export default function PromoBanner() {
     const pathname = usePathname();
     const isEn = pathname === '/en' || pathname.startsWith('/en/');
     const [visible, setVisible] = useState(false);
-    const [countdown, setCountdown] = useState('');
 
     useEffect(() => {
         let showTimer: number | undefined;
-        // Check if user came from QR / verify flow
-        const params = new URLSearchParams(window.location.search);
-        const isFromC2PA = params.get('utm_campaign') === 'c2pa';
-
         let fromVerify = false;
         try {
             fromVerify = localStorage.getItem('cv_verify_completed') === 'true';
         } catch { /* private browsing */ }
 
-        if (isFromC2PA || fromVerify) {
+        if (fromVerify) {
             showTimer = window.setTimeout(() => setVisible(true), 0);
 
-            // Store visit for future detection
-            try {
-                localStorage.setItem('cv_verify_completed', 'true');
-            } catch { /* private browsing */ }
-
-            // GA4 event — return visit from verify flow
+            // Record that the offer was shown after a completed lookup.
             const analyticsWindow = window as Window & {
                 gtag?: (command: string, eventName: string, params: Record<string, string>) => void;
             };
             if (typeof analyticsWindow.gtag === 'function') {
                 analyticsWindow.gtag('event', 'promo_banner_shown', {
-                    source: isFromC2PA ? 'utm_c2pa' : 'localStorage',
-                    promo_code: 'ORIGINAL10',
+                    source: 'verified_warranty_record',
+                    promo_code: 'WARRANTY10',
                 });
             }
         }
@@ -53,37 +35,6 @@ export default function PromoBanner() {
             if (showTimer !== undefined) window.clearTimeout(showTimer);
         };
     }, []);
-
-    // Countdown timer effect
-    useEffect(() => {
-        if (!visible) return;
-
-        // Set initial countdown end to 24h from first view
-        let endTime: number;
-        try {
-            const stored = localStorage.getItem('cv_promo_end');
-            if (stored) {
-                endTime = parseInt(stored);
-            } else {
-                endTime = Date.now() + 24 * 60 * 60 * 1000;
-                localStorage.setItem('cv_promo_end', endTime.toString());
-            }
-        } catch {
-            endTime = Date.now() + 24 * 60 * 60 * 1000;
-        }
-
-        const interval = setInterval(() => {
-            const remaining = Math.max(0, endTime - Date.now());
-            const hours = Math.floor(remaining / (1000 * 60 * 60));
-            const minutes = Math.floor((remaining % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((remaining % (1000 * 60)) / 1000);
-            setCountdown(
-                `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`
-            );
-        }, 1000);
-
-        return () => clearInterval(interval);
-    }, [visible]);
 
     if (!visible) return null;
 
@@ -108,19 +59,14 @@ export default function PromoBanner() {
 
             <p className="text-sm md:text-base font-bold text-black relative z-10 flex items-center justify-center gap-2 flex-wrap">
                 <span aria-hidden="true">✦</span>
-                <span>{isEn ? 'Exclusive code:' : 'كود الخصم الحصري:'}</span>
+                <span>{isEn ? 'Warranty activation thank-you code:' : 'كود شكر تفعيل الضمان:'}</span>
                 <span
                     className="inline-block px-3 py-0.5 bg-black text-yellow-400 rounded-md font-mono text-base tracking-wider"
                     style={{ fontFamily: "'Outfit', monospace" }}
                 >
-                    ORIGINAL10
+                    WARRANTY10
                 </span>
-                <span>{isEn ? '— 10% off your first order' : '— خصم 10% على طلبك الأول'}</span>
-                {countdown && (
-                    <span className="text-xs bg-white/60 text-black font-bold px-2 py-0.5 rounded-full">
-                        {isEn ? `Ends in ${countdown}` : `ينتهي خلال ${countdown}`}
-                    </span>
-                )}
+                <span>{isEn ? '— 10% discount' : '— خصم 10%'}</span>
             </p>
 
             {/* Close button */}

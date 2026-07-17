@@ -139,7 +139,7 @@ export default async function SolutionPage({ params }: Props) {
                     <div className="relative z-10">
                         <div className="flex items-center gap-3 mb-6">
                             <span className="text-3xl">⚡</span>
-                            <h2 className="text-2xl font-bold">{isArabic ? 'الحل الهندسي (مختبرات كايرو فولت)' : 'The Engineering Solution'}</h2>
+                            <h2 className="text-2xl font-bold">{isArabic ? 'الحل التقني المقترح' : 'The Suggested Technical Solution'}</h2>
                         </div>
                         <p className="text-lg md:text-xl leading-relaxed font-medium text-blue-50">
                             {answer}

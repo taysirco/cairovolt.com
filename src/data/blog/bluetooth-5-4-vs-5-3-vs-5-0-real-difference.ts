@@ -29,7 +29,7 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
             keywords: 'Bluetooth 5.4 شرح, Bluetooth 5.3 vs 5.0, الفرق بين بلوتوث 5.4 و 5.3, بلوتوث مصر, سماعات بلوتوث مصر, Bluetooth 5.4 ميزات, LE Audio شرح, Auracast شرح, بلوتوث سماعات لاسلكية, تأخير بلوتوث',
             excerpt: 'مقارنة شاملة بين Bluetooth 5.4 و 5.3 و 5.0 — إيه اللي اتغيّر فعلاً وهل هتحس بالفرق في الاستخدام اليومي.',
             quickAnswer: 'الإجابة الصريحة: لو بتستخدم سماعات للموسيقى والمكالمات — الفرق بين BT 5.0 و 5.3 محسوس (ثبات أفضل + تأخير أقل + بطارية أطول). الفرق بين 5.3 و 5.4 شبه معدوم عملياً في 2026 — التحسينات نظرية أكتر. لو بتشتري سماعة جديدة: اهتم بالكوديك (LDAC/aptX) والـ ANC أكتر من رقم البلوتوث.',
-            content: `<p>كل ما بتشتري سماعة لاسلكية جديدة أو موبايل جديد — بتلاقي في المواصفات "Bluetooth 5.3" أو "Bluetooth 5.4" وأحياناً لسه "Bluetooth 5.0." والسؤال الطبيعي: هل الرقم ده بيفرق فعلاً؟ ولا مجرد رقم تسويقي؟</p>
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>كل ما بتشتري سماعة لاسلكية جديدة أو موبايل جديد — بتلاقي في المواصفات "Bluetooth 5.3" أو "Bluetooth 5.4" وأحياناً لسه "Bluetooth 5.0." والسؤال الطبيعي: هل الرقم ده بيفرق فعلاً؟ ولا مجرد رقم تسويقي؟</p>
 
 <p>في المقال ده هنشرح كل إصدار بالتفصيل، ونقولك بأمانة: إيه اللي هتحس بيه فعلاً وإيه اللي مجرد تحسينات نظرية مش هتفرق معاك في الحياة اليومية.</p>
 
@@ -153,11 +153,11 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
     <li style="margin-bottom:12px;">🎵 <strong>LC3 (LE Audio):</strong> كوديك BT 5.3 الجديد — جودة أفضل من SBC مع استهلاك بطارية أقل. مش بنفس جودة LDAC لكنه أكفأ.</li>
 </ul>
 
-<p>يعني لو عندك سماعة BT 5.0 بتدعم LDAC — جودة الصوت فيها أعلى من سماعة BT 5.4 بتدعم SBC بس. الكوديك أهم من رقم البلوتوث في جودة الصوت. ولو عايز مقارنة تفصيلية بين أفضل السماعات، اقرأ <a href="/blog/airpods-pro-3-vs-soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">AirPods Pro 3 ضد Soundcore Liberty 4 NC</a>.</p>
+<p>يعني لو عندك سماعة BT 5.0 بتدعم LDAC — جودة الصوت فيها أعلى من سماعة BT 5.4 بتدعم SBC بس. الكوديك أهم من رقم البلوتوث في جودة الصوت. ولو عايز مقارنة تفصيلية بين أفضل السماعات، اقرأ <a href="/blog/airpods-pro-3-vs-soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">AirPods Pro 3 ضد ساوندكور Liberty 4 NC</a>.</p>
 
 <h2>ميزة Multipoint — توصيل سماعة بجهازين في نفس الوقت</h2>
 
-<p>ميزة مهمة جاية مع BT 5.2/5.3 وأحدث هي Bluetooth Multipoint — بتسمح لسماعتك تتوصل بجهازين في نفس الوقت. مثلاً: موصلة باللابتوب عشان الموسيقى، وفي نفس الوقت موصلة بالموبايل. لما حد يكلمك على الموبايل — السماعة بتحول تلقائياً للمكالمة، وبعد ما تخلص بترجع للموسيقى على اللابتوب من غير ما تعمل أي حاجة يدوياً. ده بيوفّر عليك وجع الدماغ بتاع فصل واعادة توصيل السماعة كل شوية. <a href="/soundcore/headphones/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Soundcore Space One</a> و <a href="/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> بيدعموا Multipoint — ودي ميزة بتفرق فعلاً في الاستخدام اليومي أكتر من رقم البلوتوث نفسه.</p>
+<p>ميزة مهمة جاية مع BT 5.2/5.3 وأحدث هي Bluetooth Multipoint — بتسمح لسماعتك تتوصل بجهازين في نفس الوقت. مثلاً: موصلة باللابتوب عشان الموسيقى، وفي نفس الوقت موصلة بالموبايل. لما حد يكلمك على الموبايل — السماعة بتحول تلقائياً للمكالمة، وبعد ما تخلص بترجع للموسيقى على اللابتوب من غير ما تعمل أي حاجة يدوياً. ده بيوفّر عليك وجع الدماغ بتاع فصل واعادة توصيل السماعة كل شوية. <a href="/soundcore/headphones/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">ساوندكور Space One</a> و <a href="/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> بيدعموا Multipoint — ودي ميزة بتفرق فعلاً في الاستخدام اليومي أكتر من رقم البلوتوث نفسه.</p>
 
 <h2>3 خرافات شائعة عن البلوتوث</h2>
 
@@ -171,15 +171,15 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">1️⃣ <strong>الكوديك أولاً:</strong> دوّر على LDAC أو aptX لو عايز أفضل جودة صوت. لو مستخدم iPhone — AAC كفاية.</li>
-    <li style="margin-bottom:12px;">2️⃣ <strong>ANC ثانياً:</strong> لو بتسمع في أماكن صاخبة — إلغاء الضوضاء (ANC) أهم بكتير من رقم البلوتوث. <a href="/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> من أفضل الخيارات في مصر. ولو عايز تفهم الفرق بين ANC و ENC، اقرأ <a href="/blog/anc-vs-enc-vs-transparency-mode-difference" style="color:#2563eb;font-weight:600;">ANC ضد ENC — إيه الفرق؟</a></li>
+    <li style="margin-bottom:12px;">2️⃣ <strong>ANC ثانياً:</strong> لو بتسمع في أماكن صاخبة — إلغاء الضوضاء (ANC) أهم بكتير من رقم البلوتوث. <a href="/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 NC</a> من أفضل الخيارات في مصر. ولو عايز تفهم الفرق بين ANC و ENC، اقرأ <a href="/blog/anc-vs-enc-vs-transparency-mode-difference" style="color:#2563eb;font-weight:600;">ANC ضد ENC — إيه الفرق؟</a></li>
     <li style="margin-bottom:12px;">3️⃣ <strong>BT 5.3 كحد أدنى:</strong> في 2026، مفيش سبب تشتري سماعة BT 5.0. ادفع شوية زيادة واحصل على 5.3 — الثبات والبطارية أفضل بوضوح.</li>
     <li style="margin-bottom:12px;">4️⃣ <strong>متدفعش أكتر عشان BT 5.4:</strong> لو سماعتين بنفس السعر — خد 5.4 طبعاً. لكن لو 5.4 أغلى بـ 200-300ج — وفّر الفلوس. مش هتحس بفرق.</li>
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ سماعات Soundcore أصلية بأحدث بلوتوث — بضمان على كايرو فولت</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ سماعات ساوندكور أصلية بأحدث بلوتوث — بضمان على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#166534;font-weight:600;">Liberty 4 NC</a> (BT 5.3 + LDAC + ANC) أو <a href="/soundcore/earbuds/anker-soundcore-r50i-nc" style="color:#166534;font-weight:600;">R50i NC</a> (BT 5.3 + ANC بسعر اقتصادي). كلها <strong>أصلية 100%</strong> بضمان 18 شهر + توصيل لكل المحافظات + دفع عند الاستلام.
+        قارن <a href="/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#166534;font-weight:600;">Liberty 4 NC</a> و<a href="/soundcore/earbuds/anker-soundcore-r50i-nc" style="color:#166534;font-weight:600;">R50i NC</a> حسب مواصفات الموديل والهاتف والكودك. راجع الضمان والسعر والمخزون وخيارات الشحن والدفع في صفحة المنتج والسلة.
     </p>
 </div>`,
             faq: [
@@ -193,7 +193,7 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
                 },
                 {
                     question: 'إيه أحسن سماعة بلوتوث في مصر تحت 2,000 جنيه؟',
-                    answer: 'Soundcore Liberty 4 NC — BT 5.3 + LDAC + ANC ممتازة + 10 ساعات بطارية (50 ساعة مع العلبة). من أفضل سماعات الأذن في مصر بنسبة سعر/أداء. بديل أرخص: Soundcore R50i NC بسعر أقل لكن بدون LDAC.'
+                    answer: 'ساوندكور Liberty 4 NC — BT 5.3 + LDAC + ANC ممتازة + 10 ساعات بطارية (50 ساعة مع العلبة). من أفضل سماعات الأذن في مصر بنسبة سعر/أداء. بديل أرخص: ساوندكور R50i NC بسعر أقل لكن بدون LDAC.'
                 },
                 {
                     question: 'إيه هو Auracast ومتى هيكون متاح في مصر؟',
@@ -208,7 +208,7 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
             keywords: 'Bluetooth 5.4 explained, Bluetooth 5.3 vs 5.0, bluetooth 5.4 vs 5.3 difference, bluetooth egypt, bluetooth earbuds egypt, Bluetooth 5.4 features, LE Audio explained, Auracast explained, bluetooth wireless earbuds, bluetooth latency',
             excerpt: 'A comprehensive comparison between Bluetooth 5.4, 5.3, and 5.0 — what actually changed and whether you will notice the difference in daily use.',
             quickAnswer: 'The honest answer: if you use earbuds for music and calls — the difference between BT 5.0 and 5.3 is noticeable (better stability + lower latency + longer battery). The difference between 5.3 and 5.4 is virtually nonexistent in practice in 2026 — improvements are more theoretical. When buying new earbuds: focus on codec (LDAC/aptX) and ANC quality more than the Bluetooth version number.',
-            content: `<p>Every time you buy new wireless earbuds or a new phone — you find "Bluetooth 5.3" or "Bluetooth 5.4" in the specs, and sometimes still "Bluetooth 5.0." The natural question is: does this number actually matter? Or is it just a marketing figure?</p>
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p>Every time you buy new wireless earbuds or a new phone — you find "Bluetooth 5.3" or "Bluetooth 5.4" in the specs, and sometimes still "Bluetooth 5.0." The natural question is: does this number actually matter? Or is it just a marketing figure?</p>
 
 <p>In this article, we will explain each version in detail, and tell you honestly: what you will actually notice versus what are merely theoretical improvements that will not make a difference in your daily life.</p>
 
@@ -358,7 +358,7 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Genuine Soundcore Earbuds with Latest Bluetooth — Warranty at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#166534;font-weight:600;">Liberty 4 NC</a> (BT 5.3 + LDAC + ANC) or <a href="/en/soundcore/earbuds/anker-soundcore-r50i-nc" style="color:#166534;font-weight:600;">R50i NC</a> (BT 5.3 + ANC at budget price). All <strong>100% genuine</strong> with 18-month warranty + delivery to all governorates + cash on delivery.
+        Compare <a href="/en/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#166534;font-weight:600;">Liberty 4 NC</a> and <a href="/en/soundcore/earbuds/anker-soundcore-r50i-nc" style="color:#166534;font-weight:600;">R50i NC</a> by exact model, phone, and codec support. Review warranty, current price, stock, delivery, and payment options on the product page and at checkout.
     </p>
 </div>`,
             faq: [

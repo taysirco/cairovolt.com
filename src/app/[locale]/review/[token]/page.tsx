@@ -1,11 +1,17 @@
 import { Metadata } from 'next';
-import { validateReviewToken } from '@/lib/verified-reviews';
+import {
+    getReviewCustomerDisplayName,
+    validateReviewToken,
+} from '@/lib/verified-reviews';
 import ReviewPageClient from './ReviewPageClient';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 type Props = {
     params: Promise<{ locale: string; token: string }>;
 };
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale } = await params;
@@ -38,8 +44,8 @@ export default async function ReviewPage({ params }: Props) {
                     ? localizeArabicBrandNames(tokenData.productName)
                     : tokenData.productName,
                 productSlug: tokenData.productSlug,
-                customerName: tokenData.customerName,
-                purchaseDate: tokenData.purchaseDate.toISOString()
+                customerName: getReviewCustomerDisplayName(tokenData.customerName),
+                purchaseMonth: tokenData.purchaseDate.toISOString().slice(0, 7),
             } : null}
         />
     );

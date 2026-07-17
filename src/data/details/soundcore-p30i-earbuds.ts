@@ -2,12 +2,12 @@ import type { ProductDetail } from './_types';
 
 export const soundcore_p30i_earbuds_detail: ProductDetail = {
     aiTldr: {
-        en: ['10mm BassUp driver — punchy bass-forward sound, great for Arabic pop and EDM', 'Adaptive ANC up to 42dB — targets engine noise on microbus, speech in cafés. Transparency mode', '10h earbuds / 45h total — 10min = 2h quick charge. USB-C. IP54 dust+splash', 'BT 5.4 with multipoint — Soundcore App EQ. Case doubles as phone stand', 'CairoVolt: 18-month warranty. 1,200 EGP. Budget ANC king with phone stand case.'],
-        ar: ['درايفر 10mm BassUp — باس قوي، ممتاز للبوب العربي والـ EDM', 'ANC تكيّفي حتى 42dB — بيستهدف صوت المحرك في الميكروباص، الكلام في الكافيهات. وضع شفافية', '10 ساعات سماعة / 45 إجمالي — 10 دقائق = ساعتين شحن سريع. USB-C. IP54 غبار+رذاذ', 'BT 5.4 مع multipoint — تطبيق ساوندكور EQ. العلبة بتتحول لستاند موبايل', 'كايرو فولت: ضمان 18 شهر. 1,200 جنيه. ملك ANC الاقتصادي مع علبة ستاند.'],
+        en: ['Manufacturer-listed 10mm driver with BassUp processing', 'Adaptive ANC is listed up to 42dB with transparency mode; perceived reduction varies with fit and noise', 'Manufacturer-rated battery up to 10h per charge and 45h with the case; actual time varies by use', 'Bluetooth 5.4, multipoint, app EQ, IP54 rating, and a case phone stand are listed for this model'],
+        ar: ['درايفر 10mm مع BassUp وفق مواصفات الشركة', 'يُذكر ANC تكيفي حتى 42dB مع وضع الشفافية؛ النتيجة تختلف حسب التثبيت ونوع الضوضاء', 'بطارية معلنة حتى 10 ساعات للسماعات و45 ساعة مع العلبة؛ المدة الفعلية تتغير مع الاستخدام', 'تذكر مواصفات الموديل Bluetooth 5.4 وmultipoint وEQ عبر التطبيق وIP54 وستاند مدمجًا في العلبة'],
     },
     localContext: {
-        en: 'P30i is the sweet spot between P20i (no ANC) and P40i (premium ANC). At 1,200 EGP, it undercuts Liberty 4 NC (2,570) by 53% while still offering 42dB ANC, BassUp, and the unique phone stand case. Best for Cairo commuters who want solid ANC without spending 2.5K+.',
-        ar: 'P30i هي النقطة المثالية بين P20i (بدون ANC) والـ P40i (ANC بريميوم). بـ 1,200 جنيه، أرخص من Liberty 4 NC (2,570) بـ 53% وبرضو فيها 42dB ANC، BassUp، وعلبة ستاند الموبايل الفريدة. أفضل لركاب مواصلات القاهرة اللي عايزين ANC محترم بدون ما يصرفوا 2.5K+.',
+        en: 'Compare P30i with P20i and P40i by fit, ANC controls, battery rating, app support, and the case stand. Use the current product-page prices rather than a fixed competitor-price comparison.',
+        ar: 'قارن P30i مع P20i وP40i حسب التثبيت وأوضاع ANC والبطارية المعلنة ودعم التطبيق وستاند العلبة. استخدم الأسعار الحالية في صفحات المنتجات بدلًا من مقارنة سعرية ثابتة.',
     },
     specifications: {
         'Product Type': { en: 'True Wireless (TWS) In-Ear', ar: 'لاسلكية حقيقية TWS داخل الأذن' },
@@ -16,16 +16,11 @@ export const soundcore_p30i_earbuds_detail: ProductDetail = {
         'Codecs': { en: 'AAC, SBC', ar: 'AAC, SBC' },
         'Battery (Earbuds)': { en: '10h (ANC off)', ar: '10 ساعات (بدون ANC)' },
         'Battery (Total)': { en: '45 hours', ar: '45 ساعة' },
-        'Fast Charge': { en: '10 min = 2h playback', ar: '10 دقائق = ساعتين تشغيل' },
+        'Fast Charge': { en: 'Manufacturer estimate: 10 minutes for up to 2 hours playback under stated conditions', ar: 'تقدير ساوندكور: 10 دقائق لما يصل إلى ساعتين تشغيل تحت الظروف المعلنة' },
         'Bluetooth': { en: '5.4 Multipoint', ar: '5.4 Multipoint' },
         'Water/Dust': { en: 'IP54', ar: 'IP54' },
         'Case Feature': { en: 'Built-in phone stand', ar: 'ستاند موبايل مدمج' },
         'App': { en: 'Soundcore App (EQ + ANC modes)', ar: 'تطبيق ساوندكور (EQ + أوضاع ANC)' },
-        'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
+        'Compliance': { en: 'Verify FCC and CE markings or documents for the delivered unit and market', ar: 'يُراجع وجود علامات أو مستندات FCC وCE للوحدة المستلمة والسوق' },
     },
-    labVerified: {
-        result: { en: 'ANC measured 38dB reduction in Metro engine noise (rated 42dB). BassUp adds ~4dB at 100-250Hz — excellent for bass-heavy genres. Battery measured 9.5h per charge (rated 10h). Phone stand case holds iPhone 17 Pro Max securely at 70° angle. IP54 survived simulated Cairo dust and splash test.', ar: 'ANC مقاس 38dB تقليل في صوت محرك المترو (المُعلن 42dB). BassUp بيضيف ~4dB عند 100-250Hz — ممتاز للأنواع الغنية بالباس. بطارية مقاسة 9.5 ساعة لكل شحنة (المُعلن 10). علبة ستاند الموبايل بتمسك iPhone 17 Pro Max بثبات على زاوية 70°. IP54 نجحت في اختبار غبار ورذاذ محاكي لجو القاهرة.' },
-        conditions: { en: 'CairoVolt Lab, Cairo — May 2026, 72h testing cycle', ar: 'معمل كايرو فولت، القاهرة — مايو 2026، دورة اختبار 72 ساعة' },
-        expertName: 'Dr. Sherif Hassan'
-    }
 };

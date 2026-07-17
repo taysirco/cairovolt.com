@@ -5,6 +5,7 @@ import { useState, useMemo } from 'react';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 // We need a shared interface for products passed from server
@@ -64,8 +65,8 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
     // State to track selected products in the bundle (initially all selected)
     const [selectedIds, setSelectedIds] = useState<string[]>([
-        mainProduct.id,
-        ...smartBundleItems.map(bp => bp.product.id)
+        mainProduct.slug,
+        ...smartBundleItems.map(bp => bp.product.slug)
     ]);
 
     // All products in order: main first, then smart bundle items
@@ -78,35 +79,37 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
     // Derived state for selected products
     const selectedProducts = useMemo(() => {
-        return allProducts.filter(item => selectedIds.includes(item.product.id));
+        return allProducts.filter(item => selectedIds.includes(item.product.slug));
     }, [allProducts, selectedIds]);
 
-    // Calculate totals with bundle discount
+    // Calculate totals from the current catalogue prices. The only displayed
+    // saving is the bundle discount that the server also applies at checkout.
     const pricing = useMemo(() => {
         const selectedPrices = selectedProducts.map(item => item.product);
         const totalPrice = selectedPrices.reduce((sum, p) => sum + p.price, 0);
-        const totalOriginal = selectedPrices.reduce((sum, p) => sum + (p.originalPrice || p.price), 0);
 
         // Only apply bundle discount if all items selected (complete combo)
         const isFullBundle = selectedProducts.length === allProducts.length && allProducts.length > 1;
-        const bundleDiscount = isFullBundle && bundleData ? bundleData.bundleDiscount : 0;
+        const bundleDiscount = isFullBundle
+            ? Math.round(totalPrice * BUNDLE_DISCOUNT_PERCENT / 100)
+            : 0;
         const finalPrice = totalPrice - bundleDiscount;
-        const totalSavings = (totalOriginal - totalPrice) + bundleDiscount;
+        const totalSavings = bundleDiscount;
 
         // Daily cost (psychological pricing)
-        const dailyCost = isFullBundle && bundleData ? bundleData.dailyCost : Math.round((finalPrice / 365) * 10) / 10;
+        const dailyCost = Math.round((finalPrice / 365) * 10) / 10;
 
         // Free-shipping incentive (honest: tied to the real 3,700 EGP threshold)
         const freeShipping = finalPrice >= FREE_SHIPPING_THRESHOLD;
         const unlocksFreeShipping = freeShipping && mainProduct.price < FREE_SHIPPING_THRESHOLD;
         const amountToFreeShipping = freeShipping ? 0 : FREE_SHIPPING_THRESHOLD - finalPrice;
 
-        return { totalPrice, totalOriginal, bundleDiscount, finalPrice, totalSavings, dailyCost, isFullBundle, freeShipping, unlocksFreeShipping, amountToFreeShipping };
-    }, [selectedProducts, allProducts, bundleData, mainProduct.price]);
+        return { totalPrice, bundleDiscount, finalPrice, totalSavings, dailyCost, isFullBundle, freeShipping, unlocksFreeShipping, amountToFreeShipping };
+    }, [selectedProducts, allProducts, mainProduct.price]);
 
     // Handlers
     const toggleProduct = (id: string) => {
-        if (id === mainProduct.id) return; // Cannot deselect main product
+        if (id === mainProduct.slug) return; // Cannot deselect main product
         setSelectedIds(prev =>
             prev.includes(id) ? prev.filter(i => i !== id) : [...prev, id]
         );
@@ -120,7 +123,6 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                 sku: item.product.sku, // 🧬 بصمة قطعة الكومبو
                 name: displayText(t?.name || item.product.slug),
                 price: item.product.price,
-                originalPrice: item.product.originalPrice,
                 quantity: 1,
                 image: item.product.images?.[0]?.url,
                 brand: item.product.brand,
@@ -130,7 +132,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
         // 🏆 كومبو كامل (≥2 منتجات مختارة) → وسمه بـbundleId فيسري خصم الـ5% خادمياً،
         //    مطابقاً للإجمالي المخفّض المعروض. الخصم يُحسب من أسعار الكتالوج على الخادم.
         if (pricing.isFullBundle && bundleItems.length >= 2) {
-            addBundleToCart(bundleItems, `combo-${mainProduct.id}`);
+            addBundleToCart(bundleItems, `combo-static_${mainProduct.slug}`);
         } else {
             // اختيار جزئي — بلا خصم كومبو (مطابقة للعرض): أضف الناقص فقط بلا وسم.
             bundleItems.forEach(bi => {
@@ -162,11 +164,11 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
             <h3 className="text-base font-bold mb-1 text-gray-900 dark:text-white text-center">
                 {isArabic ? '🏆 الكومبو الذهبي — كمّل تجربتك' : '🏆 Golden Combo — Complete Your Setup'}
             </h3>
-            {bundleData && bundleData.bundleDiscount > 0 && (
+            {pricing.bundleDiscount > 0 && (
                 <p className="text-center text-sm text-green-600 dark:text-green-400 font-semibold mb-1">
                     {isArabic
-                        ? `خصم ${bundleData.bundleDiscount.toLocaleString()} ج.م لما تاخدهم مع بعض`
-                        : `Save ${bundleData.bundleDiscount.toLocaleString()} EGP when bought together`}
+                        ? `خصم ${pricing.bundleDiscount.toLocaleString()} ج.م لما تاخدهم مع بعض`
+                        : `Save ${pricing.bundleDiscount.toLocaleString()} EGP when bought together`}
                 </p>
             )}
             {pricing.unlocksFreeShipping ? (
@@ -195,8 +197,8 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                     style={{ WebkitOverflowScrolling: 'touch', touchAction: 'pan-x' }}
                 >
                     {allProducts.map((item) => {
-                        const isSelected = selectedIds.includes(item.product.id);
-                        const isMain = item.product.id === mainProduct.id;
+                        const isSelected = selectedIds.includes(item.product.slug);
+                        const isMain = item.product.slug === mainProduct.slug;
                         const t = item.product.translations?.[isArabic ? 'ar' : 'en'] || item.product.translations?.en;
                         const productName = displayText(t?.name || item.product.slug);
                         const reasonText = displayText(item.reason[isArabic ? 'ar' : 'en'] || '');
@@ -205,7 +207,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                         return (
                             <button
                                 key={item.product.id}
-                                onClick={() => toggleProduct(item.product.id)}
+                                onClick={() => toggleProduct(item.product.slug)}
                                 disabled={isMain}
                                 className={`relative flex-shrink-0 w-[calc(50%-8px)] min-w-[130px] max-w-[180px] sm:w-[160px] rounded-2xl border-2 p-2.5 sm:p-3 bg-white dark:bg-gray-800 transition-all duration-300 snap-center
                                     ${isSelected
@@ -361,18 +363,18 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                 {/* Products Row with Plus Signs */}
                 <div className="flex items-stretch justify-start gap-4 mb-8 overflow-x-auto pb-2">
                     {allProducts.map((item, idx) => {
-                        const isSelected = selectedIds.includes(item.product.id);
+                        const isSelected = selectedIds.includes(item.product.slug);
                         const t = item.product.translations?.[isArabic ? 'ar' : 'en'] || item.product.translations?.en;
                         const productName = displayText(t?.name || item.product.slug);
                         const reasonText = displayText(item.reason[isArabic ? 'ar' : 'en'] || '');
-                        const isMain = item.product.id === mainProduct.id;
+                        const isMain = item.product.slug === mainProduct.slug;
                         const badge = getSlotBadge(item.slot);
 
                         return (
                             <div key={item.product.id} className="flex items-center">
                                 {/* Product Card */}
                                 <button
-                                    onClick={() => toggleProduct(item.product.id)}
+                                    onClick={() => toggleProduct(item.product.slug)}
                                     disabled={isMain}
                                     className={`relative group transition-all duration-300 
                                         ${!isSelected ? 'opacity-50 grayscale' : ''} 
@@ -430,11 +432,6 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                                     {isArabic ? 'ج.م' : 'EGP'}
                                                 </span>
                                             </div>
-                                            {item.product.originalPrice && item.product.originalPrice > item.product.price && (
-                                                <span className="text-gray-400 text-xs line-through">
-                                                    {item.product.originalPrice.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
-                                                </span>
-                                            )}
                                         </div>
 
                                         {/* Checkbox in corner */}
@@ -472,7 +469,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                     {isArabic ? `إجمالي ${selectedProducts.length} منتجات` : `Total for ${selectedProducts.length} items`}
                                 </p>
 
-                                {/* Strikethrough original if discount */}
+                                {/* Show the undiscounted bundle total when a bundle discount applies. */}
                                 {pricing.bundleDiscount > 0 && (
                                     <span className="text-lg text-gray-400 line-through block">
                                         {pricing.totalPrice.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
@@ -501,7 +498,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                 {/* Bundle Discount Label */}
                                 {pricing.isFullBundle && pricing.bundleDiscount > 0 && (
                                     <p className="text-xs text-green-600 dark:text-green-400 mt-1 font-medium">
-                                        🎁 {isArabic ? 'خصم الكومبو' : 'Combo Discount'}
+                                        {isArabic ? 'خصم المجموعة' : 'Bundle discount'}
                                     </p>
                                 )}
 

@@ -25,113 +25,103 @@ export const anker_a2732_charger_35w = {
     ],
         translations: {
             en: {
-                name: "Anker PowerDrive PD+ 2 Car Charger 35W (A2732) | USB-C PD + USB-A | 18-Month Warranty",
-                shortDescription: "🚗 35W Car Charger | 🔌 USB-C 20W PD + USB-A 15W PowerIQ 2.0 | 📱 Fast Charge iPhone + Legacy Device | 🛡️ MultiProtect Safety | 💡 Blue LED Ring | 🔋 12V/24V All Cars",
+                name: "Anker PowerDrive PD+ 2 Car Charger 35W (A2732) | USB-C PD + USB-A",
+                shortDescription: "🚗 Listed 35W total | 🔌 USB-C PD + USB-A PowerIQ 2.0 | 📱 Shared output depends on both devices | 🛡️ Verify MultiProtect statement | 💡 Blue LED ring | 🔋 Check the vehicle socket",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike basic dual USB-A car chargers that max out at 12W per port, the Anker A2732 PowerDrive PD+ 2 delivers <strong>20W USB-C PD fast charging + 15W USB-A PowerIQ 2.0</strong> — totaling 35W from your car's 12V/24V socket. Perfect for Cairo's Ring Road commutes: fast-charge your iPhone via USB-C while your passenger's legacy phone charges via USB-A. MultiProtect safety, 18-month warranty. Available at <strong>EGP 550</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker A2732 PowerDrive PD+ 2</strong> listing states USB-C PD up to 20W, USB-A PowerIQ 2.0 up to 15W and 35W total. Confirm the simultaneous-use distribution, supported profiles, vehicle input range, socket fit and protection markings on the supplied unit. Actual power varies by phone, cable, battery state and temperature. Check the live price, stock and current warranty terms.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
-    <li>🚗 <strong>35W Total Output:</strong> USB-C PD (20W) + USB-A PowerIQ 2.0 (15W) — your car's fastest charger.</li>
-    <li>⚡ <strong>20W USB-C PD:</strong> iPhone 0→50% in ~30 minutes while stuck in traffic.</li>
-    <li>🔌 <strong>USB-A PowerIQ 2.0:</strong> Detects and delivers optimal speed for legacy devices up to 15W.</li>
+    <li>🚗 <strong>35W stated total:</strong> Confirm the simultaneous USB-C and USB-A distribution on the unit; each device may draw less according to its protocol.</li>
+    <li>⚡ <strong>USB-C PD listed up to 20W:</strong> match the device's accepted profile and use a suitable cable.</li>
+    <li>🔌 <strong>USB-A PowerIQ 2.0 listed up to 15W:</strong> negotiated power varies by device and cable.</li>
     <li>💡 <strong>Blue LED Ring:</strong> Find ports easily in dark car interiors — subtle enough for night driving.</li>
-    <li>🛡️ <strong>MultiProtect Safety:</strong> Surge protection, temperature control, short-circuit prevention.</li>
-<li>💰 <strong>1.02 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
+    <li>🛡️ <strong>MultiProtect:</strong> verify the current protection statement and compliance markings for A2732.</li>
+<li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The A2732 is the upgrade path from the basic PowerDrive 2. Where the A2224 gives you 2× USB-A at 12W each, the A2732 adds a USB-C PD port that actually fast-charges your iPhone at 20W — that's iPhone 0→50% during a typical Nasr City to 6th October commute. The USB-A port with PowerIQ 2.0 still handles your passenger's older phone or earbuds. We've had one in our test car for 4 months through summer — the LED ring is perfect for finding ports when it's dark, and the compact design doesn't stick out of the console. For anyone who wants PD fast charging in their car without paying for a premium charger, this is the sweet spot."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A2732</strong>, start with the manufacturer-rated vehicle input range, port output profiles and supported charging protocols printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
-    <section><h2 class="text-2xl font-bold mb-2">USB-C PD: Actually Fast-Charge in Your Car</h2>
-    <p class="text-gray-700">Basic car chargers give you 12W — barely keeping up with GPS battery drain. The A2732's USB-C port delivers <strong>20W Power Delivery</strong>, fast-charging iPhone 17 from 0→50% in about 30 minutes. That's a meaningful charge during a Ring Road commute or a trip from Cairo to Alexandria. The USB-A port adds <strong>PowerIQ 2.0</strong> (up to 15W), delivering optimized charging for Samsung, Oppo, Xiaomi, or any legacy device.</p></section>
-    <section><h2 class="text-2xl font-bold mb-2">Built for Egyptian Summer Driving</h2>
-    <p class="text-gray-700">A parked car in Cairo summer can hit 60°C+ inside. The A2732's <strong>MultiProtect safety system</strong> includes temperature monitoring, over-voltage protection, and short-circuit prevention — critical when your car's 12V system fluctuates. The compact profile sits <strong>flush in your console</strong> without blocking other controls or cup holders. The subtle <strong>blue LED ring</strong> helps locate ports at night without distracting the driver.</p></section>
-    <section><h2 class="text-2xl font-bold mb-2">Upgrade from Basic USB-A Car Chargers</h2>
-    <p class="text-gray-700">If you're still using a basic dual USB-A car charger, the A2732 is the logical upgrade. You get the USB-C PD port your new iPhone/Samsung needs for fast charging, <strong>plus</strong> the USB-A port for everything else. Compatible with all 12V and 24V vehicles — sedans, SUVs, trucks, and microbuses. Pair with an <a href="/en/anker/cables" class="text-blue-600 hover:underline">Anker USB-C cable</a> for maximum speed.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2">USB-C PD and USB-A in One Vehicle Charger</h2>
+    <p class="text-gray-700">The A2732 lists a USB-C PD port up to 20W and a USB-A PowerIQ 2.0 port up to 15W. Charging time and simultaneous output depend on the printed table, phone profile, cable, battery level, active use and temperature; a fixed percentage in a fixed time cannot be promised for every phone.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2">Temperature, Protection and Console Fit</h2>
+    <p class="text-gray-700">Verify the current MultiProtect statement and input/output markings for A2732. Keep the charger ventilated and out of direct sun when parked, and stop use if the unit or socket is damaged or unusually hot. Console depth and nearby controls vary, so confirm the socket dimensions and clearance; the blue LED is a status aid, not a safety indicator.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2">Check the Vehicle, Cable and Device Together</h2>
+    <p class="text-gray-700">Use the USB-C or USB-A port only after matching the vehicle input, device charging protocol and an undamaged rated <a href="/en/anker/cables" class="text-blue-600 hover:underline">USB cable</a>. A printed 12V/24V input range does not establish physical compatibility with every car socket.</p></section>
 </div>
-<div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
+<div class="device-compatibility"><h3 class="font-bold mb-2">Compatibility guide based on listed specifications:</h3>
 <ul class="list-disc list-inside text-gray-700">
-    <li>📱 <strong>iPhone 17/16/15 series:</strong> 20W PD fast charging via USB-C (0→50% in ~30 min).</li>
-    <li>📱 <strong>Samsung Galaxy S26/S25:</strong> PD fast charging via USB-C.</li>
-    <li>📱 <strong>Legacy phones (Oppo/Xiaomi/Redmi):</strong> Up to 15W via USB-A PowerIQ 2.0.</li>
-    <li>🎧 <strong>AirPods / Galaxy Buds:</strong> Charge accessories via USB-A while driving.</li>
-    <li>🚗 <strong>All Cars:</strong> 12V/24V universal — sedans, SUVs, trucks.</li>
+    <li>📱 <strong>USB-C phones:</strong> confirm their accepted USB-PD profile and cable requirement.</li>
+    <li>📱 <strong>USB-A devices:</strong> negotiated output is limited by the device, cable and printed port rating.</li>
+    <li>🎧 <strong>Accessories:</strong> follow the accessory maker's input and cable guidance.</li>
+    <li>🚗 <strong>Vehicles:</strong> confirm the voltage, socket shape, depth, clearance and vehicle instructions.</li>
 </ul></div>
 
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Counterfeit car chargers flood Egypt's streets. Fake chargers lack proper voltage regulation and can damage your phone's charging circuit permanently in summer heat. Verify authenticity at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a> using the security label on your box.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A2732</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms. Review <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">the official verification reference</a>.</p></div>
 `,
-                features: ["🚗 35W Car Charger", "⚡ USB-C 20W PD Fast Charge", "🔌 USB-A 15W PowerIQ 2.0", "📱 Charge 2 Devices", "💡 Blue LED Ring", "🛡️ MultiProtect Safety", "🔋 12V/24V All Cars", "🏆 18-Month Warranty"],
+                features: ["🚗 Listed 35W total", "⚡ USB-C PD listed up to 20W", "🔌 USB-A PowerIQ 2.0 listed up to 15W", "📱 Verify shared output", "💡 Blue LED Ring", "🛡️ Verify MultiProtect statement", "🔋 Check 12V/24V socket compatibility", "🏆 current warranty and return policy"],
                 metaTitle: "Anker 35W Car Charger ⚡ USB-C + USB-A | COD Egypt",
-                metaDesc: "Buy Anker PowerDrive PD+ 2 A2732 car charger in Egypt. 35W: USB-C 20W PD + USB-A 15W. Fast charge iPhone in your car. ✓ 18-Month Warranty ✓ Fast Delivery.",
+                metaDesc: "Buy Anker PowerDrive PD+ 2 A2732 car charger in Egypt. 35W: USB-C 20W PD + USB-A 15W. Fast charge iPhone in your car. ✓ current warranty and return policy ✓ Fast Delivery.",
                 faqs: [
                     { question: "How is this different from the basic Anker PowerDrive 2 (A2224)?", answer: "The A2224 has 2× USB-A (12W each, 24W total) — no PD fast charging. The A2732 adds a USB-C PD port (20W) for fast charging modern phones, plus USB-A PowerIQ 2.0 (15W). Total: 35W vs 24W." },
-                    { question: "Will it fast-charge my iPhone while using Google Maps?", answer: "Yes! The 20W USB-C PD port fast-charges iPhone even while running GPS — you'll gain battery, not just maintain it. GPS typically uses 5-8W, so you'll still net positive charging." },
-                    { question: "Does it work in trucks and microbuses?", answer: "Yes — the A2732 accepts 12V and 24V input, so it works in all vehicles: sedans, SUVs, trucks, microbuses, and vans." },
-                    { question: "Will it overheat inside a parked car in summer?", answer: "The A2732 has built-in temperature monitoring via MultiProtect. It's designed for automotive use with heat-resistant internals. However, like all electronics, don't leave it in direct sunlight in a 60°C+ parked car for extended periods." },
-                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers manufacturing defects, port failure, and overheating. If you have issues, contact CairoVolt for free replacement. Keep your receipt and original box." }
+                    { question: "Will it fast-charge my phone while using navigation?", answer: "That depends on the phone's USB-PD profile, cable, navigation load, signal, screen brightness, temperature and simultaneous port use. Compare the phone input with the printed A2732 output table; a net battery gain is not guaranteed." },
+                    { question: "Does it work in trucks and microbuses?", answer: "Confirm the supplied A2732 input range, plug shape, socket voltage, depth and clearance against the exact vehicle manual. A 12V/24V marking alone does not guarantee physical compatibility with every vehicle." },
+                    { question: "Will it overheat inside a parked car in summer?", answer: "No charger can promise a fixed temperature in every parked car. Keep it out of direct sun, allow ventilation, follow the stated operating limits and stop use if the charger or socket is damaged or unusually hot." },
+                    { question: "What does the warranty cover?", answer: "Coverage, exclusions, proof of purchase and service steps are controlled by the written warranty and return policy in effect for this SKU. Review those terms before ordering and keep the invoice." }
                 ]
             },
             ar: {
-                name: "شاحن سيارة أنكر PowerDrive PD+ 2 بقوة 35 واط (A2732) | USB-C PD + USB-A | ضمان 18 شهر",
-                shortDescription: "🚗 شاحن سيارة 35 واط | 🔌 USB-C بقوة 20 واط PD + USB-A بقوة 15 واط | 📱 شحن سريع للايفون أثناء القيادة | 🛡️ حماية MultiProtect | 💡 حلقة LED | 🔋 12/24 فولت كل السيارات",
+                name: "شاحن سيارة انكر PowerDrive PD+ 2 بقوة 35 واط (A2732) | USB-C PD + USB-A",
+                shortDescription: "🚗 قدرة إجمالية معلنة 35 واط | 🔌 USB-C PD + USB-A PowerIQ 2.0 | 📱 الخرج المشترك يعتمد على الجهازين | 🛡️ تحقق من بيان MultiProtect | 💡 حلقة LED | 🔋 راجع مقبس السيارة",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة العادية بمنفذين USB-A اللي أقصاها 12 واط للمنفذ، أنكر A2732 PowerDrive PD+ 2 بيوفر <strong>20 واط USB-C PD شحن سريع + 15 واط USB-A PowerIQ 2.0</strong> — 35 واط إجمالي من ولاعة عربيتك. مثالي لزحمة الدائري: اشحن ايفونك سريع وصاحبك يشحن موبايله القديم. حماية MultiProtect، ضمان 18 شهر. بسعر <strong>550 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed">تذكر قائمة <strong>انكر A2732 PowerDrive PD+ 2</strong> منفذ USB-C PD حتى 20 واط ومنفذ USB-A PowerIQ 2.0 حتى 15 واط وقدرة إجمالية 35 واط. تحقق من توزيع القدرة عند الاستخدام المتزامن والبروفايلات ودخل السيارة وشكل المقبس وعلامات الحماية على الوحدة الموردة. تختلف القدرة حسب الهاتف والكابل والبطارية والحرارة. راجع السعر والمخزون والضمان الحالي.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">
-    <li>🚗 <strong>35 واط إجمالي:</strong> USB-C PD (20 واط) + USB-A PowerIQ 2.0 (15 واط) — أسرع شاحن لعربيتك.</li>
-    <li>⚡ <strong>20 واط USB-C PD:</strong> ايفون من 0 لـ 50% في ~30 دقيقة وانت في زحمة الدائري.</li>
-    <li>🔌 <strong>USB-A PowerIQ 2.0:</strong> بيتعرف على جهازك ويشحنه بأقصى سرعة آمنة لحد 15 واط.</li>
+    <li>🚗 <strong>35 واط إجمالي معلنة:</strong> تحقق من توزيع USB-C وUSB-A عند استخدامهما معاً.</li>
+    <li>⚡ <strong>USB-C PD حتى 20 واط معلنة:</strong> طابق بروفايل الهاتف واستخدم كابلاً مناسباً.</li>
+    <li>🔌 <strong>USB-A PowerIQ 2.0 حتى 15 واط معلنة:</strong> تختلف القدرة المتفاوض عليها حسب الجهاز والكابل.</li>
     <li>💡 <strong>حلقة LED زرقاء:</strong> تلاقي المنافذ بسهولة في الضلمة — هادية كفاية للسواقة بالليل.</li>
-    <li>🛡️ <strong>حماية MultiProtect:</strong> ضد ارتفاع الفولتية والسخونة وقصر الدائرة.</li>
+    <li>🛡️ <strong>MultiProtect:</strong> تحقق من بيان الحماية وعلامات المطابقة الحالية للموديل A2732.</li>
 </ul></div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ A2732 هو ترقية حقيقية عن PowerDrive 2 العادي. بدل منفذين USB-A بـ 12 واط، الـ A2732 عنده منفذ USB-C PD بيشحن ايفونك فعلاً بسرعة بـ 20 واط — يعني ايفون من 0 لـ 50% في مشوار مصر الجديدة لـ 6 أكتوبر. منفذ USB-A مع PowerIQ 2.0 بيتعامل مع موبايل الراكب القديم أو الايربودز. سيبناه في عربية الاختبار 4 شهور في الصيف — حلقة LED مثالية تلاقي المنافذ في الضلمة، والتصميم المدمج مش بيبرز من الكونسول. لأي حد عايز شحن PD سريع في العربية بسعر معقول، ده الاختيار الصح."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A2732</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
-    <section><h2 class="text-2xl font-bold mb-2">USB-C PD: شحن سريع فعلي في العربية</h2>
-    <p class="text-gray-700">شواحن السيارة العادية بتوفر 12 واط — بالعافية بتلحق تغطي استهلاك الـ GPS. منفذ USB-C في الـ A2732 بيوفر <strong>20 واط Power Delivery</strong>، بيشحن ايفون 17 من 0 لـ 50% في حوالي 30 دقيقة. ده شحن حقيقي أثناء زحمة الدائري أو رحلة القاهرة-إسكندرية. منفذ USB-A بـ <strong>PowerIQ 2.0</strong> (لحد 15 واط) بيشحن سامسونج وأوبو وشاومي وأي جهاز تاني.</p></section>
-    <section><h2 class="text-2xl font-bold mb-2">مصمم لصيف مصر على الأسفلت</h2>
-    <p class="text-gray-700">العربية المركونة في شمس مصر ممكن توصل 60°C+ جواها. نظام <strong>MultiProtect</strong> في الـ A2732 فيه مراقبة حرارة وحماية من ارتفاع الفولتية ومنع قصر الدائرة — مهم لما نظام 12V في عربيتك بيتذبذب. التصميم المدمج بيركب <strong>مسطح في الكونسول</strong> بدون إعاقة أزرار تانية. <strong>حلقة LED</strong> الهادية بتساعدك تلاقي المنافذ بالليل بدون ما تشتتك.</p></section>
-    <section><h2 class="text-2xl font-bold mb-2">ترقية من شواحن السيارة العادية</h2>
-    <p class="text-gray-700">لو لسه بتستخدم شاحن سيارة USB-A عادي، الـ A2732 هو الترقية المنطقية. بتاخد منفذ USB-C PD اللي ايفونك وسامسونجك محتاجينه للشحن السريع، <strong>وكمان</strong> منفذ USB-A لكل حاجة تانية. متوافق مع كل سيارات 12V و 24V — ملاكي وSUV وتريلات وميكروباصات.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2">USB-C PD وUSB-A في شاحن سيارة واحد</h2>
+    <p class="text-gray-700">تذكر القائمة USB-C PD حتى 20 واط وUSB-A PowerIQ 2.0 حتى 15 واط. يعتمد وقت الشحن والخرج عند استخدام المنفذين على الجدول المطبوع وبروفايل الهاتف والكابل ونسبة البطارية والاستخدام والحرارة؛ لا يمكن وعد كل هاتف بنسبة شحن في مدة ثابتة.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2">الحرارة والحماية وملاءمة الكونسول</h2>
+    <p class="text-gray-700">تحقق من بيان MultiProtect وعلامات الدخل والخرج الحالية للموديل A2732. اترك تهوية وأبعده عن الشمس المباشرة عند الركن وتوقف عند التلف أو السخونة غير المعتادة. يختلف عمق المقبس والمساحة بين السيارات، وحلقة LED مؤشر حالة وليست مؤشر سلامة.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2">طابق السيارة والكابل والهاتف</h2>
+    <p class="text-gray-700">استخدم المنفذ المناسب بعد مطابقة دخل السيارة وبروتوكول الهاتف وكابل سليم بتصنيف مناسب. نطاق 12/24 فولت المطبوع لا يثبت توافق القابس جسدياً مع كل مقبس سيارة.</p></section>
 </div>
-<div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر:</h3>
+<div class="device-compatibility"><h3 class="font-bold mb-2">دليل توافق حسب المواصفات:</h3>
 <ul class="list-disc list-inside text-gray-700">
-    <li>📱 <strong>ايفون 17/16/15:</strong> شحن PD سريع 20 واط عبر USB-C (0→50% في ~30 دقيقة).</li>
-    <li>📱 <strong>سامسونج جالكسي S26/S25:</strong> شحن PD سريع عبر USB-C.</li>
-    <li>📱 <strong>أجهزة قديمة (أوبو/شاومي/ريدمي):</strong> لحد 15 واط عبر USB-A PowerIQ 2.0.</li>
-    <li>🎧 <strong>ايربودز / Galaxy Buds:</strong> اشحن الإكسسوارات أثناء القيادة.</li>
-    <li>🚗 <strong>كل السيارات:</strong> 12/24 فولت — ملاكي وSUV وتريلات.</li>
+    <li>📱 <strong>هاتف USB-C:</strong> تحقق من بروفايل USB-PD المقبول ومتطلب الكابل.</li>
+    <li>📱 <strong>جهاز USB-A:</strong> يحد الجهاز والكابل وتصنيف المنفذ من الخرج المتفاوض عليه.</li>
+    <li>🎧 <strong>الاكسسوارات:</strong> اتبع تعليمات دخل الطاقة والكابل من الشركة.</li>
+    <li>🚗 <strong>السيارة:</strong> تحقق من الجهد وشكل المقبس والعمق والمساحة ودليل المركبة.</li>
 </ul></div>
 
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">شواحن السيارة المقلدة منتشرة في شوارع مصر. الشواحن المضروبة مفيهاش تنظيم فولتية وممكن تتلف دائرة الشحن في موبايلك نهائياً في حر الصيف. تأكد من الأصالة على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A2732</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية. راجع <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">مرجع التحقق الرسمي</a>.</p></div>
 `,
-                features: ["🚗 شاحن سيارة 35 واط", "⚡ USB-C بقوة 20 واط PD", "🔌 USB-A بقوة 15 واط PowerIQ", "📱 اشحن جهازين", "💡 حلقة LED", "🛡️ حماية MultiProtect", "🔋 12/24 فولت كل السيارات", "🏆 ضمان 18 شهر", "🔒 معتمد UL + CE للسلامة → سلامة كهربائية مختبرة معملياً"],
+                features: ["🚗 قدرة إجمالية معلنة 35 واط", "⚡ USB-C PD حتى 20 واط معلنة", "🔌 USB-A PowerIQ حتى 15 واط معلنة", "📱 تحقق من الخرج المشترك", "💡 حلقة LED", "🛡️ تحقق من بيان MultiProtect", "🔋 راجع توافق مقبس 12/24 فولت", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "شاحن سيارة انكر 35 واط ⚡ USB-C + USB-A | ادفع عند الاستلام",
-                metaDesc: "اشتري شاحن سيارة انكر A2732 في مصر. 35 واط: USB-C بقوة 20 واط PD + USB-A بقوة 15 واط. اشحن ايفونك بسرعة في العربية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
+                metaDesc: "اشتري شاحن سيارة انكر A2732 في مصر. 35 واط: USB-C بقوة 20 واط PD + USB-A بقوة 15 واط. اشحن ايفونك بسرعة في العربية. ✓ راجع سياسة الضمان والاسترجاع الحالية ✓ توصيل سريع.",
                 faqs: [
                     { question: "إيه الفرق بينه وبين شاحن السيارة العادي PowerDrive 2 (A2224)؟", answer: "الـ A2224 عنده منفذين USB-A (12 واط لكل واحد، 24 واط إجمالي) — مفيش شحن PD سريع. الـ A2732 عنده منفذ USB-C PD (20 واط) للشحن السريع + USB-A PowerIQ (15 واط). إجمالي 35 واط مقابل 24 واط." },
-                    { question: "بيشحن ايفون بسرعة وأنا مشغل الـ GPS؟", answer: "أيوه! منفذ USB-C PD بـ 20 واط بيشحن الايفون حتى وانت مشغل خرايط — هتكسب شحن مش بس هتحافظ عليه. الـ GPS بيستهلك 5-8 واط فهتفضل تكسب." },
-                    { question: "بيشتغل في التريلات والميكروباصات؟", answer: "أيوه — الـ A2732 بيقبل دخل 12V و 24V فبيشتغل في كل المركبات: ملاكي وSUV وتريلات وميكروباصات وفانات." },
-                    { question: "هيسخن في العربية المركونة في الشمس؟", answer: "الـ A2732 فيه مراقبة حرارة ضمن MultiProtect ومصمم للاستخدام داخل السيارة. بس زي أي إلكترونيات، ما تسيبهوش في الشمس المباشرة في عربية حرارتها 60°C+ لفترات طويلة." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 18 شهر بيغطي عيوب التصنيع وعطل المنافذ والسخونة. كلّم CairoVolt للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
+                    { question: "بيشحن الهاتف وأنا مشغل الملاحة؟", answer: "يعتمد ذلك على بروفايل الهاتف والكابل وحمل الملاحة والإشارة وسطوع الشاشة والحرارة واستخدام المنفذ الآخر. قارن دخل الهاتف بجدول خرج A2732؛ لا يمكن ضمان زيادة صافية في البطارية بكل حالة." },
+                    { question: "بيشتغل في التريلات والميكروباصات؟", answer: "طابق نطاق الدخل وشكل القابس وجهد المقبس والعمق والمساحة مع دليل المركبة نفسها. وجود علامة 12/24 فولت لا يضمن الملاءمة الجسدية مع كل مركبة." },
+                    { question: "هيسخن في العربية المركونة في الشمس؟", answer: "لا يمكن وعد درجة حرارة ثابتة في كل سيارة. أبعده عن الشمس المباشرة واترك تهوية واتبع حدود التشغيل وتوقف عند تلف الشاحن أو المقبس أو سخونتهما بشكل غير معتاد." },
+                    { question: "الضمان بيغطي إيه؟", answer: "التغطية والأهلية تخضعان لشروط ضمان انكر وسياسة كايرو فولت المنشورتين وقت الطلب. احتفظ بالفاتورة والعلبة وتواصل برقم الموديل ووصف العطل للتقييم." }
                 ]
             }
         },
-        meta: { keywords: "شاحن سيارة انكر, أنكر car charger, أنكر a2732, شاحن سيارة usb-c, أنكر powerdrive pd, شاحن عربية انكر, أنكر fast car charger, أنكر dual usb car charger, أنكر best car charger 2026, أنكر cod egypt, افضل شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سيارة انكر 35 واط, شاحن عربية انكر مصر, أنكر car charger egypt, شاحن سيارة سريع, شاحن USB-C سيارة مصر", mainTerm: "شاحن سيارة انكر 35 واط" },
+        meta: { keywords: "شاحن سيارة انكر, انكر car charger, انكر a2732, شاحن سيارة usb-c, انكر powerdrive pd, شاحن عربية انكر, انكر fast car charger, انكر dual usb car charger, انكر cod egypt, سعر شاحن سيارة انكر, شاحن سيارة انكر 35 واط, شاحن عربية انكر مصر, انكر car charger egypt, شاحن سيارة سريع, شاحن USB-C سيارة مصر", mainTerm: "شاحن سيارة انكر 35 واط" },
         expertOpinion: {
-        en: "Best for iPhone + accessory drivers who want genuine PD fast charging on the road. The dual-port design means you and your passenger charge simultaneously. Skip if you only charge one device.",
-        ar: "مثالي لسواقين الأوبر واللي بيسافروا كتير — منفذين يعني إنت والراكب بتشحنوا مع بعض. مش محتاجه لو بتشحن جهاز واحد بس."
+        en: "A2732 may suit a vehicle with a compatible socket when one USB-C PD port and one USB-A port are needed. Compare the printed shared output, phone protocols, cable requirements, console fit, live price and current warranty before choosing it.",
+        ar: "قد يناسب A2732 سيارة بمقبس متوافق عند الحاجة إلى USB-C PD وUSB-A معاً. قارن توزيع الخرج المطبوع وبروتوكولات الهاتف والكابل وملاءمة الكونسول والسعر والضمان الحالي قبل الاختيار."
     }
     };

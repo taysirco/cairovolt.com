@@ -4,18 +4,16 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getLiveIndexSlugs, isIndexEntryLive, getIndexEntry, getLiveIndex, getBlogArticleBySlug } from '@/data/blog-index';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import { ArticleSchema, SpeakableSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
+import { ArticleSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
 import { getProductBySlug } from '@/lib/static-products';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
-import { getEntitiesForArticle, entitiesToJsonLd } from '@/data/brand-entities';
 import dynamic from 'next/dynamic';
 const BlogInteractiveWidgets = dynamic(() => import('@/components/interactive/BlogInteractiveWidgets'));
 
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import SocialShareButtons from '@/components/content/SocialShareButtons';
 
-import { ExpertQuote } from '@/components/content/ExpertQuote';
 import { ExternalReferences } from '@/components/content/ExternalReferences';
 import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 import { getBrandDisplayName, localizeArabicBrandContent, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
@@ -102,12 +100,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             index: true,
             follow: true,
         },
-        other: {
-            'geo.region': 'EG',
-            'geo.placename': isArabic ? 'القاهرة، مصر' : 'Cairo, Egypt',
-            'geo.position': '30.0444;31.2357',
-            'ICBM': '30.0444, 31.2357',
-        },
     };
 }
 
@@ -149,6 +141,14 @@ export default async function BlogArticlePage({ params }: Props) {
         }
         : rawTrans;
     const catLabel = categoryLabels[article.category];
+    // Only publish a named byline when the content record identifies the
+    // CairoVolt editorial team. Historical external bylines are not presented
+    // as authors without a documented editorial agreement.
+    const safeAuthor = article.author && /CairoVolt|كايرو فولت/i.test(
+        `${article.author.name.ar} ${article.author.name.en}`
+    )
+        ? article.author
+        : undefined;
 
     // articleVoiceFAQ removed — was duplicating FAQ section content on the same page
 
@@ -182,70 +182,18 @@ export default async function BlogArticlePage({ params }: Props) {
                 image={article.coverImage ? `https://cairovolt.com${article.coverImage}` : undefined}
                 datePublished={article.publishDate}
                 dateModified={article.modifiedDate}
-                about={entitiesToJsonLd(getEntitiesForArticle(slug).about, isArabic ? 'ar' : 'en')}
-                mentions={entitiesToJsonLd(getEntitiesForArticle(slug).mentions, isArabic ? 'ar' : 'en')}
             />
-            <SpeakableSchema
-                pageUrl={`https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`}
-                headline={trans.title}
-                description={trans.metaDescription}
-                locale={locale}
-            />
-            {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
-            {/* ClaimReview Schema — ClaimReview schema for counterfeit charger articles */}
-            {(slug === 'original-vs-fake-apple-charger-egypt' || slug === 'do-fake-chargers-damage-iphone-battery') && (
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{
-                        __html: JSON.stringify({
-                            '@context': 'https://schema.org',
-                            '@type': 'ClaimReview',
-                            url: `https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`,
-                            claimReviewed: isArabic
-                                ? 'الشواحن الرخيصة غير المعتمدة آمنة على بطارية الهاتف مثل الشواحن الأصلية.'
-                                : 'Cheap, non-certified chargers are as safe for your phone battery as original chargers.',
-                            itemReviewed: {
-                                '@type': 'Claim',
-                                author: { '@type': 'Organization', name: isArabic ? 'تجار السوق' : 'Market vendors' },
-                                datePublished: article.publishDate,
-                                appearance: {
-                                    '@type': 'OpinionNewsArticle',
-                                    url: `https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`,
-                                },
-                            },
-                            author: {
-                                '@type': 'Organization',
-                                name: isArabic ? 'مختبر كايرو فولت للفحص التقني' : 'CairoVolt Hardware Validation Labs',
-                                url: 'https://cairovolt.com',
-                            },
-                            reviewRating: {
-                                '@type': 'Rating',
-                                ratingValue: '1',
-                                bestRating: '5',
-                                worstRating: '1',
-                                alternateName: isArabic ? 'خاطئ ومضلل — تسبب حرائق' : 'False & Misleading — Causes fires',
-                            },
-                            text: isArabic
-                                ? 'مختبر كايرو فولت أثبت أن الشواحن غير المعتمدة تصل درجة حرارتها لـ 65+ مئوية مقابل 42 مئوية للشواحن الأصلية. هذا يسبب انتفاخ البطارية وربما حرائق.'
-                                : 'CairoVolt Labs proved non-certified chargers reach 65°C+ vs 42°C for original chargers. This causes battery swelling and potential fire hazards.',
-                        }),
-                    }}
-                />
-            )}
-
             {/* HowTo Schema for the charger identification guide */}
             {slug === 'original-vs-fake-apple-charger-egypt' && (
                 <HowToSchema
-                    title={isArabic ? 'ازاي تفرق بين شاحن ابل الأصلي والتقليد' : 'How to Identify Original vs Fake Apple Charger'}
-                    description={isArabic ? '7 خطوات لفحص شاحن ابل والتأكد إنه أصلي' : '7 steps to verify your Apple charger is authentic'}
+                    title={isArabic ? 'خطوات أولية لمراجعة بيانات شاحن ابل' : 'Initial Checks for Apple Charger Information'}
+                    description={isArabic ? 'مؤشرات عملية لمراجعة الموديل والحالة، ولا تُعد وحدها إثباتًا للأصالة' : 'Practical checks for the model and condition; these checks alone do not prove authenticity'}
                     steps={[
-                        { name: isArabic ? 'افحص العلبة' : 'Check the box', text: isArabic ? 'العلبة الأصلية عليها باركود وطباعة عالية الجودة' : 'Original box has high-quality printing and barcode' },
-                        { name: isArabic ? 'شوف الوزن' : 'Feel the weight', text: isArabic ? 'الأصلي أتقل بسبب مكونات الأمان الداخلية' : 'Original is heavier due to internal safety components' },
-                        { name: isArabic ? 'افحص منفذ USB' : 'Inspect USB port', text: isArabic ? 'المنفذ الأصلي لونه رمادي متناسق والحواف ناعمة' : 'Authentic port has consistent grey color and smooth edges' },
-                        { name: isArabic ? 'شوف كتابة Designed by Apple' : 'Check markings', text: isArabic ? 'الشاحن الأصلي مكتوب عليه Designed by Apple in California' : 'Genuine charger has "Designed by Apple in California" printed' },
-                        { name: isArabic ? 'اختبر الشحن' : 'Test charging', text: isArabic ? 'الأصلي يشحن بدون سخونة زيادة ويعطي الواطية الصح' : 'Original charges without excessive heat and delivers correct wattage' },
-                        { name: isArabic ? 'تحقق من الرقم التسلسلي' : 'Verify serial', text: isArabic ? 'استخدم موقع ابل للتحقق من الرقم التسلسلي' : 'Use Apple website to verify the serial number' },
-                        { name: isArabic ? 'اشتري من موزع معتمد' : 'Buy authorized', text: isArabic ? 'اشتري من موزع معتمد زي كايرو فولت عشان تضمن الأصالة' : 'Buy from authorized dealers like CairoVolt to guarantee authenticity' },
+                        { name: isArabic ? 'طابق رقم الموديل' : 'Match the model number', text: isArabic ? 'قارن رقم الموديل والقدرة الكهربائية بالمواصفات المنشورة من الشركة المصنّعة.' : 'Compare the model number and electrical rating with manufacturer documentation.' },
+                        { name: isArabic ? 'راجع حالة المنتج' : 'Inspect the condition', text: isArabic ? 'ابحث عن تلف أو تشققات أو أجزاء مرتخية، ولا تستخدم المنتج إذا بدا غير آمن.' : 'Look for damage, cracks, or loose parts, and do not use the product if it appears unsafe.' },
+                        { name: isArabic ? 'افحص بيانات الكهرباء' : 'Check electrical markings', text: isArabic ? 'تأكد أن بيانات الإدخال والإخراج والتوافق مناسبة لجهازك وفق تعليمات الشركة المصنّعة.' : 'Confirm that input, output, and compatibility details suit your device according to manufacturer guidance.' },
+                        { name: isArabic ? 'استخدم أدوات الشركة إن وُجدت' : 'Use manufacturer tools when available', text: isArabic ? 'اتبع أداة التحقق أو دعم الشركة المصنّعة إن كانت متاحة؛ شكل العبوة أو الباركود وحده لا يثبت الأصالة.' : 'Follow any available manufacturer verification or support tool; packaging or a barcode alone does not prove authenticity.' },
+                        { name: isArabic ? 'احتفظ بالفاتورة والضمان' : 'Keep the invoice and warranty terms', text: isArabic ? 'احتفظ بفاتورة الشراء وشروط ضمان البائع المكتوبة للرجوع إليها عند الحاجة.' : 'Keep the purchase invoice and the seller’s written warranty terms for support.' },
                     ]}
                     locale={locale}
                 />
@@ -273,7 +221,7 @@ export default async function BlogArticlePage({ params }: Props) {
                         </nav>
                     </div>
                 </div>
-                {/* Cover Image Hero — framed card with C2PA authenticity badge */}
+                {/* Cover image hero */}
                 {article.coverImage && (
                     <div className="relative bg-gradient-to-b from-gray-50 to-white dark:from-gray-800/60 dark:to-gray-900 pt-6 md:pt-10 pb-2 md:pb-4">
                         {/* Soft ambient backdrop behind the image */}
@@ -298,20 +246,18 @@ export default async function BlogArticlePage({ params }: Props) {
                                             <SvgIcon name={catLabel.icon} className="w-3.5 h-3.5" /> {isArabic ? catLabel.ar : catLabel.en}
                                         </span>
                                     </div>
-                                    {/* C2PA provenance: crawler-only — visible badge removed; kept in
-                                        JSON-LD (ImageObjectSchema copyrightNotice/creditText) + file EXIF/XMP */}
                                     {/* Author micro-credit bottom-start */}
-                                    {article.author && (
+                                    {safeAuthor && (
                                         <div className="absolute bottom-3 md:bottom-4 start-3 md:start-4 flex items-center gap-2">
                                             <Image
-                                                src={article.author.avatar}
+                                                src={safeAuthor.avatar}
                                                 alt=""
                                                 width={32}
                                                 height={32}
                                                 className="w-7 h-7 md:w-8 md:h-8 rounded-full ring-2 ring-white/80 object-cover"
                                             />
                                             <span className="text-[11px] md:text-xs font-semibold text-white drop-shadow">
-                                                {article.author.name[isArabic ? 'ar' : 'en']}
+                                                {safeAuthor.name[isArabic ? 'ar' : 'en']}
                                             </span>
                                         </div>
                                     )}
@@ -325,11 +271,10 @@ export default async function BlogArticlePage({ params }: Props) {
                                         </span>
                                     </div>
                                 </div>
-                                {/* حقوق/توثيق الصورة — sr-only: في الـ HTML للزواحف وقارئات الشاشة دون عرض بصري */}
                                 <figcaption className="sr-only">
                                     {isArabic
-                                        ? '© كايرو فولت — صورة محميّة بمعايير محتوى المصادقة C2PA و EXIF/XMP'
-                                        : '© CairoVolt — Image authenticated with C2PA content credentials and EXIF/XMP'}
+                                        ? '© كايرو فولت — صورة المقال'
+                                        : '© CairoVolt — Article image'}
                                 </figcaption>
                             </figure>
                         </div>
@@ -372,7 +317,7 @@ export default async function BlogArticlePage({ params }: Props) {
                         </span>
                         <span className="flex items-center gap-1.5">
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
-                            {article.author ? article.author.name[isArabic ? 'ar' : 'en'] : (
+                            {safeAuthor ? safeAuthor.name[isArabic ? 'ar' : 'en'] : (
                                 <Link href={isArabic ? '/about' : '/en/about'} className="text-blue-600 dark:text-blue-400 hover:underline">
                                     {isArabic ? 'فريق تحرير كايرو فولت' : 'CairoVolt Editorial Team'}
                                 </Link>
@@ -395,6 +340,14 @@ export default async function BlogArticlePage({ params }: Props) {
 
                 {/* Article Content */}
                 <article className="container mx-auto px-4 md:px-4 max-w-4xl pb-16 md:pb-12">
+                    <aside className="mb-8 rounded-2xl border border-blue-200 bg-blue-50 p-5 text-sm leading-7 text-slate-700 dark:border-blue-800 dark:bg-blue-950/30 dark:text-slate-200">
+                        <strong className="block text-blue-800 dark:text-blue-200">
+                            {isArabic ? 'ملاحظة عن المنهجية' : 'Methodology note'}
+                        </strong>
+                        {isArabic
+                            ? 'ما لم تتضمن الفقرة مصدراً أو تقرير قياس موثقاً، تُفهم أرقام الأداء وعدد الشحنات كحسابات أو أمثلة تقديرية وليست نتائج اختبار معملي أو وعد أداء. راجع مواصفات الشركة المصنّعة للموديل وحالة جهازك والكابل قبل اتخاذ القرار.'
+                            : 'Unless a paragraph links to a source or a documented measurement report, performance figures and charge counts should be read as calculations or illustrative estimates, not laboratory results or performance promises. Check the manufacturer specifications for the exact model, your device condition, and the cable before deciding.'}
+                    </aside>
                     <BlogContentRenderer
                         html={trans.content}
                         locale={locale}
@@ -415,75 +368,61 @@ export default async function BlogArticlePage({ params }: Props) {
                     {/* Interactive Widgets (Calculators, Mermaid Diagrams) */}
                     <BlogInteractiveWidgets slug={slug} locale={locale} />
 
-                    {/* Verified expert quote — only renders when the article carries a real, sourced quote */}
-                    {article.expertQuote && <ExpertQuote quote={article.expertQuote} locale={locale} />}
-
                     {/* Further-reading external references — rel=nofollow, only renders when present */}
                     {article.externalReferences && article.externalReferences.length > 0 && (
                         <ExternalReferences refs={article.externalReferences} locale={locale} />
                     )}
 
-                    {/*
-                      REMOVED: the "CairoVolt Labs — First-Party Data" box.
-                      It was hardcoded identically on every article (an Anker 737 / WE-router
-                      result shown even on cable/earbud posts) and credited an independent
-                      YouTuber as "Quality Assurance Engineer" — neither is true, so it was a
-                      fabricated experience + false-employment signal.
-                      To bring it back legitimately: store REAL, per-article test data on the
-                      BlogArticle object and attribute it to "CairoVolt editorial/lab team"
-                      (or a real, named, consenting tester) — never to an unaffiliated creator.
-                    */}
-
                     {/* FAQSection removed — was duplicating the FAQ accordion below */}
 
                     {/* Author Profile Bio */}
-                    {article.author && (
+                    {safeAuthor && (
                         <div className="my-12 p-6 md:p-8 bg-gray-50 dark:bg-gray-800/50 rounded-2xl border border-gray-100 dark:border-gray-700/50 flex flex-col md:flex-row items-center md:items-start gap-6">
                             <Image
-                                src={article.author.avatar}
-                                alt={article.author.name[isArabic ? 'ar' : 'en']}
+                                src={safeAuthor.avatar}
+                                alt={safeAuthor.name[isArabic ? 'ar' : 'en']}
                                 width={128}
                                 height={128}
                                 className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-md flex-shrink-0"
                             />
                             <div className="text-center md:text-start flex-1">
                                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                                    {article.author.url ? (
-                                        <a href={article.author.url} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">
-                                            {article.author.name[isArabic ? 'ar' : 'en']}
+                                    {safeAuthor.url ? (
+                                        <a href={safeAuthor.url} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">
+                                            {safeAuthor.name[isArabic ? 'ar' : 'en']}
                                         </a>
                                     ) : (
-                                        article.author.name[isArabic ? 'ar' : 'en']
+                                        safeAuthor.name[isArabic ? 'ar' : 'en']
                                     )}
                                 </h3>
                                 <p className="text-blue-600 dark:text-blue-400 font-medium text-sm mb-4">
-                                    {article.author.title[isArabic ? 'ar' : 'en']}
+                                    {safeAuthor.title[isArabic ? 'ar' : 'en']}
                                 </p>
 
-                                {article.author.socials && (
+                                {safeAuthor.socials && (
                                     <div className="flex items-center justify-center md:justify-start gap-4">
-                                        {article.author.socials.youtube && (
-                                            <a href={article.author.socials.youtube} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors" aria-label="YouTube">
+                                        {safeAuthor.socials.youtube && (
+                                            <a href={safeAuthor.socials.youtube} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors" aria-label="YouTube">
                                                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg>
                                             </a>
                                         )}
-                                        {article.author.socials.instagram && (
-                                            <a href={article.author.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-500 transition-colors" aria-label="Instagram">
+                                        {safeAuthor.socials.instagram && (
+                                            <a href={safeAuthor.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-500 transition-colors" aria-label="Instagram">
                                                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fillRule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clipRule="evenodd" /></svg>
                                             </a>
                                         )}
-                                        {article.author.socials.tiktok && (
-                                            <a href={article.author.socials.tiktok} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-black dark:hover:text-white transition-colors" aria-label="TikTok">
+                                        {safeAuthor.socials.tiktok && (
+                                            <a href={safeAuthor.socials.tiktok} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-black dark:hover:text-white transition-colors" aria-label="TikTok">
                                                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 15.68a6.34 6.34 0 0 0 6.26 6.32 6.32 6.32 0 0 0 6.1-4.94 6.27 6.27 0 0 0 .16-1.4V8.42a8.14 8.14 0 0 0 4.7 1.54V6.52a5 5 0 0 1-2.63-.83z" /></svg>
                                             </a>
                                         )}
-                                        {article.author.socials.twitter && (
-                                            <a href={article.author.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors" aria-label="X (Twitter)">
+                                        {safeAuthor.socials.twitter && (
+                                            <a href={safeAuthor.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors" aria-label="X (Twitter)">
                                                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
                                             </a>
                                         )}
-                                        {article.author.socials.facebook && (
-                                            <a href={article.author.socials.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-600 transition-colors" aria-label="Facebook">
+                                        {safeAuthor.socials.facebook && (
+                                            <a href={safeAuthor.socials.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-600 transition-colors" aria-label="Facebook">
                                                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" /></svg>
                                             </a>
                                         )}
@@ -494,7 +433,7 @@ export default async function BlogArticlePage({ params }: Props) {
                     )}
 
                     {/* Team fallback — when no specific author */}
-                    {!article.author && (
+                    {!safeAuthor && (
                         <div className="my-12 p-6 md:p-8 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-2xl border border-blue-100 dark:border-blue-800/30 flex flex-col md:flex-row items-center md:items-start gap-6">
                             <Image
                                 src="/images/team/cairovolt-team.webp"
@@ -510,12 +449,12 @@ export default async function BlogArticlePage({ params }: Props) {
                                     </Link>
                                 </h3>
                                 <p className="text-blue-600 dark:text-blue-400 font-medium text-sm mb-3">
-                                    {isArabic ? 'متخصصون في اختبار ومراجعة إكسسوارات الشحن والموبايل' : 'Specialists in testing & reviewing charging and mobile accessories'}
+                                    {isArabic ? 'فريق محتوى يراجع المواصفات وأدلة الشراء' : 'Content team reviewing specifications and buying guides'}
                                 </p>
                                 <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
                                     {isArabic
-                                        ? 'يُكتب هذا المحتوى ويُراجع بواسطة فريق التحرير في كايرو فولت. كل مقال يمر بمراجعة دقيقة لضمان دقة المعلومات. للاطلاع على آراء مستقلة، نرشّح لك أيضاً نخبة من صنّاع المحتوى التقني.'
-                                        : 'This content is written and reviewed by the CairoVolt editorial team. Every article undergoes thorough review for accuracy. For independent opinions, we also recommend a selection of top tech creators.'}
+                                        ? 'يُراجع فريق كايرو فولت رقم الموديل والمواصفات والتوافق ويحدّث المعلومات عند توفر بيانات أدق. الحسابات التقديرية تُعرض كحسابات، ويمكنك الإبلاغ عن أي معلومة تحتاج تصحيحاً.'
+                                        : 'The CairoVolt team reviews model numbers, specifications, and compatibility, and updates information when better data is available. Estimates are labeled as calculations, and readers can report information that needs correction.'}
                                 </p>
                                 <div className="flex flex-wrap items-center justify-center md:justify-start gap-x-5 gap-y-2">
                                     <Link
@@ -587,8 +526,8 @@ export default async function BlogArticlePage({ params }: Props) {
                         </h3>
                         <p className="mb-6 text-white/90">
                             {isArabic
-                                ? 'تسوق منتجات أصلية مع ضمان رسمي وتوصيل لباب البيت'
-                                : 'Shop original products with official warranty and home delivery'}
+                                ? 'تصفح المنتجات المتاحة وراجع المواصفات وشروط ضمان كايرو فولت قبل الطلب'
+                                : 'Browse available products and review specifications and CairoVolt warranty terms before ordering'}
                         </p>
                         <div className="flex flex-wrap justify-center gap-3">
                             <Link
@@ -647,14 +586,6 @@ export default async function BlogArticlePage({ params }: Props) {
                                                         {getBrandDisplayName(prod.brand, locale)}
                                                     </span>
                                                 </div>
-                                                {/* Discount badge */}
-                                                {prod.originalPrice && prod.originalPrice > prod.price && (
-                                                    <div className="absolute top-2.5 end-2.5">
-                                                        <span className="text-[10px] font-bold px-2 py-1 rounded-full bg-red-700 text-white shadow-sm">
-                                                            -{Math.round((1 - prod.price / prod.originalPrice) * 100)}%
-                                                        </span>
-                                                    </div>
-                                                )}
                                             </div>
                                             {/* Product Info */}
                                             <div className="p-4">
@@ -664,11 +595,6 @@ export default async function BlogArticlePage({ params }: Props) {
                                                         <span className="text-lg font-bold text-green-700 dark:text-green-400">
                                                             {prod.price.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
                                                         </span>
-                                                        {prod.originalPrice && prod.originalPrice > prod.price && (
-                                                            <span className="text-xs text-gray-500 dark:text-gray-400 line-through block">
-                                                                {prod.originalPrice.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
-                                                            </span>
-                                                        )}
                                                     </div>
                                                     <span className={`text-xs font-semibold px-3 py-1.5 rounded-full transition-colors duration-300 ${isAnkerBrand ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 group-hover:bg-blue-600 group-hover:text-white' : 'bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-300 group-hover:bg-red-600 group-hover:text-white'}`}>
                                                         {isArabic ? 'تسوق' : 'Shop'} →

@@ -42,12 +42,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             siteName: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
             images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: locale === 'ar' ? 'كايرو فولت - اكسسوارات الموبايل' : 'CairoVolt - Mobile Accessories' }],
         },
-        other: {
-            'geo.region': 'EG',
-            'geo.placename': locale === 'ar' ? 'القاهرة، مصر' : 'Cairo, Egypt',
-            'geo.position': '30.0444;31.2357',
-            'ICBM': '30.0444, 31.2357',
-        },
     };
 }
 
@@ -104,11 +98,15 @@ export default async function ShippingPage({ params }: Props) {
                                 <div className="grid md:grid-cols-2 gap-6">
                                     <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6">
                                         <h3 className="font-semibold text-lg mb-2">{t('deliveryTime.cairo')}</h3>
-                                        <p className="text-3xl font-bold text-blue-600">1-2 {t('deliveryTime.days')}</p>
+                                        <p className="text-2xl font-bold text-blue-600">
+                                            {isArabic ? 'تقدير شائع: 1–2 يوم عمل' : 'Common estimate: 1–2 business days'}
+                                        </p>
                                     </div>
                                     <div className="bg-purple-50 dark:bg-purple-900/20 rounded-xl p-6">
                                         <h3 className="font-semibold text-lg mb-2">{t('deliveryTime.provinces')}</h3>
-                                        <p className="text-3xl font-bold text-purple-600">3-5 {t('deliveryTime.days')}</p>
+                                        <p className="text-2xl font-bold text-purple-600">
+                                            {isArabic ? 'تقدير شائع: 3–5 أيام عمل' : 'Common estimate: 3–5 business days'}
+                                        </p>
                                     </div>
                                 </div>
                             </section>

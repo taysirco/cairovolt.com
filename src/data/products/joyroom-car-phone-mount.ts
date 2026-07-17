@@ -23,116 +23,100 @@ export const joyroom_car_phone_mount = {
         ],
         translations: {
             en: {
-                name: "Joyroom Universal Car Phone Mount",
-                shortDescription: "🚗 Anti-Shake at 120km/h Tested | 📱 Fits 4.7-7 Inch Phones with Case | 🔄 360° Rotation | 🏆 Egyptian Highway Tested",
+                name: "Joyroom Car Phone Mount | Verify Phone and Vehicle Fit",
+                shortDescription: "🚗 Car phone mount | 📱 Verify the listed phone and case dimensions | 🔄 Adjustable viewing angle | 🧾 Confirm the supplied mounting method and parts",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike flimsy phone mounts that drop your phone on every pothole, the <strong>Joyroom Universal Car Mount</strong> at <strong>169 EGP</strong> fits phones 4.7"-6.8" with a strong grip mechanism. Spring-loaded arms + anti-slip pads. Fits all Egyptian car air vents. Budget-friendly without sacrificing stability. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom JR-ZS295 car phone mount</strong> uses an adjustable holder and grip surfaces for compatible phones. Confirm the supplied mounting method, installation surface, phone dimensions, case thickness, weight limit and package parts on the box before ordering. Retention varies with installation, road movement, temperature, surface condition and the phone case; no holder can promise retention on every road. Check the live price, stock and current warranty terms.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
-        <li>🚓 <strong>Dashboard/Windshield:</strong> Industrial suction cup holds on tight.</li>
-        <li>📱 <strong>Universal Fit:</strong> Expands up to 7 inches (fits iPhone 17 Pro Max with case).</li>
-        <li>🔄 <strong>360° Viewing:</strong> Fully adjustable arm for perfect GPS angles.</li>
-        <li>👋 <strong>One-Hand Release:</strong> Push button to instantly grab your phone.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "We tested the JR-ZS295 on the Ring Road with a heavy Samsung S26 Ultra. The nano-silica suction cup didn't budge even when parked in the 45-degree August sun. Unlike cheap mounts whose plastic melts or gears jam, the release mechanism here is smooth and reliable. If you don't want a vent mount, this is the most secure dashboard/windshield option we've validated."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
+        <li>🚓 <strong>Mounting method:</strong> verify the supplied base or clip and compatible surface before installation.</li>
+        <li>📱 <strong>Phone fit:</strong> compare the holder's listed width, depth and weight limits with the phone and case.</li>
+        <li>🔄 <strong>Viewing adjustment:</strong> position the screen without blocking the road, controls or airbags.</li>
+        <li>👋 <strong>Release mechanism:</strong> test it while the vehicle is parked before driving.</li>
+    <li>🧾 <strong>Returns and warranty:</strong> handled under the current published policy and eligibility terms.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>JR-ZS295</strong>, start with the manufacturer-rated mounting surface, phone dimensions, case type and installation instructions printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Washable Nano-Suction Cup</h2>
-        <p class="text-gray-700">The base uses a sticky gel pad combined with a vacuum suction mechanism. If it gets dusty and loses grip, simply rinse it with warm water, let it air dry, and it's good as new. Sticks securely to glass or textured dashboards.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Confirm the Supplied Mounting Base</h2>
+        <p class="text-gray-700">Product variants and packages can use different mounting parts. Match JR-ZS295 and the supplied base or clip with current manufacturer instructions. Use only an approved clean surface, follow any curing or cleaning directions, and do not assume the mount suits textured dashboards, glass or air vents unless the supplied instructions say so.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">360° Adjustable Arm with Safety Lock</h2>
-        <p class="text-gray-700">The arm rotates <strong>360 degrees</strong> and tilts to any angle. The metal ball joint locks firmly — no loosening from road vibrations. Tested over <strong>200km on Cairo's Ring Road</strong> with potholes and speed bumps without the phone shifting.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Adjust the Holder While Parked</h2>
+        <p class="text-gray-700">Set the joint and holder angle before driving, tighten it according to the instructions and check that the phone does not obstruct the road, controls, vents or airbags. Recheck the grip after temperature changes and before each trip; road vibration and wear can loosen any mount.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17/16/15 Pro Max:</strong> Fits with most cases.</li>
-        <li>📱 <strong>Samsung S26/S25 Ultra:</strong> Secure grip, no wobble.</li>
-        <li>📱 <strong>Pixel / OnePlus / Xiaomi:</strong> Up to 6.8" screen.</li>
-        <li>❌ <strong>iPad Mini / Tablets:</strong> Too heavy, not recommended.</li>
+        <li>📱 <strong>Phones:</strong> compare the actual phone-and-case width, depth and weight with the printed limits.</li>
+        <li>📱 <strong>Large or rugged cases:</strong> may exceed the holder depth or affect the release mechanism.</li>
+        <li>❌ <strong>Tablets:</strong> do not use unless the exact model instructions explicitly include their size and weight.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Air vent mount ONLY — no dashboard or windshield option. May block air vent in summer when you need AC most. Not suitable for very heavy phones with large cases. Spring mechanism may loosen after 12+ months of daily use.</p></div>`,
-                features: ["📱 Fits phones up to 7 inches", "✨ Strong suction cup mount", "✨ Dashboard or windshield mounting", "✨ 360-degree rotation", "✨ One-hand operation", "✨ Adjustable arm length", "🏆 12-month warranty", "🔒 Anti-Scratch Silicone Grip"],
-                metaTitle: "Joyroom Car Phone Mount ⚡ 58% OFF | Anti-Vibration | COD",
-                metaDesc: "Buy joyroom Car Phone Mount — holds iPhone 17 Pro Max & Samsung S26 Ultra securely. Dashboard or windshield. 360° rotation. ✓ COD ✓ Fast Delivery Egypt.",
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">Safety note</h3><p class="text-gray-700">The previous listing contained conflicting descriptions of an air-vent and a dashboard or windshield version. Confirm the actual JR-ZS295 package and included mounting parts before use. Install and test it while parked, inspect it regularly, remove the phone if attachment weakens, and follow local rules for screen position and phone use while driving.</p></div>`,
+                features: ["📱 Fits phones up to 7 inches", "✨ Strong suction cup mount", "✨ Dashboard or windshield mounting", "✨ 360-degree rotation", "✨ One-hand operation", "✨ Adjustable arm length", "🏆 current warranty and return policy", "🔒 Anti-Scratch Silicone Grip"],
+                metaTitle: "Joyroom JR-ZS295 Car Phone Mount | Fit Guide | Egypt",
+                metaDesc: "Joyroom JR-ZS295 car phone mount. Verify the supplied mounting method, phone and case dimensions, weight limit, installation instructions, live price and warranty.",
                 faqs: [
-                    { question: "Does the suction mount fit iPhone 17 Pro Max?", answer: "Yes! It's designed for phones up to 7 inches, so it easily holds iPhone 17 Pro Max (6.9 inches) and Samsung S26 Ultra securely." },
-                    { question: "Does the suction cup work on textured dashboards?", answer: "It works best on smooth surfaces. For textured dashboards, we include an adhesive mounting disc that creates a smooth surface for the suction cup." },
-                    { question: "Does it hold heavy phones like iPhone 17 Pro Max?", answer: "Yes. The mount supports phones up to 250g and 6.9 inches. iPhone 17 Pro Max (227g) sits securely even on bumpy Cairo roads." },
-                    { question: "Does the suction cup survive Egyptian summer heat?", answer: "Yes. Tested up to 45°C dashboard temperature. The industrial-grade suction cup won't melt or lose grip during summer." },
-                    { question: "Can I use it with a phone case?", answer: "Yes, compatible with cases up to 12mm thick. Most standard and rugged cases work without removal." }
+                    { question: "Will it fit my phone and case?", answer: "Compare the combined phone-and-case width, depth and weight with the printed JR-ZS295 limits. A screen diagonal alone does not establish fit, and rugged cases can change grip." },
+                    { question: "Does it work on a textured dashboard?", answer: "First confirm whether the supplied JR-ZS295 variant is intended for a dashboard, windshield or vent. Use only the surfaces and installation parts specified in the package instructions; textured surfaces can reduce adhesion." },
+                    { question: "Will it hold a heavy phone on bumpy roads?", answer: "No mount can guarantee retention over every bump or temperature. Confirm the weight limit, install it correctly, test it while parked and inspect the grip before each trip." },
+                    { question: "How should I use the suction cup in summer heat?", answer: "Install it on a clean, smooth surface within the manufacturer's temperature limits. Recheck adhesion before driving and remove the mount if the pad softens, warps, or loses grip." },
+                    { question: "Can I use it with a phone case?", answer: "Only if the combined dimensions and weight remain within the holder's printed limits and the arms contact the phone securely. Thick, uneven or soft cases may reduce grip." }
                 ]
             },
             ar: {
-                name: "حامل موبايل للسيارة جوي روم | مبتهزش في مطبات الدائري | دوران 360° | يناسب كل الموبايلات",
-                shortDescription: "منقذك من غرامات المرور | 🚓 كوب شفط قوي مش هيقع من شمس الصيف | 📱 يناسب ايفون 17 برو ماكس وسامسونج الترا | 👋 بتركبه وتفكه بإيد واحدة",
+                name: "حامل موبايل للسيارة جوي روم JR-ZS295 | دليل المقاس والتركيب",
+                shortDescription: "🚗 حامل هاتف للسيارة | 📱 تحقق من أبعاد الهاتف والجراب | 🔄 زاوية مشاهدة قابلة للتعديل | 🧾 أكد طريقة التركيب والقطع الموردة",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس حوامل الموبايل (الهاتف الذكي) الرخيصة اللي بتقع من أول مطب وبتخربش موبايلك، حامل <strong>جوي روم العالمي للسيارة</strong> فيه أذرع زنبركية معدنية + وسائد سيليكون مانعة للانزلاق بتناسب موبايلات من 4.7"-6.8". بيركّب على كل فتحات تكييف العربيات المصرية بثبات حقيقي حتى على طريق الأوتوستراد. معتمد CE للسلامة. سعر <strong>169 جنيه</strong> مع ضمان كايرو فولت.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">يستخدم <strong>حامل جوي روم JR-ZS295 للسيارة</strong> جزءاً قابلاً للتعديل وأسطح إمساك للهواتف المتوافقة. تحقق من طريقة التثبيت الموردة وسطح التركيب وأبعاد الهاتف والجراب وحد الوزن وقطع العبوة قبل الطلب. يتغير الثبات حسب التركيب والطريق والحرارة والسطح والجراب، ولا يمكن لحامل أن يضمن الإمساك في كل طريق. راجع السعر والمخزون والضمان الحالي.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">الخلاصة اللي تهمك:</h3>
     <ul class="list-none space-y-1">
-        <li>🚓 <strong>تابلوه / زجاج:</strong> كوب شفط قوي جداً بيلزق بثبات.</li>
-        <li>📱 <strong>لأي موبايل:</strong> بيوسع لحد 7 بوصة (يشيل ايفون 17 برو ماكس بالكفر).</li>
-        <li>🔄 <strong>دوران 360°:</strong> ذراع قابل للتعديل عشان تظبط زاوية ה-GPS براحتك.</li>
-        <li>👋 <strong>إفلات بضغطة:</strong> دوس على الزرار الموبايل يطلع فوراً.</li>
-    <li>🔄 <strong>استبدال مجاني:</strong> لو طلع فيه عيب، بنبدّله — بدون أسئلة.</li></ul>
+        <li>🚓 <strong>طريقة التثبيت:</strong> تحقق من القاعدة أو المشبك المورّد والسطح المسموح قبل التركيب.</li>
+        <li>📱 <strong>مقاس الهاتف:</strong> قارن العرض والعمق والوزن المعلن مع الهاتف والجراب معاً.</li>
+        <li>🔄 <strong>زاوية المشاهدة:</strong> ضع الشاشة من دون حجب الطريق أو الأزرار أو الوسائد الهوائية.</li>
+        <li>👋 <strong>آلية الفك:</strong> اختبرها والسيارة متوقفة قبل القيادة.</li>
+    <li>🧾 <strong>الاسترجاع والضمان:</strong> وفق السياسة المنشورة وشروط الأهلية الحالية.</li></ul>
 </div>
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "جربنا JR-ZS295 على الدائري مع موبايل تقيل زي سامسونج S26 الترا. قاعدة الشفط ملزقة زي الحديد حتى بعد ركنة العربية في شمس أغسطس الـ 45 درجة. عكس الحوامل الرخيصة اللي البلاستيك بتاعها بيسيح أو التروس بتعلق، ميكانيزم القفل هنا ناعم وعملي جداً. لو مش بتحب حوامل التكييف، ده أأمن حامل تابلوه اختبرناه."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>JR-ZS295</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">كوب شفط قابل للغسيل</h2>
-        <p class="text-gray-700">القاعدة بتستخدم جل لاصق مع ميكانيزم تفريغ هواء. لو لم تراب وضعف لزقه، اغسله بشوية مية دافية وسيبه ينشف، هيرجع يلزق كأنه جديد. بيثبت بقوة على الزجاج أو التابلوه الملمس.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">أكد قاعدة التركيب الموردة</h2>
+        <p class="text-gray-700">قد تختلف القطع بين النسخ والعبوات. طابق JR-ZS295 والقاعدة أو المشبك المورّد مع تعليمات الشركة الحالية، واستخدم فقط السطح وطريقة التنظيف المسموح بهما. لا تفترض أنه يناسب تابلوهاً خشناً أو زجاجاً أو فتحة تكييف إلا إذا ذكرت العبوة ذلك.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">ذراع 360° مع قفل أمان</h2>
-        <p class="text-gray-700">الذراع بيلف <strong>360 درجة</strong> ويميل لأي زاوية. مفصل الكرة المعدني بيقفل بإحكام — مش بيرتخي مع اهتزازات الطريق. اختبرناه على <strong>200 كم على الدائري</strong> مع مطبات وحفر بدون ما الموبايل يتزحزح.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">اضبط الحامل والسيارة متوقفة</h2>
+        <p class="text-gray-700">اضبط المفصل والزاوية قبل القيادة وثبته حسب التعليمات وتأكد من عدم حجب الطريق أو الأزرار أو فتحات الهواء أو الوسائد الهوائية. أعد فحص الإمساك بعد تغير الحرارة وقبل كل رحلة؛ قد تؤدي الاهتزازات والتآكل إلى ارتخاء أي حامل.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>ايفون 17/16/15 برو ماكس:</strong> بيشيله بالكفر.</li>
-        <li>📱 <strong>سامسونج S26/S25 ألترا:</strong> قبضة محكمة بدون اهتزاز.</li>
-        <li>📱 <strong>Pixel / OnePlus / Xiaomi:</strong> لحد شاشة 6.8 بوصة.</li>
-        <li>❌ <strong>ايباد ميني / تابلت:</strong> تقيل جداً، مش مناسب.</li>
+        <li>📱 <strong>الهواتف:</strong> قارن العرض والعمق والوزن الفعليين للهاتف والجراب بالحدود المطبوعة.</li>
+        <li>📱 <strong>الجرابات الكبيرة:</strong> قد تتجاوز عمق الحامل أو تؤثر في آلية الفك.</li>
+        <li>❌ <strong>التابلت:</strong> لا تستخدمه إلا إذا شملت تعليمات الموديل المقاس والوزن صراحة.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">تركيب على فتحة التكييف بس — مفيش خيار تابلوه أو زجاج. ممكن يسد فتحة التكييف في الصيف لما تحتاج التكييف أكتر. مش مناسب للموبايلات التقيلة جداً بجرابات كبيرة. آلية الزنبرك ممكن ترتخي بعد 12+ شهر استخدام يومي.</p></div>`,
-                features: ["📐 يناسب هواتف حتى 7 بوصة", "✨ كوب شفط قوي", "✨ تثبيت على التابلوه أو الزجاج", "✨ دوران 360 درجة", "✨ تشغيل بيد واحدة", "✨ ذراع قابل للتعديل", "🏆 ضمان 12 شهر", "🔒 معتمد CE → معيار السلامة الأوروبي لإكسسوارات السيارات"],
-                metaTitle: "حامل موبايل سيارة جوي روم ⚡ خصم 58% | ثبات ضد الاهتزاز",
-                metaDesc: "اشتري حامل جوال سيارة جوي روم - يثبت ايفون 17 برو ماكس وسامسونج S26 الترا بأمان. تابلوه أو زجاج. دوران 360. أفضل سعر مصر. ✓ ضمان ✓ توصيل سريع مصر.",
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">ملاحظة سلامة</h3><p class="text-gray-700">كان الوصف السابق يجمع بين نسخة لفتحة التكييف ونسخة للتابلوه أو الزجاج. أكد عبوة JR-ZS295 الفعلية وقطع التركيب الموجودة قبل الاستخدام. ركّبه واختبره والسيارة متوقفة وافحصه دورياً وانزع الهاتف إذا ضعف التثبيت واتبع قواعد وضع الشاشة واستخدام الهاتف أثناء القيادة.</p></div>`,
+                features: ["📐 تحقق من مقاس الهاتف والجراب", "✨ أكد قاعدة أو مشبك التركيب المورّد", "✨ اتبع السطح المسموح في التعليمات", "✨ زاوية قابلة للتعديل", "✨ اختبر آلية الفك والسيارة متوقفة", "✨ افحص التثبيت دورياً", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
+                metaTitle: "حامل موبايل سيارة جوي روم JR-ZS295 | دليل التركيب",
+                metaDesc: "حامل جوي روم JR-ZS295 للسيارة. تحقق من طريقة التركيب الموردة وأبعاد الهاتف والجراب وحد الوزن وتعليمات التثبيت والسعر والضمان الحالي.",
                 faqs: [
-                    { question: "هل يثبت ايفون 17 برو ماكس؟", answer: "نعم! مصمم لهواتف حتى 7 بوصة، فيثبت ايفون 17 برو ماكس (6.9 بوصة) وسامسونج S26 الترا بسهولة." },
-                    { question: "هل يعمل على التابلوه الخشن؟", answer: "يعمل أفضل على الأسطح الملساء. للتابلوه الخشن، نوفر قرص لاصق يخلق سطح أملس لكوب الشفط." },
-                    { question: "بيشيل موبايلات تقيلة زي ايفون 17 برو ماكس؟", answer: "أيوه. الحامل بيشيل موبايلات لحد 250 جرام و6.9 بوصة. ايفون 17 برو ماكس (227 جم) بيثبت حتى على طرق القاهرة المتعرجة." },
-                    { question: "كاسة الشفط بتستحمل حر صيف مصر؟", answer: "أيوه. اتختبرت لحد 45°C على التابلوه. كاسة الشفط الصناعية مش بتسيح أو تفقد التماسك في الصيف." },
-                    { question: "بيتحط مع الجراب؟", answer: "أيوه، متوافق مع جرابات لحد 12 مم سمك. معظم الجرابات العادية والمتينة بتشتغل من غير ما تشيلها." }
+                    { question: "هل يناسب هاتفي والجراب؟", answer: "قارن عرض وعمق ووزن الهاتف والجراب مع الحدود المطبوعة للموديل JR-ZS295. قطر الشاشة وحده لا يثبت الملاءمة وقد يغير الجراب الكبير من الإمساك." },
+                    { question: "هل يعمل على التابلوه الخشن؟", answer: "أكد أولاً هل النسخة الموردة للتابلوه أو الزجاج أو فتحة التكييف. استخدم فقط السطح وقطع التركيب المذكورة في تعليمات العبوة؛ الأسطح الخشنة قد تضعف الالتصاق." },
+                    { question: "هل يثبت هاتفاً ثقيلاً على المطبات؟", answer: "لا يمكن لحامل أن يضمن الثبات على كل مطب أو حرارة. تحقق من حد الوزن وركبه صحيحاً واختبره والسيارة متوقفة وافحص الإمساك قبل الرحلة." },
+                    { question: "كاسة الشفط بتستحمل حر صيف مصر؟", answer: "راجع نطاق الحرارة المعلن للموديل في العبوة أو وثائق الشركة. قوة الشفط تتأثر بنظافة السطح والحرارة والوقت؛ افحص الحامل دورياً ولا تترك الهاتف أو الحامل في حرارة شديدة." },
+                    { question: "بيتحط مع الجراب؟", answer: "فقط إذا بقيت الأبعاد والوزن داخل الحدود المطبوعة ولامست الأذرع الهاتف جيداً. الجراب السميك أو غير المستوي أو المرن قد يقلل الإمساك." }
                 ]
             }
         },
         expertOpinion: {
-            en: "The Joyroom Universal Car Phone Mount survived our Cairo road test — 200km of potholes, speed bumps, and Ring Road vibrations without dropping the phone once.'s most popular car models. The suction cup withstands 45°C dashboard temperatures — a critical factor that cheap mounts fail at during Egyptian summers.",
-            ar: "مجرب في 4 من أشهر موديلات السيارات في مصر. كاسة الشفط تتحمل 45°C على التابلوه — عامل حاسم الحوامل الرخيصة بتفشل فيه في صيف مصر."
+            en: "JR-ZS295 may suit a phone whose combined case dimensions and weight fit the printed holder limits. Confirm the actual mounting variant and supplied parts, then install and test it while parked and inspect the grip regularly.",
+            ar: "قد يناسب JR-ZS295 هاتفاً تقع أبعاده ووزنه مع الجراب داخل حدود الحامل المطبوعة. أكد نسخة التركيب والقطع الموردة ثم ركبه واختبره والسيارة متوقفة وافحص الإمساك دورياً."
         },
-        meta: { keywords: "جوي روم car mount, حامل جوال سيارة, car phone holder egypt, حامل ايفون 17 للسيارة, جوي روم best car mount 2026, جوي روم dashboard mount, جوي روم cod egypt, افضل حامل سيارة جوي روم, سعر حامل موبايل جوي روم, car mount suction cup, حامل موبايل عربية, حامل تابلو سيارة, phone holder egypt price, حامل سيارة ضد الاهتزاز, حامل جوال ادفع عند الاستلام, جوي روم car phone mount, جوي روم car phone mount FCC certified", mainTerm: "joyroom car phone mount" },
+        meta: { keywords: "جوي روم car mount, حامل جوال سيارة, car phone holder egypt, حامل ايفون 17 للسيارة, جوي روم dashboard mount, جوي روم cod egypt, سعر حامل موبايل جوي روم, car mount suction cup, حامل موبايل عربية, حامل تابلو سيارة, phone holder egypt price, حامل سيارة ضد الاهتزاز, حامل جوال ادفع عند الاستلام, جوي روم car phone mount, جوي روم car phone mount compliance marks that should be verified on the physical unit and manufacturer documentation", mainTerm: "joyroom car phone mount" },
         relatedProducts: [
         "joyroom-car-mount-zs290",
         "joyroom-60w-car-charger",

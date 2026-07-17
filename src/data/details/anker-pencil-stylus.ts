@@ -2,12 +2,12 @@ import type { ProductDetail } from './_types';
 
 export const anker_pencil_stylus_detail: ProductDetail = {
     aiTldr: {
-        en: ['Tilt sensitivity for shading + palm rejection for natural writing — 80% of Apple Pencil features', 'N52 neodymium magnetic attachment — strongest grade, storage only (no wireless charging)', '8h continuous battery + 25-min USB-C full charge — covers a full school/work day', '15.4g ultra-light + 1.5mm POM tip + 2 replacement tips + Apple Pencil tip compatible', 'CairoVolt: 18-month warranty, 0.5% return rate. 70% cheaper than Apple Pencil. Honest: no pressure sensitivity.'],
-        ar: ['حساسية ميل للتظليل + رفض لمس كف للكتابة الطبيعية — 80% من مميزات Apple Pencil', 'تثبيت مغناطيسي N52 — أقوى درجة، للتخزين بس (مش شحن لاسلكي)', '8 ساعات بطارية + 25 دقيقة USB-C شحن كامل — بيغطي يوم دراسي/عمل كامل', '15.4 جرام + طرف POM 1.5mm + طرفين بديلين + متوافق مع أطراف Apple Pencil', 'كايرو فولت: ضمان 18 شهر، نسبة إرجاع 0.5%. أرخص 70% من Apple Pencil. بصراحة: مفيهوش حساسية ضغط.'],
+        en: ['Tilt sensitivity and palm rejection are listed; app and iPad compatibility still need checking', 'N52 magnetic attachment is for storage only, not wireless charging', 'Battery and charging-time figures are manufacturer ratings; actual runtime varies', 'Listed weight, tip size and included replacement tips should be confirmed in the delivered package'],
+        ar: ['حساسية الميل ورفض لمس الكف مدونان؛ مع ضرورة مراجعة توافق التطبيق والايباد', 'التثبيت المغناطيسي N52 للتخزين فقط وليس للشحن اللاسلكي', 'أرقام البطارية ومدة الشحن تقييمات من انكر؛ وتختلف المدة الفعلية', 'يُراجع الوزن ومقاس الطرف والأطراف البديلة المدونة في العبوة المستلمة'],
     },
     localContext: {
-        en: 'Egyptian students spend 3,500+ EGP on Apple Pencil 1st Gen — money that could go to textbooks or courses. The Anker Pencil Pro at 1,199 EGP delivers tilt sensitivity and palm rejection, which is everything needed for GoodNotes, Notability, and PDF annotation. Cairo University, AUC, GUC, and BUE students are switching to Anker Pencil Pro as the smart budget choice.',
-        ar: 'الطلاب المصريين بيصرفوا 3,500+ جنيه على Apple Pencil الأول — فلوس ممكن تروح لكتب أو كورسات. قلم أنكر بـ 1,199 جنيه بيوفر حساسية ميل ورفض لمس كف، وده كل اللي محتاجه لـ GoodNotes وNotability والتعليق على PDF. طلاب القاهرة، AUC، GUC، وBUE بيتحولوا لقلم أنكر كاختيار ميزانية ذكي.',
+        en: 'This stylus can support compatible note-taking and annotation apps where tilt input and palm rejection are available. It does not list pressure sensitivity, and app behaviour varies by iPad and software version. Compare the exact compatibility list, current product-page price and required features before choosing it instead of another stylus.',
+        ar: 'يمكن استخدام هذا القلم مع تطبيقات التدوين والتعليق المتوافقة عندما تتوفر حساسية الميل ورفض لمس الكف. لا تذكر المواصفات حساسية الضغط، كما يختلف سلوك التطبيقات حسب موديل الايباد وإصدار البرنامج. قارن قائمة التوافق الدقيقة والسعر الحالي في صفحة المنتج والميزات المطلوبة قبل اختياره بدل قلم آخر.',
     },
     specifications: {
         'Product Type': { en: 'iPad Capacitive Stylus', ar: 'قلم ستايلس آيباد' },
@@ -22,11 +22,6 @@ export const anker_pencil_stylus_detail: ProductDetail = {
         'Tip': { en: '1.5mm POM (2 included)', ar: 'POM 1.5mm (طرفين مرفقين)' },
         'Tip Compatibility': { en: 'Apple Pencil tips compatible', ar: 'متوافق مع أطراف Apple Pencil' },
         'iPad Compatibility': { en: 'iPad Pro 2018+, Air 3+, Mini 5+, iPad 6+', ar: 'iPad Pro 2018+, Air 3+, Mini 5+, iPad 6+' },
-        'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
+        'Compliance': { en: 'Verify FCC and CE markings or documents for the delivered unit and market', ar: 'يُراجع وجود علامات أو مستندات FCC وCE للوحدة المستلمة والسوق' },
     },
-    labVerified: {
-        result: { en: 'Tilt sensitivity verified in Procreate, GoodNotes, and Apple Notes. Palm rejection confirmed on iPad Pro M4 and iPad Air 5. Battery: 7.5h measured continuous use. Magnetic attachment: N52 hold strength confirmed — survives bag toss test.', ar: 'حساسية الميل متأكد منها في Procreate وGoodNotes وApple Notes. رفض لمس الكف متأكد منه على iPad Pro M4 وiPad Air 5. بطارية: 7.5 ساعة مقاسة استخدام متواصل. تثبيت مغناطيسي: قوة N52 متأكد منها — بيستحمل رمي الشنطة.' },
-        conditions: { en: 'CairoVolt Lab, Cairo — May 2026, tested across 5 iPad models', ar: 'معمل كايرو فولت، القاهرة — مايو 2026، مختبر على 5 موديلات آيباد' },
-        expertName: 'Eng. Sarah Mansour'
-    }
 };

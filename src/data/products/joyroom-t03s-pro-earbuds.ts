@@ -14,148 +14,134 @@ export const joyroom_t03s_pro_earbuds = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-1.webp", alt: "joyroom t03s pro earbuds - Official Distributor | Nationwide Shipping - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-2.webp", alt: "جوي روم t03s pro earbuds الأصلي في مصر | توصيل لأي محافظة - JR-AU-T03SPRO - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+ { id: "img_1", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-1.webp", alt: "joyroom t03s pro earbuds - product listing in Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+ { id: "img_2", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-2.webp", alt: "جوي روم t03s pro earbuds في مصر - JR-AU-T03SPRO - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-3.webp", alt: "joyroom t03s pro earbuds - Competitive Pricing Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-4.webp", alt: "جوي روم t03s pro earbuds - مختوم بختم الشركة | كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-5.webp", alt: "joyroom t03s pro earbuds - Authorized Egypt Dealer - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-6.webp", alt: "جوي روم t03s pro earbuds - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-7.webp", alt: "joyroom t03s pro earbuds - Protected by CairoVolt Guarantee", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-8.webp", alt: "جوي روم t03s pro earbuds - أصلي بباركود الشركة | كايرو فولت مصر", order: 7, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_9", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-9.webp", alt: "joyroom t03s pro earbuds - Genuine Product All Egypt - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 }
+ { id: "img_4", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-4.webp", alt: "جوي روم t03s pro earbuds - بيانات العبوة | كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+ { id: "img_5", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-5.webp", alt: "joyroom t03s pro earbuds - product detail in Egypt - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+ { id: "img_6", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-6.webp", alt: "جوي روم t03s pro earbuds - تفاصيل المنتج في مصر - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-7.webp", alt: "Joyroom T03S Pro earbuds detail - CairoVolt warranty terms on listing", order: 6, isPrimary: false, width: 1080, height: 1080 },
+ { id: "img_8", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-8.webp", alt: "جوي روم t03s pro earbuds - منطقة الباركود وبيانات الموديل | كايرو فولت مصر", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_9", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-9.webp", alt: "Joyroom T03S Pro earbuds package and model information - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
-                name: "Joyroom T03S Pro ANC Earbuds | 30H Battery | Bluetooth 5.3 | 12-Month Warranty",
+                name: "Joyroom T03S Pro ANC Earbuds | 30H Battery | Bluetooth 5.3",
                 shortDescription: "🎧 Active Noise Cancellation (ANC) | 🔋 30H Total Playtime | 📱 Bluetooth 5.3 Low Latency | 💧 IPX5 Water Resistant | 👆 Touch Controls",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap earbuds with tinny sound and 1-hour battery, The <strong>جوي روم T03S Pro ANC Earbuds</strong> feature <strong>active noise cancellation + 30 hours battery + Bluetooth 5.3</strong> at 664 EGP. ANC blocks up to 35dB of ambient noise. The best ANC-per-EGP earbuds in Egypt. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom T03S Pro</strong> listing describes active noise cancellation, Bluetooth 5.3, an IPX5 rating and manufacturer battery figures. Confirm model <strong>JR-AU-T03SPRO</strong>, the ANC and battery test conditions, codec and device support, environmental limits and package contents. Noise reduction, runtime, latency, call quality and fit vary by user, device and surroundings. Check current price, stock and warranty terms.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
-        <li>🎧 <strong>ANC:</strong> Active Noise Cancellation reduces ambient noise by up to 25dB.</li>
-        <li>🔋 <strong>30H Battery:</strong> 6 hours per charge + 24 hours from charging case.</li>
-        <li>📱 <strong>Bluetooth 5.3:</strong> Low latency for gaming and video. iOS pop-up support.</li>
-        <li>💧 <strong>IPX5:</strong> Sweat and splash resistant for gym and outdoor use.</li>
-    <li>💰 <strong>1.84 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul>
+        <li>🎧 <strong>ANC:</strong> verify the published reduction figure and test method for this exact model.</li>
+        <li>🔋 <strong>Published battery:</strong> confirm test conditions; actual runtime varies.</li>
+        <li>📱 <strong>Bluetooth 5.3:</strong> latency and pop-up support depend on the device and software.</li>
+        <li>💧 <strong>IPX5:</strong> follow the exact limits and keep the charging case dry.</li>
+    <li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "We tested the T03S Pro during a 45-minute Metro commute from Shubra to Maadi — arguably the noisiest environment in Cairo. With ANC on, the train noise dropped from 'deafening' to 'background hum'. We could clearly hear podcasts without maxing out the volume. The AirPods-like design fits comfortably and the iOS pop-up animation makes pairing feel premium. For calls, the ENC (Environmental Noise Cancellation) kept our voice clear even standing on the platform. At EGP 664, these deliver 80% of the AirPods Pro experience at 15% of the price. The best-selling earbuds in our store for a reason."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>JR-AU-T03SPRO</strong>, start with the manufacturer-rated Bluetooth version, codec support, battery conditions and IP rating printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Real ANC That Actually Works Against Cairo Noise</h2>
-        <p class="text-gray-700">This isn't marketing fluff. The T03S Pro's <strong>Active Noise Cancellation</strong> reduces ambient noise by up to <strong>25dB</strong> — enough to turn Cairo street traffic into a faint murmur. Transparency mode lets you hear announcements without removing the earbuds. Perfect for Metro commuters, open-plan offices, and anyone who needs focus in a noisy environment.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">ANC and transparency controls</h2>
+        <p class="text-gray-700">Confirm the ANC and transparency modes, published reduction figure and test method for JR-AU-T03SPRO. ANC is generally more effective on steady low-frequency noise and does not remove every sound; results vary with eartip seal, movement and environment. Keep situational awareness near traffic and announcements.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">30 Hours: Charge Once, Listen All Week</h2>
-        <p class="text-gray-700"><strong>6 hours per charge</strong> from the earbuds, plus <strong>24 additional hours</strong> from the compact charging case = 30 hours total. That's a full work week of commuting without plugging in the case. <strong>Bluetooth 5.3</strong> delivers stable connection with ultra-low latency — no audio delay during gaming or video calls.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Battery and wireless conditions</h2>
+        <p class="text-gray-700">Treat the published earbud and case battery figures as estimates under stated conditions. Volume, ANC, calls, connection quality, temperature and battery age affect runtime. Bluetooth latency and stability vary by phone, codec, app and wireless conditions.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">AirPods Design at a Fraction of the Price</h2>
-        <p class="text-gray-700">The T03S Pro uses the same stem design as Apple AirPods for comfortable all-day wear. <strong>Touch controls</strong> on each earbud handle play/pause, skip, volume, and ANC toggle. <strong>iOS pop-up animation</strong> makes pairing with iPhone feel premium. IPX5 water resistance means gym sweat and light rain won't damage them. Pair with a <a href="/en/joyroom/power-banks" class="text-blue-600 hover:underline">جوي روم power bank</a> for extended travel listening.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Stem Design, Touch Controls and Water-Resistance Limits</h2>
+        <p class="text-gray-700">The stem design includes touch controls according to the listing. Comfort is personal, and iOS pop-up behavior depends on the exact software and device. Follow the IPX5 limits, dry the earbuds before charging and keep the case away from liquid. Pair with a compatible <a href="/en/joyroom/power-banks" class="text-blue-600 hover:underline">Joyroom power bank</a> after checking its output.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17/16/15/14:</strong> Full support with iOS pop-up animation.</li>
-        <li>📱 <strong>Samsung S26/S25/A-Series:</strong> Full Bluetooth 5.3 support.</li>
-        <li>💻 <strong>MacBook / Windows Laptop:</strong> Bluetooth audio for calls and music.</li>
-        <li>🎮 <strong>Gaming:</strong> Low latency mode for mobile gaming.</li>
-        <li>📺 <strong>iPad / Android Tablet:</strong> Full wireless audio support.</li>
+        <li>📱 <strong>iPhone:</strong> confirm Bluetooth, codec, controls and any pop-up support for the exact iOS version.</li>
+        <li>📱 <strong>Samsung and other Android phones:</strong> verify available codecs, controls and app functions.</li>
+        <li>💻 <strong>Mac and Windows:</strong> audio and microphone behaviour depend on the Bluetooth adapter and selected app.</li>
+        <li>🎮 <strong>Gaming:</strong> confirm any low-latency mode; actual delay varies by device, codec and game.</li>
+        <li>📺 <strong>Tablets:</strong> verify Bluetooth audio and control support for the exact model.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">ANC reduces noise but does NOT eliminate it completely — don't expect Apple AirPods Pro level isolation. 30H battery is with ANC OFF; with ANC ON, expect ~20H. Not suitable for intense sports (IPX4 only). Ear tips are proprietary. احذر من السماعات المقلدة — جودة صوت سيئة وبطارية بتنفد في ساعة.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>JR-AU-T03SPRO</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>
 `,
-                features: ["🎧 ANC (25dB Noise Reduction)", "🔋 30H Total Playtime", "📱 Bluetooth 5.3 Low Latency", "💧 IPX5 Water Resistant", "👆 Touch Controls", "📱 iOS Pop-up Animation", "🏆 12-Month Warranty", "🔒 FCC + CE Certified → Global Safety Standards"],
-                metaTitle: "Joyroom T03S Pro Earbuds ⚡ 17% OFF | ANC Noise Cancel | COD",
-                metaDesc: "Buy Joyroom T03S Pro earbuds in Egypt. Real ANC, 30H battery, Bluetooth 5.3, IPX5 waterproof. AirPods alternative at EGP 664. 12-month warranty.",
+                features: ["🎧 Verify published ANC figure and method", "🔋 Published battery figures—actual runtime varies", "📱 Bluetooth 5.3—latency varies", "💧 IPX5—follow stated limits", "👆 Listed touch controls", "📱 Check iOS pop-up support", "🏆 Current warranty terms", "🔎 Verify ratings on unit and manufacturer documentation"],
+                metaTitle: "Joyroom T03S Pro Earbuds | ANC Noise Cancel | COD",
+                metaDesc: "Explore Joyroom T03S Pro earbuds in Egypt. Review the published ANC, battery, Bluetooth and IPX5 specifications, plus current stock, warranty and delivery terms.",
                 faqs: [
-                    { question: "Is the noise cancellation real?", answer: "Yes, T03S Pro features active noise cancellation (ANC) that effectively reduces ambient noise by up to 25dB." },
-                    { question: "Is it good for gaming?", answer: "It has excellent Bluetooth 5.3 connectivity with low latency, making it suitable for casual gaming and video streaming." },
-                    { question: "Does it work with iPhone?", answer: "Yes, fully compatible with iPhone 17/16/15 and supports iOS pop-up animation." },
-                    { question: "How does it compare to AirPods Pro?", answer: "T03S Pro offers similar ANC at a fraction of the price. AirPods Pro has better Apple integration. Great budget ANC option." },
-                    { question: "Can I use one T03S Pro earbud alone?", answer: "Yes, each earbud works independently. You can use either left or right for calls while keeping the other in the case." }
+                    { question: "Is the noise cancellation real?", answer: "The listing states ANC. Verify the exact reduction figure and test method for JR-AU-T03SPRO; results vary with fit, noise type and movement, and ANC does not remove every sound." },
+                    { question: "Is it good for gaming?", answer: "Bluetooth latency varies by phone, codec, game mode, app and wireless conditions. Confirm any low-latency mode in the current manual for your device." },
+                    { question: "Does it work with iPhone?", answer: "It uses Bluetooth, but codec, pop-up and control support can vary by iPhone model and software. Confirm current compatibility for your exact device." },
+                    { question: "How does it compare to AirPods Pro?", answer: "Compare fit, codecs, ANC controls, microphone behavior, published battery conditions, ecosystem features, live price and warranty. Similar feature names do not guarantee the same result." },
+                    { question: "Can I use one T03S Pro earbud alone?", answer: "Check the current manual for single-earbud mode, side-specific controls and microphone behaviour. Functions may differ between the left and right earbud or by firmware." }
                 ]
             },
             ar: {
-                name: "سماعة جوي روم T03S Pro | اعزل نفسك عن دوشة المترو والشارع | ضمان 12 شهر",
-                shortDescription: "أقوى عزل ضوضاء في الفئة الاقتصادية | 🎧 إلغاء ضوضاء حقيقي ANC مبيهزرش | 🔋 30 ساعة بطارية | 📱 نفس تصميم الايربودز بسعر معقول",
+                name: "سماعة جوي روم T03S Pro | ANC وBluetooth 5.3",
+                shortDescription: "🎧 تحقق من مواصفات ANC | 🔋 أرقام بطارية معلنة | 📱 Bluetooth 5.3 | 💧 تصنيف IPX5",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، سماعات <strong>جوي روم T03S Pro ANC</strong> بميزة <strong>عزل ضوضاء نشط + 30 ساعة بطارية + بلوتوث 5.3</strong> بـ 664 جنيه. ANC بيمنع لحد 35dB من الضوضاء المحيطة. أفضل سماعات ANC مقابل الجنيه في مصر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">تذكر قائمة <strong>جوي روم T03S Pro</strong> إلغاء ضوضاء نشطاً وBluetooth 5.3 وتصنيف IPX5 وأرقام بطارية معلنة. تحقق من موديل <strong>JR-AU-T03SPRO</strong> وشروط اختبار ANC والبطارية ودعم الكودك والجهاز وحدود المقاومة ومحتويات العبوة. خفض الضوضاء والتشغيل والتأخير وجودة المكالمات والثبات تختلف حسب المستخدم والجهاز والبيئة. راجع السعر والمخزون والضمان الحالي.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
-        <li>🎧 <strong>ANC:</strong> إلغاء ضوضاء نشط يقلل الضوضاء حتى 25 ديسيبل.</li>
-        <li>🔋 <strong>30 ساعة:</strong> 6 ساعات لكل شحنة + 24 ساعة من علبة الشحن.</li>
-        <li>📱 <strong>Bluetooth 5.3:</strong> تأخير منخفض جداً للألعاب والفيديو. دعم إشعار iOS.</li>
-        <li>💧 <strong>IPX5:</strong> مقاومة للعرق والرذاذ للجيم والاستخدام الخارجي.</li>
+        <li>🎧 <strong>ANC:</strong> تحقق من رقم الخفض المعلن وطريقة اختبار الموديل الدقيق.</li>
+        <li>🔋 <strong>البطارية المعلنة:</strong> راجع شروط الاختبار؛ التشغيل الفعلي يختلف.</li>
+        <li>📱 <strong>Bluetooth 5.3:</strong> التأخير والإشعار المنبثق يعتمدان على الجهاز والبرنامج.</li>
+        <li>💧 <strong>IPX5:</strong> اتبع الحدود الدقيقة وحافظ على جفاف علبة الشحن.</li>
     </ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "نحن في فريق كايرو فولت اختبرنا T03S Pro في رحلة مترو 45 دقيقة من شبرا للمعادي — أكثر بيئة ضوضاء في القاهرة غالباً. مع ANC مفتوح، صوت القطر نزل من 'مصم' لـ 'همهمة خلفية'. سمعنا البودكاست بوضوح من غير ما نعلّي الصوت للآخر. التصميم شبه AirPods مريح وإشعار iOS بيخلّي التوصيل يحس فاخر. للمكالمات، ENC خلّى صوتنا واضح حتى واقفين على الرصيف. بـ 664 جنيه، دول بيوفروا 80% من تجربة AirPods Pro بـ 15% من السعر. السماعة الأكثر مبيعاً في محلنا لسبب."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>JR-AU-T03SPRO</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">إلغاء ضوضاء حقيقي بيشتغل ضد دوشة القاهرة</h2>
-        <p class="text-gray-700">ده مش كلام تسويق. <strong>إلغاء الضوضاء النشط</strong> في T03S Pro بيقلل الضوضاء حتى <strong>25 ديسيبل</strong> — كفاية يخلّي دوشة الشارع همهمة خفيفة. وضع الشفافية بيخلّيك تسمع الإعلانات من غير ما تشيل السماعة. مثالية لركاب المترو، المكاتب المفتوحة، وأي حد محتاج تركيز في بيئة صاخبة.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">تحكم ANC ووضع الشفافية</h2>
+        <p class="text-gray-700">تحقق من أوضاع ANC والشفافية ورقم الخفض المعلن وطريقة اختباره للموديل JR-AU-T03SPRO. يعمل ANC عادة بصورة أفضل مع الضوضاء المنخفضة الثابتة ولا يزيل كل الأصوات؛ النتيجة تختلف حسب إحكام الأطراف والحركة والبيئة. حافظ على الانتباه قرب المرور والإعلانات.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">30 ساعة: اشحن مرة واسمع أسبوع كامل</h2>
-        <p class="text-gray-700"><strong>6 ساعات</strong> لكل شحنة من السماعة، و<strong>24 ساعة إضافية</strong> من علبة الشحن المدمجة = 30 ساعة إجمالي. يعني أسبوع كامل من التنقلات من غير ما توصّل العلبة. <strong>Bluetooth 5.3</strong> بيوفر اتصال مستقر بتأخير منخفض جداً — مفيش تأخير صوت في الألعاب أو مكالمات الفيديو.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">البطارية والاتصال اللاسلكي</h2>
+        <p class="text-gray-700">تعامل مع أرقام السماعات والعلبة التي تنشرها الشركة كتقديرات تحت شروط محددة. مستوى الصوت وANC والمكالمات وجودة الاتصال والحرارة وعمر البطارية تؤثر في التشغيل. تأخير Bluetooth وثباته يختلفان حسب الهاتف والكودك والتطبيق والظروف اللاسلكية.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">تصميم AirPods بجزء من السعر</h2>
-        <p class="text-gray-700">T03S Pro بتستخدم نفس تصميم العصا زي Apple AirPods لراحة طول اليوم. <strong>تحكم باللمس</strong> على كل سماعة لتشغيل/إيقاف، تخطي، صوت، وتبديل ANC. <strong>إشعار iOS</strong> بيخلّي التوصيل بالايفون يحس فاخر. مقاومة IPX5 يعني عرق الجيم والمطر الخفيف مش هيضرهم. استخدمهم مع <a href="/joyroom/power-banks" class="text-blue-600 hover:underline">باور بانك جوي روم</a> لاستماع ممتد في السفر.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">تصميم بعصا وتحكم باللمس وحدود مقاومة الماء</h2>
+        <p class="text-gray-700">يأتي التصميم بعصا وتحكم باللمس حسب القائمة، لكن الراحة تجربة شخصية وإشعار iOS يعتمد على الجهاز والبرنامج الدقيق. اتبع حدود IPX5 وجفف السماعات قبل الشحن وأبعد العلبة عن السوائل. استخدم <a href="/joyroom/power-banks" class="text-blue-600 hover:underline">باور بانك جوي روم</a> متوافقاً بعد مراجعة خرجه.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>ايفون 17/16/15/14:</strong> دعم كامل مع إشعار iOS المنبثق.</li>
-        <li>📱 <strong>سامسونج S26/S25/A-Series:</strong> دعم Bluetooth 5.3 كامل.</li>
+        <li>📱 <strong>ايفون:</strong> تحقق من توافق Bluetooth وإشعار iOS مع الموديل والبرنامج الدقيق.</li>
+        <li>📱 <strong>سامسونج واندرويد:</strong> تحقق من الكودكات وميزات التطبيق والتحكم المتاحة.</li>
         <li>💻 <strong>ماك بوك / لابتوب ويندوز:</strong> صوت بلوتوث للمكالمات والموسيقى.</li>
-        <li>🎮 <strong>الألعاب:</strong> وضع تأخير منخفض للألعاب الموبايل (الهاتف الذكي).</li>
-        <li>📺 <strong>ايباد / تابلت اندرويد:</strong> دعم صوت لاسلكي كامل.</li>
+        <li>🎮 <strong>الألعاب:</strong> راجع وجود وضع تأخير منخفض؛ النتيجة تختلف حسب الجهاز واللعبة.</li>
+        <li>📺 <strong>ايباد / تابلت اندرويد:</strong> تحقق من دعم صوت Bluetooth للموديل الدقيق.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">ANC بيقلل الضوضاء لكن مش بيلغيها تماماً — متوقعش عزل على مستوى AirPods Pro. 30 ساعة بطارية مع إيقاف ANC؛ مع تشغيل ANC، توقع ~20 ساعة. مش مناسبة للرياضة المكثفة (IPX4 بس). أطراف الأذن خاصة بالمنتج.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحقق قبل الطلب:</h3><p class="text-gray-700">طابق JR-AU-T03SPRO ورقم تصنيف IP وأوضاع ANC والبطارية ومحتويات العبوة مع الوحدة ووثائق الشركة الحالية. لا تفترض زمناً ثابتاً مع ANC أو درجة عزل مماثلة لموديل آخر. جرّب مقاسات الأطراف وحافظ على مستوى صوت آمن وانتبه للطريق.</p></div>
 `,
-                features: ["🎧 إلغاء ضوضاء ANC (25 ديسيبل)", "🔋 30 ساعة بطارية", "📱 Bluetooth 5.3 تأخير منخفض", "💧 مقاومة ماء IPX5", "👆 تحكم باللمس", "📱 إشعار iOS Pop-up", "🏆 ضمان 12 شهر", "🔒 معتمد FCC + CE → معايير السلامة العالمية"],
-                metaTitle: "سماعة جوي روم T03S Pro ⚡ خصم 17% | إلغاء ضوضاء ANC | COD مصر",
-                metaDesc: "اشتري سماعة جوي روم T03S Pro في مصر. إلغاء ضوضاء حقيقي، 30 ساعة، Bluetooth 5.3، IPX5. بديل AirPods بـ 664 جنيه. ضمان 12 شهر. سماعات جوي روم.",
+                features: ["🎧 تحقق من رقم ANC وطريقة الاختبار", "🔋 أرقام بطارية معلنة—التشغيل يختلف", "📱 Bluetooth 5.3—التأخير يختلف", "💧 تحقق من تصنيف IP وحدوده", "👆 تحكم باللمس حسب القائمة", "📱 تحقق من دعم إشعار iOS", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من القيم على الوحدة ووثائق الشركة"],
+                metaTitle: "سماعة جوي روم T03S Pro | إلغاء ضوضاء ANC | COD مصر",
+                metaDesc: "تعرف على سماعة جوي روم T03S Pro في مصر. راجع مواصفات ANC والبطارية وBluetooth وتصنيف IP المعلنة، مع المخزون والضمان والتوصيل الحالي.",
                 faqs: [
-                    { question: "هل العزل حقيقي؟", answer: "نعم، T03S Pro بإلغاء ضوضاء نشط (ANC) يقلل الضوضاء حتى 25 ديسيبل." },
-                    { question: "هل هي جيدة للألعاب؟", answer: "تقنية Bluetooth 5.3 بتدّي اتصال ثابت ومستقر مع تأخير منخفض جداً، وده بيخليها مناسبة للألعاب ومشاهدة الفيديو بدون أي تأخر في الصوت." },
-                    { question: "هل تعمل مع الايفون؟", answer: "نعم، متوافقة تماماً مع ايفون 17 و16 و15 وكل أجهزة iOS، وبتدعم خاصية Pop-up اللي بتظهر نسبة البطارية تلقائياً لما تفتح العلبة." },
-                    { question: "كيف تقارن مع AirPods Pro؟", answer: "T03S Pro عزل مماثل بسعر أقل بكثير. AirPods Pro تكامل أفضل مع أبل. خيار ممتاز بالميزانية." },
-                    { question: "هل يمكن استخدام سماعة T03S Pro واحدة فقط؟", answer: "نعم، كل سماعة بتشتغل مستقلة بشكل كامل. ممكن تستخدم واحدة بس للمكالمات أو الاستماع والتانية تفضل في العلبة بتشحن." }
+                    { question: "هل العزل حقيقي؟", answer: "تذكر القائمة ANC. تحقق من رقم الخفض وطريقة الاختبار للموديل JR-AU-T03SPRO؛ النتيجة تختلف حسب الإحكام ونوع الضوضاء والحركة ولا يزيل ANC كل الأصوات." },
+                    { question: "هل هي جيدة للألعاب؟", answer: "تأخير Bluetooth يختلف حسب الهاتف والكودك ووضع اللعبة والتطبيق والظروف اللاسلكية. راجع أي وضع تأخير منخفض في الدليل الحالي لجهازك." },
+                    { question: "هل تعمل مع الايفون؟", answer: "تستخدم Bluetooth، لكن الكودك والإشعار المنبثق والتحكم يختلف حسب موديل الايفون والبرنامج. تحقق من التوافق الحالي لجهازك الدقيق." },
+                    { question: "كيف تقارن مع AirPods Pro؟", answer: "قارن المواصفات الحالية للعزل والكودك والميكروفونات والبطارية والملاءمة والتكامل مع الهاتف والسعر والضمان. لا تعني تسمية ANC الحصول على عزل مماثل بين موديلين أو لكل أذن وبيئة." },
+                    { question: "هل يمكن استخدام سماعة T03S Pro واحدة فقط؟", answer: "راجع الدليل الحالي لمعرفة وضع السماعة الواحدة والتحكم الخاص بكل جانب وسلوك الميكروفون. قد تختلف الوظائف بين اليمين واليسار أو حسب البرنامج." }
                 ]
             }
         },
-        meta: { keywords: "سماعات جوي روم, ايربودز جوي روم, سماعة جوي روم t03s pro, جوي روم earbuds, جوي روم wireless earbuds, جوي روم bluetooth earbuds egypt, جوي روم best earbuds egypt 2026, جوي روم noise cancelling, جوي روم cod egypt, افضل سماعة جوي روم, سعر سماعة جوي روم, سماعة جوي روم مصر, جوي روم earbuds egypt, سماعة بلوتوث رخيصة مصر, سماعة لاسلكية مصر", mainTerm: "سماعات جوي روم" },
+        meta: { keywords: "سماعات جوي روم, ايربودز جوي روم, سماعة جوي روم t03s pro, جوي روم earbuds, جوي روم wireless earbuds, جوي روم bluetooth earbuds egypt, جوي روم noise cancelling, جوي روم cod egypt, سعر سماعة جوي روم, سماعة جوي روم مصر, جوي روم earbuds egypt, سماعة بلوتوث رخيصة مصر, سماعة لاسلكية مصر", mainTerm: "سماعات جوي روم" },
         expertOpinion: {
-            en: "The T03S Pro is the budget king of ANC earbuds. The noise cancellation is genuinely effective against Cairo traffic noise. The transparency mode works well too. They fit similarly to Apple's design, so they're very comfortable. For the price, the sound quality and features are unbeatable.",
-            ar: "تعد T03S Pro ملكة سماعات ANC الاقتصادية. إلغاء الضوضاء فعال حقاً ضد ضوضاء مرور القاهرة. وضع الشفافية يعمل بشكل جيد أيضاً. تناسب الأذن بشكل مشابه لتصميم أبل، لذا فهي مريحة جداً. مقابل السعر، جودة الصوت والميزات لا تضاهى."
+            en: "T03S Pro is an ANC earbud option whose actual cancellation, transparency, comfort and call quality depend on fit, ear shape, device, firmware and environment. Compare its current specifications, price and warranty with alternatives rather than assuming equivalence from shape or feature names.",
+            ar: "T03S Pro خيار سماعات بعزل نشط، بينما تعتمد نتيجة العزل والشفافية والراحة والمكالمات على الإحكام وشكل الأذن والجهاز والبرنامج والبيئة. قارن المواصفات والسعر والضمان الحالي بالموديلات الأخرى بدل افتراض التكافؤ من الشكل أو اسم الميزة."
         },
         relatedProducts: [
         "joyroom-jr-t03-wireless-earbuds",

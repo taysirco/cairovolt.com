@@ -1,6 +1,6 @@
 'use client';
 import { flushSync } from 'react-dom';
-import { trackViewItem, trackAddToCart, trackWhatsappClick, type AnalyticsItem } from '@/lib/analytics';
+import { trackViewItem, trackAddToCart, trackWhatsappClick } from '@/lib/analytics';
 import { ttqViewContent } from '@/lib/tiktokPixel';
 
 import Link from 'next/link';
@@ -8,15 +8,10 @@ import { ProductImage } from '@/components/ui/ProductImage';
 import { useTranslations } from 'next-intl';
 import { useState, useEffect, useRef, useMemo } from 'react';
 import dynamic from 'next/dynamic';
-import { QuickSummary } from '@/components/content/ProductGuides';
-// CategoryOverviewBlock removed — duplicate of QuickSummary + ShortDescription
 import { useCart } from '@/context/CartContext';
-// TestResultsBlock removed — duplicate of ProductTestResults metrics
-import ProductTestResults from '@/components/content/ProductTestResults';
 import ProductGuarantees from '@/components/products/ProductGuarantees';
 import type { RegionalStats } from '@/lib/bosta';
 import type { ProductVariant } from '@/lib/static-products';
-import type { LabMetrics } from '@/data/product-tests';
 import {
     getBrandDisplayName,
     localizeArabicFields,
@@ -54,16 +49,16 @@ const RelatedLinks = dynamic(() => import('@/components/content/RelatedLinks'), 
 const ShareButtons = dynamic(() => import('@/components/products/ShareButtons'), { ssr: false });
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
-const ContentCredentialsBadge = dynamic(
-    () => import('@/components/UX/ContentCredentialsBadge').then(mod => mod.ContentCredentialsBadge),
-    { ssr: false }
-);
+import { getCairoVoltWarrantyPolicy } from '@/lib/warranty-policy';
 
 
 interface Product {
     id: string; // Add id
     slug: string;
     sku?: string;
+    mpn?: string;
+    gtin?: string;
+    gtin13?: string;
     brand: string;
     categorySlug: string;
     price: number;
@@ -80,7 +75,6 @@ interface Product {
         ar?: string;
     };
     meta?: { keywords?: string; mainTerm?: string };
-    contentCredentials?: Record<string, unknown> | null;
     variants?: ProductVariant[];
 }
 
@@ -101,19 +95,7 @@ interface ProductPageClientProps {
     locale: string;
     brand: string;
     category: string;
-    labTestData?: {
-        testScenario: string;
-        testResult: string;
-        testConditions: string;
-        expertName: string;
-        expertProfileUrl: string;
-    };
-    thermalAdvice?: {
-        currentTemp: number;
-        category: string;
-    };
     deliveryIntelligence: RegionalStats;
-    labMetrics: LabMetrics | null;
     userGovernorate: string;
     productDetail: {
         aiTldr?: { en: string[]; ar: string[] };
@@ -132,7 +114,7 @@ const categoryKeyMap: Record<string, string> = {
     'smart-watches': 'smartWatches',
 };
 
-export default function ProductPageClient({ product, relatedProducts = [], bundleData, locale, brand, category, labTestData, thermalAdvice, deliveryIntelligence, labMetrics, userGovernorate, productDetail }: ProductPageClientProps) {
+export default function ProductPageClient({ product, relatedProducts = [], bundleData, locale, brand, category, deliveryIntelligence, userGovernorate, productDetail }: ProductPageClientProps) {
     const isRTL = locale === 'ar';
     const tCommon = useTranslations('Common');
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
@@ -150,15 +132,25 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
     const [showAddedFeedback, setShowAddedFeedback] = useState(false);
 
     // ═══ Variant State ═══
-    const defaultVariant = useMemo(() =>
-        product.variants?.find(v => v.isDefault) || product.variants?.[0],
-        [product.variants]
-    );
+    const defaultVariant = useMemo(() => {
+        const variants = product.variants || [];
+        const productGtin = product.gtin13 || product.gtin;
+
+        // Keep the initial on-page offer aligned with metadata, Merchant feeds
+        // and structured data, even if a stale variant flag is introduced.
+        return variants.find((variant) =>
+            (product.mpn && variant.mpn === product.mpn)
+            || (productGtin && variant.gtin === productGtin)
+        )
+            || variants.find((variant) => variant.price === product.price)
+            || variants.find((variant) => variant.isDefault)
+            || variants[0];
+    }, [product.variants, product.mpn, product.gtin, product.gtin13, product.price]);
     const [selectedVariant, setSelectedVariant] = useState<ProductVariant | undefined>(defaultVariant);
+    const warrantyPolicy = getCairoVoltWarrantyPolicy(product.slug, brand);
 
     // Active pricing — variant overrides product-level values
     const activePrice = selectedVariant?.price ?? product.price;
-    const activeOriginalPrice = selectedVariant?.originalPrice ?? product.originalPrice;
     const activeSku = selectedVariant?.sku ?? product.sku;
     const activeStock = selectedVariant?.stock ?? (product.stock || 0);
 
@@ -168,8 +160,9 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
         const variantName = selectedVariant.model;
         return {
             ...product,
+            id: `static_${product.slug}_${selectedVariant.id}`,
+            sku: selectedVariant.sku,
             price: selectedVariant.price,
-            originalPrice: selectedVariant.originalPrice,
             translations: {
                 ...product.translations,
                 en: {
@@ -227,35 +220,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
         });
     }, [product.id, product.slug, product.brand, product.categorySlug, activePrice, product.translations, locale]);
 
-    // Clipboard copy tracking — NavBoost behavioral signal
-    useEffect(() => {
-        const handleCopy = () => {
-            const selection = window.getSelection()?.toString() || '';
-            if (!selection || selection.length < 3) return;
-
-            // Classify what was copied
-            let copyType = 'text';
-            if (/\+?\d{10,}/.test(selection)) copyType = 'phone';
-            else if (/ORIGINAL10|original10/i.test(selection)) copyType = 'coupon';
-            else if (selection.length > 10 && selection.length < 100) copyType = 'product_name';
-
-            // Fire GA4 event
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            const w = window as any;
-            if (typeof w.gtag === 'function') {
-                w.gtag('event', 'content_copy', {
-                    copied_text: selection.substring(0, 50),
-                    copy_type: copyType,
-                    page_path: window.location.pathname,
-                    product_slug: product.slug,
-                });
-            }
-        };
-
-        document.addEventListener('copy', handleCopy);
-        return () => document.removeEventListener('copy', handleCopy);
-    }, [product.slug]);
-
     const getLocalizedHref = (path: string) => {
         const cleanPath = path.startsWith('/') ? path : `/${path}`;
         return locale === 'ar' ? cleanPath : `/${locale}${cleanPath}`;
@@ -312,7 +276,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             sku: activeSku, // 🧬 بصمة القطعة (sku الـvariant إن وُجد وإلا sku المنتج)
             name: cartItemName,
             price: activePrice,
-            originalPrice: activeOriginalPrice,
             quantity: quantity,
             image: product.images?.[0]?.url,
             brand: product.brand
@@ -329,10 +292,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
     const heroImage800 = primaryImage.replace(/\.webp$/, '-800.webp');
     const heroImage480 = primaryImage.replace(/\.webp$/, '-480.webp');
     const heroSrcSet = `${heroImage480} 480w, ${heroImage800} 800w`;
-    const discount = activeOriginalPrice
-        ? Math.round((1 - activePrice / activeOriginalPrice) * 100)
-        : 0;
-
     const translatedCategory = tCat(categoryKeyMap[category] || 'other');
     const normalizedRouteBrand = brand.toLowerCase();
     const normalizedProductBrand = product.brand.toLowerCase();
@@ -452,11 +411,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 }
                             }}
                         >
-                            {discount > 0 && (
-                                <span className={`absolute top-4 ${isRTL ? 'right-4' : 'left-4'} px-3 py-1.5 bg-red-600 text-white text-sm font-bold rounded-full z-10 shadow-lg`}>
-                                    -{discount}%
-                                </span>
-                            )}
                             {product.featured && (
                                 <span className={`absolute top-4 ${isRTL ? 'left-4' : 'right-4'} px-3 py-1.5 bg-yellow-400 text-black text-sm font-bold rounded-full z-10 flex items-center gap-1`}>
                                     <SvgIcon name="star" className="w-4 h-4" /> {isRTL ? 'مميز' : 'Featured'}
@@ -504,7 +458,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         slug={product.slug}
                                         brand={product.brand}
                                         category={product.categorySlug || category}
-                                        c2paHash={product.contentCredentials?.signature ? String(product.contentCredentials.signature).slice(0, 32) : undefined}
                                         fill
                                         priority
                                         unoptimized
@@ -558,17 +511,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                     </button>
                                     );
                                 })}
-                            </div>
-                        )}
-
-                        {/* Verification badge */}
-                        {product.contentCredentials && (
-                            <div className="flex justify-end">
-                                <ContentCredentialsBadge
-                                    credentials={product.contentCredentials as any}
-                                    productSlug={product.slug}
-                                    locale={locale}
-                                />
                             </div>
                         )}
                     </div>
@@ -650,16 +592,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             <span className="text-base md:text-xl text-gray-600 dark:text-gray-300 mb-0.5 md:mb-1">
                                 {tCommon('egp')}
                             </span>
-                            {activeOriginalPrice && (
-                                <>
-                                    <span className="text-base md:text-xl text-gray-600 dark:text-gray-400 line-through mb-0.5 md:mb-1">
-                                        {activeOriginalPrice.toLocaleString()}
-                                    </span>
-                                    <span className="px-2 py-0.5 bg-green-100 text-green-700 text-sm font-bold rounded">
-                                        {isRTL ? `وفر ${(activeOriginalPrice - activePrice).toLocaleString()}` : `Save ${(activeOriginalPrice - activePrice).toLocaleString()}`}
-                                    </span>
-                                </>
-                            )}
                         </div>
 
                         {/* Purchase CTAs — Hidden when Out of Stock */}
@@ -708,31 +640,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         price={activePrice}
                                         locale={locale}
                                     />
-                                </div>
-
-                                {/* Community impact section */}
-                                <div className="mt-4 p-4 rounded-xl border border-emerald-200 bg-emerald-50 dark:border-emerald-900/50 dark:bg-emerald-900/10 flex items-start gap-3 transition-transform hover:-translate-y-1 duration-300 shadow-sm">
-                                    <div className="flex-shrink-0 mt-0.5">
-                                        <span className="flex items-center justify-center w-8 h-8 rounded-full bg-emerald-100 dark:bg-emerald-800 text-emerald-600 dark:text-emerald-300 text-lg">
-                                            💚
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <p className="text-sm font-bold text-emerald-800 dark:text-emerald-300 mb-1">
-                                            {isRTL ? 'معاً من أجل مصر' : 'Together for Egypt'}
-                                        </p>
-                                        <p className="text-sm text-emerald-700 dark:text-emerald-400 leading-relaxed">
-                                            {isRTL ? (
-                                                <>
-                                                    بشرائك هذا المنتج، أنت تساهم مباشرًة بـ <strong className="font-bold underline decoration-emerald-300 underline-offset-2">{Math.max(10, Math.floor(activePrice * 0.02))} جنيه</strong> لدعم <span className="font-semibold text-emerald-800 dark:text-emerald-200">مؤسسة مجدي يعقوب للقلب</span> أو <span className="font-semibold text-emerald-800 dark:text-emerald-200">بنك الطعام المصري</span>. شكراً لثقتك ودعمك.
-                                                </>
-                                            ) : (
-                                                <>
-                                                    By purchasing this, you directly contribute <strong className="font-bold underline decoration-emerald-300 underline-offset-2">{Math.max(10, Math.floor(activePrice * 0.02))} EGP</strong> to support the <span className="font-semibold text-emerald-800 dark:text-emerald-200">Magdi Yacoub Heart Foundation</span>. Thank you for making a difference.
-                                                </>
-                                            )}
-                                        </p>
-                                    </div>
                                 </div>
 
                                 {/* Bundle Selector Component */}
@@ -797,21 +704,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                 <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-lg max-w-full">
                     {/* Features section removed — same data already in Description (narrative) + Specifications (table) */}
 
-                    {/* TestResultsBlock removed — lab data already shown via ProductTestResults metrics below */}
-
-                    {/* Product Test Results — product test metrics */}
-                    {labMetrics && (
-                        <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
-                            <ProductTestResults
-                                sku={product.slug}
-                                locale={locale}
-                                labMetrics={labMetrics}
-                                productName={productName}
-                            />
-                        </section>
-                    )}
-
-                    {/* Trust Matrix — Exclusive Logistics + Lab Metrics */}
+                    {/* Delivery, warranty and returns */}
                     <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
                         <ProductGuarantees
                             sku={product.slug}
@@ -821,30 +714,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                         />
                     </section>
 
-                    {/* 3. Dynamic Thermal Advice — Supporting evidence */}
-                    {thermalAdvice && ['power-banks', 'wall-chargers', 'car-chargers'].includes(thermalAdvice.category) && (
-                        <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
-                            <div className="bg-yellow-50/80 dark:bg-yellow-900/20 border-r-4 border-yellow-500 p-5 rounded-l-lg">
-                                <div className="flex items-center gap-2 mb-2">
-                                    <span className="text-xl">🌡️</span>
-                                    <h4 className="font-bold text-yellow-900 dark:text-yellow-200">
-                                        {isRTL ? 'تحليل الأداء الحراري (مختبرات كايرو فولت)' : 'Thermal Performance Analysis (CairoVolt Labs)'}
-                                    </h4>
-                                </div>
-                                <p className="text-yellow-800 dark:text-yellow-200 font-medium leading-relaxed">
-                                    {thermalAdvice.currentTemp > 35
-                                        ? (isRTL
-                                            ? `⚠️ تنبيه: درجة حرارة الجو في مصر الآن (${thermalAdvice.currentTemp}°C). هذا المنتج مصمم لتحمل حرارة الصيف المصري بأمان.`
-                                            : `⚠️ Alert: Current temperature in Egypt is (${thermalAdvice.currentTemp}°C). This product is designed to handle Egyptian summer heat safely.`)
-                                        : (isRTL
-                                            ? `✅ الطقس في مصر الآن (${thermalAdvice.currentTemp}°C) مثالي لأداء البطاريات. المنتج سيعمل بأقصى كفاءة.`
-                                            : `✅ Current weather in Egypt (${thermalAdvice.currentTemp}°C) is ideal for battery performance. Product will operate at maximum efficiency.`)}
-                                </p>
-                            </div>
-                        </section>
-                    )}
-
-                    {/* 4. Enhanced Structured Data Sections — Expert Opinion + FAQs + Comparison */}
+                    {/* Editorial guidance, FAQs and comparison */}
                     <div className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800 cv-auto">
                         {/* Expert Opinion */}
                         <ExpertOpinion
@@ -978,10 +848,10 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                     <td className="py-4 text-gray-600 dark:text-gray-400">{tProduct('brand')}</td>
                                     <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{brandDisplay}</td>
                                 </tr>
-                                {product.sku && (
+                                {activeSku && (
                                     <tr>
                                         <td className="py-4 text-gray-600 dark:text-gray-400">{tProduct('sku')}</td>
-                                        <td className="py-4 font-bold font-mono text-end text-gray-900 dark:text-white">{product.sku}</td>
+                                        <td className="py-4 font-bold font-mono text-end text-gray-900 dark:text-white">{activeSku}</td>
                                     </tr>
                                 )}
                                 <tr>
@@ -989,8 +859,16 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                     <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{translatedCategory}</td>
                                 </tr>
                                 <tr>
-                                    <td className="py-4 text-gray-600 dark:text-gray-400">{tProduct('warranty')}</td>
-                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{isRTL ? (brand === 'joyroom' ? '12 شهر' : '18 شهر') : (brand === 'joyroom' ? '12 Months' : '18 Months')}</td>
+                                    <td className="py-4 text-gray-600 dark:text-gray-400">
+                                        {isRTL ? 'ضمان كايرو فولت' : 'CairoVolt warranty'}
+                                    </td>
+                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white">
+                                        {warrantyPolicy.months
+                                            ? (isRTL
+                                                ? `${warrantyPolicy.months} شهرًا — راجع الشروط`
+                                                : `${warrantyPolicy.months} months — see terms`)
+                                            : (isRTL ? 'راجع الشروط المكتوبة للمنتج' : 'See the written product terms')}
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td className="py-4 text-gray-600 dark:text-gray-400">{isRTL ? 'المخزون' : 'Stock'}</td>

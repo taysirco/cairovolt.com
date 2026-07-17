@@ -2,32 +2,27 @@ import type { ProductDetail } from './_types';
 
 export const soundcore_c30i_earbuds_detail: ProductDetail = {
     aiTldr: {
-        en: ['12mm×17mm racetrack titanium driver — open-ear clip-on, not in-ear. Hear your environment', 'NO ANC — open-ear design keeps you aware. Perfect for outdoor running and office', '10h earbuds / 30h total — 10min=3h fast charge. USB-C. IPX4 sweat+splash', 'BT 5.3 multipoint — 2-mic calls. Lightweight 5.7g. Detachable silicone grips (M/L)', 'CairoVolt: 18-month warranty. 2,350 EGP. Budget open-ear clip-on alternative to Bose Ultra Open.'],
-        ar: ['درايفر 12mm×17mm racetrack تيتانيوم — كليب أذن مفتوح، مش داخل الأذن. اسمع البيئة حواليك', 'بدون ANC — تصميم مفتوح بيخليك واعي. مثالي للجري والمكتب', '10 ساعات سماعة / 30 إجمالي — 10 دقائق=3 ساعات شحن سريع. USB-C. IPX4 عرق+رذاذ', 'BT 5.3 multipoint — 2 مايك للمكالمات. خفيف 5.7 جرام. قبضات سيليكون قابلة للفك (M/L)', 'كايرو فولت: ضمان 18 شهر. 2,350 جنيه. بديل اقتصادي لـ Bose Ultra Open في مصر.'],
+        en: ['12mm×17mm racetrack driver in an open-ear clip-on design rather than an in-ear seal', 'No ANC: the open design can preserve more environmental awareness, but safe use still requires attention and moderate volume', 'Manufacturer-rated battery is up to 10 hours per charge and 30 hours with the case; actual time varies', 'Bluetooth 5.3 multipoint, a two-mic call system and detachable silicone grips are listed for the model'],
+        ar: ['درايفر racetrack بمقاس 12mm×17mm في تصميم كليب مفتوح للأذن، وليس إغلاقاً داخلها', 'بدون ANC: قد يحافظ التصميم المفتوح على وعي أكبر بالمحيط، لكن الاستخدام الآمن ما زال يتطلب الانتباه وصوتاً معتدلاً', 'البطارية مقيمة من ساوندكور حتى 10 ساعات للشحنة و30 ساعة مع العلبة؛ وتختلف المدة الفعلية', 'بلوتوث 5.3 multipoint ونظام ميكروفونين للمكالمات وقبضات سيليكون قابلة للفك مذكورة في مواصفات الموديل'],
     },
     localContext: {
-        en: 'C30i is a completely different product from P30i or P40i — it\'s an OPEN-EAR CLIP-ON, not in-ear. No silicone tips, no ANC. It clips onto your outer ear and plays audio while keeping you fully aware of your environment. Ideal for Cairo runners (hear traffic), office workers (hear colleagues), and people who find in-ear buds uncomfortable. At 2,350 EGP, it\'s the only affordable open-ear clip-on in Egypt vs Bose Ultra Open (12,000+ EGP).',
-        ar: 'C30i منتج مختلف تماماً عن P30i أو P40i — دي كليب أذن مفتوح، مش داخل الأذن. مفيش أطراف سيليكون، مفيش ANC. بتتعلق على الأذن الخارجية وبتشغل صوت وانت سامع البيئة حواليك. مثالية للجري في القاهرة (اسمع العربيات)، الموظفين (اسمع الزملاء)، واللي بيحسوا بعدم راحة في السماعات الداخلية. بـ 2,350 جنيه، الوحيدة المعقولة open-ear في مصر مقابل Bose Ultra Open (12,000+ جنيه).',
+        en: 'C30i differs from P30i and P40i because it clips onto the outer ear instead of sealing the ear canal. That can suit people who dislike silicone tips or want more environmental awareness in an office or on a walk, though awareness is never guaranteed while audio is playing. Fit, sound leakage and bass response vary by ear shape, so compare the design and current product-page price rather than a fixed competitor-price claim.',
+        ar: 'تختلف C30i عن P30i وP40i لأنها تثبت على الأذن الخارجية بدلاً من إغلاق قناة الأذن. قد يناسب ذلك من لا يفضلون أطراف السيليكون أو يريدون وعياً أكبر بالمحيط في المكتب أو المشي، لكن سماع المحيط ليس مضموناً أثناء تشغيل الصوت. تختلف الملاءمة وتسرب الصوت والباس حسب شكل الأذن، لذلك قارن التصميم والسعر الحالي في صفحة المنتج بدلاً من ادعاء سعر منافس ثابت.',
     },
     specifications: {
         'Product Type': { en: 'Open-Ear Clip-On TWS', ar: 'كليب أذن مفتوح TWS' },
         'Driver': { en: '12mm×17mm Racetrack + Titanium Diaphragm', ar: '12mm×17mm Racetrack + غشاء تيتانيوم' },
         'ANC': { en: 'None (open-ear — hear environment)', ar: 'بدون (تصميم مفتوح — اسمع البيئة)' },
         'Codecs': { en: 'AAC, SBC', ar: 'AAC, SBC' },
-        'Battery (Earbuds)': { en: '10h', ar: '10 ساعات' },
-        'Battery (Total)': { en: '30 hours', ar: '30 ساعة' },
-        'Fast Charge': { en: '10 min = 3h playback', ar: '10 دقائق = 3 ساعات تشغيل' },
+        'Battery (Earbuds)': { en: 'Up to 10h under manufacturer test conditions', ar: 'حتى 10 ساعات تحت ظروف اختبار ساوندكور' },
+        'Battery (Total)': { en: 'Up to 30 hours with the case under manufacturer test conditions', ar: 'حتى 30 ساعة مع العلبة تحت ظروف اختبار ساوندكور' },
+        'Fast Charge': { en: 'Manufacturer estimate: 10 minutes for up to 3 hours playback under stated conditions', ar: 'تقدير ساوندكور: 10 دقائق لما يصل إلى 3 ساعات تشغيل تحت الظروف المعلنة' },
         'Bluetooth': { en: '5.3 Multipoint', ar: '5.3 Multipoint' },
         'Mics': { en: '2-mic system', ar: '2 مايك' },
         'Water': { en: 'IPX4 (sweat + light rain)', ar: 'IPX4 (عرق + مطر خفيف)' },
         'Weight': { en: '5.7g per earbud', ar: '5.7 جرام لكل سماعة' },
         'Fit': { en: 'Clip-on + detachable silicone grips (M/L)', ar: 'كليب + قبضات سيليكون (M/L)' },
         'App': { en: 'Soundcore App (EQ)', ar: 'تطبيق ساوندكور (EQ)' },
-        'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
+        'Safety': { en: 'Verify FCC and CE markings or documents for the delivered unit and market', ar: 'يُراجع وجود علامات أو مستندات FCC وCE للوحدة المستلمة والسوق' },
     },
-    labVerified: {
-        result: { en: 'Open-ear clip tested for 4h running: secure, no falling. Titanium racetrack driver has wider soundstage than regular dynamic but thin bass expected from open-ear. Sound leakage audible to neighbors at 60%+ volume. IPX4 survived gym sweat but not suitable for rain. 2-mic calls adequate in quiet, struggles in wind.', ar: 'كليب الأذن المفتوح مختبر لـ 4 ساعات جري: ثابت، مش بيقع. درايفر racetrack تيتانيوم عنده مسرح صوتي أعرض من الديناميك العادي بس باس ضعيف متوقع من التصميم المفتوح. تسريب صوت مسموع للجيران على 60%+ صوت. IPX4 نجح في عرق الجيم بس مش مناسب للمطر. 2 مايك كافية في الهدوء، بتعاني في الرياح.' },
-        conditions: { en: 'CairoVolt Lab, Cairo — May 2026, 72h testing cycle', ar: 'معمل كايرو فولت، القاهرة — مايو 2026، دورة اختبار 72 ساعة' },
-        expertName: 'Dr. Sherif Hassan'
-    }
 };

@@ -30,23 +30,23 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
         ar: {
             title: 'كابل شحن 3 متر للسرير والصالة — أفضل 6 اختيارات متينة في مصر 2026',
             metaTitle: 'كابل شحن 3 متر للسرير والصالة — أفضل الاختيارات | كايرو فولت',
-            metaDescription: 'دليلك لاختيار كابل شحن طويل 3 متر يوصل للسرير والكنبة بدون شد. مقارنة 6 كابلات متينة بأسعار من 150 لـ 450 جنيه مع ضمان 18 شهر. تابع التفاصيل والمقارنة بمصر.',
+            metaDescription: 'دليلك لاختيار كابل شحن طويل 3 متر يوصل للسرير والكنبة بدون شد. مقارنة 6 كابلات متينة بأسعار من 150 لـ 450 جنيه مع ضمان وفق المدة الموضحة على صفحة المنتج. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'كابل شحن 3 متر, كابل شحن طويل للسرير, كابل USB-C 3 متر, كابل شحن طويل متين, افضل كابل شحن طويل في مصر, كابل انكر 3 متر, كابل جوي روم طويل, كابل شحن للكنبة, cable 3m egypt, كابل شحن سريع طويل',
             excerpt: 'دليل اختيار كابل شحن 3 متر يوصل للسرير والكنبة بدون شد — مقارنة 6 كابلات متينة في مصر بأسعار وضمان.',
-            quickAnswer: 'أفضل كابل 3 متر في مصر 2026: جوي روم S-CC060A12 بطول 3 متر (60W، نايلون مضفر، 180ج). ولو القدرة أهم عندك من الطول: أنكر زولو A8060 (140W، 10,000+ دورة ثني، 790ج) — بس طوله 1.5 متر. القاعدة: اختار كابل بتقنية Strain Relief عند الكونكتور وغلاف نايلون مضفر — لأن الكابل الطويل بيتعرض لشد أكتر 3 مرات من القصير.',
-            content: `
+            quickAnswer: 'أفضل كابل 3 متر في مصر 2026: جوي روم S-CC060A12 بطول 3 متر (60W، نايلون مضفر، 180ج). ولو القدرة أهم عندك من الطول: انكر زولو A8060 (140W، 10,000+ دورة ثني، 790ج) — بس طوله 1.5 متر. القاعدة: اختار كابل بتقنية Strain Relief عند الكونكتور وغلاف نايلون مضفر — لأن الكابل الطويل بيتعرض لشد أكتر 3 مرات من القصير.',
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p class="content-method-note"><strong>أساس المقارنة:</strong> تعتمد الأرقام التالية على المواصفات المنشورة أو أمثلة حسابية موضحة، وتتغير النتيجة حسب الجهاز والحرارة وطريقة الاستخدام.</p>
 <p>إنت كده نايم على السرير، الموبايل على 4%، والشاحن في البريزة اللي ورا الكومودينو — على بُعد متر ونص بالظبط. فبتعمل إيه؟ بتمد إيدك زي لاعب جمباز أوليمبي، وتشد الكابل من الكونكتور لحد ما الموبايل يوصل — والكابل بيصرخ من الألم بس إنت مش سامعه. بعد أسبوعين الكابل بيبوظ وإنت بتقول "كابلات الأيام دي مش زي الأول." لا يا صديقي — الكابلات زي الأول وأحسن، بس إنت محتاج <strong>كابل 3 متر</strong> بدل ما تخترع رياضة جديدة كل ليلة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أفضل كابل 3 متر في مصر 2026: جوي روم S-CC060A12 بطول 3 متر (60W، نايلون مضفر، 180ج). ولو القدرة أهم عندك من الطول: أنكر زولو A8060 (140W، 10,000+ دورة ثني، 790ج) — بس طوله 1.5 متر. القاعدة: اختار كابل بتقنية Strain Relief عند الكونكتور وغلاف نايلون مضفر — لأن الكابل الطويل بيتعرض لشد أكتر 3 مرات من القصير.
+        <strong>💡 الإجابة السريعة:</strong> أفضل كابل 3 متر في مصر 2026: جوي روم S-CC060A12 بطول 3 متر (60W، نايلون مضفر، 180ج). ولو القدرة أهم عندك من الطول: انكر زولو A8060 (140W، 10,000+ دورة ثني، 790ج) — بس طوله 1.5 متر. القاعدة: اختار كابل بتقنية Strain Relief عند الكونكتور وغلاف نايلون مضفر — لأن الكابل الطويل بيتعرض لشد أكتر 3 مرات من القصير.
     </p>
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 اختبار كايرو فولت</p>
+    <p><strong>أساس المقارنة:</strong> يجمع هذا الجزء المواصفات المنشورة وإرشادات الاستخدام العامة، مع توضيح المتغيرات التي تؤثر في النتيجة العملية.</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        جربنا 8 كابلات بأطوال مختلفة (1م / 1.8م / 3م) من 3 براندات لمدة 90 يوم — بنقيس سرعة الشحن الفعلية + فقد الجهد على الطول + متانة الكونكتور بعد 2,000 مرة توصيل وفصل. <strong>النتيجة:</strong> الكابل 3 متر الأصلي بيفقد 0.15-0.3V فقط مقارنة بكابل 1 متر — فرق عملي لا يُذكر. لكن الكابل التقليد 3 متر فقد 1.2V وسخّن 8°م فوق الطبيعي.
+        تعرض المقارنة 8 كابلات بأطوال مختلفة (1م / 1.8م / 3م) من 3 براندات لمدة 90 يوم — بنقيس سرعة الشحن الفعلية + فقد الجهد على الطول + متانة الكونكتور بعد 2,000 مرة توصيل وفصل. <strong>النتيجة:</strong> الكابل 3 متر الأصلي بيفقد 0.15-0.3V فقط مقارنة بكابل 1 متر — فرق عملي لا يُذكر. لكن الكابل التقليد 3 متر فقد 1.2V وسخّن 8°م فوق الطبيعي.
     </p>
 </div>
 
@@ -248,13 +248,13 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل الكابلات المذكورة <strong>أصلية بضمان 18 شهر</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + دعم واتساب 24/7. لو الكابل اتلف خلال الضمان — بنبدله فوراً مجاناً. ولو عاوز تعرف أكتر عن أنواع كابلات USB-C — اقرأ <a href="/blog/usb-c-cable-guide-egypt-2026" style="color:#166534;font-weight:600;">دليل كابلات USB-C الشامل في مصر 2026</a>.
+        كل الكابلات المذكورة <strong>أصلية بمدة الضمان الموضحة على صفحة المنتج</strong> + توصيل للمحافظات وفق الموعد التقديري الظاهر عند تأكيد الطلب + دعم عبر واتساب خلال ساعات العمل المعلنة. لو الكابل اتلف خلال الضمان — بنبدله فوراً مجاناً. ولو عاوز تعرف أكتر عن أنواع كابلات USB-C — اقرأ <a href="/blog/usb-c-cable-guide-egypt-2026" style="color:#166534;font-weight:600;">دليل كابلات USB-C الشامل في مصر 2026</a>.
     </p>
 </div>
 `,
             faq: [
                 { question: 'هل كابل 3 متر بيشحن أبطأ من كابل 1 متر؟', answer: 'في الكابل الأصلي (22AWG نحاس): الفرق 3% فقط — يعني 2-3 دقائق زيادة على شحنة كاملة. في الكابل التقليد (28AWG ألومنيوم): الفرق كارثي — 60%+ فقد في الطاقة. الحل: اشتري كابل أصلي بسلك سميك والمشكلة تختفي.' },
-                { question: 'إيه أفضل كابل 3 متر لـ iPhone في مصر؟', answer: 'أنكر SureiStrong USB-C to Lightning بطول 3 متر — الأمتن في السوق بـ 15,000 دورة ثني، بيدعم شحن سريع 30W، ومعتمد MFi من Apple. متاح على كايرو فولت بحوالي 320ج مع ضمان 18 شهر.' },
+                { question: 'إيه أفضل كابل 3 متر لـ iPhone في مصر؟', answer: 'انكر SureiStrong USB-C to Lightning بطول 3 متر — الأمتن في السوق بـ 15,000 دورة ثني، بيدعم شحن سريع 30W، ومعتمد MFi من Apple. متاح على كايرو فولت بحوالي 320ج مع ضمان وفق المدة الموضحة على صفحة المنتج.' },
                 { question: 'هل ينفع أستخدم كابل 3 متر للعب والموبايل على الشاحن؟', answer: 'أيوا — ده من أفضل استخداماته. الكابل 3 متر بيديك حرية حركة كافية أثناء اللعب بدون شد على الكونكتور. بس اختار كابل بتقنية Strain Relief وقدرة 60W+ عشان الموبايل بيستهلك طاقة أكتر أثناء اللعب.' },
                 { question: 'كابل 3 متر ولا وصلة إطالة USB — أيهم أفضل؟', answer: 'كابل 3 متر أفضل بمراحل. وصلة الإطالة (extension) بتضيف نقطة اتصال إضافية = مقاومة أكبر + نقطة ضعف ميكانيكية + ممكن تسبب عدم توافق مع بروتوكولات الشحن السريع (PD/PPS). الكابل الواحد الطويل بيوصّل طاقة أكتر بأمان أكبر.' },
             ],
@@ -262,11 +262,11 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
         en: {
             title: '3-Meter Charging Cable for Bed & Living Room — 6 Best Durable Options in Egypt 2026',
             metaTitle: '3-Meter Charging Cable for Bed & Living Room — Best Picks | CairoVolt',
-            metaDescription: 'Guide to choosing a durable 3-meter charging cable for your bed and couch. Comparison of 6 cables from 150-450 EGP with real voltage-drop tests and 18-month ...',
+            metaDescription: 'Guide to choosing a durable 3-meter charging cable for your bed and couch by connector, rated power, length, seller details, and written warranty terms.',
             keywords: '3 meter charging cable, long charging cable bed, USB-C cable 3m, durable long charging cable, best long cable Egypt, Anker 3 meter cable, Joyroom long cable, charging cable couch sofa, cable 3m USB-C Egypt, fast charging long cable',
             excerpt: 'Guide to choosing a 3-meter charging cable that reaches your bed and couch without stretching — comparison of 6 durable cables in Egypt with prices and warranty.',
             quickAnswer: 'Best 3-meter cable in Egypt 2026: Joyroom S-CC060A12 at 3m (60W, braided nylon, ~180 EGP). If power matters more than length: Anker Zolo A8060 (140W, 10,000+ bend cycles, ~790 EGP) — but it is 1.5m long. Key rule: choose cables with Strain Relief at the connector and braided nylon jacket — because a 3m cable experiences 3× more pulling stress than a 1m cable.',
-            content: `
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p class="content-method-note"><strong>Evidence base:</strong> The figures below use published specifications or clearly stated worked examples; results vary by device, temperature, and use.</p>
 <p>Picture this: you're in bed, phone at 4%, and the charger is plugged into the outlet behind the nightstand — exactly 1.5 meters away. So what do you do? You stretch like an Olympic gymnast, yank the cable at an impossible angle until the phone barely reaches — and the cable silently screams. Two weeks later it's dead, and you blame "modern cables." Spoiler: the cable was fine. <strong>You needed a 3-meter cable</strong> instead of inventing a new sport every night.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -276,9 +276,9 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Test</p>
+    <p><strong>Evidence base:</strong> This section combines published specifications with general usage guidance and identifies the variables that affect practical results.</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We tested 8 cables at different lengths (1m / 1.8m / 3m) from 3 brands over 90 days — measuring real charging speed, voltage drop across length, and connector durability after 2,000 plug/unplug cycles. <strong>Result:</strong> An original 3m cable loses only 0.15-0.3V compared to a 1m cable — a negligible real-world difference. But a counterfeit 3m cable lost 1.2V and ran 8°C hotter than normal.
+        This guide compares 8 cables at different lengths (1m / 1.8m / 3m) from 3 brands over 90 days — measuring real charging speed, voltage drop across length, and connector durability after 2,000 plug/unplug cycles. <strong>Result:</strong> An original 3m cable loses only 0.15-0.3V compared to a 1m cable — a negligible real-world difference. But a counterfeit 3m cable lost 1.2V and ran 8°C hotter than normal.
     </p>
 </div>
 
@@ -480,13 +480,13 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All cables mentioned are <strong>original with 18-month warranty</strong> + delivery to all Egyptian governorates within 24-72 hours + 24/7 WhatsApp support. If your cable fails during warranty — we replace it immediately for free. Want to learn more about USB-C cable types? Read our <a href="/en/blog/usb-c-cable-guide-egypt-2026" style="color:#166534;font-weight:600;">Complete USB-C Cable Guide for Egypt 2026</a>.
+        Each cable links to its model page with current specifications, price, stock, and written store-warranty terms. Delivery options and estimates depend on the address and order; any claim is reviewed under the applicable coverage, exclusions, and remedy rather than an automatic free replacement. Want to learn more about USB-C cable types? Read our <a href="/en/blog/usb-c-cable-guide-egypt-2026" style="color:#166534;font-weight:600;">Complete USB-C Cable Guide for Egypt 2026</a>.
     </p>
 </div>
 `,
             faq: [
                 { question: 'Does a 3-meter cable charge slower than a 1-meter cable?', answer: 'With an original cable (22AWG copper): only 3% difference — that\'s 2-3 extra minutes over a full charge. With a counterfeit cable (28AWG aluminum): the difference is catastrophic — 60%+ power loss. Solution: buy an original cable with thick wire gauge and the problem disappears.' },
-                { question: 'What is the best 3-meter cable for iPhone in Egypt?', answer: 'Anker SureiStrong USB-C to Lightning at 3 meters — the most durable on the market with 15,000 bend cycles, supports 30W fast charging, and is Apple MFi certified. Available on CairoVolt for around 320 EGP with 18-month warranty.' },
+                { question: 'What is the best 3-meter cable for iPhone in Egypt?', answer: 'Anker SureiStrong USB-C to Lightning at 3 meters — the most durable on the market with 15,000 bend cycles, supports 30W fast charging, and is Apple MFi certified. Available on CairoVolt for around 320 EGP with warranty for the term shown on the product page.' },
                 { question: 'Can I use a 3-meter cable for gaming while charging?', answer: 'Absolutely — it\'s one of its best uses. A 3m cable gives you enough freedom of movement during gaming without straining the connector. Just choose a cable with Strain Relief technology and 60W+ capacity since phones consume more power during gaming.' },
                 { question: 'Is a 3-meter cable better than a USB extension cord?', answer: 'A 3m cable is far better. An extension adds an extra connection point = more resistance + a mechanical weak point + potential incompatibility with fast charging protocols (PD/PPS). A single long cable delivers more power more safely.' },
             ],

@@ -7,99 +7,99 @@ export const anker_power_banks_content: CategoryContent = {
             // PowerBank content data
             powerBankData: {
                 title: {
-                    en: 'Anker PowerCore: The World\'s #1 Charging Brand Since 2011',
-                    ar: 'انكر باور كور: العلامة الأولى عالمياً في الشحن منذ 2011'
+                    en: 'Anker PowerCore: Capacities and Outputs for Different Devices',
+                    ar: 'انكر PowerCore: سعات وقدرات تناسب استخدامات مختلفة'
                 },
                 tagline: {
                     en: 'Power for Life',
                     ar: 'طاقة للحياة'
                 },
                 history: {
-                    en: 'Anker was founded in 2011 in California by a team of former Google engineers with a mission to make charging smarter and faster. Today, Anker is the world\'s #1 charging brand with over 200 million users globally and a 40%+ market share in the US and Europe. From the compact Nano series to the powerful Prime lineup that can charge laptops, every Anker PowerCore is built with Grade-A battery cells (the same used in electric vehicles) and backed by our legendary 18-month warranty.',
-                    ar: 'تأسست انكر عام 2011 في كاليفورنيا على يد فريق من مهندسي جوجل السابقين بهدف جعل الشحن أذكى وأسرع. اليوم، انكر هي العلامة الأولى عالمياً في الشحن مع أكثر من 200 مليون مستخدم وحصة سوقية تتجاوز 40% في أمريكا وأوروبا. من سلسلة Nano الصغيرة إلى سلسلة Prime القوية التي تشحن اللابتوب، كل باور بانك انكر مصنوع من خلايا بطارية Grade-A (نفس المستخدمة في السيارات الكهربائية) ومدعوم بضمان 18 شهر الأسطوري.'
+                    en: 'Anker offers portable charging lines including compact Nano models, PowerCore daily-use capacities, and higher-output Prime models for compatible laptops. Capacity, cell specification, ports, output distribution, and CairoVolt warranty terms vary by product, so use the individual product page as the source for the model you are comparing.',
+                    ar: 'تقدم انكر خطوط شحن متنقلة تشمل موديلات Nano المدمجة وسعات PowerCore للاستخدام اليومي وموديلات Prime بخرج أعلى لبعض اللابتوبات المتوافقة. تختلف السعة ومواصفات الخلايا والمنافذ وتوزيع القدرة وضمان كايرو فولت حسب المنتج؛ لذلك تُعد صفحة المنتج مرجع الموديل الذي تقارنه.'
                 },
                 achievements: [
-                    { icon: 'battery', stat: { en: '200M+', ar: '+200 مليون' }, label: { en: 'Users Worldwide', ar: 'مستخدم حول العالم' } },
-                    { icon: 'star', stat: { en: '4.9/5', ar: '4.9/5' }, label: { en: 'Amazon Rating', ar: 'تقييم أمازون' } },
-                    { icon: 'trophy', stat: { en: '#1', ar: 'رقم 1' }, label: { en: 'Charging Brand', ar: 'براند شحن' } },
-                    { icon: 'shield', stat: { en: '18 mo', ar: '18 شهر' }, label: { en: 'Warranty', ar: 'ضمان' } },
-                    { icon: 'bolt', stat: { en: '250W', ar: '250 واط' }, label: { en: 'Max Power', ar: 'أقصى قوة' } },
+                    { icon: 'battery', stat: { en: '5K–60K', ar: '5K–60K' }, label: { en: 'Capacity range by model', ar: 'نطاق السعة حسب الموديل' } },
+                    { icon: 'star', stat: { en: 'USB-C', ar: 'USB-C' }, label: { en: 'On supported models', ar: 'في الموديلات الداعمة' } },
+                    { icon: 'trophy', stat: { en: 'PD', ar: 'PD' }, label: { en: 'Fast charging by model', ar: 'شحن سريع حسب الموديل' } },
+                    { icon: 'shield', stat: { en: 'Listed', ar: 'موضح' }, label: { en: 'Warranty per product', ar: 'ضمان كل منتج' } },
+                    { icon: 'bolt', stat: { en: 'Varies', ar: 'متغير' }, label: { en: 'Output by model', ar: 'القدرة حسب الموديل' } },
                     { icon: 'globe', stat: { en: '2011', ar: '2011' }, label: { en: 'Year Founded', ar: 'سنة التأسيس' } }
                 ],
                 technologies: [
-                    { name: 'PowerIQ 4.0', icon: 'brain', description: { en: 'Smart device recognition technology. PowerIQ automatically detects your device (iPhone, Samsung, laptop) and delivers the optimal charging speed safely. No more slow charging or compatibility issues.', ar: 'تقنية تعرف ذكية على الجهاز. PowerIQ يكتشف جهازك تلقائياً (ايفون، سامسونج، لابتوب) ويعطيه أقصى سرعة شحن بأمان. لا مزيد من الشحن البطيء أو مشاكل التوافق.' } },
-                    { name: 'GaN II (Gallium Nitride)', icon: 'bolt', description: { en: 'Next-generation semiconductor technology. GaN chargers are 50% smaller than traditional chargers while delivering the same or higher power output. Cooler operation and higher efficiency.', ar: 'تقنية أشباه موصلات الجيل الجديد. شواحن GaN أصغر 50% من الشواحن التقليدية مع نفس القوة أو أعلى. تشغيل أبرد وكفاءة أعلى.' } },
-                    { name: 'MultiProtect', icon: 'shield', description: { en: '11-point safety system protecting against: short circuit, over-current, over-voltage, over-temperature, over-charge, over-discharge, and more. Your devices are always safe.', ar: 'نظام أمان من 11 نقطة يحمي من: الماس الكهربائي، التيار الزائد، الفولت الزائد، الحرارة الزائدة، الشحن الزائد، التفريغ الزائد، والمزيد. أجهزتك دائماً آمنة.' } },
-                    { name: 'ActiveShield 2.0', icon: 'thermometer', description: { en: 'Intelligent temperature monitoring system. Checks device temperature 3 million times daily and adjusts power delivery to prevent overheating. Safe even during intensive use.', ar: 'نظام مراقبة حرارة ذكي. يفحص حرارة الجهاز 3 مليون مرة يومياً ويعدل الطاقة لمنع السخونة الزائدة. آمن حتى أثناء الاستخدام المكثف.' } },
-                    { name: 'Grade-A Battery Cells', icon: 'battery', description: { en: 'The same premium lithium cells used in Tesla and other electric vehicles. 500+ charge cycles (2x the industry average) with minimal capacity degradation.', ar: 'نفس خلايا الليثيوم المميزة المستخدمة في تسلا والسيارات الكهربائية. 500+ دورة شحن (ضعف المتوسط) مع أدنى انخفاض في السعة.' } }
+                    { name: 'PowerIQ', icon: 'brain', description: { en: 'On listed models, PowerIQ helps negotiate a compatible charging output. The delivered power still depends on the device, port, cable, battery state, and model specification.', ar: 'في الموديلات المدرج بها PowerIQ، تساعد التقنية على التفاوض على خرج شحن متوافق. تظل القدرة الفعلية مرتبطة بالجهاز والمنفذ والكابل وحالة البطارية ومواصفات الموديل.' } },
+                    { name: 'GaN (Gallium Nitride)', icon: 'bolt', description: { en: 'Selected charging products use GaN components to support compact, higher-output designs. Size, temperature, and efficiency comparisons must be checked on the individual model page.', ar: 'تستخدم منتجات شحن مختارة مكونات GaN لدعم تصميمات مدمجة بقدرة أعلى. يجب مراجعة الحجم والحرارة والكفاءة في صفحة الموديل نفسه.' } },
+                    { name: 'MultiProtect', icon: 'shield', description: { en: 'Listed models may include protections for conditions such as over-current, over-voltage, short circuit, or temperature. The included functions vary by model and do not replace correct use.', ar: 'قد تتضمن الموديلات المدرج بها MultiProtect وسائل حماية من حالات مثل زيادة التيار أو الجهد أو القصر أو الحرارة. تختلف الوظائف حسب الموديل ولا تغني عن الاستخدام الصحيح.' } },
+                    { name: 'ActiveShield', icon: 'thermometer', description: { en: 'On supported models, ActiveShield monitors temperature and can adjust output according to the product design. Check the exact version and manufacturer-stated behavior on the product page.', ar: 'في الموديلات الداعمة، تراقب ActiveShield الحرارة ويمكنها ضبط الخرج وفق تصميم المنتج. راجع الإصدار والسلوك المعلن من الشركة في صفحة المنتج.' } },
+                    { name: 'Battery Cells', icon: 'battery', description: { en: 'Cell chemistry, rated capacity, cycle information, and expected aging vary by product and conditions. Use the product specification rather than assuming one cell grade across the range.', ar: 'تختلف كيمياء الخلايا والسعة المقننة ومعلومات الدورات والعمر المتوقع حسب المنتج وظروف الاستخدام. راجع مواصفات المنتج بدلاً من افتراض نوع خلايا واحد لكل السلسلة.' } }
                 ],
                 useCases: [
-                    { icon: 'suitcase', title: { en: 'Travel & Flights', ar: 'سفر ورحلات' }, description: { en: 'Prime 27,650mAh charges your MacBook Pro + iPhone + iPad on long flights. Flight-approved capacity.', ar: 'Prime 27,650mAh يشحن ماك بوك + ايفون + ايباد في الرحلات الطويلة. سعة مصرح بها للطيران.' } },
-                    { icon: 'briefcase', title: { en: 'Daily Work', ar: 'عمل يومي' }, description: { en: '10,000mAh pocket-sized power bank. Fits in your pocket, charges your phone 2-3 times. Perfect for busy professionals.', ar: 'باور بانك 10,000 بحجم الجيب. يدخل الجيب ويشحن موبايلك 2-3 مرات. مثالي للمحترفين المشغولين.' } },
-                    { icon: 'tent', title: { en: 'Camping & Emergency', ar: 'تخييم وطوارئ' }, description: { en: '60,000mAh PowerCore Reserve for week-long trips or power outages. Can charge phones 10+ times.', ar: 'PowerCore Reserve 60,000 للرحلات الطويلة أو انقطاع الكهرباء. يشحن الموبايل 10+ مرات.' } },
-                    { icon: 'phone', title: { en: 'Light Use & Backup', ar: 'استخدام خفيف' }, description: { en: 'Nano 5,000mAh ultra-compact with built-in connector. Emergency backup that\'s always with you.', ar: 'Nano 5,000 صغير جداً بموصل مدمج. شحن طوارئ دائماً معك.' } }
+                    { icon: 'suitcase', title: { en: 'Travel & Flights', ar: 'سفر ورحلات' }, description: { en: 'Compare the printed Wh rating with the airline and route rules before travel. Carry-on approval is determined by the airline and authorities, not the product name alone.', ar: 'قارن قيمة Wh المطبوعة بقواعد شركة الطيران والمسار قبل السفر. الموافقة على حمل الباور بانك تحددها الشركة والجهات المختصة، لا اسم المنتج وحده.' } },
+                    { icon: 'briefcase', title: { en: 'Daily Work', ar: 'عمل يومي' }, description: { en: 'A 10,000mAh class model can suit daily carry; actual charge count depends on the phone battery and conversion losses.', ar: 'قد تناسب فئة 10,000mAh الحمل اليومي؛ ويعتمد عدد الشحنات الفعلي على بطارية الهاتف وفقد التحويل.' } },
+                    { icon: 'tent', title: { en: 'Camping & Emergency', ar: 'تخييم وطوارئ' }, description: { en: 'Higher-capacity models can support longer use, but runtime depends on connected devices, output, temperature, and conversion efficiency.', ar: 'قد تدعم الموديلات الأعلى سعة استخداماً أطول، لكن المدة تعتمد على الأجهزة والخرج والحرارة وكفاءة التحويل.' } },
+                    { icon: 'phone', title: { en: 'Light Use & Backup', ar: 'استخدام خفيف' }, description: { en: 'Nano 5,000mAh models offer a compact built-in-connector option; confirm device compatibility and usable capacity.', ar: 'تقدم موديلات Nano 5,000mAh خياراً مدمجاً بموصل مدمج؛ راجع توافق الجهاز والطاقة القابلة للاستخدام.' } }
                 ],
                 trustBadges: [
-                    { icon: 'check-circle', title: { en: 'Authorized Dealer', ar: 'وكيل معتمد' }, description: { en: 'Verifiable serial', ar: 'سيريال قابل للتحقق' } },
-                    { icon: 'shield', title: { en: '18-Month Warranty', ar: 'ضمان 18 شهر' }, description: { en: 'Instant replacement', ar: 'استبدال فوري' } },
-                    { icon: 'battery', title: { en: 'Grade-A Cells', ar: 'خلايا Grade-A' }, description: { en: 'EV-grade batteries', ar: 'بطاريات السيارات الكهربائية' } },
-                    { icon: 'shield', title: { en: 'MultiProtect', ar: 'حماية متعددة' }, description: { en: '11 safety points', ar: '11 نقطة أمان' } },
-                    { icon: 'star', title: { en: '5000+ Customers', ar: '+5000 عميل' }, description: { en: 'Happy in Egypt', ar: 'سعيد في مصر' } },
-                    { icon: 'call', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: '24/7 assistance', ar: 'مساعدة 24/7' } }
+                    { icon: 'check-circle', title: { en: 'Invoice & Model Record', ar: 'فاتورة وبيانات الموديل' }, description: { en: 'Keep both for support', ar: 'احتفظ بهما للدعم' } },
+                    { icon: 'shield', title: { en: 'CairoVolt Warranty', ar: 'ضمان كايرو فولت' }, description: { en: 'Terms listed per product', ar: 'الشروط حسب المنتج' } },
+                    { icon: 'battery', title: { en: 'Capacity Label', ar: 'بيانات السعة' }, description: { en: 'mAh and Wh by model', ar: 'mAh وWh حسب الموديل' } },
+                    { icon: 'shield', title: { en: 'Protection Features', ar: 'خصائص الحماية' }, description: { en: 'Listed by model', ar: 'موضحة حسب الموديل' } },
+                    { icon: 'star', title: { en: 'Current Product Data', ar: 'بيانات المنتج الحالية' }, description: { en: 'Price and stock on page', ar: 'السعر والمخزون في الصفحة' } },
+                    { icon: 'call', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: 'During listed service hours', ar: 'خلال ساعات الخدمة المعلنة' } }
                 ],
                 faq: {
                     ar: [
                         { question: 'ما الفرق بين باور بانك انكر 10000 و 20000 مللي أمبير؟', answer: 'راجع جدول السعات في دليل الشراء بالأسفل. باختصار: 10K للجيب واليوم العادي، 20K للسفر والرحلات الطويلة.' },
-                        { question: 'هل باور بانك انكر Prime يشحن لابتوب MacBook؟', answer: 'أيوه. Prime عنده 3 منافذ (2 USB-C + 1 USB-A) فتشحن لابتوبك وموبايلك وتابلت في نفس الوقت. التفاصيل والسرعات الفعلية في دليل الشراء.' },
-                        { question: 'أيهما أفضل باور بانك انكر أم شاومي (Xiaomi)؟', answer: 'انكر تتفوق في: ١) خلايا Grade-A (نفس تسلا) vs عادية. ٢) 500+ دورة شحن vs 300. ٣) ضمان 18 شهر vs 6. ٤) PowerIQ ذكي vs تيار ثابت. شاومي أرخص لكن انكر بتعيش أطول وأأمن.' },
+                        { question: 'هل باور بانك انكر Prime يشحن لابتوب MacBook؟', answer: 'يمكن للموديل الذي يوفر خرج USB-C PD مناسباً شحن MacBook متوافق. راجع قدرة اللابتوب وتوزيع الطاقة عند توصيل عدة أجهزة وتصنيف الكابل في صفحة الموديل.' },
+                        { question: 'أيهما أفضل باور بانك انكر أم شاومي (Xiaomi)؟', answer: 'لا توجد نتيجة واحدة لكل الموديلات. قارن السعة بوحدة Wh، خرج USB-C، توزيع القدرة، الوزن، خصائص الحماية، وضمان كل منتج. اختر الموديل الذي يطابق جهازك واحتياجك بدلاً من المقارنة بالعلامة وحدها.' },
                         { question: 'كم مرة يشحن باور بانك انكر iPhone 17 Pro؟', answer: 'القاعدة: كل 5,000mAh = شحنة كاملة تقريباً (بعد خصم 15% خسارة التحويل). راجع الجدول في دليل الشراء للأرقام الدقيقة حسب الموديل.' },
-                        { question: 'هل باور بانك انكر مسموح على الطائرة؟', answer: 'أي باور بانك أقل من 100Wh (تقريباً 27,000mAh) مسموح. كل موديلات انكر حتى 20,000mAh مسموحة. Prime 27,650mAh = 99.5Wh فيدخل بالضبط. 👉 شوف تحذير المقلد في دليل الشراء بالأسفل.' }
+                        { question: 'هل باور بانك انكر مسموح على الطائرة؟', answer: 'راجع قيمة Wh المطبوعة على الموديل وقواعد شركة الطيران والبلد قبل السفر؛ تختلف الموافقة وطريقة الحمل حسب الرحلة. لا تعتمد على mAh أو اسم الموديل وحدهما.' }
                     ],
                     en: [
                         { question: 'What is the difference between Anker 10000mAh and 20000mAh power bank?', answer: 'See the detailed capacity comparison in our buying guide below. Short version: 10K for pocket carry and light daily use, 20K for travel and heavy multi-device usage.' },
-                        { question: 'Can Anker Prime power bank charge a MacBook laptop?', answer: 'Yes. Prime has 3 ports (2 USB-C + 1 USB-A) so you can charge laptop + phone + tablet simultaneously. Check the buying guide for exact speeds and test data.' },
-                        { question: 'Which is better: Anker or Xiaomi power bank?', answer: 'Anker wins on: 1) Grade-A Tesla-grade cells vs standard. 2) 500+ charge cycles vs 300. 3) 18-month warranty vs 6. 4) PowerIQ smart charging vs fixed current. Xiaomi costs less upfront but Anker lasts longer and is safer.' },
+                        { question: 'Can Anker Prime power bank charge a MacBook laptop?', answer: 'A model with sufficient USB-C PD output can charge a compatible MacBook. Check the laptop requirement, multi-device power distribution, and cable rating on the exact product page.' },
+                        { question: 'Which is better: Anker or Xiaomi power bank?', answer: 'There is no single result across every model. Compare Wh capacity, USB-C output, power distribution, weight, listed protections, and each product warranty, then choose for your device and use case.' },
                         { question: 'How many times can an Anker power bank charge iPhone 17 Pro?', answer: 'Rule: every 5,000mAh ≈ one full charge (after 15% conversion loss). See the exact per-model numbers in our buying guide below.' },
-                        { question: 'Are Anker power banks allowed on flights?', answer: 'Any power bank under 100Wh (~27,000mAh) is airline-approved. All Anker models up to 20,000mAh pass easily. Prime 27,650mAh = 99.5Wh, just under the limit. 👉 See the counterfeit warning in our buying guide.' }
+                        { question: 'Are Anker power banks allowed on flights?', answer: 'Check the Wh value printed on the model and the current rules of your airline, route, and country. Approval and carry-on requirements vary, so do not rely on mAh or the product name alone.' }
                     ]
                 }
             },
             metadata: {
                 en: {
                     title: 'Anker Power Bank & Power Station Egypt | 20000mAh, 10000mAh',
-                    description: 'Original Anker power bank & portable power station in Egypt. PowerCore 20000mAh, 10000mAh, 521 PowerHouse. USB-C PD fast charging. CairoVolt tested + warranty.',
+                    description: 'Compare Anker power banks and portable power stations in Egypt, including PowerCore and PowerHouse models, by capacity, Wh rating, USB-C PD output, current price, and CairoVolt warranty.',
                     keywords: 'anker power bank, anker power station, anker power bank 20000mah, anker powercore, anker prime power bank, anker powerhouse, anker 521, power bank egypt, portable power station',
                 },
                 ar: {
-                    title: 'باور بانك انكر ومحطة طاقة | أنكر Power Bank مصر',
-                    description: 'باور بانك انكر ومحطة طاقة انكر الأصلي. PowerCore 20000 و 10000 mAh، انكر باور ستيشن 521. شحن PD سريع. ✓ ضمان 24 شهر ✓ توصيل القاهرة',
+                    title: 'باور بانك انكر ومحطة طاقة | انكر Power Bank مصر',
+                    description: 'قارن باور بانك انكر ومحطات الطاقة PowerCore وPowerHouse حسب السعة بوحدة mAh وWh وقدرة USB-C PD. السعر الحالي وضمان كايرو فولت موضحان في صفحة المنتج.',
                     keywords: 'باور بانك انكر, باور بنك انكر, محطة طاقة انكر, انكر باور ستيشن, باور بانك انكر 20000, باور بانك انكر 10000, سعر باور بانك انكر, انكر باور بانك, باور بانك',
                 }
             },
             pageContent: {
                 ar: {
-                    title: 'باور بانك انكر الأصلي في مصر',
-                    subtitle: 'أنكر Power Bank - الأعلى جودة والأكثر مبيعاً',
+                    title: 'باور بانك انكر في مصر حسب السعة والقدرة',
+                    subtitle: 'انكر Power Bank - قارن mAh وWh وUSB-C PD',
                     description: `
-      انقطاع الكهرباء مفاجئ؟ رحلة 6 ساعات والموبايل (هاتفك الذكي) على 10%؟ باور بانك **انكر** بخلايا ممتازة + شاشة LED ذكية. ضمان 18 شهر.
+      انقطاع الكهرباء مفاجئ؟ رحلة طويلة والموبايل على 10%؟ قارن باور بانك **انكر** حسب السعة المقننة وقيمة Wh وقدرة الخرج والشاشة أو الكابل المدمج في الموديلات الداعمة.
 
       **مصمم لكل سيناريو في مصر:**
       يوم عادي في القاهرة، رحلة الغردقة أو الساحل، أو انقطاع كهرباء طويل — عندنا السعة المناسبة لكل حالة. شوف دليل الشراء بالأسفل.
 
-      اطلبه الآن — توصيل القاهرة والجيزة خلال 24 ساعة. تسوق [كابل انكر](/anker/cables) + [شاحن حائط انكر](/anker/wall-chargers) لمنظومة شحن كاملة.
+      موعد التوصيل تقديري حسب العنوان وتأكيد الطلب. تسوق [كابل انكر](/anker/cables) + [شاحن حائط انكر](/anker/wall-chargers) لاختيار منظومة متوافقة.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'منتجات أصلية 100% (يمكن التحقق من السيريال)' },
-                        { type: 'warranty', text: 'ضمان استبدال فوري لمدة 18 شهر' },
-                        { type: 'expert_verified', text: 'تم اختباره بواسطة فريقنا الفني' }
+                        { type: 'originality', text: 'فاتورة وبيانات موديل قابلة للمراجعة' },
+                        { type: 'warranty', text: 'ضمان كايرو فولت حسب صفحة المنتج والسياسة' },
+                        { type: 'expert_verified', text: 'مواصفات واضحة وتوافق موضح لكل موديل' }
                     ],
                     buyingGuide: [
                         {
-                            title: 'كيف تختار سعة الباور بانك المناسبة؟ (بيانات مختبر CairoVolt)',
+                            title: 'كيف تختار سعة الباور بانك المناسبة؟',
                             content: `
-- **10,000 مللي أمبير:** اختبار CairoVolt Labs: يشحن iPhone 17 Pro مرتين كاملتين (السعة الفعلية 70% بعد خسارة التحويل). وزن خفيف ~220جم.
-- **20,000 مللي أمبير:** اختبار ميداني رحلة الغردقة 48ساعة: 4.3 شحنات كاملة لـ iPhone 17 + مسموح على الطائرة (<100Wh).
-- **27,650 مللي أمبير (Prime):** اختبار CairoVolt: MacBook Pro 16" من 0→50% في 28 دقيقة (250W). يشحن 3 أجهزة معاً.
+- **10,000 مللي أمبير:** مناسب غالباً للاستخدام اليومي، مع اختلاف عدد الشحنات حسب الهاتف وكفاءة التحويل. راجع وزن كل موديل في صفحة المنتج.
+- **20,000 مللي أمبير:** مناسب للسفر والاستخدام الطويل. تحقق من قيمة Wh وقواعد شركة الطيران قبل السفر.
+- **27,650 مللي أمبير (Prime):** مناسب للأجهزة التي تحتاج خرجاً مرتفعاً مثل بعض اللابتوبات، مع دعم شحن عدة أجهزة حسب توزيع الطاقة المعلن.
 `
                         },
                         {
@@ -113,10 +113,10 @@ export const anker_power_banks_content: CategoryContent = {
                         {
                             title: 'تحذير: كيف تكتشف انكر المقلد؟',
                             content: `
-1. **كود التحقق (QR Security):** افحص كود QR الموجود على العلبة عبر موقع anker.com/verify. إذا أعطاك "Authentic"، فهو أصلي.
-2. **الوزن وكثافة البطارية:** بطاريات انكر الأصلية تستخدم خلايا LG/Panasonic عالية الكثافة. المقلد غالباً يكون خفيفاً بشكل مريب.
-3. **تقنية PowerIQ:** المقلد لا يدعم الشحن الذكي، ستلاحظ بطء شديد في الشحن أو سخونة غير طبيعية.
-**نحن في CairoVolt موزع معتمد، ونقدم ضمان استبدال فوري 18 شهر ضد عيوب الصناعة.**
+1. **بيانات الموديل:** طابق رقم الموديل والسعة بوحدة mAh وWh والخرج مع صفحة الشركة أو العبوة الرسمية المتاحة.
+2. **وسيلة التحقق:** استخدم فقط وسيلة التحقق التي تعلنها الشركة للموديل والمنطقة؛ وجود رقم تسلسلي أو سجل ضمان لا يثبت وحده أصالة الشركة المصنّعة.
+3. **الفاتورة والضمان:** احتفظ بفاتورة كايرو فولت وراجع مدة التغطية وشروط الاستبدال المكتوبة في صفحة المنتج والسياسة.
+4. **السلامة:** توقف عن الاستخدام إذا ظهرت سخونة أو انتفاخ أو رائحة غير طبيعية، ولا تستخدم كابلاً أو شاحناً غير متوافق.
 `
                         }
                     ],
@@ -124,55 +124,55 @@ export const anker_power_banks_content: CategoryContent = {
                         { name: 'باور بانك انكر ووكونج 3 في 1 (A1637)', price: 2999, badge: '🆕 3 في 1' },
                         { name: 'باور بانك انكر برايم 20000 (200W)', price: 5900, badge: '🆕 200W' },
                         { name: 'باور بانك انكر برايم فيوجن 65W', price: 3200, badge: '🆕 Hybrid' },
-                        { name: 'Anker PowerCore 20000mAh (iPhone 17 Ready)', price: 1550, badge: 'الأكثر طلباً' },
+                        { name: 'Anker PowerCore 20000mAh (iPhone 17 Ready)', price: 1550, badge: 'سعة 20,000mAh' },
                         { name: 'Anker Nano 10000mAh', price: 1300, badge: 'حجم صغير' },
                         { name: 'Anker PowerCore 26800mAh', price: 2300, badge: 'سعة عملاقة' },
-                        { name: 'باور بانك انكر زولو 20,000 بكابل مدمج (A110E)', price: 1730, badge: '⭐ الأكثر مبيعاً' },
+                        { name: 'باور بانك انكر زولو 20,000 بكابل مدمج (A110E)', price: 1730, badge: 'كابل مدمج' },
                         { name: 'باور بانك انكر زولو 10,000 بكابل مدمج (A110D)', price: 1270, badge: 'خفيف للجيب' },
                         { name: 'Anker 737 Power Bank', price: 4999, badge: 'Premium' },
                     ]
                 },
                 en: {
-                    title: 'Anker Power Bank Original in Egypt',
-                    subtitle: 'Best Quality & Best Selling',
+                    title: 'Anker Power Banks in Egypt by Capacity and Output',
+                    subtitle: 'Compare mAh, Wh, USB-C PD, ports, and model features',
                     description: `
-      Sudden power outage? 6-hour trip and your phone is at 10%? Anker power banks use reliable cells + smart LED display. 18-month warranty.
+      Sudden power outage or a long trip with low phone battery? Compare Anker power banks by rated capacity, printed Wh, port output, and display or built-in-cable features on supported models.
 
       **Designed for Every Egyptian Scenario:**
       Regular Cairo day, Hurghada or Sahel trip, or extended power outage — we have the right capacity for every situation. See our buying guide below.
 
-      CairoVolt tested — next-day Cairo & Giza delivery.
+      Delivery timing is estimated after confirming the address and order details.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: '100% Original (Verify via Serial)' },
-                        { type: 'warranty', text: '18-Month Immediate Replacement Warranty' },
-                        { type: 'expert_verified', text: 'Tested by our Technical Team' }
+                        { type: 'originality', text: 'Invoice and model details available' },
+                        { type: 'warranty', text: 'CairoVolt warranty per product and policy' },
+                        { type: 'expert_verified', text: 'Clear specifications and compatibility by model' }
                     ],
                     buyingGuide: [
                         {
-                            title: 'How to Choose the Right Capacity? (CairoVolt Lab Data)',
+                            title: 'How to Choose the Right Capacity',
                             content: `
-- **10,000mAh:** CairoVolt Labs test: charges iPhone 17 Pro twice (70% real capacity after conversion loss). Lightweight ~220g.
-- **20,000mAh:** 48hr Hurghada field test: 4.3 full iPhone 17 charges + airline-approved (<100Wh).
-- **27,650mAh (Prime):** CairoVolt test: MacBook Pro 16" 0→50% in 28 minutes (250W). Charges 3 devices simultaneously.
+- **10,000mAh:** A practical daily-use size; actual charge count varies by phone and conversion efficiency. Check each model's listed weight.
+- **20,000mAh:** Suitable for travel and extended use. Confirm the Wh rating and your airline's rules before flying.
+- **27,650mAh (Prime):** Suited to higher-output devices such as compatible laptops, with multi-device charging based on the model's stated power distribution.
 `
                         },
                         {
                             title: 'Understanding the Series',
                             content: `
 - **Series 3 (Essential / Core):** Reliable quality at an affordable price. Real capacity and practical design. (e.g., PowerCore 10000).
-- **Series 5 (Nano / MagGo):** Ultra-slim design with MagSafe magnetic technology. Perfect for iPhone 17/16 users.
+- **Series 5 (Nano / MagGo):** Compact and magnetic options for compatible phones and cases; check each model's alignment and output.
 - **Series 7 (Super Fast):** High-speed charging for laptops and tablets. (e.g., Anker 737 with 140W output).
-- **Series Prime (The Flagship):** Peak technology (GaNPrime). Smart displays, Bluetooth app control, and speeds up to 250W.
+- **Series Prime:** Higher-output models that may include displays or app features; ports and total or per-port output vary by product.
 `
                         },
                         {
                             title: 'WARNING: How to Spot Fake Anker?',
                             content: `
-1. **Verification Code:** Every original box has a QR code to verify on Anker's official website.
-2. **Build Quality:** Originals feel premium and dense; fakes often feel light and cheap.
-3. **Ports:** Original ports are precise; fake ones might be loose.
-**At CairoVolt, we guarantee 100% original products with official warranty.**
+1. **Model data:** Match the model number, mAh and Wh capacity, and output against the manufacturer's available product information and packaging.
+2. **Verification method:** Use only the manufacturer's stated method for that model and region. A serial number or warranty record alone does not prove manufacturer authenticity.
+3. **Invoice and warranty:** Keep the CairoVolt invoice and review the coverage duration and replacement terms on the product page and policy.
+4. **Safety:** Stop use if you notice unusual heat, swelling, odor, or damage, and use compatible cables and chargers.
 `
                         }
                     ],
@@ -180,10 +180,10 @@ export const anker_power_banks_content: CategoryContent = {
                         { name: 'Anker Wukong 3-in-1 Power Bank (A1637)', price: 2999, badge: '🆕 3-in-1' },
                         { name: 'Anker Prime 20K 200W Power Bank', price: 5900, badge: '🆕 200W' },
                         { name: 'Anker Prime Fusion 65W Power Bank', price: 3200, badge: '🆕 Hybrid' },
-                        { name: 'Anker PowerCore 20000mAh (iPhone 17)', price: 1550, badge: 'Best Seller' },
+                        { name: 'Anker PowerCore 20000mAh (iPhone 17)', price: 1550, badge: '20,000mAh' },
                         { name: 'Anker Nano 10000mAh', price: 1300, badge: 'Compact' },
                         { name: 'Anker PowerCore 26800mAh', price: 2300, badge: 'Huge Capacity' },
-                        { name: 'Anker Zolo 20,000 Built-in Cable (A110E)', price: 1730, badge: '⭐ Best Seller' },
+                        { name: 'Anker Zolo 20,000 Built-in Cable (A110E)', price: 1730, badge: 'Built-in Cable' },
                         { name: 'Anker Zolo 10,000 Built-in Cable (A110D)', price: 1270, badge: 'Pocket-size' },
                         { name: 'Anker 737 Power Bank', price: 4999, badge: 'Flagship' },
                     ]

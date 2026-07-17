@@ -35,7 +35,7 @@ export interface BrandData {
         achievements: Array<{ icon: string; stat: { en: string; ar: string }; label: { en: string; ar: string } }>;
         technologies: Array<{ name: string; description: { en: string; ar: string } }>;
     };
-    // NEW: Quality Badges for Trust Indicators
+    // Optional trust indicators shown on brand pages
     trustBadges?: Array<{
         icon: string;
         title: { en: string; ar: string };
@@ -65,264 +65,264 @@ export const brandData: Record<string, BrandData> = {
         id: 'anker',
         hero: {
             bgGradient: 'from-blue-600 via-blue-700 to-blue-900',
-            badge: { en: "World's #1 Charging Authority", ar: 'القوة المطلقة - رقم 1 عالمياً' },
+            badge: { en: 'Charging accessories for everyday devices', ar: 'ملحقات شحن للأجهزة اليومية' },
             title: 'Anker Egypt',
             description: {
-                en: 'Explore Anker GaNPrime™ and PowerIQ charging for phones, tablets, and laptops, backed by an 18-month CairoVolt warranty.',
-                ar: 'اكتشف شحن انكر بتقنيات GaNPrime™ وPowerIQ للموبايل والتابلت واللابتوب، مع ضمان كايرو فولت لمدة 18 شهرًا.'
+                en: 'Explore Anker chargers, power banks, and cables for compatible phones, tablets, and laptops. Warranty coverage and supported charging standards are stated on each product page.',
+                ar: 'اكتشف شواحن انكر والباور بانك والكابلات للهواتف والتابلت واللابتوب المتوافقة. توضح كل صفحة منتج معايير الشحن المدعومة ومدة ضمان كايرو فولت وشروطه.'
             },
             features: [
-                { en: '18-Month CairoVolt Warranty', ar: 'ضمان كايرو فولت 18 شهرًا' },
-                { en: 'ActiveShield™ 2.0 Safety', ar: 'حماية نشطة ActiveShield™ 2.0' },
-                { en: 'GaNPrime™ Technology', ar: 'تكنولوجيا GaNPrime™ المتطورة' }
+                { en: 'CairoVolt Warranty Terms by Product', ar: 'شروط ضمان كايرو فولت حسب المنتج' },
+                { en: 'Safety Features Listed by Model', ar: 'خصائص حماية موضحة لكل موديل' },
+                { en: 'Charging Standards Listed by Model', ar: 'معايير الشحن موضحة لكل موديل' }
             ]
         },
         categories: [
-            { title: { en: 'Anker Power Banks', ar: 'باور بانك انكر' }, description: { en: 'PowerCore 10000 & 20000mAh', ar: 'شحن ذكي و سعات ضخمة' }, href: '/anker/power-banks', icon: 'bolt', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
-            { title: { en: 'Anker Chargers', ar: 'شواحن انكر (Wall)' }, description: { en: 'GaN Nano 3, 20W, 30W & 45W', ar: 'شواحن GaN Nano وسرعات 45W' }, href: '/anker/wall-chargers', icon: 'plug', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
-            { title: { en: 'Anker Cables', ar: 'كابلات انكر (Strong)' }, description: { en: 'PowerLine III Flow & USB-C', ar: 'كابلات ضد القطع (Lifetime)' }, href: '/anker/cables', icon: 'link', volume: { en: '320+ searches/mo', ar: '320+ بحث/شهر' } },
-            { title: { en: 'Anker Car Chargers', ar: 'شواحن سيارة' }, description: { en: 'PowerDrive Alloy', ar: 'شحن سريع في الطريق' }, href: '/anker/car-chargers', icon: 'car', volume: { en: '260+ searches/mo', ar: '260+ بحث/شهر' } },
-            // Soundcore audio sub-brand cross-link — products migrated to /soundcore/*
-            { title: { en: '→ Soundcore Audio (Sub-brand)', ar: '← ساوندكور (للصوتيات)' }, description: { en: 'Earbuds + Speakers under Anker\'s dedicated audio brand', ar: 'ايربودز + سبيكرات تحت العلامة الصوتية الفرعية من انكر' }, href: '/soundcore', icon: 'headphones', volume: { en: '20K+ searches/mo', ar: '20K+ بحث/شهر' }, badge: { en: 'Sub-brand', ar: 'علامة فرعية' } },
+            { title: { en: 'Anker Power Banks', ar: 'باور بانك انكر' }, description: { en: 'PowerCore models and listed capacities', ar: 'موديلات PowerCore بسعات موضحة لكل منتج' }, href: '/anker/power-banks', icon: 'bolt', volume: { en: 'Browse available models', ar: 'تصفّح الموديلات المتاحة' } },
+            { title: { en: 'Anker Chargers', ar: 'شواحن انكر (Wall)' }, description: { en: 'Nano and GaN models with listed outputs', ar: 'موديلات Nano وGaN بقدرات موضحة' }, href: '/anker/wall-chargers', icon: 'plug', volume: { en: 'Compare charging outputs', ar: 'قارن قدرات الشحن' } },
+            { title: { en: 'Anker Cables', ar: 'كابلات انكر' }, description: { en: 'PowerLine and USB-C cable options', ar: 'خيارات PowerLine وUSB-C' }, href: '/anker/cables', icon: 'link', volume: { en: 'Check connector compatibility', ar: 'تحقق من توافق الموصلات' } },
+            { title: { en: 'Anker Car Chargers', ar: 'شواحن سيارة انكر' }, description: { en: 'PowerDrive models for compatible vehicles and devices', ar: 'موديلات PowerDrive للسيارات والأجهزة المتوافقة' }, href: '/anker/car-chargers', icon: 'car', volume: { en: 'Browse car charging options', ar: 'تصفّح خيارات شحن السيارة' } },
+            // Soundcore audio sub-brand cross-link
+            { title: { en: '→ Soundcore Audio (Sub-brand)', ar: '← ساوندكور (للصوتيات)' }, description: { en: 'Earbuds and speakers under Anker\'s dedicated audio brand', ar: 'ايربودز وسبيكرات تحت العلامة الصوتية الفرعية من انكر' }, href: '/soundcore', icon: 'headphones', volume: { en: 'Browse Soundcore audio', ar: 'تصفّح صوتيات ساوندكور' }, badge: { en: 'Sub-brand', ar: 'علامة فرعية' } },
         ],
         whySection: {
-            title: { en: 'Why Anker is the G.O.A.T?', ar: 'لماذا انكر هي الأفضل عالمياً؟' },
+            title: { en: 'Why consider Anker?', ar: 'لماذا قد تختار انكر؟' },
             items: [
-                { icon: 'globe', title: { en: '#1 Global Leader', ar: 'الأولى عالمياً بلا منازع' }, description: { en: 'Dominated the charging market since 2011', ar: 'تسيطر على سوق الشحن منذ 2011' } },
-                { icon: 'brain', title: { en: 'AI PowerIQ 4.0', ar: 'ذكاء اصطناعي PowerIQ 4.0' }, description: { en: 'Adapts power to your device\'s needs', ar: 'يتكيف مع احتياج هاتفك لحظياً' } },
-                { icon: 'shield', title: { en: 'ActiveShield™ 2.0', ar: 'درع الحماية النشط 2.0' }, description: { en: 'Checks temperature 3m times/day', ar: 'يراقب الحرارة 3 مليون مرة يومياً' } },
-                { icon: 'handshake', title: { en: 'Local Warranty', ar: 'ضمان محلي حقيقي' }, description: { en: '18 Months Instant Exchange', ar: 'استبدال فوري لمدة 18 شهر' } },
+                { icon: 'globe', title: { en: 'Established Product Range', ar: 'تشكيلة منتجات متنوعة' }, description: { en: 'Charging accessories across several device categories', ar: 'ملحقات شحن لعدة فئات من الأجهزة' } },
+                { icon: 'brain', title: { en: 'PowerIQ Options', ar: 'خيارات PowerIQ' }, description: { en: 'PowerIQ support is identified in each compatible model\'s specifications', ar: 'يظهر دعم PowerIQ في مواصفات كل موديل متوافق' } },
+                { icon: 'shield', title: { en: 'Model-Specific Protection', ar: 'حماية حسب الموديل' }, description: { en: 'Check the product page for the protection features included with that model', ar: 'راجع صفحة المنتج لمعرفة خصائص الحماية المتاحة في الموديل' } },
+                { icon: 'handshake', title: { en: 'CairoVolt Warranty', ar: 'ضمان كايرو فولت' }, description: { en: 'Coverage period and conditions are stated on each product page', ar: 'مدة التغطية وشروطها موضحة في صفحة كل منتج' } },
             ]
         },
         // About section
         aboutSection: {
             title: {
-                en: 'About Anker: The World\'s #1 Mobile Charging Brand',
-                ar: 'عن انكر: العلامة التجارية الأولى عالمياً في شحن الهواتف'
+                en: 'About Anker Charging Accessories',
+                ar: 'عن ملحقات الشحن من انكر'
             },
             history: {
-                en: 'Founded in 2011 by former Google engineer Steven Yang in Shenzhen, China, Anker Innovations began with a mission to make charging smarter, faster, and safer. What started as a small online battery replacement company quickly evolved into the world\'s leading mobile charging brand. Today, Anker powers over 200 million devices worldwide and operates in 100+ countries. The company\'s commitment to R&D excellence has resulted in groundbreaking technologies like GaNPrime™, PowerIQ, and ActiveShield™ that have redefined the charging industry.',
-                ar: 'تأسست انكر عام 2011 على يد مهندس جوجل السابق ستيفن يانج في شنزن بالصين، وبدأت برسالة واضحة: جعل الشحن أذكى وأسرع وأكثر أماناً. ما بدأ كشركة صغيرة لبطاريات الاستبدال تحول بسرعة إلى العلامة التجارية الرائدة عالمياً في شحن الهواتف. اليوم، انكر تشحن أكثر من 200 مليون جهاز حول العالم وتعمل في أكثر من 100 دولة. التزام الشركة بالتميز البحثي أنتج تقنيات ثورية مثل GaNPrime™ و PowerIQ و ActiveShield™ التي أعادت تعريف صناعة الشحن.'
+                en: 'Anker was founded in 2011 and offers charging accessories across several categories, including wall chargers, power banks, cables, and car chargers. Technologies and charging standards differ by model, so CairoVolt lists the relevant output, port, protocol, and compatibility information on each product page.',
+                ar: 'تأسست انكر عام 2011، وتقدم ملحقات شحن ضمن فئات تشمل شواحن الحائط والباور بانك والكابلات وشواحن السيارة. تختلف التقنيات ومعايير الشحن حسب الموديل، لذلك تعرض كايرو فولت في صفحة كل منتج القدرة والمنافذ والبروتوكولات ومعلومات التوافق ذات الصلة.'
             },
             achievements: [
-                { icon: 'trophy', stat: { en: '200M+', ar: '+200 مليون' }, label: { en: 'Devices Powered Globally', ar: 'جهاز يعمل بشحن انكر' } },
-                { icon: 'globe', stat: { en: '100+', ar: '+100' }, label: { en: 'Countries & Markets', ar: 'دولة وسوق عالمي' } },
-                { icon: 'star', stat: { en: '4.8/5', ar: '4.8/5' }, label: { en: 'Average Customer Rating', ar: 'متوسط تقييم العملاء' } },
-                { icon: 'microscope', stat: { en: '1000+', ar: '+1000' }, label: { en: 'Patents & Innovations', ar: 'براءة اختراع وابتكار' } },
+                { icon: 'trophy', stat: { en: 'Charging', ar: 'الشحن' }, label: { en: 'Wall and portable charging categories', ar: 'فئات شحن حائط ومحمولة' } },
+                { icon: 'globe', stat: { en: 'Multi-device', ar: 'أجهزة متعددة' }, label: { en: 'Options for compatible phones, tablets, and laptops', ar: 'خيارات لهواتف وتابلت ولابتوب متوافقة' } },
+                { icon: 'star', stat: { en: 'By model', ar: 'حسب الموديل' }, label: { en: 'Customer reviews shown only where available', ar: 'تظهر تقييمات العملاء عند توفرها' } },
+                { icon: 'microscope', stat: { en: 'Specifications', ar: 'المواصفات' }, label: { en: 'Protocols and outputs listed per product', ar: 'البروتوكولات والقدرات موضحة لكل منتج' } },
                 { icon: 'calendar', stat: { en: '2011', ar: '2011' }, label: { en: 'Year Founded', ar: 'سنة التأسيس' } },
-                { icon: 'medal', stat: { en: '#1', ar: 'رقم 1' }, label: { en: 'Amazon Charging Brand Since 2015', ar: 'ماركة الشحن الأولى على أمازون' } }
+                { icon: 'medal', stat: { en: 'Support', ar: 'الدعم' }, label: { en: 'CairoVolt order and warranty assistance', ar: 'مساعدة كايرو فولت للطلبات والضمان' } }
             ],
             technologies: [
-                { name: 'GaNPrime™', description: { en: 'Gallium Nitride technology that makes chargers 50% smaller yet 3x more powerful. Charges laptops and phones simultaneously.', ar: 'تقنية نيتريد الجاليوم التي تجعل الشواحن أصغر بـ 50% مع قوة أكبر 3 مرات. تشحن اللابتوب والهاتف معاً.' } },
-                { name: 'PowerIQ 4.0', description: { en: 'AI-powered intelligent charging that detects your device type and delivers optimal power (PD 3.1, QC 4+, PPS).', ar: 'شحن ذكي بالذكاء الاصطناعي يتعرف على نوع جهازك ويوصل الطاقة المثالية (PD 3.1, QC 4+, PPS).' } },
-                { name: 'ActiveShield™ 2.0', description: { en: 'Monitors temperature 3 million times per day to prevent overheating and protect your device\'s battery health.', ar: 'يراقب درجة الحرارة 3 مليون مرة يومياً لمنع السخونة الزائدة وحماية صحة بطارية جهازك.' } },
-                { name: 'PowerLine III Flow', description: { en: 'Ultra-durable cables with 25,000 bend lifespan and liquid silicone feel. No tangling, ever.', ar: 'كابلات فائقة المتانة تتحمل 25,000 ثني بملمس السيليكون السائل. لا تتشابك أبداً.' } },
-                { name: 'MagSafe Compatible', description: { en: 'Full ecosystem of magnetic wireless chargers and power banks for iPhone 12-17 series.', ar: 'منظومة كاملة من الشواحن اللاسلكية المغناطيسية وباور بانك لسلسلة آيفون 12-17.' } }
+                { name: 'GaN and GaNPrime™', description: { en: 'Some listed charger models use gallium nitride technology. Check the product page for its ports, total output, per-port limits, and compatible devices.', ar: 'تستخدم بعض موديلات الشواحن المعروضة تقنية نيتريد الجاليوم. راجع صفحة المنتج لمعرفة المنافذ والقدرة الإجمالية وحدود كل منفذ والأجهزة المتوافقة.' } },
+                { name: 'PowerIQ', description: { en: 'PowerIQ support and the associated charging protocols vary by model. The applicable PD, PPS, or other standards are stated in the product specifications when documented.', ar: 'يختلف دعم PowerIQ وبروتوكولات الشحن المرتبطة به حسب الموديل. تظهر معايير PD أوPPS أو غيرها في مواصفات المنتج عند توثيقها.' } },
+                { name: 'ActiveShield™', description: { en: 'Some Anker models list ActiveShield temperature-management features. Refer to the selected model\'s specifications and operating instructions.', ar: 'تذكر مواصفات بعض موديلات انكر خصائص إدارة الحرارة ActiveShield. ارجع إلى مواصفات الموديل المختار وتعليمات تشغيله.' } },
+                { name: 'PowerLine III Flow', description: { en: 'Cable construction, connector type, supported power, and device compatibility are listed for each PowerLine model.', ar: 'توضح صفحة كل موديل PowerLine خامة الكابل ونوع الموصل والقدرة المدعومة وتوافق الأجهزة.' } },
+                { name: 'Magnetic Charging Compatibility', description: { en: 'Magnetic alignment, wireless-charging standard, and device compatibility vary by product. Confirm the exact phone and case requirements on the product page.', ar: 'تختلف المحاذاة المغناطيسية ومعيار الشحن اللاسلكي وتوافق الأجهزة حسب المنتج. تحقق من متطلبات الهاتف والغطاء في صفحة المنتج.' } }
             ]
         },
-        // NEW: Quality Badges for Trust Indicators
+        // Optional trust indicators
         trustBadges: [
-            { icon: 'check-circle', title: { en: 'Original Products', ar: 'منتجات أصلية' }, description: { en: 'Packaging and code checks', ar: 'فحص العبوة وكود المنتج' } },
-            { icon: 'shield', title: { en: '18-Month Warranty', ar: 'ضمان 18 شهر' }, description: { en: 'Instant replacement', ar: 'استبدال فوري' } },
-            { icon: 'coin', title: { en: 'Best Price Guarantee', ar: 'ضمان أقل سعر' }, description: { en: 'vs Amazon & Noon', ar: 'مقارنة بأمازون ونون' } },
-            { icon: 'truck', title: { en: 'Fast Egypt Delivery', ar: 'توصيل سريع لمصر' }, description: { en: '24-48 hours', ar: '24-48 ساعة' } },
-            { icon: 'star', title: { en: '5000+ Happy Customers', ar: '+5000 عميل سعيد' }, description: { en: 'Verified purchases', ar: 'مشتريات موثقة' } },
-            { icon: 'call', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: '24/7 assistance', ar: 'مساعدة على مدار الساعة' } }
+            { icon: 'check-circle', title: { en: 'Product Verification', ar: 'التحقق من المنتج' }, description: { en: 'Follow the manufacturer instructions printed on eligible packaging', ar: 'اتبع تعليمات الشركة المطبوعة على العبوة المؤهلة' } },
+            { icon: 'shield', title: { en: 'CairoVolt Warranty', ar: 'ضمان كايرو فولت' }, description: { en: 'Duration and conditions are listed by product', ar: 'المدة والشروط موضحة حسب المنتج' } },
+            { icon: 'coin', title: { en: 'Current Product Price', ar: 'سعر المنتج الحالي' }, description: { en: 'The current listed price is shown on the product page and at checkout', ar: 'السعر الحالي يظهر في صفحة المنتج وعند الدفع' } },
+            { icon: 'truck', title: { en: 'Delivery Across Egypt', ar: 'توصيل داخل مصر' }, description: { en: 'Estimated timing and fees depend on the destination and order', ar: 'المدة والتكلفة تقديريتان حسب العنوان والطلب' } },
+            { icon: 'star', title: { en: 'Customer Feedback', ar: 'آراء العملاء' }, description: { en: 'Published reviews are shown where available', ar: 'تظهر المراجعات المنشورة عند توفرها' } },
+            { icon: 'call', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: 'See the contact page for current support hours', ar: 'راجع صفحة التواصل لمعرفة مواعيد الدعم' } }
         ],
         metadata: {
             en: {
                 title: 'Anker Products in Egypt | GaN Chargers, Power Banks & Cables',
-                description: 'Shop Anker GaNPrime chargers, PowerCore power banks, PowerLine cables, and car chargers at CairoVolt with an 18-month CairoVolt warranty. For Soundcore audio, visit /soundcore.',
+                description: 'Browse Anker chargers, PowerCore power banks, PowerLine cables, and car chargers at CairoVolt. Check each product page for current listed price, availability, compatibility, and CairoVolt warranty terms. For Soundcore audio, visit /soundcore.',
                 keywords: 'anker egypt, anker, anker power bank, anker charger, anker cable, anker car charger, anker verify, anker gan, anker powercore, anker powerline, anker prime, anker nano, anker wholesale egypt',
             },
             ar: {
                 title: 'منتجات انكر في مصر | شواحن GaN وباور بانك وكابلات',
-                description: 'تسوّق شواحن انكر GaNPrime، باور بانك PowerCore، كابلات PowerLine وشواحن السيارة من كايرو فولت، مع ضمان كايرو فولت لمدة 18 شهرًا. للصوتيات تصفّح /soundcore.',
-                keywords: 'انكر مصر, انكر, توكيل انكر, موقع انكر, وكيل انكر, باور بانك انكر, شاحن انكر, شاحن انكر الاصلي, وصلة انكر, كابل انكر, شاحن انكر للسياره, انكر باور هاوس',
+                description: 'تصفّح شواحن انكر وباور بانك PowerCore وكابلات PowerLine وشواحن السيارة من كايرو فولت. راجع صفحة المنتج للسعر والمخزون والتوافق وشروط ضمان كايرو فولت. للصوتيات تصفّح /soundcore.',
+                keywords: 'انكر مصر, انكر, منتجات انكر, التحقق من انكر, باور بانك انكر, شاحن انكر, وصلة انكر, كابل انكر, شاحن انكر للسياره, انكر باور هاوس',
             }
         },
         article: {
             ar: {
-                title: 'انكر مصر: عندما تجتمع القوة مع الذكاء الاصطناعي',
+                title: 'انكر مصر: اختيار الشاحن والباور بانك المناسب',
                 sections: [
                     {
-                        heading: 'لماذا تعتبر انكر الخيار الأول في مصر؟',
-                        content: 'منذ دخولها السوق المصري، غيرت انكر مفهوم "الشحن" من مجرد ملحق إضافي إلى تقنية أساسية تعتمد عليها حياتك اليومية. بفضل تقنيات مثل **PowerIQ 4.0** التي تتعرف على نوع هاتفك (سواء كان iPhone 17 أو Samsung S26) وتعطيه الفولت المناسب بالضبط، أصبحت انكر "صديقة البطارية" الأولى.'
+                        heading: 'كيف تختار منتج انكر المناسب؟',
+                        content: 'ابدأ بتحديد الجهاز والقدرة التي يدعمها ونوع المنفذ والكابل المطلوب. تختلف تقنيات **PowerIQ** ومعايير PD وPPS والقدرة المتاحة حسب موديل انكر، لذلك راجع مواصفات المنتج وتوافقه قبل الشراء ولا تعتمد على اسم التقنية وحده.'
                     },
                     {
                         heading: 'ضمان كايرو فولت: حماية أوضح للشراء',
-                        content: 'شراء منتج انكر الأصلي يعني حصولك على ضمان استبدال فوري لمدة 18 شهراً. لا مزيد من القلق بشأن المنتجات المقلدة التي تضر بجهازك. نحن نضمن لك راحة البال، وجودة التصنيع، وتقنية **ActiveShield 2.0** التي تراقب حرارة الشاحن 3 مليون مرة يومياً.'
+                        content: 'توضح صفحة كل منتج مدة ضمان كايرو فولت ونطاق التغطية والاستثناءات. وللتحقق من المنتج، اتبع تعليمات الشركة وعنوان التحقق المطبوعين على العبوة المؤهلة، واحتفظ ببيانات طلب كايرو فولت لطلب الدعم.'
                     }
                 ]
             },
             en: {
-                title: 'Anker Egypt: Powering the AI Generation',
+                title: 'Anker Egypt: Choosing the Right Charging Accessory',
                 sections: [
                     {
-                        heading: 'Why Anker Leads the Egyptian Market?',
-                        content: 'Anker isn’t just about cables and bricks; it’s about intelligent energy. With the launch of **GaNPrime™**, Anker chargers are now 50% smaller yet 3x faster, capable of charging laptops, phones, and earbuds simultaneously. It is the definitive choice for the modern tech enthusiast in Cairo and Alexandria.'
+                        heading: 'How to Choose an Anker Product',
+                        content: 'Start with the device’s supported charging standard, required output, port type, and cable. **GaNPrime™**, PowerIQ, PD, PPS, and multi-device charging support differ by Anker model, so use the selected product page to confirm the relevant specifications before ordering.'
                     },
                     {
-                        heading: 'Safety First: The ActiveShield™ Promise',
-                        content: 'Your devices need dependable protection. Anker’s **ActiveShield™ 2.0** technology monitors temperature to help prevent overheating. CairoVolt also provides an 18-month store warranty for the products covered on this page.'
+                        heading: 'Specifications, Instructions, and Warranty',
+                        content: 'Where a model includes **ActiveShield™** or another protection feature, it is identified in that product’s specifications. Follow the manufacturer’s operating instructions and check the product page for CairoVolt’s applicable warranty period, coverage, and exclusions.'
                     }
                 ]
             }
         },
         faq: {
             ar: [
-                { question: 'كيف أتأكد أن منتج انكر أصلي 100%؟', answer: 'ابحث دائماً عن "العلامة المائية الثلاثية" (Hologram) الخاصة بالوكيل على العلبة. يمكنك أيضاً مسح QR Code الموجود للتحقق عبر موقع انكر الرسمي. نحن في CairoVolt نضمن لك منتجات أصلية 100% مع ضمان استبدال فوري.' },
-                { question: 'ما الفرق بين ضمان انكر في CairoVolt وأمازون/نون؟', answer: 'في المتاجر العامة يختلف الضمان حسب البائع. توضح كايرو فولت مدة تغطية المتجر وشروطها على صفحة المنتج، وتصل إلى 18 شهرًا للمنتجات المشمولة. تواصل معنا عبر واتساب لطلب الدعم أو التحقق من حالة منتجك.' },
-                { question: 'ما هو الفرق بين تقنية PowerIQ و PD (Power Delivery)؟', answer: 'تقنية **PD** هي معيار عالمي للشحن السريع (للآيفون واللابتوب). أما **PowerIQ** فهي تقنية حصرية لـ انكر تتعرف بذكاء على نوع جهازك (سواء سامسونج، آيفون، أو سماعة) وتعطيه أقصى سرعة آمنة له. شواحن انكر الجديدة تدمج الاثنين معاً!' },
-                { question: 'هل شواحن انكر تضر ببطارية الايفون (Battery Health)؟', answer: 'على العكس تماماً! شواحن انكر تأتي بتقنية **ActiveShield 2.0** التي تراقب الحرارة 3 مليون مرة يومياً لتمنع السخونة التي تضر البطارية. كما أنها حاصلة على شهادة MFi من آبل، مما يعني أنها آمنة تماماً مثل الشاحن الأصلي وأحياناً أفضل تبريداً.' },
-                { question: 'لماذا تعتبر منتجات انكر استثمار جيد؟', answer: 'إذا كنت تبحث عن \"أعلى أداء وتكنولوجيا في العالم\" وتدفع مقابل الاستدامة، فـ **انكر** هي الأفضل (استثمار طويل الأمد). منتجاتنا مصممة لتعيش سنوات طويلة مع الحفاظ على كفاءتها.' },
-                { question: 'أين يوجد مركز صيانة انكر المعتمد في مصر؟', answer: 'لا داعي للبحث عن "مركز صيانة"! سياسة الضمان لدينا هي "الاستبدال الفوري". إذا واجهت مشكلة خلال 18 شهراً، تواصل معنا عبر واتساب وسنقوم باستبدال المنتج لك من خلال فروعنا أو الشحن.' }
+                { question: 'كيف أتحقق من منتج انكر؟', answer: 'افحص بيانات الموديل والرقم التسلسلي والعبوة، واتبع تعليمات الشركة وعنوان التحقق المطبوعين على العبوة المؤهلة؛ فقد تختلف وسيلة التحقق حسب المنتج والسوق. احتفظ بفاتورة وبيانات طلب كايرو فولت عند التواصل بشأن المنتج.' },
+                { question: 'ما الفرق بين ضمان انكر في كايرو فولت والمتاجر الأخرى؟', answer: 'تختلف شروط الضمان حسب البائع والمنتج. توضح كايرو فولت مدة ضمان المتجر وتغطيته واستثناءاته في صفحة كل منتج. تواصل معنا عبر واتساب لطلب الدعم أو التحقق من حالة تغطية طلبك.' },
+                { question: 'ما هو الفرق بين PowerIQ وPD (Power Delivery)؟', answer: '**PD** معيار شحن تستخدمه أجهزة ومنتجات متوافقة، بينما **PowerIQ** اسم تستخدمه انكر لبعض تقنيات إدارة الشحن لديها. يختلف دعم PD أوPPS أو غيرهما حسب الموديل والجهاز والكابل، وتوضح صفحة المنتج المعايير الموثقة.' },
+                { question: 'كيف أختار شاحن انكر مناسبًا للآيفون؟', answer: 'تحقق من القدرة ومعيار الشحن ونوع الكابل اللذين يدعمهما موديل الآيفون، ثم طابقهما مع مواصفات الشاحن. لا تنطبق شهادات الكابلات أو خصائص الحماية تلقائيًا على كل منتج، لذا راجع مواصفات الموديل وتعليماته.' },
+                { question: 'لماذا قد أختار منتجات انكر؟', answer: 'تضم انكر شواحن وباور بانك وكابلات بمواصفات متعددة. قارن القدرة والمنافذ والبروتوكولات والحجم والتوافق والسعر الحالي والضمان الموضح لكل منتج لاختيار ما يناسب استخدامك.' },
+                { question: 'كيف أحصل على دعم لمنتج انكر اشتريته من كايرو فولت؟', answer: 'كايرو فولت متجر إلكتروني ويقدم ضمان متجر وفق مدة وشروط صفحة المنتج، وليس مركز خدمة معتمدًا من الشركة ما لم يُذكر ذلك بوثيقة صريحة. تواصل عبر صفحة الدعم أو واتساب مع رقم الطلب ووصف المشكلة لتقييم الطلب وفق الشروط.' }
             ],
             en: [
-                { question: 'How can I be 100% sure the Anker product is original?', answer: 'Always look for the official distributor\'s Hologram sticker on the box. You can also scan the QR Code verification label. At CairoVolt, we guarantee 100% authentic products with a direct replacement warranty.' },
-                { question: 'What is the difference between warranty at CairoVolt vs Amazon/Noon?', answer: 'Marketplace warranty terms vary by seller. CairoVolt states its store-coverage period and conditions on each product page, reaching 18 months for covered items. Contact us on WhatsApp to request support or confirm your product’s coverage.' },
-                { question: 'What is the difference between PowerIQ and PD (Power Delivery)?', answer: '**PD** is a universal fast-charging standard (common for iPhone/Laptops). **PowerIQ** is Anker\'s proprietary AI technology that intelligently identifies your device (Samsung, iPhone, or Earbuds) and delivers the safest max speed. New Anker chargers combine both!' },
-                { question: 'Do Anker chargers damage iPhone Battery Health?', answer: 'Quite the opposite! Anker chargers feature **ActiveShield 2.0** technology which monitors temperature 3 million times/day to prevent heat that damages batteries. They are also MFi Certified, making them just as safe (often cooler running) than original Apple chargers.' },
-                { question: 'Why is Anker considered a good investment?', answer: 'If you want \"World Class Performance\" and long-term durability, **Anker** is the G.O.A.T investment. Our products are engineered to last for years while maintaining peak efficiency.' },
-                { question: 'Where is the authorized Anker Service Center in Egypt?', answer: 'No need to search for a repair center! Our policy is "Instant Replacement". If you face any issue within 18 months, contact us via WhatsApp and we will replace the unit securely.' }
+                { question: 'How can I verify an Anker product?', answer: 'Check the model details, serial information, and packaging, then follow the manufacturer instructions and verification address printed on eligible packaging. The available method can vary by product and market. Keep your CairoVolt invoice and order details when requesting support.' },
+                { question: 'How does CairoVolt warranty compare with other stores?', answer: 'Warranty terms vary by seller and product. CairoVolt states its store-warranty period, coverage, and exclusions on each product page. Contact us on WhatsApp to request support or confirm the coverage for your order.' },
+                { question: 'What is the difference between PowerIQ and PD (Power Delivery)?', answer: '**PD** is a charging standard used by compatible devices and products, while **PowerIQ** is Anker’s name for charging-management technologies included in selected models. PD, PPS, and other protocol support varies by model, device, and cable; check the documented specifications.' },
+                { question: 'How do I choose an Anker charger for an iPhone?', answer: 'Check the charging output, protocol, and cable type supported by your specific iPhone model, then match them to the charger specifications. Cable certifications and protection features do not automatically apply to every product, so review the selected model’s documentation.' },
+                { question: 'Why might I choose Anker products?', answer: 'Anker offers chargers, power banks, and cables across several specifications. Compare output, ports, protocols, size, compatibility, current price, and the stated warranty terms to choose a product that fits your use.' },
+                { question: 'How do I get support for an Anker product bought from CairoVolt?', answer: 'CairoVolt is an online retailer and provides a store warranty under the period and conditions stated on the product page; it is not presented as an authorized manufacturer service center unless expressly documented. Contact support or WhatsApp with your order number and issue details for assessment under those terms.' }
             ]
         },
         quickAnswer: {
-            en: 'Anker is the world\'s #1 charging brand (power banks, GaN chargers, cables, car chargers) — available in Egypt via CairoVolt with 18-month warranty. Best sellers: PowerCore 20000mAh (EGP 1,550), 20W charger (EGP 375), 100W laptop charger. For Anker\'s audio sub-brand Soundcore (earbuds + Bluetooth speakers), visit /soundcore.',
-            ar: 'انكر هي العلامة التجارية الأولى عالمياً في الشحن (باور بانك، شواحن GaN، كابلات، شواحن سيارة) — متوفرة في مصر عبر كايرو فولت بضمان 18 شهر استبدال فوري. الأكثر مبيعاً: باور بانك 20000mAh (1,550 ج)، شاحن 20W (375 ج)، شاحن لابتوب 100W. للعلامة الفرعية للصوتيات من انكر (ساوندكور — ايربودز وسبيكرات بلوتوث) تصفّح /soundcore.'
+            en: 'CairoVolt lists Anker power banks, chargers, cables, and car chargers in Egypt. Availability and price are live on each product page; compatibility, specifications, and CairoVolt warranty terms vary by model. For Anker’s Soundcore audio sub-brand, visit /soundcore.',
+            ar: 'تعرض كايرو فولت باور بانك وشواحن وكابلات وشواحن سيارة من انكر في مصر. يظهر السعر والمخزون الحاليان في صفحة كل منتج، وتختلف المواصفات والتوافق وشروط ضمان كايرو فولت حسب الموديل. لصوتيات ساوندكور، العلامة الفرعية من انكر، تصفّح /soundcore.'
         }
     },
     joyroom: {
         id: 'joyroom',
         hero: {
             bgGradient: 'from-red-600 via-red-700 to-red-900',
-            badge: { en: 'Joyroom: The Budget King', ar: 'جوي روم: ملك التوفير' },
+            badge: { en: 'Joyroom: Value-focused accessories', ar: 'جوي روم: ملحقات بخيارات متنوعة' },
             title: 'Joyroom Egypt',
             description: {
-                en: 'Smart Tech at Student Prices. Home of the Legendary T03s and Safe-Charging Power Banks. 100% Original with Golden Code Verification.',
-                ar: 'تكنولوجيا ذكية بأسعار طلابية. بيت أسطورة الـ T03s والباور بانك الآمن. منتجات أصلية 100% مع ضمان الكود الذهبي.'
+                en: 'Browse Joyroom earbuds, power banks, chargers, cables, watches, and car accessories. Check each product page for current listed price, availability, specifications, compatibility, and CairoVolt warranty terms.',
+                ar: 'تصفّح سماعات جوي روم والباور بانك والشواحن والكابلات والساعات وإكسسوارات السيارة. راجع صفحة كل منتج للسعر والمخزون والمواصفات والتوافق وشروط ضمان كايرو فولت.'
             },
             features: [
-                { en: 'Golden Code Verified', ar: 'موثقة بالكود الذهبي' },
-                { en: 'Direct Replacement Warranty', ar: 'ضمان استبدال فوري' },
-                { en: 'Best Value for Money', ar: 'أفضل قيمة مقابل سعر' }
+                { en: 'Packaging Verification Where Available', ar: 'التحقق عبر العبوة عند توفره' },
+                { en: 'CairoVolt Warranty Terms by Product', ar: 'شروط ضمان كايرو فولت حسب المنتج' },
+                { en: 'Specifications and Prices by Model', ar: 'المواصفات والأسعار حسب الموديل' }
             ],
             heroProduct: {
-                label: { en: 'The Legend:', ar: 'الأسطورة:' },
-                link: { href: '/joyroom/audio', text: { en: 'Joyroom T03s - The AirPods Alternative', ar: 'جوي روم T03s - البديل الاستراتيجي للايربودز' } }
+                label: { en: 'Featured audio:', ar: 'صوتيات مختارة:' },
+                link: { href: '/joyroom/audio', text: { en: 'Browse Joyroom T03s earbuds', ar: 'تصفّح سماعات جوي روم T03s' } }
             }
         },
         categories: [
-            { title: { en: 'T03s Earbuds', ar: 'سماعات T03s' }, description: { en: 'The Market Legend', ar: 'أسطورة السوق المصري' }, href: '/joyroom/audio', icon: 'headphones', volume: { en: '15,000+ sold', ar: '15,000+ مباعة' }, badge: { en: 'Legend', ar: 'أسطورة' } },
-            { title: { en: 'Joyroom Power Banks', ar: 'باور بانك جوي روم' }, description: { en: 'Grade A+ Cells (Safe)', ar: 'خلايا Grade A+ (آمنة)' }, href: '/joyroom/power-banks', icon: 'bolt', volume: { en: 'High Demand', ar: 'طلب عالي' } },
-            { title: { en: 'Joyroom Chargers', ar: 'شواحن جوي روم' }, description: { en: 'Smart IC Protection', ar: 'حماية Smart IC' }, href: '/joyroom/wall-chargers', icon: 'plug', volume: { en: 'Essential', ar: 'أساسي' } },
-            { title: { en: 'Joyroom Cables', ar: 'كابلات جوي روم' }, description: { en: 'Auto-Disconnect Tech', ar: 'تقنية الفصل التلقائي' }, href: '/joyroom/cables', icon: 'link', volume: { en: 'Durable', ar: 'معمر' } },
-            { title: { en: 'Joyroom Smart Watches', ar: 'ساعات جوي روم' }, description: { en: 'FT3 Pro & Fit-Life', ar: 'FT3 Pro و Fit-Life' }, href: '/joyroom/smart-watches', icon: 'watch', volume: { en: 'Trending', ar: 'تريندينج' }, badge: { en: 'Hot', ar: 'رائج' } },
-            { title: { en: 'Car Holders', ar: 'حوامل سيارة' }, description: { en: 'Strong Magnets', ar: 'مغناطيس قوي جداً' }, href: '/joyroom/car-holders', icon: 'compass', volume: { en: 'New', ar: 'جديد' } },
-            { title: { en: 'Car Accessories', ar: 'إكسسوارات سيارة' }, description: { en: 'Chargers + Mounts', ar: 'شواحن وحوامل للمشاوير' }, href: '/joyroom/car-accessories', icon: 'car', volume: { en: 'Road Ready', ar: 'جاهزة للطريق' } },
+            { title: { en: 'T03s Earbuds', ar: 'سماعات جوي روم T03s' }, description: { en: 'T03s models and listed audio features', ar: 'موديلات T03s وخصائص الصوت الموضحة' }, href: '/joyroom/audio', icon: 'headphones', volume: { en: 'Browse available models', ar: 'تصفّح الموديلات المتاحة' }, badge: { en: 'Audio', ar: 'صوتيات' } },
+            { title: { en: 'Joyroom Power Banks', ar: 'باور بانك جوي روم' }, description: { en: 'Capacities and ports listed by model', ar: 'السعات والمنافذ موضحة حسب الموديل' }, href: '/joyroom/power-banks', icon: 'bolt', volume: { en: 'Compare capacities', ar: 'قارن السعات' } },
+            { title: { en: 'Joyroom Chargers', ar: 'شواحن جوي روم' }, description: { en: 'Outputs and protocols listed by model', ar: 'القدرات والبروتوكولات حسب الموديل' }, href: '/joyroom/wall-chargers', icon: 'plug', volume: { en: 'Compare charging options', ar: 'قارن خيارات الشحن' } },
+            { title: { en: 'Joyroom Cables', ar: 'كابلات جوي روم' }, description: { en: 'Connector and power options by model', ar: 'خيارات الموصل والقدرة حسب الموديل' }, href: '/joyroom/cables', icon: 'link', volume: { en: 'Check compatibility', ar: 'تحقق من التوافق' } },
+            { title: { en: 'Joyroom Smart Watches', ar: 'ساعات جوي روم' }, description: { en: 'FT3 Pro and other listed models', ar: 'FT3 Pro وموديلات أخرى معروضة' }, href: '/joyroom/smart-watches', icon: 'watch', volume: { en: 'Browse watch models', ar: 'تصفّح موديلات الساعات' }, badge: { en: 'Watches', ar: 'ساعات' } },
+            { title: { en: 'Car Holders', ar: 'حوامل سيارة جوي روم' }, description: { en: 'Mounting type and fit vary by model', ar: 'نوع التثبيت والتوافق حسب الموديل' }, href: '/joyroom/car-holders', icon: 'compass', volume: { en: 'Browse holder options', ar: 'تصفّح خيارات الحوامل' } },
+            { title: { en: 'Car Accessories', ar: 'إكسسوارات سيارة جوي روم' }, description: { en: 'Chargers, mounts, and related accessories', ar: 'شواحن وحوامل وملحقات مرتبطة' }, href: '/joyroom/car-accessories', icon: 'car', volume: { en: 'Browse car accessories', ar: 'تصفّح إكسسوارات السيارة' } },
         ],
         whySection: {
             title: { en: 'Why Choose Joyroom?', ar: 'لماذا تختار جوي روم؟' },
             items: [
-                { icon: 'coin', title: { en: 'Budget King', ar: 'ملك التوفير' }, description: { en: 'Flagship features at 1/4 price', ar: 'مواصفات الفلاجشيب بربع الثمن' } },
-                { icon: 'sparkles', title: { en: 'Premium Design', ar: 'تصميم بريميوم' }, description: { en: 'Looks and feels expensive', ar: 'شكل وملمس غالي' } },
-                { icon: 'shield', title: { en: 'Golden Code', ar: 'الكود الذهبي' }, description: { en: 'Anti-Fake verification system', ar: 'نظام حماية من التقليد' } },
-                { icon: 'headphones', title: { en: 'The T03s Legacy', ar: 'إرث T03s' }, description: { en: 'Most trusted earbuds in Egypt', ar: 'السماعة الأكثر ثقة في مصر' } },
+                { icon: 'coin', title: { en: 'Price Options', ar: 'خيارات سعرية' }, description: { en: 'Compare the current listed price and specifications of each model', ar: 'قارن السعر الحالي ومواصفات كل موديل' } },
+                { icon: 'sparkles', title: { en: 'Design Variety', ar: 'تنوع التصميم' }, description: { en: 'Different form factors are available across the range', ar: 'تتوفر أشكال وتصميمات مختلفة ضمن المجموعة' } },
+                { icon: 'shield', title: { en: 'Packaging Verification', ar: 'التحقق عبر العبوة' }, description: { en: 'Follow the manufacturer instructions printed on eligible packaging', ar: 'اتبع تعليمات الشركة المطبوعة على العبوة المؤهلة' } },
+                { icon: 'headphones', title: { en: 'T03s Range', ar: 'مجموعة T03s' }, description: { en: 'Compare the documented features of available T03s models', ar: 'قارن الخصائص الموثقة لموديلات T03s المتاحة' } },
             ]
         },
         // About section
         aboutSection: {
             title: {
-                en: 'Joyroom: Smart Technology at Smart Prices Since 2009',
-                ar: 'جوي روم: تكنولوجيا ذكية بأسعار ذكية منذ 2009'
+                en: 'About Joyroom Accessories',
+                ar: 'عن إكسسوارات جوي روم'
             },
             history: {
-                en: 'Founded in 2009 in Shenzhen, China, Joyroom has grown from a small electronics manufacturer to one of the world\'s most trusted consumer electronics brands. With a mission to make quality technology accessible to everyone, Joyroom designs products that deliver 90% of flagship features at 25% of the price. Today, Joyroom is sold in over 100 countries, with the legendary T03s earbuds becoming Egypt\'s best-selling AirPods alternative. From power banks with Grade A+ cells to braided cables with 10,000+ bend lifespan, every Joyroom product undergoes rigorous quality testing.',
-                ar: 'تأسست جوي روم عام 2009 في شينزين بالصين، ونمت من مصنع إلكترونيات صغير لتصبح واحدة من أكثر العلامات التجارية موثوقية في العالم. مهمتها جعل التكنولوجيا الجيدة في متناول الجميع، فتصمم منتجات تقدم 90% من مواصفات الفلاجشيب بـ 25% من السعر. اليوم تُباع جوي روم في أكثر من 100 دولة، وأصبحت سماعات T03s الأسطورية البديل الأول للايربودز في مصر. من الباور بانك بخلايا Grade A+ للكابلات المجدولة بعمر 10,000+ ثنية، كل منتج يخضع لاختبارات صارمة.'
+                en: 'Joyroom was founded in 2009 and offers consumer-electronics accessories across audio, charging, cables, watches, and in-car categories. Materials, battery type, protection features, charging standards, and included accessories differ by model, so CairoVolt presents the documented details on each product page.',
+                ar: 'تأسست جوي روم عام 2009، وتقدم إكسسوارات إلكترونية ضمن فئات الصوتيات والشحن والكابلات والساعات وملحقات السيارة. تختلف الخامات ونوع البطارية وخصائص الحماية ومعايير الشحن والملحقات المرفقة حسب الموديل، لذلك تعرض كايرو فولت التفاصيل الموثقة في صفحة كل منتج.'
             },
             achievements: [
-                { icon: 'globe', stat: { en: '100+', ar: '+100' }, label: { en: 'Countries', ar: 'دولة' } },
-                { icon: 'star', stat: { en: '4.7/5', ar: '4.7/5' }, label: { en: 'Average Rating', ar: 'متوسط التقييم' } },
-                { icon: 'package', stat: { en: '50M+', ar: '+50 مليون' }, label: { en: 'Units Sold', ar: 'وحدة مباعة' } },
-                { icon: 'headphones', stat: { en: '#1', ar: 'رقم 1' }, label: { en: 'Budget Earbuds', ar: 'سماعات اقتصادية' } },
+                { icon: 'globe', stat: { en: 'Accessories', ar: 'إكسسوارات' }, label: { en: 'Audio, charging, and car categories', ar: 'فئات صوتيات وشحن وسيارة' } },
+                { icon: 'star', stat: { en: 'By model', ar: 'حسب الموديل' }, label: { en: 'Customer reviews shown only where available', ar: 'تظهر تقييمات العملاء عند توفرها' } },
+                { icon: 'package', stat: { en: 'Live stock', ar: 'مخزون مباشر' }, label: { en: 'Availability shown on each product page', ar: 'التوفر موضح في صفحة كل منتج' } },
+                { icon: 'headphones', stat: { en: 'T03s', ar: 'T03s' }, label: { en: 'Earbud models in the audio range', ar: 'موديلات سماعات ضمن قسم الصوتيات' } },
                 { icon: 'factory', stat: { en: '2009', ar: '2009' }, label: { en: 'Year Founded', ar: 'سنة التأسيس' } },
-                { icon: 'battery', stat: { en: 'Grade A+', ar: 'Grade A+' }, label: { en: 'Battery Cells', ar: 'خلايا بطارية' } }
+                { icon: 'battery', stat: { en: 'Specifications', ar: 'المواصفات' }, label: { en: 'Battery and charging details listed by model', ar: 'تفاصيل البطارية والشحن حسب الموديل' } }
             ],
             technologies: [
-                { name: 'Golden Code Verification', description: { en: 'Every Joyroom product has a unique scratch-off QR code on the box. Scan it to verify authenticity instantly on the official website. No more worrying about fakes!', ar: 'كل منتج جوي روم له كود QR فريد على العلبة. امسحه للتحقق فوراً من الموقع الرسمي. لا مزيد من القلق بشأن المقلد!' } },
-                { name: 'Smart IC Protection', description: { en: 'Intelligent charging circuit that prevents overcharging, overheating, and short circuits. Your expensive phone is always safe with Joyroom chargers.', ar: 'دائرة شحن ذكية تمنع الشحن الزائد والسخونة والماس الكهربائي. موبايلك الغالي دائماً آمن مع شواحن جوي روم.' } },
-                { name: 'Grade A+ Li-Polymer Cells', description: { en: 'Power banks use premium lithium-polymer cells (not lithium-ion) for safer operation, longer lifespan, and zero swelling risk. Same cells used in premium brands.', ar: 'الباور بانك يستخدم خلايا ليثيوم بوليمر ممتازة (ليس ليثيوم أيون) لتشغيل أكثر أماناً وعمر أطول وصفر خطر انتفاخ. نفس الخلايا في الماركات الـ premium.' } },
-                { name: 'Braided Durability Tech', description: { en: 'Cables feature double-braided nylon shielding and reinforced stress points. Tested to withstand 10,000+ bends without breaking. Outlasts regular cables 5x.', ar: 'الكابلات مغطاة بنايلون مجدول مزدوج ونقاط توتر معززة. مختبرة لتحمل 10,000+ ثنية بدون كسر. تعيش 5 أضعاف الكابل العادي.' } }
+                { name: 'Packaging Verification', description: { en: 'Some eligible packages may include a manufacturer verification label. Follow the exact instructions and web address printed on that package; availability and method can vary by model and market.', ar: 'قد تتضمن بعض العبوات المؤهلة ملصق تحقق من الشركة. اتبع التعليمات وعنوان الموقع المطبوعين على العبوة نفسها؛ فقد يختلف توفر الطريقة وشكلها حسب الموديل والسوق.' } },
+                { name: 'Smart IC Protection', description: { en: 'Selected models list Smart IC or related protection features. Confirm the documented protections, supported output, and operating instructions on the chosen product page.', ar: 'تذكر مواصفات بعض الموديلات Smart IC أو خصائص حماية مرتبطة. تحقق من خصائص الحماية والقدرة المدعومة وتعليمات التشغيل في صفحة المنتج المختار.' } },
+                { name: 'Battery Specifications', description: { en: 'Cell chemistry, capacity, rated capacity, input, and output vary between power-bank models. Use the product specifications rather than assuming one cell grade across the range.', ar: 'تختلف كيمياء الخلايا والسعة والسعة المقننة وقدرات الإدخال والإخراج بين موديلات الباور بانك. اعتمد على مواصفات المنتج بدل افتراض درجة خلايا واحدة لكل المجموعة.' } },
+                { name: 'Cable Construction', description: { en: 'Selected cable models use braided outer materials or reinforced connector areas. Check the selected model for its construction, connector type, supported power, and warranty terms.', ar: 'تستخدم بعض موديلات الكابلات خامة خارجية مجدولة أو تدعيمًا عند الموصل. راجع الموديل المختار لمعرفة الخامة ونوع الموصل والقدرة المدعومة وشروط الضمان.' } }
             ]
         },
-        // NEW: Quality Badges for Joyroom
+        // Optional trust indicators for Joyroom
         trustBadges: [
-            { icon: 'lock', title: { en: 'Golden Code', ar: 'الكود الذهبي' }, description: { en: 'Anti-fake verified', ar: 'ضد التقليد' } },
-            { icon: 'shield', title: { en: '12-Month Warranty', ar: 'ضمان 12 شهر' }, description: { en: 'Direct replacement', ar: 'استبدال مباشر' } },
-            { icon: 'battery', title: { en: 'Grade A+ Cells', ar: 'خلايا A+' }, description: { en: 'Safe batteries', ar: 'بطاريات آمنة' } },
-            { icon: 'coin', title: { en: 'Best Value', ar: 'أفضل قيمة' }, description: { en: '90% features, 25% price', ar: '90% مواصفات، 25% سعر' } },
-            { icon: 'phone', title: { en: 'Universal', ar: 'عالمي' }, description: { en: 'iOS + Android', ar: 'ايفون + اندرويد' } },
-            { icon: 'call', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: '24/7 help', ar: 'مساعدة 24/7' } }
+            { icon: 'lock', title: { en: 'Packaging Verification', ar: 'التحقق عبر العبوة' }, description: { en: 'Follow printed manufacturer instructions where provided', ar: 'اتبع تعليمات الشركة المطبوعة عند توفرها' } },
+            { icon: 'shield', title: { en: 'CairoVolt Warranty', ar: 'ضمان كايرو فولت' }, description: { en: 'Duration and conditions are listed by product', ar: 'المدة والشروط موضحة حسب المنتج' } },
+            { icon: 'battery', title: { en: 'Battery Details', ar: 'تفاصيل البطارية' }, description: { en: 'Capacity and cell information are model-specific', ar: 'السعة وبيانات الخلايا حسب الموديل' } },
+            { icon: 'coin', title: { en: 'Current Product Price', ar: 'سعر المنتج الحالي' }, description: { en: 'The current listed price is shown on the product page and at checkout', ar: 'السعر الحالي يظهر في صفحة المنتج وعند الدفع' } },
+            { icon: 'phone', title: { en: 'Device Compatibility', ar: 'توافق الأجهزة' }, description: { en: 'Confirm your device and operating-system requirements by model', ar: 'تحقق من متطلبات جهازك ونظامه حسب الموديل' } },
+            { icon: 'call', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: 'See the contact page for current support hours', ar: 'راجع صفحة التواصل لمعرفة مواعيد الدعم' } }
         ],
         metadata: {
             en: {
-                title: 'Joyroom Egypt | The Budget King | T03s & Power Banks',
-                description: 'Shop CairoVolt’s Joyroom collection in Egypt, including T03s earbuds, power banks, chargers, cables, watches, and car accessories. Check eligible packaging with Joyroom’s Golden Code.',
-                keywords: 'joyroom egypt, joyroom t03s, joyroom t03s pro, joyroom power bank, joyroom charger, joyroom cable, joyroom egypt original, best budget earbuds egypt',
+                title: 'Joyroom Egypt | T03s, Power Banks & Accessories',
+                description: 'Browse CairoVolt’s Joyroom collection in Egypt, including T03s earbuds, power banks, chargers, cables, watches, and car accessories. Follow the manufacturer verification instructions printed on eligible packaging.',
+                keywords: 'joyroom egypt, joyroom t03s, joyroom t03s pro, joyroom power bank, joyroom charger, joyroom cable, joyroom verification, joyroom earbuds egypt',
             },
             ar: {
-                title: 'جوي روم Egypt | جوي روم مصر - ملك التوفير (T03s الأصلية)',
-                description: 'تسوّق مجموعة جوي روم من كايرو فولت في مصر: سماعات T03s، باور بانك، شواحن، كابلات، ساعات وإكسسوارات سيارة. افحص العبوات المؤهلة عبر الكود الذهبي من Joyroom.',
-                keywords: 'جوي روم, جوي روم الاصلي, سماعة جوي روم, سعر t03s في مصر, سعر سماعة جوي روم, جوي روم t03s, سعر جوي روم t03s, جويروم, باور بانك جوي روم, شاحن جوي روم',
+                title: 'جوي روم مصر | سماعات T03s وباور بانك وإكسسوارات',
+                description: 'تصفّح مجموعة جوي روم من كايرو فولت في مصر: سماعات T03s، باور بانك، شواحن، كابلات، ساعات وإكسسوارات سيارة. اتبع تعليمات التحقق المطبوعة على العبوات المؤهلة.',
+                keywords: 'جوي روم, منتجات جوي روم, التحقق من جوي روم, سماعة جوي روم, سعر t03s في مصر, سعر سماعة جوي روم, جوي روم t03s, سعر جوي روم t03s, جويروم, باور بانك جوي روم, شاحن جوي روم',
             }
         },
         article: {
             ar: {
-                title: 'جوي روم مصر: معادلة الجودة والسعر المستحيلة',
+                title: 'جوي روم مصر: مقارنة المواصفات والسعر حسب الموديل',
                 sections: [
                     {
-                        heading: 'لماذا يلقبونها بـ "آبل الغلابة"؟',
-                        content: 'استطاعت جوي روم (جوي روم) أن تكتسح السوق المصري بمنتج واحد أسطوري: **T03s**. هذه السماعة قدمت تجربة الايربودز (فتح العلبة، العزل، نقاء الصوت) ولكن بربع الثمن. هي ليست مجرد سماعة رخيصة، هي "استثمار ذكي" لكل طالب أو موظف يريد التكنولوجيا بدون دفع مبالغ طائلة.'
+                        heading: 'كيف تقارن موديلات سماعات جوي روم؟',
+                        content: 'تضم مجموعة **T03s** موديلات بمواصفات قد تختلف في أسلوب الاقتران والميكروفون والتحكم والبطارية والخصائص الصوتية. قارن المواصفات الموثقة والسعر الحالي والتوافق والملحقات المرفقة في صفحة كل منتج قبل الاختيار.'
                     },
                     {
-                        heading: 'خدعوك فقالوا: رخيص يعني سيء!',
-                        content: 'في عالم الشواحن، السعر الرخيص قد يخيفك. لكن جوي روم كسرت هذه القاعدة باستخدام تقنيات الحماية الذكية (Smart IC) وبطاريات **Lithium-Polymer Grade A+** في الباور بانك. منتجاتنا آمنة تماماً على الهواتف الغالية (ايفون و سامسونج) وحاصلة على شهادات الجودة العالمية.'
+                        heading: 'السلامة تبدأ بالتوافق الصحيح',
+                        content: 'تختلف خصائص Smart IC ونوع الخلايا ومعايير الشحن بين موديلات جوي روم. راجع قدرة الجهاز والكابل والشاحن، واتبع تعليمات التشغيل، واعتمد على الشهادات أو خصائص الحماية المذكورة صراحة للموديل بدل تعميمها على المجموعة كلها.'
                     }
                 ]
             },
             en: {
-                title: 'Joyroom Egypt: The Smartest Budget Choice',
+                title: 'Joyroom Egypt: Comparing Features and Price by Model',
                 sections: [
                     {
-                        heading: 'The Legend of T03s',
-                        content: 'Joyroom dominated the Egyptian market with a simple promise: High-end features for a budget price. The **T03s** Series offers the full "AirPods Experience" (Pop-up pairing, ANC, spatial audio) at a fraction of the cost, making it the #1 choice for students and smart shoppers.'
+                        heading: 'Comparing Joyroom T03s Models',
+                        content: 'The **T03s** range includes models whose pairing, microphone, controls, battery, and audio features can differ. Compare the documented specifications, current listed price, compatibility, and included accessories on each product page before choosing.'
                     },
                     {
-                        heading: 'Safety Without the Price Tag',
-                        content: 'Don\'t let the price fool you. Joyroom power banks utilize **Grade A+ Li-Polymer cells** that prevent overheating and swelling. Our chargers feature auto-disconnect technology to protect your battery health. It is "Budget" done right.'
+                        heading: 'Compatibility and Operating Instructions',
+                        content: 'Smart IC features, cell chemistry, and supported charging standards vary between Joyroom models. Match the device, cable, and charger requirements, follow the operating instructions, and rely only on certifications or protection features documented for the selected model.'
                     }
                 ]
             }
         },
         faq: {
             ar: [
-                { question: 'ما هو الكود الذهبي وكيف أتأكد أن المنتج أصلي؟', answer: 'الكود الذهبي هو نظام تحقق حصري لجوي روم. كل علبة أصلية تحتوي على ستيكر فضي على الظهر. اكشط الطبقة الفضية → امسح الـ QR Code → سيأخذك للموقع الرسمي ويؤكد أصالة المنتج. إذا لم يظهر التأكيد = المنتج مقلد! اشترِ فقط من موزعين معتمدين.' },
-                { question: 'هل سماعات T03s أفضل من AirPods؟', answer: 'تعتمد على احتياجك! T03s تقدم 90% من تجربة AirPods (اقتران فوري، صوت نقي، عزل ضوضاء) بـ 25% فقط من السعر. الفرق الأساسي: AirPods أفضل في التكامل مع آيفون وجودة المايك. لكن للصوت والموسيقى، T03s منافس قوي جداً وخيار ذكي ماديًا.' },
-                { question: 'هل باور بانك جوي روم آمن على الموبايل؟', answer: 'نعم 100%! جوي روم تستخدم خلايا Lithium-Polymer Grade A+ (ليس Lithium-Ion العادية) وهي أكثر أماناً: لا انتفاخ، لا سخونة زائدة، عمر أطول. بالإضافة لتقنية Smart IC التي توقف الشحن تلقائياً عند الامتلاء. آمنة تماماً على ايفون وسامسونج الغاليين.' },
-                { question: 'أيهما أفضل: جوي روم أم انكر؟', answer: 'انكر = الأفضل أداءً والأغلى (استثمار طويل المدى). جوي روم = أفضل قيمة مقابل سعر (ميزانية ذكية). إذا ميزانيتك مفتوحة اختر انكر. إذا تريد وفر واستفيد بمواصفات ممتازة اختر جوي روم. كلاهما أصلي ومضمون من CairoVolt.' },
-                { question: 'ما مدة ضمان جوي روم وماذا يشمل؟', answer: 'ضمان 12 شهر استبدال فوري (ليس صيانة!) ضد عيوب الصناعة. يشمل: تلف مفاجئ، خلل في الصوت/الشحن، مشاكل البطارية. لا يشمل: الكسر الفيزيائي، دخول الماء، سوء الاستخدام. تواصل واتساب وسنستبدل المنتج فوراً.' }
+                { question: 'كيف أستخدم وسيلة التحقق الموجودة على عبوة جوي روم؟', answer: 'إذا كانت العبوة المؤهلة تحمل ملصقًا أو رمز تحقق، فاتبع الخطوات وعنوان الموقع المطبوعين عليها حرفيًا. قد تختلف وسيلة التحقق حسب الموديل والسوق، ولا يكفي شكل الملصق وحده للحكم على المنتج. احتفظ بفاتورة كايرو فولت وبيانات الطلب للدعم.' },
+                { question: 'كيف أقارن سماعات T03s بسماعات أخرى؟', answer: 'قارن الموديل المحدد من حيث التوافق والميكروفون وأسلوب التحكم والبطارية والخصائص الصوتية والملحقات والسعر الحالي. لا تتوفر كل خاصية في جميع موديلات T03s، لذلك اعتمد على مواصفات صفحة المنتج بدل نسبة مقارنة عامة.' },
+                { question: 'كيف أستخدم باور بانك جوي روم بصورة مناسبة؟', answer: 'طابق قدرة الإدخال والإخراج والبروتوكول والكابل مع جهازك، واتبع تعليمات التشغيل والتخزين. يختلف نوع الخلايا وخصائص Smart IC والحماية حسب الموديل؛ راجع المواصفات الموثقة ولا تفترض انعدام السخونة أو الانتفاخ في أي بطارية.' },
+                { question: 'كيف أختار بين جوي روم وانكر؟', answer: 'قارن الموديلات المتاحة وفق القدرة والمنافذ والبروتوكولات والتوافق والحجم والسعر الحالي ومدة ضمان كايرو فولت وشروطه. يختلف الاختيار الأنسب حسب الجهاز والاستخدام والميزانية، ولا توجد إجابة واحدة مناسبة للجميع.' },
+                { question: 'ما مدة ضمان جوي روم وماذا يشمل؟', answer: 'توضح صفحة كل منتج مدة ضمان كايرو فولت وتغطيته والاستثناءات؛ ولا تنطبق مدة أو وسيلة معالجة واحدة على جميع الموديلات. تواصل عبر واتساب مع رقم الطلب ووصف المشكلة لتقييم الحالة وفق الشروط المنشورة.' }
             ],
             en: [
-                { question: 'What is the Golden Code and how do I verify authenticity?', answer: 'The Golden Code is Joyroom\'s exclusive verification system. Every original box has a silver sticker on the back. Scratch the silver layer → Scan the QR Code → It takes you to the official website confirming authenticity. If no confirmation = fake product! Buy only from authorized dealers.' },
-                { question: 'Are T03s earbuds better than AirPods?', answer: 'Depends on your needs! T03s deliver 90% of the AirPods experience (instant pairing, clear sound, noise isolation) at only 25% of the price. Main difference: AirPods are better at iPhone integration and mic quality. But for music listening, T03s are a strong competitor and a financially smart choice.' },
-                { question: 'Is Joyroom power bank safe for my phone?', answer: 'Yes, 100%! Joyroom uses Grade A+ Lithium-Polymer cells (not regular Lithium-Ion) which are safer: no swelling, no overheating, longer lifespan. Plus Smart IC technology that auto-stops charging when full. Completely safe for expensive iPhones and Samsung phones.' },
-                { question: 'Is Joyroom good value for money?', answer: 'Absolutely. Joyroom offers incredible value - high-end specs and reliable performance at a budget-friendly price point. It is the smart choice for savvy shoppers. 100% original and guaranteed from CairoVolt.' },
-                { question: 'What does Joyroom warranty cover?', answer: '12-month instant replacement warranty (not repair!) against manufacturing defects. Covers: sudden failure, audio/charging issues, battery problems. Does not cover: physical damage, water damage, misuse. Contact WhatsApp and we\'ll replace the product immediately.' }
+                { question: 'How do I use a verification method shown on Joyroom packaging?', answer: 'If eligible packaging includes a verification label or code, follow the exact steps and website address printed on it. The available method can vary by model and market, and the appearance of a label alone is not conclusive. Keep your CairoVolt invoice and order details for support.' },
+                { question: 'How should I compare T03s earbuds with other earbuds?', answer: 'Compare the specific model’s compatibility, microphone, controls, battery, documented audio features, included accessories, and current listed price. Features are not identical across all T03s models, so use the product specifications instead of a general percentage comparison.' },
+                { question: 'How should I use a Joyroom power bank with my phone?', answer: 'Match the input, output, protocol, and cable to your device, and follow the operating and storage instructions. Cell chemistry, Smart IC functions, and protection features vary by model; check the documented specifications and do not assume any battery has zero heat or swelling risk.' },
+                { question: 'How do I choose between Joyroom and Anker?', answer: 'Compare available models by output, ports, protocols, compatibility, size, current listed price, and the stated CairoVolt warranty period and conditions. The suitable choice depends on your device, use, and budget rather than one brand being universally better.' },
+                { question: 'What does the Joyroom warranty cover?', answer: 'Each product page states the applicable CairoVolt store-warranty period, coverage, and exclusions; one duration or remedy does not apply to every model. Contact WhatsApp with your order number and issue details for assessment under the published terms.' }
             ]
         },
         quickAnswer: {
-            en: 'Joyroom is the #1 budget-friendly mobile accessories brand in Egypt. Best sellers: T03s earbuds (EGP 499), 10000mAh power bank (EGP 450), USB-C cable (EGP 149). All products verified with Golden Code authenticity. 12-month replacement warranty via CairoVolt.',
-            ar: 'جوي روم هي الماركة الأولى للإكسسوارات الاقتصادية في مصر. الأكثر مبيعاً: سماعات T03s (499 ج)، باور بانك 10000mAh (450 ج)، كابل USB-C (149 ج). كل المنتجات موثقة بنظام Golden Code. ضمان 12 شهر استبدال من كايرو فولت.'
+            en: 'CairoVolt lists Joyroom earbuds, power banks, chargers, cables, watches, and car accessories in Egypt. Price and stock are live on each product page; specifications, packaging verification options, compatibility, and CairoVolt warranty terms vary by model.',
+            ar: 'تعرض كايرو فولت سماعات وباور بانك وشواحن وكابلات وساعات وإكسسوارات سيارة من جوي روم في مصر. يظهر السعر والمخزون الحاليان في صفحة كل منتج، وتختلف المواصفات ووسائل التحقق عبر العبوة والتوافق وشروط ضمان كايرو فولت حسب الموديل.'
         }
     }
 };

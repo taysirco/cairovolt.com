@@ -18,149 +18,127 @@ export const anker_car_charger_dual_usb = {
             { id: "img_2", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-24w-powerdrive-cairovolt-egypt.webp", alt: "شاحن سيارة انكر 24 واط ثنائي المنافذ PowerDrive - A2224011 - كايرو فولت مصر", order: 1, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_3", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-a-ports-detail-24w-output.webp", alt: "Anker car charger dual USB-A ports 24W total output power detail close-up - CairoVolt", order: 2, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_4", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-installed-car-dashboard-cigarette-lighter.webp", alt: "شاحن انكر مركب في لوحة السيارة بمقبس ولاعة السجائر - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_5", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-charging-phone-tablet-dual-device.webp", alt: "Anker car charger charging phone and tablet simultaneously dual device test - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-charging-phone-tablet-dual-device.webp", alt: "Anker dual-port car charger connected to a phone and tablet", order: 4, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_6", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-compact-size-led-indicator-blue.webp", alt: "شاحن سيارة انكر بحجم صغير مع مؤشر LED أزرق للطاقة - كايرو فولت", order: 5, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {
-                name: "Anker PowerDrive 2 Car Charger | 24W Dual USB | PowerIQ | 18-Month Warranty",
+                name: "Anker PowerDrive 2 Car Charger | 24W Dual USB | PowerIQ",
                 shortDescription: "🚗 24W Dual USB (12W×2) | ⚡ PowerIQ Smart Charging | 📱 Charge 2 Devices Simultaneously | 💡 LED Indicator | 🔌 12V/24V Compatible",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike unbranded car chargers that flicker during voltage drops, The <strong>Anker PowerDrive 2 (A2310)</strong> is a dual USB-A car charger with 24W total output (12W per port). PowerIQ detects connected devices and delivers optimal speed. Compact flush-fit design, soft blue LED, 12V/24V universal compatibility. Perfect for charging two phones during Cairo traffic. 18-month warranty. Available at <strong>EGP 950</strong> with CairoVolt warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerDrive 2</strong> is a dual USB-A car charger with a listed 24W total output and PowerIQ compatibility statements. Confirm the exact model number, vehicle input range, per-port and shared output, indicator and package contents on the supplied unit. Charging speed varies by device and cable. Check the current price, stock and warranty terms before ordering.</p>
 </div>
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Cheap car chargers without proper voltage regulation can damage your phone's charging circuit during car electrical spikes (engine start, AC). Some create radio interference with CarPlay/Bluetooth. The Anker PowerDrive 2 has MultiProtect surge protection rated for automotive electrical systems. Look for the Anker logo embossed on the body — fakes print it on.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A2224011</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
         <li>🚗 <strong>24W Total:</strong> 2× USB-A ports (12W each) with PowerIQ optimization.</li>
-        <li>⚡ <strong>PowerIQ:</strong> Detects each device and delivers optimal charging speed.</li>
+        <li>⚡ <strong>PowerIQ:</strong> negotiates a supported USB-A charging profile; actual power varies by device and cable.</li>
         <li>📱 <strong>Charge 2 Devices:</strong> Phone + earbuds, or 2 phones simultaneously.</li>
-        <li>🔌 <strong>Universal Fit:</strong> Works with all 12V/24V car cigarette lighter sockets.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.76 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "We've had the PowerDrive 2 permanently plugged into a test car for 5 months of daily Cairo commuting — Ring Road traffic, 6th of October bridge, the whole gauntlet. It charges two phones simultaneously while running Google Maps on one and playing Spotify on the other. The LED is subtle enough not to distract at night. It sits completely flush in the console — no wobble, no blocking of other controls. For drivers who need reliable, dual-device charging without overthinking it, this is the set-and-forget solution."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
+        <li>🔌 <strong>Vehicle input:</strong> confirm the printed 12V/24V range, socket shape, clearance and vehicle guidance.</li>
+    <li>🧾 <strong>Returns and warranty:</strong> handled under the current published policy and eligibility terms.</li><li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A2224011</strong>, start with the manufacturer-rated vehicle input range, port output profiles and supported charging protocols printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Charge 2 Phones While Stuck in Cairo Traffic</h2>
-        <p class="text-gray-700">With <strong>2× USB-A ports</strong> delivering 12W each (24W total), charge your phone and your passenger's phone simultaneously. <strong>PowerIQ technology</strong> automatically detects each device and delivers the fastest safe charging speed. Perfect for couples or families on long drives where both phones run GPS and music.</p>
+        <p class="text-gray-700">The listed configuration has <strong>2× USB-A ports</strong> with a stated 24W total. Confirm the per-port and simultaneous-use distribution on the charger label; each device negotiates within the supported USB-A profile and may draw less. It is useful for two devices in a car, but it does not provide USB-C PD charging.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Plug It In and Forget It's There</h2>
-        <p class="text-gray-700">The PowerDrive 2 is designed to be invisible. Its <strong>compact profile</strong> sits flush in your car's 12V socket without blocking other buttons or cup holders. The subtle <strong>blue LED indicator</strong> lets you know it's working without blinding you at night. Compatible with all cars, SUVs, and trucks with standard 12V/24V sockets.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Compact Body and Status Light</h2>
+        <p class="text-gray-700">The charger has a compact body and a blue status indicator. Console layout, socket depth and nearby controls vary by vehicle, so measure the clearance and confirm the printed input range before ordering. Follow the vehicle manual and remove it for long parking if the socket remains powered.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Built for Daily Egyptian Driving</h2>
-        <p class="text-gray-700">Heat-resistant design handles Egypt's summer temperatures. <strong>MultiProtect safety</strong> protects your devices from surges and your car's electrical system from interference. Pair with <a href="/en/anker/cables" class="text-blue-600 hover:underline">Anker cables</a> for maximum speed. Anker backs it with an <strong>18-month warranty</strong> — longer than most car accessories.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Safety and Cable Checks</h2>
+        <p class="text-gray-700">Verify the current MultiProtect statement and input/output markings for A2224011. Keep the socket and charger ventilated, use an undamaged rated <a href="/en/anker/cables" class="text-blue-600 hover:underline">cable</a>, and stop use if the unit, plug or socket is damaged or unusually hot. Review the current written warranty rather than assuming a fixed term.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17/16/15/14:</strong> Standard 12W charging via USB-A.</li>
-        <li>📱 <strong>Samsung S26/S25/A-Series:</strong> PowerIQ optimized charging.</li>
-        <li>🎧 <strong>AirPods / Galaxy Buds:</strong> Charge accessories while driving.</li>
-        <li>📱 <strong>iPad mini / Tablets:</strong> Standard USB-A charging.</li>
-        <li>🚗 <strong>All Cars:</strong> 12V/24V universal compatibility.</li>
+        <li>📱 <strong>Phones:</strong> USB-A charging depends on the supported profile and cable; this is not USB-C PD.</li>
+        <li>🎧 <strong>Earbuds and accessories:</strong> confirm the accessory input and use a suitable cable.</li>
+        <li>📱 <strong>Tablets:</strong> compare the tablet input with the per-port and shared output markings.</li>
+        <li>🚗 <strong>Vehicles:</strong> confirm voltage, socket shape, depth and clearance for the exact vehicle.</li>
     </ul>
 </div>
 `,
-                features: ["🚗 24W Dual USB (12W×2)", "⚡ PowerIQ Smart Charging", "📱 Charge 2 Devices Simultaneously", "🔌 12V/24V All Cars", "💡 Blue LED Indicator", "🏆 18-Month Warranty", "🔒 MultiProtect Safety System", "🚗 12V/24V Vehicle Compatible"],
-                metaTitle: "Anker Car Charger Dual USB ⚡ 27% OFF | Fast Charge | COD",
-                metaDesc: "Buy Anker PowerDrive 2 car charger in Egypt. 24W dual USB, PowerIQ, charge 2 devices. Fits all cars. 18-month warranty. Fast Cairo delivery.",
+                features: ["🚗 Listed 24W total dual USB-A", "⚡ PowerIQ profile negotiation", "📱 Two-device shared output", "🔌 Verify 12V/24V socket compatibility", "💡 Blue LED Indicator", "🏆 current warranty and return policy", "🔎 Verify compliance marks on the unit and manufacturer documentation", "🚗 Check vehicle socket fit"],
+                metaTitle: "Anker PowerDrive 2 Dual USB-A Car Charger | Egypt",
+                metaDesc: "Anker PowerDrive 2 A2224011 with two USB-A ports and listed 24W total output. Verify vehicle socket fit, power distribution, live price and warranty terms.",
                 faqs: [
-                    { question: "Does it work in all cars?", answer: "Yes, it works with any standard 12V/24V car cigarette lighter socket." },
-                    { question: "Does it drain car battery when not in use?", answer: "No, it consumes negligible power when no device is connected, so it's safe to leave plugged in." },
-                    { question: "Can I charge two iPads?", answer: "It can charge two tablets, but charging speed might be distributed (Total 24W) compared to charging a single device." },
-                    { question: "Does it charge iPhone 17 fast?", answer: "Yes, each USB port delivers up to 12W via PowerIQ, which is good standard charging for iPhone 17." },
-                    { question: "Will it fit my car's 12V socket?", answer: "Yes, the compact design fits virtually all car sockets without blocking other ports or controls." }
+                    { question: "Does it work in all cars?", answer: "It requires a compatible vehicle socket within the printed input range and enough physical clearance. Check the vehicle manual, socket shape and charger label; compatibility cannot be promised for every console." },
+                    { question: "Does it drain the car battery when not in use?", answer: "Standby draw and socket behaviour vary by vehicle; some sockets stay powered after the engine is off. Remove the charger during long parking periods and follow the vehicle manual." },
+                    { question: "Can I charge two tablets?", answer: "Compare each tablet's input with the printed per-port and simultaneous-use distribution. The listed total is shared, so each device may charge more slowly or may require another protocol." },
+                    { question: "Does it fast-charge a USB-C iPhone?", answer: "This model uses USB-A and does not provide USB-C PD. Charging mode and power depend on the phone, cable and supported USB-A profile; check the phone's requirements." },
+                    { question: "Will it fit my car's socket?", answer: "Measure the space around the socket and confirm its voltage, depth, shape and nearby controls. Console and socket designs vary between vehicles." }
                 ]
             },
             ar: {
-                name: "شاحن سيارة انكر (منفذين) | بيشحن موبايلين وانت عالق في زحمة الدائري | ضمان 18 شهر",
-                shortDescription: "مش هيسخن تابلوه عربيتك في عز الصيف | 🚗 24 واط (12واط×2) | ⚡ شحن ذكي بيوزع الطاقة | 🚥 ممتاز لتشغيل الـ GPS وقتا طويلا",
+                name: "شاحن سيارة انكر (منفذين) | بيشحن موبايلين وانت عالق في زحمة الدائري",
+                shortDescription: "🚗 قدرة معلنة 24 واط إجمالاً عبر منفذين USB-A | ⚡ PowerIQ | 📱 خرج مشترك لجهازين | 🔌 تحقق من توافق مقبس السيارة",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة المقلدة اللي بتفصل مع تذبذب الفولتية، <strong>شاحن سيارة أنكر PowerDrive 2 (A2310)</strong> شاحن سيارة بمنفذين USB-A بكلي 24 واط (12 واط/منفذ). PowerIQ بيتعرف على كل جهاز ويوصله أقصى سرعة. تصميم مدمج، LED أزرق هادي، متوافق 12/24 فولت. مثالي لشحن موبايلين في زحمة القاهرة. ضمان 18 شهر. بسعر <strong>950 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>شاحن سيارة انكر PowerDrive 2 موديل A2224011</strong> مزود بمنفذين USB-A وقدرة إجمالية معلنة 24 واط مع PowerIQ. تحقق من دخل السيارة وتوزيع القدرة على المنفذين وشكل المقبس والمساحة ومحتويات العبوة على الوحدة الموردة؛ تختلف سرعة الشحن حسب الجهاز والكابل. راجع السعر والمخزون وشروط الضمان الحالية قبل الطلب.</p>
 </div>
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">شواحن السيارات الرخيصة بدون تنظيم جهد سليم ممكن تضر دائرة الشحن في موبايلك وقت طفرات كهربا العربية (التشغيل، التكييف). بعضها بيعمل تشويش راديو على CarPlay/Bluetooth. أنكر PowerDrive 2 فيه حماية MultiProtect مصممة لكهربا السيارات. دور على شعار أنكر المنقوش على الجسم — المضروب بيطبعه.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A2224011</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>🚗 <strong>24 واط إجمالي:</strong> منفذين USB-A (12 واط لكل منفذ) مع PowerIQ.</li>
-        <li>⚡ <strong>PowerIQ:</strong> يتعرف على كل جهاز ويوصله أقصى سرعة شحن آمنة.</li>
+        <li>⚡ <strong>PowerIQ:</strong> يتفاوض على بروفايل USB-A مدعوم؛ تختلف القدرة حسب الجهاز والكابل.</li>
         <li>📱 <strong>اشحن جهازين:</strong> موبايل + ايربودز، أو موبايلين في نفس الوقت.</li>
-        <li>🔌 <strong>يناسب الكل:</strong> متوافق مع كل مقابس 12/24 فولت القياسية.</li>
-    <li>🔄 <strong>استبدال مجاني:</strong> لو طلع فيه عيب، بنبدّله — بدون أسئلة.</li></ul>
+        <li>🔌 <strong>دخل السيارة:</strong> تحقق من نطاق 12/24 فولت وشكل المقبس والمساحة ودليل السيارة.</li>
+    <li>🧾 <strong>الاسترجاع والضمان:</strong> وفق السياسة المنشورة وشروط الأهلية الحالية.</li></ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "نحن في فريق كايرو فولت سيبنا PowerDrive 2 موصول في عربية اختبار 5 شهور من زحمة القاهرة اليومية — الدائري، كوبري 6 أكتوبر، المسار كله. بيشحن موبايلين في نفس الوقت واحد عليه Google Maps والتاني Spotify. الـ LED هادي كفاية مش بيشتت بالليل. بيركب بشكل مسطح تمام في الكونسول — مفيش اهتزاز ولا إعاقة لأزرار تانية. للسواقين اللي محتاجين شحن موثوق لجهازين من غير تفكير زيادة، ده الحل اللي بتركّبه وتنساه."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A2224011</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">اشحن موبايلين وانت عالق في زحمة القاهرة</h2>
-        <p class="text-gray-700">بـ<strong>منفذين USB-A</strong> كل واحد 12 واط (24 واط إجمالي)، اشحن موبايلك وموبايل الراكب في نفس الوقت. <strong>تقنية PowerIQ</strong> بتتعرف على كل جهاز وتوصله أقصى سرعة شحن آمنة. مثالي للأزواج والعائلات في الرحلات الطويلة لما الموبايل (الهاتف الذكي)ين شغالين GPS ومزيكا.</p>
+        <p class="text-gray-700">تذكر القائمة <strong>منفذين USB-A</strong> وقدرة إجمالية 24 واط. تحقق من توزيع الخرج عند استخدام المنفذين؛ كل جهاز يتفاوض داخل البروفايل المدعوم وقد يسحب قدرة أقل. يناسب شحن جهازين متوافقين لكنه لا يوفر USB-C PD.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">ركّبه وانساه</h2>
-        <p class="text-gray-700">PowerDrive 2 مصمم إنه يكون غير مرئي. <strong>تصميمه المدمج</strong> بيركب بشكل مسطح في مقبس السيارة بدون إعاقة أزرار تانية أو حاملات الأكواب. <strong>مؤشر LED الأزرق</strong> الهادي بيقولك إنه شغال من غير ما يشتتك بالليل. متوافق مع كل السيارات والـ SUV بمقابس 12/24 فولت.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">حجم مدمج ومؤشر حالة</h2>
+        <p class="text-gray-700">يتميز الشاحن بجسم مدمج ومؤشر أزرق. يختلف عمق المقبس ومساحة الكونسول والأزرار القريبة بين السيارات، لذلك قِس المساحة وتحقق من نطاق الدخل المطبوع ودليل السيارة قبل الطلب.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">مصنوع للقيادة المصرية اليومية</h2>
-        <p class="text-gray-700">تصميم مقاوم للحرارة يتحمل حر مصر في الصيف. <strong>حماية MultiProtect</strong> بتحمي أجهزتك من التذبذبات والنظام الكهربي للسيارة من التداخل. استخدمه مع <a href="/anker/cables" class="text-blue-600 hover:underline">كابلات انكر</a> لأقصى سرعة. انكر بتدعمه بـ<strong>ضمان 18 شهر</strong> — أطول من معظم إكسسوارات السيارة.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">فحوص السلامة والكابل</h2>
+        <p class="text-gray-700">تحقق من بيان MultiProtect وعلامات الدخل والخرج الحالية للموديل A2224011. استخدم مقبساً وكابل <a href="/anker/cables" class="text-blue-600 hover:underline">شحن</a> سليمين واترك تهوية، وتوقف عن الاستخدام عند التلف أو السخونة غير المعتادة. راجع الضمان المكتوب الحالي من دون افتراض مدة ثابتة.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>ايفون 17/16/15/14:</strong> شحن 12 واط قياسي عبر USB-A.</li>
-        <li>📱 <strong>سامسونج S26/S25/A-Series:</strong> شحن محسّن PowerIQ.</li>
-        <li>🎧 <strong>ايربودز / Galaxy Buds:</strong> اشحن الإكسسوارات أثناء القيادة.</li>
-        <li>📱 <strong>ايباد ميني / تابلت:</strong> شحن USB-A قياسي.</li>
-        <li>🚗 <strong>كل السيارات:</strong> توافق 12/24 فولت شامل.</li>
+        <li>📱 <strong>الهواتف:</strong> يعتمد شحن USB-A على البروفايل والكابل؛ هذا الموديل لا يوفر USB-C PD.</li>
+        <li>🎧 <strong>السماعات والاكسسوارات:</strong> تحقق من دخل الملحق واستخدم الكابل المناسب.</li>
+        <li>📱 <strong>التابلت:</strong> قارن دخل الجهاز بخرج المنفذ والتوزيع المشترك.</li>
+        <li>🚗 <strong>السيارة:</strong> تحقق من الجهد والشكل والعمق والمساحة للمقبس نفسه.</li>
     </ul>
 </div>
 `,
-                features: ["🚗 24 واط منفذين USB (12واط×2)", "⚡ شحن ذكي PowerIQ", "📱 اشحن جهازين", "🔌 12/24فولت كل السيارات", "💡 مؤشر LED هادي", "🏆 ضمان 18 شهر", "🔒 معتمد FCC → معيار السلامة الفيدرالي الأمريكي لإلكترونيات السيارات", "🔒 نظام أمان MultiProtect"],
-                metaTitle: "شاحن سيارة انكر الأصلي ⚡ خصم 27% | منفذين شحن سريع | COD مصر",
-                metaDesc: "اشتري شاحن سيارة انكر PowerDrive 2 في مصر. 24 واط منفذين USB، PowerIQ، اشحن جهازين. يناسب كل السيارات. ضمان 18 شهر. توصيل سريع.",
+                features: ["🚗 قدرة معلنة 24 واط إجمالاً عبر USB-A", "⚡ تفاوض PowerIQ", "📱 خرج مشترك لجهازين", "🔌 تحقق من توافق مقبس 12/24 فولت", "💡 مؤشر LED أزرق", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة", "🚗 قِس مساحة مقبس السيارة"],
+                metaTitle: "شاحن سيارة انكر ثنائي USB | مقبس 12/24 فولت | مصر",
+                metaDesc: "شاحن سيارة انكر PowerDrive 2 موديل A2224011 بمنفذين USB-A وقدرة إجمالية معلنة 24 واط. تحقق من توافق المقبس وتوزيع الخرج والسعر والضمان الحالي.",
                 faqs: [
-                    { question: "هل يعمل في جميع السيارات؟", answer: "نعم، يعمل مع أي مقبس ولاعة سجائر 12/24 فولت قياسي في كل أنواع السيارات المصرية واليابانية والألمانية بدون محول." },
-                    { question: "هل يستنزف بطارية السيارة؟", answer: "لا، يستهلك طاقة لا تذكر بدون جهاز. آمن للترك متصلاً." },
+                    { question: "هل يعمل في جميع السيارات؟", answer: "يحتاج مقبس 12/24 فولت متوافقاً من حيث الجهد والشكل والمساحة. راجع دليل السيارة والقيم المطبوعة على الشاحن؛ لا يمكن ضمان التوافق مع كل مقبس." },
+                    { question: "هل أتركه متصلاً بالسيارة؟", answer: "يعتمد سلوك المقبس عند إيقاف السيارة على تصميمها. افصل الشاحن إذا أوصى دليل السيارة بذلك أو عند الركن الطويل، وتوقف عن الاستخدام عند تلف المقبس أو سخونة غير معتادة." },
                     { question: "هل يشحن جهازين تابلت؟", answer: "يشحن جهازين، لكن السرعة تتوزع (24 واط إجمالي) مقابل جهاز واحد." },
-                    { question: "هل يناسب مقبس سيارتي؟", answer: "نعم، التصميم الصغير يناسب جميع المقابس بدون إعاقة أزرار أخرى." },
-                    { question: "هل الشاحن ده آمن للشحن طول الليل؟", answer: "أيوه. نظام حماية MultiProtect المدمج بيشمل حماية من الجهد الزائد والتيار الزائد والحرارة، وبيوقف الشحن تلقائياً لما البطارية توصل 100%." }
+                    { question: "هل يناسب مقبس سيارتي؟", answer: "قِس المساحة حول المقبس وتحقق من الجهد والشكل وموقع الأزرار قبل الشراء. يختلف تصميم الكونسول والمقبس بين السيارات." },
+                    { question: "إيه احتياطات الاستخدام الطويل؟", answer: "استخدم مقبس سيارة وكابلات سليمة واترك تهوية ولا تغطِ الشاحن. راجع تعليمات الهاتف والسيارة وتوقف عن الاستخدام عند تلف الوحدة أو حدوث سخونة غير معتادة." }
                 ]
             }
         },
-        meta: { keywords: "شاحن سيارة انكر, شاحن انكر سيارة, أنكر car charger, أنكر fast car charger, أنكر dual usb car charger, أنكر best car charger 2026, أنكر cod egypt, افضل شاحن سيارة انكر, سعر شاحن سيارة انكر, car charger egypt, شاحن سيارة ايفون, شاحن سيارة سامسونج, شاحن 12 فولت سيارة, أنكر car charger price egypt, شاحن سيارة اصلي مصر, شاحن سيارة ادفع عند الاستلام", mainTerm: "شاحن سيارة انكر" },
+        meta: { keywords: "شاحن سيارة انكر, شاحن انكر سيارة, انكر car charger, انكر fast car charger, انكر dual usb car charger, انكر cod egypt, سعر شاحن سيارة انكر, car charger egypt, شاحن سيارة ايفون, شاحن سيارة سامسونج, شاحن 12 فولت سيارة, انكر car charger price egypt, تحقق من موديل شاحن سيارة انكر, شاحن سيارة ادفع عند الاستلام", mainTerm: "شاحن سيارة انكر" },
         expertOpinion: {
-            en: "This charger has saved me countless times on Cairo's ring road. It sits flush in the console and charges two phones at respectable speeds. It doesn't have the super-fast PD charging of newer models, but for reliability and keeping two devices alive during a commute with GPS running, it's unbeatable.",
-            ar: "لقد أنقذني هذا الشاحن مرات لا تحصى على الطريق الدائري بالقاهرة. يستقر بشكل مسطح في الكونسول ويشحن هاتفين بسرعات محترمة. ليس لديه شحن PD فائق السرعة مثل الموديلات الأحدث، ولكن للموثوقية والحفاظ على جهازين قيد التشغيل أثناء التنقل مع تشغيل GPS، لا يمكن التغلب عليه."
+            en: "This dual-USB car charger is a legacy option for compatible 12V/24V sockets. Its listed total output is shared between ports, so compare the required phone protocol, cable, socket fit and current warranty with newer USB-C PD models.",
+            ar: "هذا شاحن سيارة ثنائي USB لمقابس 12/24 فولت المتوافقة. القدرة الإجمالية المعلنة تتوزع بين المنفذين، لذلك قارن بروتوكول الهاتف والكابل وملاءمة المقبس والضمان الحالي بموديلات USB-C PD الأحدث."
         },
         relatedProducts: [
         "anker-a2216-magnetic-wireless-car-charger",

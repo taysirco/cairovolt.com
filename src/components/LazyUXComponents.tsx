@@ -10,7 +10,7 @@ import dynamic from 'next/dynamic';
  * their JS is deferred until after hydration — reducing TBT by ~100-150ms.
  *
  * Components deferred:
- * - InteractiveEffects: Ripple effects, scroll tracking, promo overlay, idle detection
+ * - InteractiveEffects: user-initiated click, scroll, and cart-button feedback
  * - UXMetricsEngine: Engagement tracking
  *
  * NOTE: ViewportPrefetch and RouteIntelligence were removed — stacked on Next's

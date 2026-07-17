@@ -2,23 +2,19 @@ import type { ProductDetail } from './_types';
 export const anker_zolo_30w_a2698_charger_detail: ProductDetail = {
     aiTldr: {
   "en": [
-    "30W single USB-C charges iPhone 17 from 0→50% in 28 minutes.",
-    "Real GaN with Ultra-low Temperature design runs up to 11°C cooler.",
-    "Peaked at just 39°C on our Charger Lab KM003C bench test.",
-    "Powers MacBook Air, iPad, Galaxy S26 PPS, AirPods, and power banks.",
-    "✅ CairoVolt: 18-month warranty, cash on delivery, next-day Cairo."
+    "Single USB-C output rated up to 30W, with PD and PPS for compatible devices.",
+    "GaN and Anker's Ultra-Low Temperature design are listed for this compact model.",
+    "Suitable for compatible phones, tablets and lower-power USB-C laptops; the device and cable determine the negotiated rate."
   ],
   "ar": [
-    "30 واط ومنفذ USB-C واحد بيشحن الايفون 17 من 0→50% في 28 دقيقة.",
-    "GaN حقيقي بتصميم حرارة منخفضة بيفضل أبرد بـ 11°C.",
-    "وصل لـ 39°C بس على جهاز Charger Lab KM003C في اختبارنا.",
-    "بيشحن ماك بوك اير وايباد وجالكسي S26 بالـ PPS وايربودز وباور بانك.",
-    "✅ CairoVolt: ضمان 18 شهر، الدفع عند الاستلام، توصيل تاني يوم للقاهرة."
+    "منفذ USB-C واحد بخرج يصل إلى 30 واط، مع PD وPPS للأجهزة المتوافقة.",
+    "تذكر مواصفات انكر تقنية GaN وتصميم Ultra-Low Temperature لهذا الموديل المدمج.",
+    "يناسب الهواتف والتابلت وبعض أجهزة اللابتوب USB-C ذات الاحتياج المنخفض؛ الجهاز والكابل يحددان معدل الشحن."
   ]
 },
     localContext: {
-  "en": "In an Egyptian summer, apartment sockets routinely swing between 200V and 240V, and cheap 30W bricks overheat past 60°C and cut off mid-charge. The A2698's GaN circuit and Ultra-low Temperature design hold the cube under 40°C even at 205V, so your iPhone keeps pulling a full 27W through load-shedding evenings without a single thermal shutdown.",
-  "ar": "في صيف مصر، بريزة الشقة بتتذبذب طبيعي بين 200 و 240 فولت، والشواحن الرخيصة 30 واط بتسخن لفوق 60°C وبتفصل في نص الشحن. دايرة الـ GaN وتصميم الحرارة المنخفضة في الـ A2698 بيخلوا المكعب تحت 40°C حتى على 205 فولت، فالايفون بيفضل ساحب 27 واط كاملة في ليالي تخفيف الأحمال من غير ما يفصل ولا مرة."
+  "en": "The 100–240V input range makes the charger suitable for standard mains supplies, including Egypt's nominal voltage, when the outlet and wiring are sound. Its 30W figure is a maximum negotiated output, not a promise for every device: battery level, temperature, protocol support and cable quality can all lower the rate. ActiveShield is a manufacturer-listed device safeguard and does not replace proper building wiring or external surge protection.",
+  "ar": "يدعم الشاحن دخل 100–240 فولت، لذلك يناسب مصادر الكهرباء القياسية ومنها الجهد الاسمي في مصر عند سلامة البريزة والتوصيلات. رقم 30 واط هو أقصى خرج يتم التفاوض عليه وليس سرعة مضمونة لكل جهاز؛ مستوى البطارية والحرارة ودعم البروتوكول وجودة الكابل قد تخفض المعدل. ActiveShield ميزة حماية تذكرها الشركة، لكنها لا تغني عن سلامة التمديدات أو وسائل الحماية الخارجية من اضطراب الكهرباء."
 },
     specifications: {
   "Product Type": {
@@ -46,19 +42,8 @@ export const anker_zolo_30w_a2698_charger_detail: ProductDetail = {
     "ar": "46 جرام"
   },
   "Safety": {
-    "en": "ActiveShield temperature monitoring, over-voltage / over-current / over-temperature protection, 100–240V input, foldable prongs",
-    "ar": "مراقبة حرارة ActiveShield، حماية من ارتفاع الفولتية/التيار/الحرارة، دخل 100–240 فولت، قابس بيتطوي"
+    "en": "Manufacturer-listed ActiveShield temperature monitoring and electrical protections; 100–240V input; foldable prongs",
+    "ar": "مراقبة حرارة ActiveShield ووظائف حماية كهربائية مذكورة في مواصفات انكر؛ دخل 100–240 فولت؛ قابس قابل للطي"
   }
 },
-    labVerified: {
-        result: {
-  "en": "Delivered a steady 27W to a draining iPhone 16 and hit 0→50% in 28 minutes, with the shell peaking at 39°C.",
-  "ar": "وفّر 27 واط ثابتة لايفون 16 ووصل 0→50% في 28 دقيقة، وجسم الشاحن وصل 39°C كحد أقصى."
-},
-        conditions: {
-  "en": "Tested June 2026, Cairo, Charger Lab KM003C USB-C power meter at 220V wall input.",
-  "ar": "اختبار يونيو 2026، القاهرة، جهاز قياس Charger Lab KM003C عند 220 فولت."
-},
-        expertName: 'Eng. Ahmed Medhat'
-    }
 };

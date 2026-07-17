@@ -2,23 +2,21 @@ import type { ProductDetail } from './_types';
 export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
     aiTldr: {
   "en": [
-    "20W USB-C Power Delivery pushes iPhone 17 to 50% in 30 minutes.",
-    "PD 3.0 negotiates 9V/2.22A for true fast charging, not fake watts.",
-    "Bench test: held 19.6W and peaked at just 39.5C.",
-    "Charges iPhone 17, Galaxy S26, iPad and AirPods Pro 2 via USB-C.",
-    "✅ CairoVolt: EGP 520, 18-month warranty, next-day Cairo delivery, cash on delivery."
+    "USB-C Power Delivery output is listed up to 20W with compatible devices.",
+    "PD 3.0 negotiates voltage and current with the connected device; charging time varies.",
+
+    "Check the device charging protocol and cable before use."
   ],
   "ar": [
-    "20 واط USB-C يوصّل ايفون 17 لـ 50% في 30 دقيقة.",
-    "بروتوكول PD 3.0 بيتفاوض على 9V/2.22A لشحن سريع حقيقي مش وهمي.",
-    "اختبار معمل: ثبت على 19.6 واط وأقصى حرارة 39.5 درجة بس.",
-    "بيشحن ايفون 17 وجالاكسي S26 وايباد وايربودز برو 2 عبر USB-C.",
-    "✅ CairoVolt: 520 جنيه، ضمان 18 شهر، توصيل القاهرة يوم واحد، دفع عند الاستلام."
+    "خرج USB-C Power Delivery مدون حتى 20 واط مع الأجهزة المتوافقة.",
+    "يتفاوض PD 3.0 على الجهد والتيار مع الجهاز المتصل؛ وتختلف مدة الشحن.",
+
+    "راجع بروتوكول شحن الجهاز والكابل قبل الاستخدام."
   ]
 },
     localContext: {
-  "en": "Cairo summer outlets can spike past 240V while a fan and router share one power strip, and that's exactly when a weak charger overheats. The A2149's Superior Safety circuit samples temperature thousands of times a second and caps output, so a Maadi student can leave an iPhone charging through a 41C afternoon without a hot, buzzing brick.",
-  "ar": "في صيف القاهرة البريزة ممكن تعدّي 240 فولت والمروحة والراوتر على نفس المشترك، وده بالظبط وقت ما الشاحن الضعيف بيسخن. دايرة Superior Safety في الـ A2149 بتقيس الحرارة آلاف المرات في الثانية وبتحد الخرج، فطالب في المعادي يقدر يسيب الايفون بيشحن في عصر 41 درجة من غير راس ساخنة بتزن."
+  "en": "Use this charger only with a sound outlet and cable rated for the requested power. Its 100–240V input and Superior Safety features are manufacturer-listed, but they do not replace safe wiring, ventilation or external surge protection. Charging rate and temperature depend on the device, battery state, cable and ambient conditions.",
+  "ar": "استخدم هذا الشاحن مع بريزة سليمة وكابل مناسب للقدرة المطلوبة. مدخل 100–240 فولت ووظائف Superior Safety مدونة من انكر، لكنها لا تحل محل التوصيلات الآمنة والتهوية والحماية الخارجية من اضطراب الكهرباء. تعتمد سرعة الشحن والحرارة على الجهاز وحالة البطارية والكابل والظروف المحيطة."
 },
     specifications: {
   "Product Type": {
@@ -46,19 +44,8 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
     "ar": "40 جرام"
   },
   "Safety": {
-    "en": "Superior Safety: high-voltage protection, temperature control, current regulation, 100-240V input",
-    "ar": "Superior Safety: حماية من الجهد العالي وتحكم في الحرارة وتنظيم التيار، مدخل 100-240 فولت"
+    "en": "Manufacturer-listed Superior Safety features and 100–240V input; verify the delivered model label",
+    "ar": "وظائف Superior Safety ومدخل 100–240 فولت كما تذكرها انكر؛ تحقق من ملصق الموديل المستلم"
   }
 },
-    labVerified: {
-        result: {
-  "en": "Delivered a steady 19.6W to an iPhone 16 Pro and peaked at 39.5C.",
-  "ar": "وصّل 19.6 واط ثابتة لايفون 16 برو وأقصى حرارة 39.5 درجة."
-},
-        conditions: {
-  "en": "Measured on a Power-Z KM003C USB meter, Cairo, March 2026, 40C ambient.",
-  "ar": "القياس بجهاز Power-Z KM003C، القاهرة، مارس 2026، حرارة محيطة 40 درجة."
-},
-        expertName: 'Eng. Ahmed Medhat'
-    }
 };

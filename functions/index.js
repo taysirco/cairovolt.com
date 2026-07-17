@@ -1,246 +1,308 @@
-/**
- * CairoVolt Firebase Cloud Functions v2
- * 
- * Triggers:
- * 1. pingGoogleOnProductUpdate — When price/stock changes in Firestore, 
- *    notifies Google Indexing API + busts ISR cache via Next.js webhook.
- * 2. syncMerchantCenter — Syncs product data to Google Merchant Center 
- *    Content API for Shopping tab dominance.
- * 3. trackPurchaseGA4 — Server-side GA4 Measurement Protocol on new orders
- *    to bypass AdBlockers and feed RankBrain task-completion signals.
- *
- * Required env / secrets:
- *   INDEXING_WEBHOOK_SECRET, GOOGLE_CLIENT_EMAIL, GOOGLE_PRIVATE_KEY
- *   GA4_MEASUREMENT_ID, GA4_API_SECRET
- *   MERCHANT_CENTER_ID
- *
- * Service account key files (place in functions/ directory):
- *   cairovolt-indexing-key.json   — for Indexing API
- *   merchant-center-key.json     — for Content API (optional, can reuse)
- */
+"use strict";
+/* eslint-disable @typescript-eslint/no-require-imports -- Firebase loads this CommonJS entry point. */
 
-const { onDocumentUpdated, onDocumentCreated } = require("firebase-functions/v2/firestore");
+const { createHash } = require("node:crypto");
+const { onDocumentCreated, onDocumentUpdated } = require("firebase-functions/v2/firestore");
+const { logger } = require("firebase-functions");
 const { defineSecret } = require("firebase-functions/params");
-const fetch = require("node-fetch");
 const { google } = require("googleapis");
 
-// ─── Secrets (set via `firebase functions:secrets:set`) ───
 const INDEXING_WEBHOOK_SECRET = defineSecret("INDEXING_WEBHOOK_SECRET");
 const GA4_MEASUREMENT_ID = defineSecret("GA4_MEASUREMENT_ID");
 const GA4_API_SECRET = defineSecret("GA4_API_SECRET");
 
 const BASE_URL = "https://cairovolt.com";
+const INDEXING_WEBHOOK_URL = `${BASE_URL}/api/indexing`;
+const MERCHANT_SCOPE = "https://www.googleapis.com/auth/content";
 
-// ═══════════════════════════════════════════════════════════
-// 1. REAL-TIME GOOGLE INDEXING on price/stock change
-// ═══════════════════════════════════════════════════════════
+function cleanString(value, maxLength) {
+  return typeof value === "string" ? value.trim().slice(0, maxLength) : "";
+}
+
+function numericValue(value, fallback = 0, max = Number.MAX_SAFE_INTEGER) {
+  const parsed = Number(value);
+  return Number.isFinite(parsed) && parsed >= 0 ? Math.min(parsed, max) : fallback;
+}
+
+function canonicalProductUrl(product) {
+  const catalogueBrand = cleanString(product.brand, 80).toLowerCase();
+  const category = cleanString(product.categorySlug, 100);
+  const slug = cleanString(product.slug, 200);
+
+  if (!catalogueBrand || !category || !slug) return "";
+
+  // Preserve the established public route used by the pages, sitemap, feed,
+  // and structured data. Legacy Soundcore records may still carry Anker in
+  // the catalogue brand field while living under /soundcore/.
+  const brand = catalogueBrand === "soundcore"
+    || (catalogueBrand === "anker" && ["audio", "speakers"].includes(category))
+    ? "soundcore"
+    : catalogueBrand;
+
+  const path = [brand, category, slug].map(encodeURIComponent).join("/");
+  return `${BASE_URL}/${path}`;
+}
+
+function merchantGtin(...candidates) {
+  const documentedPrefixes = ["0194644", "0840053", "0848061"];
+
+  for (const candidate of candidates) {
+    const gtin = cleanString(candidate, 14);
+    if (!/^(?:\d{8}|\d{12}|\d{13}|\d{14})$/.test(gtin)) continue;
+
+    const checkDigit = Number(gtin.at(-1));
+    let sum = 0;
+    let positionFromRight = 0;
+    for (let index = gtin.length - 2; index >= 0; index -= 1) {
+      sum += Number(gtin[index]) * (positionFromRight % 2 === 0 ? 3 : 1);
+      positionFromRight += 1;
+    }
+
+    const isValid = (10 - (sum % 10)) % 10 === checkDigit;
+    if (isValid && documentedPrefixes.some((prefix) => gtin.startsWith(prefix))) {
+      return gtin;
+    }
+  }
+
+  return "";
+}
+
+function publicImageUrl(value) {
+  const path = cleanString(value, 1_500);
+  if (!path) return "";
+
+  try {
+    const url = new URL(path, BASE_URL);
+    return url.origin === BASE_URL && url.protocol === "https:" ? url.href : "";
+  } catch {
+    return "";
+  }
+}
+
+function plainText(value, maxLength) {
+  return cleanString(value, maxLength * 2)
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, maxLength);
+}
+
+async function discardResponseBody(response) {
+  try {
+    await response.body?.cancel();
+  } catch {
+    // The status code is sufficient for these server-to-server requests.
+  }
+}
+
 exports.pingGoogleOnProductUpdate = onDocumentUpdated(
   {
     document: "products/{productId}",
     secrets: [INDEXING_WEBHOOK_SECRET],
   },
   async (event) => {
-    const newVal = event.data.after.data();
-    const prevVal = event.data.before.data();
+    const product = event.data?.after.data() || {};
+    const previousProduct = event.data?.before.data() || {};
 
-    // Only ping if price or stock actually changed
-    if (newVal.price === prevVal.price && newVal.stock === prevVal.stock) {
-      return null;
-    }
-
-    const slug = newVal.slug;
-    if (!slug) return null;
-
-    // Determine both AR and EN URLs for the product
-    const brand = (newVal.brand || "").toLowerCase();
-    const category = newVal.categorySlug || "";
-    const arUrl = `${BASE_URL}/${brand}/${category}/${slug}`;
-    const enUrl = `${BASE_URL}/en/${brand}/${category}/${slug}`;
-
-    // Option A: Call our Next.js webhook (which busts ISR cache + pings Google)
-    try {
-      const webhookUrl = `${BASE_URL}/api/google-index`;
-      const secret = INDEXING_WEBHOOK_SECRET.value();
-
-      // Ping AR version
-      await fetch(webhookUrl, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${secret}`,
-        },
-        body: JSON.stringify({
-          url: arUrl,
-          type: "URL_UPDATED",
-          slug: slug,
-        }),
-      });
-
-      // Ping EN version
-      await fetch(webhookUrl, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${secret}`,
-        },
-        body: JSON.stringify({
-          url: enUrl,
-          type: "URL_UPDATED",
-          slug: slug,
-        }),
-      });
-
-      console.log(
-        `[Indexing] ✅ Google pinged for ${slug} | Price: ${prevVal.price} → ${newVal.price} | Stock: ${prevVal.stock} → ${newVal.stock}`
-      );
-    } catch (error) {
-      console.error(`[Indexing] ❌ Failed for ${slug}:`, error.message);
-    }
-  }
-);
-
-// ═══════════════════════════════════════════════════════════
-// 2. GOOGLE MERCHANT CENTER SYNC (Shopping Tab)
-// ═══════════════════════════════════════════════════════════
-exports.syncMerchantCenter = onDocumentUpdated(
-  { document: "products/{productId}" },
-  async (event) => {
-    const product = event.data.after.data();
-    const prevProduct = event.data.before.data();
-
-    // Only sync on meaningful changes
     if (
-      product.price === prevProduct.price &&
-      product.stock === prevProduct.stock &&
-      product.translations?.ar?.name === prevProduct.translations?.ar?.name
+      product.price === previousProduct.price &&
+      product.stock === previousProduct.stock
     ) {
       return null;
     }
 
-    // Merchant Center requires a key file — skip if not configured
-    const fs = require("fs");
-    const keyPath = "./merchant-center-key.json";
-    if (!fs.existsSync(keyPath)) {
-      console.warn("[Merchant] ⚠️ merchant-center-key.json not found, skipping sync");
-      return null;
-    }
-
-    const merchantId = process.env.MERCHANT_CENTER_ID;
-    if (!merchantId) {
-      console.warn("[Merchant] ⚠️ MERCHANT_CENTER_ID not set, skipping");
+    const url = canonicalProductUrl(product);
+    const slug = cleanString(product.slug, 200);
+    const secret = INDEXING_WEBHOOK_SECRET.value();
+    if (!url || !slug || !secret) {
+      logger.warn("Index-update webhook is not fully configured; request skipped.");
       return null;
     }
 
     try {
-      const auth = new google.auth.GoogleAuth({
-        keyFile: keyPath,
-        scopes: ["https://www.googleapis.com/auth/content"],
-      });
-
-      const shopping = google.content({ version: "v2.1", auth });
-      const slug = product.slug;
-      const brand = (product.brand || "").toLowerCase();
-      const category = product.categorySlug || "";
-      const arName = product.translations?.ar?.name || product.slug;
-      const arDesc = product.translations?.ar?.description || "";
-
-      await shopping.products.insert({
-        merchantId: merchantId,
-        requestBody: {
-          offerId: product.sku || slug,
-          title: arName,
-          description: arDesc.substring(0, 5000),
-          link: `${BASE_URL}/${brand}/${category}/${slug}`,
-          imageLink: product.images?.[0]?.url
-            ? `${BASE_URL}${product.images[0].url}`
-            : "",
-          contentLanguage: "ar",
-          targetCountry: "EG",
-          availability: (product.stock || 0) > 0 ? "in stock" : "out of stock",
-          condition: "new",
-          price: {
-            value: product.price.toString(),
-            currency: "EGP",
-          },
-          brand: product.brand,
-          gtin: product.gtin || undefined,
-          shipping: [
-            {
-              country: "EG",
-              price: {
-                value: product.price >= 500 ? "0" : "40",
-                currency: "EGP",
-              },
-            },
-          ],
+      const response = await fetch(INDEXING_WEBHOOK_URL, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${secret}`,
+          "Content-Type": "application/json; charset=utf-8",
         },
+        body: JSON.stringify({ url, type: "URL_UPDATED", slug }),
+        signal: AbortSignal.timeout(15_000),
       });
 
-      console.log(`[Merchant] ✅ Synced: ${arName} (${product.price} EGP)`);
-    } catch (error) {
-      console.error("[Merchant] ❌ Shopping API Failed:", error.message);
+      await discardResponseBody(response);
+      if (!response.ok) {
+        logger.warn("Index-update webhook returned an unsuccessful response.", {
+          status: response.status,
+        });
+        return null;
+      }
+
+      logger.info("Index-update webhook completed.");
+    } catch {
+      logger.error("Index-update webhook request failed.");
     }
+
+    return null;
   }
 );
 
-// ═══════════════════════════════════════════════════════════
-// 3. SERVER-SIDE GA4 PURCHASE TRACKING (bypasses AdBlockers)
-// ═══════════════════════════════════════════════════════════
+exports.syncMerchantCenter = onDocumentUpdated(
+  { document: "products/{productId}" },
+  async (event) => {
+    const product = event.data?.after.data() || {};
+    const previousProduct = event.data?.before.data() || {};
+
+    if (
+      product.price === previousProduct.price &&
+      product.stock === previousProduct.stock &&
+      product.translations?.ar?.name === previousProduct.translations?.ar?.name
+    ) {
+      return null;
+    }
+
+    const merchantId = cleanString(process.env.MERCHANT_ID, 32);
+    const dataSourceId = cleanString(process.env.MERCHANT_DATA_SOURCE_ID, 64);
+    if (!/^\d+$/.test(merchantId) || !/^\d+$/.test(dataSourceId)) {
+      logger.warn("Merchant synchronization is not configured; request skipped.");
+      return null;
+    }
+
+    const slug = cleanString(product.slug, 200);
+    const offerId = cleanString(product.sku || slug, 50);
+    const title = plainText(product.translations?.ar?.name || slug, 150);
+    const description = plainText(
+      product.translations?.ar?.description ||
+        product.translations?.ar?.shortDescription ||
+        title,
+      5_000
+    );
+    const url = canonicalProductUrl(product);
+    const price = numericValue(product.price);
+    const imageUrl = publicImageUrl(product.images?.[0]?.url);
+    const brand = plainText(product.brand, 70);
+    const gtin = merchantGtin(product.gtin13, product.gtin);
+
+    if (!slug || !offerId || !title || !description || !url || price <= 0) {
+      logger.warn("Merchant product data is incomplete; synchronization skipped.");
+      return null;
+    }
+
+    const productAttributes = {
+      title,
+      description,
+      link: url,
+      availability: numericValue(product.stock) > 0 ? "in_stock" : "out_of_stock",
+      condition: "new",
+      price: {
+        amountMicros: String(Math.round(price * 1_000_000)),
+        currencyCode: "EGP",
+      },
+      ...(imageUrl ? { imageLink: imageUrl } : {}),
+      ...(brand ? { brand } : {}),
+      ...(gtin ? { gtins: [gtin] } : {}),
+    };
+
+    try {
+      const auth = new google.auth.GoogleAuth({ scopes: [MERCHANT_SCOPE] });
+      const merchant = google.merchantapi({ version: "products_v1", auth });
+      const parent = `accounts/${merchantId}`;
+
+      await merchant.accounts.productInputs.insert({
+        parent,
+        dataSource: `${parent}/dataSources/${dataSourceId}`,
+        requestBody: {
+          contentLanguage: "ar",
+          feedLabel: "EG",
+          offerId,
+          productAttributes,
+        },
+      });
+
+      logger.info("Merchant product synchronization completed.");
+    } catch {
+      logger.error("Merchant product synchronization failed.");
+    }
+
+    return null;
+  }
+);
+
 exports.trackPurchaseGA4 = onDocumentCreated(
   {
     document: "orders/{orderId}",
     secrets: [GA4_MEASUREMENT_ID, GA4_API_SECRET],
   },
   async (event) => {
-    const order = event.data.data();
-    const measurementId = GA4_MEASUREMENT_ID.value();
-    const apiSecret = GA4_API_SECRET.value();
+    const order = event.data?.data() || {};
+    const orderId = cleanString(event.data?.id, 100);
+    const measurementId = cleanString(GA4_MEASUREMENT_ID.value(), 100);
+    const apiSecret = cleanString(GA4_API_SECRET.value(), 200);
 
-    if (!measurementId || !apiSecret) {
-      console.warn("[GA4] ⚠️ GA4 credentials not configured, skipping");
+    if (!orderId || !measurementId || !apiSecret) {
+      logger.warn("GA4 purchase tracking is not fully configured; event skipped.");
       return null;
     }
 
-    const items = (order.items || []).map((item, idx) => ({
-      item_id: item.productId || item.id || `item_${idx}`,
-      item_name: item.name || "Unknown",
-      price: item.price || 0,
-      quantity: item.quantity || 1,
-      item_brand: item.brand || "CairoVolt",
+    const sourceItems = Array.isArray(order.items) ? order.items.slice(0, 200) : [];
+    const items = sourceItems.map((item, index) => ({
+      item_id: cleanString(item?.productId || item?.id, 100) || `item_${index + 1}`,
+      item_name: cleanString(item?.name, 200) || "Product",
+      price: numericValue(item?.price, 0, 10_000_000),
+      quantity: Math.max(1, Math.round(numericValue(item?.quantity, 1, 100))),
+      item_brand: cleanString(item?.brand, 100) || "CairoVolt",
     }));
 
+    const clientId = createHash("sha256").update(orderId).digest("hex").slice(0, 32);
     const payload = {
-      client_id: order.userId || `server_${event.data.id}`,
+      client_id: `server.${clientId}`,
       events: [
         {
           name: "purchase",
           params: {
             currency: "EGP",
-            value: order.totalAmount || 0,
-            transaction_id: event.data.id,
-            shipping: order.shipping || 0,
-            items: items,
+            value: numericValue(order.totalAmount, 0, 100_000_000),
+            transaction_id: orderId,
+            shipping: numericValue(order.shipping, 0, 1_000_000),
+            items,
           },
         },
       ],
     };
 
+    const endpoint = new URL("https://www.google-analytics.com/mp/collect");
+    endpoint.searchParams.set("measurement_id", measurementId);
+    endpoint.searchParams.set("api_secret", apiSecret);
+
     try {
-      const endpoint = `https://www.google-analytics.com/mp/collect?measurement_id=${measurementId}&api_secret=${apiSecret}`;
-      const res = await fetch(endpoint, {
+      const response = await fetch(endpoint, {
         method: "POST",
+        headers: { "Content-Type": "application/json; charset=utf-8" },
         body: JSON.stringify(payload),
+        signal: AbortSignal.timeout(15_000),
       });
 
-      if (res.ok) {
-        console.log(
-          `[GA4] ✅ Purchase tracked: ${event.data.id} | ${order.totalAmount} EGP | ${items.length} items`
-        );
-      } else {
-        console.error(`[GA4] ❌ Response: ${res.status}`);
+      await discardResponseBody(response);
+      if (!response.ok) {
+        logger.warn("GA4 purchase endpoint returned an unsuccessful response.", {
+          status: response.status,
+        });
+        return null;
       }
-    } catch (error) {
-      console.error("[GA4] ❌ Failed:", error.message);
+
+      logger.info("GA4 purchase event submitted.");
+    } catch {
+      logger.error("GA4 purchase event submission failed.");
     }
+
+    return null;
   }
 );

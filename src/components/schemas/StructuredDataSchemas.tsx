@@ -2,53 +2,6 @@
 // DO NOT add 'use client' here!
 
 // ============================================
-// SPEAKABLE SCHEMA - Voice Assistant Support
-// ============================================
-
-interface SpeakableProps {
-    pageUrl: string;
-    speakableSelectors?: string[];
-    headline: string;
-    description: string;
-    locale: string;
-}
-
-/**
- * SpeakableSchema enables voice assistant support for Google Assistant/Alexa
- * Use on pages with content that should be read aloud by voice assistants
- */
-export function SpeakableSchema({
-    pageUrl,
-    speakableSelectors = ['.speakable-content', 'h1', '.product-description'],
-    headline,
-    description,
-    locale
-}: SpeakableProps) {
-    const schema = {
-        '@context': 'https://schema.org',
-        '@type': 'WebPage',
-        '@id': pageUrl,
-        name: headline,
-        description: description,
-        inLanguage: locale === 'ar' ? 'ar-EG' : 'en-EG',
-        speakable: {
-            '@type': 'SpeakableSpecification',
-            cssSelector: speakableSelectors,
-        },
-        // Reference the canonical #website node (GlobalBusinessSchema in the
-        // layout) instead of redeclaring a conflicting inline WebSite.
-        isPartOf: { '@id': 'https://cairovolt.com/#website' },
-    };
-
-    return (
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-    );
-}
-
-// ============================================
 // HOWTO SCHEMA - For Buying Guides
 // ============================================
 
@@ -147,13 +100,6 @@ export function HowToSchema({
 // ARTICLE SCHEMA - For Content Sections
 // ============================================
 
-interface EntityReference {
-    name: string;
-    type: string;       // schema.org @type (Brand, Product, Thing, Country)
-    sameAs: string;     // Wikipedia URL
-    additionalSameAs?: string[]; // Wikidata, official sites
-}
-
 interface ArticleSection {
     heading: string;
     content: string;
@@ -169,14 +115,10 @@ interface ArticleProps {
     image?: string;
     locale: string;
     articleType?: 'Article' | 'BlogPosting' | 'NewsArticle' | 'TechArticle';
-    about?: EntityReference[];    // Primary entities this article is about
-    mentions?: EntityReference[]; // Entities mentioned in the article
 }
 
 /**
- * ArticleSchema for content in brand/category pages
- * Helps establish Trust & Quality and enables enhanced results
- * Enhanced with `about` and `mentions` for structured entity references
+ * Article schema for site-owned editorial content.
  */
 export function ArticleSchema({
     headline,
@@ -188,20 +130,18 @@ export function ArticleSchema({
     image,
     locale,
     articleType = 'Article',
-    about,
-    mentions,
 }: ArticleProps) {
     // Combine sections into article body for structured content
     const articleBody = sections
         ?.map(s => `${s.heading}\n${s.content}`)
-        .join('\n\n') || description;
+        .join('\n\n');
 
     const schema: Record<string, unknown> = {
         '@context': 'https://schema.org',
         '@type': articleType,
         headline: headline,
         description: description,
-        articleBody: articleBody,
+        ...(articleBody && { articleBody }),
         inLanguage: locale === 'ar' ? 'ar-EG' : 'en-EG',
         ...(datePublished && { datePublished }),
         ...(dateModified && { dateModified }),
@@ -209,16 +149,11 @@ export function ArticleSchema({
             '@type': 'WebPage',
             '@id': url,
         },
-        // Honest authorship: this content is produced by CairoVolt's own editorial
-        // team. We deliberately do NOT attribute articles to independent external
-        // reviewers (e.g. famous YouTubers) who are not contracted authors —
-        // fabricated bylines violate Google's "Who / How / Why" content guidance
-        // and risk a manual action. When a real, named human author signs an
-        // article, add them here as a Person with a verifiable sameAs.
+        // Attribute site-owned articles to the same store organization node.
         author: {
             '@type': 'Organization',
             '@id': 'https://cairovolt.com/#organization',
-            name: locale === 'ar' ? 'فريق تحرير كايرو فولت' : 'CairoVolt Editorial Team',
+            name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
             url: 'https://cairovolt.com',
         },
         publisher: {
@@ -234,197 +169,14 @@ export function ArticleSchema({
         },
     };
 
-    // Image — with crawler-facing provenance (visible badges were removed from
-    // the UI per business decision; rights live here + EXIF/XMP + sr-only caption)
+    // Optional article-cover URL. Do not assert rights without a separate
+    // record documenting ownership or a licence for the exact asset.
     if (image) {
         schema.image = {
             '@type': 'ImageObject',
             url: image,
-            // creator مطلوب لميزة Image Metadata في Google (كانت ناقصة → تنبيه GSC).
-            // نفس مرجع منظمة كايرو فولت المستخدم في ImageObjectSchema/ProductSchema.
-            creator: {
-                '@type': 'Organization',
-                '@id': 'https://cairovolt.com/#organization',
-                name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
-                url: 'https://cairovolt.com',
-            },
-            copyrightNotice: '© CairoVolt. Rights and provenance metadata are supplied where available.',
-            creditText: locale === 'ar' ? 'كايرو فولت — صورة كتالوج' : 'CairoVolt — catalogue image',
-            copyrightHolder: { '@id': 'https://cairovolt.com/#organization' },
         };
     }
-
-    // Related entities: about (primary topics)
-    if (about && about.length > 0) {
-        schema.about = about.map(entity => ({
-            '@type': entity.type,
-            name: entity.name,
-            sameAs: entity.sameAs,
-            ...(entity.additionalSameAs && entity.additionalSameAs.length > 0 && {
-                additionalType: entity.additionalSameAs[0],
-            }),
-        }));
-    }
-
-    // Related entities: mentions (referenced entities)
-    if (mentions && mentions.length > 0) {
-        schema.mentions = mentions.map(entity => ({
-            '@type': entity.type,
-            name: entity.name,
-            sameAs: entity.sameAs,
-        }));
-    }
-
-    return (
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-    );
-}
-
-// Re-export EntityReference for use in other components
-export type { EntityReference };
-
-// ============================================
-// LOCAL BUSINESS SCHEMA - Regional Targeting for Egypt
-// ============================================
-
-interface LocalBusinessProps {
-    locale: string;
-}
-
-/**
- * LocalBusinessSchema for Egypt-targeted Regional Targeting
- * Includes all major Egyptian governorates in service area
- */
-export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
-    const isArabic = locale === 'ar';
-
-    // All 27 Egyptian Governorates
-    const egyptianGovernorates = [
-        { en: 'Cairo Governorate', ar: 'محافظة القاهرة' },
-        { en: 'Giza Governorate', ar: 'محافظة الجيزة' },
-        { en: 'Alexandria Governorate', ar: 'محافظة الإسكندرية' },
-        { en: 'Dakahlia Governorate', ar: 'محافظة الدقهلية' },
-        { en: 'Sharqia Governorate', ar: 'محافظة الشرقية' },
-        { en: 'Gharbia Governorate', ar: 'محافظة الغربية' },
-        { en: 'Monufia Governorate', ar: 'محافظة المنوفية' },
-        { en: 'Qalyubia Governorate', ar: 'محافظة القليوبية' },
-        { en: 'Beheira Governorate', ar: 'محافظة البحيرة' },
-        { en: 'Kafr El Sheikh', ar: 'محافظة كفر الشيخ' },
-        { en: 'Damietta Governorate', ar: 'محافظة دمياط' },
-        { en: 'Port Said Governorate', ar: 'محافظة بورسعيد' },
-        { en: 'Ismailia Governorate', ar: 'محافظة الإسماعيلية' },
-        { en: 'Suez Governorate', ar: 'محافظة السويس' },
-        { en: 'Fayoum Governorate', ar: 'محافظة الفيوم' },
-        { en: 'Beni Suef Governorate', ar: 'محافظة بني سويف' },
-        { en: 'Minya Governorate', ar: 'محافظة المنيا' },
-        { en: 'Asyut Governorate', ar: 'محافظة أسيوط' },
-        { en: 'Sohag Governorate', ar: 'محافظة سوهاج' },
-        { en: 'Qena Governorate', ar: 'محافظة قنا' },
-        { en: 'Luxor Governorate', ar: 'محافظة الأقصر' },
-        { en: 'Aswan Governorate', ar: 'محافظة أسوان' },
-        { en: 'Red Sea Governorate', ar: 'محافظة البحر الأحمر' },
-        { en: 'North Sinai', ar: 'محافظة شمال سيناء' },
-        { en: 'South Sinai', ar: 'محافظة جنوب سيناء' },
-        { en: 'Matrouh Governorate', ar: 'محافظة مطروح' },
-        { en: 'New Valley Governorate', ar: 'محافظة الوادي الجديد' },
-    ];
-
-    const schema = {
-        '@context': 'https://schema.org',
-        '@type': 'Store',
-        '@id': 'https://cairovolt.com/#local-business',
-        parentOrganization: { '@id': 'https://cairovolt.com/#organization' },
-        name: isArabic ? 'كايرو فولت' : 'CairoVolt',
-        alternateName: isArabic ? 'CairoVolt' : 'كايرو فولت',
-        description: isArabic
-            ? 'الموزع المعتمد لمنتجات انكر وجوي روم في مصر. باور بانك، شواحن، سماعات، كابلات بأفضل الأسعار مع ضمان رسمي.'
-            : 'Authorized dealer for Anker and Joyroom products in Egypt. Power banks, chargers, earbuds, cables at best prices with official warranty.',
-        url: 'https://cairovolt.com',
-        logo: 'https://cairovolt.com/logo.png',
-        image: 'https://cairovolt.com/cairovolt_logo.webp',
-        telephone: '+201558245974',
-        email: 'support@cairovolt.com',
-        currenciesAccepted: 'EGP',
-        paymentAccepted: ['Cash on Delivery', 'الدفع عند الاستلام'],
-        priceRange: '$$',
-        slogan: isArabic ? 'الوكيل المعتمد لانكر وجوي روم في مصر — مختبرياً' : 'Authorized Anker & Joyroom Dealer in Egypt — Lab Tested',
-        sameAs: [
-            'https://www.facebook.com/cairovolt',
-            'https://www.instagram.com/cairovolt',
-            'https://www.tiktok.com/@cairovolt',
-            'https://www.linkedin.com/company/cairovolt',
-            'https://kaggle.com/cairovolt',
-            'https://wa.me/201558245974',
-            'https://x.com/cairovolt',
-            'https://www.youtube.com/@cairovolt',
-        ],
-        openingHoursSpecification: [
-            {
-                '@type': 'OpeningHoursSpecification',
-                dayOfWeek: [
-                    'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Saturday',
-                ],
-                opens: '09:00',
-                closes: '23:00',
-            },
-            {
-                '@type': 'OpeningHoursSpecification',
-                dayOfWeek: ['Friday'],
-                opens: '14:00',
-                closes: '23:00',
-            },
-        ],
-        address: {
-            '@type': 'PostalAddress',
-            streetAddress: 'Bosta Fulfillment Center, Industrial Area, New Cairo 3',
-            addressCountry: 'EG',
-            addressRegion: isArabic ? 'القاهرة' : 'Cairo Governorate',
-            addressLocality: isArabic ? 'القاهرة الجديدة' : 'New Cairo',
-            postalCode: '4716140',
-        },
-        geo: {
-            '@type': 'GeoCoordinates',
-            latitude: 30.6997469,
-            longitude: 31.2088556,
-        },
-        areaServed: egyptianGovernorates.map(gov => ({
-            '@type': 'AdministrativeArea',
-            name: isArabic ? gov.ar : gov.en,
-        })),
-        // Shipping availability across Egypt
-        hasOfferCatalog: {
-            '@type': 'OfferCatalog',
-            name: isArabic ? 'منتجات كايرو فولت' : 'CairoVolt Products',
-            itemListElement: [
-                {
-                    '@type': 'OfferCatalog',
-                    name: isArabic ? 'باور بانك' : 'Power Banks',
-                    url: `https://cairovolt.com${isArabic ? '' : '/en'}/power-banks`,
-                },
-                {
-                    '@type': 'OfferCatalog',
-                    name: isArabic ? 'شواحن' : 'Chargers',
-                    url: `https://cairovolt.com${isArabic ? '' : '/en'}/chargers`,
-                },
-                {
-                    '@type': 'OfferCatalog',
-                    name: isArabic ? 'سماعات' : 'Earbuds',
-                    url: `https://cairovolt.com${isArabic ? '' : '/en'}/earbuds`,
-                },
-                {
-                    '@type': 'OfferCatalog',
-                    name: isArabic ? 'كابلات' : 'Cables',
-                    url: `https://cairovolt.com${isArabic ? '' : '/en'}/cables`,
-                },
-            ],
-        },
-        // NOTE: aggregateRating removed — Store ratings should come from 
-        // verified review platforms, not be hardcoded. Adding unverified ratings
-        // here is considered invalid structured data.
-    };
 
     return (
         <script
@@ -459,7 +211,7 @@ export function ItemListSchema({ listName, items }: ItemListProps) {
         '@type': 'ItemList',
         name: listName,
         numberOfItems: items.length,
-        itemListOrder: 'https://schema.org/ItemListOrderDescending',
+        itemListOrder: 'https://schema.org/ItemListUnordered',
         itemListElement: items.map((item) => ({
             '@type': 'ListItem',
             position: item.position,
@@ -498,10 +250,10 @@ export function CollectionPageSchema({ locale, collections }: CollectionPageSche
         '@context': 'https://schema.org',
         '@type': 'CollectionPage',
         '@id': `${baseUrl}${isArabic ? '' : '/en'}/#collectionpage`,
-        name: isArabic ? 'إكسسوارات الموبايل - انكر و Joyroom مصر' : 'Mobile Accessories - Anker & Joyroom Egypt',
+        name: isArabic ? 'إكسسوارات الموبايل - انكر وساوندكور وجوي روم في مصر' : 'Mobile Accessories - Anker, Soundcore & Joyroom Egypt',
         description: isArabic
-            ? 'تسوق أفضل إكسسوارات الموبايل الأصلية في مصر. باور بانك، شواحن، سماعات، كابلات من انكر و Joyroom.'
-            : 'Shop the best original mobile accessories in Egypt. Power banks, chargers, earbuds, cables from Anker & Joyroom.',
+            ? 'تسوق إكسسوارات الموبايل في مصر، بما يشمل باور بانك وشواحن وسماعات وكابلات من انكر وساوندكور وجوي روم.'
+            : 'Shop mobile accessories in Egypt, including power banks, chargers, earbuds, and cables from Anker, Soundcore, and Joyroom.',
         url: `${baseUrl}${isArabic ? '' : '/en'}`,
         inLanguage: isArabic ? 'ar-EG' : 'en-EG',
         isPartOf: {

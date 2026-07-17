@@ -29,10 +29,10 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
             title: 'هل الباور بانك يقدر يشحن لابتوب؟ الدليل العلمي الكامل بالأرقام (2026)',
             metaTitle: 'هل الباور بانك يشحن لابتوب؟ الشروط + أفضل باور بانك للابتوب 2026 | كايرو فولت',
             metaDescription: 'اعرف هل الباور بانك بتاعك يقدر يشحن اللابتوب ولا لا — بالشروط العلمية الدقيقة. جدول توافق كامل لكل لابتوب + أفضل باور بانك للابتوب في مصر. تابع التفاصيل بمصر.',
-            keywords: 'هل الباور بانك يشحن لابتوب, باور بانك للابتوب, شحن لابتوب من باور بانك, باور بانك لابتوب, افضل باور بانك للابتوب 2026, أنكر 737 لابتوب, باور بانك 65 وات, شحن ماك بوك باور بانك, power bank laptop egypt, باور بانك USB-C PD',
+            keywords: 'هل الباور بانك يشحن لابتوب, باور بانك للابتوب, شحن لابتوب من باور بانك, باور بانك لابتوب, افضل باور بانك للابتوب 2026, انكر 737 لابتوب, باور بانك 65 وات, شحن ماك بوك باور بانك, power bank laptop egypt, باور بانك USB-C PD',
             excerpt: 'مش أي باور بانك يشحن لابتوب. في 3 شروط لازم تتحقق — القدرة، البروتوكول، والسعة. اعرفهم بالأرقام.',
-            quickAnswer: 'أيوا، الباور بانك يقدر يشحن لابتوب بشرط 3 حاجات: (1) خرج USB-C بقدرة 45W على الأقل ببروتوكول PD 3.0، (2) سعة 20,000mAh فأكثر، (3) اللابتوب نفسه لازم يدعم الشحن عبر USB-C. معظم لابتوبات 2022+ بتدعم ده. أنكر 737 PowerBank (140W/24,000mAh) هو الخيار الأقوى — بيشحن MacBook Air من 0 لـ 100% مرة كاملة.',
-            content: `
+            quickAnswer: 'يمكن للباور بانك شحن بعض اللابتوبات إذا كان الجهاز يدعم الشحن عبر USB-C وكان خرج الباور بانك والبروتوكول والكابل يطابقون متطلبات الموديل. قارن قدرة المنفذ عند استخدام منفذ واحد أو عدة منافذ، والطاقة المصنفة بالواط/ساعة، وحدود الطيران؛ فلا توجد قدرة أو سعة دنيا واحدة تضمن التوافق أو شحنة كاملة لكل لابتوب.',
+            content: `<p class="content-method-note"><strong>أساس المقارنة:</strong> تعتمد الأرقام التالية على المواصفات المنشورة أو أمثلة حسابية موضحة، وتتغير النتيجة حسب الجهاز والحرارة وطريقة الاستخدام.</p>
 <h2>السؤال اللي بيسأله كل حد عنده لابتوب</h2>
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#1e3a5f" role="complementary" aria-label="الجواب السريع">
     <p><strong>⚡ الجواب المختصر:</strong> أيوا — لكن <strong>مش أي باور بانك</strong>. لازم 3 شروط تتحقق: خرج <strong>USB-C PD بقدرة 45W+</strong>، سعة <strong>20,000mAh+</strong>، واللابتوب نفسه لازم <strong>يدعم شحن USB-C</strong>. باور بانك 10,000mAh بخرج 5V/2A <strong>مش هيشحن</strong> أي لابتوب.</p>
@@ -41,7 +41,7 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
 <p>تخيّل إنك قاعد في كافيه، اللابتوب على وشك يقفل، ومفيش بريزة فاضية. أو في رحلة طيران 5 ساعات وعندك شغل لازم يتسلّم. الباور بانك ممكن يكون <strong>المنقذ</strong> — لكن بس لو فهمت العلم وراه.</p>
 
 <div class="expert-callout" style="background:#eff6ff;border-right:4px solid #3b82f6;padding:16px 20px;border-radius:8px;margin:20px 0">
-    <p><strong>🔬 منهجية الاختبار:</strong> اختبرنا 5 باور بانكات مع 4 لابتوبات مختلفة (MacBook Air M3, Dell XPS 13, Lenovo ThinkPad, HP Pavilion). قسنا الوقت الفعلي للشحن، عدد الشحنات الكاملة، وحرارة الباور بانك أثناء الشحن.</p>
+    <p><strong>🔬 منهج المقارنة:</strong> تعتمد المقارنة على بروتوكول USB-C PD والطاقة بالواط/ساعة ومواصفات الأجهزة المنشورة. لم تقس كايرو فولت أوقات الشحن أو الحرارة لهذه التركيبات؛ النتائج التالية أمثلة حسابية تقريبية.</p>
 </div>
 
 <h2>الشرط #1: بروتوكول USB-C Power Delivery (PD) ⚡</h2>
@@ -101,12 +101,12 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
     <p style="margin:0;color:#92400e"><strong>✈️ ملاحظة للسفر:</strong> شركات الطيران بتسمح بباور بانك حتى <strong>100Wh</strong> (حوالي 27,000mAh). باور بانك 26,800mAh = 99.2Wh — <strong>تحت الحد بفرق بسيط</strong>. اقرأ <a href="/blog/power-bank-airplane-rules-egypt-2026" style="color:#2563eb">دليل قوانين الطيران الكامل</a>.</p>
 </div>
 
-<h2>نتائج اختبارنا الحقيقي</h2>
+<h2>أمثلة تقديرية مبنية على المواصفات</h2>
 <div class="expert-callout" style="background:#eff6ff;border-right:4px solid #3b82f6;padding:16px 20px;border-radius:8px;margin:20px 0">
-    <p><strong>📊 اختبار MacBook Air M3 (بطارية 52.6Wh) من 10% حتى 100%:</strong></p>
+    <p><strong>📊 مثال حسابي لـ MacBook Air M3:</strong> النسب والأوقات التالية تقديرية وليست نتيجة اختبار مستقل، وتختلف مع الحمل وحالة البطارية.</p>
 </div>
 <table>
-    <thead><tr><th>الباور بانك</th><th>خرج PD</th><th>وصل لكام%</th><th>الوقت</th></tr></thead>
+    <thead><tr><th>الباور بانك</th><th>خرج PD</th><th>نطاق تقديري</th><th>زمن تقريبي</th></tr></thead>
     <tbody>
         <tr><td>جينيريك 20,000mAh (بدون PD)</td><td>10W ❌</td><td>لم يشحن</td><td>—</td></tr>
         <tr><td><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb">انكر زولو 20,000</a></td><td>22.5W</td><td>10% → 72%</td><td>3.5 ساعة</td></tr>
@@ -133,13 +133,13 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
     </ul>
 </div>
 
-<p>كل المنتجات أصلية بضمان 18 شهر وبطاقة تحقق C2PA. توصيل لكل مصر خلال 24-72 ساعة. تصفّح <a href="/anker/power-banks" style="color:#2563eb;font-weight:bold">باور بانكات أنكر</a> على كايرو فولت.</p>
+<p>راجع بيانات الموديل والسعر والمخزون وهوية البائع ومدة ضمان المتجر المكتوبة في الصفحة والفاتورة. أهلية التوصيل والموعد التقديري يعتمدان على العنوان والطلب. تصفّح <a href="/anker/power-banks" style="color:#2563eb;font-weight:bold">باور بانكات انكر</a> على كايرو فولت وقارن خرج USB-C PD بمتطلبات اللابتوب.</p>
 `,
             faq: [
-                { question: 'هل الباور بانك يقدر يشحن لابتوب؟', answer: 'أيوا، بشرط إن الباور بانك يدعم USB-C Power Delivery بقدرة 45W على الأقل، سعته 20,000mAh فأكثر، واللابتوب نفسه يدعم الشحن عبر USB-C. معظم لابتوبات 2022+ بتدعم ده.' },
-                { question: 'إيه أفضل باور بانك لشحن اللابتوب في مصر؟', answer: 'أنكر 737 PowerBank (140W/24,000mAh) هو الأقوى — بيشحن MacBook Air من 0 لـ 100% في ساعة ونص. لميزانية أقل، أنكر Zolo 20,000mAh بيشحن اللابتوبات الخفيفة كويس.' },
-                { question: 'باور بانك 10,000mAh يشحن لابتوب؟', answer: 'غالباً لا. 10,000mAh = حوالي 31Wh فعلية — ده أقل من نص بطارية MacBook Air (52.6Wh). هتاخد أقل من نص شحنة وده مش عملي. الحد الأدنى العملي هو 20,000mAh.' },
-                { question: 'هل شحن اللابتوب من باور بانك بيأثر على البطارية؟', answer: 'لا. طالما الباور بانك أصلي وبيدعم PD، هو بيتواصل مع اللابتوب بنفس بروتوكول الشاحن الأصلي. اللابتوب هو اللي بيتحكم في الجهد والتيار — فالشحن آمن تماماً.' },
+                { question: 'هل الباور بانك يقدر يشحن لابتوب؟', answer: 'نعم لبعض الموديلات، بشرط دعم اللابتوب للشحن عبر USB-C وتطابق بروتوكول الخرج والقدرة والكابل مع دليل الجهاز. افحص أيضاً توزيع القدرة عند تشغيل أكثر من منفذ.' },
+                { question: 'إيه أفضل باور بانك لشحن اللابتوب في مصر؟', answer: 'الأفضل هو الموديل المطابق لقدرة وبروتوكول اللابتوب مع طاقة كافية بالواط/ساعة وضمان مكتوب. قارن مواصفات موديلات انكر وغيرها والسعر الحالي، ولا تعتمد على زمن شحن ثابت أو ترتيب مطلق.' },
+                { question: 'باور بانك 10,000mAh يشحن لابتوب؟', answer: 'قد يشحن بعض الأجهزة الخفيفة فقط إذا تطابقت القدرة والبروتوكول، بينما قد ترفض أجهزة أخرى الشحن. قارن الطاقة بالواط/ساعة بسعة بطارية اللابتوب مع حساب فاقد التحويل، لا رقم mAh وحده.' },
+                { question: 'هل شحن اللابتوب من باور بانك بيأثر على البطارية؟', answer: 'استخدم باور بانك وكابلاً متوافقين مع مواصفات اللابتوب، وراقب الحرارة وحالة المعدات. بروتوكول PD يساعد في تفاوض الطاقة لكنه لا يجعل كل تركيب آمناً تلقائياً؛ اتبع تعليمات مصنّع الجهاز.' },
             ],
         },
         en: {
@@ -148,8 +148,8 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
             metaDescription: 'Find out if your power bank can charge your laptop — with exact scientific requirements. Full compatibility table for every laptop + best power banks for lap...',
             keywords: 'can power bank charge laptop, power bank for laptop, charge laptop with power bank, best power bank laptop 2026, Anker 737 laptop, 65W power bank, charge MacBook power bank, USB-C PD power bank, laptop power bank Egypt, how many watts to charge laptop',
             excerpt: 'Not every power bank can charge a laptop. There are 3 conditions that must be met — wattage, protocol, and capacity. Learn them with real numbers.',
-            quickAnswer: 'Yes, a power bank can charge a laptop if it meets 3 conditions: (1) USB-C output with at least 45W via PD 3.0 protocol, (2) capacity of 20,000mAh or more, (3) the laptop itself must support USB-C charging. Most 2022+ laptops support this. The Anker 737 PowerBank (140W/24,000mAh) is the strongest option — it charges a MacBook Air from 0 to 100% in one full cycle.',
-            content: `
+            quickAnswer: 'A power bank can charge some laptops when the computer accepts USB-C charging and the bank\'s protocol, port output, and cable match that exact model. Compare single- and multi-port allocation, rated watt-hours, conversion losses, and travel limits; no universal wattage or capacity guarantees compatibility or a full charge.',
+            content: `<p class="content-method-note"><strong>Evidence base:</strong> The figures below use published specifications or clearly stated worked examples; results vary by device, temperature, and use.</p>
 <h2>The Question Every Laptop Owner Asks</h2>
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#1e3a5f" role="complementary" aria-label="Quick Answer">
     <p><strong>⚡ Short Answer:</strong> Yes — but <strong>not just any power bank</strong>. You need 3 things: <strong>USB-C PD output at 45W+</strong>, capacity of <strong>20,000mAh+</strong>, and your laptop must <strong>support USB-C charging</strong>. A 10,000mAh power bank with 5V/2A output <strong>will not work</strong>.</p>
@@ -173,10 +173,10 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
 <h2>Requirement #3: Sufficient Capacity (mAh) 📊</h2>
 <p>Real energy = mAh × 3.7V ÷ 1000 × 85% efficiency. A 20,000mAh bank delivers ~63Wh — enough for one full MacBook Air charge. The <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb"><strong>Anker 737 (24,000mAh)</strong></a> delivers ~74Wh for a full charge plus 30% extra. The <a href="/en/anker/power-banks/anker-powercore-26800" style="color:#2563eb"><strong>Anker 26,800mAh</strong></a> at 99Wh gives ~84Wh — about 1.5 full charges.</p>
 
-<h2>Our Real-World Test Results</h2>
-<p>Testing MacBook Air M3 (52.6Wh battery) from 10% to maximum:</p>
+<h2>Specification-Based Estimates</h2>
+<p>Illustrative MacBook Air M3 example: the percentages and times below are estimates, not an independent test, and vary with workload and battery condition.</p>
 <table>
-    <thead><tr><th>Power Bank</th><th>PD Output</th><th>Charged To</th><th>Time</th></tr></thead>
+    <thead><tr><th>Power Bank</th><th>PD Output</th><th>Illustrative Range</th><th>Approx. Time</th></tr></thead>
     <tbody>
         <tr><td>Generic 20,000mAh (no PD)</td><td>10W ❌</td><td>Did not charge</td><td>—</td></tr>
         <tr><td><a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb">Anker Zolo 20,000</a></td><td>22.5W</td><td>10% → 72%</td><td>3.5 hours</td></tr>
@@ -196,13 +196,13 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
     </ul>
 </div>
 
-<p>All products are original with 18-month warranty and C2PA authentication. Shop <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:bold">Anker power banks</a> on CairoVolt — delivery across Egypt in 24-72 hours. ✈️ Taking your power bank on a flight? Read our <a href="/en/blog/power-bank-airplane-rules-egypt-2026" style="color:#2563eb">complete airplane rules guide</a>.</p>
+<p>Review the exact model, current price, stock, seller identity, and written store-warranty term on the product page and invoice. Compare <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:bold">Anker power banks</a> by USB-C PD output and laptop requirements; delivery eligibility and estimate depend on the address. ✈️ Before flying, read the <a href="/en/blog/power-bank-airplane-rules-egypt-2026" style="color:#2563eb">airplane rules guide</a> and confirm the carrier’s current policy.</p>
 `,
             faq: [
-                { question: 'Can a power bank charge a laptop?', answer: 'Yes, if it supports USB-C PD at 45W+, has 20,000mAh+ capacity, and the laptop supports USB-C charging. Most 2022+ laptops are compatible.' },
-                { question: 'Best power bank for laptop in Egypt 2026?', answer: 'Anker 737 (140W/24,000mAh) is the top choice — charges MacBook Air 0-100% in 1.5 hours. For budget option, Anker Zolo 20,000mAh handles lighter laptops.' },
-                { question: 'Can 10,000mAh power bank charge a laptop?', answer: 'Practically no. 10,000mAh = ~31Wh effective — less than half a MacBook Air battery (52.6Wh). You would get less than half a charge. Minimum practical capacity is 20,000mAh.' },
-                { question: 'Does charging laptop from power bank damage the battery?', answer: 'No. Original PD power banks communicate with the laptop using the same protocol as the original charger. The laptop controls voltage and current — so charging is completely safe.' },
+                { question: 'Can a power bank charge a laptop?', answer: 'Yes for some models, when the laptop accepts USB-C charging and the output protocol, wattage, and cable match its published requirements. Also check power allocation when multiple ports are in use.' },
+                { question: 'Best power bank for laptop in Egypt 2026?', answer: 'Choose by the laptop\'s required protocol and wattage, usable watt-hours, written warranty, and current price. Compare exact Anker and other models rather than relying on a fixed charging time or an absolute ranking.' },
+                { question: 'Can 10,000mAh power bank charge a laptop?', answer: 'It may charge some low-power devices if the protocol and output match, while other laptops may refuse it. Compare watt-hours with the laptop battery and allow for conversion losses; mAh alone is not enough.' },
+                { question: 'Does charging laptop from power bank damage the battery?', answer: 'Use a power bank and cable that match the laptop manufacturer\'s specifications and monitor heat and equipment condition. PD negotiation reduces mismatch risk, but it does not make every combination automatically safe.' },
             ],
         },
     },

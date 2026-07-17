@@ -5,154 +5,153 @@ export const joyroom_car_holders_content: CategoryContent = {
             categoryName: 'Car Holders',
             metadata: {
                 en: {
-                    title: 'Joyroom Car Holder Egypt | MagSafe N52 Mount | EGP 169',
-                    description: 'Joyroom car phone holders in Egypt. N52 Neodymium magnetic mount, MagSafe compatible, 360° rotation. ✓ CairoVolt road-tested ✓ 1-year warranty ✓ COD',
+                    title: 'Joyroom Car Holder Egypt | MagSafe and N52 Mounts',
+                    description: 'Compare Joyroom car phone holders by vent or dashboard mounting, N52 magnets, MagSafe compatibility, and adjustment. Current price and CairoVolt warranty are listed per product.',
                     keywords: 'جوي روم car holder, جوي روم car mount, car phone mount egypt, magnetic car holder, MagSafe car mount, N52 magnet holder, air vent mount, حامل موبايل سيارة',
                 },
                 ar: {
-                    title: 'حامل موبايل سيارة جوي روم مصر | N52 + MagSafe من 169 جنيه',
-                    description: 'تسوق حامل موبايل للسيارة جوي روم في مصر. مغناطيس N52 + MagSafe + دوران 360°. ✓ اختبار طرق CairoVolt ✓ ضمان سنة ✓ توصيل القاهرة ✓ دفع عند الاستلام',
+                    title: 'حامل موبايل سيارة جوي روم مصر | N52 وMagSafe',
+                    description: 'قارن حوامل موبايل جوي روم للتكييف والتابلوه حسب مغناطيس N52 وتوافق MagSafe وإمكانية الضبط. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
                     keywords: 'حامل موبايل سيارة, حامل موبايل للسيارة, حامل جوي روم, حامل مغناطيسي, حامل MagSafe, سعر حامل موبايل سيارة, جوي روم car holder, حامل تكييف سيارة',
                 }
             },
             pageContent: {
                 ar: {
-                    title: 'حامل موبايل للسيارة جوي روم — من 169 جنيه',
-                    subtitle: 'مغناطيس N52 + MagSafe + دوران 360° | ضمان سنة',
+                    title: 'حامل موبايل للسيارة جوي روم حسب مكان التثبيت',
+                    subtitle: 'قارن N52 وMagSafe وحوامل التكييف والتابلوه',
                     description: `
-الحوامل الرخيصة الموبايل (الهاتف الذكي) بيقع منها على أول مطب. حامل **جوي روم** بمغناطيس صناعي من أقوى الأنواع تجارياً. ثبات مطلق حتى على أسوأ طرق مصر.
+يعتمد ثبات حامل **جوي روم** على قوة المغناطيس أو المشبك ووزن الهاتف والجراب وشكل فتحة التكييف أو سطح التابلوه وطريقة التركيب.
 **مثالي لطرق مصر:**
-مطبات الصحراوي؟ حرارة الصيف جوا العربية؟ الحامل مصنوع من مواد مقاومة للحرارة — مش بيسيح ولا بيفك. شوف دليل الشراء بالأسفل لاختيار النوع المناسب.
-اطلبه الآن — ضمان سنة CairoVolt + توصيل القاهرة خلال 24 ساعة. تسوق [اكسسوارات سيارة جوي روم](/joyroom/car-accessories) لمنظومة كاملة.
+نظف سطح التثبيت، واتبع تعليمات الموديل، واختبر الثبات قبل القيادة، ولا تركب الحامل في موضع يحجب الرؤية أو الوسائد الهوائية. شوف دليل الشراء بالأسفل لاختيار النوع المناسب.
+ضمان كايرو فولت ومدته وشروطه موضحة في صفحة المنتج والسياسة. موعد التوصيل تقديري حسب العنوان. تسوق [اكسسوارات سيارة جوي روم](/joyroom/car-accessories) لمنظومة كاملة.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'مغناطيس Neodymium N52 أصلي — قوة شد 1,200 جاوس' },
-                        { type: 'warranty', text: 'CE + FCC معتمد — ضمان سنة من CairoVolt + استبدال فوري 14 يوم' },
-                        { type: 'expert_verified', text: 'اختبار طرق مصر — 500 كم بدون سقوط' }
+                        { type: 'originality', text: 'نوع المغناطيس والتوافق موضحان حسب الموديل' },
+                        { type: 'warranty', text: 'ضمان كايرو فولت حسب صفحة المنتج والسياسة' },
+                        { type: 'expert_verified', text: 'تعليمات تركيب وتوافق واضحة حسب الموديل' }
                     ],
                     buyingGuide: [
                         {
-                            title: 'فتحة التكييف ولا التابلوه؟ (مقارنة بالأرقام)',
+                            title: 'فتحة التكييف ولا التابلوه؟',
                             content: `
 | المعيار | حامل التكييف (Vent) | حامل التابلوه (Dashboard) |
 |---------|----|----|
-| **التبريد** | ✅ تيار التكييف يبرد الموبايل — حرارة أقل 8°م | ❌ لا تبريد |
-| **الرؤية** | ✅ لا يحجب الزجاج | ⚠️ قد يحجب جزء بسيط |
-| **الثبات** | 🟡 يعتمد على شكل فتحة التكييف | ✅ لاصق 3M — ثابت على أي سطح |
-| **الموبايلات الكبيرة** | ⚠️ +250 جرام قد يضغط الفتحة | ✅ يتحمل أي وزن |
-**نصيحة CairoVolt:** لو سيارتك BMW/مرسيدس بفتحات تكييف دائرية → التابلوه أفضل. لو فتحات أفقية → التكييف أفضل.
+| **التبريد** | يتأثر بتيار الهواء وقد يغيّر حرارة الهاتف | لا يستفيد مباشرةً من تيار التكييف |
+| **الرؤية** | يعتمد على شكل الفتحة وموضع الهاتف | اختر موضعاً لا يحجب الزجاج أو أدوات القيادة |
+| **الثبات** | يعتمد على شكل وقوة ريش التكييف | يعتمد على نظافة السطح ونوع اللاصق وحرارة المقصورة |
+| **الموبايلات الكبيرة** | راجع حد الوزن لتجنب الضغط على الفتحة | راجع حد الوزن وتوافق السطح قبل التركيب |
+**نصيحة كايرو فولت:** اختر النوع بعد فحص شكل الفتحة والسطح وموضع الوسائد الهوائية، وليس بناءً على ماركة السيارة وحدها.
 `
                         },
                         {
                             title: 'إزاي تعرف الحامل المقلد من الأصلي؟',
                             content: `
-1. **المغناطيس:** الأصلي N52 بيمسك الموبايل من مسافة 2 سم — المقلد لازم تلزق الموبايل فيه
-2. **اللاصق:** 3M الأصلي بيشيل بدون أثر — المقلد بيسيب صمغ على التابلوه
-3. **الدوران:** الأصلي 360° سلس بيد واحدة — المقلد بيعلق
-4. **العلبة:** كود QR + ختم جوي روم على العلبة الأصلية
-5. **المصدر:** CairoVolt — الموزع المعتمد بضمان سنة
+1. **الموديل:** طابق رقم الموديل وصور المنتج ونوع التثبيت مع معلومات الشركة المتاحة.
+2. **المغناطيس واللاصق:** اختبر الثبات وفق تعليمات المنتج، ولا تعتبر القوة أو نوع اللاصق دليلاً منفرداً على الأصالة.
+3. **الحركة:** تأكد من سلاسة المفصل وعدم وجود كسر أو ارتخاء قبل القيادة.
+4. **العلبة:** استخدم وسيلة التحقق الرسمية المتاحة إن وُجدت؛ كود QR وحده لا يثبت أصالة الشركة المصنّعة.
+5. **الفاتورة والضمان:** احتفظ بفاتورة كايرو فولت وراجع مدة وشروط الضمان في صفحة المنتج والسياسة.
 `
                         },
                         {
-                            title: 'هل المغناطيس بيضر الموبايل؟ (الحقيقة العلمية)',
+                            title: 'هل المغناطيس يؤثر على الموبايل؟',
                             content: `
-**لا. قطعاً لا.** مغناطيس N52 المستخدم في حوامل جوي روم:
-- **لا يؤثر على البطارية:** بطاريات الليثيوم لا تتأثر بالمجال المغناطيسي
-- **لا يؤثر على الشبكة:** ترددات 4G/5G أعلى بكثير من تأثير المغناطيس
-- **لا يؤثر على GPS:** تم اختباره في CairoVolt — دقة GPS ±3 متر (نفس الدقة بدون الحامل)
-- **MagSafe:** أبل نفسها تستخدم مغناطيس في ايفون 12+ — إثبات أن المغناطيس آمن 100%
+صُممت الحوامل المتوافقة مع MagSafe للاستخدام مع أجهزة وجرابات محددة، لكن الحلقة المعدنية أو موضع المغناطيس قد يؤثران على البوصلة أو الشحن اللاسلكي في تركيب غير مناسب.
+- اتبع موضع التركيب الذي تحدده الشركة للموديل والجراب.
+- أبعد البطاقات ذات الشريط المغناطيسي والأجهزة الطبية الحساسة وفق تعليمات مصنّعيها.
+- تأكد من عدم حجب الهوائي أو الرؤية أو أدوات التحكم.
+- إذا لاحظت سخونة أو اضطراباً في الشحن اللاسلكي، أزل الحلقة أو الحامل وراجع التوافق.
 `
                         }
                     ],
                     faq: [
                         {
                             question: 'هل الحامل آمن على الموبايل؟ المغناطيس مش بيضر؟',
-                            answer: 'آمن 100%. جربناه في CairoVolt لمدة 30 يوم يومياً على ايفون 17 Pro Max — لا تغيُّر في عمر البطارية ولا تأثير على جودة المكالمات أو تحديد الموقع. المغناطيس N52 معزول عن الدوائر الإلكترونية بطبقة عازلة. لو عندك قلق، ركّب القطعة المعدنية على الجراب مش مباشرة على الموبايل.'
+                            answer: 'استخدم الحامل وفق تعليمات الشركة ومع هاتف أو جراب متوافق. إذا كان الموديل يحتاج حلقة معدنية، ثبّتها على الجراب في الموضع الموصى به وتجنب وضعها فوق مكوّنات الشحن اللاسلكي.'
                         },
                         {
                             question: 'إيه الفرق بين حامل التكييف وحامل التابلوه؟',
-                            answer: 'حامل التكييف: يبرد الموبايل (حرارة أقل 8°م) + لا يحجب الرؤية. حامل التابلوه: ثبات أقوى + يناسب أي سيارة + لاصق 3M قابل للإزالة. لو سيارتك بفتحات دائرية (BMW/مرسيدس) → التابلوه أفضل.'
+                            answer: 'حامل التكييف يعتمد على شكل وقوة الريش وقد يتأثر بتيار الهواء. حامل التابلوه يعتمد على توافق السطح واللاصق والحرارة. اختر موضعاً لا يحجب الرؤية أو الوسائد الهوائية وراجع حد الوزن.'
                         },
                         {
                             question: 'هل بيشتغل مع ايفون 17 وجراب MagSafe؟',
-                            answer: 'نعم! JR-ZS290 متوافق مع MagSafe بدون قطعة معدنية إضافية — يلصق مباشرة على جرابات MagSafe لايفون 12-17. قوة مغناطيسية 1,200 جاوس تمسك الموبايل حتى على طريق وعر.'
+                            answer: 'راجع صفحة JR-ZS290 للتأكد من توافق MagSafe وقائمة الأجهزة أو الجرابات المدعومة. اختبر الثبات بالجراب المستخدم فعلياً قبل القيادة؛ القوة الفعلية تتغير مع السمك والمحاذاة والاهتزاز.'
                         },
                         {
                             question: 'الحامل بيسقط مع المطبات؟',
-                            answer: 'لا. اختبرناه في CairoVolt على طريق القاهرة-الإسكندرية الصحراوي 500 كم — صفر سقوط. مغناطيس N52 بقوة 1,200 جاوس يتحمل وزن 5 أضعاف وزن أثقل موبايل في السوق (iPhone 17 Pro Max = 227 جرام). حتى مع مطبات السرعة عند 120 كم/س.'
+                            answer: 'الثبات يعتمد على تركيب القاعدة ووزن الهاتف والجراب وحالة سطح التثبيت. راجع حد الوزن المعلن للموديل، ونظف السطح وشد القاعدة قبل القيادة.'
                         }
                         ,{
                             question: 'كم سعر حامل موبايل سيارة جوي روم في مصر؟',
-                            answer: 'من 169 جنيه (Dashboard لاصق) إلى 2,550 جنيه (MagSafe مغناطيسي). مقارنةً بحوامل بلاستيكية بـ 50 جنيه: جوي روم مغناطيس N52 حقيقي + ضمان سنة. توصيل القاهرة يوم واحد.'
+                            answer: 'السعر الحالي يظهر في بطاقة وصفحة كل منتج وقد يتغير حسب نوع التثبيت والتوافق والعروض. راجع أيضاً ضمان كايرو فولت وموعد التوصيل التقديري لعنوانك.'
                         }
                         ,{
                             question: 'هل الحامل بيناسب كل الموبايلات؟',
-                            answer: 'نعم. حامل Dashboard 360 بيناسب أي موبايل من 4.7 لـ 7 بوصة (ايفون 17 Pro Max، سامسونج S26 Ultra، شاومي). حامل MagSafe بيناسب ايفون 12-17 مع جراب MagSafe.'
+                            answer: 'لا يناسب كل حامل كل هاتف. راجع نطاق المقاس والوزن للمشبك، أو توافق MagSafe ونوع الجراب للحامل المغناطيسي، ثم تأكد من ثبات الهاتف قبل القيادة.'
                         }
                         ,{
                             question: 'ما ضمان حامل جوي روم من CairoVolt؟',
-                            answer: 'ضمان سنة استبدال فوري. لو الحامل اتكسر أو المغناطيس ضعف — استبدال مجاني خلال 14 يوم. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
+                            answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال مكتوبة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         }
                         ,{
                             question: 'هل الحامل بيحجب فتحة التكييف؟',
-                            answer: 'لا. حامل التكييف من جوي روم مصمم بعناية مش بيحجب تدفق الهواء. بالعكس — تيار التكييف بيبرد الموبايل أثناء الشحن (أقل 8°م من حامل التابلوه — اختبار CairoVolt).'
+                            answer: 'يعتمد ذلك على شكل فتحة التكييف وحجم الهاتف. اختر مشبكاً مناسباً واضبط موضع الحامل بحيث لا يعوق تدفق الهواء أو أدوات التحكم.'
                         }
                     ],
                     products: [
-                        { name: 'جوي روم Dashboard 360 (لاصق)', price: 169, badge: '⭐ الأرخص والأكثر مبيعاً' },
+                        { name: 'جوي روم Dashboard 360 (لاصق)', price: 169, badge: 'تثبيت على التابلوه' },
                         { name: 'جوي روم JR-ZS290 MagSafe (مغناطيسي)', price: 934, badge: 'MagSafe ايفون' }
                     ]
                 },
                 en: {
-                    title: 'Joyroom Car Phone Holder — From EGP 169',
-                    subtitle: 'N52 Neodymium + MagSafe + 360° Rotation | 1-Year Warranty',
+                    title: 'Joyroom Car Phone Holders by Mounting Type',
+                    subtitle: 'Compare N52, MagSafe, vent, and dashboard mounts',
                     description: `
-Cheap car mounts let your phone fall on the first bump. Joyroom uses commercial-grade magnets — the strongest available. Absolute stability even on Egypt's worst roads.
-**CairoVolt Road Test:**
-500 km on the Cairo-Alexandria desert highway at 120 km/h. Speed bumps, potholes, and unpaved detours — zero drops. See buying guide below for mount type comparison.
-CairoVolt verified — order now with next-day Cairo & Giza delivery.
+Mount stability depends on the magnet or clamp, phone and case weight, vent shape or dashboard surface, and correct installation.
+Choose the mount type that fits your dashboard or vent, follow the installation instructions, and confirm the phone is secure before driving. See the buying guide below for mount type comparison.
+CairoVolt warranty terms are listed per product and delivery timing is estimated from the confirmed address.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'Genuine Neodymium N52 — 1,200 Gauss Pull Force' },
-                        { type: 'warranty', text: '1-Year CairoVolt Warranty + 14-Day Replacement' },
-                        { type: 'expert_verified', text: 'Egyptian Road Tested — CE + FCC Certified — 500km Zero Drops' }
+                        { type: 'originality', text: 'Magnet type and compatibility listed by model' },
+                        { type: 'warranty', text: 'CairoVolt warranty per product and policy' },
+                        { type: 'expert_verified', text: 'Clear compatibility and installation guidance by model' }
                     ],
                     buyingGuide: [
                         {
-                            title: 'Vent vs. Dashboard: Data-Driven Comparison',
+                            title: 'Vent vs. Dashboard Mounts',
                             content: `
 | Criteria | Vent Mount | Dashboard Mount |
 |----------|-----------|----------------|
-| **Cooling** | ✅ AC cools phone — 8°C lower | ❌ No cooling |
-| **Visibility** | ✅ No windshield obstruction | ⚠️ Slight obstruction |
-| **Stability** | 🟡 Depends on vent shape | ✅ 3M adhesive — any surface |
-| **Heavy phones** | ⚠️ +250g may strain vent | ✅ Handles any weight |
-**CairoVolt Tip:** BMW/Mercedes with round vents → Dashboard is better. Horizontal vents → Vent mount is ideal.
+| **Cooling** | Airflow may change phone temperature | Does not directly use vent airflow |
+| **Visibility** | Depends on vent shape and phone position | Choose a position that does not obstruct the windshield or controls |
+| **Stability** | Depends on vent shape and blade strength | Depends on surface compatibility, cleanliness, adhesive, and cabin heat |
+| **Heavy phones** | Check the weight limit to avoid vent strain | Check the weight limit and surface compatibility before mounting |
+**CairoVolt Tip:** Choose after checking vent shape, surface material, sight lines, and airbag locations—not the car brand alone.
 `
                         },
                         {
                             title: 'How to Spot a Fake Car Holder',
                             content: `
-1. **Magnet:** Real N52 grabs phone from 2cm away — fakes need direct contact
-2. **Adhesive:** Genuine 3M peels clean — fakes leave sticky residue on dashboard
-3. **Rotation:** Real 360° is smooth one-handed — fakes jam and stick
-4. **Packaging:** QR code + Joyroom seal on genuine boxes
-5. **Source:** CairoVolt — authorized dealer with 1-year warranty
+1. **Model:** Match the model number, images, and mounting type with the manufacturer's available information.
+2. **Magnet and adhesive:** Test hold according to the instructions; strength or adhesive type alone does not prove authenticity.
+3. **Movement:** Check that the joint is smooth and free of cracks or looseness before driving.
+4. **Packaging:** Use the manufacturer's available official verification method if provided. A QR code alone does not prove manufacturer authenticity.
+5. **Invoice and warranty:** Keep the CairoVolt invoice and review the duration and terms on the product page and policy.
 `
                         },
                         {
-                            title: 'Does the Magnet Damage Phones? (Scientific Truth)',
+                            title: 'Can a Magnetic Mount Affect a Phone?',
                             content: `
-**No. Absolutely not.** Joyroom N52 magnets:
-- **No battery effect:** Lithium batteries are unaffected by magnetic fields
-- **No signal effect:** 4G/5G frequencies are far above magnetic influence
-- **No GPS effect:** CairoVolt tested — GPS accuracy ±3m (same with and without mount)
-- **MagSafe proof:** Apple uses magnets in iPhone 12+ — proving magnets are 100% safe
+MagSafe-compatible mounts are designed for specified devices and cases, but a metal ring or incorrect magnet position can affect the compass or wireless charging.
+- Follow the model and case installation position stated by the manufacturer.
+- Keep magnetic-stripe cards and sensitive medical devices at the distances their manufacturers specify.
+- Do not obstruct antennas, sight lines, controls, or airbags.
+- If wireless charging becomes hot or unreliable, remove the ring or mount and recheck compatibility.
 `
                         }
                     ],
                     products: [
-                        { name: 'Joyroom Dashboard 360 (Adhesive)', price: 169, badge: '⭐ Best Value' },
+                        { name: 'Joyroom Dashboard 360 (Adhesive)', price: 169, badge: 'Dashboard Mount' },
                         { name: 'Joyroom JR-ZS290 MagSafe (Magnetic)', price: 934, badge: 'MagSafe iPhone' }
                     ]
                 }

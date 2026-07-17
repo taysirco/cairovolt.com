@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { staticProducts } from '@/lib/static-products';
+import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 
 /**
  * Markdown Content Negotiation Handler
@@ -18,6 +20,16 @@ import { NextRequest, NextResponse } from 'next/server';
 
 export const revalidate = 3600;
 
+const COLLECTION_ROOTS = new Set([
+    'anker',
+    'joyroom',
+    'soundcore',
+    'power-banks',
+    'chargers',
+    'cables',
+    'earbuds',
+]);
+
 export async function GET(
     request: NextRequest,
     { params }: { params: Promise<{ slug: string[] }> }
@@ -25,6 +37,8 @@ export async function GET(
     const { slug } = await params;
     const path = slug.join('/');
     const baseUrl = 'https://cairovolt.com';
+    const routeSegments = slug[0] === 'en' || slug[0] === 'ar' ? slug.slice(1) : slug;
+    const localePrefix = slug[0] === 'en' ? '/en' : '';
 
     // Homepage → serve llms.txt (our comprehensive markdown representation)
     if (path === 'index' || path === '') {
@@ -51,54 +65,47 @@ export async function GET(
         }
     }
 
-    // Product pages (e.g., /en/product/anker-737-powerbank or /ar/product/...)
-    if (path.includes('product/')) {
-        const productSlug = path.split('product/').pop() || '';
-        try {
-            const catalogResponse = await fetch(`${baseUrl}/api/v1/checkout?slug=${productSlug}`, {
-                next: { revalidate: 3600 },
-            });
+    // Product pages follow /[brand]/[category]/[slug], with an optional /en.
+    if (routeSegments.length === 3) {
+        const [brand, category, productSlug] = routeSegments;
+        const product = staticProducts.find(item =>
+            item.slug === productSlug
+            && item.brand.toLowerCase() === brand.toLowerCase()
+            && item.categorySlug === category,
+        );
 
-            if (catalogResponse.ok) {
-                const data = await catalogResponse.json();
-                const product = data.product || data;
-                
-                const md = generateProductMarkdown(product, productSlug);
-                return new NextResponse(md, {
-                    headers: {
-                        'Content-Type': 'text/markdown; charset=utf-8',
-                        'Vary': 'Accept',
-                        'Cache-Control': 'public, max-age=3600, s-maxage=3600',
-                    },
-                });
-            }
-        } catch {
-            // Fall through to generic handler
+        if (product) {
+            const md = generateProductMarkdown(product, localePrefix);
+            return new NextResponse(md, {
+                headers: {
+                    'Content-Type': 'text/markdown; charset=utf-8',
+                    'Vary': 'Accept',
+                    'Cache-Control': 'public, max-age=3600, s-maxage=3600',
+                },
+            });
         }
     }
 
-    // Category/brand pages 
-    if (path.includes('category/') || path.includes('brand/')) {
-        const segment = path.split('/').pop() || '';
+    // Brand and category collection pages.
+    if (routeSegments.length <= 2 && COLLECTION_ROOTS.has(routeSegments[0] || '')) {
+        const segment = routeSegments.at(-1) || '';
         const md = `# CairoVolt — ${segment.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
 
 Browse this collection at [cairovolt.com/${path}](${baseUrl}/${path})
 
 ## About CairoVolt
 
-CairoVolt is Egypt's authorized distributor for **Anker** and **Joyroom** mobile accessories.
+CairoVolt is an Egyptian online store for **Anker**, **Joyroom**, and **Soundcore** accessories.
 
-- 📍 Cairo, Egypt
-- 🚚 Free shipping above 3,700 EGP to all 27 governorates
+- Service area: Egypt
+- Free shipping above ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} EGP
 - 💰 Cash on Delivery
-- 🔬 All products independently lab-tested at 37–42°C
-- ✅ C2PA verified authenticity
+- ✅ CairoVolt warranty-card serial lookup available at ${baseUrl}/verify
 
 ## API Access
 
 - Product catalog: ${baseUrl}/api/llms/catalog
 - OpenAPI spec: ${baseUrl}/api/openapi.json
-- Lab test data: ${baseUrl}/api/lab-data/json
 `;
 
         return new NextResponse(md, {
@@ -117,13 +124,12 @@ This page is available at [cairovolt.com/${path}](${baseUrl}/${path})
 
 ## About CairoVolt
 
-CairoVolt is Egypt's authorized distributor for **Anker** and **Joyroom** mobile accessories.
+CairoVolt is an Egyptian online store for **Anker**, **Joyroom**, and **Soundcore** accessories.
 
 ### Key Links
 
 - [Full Product Catalog (Markdown)](${baseUrl}/api/llms/catalog)
 - [OpenAPI Specification](${baseUrl}/api/openapi.json)
-- [Lab Test Data](${baseUrl}/api/lab-data/json)
 - [AI Instructions](${baseUrl}/.well-known/llms.txt)
 
 ### Contact
@@ -143,42 +149,51 @@ CairoVolt is Egypt's authorized distributor for **Anker** and **Joyroom** mobile
 }
 
 
-function generateProductMarkdown(product: Record<string, unknown>, slug: string): string {
-    const name = (product.name as Record<string, string>)?.en || (product.name as string) || slug;
-    const nameAr = (product.name as Record<string, string>)?.ar || '';
-    const price = product.price || product.currentPrice || 'N/A';
-    const brand = product.brand || 'Unknown';
-    const category = product.category || 'Accessories';
-    const description = (product.description as Record<string, string>)?.en || (product.description as string) || '';
-    const inStock = product.stock !== undefined ? Number(product.stock) > 0 : product.available !== false;
+function plainText(value: string | undefined): string {
+    return (value || '')
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
+function generateProductMarkdown(
+    product: (typeof staticProducts)[number],
+    localePrefix: string,
+): string {
+    const name = plainText(product.translations.en.name);
+    const nameAr = plainText(product.translations.ar.name);
+    const description = plainText(
+        product.translations.en.shortDescription || product.translations.en.description,
+    );
+    const productPath = `${localePrefix}/${product.brand.toLowerCase()}/${product.categorySlug}/${product.slug}`;
+    const productUrl = `https://cairovolt.com${productPath}`;
 
     return `# ${name}${nameAr ? ` (${nameAr})` : ''}
 
 | Field | Value |
 |-------|-------|
-| Brand | ${brand} |
-| Category | ${category} |
-| Price | ${price} EGP |
-| In Stock | ${inStock ? '✅ Yes' : '❌ No'} |
-| Shipping | Free above 3,700 EGP |
+| Brand | ${product.brand} |
+| Category | ${product.categorySlug} |
+| Price | ${product.price} EGP |
+| In Stock | ${product.stock > 0 ? 'Yes' : 'No'} |
+| Shipping | Free above ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} EGP |
 | Payment | Cash on Delivery |
 
 ## Description
 
-${description || `${name} — available at CairoVolt Egypt.`}
+${description || `${name} is listed in the CairoVolt catalog.`}
 
 ## Buy This Product
 
 \`\`\`bash
 curl -X POST "https://cairovolt.com/api/v1/checkout" \\
   -H "Content-Type: application/json" \\
-  -d '{"slug": "${slug}", "quantity": 1, "customerName": "...", "phone": "...", "address": "...", "city": "cairo"}'
+  -d '{"slug": "${product.slug}", "quantity": 1, "customerName": "...", "phone": "...", "address": "...", "city": "cairo"}'
 \`\`\`
 
 ## Links
 
-- [Product Page](https://cairovolt.com/en/product/${slug})
+- [Product Page](${productUrl})
 - [Full Catalog](https://cairovolt.com/api/llms/catalog)
-- [Lab Test Data](https://cairovolt.com/api/lab-data/json)
 `;
 }

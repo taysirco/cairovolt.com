@@ -93,8 +93,8 @@ export default function Header() {
                 <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-xs py-1.5 hidden md:block">
                     <div className="container mx-auto px-4 flex items-center justify-between">
                         <div className="flex items-center gap-4">
-                            <span className="flex items-center gap-1"><SvgIcon name="check-circle" className="w-3.5 h-3.5" /> {isRTL ? 'منتجات أصلية 100%' : '100% Original Products'}</span>
-                            <span className="flex items-center gap-1"><SvgIcon name="truck" className="w-3.5 h-3.5" /> {isRTL ? 'شحن سريع لجميع المحافظات' : 'Fast Shipping Nationwide'}</span>
+                            <span className="flex items-center gap-1"><SvgIcon name="check-circle" className="w-3.5 h-3.5" /> {isRTL ? 'ضمان كايرو فولت مكتوب' : 'Written CairoVolt Warranty'}</span>
+                            <span className="flex items-center gap-1"><SvgIcon name="truck" className="w-3.5 h-3.5" /> {isRTL ? 'توصيل داخل مصر' : 'Delivery Within Egypt'}</span>
                         </div>
                         <div className="flex items-center gap-4">
                             <a href="tel:+201558245974" className="hover:underline" onClick={() => trackPhoneClick()} suppressHydrationWarning>
@@ -130,7 +130,7 @@ export default function Header() {
                                 />
                         </div>
                         <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-300 dark:to-indigo-300 bg-clip-text text-transparent hidden sm:inline">
-                            {isRTL ? 'كايرو فولت' : 'Cairo Volt'}
+                            {isRTL ? 'كايرو فولت' : 'CairoVolt'}
                         </span>
                     </Link>
 

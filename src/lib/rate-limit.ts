@@ -20,6 +20,7 @@ const writeStore = new Map<string, RateLimitEntry>();
 const READ_LIMIT = 120;   // requests per window
 const WRITE_LIMIT = 20;   // requests per window
 const WINDOW_MS = 60_000; // 1 minute
+const MAX_STORE_ENTRIES = 10_000;
 
 // Lazy cleanup — runs inline instead of setInterval to avoid serverless memory leaks
 let lastCleanup = Date.now();
@@ -53,6 +54,10 @@ export function checkRateLimit(ip: string, isWrite: boolean): RateLimitResult {
     let entry = store.get(ip);
 
     if (!entry || now > entry.resetAt) {
+        if (store.size >= MAX_STORE_ENTRIES) {
+            const oldestKey = store.keys().next().value;
+            if (oldestKey) store.delete(oldestKey);
+        }
         entry = { count: 0, resetAt: now + WINDOW_MS };
         store.set(ip, entry);
     }

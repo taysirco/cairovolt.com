@@ -5,7 +5,7 @@
 //     supplied — an empty block never appears.
 //  2. Every link is rel="nofollow noopener noreferrer": these are references
 //     for the reader, NOT endorsements and NOT equity-passing links. nofollow
-//     keeps this from reading as a link exchange or PBN signal.
+//     keeps this from reading as a reciprocal-link scheme.
 //  3. No JSON-LD / schema is emitted here — we do not assert any relationship
 //     between CairoVolt and these third-party pages beyond "further reading".
 //  4. Intended to hold 1–2 topically-relevant links, well below the article's

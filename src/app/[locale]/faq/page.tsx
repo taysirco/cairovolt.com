@@ -44,12 +44,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             siteName: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
             images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: locale === 'ar' ? 'كايرو فولت - اكسسوارات الموبايل' : 'CairoVolt - Mobile Accessories' }],
         },
-        other: {
-            'geo.region': 'EG',
-            'geo.placename': locale === 'ar' ? 'القاهرة، مصر' : 'Cairo, Egypt',
-            'geo.position': '30.0444;31.2357',
-            'ICBM': '30.0444, 31.2357',
-        },
     };
 }
 
@@ -58,14 +52,14 @@ const faqCategories = ['ordering', 'shipping', 'warranty', 'products', 'payment'
 // Additional Q&As — merged into the main FAQ data
 const voiceFAQs = {
     ar: [
-        { question: 'لو المنتج وصلني فيه مشكلة أعمل إيه؟', answer: 'تواصل معانا على واتساب 01558245974 خلال 14 يوم. بنستبدله فوراً أو نرجعلك فلوسك. الاستبدال مجاني في القاهرة والجيزة.' },
-        { question: 'هل بتقبلوا الدفع فودافون كاش أو إنستاباي؟', answer: 'حالياً الدفع عند الاستلام كاش فقط (COD). المندوب بيوصلك المنتج وبتدفع لما تستلم وتتأكد.' },
-        { question: 'الضمان بتاعكم بيغطي إيه بالظبط؟', answer: 'ضمان 18 شهر لمنتجات انكر و12 شهر لجوي روم. بيغطي عيوب الصناعة. لو الكابل اتقطع أو الباور بانك مشحنش — بنستبدله مجاناً.' },
+        { question: 'لو المنتج وصلني فيه مشكلة أعمل إيه؟', answer: 'تواصل معنا على واتساب 01558245974 واحتفظ بالمنتج وملحقاته وتغليفه. يراجع فريقنا الحالة ويؤكد لك الإجراء المتاح وفق سياسة الإرجاع أو ضمان كايرو فولت.' },
+        { question: 'هل بتقبلوا الدفع فودافون كاش أو إنستاباي؟', answer: 'حالياً الدفع عند الاستلام كاش فقط (COD). راجع إجمالي الطلب وتكلفة الشحن قبل التأكيد، وسياسة الإرجاع إذا ظهرت مشكلة بعد الاستلام.' },
+        { question: 'الضمان بتاعكم بيغطي إيه بالظبط؟', answer: 'تظهر مدة ضمان كايرو فولت وشروطه في صفحة كل منتج. يغطي الضمان المنتجات المؤهلة وفق الشروط المكتوبة، ويحدد فريق الدعم الإجراء بعد فحص الحالة.' },
     ],
     en: [
-        { question: 'What if my product arrives damaged?', answer: 'Contact us on WhatsApp 01558245974 within 14 days. We replace it immediately or refund you. Free replacement in Cairo & Giza.' },
-        { question: 'Do you accept Vodafone Cash or InstaPay?', answer: 'Currently we accept Cash on Delivery (COD) only. The courier delivers and you pay when you receive and verify the product.' },
-        { question: 'What exactly does your warranty cover?', answer: '18 months for Anker, 12 months for Joyroom. Covers manufacturing defects. If a cable frays or power bank won\'t charge — free replacement.' },
+        { question: 'What if my product arrives damaged?', answer: 'Contact us on WhatsApp at 01558245974 and keep the product, accessories, and packaging. Our team will review the case and confirm the available remedy under the return policy or CairoVolt warranty.' },
+        { question: 'Do you accept Vodafone Cash or InstaPay?', answer: 'Currently we accept Cash on Delivery (COD) only. Review the order total and shipping cost before confirmation, and the return policy if an issue appears after receipt.' },
+        { question: 'What exactly does your warranty cover?', answer: 'The CairoVolt warranty duration and terms are shown on each product page. Eligible cases are handled under those written terms after the support team reviews the product.' },
     ],
 };
 
@@ -89,7 +83,7 @@ export default async function FAQPage({ params }: Props) {
 
     return (
         <>
-            {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
+            {/* The answers stay visible without asserting FAQPage rich-result eligibility. */}
             <BreadcrumbSchema
                 items={[
                     { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
@@ -160,11 +154,9 @@ export default async function FAQPage({ params }: Props) {
                                             {qa.question}
                                             <span className="text-blue-600 transition-transform group-open:rotate-180">▼</span>
                                         </summary>
-                                        <div className="cairovolt-voice-answer mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 font-medium">
+                                        <div className="cairovolt-faq-answer mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 font-medium">
                                             <strong className="text-blue-700 dark:text-blue-400">
-                                                {isArabic
-                                                    ? (index % 2 === 0 ? 'رد الخبير م.أحمد مدحت:' : 'رد الخبير م.يحيى رضوان:')
-                                                    : (index % 2 === 0 ? 'Expert Eng. Ahmed Medhat:' : 'Expert Eng. Yahia Radwan:')}
+                                                {isArabic ? 'إجابة كايرو فولت:' : 'CairoVolt answer:'}
                                             </strong>{' '}
                                             {qa.answer}
                                         </div>

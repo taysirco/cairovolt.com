@@ -28,10 +28,10 @@ export const governorates: Governorate[] = [
         deliveryDays: 1,
         population: 10.2,
         meta: {
-            titleEn: 'Mobile Accessories Cairo | Same Day Delivery | CairoVolt',
-            titleAr: 'اكسسوارات موبايل القاهرة | توصيل نفس اليوم | كايرو فولت',
-            descriptionEn: 'Shop Anker & Joyroom mobile accessories in Cairo with same-day delivery. Power banks, chargers, earbuds with official warranty.',
-            descriptionAr: 'تسوق اكسسوارات انكر وجوي روم في القاهرة مع توصيل نفس اليوم. باور بانك، شواحن، سماعات بضمان رسمي.',
+            titleEn: 'Mobile Accessories Delivery to Cairo | CairoVolt',
+            titleAr: 'توصيل اكسسوارات موبايل إلى القاهرة | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom power banks, chargers, and earbuds with an address-based delivery estimate and written CairoVolt warranty terms.',
+            descriptionAr: 'تسوق باور بانك وشواحن وسماعات انكر وجوي روم مع موعد توصيل تقديري حسب العنوان وشروط ضمان كايرو فولت المكتوبة.',
         },
     },
     {
@@ -44,8 +44,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories Giza | Fast Delivery | CairoVolt',
             titleAr: 'اكسسوارات موبايل الجيزة | توصيل سريع | كايرو فولت',
-            descriptionEn: 'Buy original Anker & Joyroom accessories in Giza. Fast delivery to 6th October, Sheikh Zayed & all Giza areas.',
-            descriptionAr: 'اشتري اكسسوارات انكر وجوي روم الأصلية في الجيزة. توصيل سريع لأكتوبر والشيخ زايد وكل مناطق الجيزة.',
+            descriptionEn: 'Shop Anker and Joyroom accessories with delivery estimates for 6th October, Sheikh Zayed, and other Giza areas.',
+            descriptionAr: 'تسوق اكسسوارات انكر وجوي روم مع مواعيد توصيل تقديرية لأكتوبر والشيخ زايد ومناطق الجيزة.',
         },
     },
     {
@@ -73,8 +73,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories Alexandria | Anker & Joyroom | CairoVolt',
             titleAr: 'اكسسوارات موبايل الإسكندرية | انكر وجوي روم | كايرو فولت',
-            descriptionEn: 'Original Anker & Joyroom accessories in Alexandria. Power banks, chargers, earbuds with 2-day delivery.',
-            descriptionAr: 'اكسسوارات انكر وجوي روم الأصلية في الإسكندرية. باور بانك، شواحن، سماعات مع توصيل خلال يومين.',
+            descriptionEn: 'Shop Anker and Joyroom power banks, chargers, and earbuds with an address-based delivery estimate for Alexandria.',
+            descriptionAr: 'تسوق باور بانك وشواحن وسماعات انكر وجوي روم مع موعد توصيل تقديري حسب العنوان في الإسكندرية.',
         },
     },
     {
@@ -101,8 +101,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories Sharqia | Zagazig Delivery | CairoVolt',
             titleAr: 'اكسسوارات موبايل الشرقية | توصيل الزقازيق | كايرو فولت',
-            descriptionEn: 'Original mobile accessories in Sharqia. Fast delivery to Zagazig, 10th of Ramadan & Belbeis.',
-            descriptionAr: 'اكسسوارات موبايل أصلية في الشرقية. توصيل سريع للزقازيق والعاشر من رمضان وبلبيس.',
+            descriptionEn: 'Shop mobile accessories with delivery estimates for Zagazig, 10th of Ramadan, Belbeis, and other Sharqia areas.',
+            descriptionAr: 'تسوق اكسسوارات موبايل مع مواعيد توصيل تقديرية للزقازيق والعاشر من رمضان وبلبيس ومناطق الشرقية.',
         },
     },
     {
@@ -129,8 +129,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories Monufia | Shibin El Kom | CairoVolt',
             titleAr: 'اكسسوارات موبايل المنوفية | شبين الكوم | كايرو فولت',
-            descriptionEn: 'Original Anker accessories in Monufia with delivery to Shibin El Kom & Sadat City.',
-            descriptionAr: 'اكسسوارات انكر الأصلية في المنوفية مع توصيل لشبين الكوم ومدينة السادات.',
+            descriptionEn: 'Shop Anker accessories with delivery estimates for Shibin El Kom, Sadat City, and other Monufia areas.',
+            descriptionAr: 'تسوق اكسسوارات انكر مع مواعيد توصيل تقديرية لشبين الكوم ومدينة السادات ومناطق المنوفية.',
         },
     },
     {
@@ -157,8 +157,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories Kafr El Sheikh | CairoVolt',
             titleAr: 'اكسسوارات موبايل كفر الشيخ | كايرو فولت',
-            descriptionEn: 'Original Anker & Joyroom in Kafr El Sheikh. Fast delivery across the governorate.',
-            descriptionAr: 'انكر وجوي روم الأصلية في كفر الشيخ. توصيل سريع لكل المحافظة.',
+            descriptionEn: 'Shop Anker and Joyroom products with an address-based delivery estimate across Kafr El Sheikh.',
+            descriptionAr: 'تسوق منتجات انكر وجوي روم مع موعد توصيل تقديري حسب العنوان في كفر الشيخ.',
         },
     },
     {
@@ -186,8 +186,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories Port Said | CairoVolt',
             titleAr: 'اكسسوارات موبايل بورسعيد | كايرو فولت',
-            descriptionEn: 'Original Anker & Joyroom accessories in Port Said with fast delivery.',
-            descriptionAr: 'اكسسوارات انكر وجوي روم الأصلية في بورسعيد مع توصيل سريع.',
+            descriptionEn: 'Shop Anker and Joyroom accessories with an address-based delivery estimate for Port Said.',
+            descriptionAr: 'تسوق اكسسوارات انكر وجوي روم مع موعد توصيل تقديري حسب العنوان في بورسعيد.',
         },
     },
     {
@@ -214,8 +214,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories Suez | CairoVolt',
             titleAr: 'اكسسوارات موبايل السويس | كايرو فولت',
-            descriptionEn: 'Original mobile accessories in Suez with official warranty.',
-            descriptionAr: 'اكسسوارات موبايل أصلية في السويس بضمان رسمي.',
+            descriptionEn: 'Shop mobile accessories for delivery to Suez with written CairoVolt warranty terms shown per product.',
+            descriptionAr: 'تسوق اكسسوارات موبايل للتوصيل إلى السويس مع شروط ضمان كايرو فولت المكتوبة لكل منتج.',
         },
     },
     // Upper Egypt
@@ -243,8 +243,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories Beni Suef | CairoVolt',
             titleAr: 'اكسسوارات موبايل بني سويف | كايرو فولت',
-            descriptionEn: 'Original Anker accessories in Beni Suef with warranty.',
-            descriptionAr: 'اكسسوارات انكر الأصلية في بني سويف بالضمان.',
+            descriptionEn: 'Shop Anker accessories for delivery to Beni Suef with CairoVolt warranty terms shown per product.',
+            descriptionAr: 'تسوق اكسسوارات انكر للتوصيل إلى بني سويف مع شروط ضمان كايرو فولت لكل منتج.',
         },
     },
     {
@@ -271,8 +271,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories Asyut | CairoVolt',
             titleAr: 'اكسسوارات موبايل أسيوط | كايرو فولت',
-            descriptionEn: 'Original Anker & Joyroom in Asyut with official warranty.',
-            descriptionAr: 'انكر وجوي روم الأصلية في أسيوط بضمان رسمي.',
+            descriptionEn: 'Shop Anker and Joyroom products for delivery to Asyut with written CairoVolt warranty terms shown per product.',
+            descriptionAr: 'تسوق منتجات انكر وجوي روم للتوصيل إلى أسيوط مع شروط ضمان كايرو فولت المكتوبة لكل منتج.',
         },
     },
     {
@@ -299,8 +299,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories Qena | CairoVolt',
             titleAr: 'اكسسوارات موبايل قنا | كايرو فولت',
-            descriptionEn: 'Original mobile accessories in Qena.',
-            descriptionAr: 'اكسسوارات موبايل أصلية في قنا.',
+            descriptionEn: 'Shop mobile accessories with delivery estimates for Qena.',
+            descriptionAr: 'تسوق اكسسوارات موبايل مع موعد توصيل تقديري إلى قنا.',
         },
     },
     {
@@ -327,8 +327,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories Aswan | Egypt | CairoVolt',
             titleAr: 'اكسسوارات موبايل أسوان | مصر | كايرو فولت',
-            descriptionEn: 'Original Anker accessories in Aswan with warranty.',
-            descriptionAr: 'اكسسوارات انكر الأصلية في أسوان بالضمان.',
+            descriptionEn: 'Shop Anker accessories for delivery to Aswan with CairoVolt warranty terms shown per product.',
+            descriptionAr: 'تسوق اكسسوارات انكر للتوصيل إلى أسوان مع شروط ضمان كايرو فولت لكل منتج.',
         },
     },
     // Coastal & Desert
@@ -356,8 +356,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories North Sinai El Arish | CairoVolt',
             titleAr: 'اكسسوارات موبايل شمال سيناء العريش | كايرو فولت',
-            descriptionEn: 'Original accessories in North Sinai & El Arish.',
-            descriptionAr: 'اكسسوارات أصلية في شمال سيناء والعريش.',
+            descriptionEn: 'Shop mobile accessories with delivery estimates for North Sinai and El Arish.',
+            descriptionAr: 'تسوق اكسسوارات موبايل مع مواعيد توصيل تقديرية لشمال سيناء والعريش.',
         },
     },
     {
@@ -384,8 +384,8 @@ export const governorates: Governorate[] = [
         meta: {
             titleEn: 'Mobile Accessories Marsa Matrouh | CairoVolt',
             titleAr: 'اكسسوارات موبايل مرسى مطروح | كايرو فولت',
-            descriptionEn: 'Original mobile accessories in Marsa Matrouh.',
-            descriptionAr: 'اكسسوارات موبايل أصلية في مرسى مطروح.',
+            descriptionEn: 'Shop mobile accessories with delivery estimates for Marsa Matrouh.',
+            descriptionAr: 'تسوق اكسسوارات موبايل مع موعد توصيل تقديري إلى مرسى مطروح.',
         },
     },
     {

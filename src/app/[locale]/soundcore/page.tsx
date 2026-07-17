@@ -25,7 +25,17 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale } = await params;
     const isArabic = locale === 'ar';
-    const meta = isArabic ? soundcoreHub.metadata.ar : soundcoreHub.metadata.en;
+    const meta = isArabic
+        ? {
+            title: 'ساوندكور من انكر مصر | سماعات وايربودز وسبيكرات',
+            description: 'تصفح ايربودز وهيدفون وسبيكرات ساوندكور من انكر في مصر، وقارن ANC والتطبيق وEQ وLDAC وBassUp وPartyCast وتصنيفات IP حسب كل موديل.',
+            keywords: 'ساوندكور, انكر, سماعات ساوندكور, سبيكر ساوندكور, ايربودز ساوندكور, ساوندكور مصر',
+        }
+        : {
+            title: 'Soundcore by Anker Egypt | Earbuds, Headphones & Speakers',
+            description: 'Browse Soundcore by Anker earbuds, headphones, and speakers in Egypt. Compare model-specific ANC, app/EQ, LDAC, BassUp, PartyCast, and IP ratings.',
+            keywords: 'soundcore, anker soundcore, soundcore egypt, soundcore earbuds, soundcore speakers',
+        };
     const canonical = isArabic ? 'https://cairovolt.com/soundcore' : 'https://cairovolt.com/en/soundcore';
 
     return {
@@ -59,11 +69,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 /**
- * Picks Soundcore best-sellers across both lines (audio + speakers).
- * Post-migration: products carry brand="Soundcore" directly + live at /soundcore/{cat}/{slug}.
- * Sorts: featured first, then by price ascending (entry-level shows first).
+ * Picks active Soundcore products across the audio and speaker categories.
+ * Featured catalogue entries appear first, followed by price.
  */
-function getSoundcoreBestSellers(max: number) {
+function getSoundcoreFeaturedProducts(max: number) {
     return staticProducts
         .filter(p =>
             p.status === 'active' &&
@@ -83,32 +92,60 @@ export default async function SoundcoreHubPage({ params }: Props) {
     if (locale !== 'ar' && locale !== 'en') notFound();
 
     const data = soundcoreHub;
+    const audioCategory = data.categories.find(category => category.href === '/soundcore/audio');
+    const speakerCategory = data.categories.find(category => category.href === '/soundcore/speakers');
     const baseHref = isRTL ? '' : '/en';
     const getHref = (path: string) => `${baseHref}${path}`;
-    const products = getSoundcoreBestSellers(12);
+    const products = getSoundcoreFeaturedProducts(12);
     const { anker: ankerAr, soundcore: soundcoreAr } = ARABIC_BRAND_NAMES;
     const pageHeading = isRTL
-        ? `منتجات ${soundcoreAr} الأصلية في مصر من ${ankerAr}`
-        : 'Original Soundcore by Anker Products in Egypt';
-    const pageDescription = data.metadata[isRTL ? 'ar' : 'en'].description;
+        ? `منتجات ${soundcoreAr} من ${ankerAr} في مصر`
+        : 'Soundcore by Anker Products in Egypt';
+    const pageDescription = isRTL
+        ? `تصفح ايربودز وهيدفون وسبيكرات ${soundcoreAr}، وقارن العزل والتطبيق والكودك والبطارية ومقاومة المياه حسب الموديل قبل مراجعة السعر والتوافر في صفحة المنتج.`
+        : 'Browse Soundcore earbuds, headphones, and speakers, comparing noise control, app support, codecs, battery, and water ratings by model before checking price and availability.';
     const topSummary = isRTL
-        ? `اختر ايربودز أو هيدفون أو سبيكرات ${soundcoreAr} الأصلية، ثم انتقل مباشرةً إلى المنتجات الأكثر طلبًا بضمان كايرو فولت لمدة 18 شهرًا.`
-        : 'Choose original Soundcore earbuds, headphones, or speakers, then shop the most requested products directly with an 18-month CairoVolt warranty.';
+        ? `اختر ايربودز أو هيدفون أو سبيكرات ${soundcoreAr}؛ مزايا ANC وLDAC والتطبيق والربط وتصنيف IP تختلف حسب الموديل.`
+        : 'Choose Soundcore earbuds, headphones, or speakers; ANC, LDAC, app, linking, and IP features vary by model.';
 
     const quickAnswer = isRTL
-        ? `${soundcoreAr} هي العلامة الفرعية للصوتيات من ${ankerAr}، أُطلقت سنة 2016. تنقسم منتجاتها لعائلتين فقط: (1) سماعات/ايربودز/هيدفون في /soundcore/audio، و(2) مكبرات صوت بلوتوث في /soundcore/speakers. كل المنتجات بضمان 18 شهر من كايرو فولت.`
-        : 'Soundcore is Anker\'s audio sub-brand, launched in 2016. Products split into two lines only: (1) earbuds/headphones at /soundcore/audio, and (2) Bluetooth speakers at /soundcore/speakers. All carry an 18-month CairoVolt warranty.';
+        ? `${soundcoreAr} علامة صوتيات ضمن عائلة ${ankerAr}. تنقسم المنتجات هنا إلى سماعات شخصية ومكبرات صوت، لكن تقنيات ANC وHearID وLDAC وBassUp وPartyCast وتصنيفات IP ليست موجودة بالمستوى نفسه في كل موديل. صفحة المنتج هي المرجع للمواصفات والتوافق.`
+        : 'Soundcore is an audio brand in the Anker family. This catalogue separates personal audio from speakers, but ANC, HearID, LDAC, BassUp, PartyCast, and IP ratings are not shared equally by every model. The product page is the specification and compatibility reference.';
+    const serviceBadges = isRTL
+        ? [
+            { icon: 'headphones', title: 'سماعات ومكبرات صوت', description: 'اختر القسم المناسب لاستخدامك' },
+            { icon: 'shield', title: 'ضمان كايرو فولت', description: 'المدة والشروط في صفحة المنتج' },
+            { icon: 'money', title: 'الدفع عند الاستلام', description: 'يُؤكد مع مراجعة الطلب' },
+        ]
+        : [
+            { icon: 'headphones', title: 'Personal Audio & Speakers', description: 'Choose the category that fits your use' },
+            { icon: 'shield', title: 'CairoVolt Warranty', description: 'Duration and terms are on the product page' },
+            { icon: 'money', title: 'Cash on Delivery', description: 'Confirmed during order review' },
+        ];
+    const soundcoreFaq = isRTL
+        ? [
+            { question: `ما علاقة ${soundcoreAr} بـ${ankerAr}؟`, answer: `${soundcoreAr} علامة متخصصة في الصوتيات ضمن عائلة ${ankerAr}. يعرض كايرو فولت منتجاتها في قسم السماعات الشخصية وقسم مكبرات الصوت.` },
+            { question: `كيف أختار بين أقسام ${soundcoreAr}؟`, answer: 'اختر قسم audio للايربودز والهيدفون، وقسم speakers لمكبرات الصوت المحمولة. راجع صفحة المنتج للتأكد من المواصفات والتوافق والتوافر.' },
+            { question: `ما مدة ضمان كايرو فولت على منتجات ${soundcoreAr}؟`, answer: 'تختلف مدة الضمان وأهليته حسب المنتج. صفحة كل منتج هي المرجع لشروط ضمان كايرو فولت المكتوبة وقت الطلب.' },
+            { question: `هل تطبيق ${soundcoreAr} يثبت أصالة المنتج؟`, answer: 'توافق المنتج مع التطبيق ميزة تشغيلية وليس شهادة مستقلة من الشركة المصنّعة لإثبات الأصالة. راجع بيانات الموديل والفاتورة وأدوات الشركة المصنّعة إن وُجدت.' },
+        ]
+        : [
+            { question: 'How are Soundcore and Anker related?', answer: 'Soundcore is an audio brand in the Anker family. CairoVolt groups its products into personal-audio and Bluetooth-speaker sections.' },
+            { question: 'Which Soundcore category should I choose?', answer: 'Use the audio section for earbuds and headphones, and the speakers section for portable speakers. Check each product page for specifications, compatibility, and availability.' },
+            { question: 'How long is the CairoVolt warranty on Soundcore products?', answer: 'Warranty eligibility and duration vary by product. The product page is the source for the written CairoVolt warranty terms at the time of ordering.' },
+            { question: 'Does the Soundcore app prove that a product is authentic?', answer: 'App compatibility is an operating feature, not an independent manufacturer authenticity certificate. Check the model details, invoice, and any manufacturer verification tools that are available.' },
+        ];
     const canonicalPage = `https://cairovolt.com${baseHref}/soundcore`;
-    const bestSellerSchema = {
+    const featuredProductsSchema = {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
-        '@id': `${canonicalPage}#best-sellers-list`,
+        '@id': `${canonicalPage}#featured-products-list`,
         name: isRTL
-            ? `أفضل ${products.length} منتج من ${soundcoreAr} في مصر`
-            : `Top ${products.length} Soundcore Products in Egypt`,
+            ? `منتجات ${soundcoreAr} مختارة في مصر`
+            : 'Featured Soundcore Products in Egypt',
         isPartOf: { '@id': `${canonicalPage}#collectionpage` },
         numberOfItems: products.length,
-        itemListOrder: 'https://schema.org/ItemListOrderDescending',
+        itemListOrder: 'https://schema.org/ItemListUnordered',
         itemListElement: products.map((product, index) => ({
             '@type': 'ListItem',
             position: index + 1,
@@ -151,7 +188,7 @@ export default async function SoundcoreHubPage({ params }: Props) {
                             <div className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/15 px-3 py-1 backdrop-blur-md">
                                 <span className="h-2 w-2 rounded-full bg-green-300 animate-pulse"></span>
                                 <span className="text-[11px] font-bold tracking-wide text-white md:text-xs">
-                                    {isRTL ? data.hero.badge.ar : data.hero.badge.en}
+                                    {isRTL ? `صوتيات ${soundcoreAr}` : 'Soundcore Audio'}
                                 </span>
                             </div>
                         </div>
@@ -175,15 +212,15 @@ export default async function SoundcoreHubPage({ params }: Props) {
                             <span aria-hidden="true">{isRTL ? '←' : '→'}</span>
                         </a>
                         <a
-                            href="#best-sellers"
+                            href="#featured-products"
                             className="group inline-flex min-h-10 items-center gap-2 rounded-full border border-white/30 bg-white/10 px-5 py-2.5 text-xs font-black text-white backdrop-blur-sm transition hover:bg-white/20 md:text-sm"
                         >
                             <SvgIcon name="fire" className="h-4 w-4" />
-                            {isRTL ? 'الأكثر مبيعًا' : 'Best sellers'}
+                            {isRTL ? 'منتجات مختارة' : 'Featured products'}
                             <span aria-hidden="true" className="transition-transform group-hover:translate-y-0.5">↓</span>
                         </a>
                         <span className="hidden text-[11px] font-medium text-white/85 sm:inline md:text-xs">
-                            {isRTL ? 'أصلي 100% · ادفع عند الاستلام' : '100% original · Cash on delivery'}
+                            {isRTL ? 'ضمان كايرو فولت حسب المنتج' : 'Product-specific CairoVolt warranty'}
                         </span>
                     </div>
                 </div>
@@ -198,12 +235,12 @@ export default async function SoundcoreHubPage({ params }: Props) {
                     pageDescription={pageDescription}
                 />
 
-                {/* ─── BEST SELLERS (mixed audio + speakers) ─── */}
+                {/* Selected products from both catalogue sections. */}
                 {products.length > 0 && (
-                <section id="best-sellers" className="scroll-mt-32 py-4 sm:py-5 md:py-8">
+                <section id="featured-products" className="scroll-mt-32 py-4 sm:py-5 md:py-8">
                     <script
                         type="application/ld+json"
-                        dangerouslySetInnerHTML={{ __html: JSON.stringify(bestSellerSchema) }}
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(featuredProductsSchema) }}
                     />
                     <div className="container mx-auto px-4">
                         <div className="mb-4 grid gap-2 md:mb-5 md:grid-cols-2 md:items-end md:gap-8">
@@ -211,18 +248,18 @@ export default async function SoundcoreHubPage({ params }: Props) {
                                 <div className="mb-1.5 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-gradient-to-r from-orange-100 to-red-100 px-3 py-1 dark:border-orange-800/50 dark:from-orange-900/30 dark:to-red-900/30">
                                     <SvgIcon name="fire" className="h-4 w-4 text-orange-600 dark:text-orange-400" />
                                     <span className="text-xs font-bold text-orange-700 dark:text-orange-300">
-                                        {isRTL ? 'الأكثر مبيعاً في مصر' : 'Best Sellers in Egypt'}
+                                        {isRTL ? 'منتجات مختارة من الكتالوج' : 'Featured Catalogue Products'}
                                     </span>
                                 </div>
                                 <h2 className="text-xl font-black text-gray-900 dark:text-white sm:text-2xl md:text-3xl lg:text-4xl">
-                                    {isRTL ? `أفضل ${products.length} منتج من ${soundcoreAr}` : `Top ${products.length} Soundcore Products`}
+                                    {isRTL ? `مختارات من ${soundcoreAr}` : 'Soundcore Product Picks'}
                                 </h2>
                             </div>
                             <div>
                                 <p className="text-xs leading-5 text-gray-600 dark:text-gray-400 sm:text-sm sm:leading-6 md:text-base">
                                     {isRTL
-                                        ? `مزيج من ايربودز وسبيكرات ${soundcoreAr} الأصلية — مع ضمان كايرو فولت لمدة 18 شهرًا.`
-                                        : 'A mix of original Soundcore earbuds and speakers — with an 18-month CairoVolt warranty.'}
+                                        ? `مزيج من ايربودز وسبيكرات ${soundcoreAr} المتاحة؛ تظهر مدة ضمان كايرو فولت وشروطه في صفحة كل منتج.`
+                                        : 'A mix of available Soundcore earbuds and speakers; each product page states its CairoVolt warranty duration and terms.'}
                                 </p>
                                 <div className="mt-2 h-1 w-20 rounded-full bg-gradient-to-r from-orange-500 to-pink-500"></div>
                             </div>
@@ -291,13 +328,13 @@ export default async function SoundcoreHubPage({ params }: Props) {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto mb-5 max-w-3xl text-center">
                         <span className="text-xs font-black uppercase tracking-wide text-orange-700">
-                            {isRTL ? 'دليل شراء موثوق' : 'Trusted buying guide'}
+                            {isRTL ? 'دليل أقسام ساوندكور' : 'Soundcore Category Guide'}
                         </span>
                         <h2 id="soundcore-guide-heading" className="mt-2 text-2xl font-black text-gray-950 dark:text-white md:text-3xl">
                             {isRTL ? `ملخص ${soundcoreAr} للشراء في مصر` : 'Soundcore buying summary for Egypt'}
                         </h2>
                         <p className="mt-3 text-sm leading-7 text-gray-700 dark:text-gray-300 md:text-base">
-                            {isRTL ? data.hero.description.ar : data.hero.description.en}
+                            {pageDescription}
                         </p>
                     </div>
                     <div className="mx-auto max-w-2xl">
@@ -306,18 +343,18 @@ export default async function SoundcoreHubPage({ params }: Props) {
                 </div>
             </section>
 
-            {/* ─── Trust Badges Bar ─── */}
+            {/* Store service information. */}
             <section className="bg-gradient-to-r from-orange-50 to-pink-50 dark:from-gray-900 dark:to-gray-800 py-6 border-y border-gray-100 dark:border-gray-700">
                 <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-                        {data.trustBadges.map((badge, idx) => (
-                            <div key={idx} className="flex flex-col items-center text-center p-3 rounded-xl hover:bg-white/60 dark:hover:bg-gray-800/50 transition-colors">
+                    <div className="grid gap-4 md:grid-cols-3">
+                        {serviceBadges.map((badge) => (
+                            <div key={badge.title} className="flex flex-col items-center text-center p-3 rounded-xl hover:bg-white/60 dark:hover:bg-gray-800/50 transition-colors">
                                 <SvgIcon name={badge.icon} className="w-7 h-7 mb-2 text-orange-600 dark:text-orange-400" />
                                 <span className="font-bold text-sm text-gray-900 dark:text-white">
-                                    {isRTL ? badge.title.ar : badge.title.en}
+                                    {badge.title}
                                 </span>
                                 <span className="text-xs text-gray-600 dark:text-gray-400">
-                                    {isRTL ? badge.description.ar : badge.description.en}
+                                    {badge.description}
                                 </span>
                             </div>
                         ))}
@@ -325,12 +362,12 @@ export default async function SoundcoreHubPage({ params }: Props) {
                 </div>
             </section>
 
-            {/* ─── About / History ─── */}
+            {/* Brand and catalogue scope. */}
             <section className="py-16 bg-white dark:bg-gray-950">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-10">
                         <h2 className="text-3xl md:text-4xl font-black mb-3 dark:text-white">
-                            {isRTL ? `قصة ${soundcoreAr}` : 'The Soundcore Story'}
+                            {isRTL ? `عن ${soundcoreAr}` : 'About Soundcore'}
                         </h2>
                         <div className="h-1.5 w-24 mx-auto rounded-full bg-gradient-to-r from-orange-500 to-pink-500"></div>
                     </div>
@@ -338,63 +375,75 @@ export default async function SoundcoreHubPage({ params }: Props) {
                     <div className="max-w-4xl mx-auto mb-12">
                         <div className="bg-gradient-to-r from-orange-50 to-pink-50 dark:from-gray-900 dark:to-gray-800 p-8 rounded-3xl border border-orange-100 dark:border-gray-700">
                             <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                {isRTL ? data.history.ar : data.history.en}
+                                {isRTL
+                                    ? `${soundcoreAr} علامة صوتيات ضمن عائلة ${ankerAr}. يجمع هذا الدليل روابط أقسام المنتجات المتاحة في كايرو فولت؛ وتظل صفحة المنتج المرجع للسعر الحالي والمواصفات والتوافر وشروط الضمان.`
+                                    : 'Soundcore is an audio brand in the Anker family. This directory links the product sections available from CairoVolt; the product page remains the source for current price, specifications, availability, and warranty terms.'}
+                            </p>
+                            <p className="mt-5 text-base leading-7 text-gray-700 dark:text-gray-300">
+                                {isRTL ? (
+                                    <>
+                                        ابدأ من <Link href={getHref('/soundcore/audio')} className="font-bold text-orange-700 underline decoration-orange-300 underline-offset-4 dark:text-orange-300">قسم سماعات {soundcoreAr}</Link> للايربودز والهيدفون،
+                                        أو <Link href={getHref('/soundcore/speakers')} className="font-bold text-pink-700 underline decoration-pink-300 underline-offset-4 dark:text-pink-300">قسم سبيكرات {soundcoreAr}</Link> لمكبرات الصوت.
+                                        ولمنتجات الشحن انتقل إلى <Link href={getHref('/anker')} className="font-bold text-blue-700 underline decoration-blue-300 underline-offset-4 dark:text-blue-300">دليل {ankerAr}</Link>،
+                                        ثم قارن <Link href={getHref('/anker/wall-chargers')} className="font-bold text-blue-700 underline decoration-blue-300 underline-offset-4 dark:text-blue-300">شواحن {ankerAr}</Link> أو <Link href={getHref('/anker/power-banks')} className="font-bold text-blue-700 underline decoration-blue-300 underline-offset-4 dark:text-blue-300">باور بانك {ankerAr}</Link>.
+                                    </>
+                                ) : (
+                                    <>
+                                        Start with <Link href={getHref('/soundcore/audio')} className="font-bold text-orange-700 underline decoration-orange-300 underline-offset-4 dark:text-orange-300">Soundcore earbuds and headphones</Link>,
+                                        or browse <Link href={getHref('/soundcore/speakers')} className="font-bold text-pink-700 underline decoration-pink-300 underline-offset-4 dark:text-pink-300">Soundcore Bluetooth speakers</Link>.
+                                        For charging, return to the <Link href={getHref('/anker')} className="font-bold text-blue-700 underline decoration-blue-300 underline-offset-4 dark:text-blue-300">Anker guide</Link> and compare <Link href={getHref('/anker/wall-chargers')} className="font-bold text-blue-700 underline decoration-blue-300 underline-offset-4 dark:text-blue-300">Anker wall chargers</Link> or <Link href={getHref('/anker/power-banks')} className="font-bold text-blue-700 underline decoration-blue-300 underline-offset-4 dark:text-blue-300">Anker power banks</Link>.
+                                    </>
+                                )}
                             </p>
                         </div>
                     </div>
-
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-                        {data.stats.map((s, idx) => (
-                            <div key={idx} className="text-center p-6 bg-gray-50 dark:bg-gray-900 rounded-2xl hover:shadow-lg transition-shadow border border-gray-100 dark:border-gray-800">
-                                <SvgIcon name={s.icon} className="w-8 h-8 mb-2 mx-auto text-orange-500" />
-                                <span className="text-2xl md:text-3xl font-black text-orange-600 dark:text-orange-400 block mb-1">
-                                    {isRTL ? s.value.ar : s.value.en}
-                                </span>
-                                <span className="text-xs text-gray-600 dark:text-gray-400">
-                                    {isRTL ? s.label.ar : s.label.en}
-                                </span>
-                            </div>
-                        ))}
-                    </div>
                 </div>
             </section>
 
-            {/* ─── Technologies ─── */}
-            <section className="py-16 md:py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-black">
+            <section id="technology-glossary" aria-labelledby="soundcore-technology-heading" className="border-y border-orange-100 bg-gradient-to-b from-orange-50 to-white py-14 dark:border-orange-950 dark:from-gray-900 dark:to-gray-950">
                 <div className="container mx-auto px-4">
-                    <div className="text-center mb-12">
-                        <h2 className="text-3xl md:text-4xl font-black mb-3 dark:text-white">
-                            {isRTL ? `التقنيات الحصرية لـ${soundcoreAr}` : 'Soundcore Signature Technologies'}
+                    <div className="mx-auto mb-9 max-w-4xl text-center">
+                        <span className="text-xs font-black uppercase tracking-wide text-orange-700 dark:text-orange-300">
+                            {isRTL ? 'قاموس تقنيات ساوندكور' : 'Soundcore technology glossary'}
+                        </span>
+                        <h2 id="soundcore-technology-heading" className="mt-2 text-3xl font-black text-gray-950 dark:text-white md:text-4xl">
+                            {isRTL ? 'ما الذي تعنيه المزايا في كل موديل؟' : 'What do the model features mean?'}
                         </h2>
-                        <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                            {isRTL
-                                ? 'كل تقنية موجودة عبر خطّي المنتجات (الايربودز والسبيكرات)'
-                                : 'Every technology runs across both product lines (earbuds & speakers)'}
+                        <p className="mt-4 text-sm leading-7 text-gray-700 dark:text-gray-300 md:text-base">
+                            {isRTL ? data.technologyNote.ar : data.technologyNote.en}
                         </p>
-                        <div className="h-1.5 w-24 mx-auto mt-4 rounded-full bg-gradient-to-r from-orange-500 to-pink-500"></div>
                     </div>
 
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto">
-                        {data.technologies.map((tech, idx) => (
-                            <div key={idx} className="p-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 hover:border-orange-200 dark:hover:border-orange-800 transition-colors hover:shadow-lg">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <span className="w-10 h-10 flex items-center justify-center rounded-xl bg-gradient-to-br from-orange-100 to-pink-100 dark:from-orange-900/30 dark:to-pink-900/30">
-                                        <SvgIcon name={tech.icon} className="w-5 h-5 text-orange-600 dark:text-orange-400" />
+                    <div className="mx-auto grid max-w-6xl gap-5 md:grid-cols-2 xl:grid-cols-3">
+                        {data.technologyGlossary.map((technology) => (
+                            <article key={technology.id} className="flex h-full flex-col rounded-3xl border border-orange-100 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+                                <div className="mb-4 flex items-center gap-3">
+                                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-orange-100 text-orange-700 dark:bg-orange-950 dark:text-orange-300">
+                                        <SvgIcon name={technology.icon} className="h-6 w-6" />
                                     </span>
-                                    <h3 className="font-bold text-lg text-gray-900 dark:text-white">
-                                        {tech.name}
+                                    <h3 className="text-lg font-black text-gray-950 dark:text-white">
+                                        {isRTL ? technology.name.ar : technology.name.en}
                                     </h3>
                                 </div>
-                                <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                                    {isRTL ? tech.description.ar : tech.description.en}
+                                <p className="text-sm leading-7 text-gray-700 dark:text-gray-300">
+                                    {isRTL ? technology.description.ar : technology.description.en}
                                 </p>
-                            </div>
+                                <p className="mt-4 rounded-2xl bg-gray-50 p-4 text-xs leading-6 text-gray-600 dark:bg-gray-950 dark:text-gray-400">
+                                    {isRTL ? technology.modelExamples.ar : technology.modelExamples.en}
+                                </p>
+                                <Link href={getHref(technology.href)} className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-orange-700 hover:underline dark:text-orange-300">
+                                    {technology.href.endsWith('/audio')
+                                        ? (isRTL ? `قارن سماعات ${soundcoreAr}` : 'Compare Soundcore audio')
+                                        : (isRTL ? `قارن سبيكرات ${soundcoreAr}` : 'Compare Soundcore speakers')}
+                                    <span aria-hidden="true">{isRTL ? '←' : '→'}</span>
+                                </Link>
+                            </article>
                         ))}
                     </div>
                 </div>
             </section>
 
-            {/* ─── Cross-link reinforcement (bottom CTA) ─── */}
+            {/* Category links. */}
             <section className="py-16 bg-white dark:bg-black">
                 <div className="container mx-auto px-4">
                     <div className="max-w-5xl mx-auto bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 rounded-3xl p-8 md:p-12 text-white shadow-2xl">
@@ -411,7 +460,9 @@ export default async function SoundcoreHubPage({ params }: Props) {
                                 <SvgIcon name="headphones" className="w-8 h-8 text-orange-600" />
                                 <div className={isRTL ? 'text-right flex-1' : 'text-left flex-1'}>
                                     <div className="text-base">{isRTL ? `سماعات ${soundcoreAr}` : 'Soundcore Earbuds'}</div>
-                                    <div className="text-xs text-gray-500 font-normal">{isRTL ? '26 موديل — من 699 جنيه' : '26 models — from EGP 699'}</div>
+                                    <div className="mt-1 text-xs font-normal leading-5 text-gray-500">
+                                        {isRTL ? audioCategory?.description.ar : audioCategory?.description.en}
+                                    </div>
                                 </div>
                                 <span className="text-2xl text-orange-600">{isRTL ? '←' : '→'}</span>
                             </Link>
@@ -419,7 +470,9 @@ export default async function SoundcoreHubPage({ params }: Props) {
                                 <SvgIcon name="speaker" className="w-8 h-8 text-pink-600" />
                                 <div className={isRTL ? 'text-right flex-1' : 'text-left flex-1'}>
                                     <div className="text-base">{isRTL ? `سبيكرات ${soundcoreAr}` : 'Soundcore Speakers'}</div>
-                                    <div className="text-xs text-gray-500 font-normal">{isRTL ? '4 موديلات — من 1,249 جنيه' : '4 models — from EGP 1,249'}</div>
+                                    <div className="mt-1 text-xs font-normal leading-5 text-gray-500">
+                                        {isRTL ? speakerCategory?.description.ar : speakerCategory?.description.en}
+                                    </div>
                                 </div>
                                 <span className="text-2xl text-pink-600">{isRTL ? '←' : '→'}</span>
                             </Link>
@@ -428,7 +481,7 @@ export default async function SoundcoreHubPage({ params }: Props) {
                 </div>
             </section>
 
-            {/* ─── FAQ ─── */}
+            {/* Common catalogue and warranty questions. */}
             <section className="py-16 md:py-20 bg-gray-50 dark:bg-gray-950">
                 <div className="container mx-auto px-4 max-w-3xl">
                     <h2 className="text-3xl md:text-4xl font-black mb-3 text-center dark:text-white">
@@ -437,8 +490,8 @@ export default async function SoundcoreHubPage({ params }: Props) {
                     <div className="h-1.5 w-24 mx-auto mb-10 rounded-full bg-gradient-to-r from-orange-500 to-pink-500"></div>
 
                     <div className="space-y-3">
-                        {(isRTL ? data.faq.ar : data.faq.en).map((item, idx) => (
-                            <details key={idx} className="group bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 open:shadow-lg transition-all duration-300">
+                        {soundcoreFaq.map((item) => (
+                            <details key={item.question} className="group bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 open:shadow-lg transition-all duration-300">
                                 <summary className="flex items-center justify-between p-5 cursor-pointer list-none">
                                     <span className="font-bold text-base md:text-lg dark:text-white">{item.question}</span>
                                     <span className="transform group-open:rotate-180 transition-transform text-gray-400">▼</span>

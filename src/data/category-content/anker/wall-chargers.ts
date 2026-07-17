@@ -7,42 +7,42 @@ export const anker_wall_chargers_content: CategoryContent = {
             metadata: {
                 en: {
                     title: 'Anker Charger Egypt | iPhone 17 & Samsung Fast Charging',
-                    description: 'Shop original Anker chargers in Egypt. 20W for iPhone from EGP 490, 25W for Samsung S26, 45W GaN for laptops. ✓ 18-month warranty ✓ Next-day Cairo delivery',
+                    description: 'Compare Anker chargers in Egypt by USB-C PD/PPS support, output, ports, and GaN features. Current price and CairoVolt warranty terms are listed per product.',
                     keywords: 'anker charger egypt, anker wall charger, anker 20w charger, anker nano charger, anker 25w charger, anker 45w charger, anker 65w charger, anker gan charger, best anker charger, anker charger iphone 17, anker charger samsung, anker ganprime, anker 100w, anker nano 45w, anker charger price',
                 },
                 ar: {
-                    title: 'شاحن انكر | من 490 جنيه | شحن سريع ايفون 17 وسامسونج S26 مصر',
-                    description: 'تسوق شاحن انكر الأصلي في مصر. 20W للايفون من 490 ج، 25W لسامسونج S26، 45W GaN للابتوب. ✓ ضمان 18 شهر ✓ توصيل القاهرة يوم واحد ✓ دفع عند الاستلام',
+                    title: 'شاحن انكر | USB-C PD وPPS للايفون وسامسونج واللابتوب',
+                    description: 'قارن شواحن انكر حسب قدرة USB-C PD ودعم PPS وعدد المنافذ وتقنية GaN. السعر الحالي وضمان كايرو فولت موضحان في صفحة كل منتج.',
                     keywords: 'شاحن انكر, شواحن انكر, راس شاحن انكر, شاحن انكر ايفون, شاحن انكر 20 وات, شاحن انكر 25 واط, شاحن 45 واط, شاحن انكر تايب سي, شاحن انكر سريع, افضل شاحن انكر, شاحن انكر الاصلي, سعر شاحن انكر, شاحن انكر نانو, شاحن انكر 45 واط, ادابتر انكر',
                 }
             },
             pageContent: {
                 ar: {
-                    title: 'شاحن انكر - من 490 جنيه',
-                    subtitle: 'شحن سريع ايفون 17 وسامسونج S26 | ضمان 18 شهر',
+                    title: 'شاحن انكر بالقدرة والبروتوكول المناسبين',
+                    subtitle: 'شحن USB-C PD وPPS للايفون وسامسونج واللابتوب',
                     description: `
-موبايلك بيسخن وأنت بتشحنه؟ Battery Health بينزل كل شهر؟ المشكلة مش في الموبايل — المشكلة في الشاحن. شاحن **انكر** الأصلي مصمم ليحافظ على بطاريتك لسنوات. ضمان 18 شهر من CairoVolt.
+اختيار شاحن غير متوافق قد يقلل سرعة الشحن أو يسبب حرارة غير معتادة. قارن شواحن **انكر** حسب القدرة ودعم PD/PPS وتوزيع الطاقة، واستخدم كابلاً مناسباً للجهاز.
 
-اطلبه الآن — توصيل القاهرة والجيزة خلال 24 ساعة، دفع عند الاستلام.
+ضمان كايرو فولت ومدته وشروطه موضحة في صفحة المنتج والسياسة. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'الموزع المعتمد لـ أنكر في مصر' },
-                        { type: 'warranty', text: 'ضمان 18 شهر استبدال فوري - أطول من ضمان أبل' },
-                        { type: 'expert_verified', text: 'تقنية GaN + ActiveShield 3.0 — FCC معتمد' }
+                        { type: 'originality', text: 'فاتورة وبيانات موديل قابلة للمراجعة' },
+                        { type: 'warranty', text: 'ضمان كايرو فولت حسب صفحة المنتج والسياسة' },
+                        { type: 'expert_verified', text: 'GaN وActiveShield حسب مواصفات الموديل' }
                     ],
                     buyingGuide: [
                         {
-                            title: 'دليل الواطية: أي شاحن يناسب جهازك؟ (بيانات اختبار CairoVolt Labs)',
+                            title: 'دليل القدرة: أي شاحن يناسب جهازك؟',
                             content: `
-| الواطية | السعر | الأفضل لـ | سرعة الشحن (اختبار CairoVolt) |
-|---------|-------|----------|-----------|
-| **20W** | 490 ج | iPhone 15/16 | 0→50% في 30د (اختبار فعلي) |
-| **25W PPS** | 550 ج | Samsung S26 Super Fast | 0→50% في 22د (اختبار CairoVolt) |
-| **30W GaN (A2147)** | 490 ج | ⭐ iPhone 17 الأفضل — أصغر 70% | 0→50% في 21د (اختبار CairoVolt) |
-| **30W (A2741)** | 530 ج | شحن سيارة USB-C+A | 0→50% في 25د (اختبار فعلي) |
-| **45W** | 790 ج | S26 Ultra / iPad | 0→50% في 18د (اختبار CairoVolt) |
-| **65W GaN** | 999 ج | MacBook Air + iPhone | جهازين معاً بدون انخفاض (مختبر) |
-| **100W** | 1299 ج | MacBook Pro 16" | 0→50% في 35د (اختبار CairoVolt) |
+| القدرة | مثال للاستخدام | التوافق والاستخدام | السعر |
+|---------|---------------|--------------------|-------|
+| **20W** | أجهزة iPhone المتوافقة | USB-C PD حسب الموديل | راجع صفحة المنتج |
+| **25W PPS** | أجهزة Samsung المتوافقة | PD + PPS | راجع صفحة المنتج |
+| **30W GaN (A2147)** | هواتف وتابلت متوافقة | USB-C PD بتصميم مدمج | راجع صفحة المنتج |
+| **30W (A2741)** | شحن سيارة USB-C+A | راجع توزيع القدرة بين المنفذين | راجع صفحة المنتج |
+| **45W** | هواتف وتابلت متوافقة | راجع دعم PPS وPD | راجع صفحة المنتج |
+| **65W GaN** | لابتوب خفيف + موبايل | توزيع القدرة يختلف حسب عدد الأجهزة | راجع صفحة المنتج |
+| **100W** | لابتوبات USB-C المتوافقة | يتطلب كابلاً مناسباً للقدرة | راجع صفحة المنتج |
 `
                         },
                         {
@@ -50,30 +50,30 @@ export const anker_wall_chargers_content: CategoryContent = {
                             content: `
 | الميزة التقنية | ماذا تعني لك؟ |
 |----------------|---------------|
-| **GaNPrime™** | شاحن أصغر 50% من الأصلي مع نفس القوة |
-| **Power Delivery 3.0** | شحن سريع لـ iPhone 17 و MacBook |
-| **PPS 2.0** | يفتح Samsung Super Fast Charging 2.0 |
-| **ActiveShield™ 3.0** | مراقبة الحرارة 3 مليون مرة/يوم |
-| **Multi-Port** | شحن لابتوب + موبايل من نفس الشاحن |
+| **GaNPrime™** | تصميم مدمج بقدرة ومزايا تختلف حسب الموديل |
+| **Power Delivery** | تفاوض على قدرة متوافقة مع الأجهزة الداعمة |
+| **PPS** | خرج متغير تتطلبه بعض أوضاع شحن Samsung |
+| **ActiveShield™** | مراقبة حرارة وفق الإصدار المدرج في مواصفات المنتج |
+| **Multi-Port** | شحن أكثر من جهاز مع مراجعة توزيع القدرة عند الاستخدام المتزامن |
 `
                         },
                         {
                             title: 'للسرعة الكاملة: الكابل المناسب',
                             content: `
-** نصيحة مهمة:** للحصول على أقصى سرعة، استخدم كابل USB-C to Lightning من انكر مع الشاحن.
-[تسوق كابل انكر USB-C](/anker/cables) - **خصم 15% عند الشراء مع الشاحن!**
+**نصيحة مهمة:** للحصول على السرعة التي يدعمها جهازك، استخدم كابلًا مناسباً للموصل والقدرة والبروتوكول.
+[تسوق كابل انكر USB-C](/anker/cables) وراجع السعر الحالي وأي عرض ظاهر وقت الطلب.
 `
                         }
                     ],
                     faq: [
-                        { question: 'ما أفضل شاحن انكر للايفون 17؟', answer: 'A2147 نانو 3 GaN بـ 30 واط — أصغر 70% من شواحن السيليكون. يشحن ايفون 17 برو من 0 لـ 50% في 21 دقيقة. شوف جدول المقارنة في دليل الشراء بالأعلى.' },
-                        { question: 'ما أفضل شاحن انكر لسامسونج S26؟', answer: '25 واط PPS لـ S26 العادي، 45 واط PPS لـ S26 Ultra. تقنية PPS ضرورية لفتح Samsung Super Fast Charging — بدونها الشحن بيكون بطيء.' },
-                        { question: 'ما الفرق بين شاحن 20 وات و 30 وات؟', answer: 'فارق 9 دقائق في كل شحنة (30 دقيقة vs 21 دقيقة لـ 50%). يومياً التوفير = 5 دقائق. شهرياً = ساعتين. راجع الجدول التفصيلي في دليل الشراء.' },
-                        { question: 'هل شاحن انكر يشحن لابتوب MacBook؟', answer: 'أيوه. من 45W فأعلى بيشحن لابتوبات USB-C. للماك بوك اير: 65W كافي. للماك بوك برو 16: 100W مطلوب. كلهم بيدعموا شحن جهازين في نفس الوقت.' },
-                        { question: 'ما ضمان شاحن انكر من CairoVolt؟', answer: '18 شهر استبدال فوري — أطول من ضمان أبل وسامسونج. يغطي عيوب الصناعة والسخونة غير الطبيعية. للتحقق من الأصالة: امسح كود QR على العلبة في anker.com/verify.' },
-                        { question: '⚠️ إزاي افرق بين شاحن انكر الأصلي والمقلد؟', answer: 'شواحن مقلدة كتير في السوق بتسخن وبتضر صحة البطارية. الأصلي: 1) كود QR على العلبة بيفتح صفحة anker.com 2) شريحة GaN حقيقية (حرارة 38°م) 3) شحن PD حقيقي مش بطيء 4) ضمان 18 شهر من CairoVolt. المقلد بيوصل 65°م واحنا اختبرناه!' },
-                        { question: 'هل شاحن انكر بيبوظ صحة بطارية الموبايل؟', answer: 'لا، بالعكس. تقنية ActiveShield™ 3.0 بتراقب الحرارة 3 مليون مرة/يوم وبتفصل لو الموبايل سخن. اختبار CairoVolt: 6 شهور استخدام يومي — Battery Health فضل 100%. الشواحن الرخيصة بتنزله لـ 85% في 3 شهور.' },
-                        { question: 'هل بيستحمل تذبذب كهرباء مصر؟', answer: 'نعم، بيدعم جهد من 100V لـ 240V. بعد انقطاع الكهرباء والرجوع المفاجئ (voltage spike)، شاحن انكر بيفصل تلقائياً لحماية الموبايل. اختبار CairoVolt: سيناريو 300V spike — الشواحن الرخيصة احترقت، انكر فصل ورجع يشتغل.' }
+                        { question: 'ما أفضل شاحن انكر للايفون؟', answer: 'اختر شاحن USB-C PD بقدرة تساوي ما يدعمه موديل iPhone أو تزيد عليه دون افتراض أن الهاتف سيسحب القدرة كاملة. راجع صفحة المنتج ودليل جهازك، فالسرعة تتغير مع حالة البطارية والحرارة والكابل.' },
+                        { question: 'ما أفضل شاحن انكر لسامسونج؟', answer: 'اختر شاحناً يدعم USB-C PD وPPS بالقدرة التي يطلبها موديل Samsung المحدد. راجع مواصفات الهاتف والشاحن لأن متطلبات وضع Super Fast Charging تختلف بين الأجهزة.' },
+                        { question: 'ما الفرق بين شاحن 20 وات و30 وات؟', answer: 'القدرة الأعلى لا تعني دائماً زمناً أقل؛ الهاتف يسحب الحد الذي يدعمه. قارن دعم PD/PPS وعدد المنافذ والكابل وحالة البطارية بدلاً من الاعتماد على الواط وحده.' },
+                        { question: 'هل شاحن انكر يشحن لابتوب MacBook؟', answer: 'يمكن للموديلات ذات خرج USB-C PD المناسب شحن أجهزة MacBook المتوافقة. راجع قدرة الشاحن التي يوصي بها جهازك وتوزيع الطاقة عند استخدام عدة منافذ، واستخدم كابلاً مصنفاً للقدرة.' },
+                        { question: 'ما ضمان شاحن انكر من CairoVolt؟', answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال مكتوبة في صفحة المنتج وسياسة الضمان. احتفظ بالفاتورة؛ الرقم التسلسلي أو سجل الضمان وحده لا يثبت أصالة الشركة المصنّعة.' },
+                        { question: '⚠️ إزاي افرق بين شاحن انكر الأصلي والمقلد؟', answer: 'راجع جودة التغليف ورقم الموديل والرقم التسلسلي، واستخدم وسيلة التحقق الرسمية المتاحة من الشركة إن وجدت. اشترِ بفاتورة وضمان واضح، وتجنب أي شاحن يسخن بشكل غير طبيعي أو لا يطابق مواصفات العبوة.' },
+                        { question: 'هل شاحن انكر بيبوظ صحة بطارية الموبايل؟', answer: 'الشاحن السليم المتوافق يفاوض الجهاز على القدرة عبر البروتوكول المدعوم. بعض موديلات انكر تذكر ActiveShield؛ راجع مواصفات الموديل وكابلًا مناسبًا، وأوقف الاستخدام عند وجود تلف أو حرارة غير معتادة.' },
+                        { question: 'هل بيستحمل تذبذب كهرباء مصر؟', answer: 'راجع نطاق الدخل المطبوع على موديلك بدلًا من افتراض رقم واحد لكل الشواحن. استخدم حماية كهربائية مناسبة عند عدم استقرار التغذية، وافصل الشاحن عند وجود ارتفاعات أو أعطال واضحة.' }
                     ],
                     products: [
                         { name: 'شاحن انكر نانو 45W منفذ واحد', price: 775, badge: '45W PD' },
@@ -82,7 +82,7 @@ export const anker_wall_chargers_content: CategoryContent = {
                         { name: 'شاحن انكر برايم 100W (3 منافذ)', price: 1999, badge: '🆕 100W GaN' },
                         { name: 'شاحن انكر برايم 67W (3 منافذ)', price: 1970, badge: '67W GaN' },
                         { name: 'شاحن انكر زولو 30W (A2698)', price: 599, badge: 'جديد' },
-                        { name: 'شاحن انكر 20 واط', price: 490, badge: 'الأرخص' },
+                        { name: 'شاحن انكر 20 واط', price: 490, badge: '20W USB-C PD' },
                         { name: 'شاحن انكر 25W PPS', price: 550, badge: 'Samsung S26' },
                         { name: 'شاحن انكر GaN نانو 3 — 30W (A2147)', price: 490, badge: '⭐ iPhone 17 GaN' },
                         { name: 'شاحن انكر 45W', price: 790, badge: 'S26 Ultra' },
@@ -90,31 +90,31 @@ export const anker_wall_chargers_content: CategoryContent = {
                     ]
                 },
                 en: {
-                    title: 'Anker Charger - From EGP 490',
-                    subtitle: 'iPhone 17 & Samsung S26 Fast Charging | 18-Month Warranty',
+                    title: 'Anker Chargers by Power and Protocol',
+                    subtitle: 'USB-C PD and PPS for compatible phones, tablets, and laptops',
                     description: `
-Phone getting hot while charging? Battery Health dropping every month? The problem isn't your phone — it's your charger. Original **Anker** chargers are engineered to protect your battery for years. 18-month CairoVolt warranty.
+An incompatible charger can reduce charging speed or create unusual heat. Compare **Anker** chargers by power, PD/PPS support, and multi-port power distribution, then use a suitably rated cable.
 
-Order now — next-day Cairo & Giza delivery, cash on delivery.
+CairoVolt warranty duration and terms are listed on the product page and warranty policy. Delivery timing is an estimate based on the address; cash on delivery is available for eligible orders.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'Official Anker Distributor in Egypt' },
-                        { type: 'warranty', text: '18-Month Replacement Warranty — longer than Apple' },
-                        { type: 'expert_verified', text: 'GaN + ActiveShield 3.0 — FCC Certified' }
+                        { type: 'originality', text: 'Invoice and model details available' },
+                        { type: 'warranty', text: 'CairoVolt warranty per product and policy' },
+                        { type: 'expert_verified', text: 'GaN and ActiveShield features vary by model' }
                     ],
                     buyingGuide: [
                         {
-                            title: 'Wattage Guide: Which Charger? (CairoVolt Lab Data)',
+                            title: 'Power Guide: Which Charger Fits Your Device?',
                             content: `
-| Wattage | Price | Best For | Charging Speed (CairoVolt Test) |
-|---------|-------|----------|----------------|
-| **20W** | EGP 490 | iPhone 15/16 | 0→50% in 30min (lab tested) |
-| **25W PPS** | EGP 550 | Samsung S26 Super Fast | 0→50% in 22min (CairoVolt test) |
-| **30W GaN (A2147)** | EGP 490 | ⭐ iPhone 17 Best — 70% smaller | 0→50% in 21min (CairoVolt test) |
-| **30W (A2741)** | EGP 530 | Car charger USB-C+A | 0→50% in 25min (lab tested) |
-| **45W** | EGP 790 | S26 Ultra / iPad | 0→50% in 18min (CairoVolt test) |
-| **65W GaN** | EGP 999 | MacBook Air + iPhone | 2 devices, no speed drop (lab) |
-| **100W** | EGP 1299 | MacBook Pro 16" | 0→50% in 35min (CairoVolt test) |
+| Power | Example Use | Compatibility and Use | Price |
+|---------|-------------|-----------------------|-------|
+| **20W** | Compatible iPhones | USB-C PD by model | See product page |
+| **25W PPS** | Compatible Samsung phones | PD + PPS | See product page |
+| **30W GaN (A2147)** | Compatible phones and tablets | Compact USB-C PD charger | See product page |
+| **30W (A2741)** | USB-C+A car charging | Check output distribution | See product page |
+| **45W** | Compatible phones and tablets | Check PPS and PD support | See product page |
+| **65W GaN** | Lightweight laptop + phone | Output varies by connected devices | See product page |
+| **100W** | Compatible USB-C laptops | Requires a suitably rated cable | See product page |
 `
                         },
                         {
@@ -122,18 +122,18 @@ Order now — next-day Cairo & Giza delivery, cash on delivery.
                             content: `
 | Technical Feature | What It Means for You |
 |-------------------|----------------------|
-| **GaNPrime™** | 50% smaller than original with same power |
-| **Power Delivery 3.0** | Fast charging for iPhone 17 & MacBook |
-| **PPS 2.0** | Unlocks Samsung Super Fast Charging 2.0 |
-| **ActiveShield™ 3.0** | Heat monitoring 3M times/day |
-| **Multi-Port** | Charge laptop + phone from one brick |
+| **GaNPrime™** | Compact design with features that vary by model |
+| **Power Delivery** | Negotiates compatible power with supported devices |
+| **PPS** | Variable output required by some Samsung charging modes |
+| **ActiveShield™** | Temperature monitoring according to the listed product version |
+| **Multi-Port** | Charge more than one device after checking simultaneous power distribution |
 `
                         },
                         {
                             title: 'For Full Speed: The Right Cable',
                             content: `
-** Pro Tip:** For maximum speed, use an Anker USB-C to Lightning cable with your charger.
-[Shop Anker Cables](/en/anker/cables) — **15% off when bundled with charger!**
+**Pro Tip:** Use a cable rated for the required connector, power, and protocol.
+[Shop Anker Cables](/en/anker/cables) and check the current price or offer shown when ordering.
 `
                         }
                     ],

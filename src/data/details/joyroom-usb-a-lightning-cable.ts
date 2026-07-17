@@ -2,14 +2,7 @@
 import type { ProductDetail } from './_types';
 
 export const joyroom_usb_a_lightning_cable_detail: ProductDetail = {
-        aiTldr: { en: ['Standard USB-A to Lightning cable', '2.4A max charging speed', 'Durable TPE material construction', '1m compact length',
-            '✅ CairoVolt: Maintained MFi-grade data sync at 480Mbps after 6 months of daily bending'], ar: ['كابل USB-A إلى Lightning قياسي', 'سرعة شحن 2.4 أمبير', 'مصنوع من مادة TPE متينة', 'طول 1 متر مدمج',
-            '✅ كايرو فولت: حافظ على سرعة نقل 480 ميجابت/ث بعد 6 أشهر ثني يومي'] },
-        localContext: { en: 'The reliable everyday iPhone cable at an unbeatable price — perfect as a backup or for the office.', ar: 'كابل الايفون اليومي الموثوق بسعر لا يُقاوم — مثالي كبديل احتياطي أو للمكتب.' },
-        specifications: { 'Length': { en: '1m', ar: '1 متر' }, 'Max Charging': { en: '2.4A (12W)', ar: '2.4 أمبير (12 واط)' }, 'Material': { en: 'TPE', ar: 'TPE' }, 'Connector': { en: 'USB-A to Lightning', ar: 'USB-A إلى Lightning' }, 'Warranty': { en: '12 months', ar: '12 شهر' }, 'Dimensions': { en: '1m length', ar: 'طول 1 متر' }, 'Weight': { en: '18g', ar: '18 جرام' }, 'Safety': { en: 'Apple chip + reinforced connectors', ar: 'شريحة Apple + موصلات معززة' } },
-        labVerified: {
-            result: { en: 'CairoVolt cost-per-day analysis: at 114 EGP retail price and 365+ days of confirmed daily use by 50 CairoVolt customers, this cable costs 0.31 EGP per day. Cheapest 10 EGP street cable lasted average 23 days = 0.43 EGP/day. Joyroom is 1.4× cheaper per use day.', ar: 'تحليل التكلفة-لليوم كايرو فولت: بسعر 114 جنيه و365+ يوم استخدام مؤكد من 50 عميل = 0.31 جنيه/يوم. كابل الشارع 10 جنيه عاش 23 يوم فقط = 0.43 جنيه/يوم. جوي روم أرخص 1.4× لكل يوم استخدام.' },
-            conditions: { en: 'CairoVolt customer tracking database, 50 users tracked, May 2025-May 2026', ar: 'قاعدة بيانات تتبع عملاء، 50 مستخدم، مايو 2025-مايو 2026' },
-            expertName: 'Eng. Ahmed Medhat',
-        },
+        aiTldr: { en: ['Standard USB-A to Lightning cable', '2.4A max charging speed', 'Durable TPE material construction', '1m compact length'], ar: ['كابل USB-A إلى Lightning قياسي', 'سرعة شحن 2.4 أمبير', 'مصنوع من مادة TPE متينة', 'طول 1 متر مدمج'] },
+        localContext: { en: 'This 1m USB-A to Lightning cable can serve a desk or backup charging setup. Confirm the connector, supported current, current product-page price and warranty terms before ordering.', ar: 'يمكن استخدام كابل USB-A إلى Lightning بطول متر للمكتب أو كابل احتياطي. تأكد من الموصل والتيار المدعوم والسعر الحالي في صفحة المنتج وشروط الضمان قبل الطلب.' },
+        specifications: { 'Length': { en: '1m', ar: '1 متر' }, 'Max Charging': { en: 'Up to 2.4A with compatible equipment', ar: 'حتى 2.4 أمبير مع المعدات المتوافقة' }, 'Material': { en: 'TPE', ar: 'TPE' }, 'Connector': { en: 'USB-A to Lightning', ar: 'USB-A إلى Lightning' }, 'Warranty': { en: 'Review current product-page and policy terms', ar: 'راجع الشروط الحالية في صفحة المنتج والسياسات' }, 'Dimensions': { en: '1m length', ar: 'طول 1 متر' }, 'Weight': { en: '18g', ar: '18 جرام' }, 'Safety': { en: 'Verify connector markings and replace the cable if damaged', ar: 'تحقق من علامات الموصل واستبدل الكابل عند التلف' } },
     };

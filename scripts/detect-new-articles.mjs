@@ -65,21 +65,20 @@ if (forceSlug) {
       return slug;
     };
 
-    // أولوية: مضافة (A) > معدّلة (M)
-    const added    = lines.filter(l => l.startsWith('A')).map(parseSlug).filter(Boolean);
-    const modified = lines.filter(l => l.startsWith('M')).map(parseSlug).filter(Boolean);
-    const all      = [...added, ...modified];
+    // النشر الاجتماعي مخصص للمقالات الجديدة فقط. تحسين مقال قائم لا يجعله
+    // مقالاً جديداً، وإعادة نشره تلقائياً قد تربك المتابعين أو تعيد حملة قديمة.
+    const added = lines.filter(l => l.startsWith('A\t')).map(parseSlug).filter(Boolean);
 
-    if (all.length === 0) {
+    if (added.length === 0) {
       console.log('ℹ️ لا يوجد مقالات جديدة قابلة للنشر في هذا الـ push');
       setOutput('has_new_article', 'false');
       process.exit(0);
     }
 
-    targetSlug = all[0];
+    targetSlug = added[0];
     console.log(`\n✅ مقال سيُنشر: ${targetSlug}`);
-    if (all.length > 1) {
-      console.log(`   (مقالات أخرى لم تُنشر هذه المرة: ${all.slice(1).join(', ')})`);
+    if (added.length > 1) {
+      console.log(`   (مقالات أخرى لم تُنشر هذه المرة: ${added.slice(1).join(', ')})`);
     }
 
   } catch (err) {

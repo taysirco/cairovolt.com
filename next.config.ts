@@ -1,15 +1,17 @@
 import createNextIntlPlugin from 'next-intl/plugin';
+import type { NextConfig } from 'next';
 
 const withNextIntl = createNextIntlPlugin();
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
     poweredByHeader: false,
     trailingSlash: false,
     compress: true,
     reactCompiler: true,
-    // Strip console.* from production client bundles (keep error/warn for
-    // diagnostics). Shaves dead logging out of every shipped page's JS.
+    outputFileTracingIncludes: {
+        '/api/admin/wholesale': ['./src/server/wholesale-dashboard.html'],
+    },
+    // Remove development logging from production client bundles.
     compiler: {
         removeConsole: process.env.NODE_ENV === 'production'
             ? { exclude: ['error', 'warn'] }
@@ -17,10 +19,9 @@ const nextConfig = {
     },
     serverExternalPackages: ['firebase-admin', '@google-cloud/secret-manager'],
     images: {
-        // Custom loader bypasses broken /_next/image on Firebase App Hosting
-        // (FAH adapter nextjs-14.0.21 doesn't support Next.js 16 image pipeline)
+        // Use the local optimizer route supported by the App Hosting runtime.
         loaderFile: './src/lib/image-loader.ts',
-        formats: ['image/avif', 'image/webp'] as any,
+        formats: ['image/avif', 'image/webp'],
         minimumCacheTTL: 31536000,
         // Optimized breakpoints — match actual device widths to avoid oversized images
         deviceSizes: [360, 414, 640, 750, 828, 1080, 1200, 1920],
@@ -33,7 +34,7 @@ const nextConfig = {
         // Omitting `search` allows any query string on these paths.
         localPatterns: [
             { pathname: '/**' },
-        ] as any,
+        ],
         remotePatterns: [
             {
                 protocol: 'https',
@@ -47,14 +48,10 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'lh3.googleusercontent.com',
             },
-        ] as any,
+        ],
     },
     experimental: {
-        // optimizeCss (Critters) removed — incompatible with App Router streaming.
-        // inlineCss is the Next-native replacement (NOT Critters): it folds the route's
-        // CSS into a <style> tag in the streamed HTML, removing the render-blocking
-        // stylesheet request (~671ms) that gates FCP and therefore LCP. Experimental —
-        // MUST verify live for FOUC/visual regressions; roll back by deleting this line.
+        // Inline route CSS to reduce render-blocking requests.
         inlineCss: true,
         optimizePackageImports: ['next-intl', 'react-hook-form'],  // Tree-shake barrel exports
         staleTimes: {
@@ -65,8 +62,7 @@ const nextConfig = {
     async headers() {
         return [
             {
-                // .well-known files — accessible for agent discovery, C2PA, MCP, etc.
-                // NOTE: Each route handler sets its own Content-Type (JSON, markdown, text)
+                // Public discovery documents set their own content type.
                 source: '/.well-known/:path*',
                 headers: [
                     {
@@ -123,9 +119,6 @@ const nextConfig = {
                 ],
             },
             {
-                // Internal wholesale dashboard — must never enter any index.
-                // Also blocked in robots.txt; the header covers crawlers that
-                // reached it via an external link despite the robots block.
                 source: '/wholesale-dashboard.html',
                 headers: [
                     {
@@ -212,10 +205,9 @@ const nextConfig = {
                         value: 'same-origin-allow-popups',
                     },
                     {
-                        // CSP — effective XSS mitigation (Best Practices)
-                        // Removed 'unsafe-eval' — not needed in production Next.js
+                        // Content Security Policy for application and analytics resources.
                         key: 'Content-Security-Policy',
-                        value: "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.tiktok.com https://www.statcounter.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.com.eg https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https: http:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https: wss:; frame-src 'self' https://www.google.com https://td.doubleclick.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self' https:;",
+                        value: "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.tiktok.com https://www.statcounter.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.com.eg https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https: wss:; frame-src 'self' https://www.google.com https://td.doubleclick.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self';",
                     },
                 ],
             },
@@ -223,7 +215,7 @@ const nextConfig = {
     },
     async redirects() {
         return [
-            // === Internal staff tools — friendly /admin/* alias (same family as /admin/print-cards) ===
+            // Preserve the established internal staff-tool aliases.
             { source: '/admin/wholesale', destination: '/wholesale-dashboard.html', permanent: false },
             { source: '/admin/catalog', destination: '/wholesale-dashboard.html', permanent: false },
 

@@ -2,23 +2,19 @@ import type { ProductDetail } from './_types';
 export const anker_prime_fusion_a1339_9600mah_65w_detail: ProductDetail = {
     aiTldr: {
   "en": [
-    "65W GaN output charges a 14-inch MacBook Pro from a pocket brick.",
+    "Up to 65W GaN output for compatible USB-C laptops and mobile devices.",
     "Fusion design: foldable wall plug plus a 9,600mAh battery in one unit.",
-    "Lab-tested: iPhone 17 Pro 18 to 71% in 25 minutes, 41C peak.",
-    "Boosts MacBook Air, iPad Air, Galaxy S26 Ultra and Nintendo Switch OLED.",
-    "✅ CairoVolt: EGP 3,200, 24-month warranty, CE/FCC certified, COD Egypt."
+    "Charging rate and available output vary between wall-charger and battery modes and with the connected device."
   ],
   "ar": [
-    "65 واط GaN بيشحن ماك بوك برو 14 من جهاز في جيبك.",
+    "خرج GaN يصل إلى 65 واط للابتوب USB-C والأجهزة المحمولة المتوافقة.",
     "تصميم فيوجن: قابس قابل للطي وبطارية 9,600 مللي أمبير في جهاز واحد.",
-    "مُختبر: ايفون 17 برو من 18 لـ71% في 25 دقيقة، حرارة 41°C.",
-    "بيشحن ماك بوك اير، ايباد اير، جالكسي S26 الترا، ونينتندو سويتش.",
-    "✅ CairoVolt: 3,200 جنيه، ضمان 24 شهر، CE/FCC، دفع عند الاستلام."
+    "يختلف معدل الشحن والخرج المتاح بين وضع شاحن الحائط ووضع البطارية، وحسب الجهاز المتصل."
   ]
 },
     localContext: {
-  "en": "During Egypt's 2024-2025 load-shedding, many Cairo neighborhoods lost power for two-hour blocks twice a day. A normal 65W wall charger is dead plastic the second the socket cuts. The Prime Fusion's hybrid GaN core banks 34.56Wh while plugged in, so its foldable plug and 9,600mAh cell keep your phone and laptop alive right through the cut.",
-  "ar": "في تخفيف الأحمال اللي عدّى على مصر 2024-2025، أحياء كتير في القاهرة فضلت من غير كهربا ساعتين مرتين في اليوم. الشاحن العادي 65 واط بيبقى قطعة بلاستيك أول ما البريزة تفصل. نواة GaN الهجينة في برايم فيوجن بتخزّن 34.56 واط·ساعة وهي مولّعة، فالقابس القابل للطي وخلية 9,600 مللي أمبير بيكملوا شحن موبايلك ولابتوبك طول القطع."
+  "en": "The Fusion format combines an AC charger and a 34.56Wh battery, so compatible USB devices can still draw from the battery when the unit is away from an outlet. This is continuity for mobile charging, not a guaranteed runtime for a laptop: usable energy, conversion losses, device load and remaining charge determine how long it lasts. Check the port-allocation table because the advertised maximum may change by mode and connection combination.",
+  "ar": "يجمع تصميم فيوجن بين شاحن AC وبطارية 34.56 واط·ساعة، لذلك يمكن لأجهزة USB المتوافقة السحب من البطارية عند ابتعاد الوحدة عن البريزة. هذا يوفر استمرارية لشحن الأجهزة المحمولة لكنه لا يضمن مدة ثابتة لتشغيل اللابتوب؛ فالطاقة القابلة للاستخدام وخسائر التحويل وحمل الجهاز والشحن المتبقي تحدد المدة. راجع جدول توزيع المنافذ لأن الحد الأقصى المعلن قد يتغير حسب الوضع ومجموعة التوصيل."
 },
     specifications: {
   "Product Type": {
@@ -42,39 +38,28 @@ export const anker_prime_fusion_a1339_9600mah_65w_detail: ProductDetail = {
     "ar": "منفذين USB-C (C1 إدخال/إخراج، C2 إخراج) + قابس حائط قابل للطي"
   },
   "Input": {
-    "en": "USB-C up to 65W (0-100% in ~78 min); also self-charges via wall plug",
-    "ar": "USB-C حتى 65 واط (0-100% في ~78 دقيقة)؛ وبيشحن نفسه من قابس الحائط"
+    "en": "USB-C input up to 65W; wall-plug self-charging is also supported, with time dependent on source and conditions",
+    "ar": "دخل USB-C يصل إلى 65 واط؛ ويدعم الشحن الذاتي من قابس الحائط، مع اختلاف المدة حسب المصدر والظروف"
   },
   "Display": {
     "en": "Round smart display: watts, temperature, battery-health %, time-to-empty",
     "ar": "شاشة ذكية دائرية: الواط، الحرارة، نسبة صحة البطارية، الوقت المتبقي"
   },
   "Dimensions": {
-    "en": "115 x 43 x 43 mm (1.71 x 1.71 x 4.53 in) — 60% smaller than a standard 65W bank",
-    "ar": "115 × 43 × 43 مم (1.71 × 4.53 بوصة) — أصغر بنسبة 60% من الباور بانك العادي 65 واط"
+    "en": "115 x 43 x 43 mm (approximately 4.53 x 1.69 x 1.69 in)",
+    "ar": "115 × 43 × 43 مم (حوالي 4.53 × 1.69 × 1.69 بوصة)"
   },
   "Weight": {
     "en": "305g (10.76 oz)",
     "ar": "305 جرام (10.76 أونصة)"
   },
   "Safety": {
-    "en": "CE / FCC / RoHS certified, 100-240V input, ActiveShield 2.0 temperature monitoring",
-    "ar": "شهادات CE / FCC / RoHS، مدخل 100-240 فولت، مراقبة حرارة ActiveShield 2.0"
+    "en": "100–240V input and manufacturer-listed ActiveShield 2.0 monitoring; verify CE, FCC and RoHS markings or documents for the delivered unit",
+    "ar": "مدخل 100–240 فولت ومراقبة ActiveShield 2.0 كما تذكرها انكر؛ ويُراجع وجود علامات أو مستندات CE وFCC وRoHS للوحدة المستلمة"
   },
   "Warranty": {
-    "en": "24-month CairoVolt/Anker warranty",
-    "ar": "ضمان 24 شهر من كايرو فولت/أنكر"
+    "en": "CairoVolt warranty period and terms as displayed on the product page and order documents",
+    "ar": "مدة وشروط ضمان كايرو فولت كما تظهر في صفحة المنتج ومستندات الطلب"
   }
 },
-    labVerified: {
-        result: {
-  "en": "On the Charger Lab KM003C meter, port C1 delivered a steady 64.8W into a 14-inch MacBook Pro; the aluminum body peaked at 41C.",
-  "ar": "على جهاز قياس Charger Lab KM003C، منفذ C1 طلّع 64.8 واط ثابتة لماك بوك برو 14؛ جسم الألومنيوم وصل لـ 41°C كحد أقصى."
-},
-        conditions: {
-  "en": "CairoVolt lab, Cairo, March 2026, 30C ambient, single-port test with a 100W-rated cable.",
-  "ar": "معمل كايرو فولت، القاهرة، مارس 2026، حرارة محيطة 30°C، اختبار منفذ واحد بكابل متحمّل 100 واط."
-},
-        expertName: 'Eng. Ahmed Medhat'
-    }
 };

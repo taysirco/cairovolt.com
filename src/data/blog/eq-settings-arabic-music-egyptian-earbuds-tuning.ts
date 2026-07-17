@@ -33,7 +33,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
             faq: [
                 {
                     question: 'كيف يمكنني تعديل إعدادات الـ EQ على سماعات ساوندكور بمصر؟',
-                    answer: 'قم بتنزيل تطبيق Soundcore الرسمي من متجر جوجل بلاي أو آبل ستور، ثم قم بعملية اقتران لسماعتك بالهاتف وافتح التطبيق للدخول إلى قسم Equalizer واختيار النمط المخصص (Custom EQ) لتعديل الترددات يدوياً.'
+                    answer: 'قم بتنزيل تطبيق ساوندكور الرسمي من متجر جوجل بلاي أو آبل ستور، ثم قم بعملية اقتران لسماعتك بالهاتف وافتح التطبيق للدخول إلى قسم Equalizer واختيار النمط المخصص (Custom EQ) لتعديل الترددات يدوياً.'
                 },
                 {
                     question: 'هل يؤثر ضبط الإيكولايزر على استهلاك بطارية سماعة البلوتوث؟',
@@ -48,9 +48,9 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
                     answer: 'نعم، تحتوي شاشات سامسونج الذكية في إعدادات الصوت على معالج إيكولايزر مبسط (Equalizer Settings) يتيح لك رفع الباس والتريبل يدوياً لتحسين جودة الصوت عند توصيل سماعة خارجية بالبلوتوث أو كابل البصري.'
                 }
             ],
-            content: `<p>الموسيقى الشرقية والعربية ليها طبيعة خاصة جداً بتختلف تماماً عن الموسيقى الغربية. الآلات الشرقية زي العود، القانون، الناي، والكمان، وصوت المطرب اللي بيغني بطبقات معقدة وعُرَب صوتية صعبة، كل ده بيحتاج خلطة ترددات فريدة عشان تسمعه بنقاء ومزاج. لو إنت شاري سماعة جديدة وغالية ومضبتش الإيكولايزر (EQ) بتاعها، فأنت بتفقد أكتر من نص متعة التجربة الموسيقية!</p>
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>الموسيقى الشرقية والعربية ليها طبيعة خاصة جداً بتختلف تماماً عن الموسيقى الغربية. الآلات الشرقية زي العود، القانون، الناي، والكمان، وصوت المطرب اللي بيغني بطبقات معقدة وعُرَب صوتية صعبة، كل ده بيحتاج خلطة ترددات فريدة عشان تسمعه بنقاء ومزاج. لو إنت شاري سماعة جديدة وغالية ومضبتش الإيكولايزر (EQ) بتاعها، فأنت بتفقد أكتر من نص متعة التجربة الموسيقية!</p>
 
-<p>في معمل كايرو فولت، إحنا مش بس بنهتم بالشحن والكهرباء؛ إحنا بنهتم كمان بجودة الصوت وتجربتك الترفيهية اليومية. ضبط إعدادات الصوت مش مجرد ترف؛ ده علم وفن بيعتمد على معرفة الترددات الصوتية. في الدليل الشامل ده، هنشرح لك بالتفصيل إزاي تضبط الـ EQ بتاع سماعتك البلوتوث عشان يناسب الموسيقى العربية الكلاسيكية والمهرجانات الصاخبة، ونوضح لك طريقة عمل الترددات المختلفة وإزاي تبرز الآلات الشرقية المفضلة عندك.</p>
+<p>في هذا الدليل، إحنا مش بس بنهتم بالشحن والكهرباء؛ إحنا بنهتم كمان بجودة الصوت وتجربتك الترفيهية اليومية. ضبط إعدادات الصوت مش مجرد ترف؛ ده علم وفن بيعتمد على معرفة الترددات الصوتية. في الدليل الشامل ده، هنشرح لك بالتفصيل إزاي تضبط الـ EQ بتاع سماعتك البلوتوث عشان يناسب الموسيقى العربية الكلاسيكية والمهرجانات الصاخبة، ونوضح لك طريقة عمل الترددات المختلفة وإزاي تبرز الآلات الشرقية المفضلة عندك.</p>
 
 <h2>أولاً: فهم الترددات الصوتية الثلاثة وكيف تؤثر على الموسيقى العربية</h2>
 <p>قبل ما نبدأ نعدل في المؤشرات (Sliders) جوه تطبيق السماعة، لازم نفهم كل تردد بيعمل إيه في الأغنية:</p>
@@ -59,7 +59,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
     <li>🎤 <strong>الترددات المتوسطة (Mids - من 250Hz إلى 4kHz):</strong> دي أهم منطقة للموسيقى العربية. هنا بيقع صوت المطرب (زي أم كلثوم أو عبد الحليم) وصوت آلة العود والكمان والناي. ضبط المنطقة دي بيعطي دفيء ونقاء غير عادي للصوت البشري.</li>
     <li>🎻 <strong>الترددات المرتفعة (Treble - من 4kHz إلى 20kHz):</strong> دي المسؤولة عن صوت الصاجات، طبلة الرق، والسهم الحاد في نغمات الكمان. رفعها بيدي بهجة ووضوح، بس لو زادت عن حدها هتسبب ألم في الأذن وصوت صفير مزعج.</li>
 </ol>
-<p>سماعات ممتازة مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> أو سماعات <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> بتديك تحكم كامل في الترددات دي من خلال معادل الصوت الرسومي (Graphic Equalizer) في التطبيق الخاص بها.</p>
+<p>سماعات ممتازة مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P20i</a> أو سماعات <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">ساوندكور R50i</a> بتديك تحكم كامل في الترددات دي من خلال معادل الصوت الرسومي (Graphic Equalizer) في التطبيق الخاص بها.</p>
 
 <h2>ثانياً: خلطة الإعدادات السحرية — ثلاثة أنماط تناسب مزاجك المصري</h2>
 <p>إليك الإعدادات الدقيقة لكل نوع من الموسيقى التي تسمعها يومياً في مصر:</p>
@@ -171,9 +171,9 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
                     answer: 'Yes, Samsung Smart TVs feature built-in Equalizer settings in the Sound menu, allowing you to manually adjust bass and treble levels to optimize audio quality when connected to external Bluetooth headphones or optical soundbars.'
                 }
             ],
-            content: `<p>Arabic and Oriental music possesses a unique acoustic nature that differs significantly from Western tracks. Oriental acoustic instruments like the Oud, Qanun, Nay flute, and violins, along with vocalists performing complex vibratos and microtonal shifts, demand a tailored frequency balance to deliver clear and immersive audio. If you purchase expensive earbuds and leave them on default factory settings, you are missing out on more than half of the acoustic experience!</p>
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>Arabic and Oriental music possesses a unique acoustic nature that differs significantly from Western tracks. Oriental acoustic instruments like the Oud, Qanun, Nay flute, and violins, along with vocalists performing complex vibratos and microtonal shifts, demand a tailored frequency balance to deliver clear and immersive audio. If you purchase expensive earbuds and leave them on default factory settings, you are missing out on more than half of the acoustic experience!</p>
 
-<p>At the CairoVolt lab, we prioritize your daily entertainment quality alongside charging safety. Audio tuning is not a luxury; it is a blend of science and art based on frequency response curves. In this comprehensive guide, we explain how to adjust the Equalizer (EQ) settings on your Bluetooth earbuds to match classic Tarab melodies and high-energy Shaabi beats, explaining how different frequency bands function to highlight your favorite instruments.</p>
+<p>In this guide, we prioritize your daily entertainment quality alongside charging safety. Audio tuning is not a luxury; it is a blend of science and art based on frequency response curves. In this comprehensive guide, we explain how to adjust the Equalizer (EQ) settings on your Bluetooth earbuds to match classic Tarab melodies and high-energy Shaabi beats, explaining how different frequency bands function to highlight your favorite instruments.</p>
 
 <h2>1. Understanding Audio Frequencies and Their Impact on Arabic Melodies</h2>
 <p>Before adjusting the frequency sliders in your earbud's companion app, you must understand how each band affects the sound signature:</p>

@@ -23,113 +23,103 @@ export const anker_a2741_charger_30w = {
     ],
         translations: {
             en: {
-                name: "Anker 30W Mini Car Charger (A2741) | USB-C 27W PD + USB-A 22.5W | Ultra-Compact | 18-Month Warranty",
-                shortDescription: "🚗 30W Car Charger | 🔌 USB-C 27W PD/PPS + USB-A 22.5W PowerIQ 3.0 | 📐 Miniature Design (15g!) | 📱 Fast Charge iPhone + Samsung | 🛡️ MultiProtect | 🔋 12V/24V All Cars",
+                name: "Anker 30W Mini Car Charger (A2741) | USB-C 27W PD + USB-A 22.5W | Ultra-Compact",
+                shortDescription: "🚗 Listed 30W total | 🔌 USB-C PD/PPS + USB-A PowerIQ 3.0 | 📐 Listed 15g design | 📱 Match phone and cable profiles | 🛡️ Verify MultiProtect statement | 🔋 Check vehicle socket fit",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike car chargers that lose connection on Cairo's speed bumps, The Anker A2741 is an <strong>ultra-miniature 30W car charger</strong> weighing only 15 grams — barely larger than a coin, yet packing USB-C PD/PPS (27W) + USB-A PowerIQ 3.0 (22.5W). It sits almost invisible in your car's 12V socket. PPS support means optimized fast charging for Samsung Galaxy series. MultiProtect safety for Egyptian summer driving conditions. 18-month warranty. Available at <strong>EGP 530</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker A2741 car charger</strong> listing states a 30W total, USB-C PD/PPS up to 27W, USB-A PowerIQ 3.0 up to 22.5W and a 15g weight. Confirm the printed single-port and simultaneous-use table, vehicle input range, socket fit, dimensions and protection markings on the supplied unit. Actual power varies with the phone, cable, battery state and temperature. Check the live price, stock and current warranty terms.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
     <li>🚗 <strong>30W Total Output:</strong> USB-C PD/PPS (27W single) + USB-A PowerIQ 3.0 (22.5W single).</li>
-    <li>📐 <strong>Miniature Design:</strong> Only 15g and 55mm long — sits flush, doesn't stick out from console.</li>
-    <li>⚡ <strong>PPS Support:</strong> Samsung Galaxy S26/S25 get optimized Super Fast Charging via PPS protocol.</li>
-    <li>🔌 <strong>PowerIQ 3.0 USB-A:</strong> Up to 22.5W for legacy devices — faster than most car charger USB-A ports.</li>
-    <li>🛡️ <strong>MultiProtect:</strong> Over-voltage, under-voltage, over-current, and over-temperature protection.</li>
-<li>💰 <strong>0.98 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
+    <li>📐 <strong>Listed size:</strong> verify 15g, 55mm dimensions and console clearance for the supplied unit.</li>
+    <li>⚡ <strong>PPS support:</strong> requires a phone, charger profile and cable that support the same mode.</li>
+    <li>🔌 <strong>PowerIQ 3.0 USB-A:</strong> verify the listed profile and compare it with the exact phone, cable and other charger under the same conditions.</li>
+    <li>🛡️ <strong>MultiProtect:</strong> verify the current protection statement and compliance markings for A2741.</li>
+<li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The A2741 is genuinely tiny — at 15 grams, you'll forget it's in your car. But don't let the size fool you: the USB-C port delivers 27W PD with PPS, which is significant for Samsung users who want Super Fast Charging in the car. The USB-A port with PowerIQ 3.0 offers 22.5W — substantially faster than the 12W you get from basic car chargers. Where the A2732 focuses on the PD upgrade, the A2741 is about maximum power in minimum size. We tested it through the 6th of October/Sheikh Zayed commute in August — it stayed cool under dual load despite 45°C ambient. For drivers who want the smallest possible charger with real fast-charge capability, the A2741 is the smallest 30W option available in Egypt."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A2741</strong>, start with the manufacturer-rated vehicle input range, port output profiles and supported charging protocols printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">Miniature Size, Maximum Power</h2>
-    <p class="text-gray-700">At just <strong>55mm × 24mm and 15 grams</strong>, the A2741 is one of the smallest car chargers with genuine fast-charge capability. It sits almost completely flush in your car's 12V socket — no awkward protrusion, no blocking other controls. Yet it delivers <strong>30W total</strong>: USB-C with PD/PPS up to 27W, and USB-A with PowerIQ 3.0 up to 22.5W. You won't find this power-to-size ratio anywhere else at this price.</p></section>
-    <section><h2 class="text-2xl font-bold mb-2">PPS: Samsung Super Fast Charging in Your Car</h2>
-    <p class="text-gray-700">The A2741's USB-C port supports <strong>PPS (Programmable Power Supply)</strong> at 3.3-11V⎓3A — this is the protocol Samsung Galaxy S26/S25 uses for Super Fast Charging. Most car chargers only support basic PD, giving Samsung phones a slower charge. The A2741 delivers the specific voltage Samsung needs. iPhone users also get full 20W+ PD fast charging. When <strong>both ports are active</strong>, power is shared (~12W each).</p></section>
-    <section><h2 class="text-2xl font-bold mb-2">Built for Cairo Traffic and Summer Heat</h2>
-    <p class="text-gray-700">Long commutes on the Ring Road or trips to the North Coast mean your phone runs GPS, music, and calls simultaneously. The A2741's <strong>30W output</strong> means your phone gains charge even under heavy use — basic 12W car chargers can barely keep up. <strong>MultiProtect</strong> monitors voltage, current, and temperature continuously. Compatible with all <strong>12V and 24V</strong> vehicles — from compact sedans to SUVs and trucks.</p></section>
+    <p class="text-gray-700">The listed dimensions are <strong>55mm × 24mm</strong> with a 15g weight, designed to sit close to a compatible 12V socket. The stated profiles are <strong>30W total</strong>, USB-C PD/PPS up to 27W and USB-A PowerIQ 3.0 up to 22.5W when used separately. Confirm dimensions, socket clearance and shared-output behavior for the supplied model.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2">PPS and Device Profiles</h2>
+    <p class="text-gray-700">The listing describes a USB-C PPS range for A2741. A branded phone mode appears only when the phone, charger profile and cable meet the same requirements. When both ports are active, use the printed shared-output table instead of assuming a fixed split.</p></section>
+    <section><h2 class="text-2xl font-bold mb-2">Vehicle Socket, Heat and Active Phone Use</h2>
+    <p class="text-gray-700">Navigation, calls, screen brightness, signal and temperature can reduce net charging. Verify the current MultiProtect statement, keep the charger ventilated and stop use if the plug or socket is damaged or unusually hot. A 12V/24V input marking does not guarantee physical fit in every vehicle.</p></section>
 </div>
-<div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
+<div class="device-compatibility"><h3 class="font-bold mb-2">Compatibility guide based on listed specifications:</h3>
 <ul class="list-disc list-inside text-gray-700">
-    <li>📱 <strong>Samsung Galaxy S26/S25:</strong> PPS Super Fast Charging via USB-C (optimized protocol).</li>
-    <li>📱 <strong>iPhone 17/16/15 series:</strong> 20W+ PD fast charging via USB-C.</li>
-    <li>📱 <strong>Legacy phones (Oppo/Xiaomi/Huawei):</strong> Up to 22.5W via USB-A PowerIQ 3.0.</li>
-    <li>🎧 <strong>AirPods / Galaxy Buds:</strong> Efficient low-power charging via either port.</li>
-    <li>🚗 <strong>All Cars:</strong> 12V/24V universal — sedans, SUVs, trucks.</li>
+    <li>📱 <strong>USB-C phones:</strong> confirm their accepted PD/PPS profile and cable requirement.</li>
+    <li>📱 <strong>USB-A devices:</strong> negotiated output is limited by the device, cable and printed port rating.</li>
+    <li>🎧 <strong>Accessories:</strong> follow the accessory maker's input and cable guidance.</li>
+    <li>🚗 <strong>Vehicles:</strong> confirm voltage, socket shape, depth, clearance and vehicle instructions.</li>
 </ul></div>
 
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Counterfeit Anker car chargers use cheap components without proper thermal management. In a hot Egyptian car, these can overheat and damage your phone's charging port permanently. Always verify authenticity at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A2741</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms. Review <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">the official verification reference</a>.</p></div>
 `,
-                features: ["🚗 30W Car Charger", "⚡ USB-C 27W PD/PPS", "🔌 USB-A 22.5W PowerIQ 3.0", "📐 Miniature 15g Design", "📱 Samsung PPS Fast Charge", "🛡️ MultiProtect Safety", "🔋 12V/24V All Cars", "🏆 18-Month Warranty"],
-                metaTitle: "Anker Mini 30W Car Charger ⚡ 7% OFF | Ultra Compact | COD",
-                metaDesc: "Buy Anker A2741 mini car charger in Egypt. 30W: USB-C 27W PD/PPS + USB-A 22.5W. Only 15g! Samsung PPS fast charging. ✓ 18-Month Warranty ✓ Fast Delivery.",
+                features: ["🚗 Listed 30W total", "⚡ USB-C PD/PPS listed up to 27W", "🔌 USB-A PowerIQ 3.0 listed up to 22.5W", "📐 Verify listed 15g dimensions", "📱 Match device and cable profiles", "🛡️ Verify MultiProtect statement", "🔋 Check 12V/24V socket compatibility", "🏆 current warranty and return policy"],
+                metaTitle: "Anker Mini 30W Car Charger | Ultra Compact | COD",
+                metaDesc: "Buy Anker A2741 mini car charger in Egypt. 30W: USB-C 27W PD/PPS + USB-A 22.5W. Only 15g! Samsung PPS fast charging. ✓ current warranty and return policy ✓ Fast Delivery.",
                 faqs: [
-                    { question: "How is the A2741 different from the A2732?", answer: "Both are Anker car chargers, but the A2741 is much smaller (15g vs 32g) and supports PPS protocol for Samsung Super Fast Charging. The A2732 has stronger per-port output but is physically larger. Choose A2741 for minimum size, A2732 for maximum single-port speed." },
-                    { question: "Does PPS make a difference for Samsung phones?", answer: "Yes!" },
-                    { question: "It's only 15g — is it durable enough?", answer: "Yes. The miniature size uses dense engineering, not cheap materials. The A2741 is built to automotive standards with heat-resistant internals and MultiProtect safety. Anker backs it with an 18-month warranty." },
-                    { question: "What happens when both ports charge simultaneously?", answer: "When both ports are active, power is shared — approximately 12W per port. For single-device fast charging, use one port at a time. This is standard for dual-port car chargers at this wattage." },
-                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers manufacturing defects, port failure, and overheating. Contact CairoVolt for free replacement. Keep your receipt and original box." }
+                    { question: "How should I compare the A2741 with A2732?", answer: "Compare the current printed dimensions, weight, single-port and shared output tables, PD/PPS profiles, socket clearance, live prices and warranty terms. Do not infer the better choice from size or one wattage alone." },
+                    { question: "Does PPS make a difference for Samsung phones?", answer: "PPS can enable a compatible negotiated charging mode only when the phone, charger profile and cable all meet the requirements. Check the exact phone and A2741 output table." },
+                    { question: "It's only 15g — is it durable enough?", answer: "The 15g figure describes the listed size, not service life. Verify the supplied model and use it within the printed automotive input and temperature limits; review the current Anker warranty terms for coverage." },
+                    { question: "What happens when both ports charge simultaneously?", answer: "Power is shared according to the printed A2741 table and may change by port combination. Each device also draws only a supported profile; verify the unit rather than assuming an approximate split." },
+                    { question: "What does the warranty cover?", answer: "Coverage, exclusions, proof of purchase and service steps are controlled by the written warranty and return policy in effect for this SKU. Review those terms before ordering and keep the invoice." }
                 ]
             },
             ar: {
-                name: "شاحن سيارة أنكر 30 واط ميني (A2741) | USB-C 27 واط PD/PPS + USB-A 22.5 واط | فائق الصغر | ضمان 18 شهر",
-                shortDescription: "🚗 شاحن سيارة 30 واط | 📐 وزنه 15 جرام بس! | 🔌 USB-C بقوة 27 واط PD/PPS + USB-A بقوة 22.5 واط | ⚡ شحن سامسونج السريع PPS | 🛡️ حماية MultiProtect | 🔋 12/24 فولت كل السيارات",
+                name: "شاحن سيارة انكر 30 واط ميني (A2741) | USB-C 27 واط PD/PPS + USB-A 22.5 واط | فائق الصغر",
+                shortDescription: "🚗 قدرة إجمالية معلنة 30 واط | 📐 وزن معلن 15 جرام | 🔌 USB-C PD/PPS + USB-A PowerIQ 3.0 | ⚡ طابق بروفايل الهاتف والكابل | 🛡️ تحقق من MultiProtect | 🔋 راجع مقبس السيارة",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة المقلدة اللي بتفصل مع تذبذب الفولتية، أنكر A2741 هو <strong>شاحن سيارة فائق الصغر 30 واط</strong> وزنه 15 جرام بس — أكبر من العملة بشوية، لكن فيه USB-C PD/PPS (27 واط) + USB-A PowerIQ 3.0 (22.5 واط). بيركب شبه مخفي في ولاعة عربيتك. دعم PPS يعني شحن سريع محسّن لسامسونج جالكسي. حماية MultiProtect لظروف الصيف المصري. ضمان 18 شهر. بسعر <strong>530 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed">تذكر قائمة <strong>شاحن السيارة انكر A2741</strong> قدرة إجمالية 30 واط وUSB-C PD/PPS حتى 27 واط وUSB-A PowerIQ 3.0 حتى 22.5 واط ووزناً 15 جرام. تحقق من جدول المنفذ الواحد والاستخدام المتزامن ودخل السيارة وشكل المقبس والأبعاد وعلامات الحماية على الوحدة الموردة. تختلف القدرة حسب الهاتف والكابل والبطارية والحرارة. راجع السعر والمخزون والضمان الحالي.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">
     <li>🚗 <strong>30 واط إجمالي:</strong> USB-C PD/PPS (27 واط منفرد) + USB-A PowerIQ 3.0 (22.5 واط منفرد).</li>
-    <li>📐 <strong>تصميم فائق الصغر:</strong> 15 جرام بس وطوله 55 ملم — بيركب مسطح مش بيبرز من الكونسول.</li>
-    <li>⚡ <strong>دعم PPS:</strong> سامسونج جالكسي S26/S25 بياخد Super Fast Charging محسّن عبر بروتوكول PPS.</li>
-    <li>🔌 <strong>USB-A PowerIQ 3.0:</strong> لحد 22.5 واط للأجهزة القديمة — أسرع من معظم منافذ USB-A في شواحن السيارات.</li>
-    <li>🛡️ <strong>MultiProtect:</strong> حماية من ارتفاع/انخفاض الفولتية والتيار الزائد والسخونة.</li>
+    <li>📐 <strong>الحجم المعلن:</strong> تحقق من وزن 15 جرام وطول 55 ملم ومساحة الكونسول.</li>
+    <li>⚡ <strong>دعم PPS:</strong> يحتاج هاتفاً وبروفايل شاحن وكابلاً يدعمون الوضع نفسه.</li>
+    <li>🔌 <strong>USB-A PowerIQ 3.0:</strong> قدرة معلنة حتى 22.5 واط؛ يعتمد الخرج على الجهاز والكابل والبروفايل المشترك.</li>
+    <li>🛡️ <strong>MultiProtect:</strong> تحقق من بيان الحماية وعلامات المطابقة الحالية للموديل A2741.</li>
 </ul></div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ A2741 صغير فعلاً — بـ 15 جرام هتنسى إنه في عربيتك. بس ما تنخدعش بالحجم: منفذ USB-C بيوفر 27 واط PD مع PPS، وده مهم لمستخدمي سامسونج اللي عايزين Super Fast Charging في العربية. منفذ USB-A مع PowerIQ 3.0 بيوفر 22.5 واط — أسرع بكتير من الـ 12 واط بتاعة شواحن السيارة العادية. فين الـ A2732 بيركز على ترقية PD، الـ A2741 عن أقصى قوة في أقل حجم. جربناه في مشوار 6 أكتوبر/الشيخ زايد في أغسطس — فضل بارد تحت حمل مزدوج رغم 45°C حوله. لأي سواق عايز أصغر شاحن ممكن مع قدرة شحن سريع حقيقية، الـ A2741 مالوش بديل."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A2741</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">حجم صغير، قوة كبيرة</h2>
-    <p class="text-gray-700">بأبعاد <strong>55 ملم × 24 ملم ووزن 15 جرام بس</strong>، الـ A2741 من أصغر شواحن السيارات اللي فيها شحن سريع حقيقي. بيركب شبه مسطح تماماً في ولاعة عربيتك — مفيش بروز محرج ولا إعاقة لأزرار تانية. ومع كده بيوفر <strong>30 واط إجمالي</strong>: USB-C مع PD/PPS لحد 27 واط، و USB-A مع PowerIQ 3.0 لحد 22.5 واط. مش هتلاقي النسبة دي بين القوة والحجم في أي منتج تاني بالسعر ده.</p></section>
+    <p class="text-gray-700">الأبعاد المدرجة <strong>55 ملم × 24 ملم</strong> والوزن 15 جرام، وهو مصمم للجلوس قريباً من مقبس 12 فولت المتوافق. البروفايلات المعلنة هي <strong>30 واط إجمالي</strong> وUSB-C PD/PPS حتى 27 واط وUSB-A PowerIQ 3.0 حتى 22.5 واط عند الاستخدام المنفرد. تحقق من الأبعاد ومساحة المقبس وتقسيم القدرة للموديل المورّد.</p></section>
     <section><h2 class="text-2xl font-bold mb-2">PPS: شحن سامسونج السريع في العربية</h2>
-    <p class="text-gray-700">منفذ USB-C في الـ A2741 بيدعم <strong>PPS (Programmable Power Supply)</strong> بقوة 3.3-11V⎓3A — ده البروتوكول اللي سامسونج جالكسي S26/S25 بيستخدمه للـ Super Fast Charging. معظم شواحن السيارات بتدعم PD العادي بس، فبتشحن سامسونج أبطأ. الـ A2741 بيوفر الفولتية اللي سامسونج محتاجها بالضبط. مستخدمي ايفون كمان بياخدوا شحن PD سريع بـ 20+ واط. لما <strong>المنفذين شغالين</strong>، القوة بتتقسم (~12 واط لكل واحد).</p></section>
+    <p class="text-gray-700">منفذ USB-C في A2741 مدرج بدعم <strong>PPS (Programmable Power Supply)</strong> ضمن 3.3-11V⎓3A. يحتاج الشحن السريع المتفاوض عليه توافق الهاتف والكابل وملف الخرج، ولا يعني دعم PPS حصول كل هاتف سامسونج أو ايفون على قدرة ثابتة. عند تشغيل المنفذين تتوزع القدرة وفق جدول الموديل؛ راجع القيم المطبوعة على الوحدة.</p></section>
     <section><h2 class="text-2xl font-bold mb-2">مصمم لزحمة القاهرة وحر الصيف</h2>
-    <p class="text-gray-700">المشاوير الطويلة على الدائري أو رحلات الساحل يعني موبايلك بيشغل GPS ومزيكا واتصالات في نفس الوقت. الـ A2741 بقوة <strong>30 واط</strong> يعني موبايلك بيكسب شحن حتى تحت استخدام كتير — شواحن السيارة العادية بـ 12 واط بالعافية بتلحق. <strong>MultiProtect</strong> بيراقب الفولتية والتيار والحرارة باستمرار. متوافق مع كل سيارات <strong>12V و 24V</strong> — من الملاكي الصغيرة للـ SUV والتريلات.</p></section>
+    <p class="text-gray-700">استخدام GPS والمكالمات والشاشة قد يرفع استهلاك الهاتف ويقلل صافي الشحن. تذكر القائمة قدرة إجمالية تصل إلى 30 واط ووظائف MultiProtect؛ لا يعني ذلك بقاء معدل الشحن نفسه تحت كل حمل وحرارة. تحقق من توافق مقبس السيارة وجهد 12V أو 24V والمساحة المحيطة قبل الاستخدام.</p></section>
 </div>
-<div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر:</h3>
+<div class="device-compatibility"><h3 class="font-bold mb-2">دليل توافق حسب المواصفات:</h3>
 <ul class="list-disc list-inside text-gray-700">
-    <li>📱 <strong>سامسونج جالكسي S26/S25:</strong> شحن PPS Super Fast Charging عبر USB-C (بروتوكول محسّن).</li>
-    <li>📱 <strong>ايفون 17/16/15:</strong> شحن PD سريع 20+ واط عبر USB-C.</li>
-    <li>📱 <strong>أجهزة قديمة (أوبو/شاومي/هواوي):</strong> لحد 22.5 واط عبر USB-A PowerIQ 3.0.</li>
-    <li>🎧 <strong>ايربودز / Galaxy Buds:</strong> شحن كفء من أي منفذ.</li>
-    <li>🚗 <strong>كل السيارات:</strong> 12/24 فولت — ملاكي وSUV وتريلات.</li>
+    <li>📱 <strong>هاتف USB-C:</strong> تحقق من بروفايل PD/PPS المقبول ومتطلب الكابل.</li>
+    <li>📱 <strong>جهاز USB-A:</strong> يحد الجهاز والكابل وتصنيف المنفذ من الخرج.</li>
+    <li>🎧 <strong>الاكسسوارات:</strong> اتبع تعليمات دخل الطاقة والكابل من الشركة.</li>
+    <li>🚗 <strong>مقابس 12/24 فولت المتوافقة:</strong> تحقق من جهد السيارة وشكل المقبس ومساحة التركيب.</li>
 </ul></div>
 
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">شواحن سيارة أنكر المقلدة بتستخدم مكونات رخيصة بدون إدارة حرارية. في عربية مصرية حرها شديد، ممكن تسخن وتتلف منفذ الشحن في موبايلك نهائياً. تأكد من الأصالة على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A2741</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية. راجع <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">مرجع التحقق الرسمي</a>.</p></div>
 `,
-                features: ["🚗 شاحن سيارة 30 واط", "📐 فائق الصغر 15 جرام", "⚡ USB-C بقوة 27 واط PD/PPS", "🔌 USB-A بقوة 22.5 واط", "📱 شحن PPS لسامسونج", "🛡️ حماية MultiProtect", "🔋 12/24 فولت كل السيارات", "🏆 ضمان 18 شهر", "🔒 معتمد UL + CE للسلامة → سلامة كهربائية مختبرة معملياً"],
-                metaTitle: "شاحن سيارة انكر ميني 30 واط ⚡ خصم 7% | أصغر شاحن سيارة",
-                metaDesc: "اشتري شاحن سيارة انكر A2741 ميني في مصر. 30 واط: USB-C بقوة 27 واط PD/PPS + USB-A بقوة 22.5 واط. وزنه 15 جرام بس! شحن سامسونج السريع. ✓ ضمان 18 شهر.",
+                features: ["🚗 قدرة إجمالية معلنة 30 واط", "📐 تحقق من وزن وأبعاد 15 جرام المعلنة", "⚡ USB-C PD/PPS حتى 27 واط معلنة", "🔌 USB-A PowerIQ حتى 22.5 واط معلنة", "📱 طابق بروفايل الجهاز والكابل", "🛡️ تحقق من بيان MultiProtect", "🔋 راجع توافق مقبس 12/24 فولت", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
+                metaTitle: "شاحن سيارة انكر ميني 30 واط | USB-C PD/PPS | مصر",
+                metaDesc: "اشتري شاحن سيارة انكر A2741 ميني في مصر. 30 واط: USB-C بقوة 27 واط PD/PPS + USB-A بقوة 22.5 واط. وزنه 15 جرام بس! شحن سامسونج السريع. ✓ راجع سياسة الضمان والاسترجاع الحالية.",
                 faqs: [
-                    { question: "إيه الفرق بينه وبين الـ A2732؟", answer: "الاتنين شواحن سيارة أنكر. الـ A2741 أصغر بكتير (15 جرام مقابل 32 جرام) وبيدعم PPS لشحن سامسونج السريع. الـ A2732 أقوى في المنفذ الواحد بس أكبر حجماً. اختار A2741 لأصغر حجم، A2732 لأقصى سرعة منفذ واحد." },
-                    { question: "الـ PPS بيفرق إيه مع سامسونج؟", answer: "أيوه بيفرق! PPS بيخلي الـ A2741 يوفر بالضبط الفولتية اللي سامسونج جالكسي S26/S25 محتاجها للـ Super Fast Charging. شواحن السيارة العادية اللي بتدعم PD بس بتشحن سامسونج أبطأ." },
-                    { question: "15 جرام بس — ده متين كفاية؟", answer: "أيوه. الحجم الصغير مبني بهندسة مدمجة مش مواد رخيصة. الـ A2741 مصمم لمعايير السيارات بمكونات مقاومة للحرارة وحماية MultiProtect. أنكر بتديله ضمان 18 شهر." },
-                    { question: "لما المنفذين بيشحنوا في نفس الوقت بيحصل إيه؟", answer: "لما المنفذين شغالين، القوة بتتقسم — حوالي 12 واط لكل منفذ. للشحن السريع، استخدم منفذ واحد في كل مرة. ده طبيعي في شواحن السيارة المزدوجة بالقوة دي." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 18 شهر بيغطي عيوب التصنيع وعطل المنافذ والسخونة. كلّم CairoVolt للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
+                    { question: "إزاي أقارنه مع A2732؟", answer: "قارن الأبعاد والوزن وجدول المنفذ الواحد والتوزيع المشترك وبروفايلات PD/PPS ومساحة المقبس والسعر والضمان الحاليين. لا تحسم الاختيار من الحجم أو رقم قدرة واحد." },
+                    { question: "الـ PPS بيفرق إيه مع سامسونج؟", answer: "يسمح PPS بتفاوض متدرج للجهد والتيار مع هواتف متوافقة. يجب أن يدعم الهاتف والكابل وملف الشاحن الوضع نفسه، لذلك راجع مواصفات جهاز سامسونج والقيم المطبوعة على A2741 بدل افتراض معدل ثابت." },
+                    { question: "15 جرام بس — ده متين كفاية؟", answer: "وزن 15 جرام يصف الحجم المعلن وليس العمر الافتراضي. تحقق من الموديل واستخدمه ضمن قيم دخل السيارة والحرارة المطبوعة، وراجع شروط ضمان انكر الحالية لمعرفة التغطية." },
+                    { question: "لما المنفذين بيشحنوا في نفس الوقت بيحصل إيه؟", answer: "تتوزع القدرة حسب جدول A2741 المطبوع وقد تتغير حسب تركيب المنافذ. يسحب كل جهاز بروفايلاً يدعمه؛ تحقق من الوحدة ولا تفترض توزيعاً تقريبياً ثابتاً." },
+                    { question: "الضمان بيغطي إيه؟", answer: "التغطية والأهلية تخضعان لشروط ضمان انكر وسياسة كايرو فولت المنشورتين وقت الطلب. احتفظ بالفاتورة والعلبة وتواصل برقم الموديل ووصف العطل للتقييم." }
                 ]
             }
         },
-        meta: { keywords: "شاحن سيارة انكر ميني, أنكر mini car charger, أنكر a2741, شاحن سيارة صغير, أنكر car charger pps, شاحن عربية انكر, أنكر fast car charger, أنكر dual usb car charger, أنكر best car charger 2026, أنكر cod egypt, افضل شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سيارة انكر ميني 30 واط, شاحن عربية انكر مصر, أنكر car charger egypt, شاحن سيارة سريع, شاحن USB-C سيارة مصر", mainTerm: "شاحن سيارة انكر ميني 30 واط" },
+        meta: { keywords: "شاحن سيارة انكر ميني, انكر mini car charger, انكر a2741, شاحن سيارة صغير, انكر car charger pps, شاحن عربية انكر, انكر fast car charger, انكر dual usb car charger, انكر cod egypt, سعر شاحن سيارة انكر, شاحن سيارة انكر ميني 30 واط, شاحن عربية انكر مصر, انكر car charger egypt, شاحن سيارة سريع, شاحن USB-C سيارة مصر", mainTerm: "شاحن سيارة انكر ميني 30 واط" },
         expertOpinion: {
-        en: "Ideal for minimalists who hate bulky car chargers. Nearly invisible in the cigarette lighter, yet charges iPhone and Samsung at full speed. Perfect for clean dashboard aesthetics.",
-        ar: "مثالي للي بيحبوا التابلوه النضيف ومش عايزين شاحن كبير في العربية. أصغر شاحن سيارة هتلاقيه وبيشحن بأقصى سرعة."
+        en: "A compact dual-port car charger for compatible 12V/24V sockets, with listed USB-C PD/PPS and USB-A profiles. Check phone and cable protocol support, socket clearance and shared-power behavior before choosing it.",
+        ar: "مناسب للي يفضلوا شاحن سيارة صغيراً وقريباً من مستوى المقبس. تحقق من دعم هاتفك لبروفايل PD أو PPS ومن توزيع القدرة عند تشغيل المنفذين قبل الاختيار."
     }
     };

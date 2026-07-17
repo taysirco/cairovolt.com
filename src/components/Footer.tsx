@@ -28,7 +28,7 @@ export default function Footer() {
                         <div className="mb-3 md:mb-4">
                             <Image
                                 src="/cairovolt_logo.webp"
-                                alt={isRTL ? 'كايرو فولت' : 'Cairo Volt'}
+                                alt={isRTL ? 'كايرو فولت' : 'CairoVolt'}
                                 width={160}
                                 height={89}
                                 loading="lazy"
@@ -52,6 +52,17 @@ export default function Footer() {
                                 <span suppressHydrationWarning>01558245974</span>
                             </a>
                         </div>
+                        <a
+                            href="mailto:support@cairovolt.com"
+                            className="mt-2 block text-xs text-blue-700 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
+                        >
+                            support@cairovolt.com
+                        </a>
+                        <p className="mt-2 text-[11px] leading-relaxed text-gray-500 dark:text-gray-400">
+                            {isRTL
+                                ? 'بائع تجزئة إلكتروني مستقل داخل مصر؛ لسنا وكيلاً أو موزعاً رسمياً للعلامات المعروضة، ولا يوجد فرع استقبال أو استلام حضوري معلن.'
+                                : 'Independent online retailer in Egypt; not an official agent or authorized distributor of the displayed brands, with no advertised walk-in or pickup branch.'}
+                        </p>
 
                         {/* Social Media Icons */}
                         <div className="flex items-center gap-2 mt-4">
@@ -185,7 +196,7 @@ export default function Footer() {
                             </li>
                             <li className="pt-2 border-t border-gray-200 dark:border-gray-700">
                                 <Link href={getLocalizedHref('/joyroom')} className="hover:text-red-600 transition-colors font-medium">
-                                    {isRTL ? 'جميع منتجات Joyroom' : 'All Joyroom Products'}
+                                    {isRTL ? 'جميع منتجات جوي روم' : 'All Joyroom Products'}
                                 </Link>
                             </li>
                             <li>
@@ -223,13 +234,13 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href={getLocalizedHref('/lab')} className="hover:text-gray-900 dark:hover:text-white transition-colors">
-                                    {isRTL ? '🔬 مختبر الاختبارات' : '🔬 Testing Lab'}
+                                <Link href={getLocalizedHref('/lab')} className="hover:text-blue-600 transition-colors">
+                                    {isRTL ? 'مركز المواصفات والحسابات' : 'Specifications & Calculations'}
                                 </Link>
                             </li>
                             <li>
                                 <Link href={getLocalizedHref('/team')} className="hover:text-gray-900 dark:hover:text-white transition-colors">
-                                    {isRTL ? 'خبراء ننصح بهم' : 'Recommended Experts'}
+                                    {isRTL ? 'مصادر خارجية للمراجعة' : 'External Review Sources'}
                                 </Link>
                             </li>
                             <li>
@@ -266,7 +277,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link href={getLocalizedHref('/verify')} className="hover:text-emerald-600 transition-colors">
-                                    {isRTL ? '🔍 تحقق من أصالة المنتج' : '🔍 Verify Product'}
+                                    {isRTL ? 'تحقق من سجل الضمان' : 'Check Warranty Record'}
                                 </Link>
                             </li>
                         </ul>
@@ -278,8 +289,8 @@ export default function Footer() {
                     <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed text-center max-w-4xl mx-auto">
                         <span>
                             {isRTL
-                                ? 'كايرو فولت (CairoVolt) هو موزع معتمد لمنتجات انكر وجوي روم الأصلية في مصر، متخصص في إكسسوارات الهواتف المحمولة والشحن السريع مع توصيل لجميع المحافظات.'
-                                : 'CairoVolt is an authorized distributor of original Anker and Joyroom products in Egypt, specializing in mobile accessories and fast charging with delivery to all governorates.'}
+                                ? 'كايرو فولت (CairoVolt) متجر إلكتروني متخصص في منتجات انكر وجوي روم وإكسسوارات الموبايل والشحن، مع توصيل داخل مصر وشروط ضمان مكتوبة.'
+                                : 'CairoVolt is an online retailer specializing in Anker and Joyroom products, mobile accessories, and charging, with delivery in Egypt and written warranty terms.'}
                         </span>
                     </p>
                 </div>
@@ -287,7 +298,7 @@ export default function Footer() {
                 {/* Bottom Bar */}
                 <div className="border-t border-gray-200 dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 dark:text-gray-400">
                     <p>
-                        © {currentYear} {isRTL ? 'كايرو فولت' : 'Cairo Volt'}. {t('allRightsReserved')}.
+                        © {currentYear} {isRTL ? 'كايرو فولت' : 'CairoVolt'}. {t('allRightsReserved')}.
                     </p>
                     <div className="flex gap-4 mt-4 md:mt-0">
                         <Link href={getLocalizedHref('/privacy')} className="hover:text-gray-900 dark:hover:text-white">

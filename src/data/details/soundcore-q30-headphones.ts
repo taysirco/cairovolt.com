@@ -2,12 +2,12 @@ import type { ProductDetail } from './_types';
 
 export const soundcore_q30_headphones_detail: ProductDetail = {
     aiTldr: {
-        en: ['40mm silk-diaphragm driver — warm, smooth sound with deep bass. Natural vocal reproduction', 'Hybrid ANC with 3 modes — Transport/Indoor/Outdoor. Manual control via app or button', '40h battery (ANC on) / 60h (ANC off) — 5min fast charge = 4h playback', '260g + protein leather cushions + hard carry case. Lightest premium over-ear in lineup', 'CairoVolt: 18-month warranty, 0.8% return rate. Honest: no LDAC (AAC/SBC only). BT 5.0.'],
-        ar: ['درايفر 40mm حرير — صوت دافي وسلس مع باس عميق. نقل أصوات طبيعي', 'عزل هجين ANC بـ 3 أوضاع — مواصلات/داخلي/خارجي. تحكم يدوي من التطبيق أو الزرار', '40 ساعة بطارية (مع ANC) / 60 ساعة (بدون) — 5 دقائق شحن = 4 ساعات', '260 جرام + وسائد جلد بروتين + شنطة هارد كيس. أخف هيدفون بريميوم في التشكيلة', 'كايرو فولت: ضمان 18 شهر، نسبة إرجاع 0.8%. بصراحة: مفيهاش LDAC (AAC/SBC بس). BT 5.0.'],
+        en: ['40mm silk-diaphragm driver — warm, smooth sound with deep bass. Natural vocal reproduction', 'Hybrid ANC with 3 modes — Transport/Indoor/Outdoor. Manual control via app or button', '40h battery (ANC on) / 60h (ANC off) — 5min fast charge = 4h playback'],
+        ar: ['درايفر 40mm بغشاء حريري وفق مواصفات الموديل', 'عزل هجين ANC بثلاثة أوضاع — مواصلات/داخلي/خارجي — وتحكم يدوي من التطبيق أو الزر', 'أرقام البطارية والشحن السريع تقييمات من ساوندكور وتتغير حسب الاستخدام', 'وزن مدون 260 جرام مع وسائد وشنطة حمل صلبة'],
     },
     localContext: {
-        en: 'Cairo commuters face daily Metro, microbus, and street noise. The Q30\'s 3 ANC modes map perfectly: Transport mode on Metro Line 2, Indoor mode at the office, Outdoor mode walking in Downtown. At 4,649 EGP with a hard carry case included, it is the most protected over-ear for bag-tossing daily commuters.',
-        ar: 'ركاب القاهرة بيواجهوا دوشة المترو والميكروباص والشارع يومياً. أوضاع Q30 الثلاثة بتتطابق تماماً: وضع مواصلات في مترو الخط 2، وضع داخلي في المكتب، وضع خارجي في المشي وسط البلد. بـ 4,649 جنيه مع شنطة هارد كيس، أكتر هيدفون محمي للركاب اليومي.',
+        en: 'Q30 offers Transport, Indoor and Outdoor ANC modes so the listener can choose according to the environment. ANC performance varies with fit and noise and does not remove every voice or warning sound. A hard carry case is listed as included; confirm the current product-page price and package contents before ordering.',
+        ar: 'توفر Q30 أوضاع ANC للمواصلات والداخل والخارج لاختيار الإعداد بحسب البيئة. يختلف أداء العزل حسب التثبيت ونوع الضوضاء ولا يزيل كل صوت بشري أو تحذير. حقيبة حمل صلبة مدونة ضمن المحتويات؛ تحقق من السعر الحالي ومحتويات العبوة في صفحة المنتج قبل الطلب.',
     },
     specifications: {
         'Product Type': { en: 'Over-Ear Closed-Back Headphones', ar: 'هيدفون فوق الأذن مغلق' },
@@ -16,18 +16,13 @@ export const soundcore_q30_headphones_detail: ProductDetail = {
         'Codecs': { en: 'AAC, SBC (no LDAC)', ar: 'AAC, SBC (بدون LDAC)' },
         'Battery (ANC on)': { en: '40 hours', ar: '40 ساعة' },
         'Battery (ANC off)': { en: '60 hours', ar: '60 ساعة' },
-        'Fast Charge': { en: '5 min = 4h playback', ar: '5 دقائق = 4 ساعات تشغيل' },
+        'Fast Charge': { en: 'Manufacturer estimate: 5 minutes for up to 4 hours playback under stated conditions', ar: 'تقدير ساوندكور: 5 دقائق لما يصل إلى 4 ساعات تشغيل تحت الظروف المعلنة' },
         'Bluetooth': { en: '5.0 Multipoint', ar: '5.0 Multipoint' },
         'Wired': { en: '3.5mm AUX (passive)', ar: '3.5mm AUX (سلكي)' },
         'Cushions': { en: 'Protein Leather + Memory Foam', ar: 'جلد بروتين + فوم ذاكرة' },
         'Weight': { en: '260g', ar: '260 جرام' },
         'Foldable': { en: 'Yes + Hard Carry Case', ar: 'نعم + شنطة هارد كيس' },
         'App': { en: 'Soundcore App (EQ + ANC modes)', ar: 'تطبيق ساوندكور (EQ + أوضاع ANC)' },
-        'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
+        'Compliance': { en: 'Verify FCC and CE markings or documents for the delivered unit and market', ar: 'يُراجع وجود علامات أو مستندات FCC وCE للوحدة المستلمة والسوق' },
     },
-    labVerified: {
-        result: { en: '40h battery (ANC on) confirmed. 3 ANC modes tested across Metro, office, and outdoor environments. 260g weight verified. Hard carry case drop test passed. Silk-diaphragm driver warmth confirmed vs Q45 silk+ceramic.', ar: 'بطارية 40 ساعة (مع ANC) متأكد منها. 3 أوضاع ANC مختبرة في المترو والمكتب والخارج. وزن 260 جرام متأكد منه. اختبار سقوط شنطة هارد ناجح. دفء درايفر الحرير متأكد منه مقارنة بـ Q45 حرير+سيراميك.' },
-        conditions: { en: 'CairoVolt Lab, Cairo — May 2026, 96h testing cycle', ar: 'معمل كايرو فولت، القاهرة — مايو 2026، دورة اختبار 96 ساعة' },
-        expertName: 'Dr. Sherif Hassan'
-    }
 };

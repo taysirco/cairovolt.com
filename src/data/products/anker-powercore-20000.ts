@@ -18,188 +18,90 @@ export const anker_powercore_20000 = {
             { id: "img_2", url: "/products/anker/anker-powercore-20000/anker-powercore-20000mah-high-capacity-power-bank-cairovolt.webp", alt: "باور بانك انكر 20000 مللي أمبير عالي السعة - منظر أمامي كامل A1260011 - كايرو فولت مصر", order: 1, isPrimary: false, width: 432, height: 500 },
             { id: "img_3", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-matte-texture-anti-slip-surface.webp", alt: "Anker PowerCore 20000 dual USB-A output ports for simultaneous dual device charging - CairoVolt", order: 2, isPrimary: false, width: 500, height: 465 },
             { id: "img_4", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-tablet-ipad-speed-test.webp", alt: "منفذ مايكرو USB لشحن باور بانك انكر 20000 - تفاصيل منفذ الإدخال - كايرو فولت", order: 3, isPrimary: false, width: 1000, height: 1000 },
-            { id: "img_5", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-multisafety-protection-certification.webp", alt: "Anker PowerCore 20000 charging two devices simultaneously - dual output test CairoVolt", order: 4, isPrimary: false, width: 1007, height: 1010 },
+            { id: "img_5", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-multisafety-protection-certification.webp", alt: "Anker PowerCore 20000 multi-device charging and safety-feature graphic", order: 4, isPrimary: false, width: 1007, height: 1010 },
             { id: "img_6", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-travel-friendly-airline-approved.webp", alt: "حجم ووزن باور بانك انكر 20000 مقارنة - تصميم محمول خفيف الوزن - كايرو فولت", order: 5, isPrimary: false, width: 1124, height: 803 },
             { id: "img_7", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-capacity-test-watt-meter-lab.webp", alt: "تقنية PowerIQ و VoltageBoost في باور بانك انكر 20000 - شحن ذكي محسن - كايرو فولت", order: 6, isPrimary: false, width: 1200, height: 1494 },
             { id: "img_8", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-full-view-all-angles-360.webp", alt: "Anker PowerCore 20000 package box contents with cables and accessories - Egypt - CairoVolt", order: 7, isPrimary: false, width: 896, height: 1184 },
             { id: "img_9", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-dual-usb-a-output-ports-detail.webp", alt: "ملف جانبي لباور بانك انكر 20000 يعرض السمك الرفيع والتصميم الأنيق - كايرو فولت", order: 8, isPrimary: false, width: 928, height: 1152 },
             { id: "img_10", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-micro-usb-input-charging-port.webp", alt: "Anker PowerCore 20000 matte anti-slip surface texture - premium build quality - CairoVolt", order: 9, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_11", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-two-devices-simultaneously.webp", alt: "اختبار شحن تابلت ايباد من باور بانك انكر 20000 - سرعة الشحن الفعلية - كايرو فولت", order: 10, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_11", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-two-devices-simultaneously.webp", alt: "باور بانك انكر PowerCore 20000 يشحن جهاز تابلت متوافق", order: 10, isPrimary: false, width: 928, height: 1152 },
             { id: "img_12", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-size-weight-comparison-portable.webp", alt: "Anker PowerCore 20000 MultiSafety protection system certification badge - CairoVolt", order: 11, isPrimary: false, width: 960, height: 1104 },
-            { id: "img_13", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-led-battery-indicator-4-lights.webp", alt: "باور بانك انكر 20000 متوافق مع السفر والطيران - معتمد من الخطوط الجوية - كايرو فولت", order: 12, isPrimary: false, width: 896, height: 1184 },
-            { id: "img_14", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-poweriq-voltage-boost-technology.webp", alt: "Anker PowerCore 20000 charging Samsung Galaxy smartphone compatibility test - CairoVolt", order: 13, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_15", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-package-box-contents-cables-egypt.webp", alt: "اختبار سعة باور بانك انكر 20000 بجهاز قياس واط في مختبر كايرو فولت", order: 14, isPrimary: false, width: 1008, height: 1072 },
+            { id: "img_13", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-led-battery-indicator-4-lights.webp", alt: "مؤشر بطارية باور بانك انكر 20000 - تحقق من Wh وقواعد شركة الطيران الحالية - كايرو فولت", order: 12, isPrimary: false, width: 896, height: 1184 },
+            { id: "img_14", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-poweriq-voltage-boost-technology.webp", alt: "Anker PowerCore 20000 charging a compatible Samsung Galaxy smartphone", order: 13, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_15", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-package-box-contents-cables-egypt.webp", alt: "محتويات علبة باور بانك انكر PowerCore 20000 والكابلات المرفقة", order: 14, isPrimary: false, width: 1008, height: 1072 },
             { id: "img_16", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-side-profile-thickness-design.webp", alt: "Anker PowerCore 20000 full 360-degree view showing all angles and design details - CairoVolt", order: 15, isPrimary: false, width: 500, height: 433 }
         ],
         translations: {
             en: {
-                name: "Anker PowerCore 20000mAh | Charges iPhone 4x | 24-Month Warranty",
-                shortDescription: "🔋 20,000mAh (72Wh) | 📱 4x iPhone 17 Charges | 🔌 Dual USB-A Ports | ✈️ Airline Approved | 🛡️ 24-Month Warranty",
+                name: "Anker PowerCore 20000mAh | 72Wh | Dual USB-A",
+                shortDescription: "🔋 Manufacturer-listed 20,000mAh (72Wh) | 🔌 Dual USB-A outputs | 📊 LED indicator | ✈️ Check current airline rules | 🧾 Check current warranty terms",
                 description: `
-<div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike no-name power banks that claim 20000mAh but deliver half, The <strong>Anker PowerCore 20000 (A1260)</strong> stores 72Wh of energy — enough for 4 full iPhone 17 charges or 3 Samsung S26 charges. Dual USB-A ports with PowerIQ let you charge two devices simultaneously. At 356g and airline-approved (under TSA's 100Wh limit), it's built for Egyptian students, travelers, and power-outage survivors. 24-month warranty, EGP 1,550. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
-</div>
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Fake 20,000mAh power banks in Egypt often contain 6,000–8,000mAh cells relabeled. They weigh noticeably less than 356g and fail after weeks. Genuine Anker units have a QR verification code on the box — scan it at <a href='https://www.anker.com/verify' class='text-blue-600 hover:underline'>anker.com/verify</a> before first use.</p>
-</div>
-<div class="product-summary">
-    <h3 class="font-bold mb-2">Key Features:</h3>
-    <ul class="list-none space-y-1">
-        <li>🔋 <strong>20,000mAh:</strong> Charges iPhone 17 about 4 times, Samsung S26 about 3 times.</li>
-        <li>🔌 <strong>Dual USB-A:</strong> Charge 2 devices simultaneously with PowerIQ optimization.</li>
-        <li>✈️ <strong>Airline Approved:</strong> 72Wh — well under the 100Wh TSA limit.</li>
-        <li>🛡️ <strong>24-Month Warranty:</strong> Double the industry standard. EGP 1,550 in Egypt.</li>
-    </ul>
-</div>
-
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Real-World Performance..</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "We handed the PowerCore 20000 to a university student in Ain Shams for a full week of testing. Her daily routine: 8am to 10pm between lectures, study sessions, and commuting. She charged her iPhone 16 twice daily and her AirPods once. By 10pm, the power bank still had 25% left. On a weekend trip to Dahab, she charged 2 phones and a Bluetooth speaker over 2 days without needing a wall outlet. At 356g it's not pocket-sized like the 10000, but it fits perfectly in a university bag. For students and travelers in Egypt, this is the sweet spot between capacity and portability."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
-
-<div class="product-details">
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">4 Full iPhone Charges: A Weekend Without a Wall Outlet</h2>
-        <p class="text-gray-700">The <strong>20,000mAh capacity</strong> isn't just a number — it means 4 full iPhone 17 charges, 3 Samsung S26 charges, or 2.5 iPad mini charges. For students, travelers, or anyone who spends long days away from an outlet, this means complete freedom from battery anxiety. At EGP 1,550, you get double the capacity of the 10000mAh model for a minimal price increase.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Dual USB Ports: Share Power with a Friend</h2>
-        <p class="text-gray-700">With <strong>2 USB-A ports</strong>, charge your phone and a friend's simultaneously. <strong>PowerIQ technology</strong> detects each device and delivers optimal charging speed (up to 2.4A per port). Perfect for couples, families, or when your friend's phone dies during a power outage — a common scenario in Egypt. Pair with an <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">Anker wall charger</a> for faster recharging.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Travel-Ready: Airline Safe at 72Wh</h2>
-        <p class="text-gray-700">At <strong>72Wh</strong>, the PowerCore 20000 is well under the TSA/IATA 100Wh limit for carry-on luggage. Weighing only <strong>356g</strong>, it's lighter than a can of soda. The <strong>MultiProtect 10-layer safety</strong> system protects against overcharging, overheating, and short circuits. And with a <strong>24-month warranty</strong> (double industry standard), CairoVolt guarantees every unit is 100% original.</p>
-    </section>
-</div>
-<div class="device-compatibility">
-    <h3 class="font-bold mb-2">How Many Charges Per Device:</h3>
-    <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17 / 17 Pro Max:</strong> ~4 full charges.</li>
-        <li>📱 <strong>Samsung S26 Ultra / S25:</strong> ~3 full charges.</li>
-        <li>🎧 <strong>AirPods Pro 2:</strong> ~40 full charges.</li>
-        <li>📱 <strong>iPad mini:</strong> ~2.5 full charges.</li>
-        <li>⌚ <strong>Apple Watch:</strong> ~20+ full charges.</li>
-        <li>🎮 <strong>Nintendo Switch:</strong> ~2 full charges.</li>
-    </ul>
-</div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Anker PowerCore 20000 (A1260/A1260011)</strong> has a manufacturer-listed 20,000mAh cell rating (72Wh), two USB-A outputs and a four-LED battery indicator. The mAh value is measured at cell voltage; usable energy at USB output is lower after conversion. Charge count, speed and runtime depend on the device, cable, battery condition and simultaneous load. Check the current price, package contents and service terms before ordering.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">How to verify the listing</h3><p class="text-gray-700">Match model <strong>A1260011</strong>, the 72Wh label, input/output table, ports and package contents with the supplied unit and current manufacturer documentation. If the unit provides a serial verification process, use the printed instructions or <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">official verification reference</a>. Appearance or price alone does not prove origin.</p></div>
+<div class="product-summary"><h3 class="font-bold mb-2">Key points</h3><ul class="list-none space-y-1"><li>🔋 <strong>20,000mAh / 72Wh cell rating:</strong> delivered USB energy varies after conversion.</li><li>🔌 <strong>Two USB-A outputs:</strong> total power may be shared when two devices charge.</li><li>⚡ <strong>PowerIQ and VoltageBoost statements:</strong> the connected device controls accepted current.</li><li>✈️ <strong>Travel check:</strong> 72Wh is below the common 100Wh cabin threshold; confirm current carrier and route rules.</li><li>🧾 <strong>Warranty and returns:</strong> review the current period, eligibility, exclusions and claim process.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">Use the exact model and printed Wh value rather than relying only on the 20,000mAh marketing class. Compare output current, connector type and cable requirements with each device. General charge-count examples are estimates, not measurements of your phone or this unit.</p></div>
+<div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">Understanding 20,000mAh and 72Wh</h2><p class="text-gray-700">Capacity is rated at the internal cell voltage. Voltage conversion, heat, cable loss and battery-management reserve reduce energy delivered to a phone, so a fixed number of full charges cannot be promised. Compare usable energy conservatively with the battery watt-hours of your device.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">Dual USB-A Charging</h2><p class="text-gray-700">The two outputs can serve compatible USB-A devices. Check the printed per-port and total output limits because simultaneous use may reduce the rate available to each device. For recharging options, compare the input specification with a compatible <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">Anker wall charger</a>.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">Air Travel and Normal Care</h2><p class="text-gray-700">At a listed 72Wh, this model is below the common 100Wh passenger-battery threshold, but airline, country and route rules change. Confirm the current carrier policy, protect the ports and carry power banks in cabin baggage unless the carrier explicitly instructs otherwise. Stop using a damaged, swollen or unusually hot pack.</p></section></div>
+<div class="device-compatibility"><h3 class="font-bold mb-2">Compatibility method</h3><ul class="list-disc list-inside text-gray-700"><li><strong>Phones and tablets:</strong> compare input current and cable connector; actual charge count varies.</li><li><strong>Accessories:</strong> confirm any low-power charging requirement in the device manual.</li><li><strong>Two devices:</strong> use the total output table to understand shared power.</li><li><strong>USB-C PD devices:</strong> this USB-A model should not be assumed to provide USB-C PD profiles.</li></ul></div>
 `,
                 features: [
-                    "🔋 20,000mAh (72Wh) — 4x iPhone 17 Charges",
-                    "🔌 Dual USB-A Ports (2.4A Each)",
-                    "⚡ PowerIQ + VoltageBoost Technology",
-                    "✈️ Airline Approved (72Wh < 100Wh Limit)",
-                    "🛡️ MultiProtect 10-Layer Safety",
-                    "🪨 Only 356g — Lighter Than a Can of Soda",
-                    "📊 LED Power Indicator",
-                    "🏆 24-Month Warranty (2x Industry Standard)", "🔒 FCC + CE + IATA Certified → Global Safety Standards"],
-                metaTitle: "Anker 20000mAh Power Bank ⚡ 11% OFF | 4x iPhone Charge | COD",
-                metaDesc: "Buy Anker PowerCore 20000mAh in Egypt for EGP 1,550. Charges iPhone 4x. Dual USB, 24-month warranty. ✓ Free Cairo delivery ✓ Cash on delivery ✓ 100% original.",
+                    "🔋 Manufacturer-listed 20,000mAh (72Wh)",
+                    "🔌 Dual USB-A outputs; check shared-power limits",
+                    "⚡ PowerIQ + VoltageBoost statements",
+                    "✈️ Check current airline rules",
+                    "🛡️ Review printed protection features",
+                    "📊 Four-LED power indicator",
+                    "🧾 Check current warranty terms",
+                    "🔎 Verify ratings on the unit and manufacturer documentation"],
+                metaTitle: "Anker PowerCore 20000mAh | Price in Egypt",
+                metaDesc: "Shop Anker PowerCore 20000 in Egypt with a manufacturer-listed 20,000mAh (72Wh) cell rating, dual USB-A outputs and LED indicator. Check live terms.",
                 faqs: [
-                    { question: "What is the price of Anker 20000mAh power bank in Egypt?", answer: "The Anker PowerCore 20000mAh price in Egypt is EGP 1,550 at CairoVolt. This includes 24-month warranty and free delivery to Cairo and Giza. It's the best price for an original Anker power bank in Egypt." },
-                    { question: "How many times does Anker 20000mAh charge iPhone?", answer: "Anker 20000mAh charges iPhone 17/16/15 approximately 4 full times from 0% to 100%. For Samsung Galaxy S26/S25, it provides about 3 full charges. iPad mini gets about 2.5 charges." },
-                    { question: "Can I charge 2 devices at once with Anker 20000?", answer: "Yes, the Anker PowerCore 20000 has 2 USB-A ports allowing simultaneous charging of two devices. PowerIQ technology intelligently distributes power to optimize charging speed for each device." },
-                    { question: "How long does it take to recharge Anker 20000mAh?", answer: "It takes about 10 hours to fully recharge using a 2A wall charger. With a standard 1A charger, it takes approximately 20 hours. For faster recharging, use an Anker PowerPort 20W or higher." },
-                    { question: "Is Anker 20000mAh allowed on airplanes?", answer: "Yes! The Anker 20000mAh (72Wh) is TSA/IATA approved for air travel. It's well below the 100Wh limit. You must carry it in hand luggage, not checked baggage." },
-                    { question: "Should I buy 10000mAh or 20000mAh Anker power bank?", answer: "Choose 10000mAh for daily pocket carry (lighter at 180g, 2 iPhone charges). Choose 20000mAh for travel, heavy usage, or multiple devices (4 iPhone charges, 356g). The price difference is minimal for double the capacity." },
-                    { question: "What is the warranty for Anker 20000 in Egypt?", answer: "CairoVolt provides 24-month warranty for Anker PowerCore 20000 in Egypt - double the industry standard! Warranty covers manufacturing defects and battery issues. We offer instant replacement." },
-                    { question: "Does Anker 20000mAh support fast charging?", answer: "The PowerCore 20000 supports PowerIQ and VoltageBoost for optimized charging up to 2.4A per port. For USB-C PD fast charging, consider Anker 737 (140W) or Anker Prime (200W) models." }
+                    { question: "How should I interpret the 20,000mAh capacity?", answer: "It is the internal cell rating. Delivered energy at USB voltage is lower after conversion, so charge count varies by phone, cable, load, temperature and battery condition." },
+                    { question: "Can I charge two devices at once?", answer: "The model lists two USB-A outputs. Check the printed total-output table because power may be shared between them." },
+                    { question: "How long does the power bank take to recharge?", answer: "Use the exact input rating and manufacturer table for A1260011. Time varies with the source, cable, temperature and use during charging." },
+                    { question: "Is it allowed on airplanes?", answer: "The listed 72Wh is below the common 100Wh cabin threshold, but approval is carrier- and route-specific. Confirm current rules and keep power banks out of checked baggage unless explicitly permitted." },
+                    { question: "What warranty applies?", answer: "Review the current warranty period, seller eligibility, exclusions and claim process shown for this listing." },
+                    { question: "Does it support USB-C PD fast charging?", answer: "Do not assume USB-C PD support from the 20,000mAh name. Compare the exact USB-A output table with your device and cable requirements." }
                 ]
             },
             ar: {
-                name: "باور بانك انكر 20000 مللي أمبير | بيكفيك ويكند كامل برا البيت | ضمان 24 شهر",
-                shortDescription: "لو مشوارك طويل أو مسافر ده المنقذ | 🔋 4 شحنات كاملة للايفون | 🔌 منفذين عشان تشحن إنت وصاحبك | ✈️ مسموح في الطيارة",
+                name: "باور بانك انكر PowerCore بسعة 20000 مللي أمبير | 72Wh | منفذا USB-A",
+                shortDescription: "🔋 سعة خلايا معلنة 20,000 مللي أمبير (72Wh) | 🔌 منفذا USB-A | 📊 مؤشر LED | ✈️ تحقق من قواعد الطيران | 🧾 راجع الضمان الحالي",
                 description: `
-<div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، <strong>أنكر PowerCore 20000 (A1260)</strong> بيخزن 72 واط/ساعة — يكفي 4 شحنات ايفون 17 كاملة أو 3 شحنات سامسونج S26. منفذين USB-A مع PowerIQ بيشحنوا جهازين في نفس الوقت. بوزن 356 جرام ومسموح في الطيارة (أقل من حد TSA 100Wh)، ده مصمم للطلاب والمسافرين واللي عايشين مع انقطاع الكهربا. ضمان 24 شهر، سعر 1,550 جنيه. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p>
-</div>
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">الباور بانك المضروب 20,000 في مصر غالباً بيحتوي على خلايا 6,000–8,000 مللي أمبير بس ومكتوب عليه 20,000. وزنه أخف بشكل ملحوظ من 356 جرام وبيبوظ بعد أسابيع. أنكر الأصلي عليه كود QR على العلبة — اعمله سكان على <a href='https://www.anker.com/verify' class='text-blue-600 hover:underline'>anker.com/verify</a> قبل أول استخدام.</p>
-</div>
-<div class="product-summary">
-    <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
-    <ul class="list-none space-y-1">
-        <li>🔋 <strong>20,000 مللي أمبير:</strong> يشحن ايفون 17 حوالي 4 مرات، سامسونج S26 حوالي 3 مرات.</li>
-        <li>🔌 <strong>منفذين USB-A:</strong> اشحن جهازين في نفس الوقت مع تقنية PowerIQ.</li>
-        <li>✈️ <strong>مسموح بالطائرة:</strong> 72 واط/ساعة — أقل بكثير من حد TSA (100Wh).</li>
-        <li>🛡️ <strong>ضمان 24 شهر:</strong> ضعف المعيار. سعر 1,550 جنيه في مصر.</li>
-    </ul>
-</div>
-
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">اختباراتنا للمنتج في الشارع المصري 🇪🇬</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "نحن في فريق كايرو فولت سلّمنا PowerCore 20000 لطالبة جامعية في عين شمس لأسبوع كامل. يومها: من 8 الصبح لـ 10 بالليل بين محاضرات ومذاكرة ومواصلات. كانت بتشحن ايفون 16 مرتين في اليوم والايربودز مرة. بحلول 10 بالليل، لسه 25% بطارية متبقية. وفي رحلة ويكند لدهب، شحنت موبايلين وسماعة بلوتوث على مدار يومين من غير ما تحتاج برايز حائط. بوزن 356 جرام مش حجم الجيب زي الـ 10000، بس بيدخل شنطة الجامعة تمام. للطلاب والمسافرين في مصر، ده التوازن المثالي بين السعة وسهولة الحمل."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
-
-<div class="product-details">
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">4 شحنات ايفون كاملة: ويكند من غير برايز</h2>
-        <p class="text-gray-700"><strong>سعة 20,000 مللي أمبير</strong> مش مجرد رقم — يعني 4 شحنات ايفون 17 كاملة، 3 شحنات سامسونج S26، أو 2.5 شحنة ايباد ميني. للطلاب والمسافرين وأي حد يومه طويل بعيد عن البرايز، ده يعني حرية كاملة من قلق البطارية. بسعر 1,550 جنيه، بتاخد ضعف سعة موديل الـ 10000 بزيادة سعر بسيطة.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">منفذين USB: شارك الطاقة مع صاحبك</h2>
-        <p class="text-gray-700">مع <strong>منفذين USB-A</strong>، اشحن موبايلك وموبايل صاحبك في نفس الوقت. <strong>تقنية PowerIQ</strong> بتتعرف على كل جهاز وتوصله أقصى سرعة شحن (حتى 2.4 أمبير لكل منفذ). مثالي للأزواج، العائلات، أو لما موبايل صاحبك يفصل وقت انقطاع الكهربا — سيناريو متكرر في مصر. استخدمه مع <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">شاحن انكر</a> لإعادة شحن أسرع.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">جاهز للسفر: آمن للطائرة بسعة 72 واط/ساعة</h2>
-        <p class="text-gray-700">بسعة <strong>72 واط/ساعة</strong>، PowerCore 20000 أقل بكثير من حد TSA/IATA (100 واط/ساعة) لحقيبة اليد. بوزن <strong>356 جرام فقط</strong>، أخف من علبة كولا. نظام حماية <strong>MultiProtect بـ 10 طبقات</strong> يحمي من الشحن الزائد والسخونة والقصر. ومع <strong>ضمان 24 شهر</strong> (ضعف المعيار)، CairoVolt تضمن إن كل قطعة أصلية 100%.</p>
-    </section>
-</div>
-<div class="device-compatibility">
-    <h3 class="font-bold mb-2">كام شحنة لكل جهاز:</h3>
-    <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>ايفون 17 / 17 برو ماكس:</strong> ~4 شحنات كاملة.</li>
-        <li>📱 <strong>سامسونج S26 الترا / S25:</strong> ~3 شحنات كاملة.</li>
-        <li>🎧 <strong>ايربودز برو 2:</strong> ~40 شحنة كاملة.</li>
-        <li>📱 <strong>ايباد ميني:</strong> ~2.5 شحنة كاملة.</li>
-        <li>⌚ <strong>ابل واتش:</strong> ~20+ شحنة كاملة.</li>
-        <li>🎮 <strong>Nintendo Switch:</strong> ~2 شحنة كاملة.</li>
-    </ul>
-</div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">باور بانك <strong>انكر PowerCore 20000 (A1260/A1260011)</strong> يأتي وفق بيانات الشركة بتصنيف خلايا 20,000 مللي أمبير (72Wh) ومنفذي USB-A ومؤشر بطارية بأربع لمبات. قيمة المللي أمبير مقاسة عند جهد الخلايا، بينما تقل الطاقة المسلمة عند خرج USB بعد التحويل. عدد الشحنات والسرعة والمدة تتغير حسب الجهاز والكابل وحالة البطارية والحمل المتزامن. راجع السعر ومحتويات العبوة وشروط الخدمة الحالية قبل الطلب.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">طريقة التحقق من المنتج</h3><p class="text-gray-700">طابق رقم الموديل <strong>A1260011</strong> وبيان 72Wh وجدول الإدخال والإخراج والمنافذ ومحتويات العبوة مع الوحدة ووثائق الشركة الحالية. إذا توفرت طريقة تحقق تسلسلية فاستخدم التعليمات المطبوعة أو <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">مرجع التحقق الرسمي</a>. الشكل أو السعر وحدهما لا يثبتان المصدر.</p></div>
+<div class="product-summary"><h3 class="font-bold mb-2">نقاط مهمة</h3><ul class="list-none space-y-1"><li>🔋 <strong>تصنيف خلايا 20,000 مللي أمبير / 72Wh:</strong> الطاقة المسلمة تختلف بعد التحويل.</li><li>🔌 <strong>منفذا USB-A:</strong> قد تتوزع القدرة عند شحن جهازين.</li><li>⚡ <strong>بيانات PowerIQ وVoltageBoost:</strong> الجهاز المتصل يحدد التيار المقبول.</li><li>✈️ <strong>تحقق قبل السفر:</strong> 72Wh أقل من حد 100Wh الشائع للمقصورة، لكن قواعد الناقل والرحلة قد تختلف.</li><li>🧾 <strong>الضمان والاسترجاع:</strong> راجع المدة والأهلية والاستثناءات وطريقة المطالبة الحالية.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">اعتمد رقم الموديل وقيمة Wh المطبوعة بدلاً من فئة 20,000 مللي أمبير وحدها. قارن تيار الخرج ونوع الموصل ومتطلبات الكابل بكل جهاز. أمثلة عدد الشحنات تقديرات وليست قياساً لهاتفك أو لهذه الوحدة.</p></div>
+<div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">فهم سعة 20,000 مللي أمبير و72Wh</h2><p class="text-gray-700">السعة مقاسة عند جهد الخلايا الداخلي. يقلل تحويل الجهد والحرارة وفقد الكابل واحتياطي إدارة البطارية الطاقة التي تصل للموبايل، لذلك لا يمكن وعدك بعدد ثابت من الشحنات. قارن الطاقة القابلة للاستخدام بشكل محافظ مع سعة جهازك بالواط·ساعة.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">الشحن عبر منفذي USB-A</h2><p class="text-gray-700">يمكن للمنفذين تشغيل أجهزة USB-A المتوافقة. تحقق من الحد لكل منفذ والحد الكلي لأن الاستخدام المتزامن قد يقلل القدرة المتاحة لكل جهاز. لإعادة الشحن، قارن مواصفات الإدخال مع <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">شاحن انكر</a> متوافق.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">السفر والعناية العادية</h2><p class="text-gray-700">السعة المعلنة 72Wh أقل من حد 100Wh الشائع لبطاريات الركاب، لكن قواعد شركة الطيران والدولة والرحلة تتغير. أكد سياسة الناقل الحالية واحمِ المنافذ واحمل الباور بانك في حقيبة المقصورة ما لم يطلب الناقل غير ذلك صراحة. توقف عن استخدام وحدة تالفة أو منتفخة أو ساخنة بصورة غير معتادة.</p></section></div>
+<div class="device-compatibility"><h3 class="font-bold mb-2">طريقة التحقق من التوافق</h3><ul class="list-disc list-inside text-gray-700"><li><strong>الهواتف والتابلت:</strong> قارن تيار الإدخال وموصل الكابل؛ عدد الشحنات يتغير.</li><li><strong>الإكسسوارات:</strong> تحقق من أي وضع شحن منخفض الاستهلاك في دليل الجهاز.</li><li><strong>جهازان:</strong> استخدم جدول الخرج الكلي لفهم توزيع القدرة.</li><li><strong>أجهزة USB-C PD:</strong> لا تفترض وجود ملفات USB-C PD في هذا الموديل ذي مخارج USB-A.</li></ul></div>
 `,
                 features: [
-                    "🔋 20,000 مللي أمبير (72Wh) — 4 شحنات ايفون 17",
-                    "🔌 منفذين USB-A (2.4 أمبير لكل منفذ)",
-                    "⚡ تقنية PowerIQ + VoltageBoost",
-                    "✈️ مسموح بالطائرة (72Wh < 100Wh)",
-                    "🛡️ حماية MultiProtect 10 طبقات",
-                    "🪨 وزن 356 جرام فقط",
-                    "📊 مؤشر LED للبطارية",
-                    "🏆 ضمان 24 شهر (ضعف المعيار)", "🔒 معتمد FCC + CE + IATA → معايير السلامة العالمية"],
-                metaTitle: "باور بانك انكر 20000 الأصلي ⚡ خصم 11% | 4 شحنات ايفون",
-                metaDesc: "اشتري باور بانك انكر 20000 الأصلي في مصر بسعر 1,550 جنيه. 4 شحنات ايفون، منفذين USB، ضمان 24 شهر. ✓ توصيل مجاني القاهرة ✓ دفع عند الاستلام.",
+                    "🔋 سعة خلايا معلنة 20,000 مللي أمبير (72Wh)",
+                    "🔌 منفذا USB-A؛ تحقق من توزيع القدرة",
+                    "⚡ بيانات PowerIQ + VoltageBoost",
+                    "✈️ تحقق من قواعد الطيران الحالية",
+                    "🛡️ راجع ميزات الحماية المطبوعة",
+                    "📊 مؤشر بطارية بأربع لمبات",
+                    "🧾 راجع سياسة الضمان والاسترجاع",
+                    "🔎 تحقق من القيم على الوحدة ووثائق الشركة"],
+                metaTitle: "باور بانك انكر PowerCore 20000 | السعر في مصر",
+                metaDesc: "تسوق باور بانك انكر PowerCore 20000 في مصر بسعة خلايا معلنة 20,000 مللي أمبير (72Wh) ومنفذي USB-A ومؤشر LED. راجع الشروط الحالية.",
                 faqs: [
-                    { question: "كم سعر باور بانك انكر 20000 في مصر؟", answer: "سعر باور بانك انكر 20000 مللي أمبير في مصر هو 1,550 جنيه مصري من CairoVolt. السعر يشمل ضمان 24 شهر وتوصيل مجاني للقاهرة والجيزة. هذا أفضل سعر للمنتج الأصلي في مصر." },
-                    { question: "كم مرة يشحن باور بانك انكر 20000 الايفون؟", answer: "باور بانك انكر 20000 يشحن ايفون 17/16/15 حوالي 4 مرات كاملة من 0% إلى 100%. بالنسبة لسامسونج S26/S25، يشحنه حوالي 3 مرات. ايباد ميني يشحن حوالي 2.5 مرة." },
-                    { question: "هل يمكنني شحن جهازين معاً بباور بانك انكر 20000؟", answer: "نعم، باور بانك انكر 20000 لديه منفذين USB-A لشحن جهازين في نفس الوقت. تقنية PowerIQ توزع الطاقة بذكاء لتحسين سرعة الشحن لكل جهاز." },
-                    { question: "كم يستغرق شحن باور بانك انكر 20000؟", answer: "يستغرق شحن باور بانك انكر 20000 حوالي 10 ساعات بشاحن 2 أمبير. مع شاحن 1 أمبير العادي، يستغرق حوالي 20 ساعة. للشحن الأسرع، استخدم شاحن انكر 20 واط أو أعلى." },
-                    { question: "هل باور بانك انكر 20000 مسموح في الطائرة؟", answer: "نعم! باور بانك انكر 20000 (72 واط/ساعة) معتمد للسفر بالطائرة حسب قوانين TSA/IATA. السعة أقل من حد 100 واط/ساعة المسموح. يجب حمله في حقيبة اليد وليس الأمتعة المسجلة." },
-                    { question: "هل أختار 10000 أم 20000 مللي أمبير؟", answer: "اختر 10000 للحمل اليومي في الجيب (أخف بوزن 180 جرام، شحنتين للايفون). اختر 20000 للسفر والاستخدام المكثف (4 شحنات للايفون، 356 جرام). فرق السعر بسيط مقابل ضعف السعة." },
-                    { question: "ما ضمان باور بانك انكر 20000 في مصر؟", answer: "CairoVolt توفر ضمان 24 شهر لباور بانك انكر 20000 في مصر - ضعف المعيار! الضمان يغطي عيوب الصناعة ومشاكل البطارية. نوفر استبدال فوري." },
-                    { question: "هل باور بانك انكر 20000 يدعم الشحن السريع؟", answer: "باور بانك انكر 20000 يدعم PowerIQ و VoltageBoost للشحن المحسن حتى 2.4 أمبير لكل منفذ. للشحن السريع USB-C PD، راجع موديل انكر 737 (140 واط) أو انكر Prime (200 واط)." }
+                    { question: "كيف أفهم سعة 20,000 مللي أمبير؟", answer: "هي تصنيف الخلايا الداخلية. الطاقة المسلمة عند جهد USB أقل بعد التحويل، ولذلك يختلف عدد الشحنات حسب الهاتف والكابل والحمل والحرارة وحالة البطارية." },
+                    { question: "هل يمكن شحن جهازين معاً؟", answer: "الموديل يذكر منفذي USB-A. راجع جدول الخرج الكلي المطبوع لأن القدرة قد تتوزع بينهما." },
+                    { question: "كم يستغرق شحن الباور بانك؟", answer: "استخدم قدرة الإدخال الدقيقة وجدول الشركة للموديل A1260011. تتغير المدة حسب المصدر والكابل والحرارة والاستخدام أثناء الشحن." },
+                    { question: "هل مسموح به في الطائرة؟", answer: "السعة المعلنة 72Wh أقل من حد 100Wh الشائع للمقصورة، لكن الموافقة مرتبطة بشركة الطيران والرحلة. تحقق من القواعد الحالية." },
+                    { question: "ما الضمان المطبق؟", answer: "راجع مدة الضمان الحالية وأهلية البائع والاستثناءات وطريقة المطالبة الموضحة لهذه القائمة." },
+                    { question: "هل يدعم USB-C PD؟", answer: "لا تستنتج دعم USB-C PD من اسم السعة. قارن جدول مخارج USB-A الدقيق بمتطلبات الجهاز والكابل." }
                 ]
             }
         },
         meta: {
-            keywords: "باور بانك انكر 20000, سعر باور بانك انكر 20000, أنكر power bank 20000mah, باور بانك 20000 مللي امبير, شاحن متنقل انكر, أنكر 20000 egypt, باور بانك انكر مصر, أنكر powercore 20000 price egypt, أنكر portable charger, أنكر best power bank egypt 2026, أنكر travel power bank, أنكر cod egypt power bank, افضل باور بانك انكر, باور بانك اصلي مصر, أنكر power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع",
+            keywords: "باور بانك انكر 20000, سعر باور بانك انكر 20000, انكر power bank 20000mah, باور بانك 20000 مللي امبير, شاحن متنقل انكر, انكر 20000 egypt, باور بانك انكر مصر, انكر powercore 20000 price egypt, انكر portable charger, انكر travel power bank, انكر cod egypt power bank, تحقق من موديل باور بانك انكر, انكر power bank price egypt, باور بانك شحن سريع",
             mainTerm: "باور بانك انكر 20000"
         },
         expertOpinion: {
-            en: "If the 10,000mAh version is for the day, this 20,000mAh beast is for the weekend. It gives you roughly double the power, great for trips or if you carry multiple devices. It's heavier, naturally, but having that extra juice is peace of mind. The dual USB ports are clutch for sharing power with a friend.",
-            ar: "إذا كان إصدار 10,000 مللي أمبير لليوم، فإن هذا الوحش بسعة 20,000 مللي أمبير لعطلة نهاية الأسبوع. يمنحك ضعف الطاقة تقريباً، رائع للرحلات أو إذا كنت تحمل أجهزة متعددة. إنه أثقل وزناً بالطبع، لكن الحصول على تلك الطاقة الإضافية راحة بال. منفذا USB مفيدان جداً لمشاركة الطاقة مع صديق."
+            en: "PowerCore 20000 is a dual-USB-A power bank with a manufacturer-listed 72Wh rating. Choose it after comparing usable energy, shared-output limits, input time, weight and current service terms.",
+            ar: "PowerCore 20000 باور بانك بمنفذي USB-A وتصنيف معلن 72Wh. اختره بعد مقارنة الطاقة القابلة للاستخدام وحدود توزيع الخرج ووقت الإدخال والوزن وشروط الخدمة الحالية."
         },
         relatedProducts: [
         "anker-nano-45w-1c-pd",

@@ -42,12 +42,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             siteName: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
             images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: locale === 'ar' ? 'كايرو فولت - اكسسوارات الموبايل' : 'CairoVolt - Mobile Accessories' }],
         },
-        other: {
-            'geo.region': 'EG',
-            'geo.placename': locale === 'ar' ? 'القاهرة، مصر' : 'Cairo, Egypt',
-            'geo.position': '30.0444;31.2357',
-            'ICBM': '30.0444, 31.2357',
-        },
     };
 }
 

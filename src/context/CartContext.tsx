@@ -2,23 +2,57 @@
 
 import { createContext, useContext, useEffect, useState, useTransition, useCallback, ReactNode } from 'react';
 import { ttqAddToCart } from '@/lib/tiktokPixel';
-import { resolveCatalogPricing } from '@/lib/static-products';
+import {
+    getProductBySlug,
+    getSmartBundleProducts,
+    resolveCatalogPricing,
+} from '@/lib/static-products';
 
 export interface CartItem {
     productId: string;
-    // 🧬 بصمة المنتج (SKU): تُنسخ من الكتالوج عند الإضافة للسلة كي تصل للـCRM
-    // (ويبهوك + شيت) فتُبصَم مطابقة قطعية بلا تخمين بالاسم. اختيارية للتوافق مع
-    // سلال قديمة محفوظة في localStorage بلا الحقل — الخادم يعوّضها من الكتالوج.
+    // Optional for carts saved before SKU persistence was introduced.
     sku?: string;
     name: string;
     price: number;
-    originalPrice?: number;
     quantity: number;
     image?: string;
     brand?: string;
-    // 🏆 معرّف الكومبو الذهبي: العناصر التي تشارك نفس bundleId (≥2 منتجات) تحصل
-    //    على خصم الكومبو 5%. يُحسب الخصم خادمياً من أسعار الكتالوج (لا يُوثق بالعميل).
+    // Links items that qualify for the server-validated bundle discount.
     bundleId?: string;
+}
+
+function normalizeBundleAssignments(items: CartItem[]): CartItem[] {
+    const productSlug = (productId: string) => {
+        if (!productId.startsWith('static_')) return productId;
+        return productId.slice('static_'.length).split('_', 1)[0];
+    };
+    const groups = new Map<string, CartItem[]>();
+    for (const item of items) {
+        if (!item.bundleId) continue;
+        const group = groups.get(item.bundleId) || [];
+        group.push(item);
+        groups.set(item.bundleId, group);
+    }
+
+    const invalidBundleIds = new Set<string>();
+    for (const [bundleId, group] of groups) {
+        const match = bundleId.match(/^combo-static_([a-z0-9-]+)$/);
+        const mainProduct = match ? getProductBySlug(match[1]) : undefined;
+        const expectedProducts = mainProduct
+            ? [mainProduct, ...getSmartBundleProducts(mainProduct).bundleProducts.map(entry => entry.product)]
+            : [];
+        const expectedIds = new Set(expectedProducts.map(product => product.slug));
+        const actualIds = new Set(group.map(item => productSlug(item.productId)));
+        const isComplete = expectedIds.size >= 2
+            && actualIds.size === expectedIds.size
+            && [...actualIds].every(id => expectedIds.has(id));
+        if (!isComplete) invalidBundleIds.add(bundleId);
+    }
+
+    if (invalidBundleIds.size === 0) return items;
+    return items.map(item => item.bundleId && invalidBundleIds.has(item.bundleId)
+        ? { ...item, bundleId: undefined }
+        : item);
 }
 
 interface CartContextType {
@@ -29,7 +63,6 @@ interface CartContextType {
     updateQuantity: (productId: string, quantity: number) => void;
     clearCart: () => void;
     totalAmount: number;
-    totalOriginalAmount: number;
     totalItems: number;
     isOpen: boolean;
     setIsOpen: (isOpen: boolean) => void;
@@ -57,12 +90,15 @@ export function CartProvider({ children }: { children: ReactNode }) {
                 const refreshed = Array.isArray(parsed)
                     ? parsed.map((it: CartItem) => {
                         const cat = resolveCatalogPricing(it);
-                        return cat.status === 'ok'
-                            ? { ...it, price: cat.price, ...(cat.originalPrice !== undefined ? { originalPrice: cat.originalPrice } : {}), sku: cat.sku || it.sku }
-                            : it; // متغيّر غير محدَّد أو منتج Firestore — يبقى بسعره المحفوظ (الخادم يفرض الصحيح عند الطلب)
+                        if (cat.status === 'ok') {
+                            const currentItem = { ...it } as CartItem & { originalPrice?: number };
+                            delete currentItem.originalPrice;
+                            return { ...currentItem, price: cat.price, sku: cat.sku || it.sku };
+                        }
+                        return it;
                     })
                     : parsed;
-                setItems(refreshed);
+                setItems(Array.isArray(refreshed) ? normalizeBundleAssignments(refreshed) : []);
             }
         } catch (error) {
             console.error('Failed to load cart from localStorage:', error);
@@ -154,7 +190,14 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
     const removeFromCart = useCallback((productId: string) => {
         startCartTransition(() => {
-            setItems(currentItems => currentItems.filter(item => item.productId !== productId));
+            setItems(currentItems => {
+                const removedBundleId = currentItems.find(item => item.productId === productId)?.bundleId;
+                return currentItems
+                    .filter(item => item.productId !== productId)
+                    .map(item => removedBundleId && item.bundleId === removedBundleId
+                        ? { ...item, bundleId: undefined }
+                        : item);
+            });
         });
     }, [startCartTransition]);
 
@@ -181,7 +224,6 @@ export function CartProvider({ children }: { children: ReactNode }) {
     }, [startCartTransition]);
 
     const totalAmount = items.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-    const totalOriginalAmount = items.reduce((sum, item) => sum + ((item.originalPrice || item.price) * item.quantity), 0);
     const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
 
     return (
@@ -193,7 +235,6 @@ export function CartProvider({ children }: { children: ReactNode }) {
             updateQuantity,
             clearCart,
             totalAmount,
-            totalOriginalAmount,
             totalItems,
             isOpen,
             setIsOpen,

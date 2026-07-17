@@ -1,6 +1,5 @@
-import { initializeApp, getApps, cert, App } from 'firebase-admin/app';
+import { applicationDefault, initializeApp, getApps, cert, App } from 'firebase-admin/app';
 import { getFirestore as getFirestoreInternal, Firestore } from 'firebase-admin/firestore';
-import { getSecret } from './get-secrets';
 
 let adminApp: App | null = null;
 let firestoreInstance: Firestore | null = null;
@@ -15,22 +14,20 @@ export async function getFirestore(): Promise<Firestore> {
     const databaseId = process.env.FIREBASE_DATABASE_ID || '(default)';
 
     if (!getApps().length) {
-        const clientEmail = await getSecret('firebase_client_email');
-        const privateKeyRaw = await getSecret('firebase_private_key');
-
-        if (!clientEmail || !privateKeyRaw) {
-            throw new Error('Firebase Admin initialization failed: Missing client_email or private_key secrets');
-        }
-
-        const privateKey = privateKeyRaw.replace(/\\n/g, '\n');
+        const clientEmail = process.env.FIREBASE_CLIENT_EMAIL;
+        const privateKeyRaw = process.env.FIREBASE_PRIVATE_KEY;
+        const credential = clientEmail && privateKeyRaw
+            ? cert({
+                projectId,
+                clientEmail,
+                privateKey: privateKeyRaw.replace(/\\n/g, '\n'),
+            })
+            : applicationDefault();
 
         try {
             adminApp = initializeApp({
-                credential: cert({
-                    projectId,
-                    clientEmail,
-                    privateKey,
-                }),
+                credential,
+                projectId,
             });
         } catch {
             // Race condition in dev hot-reload: app was created between getApps() check and initializeApp()

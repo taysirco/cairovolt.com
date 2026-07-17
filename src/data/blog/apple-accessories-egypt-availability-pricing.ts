@@ -25,173 +25,175 @@ export const apple_accessories_egypt_availability_pricing: BlogArticle = {
         ar: {
             title: 'ليه ملحقات Apple الأصلية مش موجودة في مصر بأسعار معقولة؟ القصة الكاملة',
             metaTitle: 'ليه ملحقات ابل الأصلية غالية في مصر؟ القصة الكاملة | كايرو فولت',
-            metaDescription: 'ليه شاحن ابل 20W بيوصل 1,200ج في مصر مع إنه بـ 19$ في أمريكا؟ القصة الكاملة: جمارك، ضرائب، توزيع، وبدائل MFi أصلية بنص السعر. تابع التفاصيل والمقارنة بمصر.',
+            metaDescription: 'ليه سعر وتوافر ملحقات ابل بيتغير في مصر؟ دليل عملي لمقارنة السعر والموديل والتوافق وشروط البائع، وفهم شهادة MFi قبل شراء البديل المناسب.',
             keywords: 'ملحقات ابل اصلية مصر, سعر شاحن ايفون اصلي مصر, ليه شاحن ابل غالي, بديل شاحن ابل اصلي, MFi مصر, شاحن ايفون بديل انكر, كابل ايفون اصلي سعر مصر, apple accessories egypt price, ابل مصر اسعار, شاحن 20 واط ايفون مصر',
-            excerpt: 'القصة الكاملة وراء غلاء ملحقات Apple الأصلية في مصر — من الجمارك للتوزيع — وأفضل البدائل المعتمدة MFi بنص السعر.',
-            quickAnswer: 'شاحن Apple 20W بيكلف 19$ في أمريكا (حوالي 950ج بسعر الصرف) لكن بيتباع في مصر بـ 1,100-1,400ج. السبب: جمارك 30% + ضريبة قيمة مضافة 14% + هامش موزع 20-35% + ندرة التوزيع الرسمي. البديل الذكي: شواحن وكابلات بشهادة MFi من Anker أو Joyroom — نفس الأداء والأمان بـ 40-55% أقل من سعر Apple الأصلي.',
-            content: `<p>كل مرة بتروح تشتري شاحن لآيفونك الجديد، بتلاقي نفسك في واحد من 3 مواقف: (1) شاحن Apple أصلي بـ 1,200ج وإنت بتبص عليه زي ما بتبص على فاتورة كهرباء شهر أغسطس — بصدمة. (2) شاحن "أصلي" على OLX بـ 250ج ومكتوب عليه "Original Apple" بخط Comic Sans — وده لوحده كفيل يخليك تشك. (3) ولا بتلاقي الأصلي أصلاً — الرف فاضي في iStyle والكارفور والبياع بيقولك "خلص من أسبوعين".</p>
+            excerpt: 'دليل لفهم اختلاف أسعار وتوافر ملحقات Apple في مصر، ومقارنة البدائل حسب الموديل والتوافق وشروط البيع المعلنة.',
+            quickAnswer: 'أسعار ملحقات Apple في مصر تتغير مع سعر الصرف وتكلفة الاستيراد والمخزون وسياسة كل بائع، ولا يمكن استنتاج الأصالة من السعر وحده. قارن رقم الموديل والمواصفات والسعر الحالي في صفحة المنتج، وتحقق من اعتماد MFi للملحق المحدد عندما يكون الاعتماد مطلوباً.',
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة تحريرية وليسا عرض بيع أو تسعيراً حالياً؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون وشروط البيع الحالية.</p><p>كل مرة بتروح تشتري شاحن أو كابل لآيفونك، ممكن تلاقي فرقاً واضحاً بين أسعار البائعين أو توافر بعض الموديلات. السعر المنخفض وحده لا يثبت التقليد، والسعر المرتفع وحده لا يثبت الأصالة؛ المقارنة المهنية تبدأ برقم الموديل، والمواصفات، وهوية البائع، والفاتورة، وسياسات الاسترجاع والضمان المكتوبة.</p>
 
-<p>الموضوع مش صدفة ومش سوء حظ — فيه أسباب هيكلية واقتصادية بتخلّي ملحقات Apple الأصلية في مصر إما <strong>غالية بشكل مبالغ فيه</strong>، أو <strong>مش موجودة أصلاً</strong>، أو <strong>مقلّدة</strong>. وفي المقال ده هنفكك القصة حتة حتة — من مصنع Apple في الصين لحد رف المحل في وسط البلد — وهنقولك البديل الذكي اللي مش هيكسر ميزانيتك ومش هيبوظ بطاريتك.</p>
+<p>اختلاف السعر والتوافر له أسباب متعددة، منها سعر الصرف، ومسار الاستيراد، والمخزون، ومواصفات الموديل، وسياسة البائع. وفي المقال ده هنفكك عوامل المقارنة حتة حتة، ونوضح إزاي تختار بديلاً مناسباً من غير وعود مطلقة عن الأداء أو الأمان.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        شاحن Apple 20W بيكلف 19$ في أمريكا (حوالي 950ج بسعر الصرف) لكن بيتباع في مصر بـ 1,100-1,400ج. السبب: جمارك 30% + ضريبة قيمة مضافة 14% + هامش موزع 20-35% + ندرة التوزيع الرسمي. البديل الذكي: شواحن وكابلات بشهادة MFi من Anker أو Joyroom — نفس الأداء والأمان بـ 40-55% أقل من سعر Apple الأصلي.
+        قارن السعر الحالي ورقم الموديل والمواصفات وشروط البائع، ولا تعتمد على سعر قديم أو نسبة ثابتة للرسوم أو التوفير. اعتماد MFi يخص المنتج المحدد، خصوصاً بعض ملحقات Lightning، ولا يعني تلقائياً أن كل منتجات العلامة معتمدة أو مطابقة لمنتج Apple في كل خاصية.
     </p>
 </div>
 
 <h2>رحلة الشاحن من كاليفورنيا لوسط البلد — كل محطة بتزوّد السعر</h2>
 
-<p>خلينا نتتبع شاحن Apple USB-C 20W من لحظة ما Apple بتحدد سعره في أمريكا لحد ما بيوصل إيدك في مصر. كل محطة في الرحلة بتزوّد على السعر:</p>
+<p>خلينا نتتبع العوامل اللي ممكن تدخل في تكوين السعر من عرض Apple أو المورد لحد السعر النهائي في مصر. القيم الفعلية تختلف حسب تاريخ الشراء وتصنيف المنتج ومسار الشحنة، لذلك الجدول طريقة تحقق وليس حسبة ضريبية أو تسعيراً رسمياً:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المحطة</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">التكلفة التراكمية</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الزيادة</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">مرجع التحقق</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">ما الذي يتغير؟</th>
     </tr></thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>سعر Apple الرسمي (US)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">19$ ≈ 950ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">—</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>سعر Apple أو المورد</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">صفحة الموديل وقت المقارنة</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">البلد والعملة والعرض المتاح</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>+ شحن دولي + تأمين</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">~1,000ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">+5%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">فاتورة شركة الشحن أو المستورد</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">الوزن والمسار والتأمين</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>+ جمارك (30% على الإلكترونيات)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">~1,300ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">+30%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>+ الرسوم الجمركية إن انطبقت</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">التعريفة الرسمية وتصنيف الشحنة</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">رمز الصنف والمنشأ والمعاملة الحالية</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>+ ضريبة القيمة المضافة (14%)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">~1,480ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">+14%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">الفاتورة الضريبية والقواعد السارية</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">وعاء الضريبة والمعاملة المطبقة</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>+ هامش الموزع المحلي (20-35%)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">~1,780-2,000ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">+20-35%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>+ تكلفة البائع والتشغيل</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">عرض البائع وشروطه المنشورة</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">المخزون والخدمة والمنافسة</td>
         </tr>
         <tr style="background:#fef2f2;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>السعر النهائي للمستهلك</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>1,100-1,400ج (بعد خصم المنافسة)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>+16% إلى +47% فوق السعر الأمريكي</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>صفحة المنتج والسلة وقت الطلب</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>لا يثبت الأصالة بمفرده</strong></td>
         </tr>
     </tbody>
 </table>
 
-<p>يعني الشاحن اللي بـ 19 دولار في Apple Store أمريكا، بيوصلك في مصر بـ 1,100-1,400ج — وده <strong>لو لقيته أصلاً</strong>. المشكلة مش بس في السعر — المشكلة إن Apple مش بتستثمر في التوزيع في مصر زي ما بتعمل في الإمارات أو السعودية.</p>
+<p>الخلاصة إن تحويل سعر أجنبي للجنيه لا ينتج وحده سعراً نهائياً صحيحاً في مصر. لازم تقارن نفس رقم الموديل في التاريخ نفسه، وتراجع ما يشمله السعر وشروط البائع، من غير افتراضات غير منشورة عن استراتيجية Apple أو هوامش أي موزع.</p>
 
 <h2>ليه Apple مش مهتمة بسوق الملحقات في مصر؟</h2>
 
-<p>السؤال اللي محدش بيسأله: ليه Apple مش بتفتح Apple Store رسمي في مصر زي دبي وجدة؟ الإجابة فيها 4 عوامل:</p>
+<p>السؤال العملي هو: إيه العوامل اللي ممكن تفسر اختلاف السعر والتوافر بين مصر وأسواق أخرى؟ من غير بيانات داخلية من Apple، نقدر نراجع أربع نقاط قابلة للتحقق:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">📊 <strong>حجم السوق مقابل التكلفة:</strong> مصر سوق كبير (110+ مليون نسمة) لكن القوة الشرائية للفرد منخفضة مقارنة بالخليج. Apple بتحسب: فتح Apple Store في القاهرة بيكلف 5-10 مليون دولار سنوياً (إيجار + موظفين + لوجستيك). في دبي نفس المحل بيبيع 3-5 أضعاف. الحساب بسيط.</li>
-    <li style="margin-bottom:16px;">💱 <strong>تقلب سعر الصرف:</strong> الجنيه المصري فقد حوالي 60% من قيمته مقابل الدولار بين 2022 و 2025. أي شركة بتسعّر بالدولار وبتبيع بالجنيه — زي Apple — بتواجه مخاطر عملة عالية. الحل عادةً: تزوّد هامش الأمان في السعر أو تقلل الاستثمار.</li>
-    <li style="margin-bottom:16px;">🏛️ <strong>البيئة التنظيمية:</strong> الشهادات والتراخيص المطلوبة لاستيراد إلكترونيات في مصر معقدة. كل شحنة محتاجة تصاريح من الجهاز القومي لتنظيم الاتصالات (NTRA) + هيئة الجمارك + مصلحة الضرائب. ده بيزوّد وقت التوريد وتكلفته.</li>
-    <li style="margin-bottom:16px;">🏪 <strong>اعتمادها على الموزعين المحليين:</strong> Apple بتعتمد على موزعين معتمدين (Authorized Resellers) زي iStyle و Tradeline و B.TECH. المشكلة إن الموزعين دول عندهم حصص محدودة وبيركّزوا على الأجهزة (iPhone, iPad, Mac) أكتر من الملحقات لأن هامش الربح على الأجهزة أعلى.</li>
+    <li style="margin-bottom:16px;">📊 <strong>اختلاف السوق والتشغيل:</strong> حجم الطلب وتكلفة التشغيل وقنوات البيع قد تؤثر في قرارات التوافر، لكننا لا ننسب إلى Apple أرقام تكلفة أو مبيعات غير منشورة.</li>
+    <li style="margin-bottom:16px;">💱 <strong>تقلب سعر الصرف:</strong> تغير العملة يؤثر في تكلفة الاستيراد وإعادة التسعير؛ استخدم سعر الصرف وتاريخ الفاتورة الفعليين عند المقارنة، لا نسبة تاريخية ثابتة.</li>
+    <li style="margin-bottom:16px;">🏛️ <strong>المتطلبات التنظيمية:</strong> قد تختلف التراخيص والرسوم حسب نوع المنتج والشحنة. المرجع هو الجهات الرسمية والمستندات الحالية، وليس تعميماً واحداً على كل الملحقات.</li>
+<li style="margin-bottom:16px;">🏪 <strong>اختلاف قنوات البيع:</strong> تتغير قوائم البائعين وحالة الاعتماد والتوافر بمرور الوقت. تحقق من قائمة Apple الحالية ومخزون البائع نفسه، ولا نفترض حصصاً أو هوامش ربح غير منشورة.</li>
 </ul>
 
-<p>النتيجة: الملحقات الأصلية بتيجي بكميات قليلة، بتخلص بسرعة، والأسعار بتتضخم. وده بيخلق فراغ كبير في السوق — فراغ بيتملي بالتقليد.</p>
+<p>النتيجة للمشتري: التوافر والسعر قد يختلفان من وقت لآخر، وفي السوق عروض أصلية ومستعملة ومجهولة المصدر ومقلدة. عشان كده لازم يكون الحكم على المنتج من مجموعة أدلة، مش من السعر أو مكان الإعلان وحدهما.</p>
 
 <h2>سوق التقليد — الوحش اللي بياكل البطاريات</h2>
 
-<p>الفراغ في سوق ملحقات Apple الأصلية خلق سوق تقليد ضخم في مصر. أرقام مش هتصدقها:</p>
+<p>الملحقات المقلدة أو مجهولة المصدر موجودة في أسواق كثيرة، لكننا لا ننشر نسبة انتشار من غير دراسة موثقة. ركّز على علامات المخاطرة القابلة للفحص:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">❌ <strong>4 من 5 كابلات "Apple أصلي" على OLX مقلّدة</strong> — ده رقم من فحصنا لـ 20 عينة عشوائية في مارس 2026. الفرق؟ الأصلي فيه شريحة MFi بتتواصل مع iOS — المقلّد مفيهوش، وممكن iOS يوقفه بعد تحديث.</li>
-    <li style="margin-bottom:12px;">❌ <strong>شاحن Apple مقلد بيطلع voltage ripple أعلى 400% من الأصلي</strong> — يعني التيار اللي بيدخل موبايلك متذبذب. على المدى: بطارية بتخسر 15-20% من صحتها في أول سنة بدل 5-8% مع الأصلي.</li>
-    <li style="margin-bottom:12px;">❌ <strong>سعر الكابل المقلد: 50-150ج. سعر بطارية iPhone 17 Pro Max الجديدة: 3,500ج+.</strong> يعني الوفر المؤقت في الكابل ممكن يكلفك 20 ضعف لو البطارية اتضررت. للتفاصيل اقرأ <a href="/blog/do-fake-chargers-damage-iphone-battery" style="color:#2563eb;font-weight:600;">هل الشاحن التقليد بيبوظ بطارية الآيفون فعلاً؟</a></li>
+    <li style="margin-bottom:12px;">❌ <strong>وصف مبهم من غير رقم موديل أو فاتورة:</strong> عبارة "Apple أصلي" في إعلان فردي لا تكفي وحدها لإثبات المصدر أو الحالة.</li>
+    <li style="margin-bottom:12px;">❌ <strong>غياب بيانات السلامة والمواصفات:</strong> الشاحن المجهول قد لا يوضح قدرته أو بروتوكوله أو وسائل الحماية. لا ننسب له قياسات ripple أو تدهور بطارية محددة من غير اختبار منشور.</li>
+    <li style="margin-bottom:12px;">❌ <strong>تكلفة الشراء ليست كل شيء:</strong> قارن جودة التصنيع والتوافق وسياسة الإرجاع وتكلفة الاستبدال المحتملة، وراجع <a href="/blog/do-fake-chargers-damage-iphone-battery" style="color:#2563eb;font-weight:600;">هل الشاحن التقليد بيبوظ بطارية الآيفون فعلاً؟</a></li>
 </ul>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#991b1b;"><strong>⚠️ تحذير:</strong> أي كابل Lightning أو USB-C مكتوب عليه "Apple Original" وسعره أقل من 400ج في مصر — <strong>مقلّد بنسبة 95%</strong>. كابل Apple USB-C الرسمي (1 متر) سعره العالمي 19$ + جمارك وضرائب = 700ج+ على الأقل في مصر. لو محتاج تتأكد، اقرأ <a href="/blog/original-vs-fake-apple-charger-egypt" style="color:#2563eb;font-weight:600;">إزاي تفرق بين شاحن Apple الأصلي والتقليد</a>.</p>
+    <p style="margin:0;color:#991b1b;"><strong>⚠️ تحذير:</strong> السعر المنخفض علامة تستحق الفحص، لكنه لا يحدد نسبة التقليد ولا يثبتها وحده. طابق رقم الموديل والتغليف والفاتورة وهوية البائع وسياسة الإرجاع، واقرأ <a href="/blog/original-vs-fake-apple-charger-egypt" style="color:#2563eb;font-weight:600;">إزاي تفرق بين شاحن Apple الأصلي والتقليد</a>.</p>
 </div>
 
 <h2>البديل الذكي — شهادة MFi هي المفتاح</h2>
 
-<p>طب لو Apple الأصلي غالي والتقليد خطر — إيه الحل؟ الحل اسمه <strong>MFi (Made for iPhone/iPad)</strong> — وده برنامج ترخيص من Apple نفسها بتدي فيه شهادة للشركات اللي بتصنع ملحقات متوافقة مع أجهزتها.</p>
+<p>لو بتقارن ملحقاً من شركة أخرى، افهم معنى <strong>MFi (Made for iPhone/iPad)</strong>: برنامج ترخيص من Apple لبعض أنواع الملحقات. الاعتماد يكون للملحق أو الموديل المحدد، وليس حكماً شاملاً على كل منتجات الشركة.</p>
 
-<p>الشركة اللي عندها شهادة MFi معناها إن:</p>
+<p>عند تقييم ادعاء MFi، راجع الآتي:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>Apple فحصت المنتج واعتمدته:</strong> الكابل أو الشاحن عدّى اختبارات Apple الرسمية — توافق، أمان كهربائي، ثبات الأداء.</li>
-    <li style="margin-bottom:12px;">✅ <strong>الشريحة الداخلية أصلية:</strong> كابلات MFi فيها chip من Apple بيتحقق من التوافق — يعني iOS مش هيرفضه بعد تحديث.</li>
-    <li style="margin-bottom:12px;">✅ <strong>الأداء مطابق للأصلي:</strong> نفس سرعة الشحن (PD 20W+)، نفس سرعة نقل البيانات، نفس الأمان الكهربائي.</li>
-    <li style="margin-bottom:12px;">✅ <strong>السعر أقل 40-55%:</strong> عشان الشركات المرخصة (Anker, Joyroom, Belkin) بتوفر تكاليف التوزيع المباشر وبتنافس على السعر.</li>
+    <li style="margin-bottom:12px;">✅ <strong>الموديل المحدد:</strong> اطلب رقم المنتج أو بيانات الشركة التي تربط الادعاء بالملحق نفسه، لا باسم العلامة فقط.</li>
+    <li style="margin-bottom:12px;">✅ <strong>نوع الموصل:</strong> يرتبط MFi خصوصاً ببعض ملحقات وتقنيات Apple مثل Lightning؛ لا تفترض أن كل كابل USB-C أو شاحن USB-C يحتاج الشعار نفسه.</li>
+    <li style="margin-bottom:12px;">✅ <strong>الأداء الفعلي:</strong> سرعة الشحن ونقل البيانات تعتمد على الهاتف والكابل والشاحن والبروتوكول؛ الاعتماد لا يعني تطابق كل المواصفات مع منتج Apple.</li>
+    <li style="margin-bottom:12px;">✅ <strong>السعر:</strong> قارن السعر الحالي في صفحة كل موديل؛ لا توجد نسبة خصم ثابتة نقدر نعممها على انكر أو Joyroom أو Belkin.</li>
 </ul>
 
-<h2>مقارنة الأسعار — Apple الأصلي ضد البدائل MFi في مصر</h2>
+<h2>مقارنة الأسعار — Apple والبدائل المتوافقة في مصر</h2>
+
+<p><strong>طريقة القراءة:</strong> الأسعار القديمة في المقالات لا تصلح كعرض حالي. الروابط التالية تنقلك للموديلات المقارنة، بينما السعر النهائي والمخزون والضمان يظهرون في صفحة المنتج والسلة وقت الطلب.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">المنتج</th>
         <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">🍎 Apple أصلي</th>
-        <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">🔵 Anker (MFi)</th>
+        <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">🔵 انكر (MFi)</th>
         <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">🟢 Joyroom</th>
         <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">التوفير</th>
     </tr></thead>
     <tbody>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>شاحن 20W USB-C</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">1,100-1,400ج</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">650ج</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">350ج</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>41-75%</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">تحقق من عرض Apple أو البائع الحالي</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">عرض موديل انكر الحالي</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">عرض موديل Joyroom الحالي</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>احسب وقت الطلب</strong></td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>كابل USB-C to Lightning 1م</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">700-900ج</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb;font-weight:600;">400ج</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/cables/joyroom-type-c-lightning-24mos" style="color:#2563eb;font-weight:600;">250ج</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>43-72%</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">تحقق من عرض Apple أو البائع الحالي</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb;font-weight:600;">عرض موديل انكر الحالي</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/cables/joyroom-type-c-lightning-24mos" style="color:#2563eb;font-weight:600;">عرض موديل Joyroom الحالي</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>احسب وقت الطلب</strong></td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>كابل USB-C to USB-C 1م</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">700-850ج</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb;font-weight:600;">380ج</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/cables/joyroom-usb-a-lightning-cable" style="color:#2563eb;font-weight:600;">200ج</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>46-76%</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">تحقق من عرض Apple أو البائع الحالي</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb;font-weight:600;">راجع نوع الموصل والموديل</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/cables/joyroom-usb-a-lightning-cable" style="color:#2563eb;font-weight:600;">راجع نوع الموصل والموديل</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>احسب وقت الطلب</strong></td>
         </tr>
         <tr style="background:#fefce8;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>مجموعة كاملة (شاحن + كابل)</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;"><strong>1,800-2,300ج</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>1,050ج</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>600ج</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>42-74% توفير</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;"><strong>اجمع السعرين الحاليين</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>اجمع السعرين الحاليين</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>اجمع السعرين الحاليين</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>فرق السلة وقت الطلب</strong></td>
         </tr>
     </tbody>
 </table>
 
-<p>يعني لو اشتريت شاحن + كابل من Joyroom بدل Apple أصلي، بتوفر <strong>1,200-1,700ج</strong> — ده فرق ممكن يشتريلك باور بانك كامل. ومع <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20 واط</a> بضمان 18 شهر، بتاخد نفس سرعة شحن iPhone 17 Pro Max (0→50% في 25 دقيقة) بأقل من نص السعر.</p>
+<p>ممكن يكون سعر البديل أقل أو أعلى حسب الموديل والعرض الحالي. ومع <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20 واط</a> راجع دعم USB PD، وتوافق جهازك، والكابل المستخدم، ومدة الضمان المكتوبة؛ زمن الشحن الفعلي يتأثر بالجهاز ودرجة الحرارة ونسبة البطارية.</p>
 
 <h2>5 نصائح لشراء ملحقات iPhone أصلية في مصر بدون ما تتنصب عليك</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">🔍 <strong>النصيحة #1: دوّر على شعار MFi.</strong> أي كابل Lightning أو USB-C لأجهزة Apple لازم يكون عليه شعار "Made for iPhone" أو "MFi Certified". لو مش مكتوب — اسأل البياع عن الشهادة. لو مقدرش يوريهالك — سيبه.</li>
-    <li style="margin-bottom:16px;">🏪 <strong>النصيحة #2: اشتري من موزع رسمي.</strong> سواء Apple أصلي أو بديل MFi — المحل لازم يكون موزع معتمد للبراند. كايرو فولت موزع رسمي لـ Anker و Joyroom بضمان فعلي. تقدر تتحقق من أي منتج Anker عن طريق <a href="/blog/how-to-identify-original-anker" style="color:#2563eb;font-weight:600;">نظام التحقق بالباركود</a>.</li>
-    <li style="margin-bottom:16px;">💰 <strong>النصيحة #3: لو السعر أحلى من الحقيقة — فيه مشكلة.</strong> شاحن Apple 20W بأقل من 800ج أو كابل بأقل من 400ج = مقلّد أو مستعمل. الأسعار اللي ذكرناها فوق هي أقل سعر ممكن للأصلي في مصر.</li>
-    <li style="margin-bottom:16px;">📱 <strong>النصيحة #4: جرّب الكابل فوراً.</strong> كابل MFi أصلي لما تشبكه بـ iPhone، iOS مش بيطلع رسالة "This Accessory May Not Be Supported". لو طلعت — ارجّعه فوراً. ده أسرع اختبار.</li>
-    <li style="margin-bottom:16px;">🛡️ <strong>النصيحة #5: الضمان أهم من الماركة.</strong> شاحن Anker بـ 650ج بضمان 18 شهر > شاحن Apple مستورد بدون ضمان بـ 1,200ج. لأن لو أي حاجة حصلت — Anker هيبدّلهولك، Apple مفيش مركز خدمة ملحقات في مصر.</li>
+    <li style="margin-bottom:16px;">🔍 <strong>النصيحة #1: تحقق من اعتماد الموديل عند الحاجة.</strong> في ملحقات Lightning التي يخصها MFi، اطلب بيانات الموديل وتحقق من ادعاء الشركة. لا تعمم الشرط نفسه على كل كابل أو شاحن USB-C.</li>
+    <li style="margin-bottom:16px;">🏪 <strong>النصيحة #2: اشتري من متجر بهوية واضحة.</strong> راجع بيانات البائع والفاتورة وسياسات الإرجاع والضمان المكتوبة. ويمكنك قراءة <a href="/blog/how-to-identify-original-anker" style="color:#2563eb;font-weight:600;">دليل فحص بيانات منتج انكر</a>؛ الباركود أو الكود وحده ليس دليلاً قاطعاً على الأصالة.</li>
+    <li style="margin-bottom:16px;">💰 <strong>النصيحة #3: قارن السعر بحذر.</strong> السعر البعيد عن عروض السوق يستحق التحقق، لكنه لا يثبت أن المنتج مقلد أو مستعمل، ولا يوجد حد سعري ثابت يصلح لكل تاريخ أو بائع.</li>
+    <li style="margin-bottom:16px;">📱 <strong>النصيحة #4: اختبر الوظائف فوراً.</strong> جرّب الشحن ونقل البيانات إن كانا مطلوبين. رسالة "This Accessory May Not Be Supported" قد تظهر لأسباب متعددة، لذلك شخّص المنفذ والكابل والجهاز ولا تعتبرها اختبار أصالة منفرداً.</li>
+    <li style="margin-bottom:16px;">🛡️ <strong>النصيحة #5: اقرأ شروط ما بعد البيع.</strong> قارن مدة الضمان والاستثناءات وإجراء الفحص والعلاج المتاح كما هي مكتوبة في صفحة المنتج أو الفاتورة؛ لا تفترض استبدالاً تلقائياً أو غياب خدمة عن بائع آخر.</li>
 </ul>
 
 <h2>الخلاصة — مش لازم تدفع ضريبة الولاء لـ Apple</h2>
 
-<p>ملحقات Apple الأصلية غالية في مصر مش لأنها أحسن من كل البدائل — غالية بسبب الهيكل الاقتصادي: جمارك 30% + ضرائب 14% + هوامش توزيع + ندرة. والمشكلة دي مش مصرية بس — ده ظاهرة عالمية اسمها "Apple Tax" (ضريبة Apple) بتخلّي أي ملحق عليه شعار التفاحة أغلى 30-60% من بديل بيعمل نفس الوظيفة بالظبط. في مصر بالذات، الضريبة دي بتتضاعف بسبب الجمارك وغياب التوزيع المباشر.</p>
+<p>سعر ملحقات Apple والبدائل في مصر بيتأثر بعوامل متغيرة، ومينفعش ننسب فرق السعر لنسبة جمارك أو هامش توزيع ثابت من غير مستندات الشحنة، ولا نقول إن كل بديل بيعمل الوظيفة نفسها بالضبط. المقارنة الصحيحة تكون بين نفس الوظيفة والمواصفات وشروط البيع في التاريخ نفسه.</p>
 
-<p>البدائل المعتمدة MFi من Anker و Joyroom بتديك <strong>نفس الأداء ونفس الأمان</strong> بـ 40-75% أقل — ومعاها ضمان محلي حقيقي. الفلوس اللي بتوفرها ممكن تشتري بيها باور بانك كامل أو سماعة لاسلكية — بدل ما تدفعها على شعار على شاحن.</p>
+<p>بعض موديلات انكر أو Joyroom قد تكون بدائل مناسبة عند مطابقة الموصل والبروتوكول والقدرة واعتماد الموديل المطلوب. قارن السعر الحالي وشروط الضمان المكتوبة؛ لا نفترض تطابق الأداء والأمان أو نسبة توفير ثابتة بين منتجات مختلفة.</p>
 
 <p>لو عايز تعرف إزاي تفرق بين الأصلي والتقليد بنفسك، اقرأ <a href="/blog/how-to-spot-fake-chargers-7-tests" style="color:#2563eb;font-weight:600;">7 اختبارات لكشف الشاحن المقلد</a>.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ بدائل Apple المعتمدة — أصلية بضمان على كايرو فولت</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ قارن بدائل Apple ببيانات موديل وشروط بيع واضحة</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        شواحن وكابلات Anker (ضمان 18 شهر) و Joyroom (ضمان 12 شهر) — كلها متوافقة مع iPhone و iPad بشهادة MFi. <strong>أصلية 100%</strong> بكود تحقق + توصيل لكل المحافظات + دفع عند الاستلام.
+        تصفح شواحن وكابلات انكر وJoyroom، ثم راجع توافق كل موديل واعتماده إن انطبق ومدة الضمان وشروطه على صفحة المنتج أو الفاتورة. <strong>السعر والمخزون وخيارات الشحن والدفع</strong> تظهر حسب عنوان الطلب ووقت إتمامه.
     </p>
 </div>
 
@@ -205,128 +207,130 @@ export const apple_accessories_egypt_availability_pricing: BlogArticle = {
 </div>`,
             faq: [
                 {
-                    question: 'هل شاحن Anker 20W بيشحن iPhone بنفس سرعة شاحن Apple الأصلي؟',
-                    answer: 'أيوا — بالظبط نفس السرعة. الاتنين بيدعموا PD 20W وبيشحنوا iPhone 17 Pro Max من 0 لـ 50% في حوالي 25 دقيقة. السبب: سرعة الشحن بتتحدد بالبروتوكول (PD) والقدرة (20W)، مش باسم البراند. الفرق الوحيد: Anker بـ 650ج بضمان 18 شهر، Apple بـ 1,200ج+ بدون ضمان محلي على الملحقات.'
+                    question: 'هل شاحن انكر 20W بيشحن iPhone بنفس سرعة شاحن Apple الأصلي؟',
+                    answer: 'ممكن يقدّم سرعة متقاربة لو الموديلان يدعمان قدرة وبروتوكول USB PD المناسبين للجهاز ومعهما كابل متوافق، لكن لا نضمن زمناً متطابقاً. الحرارة ونسبة البطارية وإدارة الطاقة في الهاتف تؤثر في الزمن؛ راجع مواصفات الموديل والسعر والضمان الحاليين.'
                 },
                 {
                     question: 'هل في خطر إن iOS يوقف شاحن مش Apple أصلي بعد تحديث؟',
-                    answer: 'لو الشاحن بشهادة MFi — لا. Apple مش بتوقف الشواحن المعتمدة MFi. اللي بيتوقف بعد التحديثات هو الكابلات المقلّدة اللي مفيهاش شريحة MFi. شواحن Anker و Joyroom المعتمدة بتشتغل مع كل إصدارات iOS بدون مشاكل.'
+                    answer: 'توافق الملحق يعتمد على نوعه وموديله وبروتوكوله وإصدار النظام. اعتماد MFi، عندما ينطبق على الملحق المحدد، مؤشر توافق مهم لكنه لا يبرر وعداً بالعمل مع كل إصدار مستقبلي من iOS من غير مشاكل. راجع قائمة التوافق ودعم الشركة للموديل.'
                 },
                 {
                     question: 'ليه Apple شالت الشاحن من علبة iPhone من الأساس؟',
-                    answer: 'Apple قالت إن السبب بيئي — تقليل النفايات الإلكترونية والانبعاثات من الشحن. لكن الحقيقة إن ده وفّرلها 6.5 مليار دولار سنوياً (تقدير Morgan Stanley). في مصر تحديداً، ده زوّد الطلب على ملحقات منفصلة في سوق مفيهوش توزيع Apple كافي — فزاد التقليد.'
+                    answer: 'Apple أعلنت أن القرار يهدف إلى تقليل المواد والتغليف والانبعاثات المرتبطة بالشحن. توجد تقديرات خارجية للأثر المالي، لكنها ليست رقماً رسمياً نستخدمه كحقيقة، ولا نربط القرار بنسبة تقليد في مصر من غير بيانات سوق موثقة.'
                 },
                 {
                     question: 'لو محتاج كابل Lightning يعيش سنة+ — إيه أفضل اختيار؟',
-                    answer: 'أفضل اختيار: كابل Anker PowerLine III بشهادة MFi — مختبر لـ 25,000 دورة ثني (يعني 5+ سنين استخدام عادي) ومتاح بـ 400ج بضمان 18 شهر. البديل الأوفر: Joyroom Type-C to Lightning بضمان 24 شهر بـ 250ج — مختبر لـ 12,000 دورة (كافي لسنتين استخدام يومي).'
+                    answer: 'اختَر كابل Lightning متوافقاً بالموديل والطول والقدرة المناسبة، وتحقق من اعتماد MFi للموديل إذا كان مطلوباً، ومن شروط الضمان المكتوبة. رقم دورات الثني المعلن اختبار معياري لا يتحول مباشرة إلى عدد سنوات مضمون، والسعر المرجعي هو صفحة المنتج وقت الطلب.'
                 }
             ],
         },
         en: {
             title: 'Why Are Original Apple Accessories Unavailable at Reasonable Prices in Egypt? The Full Story',
             metaTitle: 'Why Apple Accessories Are Expensive in Egypt — Full Story | CairoVolt',
-            metaDescription: 'Why does an Apple 20W charger cost 1,200 EGP in Egypt when it is $19 in the US? The full story: customs, taxes, distribution, and MFi alternatives at half th...',
+            metaDescription: 'Why do Apple accessory prices and availability vary in Egypt? Compare model, compatibility, seller terms, current price, and product-specific MFi claims before buying.',
             keywords: 'apple accessories egypt price, iphone charger egypt original, why apple charger expensive egypt, apple mfi alternative egypt, anker mfi charger iphone, iphone cable original price egypt, apple accessories egypt availability, best iphone charger egypt, mfi certified egypt, apple charger alternative anker joyroom',
-            excerpt: 'The full story behind why original Apple accessories are overpriced in Egypt — from customs to distribution — and the best MFi-certified alternatives at half the price.',
-            quickAnswer: 'An Apple 20W charger costs $19 in the US (about 950 EGP at exchange rate) but sells for 1,100-1,400 EGP in Egypt. The reason: 30% customs duty + 14% VAT + 20-35% distributor margin + scarce official distribution. The smart alternative: MFi-certified chargers and cables from Anker or Joyroom — same performance and safety at 40-55% less than Apple original pricing.',
-            content: `<p>Every time you go to buy a charger for your new iPhone, you find yourself in one of three situations: (1) an original Apple charger at 1,200 EGP and you stare at it like an August electricity bill — in shock. (2) An "original" charger on OLX for 250 EGP labeled "Original Apple" in Comic Sans font — which alone should make you suspicious. (3) You cannot find the original at all — the shelf is empty at iStyle and Carrefour, and the salesperson tells you "sold out two weeks ago."</p>
+            excerpt: 'A practical guide to price and availability differences for Apple accessories in Egypt, with model, compatibility, and seller-term checks.',
+            quickAnswer: 'Apple accessory prices in Egypt vary with exchange rates, import costs, stock, model, and seller policy; price alone neither proves nor disproves authenticity. Compare the exact model, specifications, current listing, invoice, and written terms, and verify product-specific MFi claims where relevant.',
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial examples, not a current sales offer; the product page and cart are the source for current price, stock, and terms.</p><p>When buying an iPhone charger or cable, you may find substantial price and availability differences between sellers. A low price alone does not prove counterfeiting, and a high price alone does not prove authenticity. A professional comparison starts with the exact model, specifications, seller identity, invoice, and written return and warranty policies.</p>
 
-<p>This is not coincidence or bad luck — there are structural and economic reasons that make original Apple accessories in Egypt either <strong>absurdly overpriced</strong>, <strong>completely unavailable</strong>, or <strong>counterfeit</strong>. In this article, we will dissect the story piece by piece — from Apple's factory in China to the shop shelf in downtown Cairo — and show you the smart alternative that will not break your budget or damage your battery.</p>
+<p>Price and availability vary for several reasons, including exchange rates, import route, stock, model specifications, and seller policy. This guide explains how to compare those factors without making absolute promises about performance, safety, or savings.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        An Apple 20W charger costs $19 in the US (about 950 EGP at exchange rate) but sells for 1,100-1,400 EGP in Egypt. The reason: 30% customs duty + 14% VAT + 20-35% distributor margin + scarce official distribution. The smart alternative: MFi-certified chargers and cables from Anker or Joyroom — same performance and safety at 40-55% less than Apple original pricing.
+        Compare the current price, exact model, specifications, and seller terms. Do not rely on an old price, fixed tax assumption, or fixed savings percentage. MFi applies to the specific accessory where relevant and does not make every product from a brand certified or identical to Apple's product.
     </p>
 </div>
 
 <h2>The Charger's Journey from California to Downtown Cairo — Every Stop Adds Cost</h2>
 
-<p>Let us trace an Apple USB-C 20W charger from the moment Apple sets its price in the US to when it reaches your hands in Egypt. Every station on the journey inflates the price:</p>
+<p>These are the factors that may enter the final Egyptian price. Actual treatment varies by date, product classification, and import route, so the table is a verification workflow—not an official tax calculation or current quote:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Station</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Cumulative Cost</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Increase</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Verification Source</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">What Varies</th>
     </tr></thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>Apple Official Price (US)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">$19 ≈ 950 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">—</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>Apple or supplier price</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Exact model listing at comparison time</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Country, currency, and offer</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>+ International Shipping + Insurance</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">~1,000 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">+5%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Carrier or importer invoice</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Weight, route, and insurance</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>+ Customs Duty (30% on electronics)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">~1,300 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">+30%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>+ Customs duty, if applicable</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Current official tariff and declaration</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Classification, origin, and treatment</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>+ Value Added Tax (14%)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">~1,480 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">+14%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Tax invoice and current rules</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Tax base and applicable treatment</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>+ Local Distributor Margin (20-35%)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">~1,780-2,000 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">+20-35%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>+ Seller and operating costs</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Seller's published offer and terms</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Stock, service, and competition</td>
         </tr>
         <tr style="background:#fef2f2;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Final Consumer Price</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>1,100-1,400 EGP (after competitive adjustment)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>+16% to +47% above US price</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>Product page and cart at order time</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>Does not prove authenticity alone</strong></td>
         </tr>
     </tbody>
 </table>
 
-<p>So a charger that costs $19 at the Apple Store in America reaches you in Egypt at 1,100-1,400 EGP — <strong>if you can find it at all</strong>. The problem is not just the price — the problem is that Apple does not invest in distribution in Egypt the way it does in the UAE or Saudi Arabia.</p>
+<p>Converting a foreign listing into Egyptian pounds does not produce a reliable final local price. Compare the same model on the same date and review what the price includes, without making unsupported assumptions about Apple's strategy or any distributor's margin.</p>
 
 <h2>Why Does Apple Not Prioritize the Egyptian Accessories Market?</h2>
 
-<p>The question nobody asks: why does Apple not open an official Apple Store in Egypt like Dubai or Jeddah? The answer involves four factors:</p>
+<p>The practical question is what may explain price and availability differences between Egypt and other markets. Without internal Apple data, we can review four verifiable considerations:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">📊 <strong>Market size vs cost:</strong> Egypt is a large market (110+ million people) but per-capita purchasing power is low compared to the Gulf. Apple calculates: opening an Apple Store in Cairo costs $5-10 million annually (rent + staff + logistics). The same store in Dubai sells 3-5 times more. The math is straightforward.</li>
-    <li style="margin-bottom:16px;">💱 <strong>Exchange rate volatility:</strong> The Egyptian Pound lost approximately 60% of its value against the dollar between 2022 and 2025. Any company pricing in dollars and selling in pounds — like Apple — faces high currency risk. The typical response: increase the safety margin in pricing or reduce investment.</li>
-    <li style="margin-bottom:16px;">🏛️ <strong>Regulatory environment:</strong> The certifications and licenses required for importing electronics in Egypt are complex. Each shipment requires permits from the National Telecom Regulatory Authority (NTRA) + Customs Authority + Tax Authority. This increases lead time and costs.</li>
-    <li style="margin-bottom:16px;">🏪 <strong>Reliance on local distributors:</strong> Apple relies on Authorized Resellers like iStyle, Tradeline, and B.TECH. The problem is these distributors have limited quotas and focus on devices (iPhone, iPad, Mac) over accessories because device margins are higher.</li>
+    <li style="margin-bottom:16px;">📊 <strong>Market and operating conditions:</strong> Demand, operating cost, and sales channels may affect availability, but we do not assign unpublished cost or sales figures to Apple.</li>
+    <li style="margin-bottom:16px;">💱 <strong>Exchange-rate movement:</strong> Currency changes affect import cost and repricing. Use the actual invoice date and exchange context, not a fixed historical percentage.</li>
+    <li style="margin-bottom:16px;">🏛️ <strong>Regulatory requirements:</strong> Licences, tax, and customs treatment may differ by product and shipment. Current official documents are the source, not a blanket rule for all accessories.</li>
+    <li style="margin-bottom:16px;">🏪 <strong>Changing sales channels:</strong> Seller status, stock, and terms change. Check Apple's current seller information and the seller's own listing rather than assuming quotas or margins.</li>
 </ul>
 
-<p>The result: original accessories arrive in small quantities, sell out quickly, and prices inflate. This creates a massive gap in the market — a gap filled by counterfeits.</p>
+<p>For buyers, price and stock may change over time, and listings can include genuine, used, grey-market, unknown-source, or counterfeit goods. Judge a product from several pieces of evidence rather than price or marketplace alone.</p>
 
 <h2>The Counterfeit Market — The Battery-Eating Monster</h2>
 
-<p>The gap in original Apple accessories created a huge counterfeit market in Egypt. Numbers you might not believe:</p>
+<p>Counterfeit and unknown-source accessories exist in many markets, but we do not publish a prevalence rate without a documented study. Focus on risk indicators that can be checked:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">❌ <strong>4 out of 5 "Original Apple" cables on OLX are counterfeit</strong> — this figure comes from our inspection of 20 random samples in March 2026. The difference? The original has an MFi chip that communicates with iOS — the counterfeit does not, and iOS may disable it after an update.</li>
-    <li style="margin-bottom:12px;">❌ <strong>A counterfeit Apple charger produces voltage ripple 400% higher than the original</strong> — meaning the current entering your phone fluctuates wildly. Over time: your battery loses 15-20% of its health in the first year instead of 5-8% with a genuine charger.</li>
-    <li style="margin-bottom:12px;">❌ <strong>Counterfeit cable price: 50-150 EGP. New iPhone 17 Pro Max battery replacement: 3,500+ EGP.</strong> The temporary savings on the cable could cost you 20 times more if the battery gets damaged. For details, read <a href="/en/blog/do-fake-chargers-damage-iphone-battery" style="color:#2563eb;font-weight:600;">Do Fake Chargers Actually Damage iPhone Batteries?</a></li>
+    <li style="margin-bottom:12px;">❌ <strong>Vague listing without a model number or invoice:</strong> an "Original Apple" label in a private listing does not establish source or condition.</li>
+    <li style="margin-bottom:12px;">❌ <strong>Missing safety and specification data:</strong> an unknown charger may omit output, protocol, and protection details. We do not assign it ripple or battery-health figures without a published test.</li>
+    <li style="margin-bottom:12px;">❌ <strong>Purchase price is not the whole cost:</strong> compare construction, compatibility, return policy, and potential replacement cost. See <a href="/en/blog/do-fake-chargers-damage-iphone-battery" style="color:#2563eb;font-weight:600;">Do Fake Chargers Actually Damage iPhone Batteries?</a></li>
 </ul>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#991b1b;"><strong>⚠️ Warning:</strong> Any Lightning or USB-C cable labeled "Apple Original" and priced below 400 EGP in Egypt is <strong>95% likely counterfeit</strong>. An official Apple USB-C cable (1 meter) has a global price of $19 + customs and taxes = 700+ EGP minimum in Egypt. If you need to verify, read <a href="/en/blog/original-vs-fake-apple-charger-egypt" style="color:#2563eb;font-weight:600;">How to Tell Original Apple Chargers from Fakes</a>.</p>
+    <p style="margin:0;color:#991b1b;"><strong>⚠️ Warning:</strong> A very low price deserves scrutiny, but it does not determine a counterfeit percentage or prove the conclusion alone. Match the model, packaging, invoice, seller identity, and return policy; then read <a href="/en/blog/original-vs-fake-apple-charger-egypt" style="color:#2563eb;font-weight:600;">How to Tell Original Apple Chargers from Fakes</a>.</p>
 </div>
 
 <h2>The Smart Alternative — MFi Certification Is the Key</h2>
 
-<p>So if original Apple is expensive and counterfeits are dangerous — what is the solution? The answer is called <strong>MFi (Made for iPhone/iPad)</strong> — a licensing program from Apple itself that certifies third-party companies manufacturing compatible accessories.</p>
+<p>When comparing a third-party accessory, understand <strong>MFi (Made for iPhone/iPad)</strong>: an Apple licensing program relevant to certain accessory types. A claim applies to the specific accessory or model, not automatically to every product from a company.</p>
 
-<p>A company with MFi certification means:</p>
+<p>When evaluating an MFi claim, check:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>Apple tested and approved the product:</strong> The cable or charger passed Apple's official tests — compatibility, electrical safety, performance stability.</li>
-    <li style="margin-bottom:12px;">✅ <strong>The internal chip is genuine:</strong> MFi cables contain an Apple chip that verifies compatibility — meaning iOS will not reject it after an update.</li>
-    <li style="margin-bottom:12px;">✅ <strong>Performance matches the original:</strong> Same charging speed (PD 20W+), same data transfer speed, same electrical safety.</li>
-    <li style="margin-bottom:12px;">✅ <strong>Price is 40-55% lower:</strong> Because licensed manufacturers (Anker, Joyroom, Belkin) save on direct distribution costs and compete on price.</li>
+    <li style="margin-bottom:12px;">✅ <strong>The exact model:</strong> request product or manufacturer information linking the claim to that accessory, not just the brand name.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Connector type:</strong> MFi is particularly relevant to certain Apple technologies such as Lightning; do not assume every USB-C cable or charger needs the same mark.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Actual performance:</strong> charging and data speed depend on the phone, charger, cable, and protocol. Certification does not mean every specification matches Apple's product.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Current price:</strong> compare each model's current listing; there is no fixed discount that applies across Anker, Joyroom, or Belkin.</li>
 </ul>
 
-<h2>Price Comparison — Apple Original vs MFi Alternatives in Egypt</h2>
+<h2>Price Comparison — Apple and Compatible Alternatives in Egypt</h2>
+
+<p><strong>How to read this comparison:</strong> old article prices are not current offers. The links open the compared models; the product page and cart show the price, stock, and warranty terms at order time.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
@@ -339,57 +343,57 @@ export const apple_accessories_egypt_availability_pricing: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>20W USB-C Charger</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">1,100-1,400 EGP</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">650 EGP</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">350 EGP</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>41-75%</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Check Apple's or seller's current offer</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Current Anker model listing</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">Current Joyroom model listing</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>Calculate at checkout</strong></td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>USB-C to Lightning Cable 1m</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">700-900 EGP</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb;font-weight:600;">400 EGP</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/joyroom/cables/joyroom-type-c-lightning-24mos" style="color:#2563eb;font-weight:600;">250 EGP</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>43-72%</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Check Apple's or seller's current offer</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb;font-weight:600;">Current Anker model listing</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/joyroom/cables/joyroom-type-c-lightning-24mos" style="color:#2563eb;font-weight:600;">Current Joyroom model listing</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>Calculate at checkout</strong></td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>USB-C to USB-C Cable 1m</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">700-850 EGP</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb;font-weight:600;">380 EGP</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/joyroom/cables/joyroom-usb-a-lightning-cable" style="color:#2563eb;font-weight:600;">200 EGP</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>46-76%</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Check Apple's or seller's current offer</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb;font-weight:600;">Confirm connector and model</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/joyroom/cables/joyroom-usb-a-lightning-cable" style="color:#2563eb;font-weight:600;">Confirm connector and model</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>Calculate at checkout</strong></td>
         </tr>
         <tr style="background:#fefce8;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>Complete Set (Charger + Cable)</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;"><strong>1,800-2,300 EGP</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>1,050 EGP</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>600 EGP</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>42-74% savings</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;"><strong>Add current prices</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>Add current prices</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>Add current prices</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>Cart difference at order time</strong></td>
         </tr>
     </tbody>
 </table>
 
-<p>So if you buy a charger + cable from Joyroom instead of Apple original, you save <strong>1,200-1,700 EGP</strong> — enough to buy a complete power bank. And with the <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W charger</a> backed by an 18-month warranty, you get the same iPhone 17 Pro Max charging speed (0→50% in 25 minutes) at less than half the price.</p>
+<p>An alternative may cost less or more depending on model and current offer. For the <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W charger</a>, check USB PD support, device compatibility, cable, and written warranty term. Actual charging time depends on the device, temperature, and battery level.</p>
 
 <h2>5 Tips for Buying Genuine iPhone Accessories in Egypt Without Getting Scammed</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">🔍 <strong>Tip #1: Look for the MFi logo.</strong> Any Lightning or USB-C cable for Apple devices should carry the "Made for iPhone" or "MFi Certified" logo. If it is not there — ask the seller for the certificate. If they cannot show it — walk away.</li>
-    <li style="margin-bottom:16px;">🏪 <strong>Tip #2: Buy from an authorized distributor.</strong> Whether original Apple or MFi alternative — the store must be an authorized distributor for the brand. CairoVolt is an official distributor for Anker and Joyroom with real warranty. You can verify any Anker product through the <a href="/en/blog/how-to-identify-original-anker" style="color:#2563eb;font-weight:600;">barcode verification system</a>.</li>
-    <li style="margin-bottom:16px;">💰 <strong>Tip #3: If the price is too good to be true — something is wrong.</strong> An Apple 20W charger below 800 EGP or a cable below 400 EGP = counterfeit or used. The prices mentioned above are the minimum possible for genuine products in Egypt.</li>
-    <li style="margin-bottom:16px;">📱 <strong>Tip #4: Test the cable immediately.</strong> A genuine MFi cable when plugged into an iPhone will not trigger the "This Accessory May Not Be Supported" message. If it appears — return it immediately. This is the fastest test.</li>
-    <li style="margin-bottom:16px;">🛡️ <strong>Tip #5: Warranty matters more than brand name.</strong> An Anker charger at 650 EGP with 18-month warranty beats an imported Apple charger without warranty at 1,200 EGP. Because if anything goes wrong — Anker will replace it; Apple has no accessories service center in Egypt.</li>
+    <li style="margin-bottom:16px;">🔍 <strong>Tip #1: Verify model-specific certification where relevant.</strong> For Lightning accessories covered by MFi, request model information and verify the manufacturer's claim. Do not apply the same requirement to every USB-C cable or charger.</li>
+    <li style="margin-bottom:16px;">🏪 <strong>Tip #2: Buy from a seller with clear identity.</strong> Review the invoice and written return and warranty policies. See the <a href="/en/blog/how-to-identify-original-anker" style="color:#2563eb;font-weight:600;">Anker product-data inspection guide</a>; a barcode or code alone is not conclusive proof of authenticity.</li>
+    <li style="margin-bottom:16px;">💰 <strong>Tip #3: Compare price carefully.</strong> An outlier price deserves verification, but it does not prove a product counterfeit or used. No fixed price floor works across every date and seller.</li>
+    <li style="margin-bottom:16px;">📱 <strong>Tip #4: Test required functions promptly.</strong> Test charging and data transfer where needed. The "This Accessory May Not Be Supported" message has several possible causes, so it is not a standalone authenticity test.</li>
+    <li style="margin-bottom:16px;">🛡️ <strong>Tip #5: Read after-sales terms.</strong> Compare warranty duration, exclusions, inspection process, and available remedy exactly as written on the product page or invoice; do not assume automatic replacement or absence of service elsewhere.</li>
 </ul>
 
 <h2>The Bottom Line — You Do Not Have to Pay the Apple Loyalty Tax</h2>
 
-<p>Original Apple accessories are expensive in Egypt not because they are better than all alternatives — they are expensive because of the economic structure: 30% customs + 14% taxes + distribution margins + scarcity. MFi-certified alternatives from Anker and Joyroom deliver <strong>the same performance and safety</strong> at 40-75% less — with real local warranty included.</p>
+<p>Apple and alternative accessory prices in Egypt reflect changing factors. Do not assign the gap to a fixed customs rate or distributor margin without shipment records, and do not assume every alternative performs identically. Compare like-for-like functions, specifications, current prices, and written terms.</p>
 
 <p>If you want to learn how to identify originals from counterfeits yourself, read <a href="/en/blog/how-to-spot-fake-chargers-7-tests" style="color:#2563eb;font-weight:600;">7 Tests to Spot a Fake Charger</a>.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Certified Apple Alternatives — Genuine with Warranty at CairoVolt</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Compare Apple alternatives with clear model data and terms</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Anker chargers and cables (18-month warranty) and Joyroom (12-month warranty) — all compatible with iPhone and iPad with MFi certification. <strong>100% genuine</strong> with verification codes + delivery to all governorates + cash on delivery.
+        Browse Anker and Joyroom chargers and cables, then review each model's compatibility, certification where applicable, and written warranty terms. <strong>Price, stock, delivery, and payment options</strong> appear for the order address and time at checkout.
     </p>
 </div>
 
@@ -404,19 +408,19 @@ export const apple_accessories_egypt_availability_pricing: BlogArticle = {
             faq: [
                 {
                     question: 'Does an Anker 20W charger charge an iPhone at the same speed as an original Apple charger?',
-                    answer: 'Yes — exactly the same speed. Both support PD 20W and charge the iPhone 17 Pro Max from 0 to 50% in approximately 25 minutes. The reason: charging speed is determined by the protocol (PD) and wattage (20W), not the brand name. The only difference: Anker costs 650 EGP with an 18-month warranty, while Apple costs 1,200+ EGP with no local accessories warranty.'
+                    answer: 'It may provide similar speed when both exact models support the device\'s required USB PD profile and use a compatible cable, but identical time is not guaranteed. Temperature, battery level, and device power management affect results; check current model specifications, price, and warranty terms.'
                 },
                 {
                     question: 'Is there a risk that iOS will disable a non-Apple charger after an update?',
-                    answer: 'If the charger is MFi-certified — no. Apple does not disable MFi-certified chargers. What gets disabled after updates are counterfeit cables that lack the MFi chip. Certified Anker and Joyroom chargers work with all iOS versions without issues.'
+                    answer: 'Compatibility depends on accessory type, model, protocol, and OS version. MFi, when relevant to the specific accessory, is a useful compatibility indicator but cannot support a promise about every future iOS version. Check the model compatibility list and manufacturer support.'
                 },
                 {
                     question: 'Why did Apple remove the charger from the iPhone box in the first place?',
-                    answer: 'Apple stated the reason was environmental — reducing electronic waste and shipping emissions. However, this also saved them an estimated $6.5 billion annually (Morgan Stanley estimate). In Egypt specifically, this increased demand for separate accessories in a market with insufficient Apple distribution — fueling the counterfeit market.'
+                    answer: 'Apple stated that the decision was intended to reduce material use, packaging, and shipping emissions. External financial estimates are not official figures, and this guide does not attribute a counterfeit-market rate in Egypt to that decision without documented market data.'
                 },
                 {
                     question: 'If I need a Lightning cable that lasts 1+ year — what is the best option?',
-                    answer: 'Best option: Anker PowerLine III cable with MFi certification — tested to 25,000 bend cycles (meaning 5+ years of normal use) and available at 400 EGP with an 18-month warranty. Budget alternative: Joyroom Type-C to Lightning with 24-month warranty at 250 EGP — tested to 12,000 cycles (sufficient for two years of daily use).'
+                    answer: 'Choose a Lightning cable with the required connector, length, and power support; verify product-specific MFi status where relevant and read the written warranty. A stated bend-cycle test does not translate directly into guaranteed years, and the product page is the source for current price.'
                 }
             ],
         }

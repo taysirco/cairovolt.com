@@ -1,7 +1,7 @@
 {
   "name": "CairoVolt Store - Mobile Accessories Egypt",
   "short_name": "CairoVolt",
-  "description": "الموزع المعتمد لمنتجات Anker و Joyroom في مصر - باور بانك، شواحن، سماعات بضمان رسمي",
+  "description": "متجر إلكتروني لمنتجات انكر وجوي روم في مصر مع أسعار ومواصفات وسياسات ضمان كايرو فولت مكتوبة",
   "id": "/?source=pwa_app",
   "start_url": "/?source=pwa_app",
   "scope": "/",

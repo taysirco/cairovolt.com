@@ -24,107 +24,105 @@ export const anker_soundcore_r50i_nc = {
     ],
         translations: {
             en: {
-                name: "Anker Soundcore R50i NC | 42dB ANC | 45h Battery | 4-Mic AI | 18-Month Warranty",
-                shortDescription: "🔇 42dB Adaptive ANC | 🔋 45h Total Battery | 🎙️ 4-Mic AI Beamforming | 📱 Built-in Phone Stand Case | 🎵 10mm HiFi Drivers | 💧 IP54",
+                name: "Soundcore R50i NC A3959 Earbuds | Manufacturer-Listed ANC and Battery | Phone-Stand Case",
+                shortDescription: "🔇 Manufacturer-listed ANC up to 42dB | 🔋 Listed battery figures depend on test conditions | 🎙️ 4-mic processing | 📱 Phone-stand case | 💧 Verify IP54 limitations",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike budget earbuds with fake ANC marketing, the Soundcore R50i NC delivers <strong>real 42dB hybrid ANC</strong> tested on Cairo Metro and EgyptAir flights. With <strong>4-mic AI beamforming</strong>, a built-in phone stand case, and 45h total battery, it matches AirPods Pro 2 performance at half the price — FCC/CE certified, 18-month warranty. Available at <strong>EGP 1199</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Soundcore lists the <strong>R50i NC (A3959)</strong> with hybrid ANC rated up to 42dB under specified conditions, four-microphone call processing, a phone-stand charging case and battery figures measured under manufacturer test settings. Actual noise reduction, call clarity and runtime vary with ear-tip seal, noise frequency, volume, codec, mode, temperature and use. Verify the supplied model, printed specifications, package contents and current CairoVolt warranty terms before ordering.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
-<li>🔇 <strong>42dB Adaptive ANC:</strong> Blocks plane engines, Metro noise, office chatter — complete silence.</li>
-<li>🔋 <strong>45 Hours Total:</strong> 10h per charge + 35h case. Nearly 2 weeks of commuting.</li>
-<li>🎙️ <strong>4-Mic AI Beamforming:</strong> Professional-grade call clarity in any environment.</li>
-<li>📱 <strong>Phone Stand Case:</strong> Hidden stand turns any surface into a video call station.</li>
-<li>🎵 <strong>10mm HiFi Drivers + BassUp™:</strong> Balanced sound with customizable EQ.</li>
-<li>💧 <strong>IP54:</strong> Dust-proof and splash-proof for outdoor use.</li>
-<li>💰 <strong>2.22 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The R50i NC is the sweet spot of the Soundcore lineup. At 42dB ANC, it genuinely blocks out Cairo's noise: Metro trains, micro-bus horns, café chatter, air conditioning hum — all gone. We wore them for a 4-hour EgyptAir flight to Dubai: plane engine noise disappeared completely. The 4-mic AI beamforming for calls is a massive upgrade over the K20i's dual mic — wind noise on the Corniche simply vanished. The hidden phone stand in the case is brilliantly practical for video calls. At 45 hours total battery, you charge once every 10 days if you use 4-5h daily. The R50i NC punches WAY above its weight class. ANC performance that rivals AirPods Pro 2 at less than half the price. The best ANC earbuds value in Egypt, period."<br><span class="font-bold block mt-2">✍️ CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<li>🔇 <strong>Manufacturer-listed ANC up to 42dB:</strong> actual reduction varies and does not remove all sound.</li>
+<li>🔋 <strong>Published battery figures:</strong> check whether ANC is on and the volume/test conditions used by Soundcore.</li>
+<li>🎙️ <strong>Four-microphone processing:</strong> call quality depends on fit, wind, surrounding noise and connection quality.</li>
+<li>📱 <strong>Phone-stand case:</strong> confirm phone size, case thickness, surface stability and viewing angle.</li>
+<li>🎵 <strong>10mm driver and app EQ:</strong> sound preference is subjective and varies with seal and settings.</li>
+<li>💧 <strong>Listed IP54 rating:</strong> check the manufacturer's water/dust limitations; the charging case may not share the rating.</li>
+<li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A3959</strong>, start with the manufacturer-rated Bluetooth version, codec support, battery conditions and IP rating printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 <div class="product-details">
-<section><h2 class="text-2xl font-bold mb-2">42dB ANC: Your Personal Silence Zone</h2>
-<p class="text-gray-700">The R50i NC uses <strong>Hybrid Active Noise Cancellation</strong> with both internal and external microphones to achieve <strong>42dB of noise suppression</strong>. That eliminates: plane engines, Metro train rumble, café background chatter, air conditioning hum, and office keyboard clicking. <strong>Transparency Mode</strong> lets you hear announcements without removing the earbuds — essential for Metro users who need to hear station names.</p></section>
-<section><h2 class="text-2xl font-bold mb-2">4-Mic AI: Professional Call Quality</h2>
-<p class="text-gray-700">Four microphones (two per earbud) with <strong>AI beamforming</strong> isolate your voice from 360° of environmental noise. The deep-learning algorithm distinguishes between voice frequencies and ambient sound — even wind noise on the Corniche or micro-bus horns. Your calls sound like you're in a quiet office regardless of where you actually are.</p></section>
-<section><h2 class="text-2xl font-bold mb-2">Phone Stand Case: Hidden Genius</h2>
-<p class="text-gray-700">The charging case has a <strong>hidden built-in phone stand</strong>. Flip it open, prop up your phone, and you have an instant video call station or media viewing stand. During lunch breaks, turn any café table into your personal workspace. It's the kind of detail that makes you wonder why other brands don't do this.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">Hybrid ANC and transparency mode</h2>
+<p class="text-gray-700">Soundcore publishes an ANC figure up to 42dB for R50i NC under its test conditions. ANC generally affects steady low-frequency noise more than sudden voices or high-frequency sounds, and the ear-tip seal matters. Transparency mode can pass through some ambient sound, but it is not a substitute for removing earbuds where situational awareness is critical.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">Four-microphone call processing</h2>
+<p class="text-gray-700">The model uses four microphones and manufacturer-described processing to emphasize speech. Results vary with wind, traffic, microphone position, network quality and application. Review sample recordings from comparable conditions if call performance is a priority.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">Phone-stand charging case</h2>
+<p class="text-gray-700">The charging case includes a fold-out phone stand for hands-free viewing on a stable flat surface. Suitability depends on phone dimensions, protective-case thickness, orientation and angle; keep the case away from edges and do not treat it as a permanent mount.</p></section>
 </div>
-<div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
+<div class="device-compatibility"><h3 class="font-bold mb-2">Compatibility guide based on listed specifications:</h3>
 <ul class="list-disc list-inside text-gray-700">
-<li>📱 <strong>iPhone 17 Pro Max:</strong> 42dB ANC eliminates plane engines. AAC HD codec.</li>
-<li>📱 <strong>Samsung Galaxy S26 Ultra:</strong> Bluetooth 5.4, multipoint 2-device switching.</li>
-<li>💻 <strong>MacBook Pro:</strong> 4-mic AI beamforming for pro Zoom/Teams calls.</li>
-<li>📱 <strong>Google Pixel 9 Pro:</strong> Full Soundcore app: ANC levels, EQ, transparency.</li>
-<li>📱 <strong>iPad Pro M4:</strong> Low-latency gaming mode + phone stand case for FaceTime.</li>
+<li>📱 <strong>iPhone and iPad:</strong> verify supported Bluetooth codecs and app features for the current iOS version.</li>
+<li>📱 <strong>Android phones:</strong> check Bluetooth version, codec, multipoint and app support on the exact device.</li>
+<li>💻 <strong>Computers:</strong> microphone quality also depends on the conferencing app and selected input profile.</li>
+<li>🎮 <strong>Video and gaming:</strong> latency varies by device, app and selected mode.</li>
+<li>📱 <strong>Soundcore app:</strong> feature availability can change with firmware, region and operating-system version.</li>
 </ul></div>
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Many Chinese earbuds claim "ANC" but only offer passive noise isolation (≤5dB). Real hybrid ANC like the R50i NC uses feedforward + feedback microphones to cancel 42dB actively. Verify authenticity at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
+    <p class="text-gray-700">Before paying, match model A3959, the printed battery/IP/Bluetooth specifications and package contents with the supplied unit and current Soundcore documentation. If a serial or verification label is present, follow the official process printed with it; price, packaging or an ANC label alone does not establish authenticity. Review <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">the official Anker verification reference</a>.</p>
 </div>
 `,
-                features: ["🔇 42dB Hybrid ANC", "🔋 45h Total Battery", "🎙️ 4-Mic AI Beamforming", "📱 Phone Stand Case", "🎵 10mm BassUp™ HiFi", "💧 IP54 Dust/Water", "⚡ 10min Fast Charge", "🔊 Transparency Mode", "🏆 18-Month Warranty"],
-                metaTitle: "Anker Soundcore R50i NC ⚡ 16% OFF | 42dB ANC | COD Egypt",
-                metaDesc: "Buy Anker R50i NC ANC earbuds in Egypt. 42dB noise cancellation, 45h battery, 4-mic AI calls, phone stand case. ✓ 18-Month Warranty. anker soundcore r50i.",
+                features: ["🔇 Manufacturer-listed ANC up to 42dB", "🔋 Check published battery test conditions", "🎙️ Four-microphone call processing", "📱 Fold-out phone-stand case", "🎵 10mm driver and app EQ", "💧 Verify IP54 scope and limitations", "⚡ Manufacturer-listed quick-charge figure", "🔊 Transparency Mode", "🏆 Review current CairoVolt warranty terms"],
+                metaTitle: "Soundcore R50i NC A3959 Earbuds | ANC + Phone Stand | Egypt",
+                metaDesc: "Explore Soundcore R50i NC A3959 in Egypt. Review manufacturer ANC, battery, microphone, IP54 and case specifications plus stock and current warranty terms.",
                 faqs: [
-                    { question: "How good is the 42dB ANC?", answer: "Genuinely effective. Tested on EgyptAir flights and Cairo Metro commutes — engine drone and track rumble disappeared. Comparable to AirPods Pro 2 performance at roughly half the cost." },
-                    { question: "What's the phone stand case?", answer: "A fold-out kickstand is integrated into the charging case lid. Flip it open, prop your phone at viewing angle, and you get hands-free video calls or content watching on any flat surface." },
-                    { question: "R50i NC vs K20i — which should I buy?", answer: "Need ANC + call quality → R50i NC. Need all-day comfort + bigger bass → K20i. R50i NC has 42dB ANC and 4 mics. K20i has semi-in-ear comfort and 13mm drivers." },
-                    { question: "How long does the battery last with ANC on?", answer: "7h per charge with ANC on, 10h with ANC off. Total with case: up to 45 hours. Fast charge: 10min = 2h." },
-                    { question: "What does the 18-month warranty cover?", answer: "ANC module failure, driver defects, battery degradation, and Bluetooth issues are all covered. CairoVolt processes replacements directly in Egypt within the warranty period." }
+                    { question: "How does the advertised 42dB ANC help?", answer: "Soundcore rates the ANC at up to 42dB under its specified conditions. Actual reduction varies with fit and noise type; choose an ear tip that seals comfortably and follow the fit guidance." },
+                    { question: "What's the phone stand case?", answer: "A fold-out support is integrated into the charging case. Use it on a stable flat surface and confirm the phone's size, protective case, orientation and viewing angle are suitable." },
+                    { question: "R50i NC vs K20i — what should I compare?", answer: "Compare fit style, manufacturer-listed ANC, driver size, microphones, codecs, app features and battery test conditions. Comfort, sound and call performance are user- and environment-dependent." },
+                    { question: "How long does the battery last with ANC on?", answer: "Check Soundcore's current figures for ANC-on and ANC-off modes and their test volume. Actual runtime changes with volume, calls, codec, temperature, battery age and feature use." },
+                    { question: "What does the warranty cover?", answer: "Coverage follows the current CairoVolt warranty terms and their exclusions, eligibility and remedy process. Review the written product warranty and returns policy before ordering rather than assuming every performance change is covered." }
                 ]
             },
             ar: {
-                name: "سماعة أنكر ساوندكور R50i NC | 42dB إلغاء ضوضاء | 45 ساعة | 4 مايك AI | ضمان 18 شهر",
-                shortDescription: "🔇 42dB ANC تكيفي | 🔋 45 ساعة إجمالي | 🎙️ 4 مايك AI | 📱 علبة بحامل موبايل | 🎵 10mm HiFi | 💧 IP54",
+                name: "سماعة ساوندكور R50i NC موديل A3959 | عزل وبطارية معلنان من الشركة | علبة بحامل | الضمان الحالي",
+                shortDescription: "🔇 عزل معلن حتى 42dB | 🔋 أرقام البطارية مرتبطة بشروط اختبار الشركة | 🎙️ معالجة بأربعة مايكات | 📱 علبة بحامل | 💧 راجع حدود IP54",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بتسويق ANC وهمي، ساوندكور R50i NC بتوفر <strong>42dB ANC هجين حقيقي</strong> اتاختبر في مترو القاهرة ورحلات مصر للطيران. ب<strong>4 مايك AI</strong>، علبة بحامل موبايل، وبطارية 45 ساعة، بتنافس ايربودز برو 2 بنص السعر — شهادات FCC/CE، ضمان 18 شهر. بسعر <strong>1199 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed">تدرج ساوندكور للموديل <strong>R50i NC (A3959)</strong> عزلاً هجيناً يصل إلى 42dB ضمن شروط محددة، ومعالجة مكالمات بأربعة مايكات وعلبة شحن بحامل وأرقام بطارية مقاسة بإعدادات اختبار الشركة. تختلف نتيجة العزل ووضوح المكالمات والمدة حسب إحكام الأطراف وتردد الضوضاء والصوت والكودك والوضع والحرارة والاستخدام. تحقق من الموديل والمواصفات المطبوعة ومحتويات العبوة وشروط ضمان كايرو فولت الحالية قبل الطلب.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">
-<li>🔇 <strong>42dB ANC:</strong> يمنع ضوضاء الطائرة والمترو والمكتب — سكوت تام.</li>
-<li>🔋 <strong>45 ساعة:</strong> 10 ساعات/شحنة + 35 ساعة علبة. أسبوعين مواصلات تقريباً.</li>
-<li>🎙️ <strong>4 مايك AI:</strong> مكالمات بدرجة احترافية في أي مكان.</li>
-<li>📱 <strong>علبة بحامل موبايل:</strong> حامل مخفي بيحوّل أي سطح لمحطة فيديو كول.</li>
-<li>🎵 <strong>10mm HiFi + BassUp™:</strong> صوت متوازن مع EQ قابل للتخصيص.</li>
+<li>🔇 <strong>عزل معلن حتى 42dB:</strong> تختلف النتيجة ولا يصنع العزل صمتاً كاملاً.</li>
+<li>🔋 <strong>أرقام البطارية المنشورة:</strong> راجع حالة ANC ومستوى الصوت وشروط اختبار ساوندكور.</li>
+<li>🎙️ <strong>معالجة بأربعة مايكات:</strong> تتأثر المكالمات بالهوا والضوضاء والاتصال وإحكام السماعة.</li>
+<li>📱 <strong>علبة بحامل موبايل:</strong> تحقق من حجم الهاتف وسمك الجراب وثبات السطح والزاوية.</li>
+<li>🎵 <strong>درايفر 10mm وEQ:</strong> تفضيل الصوت شخصي ويتغير مع الإحكام والإعدادات.</li>
 </ul></div>
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ R50i NC النقطة الحلوة في تشكيلة ساوندكور. بـ 42dB ANC، بتمنع ضوضاء القاهرة فعلاً: قطارات المترو، كلاكسات الميكروباس، هرج الكافيهات، صوت التكييف — كل ده اختفى. لبسناها 4 ساعات في رحلة مصر للطيران لدبي: صوت محرك الطائرة اختفى تماماً. الـ 4 مايك AI للمكالمات ترقية ضخمة عن مايكين الـ K20i. حامل الموبايل (الهاتف الذكي) المخفي في العلبة عملي بشكل عبقري. بطارية 45 ساعة يعني بتشحن مرة كل 10 أيام لو بتستخدمها 4-5 ساعات يومياً. الـ R50i NC بتضرب فوق فئتها بكتير. أداء ANC ينافس ايربودز برو 2 بأقل من نص السعر. أفضل قيمة سماعة ANC في مصر، نقطة."<br><span class="font-bold block mt-2">✍️ كايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A3959</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 <div class="product-details">
-<section><h2 class="text-2xl font-bold mb-2">42dB ANC: منطقة السكوت الشخصية</h2>
-<p class="text-gray-700">الـ R50i NC بتستخدم <strong>إلغاء ضوضاء هجين نشط</strong> بمايكات داخلية وخارجية لتحقيق <strong>42dB عزل</strong>. بيشيل: محركات الطائرة، اهتزاز المترو، هرج الكافيهات، صوت التكييف. <strong>وضع الشفافية</strong> بيخليك تسمع الإعلانات بدون ما تشيل السماعة — ضروري لمستخدمي المترو.</p></section>
-<section><h2 class="text-2xl font-bold mb-2">4 مايك AI: مكالمات احترافية</h2>
-<p class="text-gray-700">4 مايكات بتقنية <strong>AI beamforming</strong> بتعزل صوتك من 360° ضوضاء. حتى كلاكسات الميكروباس أو الهوا على الكورنيش. مكالماتك بتبان كإنك في مكتب هادي بغض النظر فين أنت فعلاً.</p></section>
-<section><h2 class="text-2xl font-bold mb-2">علبة بحامل موبايل: عبقرية مخفية</h2>
-<p class="text-gray-700">علبة الشحن فيها <strong>حامل موبايل مدمج مخفي</strong>. افتحها، سند موبايلك، وعندك محطة فيديو كول فورية. أثناء استراحة الغدا، حوّل أي طاولة كافيه لمساحة عملك.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">العزل الهجين ووضع الشفافية</h2>
+<p class="text-gray-700">تنشر ساوندكور رقماً يصل إلى 42dB للموديل R50i NC ضمن ظروف اختبارها. يؤثر العزل عادة في الضوضاء المنخفضة الثابتة أكثر من الأصوات المفاجئة والعالية، كما يؤثر إحكام طرف الأذن. يمرر وضع الشفافية بعض صوت البيئة لكنه لا يغني عن خلع السماعة عندما يكون الانتباه للمحيط ضرورياً.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">معالجة المكالمات بأربعة مايكات</h2>
+<p class="text-gray-700">يستخدم الموديل أربعة مايكات ومعالجة تصفها الشركة لإبراز الكلام. تختلف النتيجة حسب الهوا والزحام ووضع المايك وجودة الشبكة والتطبيق. إذا كانت المكالمات أولوية فراجع عينات مسجلة في ظروف مشابهة لاستخدامك.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">علبة الشحن بحامل موبايل</h2>
+<p class="text-gray-700">تحتوي علبة الشحن على حامل قابل للفتح للمشاهدة دون الإمساك بالهاتف على سطح مستوٍ وثابت. تعتمد الملاءمة على أبعاد الهاتف وسمك الجراب والوضع والزاوية؛ أبعد العلبة عن الحواف ولا تعاملها كحامل دائم.</p></section>
 </div>
-<div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
+<div class="device-compatibility"><h3 class="font-bold mb-2">دليل توافق حسب المواصفات:</h3>
 <ul class="list-disc list-inside text-gray-700">
-<li>📱 <strong>ايفون 17 برو ماكس:</strong> 42dB ANC بيلغي صوت محركات الطائرة. كودك AAC HD.</li>
-<li>📱 <strong>سامسونج S26 الترا:</strong> بلوتوث 5.4، multipoint تبديل بين جهازين.</li>
-<li>💻 <strong>ماك بوك برو:</strong> 4 مايك AI beamforming لمكالمات Zoom/Teams احترافية.</li>
-<li>📱 <strong>جوجل بيكسل 9 برو:</strong> تطبيق ساوندكور كامل: مستويات ANC، EQ، شفافية.</li>
-<li>📱 <strong>ايباد برو M4:</strong> وضع جيمنج + علبة حامل موبايل لـ FaceTime.</li>
+<li>📱 <strong>ايفون وايباد:</strong> تحقق من كودكات البلوتوث وميزات التطبيق المدعومة لإصدار iOS الحالي.</li>
+<li>📱 <strong>هواتف أندرويد:</strong> راجع البلوتوث والكودك وتعدد الأجهزة ودعم التطبيق على الجهاز المحدد.</li>
+<li>💻 <strong>كمبيوتر:</strong> تعتمد جودة الميكروفون أيضاً على تطبيق الاجتماع وبروفايل الإدخال المختار.</li>
+<li>🎮 <strong>فيديو وألعاب:</strong> يتغير التأخير حسب الجهاز والتطبيق والوضع المستخدم.</li>
+<li>📱 <strong>تطبيق ساوندكور:</strong> قد تتغير الميزات حسب الفيرموير والمنطقة ونظام التشغيل.</li>
 </ul></div>
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">سماعات صيني كتير بتدّعي "ANC" بس بتوفر عزل سلبي بس (≤5dB). ANC الهجين الحقيقي زي R50i NC بيستخدم مايكات feedforward + feedback لإلغاء 42dB بشكل نشط. تأكد على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
+    <p class="text-gray-700">قبل الدفع، طابق الموديل A3959 ومواصفات البطارية وIP والبلوتوث المطبوعة ومحتويات العبوة مع الوحدة ووثائق ساوندكور الحالية. إذا وجد رقم تسلسلي أو ملصق تحقق فاتبع العملية الرسمية المطبوعة؛ لا يثبت السعر أو شكل العبوة أو كلمة ANC وحدها الأصالة. راجع <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">مرجع التحقق الرسمي من انكر</a>.</p>
 </div>
 `,
-                features: ["🔇 42dB ANC هجين", "🔋 45 ساعة إجمالي", "🎙️ 4 مايك AI", "📱 علبة حامل موبايل", "🎵 10mm BassUp™", "💧 IP54", "⚡ شحن 10 دقايق", "🔊 وضع شفافية", "🏆 ضمان 18 شهر"],
-                metaTitle: "سعر سماعة انكر R50i NC في مصر ⚡ خصم 16% | إلغاء ضوضاء 42dB",
-                metaDesc: "اشتري سماعة انكر R50i NC في مصر. 42dB إلغاء ضوضاء، 45 ساعة بطارية، 4 مايك AI، حامل موبايل. ✓ ضمان 18 شهر.",
+                features: ["🔇 عزل معلن من الشركة حتى 42dB", "🔋 راجع شروط اختبار البطارية المنشورة", "🎙️ معالجة مكالمات بأربعة مايكات", "📱 حامل قابل للفتح في العلبة", "🎵 درايفر 10mm وEQ عبر التطبيق", "💧 تحقق من نطاق وحدود IP54", "⚡ رقم شحن سريع معلن من الشركة", "🔊 وضع الشفافية", "🏆 راجع شروط ضمان كايرو فولت الحالية"],
+                metaTitle: "سماعة ساوندكور R50i NC A3959 | عزل وعلبة بحامل | مصر",
+                metaDesc: "تعرف على سماعة ساوندكور R50i NC A3959 في مصر. راجع مواصفات العزل والبطارية والمايكات وIP54 والعلبة والمخزون والضمان الحالي.",
                 faqs: [
-                    { question: "الـ 42dB ANC كويس قد إيه؟", answer: "فعّال بجد. اتاختبر في رحلات مصر للطيران ومترو القاهرة — صوت المحرك واهتزاز القضبان اختفوا. أداء قريب من ايربودز برو 2 بأقل من نص التمن." },
-                    { question: "إيه حكاية حامل الموبايل في العلبة؟", answer: "في غطا علبة الشحن حامل قابل للطي. افتحه، سند موبايلك عليه، وعندك زاوية مشاهدة مثالية لفيديو كول أو محتوى على أي سطح مستوي." },
-                    { question: "R50i NC ولا K20i — أشتري أنهي؟", answer: "محتاج ANC + جودة مكالمات → R50i NC. محتاج راحة طول اليوم + باس أكبر → K20i. R50i NC عندها 42dB ANC و 4 مايك. K20i عندها راحة نصف داخلية و 13mm." },
-                    { question: "البطارية بتعيش قد إيه مع ANC؟", answer: "7 ساعات بالشحنة مع ANC شغال، 10 ساعات بدون ANC. الإجمالي مع العلبة: 45 ساعة. شحن سريع: 10 دقايق = ساعتين." },
-                    { question: "الضمان بيغطي إيه؟", answer: "عطل موديول ANC، عيوب الدرايفر، تدهور البطارية، ومشاكل البلوتوث كلهم مغطيين لمدة 18 شهر. كايرو فولت بتعالج الاستبدال مباشرة في مصر." }
+                    { question: "رقم 42dB ANC معناه إيه؟", answer: "ساوندكور تعلن خفض ضوضاء حتى 42dB ضمن شروطها. النتيجة الفعلية تختلف حسب إحكام السماعة ونوع الضوضاء؛ استخدم مقاس طرف الأذن المناسب لأفضل عزل." },
+                    { question: "ما حامل الموبايل في العلبة؟", answer: "هو جزء قابل للفتح في علبة الشحن. استخدمه على سطح ثابت وتحقق من ملاءمة حجم الهاتف وسمك الجراب والوضع والزاوية." },
+                    { question: "R50i NC أم K20i — ماذا أقارن؟", answer: "قارن شكل الملاءمة والعزل المعلن وحجم الدرايفر والمايكات والكودكات والتطبيق وشروط اختبار البطارية. الراحة والصوت والمكالمات تختلف حسب المستخدم والبيئة." },
+                    { question: "ما مدة البطارية مع ANC؟", answer: "راجع أرقام ساوندكور الحالية لوضع ANC المفعّل والمتوقف ومستوى صوت الاختبار. تتغير المدة الفعلية حسب الصوت والمكالمات والكودك والحرارة وعمر البطارية والميزات." },
+                    { question: "ماذا يغطي الضمان؟", answer: "تخضع التغطية لشروط ضمان كايرو فولت الحالية واستثناءاته والأهلية وآلية المعالجة. راجع الضمان المكتوب وسياسة الاسترجاع قبل الطلب ولا تفترض تغطية كل تغير في الأداء." }
                 ]
             }
         },
-        meta: { keywords: "أنكر r50i nc, أنكر ساوندكور r50i nc, سماعة انكر r50i nc, سماعه انكر r50i nc, ايربودز انكر r50i nc, سعر انكر r50i nc, انكر r50i nc, سعر سماعة انكر r50i, ساوندكور r50i nc سعر, أنكر r50i nc سعر, أنكر ساوندكور r50i nc anc earbuds, سماعة انكر مصر, أنكر earbuds egypt, سماعة بلوتوث انكر, ساوندكور مصر, افضل سماعة لاسلكية 2026", mainTerm: "anker soundcore r50i nc anc earbuds" },
-        expertOpinion: { en: "The R50i NC delivers AirPods Pro 2-level ANC at half the price. 42dB blocks Cairo's noise. 4-mic AI calls are professional-grade. Phone stand case is genius. 45h battery = 10-day endurance. Best ANC value in Egypt.", ar: "الـ R50i NC بتوفر ANC بمستوى ايربودز برو 2 بنص السعر. 42dB بتمنع ضوضاء القاهرة. 4 مايك AI للمكالمات درجة احترافية. علبة حامل الموبايل عبقرية. 45 ساعة = 10 أيام." }
+        meta: { keywords: "انكر r50i nc, انكر ساوندكور r50i nc, سماعة انكر r50i nc, سماعه انكر r50i nc, ايربودز انكر r50i nc, سعر انكر r50i nc, انكر r50i nc, سعر سماعة انكر r50i, ساوندكور r50i nc سعر, انكر ساوندكور r50i nc anc earbuds, سماعة انكر مصر, انكر earbuds egypt, سماعة بلوتوث انكر, ساوندكور مصر", mainTerm: "anker soundcore r50i nc anc earbuds" },
+        expertOpinion: { en: "R50i NC combines manufacturer-listed hybrid ANC, four-microphone processing and a phone-stand case. Compare fit, app/codec support and battery test conditions; actual isolation, calls and runtime vary by user and environment.", ar: "تجمع R50i NC بين عزل هجين معلن ومعالجة بأربعة مايكات وعلبة بحامل. قارن الإحكام ودعم التطبيق والكودك وشروط اختبار البطارية؛ تختلف نتيجة العزل والمكالمات والمدة حسب المستخدم والبيئة." }
     };

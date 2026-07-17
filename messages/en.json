@@ -1,13 +1,13 @@
 {
     "HomePage": {
         "title": "Power Your World",
-        "subtitle": "The #1 Destination for Anker & Joyroom in Egypt",
+        "subtitle": "An online retailer specializing in Anker and Joyroom products in Egypt, with model details, prices, and written policies",
         "shopAnker": "Shop Anker",
         "shopJoyroom": "Shop Joyroom",
         "featuredCategories": "Featured Categories",
         "viewAll": "View All",
         "newArrivals": "New Arrivals",
-        "bestSellers": "Best Sellers",
+        "bestSellers": "Featured Products",
         "promotions": "Special Offers"
     },
     "Header": {
@@ -45,7 +45,7 @@
         "outOfStock": "Out of Stock",
         "quantity": "Quantity",
         "price": "Price",
-        "originalPrice": "Original Price",
+        "originalPrice": "Documented Previous Price",
         "discount": "Discount",
         "save": "Save",
         "freeShipping": "Free Shipping",
@@ -60,7 +60,7 @@
     },
     "Footer": {
         "aboutUs": "About Us",
-        "aboutDescription": "Cairo Volt is the authorized dealer for Anker and Joyroom products in Egypt. We offer the best mobile accessories at competitive prices with official warranty.",
+        "aboutDescription": "CairoVolt is an online retailer specializing in Anker and Joyroom products in Egypt, with clear prices and written CairoVolt warranty terms for eligible products.",
         "shopAnker": "Shop Anker",
         "shopJoyroom": "Shop Joyroom",
         "customerService": "Customer Service",
@@ -78,7 +78,7 @@
         "privacyPolicy": "Privacy Policy",
         "termsConditions": "Terms & Conditions",
         "paymentMethods": "Payment Methods",
-        "securePayment": "Secure Payment"
+        "securePayment": "Cash on Delivery"
     },
     "Cart": {
         "cart": "Shopping Cart",
@@ -129,7 +129,7 @@
         "priceHighToLow": "Price: High to Low",
         "priceLowToHigh": "Price: Low to High",
         "newest": "Newest",
-        "bestSelling": "Best Selling",
+        "bestSelling": "Featured Product",
         "viewMore": "View More",
         "showLess": "Show Less",
         "noResults": "No results found",
@@ -154,23 +154,23 @@
         "anker": "Anker",
         "joyroom": "Joyroom",
         "soundcore": "Soundcore",
-        "ankerDescription": "Original Anker products - Power banks, chargers, cables at the best prices in Egypt",
-        "joyroomDescription": "Joyroom products - Wireless earbuds, power banks, high-quality accessories",
+        "ankerDescription": "Anker power banks, chargers, and cables with model-specific specifications and the current listed price",
+        "joyroomDescription": "Joyroom earbuds, power banks, and accessories with model-specific specifications and the current listed price",
         "shopNow": "Shop Now",
         "viewAllProducts": "View All Products",
-        "officialDealer": "Official Dealer"
+        "officialDealer": "Specialist Retailer"
     },
     "Promo": {
-        "freeShipping": "Free shipping for orders over 3,700 EGP",
-        "fastDelivery": "Fast delivery 2-3 days",
-        "originalProducts": "100% Original Products",
-        "officialWarranty": "Official Warranty",
-        "securePayment": "Secure Payment",
-        "support247": "24/7 Support"
+        "freeShipping": "Free shipping for orders of 3,700 EGP or more",
+        "fastDelivery": "Address-based delivery estimate",
+        "originalProducts": "Clear Model Details",
+        "officialWarranty": "CairoVolt Warranty",
+        "securePayment": "Cash on Delivery",
+        "support247": "WhatsApp Support"
     },
     "PageMeta": {
-        "homeTitle": "Cairo Volt | Anker & Joyroom Mobile Accessories",
-        "homeDescription": "Shop the best mobile accessories from Anker and Joyroom in Egypt. Power banks, chargers, earbuds, cables at the best prices with official warranty.",
+        "homeTitle": "CairoVolt | Anker & Joyroom Mobile Accessories",
+        "homeDescription": "Shop Anker and Joyroom mobile accessories in Egypt, including power banks, chargers, earbuds, and cables, with clear prices and written CairoVolt warranty terms.",
         "ankerTitle": "Anker Egypt | Power Banks & Chargers",
         "joyroomTitle": "Joyroom Egypt | Earbuds & Power Banks"
     },
@@ -181,11 +181,11 @@
     },
     "Shipping": {
         "metaTitle": "Shipping & Delivery",
-        "metaDescription": "Free shipping on orders over 3,700 EGP. Fast delivery across Egypt in 1-5 days.",
+        "metaDescription": "Free shipping on eligible orders of 3,700 EGP or more, with an estimated delivery time commonly ranging from 1 to 5 business days by address and carrier.",
         "title": "Shipping & Delivery",
         "deliveryAreas": {
             "title": "Delivery Areas",
-            "description": "We deliver to all Egyptian governorates",
+            "description": "We serve eligible delivery addresses within Egypt; availability is confirmed with the order",
             "cairo": "Cairo",
             "giza": "Giza",
             "alexandria": "Alexandria",
@@ -201,17 +201,17 @@
         },
         "shippingCost": {
             "title": "Shipping Cost",
-            "freeShipping": "🎉 Free shipping for orders over 3,700 EGP!",
+            "freeShipping": "🎉 Free shipping for orders of 3,700 EGP or more!",
             "belowMinimum": "Orders under 3,700 EGP: 70-130 EGP depending on governorate"
         },
         "cod": {
             "title": "Cash on Delivery",
-            "description": "Pay when you receive your order. Cash on delivery is available for all areas in Egypt."
+            "description": "Pay when you receive your order. Cash-on-delivery eligibility for the address and order is shown before confirmation."
         }
     },
     "Warranty": {
         "metaTitle": "Warranty Policy",
-        "metaDescription": "Official warranty up to 24 months for Anker and Joyroom products. Learn about our warranty coverage.",
+        "metaDescription": "Eligible products carry a written CairoVolt store warranty: 18 months for Anker and Soundcore and 12 months for Joyroom unless the product page states otherwise.",
         "title": "Warranty Policy",
         "period": {
             "title": "Warranty Period",
@@ -223,9 +223,9 @@
         "covered": {
             "title": "What's Covered",
             "manufacturing": "Manufacturing defects",
-            "battery": "Battery performance issues",
-            "charging": "Charging or power issues",
-            "ports": "Port and connector defects"
+            "battery": "Manufacturing faults affecting battery performance under the product terms",
+            "charging": "Charging or power faults caused by a manufacturing defect",
+            "ports": "Manufacturing defects in ports or connectors"
         },
         "notCovered": {
             "title": "What's Not Covered",
@@ -239,7 +239,7 @@
             "step1": "Contact us via WhatsApp with your order number",
             "step2": "Describe the issue with photos/videos",
             "step3": "We'll arrange pickup or drop-off",
-            "step4": "Receive replacement or repair within 7 days"
+            "step4": "Receive the inspection result and available remedy under the warranty terms"
         }
     },
     "FAQ": {
@@ -256,23 +256,23 @@
                 "q1": "How do I place an order?",
                 "a1": "Simply browse our products, add items to cart, and checkout. You can pay on delivery.",
                 "q2": "Can I modify my order after placing it?",
-                "a2": "Contact us within 1 hour of placing your order and we can make changes.",
+                "a2": "Contact us as soon as possible; whether an order can be changed depends on its packing and shipping status.",
                 "q3": "Is there a minimum order amount?",
                 "a3": "No minimum order. However, orders under 3,700 EGP have a 70-130 EGP shipping fee depending on governorate."
             },
             "shipping": {
                 "title": "Shipping",
                 "q1": "How long does delivery take?",
-                "a1": "1-2 days for Cairo/Giza, 3-5 days for other governorates.",
+                "a1": "The estimate is commonly 1-2 business days for Cairo and Giza and 3-5 business days for other eligible addresses, but it can vary by address and carrier.",
                 "q2": "Can I track my order?",
-                "a2": "Yes! You'll receive a tracking link via WhatsApp once your order ships.",
+                "a2": "We send tracking information by WhatsApp after dispatch when the carrier provides a tracking link.",
                 "q3": "Do you deliver to my area?",
-                "a3": "We deliver to all Egyptian governorates."
+                "a3": "We serve eligible addresses within Egypt. Our team confirms delivery availability and cost before the order is finalized."
             },
             "warranty": {
                 "title": "Warranty",
                 "q1": "How long is the warranty?",
-                "a1": "18 months for Anker products, 12 months for Joyroom products.",
+                "a1": "Eligible Anker and Soundcore products carry an 18-month CairoVolt store warranty, while eligible Joyroom products carry 12 months unless a specific product page states otherwise. The product page and order confirmation record the terms applicable at purchase.",
                 "q2": "How do I claim warranty?",
                 "a2": "Contact us on WhatsApp with your order number and describe the issue.",
                 "q3": "Is the warranty transferable?",
@@ -281,9 +281,9 @@
             "products": {
                 "title": "Products",
                 "q1": "Are these original products?",
-                "a1": "Yes! We are an authorized dealer for Anker and Joyroom in Egypt.",
+                "a1": "We sell each item under the brand and model identified on its product page, with the available images and specifications. A CairoVolt warranty record is not a manufacturer authenticity certificate; match the model and packaging on receipt and use the written return policy if anything differs.",
                 "q2": "What's the difference between Anker and Joyroom?",
-                "a2": "Anker is premium with longer warranty. Joyroom offers great value at lower prices.",
+                "a2": "Power, ports, compatibility, price, and warranty vary by model. Compare the actual product details rather than relying on the brand name alone.",
                 "q3": "Can I get product advice?",
                 "a3": "Absolutely! Contact us on WhatsApp and we'll help you choose the right product."
             },
@@ -294,46 +294,46 @@
                 "q2": "Can I pay by card?",
                 "a2": "Currently we only accept Cash on Delivery.",
                 "q3": "Is payment secure?",
-                "a3": "Yes! You only pay when you receive and inspect your order."
+                "a3": "Cash on delivery is the current payment method. Review the order summary, price, and shipping cost before confirmation, and the return policy if an issue appears after receipt."
             }
         },
         "smartCategoryFAQs": {
             "powerBanks": [
                 {
                     "q": "Is this power bank allowed on airplanes?",
-                    "a": "Yes, all Anker and Joyroom power banks under 27,000mAh are allowed in carry-on luggage on flights."
+                    "a": "Acceptance depends on the watt-hour (Wh) rating and the airline and route rules. Portable batteries are commonly carried in cabin baggage, but confirm with the airline before travel."
                 },
                 {
                     "q": "Does it support fast charging for iPhone?",
-                    "a": "Yes, it supports PD technology that charges an iPhone to 50% in just 30 minutes."
+                    "a": "Fast charging works only when the power-bank model, device, and cable support the required protocol, such as USB-C PD. Actual speed varies by device, temperature, and battery level."
                 },
                 {
                     "q": "How many times can it charge my phone?",
-                    "a": "A 10,000mAh model charges an iPhone 2-3 times approximately. A 20,000mAh model charges it 4-5 times."
+                    "a": "Charge count is an estimate affected by phone battery size, conversion losses, and use while charging. Compare watt-hours (Wh) and review the estimate for the specific model."
                 }
             ],
             "audio": [
                 {
                     "q": "Do they work with both iPhone and Android?",
-                    "a": "Yes, fully compatible with all iOS and Android phones via Bluetooth."
+                    "a": "Models using standard Bluetooth work with devices that support it, while app features, codecs, and multipoint support vary by model and phone operating system."
                 },
                 {
                     "q": "Are they suitable for sports (sweat-resistant)?",
-                    "a": "Yes, they come with IPX water and sweat resistance rating, making them ideal for the gym and workouts."
+                    "a": "Check the specific model's IP rating and manufacturer limits. Not every earbud model is water resistant, and an IP rating does not necessarily make it suitable for swimming."
                 },
                 {
                     "q": "Do they have noise cancellation?",
-                    "a": "Yes, they support Active Noise Cancellation (ANC) to block external sounds clearly."
+                    "a": "ANC is available only on selected models. Check the product page; actual performance varies with fit and the type of surrounding noise."
                 }
             ],
             "wallChargers": [
                 {
                     "q": "Does fast charging damage the battery?",
-                    "a": "No, Anker chargers use a smart GaN chip that regulates temperature and preserves battery health."
+                    "a": "The device manages charging current when a compatible charger and cable are used, but heat, use, and battery age still matter. Choose the correct power and protocol and do not use damaged accessories."
                 },
                 {
                     "q": "What's the difference between 20W and 30W?",
-                    "a": "20W is suitable for most iPhones. 30W is better for faster charging on Pro Max models and iPads."
+                    "a": "The choice depends on the maximum power and protocol supported by the device. A higher-rated charger does not guarantee higher speed when the device or cable cannot use it."
                 },
                 {
                     "q": "Does it come with a cable?",
@@ -343,132 +343,136 @@
             "cables": [
                 {
                     "q": "Is the cable Apple MFi certified?",
-                    "a": "Yes, Anker cables are officially Apple MFi certified for complete phone safety and no error messages."
+                    "a": "MFi certification depends on the cable model and connector. Check the model, packaging, and manufacturer or Apple certification records when MFi status is required."
                 },
                 {
                     "q": "How long is the cable warranty?",
-                    "a": "It comes with an 18-month warranty against manufacturing defects and breakage."
+                    "a": "The CairoVolt warranty duration and scope appear on the cable page. Eligible defects are handled under the written terms; ordinary wear or bending damage is not covered unless the terms say otherwise."
                 }
             ]
         }
     },
     "About": {
         "metaTitle": "About Us",
-        "metaDescription": "Cairo Volt is Egypt's trusted destination for Anker and Joyroom mobile accessories.",
-        "title": "About Cairo Volt",
-        "subtitle": "Your trusted destination for premium mobile accessories in Egypt",
+        "metaDescription": "CairoVolt is an online retailer of Anker and Joyroom mobile accessories in Egypt, with clear prices and written policies.",
+        "title": "About CairoVolt",
+        "subtitle": "An online mobile-accessories retailer with clear purchase information and written policies in Egypt",
         "mission": {
             "title": "Our Mission",
-            "description": "We're committed to bringing the best mobile accessories to Egypt at competitive prices with excellent customer service and official warranty support."
+            "description": "We aim to state the brand, model, specifications, price, and availability clearly, with customer support and written CairoVolt warranty terms for eligible products."
+        },
+        "relationship": {
+            "title": "Our Relationship With Brands",
+            "description": "CairoVolt is an independent online retailer in Egypt. We do not claim to be the official agent or authorized distributor of Anker, Soundcore, or Joyroom, and the CairoVolt warranty is not a manufacturer warranty, unless a specific product page expressly says otherwise and provides verifiable documentation. Brand names and logos belong to their owners and are used to identify products offered for sale."
         },
         "whyUs": {
             "title": "Why Choose Us",
             "original": {
-                "title": "100% Original Products",
-                "description": "Authorized dealer for Anker and Joyroom brands"
+                "title": "Clear Product Details",
+                "description": "Brand, model, specifications, and price are shown before purchase"
             },
             "warranty": {
-                "title": "Official Warranty",
-                "description": "Up to 18 months warranty on all products"
+                "title": "CairoVolt Warranty",
+                "description": "Duration and coverage are stated on each eligible product page"
             },
             "prices": {
-                "title": "Best Prices",
-                "description": "Competitive prices with no hidden fees"
+                "title": "Clear Prices",
+                "description": "The EGP price and shipping cost are shown before order confirmation"
             },
             "support": {
-                "title": "24/7 Support",
-                "description": "Always here to help via WhatsApp"
+                "title": "WhatsApp Support",
+                "description": "Support via WhatsApp during working hours"
             }
         },
         "brands": {
             "title": "Our Brands",
-            "anker": "The #1 charging brand globally. Premium power banks, chargers, and cables.",
-            "joyroom": "Innovative accessories at great value. Earbuds, power banks, and more."
+            "anker": "Charging products including power banks, chargers, and cables across several models.",
+            "joyroom": "Accessories across earbuds, power banks, cables, and car-product categories."
         },
         "stats": {
-            "customers": "Happy Customers",
-            "products": "Products",
-            "warranty": "Months Warranty",
-            "support": "Support"
+            "customers": "Customer Service",
+            "products": "Product Catalogue",
+            "warranty": "Warranty Terms",
+            "support": "WhatsApp Support"
         }
     },
     "Team": {
-        "metaTitle": "Tech Experts We Recommend Following | CairoVolt",
-        "metaDescription": "A curated list of the top independent Arab tech creators we follow and trust for charger, power bank, and accessory reviews. Independent creators, not affiliated with CairoVolt.",
-        "title": "Tech Experts We Recommend",
-        "subtitle": "Independent Charging & Audio Accessory Reviewers in the Arab World",
-        "heroDescription": "Independent Arab tech creators we personally follow and trust for honest charger, power bank, and accessory reviews. These creators are not CairoVolt staff and do not write our content.",
-        "expertise": "Areas of Expertise",
+        "metaTitle": "Independent Tech Creators to Explore | CairoVolt",
+        "metaDescription": "Reference links to independent tech creators covering chargers, power banks, and accessories. They do not work for CairoVolt, and inclusion does not imply partnership or endorsement.",
+        "title": "Independent Tech Creators to Explore",
+        "subtitle": "External sources independent from CairoVolt in charging and audio",
+        "heroDescription": "This page collects links to independent tech creators whose reviews may help with comparison. They do not work for CairoVolt or write this site's content, and inclusion does not imply a partnership or mutual endorsement.",
+        "expertise": "Channel Topics",
         "followOn": "Follow on",
-        "ourTeam": "Creators We Recommend",
+        "ourTeam": "External Technology Channels",
         "methodology": {
             "title": "Editorial & Review Methodology",
-            "description": "Every piece of content on CairoVolt goes through a rigorous process ensuring accuracy and transparency.",
+            "description": "CairoVolt content is reviewed through editorial steps intended to clarify sources and distinguish specifications from estimates.",
             "steps": {
                 "testing": {
-                    "title": "Real-World Testing",
-                    "description": "Every product is tested with professional measuring equipment under real Egyptian conditions (heat, power grid, daily usage)."
+                    "title": "Product Specification Research",
+                    "description": "We review model identifiers, published specifications, and compatibility requirements before publication."
                 },
                 "review": {
-                    "title": "Independent Review",
-                    "description": "Reviewers purchase products themselves or test them completely independently from manufacturers."
+                    "title": "Editorial Review",
+                    "description": "Manufacturer specifications, calculated estimates, and buying guidance are clearly distinguished."
                 },
                 "verification": {
-                    "title": "Data Verification",
-                    "description": "Every number and specification mentioned in articles is based on actual measurements, not copied from manufacturer specs."
+                    "title": "Data Checks",
+                    "description": "Details are checked against product documentation, labels, or manufacturer pages when available."
                 },
                 "update": {
-                    "title": "Continuous Updates",
-                    "description": "Articles are regularly updated to reflect the latest prices and availability in the Egyptian market."
+                    "title": "Periodic Updates",
+                    "description": "Content is updated when specifications, pricing, or known availability changes."
                 }
             }
         }
     },
     "Privacy": {
         "metaTitle": "Privacy Policy",
-        "metaDescription": "Learn how Cairo Volt protects your personal information and privacy.",
+        "metaDescription": "Learn how CairoVolt handles and protects your personal information and privacy.",
         "title": "Privacy Policy",
-        "lastUpdated": "Last updated: January 2026",
+        "lastUpdated": "Last updated: July 2026",
         "sections": {
             "collection": {
                 "title": "Information We Collect",
-                "content": "We collect information you provide when placing orders:\n• Name and contact information\n• Shipping address\n• Phone number\n• Order history"
+                "content": "We collect information you provide when placing an order, including:\n• Name, phone number, and contact details\n• Shipping address and governorate\n• Products, quantities, order value, and order history\n• Support messages or warranty claims you send us\nTechnical data is also collected when you use the site, such as IP address, browser and device type, viewed pages, interaction events, and cookie or advertising identifiers where enabled."
             },
             "usage": {
                 "title": "How We Use Your Information",
-                "content": "Your information is used to:\n• Process and deliver your orders\n• Send order updates via WhatsApp\n• Improve our services\n• Handle warranty claims"
+                "content": "We use information to:\n• Record an order, validate its price and availability, process it, and arrange delivery\n• Send order updates and provide support by WhatsApp, phone, or email\n• Operate customer service and manage orders in internal business systems\n• Measure site and campaign performance and improve usability\n• Prevent abuse and protect the site and orders\n• Handle returns, warranty requests, and applicable legal obligations"
             },
             "sharing": {
                 "title": "Information Sharing",
-                "content": "We only share your information with:\n• Shipping companies (for delivery)\n• Payment processors (if applicable)\nWe never sell your personal data to third parties."
+                "content": "We share the minimum data needed for each purpose with:\n• Shipping companies to fulfil an order and communicate about delivery\n• Payment processors if online payment is added\n• Hosting, security, order-management, and customer-service providers, including CRM systems and Google Sheets used for operations\n• Google Analytics and Google Ads to measure visits and campaigns\n• TikTok Pixel and TikTok Events API to measure site and campaign events; technical data can include IP address and browser type, and a phone number used for advertising matching is sent as a SHA-256 hash rather than visible text\n• Authorities where disclosure is legally required\nWe do not sell personal data for money. Service providers may process it only under their services and terms for the stated operational or measurement purposes."
             },
             "security": {
                 "title": "Data Security",
                 "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, or destruction."
             },
             "cookies": {
-                "title": "Cookies",
-                "content": "Our website uses cookies to enhance your browsing experience and remember your preferences. You can disable cookies in your browser settings."
+                "title": "Cookies and Measurement Tools",
+                "content": "The site uses local storage, cookies, and similar technologies to operate the cart, remember preferences, and measure visits and campaigns through Google and TikTok. You can delete or block cookies in your browser and use Google and TikTok advertising-personalization settings. Blocking necessary storage may prevent the cart or some features from working."
             },
             "rights": {
                 "title": "Your Rights",
-                "content": "You have the right to:\n• Access your personal data\n• Request correction of inaccurate data\n• Request deletion of your data\n• Opt out of marketing communications"
+                "content": "You may request to:\n• Access personal data we hold about you\n• Correct inaccurate data\n• Delete data where a legal, accounting, or active-dispute obligation does not require retention\n• Stop marketing communications\n• Object to advertising measurement where applicable\nWe will request enough information to verify the requester before acting on a data-rights request."
             },
             "contact": {
                 "title": "Contact Us",
-                "content": "For privacy-related questions, contact us via WhatsApp or email. We're committed to addressing your concerns promptly."
+                "content": "For privacy questions or requests, email support@cairovolt.com or contact 01558245974 on WhatsApp and state that the request concerns privacy. We will acknowledge the request and ask for enough information to verify the data subject before acting."
             }
         }
     },
     "Terms": {
         "metaTitle": "Terms & Conditions",
-        "metaDescription": "Read the terms and conditions for shopping at Cairo Volt.",
+        "metaDescription": "Read the terms and conditions for shopping at CairoVolt.",
         "title": "Terms & Conditions",
-        "lastUpdated": "Last updated: January 2026",
+        "lastUpdated": "Last updated: July 2026",
         "sections": {
             "acceptance": {
                 "title": "Acceptance of Terms",
-                "content": "By placing an order on Cairo Volt, you agree to these terms and conditions. Please read them carefully before making a purchase."
+                "content": "By placing an order on CairoVolt, you agree to these terms and conditions. Please read them carefully before making a purchase."
             },
             "orders": {
                 "title": "Orders",
@@ -476,23 +480,23 @@
             },
             "pricing": {
                 "title": "Pricing",
-                "content": "All prices are displayed in Egyptian Pounds and include applicable taxes. Prices may change without notice, but confirmed orders will be honored at the quoted price."
+                "content": "Product prices are displayed in Egyptian Pounds. Shipping and the final order total are shown before confirmation. Prices may change before confirmation; a confirmed order keeps the price and total recorded in its confirmation unless there is an obvious display error that we contact you about before fulfilment."
             },
             "shipping": {
                 "title": "Shipping & Delivery",
-                "content": "• Delivery times are estimates, not guarantees\n• Free shipping for orders over 3,700 EGP\n• Cash on Delivery is available\n• Risk of loss transfers upon delivery"
+                "content": "• Delivery times are estimates, not guarantees\n• Free shipping for orders of 3,700 EGP or more\n• Cash on Delivery is available for eligible orders and addresses\n• Risk of loss transfers upon delivery"
             },
             "returns": {
                 "title": "Returns & Exchanges",
-                "content": "• Products can be returned within 14 days if unused and in original packaging\n• Defective products are covered under warranty\n• Return shipping costs may apply\n• Refunds processed within 7 business days"
+                "content": "• Eligible products may be requested for return within 14 days if unused and in original packaging\n• Eligible defects are reviewed under the return policy or the product's written warranty\n• Return shipping costs may apply\n• Refunds are commonly processed within 5-7 business days after the product is received and inspected"
             },
             "warranty": {
                 "title": "Product Warranty",
-                "content": "All products carry manufacturer warranty:\n• Anker products: 18 months\n• Joyroom products: 12 months\nWarranty covers manufacturing defects only."
+                "content": "Eligible products include a written CairoVolt warranty. Duration and coverage vary by model and are stated on the product page and in the warranty policy. CairoVolt warranty is not a manufacturer-issued warranty unless that relationship is expressly stated with verifiable documentation."
             },
             "liability": {
                 "title": "Limitation of Liability",
-                "content": "Cairo Volt is not liable for indirect, incidental, or consequential damages. Our liability is limited to the purchase price of the product."
+                "content": "CairoVolt is not liable for indirect, incidental, or consequential damages. Our liability is limited to the purchase price of the product."
             },
             "changes": {
                 "title": "Changes to Terms",
@@ -502,9 +506,9 @@
     },
     "ReturnPolicy": {
         "metaTitle": "Return & Refund Policy",
-        "metaDescription": "Return products within 14 days in original condition. Full refund processed in 5-7 business days. Hassle-free returns at Cairo Volt Egypt.",
+        "metaDescription": "Review CairoVolt's 14-day return eligibility, inspection, refund steps, and return-shipping terms for purchases in Egypt.",
         "title": "Return & Refund Policy",
-        "lastUpdated": "Last updated: February 2026",
+        "lastUpdated": "Last updated: July 2026",
         "window": {
             "title": "Return Window",
             "days": "Days Return Period",
@@ -527,7 +531,7 @@
         "howToReturn": {
             "title": "How to Return",
             "step1": "Contact us via WhatsApp (01558245974) with your order number and reason for return",
-            "step2": "Our team will review your request and confirm eligibility within 24 hours",
+            "step2": "Our team reviews the request and documents, then confirms eligibility and the next step",
             "step3": "Ship the product back or we'll arrange a pickup (Cairo & Giza)",
             "step4": "Refund is processed once the product is received and inspected"
         },
@@ -542,9 +546,9 @@
         "defective": {
             "title": "Defective Products",
             "description": "Received a defective or damaged product? We've got you covered:",
-            "freeReturn": "Free return shipping — we'll pick it up at no cost",
-            "fullRefund": "Full refund including original shipping fees, or replacement at your choice",
-            "warranty": "Defects after 14 days are covered under our warranty policy (up to 18 months)"
+            "freeReturn": "CairoVolt covers return shipping when a product defect or our order error is confirmed",
+            "fullRefund": "Refund or replacement follows the inspection result and the published policy terms",
+            "warranty": "After the return window, the case is reviewed under the product's written warranty duration and terms"
         },
         "contact": {
             "title": "Need Help with a Return?",

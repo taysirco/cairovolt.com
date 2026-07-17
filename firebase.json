@@ -1,15 +1,6 @@
 {
-    "_comment": "CairoVolt (cairovolt.com) — Firebase configuration",
-    "hosting": {
-        "source": ".",
-        "ignore": [
-            "firebase.json",
-            "**/.*",
-            "**/node_modules/**"
-        ]
-    },
-    "firestore": {
-        "database": "gadgets",
-        "indexes": "firestore.indexes.json"
-    }
+  "firestore": {
+    "database": "gadgets",
+    "indexes": "firestore.indexes.json"
+  }
 }

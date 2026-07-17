@@ -208,7 +208,7 @@ export function trackPurchase(
 // ═════════════════════════════════════════════════════════════════════════════
 
 /** Tracks WhatsApp link clicks. */
-export function trackWhatsappClick(context: 'header' | 'contact' | 'product' | 'promo' | 'confirm' | 'category'): void {
+export function trackWhatsappClick(context: 'header' | 'contact' | 'product' | 'confirm' | 'category'): void {
     dispatchEvent('generate_lead', {
         event_category: 'contact',
         event_label: `whatsapp_${context}`,
@@ -247,15 +247,6 @@ export function trackPrintInvoice(orderId: string): void {
         event_category: 'post_purchase',
         content_type: 'print_invoice',
         event_label: orderId,
-    });
-}
-
-/** Tracks promotional overlay interactions. */
-export function trackOverlayAction(action: 'shown' | 'clicked' | 'dismissed' | 'exit_attempt_mobile'): void {
-    dispatchEvent('select_content', {
-        event_category: 'ux',
-        content_type: 'promo_banner',
-        event_label: action,
     });
 }
 

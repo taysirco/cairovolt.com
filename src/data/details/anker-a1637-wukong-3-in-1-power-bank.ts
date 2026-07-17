@@ -2,23 +2,19 @@ import type { ProductDetail } from './_types';
 export const anker_a1637_wukong_3_in_1_power_bank_detail: ProductDetail = {
     aiTldr: {
   "en": [
-    "30W PD takes iPhone 17 from 0 to 54% in 30 minutes.",
+    "Up to 30W USB-C PD output for compatible phones, tablets and other mobile devices.",
     "3-in-1 6th-gen GaN: built-in cable, foldable AC plug, 30W port.",
-    "Lab-tested peak of just 41.8°C in a 34°C Cairo room.",
-    "Charges iPhone 17, Galaxy S26 Ultra, iPad Air and AirPods Pro 3.",
-    "✅ CairoVolt: EGP 2999, 18-month warranty, COD, next-day Cairo delivery."
+    "Combines a wall charger and 10,000mAh power bank; actual charging speed depends on device and operating mode."
   ],
   "ar": [
-    "30 واط PD بتوصّل آيفون 17 من 0 لـ 54% في 30 دقيقة.",
+    "خرج USB-C PD يصل إلى 30 واط للهواتف والتابلت والأجهزة المتوافقة.",
     "3 في 1 وGaN الجيل السادس: كابل مدمج وفيشة بتتطوى ومنفذ 30 واط.",
-    "أعلى حرارة في اختبارنا 41.8 درجة بس في أوضة 34 درجة.",
-    "بيشحن آيفون 17 وجالاكسي S26 ألترا وآيباد إير وآيربودز برو 3.",
-    "✅ CairoVolt: 2999 جنيه، ضمان 18 شهر، دفع عند الاستلام، توصيل تاني يوم."
+    "يجمع بين شاحن حائط وباور بانك 10000 مللي أمبير؛ وتعتمد سرعة الشحن الفعلية على الجهاز ووضع التشغيل."
   ]
 },
     localContext: {
-  "en": "Cairo's summer load-shedding cuts power for up to 2 hours a day, and that's exactly when you're stuck with a dead phone and no wall charger nearby. The A1637's foldable AC plug lets you pull 30W straight from any working 220V socket the moment power returns, while ActiveShield 2.0 holds the cells at a safe 41.8°C through the post-blackout voltage surge.",
-  "ar": "في صيف القاهرة تخفيف الأحمال بيقطع الكهربا لحد ساعتين في اليوم، وده بالظبط الوقت اللي بتلاقي فيه موبايلك فاصل ومفيش شاحن حيط قريب. فيشة الـA1637 اللي بتتطوى بتخلّيك تسحب 30 واط على طول من أي بريزة 220 فولت شغّالة أول ما الكهربا ترجع، وActiveShield 2.0 بيثبّت الخلايا على 41.8 درجة آمنة أثناء ارتفاع الفولت المفاجئ بعد الكهربا ما تقطع."
+  "en": "The hybrid format is useful when you want one device to work as a wall charger near an outlet and as a power bank away from it. The battery can continue supplying compatible USB devices after the unit is unplugged, but runtime and delivered power vary with the load, remaining charge and selected port. ActiveShield 2.0 is a manufacturer-described safeguard; do not connect the unit to damaged outlets or assume it replaces external mains protection.",
+  "ar": "يفيد التصميم الهجين عند الحاجة إلى جهاز يعمل كشاحن حائط بجوار البريزة وكباور بانك بعيداً عنها. يمكن للبطارية مواصلة تغذية أجهزة USB المتوافقة بعد فصل الوحدة من الكهرباء، لكن مدة التشغيل والقدرة الفعلية تختلفان حسب الحمل والشحن المتبقي والمنفذ المستخدم. ActiveShield 2.0 ميزة حماية تصفها انكر؛ ولا ينبغي توصيل الوحدة ببريزة تالفة أو اعتبارها بديلاً عن حماية مصدر الكهرباء."
 },
     specifications: {
   "Product Type": {
@@ -50,19 +46,8 @@ export const anker_a1637_wukong_3_in_1_power_bank_detail: ProductDetail = {
     "ar": "250 جرام"
   },
   "Safety": {
-    "en": "National 3C certified, auto-reset over-drain protection, temperature & short-circuit protection",
-    "ar": "شهادة 3C، حماية auto-reset ضد التفريغ الزائد، حماية حرارة وقصر الدائرة"
+    "en": "Manufacturer-listed auto-reset, temperature and short-circuit protections; verify any 3C marking on the delivered unit",
+    "ar": "وظائف auto-reset وحماية الحرارة وقصر الدائرة كما تذكرها انكر؛ ويُراجع أي وسم 3C على الوحدة المستلمة"
   }
 },
-    labVerified: {
-        result: {
-  "en": "Delivered 9,820mAh usable (88% of rated capacity) and fully charged an iPhone 17 twice from a single cycle.",
-  "ar": "سلّم 9,820 مللي أمبير فعلية (88% من السعة المكتوبة) وشحن آيفون 17 مرتين كاملين من دورة واحدة."
-},
-        conditions: {
-  "en": "CairoVolt Lab, Nasr City, March 2026 — Charger Lab KM003C, 34°C ambient.",
-  "ar": "معمل كايرو فولت، مدينة نصر، مارس 2026 — جهاز Charger Lab KM003C، حرارة محيطة 34 درجة."
-},
-        expertName: 'Eng. Ahmed Medhat'
-    }
 };

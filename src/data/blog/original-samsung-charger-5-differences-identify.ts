@@ -25,35 +25,37 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
         ar: {
             title: '5 فروق تكشف شاحن سامسونج المقلّد في المحل قبل ما تدفع',
             metaTitle: '5 فروق تكشف شاحن سامسونج المقلّد قبل ما تشتريه',
-            metaDescription: 'إزاي تفرّق بين شاحن سامسونج الأصلي والمقلّد في المحل؟ 5 اختبارات سريعة بالعين والإيد — من وزن العلبة لنوع الخط لرائحة البلاستيك — تكشف التقليد فوراً.',
-            excerpt: '5 اختبارات سريعة تعملها في المحل قبل ما تدفع — من وزن العلبة لنوع الخط لرائحة البلاستيك — تكشف شاحن سامسونج المقلّد فوراً.',
-            quickAnswer: 'الفرق بين شاحن سامسونج الأصلي والتقليد بيبان في 5 حاجات: (1) وزن الشاحن — الأصلي 52g والتقليد 35-40g عشان مفيهوش مكثفات كافية، (2) خط الطباعة على العلبة — الأصلي حاد والتقليد باهت أو مائل، (3) ملمس البلاستيك — الأصلي مطفي ناعم والتقليد لامع رخيص، (4) رائحة البلاستيك — التقليد ليه ريحة كيماوية واضحة، (5) باركود التحقق — الأصلي بيشتغل على موقع Samsung الرسمي.',
+            metaDescription: 'تحقق من شاحن سامسونج عبر رقم الموديل والبائع والفاتورة والعبوة، واستخدم الوزن والطباعة والرائحة والباركود كقرائن لا كإثبات منفرد.',
+            excerpt: 'خطوات تحقق من شاحن سامسونج قبل الدفع: الموديل والبائع والفاتورة والعبوة، مع فحص بصري مساعد.',
+            quickAnswer: 'لا يمكن إثبات أصالة شاحن سامسونج بخمسة اختبارات شكلية. طابق رقم الموديل والعبوة والفاتورة والمصدر مع بيانات Samsung، وافحص الطباعة والغلاف والموصل كعلامات مساعدة فقط. الوزن أو الرائحة أو الباركود وحدها لا تثبت الأصالة، والسعر المنخفض لا يثبت التقليد.',
             keywords: 'حل مشكلة هاتف سامسونج لا يشتغل ولا يقبل الشحن, سبب بطئ الشحن في السامسونج, شاحن سامسونج اصلي, ازاي اعرف شاحن سامسونج اصلي, الفرق بين شاحن سامسونج الاصلي والتقليد, شاحن سامسونج مقلد, شاحن سامسونج 25 واط اصلي, فحص شاحن سامسونج في المحل, علامات شاحن سامسونج مضروب',
             faq: [
                 {
                     question: 'إزاي أتأكد إن شاحن سامسونج أصلي وأنا لسه في المحل؟',
-                    answer: 'اعمل 3 حاجات سريعة: (1) امسك الشاحن — الأصلي 25W وزنه 52g تقريباً، لو حسيته خفيف أوي يبقى تقليد. (2) بص على الطباعة على ضهر الشاحن — الأصلي الخط واضح ومش بيتمسح، التقليد الخط باهت أو مائل. (3) شم البلاستيك — التقليد ليه ريحة كيماوية واضحة عشان البلاستيك رخيص. لو عدّى الـ 3 اختبارات دول، سكان الباركود على موقع Samsung الرسمي يأكدلك 100%.'
+                    answer: 'طابق رقم الموديل والعبوة والفاتورة والمصدر مع معلومات Samsung. افحص الطباعة والغلاف والموصل، لكن لا تعتمد على الوزن أو الرائحة أو مسح باركود كدليل نهائي؛ يمكن نسخ العبوات والأكواد.'
                 },
                 {
                     question: 'هل شاحن سامسونج التقليد ممكن يبوظ الموبايل؟',
-                    answer: 'أيوا — وده مش كلام تخويف. الشاحن التقليد مفيهوش دائرة حماية OVP (Over-Voltage Protection) ولا OCP (Over-Current Protection). في اختباراتنا، شاحن تقليد 25W طلع voltage ripple بيوصل 800mV — المفروض يكون أقل من 120mV. الـ ripple ده بيأثر على دائرة الشحن IC في الموبايل وممكن يقصّر عمر البطارية 40-60% في أول سنة. في أسوأ الحالات، ممكن يسبب انتفاخ البطارية.'
+                    answer: 'الشاحن غير المطابق للمواصفات قد يفتقر إلى حماية أو تنظيم مناسبين، لكن لا ننسب قياس ripple أو نسبة تدهور بطارية من دون اختبار منشور. توقف عن استخدام أي شاحن تالف أو شديد السخونة، واستخدم موديلًا موثق المواصفات ومتوافقاً مع الهاتف.'
                 },
                 {
                     question: 'سعر شاحن سامسونج 25W الأصلي كام في مصر؟',
-                    answer: 'شاحن سامسونج 25W الأصلي (EP-TA800) سعره في التوكيل الرسمي من 650 لـ 850 جنيه حسب العرض. لو لقيته بأقل من 400 جنيه — ده 99% تقليد. البديل الأفضل من حيث القيمة هو Anker PowerPort 25W — أصلي، بنفس القوة، بسعر أقل 30-40%، ومعاه ضمان 18 شهر من الوكيل المصري.'
+                    answer: 'السعر يتغير حسب البائع والتوافر؛ راجع السعر الحالي لموديل EP-TA800 لدى بائع يمكن التحقق منه، مع الفاتورة وسياسة الإرجاع. انخفاض السعر يستدعي التحقق لكنه لا يثبت التقليد. قارن أيضاً صفحة انكر PowerPort 25W وشروط ضمان كايرو فولت المكتوبة.'
                 },
                 {
                     question: 'هل فيه تطبيق أو موقع أتأكد منه إن الشاحن أصلي؟',
-                    answer: 'أيوا — Samsung عندها صفحة التحقق الرسمية على samsung.com/eg. تدخل الباركود أو الـ Serial Number من على العلبة أو من ضهر الشاحن نفسه. لو الرقم مش موجود في قاعدة بياناتهم = تقليد. بس خد بالك: بعض التقليد بيحط باركود أصلي مسروق من علب تانية — عشان كده لازم تجمع الـ 5 اختبارات مع بعض مش تعتمد على واحد بس.'
+                    answer: 'ابدأ بقنوات دعم Samsung الرسمية لمصر واسأل عن وسيلة التحقق الخاصة برقم الموديل أو التسلسل إن كانت متاحة. الباركود قد يعرّف المنتج أو الصفحة ولا يثبت الأصالة وحده؛ احتفظ بالفاتورة وراجع هوية البائع وسياسة الإرجاع.'
                 }
             ],
-            content: `<p>الموقف ده بيتكرر كل يوم في أي محل موبايلات في مصر: بتدخل تشتري شاحن سامسونج، البياع بيطلعلك واحد من الدرج ويقولك "أصلي يا باشا — شوف العلبة!" — والعلبة شكلها تمام فعلاً. بس المشكلة إن التقليد في 2026 بقى شكله حلو لدرجة إن حتى مهندس إلكترونيات ممكن يتلخبط لو مركزش. في محاضرات الـ Quality Control كنا بنقول: "الفرق بين المنتج الأصلي والمقلد مش في الشكل — في الـ internals اللي مش بتتشاف." بس أنا هعلّمك 5 حاجات تشوفها من بره — من غير ما تفتح الشاحن — تكشفلك التقليد وإنت لسه واقف في المحل.</p>
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p>
 
-<p>في المقال ده هتعرف: (1) اختبار الوزن اللي بيكشف 80% من التقليد، (2) علامات الطباعة اللي التقليد مش بيعرف يقلّدها، (3) ملمس البلاستيك اللي بيفضحه، (4) اختبار الرائحة السريع، (5) التحقق بالباركود الرسمي.</p>
+<p>قد تبدو عبوة الشاحن والطباعة مقنعة، لكن الشكل وحده لا يثبت الأصالة. هذا الدليل يحول العلامات الخمس إلى فحوص مساعدة، ويعطي الأولوية لرقم الموديل وبيانات Samsung وهوية البائع والفاتورة وسياسة الإرجاع.</p>
+
+<p>في المقال ده هتعرف: (1) كيف تستخدم الوزن كمقارنة لنفس رقم الموديل، (2) فحص الطباعة، (3) سلامة البلاستيك، (4) التعامل مع الرائحة غير الطبيعية، (5) حدود الباركود وضرورة الفاتورة والمصدر.</p>
 
 <h2>الفرق #1: الوزن — الميزان مش بيكدب</h2>
 
-<p>دي أسهل وأسرع طريقة — ومع ذلك 90% من الناس مش بتعملها. شاحن سامسونج 25W الأصلي (EP-TA800) وزنه <strong>52 جرام</strong> بالظبط. التقليد وزنه <strong>35-42 جرام</strong>. الفرق ده مش صدفة — ده عشان الشاحن الأصلي جواه:</p>
+<p>الوزن قد يساعد فقط عند مقارنة نفس رقم الموديل بمواصفة منشورة أو عينة موثقة، وبميزان مناسب. اختلاف الوزن لا يثبت وحده أن الشاحن مقلّد، لأن الإصدارات والأسواق والتغليف قد تختلف.</p>
 
 <ul>
 <li><strong>محوّل ترانسفورمر</strong> بقلب فيرايت حقيقي — التقليد بيستخدم قلب أصغر أو أرخص</li>
@@ -61,11 +63,11 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 <li><strong>دائرة حماية كاملة</strong> (OVP + OCP + OTP + SCP) — التقليد بيشيل معظمها</li>
 </ul>
 
-<p>الطريقة العملية: روح المحل ومعاك موبايلك. افتح تطبيق الميزان الرقمي أو حتى حط الشاحن في إيدك وقارنه بشاحنك القديم اللي عارف إنه أصلي. لو حسيت بفرق واضح في الخفة — سيب الشاحن ده وامشي.</p>
+<p>الطريقة العملية: تحقق من رقم الموديل أولاً، ثم استخدم ميزاناً فعلياً إذا نشرت Samsung وزناً لهذا الإصدار. الإحساس باليد أو تطبيق الهاتف ليس أداة وزن موثوقة.</p>
 
 <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 18px; border-radius: 12px; border-right: 4px solid #f59e0b; margin: 20px 0;">
 <p style="margin: 0; color: #92400e; font-weight: 600;">⚖️ أرقام الوزن المرجعية:</p>
-<p style="margin: 8px 0 0 0; color: #78350f;">Samsung 25W (EP-TA800): 52g · Samsung 45W (EP-TA845): 92g · Samsung 15W (EP-TA200): 38g — لو الشاحن أخف من الأرقام دي بأكتر من 5g = مشبوه.</p>
+<p style="margin: 8px 0 0 0; color: #78350f;">راجع صفحة الدعم أو العبوة لنفس رقم الموديل والسوق؛ لا تنقل وزناً من إصدار إلى آخر، ولا تعتبر فرق 5g حكماً نهائياً على الأصالة.</p>
 </div>
 
 <h2>الفرق #2: جودة الطباعة — التفاصيل الصغيرة بتفضح الكبيرة</h2>
@@ -95,13 +97,13 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 
 <h2>الفرق #4: رائحة البلاستيك — أنفك أصدق من عينك</h2>
 
-<p>ده الاختبار اللي بيضحك الناس لما بقولهم عليه — بس هو أدق اختبار ممكن تعمله في المحل. الشاحن الأصلي <strong>ملوش ريحة تقريباً</strong> — البلاستيك المستخدم بيكون food-grade PC/ABS متعالج حرارياً (post-cured). التقليد بيستخدم بلاستيك معاد تدويره أو grade منخفض — وده ليه <strong>ريحة كيماوية واضحة</strong> شبه ريحة لعبة بلاستيك جديدة رخيصة.</p>
+<p>الرائحة الحادة أو آثار الانصهار علامة توقف عن الاستخدام، لكنها لا تثبت مادة البلاستيك أو أصالة المنتج. لا نفترض أن الغلاف food-grade أو معالج بطريقة محددة من دون وثيقة للموديل.</p>
 
 <p>الطريقة: افتح العلبة، طلّع الشاحن، قرّبه من أنفك. لو حسيت بريحة كيماوية حادة — حتى لو خفيفة — ده مؤشر قوي على بلاستيك رخيص. والبلاستيك الرخيص مش بس ريحته وحشة — كمان بيسيح في الحرارة العالية. شاحن بيشحن 25W بيوصل داخلياً لـ 60-70°م — لو البلاستيك مش متحمّل، ممكن يحصل تشوّه أو حتى ذوبان في أسوأ الحالات.</p>
 
 <h2>الفرق #5: باركود التحقق — الاختبار النهائي</h2>
 
-<p>Samsung بتحط <strong>QR code أو باركود</strong> على كل علبة شاحن أصلي. الباركود ده بيتربط بقاعدة بيانات Samsung العالمية. للتحقق:</p>
+<p>قد تحتوي العبوة على QR أو باركود للتعريف بالموديل أو معلومات السوق، لكن وجوده أو عمل الرابط لا يثبت الأصالة وحده. للتحقق:</p>
 
 <ol>
 <li>امسح الـ QR code بكاميرا موبايلك</li>
@@ -110,7 +112,7 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 <li>لو الرابط مش شغال أو بيوديك لموقع غريب — تقليد</li>
 </ol>
 
-<p>بس خد بالك: التقليد المتطور بيحط باركود <strong>مسروق</strong> من علبة أصلية — يعني الباركود بيشتغل فعلاً! عشان كده الباركود لوحده مش كافي — لازم تجمعه مع الـ 4 اختبارات التانيين.</p>
+<p>يمكن نسخ الأكواد والعبوات، لذلك اجمع رقم الموديل والفاتورة وهوية البائع وسياسة الإرجاع مع أي وسيلة تحقق توفرها Samsung.</p>
 
 <div style="background: linear-gradient(135deg, #fef2f2 0%, #fecaca 100%); padding: 18px; border-radius: 12px; border-right: 4px solid #ef4444; margin: 20px 0;">
 <p style="margin: 0; color: #991b1b; font-weight: 600;">⚠️ تحذير مهم:</p>
@@ -150,39 +152,39 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 </tr>
 <tr style="background: #f8fafc;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Voltage Ripple</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">< 120mV</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">400-800mV</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">حسب مواصفة الموديل واختبار معمل مؤهل</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">لا يمكن تقديره من الشكل</td>
 </tr>
 <tr>
 <td style="padding: 10px;">الضمان</td>
-<td style="padding: 10px; text-align: center;">12 شهر توكيل</td>
-<td style="padding: 10px; text-align: center;">بدون</td>
+<td style="padding: 10px; text-align: center;">راجع شروط الصانع والبائع الحالية</td>
+<td style="padding: 10px; text-align: center;">غياب ضمان مكتوب يزيد المخاطر ولا يثبت التقليد</td>
 </tr>
 </tbody>
 </table>
 
 <h2>البديل الذكي: شواحن أصلية بسعر أقل</h2>
 
-<p>لو مش عايز تلعب لعبة "أصلي ولا تقليد" مع بياعين الموبايلات — في حل أبسط: اشتري شاحن من <strong>براند موثوق</strong> بضمان رسمي مصري. <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a> بيدّي نفس قوة شاحن سامسونج الأصلي — 25W PD 3.0 — بس بسعر أقل 30-40% ومعاه ضمان 18 شهر. ولو عايز حاجة أقوى، <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> بيشحن أسرع بـ 20% وحجمه أصغر عشان تقنية GaN.</p>
+<p>للمقارنة مع بدائل متوافقة، راجع بروتوكول وقدرة <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن انكر PowerPort 25W</a> ومتطلبات هاتفك والسعر الحالي وشروط ضمان كايرو فولت المكتوبة. ويمكن مقارنة <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30W</a> للأجهزة التي تدعم ملفه؛ القدرة الأعلى لا تضمن زمناً أسرع لكل هاتف.</p>
 
-<p>ولو ميزانيتك محدودة، <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 25W</a> خيار ممتاز بسعر اقتصادي مع شهادات سلامة حقيقية. المهم: أي شاحن بضمان رسمي > شاحن سامسونج "أصلي" من بياع مش موثوق.</p>
+<p>ولو ميزانيتك محدودة، راجع مواصفات <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 25W</a> والشهادات التي يسميها الصانع وإمكانية التحقق منها. الضمان المكتوب عامل ثقة، لكنه لا يثبت الأصالة أو الأداء وحده.</p>
 
-<p>ومتنساش الكابل — <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> معتمد USB-IF وبيستحمل 25,000 دورة ثني. كابل التقليد بيقطع بعد 3 شهور وممكن يسبب شحن بطيء حتى لو الشاحن أصلي.</p>
+<p>ومتنساش الكابل — راجع صفحة <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a> لتصنيف القدرة وأي اعتماد أو اختبار ثني منشور للموديل. لا توجد مدة تلف ثابتة لكل كابل.</p>
 
 <h2>إيه اللي بيحصل لو اشتريت تقليد ومعرفتش؟</h2>
 
-<p>خلّيني أحكيلك قصة حقيقية حصلت مع واحد من عملاء كايرو فولت. اشترى شاحن "سامسونج 25W" من محل في وسط البلد بـ 250 جنيه — فرحان إنه وفّر 400 جنيه. بعد 3 أسابيع، الموبايل بدأ يسخن أثناء الشحن لدرجة إنه مكانش يقدر يمسكه. بعد شهرين، صحة البطارية نزلت من 97% لـ 82%. بعد 4 شهور، البطارية بدأت تنتفخ — والموبايل بقى بيقفل لوحده على 25%. النتيجة: راح التوكيل غيّر البطارية بـ 2,800 جنيه. يعني الـ 400 جنيه اللي "وفّرهم" كلّفوه 2,800 + وقت + قلق.</p>
+<p>السخونة غير الطبيعية أو الرائحة أو التشوه في الشاحن أو البطارية تستلزم إيقاف الاستخدام وطلب فحص من جهة مؤهلة. احتفظ بالفاتورة وبيانات الموديل والصور عند طلب الدعم.</p>
 
-<p>ده مش كلام تخويف — ده فيزياء. الشاحن التقليد مفيهوش:</p>
+<p>لا يمكن معرفة دوائر الحماية الداخلية من المظهر. في الموديل الموثق، راجع ما ينشره الصانع عن:</p>
 
 <ul>
-<li><strong>حماية زيادة الفولت (OVP):</strong> الأصلي بيقطع لو الفولت زاد عن 5.5V. التقليد ممكن يوصّل 6V+ للموبايل — ده بيدمر الـ charging IC</li>
-<li><strong>حماية زيادة التيار (OCP):</strong> الأصلي بيحدد الأمبير بدقة. التقليد ممكن يدفع تيار أعلى من اللي الموبايل محتاجه</li>
-<li><strong>حماية الحرارة (OTP):</strong> الأصلي بيقلل القوة لما الحرارة تزيد. التقليد مفيهوش sensor حرارة أصلاً — فبيفضل يشحن بنفس القوة حتى لو وصل 80°م</li>
-<li><strong>تنظيم الـ Ripple:</strong> الأصلي بيطلع تيار نضيف (ripple أقل من 120mV). التقليد الـ ripple بيوصل 800mV — ده زي ما تشرب ميه فيها رملة: الموبايل بيستقبل الطاقة بس مع "تشويش" بيأثر على عمر البطارية</li>
+<li><strong>حماية زيادة الفولت (OVP):</strong> تحقق من وجودها وحدودها في وثيقة الموديل</li>
+<li><strong>حماية زيادة التيار (OCP):</strong> تحقق من ملفات الخرج والحماية المنشورة</li>
+<li><strong>حماية الحرارة (OTP):</strong> اتبع حدود التشغيل ورسالة الحرارة الخاصة بالموديل</li>
+<li><strong>تنظيم الـ Ripple:</strong> يحتاج جهازاً ومنهج اختبار مناسبين؛ لا يُستنتج من السعر أو الشكل</li>
 </ul>
 
-<p>والحاجة اللي محدش بيقولها: التقليد ممكن يسبب <strong>ماس كهربائي</strong> في أسوأ الحالات. في 2024، UL Labs سجّلت 47 حالة حريق في الشرق الأوسط وشمال أفريقيا بسبب شواحن مقلّدة. مش عايز أخوّفك — بس لازم تعرف إن الموضوع أبعد من "بيشحن بطيء." الموضوع فيه خطر حقيقي على موبايلك وعلى سلامتك.</p>
+<p>أي شاحن غير مطابق أو تالف قد يمثل خطراً كهربائياً، لكننا لا ننسب عدداً إقليمياً لحوادث من دون مصدر مباشر. استخدم تعليمات Samsung والجهات المختصة بالسلامة، وتوقف فوراً عند تلف أو رائحة أو سخونة غير طبيعية.</p>
 
 <h2>نصيحة أخيرة: قاعدة الـ 3 اختبارات السريعة</h2>
 
@@ -194,44 +196,46 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 <li><strong>شم البلاستيك</strong> — 3 ثواني</li>
 </ol>
 
-<p>لو أي واحد من الـ 3 فشل — متشتريش. لو الـ 3 عدّوا — اعمل اختبار الباركود للتأكيد النهائي. وافتكر: الشاحن التقليد بيوفّرلك 200 جنيه دلوقتي وبيكلّفك 3,000 جنيه تغيير بطارية بعد سنة. الحساب واضح — حتى من غير آلة حاسبة.</p>
+<p>لو ظهرت علامة تلف أو تناقض في رقم الموديل أو غابت الفاتورة وسياسة الإرجاع، لا تتمم الشراء قبل التحقق. لا يوجد رقم تكلفة أو زمن تلف ثابت يمكن نسبه لكل شاحن وهاتف.</p>
 
-<p>وآخر حاجة: لو البياع قالك "مفيش ضمان على الشواحن" — ده في حد ذاته علامة إن المنتج تقليد. الشاحن الأصلي بيجي بضمان من التوكيل أو من الموزع المعتمد. ولو عايز تبعد عن اللعبة دي خالص، اشتري من متجر أونلاين موثوق بضمان رسمي مكتوب — وخلّيك في الـ safe side.</p>
+<p>غياب ضمان مكتوب يزيد مخاطر الشراء لكنه لا يثبت أن المنتج مقلّد. راجع هوية البائع والفاتورة وسياسة الإرجاع وشروط الضمان المكتوبة قبل الدفع.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 25W</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a>.</p></div>`
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن انكر PowerPort 25W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30W</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 25W</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a>.</p></div>`
         },
         en: {
             title: '5 Differences That Expose a Fake Samsung Charger Before You Pay',
             metaTitle: '5 Ways to Spot a Fake Samsung Charger Before Buying',
-            metaDescription: 'How to spot a fake Samsung charger at the store. 5 quick tests — weight, print quality, plastic texture, smell, and barcode — expose counterfeits instantly.',
-            excerpt: '5 quick tests you can perform at the store — weight, print quality, plastic texture, smell, and barcode verification — to spot a fake Samsung charger before paying.',
-            quickAnswer: 'You can spot a fake Samsung charger through 5 tests: (1) Weight — the original 25W weighs 52g vs 35-40g for fakes due to missing capacitors, (2) Print quality — original uses laser printing while fakes have faded or misaligned text, (3) Plastic texture — original is matte PC/ABS while fakes are glossy cheap ABS, (4) Smell — fakes have a noticeable chemical odor from low-grade plastic, (5) Barcode verification — originals verify on Samsung\'s official website.',
+            metaDescription: 'Verify a Samsung charger by model, seller, invoice, and packaging, using weight, print, odor, and barcode only as supporting clues.',
+            excerpt: 'Verify a Samsung charger before paying through model, seller, invoice, packaging, and supporting visual checks.',
+            quickAnswer: 'Five visual checks cannot prove a Samsung charger is genuine. Match model number, packaging, receipt, and seller with Samsung data, and treat print, housing, and connector inspection only as supporting signals. Weight, odor, or a barcode alone is not proof, and a low price does not establish a counterfeit.',
             keywords: 'samsung original charger vs fake, how to identify fake samsung charger, samsung 25w charger original check, fake samsung charger egypt, samsung charger authentication, EP-TA800 original vs counterfeit, samsung charger barcode verification, spot fake samsung accessories egypt',
             faq: [
                 {
                     question: 'How can I verify a Samsung charger is original while still at the store?',
-                    answer: 'Perform 3 quick checks: (1) Hold the charger — the original 25W weighs approximately 52g; if it feels noticeably lighter, it\'s likely fake. (2) Examine the printing on the back — originals use laser-etched text that\'s sharp and permanent, while fakes have faded or slightly angled text. (3) Smell the plastic — fakes emit a noticeable chemical odor from cheap recycled plastic. If it passes all 3, scan the barcode on Samsung\'s official verification page for final confirmation.'
+                    answer: 'Match the model number, packaging, receipt, and source with Samsung information. Inspect print, housing, and connector, but do not treat weight, odor, or a barcode scan as final proof; packaging and codes can be copied.'
                 },
                 {
                     question: 'Can a fake Samsung charger actually damage my phone?',
-                    answer: 'Yes — and this isn\'t fearmongering. Counterfeit chargers lack proper OVP (Over-Voltage Protection) and OCP (Over-Current Protection) circuits. In our testing, a fake 25W charger produced voltage ripple up to 800mV — the safe limit is below 120mV. This excessive ripple damages the phone\'s charging IC and can reduce battery lifespan by 40-60% within the first year. In worst cases, it can cause battery swelling.'
+                    answer: 'A charger that does not meet specifications may lack adequate regulation or protection, but we do not assign a ripple measurement or battery-degradation percentage without a published test. Stop using damaged or unusually hot equipment and choose a documented model compatible with the phone.'
                 },
                 {
                     question: 'How much does an original Samsung 25W charger cost in Egypt?',
-                    answer: 'The original Samsung 25W charger (EP-TA800) costs between 650-850 EGP at authorized Samsung service centers depending on promotions. If you find one below 400 EGP, it\'s 99% counterfeit. A better value alternative is the Anker PowerPort 25W — genuine, same power output, 30-40% cheaper, with an 18-month warranty from the Egyptian distributor.'
+                    answer: 'Price varies by seller and availability. Check the current EP-TA800 price from a traceable retailer, with receipt and return policy. A low price warrants verification but does not prove a counterfeit; also compare the Anker PowerPort 25W page and CairoVolt\'s written warranty terms.'
                 },
                 {
                     question: 'Is there an app or website to verify Samsung charger authenticity?',
-                    answer: 'Yes — Samsung has an official verification page at samsung.com/eg. Enter the barcode or serial number from the packaging or the charger itself. If the number isn\'t in their database, it\'s counterfeit. However, sophisticated fakes sometimes use stolen barcodes from genuine packaging — that\'s why you should combine barcode verification with the other 4 physical tests for reliable authentication.'
+                    answer: 'Start with Samsung\'s official Egypt support channels and ask what model- or serial-verification method is available. A barcode may identify a product or page and does not prove authenticity alone; keep the receipt and verify seller identity and return terms.'
                 }
             ],
-            content: `<p>This scene plays out daily in every phone accessories shop in Egypt: you walk in to buy a Samsung charger, the seller pulls one from a drawer and says "Original, sir — look at the box!" — and the box does look perfect. But the problem is that in 2026, counterfeits have become so convincing that even an electronics engineer could be fooled if they're not paying attention. In our Quality Control lectures, we used to say: "The difference between an original product and a counterfeit isn't in the appearance — it's in the internals you can't see." But today, we're teaching you 5 things you CAN see from the outside — without opening the charger — that expose counterfeits while you're still standing at the store.</p>
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Prices and availability are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p>
 
-<p>In this article, you'll learn: (1) the weight test that catches 80% of fakes, (2) printing details that counterfeits can't replicate, (3) plastic texture differences that give them away, (4) the quick smell test, and (5) official barcode verification.</p>
+<p>Charger packaging and print can look convincing, but appearance alone does not prove authenticity. This guide treats five physical signs as supporting checks and prioritizes model number, Samsung data, seller identity, receipt, and return policy.</p>
+
+<p>In this article, you will learn: (1) how to use weight only against the same model specification, (2) print inspection, (3) housing condition, (4) what an unusual odor means, and (5) barcode limits and the need for a receipt and traceable source.</p>
 
 <h2>Difference #1: Weight — The Scale Never Lies</h2>
 
-<p>This is the easiest and fastest method — yet 90% of people never do it. The original Samsung 25W charger (EP-TA800) weighs exactly <strong>52 grams</strong>. Counterfeits weigh <strong>35-42 grams</strong>. This difference isn't coincidental — it's because the original charger contains:</p>
+<p>Weight can help only when comparing the same model number with a published specification or documented reference, using a suitable scale. A difference does not by itself prove a counterfeit because revisions, markets, and packaging can vary.</p>
 
 <ul>
 <li><strong>A transformer with a genuine ferrite core</strong> — counterfeits use a smaller or cheaper core</li>
@@ -239,11 +243,11 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 <li><strong>Complete protection circuitry</strong> (OVP + OCP + OTP + SCP) — counterfeits remove most of these</li>
 </ul>
 
-<p>Practical method: bring your phone to the store. Open a digital scale app, or simply hold the charger and compare it to your old charger that you know is genuine. If you feel a noticeable difference in lightness — put that charger down and walk away.</p>
+<p>Practical method: verify the model number first, then use a real scale if Samsung publishes a weight for that revision. A phone app or hand feel is not a reliable weight measurement.</p>
 
 <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 18px; border-radius: 12px; border-left: 4px solid #f59e0b; margin: 20px 0;">
 <p style="margin: 0; color: #92400e; font-weight: 600;">⚖️ Reference Weight Numbers:</p>
-<p style="margin: 8px 0 0 0; color: #78350f;">Samsung 25W (EP-TA800): 52g · Samsung 45W (EP-TA845): 92g · Samsung 15W (EP-TA200): 38g — if the charger is more than 5g lighter than these numbers, it's suspicious.</p>
+<p style="margin: 8px 0 0 0; color: #78350f;">Check support or packaging for the same model number and market. Do not transfer a weight between revisions or treat a 5g difference as a final authenticity verdict.</p>
 </div>
 
 <h2>Difference #2: Print Quality — Small Details Expose Big Lies</h2>
@@ -328,8 +332,8 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 </tr>
 <tr style="background: #f8fafc;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Voltage Ripple</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">&lt; 120mV</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">400-800mV</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">Per model specification and qualified lab test</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">Cannot be estimated from appearance</td>
 </tr>
 <tr>
 <td style="padding: 10px;">Warranty</td>
@@ -341,23 +345,23 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 
 <h2>The Smart Alternative: Genuine Chargers at Better Prices</h2>
 
-<p>If you don't want to play the "original or fake" game with phone shop sellers — there's a simpler solution: buy a charger from a <strong>trusted brand</strong> with an official Egyptian warranty. The <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W</a> delivers the same power as Samsung's original charger — 25W PD 3.0 — but at 30-40% less cost with an 18-month warranty. For something more powerful, the <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W charger</a> charges 20% faster and comes in a smaller package thanks to GaN technology.</p>
+<p>For a compatible alternative, compare the <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W</a> protocol and output with the phone requirements, live price, and CairoVolt's written warranty terms. The <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W charger</a> can also be compared for devices that support its profile; higher rated output does not guarantee a fixed time saving.</p>
 
-<p>If budget is a priority, the <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W charger</a> is an excellent option at an economical price with genuine safety certifications. The bottom line: any charger with an official warranty beats a "genuine" Samsung charger from an unverified seller.</p>
+<p>If budget is a priority, check the <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W charger</a> specifications and any certifications named by the maker and how they can be verified. A written warranty is a trust factor, not proof of authenticity or performance by itself.</p>
 
-<p>And don't forget the cable — the <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> is USB-IF certified and withstands 25,000 bend cycles. Counterfeit cables break within 3 months and can cause slow charging even with a genuine charger.</p>
+<p>Also check the cable. Review the <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> page for its power rating and any certification or bend test published for that model. No fixed failure time applies to every cable.</p>
 
 <h2>What Happens If You Buy a Fake Without Knowing?</h2>
 
-<p>Let me share a real story from one of CairoVolt's customers. He bought a "Samsung 25W" charger from a shop in downtown Cairo for 250 EGP — happy that he saved 400 EGP. After 3 weeks, his phone started overheating during charging to the point where he couldn't hold it. After 2 months, battery health dropped from 97% to 82%. After 4 months, the battery started swelling — and the phone began shutting down at 25%. Result: he went to the service center and paid 2,800 EGP for a battery replacement. The 400 EGP he "saved" cost him 2,800 EGP plus time and stress.</p>
+<p>Unusual heat, odor, or deformation in a charger or battery means stop use and seek assessment from a qualified service provider. Keep the invoice, model details, and photos when requesting support.</p>
 
-<p>This isn't scaremongering — it's physics. A counterfeit charger lacks:</p>
+<p>Internal protections cannot be established from appearance. For a documented model, check what its maker publishes about:</p>
 
 <ul>
-<li><strong>Over-Voltage Protection (OVP):</strong> The original cuts off if voltage exceeds 5.5V. A fake can deliver 6V+ to your phone — destroying the charging IC</li>
-<li><strong>Over-Current Protection (OCP):</strong> The original precisely limits amperage. Fakes can push more current than your phone needs</li>
-<li><strong>Over-Temperature Protection (OTP):</strong> The original reduces power when temperature rises. Fakes don't have a temperature sensor at all — they keep charging at full power even at 80°C</li>
-<li><strong>Ripple regulation:</strong> The original outputs clean current (ripple below 120mV). Fake charger ripple reaches 800mV — it's like drinking water with sand: your phone receives the energy but with "noise" that degrades battery life</li>
+<li><strong>Over-Voltage Protection (OVP):</strong> verify its presence and limits in model documentation</li>
+<li><strong>Over-Current Protection (OCP):</strong> verify published output profiles and safeguards</li>
+<li><strong>Over-Temperature Protection (OTP):</strong> follow the model operating limits and heat alerts</li>
+<li><strong>Ripple regulation:</strong> requires suitable equipment and a defined test method; it cannot be inferred from price or appearance</li>
 </ul>
 
 <p>What nobody tells you: counterfeits can cause <strong>short circuits</strong> in worst-case scenarios. In 2024, UL Labs documented 47 fire incidents in the Middle East and North Africa caused by counterfeit chargers. This isn't about slow charging — it's a real safety risk for your phone and your home.</p>
@@ -372,7 +376,7 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 <li><strong>Smell the plastic</strong> — 3 seconds</li>
 </ol>
 
-<p>If any of the 3 fail — don't buy it. If all 3 pass — run the barcode verification for final confirmation. Remember: a counterfeit charger saves you 200 EGP today and costs you 3,000 EGP in battery replacement after a year. The math is clear — you don't even need a calculator.</p>
+<p>If you see damage, a model-number mismatch, or no traceable receipt or return policy, pause the purchase until you can verify it. There is no universal repair cost or failure time attributable to every charger and phone.</p>
 
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W Charger</a> · <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Charger</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a>.</p></div>`
         }

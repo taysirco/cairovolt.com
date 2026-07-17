@@ -28,13 +28,13 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
     },
     translations: {
         ar: {
-            title: 'مراجعة Soundcore Liberty 4 Pro — سماعة الفلاجشيب بالشاشة الذكية والصوت الفائق',
-            metaTitle: 'مراجعة سماعة Soundcore Liberty 4 Pro والشاشة الذكية | كايرو فولت',
-            metaDescription: 'مراجعة تفصيلية لسماعة Soundcore Liberty 4 Pro وعزل الضوضاء. أداء الشاشة الذكية وشريط اللمس، ترميز LDAC ودرايفر ACAA المزدوج، والضمان المعتمد والسعر بمصر.',
+            title: 'دليل ساوندكور Liberty 4 Pro — الشاشة الذكية ومواصفات الصوت',
+            metaTitle: 'دليل سماعة ساوندكور Liberty 4 Pro والشاشة الذكية | كايرو فولت',
+            metaDescription: 'دليل ساوندكور Liberty 4 Pro وعزل الضوضاء والشاشة الذكية وشريط اللمس وLDAC ومحرك ACAA، مع السعر والتوفر وشروط الضمان الحالية بمصر.',
             keywords: 'soundcore liberty 4 pro مراجعة, liberty 4 pro مصر سعر, سماعة شاشة ذكية, soundcore liberty 4 pro vs liberty 4 nc, ANC 43dB سماعة, افضل سماعة تحت 6000 جنيه, ACAA درايفر مزدوج soundcore, soundcore liberty 4 pro انكر مصر, hi-res audio earbuds egypt, liberty 4 pro review arabic',
-            excerpt: 'تتميز سماعة Soundcore Liberty 4 Pro بعلبة شحن فريدة مزودة بشاشة ذكية وشريط لمس للتحكم الكامل، مع صوت نقي بدرايفر محوري مزدوج ACAA وترميز LDAC.',
-            quickAnswer: 'تعتبر سماعة Soundcore Liberty 4 Pro الخيار الفلاجشيب الأفضل في فئة المتوسط المرتفع بمصر (سعر 4,500 إلى 5,500 جنيه). وتتفوق عن الموديل 4 NC بوجود شاشة ذكية وشريط لمس مدمج بالعلبة لعرض مستوى الشحن والتحكم في وضع العزل بدون الهاتف، مع نظام صوتي بمحركين ACAA ونقاء موسيقي مذهل.',
-            content: `<p>بينما تتسابق الشركات التقنية الكبرى لتقديم سماعات لاسلكية رائدة تتجاوز أسعارها حاجز الـ 12 ألف جنيه في السوق المصري، نجحت أنكر في تقديم سماعة Soundcore Liberty 4 Pro التي تقدم تقنيات فلاجشيب استثنائية بنصف هذا السعر تقريباً. التحدي الأساسي في هذه الفئة هو تقديم ميزات حقيقية تبرر الفارق السعري عن الفئات الاقتصادية. قمنا في معمل كايرو فولت باختبار هذه السماعة الفاخرة على مدار شهر كامل للتحقق من أداء الشاشة الذكية الفريدة، وقوة الدرايفر المحوري المزدوج ACAA، ومدى فاعلية عزل الضوضاء النشط في الظروف المصرية الصاخبة.</p>
+            excerpt: 'ساوندكور Liberty 4 Pro مزودة بعلبة ذات شاشة وشريط لمس، مع نظام ACAA وترميز LDAC؛ قارن المزايا مع احتياجك والسعر الحالي.',
+            quickAnswer: 'ساوندكور Liberty 4 Pro موديل مزود بشاشة وشريط لمس في العلبة مع نظام ACAA وترميز LDAC. قارنها مع Liberty 4 NC حسب العزل والصوت والتوافق والسعر والتوفر وشروط الضمان الحالية.',
+            content: `<p>بينما تتسابق الشركات التقنية الكبرى لتقديم سماعات لاسلكية رائدة تتجاوز أسعارها حاجز الـ 12 ألف جنيه في السوق المصري، نجحت أنكر في تقديم سماعة Soundcore Liberty 4 Pro التي تقدم تقنيات فلاجشيب استثنائية بنصف هذا السعر تقريباً. التحدي الأساسي في هذه الفئة هو تقديم ميزات حقيقية تبرر الفارق السعري عن الفئات الاقتصادية. قمنا في هذا الدليل باختبار هذه السماعة الفاخرة على مدار شهر كامل للتحقق من أداء الشاشة الذكية الفريدة، وقوة الدرايفر المحوري المزدوج ACAA، ومدى فاعلية عزل الضوضاء النشط في الظروف المصرية الصاخبة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -50,7 +50,7 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
 </ul>
 
 <h2>المواصفات الفنية المعتمدة لـ Liberty 4 Pro</h2>
-<p>إليك المواصفات الفنية الموثقة التي سجلناها خلال اختبارات معمل كايرو فولت:</p>
+
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
@@ -167,18 +167,18 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
 </ul>
 
 <h2>الضمان المعتمد وخدمات الصيانة والدعم الفني في مصر</h2>
-<p>يحظى مشترو الموديل Liberty 4 Pro في مصر بضمان استثنائي يمتد لـ 18 شهراً من الوكيل الرسمي، والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول جهازك في مراكز الدعم الفني الرسمية.</p>
+<p>تختلف مدة ضمان Liberty 4 Pro وجهة الخدمة والإجراء حسب البائع والسياسة المكتوبة وقت الشراء. راجع صفحة المنتج والفاتورة لمعرفة التغطية والاستثناءات، واحتفظ بإثبات الشراء والرقم التسلسلي وأي عبوة تطلبها السياسة؛ لا تفترض استبدالاً تلقائياً أو صفة اعتماد غير موثقة.</p>
 <p>ملاحظة هامة من فريق الصيانة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن خارج المراكز المعتمدة. كما يوصى بالتحقق من ملصق الضمان الفضي الموجود على كرتونة المنتج للتأكد من الموزع المحلي المسؤول عن التغطية.</p>
 
 <h2>تفاصيل الشراء والتوصيل من كايرو فولت</h2>
-<p>عند طلب سماعة Soundcore Liberty 4 Pro من كايرو فولت، ستحصل على الميزات التالية:</p>
+<p>قبل طلب سماعة ساوندكور Liberty 4 Pro من كايرو فولت، راجع بيانات المنتج والسياسات المنشورة وقت الشراء:</p>
 <ul>
-    <li><strong>أصلية 100%:</strong> بضمان استبدال معتمد لمدة 18 شهراً ضد عيوب الصناعة.</li>
-    <li><strong>توصيل سريع للغاية:</strong> شحن لكافة محافظات مصر خلال 24 إلى 48 ساعة فقط.</li>
-    <li><strong>معاينة المنتج قبل الدفع:</strong> تتيح لك سياسة المتجر فحص الشحنة خارجياً والتأكد من سلامتها بالكامل قبل تسليم المبلغ للمندوب.</li>
+    <li><strong>بيانات الضمان:</strong> تحقق من المدة والجهة المقدمة والتغطية والاستثناءات في صفحة المنتج والفاتورة.</li>
+    <li><strong>التوصيل:</strong> تظهر المناطق المتاحة والمدة والتكلفة المقدرة أثناء الطلب وفق العنوان وشركة الشحن.</li>
+    <li><strong>الاستلام:</strong> اتبع سياسة الفحص والاستلام المنشورة وقت الشراء، وأبلغ خدمة العملاء فوراً عند وجود تلف خارجي أو اختلاف.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 تسوق سماعات أنكر الفاخرة بضمان 18 شهراً من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد العروض الحالية: <a href="/soundcore/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">سماعة Soundcore Liberty 4 Pro بالشاشة</a> · <a href="/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">سماعة Liberty 4 NC الاقتصادية</a> · <a href="/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">سماعة الرأس Space One</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 قارن موديلات ساوندكور المتاحة على كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع الأسعار والمواصفات وشروط الضمان الحالية: <a href="/soundcore/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 Pro</a> · <a href="/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> · <a href="/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Space One</a>.</p></div>` ,
             faq: [
                 {
                     question: 'ما هي فائدة الشاشة الذكية وشريط اللمس في علبة Liberty 4 Pro؟',
@@ -199,8 +199,8 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
             ]
         },
         en: {
-            title: 'Soundcore Liberty 4 Pro Review — Flagship Smart Screen Earbuds with Exceptional Audio',
-            metaTitle: 'Soundcore Liberty 4 Pro Review — Smart Case Display & ACAA | CairoVolt',
+            title: 'Soundcore Liberty 4 Pro Guide — Flagship Smart Screen Earbuds with Exceptional Audio',
+            metaTitle: 'Soundcore Liberty 4 Pro Guide — Smart Case Display & ACAA | CairoVolt',
             metaDescription: 'Soundcore Liberty 4 Pro review. Read about the smart charging case display, touch bar settings, ACAA 3.0 dual drivers, LDAC codec, and local warranty in Egypt.',
             keywords: 'soundcore liberty 4 pro review, liberty 4 pro egypt price, smart display earbuds, soundcore liberty 4 pro vs liberty 4 nc, ANC 43dB earbuds, best earbuds under 6000 EGP, ACAA dual driver soundcore, soundcore liberty 4 pro anker egypt, hi-res audio wireless earbuds, liberty 4 pro honest review',
             excerpt: 'The Soundcore Liberty 4 Pro introduces a revolutionary smart charging case with a digital display and touch bar, delivering flagship ACAA dual-driver audio.',
@@ -221,42 +221,9 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
 </ul>
 
 <h2>Specifications and CairoVolt Benchmarks</h2>
-<p>To provide a clear baseline, we compared the official factory specifications of the Liberty 4 Pro with our own laboratory test results:</p>
 
-<table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
-    <thead>
-        <tr style="background:#f3f4f6;">
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Specification</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">CairoVolt Verified Benchmark</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Driver Configuration</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">ACAA Coaxial Dual Driver (9.2mm Bass + 6mm Treble)</td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Audio Codecs</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Hi-Res LDAC (990kbps), standard AAC and SBC</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Active Noise Cancelling</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Adaptive Smart ANC up to -43dB</td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud Runtime (ANC On)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">9.5 hours actual (drops to 8 hours with LDAC activated)</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Total Charging Case Battery</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Up to 50 hours total runtime (40 additional case hours)</td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Charging Inputs</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Fast USB-C input with voltage protection + Qi Wireless charging</td>
-        </tr>
-    </tbody>
-</table>
+
+
 
 <h2>The Engineering of ACAA Coaxial Dual Drivers</h2>
 <p>Unlike standard earbuds that rely on a single driver to reproduce the entire audio spectrum, the Liberty 4 Pro utilizes an Astria Coaxial Acoustic Architecture (ACAA) design, aligning two distinct drivers on a single axis:</p>
@@ -274,7 +241,7 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
 </ul>
 
 <h2>Real-World ANC Performance in Egyptian Environments</h2>
-<p>We tested the -43dB Adaptive ANC system across Cairo's daily environments to measure its acoustic isolation:</p>
+
 <ul>
     <li><strong>Office and Indoor Workspaces:</strong> The ANC filters out office chatter, computer fans, and air conditioning hums completely, establishing a quiet pocket of silence.</li>
     <li><strong>Public Transit and Cairo Metro:</strong> Low-frequency train roar and motor hums are reduced by up to 90%. This allows you to listen to podcasts or audiobooks at normal, ear-safe volume levels.</li>
@@ -335,23 +302,22 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
 <p>To withstand Cairo's grid fluctuations and voltage spikes, Anker integrated protective hardware into the Liberty 4 Pro charging case to protect its 800mAh internal battery:</p>
 <ul>
     <li><strong>Over-Voltage Protection (OVP):</strong> The system isolates incoming current if the voltage exceeds 5.5V, protecting the battery from thermal damage.</li>
-    <li><strong>Charging Best Practices:</strong> We strongly advise against charging the case with high-wattage mobile fast-chargers (33W, 67W, or higher). For the longest battery health, charge via a standard 5W wall adapter or a computer USB port.</li>
+    <li><strong>Charging best practices:</strong> follow the input rating printed on the case or manual. A compliant charger does not force its maximum wattage into the case. Stop charging if abnormal heat appears.</li>
 </ul>
 
-<h2>Official Local Warranty and Technical Support in Egypt</h2>
-<p>Buyers of the Model Liberty 4 Pro in Egypt receive a comprehensive 18-month warranty from the authorized local distributor. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or connection failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim at official service centers.</p>
-<p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. Always cross-check the localized silver warranty sticker on the retail packaging to identify the exact local distributor responsible for servicing your product.</p>
-<p>The customer service centers in Cairo and Alexandria are fully equipped with specialized testing rigs to evaluate battery health and driver calibration. If a replacement is approved under warranty, the transaction is processed quickly. This gives local buyers absolute peace of mind compared to grey-market imports that lack warranty protection.</p>
+<h2>Local Warranty and Technical Support in Egypt</h2>
+<p>Warranty provider, duration and remedies depend on the seller and batch. Keep proof of purchase and the serial number and follow the written policy provided with the product. CairoVolt orders are assessed under CairoVolt's published terms without a promise of automatic replacement.</p>
+<p>Do not submerge or disassemble the product. Check the invoice and packaging to identify the party responsible for any claim.</p>
 
-<h2>Secure Purchase and Delivery at CairoVolt</h2>
-<p>Ordering the Soundcore Liberty 4 Pro from CairoVolt guarantees a premium customer experience:</p>
+<h2>Purchase and Delivery Information at CairoVolt</h2>
+<p>Check the current product and policy pages before ordering:</p>
 <ul>
-    <li><strong>100% Authentic Units:</strong> Accompanied by a certified 18-month local replacement warranty.</li>
-    <li><strong>Express Shipping:</strong> Doorstep delivery across all Egyptian governorates in 24 to 48 hours.</li>
-    <li><strong>Inspection Prior to Payment:</strong> We allow you to open and inspect the package before paying the courier.</li>
+    <li><strong>Product details:</strong> compare the exact model, box contents and written warranty duration.</li>
+    <li><strong>Shipping:</strong> the estimate depends on stock and destination.</li>
+    <li><strong>Inspection:</strong> follow the inspection and return rules shown at checkout and in the policy pages.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Shop Original Soundcore models at CairoVolt (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Shop authentic models at CairoVolt: <a href="/en/soundcore/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 Pro (Smart Case)</a> · <a href="/en/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC (ANC King)</a> · <a href="/en/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Soundcore Space One Over-Ear</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Compare Soundcore models available at CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Check current prices, specifications, and warranty terms: <a href="/en/soundcore/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 Pro</a> · <a href="/en/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> · <a href="/en/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Soundcore Space One Over-Ear</a>.</p></div>` ,
             faq: [
                 {
                     question: 'What are the benefits of the smart display and touch bar on the Liberty 4 Pro case?',

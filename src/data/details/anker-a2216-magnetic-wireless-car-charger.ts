@@ -2,23 +2,21 @@ import type { ProductDetail } from './_types';
 export const anker_a2216_magnetic_wireless_car_charger_detail: ProductDetail = {
     aiTldr: {
   "en": [
-    "Charges iPhone 16 Pro at a full Qi2 15W, 0 to 50% in 45 minutes.",
-    "14N (1.4 kg) magnetic MagSafe grip holds firm over Cairo speed bumps.",
-    "Cairo lab test: pad peaked at 38.4°C after 60 minutes of charging.",
-    "Fits iPhone 12 through iPhone 17, every Pro and standard model.",
-    "✅ CairoVolt: Qi2-certified, 18-month warranty, next-day Cairo delivery, cash on delivery."
+    "Qi2 wireless output is listed up to 15W with compatible iPhones and power sources.",
+    "A magnetic-hold figure is listed for the model, but stability depends on installation, case and road conditions.",
+
+    "Verify the exact phone, case and Qi2 or magnetic-alignment compatibility before use."
   ],
   "ar": [
-    "بيشحن آيفون 16 Pro بكامل Qi2 15 واط، من 0 لـ50% في 45 دقيقة.",
-    "مغناطيس 14N (1.4 كيلو) ماسك زي الصخر على مطبات الدايري.",
-    "اختبار معمل القاهرة: اللوحة وصلت 38.4° بعد ساعة شحن.",
-    "بيركّب على آيفون 12 لحد 17، كل الموديلات Pro والعادي.",
-    "✅ CairoVolt: معتمد Qi2، ضمان 18 شهر، توصيل تاني يوم، دفع عند الاستلام."
+    "خرج Qi2 اللاسلكي مدون حتى 15 واط مع هواتف الايفون ومصادر الطاقة المتوافقة.",
+    "رقم قوة التثبيت المغناطيسي مدون للموديل، لكن الثبات يعتمد على التركيب والجراب وظروف الطريق.",
+
+    "تحقق من توافق الهاتف والجراب مع Qi2 أو المحاذاة المغناطيسية قبل الاستخدام."
   ]
 },
     localContext: {
-  "en": "By noon a parked-car dashboard in Cairo hits 65°C, and cheap magnetic mounts soften and drop your phone on the first Ring Road bump. The A2216's 14N (1.4 kg) magnetic hold plus a 60°C-rated temperature sensor keeps your iPhone locked and charging at Qi2 15W, even when the AC is fighting a 42°C afternoon on the Cairo-Alex desert road.",
-  "ar": "الظهر تابلوه العربية الواقفة في القاهرة بيوصل 65°، والحوامل المغناطيسية الرخيصة بتلين وبترمي الموبايل أول مطب في الدايري. قوة تثبيت 14N (1.4 كيلو) في الـ A2216 مع حساس حرارة لحد 60° بتخلي الآيفون ماسك وبيشحن Qi2 15 واط، حتى والتكييف بيحارب حر 42° على طريق مصر-اسكندرية الصحراوي."
+  "en": "Install the mount on a clean, suitable surface and test stability with the exact phone and case before driving. Heat, road vibration, case thickness and alignment can reduce holding force or charging rate. Never adjust or handle the phone while driving, and do not leave the device charging in an overheated parked car.",
+  "ar": "ثبّت الحامل على سطح نظيف ومناسب واختبر الثبات مع الهاتف والجراب الفعليين قبل القيادة. قد تقلل الحرارة واهتزاز الطريق وسُمك الجراب والمحاذاة من قوة التثبيت أو سرعة الشحن. لا تضبط الهاتف أو تمسكه أثناء القيادة، ولا تتركه يشحن داخل سيارة متوقفة شديدة الحرارة."
 },
     specifications: {
   "Product Type": {
@@ -30,8 +28,8 @@ export const anker_a2216_magnetic_wireless_car_charger_detail: ProductDetail = {
     "ar": "خرج لاسلكي 15 واط (Qi2 مغناطيسي)"
   },
   "Technology": {
-    "en": "Qi2 magnetic alignment, 14N (1.4 kg) magnetic hold, gold-plated internal charging coil, foreign-object detection",
-    "ar": "محاذاة مغناطيسية Qi2، قوة تثبيت 14N (1.4 كيلو)، ملف شحن داخلي مطلي بالذهب، كشف الأجسام الغريبة"
+    "en": "Qi2 magnetic alignment and manufacturer-listed magnetic-hold and foreign-object-detection features",
+    "ar": "محاذاة مغناطيسية Qi2 ووظائف التثبيت وكشف الأجسام الغريبة كما تذكرها انكر"
   },
   "Ports": {
     "en": "USB-C input on the charging pad; USB-C output on the included car adapter",
@@ -46,19 +44,8 @@ export const anker_a2216_magnetic_wireless_car_charger_detail: ProductDetail = {
     "ar": "162 جرام (الطقم كامل)"
   },
   "Safety": {
-    "en": "Temperature sensor rated to 60°C, foreign-object detection, load rating up to 10.2 kg, automotive surge protection",
-    "ar": "حساس حرارة لحد 60°، كشف الأجسام الغريبة، تحمّل وزن لحد 10.2 كيلو، حماية من نبضات كهرباء العربية"
+    "en": "Verify the delivered model's temperature, load and protection documentation; do not exceed the mounting instructions",
+    "ar": "يُراجع توثيق الحرارة والحمل والحماية للموديل المستلم؛ ولا تتجاوز تعليمات التركيب"
   }
 },
-    labVerified: {
-        result: {
-  "en": "Delivered a steady 14.8W to an iPhone 16 Pro; 0 to 50% in 46 minutes.",
-  "ar": "وصّل 14.8 واط ثابتة لآيفون 16 Pro؛ من 0 لـ50% في 46 دقيقة."
-},
-        conditions: {
-  "en": "Charger Lab KM003C inline USB meter, 26°C ambient, using the bundled Anker A2216 USB-C car adapter.",
-  "ar": "مقياس Charger Lab KM003C على الكابل، حرارة محيطة 26°، بمحول العربية Anker A2216 المرفق."
-},
-        expertName: 'Eng. Ahmed Medhat'
-    }
 };

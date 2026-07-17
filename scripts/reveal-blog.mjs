@@ -2,11 +2,11 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // reveal-blog — run DAILY (cron). Finds article(s) whose publishDate fell in the
 // last ~26h (i.e. just went live today) and:
-//   1. Pings IndexNow + Google/Bing via the existing /api/indexing webhook
-//      (which also revalidates the ISR cache for the article + listing + sitemap)
+//   1. Pings IndexNow and optionally calls the authenticated ISR webhook
+//      (which revalidates the article + listing + sitemap)
 //   2. Logs what was revealed.
 // The publishDate GATE already reveals the article on the site via hourly ISR;
-// this just makes search engines pick it up the same day instead of waiting.
+// this refreshes discovery surfaces without promising a crawl or ranking.
 //
 // Usage (cron, daily ~once):
 //   INDEXING_WEBHOOK_SECRET=… node scripts/reveal-blog.mjs

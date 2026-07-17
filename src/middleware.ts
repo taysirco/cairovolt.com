@@ -1,31 +1,27 @@
 import { NextRequest, NextResponse } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
-import { checkRateLimit } from './lib/rate-limit';
 import { BLOG_SCHEDULE } from './data/blog-schedule.generated';
 
 const intlMiddleware = createMiddleware(routing);
 
-// Known scraper user-agents
-const SCRAPER_UA = /ahrefsbot|semrushbot|mj12bot|dotbot|rogerbot|sistrix|megaindex/i;
-
-// Search engine user-agents
-const ENGINE_UA = /googlebot|google-extended|bingbot|yandex|baiduspider/i;
-
-// Partner bot user-agents
-const PARTNER_UA = /gptbot|chatgpt|claude|anthropic|perplexity|cohere|google-extended/i;
-
-// Junk query params to clean
-const JUNK_PARAMS = ['sort', 'filter', 'min_price', 'max_price', 'fbclid', 'gclid'];
-
-// Non-public paths (return 410 for bots)
-const BOT_BLOCKED_PATHS = ['/checkout', '/cart', '/account'];
-
-// Paths that should always have noindex regardless of bot type
+// Paths that should always have noindex.
 const NOINDEX_PATHS = ['/admin', '/confirm', '/review/'];
-
-// Pre-computed Link header — avoids string allocation on every request
-const RESOURCE_LINKS = '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/llms-full.txt>; rel="ai-instructions-full", <https://cairovolt.com/api/openapi.json>; rel="openapi", <https://cairovolt.com/api/lab-data/json>; rel="dataset", <https://cairovolt.com/.well-known/api-catalog>; rel="service-desc"; type="application/linkset+json"';
+// Preserve the established query-parameter canonicalization seen by crawlers.
+const SEARCH_CRAWLER_UA = /googlebot|google-extended|bingbot|yandex|baiduspider/i;
+const CANONICALIZED_QUERY_PARAMS = ['sort', 'filter', 'min_price', 'max_price', 'fbclid', 'gclid'];
+const PUBLIC_CORS_API_PATHS = new Set([
+    '/api/v1/checkout',
+    '/api/v1/quick-cod',
+    '/api/products',
+    '/api/verify',
+]);
+const PUBLIC_CORS_HEADERS = {
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type, X-API-Key, Authorization',
+    'Access-Control-Max-Age': '86400',
+};
 
 // Every valid first path segment (after the optional locale prefix).
 // Anything else gets a REAL 404 from middleware — the FAH adapter turns
@@ -38,18 +34,16 @@ const KNOWN_TOP_SEGMENTS = new Set([
     // generic category landing pages
     'power-banks', 'chargers', 'cables', 'earbuds',
     // content & info pages
-    'about', 'team', 'contact', 'faq', 'blog', 'locations', 'solutions',
-    'lab', 'verify', 'warranty', 'shipping', 'return-policy', 'privacy', 'terms',
+    'about', 'team', 'contact', 'faq', 'blog', 'lab', 'locations', 'solutions',
+    'verify', 'warranty', 'shipping', 'return-policy', 'privacy', 'terms',
     // commerce & account flows
     'checkout', 'confirm', 'review', 'search',
-    // infrastructure (also have earlier bypasses; listed for safety)
+    // infrastructure routes handled before public-page validation
     'admin', 'api', 'go',
 ]);
 
-// Retired product slugs → canonical successor paths (301). These are DEAD
-// slugs that were once linked from blog articles and are still crawled by
-// Google; without this map they soft-404 (the FAH adapter serves Next's
-// not-found as HTTP 200 + noindex — see KNOWN_TOP_SEGMENTS note above).
+// Retired product slugs → their established canonical successor paths (301).
+// The explicit map prevents legacy links from reaching a soft-not-found page.
 // Deliberately fail-open: slugs NOT listed here fall through untouched, so
 // Firestore-only products (not in the static catalog) are never affected.
 // MAINTENANCE: when a product is retired/renamed, add `old-slug: '/brand/category/new-slug'`.
@@ -91,23 +85,19 @@ export default function middleware(request: NextRequest) {
         return NextResponse.next();
     }
 
-    // ── .well-known bypass — standalone API routes, no i18n needed ──
-    // CRITICAL: Simple NextResponse.next() fails because Next.js resolves
-    // /.well-known/xyz as [locale]='.well-known'. We must actively REWRITE
-    // to force the router to use the actual route handler at src/app/.well-known/.
+    // Route well-known documents outside locale handling.
     if (pathname.startsWith('/.well-known')) {
         const url = request.nextUrl.clone();
-        url.pathname = pathname; // Keep the same path
+        url.pathname = pathname;
         return NextResponse.rewrite(url);
     }
 
-    // ── /go URL shortener bypass — standalone route, no i18n needed ──
+    // The short-link route is not localized.
     if (pathname.startsWith('/go')) {
         return NextResponse.next();
     }
 
-    // ── Markdown Content Negotiation (Accept: text/markdown) ──
-    // When AI agents request markdown, rewrite to the markdown negotiation handler
+    // Honor explicit Markdown content negotiation for every caller equally.
     const acceptHeader = request.headers.get('accept') || '';
     if (acceptHeader.includes('text/markdown') && !pathname.startsWith('/api')) {
         const url = request.nextUrl.clone();
@@ -115,84 +105,45 @@ export default function middleware(request: NextRequest) {
         return NextResponse.rewrite(url);
     }
 
-    // /verify is now inside [locale] — let intlMiddleware handle routing
-
-    // ── /admin bypass — internal staff pages, no i18n needed ──
+    // Internal staff pages are not localized or indexable.
     if (pathname.startsWith('/admin')) {
         const response = NextResponse.next();
         response.headers.set('X-Robots-Tag', 'noindex, nofollow');
         return response;
     }
 
-    // ── API Rate Limiting + CORS ──
-    if (pathname.startsWith('/api')) {
-        const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
-            request.headers.get('x-real-ip') ||
-            'unknown';
-        const isWrite = request.method !== 'GET' && request.method !== 'HEAD' && request.method !== 'OPTIONS';
-        const rateResult = checkRateLimit(ip, isWrite);
-
-        // Handle CORS preflight
+    // Preserve cross-origin access only for the documented public API surface.
+    if (PUBLIC_CORS_API_PATHS.has(pathname)) {
         if (request.method === 'OPTIONS') {
             return new NextResponse(null, {
                 status: 204,
-                headers: {
-                    'Access-Control-Allow-Origin': '*',
-                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-                    'Access-Control-Allow-Headers': 'Content-Type, X-API-Key',
-                    'Access-Control-Max-Age': '86400',
-                },
+                headers: PUBLIC_CORS_HEADERS,
             });
         }
-
-        if (!rateResult.allowed) {
-            return NextResponse.json(
-                { error: 'Rate limit exceeded', retryAfter: Math.ceil((rateResult.resetAt - Date.now()) / 1000) },
-                {
-                    status: 429,
-                    headers: {
-                        'Retry-After': String(Math.ceil((rateResult.resetAt - Date.now()) / 1000)),
-                        'X-RateLimit-Limit': String(rateResult.limit),
-                        'X-RateLimit-Remaining': '0',
-                    },
-                },
-            );
-        }
-
         const response = NextResponse.next();
-        response.headers.set('Access-Control-Allow-Origin', '*');
-        response.headers.set('X-RateLimit-Limit', String(rateResult.limit));
-        response.headers.set('X-RateLimit-Remaining', String(rateResult.remaining));
+        for (const [name, value] of Object.entries(PUBLIC_CORS_HEADERS)) {
+            response.headers.set(name, value);
+        }
         return response;
     }
 
-    // ── Block scraper bots (403) ──
-    if (SCRAPER_UA.test(userAgent)) {
-        return new NextResponse('Access Denied.', { status: 403 });
+    // API handlers apply their own authentication, validation, and rate limits.
+    if (pathname.startsWith('/api')) {
+        return NextResponse.next();
     }
 
-    // ── Bot routing ──
-    const isSearchBot = ENGINE_UA.test(userAgent);
-
-    if (isSearchBot) {
+    // Keep the existing crawler-facing 301 destinations for non-canonical
+    // query variants. The path, locale and every unrelated query value remain.
+    if (SEARCH_CRAWLER_UA.test(userAgent)) {
         const url = request.nextUrl.clone();
-
-        // Clean junk query params → 301 to canonical URL
-        let hasJunk = false;
-        JUNK_PARAMS.forEach(param => {
-            if (url.searchParams.has(param)) {
-                url.searchParams.delete(param);
-                hasJunk = true;
+        let changed = false;
+        for (const parameter of CANONICALIZED_QUERY_PARAMS) {
+            if (url.searchParams.has(parameter)) {
+                url.searchParams.delete(parameter);
+                changed = true;
             }
-        });
-        if (hasJunk) {
-            return NextResponse.redirect(url, 301);
         }
-
-        // Block cart/checkout/account pages → 410 Gone
-        if (BOT_BLOCKED_PATHS.some(path => pathname.startsWith(path) || pathname.includes(path))) {
-            return new NextResponse(null, { status: 410 });
-        }
+        if (changed) return NextResponse.redirect(url, 301);
     }
 
     // ── Inject X-Robots-Tag: noindex for admin/transactional pages ──
@@ -208,14 +159,7 @@ export default function middleware(request: NextRequest) {
         return NextResponse.redirect(url, { status: 301 });
     }
 
-    // 0.5 Permanent locale-prefix canonicalization. next-intl redirects /ar/*
-    // to /* (default locale is unprefixed) with a 307 TEMPORARY redirect, so
-    // Google keeps re-crawling every /ar variant instead of consolidating on
-    // the canonical URL (confirmed in GSC: 319 "Page with redirect" pages and
-    // a steady 2% of crawl requests on 302/307). Emit a real 301 before
-    // next-intl gets the request. Nothing is ever SERVED under /ar — with
-    // localePrefix 'as-needed' Arabic lives unprefixed — so this only replaces
-    // an existing redirect's status, never changes a destination.
+    // Canonicalize the optional Arabic prefix with a permanent redirect.
     if (pathname === '/ar' || pathname === '/ar/' || pathname.startsWith('/ar/')) {
         const url = request.nextUrl.clone();
         url.pathname = pathname === '/ar' ? '/' : pathname.slice(3);
@@ -229,14 +173,13 @@ export default function middleware(request: NextRequest) {
         return NextResponse.redirect(url, { status: 301 });
     }
 
-    // 2. Soundcore Migration 301s (May 2026) — Anker audio products moved to /soundcore tree.
+    // Soundcore audio products use the dedicated /soundcore route tree.
     // Patterns:
     //   /anker/audio                  → /soundcore/audio
     //   /anker/audio/{slug}           → /soundcore/audio/{slug}
     //   /anker/speakers               → /soundcore/speakers
     //   /anker/speakers/{slug}        → /soundcore/speakers/{slug}
     //   /en/anker/{audio|speakers}/*  → /en/soundcore/{audio|speakers}/*
-    // Preserves ~95% link equity via 301 + maintains hreflang consistency.
     const soundcoreMigration = pathname.match(
         /^(\/en)?\/anker\/(audio|speakers)(\/.*)?$/
     );
@@ -307,7 +250,7 @@ export default function middleware(request: NextRequest) {
         }
     }
 
-    // ── X-Cache-Status + performance headers for all responses ──
+    // Apply shared response headers after locale resolution.
     const response = intlMiddleware(request);
     if (response) {
         // Apply noindex for transactional pages (confirm, admin, etc.)
@@ -318,29 +261,10 @@ export default function middleware(request: NextRequest) {
         // Clean framework identifiers for all responses
         response.headers.delete('x-powered-by');
 
-        // Resource discovery links only for bots — saves ~380B header per human request
-        const isBot = ENGINE_UA.test(userAgent) || PARTNER_UA.test(userAgent);
-        if (isBot) {
-            const existingLink = response.headers.get('Link');
-            response.headers.set('Link', existingLink ? `${existingLink}, ${RESOURCE_LINKS}` : RESOURCE_LINKS);
-        }
-
-        // Vary: Accept — critical for content negotiation caching (HTML vs markdown)
+        // Keep HTML and explicitly negotiated Markdown cache entries separate.
         response.headers.set('Vary', 'Accept');
 
-        if (PARTNER_UA.test(userAgent)) {
-            response.headers.set('X-Bot-Type', 'partner');
-        }
-
-        // ── Edge-cache content HTML (TTFB ~460ms → ~20ms) ──────────────────
-        // Safe because locale is URL-only (localeDetection:false) and there is
-        // no longer a Set-Cookie (localeCookie:false), so a page's HTML is
-        // byte-identical for every visitor (cart, promo, theme are all
-        // client-side). We hand Cloudflare a `CDN-Cache-Control` it caches the
-        // edge against, while the browser still revalidates (max-age=0) so price
-        // changes are never stale to the user. Transactional/personal routes are
-        // excluded. NOTE: a Cloudflare "Cache Everything" rule on these paths is
-        // required for this to take effect — see deploy notes.
+        // Cache public content at the CDN while excluding personal and transactional pages.
         const isCacheablePage =
             request.method === 'GET' &&
             !/\/(admin|checkout|confirm|cart|account|review|verify)(\/|$)/.test(pathname);
@@ -353,16 +277,8 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-    // Match all paths EXCEPT static files and framework internals.
-    // IMPORTANT: .well-known paths must reach middleware for the rewrite bypass,
-    // even though they contain a dot. We use two patterns:
-    // 1. /.well-known/* — always included
-    // 2. Everything else except paths with dots, _next, __firebase, api/img
-    // 💰 api/img مستثنى: مرور صور /api/img عبر الـ middleware كان يجعل مهايئ
-    //    App Hosting يعيد كتابة Cache-Control إلى private → كل صورة لكل زائر
-    //    تُحاسَب كطلب Cloud Run + وقت 2vCPU (مؤكد حياً: cf-cache-status: DYNAMIC).
-    //    باستثنائها يصل Cache-Control «public, immutable» الذي يرسله الـ route
-    //    فعلاً إلى CDN كلاودفلير/جوجل فتُخدم الصور من الحافة مجاناً.
+    // Include well-known documents and public routes, excluding static assets
+    // and image optimization so their cache headers remain intact.
     matcher: [
         '/.well-known/:path*',
         '/((?!_next|__firebase|api/img|.*\\..*).*)',

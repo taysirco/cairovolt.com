@@ -14,79 +14,41 @@ import { NextResponse } from 'next/server';
 
 export const revalidate = 86400; // 24h ISR
 
-export function GET() {
-    const baseUrl = 'https://cairovolt.com';
+const BASE_URL = 'https://cairovolt.com';
+const CATALOG_URL = `${BASE_URL}/.well-known/api-catalog`;
+const CATALOG_LINK = `<${CATALOG_URL}>; rel="api-catalog"; type="application/linkset+json"`;
 
+const responseHeaders = {
+    'Content-Type': 'application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"',
+    'Cache-Control': 'public, max-age=86400, s-maxage=86400',
+    'Access-Control-Allow-Origin': '*',
+    Link: CATALOG_LINK,
+};
+
+export function GET() {
     const catalog = {
         linkset: [
             {
-                anchor: `${baseUrl}/api/v1/checkout`,
+                anchor: CATALOG_URL,
+                item: [
+                    { href: `${BASE_URL}/api/v1/checkout` },
+                    { href: `${BASE_URL}/api/v1/quick-cod` },
+                    { href: `${BASE_URL}/api/orders` },
+                    { href: `${BASE_URL}/api/products` },
+                    { href: `${BASE_URL}/api/verify` },
+                    { href: `${BASE_URL}/api/feed` },
+                    { href: `${BASE_URL}/api/knowledge-graph` },
+                    { href: `${BASE_URL}/api/llms/catalog` },
+                ],
                 'service-desc': [
                     {
-                        href: `${baseUrl}/api/openapi.json`,
+                        href: `${BASE_URL}/api/openapi.json`,
                         type: 'application/json',
                     },
                 ],
                 'service-doc': [
                     {
-                        href: `${baseUrl}/.well-known/llms.txt`,
-                        type: 'text/plain',
-                    },
-                ],
-            },
-            {
-                anchor: `${baseUrl}/api/products`,
-                'service-desc': [
-                    {
-                        href: `${baseUrl}/api/openapi.json`,
-                        type: 'application/json',
-                    },
-                ],
-                'service-doc': [
-                    {
-                        href: `${baseUrl}/.well-known/llms.txt`,
-                        type: 'text/plain',
-                    },
-                ],
-            },
-            {
-                anchor: `${baseUrl}/api/feed`,
-                'service-desc': [
-                    {
-                        href: `${baseUrl}/api/openapi.json`,
-                        type: 'application/json',
-                    },
-                ],
-                'service-doc': [
-                    {
-                        href: `${baseUrl}/.well-known/llms.txt`,
-                        type: 'text/plain',
-                    },
-                ],
-            },
-            {
-                anchor: `${baseUrl}/api/knowledge-graph`,
-                'service-desc': [
-                    {
-                        href: `${baseUrl}/api/openapi.json`,
-                        type: 'application/json',
-                    },
-                ],
-            },
-            {
-                anchor: `${baseUrl}/api/lab-data/json`,
-                'service-desc': [
-                    {
-                        href: `${baseUrl}/api/openapi.json`,
-                        type: 'application/json',
-                    },
-                ],
-            },
-            {
-                anchor: `${baseUrl}/api/llms/catalog`,
-                'service-doc': [
-                    {
-                        href: `${baseUrl}/.well-known/llms.txt`,
+                        href: `${BASE_URL}/.well-known/llms.txt`,
                         type: 'text/plain',
                     },
                 ],
@@ -95,10 +57,11 @@ export function GET() {
     };
 
     return NextResponse.json(catalog, {
-        headers: {
-            'Content-Type': 'application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"',
-            'Cache-Control': 'public, max-age=86400, s-maxage=86400',
-            'Access-Control-Allow-Origin': '*',
-        },
+        headers: responseHeaders,
     });
+}
+
+/** RFC 9727 requires the well-known resource's HEAD response to advertise it. */
+export function HEAD() {
+    return new NextResponse(null, { status: 200, headers: responseHeaders });
 }

@@ -48,12 +48,12 @@ export const using_phone_while_charging_battery_explosion_myth: BlogArticle = {
             ],
             content: `<p>الساعة 2 بالليل، إنت ممدد على السرير بعد يوم طويل، المروحة بتلف فوق دماغك، الموبايل في الشاحن، وإنت فاتح ماتش ببجي (PUBG) حامي أو شغال سكرولينج بلا نهاية على تيك توك. صباعك الصغير ساند الموبايل من تحت، وبدأت تحس بسخونة بتتسرب لبطن إيدك. فجأة، يمر في دماغك البوست المرعب اللي شفته على الفيسبوك الأسبوع اللي فات عن الواد اللي موبايله انفجر في وشه وهو نايم عشان كان بيكلم خطيبته وهو بيشحن. نبضات قلبك بتزيد سنة، وبتبدأ تبص للموبايل بشك: "هل الموبايل ده ممكن يفرقع في وشي دلوقتي؟ ولا دي إشاعات فيسبوكية ملهاش أساس علمي؟"</p>
 
-<p>يا صديقي الطالب أو المهندس المستقبلي، متقلقش، إحنا هنا في معمل كايرو فولت عشان نجاوبك بالفيزياء والأرقام، مش بالتهويل والبوستات المفبركة. الدكتور في الكلية كان دايماً بيقولنا: "اعرف العلم، ترتاح من الوهم". في المقال ده، هناخدك في رحلة جوه بطارية الموبايل بتاعتك، ونشرحلك بالظبط إيه اللي بيحصل لما بتشحن وتستخدم الجهاز في نفس الوقت، وليه الحرارة بتطلع، وإيه الفرق الحقيقي بين الشاحن الأصلي اللي بيحمي جهازك والشاحن الصيني اللي بـ 30 جنيه اللي ممكن فعلاً يحول أوضتك لساحة تجارب عسكرية. هنعرف هل اللعب أثناء الشحن بيبوظ البطارية ولا بيفجرها، وإزاي تحمي نفسك وجهازك بخطوات عملية وصارمة.</p>
+<p>يا صديقي الطالب أو المهندس المستقبلي، متقلقش، إحنا هنا في هذا الدليل عشان نجاوبك بالفيزياء والأرقام، مش بالتهويل والبوستات المفبركة. الدكتور في الكلية كان دايماً بيقولنا: "اعرف العلم، ترتاح من الوهم". في المقال ده، هناخدك في رحلة جوه بطارية الموبايل بتاعتك، ونشرحلك بالظبط إيه اللي بيحصل لما بتشحن وتستخدم الجهاز في نفس الوقت، وليه الحرارة بتطلع، وإيه الفرق الحقيقي بين الشاحن الأصلي اللي بيحمي جهازك والشاحن الصيني اللي بـ 30 جنيه اللي ممكن فعلاً يحول أوضتك لساحة تجارب عسكرية. هنعرف هل اللعب أثناء الشحن بيبوظ البطارية ولا بيفجرها، وإزاي تحمي نفسك وجهازك بخطوات عملية وصارمة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الخلاصة العلمية السريعة:</strong>
-        استخدام الموبايل أثناء الشحن بشاحن وكابل أصليين متوافقين آمن تماماً ولا يسبب انفجار البطارية إطلاقاً. الهواتف الحديثة مجهزة بدوائر حماية ذكية تتحكم في التيار والحرارة. الخطر الحقيقي يكمن في ثلاثة أشياء: (1) استخدام شواحن ومحولات رخيصة مقلدة تفتقد لدوائر فصل الأمان الكهربائي، (2) شحن الهاتف وتغطيته تحت المخدة أو استخدامه في مكان شديد الحرارة مما يمنع تصريف الحرارة ويسبب "الهروب الحراري" (Thermal Runaway)، (3) تلف فيزيائي سابق للبطارية (انتفاخ أو ثقب).
+        استخدام الموبايل أثناء الشحن قد يزيد الحمل والحرارة، ولا يمكن وصفه بأنه آمن تماماً في كل حالة. استخدم شاحناً وكابلاً مطابقين للمواصفات، واترك الجهاز مكشوفاً للتهوية، وتوقف فوراً عند سخونة غير طبيعية أو انتفاخ أو رائحة أو تلف، واطلب فحصاً مختصاً.
     </p>
 </div>
 
@@ -139,22 +139,14 @@ export const using_phone_while_charging_battery_explosion_myth: BlogArticle = {
 
 <p>اقرأ مقالنا حول <a href="/blog/keep-phone-battery-health-above-80-percent-tips">طريقة الحفاظ على صحة بطارية الآيفون فوق 80%</a> لمزيد من النصائح الذهبية.</p>
 
-<div class="expert-callout" style="background:#fefce8;border:1px solid #fbbf24;border-right:4px solid #ca8a04;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#ca8a04;font-weight:bold;">🔬 اختبارات كايرو فولت الميدانية</p>
-    <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        قمنا بقياس درجة حرارة هاتف ذكي أثناء شحنه بشاحن سريع 33 واط. 
-        عند استخدام الهاتف في التصفح الخفيف، بلغت الحرارة 36.5 درجة مئوية. 
-        وعند تشغيل لعبة ثقيلة (PUBG) لمدة 20 دقيقة أثناء الشحن، قفزت الحرارة إلى **46.8 درجة مئوية**. 
-        وعند تغطية الهاتف ببطانية خفيفة أثناء نفس الاختبار، تجاوزت الحرارة **53.2 درجة مئوية** وفصل الهاتف الشحن تلقائياً لحماية البطارية.
-    </p>
-</div>
+
 
 <h2>سادساً: 7 قواعد ذهبية للشحن والاستخدام الآمن</h2>
 <p>عشان تحمي نفسك وعيلتك وموبايلك، التزم بالقواعد دي:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔌 <strong>استخدم شواحن معتمدة فقط:</strong> استثمر في شاحن محترم زي <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45 واط</a> أو <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن جويروم 30 واط</a>. دول فيهم دوائر حماية حقيقية بتفصل عند السخونة.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>كابل شحن أصلي متين:</strong> كابل زي <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C</a> بيضمن توصيل تيار مستقر وبدون تذبذب وبتحمل الثني المتكرر.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>اختر كابلاً سليماً بالمواصفات المناسبة:</strong> افحص قدرة وتوافق <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل انكر PowerLine USB-C</a> أو أي بديل، واستبدل الكابل إذا ظهرت سخونة غير معتادة أو تلف عند الأطراف. اسم العلامة وحده لا يضمن تياراً بلا تذبذب أو عمراً محدداً.</li>
     <li style="margin-bottom:12px;">🎮 <strong>افصل الشاحن أثناء اللعب التقيل:</strong> لو عايز تلعب ببجي أو فري فاير لساعات، العب وأنت مش موصل الشاحن، أو اشحن الموبايل الأول وبعدين العب. تداخل الحرارة بيقصر عمر البطارية الكيميائي بسرعة جداً.</li>
     <li style="margin-bottom:12px;">💨 <strong>اشحن على سطح صلب ومكشوف:</strong> اشحن الموبايل على مكتب خشب أو كومودينو زجاجي. متنشحنوش على الكنبة أو السرير عشان الحرارة تتسرب بسهولة.</li>
     <li style="margin-bottom:12px;">🌡️ <strong>لو الموبايل سخن، سيبه يبرد:</strong> لو حسيت إن الموبايل سخن جداً في إيدك، شيله من الشاحن واقفل الألعاب وسيبه على المكتب 5 دقائق لحد ما يبرد. متجبروش يستمر تحت الحمل الحراري العالي.</li>
@@ -191,7 +183,7 @@ export const using_phone_while_charging_battery_explosion_myth: BlogArticle = {
             ],
             content: `<p>It's 2:00 AM. You are lying in bed after a exhausting day in Cairo's heat, the ceiling fan spinning above you. Your phone is plugged into the charger, and you are locked in an intense PUBG match or endlessly scrolling through TikTok. Your pinky finger supports the bottom of the device, and you start to feel a distinct heat radiating into your palm. Suddenly, you recall a terrifying Facebook post from last week about a phone exploding in someone's face while they were charging and calling. Your heart rate quickens, and you look at your device with suspicion: "Could this thing explode in my face right now? Or is it just another urban myth?"</p>
 
-<p>Do not worry. Here at the CairoVolt lab, we believe in physics, datasheets, and real numbers, not social media sensationalism. As our professors at Cairo University's electronics department always said: "Understand the science, and you will be free from the myth." In this article, we will take you inside your phone's battery, explaining exactly what happens when you charge and use the device simultaneously. You will learn why heat is generated, the real difference between a premium charger that protects your device and a cheap 30 EGP counterfeit from a street kiosk, and how you can charge and play safely by following simple, strict guidelines.</p>
+<p>Do not worry. Here In this guide, we believe in physics, datasheets, and real numbers, not social media sensationalism. As our professors at Cairo University's electronics department always said: "Understand the science, and you will be free from the myth." In this article, we will take you inside your phone's battery, explaining exactly what happens when you charge and use the device simultaneously. You will learn why heat is generated, the real difference between a premium charger that protects your device and a cheap 30 EGP counterfeit from a street kiosk, and how you can charge and play safely by following simple, strict guidelines.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -236,7 +228,7 @@ export const using_phone_while_charging_battery_explosion_myth: BlogArticle = {
 <p>Check out our detailed guide on <a href="/en/blog/do-fake-chargers-damage-iphone-battery" style="color:#2563eb;font-weight:600;">how fake chargers damage iPhone batteries</a> to understand this chemical degradation process.</p>
 
 <h2>4. Lab Comparison Table: Authentic vs. Counterfeit Chargers</h2>
-<p>To highlight the stark contrast, here is our lab comparison based on standard electrical safety tests:</p>
+<p>To highlight the stark contrast, here is published specifications comparison based on standard electrical safety tests:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -282,22 +274,14 @@ export const using_phone_while_charging_battery_explosion_myth: BlogArticle = {
 
 <p>Read our full guide on <a href="/en/blog/keep-phone-battery-health-above-80-percent-tips">how to keep phone battery health above 80%</a> for more lab-tested advice.</p>
 
-<div class="expert-callout" style="background:#fefce8;border:1px solid #fbbf24;border-left:4px solid #ca8a04;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#ca8a04;font-weight:bold;">🔬 CairoVolt Lab Test Results</p>
-    <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We measured smartphone battery temperatures during 33W fast charging. 
-        Under light browsing, the battery stayed at 36.5°C. 
-        When playing PUBG for 20 minutes while charging, the temperature spiked to **46.8°C**. 
-        When we covered the charging phone with a blanket, it reached **53.2°C**, causing the internal BMS to shut down charging to prevent thermal damage.
-    </p>
-</div>
+
 
 <h2>6. Seven Golden Rules for Safe Charging and Gaming</h2>
 <p>To protect your device, home, and family, follow these rules:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔌 <strong>Use Certified Chargers:</strong> Invest in high-quality power bricks like the <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> or <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W Fast Charger</a>. These contain built-in protection ICs that auto-cutoff under thermal stress.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>Choose Braided, Certified Cables:</strong> Cables like <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C</a> ensure clean current delivery and high bend resistance.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>Choose an undamaged cable with the required rating:</strong> Check the specifications of the <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C</a> or any alternative, and replace a cable that develops unusual heat or connector damage. A brand name alone does not guarantee ripple-free power or a particular service life.</li>
     <li style="margin-bottom:12px;">🎮 <strong>Disconnect the Charger Before Heavy Gaming:</strong> If you plan to play games for hours, unplug the phone. Charge first, then play. Avoid combining CPU thermal load with battery charging heat.</li>
     <li style="margin-bottom:12px;">💨 <strong>Charge on Hard, Flat Surfaces:</strong> Charge your phone on a wooden desk or glass nightstand, never on a sofa or bed.</li>
     <li style="margin-bottom:12px;">🌡️ <strong>Let It Cool Down:</strong> If your phone feels uncomfortably hot, unplug it, close all apps, and let it rest for 5 minutes.</li>

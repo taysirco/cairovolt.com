@@ -96,8 +96,7 @@ export default function ReviewForm({ token, productName, customerName, locale }:
                         ? 'تم إرسال تقييمك بنجاح. رأيك يُحدث فرقاً ويساعد عملاء آخرين!'
                         : 'Your review has been submitted successfully. Your opinion makes a difference!'}
                 </p>
-                {/* Sentiment-neutral thank-you reward — shown for EVERY submitted
-                    review regardless of rating (Google review policy compliant) */}
+                {/* Sentiment-neutral thank-you shown after every submitted review. */}
                 <div className="review-success__reward">
                     <div className="review-success__reward-label">
                         {isArabic

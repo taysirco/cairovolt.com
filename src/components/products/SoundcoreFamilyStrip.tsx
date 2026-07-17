@@ -1,8 +1,5 @@
-// Server Component — Soundcore-family strip shown at the top of /anker.
-// Surfaces the 7 most-requested Soundcore products as part of the Anker
-// family, linking each card to its CANONICAL /soundcore/... URL (pure
-// internal links — no duplicate content, hub equity flows to the audio
-// sub-brand). Emits an ItemList JSON-LD for the ranked list.
+// Soundcore-family product strip shown on the Anker brand page.
+// Product cards link to their canonical /soundcore/... URLs.
 
 import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
@@ -14,9 +11,7 @@ interface SoundcoreFamilyStripProps {
     locale: string;
 }
 
-// Most-requested Soundcore products, popularity order (owner-curated):
-// R50i family drives volume, Liberty 5 is the flagship, K20i/P20i the
-// budget movers, A25i the rising pick, Flare 2 the speaker staple.
+// Curated Soundcore catalogue entries.
 const soundcoreTopSeven: string[] = [
     'anker-soundcore-r50i-nc',
     'anker-soundcore-r50i',
@@ -42,15 +37,15 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
     const getLocalizedHref = (path: string) => (isRTL ? path : `/${locale}${path}`);
     const canonicalBase = `https://cairovolt.com${isRTL ? '' : '/en'}`;
 
-    // Ranked ItemList over the canonical Soundcore URLs.
+    // ItemList over the canonical Soundcore URLs.
     const itemListSchema = {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
         name: isRTL
-            ? localizeArabicBrandNames('أهم 7 منتجات Soundcore — الصوتيات من عائلة Anker')
-            : 'Top 7 Soundcore Products — Audio from the Anker Family',
+            ? localizeArabicBrandNames('7 مختارات Soundcore — الصوتيات من عائلة Anker')
+            : '7 Soundcore Picks — Audio from the Anker Family',
         numberOfItems: products.length,
-        itemListOrder: 'https://schema.org/ItemListOrderDescending',
+        itemListOrder: 'https://schema.org/ItemListUnordered',
         itemListElement: products.map((p, idx) => ({
             '@type': 'ListItem',
             position: idx + 1,
@@ -79,13 +74,13 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
                         </span>
                         <h2 id="soundcore-family-heading" className="mt-3 md:mt-4 text-xl font-black text-white md:text-4xl">
                             {isRTL
-                                ? localizeArabicBrandNames('أهم 7 صوتيات من عائلة Anker')
-                                : 'Top 7 Audio Picks from the Anker Family'}
+                                ? localizeArabicBrandNames('7 مختارات صوتية من عائلة Anker')
+                                : '7 Audio Picks from the Anker Family'}
                         </h2>
                         <p className="mt-1.5 md:mt-2 max-w-2xl text-xs text-gray-400 md:text-base">
                             {isRTL
-                                ? localizeArabicBrandNames('Soundcore هي علامة الصوتيات من Anker — دي أكثر 7 منتجات طلبًا عند عملائنا، بنفس ضمان وأصالة Anker.')
-                                : 'Soundcore is Anker\'s audio brand — these are our 7 most-requested picks, with the same Anker warranty and authenticity.'}
+                                ? localizeArabicBrandNames('Soundcore هي علامة الصوتيات من Anker — دي مختارات من الكتالوج، وشروط ضمان كايرو فولت موضحة في صفحة كل منتج.')
+                                : 'Soundcore is Anker\'s audio brand. These are catalogue picks, with CairoVolt warranty terms stated on each product page.'}
                         </p>
                     </div>
                     <Link
@@ -99,7 +94,7 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
 
                 {/* 7-card strip: snap-scroll on mobile, single row from lg up */}
                 <div className="-mx-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 md:gap-4 lg:mx-0 lg:grid lg:grid-cols-7 lg:overflow-visible lg:px-0">
-                    {products.map((product, idx) => {
+                    {products.map((product) => {
                         const t = product.translations[isRTL ? 'ar' : 'en'];
                         const productName = isRTL
                             ? localizeArabicBrandNames(t.name)
@@ -111,10 +106,6 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
                                 href={href}
                                 className="group relative w-36 shrink-0 snap-start overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] transition duration-300 hover:-translate-y-1 hover:border-orange-400/40 hover:bg-white/[0.07] sm:w-40 lg:w-auto"
                             >
-                                {/* Rank chip */}
-                                <span className={`absolute top-2 z-10 flex h-6 w-6 items-center justify-center rounded-full text-[11px] font-black text-white shadow ${isRTL ? 'right-2' : 'left-2'} ${idx === 0 ? 'bg-gradient-to-br from-yellow-400 to-amber-500' : 'bg-black/50'}`}>
-                                    {idx + 1}
-                                </span>
                                 <div className="relative aspect-square overflow-hidden bg-white">
                                     {product.images?.[0]?.url && (
                                         <ProductImage

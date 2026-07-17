@@ -1,19 +1,11 @@
-/**
- * 🎟️ تحقق الكوبونات الديناميكي — مصدر الحقيقة: سيستم الحسابات (acc_coupons)
- *
- * يستعلم عن الكود من CRM `/api/public/coupons` (server-to-server بنفس سر الويبهوك
- * CRM_WEBHOOK_SECRET) مع كاش داخلي 60 ثانية لكل كود. لو الـCRM غير متاح لأي سبب،
- * fallback محلي للكودين التاريخيين حتى لا يتعطل checkout أبداً.
- *
- * الرد الموحّد: { valid, type: 'percent'|'fixed', value } — احتساب الخصم عند المستدعي.
- */
+/** Server-side coupon validation backed by the accounting CRM. */
 
 interface CouponVerdict { valid: boolean; type: 'percent' | 'fixed'; value: number }
 
 const cache = new Map<string, { at: number; v: CouponVerdict }>();
 const TTL = 60_000;
 
-/** fallback الطوارئ (الكودان التاريخيان قبل النظام الديناميكي) — يعمل فقط عند تعذّر الـCRM */
+/** Local fallback for established codes when the CRM is unavailable. */
 function fallbackVerdict(code: string): CouponVerdict {
   if (code === 'ORIGINAL10') return { valid: true, type: 'percent', value: 10 };
   if (code === 'SALARY10') {
@@ -24,8 +16,12 @@ function fallbackVerdict(code: string): CouponVerdict {
 }
 
 export async function validateCoupon(rawCode: string): Promise<CouponVerdict> {
-  const code = String(rawCode || '').trim().toUpperCase().replace(/[^A-Z0-9_-]/g, '').slice(0, 24);
-  if (code.length < 3) return { valid: false, type: 'percent', value: 0 };
+  const submittedCode = String(rawCode || '').trim().toUpperCase().replace(/[^A-Z0-9_-]/g, '').slice(0, 24);
+  if (submittedCode.length < 3) return { valid: false, type: 'percent', value: 0 };
+
+  // WARRANTY10 is the customer-facing name. Keep the established CRM code as
+  // a compatibility alias so existing orders and campaign links still work.
+  const code = submittedCode === 'WARRANTY10' ? 'ORIGINAL10' : submittedCode;
 
   const hit = cache.get(code);
   if (hit && Date.now() - hit.at < TTL) return hit.v;
@@ -42,14 +38,22 @@ export async function validateCoupon(rawCode: string): Promise<CouponVerdict> {
       });
       if (res.ok) {
         const d = await res.json();
+        const type: CouponVerdict['type'] = d.type === 'fixed' ? 'fixed' : 'percent';
+        const rawValue = Number(d.value);
+        const maximum = type === 'fixed' ? 1_000_000 : 100;
+        const value = Number.isFinite(rawValue)
+          ? Math.min(maximum, Math.max(0, rawValue))
+          : 0;
         verdict = {
-          valid: d.valid === true,
-          type: d.type === 'fixed' ? 'fixed' : 'percent',
-          value: Number(d.value) || 0,
+          valid: d.valid === true && value > 0,
+          type,
+          value,
         };
       }
-    } catch (e) {
-      console.warn(`[Coupons] ⚠️ تعذّر تحقق الـCRM للكود ${code} — fallback محلي:`, (e as Error).message);
+    } catch {
+      if (process.env.NODE_ENV === 'development') {
+        console.warn('[Coupons] CRM validation unavailable; using the local fallback.');
+      }
     }
   }
   if (!verdict) verdict = fallbackVerdict(code);
@@ -58,9 +62,12 @@ export async function validateCoupon(rawCode: string): Promise<CouponVerdict> {
   return verdict;
 }
 
-/** حساب قيمة الخصم من الحكم — نسبة تُقرَّب، ومبلغ ثابت لا يتجاوز المجموع الفرعي */
+/** Calculate a non-negative discount that never exceeds the subtotal. */
 export function computeDiscount(v: CouponVerdict, subtotal: number): number {
-  if (!v.valid || subtotal <= 0) return 0;
-  if (v.type === 'fixed') return Math.min(Math.round(v.value), subtotal);
-  return Math.round(subtotal * (v.value / 100));
+  if (!v.valid || !Number.isFinite(subtotal) || subtotal <= 0) return 0;
+  const value = Number.isFinite(v.value) ? Math.max(0, v.value) : 0;
+  const computed = v.type === 'fixed'
+    ? Math.round(value)
+    : Math.round(subtotal * (Math.min(value, 100) / 100));
+  return Math.min(subtotal, Math.max(0, computed));
 }

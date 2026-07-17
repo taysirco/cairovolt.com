@@ -28,51 +28,51 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
     },
     translations: {
         ar: {
-            title: 'Soundcore Liberty 4 NC — مراجعة شاملة لملك عزل الضوضاء في الفئة المتوسطة',
-            metaTitle: 'مراجعة سماعة Soundcore Liberty 4 NC وعزل الضوضاء | كايرو فولت',
-            metaDescription: 'مراجعة سماعة Soundcore Liberty 4 NC وعزل الضوضاء ANC الفعلي حتى 46 ديسيبل، وأداء خوارزميات الصوت، والبطارية الفائقة، والضمان المعتمد والسعر في مصر.',
+            title: 'ساوندكور Liberty 4 NC — دليل المواصفات وعوامل أداء عزل الضوضاء',
+            metaTitle: 'دليل سماعة ساوندكور Liberty 4 NC وعزل الضوضاء | كايرو فولت',
+            metaDescription: 'دليل ساوندكور Liberty 4 NC: المواصفات المنشورة وميزات ANC وLDAC والبطارية، مع عوامل الأداء والسعر وشروط الضمان الحالية في مصر.',
             keywords: 'soundcore liberty 4 nc مراجعة, soundcore liberty 4 nc مصر, liberty 4 nc سعر مصر, liberty 4 nc anc, soundcore liberty 4 nc bose مقارنة, liberty 4 nc ldac, liberty 4 nc مكالمات, soundcore liberty 4 nc اختبار, افضل سماعة anc مصر, liberty 4 nc جودة صوت',
-            excerpt: 'Liberty 4 NC تدعي إلغاء 98.5% من الضوضاء الخارجية. اختبرنا قوة العزل النشط ANC في شوارع القاهرة ومحطات المترو المزدحمة لمعرفة الحقيقة الكاملة.',
-            quickAnswer: 'تعد سماعة Soundcore Liberty 4 NC الخيار الأفضل لعزل الضوضاء (ANC) في فئتها السعرية بمصر (حوالي 2,570 جنيه). تتميز بعزل متكيف ذكي، وصوت Hi-Res مع ترميز LDAC، وميزة الاتصال متعدد الأجهزة Multipoint، مع بطارية استثنائية تدوم لـ 10 ساعات متواصلة (أو 50 ساعة مع العلبة).',
-            content: `<p>حققت سماعة Soundcore Liberty 4 NC شهرة واسعة في السوق المصري بصفة خاصة والأسواق العالمية بصفة عامة، بفضل وعودها الكبيرة بتقديم تجربة إلغاء ضوضاء نشط (ANC) تضاهي أداء سماعات الفئة الرائدة وبكسر بسيط من سعرها. ومع تزايد التضخم وتغيرات الأسعار المستمرة في مصر، يبحث المستهلك عن سماعة تقدم أفضل قيمة حقيقية مقابل المال دون التضحية بالتقنيات الحديثة. في هذه المراجعة العميقة والصادقة من معمل كايرو فولت، سنضع سماعة Liberty 4 NC تحت الاختبار الفعلي في أكثر الأماكن صخباً بمصر لنكشف لك عن حقيقة قوتها الفنية.</p>
+            excerpt: 'دليل عملي يشرح المواصفات المنشورة والعوامل التي تؤثر في الأداء الفعلي، مع نصائح تساعدك على المقارنة والاختيار بوعي.',
+            quickAnswer: 'تعلن ساوندكور عن عزل متكيف وLDAC واتصال Multipoint وأرقام تشغيل تختلف حسب الوضع. قارن الملاءمة وطريقة قياس ANC والبطارية والتوافق والسعر وشروط الضمان الحالية قبل الشراء، فالأداء الفعلي للعزل والبطارية يتغير حسب إحكام الأطراف وطريقة الاستخدام.',
+            content: `<p>حققت سماعة ساوندكور Liberty 4 NC انتشاراً واسعاً في السوق المصري بصفة خاصة والأسواق العالمية بصفة عامة، بفضل مواصفاتها المعلنة التي تجمع بين عزل الضوضاء المتكيف ANC 2.0 وترميز LDAC عالي الدقة وبطارية طويلة، بسعر أقل بوضوح من أسعار الفئة الرائدة. ومع تغيرات الأسعار المستمرة في مصر، يبحث المستهلك عن سماعة تقدم أفضل قيمة حقيقية مقابل المال دون التضحية بالتقنيات الحديثة. في هذا الدليل من كايرو فولت نستعرض المواصفات الرسمية المنشورة للسماعة، ونشرح العوامل العملية التي تحدد أداءها الفعلي في الاستخدام اليومي لتتمكن من اتخاذ قرار شراء واعٍ.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>الحكم النهائي لـ Soundcore Liberty 4 NC:</strong> تقدم السماعة أداء عزل ضوضاء خارق لا يمكن منافسته في فئتها السعرية حول <strong>2,570 جنيه مصري</strong>. بفضل تقنية ANC 2.0 المتكيفة وترميز LDAC، توفر تجربة استماع معزولة تماماً وعمر بطارية فعلي يتجاوز 9 ساعات ونصف مع تشغيل العزل، مما يجعلها الصفقة الأذكى في السوق الحالي.
+        <strong>الخلاصة عن ساوندكور Liberty 4 NC:</strong> راجع مواصفات Adaptive ANC وLDAC وMultipoint والبطارية المنشورة، ثم قارنها بالاستخدام والملاءمة والسعر الحالي. أداء العزل ومدة التشغيل يختلفان حسب إحكام الأطراف والضوضاء ومستوى الصوت والترميز، لذلك اعتمد على الأرقام الرسمية المنشورة لكل وضع، وراجع صفحة المنتج لمعرفة السعر الحالي وقت الطلب.
     </p>
 </div>
 
-<h2>المواصفات الفنية الحقيقية — مقارنة الأرقام بالواقع</h2>
-<p>إليك الجدول الشامل للمواصفات الفنية لـ Liberty 4 NC والتقييمات الفعلية التي سجلناها في معملنا:</p>
+<h2>المواصفات المنشورة وكيف تتغير في الاستخدام</h2>
+<p>يلخص الجدول التالي المواصفات الرسمية المنشورة لسماعة Liberty 4 NC، مع ملاحظات عملية توضح ما يجب التحقق منه بنفسك، لأن الأرقام المعلنة تُقاس في ظروف مثالية قد تختلف عن ظروف استخدامك اليومي:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المواصفة الفنية</th>
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المعلن رسمياً</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الأداء الفعلي في معمل كايرو فولت</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">ما يجب التحقق منه عملياً</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">محرك الصوت (Driver)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">11 مم مخصص</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">صوت قوي جداً مع باص عميق ومستويات صوت عالية للغاية.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">جرّب الملاءمة ومستوى الصوت الآمن واضبط EQ حسب تفضيلك.</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">تقنية عزل الضوضاء</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">ANC 2.0 — حتى 98.5%</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">عزل مذهل للترددات المنخفضة وضوضاء المحركات ومكيفات الهواء.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">النتيجة تعتمد على إحكام الأطراف ونوع الضوضاء وإعداد ANC.</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">البطارية (مع تشغيل ANC)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">10 ساعات متواصلة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">تستمر لنحو 9.2 إلى 9.5 ساعة فعلية على مستوى صوت 70%.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">المدة تختلف حسب ANC ومستوى الصوت والترميز والمكالمات والحرارة.</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">البطارية (بدون ANC)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">12 ساعة متواصلة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">حققت 11.5 ساعة كاملة في اختبار الاستماع المتواصل.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">استخدم الرقم المنشور مرجعاً ولا تعتبره ضماناً لمدة فعلية.</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">البطارية الإجمالية (مع العلبة)</td>
@@ -96,15 +96,15 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
 <p>تعتمد سماعة Liberty 4 NC على نظام عزل ضوضاء متقدم جداً يطلق عليه اسم Adaptive ANC 2.0. هذا النظام لا يعتمد على ملف تعريف عزل ثابت، بل يقوم بعملية معايرة مستمرة:</p>
 <ul>
     <li><strong>مستشعر الصوت في الوقت الفعلي:</strong> تقوم الميكروفونات الخارجية والداخلية بقياس الأصوات المحيطة وهيكل قناة الأذن الخاص بك باستمرار، لتعديل موجات إلغاء الضوضاء المناسبة فوراً.</li>
-    <li><strong>اختبار المعايرة المخصص HearID ANC:</strong> يمكنك تشغيل هذا الاختبار عبر تطبيق Soundcore في بيئة صاخبة؛ حيث تقوم السماعة بإصدار نغمات اختبارية قصيرة لقياس كيفية ارتداد الصوت داخل قناة أذنك، وتقوم بتخصيص خوارزمية العزل لتناسب شكل أذنك الفريد لزيادة فاعلية حجب الأصوات بنسبة كبيرة.</li>
+    <li><strong>اختبار المعايرة المخصص HearID ANC:</strong> يمكنك تشغيل هذا الاختبار عبر تطبيق ساوندكور في بيئة صاخبة؛ حيث تقوم السماعة بإصدار نغمات اختبارية قصيرة لقياس كيفية ارتداد الصوت داخل قناة أذنك، وتقوم بتخصيص خوارزمية العزل لتناسب شكل أذنك الفريد لزيادة فاعلية حجب الأصوات بنسبة كبيرة.</li>
 </ul>
 
 <h2>أداء عزل الضوضاء في الحياة اليومية بمصر</h2>
-<p>قمنا باختبار السماعة في ثلاث بيئات رئيسية تمثل تحدياً كبيراً لأي سماعة لاسلكية في الشارع المصري:</p>
+<p>فيما يلي ثلاث بيئات شائعة يستخدم فيها المصريون سماعات عزل الضوضاء يومياً، وما الذي يمكن توقعه في كل منها بناءً على طبيعة عمل تقنية ANC نفسها:</p>
 <ol>
-    <li><strong>مترو أنفاق القاهرة:</strong> تعتبر ضوضاء المترو التي تتراوح بين 75 إلى 85 ديسيبل من أصعب الاختبارات. مع تشغيل وضع ANC في Liberty 4 NC، اختفت أصوات المحركات واحتكاك القطار بالقضبان بنسبة تصل لـ 90%، مما أتاح لنا الاستماع للملفات الصوتية والبودكاست بوضوح تام وعلى مستوى صوت متوسط دون الحاجة لرفعه لمستويات خطيرة على حاسة السمع.</li>
-    <li><strong>المقاهي المزدحمة وكافيهات وسط البلد:</strong> تتميز هذه الأماكن بمزيج من الموسيقى الخلفية المرتفعة، وصوت ماكينات القهوة، والأحاديث الجانبية. استطاعت السماعة كتم ضوضاء ماكينات الإسبريسو والأصوات البعيدة تماماً، بينما تحولت الأحاديث البشرية القريبة جداً إلى همس خافت غير مشتت للانتباه.</li>
-    <li><strong>الشوارع الصاخبة وأبواق السيارات:</strong> تنجح السماعة في إزالة همهمة محركات السيارات تماماً. أما بالنسبة لأصوات التنبيه الحادة المفاجئة (Horns)، فإن السماعة تقوم بتخفيف حدتها بشكل كبير لحمايتك، ولكنها لا تلغيها بالكامل لأسباب تتعلق بالسلامة والأمان أثناء السير.</li>
+    <li><strong>مترو أنفاق القاهرة:</strong> أنظمة ANC عموماً أكثر فاعلية مع الضوضاء المنخفضة المستمرة مثل هدير القطارات واحتكاك العجلات بالقضبان، بينما تختلف نسبة الخفض الفعلية حسب إحكام الأطراف وشدة الضجيج. حافظ على مستوى صوت آمن.</li>
+    <li><strong>المقاهي المزدحمة:</strong> الأصوات البشرية والمتغيرة أصعب عادة من الهمهمة المستمرة، والنتيجة تعتمد على إحكام الأطراف والإعداد.</li>
+    <li><strong>الشوارع وأبواق السيارات:</strong> لا تعتمد على ANC كوسيلة سلامة ولا تفترض أنه يبقي التنبيهات مسموعة دائماً؛ استخدم وضع الشفافية عند الحاجة وانتبه للمحيط.</li>
 </ol>
 
 <h2>جودة الصوت وأهمية دعم ترميز LDAC</h2>
@@ -124,8 +124,8 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
 <h2>الاتصال متعدد الأجهزة (Multipoint Connection) وديناميكية العمل</h2>
 <p>تتيح ميزة Multipoint اتصال السماعة بجهازين في نفس الوقت عبر البلوتوث 5.3 (مثل هاتفك المحمول وجهاز اللاب توب الخاص بك). إذا كنت تشاهد مقطع فيديو تعليمي على اللاب توب ووردت إليك مكالمة هاتفية على الهاتف، ستقوم السماعة بإيقاف الفيديو مؤقتاً تلقائياً وتحويل الصوت إلى مكالمة الهاتف فوراً. بعد إنهاء المكالمة، يعود الاتصال والصوت إلى اللاب توب دون أي تدخل يدوي منك، مما يوفر تجربة استخدام مريحة وسلسة للغاية لأصحاب الأعمال الحرة وموظفي الشركات.</p>
 
-<h2>مقارنة فنية حقيقية: Liberty 4 NC ضد Bose و JBL و Sony</h2>
-<p>لتوضيح الفروق الجوهرية بين هذه السماعة ومنافسيها في السوق المصري، قمنا بإعداد جدول المقارنة المالي والتقني التالي:</p>
+<h2>مقارنة مواصفات: Liberty 4 NC ضد Bose وJBL</h2>
+<p>الجدول التالي إطار مقارنة إرشادي. تحقق من صفحات الموديلات والأسعار الحية ومنهج قياس ANC والبطارية؛ لا يمثل اختباراً جنباً إلى جنب أجراه كايرو فولت.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
@@ -139,15 +139,15 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">متوسط السعر في مصر</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">2,570 جنيه</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">12,000 - 15,000 جنيه</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">10,000 - 12,000 جنيه</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">تحقق من السعر الحالي</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">تحقق من السعر الحالي</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">تحقق من السعر الحالي</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">أداء عزل الضوضاء (ANC)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">ممتاز (يصل لـ 90% فعلي)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">الأقوى مطلقاً بالأسواق</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">ممتاز ومتوازن</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Adaptive ANC؛ النتيجة تعتمد على الملاءمة</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">راجع المنهج والمواصفات المنشورة</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">راجع المنهج والمواصفات المنشورة</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">دعم ترميز LDAC للـ Hi-Res</td>
@@ -157,111 +157,111 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">عمر بطارية السماعة (ANC On)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">~9.5 ساعة فعلياً</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">~6 ساعات فعلياً</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">~8 ساعات فعلياً</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">راجع الرقم المنشور للوضع</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">راجع الرقم المنشور للوضع</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">راجع الرقم المنشور للوضع</td>
         </tr>
     </tbody>
 </table>
 
 <h2>أداء الميكروفونات وجودة المكالمات الهاتفية</h2>
-<p>تحتوي Liberty 4 NC على 6 ميكروفونات مدمجة (3 في كل جهة) مع خوارزمية ذكاء اصطناعي لعزل ضجيج الرياح والمحيط. في البيئات الداخلية والغرف المغلقة والمكاتب، يكون صوت المكالمة نقياً جداً وصافياً. أما في البيئات المفتوحة والشوارع الصاخبة، تقوم الكبسولة بعزل الأصوات الخلفية بكفاءة عالية، مما يضمن سماعك بوضوح من قبل الطرف الآخر، على الرغم من أن الخوارزمية قد تضغط نبرة الصوت قليلاً وتجعلها تبدو معدنية في ذروة الضجيج.</p>
+<p>تذكر مواصفات Liberty 4 NC ميكروفونات وخوارزمية لتقليل ضوضاء المكالمات. الوضوح الفعلي يتغير مع الهاتف والشبكة والرياح ومكان الميكروفون وشدة الضوضاء، لذلك لا نضمن سماع الطرف الآخر بوضوح في كل بيئة.</p>
 
 <h2>دوائر حماية البطارية والشحن الآمن ضد تذبذب الكهرباء</h2>
-<p>نظراً للظروف الكهربائية وتغير الجهد الكهربائي في مصر، زودت أنكر علبة شحن Liberty 4 NC بشرائح حماية متطورة لحماية بطارية الليثيوم الداخلية بسعة 800 مللي أمبير:</p>
+<p>راجع مواصفات الإدخال والحماية المنشورة لعلبة Liberty 4 NC واستخدم مصدراً وكابلاً سليمين ومتوافقين، واعتمد على ما يذكره دليل المنتج الرسمي من تفاصيل البطارية ودوائر الحماية:</p>
 <ul>
-    <li><strong>الحماية ضد الشحن الزائد والجهد المرتفع:</strong> تفصل اللوحة الداخلية الشحن فوراً عند استشعار تيار غير مستقر لحماية السماعات الحساسة داخل العلبة.</li>
-    <li><strong>نصائح هامة لإطالة عمر البطارية:</strong> ننصح وبشدة بعدم شحن السماعة باستخدام شواحن الهواتف الذكية السريعة (مثل شواحن 33W أو 67W)، لأنها تؤدي إلى ارتفاع درجة حرارة العلبة وتسرع تدهور خلايا البطارية. يفضل استخدام شاحن بقوة 5 واط (5 فولت / 1 أمبير) أو منفذ USB بالكمبيوتر.</li>
+    <li><strong>الحماية الكهربائية:</strong> تحقق من دليل المنتج والشهادات المعلنة؛ دوائر الحماية تقلل بعض المخاطر ولا تمنع كل عطل أو ملحق تالف.</li>
+    <li><strong>إرشادات الشحن:</strong> استخدم جهداً وكابلاً مطابقين لدليل المنتج. قدرة الشاحن القصوى لا تُدفع قسراً إلى العلبة المتوافقة، لكن توقف عن الشحن عند حرارة أو رائحة أو تلف غير معتاد.</li>
 </ul>
 
-<h2>الضمان المعتمد وخدمات الصيانة والدعم الفني في مصر</h2>
-<p>يحظى مشترو الموديل Liberty 4 NC في مصر بضمان استثنائي يمتد لـ 18 شهراً من الوكيل الرسمي، والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول جهازك في مراكز الدعم الفني الرسمية.</p>
-<p>ملاحظة هامة من فريق الصيانة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن خارج المراكز المعتمدة. كما يوصى بالتحقق من ملصق الضمان الفضي الموجود على كرتونة المنتج للتأكد من الموزع المحلي المسؤول عن التغطية.</p>
+<h2>كيفية التحقق من الضمان وخدمة ما بعد البيع في مصر</h2>
+<p>تختلف مدة ضمان Liberty 4 NC وجهة الخدمة والإجراء حسب البائع والسياسة المكتوبة وقت الشراء. راجع صفحة المنتج والفاتورة لمعرفة التغطية والاستثناءات، واحتفظ بإثبات الشراء والرقم التسلسلي وأي عبوة تطلبها السياسة، واسأل البائع كتابياً عن إجراء الاستبدال أو الإصلاح قبل إتمام الشراء.</p>
+<p>اتبع تصنيف مقاومة الماء وتعليمات المنتج، ولا تفك العلبة. تحقق من اسم مقدم الضمان وشروطه المكتوبة على الفاتورة أو صفحة المنتج؛ وجود ملصق على العبوة وحده لا يثبت اعتماد الموزع أو التغطية.</p>
 
 <h2>تفاصيل الشراء والتوصيل من كايرو فولت</h2>
-<p>عند طلبك سماعة Soundcore Liberty 4 NC من موقعنا، ستحصل على الميزات التالية:</p>
+<p>قبل طلب ساوندكور Liberty 4 NC من الموقع، راجع ما هو منشور للطلب الحالي:</p>
 <ul>
-    <li><strong>المنتج أصلي 100%:</strong> بضمان محلي معتمد لمدة 18 شهراً ضد عيوب الصناعة.</li>
-    <li><strong>الشحن السريع لكافة المحافظات:</strong> توصيل لباب المنزل خلال 24 إلى 48 ساعة فقط.</li>
-    <li><strong>معاينة المنتج قبل الدفع:</strong> تتيح لك سياسة كايرو فولت فتح الشحنة ومعاينتها خارجياً للتأكد من سلامتها قبل دفع الحساب للمندوب.</li>
+    <li><strong>بيانات المنتج:</strong> تحقق من مقدم الضمان ومدته واستثناءاته وإجراء المطالبة المكتوب.</li>
+    <li><strong>التوصيل:</strong> الموعد والتغطية والتكلفة تقديرية وتظهر حسب العنوان وشركة الشحن.</li>
+    <li><strong>المعاينة:</strong> راجع سياسة فتح الشحنة والإرجاع السارية قبل الطلب؛ قد تختلف حسب شركة الشحن وحالة المنتج.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 تسوق سماعات أنكر الأصلية بضمان 18 شهراً من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد العروض الحالية: <a href="/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore Liberty 4 NC</a> · <a href="/soundcore/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">سماعة Liberty 4 Pro الرائدة</a> · <a href="/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">سماعة الرأس Space One</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 قارن موديلات ساوندكور المتاحة على كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع الأسعار والمواصفات وشروط الضمان الحالية: <a href="/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 NC</a> · <a href="/soundcore/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Liberty 4 Pro</a> · <a href="/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Space One</a>.</p></div>` ,
             faq: [
                 {
                     question: 'هل تتفوق سماعة Liberty 4 NC على سماعة Bose QC II في عزل الضوضاء؟',
-                    answer: 'سماعة Bose QC II تظل الأقوى عالمياً في عزل الضوضاء المطلق ودقة التفاصيل الموسيقية. ومع ذلك، تقدم Liberty 4 NC أداءً يقارب 90% من قوة عزل Bose وبسعر يقل عن 30% من قيمتها، مما يجعلها الخيار الأفضل من حيث القيمة مقابل السعر.'
+                    answer: 'لا يوجد ترتيب مطلق يصلح لكل مستخدم، فنتيجة العزل تعتمد بدرجة كبيرة على إحكام الأطراف وبيئة الاستماع نفسها. قارن إحكام الأطراف ومنهج قياس ANC المعلن وجودة الصوت والسعر الحالي وسياسة الإرجاع لكل موديل قبل اتخاذ القرار.'
                 },
                 {
-                    question: 'ما هو متوسط سعر سماعة Soundcore Liberty 4 NC في مصر حالياً؟',
-                    answer: 'يبلغ سعر السماعة في السوق المصري حالياً حوالي 2,570 جنيه مصري حسب الموزع والضمان المحلي المرفق.'
+                    question: 'ما هو متوسط سعر سماعة ساوندكور Liberty 4 NC في مصر حالياً؟',
+                    answer: 'السعر يتغير حسب البائع والمخزون والعروض وشروط الضمان المرفقة، لذلك راجع صفحة المنتج على كايرو فولت لمعرفة السعر النهائي المعروض وقت الطلب.'
                 },
                 {
                     question: 'كيف يمكنني تفعيل ترميز LDAC وما هي فوائده؟',
-                    answer: 'يمكنك تفعيل ترميز LDAC من خلال الدخول إلى إعدادات الصوت في تطبيق Soundcore على هواتف أندرويد. يساعد تفعيل هذا الترميز على نقل البيانات الصوتية بمعدل 990 كيلوبت في الثانية للحصول على دقة صوت Hi-Res فائقة النقاء.'
+                    answer: 'يمكنك تفعيل ترميز LDAC من خلال الدخول إلى إعدادات الصوت في تطبيق ساوندكور على هواتف أندرويد. يساعد تفعيل هذا الترميز على نقل البيانات الصوتية بمعدل 990 كيلوبت في الثانية للحصول على دقة صوت Hi-Res فائقة النقاء.'
                 },
                 {
-                    question: 'كم تدوم بطارية السماعة في الاستخدام الفعلي مع تشغيل العزل؟',
-                    answer: 'في اختباراتنا الفعلية، استمرت بطارية السماعة في العمل لمدة 9.4 ساعة متواصلة على مستوى صوت 70% مع تفعيل وضع إلغاء الضوضاء ANC، وتوفر علبة الشحن إجمالي تشغيل يصل إلى 50 ساعة.'
+                    question: 'كيف أقيّم مدة البطارية مع تشغيل العزل؟',
+                    answer: 'استخدم الرقم المنشور للوضع المحدد كنقطة بداية لا كضمان. مستوى الصوت وترميز LDAC وقوة العزل والمكالمات ودرجة الحرارة وعمر البطارية كلها تغيّر النتيجة؛ لذلك قد تختلف مدة الاستخدام الفعلية.'
                 }
             ]
         },
         en: {
-            title: 'Soundcore Liberty 4 NC Review — The Mid-Range Active Noise Cancelling King',
-            metaTitle: 'Soundcore Liberty 4 NC Review — Active Noise Cancellation | CairoVolt',
-            metaDescription: 'Soundcore Liberty 4 NC review. Read about the smart adaptive ANC 2.0 system, real 50-hour battery, LDAC codec, call clarity, and local warranty in Egypt.',
+            title: 'Soundcore Liberty 4 NC Guide — Specifications and ANC Performance Factors',
+            metaTitle: 'Soundcore Liberty 4 NC Guide — Active Noise Cancellation | CairoVolt',
+            metaDescription: 'Soundcore Liberty 4 NC guide covering published Adaptive ANC, LDAC, Multipoint, and battery claims, plus performance factors, live price, and current warranty terms in Egypt.',
             keywords: 'soundcore liberty 4 nc review, soundcore liberty 4 nc egypt, liberty 4 nc price egypt, liberty 4 nc vs bose, liberty 4 nc specifications, best anc earbuds egypt, liberty 4 nc battery, soundcore liberty 4 nc calls, soundcore liberty 4 nc ldac, liberty 4 nc soundcore app',
-            excerpt: 'The Soundcore Liberty 4 NC claims an impressive 98.5% noise reduction. We put its Active Noise Cancellation system to a real-world test in Cairo to verify its true performance.',
-            quickAnswer: 'The Soundcore Liberty 4 NC is the ultimate ANC king in the ~EGP 2,570 price bracket in Egypt. It features smart adaptive noise cancellation, Hi-Res audio with LDAC, Multipoint dual-connection, and an outstanding battery lasting up to 10 hours on a single charge (50 hours total with case).',
-            content: `<p>The Soundcore Liberty 4 NC has generated immense praise in both local and international markets, primarily driven by Anker's bold claim that it delivers Active Noise Cancellation (ANC) comparable to elite flagship earbuds at a fraction of their retail price. In Egypt's current economic climate, finding high-quality audio equipment that offers legitimate utility without breaking the bank is a priority. In this exhaustive, engineering-focused review by CairoVolt, we put the Liberty 4 NC through real-world testing in Egypt's loudest settings to uncover the technical truth about its performance.</p>
+            excerpt: 'A practical guide to published specifications and the factors that affect real-world performance, with neutral advice for informed comparison.',
+            quickAnswer: 'Soundcore publishes Adaptive ANC, LDAC, Multipoint, and mode-specific playback figures for Liberty 4 NC. Compare fit, ANC measurement method, compatibility, live price, and current warranty terms before buying, since real-world isolation and runtime vary with ear-tip seal and how you actually use the earbuds.',
+            content: `<p>The Soundcore Liberty 4 NC has generated immense attention in both local and international markets, primarily driven by Anker's published claims of Adaptive Active Noise Cancellation, Hi-Res LDAC audio, and long battery figures at a fraction of flagship pricing. In Egypt's current economic climate, finding high-quality audio equipment that offers legitimate value without breaking the bank is a priority. In this specifications-focused guide, CairoVolt walks through the officially published figures for the Liberty 4 NC and explains the practical variables that determine how the earbuds will actually perform in daily use, so you can make an informed purchase decision.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>The Ultimate Verdict:</strong> The Soundcore Liberty 4 NC represents an unmatched noise-cancelling value in the Egyptian market, priced at around <strong>2,570 EGP</strong>. Equipped with Adaptive ANC 2.0 and Hi-Res LDAC support, it provides a deeply isolated listening environment and a massive 9.5-hour real battery life with ANC on, making it the smartest purchase in its class.
+        <strong>Summary:</strong> Review the published Adaptive ANC, LDAC, Multipoint, and battery specifications, then compare fit, use case, and current price. Isolation and runtime vary with ear-tip seal, noise type, volume, and codec, so rely on the official mode-specific figures and check the product page for the current price at order time.
     </p>
 </div>
 
-<h2>Specifications and Real-World Lab Performance</h2>
-<p>To provide a clear baseline, we compared the official factory specifications of the Liberty 4 NC with our own laboratory test results:</p>
+<h2>Published Specifications and Real-World Variables</h2>
+<p>To provide a clear baseline, the table below lists the official factory specifications of the Liberty 4 NC alongside the practical points worth verifying yourself, since published figures are measured under ideal conditions that may differ from your daily use:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Specification</th>
             <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Official Rating</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">CairoVolt Lab Test Result</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">What to Verify in Practice</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Driver Size</td>
             <td style="padding:12px;border:1px solid #d1d5db;">11mm Custom Dynamic</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Powerful soundstage with heavy bass response and extremely high output volumes.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Try the fit, keep volume at a safe level, and adjust the EQ to your preference.</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">ANC Technology</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Adaptive ANC 2.0 (Up to 98.5%)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Exceptional isolation of low-frequency hums, machine vibrations, and air conditioners.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Results depend on ear-tip seal, noise type, and the selected ANC setting.</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud Battery (ANC On)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">10 Hours continuous</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Lasted 9.2 to 9.5 hours at a constant 70% volume.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Runtime varies with ANC, volume, codec, calls, and ambient temperature.</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud Battery (ANC Off)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">12 Hours continuous</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Successfully recorded 11.5 hours of continuous playback.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Treat the published figure as a reference point, not a guaranteed runtime.</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Total Charging Case Capacity</td>
             <td style="padding:12px;border:1px solid #d1d5db;">50 Hours total</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Provides 4 to 5 full recharges for the earbuds without an outlet.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Provides roughly 4 to 5 full recharges for the earbuds without an outlet.</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">High-Res Audio Support</td>
             <td style="padding:12px;border:1px solid #d1d5db;">LDAC Codec (990kbps)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Enabled via app settings for compatible Android devices to transmit lossless audio.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Enabled via app settings on compatible Android devices for high-res transmission.</td>
         </tr>
     </tbody>
 </table>
@@ -274,11 +274,11 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
 </ul>
 
 <h2>ANC Real-World Field Tests in Cairo</h2>
-<p>We tested the noise cancellation capabilities in three challenging everyday Egyptian scenarios:</p>
+<p>Below are three everyday Egyptian scenarios where noise-cancelling earbuds are commonly used, and what to expect in each based on how ANC technology works:</p>
 <ol>
-    <li><strong>The Cairo Metro:</strong> With ambient decibels hovering around 75 to 85 dB, train travel is a noisy experience. Engaging the ANC on the Liberty 4 NC blocked out roughly 90% of the heavy rolling rumble and track screech, allowing us to listen to podcasts at moderate, safe volume levels.</li>
-    <li><strong>Busy Mid-City Cafés:</strong> Cafés present a complex mix of background music, espresso machine steam, and clanging cups. The Liberty 4 NC successfully quieted these low-and-mid-frequency distractions, turning nearby voices into faint, non-distracting murmurs.</li>
-    <li><strong>Loud Streets and Traffic:</strong> Engine hums and traffic rumbles were completely neutralized. However, high-frequency, sudden sounds like car horns remained slightly audible. This is typical for all ANC systems and serves as a necessary safety measure for pedestrians.</li>
+    <li><strong>The Cairo Metro:</strong> ANC systems are generally most effective against steady low-frequency noise such as rolling rumble and engine hum, while the exact reduction depends on ear-tip seal and the surrounding noise level. Keep playback at a safe level.</li>
+    <li><strong>Busy cafés:</strong> Voices and changing sounds are usually harder to reduce than a steady hum, and results depend on ear-tip seal and settings.</li>
+    <li><strong>Streets and traffic:</strong> Do not rely on ANC as a safety aid or assume warnings will always remain audible. Use transparency mode where appropriate and stay aware of traffic.</li>
 </ol>
 
 <h2>Sound Profiling and LDAC Lossless Experience</h2>
@@ -299,7 +299,7 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
 <p>The Multipoint feature enables the earbuds to stay connected to two Bluetooth devices simultaneously (e.g., your smartphone and office laptop). If you are watching a video on your laptop and a phone call comes in, the earbuds automatically pause the video and switch audio to the phone. Once the call ends, audio transitions back to the laptop without manual input, making it a highly convenient feature for professionals and remote workers.</p>
 
 <h2>Head-to-Head Comparison: Liberty 4 NC vs Bose vs JBL</h2>
-<p>To help you understand how the Liberty 4 NC compares to high-end alternatives available in Egypt, we compiled the following comparative analysis:</p>
+<p>The table is an indicative comparison framework. Recheck model pages, live prices, and the ANC and battery measurement methods; it is not a CairoVolt side-by-side laboratory test.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
@@ -313,15 +313,15 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Average Price in Egypt</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">2,570 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">12,000 - 15,000 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">10,000 - 12,000 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">Check live price</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">Check live price</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">Check live price</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">ANC Efficacy</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Excellent (up to 90% reduction)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">Industry Best</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Excellent balanced isolation</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Adaptive ANC; result varies with fit</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">Review method and published claims</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Review method and published claims</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Hi-Res LDAC Support</td>
@@ -331,53 +331,53 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Battery Life (ANC On)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">~9.5 Hours actual</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">~6 Hours actual</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">~8 Hours actual</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">Check mode-specific claim</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Check mode-specific claim</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Check mode-specific claim</td>
         </tr>
     </tbody>
 </table>
 
 <h2>Microphone Quality and AI Call Filtering</h2>
-<p>Equipped with 6 integrated microphones and an AI noise-reduction algorithm, the Liberty 4 NC handles calls with ease. In quiet indoor settings, calls sound remarkably clear and natural. In outdoor environments with wind or Cairo traffic, the microphones filter background noise effectively, ensuring the listener hears your voice clearly, though the AI processing can make your voice sound slightly compressed during loud traffic spikes.</p>
+<p>Soundcore publishes microphone and call-noise-reduction features for Liberty 4 NC. Actual clarity varies with phone, network, wind, microphone position, and noise level, so this guide does not guarantee that the other party will hear you clearly in every environment.</p>
 
 <h2>Charging Security in Egyptian Electrical Grids</h2>
-<p>The A30i and Liberty 4 NC cases are built with protection circuits to shield their internal batteries against voltage fluctuations:</p>
+<p>Check the published input and protection specifications for the Liberty 4 NC case, use an undamaged compatible source and cable, and rely on the official product manual for battery and protection-circuit details:</p>
 <ul>
-    <li><strong>Over-Voltage Protection (OVP):</strong> The system isolates incoming current if the voltage exceeds 5.5V, protecting the battery from thermal damage.</li>
-    <li><strong>Safe Charging Guidelines:</strong> Avoid using smartphone fast-chargers (33W, 67W, or higher), as they put thermal stress on the battery cell and shorten its overall lifespan. We recommend charging via a standard 5W power adapter, a wall charger with low amperage, or a laptop USB port.</li>
+    <li><strong>Electrical protection:</strong> Check the product manual and declared certifications. Protection circuits can reduce some risks but cannot prevent every fault or damaged-accessory failure.</li>
+    <li><strong>Charging guidance:</strong> Use the voltage and cable specified by the product manual. A compatible device negotiates the power it draws rather than receiving an adapter's full headline wattage, but stop charging if you notice unusual heat, smell, or damage.</li>
 </ul>
 
-<h2>Official Local Warranty and Technical Support in Egypt</h2>
-<p>Buyers of the Model Liberty 4 NC in Egypt receive a comprehensive 18-month warranty from the authorized local distributor. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or connection failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim at official service centers.</p>
-<p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. Always cross-check the localized silver warranty sticker on the retail packaging to identify the exact local distributor responsible for servicing your product.</p>
-<p>The customer service centers in Cairo and Alexandria are fully equipped with specialized testing rigs to evaluate battery health and driver calibration. If a replacement is approved under warranty, the transaction is processed quickly. This gives local buyers absolute peace of mind compared to grey-market imports that lack warranty protection.</p>
+<h2>How to Verify Warranty and After-Sales Support in Egypt</h2>
+<p>The Liberty 4 NC warranty term, provider, exclusions, and remedy depend on the seller and written policy in force at purchase. Check the product page and invoice, retain proof of purchase, serial details, and any packaging required by the policy, and ask the seller in writing how replacement or repair claims are handled before you buy.</p>
+<p>Follow the ingress rating and product instructions, and do not disassemble the case. Verify the warranty provider and written terms on the invoice or product page; a packaging sticker alone does not prove distributor authorization or coverage.</p>
+<p>Ask the named warranty provider about service locations, diagnostic process, turnaround, and available remedies. Getting these answers in writing before purchase is the most reliable way to avoid surprises, especially compared with grey-market imports whose coverage is often unclear.</p>
 
 <h2>Purchase and Delivery at CairoVolt</h2>
-<p>Ordering the Soundcore Liberty 4 NC from CairoVolt ensures a premium purchasing experience:</p>
+<p>Before ordering the Soundcore Liberty 4 NC from CairoVolt, review the terms published for the current order:</p>
 <ul>
-    <li><strong>100% Original Products:</strong> Handed to you with a certified local 18-month warranty.</li>
-    <li><strong>Express Shipping:</strong> Doorstep delivery to all governorates within 24 to 48 hours.</li>
-    <li><strong>Inspect Before Payment:</strong> CairoVolt allows you to open and inspect the package before paying the courier.</li>
+    <li><strong>Product details:</strong> Check the named warranty provider, duration, exclusions, and written claim process.</li>
+    <li><strong>Shipping:</strong> Timing, coverage, and cost are estimates shown for the address and carrier.</li>
+    <li><strong>Inspection:</strong> Check the current package-opening and return policy before ordering; it may vary by carrier and product condition.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Authorized Soundcore Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Shop authentic models at CairoVolt: <a href="/en/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC Earbuds</a> · <a href="/en/soundcore/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 Pro Earbuds</a> · <a href="/en/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Soundcore Space One Over-Ear</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Compare Soundcore Products:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Review live prices, specifications, and current warranty terms at CairoVolt: <a href="/en/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC Earbuds</a> · <a href="/en/soundcore/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 Pro Earbuds</a> · <a href="/en/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Soundcore Space One Over-Ear</a>.</p></div>` ,
             faq: [
                 {
                     question: 'Does the Soundcore Liberty 4 NC outperform the Bose QC II in noise cancellation?',
-                    answer: 'The Bose QC II remains the absolute industry leader in pure noise isolation and musical precision. However, the Liberty 4 NC delivers roughly 90% of the Bose performance for less than 30% of its cost, making it the superior value choice.'
+                    answer: 'There is no single ranking that fits every user, because isolation results depend heavily on ear-tip seal and the listening environment. Compare ear-tip fit, each maker\'s published ANC measurement method, sound signature, live price, and return policy for each model before deciding.'
                 },
                 {
                     question: 'What is the average retail price of the Soundcore Liberty 4 NC in Egypt?',
-                    answer: 'The current retail price for the Liberty 4 NC in Egypt is around EGP 2,570, depending on the distributor and local warranty terms.'
+                    answer: 'Price changes by seller, stock, promotions, and the warranty terms attached to the offer, so check the CairoVolt product page for the final checkout price shown at order time.'
                 },
                 {
                     question: 'How do I activate the LDAC codec and what are its benefits?',
                     answer: 'You can enable LDAC via the audio settings inside the official Soundcore application on compatible Android devices. This enables high-res wireless audio transmission up to 990kbps for superior clarity.'
                 },
                 {
-                    question: 'How long does the battery last in real-world testing with ANC enabled?',
-                    answer: 'In our real-world lab tests, the earbuds lasted 9.4 hours on a single charge at 70% volume with ANC enabled. The charging case adds up to 40 hours of extra capacity, bringing the total to 50 hours.'
+                    question: 'How long does the battery last in real-world use with ANC enabled?',
+                    answer: 'Battery life varies with ANC, volume, codec, calls, temperature, and battery age. Use Soundcore\'s published figure for the exact mode as a reference and expect real use to differ.'
                 }
             ]
         }

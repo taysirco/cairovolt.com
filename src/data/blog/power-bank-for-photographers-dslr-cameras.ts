@@ -32,29 +32,26 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
             metaDescription: 'مصور سفاري الصحراء، فوتوغرافر أعراس، YouTuber — كل سيناريو يحتاج باور بانك مختلف. 5 اختيارات احترافية مع جدول compatibility كامل لكل كاميرا.',
             keywords: 'باور بانك للمصورين, باور بانك dslr, شحن كاميرا canon sony nikon, أنكر prime 165w كاميرا, باور بانك تصوير اعراس, باور بانك سفاري, power bank dslr egypt 2026, شحن GoPro DJI',
             excerpt: 'مصور سفاري، فوتوغرافر أعراس، صانع محتوى — كل سيناريو يحتاج باور بانك مختلف. 5 اختيارات احترافية مع جدول توافق كامل لكل كاميرا.',
-            quickAnswer: 'مصور DSLR/Mirrorless يحتاج باور بانك بـ 3 شروط: (1) USB-C PD 45-100W لشحن الكاميرا مباشرة عبر USB-C، (2) سعة 20,000mAh+ ليوم تصوير كامل، (3) Pass-through charging لشحن الكاميرا والمنوال معاً. أفضل خيار: أنكر Prime 165W (3,950ج) لمصوّر mirrorless، أنكر 737 140W (4,999ج) لمصور أعراس متنقل، أنكر PowerCore 26,800mAh (2,300ج) للميزانية.',
-            content: `<p>التصوير الاحترافي في مصر 2026 تحوّل تماماً — معظم الكاميرات الحديثة (Sony A7 IV، Canon R5، Nikon Z8، Fujifilm X-T5) بقت تشحن مباشرة عبر USB-C PD وليس عبر شاحن البطارية القديم. ده فتح إمكانية ثورية: الباور بانك يحلّ محل البطاريات الإضافية في معظم السيناريوهات. لكن مش أي باور بانك ينفع — كاميرا DSLR تطلب 30-100W قدرة شحن ثابتة لفترات طويلة، وحرارة متحكم فيها، وسعة 20,000mAh+ ليوم تصوير حقيقي. اختبرنا 8 باور بانكات مع 5 كاميرات احترافية ميدانياً في رحلات سفاري وأعراس وتصوير محتوى لمدة 6 أسابيع. الـ 5 اختيارات النهائية بأرقامها الكاملة.</p>
+            quickAnswer: 'ابدأ بدليل الكاميرا: هل يدعم USB-C PD أثناء التشغيل أم الشحن فقط، وما القدرة المطلوبة؟ ثم احسب Wh المطلوبة، وتحقق من قدرة كل منفذ والكابل وميزة pass-through في الموديل إن كنت تحتاجها. قارن موديلات انكر المذكورة بالمواصفات والسعر الحالي؛ لا توجد سعة أو قدرة واحدة تضمن يوم تصوير لكل الكاميرات.',
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>تدعم كاميرات حديثة محددة الشحن أو التغذية عبر USB-C، لكن الدعم والقدرة والسلوك أثناء التسجيل تختلف حسب الموديل. الباور بانك لا يستبدل البطاريات الإضافية تلقائياً؛ راجع دليل الكاميرا وWh وقدرة المنفذ والكابل والحرارة قبل الاعتماد عليه في مهمة تصوير.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
         مصور DSLR/Mirrorless يحتاج باور بانك بـ 3 شروط:
-        (1) USB-C PD 45-100W لشحن الكاميرا مباشرة،
-        (2) سعة 20,000mAh+ ليوم تصوير كامل،
-        (3) Pass-through charging لشحن الكاميرا والموبايل معاً.
-        أفضل خيار: <strong>انكر برايم 165W</strong> (3,950ج) لمصوّر mirrorless،
-        <strong>انكر 737 140W</strong> (4,999ج) لمصور أعراس متنقل،
-        <strong>انكر باور كور 26,800mAh</strong> (2,300ج) للميزانية.
+        (1) قدرة USB-C PD التي يطلبها موديل الكاميرا فعلاً،
+        (2) طاقة Wh تكفي مدة العمل مع هامش،
+        (3) ميزة pass-through موثقة إذا كنت ستستخدمها.
+        قارن <strong>انكر برايم 165W</strong> و<strong>انكر 737 140W</strong> و<strong>انكر باور كور 26,800mAh</strong> من صفحات الموديلات والسعر الحالي.
     </p>
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">
-        🔬 اختبار كايرو فولت — 6 أسابيع ميداني مع مصورين محترفين
+        🔎 منهج الاختيار للمصور
     </p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        أبريل-مايو 2026: اختبرنا 8 باور بانكات مع 5 كاميرات (Sony A7 IV، Canon R5، Fuji X-T5، GoPro Hero 12، DJI Pocket 3) في 4 سيناريوهات حقيقية: تصوير عرس 8 ساعات، سفاري صحراء 3 أيام، تصوير YouTube 12 ساعة، رحلة جبلية في سانت كاترين 5 أيام.
-        <strong>الملاحظة المفاجئة:</strong> 60% من المصورين يستخدمون باور بانك خاطئ — يدفعون أكثر للقدرة العالية بدون فهم إن كاميراتهم تحد عند 30-65W. الـ 100W+ ضروري فقط مع لابتوب montaging في الموقع.
+        تعتمد المقارنة على المواصفات وسيناريوهات التشغيل المرتبطة بالكاميرا والموديل. طابق قدرة الكاميرا ووضع التشغيل مع خرج المنفذ والكابل والطاقة بالواط-ساعة. القدرة الأعلى تفيد جهازاً آخر فقط إذا كان يدعمها؛ راجع أدلة الكاميرا والباور بانك.
     </p>
 </div>
 
@@ -121,7 +118,7 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
 <p>الاستنتاج الذكي: <strong>باور بانك 45W PD يكفي لـ 90% من المصورين</strong> اللي بيستخدموا كاميرا واحدة. الـ 100W+ ضروري فقط مع لابتوب montaging أو كاميرتين معاً.</p>
 
 
-<h2>الاختيار #1: للمصوّر mirrorless اليومي — أنكر Prime 165W</h2>
+<h2>الاختيار #1: للمصوّر mirrorless اليومي — انكر Prime 165W</h2>
 
 <p>السعر: 3,950 جنيه ·
 <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695 باور بانك 25,000mAh 165W</a>
@@ -140,25 +137,25 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
 <p>عيوبه: <strong>المروحة نقطة ضعف في الصحراء الرملية</strong> — الغبار يدخل ويصدر صوت بعد 6 شهور. للسفاري المتكرر، اذهب للاختيار #2.</p>
 
 
-<h2>الاختيار #2: للسفاري والصحراء — أنكر 737 140W</h2>
+<h2>الاختيار #2: للسفاري والصحراء — انكر 737 140W</h2>
 
 <p>السعر: 4,999 جنيه ·
 <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 باور كور 24,000mAh 140W</a>
 · بدون أجزاء متحركة.</p>
 
-<p>الفرق الجوهري عن Prime A1695: <strong>لا مروحة = لا غبار = متانة لسنوات في الصحراء</strong>. الجسم ألومنيوم منحوت، يتحمل سقوط 1.5 متر بدون تأثير على الأداء (اختبرنا).</p>
+<p>الفرق الجوهري عن Prime A1695 هو التصميم من دون مروحة. لا نستنتج من ذلك مقاومة غبار أو سقوط أو عمراً ثابتاً؛ استخدم فقط تصنيف الحماية واختبارات المتانة التي ينشرها المصنع للموديل.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🏜️ <strong>مقاومة الغبار IP4X:</strong> الفتحات صغيرة جداً — اختبرنا بـ 4 أيام سفاري بقعة الفيوم بدون مشكلة.</li>
+    <li style="margin-bottom:12px;">🏜️ <strong>الغبار:</strong> تحقق من تصنيف IP المنشور للموديل؛ صغر الفتحات أو تجربة قصيرة لا يثبتان مقاومة الغبار.</li>
     <li style="margin-bottom:12px;">⚡ <strong>140W من منفذ USB-C واحد:</strong> يشحن MacBook Pro M4 + كاميرا Canon R5 معاً بدون اختناق.</li>
     <li style="margin-bottom:12px;">📊 <strong>شاشة Smart Display:</strong> تعرض الوقت المتبقي بالدقائق — مهم في تصوير الـ Golden Hour حيث كل دقيقة تحسب.</li>
-    <li style="margin-bottom:12px;">🛡️ <strong>ضمان 18 شهر CairoVolt + الجسم يتحمل 5 سنوات استخدام يومي.</strong></li>
+    <li style="margin-bottom:12px;">🛡️ <strong>راجع شروط ضمان كايرو فولت المكتوبة ولا تفترض عمراً ثابتاً للجسم أو البطارية.</strong></li>
 </ul>
 
 <p>عيوبه: 630 جرام (ثقيل لرحلات المشي الطويلة) + لا مروحة = throttling عند تشغيل 140W لأكثر من 30 دقيقة في 40°م. حل: ضعه في ظل الحقيبة.</p>
 
 
-<h2>الاختيار #3: ميزانية اقتصادية — أنكر PowerCore 26,800mAh</h2>
+<h2>الاختيار #3: ميزانية اقتصادية — انكر PowerCore 26,800mAh</h2>
 
 <p>السعر: 2,300 جنيه ·
 <a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb;font-weight:600;">انكر باور كور 26,800mAh</a>
@@ -187,11 +184,11 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
     <li style="margin-bottom:12px;">📱 <strong>الموبايل + GoPro:</strong>
     <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو 45W (2,200ج)</a>
     — احتياطي خفيف للأجهزة الثانوية.</li>
-    <li style="margin-bottom:12px;">🔋 <strong>إجمالي 45,000mAh متاحة:</strong> ضمان عدم انقطاع التصوير حتى في عرس 12 ساعة.</li>
+    <li style="margin-bottom:12px;">🔋 <strong>إجمالي السعة المقننة:</strong> حوّلها إلى واط-ساعة وطبّق فاقد التحويل، ثم قارن الناتج باستهلاك الكاميرا والأجهزة مع هامش احتياطي للحدث.</li>
 </ul>
 
 
-<h2>الاختيار #5: مصور YouTube/Content Creator — أنكر Prime + كابل 240W</h2>
+<h2>الاختيار #5: مصور YouTube/Content Creator — انكر Prime + كابل 240W</h2>
 
 <p>المصوّر اللي بيشتغل من المنزل أو الستوديو لكن بياخد فترات تصوير خارجية: المشكلة مش السعة — المشكلة <strong>الشحن الذاتي السريع</strong>. تخيل تنتهي من تصوير الصباح، تعود البيت، تشحن الباور بانك في ساعة فاضية واحدة، تخرج لتصوير المساء.</p>
 
@@ -223,29 +220,28 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
         ✅ مصفوفة الاختيار النهائية
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <strong>مصور Sony A7 IV / Canon R5 + لابتوب:</strong> أنكر Prime 165W (3,950ج).
-        <strong>سفاري وصحراء متكررة:</strong> أنكر 737 140W (4,999ج) بدون مروحة.
-        <strong>ميزانية تحت 2,500ج وكاميرا واحدة:</strong> أنكر PowerCore 26,800mAh (2,300ج).
-        <strong>مصور أعراس متنقل:</strong> Prime + ZOLO معاً (6,150ج).
-        كلهم متاحون على كايرو فولت بضمان أصلي 18-24 شهر + توصيل لكل المحافظات + دفع عند الاستلام.
+        <strong>كاميرا + لابتوب:</strong> قارن انكر Prime 165W بمتطلبات الجهازين وتوزيع المنافذ.
+        <strong>سفاري وصحراء:</strong> راجع تصنيف الغبار والحرارة المنشور لانكر 737 140W.
+        <strong>كاميرا واحدة:</strong> احسب Wh المطلوبة قبل اختيار انكر PowerCore 26,800mAh.
+        صفحة المنتج هي مرجع السعر والمخزون وشروط ضمان كايرو فولت، وتظهر طرق الدفع وتقدير التوصيل قبل الطلب.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'هل ينفع باور بانك يشحن كاميرا Canon EOS 5D Mark IV مباشرة؟',
-                    answer: 'لا، الـ 5D Mark IV لا يحتوي منفذ USB-C للشحن. تحتاج dummy battery (بطارية وهمية) + DC coupler + باور بانك 65W+. الحل العملي: استخدم شاحن البطارية الأصلي مع باور بانك يدعم AC out (مثل أنكر 521 PowerHouse). الكاميرات الحديثة (R5/R6/A7 IV/Z8) تشحن مباشرة بدون أي adapter.',
+                    answer: 'راجع دليل Canon EOS 5D Mark IV: إذا كان لا يدعم الشحن المباشر عبر USB-C فلا توصّل باوربانك بالكاميرا أو تستخدم بطارية وهمية غير موصى بها. استخدم شاحن البطارية والمصدر اللذين توافق عليهما Canon، وتحقق لكل كاميرا حديثة على حدة من دعم USB-C PD أثناء الإيقاف أو التشغيل ومتطلبات الكابل.',
                 },
                 {
                     question: 'أيهما أفضل لتصوير العرس: باور بانك واحد كبير أم اثنين متوسطين؟',
-                    answer: 'اثنان متوسطان أفضل عملياً. لو واحد كبير (Prime 165W) عطّل أو فُقد، تخسر التصوير كله. مع باور بانكين منفصلين (Prime + ZOLO 45W = 6,150ج)، فقدان واحد لا يوقف العمل. الميزة الإضافية: يمكنك شحن باور بانك واحد بينما تستخدم الآخر — استمرارية كاملة.',
+                    answer: 'مصدران منفصلان قد يقللان نقطة الفشل الواحدة، لكن الوزن والقدرة والمنافذ والتكلفة تعتمد على معداتك. احسب Wh لكل كاميرا وهاتف ولابتوب مع هامش، وتحقق من دعم الشحن المتزامن؛ ثم قارن Prime وZOLO بالسعر الحالي. وجود جهازين لا يضمن استمرار التصوير من دون انقطاع.',
                 },
                 {
                     question: 'هل يضر الباور بانك بطارية الكاميرا على المدى الطويل؟',
-                    answer: 'لا، طالما الباور بانك يدعم USB-C PD صحيح ولديه ActiveShield أو حماية حرارة مكافئة. كاميرات Sony/Canon/Nikon الحديثة فيها BMS (Battery Management System) ذكي يرفض أي شحن غير آمن. الخطر فقط من باور بانكات مقلّدة بدون شهادات FCC/CE — تلف الكاميرا في 6-12 شهر.',
+                    answer: 'لا توجد إجابة مطلقة لكل كاميرا وباوربانك. طابق بروتوكول USB-C PD والقدرة والكابل مع دليل الكاميرا، واستخدم بطارية وملحقات بحالة جيدة وحمايات موثقة. اسم ميزة حماية أو شعار شهادة لا يضمن منع كل عطل، ولا يمكن تحديد مدة تلف ثابتة؛ أوقف الاستخدام عند سخونة أو خلل غير معتاد.',
                 },
                 {
                     question: 'كم باور بانك أحتاج لرحلة سفاري 5 أيام بدون كهرباء؟',
-                    answer: 'لرحلة 5 أيام: أنكر Prime 165W (3,950ج) سعة 25,000mAh × 5 أيام = شحنات لـ 3 كاميرات + موبايل + ساعة. الحل المثالي: Prime + أنكر 521 PowerHouse 256Wh (لشحن كل الباور بانكات من الطاقة الشمسية المحمولة). إجمالي 4-5 شحنات كاملة لـ Canon R5 + كل الأجهزة الإضافية.',
+                    answer: 'سجّل استهلاك معداتك بالواط ساعة في يوم تصوير مماثل، واضربه في خمسة مع هامش للحرارة وفقد التحويل، ثم قارن ذلك بالطاقة القابلة للاستخدام للمصادر. لا تضمن سعة اسمية عدداً ثابتاً من شحنات Canon R5 أو بقية الأجهزة. راجع أسعار Prime وPowerHouse الحالية وتوافق الشحن الشمسي قبل التخطيط.',
                 },
             ],
         },
@@ -255,29 +251,26 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
             metaDescription: 'Desert safari photographer, wedding shooter, YouTuber — each scenario needs a different power bank. 5 professional picks with full compatibility chart per ca...',
             keywords: 'power bank for photographers, dslr power bank, charging canon sony nikon camera, anker prime 165w camera, wedding photographer power bank, safari power bank, power bank dslr egypt 2026, GoPro DJI charging',
             excerpt: 'Safari shooter, wedding photographer, content creator — each scenario needs a different power bank. 5 professional picks with full per-camera compatibility chart.',
-            quickAnswer: 'A DSLR/mirrorless photographer needs a power bank meeting 3 criteria: (1) USB-C PD 45-100W to charge the camera directly via USB-C, (2) 20,000mAh+ capacity for a full shoot day, (3) Pass-through charging for camera and phone simultaneously. Top picks: Anker Prime 165W (3,950 EGP) for mirrorless, Anker 737 140W (4,999 EGP) for traveling wedding photographer, Anker PowerCore 26,800mAh (2,300 EGP) for budget.',
-            content: `<p>Professional photography in Egypt 2026 changed completely — most modern cameras (Sony A7 IV, Canon R5, Nikon Z8, Fujifilm X-T5) now charge directly via USB-C PD instead of the old battery charger. This opened a revolutionary possibility: a power bank replaces extra batteries in most scenarios. But not every power bank works — a DSLR demands 30-100W of steady output for long periods, controlled heat, and 20,000mAh+ for a real shoot day. We tested 8 power banks with 5 professional cameras in safari trips, weddings, and content creation over 6 weeks. The final 5 picks with full numbers.</p>
+            quickAnswer: 'Start with the camera manual: does it support USB-C PD during operation or only charging, and what power does it require? Then calculate watt-hours, check per-port output, cable rating, and documented pass-through support if needed. Compare the listed Anker models by specifications and live price; no one capacity or wattage guarantees a full shoot day for every camera.',
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>Specific modern cameras support charging or power over USB-C, but support, output, and behavior while recording vary by model. A power bank does not automatically replace spare batteries; check the camera manual, watt-hours, port output, cable, and thermal limits before relying on it for a shoot.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
         A DSLR/mirrorless photographer needs a power bank meeting 3 criteria:
-        (1) USB-C PD 45-100W to charge the camera directly,
-        (2) 20,000mAh+ capacity for a full shoot day,
-        (3) Pass-through charging for camera and phone simultaneously.
-        Top picks: <strong>Anker Prime 165W</strong> (3,950 EGP) for mirrorless,
-        <strong>Anker 737 140W</strong> (4,999 EGP) for traveling wedding shooter,
-        <strong>Anker PowerCore 26,800mAh</strong> (2,300 EGP) for budget.
+        (1) the USB-C PD rating actually required by the camera model,
+        (2) enough watt-hours for the job with a margin,
+        (3) documented pass-through support if you need it.
+        Compare <strong>Anker Prime 165W</strong>, <strong>Anker 737 140W</strong>, and <strong>Anker PowerCore 26,800mAh</strong> using their model pages and live prices.
     </p>
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">
-        🔬 CairoVolt Test — 6 Weeks Field with Pro Photographers
+        🔎 Selection Method for Photographers
     </p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        April-May 2026: we tested 8 power banks with 5 cameras (Sony A7 IV, Canon R5, Fuji X-T5, GoPro Hero 12, DJI Pocket 3) across 4 real scenarios: 8-hour wedding, 3-day desert safari, 12-hour YouTube shoot, 5-day mountain trek in St. Catherine.
-        <strong>Surprising observation:</strong> 60% of photographers use the wrong power bank — they overpay for high wattage without realizing their camera caps at 30-65W. 100W+ is only essential when paired with a laptop for on-location editing.
+        This comparison combines model specifications with use-case requirements. Match the camera's required output and operating mode with per-port output, cable, and watt-hours. Higher power only benefits another device if it supports it; check both manuals.
     </p>
 </div>
 
@@ -369,13 +362,13 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
 <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 PowerCore 24,000mAh 140W</a>
 · No moving parts.</p>
 
-<p>Core difference from Prime A1695: <strong>no fan = no dust ingress = years of desert durability</strong>. Body is precision-machined aluminum, survives 1.5m drops without performance impact (we tested).</p>
+<p>The core difference from Prime A1695 is the fanless design. That alone does not establish a dust or drop rating or a fixed service life; rely only on protection and durability testing published for the exact model.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🏜️ <strong>IP4X dust resistance:</strong> very small vents — we tested 4 days in Fayoum safari without issues.</li>
+    <li style="margin-bottom:12px;">🏜️ <strong>Dust:</strong> verify the model's published IP rating; small vents or a short trip do not prove dust resistance.</li>
     <li style="margin-bottom:12px;">⚡ <strong>140W from a single USB-C port:</strong> charges MacBook Pro M4 + Canon R5 simultaneously without throttling.</li>
     <li style="margin-bottom:12px;">📊 <strong>Smart display:</strong> shows remaining minutes — vital during Golden Hour where every minute matters.</li>
-    <li style="margin-bottom:12px;">🛡️ <strong>18-month CairoVolt warranty + body lasts 5 years of daily use.</strong></li>
+    <li style="margin-bottom:12px;">🛡️ <strong>Review CairoVolt's written warranty terms and do not assume a fixed body or battery lifetime.</strong></li>
 </ul>
 
 <p>Downsides: 630g (heavy for long treks) + no fan = throttling at sustained 140W over 30 min in 40°C heat. Solution: keep it in bag shade.</p>
@@ -446,29 +439,28 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
         ✅ Final Selection Matrix
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <strong>Sony A7 IV / Canon R5 + laptop:</strong> Anker Prime 165W (3,950 EGP).
-        <strong>Frequent safari and desert:</strong> Anker 737 140W (4,999 EGP) — no fan.
-        <strong>Budget under 2,500 EGP, one camera:</strong> Anker PowerCore 26,800mAh (2,300 EGP).
-        <strong>Mobile wedding photographer:</strong> Prime + ZOLO combo (6,150 EGP).
-        All available on CairoVolt with authentic 18-24 month warranty + delivery to all governorates + cash on delivery.
+        <strong>Camera + laptop:</strong> compare Anker Prime 165W with both devices and port allocation.
+        <strong>Safari and desert:</strong> check the published dust and thermal rating for Anker 737 140W.
+        <strong>One camera:</strong> calculate required watt-hours before choosing Anker PowerCore 26,800mAh.
+        Product pages are the source for live price, stock, and CairoVolt's written warranty terms; payment methods and delivery estimate appear before ordering.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'Can a power bank charge a Canon EOS 5D Mark IV directly?',
-                    answer: 'No, the 5D Mark IV has no USB-C charging port. You need a dummy battery + DC coupler + 65W+ power bank. Practical solution: use the original battery charger with a power bank that supports AC out (like Anker 521 PowerHouse). Modern cameras (R5/R6/A7 IV/Z8) charge directly without any adapter.',
+                    answer: 'Check the Canon EOS 5D Mark IV manual: if it does not support direct USB-C charging, do not connect a power bank to the camera or use an unapproved dummy battery. Use the battery charger and source Canon permits, and verify each newer camera separately for USB-C PD support while off or operating and for cable requirements.',
                 },
                 {
                     question: 'Which is better for wedding shooting: one big power bank or two medium ones?',
-                    answer: 'Two medium banks are better practically. If one big (Prime 165W) fails or is lost, you lose the entire shoot. With two separate banks (Prime + ZOLO 45W = 6,150 EGP), losing one doesn\'t stop work. Bonus: you can recharge one while using the other — full continuity.',
+                    answer: 'Two independent sources may reduce a single point of failure, but weight, output, ports, and cost depend on the kit. Calculate watt-hours for each camera, phone, and laptop with margin, and verify simultaneous-use support; then compare current Prime and ZOLO prices. Two devices do not guarantee an uninterrupted shoot.',
                 },
                 {
                     question: 'Does a power bank damage camera battery long-term?',
-                    answer: 'No, as long as the power bank supports proper USB-C PD and has ActiveShield or equivalent thermal protection. Modern Sony/Canon/Nikon cameras have smart BMS (Battery Management System) that rejects unsafe charging. The risk only comes from counterfeit power banks without FCC/CE certifications — camera damage in 6-12 months.',
+                    answer: 'There is no universal answer for every camera and power bank. Match USB-C PD profile, output, and cable to the camera manual, and use undamaged batteries and accessories with documented protections. A protection feature name or certification logo cannot prevent every fault, and no fixed damage timeline applies; stop after unusual heat or malfunction.',
                 },
                 {
                     question: 'How many power banks do I need for a 5-day safari without electricity?',
-                    answer: 'For 5 days: Anker Prime 165W (3,950 EGP) at 25,000mAh × 5 days = charges for 3 cameras + phone + watch. Ideal solution: Prime + Anker 521 PowerHouse 256Wh (to recharge all banks from portable solar). Total 4-5 full charges for Canon R5 + all secondary devices.',
+                    answer: 'Measure the kit’s watt-hour use on a comparable shooting day, multiply by five with margin for heat and conversion loss, then compare it with usable source energy. Nominal capacity does not guarantee a fixed Canon R5 or accessory charge count. Check current Prime and PowerHouse prices and documented solar-charging compatibility before planning.',
                 },
             ],
         },

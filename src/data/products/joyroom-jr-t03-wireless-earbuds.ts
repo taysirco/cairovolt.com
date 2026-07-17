@@ -14,147 +14,73 @@ export const joyroom_jr_t03_wireless_earbuds = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-1.webp", alt: "joyroom jr t03 wireless earbuds - Original Sealed | Fast Egypt Delivery - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-10.webp", alt: "جوي روم jr t03 wireless earbuds - منتج أصلي معتمد | شحن مصر كلها - JR-AU-T03 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-2.webp", alt: "joyroom jr t03 wireless earbuds - Best Deal in Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-3.webp", alt: "جوي روم jr t03 wireless earbuds - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-4.webp", alt: "joyroom jr t03 wireless earbuds - CairoVolt Verified Original", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-5.webp", alt: "جوي روم jr t03 wireless earbuds الأصلي في مصر | توصيل لأي محافظة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-6.webp", alt: "joyroom jr t03 wireless earbuds - 18 Month Dealer Warranty Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-7.webp", alt: "جوي روم jr t03 wireless earbuds - مختوم بختم الشركة | كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_9", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-8.webp", alt: "joyroom jr t03 wireless earbuds - Factory Original CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_10", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-9.webp", alt: "جوي روم jr t03 wireless earbuds - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-1.webp", alt: "Joyroom JR-T03 wireless earbuds and charging case main view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-10.webp", alt: "سماعة جوي روم JR-T03 مع علبة الشحن - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-2.webp", alt: "Joyroom JR-T03 earbud shape and touch-control area - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-3.webp", alt: "جوي روم JR-T03 تفاصيل السماعات اللاسلكية - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-4.webp", alt: "Joyroom JR-T03 wireless earbuds charging case detail - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-5.webp", alt: "سماعة جوي روم JR-T03 داخل علبة الشحن - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-6.webp", alt: "Joyroom JR-T03 package contents view - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-7.webp", alt: "بيانات عبوة سماعة جوي روم JR-T03 - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_9", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-8.webp", alt: "Joyroom JR-T03 earbuds side detail - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_10", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-9.webp", alt: "محتويات سماعة جوي روم JR-T03 وعلبة الشحن - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
-                name: "Joyroom JR-T03 Wireless Earbuds | 20H Battery | Bluetooth 5.0 | 12-Month Warranty",
-                shortDescription: "🎧 20H Total Playtime | 👆 Touch Controls | 📱 Bluetooth 5.0 | 🎤 Built-in Mic for Calls | 💰 Best Budget TWS",
+                name: "Joyroom JR-T03 Wireless Earbuds | 20H Battery | Bluetooth 5.0",
+                shortDescription: "Manufacturer-rated up to 20h total playback | Touch controls | Bluetooth 5.0 | Built-in microphone | IPX4 listing | Check current terms",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap earbuds with tinny sound and 1-hour battery, The <strong>جوي روم JR-T03 earbuds</strong> pack <strong>20 hours total battery + Bluetooth 5.0 + touch controls</strong> at 774 EGP. IPX4 water-resistant for gym use. Deep bass with 13mm drivers. A solid daily driver that punches above its price. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
-<div class="product-summary">
-    <h3 class="font-bold mb-2">Key Features:</h3>
-    <ul class="list-none space-y-1">
-        <li>🎧 <strong>20H Battery:</strong> 3-4 hours per charge + 4 additional charges from case.</li>
-        <li>👆 <strong>Touch Controls:</strong> Play/pause, skip, volume, and call answer on earbuds.</li>
-        <li>📱 <strong>Bluetooth 5.0:</strong> Stable connection with iPhone 17, Samsung S26, and all devices.</li>
-        <li>💰 <strong>Best Budget:</strong> Quality wireless earbuds at Egypt's most affordable price.</li>
-    <li>💰 <strong>1.43 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
-</div>
-
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "We gave the JR-T03 to a college student who wanted wireless earbuds under 800 EGP. After 2 weeks of daily use — lectures, commuting, gym, and Netflix before bed — her review: 'They just work.' The sound is surprisingly clear for the price, the touch controls are responsive, and the compact case fits in a coin pocket. No ANC (that's what the T03S Pro is for), but for podcasts, music, and calls, these punch well above their price. The built-in mic handled a 20-minute phone call while walking on a busy Mohandessin street without complaints from the other end."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
-
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom JR-T03 wireless earbuds (JR-AU-T03)</strong> are listed with Bluetooth 5.0, touch controls, a built-in microphone, IPX4 splash resistance and up to 20 hours of total playback with the charging case under manufacturer conditions. Battery life, connection, sound, call quality and water resistance vary with volume, device, fit, radio conditions, temperature and use. Check the printed model, current package contents, price, stock, warranty and return terms before ordering.</p></div>
+<div class="product-summary"><h3 class="font-bold mb-2">Key checks</h3><ul class="list-none space-y-1"><li><strong>Published total playback:</strong> up to 20 hours with the case under stated conditions; actual runtime varies.</li><li><strong>Bluetooth 5.0:</strong> requires a compatible source and does not guarantee identical range or latency on every device.</li><li><strong>Touch controls and microphone:</strong> available functions and call clarity depend on the device, app and environment.</li><li><strong>IPX4 listing:</strong> follow splash-resistance limits; do not swim with the earbuds and dry them before charging.</li><li><strong>Current listing:</strong> verify package contents and after-sales terms.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify JR-AU-T03</h2><p class="text-gray-700 leading-relaxed text-lg">Match the model number, printed battery and IP information, Bluetooth name, charging connector and package contents with current manufacturer documentation. Try the supplied ear-tip sizes for a stable seal without pressure. General music or commuting examples are not measurements of sound, isolation or battery life.</p></div>
 <div class="product-details">
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Wireless Freedom at Egypt's Best Price</h2>
-        <p class="text-gray-700">The JR-T03 proves you don't need to spend thousands on wireless earbuds. <strong>Bluetooth 5.0</strong> delivers stable, lag-free connection. <strong>Touch controls</strong> let you manage music and calls without reaching for your phone. Stereo sound with decent bass makes music enjoyable. For students, commuters, and anyone who wants to cut the cord affordably.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">20 Hours Total: A Full Week of Commuting</h2>
-        <p class="text-gray-700"><strong>3-4 hours per charge</strong> from the earbuds, plus <strong>4 additional full charges</strong> from the compact case = 20 hours total. That's a full work week of 2-hour daily commutes. The case is small enough to fit in a coin pocket or the smallest compartment of your bag.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Built-in Mic: Take Calls Without Your Phone</h2>
-        <p class="text-gray-700">The <strong>built-in microphone</strong> handles phone calls clearly. Not studio quality, but perfectly adequate for everyday calls. Each earbud works independently — use one for calls while charging the other. For better call quality and ANC, upgrade to the <a href="/en/joyroom/audio" class="text-blue-600 hover:underline">T03S Pro</a>.</p>
-    </section>
+<section><h2 class="text-2xl font-bold mb-2 text-gray-900">Bluetooth, controls and device support</h2><p class="text-gray-700">Pairing requires a source that supports standard Bluetooth audio profiles. Touch-control assignments may vary by mode or firmware. Check the manual before relying on volume, track, call or single-earbud functions, and confirm microphone selection in the calling app.</p></section>
+<section><h2 class="text-2xl font-bold mb-2 text-gray-900">Battery and charging case</h2><p class="text-gray-700">Treat the published 20-hour total as a manufacturer-rated figure under stated conditions. Earbud and case runtime depend on volume, calls, signal quality, battery age and temperature. Charge with the specified input and keep the contacts dry and clean.</p></section>
+<section><h2 class="text-2xl font-bold mb-2 text-gray-900">Fit, sound and calls</h2><p class="text-gray-700">Perceived bass, detail and passive isolation depend on the ear-tip seal and recording. The built-in microphone supports calls, but clarity changes with wind, traffic, room acoustics and the phone or app. Compare current features with <a href="/en/joyroom/audio" class="text-blue-600 hover:underline">Joyroom audio models</a> if you need ANC or a different microphone system.</p></section>
 </div>
-<div class="device-compatibility">
-    <h3 class="font-bold mb-2">Compatible Devices:</h3>
-    <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17/16/15/14:</strong> Full Bluetooth 5.0 support.</li>
-        <li>📱 <strong>Samsung S26/S25/A-Series:</strong> Full support.</li>
-        <li>💻 <strong>MacBook / Windows Laptop:</strong> Bluetooth audio.</li>
-        <li>📺 <strong>iPad / Android Tablet:</strong> Wireless audio.</li>
-    </ul>
-</div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">NO active noise cancellation (ANC). Not suitable for very loud environments. IPX4 means splash-resistant, NOT swim-proof. Ear tips may need replacement after 6+ months. Touch controls have a learning curve. احذر من السماعات المقلدة — جودة صوت سيئة وبطارية بتنفد في ساعة.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">Before ordering</h3><p class="text-gray-700">JR-T03 does not include active noise cancellation unless explicitly stated for the supplied variant. IPX4 is a limited splash rating, not waterproofing for immersion. Inspect the earbuds and case on receipt and review current warranty eligibility and exclusions.</p></div>
 `,
-                features: ["🎧 20H Total Playtime", "👆 Touch Controls", "📱 Bluetooth 5.0", "🎤 Built-in Mic", "🎵 Stereo Sound", "💰 Best Budget Price", "🏆 12-Month Warranty", "🔒 FCC + CE Certified → Global Safety Standards"],
-                metaTitle: "Joyroom JR-T03 Earbuds ⚡ Budget Bluetooth | Official | COD",
-                metaDesc: "Buy Joyroom JR-T03 wireless earbuds in Egypt. 20H battery, touch controls, Bluetooth 5.0, built-in mic. Best budget TWS. 12-month warranty.",
+                features: ["🎧 Published up to 20h Total Playback", "👆 Touch Controls", "📱 Bluetooth 5.0", "🎤 Built-in Microphone", "🎵 Stereo Audio", "💧 IPX4 Listed Splash Resistance", "🏆 current warranty and return policy", "🔎 Verify Model and Package Contents"],
+                metaTitle: "Joyroom JR-T03 Wireless Earbuds | Bluetooth 5.0 | Egypt",
+                metaDesc: "Joyroom JR-T03 earbuds with Bluetooth 5.0, touch controls, built-in microphone, IPX4 listing and published total playback up to 20h. Check current terms.",
                 faqs: [
-                    { question: "Is this the original Joyroom?", answer: "Yes, we only sell 100% original Joyroom products with official warranty." },
-                    { question: "Does it have a microphone?", answer: "Yes, it features a built-in microphone for calls, but T03S Pro is recommended for better call quality." },
-                    { question: "How long does the battery last?", answer: "The earbuds last about 3-4 hours on a single charge, and the case provides 4 additional charges." },
-                    { question: "How does it compare to T03S Pro?", answer: "T03 is more affordable but lacks ANC. T03S Pro has noise cancellation and better sound. T03 is great for budget users." }
+                    { question: "How can I verify the supplied Joyroom model?", answer: "Match the model number, serial or verification label, package contents and Bluetooth name with the supplied packaging and manufacturer instructions. Warranty terms are those currently shown for this listing." },
+                    { question: "Does it have a microphone?", answer: "It includes a built-in microphone for calls. Clarity varies with the phone, app, wind, surrounding noise and connection quality." },
+                    { question: "How long does the battery last?", answer: "The manufacturer lists up to 20 hours total with the charging case under stated conditions. Actual earbud and case runtime varies with volume, calls, signal, temperature and battery age." },
+                    { question: "How does it compare to T03S Pro?", answer: "Compare the current listings by ANC support, microphone system, published battery conditions, codec and controls, fit, water-resistance limits, price and warranty. T03 does not include ANC unless stated for the exact variant." }
                 ,
-                    { question: "What does the CairoVolt warranty cover?", answer: "18-month full replacement warranty covering driver failure, Bluetooth connectivity issues, case charging defects, or battery degradation. Free return shipping." }]
+                    { question: "What does the CairoVolt warranty cover?", answer: "The current written warranty terms define duration, eligible defects, exclusions, proof of purchase and service or shipping steps. Review them on this listing before ordering." }]
             },
             ar: {
-                name: "سماعة جوي روم JR-T03 | أرخص سماعة بلوتوث أصلية للطلبة | ضمان 12 شهر",
-                shortDescription: "سماعة الغلابة اللي بتعيش | 🎧 صوت ممتاز للمحاضرات والأغاني | 🔋 20 ساعة بطارية | 🎤 ميكروفون مكالمات شغال لو انت في مكان هادي",
+                name: "سماعة جوي روم JR-T03 | بلوتوث 5.0 وتحكم باللمس",
+                shortDescription: "تشغيل إجمالي معلن حتى 20 ساعة | تحكم باللمس | Bluetooth 5.0 | ميكروفون مدمج | تصنيف IPX4 | راجع الشروط الحالية",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، سماعات <strong>جوي روم JR-T03</strong> بتوفر <strong>20 ساعة بطارية إجمالية + بلوتوث 5.0 + تحكم باللمس</strong> بـ 774 جنيه. مقاومة مياه IPX4 للجيم. صوت bass عميق بسماعات 13 مم. سماعة يومية ممتازة بتتفوق على سعرها. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
-<div class="product-summary">
-    <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
-    <ul class="list-none space-y-1">
-        <li>🎧 <strong>20 ساعة بطارية:</strong> 3-4 ساعات لكل شحنة + 4 شحنات إضافية من العلبة.</li>
-        <li>👆 <strong>تحكم باللمس:</strong> تشغيل/إيقاف، تخطي، صوت، ورد مكالمات.</li>
-        <li>📱 <strong>Bluetooth 5.0:</strong> اتصال مستقر مع ايفون 17 وسامسونج S26 وكل الأجهزة.</li>
-        <li>💰 <strong>أفضل سعر:</strong> سماعات لاسلكية بأقل سعر في مصر.</li>
-    </ul>
-</div>
-
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "نحن في فريق كايرو فولت سلّمنا JR-T03 لطالبة جامعية عايزة سماعات لاسلكية تحت 800 جنيه. بعد أسبوعين استخدام يومي — محاضرات، مواصلات، جيم، وNetflix قبل النوم — رأيها: 'بتشتغل وخلاص.' الصوت واضح بشكل مفاجئ للسعر، التحكم باللمس مستجيب، والعلبة الصغيرة بتدخل جيب العملة. مفيش ANC (ده لـ T03S Pro)، بس للبودكاست والمزيكا والمكالمات، دول بيضربوا فوق سعرهم بكتير. الميكروفون المدمج تعامل مع مكالمة 20 دقيقة واحنا ماشيين في شارع مزحوم في المهندسين من غير شكوى من الطرف التاني."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
-
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">سماعة <strong>جوي روم JR-T03 اللاسلكية موديل JR-AU-T03</strong> مدرجة ببلوتوث 5.0 وتحكم باللمس وميكروفون مدمج وتصنيف IPX4 ضد الرذاذ وتشغيل إجمالي يصل إلى 20 ساعة مع علبة الشحن وفق ظروف الشركة المصنّعة. تختلف البطارية والاتصال والصوت والمكالمات ومقاومة الماء حسب مستوى الصوت والجهاز والإحكام والإشارة والحرارة والاستخدام. تحقق من الموديل المطبوع ومحتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية قبل الطلب.</p></div>
+<div class="product-summary"><h3 class="font-bold mb-2">نقاط تحقق مهمة</h3><ul class="list-none space-y-1"><li><strong>تشغيل إجمالي معلن:</strong> حتى 20 ساعة مع العلبة وفق ظروف محددة؛ الزمن الفعلي يختلف.</li><li><strong>Bluetooth 5.0:</strong> يحتاج مصدرًا متوافقًا ولا يضمن مدى أو تأخيرًا متطابقًا على كل جهاز.</li><li><strong>اللمس والميكروفون:</strong> الوظائف وجودة المكالمات تعتمدان على الجهاز والتطبيق والبيئة.</li><li><strong>تصنيف IPX4:</strong> اتبع حدود مقاومة الرذاذ ولا تسبح بالسماعات وجففها قبل الشحن.</li><li><strong>القائمة الحالية:</strong> تحقق من محتويات العبوة وخدمة ما بعد البيع.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق من JR-AU-T03</h2><p class="text-gray-700 leading-relaxed text-lg">طابق رقم الموديل وبيانات البطارية وIP واسم البلوتوث وموصل الشحن ومحتويات العبوة مع وثائق الشركة المصنّعة الحالية. جرّب مقاسات الأطراف المرفقة للحصول على إحكام ثابت من دون ضغط. أمثلة الموسيقى أو المواصلات العامة ليست قياسًا للصوت أو العزل أو البطارية.</p></div>
 <div class="product-details">
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">حرية لاسلكية بأفضل سعر في مصر</h2>
-        <p class="text-gray-700">في زحمة المترو والميكروباص في القاهرة، JR-T03 بتثبت إنك مش محتاج تصرف آلاف على سماعات لاسلكية. <strong>Bluetooth 5.0</strong> بيوفر اتصال مستقر بدون تأخير. <strong>تحكم باللمس</strong> بيخلّيك تتحكم في المزيكا والمكالمات من غير ما تطلّع موبايلك. صوت ستيريو ببيس كويس بيخلّي المزيكا ممتعة. للطلاب والركاب وأي حد عايز يتخلص من السلك بسعر اقتصادي.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">20 ساعة: أسبوع كامل من التنقلات</h2>
-        <p class="text-gray-700"><strong>3-4 ساعات</strong> لكل شحنة من السماعة، و<strong>4 شحنات كاملة إضافية</strong> من العلبة الصغيرة = 20 ساعة إجمالي. يعني أسبوع كامل من التنقلات اليومية ساعتين. العلبة صغيرة كفاية تدخل جيب العملة أو أصغر جيب في الشنطة.</p>
-    </section>
-
-    <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">ميكروفون مدمج: اتكلم من غير ما تطلّع الموبايل (الهاتف الذكي)</h2>
-        <p class="text-gray-700"><strong>الميكروفون المدمج</strong> بيتعامل مع المكالمات بوضوح. مش جودة استوديو، بس كافي جداً للمكالمات اليومية. كل سماعة بتشتغل مستقلة — استخدم واحدة للمكالمات واشحن التانية. لجودة مكالمات أفضل وANC، ارقى لـ <a href="/joyroom/audio" class="text-blue-600 hover:underline">T03S Pro</a>.</p>
-    </section>
+<section><h2 class="text-2xl font-bold mb-2 text-gray-900">البلوتوث والتحكم ودعم الأجهزة</h2><p class="text-gray-700">يحتاج الاقتران مصدرًا يدعم ملفات صوت Bluetooth القياسية. قد تختلف تعيينات اللمس حسب الوضع أو البرنامج الداخلي. راجع الدليل قبل الاعتماد على الصوت أو المسار أو المكالمات أو وضع السماعة الواحدة، وتأكد من اختيار الميكروفون في تطبيق الاتصال.</p></section>
+<section><h2 class="text-2xl font-bold mb-2 text-gray-900">البطارية وعلبة الشحن</h2><p class="text-gray-700">تعامل مع 20 ساعة كرقم معلن من الشركة في ظروف محددة. يعتمد زمن السماعات والعلبة على الصوت والمكالمات وجودة الإشارة وعمر البطارية والحرارة. استخدم دخل الشحن المحدد وحافظ على جفاف ونظافة نقاط التلامس.</p></section>
+<section><h2 class="text-2xl font-bold mb-2 text-gray-900">الملاءمة والصوت والمكالمات</h2><p class="text-gray-700">يعتمد الباس والتفاصيل والعزل السلبي على إحكام طرف الأذن والتسجيل. يدعم الميكروفون المكالمات، لكن الوضوح يتغير مع الرياح والمرور وصدى المكان والهاتف أو التطبيق. قارن <a href="/joyroom/audio" class="text-blue-600 hover:underline">موديلات جوي روم الصوتية</a> الحالية إذا كنت تحتاج ANC أو نظام ميكروفونات مختلفًا.</p></section>
 </div>
-<div class="device-compatibility">
-    <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
-    <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>ايفون 17/16/15/14:</strong> دعم Bluetooth 5.0 كامل.</li>
-        <li>📱 <strong>سامسونج S26/S25/A-Series:</strong> دعم كامل.</li>
-        <li>💻 <strong>ماك بوك / لابتوب ويندوز:</strong> صوت بلوتوث.</li>
-        <li>📺 <strong>ايباد / تابلت اندرويد:</strong> صوت لاسلكي.</li>
-    </ul>
-</div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">مفيش عزل ضوضاء نشط (ANC). مش مناسبة للبيئات الصاخبة جداً. IPX4 يعني مقاومة رذاذ، مش مقاومة غطس. أطراف الأذن ممكن تحتاج استبدال بعد 6+ شهور. التحكم باللمس محتاج تعوّد.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">قبل الطلب</h3><p class="text-gray-700">لا تتضمن JR-T03 عزل ضوضاء نشطًا إلا إذا نُص على ذلك للنسخة الموردة. IPX4 تصنيف محدود للرذاذ وليس حماية للغمر. افحص السماعات والعلبة عند الاستلام وراجع أهلية الضمان والاستثناءات الحالية.</p></div>
 `,
-                features: ["🎧 20 ساعة بطارية", "👆 تحكم باللمس", "📱 Bluetooth 5.0", "🎤 ميكروفون مدمج", "🎵 صوت ستيريو", "💰 أفضل سعر", "🏆 ضمان 12 شهر", "🔒 معتمد FCC + CE → معايير السلامة العالمية"],
-                metaTitle: "سماعة جوي روم JR-T03 ⚡ أرخص سماعة بلوتوث أصلية | COD مصر",
-                metaDesc: "اشتري سماعة جوي روم JR-T03 في مصر. 20 ساعة، تحكم باللمس، Bluetooth 5.0، ميكروفون مدمج. أفضل سماعات اقتصادية. ضمان 12 شهر. سماعة جوي روم.",
+                features: ["🎧 تشغيل إجمالي معلن حتى 20 ساعة", "👆 تحكم باللمس", "📱 Bluetooth 5.0", "🎤 ميكروفون مدمج", "🎵 صوت ستيريو", "💧 تصنيف IPX4 ضد الرذاذ", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من الموديل ومحتويات العبوة"],
+                metaTitle: "سماعة جوي روم JR-T03 | بلوتوث 5.0 وتحكم باللمس",
+                metaDesc: "جوي روم JR-T03 ببلوتوث 5.0 وتحكم باللمس وميكروفون مدمج وتصنيف IPX4 وتشغيل إجمالي معلن حتى 20 ساعة. راجع الشروط الحالية.",
                 faqs: [
-                    { question: "هل هذه جوي روم أصلية؟", answer: "نعم، نبيع فقط منتجات جوي روم أصلية 100% مع ضمان رسمي." },
-                    { question: "هل تحتوي على ميكروفون؟", answer: "نعم، فيها ميكروفون مدمج للرد على المكالمات بجودة مقبولة. لو محتاج جودة مكالمات أعلى مع عزل ضوضاء، T03S Pro هي الخيار الأفضل." },
-                    { question: "كم تدوم البطارية؟", answer: "السماعات بتشتغل 3 إلى 4 ساعات متواصلة على شحنة واحدة، والعلبة بتوفر 4 شحنات إضافية يعني إجمالي حوالي 20 ساعة استماع." },
-                    { question: "كيف تقارن مع T03S Pro؟", answer: "T03 أرخص لكن بدون ANC. T03S Pro عزل ضوضاء وصوت أفضل. T03 ممتاز للميزانية." }
+                    { question: "إزاي أتحقق من موديل جوي روم المورّد؟", answer: "طابق رقم الموديل وملصق الرقم التسلسلي أو التحقق ومحتويات العبوة واسم البلوتوث مع العبوة وتعليمات الشركة. الضمان وفق الشروط الحالية في الصفحة." },
+                    { question: "هل تحتوي على ميكروفون؟", answer: "تتضمن ميكروفونًا مدمجًا للمكالمات. يختلف الوضوح حسب الهاتف والتطبيق والرياح والضوضاء المحيطة وجودة الاتصال." },
+                    { question: "كم تدوم البطارية؟", answer: "تعلن الشركة حتى 20 ساعة إجمالًا مع العلبة وفق ظروف محددة. يختلف زمن السماعات والعلبة حسب الصوت والمكالمات والإشارة والحرارة وعمر البطارية." },
+                    { question: "كيف تقارن مع T03S Pro؟", answer: "قارن القائمتين الحاليتين حسب دعم ANC ونظام الميكروفون والبطارية المعلنة والكودك والتحكم والملاءمة وحدود مقاومة الماء والسعر والضمان. لا تتضمن T03 عزلًا نشطًا إلا إذا ذُكر للنسخة المحددة." }
                 ,
-                    { question: "ضمان كايرو فولت 18 شهر بيغطي إيه؟", answer: "استبدال كامل. بيغطي عطل السماعات، مشاكل اتصال البلوتوث، عيوب شحن العلبة، أو تدهور البطارية. شحن إرجاع مجاني." }]
+                    { question: "ضمان كايرو فولت الحالي بيغطي إيه؟", answer: "تحدد الشروط المكتوبة الحالية المدة والعيوب المؤهلة والاستثناءات وإثبات الشراء وخطوات الخدمة أو الشحن. راجعها في الصفحة قبل الطلب." }]
             }
         },
-        meta: { keywords: "سماعة جوي روم, ايربودز جوي روم, جوي روم, سماعة جوي روم, جوي روم t03s, جويروم, سعر سماعة جوي روم, جوي روم earbuds egypt, جوي روم wireless earbuds, جوي روم bluetooth earbuds egypt, جوي روم best earbuds egypt 2026, جوي روم noise cancelling, جوي روم cod egypt, افضل سماعة جوي روم, سماعة جوي روم مصر, سماعة بلوتوث رخيصة مصر, ايربودز جوي روم", mainTerm: "سماعة جوي روم" },
+        meta: { keywords: "سماعة جوي روم, ايربودز جوي روم, جوي روم, سماعة جوي روم, جوي روم t03s, جويروم, سعر سماعة جوي روم, جوي روم earbuds egypt, جوي روم wireless earbuds, جوي روم bluetooth earbuds egypt, جوي روم noise cancelling, جوي روم cod egypt, سماعة جوي روم مصر, سماعة بلوتوث رخيصة مصر, ايربودز جوي روم", mainTerm: "سماعة جوي روم" },
         expertOpinion: {
-            en: "These are the reliable workhorse earbuds. No fancy ANC, just good, clear sound and reliable battery life. They are perfect for podcasts and calls. If you want a simple pair of wireless earbuds that just work without breaking the bank, these are it.",
-            ar: "هذه هي سماعات الاعتمادية. لا يوجد ANC معقد، فقط صوت جيد وواضح وعمر بطارية موثوق. مثالية للبودكاست والمكالمات. إذا كنت تريد زوجاً بسيطاً من السماعات اللاسلكية يعمل فقط دون كسر الميزانية، فهذه هي."
+            en: "JR-T03 is a basic non-ANC earbud option with Bluetooth 5.0, touch controls, a built-in microphone, IPX4 listing and manufacturer-rated total playback up to 20 hours. Compare fit, device support and current terms before choosing it.",
+            ar: "JR-T03 خيار سماعات أساسي بدون ANC، ببلوتوث 5.0 وتحكم باللمس وميكروفون مدمج وتصنيف IPX4 وتشغيل إجمالي معلن حتى 20 ساعة. قارن الملاءمة ودعم الجهاز والشروط الحالية قبل الاختيار."
         },
         relatedProducts: [
         "joyroom-t03s-pro-earbuds",

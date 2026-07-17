@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
 import { Metadata } from 'next';
-import { CollectionPageSchema, SpeakableSchema, LocalBusinessSchema } from '@/components/schemas/StructuredDataSchemas';
+import { CollectionPageSchema } from '@/components/schemas/StructuredDataSchemas';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import FAQSection from '@/components/content/FAQSection';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
@@ -34,11 +34,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
       ...baseMetadata,
       title: { absolute: 'Mobile Accessories Egypt | Anker, Soundcore & Joyroom' },
-      description: 'Shop original Anker, Soundcore, and Joyroom accessories in Egypt. Power banks, earbuds, chargers, and cables with clear warranty terms and cash on delivery.',
+      description: 'Shop Anker, Soundcore, and Joyroom accessories in Egypt. Power banks, earbuds, chargers, and cables with written CairoVolt warranty terms and cash on delivery for eligible orders.',
       keywords: 'mobile accessories, anker egypt, soundcore egypt, joyroom, power bank, earbuds, anker charger, joyroom t03s',
       openGraph: {
         title: 'Mobile Accessories Egypt | CairoVolt',
-        description: 'Original Anker, Soundcore, and Joyroom accessories with nationwide delivery and cash on delivery.',
+        description: 'Anker, Soundcore, and Joyroom accessories with delivery to eligible addresses within Egypt, written CairoVolt warranty terms, and cash on delivery for eligible orders.',
         url: 'https://cairovolt.com/en',
         locale: 'en_US',
         type: 'website',
@@ -50,23 +50,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           alt: 'CairoVolt - Mobile Accessories Egypt',
         }],
       },
-      other: {
-        'geo.region': 'EG',
-        'geo.placename': 'Cairo, Egypt',
-        'geo.position': '30.0444;31.2357',
-        'ICBM': '30.0444, 31.2357',
-      },
     };
   }
 
   return {
     ...baseMetadata,
-    title: { absolute: 'اكسسوارات موبايل أصلية في مصر | انكر وساوندكور وJoyroom' },
-    description: 'تسوق منتجات انكر وساوندكور وJoyroom الأصلية في مصر. باور بانك، سماعات، شواحن وكابلات بضمان واضح حسب المنتج والدفع عند الاستلام.',
+    title: { absolute: 'اكسسوارات موبايل في مصر | انكر وساوندكور وجوي روم' },
+    description: 'تسوق منتجات انكر وساوندكور وجوي روم في مصر. باور بانك، سماعات، شواحن وكابلات بشروط ضمان كايرو فولت المكتوبة حسب المنتج والدفع عند الاستلام للطلبات المؤهلة.',
     keywords: 'اكسسوارات موبايل, انكر مصر, انكر, ساوندكور, جوي روم, باور بانك, سماعات, شاحن انكر, ايربودز انكر',
     openGraph: {
-      title: 'اكسسوارات موبايل أصلية في مصر | كايرو فولت',
-      description: 'منتجات انكر وساوندكور وJoyroom الأصلية مع توصيل لكل مصر والدفع عند الاستلام.',
+      title: 'اكسسوارات موبايل في مصر | كايرو فولت',
+      description: 'منتجات انكر وساوندكور وجوي روم مع ضمان كايرو فولت المكتوب وتوصيل للعناوين المؤهلة داخل مصر والدفع عند الاستلام للطلبات المؤهلة.',
       url: 'https://cairovolt.com',
       locale: 'ar_EG',
       type: 'website',
@@ -77,12 +71,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         height: 640,
         alt: 'كايرو فولت - اكسسوارات موبايل مصر',
       }],
-    },
-    other: {
-      'geo.region': 'EG',
-      'geo.placename': 'القاهرة، مصر',
-      'geo.position': '30.0444;31.2357',
-      'ICBM': '30.0444, 31.2357',
     },
   };
 }
@@ -112,25 +100,14 @@ export default async function Home({ params }: Props) {
 
   return (
     <>
-      <LocalBusinessSchema locale={locale} />
       <CollectionPageSchema
         locale={locale}
         collections={schemaCategories.map((category) => ({
           name: category.title,
           url: `https://cairovolt.com${category.href}`,
-          description: isRTL ? `تسوق ${category.title} الأصلية` : `Shop original ${category.title}`,
+          description: isRTL ? `تسوق ${category.title}` : `Shop ${category.title}`,
         }))}
       />
-      <SpeakableSchema
-        pageUrl={`https://cairovolt.com${prefix}`}
-        speakableSelectors={['h1', '.hero-description', '.quality-badges']}
-        headline={isRTL ? 'اكسسوارات موبايل انكر وساوندكور وJoyroom في مصر' : 'Anker, Soundcore, and Joyroom accessories in Egypt'}
-        description={isRTL
-          ? 'منتجات أصلية مرتبة حسب الاستخدام، مع توصيل لكل مصر والدفع عند الاستلام.'
-          : 'Original accessories organized by use, with delivery across Egypt and cash on delivery.'}
-        locale={locale}
-      />
-
       <div className="flex flex-col bg-white" dir={isRTL ? 'rtl' : 'ltr'}>
         <HeroSection locale={locale} />
         <TrustRibbon locale={locale} />
@@ -172,23 +149,23 @@ export default async function Home({ params }: Props) {
               {[
                 {
                   icon: 'check-circle',
-                  titleAr: 'تحقق من الأصالة',
-                  titleEn: 'Verify authenticity',
-                  bodyAr: 'اعرف مكان الكود وطريقة المراجعة قبل ما تعتمد على شكل العلبة فقط.',
-                  bodyEn: 'Learn where the code is and how to check it before relying on packaging alone.',
+                  titleAr: 'راجع سجل ضمان كايرو فولت',
+                  titleEn: 'Check the CairoVolt warranty record',
+                  bodyAr: 'أدخل سيريال كرت الضمان لمعرفة إن كان صادراً من كايرو فولت وعرض حالة سجله.',
+                  bodyEn: 'Enter the warranty-card serial to confirm it was issued by CairoVolt and view its record status.',
                   href: '/verify',
-                  ctaAr: 'افتح أداة التحقق',
-                  ctaEn: 'Open verification',
+                  ctaAr: 'افتح سجل الضمان',
+                  ctaEn: 'Open warranty record',
                 },
                 {
                   icon: 'microscope',
-                  titleAr: 'افهم المواصفة الحقيقية',
-                  titleEn: 'Understand the real spec',
-                  bodyAr: 'نشرح القدرة، التوافق والاستخدام المناسب بلغة عملية من غير مصطلحات مربكة.',
-                  bodyEn: 'We explain power, compatibility, and fit in practical language without confusing jargon.',
+                  titleAr: 'افهم المواصفات قبل الشراء',
+                  titleEn: 'Understand the specs before buying',
+                  bodyAr: 'استخدم مركز المواصفات والحسابات لفهم القدرة والطاقة والتوافق، مع توضيح المصادر والافتراضات.',
+                  bodyEn: 'Use the specifications and calculations hub to understand power, energy, and compatibility with disclosed sources and assumptions.',
                   href: '/lab',
-                  ctaAr: 'ادخل المختبر',
-                  ctaEn: 'Visit the lab',
+                  ctaAr: 'افتح مركز المواصفات',
+                  ctaEn: 'Open the specs hub',
                 },
                 {
                   icon: 'truck',
@@ -238,7 +215,7 @@ export default async function Home({ params }: Props) {
             <div className="mt-8 grid gap-4 md:grid-cols-3">
               {[
                 { slug: 'best-power-bank-egypt-2026', ar: 'إزاي تختار باور بانك يناسب يومك؟', en: 'How to choose a power bank for your day', icon: 'battery', tone: 'bg-blue-50 text-blue-800' },
-                { slug: 'anker-vs-joyroom-comparison', ar: 'انكر ولا Joyroom: الفرق فين؟', en: 'Anker or Joyroom: where is the difference?', icon: 'scale', tone: 'bg-emerald-50 text-emerald-800' },
+                { slug: 'anker-vs-joyroom-comparison', ar: 'انكر ولا جوي روم: الفرق فين؟', en: 'Anker or Joyroom: where is the difference?', icon: 'scale', tone: 'bg-emerald-50 text-emerald-800' },
                 { slug: 'how-to-identify-original-anker', ar: 'علامات تساعدك تعرف انكر الأصلي', en: 'Clues that help identify original Anker', icon: 'search', tone: 'bg-amber-50 text-amber-800' },
               ].map((article) => (
                 <Link
@@ -267,11 +244,11 @@ export default async function Home({ params }: Props) {
             <div className="mx-auto mt-4 max-w-3xl text-sm leading-8 text-slate-600">
               {isRTL ? (
                 <p>
-                  كايرو فولت يجمع منتجات <strong className="text-slate-900">انكر</strong> للشحن والطاقة، ومنتجات <strong className="text-slate-900">ساوندكور</strong> للصوتيات، وخيارات <strong className="text-slate-900">Joyroom</strong> العملية للاستخدام اليومي. تقدر تقارن بين الباور بانك، الشواحن، الكابلات، الايربودز والهيدفون، وتشوف السعر والتوافق والضمان الخاص بكل منتج قبل الطلب. التوصيل متاح لمحافظات مصر مع إمكانية الدفع عند الاستلام.
+                  كايرو فولت يجمع منتجات <strong className="text-slate-900">انكر</strong> للشحن والطاقة، ومنتجات <strong className="text-slate-900">ساوندكور</strong> للصوتيات، وخيارات <strong className="text-slate-900">جوي روم</strong> العملية للاستخدام اليومي. تقدر تقارن بين الباور بانك، الشواحن، الكابلات، الايربودز والهيدفون، وتشوف السعر والتوافق والضمان الخاص بكل منتج قبل الطلب. التوصيل متاح للعناوين المؤهلة داخل مصر، ويظهر تأكيد الشحن والدفع عند الاستلام قبل إتمام الطلب.
                 </p>
               ) : (
                 <p>
-                  CairoVolt brings together <strong className="text-slate-900">Anker</strong> charging and power products, <strong className="text-slate-900">Soundcore</strong> audio, and practical <strong className="text-slate-900">Joyroom</strong> everyday options. Compare power banks, chargers, cables, earbuds, and headphones with clear pricing, compatibility, and product-specific warranty terms before ordering. Delivery is available across Egypt with cash on delivery.
+                  CairoVolt brings together <strong className="text-slate-900">Anker</strong> charging and power products, <strong className="text-slate-900">Soundcore</strong> audio, and practical <strong className="text-slate-900">Joyroom</strong> everyday options. Compare power banks, chargers, cables, earbuds, and headphones with clear pricing, compatibility, and product-specific warranty terms before ordering. Delivery is available to eligible addresses within Egypt, with shipping and cash-on-delivery eligibility confirmed before the order is completed.
                 </p>
               )}
             </div>
@@ -281,21 +258,21 @@ export default async function Home({ params }: Props) {
         <section className="dark bg-[#07111f] py-16 lg:py-24">
           <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
             <FAQSection
-              productName={isRTL ? 'كايرو فولت — انكر وساوندكور وJoyroom' : 'CairoVolt — Anker, Soundcore & Joyroom'}
+              productName={isRTL ? 'كايرو فولت — انكر وساوندكور وجوي روم' : 'CairoVolt — Anker, Soundcore & Joyroom'}
               locale={locale}
               qaList={isRTL ? [
                 { question: 'أبدأ منين لو مش عارف الموديل المناسب؟', answer: 'ابدأ بقسم «اختار حسب استخدامك» أو مساعد الاختيار السريع في الصفحة. اختار هل محتاج صوت أفضل، بطارية أطول، أو شحن أسرع، وحدد ميزانيتك عشان تشوف نقطة بداية مناسبة.' },
-                { question: 'إزاي أتأكد إن المنتج أصلي؟', answer: 'راجع كود أو باركود التحقق الموجود على العبوة واتبع خطوات صفحة التحقق في كايرو فولت. لا تعتمد على شكل العلبة فقط، واحتفظ بالفاتورة وبيانات الضمان.' },
+                { question: 'إزاي أراجع بيانات المنتج قبل الشراء؟', answer: 'طابق رقم الموديل والمواصفات مع مصادر الشركة المصنّعة وأدواتها إن وُجدت، واحتفظ بالفاتورة. أداة كايرو فولت تتحقق من سجل ضمان كايرو فولت فقط وليست شهادة أصالة من الشركة المصنّعة.' },
                 { question: 'الضمان كام شهر؟', answer: 'مدة الضمان تختلف حسب العلامة والموديل، لذلك نعرضها في صفحة كل منتج بدل وعد عام واحد. راجع بند الضمان في صفحة المنتج قبل إتمام الطلب.' },
                 { question: 'هل الدفع عند الاستلام متاح؟', answer: 'نعم، الدفع عند الاستلام متاح للطلبات المؤهلة. تفاصيل المبلغ والشحن تظهر بوضوح أثناء إتمام الطلب.' },
-                { question: 'هل التوصيل متاح خارج القاهرة؟', answer: 'نعم، التوصيل متاح لمحافظات مصر. مدة ورسوم الشحن تعتمد على المحافظة وتظهر قبل تأكيد الطلب.' },
+                { question: 'هل التوصيل متاح خارج القاهرة؟', answer: 'نعم، نخدم عناوين مؤهلة داخل محافظات مصر. يؤكد توافر التوصيل، ومدته ورسومه، قبل إتمام الطلب.' },
                 { question: 'لو المنتج مش مناسب، أعمل إيه؟', answer: 'راجع سياسة الاسترجاع والاستبدال لمعرفة الشروط والمدة وحالة العبوة المطلوبة، وتواصل مع الدعم قبل إرسال المنتج.' },
               ] : [
                 { question: 'Where do I start if I do not know the right model?', answer: 'Start with Shop by Need or the quick choice assistant on this page. Choose better sound, longer battery, or faster charging, then set a budget for a useful starting point.' },
-                { question: 'How can I check that a product is original?', answer: 'Check the verification code or barcode on the packaging and follow CairoVolt\'s verification steps. Do not rely on box appearance alone, and keep your invoice and warranty information.' },
+                { question: 'How can I review a product before buying?', answer: 'Match the model number and specifications with manufacturer sources and any manufacturer tools that are available, and keep the invoice. CairoVolt\'s checker confirms only a CairoVolt warranty record; it is not a manufacturer authenticity certificate.' },
                 { question: 'How long is the warranty?', answer: 'Warranty length varies by brand and model, so it is shown on each product page instead of using one blanket promise. Review the warranty section before ordering.' },
                 { question: 'Is cash on delivery available?', answer: 'Yes, cash on delivery is available for eligible orders. The order total and delivery details are shown during checkout.' },
-                { question: 'Do you deliver outside Cairo?', answer: 'Yes, delivery is available across Egypt. Timing and fees depend on the governorate and are shown before order confirmation.' },
+                { question: 'Do you deliver outside Cairo?', answer: 'Yes, we serve eligible addresses within Egyptian governorates. Delivery eligibility, timing, and fees are confirmed before the order is completed.' },
                 { question: 'What if the product is not right for me?', answer: 'Review the return and replacement policy for the applicable conditions, timeframe, and packaging requirements, then contact support before sending the item.' },
               ]}
             />

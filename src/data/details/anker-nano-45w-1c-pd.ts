@@ -2,23 +2,21 @@ import type { ProductDetail } from './_types';
 export const anker_nano_45w_1c_pd_detail: ProductDetail = {
     aiTldr: {
   "en": [
-    "45W USB-C PD charges an iPhone 17 Pro to 50% in 29 minutes.",
-    "GaN board is 56% smaller than a standard 45W charger, with foldable prongs.",
-    "CairoVolt's POWER-Z meter logged a steady 44W peaking at just 41°C.",
-    "Single USB-C port charges a MacBook Air M4 at full native speed.",
-    "✅ CairoVolt: 24-month warranty, 100-240V safe, cash on delivery in Egypt."
+    "USB-C PD output is listed up to 45W with compatible devices.",
+    "Compact GaN design with foldable prongs.",
+
+    "A compatible USB-C laptop can negotiate power within the charger's output limit."
   ],
   "ar": [
-    "45 واط USB-C بتشحن ايفون 17 برو لـ 50% في 29 دقيقة.",
-    "لوحة GaN أصغر 56% من شاحن 45 واط العادي بقابس بيتطبق.",
-    "جهاز POWER-Z سجّل 44 واط ثابتة بحرارة 41 درجة بس.",
-    "منفذ واحد بيشحن ماك بوك اير M4 بسرعته الأصلية الكاملة.",
-    "✅ كايرو فولت: ضمان 24 شهر، 100-240 فولت، دفع عند الاستلام."
+    "خرج USB-C PD مدون حتى 45 واط مع الأجهزة المتوافقة.",
+    "تصميم GaN مدمج بقابس قابل للطي.",
+    "تختلف القدرة والحرارة الفعليتان حسب الجهاز والكابل والتهوية والظروف المحيطة.",
+    "يمكن للابتوب USB-C متوافق التفاوض على القدرة ضمن حد خرج الشاحن."
   ]
 },
     localContext: {
-  "en": "Cairo's grid swings between 198V and 242V during summer load peaks, and unbranded 45W bricks pop their capacitors within months. The Anker Nano 45W 1C takes a wide 100–240V input, and its ActiveShield 2.0 layer samples temperature 3 million times a day, holding a steady 44W at 41°C even inside a 40°C Sohag flat.",
-  "ar": "كهرباء القاهرة بتتأرجح بين 198 و242 فولت في ذروة حمل الصيف، والشواحن مجهولة المصدر 45 واط بتحرق مكثفاتها في شهور. شاحن أنكر نانو 45 واط 1C بياخد مدخل واسع 100–240 فولت، وطبقة ActiveShield 2.0 بتقيس الحرارة 3 مليون مرة في اليوم وبتثبت 44 واط عند 41 درجة حتى في شقة بسوهاج حرها 40 درجة."
+  "en": "The 100–240V input can suit standard mains supplies when the outlet and wiring are sound. ActiveShield 2.0 is a manufacturer-listed safeguard, not a replacement for safe building wiring, ventilation or external surge protection. Charging rate and temperature vary with device, cable, battery state and ambient conditions.",
+  "ar": "يمكن لمدخل 100–240 فولت العمل مع مصادر الكهرباء القياسية عندما تكون البريزة والتوصيلات سليمة. ActiveShield 2.0 وظيفة حماية مدونة من انكر وليست بديلًا عن التوصيلات الآمنة والتهوية والحماية الخارجية من اضطراب الكهرباء. تختلف سرعة الشحن والحرارة حسب الجهاز والكابل وحالة البطارية والظروف المحيطة."
 },
     specifications: {
   "Product Type": {
@@ -46,19 +44,8 @@ export const anker_nano_45w_1c_pd_detail: ProductDetail = {
     "ar": "78 جرام"
   },
   "Safety": {
-    "en": "ActiveShield 2.0 + over-voltage / over-current / temperature protection, wide 100–240V input",
-    "ar": "ActiveShield 2.0 + حماية من زيادة الجهد والتيار والحرارة، مدخل واسع 100–240 فولت"
+    "en": "Manufacturer-listed ActiveShield 2.0 protection features and 100–240V input",
+    "ar": "وظائف حماية ActiveShield 2.0 ومدخل 100–240 فولت كما تذكرها انكر"
   }
 },
-    labVerified: {
-        result: {
-  "en": "Held a steady 44W into a MacBook Air M4, with the shell reaching 42°C after 40 minutes.",
-  "ar": "ثبّت 44 واط لماك بوك اير M4، ووصل جسمه لـ 42 درجة بعد 40 دقيقة."
-},
-        conditions: {
-  "en": "Tested June 2026 in a 34°C Nasr City flat using a POWER-Z KM003C meter and a 5A USB-C cable.",
-  "ar": "الاختبار في يونيو 2026 في شقة بمدينة نصر حرارتها 34 درجة بجهاز POWER-Z KM003C وكابل USB-C تحمّل 5 أمبير."
-},
-        expertName: 'Eng. Ahmed Medhat'
-    }
 };

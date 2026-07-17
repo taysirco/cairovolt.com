@@ -1,5 +1,4 @@
-// Server Component — Best-Selling Products Showcase for Brand Pages
-// Displays top 15 products in a premium grid with images, prices, and badges
+// Server component for a curated brand-product grid.
 
 import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
@@ -15,38 +14,36 @@ interface BestSellingProductsProps {
 }
 
 /**
- * Curated list of top-selling Anker product slugs (charging only — post-Soundcore migration).
- * Popularity order: classic 10K/20K power banks drive volume, Nano 45W is the
- * most-requested charger, Zolo 30W / Smart Display / Prime 67W are the risers,
- * the three cables are daily movers, MagGo owns car charging, Prime 25K flagship.
+ * Curated Anker catalogue entries used by brand and category pages.
+ * The exported name is retained for compatibility with existing imports.
  */
 export const ankerBestSellers: string[] = [
-    // Power Banks — highest volume
+    // Power banks
     'anker-powercore-10000',
     'anker-zolo-a110d-10000',
     'anker-zolo-a110e-20000',
     'anker-powercore-20000',
-    // Wall Chargers — high demand
+    // Wall chargers
     'anker-nano-45w',
     'anker-powerport-20w',
     'anker-zolo-30w-a2698-charger',
     'anker-nano-45w-smart-display-charger',
     'anker-prime-a2669-67w-gan-charger',
-    // Cables — everyday essentials
+    // Cables
     'anker-a8050-usb-c-cable',
     'anker-310-usb-c-lightning-cable',
     'anker-zolo-usb-c-braided-cable',
-    // Car + flagship
+    // Car charging and higher-capacity models
     'anker-a2216-magnetic-wireless-car-charger',
     'anker-prime-a1695-25000',
 ];
 
 /**
- * Curated list of top-selling Soundcore products (Anker's audio sub-brand).
- * Mix of earbuds + speakers — driven by R50i, R50i NC, Liberty family.
+ * Curated Soundcore catalogue entries used by brand and category pages.
+ * The exported name is retained for compatibility with existing imports.
  */
 export const soundcoreBestSellers: string[] = [
-    // Earbuds — top sellers
+    // Earbuds and headphones
     'anker-soundcore-r50i',
     'anker-soundcore-r50i-nc',
     'anker-soundcore-life-p2i',
@@ -55,14 +52,14 @@ export const soundcoreBestSellers: string[] = [
     'soundcore-p20i-earbuds',
     'soundcore-liberty-4-nc',
     'soundcore-liberty-5',
-    // Speakers — flagship
+    // Speakers
     'anker-soundcore-motion-plus',
     'anker-soundcore-flare-2',
     'soundcore-rave-3-speaker',
     'soundcore-select-4-go-speaker',
 ];
 
-function getBestSellingProducts(brandSlug: string, max: number): StaticProduct[] {
+function getFeaturedProducts(brandSlug: string, max: number): StaticProduct[] {
     if (brandSlug === 'anker' || brandSlug === 'soundcore') {
         const curatedList = brandSlug === 'anker' ? ankerBestSellers : soundcoreBestSellers;
         const ordered: StaticProduct[] = [];
@@ -95,7 +92,7 @@ export default function BestSellingProducts({
     const isRTL = locale === 'ar';
     const isAnker = brandSlug === 'anker';
     const isSoundcore = brandSlug === 'soundcore';
-    const products = getBestSellingProducts(brandSlug, maxProducts);
+    const products = getFeaturedProducts(brandSlug, maxProducts);
     const displayBrandName = getBrandDisplayName(brandDisplayName, locale);
 
     if (products.length === 0) return null;
@@ -105,19 +102,18 @@ export default function BestSellingProducts({
         return isRTL ? cleanPath : `/${locale}${cleanPath}`;
     };
 
-    // Ranked ItemList over the canonical product URLs — tells search engines
-    // this hub curates its brand's best sellers in explicit demand order.
+    // Product links use the same canonical URLs as their detail pages.
     const canonicalBase = `https://cairovolt.com${isRTL ? '' : '/en'}`;
     const itemListSchema = {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
-        '@id': `${canonicalBase}/${brandSlug}#best-sellers-list`,
+        '@id': `${canonicalBase}/${brandSlug}#featured-products-list`,
         name: isRTL
-            ? `أفضل ${products.length} منتج من ${displayBrandName} في مصر`
-            : `Top ${products.length} ${displayBrandName} Products in Egypt`,
+            ? `منتجات مختارة من ${displayBrandName} في مصر`
+            : `Featured ${displayBrandName} Products in Egypt`,
         isPartOf: { '@id': `${canonicalBase}/${brandSlug}#collectionpage` },
         numberOfItems: products.length,
-        itemListOrder: 'https://schema.org/ItemListOrderDescending',
+        itemListOrder: 'https://schema.org/ItemListUnordered',
         itemListElement: products.map((p, idx) => ({
             '@type': 'ListItem',
             position: idx + 1,
@@ -154,22 +150,22 @@ export default function BestSellingProducts({
                                 <SvgIcon name="fire" className="h-4 w-4" />
                             </span>
                             <span className="text-xs font-bold text-amber-700 dark:text-amber-300">
-                                {isRTL ? 'الأكثر مبيعاً في مصر' : 'Best Sellers in Egypt'}
+                                {isRTL ? 'منتجات مختارة من الكتالوج' : 'Featured Catalogue Products'}
                             </span>
                         </div>
 
                         <h2 className="text-xl font-black text-gray-900 dark:text-white sm:text-2xl md:text-3xl lg:text-4xl">
                             {isRTL
-                                ? `أفضل ${products.length} منتج من ${displayBrandName}`
-                                : `Top ${products.length} ${displayBrandName} Products`}
+                                ? `مختارات من ${displayBrandName}`
+                                : `${displayBrandName} Product Picks`}
                         </h2>
                     </div>
 
                     <div>
                         <p className="text-xs leading-5 text-gray-600 dark:text-gray-400 sm:text-sm sm:leading-6 md:text-base">
                             {isRTL
-                                ? 'المنتجات الأعلى تقييماً والأكثر طلباً من عملائنا — أصلية 100% بضمان كايرو فولت الموضح لكل منتج.'
-                                : 'Top-rated and most requested by our customers — 100% original with the CairoVolt warranty stated for each product.'}
+                                ? 'منتجات متاحة مختارة من الكتالوج؛ تظهر المواصفات والسعر والتوافر وشروط ضمان كايرو فولت في صفحة كل منتج.'
+                                : 'Available catalogue picks; each product page states the specifications, current price, availability, and CairoVolt warranty terms.'}
                         </p>
                         <div className={`mt-2 h-1 w-20 rounded-full ${
                             isSoundcore ? 'bg-gradient-to-r from-orange-600 to-pink-500' :
@@ -181,7 +177,7 @@ export default function BestSellingProducts({
 
                 {/* Products Grid */}
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-5">
-                    {products.map((product, idx) => {
+                    {products.map((product) => {
                         const t = product.translations[isRTL ? 'ar' : 'en'];
                         const productName = isRTL
                             ? localizeArabicBrandNames(t.name)
@@ -189,9 +185,6 @@ export default function BestSellingProducts({
                         const productUrl = getLocalizedHref(
                             `/${brandSlug}/${product.categorySlug}/${product.slug}`
                         );
-                        const discount = product.originalPrice
-                            ? Math.round((1 - product.price / product.originalPrice) * 100)
-                            : 0;
                         const catLabel = categoryLabels[product.categorySlug] || categoryLabels['other'];
 
                         return (
@@ -200,26 +193,6 @@ export default function BestSellingProducts({
                                 href={productUrl}
                                 className="group relative bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 overflow-hidden hover:shadow-xl hover:shadow-blue-100/50 dark:hover:shadow-blue-900/20 hover:border-blue-200 dark:hover:border-blue-800 transition-all duration-300 hover:-translate-y-1"
                             >
-                                {/* Rank Badge (Top 3) */}
-                                {idx < 3 && (
-                                    <div className={`absolute top-2 ${isRTL ? 'right-2' : 'left-2'} z-20 w-7 h-7 rounded-full flex items-center justify-center text-white text-xs font-black shadow-lg ${
-                                        idx === 0 ? 'bg-gradient-to-br from-yellow-400 to-amber-500' :
-                                        idx === 1 ? 'bg-gradient-to-br from-gray-300 to-gray-400' :
-                                        'bg-gradient-to-br from-orange-400 to-orange-600'
-                                    }`}>
-                                        {idx + 1}
-                                    </div>
-                                )}
-
-                                {/* Discount Badge */}
-                                {discount > 0 && (
-                                    <div className={`absolute top-2 ${isRTL ? 'left-2' : 'right-2'} z-20`}>
-                                        <span className="inline-block bg-red-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-sm">
-                                            -{discount}%
-                                        </span>
-                                    </div>
-                                )}
-
                                 {/* Image */}
                                 <div className="relative aspect-square bg-white overflow-hidden">
                                     {product.images?.[0]?.url ? (
@@ -249,7 +222,6 @@ export default function BestSellingProducts({
                                         {isRTL ? catLabel.ar : catLabel.en}
                                     </span>
 
-                                    {/* C2PA provenance: crawler-only (JSON-LD + EXIF/XMP) — visible badge removed */}
                                 </div>
 
                                 {/* Product Info */}
@@ -275,11 +247,6 @@ export default function BestSellingProducts({
                                             <span className="text-[10px] text-gray-600 dark:text-gray-400 font-medium mr-1 ml-0.5">
                                                 {isRTL ? 'ج.م' : 'EGP'}
                                             </span>
-                                            {product.originalPrice && product.originalPrice > product.price && (
-                                                <span className="text-xs text-gray-600 dark:text-gray-400 line-through block">
-                                                    {product.originalPrice.toLocaleString()}
-                                                </span>
-                                            )}
                                         </div>
                                         <span className={`w-7 h-7 rounded-full flex items-center justify-center text-white text-xs shadow-sm transition-transform group-hover:scale-110 ${
                                             isSoundcore ? 'bg-gradient-to-br from-orange-500 to-pink-500' :

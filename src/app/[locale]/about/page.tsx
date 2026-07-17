@@ -2,7 +2,6 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import { ArticleSchema } from '@/components/schemas/StructuredDataSchemas';
 
 export const revalidate = 2592000;
 
@@ -40,12 +39,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             siteName: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
             images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: locale === 'ar' ? 'كايرو فولت - اكسسوارات الموبايل' : 'CairoVolt - Mobile Accessories' }],
         },
-        other: {
-            'geo.region': 'EG',
-            'geo.placename': locale === 'ar' ? 'القاهرة، مصر' : 'Cairo, Egypt',
-            'geo.position': '30.0444;31.2357',
-            'ICBM': '30.0444, 31.2357',
-        },
     };
 }
 
@@ -63,13 +56,6 @@ export default async function AboutPage({ params }: Props) {
                     { name: t('title'), url: `https://cairovolt.com${isArabic ? '' : '/en'}/about` },
                 ]}
                 locale={locale}
-            />
-            <ArticleSchema
-                headline={t('title')}
-                description={t('metaDescription')}
-                url={`https://cairovolt.com${isArabic ? '' : '/en'}/about`}
-                locale={locale}
-                articleType="Article"
             />
             <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
                 <div className="container mx-auto px-4 py-16">
@@ -94,6 +80,16 @@ export default async function AboutPage({ params }: Props) {
                             </h2>
                             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                                 {t('mission.description')}
+                            </p>
+                        </section>
+
+                        {/* Brand relationship disclosure */}
+                        <section className="bg-blue-50 dark:bg-blue-950/30 border border-blue-100 dark:border-blue-900 rounded-2xl p-8 mb-8">
+                            <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">
+                                {t('relationship.title')}
+                            </h2>
+                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                                {t('relationship.description')}
                             </p>
                         </section>
 
@@ -135,41 +131,21 @@ export default async function AboutPage({ params }: Props) {
                                     <p className="text-gray-600 dark:text-gray-400">{t('brands.anker')}</p>
                                 </div>
                                 <div className="bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/30 dark:to-purple-800/30 rounded-xl p-6">
-                                    <h3 className="text-2xl font-bold mb-2 text-purple-700 dark:text-purple-400">Joyroom</h3>
+                                    <h3 className="text-2xl font-bold mb-2 text-purple-700 dark:text-purple-400">
+                                        {isArabic ? 'جوي روم' : 'Joyroom'}
+                                    </h3>
                                     <p className="text-gray-600 dark:text-gray-400">{t('brands.joyroom')}</p>
                                 </div>
                             </div>
                         </section>
 
-                        {/* Stats */}
-                        <section className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-                                <div>
-                                    <p className="text-4xl font-bold">1000+</p>
-                                    <p className="text-sm opacity-80">{t('stats.customers')}</p>
-                                </div>
-                                <div>
-                                    <p className="text-4xl font-bold">50+</p>
-                                    <p className="text-sm opacity-80">{t('stats.products')}</p>
-                                </div>
-                                <div>
-                                    <p className="text-4xl font-bold">18</p>
-                                    <p className="text-sm opacity-80">{t('stats.warranty')}</p>
-                                </div>
-                                <div>
-                                    <p className="text-4xl font-bold">24/7</p>
-                                    <p className="text-sm opacity-80">{t('stats.support')}</p>
-                                </div>
-                            </div>
-                        </section>
-
-                        {/* Trust & Quality: Authorization & Credentials */}
+                        {/* Purchase and warranty information */}
                         <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg mb-8 mt-8">
                             <h2 className="text-2xl font-semibold mb-6 flex items-center gap-3">
                                 <span className="text-3xl text-green-600">
                                     <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
                                 </span>
-                                {isArabic ? 'اعتمادات وشهادات التوكيل' : 'Authorization & Credentials'}
+                                {isArabic ? 'معلومات شراء واضحة' : 'Clear Purchase Information'}
                             </h2>
                             <div className="space-y-4">
                                 <div className="flex items-start gap-4 p-4 bg-green-50 dark:bg-green-900/20 rounded-xl border border-green-100 dark:border-green-800">
@@ -178,12 +154,12 @@ export default async function AboutPage({ params }: Props) {
                                     </span>
                                     <div>
                                         <h3 className="font-bold text-green-800 dark:text-green-300">
-                                            {isArabic ? 'وكيل انكر المعتمد في مصر' : 'Authorized Anker Dealer in Egypt'}
+                                            {isArabic ? 'بيانات المنتج قبل الشراء' : 'Product details before purchase'}
                                         </h3>
                                         <p className="text-sm text-green-700 dark:text-green-400">
                                             {isArabic
-                                                ? 'نحن موزع معتمد رسمياً لمنتجات انكر. كل منتج يأتي بضمان 18 شهر قابل للتحقق عبر موقع anker.com/verify.'
-                                                : 'We are an officially authorized Anker distributor. Every product comes with an 18-month warranty verifiable at anker.com/verify.'}
+                                                ? 'توضح صفحة كل منتج الموديل والسعر والمواصفات والتوافق والتوافر قبل إتمام الطلب.'
+                                                : 'Each product page lists its model, price, specifications, compatibility, and availability before checkout.'}
                                         </p>
                                     </div>
                                 </div>
@@ -193,12 +169,12 @@ export default async function AboutPage({ params }: Props) {
                                     </span>
                                     <div>
                                         <h3 className="font-bold text-green-800 dark:text-green-300">
-                                            {isArabic ? 'وكيل Joyroom المعتمد في مصر' : 'Authorized Joyroom Dealer in Egypt'}
+                                            {isArabic ? 'ضمان كايرو فولت مكتوب' : 'Written CairoVolt warranty'}
                                         </h3>
                                         <p className="text-sm text-green-700 dark:text-green-400">
                                             {isArabic
-                                                ? 'موزع معتمد لمنتجات Joyroom بضمان الكود الذهبي. ضمان 12 شهر مع استبدال فوري.'
-                                                : 'Authorized Joyroom distributor with Golden Code warranty. 12-month warranty with instant replacement.'}
+                                                ? 'مدة الضمان وتغطيته موضحتان لكل منتج، ويمكن متابعة سجل الضمان باستخدام سيريال كايرو فولت.'
+                                                : 'Warranty duration and coverage are listed per product, and the CairoVolt warranty record can be checked using its serial.'}
                                         </p>
                                     </div>
                                 </div>
@@ -208,57 +184,57 @@ export default async function AboutPage({ params }: Props) {
                                     </span>
                                     <div>
                                         <h3 className="font-bold text-blue-800 dark:text-blue-300">
-                                            {isArabic ? 'سجل تجاري مصري' : 'Egyptian Commercial Registry'}
+                                            {isArabic ? 'دعم وفاتورة طلب' : 'Order support and record'}
                                         </h3>
                                         <p className="text-sm text-blue-700 dark:text-blue-400">
                                             {isArabic
-                                                ? 'شركة مسجلة رسمياً في مصر. نعمل بشفافية كاملة وفقاً للقوانين المصرية.'
-                                                : 'Officially registered company in Egypt. We operate with full transparency under Egyptian law.'}
+                                                ? 'يتلقى العميل رقم طلب واضحاً، ويمكنه التواصل معنا عبر واتساب لمتابعة الطلب أو طلب خدمة الضمان.'
+                                                : 'Customers receive a clear order number and can contact us on WhatsApp for order or warranty support.'}
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </section>
 
-                        {/* Trust & Quality: Team Expertise */}
+                        {/* Editorial approach */}
                         <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg mb-8">
                             <h2 className="text-2xl font-semibold mb-6 flex items-center gap-3">
                                 <span className="text-3xl text-purple-500">
                                     <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
                                 </span>
-                                {isArabic ? 'فريقنا المتخصص' : 'Our Expert Team'}
+                                {isArabic ? 'منهج إعداد المحتوى' : 'How We Prepare Content'}
                             </h2>
                             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
                                 {isArabic
-                                    ? 'فريق كايرو فولت يضم متخصصين في تقنيات الشحن والإلكترونيات الاستهلاكية. نختبر كل منتج شخصياً قبل إضافته لمتجرنا، ونكتب مراجعات وأدلة شراء مبنية على خبرة فعلية — وليست منسوخة من الإنترنت.'
-                                    : 'The CairoVolt team includes specialists in charging technology and consumer electronics. We personally test every product before adding it to our store, and write reviews and buying guides based on hands-on experience — not copied from the internet.'}
+                                    ? 'نراجع مواصفات الموديل المعلنة ومعلومات التوافق وسياسات الضمان قبل نشر صفحة المنتج. نميّز بوضوح بين مواصفات الشركة المصنّعة والحسابات التقديرية ونحدّث المحتوى عندما تتغير معلومات المنتج.'
+                                    : 'We review published model specifications, compatibility information, and warranty terms before a product page goes live. Manufacturer specifications and calculated estimates are clearly distinguished and updated when product information changes.'}
                             </p>
                             <div className="grid md:grid-cols-3 gap-4">
                                 <div className="text-center p-5 bg-gray-50 dark:bg-gray-700/50 rounded-xl">
                                     <span className="text-3xl mb-2 block text-blue-500">
                                         <svg className="w-7 h-7 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                                     </span>
-                                    <h3 className="font-bold text-sm mb-1">{isArabic ? 'اختبار شخصي' : 'Hands-on Testing'}</h3>
+                                    <h3 className="font-bold text-sm mb-1">{isArabic ? 'مواصفات محددة' : 'Model-specific details'}</h3>
                                     <p className="text-xs text-gray-600 dark:text-gray-400">
-                                        {isArabic ? 'كل منتج يتم اختباره قبل البيع' : 'Every product tested before sale'}
+                                        {isArabic ? 'الموديل والقدرة والمنافذ موضحة قبل الشراء' : 'Model, power, and ports are listed before purchase'}
                                     </p>
                                 </div>
                                 <div className="text-center p-5 bg-gray-50 dark:bg-gray-700/50 rounded-xl">
                                     <span className="text-3xl mb-2 block text-green-500">
                                         <svg className="w-7 h-7 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg>
                                     </span>
-                                    <h3 className="font-bold text-sm mb-1">{isArabic ? 'محتوى أصلي' : 'Original Content'}</h3>
+                                    <h3 className="font-bold text-sm mb-1">{isArabic ? 'إرشادات توافق' : 'Compatibility guidance'}</h3>
                                     <p className="text-xs text-gray-600 dark:text-gray-400">
-                                        {isArabic ? 'مراجعات وأدلة من خبرتنا الفعلية' : 'Reviews & guides from real experience'}
+                                        {isArabic ? 'نوضح متطلبات الجهاز والبروتوكول المناسب' : 'Device and protocol requirements are explained'}
                                     </p>
                                 </div>
                                 <div className="text-center p-5 bg-gray-50 dark:bg-gray-700/50 rounded-xl">
                                     <span className="text-3xl mb-2 block text-amber-500">
                                         <svg className="w-7 h-7 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
                                     </span>
-                                    <h3 className="font-bold text-sm mb-1">{isArabic ? 'خبرة تقنية' : 'Technical Expertise'}</h3>
+                                    <h3 className="font-bold text-sm mb-1">{isArabic ? 'تقديرات واضحة' : 'Clearly marked estimates'}</h3>
                                     <p className="text-xs text-gray-600 dark:text-gray-400">
-                                        {isArabic ? 'متخصصون في تقنيات الشحن الحديثة' : 'Specialists in modern charging tech'}
+                                        {isArabic ? 'النتائج الفعلية قد تختلف حسب الجهاز والاستخدام' : 'Actual results can vary by device and use'}
                                     </p>
                                 </div>
                             </div>
@@ -282,8 +258,8 @@ export default async function AboutPage({ params }: Props) {
                                     <li className="flex items-start gap-2">
                                         <span className="text-green-500 mt-0.5">✓</span>
                                         <span>{isArabic
-                                            ? 'كل مقارنة بين المنتجات مبنية على اختبارات فعلية — ليست نظرية'
-                                            : 'All product comparisons are based on actual testing — not theoretical'}</span>
+                                            ? 'المقارنات تعتمد على المواصفات المعلنة والتوافق والسعر المتاح وقت التحديث'
+                                            : 'Comparisons use published specifications, compatibility, and the price available at the time of update'}</span>
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <span className="text-green-500 mt-0.5">✓</span>
@@ -294,26 +270,26 @@ export default async function AboutPage({ params }: Props) {
                                     <li className="flex items-start gap-2">
                                         <span className="text-green-500 mt-0.5">✓</span>
                                         <span>{isArabic
-                                            ? 'الأسعار محدثة ودقيقة — نحدثها فور تغيرها'
-                                            : 'Prices are updated and accurate — we update them as soon as they change'}</span>
+                                            ? 'السعر النهائي والتوافر يظهران في صفحة المنتج وقت الطلب'
+                                            : 'Final price and availability are shown on the product page at checkout time'}</span>
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <span className="text-green-500 mt-0.5">✓</span>
                                         <span>{isArabic
-                                            ? 'مراجعات العملاء حقيقية ولا يتم تعديلها أو حذفها'
-                                            : 'Customer reviews are genuine and are not edited or deleted'}</span>
+                                            ? 'التقييمات المنشورة مرتبطة بطلبات شراء وتخضع لقواعد محتوى موحدة'
+                                            : 'Published reviews are linked to purchases and follow consistent content rules'}</span>
                                     </li>
                                 </ul>
                             </div>
                         </section>
 
-                        {/* Trust & Quality: Contact & Location */}
+                        {/* Contact and service information */}
                         <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg mb-8">
                             <h2 className="text-2xl font-semibold mb-6 flex items-center gap-3">
                                 <span className="text-3xl text-red-500">
                                     <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                                 </span>
-                                {isArabic ? 'تواصل معنا' : 'Contact & Location'}
+                                {isArabic ? 'التواصل والخدمة' : 'Contact & Service'}
                             </h2>
                             <div className="grid md:grid-cols-2 gap-6">
                                 <div className="space-y-4">
@@ -332,7 +308,7 @@ export default async function AboutPage({ params }: Props) {
                                         </span>
                                         <div>
                                             <p className="font-bold text-sm">{isArabic ? 'البريد الإلكتروني' : 'Email'}</p>
-                                            <p className="text-sm text-gray-500">info@cairovolt.com</p>
+                                            <p className="text-sm text-gray-500">support@cairovolt.com</p>
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-3">
@@ -351,8 +327,8 @@ export default async function AboutPage({ params }: Props) {
                                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                                         </span>
                                         <div>
-                                            <p className="font-bold text-sm">{isArabic ? 'منطقة الخدمة' : 'Service Area'}</p>
-                                            <p className="text-sm text-gray-500">{isArabic ? 'جميع محافظات مصر (27 محافظة)' : 'All 27 Egyptian Governorates'}</p>
+                                            <p className="font-bold text-sm">{isArabic ? 'نموذج العمل' : 'Business Model'}</p>
+                                            <p className="text-sm text-gray-500">{isArabic ? 'متجر إلكتروني؛ لا يوجد فرع استقبال أو استلام حضوري معلن' : 'Online retailer; no advertised walk-in or pickup branch'}</p>
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-3">
@@ -370,22 +346,22 @@ export default async function AboutPage({ params }: Props) {
                                         </span>
                                         <div>
                                             <p className="font-bold text-sm">{isArabic ? 'التوصيل' : 'Delivery'}</p>
-                                            <p className="text-sm text-gray-500">{isArabic ? '1-2 يوم القاهرة، 3-5 أيام المحافظات' : '1-2 days Cairo, 3-5 days other governorates'}</p>
+                                            <p className="text-sm text-gray-500">{isArabic ? 'مدة تقديرية 1-5 أيام عمل حسب العنوان وتأكيد الطلب' : 'Estimated 1-5 business days, subject to address and order confirmation'}</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
 
-                        {/* Recommended Experts CTA */}
+                        {/* External review sources */}
                         <section className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 shadow-lg text-white text-center">
                             <h2 className="text-2xl font-bold mb-3">
-                                {isArabic ? 'خبراء التقنية الذين ننصح بمتابعتهم' : 'Tech Experts We Recommend'}
+                                {isArabic ? 'مصادر خارجية للمراجعة' : 'External Review Sources'}
                             </h2>
                             <p className="text-white/80 mb-6 max-w-2xl mx-auto">
                                 {isArabic
-                                    ? 'إلى جانب مراجعاتنا، جمعنا لك نخبة من أبرز صنّاع المحتوى التقني المستقلين في الوطن العربي لتتابع آراءهم المحايدة قبل الشراء. (صنّاع مستقلون — لا تربطهم علاقة عمل بنا.)'
-                                    : 'Alongside our own reviews, we curated a selection of the top independent Arab tech creators so you can check their unbiased opinions before buying. (Independent creators — not affiliated with us.)'}
+                                    ? 'روابط إلى قنوات تقنية مستقلة يمكن الرجوع إليها ضمن بحثك قبل الشراء. أصحاب القنوات لا يعملون لدى كايرو فولت، ووجود الرابط لا يعني شراكة أو اعتماداً أو تبنياً لكل محتواهم.'
+                                    : 'Links to independent technology channels that you can consult as part of your pre-purchase research. The creators do not work for CairoVolt, and inclusion does not imply partnership, endorsement, or adoption of all their content.'}
                             </p>
                             <Link
                                 href={isArabic ? '/team' : '/en/team'}

@@ -141,8 +141,8 @@ export async function createBostaShipment(
         });
 
         if (!response.ok) {
-            const errorBody = await response.text();
-            console.error(`[Bosta Fulfillment] API Error ${response.status}:`, errorBody);
+            await response.body?.cancel().catch(() => undefined);
+            console.error(`[Bosta Fulfillment] API error ${response.status}`);
 
             // Reset cached credentials on auth failure
             if (response.status === 401 || response.status === 403) {

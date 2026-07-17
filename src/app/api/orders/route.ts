@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { after } from 'next/server';
+import crypto from 'crypto';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { safeAppendOrderToSheet } from '@/lib/google-sheets';
@@ -8,12 +9,36 @@ import { validateApiKey } from '@/lib/api-auth';
 import { sendTtqOrderEvent } from '@/lib/tiktokEventsApi';
 import { getShippingFee } from '@/lib/shipping';
 import { validateCoupon, computeDiscount } from '@/lib/coupons';
-import { staticProducts, getProductBySlug, resolveCatalogPricing, BUNDLE_DISCOUNT_PERCENT } from '@/lib/static-products';
+import {
+    staticProducts,
+    getProductBySlug,
+    getSmartBundleProducts,
+    resolveCatalogPricing,
+} from '@/lib/static-products';
+import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
+import { checkRateLimit } from '@/lib/rate-limit';
+import { governorates } from '@/data/governorates';
+import { getClientIp } from '@/lib/request-ip';
 
-// 🧬 بصمة SKU من الكتالوج — شبكة أمان خادمية: تعوّض أي قطعة سلة بلا sku
-// (سلال قديمة في localStorage قبل حقل sku، أو مسار الإضافة السريعة بالصفحة الرئيسية
-// الذي لا يحمل sku). تصل البصمة لكلا القناتين (ويبهوك + شيت) اللتين تستقبلان orderData.
-function resolveItemSku(item: any): string {
+const MAX_ORDER_BODY_BYTES = 128 * 1024;
+const MAX_ORDER_ITEMS = 20;
+const MAX_TOTAL_UNITS = 50;
+const VALID_CITY_SLUGS = new Set(governorates.map(governorate => governorate.slug));
+
+interface NormalizedOrderItem {
+    productId: string;
+    slug?: string;
+    sku?: string;
+    name: string;
+    brand?: string;
+    image?: string;
+    bundleId?: string;
+    quantity: number;
+    price: number;
+}
+
+// Resolve a missing SKU from the server-side catalog for downstream systems.
+function resolveItemSku(item: { sku?: unknown; productId?: unknown; slug?: unknown }): string {
     if (item?.sku) return String(item.sku);
     const pid = String(item?.productId || '');
     const slug = String(item?.slug || pid.replace(/^static_/, ''));
@@ -23,10 +48,6 @@ function resolveItemSku(item: any): string {
     return bySku?.sku || '';
 }
 
-// ═══════════ Server-side Coupon Validation ═══════════
-// 🎟️ الكوبونات ديناميكية من سيستم الحسابات (acc_coupons) — انظر src/lib/coupons.ts
-// (تشمل fallback محلياً للكودين التاريخيين لو الـCRM غير متاح لحظة الطلب).
-
 // Defense-in-depth: sanitize user-submitted text before storing
 function sanitizeInput(input: unknown, maxLength = 500): string {
     if (typeof input !== 'string') return '';
@@ -34,6 +55,8 @@ function sanitizeInput(input: unknown, maxLength = 500): string {
         .replace(/<[^>]*>/g, '')          // Strip HTML tags
         .replace(/[<>"'&]/g, '')          // Remove dangerous chars
         .replace(/javascript\s*:/gi, '')  // Block JS injection
+        .replace(/[\u0000-\u001F\u007F]/g, ' ')
+        .replace(/\s+/g, ' ')
         .trim()
         .slice(0, maxLength);
 }
@@ -44,22 +67,45 @@ function isValidEgyptianPhone(phone: string): boolean {
 }
 
 export async function POST(req: NextRequest) {
-    let db;
-    try {
-        db = await getFirestore();
-    } catch (initError: unknown) {
-        console.error('Firestore init failed in orders route:', initError);
-        return NextResponse.json({
-            error: 'Service Unavailable: Database initialization failed',
-        }, { status: 503 });
+    const ip = getClientIp(req.headers);
+    const rateCheck = checkRateLimit(`orders:${ip}`, true);
+    if (!rateCheck.allowed) {
+        return NextResponse.json(
+            { error: 'Too many requests. Please try again shortly.' },
+            { status: 429, headers: { 'Retry-After': '60' } },
+        );
+    }
+
+    const declaredLength = Number(req.headers.get('content-length') || 0);
+    if (Number.isFinite(declaredLength) && declaredLength > MAX_ORDER_BODY_BYTES) {
+        return NextResponse.json({ error: 'Request payload is too large' }, { status: 413 });
     }
 
     try {
-        const data = await req.json();
+        const rawBody = await req.text();
+        if (Buffer.byteLength(rawBody, 'utf8') > MAX_ORDER_BODY_BYTES) {
+            return NextResponse.json({ error: 'Request payload is too large' }, { status: 413 });
+        }
+
+        let parsedData: unknown;
+        try {
+            parsedData = JSON.parse(rawBody);
+        } catch {
+            return NextResponse.json({ error: 'Invalid JSON payload' }, { status: 400 });
+        }
 
         // Validate required fields
-        if (!data.customerName || !data.phone || !data.address || !data.city || !data.items?.length) {
+        if (!parsedData || typeof parsedData !== 'object' || Array.isArray(parsedData)) {
+            return NextResponse.json({ error: 'Invalid JSON payload' }, { status: 400 });
+        }
+        const data = parsedData as Record<string, unknown>;
+        if (
+            !data.customerName || !data.phone || !data.address || !data.city
+            || !Array.isArray(data.items) || data.items.length === 0) {
             return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
+        }
+        if (data.items.length > MAX_ORDER_ITEMS) {
+            return NextResponse.json({ error: `Orders are limited to ${MAX_ORDER_ITEMS} items` }, { status: 400 });
         }
 
         // Sanitize and validate phone
@@ -68,19 +114,68 @@ export async function POST(req: NextRequest) {
             return NextResponse.json({ error: 'Invalid Egyptian phone number. Must start with 01 and be 11 digits.' }, { status: 400 });
         }
 
-        // Generate readable Order ID (e.g., CV-1706543)
-        const orderId = `CV-${Math.floor(Date.now() / 1000).toString().slice(-6)}`;
+        const rawItems = data.items as unknown[];
+        const invalidQuantity = rawItems.some((item: unknown) => {
+            if (!item || typeof item !== 'object') return true;
+            const rawQuantity = (item as { quantity?: unknown }).quantity;
+            if (rawQuantity !== undefined && typeof rawQuantity !== 'number') return true;
+            const quantity = Number(rawQuantity ?? 1);
+            return !Number.isInteger(quantity) || quantity < 1 || quantity > 10;
+        });
+        if (invalidQuantity) {
+            return NextResponse.json({ error: 'Invalid item quantity.' }, { status: 400 });
+        }
+        const typedRawItems = rawItems as Array<Record<string, unknown> & { quantity?: number }>;
+        const totalUnits = rawItems.reduce(
+            (sum: number, item) => sum + Number((item as { quantity?: number }).quantity ?? 1),
+            0,
+        );
+        if (totalUnits > MAX_TOTAL_UNITS) {
+            return NextResponse.json({ error: `Orders are limited to ${MAX_TOTAL_UNITS} total units` }, { status: 400 });
+        }
+
+        const customerName = sanitizeInput(data.customerName, 100);
+        const address = sanitizeInput(data.address, 300);
+        const city = sanitizeInput(data.city, 50);
+        const whatsapp = String(data.whatsapp || data.phone).replace(/[^0-9]/g, '');
+        if (customerName.length < 2 || address.length < 5 || !VALID_CITY_SLUGS.has(city)) {
+            return NextResponse.json({ error: 'Invalid order details' }, { status: 400 });
+        }
+        if (!isValidEgyptianPhone(whatsapp)) {
+            return NextResponse.json({ error: 'Invalid WhatsApp number' }, { status: 400 });
+        }
+
+        // Keep order identifiers readable while preventing timestamp collisions.
+        const orderId = `CV-${Date.now().toString(36).toUpperCase()}-${crypto.randomBytes(3).toString('hex').toUpperCase()}`;
+
+        // Persist only the cart fields needed by the order workflow. Prices are
+        // replaced from the server-side catalog below.
+        const normalizedItems: NormalizedOrderItem[] = typedRawItems.map(raw => ({
+            productId: sanitizeInput(raw.productId, 180),
+            slug: sanitizeInput(raw.slug, 180) || undefined,
+            sku: sanitizeInput(raw.sku, 80) || undefined,
+            name: sanitizeInput(raw.name, 180),
+            brand: sanitizeInput(raw.brand, 60) || undefined,
+            image: sanitizeInput(raw.image, 300) || undefined,
+            bundleId: sanitizeInput(raw.bundleId, 200) || undefined,
+            quantity: Number(raw.quantity ?? 1),
+            price: 0,
+        }));
+        if (normalizedItems.some(item =>
+            !item.name || (!item.productId && !item.slug && !item.sku))) {
+            return NextResponse.json({ error: 'Invalid item details' }, { status: 400 });
+        }
 
         const orderData = {
             orderId,
             source: 'website',
-            customerName: sanitizeInput(data.customerName, 100),
+            customerName,
             phone: cleanPhone,
-            whatsapp: sanitizeInput(data.whatsapp || data.phone, 20).replace(/[^0-9]/g, '') || cleanPhone,
-            address: sanitizeInput(data.address, 300),
-            city: sanitizeInput(data.city, 50),
+            whatsapp,
+            address,
+            city,
             cityLabel: sanitizeInput(data.cityLabel, 50) || null,
-            items: Array.isArray(data.items) ? data.items.slice(0, 20) : [], // Cap at 20 items
+            items: normalizedItems,
             totalAmount: typeof data.totalAmount === 'number' ? data.totalAmount : 0,
             couponCode: null as string | null,
             couponDiscount: 0,
@@ -93,68 +188,115 @@ export async function POST(req: NextRequest) {
             updatedAt: FieldValue.serverTimestamp(),
         };
 
-        // ═══ فرض سعر الكتالوج — المصدر الوحيد للحقيقة (NEVER trust client) ═══
-        // العميل يرسل السعر من سلة localStorage/صفحة مكاشة قد تكون قديمة (مثال
-        // مؤكَّد: قلم أنكر 1049 القديم بدل 1199)، أو قد يكون طلباً مُلفَّقاً (المنفذ
-        // غير محمي). نستبدل سعر كل قطعة بسعر موثوق ولا نثق بسعر العميل إطلاقاً:
-        //   ok               → سعر الكتالوج الثابت (بالـslug الثابت، لا الـsku المتغيّر).
-        //   variant-unresolved → رفض 400 (متغيّر غير محدَّد — لا يحدث في سلة حقيقية).
-        //   unknown          → منتج Firestore: نأخذ سعره من Firestore؛ وإلا رفض 400.
-        const pricedItems: any[] = [];
+        let db;
+        try {
+            db = await getFirestore();
+        } catch {
+            console.error('Orders database initialization failed');
+            return NextResponse.json({ error: 'Service temporarily unavailable' }, { status: 503 });
+        }
+
+        // Replace client-provided prices with the authoritative server catalog.
+        const pricedItems: NormalizedOrderItem[] = [];
         for (const it of orderData.items) {
             const res = resolveCatalogPricing(it);
-            const clientPrice = typeof it.price === 'number' ? it.price : null;
 
             if (res.status === 'ok') {
-                if (clientPrice !== null && clientPrice !== res.price) {
-                    console.warn(`[Orders] 💲 سعر قديم صُحِّح من الكتالوج: "${it.name || ''}" ${clientPrice} → ${res.price} | ${orderId}`);
+                const catalogProduct = getProductBySlug(res.slug);
+                if (!catalogProduct) {
+                    return NextResponse.json({ error: 'منتج غير معروف في الطلب. حدّث الصفحة وأعد المحاولة.' }, { status: 400 });
                 }
-                const priced: any = { ...it, price: res.price, sku: res.sku || resolveItemSku(it) };
-                delete priced.originalPrice; // لا نثق بـoriginalPrice العميل
-                if (res.originalPrice !== undefined) priced.originalPrice = res.originalPrice;
+                const catalogVariant = res.variantId
+                    ? catalogProduct.variants?.find(variant => variant.id === res.variantId)
+                    : undefined;
+                const primaryImage = catalogProduct.images.find(image => image.isPrimary)?.url
+                    || catalogProduct.images[0]?.url;
+                const baseName = catalogProduct.translations.ar.name
+                    || catalogProduct.translations.en.name
+                    || catalogProduct.slug;
+                const authoritativeName = catalogVariant
+                    ? `${baseName} — ${catalogVariant.model} (${catalogVariant.capacity})`
+                    : baseName;
+                const priced: NormalizedOrderItem = {
+                    productId: `static_${catalogProduct.slug}${catalogVariant ? `_${catalogVariant.id}` : ''}`,
+                    slug: catalogProduct.slug,
+                    sku: res.sku || resolveItemSku({ productId: `static_${catalogProduct.slug}` }),
+                    name: authoritativeName,
+                    brand: catalogProduct.brand,
+                    image: primaryImage,
+                    bundleId: it.bundleId,
+                    quantity: it.quantity,
+                    price: res.price,
+                };
                 pricedItems.push(priced);
                 continue;
             }
 
             if (res.status === 'variant-unresolved') {
-                console.warn(`[Orders] 🚫 متغيّر غير محدَّد للمنتج ${res.slug} — رفض | pid=${it.productId || 'N/A'}`);
+                console.warn('[Orders] A required product variant was not selected.');
                 return NextResponse.json({ error: 'يجب اختيار خيار المنتج (السعة/الموديل) قبل الطلب.' }, { status: 400 });
             }
 
-            // unknown — منتج ليس في الكتالوج الثابت: نبحث عنه في Firestore بسعره الموثوق
+            if (res.status === 'ambiguous') {
+                console.warn('[Orders] An ambiguous catalog SKU was rejected.');
+                return NextResponse.json({
+                    error: 'رمز المنتج يطابق أكثر من منتج. حدّث الصفحة أو أرسل رابط المنتج المحدد.',
+                    matchingSlugs: res.slugs,
+                }, { status: 400 });
+            }
+
+            // Products absent from the static catalog may still have a Firestore record.
             const slug = res.candidateSlug;
             let resolvedFromFirestore = false;
             if (slug) {
                 try {
                     const doc = await db.collection('products').doc(slug).get();
                     if (doc.exists) {
-                        const fp: any = doc.data() || {};
+                        const fp = (doc.data() || {}) as Record<string, unknown>;
                         const fPrice = Number(fp.price);
                         if (Number.isFinite(fPrice) && fPrice > 0) {
-                            if (clientPrice !== null && clientPrice !== fPrice) {
-                                console.warn(`[Orders] 💲 سعر Firestore فُرض: "${it.name || ''}" ${clientPrice} → ${fPrice} | ${orderId}`);
-                            }
-                            const priced: any = { ...it, price: fPrice, sku: fp.sku || resolveItemSku(it) };
-                            delete priced.originalPrice;
-                            const fOrig = Number(fp.originalPrice);
-                            if (Number.isFinite(fOrig) && fOrig > 0) priced.originalPrice = fOrig;
+                            const translations = fp.translations && typeof fp.translations === 'object'
+                                ? fp.translations as Record<string, Record<string, unknown>>
+                                : {};
+                            const images = Array.isArray(fp.images) ? fp.images : [];
+                            const firstImage = images.find(image =>
+                                image && typeof image === 'object' && (image as { isPrimary?: unknown }).isPrimary === true
+                            ) || images[0];
+                            const imageUrl = firstImage && typeof firstImage === 'object'
+                                ? sanitizeInput((firstImage as { url?: unknown }).url, 300)
+                                : '';
+                            const firestoreName = sanitizeInput(
+                                translations.ar?.name || translations.en?.name || slug,
+                                180,
+                            );
+                            const priced: NormalizedOrderItem = {
+                                productId: slug,
+                                slug,
+                                price: fPrice,
+                                sku: sanitizeInput(fp.sku, 80) || resolveItemSku(it),
+                                name: firestoreName,
+                                brand: sanitizeInput(fp.brand, 60) || undefined,
+                                image: imageUrl || undefined,
+                                bundleId: it.bundleId,
+                                quantity: it.quantity,
+                            };
                             pricedItems.push(priced);
                             resolvedFromFirestore = true;
                         }
                     }
-                } catch (e) {
-                    console.error(`[Orders] Firestore price lookup failed for "${slug}":`, e);
+                } catch {
+                    console.error('Catalog price lookup failed');
                 }
             }
             if (!resolvedFromFirestore) {
-                console.warn(`[Orders] 🚫 منتج غير معروف — رفض الطلب: "${it.name || ''}" pid=${it.productId || 'N/A'} slug=${slug || 'N/A'} | ${orderId}`);
+                console.warn('[Orders] An unrecognized catalog item was rejected.');
                 return NextResponse.json({ error: 'منتج غير معروف في الطلب. حدّث الصفحة وأعد المحاولة.' }, { status: 400 });
             }
         }
         orderData.items = pricedItems;
 
-        // المجموع من الأسعار المصحّحة (لا من قيم العميل)
-        const serverSubtotal = orderData.items.reduce((sum: number, item: any) => {
+        // Calculate the subtotal only from server-resolved prices.
+        const serverSubtotal = orderData.items.reduce((sum: number, item) => {
             const price = typeof item.price === 'number' ? item.price : 0;
             const qty = typeof item.quantity === 'number' ? item.quantity : 1;
             return sum + (price * qty);
@@ -162,33 +304,49 @@ export async function POST(req: NextRequest) {
 
         orderData.subtotalBeforeDiscount = serverSubtotal;
 
-        // 🏆 خصم الكومبو الذهبي (خادمي، من أسعار الكتالوج المصحّحة — لا يُوثق بالعميل):
-        //    5% لكل مجموعة عناصر تشارك bundleId وتضمّ ≥2 منتجات مختلفة. مستقل عن الكوبون.
+        // Apply a bundle discount only when the submitted group exactly matches
+        // the server-generated recommendation for its main catalog product.
         let bundleDiscount = 0;
         {
-            const groups: Record<string, { sum: number; ids: Set<string> }> = {};
+            const groups = new Map<string, NormalizedOrderItem[]>();
             for (const it of pricedItems) {
-                const bid = typeof it.bundleId === 'string' ? it.bundleId.slice(0, 60) : '';
+                const bid = typeof it.bundleId === 'string' ? it.bundleId.slice(0, 200) : '';
                 if (!bid) continue;
-                const g = groups[bid] || (groups[bid] = { sum: 0, ids: new Set() });
-                g.sum += (Number(it.price) || 0) * (Number(it.quantity) || 1);
-                g.ids.add(String(it.productId || it.sku || it.name));
+                const group = groups.get(bid) || [];
+                group.push(it);
+                groups.set(bid, group);
             }
-            for (const k in groups) {
-                if (groups[k].ids.size >= 2) bundleDiscount += Math.round(groups[k].sum * BUNDLE_DISCOUNT_PERCENT / 100);
+
+            for (const [bundleId, items] of groups) {
+                const bundleMatch = bundleId.match(/^combo-static_([a-z0-9-]+)$/);
+                const mainProduct = bundleMatch ? getProductBySlug(bundleMatch[1]) : undefined;
+                const expectedProducts = mainProduct
+                    ? [mainProduct, ...getSmartBundleProducts(mainProduct).bundleProducts.map(entry => entry.product)]
+                    : [];
+                const expectedSlugs = new Set(expectedProducts.map(product => product.slug));
+                const actualSlugs = new Set(items.map(item => item.slug).filter(Boolean));
+                const validBundle = expectedSlugs.size >= 2
+                    && items.length === expectedSlugs.size
+                    && items.every(item => item.quantity >= 1 && !!item.slug && expectedSlugs.has(item.slug))
+                    && actualSlugs.size === expectedSlugs.size;
+
+                if (!validBundle) {
+                    items.forEach(item => { delete item.bundleId; });
+                    continue;
+                }
+
+                const groupTotal = items.reduce((sum, item) => sum + item.price, 0);
+                bundleDiscount += Math.round(groupTotal * BUNDLE_DISCOUNT_PERCENT / 100);
             }
         }
 
-        // Server-side coupon verification — ديناميكي من سيستم الحسابات (acc_coupons)
-        // عبر /api/public/coupons بسر الويبهوك + كاش 60ث + fallback محلي للطوارئ.
+        // Validate coupons server-side before accepting the order total.
         let couponDiscount = 0;
         if (data.couponCode && typeof data.couponCode === 'string') {
-            // نفس تنظيف قناة التحقق — الكود المخزَّن هو ذاته الذي جرى التحقق به (إسناد سليم)
             const code = data.couponCode.trim().toUpperCase().replace(/[^A-Z0-9_-]/g, '').slice(0, 24);
             const verdict = await validateCoupon(code);
             const serverDiscount = computeDiscount(verdict, serverSubtotal);
-            // 💬 شفافية كاملة: كوبون غير صالح = رفض صريح للطلب برسالة واضحة —
-            // لا إعادة تسعير صامتة تجعل العميل يدفع غير ما رأى على الشاشة.
+            // Reject invalid coupons instead of silently changing the displayed total.
             if (!verdict.valid || serverDiscount <= 0) {
                 return NextResponse.json(
                     { error: 'كود الخصم غير صالح أو انتهت صلاحيته — احذفه من الطلب أو صحّحه ثم أكّد مرة أخرى.' },
@@ -199,65 +357,68 @@ export async function POST(req: NextRequest) {
             couponDiscount = serverDiscount;
         }
 
-        // 🧮 إجمالي الخصومات لا يتجاوز المجموع الفرعي (حارس سلامة — يمنع إجمالاً سالباً).
-        //    الشحن يُحسب على المجموع بعد كل الخصومات (نفس سلوك الكوبون الحالي).
+        // Prevent discounts from making the subtotal negative.
         if (couponDiscount + bundleDiscount > serverSubtotal) {
             bundleDiscount = Math.max(0, serverSubtotal - couponDiscount);
         }
         const subtotalAfterDiscount = serverSubtotal - couponDiscount - bundleDiscount;
-        const shipping = getShippingFee(data.city, subtotalAfterDiscount);
+        const shipping = getShippingFee(orderData.city, subtotalAfterDiscount);
         orderData.couponDiscount = couponDiscount;
         orderData.bundleDiscount = bundleDiscount;
         orderData.shippingFee = shipping;
         orderData.totalAmount = subtotalAfterDiscount + shipping;
 
-        // 🧬 حارس بصمة SKU للقطعة الرئيسية (الأعلى قيمة) — الأسعار والـsku
-        // ضُبطت بالفعل أعلاه من الكتالوج؛ هنا تحذير فقط لو بقيت بلا sku.
+        // Report a missing primary SKU without logging customer or order data.
         const primaryItem = orderData.items.length
-            ? [...orderData.items].sort((a: any, b: any) =>
+            ? [...orderData.items].sort((a, b) =>
                 ((b.price || 0) * (b.quantity || 1)) - ((a.price || 0) * (a.quantity || 1)))[0]
             : null;
         if (primaryItem && !primaryItem.sku) {
-            console.warn(`[Orders] ⚠️ بصمة SKU مفقودة للقطعة الرئيسية — orderId=${orderId} | "${primaryItem.name || ''}" | productId=${primaryItem.productId || 'N/A'}`);
+            console.warn('[Orders] Primary catalog item is missing an SKU.');
         }
 
         const docRef = await db.collection('orders').add(orderData);
 
-        // ═══ Google Sheets sync — BEFORE response (critical business data) ═══
-        // Moved from after() because Firebase App Hosting (Cloud Run) may kill
-        // the container before deferred callbacks complete, causing silent data loss.
-        // Sheets + CRM بالتوازي — كلاهما fail-open ولا يؤخر أحدهما الآخر
+        // Complete the business-system synchronization before returning a response.
         await Promise.all([
             safeAppendOrderToSheet({ ...orderData, id: docRef.id }),
             safeSendLeadToCRM({ ...orderData, id: docRef.id }),
         ]);
 
         // TikTok S2S stays deferred — it's analytics, not business-critical
-        const clientIp = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || '';
+        const clientIp = ip === 'unknown' ? '' : ip;
         const clientUA = req.headers.get('user-agent') || '';
 
         after(async () => {
             try {
                 await sendTtqOrderEvent(
                     orderId,
-                    Array.isArray(data.items) ? data.items.slice(0, 20) : [],
+                    orderData.items,
                     orderData.totalAmount,
                     cleanPhone,
                     clientIp,
                     clientUA,
                 );
-            } catch (ttqError) {
-                console.error('TikTok S2S event failed (deferred):', ttqError);
+            } catch {
+                console.error('TikTok order event delivery failed');
             }
         });
 
         return NextResponse.json({
             id: docRef.id,
             orderId: orderId,
-            message: 'Order placed successfully'
+            message: 'Order placed successfully',
+            items: orderData.items,
+            pricing: {
+                subtotalBeforeDiscount: orderData.subtotalBeforeDiscount,
+                couponDiscount: orderData.couponDiscount,
+                bundleDiscount: orderData.bundleDiscount,
+                shippingFee: orderData.shippingFee,
+                totalAmount: orderData.totalAmount,
+            },
         });
-    } catch (error: unknown) {
-        console.error('Error creating order:', error);
+    } catch {
+        console.error('Order creation failed');
         return NextResponse.json({
             error: 'Failed to create order',
         }, { status: 500 });
@@ -268,17 +429,16 @@ export async function GET(req: NextRequest) {
     const authError = validateApiKey(req);
     if (authError) return authError;
 
-    const db = await getFirestore();
-
     try {
+        const db = await getFirestore();
         const snapshot = await db.collection('orders').orderBy('createdAt', 'desc').get();
         const orders = snapshot.docs.map(doc => ({
             id: doc.id,
             ...doc.data()
         }));
-        return NextResponse.json(orders);
-    } catch (error) {
-        console.error('Error fetching orders:', error);
+        return NextResponse.json(orders, { headers: { 'Cache-Control': 'no-store' } });
+    } catch {
+        console.error('Order retrieval failed');
         return NextResponse.json({ error: 'Failed to fetch orders' }, { status: 500 });
     }
 }

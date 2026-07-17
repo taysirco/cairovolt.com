@@ -28,13 +28,13 @@ export const lithium_battery_charger_safety_cutoff_circuit_explained: BlogArticl
     },
     translations: {
         ar: {
-            title: 'دائرة القطع في شواحن الليثيوم — التقنية اللي بتمنع البطارية من الانفجار',
-            metaTitle: 'دائرة القطع في شواحن الليثيوم — حماية البطارية من الانفجار | كايرو فولت',
-            metaDescription: 'إزاي BMS ودائرة الحماية في الشاحن بيمنعوا بطارية الموبايل من التلف والانفجار؟ شرح CC/CV وتقنية Anker ActiveShield بالعربي البسيط مع سياق صيف مصر.',
+            title: 'دوائر إدارة بطاريات الليثيوم — وظائف BMS والشحن CC/CV',
+            metaTitle: 'دوائر إدارة بطارية الليثيوم وشرح BMS وCC/CV | كايرو فولت',
+            metaDescription: 'شرح مبسط لوظائف إدارة بطارية الليثيوم ومراحل CC/CV وعلاقة الهاتف والشاحن والكابل، مع إرشادات لاختيار معدات متوافقة ومراقبة الحرارة.',
             keywords: 'BMS بطارية موبايل, دائرة حماية ليثيوم, CC CV شحن شرح, شاحن رخيص خطر, انكر ActiveShield شرح, حماية بطارية من الانفجار, شحن آمن مصر, BMS شرح عربي',
-            excerpt: 'الشاحن الرخيص مش بس بيعطل — ممكن يتجاوز الدوائر اللي بتحمي بطاريتك من الانفجار. اعرف كيف يشتغل BMS وCC/CV وليه الشاحن الأصلي مش رفاهية في جو مصر.',
-            quickAnswer: 'BMS هو الشريحة جوا موبايلك اللي بتوقف الشحن عند 4.2 فولت للخلية وتحميها من الحرارة والتيار الزيادة. الشاحن الرخيص مش بيتكلم مع BMS صح — فبيدفع تيار غير منتظم. في صيف مصر (38-45 درجة)، ده بيضغط على دائرة الحماية أكتر، والشاحن الكويس بيعدّل تلقائياً.',
-            content: `<p>إنت فتحت جوا الشاحن الرخيص اللي بتاخده معاك في السفر لو قدرت — هتلاقي حاجة مدهشة: في شريحة إلكترونية واحدة بس (IC واحدة) تعمل كل حاجة. في شاحن أنكر من نفس الفئة؟ هتلاقي 3-4 شرائح متخصصة كل واحدة بيها وظيفة مختلفة. الفرق ده مش تسويق — ده هو اللي بيفرق بين شاحن بيحمي بطاريتك وشاحن ممكن يحرقها.</p>
+            excerpt: 'تعرف على وظائف دوائر إدارة بطارية الهاتف ومراحل CC/CV، ولماذا يجب مطابقة الشاحن والكابل مع مواصفات الجهاز ومراقبة الحرارة.',
+            quickAnswer: 'تدير دوائر داخل الهاتف أو حزمة البطارية الجهد والتيار والحرارة وحالة الشحن وفق تصميم الموديل، بينما يتفاوض الهاتف والشاحن عبر البروتوكول المدعوم. لا يوجد جهد قطع أو نطاق حرارة واحد لكل كيمياء وتصميم، ولا يثبت السعر جودة التنظيم؛ طابق المواصفات واستخدم معدات سليمة وأوقف الشحن عند تلف أو سخونة غير معتادة.',
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>إنت فتحت جوا الشاحن الرخيص اللي بتاخده معاك في السفر لو قدرت — هتلاقي حاجة مدهشة: في شريحة إلكترونية واحدة بس (IC واحدة) تعمل كل حاجة. في شاحن انكر من نفس الفئة؟ هتلاقي 3-4 شرائح متخصصة كل واحدة بيها وظيفة مختلفة. الفرق ده مش تسويق — ده هو اللي بيفرق بين شاحن بيحمي بطاريتك وشاحن ممكن يحرقها.</p>
 
 <p>في المقال ده، هنشرح بالظبط إزاي الدوائر الإلكترونية دي بتشتغل — من BMS جوا موبايلك لحد شريحة الشحن في الشاحن نفسه. وهنربط كل ده بالسياق المصري: صيف القاهرة والسكندرية اللي فيه الحرارة المحيطة 38-45 درجة في معظم الأماكن من غير تكييف.</p>
 
@@ -145,17 +145,17 @@ export const lithium_battery_charger_safety_cutoff_circuit_explained: BlogArticl
 
 <p>في صيف مصر: الموبايل أصلاً في حرارة 45-50 درجة، والشاحن الرخيص بيضيف حرارة إضافية. BMS بيشتغل على أقصى طاقته في المحاولة يتحكم. النتيجة: عمر بطارية أقل، وفي حالات نادرة ومع شواحن رديئة جداً — خطر حريق.</p>
 
-<h2>تقنية Anker ActiveShield 2.0 — الأرقام الحقيقية</h2>
+<h2>تقنية انكر ActiveShield 2.0 — الأرقام الحقيقية</h2>
 
-<p>أنكر في باور بانكاتها بيستخدموا تقنية اسمها ActiveShield 2.0 بتضيف طبقة حماية إضافية فوق BMS الموبايل:</p>
+<p>انكر في باور بانكاتها بيستخدموا تقنية اسمها ActiveShield 2.0 بتضيف طبقة حماية إضافية فوق BMS الموبايل:</p>
 
 <ul>
     <li><strong>3,000,000 قراءة في اليوم:</strong> ده معناه قراءة كل 0.03 ثانية (30 ملي ثانية). BMS العادي بيقرأ كل 3-10 ثواني. الفرق ده بيخلي النظام يتعامل مع طفرات الحرارة قبل ما تتراكم</li>
-    <li><strong>تعديل بدقة 20mV:</strong> بسبب PPS، أنكر يقدر يعدّل الفولت بزيادة أو نقصان 20 ملي فولت (0.02 فولت) — يعني تحكم دقيق جداً</li>
+    <li><strong>تعديل بدقة 20mV:</strong> بسبب PPS، انكر يقدر يعدّل الفولت بزيادة أو نقصان 20 ملي فولت (0.02 فولت) — يعني تحكم دقيق جداً</li>
     <li><strong>استجابة استباقية (Predictive):</strong> النظام مش بس بيرد على الحرارة — بيحسب معدل الارتفاع (Rate of Change) ويبدأ يخفّض القدرة قبل الوصول للحد الخطر</li>
 </ul>
 
-<p>في سياق صيف مصر: باور بانك Anker في أوضة حرارتها 42 درجة هيشتغل بحرارة 44-46 درجة تحت الحمل. باور بانك رخيص بدون ActiveShield في نفس الظروف؟ ممكن يوصل 55-60 درجة — وده بيسرّع تدهور بطاريته الداخلية بشكل كبير.</p>
+<p>في سياق صيف مصر: باور بانك انكر في أوضة حرارتها 42 درجة هيشتغل بحرارة 44-46 درجة تحت الحمل. باور بانك رخيص بدون ActiveShield في نفس الظروف؟ ممكن يوصل 55-60 درجة — وده بيسرّع تدهور بطاريته الداخلية بشكل كبير.</p>
 
 <h2>سياق مصر الصيف — ليه الأمر أهم هنا من أوروبا مثلاً</h2>
 
@@ -174,7 +174,7 @@ export const lithium_battery_charger_safety_cutoff_circuit_explained: BlogArticl
 
 <div style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#991b1b;">تحذير مهم جداً:</p>
-    <p style="margin:0;color:#7f1d1d;line-height:1.8;">الشاحن الرخيص مش بس بيضر البطارية على المدى البعيد. في حالات إنتاج رديء جداً — مفيش عزل كافي بين دائرة الـ AC والـ DC — الفولت الكهربائي من الحائط (220 فولت) ممكن يوصل للموبايل مباشرة. ده ممكن يتلف الجهاز فوراً أو في أسوأ الحالات يصعق المستخدم. مش مبالغة — ده حصل في حوادث موثّقة. شراء شاحن من وكيل معتمد مش رفاهية — ده أمان.</p>
+    <p style="margin:0;color:#7f1d1d;line-height:1.8;">الشاحن الرخيص مش بس بيضر البطارية على المدى البعيد. في حالات إنتاج رديء جداً — مفيش عزل كافي بين دائرة الـ AC والـ DC — الفولت الكهربائي من الحائط (220 فولت) ممكن يوصل للموبايل مباشرة. ده ممكن يتلف الجهاز فوراً أو في أسوأ الحالات يصعق المستخدم. مش مبالغة — ده حصل في حوادث موثّقة. شراء شاحن من متجر موثوق مش رفاهية — ده أمان.</p>
 </div>
 
 <h2>كيف تعرف إن الشاحن بيتعامل مع الحرارة صح</h2>
@@ -187,12 +187,12 @@ export const lithium_battery_charger_safety_cutoff_circuit_explained: BlogArticl
     <li><strong>الموبايل مش بيتسخن جداً أثناء الشحن:</strong> الشاحن الكويس بيتعامل مع الحرارة من عنده. الشاحن الرخيص بيحوّل الحرارة الزيادة للموبايل</li>
 </ul>
 
-<h2>المقارنة العملية — شاحن أنكر مقابل شاحن رخيص في صيف مصر</h2>
+<h2>المقارنة العملية — شاحن انكر مقابل شاحن رخيص في صيف مصر</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المعيار</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;"><a href="/anker/wall-chargers" style="color:#2563eb;">شاحن أنكر GaN</a></th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;"><a href="/anker/wall-chargers" style="color:#2563eb;">شاحن انكر GaN</a></th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">شاحن رخيص (بدون براند)</th>
     </tr></thead>
     <tbody>
@@ -230,11 +230,11 @@ export const lithium_battery_charger_safety_cutoff_circuit_explained: BlogArticl
 
 <p>الشاحن الكويس هو شريك BMS — بيكلمه، بيدي تيار منتظم، وبيتعامل مع الحرارة من عنده. الشاحن الرخيص بيرمي كل العبء على BMS وحده.</p>
 
-<p>في صيف مصر اللي الحرارة فيه بتخلي BMS يشتغل على حدوده طول الوقت — الشاحن الكويس مش رفاهية، ده استثمار في عمر موبايلك. <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن أنكر GaN</a> من <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">أنكر A2147</a> لـ <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">أنكر A2741</a> — كلها بتدعم USB PD وبتشتغل بكفاءة 93-95% تحت الحمل الكامل.</p>`,
+<p>في صيف مصر اللي الحرارة فيه بتخلي BMS يشتغل على حدوده طول الوقت — الشاحن الكويس مش رفاهية، ده استثمار في عمر موبايلك. <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن انكر GaN</a> من <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2147</a> لـ <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2741</a> — كلها بتدعم USB PD وبتشتغل بكفاءة 93-95% تحت الحمل الكامل.</p>`,
             faq: [
                 {
                     question: 'إيه هو BMS وهل في كل موبايل؟',
-                    answer: 'BMS (Battery Management System) هي شريحة إلكترونية موجودة في كل موبايل ذكي بدون استثناء — حتى أرخص أندرويد في الأسواق. وظيفتها هي مراقبة فولت كل خلية ليثيوم (وقف الشحن عند 4.2 فولت)، مراقبة التيار، مراقبة درجة الحرارة (الشحن الآمن بين 0-45 درجة)، وحساب نسبة الشحن الفعلية. من غير BMS، الجهاز يتلف في أول أسبوع استخدام.'
+                    answer: 'تستخدم الهواتف دوائر ووحدات لإدارة الشحن والبطارية، وقد توزع الوظائف بين أكثر من مكوّن حسب التصميم. تراقب هذه المنظومة قيماً مثل الجهد والتيار والحرارة وحالة الشحن، لكن الحدود تختلف حسب كيمياء الخلية والموديل؛ راجع وثائق المصنع ولا تعتمد على رقم عام مثل 4.2V أو 0–45°م لكل جهاز.'
                 },
                 {
                     question: 'ليه الموبايل بيتحمى من الشحن الزايد لو فيه BMS؟ ليه محتاجين شاحن كويس؟',
@@ -255,9 +255,9 @@ export const lithium_battery_charger_safety_cutoff_circuit_explained: BlogArticl
             metaTitle: 'Lithium Battery Charger Safety Cutoff Circuit Explained | CairoVolt',
             metaDescription: 'How do BMS and cutoff circuits prevent phone battery explosions? Learn CC/CV charging stages and why quality chargers protect devices in summer heat.',
             keywords: 'BMS battery management system, lithium battery safety circuit, CC CV charging explained, cheap charger dangerous, Anker ActiveShield explained, battery overcharge protection, safe charging Egypt, BMS phone explained',
-            excerpt: 'A cheap charger doesn\'t just charge slowly — it can bypass the circuits protecting your battery from explosion. Learn how BMS and CC/CV charging work, and why a quality charger matters more in Egypt\'s heat.',
-            quickAnswer: 'BMS is the chip inside your phone that stops charging at exactly 4.2V per cell and protects against heat and overcurrent. Cheap chargers don\'t communicate with BMS correctly — they push unregulated current. In Egypt\'s summer heat (38-45°C), this stresses the protection circuit even more, while a quality charger auto-adjusts.',
-            content: `<p>If you could open a cheap budget charger and compare it to a quality one side by side, you'd notice something immediately: the cheap charger has a single IC doing everything. The Anker charger in the same wattage class? Three or four specialized chips, each with a distinct role. That difference isn't marketing — it's the physical reason one charger protects your battery and the other can slowly destroy it.</p>
+            excerpt: 'Learn what battery-management circuitry and CC/CV charging do, and why adapter, cable, protocol, condition, and temperature all matter.',
+            quickAnswer: 'Battery and charging functions may be distributed across several circuits that monitor voltage, current, temperature, and state of charge for the exact design. The phone and adapter negotiate through supported protocols. There is no single cutoff voltage or temperature range for every chemistry and model, and price alone does not establish regulation quality; match specifications and stop for damage or unusual heat.',
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>If you could open a cheap budget charger and compare it to a quality one side by side, you'd notice something immediately: the cheap charger has a single IC doing everything. The Anker charger in the same wattage class? Three or four specialized chips, each with a distinct role. That difference isn't marketing — it's the physical reason one charger protects your battery and the other can slowly destroy it.</p>
 
 <p>In this article, we'll explain exactly how these electronic circuits work — from the BMS inside your phone to the controller IC in the charger itself. We'll ground all of this in the Egyptian context: Cairo and Alexandria summers where ambient temperatures reach 38-45°C in most homes without air conditioning in every room.</p>
 
@@ -457,7 +457,7 @@ export const lithium_battery_charger_safety_cutoff_circuit_explained: BlogArticl
             faq: [
                 {
                     question: 'What is BMS and is it in every phone?',
-                    answer: 'BMS (Battery Management System) is an integrated circuit present in every smartphone without exception — even the cheapest Android on the market. Its job is to monitor each lithium cell\'s voltage (cutting charging at exactly 4.2V per cell), monitor current flow, monitor temperature (safe charging range 0-45°C), and calculate accurate state of charge. Without BMS, a phone would fail within the first week of use due to uncontrolled charging reactions.'
+                    answer: 'Phones use battery and charging management circuitry, and the functions may be distributed across multiple components. These systems can monitor voltage, current, temperature, and state of charge, but their limits vary by cell chemistry and device design. Consult the manufacturer rather than applying one 4.2V or 0–45°C rule to every phone.'
                 },
                 {
                     question: 'If the phone has BMS protection, why do we need a quality charger?',

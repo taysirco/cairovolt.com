@@ -125,6 +125,11 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
             <h3 className="section-title">
                 {isArabic ? <><SvgIcon name="pencil" className="w-5 h-5 inline-block" /> تقييمات العملاء الموثقة</> : <><SvgIcon name="pencil" className="w-5 h-5 inline-block" /> Verified Customer Reviews</>}
             </h3>
+            <p className="review-disclosure">
+                {isArabic
+                    ? 'التقييمات مرتبطة بطلبات تم توصيلها. يُعرض كود شكر واحد لأي تقييم يُرسل، سواء كان إيجابيًا أو سلبيًا.'
+                    : 'Reviews are linked to delivered orders. The same thank-you code is offered for every submitted review, positive or negative.'}
+            </p>
 
             {/* Aggregate Rating */}
             {aggregateRating && (
@@ -152,7 +157,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
                                 <span className="review-author__name">{review.customerName}</span>
                                 {review.isVerified && (
                                     <span className="verified-badge">
-                                        ✓ {isArabic ? 'مشتري موثق' : 'Verified'}
+                                        ✓ {isArabic ? 'مشتري موثق' : 'Verified purchase'}
                                     </span>
                                 )}
                             </div>
@@ -236,7 +241,14 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
                 .section-title {
                     font-size: 22px;
                     color: #1f2937;
-                    margin-bottom: 24px;
+                    margin-bottom: 8px;
+                }
+                .review-disclosure {
+                    max-width: 760px;
+                    color: #64748b;
+                    font-size: 13px;
+                    line-height: 1.7;
+                    margin: 0 0 24px;
                 }
                 .aggregate-rating {
                     display: flex;

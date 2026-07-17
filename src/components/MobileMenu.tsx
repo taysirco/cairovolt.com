@@ -81,7 +81,7 @@ export default function MobileMenu({
                                 />
                             </div>
                             <span className="text-lg font-bold">
-                                {isRTL ? 'كايرو فولت' : 'Cairo Volt'}
+                                {isRTL ? 'كايرو فولت' : 'CairoVolt'}
                             </span>
                         </Link>
                         <button onClick={onClose} className="p-2" aria-label={isRTL ? 'إغلاق' : 'Close menu'}>

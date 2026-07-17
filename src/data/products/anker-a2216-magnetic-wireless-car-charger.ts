@@ -14,64 +14,52 @@ export const anker_a2216_magnetic_wireless_car_charger = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-a2216-magnetic-wireless-car-charger/anker-a2216-magnetic-wireless-car-charger-full-kit-hero-white.webp", alt: "Anker Nano A2216 magnetic wireless car charger kit with USB-C car adapter and cable — كايرو فولت", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/anker-a2216-magnetic-wireless-car-charger/anker-a2216-magnetic-wireless-car-charger-15w-ultra-fast-charging-lifestyle.webp", alt: "شاحن أنكر نانو A2216 المغناطيسي 15 واط شحن لاسلكي سريع داخل السيارة - CairoVolt", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/anker-a2216-magnetic-wireless-car-charger/anker-a2216-magnetic-wireless-car-charger-15w-ultra-fast-charging-lifestyle.webp", alt: "شاحن انكر نانو A2216 المغناطيسي 15 واط شحن لاسلكي سريع داخل السيارة - CairoVolt", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/anker/anker-a2216-magnetic-wireless-car-charger/anker-a2216-magnetic-wireless-car-charger-dashboard-and-touchscreen-mount-demo.webp", alt: "Anker Nano A2216 car mount على التابلوه وشاشة السيارة مع الملاحة والشحن - كايرو فولت", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/anker-a2216-magnetic-wireless-car-charger/anker-a2216-magnetic-wireless-car-charger-retail-box-front-and-back.webp", alt: "علبة شاحن أنكر نانو A2216 المغناطيسي للسيارة أمام وخلف لآيفون 16/15/14/13/12 - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/anker-a2216-magnetic-wireless-car-charger/anker-a2216-magnetic-wireless-car-charger-magnet-strength-coil-cutaway.webp", alt: "Anker Nano A2216 مغناطيس قوي 14N مقابل الماركات الأخرى وملف الشحن اللاسلكي - كايرو فولت", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/anker-a2216-magnetic-wireless-car-charger/anker-a2216-magnetic-wireless-car-charger-360-rotation-45-tilt-adjustable.webp", alt: "شاحن أنكر نانو A2216 للسيارة دوران 360° وإمالة قابلة للتعديل 45° - CairoVolt", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/anker/anker-a2216-magnetic-wireless-car-charger/anker-a2216-magnetic-wireless-car-charger-heat-load-bump-stability-specs.webp", alt: "Anker Nano A2216 يتحمل 60°C ويحمل حتى 10.2kg وثبات على المطبات - كايرو فولت", order: 6, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_4", url: "/products/anker/anker-a2216-magnetic-wireless-car-charger/anker-a2216-magnetic-wireless-car-charger-retail-box-front-and-back.webp", alt: "علبة شاحن انكر نانو A2216 المغناطيسي للسيارة أمام وخلف لآيفون 16/15/14/13/12 - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/anker-a2216-magnetic-wireless-car-charger/anker-a2216-magnetic-wireless-car-charger-magnet-strength-coil-cutaway.webp", alt: "انكر نانو A2216 رسم ملف الشحن اللاسلكي وتصنيف التثبيت المعلن - كايرو فولت", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/anker-a2216-magnetic-wireless-car-charger/anker-a2216-magnetic-wireless-car-charger-360-rotation-45-tilt-adjustable.webp", alt: "شاحن انكر نانو A2216 للسيارة دوران 360° وإمالة قابلة للتعديل 45° - CairoVolt", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/anker/anker-a2216-magnetic-wireless-car-charger/anker-a2216-magnetic-wireless-car-charger-heat-load-bump-stability-specs.webp", alt: "انكر نانو A2216 رسم شروط اختبار الحرارة والحمل للحامل - كايرو فولت", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
-                name: "Anker Nano Magnetic Wireless Car Charger (A2216) | Qi2 15W | 14N Bendable Dashboard Mount | 18-Month Warranty",
-                shortDescription: "🧲 14N Magnetic Hold (1.4 kg) | ⚡ Qi2 15W Wireless | 🔄 360° Rotation + 45° Tilt | 🌡️ Withstands 60°C | 📱 iPhone 12–17 | 🏆 18-Month Warranty",
+                name: "Anker Nano Magnetic Wireless Car Charger (A2216) | Qi2 15W | 14N Bendable Dashboard Mount",
+                shortDescription: "Qi2 charging listed up to 15W | manufacturer-listed magnetic hold | bendable dashboard arm | verify phone, case, surface, adapter and test conditions",
                 description: `<div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike cheap magnetic mounts that claim MagSafe strength but drop your phone over the first Ring Road speed bump, the <strong>Anker Nano Magnetic Wireless Car Charger (A2216)</strong> locks your iPhone with a 14N (1.4 kg) magnetic grip and charges it wirelessly at a full Qi2 15W. An iPhone 16 Pro climbs 0→50% in about 46 minutes while you drive. The kit is 213×43×48 mm, only 162 g, on a bendable arm with 360° rotation and 45° tilt. EGP 1,200, 18-month warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker Nano Magnetic Wireless Car Charger (A2216)</strong> is listed with Qi2 charging up to 15W, a 14N magnetic-hold rating and a bendable arm with 360° rotation and 45° tilt. Anker's example for a compatible iPhone 16 Pro reaches about 50% in 46 minutes under stated conditions; actual speed varies with the phone, adapter, alignment, case, temperature and use. Verify the printed ratings, dimensions and package contents, then check the current price, stock and warranty terms before ordering.</p>
 </div>
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Fake "MagSafe" car chargers flood Egyptian marketplaces — most are plain 5W–7.5W Qi pads with weak magnets that let go on the Cairo–Alex desert road, and some skip the temperature sensor entirely and cook your battery in July heat. Three checks: the model <strong>A2216</strong> is engraved on the base (fakes print it on a sticker), the full kit weighs <strong>162 g</strong> on a kitchen scale, and you can verify the serial at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A2216</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms. Review <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">the official verification reference</a>.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
-        <li>⚡ <strong>Qi2 15W:</strong> Full-speed magnetic wireless charging, 0→50% on iPhone 16 Pro in ~46 min.</li>
-        <li>🔬 <strong>14N Magnetic Hold:</strong> 1.4 kg of grip; held firm through a 3-hour bump test with zero drops.</li>
-        <li>🛡️ <strong>Built to Survive Heat:</strong> Temperature sensor rated to 60°C; supports up to 10.2 kg of load.</li>
-        <li>💰 <strong>EGP 1,200:</strong> 18-month warranty. Next-day Cairo delivery. Cash on delivery.</li>
+        <li>⚡ <strong>Qi2 up to 15W:</strong> Anker lists about 0→50% on a compatible iPhone 16 Pro in 46 minutes under its stated conditions.</li>
+        <li>🔬 <strong>14N Magnetic-Hold Rating:</strong> confirm the phone, case and mounting-surface requirements in the current manual.</li>
+        <li>🛡️ <strong>Thermal and Load Ratings:</strong> verify the 60°C and 10.2kg figures in current model documentation; these are not instructions to expose the product to extremes.</li>
+        <li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li>
     </ul>
 </div>
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "We ran the A2216 in a test car for two months — Ring Road gridlock, the 6th of October bridge, and the Cairo–Ain Sokhna run. We dropped an empty iPhone 16 Pro on it with Google Maps running; it hit 50% in 46 minutes and never fell once despite the bumps. The arm bends onto any curved dashboard and locks its angle, and the magnet stays rock-solid even when the car jolts. For anyone who navigates daily and wants a charger that just grips and charges, this is the one."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A2216</strong>, start with the manufacturer-rated vehicle input range, port output profiles and supported charging protocols printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Qi2 15W Magnetic Charging — No Fumbling for a Cable</h2>
-        <p class="text-gray-700">The A2216 uses the <strong>Qi2 magnetic standard</strong>, the same ring of magnets your iPhone already has, so it snaps into perfect coil alignment every time and delivers a full <strong>15W</strong> — double the 7.5W most generic pads manage. Perfect alignment means less wasted energy as heat and faster, cooler charging. Pair it with a proper <a href="/en/anker/cables" class="text-blue-600 hover:underline">Anker USB-C cable</a> feeding the car adapter and the pad never starves for power.</p>
+        <p class="text-gray-700">The A2216 uses the <strong>Qi2 magnetic standard</strong> to help align a compatible phone with the charging coil. Listed output is up to <strong>15W</strong> when the phone, case and power source meet the requirements. Alignment, temperature and battery state affect the negotiated output. Use the supplied or a correctly rated <a href="/en/anker/cables" class="text-blue-600 hover:underline">USB-C cable</a> and check the adapter requirements in the manual.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">A Bendable Arm That Fits Any Dashboard</h2>
-        <p class="text-gray-700">Egyptian cars come with every dashboard curve imaginable, so the mount arm <strong>bends to shape</strong>, rotates a full <strong>360°</strong>, and tilts <strong>45°</strong> to kill sun glare. It's rated to hold up to <strong>10.2 kg</strong>, so even a large iPhone Pro Max in a heavy case sits without droop. Set it once for your commute and it stays put — no re-adjusting at every traffic light.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Bendable Arm for Compatible Dashboard Surfaces</h2>
+        <p class="text-gray-700">The arm bends, rotates <strong>360°</strong> and tilts <strong>45°</strong> for positioning. Anker lists a load-test figure for the mount, but real holding strength depends on correct installation, surface material, temperature, phone and case. Follow the preparation and curing instructions and test the mount while stationary before driving.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Built for Egypt's Power Grid</h2>
-        <p class="text-gray-700">Car electrical systems spike hard when the engine cranks or the AC kicks in, and a July dashboard can pass 60°C. The A2216's adapter has <strong>surge protection</strong> tuned for 12V/24V automotive systems, and the pad's <strong>temperature sensor</strong> (rated to 60°C) throttles before your battery is ever at risk. Keep a spare <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">Anker power bank</a> in the glovebox for the days you're off-grid in a service taxi.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Power and Heat Management in the Car</h2>
+        <p class="text-gray-700">Use the listed automotive input range and adapter for model A2216. The manufacturer describes thermal monitoring, but no charger removes every heat risk. Keep the pad ventilated and out of prolonged direct sun, and pause charging if the phone or mount becomes unusually hot. For charging away from the vehicle, compare a suitable <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">Anker power bank</a>.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17 / 17 Pro Max:</strong> Full Qi2 15W magnetic charging.</li>
-        <li>📱 <strong>iPhone 16 / 16 Pro:</strong> Snaps on with native MagSafe magnets, 15W.</li>
-        <li>📱 <strong>iPhone 15 / 14 / 13 / 12:</strong> Native magnetic alignment, up to 15W.</li>
-        <li>🔵 <strong>MagSafe Cases:</strong> Charges through thin MagSafe-certified cases.</li>
-        <li>🧲 <strong>Magnetic Ring Add-ons:</strong> Works with a stick-on magnet ring for non-MagSafe phones (Qi speeds vary).</li>
-        <li>🔌 <strong>All 12V/24V Cars:</strong> Included USB-C adapter fits any standard car socket.</li>
+        <li>📱 <strong>Qi2-compatible iPhones:</strong> up to the listed output when the phone, case, alignment and adapter meet the requirements.</li>
+        <li>🔵 <strong>Magnetic cases:</strong> use a case listed as compatible by its manufacturer; thickness and materials affect charging and hold.</li>
+        <li>🧲 <strong>Other Qi phones:</strong> a magnetic ring may help alignment, but charging support and speed depend on the phone and ring placement.</li>
+        <li>🔌 <strong>Vehicle power:</strong> verify the car socket, adapter input range and current package contents before installation.</li>
     </ul>
 </div>`,
                 features: [
@@ -79,73 +67,64 @@ export const anker_a2216_magnetic_wireless_car_charger = {
   "⚡ Qi2 15W Wireless Charging",
   "🔄 360° Rotation + 45° Tilt",
   "🌀 Bendable Dashboard Mount Arm",
-  "🌡️ Withstands up to 60°C",
-  "🏋️ Supports up to 10.2 kg Load",
+  "🌡️ Verify listed temperature-test conditions",
+  "🏋️ Verify listed mount load-test conditions",
   "📱 iPhone 12 to iPhone 17",
   "🔌 USB-C Car Adapter + Cable Included",
-  "🏆 18-Month Warranty"
+  "🏆 current warranty and return policy"
 ],
                 metaTitle: "Anker A2216 Qi2 Car Charger ⚡ 15W Magnetic | Egypt COD",
-                metaDesc: "Buy the Anker Nano A2216 magnetic wireless car charger in Egypt. Qi2 15W, 14N hold, bendable dashboard mount. 18-month warranty and cash on delivery.",
+                metaDesc: "Review Anker Nano A2216 in Egypt: listed Qi2 output, magnetic-hold and mount specifications, phone and case compatibility, live price and service terms.",
                 faqs: [
-                    { question: "What is the price of the Anker A2216 car charger in Egypt?", answer: "It is EGP 1,200 at CairoVolt, and that includes the magnetic charging pad, the bendable dashboard mount, the USB-C car adapter, and a USB-C to USB-C cable — with an 18-month warranty and cash on delivery." },
-                    { question: "Does it charge at a real 15W wirelessly?", answer: "Yes. Because it is Qi2 with perfect magnetic alignment, it delivers a genuine 15W — our meter showed a steady 14.8W into an iPhone 16 Pro, which is double what most generic 7.5W pads manage." },
-                    { question: "Will it work with my iPhone case on?", answer: "It charges cleanly through thin MagSafe-certified cases. Very thick or rugged non-MagSafe cases weaken the magnet and slow alignment, so a MagSafe case or a stick-on magnetic ring is best." },
-                    { question: "Does the mount fit a curved dashboard?", answer: "Yes. The arm is bendable and rotates a full 360° with 45° of tilt, so it shapes to almost any dashboard curve or vent and holds up to 10.2 kg without drooping." },
-                    { question: "Is it safe for my phone in Egyptian summer heat?", answer: "Yes. The pad has a temperature sensor rated to 60°C and throttles before there is any risk. In our Cairo test the surface peaked at just 38.4°C after a full hour of charging." },
-                    { question: "Which devices is it compatible with?", answer: "Every iPhone from the 12 series up to the iPhone 17 series charges magnetically at up to 15W. Android phones can use it at Qi speeds with a stick-on magnetic ring." }
+                    { question: "What is the price of the Anker A2216 car charger in Egypt?", answer: "Use the live price shown for this SKU and verify current stock, package contents, warranty, payment and delivery terms before ordering." },
+                    { question: "Does it support wireless charging up to 15W?", answer: "The model supports Qi2 up to its stated power with a compatible phone and power adapter. Actual output varies with alignment, phone model, temperature, and battery level." },
+                    { question: "Will it work with my iPhone case on?", answer: "A case listed as Qi2 or magnetic-charging compatible may work, but thickness, materials and ring position affect charging and hold. Check both the phone and case instructions." },
+                    { question: "Does the mount fit a curved dashboard?", answer: "Suitability depends on surface material, curvature, cleanliness, temperature and the installation method. Follow the mounting instructions and test the hold while the car is stationary before driving." },
+                    { question: "How should I use it in summer heat?", answer: "The charger includes thermal management according to Anker's specifications. Keep it out of direct sun when possible, allow airflow, and stop charging if the phone or mount becomes unusually hot." },
+                    { question: "Which devices is it compatible with?", answer: "Check the current Qi2 and magnetic-charging support for the exact phone, case and power adapter. Other Qi phones may need a correctly positioned ring, and output can differ." }
                 ]
             },
             ar: {
-                name: "شاحن أنكر نانو المغناطيسي اللاسلكي للسيارة (A2216) | Qi2 بقوة 15 واط | حامل تابلوه بيتلوي بتثبيت 14N | ضمان 18 شهر",
-                shortDescription: "🧲 تثبيت مغناطيسي 14N (1.4 كيلو) | ⚡ شحن لاسلكي Qi2 15 واط | 🔄 لف 360° + ميلان 45° | 🌡️ يتحمّل 60° | 📱 آيفون 12–17 | 🏆 ضمان 18 شهر",
+                name: "شاحن انكر نانو المغناطيسي اللاسلكي للسيارة (A2216) | Qi2 حتى 15 واط | حامل تابلوه مرن",
+                shortDescription: "شحن Qi2 معلن حتى 15 واط | تصنيف تثبيت مغناطيسي من الشركة | ذراع تابلوه مرن | تحقق من الهاتف والجراب والسطح والمحول وشروط الاختبار",
                 description: `<div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">مش زي الحوامل المغناطيسية الرخيصة اللي بتدّعي قوة MagSafe وبترمي موبايلك أول مطب في الدايري، <strong>شاحن أنكر نانو المغناطيسي اللاسلكي للسيارة (A2216)</strong> بيمسك الآيفون بقوة مغناطيس 14N (1.4 كيلو) وبيشحنه لاسلكي بكامل Qi2 يعني 15 واط. آيفون 16 Pro بيطلع من 0 لـ50% في حوالي 46 دقيقة وانت سايق. الطقم مقاسه 213×43×48 مم ووزنه 162 جرام بس، على ذراع بيتلوي بلفة 360° وميلان 45°. السعر EGP 1,200 وضمان 18 شهر. نسبة الاسترجاع في كايرو فولت: <strong>0.7% بس</strong> من أكتر من 500 قطعة اتباعت.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>شاحن انكر نانو المغناطيسي اللاسلكي للسيارة (A2216)</strong> مدرج بدعم Qi2 حتى 15 واط وتصنيف تثبيت مغناطيسي 14N وذراع مرن يلف 360° ويميل 45°. تذكر انكر مثالاً يصل فيه ايفون 16 Pro المتوافق إلى نحو 50% خلال 46 دقيقة تحت شروط محددة؛ السرعة الفعلية تتغير حسب الهاتف والمحول والمحاذاة والجراب والحرارة والاستخدام. تحقق من القيم والأبعاد ومحتويات العبوة، ثم راجع السعر والمخزون وشروط الضمان قبل الطلب.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">السوق المصري مليان شواحن "MagSafe" تقليد — أغلبها لوحات Qi عادية 5–7.5 واط بمغناطيس ضعيف بيسيب الموبايل على طريق مصر-اسكندرية الصحراوي، وفيه اللي شايل حساس الحرارة خالص فبيحمّي البطارية في حر يوليو. 3 علامات للأصلي: موديل <strong>A2216</strong> محفور على القاعدة (التقليد بيطبعه على استيكر)، والطقم كله بيوزن <strong>162 جرام</strong> على ميزان المطبخ، وتقدر تتأكد من السيريال على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
+    <p class="text-gray-700">قبل الدفع، طابق <strong>A2216</strong> والقيم الكهربائية ورقم الجزء ومحتويات العبوة مع وثائق انكر الحالية. إذا كانت الوحدة تحمل رقماً تسلسلياً أو ملصق تحقق، فاتبع العملية الرسمية المطبوعة أو <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">مرجع التحقق الرسمي</a>. لا تعتمد على الوزن أو شكل العبوة أو موضع الطباعة وحدها لإثبات المصدر، وافحص المنتج عند الاستلام.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">الخلاصة:</h3>
     <ul class="list-none space-y-1">
-        <li>⚡ <strong>Qi2 15 واط:</strong> شحن لاسلكي مغناطيسي بأقصى سرعة، 0→50% لآيفون 16 Pro في ~46 دقيقة.</li>
-        <li>🔬 <strong>تثبيت مغناطيسي 14N:</strong> قوة 1.4 كيلو؛ مسك بثبات في اختبار مطبات 3 ساعات من غير ما يقع.</li>
-        <li>🛡️ <strong>متعمل للحرارة:</strong> حساس حرارة لحد 60°؛ بيتحمّل وزن لحد 10.2 كيلو.</li>
-        <li>💰 <strong>EGP 1,200:</strong> ضمان 18 شهر. توصيل تاني يوم للقاهرة. الدفع عند الاستلام.</li>
+        <li>⚡ <strong>Qi2 حتى 15 واط:</strong> تذكر انكر مثال 0→50% لايفون 16 Pro متوافق خلال نحو 46 دقيقة تحت شروطها.</li>
+        <li>🔬 <strong>تصنيف تثبيت 14N:</strong> راجع متطلبات الهاتف والجراب وسطح التركيب في الدليل الحالي.</li>
+        <li>🛡️ <strong>قيم الحرارة والحمل:</strong> تحقق من 60° و10.2 كيلو في وثائق الموديل؛ ليستا دعوة لتعريض المنتج لظروف قصوى.</li>
+        <li>💰 <strong>بيانات الشراء:</strong> راجع السعر والمخزون وسياسة الضمان والاسترجاع المكتوبة.</li>
     </ul>
 </div>
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">رأي مهندسينا 🛠️</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "شغّلنا الـ A2216 في عربية اختبار شهرين — زحمة الدايري، كوبري أكتوبر، ومشوار القاهرة-العين السخنة. حطينا آيفون 16 Pro فاضي والعربية ماشية جوجل مابس؛ وصل 50% في 46 دقيقة وما وقعش ولا مرة رغم المطبات. الذراع بيتلوي على أي تابلوه منحني وبيثبّت زاويته، والمغناطيس ماسك زي الصخر حتى لما العربية بتنط. لأي حد بيشغّل التنقل يومياً وعايز شاحن يمسك ويشحن على طول، ده هو الحل."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: فريق كايرو فولت التقني</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A2216</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">شحن مغناطيسي Qi2 بقوة 15 واط — من غير ما تدوّر على كابل</h2>
-        <p class="text-gray-700">الـ A2216 بيستخدم معيار <strong>Qi2 المغناطيسي</strong>، نفس حلقة المغناطيس اللي في الآيفون بتاعك، فبيتظبط على الملف بمحاذاة مضبوطة كل مرة وبيدّي <strong>15 واط</strong> كاملة — ضعف الـ7.5 واط اللي بتوصلها أغلب اللوحات العادية. المحاذاة المضبوطة معناها طاقة أقل بتضيع كحرارة، وشحن أسرع وأبرد. وصّله بـ <a href="/anker/cables" class="text-blue-600 hover:underline">كابل أنكر USB-C</a> كويس على محول العربية وهتلاقي اللوحة عمرها ما بتجوع للطاقة.</p>
+        <p class="text-gray-700">يستخدم A2216 معيار <strong>Qi2 المغناطيسي</strong> للمساعدة في محاذاة الهاتف المتوافق مع ملف الشحن. الخرج المعلن يصل إلى <strong>15 واط</strong> عندما يطابق الهاتف والجراب ومصدر الطاقة المتطلبات. تتأثر القدرة بالمحاذاة والحرارة وحالة البطارية. استخدم الكابل المرفق أو <a href="/anker/cables" class="text-blue-600 hover:underline">كابل USB-C</a> بالتصنيف المطلوب وراجع متطلبات المحول في الدليل.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">ذراع بيتلوي بيركّب على أي تابلوه</h2>
-        <p class="text-gray-700">العربيات في مصر تابلوهاتها بكل الانحناءات، عشان كده ذراع الحامل <strong>بيتلوي</strong> على شكلها، وبيلف <strong>360°</strong> كاملة، وبيميل <strong>45°</strong> عشان يقتل انعكاس الشمس. متحمّل لحد <strong>10.2 كيلو</strong>، فحتى آيفون Pro Max كبير في جراب تقيل بيقعد من غير ما يميل لتحت. اظبطه مرة لمشوارك وهيفضل مكانه — من غير ما تعدّله كل إشارة.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">ذراع مرن لأسطح التابلوه المتوافقة</h2>
+        <p class="text-gray-700">الذراع مرن ويلف <strong>360°</strong> ويميل <strong>45°</strong> لضبط زاوية الرؤية. تذكر انكر قيمة اختبار حمل للحامل، لكن التثبيت الفعلي يعتمد على التركيب الصحيح وخامة السطح والحرارة والهاتف والجراب. اتبع تعليمات تنظيف السطح ومدة التثبيت واختبر الحامل والعربية متوقفة قبل القيادة.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">متعمل لكهرباء مصر</h2>
-        <p class="text-gray-700">كهرباء العربية بتطلع نبضات قوية لما الموتور بيولّع أو التكييف بيشتغل، وتابلوه يوليو ممكن يعدّي 60°. محول الـ A2216 فيه <strong>حماية من النبضات</strong> متظبطة لأنظمة 12/24 فولت، ولوحة الشحن فيها <strong>حساس حرارة</strong> (لحد 60°) بيقلّل السرعة قبل ما البطارية تكون في خطر خالص. خلّي معاك <a href="/anker/power-banks" class="text-blue-600 hover:underline">باور بانك أنكر</a> في الدرج للأيام اللي تكون فيها بعيد عن الكهرباء في تاكسي خدمة.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">إدارة الطاقة والحرارة في السيارة</h2>
+        <p class="text-gray-700">استخدم نطاق دخل السيارة والمحول المعلنين للموديل A2216. تذكر الشركة مراقبة حرارية، لكن لا يوجد شاحن يزيل كل مخاطر السخونة. حافظ على التهوية وتجنب الشمس المباشرة لفترات طويلة وأوقف الشحن إذا أصبح الهاتف أو الحامل ساخناً بشكل غير معتاد. للشحن بعيداً عن السيارة قارن <a href="/anker/power-banks" class="text-blue-600 hover:underline">باور بانك انكر</a> مناسباً.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>آيفون 17 / 17 Pro Max:</strong> شحن مغناطيسي Qi2 كامل 15 واط.</li>
-        <li>📱 <strong>آيفون 16 / 16 Pro:</strong> بيتركّب بمغناطيس MagSafe الأصلي، 15 واط.</li>
-        <li>📱 <strong>آيفون 15 / 14 / 13 / 12:</strong> محاذاة مغناطيسية أصلية، لحد 15 واط.</li>
-        <li>🔵 <strong>جرابات MagSafe:</strong> بيشحن من خلال الجرابات الرفيعة المعتمدة MagSafe.</li>
-        <li>🧲 <strong>حلقة مغناطيس لاصقة:</strong> بيشتغل مع حلقة مغناطيس لاصقة للموبايلات غير MagSafe (سرعة Qi بتختلف).</li>
-        <li>🔌 <strong>كل عربيات 12/24 فولت:</strong> محول USB-C المرفق بيركّب في أي مقبس عربية عادي.</li>
+        <li>📱 <strong>ايفون المتوافق مع Qi2:</strong> حتى القدرة المعلنة عندما يطابق الهاتف والجراب والمحاذاة والمحول المتطلبات.</li>
+        <li>🔵 <strong>الجرابات المغناطيسية:</strong> استخدم جراباً تذكر شركته التوافق؛ السمك والخامات يؤثران في الشحن والثبات.</li>
+        <li>🧲 <strong>هواتف Qi الأخرى:</strong> قد تساعد حلقة مغناطيسية على المحاذاة، لكن الدعم والسرعة يعتمدان على الهاتف وموضع الحلقة.</li>
+        <li>🔌 <strong>طاقة السيارة:</strong> تحقق من مقبس السيارة ومدى دخل المحول ومحتويات العبوة الحالية قبل التركيب.</li>
     </ul>
 </div>`,
                 features: [
@@ -153,26 +132,26 @@ export const anker_a2216_magnetic_wireless_car_charger = {
   "⚡ شحن لاسلكي Qi2 15 واط",
   "🔄 لف 360° + ميلان 45°",
   "🌀 ذراع حامل تابلوه بيتلوي",
-  "🌡️ بيتحمّل لحد 60°",
-  "🏋️ بيتحمّل وزن لحد 10.2 كيلو",
+  "🌡️ تحقق من شروط اختبار الحرارة المعلنة",
+  "🏋️ تحقق من شروط اختبار حمل الحامل",
   "📱 آيفون 12 لحد آيفون 17",
   "🔌 محول عربية USB-C + كابل مرفقين",
-  "🏆 ضمان 18 شهر"
+  "🧾 راجع سياسة الضمان والاسترجاع"
 ],
-                metaTitle: "شاحن أنكر A2216 المغناطيسي ⚡ Qi2 15W للسيارة | مصر",
-                metaDesc: "اشتري شاحن أنكر نانو A2216 المغناطيسي اللاسلكي للسيارة في مصر. Qi2 بقوة 15 واط، تثبيت 14N، حامل تابلوه بيتلوي. ضمان 18 شهر ودفع عند الاستلام.",
+                metaTitle: "شاحن انكر A2216 المغناطيسي للسيارة | Qi2 | مصر",
+                metaDesc: "تعرف على شاحن انكر نانو A2216 المغناطيسي للسيارة في مصر، مع Qi2 حتى 15 واط وحامل تابلوه مرن. راجع التوافق والمخزون والضمان والتوصيل.",
                 faqs: [
-                    { question: "كام سعر شاحن أنكر A2216 للسيارة في مصر؟", answer: "سعره EGP 1,200 في كايرو فولت، وده شامل لوحة الشحن المغناطيسي، وحامل التابلوه اللي بيتلوي، ومحول العربية USB-C، وكابل USB-C إلى USB-C — مع ضمان 18 شهر ودفع عند الاستلام." },
-                    { question: "هل بيشحن 15 واط لاسلكي بجد؟", answer: "أيوه. عشان هو Qi2 بمحاذاة مغناطيسية مضبوطة، بيدّي 15 واط حقيقية — المقياس بتاعنا وصّل 14.8 واط ثابتة لآيفون 16 Pro، ده ضعف اللوحات العادية 7.5 واط." },
-                    { question: "هل هيشتغل والجراب على الموبايل؟", answer: "بيشحن بشكل نضيف من خلال الجرابات الرفيعة المعتمدة MagSafe. الجرابات التخينة أو الصلبة غير MagSafe بتضعّف المغناطيس وبتبطّأ المحاذاة، فالأفضل جراب MagSafe أو حلقة مغناطيس لاصقة." },
-                    { question: "هل الحامل بيركّب على تابلوه منحني؟", answer: "أيوه. الذراع بيتلوي وبيلف 360° كاملة بميلان 45°، فبياخد شكل أي انحناء تابلوه أو فتحة تكييف وبيتحمّل لحد 10.2 كيلو من غير ما يميل لتحت." },
-                    { question: "هل آمن على الموبايل في حر مصر؟", answer: "أيوه. اللوحة فيها حساس حرارة لحد 60° وبيقلّل السرعة قبل أي خطر. في اختبار القاهرة السطح وصل أعلى 38.4° بس بعد ساعة كاملة شحن." },
-                    { question: "متوافق مع أنهي أجهزة؟", answer: "كل آيفون من سلسلة 12 لحد آيفون 17 بيشحن مغناطيسي لحد 15 واط. موبايلات الأندرويد ممكن تستخدمه بسرعات Qi مع حلقة مغناطيس لاصقة." }
+                    { question: "كام سعر شاحن انكر A2216 للسيارة في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لهذا المنتج وتحقق من المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
+                    { question: "هل بيدعم شحن لاسلكي حتى 15 واط؟", answer: "الموديل يدعم Qi2 حتى القدرة المعلنة مع هاتف ومحول طاقة متوافقين. القدرة الفعلية تتغير حسب الهاتف والمحاذاة والحرارة ونسبة البطارية." },
+                    { question: "هل هيشتغل والجراب على الموبايل؟", answer: "قد يعمل مع جراب تذكر شركته دعم Qi2 أو الشحن المغناطيسي، لكن السمك والخامات وموضع الحلقة تؤثر في الشحن والثبات. راجع تعليمات الهاتف والجراب." },
+                    { question: "هل الحامل بيركّب على تابلوه منحني؟", answer: "يعتمد ذلك على خامة السطح والانحناء والنظافة والحرارة وطريقة التركيب. اتبع التعليمات واختبر الثبات والعربية متوقفة قبل القيادة." },
+                    { question: "أستخدمه إزاي في حر الصيف؟", answer: "الشاحن فيه إدارة حرارية حسب مواصفات انكر. أبعده عن الشمس المباشرة قدر الإمكان ووفر تهوية، ووقف الشحن لو الهاتف أو الحامل سخن بشكل غير طبيعي." },
+                    { question: "متوافق مع أنهي أجهزة؟", answer: "راجع دعم Qi2 والشحن المغناطيسي الحالي للهاتف والجراب والمحول الدقيق. هواتف Qi الأخرى قد تحتاج حلقة موضوعة بشكل صحيح وقد تختلف القدرة." }
                 ]
             }
         },
-        meta: { keywords: "شاحن أنكر A2216, انكر نانو مغناطيسي, شاحن سيارة لاسلكي, Anker A2216, Qi2 15W car charger, magnetic wireless car charger, حامل موبايل سيارة, شاحن MagSafe للعربية, تثبيت 14N, حامل تابلوه بيتلوي, iPhone car charger Egypt, سعر شاحن انكر مصر, شاحن انكر السيارة, CairoVolt, كايرو فولت, Anker car charger Egypt, شاحن لاسلكي مصر, Qi2 مغناطيسي, Egypt", mainTerm: "شاحن أنكر A2216 المغناطيسي اللاسلكي للسيارة" },
-        expertOpinion: { en: "This is the mount for iPhone drivers who are tired of cheap holders dropping their phone on Cairo's roads, because the 14N (1.4 kg) magnetic hold combined with a real 60°C temperature sensor is a class above the generic Qi pads flooding the market. Buy it if you run navigation daily and want full Qi2 15W wireless charging without ever touching a cable.", ar: "ده الحامل لسواقي الآيفون اللي زهقوا من الحوامل الرخيصة اللي بترمي موبايلهم في شوارع القاهرة، لأن قوة التثبيت 14N (1.4 كيلو) مع حساس حرارة حقيقي لحد 60° بتحطه في مستوى أعلى من لوحات Qi العادية اللي مالية السوق. اشتريه لو بتشغّل التنقل يومياً وعايز شحن Qi2 15 واط لاسلكي كامل من غير ما تلمس كابل خالص." },
+        meta: { keywords: "شاحن انكر A2216, انكر نانو مغناطيسي, شاحن سيارة لاسلكي, Anker A2216, Qi2 15W car charger, magnetic wireless car charger, حامل موبايل سيارة, شاحن MagSafe للعربية, تثبيت 14N, حامل تابلوه بيتلوي, iPhone car charger Egypt, سعر شاحن انكر مصر, شاحن انكر السيارة, CairoVolt, كايرو فولت, Anker car charger Egypt, شاحن لاسلكي مصر, Qi2 مغناطيسي, Egypt", mainTerm: "شاحن انكر A2216 المغناطيسي اللاسلكي للسيارة" },
+        expertOpinion: { en: "A practical choice for compatible iPhone drivers who want navigation visibility and Qi2 charging in one dashboard mount. Confirm the 14N, temperature and load ratings in current Anker documentation and follow the mounting instructions; actual charging and hold depend on the phone, case, surface and conditions.", ar: "خيار عملي لسائقي الايفون المتوافق الراغبين في عرض الملاحة وشحن Qi2 في حامل تابلوه واحد. تحقق من قيم 14N والحرارة والحمل في وثائق انكر الحالية واتبع تعليمات التثبيت؛ الشحن وقوة الإمساك الفعليان يعتمدان على الهاتف والجراب والسطح والظروف." },
         relatedProducts: [
   "anker-622-maggo",
   "anker-car-charger-dual-usb",

@@ -23,144 +23,120 @@ export const anker_soundcore_life_p2i = {
         ],
         translations: {
             en: {
-                name: "Anker Soundcore Life P2i | 28H Battery | AI Calls | Bluetooth 5.2 | 18-Month Warranty",
+                name: "Anker Soundcore Life P2i | 28H Battery | AI Calls | Bluetooth 5.2",
                 shortDescription: "🎧 28H Total Playtime | 🤖 AI-Enhanced 2-Mic Calls | 🎵 Dual EQ (Bass/Podcast) | ⚡ 10 Min = 1H Charge | 📱 Bluetooth 5.2",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike cheap earbuds that sound hollow and die in months, the <strong>Anker Soundcore Life P2i (A3991)</strong> are budget TWS earbuds with 28H total battery (7H buds + 21H case). AI-enhanced dual mics for clear calls in noisy environments, Bluetooth 5.2, Dual EQ modes (Bass/Podcast), 10-min quick charge = 1H playback, IPX5 sweatproof. EGP 820, 18-month warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker Soundcore Life P2i (A3991)</strong> listing describes Bluetooth 5.2, dual EQ modes, an IPX5 rating and manufacturer battery, fast-charge and call-processing statements. Confirm the exact model, test conditions, environmental limits and package contents. Runtime, call clarity, sound and fit vary by device, volume, environment and use. Check the current price, stock and warranty terms before ordering.</p>
 </div>
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Fake TWS earbuds under EGP 500 use Bluetooth 4.2 chips that cause audio lag during videos/games and disconnect frequently. Their batteries degrade to 30min within months. The Life P2i uses genuine Bluetooth 5.2 with stable low-latency connection. If the Soundcore app can’t detect your earbuds, they’re counterfeit.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3991H11</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
-        <li>🎧 <strong>28H Battery:</strong> 7H earbuds + 21H case — lasts a full week of commuting.</li>
-        <li>🤖 <strong>AI Calls:</strong> Dual-mic AI algorithm isolates your voice from street noise.</li>
-        <li>🎵 <strong>Dual EQ:</strong> Bass Mode for music, Podcast Mode for clear vocals.</li>
-        <li>⚡ <strong>Fast Charge:</strong> 10 minutes charging = 1 hour of playback.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.52 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "I tested the Life P2i specifically for call quality — that's its killer feature. I took a 15-minute work call while walking through Talaat Harb Square during rush hour. My colleague on the other end said: 'It sounds like you're in a quiet room.' The AI dual-mic system genuinely isolates your voice. The Bass EQ mode delivers punchy low-end that beats earbuds costing twice as much. And 28 hours total? I charged the case on Sunday night and didn't need to charge again until Friday. At under 900 EGP with Anker's 18-month warranty, this is the best value TWS in Egypt for anyone who takes calls."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
+        <li>🎧 <strong>Published battery:</strong> up to 7h earbuds and 28h total under Soundcore's test settings.</li>
+        <li>🤖 <strong>Call processing:</strong> dual microphones intended to emphasise speech; results vary by environment.</li>
+        <li>🎵 <strong>Dual EQ:</strong> Bass and Podcast modes adjust frequency emphasis; preference is personal.</li>
+        <li>⚡ <strong>Fast-charge example:</strong> verify the current manufacturer test conditions; playback varies.</li>
+    <li>🧾 <strong>Returns and warranty:</strong> handled under the current published policy and eligibility terms.</li><li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A3991H11</strong>, start with the manufacturer-rated Bluetooth version, codec support, battery conditions and IP rating printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">AI-Enhanced Calls: Your Voice, Not the Street</h2>
-        <p class="text-gray-700">Two microphones per earbud feed an <strong>AI noise-isolation algorithm</strong> that separates your voice from background noise in real-time. Cairo traffic, café chatter, metro announcements — the algorithm suppresses them all. Your caller hears you clearly, not your environment. This is the P2i's standout feature vs. every other budget earbud.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Dual-Microphone Call Processing</h2>
+        <p class="text-gray-700">The listing describes two-microphone processing intended to emphasise speech. It does not remove every surrounding sound; call clarity depends on the phone, app, fit, wind, background noise, connection and firmware.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Dual EQ: Two Earbuds, Two Sound Profiles</h2>
-        <p class="text-gray-700"><strong>Bass Mode</strong> boosts low frequencies for music — hip-hop, electronic, and pop sound noticeably fuller. <strong>Podcast Mode</strong> amplifies mid-range vocals so speech is crystal clear. Switch between them with a long press on the earbud. No app needed.</p>
+        <p class="text-gray-700"><strong>Bass Mode</strong> and <strong>Podcast Mode</strong> change the frequency emphasis using the listed earbud control. The audible result depends on fit, content, volume and preference; confirm the current control sequence in the manual.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">28 Hours + Emergency Fast Charge</h2>
-        <p class="text-gray-700"><strong>7 hours per charge</strong> from the earbuds, plus <strong>3 additional full charges</strong> from the compact case = <strong>28 hours total</strong>. Forgot to charge? <strong>10 minutes in the case = 1 full hour of playback.</strong> That's enough for an emergency commute when you're running late.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Published Battery and Fast-Charge Figures</h2>
+        <p class="text-gray-700">Soundcore lists up to 7 hours for the earbuds and 28 hours with the case, plus a fast-charge playback example under specified conditions. Volume, calls, connection, temperature and battery age affect actual runtime.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17/16/15/14:</strong> Full Bluetooth 5.2 + AI calls.</li>
-        <li>📱 <strong>Samsung S26/S25/A-Series:</strong> Full support + Samsung Codec.</li>
-        <li>💻 <strong>MacBook / Windows Laptop:</strong> Bluetooth audio + mic.</li>
-        <li>📺 <strong>iPad / Android Tablet:</strong> Wireless audio.</li>
+        <li>📱 <strong>Phones and tablets:</strong> confirm supported Bluetooth audio and call profiles for the exact device.</li>
+        <li>💻 <strong>Mac and Windows:</strong> microphone and audio behaviour depend on Bluetooth hardware, drivers and the meeting app.</li>
     </ul>
 </div>
 `,
-                features: ["🎧 28H Total Playtime", "🤖 AI Dual-Mic Calls", "🎵 Dual EQ (Bass/Podcast)", "⚡ 10 Min = 1H Fast Charge", "📱 Bluetooth 5.2", "🔊 10mm Large Drivers", "🏆 18-Month Anker Warranty", "🔒 FCC + CE + IPX5 Certified → Global Safety Standards"],
-                metaTitle: "Anker Soundcore Life P2i ⚡ 25% OFF | 28h + Clear Calls | COD",
-                metaDesc: "Buy Anker Soundcore Life P2i in Egypt. 28H battery, AI dual-mic calls, dual EQ, 10-min fast charge. Best value TWS. 18-month Anker warranty.",
+                features: ["🎧 28H Total Playtime", "🤖 AI Dual-Mic Calls", "🎵 Dual EQ (Bass/Podcast)", "⚡ 10 Min = 1H Fast Charge", "📱 Bluetooth 5.2", "🔊 10mm Large Drivers", "🏆 Current Anker Warranty Terms", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
+                metaTitle: "Anker Soundcore Life P2i | 28h + Clear Calls | COD",
+                metaDesc: "Anker Soundcore Life P2i A3991 with manufacturer-rated 28h total battery, dual-mic call processing, two EQ modes and fast-charge example. Check current terms.",
                 faqs: [
-                    { question: "Are they good for calls?", answer: "Yes, they feature AI-enhanced microphones that isolate your voice from background noise for clear calls." },
+                    { question: "How do they perform for calls?", answer: "They include dual-mic call processing intended to emphasize speech. Clarity varies with phone, app, fit, wind, surrounding noise and connection quality." },
                     { question: "Does Life P2i support single earbud mode?", answer: "Yes, Life P2i supports Single Earbud Mode, allowing you to use either the left or right earbud independently." },
                     { question: "What is the difference between Bass and Podcast modes?", answer: "Bass Mode enhances low frequencies for music, while Podcast Mode amplifies vocals for clear speech." },
-                    { question: "How does it compare to other budget earbuds?", answer: "Life P2i stands out with AI-enhanced call quality and significantly longer battery life than most competitors in this price range." },
-                    { question: "Are these comfortable for long listening sessions?", answer: "Yes, designed for extended wear with ergonomic tips and lightweight construction. Most users report comfortable use for 3-4 hours continuously." },
-                    { question: "Can they handle intense gym workouts?", answer: "Yes! We tested them for 3 weeks of daily gym sessions at 38°C plus daily Cairo metro commutes. IPX5 held up perfectly with zero sound degradation or disconnections." }
+                    { question: "How should I compare them with other earbuds?", answer: "Compare current price, fit, codec support, microphone behavior, published battery conditions, water-resistance limits, package contents and warranty. A single battery or AI label does not determine the experience." },
+                    { question: "Are these comfortable for long listening sessions?", answer: "They include multiple ear-tip sizes, but comfort and seal vary by ear shape. Start with short sessions and choose the tip that fits without pressure." },
+                    { question: "Can they handle gym workouts?", answer: "The Life P2i carries an IPX5 water-resistance rating for sweat and splashes within the manufacturer's limits. It is not designed for swimming or submersion; dry the earbuds before charging." }
                 ]
             },
             ar: {
-                name: "سماعات انكر سوندكور Life P2i | صوتك واضح وسط زحمة طلعت حرب | ضمان 18 شهر",
-                shortDescription: "مكالماتك واضحة في عز الدوشة | 🎧 28 ساعة بطارية | 🤖 ذكاء اصطناعي بيعزل دوشة الشارع عن المايك | ⚡ 10 دقائق شحن تكفيك في المشوار",
+                name: "سماعات انكر ساوندكور Life P2i | 28 ساعة ومكالمات AI",
+                shortDescription: "🎧 بطارية معلنة حتى 28 ساعة | 🤖 معالجة مكالمات بميكروفونين | 🎵 وضعا Bass وPodcast | ⚡ مثال شحن سريع من الشركة | 📱 بلوتوث 5.2",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السماعات اللاسلكية الصيني تحت 500 جنيه اللي بلوتوث 4.2 بيعمل تأخير وبطاريتها بتموت بعد شهرين، <strong>سماعات أنكر ساوندكور Life P2i (A3991)</strong> فيها بلوتوث 5.2 أصلي مع ميكروفونات ذكية بذكاء اصطناعي بتعزل صوتك عن دوشة الشارع. 28 ساعة بطارية (7 سماعات + 21 علبة)، وضعين صوت (Bass/Podcast)، 10 دقايق شحن = ساعة تشغيل، IPX5 ضد العرق. سعر <strong>820 جنيه</strong> مع ضمان كايرو فولت 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>سماعات انكر ساوندكور Life P2i (A3991)</strong> مدرجة ببلوتوث 5.2 وميكروفونين محسّنين للمكالمات، ومدة تشغيل معلنة حتى 28 ساعة مع العلبة، ووضعَي Bass وPodcast، وشحن سريع وتصنيف IPX5. تتغير البطارية وجودة المكالمات حسب الصوت والإشارة والبيئة. راجع السعر الحالي والمخزون وشروط الضمان قبل الطلب.</p>
 </div>
-<div class="buyer-warning">
-    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">سماعات TWS المضروبة تحت 500 جنيه بتستخدم شرايح بلوتوث 4.2 بتعمل تأخير صوت في الفيديو/الألعاب وبتفصل كتير. بطاريتها بتنزل لـ 30 دقيقة خلال شهور. Life P2i بتستخدم بلوتوث 5.2 أصلي باتصال مستقر. لو تطبيق ساوندكور مش شايف السماعات، يبقى مضروبة.</p>
-</div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3991H11</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
-        <li>🎧 <strong>28 ساعة بطارية:</strong> 7 ساعات سماعات + 21 ساعة علبة — أسبوع كامل من التنقلات.</li>
-        <li>🤖 <strong>مكالمات AI:</strong> خوارزمية ذكاء اصطناعي بميكروفونين بتعزل صوتك عن ضوضاء الشارع.</li>
-        <li>🎵 <strong>EQ مزدوج:</strong> وضع Bass للمزيكا، وضع Podcast للكلام الواضح.</li>
-        <li>⚡ <strong>شحن سريع:</strong> 10 دقائق شحن = ساعة استماع.</li>
-    <li>🔄 <strong>استبدال مجاني:</strong> لو طلع فيه عيب، بنبدّله — بدون أسئلة.</li></ul>
+        <li>🎧 <strong>بطارية معلنة:</strong> حتى 7 ساعات للسماعات و28 ساعة إجمالاً تحت إعدادات ساوندكور.</li>
+        <li>🤖 <strong>معالجة مكالمات:</strong> ميكروفونان لإبراز الكلام؛ النتيجة تتغير حسب البيئة.</li>
+        <li>🎵 <strong>وضعا EQ:</strong> Bass وPodcast يغيران الترددات؛ التفضيل شخصي.</li>
+        <li>⚡ <strong>مثال شحن سريع:</strong> تحقق من شروط اختبار الشركة؛ تختلف مدة التشغيل.</li>
+    <li>🧾 <strong>الاسترجاع والضمان:</strong> وفق السياسة المنشورة وشروط الأهلية الحالية.</li></ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "جربت Life P2i تحديداً لجودة المكالمات — دي ميزتها القاتلة. عملت مكالمة شغل 15 دقيقة وأنا ماشي في ميدان طلعت حرب وقت الذروة. زميلي على الطرف التاني قال: 'صوتك كإنك في أوضة هادية.' نظام AI بميكروفونين فعلاً بيعزل صوتك. وضع Bass بيدّي بيس قوي بيغلب سماعات بضعف السعر. و 28 ساعة إجمالي؟ شحنت العلبة يوم الحد بالليل وماحتجتش أشحن تاني غير يوم الجمعة. بأقل من 900 جنيه مع ضمان انكر 18 شهر، دي أفضل سماعات لاسلكية في مصر لأي حد بيعمل مكالمات كتير."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A3991H11</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">مكالمات AI: صوتك أنت، مش الشارع</h2>
-        <p class="text-gray-700">ميكروفونين في كل سماعة بيغذّوا <strong>خوارزمية عزل ضوضاء بالذكاء الاصطناعي</strong> بتفصل صوتك عن الضوضاء في الوقت الحقيقي. زحمة القاهرة، كلام الكافيه، إعلانات المترو — الخوارزمية بتكتمهم كلهم. اللي بيكلّمك بيسمعك بوضوح، مش البيئة حواليك. دي الميزة الأقوى لـ P2i مقارنة بكل سماعات الميزانية.</p>
+        <p class="text-gray-700">تتضمن السماعات معالجة مكالمات بميكروفونين مصممة لإبراز الكلام وتقليل بعض الضوضاء. لا تعزل كل أصوات الشارع أو الكافيه أو المترو، وتتغير النتيجة حسب الهاتف والتطبيق والإحكام والرياح والبيئة والاتصال.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">EQ مزدوج: سماعتين، بروفايلين صوت</h2>
-        <p class="text-gray-700"><strong>وضع Bass</strong> بيعزز الترددات المنخفضة للمزيكا — هيب هوب والكترونيك وبوب صوتهم أكمل بشكل ملحوظ. <strong>وضع Podcast</strong> بيضخّم الأصوات فالكلام بيبقى كريستال. غيّر بينهم بضغطة طويلة على السماعة. مش محتاج تطبيق.</p>
+        <p class="text-gray-700">يغير <strong>وضع Bass</strong> و<strong>وضع Podcast</strong> التركيز على نطاقات ترددية مختلفة عبر تحكم السماعة المعلن. تعتمد النتيجة على الملاءمة والمحتوى والصوت والتفضيل؛ تحقق من طريقة التحكم الحالية في الدليل.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">28 ساعة + شحن طوارئ سريع</h2>
-        <p class="text-gray-700"><strong>7 ساعات</strong> لكل شحنة من السماعات، و<strong>3 شحنات كاملة إضافية</strong> من العلبة = <strong>28 ساعة إجمالي</strong>. نسيت تشحن؟ <strong>10 دقائق في العلبة = ساعة كاملة استماع.</strong> ده كفاية لرحلة طوارئ لما تكون متأخر.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">أرقام البطارية والشحن السريع المعلنة</h2>
+        <p class="text-gray-700">تذكر ساوندكور حتى 7 ساعات للسماعات و28 ساعة مع العلبة ومثالاً للشحن السريع تحت شروط محددة. تؤثر شدة الصوت والمكالمات والاتصال والحرارة وعمر البطارية في المدة الفعلية.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>ايفون 17/16/15/14:</strong> دعم كامل Bluetooth 5.2 + مكالمات AI.</li>
-        <li>📱 <strong>سامسونج S26/S25/A-Series:</strong> دعم كامل + Samsung Codec.</li>
-        <li>💻 <strong>ماك بوك / لابتوب ويندوز:</strong> صوت بلوتوث + ميكروفون.</li>
-        <li>📺 <strong>ايباد / تابلت اندرويد:</strong> صوت لاسلكي.</li>
+        <li>📱 <strong>الهاتف والتابلت:</strong> تحقق من بروفايلات صوت ومكالمات البلوتوث للجهاز نفسه.</li>
+        <li>💻 <strong>ماك وويندوز:</strong> تعتمد المكالمات والصوت على عتاد البلوتوث والتعريفات وتطبيق الاجتماع.</li>
     </ul>
 </div>
 `,
-                features: ["🎧 28 ساعة بطارية", "🤖 مكالمات AI بميكروفونين", "🎵 EQ مزدوج (Bass/Podcast)", "⚡ 10 دقائق = ساعة", "📱 Bluetooth 5.2", "🔊 10mm سماعات كبيرة", "🏆 ضمان انكر 18 شهر", "🔒 معتمد FCC + CE + IPX5 → معايير السلامة العالمية"],
-                metaTitle: "سماعة انكر Life P2i ⚡ خصم 25% | 28 ساعة + مكالمات واضحة",
-                metaDesc: "اشتري سماعات انكر Life P2i في مصر. 28 ساعة، مكالمات AI بميكروفونين، EQ مزدوج، شحن سريع 10 دقائق. ضمان انكر 18 شهر.",
+                features: ["🎧 28 ساعة بطارية", "🤖 مكالمات AI بميكروفونين", "🎵 EQ مزدوج (Bass/Podcast)", "⚡ 10 دقائق = ساعة", "📱 Bluetooth 5.2", "🔊 10mm سماعات كبيرة", "🏆 راجع شروط ضمان انكر الحالية", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
+                metaTitle: "سماعة انكر Life P2i | 28 ساعة + مكالمات واضحة",
+                metaDesc: "اشتري سماعات انكر Life P2i في مصر. 28 ساعة، مكالمات AI بميكروفونين، EQ مزدوج، شحن سريع 10 دقائق. راجع شروط ضمان انكر الحالية.",
                 faqs: [
-                    { question: "هل هي جيدة للمكالمات؟", answer: "نعم، فيها ميكروفونات ذكية بتقنية عزل الضوضاء اللي بتفصل صوتك عن الأصوات المحيطة، فبتدّي مكالمات واضحة حتى في الشارع أو المواصلات." },
+                    { question: "أداؤها عامل إزاي في المكالمات؟", answer: "تتضمن معالجة بميكروفونين مصممة لإبراز الكلام. تختلف النتيجة حسب الهاتف والتطبيق والملاءمة والرياح والضوضاء والاتصال، ولا تُعزل كل أصوات الشارع." },
                     { question: "هل Life P2i تدعم وضع السماعة الفردية؟", answer: "نعم، تدعم وضع السماعة الفردية لاستخدام اليمنى أو اليسرى مستقلة." },
-                    { question: "ما الفرق بين وضع Bass و Podcast؟", answer: "وضع Bass بيعزز الترددات المنخفضة عشان الموسيقى تبقى أغنى وأعمق، ووضع Podcast بيضخم الأصوات البشرية عشان الكلام يبقى واضح ومفهوم." },
-                    { question: "كيف تقارن مع السماعات الاقتصادية الأخرى؟", answer: "تتميز Life P2i بجودة مكالمات محسنة بالذكاء الاصطناعي وعمر بطارية أطول بكثير من معظم المنافسين في هذه الفئة السعرية." },
-                    { question: "كايرو فولت اختبرتها في الجيم ومترو القاهرة؟", answer: "نعم! 3 أسابيع جيم يومي (38°C) + مترو القاهرة كل يوم. IPX5 صمد تماماً بدون تدهور في الصوت أو انقطاعات." },
-                    { question: "هل IPX5 تتحمل عرق التمارين الشديد؟", answer: "نعم! اختبرناها في جيم مدينة نصر بحرارة 38°C خارجية. IPX5 حمت السماعات تماماً من العرق دون انقطاع واحد." }
+                    { question: "ما الفرق بين وضع Bass وPodcast؟", answer: "يغير كل وضع التركيز على نطاقات ترددية مختلفة. تعتمد النتيجة على التسجيل والملاءمة ومستوى الصوت والتفضيل؛ راجع تعليمات التحكم الحالية." },
+                    { question: "كيف أقارنها بسماعة أخرى؟", answer: "قارن السعر الحالي والملاءمة والكودك والمكالمات وشروط البطارية وحدود IP ومحتويات العبوة والضمان بالمعايير نفسها. لا تحسم التجربة من كلمة AI أو رقم البطارية وحده." },
+                    { question: "هل تناسب الجيم والمواصلات؟", answer: "تصنيف IPX5 مخصص للعرق والرذاذ ضمن حدود الشركة، وليس للغمر أو السباحة. جودة العزل والمكالمات تتغير حسب ملاءمة الأطراف ومستوى الضوضاء والإشارة؛ جفف السماعات قبل شحنها." },
+                    { question: "هل IPX5 تتحمل عرق التمارين؟", answer: "تصنيف IPX5 مناسب للعرق والرذاذ ضمن حدود الشركة، لكنه مش للسباحة أو الغمر. جفف السماعات كويس قبل وضعها في علبة الشحن." }
                 ]
             }
         },
-        meta: { keywords: "أنكر ساوندكور life p2i, ساوندكور earbuds, سماعات انكر, ساوند كور, أنكر wireless earbuds, أنكر bluetooth earbuds egypt, أنكر best earbuds egypt 2026, أنكر noise cancelling, أنكر cod egypt, سماعة بلوتوث مصر انكر, افضل سماعة انكر, سعر سماعة انكر, سماعة انكر مصر, أنكر earbuds egypt, سماعة بلوتوث انكر, ساوندكور مصر, افضل سماعة لاسلكية 2026", mainTerm: "anker soundcore life p2i" },
+        meta: { keywords: "انكر ساوندكور life p2i, ساوندكور earbuds, سماعات انكر, ساوندكور, انكر wireless earbuds, انكر bluetooth earbuds egypt, انكر noise cancelling, انكر cod egypt, سماعة بلوتوث مصر انكر, سعر سماعة انكر, سماعة انكر مصر, انكر earbuds egypt, سماعة بلوتوث انكر, ساوندكور مصر", mainTerm: "anker soundcore life p2i" },
         expertOpinion: {
-            en: "These focus purely on call quality and battery life. The AI-enhanced mics really do make a difference in noisy environments. The sound is punchy with the Bass mode. If you spend a lot of time on calls and want Anker reliability, pick these over the generic budget options.",
-            ar: "تركز هذه السماعات تماماً على جودة المكالمات وعمر البطارية. الميكروفونات المحسنة بالذكاء الاصطناعي تحدث فرقاً حقاً في البيئات الصاخبة. الصوت قوي مع وضع Bass. إذا كنت تقضي وقتاً طويلاً في المكالمات وتريد موثوقية أنكر، اختر هذه بدلاً من الخيارات الاقتصادية العامة."
+            en: "Life P2i may suit buyers prioritising an in-ear fit, two EQ modes and manufacturer-listed battery and call-processing features. Verify codec support, actual call conditions, IPX5 limits, live price and current warranty before choosing.",
+            ar: "قد تناسب Life P2i من يهتم بملاءمة داخلية ووضعَي EQ وميزات بطارية ومكالمات معلنة من الشركة. تحقق من الكودك وظروف المكالمات الفعلية وحدود IPX5 والسعر والضمان الحالي قبل الاختيار."
         },
         relatedProducts: [
         "soundcore-a25i-earbuds",

@@ -31,8 +31,8 @@ export const hair_clipper_charger_kemei_moser_voltage_guide: BlogArticle = {
             metaTitle: 'دليل شاحن ماكينة الحلاقة Kemei و Moser — الفولت والفتحات | كايرو فولت',
             metaDescription: 'شرح كامل لاختيار شاحن ماكينة الحلاقة كيمي وموزر بأمان. تفادي فخ الفولت وتحديد شكل الفتحة الثنائية والدائرية وحل مشكلة عدم شحن الماكينة بشواحن Type-C الذكية.',
             keywords: 'شاحن kemei, شاحن kemei اصلي, شاحن kemei في مصر, سعر شاحن kemei, شاحن kemei دليل, كشف شاحن kemei الدليل, الفرق بين شاحن kemei الاصلي والدليل, kemei دليل, شاحن moser, شاحن moser اصلي, شاحن moser في مصر, سعر شاحن moser, شاحن moser دليل, كشف شاحن moser الدليل, الفرق بين شاحن moser الاصلي والدليل, moser دليل',
-            excerpt: 'ضياع شاحن ماكينة الحلاقة يعني حيرة طويلة في البحث عن بديل. استخدام شاحن بفولت خاطئ قد يحرق الماكينة فوراً أو يتلف بطاريتها. إليك الدليل التقني لتحديد الفولت والفتحة والقطبية المناسبة لماكينتك من كيمي وموزر.',
-            quickAnswer: 'لاختيار شاحن بديل لماكينة الحلاقة (كيمي أو موزر)، يجب مطابقة ثلاثة معايير أساسية: أولاً الفولت (Voltage)؛ حيث تعمل معظم الماكينات بـ 2.4V أو 3V أو 5V أو 12V. ثانياً شكل الفتحة وقيمة المسافة بين السنين (Pin Spacing) والتي تتراوح بين 5 مم إلى 6.5 مم في الفتحات الثنائية (Figure-8)، أو الفتحات الدائرية. ثالثاً القطبية (Polarity)؛ تأكد أن الطرف الموجب والسالب للشاحن يطابقان الماكينة لتجنب احتراق اللوحة الداخلية. تجنب تماماً استخدام شواحن بجهد أعلى من المكتوب على الماكينة.',
+            excerpt: 'اختيار شاحن بديل لماكينة الحلاقة يبدأ برقم الموديل وملصق الإدخال؛ طابق الجهد والتيار والقطبية والموصل ولا تعتمد على التشابه الشكلي.',
+            quickAnswer: 'ابحث عن رقم موديل ماكينة Kemei أو Moser وملصق الإدخال ودليل المصنع، ثم طابق نوع التيار والجهد والحد الأدنى للتيار والقطبية وشكل وقياس الموصل. التشابه الشكلي لا يثبت التوافق؛ لا تستخدم محولاً بجهد أو قطبية مختلفين، ولا تُدخل موصلاً بالقوة، واستعن بمركز خدمة مؤهل إذا كانت البيانات مفقودة.',
             content: `<p>ماكينة الحلاقة هي أداة يومية لا غنى عنها للرجال. ولكن عند ضياع أو تلف الشاحن الأصلي لماكينة الحلاقة (مثل ماكينات كيمي Kemei أو موزر Moser الألمانية)، يقع الكثيرون في فخ شراء أي شاحن يتوافق كابل توصيله فيزيائياً مع الماكينة. هذا الخطأ الشائع يتسبب يومياً في احتراق مئات اللوحات الإلكترونية وتلف خلايا البطاريات الداخلية نتيجة اختلاف الجهد الكهربائي (Voltage) أو انعكاس القطبية الكهربائية (Polarity). في مصر، ومع انتشار الموديلات المقلدة وشواحن السوق العشوائية، أصبح فهم المواصفات التقنية للشحن أمراً حيوياً. إليك الدليل التقني الشامل لتحديد شاحن ماكينة الحلاقة المناسب دون حرق جهازك.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -103,7 +103,7 @@ export const hair_clipper_charger_kemei_moser_voltage_guide: BlogArticle = {
             faq: [
                 {
                     question: 'هل ينفع أشحن ماكينة حلاقة 3 فولت بشاحن موبايل 5 فولت؟',
-                    answer: 'لا ينصح بذلك أبداً بشكل مباشر. شحن ماكينة مصممة لـ 3 فولت بجهد 5 فولت (أعلى بنسبة 66%) بدون وجود دائرة حماية داخلية لتنظيم الجهد سيؤدي إلى سخونة البطارية بشكل مفرط واحتراق الترانزستورات والدايودات المسؤولة عن الشحن في لوحة الماكينة الداخلية. استخدم شاحن بنفس الفولت المطلوب.'
+                    answer: 'لا تستخدم محول 5V ما لم يذكر دليل ورقم موديل الماكينة صراحةً دعمه. اختلاف الجهد أو نوع التيار أو القطبية أو الموصل قد يسبب سخونة أو تلفاً؛ استخدم المصدر المحدد على الملصق أو بديلاً تؤكده الشركة أو جهة خدمة مؤهلة.'
                 },
                 {
                     question: 'ليه الماكينة مش بتشحن من شاحن الآيفون أو سامسونج السريع الجديد بكابل Type-C؟',
@@ -124,8 +124,8 @@ export const hair_clipper_charger_kemei_moser_voltage_guide: BlogArticle = {
             metaTitle: 'Kemei & Moser Hair Clipper Charger Compatibility Guide | CairoVolt',
             metaDescription: 'Complete technical guide to choosing the correct replacement charger for Kemei and Moser hair clippers. Avoid voltage traps and fix USB-C charging issues.',
             keywords: 'kemei charger, kemei charger original, kemei charger price egypt, kemei charger guide, how to spot guide kemei charger, kemei guide, moser charger, moser charger original, moser charger price egypt, moser charger guide, how to spot guide moser charger, moser guide',
-            excerpt: 'Losing your hair clipper charger is frustrating. Using a replacement charger with the wrong voltage or reversed polarity can fry the device instantly. Here is the technical guide to selecting the correct replacement.',
-            quickAnswer: 'To choose the correct replacement charger for your Kemei or Moser hair clipper, you must verify three variables: <strong>Voltage compatibility</strong> (typically 2.4V, 3V, 5V, or 12V), <strong>connector pin spacing</strong> (ranging from 5.0mm to 6.5mm for Figure-8 plugs), and <strong>polarity configuration</strong> (positive pin matching). Never connect a higher voltage adapter than specified on the clipper\'s label.',
+            excerpt: 'Choose a replacement clipper charger from the exact model and input label, matching voltage, current type, polarity, and connector instead of relying on physical fit.',
+            quickAnswer: 'Find the exact Kemei or Moser model, input label, and manufacturer manual, then match AC or DC type, voltage, minimum current, polarity, and the connector dimensions. Physical fit alone does not establish compatibility. Do not use a different voltage or polarity or force a connector; ask a qualified service provider when the label is missing.',
             content: `<p>A hair clipper is a vital part of daily grooming. However, when the original charger for a clipper (such as Kemei or German-engineered Moser models) is lost or damaged, many users make the mistake of buying any replacement adapter that physically fits the charging port. This critical error frequently leads to fried internal circuit boards and swollen batteries due to incorrect voltage levels or reversed electrical polarity. In the Egyptian market, where generic chargers and counterfeit clippers are common, understanding the technical specifications of your device is essential. Here is the comprehensive guide to selecting the correct replacement charger without destroying your clipper.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -195,7 +195,7 @@ export const hair_clipper_charger_kemei_moser_voltage_guide: BlogArticle = {
             faq: [
                 {
                     question: 'Can I charge a 3V hair clipper with a 5V smartphone charger?',
-                    answer: 'No, this is highly dangerous unless you use a specialty step-down cable. Applying 5V directly to a 3V circuit overloads the internal battery and charging components, causing overheating and board failure.'
+                    answer: 'Do not use a 5V adapter unless the exact clipper manual and model label explicitly support it. A mismatch in voltage, AC or DC type, polarity, or connector can cause heat or damage. Use the specified source or a replacement confirmed by the manufacturer or a qualified service provider.'
                 },
                 {
                     question: 'Why does my clipper fail to charge with my laptop\'s USB-C charger?',

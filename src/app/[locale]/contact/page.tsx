@@ -12,10 +12,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale } = await params;
     const isArabic = locale === 'ar';
 
-    const title = isArabic ? 'اتصل بنا | كايرو فولت' : 'Contact Us | Cairo Volt';
+    const title = isArabic ? 'اتصل بنا | كايرو فولت' : 'Contact Us | CairoVolt';
     const description = isArabic
-        ? 'تواصل معنا عبر واتساب أو الهاتف. نحن هنا لمساعدتك في اختيار أفضل إكسسوارات الموبايل من انكر و Joyroom في مصر.'
-        : 'Contact us via WhatsApp or phone. We are here to help you choose the best mobile accessories from Anker and Joyroom in Egypt.';
+        ? 'تواصل مع كايرو فولت عبر واتساب أو الهاتف أو البريد للمساعدة في اختيار إكسسوارات انكر وجوي روم ومتابعة الطلب أو الضمان.'
+        : 'Contact CairoVolt by WhatsApp, phone, or email for help choosing Anker and Joyroom accessories or following up on an order or warranty case.';
 
     return {
         title: { absolute: title },
@@ -45,12 +45,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 height: 630,
                 alt: isArabic ? 'كايرو فولت - اتصل بنا' : 'CairoVolt - Contact Us',
             }],
-        },
-        other: {
-            'geo.region': 'EG',
-            'geo.placename': isArabic ? 'القاهرة، مصر' : 'Cairo, Egypt',
-            'geo.position': '30.0444;31.2357',
-            'ICBM': '30.0444, 31.2357',
         },
     };
 }

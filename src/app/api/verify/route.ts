@@ -1,7 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
-import { generateWarrantyCode, isValidSerialFormat, getProductName } from '@/lib/serial-generator';
+import {
+    extractSerialVariable,
+    generateWarrantyCode,
+    getProductName,
+    isValidSerialFormat,
+    reconstructSerial,
+} from '@/lib/serial-generator';
 import { FieldValue } from 'firebase-admin/firestore';
+import { getClientIp } from '@/lib/request-ip';
+import { addCalendarMonths, getCairoVoltWarrantyPolicy } from '@/lib/warranty-policy';
 
 // In-memory rate limiter for verify endpoint
 const verifyRateStore = new Map<string, { count: number; resetAt: number }>();
@@ -22,32 +30,41 @@ function checkVerifyRateLimit(ip: string): boolean {
 export async function POST(request: NextRequest) {
     try {
         // Rate limiting
-        const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
-            request.headers.get('x-real-ip') || 'unknown';
+        const ip = getClientIp(request.headers);
 
         if (!checkVerifyRateLimit(ip)) {
             return NextResponse.json(
-                { valid: false, error: 'rate_limited', message: 'محاولات كثيرة. حاول بعد ساعة.' },
+                { valid: false, recordFound: false, error: 'rate_limited', message: 'محاولات كثيرة. حاول بعد ساعة.' },
                 { status: 429 }
             );
         }
 
-        const body = await request.json();
-        const rawSerial = (body.serial || '').trim();
+        let body: unknown;
+        try {
+            body = await request.json();
+        } catch {
+            return NextResponse.json(
+                { valid: false, recordFound: false, error: 'invalid_request', message: 'بيانات الطلب غير صحيحة.' },
+                { status: 400 },
+            );
+        }
+        const serialValue = body && typeof body === 'object' && 'serial' in body
+            ? (body as { serial?: unknown }).serial
+            : undefined;
+        const rawSerial = typeof serialValue === 'string' ? serialValue.trim() : '';
         
-        // Normalize: any case combination → canonical CV-1XXXXXm313
-        // Accepts: cv-1xxxxxm313, CV-1XXXXXM313, cV-1XxXxXM313, etc.
+        // Normalize valid case variants to the canonical stored form without
+        // accepting a different prefix or suffix.
         const normalizeSerial = (s: string): string => {
-            if (s.length !== 13) return s;
-            const variable = s.substring(4, 9).toUpperCase(); // 5 random chars → UPPERCASE
-            return `CV-1${variable}m313`;
+            if (!isValidSerialFormat(s)) return s;
+            return reconstructSerial(extractSerialVariable(s));
         };
         const serial = normalizeSerial(rawSerial);
 
         // Validate format
         if (!serial || !isValidSerialFormat(serial)) {
             return NextResponse.json(
-                { valid: false, error: 'invalid_format', message: 'رقم السيريال غير صحيح.' },
+                { valid: false, recordFound: false, error: 'invalid_format', message: 'رقم السيريال غير صحيح.' },
                 { status: 400 }
             );
         }
@@ -60,20 +77,23 @@ export async function POST(request: NextRequest) {
 
         if (snapshot.empty) {
             return NextResponse.json(
-                { valid: false, error: 'serial_not_found', message: 'رقم السيريال غير موجود في قاعدة البيانات.' },
+                { valid: false, recordFound: false, error: 'serial_not_found', message: 'رقم السيريال غير موجود في قاعدة البيانات.' },
                 { status: 404 }
             );
         }
 
         const doc = snapshot.docs[0];
         const data = doc.data();
-        const userAgent = request.headers.get('user-agent') || 'unknown';
 
         // Already activated
         if (data.status === 'activated') {
-            const productInfo = data.productId ? getProductName(data.productId) : { ar: 'منتج CairoVolt', en: 'CairoVolt Product' };
+            const productInfo = data.productId ? getProductName(data.productId) : { ar: 'منتج كايرو فولت', en: 'CairoVolt Product' };
+            const warrantyPolicy = getCairoVoltWarrantyPolicy(data.productId);
             return NextResponse.json({
                 valid: true,
+                recordFound: true,
+                recordIssuer: 'CairoVolt',
+                verificationScope: 'Confirms a CairoVolt-issued serial and warranty record; does not certify manufacturer authenticity.',
                 alreadyActivated: true,
                 productId: data.productId || 'universal',
                 productName: productInfo.ar,
@@ -81,24 +101,30 @@ export async function POST(request: NextRequest) {
                 warrantyCode: data.warrantyCode,
                 activatedAt: data.activatedAt?.toDate?.()?.toISOString() || data.activatedAt,
                 warrantyExpiresAt: data.warrantyExpiresAt?.toDate?.()?.toISOString() || data.warrantyExpiresAt,
+                warrantyDurationMonths: data.warrantyDurationMonths
+                    ?? (data.warrantyExpiresAt ? null : warrantyPolicy.months),
+                warrantyTermsUrl: warrantyPolicy.policyUrl,
             });
         }
 
         // Activate the serial
         const warrantyCode = generateWarrantyCode();
         const now = new Date();
-        const expiresAt = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000); // 14 days
+        const warrantyPolicy = getCairoVoltWarrantyPolicy(data.productId);
+        const expiresAt = warrantyPolicy.months
+            ? addCalendarMonths(now, warrantyPolicy.months)
+            : null;
 
         await doc.ref.update({
             status: 'activated',
             activatedAt: FieldValue.serverTimestamp(),
             warrantyCode,
             warrantyExpiresAt: expiresAt,
-            activatedUA: userAgent.substring(0, 200),
-            activatedIP: ip,
+            warrantyDurationMonths: warrantyPolicy.months,
+            warrantyTermsUrl: warrantyPolicy.policyUrl,
         });
 
-        const productInfo = data.productId ? getProductName(data.productId) : { ar: 'منتج CairoVolt', en: 'CairoVolt Product' };
+        const productInfo = data.productId ? getProductName(data.productId) : { ar: 'منتج كايرو فولت', en: 'CairoVolt Product' };
 
         // Also log the scan event for analytics
         await db.collection('warranty_scans').add({
@@ -106,27 +132,29 @@ export async function POST(request: NextRequest) {
             productId: data.productId || 'universal',
             batchId: data.batchId,
             warrantyCode,
-            userAgent: userAgent.substring(0, 200),
-            ip,
-            city: null,
             scannedAt: FieldValue.serverTimestamp(),
         });
 
         return NextResponse.json({
             valid: true,
+            recordFound: true,
+            recordIssuer: 'CairoVolt',
+            verificationScope: 'Confirms a CairoVolt-issued serial and warranty record; does not certify manufacturer authenticity.',
             alreadyActivated: false,
             productId: data.productId || 'universal',
             productName: productInfo.ar,
             productNameEn: productInfo.en,
             warrantyCode,
             activatedAt: now.toISOString(),
-            warrantyExpiresAt: expiresAt.toISOString(),
+            warrantyExpiresAt: expiresAt?.toISOString() || null,
+            warrantyDurationMonths: warrantyPolicy.months,
+            warrantyTermsUrl: warrantyPolicy.policyUrl,
         });
 
     } catch (error) {
         console.error('[Verify API] Error:', error);
         return NextResponse.json(
-            { valid: false, error: 'server_error', message: 'حدث خطأ. حاول مرة أخرى.' },
+            { valid: false, recordFound: false, error: 'server_error', message: 'حدث خطأ. حاول مرة أخرى.' },
             { status: 500 }
         );
     }

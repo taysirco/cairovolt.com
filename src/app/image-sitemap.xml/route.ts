@@ -5,6 +5,10 @@ import { logger } from '@/lib/logger';
 import { categoryDiscovery } from '@/data/category-discovery';
 import { brandData } from '@/data/brand-data';
 import { soundcoreHub } from '@/data/soundcore-hub';
+import {
+    getCanonicalProductPath,
+    resolveSitemapImageUrl,
+} from './image-sitemap-utils';
 
 const baseUrl = 'https://cairovolt.com';
 
@@ -31,8 +35,73 @@ interface Product {
     images?: ProductImage[];
 }
 
+function readProduct(value: unknown): Product | null {
+    if (!value || typeof value !== 'object') return null;
+
+    const candidate = value as Record<string, unknown>;
+    if (
+        typeof candidate.slug !== 'string'
+        || typeof candidate.brand !== 'string'
+        || typeof candidate.categorySlug !== 'string'
+    ) {
+        return null;
+    }
+
+    const images = Array.isArray(candidate.images)
+        ? candidate.images.flatMap(image => {
+            if (!image || typeof image !== 'object') return [];
+            const imageRecord = image as Record<string, unknown>;
+            return typeof imageRecord.url === 'string'
+                ? [{ url: imageRecord.url }]
+                : [];
+        })
+        : [];
+
+    return {
+        slug: candidate.slug,
+        brand: candidate.brand,
+        categorySlug: candidate.categorySlug,
+        images,
+    };
+}
+
+function mergeImages(primary: ProductImage[] = [], additional: ProductImage[] = []) {
+    const merged = new Map<string, ProductImage>();
+
+    for (const image of [...primary, ...additional]) {
+        if (typeof image?.url !== 'string') continue;
+        const key = image.url.trim();
+        if (key && !merged.has(key)) merged.set(key, image);
+    }
+
+    return [...merged.values()];
+}
+
+function getValidImageUrls(images: ProductImage[] = []) {
+    const urls = new Set<string>();
+
+    for (const image of images) {
+        const resolvedUrl = resolveSitemapImageUrl(image.url);
+        if (resolvedUrl) urls.add(resolvedUrl);
+    }
+
+    return [...urls];
+}
+
+function appendImageEntry(xml: string, pageUrl: string, imageUrls: string[]) {
+    if (imageUrls.length === 0) return xml;
+
+    let entry = `  <url>\n    <loc>${escapeXml(pageUrl)}</loc>\n`;
+    for (const imageUrl of imageUrls) {
+        entry += `    <image:image>\n      <image:loc>${escapeXml(imageUrl)}</image:loc>\n    </image:image>\n`;
+    }
+    entry += '  </url>\n';
+
+    return xml + entry;
+}
+
 export async function GET() {
-    const products: Product[] = [];
+    const products = new Map<string, Product>();
 
     // Exclude products that have permanent redirects in next.config.ts
     const redirectedSlugs = new Set([
@@ -44,7 +113,7 @@ export async function GET() {
     staticProducts
         .filter(p => !redirectedSlugs.has(p.slug))
         .forEach(product => {
-            products.push({
+            products.set(product.slug, {
                 slug: product.slug,
                 brand: product.brand,
                 categorySlug: product.categorySlug,
@@ -58,13 +127,22 @@ export async function GET() {
         if (db) {
             const snapshot = await db.collection('products').get();
             snapshot.docs.forEach(doc => {
-                const data = doc.data() as Product;
-                products.push({
-                    slug: data.slug,
-                    brand: data.brand,
-                    categorySlug: data.categorySlug,
-                    images: data.images,
-                });
+                const data = readProduct(doc.data());
+                if (!data || redirectedSlugs.has(data.slug)) return;
+
+                const existing = products.get(data.slug);
+                if (existing) {
+                    // Static catalog routing is authoritative. Firestore may
+                    // contribute additional valid images, but never an old
+                    // brand/category alias for the page URL.
+                    products.set(data.slug, {
+                        ...existing,
+                        images: mergeImages(existing.images, data.images),
+                    });
+                    return;
+                }
+
+                products.set(data.slug, data);
             });
         }
     } catch (error) {
@@ -86,62 +164,27 @@ export async function GET() {
     };
 
     for (const [collection, discovery] of Object.entries(categoryDiscovery)) {
-        const visibleItems = Object.entries(discovery.items)
+        const imageUrls = Object.entries(discovery.items)
             .filter(([href]) => visibleCategoryHrefs[collection]?.has(href))
-            .map(([, item]) => item);
+            .map(([, item]) => resolveSitemapImageUrl(`${item.imageBase}-800.webp`))
+            .filter((url): url is string => Boolean(url));
 
         for (const localePrefix of ['', '/en']) {
-            xml += `  <url>
-    <loc>${escapeXml(`${baseUrl}${localePrefix}/${collection}`)}</loc>
-`;
-            for (const item of visibleItems) {
-                xml += `    <image:image>
-      <image:loc>${escapeXml(`${baseUrl}${item.imageBase}-800.webp`)}</image:loc>
-    </image:image>
-`;
-            }
-            xml += `  </url>
-`;
+            xml = appendImageEntry(
+                xml,
+                `${baseUrl}${localePrefix}/${collection}`,
+                imageUrls,
+            );
         }
     }
 
-    for (const product of products) {
-        if (!product.images || product.images.length === 0) continue;
+    for (const product of products.values()) {
+        const productPath = getCanonicalProductPath(product);
+        const imageUrls = getValidImageUrls(product.images);
+        if (!productPath || imageUrls.length === 0) continue;
 
-        // IMPORTANT: Keep brand fully lowercase to match actual Next.js routes
-        const brandSlug = product.brand.toLowerCase();
-        const categorySlug = product.categorySlug.toLowerCase();
-        const productPath = `/${brandSlug}/${categorySlug}/${product.slug}`;
-
-        // Arabic URL entry (default locale)
-        xml += `  <url>
-    <loc>${escapeXml(`${baseUrl}${productPath}`)}</loc>
-`;
-        for (const image of product.images) {
-            const imageUrl = image.url.startsWith('http') ? image.url : `${baseUrl}${image.url}`;
-
-            xml += `    <image:image>
-      <image:loc>${escapeXml(imageUrl)}</image:loc>
-    </image:image>
-`;
-        }
-        xml += `  </url>
-`;
-
-        // English URL entry
-        xml += `  <url>
-    <loc>${escapeXml(`${baseUrl}/en${productPath}`)}</loc>
-`;
-        for (const image of product.images) {
-            const imageUrl = image.url.startsWith('http') ? image.url : `${baseUrl}${image.url}`;
-
-            xml += `    <image:image>
-      <image:loc>${escapeXml(imageUrl)}</image:loc>
-    </image:image>
-`;
-        }
-        xml += `  </url>
-`;
+        xml = appendImageEntry(xml, `${baseUrl}${productPath}`, imageUrls);
+        xml = appendImageEntry(xml, `${baseUrl}/en${productPath}`, imageUrls);
     }
 
     xml += `</urlset>`;

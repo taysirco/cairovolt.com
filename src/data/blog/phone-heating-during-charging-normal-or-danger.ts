@@ -28,11 +28,11 @@ export const phone_heating_during_charging_normal_or_danger: BlogArticle = {
             metaTitle: 'سخونة الموبايل أثناء الشحن طبيعي ولا خطر؟ | كايرو فولت',
             metaDescription: 'دليل هندسي لسخونة الموبايل وقت الشحن: الحرارة الطبيعية (35-43°م) والخطيرة (50°م+) بالأرقام. أسباب السخونة وحلول عملية لصيف مصر. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'سخونة الموبايل أثناء الشحن, حرارة الموبايل وقت الشحن طبيعي, الموبايل بيسخن وهو بيشحن, هل سخونة الموبايل خطر, شحن الموبايل في الصيف مصر, حرارة البطارية أثناء الشحن السريع, phone heating charging normal, حماية بطارية الموبايل من السخونة',
-            excerpt: 'دليلك الهندسي لمعرفة إمتى سخونة الموبايل أثناء الشحن طبيعية وإمتى لازم تقلق — بالأرقام والدرجات المئوية.',
-            quickAnswer: 'سخونة الموبايل أثناء الشحن طبيعية لو الحرارة بين 35-43°م. لو وصلت 45°م+ الموبايل هيبطّئ الشحن تلقائياً وده طبيعي. لو وصلت 50°م+ (مش قادر تمسكه)، فصل الشاحن فوراً — ده علامة على مشكلة في الشاحن أو البطارية أو الكابل. في صيف مصر (42-48°م)، اشحن في مكان مكيّف أو ظل.',
+            excerpt: 'دليل لفهم سخونة الموبايل أثناء الشحن، ورسائل الحماية، ومتى توقف الاستخدام وفق تعليمات الشركة بدلاً من حدود عامة للسطح.',
+            quickAnswer: 'قد يسخن الهاتف أثناء الشحن، لكن حرارة السطح لا تساوي حرارة الخلية ولا يوجد حد واحد لكل الموديلات. اتبع نطاق التشغيل وتنبيهات الشركة، وفر تهوية وأبعده عن الشمس. افصل الشاحن عند حرارة غير معتادة أو انتفاخ أو رائحة أو تلف، واطلب فحصاً إذا تكرر الإغلاق أو البطء في ظروف عادية.',
             content: `<p>الساعة 3 العصر. يوليو. القاهرة. إنت في ميكروباص مكيّفه مكسورة. الموبايل على 5% وبتوصّل الشاحن. بعد 10 دقايق الموبايل سخن لدرجة إنك بتقلبه بين إيديك زي ما بتقلب سندوتش فول ساخن طالع من الفرن. في راسك سؤال واحد: هل ده طبيعي ولا الموبايل على وشك ينفجر؟</p>
 
-<p>الإجابة القصيرة: <strong>في 90% من الحالات، ده طبيعي</strong>. بس الـ 10% المتبقية هي اللي ممكن تكلّفك موبايل جديد — أو في الحالات النادرة جداً، حروق. في المقال ده هنقولك بالضبط — بالدرجات المئوية والفيزياء — إمتى السخونة عادية وإمتى لازم تفصل الشاحن وتجري.</p>
+<p>الإجابة القصيرة: <strong>الدفء الخفيف أثناء الشحن سلوك متوقع في أغلب الموبايلات</strong>. بس الحالات الأندر هي اللي ممكن تكلّفك موبايل جديد — أو في الحالات النادرة جداً، إصابة. في المقال ده هنشرح — بالفيزياء وبعلامات التحذير اللي الشركات المصنّعة نفسها بتنبّه عليها — إمتى السخونة عادية وإمتى لازم تفصل الشاحن فوراً.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -100,7 +100,7 @@ export const phone_heating_during_charging_normal_or_danger: BlogArticle = {
 
 <h2>الشحن السريع والسخونة — الحقيقة بالأرقام لكل براند</h2>
 
-<p>الشحن السريع بيزوّد الحرارة — ده منطقي عشان التيار أعلى. بس كل براند بيتعامل مع الموضوع بشكل مختلف:</p>
+<p>الشحن السريع بيزوّد الحرارة — ده منطقي عشان التيار أعلى. بس كل براند بيتعامل مع الموضوع بشكل مختلف. الأرقام دي تقديرات تقريبية مبنية على قدرات الشحن المعلنة لكل موديل وسلوك بروتوكول الشحن بتاعه، والقيم الفعلية بتختلف حسب الجهاز والكابل والظروف:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -225,7 +225,7 @@ export const phone_heating_during_charging_normal_or_danger: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن آمنة على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        شواحن GaN من <a href="/anker/wall-chargers" style="color:#166534;font-weight:600;">انكر</a> بتشحن بكفاءة 93-95% — يعني حرارة أقل على موبايلك. كلها <strong>أصلية بضمان 18 شهر</strong> + توصيل لكل المحافظات + دعم واتساب 24/7.
+        راجع صفحات شواحن GaN من <a href="/anker/wall-chargers" style="color:#166534;font-weight:600;">انكر</a> لمقارنة كفاءة ومواصفات كل موديل؛ حرارة الهاتف تتأثر أيضاً بالجهاز والكابل والجو. شروط ضمان كايرو فولت وتقدير التوصيل موضحان قبل الطلب.
     </p>
 </div>
 
@@ -238,22 +238,22 @@ export const phone_heating_during_charging_normal_or_danger: BlogArticle = {
     </ul>
 </div>`,
             faq: [
-                { question: 'هل سخونة الموبايل أثناء الشحن السريع طبيعية؟', answer: 'أيوا، في حدود 35-43°م ده طبيعي تماماً. الشحن السريع (18-45W) بيمرر تيار أعلى = حرارة أكتر وده متوقع فيزيائياً. الموبايل عنده دايرة حماية بتبطّئ الشحن لو الحرارة تعدت 43-45°م — وده برضو طبيعي ومحدش محتاج يقلق منه.' },
-                { question: 'إيه أقصى حرارة آمنة للموبايل أثناء الشحن بالأرقام؟', answer: 'حرارة السطح لحد 43°م = آمن تماماً. من 43-45°م = الموبايل هيبطّئ الشحن (طبيعي). من 45-50°م = الأفضل تفصل الشاحن. فوق 50°م = فصل فوراً لأن البطارية الداخلية ممكن تكون وصلت 60°م وده بيبدأ يسبب تلف دائم في الخلايا.' },
-                { question: 'هل شاحن GaN بيسخّن الموبايل أقل من الشاحن العادي؟', answer: 'أيوا. شاحن GaN كفاءة التحويل فيه 93-95% مقابل 80-85% للشاحن التقليدي (Silicon). ده معناه إن 5-7% فقط من الطاقة بتتحول لحرارة في شاحن GaN مقابل 15-20% في الشاحن العادي. النتيجة: الشاحن نفسه أبرد والموبايل بيستقبل طاقة أنظف بحرارة أقل.' },
-                { question: 'الموبايل بينطفي لوحده أثناء الشحن — هل ده خطر؟', answer: 'ده ممكن يكون إما حماية طبيعية (الموبايل وصل لحد حراري فقطع نفسه) أو علامة على مشكلة. لو بيحصل مرة في حرارة عالية = غالباً حماية. لو بيتكرر في درجة حرارة عادية = المشكلة في البطارية أو دايرة الشحن — روح صيانة معتمدة وغيّر البطارية لو عدت سنتين.' },
+                { question: 'هل سخونة الموبايل أثناء الشحن السريع طبيعية؟', answer: 'قد تكون سخونة خفيفة متوقعة، لكن لا يمكن تأكيد الأمان من رقم سطح عام. راقب تنبيه الجهاز ونطاق التشغيل في دليل الشركة، وأوقف الشحن عند حرارة غير معتادة أو انتفاخ أو رائحة أو تلف.' },
+                { question: 'إيه أقصى حرارة آمنة للموبايل أثناء الشحن بالأرقام؟', answer: 'استخدم حدود الشركة المصنّعة للموديل، لأن قياس السطح يختلف عن حرارة البطارية والحساسات. لا تعتمد على جدول درجات عام؛ افصل الجهاز واتركه يبرد إذا ظهر تحذير أو أصبح ساخناً بصورة غير معتادة.' },
+                { question: 'هل شاحن GaN بيسخّن الموبايل أقل من الشاحن العادي؟', answer: 'ليس بالضرورة. GaN قد يحسن تصميم بعض الشواحن، لكن حرارة الهاتف تعتمد على كفاءة الموديل والبروتوكول والكابل والبطارية والجو. قارن قياسات مستقلة للموديلين إن توفرت ولا تعمم نسب كفاءة.' },
+                { question: 'الموبايل بينطفي لوحده أثناء الشحن — هل ده خطر؟', answer: 'قد يكون إجراء حماية أو علامة عطل، ولا يمكن تشخيصه من مرة واحدة. افصل الشاحن واترك الجهاز يبرد، وإذا تكرر في ظروف عادية أو ظهر انتفاخ أو رائحة أو تلف فاطلب فحصاً مؤهلاً وفق إرشادات الشركة.' },
             ],
         },
         en: {
             title: 'Phone Heating During Charging — When to Worry and When It\'s Normal',
             metaTitle: 'Phone Hot While Charging: Normal or Dangerous? | CairoVolt',
-            metaDescription: 'Engineering guide to phone heating during charging: normal range (35-43°C) vs danger zone (50°C+) with exact numbers. Causes, solutions, and Egypt summer tips.',
+            metaDescription: 'Guide to phone heating during charging: follow model warnings, review charger, cable, apps, ventilation, and know when to stop and seek service.',
             keywords: 'phone heating during charging normal, phone hot while charging dangerous, phone temperature while charging, fast charging phone heat, phone overheating charging Egypt summer, safe phone charging temperature, battery heating causes solutions, phone charging heat danger signs',
-            excerpt: 'Your engineering guide to knowing when phone heating during charging is normal and when you should worry — with exact temperatures in Celsius.',
-            quickAnswer: 'Phone heating during charging is normal if temperature stays between 35-43°C. At 45°C+, the phone will automatically slow charging — this is normal. At 50°C+ (too hot to hold), disconnect the charger immediately — this indicates a problem with the charger, battery, or cable. In Egypt\'s summer (42-48°C ambient), charge in air-conditioned spaces or shade.',
+            excerpt: 'A guide to charging warmth, protection messages, and when to stop using equipment based on manufacturer guidance rather than universal surface-temperature cutoffs.',
+            quickAnswer: 'A phone may warm while charging, but surface temperature is not cell temperature and no cutoff applies to every model. Follow the manufacturer\'s operating range and alerts, provide ventilation, and avoid direct sun. Disconnect for unusual heat, swelling, odor, or damage, and seek inspection if shutdowns or throttling recur in ordinary conditions.',
             content: `<p>It's 3 PM. July. Cairo. You're in a microbus with a broken AC. Phone at 5%, and you plug in the charger. Ten minutes later, the phone is so hot you're flipping it between your hands like a fresh sandwich straight from the oven. One question in your mind: is this normal, or is the phone about to explode?</p>
 
-<p>The short answer: <strong>in 90% of cases, it's normal</strong>. But the remaining 10% could cost you a new phone — or in extremely rare cases, burns. In this article, we'll tell you exactly — with degrees Celsius and physics — when heating is normal and when you need to unplug and run.</p>
+<p>The short answer: <strong>mild warmth while charging is expected behavior for most phones</strong>. The cases you need to catch are the rarer ones that can cost you a new phone — or, in very rare situations, an injury. In this article we'll break down the physics of charging heat, the warning signs manufacturers say require action, and when to unplug the charger and seek qualified service.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -321,7 +321,7 @@ export const phone_heating_during_charging_normal_or_danger: BlogArticle = {
 
 <h2>Fast Charging and Heat — Real Numbers for Every Brand</h2>
 
-<p>Fast charging increases heat — this makes sense because current is higher. But each brand handles it differently:</p>
+<p>Fast charging increases heat — this makes sense because current is higher. But each brand handles it differently. The figures below are approximate estimates based on each model's advertised charging power and how its charging protocol typically behaves; actual values vary with the device, cable, and conditions:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -446,7 +446,7 @@ export const phone_heating_during_charging_normal_or_danger: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Safe Chargers at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        GaN chargers from <a href="/en/anker/wall-chargers" style="color:#166534;font-weight:600;">Anker</a> charge at 93-95% efficiency — meaning less heat on your phone. All products are <strong>genuine with 18-month warranty</strong> + delivery to all governorates + 24/7 WhatsApp support.
+        Compare the model-specific efficiency and specifications listed for <a href="/en/anker/wall-chargers" style="color:#166534;font-weight:600;">Anker</a> GaN chargers; phone temperature also depends on the device, cable, load, and ambient conditions. CairoVolt's written warranty terms and delivery estimate are shown before ordering.
     </p>
 </div>
 
@@ -459,10 +459,10 @@ export const phone_heating_during_charging_normal_or_danger: BlogArticle = {
     </ul>
 </div>`,
             faq: [
-                { question: 'Is phone heating during fast charging normal?', answer: 'Yes, within the 35-43°C range it\'s completely normal. Fast charging (18-45W) pushes higher current = more heat, which is expected physics. Your phone has built-in protection circuits that slow charging when temperature exceeds 43-45°C — this is also normal and nothing to worry about.' },
-                { question: 'What\'s the maximum safe phone temperature during charging?', answer: 'Surface temperature up to 43°C = completely safe. From 43-45°C = phone will throttle charging (normal behavior). From 45-50°C = best to unplug the charger. Above 50°C = unplug immediately because the internal battery could be at 60°C, which starts causing permanent cell damage.' },
-                { question: 'Do GaN chargers produce less heat on the phone than regular chargers?', answer: 'Yes. GaN chargers achieve 93-95% conversion efficiency compared to 80-85% for traditional silicon chargers. This means only 5-7% of energy converts to heat in a GaN charger versus 15-20% in a regular one. Result: the charger itself runs cooler, and the phone receives cleaner power with less waste heat.' },
-                { question: 'My phone shuts down while charging — is this dangerous?', answer: 'This could be either normal protection (phone reached its thermal limit and shut itself down) or a sign of a problem. If it happens once in extreme heat = likely protection. If it repeats at normal room temperature = the issue is with the battery or charging circuit — visit an authorized service center and replace the battery if it\'s over two years old.' },
+                { question: 'Is phone heating during fast charging normal?', answer: 'Mild warmth can be expected, but a general surface number cannot prove safety. Follow the model\'s operating range and alerts, and stop charging for unusual heat, swelling, odor, or damage.' },
+                { question: 'What\'s the maximum safe phone temperature during charging?', answer: 'Use the manufacturer limits for the exact model because surface readings differ from battery and sensor temperatures. Do not rely on a universal table; disconnect and let it cool if an alert appears or it becomes unusually hot.' },
+                { question: 'Do GaN chargers produce less heat on the phone than regular chargers?', answer: 'Not necessarily. GaN can enable efficient designs, but phone temperature depends on the exact adapter, protocol, cable, battery, and environment. Compare independent measurements for the models if available rather than general efficiency percentages.' },
+                { question: 'My phone shuts down while charging — is this dangerous?', answer: 'It may be a protection response or a fault and cannot be diagnosed from one event. Disconnect and let it cool; if it recurs in ordinary conditions or there is swelling, odor, or damage, seek qualified service under the manufacturer guidance.' },
             ],
         }
     }

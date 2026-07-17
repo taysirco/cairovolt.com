@@ -2,23 +2,17 @@ import type { ProductDetail } from './_types';
 export const anker_zolo_usb_c_braided_cable_detail: ProductDetail = {
     aiTldr: {
   "en": [
-    "140W PD 3.1 charging — full speed for a 16-inch MacBook Pro.",
-    "240W-grade 8-core copper wire plus a graphene strip runs cool.",
-    "Cairo lab: held 138W to a MacBook, peaked at 41.5°C.",
-    "Charges iPhone 17, Galaxy S26, iPad Pro and Steam Deck.",
-    "✅ CairoVolt: USB-IF certified, 10,000+ bends, 24-month warranty, COD Egypt."
+    "USB-C PD 3.1 output is listed up to 140W with compatible equipment.",
+    "The manufacturer lists an 8-core construction, graphene strip and E-marker; temperature still depends on load and conditions.",
+
+    "Check the device, charger and cable power requirements before use."
   ],
   "ar": [
-    "شحن 140 واط PD 3.1 — سرعة كاملة لماك بوك برو 16 بوصة.",
-    "سلك 8 نوى بمعمار 240 واط وشريحة جرافين بيفضل بارد.",
-    "معمل القاهرة: ثبت 138 واط لماك بوك، أقصى حرارة 41.5°م.",
-    "بيشحن ايفون 17 وجالاكسي S26 وايباد برو وستيم ديك.",
-    "✅ CairoVolt: معتمد USB-IF، 10,000+ ثنية، ضمان 24 شهر، دفع عند الاستلام."
+    "خرج USB-C PD 3.1 مدون حتى 140 واط مع المعدات المتوافقة.",
+    "تذكر انكر تصميمًا بثماني نوى وشريط جرافين وشريحة E-marker؛ وتظل الحرارة مرتبطة بالحمل والظروف.",
+
+    "راجع متطلبات قدرة الجهاز والشاحن والكابل قبل الاستخدام."
   ]
-},
-    localContext: {
-  "en": "In Cairo's 40°C summers, cheap USB-C cables overheat and throttle a 96W MacBook Pro down to 45W within 20 minutes. The Anker Zolo's 240W-grade 8-core wire and graphene conductive strip carry 140W with huge headroom, so our KM003C meter showed a steady 41.5°C and zero throttling across a 90-minute charge in Nasr City.",
-  "ar": "في صيف القاهرة و40 درجة، الكابلات الرخيصة بتسخن وبتنزّل شحن ماك بوك برو من 96 واط لـ 45 واط في خلال 20 دقيقة. سلك أنكر زولو 8 نوى بمعمار 240 واط وشريحة الجرافين بيوصلوا 140 واط بهامش أمان كبير، فميتر الـ KM003C بتاعنا سجّل 41.5 درجة ثابتة وصفر throttling في شحن 90 دقيقة في مدينة نصر."
 },
     specifications: {
   "Product Type": {
@@ -26,8 +20,8 @@ export const anker_zolo_usb_c_braided_cable_detail: ProductDetail = {
     "ar": "كابل شحن سريع USB-C إلى USB-C، مضفر بالنايلون"
   },
   "Total Output": {
-    "en": "140W max (PD 3.1 EPR, 28V/5A) on 240W-grade wire",
-    "ar": "140 واط أقصى (PD 3.1 EPR، 28 فولت/5 أمبير) على سلك بمعمار 240 واط"
+    "en": "Up to 140W (PD 3.1 EPR, 28V/5A) with compatible equipment",
+    "ar": "حتى 140 واط (PD 3.1 EPR، 28 فولت/5 أمبير) مع المعدات المتوافقة"
   },
   "Technology": {
     "en": "8-core copper wire + graphene conductive strip, E-marker chip, PD 3.1 EPR",
@@ -50,19 +44,8 @@ export const anker_zolo_usb_c_braided_cable_detail: ProductDetail = {
     "ar": "42 جم"
   },
   "Safety": {
-    "en": "USB-IF Certified, E-marker over-current protection, 10,000+ bend lifespan, 24-month warranty",
-    "ar": "معتمد USB-IF، حماية E-marker من زيادة التيار، عمر 10,000+ دورة ثني، ضمان 24 شهر"
+    "en": "Verify USB-IF documentation for the delivered model; E-marker and bend-test figures are manufacturer-listed; review current warranty terms",
+    "ar": "يُراجع توثيق USB-IF للموديل المستلم؛ وشريحة E-marker ورقم اختبار الثني مدونان من انكر؛ راجع شروط الضمان الحالية"
   }
 },
-    labVerified: {
-        result: {
-  "en": "Delivered a stable 138W to a 16-inch MacBook Pro; connector peaked at 41.5°C.",
-  "ar": "وصّل 138 واط ثابتة لماك بوك برو 16 بوصة؛ الموصل سخّن لحد 41.5°م."
-},
-        conditions: {
-  "en": "Measured with a Charger Lab KM003C inline meter, ambient 33°C, February 2026.",
-  "ar": "قياس بميتر Charger Lab KM003C على الخط، حرارة محيطة 33°م، فبراير 2026."
-},
-        expertName: 'Eng. Ahmed Medhat'
-    }
 };

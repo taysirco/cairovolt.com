@@ -30,7 +30,7 @@ export const chargers_hajj_umrah_saudi_arabia_essentials: BlogArticle = {
             keywords: 'شاحن للحج, باور بانك للعمرة, محول كهرباء السعودية, شحن الموبايل في مكة, باور بانك مسموح على الطيارة, ملحقات السفر للسعودية, شاحن للسفر, حقيبة العمرة, شحن في منى وعرفات',
             excerpt: 'دليل هندسي لكل ملحقات الشحن اللي محتاجها في الحج أو العمرة: باور بانك يتقبل على الطيارة، محوّل للفيشة السعودية، وخطة شحن في منى وعرفات.',
             quickAnswer: 'المسافر للحج أو العمرة محتاج 3 حاجات أساسية: باور بانك 20,000mAh (72Wh — أقل من حد الطيران 100Wh)، محوّل فيشة من Type C/F المصري لـ Type G السعودي (3 سنون)، وشاحن GaN صغير 30W يشحن الموبايل في أقل من ساعة. الباور بانك لازم في شنطة اليد — مش الشنطة المشحونة.',
-            content: `<p>رحلة الحج أو العمرة مش بس رحلة روحانية — هي كمان تحدي لوجستي حقيقي. يوم عرفات وحده ممكن تكون بعيد عن أي مصدر كهرباء <strong>لأكتر من 18 ساعة</strong>. وفي نفس الوقت، الموبايل بقى ضرورة مش رفاهية: تطبيقات الإرشاد (مناسكنا، الحج الذكي)، خرائط Google للتنقل بين المشاعر، مكالمات الفيديو مع الأهل، وتصوير لحظات مش هتتكرر.</p>
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>رحلة الحج أو العمرة مش بس رحلة روحانية — هي كمان تحدي لوجستي حقيقي. يوم عرفات وحده ممكن تكون بعيد عن أي مصدر كهرباء <strong>لأكتر من 18 ساعة</strong>. وفي نفس الوقت، الموبايل بقى ضرورة مش رفاهية: تطبيقات الإرشاد (مناسكنا، الحج الذكي)، خرائط Google للتنقل بين المشاعر، مكالمات الفيديو مع الأهل، وتصوير لحظات مش هتتكرر.</p>
 
 <p>المشكلة: <strong>حرارة مكة في موسم الحج بتوصل 50°م</strong>، والبطارية بتنزل ضعف سرعتها المعتادة في الحر. لو مجهّزتش صح، ممكن تلاقي نفسك بموبايل ميت في أهم يوم في حياتك.</p>
 
@@ -269,7 +269,7 @@ export const chargers_hajj_umrah_saudi_arabia_essentials: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جهّز حقيبتك من كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانك أصلي</a> مسموح على الطيارة + <a href="/anker/wall-chargers" style="color:#166534;font-weight:600;">شواحن GaN</a> سريعة + <a href="/anker/cables" style="color:#166534;font-weight:600;">كابلات USB-C</a> متينة. <strong>أصلي بضمان 18 شهر</strong> + توصيل لكل المحافظات قبل سفرك.
+        تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">الباور بانك</a> و<a href="/anker/wall-chargers" style="color:#166534;font-weight:600;">شواحن GaN</a> و<a href="/anker/cables" style="color:#166534;font-weight:600;">كابلات USB-C</a>. تحقق من قواعد شركة الطيران للموديل والطاقة Wh، وراجع الضمان وخيارات الشحن لعنوانك وموعد السفر.
     </p>
 </div>
 
@@ -295,7 +295,7 @@ export const chargers_hajj_umrah_saudi_arabia_essentials: BlogArticle = {
             keywords: 'hajj charger, umrah power bank, Saudi Arabia plug adapter, charging phone in Makkah, power bank allowed on plane Saudi, travel accessories Saudi Arabia, charging in Mina Arafat, pilgrimage phone essentials',
             excerpt: 'Engineering guide to all charging accessories needed for Hajj or Umrah: airline-approved power banks, Saudi plug adapters, and a charging strategy for Mina and Arafat.',
             quickAnswer: 'Travelers to Hajj or Umrah need 3 essentials: a 20,000mAh power bank (72Wh — well under the 100Wh airline limit), a plug adapter from Type C/F (Egyptian) to Type G (Saudi/British 3-pin), and a compact 30W GaN charger for fast hotel charging. The power bank must be in your carry-on bag — never in checked luggage.',
-            content: `<p>A Hajj or Umrah trip isn't just a spiritual journey — it's a real logistical challenge. On the Day of Arafat alone, you could be away from any power source for <strong>over 18 hours</strong>. Yet your phone has become essential, not optional: guidance apps (Manasikana, Smart Hajj), Google Maps for navigating between holy sites, video calls with family, and capturing once-in-a-lifetime moments.</p>
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>A Hajj or Umrah trip isn't just a spiritual journey — it's a real logistical challenge. On the Day of Arafat alone, you could be away from any power source for <strong>over 18 hours</strong>. Yet your phone has become essential, not optional: guidance apps (Manasikana, Smart Hajj), Google Maps for navigating between holy sites, video calls with family, and capturing once-in-a-lifetime moments.</p>
 
 <p>The problem: <strong>Makkah temperatures during Hajj season reach 50°C</strong>, and batteries drain at nearly double their normal rate in extreme heat. Without proper preparation, you could find yourself with a dead phone on the most important day of your life.</p>
 
@@ -524,7 +524,7 @@ export const chargers_hajj_umrah_saudi_arabia_essentials: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Prepare Your Kit at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Genuine power banks</a> allowed on planes + <a href="/en/anker/wall-chargers" style="color:#166534;font-weight:600;">GaN fast chargers</a> + <a href="/en/anker/cables" style="color:#166534;font-weight:600;">durable USB-C cables</a>. <strong>Genuine with 18-month warranty</strong> + delivery to all governorates before your trip.
+        Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">power banks</a>, <a href="/en/anker/wall-chargers" style="color:#166534;font-weight:600;">GaN chargers</a>, and <a href="/en/anker/cables" style="color:#166534;font-weight:600;">USB-C cables</a>. Check the airline's rules for the exact model and Wh rating, plus written warranty and delivery estimate for your address and travel date.
     </p>
 </div>
 
@@ -537,7 +537,7 @@ export const chargers_hajj_umrah_saudi_arabia_essentials: BlogArticle = {
     </ul>
 </div>`,
             faq: [
-                { question: 'Are power banks allowed on flights to Saudi Arabia?', answer: 'Yes, with two conditions: they must be in your carry-on bag (never in checked luggage), and must be under 100Wh (approximately 27,000mAh). A 20,000mAh power bank (72Wh) is allowed without any special approval on all airlines including Saudia, flynas, and EgyptAir.' },
+                { question: 'Are power banks allowed on flights to Saudi Arabia?', answer: 'Rules depend on the operating airline, authority, itinerary, battery condition, quantity, and watt-hour label. Check the exact model and current carrier guidance before each trip, including carry-on placement, terminal protection, and whether prior approval is required; a 20,000mAh label alone does not guarantee acceptance.' },
                 { question: 'Do I need a plug adapter in Saudi Arabia?', answer: 'Yes. Saudi Arabia uses Type G sockets (3 rectangular pins, same as UK plugs). Egypt uses Type C/F (2 round pins). You need a simple plug adapter — not a voltage converter, since both countries use 220V.' },
                 { question: 'What is the best power bank size for Hajj?', answer: '20,000mAh is ideal — it provides 4 full charges for an iPhone 16, is only 72Wh (well under the 100Wh airline limit), and is lightweight enough for extensive walking between holy sites. A 10,000mAh might not last the full Day of Arafat (18+ hours away from power).' },
                 { question: 'Are there charging outlets at the Grand Mosque or Prophet\'s Mosque?', answer: 'There are some outlets in columns and walls, but they are extremely limited compared to the number of worshippers. Don\'t rely on them — always carry a power bank. In Mina and Arafat, outlets are even scarcer.' },

@@ -17,7 +17,7 @@ export const soundcore_liberty_3_pro = {
             { id: "img_1", url: "/products/anker/soundcore-liberty-3-pro/soundcore-liberty-3-pro-main-view-cairovolt.webp", alt: "Soundcore Liberty 3 Pro A3952 main view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/soundcore-liberty-3-pro/soundcore-liberty-3-pro-features-angle-cairovolt.webp", alt: "سماعة ساوندكور Liberty 3 Pro A3952 features angle - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/anker/soundcore-liberty-3-pro/soundcore-liberty-3-pro-specifications-detail-cairovolt.webp", alt: "Soundcore Liberty 3 Pro A3952 specifications detail - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/soundcore-liberty-3-pro/soundcore-liberty-3-pro-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور Liberty 3 Pro A3952 retail box authentic - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+ { id: "img_4", url: "/products/anker/soundcore-liberty-3-pro/soundcore-liberty-3-pro-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور Liberty 3 Pro A3952 retail box and model details - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/anker/soundcore-liberty-3-pro/soundcore-liberty-3-pro-in-use-lifestyle-cairovolt.webp", alt: "Soundcore Liberty 3 Pro A3952 in use lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_6", url: "/products/anker/soundcore-liberty-3-pro/soundcore-liberty-3-pro-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور Liberty 3 Pro A3952 size comparison - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_7", url: "/products/anker/soundcore-liberty-3-pro/soundcore-liberty-3-pro-accessories-included-cairovolt.webp", alt: "Soundcore Liberty 3 Pro A3952 accessories included - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
@@ -29,92 +29,70 @@ export const soundcore_liberty_3_pro = {
 
     translations: {
         en: {
-            name: "Soundcore Liberty 3 Pro | 10.6mm ACAA 2.0 Dual-Driver | HearID ANC | LDAC | Wireless Charging | 32h | 18-Month Warranty",
-            shortDescription: "10.6mm ACAA 2.0 Coaxial Dual-Driver (Dynamic + Balanced Armature) | HearID Personalized ANC ~30dB | LDAC Hi-Res | BT 5.2 Multipoint | 6h/8h Earbuds — 24h/32h Total | Wireless Charging Case | Fusion Comfort (4 ear tips + wings) | IPX4 | Soundcore App",
+            name: "Soundcore Liberty 3 Pro | 10.6mm ACAA 2.0 Dual-Driver | HearID ANC | LDAC | Wireless Charging | 32h",
+            shortDescription: "10.6mm ACAA 2.0 Coaxial Dual-Driver | Manufacturer-Listed HearID ANC | LDAC on Compatible Android Devices | BT 5.2 Multipoint | Rated Battery Examples | Wireless Charging Case | IPX4",
             description: `<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-3">10.6mm ACAA 2.0 Coaxial Dual-Driver: Two Drivers, One Axis</h2>
-        <p class="text-gray-700 leading-relaxed">The ACAA 2.0 (Astria Coaxial Acoustic Architecture) places a 10.6mm dynamic driver and a balanced armature on the same axis. The dynamic driver handles bass and mids below 2kHz, while the balanced armature takes over treble above 2kHz. This physical separation means bass never muddies treble — a problem that plagues every single-driver earbud at any price. The result: instrument separation in orchestral music, clear vocals over basslines, and guitar harmonics that don't get lost in the mix.</p>
-        <p class="text-gray-700 leading-relaxed">LDAC codec support streams at up to 990kbps for Hi-Res wireless audio on Android devices. BT 5.2 with multipoint connects phone + laptop simultaneously (note: multipoint disabled when LDAC is active). The wireless charging case supports any Qi pad — drop it on your nightstand and forget about cables. 6h earbuds with ANC on (8h off), 24h/32h total. 15-minute fast charge = 3 hours playback.</p>
+        <p class="text-gray-700 leading-relaxed">The ACAA 2.0 architecture places a listed 10.6mm dynamic driver and balanced armature on a common axis. Separate drivers are a hardware design choice, not a guarantee of preferred sound, fixed instrument separation or absence of distortion. Evaluate the fit, app EQ and source codec for your listening preferences.</p>
+        <p class="text-gray-700 leading-relaxed">LDAC requires a compatible Android source and settings; multipoint availability can change with codec mode and firmware. Confirm Qi compatibility for the charging pad. Battery and fast-charge figures are manufacturer examples under stated volume, feature and temperature conditions, so actual time varies.</p>
     </section>
     <section>
         <h2 class="text-2xl font-bold mb-3">HearID ANC: Noise Cancellation Personalized to Your Ears</h2>
-        <p class="text-gray-700 leading-relaxed">HearID ANC analyzes your ear canal shape and in-ear pressure to create a personalized noise cancellation profile. Unlike generic ANC that applies the same filter to everyone, HearID adjusts intensity based on your specific ear seal. Measured ~30dB noise reduction in CairoVolt lab — Metro engine rumble reduced significantly, café speech becomes background murmur, microbus engine noise drops noticeably.</p>
-        <p class="text-gray-700 leading-relaxed">Fusion Comfort design with 4 sizes of ear tips + ear wings ensures a secure, sealed fit across different ear shapes. This matters for ANC: a poor seal reduces cancellation by 50%+. IPX4 handles sweat and rain. Transparency mode with <25ms latency lets ambient sound through naturally for street safety.</p>
+        <p class="text-gray-700 leading-relaxed">HearID ANC is designed to adapt its profile using the fit and app process described by Soundcore. Actual reduction varies with the ear-tip seal, ear shape, noise frequency, movement, wind and firmware; general commuting examples are not laboratory measurements or a universal dB result.</p>
+        <p class="text-gray-700 leading-relaxed">Fusion Comfort includes multiple ear-tip and wing sizes so users can test fit, but no set guarantees a seal for every ear. Follow the IPX4 splash-resistance limits and dry the earbuds before charging. Transparency mode is not a traffic-safety system.</p>
     </section>
 </div>
 
-<div class="buyer-warning">
-    <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700 leading-relaxed mb-3">Counterfeit Soundcore earbuds are widespread on Egyptian social media at suspiciously low prices. They use recycled drivers that distort and lack genuine Bluetooth 5.2 chipsets.</p>
-    <p class="font-bold mb-2">How to verify authenticity:</p>
-    <ul class="list-decimal list-inside text-gray-700 space-y-1">
-        <li><strong>Model:</strong> A3952 engraved inside the case</li>
-        <li><strong>Logo:</strong> Soundcore logo laser-etched, not painted</li>
-        <li><strong>Pairing:</strong> Shows "Soundcore Liberty 3 Pro" in Soundcore app</li>
-        <li><strong>Packaging:</strong> Sealed box with holographic Anker authentication</li>
-        <li><strong>Price:</strong> Below 2200 EGP is suspicious</li>
-    </ul>
-</div>`,
-            features: ["10.6mm ACAA 2.0 Dual-Driver", "HearID Personalized ANC", "LDAC Hi-Res Codec", "Wireless Charging Case", "6h/8h + 24h/32h Battery", "BT 5.2 Multipoint", "Fusion Comfort (4 tips + wings)", "IPX4", "15min = 3h Fast Charge", "18-Month Warranty"],
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3952</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
+            features: ["10.6mm ACAA 2.0 Dual-Driver", "HearID Personalized ANC", "LDAC Hi-Res Codec", "Wireless Charging Case", "6h/8h + 24h/32h Battery", "BT 5.2 Multipoint", "Fusion Comfort (4 tips + wings)", "IPX4", "15min = 3h Fast Charge", "🧾 Review warranty and return policy"],
             metaTitle: "Soundcore Liberty 3 Pro — ACAA 2.0 Dual-Driver + LDAC",
-            metaDesc: "Buy Soundcore Liberty 3 Pro in Egypt — 4,400 EGP. 10.6mm ACAA 2.0 dual-driver, HearID ANC ~30dB, LDAC Hi-Res, wireless charging case. 18-month warranty. COD.",
+            metaDesc: "Buy Soundcore Liberty 3 Pro in Egypt with ACAA 2.0 dual drivers, manufacturer-listed HearID ANC, LDAC on compatible Android devices and wireless charging. Check current terms.",
             faqs: [
-                    { question: "What is ACAA 2.0 and why does it matter?", answer: "ACAA 2.0 places a 10.6mm dynamic driver + balanced armature on one axis. Dynamic handles bass, armature handles treble — no overlap, no muddy sound. Single-driver earbuds can't separate instruments this cleanly." },
+                    { question: "What is ACAA 2.0?", answer: "It is the listed coaxial arrangement of a 10.6mm dynamic driver and balanced armature. This is a hardware specification, not a guarantee of preferred sound or fixed separation." },
                     { question: "Does LDAC work with iPhone?", answer: "No — LDAC is Android-only (Samsung, Pixel, etc.). iPhone uses AAC codec which is good quality but not Hi-Res. Android users get full 990kbps Hi-Res streaming." },
-                    { question: "Liberty 3 Pro vs Liberty 4 Pro — worth the upgrade?", answer: "Liberty 4 Pro (5,830 EGP): ACAA 3.0, stronger ANC 3.0, Smart Case display. Liberty 3 Pro (4,400 EGP): ACAA 2.0 dual-driver, LDAC, wireless charging, HearID ANC. Save 1,430 EGP and get 90% of the flagship experience." },
+                    { question: "Liberty 3 Pro vs Liberty 4 Pro — what should I compare?", answer: "Compare the live prices, fit, driver architecture, supported codecs, ANC controls, case functions, rated battery conditions and current warranty terms. Do not reduce the experience to one percentage." },
                     { question: "Can LDAC and multipoint work at the same time?", answer: "No — this is a Bluetooth limitation. You choose one: LDAC for Hi-Res solo listening, or multipoint for phone+laptop switching. Most users keep multipoint and enable LDAC for focused music sessions." },
-                    { question: "Does the case support wireless charging?", answer: "Yes — any Qi wireless charging pad. Also charges via USB-C. 15-minute fast charge gives 3 hours of playback." },
-                    { question: "How comfortable for long wear?", answer: "Fusion Comfort system: 4 sizes ear tips + ear wings. Tested across 5 ear shapes in CairoVolt lab. Secure fit for running without falling out. 6h ANC session comfortable." },
-                    { question: "What does 18-month warranty cover?", answer: "Driver failure, ANC malfunction, Bluetooth issues, charging problems, case defects. Contact CairoVolt for free replacement." },
+                    { question: "Does the case support wireless charging?", answer: "The listing states Qi wireless charging and USB-C. Confirm pad compatibility and treat the fast-charge figure as a manufacturer example under stated conditions." },
+                    { question: "How comfortable are they for long wear?", answer: "The Fusion Comfort system includes multiple ear-tip and ear-wing sizes. Fit is personal, so try the included sizes and take listening breaks during long sessions." },
+                    { question: "What warranty applies?", answer: "Review the current warranty period, eligibility, exclusions and claim process shown for this listing. Keep the invoice and model details." },
             ]
         },
         ar: {
-            name: "سماعة ساوندكور Liberty 3 Pro | درايفر 10.6mm ACAA 2.0 مزدوج | HearID ANC | LDAC | شحن لاسلكي | 32 ساعة | ضمان 18 شهر",
-            shortDescription: "درايفر 10.6mm ACAA 2.0 محوري مزدوج (ديناميكي + Balanced Armature) | HearID ANC شخصي ~30dB | LDAC Hi-Res | BT 5.2 Multipoint | 6/8 ساعة سماعة — 24/32 إجمالي | علبة شحن لاسلكي | Fusion Comfort (4 أطراف + جناحين) | IPX4",
+            name: "سماعة ساوندكور Liberty 3 Pro | درايفر 10.6mm ACAA 2.0 مزدوج | HearID ANC | LDAC | شحن لاسلكي | 32 ساعة",
+            shortDescription: "درايفر 10.6mm ACAA 2.0 محوري مزدوج | HearID ANC وفق بيانات الشركة | LDAC للاندرويد المتوافق | BT 5.2 متعدد | أمثلة بطارية معلنة | علبة شحن لاسلكي | IPX4",
             description: `<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-3">درايفر 10.6mm ACAA 2.0 محوري مزدوج: درايفرين على محور واحد</h2>
-        <p class="text-gray-700 leading-relaxed">ACAA 2.0 (Astria Coaxial Acoustic Architecture) بتحط درايفر ديناميكي 10.6mm وbalanced armature على نفس المحور. الديناميكي بيتعامل مع الباس والميد تحت 2kHz، والـ balanced armature بياخد التريبل فوق 2kHz. الفصل الفيزيائي ده معناه الباس أبداً مش بيغرّق التريبل — مشكلة بتحصل في كل سماعة بدرايفر واحد بأي سعر.</p>
-        <p class="text-gray-700 leading-relaxed">LDAC بيبثّ لحد 990kbps لصوت Hi-Res لاسلكي على أجهزة Android. BT 5.2 مع multipoint بيوصل الموبايل + اللاب مع بعض (ملاحظة: multipoint بيتوقف لما LDAC شغال). علبة الشحن اللاسلكي بتشتغل على أي Qi pad — حطها على الكوميدينو وانسى الكابلات. 6 ساعات سماعة مع ANC (8 بدون)، 24/32 إجمالي. 15 دقيقة شحن سريع = 3 ساعات.</p>
+        <p class="text-gray-700 leading-relaxed">تضع بنية ACAA 2.0 درايفراً ديناميكياً 10.6mm وbalanced armature على محور واحد وفق المواصفات المدرجة. فصل الدرايفرات اختيار تصميم، لكنه لا يضمن صوتاً يفضله الجميع أو فصلاً ثابتاً أو انعدام التشوه. قيّم الملاءمة وEQ والكودك المناسب.</p>
+        <p class="text-gray-700 leading-relaxed">يحتاج LDAC جهاز اندرويد وإعدادات متوافقة، وقد يتغير الاتصال المتعدد مع وضع الكودك والبرنامج الداخلي. تحقق من توافق لوحة Qi. أرقام البطارية والشحن السريع أمثلة شركة تحت شروط صوت وميزات وحرارة محددة، لذلك تختلف المدة الفعلية.</p>
     </section>
     <section>
         <h2 class="text-2xl font-bold mb-3">HearID ANC: عزل ضوضاء مخصص لودانك</h2>
-        <p class="text-gray-700 leading-relaxed">HearID ANC بيحلل شكل قناة ودنك وضغط جوه الأذن ويعمل بروفايل عزل مخصص. مش زي ANC العادي اللي بيطبق نفس الفلتر على الكل. ~30dB تقليل ضوضاء مقاسة — دمدمة محرك المترو بتتقلل بشكل ملحوظ، كلام الكافيه بيبقى خلفية.</p>
-        <p class="text-gray-700 leading-relaxed">تصميم Fusion Comfort بـ 4 مقاسات أطراف + جناحين بيضمن سيل محكم على أشكال أذن مختلفة. وضع الشفافية بتأخير أقل من 25ms بيمرر الصوت الخارجي طبيعي.</p>
+        <p class="text-gray-700 leading-relaxed">صمم HearID ANC لتكييف البروفايل عبر عملية الملاءمة والتطبيق التي تذكرها ساوندكور. يتغير الخفض حسب إحكام الطرف وشكل الأذن وتردد الضوضاء والحركة والرياح والبرنامج الداخلي. لا توجد نتيجة معملية من كايرو فولت أو قيمة dB عامة يمكن استنتاجها من أمثلة المواصلات.</p>
+        <p class="text-gray-700 leading-relaxed">يتضمن Fusion Comfort عدة مقاسات للأطراف والأجنحة لتجربة الملاءمة، لكنه لا يضمن إحكاماً لكل أذن. اتبع حدود IPX4 وجفف السماعات قبل الشحن، ولا تعتمد على وضع الشفافية كنظام سلامة قرب المرور.</p>
     </section>
 </div>
 
-<div class="buyer-warning">
-    <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700 leading-relaxed mb-3">سماعات ساوندكور مقلدة منتشرة على السوشيال ميديا المصري بأسعار مشبوهة. بتستخدم درايفرات مُعاد تدويرها بتشوّه وبتفتقد شريحة بلوتوث 5.2 الأصلية.</p>
-    <p class="font-bold mb-2">إزاي تتأكد إنها أصلية؟</p>
-    <ul class="list-decimal list-inside text-gray-700 space-y-1">
-        <li><strong>الموديل:</strong> A3952 محفور جوه العلبة</li>
-        <li><strong>اللوجو:</strong> شعار ساوندكور محفور بالليزر مش مطبوع</li>
-        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق ساوندكور</li>
-        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من أنكر</li>
-        <li><strong>السعر:</strong> أقل من 2200 جنيه = مشكوك فيه</li>
-    </ul>
-</div>`,
-            features: ["درايفر 10.6mm ACAA 2.0 مزدوج", "HearID ANC شخصي", "LDAC Hi-Res", "علبة شحن لاسلكي", "6/8 + 24/32 ساعة بطارية", "BT 5.2 Multipoint", "Fusion Comfort (4 أطراف + جناحين)", "IPX4", "15 دقيقة = 3 ساعات شحن سريع", "ضمان 18 شهر"],
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3952</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
+            features: ["درايفر 10.6mm ACAA 2.0 مزدوج", "HearID ANC شخصي", "LDAC Hi-Res", "علبة شحن لاسلكي", "6/8 + 24/32 ساعة بطارية", "BT 5.2 Multipoint", "Fusion Comfort (4 أطراف + جناحين)", "IPX4", "15 دقيقة = 3 ساعات شحن سريع", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "سماعة ساوندكور Liberty 3 Pro — درايفر مزدوج ACAA 2.0",
-            metaDesc: "اشتري سماعة ساوندكور Liberty 3 Pro في مصر — 4,400 جنيه. درايفر 10.6mm ACAA 2.0 مزدوج، HearID ANC ~30dB، LDAC Hi-Res، شحن لاسلكي. ضمان 18 شهر. الدفع عند.",
+            metaDesc: "اشتري سماعة ساوندكور Liberty 3 Pro في مصر — السعر الحالي المعروض في الصفحة. درايفر 10.6mm ACAA 2.0 مزدوج، HearID ANC ~30dB، LDAC Hi-Res، شحن لاسلكي. راجع سياسة الضمان والاسترجاع الحالية. الدفع عند.",
             faqs: [
                     { question: "إيه هو ACAA 2.0 وليه مهم؟", answer: "ACAA 2.0 بيحط درايفر ديناميكي 10.6mm + balanced armature على محور واحد. الديناميكي بيتعامل مع الباس، الـ armature بيتعامل مع التريبل — مفيش تداخل، مفيش صوت ملخبط. سماعات الدرايفر الواحد مش بتقدر تفصل الآلات بالوضوح ده." },
                     { question: "LDAC بتشتغل مع iPhone؟", answer: "لأ — LDAC لـ Android بس (Samsung, Pixel, إلخ). iPhone بيستخدم AAC وده كويس بس مش Hi-Res. مستخدمين Android بيستفيدوا بـ Hi-Res LDAC كامل بـ 990kbps." },
-                    { question: "Liberty 3 Pro ولا Liberty 4 Pro — تستاهل الترقية؟", answer: "Liberty 4 Pro (5,830 جنيه): ACAA 3.0، ANC 3.0 أقوى، Smart Case. Liberty 3 Pro (4,400 جنيه): ACAA 2.0 درايفر مزدوج، LDAC، شحن لاسلكي، HearID ANC. وفّر 1,430 جنيه واخد 90% من تجربة الفلاجشيب." },
+                    { question: "Liberty 3 Pro ولا Liberty 4 Pro — تستاهل الترقية؟", answer: "Liberty 4 Pro (السعر الحالي المعروض في الصفحة): ACAA 3.0، ANC 3.0 أقوى، Smart Case. Liberty 3 Pro (السعر الحالي المعروض في الصفحة): ACAA 2.0 درايفر مزدوج، LDAC، شحن لاسلكي، HearID ANC. وفّر السعر الحالي المعروض في الصفحة واخد 90% من تجربة الفلاجشيب." },
                     { question: "LDAC وmultipoint بيشتغلوا مع بعض؟", answer: "لأ — ده حد بلوتوث. تختار واحد: LDAC للسماع المركز، أو multipoint للتبديل بين الموبايل واللاب. أغلب المستخدمين بيخلوا multipoint وبيفعّلوا LDAC لجلسات الموسيقى المركزة." },
                     { question: "العلبة بتتشحن لاسلكي؟", answer: "أيوه — أي Qi pad شحن لاسلكي. كمان USB-C. 15 دقيقة شحن سريع بتدي 3 ساعات تشغيل." },
-                    { question: "الضمان بيغطي إيه؟", answer: "عطل الدرايفر، خلل ANC، مشاكل البلوتوث والشحن، عيوب العلبة. كلّم كايرو فولت للاستبدال مجاناً." },
+                    { question: "الضمان بيغطي إيه؟", answer: "راجع مدة الضمان الحالية والأهلية والاستثناءات وطريقة المطالبة المنشورة لهذه القائمة، واحتفظ بالفاتورة وبيانات الموديل." },
             ]
         }
     },
 
-    meta: { keywords: "ساوندكور liberty 3 pro, liberty 3 pro egypt, أنكر liberty 3 pro, liberty 3 pro price, liberty 3 pro review, liberty 3 pro vs liberty 4 pro, ACAA 2.0 earbuds, ساوندكور ليبرتي 3 برو, سماعة ليبرتي 3 برو, سعر liberty 3 pro مصر, ايربودز ليبرتي 3 برو", mainTerm: "soundcore liberty 3 pro" },
+    meta: { keywords: "ساوندكور liberty 3 pro, liberty 3 pro egypt, انكر liberty 3 pro, liberty 3 pro price, liberty 3 pro review, liberty 3 pro vs liberty 4 pro, ACAA 2.0 earbuds, ساوندكور ليبرتي 3 برو, سماعة ليبرتي 3 برو, سعر liberty 3 pro مصر, ايربودز ليبرتي 3 برو", mainTerm: "soundcore liberty 3 pro" },
 
     expertOpinion: {
-        en: "Soundcore Liberty 3 Pro delivers 11mm ACAA 2.0 sound with 40dB ANC at 4400 EGP. At this price point, no competitor in the Egyptian market matches its feature set.",
-        ar: "سماعة ساوندكور Liberty 3 Pro بتوفر صوت 11mm ACAA 2.0 مع عزل 40dB بـ 4400 جنيه. بالسعر ده، مفيش منافس في السوق المصري بيقدم نفس المميزات."
+        en: "Liberty 3 Pro lists an ACAA 2.0 dual-driver design, active noise cancellation and app controls. Compare fit, codec and firmware support, the manufacturer's ANC and battery conditions, live price and current warranty with other models.",
+        ar: "تذكر ساوندكور ليبرتي 3 برو تصميم ACAA 2.0 ثنائي الدرايفر وعزلاً نشطاً وتحكماً عبر التطبيق. قارن الملاءمة ودعم الكودك والفيرموير وشروط العزل والبطارية لدى الشركة والسعر والضمان الحالي بالموديلات الأخرى."
     }
 };

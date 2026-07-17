@@ -2,17 +2,10 @@ import { NextRequest, NextResponse } from 'next/server';
 import { join } from 'path';
 import { readFile } from 'fs/promises';
 import sharp from 'sharp';
+import { checkRateLimit } from '@/lib/rate-limit';
+import { getClientIp } from '@/lib/request-ip';
 
-/**
- * Custom Image Optimization API Route
- * 
- * Replaces the broken /_next/image endpoint on Firebase App Hosting.
- * Accepts: /api/img?url=/products/...&w=256&q=75
- * Returns: Optimized WebP image at requested width.
- * 
- * Security: Only allows /products/** and /blog/** paths.
- * Caching: immutable, 1-year browser cache.
- */
+/** Optimizes allow-listed local product and content images. */
 
 // Allowed path prefixes for security.
 // IMPORTANT: must cover every local path that next/image can request through
@@ -35,10 +28,18 @@ const cache = new Map<string, { buffer: Uint8Array; contentType: string }>();
 const MAX_CACHE = 300;
 
 export async function GET(request: NextRequest) {
+    const ip = getClientIp(request.headers);
+    if (!checkRateLimit(ip, false).allowed) {
+        return NextResponse.json(
+            { error: 'Too many requests' },
+            { status: 429, headers: { 'Retry-After': '60' } },
+        );
+    }
+
     const { searchParams } = request.nextUrl;
     const url = searchParams.get('url');
     const w = parseInt(searchParams.get('w') || '0', 10);
-    const q = parseInt(searchParams.get('q') || '75', 10);
+    const requestedQuality = parseInt(searchParams.get('q') || '75', 10);
 
     // Validate parameters
     if (!url) {
@@ -52,28 +53,59 @@ export async function GET(request: NextRequest) {
         );
     }
 
-    const quality = Math.max(1, Math.min(100, q));
+    const quality = Number.isFinite(requestedQuality)
+        ? Math.max(30, Math.min(90, Math.round(requestedQuality / 5) * 5))
+        : 75;
 
-    // Security: only allow whitelisted paths
-    const decodedUrl = decodeURIComponent(url);
-    if (!ALLOWED_PREFIXES.some(prefix => decodedUrl.startsWith(prefix))) {
+    // The loader sends a root-relative URL. Parse it to remove cache-busting
+    // query strings while rejecting protocol-relative and external URLs.
+    if (!url.startsWith('/') || url.startsWith('//')) {
+        return NextResponse.json({ error: 'Path not allowed' }, { status: 403 });
+    }
+    let imagePath: string;
+    let cacheVersion = '';
+    try {
+        const parsedUrl = new URL(url, 'https://cairovolt.local');
+        imagePath = decodeURIComponent(parsedUrl.pathname);
+        const requestedVersion = parsedUrl.searchParams.get('v') || '';
+        if (requestedVersion && !/^[A-Za-z0-9._-]{1,32}$/.test(requestedVersion)) {
+            return NextResponse.json({ error: 'Invalid image version' }, { status: 400 });
+        }
+        cacheVersion = requestedVersion;
+    } catch {
+        return NextResponse.json({ error: 'Invalid path' }, { status: 400 });
+    }
+
+    if (!ALLOWED_PREFIXES.some(prefix => imagePath.startsWith(prefix))) {
         return NextResponse.json({ error: 'Path not allowed' }, { status: 403 });
     }
 
     // Prevent directory traversal
-    if (decodedUrl.includes('..') || decodedUrl.includes('\0')) {
+    if (imagePath.includes('..') || imagePath.includes('\0')
+        || !/\.(?:avif|webp|png|jpe?g)$/i.test(imagePath)) {
         return NextResponse.json({ error: 'Invalid path' }, { status: 400 });
     }
 
+    const accept = request.headers.get('accept') || '';
+    const outputFormat: 'avif' | 'webp' = accept.includes('image/avif') ? 'avif' : 'webp';
+    const contentType = outputFormat === 'avif' ? 'image/avif' : 'image/webp';
+    const browserCacheControl = cacheVersion
+        ? 'public, max-age=31536000, immutable'
+        : 'public, max-age=86400, stale-while-revalidate=604800';
+    const cdnCacheControl = cacheVersion
+        ? 'public, max-age=31536000, immutable'
+        : 'public, max-age=86400, stale-while-revalidate=604800';
+
     // Check cache
-    const cacheKey = `${decodedUrl}:${w}:${quality}`;
+    const cacheKey = `${imagePath}:${cacheVersion || 'unversioned'}:${w}:${quality}:${outputFormat}`;
     const cached = cache.get(cacheKey);
     if (cached) {
         return new NextResponse(cached.buffer as unknown as BodyInit, {
             headers: {
                 'Content-Type': cached.contentType,
-                'Cache-Control': 'public, max-age=31536000, immutable',
-                'CDN-Cache-Control': 'public, max-age=31536000',
+                'Cache-Control': browserCacheControl,
+                'CDN-Cache-Control': cdnCacheControl,
+                'Vary': 'Accept',
                 'X-Image-Optimized': 'hit',
             },
         });
@@ -81,25 +113,8 @@ export async function GET(request: NextRequest) {
 
     try {
         // Read source file from public directory
-        const filePath = join(process.cwd(), 'public', decodedUrl);
+        const filePath = join(process.cwd(), 'public', imagePath);
         const fileBuffer = await readFile(filePath);
-
-        // Detect if input is already WebP/AVIF
-        const isWebP = decodedUrl.endsWith('.webp');
-        const isAvif = decodedUrl.endsWith('.avif');
-
-        // Determine output format based on Accept header
-        const accept = request.headers.get('accept') || '';
-        let outputFormat: 'avif' | 'webp' | 'jpeg' = 'webp';
-        let contentType = 'image/webp';
-
-        if (accept.includes('image/avif') && !isAvif) {
-            outputFormat = 'avif';
-            contentType = 'image/avif';
-        } else if (isWebP || accept.includes('image/webp')) {
-            outputFormat = 'webp';
-            contentType = 'image/webp';
-        }
 
         // Process with sharp
         let pipeline = sharp(fileBuffer)
@@ -109,8 +124,6 @@ export async function GET(request: NextRequest) {
             pipeline = pipeline.avif({ quality, effort: 4 });
         } else if (outputFormat === 'webp') {
             pipeline = pipeline.webp({ quality, effort: 4 });
-        } else {
-            pipeline = pipeline.jpeg({ quality, mozjpeg: true });
         }
 
         const optimizedBuffer = new Uint8Array(await pipeline.toBuffer());
@@ -125,8 +138,8 @@ export async function GET(request: NextRequest) {
         return new NextResponse(optimizedBuffer as unknown as BodyInit, {
             headers: {
                 'Content-Type': contentType,
-                'Cache-Control': 'public, max-age=31536000, immutable',
-                'CDN-Cache-Control': 'public, max-age=31536000',
+                'Cache-Control': browserCacheControl,
+                'CDN-Cache-Control': cdnCacheControl,
                 'Vary': 'Accept',
                 'X-Image-Optimized': 'miss',
                 'X-Original-Size': String(fileBuffer.length),
@@ -134,11 +147,11 @@ export async function GET(request: NextRequest) {
             },
         });
     } catch (error: unknown) {
-        const message = error instanceof Error ? error.message : 'Unknown error';
+        const message = error instanceof Error ? error.message : '';
         if (message.includes('ENOENT')) {
             return NextResponse.json({ error: 'Image not found' }, { status: 404 });
         }
-        console.error('[/api/img] Error optimizing image:', message);
+        console.error('[/api/img] Image optimization failed.');
         return NextResponse.json({ error: 'Failed to optimize image' }, { status: 500 });
     }
 }

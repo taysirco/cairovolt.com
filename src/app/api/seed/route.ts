@@ -3,8 +3,12 @@ import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { products, categories } from '@/data/seed-products';
 import { logger } from '@/lib/logger';
+import { validateApiKey } from '@/lib/api-auth';
 
 export async function POST(req: NextRequest) {
+    const authError = validateApiKey(req);
+    if (authError) return authError;
+
     const db = await getFirestore();
 
     try {
@@ -95,20 +99,4 @@ export async function POST(req: NextRequest) {
             details: error instanceof Error ? error.message : 'Unknown error'
         }, { status: 500 });
     }
-}
-
-export async function GET() {
-    return NextResponse.json({
-        message: 'POST to this endpoint to seed products and categories',
-        info: {
-            categoriesCount: categories.length,
-            productsCount: products.length,
-            categories: categories.map(c => ({ slug: c.slug, name: c.translations?.ar?.name })),
-            products: products.map(p => ({ slug: p.slug, name: p.translations?.ar?.name, brand: p.brand }))
-        },
-        usage: {
-            seed: 'POST /api/seed',
-            forceSeed: 'POST /api/seed?force=true (replaces existing)'
-        }
-    });
 }

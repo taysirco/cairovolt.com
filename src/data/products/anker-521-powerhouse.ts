@@ -29,7 +29,7 @@ export const anker_521_powerhouse = {
                 weight: { en: '3.7 kg', ar: '3.7 كجم' },
                 ports: { en: 'AC×1 + USB-C 60W + USB-A×2 + Car 12V', ar: 'AC×1 + USB-C 60W + USB-A×2 + سيارة 12V' },
                 cycles: '3,000+',
-                isDefault: false,
+                isDefault: true,
             },
             {
                 id: 'anker-522',
@@ -46,7 +46,7 @@ export const anker_521_powerhouse = {
                 weight: { en: '3.9 kg', ar: '3.9 كجم' },
                 ports: { en: 'AC×2 + USB-C 60W + USB-C 20W + USB-A + Car 12V', ar: 'AC×2 + USB-C 60W + USB-C 20W + USB-A + سيارة 12V' },
                 cycles: '3,000+',
-                isDefault: true,
+                isDefault: false,
             },
             {
                 id: 'anker-535',
@@ -80,151 +80,133 @@ export const anker_521_powerhouse = {
         relatedProducts: ["anker-737-powerbank", "anker-powercore-26800", "anker-nano-45w", "anker-a8050-usb-c-cable", "anker-powercore-20000"],
         translations: {
             en: {
-                name: "Anker 521 PowerHouse 256Wh | 200W AC Outlet | LiFePO4 | 5-Year Warranty",
-                shortDescription: "🔋 256Wh LiFePO4 | 🔌 200W AC Outlet (220V) | ♻️ 3,000+ Charge Cycles (10+ Years) | 💡 Built-in LED Light",
+                name: "Anker 521 PowerHouse 256Wh | 200W AC Outlet | LiFePO4",
+                shortDescription: "🔋 256Wh LiFePO4 | 🔌 200W AC Outlet (220V) | ♻️ Manufacturer-rated cycle life | 💡 Built-in LED Light",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike noisy generators or flimsy power banks that die mid-blackout, the <strong>Anker 521 PowerHouse (A1710)</strong> is a 256Wh portable power station with LiFePO4 batteries rated for 3,000+ charge cycles (10+ years). It outputs 200W via a 220V AC outlet — enough to run your router, fan, CPAP, and charge multiple phones during an Egyptian blackout. 6 output ports, built-in LED, 5-year warranty. EGP 11,000. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker 521 PowerHouse (A1710)</strong> is a portable power station with a manufacturer-listed 256Wh LiFePO4 battery, 200W AC output, multiple DC/USB outputs and a built-in light. Before connecting a router, fan, medical device or other appliance, compare its continuous and start-up power requirements with the exact output ratings printed on the station. Check the current price, stock, package contents and applicable warranty on this page before ordering.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Cheap “portable power stations” on Amazon.eg and AliExpress use standard lithium-ion cells that degrade after 300 cycles and lack pure sine wave output — damaging sensitive electronics like CPAP machines. The Anker 521 uses lab-certified LiFePO4 with pure sine wave AC. Only buy from authorized dealers.</p>
+    <p class="text-gray-700">Match model <strong>A1710Z21</strong>, battery energy, AC waveform, input/output ratings and package contents with the unit and current manufacturer documentation. For medical or sensitive equipment, follow the equipment maker's power-source requirements and do not rely on a general compatibility example.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
-        <li>🔋 <strong>256Wh Capacity:</strong> LiFePO4 batteries rated for 3,000+ cycles (10+ years daily use).</li>
-        <li>🔌 <strong>200W AC Outlet:</strong> Powers routers, CPAP machines, fans, and small appliances.</li>
+        <li>🔋 <strong>256Wh rated capacity:</strong> LiFePO4 chemistry; cycle-life figures apply under the manufacturer's stated test conditions.</li>
+        <li>🔌 <strong>200W AC output:</strong> compare continuous and start-up demand before connecting an appliance.</li>
         <li>⚡ <strong>6 Output Ports:</strong> AC 220V + USB-C PD + 2× USB-A + Car Socket + DC.</li>
-        <li>🛡️ <strong>5-Year Warranty:</strong> Industry-leading warranty — longest in Egypt.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>20.37 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "We deployed the Anker 521 during a scheduled 6-hour power cut in Heliopolis. Here's exactly what we ran: Wi-Fi router (12W) for 6 hours straight, charged 2 phones from 20% to 100%, powered a desk fan for 3 hours, and used the built-in LED as room lighting. At the end? Still had 18% battery left. The LiFePO4 chemistry means it won't degrade like regular lithium batteries — after 3,000 cycles, it still retains 80% capacity. For Egyptian homes dealing with regular outages, this isn't a luxury; it's infrastructure."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
+        <li>🛡️ <strong>Service terms:</strong> check the current warranty period, coverage and eligibility for this listing.</li>
+    <li>🧾 <strong>Returns and warranty:</strong> handled under the current published policy and eligibility terms.</li><li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A1710Z21</strong>, start with the manufacturer-rated Wh/mAh, input/output profiles and airline limits printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Your Home's Backup Power During Blackouts</h2>
-        <p class="text-gray-700">The 521 PowerHouse isn't a gadget — it's a home essential. With a <strong>200W AC outlet (220V)</strong>, it powers your Wi-Fi router, phone chargers, laptop, desk fan, and even a CPAP machine during power outages. Unlike a noisy diesel generator, it's completely silent, produces zero fumes, and works safely indoors. For Egyptian families dealing with summer load-shedding, this is peace of mind in a box.</p>
+        <p class="text-gray-700">The listed <strong>200W AC output</strong> can serve compatible low-power equipment during an outage. Add the running watts of every connected device and allow for start-up demand and conversion loss. A medical device such as a CPAP should be connected only after its manufacturer confirms the station's voltage, waveform, grounding and continuity are suitable; this unit is not a substitute for a certified medical backup system.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">LiFePO4: The Battery That Lasts 10+ Years</h2>
-        <p class="text-gray-700">Regular lithium batteries degrade after 500 cycles. The 521 uses <strong>LiFePO4 (Lithium Iron Phosphate)</strong> chemistry — rated for <strong>3,000+ cycles</strong> at 80% capacity retention. That's over 10 years of daily use. It's also inherently safer: LiFePO4 doesn't overheat or catch fire like standard lithium-ion. Anker backs this with an industry-leading <strong>5-year warranty</strong>.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">LiFePO4 Battery and Cycle Rating</h2>
+        <p class="text-gray-700">Anker lists <strong>LiFePO4 (lithium iron phosphate)</strong> chemistry and a cycle-life figure for this model under specified capacity-retention and test conditions. A cycle rating is not a guaranteed number of calendar years: temperature, storage charge, load and charging habits affect usable life. Keep the ventilation openings clear and stop using a damaged, swollen or unusually hot unit.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">6 Ports for Every Device You Own</h2>
-        <p class="text-gray-700">One station, every device: <strong>AC 220V outlet</strong> for appliances, <strong>USB-C PD</strong> for laptops and phones, <strong>2× USB-A</strong> for accessories, <strong>car socket</strong> for 12V devices, and a <strong>built-in LED warm light</strong> for when the power goes out at night. Charge it via wall outlet, car, or even a <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">solar panel</a> for off-grid use.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Listed Outputs for Compatible Devices</h2>
+        <p class="text-gray-700">The listed outputs include an <strong>AC outlet</strong>, <strong>USB-C PD</strong>, <strong>USB-A</strong>, a <strong>12V car socket</strong> and a built-in light. Use only input sources and solar-panel voltage/current ranges specified for the exact unit; a general <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">charger category</a> link does not establish compatibility.</p>
     </section>
 </div>
 <div class="device-compatibility">
-    <h3 class="font-bold mb-2">What Can It Power? (Real-World Tested):</h3>
+    <h3 class="font-bold mb-2">How to estimate device compatibility</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>🌐 <strong>Wi-Fi Router:</strong> 15-20 hours continuous (12W router).</li>
-        <li>📱 <strong>Phones:</strong> iPhone 17 ~7 times, Samsung S26 ~5 times.</li>
-        <li>💻 <strong>MacBook Air:</strong> 1 full charge from empty.</li>
-        <li>💨 <strong>Desk Fan:</strong> 5-8 hours (30W fan).</li>
-        <li>😴 <strong>CPAP Machine:</strong> 4-5 hours (depending on settings).</li>
-        <li>💡 <strong>LED Lights:</strong> 20+ hours of room lighting.</li>
+        <li>🌐 <strong>Routers and lights:</strong> divide usable watt-hours by measured running watts, then allow for conversion loss.</li>
+        <li>📱 <strong>Phones and laptops:</strong> confirm the required USB-C profile or use a compatible AC adapter within the total output limit.</li>
+        <li>💨 <strong>Fans and appliances:</strong> check both continuous and start-up watts; do not exceed the station rating.</li>
+        <li>😴 <strong>Medical equipment:</strong> obtain written compatibility guidance from the equipment manufacturer and retain the recommended backup plan.</li>
     </ul>
 </div>
 `,
-                features: ["🔋 256Wh LiFePO4 (3,000+ Cycles)", "🔌 200W AC Outlet (220V)", "⚡ USB-C PD 60W + 2× USB-A", "🚗 12V Car Socket", "💡 Built-in LED Light", "🛡️ 5-Year Full Warranty", "♻️ 10+ Year Battery Lifespan", "🔒 UL + CE Safety Certified → Premium safety standards for lithium power stations"],
-                metaTitle: "Anker 521 Power Station 256Wh ⚡ 15% OFF",
-                metaDesc: "Buy Anker 521 PowerHouse portable power station in Egypt. 256Wh LiFePO4, 200W AC outlet, 3000+ cycles. Powers router, fan during blackouts. 5-year warranty.",
+                features: ["🔋 Manufacturer-listed 256Wh LiFePO4", "🔌 Listed 200W AC Outlet (220V)", "⚡ USB-C PD 60W + 2× USB-A", "🚗 12V Car Socket", "💡 Built-in LED Light", "🧾 Check current warranty terms", "📐 Match continuous and start-up watts", "🔎 Verify ratings on the unit and manufacturer documentation"],
+                metaTitle: "Anker 521 Power Station 256Wh | Current Price",
+                metaDesc: "Shop Anker 521 PowerHouse in Egypt. Manufacturer-listed 256Wh LiFePO4 battery, 200W AC output, USB-C, USB-A, 12V socket and LED light. Check live warranty terms.",
                 faqs: [
-                    { question: "Can it power a CPAP machine?", answer: "It can power a CPAP machine for about 4-5 hours, depending on the pressure settings and heated humidifier usage." },
+                    { question: "Can it power a CPAP machine?", answer: "Do not infer medical-device compatibility from wattage alone. Ask the CPAP manufacturer to confirm voltage, waveform, grounding, start-up demand and backup requirements for this exact power-station model." },
                     { question: "Can I use it while it's charging (UPS)?", answer: "No, the Anker 521 does not support UPS function. It supports pass-through charging but extended use as a UPS is not recommended." },
-                    { question: "What is the lifespan of the battery?", answer: "It uses LiFePO4 batteries which are rated for 3,000 cycles, meaning it will last for over 10 years of daily use." },
-                    { question: "Can it charge a MacBook M5?", answer: "Yes, the 200W AC outlet can power MacBook Pro M5 and the USB-C PD port provides direct charging, though slower than the dedicated 90W charger." },
-                    { question: "Is it allowed on airplanes?", answer: "No, at 256Wh it exceeds the 100Wh TSA limit for carry-on. Check with your airline for specific regulations on checked baggage." },
-                    { question: "Can it charge from a solar panel?", answer: "Yes — the DC input supports 11-28V solar panels (65W max recommended). Full charge from solar takes 5-7 hours in direct Egyptian sunlight. Ideal for off-grid camping in Sinai or the Western Desert." },
-                    { question: "How long does it take to fully recharge?", answer: "Recharge time depends on your charger wattage. With an 18W+ charger, expect 3-5 hours for a full recharge. Using a 5W charger will take significantly longer." },
-                    { question: "Does it support pass-through charging?", answer: "Yes, you can charge the power bank and your device simultaneously. The power bank intelligently distributes power between recharging itself and your connected device." }
+                    { question: "What is the lifespan of the battery?", answer: "The manufacturer lists a cycle-life figure under specified capacity-retention conditions. Calendar life is not guaranteed and varies with temperature, storage, load and charging habits." },
+                    { question: "Can it charge a MacBook?", answer: "Compare the MacBook adapter requirement with the printed USB-C profiles or AC-output limit. Actual rate varies by model and cable." },
+                    { question: "Is it allowed on airplanes?", answer: "Its listed 256Wh capacity is above the common 100Wh passenger-battery threshold. Do not place it in baggage or travel with it unless the carrier explicitly confirms the current route-specific rule." },
+                    { question: "Can it charge from a solar panel?", answer: "Only use a panel whose voltage, current, connector and polarity match the exact input range in the supplied manual. Charge time varies with panel output, weather and angle." },
+                    { question: "How long does it take to fully recharge?", answer: "Use the exact input method and manufacturer table for A1710Z21. Charge time varies with source power, temperature and use during charging." },
+                    { question: "Does it support pass-through charging?", answer: "Use pass-through operation only where the supplied manual explicitly permits it, and follow its load and ventilation limits." }
                 ]
             },
             ar: {
-                name: "محطة طاقة انكر 521 للبيت (256Wh) | بتشغل الراوتر والمروحة في قطع الكهربا | ضمان 5 سنين",
-                shortDescription: "البديل الآمن والهادي للمولد وقت تخفيف الأحمال | 🔋 256 واط | 🔌 فيشة 220 فولت كاملة | ♻️ بطارية بتعيش 10 سنين",
+                name: "محطة طاقة انكر 521 بسعة 256Wh | خرج AC بقدرة 200 واط | LiFePO4",
+                shortDescription: "🔋 سعة معلنة 256 واط·ساعة | 🔌 خرج AC معلن 200 واط | ⚡ منافذ USB و12V | 💡 إضاءة مدمجة",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس المولدات الصيني الرخيصة اللي بتبوظ بعد 300 دورة وبتضر أجهزتك الحساسة، <strong>محطة طاقة أنكر 521 (A1710)</strong> بتستخدم بطاريات LiFePO4 بتستحمل 3,000+ دورة شحن (10+ سنوات). بسعة 256 واط/ساعة وفيشة 220 فولت بقوة 200 واط — تكفي تشغل الراوتر والمروحة وجهاز CPAP وتشحن موبايلات كتير وقت قطع الكهربا. معتمدة UL + CE للسلامة. ضمان 5 سنوات. سعر <strong>11,000 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>محطة طاقة انكر 521 (A1710)</strong> تأتي وفق بيانات الشركة المصنّعة ببطارية LiFePO4 سعتها 256 واط·ساعة وخرج AC معلن 200 واط، مع منافذ USB و12V وإضاءة مدمجة. قبل توصيل راوتر أو مروحة أو جهاز طبي أو أي حمل آخر، قارن قدرته المستمرة وقدرة بدء التشغيل مع القيم المطبوعة على المحطة. راجع السعر والمخزون ومحتويات العبوة وشروط الضمان الحالية في الصفحة قبل الطلب.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">محطات الطاقة الرخيصة على أمازون وAliExpress بتستخدم خلايا ليثيوم عادية بتتدهور بعد 300 دورة ومفيهاش pure sine wave — بتضر الأجهزة الحساسة زي CPAP. أنكر 521 بيستخدم LiFePO4 معتمد معملياً مع pure sine wave AC. اشتري من موزع معتمد بس.</p>
+    <p class="text-gray-700">طابق رقم الموديل <strong>A1710Z21</strong> وسعة البطارية وشكل موجة AC وقدرات الإدخال والإخراج ومحتويات العبوة مع الوحدة ووثائق الشركة المصنّعة الحالية. بالنسبة للأجهزة الطبية أو الحساسة، اتبع متطلبات مصدر الطاقة التي يحددها مصنع الجهاز ولا تعتمد على مثال توافق عام.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">
-        <li>🔋 <strong>سعة 256 واط/ساعة:</strong> بطاريات LiFePO4 تدوم 3,000+ دورة (10+ سنوات استخدام يومي).</li>
-        <li>🔌 <strong>منفذ 220 فولت (200 واط):</strong> يشغّل الراوتر، المروحة، جهاز CPAP، والأجهزة الصغيرة.</li>
+        <li>🔋 <strong>سعة معلنة 256 واط·ساعة:</strong> كيمياء LiFePO4؛ رقم الدورات يخضع لشروط اختبار الشركة المصنّعة.</li>
+        <li>🔌 <strong>خرج AC معلن 200 واط:</strong> قارن الحمل المستمر وقدرة البدء قبل توصيل أي جهاز.</li>
         <li>⚡ <strong>6 منافذ:</strong> AC 220V + USB-C PD + 2× USB-A + مقبس سيارة + DC.</li>
-        <li>🛡️ <strong>ضمان 5 سنوات:</strong> أطول ضمان في مصر لمحطات الطاقة.</li>
+        <li>🛡️ <strong>الضمان:</strong> راجع المدة والغطاء والاستثناءات المطبقة حالياً على محطة الطاقة.</li>
     </ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">كلام من الآخر عن المنتج ده..</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "نحن في فريق كايرو فولت استخدمنا انكر 521 في انقطاع كهربا مخطط 6 ساعات في مصر الجديدة. إيه اللي شغّلناه بالظبط: راوتر واي فاي (12 واط) 6 ساعات متواصلة، شحنّا موبايلين من 20% لـ 100%، شغّلنا مروحة مكتب 3 ساعات، واستخدمنا إضاءة LED المدمجة كإضاءة غرفة. والنتيجة؟ لسه 18% بطارية متبقية. بطاريات LiFePO4 مش بتتدهور زي الليثيوم العادي — بعد 3,000 دورة لسه بتحافظ على 80% من سعتها. للبيوت المصرية اللي بتعاني من انقطاع الكهربا المتكرر، ده مش رفاهية؛ ده بنية تحتية."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A1710Z21</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">الطاقة الاحتياطية لبيتك وقت انقطاع الكهربا</h2>
-        <p class="text-gray-700">521 PowerHouse مش جادجت — ده ضرورة بيتية. بـ<strong>منفذ 220 فولت (200 واط)</strong>، يشغّل راوتر الواي فاي، شواحن الموبايل (الهاتف الذكي)، اللابتوب (الحاسب المحمول)، مروحة مكتب، وحتى جهاز CPAP وقت انقطاع الكهربا. عكس المولد البنزين المزعج، صامت تماماً، بدون عوادم، وبيشتغل جوه البيت بأمان. للعائلات المصرية اللي بتعاني من تخفيف الأحمال في الصيف، ده راحة بال في علبة.</p>
+        <p class="text-gray-700">يمكن استخدام خرج <strong>AC المعلن 200 واط</strong> مع أجهزة منخفضة الاستهلاك المتوافقة أثناء الانقطاع. اجمع قدرة التشغيل لكل الأجهزة وراعِ قدرة البدء وفقد التحويل. بالنسبة لجهاز طبي مثل CPAP، يجب أن يؤكد مصنع الجهاز ملاءمة الجهد وشكل الموجة والتأريض واستمرارية التغذية؛ المحطة ليست بديلاً لنظام احتياطي طبي معتمد.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">LiFePO4: بطارية تدوم 10+ سنوات</h2>
-        <p class="text-gray-700">بطاريات الليثيوم العادية بتتدهور بعد 500 دورة. الـ 521 بيستخدم <strong>LiFePO4 (ليثيوم حديد فوسفات)</strong> — بتستحمل <strong>3,000+ دورة</strong> مع الحفاظ على 80% من سعتها. يعني أكثر من 10 سنوات استخدام يومي. كمان أكثر أماناً: LiFePO4 مش بتسخن أو تشتعل زي الليثيوم العادي. انكر بتدعم ده بـ<strong>ضمان 5 سنوات</strong> — الأطول في مصر.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">بطارية LiFePO4 ورقم دورات الشحن</h2>
+        <p class="text-gray-700">تذكر انكر كيمياء <strong>LiFePO4</strong> ورقماً لدورات الشحن وفق شروط اختبار ونسبة احتفاظ بالسعة محددة. رقم الدورات لا يضمن سنوات تقويمية ثابتة؛ الحرارة وحالة التخزين والحمل وطريقة الشحن تؤثر في العمر الفعلي. حافظ على فتحات التهوية وتوقف عن الاستخدام عند وجود تلف أو انتفاخ أو حرارة غير معتادة.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">6 منافذ لكل جهاز عندك</h2>
-        <p class="text-gray-700">محطة واحدة، كل أجهزتك: <strong>منفذ 220 فولت</strong> للأجهزة الكهربائية، <strong>USB-C PD</strong> للابتوب والموبايلات، <strong>2× USB-A</strong> للإكسسوارات، <strong>مقبس سيارة</strong> لأجهزة 12 فولت، و<strong>إضاءة LED مدمجة</strong> لما الكهربا تقطع بالليل. اشحنها من الحائط، السيارة، أو <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">لوح شمسي</a> للاستخدام خارج الشبكة.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">6 منافذ لأحمال متوافقة</h2>
+        <p class="text-gray-700">تشمل المخارج المعلنة <strong>AC</strong> و<strong>USB-C PD</strong> و<strong>USB-A</strong> و<strong>مقبس 12V</strong> مع إضاءة مدمجة. لا تستخدم إلا مصدر إدخال أو لوحاً شمسياً يطابق الجهد والتيار والموصل والقطبية الموضحة للموديل؛ رابط <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">فئة الشواحن</a> وحده لا يثبت التوافق.</p>
     </section>
 </div>
 <div class="device-compatibility">
-    <h3 class="font-bold mb-2">إيه اللي يقدر يشغّله؟ (اختبار حقيقي):</h3>
+    <h3 class="font-bold mb-2">طريقة تقدير توافق الأجهزة</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>🌐 <strong>راوتر واي فاي:</strong> 15-20 ساعة متواصلة (راوتر 12 واط).</li>
-        <li>📱 <strong>الهواتف:</strong> ايفون 17 ~7 مرات، سامسونج S26 ~5 مرات.</li>
-        <li>💻 <strong>ماك بوك اير:</strong> شحنة كاملة من الصفر.</li>
-        <li>💨 <strong>مروحة مكتب:</strong> 5-8 ساعات (مروحة 30 واط).</li>
-        <li>😴 <strong>جهاز CPAP:</strong> 4-5 ساعات (حسب الإعدادات).</li>
-        <li>💡 <strong>إضاءة LED:</strong> 20+ ساعة إضاءة غرفة.</li>
+        <li>🌐 <strong>الراوتر والإضاءة:</strong> اقسم الطاقة القابلة للاستخدام على استهلاك التشغيل المقاس ثم احسب فقد التحويل.</li>
+        <li>📱 <strong>الهواتف واللابتوب:</strong> تحقق من ملف USB-C المطلوب أو استخدم محول AC متوافقاً داخل حد الخرج الكلي.</li>
+        <li>💨 <strong>المراوح والأجهزة:</strong> تحقق من قدرة التشغيل والبدء ولا تتجاوز قدرة المحطة.</li>
+        <li>😴 <strong>الأجهزة الطبية:</strong> احصل على تأكيد من مصنع الجهاز والتزم بخطة الطاقة الاحتياطية التي يوصي بها.</li>
     </ul>
 </div>
 `,
-                features: ["🔋 256 واط/ساعة LiFePO4 (3,000+ دورة)", "🔌 منفذ 220 فولت (200 واط)", "⚡ USB-C PD 60 واط + 2× USB-A", "🚗 مقبس سيارة 12 فولت", "💡 إضاءة LED مدمجة", "🛡️ ضمان 5 سنوات", "♻️ عمر 10+ سنوات", "🔒 معتمد UL + CE للسلامة → أعلى معايير أمان محطات الطاقة"],
-                metaTitle: "محطة طاقة انكر 521 | انكر باور ستيشن ⚡ خصم 15% | مولد محمول",
-                metaDesc: "محطة طاقة متنقلة انكر 521 باور ستيشن في مصر. 256 واط/ساعة LiFePO4، منفذ 220 فولت، 3000+ دورة. يشغل راوتر ومروحة. ضمان 5 سنوات. توصيل سريع.",
+                features: ["🔋 سعة LiFePO4 معلنة 256 واط·ساعة", "🔌 خرج AC معلن 200 واط", "⚡ USB-C PD 60 واط + 2× USB-A", "🚗 مقبس سيارة 12 فولت", "💡 إضاءة LED مدمجة", "🧾 راجع سياسة الضمان والاسترجاع", "📐 طابق قدرة التشغيل والبدء", "🔎 تحقق من القيم على الوحدة ووثائق الشركة المصنّعة"],
+                metaTitle: "محطة طاقة انكر 521 بسعة 256Wh | السعر الحالي",
+                metaDesc: "تسوق محطة طاقة انكر 521 في مصر ببطارية LiFePO4 معلنة 256 واط·ساعة وخرج AC معلن 200 واط ومنافذ USB و12V وإضاءة. راجع الضمان الحالي.",
                 faqs: [
-                    { question: "هل يمكنه تشغيل جهاز التنفس CPAP؟", answer: "نعم، يشغل جهاز CPAP لمدة 4-5 ساعات حسب إعدادات الضغط والمرطب الحراري." },
+                    { question: "هل يمكنه تشغيل جهاز التنفس CPAP؟", answer: "لا تستنتج توافق جهاز طبي من القدرة فقط. اطلب من مصنع جهاز CPAP تأكيد الجهد وشكل الموجة والتأريض وقدرة البدء ومتطلبات الطاقة الاحتياطية لهذا الموديل تحديداً." },
                     { question: "هل يمكن استخدامه أثناء شحنه (UPS)؟", answer: "لا، لا يدعم وظيفة UPS الكاملة. يدعم الشحن أثناء الاستخدام لكن لا ينصح كبديل دائم للكهرباء." },
-                    { question: "ما العمر الافتراضي للبطارية؟", answer: "يستخدم بطاريات LiFePO4 المصنفة لـ 3000 دورة شحن، تدوم أكثر من 10 سنوات بالاستخدام اليومي." },
-                    { question: "هل يشحن ماك بوك M5؟", answer: "نعم، منفذ AC 200 واط يشغل ماك بوك برو M5 ومنفذ USB-C PD يشحن مباشرة وإن كان أبطأ." },
-                    { question: "هل مسموح به في الطائرات؟", answer: "لا، سعته 256 واط/ساعة تتجاوز حد 100 واط/ساعة المسموح. راجع شركة الطيران." },
-                    { question: "كايرو فولت اختبرت الۿ 521 في انقطاع الكهرباء؟", answer: "نعم! اختبرناه في مخازن بوسطة في حرارة 39 درجة. شغّل راوتر WE VDSL + مروحة مكتبية 40 واط معاً لمدة 18 ساعة و 15 دقيقة. LiFePO4 ما تأثرتش بالحرارة خالص." },
-                    { question: "هل يتحمل تذبذب الجهد في مصر (190-240V)؟", answer: "نعم! شريحة BMS محمية ضد الجهد الزائد. بيتحمل 190-240 فولت بكفاءة مع محول تحويل داخلي آمن." },
-                    { question: "كم ساعة يشغل الراوتر بس بدون أجهزة تانية؟", answer: "في اختبار كايرو فولت: راوتر WE VDSL اشتغل 18-22 ساعة وحده. بمروحة مكتبية وراوتر معاً: 18 ساعة 15 دقيقة." }
+                    { question: "ما العمر الافتراضي للبطارية؟", answer: "تذكر الشركة المصنّعة رقماً للدورات وفق شروط احتفاظ بالسعة محددة. العمر التقويمي غير مضمون ويتغير حسب الحرارة والتخزين والحمل وطريقة الشحن." },
+                    { question: "هل يشحن ماك بوك؟", answer: "قارن متطلبات محول ماك بوك مع ملفات USB-C المطبوعة أو حد خرج AC. تختلف السرعة حسب الموديل والكابل." },
+                    { question: "هل مسموح به في الطائرات؟", answer: "سعته المعلنة 256 واط·ساعة أعلى من حد 100 واط·ساعة الشائع لبطاريات الركاب. لا تسافر به أو تضعه في الأمتعة إلا بعد تأكيد صريح من شركة الطيران للرحلة الحالية." },
+                    { question: "محطة انكر 521 تشغّل الراوتر والمروحة قد إيه؟", answer: "المدة تعتمد على الاستهلاك الفعلي للأجهزة وكفاءة التحويل وحالة البطارية. اجمع قدرة الأجهزة بالواط وقارنها بسعة المحطة بالواط·ساعة، مع احتساب فقد التحويل، ولا تتجاوز قدرة الخرج المعلنة." },
+                    { question: "هل يتحمل تذبذب الجهد؟", answer: "اقرأ نطاق إدخال AC المطبوع على الوحدة واستخدم مقبساً سليماً. لا تفترض نطاقاً أو مستوى حماية غير موضح في دليل الموديل." },
+                    { question: "كم ساعة يشغل الراوتر وحده؟", answer: "احسب المدة تقريبياً بقسمة الطاقة القابلة للاستخدام بالواط·ساعة على استهلاك الراوتر بالواط، ثم اخصم فقد التحويل. راجع ملصق الراوتر ومواصفات خرج المحطة." }
                 ]
             }
         },
-        meta: { keywords: "أنكر power station, أنكر powerhouse, أنكر 521, portable power station, أنكر power station egypt, محطة طاقة متنقلة, انكر باور ستيشن, محطة طاقة انكر, مولد كهرباء انكر, أنكر best power bank egypt 2026, باور بانك مصر انكر, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك شحن سريع", mainTerm: "anker 521" },
+        meta: { keywords: "انكر power station, انكر powerhouse, انكر 521, portable power station, انكر power station egypt, محطة طاقة متنقلة, انكر باور ستيشن, محطة طاقة انكر, مولد كهرباء انكر, باور بانك مصر انكر, شاحن متنقل انكر, سعر باور بانك انكر, باور بانك شحن سريع", mainTerm: "anker 521" },
         expertOpinion: {
-            en: "For frequent power outages or camping trips, the Anker 521 is a lifesaver. It's built like a tank with batteries designed to last 10 years. The 200W AC outlet is a huge plus for running small appliances. It won't power a fridge, but for keeping laptops, phones, and lights running during a blackout, it's reliable and safe.",
-            ar: "لانقطاع الكهرباء المتكرر أو رحلات التخييم، تعتبر أنكر 521 منقذة للحياة. صممت ببطاريات تدوم 10 سنوات. منفذ التيار المتردد 200 واط ميزة كبيرة لتشغيل الأجهزة الصغيرة. لن تشغل ثلاجة، لكن للحفاظ على عمل اللابتوب والهواتف والأضواء أثناء انقطاع التيار، فهي موثوقة وآمنة."
+            en: "Anker 521 is a compact 256Wh power station for compatible low-power loads. Decide by the exact input/output table, usable energy, continuous and start-up watts, and the current service terms—not by a generic runtime promise.",
+            ar: "انكر 521 محطة طاقة مدمجة بسعة معلنة 256 واط·ساعة للأحمال منخفضة الاستهلاك المتوافقة. اتخذ القرار وفق جدول الإدخال والإخراج والطاقة القابلة للاستخدام وقدرة التشغيل والبدء وشروط الخدمة الحالية، لا وفق وعد عام بمدة التشغيل."
         }
     };

@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 /**
- * CairoVolt Blog Audit Gate — the REAL enforcement behind §16-A.
+ * CairoVolt blog-content validation.
  *
- * Validates each blog article against the unbreakable content laws:
+ * Checks each article for the publishing requirements used by the application:
  *   - AR content >= 1,300 words  (strip HTML)
  *   - EN content >= 1,300 words
- *   - i18n quarantine: AR internal links have NO /en/ prefix; EN internal links MUST have /en/
+ *   - locale-safe links: Arabic links omit /en/ and English links include it
  *   - FAQ === 4 per language
  *   - quickAnswer present per language
  *   - coverImage present
@@ -16,7 +16,7 @@
  *   node scripts/audit-blog.js {slug}   # audit one article
  *   node scripts/audit-blog.js          # audit all published articles
  *
- * Exits 1 if any HARD rule fails. Warnings never fail the build.
+ * Exits with status 1 when a required check fails. Warnings are informational.
  */
 'use strict';
 

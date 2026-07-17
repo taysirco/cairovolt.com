@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { getProductBySlug } from '@/lib/static-products';
 
 interface HeroSectionProps {
   locale: string;
@@ -18,6 +19,10 @@ const localePath = (locale: string, path: string) =>
  */
 export default function HeroSection({ locale }: HeroSectionProps) {
   const isAr = locale === 'ar';
+  const formatPrice = (slug: string) => {
+    const product = getProductBySlug(slug);
+    return product ? new Intl.NumberFormat('en-EG').format(product.price) : '—';
+  };
 
   return (
     <section id="hero-section" className="relative isolate overflow-hidden bg-[#050814] text-white">
@@ -61,8 +66,8 @@ export default function HeroSection({ locale }: HeroSectionProps) {
 
           <p className="hero-description mx-auto mt-6 max-w-xl break-words text-base leading-8 text-slate-300 sm:text-lg lg:mx-0">
             {isAr
-              ? 'منتجات انكر وساوندكور وجوي روم الأصلية، مرتبة حسب احتياجك الحقيقي — عشان تختار صح من أول مرة وتدفع عند الاستلام.'
-              : 'Original Anker, Soundcore, and Joyroom products arranged around what you actually need — so you choose right the first time and pay on delivery.'}
+              ? 'منتجات انكر وساوندكور وجوي روم، مرتبة حسب احتياجك الحقيقي — مع شروط ضمان كايرو فولت المكتوبة والدفع عند الاستلام.'
+              : 'Anker, Soundcore, and Joyroom products arranged around what you actually need, with written CairoVolt warranty terms and cash on delivery.'}
           </p>
 
           <div className={`mt-8 flex flex-col gap-3 sm:flex-row ${isAr ? 'lg:justify-start' : 'lg:justify-start'} justify-center`}>
@@ -70,7 +75,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
               href="#product-showcase"
               className="group inline-flex min-h-14 items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-base font-bold text-[#07101f] shadow-[0_18px_45px_rgba(0,0,0,.28)] transition hover:-translate-y-0.5 hover:bg-cyan-50"
             >
-              {isAr ? 'تسوّق الأكثر طلبًا' : 'Shop popular picks'}
+              {isAr ? 'تسوّق مختاراتنا' : 'Shop featured picks'}
               <span className="transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1">{isAr ? '←' : '→'}</span>
             </Link>
             <Link
@@ -84,9 +89,9 @@ export default function HeroSection({ locale }: HeroSectionProps) {
 
           <div className="quality-badges mt-8 flex flex-wrap justify-center gap-x-5 gap-y-3 text-xs text-slate-300 lg:justify-start sm:text-sm">
             {[
-              { icon: 'check-circle', ar: 'أصلي ويمكن التحقق منه', en: 'Authenticity you can verify' },
-              { icon: 'shield', ar: 'ضمان حسب المنتج', en: 'Product-specific warranty' },
-              { icon: 'money', ar: 'دفع عند الاستلام', en: 'Cash on delivery' },
+              { icon: 'check-circle', ar: 'بيانات واضحة قبل الشراء', en: 'Clear product details' },
+              { icon: 'shield', ar: 'ضمان كايرو فولت حسب المنتج', en: 'Product-specific CairoVolt warranty' },
+              { icon: 'money', ar: 'دفع عند الاستلام للطلبات المؤهلة', en: 'Cash on delivery for eligible orders' },
             ].map((item) => (
               <span key={item.icon} className="flex items-center gap-1.5">
                 <SvgIcon name={item.icon} className="h-4 w-4 text-emerald-300" />
@@ -142,8 +147,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
                       <p className="mt-1 text-sm text-slate-500">{isAr ? 'GaN · يعرض قوة الشحن لحظة بلحظة' : 'GaN · live charging readout'}</p>
                     </div>
                     <div className="whitespace-nowrap text-end">
-                      <span className="me-2 text-sm text-slate-400 line-through">2,700</span>
-                      <span className="font-outfit text-2xl font-bold">1,900</span>
+                      <span className="font-outfit text-2xl font-bold">{formatPrice('anker-nano-45w-smart-display-charger')}</span>
                       <span className="ms-1 text-xs text-slate-500">{isAr ? 'ج.م' : 'EGP'}</span>
                     </div>
                   </div>
@@ -168,7 +172,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             <span className="min-w-0">
               <span className="block text-[10px] font-semibold uppercase tracking-wider text-cyan-300">{isAr ? 'ساوندكور' : 'Soundcore'}</span>
               <span className="block truncate text-xs font-semibold text-white">R50i NC</span>
-              <span className="block text-[11px] text-slate-400">1,199 {isAr ? 'ج.م' : 'EGP'}</span>
+              <span className="block text-[11px] text-slate-400">{formatPrice('anker-soundcore-r50i-nc')} {isAr ? 'ج.م' : 'EGP'}</span>
             </span>
           </Link>
 
@@ -179,16 +183,16 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-slate-100 to-slate-300">
               <Image
                 src="/images/home/cutouts/joyroom-3-in-1-wireless-charging-station-cutout-cairovolt.png"
-                alt="Joyroom 3-in-1 Wireless Station"
+                alt={isAr ? 'محطة شحن جوي روم لاسلكية 3 في 1' : 'Joyroom 3-in-1 Wireless Station'}
                 fill
                 sizes="56px"
                 className="object-contain p-1 drop-shadow-sm"
               />
             </span>
             <span className="min-w-0">
-              <span className="block text-[10px] font-semibold uppercase tracking-wider text-emerald-300">Joyroom</span>
+              <span className="block text-[10px] font-semibold uppercase tracking-wider text-emerald-300">{isAr ? 'جوي روم' : 'Joyroom'}</span>
               <span className="block truncate text-xs font-semibold text-white">{isAr ? 'محطة شحن 3 في 1' : '3-in-1 Station'}</span>
-              <span className="block text-[11px] text-slate-400">1,206 {isAr ? 'ج.م' : 'EGP'}</span>
+              <span className="block text-[11px] text-slate-400">{formatPrice('joyroom-3-in-1-wireless-charging-station')} {isAr ? 'ج.م' : 'EGP'}</span>
             </span>
           </Link>
         </div>

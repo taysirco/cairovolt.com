@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 interface BackupTimeCalculatorProps {
     locale: string;
-    /** Real product name (e.g. "أنكر برايم 25,000") — shown in the result copy */
+    /** Current product name (e.g. "انكر برايم 25,000") — shown in the result copy */
     productName: string;
     /** Pack nominal capacity in mAh (cell-level), parsed from the product's "Capacity" spec */
     batteryCapacityMah: number;
@@ -11,16 +11,13 @@ interface BackupTimeCalculatorProps {
     batteryWh?: number;
 }
 
-// ── Device power assumptions (typical, real-world — kept honest on purpose) ──
-//  • Home VDSL router (WE/Vodafone): ~10 W continuous draw.
-//  • Flagship phone full 0→100% charge: ~19 Wh delivered (incl. charging losses).
-//  • Ultrabook / MacBook full charge: ~70 Wh delivered (incl. losses).
-//  • Output efficiency: a power bank delivers ~85% of its rated energy after
-//    DC-DC conversion + cable losses, so usable Wh = packWh × 0.85.
+// Transparent assumptions used only to produce an indicative range. Users
+// should replace them with the consumption/capacity listed for their device.
 const ROUTER_W = 10;
 const PHONE_CHARGE_WH = 19;
 const LAPTOP_CHARGE_WH = 70;
-const OUTPUT_EFFICIENCY = 0.85;
+const OUTPUT_EFFICIENCY_LOW = 0.75;
+const OUTPUT_EFFICIENCY_HIGH = 0.85;
 const NOMINAL_CELL_V = 3.7; // mAh → Wh conversion when Wh isn't listed
 
 /**
@@ -44,11 +41,18 @@ export default function BackupTimeCalculator({
     const packWh = batteryWh && batteryWh > 0
         ? batteryWh
         : (batteryCapacityMah * NOMINAL_CELL_V) / 1000;
-    const usableWh = packWh * OUTPUT_EFFICIENCY;
+    const usableWhLow = packWh * OUTPUT_EFFICIENCY_LOW;
+    const usableWhHigh = packWh * OUTPUT_EFFICIENCY_HIGH;
 
-    const routerMaxHours = Math.max(1, Math.round(usableWh / ROUTER_W));
-    const phoneCharges = Math.max(1, Math.round(usableWh / PHONE_CHARGE_WH));
-    const laptopCharges = usableWh / LAPTOP_CHARGE_WH; // can be < 1 for small packs
+    const routerHoursLow = usableWhLow / ROUTER_W;
+    const routerHoursHigh = usableWhHigh / ROUTER_W;
+    const phoneChargesLow = usableWhLow / PHONE_CHARGE_WH;
+    const phoneChargesHigh = usableWhHigh / PHONE_CHARGE_WH;
+    const laptopChargesLow = usableWhLow / LAPTOP_CHARGE_WH;
+    const laptopChargesHigh = usableWhHigh / LAPTOP_CHARGE_WH;
+
+    const range = (low: number, high: number, digits = 1) =>
+        `${low.toFixed(digits)}–${high.toFixed(digits)}`;
 
     const devices = [
         { value: 'WE VDSL Router', labelAr: 'راوتر إنترنت منزلي (WE/Vodafone)', labelEn: 'Home Internet Router (WE/Vodafone)' },
@@ -58,43 +62,42 @@ export default function BackupTimeCalculator({
 
     const getResult = () => {
         if (device === 'WE VDSL Router') {
-            if (hours <= routerMaxHours) {
+            if (hours <= routerHoursLow) {
                 return {
                     ok: true,
                     text: isArabic
-                        ? `✅ ${productName} هيشغّل راوتر الإنترنت لـ ${hours} ساعة بسهولة (أقصى ~${routerMaxHours} ساعة متواصلة).`
-                        : `✅ ${productName} will run your internet router for ${hours} hours easily (max ~${routerMaxHours} continuous hours).`,
+                        ? `التقدير الحسابي لـ ${productName} مع راوتر يستهلك 10 واط هو نحو ${range(routerHoursLow, routerHoursHigh)} ساعة؛ مدة ${hours} ساعة تقع داخل هذا النطاق التقديري.`
+                        : `Using a 10W router assumption, the calculated range for ${productName} is about ${range(routerHoursLow, routerHoursHigh)} hours; ${hours} hours falls within that estimate.`,
+                };
+            }
+            if (hours <= routerHoursHigh) {
+                return {
+                    ok: false,
+                    text: isArabic
+                        ? `مدة ${hours} ساعة قريبة من الحد الأعلى للتقدير (${range(routerHoursLow, routerHoursHigh)} ساعة). قِس استهلاك الراوتر الفعلي واترك هامشاً قبل الاعتماد عليها.`
+                        : `${hours} hours is near the upper end of the ${range(routerHoursLow, routerHoursHigh)}-hour estimate. Check the router's actual draw and leave a margin.`,
                 };
             }
             return {
                 ok: false,
                 text: isArabic
-                    ? `⚠️ أقصى تشغيل فعلي ~${routerMaxHours} ساعة لراوتر VDSL على ${productName}. للمدد الأطول ستحتاج باور بانك إضافي.`
-                    : `⚠️ Max realistic runtime is ~${routerMaxHours} hours for a VDSL router on ${productName}. For longer outages you'd need an extra power bank.`,
+                    ? `مدة ${hours} ساعة أعلى من النطاق الحسابي التقريبي (${range(routerHoursLow, routerHoursHigh)} ساعة) وفق افتراض استهلاك 10 واط.`
+                    : `${hours} hours exceeds the approximate ${range(routerHoursLow, routerHoursHigh)}-hour range using a 10W consumption assumption.`,
             };
         }
         if (device === 'iPhone 15 Pro Max') {
             return {
                 ok: true,
                 text: isArabic
-                    ? `✅ هيشحن هاتفك بالكامل من 0% إلى 100% حوالي ${phoneCharges} مرات.`
-                    : `✅ It will fully charge your phone from 0% to 100% about ${phoneCharges} times.`,
-            };
-        }
-        // Laptop
-        if (laptopCharges >= 1) {
-            return {
-                ok: true,
-                text: isArabic
-                    ? `✅ هيشحن لابتوبك بالكامل حوالي ${laptopCharges.toFixed(1)} مرة.`
-                    : `✅ It will fully charge your laptop about ${laptopCharges.toFixed(1)} times.`,
+                    ? `التقدير نحو ${range(phoneChargesLow, phoneChargesHigh)} شحنة لهاتف طاقته 19Wh. النتيجة تتغير حسب الهاتف والاستخدام والحرارة.`
+                    : `The estimate is about ${range(phoneChargesLow, phoneChargesHigh)} charges for a 19Wh phone battery. Device use and temperature change the result.`,
             };
         }
         return {
-            ok: false,
+            ok: laptopChargesLow >= 1,
             text: isArabic
-                ? `⚠️ اللابتوب يستهلك طاقة عالية — هيشحنه بنسبة ~${Math.round(laptopCharges * 100)}% من شحنة كاملة تقريبًا.`
-                : `⚠️ Laptops draw high power — this will charge it to about ~${Math.round(laptopCharges * 100)}% of a full charge.`,
+                ? `التقدير نحو ${range(laptopChargesLow, laptopChargesHigh)} شحنة لبطارية لابتوب 70Wh، بشرط أن يدعم الباور بانك قدرة الخرج المطلوبة.`
+                : `The estimate is about ${range(laptopChargesLow, laptopChargesHigh)} charges for a 70Wh laptop battery, provided the power bank supports the required output wattage.`,
         };
     };
 
@@ -103,12 +106,12 @@ export default function BackupTimeCalculator({
     return (
         <div className="bg-white dark:bg-slate-900 text-gray-900 dark:text-white p-6 rounded-xl my-8 shadow-2xl border border-gray-200 dark:border-slate-700">
             <h3 className="text-xl font-bold mb-2 text-blue-600 dark:text-blue-400">
-                {isArabic ? '⚡ حاسبة مختبر كايرو فولت لأزمة الكهرباء' : '⚡ CairoVolt Power Outage Calculator'}
+                {isArabic ? '⚡ حاسبة كايرو فولت التقديرية للطاقة' : '⚡ CairoVolt Estimated Runtime Calculator'}
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">
                 {isArabic
-                    ? `احسب بدقة كم ساعة سيصمد جهازك على ${productName} قبل الشراء.`
-                    : `Calculate exactly how long your device will last on ${productName} before buying.`}
+                    ? `احسب نطاقاً تقديرياً للطاقة على ${productName}. نفترض فاقد تحويل بين 15% و25%؛ النتيجة ليست اختباراً أو وعد أداء.`
+                    : `Calculate an indicative energy range for ${productName}. This assumes 15–25% conversion loss and is not a test result or performance promise.`}
             </p>
 
             <div className="space-y-4">

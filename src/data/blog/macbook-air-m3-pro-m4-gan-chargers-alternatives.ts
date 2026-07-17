@@ -23,25 +23,25 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     coverImage: '/images/blog/posts/macbook-air-m3-pro-m4-gan-chargers-alternatives.webp',
     translations: {
         ar: {
-            title: 'بدائل GaN لشواحن MacBook الأصلية — نفس الأداء بنصف السعر في مصر',
-            metaTitle: 'بدائل GaN لشواحن MacBook الأصلية بنصف السعر | كايرو فولت',
-            metaDescription: 'اكتشف أفضل شواحن GaN البديلة لـ MacBook Air M3/M4 و MacBook Pro في مصر. مقارنة الأداء والحرارة والسعر مع شاحن Apple الأصلي — بأرقام حقيقية. تابع التفاصيل بمصر.',
+            title: 'بدائل GaN لشواحن MacBook — دليل التوافق والمنافذ والسعر في مصر',
+            metaTitle: 'اختيار شاحن GaN متوافق مع MacBook | كايرو فولت',
+            metaDescription: 'قارن شواحن GaN لـ MacBook Air M3/M4 وMacBook Pro حسب قدرة الجهاز وUSB-C PD والكابل والمنافذ والسعر الحالي في مصر.',
             keywords: 'شاحن ماك بوك بديل, شاحن GaN للاب توب, بديل شاحن ابل, شاحن MacBook Air M4, شاحن ماك بوك في مصر, انكر نانو 45 واط ماك بوك, GaN charger MacBook Egypt, افضل شاحن لابتوب ابل',
-            excerpt: 'مقارنة شاملة بين شاحن Apple الأصلي وبدائل GaN من Anker — أيهم أوفر وأصغر حجماً وبيشحن بنفس السرعة في مصر.',
-            quickAnswer: 'أيوا، شاحن GaN زي Anker Nano 45W بيشحن MacBook Air M3/M4 بنفس سرعة شاحن Apple الأصلي بالظبط (45W عبر USB-C PD 3.0) — بس بحجم أصغر 40% وسعر أقل 50%. الشرط الوحيد: كابل USB-C يدعم 60W+ زي Anker PowerLine. متاح على كايرو فولت بـ 790ج بضمان 24 شهر.',
-            content: `<p>لو إنت من مستخدمي MacBook في مصر — وبالذات MacBook Air M3 أو M4 — فأكيد عديت بالموقف ده قبل كده: الشاحن الأصلي بتاع Apple اللي جاي في العلبة... مجاش في العلبة أصلاً. أيوا، Apple من 2022 بتبيعلك لابتوب بـ 40,000-65,000 جنيه وبتقولك "الشاحن عليك يا صديقي." وبعدين تروح الـ Apple Store أو الموزع المعتمد تلاقي الشاحن الأصلي 30W بـ 1,500ج والـ 35W Dual بـ 2,200ج. ساعتها بتبص للشاحن، وبتبص لمحفظتك، وبتسأل نفسك: "هو أنا لازم أدفع تمن عزومة كاملة في مطعم محترم عشان أشحن اللابتوب؟"</p>
+            excerpt: 'قارن شاحن Apple وبدائل GaN من انكر حسب قدرة MacBook وبروتوكول USB-C PD والكابل والحجم والسعر الحالي.',
+            quickAnswer: 'يمكن لشاحن GaN متوافق شحن MacBook عندما يطابق قدرة USB-C PD والكابل المطلوبين للموديل، لكن لا يُضمن زمن مماثل أو فرق ثابت في الحجم أو السعر. راجع مواصفات Apple وتوزيع منافذ الشاحن، ثم قارن موديلات انكر بالسعر الحالي وشروط ضمان المتجر المكتوبة.',
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>لو إنت من مستخدمي MacBook في مصر — وبالذات MacBook Air M3 أو M4 — فأكيد عديت بالموقف ده قبل كده: الشاحن الأصلي بتاع Apple اللي جاي في العلبة... مجاش في العلبة أصلاً. أيوا، Apple من 2022 بتبيعلك لابتوب بـ 40,000-65,000 جنيه وبتقولك "الشاحن عليك يا صديقي." وبعدين تروح الـ Apple Store أو الموزع المعتمد تلاقي الشاحن الأصلي 30W بـ 1,500ج والـ 35W Dual بـ 2,200ج. ساعتها بتبص للشاحن، وبتبص لمحفظتك، وبتسأل نفسك: "هو أنا لازم أدفع تمن عزومة كاملة في مطعم محترم عشان أشحن اللابتوب؟"</p>
 
 <p>الإجابة المختصرة: <strong>لأ.</strong> تقنية GaN (نيتريد الجاليوم) خلّت في شواحن بديلة بتدّي نفس الواط — وأحياناً أكتر — بحجم أصغر وسعر أقل. بس مش كل بديل يستاهل فلوسك. في المقال ده هنشرحلك بالفيزياء والأرقام: ليه شواحن GaN بتنافس Apple، وأنهي موديلات تستاهل فلوسك في السوق المصري، وأنهي حاجات لازم تاخد بالك منها عشان متحرقش البطارية أو المحفظة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أيوا، شاحن GaN زي Anker Nano 45W بيشحن MacBook Air M3/M4 بنفس سرعة شاحن Apple الأصلي بالظبط (45W عبر USB-C PD 3.0) — بس بحجم أصغر 40% وسعر أقل 50%. الشرط الوحيد: كابل USB-C يدعم 60W+ زي Anker PowerLine. متاح على كايرو فولت بـ 790ج بضمان 24 شهر.
+        <strong>💡 الإجابة السريعة:</strong> يمكن لشاحن USB-C PD متوافق مثل انكر Nano 45W شحن بعض موديلات MacBook Air، لكن القدرة والزمن يتغيران حسب الطراز والكابل والحمل والحرارة. طابق خرج المنفذ مع دليل MacBook، وراجع الأبعاد والسعر الحالي ومدة ضمان المتجر على صفحة المنتج والفاتورة.
     </p>
 </div>
 
 <h2>ليه شاحن Apple الأصلي غالي كده — وهل فعلاً يستاهل؟</h2>
 
-<p>خلينا نكون صريحين: شاحن Apple الأصلي مش شاحن سيئ. التصنيع ممتاز، الأمان عالي، والتوافق مضمون 100%. بس المشكلة إنك بتدفع <strong>"ضريبة التفاحة"</strong> — يعني نسبة كبيرة من السعر رايحة على البراند مش على التكنولوجيا.</p>
+<p>شاحن Apple المصمم للجهاز يوفر توافقًا موثقًا، لكن لا يوجد منتج يضمن الأمان أو النتيجة بنسبة مطلقة. البدائل قد تكون مناسبة لو طابقت قدرة USB-C PD والكابل ومتطلبات الماك، لذلك قارن المواصفات والسعر الحالي وشروط الضمان بدل افتراض أن فرق السعر كله للعلامة.</p>
 
 <p>شاحن Apple 30W USB-C (Model A2164) في مصر بيتباع بـ 1,400-1,600ج من الموزعين المعتمدين. والـ 35W Dual USB-C (A2571) بـ 2,000-2,300ج. وده شاحن سيليكون تقليدي — مش GaN — يعني حجمه أكبر من البدائل الحديثة بنسبة 30-50%.</p>
 
@@ -155,7 +155,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     </tbody>
 </table>
 
-<p>لاحظ الأرقام: انكر Nano 45W بيدّيك <strong>قدرة أعلى بـ 50% من شاحن Apple 30W</strong>، بحجم أصغر 40%، وبسعر تقريباً نصف تمن شاحن Apple. يعني لو اشتريت شاحنين Anker Nano 45W — واحد للبيت وواحد للشغل — كمان هتكون دفعت أقل من شاحن Apple واحد. ده مش ذكاء في الشراء — ده محاضرة في الاقتصاد الهندسي.</p>
+<p>لاحظ الأرقام: انكر Nano 45W بيدّيك <strong>قدرة أعلى بـ 50% من شاحن Apple 30W</strong>، بحجم أصغر 40%، وبسعر تقريباً نصف تمن شاحن Apple. يعني لو اشتريت شاحنين انكر Nano 45W — واحد للبيت وواحد للشغل — كمان هتكون دفعت أقل من شاحن Apple واحد. ده مش ذكاء في الشراء — ده محاضرة في الاقتصاد الهندسي.</p>
 
 <h2>هل شاحن 30 واط كافي لـ MacBook Air — ولا محتاج 45 واط؟</h2>
 
@@ -177,7 +177,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">💻 <strong>MacBook Pro 14" (M4 Pro):</strong> بييجي بشاحن 70W أصلي — ومحتاج 65W+ عشان يشحن بأقصى سرعة.</li>
     <li style="margin-bottom:12px;">💻 <strong>MacBook Pro 16" (M4 Max):</strong> بييجي بشاحن 140W أصلي عبر MagSafe 3 — ومحتاج 100W+ عبر USB-C.</li>
-    <li style="margin-bottom:12px;">⚠️ <strong>الحقيقة:</strong> حالياً في السوق المصري مفيش شواحن GaN من Anker أو Joyroom بأكتر من 45W متاحة رسمياً عبر الموزع المعتمد. يعني لو عندك MacBook Pro — شاحن 45W هيشحنه بس بسرعة أبطأ من الأصلي.</li>
+    <li style="margin-bottom:12px;">⚠️ <strong>الحقيقة:</strong> حالياً في السوق المصري مفيش شواحن GaN من انكر أو Joyroom بأكتر من 45W متاحة رسمياً عبر الموزع المعتمد. يعني لو عندك MacBook Pro — شاحن 45W هيشحنه بس بسرعة أبطأ من الأصلي.</li>
 </ul>
 
 <p>شاحن 45W زي <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W</a> ممكن يشحن MacBook Pro 14" ببطء أثناء العمل — وده حل ممتاز كـ<strong>شاحن سفر ثانوي</strong> أو شاحن طوارئ. بس مينفعش يكون شاحنك الأساسي لو بتشتغل على Final Cut أو Blender طول اليوم.</p>
@@ -202,11 +202,11 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 
 <h2>5 أخطاء شائعة في اختيار شاحن بديل لـ MacBook</h2>
 
-<p>من خبرتنا في كايرو فولت مع آلاف العملاء، دي أشهر الغلطات اللي بنشوفها:</p>
+<p>بناءً على متطلبات USB-C PD وإرشادات التوافق المنشورة، دي أشهر الأخطاء اللي تستحق المراجعة قبل ما تشتري:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #1: شراء شاحن بدون USB-C PD.</strong> لازم يدعم Power Delivery protocol — مش كل شاحن USB-C بيفهم "لغة" MacBook. لو الشاحن بيدعم QC بس بدون PD، الماك بوك هياخد 5W فقط.</li>
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ #2: التركيز على الواط بدون النظر للبروتوكول.</strong> شاحن 65W QC 3.0 مش هيفيد MacBook. المهم USB-C PD 3.0 — وده موجود في كل شواحن Anker GaN.</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ #2: التركيز على الواط بدون النظر للبروتوكول.</strong> شاحن 65W QC 3.0 مش هيفيد MacBook. المهم USB-C PD 3.0 — وده موجود في كل شواحن انكر GaN.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #3: شراء شاحن مجهول المصدر من OLX.</strong> شواحن "GaN" بـ 100ج على OLX — غالباً سيليكون عادي بملصق GaN مزيّف. والأخطر إنها بتيجي بدون حماية OVP/OCP، يعني ممكن تبعت voltage spike يحرق الـ Logic Board.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #4: نسيان الكابل.</strong> كابل USB-C رخيص (charge-only) ممكن يحدّ السرعة على 15W حتى مع شاحن 45W. لازم الكابل يدعم E-Marker أو على الأقل 60W.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #5: شراء 100W لـ MacBook Air.</strong> MacBook Air مش بيقبل أكتر من 45W — أي شاحن أعلى مفيش ضرر (الجهاز بيسحب اللي محتاجه بس) لكن إنت بتدفع تمن واط مش هتستخدمه.</li>
@@ -229,7 +229,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;">400-500ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 3 GaN 30W</a></strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">أفضل قيمة — GaN حقيقي بحجم صغير جداً + ضمان 24 شهر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">قارن الأبعاد والسعر الحالي ومدة الضمان المكتوبة للموديل</td>
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>700-900ج ⭐</strong></td>
@@ -249,14 +249,14 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل شواحن GaN المذكورة في المقال <strong>أصلية بضمان 24 شهر</strong> من الموزع المعتمد + توصيل لكل المحافظات خلال 24-72 ساعة + دعم واتساب 24/7. لو الشاحن ضرب خلال فترة الضمان — بنبدّله مش بنصلّحه.
+        راجع صفحة كل شاحن GaN للتأكد من رقم الموديل وقدرة كل منفذ والسعر الحالي وشروط ضمان كايرو فولت المكتوبة. يظهر تقدير التوصيل والتكلفة حسب عنوانك قبل إتمام الطلب؛ وتُقيّم مطالبة الضمان وفق الشروط وحالة المنتج.
     </p>
 </div>
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
-        <li><a href="https://www.anker.com/products/chargers" rel="nofollow">Anker Official — GaN Charger Specifications</a></li>
+        <li><a href="https://www.anker.com/products/chargers" rel="nofollow">انكر Official — GaN Charger Specifications</a></li>
         <li><a href="https://support.apple.com/en-us/111845" rel="nofollow">Apple Support — MacBook Air Charging Requirements</a></li>
         <li><a href="https://www.tomshardware.com/reviews/best-usb-c-chargers" rel="nofollow">Tom's Hardware — Best USB-C Chargers 2026</a></li>
     </ul>
@@ -264,30 +264,30 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             faq: [
                 {
                     question: 'هل شاحن GaN بديل بيضر بطارية MacBook؟',
-                    answer: 'لأ — طالما الشاحن بيدعم USB-C PD protocol (زي شواحن Anker GaN)، الماك بوك بيتحكم في الشحن داخلياً ومش بيسحب أكتر من اللي البطارية محتاجاه. بل شاحن GaN حرارته أقل بـ 20-25°م من السيليكون، وده أحسن لصحة البطارية على المدى الطويل.',
+                    answer: 'تقنية GaN وحدها لا تثبت التوافق أو الأمان. اختَر شاحناً يطابق مواصفات USB-C PD والقدرة المطلوبة لطراز MacBook، مع كابل مناسب وحمايات موضحة من الشركة المصنّعة. راجع مواصفات Apple والطراز الدقيق للشاحن؛ ولا تفترض فرقاً ثابتاً في الحرارة أو أثراً مضموناً في عمر البطارية.',
                 },
                 {
-                    question: 'إيه الفرق بين شاحن Anker Nano 45W العادي وإصدار Smart Display؟',
-                    answer: 'الاتنين بيدّوا نفس الـ 45W بالظبط بتقنية GaN. الفرق إن Smart Display (A121D) عنده شاشة TFT صغيرة بتعرض الواط اللحظي + Care Mode بيقلل الشحن لـ 80% لإطالة عمر البطارية + تصميم حاصل على Red Dot 2026. السعر 1,900ج مقابل 790ج للعادي.',
+                    question: 'إيه الفرق بين شاحن انكر Nano 45W العادي وإصدار Smart Display؟',
+                    answer: 'قارن رقمَي الموديل والمواصفات المنشورة لكل إصدار، لأن الشاشة والأوضاع وتوزيع القدرة قد تختلف حسب النسخة والسوق. تحقّق من صفحة المنتج الحالية لمعرفة وظيفة الشاشة وCare Mode والمنافذ والسعر المتاح، ومن جهة الجائزة نفسها قبل الاعتماد على أي إشارة إلى جائزة تصميم.',
                 },
                 {
                     question: 'أقدر أشحن MacBook Pro 14" بشاحن 45W؟',
-                    answer: 'أيوا بس ببطء — MacBook Pro 14" (M4 Pro) بييجي بشاحن 70W أصلي. شاحن 45W هيشحنه بسرعة أقل 35% تقريباً، وأثناء الأحمال الثقيلة (رندر/Xcode) ممكن البطارية تنزل حتى وهو متوصل. كشاحن سفر ثانوي ممتاز — كشاحن أساسي مش مثالي.',
+                    answer: 'قد يعمل شاحن 45W مع بعض طرازات MacBook Pro عبر USB-C PD، لكنه قد يشحن ببطء أو لا يغطي استهلاك الجهاز تحت الحمل. راجع القدرة الموصى بها لطرازك على موقع Apple؛ فالنتيجة لا يمكن اختزالها في نسبة بطء ثابتة، وتتأثر بالاستخدام والكابل وتوزيع قدرة الشاحن.',
                 },
                 {
                     question: 'هل كابل USB-C العادي كافي لشحن MacBook من شاحن GaN؟',
-                    answer: 'مش أي كابل. لازم يكون كابل USB-C بيدعم 60W+ (3A @ 20V على الأقل). كابلات charge-only الرخيصة بتحدّ السرعة على 15W. الأفضل كابل Anker PowerLine أو زولو A8060 (140W) — بيضمن أقصى سرعة ويتحمل 10,000+ دورة ثني.',
+                    answer: 'اختَر كابلاً يطابق القدرة وبروتوكول الشحن المطلوبين لطراز MacBook والشاحن؛ وقد تتطلب القدرات الأعلى كابلاً موسوماً بقدرة مناسبة وشريحة E-Marker. لا يضمن اسم العلامة أو رقم القدرة وحده أقصى سرعة أو عمراً محدداً، لذلك راجع مواصفات الكابل والضمان والسعر الحالي قبل الشراء.',
                 },
             ],
         },
         en: {
-            title: 'GaN Alternatives to Apple MacBook Chargers — Same Performance, Half the Price in Egypt',
-            metaTitle: 'GaN Alternatives to MacBook Chargers at Half Price | CairoVolt',
-            metaDescription: 'Discover the best GaN charger alternatives for MacBook Air M3/M4 and MacBook Pro in Egypt. Real performance, heat, and price comparison vs Apple original.',
+            title: 'GaN Alternatives for MacBook Chargers: Compatibility, Ports, and Price in Egypt',
+            metaTitle: 'Choosing a Compatible GaN Charger for MacBook | CairoVolt',
+            metaDescription: 'Compare GaN chargers for MacBook Air M3/M4 and MacBook Pro by device wattage, USB-C PD profile, cable, ports, and current price in Egypt.',
             keywords: 'MacBook charger alternative Egypt, GaN charger for MacBook, Anker Nano 45W MacBook, MacBook Air M4 charger, best laptop charger Egypt, Apple charger alternative GaN, USB-C PD charger MacBook, cheap MacBook charger Egypt',
-            excerpt: 'A comprehensive comparison between Apple\'s original MacBook charger and GaN alternatives from Anker — which one offers better value, smaller size, and equal speed in Egypt.',
-            quickAnswer: 'Yes, a GaN charger like Anker Nano 45W charges MacBook Air M3/M4 at exactly the same speed as Apple\'s original charger (45W via USB-C PD 3.0) — but 40% smaller and 50% cheaper. Only requirement: a 60W+ USB-C cable like Anker PowerLine. Available at CairoVolt for 790 EGP with 24-month warranty.',
-            content: `<p>If you're a MacBook user in Egypt — especially a MacBook Air M3 or M4 owner — you've definitely experienced this moment before: the "original" Apple charger that came in the box... didn't actually come in the box. That's right — since 2022, Apple has been selling you a laptop worth 40,000-65,000 EGP and telling you "the charger is on you, buddy." Then you visit the Apple Store or authorized reseller and find the original 30W charger at 1,500 EGP and the 35W Dual at 2,200 EGP. At that point, you look at the charger, look at your wallet, and ask yourself: "Do I really need to spend the equivalent of a fancy dinner to charge my laptop?"</p>
+            excerpt: 'Compare Apple and Anker GaN options by MacBook output requirements, USB-C PD profile, cable, size, ports, and current price.',
+            quickAnswer: 'A compatible GaN charger can charge a MacBook when it matches the exact model\'s USB-C PD and cable requirements, but identical time or a fixed size or price difference is not guaranteed. Check Apple\'s specifications and charger port allocation, then compare current prices and CairoVolt\'s written store-warranty terms.',
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>If you're a MacBook user in Egypt — especially a MacBook Air M3 or M4 owner — you've definitely experienced this moment before: the "original" Apple charger that came in the box... didn't actually come in the box. That's right — since 2022, Apple has been selling you a laptop worth 40,000-65,000 EGP and telling you "the charger is on you, buddy." Then you visit the Apple Store or authorized reseller and find the original 30W charger at 1,500 EGP and the 35W Dual at 2,200 EGP. At that point, you look at the charger, look at your wallet, and ask yourself: "Do I really need to spend the equivalent of a fancy dinner to charge my laptop?"</p>
 
 <p>The short answer: <strong>No.</strong> GaN (Gallium Nitride) technology has produced alternative chargers that deliver the same wattage — and sometimes more — in a smaller size at a lower price. But not every alternative is worth your money. In this article, we'll explain with physics and real numbers: why GaN chargers compete with Apple, which models are worth buying in Egypt, and what pitfalls to avoid to protect both your battery and your wallet.</p>
 
@@ -301,7 +301,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 
 <p>Let's be honest: Apple's original charger isn't a bad charger. The build quality is excellent, safety is top-notch, and compatibility is guaranteed at 100%. But the problem is you're paying the <strong>"Apple tax"</strong> — a significant portion of the price goes to the brand, not the technology.</p>
 
-<p>Apple's 30W USB-C charger (Model A2164) sells for 1,400-1,600 EGP from authorized distributors in Egypt. The 35W Dual USB-C (A2571) goes for 2,000-2,300 EGP. And these are traditional silicon chargers — not GaN — meaning they're 30-50% larger than modern alternatives.</p>
+<p>Prices listed for Apple's 30W A2164 and 35W Dual USB-C A2571 are editorial snapshots; verify the current seller, price, stock, and warranty. Compare dimensions and technology using the exact model specifications rather than assuming distributor status or a fixed size difference.</p>
 
 <p>In contrast, the <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W GaN III</a> delivers <strong>a real 45 watts</strong> via USB-C PD 3.0 — 15W more than Apple's original charger — while being 40% smaller and priced at 790 EGP. That's half the price with higher output. This isn't opinion — it's physics.</p>
 
@@ -435,7 +435,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">💻 <strong>MacBook Pro 14" (M4 Pro):</strong> Ships with a 70W original charger — needs 65W+ for maximum charging speed.</li>
     <li style="margin-bottom:12px;">💻 <strong>MacBook Pro 16" (M4 Max):</strong> Ships with a 140W original charger via MagSafe 3 — needs 100W+ via USB-C.</li>
-    <li style="margin-bottom:12px;">⚠️ <strong>The Reality:</strong> Currently in the Egyptian market, there are no GaN chargers from Anker or Joyroom above 45W available through official distributors. If you have a MacBook Pro, a 45W charger will charge it, but slower than the original.</li>
+    <li style="margin-bottom:12px;">⚠️ <strong>Check current availability:</strong> Stock and seller status for Anker and Joyroom models above 45W can change. Use the live category and product pages, and match the MacBook's required USB-C PD profile before purchase.</li>
 </ul>
 
 <p>A 45W charger like the <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> can slow-charge a MacBook Pro 14" while working — an excellent solution as a <strong>secondary travel charger</strong> or emergency backup. But it shouldn't be your primary charger if you're running Final Cut or Blender all day.</p>
@@ -460,7 +460,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 
 <h2>5 Common Mistakes When Choosing a MacBook Charger Alternative</h2>
 
-<p>From our experience at CairoVolt serving thousands of customers, these are the most common mistakes we see:</p>
+<p>Based on USB-C PD requirements and published compatibility guidance, these are the most common mistakes worth checking before you buy:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">❌ <strong>Mistake #1: Buying a charger without USB-C PD.</strong> It must support Power Delivery protocol — not every USB-C charger "speaks" MacBook's language. A QC-only charger without PD will deliver just 5W to your MacBook.</li>
@@ -502,12 +502,12 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     </tbody>
 </table>
 
-<p>If you ask me as an electronics engineer: the <strong>Anker Nano 45W GaN III at 790 EGP</strong> is the best balance of price, performance, and size. You get maximum MacBook Air charging speed, and you can also fast-charge your iPhone 17 or Samsung S26 — one charger for all your devices. And you save over 700 EGP compared to Apple's original charger — enough to buy a <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">proper USB-C cable</a> and still have change left over.</p>
+<p>The <strong>Anker Nano 45W GaN III</strong> may suit a MacBook Air when its exact USB-C PD output and your cable meet the computer's requirements. If you also need a lead, price a <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">properly rated USB-C cable</a> alongside it. Compare its current product-page price, port profile, included cable, and written warranty with Apple and other alternatives; this guide does not declare one universal best value or fixed saving.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All GaN chargers mentioned in this article are <strong>genuine with 24-month warranty</strong> from the authorized distributor + delivery to all governorates within 24-72 hours + 24/7 WhatsApp support. If the charger fails during warranty — we replace it, not repair it.
+        Check each GaN charger page for the exact model, per-port output, live price, and CairoVolt's written warranty terms. Delivery timing and cost are estimated from your address before checkout; warranty requests are assessed under those terms and the product condition.
     </p>
 </div>
 
@@ -522,19 +522,19 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             faq: [
                 {
                     question: 'Does a GaN alternative charger damage MacBook\'s battery?',
-                    answer: 'No — as long as the charger supports USB-C PD protocol (like all Anker GaN chargers), the MacBook controls charging internally and never draws more than the battery needs. GaN chargers actually run 20-25°C cooler than silicon ones, which is better for long-term battery health.',
+                    answer: 'GaN technology alone does not establish compatibility or safety. Choose a charger that matches the exact MacBook model’s USB-C PD and output requirements, with a suitable cable and documented protections. Check Apple’s specifications and the exact charger model; do not assume a fixed temperature difference or a guaranteed battery-health benefit.',
                 },
                 {
                     question: 'What\'s the difference between regular Anker Nano 45W and the Smart Display version?',
-                    answer: 'Both deliver exactly the same 45W via GaN technology. The Smart Display (A121D) adds a small TFT screen showing real-time wattage + Care Mode that limits charging to 80% for battery longevity + a Red Dot 2026 award-winning design. Price is 1,900 EGP versus 790 EGP for the standard version.',
+                    answer: 'Compare the exact model numbers and published specifications, because display functions, modes, and power allocation can vary by version and market. Check the current product pages for display behavior, Care Mode, ports, availability, and price; verify any design-award reference with the award issuer before relying on it.',
                 },
                 {
                     question: 'Can I charge a MacBook Pro 14" with a 45W charger?',
-                    answer: 'Yes, but slowly — the MacBook Pro 14" (M4 Pro) ships with a 70W original charger. A 45W charger will charge it about 35% slower, and during heavy workloads (rendering/Xcode), the battery may drain even while plugged in. Excellent as a secondary travel charger — not ideal as your primary charger.',
+                    answer: 'A 45W USB-C PD charger may work with some MacBook Pro models, but it can charge slowly or fail to cover power use under load. Check Apple’s recommended power for the exact model. The result cannot be reduced to a fixed slowdown percentage and depends on workload, cable, and charger power allocation.',
                 },
                 {
                     question: 'Is any USB-C cable sufficient for charging MacBook from a GaN charger?',
-                    answer: 'Not just any cable. You need a USB-C cable rated for 60W+ (3A @ 20V minimum). Cheap charge-only cables limit speed to 15W. Best option is an Anker PowerLine or Zolo A8060 (140W rated) — ensures maximum speed and withstands 10,000+ bend cycles.',
+                    answer: 'Choose a cable that matches the MacBook model’s and charger’s required power and charging protocol; higher outputs may require an appropriately rated, E-Marker-equipped cable. A brand name or wattage label alone does not guarantee maximum speed or a specific lifespan, so check the cable specifications, warranty, and current price.',
                 },
             ],
         },

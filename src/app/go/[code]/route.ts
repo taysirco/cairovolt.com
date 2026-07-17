@@ -7,7 +7,7 @@
  * - Zero external dependencies (in-memory static lookup)
  * - Sub-millisecond resolution
  * - Click tracking via Firestore (deferred, non-blocking)
- * - Permanent 301 redirect for SEO link equity
+ * - Permanent 301 redirect for established short links
  * 
  * Example:
  *   cairovolt.com/go/anker-zolo-a110e-20000

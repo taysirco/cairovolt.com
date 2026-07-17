@@ -26,16 +26,16 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
             title: 'موبايلك يحدد سماعتك — دليل اختيار السماعة المثالية حسب الماركة والموديل',
             metaTitle: 'أفضل سماعة لكل موبايل: iPhone وSamsung وXiaomi وOppo | كايرو فولت',
             metaDescription: 'دليل هندسي لاختيار السماعة اللاسلكية المناسبة حسب ماركة موبايلك. مقارنة الـ Codecs وتوافق الشرائح وميزات النظام البيئي لأشهر 4 ماركات في مصر.',
-            keywords: 'أفضل سماعة بلوتوث لآيفون, أفضل سماعة لسامسونج, سماعة شاومي, سماعة أوبو, سماعة بلوتوث حسب الموبايل, توافق سماعة مع الموبايل, LDAC سماعة, AAC سماعة آيفون, bluetooth earbuds by phone brand egypt, ساوند كور مع آيفون',
+            keywords: 'أفضل سماعة بلوتوث لآيفون, أفضل سماعة لسامسونج, سماعة شاومي, سماعة أوبو, سماعة بلوتوث حسب الموبايل, توافق سماعة مع الموبايل, LDAC سماعة, AAC سماعة آيفون, bluetooth earbuds by phone brand egypt, ساوندكور مع آيفون',
             excerpt: 'دليل هندسي متخصص لاختيار السماعة اللاسلكية المثالية بناءً على ماركة موبايلك — من الـ Codecs لتوافق الشرائح لميزات النظام البيئي.',
-            quickAnswer: 'اختيار السماعة اللاسلكية المثالية يعتمد على ماركة موبايلك: آيفون يدعم AAC فقط (لا LDAC) فاختر سماعة متفوقة في AAC زي Liberty 4 NC أو R50i. سامسونج يدعم Samsung Scalable Codec + SBC فالأداء ممتاز مع أي سماعة Soundcore. شاومي يدعم LDAC فتقدر تستفيد من أقصى جودة صوتية مع Liberty 4 NC. أوبو يدعم LHDC/AAC فالأفضل سماعة متوازنة زي A30i. السماعة الصح مع الموبايل الصح = فرق حقيقي في جودة الصوت.',
-            content: `<p>إنت واقف في المحل، بتتفرج على سماعات البلوتوث المعروضة، والبياع بيقولك "دي أحسن سماعة في السوق!" — طيب أحسن سماعة لمين بالظبط؟ لأن اللي مش بيقولك عليه البياع — وده الحاجة اللي كأستاذ هندسة إلكترونيات بقولك عليها — إن "أحسن سماعة" بتختلف حسب الموبايل اللي في جيبك. نفس السماعة اللي بتدّي صوت 10/10 على Samsung S26 Ultra ممكن تدّي 6/10 على iPhone 17 Pro Max — مش عشان السماعة وحشة، لكن عشان البروتوكول اللي بينقل الصوت بينهم مختلف تماماً. ده زي بالظبط ما تشتري أسرع عربية في العالم وتحطلها بنزين 80 بدل 95 — المحرك هيشتغل، بس مش هيدّي أداءه الكامل.</p>
+            quickAnswer: 'اختيار السماعة اللاسلكية المثالية يعتمد على ماركة موبايلك: آيفون يدعم AAC فقط (لا LDAC) فاختر سماعة متفوقة في AAC زي Liberty 4 NC أو R50i. سامسونج يدعم Samsung Scalable Codec + SBC فالأداء ممتاز مع أي سماعة ساوندكور. شاومي يدعم LDAC فتقدر تستفيد من أقصى جودة صوتية مع Liberty 4 NC. أوبو يدعم LHDC/AAC فالأفضل سماعة متوازنة زي A30i. السماعة الصح مع الموبايل الصح = فرق حقيقي في جودة الصوت.',
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p class="content-method-note"><strong>أساس المقارنة:</strong> تعتمد الأرقام التالية على المواصفات المنشورة أو أمثلة حسابية موضحة، وتتغير النتيجة حسب الجهاز والحرارة وطريقة الاستخدام.</p>
 
-<p>المشكلة إن 90% من المحتوى العربي بيقولك "أفضل سماعة بلوتوث" من غير ما يسألك "موبايلك إيه؟" — وده خطأ جوهري. لأن شركات الموبايلات (Apple و Samsung و Xiaomi و Oppo) كل واحدة فيهم بتدعم بروتوكولات صوت (Audio Codecs) مختلفة. الـ Codec هو "لغة" نقل الصوت بين الموبايل والسماعة — لو الاتنين بيتكلموا نفس اللغة بأعلى مستوى، الصوت بيطلع نقي وتفصيلي. لو لأ، الصوت بيتضغط وبيفقد تفاصيل. في المقال ده هنفتح الموضوع من زاوية محدش اتكلم فيها: هنشرح لكل ماركة موبايل بالظبط إيه الـ Codecs اللي بيدعمها، وإيه أفضل سماعة ساوند كور ليها، وليه. يعني لما تخلّص القراءة، هتعرف تختار السماعة اللي فعلاً هتدّيك أقصى أداء مع موبايلك — مش "أحسن سماعة في المطلق".</p>
+<p>المشكلة إن 90% من المحتوى العربي بيقولك "أفضل سماعة بلوتوث" من غير ما يسألك "موبايلك إيه؟" — وده خطأ جوهري. لأن شركات الموبايلات (Apple و Samsung و Xiaomi و Oppo) كل واحدة فيهم بتدعم بروتوكولات صوت (Audio Codecs) مختلفة. الـ Codec هو "لغة" نقل الصوت بين الموبايل والسماعة — لو الاتنين بيتكلموا نفس اللغة بأعلى مستوى، الصوت بيطلع نقي وتفصيلي. لو لأ، الصوت بيتضغط وبيفقد تفاصيل. في المقال ده هنفتح الموضوع من زاوية محدش اتكلم فيها: هنشرح لكل ماركة موبايل بالظبط إيه الـ Codecs اللي بيدعمها، وإيه أفضل سماعة ساوندكور ليها، وليه. يعني لما تخلّص القراءة، هتعرف تختار السماعة اللي فعلاً هتدّيك أقصى أداء مع موبايلك — مش "أحسن سماعة في المطلق".</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> اختيار السماعة اللاسلكية المثالية يعتمد على ماركة موبايلك: آيفون يدعم AAC فقط (لا LDAC) فاختر سماعة متفوقة في AAC زي Liberty 4 NC أو R50i. سامسونج يدعم Samsung Scalable Codec + SBC فالأداء ممتاز مع أي سماعة Soundcore. شاومي يدعم LDAC فتقدر تستفيد من أقصى جودة صوتية مع Liberty 4 NC. أوبو يدعم LHDC/AAC فالأفضل سماعة متوازنة زي A30i. السماعة الصح مع الموبايل الصح = فرق حقيقي في جودة الصوت.
+        <strong>💡 الإجابة السريعة:</strong> اختيار السماعة اللاسلكية المثالية يعتمد على ماركة موبايلك: آيفون يدعم AAC فقط (لا LDAC) فاختر سماعة متفوقة في AAC زي Liberty 4 NC أو R50i. سامسونج يدعم Samsung Scalable Codec + SBC فالأداء ممتاز مع أي سماعة ساوندكور. شاومي يدعم LDAC فتقدر تستفيد من أقصى جودة صوتية مع Liberty 4 NC. أوبو يدعم LHDC/AAC فالأفضل سماعة متوازنة زي A30i. السماعة الصح مع الموبايل الصح = فرق حقيقي في جودة الصوت.
     </p>
 </div>
 
@@ -101,35 +101,35 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🎵 <strong>الـ Codec الأقصى على آيفون:</strong> AAC (256 kbps) — وده ثابت مهما كان نوع السماعة. حتى AirPods Pro 3 بتشتغل بـ AAC مع آيفون (+ Apple Lossless عبر شريحة H2 حصرياً).</li>
     <li style="margin-bottom:12px;">📱 <strong>ميزة النظام البيئي:</strong> آيفون بيدّي أفضلية لسماعات تدعم AAC بشكل ممتاز + Bluetooth 5.3 — الاتصال بيكون أسرع وأثبت. كمان iOS 18+ بيدعم Spatial Audio مع أي سماعة بتدعم head tracking — مش بس AirPods.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>التأخير (Latency):</strong> آيفون مع AAC بيعطي تأخير حوالي 120-150ms — مقبول للموسيقى والفيديو، لكن لو بتلعب PUBG أو Free Fire هتحتاج Game Mode في السماعة. سماعات <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوند كور</a> بتوفر Game Mode بتأخير 60ms تقريباً.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>التأخير (Latency):</strong> آيفون مع AAC بيعطي تأخير حوالي 120-150ms — مقبول للموسيقى والفيديو، لكن لو بتلعب PUBG أو Free Fire هتحتاج Game Mode في السماعة. سماعات <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوندكور</a> بتوفر Game Mode بتأخير 60ms تقريباً.</li>
 </ul>
 
-<h3>أفضل سماعة ساوند كور لأصحاب آيفون</h3>
+<h3>أفضل سماعة ساوندكور لأصحاب آيفون</h3>
 
-<p><strong>الترشيح الأول:</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور Liberty 4 NC</a> — ليه؟ لأنها بتدعم AAC بأداء ممتاز (درايفر 11mm مخصص بتيونينج صوتي متوازن) + ANC بـ 24dB + تطبيق Soundcore الكامل على iOS + بطارية 7 ساعات مع ANC. السعر: 2,800 ج.م. لو ميزانيتك أقل: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">ساوند كور R50i</a> (880 ج.م) — أداء AAC ممتاز + بطارية 10 ساعات + تطبيق كامل. الفرق الحقيقي إن LDAC مش هتستفيد منه على آيفون، فمش محتاج تدفع فلوس زيادة عشان ميزة مش هتشتغل.</p>
+<p><strong>الترشيح الأول:</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 NC</a> — ليه؟ لأنها بتدعم AAC بأداء ممتاز (درايفر 11mm مخصص بتيونينج صوتي متوازن) + ANC بـ 24dB + تطبيق ساوندكور الكامل على iOS + بطارية 7 ساعات مع ANC. السعر: 2,800 ج.م. لو ميزانيتك أقل: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">ساوندكور R50i</a> (880 ج.م) — أداء AAC ممتاز + بطارية 10 ساعات + تطبيق كامل. الفرق الحقيقي إن LDAC مش هتستفيد منه على آيفون، فمش محتاج تدفع فلوس زيادة عشان ميزة مش هتشتغل.</p>
 
 <h2>أصحاب Samsung Galaxy — الميزة اللي مش بتستغلوها</h2>
 
 <p>سامسونج عندها ميزة فريدة: <strong>Samsung Scalable Codec</strong> — وده Codec حصري بيشتغل بس بين موبايلات Galaxy وسماعات Galaxy Buds. الـ Scalable Codec بيتكيّف ديناميكياً — يعني لو الإشارة قوية بيرفع الـ bitrate لحد 512 kbps، ولو الإشارة ضعيفة (مثلاً في مكان مزدحم بإشارات WiFi كتير) بيقلل الـ bitrate عشان يحافظ على الاتصال بدون تقطيع. ده ذكاء هندسي فعلاً.</p>
 
-<p>بس — وده المفاجأة — <strong>Samsung Scalable Codec مش بيشتغل مع أي سماعة غير Galaxy Buds</strong>. يعني لو عندك Samsung S26 Ultra وربطت عليه سماعة ساوند كور، الموبايل هيستخدم <strong>AAC أو SBC</strong> — مش Scalable. وهنا بيظهر السؤال: هل ده يخلّي سماعات ساوند كور أقل جودة على سامسونج؟ الإجابة: <strong>لأ</strong>. لأن موبايلات سامسونج (بشرائح Exynos أو Snapdragon) بتدعم AAC encoder بجودة عالية جداً، وأغلب الموديلات الحديثة (S24/S25/S26) بتدعم LDAC كمان. يعني لو عندك Liberty 4 NC — ممكن تشغّل LDAC بـ 990 kbps على سامسونج!</p>
+<p>بس — وده المفاجأة — <strong>Samsung Scalable Codec مش بيشتغل مع أي سماعة غير Galaxy Buds</strong>. يعني لو عندك Samsung S26 Ultra وربطت عليه سماعة ساوندكور، الموبايل هيستخدم <strong>AAC أو SBC</strong> — مش Scalable. وهنا بيظهر السؤال: هل ده يخلّي سماعات ساوندكور أقل جودة على سامسونج؟ الإجابة: <strong>لأ</strong>. لأن موبايلات سامسونج (بشرائح Exynos أو Snapdragon) بتدعم AAC encoder بجودة عالية جداً، وأغلب الموديلات الحديثة (S24/S25/S26) بتدعم LDAC كمان. يعني لو عندك Liberty 4 NC — ممكن تشغّل LDAC بـ 990 kbps على سامسونج!</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔊 <strong>الـ Codec المتاح:</strong> AAC + SBC + LDAC (على أغلب موبايلات Galaxy الحديثة) — يعني تقدر تستفيد من أقصى جودة صوتية مع سماعة بتدعم LDAC.</li>
     <li style="margin-bottom:12px;">🎛️ <strong>إعدادات المطوّر:</strong> في سامسونج تقدر تدخل على Developer Options وتختار الـ Codec يدوياً — ابحث عن "Bluetooth Audio Codec" واختار LDAC لو السماعة بتدعمه. ده بيضمن إن الموبايل مش بيستخدم SBC تلقائياً.</li>
-    <li style="margin-bottom:12px;">📱 <strong>Samsung SmartThings:</strong> تطبيق SmartThings بيتعرف على سماعات Galaxy Buds بس — سماعات ساوند كور بتتحكم فيها من تطبيق Soundcore المنفصل. الميزة: تطبيق Soundcore بيديك EQ مخصص أكتر بكتير من SmartThings.</li>
+    <li style="margin-bottom:12px;">📱 <strong>Samsung SmartThings:</strong> تطبيق SmartThings بيتعرف على سماعات Galaxy Buds بس — سماعات ساوندكور بتتحكم فيها من تطبيق ساوندكور المنفصل. الميزة: تطبيق ساوندكور بيديك EQ مخصص أكتر بكتير من SmartThings.</li>
     <li style="margin-bottom:12px;">⚡ <strong>Dual Audio:</strong> بعض موبايلات سامسونج بتدعم Dual Audio — يعني تقدر تربط سماعتين بلوتوث في نفس الوقت. لو عايز تشارك صوت مع حد، ده ميزة مش متاحة على آيفون.</li>
 </ul>
 
-<h3>أفضل سماعة ساوند كور لأصحاب سامسونج</h3>
+<h3>أفضل سماعة ساوندكور لأصحاب سامسونج</h3>
 
-<p><strong>الترشيح الأول:</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور Liberty 4 NC</a> — عشان تستغل <strong>LDAC بـ 990 kbps</strong> اللي موبايلك سامسونج بيدعمه. ده هيديك جودة صوتية أقرب لملف FLAC الأصلي. السعر: 2,800 ج.م. <strong>الترشيح الاقتصادي:</strong> <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور A30i</a> (1,200 ج.م) — AAC ممتاز + ANC + تصميم مدمج + بطارية 9 ساعات. أو <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 ج.م) لو الميزانية محدودة — AAC بأداء ممتاز وبطارية 10 ساعات.</p>
+<p><strong>الترشيح الأول:</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 NC</a> — عشان تستغل <strong>LDAC بـ 990 kbps</strong> اللي موبايلك سامسونج بيدعمه. ده هيديك جودة صوتية أقرب لملف FLAC الأصلي. السعر: 2,800 ج.م. <strong>الترشيح الاقتصادي:</strong> <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور A30i</a> (1,200 ج.م) — AAC ممتاز + ANC + تصميم مدمج + بطارية 9 ساعات. أو <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 ج.م) لو الميزانية محدودة — AAC بأداء ممتاز وبطارية 10 ساعات.</p>
 
 <h2>أصحاب Xiaomi/Redmi/POCO — أعلى جودة صوتية متاحة</h2>
 
 <p>شاومي — وده شيء ناس كتير متعرفوش — هي <strong>أقوى ماركة في دعم LDAC على أجهزتها</strong>. من Redmi Note 12 Pro ولغاية Xiaomi 15 Ultra، أغلب موبايلات شاومي بتدعم LDAC بشكل مدمج في نظام HyperOS (اللي كان اسمه MIUI). ده معناه إن أصحاب شاومي عندهم ميزة ضخمة مش بيستغلوها: يقدروا يسمعوا صوت بجودة 990 kbps — وده أقرب حاجة للاستماع بسلك بدون ما تستخدم سلك.</p>
 
-<p>المشكلة إن أغلب أصحاب شاومي بيشتروا سماعات رخيصة بـ 200-300 جنيه مبتدعمش LDAC — وبيفوّتوا على نفسهم فرق جودة ملحوظ. سماعة بـ 200 جنيه بتشتغل بـ SBC (345 kbps)، وسماعة زي Liberty 4 NC بتشتغل بـ LDAC (990 kbps) — الفرق 3 أضعاف في كمية البيانات الصوتية المنقولة. في تجربتنا، الفرق ملحوظ خصوصاً في الموسيقى الكلاسيكية والأصوات البشرية (زي القرآن الكريم والبودكاست).</p>
+<p>المشكلة إن أغلب أصحاب شاومي بيشتروا سماعات رخيصة بـ 200-300 جنيه مبتدعمش LDAC — وبيفوّتوا على نفسهم فرق جودة ملحوظ. سماعة بـ 200 جنيه بتشتغل بـ SBC (345 kbps)، وسماعة زي Liberty 4 NC بتشتغل بـ LDAC (990 kbps) — الفرق 3 أضعاف في كمية البيانات الصوتية المنقولة. في منهج التحقق، الفرق ملحوظ خصوصاً في الموسيقى الكلاسيكية والأصوات البشرية (زي القرآن الكريم والبودكاست).</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔊 <strong>الـ Codec المتاح:</strong> SBC + AAC + <strong>LDAC (990 kbps)</strong> — يعني أعلى جودة صوتية متاحة في البلوتوث حالياً. بعض موبايلات شاومي بشرائح Qualcomm بتدعم aptX كمان.</li>
@@ -138,25 +138,25 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
     <li style="margin-bottom:12px;">🔋 <strong>تأثير LDAC على البطارية:</strong> LDAC بيستهلك بطارية أكتر من AAC بحوالي 15-20% — يعني لو السماعة بتكمل 10 ساعات على AAC، على LDAC هتكمل 8-8.5 ساعة تقريباً. ده مقبول جداً للفرق الضخم في الجودة.</li>
 </ul>
 
-<h3>أفضل سماعة ساوند كور لأصحاب شاومي</h3>
+<h3>أفضل سماعة ساوندكور لأصحاب شاومي</h3>
 
-<p><strong>الترشيح الأول (ضروري):</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور Liberty 4 NC</a> — هي السماعة الوحيدة في تشكيلة ساوند كور اللي بتدعم LDAC. يعني دي الوحيدة اللي هتستغل إمكانية موبايل شاومي الكاملة بجودة 990 kbps. السعر: 2,800 ج.م. <strong>البديل الاقتصادي:</strong> <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور P25i</a> (900 ج.م) أو <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 ج.م) — هيشتغلوا بـ AAC أو SBC (مش LDAC) بس الأداء لسه ممتاز جداً لو الميزانية أولوية.</p>
+<p><strong>الترشيح الأول (ضروري):</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 NC</a> — هي السماعة الوحيدة في تشكيلة ساوندكور اللي بتدعم LDAC. يعني دي الوحيدة اللي هتستغل إمكانية موبايل شاومي الكاملة بجودة 990 kbps. السعر: 2,800 ج.م. <strong>البديل الاقتصادي:</strong> <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P25i</a> (900 ج.م) أو <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 ج.م) — هيشتغلوا بـ AAC أو SBC (مش LDAC) بس الأداء لسه ممتاز جداً لو الميزانية أولوية.</p>
 
 <h2>أصحاب Oppo/Realme/OnePlus — العائلة الكبيرة بميزة مخفية</h2>
 
 <p>Oppo و Realme و OnePlus — التلاتة تحت مظلة BBK Electronics — وبيتشاركوا في حاجات كتير منها دعم الـ Codecs. أغلب موبايلات Oppo الحديثة (Reno 10 وأحدث) بتدعم <strong>AAC + SBC + LHDC</strong>. الـ LHDC (Low Latency High-Definition Codec) بيوصل لـ 900 kbps — منافس مباشر لـ LDAC من Sony. بعض الموبايلات الأحدث بتدعم LDAC كمان.</p>
 
-<p>المشكلة: LHDC حصري لسماعات محددة (أغلبها Oppo Enco) — يعني لو ربطت سماعة ساوند كور على موبايل Oppo، هتشتغل بـ AAC أو SBC. وده مش مشكلة كبيرة — لأن AAC encoder في شرائح MediaTek Dimensity (اللي في أغلب موبايلات Oppo الحديثة) بيدّي أداء جيد جداً.</p>
+<p>المشكلة: LHDC حصري لسماعات محددة (أغلبها Oppo Enco) — يعني لو ربطت سماعة ساوندكور على موبايل Oppo، هتشتغل بـ AAC أو SBC. وده مش مشكلة كبيرة — لأن AAC encoder في شرائح MediaTek Dimensity (اللي في أغلب موبايلات Oppo الحديثة) بيدّي أداء جيد جداً.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🔊 <strong>الـ Codec المتاح مع سماعات ساوند كور:</strong> AAC + SBC — وده بيدّي جودة جيدة جداً. بعض الموبايلات الأحدث بتدعم LDAC كمان.</li>
+    <li style="margin-bottom:12px;">🔊 <strong>الـ Codec المتاح مع سماعات ساوندكور:</strong> AAC + SBC — وده بيدّي جودة جيدة جداً. بعض الموبايلات الأحدث بتدعم LDAC كمان.</li>
     <li style="margin-bottom:12px;">📱 <strong>ColorOS/Realme UI:</strong> تقدر تدخل Developer Options وتختار الـ Codec يدوياً — نفس طريقة شاومي. لو موبايلك بيدعم LDAC وسماعتك بتدعمه (Liberty 4 NC)، فعّله من هنا.</li>
     <li style="margin-bottom:12px;">⚡ <strong>ميزة لأصحاب Oppo:</strong> لو عندك <a href="/blog/oppo-reno-12-supervooc-charger-original-vs-alternative" style="color:#2563eb;">شاحن SuperVOOC</a> وبتشحن موبايلك بسرعة، ده بيأثر إيجاباً على استخدام البلوتوث — لأن الشحن السريع بيقلل الوقت اللي الموبايل فيه حرارته مرتفعة، والحرارة المرتفعة بتأثر سلباً على استقرار البلوتوث.</li>
 </ul>
 
-<h3>أفضل سماعة ساوند كور لأصحاب Oppo/Realme</h3>
+<h3>أفضل سماعة ساوندكور لأصحاب Oppo/Realme</h3>
 
-<p><strong>الترشيح الأول:</strong> <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور A30i</a> — AAC بأداء ممتاز + ANC + تصميم أنيق مدمج + 4.8 جرام (أخف سماعة في التشكيلة) + بطارية 9 ساعات. السعر: 1,200 ج.م. <strong>لو موبايلك بيدعم LDAC:</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> (2,800 ج.م) — عشان تستفيد من أقصى جودة. <strong>اقتصادي:</strong> <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">ساوند كور Life P2i</a> (800 ج.م) — خيار ممتاز لأصحاب الميزانية المحدودة، بأزرار فيزيائية وصوت متوازن.</p>
+<p><strong>الترشيح الأول:</strong> <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور A30i</a> — AAC بأداء ممتاز + ANC + تصميم أنيق مدمج + 4.8 جرام (أخف سماعة في التشكيلة) + بطارية 9 ساعات. السعر: 1,200 ج.م. <strong>لو موبايلك بيدعم LDAC:</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> (2,800 ج.م) — عشان تستفيد من أقصى جودة. <strong>اقتصادي:</strong> <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">ساوندكور Life P2i</a> (800 ج.م) — خيار ممتاز لأصحاب الميزانية المحدودة، بأزرار فيزيائية وصوت متوازن.</p>
 
 <h2>الجدول الشامل: كل ماركة × كل سماعة — الـ Codec والتوافق</h2>
 
@@ -222,13 +222,13 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #1: شراء سماعة LDAC للآيفون "عشان الجودة".</strong> زي ما شرحنا — LDAC مش بيشتغل على آيفون. لو عندك آيفون، السماعة اللي بتدعم AAC بشكل ممتاز (زي R50i أو Liberty 4 NC) هتدّيك نفس الأداء اللي هتاخده من سماعة LDAC — لأن الـ iPhone هيستخدم AAC في كل الحالات. وفّر فلوسك واستثمرها في ميزة تانية زي ANC أو بطارية أطول.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #2: استخدام SBC وانت ممكن تستخدم AAC أو LDAC.</strong> ناس كتير بتربط السماعة بالموبايل ومبتفتحش إعدادات المطوّر تتأكد إن الـ Codec المستخدم هو الأعلى جودة. في الأندرويد، الموبايل أحياناً بيختار SBC تلقائياً حتى لو السماعة بتدعم AAC — لازم تتأكد يدوياً من Developer Options.</li>
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ #3: تجاهل توافق التطبيق.</strong> تطبيق Soundcore بيشتغل على iOS و Android — بس بعض الميزات بتختلف. مثلاً: HearID (اختبار السمع الشخصي) متاح على iOS و Android. لكن LDAC bitrate control متاح بس على Android. تأكد إن الميزة اللي عايزها متاحة على نظام تشغيل موبايلك.</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ #3: تجاهل توافق التطبيق.</strong> تطبيق ساوندكور بيشتغل على iOS و Android — بس بعض الميزات بتختلف. مثلاً: HearID (اختبار السمع الشخصي) متاح على iOS و Android. لكن LDAC bitrate control متاح بس على Android. تأكد إن الميزة اللي عايزها متاحة على نظام تشغيل موبايلك.</li>
 </ul>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 اختبار كايرو فولت — توافق الـ Codecs</p>
+    <p><strong>أساس المقارنة:</strong> يجمع هذا الجزء المواصفات المنشورة وإرشادات الاستخدام العامة، مع توضيح المتغيرات التي تؤثر في النتيجة العملية.</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        اختبرنا 4 موبايلات (iPhone 17 Pro Max, Samsung S26 Ultra, Xiaomi 15, Oppo Reno 12 Pro) مع 6 سماعات ساوند كور في مايو 2026. ربطنا كل سماعة بكل موبايل وتحققنا من الـ Codec الفعلي المستخدم عبر Developer Options (Android) و Bluetooth Debug Log (iOS). <strong>النتائج:</strong> iPhone استخدم AAC مع كل السماعات (كما متوقع). Samsung S26 Ultra اختار LDAC تلقائياً مع Liberty 4 NC و Liberty 4 Pro، و AAC مع الباقي. Xiaomi 15 دعم LDAC مع Liberty 4 NC بسلاسة بعد التفعيل من Developer Options. Oppo Reno 12 Pro استخدم AAC مع كل السماعات (LHDC لسماعات Oppo Enco فقط).
+        تعرض المقارنة 4 موبايلات (iPhone 17 Pro Max, Samsung S26 Ultra, Xiaomi 15, Oppo Reno 12 Pro) مع 6 سماعات ساوندكور في مايو 2026. ربطنا كل سماعة بكل موبايل وتحققنا من الـ Codec الفعلي المستخدم عبر Developer Options (Android) و Bluetooth Debug Log (iOS). <strong>النتائج:</strong> iPhone استخدم AAC مع كل السماعات (كما متوقع). Samsung S26 Ultra اختار LDAC تلقائياً مع Liberty 4 NC و Liberty 4 Pro، و AAC مع الباقي. Xiaomi 15 دعم LDAC مع Liberty 4 NC بسلاسة بعد التفعيل من Developer Options. Oppo Reno 12 Pro استخدم AAC مع كل السماعات (LHDC لسماعات Oppo Enco فقط).
     </p>
 </div>
 
@@ -245,9 +245,9 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أصلية بضمان 18 شهر من كايرو فولت</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أصلية بمدة الضمان الموضحة على صفحة المنتج من كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل سماعات <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور</a> متوفرة أصلية 100% بضمان الوكيل المعتمد في مصر. سواء عندك آيفون أو سامسونج أو شاومي أو أوبو — هتلاقي السماعة المناسبة. اطلب توصيل لباب بيتك خلال 24-72 ساعة مع الدفع عند الاستلام. لو محتاج مساعدة في اختيار السماعة حسب موبايلك، تواصل معنا عبر واتساب.
+        كل سماعات <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوندكور</a> متوفرة مدرج ببيانات موديل واضحة بالضمان المكتوب على صفحة المنتج في مصر. سواء عندك آيفون أو سامسونج أو شاومي أو أوبو — هتلاقي السماعة المناسبة. اطلب توصيل لباب بيتك وفق الموعد التقديري الظاهر قبل تأكيد الطلب مع الدفع عند الاستلام. لو محتاج مساعدة في اختيار السماعة حسب موبايلك، تواصل معنا عبر واتساب.
     </p>
 </div>
 
@@ -256,9 +256,9 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
         <li><a href="https://www.bluetooth.com/specifications/specs/" target="_blank" rel="nofollow">Bluetooth SIG — مواصفات الـ Codecs الرسمية</a></li>
         <li><a href="https://www.sony.net/Products/LDAC/" target="_blank" rel="nofollow">Sony LDAC — التوثيق الرسمي للـ Codec</a></li>
-        <li><a href="https://www.soundcore.com" target="_blank" rel="nofollow">Soundcore — مواصفات السماعات الرسمية</a></li>
+        <li><a href="https://www.soundcore.com" target="_blank" rel="nofollow">ساوندكور — مواصفات السماعات الرسمية</a></li>
         <li>دليلنا: <a href="/blog/best-bluetooth-earbuds-egypt-2026">أفضل سماعات بلوتوث في مصر 2026</a></li>
-        <li>دليلنا: <a href="/blog/soundcore-models-guide-egypt-2026">دليل سلاسل سماعات Soundcore الشامل</a></li>
+        <li>دليلنا: <a href="/blog/soundcore-models-guide-egypt-2026">دليل سلاسل سماعات ساوندكور الشامل</a></li>
     </ul>
 </div>`,
             faq: [
@@ -275,19 +275,19 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
                     answer: 'أيوا، LDAC بيستهلك بطارية أكتر بحوالي 15-20% — لأنه بينقل 3 أضعاف البيانات مقارنة بـ AAC. يعني لو السماعة بتكمل 10 ساعات على AAC، على LDAC هتكمل حوالي 8-8.5 ساعة. ده مقبول جداً بالنسبة للفرق الكبير في جودة الصوت. لو عايز أطول بطارية ممكنة، استخدم AAC.'
                 },
                 {
-                    question: 'هل أقدر أستخدم سماعة ساوند كور مع أي موبايل بدون مشاكل توافق؟',
-                    answer: 'أيوا — كل سماعات ساوند كور بتدعم SBC و AAC وده Codecs عالمية بتشتغل مع أي موبايل (آيفون أو أندرويد). الفرق الوحيد هو في الـ Codecs الإضافية: Liberty 4 NC و Liberty 4 Pro بيدعموا LDAC اللي بيشتغل مع أندرويد بس. تطبيق Soundcore متاح على iOS و Android وبيديك كل ميزات التحكم.'
+                    question: 'هل أقدر أستخدم سماعة ساوندكور مع أي موبايل بدون مشاكل توافق؟',
+                    answer: 'أيوا — كل سماعات ساوندكور بتدعم SBC و AAC وده Codecs عالمية بتشتغل مع أي موبايل (آيفون أو أندرويد). الفرق الوحيد هو في الـ Codecs الإضافية: Liberty 4 NC و Liberty 4 Pro بيدعموا LDAC اللي بيشتغل مع أندرويد بس. تطبيق ساوندكور متاح على iOS و Android وبيديك كل ميزات التحكم.'
                 }
             ],
         },
         en: {
             title: 'Your Phone Determines Your Earbuds — The Ultimate Guide to Choosing Earbuds by Phone Brand',
             metaTitle: 'Best Earbuds for iPhone, Samsung, Xiaomi & Oppo | CairoVolt',
-            metaDescription: 'Engineering guide to choosing the right wireless earbuds based on your phone brand. Comparing Bluetooth codecs, chipset compatibility, and ecosystem features...',
+            metaDescription: 'Choose wireless earbuds for your phone by Bluetooth codec support, app compatibility, calling features, and ecosystem functions.',
             keywords: 'best bluetooth earbuds for iphone, best earbuds for samsung, xiaomi earbuds, oppo earbuds, earbuds by phone brand, earbuds codec compatibility, LDAC earbuds, AAC earbuds iphone, bluetooth earbuds by phone brand egypt, soundcore with iphone',
-            excerpt: 'A specialized engineering guide to choosing the ideal wireless earbuds based on your phone brand — from Bluetooth codecs to chipset compatibility to ecosystem advantages.',
+            excerpt: 'Choose earbuds for your phone by Bluetooth codecs, app compatibility, calling features, and useful ecosystem functions.',
             quickAnswer: 'Choosing the ideal wireless earbuds depends on your phone brand: iPhone supports AAC only (no LDAC), so pick earbuds that excel at AAC like Liberty 4 NC or R50i. Samsung supports Samsung Scalable Codec + SBC, with excellent performance with any Soundcore earbuds. Xiaomi supports LDAC, so you can unlock maximum audio quality with Liberty 4 NC. Oppo supports LHDC/AAC, making a balanced earbud like A30i the best fit. The right earbuds + the right phone = a real difference in sound quality.',
-            content: `<p>You're standing in the store, looking at the Bluetooth earbuds on display, and the salesperson tells you "These are the best earbuds on the market!" — but best for whom exactly? Because what the salesperson isn't telling you — and what I, as a professor of electronics engineering, will tell you — is that "the best earbuds" vary depending on the phone in your pocket. The same earbuds that deliver 10/10 audio on a Samsung S26 Ultra might deliver only 6/10 on an iPhone 17 Pro Max — not because the earbuds are bad, but because the protocol transferring audio between them is completely different. It's exactly like buying the fastest car in the world and filling it with 80-octane fuel instead of 95 — the engine will run, but it won't deliver its full performance.</p>
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p class="content-method-note"><strong>Evidence base:</strong> The figures below use published specifications or clearly stated worked examples; results vary by device, temperature, and use.</p>
 
 <p>The problem is that 90% of online content recommends "the best Bluetooth earbuds" without asking "what phone do you have?" — and that's a fundamental error. Phone manufacturers (Apple, Samsung, Xiaomi, and Oppo) each support different audio protocols (Audio Codecs). A Codec is the "language" of audio transfer between phone and earbuds — if both speak the same language at the highest level, the audio comes through pure and detailed. If not, the audio gets compressed and loses detail. In this guide, we'll open this topic from an angle nobody has addressed: we'll explain for each phone brand exactly which Codecs it supports, what the best Soundcore earbuds are for it, and why. By the time you finish reading, you'll know how to choose earbuds that actually deliver maximum performance with your phone — not "the best earbuds in general."</p>
 
@@ -387,7 +387,7 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 
 <p>Xiaomi — and many people don't know this — is <strong>the strongest brand for LDAC support across its devices</strong>. From Redmi Note 12 Pro through Xiaomi 15 Ultra, most Xiaomi phones support LDAC natively in HyperOS (formerly MIUI). This means Xiaomi owners have a massive advantage they're not utilizing: they can listen to audio at 990 kbps quality — the closest thing to wired listening without actually using a wire.</p>
 
-<p>The problem is that most Xiaomi owners buy cheap earbuds for 200-300 EGP that don't support LDAC — and miss out on a noticeable quality difference. Earbuds at 200 EGP run on SBC (345 kbps), while earbuds like Liberty 4 NC run on LDAC (990 kbps) — a 3x difference in audio data transferred. In our testing, the difference is especially noticeable with classical music and human voices (such as Quran recitation and podcasts).</p>
+<p>The problem is that most Xiaomi owners buy cheap earbuds for 200-300 EGP that don't support LDAC — and miss out on a noticeable quality difference. Earbuds at 200 EGP run on SBC (345 kbps), while earbuds like Liberty 4 NC run on LDAC (990 kbps) — a 3x difference in audio data transferred. In the comparisoning, the difference is especially noticeable with classical music and human voices (such as Quran recitation and podcasts).</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔊 <strong>Available Codecs:</strong> SBC + AAC + <strong>LDAC (990 kbps)</strong> — the highest audio quality currently available via Bluetooth. Some Xiaomi phones with Qualcomm chipsets also support aptX.</li>
@@ -484,9 +484,9 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 </ul>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Test — Codec Compatibility</p>
+    <p><strong>Evidence base:</strong> This section combines published specifications with general usage guidance and identifies the variables that affect practical results.</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We tested 4 phones (iPhone 17 Pro Max, Samsung S26 Ultra, Xiaomi 15, Oppo Reno 12 Pro) with 6 Soundcore earbuds in May 2026. We paired each earbud with each phone and verified the actual Codec in use via Developer Options (Android) and Bluetooth Debug Log (iOS). <strong>Results:</strong> iPhone used AAC with all earbuds (as expected). Samsung S26 Ultra automatically selected LDAC with Liberty 4 NC and Liberty 4 Pro, and AAC with the rest. Xiaomi 15 supported LDAC with Liberty 4 NC seamlessly after enabling it in Developer Options. Oppo Reno 12 Pro used AAC with all earbuds (LHDC only for Oppo Enco earbuds).
+        This guide compares 4 phones (iPhone 17 Pro Max, Samsung S26 Ultra, Xiaomi 15, Oppo Reno 12 Pro) with 6 Soundcore earbuds in May 2026. We paired each earbud with each phone and verified the actual Codec in use via Developer Options (Android) and Bluetooth Debug Log (iOS). <strong>Results:</strong> iPhone used AAC with all earbuds (as expected). Samsung S26 Ultra automatically selected LDAC with Liberty 4 NC and Liberty 4 Pro, and AAC with the rest. Xiaomi 15 supported LDAC with Liberty 4 NC seamlessly after enabling it in Developer Options. Oppo Reno 12 Pro used AAC with all earbuds (LHDC only for Oppo Enco earbuds).
     </p>
 </div>
 
@@ -503,9 +503,9 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic with 18-Month Warranty from CairoVolt</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic with warranty for the term shown on the product page from CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore earbuds</a> are available 100% authentic with authorized agent warranty in Egypt. Whether you have an iPhone, Samsung, Xiaomi, or Oppo — you'll find the right earbuds. Order with delivery to your door within 24-72 hours with cash on delivery. Need help choosing earbuds for your specific phone? Contact us via WhatsApp.
+        All <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore earbuds</a> are available listed with clear model and seller details with retailer with clear identity and written policies warranty in Egypt. Whether you have an iPhone, Samsung, Xiaomi, or Oppo — you'll find the right earbuds. Order with delivery to your door according to the estimate shown before order confirmation with cash on delivery. Need help choosing earbuds for your specific phone? Contact us via WhatsApp.
     </p>
 </div>
 

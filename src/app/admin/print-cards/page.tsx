@@ -1,12 +1,6 @@
 'use client';
 
-import { useState, useCallback, useRef } from 'react';
-
-const API_KEY = 'cv-serials-dev-key-2026';
-
-/* ── Auth Credentials (simple client-side gate) ── */
-const ADMIN_USER = 'admin123';
-const ADMIN_PASS = 'ABMabm2122@@';
+import { useState, useCallback, useEffect, useRef } from 'react';
 
 interface GeneratedSerial {
     code: string;
@@ -16,9 +10,10 @@ interface GeneratedSerial {
 export default function PrintCardsPage() {
     /* ── Auth State ── */
     const [isAuthenticated, setIsAuthenticated] = useState(false);
-    const [authUser, setAuthUser] = useState('');
-    const [authPass, setAuthPass] = useState('');
+    const [isCheckingSession, setIsCheckingSession] = useState(true);
+    const [adminSecret, setAdminSecret] = useState('');
     const [authError, setAuthError] = useState('');
+    const [isLoggingIn, setIsLoggingIn] = useState(false);
 
     /* ── Main page hooks (must be before any return) ── */
     const [count, setCount] = useState(10);
@@ -27,6 +22,34 @@ export default function PrintCardsPage() {
     const [error, setError] = useState('');
     const [showPrint, setShowPrint] = useState(false);
     const printRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        let isMounted = true;
+
+        fetch('/api/admin/session', {
+            method: 'GET',
+            credentials: 'same-origin',
+            cache: 'no-store',
+        })
+            .then(async (response) => {
+                if (!response.ok) return false;
+                const data = await response.json();
+                return data.authenticated === true;
+            })
+            .then((authenticated) => {
+                if (isMounted) setIsAuthenticated(authenticated);
+            })
+            .catch(() => {
+                if (isMounted) setIsAuthenticated(false);
+            })
+            .finally(() => {
+                if (isMounted) setIsCheckingSession(false);
+            });
+
+        return () => {
+            isMounted = false;
+        };
+    }, []);
 
     const handleGenerate = useCallback(async () => {
         setError('');
@@ -37,12 +60,17 @@ export default function PrintCardsPage() {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'x-api-key': API_KEY,
                 },
+                credentials: 'same-origin',
                 body: JSON.stringify({ count }),
             });
 
             const data = await res.json();
+            if (res.status === 401) {
+                setIsAuthenticated(false);
+                setAuthError('انتهت جلسة الإدارة. سجّل الدخول مرة أخرى.');
+                return;
+            }
             if (!res.ok) throw new Error(data.message || 'فشل التوليد');
 
             const serials: GeneratedSerial[] = data.serials.map((code: string, i: number) => ({
@@ -64,14 +92,73 @@ export default function PrintCardsPage() {
         setTimeout(() => window.print(), 600);
     }, []);
 
-    const handleLogin = () => {
-        if (authUser === ADMIN_USER && authPass === ADMIN_PASS) {
+    const handleLogin = useCallback(async () => {
+        if (!adminSecret) {
+            setAuthError('أدخل مفتاح الإدارة');
+            return;
+        }
+
+        setIsLoggingIn(true);
+        setAuthError('');
+
+        try {
+            const response = await fetch('/api/admin/session', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                credentials: 'same-origin',
+                body: JSON.stringify({ secret: adminSecret }),
+            });
+
+            setAdminSecret('');
+
+            if (!response.ok) {
+                setAuthError(response.status === 503
+                    ? 'خدمة تسجيل الدخول غير مهيأة على الخادم'
+                    : 'مفتاح الإدارة غير صحيح');
+                return;
+            }
+
             setIsAuthenticated(true);
             setAuthError('');
-        } else {
-            setAuthError('اسم المستخدم أو كلمة المرور غير صحيحة');
+        } catch {
+            setAdminSecret('');
+            setAuthError('تعذر الاتصال بالخادم. حاول مرة أخرى.');
+        } finally {
+            setIsLoggingIn(false);
         }
-    };
+    }, [adminSecret]);
+
+    const handleLogout = useCallback(async () => {
+        try {
+            await fetch('/api/admin/session', {
+                method: 'DELETE',
+                credentials: 'same-origin',
+            });
+        } finally {
+            setIsAuthenticated(false);
+            setAdminSecret('');
+            setGeneratedSerials([]);
+            setShowPrint(false);
+            setError('');
+            setAuthError('');
+        }
+    }, []);
+
+    if (isCheckingSession) {
+        return (
+            <div style={{
+                minHeight: '100vh',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                background: '#09090b',
+                color: '#a1a1aa',
+                fontFamily: "'Cairo', sans-serif",
+            }}>
+                جارِ التحقق من جلسة الإدارة...
+            </div>
+        );
+    }
 
     /* ── If not authenticated, show login ── */
     if (!isAuthenticated) {
@@ -115,45 +202,18 @@ export default function PrintCardsPage() {
                         </p>
                     </div>
 
-                    <div style={{ marginBottom: '14px' }}>
-                        <label style={{ fontSize: '12px', color: '#a1a1aa', display: 'block', marginBottom: '6px' }}>
-                            اسم المستخدم
-                        </label>
-                        <input
-                            type="text"
-                            value={authUser}
-                            onChange={(e) => { setAuthUser(e.target.value); setAuthError(''); }}
-                            onKeyDown={(e) => e.key === 'Enter' && handleLogin()}
-                            placeholder="Username"
-                            autoComplete="username"
-                            autoFocus
-                            style={{
-                                width: '100%',
-                                padding: '12px 14px',
-                                background: '#09090b',
-                                border: '1px solid #3f3f46',
-                                borderRadius: '10px',
-                                color: '#fafafa',
-                                fontSize: '15px',
-                                fontFamily: "'Outfit', monospace",
-                                outline: 'none',
-                                boxSizing: 'border-box',
-                                transition: 'border-color 0.2s',
-                            }}
-                        />
-                    </div>
-
                     <div style={{ marginBottom: '20px' }}>
                         <label style={{ fontSize: '12px', color: '#a1a1aa', display: 'block', marginBottom: '6px' }}>
-                            كلمة المرور
+                            مفتاح الإدارة
                         </label>
                         <input
                             type="password"
-                            value={authPass}
-                            onChange={(e) => { setAuthPass(e.target.value); setAuthError(''); }}
-                            onKeyDown={(e) => e.key === 'Enter' && handleLogin()}
-                            placeholder="Password"
-                            autoComplete="current-password"
+                            value={adminSecret}
+                            onChange={(e) => { setAdminSecret(e.target.value); setAuthError(''); }}
+                            onKeyDown={(e) => e.key === 'Enter' && !isLoggingIn && handleLogin()}
+                            placeholder="Admin secret"
+                            autoComplete="off"
+                            autoFocus
                             style={{
                                 width: '100%',
                                 padding: '12px 14px',
@@ -183,6 +243,7 @@ export default function PrintCardsPage() {
 
                     <button
                         onClick={handleLogin}
+                        disabled={isLoggingIn}
                         style={{
                             width: '100%',
                             padding: '14px',
@@ -192,12 +253,13 @@ export default function PrintCardsPage() {
                             fontWeight: 700,
                             border: 'none',
                             borderRadius: '10px',
-                            cursor: 'pointer',
+                            cursor: isLoggingIn ? 'not-allowed' : 'pointer',
+                            opacity: isLoggingIn ? 0.65 : 1,
                             fontFamily: "'Cairo', sans-serif",
                             transition: 'opacity 0.2s',
                         }}
                     >
-                        🔓 دخول
+                        {isLoggingIn ? 'جارِ التحقق...' : '🔓 دخول'}
                     </button>
 
                     <p style={{
@@ -270,7 +332,27 @@ export default function PrintCardsPage() {
                 <div style={{
                     maxWidth: '700px', margin: '0 auto clamp(20px, 4vw, 40px)',
                     textAlign: 'center',
+                    position: 'relative',
                 }}>
+                    <button
+                        type="button"
+                        onClick={handleLogout}
+                        style={{
+                            position: 'absolute',
+                            insetInlineStart: 0,
+                            top: 0,
+                            padding: '7px 11px',
+                            background: '#18181b',
+                            border: '1px solid #3f3f46',
+                            borderRadius: '8px',
+                            color: '#a1a1aa',
+                            fontSize: '11px',
+                            fontFamily: "'Cairo', sans-serif",
+                            cursor: 'pointer',
+                        }}
+                    >
+                        خروج
+                    </button>
                     <div style={{
                         display: 'inline-flex', alignItems: 'center', gap: '10px',
                         marginBottom: '8px',
@@ -689,7 +771,7 @@ export default function PrintCardsPage() {
                                     textAlign: 'center',
                                     width: '100%',
                                 }}>
-                                    C2PA PRODUCT AUTHENTICATION
+                                    CAIROVOLT WARRANTY RECORD
                                 </div>
 
                                 {/* QR Code */}
@@ -740,7 +822,7 @@ export default function PrintCardsPage() {
                                     fontSize: '5pt', color: '#a1a1aa',
                                     textAlign: 'center', lineHeight: 1.4,
                                 }}>
-                                    <strong style={{ color: '#fafafa' }}>Scan to Verify</strong> &amp; Activate Warranty
+                                    <strong style={{ color: '#fafafa' }}>Scan to Check Serial</strong> &amp; Activate Warranty
                                 </div>
 
                                 {/* Footer */}

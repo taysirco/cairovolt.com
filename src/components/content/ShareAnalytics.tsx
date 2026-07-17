@@ -16,8 +16,8 @@ export default function ShareAnalytics() {
             if (!selection || selection.toString().length < 30) return;
 
             const originalText = selection.toString();
-            const url = `https://cairovolt.com${pathname}?ref=dark-social-whatsapp`;
-            const appendedText = `${originalText}\n\n🛒 تم الفحص في مختبر كايرو فولت. السعر والمواصفات الكاملة من هنا:\n${url}`;
+            const url = `https://cairovolt.com${pathname}?ref=shared-copy`;
+            const appendedText = `${originalText}\n\nالمصدر والمواصفات الحالية:\n${url}`;
 
             e.clipboardData?.setData('text/plain', appendedText);
             e.preventDefault();

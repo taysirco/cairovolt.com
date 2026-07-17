@@ -1,21 +1,17 @@
 /**
- * Recommended Arab Tech Creators — independent reviewers CairoVolt recommends following.
+ * Public-channel directory for third-party technology creators.
  *
- * IMPORTANT: These are NOT CairoVolt employees, authors, or affiliates. This file
- * powers a curated "experts we recommend" directory. Their `title`/`role` describe
- * who they really are publicly (their own channels), NOT any position at CairoVolt.
- * Do not present them as staff, do not attribute CairoVolt content to them, and do
- * not list them as Organization `member` — that would be misrepresentation.
- *
- * Each entry has verified social links. Photos at: /images/blog/authors/<id>.webp
+ * These people are not CairoVolt employees, authors, partners, or sponsors. The
+ * labels below describe the broad subjects linked from their public channels and
+ * must not be used as proof of credentials, endorsement, or product performance.
  */
 
 export interface RecommendedCreator {
     id: string;
     name: { ar: string; en: string };
-    /** The creator's real public specialty/headline — describes their own work, not a CairoVolt role */
+    /** Broad subjects visible in the linked public channel; not a credential. */
     title: { ar: string; en: string };
-    /** The creator's real public role (e.g. channel owner / independent reviewer) */
+    /** Neutral third-party label; never a CairoVolt role. */
     role: { ar: string; en: string };
     bio: { ar: string; en: string };
     expertise: { ar: string[]; en: string[] };
@@ -37,16 +33,16 @@ export const recommendedCreators: RecommendedCreator[] = [
         id: 'yehia_radwan',
         name: { ar: 'يحيى رضوان', en: 'Yehia Radwan' },
         title: {
-            ar: 'صانع محتوى تقني — مراجعات هواتف وإكسسوارات شحن',
-            en: 'Tech Content Creator — Phone & Charging Accessory Reviews',
+            ar: 'قناة محتوى تقني عن الهواتف والإكسسوارات',
+            en: 'Technology channel covering phones and accessories',
         },
         role: {
-            ar: 'صانع محتوى تقني مستقل',
-            en: 'Independent Tech Creator',
+            ar: 'ناشر محتوى خارجي مستقل عن كايرو فولت',
+            en: 'Third-party publisher independent from CairoVolt',
         },
         bio: {
-            ar: 'صانع محتوى تقني مصري ومن أكثر المراجعين تأثيراً في الوطن العربي. متخصص في مراجعات الهواتف الذكية واختبار إكسسوارات الشحن والباور بانك تحت ظروف الاستخدام الحقيقي في مصر.',
-            en: 'Egyptian tech content creator and one of the most influential reviewers in the Arab world. Specializes in smartphone reviews and real-world testing of charging accessories and power banks under Egyptian conditions.',
+            ar: 'رابط إلى قناة عامة تنشر محتوى عن الهواتف وإكسسوارات الشحن. راجع الفيديو المحدد وتاريخه وإفصاحاته قبل الاعتماد على أي نتيجة.',
+            en: 'Link to a public channel covering phones and charging accessories. Review the specific video, date, and disclosures before relying on any result.',
         },
         expertise: {
             ar: ['مراجعة الهواتف', 'اختبار الشواحن', 'مقارنات الأداء', 'تقنيات الشحن السريع'],
@@ -66,16 +62,16 @@ export const recommendedCreators: RecommendedCreator[] = [
         id: 'ahmed_medhat',
         name: { ar: 'أحمد مدحت', en: 'Ahmed Medhat' },
         title: {
-            ar: 'باحث تقني — فيزياء الشحن وتقنيات GaN',
-            en: 'Tech Researcher — Charging Physics & GaN Technology',
+            ar: 'قناة محتوى تقني عن الشحن وتقنيات GaN',
+            en: 'Technology channel covering charging and GaN',
         },
         role: {
-            ar: 'صانع محتوى تقني مستقل',
-            en: 'Independent Tech Creator',
+            ar: 'ناشر محتوى خارجي مستقل عن كايرو فولت',
+            en: 'Third-party publisher independent from CairoVolt',
         },
         bio: {
-            ar: 'باحث وصانع محتوى تقني مصري متخصص في تبسيط العلوم المعقدة وراء تقنيات الشحن الحديثة. يشرح الفرق بين تقنيات GaN والسيليكون، وأسباب تدهور البطاريات، وفيزياء التوصيل الحراري بأسلوب علمي مبسط.',
-            en: 'Egyptian tech researcher and content creator specializing in simplifying complex charging technologies. Explains GaN vs Silicon differences, battery degradation causes, and thermal conductivity physics in accessible terms.',
+            ar: 'رابط إلى قناة عامة تتناول موضوعات الشحن والبطاريات. قارن الشرح مع وثائق الشركة المصنّعة ومصادر فنية أخرى.',
+            en: 'Link to a public channel discussing charging and batteries. Compare its explanations with manufacturer documentation and other technical sources.',
         },
         expertise: {
             ar: ['تقنية GaN', 'فيزياء البطاريات', 'تحليل الشحن السريع', 'حماية الأجهزة'],
@@ -92,16 +88,16 @@ export const recommendedCreators: RecommendedCreator[] = [
         id: 'mohamed_hakimo',
         name: { ar: 'محمد حكيم', en: 'Mohamed Hakimo' },
         title: {
-            ar: 'خبير مراجعة إكسسوارات الشحن والصوتيات',
-            en: 'Charging & Audio Accessories Review Expert',
+            ar: 'قناة محتوى عن إكسسوارات الشحن والصوتيات',
+            en: 'Channel covering charging and audio accessories',
         },
         role: {
-            ar: 'مراجع إكسسوارات ومقارنات الماركات',
-            en: 'Accessories Reviewer & Brand Comparisons',
+            ar: 'ناشر محتوى خارجي مستقل عن كايرو فولت',
+            en: 'Third-party publisher independent from CairoVolt',
         },
         bio: {
-            ar: 'مراجع تقني عربي متخصص في اختبار إكسسوارات الشحن والصوتيات. يستخدم أجهزة قياس احترافية (USB Testers) للتحقق من القدرة الفعلية للشواحن ويقدم مقارنات تفصيلية بين انكر وUgreen وBaseus وJoyroom.',
-            en: 'Arab tech reviewer specializing in charging and audio accessories testing. Uses professional USB testers to verify actual charger output and delivers detailed brand comparisons between Anker, Ugreen, Baseus, and Joyroom.',
+            ar: 'رابط إلى قناة عامة تتناول الشواحن والصوتيات ومقارنات المنتجات. تحقق من الموديل وطريقة القياس في المنشور الأصلي.',
+            en: 'Link to a public channel covering chargers, audio, and product comparisons. Check the exact model and measurement method in the original post.',
         },
         expertise: {
             ar: ['اختبار الشواحن بأجهزة القياس', 'مقارنات ماركات الإكسسوارات', 'سماعات بلوتوث', 'باور بانك'],
@@ -122,16 +118,16 @@ export const recommendedCreators: RecommendedCreator[] = [
         id: 'hazem_adel',
         name: { ar: 'حازم عادل', en: 'Hazem Adel' },
         title: {
-            ar: 'مراجع هواتف وإكسسوارات تقنية',
-            en: 'Smartphone & Tech Accessories Reviewer',
+            ar: 'قناة محتوى عن الهواتف والإكسسوارات التقنية',
+            en: 'Channel covering phones and technology accessories',
         },
         role: {
-            ar: 'مراجع منتجات ومختبر أداء',
-            en: 'Product Reviewer & Performance Tester',
+            ar: 'ناشر محتوى خارجي مستقل عن كايرو فولت',
+            en: 'Third-party publisher independent from CairoVolt',
         },
         bio: {
-            ar: 'صانع محتوى تقني مصري يقدم مراجعات عملية وشاملة للهواتف الذكية وإكسسواراتها. يركز على تجربة الاستخدام اليومي ومقارنة المنتجات في الفئات السعرية المختلفة المتاحة في السوق المصري.',
-            en: 'Egyptian tech content creator delivering practical and comprehensive reviews of smartphones and accessories. Focuses on daily usage experience and product comparisons across different price ranges available in the Egyptian market.',
+            ar: 'رابط إلى قناة عامة تنشر محتوى عن الهواتف والإكسسوارات. قارن المعلومات الواردة مع مواصفات الموديل المنشورة.',
+            en: 'Link to a public channel publishing content about phones and accessories. Compare its information with the published model specifications.',
         },
         expertise: {
             ar: ['مراجعات الهواتف', 'إكسسوارات تقنية', 'اختبار الأداء', 'ترشيحات الشراء'],
@@ -148,16 +144,16 @@ export const recommendedCreators: RecommendedCreator[] = [
         id: 'ashraf_zamka',
         name: { ar: 'أشرف مصطفى', en: 'Ashraf Mustafa' },
         title: {
-            ar: 'مراجع تقني مستقل — يشتري المنتجات بماله الخاص',
-            en: 'Independent Tech Reviewer — Self-Funded Product Testing',
+            ar: 'قناة محتوى عن الأجهزة وإكسسوارات الشحن',
+            en: 'Channel covering devices and charging accessories',
         },
         role: {
-            ar: 'مراجع مستقل وخبير حيادية',
-            en: 'Independent Reviewer & Neutrality Expert',
+            ar: 'ناشر محتوى خارجي مستقل عن كايرو فولت',
+            en: 'Third-party publisher independent from CairoVolt',
         },
         bio: {
-            ar: 'التقني أشرف مصطفى — مراجع مصري مستقل يتجاوز المليون متابع على يوتيوب. يشتري كل جهاز يراجعه بماله الخاص ويرفض الإعلانات المدفوعة من الشركات لضمان حيادية رأيه. يراجع الشواحن والباور بانك بانتظام.',
-            en: 'Ashraf Mustafa — independent Egyptian reviewer with over 1M YouTube subscribers. Purchases every product he reviews with his own money and refuses paid sponsorships from companies to maintain unbiased opinions. Regularly reviews chargers and power banks.',
+            ar: 'رابط إلى قناة عامة تنشر محتوى عن الأجهزة والشواحن والباور بانك. راجع إفصاحات الإعلان أو الرعاية في كل منشور على حدة.',
+            en: 'Link to a public channel covering devices, chargers, and power banks. Review advertising or sponsorship disclosures on each post separately.',
         },
         expertise: {
             ar: ['مراجعات مستقلة', 'باور بانك وشواحن', 'نصائح شراء', 'حماية المستهلك'],
@@ -175,16 +171,16 @@ export const recommendedCreators: RecommendedCreator[] = [
         id: 'salah_hamed',
         name: { ar: 'صلاح حامد', en: 'Salah G. Hamed' },
         title: {
-            ar: 'مؤسس أندرويد باشا — رائد المحتوى التقني العربي',
-            en: 'Founder of Android Basha — Arab Tech Content Pioneer',
+            ar: 'قناة محتوى تقني عن الأجهزة والإكسسوارات',
+            en: 'Technology channel covering devices and accessories',
         },
         role: {
-            ar: 'مؤسس شبكة باشا ميديا',
-            en: 'Founder, Basha Media Network',
+            ar: 'ناشر محتوى خارجي مستقل عن كايرو فولت',
+            en: 'Third-party publisher independent from CairoVolt',
         },
         bio: {
-            ar: 'مؤسس شبكة باشا ميديا ومن أوائل صناع المحتوى التقني في المنطقة العربية. يمتلك شبكة قنوات متخصصة (أندرويد باشا، كاميرا باشا، جيمنج باشا). خبرة تتجاوز العقد في مراجعة الأجهزة والإكسسوارات التقنية.',
-            en: 'Founder of Basha Media Network and one of the first tech content creators in the Arab region. Runs specialized channels (Android Basha, Camera Basha, Gaming Basha). Over a decade of experience reviewing devices and tech accessories.',
+            ar: 'رابط إلى قناة عامة تنشر محتوى عن الأجهزة والإكسسوارات. استخدم المصدر الأصلي وقارن أكثر من رأي قبل قرار الشراء.',
+            en: 'Link to a public channel publishing content about devices and accessories. Use the original source and compare more than one view before buying.',
         },
         expertise: {
             ar: ['مراجعات شاملة', 'تغطية مؤتمرات', 'مقارنات أنظمة التشغيل', 'إكسسوارات تقنية'],
@@ -204,16 +200,16 @@ export const recommendedCreators: RecommendedCreator[] = [
         id: 'faisal_alsaif',
         name: { ar: 'فيصل السيف', en: 'Faisal Al-Saif' },
         title: {
-            ar: 'مؤسس UTD Saudi — مرجعية تقنية عربية',
-            en: 'Founder of UTD Saudi — Arab Tech Authority',
+            ar: 'قناة محتوى تقني عن المنتجات والتقنيات الحديثة',
+            en: 'Technology channel covering products and current technology',
         },
         role: {
-            ar: 'مؤسس قناة UTD Saudi',
-            en: 'Founder, UTD Saudi',
+            ar: 'ناشر محتوى خارجي مستقل عن كايرو فولت',
+            en: 'Third-party publisher independent from CairoVolt',
         },
         bio: {
-            ar: 'فيصل السيف — مؤسس TechPills Productions وقناة UTD Saudi التي تتجاوز 10 ملايين مشترك. مقدم برامج تلفزيونية تقنية سابق ومن أبرز المرجعيات التقنية في الشرق الأوسط. يغطي أحدث تقنيات الشحن والإكسسوارات في مراجعاته.',
-            en: 'Faisal Al-Saif — founder of TechPills Productions and UTD Saudi channel with 10M+ subscribers. Former TV tech presenter and one of the most prominent tech authorities in the Middle East. Covers the latest charging technologies and accessories in his reviews.',
+            ar: 'رابط إلى قناة عامة تنشر محتوى عن المنتجات والتقنيات الحديثة. تحقق من تاريخ المنشور والموديل والإفصاحات المصاحبة.',
+            en: 'Link to a public channel covering products and current technology. Check the post date, exact model, and accompanying disclosures.',
         },
         expertise: {
             ar: ['تقييم المنتجات', 'تغطية المعارض العالمية', 'تقنيات الشحن', 'ابتكارات تقنية'],

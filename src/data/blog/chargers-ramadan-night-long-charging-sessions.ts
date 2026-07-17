@@ -25,17 +25,17 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
         ar: {
             title: 'شحن الموبايل في رمضان — إزاي تختار شاحن يتحمل ساعات الشحن الليلية الطويلة؟',
             metaTitle: 'شحن الموبايل بالليل في رمضان — دليل اختيار الشاحن الآمن | كايرو فولت',
-            metaDescription: 'دليل شامل لشحن الموبايل بالليل في رمضان بأمان. إزاي تختار شاحن بحماية حرارية متقدمة يتحمل 8+ ساعات شحن بدون ما يضر بطاريتك — بأرقام حقيقية. تابع التفاصيل بمصر.',
+            metaDescription: 'دليل شحن الموبايل ليلاً في رمضان: توافق الشاحن والكابل والتهوية وميزات إدارة البطارية ومتى توقف الاستخدام عند الحرارة غير الطبيعية.',
             keywords: 'شحن الموبايل بالليل, شحن الموبايل في رمضان, شاحن آمن للشحن الليلي, هل الشحن طول الليل بيضر البطارية, شاحن مع حماية حرارية, افضل شاحن للشحن اثناء النوم, شحن الموبايل وانت نايم, Care Mode شاحن',
-            excerpt: 'في رمضان الموبايل بيتشحن بالليل 7-10 ساعات متواصلة. دليل اختيار شاحن آمن بحماية حرارية يحافظ على بطاريتك — مع أفضل الخيارات في مصر.',
-            quickAnswer: 'أيوا، الشحن الليلي في رمضان آمن بشرط واحد: شاحن أصلي بحماية OVP/OTP (زي Anker أو Joyroom). الموبايلات الحديثة (iPhone 15+، Samsung S24+) عندها Trickle Charge بتوقف التيار عند 100%. أفضل حل: شاحن Anker 20W بـ 490ج بتقنية ActiveShield 2.0 (بيراقب الحرارة 3 مليون مرة يومياً). للبريميوم: Anker Nano 45W Smart Display بخاصية Care Mode بيوقف الشحن عند 80%.',
-            content: `<p>الساعة 2 الصبح بعد السحور. المسلسل خلص على الـ MBC. بصّيت على موبايلك — البطارية 8%. حطيته على الشاحن ونمت. صحيت الضهر على المنبّه لقيت الموبايل على الشاحن بقاله 9 ساعات متواصلة. وهنا بييجي السؤال اللي كل واحد فينا سأله لنفسه في رمضان: <strong>"أنا كده بوظت البطارية؟"</strong></p>
+            excerpt: 'دليل لاختيار شاحن متوافق وتهوية مناسبة وفهم إعدادات إدارة البطارية أثناء الشحن الليلي في رمضان.',
+            quickAnswer: 'يمكن شحن الهاتف ليلاً عند استخدام شاحن وكابل متوافقين وفي مكان جيد التهوية، مع تفعيل إعدادات إدارة البطارية التي يوفرها الهاتف. لا تفترض أن اسم ميزة حماية يمنع كل عطل؛ راجع دليل الهاتف والشاحن، وافصل الجهاز عند التلف أو الرائحة أو الحرارة غير الطبيعية، ثم قارن السعر الحالي وشروط الضمان.',
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>الساعة 2 الصبح بعد السحور. المسلسل خلص على الـ MBC. بصّيت على موبايلك — البطارية 8%. حطيته على الشاحن ونمت. صحيت الضهر على المنبّه لقيت الموبايل على الشاحن بقاله 9 ساعات متواصلة. وهنا بييجي السؤال اللي كل واحد فينا سأله لنفسه في رمضان: <strong>"أنا كده بوظت البطارية؟"</strong></p>
 
 <p>في رمضان بالذات، نمط استخدام الموبايل بيتغيّر تماماً. السهر لبعد الفجر، المسلسلات والسوشيال ميديا طول الليل، ونوم طويل بالنهار — يعني الموبايل بيتشحن ساعات أطول من أي وقت تاني في السنة. وده بيثير قلق مشروع عند ملايين المصريين. في المقال ده — كمهندس إلكترونيات بحب أفّند الخرافات بالفيزياء — هنجاوب على كل الأسئلة: هل الشحن الليلي الطويل بيضر فعلاً؟ وإيه الشاحن اللي يتحمل ده بأمان؟ وإزاي توفّر فلوسك وتحافظ على بطاريتك في نفس الوقت؟</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> الشحن الليلي آمن بشرط واحد: شاحن أصلي بحماية OVP/OTP. الموبايلات الحديثة عندها Trickle Charge بتوقف التيار عند 100%. أفضل حل: شاحن Anker 20W بـ 490ج بتقنية ActiveShield 2.0 (بيراقب الحرارة 3 مليون مرة يومياً). للبريميوم: Anker Nano 45W Smart Display بـ Care Mode بيوقف الشحن عند 80%.
+        <strong>💡 الإجابة السريعة:</strong> الشحن الليلي آمن بشرط واحد: شاحن أصلي بحماية OVP/OTP. الموبايلات الحديثة عندها Trickle Charge بتوقف التيار عند 100%. أفضل حل: شاحن انكر 20W بـ 490ج بتقنية ActiveShield 2.0 (بيراقب الحرارة 3 مليون مرة يومياً). للبريميوم: انكر Nano 45W Smart Display بـ Care Mode بيوقف الشحن عند 80%.
     </p>
 </div>
 
@@ -102,22 +102,22 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>OVP (حماية الجهد الزائد)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">بيفصل لو الجهد طلع فوق المعدل — حماية من تذبذب الكهرباء بالليل في مصر</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Anker ✅ Joyroom ✅</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">انكر ✅ Joyroom ✅</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>OTP (حماية الحرارة)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">بيقلّل التيار أو يفصل لو الشاحن سخن — حرجة في صيف مصر</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Anker ✅ Joyroom ✅</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">انكر ✅ Joyroom ✅</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>ActiveShield 2.0</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">بيراقب الحرارة <strong>3 مليون مرة يومياً</strong> ويعدّل التيار لحظياً</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Anker فقط ✅</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">انكر فقط ✅</td>
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Care Mode (80% Limit)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">بيوقف الشحن عند 80% — أفضل حل للشحن الليلي (البطارية بتعيش أطول 40%)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Anker Nano 45W Smart Display فقط ✅</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">انكر Nano 45W Smart Display فقط ✅</td>
         </tr>
     </tbody>
 </table>
@@ -234,7 +234,7 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
     <li style="margin-bottom:16px;">✅ <strong>#4 — فعّل وضع الطيران (Airplane Mode).</strong> بيقلل استهلاك البطارية أثناء النوم بنسبة 80% — يعني الموبايل هيوصل 100% أسرع والشاحن هيقضي وقت أقل في الشحن الفعلي ووقت أطول في وضع Trickle الآمن.</li>
     <li style="margin-bottom:16px;">✅ <strong>#5 — فعّل Optimized Battery Charging.</strong> موجود في iPhone (Settings → Battery → Battery Health) و Samsung (Settings → Battery → Battery Protection). بيتعلم عادات نومك وبيوقف الشحن عند 80% لحد ما يقرب وقت صحيانك.</li>
     <li style="margin-bottom:16px;">✅ <strong>#6 — متشحنش بباور بانك وإنت نايم.</strong> باور بانك مفيهاش نفس طبقات الحماية اللي في الشاحن — خصوصاً OVP و OTP. استخدم شاحن حائط أصلي بس للشحن الليلي.</li>
-    <li style="margin-bottom:16px;">✅ <strong>#7 — شاحن واحد محترم أحسن من 3 رخاص.</strong> شاحن بـ 50ج من OLX مفيهوش حماية حرارية — 8 ساعات متواصلة بالليل في صيف مصر = وصفة لكارثة. شاحن Anker أو Joyroom أصلي بضمان = راحة بال.</li>
+    <li style="margin-bottom:16px;">✅ <strong>#7 — شاحن واحد محترم أحسن من 3 رخاص.</strong> شاحن بـ 50ج من OLX مفيهوش حماية حرارية — 8 ساعات متواصلة بالليل في صيف مصر = وصفة لكارثة. شاحن انكر أو Joyroom أصلي بضمان = راحة بال.</li>
 </ul>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -258,7 +258,7 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل الشواحن المذكورة في المقال <strong>أصلية بضمان رسمي</strong> (18-36 شهر) + توصيل لكل المحافظات خلال 24-72 ساعة + الدفع عند الاستلام + دعم واتساب 24/7. رمضان كريم — وبطاريتك كمان تستاهل تتعامل بكرم. 🌙
+        كل الشواحن المذكورة في المقال <strong>أصلية بضمان مكتوب</strong> (18-36 شهر) + توصيل للمحافظات وفق الموعد التقديري الظاهر عند تأكيد الطلب + الدفع عند الاستلام + دعم عبر واتساب خلال ساعات العمل المعلنة. رمضان كريم — وبطاريتك كمان تستاهل تتعامل بكرم. 🌙
     </p>
 </div>
 
@@ -273,32 +273,32 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
             faq: [
                 {
                     question: 'هل الشحن السريع بالليل أخطر من الشحن العادي؟',
-                    answer: 'لأ — الشحن السريع بيشتغل بس من 0→80%. بعد 80% الموبايل بيبطّئ التيار تلقائياً بغض النظر عن قدرة الشاحن. يعني شاحن 20W وشاحن 45W بيبقوا بنفس السرعة تقريباً من 80→100%. الفرق الوحيد: شاحن 45W بيوصلك لـ 80% أسرع — وده مفيد لو عايز تشحن بسرعة بين الفطار والتراويح.',
+                    answer: 'تقلل أجهزة كثيرة قدرة الشحن مع ارتفاع النسبة أو الحرارة، لكن المنحنى والحدود تختلف حسب الموديل والإعدادات. استخدم شاحناً وكابلاً متوافقين وتهوية جيدة، ولا تفترض أن نطاقاً واحداً أو فرق سرعة ثابتاً ينطبق على كل هاتف.'
                 },
                 {
                     question: 'هل لازم أشيل الجراب أثناء الشحن بالليل؟',
-                    answer: 'مستحسن جداً — خصوصاً في صيف مصر. الجراب بيحبس الحرارة ويزوّد درجة حرارة الموبايل 5-8°م. لو مش عايز تشيله كل يوم، على الأقل استخدم جراب رفيع (thin case) مش جراب سيليكون تخين — أو حط الموبايل على ضهره (الجراب لفوق) عشان الحرارة تطلع.',
+                    answer: 'قد يحبس بعض الجرابات الحرارة أكثر من غيرها، لكن الأثر يعتمد على المادة والهاتف والسطح والجو. اتبع تنبيهات الجهاز، وفر تهوية، وأزل الجراب إذا أوصت الشركة أو ظهرت حرارة غير معتادة.'
                 },
                 {
-                    question: 'خاصية Care Mode في شاحن Anker Smart Display — بتفرق فعلاً؟',
-                    answer: 'أيوا وبالأرقام. Care Mode بتوقف الشحن عند 80% بدل 100%. حسب Battery University: شحن لـ 80% بيزوّد عمر البطارية من 500 لـ 1,500 دورة — يعني بطاريتك هتفضل بكفاءة عالية 3 سنين بدل سنة ونص. لو بتغيّر موبايلك كل سنة مش هتحس بالفرق — بس لو بتحتفظ بموبايلك 2-3 سنين، الفرق ضخم.',
+                    question: 'خاصية Care Mode في شاحن انكر Smart Display — بتفرق فعلاً؟',
+                    answer: 'قد يقلل حد الشحن ووقت البقاء عند نسبة مرتفعة إجهاد البطارية، لكن أثره يختلف حسب كيمياء الخلية والحرارة والاستخدام وإدارة الهاتف. لا يتحول حد 80% إلى عدد دورات أو سنوات مضمون؛ راجع وصف الميزة وإرشادات الجهاز.'
                 },
                 {
                     question: 'إيه أخطر حاجة ممكن أعملها أثناء الشحن بالليل؟',
-                    answer: 'حط الموبايل تحت المخدة أو البطانية أثناء الشحن. ده بيحبس الحرارة تماماً وممكن يوصل درجة حرارة البطارية لـ 60°م+ — ده ممكن يسبب انتفاخ البطارية أو حريق. دايماً حط الموبايل على سطح صلب مفتوح (كومودينو، مكتب) أثناء الشحن الليلي.',
+                    answer: 'لا تشحن الهاتف تحت وسادة أو بطانية لأن ذلك يعيق تبديد الحرارة. ضعه على سطح ثابت وجيد التهوية وفق تعليمات الشركة، وافصله عند الرائحة أو التلف أو الحرارة غير المعتادة.'
                 },
             ],
         },
         en: {
             title: 'Charging Your Phone During Ramadan — How to Choose a Charger for Long Overnight Sessions',
             metaTitle: 'Safe Overnight Phone Charging During Ramadan | CairoVolt',
-            metaDescription: 'Complete guide to safe overnight phone charging during Ramadan. How to choose a charger with advanced thermal protection for 8+ hour charging sessions.',
+            metaDescription: 'Overnight phone charging during Ramadan: charger and cable compatibility, ventilation, battery-management settings, and abnormal-heat warning signs.',
             keywords: 'overnight phone charging Ramadan, safe charger for night charging, does overnight charging damage battery, charger with thermal protection, best charger overnight charging, Care Mode charger, charging phone while sleeping, ActiveShield charger',
-            excerpt: 'During Ramadan, phones charge overnight for 7-10 hours straight. Guide to choosing a safe charger with thermal protection that preserves your battery — with the best options in Egypt.',
-            quickAnswer: 'Yes, overnight charging during Ramadan is safe with one condition: a genuine charger with OVP/OTP protection (like Anker or Joyroom). Modern phones (iPhone 15+, Samsung S24+) have Trickle Charge that stops current at 100%. Best pick: Anker 20W at 490 EGP with ActiveShield 2.0 (monitors temperature 3 million times daily). Premium: Anker Nano 45W Smart Display with Care Mode that stops charging at 80%.',
-            content: `<p>It's 2 AM after Suhoor. The TV series just ended on MBC. You glance at your phone — 8% battery. You plug it in and fall asleep. You wake up at noon to your alarm and find the phone has been charging for 9 hours straight. And here comes the question every one of us asks during Ramadan: <strong>"Did I just destroy my battery?"</strong></p>
+            excerpt: 'A guide to compatible charging equipment, ventilation, battery-management settings, and heat warnings for overnight charging in Ramadan.',
+            quickAnswer: 'A phone can be charged overnight with compatible equipment, good ventilation, and the battery-management settings offered by the device. Do not assume a protection feature prevents every fault; follow the phone and charger manuals and disconnect for damage, odor, or unusual heat, then compare current price and written warranty terms.',
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p>It's 2 AM after Suhoor. The TV series just ended on MBC. You glance at your phone — 8% battery. You plug it in and fall asleep. You wake up at noon to your alarm and find the phone has been charging for 9 hours straight. And here comes the question every one of us asks during Ramadan: <strong>"Did I just destroy my battery?"</strong></p>
 
-<p>During Ramadan specifically, phone usage patterns change completely. Staying up past Fajr, binge-watching series and scrolling social media all night, then sleeping long hours during the day — meaning the phone charges for longer periods than any other time of year. This raises legitimate concerns for millions of Egyptians. In this article — as an electronics engineer who loves debunking myths with physics — we'll answer all the questions: Does prolonged overnight charging actually cause damage? Which charger handles it safely? And how do you save money while preserving your battery?</p>
+<p>Phone-use and charging schedules can change during Ramadan, but they differ by person. This guide separates general battery guidance from marketing claims and explains the factors that matter for overnight charging: device controls, heat, cable and adapter condition, ventilation, and the manufacturer's instructions.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -525,7 +525,7 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All chargers mentioned in this article are <strong>genuine with official warranty</strong> (18-36 months) + delivery to all governorates within 24-72 hours + cash on delivery + 24/7 WhatsApp support. Ramadan Kareem — and your battery deserves generosity too. 🌙
+        All chargers mentioned in this article are <strong>genuine with written warranty terms</strong> (the written term) + delivery according to the address-specific estimate shown before order confirmation + cash on delivery + WhatsApp support during the published business hours. Ramadan Kareem — and your battery deserves generosity too. 🌙
     </p>
 </div>
 
@@ -540,19 +540,19 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
             faq: [
                 {
                     question: 'Is fast charging at night more dangerous than slow charging?',
-                    answer: 'No — fast charging only operates from 0→80%. After 80%, the phone automatically slows the current regardless of the charger\'s power. A 20W and 45W charger charge at roughly the same speed from 80→100%. The only difference: a 45W charger gets you to 80% faster — useful for a quick charge between Iftar and Taraweeh prayers.',
+                    answer: 'Many devices taper charging as state of charge or temperature rises, but the curve and thresholds vary by model and settings. Use compatible equipment and ventilation, and do not assume one range or fixed speed difference applies to every phone.'
                 },
                 {
                     question: 'Should I remove the phone case during overnight charging?',
-                    answer: 'Highly recommended — especially in Egyptian summers. The case traps heat and adds 5-8°C to the phone\'s temperature. If you don\'t want to remove it every night, at least use a thin case instead of a thick silicone one — or place the phone face-down (case facing up) so heat can escape.',
+                    answer: 'Some cases retain more heat than others, but the effect depends on material, phone, surface, and room conditions. Follow device alerts, provide ventilation, and remove the case if the manufacturer recommends it or unusual heat appears.'
                 },
                 {
                     question: 'Does Care Mode on the Anker Smart Display actually make a difference?',
-                    answer: 'Yes, with real numbers. Care Mode stops charging at 80% instead of 100%. According to Battery University: charging to 80% increases battery lifecycle from 500 to 1,500 cycles — meaning your battery stays healthy for 3 years instead of 1.5 years. If you upgrade phones annually, you won\'t notice the difference — but if you keep your phone 2-3 years, the impact is massive.',
+                    answer: 'A charge limit and less time at a high state of charge may reduce battery stress, but the effect varies with cell chemistry, temperature, use, and device management. An 80% limit does not guarantee a fixed number of cycles or years; review the feature and device guidance.'
                 },
                 {
                     question: 'What\'s the most dangerous thing to do during overnight charging?',
-                    answer: 'Placing the phone under a pillow or blanket while charging. This completely traps heat and can push battery temperature to 60°C+ — potentially causing battery swelling or fire. Always place the phone on a hard, open surface (nightstand, desk) during overnight charging.',
+                    answer: 'Do not charge a phone under a pillow or blanket because that obstructs heat dissipation. Place it on a stable, ventilated surface according to the manufacturer, and disconnect it for unusual heat, odor, or damage.'
                 },
             ],
         },

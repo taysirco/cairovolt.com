@@ -28,13 +28,13 @@ export const soundcore_life_q20_headphones_best_budget_over_ear: BlogArticle = {
     },
     translations: {
         ar: {
-            title: 'مراجعة عائلة Soundcore Life Q20 — هل يستحق الشراء في السوق المصري؟',
-            metaTitle: 'مراجعة هيدفون Soundcore Life Q20 و Q20i في مصر | كايرو فولت',
-            metaDescription: 'هل Soundcore Life Q20 و Q20i لسه يستاهل الشراء بمصر؟ مراجعة للفرق بين النسختين والبطارية 60 ساعة وعزل الضوضاء ANC ومقارنة بالـ Q30 والضمان المعتمد.',
+            title: 'دليل عائلة ساوندكور Life Q20 — مقارنة الشراء في السوق المصري',
+            metaTitle: 'دليل هيدفون ساوندكور Life Q20 وQ20i في مصر | كايرو فولت',
+            metaDescription: 'مقارنة ساوندكور Life Q20 وQ20i في مصر: الفروق والمواصفات المنشورة للبطارية وANC ومقارنتها مع Q30 والسعر والضمان الحالي.',
             keywords: 'soundcore life q20 مراجعة, life q20 مصر, هيدفون over ear تحت 3000, soundcore q20 سعر مصر, soundcore q20 vs q30, أفضل هيدفون بطاريه مصر, soundcore q20 anc, هيدفون دراسة مصر, life q20 60 ساعة, انكر هيدفون مصر',
-            excerpt: 'تعد سماعة الرأس Soundcore Life Q20 ونسختها المحدثة Q20i من أشهر الخيارات الاقتصادية فوق الأذن. نراجع الاختلافات الحقيقية وعمر البطارية والأسعار بمصر.',
-            quickAnswer: 'تعتبر سماعة الرأس Soundcore Life Q20i الخيار الأحدث والأكثر تميزاً في مصر بسعر يتراوح بين 2,000 إلى 3,000 جنيه مصري. تتميز عن النسخة الأصلية Q20 بوجود منفذ شحن USB-C ودعم كامل لتطبيق Soundcore لتخصيص الإيكوالايزر وميزة الاقتران بجهازين، مع بطارية 60 ساعة وعزل نشط ANC فائق القيمة.',
-            content: `<p>حققت سلسلة سماعات الرأس فوق الأذن Soundcore Life Q20 شهرة طاغية ومبيعات قياسية على مدار السنوات الماضية كأحد أفضل الخيارات التي تجمع بين عزل الضوضاء النشط والبطارية الضخمة بسعر اقتصادي. ومع توافر نسختين مختلفتين في السوق المصري حالياً — النسخة الأصلية Life Q20 والنسخة المحدثة اللاحقة Life Q20i — يقع المشتري في حيرة بالغة حول الفروق الجوهرية بينهما والأسعار الواقعية التي تتراوح حالياً بين 2,000 إلى 3,000 جنيه مصري. في هذا الدليل الشامل من معمل كايرو فولت، سنشرح لك بالتفصيل الفروق الدقيقة وأداء عزل الضوضاء وعمر البطارية، وسنساعدك في اختيار الموديل الأنسب لميزانيتك واحتياجاتك اليومية.</p>
+            excerpt: 'قارن سماعة ساوندكور Life Q20 ونسخة Q20i حسب المنافذ والتطبيق والبطارية وANC والأسعار والتوفر الحالي في مصر.',
+            quickAnswer: 'ساوندكور Life Q20i أحدث من Q20 في بعض الأسواق، وقد تضيف USB-C ودعم تطبيق ساوندكور والاقتران بجهازين حسب الإصدار. تحقق من مواصفات رقم الموديل والبطارية والسعر والتوفر قبل الشراء.',
+            content: `<p>حققت سلسلة سماعات الرأس فوق الأذن Soundcore Life Q20 شهرة طاغية ومبيعات قياسية على مدار السنوات الماضية كأحد أفضل الخيارات التي تجمع بين عزل الضوضاء النشط والبطارية الضخمة بسعر اقتصادي. ومع توافر نسختين مختلفتين في السوق المصري حالياً — النسخة الأصلية Life Q20 والنسخة المحدثة اللاحقة Life Q20i — يقع المشتري في حيرة بالغة حول الفروق الجوهرية بينهما والأسعار الواقعية التي تتراوح حالياً بين 2,000 إلى 3,000 جنيه مصري. في هذا الدليل الشامل، سنشرح لك بالتفصيل الفروق الدقيقة وأداء عزل الضوضاء وعمر البطارية، وسنساعدك في اختيار الموديل الأنسب لميزانيتك واحتياجاتك اليومية.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -42,7 +42,7 @@ export const soundcore_life_q20_headphones_best_budget_over_ear: BlogArticle = {
     </p>
 </div>
 
-<h2>مواصفات Soundcore Life Q20 ضد Life Q20i — الفروق الكاملة</h2>
+<h2>مواصفات ساوندكور Life Q20 ضد Life Q20i — الفروق المنشورة</h2>
 <p>لتوضيح الاختلافات التقنية بين الإصدارين المتوفرين في مصر، راجع جدول المواصفات التالي:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
@@ -118,7 +118,7 @@ export const soundcore_life_q20_headphones_best_budget_over_ear: BlogArticle = {
 </ul>
 
 <h2>بطارية 60 ساعة الاستثنائية — اختبار الأيام الممتدة</h2>
-<p>توفر السماعة بطارية ضخمة تمنحك استقلالية تامة عن الشحن لعدة أيام متواصلة. قمنا بمحاكاة استخدام واقعي لسيناريوهات متعددة:</p>
+<p>توفر السماعة بطارية ضخمة تمنحك استقلالية تامة عن الشحن لعدة أيام متواصلة. استناداً إلى أرقام الشركة المصنعة المعلنة (60 ساعة تشغيل بدون عزل و40 ساعة مع تفعيل ANC)، إليك ما تعنيه هذه الأرقام حسابياً في سيناريوهين شائعين:</p>
 <ul>
     <li><strong>سيناريو الطالب المصري:</strong> بمعدل استخدام 6 ساعات يومياً للدراسة والاستماع والمواصلات، ستكفيك شحنة واحدة للسماعة لمدة 10 أيام كاملة بدون تشغيل العزل، ولمدة أسبوع كامل مع تفعيل وضع ANC باستمرار. هذا يغنيك تماماً عن القلق من انقطاع الكهرباء في مصر.</li>
     <li><strong>سيناريو السفر الطويل:</strong> في الرحلات الجوية الطويلة أو السفر البري بين المحافظات الذي يستغرق ساعات طويلة، توفر لك السماعة تشغيلاً متواصلاً مع إمكانية استخدام منفذ السلك المرفق 3.5 مم لتوصيلها بشاشات الطائرات أو اللابتوب مباشرة دون استهلاك أي طاقة من البطارية.</li>
@@ -127,7 +127,7 @@ export const soundcore_life_q20_headphones_best_budget_over_ear: BlogArticle = {
 <h2>تصميم الهيدباند وقوة الضغط الجانبي (Clamping Force) مع النظارات الطبية</h2>
 <p>تعتبر قوة الضغط الجانبي (Clamping Force) عاملاً حاسماً في راحة سماعات الرأس Over-Ear. صممت أنكر طوق الرأس (Headband) في Life Q20 و Q20i ليكون متوازناً للغاية؛ فهو يوفر إحكاماً كافياً لثبات الهيدفون على الرأس أثناء الحركة والمشي دون أن يسبب صداعاً أو ضغطاً شديداً على عظام الفك. وبفضل وسادات الذاكرة الفوم (Memory Foam) بالغة النعومة، يفضل الكثير من مستخدمي النظارات الطبية في مصر هذه السماعة؛ حيث تتشكل الوسادات برفق حول ذراعي النظارة دون ضغطها خلف الأذن، مما يتيح لهم الدراسة والمذاكرة والعمل لساعات طويلة دون أي ألم أو انزعاج.</p>
 
-<h2>مقارنة ثلاثية: Soundcore Q20i ضد Q30 ضد JBL Tune 710BT</h2>
+<h2>مقارنة ثلاثية: ساوندكور Q20i ضد Q30 ضد JBL Tune 710BT</h2>
 <p>لمعرفة أين تذهب أموالك بالضبط، يقارن الجدول التالي بين أفضل الخيارات المتاحة في نفس الفئة:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
@@ -170,24 +170,23 @@ export const soundcore_life_q20_headphones_best_budget_over_ear: BlogArticle = {
 <h2>إرشادات الشحن وحماية البطارية ضد الجهد المرتفع في مصر</h2>
 <p>تتطلب بطارية خلايا الليثيوم الضخمة داخل سماعات الرأس حماية حذرة لمنع تلف الخلايا بفعل الجهد الكهربائي غير المستقر:</p>
 <ul>
-    <li><strong>تجنب الشحن السريع الفائق:</strong> نوصي بشدة بعدم شحن هيدفون Q20 أو Q20i بواسطة شواحن الهواتف الفائقة السرعة (مثل 33 واط أو 67 واط أو 120 واط)؛ حيث قد يؤدي التيار العالي إلى تسخين الدوائر الداخلية وتعجيل تلف خلايا البطارية. يفضل دائماً استخدام شواحن عادية بقدرة 5 واط (5 فولت / 1 أمبير) أو الشحن عبر منافذ لابتوب.</li>
+    <li><strong>استخدم مصدراً متوافقاً:</strong> اتبع جهد وتيار الإدخال في دليل Q20 أو Q20i. الشاحن المتوافق لا يفرض قدرته القصوى على السماعة. أوقف الشحن عند سخونة غير طبيعية.</li>
     <li><strong>وقاية التخزين الطويل:</strong> إذا كنت تخطط لعدم استخدام السماعة لعدة أسابيع، فاحرص على شحنها بنسبة 50% وتجنب تركها فارغة تماماً لضمان عدم تلف الخلايا الكيميائية.</li>
 </ul>
 
-<h2>الضمان المعتمد وخدمات الصيانة والدعم الفني في مصر</h2>
-<p>يحظى مشترو الموديل Q20 و Q20i في مصر بضمان استثنائي يمتد لـ 18 شهراً من الوكيل الرسمي، والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول جهازك في مراكز الدعم الفني الرسمية.</p>
-<p>تنتشر الفروع الرسمية لوكيل أنكر المعتمد في أهم المناطق الحيوية داخل القاهرة الكبرى والإسكندرية (مثل فروع مصر الجديدة، المهندسين، وميدان سموحة بالإسكندرية). عند مواجهتك لأي عطل فني في هيدفون Q20i أو Q20، يمكنك تسليم المنتج لأقرب مركز صيانة؛ حيث تخضع السماعة لفحص تقني دقيق يستغرق عادةً من يومين إلى ثلاثة أيام عمل كحد أقصى لتقييم صحة البطارية وسلامة اللوحات الإلكترونية الداخلية. وفي حال تأكيد وجود عيب مصنعي ولم يكن العطل ناتجاً عن سوء استخدام أو كسر، يتم تسليمك سماعة جديدة تماماً مغلفة بالكرتونة فوراً، مما يعطيك أعلى مستويات الأمان والراحة لشراء منتج يعتمد عليه لسنوات طويلة.</p>
-<p>ملاحظة هامة من فريق الصيانة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن خارج المراكز المعتمدة. كما يوصى بالتحقق من ملصق الضمان الفضي الموجود على كرتونة المنتج للتأكد من الموزع المحلي المسؤول عن التغطية.</p>
+<h2>الضمان وخدمات الصيانة والدعم الفني في مصر</h2>
+<p>تختلف جهة الضمان ومدته والحلول المتاحة حسب البائع والدفعة. احتفظ بإثبات الشراء والرقم التسلسلي، وراجع السياسة المكتوبة المرفقة بالمنتج. طلبات كايرو فولت تُقيّم وفق شروط ضمان كايرو فولت المنشورة من دون وعد باستبدال تلقائي أو مدة فحص ثابتة.</p>
+<p>تجنب الرطوبة والتفكيك أو الإصلاح غير المصرح به، وتواصل مع جهة الضمان المسجلة على الفاتورة قبل تسليم السماعة لأي مركز خدمة.</p>
 
 <h2>مزايا الشراء الموثوق والتوصيل السريع من كايرو فولت</h2>
-<p>عند طلب سماعات أنكر من متجر كايرو فولت المعتمد، ستحصل على الميزات الفاخرة التالية:</p>
+<p>قبل الطلب من كايرو فولت، راجع صفحة المنتج وصفحات السياسات لمعرفة:</p>
 <ul>
-    <li><strong>أصلية 100%:</strong> بضمان استبدال معتمد لمدة 18 شهراً ضد عيوب الصناعة.</li>
-    <li><strong>توصيل سريع للغاية:</strong> شحن لكافة المحافظات المصرية خلال 24 إلى 48 ساعة فقط.</li>
-    <li><strong>معاينة وفحص قبل الدفع:</strong> تتيح لك سياسة المتجر فحص الشحنة خارجياً والتأكد من سلامتها بالكامل قبل تسليم المبلغ للمندوب.</li>
+    <li><strong>بيانات المنتج:</strong> رقم الموديل ومحتويات العبوة ومدة الضمان المكتوبة.</li>
+    <li><strong>التوصيل:</strong> الموعد التقديري حسب المخزون والعنوان.</li>
+    <li><strong>المعاينة والإرجاع:</strong> الحدود والإجراءات الموضحة في السياسة وعند إتمام الطلب.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 تسوق سماعات الرأس الأصلية بضمان 18 شهراً من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد العروض الحالية: <a href="/soundcore/soundcore-life-q20-headphones" style="color:#2563eb;font-weight:600;">سماعة Soundcore Life Q20i المحدثة</a> · <a href="/soundcore/soundcore-q30-headphones" style="color:#2563eb;font-weight:600;">سماعة Soundcore Q30 الفاخرة</a> · <a href="/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">سماعة Space One ذات التصميم الحديث</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 قارن سماعات الرأس من ساوندكور على كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع الأسعار والمواصفات وشروط الضمان الحالية: <a href="/soundcore/soundcore-life-q20-headphones" style="color:#2563eb;font-weight:600;">ساوندكور Life Q20i</a> · <a href="/soundcore/soundcore-q30-headphones" style="color:#2563eb;font-weight:600;">ساوندكور Q30</a> · <a href="/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Space One</a>.</p></div>` ,
             faq: [
                 {
                     question: 'ما هو الفرق الجوهري بين سماعة Life Q20 و Life Q20i؟',
@@ -208,8 +207,8 @@ export const soundcore_life_q20_headphones_best_budget_over_ear: BlogArticle = {
             ]
         },
         en: {
-            title: 'Soundcore Life Q20 vs Q20i Review — Best Budget Over-Ear Headphones in Egypt',
-            metaTitle: 'Soundcore Life Q20 vs Q20i Review — 60h Battery & ANC | CairoVolt',
+            title: 'Soundcore Life Q20 vs Q20i Guide — Best Budget Over-Ear Headphones in Egypt',
+            metaTitle: 'Soundcore Life Q20 vs Q20i Guide — 60h Battery & ANC | CairoVolt',
             metaDescription: 'Is the Soundcore Life Q20 or Q20i still worth buying in Egypt? Read our review covering differences, 60h battery, ANC, warranty, and price comparison.',
             keywords: 'soundcore life q20 review, life q20 egypt, over ear headphones under 3000 EGP, soundcore q20 price egypt, soundcore q20 vs q30, best budget headphones egypt, soundcore q20 anc, headphones for studying egypt, life q20 60 hour battery, anker headphones egypt',
             excerpt: 'The Soundcore Life Q20 and Q20i are widely regarded as the ultimate budget over-ear headphones. We review the real specs, local pricing, and software features.',
@@ -298,7 +297,7 @@ export const soundcore_life_q20_headphones_best_budget_over_ear: BlogArticle = {
 </ul>
 
 <h2>The 60-Hour Battery Longevity — Real-World Testing</h2>
-<p>The massive battery capacity provides outstanding independence from daily charging routines. We simulated normal use across two scenarios:</p>
+<p>The massive battery capacity provides outstanding independence from daily charging routines. Based on the manufacturer-rated figures (60 hours of playback in Normal mode, 40 hours with ANC), here is what the math works out to in two common scenarios:</p>
 <ul>
     <li><strong>Student Study Schedule:</strong> At 6 hours of daily study, music, and commuting, a single charge lasts up to 10 days in Normal mode (or 6–7 days with ANC active). This is highly convenient for students studying for finals.</li>
     <li><strong>Transit and Travel:</strong> For long regional commutes or flights, the battery provides continuous playback. Additionally, if the battery runs out, you can plug in the included 3.5mm AUX cable to connect to laptops or airplane seats without needing battery power.</li>
@@ -350,25 +349,23 @@ export const soundcore_life_q20_headphones_best_budget_over_ear: BlogArticle = {
 <h2>Charging Safeguards in Egyptian Power Grids</h2>
 <p>To shield the internal lithium battery and charging components from voltage fluctuations and spikes common in local power networks, follow these guidelines:</p>
 <ul>
-    <li><strong>Avoid Fast-Chargers:</strong> Do not charge the headphones using high-wattage mobile chargers (33W, 67W, or higher). These can cause excess heat buildup and accelerate battery degradation. Use a standard 5W (5V/1A) wall plug or charge via a computer USB port.</li>
-    <li><strong>Avoid Overnight Charging:</strong> Unplug the charging cable once the indicator confirms a full charge. This prevents continuous over-charging, protecting the battery's longevity.</li>
+    <li><strong>Use a compliant source:</strong> follow the input rating in the Q20 or Q20i manual. A compliant charger does not force its maximum wattage into the headphones.</li>
+    <li><strong>Watch for abnormal heat:</strong> charge on a dry, ventilated surface and stop if you notice unusual heat, odor or swelling.</li>
 </ul>
 
-<h2>Official Local Warranty and Technical Support in Egypt</h2>
-<p>Buyers of the Model Q20 and Q20i in Egypt receive a comprehensive 18-month warranty from the authorized local distributor. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or connection failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim at official service centers.</p>
-<p>The official service centers for the authorized Anker distributor are conveniently located across major commercial hubs in Cairo and Alexandria (including branches in Heliopolis, Mohandessin, and Smouha). If you experience any technical issues with your Q20 or Q20i, you can drop off the device at any authorized service center. The diagnostic inspection is highly detailed and typically takes between 2 and 3 business days. Once a manufacturing defect is verified and the issue is confirmed not to be caused by physical damage or liquid ingress, a brand-new retail-packaged replacement unit is issued immediately, ensuring an outstanding customer experience for Egyptian buyers.</p>
-<p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. Always cross-check the localized silver warranty sticker on the retail packaging to identify the exact local distributor responsible for servicing your product.</p>
-<p>The customer service centers in Cairo and Alexandria are fully equipped with specialized testing rigs to evaluate battery health and driver calibration. If a replacement is approved under warranty, the transaction is processed quickly. This gives local buyers absolute peace of mind compared to grey-market imports that lack warranty protection.</p>
+<h2>Local Warranty and Technical Support in Egypt</h2>
+<p>Warranty provider, duration and remedies depend on the seller and batch. Keep proof of purchase and the serial number and follow the written policy supplied with the product. CairoVolt orders are assessed under CairoVolt's published warranty terms without a promise of automatic replacement or a fixed inspection time.</p>
+<p>Avoid moisture, disassembly and unapproved repairs, and contact the warranty provider named on the invoice before handing the headphones to a service center.</p>
 
 <h2>Secure Purchase and Delivery at CairoVolt</h2>
-<p>Ordering from CairoVolt guarantees a genuine, high-quality customer experience:</p>
+<p>Before ordering from CairoVolt, check the current product and policy pages for:</p>
 <ul>
-    <li><strong>100% Authentic Units:</strong> Backed by a verified 18-month local replacement warranty.</li>
-    <li><strong>Express Shipping:</strong> Doorstep delivery to all Egyptian governorates in 24 to 48 hours.</li>
-    <li><strong>Package Inspection:</strong> You can open and inspect the package before paying the courier.</li>
+    <li><strong>Product details:</strong> model number, box contents and written warranty duration.</li>
+    <li><strong>Shipping:</strong> the estimated date based on stock and destination.</li>
+    <li><strong>Inspection and returns:</strong> the limits and process shown in the policy and at checkout.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Shop Original Soundcore models at CairoVolt (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Check current offers: <a href="/en/soundcore/soundcore-life-q20-headphones" style="color:#2563eb;font-weight:600;">Soundcore Life Q20i Headphones</a> · <a href="/en/soundcore/soundcore-q30-headphones" style="color:#2563eb;font-weight:600;">Soundcore Life Q30 Headphones</a> · <a href="/en/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Soundcore Space One</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Compare Soundcore headphones available at CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Check current prices, specifications, and warranty terms: <a href="/en/soundcore/soundcore-life-q20-headphones" style="color:#2563eb;font-weight:600;">Soundcore Life Q20i Headphones</a> · <a href="/en/soundcore/soundcore-q30-headphones" style="color:#2563eb;font-weight:600;">Soundcore Life Q30 Headphones</a> · <a href="/en/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Soundcore Space One</a>.</p></div>` ,
             faq: [
                 {
                     question: 'What is the difference between the Soundcore Life Q20 and Q20i?',

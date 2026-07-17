@@ -6,12 +6,12 @@ export const joyroom_car_accessories_content: CategoryContent = {
             metadata: {
                 en: {
                     title: 'Joyroom Car Accessories Egypt | USB-C PD 60W + N52 Mount',
-                    description: 'Shop Joyroom car accessories in Egypt. USB-C PD 60W charger + N52 magnetic holder + MagSafe. ✓ CairoVolt road-tested ✓ 18-month warranty ✓ Cairo delivery',
+                    description: 'Compare Joyroom car accessories in Egypt, including USB-C PD chargers, N52 magnetic holders, and MagSafe-compatible models. Current price and CairoVolt warranty are listed per product.',
                     keywords: 'joyroom car charger, joyroom car holder, car accessories egypt, joyroom 60W USB-C PD, N52 magnetic mount, MagSafe car holder, joyroom car accessories price',
                 },
                 ar: {
-                    title: 'اكسسوارات سيارة جوي روم مصر | USB-C PD 60W + N52 من 169 جنيه',
-                    description: 'تسوق اكسسوارات سيارة جوي روم في مصر. شاحن USB-C PD 60W + حامل مغناطيس N52 + MagSafe. ✓ اختبار طرق CairoVolt ✓ ضمان 18 شهر ✓ توصيل القاهرة ✓ دفع عند الاستلام',
+                    title: 'اكسسوارات سيارة جوي روم مصر | USB-C PD وحوامل N52',
+                    description: 'قارن اكسسوارات سيارة جوي روم، بما فيها شواحن USB-C PD وحوامل N52 وموديلات متوافقة مع MagSafe. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
                     keywords: 'شاحن سيارة جوي روم, سعر اكسسوارات سيارة, حامل موبايل سيارة, حامل N52, شاحن USB-C PD 60W, MagSafe سيارة, اكسسوارات سيارة مصر',
                 }
             },
@@ -20,23 +20,23 @@ export const joyroom_car_accessories_content: CategoryContent = {
                     title: 'اكسسوارات سيارة جوي روم',
                     subtitle: 'جوي روم Car Accessories - حوّل سيارتك لمحطة ذكية',
                     description: `
-      بتقضي ساعتين يومياً في زحمة القاهرة والموبايل (الهاتف الذكي) بيخلص قبل ما توصل البيت؟ إكسسوارات سيارة **جوي روم** بتحل المشكلة — شاحن + حامل في باقة واحدة. ركبهم مرة واحدة — وانسى.
+      إذا كنت تستخدم الهاتف للملاحة أو المكالمات داخل السيارة، تساعدك إكسسوارات **جوي روم** على اختيار شاحن وحامل وفق قدرة جهازك ومكان التثبيت المناسب.
       **باكدج السيارة الذكية:**
-      شاحن سريع بمنفذين بيشحن ايفون + سامسونج معاً + حامل مغناطيسي الموبايل مش بيتحرك منه. شوف دليل الشراء بالأسفل.
-      ضمان 18 شهر CairoVolt — اطلبه الآن ودفع عند الاستلام. تسوق [حامل موبايل سيارة](/joyroom/car-holders) لتكملة منظومة سيارتك.
+      يمكن لموديل متعدد المنافذ شحن جهازين وفق توزيع القدرة المعلن، بينما يعتمد ثبات الحامل المغناطيسي على الموديل والجراب والتركيب الصحيح. شوف دليل الشراء بالأسفل.
+      ضمان كايرو فولت ومدته وشروطه موضحة في صفحة المنتج والسياسة. الدفع عند الاستلام متاح للطلبات المؤهلة. تسوق [حامل موبايل سيارة](/joyroom/car-holders) لتكملة منظومة سيارتك.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'USB-C PD 60W + GaN + FCC معتمد — ضد المقلد' },
-                        { type: 'warranty', text: 'ضمان 18 شهر من CairoVolt + استبدال فوري' },
-                        { type: 'expert_verified', text: 'اختبار طرق مصر 500 كم — CairoVolt Tested' }
+                        { type: 'originality', text: 'USB-C PD وGaN حسب مواصفات الموديل' },
+                        { type: 'warranty', text: 'ضمان كايرو فولت حسب صفحة المنتج والسياسة' },
+                        { type: 'expert_verified', text: 'توافق ومواصفات واضحة لكل موديل' }
                     ],
                     buyingGuide: [
                         {
                             title: 'كيف تختار شاحن السيارة المناسب؟',
                             content: `
-- **أقل من 20W:** كافي للشحن البطيء وال GPS فقط.
-- **30-45W:** مثالي لشحن موبايل واحد بسرعة متوسطة.
-- **60W (موصى به):** يشحن جهازين بأقصى سرعة — ايفون PD + سامسونج Super Fast. اختيارنا الأول.
+- **أقل من 20W:** مناسب للمحافظة على الشحن في أجهزة متوافقة، وقد لا يعوض استهلاك الملاحة والشاشة.
+- **30-45W:** مناسب لهاتف واحد إذا كان يدعم البروتوكول والقدرة المدرجين.
+- **حتى 60W:** قد يناسب شحن جهازين، لكن يجب مراجعة توزيع القدرة بين المنافذ ودعم PD/PPS لكل جهاز.
 `
                         },
                         {
@@ -50,35 +50,35 @@ export const joyroom_car_accessories_content: CategoryContent = {
                     faq: [
                         {
                             question: 'هل شاحن جوي روم للسيارة آمن مع حرارة مصر؟',
-                            answer: 'آمن 100%. معتمد FCC + CE أوروبي. تقنية GaN بتقطع الشحن فوراً لو فولت السيارة نزل عن 11V. اختبار CairoVolt: وقفنا العربية في شمس 45°م وشحنا 3 ساعات — حرارة الشاحن 40°م فقط (الرخيصة وصلت 80°م).'
+                            answer: 'اختر موديلًا يذكر أنظمة الحماية المطلوبة، واستخدمه داخل نطاق دخل السيارة المحدد على المنتج. لا تترك الشاحن تحت الشمس المباشرة وتوقف عن استخدامه إذا ظهرت سخونة غير طبيعية.'
                         },
                         {
                             question: 'شاحن جوي روم 60W بيشحن كام جهاز في نفس الوقت؟',
-                            answer: 'جهازين بأقصى سرعة! المنفذ الأول USB-C PD 30W (ايفون 17 من 0-50% في 30 دقيقة) + المنفذ التاني USB-A QC3.0 30W (سامسونج Super Fast). كل منفذ مستقل — مش بيأثر على التاني.'
+                            answer: 'يمكن للموديل متعدد المنافذ شحن جهازين، لكن القدرة المكتوبة قد تكون إجمالية وقد تتغير حصة كل منفذ عند الاستخدام المتزامن. راجع جدول توزيع الطاقة ودعم PD/PPS/QC في صفحة المنتج.'
                         },
                         {
                             question: 'الحامل المغناطيسي بيمسك الموبايلات الكبيرة زي Ultra وPro Max؟',
-                            answer: 'أيوه — مغناطيس N52 أقوى مغناطيس تجاري متاح. بيمسك موبايلات لغاية 300 جرام (يعني حتى ايفون 17 Pro Max بجراب). في اختبار CairoVolt على طريق مصر-اسكندرية الصحراوي ما اتحركش.'
+                            answer: 'حامل N52 مصمم للهواتف المتوافقة ضمن حد الوزن المعلن للموديل. استخدم الحلقة أو الجراب المناسب وتأكد من ثبات القاعدة قبل القيادة.'
                         },
                         {
                             question: 'الحامل ده هيأثر على بطانة التابلوه أو فتحة التكييف؟',
-                            answer: 'لا — القاعدة مبطنة بسيليكون ناعم مش بيسيب أثر. المشبك مرن ومش بيكسر ريش التكييف. ممكن تشيله وتركبه كل يوم من غير أي ضرر.'
+                            answer: 'يعتمد الأثر على خامة التابلوه وشكل فتحة التكييف وطريقة التركيب والحرارة. نظف السطح، اتبع تعليمات الموديل، ولا تشد المشبك أو اللاصق بقوة؛ أوقف الاستخدام إذا ظهرت علامات ضغط أو تلف.'
                         },
                         {
                             question: 'شاحن السيارة ده بيشتغل مع أي عربية؟',
-                            answer: 'أيوه — بيشتغل مع أي ولاعة سجاير 12V/24V. يعني من ميكروباص لـ BMW. اختبرناه في عربيات مصرية (هيونداي، كيا، تويوتا) — كلها اشتغل معاها.'
+                            answer: 'يعمل مع منافذ طاقة السيارة 12V أو 24V إذا كانت ضمن نطاق الدخل المكتوب على الموديل. راجع دليل السيارة وقدرة الفيوز قبل الاستخدام.'
                         }
                         ,{
                             question: 'هل بيشحن ايفون 17 وسامسونج S26 في نفس الوقت؟',
-                            answer: 'أيوه! موديل 60W فيه منفذ USB-C PD لايفون 17 (30W سريع) + USB-A لسامسونج S26. كل منفذ مستقل بأقصى سرعة. اختبار CairoVolt: شحن جهازين مع GPS = صفر بطء.'
+                            answer: 'موديل 60W يوفر USB-C PD ومنفذ USB-A لشحن جهازين متوافقين. القدرة المتاحة لكل منفذ قد تتغير عند توصيل جهازين؛ راجع جدول توزيع الطاقة في صفحة المنتج.'
                         }
                         ,{
                             question: '⚠️ إزاي افرق بين اكسسوارات جوي روم الأصلية والمقلدة؟',
-                            answer: 'منتجات مقلدة كتير في السوق بتسخن وبتضر الموبايل. الأصلي: 1) كود QR للتحقق 2) جسم معدني مش بلاستيك رخيص 3) شحن PD حقيقي 4) ضمان 18 شهر CairoVolt.'
+                            answer: 'راجع رقم الموديل ومواصفات الخرج ووسيلة التحقق الرسمية المتاحة من الشركة، واحتفظ بالفاتورة. الخامة أو كود QR أو سجل الضمان وحدها لا تثبت أصالة الشركة المصنّعة.'
                         }
                         ,{
                             question: 'ما ضمان اكسسوارات جوي روم للسيارة؟',
-                            answer: 'ضمان 18 شهر من CairoVolt. الضمان يشمل: الشاحن + الحامل + الكابلات. استبدال فوري خلال 14 يوم. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
+                            answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال تختلف حسب المنتج وتظهر في صفحته وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         }
                     ],
                     products: [
@@ -91,23 +91,23 @@ export const joyroom_car_accessories_content: CategoryContent = {
                     title: 'Joyroom Car Accessories',
                     subtitle: 'Transform Your Car Into a Smart Station',
                     description: `
-      Spending 2 hours daily in Cairo traffic while your phone dies before you get home? Joyroom car accessories solve this — charger + mount in one smart bundle. Install once — forget forever.
+      If you use a phone for navigation or calls in the car, Joyroom accessories let you choose a charger and mount according to device power requirements and the safest mounting position.
       **The Smart Car Bundle:**
-      Fast dual-port charger powers iPhone + Samsung simultaneously + magnetic mount keeps your phone locked in place. See buying guide below for details.
-      18-month CairoVolt warranty — order now, cash on delivery.
+      A multi-port charger can power two devices according to its stated distribution, while magnetic hold depends on the model, case, and correct installation. See the buying guide below.
+      CairoVolt warranty duration and terms are listed per product and in the warranty policy. Cash on delivery is available for eligible orders.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'Original Joyroom Product' },
-                        { type: 'warranty', text: '18-Month Warranty — FCC Certified' },
-                        { type: 'expert_verified', text: '60W PD Fast Charge' }
+                        { type: 'originality', text: 'Model details available for review' },
+                        { type: 'warranty', text: 'CairoVolt warranty per product and policy' },
+                        { type: 'expert_verified', text: 'PD output and distribution listed by model' }
                     ],
                     buyingGuide: [
                         {
                             title: 'How to Choose the Right Car Charger',
                             content: `
-- **Under 20W:** Basic charging for GPS and slow top-ups only.
-- **30-45W:** Good for single-device charging at moderate speed.
-- **60W (Recommended):** Charges two devices at max speed — iPhone PD + Samsung Super Fast. Our top pick.
+- **Under 20W:** Suitable for maintaining charge on compatible devices, but may not offset navigation and screen use.
+- **30-45W:** Suitable for one phone when its protocol and power requirements match.
+- **Up to 60W:** May suit two-device charging; check port distribution and PD/PPS support for each device.
 `
                         },
                         {

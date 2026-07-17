@@ -8,7 +8,7 @@ interface TokenData {
     productName: string;
     productSlug: string;
     customerName: string;
-    purchaseDate: string;
+    purchaseMonth: string;
 }
 
 interface ReviewPageClientProps {
@@ -22,6 +22,12 @@ export default function ReviewPageClient({ locale, token, tokenData }: ReviewPag
     const productDisplayName = tokenData && isArabic
         ? localizeArabicBrandNames(tokenData.productName)
         : tokenData?.productName;
+    const purchaseMonthLabel = tokenData
+        ? new Date(`${tokenData.purchaseMonth}-01T00:00:00.000Z`).toLocaleDateString(
+            isArabic ? 'ar-EG' : 'en-US',
+            { year: 'numeric', month: 'long', timeZone: 'UTC' },
+        )
+        : '';
 
     if (!tokenData) {
         return (
@@ -120,8 +126,8 @@ export default function ReviewPageClient({ locale, token, tokenData }: ReviewPag
                     </div>
                     <div className="review-product__name">{productDisplayName}</div>
                     <div className="review-product__date">
-                        {isArabic ? 'تاريخ الشراء: ' : 'Purchase Date: '}
-                        {new Date(tokenData.purchaseDate).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US')}
+                        {isArabic ? 'شهر الشراء: ' : 'Purchase month: '}
+                        {purchaseMonthLabel}
                     </div>
                 </div>
 

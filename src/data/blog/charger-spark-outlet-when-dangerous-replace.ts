@@ -24,12 +24,12 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
     translations: {
         ar: {
             title: 'شرارة الشاحن في البريزة — إمتى تكون عادية وإمتى لازم تغيّره فوراً؟',
-            metaTitle: 'شرارة الشاحن في البريزة — عادية ولا خطيرة؟ دليل أمان كامل | كايرو فولت',
+            metaTitle: 'شرارة الشاحن في البريزة — متى تفصل الكهرباء وتطلب فحصاً؟ | كايرو فولت',
             metaDescription: 'شاحنك بيعمل شرارة لما بتوصله بالبريزة؟ دليل مهندس يشرح الفرق بين الشرارة الطبيعية والخطيرة، وإمتى لازم تغيّر الشاحن أو البريزة فوراً. تابع التفاصيل بمصر.',
             keywords: 'شرارة شاحن البريزة, شاحن بيعمل شرارة, هل شرارة الشاحن خطيرة, شرارة كهربائية بريزة, شاحن بيعمل صوت طقطقة, أمان الشاحن الكهربائي, شرارة الشاحن لما بوصله, بريزة بتعمل شرارة, تغيير شاحن بسبب شرارة',
             excerpt: 'شرارة صغيرة لما بتوصل الشاحن بالبريزة — عادية ولا خطيرة؟ المقال ده بيشرح الفرق بينهم بالعلامات الواضحة، وإمتى لازم تتصرف فوراً.',
-            quickAnswer: 'شرارة صغيرة زرقاء لحظية (أقل من ثانية) عند توصيل الشاحن = طبيعية 100% — ده التيار بيبدأ يتدفق. خطيرة لو: (1) الشرارة كبيرة أو برتقالية/صفراء. (2) بتتكرر أو مستمرة بعد التوصيل. (3) فيه صوت طقطقة أو أزيز مستمر. (4) ريحة بلاستيك محروق. (5) البريزة أو الشاحن سخن بشكل غير طبيعي. في الحالات دي: افصل فوراً ← متستخدمش البريزة أو الشاحن ← استبدل.',
-            content: `<p>بتوصّل الشاحن بالبريزة وبتشوف شرارة صغيرة — أو بتسمع "طق" خفيف. قلبك بيقف للحظة: "ده طبيعي ولا في مشكلة؟" هل الشاحن هيولّع؟ هل البريزة فيها تماس؟ هل لازم أغيّر الشاحن؟</p>
+            quickAnswer: 'قد تحدث شرارة لحظية عند التوصيل بسبب تيار الاندفاع، لكن لا يمكن الحكم على الأمان من اللون أو المدة وحدهما. افصل الكهرباء ولا تستخدم الشاحن أو المقبس إذا كانت الشرارة كبيرة أو متكررة، أو صاحبها طقطقة أو أزيز أو رائحة أو حرارة أو تلف، واطلب فحصاً من كهربائي مؤهل قبل الاستبدال أو إعادة الاستخدام.',
+            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>بتوصّل الشاحن بالبريزة وبتشوف شرارة صغيرة — أو بتسمع "طق" خفيف. قلبك بيقف للحظة: "ده طبيعي ولا في مشكلة؟" هل الشاحن هيولّع؟ هل البريزة فيها تماس؟ هل لازم أغيّر الشاحن؟</p>
 
 <p>الحقيقة إن <strong>أغلب الشرارات اللي بتشوفها عند توصيل الشاحن — طبيعية تماماً</strong> وبتحصل في كل بيت في العالم. بس في حالات معينة — الشرارة بتكون علامة تحذيرية خطيرة محتاج تتصرف فيها فوراً. المقال ده بيعلّمك تفرّق بين الاتنين — بعلامات واضحة مش محتاجة أي أدوات قياس. كل اللي محتاجه عينيك وودانك وأنفك.</p>
 
@@ -81,7 +81,7 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
 <p>الشاحن الطبيعي بيسخن شوية أثناء الشحن (35-45°C — دافي في إيدك). بس لو الشاحن أو البريزة نفسها سخنوا لدرجة إنك مش قادر تمسكهم (فوق 60°C) — ده معناه إن في مقاومة عالية في نقطة التوصيل (loose contact) أو قصر جزئي. افصل فوراً.</p>
 
 <h3>🫠 العلامة 6: علامات سواد أو انصهار على الشاحن أو البريزة</h3>
-<p>لو شفت علامة سودا (احتراق) على سنون الشاحن أو حوالين فتحات البريزة — ده معناه إن arcing شديد حصل قبل كده. حتى لو مش بتشوف شرارة دلوقتي — الشاحن أو البريزة محتاجين استبدال فوري.</p>
+<p>لو شفت علامة سودا (احتراق) على سنون الشاحن أو حوالين فتحات البريزة — ده معناه إن arcing شديد حصل قبل كده. حتى لو مش بتشوف شرارة دلوقتي — الشاحن أو البريزة محتاجين مراجعة طلب الاستبدال وفق الشروط المكتوبة.</p>
 
 <h2>المشكلة في الشاحن ولا في البريزة؟ — إزاي تحدد</h2>
 
@@ -124,38 +124,38 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> معتمدة بشهادات UL/CE/FCC — 7 طبقات حماية من القصر والحرارة والشحن الزائد. ضمان 18 شهر + توصيل لكل المحافظات. متخاطرش بشاحن رخيص — السلامة أولاً.
+        تصفح <a href="/anker/chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> وراجع شهادات ووسائل الحماية التي تعلنها الشركة للموديل المحدد، والضمان المكتوب وخيارات الشحن المتاحة لعنوانك. لا نعمم عدد طبقات أو شهادات على كل موديل.
     </p>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر GaN 30W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن انكر Nano 45W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن انكر PowerPort 25W</a>.</p></div>
 `,
             faq: [
                 {
                     question: 'هل شرارة الشاحن لما بوصله بالبريزة خطيرة؟',
-                    answer: 'في 95% من الحالات — لا. الشرارة الزرقاء اللحظية (أقل من ثانية) عند التوصيل طبيعية تماماً وبتحصل بسبب فيزياء القوس الكهربائي. بتكون خطيرة بس لو لونها برتقالي، مستمرة بعد التوصيل، فيها ريحة محروقة، أو مصحوبة بسخونة غير طبيعية.',
+                    answer: 'قد تنتج شرارة لحظية عن تيار الاندفاع، لكن لا توجد نسبة ثابتة ولا يكفي اللون أو الزمن لتأكيد الأمان. أوقف الاستخدام إذا تكررت أو كبرت، أو ظهرت حرارة أو رائحة أو صوت أو تلف، واستعن بكهربائي مؤهل لفحص المقبس.'
                 },
                 {
                     question: 'إزاي أعرف المشكلة في الشاحن ولا في البريزة؟',
-                    answer: 'جرب الشاحن في بريزة تانية: لو الشرارة اختفت فالمشكلة في البريزة. جرب شاحن تاني في نفس البريزة: لو مفيش شرارة فالمشكلة في الشاحن الأول. لو كل الشواحن بتعمل شرارة في بريزة واحدة — البريزة محتاجة تتغير.',
+                    answer: 'المقارنة قد تساعد في تحديد النطاق، لكنها لا تثبت السبب وقد تعرّضك للخطر. افصل الدائرة ولا تكرر الاختبار عند وجود شرارة كبيرة أو حرارة أو رائحة أو تلف، ودع كهربائياً مؤهلاً يفحص المقبس والشاحن.'
                 },
                 {
                     question: 'هل لازم أشيل الشاحن من البريزة لما مبشحنش؟',
-                    answer: 'الأفضل أيوا. الشاحن المتوصل 24/7 بيسحب تيار ضعيف (standby) وبيسخن ببطء — ده بيقصّر عمره ويزود احتمالية العطل. كمان بتوفّر كهرباء بسيطة.',
+                    answer: 'راجع تعليمات موديل الشاحن. يستهلك الشاحن الموصول طاقة استعداد تختلف حسب التصميم، وفصله عند عدم الحاجة يقلل زمن بقائه تحت الجهد؛ افصل فوراً عند التلف أو الحرارة أو الرائحة أو الصوت غير المعتاد.'
                 },
                 {
                     question: 'كل كام سنة لازم أغيّر الشاحن؟',
-                    answer: 'كل 3-4 سنين كقاعدة عامة. المكثفات الداخلية بتضعف مع الوقت والحرارة. لو الشاحن بدأ يسخن أكتر من العادي أو بيعمل صوت أزيز — غيّره فوراً حتى لو لسه شغال.',
+                    answer: 'لا توجد مدة استبدال واحدة لكل الشواحن. افحص الكابل والهيكل والأطراف، وأوقف الاستخدام عند التشقق أو الارتخاء أو الحرارة أو الرائحة أو الأزيز غير المعتاد، ثم استبدله أو افحصه وفق تعليمات الشركة.'
                 },
             ],
         },
         en: {
             title: 'Charger Sparks When Plugged In — When It\'s Normal and When to Replace It Immediately',
-            metaTitle: 'Charger Sparks in Outlet — Normal or Dangerous? Complete Safety Guide | CairoVolt',
+            metaTitle: 'Charger Sparks in an Outlet: When to Disconnect and Seek Inspection | CairoVolt',
             metaDescription: 'Charger sparks when you plug it in? Engineer\'s guide explaining the difference between normal and dangerous sparks, and when to replace your charger or outl...',
             keywords: 'charger sparks when plugged in, is charger spark dangerous, charger spark outlet normal, charger makes sparking sound, electrical spark outlet, when to replace charger spark, charger arc electricity, outlet sparks when plug in charger, charger safety spark fire risk',
             excerpt: 'A small spark when plugging in your charger — normal or dangerous? This article explains the difference with clear signs, and when you need to act immediately.',
-            quickAnswer: 'A small blue momentary spark (under 1 second) when plugging in = 100% normal — it\'s current starting to flow. Dangerous if: (1) Spark is large or orange/yellow. (2) Repeats or continues after connection. (3) Continuous buzzing or crackling sound. (4) Burning plastic smell. (5) Charger or outlet abnormally hot. In these cases: disconnect immediately → don\'t use the outlet or charger → replace.',
-            content: `<p>You plug the charger into the outlet and see a small spark — or hear a light "pop." Your heart skips a beat: "Is that normal or is there a problem?" Will the charger catch fire? Is there a short circuit in the outlet? Should I replace the charger?</p>
+            quickAnswer: 'A momentary spark can result from inrush current, but color and duration alone cannot confirm safety. Isolate power and stop using the charger or outlet if the spark is large or recurring, or if there is crackling, buzzing, odor, heat, or damage; have a qualified electrician inspect it before replacement or reuse.',
+            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p>You plug the charger into the outlet and see a small spark — or hear a light "pop." Your heart skips a beat: "Is that normal or is there a problem?" Will the charger catch fire? Is there a short circuit in the outlet? Should I replace the charger?</p>
 
 <p>The truth is that <strong>most sparks you see when connecting a charger are completely normal</strong> and happen in every home worldwide. But in certain situations — the spark is a serious warning sign that requires immediate action. This article teaches you to distinguish between the two — with clear signs that don't require any measuring tools. All you need are your eyes, ears, and nose.</p>
 
@@ -246,7 +246,7 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> are certified with UL/CE/FCC — 7 layers of protection against short circuits, overheating, and overcharging. 18-month warranty + delivery to all governorates. Don't risk a cheap charger — safety first.
+        Browse <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> and review certifications and protections claimed for the exact model, plus written warranty and delivery options for your address. This guide does not assign every model the same certificates or protection count.
     </p>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W Charger</a>.</p></div>
@@ -254,19 +254,19 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
             faq: [
                 {
                     question: 'Is it dangerous when my charger sparks when I plug it in?',
-                    answer: 'In 95% of cases — no. A blue momentary spark (under 1 second) when plugging in is completely normal, caused by arc discharge physics. It\'s only dangerous if the color is orange, it continues after connection, there\'s a burning smell, or the charger/outlet gets abnormally hot.',
+                    answer: 'A brief spark can result from inrush current, but no fixed percentage, color, or duration proves safety. Stop use if it is large or recurring or accompanied by heat, odor, sound, or damage, and have the outlet checked by a qualified electrician.'
                 },
                 {
                     question: 'How do I know if the problem is the charger or the outlet?',
-                    answer: 'Try the charger in a different outlet: if the spark disappears, the problem is the first outlet. Try a different charger in the same outlet: if no spark, the problem is the original charger. If all chargers spark in one outlet — that outlet needs replacement.',
+                    answer: 'Comparison may help narrow the issue, but it does not prove the cause and repeated tests can be unsafe. Isolate power when there is a large spark, heat, odor, noise, or damage, and let a qualified electrician inspect the outlet and charger.'
                 },
                 {
                     question: 'Should I unplug the charger when not charging anything?',
-                    answer: 'Yes, ideally. A charger connected 24/7 draws standby current and heats slowly — shortening its lifespan and increasing malfunction risk. You also save a small amount of electricity.',
+                    answer: 'Follow the model instructions. A connected charger draws standby power that varies by design, and unplugging it when not needed reduces energized time; disconnect immediately for damage, unusual heat, odor, or noise.'
                 },
                 {
                     question: 'How often should I replace my charger?',
-                    answer: 'Every 3-4 years as a general rule. Internal capacitors weaken with time and heat. If the charger starts getting hotter than usual or makes a buzzing sound — replace it immediately even if it still functions.',
+                    answer: 'There is no universal replacement interval. Inspect the cable, case, and pins, and stop using an adapter with cracks, looseness, unusual heat, odor, or buzzing; replace or service it according to the manufacturer\'s instructions.'
                 },
             ],
         }

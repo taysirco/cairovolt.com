@@ -6,125 +6,125 @@ export const joyroom_cables_content: CategoryContent = {
             categoryName: 'Cables',
             metadata: {
                 en: {
-                    title: 'Joyroom Cable Egypt | USB-C PD 100W & Lightning from EGP 118',
-                    description: 'Shop Joyroom cables in Egypt. USB-C PD 100W for laptops, Lightning Auto-Disconnect. 10,000+ bend test. ✓ CairoVolt tested ✓ 1-year warranty ✓ Cairo delivery',
+                    title: 'Joyroom Cable Egypt | USB-C PD, Lightning and Auto-Disconnect',
+                    description: 'Compare Joyroom cables by connector, rated power, data support, braiding, and Auto-Disconnect on listed models. Current price and CairoVolt warranty are shown per product.',
                     keywords: 'جوي روم cable, جوي روم USB-C cable, جوي روم lightning cable, جوي روم 100W cable, cable egypt, جوي روم auto disconnect, كابل جوي روم, جوي روم cable price egypt',
                 },
                 ar: {
-                    title: 'كابل جوي روم مصر | USB-C PD 100W + فصل تلقائي من 118 جنيه',
-                    description: 'تسوق كابل جوي روم الأصلي في مصر. USB-C PD 100W للابتوب + فصل تلقائي للايفون. 10,000 ثنية اختبار. ✓ ضمان سنة ✓ توصيل القاهرة ✓ دفع عند الاستلام',
+                    title: 'كابل جوي روم مصر | USB-C PD وLightning وفصل تلقائي',
+                    description: 'قارن كابلات جوي روم حسب الموصل والقدرة المقننة ونقل البيانات والتضفير والفصل التلقائي في الموديلات الداعمة. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
                     keywords: 'كابل جوي روم, وصلة جيروم, سعر كابل جوي روم, كابل USB-C PD, كابل شحن سريع, كابل تايب سي 100 واط, وصلة شاحن ايفون مصر',
                 }
             },
             pageContent: {
                 ar: {
-                    title: 'كابلات جوي روم (تكنولوجيا الفصل التلقائي)',
-                    subtitle: 'جوي روم Cables - الكابل الوحيد اللي بيخاف على بطاريتك',
+                    title: 'كابلات جوي روم للشحن ونقل البيانات',
+                    subtitle: 'اختر الموصل والقدرة وميزة الفصل التلقائي حسب الموديل',
                     description: `
-      موبايلك بيشحن طول الليل وBattery Health بينزل كل شهر؟ كابل جوي روم S-M411 الوحيد في مصر بخاصية **الفصل التلقائي** — بيقطع الكهرباء تماماً لما الشحن يوصل 100%.
+      يذكر موديل جوي روم S-M411 ميزة **الفصل التلقائي** وفق مواصفات المنتج، بينما تختلف الميزة والقدرة ودعم نقل البيانات بين بقية الكابلات. راجع متطلبات هاتفك وشاحنك قبل الشراء.
 
-      **كام كابل رخيص اشتريته السنة دي؟**
-      لو بتشتري كابل بـ 50 جنيه كل شهرين = 300 جنيه في السنة ضايعة. كابل جوي روم بـ 118 جنيه بيعيش سنة+ (10,000 ثنية مختبرة) — ده توفير فعلي.
+      **قارن المتانة والتكلفة بوضوح:**
+      راجع خامة الغلاف والموصلات وتقييم الثني المعلن وضمان كايرو فولت لكل موديل. السعر الحالي يظهر في صفحة المنتج، والعمر الفعلي يعتمد على الاستخدام والثني والتخزين.
 
       **المتانة في ظروف مصر:**
-      تصميم **مضفر (Braided Nylon)** يتحمل حرارة 45°م + رطوبة الساحل. رؤوس معدنية مدعمة — مش بلاستيك رخيص. اطلبه الآن — توصيل القاهرة خلال 24 ساعة. تسوق [شاحن جوي روم](/joyroom/wall-chargers) لمنظومة شحن كاملة.
+      تساعد طبقة **النايلون المضفر** والموصلات المدعمة في الموديلات الداعمة على مقاومة الاهتراء، لكنها لا تجعل الكابل غير قابل للتلف. تجنب الحرارة المباشرة والثني الحاد. موعد التوصيل تقديري حسب العنوان. تسوق [شاحن جوي روم](/joyroom/wall-chargers) لمنظومة متوافقة.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'يفصل الشحن تلقائياً' },
-                        { type: 'warranty', text: 'ضمان سنة كاملة' },
-                        { type: 'expert_verified', text: 'نقل بيانات سريع — USB-IF + CE معتمد' }
+                        { type: 'originality', text: 'الفصل التلقائي في الموديلات الداعمة' },
+                        { type: 'warranty', text: 'ضمان كايرو فولت حسب صفحة المنتج' },
+                        { type: 'expert_verified', text: 'قدرة الشحن ونقل البيانات تختلف حسب الموديل' }
                     ],
                     buyingGuide: [
                         {
                             title: 'كيف تختار الكابل المناسب؟',
                             content: `
 - **S-M411 (للايفون القديم):** كابل قماشي، يدعم الفصل التلقائي، ولمبة LED بتنور لما يشحن وتطفي لما يفصل.
-- **Type-C 60W:** مثالي لشحن سامسونج S23/S24 وشحن الايفون 15/16.
-- **Type-C 100W:** ضروري جداً لو بتشحن لابتوب (MacBook) أو ايباد برو، عشان تستفيد من السرعة القصوى.
+- **Type-C 60W:** مناسب لأجهزة USB-C التي لا تتجاوز متطلباتها قدرة الكابل، مع شاحن متوافق.
+- **Type-C 100W:** مناسب لبعض اللابتوبات والأجهزة الأعلى قدرة عند استخدام شاحن وبروتوكول متوافقين؛ الجهاز يسحب فقط ما يدعمه.
 `
                         },
                         {
                             title: 'هل يدعم نقل البيانات؟',
                             content: `
-نعم، جميع كابلاتنا تدعم نقل البيانات بسرعة 480Mbps، يعني تقدر تنقل صور وفيديوهات من الايفون للكمبيوتر بسهولة.
+دعم نقل البيانات وسرعته يختلفان حسب الموديل؛ بعض الكابلات مخصصة للشحن أو تعمل بسرعة USB 2.0. راجع صفحة المنتج قبل الاعتماد عليها لنقل الملفات أو الفيديو.
 `
                         }
                     ],
                     faq: [
                         {
                             question: 'هل الكابل آمن على بطارية الموبايل؟',
-                            answer: 'نعم. شريحة Smart IC بتنظم الفولت تلقائياً (5V/9V/20V). خاصية الفصل التلقائي بتقطع الكهرباء عند 100%. اختبار CairoVolt: صفر ارتفاع حرارة بعد 8 ساعات شحن.'
+                            answer: 'بعض الموديلات تستخدم شريحة Smart IC وتدعم الفصل التلقائي حسب مواصفات المنتج. استخدم الكابل مع شاحن وجهاز متوافقين وتوقف عن الاستخدام إذا ظهر تلف أو سخونة غير طبيعية.'
                         },
                         {
                             question: 'إيه الفرق بين كابل 60W و 100W؟',
-                            answer: '60W = يكفي لشحن سامسونج S26 وايفون 17 بأقصى سرعة. 100W = ضروري لشحن لابتوب MacBook Air/Pro. لو بتستخدم موبايل فقط → 60W. لو عندك لابتوب → 100W إلزامي.'
+                            answer: 'الرقم هو الحد المقنن للكابل وليس ما يفرضه على الجهاز. اختر 60W أو 100W وفق قدرة الشاحن والجهاز، وتحقق من دعم PD ومن تصنيف الكابل المناسب لبعض القدرات الأعلى.'
                         },
                         {
                             question: '⚠️ ليه كابل جوي روم أحسن من كابل أبل الأصلي؟',
-                            answer: 'Auto-Disconnect بيحمي Battery Health (اختبار CairoVolt: 99% بعد 3 شهور شحن ليلي يومي). نايلون مضفر بيتحمل 10,000+ انحناء. بسعر أقل 60% من كابل أبل. ضمان سنة استبدال فوري.'
+                            answer: 'خاصية Auto-Disconnect في الموديلات الداعمة توقف التغذية بعد اكتمال الشحن، والنايلون المضفر والموصلات المدعمة يساعدان على مقاومة الاهتراء. راجع تقييم الثني والضمان لكل موديل.'
                         },
                         {
                             question: 'الكابل ده بينقل بيانات ولا شحن بس؟',
-                            answer: 'كل كابلات جوي روم بتنقل بيانات بسرعة 480Mbps — يعني صور وفيديوهات من الموبايل للكمبيوتر في ثواني. مش مجرد كابل شحن.'
+                            answer: 'يعتمد ذلك على الموديل. راجع بند نقل البيانات في صفحة المنتج؛ فبعض الكابلات تدعم USB 2.0 وبعضها قد يكون موجهاً للشحن أساساً.'
                         },
                         {
                             question: 'الكابل بيتحمل حرارة الصيف في مصر؟',
-                            answer: 'تصميم النايلون المضفر بيتحمل حرارة لغاية 45°م. الرؤوس معدنية مش بلاستيك — يعني مش هتسيح ولا هتتكسر حتى لو ساب الكابل في العربية في عز الصيف.'
+                            answer: 'الخامة المضفرة والموصلات المدعمة تساعد على مقاومة الاهتراء، لكنها لا تضمن تحمل حرارة السيارة المغلقة. لا تترك الكابل تحت الشمس أو قرب سطح ساخن، واستبدله إذا تشقق أو ظهر معدن داخلي.'
                         }
                         ,{
                             question: '⚠️ إزاي اعرف كابل جوي روم أصلي من المقلد؟',
-                            answer: 'كابلات مقلدة كتير في السوق بتبوظ دائرة شحن الموبايل. الأصلي: 1) كود QR على العلبة 2) نايلون مجدول حقيقي مش بلاستيك 3) رؤوس معدنية مش بلاستيكية 4) ضمان سنة من CairoVolt. المقلد بيتقطع في أسبوعين!'
+                            answer: 'راجع رقم الموديل والمواصفات ووسيلة التحقق الرسمية المتاحة من الشركة، واحتفظ بالفاتورة. الخامة أو كود QR أو سجل الضمان وحدها لا تثبت أصالة الشركة المصنّعة.'
                         }
                         ,{
                             question: 'هل كابل جوي روم بيشحن ايفون 17 بسرعة؟',
-                            answer: 'أيوه! كابل USB-C to Lightning بدعم PD بيشحن ايفون 17 من 0 لـ 50% في 30 دقيقة مع شاحن 20W+. اختبار CairoVolt: أسرع 3 مرات من كابل أبل القديم.'
+                            answer: 'يدعم كابل USB-C to Lightning المتوافق شحن USB-C PD عند استخدام شاحن وهاتف يدعمانه. السرعة الفعلية تعتمد على الهاتف والشاحن وحالة البطارية.'
                         }
                         ,{
                             question: 'ما ضمان كابل جوي روم من CairoVolt؟',
-                            answer: 'ضمان سنة استبدال فوري. لو الكابل اتقطع أو ظهرت رسالة "ملحق غير مدعوم" — استبدال مجاني خلال 14 يوم. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
+                            answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال موضحة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         }
                     ],
                     products: [
-                        { name: 'Joyroom Light Speed (Auto-Stop)', price: 118, badge: 'يحمي البطارية' },
+                        { name: 'Joyroom Light Speed (Auto-Stop)', price: 118, badge: 'Auto-Stop حسب الموديل' },
                         { name: 'Joyroom 100W Type-C', price: 123, badge: 'للابتوب' },
                         { name: 'Joyroom 3-in-1 Braided', price: 237, badge: 'عملي' },
                     ]
                 },
                 en: {
                     title: 'Joyroom Cables (Auto-Disconnect Tech)',
-                    subtitle: 'The Only Cable That Protects Your Battery',
+                    subtitle: 'Choose the connector, power rating, data support, and model features',
                     description: `
-      Your phone charges all night and Battery Health drops every month? Joyroom S-M411 is the only cable in Egypt that **stops charging at 100%** — protecting your battery automatically.
+      Joyroom lists **Auto-Disconnect** for the S-M411 according to its product specification. Features, rated power, and data support vary across the range, so check the exact model and the requirements of your device and charger.
 
-      **How Many Cheap Cables Did You Buy This Year?**
-      If you buy a 50 EGP cable every 2 months = 300 EGP wasted per year. A Joyroom cable at 118 EGP lasts 1+ year (10,000 bends tested) — that's real savings.
+      **Compare Durability and Cost Clearly:**
+      Check the jacket, connector reinforcement, stated bend rating, and CairoVolt warranty for each model. The current price is shown on the product page, while service life depends on use, bending, and storage.
 
-      **Egyptian-Proof Durability:**
-      **Braided Nylon** design handles 45°C heat + North Coast humidity. Reinforced metal heads — not cheap plastic that cracks. Order now — next-day Cairo delivery.
+      **Care in Hot Conditions:**
+      Braided nylon and reinforced connectors on listed models can help resist wear, but do not make a cable damage-proof. Avoid direct heat and sharp bends. Delivery timing is an estimate based on the confirmed address.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'Auto-Stop Charging' },
-                        { type: 'warranty', text: '1 Year Warranty' },
-                        { type: 'expert_verified', text: '480Mbps Data Sync — USB-IF Certified' }
+                        { type: 'originality', text: 'Auto-Disconnect on supported models' },
+                        { type: 'warranty', text: 'CairoVolt warranty as listed per product' },
+                        { type: 'expert_verified', text: 'Charging and data ratings vary by model' }
                     ],
                     buyingGuide: [
                         {
                             title: 'Choosing the Right Cable',
                             content: `
-- **S-M411 (Listing):** Fabric braided, Auto-Disconnect tech, LED indicator (breathing light). Best for iPhone 14 and below.
-- **Type-C 60W:** Perfect for Samsung S24 Ultra and iPhone 15/16 Series.
-- **Type-C 100W:** Essential for charging MacBooks, iPads, and high-end laptops at full speed.
+- **S-M411 (Listing):** Fabric braided with listed Auto-Disconnect and LED indicator features; check connector compatibility with the exact iPhone model.
+- **Type-C 60W:** Suitable when the charger's and device's requirements do not exceed the cable rating.
+- **Type-C 100W:** Suitable for some higher-power laptops and devices with a compatible charger and protocol; the device draws only what it supports.
 `
                         },
                         {
                             title: 'Does It Support Data Transfer?',
                             content: `
-Yes — all our cables support data transfer at 480Mbps, meaning you can easily transfer photos and videos from iPhone to computer without any issues.
+Data support and speed vary by model. Some cables use USB 2.0 speeds and some may be intended mainly for charging, so check the product page before relying on a cable for file or video transfer.
 `
                         }
                     ],
                     products: [
-                        { name: 'Joyroom Light Speed (Auto-Stop)', price: 118, badge: 'Battery Saver' },
+                        { name: 'Joyroom Light Speed (Auto-Stop)', price: 118, badge: 'Auto-Stop by Model' },
                         { name: 'Joyroom 100W Type-C', price: 123, badge: 'Laptop Ready' },
                         { name: 'Joyroom 3-in-1 Braided', price: 237, badge: 'Multi-Use' },
                     ]

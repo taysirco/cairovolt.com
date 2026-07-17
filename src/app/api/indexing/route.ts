@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { revalidatePath } from 'next/cache';
+import { safeSecretEqual } from '@/lib/api-auth';
 
 /**
  * Index-update webhook
@@ -56,7 +57,11 @@ async function pingIndexNow(urls: string[]): Promise<{ ok: boolean; status?: num
 export async function POST(req: Request) {
     try {
         const authHeader = req.headers.get('authorization');
-        if (!process.env.INDEXING_WEBHOOK_SECRET || authHeader !== `Bearer ${process.env.INDEXING_WEBHOOK_SECRET}`) {
+        const expectedSecret = process.env.INDEXING_WEBHOOK_SECRET;
+        const providedSecret = authHeader?.startsWith('Bearer ')
+            ? authHeader.slice(7)
+            : '';
+        if (!expectedSecret || !providedSecret || !safeSecretEqual(providedSecret, expectedSecret)) {
             return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
         }
 
@@ -66,6 +71,16 @@ export async function POST(req: Request) {
             return NextResponse.json({ error: 'Invalid payload. Required: url, type (URL_UPDATED|URL_DELETED)' }, { status: 400 });
         }
 
+        let requestedUrl: URL;
+        try {
+            requestedUrl = new URL(url);
+        } catch {
+            return NextResponse.json({ error: 'Invalid URL' }, { status: 400 });
+        }
+        if (requestedUrl.origin !== ORIGIN) {
+            return NextResponse.json({ error: 'URL must belong to cairovolt.com' }, { status: 400 });
+        }
+
         // Blog reveal: when a scheduled article goes live (reveal-blog cron),
         // revalidate the article + listing + sitemap so it appears same-day.
         const isBlog = /\/blog\//.test(url);
@@ -73,7 +88,7 @@ export async function POST(req: Request) {
             revalidatePath(`/[locale]/blog/${slug}`, 'page');
             revalidatePath('/[locale]/blog', 'page');
             revalidatePath('/sitemap.xml');
-            console.log(`[ISR] 🔄 Revealed blog article: ${slug}`);
+            console.log(`[ISR] Revalidated blog article: ${slug}`);
         }
 
         // 1. Invalidate ISR cache — purge ALL pages that show this product's price/stock
@@ -102,7 +117,7 @@ export async function POST(req: Request) {
             // RSS feed (includes prices)
             revalidatePath('/feed.xml', 'layout');
 
-            console.log(`[ISR] 🔄 Purged cache for: ${slug} + parent pages`);
+            console.log(`[ISR] Revalidated product and parent pages: ${slug}`);
         }
 
         // 2. IndexNow ping (non-fatal — search engines recrawl via sitemap anyway)
@@ -113,8 +128,8 @@ export async function POST(req: Request) {
             { success: true, revalidated: !!slug, indexnow: { ...indexnow, urls } },
             { status: 200 }
         );
-    } catch (error: unknown) {
-        const message = error instanceof Error ? error.message : 'Unknown error';
-        return NextResponse.json({ error: message }, { status: 500 });
+    } catch {
+        console.error('[Indexing] Request processing failed');
+        return NextResponse.json({ error: 'Request processing failed' }, { status: 500 });
     }
 }

@@ -1,8 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { SvgIcon } from '@/components/ui/SvgIcon';
-import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 
 interface ComparisonTableProps {
     product: {
@@ -24,58 +22,43 @@ interface ComparisonTableProps {
     locale: string;
 }
 
-// Default comparison brands for Anker products
-const defaultAnkerCompetitors = {
-    en: [
-        { name: 'Amazon Egypt', price: 'Higher', warranty: '12 months (international)', delivery: '5-7 days', original: true },
-        { name: 'Noon', price: 'Similar', warranty: 'Varies', delivery: '2-5 days', original: true },
-        { name: 'Local Shops', price: 'Higher', warranty: 'None', delivery: 'Immediate', original: false },
-    ],
-    ar: [
-        { name: 'أمازون مصر', price: 'أعلى', warranty: '12 شهر (دولي)', delivery: '5-7 أيام', original: true },
-        { name: 'نون', price: 'مماثل', warranty: 'متغير', delivery: '2-5 أيام', original: true },
-        { name: 'المحلات المحلية', price: 'أعلى', warranty: 'لا يوجد', delivery: 'فوري', original: false },
-    ],
-};
-
 export function ProductComparisonTable({ product, competitors, locale }: ComparisonTableProps) {
     const isArabic = locale === 'ar';
-
-    const defaultComps = isArabic ? defaultAnkerCompetitors.ar : defaultAnkerCompetitors.en;
-    const comps = competitors || defaultComps;
+    const comps = competitors || [];
 
     const labels = isArabic ? {
-        title: 'مقارنة الأسعار',
+        title: 'بيانات الشراء',
         store: 'المتجر',
         price: 'السعر',
         warranty: 'الضمان',
         delivery: 'التوصيل',
-        original: 'منتج أصلي؟',
-        yes: 'نعم ✓',
-        no: 'غير مؤكد',
+        original: 'أساس تعريف المنتج',
+        yes: 'العلامة والموديل موضحان',
+        no: 'تحقق من بيانات المصدر',
         ourStore: 'كايرو فولت (نحن)',
         egp: 'جنيه',
         months: 'شهر',
         days: 'أيام',
         free: 'مجاني',
+        warrantyValue: 'ضمان كايرو فولت حسب شروط المنتج',
+        deliveryValue: 'المدة حسب المحافظة',
     } : {
-        title: 'Price Comparison',
+        title: 'Purchase Details',
         store: 'Store',
         price: 'Price',
         warranty: 'Warranty',
         delivery: 'Delivery',
-        original: 'Original?',
-        yes: 'Yes ✓',
-        no: 'Uncertain',
+        original: 'Product identification basis',
+        yes: 'Brand & model listed',
+        no: 'Verify source details',
         ourStore: 'CairoVolt (Us)',
         egp: 'EGP',
         months: 'months',
         days: 'days',
         free: 'Free',
+        warrantyValue: 'CairoVolt warranty per product terms',
+        deliveryValue: 'Timing varies by destination',
     };
-
-    const productName = isArabic ? product.translations.ar.name : product.translations.en.name;
-    const warrantyMonths = product.brand === 'Anker' ? 18 : 12;
 
     return (
         <div className="my-6 md:my-8 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-3 sm:p-4 md:p-6 shadow-lg">
@@ -99,12 +82,11 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                         </div>
                         <div>
                             <span className="text-gray-700 dark:text-gray-400">{labels.warranty}: </span>
-                            <span className="font-semibold bg-green-200 dark:bg-green-800 px-1.5 py-0.5 rounded text-[10px]">{warrantyMonths} {labels.months} ✓</span>
+                            <span className="font-semibold bg-green-200 dark:bg-green-800 px-1.5 py-0.5 rounded text-[10px]">{labels.warrantyValue}</span>
                         </div>
                         <div>
                             <span className="text-gray-700 dark:text-gray-400">{labels.delivery}: </span>
-                            <span className="font-medium">1-3 {labels.days}</span>
-                            {product.price >= FREE_SHIPPING_THRESHOLD && <span className="text-green-700 text-[10px] ms-1">({labels.free})</span>}
+                            <span className="font-medium">{labels.deliveryValue}</span>
                         </div>
                         <div>
                             <span className="text-gray-700 dark:text-gray-400">{labels.original}: </span>
@@ -167,14 +149,11 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                             </td>
                             <td className="py-3 px-4">
                                 <span className="bg-green-200 dark:bg-green-800 px-2 py-1 rounded text-xs font-semibold whitespace-nowrap">
-                                    {warrantyMonths} {labels.months} ✓
+                                    {labels.warrantyValue}
                                 </span>
                             </td>
                             <td className="py-3 px-4 text-sm text-gray-900 dark:text-white">
-                                1-3 {labels.days}
-                                {product.price >= FREE_SHIPPING_THRESHOLD && (
-                                    <span className="ms-1 text-green-700 text-xs">({labels.free})</span>
-                                )}
+                                {labels.deliveryValue}
                             </td>
                             <td className="py-3 px-4 text-green-700 dark:text-green-400 font-bold text-sm">
                                 {labels.yes}
@@ -203,26 +182,11 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                 </table>
             </div>
 
-            {/* Quality indicator */}
-            {(() => {
-                const seedStr = product.slug || '';
-                const catHash = seedStr.split('').reduce((acc: number, char: string) => acc + char.charCodeAt(0), 0);
-                const arTrustLines = [
-                    '* نحن الموزع المعتمد لانكر وجوي روم في مصر - ضمان رسمي 100%',
-                    '* كل منتج مختوم بباركود الشركة الأصلي وعليه كفالة استبدال فوري',
-                    '* معتمدون رسمياً من انكر وJoyroom — سجل تجاري 8446',
-                ];
-                const enTrustLines = [
-                    '* We are the authorized dealer for Anker & Joyroom in Egypt - 100% Official Warranty',
-                    '* Every product sealed with company barcode and backed by instant replacement coverage',
-                    '* Officially authorized by Anker & Joyroom — Commercial Registry 8446',
-                ];
-                return (
-                    <p className="mt-4 text-xs text-gray-600 dark:text-gray-400 text-center">
-                        {isArabic ? arTrustLines[catHash % arTrustLines.length] : enTrustLines[catHash % enTrustLines.length]}
-                    </p>
-                );
-            })()}
+            <p className="mt-4 text-xs text-gray-600 dark:text-gray-400 text-center">
+                {isArabic
+                    ? 'الأسعار والتغطية والمدة موضحة لكل منتج ضمن ضمان كايرو فولت المكتوب. ذكر العلامة والموديل ليس شهادة أصالة من الشركة المصنّعة.'
+                    : 'Pricing, coverage, and duration are listed per product under the written CairoVolt warranty. Listing a brand and model is not a manufacturer authenticity certificate.'}
+            </p>
         </div>
     );
 }
@@ -241,21 +205,21 @@ interface CategoryComparisonProps {
 export function CategoryComparisonTable({ products, categoryName, locale }: CategoryComparisonProps) {
     const isArabic = locale === 'ar';
     const labels = isArabic ? {
-        title: `مقارنة أفضل ${categoryName}`,
+        title: `مقارنة موديلات ${categoryName}`,
         model: 'الموديل',
-        price: 'السعر',
+        price: 'السعر الحالي',
         feature: 'الميزة الرئيسية',
-        rating: 'التقييم',
-        egp: 'جنيه',
-        stars: '★★★★★'
+        verification: 'أساس المقارنة',
+        currentPrice: 'راجع صفحة المنتج',
+        specificationBasis: 'المواصفات والتوافق'
     } : {
-        title: `Best ${categoryName} Comparison`,
+        title: `${categoryName} Model Comparison`,
         model: 'Model',
-        price: 'Price',
+        price: 'Current Price',
         feature: 'Key Feature',
-        rating: 'Rating',
-        egp: 'EGP',
-        stars: '★★★★★'
+        verification: 'Comparison Basis',
+        currentPrice: 'See product page',
+        specificationBasis: 'Specifications & compatibility'
     };
 
     return (
@@ -274,7 +238,7 @@ export function CategoryComparisonTable({ products, categoryName, locale }: Cate
                             <th className="py-3 px-3 md:py-4 md:px-6 text-start font-bold text-gray-700 dark:text-gray-300 text-xs md:text-sm">{labels.model}</th>
                             <th className="py-3 px-3 md:py-4 md:px-6 text-start font-bold text-gray-700 dark:text-gray-300 text-xs md:text-sm">{labels.price}</th>
                             <th className="py-3 px-3 md:py-4 md:px-6 text-start font-bold text-gray-700 dark:text-gray-300 text-xs md:text-sm">{labels.feature}</th>
-                            <th className="py-3 px-3 md:py-4 md:px-6 text-start font-bold text-gray-700 dark:text-gray-300 text-xs md:text-sm">{labels.rating}</th>
+                            <th className="py-3 px-3 md:py-4 md:px-6 text-start font-bold text-gray-700 dark:text-gray-300 text-xs md:text-sm">{labels.verification}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -282,24 +246,17 @@ export function CategoryComparisonTable({ products, categoryName, locale }: Cate
                             <tr key={index} className="border-b border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800/30 transition-colors">
                                 <td className="py-3 px-3 md:py-4 md:px-6 font-semibold text-gray-900 dark:text-white text-xs md:text-sm">
                                     {product.name}
-                                    {index === 0 && (
-                                        <span className="mx-1 px-1.5 py-0.5 md:mx-2 md:px-2 md:bg-yellow-100 text-yellow-800 text-[10px] md:text-xs rounded-full block md:inline w-fit mt-1 md:mt-0">
-                                            {isArabic ? 'الأفضل' : 'Top Pick'}
-                                        </span>
-                                    )}
                                 </td>
-                                <td className="py-3 px-3 md:py-4 md:px-6 text-blue-600 dark:text-blue-400 font-bold text-xs md:text-sm">
-                                    {product.price} <span className="text-[10px] md:text-xs">{labels.egp}</span>
+                                <td className="py-3 px-3 md:py-4 md:px-6 text-blue-600 dark:text-blue-400 font-semibold text-xs md:text-sm">
+                                    {labels.currentPrice}
                                 </td>
                                 <td className="py-3 px-3 md:py-4 md:px-6">
                                     <span className="bg-gray-100 dark:bg-gray-700 px-2 py-1 md:px-3 md:py-1 rounded-full text-[10px] md:text-xs font-medium whitespace-nowrap">
-                                        {product.badge || (isArabic ? 'قيمة ممتازة' : 'Best Value')}
+                                        {product.badge || (isArabic ? 'مواصفة الموديل' : 'Model feature')}
                                     </span>
                                 </td>
-                                <td className="py-3 px-3 md:py-4 md:px-6 text-amber-400 text-xs">
-                                    <span className="hidden md:inline">{labels.stars}</span>
-                                    <span className="md:hidden"><SvgIcon name="star" className="w-4 h-4 text-amber-400" /></span>
-                                    <span className="text-gray-400 ms-1">(4.{9 - index})</span>
+                                <td className="py-3 px-3 md:py-4 md:px-6 text-gray-600 dark:text-gray-300 text-xs md:text-sm">
+                                    {labels.specificationBasis}
                                 </td>
                             </tr>
                         ))}
@@ -319,18 +276,18 @@ interface ExpertOpinionProps {
     customOpinion?: string;
 }
 
-export function ExpertOpinion({ productName, brand, category, locale, customOpinion }: ExpertOpinionProps) {
+export function ExpertOpinion({ productName, brand, locale, customOpinion }: ExpertOpinionProps) {
     const isArabic = locale === 'ar';
     const hash = typeof productName === 'string' ? productName.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
 
-    const arTitles = ['رأي الخبراء', 'التقييم الفني', 'نظرة خبرائنا', 'الخلاصة الهندسية', 'من داخل المعمل'];
-    const enTitles = ['Expert Opinion', 'Technical Audit', 'Experts View', 'Engineering Review', 'Lab Verdict'];
+    const arTitles = ['ملاحظة تحريرية', 'قراءة المواصفات', 'دليل الاختيار', 'الخلاصة العملية'];
+    const enTitles = ['Editorial Note', 'Specification Review', 'Buying Guidance', 'Practical Summary'];
 
-    const arBadges = ['مراجعة تقنية', 'فحص معتمد', 'اختبار الأداء', 'شهادة جودة', 'تقييم شامل'];
-    const enBadges = ['Tech Review', 'Verified Audit', 'Performance Test', 'Quality Cert', 'In-depth Rating'];
+    const arBadges = ['محتوى تحريري', 'دليل شراء', 'شرح المواصفات', 'مقارنة عملية'];
+    const enBadges = ['Editorial Content', 'Buying Guide', 'Specification Guide', 'Practical Comparison'];
 
-    const arVerified = ['تمت مراجعته بواسطة كايرو فولت', 'تم الفحص في معمل كايرو فولت', 'معتمد من مهندسي كايرو فولت', 'بيانات حصرية - مختبرات كايرو فولت'];
-    const enVerified = ['Reviewed by CairoVolt', 'Tested in CairoVolt Labs', 'Certified by CairoVolt Engineers', 'Exclusive Data - CairoVolt Labs'];
+    const arVerified = ['إعداد فريق كايرو فولت التحريري'];
+    const enVerified = ['Prepared by the CairoVolt editorial team'];
 
     const t = isArabic ? {
         title: arTitles[hash % arTitles.length],
@@ -382,7 +339,7 @@ export function ExpertOpinion({ productName, brand, category, locale, customOpin
 
                     <div className="prose dark:prose-invert max-w-none">
                         <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed italic">
-                            "{customOpinion}"
+                            &ldquo;{customOpinion}&rdquo;
                         </p>
                     </div>
                 </div>
@@ -407,15 +364,13 @@ interface QuickSummaryProps {
 export function QuickSummary({ product, locale }: QuickSummaryProps) {
     const isArabic = locale === 'ar';
     const t = isArabic ? product.translations.ar : product.translations.en;
-    const warrantyMonths = product.brand === 'Anker' ? 18 : 12;
-
     return (
         <div className="bg-blue-50 dark:bg-blue-900/30 rounded-xl p-3 md:p-4 mb-4 md:mb-6 border-s-4 border-blue-500">
             <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
                 <strong>{t.name}</strong> - <span className="hidden sm:inline">{t.shortDescription}.</span>
                 {isArabic
-                    ? ` السعر: ${product.price} جنيه | ضمان ${warrantyMonths} شهر`
-                    : ` Price: ${product.price} EGP | ${warrantyMonths}-month warranty`
+                    ? ` السعر الحالي: ${product.price} جنيه | ضمان كايرو فولت وفق شروط المنتج المكتوبة`
+                    : ` Current price: ${product.price} EGP | CairoVolt warranty under the product's written terms`
                 }
             </p>
         </div>
@@ -430,7 +385,7 @@ interface FAQItem {
 interface ProductFAQProps {
     categorySlug: string;
     locale: string;
-    t: any; // Using any to avoid complex type drilling from next-intl
+    t: (key: string) => string;
 }
 
 export function ProductFAQ({ categorySlug, locale, t }: ProductFAQProps) {
@@ -461,7 +416,7 @@ export function ProductFAQ({ categorySlug, locale, t }: ProductFAQProps) {
         const q3 = t(`smartCategoryFAQs.${categoryKey}.2.q`);
         const a3 = t(`smartCategoryFAQs.${categoryKey}.2.a`);
         if (q3 && a3 && q3 !== `smartCategoryFAQs.${categoryKey}.2.q`) faqs.push({ q: q3, a: a3 });
-    } catch (e) {
+    } catch {
         // Translations might not load immediately
     }
 

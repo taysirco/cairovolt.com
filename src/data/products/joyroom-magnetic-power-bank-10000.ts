@@ -19,137 +19,121 @@ export const joyroom_magnetic_power_bank_10000 = {
             { id: "img_3", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-3.webp", alt: "MagSafe Power Bank iPhone 17/16/15 Compatible - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-4.webp", alt: "شاحن متنقل مغناطيسي للايفون - القاهرة - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom Wireless Magnetic Charger Power Bank - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك MagSafe جوي روم اصلي - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-7.webp", alt: "Joyroom 10000mAh Magnetic Power Bank Best Price - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_6", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك جوي روم مغناطيسي مع حامل مدمج - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-7.webp", alt: "Joyroom 10000mAh Magnetic Power Bank Current Price - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
-                name: "Joyroom MagSafe Power Bank 10000mAh | 15W Wireless + 20W Wired | Kickstand | 18-Month Warranty",
-                shortDescription: "🔋 10000mAh (2x iPhone 17) | 🧲 MagSafe N52 Snap | ⚡ 15W Wireless + 20W USB-C | 📐 Built-in Kickstand | 📱 Charge 2 Devices | 🏆 18-Month Warranty",
+                name: "Joyroom MagSafe Power Bank 10000mAh | 15W Wireless + 20W Wired | Kickstand",
+                shortDescription: "Listed 10,000mAh cell capacity | magnetic wireless alignment | USB-C wired output | built-in stand | verify shared-power and compatibility details",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>جوي روم MagSafe Power Bank 10000mAh</strong> snaps magnetically to iPhone back and charges wirelessly at <strong>15W + 20W wired output</strong>. Built-in kickstand for FaceTime. At 850 EGP, it's the premium hands-free portable charging solution. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom JR-W030 magnetic power bank</strong> combines a manufacturer-listed 10,000mAh cell capacity, wireless charging, USB-C wired output and a foldable stand. Confirm the exact wireless standard, printed Wh value, input/output profiles, compatible phone or case and simultaneous-use table on the supplied unit. Usable energy, charging power, attachment and temperature vary by setup. Review the live price, stock and written service terms before ordering.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
-        <li>🔋 <strong>10000mAh:</strong> Charges iPhone 17 fully 2+ times.</li>
-        <li>🧲 <strong>MagSafe N52:</strong> Snaps onto iPhone — no cable needed.</li>
-        <li>⚡ <strong>Dual Output:</strong> 15W wireless + 20W USB-C wired simultaneously.</li>
-        <li>📐 <strong>Kickstand:</strong> Watch videos hands-free while charging.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.57 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "I took this on a Cairo-Sharm el-Sheikh trip — 6 hours on the bus with no wall outlet. Snapped it on my iPhone 15 Pro and forgot about it. By the time we arrived, my phone was at 100% and the power bank still had 45% left. The kickstand is genius for plane tray tables or hotel nightstands. The magnetic snap is strong enough that I could hold the phone by the power bank without it falling. At home, I charge my iPhone wirelessly AND my wife's Samsung via USB-C cable simultaneously. It's basically a portable MagSafe charger + power bank + phone stand in one. At 850 EGP, it's a no-brainer for any iPhone 15/16/17 owner."
-        <br>
-        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
-    </p>
-</div>
+        <li>🔋 <strong>Listed 10,000mAh:</strong> cell capacity; usable energy and charge count vary with conversion loss and use.</li>
+        <li>🧲 <strong>Magnetic alignment:</strong> verify the phone, case and wireless standard.</li>
+        <li>⚡ <strong>Wireless and USB-C modes:</strong> check the printed output and shared-power table.</li>
+        <li>📐 <strong>Foldable stand:</strong> use on a stable surface and check phone balance.</li>
+    <li>🧾 <strong>Returns and warranty:</strong> handled under the current published policy and eligibility terms.</li><li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>JR-W030</strong>, start with the printed Wh/mAh, wireless standard, input/output profiles, shared-power table and dimensions. Match the phone, case and connector requirements. Actual performance varies with alignment, device settings, temperature and use. Check current package contents, price, stock and written service terms before ordering.</p></div>
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">MagSafe Snap: Just Stick It On</h2>
-        <p class="text-gray-700"><strong>N52 neodymium magnets</strong> align perfectly with iPhone 17/16/15/14/13/12 MagSafe rings. No cable, no fumbling — just snap it on the back of your phone and charging starts instantly. The magnetic grip is strong enough to hold while you walk, text, or even take photos. <strong>Works through MagSafe-compatible cases.</strong></p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Magnetic Alignment and Case Fit</h2>
+        <p class="text-gray-700">The listing identifies a magnetic alignment system. Confirm the exact wireless standard, phone and case compatibility. Attachment and charging can weaken with a thick, metal-containing or misaligned case, movement or heat. Do not rely on the battery to hold the phone during walking or photography.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Dual Output: Wireless + Wired at the Same Time</h2>
-        <p class="text-gray-700"><strong>15W wireless MagSafe</strong> charges your iPhone on the back. <strong>20W USB-C PD wired</strong> charges a Samsung, AirPods, or iPad through the cable port. Two devices charging simultaneously from one power bank. Perfect for couples or when you need to top up your earbuds and phone together.</p>
+        <p class="text-gray-700">The listing states wireless and USB-C output modes. Confirm the exact wireless standard, compatible phone or case, wired USB-PD profiles and shared-output table; using two devices can reduce the power available to each. Actual output varies with alignment, temperature, battery state and device protocol.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Built-in Kickstand: Your Phone's Third Hand</h2>
-        <p class="text-gray-700">The foldable <strong>built-in kickstand</strong> props your phone up in landscape mode. Watch Netflix, take FaceTime calls, or follow a recipe — all while charging wirelessly. Works on desks, airplane tray tables, and bedside tables. No separate stand needed.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Built-in Stand and Stability</h2>
+        <p class="text-gray-700">The foldable stand can support a compatible phone on a stable, level surface. Balance depends on phone size, case, orientation and surface movement. Check stability before letting go and fold the stand away before carrying the unit.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>iPhone 17/16/15/14/13/12 (MagSafe):</strong> 15W wireless snap-on.</li>
-        <li>📱 <strong>Samsung S26/S25 (USB-C):</strong> 20W wired fast charging.</li>
-        <li>🎧 <strong>AirPods Pro / Galaxy Buds:</strong> USB-C wired charging.</li>
-        <li>📺 <strong>iPad / Tablets:</strong> USB-C wired charging.</li>
+        <li>📱 <strong>Magnetic wireless phones or cases:</strong> confirm the alignment standard and supported wireless profile.</li>
+        <li>📱 <strong>USB-C phones and tablets:</strong> match the device input with the printed wired profile.</li>
+        <li>🎧 <strong>USB-C accessories:</strong> confirm their input and any low-power operating mode.</li>
+        <li>🔌 <strong>Two devices:</strong> review the shared-output table before simultaneous use.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">MagSafe wireless charging works with iPhone 12 and newer ONLY. Does NOT wirelessly charge Samsung or non-MagSafe phones. The 15W wireless is slower than wired; for fastest charge, use the USB-C port. Adds noticeable weight when attached to phone. احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Magnetic wireless alignment requires a compatible phone or case; confirm the exact standard supported by the power bank and device. Wireless and USB-C charging use different rated profiles, so compare the printed output table when choosing between them. Attached weight and heat can be noticeable; stop use if the unit is damaged, swollen or unusually hot.</p></div>
 `,
-                features: ["🔋 10000mAh (2x iPhone 17)", "🧲 MagSafe N52 Snap-On", "⚡ 15W Wireless Charging", "⚡ 20W USB-C PD Wired", "📐 Built-in Kickstand", "📱 Charge 2 Devices", "🏆 18-Month Warranty", "🔒 CE + FCC Certified → Global Safety Standards"],
-                metaTitle: "Joyroom MagSafe 10000mAh ⚡ 6% OFF | Wireless Charge | COD",
-                metaDesc: "Buy Joyroom magnetic power bank MagSafe in Egypt. 10000mAh, 15W wireless + 20W wired, N52 magnets, kickstand. iPhone 17/16/15. 18-month warranty. Best price.",
+                features: ["Listed 10,000mAh cell capacity", "Magnetic wireless alignment", "Verify the wireless output profile", "Verify USB-C wired profiles", "Foldable stand", "Review shared-output limits", "Review warranty and return policy", "Verify compliance marks on the unit and manufacturer documentation"],
+                metaTitle: "Joyroom MagSafe 10000mAh | Wireless Charge | COD",
+                metaDesc: "Review Joyroom JR-W030 magnetic power bank in Egypt: listed 10,000mAh capacity, wireless and USB-C profiles, stand, compatibility, live price and service terms.",
                 faqs: [
-                    { question: "How many times can it charge iPhone 17?", answer: "The 10000mAh capacity can fully charge iPhone 17 approximately 2 times, or provide over 2.5 charges for iPhone 17 Pro. Actual results vary based on usage during charging." },
-                    { question: "Can I use it while attached to my phone?", answer: "Absolutely! The magnetic attachment is strong enough for everyday use - scrolling, gaming, taking photos. The built-in kickstand is perfect for video calls or watching content while charging." },
-                    { question: "Does it charge through phone cases?", answer: "It works with MagSafe-compatible cases and most thin cases. Thick cases or cases with metal components may reduce charging efficiency or magnetic attachment." },
-                    { question: "How many times will it charge my phone?", answer: "Modern phones (iPhone 17, Samsung S26) get 2-4 full charges depending on capacity. Mid-range phones get even more." },
-                    { question: "Can I take it on an airplane?", answer: "Yes! Under 100Wh capacity is allowed on all commercial flights. Carry in hand luggage as per IATA regulations." }
+                    { question: "How many times can it charge a phone?", answer: "There is no fixed count. The cell rating differs from usable output energy, and results depend on the phone battery, starting level, conversion loss, alignment, temperature and use while charging." },
+                    { question: "Can I use it while attached to my phone?", answer: "Check magnetic alignment and case compatibility, and support the phone if movement could detach the battery. The stand can provide a viewing angle on a stable surface, but retention varies by phone, case, orientation and temperature." },
+                    { question: "Does it charge through phone cases?", answer: "Confirm that the exact case supports the required magnetic wireless standard. Thick, metal-containing or misaligned cases can reduce charging and attachment." },
+                    { question: "Can I take it on an airplane?", answer: "Check the Wh value printed on the unit and the current airline, country and route rules. Power banks are commonly restricted to cabin baggage, but the carrier controls acceptance." }
                 ]
             },
             ar: {
-                name: "باور بانك جوي روم MagSafe 10000 | ألزقه في ظهر الايفون وكمل تصوير | ضمان 18 شهر",
-                shortDescription: "منقذ بطارية الايفون في رحلات الساحل | 🧲 MagSafe N52 قوي مش هيقع | ⚡ 15 واط لاسلكي + 20 واط سلكي | 📐 حامل مدمج للفيديوهات",
+                name: "باور بانك جوي روم JR-W030 مغناطيسي 10000 مللي أمبير | حامل مدمج",
+                shortDescription: "سعة خلايا معلنة 10000 مللي أمبير | محاذاة مغناطيسية للشحن اللاسلكي | خرج USB-C سلكي | حامل مدمج | تحقق من التوافق والقدرة المشتركة",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، باور بانك <strong>جوي روم MagSafe 10000mAh</strong> بيلزق مغناطيسياً ع ضهر الايفون وبيشحن لاسلكياً بـ <strong>15 واط + 20 واط سلكي</strong>. حامل مدمج لـ FaceTime. بـ 850 جنيه، الحل الفاخر للشحن المحمول بدون يدين. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">يجمع <strong>جوي روم JR-W030</strong> بين سعة خلايا معلنة 10000 مللي أمبير وشحن لاسلكي مغناطيسي وخرج USB-C سلكي وحامل قابل للطي. تحقق من معيار اللاسلكي والقيمة بالواط ساعة وبروفايلات الدخل والخرج والهاتف أو الجراب المتوافق وجدول الاستخدام المتزامن على الوحدة الموردة. تتغير الطاقة القابلة للاستخدام والقدرة والتثبيت والحرارة حسب المنظومة. راجع السعر والمخزون وسياسة الخدمة المكتوبة قبل الطلب.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
-        <li>🔋 <strong>10000 مللي أمبير:</strong> بيشحن ايفون 17 بالكامل مرتين+.</li>
-        <li>🧲 <strong>MagSafe N52:</strong> بيتثبت على الايفون — مفيش كابل.</li>
-        <li>⚡ <strong>مخرج مزدوج:</strong> 15 واط لاسلكي + 20 واط USB-C سلكي في نفس الوقت.</li>
-        <li>📐 <strong>حامل مدمج:</strong> شاهد فيديوهات من غير إيدين وانت بتشحن.</li>
+        <li>🔋 <strong>تصنيف خلايا 10000 مللي أمبير:</strong> عدد شحنات الهاتف تقديري ويتأثر بكفاءة التحويل والحرارة والاستخدام والمحاذاة.</li>
+        <li>🧲 <strong>محاذاة مغناطيسية:</strong> تحقق من الهاتف والجراب ومعيار الشحن اللاسلكي.</li>
+        <li>⚡ <strong>لاسلكي وUSB-C:</strong> راجع بروفايلات الخرج وجدول القدرة المشتركة.</li>
+        <li>📐 <strong>حامل مدمج:</strong> استخدمه على سطح ثابت وتأكد من اتزان الهاتف.</li>
     </ul>
 </div>
 
-<div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تجربتنا الفعلية للمنتج ده 🔍</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">
-        "أخدته في رحلة القاهرة-شرم الشيخ — 6 ساعات في الباص من غير بريزة. ثبّته على ايفون 15 برو ونسيته. لما وصلنا، الموبايل (الهاتف الذكي) كان 100% والباور بانك لسه فيه 45%. الحامل المدمج عبقري لطاولة الطيارة أو الكومودينو في الفندق. المغناطيس قوي كفاية إني أمسك الموبايل من الباور بانك ومش بيقع. في البيت، بشحن ايفوني لاسلكي وسامسونج مراتي بكابل USB-C في نفس الوقت. هو أساساً شاحن MagSafe متنقل + باور بانك + حامل موبايل في واحد. بـ 850 جنيه، قرار واضح لأي حد عنده ايفون 15/16/17."
-        <br>
-        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
-    </p>
-</div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>JR-W030</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">MagSafe: بس ثبّته</h2>
-        <p class="text-gray-700"><strong>مغناطيسات نيوديميوم N52</strong> بتتوافق بشكل مثالي مع حلقات MagSafe في ايفون 17/16/15/14/13/12. مفيش كابل، مفيش عناء — بس ثبّته على ظهر موبايلك والشحن بيبدأ فوراً. المغناطيس قوي كفاية تمسك وانت بتمشي، بتكتب، أو حتى بتصوّر. <strong>بيشتغل من خلال كفرات MagSafe.</strong></p>
+        <p class="text-gray-700">تذكر القائمة ترتيباً مغناطيسياً للاستخدام مع هواتف أو جرابات متوافقة. تحقق من معيار الشحن والمحاذاة والجراب والموديل نفسه؛ قد تقل قوة التثبيت أو الشحن مع جراب غير مناسب أو حركة أو حرارة، فلا تعتمد عليه لحمل الهاتف أثناء المشي أو التصوير.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">مخرج مزدوج: لاسلكي + سلكي في نفس الوقت</h2>
-        <p class="text-gray-700"><strong>15 واط لاسلكي MagSafe</strong> بيشحن ايفونك على الظهر. <strong>20 واط USB-C PD سلكي</strong> بيشحن سامسونج أو AirPods أو ايباد عبر منفذ الكابل. جهازين بيتشحنوا في نفس الوقت من باور بانك واحد. مثالي للأزواج أو لما تحتاج تشحن سماعاتك وموبايلك مع بعض.</p>
+        <p class="text-gray-700">تذكر القائمة أوضاع خرج لاسلكي وUSB-C. تحقق من معيار اللاسلكي والهاتف أو الجراب المتوافق وبروفايلات USB-PD السلكية وجدول توزيع القدرة؛ استخدام جهازين قد يقلل القدرة المتاحة لكل منهما. يختلف الخرج حسب المحاذاة والحرارة والبطارية والبروتوكول.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">حامل مدمج: الإيد التالتة لموبايلك</h2>
-        <p class="text-gray-700"><strong>الحامل المدمج القابل للطي</strong> بيرفع موبايلك في وضع عرضي. شاهد Netflix، خد مكالمات FaceTime، أو اتبع وصفة — وانت بتشحن لاسلكي. بيشتغل على المكاتب وطاولات الطيارة والكومودينو. مفيش حاجة لحامل منفصل.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">الحامل المدمج والثبات</h2>
+        <p class="text-gray-700">يمكن للحامل القابل للطي دعم هاتف متوافق على سطح مستوٍ وثابت. يعتمد الاتزان على حجم الهاتف والجراب والاتجاه وحركة السطح. اختبر الثبات قبل ترك الهاتف واطوِ الحامل قبل حمل الوحدة.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>📱 <strong>ايفون 17/16/15/14/13/12 (MagSafe):</strong> 15 واط لاسلكي.</li>
-        <li>📱 <strong>سامسونج S26/S25 (USB-C):</strong> 20 واط سلكي سريع.</li>
-        <li>🎧 <strong>AirPods Pro / Galaxy Buds:</strong> شحن سلكي USB-C.</li>
-        <li>📺 <strong>ايباد / تابلت:</strong> شحن سلكي USB-C.</li>
+        <li>📱 <strong>هاتف أو جراب مغناطيسي:</strong> تحقق من معيار المحاذاة وبروفايل الشحن اللاسلكي.</li>
+        <li>📱 <strong>هواتف وتابلت USB-C:</strong> طابق مدخل الجهاز مع البروفايل السلكي المطبوع.</li>
+        <li>🎧 <strong>ملحقات USB-C:</strong> تحقق من الدخل ووضع التيار المنخفض إن وجد.</li>
+        <li>🔌 <strong>جهازان:</strong> راجع جدول توزيع الخرج قبل الاستخدام المتزامن.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">شحن MagSafe اللاسلكي بيشتغل مع ايفون 12 والأحدث بس. مش بيشحن سامسونج أو موبايلات بدون MagSafe لاسلكياً. الـ 15 واط اللاسلكي أبطأ من السلكي؛ لأسرع شحن، استخدم منفذ USB-C. بيزوّد وزن ملحوظ لما يكون مركّب على الموبايل.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">تحتاج المحاذاة المغناطيسية هاتفاً أو جراباً متوافقاً، بينما تختلف بروفايلات الشحن اللاسلكي وUSB-C. قارن جدول الخرج المطبوع قبل الاختيار. قد يكون الوزن والحرارة ملحوظين عند التثبيت؛ توقف عن الاستخدام عند التلف أو الانتفاخ أو السخونة غير المعتادة.</p></div>
 `,
-                features: ["🔋 10000 مللي (مرتين ايفون 17)", "🧲 MagSafe N52", "⚡ 15 واط لاسلكي", "⚡ 20 واط USB-C سلكي", "📐 حامل مدمج", "📱 شحن جهازين", "🏆 ضمان 18 شهر", "🔒 معتمد CE + FCC → معايير السلامة العالمية"],
-                metaTitle: "باور بانك جوي روم MagSafe 10000 ⚡ خصم 6% | شحن لاسلكي",
-                metaDesc: "اشتري باور بانك جوي روم MagSafe في مصر. 10000 مللي، 15 واط لاسلكي + 20 واط سلكي، مغناطيس N52، حامل مدمج. ايفون 17/16/15. ضمان 18 شهر. أفضل سعر.",
+                features: ["سعة خلايا معلنة 10000 مللي أمبير", "محاذاة مغناطيسية للشحن اللاسلكي", "تحقق من بروفايل الخرج اللاسلكي", "تحقق من بروفايلات USB-C السلكية", "حامل قابل للطي", "راجع حدود توزيع القدرة", "راجع سياسة الضمان والاسترجاع", "تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
+                metaTitle: "باور بانك جوي روم MagSafe 10000 | شحن لاسلكي",
+                metaDesc: "راجع جوي روم JR-W030 المغناطيسي في مصر: سعة معلنة 10000 مللي أمبير وبروفايلات اللاسلكي وUSB-C والحامل والتوافق والسعر وسياسة الخدمة.",
                 faqs: [
-                    { question: "كم شحنة يعطي MagSafe 10000 لايفون 17؟", answer: "سعة 10000 مللي أمبير تشحن الايفون 17 بالكامل حوالي مرتين، أو أكثر من 2.5 شحنة لايفون 17 برو. النتائج تختلف حسب الاستخدام أثناء الشحن." },
-                    { question: "هل أستطيع استخدامه ملتصقاً بالهاتف؟", answer: "بالتأكيد! الالتصاق المغناطيسي قوي بما يكفي للاستخدام اليومي - التصفح، الألعاب، التصوير. الحامل المدمج مثالي لمكالمات الفيديو أو مشاهدة المحتوى أثناء الشحن." },
-                    { question: "هل يشحن من خلال الجراب؟", answer: "يعمل مع جرابات متوافقة مع MagSafe والجرابات الرفيعة. الجرابات السميكة أو التي تحتوي معدن قد تقلل كفاءة الشحن أو الالتصاق." },
-                    { question: "هيشحن موبايلي كام مرة؟", answer: "الموبايلات الحديثة (ايفون 17، سامسونج S26) بتاخد 2-4 شحنات كاملة حسب السعة. الموبايلات المتوسطة بتاخد أكتر." },
-                    { question: "ينفع أاخده على الطيارة؟", answer: "أيوه! السعة تحت 100Wh مسموحة على كل الرحلات التجارية. احمله في شنطة اليد حسب قوانين IATA." }
+                    { question: "كم شحنة يعطي باور بانك 10000 لهاتف متوافق؟", answer: "لا يوجد عدد ثابت؛ تصنيف الخلايا يختلف عن الطاقة القابلة للاستخدام، وتؤثر بطارية الهاتف ونسبة البداية وكفاءة التحويل والمحاذاة والحرارة واستخدام الهاتف في النتيجة." },
+                    { question: "هل أستطيع استخدامه ملتصقاً بالهاتف؟", answer: "تحقق من المحاذاة والجراب وادعم الهاتف إذا كانت الحركة قد تفصل البطارية. يمكن للحامل توفير زاوية على سطح ثابت، لكن التثبيت يختلف حسب الهاتف والجراب والاتجاه والحرارة." },
+                    { question: "هل يشحن من خلال الجراب؟", answer: "تأكد أن الجراب نفسه يدعم معيار الشحن المغناطيسي المطلوب. الجراب السميك أو المعدني أو غير المحاذي قد يقلل الشحن والتثبيت." },
+                    { question: "ينفع آخده على الطيارة؟", answer: "تحقق من قيمة Wh المطبوعة وقواعد شركة الطيران والبلد والرحلة الحالية. غالباً توضع الباور بانكات في أمتعة المقصورة، لكن الناقل هو الذي يقرر القبول." }
                 ]
             }
         },
-        meta: { keywords: "جوي روم magsafe power bank, باور بانك مغناطيسي, شاحن ايفون 17 لاسلكي, magnetic wireless charger egypt, باور بانك MagSafe مصر, جوي روم portable charger, جوي روم best power bank egypt 2026, جوي روم travel power bank, جوي روم cod egypt power bank, افضل باور بانك جوي روم, سعر باور بانك جوي روم, جوي روم magnetic power bank, باور بانك جوي روم اصلي, شاحن متنقل جوي روم, جوي روم power bank egypt price, افضل باور بانك رخيص مصر, باور بانك ضمان", mainTerm: "joyroom magnetic power bank" },
+        meta: { keywords: "جوي روم magsafe power bank, باور بانك مغناطيسي, شاحن ايفون 17 لاسلكي, magnetic wireless charger egypt, باور بانك MagSafe مصر, جوي روم portable charger, جوي روم travel power bank, جوي روم cod egypt power bank, سعر باور بانك جوي روم, جوي روم magnetic power bank, تحقق من موديل باور بانك جوي روم, شاحن متنقل جوي روم, جوي روم power bank egypt price, شروط ضمان باور بانك", mainTerm: "joyroom magnetic power bank" },
         expertOpinion: {
-            en: "The convenience of MagSafe on the go. The magnets align perfectly, and the kickstand is a game changer for watching videos on a plane or train. 10,000mAh is the sweet spot – enough power without being a brick attached to your phone.",
-            ar: "راحة MagSafe أثناء التنقل. تتوافق المغناطيسات تماماً، والحامل المدمج يغير قواعد اللعبة لمشاهدة الفيديوهات على الطائرة أو القطار. 10,000 مللي أمبير هي النقطة المثالية – طاقة كافية دون أن تكون طوبة ملتصقة بهاتفك."
+        en: "JR-W030 may suit a buyer who wants magnetic wireless alignment and a foldable stand. Confirm the phone or case standard, printed Wh, wired and wireless profiles, shared-output table, weight, live price and service terms.",
+            ar: "قد يناسب هذا الموديل من يريد بطارية مغناطيسية مع حامل مدمج، بعد التحقق من الهاتف أو الجراب ومعيار الشحن والمحاذاة والقدرة المشتركة. قارن Wh والوزن والسعر وشروط الضمان الحالية قبل الاختيار."
         },
         relatedProducts: ["joyroom-power-bank-10000",
         "joyroom-power-bank-20000",

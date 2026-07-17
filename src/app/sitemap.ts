@@ -8,18 +8,16 @@ import { logger } from '@/lib/logger';
 import { blogIndex, isIndexEntryLive } from '@/data/blog-index';
 import { genericCategories } from '@/data/generic-categories';
 import { getFirestore } from '@/lib/firebase-admin';
-import { labData } from '@/data/product-tests';
-import { getProductDetail } from '@/data/product-details';
 
 const baseUrl = 'https://cairovolt.com';
 
-// Helper to ensure lowercase brands/categories for URLs (Strict URL best practice)
+// Keep route segments in the same lowercase form used by the application.
 const toLower = (str: string) => str.toLowerCase();
 
 /**
  * Build hreflang alternates for a given path.
- * Arabic (ar-EG) is the sovereign version; x-default → Arabic.
- * English (en-EG) is geo-scoped to Egypt — tells Google NOT to rank for US/UK.
+ * Arabic is the default unprefixed locale and x-default target.
+ * English uses the established /en prefix and the en-EG locale.
  */
 function buildAlternates(path: string) {
     const arUrl = `${baseUrl}${path}`;
@@ -28,17 +26,13 @@ function buildAlternates(path: string) {
         languages: {
             'ar-EG': arUrl,
             'en-EG': enUrl,
-            'x-default': arUrl, // Arabic is sovereign
+            'x-default': arUrl,
         },
     };
 }
 
 /**
- * Arabic entry — full priority.
- * lastModified is emitted ONLY when a real modification date is known.
- * A fabricated site-wide default teaches Google to distrust the whole
- * sitemap's lastmod signal, which hurts recrawl scheduling for the pages
- * (blog) where the date IS real.
+ * Emit lastModified only when the content source has a real modification date.
  */
 function arEntry(path: string, priority: number, freq: MetadataRoute.Sitemap[0]['changeFrequency'], lastMod?: Date): MetadataRoute.Sitemap[0] {
     return {
@@ -50,18 +44,18 @@ function arEntry(path: string, priority: number, freq: MetadataRoute.Sitemap[0][
     };
 }
 
-/** English entry — reduced priority (60% of Arabic) to focus crawl budget */
+/** English entry using the site's established relative priority. */
 function enEntry(path: string, priority: number, freq: MetadataRoute.Sitemap[0]['changeFrequency'], lastMod?: Date): MetadataRoute.Sitemap[0] {
     return {
         url: `${baseUrl}/en${path}`,
-        priority: Math.round(priority * 0.6 * 10) / 10, // 60% of Arabic priority
+        priority: Math.round(priority * 0.6 * 10) / 10,
         changeFrequency: freq,
         ...(lastMod && { lastModified: lastMod }),
         alternates: buildAlternates(path),
     };
 }
 
-/** Add both ar + en entries with Arabic prioritized */
+/** Add the established Arabic and English route pair. */
 function addBilingual(
     routes: MetadataRoute.Sitemap,
     path: string,
@@ -84,9 +78,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     addBilingual(routes, '/team', 0.6, 'monthly', new Date('2026-05-29'));
     addBilingual(routes, '/contact', 0.6, 'monthly', new Date('2025-12-01'));
     addBilingual(routes, '/faq', 0.7, 'weekly');
-    // Lab hub — Dataset schema page (Google Dataset Search + AI citability)
-    addBilingual(routes, '/lab', 0.8, 'weekly', new Date('2026-06-11'));
-
+    // Preserve the established bilingual URL as a transparent specifications
+    // and calculations hub; no synthetic test dataset is exposed.
+    addBilingual(routes, '/lab', 0.8, 'monthly', new Date('2026-07-17'));
     // ── Legal & Policy ──
     addBilingual(routes, '/return-policy', 0.4, 'yearly', new Date('2025-10-01'));
     addBilingual(routes, '/warranty', 0.4, 'yearly', new Date('2025-10-01'));
@@ -101,7 +95,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
 
     // ── Soundcore Hub (Anker audio sub-brand) ──
-    // Standalone landing for the "soundcore" / "ساوند كور" keyword cluster (~20k searches/mo).
+    // Standalone landing for the Soundcore audio catalogue.
     // Served by a custom route (src/app/[locale]/soundcore/page.tsx) — NOT brandData.
     // Sub-pages (/soundcore/audio, /soundcore/speakers, products) come from categoryContent loop below.
     addBilingual(routes, '/soundcore', 0.95, 'weekly', new Date('2026-05-26'));
@@ -125,11 +119,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         .filter(p => !redirectedSlugs.has(p.slug))
         .forEach(product => {
             const path = `/${toLower(product.brand)}/${toLower(product.categorySlug)}/${product.slug}`;
-            const hasLabData = !!(labData[product.slug] || getProductDetail(product.slug)?.labVerified);
-            const priority = hasLabData ? 1.0 : 0.9;
             // 'weekly' is the honest cadence — product copy rarely changes daily,
             // and overstating freshness erodes sitemap trust.
-            addBilingual(routes, path, priority, 'weekly');
+            addBilingual(routes, path, 0.9, 'weekly');
         });
 
     // Firebase-only products
@@ -177,15 +169,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // Solutions data not available
     }
 
-    // NOTE: machine-readable endpoints (llms.txt, /api/knowledge-graph,
-    // /api/lab-data/json, openapi.json) are deliberately NOT in the sitemap.
-    // Sitemaps are for canonical, indexable HTML pages; non-HTML endpoints
-    // here only generate "crawled — currently not indexed" noise in Search
-    // Console. AI agents discover them via robots.txt, the bot-only Link
-    // header (middleware), and the /.well-known/ convention.
+    // NOTE: machine-readable endpoints (llms.txt, /api/knowledge-graph and
+    // openapi.json) are deliberately NOT in the sitemap.
+    // Sitemaps contain canonical, indexable HTML pages. Machine-readable
+    // resources remain discoverable through robots.txt, response Link headers,
+    // and their standard /.well-known/ locations.
 
     return routes;
 }
-
-
-
