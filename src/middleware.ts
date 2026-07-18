@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
 import { BLOG_SCHEDULE } from './data/blog-schedule.generated';
-import { KNOWN_TOP_SEGMENTS, LEGACY_PRODUCT_REDIRECTS } from './lib/known-routes';
+import { KNOWN_TOP_SEGMENTS, LEGACY_PRODUCT_REDIRECTS, RETIRED_CATEGORY_REDIRECTS } from './lib/known-routes';
 
 const intlMiddleware = createMiddleware(routing);
 
@@ -167,6 +167,23 @@ export default function middleware(request: NextRequest) {
         const url = request.nextUrl.clone();
         url.pathname = `${localePrefix || ''}/soundcore/${category}${rest || ''}`;
         return NextResponse.redirect(url, { status: 301 });
+    }
+
+    // 2.4 Retired CATEGORY prefix 301s — see RETIRED_CATEGORY_REDIRECTS above.
+    // Catches the dead "brand/category" page AND any product deep-link beneath
+    // it (old blog links to categories the catalogue never had). Fail-open: a
+    // brand/category pair not in the map falls through untouched, so real
+    // category and product URLs are never affected.
+    const retiredCategory = pathname.match(
+        /^(\/en)?\/((?:anker|joyroom|soundcore)\/[a-z0-9-]+)(?:\/.*)?$/
+    );
+    if (retiredCategory) {
+        const categoryTarget = RETIRED_CATEGORY_REDIRECTS[retiredCategory[2]];
+        if (categoryTarget) {
+            const url = request.nextUrl.clone();
+            url.pathname = `${retiredCategory[1] || ''}${categoryTarget}`;
+            return NextResponse.redirect(url, { status: 301 });
+        }
     }
 
     // 2.5 Retired product slug 301s — see LEGACY_PRODUCT_REDIRECTS above.

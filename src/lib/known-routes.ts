@@ -45,3 +45,16 @@ export const LEGACY_PRODUCT_REDIRECTS: Record<string, string> = {
     'joyroom-magnetic-wireless-power-bank-10000': '/joyroom/power-banks/joyroom-magnetic-power-bank-10000',
     'soundcore-r50i-earbuds': '/soundcore/audio/anker-soundcore-r50i',
 };
+
+// Retired CATEGORY paths (brand/category) → their real successor category (301).
+// These slugs were linked by older blog articles but never existed as catalog
+// categories: CairoVolt doesn't carry portable power stations (→ power banks),
+// Joyroom "car-mounts" is the "car-holders" category, and Anker earbuds live
+// under the Soundcore tree. Redirecting the whole prefix (category page AND any
+// product deep-link beneath it) keeps blog links and Google's index off 404s.
+// MAINTENANCE: key is the exact "brand/category" pair, value is the target path.
+export const RETIRED_CATEGORY_REDIRECTS: Record<string, string> = {
+    'anker/portable-power-stations': '/anker/power-banks',
+    'joyroom/car-mounts': '/joyroom/car-holders',
+    'anker/earbuds': '/soundcore/audio',
+};
