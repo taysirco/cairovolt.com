@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import { InstantLink as Link } from '@/components/ui/InstantLink';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackWhatsappClick } from '@/lib/analytics';
@@ -66,26 +65,18 @@ export default function MobileMenu({
                 } overflow-y-auto`}
                 dir={isRTL ? 'rtl' : 'ltr'}
             >
-                <div className="p-6">
-                    {/* Mobile Logo */}
-                    <div className="flex items-center justify-between mb-8">
-                        <Link href={getLocalizedHref('/')} className="flex items-center gap-2" onClick={onClose}>
-                            <div className="flex items-center">
-                                <Image
-                                    src="/cairovolt_logo.webp"
-                                    alt="CairoVolt"
-                                    width={120}
-                                    height={67}
-                                    sizes="120px"
-                                    className="h-[60px] w-auto object-contain dark:[filter:brightness(0)_invert(1)]"
-                                />
-                            </div>
-                            <span className="text-lg font-bold">
-                                {isRTL ? 'كايرو فولت' : 'CairoVolt'}
-                            </span>
-                        </Link>
-                        <button onClick={onClose} className="p-2" aria-label={isRTL ? 'إغلاق' : 'Close menu'}>
-                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {/* pt-20 drops the menu content below the fixed header (h-16) so the
+                    close button is never cramped under it. No logo/brand here — the
+                    header already shows them; rendering them again was the duplicate. */}
+                <div className="px-6 pb-6 pt-20">
+                    {/* Close button — large, clear target at the top of the panel */}
+                    <div className="flex justify-start mb-6">
+                        <button
+                            onClick={onClose}
+                            className="flex items-center justify-center w-11 h-11 rounded-xl bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 active:scale-95 transition"
+                            aria-label={isRTL ? 'إغلاق القائمة' : 'Close menu'}
+                        >
+                            <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
