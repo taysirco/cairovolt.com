@@ -60,7 +60,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
 
       {/* Copy placed high-centre, over the clear part of the gradient */}
       <div className="relative z-10 mx-auto w-full max-w-3xl px-5 pt-20 text-center sm:pt-24 lg:pt-28">
-        <h1 className="font-outfit text-[2rem] font-bold leading-[1.05] tracking-[-0.03em] text-[#0a1220] sm:text-5xl lg:text-[3.5rem]">
+        <h1 className="font-outfit text-[1.6rem] font-bold leading-[1.1] tracking-[-0.03em] text-[#0a1220] sm:text-5xl sm:leading-[1.05] lg:text-[3.5rem]">
           {isAr ? (
             <>
               شحنٌ ذكي يعرف جهازك،
