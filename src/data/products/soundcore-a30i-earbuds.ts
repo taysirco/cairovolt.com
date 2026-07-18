@@ -8,7 +8,7 @@ export const soundcore_a30i_earbuds = {
     gtin13: "",
     mpn: "A3958",
     price: 1450,
-    originalPrice: 1500,
+    originalPrice: 1699,
     stock: 719,
     featured: false,
     status: "active",

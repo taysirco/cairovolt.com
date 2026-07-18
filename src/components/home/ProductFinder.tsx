@@ -275,9 +275,17 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
                         {isAr ? whyPick[product.slug].ar : whyPick[product.slug].en}
                       </p>
                     )}
-                    <div className="mt-2 flex items-baseline gap-1.5">
+                    <div className="mt-2 flex flex-wrap items-baseline gap-x-1.5 gap-y-1">
                       <strong className="font-outfit text-xl">{product.price.toLocaleString('en-US')}</strong>
                       <span className="text-xs text-slate-500">{isAr ? 'ج.م' : 'EGP'}</span>
+                      {product.originalPrice > product.price && (
+                        <>
+                          <span className="text-xs text-slate-400 line-through">{product.originalPrice.toLocaleString('en-US')}</span>
+                          <span className="rounded-full bg-red-600 px-1.5 py-0.5 text-[10px] font-extrabold text-white">
+                            {isAr ? `خصم ${Math.round((1 - product.price / product.originalPrice) * 100)}%` : `-${Math.round((1 - product.price / product.originalPrice) * 100)}%`}
+                          </span>
+                        </>
+                      )}
                     </div>
                   </div>
                 </Link>

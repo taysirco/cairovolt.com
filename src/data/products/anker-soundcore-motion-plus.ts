@@ -9,7 +9,7 @@ export const anker_soundcore_motion_plus = {
         gtin13: "0840053011550",
         mpn: "A3116011",
         price: 3600,
-        originalPrice: 4300,
+        originalPrice: 4279,
         stock: 793,
         featured: true,
         status: "active",

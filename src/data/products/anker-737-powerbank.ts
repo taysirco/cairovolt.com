@@ -9,7 +9,7 @@ export const anker_737_powerbank = {
         gtin13: "0194644071967",
         mpn: "A1289011",
         price: 4999,
-        originalPrice: 5500,
+        originalPrice: 5780,
         stock: 412,
         featured: true,
         status: "active",

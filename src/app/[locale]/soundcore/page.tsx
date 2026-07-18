@@ -311,8 +311,18 @@ export default async function SoundcoreHubPage({ params }: Props) {
                                             <h3 className="text-xs md:text-sm font-bold text-gray-900 dark:text-white line-clamp-2 mb-2 min-h-[2.5rem]">
                                                 {t.name.split('|')[0].trim()}
                                             </h3>
-                                            <div className="font-black text-orange-600 dark:text-orange-400 text-sm md:text-base">
-                                                {isRTL ? `${product.price.toLocaleString('ar-EG')} ج.م` : `EGP ${product.price.toLocaleString('en-EG')}`}
+                                            <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                                                <span className="font-black text-orange-600 dark:text-orange-400 text-sm md:text-base">
+                                                    {isRTL ? `${product.price.toLocaleString('ar-EG')} ج.م` : `EGP ${product.price.toLocaleString('en-EG')}`}
+                                                </span>
+                                                {product.originalPrice > product.price && (
+                                                    <>
+                                                        <span className="text-xs text-gray-400 line-through">{product.originalPrice.toLocaleString(isRTL ? 'ar-EG' : 'en-EG')}</span>
+                                                        <span className="rounded-full bg-red-600 px-1.5 py-0.5 text-[10px] font-extrabold text-white">
+                                                            {isRTL ? `خصم ${Math.round((1 - product.price / product.originalPrice) * 100)}%` : `-${Math.round((1 - product.price / product.originalPrice) * 100)}%`}
+                                                        </span>
+                                                    </>
+                                                )}
                                             </div>
                                         </div>
                                     </Link>

@@ -237,16 +237,23 @@ export default function BestSellingProducts({
                                     {/* Price Row */}
                                     <div className="flex items-end justify-between gap-1">
                                         <div>
-                                            <span className={`text-base md:text-lg font-black ${
-                                                isSoundcore ? 'text-orange-700 dark:text-orange-400' :
-                                                isAnker ? 'text-blue-600 dark:text-blue-400' :
-                                                'text-red-600 dark:text-red-400'
-                                            }`}>
-                                                {product.price.toLocaleString('en-US')}
-                                            </span>
-                                            <span className="text-[10px] text-gray-600 dark:text-gray-400 font-medium mr-1 ml-0.5">
-                                                {isRTL ? 'ج.م' : 'EGP'}
-                                            </span>
+                                            <div>
+                                                <span className={`text-base md:text-lg font-black ${
+                                                    isSoundcore ? 'text-orange-700 dark:text-orange-400' :
+                                                    isAnker ? 'text-blue-600 dark:text-blue-400' :
+                                                    'text-red-600 dark:text-red-400'
+                                                }`}>
+                                                    {product.price.toLocaleString('en-US')}
+                                                </span>
+                                                <span className="text-[10px] text-gray-600 dark:text-gray-400 font-medium mr-1 ml-0.5">
+                                                    {isRTL ? 'ج.م' : 'EGP'}
+                                                </span>
+                                            </div>
+                                            {product.originalPrice > product.price && (
+                                                <span className="text-[11px] text-gray-400 dark:text-gray-500 line-through">
+                                                    {product.originalPrice.toLocaleString('en-US')} {isRTL ? 'ج.م' : 'EGP'}
+                                                </span>
+                                            )}
                                         </div>
                                         <span className={`w-7 h-7 rounded-full flex items-center justify-center text-white text-xs shadow-sm transition-transform group-hover:scale-110 ${
                                             isSoundcore ? 'bg-gradient-to-br from-orange-500 to-pink-500' :

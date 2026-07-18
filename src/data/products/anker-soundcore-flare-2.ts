@@ -9,7 +9,7 @@ export const anker_soundcore_flare_2 = {
         gtin13: "0848061045123",
         mpn: "A3165011",
         price: 2999,
-        originalPrice: 3400,
+        originalPrice: 3569,
         stock: 629,
         featured: false,
         status: "active",

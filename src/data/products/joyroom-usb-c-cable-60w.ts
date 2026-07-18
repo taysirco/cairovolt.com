@@ -9,7 +9,7 @@ export const joyroom_usb_c_cable_60w = {
         gtin13: "6956116750114",
         mpn: "JR-S-CC60",
         price: 123,
-        originalPrice: 220,
+        originalPrice: 140,
         stock: 452,
         featured: true,
         status: "active",

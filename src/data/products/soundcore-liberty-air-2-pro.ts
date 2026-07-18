@@ -8,7 +8,7 @@ export const soundcore_liberty_air_2_pro = {
     gtin13: "",
     mpn: "A3951",
     price: 2150,
-    originalPrice: 2200,
+    originalPrice: 2459,
     stock: 997,
     featured: false,
     status: "active",

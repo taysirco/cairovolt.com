@@ -9,7 +9,7 @@ export const anker_powerport_20w = {
         gtin13: "0194644031275",
         mpn: "A2347K11",
         price: 490,
-        originalPrice: 550,
+        originalPrice: 560,
         stock: 1146,
         featured: true,
         status: "active",

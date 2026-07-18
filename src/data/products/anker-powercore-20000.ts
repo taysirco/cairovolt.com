@@ -9,7 +9,7 @@ export const anker_powercore_20000 = {
         gtin13: "0848061066197",
         mpn: "A1260011",
         price: 1550,
-        originalPrice: 1750,
+        originalPrice: 1899,
         stock: 1177,
         featured: true,
         status: "active",

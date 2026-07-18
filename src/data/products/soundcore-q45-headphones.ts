@@ -8,7 +8,7 @@ export const soundcore_q45_headphones = {
     gtin13: "",
     mpn: "A3040",
     price: 4685,
-    originalPrice: 5499,
+    originalPrice: 5559,
     stock: 829,
     featured: true,
     status: "active",

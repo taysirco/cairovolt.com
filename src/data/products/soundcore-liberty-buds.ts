@@ -8,7 +8,7 @@ export const soundcore_liberty_buds = {
     gtin13: "",
     mpn: "A3960",
     price: 1750,
-    originalPrice: 2099,
+    originalPrice: 2119,
     stock: 751,
     featured: false,
     status: "active",

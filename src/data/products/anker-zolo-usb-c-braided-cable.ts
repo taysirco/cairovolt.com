@@ -8,7 +8,7 @@ export const anker_zolo_usb_c_braided_cable = {
         gtin13: "",
         mpn: "A8060",
         price: 790,
-        originalPrice: 950,
+        originalPrice: 919,
         stock: 151,
         featured: false,
         status: "active",

@@ -9,7 +9,7 @@ export const joyroom_type_c_to_type_c_cable = {
         gtin13: "6956116750176",
         mpn: "JR-S-CC100",
         price: 130,
-        originalPrice: 200,
+        originalPrice: 149,
         stock: 616,
         featured: false,
         status: "active",

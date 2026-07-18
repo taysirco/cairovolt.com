@@ -144,9 +144,17 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
                     <span>{isAr ? '←' : '→'}</span>
                   </span>
 
-                  <div className="mt-auto flex flex-wrap items-baseline gap-x-1.5 pt-4">
+                  <div className="mt-auto flex flex-wrap items-baseline gap-x-1.5 gap-y-1 pt-4">
                     <strong className="font-outfit text-lg text-[#07111f] sm:text-xl">{product.price.toLocaleString('en-US')}</strong>
                     <span className="text-[10px] text-slate-500 sm:text-xs">{isAr ? 'ج.م' : 'EGP'}</span>
+                    {product.originalPrice > product.price && (
+                      <>
+                        <span className="text-xs text-slate-400 line-through">{product.originalPrice.toLocaleString('en-US')}</span>
+                        <span className="rounded-full bg-red-600 px-1.5 py-0.5 text-[10px] font-extrabold text-white">
+                          {isAr ? `خصم ${Math.round((1 - product.price / product.originalPrice) * 100)}%` : `-${Math.round((1 - product.price / product.originalPrice) * 100)}%`}
+                        </span>
+                      </>
+                    )}
                   </div>
 
                   <button

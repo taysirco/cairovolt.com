@@ -9,7 +9,7 @@ export const joyroom_usb_a_lightning_1_2m = {
         gtin13: "6956116750237",
         mpn: "JR-S-AL12",
         price: 114,
-        originalPrice: 150,
+        originalPrice: 140,
         stock: 574,
         featured: false,
         status: "retired",

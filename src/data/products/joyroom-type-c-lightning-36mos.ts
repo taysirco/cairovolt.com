@@ -9,7 +9,7 @@ export const joyroom_type_c_lightning_36mos = {
         gtin13: "6956116750213",
         mpn: "JR-S-CL36M",
         price: 131,
-        originalPrice: 300,
+        originalPrice: 150,
         stock: 403,
         featured: true,
         status: "active",

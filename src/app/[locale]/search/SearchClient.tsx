@@ -13,6 +13,7 @@ interface SearchProduct {
     brand: string;
     category: string;
     price: number;
+    originalPrice?: number;
     stock: number;
     image: string;
 }
@@ -139,8 +140,20 @@ export default function SearchClient({ locale, index }: SearchClientProps) {
                                     {isArabic ? localizeArabicBrandNames(p.nameAr) : p.nameEn}
                                 </div>
                                 <div className="text-sm text-gray-500">{getBrandDisplayName(p.brand, locale)}</div>
-                                <div className="text-blue-600 dark:text-blue-400 font-bold mt-1">
-                                    {p.price.toLocaleString(isArabic ? 'ar-EG' : 'en-US')} {isArabic ? 'جنيه' : 'EGP'}
+                                <div className="mt-1 flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                                    <span className="text-blue-600 dark:text-blue-400 font-bold">
+                                        {p.price.toLocaleString(isArabic ? 'ar-EG' : 'en-US')} {isArabic ? 'جنيه' : 'EGP'}
+                                    </span>
+                                    {p.originalPrice != null && p.originalPrice > p.price && (
+                                        <>
+                                            <span className="text-xs text-gray-400 line-through">
+                                                {p.originalPrice.toLocaleString(isArabic ? 'ar-EG' : 'en-US')}
+                                            </span>
+                                            <span className="rounded-full bg-red-600 px-1.5 py-0.5 text-[10px] font-extrabold text-white">
+                                                -{Math.round((1 - p.price / p.originalPrice) * 100)}%
+                                            </span>
+                                        </>
+                                    )}
                                 </div>
                             </div>
                         </Link>

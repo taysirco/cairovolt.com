@@ -9,7 +9,7 @@ export const joyroom_usb_c_lightning_cable = {
         gtin13: "6956116750091",
         mpn: "JR-S-CL20",
         price: 118,
-        originalPrice: 199,
+        originalPrice: 140,
         stock: 447,
         featured: false,
         status: "active",

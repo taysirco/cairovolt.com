@@ -8,7 +8,7 @@ export const soundcore_a25i_earbuds = {
         gtin13: "",
         mpn: "A3948",
         price: 1370,
-        originalPrice: 1630,
+        originalPrice: 1540,
         stock: 293,
         featured: false,
         status: "active",

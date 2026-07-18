@@ -9,7 +9,7 @@ export const joyroom_car_mount_zs290 = {
         gtin13: "6956116714024",
         mpn: "JR-ZS290",
         price: 934,
-        originalPrice: 1099,
+        originalPrice: 1089,
         stock: 451,
         featured: false,
         status: "active",

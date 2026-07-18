@@ -253,6 +253,16 @@ export function GenericCategoryContent({
                                                     {product.price.toLocaleString('en-US')}
                                                 </span>
                                                 <span className="text-xs text-gray-500">{isArabic ? 'ج.م' : 'EGP'}</span>
+                                                {/* Display-only pre-discount price — deliberately NOT marked up
+                                                    as an itemProp so the schema.org Offer keeps the real price. */}
+                                                {product.originalPrice > product.price && (
+                                                    <>
+                                                        <span className="text-xs text-gray-400 line-through">{product.originalPrice.toLocaleString('en-US')}</span>
+                                                        <span className="rounded-full bg-red-600 px-1.5 py-0.5 text-[10px] font-extrabold text-white">
+                                                            {isArabic ? `خصم ${Math.round((1 - product.price / product.originalPrice) * 100)}%` : `-${Math.round((1 - product.price / product.originalPrice) * 100)}%`}
+                                                        </span>
+                                                    </>
+                                                )}
                                             </div>
                                             <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-[10px]">
                                                 {product.stock > 0 ? (

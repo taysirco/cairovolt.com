@@ -9,7 +9,7 @@ export const anker_zolo_a1681_20000 = {
         gtin13: "0194644291235",
         mpn: "A1681",
         price: 2200,
-        originalPrice: 2500,
+        originalPrice: 2609,
         stock: 544,
         featured: true,
         status: "active",

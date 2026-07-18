@@ -8,7 +8,7 @@ export const anker_a1637_wukong_3_in_1_power_bank = {
         gtin13: "",
         mpn: "A1637",
         price: 2999,
-        originalPrice: 3499,
+        originalPrice: 3559,
         stock: 281,
         featured: false,
         status: "active",

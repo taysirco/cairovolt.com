@@ -9,7 +9,7 @@ export const joyroom_usb_a_type_c_cable = {
         gtin13: "6956116750190",
         mpn: "JR-S-AC30",
         price: 86,
-        originalPrice: 150,
+        originalPrice: 100,
         stock: 572,
         featured: false,
         status: "active",

@@ -166,7 +166,17 @@ export default async function SolutionPage({ params }: Props) {
                                     <div className="flex flex-col justify-center">
                                         <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">{product.brand}</span>
                                         <h4 className="font-bold text-gray-900 dark:text-white mb-2 line-clamp-2">{pName}</h4>
-                                        <p className="text-blue-600 dark:text-blue-400 font-black">{product.price} EGP</p>
+                                        <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                                            <span className="text-blue-600 dark:text-blue-400 font-black">{product.price} EGP</span>
+                                            {product.originalPrice > product.price && (
+                                                <>
+                                                    <span className="text-xs text-gray-400 line-through">{product.originalPrice}</span>
+                                                    <span className="rounded-full bg-red-600 px-1.5 py-0.5 text-[10px] font-extrabold text-white">
+                                                        {isArabic ? `خصم ${Math.round((1 - product.price / product.originalPrice) * 100)}%` : `-${Math.round((1 - product.price / product.originalPrice) * 100)}%`}
+                                                    </span>
+                                                </>
+                                            )}
+                                        </div>
                                     </div>
                                 </Link>
                             )

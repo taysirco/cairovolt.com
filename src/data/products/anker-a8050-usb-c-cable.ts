@@ -1,7 +1,7 @@
 // Product: anker-a8050-usb-c-cable
 export const anker_a8050_usb_c_cable = {
         slug: "anker-a8050-usb-c-cable", sku: "AK04", brand: "Anker", categorySlug: "cables",
-        gtin: "6940268896820", gtin13: "6940268896820", mpn: "A8050", price: 570, originalPrice: 670, stock: 540, featured: false, status: "active",
+        gtin: "6940268896820", gtin13: "6940268896820", mpn: "A8050", price: 570, originalPrice: 680, stock: 540, featured: false, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-braided-nylon-cable-texture-close-up-durability.webp", alt: "Anker A8050 USB-C connector detail reinforced stress point - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-usb-c-to-usb-c-cable-braided-nylon-cairovolt.webp", alt: "Anker A8050 USB-A to USB-C braided nylon cable - Egypt - CairoVolt", order: 1, isPrimary: false, width: 1080, height: 1080 },

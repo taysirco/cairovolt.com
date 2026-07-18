@@ -350,6 +350,7 @@ export default async function ProductPage({ params }: Props) {
                 brand: p.brand,
                 categorySlug: p.categorySlug,
                 price: p.price,
+                originalPrice: p.originalPrice,
                 images: p.images?.[0] ? [{ url: p.images[0].url }] : [],
                 translations: {
                     en: { name: p.translations?.en?.name },
@@ -541,6 +542,7 @@ export default async function ProductPage({ params }: Props) {
                     brand: product.brand,
                     categorySlug: product.categorySlug,
                     price: product.price,
+                    originalPrice: product.originalPrice,
                     stock: product.stock,
                     featured: product.featured,
                     images: product.images?.map(img => ({ url: img.url, alt: img.alt, isPrimary: img.isPrimary })),

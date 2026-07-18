@@ -4,6 +4,7 @@ import { InstantLink as Link } from '@/components/ui/InstantLink';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import { getDiscountInfo } from '@/lib/pricing-display';
 
 interface Product {
     id: string;
@@ -102,10 +103,23 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                         {productName}
                                     </h4>
 
-                                    <div className="pt-2 flex items-baseline gap-2">
+                                    <div className="pt-2 flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
                                         <span className="font-bold text-blue-600 text-base">
                                             {product.price.toLocaleString('en-US')} <span className="text-xs">{isArabic ? 'ج.م' : 'EGP'}</span>
                                         </span>
+                                        {(() => {
+                                            const d = getDiscountInfo(product.price, product.originalPrice);
+                                            return d.hasDiscount && product.originalPrice != null ? (
+                                                <>
+                                                    <span className="text-xs text-gray-400 line-through">
+                                                        {product.originalPrice.toLocaleString('en-US')}
+                                                    </span>
+                                                    <span className="rounded-full bg-red-600 px-1.5 py-0.5 text-[10px] font-extrabold text-white">
+                                                        -{d.percent}%
+                                                    </span>
+                                                </>
+                                            ) : null;
+                                        })()}
                                     </div>
                                 </div>
                             </Link>

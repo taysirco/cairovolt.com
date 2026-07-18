@@ -9,7 +9,7 @@ export const anker_powerport_25w = {
         gtin13: "0194644063566",
         mpn: "A2322K11",
         price: 550,
-        originalPrice: 650,
+        originalPrice: 640,
         stock: 1179,
         featured: true,
         status: "active",

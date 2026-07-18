@@ -8,7 +8,7 @@ export const anker_prime_a1336_20000mah_power_bank = {
         gtin13: "",
         mpn: "A1336",
         price: 5900,
-        originalPrice: 6900,
+        originalPrice: 6799,
         stock: 254,
         featured: false,
         status: "active",

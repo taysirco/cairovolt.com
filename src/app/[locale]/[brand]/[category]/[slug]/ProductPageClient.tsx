@@ -57,6 +57,7 @@ import { SvgIcon } from '@/components/ui/SvgIcon';
 import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
 import { getCairoVoltWarrantyPolicy } from '@/lib/warranty-policy';
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { getDiscountInfo } from '@/lib/pricing-display';
 
 
 interface Product {
@@ -165,8 +166,11 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
     // Active pricing — variant overrides product-level values
     const activePrice = selectedVariant?.price ?? product.price;
+    const activeOriginalPrice = selectedVariant?.originalPrice ?? product.originalPrice;
     const activeSku = selectedVariant?.sku ?? product.sku;
     const activeStock = selectedVariant?.stock ?? (product.stock || 0);
+    // Display-only pre-discount reference (never affects checkout/feed/schema)
+    const discount = getDiscountInfo(activePrice, activeOriginalPrice);
 
     // Variant-aware product for BundleSelector — overrides price/name with selected variant
     const variantAwareMainProduct = useMemo(() => {
@@ -678,13 +682,32 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                         )}
 
                         {/* Price */}
-                        <div className="flex flex-wrap items-end gap-2 md:gap-3 py-3 md:py-4 border-y border-gray-100 dark:border-gray-800">
-                            <span className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white transition-all duration-300">
-                                {activePrice.toLocaleString('en-US')}
-                            </span>
-                            <span className="text-base md:text-xl text-gray-600 dark:text-gray-300 mb-0.5 md:mb-1">
-                                {tCommon('egp')}
-                            </span>
+                        <div className="py-3 md:py-4 border-y border-gray-100 dark:border-gray-800">
+                            <div className="flex flex-wrap items-end gap-2 md:gap-3">
+                                <span className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white transition-all duration-300">
+                                    {activePrice.toLocaleString('en-US')}
+                                </span>
+                                <span className="text-base md:text-xl text-gray-600 dark:text-gray-300 mb-0.5 md:mb-1">
+                                    {tCommon('egp')}
+                                </span>
+                                {discount.hasDiscount && (
+                                    <span className="mb-1 inline-flex items-center rounded-full bg-red-600 px-2.5 py-1 text-sm font-extrabold text-white shadow-sm">
+                                        {isRTL ? `خصم ${discount.percent}%` : `${discount.percent}% OFF`}
+                                    </span>
+                                )}
+                            </div>
+                            {discount.hasDiscount && activeOriginalPrice != null && (
+                                <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm md:text-base">
+                                    <span className="text-gray-400 dark:text-gray-500 line-through">
+                                        {activeOriginalPrice.toLocaleString('en-US')} {tCommon('egp')}
+                                    </span>
+                                    <span className="font-bold text-green-700 dark:text-green-400">
+                                        {isRTL
+                                            ? `وفّر ${discount.save.toLocaleString('en-US')} ${tCommon('egp')}`
+                                            : `Save ${discount.save.toLocaleString('en-US')} ${tCommon('egp')}`}
+                                    </span>
+                                </div>
+                            )}
                         </div>
 
                         {/* Trust row — COD, delivery estimate and shipping policy (published policy, estimate-only wording) */}
@@ -1078,7 +1101,17 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                     <div className="flex items-baseline gap-1">
                                         <span className="sticky-price text-xl font-black text-white" style={{ color: '#ffffff' }}>{activePrice.toLocaleString('en-US')}</span>
                                         <span className="sticky-label text-xs font-medium text-zinc-400" style={{ color: '#a1a1aa' }}>{tCommon('egp')}</span>
+                                        {discount.hasDiscount && (
+                                            <span className="rounded-full bg-red-600 px-1.5 py-0.5 text-[10px] font-extrabold text-white">
+                                                -{discount.percent}%
+                                            </span>
+                                        )}
                                     </div>
+                                    {discount.hasDiscount && activeOriginalPrice != null && (
+                                        <span className="block text-[11px] font-medium text-zinc-500 line-through" style={{ color: '#a1a1aa' }}>
+                                            {activeOriginalPrice.toLocaleString('en-US')} {tCommon('egp')}
+                                        </span>
+                                    )}
                                 </div>
                                 {/* CTA Button */}
                                 <button

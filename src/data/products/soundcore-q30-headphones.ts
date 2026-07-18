@@ -8,7 +8,7 @@ export const soundcore_q30_headphones = {
     gtin13: "",
     mpn: "A3028",
     price: 4649,
-    originalPrice: 5499,
+    originalPrice: 5379,
     stock: 740,
     featured: false,
     status: "active",

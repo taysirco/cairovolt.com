@@ -9,7 +9,7 @@ export const joyroom_30w_pd_cable = {
         gtin13: "6956116750138",
         mpn: "JR-S-CL30",
         price: 94,
-        originalPrice: 180,
+        originalPrice: 110,
         stock: 1391,
         featured: false,
         status: "active",

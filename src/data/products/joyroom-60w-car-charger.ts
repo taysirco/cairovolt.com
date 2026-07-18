@@ -9,7 +9,7 @@ export const joyroom_60w_car_charger = {
         gtin13: "6956116750039",
         mpn: "JR-CL26",
         price: 513,
-        originalPrice: 650,
+        originalPrice: 599,
         stock: 637,
         featured: true,
         status: "active",

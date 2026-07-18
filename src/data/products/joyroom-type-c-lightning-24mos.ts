@@ -9,7 +9,7 @@ export const joyroom_type_c_lightning_24mos = {
         gtin13: "6956116750206",
         mpn: "JR-S-CL24M",
         price: 123,
-        originalPrice: 240,
+        originalPrice: 140,
         stock: 542,
         featured: false,
         status: "active",

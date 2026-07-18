@@ -1,7 +1,7 @@
 // Product: anker-soundcore-k20i
 export const anker_soundcore_k20i = {
         slug: "anker-soundcore-k20i", sku: "SH26", brand: "Soundcore", categorySlug: "audio",
-        gtin: "194644039165", gtin13: "0194644039165", mpn: "A3994", price: 750, originalPrice: 830, stock: 847, featured: true, status: "active",
+        gtin: "194644039165", gtin13: "0194644039165", mpn: "A3994", price: 750, originalPrice: 849, stock: 847, featured: true, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-wireless-earbuds-charging-case-cairovolt.webp", alt: "Soundcore K20i true wireless earbuds semi-in-ear - Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-earbud-close-up-driver-detail-design.webp", alt: "سماعة ساوندكور K20i لاسلكية نصف داخلية - A3994 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },

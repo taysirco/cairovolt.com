@@ -163,6 +163,11 @@ export default function VariantSelector({
                                     <span className="text-[9px] sm:text-[10px] text-gray-500">
                                         {isRTL ? 'ج.م' : 'EGP'}
                                     </span>
+                                    {!isOutOfStock && variant.originalPrice > variant.price && (
+                                        <span className="text-[9px] sm:text-[10px] text-gray-400 line-through">
+                                            {variant.originalPrice.toLocaleString('en-US')}
+                                        </span>
+                                    )}
                                 </div>
                             </div>
 

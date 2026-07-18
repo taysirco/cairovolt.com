@@ -171,6 +171,7 @@ export default async function DynamicCategoryPage({ params }: Props) {
         brand: p.brand,
         categorySlug: p.categorySlug,
         price: p.price,
+        originalPrice: p.originalPrice,
         stock: p.stock,
         images: p.images.map(img => ({ url: img.url, alt: img.alt, isPrimary: img.isPrimary })),
         translations: p.translations

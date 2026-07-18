@@ -9,7 +9,7 @@ export const joyroom_20w_usb_c_charger = {
         gtin13: "6956116750077",
         mpn: "JR-TCF20",
         price: 236,
-        originalPrice: 279,
+        originalPrice: 290,
         stock: 919,
         featured: false,
         status: "active",

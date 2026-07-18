@@ -9,7 +9,7 @@ export const joyroom_usb_a_micro_cable = {
         gtin13: "6956116750183",
         mpn: "JR-S-AM24",
         price: 44,
-        originalPrice: 100,
+        originalPrice: 50,
         stock: 479,
         featured: false,
         status: "active",

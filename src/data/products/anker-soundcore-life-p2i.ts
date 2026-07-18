@@ -9,7 +9,7 @@ export const anker_soundcore_life_p2i = {
         gtin13: "0194644101763",
         mpn: "A3991H11",
         price: 820,
-        originalPrice: 1100,
+        originalPrice: 950,
         stock: 566,
         featured: false,
         status: "active",

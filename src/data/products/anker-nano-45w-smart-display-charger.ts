@@ -1,7 +1,7 @@
 // Product: anker-nano-45w-smart-display-charger (Anker Nano Charger 45W with Smart Display & 180° Foldable Plug — A121D)
 export const anker_nano_45w_smart_display_charger = {
     slug: "anker-nano-45w-smart-display-charger", sku: "AR01", brand: "Anker", categorySlug: "wall-chargers",
-    gtin: "6978252855843", gtin13: "6978252855843", mpn: "A121D", price: 1900, originalPrice: 2700, stock: 450, featured: true, status: "active",
+    gtin: "6978252855843", gtin13: "6978252855843", mpn: "A121D", price: 1900, originalPrice: 2340, stock: 450, featured: true, status: "active",
     images: [
         { id: "img_1", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-charger-front-180-foldable-white-cairovolt.webp", alt: "Anker Nano 45W Smart Display charger A121D front view with 180° foldable plug and Hi greeting animation on TFT screen - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
         { id: "img_2", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-perfect-match-iphone-17-tuv-reddot-cairovolt.webp", alt: "شاحن انكر نانو A121D بقوة 45 واط مع هاتف متوافق وشاشة ذكية - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },

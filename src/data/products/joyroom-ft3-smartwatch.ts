@@ -9,7 +9,7 @@ export const joyroom_ft3_smartwatch = {
         gtin13: "6956116714017",
         mpn: "JR-FT3",
         price: 1092,
-        originalPrice: 2500,
+        originalPrice: 1239,
         stock: 629,
         featured: true,
         status: "active",

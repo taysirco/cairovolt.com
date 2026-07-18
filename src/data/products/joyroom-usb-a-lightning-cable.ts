@@ -9,7 +9,7 @@ export const joyroom_usb_a_lightning_cable = {
         gtin13: "6956116750145",
         mpn: "JR-S-AL24",
         price: 43,
-        originalPrice: 140,
+        originalPrice: 50,
         stock: 542,
         featured: false,
         status: "active",

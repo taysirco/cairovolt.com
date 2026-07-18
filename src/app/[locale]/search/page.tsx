@@ -45,6 +45,7 @@ export default async function SearchPage({ params }: Props) {
             brand: p.brand,
             category: p.categorySlug,
             price: p.price,
+            originalPrice: p.originalPrice,
             stock: p.stock ?? 0,
             image: p.images?.[0]?.url || '',
         }));

@@ -8,7 +8,7 @@ export const soundcore_v20i_earbuds = {
     gtin13: "",
     mpn: "A3962",
     price: 1449,
-    originalPrice: 1499,
+    originalPrice: 1699,
     stock: 792,
     featured: false,
     status: "active",

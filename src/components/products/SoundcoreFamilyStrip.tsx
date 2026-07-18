@@ -127,11 +127,19 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
                                     <h3 className="line-clamp-2 min-h-[2rem] text-[11px] font-bold leading-4 text-white md:text-xs" title={productName}>
                                         {productName}
                                     </h3>
-                                    <div className="mt-1.5 flex items-baseline gap-1">
+                                    <div className="mt-1.5 flex flex-wrap items-baseline gap-x-1 gap-y-0.5">
                                         <span className="text-sm font-black text-orange-300 md:text-base">
                                             {product.price.toLocaleString('en-US')}
                                         </span>
                                         <span className="text-[9px] text-gray-400">{isRTL ? 'ج.م' : 'EGP'}</span>
+                                        {product.originalPrice > product.price && (
+                                            <>
+                                                <span className="text-[10px] text-gray-500 line-through">{product.originalPrice.toLocaleString('en-US')}</span>
+                                                <span className="rounded-full bg-red-600 px-1 py-0.5 text-[8px] font-extrabold text-white">
+                                                    -{Math.round((1 - product.price / product.originalPrice) * 100)}%
+                                                </span>
+                                            </>
+                                        )}
                                     </div>
                                 </div>
                             </Link>

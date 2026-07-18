@@ -13,6 +13,7 @@ import { CollectionOverviewBlock } from './content/CategoryOverviewBlock';
 import { SvgIcon } from './ui/SvgIcon';
 import { MarkdownRenderer } from './ui/MarkdownRenderer';
 import { trackWhatsappClick } from '@/lib/analytics';
+import { getDiscountInfo } from '@/lib/pricing-display';
 import { localizeArabicBrandContent, localizeArabicBrandNames, localizeArabicFields } from '@/lib/arabic-brand-names';
 
 const CategoryComparisonTable = dynamic(() => import('./content/ProductGuides').then(mod => mod.CategoryComparisonTable), {
@@ -142,6 +143,7 @@ export default function CategoryTemplate({
                 ? localizeArabicBrandNames(rawShortDescription)
                 : rawShortDescription,
             price: p.price,
+            originalPrice: p.originalPrice,
             image: p.images?.[0]?.url,
             categorySlug: p.categorySlug,
             inStock: (p.stock ?? 0) > 0,
@@ -327,6 +329,14 @@ export default function CategoryTemplate({
                         >
                             {/* Product Image */}
                             <div className="w-full aspect-square bg-white relative overflow-hidden">
+                                {(() => {
+                                    const cardDiscount = getDiscountInfo(product.price, product.originalPrice);
+                                    return cardDiscount.hasDiscount ? (
+                                        <span className="absolute top-2 start-2 z-10 rounded-full bg-red-600 px-2 py-0.5 text-[11px] font-extrabold text-white shadow-sm">
+                                            {isRTL ? `خصم ${cardDiscount.percent}%` : `-${cardDiscount.percent}%`}
+                                        </span>
+                                    ) : null;
+                                })()}
                                 {product.image ? (
                                     <ProductImage
                                         src={product.image}
@@ -368,10 +378,17 @@ export default function CategoryTemplate({
                                 )}
                                 <div className="flex items-center justify-between">
                                     <div>
-                                        <span className="text-base font-bold text-gray-900">
-                                            {product.price.toLocaleString('en-US')}
-                                        </span>
-                                        <span className="text-[10px] text-gray-500 font-normal ml-1">{locale === 'ar' ? 'ج.م' : 'EGP'}</span>
+                                        <div>
+                                            <span className="text-base font-bold text-gray-900">
+                                                {product.price.toLocaleString('en-US')}
+                                            </span>
+                                            <span className="text-[10px] text-gray-500 font-normal ml-1">{locale === 'ar' ? 'ج.م' : 'EGP'}</span>
+                                        </div>
+                                        {product.originalPrice != null && product.originalPrice > product.price && (
+                                            <span className="text-[11px] text-gray-400 font-normal line-through">
+                                                {product.originalPrice.toLocaleString('en-US')} {locale === 'ar' ? 'ج.م' : 'EGP'}
+                                            </span>
+                                        )}
                                     </div>
                                     <span className={`w-6 h-6 rounded-full flex items-center justify-center ${brandColorClass} text-white shadow-sm text-xs`}>
                                         →
