@@ -8,10 +8,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { revalidateTag, revalidatePath } from 'next/cache';
 import {
     getProductReviews,
-    submitReview,
     calculateVerifiedAggregateRating,
-    validateReviewToken,
-    getReviewCustomerDisplayName,
 } from '@/lib/verified-reviews';
 import { getProductBySlug } from '@/lib/static-products';
 import {
@@ -75,7 +72,6 @@ export async function GET(req: NextRequest) {
 
     const { searchParams } = new URL(req.url);
     const productSlug = searchParams.get('productSlug');
-    const token = searchParams.get('token');
     const locale = searchParams.get('locale') || 'ar';
     if (locale !== 'ar' && locale !== 'en') {
         return NextResponse.json({ error: 'Unsupported locale' }, { status: 400 });
@@ -83,34 +79,6 @@ export async function GET(req: NextRequest) {
     const isArabic = locale === 'ar';
 
     try {
-        // If token is provided, validate it and return token info
-        if (token) {
-            if (!REVIEW_TOKEN_PATTERN.test(token)) {
-                return NextResponse.json({
-                    valid: false,
-                    error: 'رابط التقييم غير صالح أو منتهي الصلاحية'
-                }, { status: 400, headers: { 'Cache-Control': 'no-store' } });
-            }
-
-            const tokenData = await validateReviewToken(token);
-            if (!tokenData) {
-                return NextResponse.json({
-                    valid: false,
-                    error: 'رابط التقييم غير صالح أو منتهي الصلاحية'
-                }, { status: 400, headers: { 'Cache-Control': 'no-store' } });
-            }
-
-            return NextResponse.json({
-                valid: true,
-                productName: isArabic
-                    ? localizeArabicBrandNames(tokenData.productName)
-                    : tokenData.productName,
-                productSlug: tokenData.productSlug,
-                customerName: getReviewCustomerDisplayName(tokenData.customerName),
-                purchaseMonth: tokenData.purchaseDate.toISOString().slice(0, 7),
-            }, { headers: { 'Cache-Control': 'no-store' } });
-        }
-
         // If productSlug is provided, return reviews for that product
         if (!productSlug) {
             return NextResponse.json({
@@ -139,6 +107,7 @@ export async function GET(req: NextRequest) {
             governorate: review.governorate,
             isVerified: review.isVerified,
             helpfulCount: review.helpfulCount,
+            ...(review.images && review.images.length ? { images: review.images } : {}),
         }));
         const reviews = isArabic
             ? localizeArabicBrandContent(publicReviews)
@@ -157,111 +126,4 @@ export async function GET(req: NextRequest) {
     }
 }
 
-// POST /api/reviews - Submit a new review
-export async function POST(req: NextRequest) {
-    const limited = rateLimitResponse(req, true);
-    if (limited) return limited;
-
-    const declaredLength = Number(req.headers.get('content-length') || 0);
-    if (Number.isFinite(declaredLength) && declaredLength > MAX_REVIEW_BODY_BYTES) {
-        return NextResponse.json({ success: false, error: 'حجم الطلب أكبر من المسموح' }, { status: 413 });
-    }
-
-    try {
-        const rawBody = await req.text();
-        if (Buffer.byteLength(rawBody, 'utf8') > MAX_REVIEW_BODY_BYTES) {
-            return NextResponse.json({ success: false, error: 'حجم الطلب أكبر من المسموح' }, { status: 413 });
-        }
-
-        let data: Record<string, unknown>;
-        try {
-            const parsed = JSON.parse(rawBody);
-            if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
-                throw new Error('Invalid payload');
-            }
-            data = parsed as Record<string, unknown>;
-        } catch {
-            return NextResponse.json({ success: false, error: 'بيانات الطلب غير صالحة' }, { status: 400 });
-        }
-
-        const token = normalizeSingleLine(data.token);
-        const reviewText = normalizeReviewText(data.reviewText);
-        const title = normalizeSingleLine(data.title);
-        const customerDisplayName = normalizeSingleLine(data.customerDisplayName);
-        const pros = normalizeReviewList(data.pros);
-        const cons = normalizeReviewList(data.cons);
-
-        // Validate required fields
-        if (!REVIEW_TOKEN_PATTERN.test(token)) {
-            return NextResponse.json({
-                success: false,
-                error: 'رابط التقييم مطلوب'
-            }, { status: 400 });
-        }
-
-        if (!Number.isInteger(data.rating) || Number(data.rating) < 1 || Number(data.rating) > 5) {
-            return NextResponse.json({
-                success: false,
-                error: 'التقييم يجب أن يكون من 1 إلى 5 نجوم'
-            }, { status: 400 });
-        }
-
-        if (reviewText.length < 10 || reviewText.length > MAX_REVIEW_TEXT_LENGTH) {
-            return NextResponse.json({
-                success: false,
-                error: `يرجى كتابة تقييم من 10 إلى ${MAX_REVIEW_TEXT_LENGTH} حرف`
-            }, { status: 400 });
-        }
-        if (title.length > MAX_REVIEW_TITLE_LENGTH
-            || customerDisplayName.length > MAX_DISPLAY_NAME_LENGTH
-            || pros === null || cons === null) {
-            return NextResponse.json({
-                success: false,
-                error: 'بعض حقول التقييم تتجاوز الحدود المسموحة'
-            }, { status: 400 });
-        }
-
-        const result = await submitReview({
-            token,
-            rating: Number(data.rating),
-            title: title || undefined,
-            reviewText,
-            pros: pros.length > 0 ? pros : undefined,
-            cons: cons.length > 0 ? cons : undefined,
-            customerDisplayName: customerDisplayName || undefined
-        });
-
-        if (!result.success) {
-            return NextResponse.json({
-                success: false,
-                error: result.error
-            }, { status: 400 });
-        }
-
-        // Invalidate cached review data and the affected product pages.
-        revalidateTag('reviews', { expire: 0 });
-        if (result.productSlug) {
-            revalidatePath(`/[locale]/[brand]/[category]/${result.productSlug}`, 'page');
-            const product = getProductBySlug(result.productSlug);
-            if (product) {
-                const isSoundcore = (product.categorySlug === 'audio' || product.categorySlug === 'speakers') && product.brand === 'Anker';
-                const brandPath = isSoundcore ? 'soundcore' : (product.brand || '').toLowerCase();
-                for (const locale of ['', '/en']) {
-                    revalidatePath(`${locale}/${brandPath}/${product.categorySlug}/${result.productSlug}`);
-                }
-            }
-        }
-
-        return NextResponse.json({
-            success: true,
-            message: 'شكراً لك! تم إرسال تقييمك بنجاح'
-        });
-
-    } catch {
-        console.error('Review submission failed');
-        return NextResponse.json({
-            success: false,
-            error: 'حدث خطأ أثناء إرسال التقييم. يرجى المحاولة مرة أخرى.',
-        }, { status: 500 });
-    }
-}
+// ⭐ الإرسال الجديد يعيش في /api/reviews/submit (تسجيل جوجل + صور) — النظام المبسّط.

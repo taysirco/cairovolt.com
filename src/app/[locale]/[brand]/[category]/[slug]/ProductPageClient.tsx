@@ -1063,6 +1063,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                     locale={locale}
                     initialReviews={initialReviews}
                     initialAggregateRating={initialAggregateRating}
+                    productSlug={product.slug}
+                    productName={isRTL ? (product.translations?.ar?.name || product.slug) : (product.translations?.en?.name || product.slug)}
                 />
             </div>
             {/* Related Products Section */}
