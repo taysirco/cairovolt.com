@@ -146,7 +146,7 @@ export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
 <div class="cta-box" style="background:#faf5ff;border:1px solid #c4b5fd;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#6b21a8;">Soundcore Flare 2 الأصلي على كايرو فولت</p>
     <p style="margin:0;color:#7c3aed;font-size:15px;line-height:1.8;">
-        راجع السعر الحالي والتوفر وشروط ضمان كايرو فولت وخيارات الشحن قبل إتمام الطلب. <a href="/soundcore/anker-soundcore-flare-2" style="color:#6b21a8;font-weight:600;text-decoration:underline;">عرض صفحة Flare 2</a>
+        راجع السعر الحالي والتوفر وشروط ضمان كايرو فولت وخيارات الشحن قبل إتمام الطلب. <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#6b21a8;font-weight:600;text-decoration:underline;">عرض صفحة Flare 2</a>
     </p>
 </div>` ,
             faq: [
@@ -291,7 +291,7 @@ export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
 <div class="cta-box" style="background:#faf5ff;border:1px solid #c4b5fd;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#6b21a8;">Genuine Soundcore Flare 2 on CairoVolt</p>
     <p style="margin:0;color:#7c3aed;font-size:15px;line-height:1.8;">
-        Check current price, availability, CairoVolt's written warranty terms and shipping options before ordering. <a href="/en/soundcore/anker-soundcore-flare-2" style="color:#6b21a8;font-weight:600;text-decoration:underline;">View the Flare 2 product page</a>
+        Check current price, availability, CairoVolt's written warranty terms and shipping options before ordering. <a href="/en/soundcore/speakers/anker-soundcore-flare-2" style="color:#6b21a8;font-weight:600;text-decoration:underline;">View the Flare 2 product page</a>
     </p>
 </div>` ,
             faq: [

@@ -202,7 +202,7 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
 
 <h3>السيناريو 3: عندك أجهزة تانية غير الموبايل</h3>
 
-<p>راجع <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W A2741</a> إذا كانت لديك أجهزة أخرى، مع التحقق من ملفات الخرج والكابل وتقاسم الطاقة لكل جهاز. القدرة الأعلى لا تضمن توافقاً مستقبلياً شاملاً.</p>
+<p>راجع <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W A2741</a> إذا كانت لديك أجهزة أخرى، مع التحقق من ملفات الخرج والكابل وتقاسم الطاقة لكل جهاز. القدرة الأعلى لا تضمن توافقاً مستقبلياً شاملاً.</p>
 
 <h2>الكابل — مش أي كابل هينفع</h2>
 
@@ -471,7 +471,7 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
 
 <h3>Scenario 3: You Have Other Devices Besides Your Phone</h3>
 
-<p>Review the <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W A2741</a> if you have other devices, checking output profiles, cable requirements, and any port-sharing rules. Higher power does not guarantee universal future compatibility.</p>
+<p>Review the <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W A2741</a> if you have other devices, checking output profiles, cable requirements, and any port-sharing rules. Higher power does not guarantee universal future compatibility.</p>
 
 <h2>The Cable — Not Just Any Cable Will Work</h2>
 

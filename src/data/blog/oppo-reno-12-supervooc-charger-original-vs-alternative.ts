@@ -165,7 +165,7 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
 
 <h3>لو اخترت بديلاً يدعم USB PD</h3>
 
-<p>راجع صفحة <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W A2741</a> لمعرفة ملفات PD المنشورة والسعر الحالي وشروط الضمان، ثم طابقها مع دليل Oppo؛ لا يضمن USB-C كفاءة أو قدرة واحدة لكل جهاز.</p>
+<p>راجع صفحة <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W A2741</a> لمعرفة ملفات PD المنشورة والسعر الحالي وشروط الضمان، ثم طابقها مع دليل Oppo؛ لا يضمن USB-C كفاءة أو قدرة واحدة لكل جهاز.</p>
 
 <p>قارن <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> حسب ملفات الخرج والأبعاد والسعر الحالي؛ وتتغير الحرارة والأداء حسب الهاتف والكابل والحمل والجو.</p>
 
@@ -416,7 +416,7 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
 
 <h3>If You Choose a USB PD Alternative</h3>
 
-<p>Review the <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W A2741</a> page for published PD profiles, live price, and written warranty terms, then match them to the Oppo manual. USB-C does not guarantee the same power or efficiency on every device.</p>
+<p>Review the <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W A2741</a> page for published PD profiles, live price, and written warranty terms, then match them to the Oppo manual. USB-C does not guarantee the same power or efficiency on every device.</p>
 
 <p>Compare the <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> by output profiles, dimensions, and live price; temperature and performance vary by phone, cable, load, and ambient conditions.</p>
 

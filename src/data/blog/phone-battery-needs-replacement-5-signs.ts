@@ -147,13 +147,13 @@ export const phone_battery_needs_replacement_5_signs: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔋 <strong>استخدم ميزة حد الشحن إن كانت مناسبة:</strong> اتبع إعدادات وتوصيات مصنع الهاتف؛ لا توجد نسبة واحدة تضمن مضاعفة العمر.</li>
     <li style="margin-bottom:12px;">🌡️ <strong>تجنب الحرارة:</strong> ابعد الهاتف عن الشمس والأسطح العازلة واتبع نطاق التشغيل والتنبيهات؛ لا تفترض درجة سطح ثابتة أو تنزع الجراب إلا وفق إرشاد المصنع.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>طابق الشاحن والكابل:</strong> راجع بروتوكول وقدرة <a href="/anker/chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> و<a href="/anker/cables" style="color:#2563eb;">الكابلات</a> للموديل الدقيق. السعر أو العلامة لا يثبتان وحدهما استقرار الجهد أو التوافق.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>طابق الشاحن والكابل:</strong> راجع بروتوكول وقدرة <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> و<a href="/anker/cables" style="color:#2563eb;">الكابلات</a> للموديل الدقيق. السعر أو العلامة لا يثبتان وحدهما استقرار الجهد أو التوافق.</li>
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        راجع صفحات <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">باور بانك انكر</a> و<a href="/anker/chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> للموديل والسعر الحالي وشروط ضمان كايرو فولت المكتوبة وتقدير التوصيل لعنوانك. هذه المنتجات لا تعالج بطارية تالفة.
+        راجع صفحات <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">باور بانك انكر</a> و<a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> للموديل والسعر الحالي وشروط ضمان كايرو فولت المكتوبة وتقدير التوصيل لعنوانك. هذه المنتجات لا تعالج بطارية تالفة.
     </p>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر GaN 30W</a> · <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">شاحن انكر 20W</a> · <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">باور بانك انكر Zolo 10000</a> · <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">باور بانك انكر Zolo 20000</a>.</p></div>
@@ -300,13 +300,13 @@ export const phone_battery_needs_replacement_5_signs: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔋 <strong>Use a charging-limit feature when appropriate:</strong> follow the phone maker's settings and guidance; no percentage guarantees twice the service life.</li>
     <li style="margin-bottom:12px;">🌡️ <strong>Avoid heat:</strong> keep the phone out of sun and off insulating surfaces, and follow the operating range and alerts; do not assume a dashboard temperature or remove a case unless maker guidance supports it.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>Match charger and cable:</strong> verify the protocol and power of <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> and <a href="/en/anker/cables" style="color:#2563eb;">cables</a> for the exact phone. Price or brand alone does not prove stable voltage or compatibility.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>Match charger and cable:</strong> verify the protocol and power of <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> and <a href="/en/anker/cables" style="color:#2563eb;">cables</a> for the exact phone. Price or brand alone does not prove stable voltage or compatibility.</li>
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Check <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker power-bank</a> and <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">charger</a> pages for exact model, live price, CairoVolt's written warranty terms, and address-specific delivery estimate. These products do not repair a failing battery.
+        Check <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker power-bank</a> and <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">charger</a> pages for exact model, live price, CairoVolt's written warranty terms, and address-specific delivery estimate. These products do not repair a failing battery.
     </p>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W Charger</a> · <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker Zolo 10000 Power Bank</a> · <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker Zolo 20000 Power Bank</a>.</p></div>

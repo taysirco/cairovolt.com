@@ -62,7 +62,7 @@ export const old_charger_new_phone_charging_speed_answer: BlogArticle = {
 
 <h2>أولاً: لغة التفاهم الكهربائية — بروتوكولات الشحن والمفاوضة (Power Negotiation)</h2>
 <p>في الماضي، كانت الشواحن غبية (Dumb Chargers)؛ تخرج تياراً ثابتاً بجهد 5 فولت وتيار 1 أمبير (5 واط) أو 2 أمبير (10 واط) دون التحدث مع الهاتف. أما اليوم، فالشواحن والهواتف الذكية تحتوي على شرائح ذكية تتحدث معاً عبر الكابل قبل بدء تدفق الطاقة، فيما يعرف برياضيات المفاوضة على الطاقة **(Power Negotiation)**.</p>
-<p>البروتوكول الأكثر انتشاراً اليوم للهواتف الحديثة هو **USB-PD (Power Delivery)** و **PPS (Programmable Power Supply)**. هذه التقنيات تتيح للهاتف أن يطلب من الشاحن رفع الجهد والتيار بدقة متناهية بناءً على نسبة شحن البطارية وحرارتها. شاحن مثل <a href="/anker/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 30W GaN</a> يتحدث هذه اللغة بطلاقة.</p>
+<p>البروتوكول الأكثر انتشاراً اليوم للهواتف الحديثة هو **USB-PD (Power Delivery)** و **PPS (Programmable Power Supply)**. هذه التقنيات تتيح للهاتف أن يطلب من الشاحن رفع الجهد والتيار بدقة متناهية بناءً على نسبة شحن البطارية وحرارتها. شاحن مثل <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 30W GaN</a> يتحدث هذه اللغة بطلاقة.</p>
 <p>عندما تقوم بتوصيل هاتف حديث يدعم الشحن السريع بقوة 25 واط بشاحن آيفون القديم بقدرة 5 واط (الذي يعمل ببروتوكول قديم جداً)، يبدأ الحوار الرقمي كالتالي: الهاتف يسأل الشاحن: "هل تدعم بروتوكول USB-PD بقوة 9 فولت وتيار 2.7 أمبير؟". الشاحن القديم لا يرد لأنه لا يفهم هذا السؤال أساساً. هنا يستنتج الهاتف فوراً أن الشاحن قديم وضعيف، فيقرر سحب الحد الأدنى الآمن للطاقة وهو **5 فولت وتيار 1 أمبير (5 واط فقط)** كحماية من احتراق الشاحن القديم. النتيجة؟ الهاتف يشحن بأمان ولكن ببطء سلحفائي.</p>
 
 <h2>ثانياً: تأثير الشحن البطيء على عمر وصحة بطارية الهاتف</h2>
@@ -83,7 +83,7 @@ export const old_charger_new_phone_charging_speed_answer: BlogArticle = {
 
 <h2>رابعاً: كفاءة الطاقة والفرق بين الشواحن القديمة والحديثة</h2>
 <p>بجانب السرعة والبروتوكولات، الشواحن الحديثة تعتمد على تقنية **GaN (جاليوم نيترايد)** بدلاً من السيليكون. هذه المادة تزيد من كفاءة الشاحن بشكل هائل وتمنع فقد الطاقة كحرارة، مما يجعلها أصغر حجماً وأكثر أماناً بكثير من الشواحن القديمة الضخمة التي كانت تسخن بشدة بمجرد توصيلها بالكهرباء.</p>
-<p>لحماية أجهزتك أثناء السفر أو الاستخدام اليومي، ننصح دائماً باقتناء كابلات معتمدة متينة مثل <a href="/joyroom/joyroom-3-in-1-data-cable" style="color:#2563eb;">كابل جويروم 3 في 1</a> لتأمين التوافق مع مختلف الأجهزة بأمان كامل وتجنب مشاكل بطء الشحن الناتجة عن الكابلات التجارية التالفة.</p>
+<p>لحماية أجهزتك أثناء السفر أو الاستخدام اليومي، ننصح دائماً باقتناء كابلات معتمدة متينة مثل <a href="/joyroom/cables/joyroom-3-in-1-data-cable" style="color:#2563eb;">كابل جويروم 3 في 1</a> لتأمين التوافق مع مختلف الأجهزة بأمان كامل وتجنب مشاكل بطء الشحن الناتجة عن الكابلات التجارية التالفة.</p>
 
 <h2>خامساً: جدول مقارنة سرعة الشحن بين الشواحن المختلفة لهاتف حديث</h2>
 <p>يوضح هذا الجدول التقريبي الوقت المستغرق لشحن هاتف ذكي حديث ببطارية 4500 مللي أمبير من 0% لـ 100% باستخدام أنواع شواحن مختلفة:</p>
@@ -179,7 +179,7 @@ export const old_charger_new_phone_charging_speed_answer: BlogArticle = {
 
 <h2>1. Power Negotiation: The Digital Handshake</h2>
 <p>In the past, wall chargers were basic power sources. They supplied a fixed 5V current at 1A (5W) or 2A (10W) without communicating with the receiving device. Today's charging systems are intelligent networks. The charger and the smartphone contain dedicated controllers that communicate via the cable before delivering higher wattages—a process known as **Power Negotiation**.</p>
-<p>Modern flagships rely on **USB-PD (Power Delivery)** and **PPS (Programmable Power Supply)** standards. These protocols allow the phone to request precise voltage and current changes based on real-time battery status and temperatures. Highly compatible chargers like the <a href="/en/anker/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W GaN</a> support these protocols out of the box.</p>
+<p>Modern flagships rely on **USB-PD (Power Delivery)** and **PPS (Programmable Power Supply)** standards. These protocols allow the phone to request precise voltage and current changes based on real-time battery status and temperatures. Highly compatible chargers like the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W GaN</a> support these protocols out of the box.</p>
 <p>When you connect a modern fast-charging phone to a legacy 5W charger, the phone asks: "Can you supply a 9V/2.7A charging profile?". The legacy adapter cannot respond. The phone detects the lack of communication, flags the source as legacy, and falls back to a safe, default profile of **5V/1A (5W)** to protect the old adapter from overloading. This keeps your phone safe but results in long charge times.</p>
 
 <h2>2. How Charging Watts Impact Battery Longevity</h2>
@@ -200,7 +200,7 @@ export const old_charger_new_phone_charging_speed_answer: BlogArticle = {
 
 <h2>4. GaN Technology vs. Old Silicon Chargers</h2>
 <p>Beyond speed and protocols, modern wall adapters use **GaN (Gallium Nitride)** semiconductors instead of traditional silicon. This technology significantly improves power conversion efficiency, reducing heat waste and allowing manufacturers to build chargers that are half the size of older, hot-running adapters.</p>
-<p>To protect your devices during travel or daily use, always use durable cables like the <a href="/en/joyroom/joyroom-3-in-1-data-cable" style="color:#2563eb;font-weight:600;">Joyroom 3-in-1 cable</a> to secure compatibility across various devices and prevent slow charging issues caused by damaged generic cords.</p>
+<p>To protect your devices during travel or daily use, always use durable cables like the <a href="/en/joyroom/cables/joyroom-3-in-1-data-cable" style="color:#2563eb;font-weight:600;">Joyroom 3-in-1 cable</a> to secure compatibility across various devices and prevent slow charging issues caused by damaged generic cords.</p>
 
 <h2>5. Charging Speed Comparison Table</h2>
 <p>This table compares the estimated times to charge a modern 4500mAh smartphone battery from 0% to 100% using different chargers:</p>

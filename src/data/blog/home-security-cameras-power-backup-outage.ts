@@ -35,7 +35,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> لتشغيل 4 كاميرات + DVR لمدة 4 ساعات: محتاج <strong>180Wh</strong> على الأقل. <a href="/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> (256Wh — 5,500ج) بيشغّلهم 5+ ساعات. للحل الأرخص: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (74Wh — 1,550ج) + محول DC 12V بيشغّل كاميرا WiFi واحدة 8-10 ساعات.
+        <strong>💡 الإجابة السريعة:</strong> لتشغيل 4 كاميرات + DVR لمدة 4 ساعات: محتاج <strong>180Wh</strong> على الأقل. <a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> (256Wh — 5,500ج) بيشغّلهم 5+ ساعات. للحل الأرخص: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (74Wh — 1,550ج) + محول DC 12V بيشغّل كاميرا WiFi واحدة 8-10 ساعات.
     </p>
 </div>
 
@@ -124,7 +124,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
 </div>
 
 <h3>الحل 3: محطة طاقة متنقلة — الأفضل والأذكى (5,500ج)</h3>
-<p><a href="/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> — ده الحل اللي بنرشحه لأي حد جاد عن حماية نظام المراقبة بتاعه. ليه؟</p>
+<p><a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> — ده الحل اللي بنرشحه لأي حد جاد عن حماية نظام المراقبة بتاعه. ليه؟</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔋 <strong>سعة 256Wh (ليثيوم فوسفات حديد — LiFePO4):</strong> بتشغل 4 كاميرات + DVR (52W) لمدة <strong>4.5-5 ساعات</strong>. لو قللت الكاميرات لـ 2 بس (الأهم)، بتوصل 7-8 ساعات.</li>
@@ -200,7 +200,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ احمِ كاميراتك من كايرو فولت — بالضمان المكتوب على صفحة المنتج</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        تصفح <a href="/anker/portable-power-stations" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a>، ثم راجع المواصفات والضمان وخيارات الشحن المتاحة لعنوانك. الدعم عبر واتساب متاح خلال ساعات العمل المعلنة للمساعدة في خطوات الحساب، وليس ضماناً لسعة أو زمن تشغيل.
+        تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a>، ثم راجع المواصفات والضمان وخيارات الشحن المتاحة لعنوانك. الدعم عبر واتساب متاح خلال ساعات العمل المعلنة للمساعدة في خطوات الحساب، وليس ضماناً لسعة أو زمن تشغيل.
     </p>
 </div>`,
             faq: [
@@ -235,7 +235,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> To run 4 cameras + DVR for 4 hours: you need <strong>180Wh</strong> minimum. The <a href="/en/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> (256Wh — 5,500 EGP) runs them for 5+ hours. For a budget option: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (74Wh — 1,550 EGP) + DC 12V converter runs a single WiFi camera for 8-10 hours.
+        <strong>💡 Quick Answer:</strong> To run 4 cameras + DVR for 4 hours: you need <strong>180Wh</strong> minimum. The <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> (256Wh — 5,500 EGP) runs them for 5+ hours. For a budget option: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (74Wh — 1,550 EGP) + DC 12V converter runs a single WiFi camera for 8-10 hours.
     </p>
 </div>
 
@@ -322,7 +322,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
 </div>
 
 <h3>Solution 3: Portable Power Station — Best & Smartest (5,500 EGP)</h3>
-<p>The <a href="/en/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> — this is the solution we recommend for anyone serious about protecting their surveillance system. Here's why:</p>
+<p>The <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> — this is the solution we recommend for anyone serious about protecting their surveillance system. Here's why:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔋 <strong>256Wh Capacity (LiFePO4 Chemistry):</strong> Runs 4 cameras + DVR (52W) for <strong>4.5-5 hours</strong>. If you reduce to 2 cameras (the most critical ones), it reaches 7-8 hours.</li>
@@ -398,7 +398,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt — With written store warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Browse <a href="/en/anker/portable-power-stations" style="color:#166534;font-weight:600;">Portable Power Stations</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a>, then review specifications, warranty, and delivery options for your address. WhatsApp assistance is available during published business hours for calculation steps, not as a runtime or capacity guarantee.
+        Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Portable Power Stations</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a>, then review specifications, warranty, and delivery options for your address. WhatsApp assistance is available during published business hours for calculation steps, not as a runtime or capacity guarantee.
     </p>
 </div>`,
             faq: [

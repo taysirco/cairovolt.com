@@ -195,7 +195,7 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 <li>لو الشحن بطيء فجأة — جرّب نظّف الجزء الخلفي من الساعة والقرص المغناطيسي بقطعة قماش ناعمة جافة</li>
 </ul>
 
-<p>كمان نصيحة مهمة: لو عندك شاحن جداري USB-C بيدعم USB Power Delivery (زي <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W GaN</a> أو <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20W</a>) — تقدر تستخدمه لشحن الساعة والايفون مع بعض. الشاحن بيوزّع الطاقة أوتوماتيكياً حسب احتياج كل جهاز — فمش محتاج شاحن منفصل لكل جهاز. وده بيوفّر مكان في البريزة وفي الشنطة لو مسافر. كمان الشواحن الحديثة بتكنولوجيا GaN بتكون أصغر حجماً وأقل حرارة من الشواحن التقليدية.</p>
+<p>كمان نصيحة مهمة: لو عندك شاحن جداري USB-C بيدعم USB Power Delivery (زي <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W GaN</a> أو <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20W</a>) — تقدر تستخدمه لشحن الساعة والايفون مع بعض. الشاحن بيوزّع الطاقة أوتوماتيكياً حسب احتياج كل جهاز — فمش محتاج شاحن منفصل لكل جهاز. وده بيوفّر مكان في البريزة وفي الشنطة لو مسافر. كمان الشواحن الحديثة بتكنولوجيا GaN بتكون أصغر حجماً وأقل حرارة من الشواحن التقليدية.</p>
 
 <p>ولو بتسافر كتير — خد Power Bank زي <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">انكر PowerCore 10000</a> معاك عشان تشحن الساعة في الطيارة أو الفندق بدون ما تدوّر على بريزة. الساعة بتستهلك طاقة قليلة جداً (حوالي 5W) فمش هتأثر على شحن الباور بانك خالص.</p>
 
@@ -254,7 +254,7 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 
 <p>Apple بتقول إن البطارية مصممة تحتفظ بـ 80% من سعتها بعد 1,000 دورة شحن كاملة — يعني تقريباً 3 سنين من الاستخدام اليومي. باستخدام الشاحن الصح والعادات الصحية — ممكن توصّلها لـ 4 سنين بسهولة.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن مناسبة لـ Apple Watch: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W GaN</a> · <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20W</a> · <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">انكر PowerCore 10000</a>.</p></div>`,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن مناسبة لـ Apple Watch: <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W GaN</a> · <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20W</a> · <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">انكر PowerCore 10000</a>.</p></div>`,
         },
         en: {
             title: 'Apple Watch Magnetic Charger Guide — Choosing the Right Length and Real Charging Speed',
@@ -461,7 +461,7 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 
 <p>Apple states the battery is designed to retain 80% of its original capacity after 1,000 complete charge cycles — approximately 3 years of daily use. With the right charger and healthy charging habits, you can easily extend this to 4 years or more.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Chargers compatible with Apple Watch: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> · <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/en/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">Anker PowerCore 10000</a>.</p></div>`,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Chargers compatible with Apple Watch: <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> · <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/en/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">Anker PowerCore 10000</a>.</p></div>`,
         },
     },
 };

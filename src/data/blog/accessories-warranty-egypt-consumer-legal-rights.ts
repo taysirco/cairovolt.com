@@ -58,7 +58,7 @@ export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
     <li>🚨 <strong>من يقدم الضمان؟</strong> حدّد البائع أو المستورد أو مقدم الخدمة المذكور كتابةً، والمدة وبداية احتسابها والتغطية والعلاج.</li>
     <li>📜 <strong>ما العلاقة بين سياسة المتجر والحقوق النظامية؟</strong> لا تعتمد على لافتة مختصرة؛ احتفظ بالنص الكامل وراجع الإرشاد الرسمي الساري عند النزاع.</li>
 </ul>
-<p>عند مقارنة <a href="/anker/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30W</a> أو <a href="/joyroom/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">باور بانك جوي روم 10000</a>، راجع هوية البائع والفاتورة وسياسة الضمان المكتوبة؛ لا يضمن اسم العلامة أو المتجر نتيجة مطالبة بعينها.</p>
+<p>عند مقارنة <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30W</a> أو <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">باور بانك جوي روم 10000</a>، راجع هوية البائع والفاتورة وسياسة الضمان المكتوبة؛ لا يضمن اسم العلامة أو المتجر نتيجة مطالبة بعينها.</p>
 
 <h2>ثانياً: متى يسري الضمان ومتى يسقط؟ الفروق الفنية الدقيقة</h2>
 <p>قد تفرّق السياسات والفحوص بين **عيب الصناعة** و**التلف المادي أو سوء الاستخدام**. الأمثلة التالية مؤشرات للمناقشة وليست حكماً نهائياً:</p>
@@ -81,7 +81,7 @@ export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
 <p>لحماية أجهزتك الاستثمارية الثمينة:</p>
 <ol style="line-height:2;">
     <li>🔌 طابق رقم الموديل والقدرة والبروتوكول مع جهازك، ولا تعتبر العلبة أو الباركود أو ملصقاً تسويقياً دليلاً منفرداً.</li>
-    <li>⚡ راجع مواصفات <a href="/anker/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a> وقدرته، واستخدم كابلاً سليماً ومتوافقاً من بائع واضح؛ لا يوجد ملحق يضمن الأمان التام.</li>
+    <li>⚡ راجع مواصفات <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a> وقدرته، واستخدم كابلاً سليماً ومتوافقاً من بائع واضح؛ لا يوجد ملحق يضمن الأمان التام.</li>
 </ol>
 <p>من جهة السلامة، الشواحن مجهولة المصدر التي تُباع بلا علامة تجارية ولا بيانات فنية قد تفتقر إلى دوائر الحماية من ارتفاع الجهد والتيار والحرارة الزائدة التي تصفها الشركات المعروفة في مواصفاتها المنشورة. لذلك يظل الشراء من علامة واضحة وبائع يمكن الرجوع إليه خطوة أمان أساسية قبل أي نقاش عن الضمان.</p>
 
@@ -197,7 +197,7 @@ export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
     <li>🚨 <strong>Who provides the warranty?</strong> Identify the written seller or service provider, term, start date, coverage, and available remedy.</li>
     <li>📜 <strong>How does store policy relate to statutory rights?</strong> Do not rely on a short sign; keep the full terms and check current official guidance if a dispute occurs.</li>
 </ul>
-<p>When comparing an <a href="/en/anker/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W charger</a> or <a href="/en/joyroom/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10,000mAh power bank</a>, review seller identity, invoice, and written warranty terms. Brand or store name does not guarantee a particular claim outcome.</p>
+<p>When comparing an <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W charger</a> or <a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10,000mAh power bank</a>, review seller identity, invoice, and written warranty terms. Brand or store name does not guarantee a particular claim outcome.</p>
 
 <h2>2. Manufacturing Defects vs. User Damage: Technical Differences</h2>
 <p>Policies and assessments may distinguish a **manufacturing defect** from **physical damage or misuse**. The examples below are discussion points, not final determinations:</p>
@@ -220,7 +220,7 @@ export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
 <p>To safeguard your devices:</p>
 <ol style="line-height:2;">
     <li>🔌 Match the model number, output, and protocol with your device; packaging, a barcode, or a marketing seal is not standalone proof.</li>
-    <li>⚡ Check the rating of an <a href="/en/anker/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> and use an intact compatible cable from an identifiable seller. No accessory guarantees complete safety.</li>
+    <li>⚡ Check the rating of an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> and use an intact compatible cable from an identifiable seller. No accessory guarantees complete safety.</li>
 </ol>
 <p>On the safety side, unbranded chargers sold without markings or technical data may lack the over-voltage, over-current, and thermal protections that established brands describe in their published specifications. Buying from a clear brand and a traceable seller therefore remains a basic safety step before any warranty discussion.</p>
 

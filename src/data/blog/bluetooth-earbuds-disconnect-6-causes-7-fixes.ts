@@ -223,7 +223,7 @@ export const bluetooth_earbuds_disconnect_6_causes_7_fixes: BlogArticle = {
         <td style="padding:12px;border:1px solid #d1d5db;">اقتصادية</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P30i</a></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ساوندكور P30i</a></td>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>5.3</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ لا</td>
         <td style="padding:12px;border:1px solid #d1d5db;">اقتصادية</td>
@@ -471,7 +471,7 @@ export const bluetooth_earbuds_disconnect_6_causes_7_fixes: BlogArticle = {
         <td style="padding:12px;border:1px solid #d1d5db;">Budget</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P30i</a></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore P30i</a></td>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>5.3</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ No</td>
         <td style="padding:12px;border:1px solid #d1d5db;">Budget</td>

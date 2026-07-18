@@ -201,7 +201,7 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">Soundcore Motion+ الأصلي على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        راجع السعر الحالي والتوفر وخيارات الشحن وشروط ضمان كايرو فولت قبل إتمام الطلب. <a href="/soundcore/anker-soundcore-motion-plus" style="color:#166534;font-weight:600;text-decoration:underline;">عرض صفحة Motion+</a>
+        راجع السعر الحالي والتوفر وخيارات الشحن وشروط ضمان كايرو فولت قبل إتمام الطلب. <a href="/soundcore/speakers/anker-soundcore-motion-plus" style="color:#166534;font-weight:600;text-decoration:underline;">عرض صفحة Motion+</a>
     </p>
 </div>` ,
             faq: [
@@ -397,7 +397,7 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">Genuine Soundcore Motion+ on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Check current price, availability, shipping options and CairoVolt's written warranty terms before ordering. <a href="/en/soundcore/anker-soundcore-motion-plus" style="color:#166534;font-weight:600;text-decoration:underline;">View the Motion+ product page</a>
+        Check current price, availability, shipping options and CairoVolt's written warranty terms before ordering. <a href="/en/soundcore/speakers/anker-soundcore-motion-plus" style="color:#166534;font-weight:600;text-decoration:underline;">View the Motion+ product page</a>
     </p>
 </div>`,
             faq: [

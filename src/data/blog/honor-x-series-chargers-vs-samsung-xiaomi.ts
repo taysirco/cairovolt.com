@@ -241,7 +241,7 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
 
 <h3>Honor X8b — الخيار الأمثل</h3>
 
-<p><a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W A2741</a> بـ 500 جنيه — أسرع من الشاحن المرفق فعلياً (30W vs 22.5W). GaN II يعني حجم أصغر وحرارة أقل. PD 3.0 كامل. <strong>أفضل استثمار لموبايل Honor X8b.</strong></p>
+<p><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W A2741</a> بـ 500 جنيه — أسرع من الشاحن المرفق فعلياً (30W vs 22.5W). GaN II يعني حجم أصغر وحرارة أقل. PD 3.0 كامل. <strong>أفضل استثمار لموبايل Honor X8b.</strong></p>
 
 <p>البديل الاقتصادي: <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> بـ 350 جنيه — نفس السرعة (30W PD) بسعر أقل. الفرق: حجم أكبر شوية وحرارة أعلى بـ 3°م.</p>
 
@@ -521,7 +521,7 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
 
 <h3>Honor X8b — The Optimal Choice</h3>
 
-<p><a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W A2741</a> at 500 EGP — actually faster than the bundled charger (30W vs 22.5W). GaN II means smaller size and lower heat. Full PD 3.0. <strong>The best investment for Honor X8b.</strong></p>
+<p><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W A2741</a> at 500 EGP — actually faster than the bundled charger (30W vs 22.5W). GaN II means smaller size and lower heat. Full PD 3.0. <strong>The best investment for Honor X8b.</strong></p>
 
 <p>Budget alternative: <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> at 350 EGP — same speed (30W PD) at a lower price. The difference: slightly larger and 3°C warmer.</p>
 

@@ -94,7 +94,7 @@ export const wireless_charging_slower_than_wired_qi2_solution: BlogArticle = {
 <p>عند الشراء بمصر، تجنب تماماً الشواحن اللاسلكية التجارية الرخيصة التي تباع في الأسواق الشعبية؛ لأنها تفتقر لدوائر الحماية والتحكم الحراري. ننصحك بشدة بالاختيارات التالية المعتمدة:</p>
 <ul>
     <li>🧊 <strong>انكر 3 في 1 Cube with MagSafe:</strong> قارن دعم الأجهزة الثلاثة والقدرة عند الاستخدام المتزامن ومصدر الطاقة المطلوب والسعر وشروط الضمان المنشورة للموديل.</li>
-    <li>🔋 <strong>شواحن جويروم المغناطيسية:</strong> مثل <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">باور بانك جويروم المغناطيسي اللاسلكي</a> الذي يوفر شحناً لاسلكياً ذكياً بلمسة واحدة وسهولة نقل عالية، ومحطة شحن جويروم اللاسلكية الممتازة <a href="/joyroom/wireless-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#2563eb;font-weight:600;">Joyroom 3-in-1 Wireless Station</a> لتنظيم مكتبك بكفاءة وأناقة كاملة.</li>
+    <li>🔋 <strong>شواحن جويروم المغناطيسية:</strong> مثل <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">باور بانك جويروم المغناطيسي اللاسلكي</a> الذي يوفر شحناً لاسلكياً ذكياً بلمسة واحدة وسهولة نقل عالية، ومحطة شحن جويروم اللاسلكية الممتازة <a href="/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#2563eb;font-weight:600;">Joyroom 3-in-1 Wireless Station</a> لتنظيم مكتبك بكفاءة وأناقة كاملة.</li>
     <li>🚗 <strong>شاحن انكر A2216 المغناطيسي للسيارة:</strong> راجع <a href="/anker/car-chargers/anker-a2216-magnetic-wireless-car-charger" style="color:#2563eb;font-weight:600;">شاحن سيارة انكر المغناطيسي اللاسلكي</a> من حيث التوافق وقوة التثبيت والقدرة والسعر الحالي؛ لا تفترض ثباتاً محكماً لكل هاتف أو طريق.</li>
 </ul>
 
@@ -173,7 +173,7 @@ export const wireless_charging_slower_than_wired_qi2_solution: BlogArticle = {
 <p>To protect your device, avoid cheap, unbranded wireless charging pads. We recommend certified options from reputable brands:</p>
 <ul>
     <li>🧊 <strong>Anker 3-in-1 Cube with MagSafe:</strong> Compare the supported devices, simultaneous-output table, required power source, live price, and written warranty terms for the exact model.</li>
-    <li>🔋 <strong>Joyroom Magnetic Chargers:</strong> Like the <a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom Magnetic Wireless Power Bank</a>, or the desktop-friendly <a href="/en/joyroom/wireless-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#2563eb;font-weight:600;">Joyroom 3-in-1 Wireless Charging Station</a> to organize your workspace efficiently.</li>
+    <li>🔋 <strong>Joyroom Magnetic Chargers:</strong> Like the <a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom Magnetic Wireless Power Bank</a>, or the desktop-friendly <a href="/en/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#2563eb;font-weight:600;">Joyroom 3-in-1 Wireless Charging Station</a> to organize your workspace efficiently.</li>
     <li>🚗 <strong>Anker A2216 Magnetic Car Charger:</strong> Review the <a href="/en/anker/car-chargers/anker-a2216-magnetic-wireless-car-charger" style="color:#2563eb;font-weight:600;">Anker Magnetic Wireless Car Charger</a> by compatibility, mount strength, charging power, and live price; do not assume a firm hold for every phone, case, or road.</li>
 </ul>
 

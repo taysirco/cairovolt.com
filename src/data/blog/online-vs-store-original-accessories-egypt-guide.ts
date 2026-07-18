@@ -58,7 +58,7 @@ export const online_vs_store_original_accessories_egypt_guide: BlogArticle = {
     <li>💰 <strong>الأسعار التنافسية والعروض:</strong> المتاجر الإلكترونية الرسمية مش بتدفع إيجارات محلات ضخمة في المولات ولا أجور بياعين كتيرة، وعشان كده بتقدر توفر المنتجات بأسعار أرخص من المحلات التقليدية بنسبة بتوصل لـ 15%، ده غير كود الخصم والمواسم الترويجية.</li>
     <li>📊 <strong>تقييمات المستخدمين الحقيقية:</strong> قبل ما تدوس "شراء"، بتقدر تقرأ مراجعات وتجارب الناس الفعالية اللي اشتروا نفس الملحق قبلك، وتعرف هل الكابل متين فعلاً وهل الشاحن بيسخن ولا لأ.</li>
 </ul>
-<p>التسوق أونلاين لمنتجات معتمدة مثل شاحن <a href="/anker/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 30W</a> أو باوربانك <a href="/joyroom/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10000</a> بيوفرلك الوقت والمجهود والفلوس.</p>
+<p>التسوق أونلاين لمنتجات معتمدة مثل شاحن <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 30W</a> أو باوربانك <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10000</a> بيوفرلك الوقت والمجهود والفلوس.</p>
 
 <h2>ثانياً: الشراء من المحلات التقليدية — متعة الفحص الفوري وتجنب المفاجآت</h2>
 <p>على الجانب الآخر، لسه المحلات التقليدية (محلات التجزئة بشوارع المحافظات) ليها زبونها اللي بيفضلها. الميزة الأكبر هنا هي **الفورية والتجربة العملية**:</p>
@@ -70,7 +70,7 @@ export const online_vs_store_original_accessories_egypt_guide: BlogArticle = {
 <p>لحماية موبايلك:</p>
 <ol style="line-height:2;">
     <li>🔌 اشترِ الملحقات فقط من التوكيلات الرسمية أونلاين أو من محلات مرخصة ومعتمدة تعرض شهادات ضمان الوكيل المحلي بمصر.</li>
-    <li>⚡ كابل الشحن لازم يكون أصلي ومتين مثل <a href="/anker/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر الأصلي</a> لتنظيم مرور التيار وحماية الهاتف من السخونة الزائدة.</li>
+    <li>⚡ كابل الشحن لازم يكون أصلي ومتين مثل <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر الأصلي</a> لتنظيم مرور التيار وحماية الهاتف من السخونة الزائدة.</li>
 </ol>
 
 <h2>رابعاً: جدول المقارنة الفنية الشاملة بين الشراء أونلاين والمحل التجاري</h2>
@@ -170,7 +170,7 @@ export const online_vs_store_original_accessories_egypt_guide: BlogArticle = {
     <li>💰 <strong>Competitive Pricing and Promo Codes:</strong> Official online stores bypass expensive retail property leases and sales staff salaries, allowing them to offer original gear at prices up to 15% lower than traditional street shops, alongside frequent discount codes.</li>
     <li>📊 <strong>Verified User Feedback:</strong> Before clicking buy, you can read real-world reviews from verified buyers to check if a cable is durable, how warm a charger gets under load, or if a power bank matches its advertised conversion rates.</li>
 </ul>
-<p>Buying certified items like the <a href="/en/anker/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W charger</a> or the <a href="/en/joyroom/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10,000mAh power bank</a> online saves time, effort, and money.</p>
+<p>Buying certified items like the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W charger</a> or the <a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10,000mAh power bank</a> online saves time, effort, and money.</p>
 
 <h2>2. Physical Stores: Immediate Inspection and Zero Waiting Times</h2>
 <p>On the other hand, traditional street retailers still appeal to consumers who value immediate gratification and hands-on validation. The primary advantage of physical retail is the **hands-on experience**:</p>
@@ -182,7 +182,7 @@ export const online_vs_store_original_accessories_egypt_guide: BlogArticle = {
 <p>To safeguard your device:</p>
 <ol style="line-height:2;">
     <li>🔌 Strictly purchase power accessories from official brand stores or certified dealers that offer local distributor warranties.</li>
-    <li>⚡ Use durable, certified cables like the <a href="/en/anker/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> to regulate current and prevent thermal stress inside the phone.</li>
+    <li>⚡ Use durable, certified cables like the <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> to regulate current and prevent thermal stress inside the phone.</li>
 </ol>
 
 <h2>4. Online vs. Physical Retail Comparison</h2>

@@ -65,7 +65,7 @@ export const samsung_charger_for_iphone_cross_brand_compatibility: BlogArticle =
 <p>لو الموبايل السامسونج فصل شحن تماماً ومبقاش يفتح ولا يقبل الشحن، فالمشكلة دي غالباً بتحصل نتيجة استخدام شواحن تجارية مقلدة (سواء مقلدة لسامسونج أو لآبل). الشواحن دي بتفتقد لمنظمات الفولت والحماية ضد الارتفاع المفاجئ للتيار (Surge Protection)، وممكن تتسبب في حرق شريحة الـ PMIC بالهاتف.</p>
 <p>لتجنب المشكلة دي وحلها:</p>
 <ol style="line-height:2;">
-    <li>🔌 استخدم دايماً شاحناً أصلياً معتمداً من براند موثوق مثل أنكر أو جويروم أو الشواحن الرسمية للشركات. شاحن مثل <a href="/anker/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W</a> بيقدملك الحماية الكاملة.</li>
+    <li>🔌 استخدم دايماً شاحناً أصلياً معتمداً من براند موثوق مثل أنكر أو جويروم أو الشواحن الرسمية للشركات. شاحن مثل <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W</a> بيقدملك الحماية الكاملة.</li>
     <li>⏳ لو الهاتف ميت تماماً، سيبه على الشاحن الأصلي لمدة ساعة كاملة بدون محاولة فتحه لرفع جهد البطارية تدريجياً للحد الآمن.</li>
 </ol>
 
@@ -76,7 +76,7 @@ export const samsung_charger_for_iphone_cross_brand_compatibility: BlogArticle =
     <li>✅ دعم كامل لبروتوكول **PPS** لتفعيل الشحن السريع جداً 25W و 45W لأجهزة سامسونج.</li>
     <li>✅ كفاءة طاقة عالية وحجم صغير جداً لا يسخن أثناء الشحن المشترك.</li>
 </ul>
-<p>عند شحن <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i</a> أو هاتف، تحقق من مواصفات <a href="/anker/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a> والشاحن. الملحق المتوافق يقلل المخاطر لكنه لا يضمن منع كل تلف حراري.</p>
+<p>عند شحن <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i</a> أو هاتف، تحقق من مواصفات <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a> والشاحن. الملحق المتوافق يقلل المخاطر لكنه لا يضمن منع كل تلف حراري.</p>
 
 <h2>خامساً: جدول توافق الشواحن والسرعات الفعلية بين آبل وسامسونج</h2>
 <p>يوضح هذا الجدول التوافقية وسرعة الشحن الفعلية عند خلط الشواحن والهواتف من الماركتين:</p>
@@ -181,7 +181,7 @@ export const samsung_charger_for_iphone_cross_brand_compatibility: BlogArticle =
 <p>If a Samsung phone drains to a complete 0% state and refuses to turn on or show a charging icon, the issue is often caused by using uncertified, low-grade chargers. Worn-out or counterfeit blocks lack voltage regulation and can damage the phone's PMIC during power spikes.</p>
 <p>To resolve and prevent this issue:</p>
 <ol style="line-height:2;">
-    <li>🔌 Always use original adapters from certified brands like Anker or Joyroom. The <a href="/en/anker/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W</a> charger provides comprehensive voltage protection.</li>
+    <li>🔌 Always use original adapters from certified brands like Anker or Joyroom. The <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W</a> charger provides comprehensive voltage protection.</li>
     <li>⏳ Leave the dead device connected to the original charger for at least one hour without attempting to turn it on, allowing the battery voltage to recover to safe boot levels.</li>
 </ol>
 
@@ -192,7 +192,7 @@ export const samsung_charger_for_iphone_cross_brand_compatibility: BlogArticle =
     <li>✅ Full **PPS** support to enable Super Fast Charging for Samsung devices.</li>
     <li>✅ High energy efficiency in a compact size that does not run hot during multi-device charging.</li>
 </ul>
-<p>Pairing your devices with certified cables like the <a href="/en/anker/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> or charging accessories like the <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i earbuds</a> ensures stable power transmission and protects your battery health over time.</p>
+<p>Pairing your devices with certified cables like the <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> or charging accessories like the <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i earbuds</a> ensures stable power transmission and protects your battery health over time.</p>
 
 <h2>5. Cross-Brand Charger Compatibility Reference</h2>
 <p>This table summarizes the actual charging outputs and safety outcomes when mixing chargers and phones:</p>

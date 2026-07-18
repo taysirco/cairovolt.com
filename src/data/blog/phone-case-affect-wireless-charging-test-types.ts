@@ -92,7 +92,7 @@ export const phone_case_affect_wireless_charging_test_types: BlogArticle = {
 
 <h3>دور المغناطيسات في تثبيت الهاتف في شواحن السيارات والاهتزازات</h3>
 <p>الاهتزاز والمطبات قد يحركان الهاتف بعيداً عن مركز الشاحن، فينقطع الشحن أو يستمر بمحاذاة سيئة ترفع الحرارة وتهدر الطاقة. عند اختيار حامل مغناطيسي، تحقق من توافق الجراب والهاتف ومن قوة التثبيت التي تعلنها الشركة المصنعة في مواصفات المنتج، وثبّت الحامل في موضع لا يحجب الرؤية أو أدوات التحكم.</p>
-<p>كمثالين للمقارنة، راجع توافق وقوة تثبيت <a href="/joyroom/wireless-chargers/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">شاحن السيارة اللاسلكي جويروم ZS290</a>، وقارن قدرة ومعيار <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">باور بانك جويروم المغناطيسي 10000</a> مع مواصفات هاتفك.</p>
+<p>كمثالين للمقارنة، راجع توافق وقوة تثبيت <a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">شاحن السيارة اللاسلكي جويروم ZS290</a>، وقارن قدرة ومعيار <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">باور بانك جويروم المغناطيسي 10000</a> مع مواصفات هاتفك.</p>
 
 <h2>خامساً: الخلاصة ونصيحة كايرو فولت</h2>
 <p>قد يؤثر السمك والمعدن والمحاذاة في الشحن اللاسلكي. اختر جراباً يعلن توافقه مع هاتفك ومعيار الشحن، وأزل البطاقات أو الإضافات المعدنية، وتحقق من ثبات الشحن وحرارته في أول استخدام.</p>
@@ -164,7 +164,7 @@ export const phone_case_affect_wireless_charging_test_types: BlogArticle = {
 
 <h3>The Role of Neodymium Magnets in Car Mount Stability and Vibration Control</h3>
 <p>Road vibration and speed bumps can move a phone away from the center of a car charger, either interrupting charging or leaving it running with poor alignment that wastes power as heat. Check the manufacturer\'s stated holding force in the product specifications and phone/case compatibility, and mount the holder where it does not obstruct visibility or controls.</p>
-<p>For examples, compare the published compatibility and holding specifications of the <a href="/en/joyroom/wireless-chargers/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290 Wireless Car Charger Mount</a> and the charging specifications of the <a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom Magnetic Power Bank 10000</a> with your phone.</p>
+<p>For examples, compare the published compatibility and holding specifications of the <a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290 Wireless Car Charger Mount</a> and the charging specifications of the <a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom Magnetic Power Bank 10000</a> with your phone.</p>
 
 <h2>5. Verdict and Final Advice</h2>
 <p>Case thickness, metal inserts, and alignment can affect wireless charging. Choose a case that states compatibility with your phone and charging standard, remove cards and unapproved metal accessories, and check charging stability and temperature during initial use.</p>

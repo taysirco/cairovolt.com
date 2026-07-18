@@ -153,7 +153,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 <p>قد تكون محطة الطاقة خياراً لبعض الموديلات إذا طابق خرج AC أو DC متطلبات الجهاز وسمحت الشركة باستخدامه. وجود منفذ AC لا يثبت التوافق أو زمن التشغيل؛ راجع ورقة البيانات والقدرة المستمرة وشكل الموجة والتأريض وسلوك الإيقاف التلقائي.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>السعة:</strong> <a href="/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> مثلاً سعته الاسمية 256Wh حسب مواصفات انكر — بجهاز بيسحب 40W وبكفاءة 85% المفترضة في المثال السابق يطلع تقدير تخطيطي حوالي 5 ساعات بدون مرطب. اعمل نفس الحساب باستهلاك موديلك أنت، فالناتج بيتغير مع الإعدادات.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>السعة:</strong> <a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> مثلاً سعته الاسمية 256Wh حسب مواصفات انكر — بجهاز بيسحب 40W وبكفاءة 85% المفترضة في المثال السابق يطلع تقدير تخطيطي حوالي 5 ساعات بدون مرطب. اعمل نفس الحساب باستهلاك موديلك أنت، فالناتج بيتغير مع الإعدادات.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>الموجة:</strong> ورقة بيانات الموديل نفسه هي المرجع لشكل الخرج ورقم THD — محطات الطاقة المحترمة بتنشر القيمتين صراحةً في المواصفات.</li>
     <li style="margin-bottom:12px;">🔋 <strong>الشحن:</strong> الشركات بتنشر أزمنة شحن تقريبية من البريزة أو الألواح الشمسية أو ولاعة العربية؛ الزمن الفعلي يختلف مع المدخل والحرارة والمصدر وحالة البطارية.</li>
     <li style="margin-bottom:12px;">📱 <strong>الأحمال الأخرى:</strong> نفس المحطة تقدر تشحن الموبايل والراوتر وقت الانقطاع، لكن كل جهاز إضافي يقلل زمن CPAP؛ أعطِ الجهاز العلاجي الأولوية وفق خطة الطبيب.</li>
@@ -188,7 +188,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        صفحات محطات <a href="/anker/portable-power-stations" style="color:#2563eb;font-weight:600;">انكر</a> تعرض المواصفات والسعر والمخزون وضمان المتجر، والسلة تعرض الشحن لعنوانك. <strong>كايرو فولت لا يحدد ملاءمة طبية:</strong> اعتمد أولاً على طبيبك ومقدم الجهاز والشركة المصنّعة، ثم استخدم بيانات الاستهلاك لحساب نطاق تقريبي.
+        صفحات محطات <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">انكر</a> تعرض المواصفات والسعر والمخزون وضمان المتجر، والسلة تعرض الشحن لعنوانك. <strong>كايرو فولت لا يحدد ملاءمة طبية:</strong> اعتمد أولاً على طبيبك ومقدم الجهاز والشركة المصنّعة، ثم استخدم بيانات الاستهلاك لحساب نطاق تقريبي.
     </p>
 </div>
 
@@ -350,7 +350,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 <p>A portable power station may be an option for some models if its AC or DC output meets device requirements and the manufacturer permits it. An AC socket does not establish compatibility or runtime; check the datasheet, continuous output, waveform, grounding, and auto-shutoff behavior.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>Capacity:</strong> The <a href="/en/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a>, for example, is rated at 256Wh in Anker's specifications — with a 40W device and the 85% efficiency assumed in the worked example above, that yields a planning estimate of roughly 5 hours without a humidifier. Run the same calculation with your own device's consumption; the result shifts with settings.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>Capacity:</strong> The <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a>, for example, is rated at 256Wh in Anker's specifications — with a 40W device and the 85% efficiency assumed in the worked example above, that yields a planning estimate of roughly 5 hours without a humidifier. Run the same calculation with your own device's consumption; the result shifts with settings.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>Waveform:</strong> the exact model's datasheet is the reference for output waveform and THD — reputable power stations publish both figures explicitly in their specifications.</li>
     <li style="margin-bottom:12px;">🔋 <strong>Charging:</strong> manufacturers publish approximate recharge times from wall outlet, solar panels, and car input; real-world time varies with input, temperature, source, and battery condition.</li>
     <li style="margin-bottom:12px;">📱 <strong>Other loads:</strong> the same station can charge a phone and router during an outage, but every added device reduces CPAP runtime; prioritize the treatment device under your clinician's plan.</li>
@@ -385,7 +385,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/portable-power-stations" style="color:#2563eb;font-weight:600;">Anker power-station</a> pages show specifications, current price, stock, and store-warranty terms; the cart shows shipping for your address. <strong>Medical suitability is determined with your clinician, equipment provider, and manufacturer:</strong> then use device consumption to estimate a planning range.
+        <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker power-station</a> pages show specifications, current price, stock, and store-warranty terms; the cart shows shipping for your address. <strong>Medical suitability is determined with your clinician, equipment provider, and manufacturer:</strong> then use device consumption to estimate a planning range.
     </p>
 </div>
 

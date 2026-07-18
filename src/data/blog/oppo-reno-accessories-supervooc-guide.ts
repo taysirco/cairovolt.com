@@ -86,7 +86,7 @@ export const oppo_reno_accessories_supervooc_guide: BlogArticle = {
 <h3>سماعات بلوتوث متوافقة وصوت نقي</h3>
 <p>تتميز هواتف Oppo Reno بدعم بروتوكولات البث الصوتي اللاسلكي عالية الدقة مثل AAC و LDAC. لتجربة استماع راقية ومكالمات واضحة:</p>
 <ul>
-    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> ننصح باقتناء <a href="/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a>، والتي تتكامل بسلاسة مع البلوتوث الخاص بهواتف أوبو وتوفر عزلاً ممتازاً للضوضاء وجودة صوت نقية في المكالمات والموسيقى.</li>
+    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> ننصح باقتناء <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a>، والتي تتكامل بسلاسة مع البلوتوث الخاص بهواتف أوبو وتوفر عزلاً ممتازاً للضوضاء وجودة صوت نقية في المكالمات والموسيقى.</li>
 </ul>
 
 <h2>رابعاً: حماية شاشة وجسم هواتف Oppo Reno المنحنية (Curved Screens)</h2>
@@ -202,7 +202,7 @@ export const oppo_reno_accessories_supervooc_guide: BlogArticle = {
 <h3>Premium Bluetooth Earbuds</h3>
 <p>Oppo Reno devices support high-definition wireless audio protocols such as AAC and LDAC. To enjoy premium audio quality and clear call performance:</p>
 <ul>
-    <li>🎵 <strong>Joyroom Wireless Earbuds:</strong> We recommend the <a href="/en/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a>. They pair seamlessly with Oppo\'s Bluetooth stack, offering excellent noise cancellation and high-fidelity sound reproduction.</li>
+    <li>🎵 <strong>Joyroom Wireless Earbuds:</strong> We recommend the <a href="/en/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a>. They pair seamlessly with Oppo\'s Bluetooth stack, offering excellent noise cancellation and high-fidelity sound reproduction.</li>
 </ul>
 
 <h2>4. Protecting Oppo Reno Curved Displays</h2>

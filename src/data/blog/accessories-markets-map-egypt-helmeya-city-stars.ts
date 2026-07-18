@@ -62,12 +62,12 @@ export const accessories_markets_map_egypt_helmeya_city_stars: BlogArticle = {
 
 <h2>ثانياً: جسر السويس وميدان الحلمية — سوق التوزيع المتوسط</h2>
 <p>تضم منطقة جسر السويس وميدان حلمية الزيتون متاجر تجزئة مختلفة، ولا تعني كثافة المتاجر أن كل عرض له المصدر أو السياسة نفسها. قارن العرض المحدد، واطلب بيانات البائع المكتوبة قبل الشراء.</p>
-<p>قد تختلف الأسعار والضمانات من متجر إلى آخر ومن يوم إلى آخر. عند مقارنة شواحن مثل <a href="/anker/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W</a> أو باوربانكات مثل <a href="/joyroom/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10000</a>، طابق رقم الموديل والسعة والمنافذ، ثم اقرأ مدة الضمان وجهته والاستثناءات على الفاتورة.</p>
+<p>قد تختلف الأسعار والضمانات من متجر إلى آخر ومن يوم إلى آخر. عند مقارنة شواحن مثل <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W</a> أو باوربانكات مثل <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10000</a>، طابق رقم الموديل والسعة والمنافذ، ثم اقرأ مدة الضمان وجهته والاستثناءات على الفاتورة.</p>
 <p>إذا كان للموديل كود تحقق تدعمه العلامة رسمياً، استخدم القناة الحالية المنشورة من العلامة واقرأ نتيجة التحقق نفسها. وجود باركود أو ملصق بمفرده ليس دليلاً كافياً.</p>
 
 <h2>ثالثاً: المولات والمتاجر ذات السياسات المكتوبة (سيتي ستارز، مول العرب، كايرو فيستيفال)</h2>
 <p>تضم المولات الكبرى متاجر بعلامات ونماذج عمل مختلفة. وجود المتجر داخل مول لا يثبت تلقائياً صفة الوكيل أو أصالة كل عرض، لكنه قد يسهل مراجعة بيانات الشركة والفاتورة وسياسة الإرجاع. تحقق من الصفة الحالية لأي بائع عبر القناة المنشورة للعلامة.</p>
-<p>عند مقارنة كابل مثل <a href="/anker/anker-a8050-usb-c-cable" style="color:#2563eb;">سلك انكر USB-C</a> أو سماعات مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;">ساوندكور P20i</a>، ابحث عن العناصر التالية:</p>
+<p>عند مقارنة كابل مثل <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;">سلك انكر USB-C</a> أو سماعات مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;">ساوندكور P20i</a>، ابحث عن العناصر التالية:</p>
 <ol style="line-height:2;">
     <li>✅ بيانات بائع وفاتورة ورقم موديل وسياسات مكتوبة تساعد على التحقق والرجوع؛ لا يثبت نوع المكان وحده الأصالة أو الموافقات.</li>
     <li>✅ مدة ضمان وجهة خدمة واستثناءات واضحة؛ تختلف المدة وطريقة المعالجة حسب المنتج والبائع وشروط العرض.</li>
@@ -178,12 +178,12 @@ export const accessories_markets_map_egypt_helmeya_city_stars: BlogArticle = {
 
 <h2>2. Gisr El-Suez and Helmeia: The Mid-Tier Distribution Route</h2>
 <p>Gisr El-Suez and Helmeiat El-Zaytoun also contain retailers with different sourcing, inventory, and policies. A fixed storefront is useful for traceability but does not settle product status by itself.</p>
-<p>When comparing a <a href="/en/anker/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W</a> or a <a href="/en/joyroom/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10,000mAh</a>, match the exact model, capacity, ports, current price, seller, invoice, and written warranty terms. Availability and policies vary by store and date.</p>
+<p>When comparing a <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W</a> or a <a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10,000mAh</a>, match the exact model, capacity, ports, current price, seller, invoice, and written warranty terms. Availability and policies vary by store and date.</p>
 <p>If the manufacturer publishes a verification tool for the exact model, follow that current channel and read its result and limitations. A scratch code or barcode alone is not conclusive.</p>
 
 <h2>3. Malls and Retailers with Written Policies: City Stars and Beyond</h2>
 <p>This is generally a higher-price retail tier where buyers may find established businesses and written policies, but a mall location does not guarantee safety, authenticity, warranty, or brand authorization. Verify the current seller, exact model, invoice, and any claimed brand relationship.</p>
-<p>When comparing an <a href="/en/anker/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> or <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i earbuds</a>, look for:</p>
+<p>When comparing an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> or <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i earbuds</a>, look for:</p>
 <ol style="line-height:2;">
     <li>✅ Seller details, invoice, exact model, and written policies support verification and recourse; the venue type alone does not prove authenticity or regulatory approval.</li>
     <li>✅ A named warranty provider, term, coverage, exclusions, and claim process; these vary by product, seller, and offer.</li>

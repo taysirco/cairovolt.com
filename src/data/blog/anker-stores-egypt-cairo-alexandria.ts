@@ -163,15 +163,15 @@ export const anker_stores_egypt_cairo_alexandria: BlogArticle = {
 
 <p>الضمان المكتوب يساعدك على معرفة المدة والتغطية والاستثناءات وخطوات تقديم الطلب قبل الدفع. في كايرو فولت تختلف المدة حسب المنتج، ويخضع أي إصلاح أو استبدال أو رد للمراجعة والسياسة والمخزون المتاح؛ لا توجد نتيجة مضمونة قبل الفحص.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات انكر ببيانات موديل وضمان متجر مكتوب:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع بيانات الموديل والسعر والمخزون الحاليين: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن انكر 45 واط بشاشة</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات انكر ببيانات موديل وضمان متجر مكتوب:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع بيانات الموديل والسعر والمخزون الحاليين: <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن انكر 45 واط بشاشة</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a>.</p></div>
 
 <h2>منتجات انكر المتاحة على كايرو فولت</h2>
 <p>على كايرو فولت.كوم بتلاقي:</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:8px;">⚡ <a href="/anker/chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2741 30W GaN</a> — أصغر شاحن GaN 30W في مصر</li>
-<li style="margin-bottom:8px;">⚡ <a href="/anker/chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر PowerPort 20W</a> — خيار أساسي للمقارنة حسب توافق جهازك</li>
-    <li style="margin-bottom:8px;">⚡ <a href="/anker/chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر Nano 45W Smart Display</a> — بشاشة تعرض الواط الفعلي</li>
-    <li style="margin-bottom:8px;">⚡ <a href="/anker/chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2147 GaN 30W</a> — GaN III أحدث جيل</li>
+    <li style="margin-bottom:8px;">⚡ <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2741 30W GaN</a> — أصغر شاحن GaN 30W في مصر</li>
+<li style="margin-bottom:8px;">⚡ <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر PowerPort 20W</a> — خيار أساسي للمقارنة حسب توافق جهازك</li>
+    <li style="margin-bottom:8px;">⚡ <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر Nano 45W Smart Display</a> — بشاشة تعرض الواط الفعلي</li>
+    <li style="margin-bottom:8px;">⚡ <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2147 GaN 30W</a> — GaN III أحدث جيل</li>
 </ul>
 
 <h3>تغليف الشحنات الآمن وسرعة الشحن في كايرو فولت</h3>
@@ -340,7 +340,7 @@ export const anker_stores_egypt_cairo_alexandria: BlogArticle = {
 
 <p>A written warranty tells you the applicable term, coverage, exclusions, and claim steps before payment. CairoVolt's term varies by product, and any repair, replacement, or refund depends on review, the policy, and available stock; no outcome is guaranteed before inspection.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (warranty for the term shown on the product page):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Anker chargers: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Wall Charger</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (warranty for the term shown on the product page):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Anker chargers: <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Wall Charger</a>.</p></div>
 
 <h3>Secure Shipping Packaging and Fast Delivery Speeds</h3>
 

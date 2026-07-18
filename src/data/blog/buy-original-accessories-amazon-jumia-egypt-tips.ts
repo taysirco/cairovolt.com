@@ -57,7 +57,7 @@ export const buy_original_accessories_amazon_jumia_egypt_tips: BlogArticle = {
     <li>📦 <strong>يُشحن من قبل المنصة (Fulfilled by Amazon / Shipped by Jumia):</strong> يصف عادةً ترتيب التخزين والتنفيذ وفق شروط الخدمة، ولا يحدد وحده البائع أو المصدر أو نتيجة طلب الإرجاع. اقرأ السياسة الحالية للعرض وموعد التسليم الظاهر عند الطلب.</li>
     <li>👤 <strong>يباع بواسطة (Sold by):</strong> تحقق من الاسم القانوني أو التجاري القابل للتتبع، وسجل البائع، والفاتورة، وسياسة الإرجاع. وإذا ذكر العرض صفة اعتماد أو متجر رسمي، طابقها مع القناة الحالية للعلامة؛ لا تجعل الاسم أو انخفاض السعر حكماً منفرداً.</li>
 </ul>
-<p>عند مقارنة كابل مثل <a href="/anker/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر USB-C cable</a> أو سماعات مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P20i</a>، طابق رقم الموديل والمواصفات والبائع وسياسات ما بعد البيع قبل الدفع.</p>
+<p>عند مقارنة كابل مثل <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر USB-C cable</a> أو سماعات مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P20i</a>، طابق رقم الموديل والمواصفات والبائع وسياسات ما بعد البيع قبل الدفع.</p>
 
 <h2>ثانياً: فلترة المراجعات وكشف التقييمات الوهمية (Fake Reviews)</h2>
 <p>التقييم الإجمالي مفيد لاكتشاف أنماط الاستخدام، لكنه قد يخلط بين بائعين أو إصدارات أو فترات مختلفة. اقرأ عينة متنوعة وحديثة، وميّز بين مراجعة المنتج ومراجعة التغليف أو التوصيل.</p>
@@ -68,7 +68,7 @@ export const buy_original_accessories_amazon_jumia_egypt_tips: BlogArticle = {
 <p>الشاحن التالف أو غير المطابق للمواصفات قد يسبب سخونة أو انقطاعاً أو سلوك شحن غير طبيعي، لكن تعطل الهاتف له أسباب متعددة ولا يمكن نسبته إلى الشاحن دون تشخيص. أوقف استخدام الملحق عند ظهور ضرر واضح، وجرّب مصدراً متوافقاً بحالة جيدة أو اطلب فحصاً فنياً.</p>
 <p>لحماية موبايلك الغالي واستثمارك:</p>
 <ol style="line-height:2;">
-    <li>🔌 اختر شاحناً يطابق بروتوكول جهازك وقدرته، وراجع رقم الموديل ومواصفات الدخل والخرج، مثل بيانات <a href="/anker/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 30W</a> قبل الشراء.</li>
+    <li>🔌 اختر شاحناً يطابق بروتوكول جهازك وقدرته، وراجع رقم الموديل ومواصفات الدخل والخرج، مثل بيانات <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 30W</a> قبل الشراء.</li>
     <li>⚡ افحص الرقم التسلسلي أو كود التحقق فقط عبر أداة منشورة للموديل من العلامة، واحتفظ بالفاتورة؛ لا يثبت الملصق وحده المصدر.</li>
 </ol>
 
@@ -171,7 +171,7 @@ export const buy_original_accessories_amazon_jumia_egypt_tips: BlogArticle = {
     <li>📦 <strong>Fulfilled by the Platform (Fulfilled by Amazon / Shipped by Jumia):</strong> This generally identifies a logistics arrangement, not proof of authenticity, manufacturer authorization, or a fixed refund time. Identify the actual seller and read the current return, refund, and warranty terms for the exact listing.</li>
     <li>👤 <strong>Sold by:</strong> Check for a traceable business identity, seller history, invoice, and clear return terms. If a listing claims official or authorized status, verify that current claim through the brand; a name or low price alone is not a verdict.</li>
 </ul>
-<p>When comparing an <a href="/en/anker/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> or <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i earbuds</a>, match the exact model and specifications, seller, invoice, and after-sales terms before payment.</p>
+<p>When comparing an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> or <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i earbuds</a>, match the exact model and specifications, seller, invoice, and after-sales terms before payment.</p>
 
 <h2>2. Filtering User Feedback and Identifying Fake Reviews</h2>
 <p>Aggregate ratings can reveal usage patterns, but may combine sellers, revisions, and time periods. Read a recent sample across rating levels and separate comments about the product from comments about delivery or packaging.</p>
@@ -182,7 +182,7 @@ export const buy_original_accessories_amazon_jumia_egypt_tips: BlogArticle = {
 <p>A damaged or out-of-spec adapter can cause heat, interruptions, or abnormal charging, but a phone that will not power on can have several causes and needs diagnosis. Stop using visibly damaged accessories, try a compatible known-good source, or seek qualified inspection.</p>
 <p>To safeguard your expensive device:</p>
 <ol style="line-height:2;">
-    <li>🔌 Choose a charger whose protocol and rated output match the device, and review the exact model and input/output data, such as the specifications for the <a href="/en/anker/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W wall adapter</a>.</li>
+    <li>🔌 Choose a charger whose protocol and rated output match the device, and review the exact model and input/output data, such as the specifications for the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W wall adapter</a>.</li>
     <li>⚡ Use serial or verification tools only when the brand publishes one for that model, and retain the invoice; a label alone does not establish source.</li>
 </ol>
 

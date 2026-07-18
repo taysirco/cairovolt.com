@@ -113,7 +113,7 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
 
 <h3>4. ساوندكور P25i — التوأم المدمج بنفس القوة (900 ج.م)</h3>
 
-<p>سماعة <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P25i</a> هي التوأم التقني للـ R50i — نفس الدرايفر 10 مم ونفس المعالج ونفس دعم التطبيق — لكن بتصميم علبة مربعة مسطحة أصغر حجماً. لو بتفضل العلبة المدمجة اللي بتنزلق في الجيب بسهولة، الـ P25i هي اختيارك.</p>
+<p>سماعة <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ساوندكور P25i</a> هي التوأم التقني للـ R50i — نفس الدرايفر 10 مم ونفس المعالج ونفس دعم التطبيق — لكن بتصميم علبة مربعة مسطحة أصغر حجماً. لو بتفضل العلبة المدمجة اللي بتنزلق في الجيب بسهولة، الـ P25i هي اختيارك.</p>
 <p>لسماع القرآن: نفس كلام الـ R50i — افتح التطبيق، اختار "Podcast" preset أو اعمل EQ مخصص ترفع فيه نطاق 500Hz-3kHz. النتيجة: صوت القارئ بيطلع واضح ودافئ ومفصّل. البطارية <strong>10 ساعات</strong> — ممتازة للأيام الطويلة.</p>
 
 <h3>5. ساوندكور Life P2i — البديل الاقتصادي بأزرار فيزيائية (800 ج.م)</h3>
@@ -227,11 +227,11 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
 <p>عشان نوفّر عليك الحيرة، خد شجرة القرار دي:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">💰 <strong>ميزانيتك تحت 1,000 ج.م؟</strong> → <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Life P2i</a> (800 ج.م — أزرار فيزيائية) أو <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">P25i</a> (900 ج.م — تطبيق + EQ) أو <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 ج.م — الأشهر)</li>
+    <li style="margin-bottom:12px;">💰 <strong>ميزانيتك تحت 1,000 ج.م؟</strong> → <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Life P2i</a> (800 ج.م — أزرار فيزيائية) أو <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">P25i</a> (900 ج.م — تطبيق + EQ) أو <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 ج.م — الأشهر)</li>
     <li style="margin-bottom:12px;">🎯 <strong>عايز ANC بميزانية متوسطة؟</strong> → <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">A30i</a> (1,200 ج.م — ANC + تصميم أنيق + خفيفة جداً)</li>
     <li style="margin-bottom:12px;">👑 <strong>عايز أفضل نقاء ممكن بلا حدود؟</strong> → <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> (2,800 ج.م — LDAC + ANC + HearID)</li>
     <li style="margin-bottom:12px;">🛏️ <strong>بتسمع كتير قبل النوم؟</strong> → <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">A30i</a> (أخف سماعة — 4.8 جرام)</li>
-    <li style="margin-bottom:12px;">🏃 <strong>بتسمع أذكار أثناء المشي/الرياضة؟</strong> → <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> أو <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">P25i</a> (IPX5 + بطارية 10 ساعات)</li>
+    <li style="margin-bottom:12px;">🏃 <strong>بتسمع أذكار أثناء المشي/الرياضة؟</strong> → <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> أو <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">P25i</a> (IPX5 + بطارية 10 ساعات)</li>
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
@@ -361,7 +361,7 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
 
 <h3>4. Soundcore P25i — The Compact Twin with Equal Power (900 EGP)</h3>
 
-<p>The <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P25i</a> is the technical twin of the R50i — same 10mm driver, same processor, same app support — but with a square, flat case design that's smaller. If you prefer a compact case that slides easily into a pocket, the P25i is your choice.</p>
+<p>The <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore P25i</a> is the technical twin of the R50i — same 10mm driver, same processor, same app support — but with a square, flat case design that's smaller. If you prefer a compact case that slides easily into a pocket, the P25i is your choice.</p>
 <p>For Quran listening: the same approach as the R50i — open the app, select the "Podcast" preset or create a custom EQ that boosts the 500Hz-3kHz range. The result: the reciter's voice comes through clear, warm, and detailed. Battery lasts <strong>10 hours</strong> — excellent for long days.</p>
 
 <h3>5. Soundcore Life P2i — The Budget Option with Physical Buttons (800 EGP)</h3>
@@ -475,11 +475,11 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
 <p>To save you the confusion, here's a straightforward decision tree:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">💰 <strong>Budget under 1,000 EGP?</strong> → <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Life P2i</a> (800 EGP — physical buttons) or <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">P25i</a> (900 EGP — app + EQ) or <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 EGP — most popular)</li>
+    <li style="margin-bottom:12px;">💰 <strong>Budget under 1,000 EGP?</strong> → <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Life P2i</a> (800 EGP — physical buttons) or <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">P25i</a> (900 EGP — app + EQ) or <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 EGP — most popular)</li>
     <li style="margin-bottom:12px;">🎯 <strong>Want ANC on a mid-range budget?</strong> → <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">A30i</a> (1,200 EGP — ANC + elegant design + ultra-light)</li>
     <li style="margin-bottom:12px;">👑 <strong>Want the best possible clarity, no limits?</strong> → <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> (2,800 EGP — LDAC + ANC + HearID)</li>
     <li style="margin-bottom:12px;">🛏️ <strong>Listen frequently before bed?</strong> → <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">A30i</a> (lightest — 4.8 grams)</li>
-    <li style="margin-bottom:12px;">🏃 <strong>Listen to Adhkar while walking/exercising?</strong> → <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> or <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">P25i</a> (IPX5 + 10-hour battery)</li>
+    <li style="margin-bottom:12px;">🏃 <strong>Listen to Adhkar while walking/exercising?</strong> → <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> or <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">P25i</a> (IPX5 + 10-hour battery)</li>
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">

@@ -141,7 +141,7 @@ export const iphone_8_7_used_buying_check_accessories: BlogArticle = {
 
 <h3>3. سماعات بلوتوث متكاملة لتوفير البطارية</h3>
 <ul>
-    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> ننصح بـ <a href="/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a> لتجنب استخدام المحولات السلكية (Dongles) التي تؤدي لتلف منفذ الشحن بمرور الوقت وتسبب ضوضاء في الصوت.</li>
+    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> ننصح بـ <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a> لتجنب استخدام المحولات السلكية (Dongles) التي تؤدي لتلف منفذ الشحن بمرور الوقت وتسبب ضوضاء في الصوت.</li>
 </ul>
 
 <h2>خامساً: الخلاصة ونصيحة كايرو فولت</h2>
@@ -267,7 +267,7 @@ export const iphone_8_7_used_buying_check_accessories: BlogArticle = {
 
 <h3>Compatible Bluetooth Earbuds</h3>
 <ul>
-    <li>🎵 <strong>Joyroom Wireless Buds:</strong> We recommend <a href="/en/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a> to avoid using generic Lightning-to-3.5mm adapters, which damage the charging port over time and introduce line noise.</li>
+    <li>🎵 <strong>Joyroom Wireless Buds:</strong> We recommend <a href="/en/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a> to avoid using generic Lightning-to-3.5mm adapters, which damage the charging port over time and introduce line noise.</li>
 </ul>
 
 <h2>5. Verdict and CairoVolt Recommendation</h2>

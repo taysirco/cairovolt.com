@@ -61,7 +61,7 @@ export const gaming_earbuds_pubg_freefire_low_latency: BlogArticle = {
 <p>عند تفعيل Gaming Mode قد يقل زمن المعالجة مقارنة بالوضع العادي. لا ننسب رقماً ثابتاً أو تزامناً كاملاً لـ R50i من دون قياس موثق؛ اختبرها مع هاتفك واللعبة التي تستخدمها.</p>
 
 <h3>2. ساوندكور P25i (توأم الأناقة والتصميم المدمج)</h3>
-<p>سماعة <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P25i</a> هي التوأم المتطابق للـ R50i في المواصفات الداخلية والدرايفر (10 مم) ودعم التطبيق ونفس المعالج تماماً. الاختلاف الوحيد بين الموديلين هو شكل علبة الشحن وتصميم السماعة الخارجي. علبة الـ P25i بتيجي بتصميم مربع أنيق ومسطح وحجم أصغر في الجيب مقارنة بعلبة الـ R50i الدائرية.</p>
+<p>سماعة <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ساوندكور P25i</a> هي التوأم المتطابق للـ R50i في المواصفات الداخلية والدرايفر (10 مم) ودعم التطبيق ونفس المعالج تماماً. الاختلاف الوحيد بين الموديلين هو شكل علبة الشحن وتصميم السماعة الخارجي. علبة الـ P25i بتيجي بتصميم مربع أنيق ومسطح وحجم أصغر في الجيب مقارنة بعلبة الـ R50i الدائرية.</p>
 <p>يدعم P25i وضع ألعاب عبر التطبيق وفق مواصفات الموديل. لا نفترض أنه مطابق 100% لـ R50i ولا ننسب له 75ms من دون قياس موثق؛ اختبر المزامنة مع هاتفك ولعبتك.</p>
 
 <h3>3. ساوندكور P20i (البديل الموجه للشباب)</h3>
@@ -154,7 +154,7 @@ export const gaming_earbuds_pubg_freefire_low_latency: BlogArticle = {
 
 <h2>خلاصة القول ونصيحة الشراء من كايرو فولت</h2>
 
-<p>تأخير الصوت في الألعاب اللاسلكية مشكلة حقيقية، بس حلها مبقاش غالي زي زمان. لو ميزانيتك في حدود الـ 880 جنيه وعايز أحسن تجربة شاملة مع بيس قوي ودعم كامل للتطبيق وتأخير شبه معدوم في الألعاب، <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة ساوندكور R50i</a> هي اختيارك الأول والأنسب للشارع المصري. لو بتفضل التصميمات المربعة المسطحة السهلة في الجيب، <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور P25i</a> هي البديل المتطابق تقنياً بنسبة 100%. أما لو كنت جيمر بتتحرك كتير وبتعرق في الجيم وتضايقك ضغطات اللمس الخاطئة، <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">سماعة ساوندكور Life P2i</a> هي خيارك العملي بأزرارها الميكانيكية الحقيقية وسعرها الموفر.</p>
+<p>تأخير الصوت في الألعاب اللاسلكية مشكلة حقيقية، بس حلها مبقاش غالي زي زمان. لو ميزانيتك في حدود الـ 880 جنيه وعايز أحسن تجربة شاملة مع بيس قوي ودعم كامل للتطبيق وتأخير شبه معدوم في الألعاب، <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة ساوندكور R50i</a> هي اختيارك الأول والأنسب للشارع المصري. لو بتفضل التصميمات المربعة المسطحة السهلة في الجيب، <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">سماعة ساوندكور P25i</a> هي البديل المتطابق تقنياً بنسبة 100%. أما لو كنت جيمر بتتحرك كتير وبتعرق في الجيم وتضايقك ضغطات اللمس الخاطئة، <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">سماعة ساوندكور Life P2i</a> هي خيارك العملي بأزرارها الميكانيكية الحقيقية وسعرها الموفر.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أصلية بضمان كايرو فولت المكتوب</p>
@@ -230,7 +230,7 @@ export const gaming_earbuds_pubg_freefire_low_latency: BlogArticle = {
 <p>Enabling Gaming Mode may reduce processing delay compared with standard mode. This guide does not assign a fixed figure or perfect synchronization to the R50i without documented measurement; test it with your phone and game.</p>
 
 <h3>2. Soundcore P25i (The Compact and Sleek Twin)</h3>
-<p>The <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P25i</a> is the identical twin of the R50i in terms of internal specs, driver size (10mm), app support, and the exact same processor. The only difference between the two models lies in the case design and the outer earbud shell. The P25i features a sleek, square, flat case that is smaller and easier to carry in a pocket compared to the R50i's round case.</p>
+<p>The <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore P25i</a> is the identical twin of the R50i in terms of internal specs, driver size (10mm), app support, and the exact same processor. The only difference between the two models lies in the case design and the outer earbud shell. The P25i features a sleek, square, flat case that is smaller and easier to carry in a pocket compared to the R50i's round case.</p>
 <p>The P25i offers a Gaming Mode through its app according to the model specifications. This guide does not assume it is identical to the R50i or assign 75ms without documented measurement; assess synchronization with your phone and game.</p>
 
 <h3>3. Soundcore P20i (The Youth-Focused Alternative)</h3>
@@ -323,7 +323,7 @@ export const gaming_earbuds_pubg_freefire_low_latency: BlogArticle = {
 
 <h2>The Final Verdict & Buying Advice</h2>
 
-<p>Audio lag in wireless gaming is a real challenge, but solving it is no longer expensive. If your budget is around 880 EGP and you want the best all-around experience with deep bass, full app customization, and near-instant response times, the <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> is your absolute best bet. If you prefer a flatter, square case that fits more comfortably in your pocket, the <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P25i</a> offers the identical technical performance. Lastly, if you are an active gamer who sweats during sessions and dislikes touch controls, the physical-button <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Soundcore Life P2i</a> is a highly practical, cost-effective choice.</p>
+<p>Audio lag in wireless gaming is a real challenge, but solving it is no longer expensive. If your budget is around 880 EGP and you want the best all-around experience with deep bass, full app customization, and near-instant response times, the <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> is your absolute best bet. If you prefer a flatter, square case that fits more comfortably in your pocket, the <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore P25i</a> offers the identical technical performance. Lastly, if you are an active gamer who sweats during sessions and dislikes touch controls, the physical-button <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Soundcore Life P2i</a> is a highly practical, cost-effective choice.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ listed with clear model and seller details with Warranty in Egypt</p>

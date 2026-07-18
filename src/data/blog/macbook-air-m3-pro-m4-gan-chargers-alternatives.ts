@@ -145,7 +145,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">24 شهر</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W PD</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W PD</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">سيليكون</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>280ج</strong></td>
@@ -223,7 +223,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">أقل من 300ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">أرخص خيار أصلي بضمان — بيشحن MacBook Air للعمل الخفيف</td>
         </tr>
         <tr style="background:#f0fdf4;">
@@ -403,7 +403,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">24 months</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W PD</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W PD</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Silicon</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>280 EGP</strong></td>
@@ -481,7 +481,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Under 300 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">Cheapest genuine option with warranty — charges MacBook Air for light work</td>
         </tr>
         <tr style="background:#f0fdf4;">

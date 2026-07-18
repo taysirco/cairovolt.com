@@ -41,7 +41,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> تحقق من معيار وقدرة التركيبة الكاملة وثباتها وحد الوزن والجراب ونطاق الحرارة. قارن <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">شاحناً سلكياً</a> و<a href="/joyroom/car-accessories/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">حامل جوي روم ZS290</a> بالمواصفات الحالية، واختبر التثبيت والسيارة متوقفة.
+        <strong>💡 الإجابة السريعة:</strong> تحقق من معيار وقدرة التركيبة الكاملة وثباتها وحد الوزن والجراب ونطاق الحرارة. قارن <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">شاحناً سلكياً</a> و<a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">حامل جوي روم ZS290</a> بالمواصفات الحالية، واختبر التثبيت والسيارة متوقفة.
     </p>
 </div>
 
@@ -157,7 +157,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 <p>الثبات يعتمد على قوة الجذب وتصميم الحلقة ووزن الهاتف والجراب وموضع التثبيت وحالة الطريق. لا يمكن استنتاج الأداء من اسم درجة المغناطيس أو السعر وحدهما:</p>
 <ul>
 <li><strong>درجة المغناطيس:</strong> إن ذُكرت، تحقق منها في مواصفات الموديل؛ الدرجة وحدها لا تصف عدد المغناطيسات أو هندسة الحامل أو قوة الإمساك النهائية.</li>
-<li><strong>اختبار الحمل:</strong> قارن حد الوزن وحجم الهاتف والجراب المسموح، وراجع تعليمات <a href="/joyroom/car-accessories/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> قبل نسب أي درجة مغناطيس إليه.</li>
+<li><strong>اختبار الحمل:</strong> قارن حد الوزن وحجم الهاتف والجراب المسموح، وراجع تعليمات <a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> قبل نسب أي درجة مغناطيس إليه.</li>
 <li><strong>منتج بلا مواصفات واضحة:</strong> لا تحكم عليه من انخفاض السعر فقط؛ غياب حد الوزن أو تعليمات التركيب سبب كافٍ لطلب توضيح مكتوب.</li>
 </ul>
 <p>بالنسبة لطرق مصر تحديداً:</p>
@@ -294,7 +294,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Verify the full combination: phone, case, mount, cable, and adapter. Compare a <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">wired charger</a> with the current specifications for the <a href="/en/joyroom/car-accessories/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290 mount</a>; test mounting while parked and do not assume a fixed charging speed or hold strength.
+        <strong>💡 Quick Answer:</strong> Verify the full combination: phone, case, mount, cable, and adapter. Compare a <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">wired charger</a> with the current specifications for the <a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290 mount</a>; test mounting while parked and do not assume a fixed charging speed or hold strength.
     </p>
 </div>
 
@@ -410,7 +410,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 <p>This is one of the most common questions about magnetic mounts. The short answer: <strong>it depends on mount quality and magnet strength</strong>. Grip depends on magnet layout, ring design, phone weight, case, mounting point, and road conditions. Do not infer final performance from magnet grade or price alone:</p>
 <ul>
 <li><strong>Magnet grade:</strong> If stated, verify it in the exact model specification. Grade alone does not describe magnet count, geometry, or final holding force.</li>
-<li><strong>Load test:</strong> Compare the published weight limit, phone size, and case rules; check the current <a href="/en/joyroom/car-accessories/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> specification before attributing any magnet grade to it.</li>
+<li><strong>Load test:</strong> Compare the published weight limit, phone size, and case rules; check the current <a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> specification before attributing any magnet grade to it.</li>
 <li><strong>Missing specifications:</strong> price alone does not prove weak or strong performance; ask for a written weight limit and mounting instructions.</li>
 </ul>
 <p>Specifically for Egyptian roads:</p>

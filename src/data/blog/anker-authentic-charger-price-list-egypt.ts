@@ -72,25 +72,25 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">شاحن حائط 20W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر PowerPort 20W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر PowerPort 20W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">350 — 450 ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;">شاحن حائط 30W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2741 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2741 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">500 — 650 ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN II</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">شاحن حائط 45W بشاشة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر Nano 45W Smart Display</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر Nano 45W Smart Display</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">750 — 950 ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN + شاشة ذكية</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;">شاحن GaN 30W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2147 GaN 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2147 GaN 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">600 — 800 ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN III</td>
         </tr>
@@ -121,7 +121,7 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
     </tbody>
 </table>
 
-<p>للمقارنة — شاحن Joyroom 25W بـ <a href="/joyroom/chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">سعر أقل</a> هو بديل اقتصادي للشواحن الأساسية لو الميزانية محدودة.</p>
+<p>للمقارنة — شاحن Joyroom 25W بـ <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">سعر أقل</a> هو بديل اقتصادي للشواحن الأساسية لو الميزانية محدودة.</p>
 
 <h2>تفصيل كل فئة — ليه الفرق السعري منطقي؟</h2>
 
@@ -132,12 +132,12 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #f59e0b;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#b45309;font-weight:bold;">⚙️ مثال عملي — فرق الحجم مع GaN:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        عند مقارنة شاحن سيليكون بموديل GaN مثل <strong><a href="/anker/chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر Nano 45W</a></strong>، استخدم الأبعاد والوزن والخرج المنشورة لكل موديل. لا توجد نسبة حجم أو حرارة ثابتة يثبتها اسم GaN، وفرق السعر قد يتأثر بالمواصفات والمنافذ والبائع والمخزون.
+        عند مقارنة شاحن سيليكون بموديل GaN مثل <strong><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر Nano 45W</a></strong>، استخدم الأبعاد والوزن والخرج المنشورة لكل موديل. لا توجد نسبة حجم أو حرارة ثابتة يثبتها اسم GaN، وفرق السعر قد يتأثر بالمواصفات والمنافذ والبائع والمخزون.
     </p>
 </div>
 
 <h3>شواحن GaN 45-65W (750-1,200 جنيه)</h3>
-<p>هنا بيدخل GaN بشكل واضح. الشاحن في حجم صغير بيطلع 45W على USB-C واحد — كفاية تشحن MacBook Air أو iPad Pro بسرعة. بعض الموديلات زي <a href="/anker/chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Nano 45W Smart Display</a> فيها شاشة بتعرض الواط الفعلي اللي بيتشحن — ميزة مفيدة جداً للتحقق.</p>
+<p>هنا بيدخل GaN بشكل واضح. الشاحن في حجم صغير بيطلع 45W على USB-C واحد — كفاية تشحن MacBook Air أو iPad Pro بسرعة. بعض الموديلات زي <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Nano 45W Smart Display</a> فيها شاشة بتعرض الواط الفعلي اللي بيتشحن — ميزة مفيدة جداً للتحقق.</p>
 <p>وفي نفس الفئة وصلنا موديلين جداد يستحقوا نظرة: <a href="/anker/wall-chargers/anker-nano-pro-45w-a2692" style="color:#2563eb;font-weight:600;">شاحن انكر نانو برو 45W</a> بـ 790 جنيه — أصغر شاحن 45 واط GaN، بيشحن الموبايل ولابتوب خفيف بأقصى سرعة. ولمستخدمي سامسونج تحديداً، <a href="/anker/wall-chargers/anker-nano-45w-1c-pd" style="color:#2563eb;font-weight:600;">شاحن انكر نانو 45W 1C</a> بـ 775 جنيه بيدعم PPS — يعني S26 Ultra بيشحن بكامل سرعة Super Fast Charging 2.0.</p>
 
 <h3>شواحن GaN 100W+ متعدد المنافذ (1,400-2,200 جنيه)</h3>
@@ -219,10 +219,10 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
 
 <p>مقارنة التكلفة لا تُبنى على عمر ثابت للشاحن؛ فالعمر يتغير حسب الموديل والحمل والحرارة وحالة الكهرباء وطريقة الاستخدام. قارن السعر الحالي، والمواصفات الموثقة، وهوية البائع، وشروط الإرجاع والضمان المكتوبة، وتوقف عن استخدام أي شاحن تظهر عليه سخونة غير معتادة أو تلف.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ببيانات موديل ومدة ضمان موضحتين على صفحة المنتج:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">قارن مواصفات: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن انكر 45 واط بشاشة</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن جويروم 25 واط</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ببيانات موديل ومدة ضمان موضحتين على صفحة المنتج:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">قارن مواصفات: <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن انكر 45 واط بشاشة</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن جويروم 25 واط</a>.</p></div>
 
 <h2>شواحن Joyroom كبديل اقتصادي</h2>
-<p>لو الميزانية محدودة، قارن <a href="/joyroom/chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 25W</a> مع موديل انكر محدد حسب البروتوكول والخرج والسعر الحالي والبائع وشروط الضمان المكتوبة. لا نفترض فرق سعر ثابتًا أو مستوى أمان متطابقًا بين موديلين من الاسم وحده.</p>
+<p>لو الميزانية محدودة، قارن <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 25W</a> مع موديل انكر محدد حسب البروتوكول والخرج والسعر الحالي والبائع وشروط الضمان المكتوبة. لا نفترض فرق سعر ثابتًا أو مستوى أمان متطابقًا بين موديلين من الاسم وحده.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ قارن شواحن انكر ببيانات واضحة على كايرو فولت</p>
@@ -297,25 +297,25 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Wall Charger 20W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">350 — 450 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;">Wall Charger 30W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">500 — 650 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN II</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Wall Charger 45W with Display</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">750 — 950 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN + Smart Display</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;">GaN Charger 30W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2147 GaN 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2147 GaN 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">600 — 800 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN III</td>
         </tr>
@@ -346,7 +346,7 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
     </tbody>
 </table>
 
-<p>For a lower-budget option, compare the <a href="/en/joyroom/chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W charger</a> with a specific Anker model by protocol, output, current price, seller, and written warranty. Do not assume a fixed discount or equal safety from brand names alone.</p>
+<p>For a lower-budget option, compare the <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W charger</a> with a specific Anker model by protocol, output, current price, seller, and written warranty. Do not assume a fixed discount or equal safety from brand names alone.</p>
 
 <h2>Signals to Verify When a Price Is Unusually Low</h2>
 
@@ -427,7 +427,7 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
 
 <p>There is no defensible fixed lifespan or annual-cost figure for either a counterfeit or a genuine charger. Compare the current price, documented specifications, seller identity, invoice, return terms, and written warranty; stop using any charger that shows damage, unusual heat, smell, or unstable output.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Products with model details and the applicable store-warranty term on their pages:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Compare: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Wall Charger</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Products with model details and the applicable store-warranty term on their pages:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Compare: <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Wall Charger</a>.</p></div>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Compare Anker Chargers with Clear Listing Details on CairoVolt</p>

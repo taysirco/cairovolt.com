@@ -71,7 +71,7 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
 <h2>ثالثاً: قوانين الطيران والحد السحري الـ 100Wh</h2>
 <p>منظمة الطيران المدني الدولي (ICAO) بتفرض قواعد صارمة على بطاريات الليثيوم لأنها سريعة الاشتعال وصعبة الإطفاء في الجو. القاعدة الذهبية هي:</p>
 <p style="font-weight:bold;color:#ef4444;">🚨 يُسمح بحمل البطاريات التي لا تتجاوز طاقتها 100Wh في حقيبة اليد دون إذن مسبق. ويُمنع تماماً وضعها في حقائب الشحن (Luggage) أسفل الطائرة.</p>
-<p>لو معاك باوربانك بسعة 20,000 مللي أمبير بجهد 3.7 فولت، طاقته بتكون **74Wh** (يعني مسموح بيه وآمن تماماً). شاحن مثل <a href="/anker/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 Power Bank</a> سعة 24,000 مللي أمبير طاقته **86.4Wh**، وده برضه مسموح بيه وبيدخل المطار عادي جداً. لكن لو جبت باوربانك ضخم جداً سعة 40,000 مللي أمبير بجهد 3.7V، طاقته هتكون **148Wh**، وده هيتم مصادرته فوراً في المطار لأنه تجاوز الحد المسموح.</p>
+<p>لو معاك باوربانك بسعة 20,000 مللي أمبير بجهد 3.7 فولت، طاقته بتكون **74Wh** (يعني مسموح بيه وآمن تماماً). شاحن مثل <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 Power Bank</a> سعة 24,000 مللي أمبير طاقته **86.4Wh**، وده برضه مسموح بيه وبيدخل المطار عادي جداً. لكن لو جبت باوربانك ضخم جداً سعة 40,000 مللي أمبير بجهد 3.7V، طاقته هتكون **148Wh**، وده هيتم مصادرته فوراً في المطار لأنه تجاوز الحد المسموح.</p>
 
 <h2>رابعاً: كيف تحسب سعة شحن هاتفك الحقيقية من الباوربانك؟</h2>
 <p>كثير من الناس بيشتري باوربانك سعة 10,000 مللي أمبير وموبايله بطاريته 5000 مللي أمبير، ويتوقع إنه يشحنه مرتين كاملين. ويتفاجأ إنه شحنه مرة وربع أو مرة ونص بالكتير، ويسأل عن **حل مشكلة هاتف سامسونج لا يشتغل ولا يقبل الشحن** أو يظن أن الباوربانك مغشوش. الحقيقة هي رياضيات تحويل الفولت:</p>
@@ -95,19 +95,19 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
     </tr></thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">10,000mAh (مثل <a href="/joyroom/joyroom-power-bank-10000" style="color:#2563eb;">Joyroom 10000</a>)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">10,000mAh (مثل <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;">Joyroom 10000</a>)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3.7V</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">37Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">مسموح به وآمن جداً (حقيبة اليد)</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">20,000mAh (مثل <a href="/anker/anker-powercore-20000" style="color:#2563eb;">انكر 20000</a>)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">20,000mAh (مثل <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;">انكر 20000</a>)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3.7V</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">74Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">مسموح به وآمن (حقيبة اليد)</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">24,000mAh (مثل <a href="/anker/anker-737-powerbank" style="color:#2563eb;">انكر 737</a>)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">24,000mAh (مثل <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;">انكر 737</a>)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3.6V - 3.7V</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">86.4Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">مسموح به (حقيبة اليد)</td>
@@ -192,7 +192,7 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
 <h2>3. Airline Regulations and the 100Wh Limit</h2>
 <p>The International Civil Aviation Organization (ICAO) enforces strict rules on lithium-ion batteries due to fire hazards. The general rule is:</p>
 <p style="font-weight:bold;color:#ef4444;">🚨 Lithium-ion batteries rated up to 100Wh are permitted in carry-on baggage. They are strictly prohibited in checked luggage.</p>
-<p>A standard 20,000mAh power bank running at 3.7V equates to **74Wh**, placing it safely under the airline limit. A high-end model like the <a href="/en/anker/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 Power Bank</a> has an 86.4Wh capacity, which is also allowed in carry-on bags. However, a massive 40,000mAh battery equates to **148Wh**, which exceeds limits and will be confiscated by airport security.</p>
+<p>A standard 20,000mAh power bank running at 3.7V equates to **74Wh**, placing it safely under the airline limit. A high-end model like the <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 Power Bank</a> has an 86.4Wh capacity, which is also allowed in carry-on bags. However, a massive 40,000mAh battery equates to **148Wh**, which exceeds limits and will be confiscated by airport security.</p>
 
 <h2>4. Calculating Real-World Charging Efficiency</h2>
 <p>Many users expect a 10,000mAh power bank to charge a 5,000mAh phone battery exactly twice, and are disappointed when it only provides about 1.4 charges. This is not a manufacturing defect; it is a consequence of voltage conversion:</p>
@@ -216,19 +216,19 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
     </tr></thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">10,000mAh (e.g., <a href="/en/joyroom/joyroom-power-bank-10000" style="color:#2563eb;">Joyroom 10,000</a>)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">10,000mAh (e.g., <a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;">Joyroom 10,000</a>)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3.7V</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">37Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Allowed (Carry-on only)</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">20,000mAh (e.g., <a href="/en/anker/anker-powercore-20000" style="color:#2563eb;">Anker 20,000</a>)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">20,000mAh (e.g., <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;">Anker 20,000</a>)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3.7V</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">74Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Allowed (Carry-on only)</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">24,000mAh (e.g., <a href="/en/anker/anker-737-powerbank" style="color:#2563eb;">Anker 737</a>)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">24,000mAh (e.g., <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;">Anker 737</a>)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3.6V - 3.7V</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">86.4Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Allowed (Carry-on only)</td>

@@ -131,13 +131,13 @@ export const power_bank_10000mah_iphone_charges_count_math: BlogArticle = {
     </tbody>
 </table>
 
-<p>تشير أمثلة الجدول إلى أن البطاريات الأكبر تحتاج طاقة أكثر للشحنة الكاملة، لكن العدد الفعلي يعتمد على الواط-ساعة والكفاءة وظروف الاستخدام. قارن <a href="/joyroom/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20000</a> أو <a href="/anker/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر 20000</a> عندما تحتاج احتياطياً أكبر. وإذا كانت 10,000mAh أنسب للحمل اليومي، راجع مواصفات وسعر <a href="/anker/power-banks/anker-a1637-wukong-3-in-1-power-bank" style="color:#2563eb;font-weight:600;">باور بانك انكر ووكونج 3 في 1</a> الحاليين، بما في ذلك الكابل والقابس المدمجان.</p>
+<p>تشير أمثلة الجدول إلى أن البطاريات الأكبر تحتاج طاقة أكثر للشحنة الكاملة، لكن العدد الفعلي يعتمد على الواط-ساعة والكفاءة وظروف الاستخدام. قارن <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20000</a> أو <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر 20000</a> عندما تحتاج احتياطياً أكبر. وإذا كانت 10,000mAh أنسب للحمل اليومي، راجع مواصفات وسعر <a href="/anker/power-banks/anker-a1637-wukong-3-in-1-power-bank" style="color:#2563eb;font-weight:600;">باور بانك انكر ووكونج 3 في 1</a> الحاليين، بما في ذلك الكابل والقابس المدمجان.</p>
 
 <h2>رابعاً: كيف تزيد من كفاءة الباوربانك أثناء الشحن الفعلي؟</h2>
 <p>هناك بعض العوامل والممارسات التي يتبعها المستخدم وتؤدي لزيادة الفقد الكهربائي دون وعي. التزم بالقواعد دي للحصول على أقصى طاقة ممكنة:</p>
 <ol style="line-height:2;">
     <li>🚫 <strong>لا تستخدم الهاتف أثناء شحنه بالباوربانك:</strong> استخدام الهاتف للألعاب أو التصفح يجعله يستهلك جزءاً كبيراً من الكهرباء القادمة مباشرة لتشغيل الشاشة والبرامج بدلاً من تخزينها في البطارية، مما يعطي انطباعاً بأن الباوربانك فرغ سريعاً دون شحن الموبايل.</li>
-    <li>🔌 <strong>استخدم كابلات قصيرة أصلية:</strong> كلما زاد طول كابل الشحن، زادت المقاومة الكهربائية النحاسية للسلك، مما يرفع نسبة الفقد الحراري ويقلل فولت الشحن الواصل للموبايل. كابل بطول 30 سم أو 1 متر كحد أقصى مثل <a href="/anker/anker-a8050-usb-c-cable" style="color:#2563eb;">كابل انكر الأصلي</a> هو الخيار الأمثل.</li>
+    <li>🔌 <strong>استخدم كابلات قصيرة أصلية:</strong> كلما زاد طول كابل الشحن، زادت المقاومة الكهربائية النحاسية للسلك، مما يرفع نسبة الفقد الحراري ويقلل فولت الشحن الواصل للموبايل. كابل بطول 30 سم أو 1 متر كحد أقصى مثل <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;">كابل انكر الأصلي</a> هو الخيار الأمثل.</li>
     <li>🌡️ <strong>ابعد الشحن عن درجات الحرارة المرتفعة:</strong> الحرارة هي العدو الأول للبطاريات. تجنب شحن هاتفك بالباوربانك في الشمس المباشرة أو داخل حقيبة مغلقة مكدسة بالملابس، لمنع ارتفاع حرارة الملحقات وبالتالي زيادة الفقد الكهربائي.</li>
 </ol>
 
@@ -261,13 +261,13 @@ export const power_bank_10000mah_iphone_charges_count_math: BlogArticle = {
     </tbody>
 </table>
 
-<p>The examples show that larger phone batteries need more energy per full charge, while the actual count depends on watt-hours, efficiency, and use conditions. Compare a <a href="/en/joyroom/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20000</a> or <a href="/en/anker/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker 20000</a> when you need more reserve. If 10,000mAh better suits daily carry, review the current specifications and price of the <a href="/en/anker/power-banks/anker-a1637-wukong-3-in-1-power-bank" style="color:#2563eb;font-weight:600;">Anker × Wukong 3-in-1</a>, including its built-in USB-C cable and wall plug.</p>
+<p>The examples show that larger phone batteries need more energy per full charge, while the actual count depends on watt-hours, efficiency, and use conditions. Compare a <a href="/en/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20000</a> or <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker 20000</a> when you need more reserve. If 10,000mAh better suits daily carry, review the current specifications and price of the <a href="/en/anker/power-banks/anker-a1637-wukong-3-in-1-power-bank" style="color:#2563eb;font-weight:600;">Anker × Wukong 3-in-1</a>, including its built-in USB-C cable and wall plug.</p>
 
 <h2>4. How to Optimize Power Bank Efficiency</h2>
 <p>To maximize the available capacity of your portable charger, follow these practical rules:</p>
 <ol style="line-height:2;">
     <li>🚫 <strong>Do Not Use Your Phone While Charging:</strong> Running games or navigation apps while connected forces the phone to consume current directly to run the screen and processor, rather than storing the power in the battery cells.</li>
-    <li>🔌 <strong>Use Short, Certified Cables:</strong> Longer cables introduce higher electrical resistance, increasing energy loss as heat. Stick to high-quality cables under 1 meter, such as <a href="/en/anker/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker certified cables</a>.</li>
+    <li>🔌 <strong>Use Short, Certified Cables:</strong> Longer cables introduce higher electrical resistance, increasing energy loss as heat. Stick to high-quality cables under 1 meter, such as <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker certified cables</a>.</li>
     <li>🌡️ <strong>Avoid Extreme Temperatures:</strong> Charging in direct sunlight or inside a closed bag traps heat, which degrades lithium battery chemistry and reduces conversion rates. Keep your charging setup in ventilated, shaded areas.</li>
 </ol>
 

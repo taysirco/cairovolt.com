@@ -191,7 +191,7 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
 <p><strong>محتاج: ANC + ENC معاً.</strong> ANC عشان تعزل نفسك عن كلام الناس والضوضاء وإنت بتذاكر، وENC عشان لو حد كلمك تليفون تقدر ترد من غير ما تقلع السماعة ويسمعك نضيف. الأوفر: <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">ساوندكور R50i NC</a> — أرخص سماعة بـ ANC حقيقي في مصر.</p>
 
 <h3>لو مش محتاج حاجة من دول</h3>
-<p>لو بتستخدم السماعة في البيت بس أو في مكان هادي — وفّر فلوسك واشتري سماعة من غير ANC. <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P30i</a> مثلاً — صوت ممتاز وبطارية طويلة بسعر اقتصادي جداً، من غير ANC عشان مش محتاجه.</p>
+<p>لو بتستخدم السماعة في البيت بس أو في مكان هادي — وفّر فلوسك واشتري سماعة من غير ANC. <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ساوندكور P30i</a> مثلاً — صوت ممتاز وبطارية طويلة بسعر اقتصادي جداً، من غير ANC عشان مش محتاجه.</p>
 
 <h2>أخطاء شائعة في فهم ANC و ENC</h2>
 
@@ -399,7 +399,7 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
 <p><strong>You need: ANC + ENC together.</strong> ANC to isolate yourself from people chatting and noise while studying, and ENC so you can answer phone calls without removing the earbuds and be heard clearly. The best value: <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC</a> — the most affordable earbuds with real ANC in Egypt.</p>
 
 <h3>You do not need any of these</h3>
-<p>If you only use earbuds at home or in quiet environments — save your money and buy earbuds without ANC. The <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P30i</a>, for example — excellent sound and long battery at a very affordable price, without ANC because you simply do not need it.</p>
+<p>If you only use earbuds at home or in quiet environments — save your money and buy earbuds without ANC. The <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore P30i</a>, for example — excellent sound and long battery at a very affordable price, without ANC because you simply do not need it.</p>
 
 <h2>Common Misconceptions About ANC and ENC</h2>
 

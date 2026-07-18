@@ -82,7 +82,7 @@ export const soundcore_earbuds_under_1000_egp_students: BlogArticle = {
         <td style="padding:10px;border:1px solid #d1d5db;color:#7c3aed;"><strong>الأطول بطارية</strong></td>
     </tr>
     <tr>
-        <td style="padding:10px;border:1px solid #d1d5db;"><a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">P30i</a></td>
+        <td style="padding:10px;border:1px solid #d1d5db;"><a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">P30i</a></td>
         <td style="padding:10px;border:1px solid #d1d5db;color:#dc2626;">لا</td>
         <td style="padding:10px;border:1px solid #d1d5db;"><strong>30 ساعة</strong></td>
         <td style="padding:10px;border:1px solid #d1d5db;">5.3</td>
@@ -137,7 +137,7 @@ export const soundcore_earbuds_under_1000_egp_students: BlogArticle = {
 
 <h2>التوصية #3 — ساوندكور P30i: للمقارنة لو ANC مش أولوية</h2>
 
-<p>لو ميزانيتك ضيقة أوي ومش محتاج ANC — <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور P30i</a> ممتازة. بطارية 30 ساعة، صوت متوازن ونضيف، وسعر اقتصادي جداً. مش هتحصل على عزل ضوضاء نشط — بس العزل السلبي من الـ ear tips كويس كفاية لو بتسمع في مكتبة أو كافيه هادي.</p>
+<p>لو ميزانيتك ضيقة أوي ومش محتاج ANC — <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ساوند كور P30i</a> ممتازة. بطارية 30 ساعة، صوت متوازن ونضيف، وسعر اقتصادي جداً. مش هتحصل على عزل ضوضاء نشط — بس العزل السلبي من الـ ear tips كويس كفاية لو بتسمع في مكتبة أو كافيه هادي.</p>
 
 <h2>التوصية #4 — ساوندكور A30i: لمقارنة المقاس والوزن</h2>
 
@@ -297,7 +297,7 @@ export const soundcore_earbuds_under_1000_egp_students: BlogArticle = {
         <td style="padding:10px;border:1px solid #d1d5db;color:#7c3aed;"><strong>Longest battery</strong></td>
     </tr>
     <tr>
-        <td style="padding:10px;border:1px solid #d1d5db;"><a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">P30i</a></td>
+        <td style="padding:10px;border:1px solid #d1d5db;"><a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">P30i</a></td>
         <td style="padding:10px;border:1px solid #d1d5db;color:#dc2626;">No</td>
         <td style="padding:10px;border:1px solid #d1d5db;"><strong>30 hours</strong></td>
         <td style="padding:10px;border:1px solid #d1d5db;">5.3</td>
@@ -352,7 +352,7 @@ export const soundcore_earbuds_under_1000_egp_students: BlogArticle = {
 
 <h2>Pick #3 — Soundcore P30i: Best Value Without ANC</h2>
 
-<p>If your budget is very tight and you do not need ANC — the <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P30i</a> is excellent. 30-hour battery, balanced clean sound, and a very affordable price. You will not get active noise cancellation — but the passive isolation from the ear tips is sufficient for libraries and quiet cafes.</p>
+<p>If your budget is very tight and you do not need ANC — the <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore P30i</a> is excellent. 30-hour battery, balanced clean sound, and a very affordable price. You will not get active noise cancellation — but the passive isolation from the ear tips is sufficient for libraries and quiet cafes.</p>
 
 <h2>Pick #4 — Soundcore A30i: Smallest and Lightest</h2>
 

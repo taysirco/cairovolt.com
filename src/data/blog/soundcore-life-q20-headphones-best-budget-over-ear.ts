@@ -186,7 +186,7 @@ export const soundcore_life_q20_headphones_best_budget_over_ear: BlogArticle = {
     <li><strong>المعاينة والإرجاع:</strong> الحدود والإجراءات الموضحة في السياسة وعند إتمام الطلب.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 قارن سماعات الرأس من ساوندكور على كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع الأسعار والمواصفات وشروط الضمان الحالية: <a href="/soundcore/soundcore-life-q20-headphones" style="color:#2563eb;font-weight:600;">ساوندكور Life Q20i</a> · <a href="/soundcore/soundcore-q30-headphones" style="color:#2563eb;font-weight:600;">ساوندكور Q30</a> · <a href="/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Space One</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 قارن سماعات الرأس من ساوندكور على كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع الأسعار والمواصفات وشروط الضمان الحالية: <a href="/soundcore/audio/soundcore-life-q20-headphones" style="color:#2563eb;font-weight:600;">ساوندكور Life Q20i</a> · <a href="/soundcore/audio/soundcore-q30-headphones" style="color:#2563eb;font-weight:600;">ساوندكور Q30</a> · <a href="/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Space One</a>.</p></div>` ,
             faq: [
                 {
                     question: 'ما هو الفرق الجوهري بين سماعة Life Q20 و Life Q20i؟',
@@ -365,7 +365,7 @@ export const soundcore_life_q20_headphones_best_budget_over_ear: BlogArticle = {
     <li><strong>Inspection and returns:</strong> the limits and process shown in the policy and at checkout.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Compare Soundcore headphones available at CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Check current prices, specifications, and warranty terms: <a href="/en/soundcore/soundcore-life-q20-headphones" style="color:#2563eb;font-weight:600;">Soundcore Life Q20i Headphones</a> · <a href="/en/soundcore/soundcore-q30-headphones" style="color:#2563eb;font-weight:600;">Soundcore Life Q30 Headphones</a> · <a href="/en/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Soundcore Space One</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Compare Soundcore headphones available at CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Check current prices, specifications, and warranty terms: <a href="/en/soundcore/audio/soundcore-life-q20-headphones" style="color:#2563eb;font-weight:600;">Soundcore Life Q20i Headphones</a> · <a href="/en/soundcore/audio/soundcore-q30-headphones" style="color:#2563eb;font-weight:600;">Soundcore Life Q30 Headphones</a> · <a href="/en/soundcore/soundcore-space-one" style="color:#2563eb;font-weight:600;">Soundcore Space One</a>.</p></div>` ,
             faq: [
                 {
                     question: 'What is the difference between the Soundcore Life Q20 and Q20i?',

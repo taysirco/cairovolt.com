@@ -135,7 +135,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
         <td style="padding:12px;border:1px solid #d1d5db;">ANC + BassUp + بطارية ماراثونية + سعر ممتاز</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P30i</a></strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ساوندكور P30i</a></strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>IP54</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">45 ساعة إجمالي</td>
         <td style="padding:12px;border:1px solid #d1d5db;">4.7g</td>
@@ -159,7 +159,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">🏃 <strong>جري outdoor / Night Run:</strong> في <a href="/soundcore/audio/soundcore-v20i-earbuds" style="color:#2563eb;font-weight:600;">V20i</a> تصميم خطّاف وopen-ear وتصنيف IP55 وفق مواصفات الموديل. جرّب المقاس والثبات قبل الجري، وخلي مستوى الصوت يسمح بسماع البيئة؛ الإضاءة ليست بديلًا عن وسائل السلامة المرورية.</li>
-    <li style="margin-bottom:16px;">🏋️ <strong>تمارين عنيفة (CrossFit / HIIT / Box Jumps):</strong> محتاج سماعة in-ear بأقل وزن وأعلى ثبات. <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">P30i</a> (4.7g فقط!) أو <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> (CloudComfort tips بتقفل على التجويف). الوزن الخفيف يعني تسارع أقل = احتمال وقوع أقل.</li>
+    <li style="margin-bottom:16px;">🏋️ <strong>تمارين عنيفة (CrossFit / HIIT / Box Jumps):</strong> محتاج سماعة in-ear بأقل وزن وأعلى ثبات. <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">P30i</a> (4.7g فقط!) أو <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> (CloudComfort tips بتقفل على التجويف). الوزن الخفيف يعني تسارع أقل = احتمال وقوع أقل.</li>
     <li style="margin-bottom:16px;">🧘 <strong>يوجا / بيلاتس / تمارين هادية:</strong> الأولوية للراحة وجودة الصوت مش التثبيت العنيف. <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> (ANC 3.0 لعزل تام + صوت LDAC Hi-Res) — العرق خفيف فـ IP55 أكثر من كافي.</li>
     <li style="margin-bottom:16px;">💰 <strong>ميزانية محدودة (أول جيم):</strong> <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">P20i</a> (699 جنيه بس!) — IPX5 حقيقي مع nano-coating على الـ PCB + علبة بحزام معصم تشيلها أثناء التمرين. مش هتندم لو وقعت وحصلها حاجة — سعرها سهل تتعوض.</li>
 </ul>
@@ -215,7 +215,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     </tbody>
 </table>
 
-<p>الخلاصة: قارن تصميم الأطراف في <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> ووزن <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">P30i</a>، لكن لا يوجد ترتيب ثبات ينطبق على كل أذن. الراحة وعدم الحركة أثناء اختبار شخصي قصير أهم من أي وصف عام.</p>
+<p>الخلاصة: قارن تصميم الأطراف في <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> ووزن <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">P30i</a>، لكن لا يوجد ترتيب ثبات ينطبق على كل أذن. الراحة وعدم الحركة أثناء اختبار شخصي قصير أهم من أي وصف عام.</p>
 
 <h2>سر الـ Ear Tips — ليه المقاس الصح أهم من السماعة نفسها</h2>
 
@@ -374,7 +374,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
         <td style="padding:12px;border:1px solid #d1d5db;">ANC + BassUp + longest battery in class</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P30i</a></strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore P30i</a></strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>IPX5</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">10 + 40 hrs</td>
         <td style="padding:12px;border:1px solid #d1d5db;">4.7g</td>
@@ -411,7 +411,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
 <p>Not every workout needs the same earbuds. CrossFit is different from yoga, which is different from outdoor running. The decision comes down to 4 factors:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">🏋️ <strong>Intense workouts (CrossFit / HIIT / Box Jumps):</strong> You need the lightest weight and highest stability. <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">P30i</a> (just 4.7g!) or <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> (CloudComfort tips lock into the cavity). Lighter weight means less acceleration force = lower chance of falling out.</li>
+    <li style="margin-bottom:16px;">🏋️ <strong>Intense workouts (CrossFit / HIIT / Box Jumps):</strong> You need the lightest weight and highest stability. <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">P30i</a> (just 4.7g!) or <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> (CloudComfort tips lock into the cavity). Lighter weight means less acceleration force = lower chance of falling out.</li>
     <li style="margin-bottom:16px;">🏃 <strong>Outdoor / treadmill running:</strong> You need at least IPX5 (sweat + possible rain). <a href="/en/soundcore/audio/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">P40i</a> (ANC to block street noise) or <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (budget-friendly and comfortable). If running on dusty roads → <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> (IP55 protects from dust too).</li>
     <li style="margin-bottom:16px;">🧘 <strong>Yoga / Pilates / light exercise:</strong> Priority is comfort and sound quality, not aggressive retention. <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> (98.5% ANC for total isolation + Hi-Res sound) — light sweat means IPX4 is sufficient.</li>
     <li style="margin-bottom:16px;">💰 <strong>Limited budget (first gym pair):</strong> <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Life P2i</a> (just 820 EGP!) — genuine IPX5 + solid sound. You won't regret it if something happens — the price makes it easy to replace.</li>
@@ -468,7 +468,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     </tbody>
 </table>
 
-<p>Bottom line: compare the included tip design of <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> and the published weight of <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">P30i</a>, but no retention ranking applies to every ear. Comfort and lack of movement during a short personal check matter more than a general claim.</p>
+<p>Bottom line: compare the included tip design of <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> and the published weight of <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">P30i</a>, but no retention ranking applies to every ear. Comfort and lack of movement during a short personal check matter more than a general claim.</p>
 
 <h2>The Ear Tip Secret — Why the Right Size Matters More Than the Earbuds Themselves</h2>
 

@@ -243,7 +243,7 @@ export const anker_verify_serial_number_security_check: BlogArticle = {
 <li>آليات أخرى تذكرها وثائق الموديل؛ تحقق منها ولا تفترضها من اسم العلامة.</li>
 </ol>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة ببيانات موديل وضمان متجر مكتوب:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">قارن المواصفات والشروط الحالية: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن انكر 45 واط نانو</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة ببيانات موديل وضمان متجر مكتوب:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">قارن المواصفات والشروط الحالية: <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن انكر 45 واط نانو</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a>.</p></div>
 
 <h3>تاريخ ملصقات مكافحة التزييف وتطورها عبر السنوات</h3>
 
@@ -508,7 +508,7 @@ export const anker_verify_serial_number_security_check: BlogArticle = {
 <li>Other mechanisms stated in the exact model documentation; do not infer them from brand name alone.</li>
 </ol>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related products with model details and written store-warranty terms:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Compare current specifications and terms: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C PowerLine Cable</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related products with model details and written store-warranty terms:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Compare current specifications and terms: <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C PowerLine Cable</a>.</p></div>
 
 <h3>The Evolution of Anker's Anti-Counterfeiting Security Technology</h3>
 

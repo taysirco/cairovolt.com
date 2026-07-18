@@ -79,7 +79,7 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">
         <strong>المكان الأول — الجهة الخلفية للشاحن:</strong> دوّر على ملصق صغير أو نص محفور على البلاستيك نفسه. الخط بيكون صغير جداً — ممكن تحتاج تستخدم كاميرا الموبايل بوضع التكبير.
-        على شاحن زي <a href="/anker/chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2741</a> هتلاقي "Model: A2741" وتحته مباشرة "S/N: XXXXXXXXXXXX".
+        على شاحن زي <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2741</a> هتلاقي "Model: A2741" وتحته مباشرة "S/N: XXXXXXXXXXXX".
     </li>
     <li style="margin-bottom:16px;">
         <strong>المكان الثاني — داخل العلبة:</strong> ملصق أبيض على الجهة الداخلية من الغطاء أو على ورقة التعليمات. بيكون واضح أكتر من اللي على المنتج.
@@ -177,7 +177,7 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 
 <p>نتيجة انكر.com/verify مؤشر مهم، لكنها لا تمنع نسخ رقم صحيح إلى عبوة أخرى. طابق الموديل والسيريال والعبوة والفاتورة واحتفظ بمستند الشراء. كايرو فولت متجر إلكتروني مستقل؛ وتخضع أي مطالبة لضمان المتجر للمدة والشروط المكتوبة على صفحة المنتج والفاتورة والسياسة، دون وعد باستبدال قبل المراجعة.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات انكر ببيانات موديل وضمان متجر مكتوب:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">قارن رقم الموديل والمواصفات والشروط الحالية: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن انكر 45 واط بشاشة</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات انكر ببيانات موديل وضمان متجر مكتوب:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">قارن رقم الموديل والمواصفات والشروط الحالية: <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن انكر 45 واط بشاشة</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a>.</p></div>
 
 <h2>إزاي تستخدم السيريال نمبر للتحقق</h2>
 
@@ -300,7 +300,7 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">
-        <strong>Location #1 — Back of the charger:</strong> Look for a small sticker or text engraved into the plastic itself. The text will be very small — you may need to use your phone camera's zoom. On a charger like the <a href="/en/anker/chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741</a>, you will find "Model: A2741" with "S/N: XXXXXXXXXXXX" directly below it.
+        <strong>Location #1 — Back of the charger:</strong> Look for a small sticker or text engraved into the plastic itself. The text will be very small — you may need to use your phone camera's zoom. On a charger like the <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741</a>, you will find "Model: A2741" with "S/N: XXXXXXXXXXXX" directly below it.
     </li>
     <li style="margin-bottom:16px;">
         <strong>Location #2 — Inside the box:</strong> A white sticker on the inside of the lid or on the instruction paper. This is usually easier to read than what is on the product itself.
@@ -403,7 +403,7 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 
 <p>A successful result on anker.com/verify is one useful signal, not conclusive proof on its own, because a valid number can be copied to another package. Compare the model, label, packaging, and invoice, and keep the purchase record. CairoVolt is an independent online retailer; any store-warranty or replacement claim follows the term and conditions written on the product page, invoice, and store policy.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Products with Model Details and Written Store-Warranty Terms:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Compare listings: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Wall Charger</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Products with Model Details and Written Store-Warranty Terms:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Compare listings: <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Wall Charger</a>.</p></div>
 
 <h2>What to Do If the Serial Number Is Damaged or Unreadable?</h2>
 <p>A data label or marking may wear with use and friction. If it becomes unreadable and you need support or a warranty claim, follow these steps without assuming the marking method was laser:</p>

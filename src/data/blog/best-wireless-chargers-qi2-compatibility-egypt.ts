@@ -188,7 +188,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 <p>شاحنات الحائط USB-C المناسبة عندنا:</p>
 <ul style="padding-right:20px;line-height:1.9;">
     <li><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر Nano 45W Smart Display</a> — 45W، USB-C مع شاشة رقمية تحديد القوة.</li>
-    <li><a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">انكر 30W</a> — مثالي لـ pad الـ Qi2، كمبيوم بين الحجم والقوة.</li>
+    <li><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">انكر 30W</a> — مثالي لـ pad الـ Qi2، كمبيوم بين الحجم والقوة.</li>
     <li><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;">Joyroom 30W Fast Charger</a> — بديل اقتصادي مع نفس الكفاءة.</li>
 </ul>
 
@@ -261,7 +261,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 
 <ul style="padding-right:20px;line-height:1.9;">
     <li><strong>Pad لاسلكي Qi2:</strong> 400-800 جنيه</li>
-    <li><strong>شاحن حائط USB-C 20-30W (لو مش عندك):</strong> <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">انكر 30W</a> حوالي 250-350 جنيه</li>
+    <li><strong>شاحن حائط USB-C 20-30W (لو مش عندك):</strong> <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">انكر 30W</a> حوالي 250-350 جنيه</li>
     <li><strong>الإجمالي للانطلاق:</strong> 650-1150 جنيه</li>
 </ul>
 
@@ -279,7 +279,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 
 <p>شاحنات Qi2 اللاسلكية لسه مش منتشرة كتير في السوق المصري. الموجود أكتر هو شاحنات Qi القديمة أو شاحنات MagSafe أصلية من Apple بأسعار مرتفعة.</p>
 
-<p>الحل الذكي الآن: ابدأ بشاحن حائط USB-C جيد — ده هتحتاجه على أي حال سواء اشتريت pad لاسلكي أم لا. <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر Nano 45W</a> أو <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">انكر 30W</a> هيشحن تليفونك بسرعة بالكابل، وبعدين لو اشتريت pad Qi2، الشاحن ده متوافق معاه تماماً.</p>`,
+<p>الحل الذكي الآن: ابدأ بشاحن حائط USB-C جيد — ده هتحتاجه على أي حال سواء اشتريت pad لاسلكي أم لا. <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر Nano 45W</a> أو <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">انكر 30W</a> هيشحن تليفونك بسرعة بالكابل، وبعدين لو اشتريت pad Qi2، الشاحن ده متوافق معاه تماماً.</p>`,
             faq: [
                 {
                     question: 'هل iPhone 15 بيشحن بـ 15W على أي شاحن لاسلكي Qi2؟',
@@ -458,7 +458,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 <p>Compatible wall adapters available from us that work perfectly with any Qi2 pad:</p>
 <ul style="padding-left:20px;line-height:1.9;">
     <li><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W Smart Display</a> — 45W with a digital display showing real-time wattage output. Overkill for Qi2 alone but useful for simultaneous laptop or tablet charging.</li>
-    <li><a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W USB-C</a> — the practical sweet spot for powering a Qi2 pad with headroom to spare.</li>
+    <li><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W USB-C</a> — the practical sweet spot for powering a Qi2 pad with headroom to spare.</li>
     <li><a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;">Joyroom 30W Fast Charger</a> — budget-friendly option with the same performance level for Qi2 use.</li>
 </ul>
 
@@ -531,7 +531,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 
 <ul style="padding-left:20px;line-height:1.9;">
     <li><strong>Qi2 wireless pad:</strong> 400-800 EGP</li>
-    <li><strong>USB-C wall adapter at 20-30W (if you do not already own one):</strong> <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> approximately 250-350 EGP</li>
+    <li><strong>USB-C wall adapter at 20-30W (if you do not already own one):</strong> <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> approximately 250-350 EGP</li>
     <li><strong>Total to get started:</strong> 650-1150 EGP</li>
 </ul>
 
@@ -541,7 +541,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 
 <p>Qi2 wireless pads are not yet widely available in Egypt's retail market. What is available are old Qi pads and Apple's own MagSafe at high prices. The smart move right now: invest in a quality USB-C wall adapter — you need one regardless of whether you ever buy a wireless pad.</p>
 
-<p>The <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W</a> or <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> will fast-charge your phone by cable today, and when you add a Qi2 pad to your setup later, the same adapter powers it perfectly. That is a future-proof purchase either way.</p>`,
+<p>The <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W</a> or <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> will fast-charge your phone by cable today, and when you add a Qi2 pad to your setup later, the same adapter powers it perfectly. That is a future-proof purchase either way.</p>`,
             faq: [
                 {
                     question: 'Does iPhone 15 charge at 15W on any Qi2 wireless charger?',

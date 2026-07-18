@@ -170,7 +170,7 @@ export const samsung_original_charger_price_egypt_guide: BlogArticle = {
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">احسب من السعر الحالي</td>
 </tr>
 <tr style="background: #f8fafc;">
-<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a></td>
+<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a></td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">30W</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">~600 ج.م</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">راجع الشروط الحالية</td>
@@ -201,7 +201,7 @@ export const samsung_original_charger_price_egypt_guide: BlogArticle = {
 
 <h2>نصيحة لو عندك أكتر من جهاز سامسونج في البيت</h2>
 
-<p>لو عندك موبايل + تابلت + سماعة — مش محتاج شاحن لكل واحد. الحل الأذكى: شاحن واحد <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> بمنفذ USB-C واحد هيخدم كل الأجهزة. الموبايل هياخد 25W والسماعة هتاخد 5W والتابلت هياخد 15-30W حسب الموديل — كلهم من نفس الشاحن. ده بيوفّرلك مساحة في الفيشة وفلوس كمان.</p>
+<p>لو عندك موبايل + تابلت + سماعة — مش محتاج شاحن لكل واحد. الحل الأذكى: شاحن واحد <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> بمنفذ USB-C واحد هيخدم كل الأجهزة. الموبايل هياخد 25W والسماعة هتاخد 5W والتابلت هياخد 15-30W حسب الموديل — كلهم من نفس الشاحن. ده بيوفّرلك مساحة في الفيشة وفلوس كمان.</p>
 
 <p>ولو عايز تشحن جهازين في نفس الوقت — فيه شواحن بمنفذين USB-C زي <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> بمنفذين. بيقسم القوة بذكاء: لو جهاز واحد موصّل بياخد 30W كاملة، لو اتنين بيقسم 15W+15W. حل ذكي لو بتشحن الموبايل والسماعة مع بعض.</p>
 
@@ -237,7 +237,7 @@ export const samsung_original_charger_price_egypt_guide: BlogArticle = {
 
 <p>ونصيحة أخيرة: لو بتشتري شاحن لحد تاني كهدية — خد شاحن Anker 25W مع كابل USB-C في بوكس واحد. هيبان شكله كويس كهدية، وبيدّي أداء ممتاز، وبيوفّرلك فلوس أكتر من شراء شاحن Samsung + كابل Samsung لوحدهم. ده الاختيار الأذكى من كل النواحي — السعر والأداء والعمر الافتراضي والضمان.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات للمقارنة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع المواصفات والسعر والضمان الحالي: <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">انكر PowerPort 25W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W GaN</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 25W</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a>.</p></div>`
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات للمقارنة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع المواصفات والسعر والضمان الحالي: <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">انكر PowerPort 25W</a> · <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W GaN</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 25W</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a>.</p></div>`
         },
         en: {
             title: 'Samsung Charger Price Comparison in Egypt — Warranty Checklist',
@@ -387,7 +387,7 @@ export const samsung_original_charger_price_egypt_guide: BlogArticle = {
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">Calculate from live prices</td>
 </tr>
 <tr style="background: #f8fafc;">
-<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a></td>
+<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a></td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">30W</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">~600 EGP</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">Check current terms</td>
@@ -418,7 +418,7 @@ export const samsung_original_charger_price_egypt_guide: BlogArticle = {
 
 <h2>Tip If You Own Multiple Samsung Devices</h2>
 
-<p>If you have a phone + tablet + earbuds — you don't need a separate charger for each. The smarter solution: a single <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN charger</a> with one USB-C port will serve all devices. The phone takes 25W, the earbuds take 5W, and the tablet takes 15-30W depending on the model — all from the same charger. This saves both outlet space and money.</p>
+<p>If you have a phone + tablet + earbuds — you don't need a separate charger for each. The smarter solution: a single <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN charger</a> with one USB-C port will serve all devices. The phone takes 25W, the earbuds take 5W, and the tablet takes 15-30W depending on the model — all from the same charger. This saves both outlet space and money.</p>
 
 <p>And if you want to charge two devices simultaneously — there are dual-port chargers like the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W dual-port</a>. It splits power intelligently: if one device is connected it gets the full 30W, if two are connected it splits 15W+15W. A smart solution for charging your phone and earbuds together.</p>
 
@@ -452,7 +452,7 @@ export const samsung_original_charger_price_egypt_guide: BlogArticle = {
 
 <p>Compare Samsung, Anker, and Joyroom at the model level: protocol, output profiles, cable, live price, seller identity, and written warranty. Do not infer authorization, equal performance, or a fixed saving from the brand name or wattage alone.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Products to compare at CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Check current specifications, price, and warranty: <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W</a> · <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a>.</p></div>`
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Products to compare at CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Check current specifications, price, and warranty: <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W</a> · <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a>.</p></div>`
         }
     }
 };

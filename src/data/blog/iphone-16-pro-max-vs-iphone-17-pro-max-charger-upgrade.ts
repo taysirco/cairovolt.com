@@ -185,7 +185,7 @@ export const iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade: BlogArticle
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>الخيار الاقتصادي:</strong> <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر PowerPort 20W</a> بـ 490 جنيه — GaN، USB-C PD، حجم أصغر من شاحن Apple الأصلي. كافي تماماً لـ iPhone 15/16/17 و Samsung S23-S26.</li>
-    <li style="margin-bottom:12px;">🎯 <strong>الخيار المتوازن:</strong> <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W GaN A2741</a> بـ 500 جنيه — 30W PD + PPS يعني Super Fast Charging على سامسونج + سرعة قصوى على iPhone. الفرق عن 20W: 4-8 دقايق أسرع للوصول لـ 50%.</li>
+    <li style="margin-bottom:12px;">🎯 <strong>الخيار المتوازن:</strong> <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W GaN A2741</a> بـ 500 جنيه — 30W PD + PPS يعني Super Fast Charging على سامسونج + سرعة قصوى على iPhone. الفرق عن 20W: 4-8 دقايق أسرع للوصول لـ 50%.</li>
     <li style="margin-bottom:12px;">🚀 <strong>الخيار المستقبلي:</strong> <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a> بـ 750 جنيه — بيشحن موبايل + iPad أو MacBook Air. لو هتشتري لابتوب USB-C قريب، ده يوفرلك شراء شاحن تاني.</li>
 </ul>
 
@@ -443,7 +443,7 @@ export const iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade: BlogArticle
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>Lower-power option:</strong> Review the current USB-C PD profiles, device list, and price of <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a>.</li>
-    <li style="margin-bottom:12px;">🎯 <strong>30W option:</strong> Compare the published PD/PPS profiles and live price of <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN A2741</a>; the phone determines the negotiated mode and timing.</li>
+    <li style="margin-bottom:12px;">🎯 <strong>30W option:</strong> Compare the published PD/PPS profiles and live price of <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN A2741</a>; the phone determines the negotiated mode and timing.</li>
     <li style="margin-bottom:12px;">🚀 <strong>45W option:</strong> Check the exact output profile and the phone, tablet, or laptop requirement before choosing <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a>.</li>
 </ul>
 

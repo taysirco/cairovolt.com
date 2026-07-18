@@ -102,7 +102,7 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
     <li><a href="https://www.anker.com/verify" target="_blank" rel="noopener" style="color:#1d4ed8">أنكر Verify — التحقق من الأصالة</a></li>
   </ul>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتج للمقارنة على كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع المواصفات والسعر والشروط الحالية: <a href="/anker/earbuds/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة ساوندكور R50i</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتج للمقارنة على كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع المواصفات والسعر والشروط الحالية: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة ساوندكور R50i</a>.</p></div>
 `,
             faq: [
                 { question: 'ما الفرق بين ساوندكور P30i وR50i NC؟', answer: 'قارن الشكل وميزات العزل المعلنة وعدد الميكروفونات والبطارية وفق صفحات الطرازات وطريقة القياس. لا تثبت الأرقام التسويقية وحدها تفوق R50i NC، ويجب التحقق من السعر والتوافر الحاليين.' },
@@ -163,7 +163,7 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
     <li><a href="https://www.anker.com/verify" target="_blank" rel="noopener" style="color:#1d4ed8">Anker Verify — Authenticity Check</a></li>
   </ul>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 A Product to Compare on CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Review specifications, live price, and current terms: <a href="/en/anker/earbuds/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 A Product to Compare on CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Review specifications, live price, and current terms: <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a>.</p></div>
 `,
             faq: [
                 { question: 'What is the difference between Soundcore P30i and R50i NC?', answer: 'Compare fit, published ANC method, microphone count, and battery claims on the model pages. Headline figures alone do not establish that R50i NC outperforms P30i, and live price and availability must be rechecked.' },

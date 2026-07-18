@@ -86,7 +86,7 @@ export const xiaomi_redmi_accessories_buying_guide: BlogArticle = {
 <h3>3. سماعات بلوتوث متكاملة وتفعيل Dolby Atmos على HyperOS</h3>
 <p>تحتوي واجهات شاومي الحديثة على محرك مؤثرات صوتية متطور يدعم تقنية **Dolby Atmos**. عند ربط سماعات لاسلكية ممتازة، يقوم النظام بتحسين الترددات وتوزيع الصوت ثلاثي الأبعاد بشكل محاكي للسينما.</p>
 <ul>
-    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> نوصي بـ <a href="/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a>، والتي تدعم ترميز AAC عالي الجودة. ننصحك بالدخول إلى إعدادات الصوت في هاتفك وتنشيط Dolby Atmos واختيار ملف الصوت "موسيقى" (Music Profile) لتحصل على أقصى نقاء وتضخيم للبيس يتناسب مع مكونات السماعة الداخلية.</li>
+    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> نوصي بـ <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a>، والتي تدعم ترميز AAC عالي الجودة. ننصحك بالدخول إلى إعدادات الصوت في هاتفك وتنشيط Dolby Atmos واختيار ملف الصوت "موسيقى" (Music Profile) لتحصل على أقصى نقاء وتضخيم للبيس يتناسب مع مكونات السماعة الداخلية.</li>
 </ul>
 
 <h2>رابعاً: جرابات الحماية وحماية عدسات الكاميرا الضخمة في هواتف Redmi Note</h2>
@@ -206,7 +206,7 @@ export const xiaomi_redmi_accessories_buying_guide: BlogArticle = {
 <h3>Compatible Bluetooth Earbuds and Dolby Atmos Optimizations</h3>
 <p>Xiaomi\'s HyperOS features a robust audio engine that includes **Dolby Atmos** integration. When paired with high-quality earbuds, it unlocks spatial audio and virtual surround sound tuning.</p>
 <ul>
-    <li>🎵 <strong>Joyroom Wireless Buds:</strong> We suggest the <a href="/en/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a>, which support the AAC high-fidelity codec. We recommend navigating to Settings > Sound & Vibration > Sound Effects, enabling Dolby Atmos, and choosing the "Music" profile to maximize bass depth and treble clarity.</li>
+    <li>🎵 <strong>Joyroom Wireless Buds:</strong> We suggest the <a href="/en/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a>, which support the AAC high-fidelity codec. We recommend navigating to Settings > Sound & Vibration > Sound Effects, enabling Dolby Atmos, and choosing the "Music" profile to maximize bass depth and treble clarity.</li>
 </ul>
 
 <h2>4. Protecting Massive Redmi Note Camera Bumps</h2>

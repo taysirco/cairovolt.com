@@ -181,7 +181,7 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
 
 <p>iPad Air بيقبل لحد 30W — يعني مش محتاج شاحن 45W. <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> بـ 500 جنيه كافي تماماً — بيشحن Air بأقصى سرعة وحجمه صغير جداً.</p>
 
-<p>بس لو عندك iPad Air + iPhone — ممكن تشتري <a href="/anker/wall-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">انكر 35W Dual</a> بـ 600 جنيه — بمنفذين USB-C، بيشحن الاتنين في نفس الوقت. iPad بياخد 20W وiPhone بياخد 15W — مش أقصى سرعة لكل واحد بس مريح جداً للاستخدام اليومي.</p>
+<p>بس لو عندك iPad Air + iPhone — ممكن تشتري <a href="/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">انكر 35W Dual</a> بـ 600 جنيه — بمنفذين USB-C، بيشحن الاتنين في نفس الوقت. iPad بياخد 20W وiPhone بياخد 15W — مش أقصى سرعة لكل واحد بس مريح جداً للاستخدام اليومي.</p>
 
 <h2>iPad 10th Gen — أي شاحن 20W كافي</h2>
 
@@ -389,7 +389,7 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
 
 <p>iPad Air accepts up to 30W — so you don't need a 45W charger. <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> at 500 EGP is perfectly sufficient — charges Air at maximum speed in a tiny form factor.</p>
 
-<p>But if you have iPad Air + iPhone — consider the <a href="/en/anker/wall-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">Anker 35W Dual</a> at 600 EGP — with two USB-C ports, charging both simultaneously. iPad gets 20W and iPhone gets 15W — not max speed for either but very convenient for daily use.</p>
+<p>But if you have iPad Air + iPhone — consider the <a href="/en/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">Anker 35W Dual</a> at 600 EGP — with two USB-C ports, charging both simultaneously. iPad gets 20W and iPhone gets 15W — not max speed for either but very convenient for daily use.</p>
 
 <h2>iPad 10th Gen — Any 20W Charger Will Do</h2>
 
