@@ -17,7 +17,7 @@ const HERO_SLUG = 'anker-nano-45w-smart-display-charger';
 
 // Frame the video so the product cluster sits in the LOWER half and the light
 // gradient (where the copy goes) stays clear in the upper half — no scrim.
-const VIDEO_POSITION = '50% 42%';
+const VIDEO_POSITION = '50% 50%';
 
 /**
  * Anker-style hero: the product video plays full-bleed with NO overlay/scrim —
