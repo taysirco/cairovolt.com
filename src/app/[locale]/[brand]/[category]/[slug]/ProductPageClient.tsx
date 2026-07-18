@@ -419,7 +419,11 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 </>
                             )}
                         </div>
-                        <p className="text-gray-900 dark:text-white font-medium mt-1 leading-snug" style={{ overflowWrap: 'anywhere', wordBreak: 'break-word' }}>
+                        {/* Product name kept in the breadcrumb for crawlers + screen
+                            readers, but visually hidden (sr-only) so it doesn't duplicate
+                            the visible <h1> below the gallery. sr-only stays in the DOM /
+                            accessibility tree (NOT display:none), so SEO is unaffected. */}
+                        <p className="sr-only">
                             {productName}
                         </p>
                     </nav>
