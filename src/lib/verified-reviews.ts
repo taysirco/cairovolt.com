@@ -7,7 +7,9 @@ import { getFirestore } from './firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import crypto from 'crypto';
 import { logger } from './logger';
-import { REVIEW_THANKS_LABEL_AR, REVIEW_THANKS_LABEL_EN } from './review-incentive';
+// (قيم قديمة أُبقيت للدوال الخاملة token-era — النظام الجديد يكافئ 5% عبر REV5 من الـCRM)
+const REVIEW_THANKS_LABEL_AR = 'خصم 5%';
+const REVIEW_THANKS_LABEL_EN = '5% off';
 
 const REVIEW_TOKEN_PATTERN = /^[a-f0-9]{32}$/i;
 const PRODUCT_SLUG_PATTERN = /^[a-z0-9][a-z0-9._-]{0,179}$/;
