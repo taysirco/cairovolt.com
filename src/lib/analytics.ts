@@ -207,13 +207,20 @@ export function trackPurchase(
 // CONTACT & CONVERSION EVENTS
 // ═════════════════════════════════════════════════════════════════════════════
 
-/** Tracks WhatsApp link clicks. */
-export function trackWhatsappClick(context: 'header' | 'contact' | 'product' | 'confirm' | 'category'): void {
+/** Tracks WhatsApp link clicks. For a product "order via WhatsApp" pass the
+ *  order value + item so GA4 records it as a valued lead (not a flat value:1) —
+ *  a real order-intent conversion signal Google can attribute engagement to. */
+export function trackWhatsappClick(
+    context: 'header' | 'contact' | 'product' | 'confirm' | 'category',
+    details?: { value?: number; itemId?: string; itemName?: string },
+): void {
     dispatchEvent('generate_lead', {
         event_category: 'contact',
         event_label: `whatsapp_${context}`,
         currency: 'EGP',
-        value: 1,
+        value: details?.value ?? 1,
+        ...(details?.itemId ? { item_id: details.itemId } : {}),
+        ...(details?.itemName ? { item_name: details.itemName } : {}),
     });
 }
 
