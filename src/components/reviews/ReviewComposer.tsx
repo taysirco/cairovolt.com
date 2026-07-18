@@ -31,7 +31,17 @@ declare global {
                 };
             };
         };
+        FB?: {
+            init: (cfg: Record<string, unknown>) => void;
+            login: (cb: (res: FbLoginResponse) => void, opts?: Record<string, unknown>) => void;
+        };
+        fbAsyncInit?: () => void;
     }
+}
+
+interface FbLoginResponse {
+    status: string;
+    authResponse?: { accessToken: string; userID: string };
 }
 
 const MAX_PHOTOS = 3;
@@ -64,9 +74,11 @@ async function compressImage(file: File): Promise<string | null> {
 export default function ReviewComposer({ productSlug, productName, locale }: Props) {
     const isArabic = locale === 'ar';
     const clientId = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID || '';
+    const fbAppId = process.env.NEXT_PUBLIC_FB_APP_ID || '';
     const gsiRef = useRef<HTMLDivElement>(null);
     const [open, setOpen] = useState(false);
     const [credential, setCredential] = useState('');
+    const [provider, setProvider] = useState<'google' | 'facebook'>('google');
     const [userName, setUserName] = useState('');
     const [rating, setRating] = useState(0);
     const [hoverStar, setHoverStar] = useState(0);
@@ -87,6 +99,7 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                 client_id: clientId,
                 callback: (res: GoogleCredentialResponse) => {
                     setCredential(res.credential);
+                    setProvider('google');
                     try {
                         const payload = JSON.parse(atob(res.credential.split('.')[1].replace(/-/g, '+').replace(/_/g, '/')));
                         setUserName(String(payload.name || payload.email || ''));
@@ -103,6 +116,29 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
     }, [clientId, credential, isArabic]);
 
     useEffect(() => { if (open) initGsi(); }, [open, initGsi]);
+
+    // 🔵 دخول فيسبوك (FB JS SDK) — يُحمَّل عند فتح الفورم فقط
+    const fbLogin = useCallback(() => {
+        if (!fbAppId) return;
+        const doLogin = () => {
+            window.FB?.login((res) => {
+                if (res.status === 'connected' && res.authResponse?.accessToken) {
+                    setCredential(res.authResponse.accessToken);
+                    setProvider('facebook');
+                    setUserName('');
+                }
+            }, { scope: 'public_profile' });
+        };
+        if (window.FB) { doLogin(); return; }
+        window.fbAsyncInit = () => {
+            window.FB?.init({ appId: fbAppId, cookie: false, xfbml: false, version: 'v21.0' });
+            doLogin();
+        };
+        const s = document.createElement('script');
+        s.src = 'https://connect.facebook.net/ar_AR/sdk.js';
+        s.async = true; s.defer = true;
+        document.body.appendChild(s);
+    }, [fbAppId]);
 
     const onPickPhotos = async (files: FileList | null) => {
         if (!files) return;
@@ -125,7 +161,7 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
             const res = await fetch('/api/reviews/submit', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ credential, productSlug, rating, title, reviewText: text, phone: phone.trim(), photos }),
+                body: JSON.stringify({ credential, provider, productSlug, rating, title, reviewText: text, phone: phone.trim(), photos }),
             });
             const j = await res.json();
             if (!res.ok) { setError(String(j.error || 'حصل خطأ — جرّب تاني')); return; }
@@ -178,6 +214,12 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                             {!gsiReady && (
                                 <button onClick={initGsi} className="text-xs text-blue-600 underline w-full text-center">
                                     {isArabic ? 'زر جوجل مش ظاهر؟ اضغط هنا' : 'Google button missing? Tap here'}
+                                </button>
+                            )}
+                            {fbAppId && (
+                                <button onClick={fbLogin}
+                                    className="w-full py-2.5 rounded-full bg-[#1877F2] hover:bg-[#166FE5] text-white font-bold text-sm transition-colors">
+                                    {isArabic ? 'المتابعة بحساب فيسبوك' : 'Continue with Facebook'}
                                 </button>
                             )}
                         </div>

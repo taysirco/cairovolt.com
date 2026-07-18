@@ -11,7 +11,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import crypto from 'crypto';
 import { getFirestore, getStorageBucket } from '@/lib/firebase-admin';
-import { verifyGoogleIdToken } from '@/lib/review-auth';
+import { verifyGoogleIdToken, verifyFacebookAccessToken } from '@/lib/review-auth';
 import { getProductBySlug } from '@/lib/static-products';
 import { checkRateLimit } from '@/lib/rate-limit';
 import { getClientIp } from '@/lib/request-ip';
@@ -50,9 +50,12 @@ export async function POST(req: NextRequest) {
         return json({ error: 'طلب غير صالح' }, 400);
     }
 
-    // 1) الهوية — تسجيل دخول جوجل إلزامي
-    const identity = await verifyGoogleIdToken(String(data.credential || ''));
-    if (!identity) return json({ error: 'سجّل الدخول بحساب جوجل أولاً ثم أعد الإرسال' }, 401);
+    // 1) الهوية — تسجيل دخول جوجل أو فيسبوك إلزامي
+    const provider = String(data.provider || 'google');
+    const identity = provider === 'facebook'
+        ? await verifyFacebookAccessToken(String(data.credential || ''))
+        : await verifyGoogleIdToken(String(data.credential || ''));
+    if (!identity) return json({ error: 'سجّل الدخول بحساب جوجل أو فيسبوك أولاً ثم أعد الإرسال' }, 401);
 
     // 2) المنتج
     const productSlug = String(data.productSlug || '').toLowerCase();
