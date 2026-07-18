@@ -13,7 +13,7 @@ import { getClientIp } from '@/lib/request-ip';
 // '/images/' is required — blog cover heroes (/images/blog/posts/*.webp, the
 // LCP element on every blog page), team avatars (/images/team/*) and OG art
 // (/images/blog/og/*) all live there. Without it they 403 and fail to load.
-const ALLOWED_PREFIXES = ['/products/', '/blog/', '/images/', '/cairovolt_logo'];
+const ALLOWED_PREFIXES = ['/products/', '/blog/', '/images/', '/videos/', '/cairovolt_logo'];
 
 // Valid widths (next.config.ts deviceSizes + imageSizes + fixed image widths)
 const VALID_WIDTHS = new Set([64, 80, 96, 128, 160, 256, 320, 384, 360, 414, 640, 750, 828, 1080, 1200, 1920]);

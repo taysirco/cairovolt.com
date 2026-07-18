@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import HeroVideo from '@/components/home/HeroVideo';
 import { getProductBySlug } from '@/lib/static-products';
+import { getDiscountInfo } from '@/lib/pricing-display';
 
 interface HeroSectionProps {
   locale: string;
@@ -10,191 +12,159 @@ interface HeroSectionProps {
 const localePath = (locale: string, path: string) =>
   locale === 'ar' ? path : `/en${path === '/' ? '' : path}`;
 
+// The smart-display charger is the hero star (the product shown in the looping
+// video), so the primary CTA and price callout point at its page.
+const HERO_SLUG = 'anker-nano-45w-smart-display-charger';
+
+// Show the lower-centre of the portrait video (where the product cluster sits)
+// when it is cropped by object-cover on wide screens.
+const VIDEO_POSITION = '50% 38%';
+
 /**
- * Conversion-focused, server-rendered hero.
- *
- * The previous carousel swapped an SSR placeholder after hydration. Keeping the
- * first decision static makes the value proposition easier to scan, keeps the
- * hero useful without JavaScript, and removes a source of LCP/CLS instability.
+ * Cinematic full-bleed hero — Anker-style. A muted, autoplaying, looping product
+ * video fills the whole hero as its background on every screen; the headline,
+ * price and CTAs sit on top over a legibility scrim. A static poster is layered
+ * underneath so first paint is instant and reduced-motion / no-JS visitors still
+ * get the product still. Server-rendered — readable before hydration.
  */
 export default function HeroSection({ locale }: HeroSectionProps) {
   const isAr = locale === 'ar';
-  const formatPrice = (slug: string) => {
-    const product = getProductBySlug(slug);
-    return product ? new Intl.NumberFormat('en-EG').format(product.price) : '—';
-  };
+  const hero = getProductBySlug(HERO_SLUG);
+  const priceFmt = hero ? new Intl.NumberFormat('en-EG').format(hero.price) : '—';
+  const discount = hero ? getDiscountInfo(hero.price, hero.originalPrice) : { hasDiscount: false, percent: 0, save: 0 };
+  const originalFmt = hero ? new Intl.NumberFormat('en-EG').format(hero.originalPrice) : '';
+
+  const trust = [
+    { icon: 'money', ar: 'دفع عند الاستلام', en: 'Cash on delivery' },
+    { icon: 'shield', ar: 'ضمان كايرو فولت', en: 'CairoVolt warranty' },
+    { icon: 'arrows-rotate', ar: 'إرجاع خلال 14 يوم', en: '14-day returns' },
+    { icon: 'truck', ar: 'توصيل لكل مصر', en: 'Delivery across Egypt' },
+  ];
 
   return (
-    <section id="hero-section" className="relative isolate overflow-hidden bg-[#050814] text-white">
+    <section
+      id="hero-section"
+      className="relative isolate flex min-h-[88svh] w-full items-end overflow-hidden bg-[#050814] text-white lg:min-h-[88vh] lg:max-h-[900px]"
+    >
+      {/* Poster layer = instant LCP paint + reduced-motion / no-JS fallback */}
       <Image
-        src="/images/home/cairovolt-hero-city-electric-v1.webp"
-        alt=""
+        src="/videos/cairovolt-hero-poster.webp"
+        alt={isAr ? 'شواحن انكر نانو الذكية بشاشات تفاعلية تعرض حالة الشحن' : 'Anker Nano smart chargers with interactive displays showing charging status'}
         fill
         priority
         fetchPriority="high"
         sizes="100vw"
-        className="-z-20 object-cover object-center opacity-80"
-        aria-hidden="true"
+        className="-z-20 object-cover"
+        style={{ objectPosition: VIDEO_POSITION }}
       />
-      <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(4,7,18,0.98)_0%,rgba(4,7,18,0.86)_42%,rgba(4,7,18,0.28)_72%,rgba(4,7,18,0.78)_100%)] rtl:bg-[linear-gradient(270deg,rgba(4,7,18,0.98)_0%,rgba(4,7,18,0.86)_42%,rgba(4,7,18,0.28)_72%,rgba(4,7,18,0.78)_100%)]" />
-      <div className="absolute inset-x-0 bottom-0 -z-10 h-48 bg-gradient-to-t from-[#050814] to-transparent" />
+      {/* Full-bleed background video */}
+      <HeroVideo
+        className="absolute inset-0 -z-20 h-full w-full object-cover motion-reduce:hidden"
+        style={{ objectPosition: VIDEO_POSITION }}
+        poster="/videos/cairovolt-hero-poster.webp"
+        webm="/videos/cairovolt-hero.webm"
+        mp4="/videos/cairovolt-hero.mp4"
+      />
 
-      <div className="mx-auto grid min-h-[720px] w-full max-w-7xl grid-cols-1 items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-[1.02fr_.98fr] lg:px-8 lg:py-20">
-        <div className={`${isAr ? 'lg:text-right' : 'lg:text-left'} min-w-0 w-full max-w-2xl text-center`}>
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-white/[0.07] px-4 py-2 text-xs font-semibold text-cyan-100 backdrop-blur-md">
-            <SvgIcon name="sparkles" className="h-4 w-4 text-cyan-300" />
-            <span>{isAr ? 'اختيارات أذكى ليومك في مصر' : 'Smarter picks for everyday life in Egypt'}</span>
+      {/* Legibility scrims — dark from the bottom (behind the copy) + a soft side
+          wash on the text side; kept as inline gradients so they never depend on
+          the CSS build. */}
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 -z-10"
+        style={{
+          background:
+            'linear-gradient(to top, rgba(5,8,20,0.96) 0%, rgba(5,8,20,0.78) 26%, rgba(5,8,20,0.32) 55%, rgba(5,8,20,0.12) 100%)',
+        }}
+      />
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 -z-10"
+        style={{
+          background: isAr
+            ? 'linear-gradient(to left, rgba(5,8,20,0.72) 0%, rgba(5,8,20,0.12) 42%, transparent 70%)'
+            : 'linear-gradient(to right, rgba(5,8,20,0.72) 0%, rgba(5,8,20,0.12) 42%, transparent 70%)',
+        }}
+      />
+
+      {/* ── Overlaid content (bottom-anchored) ─────────────────────────── */}
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-11 pt-28 sm:px-6 lg:px-8 lg:pb-16">
+        <div className={`mx-auto max-w-xl text-center lg:mx-0 lg:max-w-2xl ${isAr ? 'lg:text-right' : 'lg:text-left'}`}>
+          <div className={`mb-4 inline-flex items-center gap-2 rounded-full border border-cyan-300/25 bg-white/[0.08] px-4 py-2 text-xs font-semibold text-cyan-100 backdrop-blur-md sm:text-sm`}>
+            <span className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-cyan-300/70" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-cyan-300" />
+            </span>
+            <span>{isAr ? 'جديد · شاحن بشاشة ذكية يتعرّف على جهازك' : 'New · A smart-display charger that knows your device'}</span>
           </div>
 
-          <h1 className="break-words font-outfit text-4xl font-bold leading-[1.08] tracking-[-0.035em] text-white sm:text-5xl lg:text-[4.35rem]">
+          <h1 className="font-outfit text-[2.1rem] font-bold leading-[1.06] tracking-[-0.035em] text-white drop-shadow-[0_2px_18px_rgba(0,0,0,.5)] sm:text-5xl lg:text-[4.15rem]">
             {isAr ? (
               <>
-                طاقة تكمل يومك.
+                شحنٌ ذكي يعرف جهازك،
                 <span className="mt-2 block bg-gradient-to-l from-cyan-300 via-blue-300 to-white bg-clip-text text-transparent">
-                  صوت يفصلك عن الزحمة.
+                  ويحميه في كل لحظة.
                 </span>
               </>
             ) : (
               <>
-                Power that keeps up.
+                Smart charging that knows your device,
                 <span className="mt-2 block bg-gradient-to-r from-cyan-300 via-blue-300 to-white bg-clip-text text-transparent">
-                  Sound that pulls you in.
+                  and protects it — every moment.
                 </span>
               </>
             )}
           </h1>
 
-          <p className="hero-description mx-auto mt-6 max-w-xl break-words text-base leading-8 text-slate-300 sm:text-lg lg:mx-0">
+          <p className="mx-auto mt-4 max-w-xl text-base leading-7 text-slate-200 drop-shadow-[0_1px_10px_rgba(0,0,0,.6)] sm:text-lg lg:mx-0">
             {isAr
-              ? 'منتجات انكر وساوندكور وجوي روم، مرتبة حسب احتياجك الحقيقي — مع شروط ضمان كايرو فولت المكتوبة والدفع عند الاستلام.'
-              : 'Anker, Soundcore, and Joyroom products arranged around what you actually need, with written CairoVolt warranty terms and cash on delivery.'}
+              ? 'انكر وساوندكور وجوي روم الأصلية — بضمان كايرو فولت المكتوب، ودفع عند الاستلام، وتوصيل لكل محافظات مصر.'
+              : 'Genuine Anker, Soundcore & Joyroom — with written CairoVolt warranty, cash on delivery, and delivery across Egypt.'}
           </p>
 
-          <div className={`mt-8 flex flex-col gap-3 sm:flex-row ${isAr ? 'lg:justify-start' : 'lg:justify-start'} justify-center`}>
+          {/* Hero-product price anchor */}
+          {hero && (
+            <div className={`mt-5 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 ${isAr ? 'lg:justify-start' : 'lg:justify-start'}`}>
+              <span className="text-sm text-slate-300">{isAr ? 'انكر نانو 45 واط الذكي' : 'Anker Nano 45W Smart'}</span>
+              <span className="font-outfit text-2xl font-bold text-white">
+                {priceFmt} <span className="text-sm font-semibold text-slate-300">{isAr ? 'ج.م' : 'EGP'}</span>
+              </span>
+              {discount.hasDiscount && (
+                <>
+                  <span className="text-sm text-slate-400 line-through">{originalFmt}</span>
+                  <span className="rounded-full bg-red-600 px-2 py-0.5 text-xs font-extrabold text-white">
+                    {isAr ? `خصم ${discount.percent}%` : `-${discount.percent}%`}
+                  </span>
+                </>
+              )}
+            </div>
+          )}
+
+          <div className={`mt-6 flex flex-col gap-3 sm:flex-row ${isAr ? 'justify-center lg:justify-start' : 'justify-center lg:justify-start'}`}>
             <Link
-              href="#product-showcase"
-              className="group inline-flex min-h-14 items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-base font-bold text-[#07101f] shadow-[0_18px_45px_rgba(0,0,0,.28)] transition hover:-translate-y-0.5 hover:bg-cyan-50"
+              href={localePath(locale, `/anker/wall-chargers/${HERO_SLUG}`)}
+              className="group inline-flex min-h-14 items-center justify-center gap-2 rounded-full bg-white px-8 py-3.5 text-base font-bold text-[#07101f] shadow-[0_18px_45px_rgba(0,0,0,.4)] transition hover:-translate-y-0.5 hover:bg-cyan-50"
             >
-              {isAr ? 'تسوّق مختاراتنا' : 'Shop featured picks'}
+              {isAr ? 'اشترِ الآن' : 'Shop Now'}
               <span className="transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1">{isAr ? '←' : '→'}</span>
             </Link>
             <Link
-              href="#shop-by-need"
-              className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full border border-white/20 bg-white/[0.07] px-7 py-3.5 text-base font-semibold text-white backdrop-blur-md transition hover:border-white/35 hover:bg-white/[0.12]"
+              href="#product-showcase"
+              className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full border border-white/25 bg-white/[0.08] px-7 py-3.5 text-base font-semibold text-white backdrop-blur-md transition hover:border-white/45 hover:bg-white/[0.16]"
             >
               <SvgIcon name="compass" className="h-5 w-5 text-cyan-300" />
-              {isAr ? 'اختار حسب استخدامك' : 'Shop by your need'}
+              {isAr ? 'تصفّح كل المنتجات' : 'Explore all products'}
             </Link>
           </div>
 
-          <div className="quality-badges mt-8 flex flex-wrap justify-center gap-x-5 gap-y-3 text-xs text-slate-300 lg:justify-start sm:text-sm">
-            {[
-              { icon: 'check-circle', ar: 'بيانات واضحة قبل الشراء', en: 'Clear product details' },
-              { icon: 'shield', ar: 'ضمان كايرو فولت حسب المنتج', en: 'Product-specific CairoVolt warranty' },
-              { icon: 'money', ar: 'دفع عند الاستلام للطلبات المؤهلة', en: 'Cash on delivery for eligible orders' },
-            ].map((item) => (
-              <span key={item.icon} className="flex items-center gap-1.5">
+          <div className={`mt-7 flex flex-wrap justify-center gap-x-5 gap-y-2.5 text-xs text-slate-200 sm:text-sm ${isAr ? 'lg:justify-start' : 'lg:justify-start'}`}>
+            {trust.map((item) => (
+              <span key={item.icon} className="flex items-center gap-1.5 drop-shadow-[0_1px_8px_rgba(0,0,0,.6)]">
                 <SvgIcon name={item.icon} className="h-4 w-4 text-emerald-300" />
                 {isAr ? item.ar : item.en}
               </span>
             ))}
           </div>
-        </div>
-
-        <div className="relative mx-auto min-w-0 w-full max-w-[610px] lg:mx-0">
-          <div className="absolute -inset-8 rounded-full bg-blue-400/15 blur-3xl" aria-hidden="true" />
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/15 bg-white/[0.09] p-3 shadow-[0_35px_100px_rgba(0,0,0,.42)] backdrop-blur-xl sm:p-4">
-            <Link
-              href={localePath(locale, '/anker/wall-chargers/anker-nano-45w-smart-display-charger')}
-              className="group relative block overflow-hidden rounded-[1.55rem]"
-              style={{ backgroundImage: 'radial-gradient(130% 105% at 50% 0%, #ffffff 0%, #f7f9fc 58%, #eef2f8 100%)' }}
-            >
-              <div className="relative aspect-[1.13/1] min-h-[360px] sm:min-h-[430px]">
-                {/* Studio floor shadow grounds the product like a lit set —
-                    inline-styled so it never depends on the CSS build. */}
-                <div
-                  aria-hidden="true"
-                  className="absolute inset-x-0"
-                  style={{
-                    bottom: '20%',
-                    height: '8%',
-                    margin: '0 24%',
-                    background: 'radial-gradient(50% 100% at 50% 50%, rgba(15,23,42,.18), transparent 72%)',
-                    filter: 'blur(7px)',
-                  }}
-                />
-                <Image
-                  src="/images/home/cutouts/anker-nano-45w-smart-display-charger-cutout-cairovolt.png"
-                  alt={isAr ? 'شاحن انكر نانو 45 واط الذكي بشاشة تفاعلية' : 'Anker Nano 45W smart charger with interactive display'}
-                  fill
-                  priority
-                  fetchPriority="high"
-                  sizes="(max-width: 1024px) 90vw, 560px"
-                  className="object-contain p-8 pb-24 drop-shadow-[0_24px_30px_rgba(15,23,42,.18)] transition duration-700 group-hover:scale-[1.035] sm:p-12 sm:pb-28"
-                />
-                {/* Calm, light info bar: dark-on-light reads softer than the
-                    old black gradient and keeps the whole stage serene. */}
-                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-white via-white/90 to-transparent px-5 pb-5 pt-16 text-[#0b1324] sm:px-7 sm:pb-6">
-                  <div className="mb-2 flex items-center justify-between gap-4">
-                    <span className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-[11px] font-bold uppercase tracking-[.16em] text-blue-700">
-                      {isAr ? 'انكر' : 'Anker'}
-                    </span>
-                    <span className="text-sm text-slate-500">{isAr ? 'شاشة ذكية تفاعلية' : 'Smart interactive display'}</span>
-                  </div>
-                  <div className="flex items-end justify-between gap-4">
-                    <div>
-                      <h2 className="font-outfit text-2xl font-bold sm:text-3xl">{isAr ? 'نانو 45 واط الذكي' : 'Nano 45W Smart'}</h2>
-                      <p className="mt-1 text-sm text-slate-500">{isAr ? 'GaN · يعرض قوة الشحن لحظة بلحظة' : 'GaN · live charging readout'}</p>
-                    </div>
-                    <div className="whitespace-nowrap text-end">
-                      <span className="font-outfit text-2xl font-bold">{formatPrice('anker-nano-45w-smart-display-charger')}</span>
-                      <span className="ms-1 text-xs text-slate-500">{isAr ? 'ج.م' : 'EGP'}</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          <Link
-            href={localePath(locale, '/soundcore/audio/anker-soundcore-r50i-nc')}
-            className={`absolute -top-7 hidden w-[190px] items-center gap-3 rounded-2xl border border-white/15 bg-[#0b1324]/90 p-3 shadow-2xl backdrop-blur-xl transition hover:-translate-y-1 sm:flex ${isAr ? '-left-5' : '-right-5'}`}
-          >
-            <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-slate-100 to-slate-300">
-              <Image
-                src="/images/home/cutouts/soundcore-r50i-nc-anc-earbuds-cutout-cairovolt.png"
-                alt={isAr ? 'ساوندكور R50i NC' : 'Soundcore R50i NC'}
-                fill
-                sizes="56px"
-                className="object-contain p-1 drop-shadow-sm"
-              />
-            </span>
-            <span className="min-w-0">
-              <span className="block text-[10px] font-semibold uppercase tracking-wider text-cyan-300">{isAr ? 'ساوندكور' : 'Soundcore'}</span>
-              <span className="block truncate text-xs font-semibold text-white">R50i NC</span>
-              <span className="block text-[11px] text-slate-400">{formatPrice('anker-soundcore-r50i-nc')} {isAr ? 'ج.م' : 'EGP'}</span>
-            </span>
-          </Link>
-
-          <Link
-            href={localePath(locale, '/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station')}
-            className={`absolute -bottom-12 hidden w-[215px] items-center gap-3 rounded-2xl border border-white/15 bg-[#0b1324]/90 p-3 shadow-2xl backdrop-blur-xl transition hover:-translate-y-1 sm:flex ${isAr ? '-right-6' : '-left-6'}`}
-          >
-            <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-slate-100 to-slate-300">
-              <Image
-                src="/images/home/cutouts/joyroom-3-in-1-wireless-charging-station-cutout-cairovolt.png"
-                alt={isAr ? 'محطة شحن جوي روم لاسلكية 3 في 1' : 'Joyroom 3-in-1 Wireless Station'}
-                fill
-                sizes="56px"
-                className="object-contain p-1 drop-shadow-sm"
-              />
-            </span>
-            <span className="min-w-0">
-              <span className="block text-[10px] font-semibold uppercase tracking-wider text-emerald-300">{isAr ? 'جوي روم' : 'Joyroom'}</span>
-              <span className="block truncate text-xs font-semibold text-white">{isAr ? 'محطة شحن 3 في 1' : '3-in-1 Station'}</span>
-              <span className="block text-[11px] text-slate-400">{formatPrice('joyroom-3-in-1-wireless-charging-station')} {isAr ? 'ج.م' : 'EGP'}</span>
-            </span>
-          </Link>
         </div>
       </div>
     </section>

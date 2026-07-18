@@ -48,7 +48,7 @@ const NOT_FOUND_HTML = `<!DOCTYPE html>
 // clone with HTTP 200 (soft-404), edge-cached for a year.
 // MAINTENANCE: extend only when shipping a NEW public-file extension.
 const STATIC_ASSET_EXTENSIONS =
-    /\.(?:js|css|map|png|jpe?g|webp|avif|gif|svg|ico|txt|xml|json|csv|webmanifest|woff2?|ttf|pdf)$/i;
+    /\.(?:js|css|map|png|jpe?g|webp|avif|gif|svg|ico|txt|xml|json|csv|webmanifest|woff2?|ttf|pdf|mp4|webm|m4v|mov|ogg|ogv|mp3|m4a|wav)$/i;
 
 export default function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
