@@ -390,7 +390,7 @@ export default function CategoryTemplate({
                                             </span>
                                         )}
                                     </div>
-                                    <span className={`w-6 h-6 rounded-full flex items-center justify-center ${brandColorClass} text-white shadow-sm text-xs`}>
+                                    <span className={`w-6 h-6 rounded-full flex items-center justify-center bg-gradient-to-br ${brandColorClass} text-white shadow-sm text-xs`}>
                                         →
                                     </span>
                                 </div>
