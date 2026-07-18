@@ -141,6 +141,13 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             contentUrl: getAbsoluteUrl(img.url, baseUrl),
             ...(img.width ? { width: img.width } : {}),
             ...(img.height ? { height: img.height } : {}),
+            // CairoVolt owns its product photography — declare the license so
+            // Google's "license" field is satisfied (clears the Image Metadata
+            // warning + enables the licensable-image feature).
+            license: `${baseUrl}/terms`,
+            acquireLicensePage: `${baseUrl}/contact`,
+            creditText: 'CairoVolt',
+            copyrightNotice: 'CairoVolt',
         })),
         // Product specifications supplied by the catalogue.
         ...(specifications && Object.keys(specifications).length > 0 && {

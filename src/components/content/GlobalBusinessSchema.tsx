@@ -57,6 +57,10 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     width: 1024,
                     height: 1024,
                     caption: 'CairoVolt',
+                    license: 'https://cairovolt.com/terms',
+                    acquireLicensePage: 'https://cairovolt.com/contact',
+                    creditText: 'CairoVolt',
+                    copyrightNotice: 'CairoVolt',
                 },
                 email: 'info@cairovolt.com',
                 // Locality-level HQ address — matches the published legal identity

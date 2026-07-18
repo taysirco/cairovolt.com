@@ -56,6 +56,13 @@ export function ImageObjectSchema({
             ...(image.width ? { width: image.width } : {}),
             ...(image.height ? { height: image.height } : {}),
             isPartOf: { '@type': 'WebPage', '@id': productUrl },
+            // CairoVolt shoots/processes its own product photography, so declare
+            // the license (satisfies Google's image "license" field + enables the
+            // licensable-image feature). Terms = all-rights-reserved statement.
+            license: `${baseUrl}/terms`,
+            acquireLicensePage: `${baseUrl}/contact`,
+            creditText: 'CairoVolt',
+            copyrightNotice: 'CairoVolt',
         };
     });
 
