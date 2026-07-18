@@ -37,6 +37,8 @@ interface FeedProduct {
     productType: string;
     condition: string;
     shippingPrice: number;
+    additionalImages: string[];
+    highlights: string[];
 }
 
 // Google product taxonomy (full text paths) — only confidently-mapped categories;
@@ -48,7 +50,23 @@ const GOOGLE_CATEGORY: Record<string, string> = {
     'cables': 'Electronics > Electronics Accessories > Cables',
     'audio': 'Electronics > Audio > Audio Components > Headphones & Headsets',
     'speakers': 'Electronics > Audio > Audio Components > Speakers',
+    // Previously unmapped → no google_product_category was emitted (Merchant tip).
+    'car-holders': 'Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Mounts & Stands',
+    'car-accessories': 'Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Mounts & Stands',
+    'smart-watches': 'Electronics > Electronics Accessories > Wearable Technology',
 };
+
+/** Strip HTML + entities to clean plain text for the feed description. */
+function stripHtmlToText(s: string): string {
+    return s
+        .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, ' ')
+        .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, ' ')
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+        .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
 
 // Records without a stable landing page, and documented regional-name aliases,
 // are kept out of Merchant so each submitted offer has one unambiguous page.
@@ -68,8 +86,30 @@ function getProducts(): FeedProduct[] {
         const arName = localizeArabicBrandNames(
             p.translations?.ar?.name || p.slug.replace(/-/g, ' '),
         );
-        const arDesc = localizeArabicBrandNames(p.translations?.ar?.shortDescription || '');
+        // Rich description: short lead + the full (stripped) body copy that already
+        // powers the product page, instead of the ~150-char shortDescription the
+        // feed used before (Merchant "add missing details to 26 products"). Reuses
+        // the already-neutralized copy verbatim — no new performance claims.
+        const arShort = localizeArabicBrandNames(p.translations?.ar?.shortDescription || '');
+        const arBody = stripHtmlToText(localizeArabicBrandNames(p.translations?.ar?.description || ''));
+        const richDesc = (arBody ? (arShort ? `${arShort}\n\n${arBody}` : arBody) : arShort)
+            .trim()
+            .substring(0, 2000);
+        // Product highlights from the existing feature bullets (strip the leading emoji).
+        const features = (p.translations?.ar as { features?: string[] } | undefined)?.features || [];
+        const highlights = features
+            .map((f) => localizeArabicBrandNames(String(f)).replace(/^[^\p{L}\p{N}]+/u, '').trim())
+            .filter(Boolean)
+            .slice(0, 10)
+            .map((h) => h.substring(0, 150));
+        const toAbs = (u: string) => (u.startsWith('http') ? u : `https://cairovolt.com${u}`);
         const primaryImage = p.images?.find((img) => img.isPrimary)?.url || p.images?.[0]?.url || '';
+        // All non-primary product images → g:additional_image_link (Google cap 10).
+        const additionalImages = (p.images || [])
+            .filter((img) => !img.isPrimary && !!img.url)
+            .map((img) => toAbs(img.url))
+            .filter((u) => u !== toAbs(primaryImage))
+            .slice(0, 10);
         const gtin = getMerchantGtin(
             (p as Record<string, unknown>).gtin13 as string | undefined,
             (p as Record<string, unknown>).gtin as string | undefined,
@@ -82,7 +122,7 @@ function getProducts(): FeedProduct[] {
             // deterministic, collision-free ID.
             id: p.sku && skuCounts.get(p.sku) === 1 ? p.sku : p.slug,
             title: arName.substring(0, 150),
-            description: arDesc.substring(0, 5000),
+            description: richDesc,
             link: getMerchantProductUrl(p),
             imageLink: primaryImage.startsWith('http')
                 ? primaryImage
@@ -101,6 +141,8 @@ function getProducts(): FeedProduct[] {
             // threshold. Google explicitly allows a non-excessive
             // overestimate when one nationwide feed rate is required.
             shippingPrice: p.price >= FREE_SHIPPING_THRESHOLD ? 0 : STANDARD_SHIPPING_MAX_EGP,
+            additionalImages,
+            highlights,
         };
     });
 }
@@ -135,12 +177,14 @@ export async function GET() {
       <description><![CDATA[${cdataEscape(p.description)}]]></description>
       <link>${xmlEscape(p.link)}</link>
       <g:image_link>${xmlEscape(p.imageLink)}</g:image_link>
+      ${p.additionalImages.map((u) => `<g:additional_image_link>${xmlEscape(u)}</g:additional_image_link>`).join('\n      ')}
       <g:price>${formatMoney(p.price)}</g:price>
       <g:availability>${p.availability}</g:availability>
       <g:condition>${p.condition}</g:condition>
       <g:brand>${xmlEscape(p.brand)}</g:brand>
       ${p.googleCategory ? `<g:google_product_category>${xmlEscape(p.googleCategory)}</g:google_product_category>` : ''}
       <g:product_type>${xmlEscape(p.productType)}</g:product_type>
+      ${p.highlights.map((h) => `<g:product_highlight>${xmlEscape(h)}</g:product_highlight>`).join('\n      ')}
       <g:custom_label_0>CairoVolt Catalog</g:custom_label_0>
       <g:custom_label_1>Cash on Delivery Egypt</g:custom_label_1>
       ${p.gtin ? `<g:gtin>${xmlEscape(p.gtin)}</g:gtin>` : ''}
