@@ -61,11 +61,6 @@ export default function Footer() {
                         </a>
                         <p className="mt-2 text-[11px] leading-relaxed text-gray-500 dark:text-gray-400">
                             {isRTL
-                                ? 'متجر إلكتروني مصري مستقل بتوصيل سريع لكل المحافظات. نبيع منتجات أصلية من علامات عالمية بصفتنا بائع تجزئة مستقلًا عن الشركات المصنّعة، وكل طلب بفاتورة وضمان متجر مكتوب.'
-                                : 'An independent Egyptian online store with fast nationwide delivery. We retail genuine products from global brands as a retailer independent of the manufacturers, and every order ships with an invoice and a written store warranty.'}
-                        </p>
-                        <p className="mt-1 text-[11px] leading-relaxed text-gray-500 dark:text-gray-400">
-                            {isRTL
                                 ? 'كايرو فولت علامة تجارية تتبع شركة تيسير للاستثمار الذكي (ش.ذ.م.م) — سجل تجاري رقم 8446، رقم التسجيل الضريبي 777471566.'
                                 : 'CairoVolt is a brand of Taysir Smart Investment LLC — Commercial Register No. 8446, Tax Registration No. 777471566.'}
                         </p>
@@ -309,15 +304,31 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* About Us Summary */}
+                {/* Certifications & awards of the brands we carry — attributed to the
+                    brands (not CairoVolt), verified items only, for buyer trust. */}
                 <div className="border-t border-gray-200 dark:border-gray-800 pt-6 pb-4">
-                    <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed text-center max-w-4xl mx-auto">
-                        <span>
-                            {isRTL
-                                ? 'كايرو فولت (CairoVolt) متجر إلكتروني متخصص في منتجات انكر وجوي روم وإكسسوارات الموبايل والشحن، مع توصيل داخل مصر وشروط ضمان مكتوبة.'
-                                : 'CairoVolt is an online retailer specializing in Anker and Joyroom products, mobile accessories, and charging, with delivery in Egypt and written warranty terms.'}
-                        </span>
+                    <p className="mb-4 text-center text-[11px] font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                        {isRTL
+                            ? 'العلامات التي نوفّرها حاصلة على اعتمادات وجوائز عالمية'
+                            : 'The brands we carry hold international certifications & awards'}
                     </p>
+                    <div className="mx-auto max-w-4xl space-y-2.5">
+                        {[
+                            { brand: isRTL ? 'انكر' : 'Anker', items: ['CES Innovation Award', 'Red Dot', 'iF Design', 'Apple MFi', 'Qi2 Certified', 'TÜV Safety'] },
+                            { brand: isRTL ? 'ساوندكور' : 'Soundcore', items: ['Hi-Res Audio', 'CES Innovation Award', 'Red Dot', 'iF Design'] },
+                            { brand: isRTL ? 'جوي روم' : 'Joyroom', items: ['CE', 'FCC Certified', 'GaN Technology'] },
+                        ].map((g) => (
+                            <div key={g.brand} className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1.5">
+                                <span className="text-xs font-bold text-gray-700 dark:text-gray-300">{g.brand}</span>
+                                <span className="text-gray-300 dark:text-gray-600" aria-hidden="true">·</span>
+                                {g.items.map((it) => (
+                                    <span key={it} className="rounded-full border border-gray-200 bg-white px-2.5 py-0.5 text-[11px] text-gray-600 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300">
+                                        {it}
+                                    </span>
+                                ))}
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
                 {/* Payment Method — COD statement (wording mirrors the Terms & TrustRibbon copy) */}
