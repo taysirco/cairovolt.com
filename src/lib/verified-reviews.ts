@@ -699,7 +699,7 @@ async function filterOrderBackedReviews(
         data(): Record<string, unknown>;
     }>,
 ): Promise<VerifiedReview[]> {
-    const candidates = documents
+    const allCandidates = documents
         .map(document => ({
             data: document.data(),
             review: parseVerifiedReview(document.id, document.data()),
@@ -708,7 +708,15 @@ async function filterOrderBackedReviews(
             candidate.review !== null
         ));
 
-    if (candidates.length === 0) return [];
+    // ⭐ النظام المبسّط: تقييمات صفحة المنتج الموقَّعة بجوجل (authProvider) بوابتها
+    //    هي مراجعة الأدمن (status=approved في الاستعلام) — لا تشترط ربط طلب مُسلَّم.
+    //    التقييمات القديمة (token-era) تبقى على فحص الطلب الصارم كما هي.
+    const directApproved = allCandidates
+        .filter(c => typeof c.data.authProvider === 'string' && c.data.authProvider)
+        .map(c => c.review);
+    const candidates = allCandidates.filter(c => !(typeof c.data.authProvider === 'string' && c.data.authProvider));
+
+    if (candidates.length === 0) return directApproved;
 
     const orderRefs = candidates.map(candidate => (
         db.collection('orders').doc(candidate.review.orderDocId)
@@ -757,12 +765,15 @@ async function filterOrderBackedReviews(
         },
     ));
 
-    return candidates.flatMap((candidate, index) => {
+    const legacyBacked = candidates.flatMap((candidate, index) => {
         const resolvedOrderDocId = resolvedOrderDocIds.get(index);
         return resolvedOrderDocId
             ? [{ ...candidate.review, orderDocId: resolvedOrderDocId }]
             : [];
     });
+    // دمج الجديد (موقَّع جوجل + معتمَد) مع القديم (مربوط بطلب) مرتّبين بالأحدث
+    return [...directApproved, ...legacyBacked]
+        .sort((a, b) => b.reviewDate.getTime() - a.reviewDate.getTime());
 }
 
 // ============================================

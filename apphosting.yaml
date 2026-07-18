@@ -22,6 +22,14 @@ env:
     availability:
       - RUNTIME
 
+  # ⭐ تسجيل دخول جوجل لتقييمات صفحات المنتجات (Google Identity Services) —
+  #    معرّف عميل OAuth عام بطبيعته (يظهر في الصفحة)، BUILD لأن NEXT_PUBLIC يُدمج وقت البناء.
+  - variable: NEXT_PUBLIC_GOOGLE_CLIENT_ID
+    value: 898767728147-0g8lb16hfkcipnqh3v36fs5ft98p4p2j.apps.googleusercontent.com
+    availability:
+      - BUILD
+      - RUNTIME
+
   - variable: CRM_WEBHOOK_URL
     value: https://crm--my-crm-bfac7.asia-southeast1.hosted.app/api/webhook/new-lead
     availability:

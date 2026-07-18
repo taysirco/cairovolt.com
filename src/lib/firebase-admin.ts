@@ -1,5 +1,6 @@
 import { applicationDefault, initializeApp, getApps, cert, App } from 'firebase-admin/app';
 import { getFirestore as getFirestoreInternal, Firestore } from 'firebase-admin/firestore';
+import { getStorage } from 'firebase-admin/storage';
 
 let adminApp: App | null = null;
 let firestoreInstance: Firestore | null = null;
@@ -39,4 +40,12 @@ export async function getFirestore(): Promise<Firestore> {
 
     firestoreInstance = getFirestoreInternal(adminApp, databaseId);
     return firestoreInstance;
+}
+
+/** دلو التخزين الافتراضي — صور تقييمات العملاء (تُخدَم بتوكن تنزيل + كاش سنة) */
+export async function getStorageBucket() {
+    await getFirestore(); // يضمن تهيئة التطبيق
+    const bucketName = process.env.FIREBASE_STORAGE_BUCKET
+        || `${process.env.FIREBASE_PROJECT_ID || 'gadgets-b0bdb'}.firebasestorage.app`;
+    return getStorage(adminApp!).bucket(bucketName);
 }

@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import ReviewComposer from '@/components/reviews/ReviewComposer';
 
 export interface Review {
     id: string;
@@ -12,6 +13,7 @@ export interface Review {
     reviewText: string;
     pros?: string[];
     cons?: string[];
+    images?: string[];   // صور العميل — مضغوطة، تُعرض مصغّرات كسولة
     reviewDate: string;
     governorate: string;
     isVerified: boolean;
@@ -27,13 +29,15 @@ interface VerifiedReviewsProps {
     locale: string;
     // Server-fetched, purchase-verified data (same source as the JSON-LD),
     // passed down so review text is present in the server-rendered HTML and
-    // no duplicate /api/reviews fetch is needed. The /api/reviews endpoint
-    // remains for the token-gated review submission flow.
+    // no duplicate /api/reviews fetch is needed.
     initialReviews: Review[];
     initialAggregateRating: AggregateRating | null;
+    // ⭐ النظام المبسّط: كاتب التقييم يعيش على صفحة المنتج نفسها
+    productSlug?: string;
+    productName?: string;
 }
 
-export default function VerifiedReviews({ locale, initialReviews, initialAggregateRating }: VerifiedReviewsProps) {
+export default function VerifiedReviews({ locale, initialReviews, initialAggregateRating, productSlug, productName }: VerifiedReviewsProps) {
     const isArabic = locale === 'ar';
     const localizeReviewText = (text: string) => isArabic
         ? localizeArabicBrandNames(text)
@@ -71,6 +75,9 @@ export default function VerifiedReviews({ locale, initialReviews, initialAggrega
                             : 'No reviews yet. Buy now and share your experience!'}
                     </p>
                 </div>
+                {productSlug && (
+                    <ReviewComposer productSlug={productSlug} productName={productName || ''} locale={locale} />
+                )}
                 <style jsx>{`
                     .verified-reviews--empty {
                         padding: 32px;
@@ -107,9 +114,14 @@ export default function VerifiedReviews({ locale, initialReviews, initialAggrega
             </h3>
             <p className="review-disclosure">
                 {isArabic
-                    ? 'التقييمات مرتبطة بطلبات تم توصيلها. يُعرض كود شكر واحد لأي تقييم يُرسل، سواء كان إيجابيًا أو سلبيًا.'
-                    : 'Reviews are linked to delivered orders. The same thank-you code is offered for every submitted review, positive or negative.'}
+                    ? 'تُراجَع كل التقييمات قبل النشر. هدية كوبون 5% تُرسل لأي تقييم يُعتمد، سواء كان إيجابيًا أو سلبيًا.'
+                    : 'All reviews are moderated before publishing. A 5% coupon gift is sent for every approved review, positive or negative.'}
             </p>
+
+            {/* ⭐ اكتب تقييمك — تسجيل جوجل + صور مضغوطة + هدية 5% بعد الموافقة */}
+            {productSlug && (
+                <ReviewComposer productSlug={productSlug} productName={productName || ''} locale={locale} />
+            )}
 
             {/* Aggregate Rating */}
             {aggregateRating && (
@@ -154,6 +166,20 @@ export default function VerifiedReviews({ locale, initialReviews, initialAggrega
                         )}
 
                         <p className="review-text">{localizeReviewText(review.reviewText)}</p>
+
+                        {/* 📷 صور العميل — مصغّرات كسولة لا تُثقل الصفحة، النقر يفتح الأصل */}
+                        {review.images && review.images.length > 0 && (
+                            <div className="flex gap-2 mt-2 flex-wrap">
+                                {review.images.map((src, i) => (
+                                    <a key={i} href={src} target="_blank" rel="noopener nofollow">
+                                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                                        <img src={src} alt={isArabic ? 'صورة من العميل' : 'Customer photo'}
+                                            loading="lazy" decoding="async" width={80} height={80}
+                                            className="h-20 w-20 object-cover rounded-lg border border-gray-200 dark:border-gray-700" />
+                                    </a>
+                                ))}
+                            </div>
+                        )}
 
                         {/* Pros & Cons */}
                         <div className="review-pros-cons">

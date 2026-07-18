@@ -190,6 +190,7 @@ const getCachedVerifiedReviews = unstable_cache(
             governorate: r.governorate,
             isVerified: r.isVerified,
             helpfulCount: r.helpfulCount,
+            ...(r.images && r.images.length ? { images: r.images } : {}),
         }));
     },
     ['verified-reviews-schema'],
