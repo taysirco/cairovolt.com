@@ -126,7 +126,7 @@ export default function Header() {
                                     height={89}
                                     loading="eager"
                                     sizes="(max-width: 768px) 120px, 160px"
-                                    className="object-contain h-[50px] md:h-[58px] w-auto dark:[filter:brightness(0)_invert(1)]"
+                                    className="object-contain h-[57.5px] md:h-[58px] w-auto dark:[filter:brightness(0)_invert(1)]"
                                 />
                         </div>
                         <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-300 dark:to-indigo-300 bg-clip-text text-transparent hidden sm:inline">
@@ -294,7 +294,7 @@ export default function Header() {
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={() => trackWhatsappClick('header')}
-                            className="md:hidden flex items-center justify-center p-2 sm:p-2.5 bg-green-700 hover:bg-green-600 text-white rounded-xl transition-colors touch-target"
+                            className="md:hidden flex items-center justify-center p-2 sm:p-2.5 bg-green-700 hover:bg-green-600 text-white rounded-xl transition-colors touch-target scale-[0.85]"
                             aria-label={isRTL ? 'تواصل معنا عبر واتساب' : 'Chat with us on WhatsApp'}
                             suppressHydrationWarning
                         >
