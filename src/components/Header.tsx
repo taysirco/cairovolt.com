@@ -129,9 +129,6 @@ export default function Header() {
                                     className="object-contain h-[57.5px] md:h-[58px] w-auto dark:[filter:brightness(0)_invert(1)]"
                                 />
                         </div>
-                        <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-300 dark:to-indigo-300 bg-clip-text text-transparent hidden sm:inline">
-                            {isRTL ? 'كايرو فولت' : 'CairoVolt'}
-                        </span>
                     </Link>
 
                     {/* Desktop Navigation */}
