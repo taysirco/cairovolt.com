@@ -270,7 +270,12 @@ interface ItemListProps {
 // Each ListItem nests a Product entity (image + Offer) so category pages carry
 // per-product markup, mirroring the Offer pattern used by ProductSchema on PDPs.
 export function ItemListSchema({ listName, items }: ItemListProps) {
-    const baseUrl = 'https://cairovolt.com';
+    // Summary-page ItemList (Google's recommended pattern for category/brand
+    // list pages): each entry is just a position + the product URL, and the
+    // product page itself carries the full, valid merchant-listing markup.
+    // The previous version nested a thin Product+Offer here (no brand,
+    // description, shippingDetails, or hasMerchantReturnPolicy), which Google's
+    // Merchant listings report flagged as incomplete on ~69 category items.
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
@@ -280,28 +285,7 @@ export function ItemListSchema({ listName, items }: ItemListProps) {
         itemListElement: items.map((item) => ({
             '@type': 'ListItem',
             position: item.position,
-            item: {
-                '@type': 'Product',
-                name: item.name,
-                url: item.url,
-                // Only emit an image when the catalogue provides one — no placeholder URLs.
-                ...(item.image && {
-                    image: /^https?:\/\//i.test(item.image) ? item.image : `${baseUrl}${item.image}`,
-                }),
-                offers: {
-                    '@type': 'Offer',
-                    url: item.url,
-                    priceCurrency: 'EGP',
-                    price: item.price,
-                    // Availability is asserted only from a real stock flag,
-                    // never defaulted, so the markup stays truthful.
-                    ...(typeof item.inStock === 'boolean' && {
-                        availability: item.inStock
-                            ? 'https://schema.org/InStock'
-                            : 'https://schema.org/OutOfStock',
-                    }),
-                },
-            },
+            url: item.url,
         })),
     };
 

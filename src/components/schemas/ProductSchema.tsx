@@ -100,6 +100,16 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         'Joyroom': { name: 'JOYROOM', sameAs: 'https://www.joyroom.com/pages/about-joyroom' },
     };
 
+    // Google merchant listings want an offer price-validity date; refresh it a
+    // year out from each build so it never reads as expired.
+    const priceValidUntil = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000)
+        .toISOString()
+        .split('T')[0];
+    // Store-wide shipping (mirrors the feed + the site policy): free from 3700 EGP,
+    // otherwise a conservative flat 130 EGP within Egypt, 1-5 day transit.
+    const FREE_SHIPPING_THRESHOLD_EGP = 3700;
+    const shippingRateValue = product.price >= FREE_SHIPPING_THRESHOLD_EGP ? 0 : 130;
+
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
@@ -154,6 +164,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             url: productUrl,
             priceCurrency: 'EGP',
             price: product.price,
+            priceValidUntil,
             availability: product.stock > 0
                 ? 'https://schema.org/InStock'
                 : 'https://schema.org/OutOfStock',
@@ -163,13 +174,44 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 name: 'Egypt',
             },
             seller: { '@id': 'https://cairovolt.com/#organization' },
-            // Reference the standard store-wide shipping policy declared on
-            // the Organization node.
+            // Inline the shipping + return details (Google's merchant-listings
+            // validator does not resolve cross-<script> @id references, so a
+            // bare @id read as "missing shippingDetails/hasMerchantReturnPolicy").
             shippingDetails: {
                 '@type': 'OfferShippingDetails',
-                hasShippingService: { '@id': 'https://cairovolt.com/#shipping-egypt' },
+                shippingRate: {
+                    '@type': 'MonetaryAmount',
+                    value: shippingRateValue,
+                    currency: 'EGP',
+                },
+                shippingDestination: {
+                    '@type': 'DefinedRegion',
+                    addressCountry: 'EG',
+                },
+                deliveryTime: {
+                    '@type': 'ShippingDeliveryTime',
+                    handlingTime: {
+                        '@type': 'QuantitativeValue',
+                        minValue: 0,
+                        maxValue: 1,
+                        unitCode: 'DAY',
+                    },
+                    transitTime: {
+                        '@type': 'QuantitativeValue',
+                        minValue: 1,
+                        maxValue: 5,
+                        unitCode: 'DAY',
+                    },
+                },
             },
-            hasMerchantReturnPolicy: { '@id': 'https://cairovolt.com/#return-policy' },
+            hasMerchantReturnPolicy: {
+                '@type': 'MerchantReturnPolicy',
+                applicableCountry: 'EG',
+                returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+                merchantReturnDays: 14,
+                returnMethod: 'https://schema.org/ReturnByMail',
+                returnFees: 'https://schema.org/ReturnFeesCustomerResponsibility',
+            },
             acceptedPaymentMethod: 'http://purl.org/goodrelations/v1#COD',
         },
         // Dynamic Aggregate Rating - ONLY included if real reviews exist

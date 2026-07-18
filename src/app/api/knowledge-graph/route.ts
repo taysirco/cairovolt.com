@@ -118,6 +118,13 @@ export async function GET() {
         headers: {
             'Content-Type': 'application/ld+json',
             'Cache-Control': 'public, s-maxage=86400',
+            // This is a machine/AI entity graph, not a Search rich-result source.
+            // Its Product nodes are intentionally identity-only (name/url/brand,
+            // no offers), which Google's Product-snippets validator flags as
+            // "Either offers, review, or aggregateRating should be specified".
+            // noindex keeps it crawlable for AI surfaces (robots.txt still Allows
+            // it) while removing it from Google Search indexing/validation.
+            'X-Robots-Tag': 'noindex',
         },
     });
 }
