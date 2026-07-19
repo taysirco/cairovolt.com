@@ -295,6 +295,8 @@ export default function VerifiedReviews({ locale, initialReviews, initialAggrega
                 .star { color: #d1d5db; font-size: 18px; line-height: 1; }
                 :global(.dark) .star { color: #475569; }
                 .star--filled { color: #fbbf24; }
+                /* أعلى تخصيصاً من ‎.dark .star‎ حتى تبقى النجوم الممتلئة ذهبية بالوضع الداكن */
+                :global(.dark) .star--filled { color: #fbbf24; }
                 .reviews-list {
                     display: flex;
                     flex-direction: column;
