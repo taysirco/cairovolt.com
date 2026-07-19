@@ -172,7 +172,7 @@ export const car_charger_toyota_corolla_hyundai_tucson_kia_cerato: BlogArticle =
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        جميع موديلات شواحن السيارة من أنكر وجوي روم أصلية 100% وبضمان 18 شهر استبدال فوري. تصفح <a href="/joyroom/car-chargers" style="color:#2563eb;font-weight:600;">شواحن سيارة جوي روم</a> و <a href="/anker/car-chargers" style="color:#2563eb;font-weight:600;">شواحن سيارة انكر</a> واشحن أجهزتك بأمان في صيف مصر. التوصيل متوفر لجميع المحافظات خلال 24 إلى 72 ساعة والدفع عند الاستلام.
+        جميع موديلات شواحن السيارة من أنكر وجوي روم أصلية 100% وبضمان 18 شهر استبدال فوري. تصفح <a href="/anker/car-chargers" style="color:#2563eb;font-weight:600;">شواحن سيارة جوي روم</a> و <a href="/anker/car-chargers" style="color:#2563eb;font-weight:600;">شواحن سيارة انكر</a> واشحن أجهزتك بأمان في صيف مصر. التوصيل متوفر لجميع المحافظات خلال 24 إلى 72 ساعة والدفع عند الاستلام.
     </p>
 </div>
 
@@ -354,7 +354,7 @@ The Cerato needs a charger with precise physical dimensions and long, high-tensi
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All our car chargers from Anker and Joyroom are 100% original and backed by an 18-month instant replacement warranty. Browse our <a href="/en/joyroom/car-chargers" style="color:#2563eb;font-weight:600;">Joyroom Car Chargers</a> and <a href="/en/anker/car-chargers" style="color:#2563eb;font-weight:600;">Anker Car Chargers</a> to charge safely during the Egyptian summer. Fast shipping is available to all governorates within 24 to 72 hours, with cash on delivery.
+        All our car chargers from Anker and Joyroom are 100% original and backed by an 18-month instant replacement warranty. Browse our <a href="/en/anker/car-chargers" style="color:#2563eb;font-weight:600;">Joyroom Car Chargers</a> and <a href="/en/anker/car-chargers" style="color:#2563eb;font-weight:600;">Anker Car Chargers</a> to charge safely during the Egyptian summer. Fast shipping is available to all governorates within 24 to 72 hours, with cash on delivery.
     </p>
 </div>
 

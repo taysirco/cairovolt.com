@@ -270,7 +270,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 <div class="cta-box" style="background:linear-gradient(135deg,#1e40af 0%,#3b82f6 100%);border-radius:12px;padding:32px 24px;margin:32px 0;text-align:center;">
     <p style="font-size:20px;font-weight:700;color:#fff;margin:0 0 12px;">🔌 جهّز عربيتك لأي رحلة</p>
     <p style="font-size:15px;color:#dbeafe;margin:0 0 20px;">شواحن سيارة أصلية من انكر وجوي روم — ضمان 18 شهر + توصيل لكل المحافظات.</p>
-    <p style="margin:0;"><a href="/joyroom/car-chargers" style="display:inline-block;background:#fff;color:#1e40af;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">تسوّق شواحن السيارة</a></p>
+    <p style="margin:0;"><a href="/anker/car-chargers" style="display:inline-block;background:#fff;color:#1e40af;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">تسوّق شواحن السيارة</a></p>
 </div>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
@@ -551,7 +551,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 <div class="cta-box" style="background:linear-gradient(135deg,#1e40af 0%,#3b82f6 100%);border-radius:12px;padding:32px 24px;margin:32px 0;text-align:center;">
     <p style="font-size:20px;font-weight:700;color:#fff;margin:0 0 12px;">🔌 Equip Your Car for Any Trip</p>
     <p style="font-size:15px;color:#dbeafe;margin:0 0 20px;">Original car chargers from Anker and Joyroom — 18-month warranty + delivery to all governorates across Egypt.</p>
-    <p style="margin:0;"><a href="/en/joyroom/car-chargers" style="display:inline-block;background:#fff;color:#1e40af;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">Shop Car Chargers</a></p>
+    <p style="margin:0;"><a href="/en/anker/car-chargers" style="display:inline-block;background:#fff;color:#1e40af;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">Shop Car Chargers</a></p>
 </div>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">

@@ -138,7 +138,7 @@ export const car_charger_stops_working_5_causes_fixes: BlogArticle = {
 <p>السوق المصري مليان خيارات، بس لو عايز تشتري شاحن وتنسى مشاكله وتضمن أمان موبايلك، لازم تدور على الـ 4 مواصفات التقنية دي:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🔥 <strong>تقنية GaN (جاليوم نيترايد):</strong> الشواحن الحديثة اللي بتعتمد على GaN بدل السيليكون بتتميز بكفاءة طاقة تتعدى 93%. ده بيترجم لحجم أصغر بنسبة 40%، وحرارة تشغيل أقل بـ 15-20 درجة مئوية. يعني الشاحن مش هيفصل منك في عز الصيف بسبب السخونة. تصفّح <a href="/joyroom/car-chargers" style="color:#2563eb;font-weight:600;">شواحن سيارة جوي روم</a> المعتمدة على تقنيات التوزيع الذكي.</li>
+    <li style="margin-bottom:12px;">🔥 <strong>تقنية GaN (جاليوم نيترايد):</strong> الشواحن الحديثة اللي بتعتمد على GaN بدل السيليكون بتتميز بكفاءة طاقة تتعدى 93%. ده بيترجم لحجم أصغر بنسبة 40%، وحرارة تشغيل أقل بـ 15-20 درجة مئوية. يعني الشاحن مش هيفصل منك في عز الصيف بسبب السخونة. تصفّح <a href="/anker/car-chargers" style="color:#2563eb;font-weight:600;">شواحن سيارة جوي روم</a> المعتمدة على تقنيات التوزيع الذكي.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>أنظمة حماية حرارية وفولتية نشطة:</strong> ابحث عن شواحن بتدعم بروتوكولات حماية زي ActiveShield 2.0 من انكر، واللي بتقيس درجة حرارة الشاحن بمعدل 3 ملايين مرة في اليوم وتظبط القدرة تلقائياً لمنع أي سخونة زائدة.</li>
     <li style="margin-bottom:12px;">🔌 <strong>منافذ USB-C PD (Power Delivery):</strong> منفذ USB-C PD هو المنفذ القياسي الحديث الأمان. بيعمل تفاوض ذكي على الفولت والأمبير مع الموبايل بدقة عالية جداً، على عكس منافذ USB-A التقليدية اللي بتبعت تيار ثابت بدون تفاوض.</li>
     <li style="margin-bottom:12px;">🛠️ <strong>جسم معدني بالكامل (Aluminium/Zinc Alloy):</strong> الشواحن البلاستيكية الرخيصة بتتمدد وبتنكمش مع الحرارة، وده بيخلي الأجنحة الجانبية بتاعتها تضعف وتفقد التلامس مع الوقت. الشاحن المعدني بيحافظ على أبعاده الميكانيكية وبيدخل بإحكام في فتحة الولاعة، بالإضافة لإن المعدن بيساعد على تشتيت الحرارة الداخلية بشكل أفضل بكتير من البلاستيك.</li>
@@ -149,7 +149,7 @@ export const car_charger_stops_working_5_causes_fixes: BlogArticle = {
 <div class="cta-box" style="background:linear-gradient(135deg,#1e40af 0%,#3b82f6 100%);border-radius:12px;padding:32px 24px;margin:32px 0;text-align:center;">
     <p style="font-size:20px;font-weight:700;color:#fff;margin:0 0 12px;">🔌 احمي أجهزتك في عربيتك دلوقتي</p>
     <p style="font-size:15px;color:#dbeafe;margin:0 0 20px;">تسوق شواحن سيارة أصلية 100% من انكر وجوي روم مع ضمان 18 شهر ضد عيوب الصناعة وتوصيل سريع لكل المحافظات.</p>
-    <p style="margin:0;"><a href="/joyroom/car-chargers" style="display:inline-block;background:#fff;color:#1e40af;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">تسوّق شواحن السيارة المعتمدة</a></p>
+    <p style="margin:0;"><a href="/anker/car-chargers" style="display:inline-block;background:#fff;color:#1e40af;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">تسوّق شواحن السيارة المعتمدة</a></p>
 </div>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
@@ -298,7 +298,7 @@ export const car_charger_stops_working_5_causes_fixes: BlogArticle = {
 <p>The Egyptian market is flooded with choices, but if you want to buy a charger, forget about failures, and protect your phone, look for these 4 technical specifications:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🔥 <strong>GaN (Gallium Nitride) Technology:</strong> Modern chargers relying on GaN instead of silicon feature power efficiencies exceeding 93%. This translates to a 40% smaller size and 15-20°C cooler operating temperatures. The charger won't fail in summer due to heat shutdown. Browse <a href="/en/joyroom/car-chargers" style="color:#2563eb;font-weight:600;">Joyroom Car Chargers</a> built with smart power distribution.</li>
+    <li style="margin-bottom:12px;">🔥 <strong>GaN (Gallium Nitride) Technology:</strong> Modern chargers relying on GaN instead of silicon feature power efficiencies exceeding 93%. This translates to a 40% smaller size and 15-20°C cooler operating temperatures. The charger won't fail in summer due to heat shutdown. Browse <a href="/en/anker/car-chargers" style="color:#2563eb;font-weight:600;">Joyroom Car Chargers</a> built with smart power distribution.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>Active Heat and Voltage Protection:</strong> Look for chargers supporting protection protocols like Anker's ActiveShield 2.0, which reads charger temperatures 3 million times a day and dynamically adjusts power to prevent overheating.</li>
     <li style="margin-bottom:12px;">🔌 <strong>USB-C PD (Power Delivery) Ports:</strong> USB-C PD is the modern safety standard. It performs precise voltage and current negotiations with your phone, unlike traditional USB-A ports that send a fixed current without communication.</li>
     <li style="margin-bottom:12px;">🛠️ <strong>Full Metal Body (Aluminum/Zinc Alloy):</strong> Cheap plastic chargers expand and contract with heat, which weakens the side springs and causes loose contact over time. A metal charger maintains its mechanical dimensions, fits securely, and dissipates heat far better than plastic.</li>
@@ -309,7 +309,7 @@ export const car_charger_stops_working_5_causes_fixes: BlogArticle = {
 <div class="cta-box" style="background:linear-gradient(135deg,#1e40af 0%,#3b82f6 100%);border-radius:12px;padding:32px 24px;margin:32px 0;text-align:center;">
     <p style="font-size:20px;font-weight:700;color:#fff;margin:0 0 12px;">🔌 Secure Your Devices in Your Car Today</p>
     <p style="font-size:15px;color:#dbeafe;margin:0 0 20px;">Shop 100% original car chargers from Anker and Joyroom with an 18-month warranty against manufacturing defects and fast delivery to all governorates.</p>
-    <p style="margin:0;"><a href="/en/joyroom/car-chargers" style="display:inline-block;background:#fff;color:#1e40af;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">Shop Certified Car Chargers</a></p>
+    <p style="margin:0;"><a href="/en/anker/car-chargers" style="display:inline-block;background:#fff;color:#1e40af;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">Shop Certified Car Chargers</a></p>
 </div>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
