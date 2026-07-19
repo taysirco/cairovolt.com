@@ -89,13 +89,17 @@ export async function POST(req: NextRequest) {
     // 6) «مشترٍ موثَّق»: الهاتف له طلب في المتجر يحوي هذا المنتج
     let isVerified = false, orderId = '', orderDocId = '', purchaseDate = new Date();
     try {
-        const orders = await db.collection('orders').where('phone', '==', phone.replace(/^2/, '0')).limit(25).get();
+        // الطلبات تخزّن الهاتف بالصيغة الوطنية (01xxxxxxxxx)؛ normalizePhone يخرج دولياً
+        // (2010…) لذا نحوّل بادئة "20" كاملةً إلى "0" — لا "2" وحدها (كانت تنتج 00…).
+        const nationalPhone = phone.replace(/^20/, '0');
+        const orders = await db.collection('orders').where('phone', '==', nationalPhone).limit(25).get();
         for (const doc of orders.docs) {
             const o = doc.data() as Record<string, unknown>;
             const items = Array.isArray(o.items) ? (o.items as Array<Record<string, unknown>>) : [];
+            // مطابقة صارمة فقط: معرّف المنتج أو SKU غير الفارغ — لا مطابقة اسم ضبابية
+            // (كانت تربط منتجات مختلفة تتشارك بادئة الاسم، وSKU الفارغ يطابق أي صنف).
             const hit = items.some(it => String(it.productId || '') === productSlug
-                || String(it.sku || '') === String(product.sku || '')
-                || String(it.name || '').includes(String(product.translations?.ar?.name || product.slug).slice(0, 18)));
+                || (!!product.sku && String(it.sku || '') === String(product.sku)));
             if (hit) {
                 isVerified = true;
                 orderId = String(o.orderId || '');

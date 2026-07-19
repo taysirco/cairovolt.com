@@ -651,12 +651,22 @@ function parseVerifiedReview(id: string, data: Record<string, unknown>): Verifie
     const cons = normalizeList(data.cons, MAX_LIST_ITEMS, MAX_LIST_ITEM_LENGTH);
     const images = normalizeList(data.images, MAX_REVIEW_IMAGES, 500);
 
-    if (data.status !== 'approved' || data.isVerified !== true
-        || !PRODUCT_SLUG_PATTERN.test(productSlug) || !productName
-        || !orderId || !orderDocId || !customerName
+    // 🆕 التقييمات المباشرة (تسجيل دخول جوجل/فيسبوك على صفحة المنتج) بوابتها
+    //    مراجعة الأدمن فقط — قد لا يكون لها طلب مرتبط ولا محافظة ولا "مشترٍ موثَّق".
+    //    التقييمات القديمة (token/order-era) تبقى على الفحص الصارم المرتبط بطلب.
+    const isDirectReview = typeof data.authProvider === 'string' && data.authProvider.length > 0;
+
+    // بوابات مشتركة للنظامين: الاعتماد + محتوى صالح + تاريخ.
+    if (data.status !== 'approved'
+        || !PRODUCT_SLUG_PATTERN.test(productSlug) || !productName || !customerName
         || !Number.isInteger(rating) || rating < 1 || rating > 5
         || reviewText.length < 10 || reviewText.length > MAX_REVIEW_TEXT_LENGTH
-        || !governorate || !reviewDate || !purchaseDate) {
+        || !reviewDate || !purchaseDate) {
+        return null;
+    }
+
+    // النظام القديم فقط: يشترط «مشترٍ موثَّق» + ربط طلب مُسلَّم + محافظة.
+    if (!isDirectReview && (data.isVerified !== true || !orderId || !orderDocId || !governorate)) {
         return null;
     }
 
@@ -684,7 +694,7 @@ function parseVerifiedReview(id: string, data: Record<string, unknown>): Verifie
         }),
         purchaseDate,
         reviewDate,
-        isVerified: true,
+        isVerified: isDirectReview ? data.isVerified === true : true,
         status: 'approved',
         governorate: governorate.slice(0, 80),
         helpfulCount: Number.isInteger(data.helpfulCount) && Number(data.helpfulCount) > 0

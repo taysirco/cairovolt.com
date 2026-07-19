@@ -127,6 +127,15 @@ export default function ModerationPage() {
                                     className="flex-1 py-2 rounded-lg bg-rose-600 text-white font-bold disabled:opacity-50">🚫 رفض</button>
                             </div>
                         )}
+                        {/* تقييم منشور لكن الكوبون لم يصل للعميل → زر إعادة إرسال (idempotent في الـCRM) */}
+                        {tab === 'approved' && r.rewardStatus === 'notify_failed' && (
+                            <div className="pt-1">
+                                <button disabled={busy === r.id} onClick={() => act(r.id, 'approve')}
+                                    className="w-full py-2 rounded-lg bg-amber-500 text-white font-bold disabled:opacity-50">
+                                    {busy === r.id ? '…' : '🔁 إعادة إرسال كوبون 5% (تعذّر أول مرة)'}
+                                </button>
+                            </div>
+                        )}
                     </div>
                 ))}
             </div>
