@@ -10,10 +10,20 @@
  * الحماية: X-Admin-Secret = ADMIN_TASKS_SECRET (نفس نمط /api/reviews/sync).
  */
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidateTag } from 'next/cache';
 import { getFirestore } from '@/lib/firebase-admin';
 
 const json = (body: unknown, status = 200) =>
     NextResponse.json(body, { status, headers: { 'Cache-Control': 'no-store' } });
+
+// يبطل كاش بيانات التقييمات (نفس الوسم الذي يستخدمه seed-reviews) — فشله لا يفشل الإشراف.
+function revalidateReviews() {
+    try {
+        revalidateTag('reviews', 'default');
+    } catch (e) {
+        console.error('[moderate] revalidate reviews failed:', (e as Error).message);
+    }
+}
 
 function isAuthorized(req: NextRequest): boolean {
     const expected = process.env.ADMIN_TASKS_SECRET || '';
@@ -68,11 +78,16 @@ export async function POST(req: NextRequest) {
             moderatedAt: new Date(),
             rewardStatus: 'rejected',
         });
+        revalidateReviews();
         return json({ success: true, status: 'rejected' });
     }
 
     // approve
     await ref.update({ status: 'approved', moderatedAt: new Date() });
+
+    // ♻️ إبطال كاش تقييمات المنتجات فوراً حتى يظهر التقييم المعتمد على صفحة المنتج
+    //    بلا انتظار TTL الساعة (getCachedVerifiedReviews/AggregateRating موسومة بـ'reviews').
+    revalidateReviews();
 
     // 🎁 إخطار الـCRM ليُرسل كوبون 5% (idempotent هناك بمعرّف التقييم)
     let rewardStatus = 'crm_notified';
