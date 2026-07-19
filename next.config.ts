@@ -207,7 +207,7 @@ const nextConfig: NextConfig = {
                     {
                         // Content Security Policy for application and analytics resources.
                         key: 'Content-Security-Policy',
-                        value: "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.tiktok.com https://www.statcounter.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.com.eg https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https: wss:; frame-src 'self' https://www.google.com https://td.doubleclick.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self';",
+                        value: "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.tiktok.com https://www.statcounter.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.com.eg https://static.cloudflareinsights.com https://accounts.google.com https://apis.google.com https://connect.facebook.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https: wss:; frame-src 'self' https://www.google.com https://td.doubleclick.net https://accounts.google.com https://www.facebook.com https://staticxx.facebook.com https://connect.facebook.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self';",
                     },
                 ],
             },
