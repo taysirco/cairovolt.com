@@ -59,6 +59,8 @@ const categoryKeyMap: Record<string, string> = {
     'smart-watches': 'smartWatches',
     'car-holders': 'carHolders',
     'car-accessories': 'carAccessories',
+    'speakers': 'speakers',
+    'accessories': 'accessories',
     'other': 'other',
 };
 

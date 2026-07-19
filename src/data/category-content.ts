@@ -7,6 +7,7 @@ import { anker_power_banks_content } from './category-content/anker/power-banks'
 import { anker_wall_chargers_content } from './category-content/anker/wall-chargers';
 import { anker_cables_content } from './category-content/anker/cables';
 import { anker_car_chargers_content } from './category-content/anker/car-chargers';
+import { anker_accessories_content } from './category-content/anker/accessories';
 // Soundcore (Anker audio sub-brand) — migrated from /anker/{audio,speakers} to /soundcore/{audio,speakers}
 import { soundcore_audio_content } from './category-content/soundcore/audio';
 import { soundcore_speakers_content } from './category-content/soundcore/speakers';
@@ -15,6 +16,7 @@ import { joyroom_power_banks_content } from './category-content/joyroom/power-ba
 import { joyroom_wall_chargers_content } from './category-content/joyroom/wall-chargers';
 import { joyroom_cables_content } from './category-content/joyroom/cables';
 import { joyroom_car_accessories_content } from './category-content/joyroom/car-accessories';
+import { joyroom_car_chargers_content } from './category-content/joyroom/car-chargers';
 import { joyroom_car_holders_content } from './category-content/joyroom/car-holders';
 import { joyroom_smart_watches_content } from './category-content/joyroom/smart-watches';
 
@@ -24,6 +26,7 @@ export const categoryContent: Record<string, Record<string, import("./category-c
         'wall-chargers': anker_wall_chargers_content,
         'cables': anker_cables_content,
         'car-chargers': anker_car_chargers_content,
+        'accessories': anker_accessories_content,
     },
     soundcore: {
         'audio': soundcore_audio_content,
@@ -35,6 +38,7 @@ export const categoryContent: Record<string, Record<string, import("./category-c
         'wall-chargers': joyroom_wall_chargers_content,
         'cables': joyroom_cables_content,
         'car-accessories': joyroom_car_accessories_content,
+        'car-chargers': joyroom_car_chargers_content,
         'car-holders': joyroom_car_holders_content,
         'smart-watches': joyroom_smart_watches_content,
     },
