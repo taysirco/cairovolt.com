@@ -84,6 +84,16 @@ export default function middleware(request: NextRequest) {
         return NextResponse.rewrite(url);
     }
 
+    // Legacy wholesale URL → the real login page. The dashboard HTML is served
+    // by /api/admin/wholesale after auth; /wholesale-dashboard.html was never a
+    // real route (404). Redirect old bookmarks to the login page at /admin/wholesale.
+    if (pathname === '/wholesale-dashboard.html' || pathname === '/wholesale-dashboard') {
+        const url = request.nextUrl.clone();
+        url.pathname = '/admin/wholesale';
+        url.search = '';
+        return NextResponse.redirect(url, { status: 301 });
+    }
+
     // Internal staff pages are not localized or indexable.
     if (pathname.startsWith('/admin')) {
         const response = NextResponse.next();
