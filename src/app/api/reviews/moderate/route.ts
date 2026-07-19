@@ -12,6 +12,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { revalidateTag } from 'next/cache';
 import { getFirestore } from '@/lib/firebase-admin';
+import { isAdminSessionValid } from '@/lib/admin-session';
 
 const json = (body: unknown, status = 200) =>
     NextResponse.json(body, { status, headers: { 'Cache-Control': 'no-store' } });
@@ -26,6 +27,8 @@ function revalidateReviews() {
 }
 
 function isAuthorized(req: NextRequest): boolean {
+    // جلسة أدمن بالكوكي (الدخول الموحّد من لوحة الحسابات) — أو سر X-Admin-Secret.
+    if (isAdminSessionValid(req)) return true;
     const expected = process.env.ADMIN_TASKS_SECRET || '';
     if (!expected) return false;
     const got = req.headers.get('x-admin-secret') || '';
@@ -49,6 +52,7 @@ export async function GET(req: NextRequest) {
             isVerified: r.isVerified === true,
             authEmail: r.authEmail || '', authProvider: r.authProvider || '',
             rewardPhone: r.rewardPhone || '', rewardStatus: r.rewardStatus || '',
+            rewardRef: r.rewardRef || '',
             reviewDate: (r.reviewDate as { toDate?: () => Date })?.toDate?.()?.toISOString?.() || null,
         };
     }).sort((a, b) => String(b.reviewDate || '').localeCompare(String(a.reviewDate || '')));
@@ -100,7 +104,8 @@ export async function POST(req: NextRequest) {
             headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${secret}` },
             body: JSON.stringify({
                 reviewId,
-                phone: r.rewardPhone,
+                phone: r.rewardPhone || '',
+                rewardRef: r.rewardRef || '',
                 name: r.customerName,
                 productName: r.productName,
                 productSlug: r.productSlug,
@@ -111,6 +116,8 @@ export async function POST(req: NextRequest) {
         if (!resp.ok || !j.success) {
             rewardStatus = 'notify_failed';
             console.error('[moderate] CRM notify failed:', resp.status, j.error || '');
+        } else if (j.delivery === 'no_reward') {
+            rewardStatus = 'no_reward'; // تقييم عضوي بلا رمز حملة — نُشر بلا كوبون
         }
     } catch (e) {
         rewardStatus = 'notify_failed';

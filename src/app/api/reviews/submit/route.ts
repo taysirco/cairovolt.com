@@ -24,14 +24,6 @@ const SLUG_PATTERN = /^[a-z0-9-]{3,80}$/;
 const json = (body: unknown, status = 200) =>
     NextResponse.json(body, { status, headers: { 'Cache-Control': 'no-store' } });
 
-function normalizePhone(v: unknown): string {
-    const d = String(v || '').replace(/\D/g, '');
-    if (d.startsWith('20')) return d;
-    if (d.startsWith('0')) return `2${d}`;
-    if (d.startsWith('1') && d.length === 10) return `20${d}`;
-    return d;
-}
-
 export async function POST(req: NextRequest) {
     const ip = getClientIp(req.headers);
     const rate = checkRateLimit(`reviews-submit:${ip}`, true);
@@ -71,11 +63,10 @@ export async function POST(req: NextRequest) {
     const title = String(data.title || '').replace(/\s+/g, ' ').trim().slice(0, 90);
     const displayName = (String(data.displayName || '').trim() || identity.name).slice(0, 60);
 
-    // 4) هاتف الواتساب — بوابة هدية الـ5% (إلزامي لضمان وصول المكافأة)
-    const phone = normalizePhone(data.phone);
-    if (!/^20(10|11|12|15)\d{8}$/.test(phone)) {
-        return json({ error: 'اكتب رقم واتساب مصري صحيح لاستلام هدية 5% بعد الموافقة' }, 400);
-    }
+    // 4) مرجع المكافأة (اختياري) — رمز من رابط طلب التقييم على واتساب (?rvw=).
+    //    لا نسأل العميل عن رقمه؛ الـCRM يحوّل هذا الرمز إلى هاتفه (من سجل الحملة)
+    //    ويُرسل كوبون 5% بعد الاعتماد. غيابه = تقييم عضوي بلا مكافأة.
+    const rewardRef = String(data.rewardRef || '').replace(/[^A-Za-z0-9_-]/g, '').slice(0, 64);
 
     const db = await getFirestore();
 
@@ -86,30 +77,10 @@ export async function POST(req: NextRequest) {
         .limit(1).get();
     if (!dup.empty) return json({ error: 'قيّمت هذا المنتج بالفعل — شكراً لك! 🌟' }, 409);
 
-    // 6) «مشترٍ موثَّق»: الهاتف له طلب في المتجر يحوي هذا المنتج
-    let isVerified = false, orderId = '', orderDocId = '', purchaseDate = new Date();
-    try {
-        // الطلبات تخزّن الهاتف بالصيغة الوطنية (01xxxxxxxxx)؛ normalizePhone يخرج دولياً
-        // (2010…) لذا نحوّل بادئة "20" كاملةً إلى "0" — لا "2" وحدها (كانت تنتج 00…).
-        const nationalPhone = phone.replace(/^20/, '0');
-        const orders = await db.collection('orders').where('phone', '==', nationalPhone).limit(25).get();
-        for (const doc of orders.docs) {
-            const o = doc.data() as Record<string, unknown>;
-            const items = Array.isArray(o.items) ? (o.items as Array<Record<string, unknown>>) : [];
-            // مطابقة صارمة فقط: معرّف المنتج أو SKU غير الفارغ — لا مطابقة اسم ضبابية
-            // (كانت تربط منتجات مختلفة تتشارك بادئة الاسم، وSKU الفارغ يطابق أي صنف).
-            const hit = items.some(it => String(it.productId || '') === productSlug
-                || (!!product.sku && String(it.sku || '') === String(product.sku)));
-            if (hit) {
-                isVerified = true;
-                orderId = String(o.orderId || '');
-                orderDocId = doc.id;
-                const created = o.createdAt as { toDate?: () => Date } | undefined;
-                if (created?.toDate) purchaseDate = created.toDate();
-                break;
-            }
-        }
-    } catch { /* التوثيق ميزة إضافية — فشله لا يمنع التقييم */ }
+    // 6) «مشترٍ موثَّق»: وجود مرجع مكافأة يعني أن التقييم جاء من رابط طلب-تقييم
+    //    (يُرسَل فقط لعملاء لديهم طلب مُسلَّم). التحقق النهائي للمكافأة يتم في الـCRM.
+    const isVerified = rewardRef.length > 0;
+    const orderId = '', orderDocId = '', purchaseDate = new Date();
 
     // 7) الصور: JPEG مضغوطة من العميل → Storage بتوكن تنزيل
     const images: string[] = [];
@@ -160,7 +131,8 @@ export async function POST(req: NextRequest) {
         authProvider: identity.provider,
         authSubject: identity.subject,
         authEmail: identity.email,
-        rewardPhone: phone,
+        rewardPhone: '',
+        rewardRef,
         rewardStatus: 'awaiting_moderation',
         submitIp: ip,
     });

@@ -84,7 +84,6 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
     const [hoverStar, setHoverStar] = useState(0);
     const [title, setTitle] = useState('');
     const [text, setText] = useState('');
-    const [phone, setPhone] = useState('');
     const [photos, setPhotos] = useState<string[]>([]);
     const [busy, setBusy] = useState(false);
     const [done, setDone] = useState(false);
@@ -155,13 +154,19 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
         if (!credential) { setError(isArabic ? 'سجّل الدخول بجوجل أو فيسبوك أولاً' : 'Sign in with Google or Facebook first'); return; }
         if (!rating) { setError(isArabic ? 'اختر عدد النجوم' : 'Pick a star rating'); return; }
         if (text.trim().length < 10) { setError(isArabic ? 'اكتب تقييماً من 10 أحرف على الأقل' : 'Write at least 10 characters'); return; }
-        if (!/^01[0125]\d{8}$/.test(phone.trim())) { setError(isArabic ? 'اكتب رقم واتساب صحيح (01xxxxxxxxx)' : 'Enter a valid WhatsApp number'); return; }
         setBusy(true);
         try {
+            // مرجع المكافأة: رمز من رابط طلب التقييم على واتساب (?rvw=) — يربط التقييم
+            // بهاتف العميل خادمياً لإرسال كوبون 5% بعد الاعتماد بلا سؤال العميل عن رقمه.
+            let rewardRef = '';
+            try {
+                const u = new URL(window.location.href);
+                rewardRef = (u.searchParams.get('rvw') || u.searchParams.get('rt') || '').slice(0, 64);
+            } catch { /* لا شيء */ }
             const res = await fetch('/api/reviews/submit', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ credential, provider, productSlug, rating, title, reviewText: text, phone: phone.trim(), photos }),
+                body: JSON.stringify({ credential, provider, productSlug, rating, title, reviewText: text, rewardRef, photos }),
             });
             const j = await res.json();
             if (!res.ok) { setError(String(j.error || 'حصل خطأ — جرّب تاني')); return; }
@@ -180,9 +185,13 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                 <div className="text-2xl mb-1">🌟</div>
                 <p className="font-bold text-emerald-800">{isArabic ? 'وصل تقييمك — شكراً!' : 'Review received — thank you!'}</p>
                 <p className="text-sm text-emerald-700 mt-1">
-                    {isArabic
-                        ? 'تقييمك قيد المراجعة، وفور الموافقة عليه هتوصلك هدية كوبون خصم 5% على الواتساب 🎁'
-                        : 'Your review is in moderation — once approved, a 5% coupon gift arrives on WhatsApp 🎁'}
+                    {verifiedBuyer
+                        ? (isArabic
+                            ? 'تقييمك قيد المراجعة، وفور الموافقة عليه هتوصلك هدية كوبون خصم 5% على الواتساب 🎁'
+                            : 'Your review is in moderation — once approved, a 5% coupon gift arrives on WhatsApp 🎁')
+                        : (isArabic
+                            ? 'تقييمك قيد المراجعة — شكراً لمساعدتك عملاء آخرين يختاروا صح 🌟'
+                            : 'Your review is in moderation — thanks for helping other shoppers 🌟')}
                     {verifiedBuyer && <span className="block mt-1">✅ {isArabic ? 'تم توثيقك كمشترٍ' : 'Verified buyer'}</span>}
                 </p>
             </div>
@@ -227,14 +236,28 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                         <>
                             <p className="text-sm text-emerald-700">✓ {isArabic ? `أهلاً ${userName || ''}` : `Hi ${userName || ''}`}</p>
 
-                            <div className="flex gap-1 justify-center" dir="ltr">
-                                {[1, 2, 3, 4, 5].map(s => (
-                                    <button key={s} type="button"
-                                        onMouseEnter={() => setHoverStar(s)} onMouseLeave={() => setHoverStar(0)}
-                                        onClick={() => setRating(s)}
-                                        className={`text-3xl transition-transform hover:scale-110 ${s <= (hoverStar || rating) ? 'grayscale-0' : 'grayscale opacity-40'}`}
-                                        aria-label={`${s} stars`}>⭐</button>
-                                ))}
+                            {/* النجوم بأرقام 1→5 (ثابتة الاتجاه) + تسمية حيّة حتى لا يقيّم العميل بالخطأ */}
+                            <div>
+                                <div className="flex gap-2 justify-center items-end" dir="ltr">
+                                    {[1, 2, 3, 4, 5].map(s => {
+                                        const on = s <= (hoverStar || rating);
+                                        return (
+                                            <button key={s} type="button"
+                                                onMouseEnter={() => setHoverStar(s)} onMouseLeave={() => setHoverStar(0)}
+                                                onClick={() => setRating(s)}
+                                                className="flex flex-col items-center gap-0.5 group focus:outline-none"
+                                                aria-label={`${s} ${isArabic ? 'من 5' : 'of 5'}`} aria-pressed={rating === s}>
+                                                <span className={`text-3xl transition-transform group-hover:scale-110 ${on ? 'grayscale-0' : 'grayscale opacity-40'}`}>⭐</span>
+                                                <span className={`text-xs font-extrabold ${on ? 'text-amber-500' : 'text-gray-400'}`}>{s}</span>
+                                            </button>
+                                        );
+                                    })}
+                                </div>
+                                <p className="text-center text-sm font-bold mt-1.5" aria-live="polite">
+                                    {(hoverStar || rating)
+                                        ? <span className="text-amber-600">{isArabic ? `تقييمك: ${hoverStar || rating} من 5` : `Your rating: ${hoverStar || rating} of 5`}</span>
+                                        : <span className="text-gray-500">{isArabic ? 'اختر عدد النجوم — 1 = سيّئ، 5 = ممتاز' : 'Pick a rating — 1 = poor, 5 = excellent'}</span>}
+                                </p>
                             </div>
 
                             <input value={title} onChange={e => setTitle(e.target.value)} maxLength={90}
@@ -244,10 +267,6 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                             <textarea value={text} onChange={e => setText(e.target.value)} rows={4} maxLength={1200}
                                 placeholder={isArabic ? 'إيه رأيك في المنتج؟ (10 أحرف على الأقل)' : 'Your honest experience (10+ chars)'}
                                 className="w-full rounded-lg border border-gray-300 dark:border-gray-600 px-3 py-2 text-sm bg-transparent" />
-
-                            <input value={phone} onChange={e => setPhone(e.target.value.replace(/[^\d]/g, ''))} maxLength={11} inputMode="numeric"
-                                placeholder={isArabic ? 'رقم واتساب للتواصل بخصوص تقييمك' : 'WhatsApp number to follow up on your review'}
-                                className="w-full rounded-lg border border-gray-300 dark:border-gray-600 px-3 py-2 text-sm bg-transparent" dir="ltr" />
 
                             <div>
                                 <label className="text-xs text-gray-500 dark:text-gray-400 block mb-1">

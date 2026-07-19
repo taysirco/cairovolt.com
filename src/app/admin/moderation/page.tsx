@@ -32,18 +32,21 @@ export default function ModerationPage() {
 
     const load = useCallback(async (sec: string, status: string) => {
         const res = await fetch(`/api/reviews/moderate?status=${status}`, {
-            headers: { 'X-Admin-Secret': sec }, cache: 'no-store',
+            headers: sec ? { 'X-Admin-Secret': sec } : {}, cache: 'no-store',
         });
-        if (res.status === 401) { setAuthed(false); setMsg('سر غير صحيح'); return; }
+        // بلا سرّ = محاولة الدخول الموحّد بالكوكي (من لوحة الحسابات) — لا نُظهر خطأ لو فشلت
+        if (res.status === 401) { setAuthed(false); if (sec) setMsg('سر غير صحيح'); return; }
         const j = await res.json();
         setReviews(j.reviews || []);
         setAuthed(true);
-        sessionStorage.setItem('mod_secret', sec);
+        if (sec) sessionStorage.setItem('mod_secret', sec);
     }, []);
 
     useEffect(() => {
-        const saved = sessionStorage.getItem('mod_secret');
-        if (saved) { setSecret(saved); load(saved, 'pending'); }
+        // جرّب الكوكي أولاً (دخول موحّد)، ثم السرّ المحفوظ إن وُجد
+        const saved = sessionStorage.getItem('mod_secret') || '';
+        setSecret(saved);
+        load(saved, 'pending');
     }, [load]);
 
     const act = async (reviewId: string, action: 'approve' | 'reject') => {
