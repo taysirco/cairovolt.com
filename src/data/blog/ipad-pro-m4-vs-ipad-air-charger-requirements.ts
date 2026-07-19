@@ -24,11 +24,11 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
         ar: {
             title: 'iPad Pro M4 ضد iPad Air — أيهما يحتاج شاحن أقوى للاستخدام الاحترافي؟',
             metaTitle: 'أفضل شاحن iPad Pro M4 و iPad Air 2024 — دليل الشحن الاحترافي | كايرو فولت',
-            metaDescription: 'قارن احتياجات شحن iPad Pro M4 وiPad Air M2 حسب مواصفات Apple وبروتوكول USB-C PD والكابل، ثم اختر شاحن GaN متوافقاً.',
+            metaDescription: 'مقارنة شاملة بين احتياجات الشحن في iPad Pro M4 و iPad Air M2 — أيهما يحتاج شاحن أقوى؟ ليه Apple مش بتحط شاحن في العلبة؟ وإيه أفضل بديل GaN في مصر 2026.',
             keywords: 'شاحن ايباد برو, شاحن ipad air, أفضل شاحن ايباد مصر, شاحن 45 واط ايباد, شاحن سريع ايباد برو m4, بديل شاحن ابل ايباد, شاحن GaN ايباد, anker ipad charger',
-            excerpt: 'كيف تطابق شاحن USB-C PD مع iPad Pro M4 أو iPad Air M2 حسب مواصفات الموديل والكابل؟',
-            quickAnswer: 'راجع مواصفات Apple ورقم موديل iPad لتحديد قدرة USB-C PD والكابل والملحقات الموجودة في العبوة؛ لا تعتمد على رقم شائع لكل الإصدارات. اختر شاحناً يغطي القدرة الموثقة مع ملف خرج مناسب، ثم قارن موديلات انكر المتوافقة والسعر الحالي. زمن الشحن يتغير مع الاستخدام والحرارة.',
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>iPad Pro M4 هو أقوى تابلت في العالم — شاشة OLED، شريحة M4 بأداء يتفوق على لابتوبات كتير، وسُمك 5.1mm بس. iPad Air M2 هو البديل الذكي — 90% من أداء Pro بـ 60% من سعره. بس الاتنين عندهم مشكلة مشتركة: <strong>Apple مش بتحط شاحن في العلبة</strong>.</p>
+            excerpt: 'iPad Pro M4 بيقبل 38W و iPad Air بيقبل 30W — بس Apple مش بتحط شاحن في العلبة. إيه الشاحن الأنسب لكل واحد؟',
+            quickAnswer: 'iPad Pro M4 (11" و 13") بيقبل شحن سريع لحد 38W عبر USB-C PD. iPad Air M2 بيقبل لحد 30W. Apple مش بتحط شاحن في العلبة — كابل USB-C بس. أفضل شاحن: Anker Nano 45W بـ 790 جنيه (يشحن الاتنين بأقصى سرعة). لو ميزانيتك أقل: Anker 30W بـ 490 جنيه كافي لـ iPad Air وهيشحن Pro بـ 30W (79% من أقصى سرعة).',
+            content: `<p>iPad Pro M4 هو أقوى تابلت في العالم — شاشة OLED، شريحة M4 بأداء يتفوق على لابتوبات كتير، وسُمك 5.1mm بس. iPad Air M2 هو البديل الذكي — 90% من أداء Pro بـ 60% من سعره. بس الاتنين عندهم مشكلة مشتركة: <strong>Apple مش بتحط شاحن في العلبة</strong>.</p>
 
 <p>في العلبة هتلاقي كابل USB-C to USB-C وبس. مفيش شاحن. مفيش حتى محول كهرباء. Apple بتقولك "اشتري الشاحن لوحدك". وشاحن Apple الأصلي 30W بـ 1,200 جنيه و 35W Dual بـ 1,600 جنيه. أسعار مبالغ فيها لشاحن عادي.</p>
 
@@ -36,7 +36,7 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> iPad Pro M4 بيقبل 38W و iPad Air بيقبل 30W. Apple مش بتحط شاحن في العلبة. انكر Nano 45W بـ 790 جنيه = نفس سرعة الأصلي بنص السعر. بيشحن iPad Pro و Air و iPhone كلهم.
+        <strong>💡 الإجابة السريعة:</strong> iPad Pro M4 بيقبل 38W و iPad Air بيقبل 30W. Apple مش بتحط شاحن في العلبة. Anker Nano 45W بـ 790 جنيه = نفس سرعة الأصلي بنص السعر. بيشحن iPad Pro و Air و iPhone كلهم.
     </p>
 </div>
 
@@ -117,14 +117,14 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
         <td style="padding:12px;border:1px solid #d1d5db;">350 ج</td>
     </tr>
     <tr style="background:#f0fdf4;">
-        <td style="padding:12px;border:1px solid #d1d5db;">انكر 30W GaN</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Anker 30W GaN</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">38 دقيقة</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">68 دقيقة</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">115 دقيقة</td>
         <td style="padding:12px;border:1px solid #d1d5db;">500 ج</td>
     </tr>
     <tr style="background:#f0fdf4;">
-        <td style="padding:12px;border:1px solid #d1d5db;">انكر Nano 45W</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Anker Nano 45W</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">30 دقيقة</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">52 دقيقة</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">95 دقيقة</td>
@@ -146,9 +146,9 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
 
 <p><strong>التوصية:</strong> <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W</a> بـ 750 جنيه — GaN III، حجم أصغر من شاحن Apple 30W، بيشحن iPad Pro بأقصى سرعة 38W. وكمان بيشحن iPhone 15/16 بـ 27W (أقصى سرعة) و MacBook Air بـ 45W. <strong>شاحن واحد لكل أجهزة Apple.</strong></p>
 
-<p>ليه مش شاحن Apple الأصلي؟ شاحن Apple 30W USB-C بـ 1,200 جنيه — وبيشحن iPad Pro بـ 30W بس (مش أقصى سرعة). انكر Nano 45W بيشحن بـ 38W (أقصى سرعة) بـ 750 جنيه. يعني البديل أسرع وأرخص. مفيش سبب منطقي لشراء شاحن Apple إلا لو عايز الشكل الأبيض بالظبط.</p>
+<p>ليه مش شاحن Apple الأصلي؟ شاحن Apple 30W USB-C بـ 1,200 جنيه — وبيشحن iPad Pro بـ 30W بس (مش أقصى سرعة). Anker Nano 45W بيشحن بـ 38W (أقصى سرعة) بـ 750 جنيه. يعني البديل أسرع وأرخص. مفيش سبب منطقي لشراء شاحن Apple إلا لو عايز الشكل الأبيض بالظبط.</p>
 
-<p>كمان ميزة مهمة في انكر Nano 45W: التقنية GaN III بتخلي الشاحن أبرد بكتير من شواحن السيليكون التقليدية — وده مهم خصوصاً في صيف مصر. شاحن أبرد = عمر أطول وأمان أعلى. والحجم الصغير بيخليه مثالي للسفر — بيتفوق على شاحن Apple في كل حاجة.</p>
+<p>كمان ميزة مهمة في Anker Nano 45W: التقنية GaN III بتخلي الشاحن أبرد بكتير من شواحن السيليكون التقليدية — وده مهم خصوصاً في صيف مصر. شاحن أبرد = عمر أطول وأمان أعلى. والحجم الصغير بيخليه مثالي للسفر — بيتفوق على شاحن Apple في كل حاجة.</p>
 
 <h2>الشحن أثناء الاستخدام — هل بيأثر على الأداء؟</h2>
 
@@ -160,7 +160,7 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
 
 <h2>شاحن واحد لكل إكوسيستم Apple — هل ممكن؟</h2>
 
-<p>أيوا — وده أكبر ميزة لشاحن PD العالمي. شاحن انكر Nano 45W الواحد بيشحن:</p>
+<p>أيوا — وده أكبر ميزة لشاحن PD العالمي. شاحن Anker Nano 45W الواحد بيشحن:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:10px;">📱 iPhone 15/16 Pro — بـ 27W (أقصى سرعة)</li>
@@ -181,7 +181,7 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
 
 <p>iPad Air بيقبل لحد 30W — يعني مش محتاج شاحن 45W. <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> بـ 500 جنيه كافي تماماً — بيشحن Air بأقصى سرعة وحجمه صغير جداً.</p>
 
-<p>بس لو عندك iPad Air + iPhone — ممكن تشتري <a href="/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">انكر 35W Dual</a> بـ 600 جنيه — بمنفذين USB-C، بيشحن الاتنين في نفس الوقت. iPad بياخد 20W وiPhone بياخد 15W — مش أقصى سرعة لكل واحد بس مريح جداً للاستخدام اليومي.</p>
+<p>بس لو عندك iPad Air + iPhone — ممكن تشتري <a href="/anker/wall-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">انكر 35W Dual</a> بـ 600 جنيه — بمنفذين USB-C، بيشحن الاتنين في نفس الوقت. iPad بياخد 20W وiPhone بياخد 15W — مش أقصى سرعة لكل واحد بس مريح جداً للاستخدام اليومي.</p>
 
 <h2>iPad 10th Gen — أي شاحن 20W كافي</h2>
 
@@ -199,7 +199,7 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">📏 <strong>محتاج كابل أطول:</strong> <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">انكر PowerLine USB-C 2m</a> بـ 200 جنيه — لو بتشحن على السرير أو المكتب والبريزة بعيدة.</li>
-    <li style="margin-bottom:12px;">🔄 <strong>الكابل الأصلي اتقطع:</strong> بدّله بكابل انكر أو Joyroom — أرخص وأمتن من كابل Apple البديل.</li>
+    <li style="margin-bottom:12px;">🔄 <strong>الكابل الأصلي اتقطع:</strong> بدّله بكابل Anker أو Joyroom — أرخص وأمتن من كابل Apple البديل.</li>
 </ul>
 
 <h2>باور بانك لـ iPad — هل تحتاج؟</h2>
@@ -211,7 +211,7 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        شواحن انكر GaN المعروضة لأجهزة iPad Pro وiPad Air موضحة برقم الموديل والمواصفات؛ راجع شروط ضمان كايرو فولت المكتوبة على صفحة المنتج والفاتورة، وتحقق من تكلفة وموعد التوصيل المتوقع لعنوانك قبل تأكيد الطلب. ابعت موديل الـ iPad على واتساب لو محتاج مراجعة التوافق.
+        شواحن Anker GaN المتوافقة مع iPad Pro و iPad Air <strong>أصلية بضمان 18 شهر</strong> + توصيل لكل المحافظات 24-72 ساعة. مش متأكد من الشاحن المناسب لجهازك؟ ابعتلنا موديل الـ iPad على واتساب وهنرشحلك الأنسب بالظبط لاحتياجاتك وميزانيتك.
     </p>
 </div>`,
             faq: [
@@ -221,11 +221,11 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
                 },
                 {
                     question: 'هل شاحن 45W ممكن يضر iPad Air اللي بيقبل 30W بس؟',
-                    answer: 'في USB-C PD المتوافق يتفاوض iPad والشاحن على ملف طاقة مدعوم، فلا يعني تصنيف 45W أن الجهاز سيسحب القدرة كاملة. تحقق من مواصفات موديل iPad وملفات خرج الشاحن والكابل؛ لا توجد سلامة مطلقة مع معدات تالفة أو غير مطابقة، وأوقف الاستخدام عند حرارة أو رائحة غير معتادة.',
+                    answer: 'لأ أبداً — iPad بياخد الواط اللي يحتاجه بس. لو وصلت شاحن 100W بـ iPad Air هياخد 30W فقط. ده بروتوكول PD — الجهاز هو اللي بيتحكم مش الشاحن.',
                 },
                 {
                     question: 'أقدر أشحن iPad و MacBook من نفس الشاحن؟',
-                    answer: 'أيوا — لو الشاحن 45W+ وعنده منفذ USB-C PD. انكر Nano 45W بيشحن iPad Pro بـ 38W و MacBook Air بـ 45W. بس مش في نفس الوقت — محتاج شاحن multi-port لده.',
+                    answer: 'أيوا — لو الشاحن 45W+ وعنده منفذ USB-C PD. Anker Nano 45W بيشحن iPad Pro بـ 38W و MacBook Air بـ 45W. بس مش في نفس الوقت — محتاج شاحن multi-port لده.',
                 },
                 {
                     question: 'ليه iPad Pro Thunderbolt بس بيشحن بـ 38W؟',
@@ -236,11 +236,11 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
         en: {
             title: 'iPad Pro M4 vs iPad Air — Which One Needs a More Powerful Charger?',
             metaTitle: 'Best iPad Pro M4 & iPad Air Charger — Professional Charging Guide | CairoVolt',
-            metaDescription: 'Compare iPad Pro M4 and iPad Air M2 charging requirements from Apple specifications, USB-C PD profiles, cable needs, and compatible GaN options.',
+            metaDescription: 'Complete comparison of iPad Pro M4 and iPad Air M2 charging needs — which needs a more powerful charger? Why Apple doesn\'t include one, and the best GaN alt...',
             keywords: 'ipad pro charger, ipad air charger, best ipad charger egypt, 45w charger ipad, ipad pro m4 fast charger, apple charger alternative ipad, gan charger ipad, anker ipad charger',
-            excerpt: 'Match a USB-C PD charger to iPad Pro M4 or iPad Air M2 using exact model specifications and cable requirements.',
-            quickAnswer: 'Check Apple\'s specifications and the exact iPad model to identify its USB-C PD capability, cable, and box contents; do not apply one common figure to every version. Choose a charger with the documented profile, then compare compatible Anker models and current prices. Charging time varies with use and temperature.',
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>iPad Pro M4 is the most powerful tablet in the world — OLED display, M4 chip that outperforms many laptops, and just 5.1mm thin. iPad Air M2 is the smart alternative — 90% of Pro's performance at 60% of the price. But both share a common problem: <strong>Apple doesn't include a charger in the box</strong>.</p>
+            excerpt: 'iPad Pro M4 accepts 38W and iPad Air accepts 30W — but Apple doesn\'t include a charger. What\'s the best charger for each?',
+            quickAnswer: 'iPad Pro M4 (11" and 13") supports fast charging up to 38W via USB-C PD. iPad Air M2 supports up to 30W. Apple doesn\'t include a charger — just a USB-C cable. Best charger: Anker Nano 45W at 790 EGP (charges both at max speed). Budget option: Anker 30W at 490 EGP is enough for iPad Air and charges Pro at 30W (79% of max speed).',
+            content: `<p>iPad Pro M4 is the most powerful tablet in the world — OLED display, M4 chip that outperforms many laptops, and just 5.1mm thin. iPad Air M2 is the smart alternative — 90% of Pro's performance at 60% of the price. But both share a common problem: <strong>Apple doesn't include a charger in the box</strong>.</p>
 
 <p>In the box you'll find a USB-C to USB-C cable and nothing else. No charger. Not even a power adapter. Apple says "buy your own charger." And Apple's original 30W charger costs 1,200 EGP while the 35W Dual costs 1,600 EGP. Inflated prices for a standard charger.</p>
 
@@ -389,7 +389,7 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
 
 <p>iPad Air accepts up to 30W — so you don't need a 45W charger. <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> at 500 EGP is perfectly sufficient — charges Air at maximum speed in a tiny form factor.</p>
 
-<p>But if you have iPad Air + iPhone — consider the <a href="/en/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">Anker 35W Dual</a> at 600 EGP — with two USB-C ports, charging both simultaneously. iPad gets 20W and iPhone gets 15W — not max speed for either but very convenient for daily use.</p>
+<p>But if you have iPad Air + iPhone — consider the <a href="/en/anker/wall-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">Anker 35W Dual</a> at 600 EGP — with two USB-C ports, charging both simultaneously. iPad gets 20W and iPhone gets 15W — not max speed for either but very convenient for daily use.</p>
 
 <h2>iPad 10th Gen — Any 20W Charger Will Do</h2>
 
@@ -419,7 +419,7 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Listed Anker GaN chargers show their model and specifications for iPad Pro and Air. Check CairoVolt's written warranty terms on the product page and invoice, and confirm the delivery estimate and cost for your address before ordering. Send the exact iPad model on WhatsApp if you need a compatibility check.
+        Anker GaN chargers compatible with iPad Pro and Air are <strong>genuine with 18-month warranty</strong> + delivery to all governorates in 24-72 hours. Not sure which charger fits your iPad? Send us your model on WhatsApp and we'll recommend the best match.
     </p>
 </div>`,
             faq: [
@@ -429,7 +429,7 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
                 },
                 {
                     question: 'Can a 45W charger damage an iPad Air that only accepts 30W?',
-                    answer: 'With compatible USB-C PD equipment, the iPad and adapter negotiate a supported power profile, so a 45W label does not mean the device draws the full rating. Check the exact iPad specification, adapter output profiles, and cable; damaged or noncompliant equipment is not covered by that principle.',
+                    answer: 'Absolutely not — iPad only draws the wattage it needs. Connect a 100W charger to iPad Air and it will only draw 30W. This is PD protocol — the device controls the draw, not the charger.',
                 },
                 {
                     question: 'Can I charge both iPad and MacBook from the same charger?',

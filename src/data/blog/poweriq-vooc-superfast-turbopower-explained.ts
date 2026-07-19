@@ -29,7 +29,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
             keywords: 'تقنيات شحن سريع, شرح PowerIQ, شرح VOOC, SuperFast Charge سامسونج, TurboPower موتورولا, USB PD شرح, Quick Charge شرح, Dart Charge ريلمي, شحن سريع ايفون, شحن سريع سامسونج, انكر PowerIQ مصر, الفرق بين QC و PD',
             excerpt: 'دليل مبسط لكل تقنيات الشحن السريع — من USB PD لـ VOOC لـ PowerIQ — إيه الفرق بينهم وإيه اللي يشتغل مع موبايلك بالظبط.',
             quickAnswer: 'USB Power Delivery (PD) هو المعيار العالمي المفتوح اللي بيشتغل مع كل الأجهزة تقريباً — iPhone و Samsung و iPad و لابتوبات. Quick Charge (QC) من Qualcomm هو الأكثر انتشاراً في أندرويد. VOOC/SuperVOOC خاص بـ OPPO/OnePlus، SuperFast Charge خاص بـ Samsung، TurboPower خاص بـ Motorola، Dart Charge خاص بـ Realme. القاعدة الذهبية: لو عايز شاحن واحد يشتغل مع كل حاجة — اشتري شاحن USB-C PD.',
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>لو فتحت علبة أي موبايل جديد، هتلاقي كلمات مكتوبة بخط صغير على ورقة المواصفات: "Supports PD 3.0, QC 4.0, PowerIQ 3.0" أو "SuperVOOC 80W" أو "Super Fast Charging 2.0". معظم الناس بتتجاهلها — وده غلط كبير. لأن الفرق بين تقنيات الشحن ممكن يكون الفرق بين إنك تشحن موبايلك في 25 دقيقة أو في ساعتين. ومش كل شاحن بيشتغل مع كل موبايل بنفس السرعة.</p>
+            content: `<p>لو فتحت علبة أي موبايل جديد، هتلاقي كلمات مكتوبة بخط صغير على ورقة المواصفات: "Supports PD 3.0, QC 4.0, PowerIQ 3.0" أو "SuperVOOC 80W" أو "Super Fast Charging 2.0". معظم الناس بتتجاهلها — وده غلط كبير. لأن الفرق بين تقنيات الشحن ممكن يكون الفرق بين إنك تشحن موبايلك في 25 دقيقة أو في ساعتين. ومش كل شاحن بيشتغل مع كل موبايل بنفس السرعة.</p>
 
 <p>في المقال ده هنشرح كل تقنية شحن سريع موجودة في السوق في 2026 — بالعربي وبدون تعقيد — ونقولك بالظبط إيه اللي يشتغل مع موبايلك وإيه اللي مضيعة فلوس.</p>
 
@@ -107,11 +107,11 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
             <td style="padding:10px 6px;border:1px solid #d1d5db;color:#dc2626;">مغلق ❌</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:10px 6px;border:1px solid #d1d5db;" colspan="5"><strong>🔵 تقنيات انكر</strong></td>
+            <td style="padding:10px 6px;border:1px solid #d1d5db;" colspan="5"><strong>🔵 تقنيات Anker</strong></td>
         </tr>
         <tr>
             <td style="padding:10px 6px;border:1px solid #d1d5db;"><strong>PowerIQ 3.0</strong></td>
-            <td style="padding:10px 6px;border:1px solid #d1d5db;">انكر</td>
+            <td style="padding:10px 6px;border:1px solid #d1d5db;">Anker</td>
             <td style="padding:10px 6px;border:1px solid #d1d5db;">100W</td>
             <td style="padding:10px 6px;border:1px solid #d1d5db;">كل الأجهزة (PD + QC + Apple 2.4A)</td>
             <td style="padding:10px 6px;border:1px solid #d1d5db;color:#059669;"><strong>متوافق عالمياً ✅</strong></td>
@@ -144,9 +144,9 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
 
 <p><strong>معلومة مهمة:</strong> من QC 4.0 والأحدث، Quick Charge و USB PD أصبحوا متوافقين. يعني شاحن بيدعم QC 4.0+ بيدعم PD تلقائياً. لو بتشتري شاحن جديد — دوّر على واحد بيدعم PD + QC وهتغطّي كل الأجهزة.</p>
 
-<h2>PowerIQ — سلاح انكر السري</h2>
+<h2>PowerIQ — سلاح Anker السري</h2>
 
-<p>PowerIQ مش بروتوكول شحن مستقل — ده نظام ذكي من انكر بيجمع كل البروتوكولات في شريحة واحدة. لما تشبك أي جهاز بشاحن انكر PowerIQ، الشريحة بتعمل الآتي:</p>
+<p>PowerIQ مش بروتوكول شحن مستقل — ده نظام ذكي من Anker بيجمع كل البروتوكولات في شريحة واحدة. لما تشبك أي جهاز بشاحن Anker PowerIQ، الشريحة بتعمل الآتي:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔍 <strong>الخطوة 1:</strong> بتحدد نوع الجهاز (iPhone ولا Samsung ولا لابتوب).</li>
@@ -154,7 +154,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
     <li style="margin-bottom:12px;">🎯 <strong>الخطوة 3:</strong> بتوصّل أقصى قدرة آمنة للجهاز بدون ما تطلب منك تعمل حاجة.</li>
 </ul>
 
-<p>يعني لو اشتريت <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W GaN</a> — هيشحن iPhone بـ PD وهيشحن Samsung قديم بـ QC وهيشحن AirPods بـ 5W — كله تلقائي. مفيش شاحن تاني في السوق بيعمل كده بنفس السلاسة. وعلشان كده انكر بيكون اختيار ممتاز لو عندك أجهزة مختلفة في البيت.</p>
+<p>يعني لو اشتريت <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W GaN</a> — هيشحن iPhone بـ PD وهيشحن Samsung قديم بـ QC وهيشحن AirPods بـ 5W — كله تلقائي. مفيش شاحن تاني في السوق بيعمل كده بنفس السلاسة. وعلشان كده Anker بيكون اختيار ممتاز لو عندك أجهزة مختلفة في البيت.</p>
 
 <h2>VOOC / SuperVOOC — سرعة مجنونة بشرط واحد</h2>
 
@@ -253,9 +253,9 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
 </div>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ قارن شواحن USB PD وQC المتاحة على كايرو فولت</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن USB PD + QC أصلية بضمان على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        راجع صفحة موديل انكر أو Joyroom المطلوب للتأكد من البروتوكولات المدعومة فعلاً؛ ليست كل الشواحن أو الهواتف متطابقة. شروط ضمان كايرو فولت المكتوبة والسعر الحالي وطرق الدفع وتقدير التوصيل تظهر قبل الطلب. هل الشحن السريع بيضر البطارية؟ اقرأ <a href="/blog/does-fast-charging-damage-battery-truth" style="color:#166534;font-weight:600;">الحقيقة الكاملة</a>.
+        Anker بضمان 18 شهر + Joyroom بضمان 12 شهر. كل الشواحن بتدعم PD + QC — بتشحن أي موبايل بأقصى سرعة آمنة. <strong>أصلية 100%</strong> + توصيل لكل المحافظات + دفع عند الاستلام. هل الشحن السريع بيضر البطارية؟ اقرأ <a href="/blog/does-fast-charging-damage-battery-truth" style="color:#166534;font-weight:600;">الحقيقة الكاملة</a>.
     </p>
 </div>`,
             faq: [
@@ -269,7 +269,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
                 },
                 {
                     question: 'هل PowerIQ 3.0 أحسن من USB PD؟',
-                    answer: 'PowerIQ 3.0 مش بديل لـ PD — هو طبقة ذكية فوق PD + QC. شاحن انكر بـ PowerIQ 3.0 بيدعم PD 3.0 + QC 3.0 + Apple 2.4A في شريحة واحدة. الميزة: بيكتشف البروتوكول المناسب لجهازك تلقائياً. يعني PowerIQ = PD + QC + ذكاء إضافي.'
+                    answer: 'PowerIQ 3.0 مش بديل لـ PD — هو طبقة ذكية فوق PD + QC. شاحن Anker بـ PowerIQ 3.0 بيدعم PD 3.0 + QC 3.0 + Apple 2.4A في شريحة واحدة. الميزة: بيكتشف البروتوكول المناسب لجهازك تلقائياً. يعني PowerIQ = PD + QC + ذكاء إضافي.'
                 },
                 {
                     question: 'لو عندي موبايلين مختلفين — أشتري شاحن واحد ولا اتنين؟',
@@ -284,7 +284,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
             keywords: 'fast charging technologies explained, PowerIQ explained, VOOC explained, Samsung SuperFast Charging, TurboPower Motorola, USB PD explained, Quick Charge explained, Dart Charge Realme, iPhone fast charging, Samsung fast charging, Anker PowerIQ, difference between QC and PD',
             excerpt: 'A simple guide to every fast charging technology — from USB PD to VOOC to PowerIQ — what the differences are and which one actually works with your phone.',
             quickAnswer: 'USB Power Delivery (PD) is the universal open standard that works with nearly every device — iPhone, Samsung, iPad, and laptops. Quick Charge (QC) from Qualcomm is the most widespread in Android. VOOC/SuperVOOC is exclusive to OPPO/OnePlus, SuperFast Charge to Samsung, TurboPower to Motorola, Dart Charge to Realme. The golden rule: if you want one charger that works with everything — buy a USB-C PD charger.',
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>If you open any new phone box, you will find tiny text on the spec sheet: "Supports PD 3.0, QC 4.0, PowerIQ 3.0" or "SuperVOOC 80W" or "Super Fast Charging 2.0". Most people ignore these — and that is a big mistake. Because the difference between charging technologies can mean the difference between charging your phone in 25 minutes or in two hours. And not every charger works at the same speed with every phone.</p>
+            content: `<p>If you open any new phone box, you will find tiny text on the spec sheet: "Supports PD 3.0, QC 4.0, PowerIQ 3.0" or "SuperVOOC 80W" or "Super Fast Charging 2.0". Most people ignore these — and that is a big mistake. Because the difference between charging technologies can mean the difference between charging your phone in 25 minutes or in two hours. And not every charger works at the same speed with every phone.</p>
 
 <p>In this article, we will explain every fast charging technology on the market in 2026 — in plain language without jargon — and tell you exactly what works with your phone and what is a waste of money.</p>
 
@@ -495,9 +495,9 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
 </div>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Compare USB PD and QC Chargers Available at CairoVolt</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ USB PD + QC Chargers — Genuine with Warranty at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Check the exact Anker or Joyroom model page for the protocols it actually supports; chargers and phones do not all negotiate the same profile. CairoVolt's written warranty terms, live price, payment methods, and delivery estimate are shown before ordering. Does fast charging damage the battery? Read <a href="/en/blog/does-fast-charging-damage-battery-truth" style="color:#166534;font-weight:600;">the full explanation</a>.
+        Anker with 18-month warranty + Joyroom with 12-month warranty. All chargers support PD + QC — charging any phone at maximum safe speed. <strong>100% genuine</strong> + delivery to all governorates + cash on delivery. Does fast charging damage the battery? Read <a href="/en/blog/does-fast-charging-damage-battery-truth" style="color:#166534;font-weight:600;">the full truth</a>.
     </p>
 </div>`,
             faq: [

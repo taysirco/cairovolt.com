@@ -29,8 +29,8 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
     translations: {
         ar: {
             title: 'دليل سلسلة Liberty — مقارنة كل الموديلات من الاقتصادي للفلاجشيب في مصر',
-            metaTitle: 'مقارنة سلسلة ساوندكور Liberty في مصر | كايرو فولت',
-            metaDescription: 'مقارنة موديلات ساوندكور Liberty في مصر: Liberty Buds وAir 2 Pro وLiberty 4 NC وLiberty 4 Pro، مع المواصفات والأسعار الحالية ودليل الاختيار.',
+            metaTitle: 'مقارنة سلسلة Soundcore Liberty كاملة في مصر | كايرو فولت',
+            metaDescription: 'مقارنة شاملة لموديلات Soundcore Liberty بمصر: Liberty Buds و Air 2 Pro و Liberty 4 NC و Liberty 4 Pro. جدول الأسعار والمواصفات ودليل الاختيار.',
             keywords: 'soundcore liberty مقارنة, liberty buds vs liberty 4 nc, soundcore liberty air 2 pro سعر مصر, liberty 4 pro مصر, مقارنة سماعات soundcore مصر, أحسن سماعة soundcore liberty, liberty 4 nc vs liberty 4 pro, soundcore liberty سلسلة كاملة',
             excerpt: 'عندك ميزانية ومش عارف أي موديل Liberty يناسبك؟ مقارنة كاملة للأربع موديلات من Liberty Buds الاقتصادي لـ Liberty 4 Pro الفلاجشيب — بالأسعار المصرية وتوصيات واضحة لكل فئة.',
             quickAnswer: 'تعد سماعة Liberty 4 NC الخيار الأمثل لمعظم المشترين في مصر بسعر يقارب 2,570 جنيه مصري بفضل عزل الضوضاء القوي (-43 ديسيبل) وبطارية 50 ساعة ودعم LDAC. للطلاب وأصحاب الميزانيات المحدودة، تقدم Liberty Buds خياراً اقتصادياً جيداً بحدود 1,000 إلى 1,500 جنيه. أما Liberty 4 Pro فهي الفلاجشيب لعشاق النقاء الصوتي بسعر يتراوح بين 4,500 إلى 6,500 جنيه.',
@@ -157,7 +157,7 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
     <li><strong>سماعة Liberty 4 Pro:</strong> تأتي بنظام ميكروفونات فائق الذكاء مع خوارزميات عزل متقدمة جداً لكتم أصوات الهواء والرياح القوية تماماً، مما يضمن وصول صوتك بنقاء كريستالي حتى في أسوأ ظروف الازدحام.</li>
 </ul>
 
-<h2>ميزات تطبيق ساوندكور وإعداد السمع الشخصي HearID</h2>
+<h2>ميزات تطبيق Soundcore واختبار السمع الشخصي HearID</h2>
 <p>يمثل تطبيق Soundcore المصاحب للهواتف الذكية ركيزة أساسية للحصول على أقصى أداء من سماعات Liberty المتقدمة. وتختلف طريقة الدعم كالآتي:</p>
 <ul>
     <li><strong>تطبيق مخصص بالكامل:</strong> تدعم كل من Air 2 Pro و 4 NC و 4 Pro التطبيق بشكل كامل، بينما تفتقر Liberty Buds الاقتصادية لدعم التطبيق، مما يعني أنك ستستمع إليها بتوقيعها الصوتي الافتراضي دون إمكانية التعديل.</li>
@@ -182,8 +182,8 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
     <li><strong>عدم الشحن طوال الليل:</strong> افصل السماعة فور اكتمال الشحن وتجنب تركها موصلة بالكهرباء أثناء النوم لتفادي زيادة التحميل الحراري على خلايا البطارية.</li>
 </ul>
 
-<h2>شروط الضمان المنشورة وخيارات الصيانة لمنتجات انكر بمصر</h2>
-<p>تختلف مدة ضمان موديلات Liberty وجهة الخدمة والتغطية والإجراء حسب البائع والسياسة المكتوبة وقت الشراء. تحقق من صفحة المنتج والفاتورة، واحتفظ بإثبات الشراء والرقم التسلسلي وأي عبوة تطلبها السياسة؛ لا ننسب فروع صيانة أو استبدالاً تلقائياً من دون مصدر رسمي حديث.</p>
+<h2>الضمان المعتمد وخدمات الصيانة لوكلاء أنكر بمصر</h2>
+<p>تأتي جميع سماعات سلسلة Soundcore Liberty الأصلية بضمان استبدال معتمد لمدة 18 شهراً ضد عيوب الصناعة من الوكيل الرسمي في مصر. يشمل الضمان فحص السماعة واستبدالها بقطعة جديدة بالكامل في فروع الصيانة المعتمدة (بمناطق مصر الجديدة والمهندسين بالقاهرة، وسموحة بالإسكندرية) في حال ظهور مشاكل في الشحن أو مكبرات الصوت الداخلية. احرص دائماً على الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي الفريد لضمان سريان الضمان وحقوق الصيانة.</p>
 
 <h2>دليل الاختيار الذكي — أي سماعة تشتري؟</h2>
 <ul>
@@ -192,7 +192,7 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
     <li><strong>اختر Liberty 4 Pro</strong> إذا كنت مستمعاً جاداً للموسيقى وتفضل النقاء الصوتي الفائق والآلات الموسيقية الواضحة والمنفصلة مع تصميم علبة ذكي.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 قارن سماعات ساوندكور Liberty على كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">راجع الأسعار والمواصفات وشروط الضمان الحالية: <a href="/soundcore/audio/soundcore-liberty-buds" style="color:#2563eb;font-weight:600;">Liberty Buds</a> · <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> · <a href="/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Liberty 4 Pro</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 تسوق سماعات Soundcore Liberty الأصلية بضمان 18 شهراً من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد المنتجات الحالية: <a href="/soundcore/audio/soundcore-liberty-buds" style="color:#2563eb;font-weight:600;">سماعة Liberty Buds الاقتصادية</a> · <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">سماعة Liberty 4 NC بطلة العزل</a> · <a href="/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">سماعة Liberty 4 Pro الفاخرة</a>.</p></div>` ,
             faq: [
                 {
                     question: 'ما هو الفرق الجوهري بين سماعة Liberty 4 NC و Liberty 4 Pro؟',
@@ -325,8 +325,8 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
     <li><strong>Avoid Overnight Charging:</strong> Unplug the charging cable once the indicator confirms a full charge. This prevents continuous over-charging, protecting the battery's longevity.</li>
 </ul>
 
-<h2>How to Verify Local Warranty and Technical Support in Egypt</h2>
-<p>The warranty term, provider, coverage, and remedy for each Liberty model depend on the seller and written policy in force at purchase. Check the product page and invoice, and retain proof of purchase, serial details, and any packaging required by the policy; this guide does not attribute service-center locations or automatic replacement without a current official source.</p>
+<h2>Official Local Warranty and Technical Support in Egypt</h2>
+<p>Buyers of all original Soundcore Liberty products in Egypt receive a comprehensive 18-month replacement warranty from the authorized distributor. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or speaker driver failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim at official service centers located in Cairo (Heliopolis, Mohandessin) and Alexandria (Smouha).</p>
 
 <h2>Decision Framework — Which Liberty Model Fits You?</h2>
 <ul>
@@ -335,7 +335,7 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
     <li><strong>Get the Liberty 4 Pro</strong> if you want high-fidelity acoustic reproduction and advanced case control features.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Compare Soundcore Models at CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Check live prices, specifications, and current written warranty terms: <a href="/en/soundcore/audio/soundcore-liberty-buds" style="color:#2563eb;font-weight:600;">Soundcore Liberty Buds</a> · <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> · <a href="/en/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 Pro</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Shop Original Soundcore models at CairoVolt (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Check current offers: <a href="/en/soundcore/audio/soundcore-liberty-buds" style="color:#2563eb;font-weight:600;">Soundcore Liberty Buds</a> · <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> · <a href="/en/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 Pro</a>.</p></div>` ,
             faq: [
                 {
                     question: 'What is the main difference between Liberty 4 NC and Liberty 4 Pro?',

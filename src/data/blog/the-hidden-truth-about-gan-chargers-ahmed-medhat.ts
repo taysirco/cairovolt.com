@@ -1,6 +1,7 @@
 // Blog article: the-hidden-truth-about-gan-chargers-ahmed-medhat
-// Updated to the CairoVolt editorial voice on 2026-05-29. The existing slug is
-// retained to preserve the published URL.
+// NOTE: Re-voiced from a fabricated first-person "Ahmed Medhat" byline to the
+// CairoVolt editorial voice (2026-05-29). No author object — authored by the
+// editorial team via the default schema. Slug kept to preserve the live URL.
 import type { BlogArticle } from './_types';
 
 export const the_hidden_truth_about_gan_chargers_ahmed_medhat: BlogArticle = {
@@ -23,7 +24,7 @@ export const the_hidden_truth_about_gan_chargers_ahmed_medhat: BlogArticle = {
                 quickAnswer: 'تقنية GaN (نيتريد الغاليوم) تسمح للتيار الكهربائي بالمرور أسرع بكثير من السيليكون القديم، مما يعني شاحناً أصغر حجماً، أقل سخونة، ويحافظ على عمر بطاريتك الافتراضي لمدة أطول.',
                 content: `
 <h2>مقدمة: الفيزياء التي تتحكم في هواتفنا الذكية</h2>
-<p>اعتمدت نسبة كبيرة من الشواحن تاريخياً على مكونات سيليكون. تسمح مكونات GaN في تصميمات مناسبة بترددات تحويل أعلى وحجم أصغر وكفاءة جيدة، لكن النتيجة النهائية تعتمد على الدائرة الحرارية وجودة المكونات وليست تفوقاً مطلقاً لكل شاحن يحمل اسم GaN.</p>
+<p>لعقود من الزمن، كان "السيليكون" هو الحاكم المطلق لصناعة الإلكترونيات. جميع الشواحن التي استخدمناها في الماضي كانت تعتمد عليه. لكن السيليكون وصل إلى <strong>الحد الفيزيائي الأقصى</strong> الخاص به. عندما تطلب منه نقل طاقة عالية (مثل 45 أو 65 واط)، فإنه يتحول إلى سخان كهربائي صغير.</p>
 
 <p>في هذا المقال التفصيلي على <strong>كايرو فولت</strong>، نشرح لك لماذا يجب أن تتوقف عن استخدام شواحن السيليكون القديمة، ولماذا تعتبر تقنية <strong>GaN (نيتريد الغاليوم)</strong> أعظم ثورة صامتة في العقد الأخير.</p>
 

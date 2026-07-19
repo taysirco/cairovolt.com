@@ -40,7 +40,7 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
                 },
                 {
                     question: 'هل يمكن شحن اللابتوب باستخدام باوربانك 20000 مللي أمبير عادي؟',
-                    answer: 'ليس دائماً. شحن اللابتوب يتطلب جهداً مرتفعاً (غالباً 20 فولت) وطاقة عالية بالواط-ساعة. الباوربانكات العادية تقدم جهد 5 فولت فقط، بينما تحتاج لباوربانك متطور يدعم تقنية Power Delivery وجهد إخراج عالٍ مثل انكر 737.'
+                    answer: 'ليس دائماً. شحن اللابتوب يتطلب جهداً مرتفعاً (غالباً 20 فولت) وطاقة عالية بالواط-ساعة. الباوربانكات العادية تقدم جهد 5 فولت فقط، بينما تحتاج لباوربانك متطور يدعم تقنية Power Delivery وجهد إخراج عالٍ مثل Anker 737.'
                 },
                 {
                     question: 'ما هي السعة الفعلية لباوربانك مكتوب عليه 10,000mAh؟',
@@ -49,7 +49,7 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
             ],
             content: `<p>لو إنت مسافر من مطار القاهرة أو أي مطار دولي، ومعاك باوربانك شاري بسببه <a href="/blog/20000mah-power-bank-iphone-17-pro-max-charges" style="color:#2563eb;font-weight:600;">سعر باور بانك سامسونج 20000 امبير</a> بمبلغ محترم، وتفاجأت إن ظابط أمن المطار بيمسك الباوربانك ويدور على رقم مكتوب عليه بالـ **Wh** مش بالـ **mAh**، وممكن يصادره منك لو الرقم ده مش واضح أو أعلى من المسموح! إنت هنا بتستغرب وتقول: "يا فندم ده 20 ألف أمبير عادي يعني!"، بس الأمن بيبقى عنده وجهة نظر فيزيائية تانية خالص بتتعلق بالأمان والسلامة الجوية.</p>
 
-<p>في هذا الدليل، إحنا بنحب نبسط المفاهيم المعقدة. سعة البطاريات مش مجرد أرقام بنتباهى بيها؛ دي حسابات كهربائية دقيقة بتحدد الباوربانك ده يقدر يشحن إيه وبسرعة كام وهل هينفجر لو حصل فيه مشكلة ولا لأ. في الدليل الفني ده، هنشرحلك بالبلدي وبالحسابات الرياضية الفرق بين الـ mAh والـ Wh، وليه الـ mAh لوحدها خادعة جداً، وإزاي تحسب طاقة أجهزتك بنفسك عشان تشتري اللي يناسبك وتعدي من أمن المطار وأنت مطمن.</p>
+<p>في كايرو فولت، إحنا بنحب نبسط المفاهيم المعقدة. سعة البطاريات مش مجرد أرقام بنتباهى بيها؛ دي حسابات كهربائية دقيقة بتحدد الباوربانك ده يقدر يشحن إيه وبسرعة كام وهل هينفجر لو حصل فيه مشكلة ولا لأ. في الدليل الفني ده، هنشرحلك بالبلدي وبالحسابات الرياضية الفرق بين الـ mAh والـ Wh، وليه الـ mAh لوحدها خادعة جداً، وإزاي تحسب طاقة أجهزتك بنفسك عشان تشتري اللي يناسبك وتعدي من أمن المطار وأنت مطمن.</p>
 
 <h2>أولاً: خدعة الملي أمبير ساعة (mAh) ولماذا تخفي الحقيقة؟</h2>
 <p>كلمة **mAh** هي اختصار لـ **Milliampere-hour** (مللي أمبير ساعة). دي وحدة قياس **الشحنة الكهربائية (Electric Charge)**، يعني ببساطة بتعد عدد الإلكترونات اللي تقدر البطارية تطلعها في الساعة. لكن الرقم ده لوحده ناقص، لإن الإلكترونات دي محتاجة قوة دفع تزقها، والقوة دي هي **الجهد (Voltage)**.</p>
@@ -71,7 +71,7 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
 <h2>ثالثاً: قوانين الطيران والحد السحري الـ 100Wh</h2>
 <p>منظمة الطيران المدني الدولي (ICAO) بتفرض قواعد صارمة على بطاريات الليثيوم لأنها سريعة الاشتعال وصعبة الإطفاء في الجو. القاعدة الذهبية هي:</p>
 <p style="font-weight:bold;color:#ef4444;">🚨 يُسمح بحمل البطاريات التي لا تتجاوز طاقتها 100Wh في حقيبة اليد دون إذن مسبق. ويُمنع تماماً وضعها في حقائب الشحن (Luggage) أسفل الطائرة.</p>
-<p>لو معاك باوربانك بسعة 20,000 مللي أمبير بجهد 3.7 فولت، طاقته بتكون **74Wh** (يعني مسموح بيه وآمن تماماً). شاحن مثل <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 Power Bank</a> سعة 24,000 مللي أمبير طاقته **86.4Wh**، وده برضه مسموح بيه وبيدخل المطار عادي جداً. لكن لو جبت باوربانك ضخم جداً سعة 40,000 مللي أمبير بجهد 3.7V، طاقته هتكون **148Wh**، وده هيتم مصادرته فوراً في المطار لأنه تجاوز الحد المسموح.</p>
+<p>لو معاك باوربانك بسعة 20,000 مللي أمبير بجهد 3.7 فولت، طاقته بتكون **74Wh** (يعني مسموح بيه وآمن تماماً). شاحن مثل <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 Power Bank</a> سعة 24,000 مللي أمبير طاقته **86.4Wh**، وده برضه مسموح بيه وبيدخل المطار عادي جداً. لكن لو جبت باوربانك ضخم جداً سعة 40,000 مللي أمبير بجهد 3.7V، طاقته هتكون **148Wh**، وده هيتم مصادرته فوراً في المطار لأنه تجاوز الحد المسموح.</p>
 
 <h2>رابعاً: كيف تحسب سعة شحن هاتفك الحقيقية من الباوربانك؟</h2>
 <p>كثير من الناس بيشتري باوربانك سعة 10,000 مللي أمبير وموبايله بطاريته 5000 مللي أمبير، ويتوقع إنه يشحنه مرتين كاملين. ويتفاجأ إنه شحنه مرة وربع أو مرة ونص بالكتير، ويسأل عن **حل مشكلة هاتف سامسونج لا يشتغل ولا يقبل الشحن** أو يظن أن الباوربانك مغشوش. الحقيقة هي رياضيات تحويل الفولت:</p>
@@ -84,7 +84,7 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
 <p>علشان كده، دي مش سرقة ولا غش تجاري؛ دي قوانين الفيزياء والطاقة الحرارية المهدرة اللي بتتحول لسخونة دافئة بتشعر بيها في الموبايل والباوربانك أثناء الشحن السريع.</p>
 
 <h2>خامساً: جدول مقارنة سريعة بين أشهر سعات الباوربانك بالـ mAh وما يعادلها بالـ Wh</h2>
-<p>الجدول ده بيوضحلك القيم القياسية لأشهر الموديلات المنتشرة في السوق المصري لبراندات انكر وجويروم وسامسونج:</p>
+<p>الجدول ده بيوضحلك القيم القياسية لأشهر الموديلات المنتشرة في السوق المصري لبراندات أنكر وجويروم وسامسونج:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -101,13 +101,13 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">مسموح به وآمن جداً (حقيبة اليد)</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">20,000mAh (مثل <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;">انكر 20000</a>)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">20,000mAh (مثل <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;">Anker 20000</a>)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3.7V</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">74Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">مسموح به وآمن (حقيبة اليد)</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">24,000mAh (مثل <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;">انكر 737</a>)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">24,000mAh (مثل <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;">Anker 737</a>)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3.6V - 3.7V</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">86.4Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">مسموح به (حقيبة اليد)</td>
@@ -136,7 +136,7 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
 <h2>رابعاً مكرر: لماذا يعتبر قياس Wh مهماً لشحن بطارية السيارات الكهربائية؟</h2>
 <p>إذا كنت تظن أن الفرق بين mAh و Wh يقتصر فقط على الهواتف والأجهزة الصغيرة، فالحقيقة أن صناعة السيارات الكهربائية (EVs) تعتمد بالكامل على هذا المفهوم الكهربائي ولكن على نطاق أضخم بكثير.</p>
 <p>في السيارات الكهربائية، لا تسمع أبداً مصطلح مللي أمبير ساعة (mAh)، بل يتم قياس سعة البطارية بالـ kWh (كيلوواط ساعة)، وهو ما يعادل 1000 واط-ساعة. محركات السيارات الكهربائية تحتاج لجهود كهربائية ضخمة جداً تتراوح بين 400 فولت إلى 800 فولت لنقل طاقة كافية لتحريك السيارة بأوزانها الثقيلة وسرعاتها العالية.</p>
-
+<p>لو قمنا بقياس بطارية سيارة كهربائية بالمللي أمبير ساعة، ستعطينا أرقاماً فلكية ملايين الملايين يصعب قراءتها أو فهمها تجارياً. على سبيل المثال، بطارية سيارة بسعة 75kWh تعمل بجهد 400 فولت تعادل حوالي 187,500mAh. لذلك، استخدام الواط-ساعة يسهل عمليات المقارنة المباشرة وحساب المسافة التقديرية التي يمكن للسيارة قطعها بشحنة واحدة بدقة بالغة.</p>
 
 <h2>رابعاً مكرر 2: تأثير درجات الحرارة المحيطة على سعة الباوربانك بالـ Wh الفعلي</h2>
 <p>تتأثر بطاريات الليثيوم كيميائياً بدرجات الحرارة المحيطة بها بشكل مباشر. هذا التأثير ينعكس فوراً على كفاءة نقل الطاقة ومقدار الواط-ساعة الفعلي الذي تستفيد منه بطارية هاتفك.</p>
@@ -170,7 +170,7 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
             ],
             content: `<p>If you are traveling through Cairo Airport or any international airport with a portable charger, you might be surprised to see airport security officers inspecting the device's labeling to find its **Wh** rating instead of its **mAh** capacity. They may even confiscate the charger if this number is missing or exceeds limits. While you might argue that it is just a standard 20,000mAh power bank, security relies on electrical physics to evaluate aviation safety risks.</p>
 
-<p>In this guide, we simplify complex engineering concepts. Battery capacity is more than just marketing numbers; it involves precise calculations that dictate what devices a power bank can charge, at what speeds, and its safety parameters. In this guide, we will break down the differences between mAh and Wh, explain why mAh alone can be misleading, and teach you how to calculate your devices' energy capacity so you can pass airport checks easily.</p>
+<p>At CairoVolt, we like to simplify complex engineering concepts. Battery capacity is more than just marketing numbers; it involves precise calculations that dictate what devices a power bank can charge, at what speeds, and its safety parameters. In this guide, we will break down the differences between mAh and Wh, explain why mAh alone can be misleading, and teach you how to calculate your devices' energy capacity so you can pass airport checks easily.</p>
 
 <h2>1. The Problem with Milliampere-Hours (mAh)</h2>
 <p>The term **mAh** stands for **Milliampere-hour**. This unit measures **electric charge**, indicating the total number of electrons the battery can deliver over one hour. However, this metric is incomplete because electrons require a force to move them, which is **Voltage (V)**.</p>
@@ -257,7 +257,7 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
 <h2>4.1. Why Wh and kWh are Crucial for Electric Vehicle (EV) Batteries</h2>
 <p>If you think the difference between mAh and Wh only matters for small smartphones, the reality is that the entire Electric Vehicle (EV) industry relies on this exact principle, albeit on a massive scale.</p>
 <p>In the EV sector, you will never hear battery capacity measured in milliampere-hours. Instead, battery packs are rated in kWh (Kilowatt-hours), which equals 1,000 Watt-hours. Electric car motors require massive operating voltages, ranging from 400V to 800V, to deliver enough torque and horsepower to move heavy vehicles at highway speeds.</p>
-
+<p>If we measured EV batteries in mAh, we would be dealing with astronomical, unreadable numbers in the hundreds of thousands or millions. For instance, a 75kWh battery pack operating at 400V is equivalent to 187,500mAh. Using Kilowatt-hours simplifies calculations, allowing consumers to compare energy capacities directly and compute driving range estimations with precision.</p>
 
 <h2>4.2. How Ambient Temperature Impacts Usable Wh Capacity</h2>
 <p>Lithium battery chemistry is highly sensitive to ambient temperatures. These thermal changes directly affect energy transfer efficiency and the actual Watt-hours delivered to your phone's battery cells.</p>

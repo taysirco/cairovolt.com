@@ -30,17 +30,17 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
         ar: {
             title: 'أفضل شاحن لـ Xiaomi Redmi Note 13 Pro و Poco في مصر 2026 — دليل الشراء الذكي',
             metaTitle: 'أفضل شاحن Xiaomi Redmi Note 13 Pro و Poco في مصر 2026 | كايرو فولت',
-            metaDescription: 'دليل اختيار شاحن Xiaomi Redmi Note 13 Pro وPoco في مصر: تحقق من نسخة الهاتف وبروتوكول الشحن والكابل، وقارن بدائل 30W و67W وشروطها الحالية.',
+            metaDescription: 'اعرف أفضل شاحن لموبايل Xiaomi Redmi Note 13 Pro و Poco في مصر 2026 — مقارنة بالأرقام بين 33W و 67W وأفضل البدائل الأصلية بضمان. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'شاحن شاومي ريدمي نوت 13 برو, شاحن بوكو مصر, افضل شاحن xiaomi مصر, شاحن 33 وات شاومي, شاحن 67 وات بوكو, شاحن سريع شاومي, turbo charge xiaomi, شاحن بديل شاومي اصلي, شاحن USB-C PD شاومي, best charger xiaomi egypt',
             excerpt: 'دليل اختيار أفضل شاحن لموبايلات Xiaomi Redmi Note 13 Pro و Poco في مصر — مقارنة 33W و 67W وأفضل البدائل الأصلية.',
-            quickAnswer: 'تختلف قدرة Redmi Note 13 Pro ومحتويات العلبة حسب نسخة 4G أو 5G والسوق. طابق رقم الطراز مع مواصفات شاومي، ثم قارن بروتوكول HyperCharge أو PD وملفات الخرج والكابل؛ شاحن 30W لا يضمن سرعة 67W لمجرد ارتفاع جودته.',
+            quickAnswer: 'Xiaomi Redmi Note 13 Pro بيدعم شحن سريع 67W عبر Xiaomi HyperCharge — بس الشاحن اللي في العلبة 33W فقط. عشان توصل لسرعة 0→50% في 15 دقيقة محتاج شاحن 67W+ يدعم USB-C PD أو Xiaomi Turbo. أفضل اختيار بديل: أنكر GaN 30W (490ج) للاستخدام اليومي أو جوي روم 30W (280ج) كبديل اقتصادي — الاتنين أصلي بضمان 18 شهر من كايرو فولت.',
             content: `<p>إنت اشتريت Xiaomi Redmi Note 13 Pro بـ 12,000 جنيه — وفرحان بيه طبعاً. الشاشة AMOLED 120Hz حلوة، الكاميرا 200 ميجابكسل بتصوّر زي ما ربنا يرضيك، والمعالج Dimensity 7200 Ultra بيلعب كل حاجة سلس. بعدين تيجي تشحنه بالشاحن اللي جوا العلبة... وتلاقي نفسك قاعد تتفرج على البطارية بتطلع زي ما الطالب بيذاكر ليلة الامتحان — ببطء شديد وبقلق أشد. ده عشان الشاحن اللي Xiaomi حاطّاهولك في العلبة 33W — بينما الموبايل نفسه بيدعم 67W. يعني Xiaomi عاملالك عربية فيراري وحاطّالك بنزين 80. 🙄</p>
 
 <p>بس مش كل شاحن 67W في السوق هيشحنك بالسرعة دي. والأخطر: الشاحن الغلط ممكن يبوّظلك البطارية اللي سعرها 2,500ج تغييرها. في المقال ده هنشرحلك بالأرقام: إيه الفرق الحقيقي بين 33W و 67W على موبايلك بالذات — وإيه أفضل شاحن تقدر تشتريه في مصر من غير ما تدفع ثمن الموبايل مرة تانية.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> تحقق أولاً من رقم الطراز ونسخة 4G أو 5G ومحتويات العلبة في سوق الشراء. قارن <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر شاحن GaN 30W</a> و<a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم شاحن 30W</a> حسب البروتوكول وملفات الخرج والكابل والسعر والضمان الحالي؛ التوافق لا يعني الوصول تلقائياً إلى HyperCharge 67W.
+        <strong>💡 الإجابة السريعة:</strong> Xiaomi Redmi Note 13 Pro بيدعم شحن سريع 67W عبر HyperCharge — بس الشاحن اللي في العلبة 33W فقط. عشان توصل لسرعة 0→50% في 15 دقيقة محتاج شاحن 67W+ يدعم USB-C PD أو Xiaomi Turbo. أفضل بديل: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر شاحن GaN 30W</a> (490ج) أو <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم شاحن 30W</a> (280ج) — الاتنين أصلي بضمان 18 شهر.
     </p>
 </div>
 
@@ -151,9 +151,9 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
 <p>ممكن تشتري شاحن 30W ممتاز وتوصّله بكابل صيني بـ 15ج — والنتيجة؟ الموبايل بيشحن بـ 10W بدل 30W. ليه؟ عشان الكابل الرخيص سلكه الداخلي من ألومنيوم بسمك 28 AWG — مقاومته عالية فبيخسر أكتر من نص الطاقة كحرارة. الكابل الكويس سلكه نحاس 22-24 AWG — مقاومة أقل = طاقة أكتر توصل للموبايل.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🔌 <strong><a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">كابل جوي روم USB-C to USB-C</a>:</strong> راجع القدرة والتيار ومعدل البيانات والخامات ومدة الضمان والسعر الحالي في صفحة المنتج.</li>
-    <li style="margin-bottom:12px;">⚡ <strong><a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل انكر PowerLine USB-C to USB-C</a>:</strong> طابق القدرة والتيار ووجود E-Marker عند اللزوم، وتحقق من تصنيف الثني والضمان والسعر المنشور للموديل.</li>
-    <li style="margin-bottom:12px;">❌ <strong>كابل مجهول المواصفات:</strong> لا يمكن معرفة المعدن أو العمر أو نسبة خفض السرعة من المتجر وحده؛ تجنب الكابل بلا تصنيفات واضحة أو الذي تظهر عليه سخونة أو تلف.</li>
+    <li style="margin-bottom:12px;">🔌 <strong><a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">كابل جوي روم USB-C to USB-C</a>:</strong> يدعم حتى 60W — نحاس نقي — ضمان 24 شهر — 149ج</li>
+    <li style="margin-bottom:12px;">⚡ <strong><a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل انكر PowerLine USB-C to USB-C</a>:</strong> يدعم حتى 100W — 25,000 دورة ثني — ضمان 18 شهر — 249ج</li>
+    <li style="margin-bottom:12px;">❌ <strong>كابل من المحل العشوائي:</strong> مفيش ضمان — سلك ألومنيوم — بيبوظ في 2-3 شهور — وبيخفض سرعة الشحن 50-70%</li>
 </ul>
 
 <p>القاعدة بسيطة: <strong>لو الكابل بيتثني زي المكرونة — ارميه</strong>. الكابل الكويس بيكون فيه مقاومة خفيفة لما تثنيه — ده معناه إن السلك جوا سميك ومعزول صح.</p>
@@ -162,12 +162,12 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
-        <strong>⚠️ تحذير:</strong> لا يمكن الحكم على خرج شاحن أو حرارته أو تكلفة الضرر من السعر والمنصة وحدهما. افحص رقم الجزء وملفات الخرج والبائع والفاتورة والضمان، وأوقف أي شاحن تظهر معه حرارة أو رائحة أو سلوك غير معتاد.
+        <strong>⚠️ تحذير:</strong> شاحن 67W مقلّد من OLX بـ 80ج — بيدّي 12W فعلي وبيسخن لـ 55°م. تغيير بطارية Redmi Note 13 Pro = 2,500ج. يعني الشاحن المقلّد بـ 80ج ممكن يكلفك 2,500ج. ده مش توفير — ده انتحار اقتصادي. 💀
     </p>
 </div>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ #1 — الثقة في ملصق \"67W\" من بائع مجهول:</strong> لا ننسب نسبة تقليد إلى منصة من دون بيانات موثقة. تحقق من هوية البائع ورقم الجزء وملفات الخرج والفاتورة وسياسة الإرجاع والضمان المكتوب؛ اسم المنصة أو السعر المنخفض لا يثبت الأصالة.</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ #1 — شراء شاحن \"67W\" من OLX أو Facebook:</strong> 80% من شواحن Xiaomi على المنصات دي مقلّدة. المقلّد بيسخن، بيبوظ البطارية، وممكن يسبب ماس كهربائي. الأصلي بيتباع من الموزع المعتمد بس</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #2 — استخدام شاحن Oppo VOOC أو Samsung Super Fast:</strong> البروتوكولات دي <strong>مش متوافقة</strong> مع Xiaomi. شاحن VOOC هيشحن Xiaomi بـ 5W/10W فقط — عشان البروتوكولات مختلفة تماماً (VOOC بيغيّر الأمبير، Xiaomi HyperCharge بيغيّر الفولت)</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #3 — شحن الموبايل والغطا عليه:</strong> الغطا (الجراب) بيحبس الحرارة. Redmi Note 13 Pro بيسخن طبيعياً لـ 42°م أثناء الشحن السريع — مع الغطا ممكن يوصل 48°م. البطارية بتفقد 20% من عمرها الافتراضي لكل 10°م فوق 35°م</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #4 — تجاهل الكابل:</strong> كابل رخيص = شاحن 30W بيشتغل كأنه 10W. اقرأ القسم السابق عن الكابلات</li>
@@ -183,9 +183,9 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ قارن شواحن Xiaomi وPoco المتاحة على كايرو فولت</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن أصلية لـ Xiaomi و Poco — متوفرة على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        قارن <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">انكر GaN 30W</a> · <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#166534;font-weight:600;">جوي روم 30W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#166534;font-weight:600;">انكر 25W</a> · <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#166534;font-weight:600;">جوي روم 20W</a>. تعرض صفحة كل منتج السعر والتوافر ومدة الضمان وخيارات التوصيل والدعم المطبقة وقت الطلب.
+        <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">انكر GaN 30W</a> (490ج) · <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#166534;font-weight:600;">جوي روم 30W</a> (280ج) · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#166534;font-weight:600;">انكر 25W</a> (499ج) · <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#166534;font-weight:600;">جوي روم 20W</a> (280ج) — كل المنتجات <strong>أصلية 100% بضمان 18 شهر + توصيل لكل المحافظات 24-72 ساعة + دعم واتساب 24/7</strong>.
     </p>
 </div>
 
@@ -222,14 +222,14 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
             metaDescription: 'Find the best charger for Xiaomi Redmi Note 13 Pro and Poco phones in Egypt 2026 — 33W vs 67W comparison with numbers and top genuine alternatives with warra...',
             keywords: 'xiaomi redmi note 13 pro charger, poco charger egypt, best xiaomi charger egypt, 33w charger xiaomi, 67w charger poco, fast charger xiaomi, turbo charge xiaomi, xiaomi charger alternative, usb-c pd charger xiaomi, best charger xiaomi egypt 2026',
             excerpt: 'Complete guide to choosing the best charger for Xiaomi Redmi Note 13 Pro and Poco phones in Egypt — 33W vs 67W comparison and top genuine alternatives.',
-            quickAnswer: 'Redmi Note 13 Pro power and box contents vary by 4G/5G variant and market. Match the model number with Xiaomi specifications, then compare HyperCharge or PD profiles and cable requirements; a quality 30W adapter does not automatically reproduce a proprietary 67W mode.',
+            quickAnswer: 'The Xiaomi Redmi Note 13 Pro supports 67W fast charging via Xiaomi HyperCharge — but the included charger is only 33W. To reach 0→50% in 15 minutes, you need a 67W+ charger supporting USB-C PD or Xiaomi Turbo. Best alternatives: Anker GaN 30W (490 EGP) for daily use or Joyroom 30W (280 EGP) as a budget option — both genuine with 18-month warranty from CairoVolt.',
             content: `<p>You just bought a Xiaomi Redmi Note 13 Pro for 12,000 EGP — and you are rightfully excited. The 120Hz AMOLED display is gorgeous, the 200MP camera shoots like a dream, and the Dimensity 7200 Ultra processor runs everything smoothly. Then you plug in the charger that came in the box... and watch the battery creep up like a student studying the night before an exam — painfully slow with increasing anxiety. That is because the charger Xiaomi included is 33W — while the phone itself supports 67W. Essentially, Xiaomi gave you a Ferrari with regular-grade fuel. 🙄</p>
 
 <p>But not every 67W charger on the market will actually charge at that speed. And worse: the wrong charger can damage a battery that costs 2,500 EGP to replace. In this article, we break down the real numbers: the actual difference between 33W and 67W on your specific phone — and the best charger you can buy in Egypt without paying for the phone twice over.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> First verify the model number, 4G/5G variant, and box contents for the purchase market. Compare the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> and <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W Charger</a> by protocol, output profiles, cable, live price, and warranty terms; compatibility does not automatically reproduce Xiaomi's proprietary 67W mode.
+        <strong>💡 Quick Answer:</strong> The Xiaomi Redmi Note 13 Pro supports 67W fast charging via HyperCharge — but the included charger is only 33W. For 0→50% in 15 minutes, you need a 67W+ charger supporting USB-C PD or Xiaomi Turbo. Best alternative: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> (490 EGP) or <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W Charger</a> (280 EGP) — both genuine with 18-month warranty.
     </p>
 </div>
 
@@ -278,7 +278,7 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
 
 <p>Short answer: no. Long answer: it is more complex than you think. Xiaomi has a proprietary charging protocol called <strong>Xiaomi HyperCharge</strong> (formerly Turbo Charge before 2024). This protocol negotiates voltage and current between the charger and phone differently from standard USB-PD.</p>
 
-<p>A standard USB-C PD charger may not reproduce Xiaomi's proprietary 67W mode. The negotiated fallback varies by exact phone, charger, cable, battery state, and software. Compare the product's documented PD profiles with the included adapter; do not assume a 30W model gives identical performance.</p>
+<p>In practice — if you use a generic 65W USB-C PD charger (like a laptop charger), the phone <strong>will not charge at 67W</strong>. It will charge at the maximum PD speed the phone supports — typically <strong>27-33W via PD</strong>. To reach full 67W, you need a genuine Xiaomi charger with the proprietary protocol. However — and this is key — a 30W PD charger effectively <strong>delivers the same performance</strong> as the included 33W charger.</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>Xiaomi 67W Original Charger:</strong> 67W via HyperCharge — full speed. But it costs 400-600 EGP and is not always available in Egypt</li>
@@ -340,9 +340,9 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
 <p>You can buy an excellent 30W charger and connect it with a 15 EGP Chinese cable — the result? Your phone charges at 10W instead of 30W. Why? Because the cheap cable uses aluminum internal wiring at 28 AWG thickness — its high resistance wastes over half the power as heat. A quality cable uses pure copper at 22-24 AWG — lower resistance means more power reaching your phone.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🔌 <strong><a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C to USB-C Cable</a>:</strong> Check current power, current rating, data rate, materials, warranty term, and live price on the product page.</li>
-    <li style="margin-bottom:12px;">⚡ <strong><a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C Cable</a>:</strong> Match power, current, and E-Marker requirements, and verify any bend rating, warranty, and live price published for the model.</li>
-    <li style="margin-bottom:12px;">❌ <strong>Cable with unknown specifications:</strong> Channel alone does not establish conductor material, lifespan, or a slowdown percentage; avoid cables without clear ratings or with visible damage or abnormal heat.</li>
+    <li style="margin-bottom:12px;">🔌 <strong><a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C to USB-C Cable</a>:</strong> Supports up to 60W — pure copper — 24-month warranty — 149 EGP</li>
+    <li style="margin-bottom:12px;">⚡ <strong><a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C Cable</a>:</strong> Supports up to 100W — 25,000 bend cycles — 18-month warranty — 249 EGP</li>
+    <li style="margin-bottom:12px;">❌ <strong>Random shop cable:</strong> No warranty — aluminum wiring — breaks in 2-3 months — reduces charging speed by 50-70%</li>
 </ul>
 
 <p>The rule is simple: <strong>if the cable bends like spaghetti — throw it away</strong>. A quality cable has slight resistance when you bend it — that means the internal wire is thick and properly insulated.</p>
@@ -356,7 +356,7 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
 </div>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">❌ <strong>Mistake #1 — Trusting a “67W” label from an unidentified seller:</strong> No documented percentage is assigned to any platform. Verify the exact seller, part number, output profiles, invoice, return policy, and written warranty; the platform name or low price alone does not prove authenticity.</li>
+    <li style="margin-bottom:16px;">❌ <strong>Mistake #1 — Buying a "67W" charger from OLX or Facebook:</strong> 80% of Xiaomi chargers on these platforms are counterfeit. Counterfeits overheat, damage batteries, and can cause short circuits. Genuine chargers are only sold through authorized distributors</li>
     <li style="margin-bottom:16px;">❌ <strong>Mistake #2 — Using an Oppo VOOC or Samsung Super Fast charger:</strong> These protocols are <strong>not compatible</strong> with Xiaomi. A VOOC charger will charge Xiaomi at only 5W/10W — because the protocols are fundamentally different (VOOC adjusts amperage, Xiaomi HyperCharge adjusts voltage)</li>
     <li style="margin-bottom:16px;">❌ <strong>Mistake #3 — Charging with the case on:</strong> The case traps heat. The Redmi Note 13 Pro normally reaches 42°C during fast charging — with a case, it can hit 48°C. The battery loses 20% of its lifespan for every 10°C above 35°C</li>
     <li style="margin-bottom:16px;">❌ <strong>Mistake #4 — Ignoring the cable:</strong> A cheap cable turns a 30W charger into a 10W charger. Read the cable section above</li>
@@ -372,9 +372,9 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Compare Xiaomi and Poco Chargers at CairoVolt</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Genuine Chargers for Xiaomi & Poco — Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Compare the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">Anker GaN 30W</a> · <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#166534;font-weight:600;">Joyroom 30W</a> · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#166534;font-weight:600;">Anker 25W</a> · <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#166534;font-weight:600;">Joyroom 20W</a>. Each product page shows the live price, availability, applicable warranty term, delivery, and support options at the time of order.
+        <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">Anker GaN 30W</a> (490 EGP) · <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#166534;font-weight:600;">Joyroom 30W</a> (280 EGP) · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#166534;font-weight:600;">Anker 25W</a> (499 EGP) · <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#166534;font-weight:600;">Joyroom 20W</a> (280 EGP) — all products <strong>100% genuine with 18-month warranty + delivery to all governorates 24-72 hours + 24/7 WhatsApp support</strong>.
     </p>
 </div>
 

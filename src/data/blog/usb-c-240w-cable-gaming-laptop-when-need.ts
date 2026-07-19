@@ -239,7 +239,7 @@ export const usb_c_240w_cable_gaming_laptop_when_need: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ كابلات أصلية متاحة على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        قارن كابلات 60W و100W المتاحة وفق القدرة ونوع E-Marker ومعدل البيانات والموصلات. تعرض صفحة كل منتج السعر والتوافر ومدة الضمان وخيارات التوصيل المطبقة وقت الطلب؛ ويمكنك إرسال طراز الجهاز والشاحن على واتساب للمساعدة.
+        كل كابلات كايرو فولت — سواء 60W أو 100W — <strong>أصلية بضمان 18 شهر</strong> + E-Marker حقيقي + توصيل لكل المحافظات 24-72 ساعة. اختار الكابل المناسب لاحتياجك الفعلي — مش لرقم على العلبة. لو محتاج مساعدة في الاختيار — كلمنا على واتساب.
     </p>
 </div>
 
@@ -464,7 +464,7 @@ export const usb_c_240w_cable_gaming_laptop_when_need: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Genuine Cables Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Compare available 60W and 100W cables by power rating, E-Marker specification, data rate, and connectors. Each product page shows the live price, availability, applicable warranty term, and checkout delivery options; send the device and charger models on WhatsApp for help.
+        All CairoVolt cables — whether 60W or 100W — are <strong>genuine with 18-month warranty</strong> + real E-Marker chips + delivery to all governorates in 24-72 hours. Choose the cable that matches your actual needs — not the number on the box. Need help choosing? Message us on WhatsApp.
     </p>
 </div>
 

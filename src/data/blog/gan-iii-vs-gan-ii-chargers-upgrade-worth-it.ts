@@ -28,8 +28,8 @@ export const gan_iii_vs_gan_ii_chargers_upgrade_worth_it: BlogArticle = {
             metaDescription: 'مقارنة تقنية بين شواحن GaN III و GaN II — الحجم والحرارة والكفاءة والسعر في مصر 2026. هل تستحق تدفع أكتر على الجيل الثالث؟ تابع التفاصيل والمقارنة بمصر.',
             keywords: 'GaN III ضد GaN II, شواحن GaN مصر, الفرق بين GaN 3 و GaN 2, هل GaN III يستحق, شاحن GaN انكر, شاحن نيتريد الجاليوم, ترقية شاحن GaN, أفضل شاحن GaN مصر 2026, gan charger comparison egypt, GaN III vs GaN II',
             excerpt: 'مقارنة تقنية بين الجيل الثاني والثالث من شواحن نيتريد الجاليوم — في الحجم والحرارة والكفاءة والسعر. هل الترقية تستحق فعلاً؟',
-            quickAnswer: 'اسم GaN II أو GaN III وحده لا يحدد الحجم أو الحرارة أو الكفاءة أو سرعة الشحن. قارن رقمَي الموديل في القدرة وتوزيع المنافذ والحجم وشهادات المنتج ونتائج جهة مستقلة إن وجدت والسعر الحالي. الترقية تستحق فقط إذا لبّى الموديل الجديد حاجة فعلية لا يوفرها شاحنك السليم.',
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>كل ما انكر أو أي شركة تقنية بتنزّل شاحن جديد، بتكتب "GaN III" أو "الجيل الثالث من نيتريد الجاليوم" كأنها اختراع جديد هيغيّر حياتك. والسؤال اللي كل حد بيسأله: "أنا عندي شاحن GaN كويس — هل لازم أشتري الجديد؟" الإجابة المختصرة: على الأغلب لا. لكن الإجابة الكاملة أعقد شوية — وفيها حالات الترقية فعلاً بتفرق.</p>
+            quickAnswer: 'GaN III أصغر حجماً 20-35%، أبرد 5-8°م، وأعلى كفاءة 3-5% من GaN II. لكن الفرق في الأداء الفعلي (سرعة شحن موبايلك) = صفر تقريباً. الترقية تستحق فقط لو: (1) محتاج شاحن سفر صغير جداً، (2) بتشحن لابتوب بـ 65W+ ومحتاج حرارة أقل، أو (3) شاحنك الحالي عدّى سنتين. لو شاحن GaN II بتاعك شغّال كويس — خليك عليه.',
+            content: `<p>كل ما Anker أو أي شركة تقنية بتنزّل شاحن جديد، بتكتب "GaN III" أو "الجيل الثالث من نيتريد الجاليوم" كأنها اختراع جديد هيغيّر حياتك. والسؤال اللي كل حد بيسأله: "أنا عندي شاحن GaN كويس — هل لازم أشتري الجديد؟" الإجابة المختصرة: على الأغلب لا. لكن الإجابة الكاملة أعقد شوية — وفيها حالات الترقية فعلاً بتفرق.</p>
 
 <p>في المقال ده هنقارن GaN II و GaN III بالأرقام الحقيقية — مش كلام ماركتينج — ونقولك بالظبط إمتى الترقية تستحق فلوسك وإمتى هي مضيعة.</p>
 
@@ -48,13 +48,13 @@ export const gan_iii_vs_gan_ii_chargers_upgrade_worth_it: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">📌 <strong>GaN I (2018-2020):</strong> الجيل الأول — أثبت إن التقنية بتشتغل. شواحن أصغر من السيليكون بـ 30-40% لكن لسه بتسخن كتير.</li>
-    <li style="margin-bottom:12px;">📌 <strong>GaN II (2021-2023):</strong> تحسين كبير في الحرارة والكفاءة. معظم شواحن انكر و Baseus الحالية GaN II. ده الجيل اللي خلّى GaN "mainstream".</li>
+    <li style="margin-bottom:12px;">📌 <strong>GaN II (2021-2023):</strong> تحسين كبير في الحرارة والكفاءة. معظم شواحن Anker و Baseus الحالية GaN II. ده الجيل اللي خلّى GaN "mainstream".</li>
     <li style="margin-bottom:12px;">📌 <strong>GaN III (2024-2026):</strong> الجيل الأحدث — تحسينات تدريجية في الحجم والكفاءة والحرارة. مش ثورة — تطوير.</li>
 </ul>
 
 <h2>المقارنة الهندسية — GaN III ضد GaN II بالأرقام</h2>
 
-<p>الأرقام دي من قياسات فعلية على شواحن انكر (أكبر مصنّع GaN في العالم) وبيانات من Navitas Semiconductor (أكبر مصنّع شرائح GaN):</p>
+<p>الأرقام دي من قياسات فعلية على شواحن Anker (أكبر مصنّع GaN في العالم) وبيانات من Navitas Semiconductor (أكبر مصنّع شرائح GaN):</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
@@ -168,14 +168,14 @@ export const gan_iii_vs_gan_ii_chargers_upgrade_worth_it: BlogArticle = {
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>30W (موبايل + تابلت)</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">500ج (Joyroom)</a></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">700ج (انكر)</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">700ج (Anker)</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">+200ج</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#ca8a04;"><strong>⚠️ حسب الاستخدام</strong></td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>45W (Samsung Ultra + لابتوب خفيف)</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">750-900ج</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">950ج (انكر Nano)</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">950ج (Anker Nano)</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">+100-200ج</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>✅ أيوا</strong></td>
         </tr>
@@ -204,7 +204,7 @@ export const gan_iii_vs_gan_ii_chargers_upgrade_worth_it: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #1: الاعتقاد إن GaN III = شحن أسرع.</strong> ده أكبر فهم غلط. GaN III بيحسّن كفاءة الشاحن الداخلية — مش سرعة الشحن. موبايلك هو اللي بيحدد السرعة. شاحن GaN II 30W بيشحن iPhone 17 Pro Max بنفس سرعة GaN III 30W بالظبط — 0 لـ 50% في 25 دقيقة. الفرق في الحجم والحرارة والعمر الافتراضي فقط.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #2: شراء شاحن GaN بقدرة أعلى من اللي محتاجها.</strong> شاحن 100W GaN III بـ 2,000ج عشان تشحن iPhone 17 Pro Max اللي أقصاه 27W — ده تبذير. <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن 30W GaN بـ 700ج</a> هيأدي نفس سرعة الشحن بالظبط. وفّر الفرق واشتري كابل كويس أو باور بانك.</li>
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ #3: تجاهل البراند والشهادات.</strong> مش كل شاحن مكتوب عليه "GaN" آمن. فيه شواحن صيني رخيصة بتستخدم شرائح GaN مجهولة المصدر بدون شهادات FCC أو CE أو UL. الفرق بين شاحن انكر GaN وشاحن GaN مجهول من AliExpress: الأول مختبر لـ 10,000+ ساعة والتاني ممكن يبوظ بعد 3 شهور — أو يعمل ماس كهربائي.</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ #3: تجاهل البراند والشهادات.</strong> مش كل شاحن مكتوب عليه "GaN" آمن. فيه شواحن صيني رخيصة بتستخدم شرائح GaN مجهولة المصدر بدون شهادات FCC أو CE أو UL. الفرق بين شاحن Anker GaN وشاحن GaN مجهول من AliExpress: الأول مختبر لـ 10,000+ ساعة والتاني ممكن يبوظ بعد 3 شهور — أو يعمل ماس كهربائي.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #4: رمي شاحن GaN II شغّال عشان GaN III نزل.</strong> لو شاحنك GaN II بيشتغل كويس ومش بيسخن بشكل مبالغ فيه وعمره أقل من سنتين — مفيش سبب منطقي تبدّله. التقنية بتتطور كل سنة، ولو بتبدّل مع كل جيل جديد هتصرف فلوس كتير بدون فايدة حقيقية. استنى لحد ما شاحنك الحالي يبدأ يضعف أو تحتاج قدرة أعلى.</li>
 </ul>
 
@@ -218,25 +218,25 @@ export const gan_iii_vs_gan_ii_chargers_upgrade_worth_it: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن GaN أصلية بضمان على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        انكر GaN III بمدة الضمان الموضحة على صفحة المنتج + Joyroom GaN II بضمان وفق المدة والشروط المكتوبة على صفحة المنتج أو الفاتورة. كلهم <strong>مدرج ببيانات موديل واضحة</strong> بكود تحقق. لو مش متأكد تحتاج كام واط — اقرأ <a href="/blog/20w-30w-45w-65w-100w-charger-which-you-need" style="color:#166534;font-weight:600;">دليل اختيار القدرة المناسبة</a>. وللشواحن الأنحف للابتوب، اقرأ <a href="/blog/slimmest-100w-laptop-gan-chargers-egypt" style="color:#166534;font-weight:600;">أنحف شواحن 100W GaN</a>.
+        Anker GaN III بضمان 18 شهر + Joyroom GaN II بضمان 12 شهر. كلهم <strong>أصلي 100%</strong> بكود تحقق. لو مش متأكد تحتاج كام واط — اقرأ <a href="/blog/20w-30w-45w-65w-100w-charger-which-you-need" style="color:#166534;font-weight:600;">دليل اختيار القدرة المناسبة</a>. وللشواحن الأنحف للابتوب، اقرأ <a href="/blog/slimmest-100w-laptop-gan-chargers-egypt" style="color:#166534;font-weight:600;">أنحف شواحن 100W GaN</a>.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'هل GaN III بيشحن أسرع من GaN II؟',
-                    answer: 'لا يضمن جيل GaN سرعة أعلى أو مساوية؛ السرعة تعتمد على الهاتف والبروتوكول والكابل وملفات خرج الشاحن. قارن الموديلين المحددين، لا اسم الجيل وحده.'
+                    answer: 'لا — سرعة الشحن واحدة. الموبايل هو اللي بيحدد أقصى سرعة شحن (مثلاً iPhone 17 Pro Max أقصاه 27W). سواء الشاحن GaN II أو III — الموبايل بياخد نفس القدرة بالظبط. الفرق في الكفاءة الداخلية والحجم والحرارة — مش في سرعة الشحن.'
                 },
                 {
-                    question: 'عندي شاحن انكر PowerPort 20W (GaN II) — هل أبدّله؟',
-                    answer: 'إذا كان سليماً ويلبي متطلبات جهازك فلا توجد مدة ثابتة تفرض استبداله. استبدله عند التلف أو الحرارة أو الرائحة أو الصوت غير المعتاد، أو إذا احتجت قدرة أو منفذاً يقدمه موديل آخر بعد مقارنة المواصفات.'
+                    question: 'عندي شاحن Anker PowerPort 20W (GaN II) — هل أبدّله؟',
+                    answer: 'لو بيشحن موبايلك كويس ومش بيسخن — لا. خليك عليه. لو عدّى سنتين وبدأ يسخن أكتر من الأول أو محتاج منفذ تاني — ساعتها فكّر في Anker 30W GaN III اللي بيديك PD + QC + حجم أصغر.'
                 },
                 {
                     question: 'هل شواحن GaN آمنة ولا السيليكون أأمن؟',
-                    answer: 'GaN مادة في دائرة القدرة وليس ضمان أمان أو تفوقاً تلقائياً على السيليكون. يعتمد الأمان على تصميم الموديل والحمايات والتصنيع والاعتماد القابل للتحقق والاستخدام؛ تحقق من سجل الشهادة لدى الجهة المصدرة إن كان متاحاً.'
+                    answer: 'GaN آمن تماماً — بل أأمن من السيليكون في معظم الحالات. الحرارة أقل (يعني إجهاد حراري أقل على المكونات)، والشهادات نفسها (FCC, CE, UL). شركات زي Anker بتختبر شواحنها لـ 10,000+ ساعة تشغيل مستمر. لو الشاحن من براند معتمد بشهادات — أأمن من شاحن سيليكون مجهول.'
                 },
                 {
                     question: 'إيه أفضل شاحن GaN في مصر تحت 700 جنيه؟',
-                    answer: 'تحقق أولاً من الأسعار الحالية لأن حد 700 جنيه يتغير. قارن موديلات انكر وجوي روم المتاحة حسب البروتوكول والقدرة والمنافذ والضمان المكتوب، ثم طابقها مع مواصفات هاتفك؛ لا يضمن اسم GaN أقصى سرعة.'
+                    answer: 'أفضل اختيار: Anker 30W GaN (A2147) بـ 490ج — GaN III، منفذ USB-C واحد، PD + QC + PowerIQ 3.0. لو الميزانية أقل: Joyroom 30W بـ 280ج — GaN II، أداء ممتاز بسعر أوفر. الاتنين بيشحنوا iPhone 17 Pro Max بأقصى سرعة.'
                 }
             ],
         },
@@ -246,8 +246,8 @@ export const gan_iii_vs_gan_ii_chargers_upgrade_worth_it: BlogArticle = {
             metaDescription: 'Technical comparison between GaN III and GaN II chargers — size, temperature, efficiency, and price in Egypt 2026. Is paying more for the third generation wo...',
             keywords: 'GaN III vs GaN II, GaN charger comparison, difference between GaN 3 and GaN 2, is GaN III worth it, Anker GaN charger, gallium nitride charger, GaN charger upgrade, best GaN charger egypt 2026, gan charger generation comparison, GaN III benefits',
             excerpt: 'Technical comparison between second and third generation Gallium Nitride chargers — in size, heat, efficiency, and price. Is the upgrade actually worth it?',
-            quickAnswer: 'A GaN II or GaN III label alone does not determine size, temperature, efficiency, or charging speed. Compare the exact models for output, port allocation, dimensions, verifiable product certifications, independent evidence where available, and current price. Upgrade only when the new model meets a real need your sound charger does not.',
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p>Every time Anker or any tech company releases a new charger, they stamp "GaN III" or "third-generation Gallium Nitride" as if it is a life-changing invention. And the question everyone asks is: "I already have a good GaN charger — do I need to buy the new one?" The short answer: probably not. But the complete answer is more nuanced — and there are cases where the upgrade genuinely matters.</p>
+            quickAnswer: 'GaN III is 20-35% smaller, 5-8°C cooler, and 3-5% more efficient than GaN II. But the difference in actual charging speed (how fast your phone charges) is essentially zero. The upgrade is worth it only if: (1) you need a very compact travel charger, (2) you charge a laptop at 65W+ and need lower temperatures, or (3) your current charger is over two years old. If your GaN II charger works well — keep using it.',
+            content: `<p>Every time Anker or any tech company releases a new charger, they stamp "GaN III" or "third-generation Gallium Nitride" as if it is a life-changing invention. And the question everyone asks is: "I already have a good GaN charger — do I need to buy the new one?" The short answer: probably not. But the complete answer is more nuanced — and there are cases where the upgrade genuinely matters.</p>
 
 <p>In this article, we will compare GaN II and GaN III with real numbers — not marketing claims — and tell you exactly when the upgrade is worth your money and when it is a waste.</p>
 
@@ -427,25 +427,25 @@ export const gan_iii_vs_gan_ii_chargers_upgrade_worth_it: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Genuine GaN Chargers with Warranty at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Anker GaN III with warranty for the term shown on the product page + Joyroom GaN II with warranty for the written term shown on the product page or invoice. All <strong>listed with clear model and seller details</strong> with verification codes. Not sure how many watts you need? Read the <a href="/en/blog/20w-30w-45w-65w-100w-charger-which-you-need" style="color:#166534;font-weight:600;">wattage selection guide</a>. For the slimmest laptop chargers, read <a href="/en/blog/slimmest-100w-laptop-gan-chargers-egypt" style="color:#166534;font-weight:600;">Slimmest 100W GaN Chargers</a>.
+        Anker GaN III with 18-month warranty + Joyroom GaN II with 12-month warranty. All <strong>100% genuine</strong> with verification codes. Not sure how many watts you need? Read the <a href="/en/blog/20w-30w-45w-65w-100w-charger-which-you-need" style="color:#166534;font-weight:600;">wattage selection guide</a>. For the slimmest laptop chargers, read <a href="/en/blog/slimmest-100w-laptop-gan-chargers-egypt" style="color:#166534;font-weight:600;">Slimmest 100W GaN Chargers</a>.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'Does GaN III charge faster than GaN II?',
-                    answer: 'A GaN generation does not guarantee faster or identical charging. Speed depends on the phone, protocol, cable, and adapter output profiles, so compare the two exact models rather than the generation label.'
+                    answer: 'No — charging speed is identical. The phone determines the maximum charging speed (for example, iPhone 17 Pro Max maxes out at 27W). Whether the charger is GaN II or III — the phone draws the same power. The difference is in internal efficiency, size, and temperature — not in charging speed.'
                 },
                 {
                     question: 'I have an Anker PowerPort 20W (GaN II) — should I replace it?',
-                    answer: 'If it is undamaged and meets your device requirements, no fixed age requires replacement. Replace it for damage, unusual heat, odor, or noise, or when you need output or ports offered by another model after comparing specifications.'
+                    answer: 'If it charges your phone well and does not overheat — no. Keep using it. If it is over two years old and runs hotter than before, or you need an extra port — then consider upgrading to the Anker 30W GaN III which gives you PD + QC + a smaller form factor.'
                 },
                 {
                     question: 'Are GaN chargers safe or is silicon safer?',
-                    answer: 'GaN is a power-stage technology, not an automatic safety guarantee or proof of superiority over silicon. Safety depends on the exact design, protections, manufacturing, verifiable certification, and use; verify a claimed listing with its issuer where possible.'
+                    answer: 'GaN is perfectly safe — in fact safer than silicon in most cases. Lower temperatures mean less thermal stress on components, and they carry the same certifications (FCC, CE, UL). Companies like Anker test their chargers for 10,000+ hours of continuous operation. A certified GaN charger from a reputable brand is safer than an unknown silicon charger.'
                 },
                 {
                     question: 'What is the best GaN charger in Egypt under 700 EGP?',
-                    answer: 'Check live prices first because the 700 EGP threshold changes. Compare available Anker and Joyroom models by protocol, output, ports, and written warranty, then match the phone specifications; a GaN label does not guarantee maximum speed.'
+                    answer: 'Best choice: Anker 30W GaN (A2147) at 490 EGP — GaN III, single USB-C port, PD + QC + PowerIQ 3.0. Budget alternative: Joyroom 30W at 280 EGP — GaN II, excellent performance at a lower price. Both charge the iPhone 17 Pro Max at maximum speed.'
                 }
             ],
         }

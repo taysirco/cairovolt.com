@@ -49,10 +49,10 @@ export const neckband_vs_tws_earbuds_work_calls_comparison: BlogArticle = {
             ],
             content: `<p>بيئة العمل المعاصرة، سواء كنت بتشتغل من البيت (Remote Work) أو من مكتب شركة مفتوح (Open Office)، بتفرض عليك حضور اجتماعات يومية طويلة على زووم ومايكروسوفت تيمز. في وسط اليوم المشحون، الاختيار الصحيح للسماعة مش مجرد تفصيلة صغيرة؛ ده هو اللي بيحدد هل هتقدر تكمل يومك بدون صداع وإرهاق، وهل صوتك هيوصل لعملاء الشركة والمدير بنقاء واحترافية، ولا هتقضي نص الاجتماع بتقول "ألو.. سامعني كدا؟".</p>
 
-<p>في هذا الدليل، إحنا دايماً بنحلل التكنولوجيا من منظور هندسي وعملي يناسب تفاصيل حياتك اليومية بمصر. المقارنة بين سماعة الرقبة اللاسلكية (Neckband) والسماعات الصغيرة المستقلة تماماً (TWS - True Wireless Stereo) هي مقارنة بتهم كل موظف وفريلانسر. كل تصميم ليه مزايا كيميائية وفيزيائية وهندسة صوتية مختلفة بتأثر على أداء الميكروفون وعمر البطارية والراحة الجسدية للأذن. في الدليل التفصيلي ده، هنشرح لك الفروق الجوهرية ونساعدك تختار السماعة اللي تنجز معاك في شغلك اليومي.</p>
+<p>في كايرو فولت، إحنا دايماً بنشرح التكنولوجيا من منظور هندسي وعملي يناسب تفاصيل حياتك اليومية بمصر. المقارنة بين سماعة الرقبة اللاسلكية (Neckband) والسماعات الصغيرة المستقلة تماماً (TWS - True Wireless Stereo) هي مقارنة بتهم كل موظف وفريلانسر. كل تصميم ليه مزايا كيميائية وفيزيائية وهندسة صوتية مختلفة بتأثر على أداء الميكروفون وعمر البطارية والراحة الجسدية للأذن. في الدليل التفصيلي ده، هنشرح لك الفروق الجوهرية ونساعدك تختار السماعة اللي تنجز معاك في شغلك اليومي.</p>
 
 <h2>أولاً: سماعة النيكباند (Neckband) — بطل العمل الشاق والبطارية الطويلة</h2>
-<p>سماعات الرقبة مثل <a href="/soundcore/audio/soundcore-life-u2i-neckband" style="color:#2563eb;font-weight:600;">ساوندكور Life U2i Neckband</a> بتعتمد على طوق مرن يستقر حول رقبتك، متصل بسلكين صغيرين ينتهيان بقطعتي الأذن. هذا التصميم بيديها مميزات هندسية قوية:</p>
+<p>سماعات الرقبة مثل <a href="/soundcore/audio/soundcore-life-u2i-neckband" style="color:#2563eb;font-weight:600;">Soundcore Life U2i Neckband</a> بتعتمد على طوق مرن يستقر حول رقبتك، متصل بسلكين صغيرين ينتهيان بقطعتي الأذن. هذا التصميم بيديها مميزات هندسية قوية:</p>
 <ul>
     <li>🔋 <strong>بطارية تدوم لأيام:</strong> المساحة الكبيرة داخل طوق الرقبة تتيح للمصنعين وضع بطاريات ليثيوم ضخمة الحجم. السماعة بتديك من 20 إلى 24 ساعة تشغيل متواصل لشحنة واحدة، يعني شحنة واحدة تكفيك 3 أيام عمل كاملة بدون تفكير في الشاحن.</li>
     <li>🎤 <strong>ميكروفون قريب فيزيائياً من الفم:</strong> الميكروفون بيقع على الطوق المتدلي قريباً جداً من حنجرتك وفمك، وده بيخليه يلتقط صوتك بقوة وبأقل تشتت هوائي ممكن.</li>
@@ -60,7 +60,7 @@ export const neckband_vs_tws_earbuds_work_calls_comparison: BlogArticle = {
 </ul>
 
 <h2>ثانياً: سماعة TWS — الحرية الكاملة والتكنولوجيا الذكية</h2>
-<p>سماعات TWS مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P20i</a> أو السماعة المتطورة <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 NC</a> بتقدم تصميماً خالياً تماماً من الأسلاك مع علبة شحن جيبية ممتازة:</p>
+<p>سماعات TWS مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> أو السماعة المتطورة <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> بتقدم تصميماً خالياً تماماً من الأسلاك مع علبة شحن جيبية ممتازة:</p>
 <ul>
     <li>🪶 <strong>خفة وزن وحرية حركة كاملة:</strong> مفيش أي سلك بيلمس رقبتك أو يعيق حركتك، ومظهرها احترافي وأنيق جداً في اجتماعات الفيديو.</li>
     <li>🤫 <strong>عزل ضوضاء نشط (ANC) متطور:</strong> معالجات سماعات TWS الحديثة قوية جداً في عزل الأصوات الخارجية بفضل الميكروفونات المتعددة الموجهة للداخل والخارج.</li>
@@ -168,7 +168,7 @@ export const neckband_vs_tws_earbuds_work_calls_comparison: BlogArticle = {
             ],
             content: `<p>Modern working environments, whether you are working from home (Remote Work) or navigating a busy open office, demand participation in daily online meetings on Zoom and Microsoft Teams. In a hectic work schedule, selecting the right headset is not a minor detail. It determines whether you can complete your workday without ear fatigue, and whether your voice reaches clients and management with professional clarity, or if you will spend meetings asking "Can you hear me now?".</p>
 
-<p>In this guide, we analyze consumer technology from an engineering perspective to fit your daily lifestyle in Egypt. Comparing wireless neckbands to True Wireless Stereo (TWS) earbuds is a critical decision for office workers and freelancers. Each design offers unique physical, electrical, and acoustic trade-offs that affect microphone performance, battery life, and long-term comfort. In this detailed guide, we explain the core differences to help you choose the right gear for your daily tasks.</p>
+<p>At the CairoVolt lab, we analyze consumer technology from an engineering perspective to fit your daily lifestyle in Egypt. Comparing wireless neckbands to True Wireless Stereo (TWS) earbuds is a critical decision for office workers and freelancers. Each design offers unique physical, electrical, and acoustic trade-offs that affect microphone performance, battery life, and long-term comfort. In this detailed guide, we explain the core differences to help you choose the right gear for your daily tasks.</p>
 
 <h2>1. The Neckband Earphone: Built for Endurance and Extended Talk Time</h2>
 <p>Neckbands like the <a href="/en/soundcore/audio/soundcore-life-u2i-neckband" style="color:#2563eb;font-weight:600;">Soundcore Life U2i Neckband</a> feature a flexible collar band that rests comfortably around your neck, connected to the earpieces by short cords. This chassis design provides clear engineering advantages:</p>

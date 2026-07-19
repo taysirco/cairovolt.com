@@ -47,7 +47,7 @@ export const iphone_8_7_used_buying_check_accessories: BlogArticle = {
                     answer: 'قم بعمل إعادة ضبط المصنع بالكامل (`مسح جميع المحتويات والإعدادات`) أمام البائع؛ إذا تخطى الهاتف شاشة التنشيط وطلب إدخال حسابك الجديد، فالهاتف سليم وليس مخطي برمجياً.'
                 }
             ],
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>على الرغم من إيقاف أبل الرسمي لإنتاج وتحديث هواتف **iPhone 7** و **iPhone 8** وتصنيفها كأجهزة "كلاسيكية خارج الدعم"، إلا أن هذه الطرازات لا تزال تتمتع بنشاط ملحوظ في سوق الأجهزة المستعملة بمصر. يرجع هذا الطلب إلى السعر الاقتصادي جداً، وحجمها الصغير العملي، ووجود زر الهوم الفعلي وبصمة الإصبع (**Touch ID**) المفضلة لدى فئات متعددة مثل طياري الديلفري أو الباحثين عن هاتف ثانٍ للطوارئ وحسابات العمل. لكن شراء هاتف ذكي مر على تصنيعه ما يقرب من عقد من الزمان في مصر يعد مخاطرة كبيرة؛ حيث يفيض السوق بأجهزة تعرضت لتخطي الآيكلود برمجياً أو بطاريات تالفة قد تنتفخ فجأة. في هذا الدليل، سنعطيك ورقة الفحص الفني الشاملة لتكشف أي عيب مخفي وتختار ملحقات الشحن والحماية التي تضمن استقرار الهاتف.</p>
+            content: `<p>على الرغم من إيقاف أبل الرسمي لإنتاج وتحديث هواتف **iPhone 7** و **iPhone 8** وتصنيفها كأجهزة "كلاسيكية خارج الدعم"، إلا أن هذه الطرازات لا تزال تتمتع بنشاط ملحوظ في سوق الأجهزة المستعملة بمصر. يرجع هذا الطلب إلى السعر الاقتصادي جداً، وحجمها الصغير العملي، ووجود زر الهوم الفعلي وبصمة الإصبع (**Touch ID**) المفضلة لدى فئات متعددة مثل طياري الديلفري أو الباحثين عن هاتف ثانٍ للطوارئ وحسابات العمل. لكن شراء هاتف ذكي مر على تصنيعه ما يقرب من عقد من الزمان في مصر يعد مخاطرة كبيرة؛ حيث يفيض السوق بأجهزة تعرضت لتخطي الآيكلود برمجياً أو بطاريات تالفة قد تنتفخ فجأة. في هذا الدليل، سنعطيك ورقة الفحص الفني الشاملة لتكشف أي عيب مخفي وتختار ملحقات الشحن والحماية التي تضمن استقرار الهاتف.</p>
 
 <h2>أولاً: لماذا لا تزال أجهزة ايفون 7 وايفون 8 متداولة بمصر؟</h2>
 <p>عامل السعر هو المحرك الأساسي؛ حيث يمنحك ايفون 7 أو 8 خامات معدنية أو زجاجية فاخرة بنظام تشغيل مستقر وتطبيقات رئيسية تعمل بكفاءة (مثل واتساب وفيسبوك) بسعر يقل عن أرخص هاتف أندرويد اقتصادي جديد مصنوع بالكامل من البلاستيك الرديء. كما أن الهيكل النحيف يجعلها مثالية كهواتف إضافية للمكالمات وتطبيقات الملاحة.</p>
@@ -141,7 +141,7 @@ export const iphone_8_7_used_buying_check_accessories: BlogArticle = {
 
 <h3>3. سماعات بلوتوث متكاملة لتوفير البطارية</h3>
 <ul>
-    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> ننصح بـ <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a> لتجنب استخدام المحولات السلكية (Dongles) التي تؤدي لتلف منفذ الشحن بمرور الوقت وتسبب ضوضاء في الصوت.</li>
+    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> ننصح بـ <a href="/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a> لتجنب استخدام المحولات السلكية (Dongles) التي تؤدي لتلف منفذ الشحن بمرور الوقت وتسبب ضوضاء في الصوت.</li>
 </ul>
 
 <h2>خامساً: الخلاصة ونصيحة كايرو فولت</h2>
@@ -173,7 +173,7 @@ export const iphone_8_7_used_buying_check_accessories: BlogArticle = {
                     answer: 'Go to Settings > General > Transfer or Reset iPhone and choose **Erase All Content and Settings**. Insert a SIM card and go through the activation steps. A bypassed device will get stuck or show activation lock screens.'
                 }
             ],
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>Even though Apple has officially discontinued production and major software updates for the **iPhone 7** and **iPhone 8**, classifying them as "vintage" or "obsolete," these models remain highly active in Egypt\'s secondhand market. This sustained demand is driven by their affordable prices, compact profiles, and the physical **Touch ID** home button. They are frequently used as backup devices, delivery navigator tools, or starter phones for children. However, buying a smartphone that is nearly a decade old carries significant risks. The market is flooded with iCloud-bypassed units, worn-out screens, and degraded batteries. In this technical guide, we will provide a comprehensive hardware and software inspection checklist and recommend certified charging accessories to ensure device longevity. This makes a huge difference.</p>
+            content: `<p>Even though Apple has officially discontinued production and major software updates for the **iPhone 7** and **iPhone 8**, classifying them as "vintage" or "obsolete," these models remain highly active in Egypt\'s secondhand market. This sustained demand is driven by their affordable prices, compact profiles, and the physical **Touch ID** home button. They are frequently used as backup devices, delivery navigator tools, or starter phones for children. However, buying a smartphone that is nearly a decade old carries significant risks. The market is flooded with iCloud-bypassed units, worn-out screens, and degraded batteries. In this technical guide, we will provide a comprehensive hardware and software inspection checklist and recommend certified charging accessories to ensure device longevity. This makes a huge difference.</p>
 
 <h2>1. Why Used iPhone 7 and iPhone 8 Models Remain Active in Egypt</h2>
 <p>The primary driver is affordability. A pre-owned iPhone 7 or 8 offers premium aluminum or glass chassis materials, a stable iOS environment, and support for essential applications like WhatsApp and Facebook at a price below generic, low-end plastic Android devices. Their slim profile makes them excellent secondary devices.</p>
@@ -267,7 +267,7 @@ export const iphone_8_7_used_buying_check_accessories: BlogArticle = {
 
 <h3>Compatible Bluetooth Earbuds</h3>
 <ul>
-    <li>🎵 <strong>Joyroom Wireless Buds:</strong> We recommend <a href="/en/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a> to avoid using generic Lightning-to-3.5mm adapters, which damage the charging port over time and introduce line noise.</li>
+    <li>🎵 <strong>Joyroom Wireless Buds:</strong> We recommend <a href="/en/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a> to avoid using generic Lightning-to-3.5mm adapters, which damage the charging port over time and introduce line noise.</li>
 </ul>
 
 <h2>5. Verdict and CairoVolt Recommendation</h2>

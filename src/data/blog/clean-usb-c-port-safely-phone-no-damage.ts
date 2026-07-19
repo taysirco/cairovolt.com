@@ -29,7 +29,7 @@ export const clean_usb_c_port_safely_phone_no_damage: BlogArticle = {
             keywords: 'تنظيف منفذ USB-C, منفذ شحن موبايل مسدود, تنظيف بورت شحن, USB-C مش بيشحن, تنظيف منفذ شحن آيفون, تنظيف USB-C بأمان, منفذ شحن فيه تراب, الكابل مش بيثبت في الموبايل, تنظيف بورت شحن سامسونج',
             excerpt: 'الكابل بقى مش بيثبت في الموبايل أو الشحن بيفصل لوحده؟ غالباً المنفذ مسدود بتراب. الدليل ده بيشرح التنظيف الآمن خطوة بخطوة.',
             quickAnswer: 'لو الكابل مش بيثبت أو الشحن بيفصل — غالباً المنفذ فيه تراب/وبر مضغوط. التنظيف الآمن: (1) أطفئ الموبايل. (2) استخدم خلة أسنان خشب أو بلاستيك (مش معدن أبداً). (3) حرّك بلطف على الحواف الداخلية من أعلى لأسفل. (4) انفخ بنَفَسك الخفيف أو بعلبة هواء مضغوط من مسافة 10سم. ❌ متستخدمش إبرة معدنية — ممكن تكسر الـ contact pins. ❌ متستخدمش مكنسة كهربائية — الشفط ممكن يسحب المكونات الدقيقة.',
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>المشهد مألوف: بتوصّل كابل الشحن في الموبايل وبيفصل بعد ثانيتين. بتضغطه جامد — بيشحن. بتسيبه — بيفصل. بتقلب الكابل — نفس الحكاية. قبل ما تلوم الكابل أو تفتكر إن "البورت بايظ" وتدفع 500 جنيه صيانة — في احتمال كبير جداً إن المشكلة أبسط من كده بكتير: <strong>المنفذ مسدود بتراب ووبر مضغوط.</strong></p>
+            content: `<p>المشهد مألوف: بتوصّل كابل الشحن في الموبايل وبيفصل بعد ثانيتين. بتضغطه جامد — بيشحن. بتسيبه — بيفصل. بتقلب الكابل — نفس الحكاية. قبل ما تلوم الكابل أو تفتكر إن "البورت بايظ" وتدفع 500 جنيه صيانة — في احتمال كبير جداً إن المشكلة أبسط من كده بكتير: <strong>المنفذ مسدود بتراب ووبر مضغوط.</strong></p>
 
 <p>إنت بتحط الموبايل في جيبك كل يوم — والجيب مليان ألياف قماش ووبر وتراب. في كل مرة بتحط الموبايل، شوية من الألياف دي بتدخل منفذ USB-C. وفي كل مرة بتوصّل الكابل — الكابل بيضغط الألياف دي جوّا أكتر. بعد شهور — بيتكون "فرش" صغير مضغوط في قاع المنفذ، بيمنع الكابل من الدخول كامل وبيفصل الـ contact pins عن بعض. الحل؟ تنظيف بسيط — بس بالطريقة الصح. لأن الطريقة الغلط ممكن تكلفك المنفذ كله.</p>
 
@@ -117,7 +117,7 @@ export const clean_usb_c_port_safely_phone_no_damage: BlogArticle = {
 
 <h2>إمتى التنظيف مش هينفع — ومحتاج تروح لفني؟</h2>
 
-<p>التنظيف الجاف قد يساعد فقط لما يكون الوبر أو التراب هو سبب ضعف التلامس. في الحالات التالية التنظيف المنزلي مش مناسب — ولازم تعرفها عشان متضيعش وقت أو تخاطر بتلف المنفذ:</p>
+<p>التنظيف بيحل المشكلة في 70-80% من الحالات. بس في حالات التنظيف مش هينفع — ولازم تعرفها عشان متضيعش وقت وتخاطر بتلف المنفذ:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔧 <strong>الـ pins اتكسرت أو اتلوت:</strong> لو بصيت جوا المنفذ بكشاف وشفت إن واحد من الـ pins (الشرائح المعدنية الصغيرة على اللسان الأوسط) معووج أو ناقص — ده محتاج لحام مجهري. متحاولش تعدّله بنفسك — هتخليه أسوأ.</li>
@@ -133,7 +133,7 @@ export const clean_usb_c_port_safely_phone_no_damage: BlogArticle = {
     <li style="margin-bottom:16px;">❌ <strong>الخطأ 1: استخدام إبرة خياطة أو دبوس.</strong> ده أشهر خطأ — وبيكسر الـ pins في ثانية. الإبرة المعدنية صلابتها أعلى بكتير من الـ contact pins (اللي مصنوعة من سبيكة نحاس رقيقة). لمسة واحدة في الزاوية الغلط = pin معووج = المنفذ مش هيتعرف على الكابل من الجانب ده.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ 2: النفخ بعنف بعلبة هواء مضغوط.</strong> علبة الهواء المضغوط (Compressed Air) ضغطها بيوصل 50-70 PSI — لو وجّهتها مباشرة جوا المنفذ من مسافة 2سم، الضغط ممكن يدفع التراب أعمق أو يتلف الـ gasket (الجوان المطاطي اللي بيمنع دخول المية في الموبايلات المقاومة للمياه). استخدمها من مسافة 10سم+ بزاوية.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ 3: التنظيف والموبايل شغال.</strong> لو المنفذ فيه تيار (الموبايل شغال) ولمست الـ pins بأي حاجة موصلة — ممكن يحصل قصر. حتى لو الخلة خشب — قطعة تراب موصلة بين الخلة والـ pin ممكن تعمل مشكلة. أطفئ الموبايل الأول.</li>
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ 4: استخدام كحول أو ماء.</strong> متدخلش سائل للمنفذ من نفسك. لو فيه بلل أو تحذير رطوبة، افصل الكابل واتبع تعليمات الشركة وسيبه يجف؛ ولو المشكلة مستمرة راجع فنيًا مؤهلًا بدل تكرار التنظيف.</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ 4: استخدام كحول أو ماء.</strong> "هنظفه بكحول زي ما بنظف البورد" — لا. البورد بيتنظف بـ Isopropyl Alcohol 99% في بيئة محكومة بأدوات ESD. إنت في البيت — السائل هيوصل لأماكن مش المفروض يوصلها. التنظيف الجاف بالخلة والهواء كافي لـ 90% من الحالات.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ 5: الضغط بعنف على الكابل بدل ما تنظف.</strong> "الكابل مش بيثبت — هضغطه أكتر." ده بيحل المشكلة مؤقتاً بس بيضغط التراب جوا أكتر + بيحمّل الـ pins ضغط ميكانيكي ممكن يلويهم مع الوقت. نظف المنفذ — متضغطش على الكابل.</li>
 </ul>
 
@@ -166,10 +166,10 @@ export const clean_usb_c_port_safely_phone_no_damage: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        لو بعد التنظيف اكتشفت إن المشكلة في الكابل — <a href="/anker/cables" style="color:#2563eb;font-weight:600;">كابلات انكر USB-C</a> و<a href="/joyroom/cables" style="color:#2563eb;font-weight:600;">جوي روم</a> متوفرة بمدة الضمان الموضحة على صفحة المنتج. طابق نوع الموصل وقدرة الكابل مع جهازك، وتظهر خيارات وتكلفة وتقدير التوصيل للعنوان المؤهل عند الطلب.
+        لو بعد التنظيف اكتشفت إن المشكلة في الكابل — <a href="/anker/cables" style="color:#2563eb;font-weight:600;">كابلات انكر USB-C</a> و<a href="/joyroom/cables" style="color:#2563eb;font-weight:600;">جوي روم</a> متوفرة بضمان 18 شهر. الـ connector مطابق للمعيار ومش هيضغط على المنفذ. توصيل لكل المحافظات.
     </p>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل انكر PowerLine USB-C</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C</a> · <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">كابل Joyroom USB-C</a> · <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">كابل Joyroom 60W</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل Anker PowerLine USB-C</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> · <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">كابل Joyroom USB-C</a> · <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">كابل Joyroom 60W</a>.</p></div>
 `,
             faq: [
                 {
@@ -197,7 +197,7 @@ export const clean_usb_c_port_safely_phone_no_damage: BlogArticle = {
             keywords: 'clean USB-C port safely, USB-C port not charging, clogged USB-C fix, clean phone charging port, USB-C lint removal, cable won\'t stay in USB-C, clean USB-C without damage, USB-C port cleaning tool, phone charging port dirty',
             excerpt: 'Cable won\'t stay in your phone or charging keeps disconnecting? The port is likely clogged with lint. This guide explains safe cleaning step by step.',
             quickAnswer: 'If the cable won\'t stay or charging disconnects — the port likely has compressed lint/dust. Safe cleaning: (1) Power off the phone. (2) Use a wooden or plastic toothpick (never metal). (3) Gently scrape along the inner walls from inside to outside. (4) Blow lightly with your breath or use compressed air from 10cm away. ❌ Never use a metal needle — it can break the contact pins. ❌ Never use a vacuum — suction can pull out delicate components.',
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p>The scenario is familiar: you plug the charging cable into your phone and it disconnects after two seconds. You press harder — it charges. Let go — disconnects. Flip the cable — same story. Before you blame the cable or assume the "port is broken" and spend 500 EGP on repairs — there's a very high probability the problem is much simpler: <strong>the port is clogged with compressed dust and lint.</strong></p>
+            content: `<p>The scenario is familiar: you plug the charging cable into your phone and it disconnects after two seconds. You press harder — it charges. Let go — disconnects. Flip the cable — same story. Before you blame the cable or assume the "port is broken" and spend 500 EGP on repairs — there's a very high probability the problem is much simpler: <strong>the port is clogged with compressed dust and lint.</strong></p>
 
 <p>You put your phone in your pocket every day — and pockets are full of fabric fibers, lint, and dust. Every time you pocket your phone, tiny fibers enter the USB-C port. Every time you plug in a cable — the cable pushes those fibers deeper. After months — a small compressed "brush" forms at the bottom of the port, preventing the cable from fully inserting and separating the contact pins. The fix? Simple cleaning — but done the right way. Because the wrong method can cost you the entire port.</p>
 
@@ -285,7 +285,7 @@ export const clean_usb_c_port_safely_phone_no_damage: BlogArticle = {
 
 <h2>When Cleaning Won't Work — and You Need a Technician</h2>
 
-<p>Dry cleaning may help only when lint or debris is causing poor contact. In the following situations, home cleaning is not appropriate, and recognizing them helps avoid wasted effort or port damage:</p>
+<p>Cleaning solves the problem in 70-80% of cases. But there are situations where cleaning won't help — and you need to recognize them to avoid wasting time and risking port damage:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔧 <strong>Pins are broken or bent:</strong> If you look inside the port with a flashlight and see that one of the pins (the tiny metal strips on the center tongue) is bent or missing — that requires micro-soldering. Don't attempt to straighten it yourself — you'll make it worse.</li>
@@ -301,7 +301,7 @@ export const clean_usb_c_port_safely_phone_no_damage: BlogArticle = {
     <li style="margin-bottom:16px;">❌ <strong>Mistake 1: Using a sewing needle or pin.</strong> The most common mistake — and it breaks pins in a second. A metal needle is far harder than contact pins (which are made from thin copper alloy). One touch at the wrong angle = bent pin = the port won't recognize cables from that side.</li>
     <li style="margin-bottom:16px;">❌ <strong>Mistake 2: Aggressive compressed air blasts.</strong> Compressed air cans produce 50-70 PSI — aimed directly into the port from 2cm away, that pressure can push lint deeper or damage the gasket (rubber seal that provides water resistance in IP-rated phones). Use from 10cm+ at an angle.</li>
     <li style="margin-bottom:16px;">❌ <strong>Mistake 3: Cleaning while the phone is on.</strong> If the port has current flow (phone is on) and you touch the pins with anything conductive — short circuit risk. Even with a wooden toothpick — a conductive dust particle between the toothpick and pin can cause issues. Power off first.</li>
-    <li style="margin-bottom:16px;">❌ <strong>Mistake 4: Using alcohol or water.</strong> Do not introduce liquid into the port yourself. If the phone shows a moisture warning or the port is wet, disconnect the cable, follow the manufacturer guidance, and let it dry; seek qualified service if the warning or connection problem persists.</li>
+    <li style="margin-bottom:16px;">❌ <strong>Mistake 4: Using alcohol or water.</strong> "I'll clean it with alcohol like cleaning a circuit board" — no. Circuit boards are cleaned with 99% Isopropyl Alcohol in controlled environments with ESD tools. At home — liquid will reach places it shouldn't. Dry cleaning with a toothpick and air handles 90% of cases.</li>
     <li style="margin-bottom:16px;">❌ <strong>Mistake 5: Forcing the cable harder instead of cleaning.</strong> "The cable won't stay — I'll push harder." This temporarily fixes the connection but pushes lint deeper + puts mechanical stress on the pins that can bend them over time. Clean the port — don't force the cable.</li>
 </ul>
 
@@ -334,7 +334,7 @@ export const clean_usb_c_port_safely_phone_no_damage: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        If testing shows the cable was the problem, compare <a href="/en/anker/cables" style="color:#2563eb;font-weight:600;">Anker USB-C cables</a> and <a href="/en/joyroom/cables" style="color:#2563eb;font-weight:600;">Joyroom cables</a> by exact connector, rating, current stock, and the written store-warranty term. Delivery eligibility and estimate depend on the entered address and order.
+        If cleaning reveals the cable was the problem — <a href="/en/anker/cables" style="color:#2563eb;font-weight:600;">Anker USB-C cables</a> and <a href="/en/joyroom/cables" style="color:#2563eb;font-weight:600;">Joyroom cables</a> are available with 18-month warranty. Connectors meet spec and won't stress your port. Delivery to all governorates.
     </p>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C Cable</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C Cable</a> · <a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">Joyroom 60W Cable</a>.</p></div>

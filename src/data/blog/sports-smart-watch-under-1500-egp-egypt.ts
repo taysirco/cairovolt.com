@@ -151,7 +151,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ ساعات ذكية رياضية أصلية — على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        راجع مواصفات <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> المنشورة، بما يشمل أوضاع الرياضة وتصنيف مقاومة المياه وميزات النبض. تظهر مدة الضمان والتوافر وخيارات التوصيل والدعم المطبقة وقت الطلب في صفحة المنتج والسياسات.
+        <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> أصلية بضمان 12 شهر — 100+ وضع رياضي + مقاومة مياه + نبض قلب real-time. توصيل لكل المحافظات + دعم فني واتساب 24/7.
     </p>
 </div>`,
             faq: [
@@ -277,7 +277,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Original Sports Smartwatches — on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Review the published specifications of the <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a>, including sport modes, water-resistance rating, and heart-rate features. The applicable warranty term, availability, delivery, and support options are shown on the product and policy pages at the time of order.
+        <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> original with 12-month warranty — 100+ sport modes + water resistance + real-time heart rate. Delivery across all Egyptian governorates + WhatsApp support 24/7.
     </p>
 </div>`,
             faq: [

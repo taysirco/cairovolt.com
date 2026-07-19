@@ -48,9 +48,9 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
                     answer: 'نعم، سماعات الرأس الكبيرة (مثل ساوندكور Space One) توفر راحة أكبر للأذن عند ارتدائها لساعات طويلة، كما تمنحك عزلاً سلبياً ممتازاً للضوضاء وتوزيعاً صوتياً مريحاً يقلل من إرهاق السمع.'
                 }
             ],
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>حياة الطالب الجامعي في مصر مليانة تفاصيل وتحديات. بين محاضرات المدرج الصباحية، السكاشن العملية، ومحاضرات الأونلاين اللي بتنزل بالليل على تيمز وزووم، إنت دايماً محتاج تكون مركز. وسط زحمة البيت وصوت التلفزيون في الصالة وأخواتك الصغار بيلعبوا جنبك، المذاكرة والتركيز بيبقوا مهمة شبه مستحيلة بدون أداة تفصلك تماماً عن المحيط الخارجي. الأداة دي هي سماعة البلوتوث المجهزة خصيصاً للدراسة.</p>
+            content: `<p>حياة الطالب الجامعي في مصر مليانة تفاصيل وتحديات. بين محاضرات المدرج الصباحية، السكاشن العملية، ومحاضرات الأونلاين اللي بتنزل بالليل على تيمز وزووم، إنت دايماً محتاج تكون مركز. وسط زحمة البيت وصوت التلفزيون في الصالة وأخواتك الصغار بيلعبوا جنبك، المذاكرة والتركيز بيبقوا مهمة شبه مستحيلة بدون أداة تفصلك تماماً عن المحيط الخارجي. الأداة دي هي سماعة البلوتوث المجهزة خصيصاً للدراسة.</p>
 
-<p>في هذا الدليل، إحنا بنفهم احتياجات الشباب وميزانيات طلاب الجامعات بمصر. شراء سماعة للمحاضرات بيختلف عن شراء سماعة للجيم أو الرفاهية؛ هنا الأولوية بتكون لـ **وضوح الصوت البشري، بطارية تكمل اليوم، ميكروفون ينقل صوتك للدكتور بوضوح، وعزل يفصلك عن العالم**. في الدليل ده، هنرسم لك الخريطة الفنية لأفضل خيارات سماعات البلوتوث المتاحة لطلاب الجامعات بمصر، ونشرح لك إزاي تختارها وتضبطها عشان تحصل على أعلى درجات التركيز.</p>
+<p>في كايرو فولت، إحنا بنفهم احتياجات الشباب وميزانيات طلاب الجامعات بمصر. شراء سماعة للمحاضرات بيختلف عن شراء سماعة للجيم أو الرفاهية؛ هنا الأولوية بتكون لـ **وضوح الصوت البشري، بطارية تكمل اليوم، ميكروفون ينقل صوتك للدكتور بوضوح، وعزل يفصلك عن العالم**. في الدليل ده، هنرسم لك الخريطة الفنية لأفضل خيارات سماعات البلوتوث المتاحة لطلاب الجامعات بمصر، ونشرح لك إزاي تختارها وتضبطها عشان تحصل على أعلى درجات التركيز.</p>
 
 <h2>أولاً: المعايير الفنية الأربعة لاختيار سماعة المذاكرة والتعلم أونلاين</h2>
 <p>لما تيجي تشتري سماعة للدراسة، لازم تركز على المواصفات دي بالترتيب:</p>
@@ -60,21 +60,21 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
     <li>🎤 <strong>ميكروفون واضح يدعم إلغاء الضوضاء:</strong> لما الدكتور يطلب منك تجاوب أو تعمل Presentation، لازم صوتك يوصله نقي بدون ما يسمع صوت باعة الشارع أو صوت مروحة اللابتوب.</li>
     <li>🛋️ <strong>الراحة الجسدية للأذن (Comfort):</strong> السماعة لازم تكون خفيفة وتصميمها مريح عشان تقدر تلبسها 4 أو 5 ساعات متواصلة بدون ما تسبب لك ألم في صوان الأذن أو ضغط على الفك.</li>
 </ul>
-<p>خيارات ممتازة مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P20i</a> للاقتصاد، أو <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 NC</a> للعزل القوي، بتلبي الاحتياجات دي بذكاء.</p>
+<p>خيارات ممتازة مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> للاقتصاد، أو <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> للعزل القوي، بتلبي الاحتياجات دي بذكاء.</p>
 
 <h2>ثانياً: هيدفون الرأس ضد سماعة الأذن الصغيرة — أيهما أفضل للدراسة؟</h2>
 <p>المقارنة دي بيقع فيها طلاب كتير. إليك التحليل الفني للمساعدة في الاختيار:</p>
 
 <p><strong>1. سماعات الرأس الكبيرة (Over-Ear Headphones):</strong></p>
 <ul>
-    <li>سماعات مثل <a href="/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;">ساوندكور Space One</a> أو <a href="/soundcore/audio/soundcore-q20i-headphones" style="color:#2563eb;">ساوندكور Q20i</a> هي الأفضل للمذاكرة الطويلة داخل البيت.</li>
+    <li>سماعات مثل <a href="/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;">Soundcore Space One</a> أو <a href="/soundcore/audio/soundcore-q20i-headphones" style="color:#2563eb;">Soundcore Q20i</a> هي الأفضل للمذاكرة الطويلة داخل البيت.</li>
     <li>الوسائد الكبيرة بتغطي الودن بالكامل، وده بيدي عزل ممتاز وراحة تامة لساعات طويلة بدون إجهاد.</li>
     <li>البطارية في النوع ده عملاقة وبتوصل لـ 40 إلى 60 ساعة تشغيل متواصل، يعني هتشحنها مرة واحدة في الأسبوع.</li>
 </ul>
 
 <p><strong>2. سماعات الأذن الصغيرة (In-Ear Earbuds):</strong></p>
 <ul>
-    <li>مثل سماعة <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;">ساوندكور A30i</a> وهي الخيار الأفضل للحركة والنزول للجامعة.</li>
+    <li>مثل سماعة <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;">Soundcore A30i</a> وهي الخيار الأفضل للحركة والنزول للجامعة.</li>
     <li>حجمها صغير جداً وسهلة الوضع في الجيب، وبتصميم خفي تقريباً.</li>
     <li>ممتازة لحضور المحاضرات السريعة في الكافيه أو المواصلات، بس لو ودنك حساسة ممكن تتعبك بعد 3 ساعات استخدام متواصل.</li>
     <li>ولو بتدور على حل وسط وصلنا جديد: <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;">سماعة ساوندكور A25i</a> بسعر 1370 ج.م — بتديك 28 ساعة تشغيل إجمالي مع علبة الشحن يعني تعدي أسبوع محاضرات كامل، ومعاها تقنية BassUp ومقاومة مياه IPX5. سماعة يومية متوازنة بسعر عاقل لميزانية الطالب.</li>
@@ -98,21 +98,21 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
     </tr></thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">ساوندكور P20i</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Soundcore P20i</td>
             <td style="padding:12px;color:#ef4444;font-weight:bold;border:1px solid #d1d5db;">عزل سلبي فقط (بلاستيك الودن)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">10 ساعات (ممتازة)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">مقبولة (2 مايك)</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">اقتصادية جداً (للطلبة)</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">ساوندكور Liberty 4 NC</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Soundcore Liberty 4 NC</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">عزل نشط قوي جداً (ANC 98.5%)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">10 ساعات (8 مع تشغيل ANC)</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">ممتازة (6 مايكات بالذكاء الاصطناعي)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">متوسطة مرتفعة (قيمة مقابل سعر)</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">ساوندكور Space One</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Soundcore Space One</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">عزل نشط ذكي ومتكيف (Adaptive ANC)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">40 ساعة (ANC مفعّل) / 55 ساعة بدون</td>
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">ممتازة ونقية جداً للمكالمات الطويلة</td>
@@ -182,9 +182,9 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
                     answer: 'Yes, Over-Ear headphones (like the Soundcore Space One) provide superior comfort for long study sessions, block more ambient noise passively, and deliver natural audio distribution that reduces ear fatigue.'
                 }
             ],
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>A university student's life in Egypt is packed with academic challenges. Between early morning lectures on campus, laboratory sessions, and late-night online lectures on Microsoft Teams and Zoom, maintaining focus is essential. Amidst household activities, TV noise in the living room, and family distractions, studying becomes difficult without an acoustic tool to isolate you from your surroundings. This tool is a pair of study-focused Bluetooth headphones.</p>
+            content: `<p>A university student's life in Egypt is packed with academic challenges. Between early morning lectures on campus, laboratory sessions, and late-night online lectures on Microsoft Teams and Zoom, maintaining focus is essential. Amidst household activities, TV noise in the living room, and family distractions, studying becomes difficult without an acoustic tool to isolate you from your surroundings. This tool is a pair of study-focused Bluetooth headphones.</p>
 
-<p>In this guide, we analyze student requirements and budget constraints in Egypt. Purchasing earbuds for studying requires a different set of priorities than sports or casual gear: here, the focus targets **vocal clarity, all-day battery life, a reliable presentation microphone, and active isolation**. In this guide, we map out the best Bluetooth audio options for college students in Egypt, explaining how to choose and configure them for maximum academic focus.</p>
+<p>At the CairoVolt lab, we analyze student requirements and budget constraints in Egypt. Purchasing earbuds for studying requires a different set of priorities than sports or casual gear: here, the focus targets **vocal clarity, all-day battery life, a reliable presentation microphone, and active isolation**. In this guide, we map out the best Bluetooth audio options for college students in Egypt, explaining how to choose and configure them for maximum academic focus.</p>
 
 <h2>1. The Four Technical Rules for Choosing Study-Focused Earbuds</h2>
 <p>When selecting audio gear for academic learning, review the following specifications in order of importance:</p>

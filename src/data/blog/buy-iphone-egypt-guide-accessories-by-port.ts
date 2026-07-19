@@ -29,26 +29,26 @@ export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
             metaDescription: 'دليل شامل لشراء الايفون في مصر ومقارنة موديلات Lightning و USB-C. تعرف على كيفية اختيار الهاتف المناسب لميزانيتك وإكسسوارات الشحن المناسبة لكل منفذ.',
             keywords: 'شراء ايفون في مصر, دليل شراء الايفون, شاحن ايفون اصلي, كابل ايفون الاصلي, اكسسوارات ايفون 16 برو max',
             excerpt: 'تخطط لشراء ايفون جديد أو مستعمل في مصر؟ بنشرح لك بالتفصيل الفروق الجوهرية بين هواتف منفذ Lightning القديم ومنفذ USB-C الحديث، وكيف تختار الشواحن المعتمدة المناسبة.',
-            quickAnswer: 'ابدأ بتحديد منفذ موديل الايفون: تحتاج موديلات Lightning إلى كابل مناسب، ويفضل التحقق من ترخيص MFi للموديل المحدد، بينما تستخدم موديلات USB-C كابلاً وشاحناً متوافقين مع مواصفات ذلك الهاتف. لا توجد قدرة واحدة مثالية لكل الموديلات؛ راجع دليل Apple وقدرة الشاحن والكابل قبل الشراء.',
+            quickAnswer: 'عند شراء ايفون في مصر اليوم: (1) **هواتف منفذ Lightning** (ايفون 11 إلى 14 برو ماكس) تتطلب كابلات حاصلة على ترخيص MFi لضمان الأمان وعدم تلف رقاقة U2 IC. (2) **هواتف منفذ USB-C** (سلسلة ايفون 15 و 16) تدعم الشحن بكابلات تايب سي القياسية وتوفر سرعات نقل أسرع. نوصي باقتناء شاحن معتمد بقوة 30 واط يدعم بروتوكول PD ليلائم جميع الموديلات.',
             faq: [
                 {
                     question: 'هل يمكنني استخدام شاحن الماك بوك USB-C لشحن ايفون 15 برو ماكس؟',
-                    answer: 'يمكن استخدام شاحن MacBook USB-C إذا كان موديل الايفون والكابل متوافقين مع مواصفات Apple. يختار تفاوض USB-PD ملف طاقة متاحاً، لكن القدرة والسرعة والحرارة تختلف حسب الموديل وحالة البطارية؛ راقب أي حرارة غير طبيعية أو تلف.'
+                    answer: 'نعم، الشحن آمن تماماً وبأقصى سرعة مدعومة. يقوم منظم الطاقة الداخلي بالايفون بالتفاوض الذكي مع شاحن الماك بوك وسحب القدرة المطلوبة فقط (حوالي 27 واط إلى 30 واط) وتجاهل الطاقة الزائدة.'
                 },
                 {
                     question: 'ما الذي يحدث عند استخدام كابل Lightning رخيص غير معتمد (MFi)؟',
-                    answer: 'الكابل الرديء أو غير المطابق قد يسبب انقطاعاً أو بطئاً أو حرارة، ولا يمكن الجزم من غياب MFi وحده بتلف شريحة محددة. افحص ترخيص MFi للموديل إن كان Lightning، وتوقف عن استخدام أي كابل تالف أو يسبب رسائل خطأ أو حرارة غير معتادة.'
+                    answer: 'استخدام كابل غير معتمد يسبب تذبذباً في تدفق التيار، مما يؤدي لتلف رقاقة **U2 IC** المسؤولة عن الشحن في اللوحة المسؤولة باللوحة الأم بالايفون، مما يسبب انقطاع الشحن نهائياً أو استنزاف البطارية بسرعة خيالية.'
                 },
                 {
                     question: 'هل تدعم هواتف ايفون 15 وايفون 16 ميزة الشحن السلكي العكسي؟',
-                    answer: 'تدعم بعض موديلات الايفون ذات USB-C شحن ملحقات متوافقة سلكياً. تحقق من دليل الموديل والملحق والكابل؛ فالقدرة والسلوك قد يختلفان حسب الجهاز وإصدار النظام.'
+                    answer: 'نعم، يمكنك استخدام منفذ USB-C في هاتف ايفون 15 أو 16 لشحن الملحقات الصغيرة مثل ساعة أبل أو سماعة AirPods عبر كابل USB-C ملائم بقدرة إخراج تبلغ 4.5 واط.'
                 },
                 {
                     question: 'أي موديل ايفون يقدم أفضل قيمة مقابل السعر في مصر حالياً؟',
-                    answer: 'تختلف القيمة حسب السعر الحالي وحالة الجهاز والضمان وسعة التخزين ودعم التحديثات. قارن موديلات Lightning وUSB-C المتاحة وقت الشراء بدلاً من اعتبار موديل واحد الأفضل دائماً.'
+                    answer: 'في فئة منفذ Lightning، يعتبر **iPhone 13 Pro Max** الصفقة الأفضل بفضل بطاريته الضخمة وشاشته الـ 120Hz. أما في فئة منفذ USB-C الحديثة، فيعتبر **iPhone 15 Pro** الخيار الأكثر توازناً ومستقبلية.'
                 }
             ],
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>يعد قرار شراء هاتف ايفون في مصر (سواء كان جديداً بضمان دولي أو مستعملاً كسر زيرو) واحداً من أهم القرارات الاستثمارية في الأجهزة الإلكترونية؛ نظراً لقدرة هواتف أبل المذهلة على الاحتفاظ بقيمتها السعرية في السوق المحلي لسنوات طويلة. ولكن عند البدء في البحث، يواجه المشتري فجوة زمنية وتقنية هامة في خط إنتاج أبل: وهي الانتقال التاريخي من منفذ **Lightning** الحصري القديم (في سلسلة ايفون 14 فما قبل) إلى منفذ **USB-C** العالمي الحديث (في سلسلة ايفون 15 و 16). هذا الانتقال لا يقتصر فقط على شكل الفتحة، بل يغير تماماً من المعايير الكهربائية، وسرعات نقل البيانات، ونوعية الإكسسوارات والشواحن المطلوبة. في هذا الدليل التقني الشامل، سنرسم لك خريطة الشراء الذكي، ونشرح كيف تختار الموديل المناسب لميزانيتك وتحدد إكسسوارات الشحن المتوافقة حسب نوع المنفذ.</p>
+            content: `<p>يعد قرار شراء هاتف ايفون في مصر (سواء كان جديداً بضمان دولي أو مستعملاً كسر زيرو) واحداً من أهم القرارات الاستثمارية في الأجهزة الإلكترونية؛ نظراً لقدرة هواتف أبل المذهلة على الاحتفاظ بقيمتها السعرية في السوق المحلي لسنوات طويلة. ولكن عند البدء في البحث، يواجه المشتري فجوة زمنية وتقنية هامة في خط إنتاج أبل: وهي الانتقال التاريخي من منفذ **Lightning** الحصري القديم (في سلسلة ايفون 14 فما قبل) إلى منفذ **USB-C** العالمي الحديث (في سلسلة ايفون 15 و 16). هذا الانتقال لا يقتصر فقط على شكل الفتحة، بل يغير تماماً من المعايير الكهربائية، وسرعات نقل البيانات، ونوعية الإكسسوارات والشواحن المطلوبة. في هذا الدليل التقني الشامل، سنرسم لك خريطة الشراء الذكي، ونشرح كيف تختار الموديل المناسب لميزانيتك وتحدد إكسسوارات الشحن المتوافقة حسب نوع المنفذ.</p>
 
 <h2>أولاً: فجوة المنافذ — ايفون Lightning وايفون USB-C وكيف تختار؟</h2>
 <p>تنقسم هواتف الايفون المتاحة في مصر حالياً إلى عائلتين رئيسيتين بناءً على نوع منفذ الشحن:</p>
@@ -79,9 +79,9 @@ export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
 <p>إذا نجح الكابل في فك الشفرة وإرجاع الاستجابة الصحيحة، يتم تفعيل سرعة الشحن السريع بالكامل. أما في حال استخدام الكابلات المقلدة التي تحاول محاكاة الإشارة بطريقة برمجية رخيصة، يكتشف نظام التشغيل iOS التلاعب بعد تحديثه، ويعرض رسالة تحذيرية شهيرة "هذا الملحق قد لا يكون مدعوماً"، ويقوم بقطع التيار أو خفضه لسرعة 5 واط لحماية الهاتف، وهو سبب تلف الكثير من الكابلات الرخيصة فجأة بعد تحديثات النظام.</p>
 
 <h2>ثالثاً: ترشيحات الشواحن والكابلات حسب نوع المنفذ بمصر</h2>
-<p>لتجنب تلف هاتفك الغالي وضمان أقصى سرعة شحن آمنة، نوصي باقتناء ملحقات الشحن التالية من ماركات عالمية موثوقة مثل جويروم وانكر:</p>
+<p>لتجنب تلف هاتفك الغالي وضمان أقصى سرعة شحن آمنة، نوصي باقتناء ملحقات الشحن التالية من ماركات عالمية موثوقة مثل جويروم وأنكر:</p>
 
-<h3>تقنية GaN (Gallium Nitride) وتفوق شواحن انكر وجويروم</h3>
+<h3>تقنية GaN (Gallium Nitride) وتفوق شواحن أنكر وجويروم</h3>
 <p>تمثل شواحن نتريد الغاليوم (GaN) القفزة التكنولوجية الأهم في عالم الشحن حالياً. الشواحن التقليدية تعتمد على السيليكون الذي يفقد جزءاً كبيراً من الطاقة في صورة حرارة، مما يرفع درجة حرارة الشاحن والموبايل المتصل به. أما شواحن GaN فتستخدم مركبات شبه موصلة جديدة قادرة على تمرير تيار كهربائي أعلى بكثير بكفاءة تبلغ 95%، مما يقلل الفاقد الحراري بشكل شبه كامل ويسمح بإنتاج شواحن بالغة الصغر بقدرات شحن هائلة.</p>
 <ul>
     <li>⚡ <strong>شاحن جويروم 30 واط السريع:</strong> مثل <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن جويروم 30 واط السريع</a>. يدعم الشاحن تقنية USB-PD بالجهد والتيار المناسبين (9V/3A) لشحن كافة موديلات الايفون بسرعتها القصوى، مع حماية الهاتف من الحرارة والتيار الزائد.</li>
@@ -90,7 +90,7 @@ export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
 
 <h3>كابلات الشحن المعتمدة حسب المنفذ</h3>
 <ul>
-    <li>🔌 <strong>لهواتف منفذ Lightning:</strong> ننصح بـ <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb;font-weight:600;">كابل انكر باورلاين تايب سي إلى لايتنينج</a> الحاصل على رخصة MFi الرسمية لضمان سلامة اللوحة الأم والرقاقات الداخلية.</li>
+    <li>🔌 <strong>لهواتف منفذ Lightning:</strong> ننصح بـ <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb;font-weight:600;">كابل أنكر باورلاين تايب سي إلى لايتنينج</a> الحاصل على رخصة MFi الرسمية لضمان سلامة اللوحة الأم والرقاقات الداخلية.</li>
     <li>🔌 <strong>خيار MFi إضافي وصلنا حديثاً:</strong> <a href="/anker/cables/anker-310-usb-c-lightning-cable" style="color:#2563eb;font-weight:600;">كابل انكر 310 USB-C لايتننج</a> بسعر 730 ج.م؛ معتمد MFi رسمياً وبيوصل الايفون من 0 لـ 50% في 30 دقيقة بس مع أي شاحن PD.</li>
     <li>🔌 <strong>لهواتف منفذ USB-C:</strong> نوصي بـ <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">كابل جويروم تايب سي إلى تايب سي</a> المتين الذي يتحمل التيارات العالية ويدعم نقل البيانات السريع.</li>
 </ul>
@@ -144,7 +144,7 @@ export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
 </table>
 
 <h2>سادساً: الخلاصة ونصيحة كايرو فولت</h2>
-<p>شراء ايفون في مصر هو استثمار رائع للمستقبل، واختيارك بين منفذ Lightning أو USB-C يعتمد بالكامل على ميزانيتش. نصيحة كايرو فولت الذهبية هي عدم التوفير في شاحن وكابل الهاتف؛ فاستخدام شاحن معتمد بقوة 30 واط يدعم بروتوكول PD وكابلات معتمدة (سواء تايب سي أو لايتنينج معتمد MFi) من ماركات موثوقة مثل جويروم وانكر يضمن سلامة جهازك الثمين ويطيل عمر بطاريته الفعلي ويحميك من تكاليف الصيانة الباهظة.</p>
+<p>شراء ايفون في مصر هو استثمار رائع للمستقبل، واختيارك بين منفذ Lightning أو USB-C يعتمد بالكامل على ميزانيتش. نصيحة كايرو فولت الذهبية هي عدم التوفير في شاحن وكابل الهاتف؛ فاستخدام شاحن معتمد بقوة 30 واط يدعم بروتوكول PD وكابلات معتمدة (سواء تايب سي أو لايتنينج معتمد MFi) من ماركات موثوقة مثل جويروم وأنكر يضمن سلامة جهازك الثمين ويطيل عمر بطاريته الفعلي ويحميك من تكاليف الصيانة الباهظة.</p>
 <p>لتجنب المشكلات الشائعة التي تصيب منافذ الشحن وتؤدي لتلف الكابلات أو بطء الشحن المفاجئ نتيجة تراكم الأتربة، ننصحك بقراءة مقالنا المفصل حول <a href="/blog/clean-lightning-usb-c-port-safe-tools-mistakes" style="color:#2563eb;">الطريقة الصحيحة لتنظيف منفذ شحن الايفون بأمان والأدوات التي يجب تجنبها</a> لتوفير تكاليف الصيانة غير الضرورية.</p>`
         },
         en: {
@@ -153,26 +153,26 @@ export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
             metaDescription: 'A comprehensive guide for buying an iPhone in Egypt. Compare Lightning and USB-C models, check charging requirements, and choose certified accessories.',
             keywords: 'buy iphone egypt guide, original apple charger price, lightning vs usb-c iphone, iphone 16 pro max accessories, best charger for iphone',
             excerpt: 'Planning to buy a new or used iPhone in Egypt? We detail the critical technical differences between older Lightning ports and modern USB-C ports, and how to select certified chargers.',
-            quickAnswer: 'Start with the exact iPhone model and port. For Lightning models, use a suitable cable and verify MFi licensing for that accessory where applicable; for USB-C models, match the charger and cable to that phone\'s published requirements. No single wattage is ideal for every model, so check Apple guidance and the specific product ratings.',
+            quickAnswer: 'When buying an iPhone in Egypt today: (1) **Lightning-port devices** (iPhone 11 to 14 Pro Max) require MFi-certified cables to prevent logic board damage to the U2 IC chip. (2) **USB-C devices** (iPhone 15 and 16 series) use standard USB-C cables and support faster data speeds. We recommend a certified **30W USB-PD charger** to safely fast charge all models.',
             faq: [
                 {
                     question: 'Can I safely charge my iPhone 15 Pro Max with a MacBook USB-C charger?',
-                    answer: 'A MacBook USB-C charger may be used when the iPhone model and cable meet Apple\'s published specifications. USB-PD negotiates an available power profile, but wattage, speed, and temperature vary by model and battery state; stop if equipment is damaged or unusually hot.'
+                    answer: 'Yes, it is completely safe. The iPhone\'s internal charge controller negotiates power delivery with the MacBook charger, drawing only its maximum supported rate (around 27W to 30W) and rejecting excess current.'
                 },
                 {
                     question: 'What happens if I charge my Lightning iPhone with a cheap, non-MFi certified cable?',
-                    answer: 'A poor-quality or noncompliant cable may cause errors, intermittent charging, heat, or reduced performance, but absence of MFi alone does not prove that a specific chip will fail. For Lightning accessories, verify the exact model\'s MFi status and replace damaged or abnormally hot cables.'
+                    answer: 'Uncertified cables lack voltage regulation hardware, causing power spikes that can destroy the **U2 IC (Tristar)** chip on the motherboard. This leads to charging failure or rapid battery drain even when idle.'
                 },
                 {
                     question: 'Do the iPhone 15 and iPhone 16 series support reverse wired charging?',
-                    answer: 'Some USB-C iPhone models can provide wired power to compatible accessories. Check the exact phone, accessory, cable, and current Apple guidance because available output and behavior may vary by device and software version.'
+                    answer: 'Yes. The USB-C port on these models can output up to 4.5W of power, allowing you to charge small accessories like an Apple Watch or AirPods case directly from the phone\'s battery.'
                 },
                 {
                     question: 'Which iPhone model offers the best value for money in Egypt today?',
-                    answer: 'Value depends on current price, condition, warranty, storage, and remaining software support. Compare the available Lightning and USB-C models at purchase time rather than treating one model as the permanent best choice.'
+                    answer: 'For Lightning models, the **iPhone 13 Pro Max** is the top choice due to its excellent battery life and 120Hz display. For USB-C models, the **iPhone 15 Pro** offers the best balance of future-proofing and performance.'
                 }
             ],
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>Buying an iPhone in Egypt—whether a brand new device with local warranty or a mint-condition pre-owned unit—is a significant financial investment. iPhones are highly regarded in the local market for their ability to maintain resale value over multiple years. However, when choosing a model, buyers face a major technical divide: the transition from Apple\'s proprietary **Lightning port** (found on the iPhone 14 series and older) to the universal **USB-C port** (standardized on the iPhone 15 and 16 series). This transition is not merely a change in the physical port shape; it alters the electrical charging parameters, data transfer speeds, and accessory ecosystems. In this comprehensive buying guide, we will map out the options and explain how to choose the right iPhone for your budget and select the proper charging accessories for its port type.</p>
+            content: `<p>Buying an iPhone in Egypt—whether a brand new device with local warranty or a mint-condition pre-owned unit—is a significant financial investment. iPhones are highly regarded in the local market for their ability to maintain resale value over multiple years. However, when choosing a model, buyers face a major technical divide: the transition from Apple\'s proprietary **Lightning port** (found on the iPhone 14 series and older) to the universal **USB-C port** (standardized on the iPhone 15 and 16 series). This transition is not merely a change in the physical port shape; it alters the electrical charging parameters, data transfer speeds, and accessory ecosystems. In this comprehensive buying guide, we will map out the options and explain how to choose the right iPhone for your budget and select the proper charging accessories for its port type.</p>
 
 <h2>1. The Port Divide: Lightning vs. USB-C iPhones</h2>
 <p>Available iPhones in Egypt are divided into two main categories based on their physical port configuration:</p>

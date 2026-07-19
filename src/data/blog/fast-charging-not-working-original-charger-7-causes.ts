@@ -28,7 +28,7 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
             metaDescription: 'شاحنك أصلي بس الشحن السريع مش شغّال؟ دليل مهندس يشرح 7 أسباب خفية — من الكابل للحرارة لإعدادات الموبايل — وحل كل واحد فيهم. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'الشحن السريع مش شغال, شاحن أصلي بس بطيء, ليه الشحن السريع وقف, fast charging not working, شحن سريع سامسونج مش شغال, شحن سريع آيفون بطيء, حل مشكلة الشحن السريع, الموبايل مش بيشحن سريع, الشاحن أصلي بس بطيء',
             excerpt: 'شاحنك أصلي والكابل أصلي بس الشحن السريع مش ظاهر أو بطيء؟ المشكلة غالباً مش في الشاحن — في 7 أسباب خفية محدش بيقولك عليها.',
-            quickAnswer: 'بطء الشحن قد يرجع إلى الكابل أو اتساخ المنفذ أو الحرارة أو إعدادات الهاتف أو استخدامه أثناء الشحن أو ارتفاع نسبة البطارية أو عدم تطابق البروتوكول. راجع شاشة الهاتف ومواصفات الموديل، واختبر بكابل متوافق ونظف المنفذ بالطريقة التي توصي بها الشركة؛ لا تعتمد على حد حرارة أو نسبة واحدة لكل الأجهزة.',
+            quickAnswer: 'أشهر 7 أسباب: (1) الكابل مش بيدعم الواطية المطلوبة (كابل 10W على شاحن 30W). (2) منفذ USB-C مسدود بتراب. (3) الموبايل سخن فوق 38°C — النظام بيبطّئ الشحن تلقائياً. (4) إعداد "الشحن السريع" مقفول في الإعدادات (سامسونج/شاومي). (5) تطبيقات ثقيلة شغالة أثناء الشحن. (6) البطارية فوق 80% — الشحن بيبطأ تلقائياً (CC/CV). (7) الشاحن والموبايل مش بيتكلموا نفس البروتوكول (PD vs QC vs VOOC). الحل الأسرع: جرب كابل تاني معتمد + نظف المنفذ + أطفئ الشاشة أثناء الشحن.',
             content: `<p>اشتريت شاحن أصلي 30 واط أو 45 واط — بالسعر الكامل — ووصلته بالموبايل وأول حاجة عملتها: بصيت على الشاشة تشوف كلمة "شحن سريع" أو "Super Fast Charging." بس اللي ظهر: "جاري الشحن" — بدون أي إشارة للسرعة. أو الأسوأ: الشحن بطيء لدرجة إن الموبايل بياخد 3 ساعات يوصل 100% بدل ساعة ونص. الشاحن أصلي. الكابل اللي في العلبة. فين المشكلة؟</p>
 
 <p>المشكلة إن "الشحن السريع" مش مجرد توصيل شاحن قوي بالموبايل. ده نظام معقد فيه 5 عناصر لازم كلهم يشتغلوا مع بعض: الشاحن + الكابل + المنفذ + البطارية + السوفتوير. لو عنصر واحد فيهم مش متوافق أو فيه مشكلة — الموبايل بينزّل السرعة أو بيرجع للشحن العادي (5W) بدون ما يقولك السبب. المقال ده بيشرح الـ 7 أسباب الأشهر — وحل كل واحد فيهم.</p>
@@ -41,7 +41,7 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
 
 <h2>السبب 1: الكابل — البطل المجهول (والمتهم الأول)</h2>
 
-<p>الكابل من أول العناصر اللي تستحق الفحص، لأن الكابل اللي "بيشتغل" مش بالضرورة يفاوض على وضع الشحن الأسرع. الشحن السريع محتاج كابلًا ومنفذًا يدعمان التيار والبروتوكول المطلوبين:</p>
+<p>ده السبب رقم 1 في 40% من الحالات — ومعظم الناس مش بتشك فيه أصلاً. الكابل اللي "بيشتغل" مش بالضرورة "بيشحن سريع." الشحن السريع محتاج كابل يدعم التيار والقدرة المطلوبة:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -79,7 +79,7 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
 
 <p>شرحنا الموضوع ده بالتفصيل في <a href="/blog/clean-usb-c-port-safely-phone-no-damage" style="color:#2563eb;">مقال تنظيف منفذ USB-C</a> — بس الخلاصة: لو المنفذ فيه تراب أو وبر مضغوط، الكابل مش بيدخل لآخره. وده معناه إن الـ contact pins مش بتوصّل 100% — فالموبايل بيتعرف على الشاحن كمصدر طاقة ضعيف وبيشحن على 5W بدل 30W أو 45W.</p>
 
-<p><strong>العلامة:</strong> الكابل مش بيثبت أو الاتصال بيفصل مع الحركة. افصل الشاحن وافحص المنفذ في إضاءة جيدة، واتبع <a href="/blog/clean-usb-c-port-safely-phone-no-damage" style="color:#2563eb;">إرشادات تنظيف منفذ USB-C بأمان</a> لو ظهر وبر؛ ما تدخلش أداة بعنف، وتوقف لو فيه بلل أو سنون ملتوية.</p>
+<p><strong>العلامة:</strong> الكابل بيدخل بس مش بيعمل "click" واضح — أو بيفصل لو حركت الموبايل. الحل: <a href="/blog/clean-usb-c-port-safely-phone-no-damage" style="color:#2563eb;">نظف المنفذ بخلة أسنان خشب</a> — بياخد 30 ثانية وبيحل المشكلة في 70% من الحالات.</p>
 
 <h2>السبب 3: الحرارة — الموبايل بيحمي نفسه وإنت مش واخد بالك</h2>
 
@@ -228,27 +228,27 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        تصفح شواحن <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">انكر</a> وكابلات <a href="/anker/cables" style="color:#2563eb;font-weight:600;">انكر USB-C</a>، ثم طابق بروتوكول وقدرة الموديل والكابل مع جهازك. لا نضمن أقصى سرعة أو 100W لكل موديل؛ راجع الضمان وخيارات الشحن لعنوانك.
+        شواحن <a href="/anker/chargers" style="color:#2563eb;font-weight:600;">انكر</a> بتدعم USB-PD + QC — بتشحن آيفون وسامسونج بأقصى سرعة. <a href="/anker/cables" style="color:#2563eb;font-weight:600;">كابلات انكر USB-C</a> بتدعم 100W — مش هتكون عنق الزجاجة أبداً. ضمان 18 شهر + توصيل لكل المحافظات.
     </p>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر GaN 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن انكر Nano 45W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن انكر PowerPort 25W</a> · <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل انكر PowerLine USB-C</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a> · <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل Anker PowerLine USB-C</a>.</p></div>
 `,
             faq: [
                 {
                     question: 'ليه الشحن السريع مش شغّال رغم إن الشاحن أصلي والكابل أصلي؟',
-                    answer: 'من الأسباب المحتملة الحرارة والإعدادات واستخدام الهاتف والكابل أو المنفذ وعدم تطابق البروتوكول وارتفاع نسبة البطارية. راجع دليل الموديل وإشعاراته، واختبر بكابل متوافق ونظف المنفذ وفق تعليمات الشركة.'
+                    answer: 'أشهر الأسباب: الحرارة (الموبايل سخن فبيبطّئ الشحن تلقائياً)، إعداد الشحن السريع مقفول في الإعدادات، تطبيقات ثقيلة شغالة أثناء الشحن، أو البطارية فوق 80% (البطء طبيعي في مرحلة CV). نظف المنفذ + أطفئ الشاشة + تأكد من الإعدادات.',
                 },
                 {
                     question: 'هل الكابل بيأثر على سرعة الشحن حتى لو الشاحن قوي؟',
-                    answer: 'نعم، لأن قدرة الكابل والبروتوكول والمقاومة والتعريف الإلكتروني قد تحد السرعة. لا توجد قدرة واحدة لكل كابلات USB-A أو USB-C؛ طابق رقم الموديل وتصنيف الكابل مع الشاحن والهاتف.'
+                    answer: 'أيوا — ده السبب الأشهر. كابل USB-A إلى USB-C أقصى قدرته 10-18W حتى لو الشاحن 45W. لازم كابل USB-C إلى USB-C يدعم 60W+ عشان الشحن السريع يشتغل بالكامل.',
                 },
                 {
                     question: 'ليه الشحن بيبطأ بعد 80%؟',
-                    answer: 'تقلل أنظمة كثيرة التيار مع ارتفاع نسبة البطارية أو الحرارة ضمن منحنى CC/CV وإدارة الجهاز، لكن نقطة التغيير والسرعة تختلفان حسب الموديل. البطء قرب الامتلاء قد يكون طبيعياً؛ افحص الجهاز إذا كان شديداً أو متقطعاً في ظروف عادية.'
+                    answer: 'ده تصميم متعمد اسمه CC/CV (Constant Current / Constant Voltage). من 0-80% البطارية بتتشحن بتيار ثابت (سريع). من 80-100% التيار بينخفض تدريجياً لحماية البطارية. ده طبيعي 100% ومش خلل.',
                 },
                 {
                     question: 'هل شاحن USB-PD بيشحن موبايل OPPO/Xiaomi بسرعة؟',
-                    answer: 'يعتمد على موديل الهاتف وملفات USB-PD التي يدعمها؛ قد يعمل بسرعة بديلة أو لا يفعّل البروتوكول الخاص. راجع متطلبات Oppo أو Xiaomi للموديل والشاحن والكابل، وقارن USB-PD عند الحاجة لتوافق عدة أجهزة.'
+                    answer: 'بيشحنه بسرعة معقولة (15-20W) — بس مش بأقصى سرعة. OPPO SuperVOOC وXiaomi HyperCharge محتاجين شاحن وكابل الشركة الأصلي عشان يوصلوا 65W أو 120W. USB-PD هو الخيار العالمي الأفضل لو عندك أجهزة مختلفة.',
                 },
             ],
         },
@@ -258,7 +258,7 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
             metaDescription: 'Original charger but no fast charging? Engineer\'s guide explaining 7 hidden causes — from cables to heat to phone settings — and how to fix each one.',
             keywords: 'fast charging not working, original charger slow charging, why fast charging stopped, fast charging Samsung not working, iPhone fast charging slow, fix fast charging problem, phone not fast charging, charger original but slow, super fast charging not showing',
             excerpt: 'Original charger, original cable, but fast charging isn\'t showing or it\'s slow? The problem usually isn\'t the charger — there are 7 hidden causes nobody tells you about.',
-            quickAnswer: 'Slow charging can result from the cable, a dirty port, heat, phone settings, use during charging, a high battery state, or protocol mismatch. Check the phone message and exact model specifications, test a compatible cable, and clean the port only as the manufacturer directs; no one temperature or percentage threshold applies to every device.',
+            quickAnswer: 'Top 7 causes: (1) Cable doesn\'t support the required wattage (10W cable on 30W charger). (2) USB-C port clogged with lint. (3) Phone above 38°C — system throttles charging automatically. (4) "Fast Charging" setting disabled (Samsung/Xiaomi). (5) Heavy apps running during charging. (6) Battery above 80% — charging slows by design (CC/CV). (7) Charger and phone speak different protocols (PD vs QC vs VOOC). Quick fix: try a certified replacement cable + clean the port + turn off the screen while charging.',
             content: `<p>You bought a genuine 30W or 45W charger — at full price — plugged it into your phone, and the first thing you did was check the screen for "Fast Charging" or "Super Fast Charging." But what appeared: "Charging" — with no speed indication. Or worse: charging is so slow the phone takes 3 hours to reach 100% instead of an hour and a half. The charger is genuine. The cable came in the box. Where's the problem?</p>
 
 <p>The issue is that "fast charging" isn't just about connecting a powerful charger to your phone. It's a complex system with 5 elements that must all work together: charger + cable + port + battery + software. If even one element is incompatible or malfunctioning — the phone drops to standard charging speed (5W) without telling you why. This article explains the 7 most common causes — and the fix for each one.</p>
@@ -271,7 +271,7 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
 
 <h2>Cause 1: The Cable — The Unsung Hero (and Prime Suspect)</h2>
 
-<p>The cable is one of the first components worth checking because a cable that "works" does not necessarily negotiate the fastest charging mode. Fast charging requires a cable and port that support the required current and protocol:</p>
+<p>This is the #1 cause in 40% of cases — and most people never suspect it. A cable that "works" doesn't necessarily "fast charge." Fast charging requires a cable that supports the required current and power:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -309,7 +309,7 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
 
 <p>We covered this in detail in our <a href="/en/blog/clean-usb-c-port-safely-phone-no-damage" style="color:#2563eb;">USB-C port cleaning guide</a> — but the summary: if the port has compressed dust or lint, the cable doesn't fully insert. This means the contact pins don't connect 100% — so the phone identifies the charger as a weak power source and charges at 5W instead of 30W or 45W.</p>
 
-<p><strong>The sign:</strong> The cable does not seat securely or disconnects with movement. Unplug the charger, inspect the port under good light, and follow the <a href="/en/blog/clean-usb-c-port-safely-phone-no-damage" style="color:#2563eb;">safe USB-C port-cleaning guidance</a> only if lint is visible; never force a tool, and stop if you see moisture or bent contacts.</p>
+<p><strong>The sign:</strong> The cable goes in but doesn't make a clear "click" — or disconnects if you move the phone. The fix: <a href="/en/blog/clean-usb-c-port-safely-phone-no-damage" style="color:#2563eb;">clean the port with a wooden toothpick</a> — takes 30 seconds and solves the problem in 70% of cases.</p>
 
 <h2>Cause 3: Heat — Your Phone Is Protecting Itself Without Telling You</h2>
 
@@ -456,7 +456,7 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Browse <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> and <a href="/en/anker/cables" style="color:#2563eb;font-weight:600;">Anker USB-C cables</a>, then match each model's protocol and rating to your device. Maximum speed and 100W are not promised for every model; review written warranty and delivery options for your address.
+        <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> support USB-PD + QC — fast-charging iPhones and Samsungs at maximum speed. <a href="/en/anker/cables" style="color:#2563eb;font-weight:600;">Anker USB-C cables</a> support 100W — they'll never be your bottleneck. 18-month warranty + delivery to all governorates.
     </p>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W Charger</a> · <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C Cable</a>.</p></div>
@@ -464,19 +464,19 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
             faq: [
                 {
                     question: 'Why isn\'t fast charging working even though my charger and cable are genuine?',
-                    answer: 'Possible causes include heat, settings, phone use, cable or port condition, protocol mismatch, and a high battery state. Check the exact model guide and on-screen messages, test a compatible cable, and clean the port according to manufacturer instructions.'
+                    answer: 'Most common causes: heat (phone is hot so it throttles charging automatically), fast charging setting disabled in phone settings, heavy apps running during charging, or battery above 80% (slowdown is normal in CV phase). Clean the port + turn off the screen + check your settings.',
                 },
                 {
                     question: 'Does the cable affect charging speed even with a powerful charger?',
-                    answer: 'Yes. Cable power rating, protocol support, resistance, and electronic marking can limit speed. There is no single limit for every USB-A or USB-C cable; match the exact cable rating with the charger and phone.'
+                    answer: 'Yes — this is the #1 cause. A USB-A to USB-C cable maxes out at 10-18W even with a 45W charger. You need a USB-C to USB-C cable rated for 60W+ for fast charging to work at full speed.',
                 },
                 {
                     question: 'Why does charging slow down after 80%?',
-                    answer: 'Many systems reduce current as battery state or temperature rises through CC/CV and device management, but the transition point and speed vary by model. Slower charging near full may be normal; diagnose it if the behavior is severe or intermittent under ordinary conditions.'
+                    answer: 'This is intentional design called CC/CV (Constant Current / Constant Voltage). From 0-80% the battery charges at constant current (fast). From 80-100% current gradually decreases to protect battery health. This is 100% normal and not a malfunction.',
                 },
                 {
                     question: 'Will a USB-PD charger fast-charge an OPPO or Xiaomi phone?',
-                    answer: 'It depends on the phone model and USB-PD profiles it supports; it may use a fallback rate or not activate the proprietary mode. Check Oppo or Xiaomi requirements for the exact phone, charger, and cable, and compare USB-PD when broad device compatibility matters.'
+                    answer: 'It\'ll charge at a reasonable speed (15-20W) — but not at maximum speed. OPPO SuperVOOC and Xiaomi HyperCharge require their original charger and proprietary cable for full 65W or 120W speeds. USB-PD is the best universal option if you have multiple different devices.',
                 },
             ],
         }

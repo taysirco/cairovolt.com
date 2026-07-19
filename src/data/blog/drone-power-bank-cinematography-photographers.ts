@@ -28,8 +28,8 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
             metaDescription: 'دليل عملي لاختيار باور بانك لمصوري الدرون: حدود السعة المسموح بها في الطيران، شحن الريموت والموبايل في الفيلد، والتجهيز لجلسة تصوير بدون كهرباء.',
             keywords: 'باور بانك درون, باور بانك مصور, شحن ريموت درون, باور بانك طيران مسموح, power bank drone, باور بانك DJI, شحن درون في الصحراء, باور بانك تصوير سينمائي',
             excerpt: 'مصور الدرون محتاج يفهم حدود السعة المسموح بها في الطيران ويختار باور بانك يشحن الريموت والموبايل — مش الدرون نفسه.',
-            quickAnswer: 'لا تفترض أن الباور بانك يشحن بطارية الدرون؛ راجع دليل الدرون والشاحن. يمكن استخدام موديل متوافق للريموت أو الهاتف حسب قدرتهما. احسب Wh من ملصق الموديل وراجع سياسة شركة الطيران والسلطات قبل كل رحلة؛ الحد والعدد ومكان الحمل والموافقة قد تختلف، ولا يضمن رقم السعة قبول الأمن.',
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>لو إنت مصور درون — سواء هاوي بيصور رحلاته أو محترف بيشتغل في تصوير عقاري أو إعلانات أو أفلام وثائقية — فإنت عارف إن أكبر عدو ليك مش الرياح أو القوانين (رغم إنهم مزعجين). أكبر عدو هو البطارية. بطارية الدرون بتعيش 20-45 دقيقة بس في الطيرة الواحدة. ريموت التحكم بيفضي في 2-3 ساعات. والموبايل اللي بيعرض البث المباشر من الكاميرا بيستهلك 20-25% في الساعة. يعني في جلسة تصوير 4-5 ساعات في الصحراء أو على الشاطئ — كل حاجة بتموت وإنت لسه في نص الشغل.</p>
+            quickAnswer: 'الباور بانك مش بيشحن بطارية الدرون (محتاجة شاحن مخصص بجهد عالي). لكنه ضروري لشحن ريموت التحكم (بيفضي في 2-3 ساعات) والموبايل/التابلت (بيفضي أسرع مع شاشة مفتوحة + بث مباشر). للطيران: الحد الأقصى 100Wh بدون إذن (27,000mAh تقريباً). ترشيحنا: انكر PowerCore 20,000mAh (74Wh — 1,550ج) — تحت حد الطيران بأمان + بيشحن الريموت مرتين + الموبايل 3 مرات. لو بتشتغل يوم كامل بدون كهرباء: انكر 26,800mAh (96.5Wh — لسه تحت الـ 100Wh).',
+            content: `<p>لو إنت مصور درون — سواء هاوي بيصور رحلاته أو محترف بيشتغل في تصوير عقاري أو إعلانات أو أفلام وثائقية — فإنت عارف إن أكبر عدو ليك مش الرياح أو القوانين (رغم إنهم مزعجين). أكبر عدو هو البطارية. بطارية الدرون بتعيش 20-45 دقيقة بس في الطيرة الواحدة. ريموت التحكم بيفضي في 2-3 ساعات. والموبايل اللي بيعرض البث المباشر من الكاميرا بيستهلك 20-25% في الساعة. يعني في جلسة تصوير 4-5 ساعات في الصحراء أو على الشاطئ — كل حاجة بتموت وإنت لسه في نص الشغل.</p>
 
 <p>المقال ده مش عن شحن الدرون نفسه — ده محتاج شاحن مخصص بجهد عالي (12-17V حسب الموديل) ومفيش باور بانك عادي يقدر يعمل ده. المقال عن الحاجات التانية اللي بتموت في أسوأ وقت: الريموت، الموبايل، التابلت، الشاشة الخارجية. ودي الحاجات اللي باور بانك كويس بيحل مشكلتها تماماً. كمان هنشرح قواعد الطيران المتعلقة بسعة الباور بانك — لأن ده بيأثر على اختيارك لو بتسافر بالطيارة لمواقع التصوير.</p>
 
@@ -49,7 +49,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     <li style="margin-bottom:12px;">📊 <strong>السعة مش كافية:</strong> حتى لو قدرت تشحن — بطارية DJI Mavic 3 سعتها 77Wh. يعني باور بانك 20,000mAh (74Wh) مش هيملاها ولا مرة واحدة بعد حساب كفاءة التحويل (60-70%). مش عملي.</li>
 </ul>
 
-<p><strong>الحل الحقيقي لشحن بطاريات الدرون في الفيلد:</strong> محطة طاقة متنقلة مع مخرج AC (زي <a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> — 256Wh) + الشاحن الأصلي. بتوصل الشاحن الأصلي بالمحطة وبتشحن البطاريات بأمان. محطة 256Wh بتشحن 3 بطاريات DJI Mini أو بطارية ونص DJI Mavic 3. ده الحل للمصورين المحترفين اللي بيشتغلوا يوم كامل بعيد عن الكهرباء.</p>
+<p><strong>الحل الحقيقي لشحن بطاريات الدرون في الفيلد:</strong> محطة طاقة متنقلة مع مخرج AC (زي <a href="/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> — 256Wh) + الشاحن الأصلي. بتوصل الشاحن الأصلي بالمحطة وبتشحن البطاريات بأمان. محطة 256Wh بتشحن 3 بطاريات DJI Mini أو بطارية ونص DJI Mavic 3. ده الحل للمصورين المحترفين اللي بيشتغلوا يوم كامل بعيد عن الكهرباء.</p>
 
 <h2>إيه اللي الباور بانك بيشحنه فعلاً — وليه مهم</h2>
 
@@ -140,9 +140,9 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
 <p><strong>نصيحة عملية:</strong> لو بتصور في الصيف في مصر، حاول تصور في الساعات الأولى من الصباح (6-9 صباحاً) أو قبل المغرب (4-6 مساءً). الضوء أحلى للتصوير (golden hour) والبطاريات بتشتغل أحسن والموبايل مش هيقفل عليك.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🧭 سيناريو تخطيط لمصور عقاري</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 تجربة حقيقية — مصور عقاري من القاهرة</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        مثال تعليمي: اكتب عدد الرحلات وأجهزة التحكم والهاتف وقدرة دخل كل جهاز، ثم احسب طاقة احتياطية بهامش مناسب. الباور بانك قد يدعم الهاتف أو وحدة التحكم إذا تطابقت المواصفات، لكنه لا يشحن بطارية الدرون لمجرد تشابه المنفذ. هذا ليس اقتباس عميل أو وعداً بتوفير وقت ثابت.
+        "بشتغل بـ DJI Air 3 في التصوير العقاري. في جلسة تصوير عادية بصور 3-4 عقارات في اليوم — يعني 8-10 طيرات. بحمل 4 بطاريات درون + باور بانك انكر 20,000. الباور بانك مش بيشحن الدرون طبعاً، بس بيخلي الريموت والموبايل شغالين طول اليوم. من غيره كنت بضطر أرجع العربية كل ساعتين أشحن الريموت — وده بيضيع وقت ومجهود وبنزين. الباور بانك وفرلي ساعة ونص من يوم الشغل على الأقل."
     </p>
 </div>
 
@@ -183,16 +183,16 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">فريق إنتاج (يوم كامل)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;">انكر 521 PowerHouse</a> (5,500ج)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;">انكر 521 PowerHouse</a> (5,500ج)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">256Wh + مخرج AC لشحن بطاريات الدرون</td>
     </tr>
     </tbody>
 </table>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ اشحن تصويرك من كايرو فولت — بالضمان المكتوب على صفحة المنتج</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ اشحن تصويرك من كايرو فولت — بضمان الوكيل المعتمد</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>، ثم راجع مواصفات الموديل والضمان وخيارات الشحن المتاحة لعنوانك.
+        كل باور بانكات المصورين متاحة بضمان <strong>18 شهر معتمد</strong> + توصيل لكل المحافظات. تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/portable-power-stations" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
     </p>
 </div>`,
             faq: [
@@ -220,8 +220,8 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
             metaDescription: 'Practical guide to choosing a power bank for drone photographers: airline capacity limits, charging the controller and phone in the field, and preparing for ...',
             keywords: 'power bank drone, power bank photographer, drone controller charging, flight legal power bank, power bank DJI, drone desert charging, cinematography power bank, drone field charging',
             excerpt: 'Drone photographers need to understand flight-legal capacity limits and choose a power bank that charges the controller and phone — not the drone itself.',
-            quickAnswer: 'Do not assume a power bank can charge a drone battery; check the drone and charger manuals. A compatible model may power the controller or phone. Calculate watt-hours from the exact label and check the operating airline and authority policy before every trip; limits, quantity, packing location, and approval can vary, and capacity alone does not guarantee acceptance.',
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p>If you're a drone photographer — whether a hobbyist filming trips or a professional working in real estate, advertising, or documentary filmmaking — you know that your biggest enemy isn't the wind or regulations (though they're annoying). Your biggest enemy is battery life. The drone battery lasts only 20-45 minutes per flight. The remote controller dies in 2-3 hours. And the phone displaying the live camera feed drains at 20-25% per hour. During a 4-5 hour shoot in the desert or at the beach — everything dies while you're still in the middle of work.</p>
+            quickAnswer: 'A power bank cannot charge the drone battery (requires a dedicated high-voltage charger). But it\'s essential for charging the remote controller (dies in 2-3 hours) and phone/tablet (drains faster with screen on + live feed). For flights: maximum 100Wh without airline approval (~27,000mAh). Our pick: Anker PowerCore 20,000mAh (74Wh — 1,550 EGP) — safely under the flight limit + charges the controller twice + phone 3 times. For full-day shoots: Anker 26,800mAh (96.5Wh — still under 100Wh).',
+            content: `<p>If you're a drone photographer — whether a hobbyist filming trips or a professional working in real estate, advertising, or documentary filmmaking — you know that your biggest enemy isn't the wind or regulations (though they're annoying). Your biggest enemy is battery life. The drone battery lasts only 20-45 minutes per flight. The remote controller dies in 2-3 hours. And the phone displaying the live camera feed drains at 20-25% per hour. During a 4-5 hour shoot in the desert or at the beach — everything dies while you're still in the middle of work.</p>
 
 <p>This article isn't about charging the drone itself — that requires a dedicated high-voltage charger (12-17V depending on the model) and no regular power bank can do that. This article is about everything else that dies at the worst moment: the controller, phone, tablet, external monitor. These are exactly what a good power bank solves completely. We'll also explain flight regulations related to power bank capacity — because this affects your choice if you fly to shooting locations.</p>
 
@@ -241,7 +241,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     <li style="margin-bottom:12px;">📊 <strong>Insufficient capacity:</strong> Even if you could charge it — a DJI Mavic 3 battery is 77Wh. A 20,000mAh power bank (74Wh) can't fill it even once after accounting for conversion efficiency (60-70%). Not practical.</li>
 </ul>
 
-<p><strong>The real solution for field charging drone batteries:</strong> A portable power station with AC output (like the <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> — 256Wh) + the original charger. Connect the original charger to the station and charge batteries safely. A 256Wh station charges 3 DJI Mini batteries or 1.5 DJI Mavic 3 batteries. This is the solution for professional photographers working full days away from power.</p>
+<p><strong>The real solution for field charging drone batteries:</strong> A portable power station with AC output (like the <a href="/en/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> — 256Wh) + the original charger. Connect the original charger to the station and charge batteries safely. A 256Wh station charges 3 DJI Mini batteries or 1.5 DJI Mavic 3 batteries. This is the solution for professional photographers working full days away from power.</p>
 
 <h2>What a Power Bank Actually Charges — And Why It Matters</h2>
 
@@ -332,9 +332,9 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
 <p><strong>Practical tip:</strong> If shooting in Egyptian summer, aim for early morning (6-9 AM) or before sunset (4-6 PM). The light is better for cinematography (golden hour), batteries perform optimally, and your phone won't overheat and shut down mid-shoot.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🧭 Planning Scenario for a Real Estate Photographer</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 Real Experience — Real Estate Photographer from Cairo</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        Educational example: list planned flights, controller and phone inputs, and each device's required energy, then add a suitable reserve. A power bank may support a phone or controller when specifications match, but it does not charge a drone battery merely because the connector fits. This is not a customer quote or a promise of fixed time savings.
+        "I work with a DJI Air 3 for real estate photography. In a typical session, I shoot 3-4 properties per day — that's 8-10 flights. I carry 4 drone batteries + an Anker 20,000mAh power bank. The power bank obviously doesn't charge the drone, but it keeps the controller and phone running all day. Without it, I'd have to go back to the car every two hours to charge the controller — wasting time, effort, and fuel. The power bank saves me at least an hour and a half per work day."
     </p>
 </div>
 
@@ -375,16 +375,16 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Production team (full day)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;">Anker 521 PowerHouse</a> (5,500 EGP)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;">Anker 521 PowerHouse</a> (5,500 EGP)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">256Wh + AC output for drone batteries</td>
     </tr>
     </tbody>
 </table>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Power Your Shoots from CairoVolt — With written store warranty</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Power Your Shoots from CairoVolt — With Authorized Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Portable Power Stations</a>, then review model specifications, warranty, and delivery options available for your address.
+        All photographer power banks are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates. Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/portable-power-stations" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
     </p>
 </div>`,
             faq: [

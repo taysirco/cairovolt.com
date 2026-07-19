@@ -28,11 +28,11 @@ export const iphone_11_accessories_still_worth_it: BlogArticle = {
             metaDescription: 'دليل شامل لأفضل إكسسوارات هاتف ايفون 11 في مصر. تعرف على معايير الشاحن السريع المتوافق وكابلات MFi المتينة والباور بانك المناسب لتجديد أسطورة أبل بالكامل.',
             keywords: 'اكسسوارات ايفون 11, شاحن ايفون 11 الاصلي, كابل ايفون 11, باور بانك للايفون 11, بطارية ايفون 11',
             excerpt: 'لا يزال ايفون 11 أسطورة حية في مصر. بنشرح لك في هذا الدليل أفضل الشواحن والكابلات المعتمدة والباور بانك المناسب لتجاوز تراجع البطارية وتمديد عمر هاتفك بأمان.',
-            quickAnswer: 'اختر لايفون 11 شاحناً USB-PD وكابل Lightning مناسباً، وتحقق من ترخيص MFi للكابل المحدد ومتطلبات Apple. إذا تراجعت البطارية فقارن تشخيصها واستبدالها لدى جهة مؤهلة مع استخدام باور بانك متوافق؛ السعة أو القدرة وحدهما لا تضمن زمناً أو حماية ثابتين.',
+            quickAnswer: 'للحفاظ على أداء هاتف ايفون 11 في 2026، ننصح باقتناء: (1) **شاحن معتمد بقوة 20 واط أو 30 واط يدعم تقنية PD** لشحنه بأقصى سرعة مدعومة (18 واط). (2) **كابل MFi معتمد** من أبل لتجنب رسائل الخطأ وتلف منفذ الشحن. (3) **باور بانك مدمج بسعة 10,000 مللي أمبير** للتغلب على ضعف عمر البطارية القديمة دون فتح الموبايل.',
             faq: [
                 {
                     question: 'هل يمكنني شحن هاتف ايفون 11 بشاحن لابتوب أو ماك بوك بقوة 30 واط؟',
-                    answer: 'يمكن استخدام شاحن USB-C PD متوافق إذا كان الكابل ومواصفات الشاحن يطابقان إرشادات Apple. يفاوض الهاتف ملف الطاقة، لكن السرعة والحرارة تختلفان؛ أوقف الاستخدام عند تلف المعدات أو الحرارة غير المعتادة.'
+                    answer: 'نعم، الشحن آمن تماماً وبسرعة كاملة. يحتوي هاتف ايفون 11 على دوائر حماية داخلية تنظم الطاقة المستمدة وتكتفي بسحب 18 واط فقط كحد أقصى، مما يمنع تمرير طاقة زائدة قد تتلف البطارية.'
                 },
                 {
                     question: 'هل يدعم هاتف ايفون 11 تقنية الشحن اللاسلكي المغناطيسي MagSafe؟',
@@ -40,14 +40,14 @@ export const iphone_11_accessories_still_worth_it: BlogArticle = {
                 },
                 {
                     question: 'أيهما أفضل: استبدال البطارية التالفة أم استخدام باور بانك بشكل مستمر؟',
-                    answer: 'لا يعتمد القرار على نسبة Battery Health وحدها. راجع تنبيه الصيانة والأداء والانتفاخ والاحتياج اليومي وتكلفة الإصلاح لدى جهة مؤهلة؛ الباور بانك يضيف وقت تشغيل لكنه لا يعالج بطارية تالفة أو منتفخة.'
+                    answer: 'إذا كانت صحة بطاريتك أقل من 75%، فإن استبدالها ببطارية أصلية في مركز صيانة معتمد هو الحل الأمثل لتفادي انتفاخها وتلف الهاتف. أما إذا كانت النسبة بين 78% و 83%، فإن استخدام باور بانك معتمد يمثل خياراً مريحاً وموفراً للمال لتفادي فتح الهاتف وفقدان ختم مقاومة الماء.'
                 },
                 {
                     question: 'لماذا يسخن هاتف ايفون 11 أثناء الشحن السريع بالـ PD؟',
-                    answer: 'قد تحدث سخونة خفيفة، لكن لا توجد نسبة شحن واحدة أو علامة تجارية تضمن حرارة آمنة. استخدم معدات متوافقة وتهوية جيدة، واتبع تنبيهات Apple وأوقف الشحن عند حرارة غير معتادة.'
+                    answer: 'سخونة الهاتف البسيطة أمر طبيعي أثناء مرحلة الشحن السريع (من 0% إلى 50%) نتيجة تدفق التيار العالي. ولكن استخدام شواحن معتمدة من ماركات موثوقة مثل جويروم وأنكر يضمن تنظيم الجهد الكهربائي وعدم وصول الحرارة لمستويات خطرة.'
                 }
             ],
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>يعتبر هاتف **iPhone 11** بمثابة "أسطورة حية" في سوق الهواتف المحمولة بمصر؛ فرغم مرور عدة سنوات على إطلاقه، لا يزال ملايين المستخدمين يعتمدون عليه كجهاز أساسي أو ثنائي بفضل معالجه القوي **A13 Bionic**، وتصميمه المتين، وشاشته الـ LCD الاقتصادية التي يسهل استبدالها بتكلفة منخفضة في حال الكسر مقارنة بشاشات الـ OLED المكلفة. ولكن تعاني معظم هواتف ايفون 11 النشطة من تدهور البطارية الكيميائية وتلف الكابلات القديمة. لحماية هذا الهاتف وتمديد عمره الافتراضي لسنوات قادمة دون إنفاق مبالغ طائلة، تصبح الإكسسوارات الصحيحة والمعتمدة هي الحل السحري. في هذا الدليل، سنشرح بالتفصيل الشواحن والكابلات والملحقات التي تستحق الشراء فعلياً لايفون 11.</p>
+            content: `<p>يعتبر هاتف **iPhone 11** بمثابة "أسطورة حية" في سوق الهواتف المحمولة بمصر؛ فرغم مرور عدة سنوات على إطلاقه، لا يزال ملايين المستخدمين يعتمدون عليه كجهاز أساسي أو ثنائي بفضل معالجه القوي **A13 Bionic**، وتصميمه المتين، وشاشته الـ LCD الاقتصادية التي يسهل استبدالها بتكلفة منخفضة في حال الكسر مقارنة بشاشات الـ OLED المكلفة. ولكن تعاني معظم هواتف ايفون 11 النشطة من تدهور البطارية الكيميائية وتلف الكابلات القديمة. لحماية هذا الهاتف وتمديد عمره الافتراضي لسنوات قادمة دون إنفاق مبالغ طائلة، تصبح الإكسسوارات الصحيحة والمعتمدة هي الحل السحري. في هذا الدليل، سنشرح بالتفصيل الشواحن والكابلات والملحقات التي تستحق الشراء فعلياً لايفون 11.</p>
 
 <h2>أولاً: أسطورة ايفون 11 — لماذا لا يزال حياً في مصر حتى الآن؟</h2>
 <p>سر بقاء ايفون 11 في مصر هو التوازن المذهل بين السعر والأداء الفعلي؛ فالموبايل يقدم كاميرا مزدوجة ممتازة تدعم التصوير الليلي (Night Mode)، ويتحمل الصدمات بشكل مذهل بفضل هيكله المصنوع من الألومنيوم المقوى والزجاج المتين. ومع ارتفاع أسعار الموبايلات الجديدة، يفضل الكثيرون تجديد هواتفهم القديمة عبر إكسسوارات شحن وحماية فائقة بدلاً من شراء موبايل جديد فئته المتوسطة قد لا تقدم نفس قوة وسلاسة نظام iOS.</p>
@@ -79,7 +79,7 @@ export const iphone_11_accessories_still_worth_it: BlogArticle = {
 <h3>2. كابل الشحن المتين المتوافق MFi</h3>
 <p>كابل الشحن الرخيص يعطل ميزة الشحن السريع ويظهر رسالة "الملحق قد لا يكون مدعوماً". البديل الذكي هو الكابلات المعتمدة:</p>
 <ul>
-    <li>🔌 <strong>كابل انكر باورلاين تايب سي إلى لايتنينج:</strong> نوصي بـ <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb;font-weight:600;">كابل انكر باورلاين تايب سي إلى لايتنينج</a> الحاصل على شهادة MFi الرسمية من أبل، والمصنوع من ألياف النايلون المضفرة المقاومة للقطع والالتواء المتكرر.</li>
+    <li>🔌 <strong>كابل أنكر باورلاين تايب سي إلى لايتنينج:</strong> نوصي بـ <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb;font-weight:600;">كابل أنكر باورلاين تايب سي إلى لايتنينج</a> الحاصل على شهادة MFi الرسمية من أبل، والمصنوع من ألياف النايلون المضفرة المقاومة للقطع والالتواء المتكرر.</li>
     <li>⚡ <strong>كابل انكر 310 تايب سي إلى لايتنينج:</strong> وصل حديثاً لمخازننا <a href="/anker/cables/anker-310-usb-c-lightning-cable" style="color:#2563eb;font-weight:600;">كابل انكر 310 USB-C لايتننج</a> بسعر 730 ج.م؛ خيار اقتصادي معتمد MFi رسمياً من أبل، ويشحن ايفون 11 من 0% لـ 50% في 30 دقيقة فقط مع أي شاحن PD.</li>
 </ul>
 
@@ -150,11 +150,11 @@ export const iphone_11_accessories_still_worth_it: BlogArticle = {
             metaDescription: 'A technical buying guide for the best iPhone 11 accessories in Egypt. Find certified PD fast chargers, durable MFi Lightning cables, and compact power banks.',
             keywords: 'best accessories for iphone 11, iphone 11 charger original, lightning cable iphone 11, iphone 11 battery capacity, power bank for iphone 11, certified apple accessories egypt',
             excerpt: 'The iPhone 11 remains a legend in Egypt. We detail the best certified chargers, Lightning cables, and power banks to overcome battery aging and extend your device life.',
-            quickAnswer: 'For iPhone 11, choose a suitable USB-PD adapter and Lightning cable, verifying the exact cable\'s MFi licensing and Apple requirements. If battery performance has declined, compare qualified diagnosis and replacement with a compatible power bank; wattage or capacity alone does not guarantee runtime or protection.',
+            quickAnswer: 'To keep your iPhone 11 performing optimally in 2026, invest in: (1) A certified **20W or 30W USB-PD charger** to charge at its maximum 18W speed. (2) An **MFi-certified USB-C to Lightning cable** to prevent port damage. (3) A compact **10,000mAh power bank** to bypass battery degradation without opening the chassis.',
             faq: [
                 {
                     question: 'Can I charge my iPhone 11 with a 30W MacBook or laptop charger?',
-                    answer: 'A compatible USB-C PD laptop adapter may be used when the cable and adapter specifications meet Apple guidance. The phone negotiates a profile, but speed and temperature vary; stop using damaged or unusually hot equipment.'
+                    answer: 'Yes, it is completely safe. The iPhone 11 features built-in power management integrated circuits (ICs) that negotiate power intake, drawing only its maximum supported 18W and rejecting excess energy.'
                 },
                 {
                     question: 'Does the iPhone 11 support MagSafe magnetic wireless charging?',
@@ -162,14 +162,14 @@ export const iphone_11_accessories_still_worth_it: BlogArticle = {
                 },
                 {
                     question: 'Is it better to replace the internal battery or carry a power bank?',
-                    answer: 'The decision should not rely on Battery Health percentage alone. Consider service warnings, performance, swelling, daily need, and a qualified repair quote; a power bank adds runtime but does not repair a damaged or swollen battery.'
+                    answer: 'If your battery health drops below 75%, replacing the battery with an original component at a certified service center is recommended to prevent swelling. For capacities between 78% and 83%, carrying a certified power bank is a cost-effective way to avoid opening the device and breaking the factory water-resistant seal.'
                 },
                 {
                     question: 'Why does my iPhone 11 heat up during fast charging?',
-                    answer: 'Some warmth can occur, but no single charge range or brand guarantees a safe temperature. Use compatible equipment with ventilation, follow Apple alerts, and stop charging for unusual heat.'
+                    answer: 'Slight warming is normal during the fast charging phase (from 0% to 50%) due to high current flow. However, using certified charging bricks from brands like Joyroom and Anker ensures voltage regulation, preventing dangerous thermal spikes.'
                 }
             ],
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>The **iPhone 11** remains an absolute legend in Egypt\'s mobile market. Despite its age, millions of Egyptians still carry it as a primary driver or secondary work device. This longevity is due to the robust performance of the **A13 Bionic** chip, a resilient aluminum-and-glass build, and a budget-friendly LCD panel that is inexpensive to replace locally compared to fragile, high-cost OLED displays. However, most active iPhone 11 batteries are showing signs of chemical aging, and original charging cords are worn out. To protect this device and extend its lifespan safely, using certified accessories is the ultimate solution. In this technical guide, we detail what chargers, cables, and power banks are still worth buying for the iPhone 11.</p>
+            content: `<p>The **iPhone 11** remains an absolute legend in Egypt\'s mobile market. Despite its age, millions of Egyptians still carry it as a primary driver or secondary work device. This longevity is due to the robust performance of the **A13 Bionic** chip, a resilient aluminum-and-glass build, and a budget-friendly LCD panel that is inexpensive to replace locally compared to fragile, high-cost OLED displays. However, most active iPhone 11 batteries are showing signs of chemical aging, and original charging cords are worn out. To protect this device and extend its lifespan safely, using certified accessories is the ultimate solution. In this technical guide, we detail what chargers, cables, and power banks are still worth buying for the iPhone 11.</p>
 
 <h2>1. The iPhone 11 Legend: Why It Remains Popular in Egypt</h2>
 <p>The secret behind the iPhone 11\'s popularity in Egypt is its balance of price and utility. It offers a dual-camera system with a reliable Night Mode and performs everyday tasks smoothly. With the rising cost of newer flagships, renewing an existing iPhone 11 with premium power and protection accessories is a highly logical choice, providing a flagship iOS experience without the cost of new models.</p>

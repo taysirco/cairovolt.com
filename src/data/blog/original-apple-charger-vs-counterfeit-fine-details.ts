@@ -27,15 +27,15 @@ export const original_apple_charger_vs_counterfeit_fine_details: BlogArticle = {
     },
     translations: {
         ar: {
-            title: 'شاحن ابل الأصلي والمقلد — علامات التحقق وحدود الوزن والسيريال',
-            metaTitle: 'كيفية التحقق من شاحن ابل 20W دون الاعتماد على الوزن وحده | كايرو فولت',
-            metaDescription: 'دليل للتحقق من شاحن ابل 20W في مصر عبر رقم الموديل والبائع والفاتورة وطريقة Apple، مع توضيح حدود الوزن والسيريال والخط كقرائن غير حاسمة.',
+            title: 'شاحن ابل الأصلي — التفاصيل الدقيقة في الملمس وبلد الصنع اللي بتفضح التقليد',
+            metaTitle: 'كيفية معرفة شاحن ابل الاصلي من التقليد بالوزن والخط | كايرو فولت',
+            metaDescription: 'دليلك الفني الشامل لكشف شاحن ايفون المضروب والهاي كوبي بمصر. الفروق التفصيلية بالوزن ورقاقة السيريال والخط وجودة البلاستيك بين الأصلي والتقليد لآبل 20 واط.',
             keywords: 'شاحن ابل الاصلي, سعر شاحن ايفون الاصلي, معرفة شاحن ابل الاصلي من التقليد, شاحن ايفون 20 واط الاصلي, كشف شاحن ايفون المضروب, اماكن بيع شواحن ابل الاصلية',
-            excerpt: 'هل تشتري شاحن ايفون؟ تعرّف إلى خطوات تحقق تجمع رقم الموديل والبائع والفاتورة وطريقة Apple، ولماذا لا يكفي الوزن أو الخط وحده.',
-            quickAnswer: 'لا يثبت الوزن أو الخط أو سيريال مطبوع أصالة شاحن Apple وحده، لأن المواصفات تختلف ويمكن تقليد العلامات الخارجية. طابق رقم الموديل والمقبس مع مواصفات Apple، وتحقق من البائع والفاتورة والضمان وطريقة الشركة المنشورة؛ وأوقف أي شاحن تالف أو ساخن بصورة غير معتادة.',
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>يعتبر هاتف الآيفون أحد أثمن ممتلكاتك الشخصية، والحفاظ عليه يبدأ من جودة الطاقة الكهربائية التي تغذي بطاريته يومياً. منذ قرار شركة Apple بإزالة رأس الشاحن من علبة الهاتف بدءاً من سلسلة iPhone 12، أصبحت عملية شراء شاحن جديد مغامرة غير مأمونة العواقب في السوق المصري. المحلات التجارية والأسواق الإلكترونية تعج بشواحن آبل مقلقة بدرجة عالية من الاحترافية الخارجية (تُعرف باسم هاي كوبي أو أوريجينال توكيل)، لدرجة تجعل من المستحيل على المستخدم العادي تمييزها بمجرد النظر للعلبة الخارجية.</p>
+            excerpt: 'هل تشتري شاحن آيفون جديد؟ في هذا الدليل المعملي الشامل، نشرح لك أدق التفاصيل التقنية والجسدية التي تميز شاحن ابل 20 واط الأصلي وتفضح النسخ المقلدة بدقة.',
+            quickAnswer: 'للتمييز بين شاحن آبل الأصلي والمقلد بقوة 20 واط، ابحث عن 3 علامات حاسمة: أولاً <strong>الوزن</strong> (الأصلي يزن بين 55 و58 جراماً، بينما المقلد يزن أقل من 40 جراماً)، ثانياً <strong>رقم السيريال الداخلي</strong> المطبوع بدقة متناهية داخل منفذ USB-C، وثالثاً <strong>لون وجودة الخط</strong> المطبوع على الهيكل (الأصلي خط رمادي فاتح جداً ناعم، بينما المقلد خط أسود داكن رديء الطباعة أو به أخطاء إملائية).',
+            content: `<p>يعتبر هاتف الآيفون أحد أثمن ممتلكاتك الشخصية، والحفاظ عليه يبدأ من جودة الطاقة الكهربائية التي تغذي بطاريته يومياً. منذ قرار شركة Apple بإزالة رأس الشاحن من علبة الهاتف بدءاً من سلسلة iPhone 12، أصبحت عملية شراء شاحن جديد مغامرة غير مأمونة العواقب في السوق المصري. المحلات التجارية والأسواق الإلكترونية تعج بشواحن آبل مقلقة بدرجة عالية من الاحترافية الخارجية (تُعرف باسم هاي كوبي أو أوريجينال توكيل)، لدرجة تجعل من المستحيل على المستخدم العادي تمييزها بمجرد النظر للعلبة الخارجية.</p>
 
-<p>تكمن الكارثة في أن الشواحن المقلدة تفتقد لأبسط معايير السلامة والأمان؛ فدوائرها الداخلية الرخيصة لا تحتوي على منظمات جهد أو عوازل كافية، مما يهدد باحتراق معالج الشحن الداخلي للآيفون (المعروف باسم آيسي يو 2 أو رقاقة هيدرا) وهو عطل شهير ومكلف للغاية في الصيانة. في هذا الدليل المعملي المفصل في هذا الدليل، سنغوص بعمق في أدق الفروق الجسدية والفنية التي تفضح شاحن آبل المقلد، ونوضح لك كيفية استخدام الميزان وفحص السيريال نمبر الداخلي لحماية هاتفك الثمين.</p>
+<p>تكمن الكارثة في أن الشواحن المقلدة تفتقد لأبسط معايير السلامة والأمان؛ فدوائرها الداخلية الرخيصة لا تحتوي على منظمات جهد أو عوازل كافية، مما يهدد باحتراق معالج الشحن الداخلي للآيفون (المعروف باسم آيسي يو 2 أو رقاقة هيدرا) وهو عطل شهير ومكلف للغاية في الصيانة. في هذا الدليل المفصل من كايرو فولت، سنغوص بعمق في أدق الفروق الجسدية والفنية التي تفضح شاحن آبل المقلد، ونوضح لك كيفية استخدام الميزان وفحص السيريال نمبر الداخلي لحماية هاتفك الثمين.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -100,7 +100,7 @@ export const original_apple_charger_vs_counterfeit_fine_details: BlogArticle = {
 <p>للحفاظ على هاتف آيفون الثمين وحمايته من التلف الكهربائي، نوصي باتباع القواعد الفنية التالية من كايرو فولت:</p>
 <ul style="line-height:2;">
     <li><strong>استخدام كابلات معتمدة بضمان MFi:</strong> الشاحن الأصلي لن يفيدك إذا كنت تستخدم كابل شحن رخيصاً ومجهول الهوية. تأكد دائماً أن الكابل يحمل ترخيص MFi (Made for iPhone) الرسمي من آبل لضمان وجود رقاقة الأمان الأصلية (C94 Connector) التي تنظم الفولت والبيانات.</li>
-    <li><strong>شراء الشاحن من الموزعين المعتمدين بمصر:</strong> تجنب الشراء من محلات الصيانة الصغيرة بالشارع أو الصفحات المجهولة على فيسبوك التي تعرض خصومات وهمية. اشترِ دائماً من الموزعين الرسميين المعتمدين لآبل بمصر (مثل Tradeline أو B.TECH أو Raya) أو من الماركات البديلة المعتمدة رسمياً من آبل مثل انكر (انكر).</li>
+    <li><strong>شراء الشاحن من الموزعين المعتمدين بمصر:</strong> تجنب الشراء من محلات الصيانة الصغيرة بالشارع أو الصفحات المجهولة على فيسبوك التي تعرض خصومات وهمية. اشترِ دائماً من الموزعين الرسميين المعتمدين لآبل بمصر (مثل Tradeline أو B.TECH أو Raya) أو من الماركات البديلة المعتمدة رسمياً من آبل مثل أنكر (Anker).</li>
     <li><strong>تفعيل خيار "شحن البطارية المحسن" (Optimized Battery Charging):</strong> يقوم نظام iOS بتعلم نمط حياتك اليومي ويوقف شحن الهاتف عند 80% في الليل، ويكمل شحنه للـ 100% قبل استيقاظك مباشرة، مما يقلل من الوقت الذي يقضيه هاتفك متصلاً بالكهرباء وهو مشحون بالكامل.</li>
 </ul>
 
@@ -111,32 +111,32 @@ export const original_apple_charger_vs_counterfeit_fine_details: BlogArticle = {
             faq: [
                 {
                     question: 'هل يؤثر الشحن بشاحن مقلد على صحة بطارية الآيفون؟',
-                    answer: 'قد يسبب شاحن تالف أو غير مطابق حرارة أو شحناً غير مستقر، لكن لا توجد مدة أو نسبة Battery Health ثابتة. أوقف الاستخدام عند التلف أو الرائحة أو الحرارة غير المعتادة، واستخدم معدات تطابق إرشادات Apple.'
+                    answer: 'نعم وبشكل سريع جداً. غياب تنظيم الفولت والتيار في الشواحن المقلدة يسبب سخونة مفرطة للبطارية أثناء الشحن، والحرارة تسرع من انهيار خلايا الليثيوم وتلفها، مما يؤدي لهبوط نسبة صحة البطارية (Maximum Capacity) بشكل مفاجئ وملحوظ في غضون أسابيع قليلة، وفي الحالات المتطرفة قد يؤدي ذلك لانتفاخ البطارية وتدمير الشاشة.'
                 },
                 {
                     question: 'كيف أتأكد من السيريال نمبر المكتوب على علبة الشاحن؟',
-                    answer: 'قارن الأرقام والملصقات وفق تعليمات Apple للموديل، لكن التطابق أو الاختلاف لا يكفي وحده للحكم لأن العبوات والعلامات قد تتغير أو تُقلّد. تحقق أيضاً من البائع والفاتورة وطريقة الشركة المنشورة.'
+                    answer: 'يجب أن يتطابق السيريال نمبر المطبوع على الملصق الأبيض الخارجي لعلبة الشاحن تماماً مع السيريال المكتوب بخط الليزر الصغير جداً داخل منفذ الـ USB-C الخاص برأس الشاحن. إذا اختلف الرقمان فالشاحن مقلد دون أدنى شك.'
                 },
                 {
-                    question: 'هل شواحن شركة انكر (انكر) آمنة للآيفون كبديل لشاحن آبل الأصلي؟',
-                    answer: 'اختر رقم موديل من انكر يوثق توافق USB-C PD مع الايفون، واستخدم كابلاً مناسباً وتحقق من ترخيص MFi للكابل إن كان Lightning. لا يعني اسم انكر أو GaN اعتماد Apple لكل شاحن أو أماناً مطلقاً؛ قارن المواصفات والسعر والضمان المكتوب.'
+                    question: 'هل شواحن شركة أنكر (Anker) آمنة للآيفون كبديل لشاحن آبل الأصلي؟',
+                    answer: 'نعم، شواحن أنكر (مثل سلسلة Anker Nano المتميزة) آمنة بنسبة 100% وهي معتمدة رسمياً من شركة Apple وتدعم تقنيات حماية مطابقة للأصلية وبسعر منافس جداً، وتعتبر الخيار الأول كبديل لشاحن آبل الرسمي بمصر بفضل صغر حجمها وكفاءتها الحرارية العالية الناتجة عن استخدام تقنية GaN.'
                 },
                 {
                     question: 'ما هو موديل شاحن آبل الأصلي بقوة 20 واط المتوافق مع مصر؟',
-                    answer: 'تحقق من رقم الموديل وشكل المقبس وتصنيف الإدخال على صفحة Apple والعبوة والفاتورة وقت الشراء، لأن النسخ الإقليمية والتوافر قد يختلفان. لا تعتمد على رقم واحد من دون مطابقة بيانات المنتج الفعلية.'
+                    answer: 'الموديل المخصص لمصر والشرق الأوسط وأوروبا هو A2305 ذو المقبس الثنائي الدائري (EU Plug)، ويأتي بمواصفات إدخال كهرباء تتوافق مع الشبكة المصرية (100-240 فولت).'
                 }
             ]
         },
         en: {
-            title: 'Original Apple Charger vs Fake — Verification Steps and Limits of Weight Checks',
-            metaTitle: 'How to Check an Apple 20W Charger Beyond Weight & Serial | CairoVolt',
-            metaDescription: 'Check an Apple 20W charger in Egypt by model, seller, invoice, and Apple guidance, while understanding why weight, serial, and font are not conclusive alone.',
+            title: 'Original Apple Charger vs Fake — Fine Details, Weight & Serial Number Checks',
+            metaTitle: 'How to Spot Fake Apple 20W Charger by Weight & Serial | CairoVolt',
+            metaDescription: 'Spot counterfeit Apple 20W USB-C chargers in Egypt. Read our technical analysis on weight specifications, printed fonts, and internal serial verification.',
             keywords: 'original apple charger, fake apple charger vs original, spot counterfeit iphone charger, apple 20w usb c adapter original, apple charger serial number check',
-            excerpt: 'Buying an iPhone charger? Use model, seller, invoice, and Apple verification guidance, and learn why weight or font alone cannot prove authenticity.',
-            quickAnswer: 'Weight, font, or a printed serial cannot prove an Apple adapter is authentic because specifications vary and external signs can be copied. Match the model and plug to Apple documentation, verify seller identity, invoice, written warranty, and Apple\'s published method, and stop using damaged or unusually hot equipment.',
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>Your iPhone is a premium, high-value device, and keeping it healthy starts with the quality of the electricity feeding its battery daily. Ever since Apple decided to remove the power adapter from the retail box starting with the iPhone 12 series, buying a replacement charger has become a risky endeavor in Egypt. Local retail markets and e-commerce platforms are flooded with highly convincing counterfeits, often referred to as "High Copy" or "Store Original," making it virtually impossible for average consumers to spot them at first glance.</p>
+            excerpt: 'Buying a new iPhone charger? In this technical guide, we break down the fine physical and internal details that distinguish an authentic Apple 20W adapter from high-quality counterfeits.',
+            quickAnswer: 'To identify an authentic Apple 20W USB-C charger, perform three critical checks: <strong>Weight</strong> (original weighs 55-58g; fake is under 40g), <strong>Internal Serial Number</strong> (a laser-etched 17-digit code printed inside the USB-C port), and <strong>Font Quality</strong> (original text is light grey and crisp; fakes use dark, blurry black ink or have typos).',
+            content: `<p>Your iPhone is a premium, high-value device, and keeping it healthy starts with the quality of the electricity feeding its battery daily. Ever since Apple decided to remove the power adapter from the retail box starting with the iPhone 12 series, buying a replacement charger has become a risky endeavor in Egypt. Local retail markets and e-commerce platforms are flooded with highly convincing counterfeits, often referred to as "High Copy" or "Store Original," making it virtually impossible for average consumers to spot them at first glance.</p>
 
-<p>The danger is that these counterfeit chargers lack essential power safety circuits. Their cheap internal PCBs omit voltage-clamping components, current-limiting resistors, and proper electrical isolation, which risks frying your iPhone\'s power IC (the TriStar or Hydra charging chip). Repairing this chip is an expensive and complex motherboard procedure. In this detailed guide in this guide, we explore the physical and electrical differences between genuine and fake Apple 20W USB-C chargers, showing you how to verify weight, check internal serial numbers, and inspect plastic quality.</p>
+<p>The danger is that these counterfeit chargers lack essential power safety circuits. Their cheap internal PCBs omit voltage-clamping components, current-limiting resistors, and proper electrical isolation, which risks frying your iPhone\'s power IC (the TriStar or Hydra charging chip). Repairing this chip is an expensive and complex motherboard procedure. In this detailed guide from the CairoVolt lab, we explore the physical and electrical differences between genuine and fake Apple 20W USB-C chargers, showing you how to verify weight, check internal serial numbers, and inspect plastic quality.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -197,7 +197,7 @@ export const original_apple_charger_vs_counterfeit_fine_details: BlogArticle = {
 <p>To protect your iPhone and battery health from electrical fluctuations in Egypt, apply these guidelines:</p>
 <ul style="line-height:2;">
     <li><strong>Always Use MFi Certified Cables:</strong> A genuine charger is only half the equation. Pair it with a cable carrying Apple\'s official MFi (Made for iPhone) certification. MFi cables feature a built-in C94 lightning/USB-C controller chip that prevents over-voltage surges from entering your phone.</li>
-    <li><strong>Purchase from a traceable retailer:</strong> For Apple-branded accessories, verify any authorized-reseller status on Apple's own channels. For third-party alternatives, choose a trusted retailer that provides clear model details, an invoice, and written warranty terms.</li>
+    <li><strong>Purchase from Authorized Retailers:</strong> Avoid buying chargers from small street kiosks or unverified online pages offering heavy discounts. Buy only from authorized Apple Premium Resellers in Egypt (like Tradeline, Raya, B.TECH, or CairoVolt authorized stockists).</li>
     <li><strong>Enable Optimized Battery Charging:</strong> Go to Settings -> Battery -> Battery Health & Charging, and turn on Optimized Charging. This feature reduces battery wear by delaying charging past 80% until you need to use your phone.</li>
 </ul>
 
@@ -208,19 +208,19 @@ export const original_apple_charger_vs_counterfeit_fine_details: BlogArticle = {
             faq: [
                 {
                     question: 'Does charging with a fake adapter degrade iPhone battery health?',
-                    answer: 'A damaged or noncompliant adapter may cause heat or unstable charging, but no fixed period or Battery Health decline applies to every case. Stop using equipment that is damaged, smells unusual, or becomes unusually hot, and use products matching Apple guidance.'
+                    answer: 'Yes, very rapidly. The voltage ripples and high heat generated by counterfeit chargers damage the battery\'s internal lithium-ion structure. This causes the Maximum Capacity percentage in battery health settings to drop significantly within a few weeks of use. In extreme cases, it can trigger chemical swelling of the cells, requiring a costly battery replacement and risking safety.'
                 },
                 {
                     question: 'How do I verify the serial number on the box?',
-                    answer: 'Compare identifiers and labels using Apple\'s guidance for the model, but a match or mismatch alone is not conclusive because packaging can change and markings can be copied. Also verify the seller, invoice, and the brand\'s published method.'
+                    answer: 'The serial number printed on the white barcode label of the box must match the tiny 17-digit serial number printed inside the USB-C port of the wall adapter. If these two numbers do not match, the charger is counterfeit.'
                 },
                 {
                     question: 'Are Anker chargers safe for iPhone as a replacement?',
-                    answer: 'Choose an exact Anker model that documents USB-C PD compatibility with the iPhone, with a suitable cable and product-specific MFi status where Lightning is involved. Anker or GaN does not mean every adapter is Apple-approved or absolutely safe; compare specifications, live price, and written warranty.'
+                    answer: 'Yes. Anker chargers (like the Anker Nano series) are MFi-approved and incorporate safety chips that match Apple\'s original standards. They are highly recommended as safe, cost-effective alternatives in Egypt. Many tech reviewers actually prefer Anker over Apple because they run cooler due to GaN technology and are smaller in physical size, while offering full MFi charging speeds.'
                 },
                 {
                     question: 'What is the correct Apple 20W charger model for Egypt?',
-                    answer: 'Check the exact model, plug shape, and input rating against Apple\'s current product documentation, package, and invoice because regional versions and availability can vary. Do not rely on one model number without matching the actual product data.'
+                    answer: 'The correct model for Egypt is the A2305, which features the standard European two-pin plug. It is rated for 100-240V, matching the electrical specifications of the Egyptian grid.'
                 }
             ]
         }

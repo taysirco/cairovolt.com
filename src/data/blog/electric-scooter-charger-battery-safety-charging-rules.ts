@@ -33,7 +33,7 @@ export const electric_scooter_charger_battery_safety_charging_rules: BlogArticle
             metaDescription: 'ليه بطارية السكوتر بتنتفخ في مصر؟ قواعد الشحن الآمن للسكوتر الكهربائي، علامات البطارية المنتفخة، وماذا تفعل لو انتفخت. دليل تفصيلي للحماية من الحريق.',
             keywords: 'بطارية سكوتر كهربائي, شحن سكوتر آمن, بطارية سكوتر منتفخة, قواعد شحن السكوتر, ليثيوم سكوتر انتفاخ, شحن سكوتر مصر صيف, حماية بطارية سكوتر, سكوتر كهربائي مصر',
             excerpt: 'بطارية السكوتر الكهربائي حساسة للحرارة — وصيف مصر بيضغط عليها ضعف. اتعلم إزاي تشحن صح، إيه علامات الخطر، وماذا تفعل لو البطارية انتفخت قبل ما يحصل حريق.',
-            quickAnswer: 'قد يشير الانتفاخ أو الرائحة أو الحرارة غير المعتادة أو التلف إلى خطر في بطارية السكوتر. أوقف الاستخدام والشحن، أبعده عن المواد القابلة للاشتعال إن أمكن بأمان، واتبع تعليمات الشركة والجهات المحلية للتعامل والفحص. استخدم الشاحن المحدد للموديل ولا تعتمد على ساعة يوم أو نسبة شحن واحدة لكل البطاريات.',
+            quickAnswer: 'البطارية بتنتفخ لما بتتشحن وهي ساخنة أو بتتشحن ألتر من اللازم. في مصر، اشحن السكوتر بالليل أو من 6 الصبح لـ 10، متسيبوش يتشحن طول الليل، وافصله من الكهرباء لما يوصل 100%. لو البطارية انتفخت — وقف الاستخدام فوراً، ده خطر حريق حقيقي.',
             content: `<p>السكوتر الكهربائي بقى وسيلة تنقل أساسية لكتير من المصريين — سواء اللي شايلينه من البيت للمحطة، أو اللي بيلفوا بيه في الحواري. بس في مشكلة بتكلف ناس كتير فلوس وأحياناً أكتر من كده — البطارية اللي بتنتفخ أو بتسبب حريق.</p>
 
 <p>في مصر، المشكلة دي بتتضاعف في الصيف. لما الجو 40 درجة في الضهر وإنت شاغل سكوترك ساعتين، البطارية ممكن توصل 50-55 درجة. لو في نفس الوقت تحطها تتشحن — إنت بتضرب البطارية من اتجاهين في نفس الوقت. المقال ده هيفهمك إيه اللي بيحصل بالظبط، وإيه القواعد اللي لو اتبعتها هتضمن إن البطارية تعيش سنين ومتحرقش.</p>
@@ -241,15 +241,15 @@ export const electric_scooter_charger_battery_safety_charging_rules: BlogArticle
                 },
                 {
                     question: 'هل ممكن أشحن السكوتر بـ power bank؟',
-                    answer: 'يعتمد على الموديل ودليله. لا توصل باور بانك ببطارية الدفع إلا إذا صرحت الشركة بذلك وحددت الجهد والبروتوكول والكابل؛ منفذ USB-C قد يكون للملحقات فقط. استخدم الشاحن أو البديل الذي تحدده الشركة للموديل.'
+                    answer: 'يعتمد على السكوتر. لو عنده منفذ USB-C والمانيوال بيقول "charge via USB-C" — الباور بانك يشحن الإلكترونيات أو بطارية صغيرة فيه. لكن معظم السكوترات بطاريتها الرئيسية شغّالة على 36-48 فولت، والباور بانك بيدي 5-20 فولت بحد أقصى — الفولت مش مناسب خالص وملوش لازمة. الشاحن الأصلي هو الوحيد اللي يشحن البطارية الرئيسية.'
                 },
                 {
                     question: 'كام مرة في اليوم أقدر أشحن السكوتر؟',
-                    answer: 'لا يوجد عدد يومي واحد لكل السكوترات. اشحن عند الحاجة ضمن حدود الحرارة وطريقة الشحن في دليل الموديل، واترك البطارية تبرد إذا طلبت الشركة ذلك، واستخدم شاحناً مطابقاً.'
+                    answer: 'مرة واحدة في اليوم كافية ومناسبة لمعظم الاستخدام. الشحن المتكرر في نفس اليوم مش خطير في حد ذاته، بس كل دورة شحن بتستهلك جزء بسيط من عمر البطارية. المهم مش عدد المرات بقدر ما هو الحرارة والطريقة. اشحن لما تحتاج، استنّى يبرد، واستخدم الشاحن الأصلي.'
                 },
                 {
                     question: 'بطارية السكوتر بتشحن كتير — ده بيأثر على عمرها؟',
-                    answer: 'تنخفض السعة مع العمر والدورات والحرارة وطريقة الاستخدام، لكن لا توجد نسبة فقد أو سعة متبقية ثابتة لكل خلية أو نظام إدارة. اتبع حدود الشحن والتخزين والحرارة التي يحددها مصنع السكوتر والبطارية.'
+                    answer: 'أيوا، كل دورة شحن بتقلل من سعة البطارية الإجمالية بنسبة ضئيلة جداً (حوالي 0.05-0.1% للدورة). بعد 500 دورة، ممكن البطارية تفضل 85-90% من سعتها الأصلية. عشان تطوّل عمرها: متشحنش فوق 100%، ومتفرّغهاش تحت 10% بانتظام، والحرارة هي العدو الأكبر أكتر من عدد الشحنات.'
                 },
             ],
         },
@@ -259,7 +259,7 @@ export const electric_scooter_charger_battery_safety_charging_rules: BlogArticle
             metaDescription: 'Learn why electric scooter batteries swell in Egypt\'s summer heat. Read our 6 safe charging rules and warning signs to prevent fires and extend battery life.',
             keywords: 'electric scooter battery swelling, scooter battery safety Egypt, safe scooter charging rules, lithium battery swollen scooter, scooter charger Egypt, scooter battery fire risk, electric scooter Egypt summer, scooter charging tips',
             excerpt: 'Electric scooter batteries are heat-sensitive — and Egyptian summers double the stress. Learn how to charge safely, what danger signs to watch for, and what to do if the battery swells before it becomes a fire hazard.',
-            quickAnswer: 'Swelling, unusual odor or heat, or physical damage can signal a hazardous scooter battery. Stop use and charging, keep it away from combustibles if this can be done safely, and follow manufacturer and local-authority instructions for inspection and disposal. Use the charger specified for the model rather than one time of day, cell voltage, or charge percentage for every battery.',
+            quickAnswer: 'Scooter batteries swell when charged while hot or overcharged past 4.2V per cell. In Egypt, charge your scooter before 10am or after sunset, never leave it charging overnight unattended, and unplug at 100%. If the battery swells, stop use immediately — this is a real fire risk.',
             content: `<p>The electric scooter has become an essential mode of transport for many Egyptians — whether for the last mile to the metro station or navigating back alleys. But one problem keeps costing people money, and sometimes far worse: the battery that swells, or worse, catches fire.</p>
 
 <p>In Egypt, this problem is amplified in summer. When it's 40°C outside and you've been riding for two hours, your battery can reach 50-55°C internally. If you plug it in to charge immediately — you're hitting the battery with a double stress. This article explains exactly what's happening physically, what the safe rules are, and how to recognize warning signs before something goes seriously wrong.</p>
@@ -462,15 +462,15 @@ export const electric_scooter_charger_battery_safety_charging_rules: BlogArticle
                 },
                 {
                     question: 'Can I charge a scooter with a power bank?',
-                    answer: 'It depends on the exact model and manual. Do not connect a power bank to the traction battery unless the manufacturer explicitly supports it and specifies voltage, protocol, and cable; a USB-C port may serve accessories only. Use the charger or approved alternative specified for that model.'
+                    answer: 'It depends on the scooter. If it has a USB-C port and the manual specifically says it can charge via USB-C, a power bank may charge the auxiliary electronics or a small secondary battery. However, most scooters\' main propulsion batteries operate at 36-48V, while any power bank outputs a maximum of 5-20V — the voltage is completely incompatible. Only the original charger can charge the main battery.'
                 },
                 {
                     question: 'How many times per day can I charge the scooter?',
-                    answer: 'There is no universal daily count. Charge as needed within the temperature and procedure limits in the model manual, allow cooling when the manufacturer requires it, and use a matching charger.'
+                    answer: 'Once per day is sufficient for most usage patterns. Charging multiple times in the same day isn\'t inherently dangerous, but each charge cycle consumes a small amount of battery life. What matters more than frequency is temperature — charging while hot causes far more damage than charging frequently at normal temperatures. Charge when you need to, let it cool first, and use the original charger.'
                 },
                 {
                     question: 'My scooter battery charges frequently — does that affect its lifespan?',
-                    answer: 'Capacity declines with age, cycles, heat, and use, but no fixed loss per cycle or retained-capacity figure applies to every cell and battery-management system. Follow the scooter and battery maker\'s charging, storage, and temperature limits.'
+                    answer: 'Yes, each charge cycle slightly reduces overall battery capacity (roughly 0.05-0.1% per cycle). After 500 cycles, the battery may retain 85-90% of its original capacity. To extend lifespan: don\'t charge past 100%, don\'t regularly drain below 10%, and treat heat as your main enemy — heat causes more damage than any number of charge cycles at safe temperatures.'
                 },
             ],
         },

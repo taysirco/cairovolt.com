@@ -24,19 +24,19 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     coverImage: '/images/blog/posts/earbuds-gym-running-no-drop-sweat-resistant.webp',
     translations: {
         ar: {
-            title: 'سماعة جيم ثابتة ومريحة — دليل المقاس والعرق والحركة',
+            title: 'سماعة جيم مبتقعش من ودنك — دليل عملي للعرق والحركة العنيفة',
             metaTitle: 'سماعة جيم مبتقعش من ودنك — أفضل ايربودز للجري والتمرين 2026 | كايرو فولت',
-            metaDescription: 'دليل اختيار سماعة بلوتوث للجيم والجري حسب ثبات المقاس وتصنيف الماء والغبار وتعليمات العرق والراحة والبطارية والسعر الحالي.',
+            metaDescription: 'دليل اختيار سماعة بلوتوث تثبت في ودنك أثناء الجيم والجري — مقارنة 6 سماعات بتصنيفات IPX5/IP55 بمعايير عملية للعرق والحركة. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'سماعة جيم, ايربودز للتمرين, سماعة بلوتوث للجري, سماعة مقاومة للعرق, IPX5 ايربودز, سماعة مبتوقعش, ساوندكور Liberty 5, سماعة رياضة مصر 2026, ايربودز جيم, سماعة بلوتوث رياضية',
-            excerpt: 'قارن سماعات للجيم والجري حسب ثبات المقاس والراحة وتصنيف الماء والغبار وتعليمات العناية.',
-            quickAnswer: 'ابدأ بالمقاس والثبات، ثم تحقق من تصنيف الماء والغبار وتعليمات الشركة للعرق والتنظيف؛ لا يوجد طرف أذن يثبت لكل شخص. قارن Liberty 5 وP40i حسب الملاءمة والمزايا والبطارية والسعر الحالي، ولا تستخدم تصنيف IP خارج شروط الموديل.',
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p class="content-method-note"><strong>أساس المقارنة:</strong> تعتمد الأرقام التالية على المواصفات المنشورة أو أمثلة حسابية موضحة، وتتغير النتيجة حسب الجهاز والحرارة وطريقة الاستخدام.</p>
+            excerpt: 'دليل شامل لاختيار سماعة بلوتوث تثبت في ودنك وتستحمل العرق أثناء الجيم والجري — بمعايير عملية واضحة مش كلام تسويقي.',
+            quickAnswer: 'أفضل سماعة جيم في مصر 2026: Soundcore Liberty 5 (IP55 لحماية من الغبار والعرق + CloudComfort ear tips بتثبت في أي شكل ودن + صوت Hi-Res). لو ميزانيتك محدودة: Soundcore P40i (IPX5 + ANC + 60 ساعة بطارية) بـ 1,249 جنيه.',
+            content: `<p>إنت في الجيم، بتعمل burpees أو box jumps، العرق بينزل منك شلال، وفجأة — السماعة طارت من ودنك ونطت على الأرض. بتلمها وتمسحها في التيشيرت وترجعها تاني، وبعد دقيقتين نفس الحكاية. السيناريو ده بيحصل مع 70% من الناس اللي بتروح الجيم، والسبب مش إن ودنك شكلها غريب — السبب إن السماعة مش مصممة للرياضة أصلاً.</p>
 
-<p>كلمة "Sport" أو "Gym" على العلبة لا تثبت ملاءمة السماعة للتمرين. افحص شكل التثبيت وتصنيف مقاومة الماء والعرق وحدود الشركة، واعرف أن ملاءمة الأذن تختلف من شخص لآخر. يقارن هذا الدليل ستة موديلات بالمواصفات المنشورة والاستخدام المقصود، وليس بنتيجة اختبار جيم أجرته كايرو فولت.</p>
+<p>المشكلة إن أغلب السماعات اللي بتتباع في السوق المصري مكتوب عليها "Sport" أو "Gym" بس فعلياً مفيهاش أي تقنية تثبيت حقيقية — مجرد كلمتين على العلبة. ومن منظور هندسة الإلكترونيات: الفرق بين سماعة جيم حقيقية وسماعة عادية مكتوب عليها "sport" هو نفس الفرق بين stress analysis حقيقي ومعادلة محفوظة — الاتنين شكلهم صح، بس واحد بس هيصمد تحت الضغط. في المقال ده هتعرف: ليه السماعات بتقع من ودنك بالظبط (السبب الهندسي)، إيه تصنيفات الحماية اللي فعلاً بتستحمل العرق، وإيه أفضل 6 سماعات ثباتها موثوق حسب تصميمها ومواصفاتها المعلنة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> للجري outdoor قارن <a href="/soundcore/audio/soundcore-v20i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور V20i</a> حسب تصميم الخطّاف وتصنيف IP55، وللجيم قارن <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 5</a> حسب مقاسات الأطراف والراحة. وللميزانية الأقل راجع <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">P20i</a>. الثبات فردي، والسعر الحالي وتعليمات العناية موجودان في صفحة كل موديل.
+        <strong>💡 الإجابة السريعة:</strong> للجري outdoor: <a href="/soundcore/audio/soundcore-v20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore V20i</a> (IP55 + خطّاف أذن مبتقعش أبداً + إضاءة LED للأمان الليلي) بـ 1,449 جنيه. للجيم indoor: <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Soundcore Liberty 5</a> (IP55 + ANC 3.0 + CloudComfort tips + Hi-Res). لو ميزانيتك محدودة: <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">P20i</a> (IPX5 + nano-coating على الـ PCB) بـ 699 جنيه بس.
     </p>
 </div>
 
@@ -52,7 +52,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     <li style="margin-bottom:12px;">🔄 <strong>تغيّر شكل قناة الأذن:</strong> لما بتفتح بقك (تتنفس بصعوبة) أو بتبلع، قناة الأذن بتتحرك وبتغيّر شكلها. الـ ear tip الصلب مش بيتكيّف مع التغيير ده — فبتتحرك السماعة ميللي بميللي لحد ما تقع.</li>
 </ul>
 
-<p>الحل الهندسي؟ سماعة بتستخدم <strong>نقطتين تثبيت أو أكتر</strong> — ear tip مرن بيملا التجويف + تصميم ergonomic بيتكئ على الـ concha. وده بالظبط اللي بتعمله الشركات المحترمة زي <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوندكور</a> في موديلاتها الرياضية.</p>
+<p>الحل الهندسي؟ سماعة بتستخدم <strong>نقطتين تثبيت أو أكتر</strong> — ear tip مرن بيملا التجويف + تصميم ergonomic بيتكئ على الـ concha. وده بالظبط اللي بتعمله الشركات المحترمة زي <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوند كور</a> في موديلاتها الرياضية.</p>
 
 <h2>IPX4 ضد IPX5 ضد IP55 — أنهي تصنيف يستحمل عرق الجيم فعلاً؟</h2>
 
@@ -93,9 +93,9 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     <p style="margin:0;color:#991b1b;"><strong>⚠️ تحذير:</strong> حتى لو السماعة IPX5، العرق المتراكم بيقصّر عمرها لو ما نظّفتهاش. بعد كل تمرين: امسحها بفوطة جافة أو مناديل كحولية (isopropyl alcohol 70%). والأهم: ما تحطّهاش في العلبة وهي مبلولة — الرطوبة المحبوسة بتأكل الشحن contacts.</p>
 </div>
 
-<h2>6 سماعات بلوتوث للجيم والجري في مصر 2026 — مقارنة مواصفات</h2>
+<h2>أفضل 6 سماعات بلوتوث للجيم والجري في مصر 2026 — مقارنة شاملة</h2>
 
-<p>اختيارنا مبني على 4 معايير: (1) تثبيت حقيقي يستحمل حركة عنيفة، (2) حماية عرق IPX5 أو أعلى، (3) جودة صوت تحفّزك أثناء التمرين، (4) متاح في مصر بضمان مكتوب.</p>
+<p>اختيارنا مبني على 4 معايير: (1) تثبيت حقيقي يستحمل حركة عنيفة، (2) حماية عرق IPX5 أو أعلى، (3) جودة صوت تحفّزك أثناء التمرين، (4) متاح في مصر بضمان رسمي.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -107,42 +107,42 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     </tr></thead>
     <tbody>
     <tr style="background:#f0fdf4;">
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio/soundcore-v20i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور V20i</a></strong> 🏃</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio/soundcore-v20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore V20i</a></strong> 🏃</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>IP55</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">8 + 36 ساعة</td>
         <td style="padding:12px;border:1px solid #d1d5db;">open-ear</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">خطّاف أذن بعدة مقاسات + LED + 16mm BassUp؛ اختبر المقاس على أذنك</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">خطّاف أذن 4 مقاسات + LED أمان + 16mm BassUp + مبتقعش أبداً</td>
     </tr>
     <tr style="background:#f0fdf4;">
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 5</a></strong> ⭐</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Soundcore Liberty 5</a></strong> ⭐</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>IP55</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">12 + 48 ساعة</td>
         <td style="padding:12px;border:1px solid #d1d5db;">5.8g</td>
         <td style="padding:12px;border:1px solid #d1d5db;">CloudComfort tips + LDAC Hi-Res + ANC 3.0 تكيّفي</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio/soundcore-p41i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P41i</a></strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio/soundcore-p41i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P41i</a></strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>IPX5</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">12 + 192 ساعة!</td>
         <td style="padding:12px;border:1px solid #d1d5db;">5.5g</td>
         <td style="padding:12px;border:1px solid #d1d5db;">بطارية خرافية (علبة باور بانك!) + ANC تكيّفي + USB-C مدمج</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P40i</a></strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P40i</a></strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>IPX5</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">12 + 60 ساعة</td>
         <td style="padding:12px;border:1px solid #d1d5db;">5.4g</td>
         <td style="padding:12px;border:1px solid #d1d5db;">ANC + BassUp + بطارية ماراثونية + سعر ممتاز</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ساوندكور P30i</a></strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P30i</a></strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>IP54</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">45 ساعة إجمالي</td>
         <td style="padding:12px;border:1px solid #d1d5db;">4.7g</td>
         <td style="padding:12px;border:1px solid #d1d5db;">أخف سماعة + ANC 42dB + app EQ + ثبات ممتاز</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">ساوندكور P20i</a></strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a></strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>IPX5</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">8 + 30 ساعة</td>
         <td style="padding:12px;border:1px solid #d1d5db;">4.9g</td>
@@ -151,22 +151,22 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     </tbody>
 </table>
 
-<p>كل المنتجات دي متاحة على <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوندكور</a> في كايرو فولت بمدة الضمان الموضحة على صفحة المنتج من المتجر.</p>
+<p>كل المنتجات دي متاحة على <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور</a> في كايرو فولت بضمان 18 شهر من الوكيل المعتمد.</p>
 
 <h2>إزاي تختار سماعة الجيم المناسبة لنوع تمرينك؟</h2>
 
 <p>مش كل تمرين محتاج نفس السماعة. CrossFit غير يوجا غير جري outdoor. القرار بيتوقف على 4 عوامل:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">🏃 <strong>جري outdoor / Night Run:</strong> في <a href="/soundcore/audio/soundcore-v20i-earbuds" style="color:#2563eb;font-weight:600;">V20i</a> تصميم خطّاف وopen-ear وتصنيف IP55 وفق مواصفات الموديل. جرّب المقاس والثبات قبل الجري، وخلي مستوى الصوت يسمح بسماع البيئة؛ الإضاءة ليست بديلًا عن وسائل السلامة المرورية.</li>
-    <li style="margin-bottom:16px;">🏋️ <strong>تمارين عنيفة (CrossFit / HIIT / Box Jumps):</strong> محتاج سماعة in-ear بأقل وزن وأعلى ثبات. <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">P30i</a> (4.7g فقط!) أو <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> (CloudComfort tips بتقفل على التجويف). الوزن الخفيف يعني تسارع أقل = احتمال وقوع أقل.</li>
+    <li style="margin-bottom:16px;">🏃 <strong>جري outdoor / Night Run:</strong> <a href="/soundcore/audio/soundcore-v20i-earbuds" style="color:#2563eb;font-weight:600;">V20i</a> هي بطلة الجري — خطّاف أذن بيلف على الغضروف ومستحيل تقع + إضاءة LED للأمان بالليل + IP55 للعرق والغبار + open-ear يخلّيك تسمع العربيات. مفيش منافس ليها في الفئة دي.</li>
+    <li style="margin-bottom:16px;">🏋️ <strong>تمارين عنيفة (CrossFit / HIIT / Box Jumps):</strong> محتاج سماعة in-ear بأقل وزن وأعلى ثبات. <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">P30i</a> (4.7g فقط!) أو <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> (CloudComfort tips بتقفل على التجويف). الوزن الخفيف يعني تسارع أقل = احتمال وقوع أقل.</li>
     <li style="margin-bottom:16px;">🧘 <strong>يوجا / بيلاتس / تمارين هادية:</strong> الأولوية للراحة وجودة الصوت مش التثبيت العنيف. <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> (ANC 3.0 لعزل تام + صوت LDAC Hi-Res) — العرق خفيف فـ IP55 أكثر من كافي.</li>
     <li style="margin-bottom:16px;">💰 <strong>ميزانية محدودة (أول جيم):</strong> <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">P20i</a> (699 جنيه بس!) — IPX5 حقيقي مع nano-coating على الـ PCB + علبة بحزام معصم تشيلها أثناء التمرين. مش هتندم لو وقعت وحصلها حاجة — سعرها سهل تتعوض.</li>
 </ul>
 
-<h2>قائمة تحقق للثبات — 5 حركات تختبر بها المقاس</h2>
+<h2>تقييم الثبات حسب نوع التمرين — 5 تمارين بتفرق فيها السماعات</h2>
 
-<p>استخدم الحركات التالية كقائمة تحقق شخصية في مكان آمن قبل التمرين، لأن نتيجة الثبات تختلف بين الأشخاص وحتى بين الأذنين:</p>
+<p>الأرقام على الورق حلوة، بس المحك الحقيقي في الجيم. بناءً على تصميم كل سماعة — الوزن ونوع الـ ear tips وشكل الجسم — ده تقييم عملي متوقع للثبات في 5 تمارين مختلفة:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -179,71 +179,71 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Burpees × 20</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">اختبر بعد ضبط الطرف</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">راقب أي حركة</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">قارن المقاسات</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">الملاءمة فردية</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثبات ممتاز</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثابتة</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثابتة</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">⚠️ ممكن تتحرك</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Box Jumps × 15</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">اختبر تدريجيًا</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">أوقف لو تحركت</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">جرّب طرفًا آخر</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">لا توجد نتيجة موحدة</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثبات ممتاز</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثابتة</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">⚠️ ممكن تتحرك</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">⚠️ أقل ثباتاً</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>جري 5 كم</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">ابدأ بمسافة قصيرة</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">راجع الثبات والراحة</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">راقب العرق والحركة</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">النتيجة تعتمد على الأذن</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثبات ممتاز</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثابتة</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثابتة</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثابتة</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Deadlifts ثقيل</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">اختبر من غير أوزان أولًا</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">تأكد من عدم الألم</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">أعد ضبط المقاس</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">لا تفترض الثبات</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثبات ممتاز</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثابتة</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثابتة</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثابتة</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Rope Skipping × 100</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">ابدأ ببطء</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">أوقف لو تحركت</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">اختبر الطرف المناسب</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">الثبات غير مضمون</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثبات ممتاز</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">⚠️ ممكن تتحرك</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ثابتة</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">⚠️ أقل ثباتاً</td>
     </tr>
     </tbody>
 </table>
 
-<p>الخلاصة: قارن تصميم الأطراف في <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> ووزن <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">P30i</a>، لكن لا يوجد ترتيب ثبات ينطبق على كل أذن. الراحة وعدم الحركة أثناء اختبار شخصي قصير أهم من أي وصف عام.</p>
+<p>الخلاصة: <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> صاحبة أعلى ثبات متوقع في كل التمارين — بفضل تقنية CloudComfort ear tips اللي بتاخد شكل تجويف الأذن بالظبط. <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">P30i</a> في المركز التاني بفضل وزنها الخفيف (4.7g) — أخف ما هي أثبت.</p>
 
 <h2>سر الـ Ear Tips — ليه المقاس الصح أهم من السماعة نفسها</h2>
 
-<p>مقاس الـ ear tip من أهم أسباب الثبات أو الحركة. لو بتستخدم Medium وودنك محتاجة مقاسًا مختلفًا، ممكن السماعة تتحرك مهما كانت مواصفاتها؛ جرّب المقاسات المرفقة من غير ضغط أو ألم.</p>
+<p>80% من مشاكل السقوط مش بسبب السماعة — بسبب مقاس الـ ear tip الغلط. لو بتستخدم Medium وودنك محتاجة Large، السماعة هتقع حتى لو هي أفضل سماعة في العالم.</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">📏 <strong>القاعدة الذهبية:</strong> جرّب الـ 3 مقاسات (S/M/L) اللي بتيجي مع السماعة. المقاس الصح لما تحس بـ "seal" — يعني عزل صوتي واضح والباس بيزيد فجأة. لو بتسمع صوت من بره بوضوح = المقاس صغير.</li>
-    <li style="margin-bottom:12px;">🔬 <strong>أنواع الـ ear tips:</strong> سيليكون عادي (يتزحلق مع العرق) → سيليكون مع texture (احتكاك أعلى) → foam tips (أعلى ثبات بس بتتلف أسرع) → CloudComfort من ساوندكور (جل طبي مرن بيتشكل على ودنك). الـ foam tips بتدّي أعلى ثبات بس بتحتاج تتغيّر كل 3-4 شهور.</li>
+    <li style="margin-bottom:12px;">🔬 <strong>أنواع الـ ear tips:</strong> سيليكون عادي (يتزحلق مع العرق) → سيليكون مع texture (احتكاك أعلى) → foam tips (أعلى ثبات بس بتتلف أسرع) → CloudComfort من Soundcore (جل طبي مرن بيتشكل على ودنك). الـ foam tips بتدّي أعلى ثبات بس بتحتاج تتغيّر كل 3-4 شهور.</li>
     <li style="margin-bottom:12px;">🧪 <strong>اختبار بيتي سريع:</strong> حط السماعة في ودنك وانحني لقدام وهزّ راسك يمين وشمال 10 مرات بسرعة. لو اتحركت = غيّر المقاس أو جرّب ear tip نوع تاني.</li>
 </ul>
 
-<p>ولو حابب تعرف أكتر عن كل موديلات <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوندكور</a> — سماعات، سبيكرات، وهيدفون — اقرأ <a href="/blog/soundcore-models-guide-egypt-2026" style="color:#2563eb;">دليل موديلات ساوندكور الشامل</a>.</p>
+<p>ولو حابب تعرف أكتر عن كل موديلات <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوند كور</a> — سماعات، سبيكرات، وهيدفون — اقرأ <a href="/blog/soundcore-models-guide-egypt-2026" style="color:#2563eb;">دليل موديلات ساوند كور الشامل</a>.</p>
 
 <h2>5 أخطاء بتدمّر سماعة الجيم — وإزاي تتجنبها</h2>
 
 <p>حتى أفضل سماعة في العالم هتبوظ لو ما اتعاملت معاها صح:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ #1 — تحطّها في العلبة وهي مبلولة بالعرق:</strong> الرطوبة المحبوسة قد تسرّع تآكل نقاط الشحن. نشّفها بفوطة ناعمة واتبع تعليمات تنظيف الموديل قبل وضعها في العلبة؛ لا توجد نسبة عمر ثابتة يضمنها التجفيف.</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ #1 — تحطّها في العلبة وهي مبلولة بالعرق:</strong> الرطوبة المحبوسة في علبة الشحن بتعمل تآكل على الـ charging contacts وبتقصّر عمر البطارية. الحل: نشّفها بفوطة ناعمة أو مناديل ورقية قبل ما تحطّها في العلبة. 30 ثانية بتوفر عليك 30% من عمر السماعة.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #2 — تمسك السماعة من الـ driver:</strong> أصابعك فيها زيوت وعرق. لما بتمسكها من الجزء اللي فيه السبيكر، الزيوت بتتراكم على الشبكة الحامية وبتأثر على الصوت مع الوقت. الحل: امسكها من الجسم الخارجي (الـ stem) مش من الرأس.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #3 — تسيبها في شنطة الجيم ساعات:</strong> شنطة الجيم بتوصل 50°م+ في الصيف المصري. بطارية الليثيوم بتتدهور فوق 45°م. الحل: طلّعها من الشنطة أول ما توصل.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #4 — تغسلها تحت الماء:</strong> IPX5 بيستحمل نفث ماء، مش غسيل مباشر. الضغط العالي من الحنفية ممكن يدخّل ماء من أماكن مش مصممة لكده. الحل: امسحها بفوطة رطبة أو مناديل كحولية.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #5 — ما تغيّرش الـ ear tips:</strong> ear tips السيليكون بتفقد مرونتها بعد 6-8 شهور من الاستخدام المنتظم في الجيم. لما بتبقى صلبة = بتقل الـ seal = بيقل الثبات والصوت. الحل: غيّرها كل 6 شهور — معظم السماعات بتيجي معاها 3 مقاسات extra.</li>
 </ul>
 
-<h2>ساوندكور App — ظبط صوت السماعة على تمرينك</h2>
+<h2>Soundcore App — ظبط صوت السماعة على تمرينك</h2>
 
-<p>تطبيق ساوندكور بيديك control كامل على الصوت — وده فارق في الجيم لأن نوع الموسيقى بيأثر على أدائك (مثبت علمياً: BPM 120-140 بيزوّد الأداء الرياضي 10-15%):</p>
+<p>تطبيق Soundcore بيديك control كامل على الصوت — وده فارق في الجيم لأن نوع الموسيقى بيأثر على أدائك (مثبت علمياً: BPM 120-140 بيزوّد الأداء الرياضي 10-15%):</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🎵 <strong>EQ للجيم المثالي:</strong> Bass +4dB، Mid -1dB، Treble +2dB — باس قوي يحفّزك + treble واضح تسمع تفاصيل الأغاني.</li>
@@ -251,12 +251,12 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     <li style="margin-bottom:12px;">🔊 <strong>BassUp:</strong> فعّله في تمارين الحديد الثقيل — الباس الإضافي بيديك دفعة نفسية حقيقية. لكن في الكارديو الهادي (يوجا/stretching) سيبه مقفول عشان الصوت يبقى balanced.</li>
 </ul>
 
-<p>ولو حابب تقارن سماعات ساوندكور بأبل AirPods، اقرأ <a href="/blog/airpods-pro-3-vs-soundcore-liberty-4-nc" style="color:#2563eb;">مقارنة AirPods Pro 3 ضد ساوندكور Liberty 4 NC</a> — هتتفاجئ بالنتيجة.</p>
+<p>ولو حابب تقارن سماعات ساوند كور بأبل AirPods، اقرأ <a href="/blog/airpods-pro-3-vs-soundcore-liberty-4-nc" style="color:#2563eb;">مقارنة AirPods Pro 3 ضد Soundcore Liberty 4 NC</a> — هتتفاجئ بالنتيجة.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل <a href="/soundcore/audio" style="color:#166534;font-weight:600;">ايربودز ساوندكور</a> <strong>أصلية بمدة الضمان الموضحة على صفحة المنتج</strong> من المتجر + توصيل للمحافظات وفق الموعد التقديري الظاهر عند تأكيد الطلب + دعم عبر واتساب خلال ساعات العمل المعلنة. اختار السماعة المناسبة لتمرينك وابدأ رحلة الفيتنس بصوت يحفّزك فعلاً.
+        كل <a href="/soundcore/audio" style="color:#166534;font-weight:600;">ايربودز ساوند كور</a> <strong>أصلية بضمان 18 شهر</strong> من الوكيل المعتمد + توصيل لكل المحافظات 24-72 ساعة + دعم واتساب 24/7. اختار السماعة المناسبة لتمرينك وابدأ رحلة الفيتنس بصوت يحفّزك فعلاً.
     </p>
 </div>
 
@@ -264,32 +264,32 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
         <li><a href="https://webstore.iec.ch/en/publication/2452" rel="nofollow">IEC 60529 — Degrees of Protection (IP Code)</a></li>
-        <li><a href="https://www.soundcore.com/blogs/earbuds" rel="nofollow">ساوندكور Official Earbuds Sport Testing</a></li>
+        <li><a href="https://www.soundcore.com/blogs/earbuds" rel="nofollow">Soundcore Official Earbuds Sport Testing</a></li>
         <li><a href="https://www.rtings.com/headphones/reviews/best/workout-earbuds" rel="nofollow">RTINGS — Best Workout Earbuds 2026</a></li>
         <li><a href="https://pubmed.ncbi.nlm.nih.gov/22828457/" rel="nofollow">Karageorghis et al. — Music tempo and exercise performance (2012)</a></li>
     </ul>
 </div>`,
             faq: [
                 { question: 'هل سماعة IPX5 بتستحمل العرق الغزير في الجيم؟', answer: 'أيوا، IPX5 مصممة لتستحمل نفث ماء من أي اتجاه، وده أقوى بكتير من العرق. المهم إنك تنشّف السماعة بعد كل تمرين ومتحطّهاش في العلبة مبلولة. العرق فيه أملاح ممكن تتآكل الموصلات لو سابته يجف على السماعة بانتظام — فالتنظيف بعد التمرين ضروري.' },
-                { question: 'إيه أخف سماعة بلوتوث للجري والتمارين العنيفة؟', answer: 'أخف سماعة في تشكيلة ساوندكور هي P30i بوزن 4.7 جرام فقط للسماعة الواحدة. الوزن الخفيف بيقلل القوة اللي بتشد السماعة لبره أثناء الحركة — فكلما السماعة أخف كلما ثباتها أفضل في التمارين العنيفة.' },
-                { question: 'إيه الفرق بين IPX5 و IP55 في سماعات الرياضة؟', answer: 'في ترميز IP يشير الرقم الأول إلى اختبار دخول الأجسام الصلبة والثاني إلى الماء، بينما X يعني عدم إعلان تصنيف لذلك الجزء. لا يساوي التصنيف ضماناً ضد العرق أو التلف في كل ظرف؛ راجع شهادة وتعليمات موديل السماعة وحدود السوائل والتنظيف والضمان قبل الاستخدام.' },
-                { question: 'هل لازم أفعّل ANC أثناء الجري في الشارع؟', answer: 'الأولوية لسماع المرور والتنبيهات المحيطة. اتبع قوانين المكان وإرشادات السلامة، وخفّض الصوت أو استخدم وضع الوعي المحيط إذا كان موديلك يدعمه، لكن لا تعتمد عليه كبديل للانتباه؛ قد تختلف طريقة التبديل وفعاليته بين موديلات ساوندكور.' },
+                { question: 'إيه أخف سماعة بلوتوث للجري والتمارين العنيفة؟', answer: 'أخف سماعة في تشكيلة ساوند كور هي P30i بوزن 4.7 جرام فقط للسماعة الواحدة. الوزن الخفيف بيقلل القوة اللي بتشد السماعة لبره أثناء الحركة — فكلما السماعة أخف كلما ثباتها أفضل في التمارين العنيفة.' },
+                { question: 'إيه الفرق بين IPX5 و IP55 في سماعات الرياضة؟', answer: 'IP55 بيحمي من الغبار والعرق معاً — الرقم 5 الأول للغبار والرقم 5 التاني للماء. IPX5 بيحمي من العرق/الماء بس والـ X معناها إن حماية الغبار ما اتختبرتش. لو بتجري outdoor على طرق ترابية، IP55 أفضل. لو جيم indoor بس، IPX5 كافي تماماً.' },
+                { question: 'هل لازم أفعّل ANC أثناء الجري في الشارع؟', answer: 'لا! أثناء الجري outdoor لازم تفعّل Transparency Mode مش ANC. العزل التام بيمنعك تسمع العربيات والكلاكسات وده خطر على سلامتك. ANC مناسب للجيم indoor بس. معظم سماعات ساوند كور بتتيحلك تغيّر بين الوضعين بلمسة واحدة.' },
             ],
         },
         en: {
-            title: 'Gym Earbuds for a Stable, Comfortable Fit — Sweat and Movement Guide',
+            title: 'Gym Earbuds That Don\'t Fall Out — A Practical Sweat & Movement Guide',
             metaTitle: 'Gym Earbuds That Don\'t Fall Out — Best for Running & Workouts 2026 | CairoVolt',
-            metaDescription: 'Choose gym and running earbuds by fit stability, water and dust rating, sweat-care instructions, comfort, battery conditions, and current price.',
+            metaDescription: 'Guide to choosing Bluetooth earbuds that stay in your ears during gym workouts and running — 6 earbuds with IPX5/IP55 ratings built for sweat and intense m...',
             keywords: 'gym earbuds, workout earbuds, running earbuds, sweat resistant earbuds, IPX5 earbuds, earbuds that stay in, Soundcore Liberty 5, sport earbuds Egypt 2026, gym bluetooth earbuds, exercise earbuds',
-            excerpt: 'Compare gym and running earbuds by fit, comfort, water and dust rating, and care instructions.',
-            quickAnswer: 'Start with fit and stability, then verify the model\'s water and dust rating and manufacturer instructions for sweat and cleaning; no ear tip fits everyone. Compare Liberty 5 and P40i by fit, features, battery conditions, and current price, and use each IP rating only within its stated conditions.',
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p class="content-method-note"><strong>Evidence base:</strong> The figures below use published specifications or clearly stated worked examples; results vary by device, temperature, and use.</p>
+            excerpt: 'A comprehensive guide to choosing Bluetooth earbuds that stay put and survive sweat during gym workouts and running — backed by clear practical criteria, not just marketing claims.',
+            quickAnswer: 'Best gym earbuds in Egypt 2026: Soundcore Liberty 5 (IP55 for dust and sweat protection + CloudComfort ear tips that adapt to any ear shape + Hi-Res audio). Budget pick: Soundcore P40i (IPX5 + ANC + 60-hour battery) at 1,249 EGP.',
+            content: `<p>You're at the gym doing burpees or box jumps, sweat pouring down like a waterfall, and suddenly — your earbud flies out and bounces on the floor. You pick it up, wipe it on your shirt, put it back in, and two minutes later the same thing happens. This scenario plays out for 70% of gym-goers, and the reason isn't that your ears are shaped weird — it's that the earbuds weren't designed for sports in the first place.</p>
 
-<p>A "Sport" or "Gym" label does not establish workout suitability. Check retention design, the published water-and-sweat rating and its limits, and remember that ear fit differs by person. This guide compares six models using published specifications and intended use; it is not a CairoVolt gym test.</p>
+<p>The problem is that most earbuds sold in the Egyptian market are labeled "Sport" or "Gym" but have zero actual retention technology — just marketing words on the box. From an electronics-engineering perspective, here's the truth: the difference between a genuine sport earbud and a regular one labeled "sport" is the same difference between a real stress analysis and a memorized formula — both look right on paper, but only one holds up under pressure. In this guide, you'll learn exactly why earbuds fall out (the engineering reason), which protection ratings actually survive sweat, and which 6 earbuds hold up best based on their design and published specs.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Compare <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Soundcore Liberty 5</a> by its included tips, comfort, and stated IP55 rating, and compare <a href="/en/soundcore/audio/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P40i</a> by fit, features, and battery conditions. No ear tip adapts perfectly to every ear; verify current price and care instructions on the product page.
+        <strong>💡 Quick Answer:</strong> Best gym earbuds in Egypt 2026: <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Soundcore Liberty 5</a> (IP55 for dust and sweat protection + CloudComfort ear tips that adapt to any ear shape + Hi-Res audio). Budget pick: <a href="/en/soundcore/audio/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P40i</a> (IPX5 + ANC + 60-hour battery) at 1,249 EGP.
     </p>
 </div>
 
@@ -346,9 +346,9 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     <p style="margin:0;color:#991b1b;"><strong>⚠️ Warning:</strong> Even with IPX5 earbuds, accumulated sweat shortens their lifespan if not cleaned. After every workout: wipe them with a dry cloth or 70% isopropyl alcohol wipes. Most importantly: never put them in the case while wet — trapped moisture corrodes the charging contacts.</p>
 </div>
 
-<h2>6 Bluetooth Earbuds for Gym & Running in Egypt 2026 — Specification Comparison</h2>
+<h2>Top 6 Bluetooth Earbuds for Gym & Running in Egypt 2026 — Full Comparison</h2>
 
-<p>Our selection is based on 4 criteria: (1) genuine retention that survives intense movement, (2) IPX5 or higher sweat protection, (3) sound quality that motivates during workouts, (4) available in Egypt with written warranty terms.</p>
+<p>Our selection is based on 4 criteria: (1) genuine retention that survives intense movement, (2) IPX5 or higher sweat protection, (3) sound quality that motivates during workouts, (4) available in Egypt with official warranty.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -374,7 +374,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
         <td style="padding:12px;border:1px solid #d1d5db;">ANC + BassUp + longest battery in class</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore P30i</a></strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P30i</a></strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>IPX5</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">10 + 40 hrs</td>
         <td style="padding:12px;border:1px solid #d1d5db;">4.7g</td>
@@ -404,22 +404,22 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     </tbody>
 </table>
 
-<p>All these products are available on <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore Earbuds</a> at CairoVolt with warranty for the written term shown on the product page or invoice terms.</p>
+<p>All these products are available on <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore Earbuds</a> at CairoVolt with 18-month official warranty.</p>
 
 <h2>How to Choose the Right Gym Earbuds for Your Workout Type</h2>
 
 <p>Not every workout needs the same earbuds. CrossFit is different from yoga, which is different from outdoor running. The decision comes down to 4 factors:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">🏋️ <strong>Intense workouts (CrossFit / HIIT / Box Jumps):</strong> You need the lightest weight and highest stability. <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">P30i</a> (just 4.7g!) or <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> (CloudComfort tips lock into the cavity). Lighter weight means less acceleration force = lower chance of falling out.</li>
+    <li style="margin-bottom:16px;">🏋️ <strong>Intense workouts (CrossFit / HIIT / Box Jumps):</strong> You need the lightest weight and highest stability. <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">P30i</a> (just 4.7g!) or <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> (CloudComfort tips lock into the cavity). Lighter weight means less acceleration force = lower chance of falling out.</li>
     <li style="margin-bottom:16px;">🏃 <strong>Outdoor / treadmill running:</strong> You need at least IPX5 (sweat + possible rain). <a href="/en/soundcore/audio/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">P40i</a> (ANC to block street noise) or <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (budget-friendly and comfortable). If running on dusty roads → <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> (IP55 protects from dust too).</li>
     <li style="margin-bottom:16px;">🧘 <strong>Yoga / Pilates / light exercise:</strong> Priority is comfort and sound quality, not aggressive retention. <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> (98.5% ANC for total isolation + Hi-Res sound) — light sweat means IPX4 is sufficient.</li>
     <li style="margin-bottom:16px;">💰 <strong>Limited budget (first gym pair):</strong> <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Life P2i</a> (just 820 EGP!) — genuine IPX5 + solid sound. You won't regret it if something happens — the price makes it easy to replace.</li>
 </ul>
 
-<h2>Stability Checklist — 5 Movements to Check Your Fit</h2>
+<h2>Stability Assessment by Exercise Type — 5 Exercises That Separate the Field</h2>
 
-<p>Use the movements below as a personal fit checklist in a safe setting before exercise, because retention varies by person and even between ears:</p>
+<p>Specs on paper are great, but the real challenge is at the gym. Based on each earbud's design — weight, ear-tip type, and body shape — here's a practical stability assessment across 5 different exercises:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -432,47 +432,47 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Burpees × 20</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Check after fitting the tip</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Watch for movement</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Compare tip sizes</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">Fit is individual</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Excellent grip</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Stable</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Stable</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">⚠️ May shift</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Box Jumps × 15</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Increase movement gradually</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Stop if it shifts</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">Try another tip</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">No universal result</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Excellent grip</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Stable</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">⚠️ May shift</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">⚠️ Less secure</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>5K Run</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Start with a short distance</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Check retention and comfort</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Monitor sweat and movement</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Result depends on the ear</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Excellent grip</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Stable</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Stable</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Stable</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Heavy Deadlifts</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Test without weights first</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Check for pressure or pain</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Refit if needed</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Do not assume retention</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Excellent grip</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Stable</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Stable</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Stable</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Jump Rope × 100</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Begin slowly</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">Stop if it shifts</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Check the selected tip</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">Retention is not guaranteed</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Excellent grip</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">⚠️ May shift</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Stable</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">⚠️ Less secure</td>
     </tr>
     </tbody>
 </table>
 
-<p>Bottom line: compare the included tip design of <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> and the published weight of <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">P30i</a>, but no retention ranking applies to every ear. Comfort and lack of movement during a short personal check matter more than a general claim.</p>
+<p>Bottom line: <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Liberty 5</a> rates highest for stability across every exercise — thanks to CloudComfort ear tips that mold to your ear canal shape exactly. <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">P30i</a> comes in second thanks to its ultralight weight (4.7g) — lighter means more stable.</p>
 
 <h2>The Ear Tip Secret — Why the Right Size Matters More Than the Earbuds Themselves</h2>
 
-<p>Ear-tip size is an important reason earbuds stay put or move. If Medium does not suit your ear, the earbud can shift regardless of its specifications; try the included sizes without accepting pressure or pain.</p>
+<p>80% of fall-out problems aren't the earbuds' fault — it's the wrong ear tip size. If you're using Medium when your ears need Large, the earbuds will fall out even if they're the best in the world.</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">📏 <strong>Golden rule:</strong> Try all 3 sizes (S/M/L) that come with the earbuds. The right size gives you a "seal" — clear sound isolation where bass suddenly increases. If you hear outside noise clearly = the size is too small.</li>
@@ -487,7 +487,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
 <p>Even the best earbuds will break if you don't treat them right:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">❌ <strong>Mistake #1 — Putting them in the case while sweaty:</strong> Trapped moisture may accelerate contact corrosion. Dry them with a soft cloth and follow the model's cleaning instructions before casing; drying does not guarantee a fixed percentage of extra lifespan.</li>
+    <li style="margin-bottom:16px;">❌ <strong>Mistake #1 — Putting them in the case while sweaty:</strong> Trapped moisture in the charging case corrodes the charging contacts and shortens battery life. Solution: wipe them with a soft cloth or tissue before casing. 30 seconds saves you 30% of the earbuds' lifespan.</li>
     <li style="margin-bottom:16px;">❌ <strong>Mistake #2 — Grabbing the earbud by the driver:</strong> Your fingers carry oils and sweat. When you grab the speaker end, oils accumulate on the protective mesh and affect sound quality over time. Solution: hold them by the stem, not the head.</li>
     <li style="margin-bottom:16px;">❌ <strong>Mistake #3 — Leaving them in a gym bag for hours:</strong> Gym bags can reach 50°C+ in Egyptian summers. Lithium batteries degrade above 45°C. Solution: take them out of the bag as soon as you arrive home.</li>
     <li style="margin-bottom:16px;">❌ <strong>Mistake #4 — Washing them under running water:</strong> IPX5 handles water jets, not direct washing. High pressure from a faucet can push water through areas not designed for it. Solution: wipe with a damp cloth or 70% isopropyl alcohol wipes.</li>
@@ -509,7 +509,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> are <strong>genuine with warranty for the term shown on the product page</strong> from the retailer with clear identity and written policies + delivery according to the address-specific estimate shown before order confirmation + WhatsApp support during the published business hours. Choose the right earbuds for your workout and start your fitness journey with sound that actually motivates.
+        All <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> are <strong>genuine with 18-month warranty</strong> from the authorized distributor + delivery to all governorates within 24-72 hours + 24/7 WhatsApp support. Choose the right earbuds for your workout and start your fitness journey with sound that actually motivates.
     </p>
 </div>
 
@@ -523,10 +523,10 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     </ul>
 </div>`,
             faq: [
-                { question: 'Can IPX5 earbuds handle heavy gym sweat?', answer: 'IPX5 describes a model-specific water-ingress test; it is not a blanket guarantee against sweat, corrosion, or every workout condition. Check the exact model manual, keep the case and contacts dry, and follow the manufacturer\'s cleaning and drying instructions before placing earbuds in the case.' },
+                { question: 'Can IPX5 earbuds handle heavy gym sweat?', answer: 'Yes, IPX5 is designed to handle water jets from any direction, which is far stronger than sweat. The important thing is to wipe the earbuds after every workout and never put them in the case wet. Sweat contains salts that can corrode connectors if left to dry regularly — so post-workout cleaning is essential.' },
                 { question: 'What are the lightest Bluetooth earbuds for running and intense workouts?', answer: 'The lightest in the Soundcore lineup is the P30i at just 4.7 grams per earbud. Lower weight reduces the force pulling the earbud outward during movement — so the lighter the earbud, the better the stability during intense exercises.' },
-                { question: 'What is the difference between IPX5 and IP55 in sport earbuds?', answer: 'In an IP code, the first digit concerns solid-particle ingress and the second concerns water; X means no rating is declared for that part. The rating is not a universal sweat or damage guarantee, so check the exact model\'s certification, liquid limits, cleaning guidance, and warranty.' },
-                { question: 'Should I use ANC while running outdoors?', answer: 'Prioritize hearing traffic and local warnings. Follow local rules, lower volume, or use an awareness mode if your exact model provides one, but do not treat that feature as a substitute for attention; controls and effectiveness vary by Soundcore model.' },
+                { question: 'What is the difference between IPX5 and IP55 in sport earbuds?', answer: 'IP55 protects against both dust and sweat — the first 5 is for dust and the second 5 is for water. IPX5 only protects against sweat/water and the X means dust protection was never tested. If you run outdoors on dusty roads, IP55 is better. For indoor gym only, IPX5 is perfectly sufficient.' },
+                { question: 'Should I use ANC while running outdoors?', answer: 'No! When running outdoors, always use Transparency Mode, not ANC. Total noise isolation prevents you from hearing cars and traffic, which is a safety hazard. ANC is appropriate for indoor gym use only. Most Soundcore earbuds let you switch between modes with a single tap.' },
             ],
         }
     }

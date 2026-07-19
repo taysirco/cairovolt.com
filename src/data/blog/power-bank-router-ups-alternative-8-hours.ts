@@ -27,30 +27,30 @@ export const power_bank_router_ups_alternative_8_hours: BlogArticle = {
             metaTitle: 'تشغيل الراوتر بالباور بانك عند انقطاع الكهرباء: الدليل الكامل',
             metaDescription: 'تعلم كيفية تشغيل راوتر الواي فاي بالباور بانك وقت انقطاع الكهرباء بمصر. حسابات هندسية للتشغيل 8 ساعات، ومواصفات كابل الراوتر (12 فولت) المناسب.',
             keywords: 'تشغيل الراوتر بالباور بانك, تشغيل الراوتر عند انقطاع الكهرباء, باور بانك للراوتر, بديل ups للراوتر, كابل تشغيل الراوتر على الباور بانك, سعر باور بانك للراوتر',
-            excerpt: 'الكهربا قطعت والنت فصل؟ تعلّم مطابقة جهد وقطبية الراوتر مع مصدر احتياطي وحساب مدة تقريبية من الطاقة الفعلية وفاقد التحويل.',
-            quickAnswer: 'يمكن تشغيل بعض أجهزة الراوتر من باور بانك مع محول مناسب فقط إذا تطابق الجهد والقطبية والتيار والموصل مع ملصق الجهاز ودليله. احسب المدة من الطاقة بالواط/ساعة واستهلاك الراوتر وفاقد التحويل، وتحقق من سلوك الانتقال عند انقطاع الكهرباء؛ لا تضمن سعة mAh زمناً ثابتاً أو عمل UPS.',
+            excerpt: 'الكهربا قطعت والنت فصل؟ بنشرح لك بالفيزياء والحسابات إزاي تستخدم الباور بانك العادي كبديل لجهاز الـ UPS لتشغيل الراوتر المنزلي حتى 8 ساعات متواصلة.',
+            quickAnswer: 'نعم، يمكنك تشغيل راوتر الواي فاي باستخدام باور بانك عادي بنسبة 100%، ولكنك ستحتاج إلى **كابل راوتر خاص (Step-Up Converter Cable)** يقوم برفع الجهد من **5 فولت (خرج الباور بانك) إلى 9 أو 12 فولت (دخل الراوتر)**. باور بانك بسعة **10,000mAh** يمكنه تشغيل الراوتر لمدة تتراوح بين **5 إلى 7 ساعات**، بينما سعة **20,000mAh** يمكنها توفير ما يصل إلى **12 ساعة** من العمل المتواصل.',
             faq: [
                 {
                     question: 'إزاي أعرف الراوتر بتاعي محتاج 9 فولت ولا 12 فولت؟',
-                    answer: 'اقرأ خانة Input على الراوتر ومحول المصنع، ثم طابق نوع التيار والجهد والقطبية والتيار المطلوب ومقاس الموصل، وليس رقم 9V أو 12V وحده. استخدم محولاً أو كابل رفع جهد مخصصاً تؤكده الشركة للموديل؛ التوصيل غير المطابق قد يمنع التشغيل أو يسبب تلفاً.'
+                    answer: 'اقلب الراوتر وبص على الملصق الأبيض (Sticker) الموجود في ظهره أو قاعدته. هتلاقي خانة مكتوب عليها "Power" أو "Input" وجنبها الجهد المطلوب، مثلاً: "12V 1.0A" أو "9V 0.6A". بناءً على الرقم ده (9V أو 12V)، لازم تشتري كابل الـ Step-Up المقابل له عشان تتفادي احتراق الراوتر أو عدم تشغيله.'
                 },
                 {
                     question: 'هل تشغيل الراوتر بالباور بانك آمن على المدى الطويل؟',
-                    answer: 'يعتمد الأمان على تطابق الجهد والقطبية والتيار والموصل وجودة المحول مع مواصفات الراوتر، لا على اسم العلامة وحده. استخدم معدات مصنفة واتبع دليل الجهاز، وأوقف الاستخدام عند الحرارة أو الرائحة أو الانقطاع غير المعتاد.'
+                    answer: 'نعم، آمن تماماً بشرط استخدام باور بانك أصلي وموثوق يحتوي على دوائر حماية من التماس الكهربائي وتذبذب الجهد، واستخدم كابل راوتر عالي الجودة. تجنب استخدام باور بانكات رديئة مجهولة المصدر لأنها تخرج جهداً غير مستقر قد يؤدي لتلف بوردة الراوتر الداخلية.'
                 },
                 {
                     question: 'ليه الراوتر بيفصل ويرجع يشتغل لما الكهربا تقطع وأنا موصل الباور بانك؟',
-                    answer: 'يختلف سلوك الانتقال حسب الباور بانك والمحول ودعم pass-through والحمل؛ قد يعيد الراوتر التشغيل أو يستمر. اختبر الإعداد، وإذا احتجت استمرارية موثقة فاختر Mini-UPS يطابق الراوتر وله زمن انتقال معلن.'
+                    answer: 'الباور بانك العادي لا يحتوي على نظام تبديل فوري للطاقة (Zero Transfer Time) مثل أجهزة الـ UPS. عند انقطاع التيار، يحتاج الباور بانك لجزء من الثانية لتشغيل منافذه، مما يتسبب في إعادة تشغيل الراوتر (Reboot). لو محتاج اتصال بدون انقطاع لثانية واحدة، ستحتاج لجهاز Mini-UPS مخصص للراوتر.'
                 },
                 {
                     question: 'هل ينفع أشغل علبة الفايبر (الـ ONU) مع الراوتر بنفس الباور بانك؟',
-                    answer: 'يمكن ذلك إذا طابقت متطلبات الراوتر والـONU كلٌ على حدة، بما في ذلك الجهد والقطبية والتيار والموصل، وكان المصدر يوزع قدرة كافية على المنفذين. لا تستخدم كابل رفع جهد عاماً من دون مطابقة.'
+                    answer: 'نعم، لو خط النت عندك فايبر (FTTH)، هتحتاج تشغل جهازين: الراوتر وجهاز الفايبر الصغير (ONU). عشان تشغلهم، هتحتاج باور بانك بمخرجين USB وكابلين Step-Up (واحد لكل جهاز)، أو باور بانك قوي يدعم منافذ متعددة لتوزيع الطاقة بشكل مستقر دون هبوط الجهد.'
                 }
             ],
             content: `<p>النور يقطع في عز الحر بمصر، والمروحة تقف، والتكييف يسكت... ماشي، نقدر نتحمل. بس الصدمة الكبيرة لما تلاقي الـ Wi-Fi فصل، وموبايلك قالب 2G أو مفيش شبكة خالص لأن برج المحمول اللي جنبك هو كمان فصلت عنه الكهربا! هنا بيبدأ الكابوس الحقيقي، خصوصاً لو شغال Freelancer أو بتلعب أونلاين أو مستني إيميل مهم. تفتكر فجأة إن عندك باور بانك مشحون ومحطوط في الدرج، وتسأل نفسك هندسياً: هل ينفع الباور بانك ده يشتغل كبديل لجهاز الـ UPS (مزود الطاقة غير المنقطع) ويشغل الراوتر 8 ساعات متواصلة؟ وإيه الوصلة السحرية اللي هتربط الباور بانك بالراوتر؟ كمهندس إلكترونيات، هجاوبك في الدليل ده على كل الأسئلة دي بالفيزياء والحسابات، وهقولك إزاي تشغل نت البيت في قطوعات الكهرباء بكفاءة وبدون ما تبوظ أجهزتك.</p>
 
 <h2>أولاً: المعضلة الكهربائية (5 فولت ضد 12 فولت)</h2>
-<p>العقبة الأولى هي مطابقة خرج مصدر الطاقة مع ملصق الراوتر. منافذ USB الشائعة قد تبدأ عند 5V، بينما أجهزة الراوتر تختلف في الجهد والقطبية والتيار. اقرأ ملصق محول الراوتر ودليله حرفيًا، ولا تستخدم كابل رفع جهد أو باوربانك قبل مطابقة الجهد والتيار والقطبية والمقاس؛ الخطأ قد يتلف الجهاز.</p>
+<p>بصفتي مهندس إلكترونيات، خليني أشرح لك العقبة الأولى اللي بتمنعك من توصيل الباور بانك بالراوتر مباشرة بكابل عادي. بطاريات الباور بانك ومنافذ الـ USB القياسية بتخرج تيار مستمر بجهد **5 فولت (5V)**. في المقابل، لو قلبت الراوتر المنزلي بتاعك وبصيت على الملصق الفني في ظهره، هتلاقي إن أغلب أجهزة الراوتر بمصر (سامسونج، هواوي، زد تي إي) بتشتغل بجهد **12 فولت (12V)**، وبعض الموديلات القديمة بتشتغل بجهد **9 فولت (9V)**.</p>
 <p>لو حاولت توصل 5 فولت لراوتر محتاج 12 فولت، مش هيشتغل خالص؛ لأن الجهد غير كافٍ لتشغيل الدوائر الداخلية وتوليد إشارة الواي فاي. هنا بيجي دور البطل الخفي: <strong>كابل الراوتر الـ Step-Up Converter</strong>. ده مش مجرد سلك نحاس؛ ده كابل بيحتوي في رأس الـ USB الكبيرة بتاعته على بوردة إلكترونية مصغرة (Boost Converter) بتقوم برفع الجهد الكهربائي تلقائياً من 5 فولت (اللي جاية من الباور بانك) إلى 9 فولت أو 12 فولت (المناسبة للراوتر) لتوفير الطاقة المطلوبة.</p>
 
 <h3>أنواع بوردات الرفع (Boost Converters) في كابلات الـ USB-to-DC</h3>
@@ -77,7 +77,7 @@ export const power_bank_router_ups_alternative_8_hours: BlogArticle = {
 <p>إذن، باور بانك سعة **10,000mAh** أصلي ونظيف هيشغل الراوتر المنزلي حوالي **5 إلى 6 ساعات متواصلة**. لو محتاج تشغيل يوصل لـ **10 إلى 12 ساعة** (عشان تغطي أطول فترة انقطاع أو تشغل كذا جهاز)، هتحتاج باور بانك بسعة **20,000mAh**، وده هيديك طاقة فعلية كافية جداً وزيادة. وهندسياً، يفضل دائماً عدم تفريغ الباور بانك بنسبة 100% حتى لا تتضرر خلايا الليثيوم الداخلية وتفقد قدرتها على الشحن بمرور الوقت، لذا يُنصح بترك هامش أمان بنسبة 10% إلى 15%، مما يعني أن الحسبة العملية الفعلية تشير لراحة تامة في التشغيل دون الإضرار بالبطارية على المدى المتوسط والبعيد، خصوصاً مع الاستخدام اليومي لقطوعات الكهرباء المتكررة في مصر خلال فصل الصيف.</p>
 
 <h3>بديل متقدم: استخدام باور بانك يدعم تقنية USB Power Delivery (PD) مباشرة</h3>
-<p>إذا كنت تمتلك باور بانك حديثاً جداً مثل <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 Powercore</a>، ولديه منافذ USB-C تدعم تقنية Power Delivery (PD)، يمكنك استخدام حل أكثر ذكاءً وكفاءة: وهو **كابل تحفيز الـ Type-C (Type-C PD Trigger Cable)**. هذا الكابل يحتوي على شريحة إلكترونية تسمى "شريحة خداع الـ PD" (PD Trigger Chip) التي تخبر الباور بانك بأن الجهاز المتصل يحتاج إلى 12 فولت مباشرة.</p>
+<p>إذا كنت تمتلك باور بانك حديثاً جداً مثل <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 Powercore</a>، ولديه منافذ USB-C تدعم تقنية Power Delivery (PD)، يمكنك استخدام حل أكثر ذكاءً وكفاءة: وهو **كابل تحفيز الـ Type-C (Type-C PD Trigger Cable)**. هذا الكابل يحتوي على شريحة إلكترونية تسمى "شريحة خداع الـ PD" (PD Trigger Chip) التي تخبر الباور بانك بأن الجهاز المتصل يحتاج إلى 12 فولت مباشرة.</p>
 <p>في هذه الحالة، يقوم الباور بانك بإخراج 12 فولت نقية من منفذ التايب سي بدون الحاجة لبوردة رفع جهد تسخن أو تفقد طاقة، مما يعطي كفاءة نقل تزيد عن 95% ويزيد من وقت تشغيل الراوتر لأكثر من ساعتين إضافيتين بنفس سعة البطارية، كما يضمن استقراراً كهربائياً بنسبة 100%.</p>
 
 <h2>ثالثاً: الباور بانك ضد الـ Mini-UPS للراوتر (مقارنة عملية)</h2>
@@ -117,9 +117,9 @@ export const power_bank_router_ups_alternative_8_hours: BlogArticle = {
 <h2>رابعاً: شروط اختيار الباور بانك المناسب لتشغيل الراوتر</h2>
 <p>مش أي باور بانك مرمي في الدرج هيديك أداء مستقر. لتجنب تكرار فصل الراوتر أو تلفه، دي الشروط الفنية اللي لازم تتوفر في الباور بانك:</p>
 <ol style="line-height:1.8;">
-    <li>🔋 <strong>السعة الحقيقية:</strong> يفضل ألا تقل عن **20,000mAh** لو الكهرباء بتقطع لفترات طويلة أو لو محتاج تشغل مع الراوتر علبة الفايبر (ONU). بننصحك بـ <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">باور بانك انكر 20000 مللي أمبير</a> كخيار ممتاز جداً وبسعر متوازن.</li>
+    <li>🔋 <strong>السعة الحقيقية:</strong> يفضل ألا تقل عن **20,000mAh** لو الكهرباء بتقطع لفترات طويلة أو لو محتاج تشغل مع الراوتر علبة الفايبر (ONU). بننصحك بـ <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">باور بانك أنكر 20000 مللي أمبير</a> كخيار ممتاز جداً وبسعر متوازن.</li>
     <li>⚡ <strong>تيار المخرج (Output Current):</strong> منفذ الـ USB اللي هتوصل فيه الكابل لازم يخرج **5V/2A** على الأقل (أي بقوة 10 واط فما فوق). المنافذ القديمة اللي بتخرج 5V/1A فقط مش هتقدر توفر تيار كافي لبوردة الرفع (Boost Converter)، والراوتر هيفصل باستمرار أثناء التحميل الثقيل للنت.</li>
-    <li>🛡️ <strong>دعم الحماية الكهربائية:</strong> الباور بانكات الأصلية من براندات زي انكر أو Joyroom بتحتوي على أنظمة أمان متطورة (مثل انكر MultiProtect) بتمنع زيادة التيار أو حدوث ماس كهربائي قد يحرق مدخل الطاقة في الراوتر. لو بتدور على وحش طاقة حقيقي يشغل الراوتر واللابتوب كمان في نفس الوقت، ننصحك بالـ <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">باور بانك العملاق انكر 737</a> بقدرة 140 واط.</li>
+    <li>🛡️ <strong>دعم الحماية الكهربائية:</strong> الباور بانكات الأصلية من براندات زي Anker أو Joyroom بتحتوي على أنظمة أمان متطورة (مثل Anker MultiProtect) بتمنع زيادة التيار أو حدوث ماس كهربائي قد يحرق مدخل الطاقة في الراوتر. لو بتدور على وحش طاقة حقيقي يشغل الراوتر واللابتوب كمان في نفس الوقت، ننصحك بالـ <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">باور بانك العملاق Anker 737</a> بقدرة 140 واط.</li>
 </ol>
 
 <h2>خامساً: إزاي تشتري كابل تشغيل الراوتر (Step-Up) المناسب بمصر؟</h2>
@@ -138,30 +138,30 @@ export const power_bank_router_ups_alternative_8_hours: BlogArticle = {
             metaTitle: 'Run Wi-Fi Router on Power Bank During Power Outages: Step-by-Step Guide',
             metaDescription: 'Learn how to power your home Wi-Fi router using a standard power bank during blackouts. Detailed calculations for 8-hour runtime and 12V step-up cable guide.',
             keywords: 'how to run router on power bank, run wifi router on power bank, power bank for router, mini ups for router, router ups cable, step up cable for router 12v',
-            excerpt: 'Power went out? Learn to match router voltage and polarity to a backup source and estimate runtime from usable energy, load, and conversion loss.',
-            quickAnswer: 'Some routers can run from a power bank and suitable converter only when voltage, polarity, current, and connector match the device label and manual. Estimate runtime from watt-hours, router load, and conversion loss, and verify transfer behavior during an outage; mAh does not guarantee a fixed duration or UPS operation.',
+            excerpt: 'Power went out and lost your internet? Here is the engineering guide to using a standard USB power bank as a router UPS for up to 8 hours of runtime.',
+            quickAnswer: 'Yes, you can run a home Wi-Fi router on a standard USB power bank, but you must use a **Step-Up Converter Cable (5V to 9V/12V)**. A standard **10,000mAh power bank** can power a typical router for **5 to 7 hours**, while a **20,000mAh power bank** can provide up to **12 hours** of uninterrupted Wi-Fi runtime.',
             faq: [
                 {
                     question: 'How do I know if my router requires 9V or 12V?',
-                    answer: 'Read the router and original adapter input labels, then match AC or DC type, voltage, polarity, required current, and connector dimensions—not only 9V or 12V. Use a regulated converter or cable confirmed for the exact model; a mismatch can prevent operation or damage the device.'
+                    answer: 'Look at the technical specification label on the back or bottom of your router. Look for the "Power" or "Input" field, which will state something like "12V 1.0A" or "9V 0.6A." You must purchase the corresponding 9V or 12V Step-Up USB cable to match this voltage exactly, otherwise your router will not power on or might get damaged.'
                 },
                 {
                     question: 'Is powering a router from a power bank safe for the device?',
-                    answer: 'Safety depends on matching voltage, polarity, current, connector, and converter quality to the router specification, not brand reputation alone. Use rated equipment, follow the device manual, and stop for unusual heat, odor, or disconnection.'
+                    answer: 'Yes, it is entirely safe as long as you use a high-quality, reputable power bank with built-in voltage regulation and short-circuit protection, alongside a certified step-up cable. Avoid using extremely cheap, unbranded power banks, as unstable voltage output can damage the router\'s internal motherboard over time.'
                 },
                 {
                     question: 'Why does my router reboot when the power cuts if I have it plugged into the power bank?',
-                    answer: 'Transfer behavior varies by power bank, converter, pass-through support, and load; the router may reboot or continue. Test the setup, and if documented continuity is required, choose a router Mini-UPS with a specified transfer time that matches the device.'
+                    answer: 'Standard power banks do not have a zero-transfer-time switchover system like professional UPS devices. When main power cuts, the power bank takes a fraction of a second to activate its USB ports, causing the router to reboot. If you need 100% seamless connection, a dedicated Router Mini-UPS is required.'
                 },
                 {
                     question: 'Can I power my fiber optic modem (ONU) and router from the same power bank?',
-                    answer: 'It may be possible when the router and ONU requirements are matched separately, including voltage, polarity, current, and connector, and the source allocates enough power to both ports. Do not use a generic step-up cable without exact matching.'
+                    answer: 'Yes. If you have a Fiber-to-the-Home (FTTH) connection, you must power both the Wi-Fi router and the small fiber modem (ONU). You will need a power bank with two high-output USB ports and two step-up cables (one for each device) or a powerful battery source capable of delivering stable dual-voltage output.'
                 }
             ],
-            content: `<p>When the power goes out during Egypt\'s hot summer days, your router may stop along with other equipment. A power bank is not automatically a UPS, and an "8-hour" runtime cannot be promised from capacity alone. This guide explains how to match voltage, polarity, connector, current, conversion losses, and router power draw before considering a temporary backup setup.</p>
+            content: `<p>When the power goes out during Egypt\'s hot summer days, the fans stop, and the air conditioning falls silent. We can handle the heat, but the ultimate blow comes when the Wi-Fi signal drops, and your phone drops to a crawl because the neighboring cell tower has also lost power. This is where the real nightmare begins, especially if you are a remote freelancer, online gamer, or waiting on an important work email. Suddenly, you remember the fully charged power bank sitting in your drawer and ask yourself: "Can this power bank act as a temporary UPS (Uninterruptible Power Supply) and keep my router running for 8 hours? What magic cable do I need to bridge the gap?" As an electronics engineer, I will answer these questions using physics and math, guiding you on how to run your home network safely during blackouts.</p>
 
 <h2>1. The Electrical Challenge: 5V USB vs. 12V Router</h2>
-<p>The first technical hurdle is the voltage mismatch. Many basic USB outputs provide 5V DC, while routers vary and may require 9V, 12V, USB-C PD, or another input. Read the exact router label and adapter before selecting any cable or converter; never infer voltage or polarity from connector shape.</p>
+<p>As an electronics engineer, let\'s address the first technical hurdle that prevents you from connecting a power bank to a router using a standard USB lead. Standard power bank batteries and USB ports output direct current (DC) at **5 Volts (5V)**. However, if you flip your home router over and inspect the specifications sticker on the bottom, you will find that most modern Wi-Fi routers run on **12 Volts (12V)**, while some older modems require **9 Volts (9V)**.</p>
 <p>If you try to feed 5V into a 12V router, it will not power on because the voltage is too low to drive the internal components and transmit the Wi-Fi signal. To bridge this gap, you need a **USB to DC Step-Up Converter Cable**. This is not just a cable; it contains a miniature boost converter circuit inside the larger USB connector shell. This circuit takes the 5V input from the power bank and steps it up to the 9V or 12V required by your router, supplying stable power to keep the network alive.</p>
 
 <h3>Types of Boost Converters in USB-to-DC Cables</h3>

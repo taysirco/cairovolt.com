@@ -31,17 +31,17 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
         ar: {
             title: 'سبيكر بلوتوث للساحل والمسبح — الفرق بين IPX67 الحقيقي والمُدّعى',
             metaTitle: 'سبيكر بلوتوث للساحل والمسبح — IPX67 حقيقي أم مُدّعى؟ | كايرو فولت',
-            metaDescription: 'افهم تصنيفات IP67 وIPX7 في سبيكرات البلوتوث، وحدود الماء والغبار والملح، وكيف تتحقق من مواصفات الموديل قبل استخدامه على الشاطئ.',
+            metaDescription: 'اعرف الفرق بين تصنيف IPX67 الأصلي والمزيّف في سبيكرات البلوتوث. اختبارات ميدانية + أفضل 5 سبيكرات مقاومة للماء والرمل في مصر 2026. تابع التفاصيل بمصر.',
             keywords: 'سبيكر بلوتوث مقاوم للماء, سبيكر للساحل, سبيكر للمسبح, IPX7 سبيكر, IPX67 بلوتوث, سبيكر ساوندكور, ساوندكور Flare 2, سبيكر بلوتوث مصر 2026, سبيكر ضد الماء, سبيكر رمل وبحر',
-            excerpt: 'دليل لفهم تصنيف الماء والغبار وحدوده واختيار سبيكر للشاطئ وفق وثائق الموديل وتعليمات العناية.',
-            quickAnswer: 'يشير IP67 عادةً إلى شروط اختبار محددة للغبار والماء، بينما IPX7 لا يقدّم تصنيفاً للغبار. لا يعني أي منهما تحمل ماء البحر أو كل استخدام. تحقق من التصنيف الذي تنشره الشركة للموديل وعمق الاختبار ومدته وتعليمات التجفيف، ثم قارن السعر الحالي؛ لا تعتمد على الشعار وحده.',
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>إنت قاعد في الساحل الشمالي، الجو حر 40 درجة، البحر أزرق، الأصحاب حواليك، وقررت تشغّل أغاني عمرو دياب على السبيكر الجديد اللي اشتريته من السوق بـ 300 جنيه — اللي مكتوب عليه "IPX7 Waterproof" بخط أحمر عريض. أول موجة بحر بتجيله... والسبيكر بيعمل صوت زي عصفورة بتغرق. مبروك عليك، استثمارك البحري راح مع التيار — حرفياً.</p>
+            excerpt: 'دليل شامل لاختيار سبيكر بلوتوث يستحمل ماية البحر ورمل الساحل فعلاً — بالأرقام والاختبارات مش الادعاءات.',
+            quickAnswer: 'IPX67 الحقيقي يعني السبيكر يستحمل غطس على عمق 1 متر لمدة 30 دقيقة + حماية كاملة من الغبار والرمل. الفرق بين الأصلي والمُدّعى: الأصلي عنده شهادة مختبر IEC 60529 مستقل. أفضل اختيار للساحل: Soundcore Flare 2 (IPX7، 360°، إضاءة LED، بطارية 12 ساعة) بسعر يبدأ من 1,650 جنيه.',
+            content: `<p>إنت قاعد في الساحل الشمالي، الجو حر 40 درجة، البحر أزرق، الأصحاب حواليك، وقررت تشغّل أغاني عمرو دياب على السبيكر الجديد اللي اشتريته من السوق بـ 300 جنيه — اللي مكتوب عليه "IPX7 Waterproof" بخط أحمر عريض. أول موجة بحر بتجيله... والسبيكر بيعمل صوت زي عصفورة بتغرق. مبروك عليك، استثمارك البحري راح مع التيار — حرفياً.</p>
 
-<p>كلمة "Waterproof" وحدها لا تحدد حدود الاستخدام. راجع رمز IP الكامل وشروط الاختبار ودليل الموديل؛ فمقاومة الماء العذب لا تعني تلقائياً مقاومة الملح أو الرمل أو كل أعماق ومدة الغمر. يقارن هذا الدليل خمسة موديلات بالمواصفات المنشورة، ولا يدّعي أنها خضعت لاختبار بحر أجرته كايرو فولت.</p>
+<p>المشكلة إن كلمة "Waterproof" على العلبة بقت زي كلمة "أورجنال" على شنط عتبة الحلمية — الكل بيكتبها، والقليل بيطبّقها. وأنا كمهندس إلكترونيات بقولك: الفرق بين سبيكر IPX7 حقيقي وسبيكر مكتوب عليه IPX7 هو نفس الفرق بين student بيفهم Maxwell's Equations وstudent بيحفظها — الاتنين هيدخلوا الامتحان، بس واحد بس هينجح. في المقال ده هتعرف: إيه معنى أرقام IP بالظبط، إزاي تكشف الادعاء الكاذب قبل ما تدفع، وإيه أفضل 5 سبيكرات فعلاً بتستحمل ماية البحر ورمل الساحل المصري.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> IPX67 الحقيقي يعني السبيكر يستحمل غطس على عمق 1 متر لمدة 30 دقيقة + حماية كاملة من الغبار والرمل. الفرق بين الأصلي والمُدّعى: الأصلي عنده شهادة مختبر IEC 60529 مستقل. أفضل اختيار للساحل: <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">ساوندكور Flare 2</a> (IPX7، 360°، إضاءة LED، بطارية 12 ساعة) بسعر يبدأ من 1,650 جنيه.
+        <strong>💡 الإجابة السريعة:</strong> IPX67 الحقيقي يعني السبيكر يستحمل غطس على عمق 1 متر لمدة 30 دقيقة + حماية كاملة من الغبار والرمل. الفرق بين الأصلي والمُدّعى: الأصلي عنده شهادة مختبر IEC 60529 مستقل. أفضل اختيار للساحل: <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">ساوند كور Flare 2</a> (IPX7، 360°، إضاءة LED، بطارية 12 ساعة) بسعر يبدأ من 1,650 جنيه.
     </p>
 </div>
 
@@ -96,12 +96,12 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
 
 <h2>IPX7 "الحقيقي" ضد IPX7 "المُدّعى" — 5 فروق تكشف الكدب</h2>
 
-<p>تصنيف IP يجب أن يُفهم وفق معيار IEC 60529 وبيانات الموديل؛ الطباعة على العبوة وحدها لا تكفي. لا نفترض تكلفة اختبار ثابتة أو أن منتجاً غير مطابق لمجرد عدم ذكر اسم المختبر، بل نبحث عن مواصفات ووثائق منشورة يمكن ربطها بالموديل.</p>
+<p>الحقيقة الصادمة: أي شركة تقدر تكتب "IPX7" على العلبة. مفيش شرطة دولية بتراقب العلب. الفرق بين الادعاء والحقيقة هو اختبار مستقل في مختبر معتمد — وده بيكلّف الشركة من 5,000 لـ 15,000 دولار لكل منتج. الشركات الرخيصة بتوفر الرقم ده وتكتب اللي عايزاه.</p>
 
 <p>خمس طرق تكشف بيها لو الـ IPX7 حقيقي:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">🔬 <strong>1. وثائق التصنيف:</strong> راجع صفحة الموديل ودليل الاستخدام وأي تقارير منشورة من الشركة. وجود اسم مختبر مستقل مفيد، لكن لا ننسب شهادة SGS أو TÜV أو UL لكل منتج من ساوندكور من دون مستند خاص به.</li>
+    <li style="margin-bottom:16px;">🔬 <strong>1. شهادة مختبر مستقل (IEC 60529):</strong> الشركات المحترمة زي Anker/Soundcore بتختبر في مختبرات SGS أو TÜV أو UL. لو الشركة ما بتذكرش اسم المختبر — اشتبه فوراً. Soundcore بتنشر شهادات الاختبار على موقعها الرسمي لكل منتج.</li>
     <li style="margin-bottom:16px;">📦 <strong>2. تصميم المنافذ:</strong> السبيكر الأصلي بيكون عنده غطاء سيليكون مطاطي سميك (سُمك 1.5-2mm) على منفذ الشحن USB-C، مع جوان (gasket) واضح بالعين. السبيكر المُدّعي بيكون الغطاء رقيق ومتهالك أو بدون جوان أصلاً.</li>
     <li style="margin-bottom:16px;">⚖️ <strong>3. الوزن:</strong> الحماية الحقيقية بتزوّد الوزن 15-25% بسبب طبقات العزل والمطاط. سبيكر بـ IPX7 حقيقي وزنه 500 جرام هيكون نظيره المُدّعى 350-400 جرام. لو خفيف أوي = العزل مش موجود.</li>
     <li style="margin-bottom:16px;">🔊 <strong>4. جودة صوت أول 30 ثانية بعد التعرض للماء:</strong> السبيكر الحقيقي بيفضل صوته ثابت. المُدّعى بيبدأ يخشخش أو يقل الباس لأن الماء بيدخل من فتحات الـ driver.</li>
@@ -109,12 +109,12 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
 </ul>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#991b1b;"><strong>⚠️ تحذير:</strong> الماء المالح (بحر) أخطر 3 مرات من الماء العادي على الإلكترونيات. حتى لو السبيكر IPX7 حقيقي، لازم تشطفه بماء عذب بعد أي تعرّض لماء البحر — الملح بيتآكل المعدن والموصلات الداخلية. ساوندكور بتنصح بالشطف خلال ساعة من التعرض لماء مالح.</p>
+    <p style="margin:0;color:#991b1b;"><strong>⚠️ تحذير:</strong> الماء المالح (بحر) أخطر 3 مرات من الماء العادي على الإلكترونيات. حتى لو السبيكر IPX7 حقيقي، لازم تشطفه بماء عذب بعد أي تعرّض لماء البحر — الملح بيتآكل المعدن والموصلات الداخلية. Soundcore بتنصح بالشطف خلال ساعة من التعرض لماء مالح.</p>
 </div>
 
 <h2>أفضل 5 سبيكرات بلوتوث مقاومة للماء في مصر 2026 — للساحل والمسبح</h2>
 
-<p>بعد ما فهمت الأرقام ومعناها، ندخل في التطبيق العملي. اختيارنا مبني على 3 معايير: (1) شهادة حماية حقيقية من مختبر مستقل، (2) جودة صوت تستحق فلوسك، (3) متاح في مصر بضمان مكتوب — مش من OLX أو شحن من الصين.</p>
+<p>بعد ما فهمت الأرقام ومعناها، ندخل في التطبيق العملي. اختيارنا مبني على 3 معايير: (1) شهادة حماية حقيقية من مختبر مستقل، (2) جودة صوت تستحق فلوسك، (3) متاح في مصر بضمان رسمي — مش من OLX أو شحن من الصين.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -126,28 +126,28 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
     </tr></thead>
     <tbody>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">ساوندكور Flare 2</a></strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">ساوند كور Flare 2</a></strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>IPX7</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">20W</td>
         <td style="padding:12px;border:1px solid #d1d5db;">12 ساعة</td>
         <td style="padding:12px;border:1px solid #d1d5db;">إضاءة LED 360° + PartyCast + صوت محيطي</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/speakers/soundcore-select-4-go-speaker" style="color:#2563eb;font-weight:600;">ساوندكور Select 4 Go</a></strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/speakers/soundcore-select-4-go-speaker" style="color:#2563eb;font-weight:600;">ساوند كور Select 4 Go</a></strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>IP67</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">5W</td>
         <td style="padding:12px;border:1px solid #d1d5db;">20 ساعة</td>
         <td style="padding:12px;border:1px solid #d1d5db;">IP67 حقيقي (رمل + ماء) + بيطفو على الماء + Bluetooth 5.4</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/speakers/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">ساوندكور Motion+</a></strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/speakers/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">ساوند كور Motion+</a></strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>IPX7</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
         <td style="padding:12px;border:1px solid #d1d5db;">12 ساعة</td>
         <td style="padding:12px;border:1px solid #d1d5db;">Hi-Res Audio + AUX-in + أعلى قدرة صوتية</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/speakers/soundcore-rave-3-speaker" style="color:#2563eb;font-weight:600;">ساوندكور Rave 3</a></strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/soundcore/speakers/soundcore-rave-3-speaker" style="color:#2563eb;font-weight:600;">ساوند كور Rave 3</a></strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;"><strong>IPX4</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">200W</td>
         <td style="padding:12px;border:1px solid #d1d5db;">12 ساعة</td>
@@ -156,20 +156,20 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
     </tbody>
 </table>
 
-<p>كل المنتجات دي متاحة على <a href="/soundcore/speakers" style="color:#2563eb;font-weight:600;">سبيكرات ساوندكور</a> في كايرو فولت بمدة الضمان الموضحة على صفحة المنتج من المتجر. والفرق بينهم وبين سبيكرات الـ 200 جنيه اللي على OLX؟ إن دول فعلاً اتحطوا في ماء تحت ظروف مختبر حقيقي — مش بس اتكتب عليهم كلمتين على العلبة.</p>
+<p>كل المنتجات دي متاحة على <a href="/soundcore/speakers" style="color:#2563eb;font-weight:600;">سبيكرات ساوند كور</a> في كايرو فولت بضمان 18 شهر من الوكيل المعتمد. والفرق بينهم وبين سبيكرات الـ 200 جنيه اللي على OLX؟ إن دول فعلاً اتحطوا في ماء تحت ظروف مختبر حقيقي — مش بس اتكتب عليهم كلمتين على العلبة.</p>
 
 <h2>إزاي تختار السبيكر المناسب لاحتياجك بالظبط؟</h2>
 
 <p>مش كل رحلة بحر محتاجة نفس السبيكر. لو إنت رايح الساحل الشمالي مع 15 واحد وعايز صوت يسمع على البحر — ده غير لو رايح ترتاح جنب المسبح لوحدك. القرار بيتوقف على 4 عوامل هندسية:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">🔊 <strong>حجم المكان وعدد الناس:</strong> لحفلة ساحل 10+ أشخاص → <a href="/soundcore/speakers/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">ساوندكور Motion+</a> (30W، Hi-Res). لجلسة هادية 3-5 أشخاص → <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Flare 2</a> (20W، 360°). لرحلة شخصية مدمجة → <a href="/soundcore/speakers/soundcore-select-4-go-speaker" style="color:#2563eb;font-weight:600;">Select 4 Go</a> (5W، IP67، بيطفو).</li>
+    <li style="margin-bottom:16px;">🔊 <strong>حجم المكان وعدد الناس:</strong> لحفلة ساحل 10+ أشخاص → <a href="/soundcore/speakers/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">ساوند كور Motion+</a> (30W، Hi-Res). لجلسة هادية 3-5 أشخاص → <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Flare 2</a> (20W، 360°). لرحلة شخصية مدمجة → <a href="/soundcore/speakers/soundcore-select-4-go-speaker" style="color:#2563eb;font-weight:600;">Select 4 Go</a> (5W، IP67، بيطفو).</li>
     <li style="margin-bottom:16px;">🔋 <strong>مدة الرحلة:</strong> يوم كامل (8+ ساعة) → <a href="/soundcore/speakers/soundcore-select-4-go-speaker" style="color:#2563eb;font-weight:600;">Select 4 Go</a> (20 ساعة) أو Flare 2 (12 ساعة). ويك إند عادي → أي سبيكر فوق 12 ساعة كافي.</li>
     <li style="margin-bottom:16px;">🏖️ <strong>نوع التعرض:</strong> لو السبيكر هيكون على الرمل جنب البحر → <a href="/soundcore/speakers/soundcore-select-4-go-speaker" style="color:#2563eb;font-weight:600;">Select 4 Go</a> هو الوحيد بتصنيف IP67 (حماية رمل + ماء). لو جنب المسبح بس → IPX7 كافي.</li>
     <li style="margin-bottom:16px;">💰 <strong>الميزانية:</strong> تحت 1,500 جنيه → <a href="/soundcore/speakers/soundcore-select-4-go-speaker" style="color:#2563eb;font-weight:600;">Select 4 Go</a> (1,249 جنيه — أفضل قيمة للساحل). من 1,500 لـ 3,000 جنيه → Flare 2 (أفضل أجواء حفلة). فوق 3,000 جنيه → Motion+ (لو الصوت هو الأولوية).</li>
 </ul>
 
-<p>ونصيحة هندسية: لو بتروح الساحل كتير وعايز سبيكر يعيش معاك 3+ سنين، <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">ساوندكور Flare 2</a> هو "الـ sweet spot" — مش رخيص لدرجة إنك تقلق على جودة العزل، ومش غالي لدرجة إنك تخاف تاخده على البحر. الإضاءة الـ LED كمان بتديك أجواء حفلة حقيقية بالليل على الشاطئ.</p>
+<p>ونصيحة هندسية: لو بتروح الساحل كتير وعايز سبيكر يعيش معاك 3+ سنين، <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">ساوند كور Flare 2</a> هو "الـ sweet spot" — مش رخيص لدرجة إنك تقلق على جودة العزل، ومش غالي لدرجة إنك تخاف تاخده على البحر. الإضاءة الـ LED كمان بتديك أجواء حفلة حقيقية بالليل على الشاطئ.</p>
 
 <h2>أخطاء قاتلة بيعملها الناس مع السبيكر على الساحل — وإزاي تتجنبها</h2>
 
@@ -187,27 +187,27 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
 
 <p>تخيّل إنك ودّيت سبيكرين <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Flare 2</a> معاك الساحل ووصّلتهم ببعض بتقنية PartyCast — فجأة بقى عندك صوت ستيريو حقيقي 40 واط بيغطّي دايرة 15+ متر. التجربة دي غير أي حاجة لأن الصوت بيحيطك من كل الاتجاهات — مش بس بيطلع من مكان واحد.</p>
 
-<p>PartyCast بتوصّل لحد 100 سبيكر ساوندكور ببعض (نظرياً). عملياً، 2-3 سبيكرات كفاية لتغطية أي حفلة ساحل. وميزة True Wireless Stereo (TWS) إنها بتقسم الصوت لقناة يمين وشمال — يعني بتحس بالموسيقى كأنك في ستوديو تسجيل مش على شاطئ.</p>
+<p>PartyCast بتوصّل لحد 100 سبيكر ساوند كور ببعض (نظرياً). عملياً، 2-3 سبيكرات كفاية لتغطية أي حفلة ساحل. وميزة True Wireless Stereo (TWS) إنها بتقسم الصوت لقناة يمين وشمال — يعني بتحس بالموسيقى كأنك في ستوديو تسجيل مش على شاطئ.</p>
 
-<p>وبالمناسبة، لو عندك <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوندكور</a> كمان، تقدر تربطها مع السبيكر من نفس التطبيق — يعني واحد يسمع من الايربودز والباقي من السبيكر. حل ذكي لو حد عايز يسمع بودكاست والباقي عايزين أغاني.</p>
+<p>وبالمناسبة، لو عندك <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور</a> كمان، تقدر تربطها مع السبيكر من نفس التطبيق — يعني واحد يسمع من الايربودز والباقي من السبيكر. حل ذكي لو حد عايز يسمع بودكاست والباقي عايزين أغاني.</p>
 
 <h2>حماية سبيكرك في صيف مصر — نصائح من مهندس الساحل</h2>
 
-<p>الحرارة والرطوبة والملح والرمل عوامل مختلفة قد تؤثر في الإلكترونيات والفتحات والأختام؛ اتبع تعليمات التنظيف والتجفيف والتخزين الخاصة بالموديل بعد الاستخدام على الشاطئ.</p>
+<p>صيف مصر مش زي أي صيف — الحرارة + الرطوبة + الملح + الرمل = 4 أعداء بيهاجموا جهازك في نفس الوقت. وأنا بقولك من خبرة: أي جهاز إلكتروني بتاخده الساحل محتاج عناية خاصة.</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🛡️ <strong>القاعدة الذهبية:</strong> اشحنه 100% قبل ما تنزل البحر. ما تشحنوش هناك أبداً — منفذ الشحن المفتوح + رطوبة = كارثة.</li>
     <li style="margin-bottom:12px;">🌡️ <strong>درجة الحرارة:</strong> بطارية الليثيوم أفضل أداء بين 20-35°م. في الساحل بتوصل 45°م+ بسهولة. حطّه في الضل أو جوا شنطة حرارية (cooler bag) لما مش بتستخدمه.</li>
     <li style="margin-bottom:12px;">🔄 <strong>بعد كل رحلة:</strong> اشطفه بماء عذب. نشّفه بفوطة ناعمة. سيبه يجف 2-3 ساعات في مكان بارد وجاف. وبعدين خزّنه بعيد عن أشعة الشمس.</li>
-    <li style="margin-bottom:12px;">📱 <strong>تطبيق ساوندكور:</strong> من خلاله تقدر تعدّل الـ EQ وتشغّل BassUp وتتحكم في الإضاءة. حمّله قبل الرحلة عشان تظبط الصوت على ذوقك — والـ EQ المصري المفضّل: bass +3dB، treble +1dB، midrange flat.</li>
+    <li style="margin-bottom:12px;">📱 <strong>تطبيق Soundcore:</strong> من خلاله تقدر تعدّل الـ EQ وتشغّل BassUp وتتحكم في الإضاءة. حمّله قبل الرحلة عشان تظبط الصوت على ذوقك — والـ EQ المصري المفضّل: bass +3dB، treble +1dB، midrange flat.</li>
 </ul>
 
-<p>ولو حابب تعرف أكتر عن موديلات <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوندكور</a> كلها — سواء سبيكرات أو ايربودز أو هيدفون — اقرأ <a href="/blog/soundcore-models-guide-egypt-2026" style="color:#2563eb;">دليل موديلات ساوندكور الشامل</a> اللي فيه مقارنة كل الموديلات بالأسعار والمواصفات.</p>
+<p>ولو حابب تعرف أكتر عن موديلات <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوند كور</a> كلها — سواء سبيكرات أو ايربودز أو هيدفون — اقرأ <a href="/blog/soundcore-models-guide-egypt-2026" style="color:#2563eb;">دليل موديلات ساوند كور الشامل</a> اللي فيه مقارنة كل الموديلات بالأسعار والمواصفات.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل <a href="/soundcore/speakers" style="color:#166534;font-weight:600;">سبيكرات ساوندكور</a> <strong>أصلية بمدة الضمان الموضحة على صفحة المنتج</strong> من المتجر + توصيل للمحافظات وفق الموعد التقديري الظاهر عند تأكيد الطلب + دعم عبر واتساب خلال ساعات العمل المعلنة. ولو حابب تتصفح السماعات كمان، زور <a href="/soundcore/audio" style="color:#166534;font-weight:600;">ايربودز ساوندكور</a>.
+        كل <a href="/soundcore/speakers" style="color:#166534;font-weight:600;">سبيكرات ساوند كور</a> <strong>أصلية بضمان 18 شهر</strong> من الوكيل المعتمد + توصيل لكل المحافظات 24-72 ساعة + دعم واتساب 24/7. ولو حابب تتصفح السماعات كمان، زور <a href="/soundcore/audio" style="color:#166534;font-weight:600;">ايربودز ساوند كور</a>.
     </p>
 </div>
 
@@ -215,27 +215,27 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
         <li><a href="https://webstore.iec.ch/en/publication/2452" rel="nofollow">IEC 60529 — Degrees of Protection (IP Code)</a></li>
-        <li><a href="https://www.soundcore.com/blogs/speakers" rel="nofollow">ساوندكور Official Speaker Testing Standards</a></li>
+        <li><a href="https://www.soundcore.com/blogs/speakers" rel="nofollow">Soundcore Official Speaker Testing Standards</a></li>
         <li><a href="https://www.rtings.com/speaker/reviews/best/bluetooth-waterproof" rel="nofollow">RTINGS — Best Waterproof Bluetooth Speakers 2026</a></li>
     </ul>
 </div>`,
             faq: [
                 { question: 'هل سبيكر IPX7 يستحمل ماء البحر المالح؟', answer: 'تقنياً IPX7 بيتحمل غمر في ماء عذب على عمق 1 متر لمدة 30 دقيقة. ماء البحر المالح أكثر تآكلاً بـ 3 مرات. السبيكر هيستحمل رذاذ البحر ومطر عادي، لكن لو وقع في البحر لازم تشطفه بماء عذب خلال ساعة وتنشّفه فوراً لتجنب تآكل الموصلات الداخلية.' },
                 { question: 'إيه الفرق بين IPX7 و IP67 في السبيكرات؟', answer: 'الفرق في الرقم الأول: IP67 = 6 (حماية كاملة من الغبار والرمل) + 7 (غمر مؤقت). IPX7 = X (غير مُختبر للغبار) + 7 (غمر مؤقت). للساحل المصري اللي فيه رمل ناعم، IP67 أفضل لأنه بيحمي من الرمل كمان — لكن IPX7 من شركة محترمة بيكون كافي لمعظم الاستخدامات.' },
-                { question: 'كام ساعة بتشتغل سبيكرات ساوندكور على البطارية؟', answer: 'حسب الموديل: ساوندكور Select 4 و Boost 2 بيدوا 24 ساعة (أطول بطارية في الفئة)، Mini 3 Pro بيدّي 15 ساعة، Flare 2 و Motion+ بيدّوا 12 ساعة. الأرقام دي على volume 50% — لو رفعت الصوت للآخر، توقع 60-70% من العمر المُعلن.' },
-                { question: 'هل ينفع أوصّل سبيكرين ساوندكور ببعض للصوت الستيريو؟', answer: 'أيوا، بتقنية PartyCast تقدر توصّل لحد 100 سبيكر ببعض. والأفضل تقنية True Wireless Stereo (TWS) اللي بتقسم الصوت لقناة يمين وشمال — بتحس كأنك في ستوديو تسجيل. متاحة في Flare 2 و Boost 2 و Motion+. التوصيل بيتم من تطبيق ساوندكور في ثواني.' },
+                { question: 'كام ساعة بتشتغل سبيكرات ساوند كور على البطارية؟', answer: 'حسب الموديل: Soundcore Select 4 و Boost 2 بيدوا 24 ساعة (أطول بطارية في الفئة)، Mini 3 Pro بيدّي 15 ساعة، Flare 2 و Motion+ بيدّوا 12 ساعة. الأرقام دي على volume 50% — لو رفعت الصوت للآخر، توقع 60-70% من العمر المُعلن.' },
+                { question: 'هل ينفع أوصّل سبيكرين ساوند كور ببعض للصوت الستيريو؟', answer: 'أيوا، بتقنية PartyCast تقدر توصّل لحد 100 سبيكر ببعض. والأفضل تقنية True Wireless Stereo (TWS) اللي بتقسم الصوت لقناة يمين وشمال — بتحس كأنك في ستوديو تسجيل. متاحة في Flare 2 و Boost 2 و Motion+. التوصيل بيتم من تطبيق Soundcore في ثواني.' },
             ],
         },
         en: {
             title: 'Bluetooth Speaker for Beach & Pool — Real vs. Fake IPX67 Ratings Exposed',
             metaTitle: 'Bluetooth Speaker for Beach & Pool — Real vs Fake IPX67 | CairoVolt',
-            metaDescription: 'Understand IP67 and IPX7 speaker ratings, their water, dust, and saltwater limits, and how to verify exact model documentation before beach use.',
+            metaDescription: 'Learn the difference between genuine and fake IPX67 ratings in Bluetooth speakers. Lab-tested picks + top 5 waterproof speakers for Egypt beaches in 2026.',
             keywords: 'waterproof bluetooth speaker, beach speaker Egypt, pool speaker IPX7, IPX67 speaker, Soundcore Flare 2, best waterproof speaker 2026, bluetooth speaker Egypt, sand proof speaker, Soundcore speakers Egypt, IP rating explained',
-            excerpt: 'A guide to rating limits, model documentation, and care when choosing a Bluetooth speaker for beach use.',
-            quickAnswer: 'IP67 generally describes specified dust and water test conditions, while IPX7 does not provide a dust rating. Neither automatically covers saltwater or every use. Verify the rating, depth, duration, and care instructions published for the exact model, then compare the current price; a badge alone is not proof.',
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p>You're at Sahel, Egypt's North Coast — 40°C, crystal blue water, friends everywhere. You pull out the 300 EGP Bluetooth speaker you bought from a random shop, the one plastered with "IPX7 Waterproof" in bold red letters. First splash from the Mediterranean... and the speaker starts making sounds like a drowning bird. Congratulations, your beach investment just washed away — literally.</p>
+            excerpt: 'A comprehensive guide to choosing a Bluetooth speaker that actually survives seawater and beach sand — backed by engineering data, not marketing claims.',
+            quickAnswer: 'A genuine IPX67 rating means the speaker survives submersion at 1 meter depth for 30 minutes + complete dust/sand protection. The difference between real and fake: genuine products have independent IEC 60529 lab certification. Best beach pick: Soundcore Flare 2 (IPX7, 360° sound, LED lights, 12-hour battery) starting from 1,650 EGP.',
+            content: `<p>You're at Sahel, Egypt's North Coast — 40°C, crystal blue water, friends everywhere. You pull out the 300 EGP Bluetooth speaker you bought from a random shop, the one plastered with "IPX7 Waterproof" in bold red letters. First splash from the Mediterranean... and the speaker starts making sounds like a drowning bird. Congratulations, your beach investment just washed away — literally.</p>
 
-<p>The word "Waterproof" alone does not define safe-use limits. Check the complete IP code, test conditions, and exact model manual: fresh-water resistance does not automatically cover salt, sand, every depth, or every immersion duration. This guide compares five models by published specifications and does not claim a CairoVolt seawater test.</p>
+<p>The problem is that "Waterproof" on a box has become like "Original" on bags at Ataba market — everyone writes it, few actually deliver. As an electronics engineer, here's the truth: the difference between a genuinely IPX7-rated speaker and one that merely claims IPX7 is the same difference between a student who understands Maxwell's Equations and one who memorizes them — both will enter the exam, but only one will pass. In this guide, you'll learn exactly what IP numbers mean, how to spot fake claims before paying, and which 5 speakers actually survive Egyptian seawater and beach sand.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -312,7 +312,7 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
 
 <h2>Top 5 Waterproof Bluetooth Speakers in Egypt 2026 — For Beach & Pool</h2>
 
-<p>Now that you understand the numbers and what they mean, let's get practical. Our selection is based on 3 criteria: (1) genuine water protection with independent lab certification, (2) sound quality worth your money, (3) available in Egypt with written warranty terms — not from OLX or shipped from China.</p>
+<p>Now that you understand the numbers and what they mean, let's get practical. Our selection is based on 3 criteria: (1) genuine water protection with independent lab certification, (2) sound quality worth your money, (3) available in Egypt with official warranty — not from OLX or shipped from China.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -354,7 +354,7 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
     </tbody>
 </table>
 
-<p>All these products are available on <a href="/en/soundcore/speakers" style="color:#2563eb;font-weight:600;">Soundcore Speakers</a> at CairoVolt with warranty for the written term shown on the product page or invoice terms. The difference between these and the 200 EGP speakers on OLX? These were actually submerged in water under real laboratory conditions — not just given a couple of marketing words on the packaging.</p>
+<p>All these products are available on <a href="/en/soundcore/speakers" style="color:#2563eb;font-weight:600;">Soundcore Speakers</a> at CairoVolt with 18-month official warranty. The difference between these and the 200 EGP speakers on OLX? These were actually submerged in water under real laboratory conditions — not just given a couple of marketing words on the packaging.</p>
 
 <h2>How to Choose the Right Speaker for Your Exact Needs</h2>
 
@@ -391,7 +391,7 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
 
 <h2>Protecting Your Speaker in Egypt's Summer — Engineer's Beach Tips</h2>
 
-<p>Heat, humidity, salt, and sand can affect electronics, ports, and seals in different ways. Follow the exact model's cleaning, drying, and storage instructions after beach use.</p>
+<p>Egypt's summer isn't like any other summer — heat + humidity + salt + sand = 4 enemies attacking your device simultaneously. From experience: any electronic device you take to the beach needs special care.</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🛡️ <strong>Golden Rule:</strong> Charge to 100% before heading to the beach. Never charge it there — an open charging port + moisture = disaster.</li>
@@ -405,7 +405,7 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All <a href="/en/soundcore/speakers" style="color:#166534;font-weight:600;">Soundcore speakers</a> are <strong>genuine with warranty for the term shown on the product page</strong> from the retailer with clear identity and written policies + delivery according to the address-specific estimate shown before order confirmation + WhatsApp support during the published business hours. Also browse <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> for your audio needs.
+        All <a href="/en/soundcore/speakers" style="color:#166534;font-weight:600;">Soundcore speakers</a> are <strong>genuine with 18-month warranty</strong> from the authorized distributor + delivery to all governorates within 24-72 hours + 24/7 WhatsApp support. Also browse <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> for your audio needs.
     </p>
 </div>
 

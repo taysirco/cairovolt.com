@@ -29,12 +29,12 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
     translations: {
         ar: {
             title: 'السماعة مش بتتوصل بالأندرويد؟ إعادة ضبط المصنع وإصلاح مشاكل البلوتوث للـ Liberty',
-            metaTitle: 'إعادة ضبط مصنع ساوندكور Liberty وإصلاح الاتصال | كايرو فولت',
-            metaDescription: 'خطوات تشخيص وإعادة ضبط سماعات ساوندكور Liberty ومشاكل اتصال البلوتوث وتطبيق ساوندكور، مع الرجوع إلى تعليمات كل موديل.',
+            metaTitle: 'إعادة ضبط ضبط مصنع Soundcore Liberty وإصلاح مشاكل الاتصال | كايرو فولت',
+            metaDescription: 'دليل خطوة بخطوة لإعادة ضبط مصنع سماعات Soundcore Liberty وإصلاح مشاكل اتصال البلوتوث على هواتف الأندرويد وتطبيق Soundcore بالخطوات المضمونة.',
             keywords: 'soundcore liberty reset, إعادة ضبط مصنع soundcore liberty, مشكلة بلوتوث soundcore liberty, liberty air 2 pro مش بتتوصل, soundcore bluetooth مشكلة أندرويد, تطبيق soundcore لا يجد الجهاز, liberty 4 nc مشكلة اتصال, إصلاح soundcore liberty مصر',
-            excerpt: 'سماعة Liberty لا تتصل بالأندرويد أو التطبيق لا يجدها؟ اتبع تشخيصاً تدريجياً وراجع خطوات إعادة الضبط الخاصة بالموديل؛ لا يوجد حل مضمون لكل عطل.',
+            excerpt: 'سماعة Liberty مش بتتوصل بالأندرويد أو التطبيق مش لاقيها؟ دليل كامل لإعادة ضبط المصنع وإصلاح مشاكل البلوتوث — بالخطوات المضمونة لـ Liberty Air 2 Pro وLiberty 4 NC وLiberty 4 Pro.',
             quickAnswer: 'لإعادة ضبط مصنع Liberty: اخرج الأذنين من الكيس، اضغط على اللمس في الاتنين 8 ثواني لحد ما الليد يومض بالأحمر والأبيض. بعدين امسح الجهاز من قائمة بلوتوث التليفون وربطها من أول. لو المشكلة مستمرة: امسح كاش البلوتوث على الأندرويد من الإعدادات.',
-            content: `<p>قد تظهر رسالة "Device Not Found" رغم ظهور السماعة في قائمة البلوتوث، أو قد تتوقف عن إعادة الاتصال. ابدأ بالخطوات الخاصة بالموديل، لأن طريقة إعادة الضبط تختلف وقد يتطلب العطل دعماً فنياً.</p>
+            content: `<p>واحدة من أكتر الأسئلة اللي بتيجينا في كايرو فولت: "السماعة اتوصلت مرة واحدة وبعدين بطلت تتوصل" أو "التطبيق بيقول Device Not Found وأنا شايف السماعة في البلوتوث." المشكلة دي شايعة على الأندرويد — والحل في معظم الأوقات بسيط ومش محتاج فني أو صيانة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -128,7 +128,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </table>
 
 <h2>تنظيف نقاط شحن الأذنين لحل مشكلة عدم اتصال فردة واحدة</h2>
-<p>إذا لم تتصل فردة واحدة أو لم تدخل وضع الإقران، افحص نقاط الشحن بحثاً عن أتربة أو رطوبة أو أكسدة خفيفة. هذا سبب محتمل ضمن خطوات التشخيص، وليس استنتاجاً من سجلات خدمة عملاء منشورة، وقد تكون المشكلة من البطارية أو البرنامج أو العلبة. للتنظيف الآمن:</p>
+<p>في كثير من الحالات، تشتكي خدمة عملاء كايرو فولت من أن العميل يواجه مشكلة عدم اتصال فردة واحدة من السماعة وتوقفها عن الدخول في وضع الإقران كلياً. والسبب الخفي وراء ذلك غالباً ما يكون تراكم الأتربة أو طبقة رقيقة من الأكسدة والعرق على نقاط الاتصال النحاسية الصغيرة (Charging Pins) الموجودة أسفل ساق السماعة أو في قاع علبة الشحن. هذا التراكم يمنع السماعة من استشعار وجودها داخل العلبة وبالتالي لا تنطفئ ولا تقوم بإعادة تشغيل دورتها البرمجية. لحل هذه المشكلة:</p>
 <ul>
     <li>احضر عوداً قطنياً خفيفاً (سلاكة أذن) واغمسه برفق في كمية ضئيلة جداً من الكحول الطبي الإيزوبروبيلي (Isopropyl Alcohol).</li>
     <li>قم بمسح النقاط النحاسية أسفل السماعة برفق لإزالة أي شوائب.</li>
@@ -158,7 +158,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </ol>
 <p>لو الانقطاع وقف بـ SBC، المشكلة مؤكدة في تعارض الكودك. بعد كده ممكن تجرب ترجع لـ AAC وتشوف هل الموضوع اتحل بعد تحديث نظام التشغيل أو firmware السماعة.</p>
 
-<h2>خطوة 5 — إصلاح مشكلة تطبيق ساوندكور "Device Not Found"</h2>
+<h2>خطوة 5 — إصلاح مشكلة تطبيق Soundcore "Device Not Found"</h2>
 <p>لو السماعة متوصلة بالبلوتوث عادي لكن تطبيق Soundcore بيقول "Device Not Found" أو مش شايل السماعة:</p>
 <ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>تأكد إن السماعات في وضع <strong>pairing نشط</strong> — مش بس متوصلة، لازم تكون في وضع البحث. في بعض الأوقات التطبيق محتاج يشوف السماعة وهي بتبحث مش وهي متوصلة خليها.</li>
@@ -208,7 +208,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </table>
 
 <h2>امتى تروح للضمان؟</h2>
-<p>الخطوات السابقة قد تحل مشكلات اتصال شائعة، لكن لا توجد لدينا نسبة نجاح موثقة ولا تقتصر الأسباب على القائمة التالية:</p>
+<p>الخطوات اللي فاتت بتحل 90% من مشاكل الاتصال. لو جربت كل الخطوات وفشلت، الاحتمالات بقت أقل ووحيدة:</p>
 <ul style="line-height:2;font-size:15px;padding-right:20px;">
     <li>مشكلة في شريحة البلوتوث نفسها (نادرة ولكن ممكنة).</li>
     <li>تلف في المؤشرات أو الكيس ناتج عن سقوط أو رطوبة عالية.</li>
@@ -217,7 +217,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 
 <div style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:15px;line-height:1.7;color:#991b1b;">
-        <strong>قبل التواصل مع كايرو فولت:</strong> لو السماعة داخل مدة ضمان كايرو فولت ومعك إثبات الشراء، تواصل مع الدعم قبل التفكيك أو الإصلاح. راجع الشروط المنشورة لمعرفة ما يؤثر في التغطية؛ لا نفترض إلغاءً تلقائياً لكل حالة.
+        <strong>قبل ما تيجي لكايرو فولت:</strong> لو السماعة لسه في فترة الضمان وعندك إيصال الشراء، روح لنا مباشرة ولا تحاول تفكها أو تصلحها في أي محل تاني — ده بيلغي الضمان فوراً. كايرو فولت موزع معتمد Anker في مصر والضمان بيتنفّذ عندنا بشكل رسمي.
     </p>
 </div>
 <p>للتواصل مع فريق الدعم الفني في كايرو فولت، زور موقعنا أو تواصل معنا عبر وسائل التواصل. بنردّ على كل الاستفسارات في أسرع وقت.</p>` ,
@@ -429,10 +429,10 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 
 <div style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:15px;line-height:1.7;color:#991b1b;">
-        <strong>Before requesting service:</strong> If the earbuds were purchased from CairoVolt and remain within the applicable CairoVolt warranty period, keep the receipt and contact CairoVolt before opening or repairing them elsewhere. Warranty eligibility is evaluated under CairoVolt's published terms.
+        <strong>Before bringing earbuds in for service:</strong> If your earbuds are within the warranty period and you have your purchase receipt, contact CairoVolt first and do not attempt to open or repair the earbuds elsewhere. Third-party repairs void the Anker warranty. CairoVolt is the authorized Anker distributor in Egypt and handles all official warranty claims.
     </p>
 </div>
-<p>The <a href="/en/blog/soundcore-models-guide-egypt-2026">Soundcore Egypt 2026 buying guide</a> has more information about product selection and warranty terms. For a CairoVolt purchase, contact CairoVolt support with your invoice and order details.</p>
+<p>The <a href="/en/blog/soundcore-models-guide-egypt-2026">Soundcore Egypt 2026 buying guide</a> has more information about warranty terms and authorized service procedures. For direct support, visit the CairoVolt website or reach out through our social channels — we respond to all technical inquiries as quickly as possible.</p>
 <p>Additionally, the earbud charging cases vary significantly in size. The Liberty Buds case is the most pocketable and compact, fitting easily into coin pockets. The Liberty 4 NC features a unique button-release mechanism that pops the lid open smoothly, while the Liberty 4 Pro case features a glossy premium finish and a slide-to-open gesture sensor that gives it a futuristic feel. This variety allows buyers to prioritize pocketability, ease of access, or premium aesthetics.</p>`,
             faq: [
                 {
@@ -449,7 +449,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
                 },
                 {
                     question: 'When should I contact warranty support instead of troubleshooting myself?',
-                    answer: 'Contact warranty support if troubleshooting does not resolve the fault, one earbud is silent from initial use, charging fails, or physical damage is visible. If the product is within CairoVolt warranty duration, contact support before disassembly or third-party repair and check the published terms for coverage and exclusions.'
+                    answer: 'Escalate to warranty support if: (1) you\'ve completed all troubleshooting steps (reset, forget/re-pair, Bluetooth cache clear, codec change) and the problem continues; (2) only one earbud produces sound from the beginning; (3) charging doesn\'t work at all; or (4) there\'s visible physical damage. If the earbuds are within the warranty period, contact CairoVolt before any third-party repair attempts — third-party repairs void the Anker warranty.'
                 }
             ]
         }

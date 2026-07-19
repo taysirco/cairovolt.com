@@ -75,7 +75,7 @@ export const vape_18650_external_charger_importance_safety: BlogArticle = {
 <p>تحتوي الشواحن الخارجية المعتمدة من شركات عالمية متخصصة (مثل Nitecore أو Xtar أو Golisi) على معالجات دقيقة مخصصة لكل حارة شحن منفصلة (Independent Charging Slots). يقوم الشاحن الخارجي بالآتي:</p>
 <ol style="line-height:2;">
     <li><strong>شحن مستقل ومنظم (CC/CV Charging):</strong> يتم شحن كل خلية بمفردها تماماً وبناءً على حالتها الفولطية الخاصة، مع تتبع دقيق لمنحنى الشحن المستمر والجهد المستمر وتخفيض التيار عند الاقتراب من الامتلاء.</li>
-    <li><strong>مراقبة كل خلية:</strong> بعض الشواحن تعرض جهد كل فتحة وتنهي الشحن وفق حدودها المصممة. هذا يساعد على اكتشاف عدم التوازن، لكنه لا يضمن جهداً متطابقاً تماماً أو مضاعفة عمر الخلايا؛ اتبع حدود الشركة المصنّعة ولا تستخدم خلايا تالفة أو غير متطابقة.</li>
+    <li><strong>موازنة الجهد التلقائية (Active Cell Balancing):</strong> يضمن خروج البطاريتين بجهد متطابق تماماً (مثلاً 4.20V لكل منهما) قبل تركيبهما في المود، مما يحافظ على التوازن الكهربائي المثالي أثناء الاستخدام ويطيل عمر البطاريات لضعف المدة.</li>
     <li><strong>فحص المقاومة الداخلية ورصد الخلايا التالفة:</strong> تقوم الشواحن المتطورة بقياس المقاومة الداخلية (Internal Resistance) للخلية بالملي أوم. إذا كانت البطارية قديمة أو مقلدة ومقاومتها مرتفعة جداً، يرفض الشاحن شحنها ويظهر تنبيه الخطأ (Err) لتفادي استخدامها ومخاطر انفجارها في وجه المستخدم.</li>
     <li><strong>حماية القطبية المعكوسة (Reverse Polarity Protection):</strong> إذا قمت بتركيب البطارية مقلوبة بالخطأ في الشاحن الخارجي، فلن يحدث أي تلامس أو شرارة بفضل الفصل الإلكتروني التلقائي للحارة المتضررة.</li>
 </ol>
@@ -89,7 +89,7 @@ export const vape_18650_external_charger_importance_safety: BlogArticle = {
 <p>توصيل المود بالكهرباء والبطارية بغلاف ممزق يتيح للمعدن المكشوف ملامسة جدران المود الداخلية أو النوابض الحديدية بشكل مباشر. هذا يسبب قصر كهربائي مباشر (Hard Short) يمرر مئات الأمبيرات في أجزاء من الثانية، مما يؤدي فوراً لانفجار خلية الليثيوم العارية وتوليد حريق لا يمكن إطفاؤه بالماء التقليدي.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 نصيحة مهندسي كايرو فولت لسلامة الفيب وبطاريات 18650:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 نصيحة هندسية لسلامة الفيب وبطاريات 18650:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
         احرص دائماً على فحص غلاف بطاريات الفيب البصري بشكل يومي. إذا وجدت أي تمزق أو خدش ولو بمساحة ملليمتر واحد في الغلاف أو فقدان الحلقة الورقية العازلة بالأعلى، لا تضع البطارية في المود ولا تشحنها أبداً. اشترِ أغلفة بلاستيكية بديلة (Wraps) وقم بإعادة تغليفها باستخدام مجفف الشعر الساخن في دقائق لحماية نفسك وساعتك وجهازك من كوارث التماس الكهربائي.
     </p>
@@ -190,7 +190,7 @@ export const vape_18650_external_charger_importance_safety: BlogArticle = {
 <p>Dedicated external chargers from reputable manufacturers (such as Nitecore, Xtar, or Golisi) feature dedicated microprocessors for each independent charging bay. They safeguard your batteries through several mechanisms:</p>
 <ol style="line-height:2;">
     <li><strong>Independent CC/CV Charging:</strong> Each cell is monitored and charged individually according to its own voltage curve, switching from Constant Current (CC) to Constant Voltage (CV) and tapering current as saturation approaches.</li>
-    <li><strong>Per-cell monitoring:</strong> Some chargers display each slot's voltage and terminate charging within their designed limits. This can help identify imbalance, but it does not guarantee identical voltage or double cell life; follow the cell maker's limits and do not pair damaged or mismatched cells.</li>
+    <li><strong>Active Voltage Balancing:</strong> The charger ensures both cells reach an identical 4.20V state of charge before they are placed back in the mod, preserving balance and doubling overall battery lifespan.</li>
     <li><strong>Internal Resistance Auditing:</strong> Smart chargers measure cell internal resistance in milliohms. If a battery is fake, damaged, or aging, the charger flags it with an error ("Err") code, letting you know it is no longer safe for high-drain vaping.</li>
     <li><strong>Reverse Polarity Protection:</strong> If you place a battery in backward, the charger cuts power to that slot immediately, preventing shorts and sparking.</li>
 </ol>

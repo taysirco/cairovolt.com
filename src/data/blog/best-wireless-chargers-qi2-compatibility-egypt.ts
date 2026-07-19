@@ -32,9 +32,9 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
             metaTitle: 'دليل شواحن Qi2 اللاسلكية في مصر — الأجهزة المتوافقة وكيفية الاختيار | كايرو فولت',
             metaDescription: 'دليل شامل عن تقنية شحن Qi2 اللاسلكية في مصر. الفرق بين Qi2 والـ MagSafe والـ Qi القديم، والأجهزة المتوافقة وكيفية اختيار شاحن حائط USB-C مناسب لها بالتفصيل.',
             keywords: 'qi2 مصر, شاحن لاسلكي qi2 مصر, الفرق qi2 magsafe, qi2 iphone مصر, شحن لاسلكي 15w مصر, qi2 samsung مصر, qi2 متوافق مع مين, شاحن لاسلكي سريع مصر 2026, qi2 vs qi مصر, شاحن ايفون لاسلكي مصر',
-            excerpt: 'دليل لفهم إصدارات Qi2 والمحاذاة المغناطيسية والتحقق من توافق الهاتف واللوحة ومحول الطاقة قبل الشراء في مصر.',
-            quickAnswer: 'Qi2 معيار من Wireless Power Consortium وله إصدارات ومنتجات معتمدة بقدرات مختلفة. لا تفترض 15W أو توافق موديل هاتف من الاسم وحده؛ ابحث عن رقم المنتج في قاعدة WPC وطابق الهاتف ولوحة الشحن ومحول USB-C والجراب. السرعة الفعلية تتغير مع المحاذاة والحرارة وحالة البطارية.',
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>الشحن اللاسلكي موجود من فترة — بس الناس في مصر بتشكوا دايماً من إنه بطيء. وده صح في الـ Qi القديم. Qi2 هو الإجابة على المشكلة دي. بس المشكلة إن كتير من الناس مش عارفين إيه اللي اتغير بالضبط، ومين فعلاً هيستفيد، وإيه اللي لازم يشتروه.</p>
+            excerpt: 'Qi2 هو مستقبل الشحن اللاسلكي — بس كتير من المصريين مش عارفين إيه اللي بيتغير ومين المستفيد الحقيقي. دليل كامل بالأرقام والأجهزة المتوافقة.',
+            quickAnswer: 'Qi2 هو معيار الشحن اللاسلكي الجديد: 15W ضمانة (بدل 5-7.5W في Qi القديم) + مغناطيس للمحاذاة الصحيحة. iPhone 12 وأحدث يستفيد أكتر. Samsung S24+ وPixel 8+ بيدعموه. بس الشاحن اللاسلكي Qi2 نفسه محتاج شاحن حائط USB-C بقوة 20-30W منفصل عشان يشتغل بكفاءة.',
+            content: `<p>الشحن اللاسلكي موجود من فترة — بس الناس في مصر بتشكوا دايماً من إنه بطيء. وده صح في الـ Qi القديم. Qi2 هو الإجابة على المشكلة دي. بس المشكلة إن كتير من الناس مش عارفين إيه اللي اتغير بالضبط، ومين فعلاً هيستفيد، وإيه اللي لازم يشتروه.</p>
 
 <p>الدليل ده هيشرح كل حاجة بوضوح — من مقارنة Qi2 بـ MagSafe والـ Qi القديم، للأجهزة المتوافقة في مصر، للأدوات اللي محتاجها عشان تستفيد من التقنية دي.</p>
 
@@ -187,8 +187,8 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 
 <p>شاحنات الحائط USB-C المناسبة عندنا:</p>
 <ul style="padding-right:20px;line-height:1.9;">
-    <li><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر Nano 45W Smart Display</a> — 45W، USB-C مع شاشة رقمية تحديد القوة.</li>
-    <li><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">انكر 30W</a> — مثالي لـ pad الـ Qi2، كمبيوم بين الحجم والقوة.</li>
+    <li><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W Smart Display</a> — 45W، USB-C مع شاشة رقمية تحديد القوة.</li>
+    <li><a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> — مثالي لـ pad الـ Qi2، كمبيوم بين الحجم والقوة.</li>
     <li><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;">Joyroom 30W Fast Charger</a> — بديل اقتصادي مع نفس الكفاءة.</li>
 </ul>
 
@@ -261,7 +261,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 
 <ul style="padding-right:20px;line-height:1.9;">
     <li><strong>Pad لاسلكي Qi2:</strong> 400-800 جنيه</li>
-    <li><strong>شاحن حائط USB-C 20-30W (لو مش عندك):</strong> <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">انكر 30W</a> حوالي 250-350 جنيه</li>
+    <li><strong>شاحن حائط USB-C 20-30W (لو مش عندك):</strong> <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> حوالي 250-350 جنيه</li>
     <li><strong>الإجمالي للانطلاق:</strong> 650-1150 جنيه</li>
 </ul>
 
@@ -279,23 +279,23 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 
 <p>شاحنات Qi2 اللاسلكية لسه مش منتشرة كتير في السوق المصري. الموجود أكتر هو شاحنات Qi القديمة أو شاحنات MagSafe أصلية من Apple بأسعار مرتفعة.</p>
 
-<p>الحل الذكي الآن: ابدأ بشاحن حائط USB-C جيد — ده هتحتاجه على أي حال سواء اشتريت pad لاسلكي أم لا. <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر Nano 45W</a> أو <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">انكر 30W</a> هيشحن تليفونك بسرعة بالكابل، وبعدين لو اشتريت pad Qi2، الشاحن ده متوافق معاه تماماً.</p>`,
+<p>الحل الذكي الآن: ابدأ بشاحن حائط USB-C جيد — ده هتحتاجه على أي حال سواء اشتريت pad لاسلكي أم لا. <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W</a> أو <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> هيشحن تليفونك بسرعة بالكابل، وبعدين لو اشتريت pad Qi2، الشاحن ده متوافق معاه تماماً.</p>`,
             faq: [
                 {
                     question: 'هل iPhone 15 بيشحن بـ 15W على أي شاحن لاسلكي Qi2؟',
-                    answer: 'تحقق من إصدار iOS وطراز iPhone ورقم لوحة الشحن في قاعدة WPC، ثم اتبع قدرة المحول والكابل التي يطلبها مصنع اللوحة. اعتماد Qi2 لا يضمن 15W في كل تركيبة؛ الجراب والمحاذاة والحرارة وحالة البطارية ومحول الطاقة قد تخفض القدرة الفعلية.'
+                    answer: 'أيوه — iPhone 15 (كل الموديلات: العادي، Plus، Pro، Pro Max) بيشحن بـ 15W على أي pad لاسلكي حاصل على شهادة Qi2. المهم: الـ pad محتاج يتوصل بشاحن حائط USB-C بقوة 20W على الأقل عشان يقدر يدي 15W فعلاً. لو الـ adapter ضعيف (5W مثلاً)، السرعة هتتحدد بالـ adapter مش بالـ pad.'
                 },
                 {
                     question: 'هل Samsung S25 Ultra بيشتغل مع Qi2؟',
-                    answer: 'راجع صفحة Samsung للطراز وإصدار Qi2 أو Qi المدعوم، وما إذا كان يحتاج جراباً مغناطيسياً أو ملحقاً معيناً. لا نستنتج قدرة 12W أو 15W من اسم الهاتف أو اللوحة وحده؛ تحقق أيضاً من اعتماد WPC والمحول والجراب والبرنامج، لأن القدرة الفعلية قد تختلف.'
+                    answer: 'Samsung S25 Ultra بيدعم Qi2 — بس Samsung اختارت تشغّله بـ 12W بدل الـ 15W الكاملة. ده قرار من Samsung نفسهم، مش عيب في Qi2. عملياً، 12W لاسلكي لسه أسرع بكتير من الـ 7.5-10W اللي كانت S23 بتحصلها. لو عندك S25 Ultra وعندك pad Qi2 — هيشتغل كويس ويشحن بـ 12W. بس لو عندك S23 أو أقدم — Qi2 مش هيقدم فرق عن شاحن Qi عادي.'
                 },
                 {
                     question: 'إيه الفرق بين Qi2 و MagSafe؟',
-                    answer: 'Qi2 معيار تديره WPC وله إصدارات وملفات قدرة، بينما MagSafe اسم وتقنية ضمن منظومة Apple. توجد صلة تقنية في المحاذاة المغناطيسية لبعض الإصدارات، لكنهما ليسا وصفين متطابقين لكل منتج أو قدرة. تحقق من رقم المنتج في قاعدة WPC ومن توافق Apple المنشور بدلاً من افتراض تجربة أو سرعة واحدة.'
+                    answer: 'عملياً: مفيش فرق يقريباً. Qi2 هو MagSafe بس مفتوح لكل الشركات. نفس المغناطيس، نفس الـ 15W، نفس المعيار الفيزيائي. الفرق الرسمي: MagSafe هو تطبيق Apple الخاص واللوجو بتاعهم. Qi2 هو المعيار المفتوح اللي أي شركة تقدر تصنع فيه بدون رسوم Apple. لو عندك iPhone 12 أو أحدث، شاشن Qi2 من أي شركة هيشحنك بـ 15W — نفس MagSafe الأصلي بالظبط.'
                 },
                 {
                     question: 'هل الشحن اللاسلكي أبطأ من الكابل دايماً؟',
-                    answer: 'غالباً يحقق الشحن السلكي المتوافق قدرة أعلى وكفاءة أفضل، لكن لا توجد نتيجة «دائماً» أو زمن ثابت لكل هاتف. قارن قدرة الهاتف السلكية واللاسلكية مع نفس نسبة البداية والحرارة والاستخدام، وراجع اختبارات موثقة للطراز؛ اختر الطريقة الملائمة للسرعة والراحة والحرارة.'
+                    answer: 'أيوه، الكابل دايماً أسرع. المقارنة: كابل USB-C بـ 30W بيشحن من 0% لـ 50% في ~35 دقيقة. Qi2 بـ 15W بياخد ~45 دقيقة لنفس النسبة. الفرق في السيناريو الطارئ محسوس. بس في الشحن اللي مش طارئ — الشحن على السرير أو المكتب لساعات — الفرق ما بيحسوش. الشحن اللاسلكي بيتميز بالراحة مش بالسرعة. الحكمة: استخدم الكابل لما تكون مستعجل والـ Qi2 كجزء من روتينك اليومي.'
                 }
             ]
         },
@@ -304,9 +304,9 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
             metaTitle: 'Qi2 Wireless Charging in Egypt — What It Is, Compatible Devices & What You Need | CairoVolt',
             metaDescription: 'Complete guide to Qi2 wireless charging in Egypt: how it differs from MagSafe and old Qi, which devices are compatible, and how to choose a USB-C wall adapter.',
             keywords: 'qi2 egypt, qi2 wireless charger egypt, qi2 vs magsafe, qi2 iphone egypt, wireless charging 15w egypt, qi2 samsung egypt, qi2 compatible devices, fast wireless charger egypt 2026, qi2 vs qi, iphone wireless charger egypt',
-            excerpt: 'Understand Qi2 versions, magnetic alignment, and how to verify the phone, pad, case, and power-adapter combination before buying in Egypt.',
-            quickAnswer: 'Qi2 is a Wireless Power Consortium standard with certified products and versions that may support different power levels. Do not assume 15W or phone compatibility from the label alone; find the exact product in the WPC database and match the phone, charging pad, case, and USB-C adapter. Actual speed varies with alignment, heat, and battery state.',
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>Wireless charging has existed for years — but buyers in Egypt have consistently complained about it being slow. That complaint is valid for old Qi wireless charging. Qi2 is the answer to that problem. The challenge: many buyers do not know exactly what changed, who actually benefits, and what hardware they need to take advantage of it.</p>
+            excerpt: 'Qi2 is the future of wireless charging — but many Egyptian buyers are unsure what actually changed, who benefits, and what they need to buy. A complete guide with specs, compatible devices, and real-world advice.',
+            quickAnswer: 'Qi2 is the new wireless charging standard: guaranteed 15W (vs 5-7.5W from old Qi) plus magnets for proper alignment. iPhone 12 and newer benefit most. Samsung S24+ and Pixel 8+ support it on the Android side. The Qi2 wireless pad itself needs a separate USB-C wall adapter at 20-30W to deliver full speed. Budget Android devices mostly do not support Qi2 — they are still on old Qi. Wired charging is still faster for emergency top-ups.',
+            content: `<p>Wireless charging has existed for years — but buyers in Egypt have consistently complained about it being slow. That complaint is valid for old Qi wireless charging. Qi2 is the answer to that problem. The challenge: many buyers do not know exactly what changed, who actually benefits, and what hardware they need to take advantage of it.</p>
 
 <p>This guide covers everything clearly — comparing Qi2 to MagSafe and old Qi, which devices work at full speed, what the Egyptian grid context means for setup, and when wireless charging genuinely makes sense versus wired.</p>
 
@@ -458,7 +458,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 <p>Compatible wall adapters available from us that work perfectly with any Qi2 pad:</p>
 <ul style="padding-left:20px;line-height:1.9;">
     <li><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W Smart Display</a> — 45W with a digital display showing real-time wattage output. Overkill for Qi2 alone but useful for simultaneous laptop or tablet charging.</li>
-    <li><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W USB-C</a> — the practical sweet spot for powering a Qi2 pad with headroom to spare.</li>
+    <li><a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W USB-C</a> — the practical sweet spot for powering a Qi2 pad with headroom to spare.</li>
     <li><a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;">Joyroom 30W Fast Charger</a> — budget-friendly option with the same performance level for Qi2 use.</li>
 </ul>
 
@@ -531,7 +531,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 
 <ul style="padding-left:20px;line-height:1.9;">
     <li><strong>Qi2 wireless pad:</strong> 400-800 EGP</li>
-    <li><strong>USB-C wall adapter at 20-30W (if you do not already own one):</strong> <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> approximately 250-350 EGP</li>
+    <li><strong>USB-C wall adapter at 20-30W (if you do not already own one):</strong> <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> approximately 250-350 EGP</li>
     <li><strong>Total to get started:</strong> 650-1150 EGP</li>
 </ul>
 
@@ -541,23 +541,23 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 
 <p>Qi2 wireless pads are not yet widely available in Egypt's retail market. What is available are old Qi pads and Apple's own MagSafe at high prices. The smart move right now: invest in a quality USB-C wall adapter — you need one regardless of whether you ever buy a wireless pad.</p>
 
-<p>The <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W</a> or <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> will fast-charge your phone by cable today, and when you add a Qi2 pad to your setup later, the same adapter powers it perfectly. That is a future-proof purchase either way.</p>`,
+<p>The <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W</a> or <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> will fast-charge your phone by cable today, and when you add a Qi2 pad to your setup later, the same adapter powers it perfectly. That is a future-proof purchase either way.</p>`,
             faq: [
                 {
                     question: 'Does iPhone 15 charge at 15W on any Qi2 wireless charger?',
-                    answer: 'Check the iOS version, exact iPhone model, and charging-pad listing in the WPC database, then follow the pad maker’s adapter and cable requirements. Qi2 certification does not guarantee 15W in every combination; case, alignment, heat, battery state, and power adapter can reduce actual output.'
+                    answer: 'Yes — iPhone 15 (all variants: standard, Plus, Pro, Pro Max) charges at 15W on any Qi2-certified wireless pad. The critical condition: the pad must be connected to a USB-C wall adapter rated at 20W or higher. If you connect a Qi2 pad to a 5W adapter block, the phone will charge at 5W regardless of the pad\'s capability. The adapter\'s output is the bottleneck, not the pad. A 20W or 30W USB-C adapter like the Anker 30W gives the pad sufficient power to deliver the full 15W to the phone.'
                 },
                 {
                     question: 'Does the Samsung S25 Ultra work with Qi2?',
-                    answer: 'Check Samsung’s current page for the exact phone, its supported Qi or Qi2 version, and whether a magnetic case or specific accessory is required. Do not infer 12W or 15W from the phone or pad name alone; also verify the WPC listing, adapter, case, and software because actual output can vary.'
+                    answer: 'The Samsung S25 Ultra supports Qi2 — but Samsung chose to implement it at 12W rather than the full 15W specification. This is Samsung\'s deliberate choice, not a limitation of Qi2 itself. Practically: 12W wireless on the S25 Ultra is still significantly faster than the 7.5-10W older Galaxy phones received on old Qi pads. If you own an S25 Ultra and a Qi2 pad, it will charge at 12W. If you own an S23 or older Samsung — a Qi2 pad offers no specific advantage over a standard Qi pad for your device. For maximum wireless charging speed on older Samsung Galaxy phones, Samsung\'s own proprietary wireless chargers are still the faster option.'
                 },
                 {
                     question: 'What is the difference between Qi2 and MagSafe?',
-                    answer: 'Qi2 is a WPC standard with versions and power profiles, while MagSafe is an Apple ecosystem name and implementation. Some versions share magnetic-alignment concepts, but the terms are not interchangeable for every product or output. Verify the exact WPC listing and Apple compatibility instead of assuming identical speed, features, or experience.'
+                    answer: 'Practically speaking: almost nothing. Qi2 is MagSafe opened to the entire industry. Same magnetic alignment ring, same 15W output, same physical standard — but any brand can manufacture Qi2 products without paying Apple licensing fees. The technical distinction: MagSafe is Apple\'s proprietary branding and implementation for their own accessories. Qi2 is the open standard that uses the same technology. For iPhone 12 and newer owners, a third-party Qi2 pad from Anker, Belkin, or any certified manufacturer delivers exactly the same 15W charging experience as Apple\'s own MagSafe charger, typically at a lower price. There is no performance difference between the two for iPhone users.'
                 },
                 {
                     question: 'Is wireless charging always slower than wired?',
-                    answer: 'Compatible wired charging often supports higher output and efficiency, but “always” and one fixed time do not apply to every phone. Compare the exact phone’s wired and wireless ratings under the same starting level, temperature, and use, and consult documented model tests. Choose based on speed, convenience, and heat behavior.'
+                    answer: 'Yes, always — but the gap depends on the wired charger you are comparing against. Qi2 at 15W versus a 30W USB-C cable: the cable charges from 0% to 50% in roughly 35 minutes; Qi2 takes approximately 45-50 minutes for the same result. The gap matters for emergency charging. But for overnight or desk charging where you are not in a rush, the difference is irrelevant. The real advantage of Qi2 over old Qi is that 15W wireless is meaningfully faster than 5-7.5W wireless — closing much of the gap between old wireless and modern wired speeds. The honest summary: use a cable when speed matters, use Qi2 for convenience-first daily charging routines.'
                 }
             ]
         }

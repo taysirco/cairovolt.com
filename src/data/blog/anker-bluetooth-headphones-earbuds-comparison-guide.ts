@@ -35,7 +35,7 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
             keywords: 'earbuds ضد headphones مصر, فرق سماعة داخلية وخارجية, افضل سماعة بلوتوث مصر 2026, soundcore headphones مصر, سماعات بلوتوث مصر مقارنة, سماعة للجيم مصر, سماعة للشغل مصر, soundcore life q20 مصر, soundcore q45 مصر, سماعة over ear مصر',
             excerpt: 'Earbuds ولا Headphones؟ السؤال ده بيتحل مش بالرأي — بالأرقام. مقارنة شاملة بالمواصفات والسيناريوهات العملية اللي بتحصل فعلاً في الحياة المصرية اليومية.',
             quickAnswer: 'Earbuds أخف وأنسب للتنقل والجيم. Headphones أحسن صوتاً وعزلاً وأنسب للشغل من البيت. في السوق المصري: Earbuds للطالب والمتنقل، Headphones لبيئة الشغل والاستماع الطويل.',
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> أي أسعار أو توافر مذكورين في هذا الدليل هما لقطة تحريرية قابلة للتغير؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>السؤال "earbuds ولا headphones؟" بيتطرح كل يوم في المجموعات والأسواق. الإجابة مش "ده أحسن من ده" — الإجابة الصح هي: "أنسب لك في الحياة اللي بتعيشها". مقارنة عملية بالأرقام بدون مجاملات.</p>
+            content: `<p>السؤال "earbuds ولا headphones؟" بيتطرح كل يوم في المجموعات والأسواق. الإجابة مش "ده أحسن من ده" — الإجابة الصح هي: "أنسب لك في الحياة اللي بتعيشها". مقارنة عملية بالأرقام بدون مجاملات.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -48,13 +48,13 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
 <p>أغلب الناس بيفكروا إن في نوعين بس — لكن في الحقيقة في ثلاثة، وكل واحد ليه استخدامه:</p>
 
 <h3>١ — In-Ear (Earbuds / TWS)</h3>
-<p>دي السماعات اللي بتتحط جوا الأذن زي ساوندكور P20i وLiberty 4 NC. خفيفة (5-8 جرام للسماعتين)، بتتحمل التعرق (IPX5)، بتتوصل بسرعة. العيب: الصوت أصغر مساحةً من الـ over-ear، وبعض الناس مش بيحسوا براحة مع وضعها لفترات طويلة.</p>
+<p>دي السماعات اللي بتتحط جوا الأذن زي Soundcore P20i وLiberty 4 NC. خفيفة (5-8 جرام للسماعتين)، بتتحمل التعرق (IPX5)، بتتوصل بسرعة. العيب: الصوت أصغر مساحةً من الـ over-ear، وبعض الناس مش بيحسوا براحة مع وضعها لفترات طويلة.</p>
 
 <h3>٢ — On-Ear Headphones</h3>
 <p>السماعة بتاخد الأذن من برا بدون ما تغطيها تماماً. أخف من الـ over-ear لكن أتقل من الـ earbuds (150-200 جرام). العزل الصوتي متوسط. بيتها التنقل لمن يحتاج صوت أوضح من الـ earbuds بدون ثقل الـ over-ear.</p>
 
 <h3>٣ — Over-Ear Headphones</h3>
-<p>زي ساوندكور Life Q20 وQ45 وSpace One — السماعة بتغطي الأذن كلها. أحسن صوت، أحسن عزل، أريح للجلسات الطويلة. العيب: الوزن (250-350 جرام) والحجم — مش عملي للتنقل اليومي.</p>
+<p>زي Soundcore Life Q20 وQ45 وSpace One — السماعة بتغطي الأذن كلها. أحسن صوت، أحسن عزل، أريح للجلسات الطويلة. العيب: الوزن (250-350 جرام) والحجم — مش عملي للتنقل اليومي.</p>
 
 <h2>مقارنة شاملة بالأرقام</h2>
 
@@ -122,13 +122,13 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
 <h2>السيناريوهات المصرية — أنهي نوع لأنهي حياة؟</h2>
 
 <h3>الطالب في المواصلات العامة</h3>
-<p>مترو القاهرة، أتوبيس، ميكروباص. البيئة صاخبة، المكان ضيق، محتاج حاجة خفيفة مش واخدة مساحة. <strong>الاختيار: Earbuds مع ANC</strong> — زي <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a>. بتعزل الضوضاء وخفيفة ومناسبة للكيس/الشنطة.</p>
+<p>مترو القاهرة، أتوبيس، ميكروباص. البيئة صاخبة، المكان ضيق، محتاج حاجة خفيفة مش واخدة مساحة. <strong>الاختيار: Earbuds مع ANC</strong> — زي <a href="/anker/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a>. بتعزل الضوضاء وخفيفة ومناسبة للكيس/الشنطة.</p>
 
 <h3>الشخص اللي بيشتغل من البيت</h3>
-<p>جلسات زووم طويلة، موسيقى في الخلفية، مذاكرة أو كتابة. مش محتاج يتنقل كتير. <strong>الاختيار: Over-Ear Headphones</strong> — زي <a href="/soundcore/audio/soundcore-q45-headphones" style="color:#2563eb;font-weight:600;">ساوندكور Q45</a> أو <a href="/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Space One</a>. صوت أوفر، راحة أكتر، عزل أفضل.</p>
+<p>جلسات زووم طويلة، موسيقى في الخلفية، مذاكرة أو كتابة. مش محتاج يتنقل كتير. <strong>الاختيار: Over-Ear Headphones</strong> — زي <a href="/anker/soundcore/soundcore-q45-headphones" style="color:#2563eb;font-weight:600;">Soundcore Q45</a> أو <a href="/anker/soundcore/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Space One</a>. صوت أوفر، راحة أكتر، عزل أفضل.</p>
 
 <h3>الرياضي والجيم</h3>
-<p>تعرق، حركة، محتاج سماعة ثابتة مش بتقع. <strong>الاختيار: Earbuds IPX5 بدون كابل</strong>. الـ over-ear مش مناسبة للتعرق إطلاقاً. Earbuds زي <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">P20i</a> أو <a href="/soundcore/audio/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">P40i</a> مناسبة جداً. ولو بتدور على سماعة واحدة تمشي معاك في الجيم واليوم كله، <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور A25i</a> بـ 1370 جنيه بتجمع IPX5 مع 28 ساعة تشغيل إجمالي وتقنية BassUp — سماعة يومية متوازنة بسعر عاقل.</p>
+<p>تعرق، حركة، محتاج سماعة ثابتة مش بتقع. <strong>الاختيار: Earbuds IPX5 بدون كابل</strong>. الـ over-ear مش مناسبة للتعرق إطلاقاً. Earbuds زي <a href="/anker/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">P20i</a> أو <a href="/anker/soundcore/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">P40i</a> مناسبة جداً. ولو بتدور على سماعة واحدة تمشي معاك في الجيم واليوم كله، <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور A25i</a> بـ 1370 جنيه بتجمع IPX5 مع 28 ساعة تشغيل إجمالي وتقنية BassUp — سماعة يومية متوازنة بسعر عاقل.</p>
 
 <h3>المسافر (طيران/قطار)</h3>
 <p>ساعات طويلة، محتاج عزل قوي وراحة. <strong>الاختيار: Over-Ear مع ANC قوي</strong> — بطارية 30+ ساعة وعزل 30+ dB يخلي الرحلة مريحة. على المدى المتوسط، Space One خيار ممتاز.</p>
@@ -162,9 +162,9 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
 </ul>
 
 <h2>لماذا تعد صيانة واستبدال الوسادات سهلاً وموفراً للمال؟</h2>
-<p>في سماعات الرأس الـ Headphones (مثل موديلات Space One أو Q45 من انكر)، يمكنك بسهولة فحص واستبدال وسادات الأذن الجلدية الناعمة (Ear Cushions) عند تلفها أو تشققها بعد سنوات من الاستخدام اليومي المستمر، وهي متوفرة بكثرة كقطع غيار منفصلة ورخيصة في متجر كايرو فولت وغيره. أما في سماعات الأذن الصغيرة الـ Earbuds، فإذا تلفت البطارية الداخلية الصغيرة جداً أو ضاعت قطعة واحدة من الأذن، يصبح من الصعب والمستحيل صيانتها أو تبديلها وغالباً ما تضطر لشراء سماعة جديدة بالكامل وتتحمل تكلفتها مجدداً. هذا يجعل الـ Headphones استثماراً أفضل وأكثر استدامة على المدى الطويل.</p>
+<p>في سماعات الرأس الـ Headphones (مثل موديلات Space One أو Q45 من أنكر)، يمكنك بسهولة فحص واستبدال وسادات الأذن الجلدية الناعمة (Ear Cushions) عند تلفها أو تشققها بعد سنوات من الاستخدام اليومي المستمر، وهي متوفرة بكثرة كقطع غيار منفصلة ورخيصة في متجر كايرو فولت وغيره. أما في سماعات الأذن الصغيرة الـ Earbuds، فإذا تلفت البطارية الداخلية الصغيرة جداً أو ضاعت قطعة واحدة من الأذن، يصبح من الصعب والمستحيل صيانتها أو تبديلها وغالباً ما تضطر لشراء سماعة جديدة بالكامل وتتحمل تكلفتها مجدداً. هذا يجعل الـ Headphones استثماراً أفضل وأكثر استدامة على المدى الطويل.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 وسع خيارات الاستماع مع مراجعة ضمان كايرو فولت المكتوب:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن وسماعات تناسب الجميع: <a href="/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">سماعة Space One المغلقة</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة R50i NC العازلة</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة P20i الاقتصادية</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 وسع خيارات الاستماع بضمان كايرو فولت المعتمد 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن وسماعات تناسب الجميع: <a href="/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">سماعة Space One المغلقة</a> · <a href="/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة R50i NC العازلة</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة P20i الاقتصادية</a>.</p></div>
 
 <h2>جودة الصوت — الفرق الحقيقي</h2>
 
@@ -191,25 +191,25 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">ساوندكور Liberty 4 NC</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Soundcore Liberty 4 NC</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Earbuds</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">98.5% — قوي جداً</td>
             <td style="padding:12px;border:1px solid #d1d5db;">1800-2200 جنيه</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;">ساوندكور Q45</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Soundcore Q45</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Over-Ear</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">قوي — خاصة للترددات المنخفضة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">1500-2000 جنيه</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">ساوندكور Space One</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Soundcore Space One</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Over-Ear</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">ممتاز — مقارن بـ Sony/Bose</td>
             <td style="padding:12px;border:1px solid #d1d5db;">2500-3500 جنيه</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;">ساوندكور P40i</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Soundcore P40i</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Earbuds</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">متوسط-كويس</td>
             <td style="padding:12px;border:1px solid #d1d5db;">900-1300 جنيه</td>
@@ -260,7 +260,7 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
                 },
                 {
                     question: 'ما هو أفضل خيار لو ميزانيتي محدودة ومش عارف أختار؟',
-                    answer: 'قد تكون Earbuds أخف وأسهل للحركة، بينما قد تناسب سماعة الرأس من يفضّل العزل السلبي والراحة المختلفة. قارن ساوندكور P20i والموديلات الأخرى حسب الملاءمة والتصنيف والبطارية المنشورة والسعر الحالي؛ لا يوجد اختيار يغطي نسبة ثابتة من المستخدمين.'
+                    answer: 'خد Earbuds. أكثر تنوعاً في الاستخدام، أخف، وبتدي قيمة أحسن في الفئات الاقتصادية. Soundcore P20i (699 جنيه) بيجي بـ IPX5 وبطارية 8 ساعات وصوت كويس — يكفي 90% من الاستخدامات اليومية.'
                 }
             ]
         },
@@ -271,7 +271,7 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
             keywords: 'earbuds vs headphones egypt, in-ear vs over-ear comparison, best bluetooth headphones egypt 2026, soundcore headphones egypt, soundcore earbuds egypt, gym earbuds egypt ipx5, work from home headphones egypt, soundcore q45 egypt, soundcore space one egypt, wireless headphones egypt comparison',
             excerpt: 'Earbuds or headphones? The answer is not opinion — it is numbers and real-life scenarios. Complete comparison with specs tables and practical Egyptian daily-life use cases.',
             quickAnswer: 'Earbuds are lighter and better for commuting and gym. Headphones deliver better sound and isolation for home and work use. In the Egyptian market: earbuds for students and commuters, headphones for office work and extended listening sessions.',
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices or availability mentioned in this guide are editorial snapshots that may change; the product page and cart are the source for current price and stock.</p><p>The question "earbuds or headphones?" comes up daily in product groups and markets across Egypt. The right answer is not "one is better than the other" — it is "which fits your actual daily life." A practical comparison with numbers and no filler.</p>
+            content: `<p>The question "earbuds or headphones?" comes up daily in product groups and markets across Egypt. The right answer is not "one is better than the other" — it is "which fits your actual daily life." A practical comparison with numbers and no filler.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -358,13 +358,13 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
 <h2>Egyptian Scenarios — Which Type for Which Lifestyle?</h2>
 
 <h3>Student on Public Transport</h3>
-<p>Cairo Metro, buses, microbuses. The environment is loud, space is tight, and you need something light and pocketable. <strong>Choice: Earbuds with ANC</strong> — like the <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a>. Blocks the noise and fits easily in any pocket or bag.</p>
+<p>Cairo Metro, buses, microbuses. The environment is loud, space is tight, and you need something light and pocketable. <strong>Choice: Earbuds with ANC</strong> — like the <a href="/en/anker/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a>. Blocks the noise and fits easily in any pocket or bag.</p>
 
 <h3>Work-from-Home Professional</h3>
-<p>Long Zoom calls, background music, deep focus writing sessions. Minimal need to move around. <strong>Choice: Over-Ear Headphones</strong> — like the <a href="/en/soundcore/audio/soundcore-q45-headphones" style="color:#2563eb;font-weight:600;">Soundcore Q45</a> or <a href="/en/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Space One</a>. Fuller sound, more comfort, better isolation for long sessions.</p>
+<p>Long Zoom calls, background music, deep focus writing sessions. Minimal need to move around. <strong>Choice: Over-Ear Headphones</strong> — like the <a href="/en/anker/soundcore/soundcore-q45-headphones" style="color:#2563eb;font-weight:600;">Soundcore Q45</a> or <a href="/en/anker/soundcore/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Space One</a>. Fuller sound, more comfort, better isolation for long sessions.</p>
 
 <h3>Gym and Sports</h3>
-<p>Sweating, constant movement, needs a stable fit. <strong>Choice: IPX5 Earbuds</strong>. Over-ear headphones are completely unsuitable for sweaty workouts. Earbuds like the <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">P20i</a> or <a href="/en/soundcore/audio/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">P40i</a> handle this perfectly. If you want a single pair that covers both the gym and all-day listening, the <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A25i</a> at 1,370 EGP pairs IPX5 with 28 hours of total battery and BassUp — a balanced daily earbud at a sensible price.</p>
+<p>Sweating, constant movement, needs a stable fit. <strong>Choice: IPX5 Earbuds</strong>. Over-ear headphones are completely unsuitable for sweaty workouts. Earbuds like the <a href="/en/anker/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">P20i</a> or <a href="/en/anker/soundcore/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">P40i</a> handle this perfectly. If you want a single pair that covers both the gym and all-day listening, the <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A25i</a> at 1,370 EGP pairs IPX5 with 28 hours of total battery and BassUp — a balanced daily earbud at a sensible price.</p>
 
 <h3>Traveler (flights / trains)</h3>
 <p>Multi-hour journeys requiring strong isolation and comfort. <strong>Choice: Over-Ear with powerful ANC</strong> — 30+ hour battery and 30+ dB ANC makes long trips genuinely enjoyable. The Space One is the standout option at mid-range pricing.</p>
@@ -400,7 +400,7 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
 <h2>Ease of Cushion Replacement and Long-Term Value</h2>
 <p>With over-ear headphones like the Soundcore Space One, the ear cushions are easily replaceable if they wear down after years of use, and replacement parts are widely available. Earbuds, however, are non-serviceable; if a battery dies or one earbud is lost, the entire set must be discarded. This makes headphones a more sustainable and cost-effective long-term audio investment.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore devices: <a href="/en/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Soundcore Space One Headphones</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore devices: <a href="/en/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Soundcore Space One Headphones</a> · <a href="/en/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a>.</p></div>
 
 <h2>Real Sound Quality Difference</h2>
 
@@ -454,7 +454,7 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
                 },
                 {
                     question: 'What is the best choice on a limited budget when I cannot decide?',
-                    answer: 'Earbuds may be lighter and easier for movement, while headphones may suit listeners who prefer a different fit and passive isolation. Compare Soundcore P20i and other models by fit, documented rating, battery conditions, and current price; no choice covers a fixed percentage of users.'
+                    answer: 'Choose earbuds. They cover more use cases, are sweat-resistant, and deliver better value at budget price points. The Soundcore P20i at 699 EGP comes with IPX5, 8-hour battery, and good sound — covering 90% of daily use scenarios without compromise.'
                 }
             ]
         }

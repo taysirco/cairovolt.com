@@ -29,11 +29,11 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
             keywords: 'الفرق بين ANC و ENC, ANC vs ENC, شرح ANC, ايه الفرق بين anc و enc, transparency mode سماعة, الغاء الضوضاء النشط, سماعة بلوتوث ANC مصر, أفضل سماعة عزل صوت, ساوندكور ANC, سماعة إلغاء ضوضاء اقتصادية',
             excerpt: 'الفرق العلمي بين ANC وENC وTransparency Mode — أيهم تحتاج حسب استخدامك اليومي مع جدول مقارنة شامل وتوصيات سماعات متاحة في مصر.',
             quickAnswer: 'ANC (إلغاء ضوضاء نشط) بيحجب أصوات البيئة عنك — ممتاز للمواصلات والتركيز. ENC (إلغاء ضوضاء البيئة) بيحجب أصوات البيئة عن اللي بيكلمك — ممتاز للمكالمات. Transparency Mode بيسمحلك تسمع اللي حواليك وإنت لابس السماعة — ممتاز للشارع والأمان. معظم السماعات المتوسطة في 2026 فيها التلاتة.',
-            content: `<p class="content-price-note"><strong>ملاحظة زمنية:</strong> الأسعار والتوافر المذكوران أمثلة وقت تحرير الدليل وقد يتغيران؛ صفحة المنتج والسلة هما المرجع للسعر والمخزون الحاليين.</p><p>صاحبك اشترى سماعة بـ 2000 جنيه وقالك "فيها ANC يا معلّم!" — وإنت قولتله "أيوا، وفيها ENC كمان!" وهو ردّ عليك "لا، فيها Transparency Mode!" وفضلتوا تتخانقوا نص ساعة وكل واحد فيكم فاكر إن الـ 3 حاجات دول نفس الحاجة بس بأسماء مختلفة. زي ما الناس بتفتكر إن الـ WiFi والإنترنت نفس الحاجة — وده غلط علمياً بس مين فاضي يشرح.</p>
+            content: `<p>صاحبك اشترى سماعة بـ 2000 جنيه وقالك "فيها ANC يا معلّم!" — وإنت قولتله "أيوا، وفيها ENC كمان!" وهو ردّ عليك "لا، فيها Transparency Mode!" وفضلتوا تتخانقوا نص ساعة وكل واحد فيكم فاكر إن الـ 3 حاجات دول نفس الحاجة بس بأسماء مختلفة. زي ما الناس بتفتكر إن الـ WiFi والإنترنت نفس الحاجة — وده غلط علمياً بس مين فاضي يشرح.</p>
 
 <p>الحقيقة إن التلات تقنيات دول مختلفين تماماً عن بعض — كل واحدة بتعمل حاجة مختلفة، في اتجاه مختلف، لغرض مختلف. والأهم: مش كل استخدام محتاج التلاتة. فيه ناس بتدفع فلوس زيادة في ANC وهي أصلاً مش محتاجاه، وفيه ناس بتشتري سماعة رخيصة من غير ANC وبعدين تشتكي إنها مش عازلة الصوت في المترو.</p>
 
-<p>في المقال ده نشرح الفرق التقني بين ANC وENC ووضع الشفافية بالميكروفونات ومعالجة الإشارة، ثم نحول المواصفات إلى أسئلة اختيار عملية. الأداء يعتمد على الموديل والمقاس والضوضاء، لذلك لا نقدم صفة مهنية لفريق مجهول أو نتيجة واحدة تنطبق على الجميع.</p>
+<p>في المقال ده — بصفتنا مهندسين إلكترونيات مش سيلز في محل — هنشرحلك الفرق العلمي الفعلي بين التلات تقنيات بالفيزياء والميكروفونات والـ DSP (معالجة الإشارات الرقمية)، هنقولك أنت محتاج أنهي واحدة فيهم حسب حياتك اليومية الفعلية في مصر، ونوصيلك بسماعات متاحة في السوق المصري بكل ميزانية.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -92,7 +92,7 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
 
 <p>عشان كده ANC ممتاز في الطيارة والمترو (أصوات منخفضة ثابتة) بس مش هيعزلك تماماً من صراخ العيال في المحل اللي جنبك (أصوات عالية متغيرة). ده مش عيب في السماعة — ده حدود الفيزياء.</p>
 
-<p><strong>أنواع ANC:</strong> فيه Feedforward ANC (ميكروفون بره بس — أبسط وأرخص) و Hybrid ANC (ميكروفون بره + جوا — أدق وأقوى بنسبة 30-40%). السماعات الاقتصادية غالباً Feedforward، والمتوسطة والفلاجشيب Hybrid. <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور ليبرتي 4 NC</a> مثلاً عندها Hybrid ANC بتقدر تلغي لحد 98.5% من الضوضاء المنخفضة — وده رقم ممتاز في فئتها السعرية.</p>
+<p><strong>أنواع ANC:</strong> فيه Feedforward ANC (ميكروفون بره بس — أبسط وأرخص) و Hybrid ANC (ميكروفون بره + جوا — أدق وأقوى بنسبة 30-40%). السماعات الاقتصادية غالباً Feedforward، والمتوسطة والفلاجشيب Hybrid. <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور ليبرتي 4 NC</a> مثلاً عندها Hybrid ANC بتقدر تلغي لحد 98.5% من الضوضاء المنخفضة — وده رقم ممتاز في فئتها السعرية.</p>
 
 <h2>ENC بالتفصيل — إزاي بينضّف صوتك في المكالمات؟</h2>
 
@@ -123,7 +123,7 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
     <li style="margin-bottom:8px;">🏃 <strong>أثناء الجري:</strong> تسمع حركة السيارات حواليك — خصوصاً في شوارع مصر اللي مفيهاش رصيف</li>
 </ul>
 
-<p><strong>الفرق بين Transparency كويس ورديء:</strong> السماعات الرخيصة بتعمل Transparency يشبه إنك بتسمع من ميكروفون رخيص — الصوت معدني وغريب. السماعات الكويسة زي <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">ساوندكور ليبرتي 5</a> بتعمل Transparency طبيعي لدرجة إنك تحس إنك مش لابس سماعة أصلاً.</p>
+<p><strong>الفرق بين Transparency كويس ورديء:</strong> السماعات الرخيصة بتعمل Transparency يشبه إنك بتسمع من ميكروفون رخيص — الصوت معدني وغريب. السماعات الكويسة زي <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">ساوند كور ليبرتي 5</a> بتعمل Transparency طبيعي لدرجة إنك تحس إنك مش لابس سماعة أصلاً.</p>
 
 <h2>جدول المقارنة الشامل — ANC vs ENC vs Transparency</h2>
 
@@ -179,19 +179,19 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
 <p>مش كل الناس محتاجة التلات تقنيات. حدد استخدامك الأساسي من القائمة دي:</p>
 
 <h3>لو بتركب مواصلات كل يوم (مترو / ميكروباص / أتوبيس)</h3>
-<p><strong>محتاج: ANC بالدرجة الأولى.</strong> صوت المحركات والعجلات والتكييف كله أصوات منخفضة ثابتة — وده بالظبط اللي ANC بيتألق فيه. هتلاقي فرق خرافي: بدل ما ترفع الصوت لـ 85% عشان تسمع البودكاست، مع ANC هتسمع على 40-50% وودنك هتشكرك. توصيتنا: <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور ليبرتي 4 NC</a> — Hybrid ANC ممتاز بسعر معقول.</p>
+<p><strong>محتاج: ANC بالدرجة الأولى.</strong> صوت المحركات والعجلات والتكييف كله أصوات منخفضة ثابتة — وده بالظبط اللي ANC بيتألق فيه. هتلاقي فرق خرافي: بدل ما ترفع الصوت لـ 85% عشان تسمع البودكاست، مع ANC هتسمع على 40-50% وودنك هتشكرك. توصيتنا: <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور ليبرتي 4 NC</a> — Hybrid ANC ممتاز بسعر معقول.</p>
 
 <h3>لو شغلك كله مكالمات (سيلز / كول سنتر / ميتنجز)</h3>
-<p><strong>محتاج: ENC قوي بالدرجة الأولى.</strong> مش مهم إنت تسمع الضوضاء ولا لا — المهم إن العميل أو المدير يسمعك نضيف. دوّر على سماعة بـ 4 ميكروفونات على الأقل مع AI-powered ENC. ANC بونص حلو بس مش أساسي. توصيتنا: <a href="/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">ساوندكور ليبرتي 4 برو</a> — 6 ميكروفونات مع AI ENC ممتاز.</p>
+<p><strong>محتاج: ENC قوي بالدرجة الأولى.</strong> مش مهم إنت تسمع الضوضاء ولا لا — المهم إن العميل أو المدير يسمعك نضيف. دوّر على سماعة بـ 4 ميكروفونات على الأقل مع AI-powered ENC. ANC بونص حلو بس مش أساسي. توصيتنا: <a href="/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">ساوند كور ليبرتي 4 برو</a> — 6 ميكروفونات مع AI ENC ممتاز.</p>
 
 <h3>لو بتسمع موسيقى وإنت ماشي في الشارع</h3>
-<p><strong>محتاج: Transparency Mode بالدرجة الأولى.</strong> ANC في الشارع خطر — مش هتسمع العربيات. Transparency بيخلّيك تسمع البيئة حواليك وإنت بتسمع الموسيقى — أمان أكتر بكتير. توصيتنا: <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">ساوندكور ليبرتي 5</a> — Transparency Mode طبيعي جداً مع BT 5.4.</p>
+<p><strong>محتاج: Transparency Mode بالدرجة الأولى.</strong> ANC في الشارع خطر — مش هتسمع العربيات. Transparency بيخلّيك تسمع البيئة حواليك وإنت بتسمع الموسيقى — أمان أكتر بكتير. توصيتنا: <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">ساوند كور ليبرتي 5</a> — Transparency Mode طبيعي جداً مع BT 5.4.</p>
 
 <h3>لو طالب جامعة وعايز تذاكر في كافيه أو مكتبة</h3>
-<p><strong>محتاج: ANC + ENC معاً.</strong> ANC عشان تعزل نفسك عن كلام الناس والضوضاء وإنت بتذاكر، وENC عشان لو حد كلمك تليفون تقدر ترد من غير ما تقلع السماعة ويسمعك نضيف. الأوفر: <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">ساوندكور R50i NC</a> — أرخص سماعة بـ ANC حقيقي في مصر.</p>
+<p><strong>محتاج: ANC + ENC معاً.</strong> ANC عشان تعزل نفسك عن كلام الناس والضوضاء وإنت بتذاكر، وENC عشان لو حد كلمك تليفون تقدر ترد من غير ما تقلع السماعة ويسمعك نضيف. الأوفر: <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">ساوند كور R50i NC</a> — أرخص سماعة بـ ANC حقيقي في مصر.</p>
 
 <h3>لو مش محتاج حاجة من دول</h3>
-<p>لو بتستخدم السماعة في البيت بس أو في مكان هادي — وفّر فلوسك واشتري سماعة من غير ANC. <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ساوندكور P30i</a> مثلاً — صوت ممتاز وبطارية طويلة بسعر اقتصادي جداً، من غير ANC عشان مش محتاجه.</p>
+<p>لو بتستخدم السماعة في البيت بس أو في مكان هادي — وفّر فلوسك واشتري سماعة من غير ANC. <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور P30i</a> مثلاً — صوت ممتاز وبطارية طويلة بسعر اقتصادي جداً، من غير ANC عشان مش محتاجه.</p>
 
 <h2>أخطاء شائعة في فهم ANC و ENC</h2>
 
@@ -203,12 +203,12 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
     <li style="margin-bottom:16px;">❌ <strong>"ANC بيستهلك بطارية كتير قوي":</strong> في 2026، الفرق بين ANC شغّال ومطفي بقى حوالي 20-30% بس (1-2 ساعة أقل من أصل 7-10 ساعات). يعني لو السماعة بتدّيك 8 ساعات من غير ANC، هتدّيك 6-6.5 ساعة مع ANC — وده كافي ليوم كامل.</li>
 </ul>
 
-<p>لو عايز تعرف أكتر عن مقارنة الموديلات المتاحة — اقرأ <a href="/blog/best-bluetooth-earbuds-egypt-2026" style="color:#2563eb;">دليل أفضل سماعات بلوتوث في مصر 2026</a> أو <a href="/blog/soundcore-models-guide-egypt-2026" style="color:#2563eb;">الدليل الشامل لسماعات ساوندكور</a>. ولو سماعتك بتقطع عليك — ده مش مشكلة ANC، ده مشكلة بلوتوث — اقرأ <a href="/blog/bluetooth-earbuds-disconnect-6-causes-7-fixes" style="color:#2563eb;">دليل حل مشكلة تقطيع البلوتوث</a>.</p>
+<p>لو عايز تعرف أكتر عن مقارنة الموديلات المتاحة — اقرأ <a href="/blog/best-bluetooth-earbuds-egypt-2026" style="color:#2563eb;">دليل أفضل سماعات بلوتوث في مصر 2026</a> أو <a href="/blog/soundcore-models-guide-egypt-2026" style="color:#2563eb;">الدليل الشامل لسماعات Soundcore</a>. ولو سماعتك بتقطع عليك — ده مش مشكلة ANC، ده مشكلة بلوتوث — اقرأ <a href="/blog/bluetooth-earbuds-disconnect-6-causes-7-fixes" style="color:#2563eb;">دليل حل مشكلة تقطيع البلوتوث</a>.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ سماعات ANC أصلية بضمان — على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        قارن <a href="/soundcore/audio" style="color:#166534;font-weight:600;">سماعات ساوندكور</a> حسب رقم الموديل والمواصفات والسعر الحالي وشروط ضمان المتجر المكتوبة. تظهر خيارات وتقدير التوصيل حسب العنوان والطلب، ويتوفر دعم واتساب خلال ساعات العمل المنشورة.
+        كل <a href="/soundcore/audio" style="color:#166534;font-weight:600;">سماعات ساوند كور</a> عندنا أصلية بضمان 18 شهر + توصيل لكل المحافظات 24-72 ساعة + دعم فني واتساب 24/7. من ANC اقتصادي لفلاجشيب — عندنا الاختيار المناسب لكل ميزانية.
     </p>
 </div>`,
             faq: [
@@ -226,7 +226,7 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
                 },
                 {
                     question: 'إيه أرخص سماعة بـ ANC حقيقي في مصر؟',
-                    answer: 'ساوندكور R50i NC — فيها Hybrid ANC حقيقي (مش Feedforward بس) بسعر اقتصادي جداً. أداء العزل فيها مقبول جداً للمواصلات والمذاكرة، مع ENC كويس للمكالمات و BT 5.3. لو ميزانيتك أعلى شوية، ساوندكور Liberty 4 NC بتديك ANC أقوى بمراحل.'
+                    answer: 'ساوند كور R50i NC — فيها Hybrid ANC حقيقي (مش Feedforward بس) بسعر اقتصادي جداً. أداء العزل فيها مقبول جداً للمواصلات والمذاكرة، مع ENC كويس للمكالمات و BT 5.3. لو ميزانيتك أعلى شوية، ساوند كور Liberty 4 NC بتديك ANC أقوى بمراحل.'
                 },
             ],
         },
@@ -237,11 +237,11 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
             keywords: 'ANC vs ENC difference, active noise cancellation explained, ENC earbuds, transparency mode earbuds, noise cancelling earbuds egypt, ANC how it works, best ANC earbuds egypt, soundcore ANC earbuds, budget noise cancelling earbuds, environmental noise cancellation',
             excerpt: 'The scientific difference between ANC, ENC, and Transparency Mode — which you need based on your daily use, with a full comparison chart and earbuds recommendations in Egypt.',
             quickAnswer: 'ANC (Active Noise Cancellation) blocks environmental sounds from reaching you — ideal for commutes and focus. ENC (Environmental Noise Cancellation) filters environmental sounds from your voice during calls — ideal for meetings. Transparency Mode lets you hear your surroundings through the earbuds — ideal for street safety. Most mid-range earbuds in 2026 include all three.',
-            content: `<p class="content-price-note"><strong>Time-sensitive note:</strong> Any prices and availability mentioned are editorial snapshots and may change; the product page and cart are the source for current price and stock.</p><p>Your friend just bought earbuds for 2,000 EGP and proudly announced "It has ANC!" — then you chimed in with "Yeah, but does it have ENC?" — and a third friend added "It has Transparency Mode too!" — and suddenly the three of you spent 30 minutes arguing about whether these are the same thing with different names. It is like people thinking WiFi and the internet are the same thing — technically wrong, but who has time to explain.</p>
+            content: `<p>Your friend just bought earbuds for 2,000 EGP and proudly announced "It has ANC!" — then you chimed in with "Yeah, but does it have ENC?" — and a third friend added "It has Transparency Mode too!" — and suddenly the three of you spent 30 minutes arguing about whether these are the same thing with different names. It is like people thinking WiFi and the internet are the same thing — technically wrong, but who has time to explain.</p>
 
 <p>The truth is these three technologies are completely different from each other — each does something different, in a different direction, for a different purpose. And more importantly: not every use case requires all three. Some people pay extra for ANC when they do not actually need it, while others buy cheap earbuds without ANC and then complain they cannot block noise on the metro.</p>
 
-<p>This guide explains the technical difference between ANC, ENC, and transparency mode through microphones and signal processing, then turns specifications into practical selection questions. Performance varies by model, fit, and noise environment, so the selection steps focus on the exact model and the listener's real setting.</p>
+<p>In this article — as electronics engineers, not salespeople in a store — we will explain the actual scientific difference between all three technologies using physics, microphones, and DSP (Digital Signal Processing), tell you which one you actually need based on your real daily life in Egypt, and recommend earbuds available in the Egyptian market for every budget.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -399,7 +399,7 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
 <p><strong>You need: ANC + ENC together.</strong> ANC to isolate yourself from people chatting and noise while studying, and ENC so you can answer phone calls without removing the earbuds and be heard clearly. The best value: <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC</a> — the most affordable earbuds with real ANC in Egypt.</p>
 
 <h3>You do not need any of these</h3>
-<p>If you only use earbuds at home or in quiet environments — save your money and buy earbuds without ANC. The <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore P30i</a>, for example — excellent sound and long battery at a very affordable price, without ANC because you simply do not need it.</p>
+<p>If you only use earbuds at home or in quiet environments — save your money and buy earbuds without ANC. The <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P30i</a>, for example — excellent sound and long battery at a very affordable price, without ANC because you simply do not need it.</p>
 
 <h2>Common Misconceptions About ANC and ENC</h2>
 
@@ -416,7 +416,7 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Original ANC Earbuds with Warranty — on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Compare <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> by exact model, specifications, live price, and written store-warranty terms. Delivery options and estimates depend on the address and order, with WhatsApp support during published business hours.
+        All <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> on our store are original with 18-month warranty + delivery across all Egyptian governorates within 24-72 hours + WhatsApp support 24/7. From budget ANC to flagship — we have the right choice for every budget.
     </p>
 </div>`,
             faq: [
