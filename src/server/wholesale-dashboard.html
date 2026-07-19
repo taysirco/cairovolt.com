@@ -266,6 +266,7 @@ body { font-family:'Cairo',sans-serif; background:var(--bg-dark); color:var(--te
                     <select class="filter-select" id="brandFilter" onchange="renderProducts()">
                         <option value="all">كل البراندات</option>
                         <option value="Anker">Anker فقط</option>
+                        <option value="Soundcore">Soundcore فقط</option>
                         <option value="Joyroom">Joyroom فقط</option>
                     </select>
                     <select class="filter-select" id="catFilter" onchange="renderProducts()">
@@ -280,6 +281,7 @@ body { font-family:'Cairo',sans-serif; background:var(--bg-dark); color:var(--te
                         <option value="car-holders">حوامل سيارة</option>
                         <option value="wireless-chargers">شحن لاسلكي</option>
                         <option value="power-stations">محطات طاقة</option>
+                        <option value="accessories">إكسسوارات</option>
                     </select>
                     <button class="btn btn-danger btn-sm" onclick="deleteSelected()">🗑️ حذف المحدد</button>
                 </div>
@@ -568,10 +570,11 @@ const DEFAULT_PRODUCTS = [
 const CATEGORY_NAMES = {
     'power-banks':'🔋 باور بانك','wall-chargers':'🔌 شواحن حائط','car-chargers':'🚗 شواحن سيارة',
     'cables':'🔗 كابلات','audio':'🎧 سماعات','speakers':'🔊 مكبرات صوت','smart-watches':'⌚ ساعات ذكية',
-    'car-holders':'📱 حوامل سيارة','wireless-chargers':'⚡ شحن لاسلكي','power-stations':'🏭 محطات طاقة'
+    'car-holders':'📱 حوامل سيارة','wireless-chargers':'⚡ شحن لاسلكي','power-stations':'🏭 محطات طاقة',
+    'accessories':'🧩 إكسسوارات'
 };
 
-const ALLOWED_BRANDS = new Set(['Anker', 'Joyroom']);
+const ALLOWED_BRANDS = new Set(['Anker', 'Joyroom', 'Soundcore']);
 const ALLOWED_CATEGORIES = new Set(Object.keys(CATEGORY_NAMES));
 const MAX_PRODUCTS = 500;
 
@@ -1303,10 +1306,117 @@ function renderAll() {
     renderCategoryFilters();
 }
 
+// ══════════════════════════════════════════
+// 🔄 مزامنة كاملة من كتالوج الموقع (/api/products)
+//    تعرض كل منتجات الموقع (أنكر + ساوندكور + جوي روم) وتبقى متزامنة دائماً.
+//    تحافظ على أسعار/ضمان/وصف الجملة التي أدخلتها بمطابقة أفضل-جهد
+//    (سلاگ الصورة أولاً ثم الاسم)؛ غير المتطابق يبدأ بسعر التجزئة لتعدّله.
+// ══════════════════════════════════════════
+function slugFromImage(url) {
+    const m = String(url || '').match(/\/products\/[^/]+\/([^/]+)\//);
+    return m ? m[1].toLowerCase() : '';
+}
+function normKey(s) {
+    return String(s || '').toLowerCase().replace(/[^a-z0-9؀-ۿ]+/g, '');
+}
+function stableId(str, used) {
+    let h = 5381;
+    for (let i = 0; i < str.length; i++) h = (((h << 5) + h) + str.charCodeAt(i)) >>> 0;
+    let id = (h % 1000000000) + 1;
+    while (used.has(id)) id = (id % 1000000000) + 1; // فض التصادم النادر
+    used.add(id);
+    return id;
+}
+function firstSegment(s) { return String(s || '').split('|')[0].trim(); }
+
+async function syncFromCatalog() {
+    let items;
+    try {
+        const res = await fetch('/api/products?limit=500', { cache: 'no-store' });
+        if (!res.ok) return;
+        const data = await res.json();
+        items = Array.isArray(data.items) ? data.items : [];
+    } catch { return; } // فشل الشبكة → نُبقي القائمة المحفوظة كما هي
+    if (!items.length) return;
+
+    // خريطة تجاوزات الجملة المحفوظة (سعر/ضمان/وصف/إظهار) بمفاتيح متعددة
+    const ov = new Map();
+    const putOv = (k, v) => { if (k && !ov.has(k)) ov.set(k, v); };
+    for (const p of products) {
+        const v = { price: p.price, warranty: p.warranty, desc: p.desc, inCatalog: p.inCatalog };
+        putOv('slug:' + slugFromImage(p.image), v);
+        putOv('sku:' + String(p.sku || '').toLowerCase(), v);
+        putOv('name:' + normKey(p.name), v);
+    }
+
+    const used = new Set();
+    const seenSlug = new Set();
+    const catalog = [];
+    for (const it of items) {
+        const brand = it.brand, category = it.categorySlug;
+        if (!ALLOWED_BRANDS.has(brand) || !ALLOWED_CATEGORIES.has(category)) continue;
+        // إزالة التكرار بالسلاگ الفريد لا بالـSKU (الكتالوج فيه SKU مشترك بين منتجين)
+        const slugKey = String(it.slug || '').toLowerCase();
+        if (!slugKey || seenSlug.has(slugKey)) continue;
+        seenSlug.add(slugKey);
+        const tr = it.translations || {};
+        const arName = firstSegment(tr.ar && tr.ar.name);
+        const enName = firstSegment(tr.en && tr.en.name);
+        const name = (arName || enName || it.slug || '').slice(0, 180);
+        if (!name) continue;
+        let sku = String(it.sku || '').trim();
+        if (!sku) sku = ('WS-' + it.slug).slice(0, 80);
+        const retail = Math.max(0, Math.round(Number(it.price) || 0));
+        const imgs = Array.isArray(it.images) ? it.images : [];
+        const primary = imgs.find(im => im && im.isPrimary) || imgs[0];
+        // مطابقة تجاوز محفوظ: سلاگ الصورة أولاً (موثوق) ثم SKU ثم الاسم
+        const match = ov.get('slug:' + String(it.slug || '').toLowerCase())
+            || ov.get('sku:' + sku.toLowerCase())
+            || ov.get('name:' + normKey(arName))
+            || ov.get('name:' + normKey(enName));
+        catalog.push({
+            id: stableId(it.slug || sku, used),
+            name,
+            sku,
+            brand,
+            category,
+            originalPrice: retail,
+            price: match && Number.isSafeInteger(Math.round(match.price)) ? Math.round(match.price) : retail,
+            warranty: match && Number.isSafeInteger(match.warranty) ? match.warranty : 18,
+            desc: (match && match.desc) || firstSegment(tr.ar && tr.ar.shortDescription).slice(0, 300),
+            image: primary && primary.url ? primary.url : '',
+            inCatalog: match && typeof match.inCatalog === 'boolean' ? match.inCatalog : true,
+        });
+    }
+    if (!catalog.length) return;
+
+    // نُبقي أي منتجات محفوظة غير موجودة بالكتالوج (مخصّصة) بلا تكرار
+    const catSku = new Set(catalog.map(p => p.sku.toLowerCase()));
+    const catName = new Set(catalog.map(p => normKey(p.name)));
+    const catSlug = new Set(catalog.map(p => slugFromImage(p.image)).filter(Boolean));
+    const extras = products.filter(p =>
+        !catSku.has(String(p.sku || '').toLowerCase())
+        && !catName.has(normKey(p.name))
+        && !(slugFromImage(p.image) && catSlug.has(slugFromImage(p.image)))
+    );
+    for (const e of extras) e.id = stableId('extra-' + (e.sku || e.name), used);
+
+    try {
+        const merged = validateProductList([...catalog, ...extras]);
+        products = merged;
+        saveProducts();
+        renderAll();
+    } catch (e) {
+        console.error('[wholesale] catalog sync merge failed:', e && e.message);
+    }
+}
+
 function init() {
     loadProducts();
     loadSettings();
     renderAll();
+    // مزامنة كاملة من الموقع بعد العرض الفوري من الكاش المحلي
+    syncFromCatalog();
 }
 
 init();
