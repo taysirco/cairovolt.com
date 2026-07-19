@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidateTag } from 'next/cache';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { isAdminRequestAuthorized, isAdminTaskRequestAuthorized } from '@/lib/admin-session';
@@ -137,6 +138,12 @@ export async function POST(req: NextRequest) {
         }
     }
 
+    try {
+        revalidateTag('reviews');
+    } catch (err) {
+        console.error('Failed to revalidate reviews tag:', err);
+    }
+
     return NextResponse.json({
         success: true,
         reviewsAdded,
@@ -176,6 +183,12 @@ export async function DELETE(req: NextRequest) {
             docs.slice(i, i + 499).forEach(doc => batch.delete(doc.ref));
             await batch.commit();
         }
+    }
+
+    try {
+        revalidateTag('reviews');
+    } catch (err) {
+        console.error('Failed to revalidate reviews tag:', err);
     }
 
     return NextResponse.json({ success: true, reviewsDeleted, ordersDeleted });
