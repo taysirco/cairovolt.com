@@ -155,7 +155,7 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
         if (!credential) { setError(isArabic ? 'سجّل الدخول بجوجل أو فيسبوك أولاً' : 'Sign in with Google or Facebook first'); return; }
         if (!rating) { setError(isArabic ? 'اختر عدد النجوم' : 'Pick a star rating'); return; }
         if (text.trim().length < 10) { setError(isArabic ? 'اكتب تقييماً من 10 أحرف على الأقل' : 'Write at least 10 characters'); return; }
-        if (!/^01[0125]\d{8}$/.test(phone.trim())) { setError(isArabic ? 'اكتب رقم واتساب صحيح (01xxxxxxxxx) لاستلام هدية 5%' : 'Enter a valid WhatsApp number'); return; }
+        if (!/^01[0125]\d{8}$/.test(phone.trim())) { setError(isArabic ? 'اكتب رقم واتساب صحيح (01xxxxxxxxx)' : 'Enter a valid WhatsApp number'); return; }
         setBusy(true);
         try {
             const res = await fetch('/api/reviews/submit', {
@@ -197,7 +197,7 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                     onClick={() => setOpen(true)}
                     className="w-full py-3 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-base transition-colors"
                 >
-                    ⭐ {isArabic ? 'اكتب تقييمك واكسب كوبون 5%' : 'Write a review & earn 5% off'}
+                    ⭐ {isArabic ? 'اكتب تقييمك' : 'Write a review'}
                 </button>
             ) : (
                 <div className="space-y-3">
@@ -246,7 +246,7 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                                 className="w-full rounded-lg border border-gray-300 dark:border-gray-600 px-3 py-2 text-sm bg-transparent" />
 
                             <input value={phone} onChange={e => setPhone(e.target.value.replace(/[^\d]/g, ''))} maxLength={11} inputMode="numeric"
-                                placeholder={isArabic ? 'رقم الواتساب — عليه هتوصلك هدية 5% 🎁' : 'WhatsApp number for your 5% gift 🎁'}
+                                placeholder={isArabic ? 'رقم واتساب للتواصل بخصوص تقييمك' : 'WhatsApp number to follow up on your review'}
                                 className="w-full rounded-lg border border-gray-300 dark:border-gray-600 px-3 py-2 text-sm bg-transparent" dir="ltr" />
 
                             <div>
@@ -276,12 +276,12 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
 
                             <button onClick={submit} disabled={busy}
                                 className="w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 disabled:opacity-60 text-white font-bold transition-colors">
-                                {busy ? (isArabic ? 'جارٍ الإرسال…' : 'Submitting…') : (isArabic ? 'أرسل التقييم 🎁' : 'Submit review 🎁')}
+                                {busy ? (isArabic ? 'جارٍ الإرسال…' : 'Submitting…') : (isArabic ? 'أرسل التقييم' : 'Submit review')}
                             </button>
                             <p className="text-[11px] text-gray-500 text-center">
                                 {isArabic
-                                    ? 'الهدية لأي تقييم صادق — إيجابي أو سلبي — بعد موافقة الإدارة'
-                                    : 'The gift applies to any honest review — positive or negative — after moderation'}
+                                    ? 'كل التقييمات تُراجَع قبل النشر — قيّم بصراحتك الكاملة'
+                                    : 'All reviews are checked before publishing — please be fully honest'}
                             </p>
                         </>
                     )}

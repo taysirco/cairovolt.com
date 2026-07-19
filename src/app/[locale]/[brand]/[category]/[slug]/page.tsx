@@ -415,8 +415,8 @@ export default async function ProductPage({ params }: Props) {
     // Fetch verified aggregate rating for Structured Data (Cached)
     const verifiedAggregateRating = await getCachedAggregateRating(slug);
 
-    // Structured data mirrors the reviews UI and uses only approved,
-    // purchase-verified Firestore submissions.
+    // Structured data mirrors the reviews UI: only admin-approved Firestore
+    // submissions (order-backed legacy reviews + moderated product-page reviews).
     const verifiedReviews = await getCachedVerifiedReviews(slug);
     const schemaReviews = verifiedReviews.map(r => ({
         author: r.customerName,
@@ -429,7 +429,7 @@ export default async function ProductPage({ params }: Props) {
             ? (isArabic ? localizeArabicBrandContent(r.cons) : r.cons)
             : undefined,
         datePublished: r.reviewDate,
-        location: r.governorate,
+        location: r.governorate || undefined,
     }));
 
     // LCP Preload: responsive preload that matches the hero <img srcset>.

@@ -114,8 +114,8 @@ export default function VerifiedReviews({ locale, initialReviews, initialAggrega
             </h3>
             <p className="review-disclosure">
                 {isArabic
-                    ? 'تُراجَع كل التقييمات قبل النشر. هدية كوبون 5% تُرسل لأي تقييم يُعتمد، سواء كان إيجابيًا أو سلبيًا.'
-                    : 'All reviews are moderated before publishing. A 5% coupon gift is sent for every approved review, positive or negative.'}
+                    ? 'تُراجَع كل التقييمات قبل النشر — نعرض المدح والنقد بشفافية.'
+                    : 'All reviews are moderated before publishing — we show praise and criticism transparently.'}
             </p>
 
             {/* ⭐ اكتب تقييمك — تسجيل جوجل + صور مضغوطة + هدية 5% بعد الموافقة */}
