@@ -1,17 +1,24 @@
 /**
- * CairoVolt Service Worker v5 — Fast, validated media
- * 
+ * CairoVolt Service Worker v6 — Fast, validated media
+ *
  * Strategy:
  * - App Shell (layout, fonts, CSS): Cache First
  * - Product Images: Cache First after MIME validation
  * - API Routes: Network Only — always fresh data
- * - HTML Pages: Stale-While-Revalidate with background refresh
+ * - HTML Pages: Network First (cache = offline fallback only)
  * - Cloudflare-aware: respects cf-cache-status headers
- * 
+ *
+ * NOTE: HTML is Network First — not Stale-While-Revalidate — because a
+ * navigation response carries security headers (Content-Security-Policy, etc.).
+ * Serving a stale cached page would enforce a STALE CSP and could block newly
+ * allowlisted scripts (e.g. Google/Facebook sign-in). The origin already marks
+ * HTML `no-store`/DYNAMIC, so it is meant to be fresh; the SW cache is kept only
+ * as an offline fallback. Static/versioned assets stay Cache First (instant).
+ *
  * Cached assets can reduce repeat-visit network work.
  */
 
-const CACHE_VERSION = 'v5';
+const CACHE_VERSION = 'v6';
 const CACHE_NAME = `cairovolt-${CACHE_VERSION}`;
 const STATIC_CACHE = `cairovolt-static-${CACHE_VERSION}`;
 const IMG_CACHE = `cairovolt-images-${CACHE_VERSION}`;
@@ -73,7 +80,7 @@ self.addEventListener('fetch', (event) => {
     } else if (isStaticAsset(url)) {
         event.respondWith(cacheFirst(request, STATIC_CACHE));
     } else if (isNavigationRequest(request)) {
-        event.respondWith(staleWhileRevalidate(request, CACHE_NAME, MAX_PAGES));
+        event.respondWith(networkFirst(request, CACHE_NAME, MAX_PAGES));
     }
 });
 
@@ -147,21 +154,23 @@ async function cacheFirstImage(request, cacheName, maxItems) {
     }
 }
 
-async function staleWhileRevalidate(request, cacheName, maxItems) {
+// HTML navigations: always try the network first so the page (and its
+// security headers like CSP) is fresh. Fall back to the cached copy only when
+// offline. This avoids serving a stale page whose old CSP would block newly
+// allowlisted scripts (Google/Facebook sign-in).
+async function networkFirst(request, cacheName, maxItems) {
     const cache = await caches.open(cacheName);
-    const cached = await cache.match(request);
-
-    // Start network fetch in background
-    const networkPromise = fetch(request).then((response) => {
+    try {
+        const response = await fetch(request);
         if (response.ok) {
             cache.put(request, response.clone());
             if (maxItems) trimCache(cacheName, maxItems);
         }
         return response;
-    }).catch(() => cached || new Response('Offline', { status: 503 }));
-
-    // Return cached immediately, or wait for network
-    return cached || networkPromise;
+    } catch {
+        const cached = await cache.match(request);
+        return cached || new Response('Offline', { status: 503 });
+    }
 }
 
 // ── Cache Management ──
