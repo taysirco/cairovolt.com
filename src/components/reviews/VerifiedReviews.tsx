@@ -44,9 +44,12 @@ export default function VerifiedReviews({ locale, initialReviews, initialAggrega
         : text;
     const reviews = initialReviews;
     const aggregateRating = initialAggregateRating;
-    const [showAll, setShowAll] = useState(false);
+    const PAGE_SIZE = 10;
+    const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
-    const displayedReviews = showAll ? reviews : reviews.slice(0, 3);
+    // اعرض 10 أولاً؛ «عرض المزيد» يكشف 10 إضافية في كل نقرة.
+    const displayedReviews = reviews.slice(0, visibleCount);
+    const remaining = Math.max(0, reviews.length - visibleCount);
 
     const renderStars = (rating: number) => {
         return (
@@ -146,18 +149,25 @@ export default function VerifiedReviews({ locale, initialReviews, initialAggrega
                     <div key={review.id} className="review-card">
                         <div className="review-header">
                             <div className="review-author">
-                                <span className="review-author__name">{review.customerName}</span>
-                                {review.isVerified && (
-                                    <span className="verified-badge">
-                                        ✓ {isArabic ? 'مشتري موثق' : 'Verified purchase'}
-                                    </span>
-                                )}
-                            </div>
-                            <div className="review-meta">
-                                {renderStars(review.rating)}
-                                <span className="review-date">
-                                    {new Date(review.reviewDate).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US')}
+                                <span className="review-avatar" aria-hidden="true">
+                                    {(review.customerName || '★').trim().slice(0, 2)}
                                 </span>
+                                <div className="review-author__meta">
+                                    <span className="review-author__name">
+                                        {review.customerName}
+                                        {review.isVerified && (
+                                            <span className="verified-badge">
+                                                ✓ {isArabic ? 'مشتري موثق' : 'Verified purchase'}
+                                            </span>
+                                        )}
+                                    </span>
+                                    <div className="review-meta">
+                                        {renderStars(review.rating)}
+                                        <span className="review-date">
+                                            {new Date(review.reviewDate).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US')}
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -205,50 +215,46 @@ export default function VerifiedReviews({ locale, initialReviews, initialAggrega
                             )}
                         </div>
 
-                        <div className="review-location">
-                            <SvgIcon name="pin" className="w-4 h-4 inline-block" /> {review.governorate}
-                        </div>
+                        {review.governorate && (
+                            <div className="review-location">
+                                <SvgIcon name="pin" className="w-4 h-4 inline-block" /> {review.governorate}
+                            </div>
+                        )}
                     </div>
                 ))}
             </div>
 
-            {/* Show More */}
-            {reviews.length > 3 && !showAll && (
-                <button className="btn-show-more" onClick={() => setShowAll(true)}>
+            {/* عرض المزيد — 10 إضافية في كل نقرة */}
+            {remaining > 0 && (
+                <button className="btn-show-more" onClick={() => setVisibleCount(c => c + PAGE_SIZE)}>
                     {isArabic
-                        ? `عرض كل التقييمات (${reviews.length})`
-                        : `Show All Reviews (${reviews.length})`}
+                        ? `عرض المزيد (${Math.min(PAGE_SIZE, remaining)} من ${remaining})`
+                        : `Show more (${Math.min(PAGE_SIZE, remaining)} of ${remaining})`}
+                </button>
+            )}
+            {visibleCount > PAGE_SIZE && (
+                <button className="btn-show-less" onClick={() => setVisibleCount(PAGE_SIZE)}>
+                    {isArabic ? 'عرض أقل ↑' : 'Show less ↑'}
                 </button>
             )}
 
             <style jsx>{`
                 .verified-reviews {
                     margin-top: 48px;
-                    padding: 32px;
+                    padding: 28px;
                     background: #f8fafc;
                     border-radius: 20px;
                 }
-                .verified-reviews--loading {
-                    display: flex;
-                    justify-content: center;
-                    padding: 60px;
-                }
-                .loading-spinner {
-                    width: 40px;
-                    height: 40px;
-                    border: 3px solid #e5e7eb;
-                    border-top-color: #3b82f6;
-                    border-radius: 50%;
-                    animation: spin 1s linear infinite;
-                }
-                @keyframes spin {
-                    to { transform: rotate(360deg); }
+                :global(.dark) .verified-reviews {
+                    background: #0f172a;
                 }
                 .section-title {
                     font-size: 22px;
+                    font-weight: 700;
                     color: #1f2937;
                     margin-bottom: 8px;
                 }
+                :global(.dark) .section-title { color: #f1f5f9; }
                 .review-disclosure {
                     max-width: 760px;
                     color: #64748b;
@@ -256,142 +262,199 @@ export default function VerifiedReviews({ locale, initialReviews, initialAggrega
                     line-height: 1.7;
                     margin: 0 0 24px;
                 }
+                :global(.dark) .review-disclosure { color: #94a3b8; }
                 .aggregate-rating {
                     display: flex;
                     align-items: center;
-                    gap: 16px;
-                    padding: 20px;
+                    gap: 18px;
+                    padding: 20px 24px;
                     background: #fff;
-                    border-radius: 12px;
+                    border: 1px solid #eef2f7;
+                    border-radius: 16px;
                     margin-bottom: 24px;
-                    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+                    box-shadow: 0 1px 3px rgba(16,24,40,0.06);
+                }
+                :global(.dark) .aggregate-rating {
+                    background: #1e293b;
+                    border-color: #334155;
                 }
                 .aggregate-rating__score {
-                    font-size: 48px;
-                    font-weight: 700;
-                    color: #1f2937;
+                    font-size: 46px;
+                    font-weight: 800;
+                    line-height: 1;
+                    color: #f59e0b;
                 }
                 .aggregate-rating__count {
                     color: #6b7280;
                     font-size: 14px;
-                    margin-top: 4px;
+                    margin-top: 6px;
                     display: block;
                 }
-                .stars {
-                    display: flex;
-                    gap: 2px;
-                }
-                .star {
-                    color: #d1d5db;
-                    font-size: 18px;
-                }
-                .star--filled {
-                    color: #fbbf24;
-                }
+                :global(.dark) .aggregate-rating__count { color: #94a3b8; }
+                .stars { display: inline-flex; gap: 2px; }
+                .star { color: #d1d5db; font-size: 18px; line-height: 1; }
+                :global(.dark) .star { color: #475569; }
+                .star--filled { color: #fbbf24; }
                 .reviews-list {
                     display: flex;
                     flex-direction: column;
-                    gap: 16px;
+                    gap: 14px;
                 }
                 .review-card {
                     background: #fff;
-                    border-radius: 12px;
+                    border: 1px solid #eef2f7;
+                    border-radius: 16px;
                     padding: 20px;
-                    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+                    box-shadow: 0 1px 2px rgba(16,24,40,0.05);
+                    transition: box-shadow .18s ease, transform .18s ease, border-color .18s ease;
                 }
+                .review-card:hover {
+                    box-shadow: 0 8px 24px rgba(16,24,40,0.08);
+                    transform: translateY(-2px);
+                    border-color: #e2e8f0;
+                }
+                :global(.dark) .review-card {
+                    background: #1e293b;
+                    border-color: #334155;
+                    box-shadow: none;
+                }
+                :global(.dark) .review-card:hover { border-color: #475569; }
                 .review-header {
                     display: flex;
-                    justify-content: space-between;
                     align-items: flex-start;
                     margin-bottom: 12px;
-                    flex-wrap: wrap;
-                    gap: 8px;
+                    gap: 12px;
                 }
                 .review-author {
                     display: flex;
                     align-items: center;
-                    gap: 8px;
+                    gap: 12px;
+                    width: 100%;
+                }
+                .review-avatar {
+                    flex-shrink: 0;
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 700;
+                    font-size: 15px;
+                    color: #fff;
+                    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+                    text-transform: uppercase;
+                }
+                .review-author__meta {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+                    min-width: 0;
                 }
                 .review-author__name {
-                    font-weight: 600;
+                    font-weight: 700;
                     color: #1f2937;
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 8px;
+                    flex-wrap: wrap;
                 }
+                :global(.dark) .review-author__name { color: #f1f5f9; }
                 .verified-badge {
                     background: #dcfce7;
                     color: #15803d;
-                    font-size: 12px;
+                    font-size: 11px;
+                    font-weight: 600;
                     padding: 2px 8px;
                     border-radius: 20px;
+                    white-space: nowrap;
+                }
+                :global(.dark) .verified-badge {
+                    background: rgba(21,128,61,0.18);
+                    color: #4ade80;
                 }
                 .review-meta {
                     display: flex;
                     align-items: center;
-                    gap: 12px;
+                    gap: 10px;
                 }
-                .review-date {
-                    color: #6b7280;
-                    font-size: 13px;
-                }
+                .review-date { color: #94a3b8; font-size: 12.5px; }
                 .review-title {
                     font-size: 16px;
-                    font-weight: 600;
+                    font-weight: 700;
                     color: #1f2937;
-                    margin-bottom: 8px;
+                    margin: 4px 0 8px;
                 }
+                :global(.dark) .review-title { color: #e2e8f0; }
                 .review-text {
-                    color: #4b5563;
-                    line-height: 1.6;
+                    color: #475569;
+                    line-height: 1.75;
                     margin-bottom: 12px;
+                    white-space: pre-line;
                 }
+                :global(.dark) .review-text { color: #cbd5e1; }
                 .review-pros-cons {
                     display: flex;
                     gap: 24px;
                     margin-bottom: 12px;
                     flex-wrap: wrap;
                 }
-                .pros, .cons {
-                    flex: 1;
-                    min-width: 150px;
-                }
-                .pros ul, .cons ul {
-                    list-style: none;
-                    padding: 0;
-                    margin: 0;
-                }
-                .pros li {
-                    color: #15803d;
-                    font-size: 14px;
-                    padding: 2px 0;
-                }
-                .cons li {
-                    color: #dc2626;
-                    font-size: 14px;
-                    padding: 2px 0;
-                }
-                .label {
-                    font-size: 14px;
-                    margin-left: 4px;
-                }
+                .pros, .cons { flex: 1; min-width: 150px; }
+                .pros ul, .cons ul { list-style: none; padding: 0; margin: 0; }
+                .pros li { color: #15803d; font-size: 14px; padding: 2px 0; }
+                .cons li { color: #dc2626; font-size: 14px; padding: 2px 0; }
+                :global(.dark) .pros li { color: #4ade80; }
+                :global(.dark) .cons li { color: #f87171; }
+                .label { font-size: 14px; margin-left: 4px; }
                 .review-location {
-                    color: #6b7280;
-                    font-size: 13px;
+                    color: #94a3b8;
+                    font-size: 12.5px;
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 4px;
                 }
                 .btn-show-more {
                     width: 100%;
                     margin-top: 16px;
-                    padding: 14px;
+                    padding: 13px;
                     background: #fff;
-                    border: 1px solid #e5e7eb;
+                    border: 1px solid #e2e8f0;
                     border-radius: 12px;
-                    color: #3b82f6;
-                    font-weight: 500;
+                    color: #4f46e5;
+                    font-weight: 600;
+                    font-size: 14px;
                     cursor: pointer;
-                    transition: all 0.2s;
+                    transition: all .18s ease;
                 }
                 .btn-show-more:hover {
-                    background: #f8fafc;
-                    border-color: #3b82f6;
+                    background: #4f46e5;
+                    border-color: #4f46e5;
+                    color: #fff;
                 }
+                :global(.dark) .btn-show-more {
+                    background: #1e293b;
+                    border-color: #334155;
+                    color: #a5b4fc;
+                }
+                :global(.dark) .btn-show-more:hover {
+                    background: #4f46e5;
+                    border-color: #4f46e5;
+                    color: #fff;
+                }
+                .btn-show-less {
+                    width: 100%;
+                    margin-top: 8px;
+                    padding: 10px;
+                    background: transparent;
+                    border: none;
+                    border-radius: 12px;
+                    color: #94a3b8;
+                    font-weight: 500;
+                    font-size: 13px;
+                    cursor: pointer;
+                    transition: color .18s ease;
+                }
+                .btn-show-less:hover { color: #4f46e5; }
             `}</style>
         </div>
     );

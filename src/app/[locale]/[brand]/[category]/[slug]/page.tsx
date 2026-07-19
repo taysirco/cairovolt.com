@@ -177,7 +177,9 @@ const getCachedAggregateRating = unstable_cache(
 // through JSON, so Date objects would silently become strings on cache hits.
 const getCachedVerifiedReviews = unstable_cache(
     async (slug: string) => {
-        const reviews = await getVerifiedProductReviews(slug);
+        // Load up to 60 so the product page can paginate (10 per "show more");
+        // schema is capped separately below to keep the JSON-LD lean.
+        const reviews = await getVerifiedProductReviews(slug, 60);
         return reviews.map(r => ({
             id: r.id,
             customerName: r.customerName,
@@ -418,7 +420,9 @@ export default async function ProductPage({ params }: Props) {
     // Structured data mirrors the reviews UI: only admin-approved Firestore
     // submissions (order-backed legacy reviews + moderated product-page reviews).
     const verifiedReviews = await getCachedVerifiedReviews(slug);
-    const schemaReviews = verifiedReviews.map(r => ({
+    // Cap structured-data reviews at 20 to keep the JSON-LD lean; the on-page
+    // list still paginates through all loaded reviews.
+    const schemaReviews = verifiedReviews.slice(0, 20).map(r => ({
         author: r.customerName,
         rating: r.rating,
         reviewBody: isArabic ? localizeArabicBrandNames(r.reviewText) : r.reviewText,
