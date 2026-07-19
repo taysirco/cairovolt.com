@@ -29,7 +29,7 @@ export const samsung_s26_ultra_45w_super_fast_charging_real: BlogArticle = {
     translations: {
         ar: {
             title: 'شاحن Samsung S26 Ultra 45W — هل يدعم Super Fast Charging الحقيقي؟ المفاجأة: 60W',
-            metaTitle: 'كم واط شاحن Samsung S26 Ultra؟ الإجابة 45W — وأفضل شاحن له في مصر',
+            metaTitle: 'كم واط شاحن Samsung S26 Ultra؟ الإجابة 60W — وأفضل شاحن له في مصر',
             metaDescription: 'هل شاحن 45W يكفي لـ Samsung S26 Ultra؟ المفاجأة: الموبايل يدعم 60W. شرح PPS و Super Fast Charging 3.0 + أفضل شاحن في مصر بالأرقام. تابع التفاصيل بمصر.',
             keywords: 'شاحن سامسونج S26 Ultra, Super Fast Charging 3.0, شاحن 45W سامسونج, شاحن 60W سامسونج S26, Samsung S26 Ultra charger egypt, PPS شاحن, شاحن سريع سامسونج مصر, انكر نانو 45W سامسونج, شحن سريع S26 Ultra, Super Fast Charging 2.0 vs 3.0, أفضل شاحن سامسونج مصر 2026, شاحن PD PPS سامسونج',
             excerpt: 'Samsung S26 Ultra بيدعم 60W مش 45W — معظم الناس مش عارفة. شرح الفرق بين Super Fast Charging 2.0 و 3.0 + أفضل شاحن في مصر بالأرقام.',
@@ -230,7 +230,7 @@ export const samsung_s26_ultra_45w_super_fast_charging_real: BlogArticle = {
         },
         en: {
             title: 'Samsung S26 Ultra 45W Charger — Does It Support Real Super Fast Charging? The Surprise: 60W',
-            metaTitle: 'Samsung S26 Ultra Charger Watts: 45W Max — Best Charger in Egypt',
+            metaTitle: 'Samsung S26 Ultra Charger Watts: 60W Max — Best Charger in Egypt',
             metaDescription: 'Is a 45W charger enough for Samsung S26 Ultra? Surprise: it supports 60W. PPS and Super Fast Charging 3.0 explained + best charger in Egypt with real numbers.',
             keywords: 'Samsung S26 Ultra charger, Super Fast Charging 3.0, 45W Samsung charger, 60W Samsung S26 charger, Samsung S26 Ultra charger egypt, PPS charger samsung, fast charger samsung egypt 2026, Anker Nano 45W samsung, S26 Ultra charging speed, Super Fast Charging 2.0 vs 3.0, best samsung charger egypt, PD PPS charger samsung',
             excerpt: 'Samsung S26 Ultra supports 60W, not just 45W — most people don\'t know. Super Fast Charging 2.0 vs 3.0 explained + best charger in Egypt with real numbers.',
