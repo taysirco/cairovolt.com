@@ -24,6 +24,17 @@ const TARGETS: Record<string, string> = {
     moderation: '/admin/moderation',
 };
 
+// خلف Cloud Run/Cloudflare يكون req.url داخلياً (0.0.0.0:8080)؛ نبني التحويل من
+// المضيف العام المُمرَّر أو الأصل الثابت حتى يصل المتصفح للّوحة فعلاً.
+function publicOrigin(req: NextRequest): string {
+    const host = req.headers.get('x-forwarded-host') || req.headers.get('host') || '';
+    if (host && !host.startsWith('0.0.0.0') && !host.startsWith('localhost') && !host.startsWith('127.')) {
+        const proto = req.headers.get('x-forwarded-proto') || 'https';
+        return `${proto}://${host}`;
+    }
+    return process.env.PUBLIC_ORIGIN || 'https://cairovolt.com';
+}
+
 const fail = (msg: string, status = 401) =>
     new NextResponse(msg, { status, headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'no-store' } });
 
@@ -49,7 +60,7 @@ export async function GET(req: NextRequest) {
         && crypto.timingSafeEqual(Buffer.from(sig, 'hex'), Buffer.from(expected, 'hex'));
     if (!ok) return fail('رمز غير صالح');
 
-    const res = NextResponse.redirect(new URL(dest, req.url), { status: 303 });
+    const res = NextResponse.redirect(new URL(dest, publicOrigin(req)), { status: 303 });
     res.cookies.set({
         name: ADMIN_SESSION_COOKIE,
         value: createAdminSessionToken(signingSecret),
