@@ -32,7 +32,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
             metaDescription: 'البائع قال 5 شحنات والإعلان قال 4، لكن الحساب من المواصفات المعلنة لـ 5 باور بانكات بسعة 20000mAh مع ايفون 17 برو ماكس يكشف عدد الشحنات الفعلي بالأرقام الدقيقة.',
             keywords: 'باور بانك 20000mah ايفون 17 برو ماكس, كم شحنة 20000mah, انكر zolo iphone 17 charges, جوي روم 20000 iphone, شحنات باور بانك ايفون, 20000mah iphone 17 pro max actual charges egypt',
             excerpt: 'البائع وعدك بـ 5 شحنات. الإعلان قال 4. الإعدادات هتفاجئك بأقل من 3. حسبنا الأرقام من المواصفات المعلنة لـ 5 باور بانكات 20,000mAh مع iPhone 17 Pro Max — الأرقام الحقيقية بالكامل.',
-            quickAnswer: 'باور بانك 20,000mAh أصلي يعطي 2.4-2.8 شحنة كاملة فقط لـ iPhone 17 Pro Max — مش 4 أو 5 زي ما يقول البائع. السبب: (1) فقد التحويل 3.7V→5V يأكل 38% من السعة، (2) مقاومة الكابل 5-8%، (3) كفاءة بطارية iPhone نفسها 92%. الإجابة: 20,000mAh = 12,000mAh فعلية ÷ 4,685mAh (بطارية iPhone 17 Pro Max) = 2.56 شحنة.',
+            quickAnswer: 'باور بانك 20,000mAh أصلي يعطي 2.4-2.8 شحنة كاملة فقط لـ iPhone 17 Pro Max — مش 4 أو 5 زي ما يقول البائع. الحساب: 20,000mAh ≈ 12,000mAh فعلية بعد فقد التحويل والكابل، ÷ 4,685mAh (بطارية الموبايل) = 2.56 شحنة.',
             content: `<p>"باور بانك 20,000mAh = 4 شحنات كاملة لـ iPhone 17 Pro Max" — هذا اللي بيقوله البائع. الإعلان على Amazon Egypt يقول "5 شحنات". الواقع لما تروح البيت وتختبر بنفسك؟ <strong>بين 2.4 و 2.8 شحنة فقط</strong>. الفرق المرعب بين الكلام والواقع: شحنة كاملة كاملة <strong>"ضائعة"</strong> في الفيزياء والكيمياء. خلّيني أوضحلك بالضبط أين تذهب هذه الـ mAh الـ 8,000 المفقودة، وليه باور بانك 20,000mAh مختلف عن آخر بنفس السعة المعلنة بـ 0.4 شحنة كاملة. قارنّا بالحساب 5 باور بانكات 20,000mAh أصلية مع iPhone 17 Pro Max — انطلاقاً من المواصفات المعلنة وكفاءة التحويل المعتادة لكل فئة. الأرقام النهائية ستغيّر طريقة شراء الباور بانك إلى الأبد.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -276,7 +276,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
             faq: [
                 {
                     question: 'ليه الفرق بين باور بانك 20,000mAh بـ 997ج و 2,200ج لو الاتنين نفس السعة؟',
-                    answer: 'الفرق في 3 عوامل: (1) قدرة الـ output — جوي روم 22.5W vs أنكر ZOLO 30W PD بكابلين مدمجين (USB-C 30W + Lightning 27W)، (2) كفاءة الـ chip — أنكر 90%+ vs جوي روم 85%، (3) الضمان — أنكر 18 شهر vs جوي روم 12 شهر، (4) عمر افتراضي — أنكر 800 دورة vs جوي روم 600 دورة. الفرق الفعلي في عدد الشحنات: 0.17 شحنة فقط، لكن في القدرة والمتانة كبير.',
+                    answer: 'الفرق في 4 عوامل: (1) قدرة الـ output — جوي روم 22.5W vs أنكر ZOLO 30W PD، (2) كابلين مدمجين في أنكر ZOLO، (3) الضمان — أنكر 18 شهر vs جوي روم 12 شهر، (4) العمر الافتراضي — 800 دورة vs 600 دورة. فرق الشحنات الفعلي 0.17 شحنة فقط، لكن فرق القدرة والمتانة كبير.',
                 },
                 {
                     question: 'هل ينفع باور بانك 20,000mAh يشحن MacBook Air أو iPad Pro؟',
@@ -298,7 +298,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
             metaDescription: 'Seller said 5 charges, the ad said 4 — the math from published specs for 5 different 20000mAh power banks with iPhone 17 Pro Max puts the real number between 2.4 and 2.8 only.',
             keywords: '20000mah power bank iphone 17 pro max, how many charges 20000mah, anker zolo iphone 17 charges, joyroom 20000 iphone, power bank actual iphone charges, 20000mah iphone 17 pro max actual charges egypt',
             excerpt: 'The seller promised 5 charges. The ad said 4. Settings will surprise you with less than 3. We ran the math from published specs for 5 different 20,000mAh power banks with iPhone 17 Pro Max — the complete real numbers.',
-            quickAnswer: 'An authentic 20,000mAh power bank gives only 2.4-2.8 full charges for iPhone 17 Pro Max — not 4 or 5 as the seller claims. Why: (1) 3.7V→5V conversion loss eats 38% of capacity, (2) 5-8% cable resistance, (3) iPhone\'s own battery efficiency 92%. The math: 20,000mAh = 12,000mAh actual ÷ 4,685mAh (iPhone 17 Pro Max battery) = 2.56 full charges.',
+            quickAnswer: 'An authentic 20,000mAh power bank gives only 2.4-2.8 full charges for iPhone 17 Pro Max — not 4 or 5 as sellers claim. The math: 20,000mAh ≈ 12,000mAh usable after conversion and cable losses, ÷ 4,685mAh (iPhone 17 Pro Max battery) = 2.56 full charges.',
             content: `<p>"A 20,000mAh power bank = 4 full charges for iPhone 17 Pro Max" — that is what the seller says. Amazon Egypt ad says "5 charges". The reality when you go home and test yourself? <strong>Between 2.4 and 2.8 charges only</strong>. The terrifying gap between marketing and reality: a full charge "lost" in physics and chemistry. Let me explain exactly where these missing 8,000mAh go, and why one 20,000mAh power bank differs from another with the same advertised capacity by 0.4 full charges. We compared 5 authentic 20,000mAh power banks with iPhone 17 Pro Max by the numbers — working from published specs and the typical conversion efficiency of each class. The final numbers will change how you buy a power bank forever.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -539,7 +539,7 @@ breaks down the practical difference between 22.5W, 45W, and 100W with numbers.<
             faq: [
                 {
                     question: 'Why does a 20,000mAh power bank differ between 997 EGP and 2,200 EGP if both have the same capacity?',
-                    answer: 'The difference lies in 3 factors: (1) output wattage — Joyroom 22.5W vs Anker ZOLO 30W PD with built-in dual cables (USB-C 30W + Lightning 27W), (2) chip efficiency — Anker 90%+ vs Joyroom 85%, (3) warranty — Anker 18 months vs Joyroom 12 months, (4) lifespan — Anker 800 cycles vs Joyroom 600. Actual charge count difference: only 0.17 charge, but in power output and durability the gap is huge.',
+                    answer: 'The difference lies in 4 factors: (1) output wattage — Joyroom 22.5W vs Anker ZOLO 30W PD, (2) built-in dual cables on the Anker ZOLO, (3) warranty — Anker 18 months vs Joyroom 12 months, (4) lifespan — 800 cycles vs 600. Actual charge-count difference: only 0.17 charge, but the gap in power and durability is huge.',
                 },
                 {
                     question: 'Can a 20,000mAh power bank charge a MacBook Air or iPad Pro?',

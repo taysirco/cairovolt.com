@@ -63,7 +63,7 @@ export const anker_soundcore_r50i_nc = {
 </div>
 `,
                 features: ["🔇 Manufacturer-listed ANC up to 42dB", "🔋 Check published battery test conditions", "🎙️ Four-microphone call processing", "📱 Fold-out phone-stand case", "🎵 10mm driver and app EQ", "💧 Verify IP54 scope and limitations", "⚡ Manufacturer-listed quick-charge figure", "🔊 Transparency Mode", "🏆 Review current CairoVolt warranty terms"],
-                metaTitle: "Soundcore R50i NC A3959 Earbuds | ANC + Phone Stand | Egypt",
+                metaTitle: "Soundcore R50i NC Original — ANC + 45h Battery | Best Price Egypt",
                 metaDesc: "Explore Soundcore R50i NC A3959 in Egypt. Review manufacturer ANC, battery, microphone, IP54 and case specifications plus stock and current warranty terms.",
                 faqs: [
                     { question: "How does the advertised 42dB ANC help?", answer: "Soundcore rates the ANC at up to 42dB under its specified conditions. Actual reduction varies with fit and noise type; choose an ear tip that seals comfortably and follow the fit guidance." },
@@ -112,7 +112,7 @@ export const anker_soundcore_r50i_nc = {
 </div>
 `,
                 features: ["🔇 عزل معلن من الشركة حتى 42dB", "🔋 راجع شروط اختبار البطارية المنشورة", "🎙️ معالجة مكالمات بأربعة مايكات", "📱 حامل قابل للفتح في العلبة", "🎵 درايفر 10mm وEQ عبر التطبيق", "💧 تحقق من نطاق وحدود IP54", "⚡ رقم شحن سريع معلن من الشركة", "🔊 وضع الشفافية", "🏆 راجع شروط ضمان كايرو فولت الحالية"],
-                metaTitle: "سماعة ساوندكور R50i NC A3959 | عزل وعلبة بحامل | مصر",
+                metaTitle: "سماعة ساوندكور R50i NC الأصلية — عزل ضوضاء ANC وبطارية 45 ساعة | مصر",
                 metaDesc: "تعرف على سماعة ساوندكور R50i NC A3959 في مصر. راجع مواصفات العزل والبطارية والمايكات وIP54 والعلبة والمخزون والضمان الحالي.",
                 faqs: [
                     { question: "رقم 42dB ANC معناه إيه؟", answer: "ساوندكور تعلن خفض ضوضاء حتى 42dB ضمن شروطها. النتيجة الفعلية تختلف حسب إحكام السماعة ونوع الضوضاء؛ استخدم مقاس طرف الأذن المناسب لأفضل عزل." },

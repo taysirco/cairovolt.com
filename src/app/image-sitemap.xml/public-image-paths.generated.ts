@@ -6,6 +6,7 @@ export const PUBLIC_IMAGE_PATHS = new Set<string>([
     "/cairovolt_logo.png",
     "/cairovolt_logo.webp",
     "/favicon.png",
+    "/grid-pattern.svg",
     "/icon-512.png",
     "/icon.png",
     "/images/blog/og/10000mah-power-bank-allowed-in-flight.jpg",
@@ -3481,5 +3482,6 @@ export const PUBLIC_IMAGE_PATHS = new Set<string>([
     "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-8-480.webp",
     "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-8-800.webp",
     "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-8-thumb.webp",
-    "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-8.webp"
+    "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-8.webp",
+    "/videos/cairovolt-hero-poster.webp"
 ]);

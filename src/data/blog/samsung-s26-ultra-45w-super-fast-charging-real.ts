@@ -29,11 +29,11 @@ export const samsung_s26_ultra_45w_super_fast_charging_real: BlogArticle = {
     translations: {
         ar: {
             title: 'شاحن Samsung S26 Ultra 45W — هل يدعم Super Fast Charging الحقيقي؟ المفاجأة: 60W',
-            metaTitle: 'شاحن Samsung S26 Ultra — 45W ولا 60W؟ الحقيقة الكاملة | كايرو فولت',
+            metaTitle: 'كم واط شاحن Samsung S26 Ultra؟ الإجابة 45W — وأفضل شاحن له في مصر',
             metaDescription: 'هل شاحن 45W يكفي لـ Samsung S26 Ultra؟ المفاجأة: الموبايل يدعم 60W. شرح PPS و Super Fast Charging 3.0 + أفضل شاحن في مصر بالأرقام. تابع التفاصيل بمصر.',
             keywords: 'شاحن سامسونج S26 Ultra, Super Fast Charging 3.0, شاحن 45W سامسونج, شاحن 60W سامسونج S26, Samsung S26 Ultra charger egypt, PPS شاحن, شاحن سريع سامسونج مصر, انكر نانو 45W سامسونج, شحن سريع S26 Ultra, Super Fast Charging 2.0 vs 3.0, أفضل شاحن سامسونج مصر 2026, شاحن PD PPS سامسونج',
             excerpt: 'Samsung S26 Ultra بيدعم 60W مش 45W — معظم الناس مش عارفة. شرح الفرق بين Super Fast Charging 2.0 و 3.0 + أفضل شاحن في مصر بالأرقام.',
-            quickAnswer: 'المفاجأة: Samsung S26 Ultra بيدعم 60W Super Fast Charging 3.0 — مش 45W بس. بشاحن 60W+ يدعم PD 3.0 + PPS وكابل 5A، الموبايل بيشحن من 0→50% في 15-17 دقيقة فقط، و 0→100% في 45-50 دقيقة. شاحن 45W هيشتغل بردو بس أبطأ شوية (0→50% في 22 دقيقة). شاحن 25W أبطأ بكتير (0→50% في 30 دقيقة). الشرط الأساسي: لازم الشاحن يدعم PPS — بدونه هتاخد 15W بس حتى لو مكتوب عليه 100W. أفضل خيار: انكر نانو 45W (799ج) — بيفعّل Super Fast Charging 2.0 فوراً.',
+            quickAnswer: 'المفاجأة: Samsung S26 Ultra بيدعم 60W Super Fast Charging 3.0 — مش 45W بس. بشاحن 60W+ بيدعم PPS وكابل 5A بيشحن 0→50% في 15-17 دقيقة و0→100% في 45-50 دقيقة. الشرط الأساسي: دعم PPS — من غيره هتاخد 15W بس حتى لو الشاحن 100W. أفضل خيار: انكر نانو 45W (799ج).',
             content: `<p>اشتريت Samsung S26 Ultra بـ 65,000 جنيه. فتحت العلبة. طلع الموبايل. طلعت السماعة... أقصد مطلعتش. طلع الكابل. وبس. مفيش شاحن. Samsung بتقولك "إحنا بنحب البيئة" — وإنت بتحب موبايلك يتشحن. فبتروح تدوّر على شاحن 45W عشان "ده اللي الموبايل بيدعمه." وهنا بالظبط المعلومة الغلط بتبدأ.</p>
 
 <p>لإن Samsung S26 Ultra مبيدعمش 45W. بيدعم <strong>60W</strong>. أيوا، 60 واط. Samsung سمّته Super Fast Charging 3.0 — وده جيل جديد غير الـ 2.0 اللي كان في S25 و S24. بس مفيش حد تقريباً في مصر بيتكلم عن الفرق ده. في المقال ده هنشرحلك: إيه الفرق الحقيقي بين 25W و 45W و 60W، إيه الشروط عشان الشحن السريع يشتغل فعلاً، وإيه أحسن شاحن تشتريه في مصر من غير ما تدفع 1,500 جنيه لسامسونج.</p>
@@ -230,11 +230,11 @@ export const samsung_s26_ultra_45w_super_fast_charging_real: BlogArticle = {
         },
         en: {
             title: 'Samsung S26 Ultra 45W Charger — Does It Support Real Super Fast Charging? The Surprise: 60W',
-            metaTitle: 'Samsung S26 Ultra — 45W or 60W? The Full Truth | CairoVolt',
+            metaTitle: 'Samsung S26 Ultra Charger Watts: 45W Max — Best Charger in Egypt',
             metaDescription: 'Is a 45W charger enough for Samsung S26 Ultra? Surprise: it supports 60W. PPS and Super Fast Charging 3.0 explained + best charger in Egypt with real numbers.',
             keywords: 'Samsung S26 Ultra charger, Super Fast Charging 3.0, 45W Samsung charger, 60W Samsung S26 charger, Samsung S26 Ultra charger egypt, PPS charger samsung, fast charger samsung egypt 2026, Anker Nano 45W samsung, S26 Ultra charging speed, Super Fast Charging 2.0 vs 3.0, best samsung charger egypt, PD PPS charger samsung',
             excerpt: 'Samsung S26 Ultra supports 60W, not just 45W — most people don\'t know. Super Fast Charging 2.0 vs 3.0 explained + best charger in Egypt with real numbers.',
-            quickAnswer: 'Surprise: Samsung S26 Ultra supports 60W Super Fast Charging 3.0 — not just 45W. With a 60W+ charger supporting PD 3.0 + PPS and a 5A cable, it charges 0→50% in 15-17 minutes, 0→100% in 45-50 minutes. A 45W charger still works well (0→50% in 22 min). Critical requirement: the charger MUST support PPS — without it you get only 15W even from a 100W charger. Best pick: Anker Nano 45W (790 EGP) — triggers Super Fast Charging instantly.',
+            quickAnswer: 'Surprise: Samsung S26 Ultra supports 60W Super Fast Charging 3.0 — not just 45W. With a 60W+ PPS charger and a 5A cable it hits 0→50% in 15-17 minutes and 0→100% in 45-50 minutes. The charger MUST support PPS — without it you get only 15W. Best pick: Anker Nano 45W (790 EGP).',
             content: `<p>You just bought a Samsung S26 Ultra for 65,000 EGP. You open the box. The phone comes out. The earbuds come out... actually, they don't. The cable comes out. And that is it. No charger. Samsung says "we love the environment" — and you love your phone being charged. So you search for a 45W charger because "that is what the phone supports." And right there, the misinformation begins.</p>
 
 <p>Because the Samsung S26 Ultra does not max out at 45W. It supports <strong>60W</strong>. Yes, 60 watts. Samsung calls it Super Fast Charging 3.0 — a new generation beyond the 2.0 standard in the S25 and S24. But almost nobody in Egypt talks about this difference. In this article, we explain the real difference between 25W, 45W, and 60W, the exact requirements for fast charging to actually work, and the best charger you can buy in Egypt without paying 1,500 EGP to Samsung.</p>

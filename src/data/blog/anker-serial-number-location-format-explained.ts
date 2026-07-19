@@ -28,12 +28,14 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
     translations: {
         ar: {
             title: 'السيريال نمبر في منتجات انكر — فين تلاقيه وإيه الصيغة الصحيحة اللي تتأكد منها؟',
-            metaTitle: 'السيريال نمبر في انكر — فين تلاقيه وكيف تتحقق؟ | كايرو فولت',
+            metaTitle: 'السيريال نمبر في انكر — فين مكانه وإيه صيغته الصحيحة؟ | كايرو فولت',
             metaDescription: 'دليل شامل لرقم السيريال في منتجات انكر: فين تلاقيه في الشواحن والباور بانك والسماعات، صيغته الصحيحة، الفرق بين سيريال ورقم الموديل، وكيف تتحقق عبر anker.com.',
-            keywords: 'سيريال نمبر انكر, فين سيريال انكر, كيفية التحقق من انكر, serial number anker مصر, رقم سيريال شاحن انكر, رقم سيريال باور بانك انكر, التحقق من انكر أصلي, anker.com/verify, سيريال نمبر سماعة انكر, الفرق سيريال ورقم موديل انكر',
+            keywords: 'سيريال نمبر انكر, فين سيريال انكر, رقم تسلسلي انكر, serial number anker مصر, رقم سيريال شاحن انكر, رقم سيريال باور بانك انكر, صيغة سيريال انكر الصحيحة, مكان السيريال في انكر, سيريال نمبر سماعة انكر, الفرق سيريال ورقم موديل انكر',
             excerpt: 'مش عارف فين سيريال نمبر منتج انكر بتاعك؟ دليل كامل: مكانه على الشواحن والباور بانك والسماعات، الصيغة الصحيحة، وإزاي تستخدمه على anker.com للتحقق.',
             quickAnswer: 'السيريال نمبر في انكر موجود على: الجهة الخلفية للمنتج (مطبوع أو محفور)، داخل العلبة على ملصق أبيض، أو بجوار الباركود. الصيغة تبدأ بـ حرف كبير متبوع بأرقام وحروف (مثل: A2741XXXXXXX). بعد إيجاده، ادخل anker.com/verify للتأكيد.',
-            content: `<p>اشتريت منتج انكر وعايز تتأكد إنه أصلي؟ أول خطوة هي إيجاد السيريال نمبر. بس المشكلة إن كتير من الناس مش عارفين فين بالظبط بيكون — لأن مكانه بيختلف حسب نوع المنتج. دليل كامل بالأمثلة لكل الأنواع.</p>
+            content: `<p>اشتريت منتج انكر وعايز تتأكد إنه أصلي؟ أول خطوة هي إيجاد السيريال نمبر. بس المشكلة إن كتير من الناس مش عارفين فين بالظبط بيكون — لأن مكانه بيختلف حسب نوع المنتج. المقال ده متخصص في حاجتين بس: مكان السيريال نمبر على كل نوع منتج، وشكل الصيغة الصحيحة اللي المفروض تلاقيها — بالأمثلة لكل الأنواع.</p>
+
+<p>بعد ما تلاقي الرقم، خطوات الفحص نفسها على الموقع الرسمي شرحناها في <a href="/blog/anker-original-website-verify-barcode-guide">دليل التحقق خطوة بخطوة من موقع Anker الرسمي</a>، ولو عايز كل طرق التمييز في مكان واحد راجع <a href="/blog/how-to-identify-original-anker">الدليل الشامل لمعرفة انكر الأصلي بـ5 طرق</a>.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -249,13 +251,15 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
             ]
         },
         en: {
-            title: 'Anker Serial Number Location and Format Explained — Where to Find It and How to Verify',
+            title: 'Anker Serial Number Location and Format Explained — Where to Find It on Every Product',
             metaTitle: 'Anker Serial Number Location and Format Guide | CairoVolt',
             metaDescription: 'Where to find the Anker serial number on chargers, power banks, and earbuds. Learn the valid format, the difference from model numbers, and verify on anker.com.',
-            keywords: 'anker serial number location, where is anker serial number, anker verify serial, anker serial number format, anker charger serial number, anker power bank serial number, verify anker authentic, anker.com/verify, anker earbuds serial number, model number vs serial number anker',
+            keywords: 'anker serial number location, where is anker serial number, anker serial number sticker, anker serial number format, anker charger serial number, anker power bank serial number, find anker serial number, anker serial number example, anker earbuds serial number, model number vs serial number anker',
             excerpt: 'Not sure where the serial number is on your Anker product? Complete guide: location on chargers, power banks, and earbuds, the correct format, and how to use it at anker.com for verification.',
             quickAnswer: 'The Anker serial number is located on: the back of the product (printed or engraved), inside the box on a white sticker, or next to the barcode. Format starts with a capital letter followed by numbers and letters (e.g., A2741XXXXXXX). After finding it, go to anker.com/verify to confirm authenticity.',
-            content: `<p>Bought an Anker product and want to confirm it is genuine? The first step is finding the serial number. But many people do not know exactly where to look — because the location varies by product type. Here is a complete guide with examples for every product category.</p>
+            content: `<p>Bought an Anker product and want to confirm it is genuine? The first step is finding the serial number. But many people do not know exactly where to look — because the location varies by product type. This article focuses on exactly two things: where the serial number sits on each product type, and what a correct format looks like — with examples for every category.</p>
+
+<p>Once you have found the number, the actual checking steps are covered in <a href="/en/blog/anker-original-website-verify-barcode-guide">the step-by-step official Anker website verification walkthrough</a> — and for every identification method in one place, see <a href="/en/blog/how-to-identify-original-anker">the complete 5-method guide to identifying original Anker products</a>.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">

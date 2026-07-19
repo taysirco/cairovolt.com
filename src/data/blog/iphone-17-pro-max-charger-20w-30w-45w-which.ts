@@ -29,11 +29,11 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
     translations: {
         ar: {
             title: 'شاحن iPhone 17 Pro Max الأصلي — 20W أم 30W أم 45W؟ الإجابة بالاختبار',
-            metaTitle: 'أفضل شاحن iPhone 17 Pro Max — 20W ولا 30W ولا 45W؟ | كايرو فولت',
+            metaTitle: 'أفضل شاحن iPhone 17 Pro Max؟ الإجابة 30W-45W — مقارنة بالأرقام والأسعار',
             metaDescription: 'مقارنة بالأرقام بين 3 شواحن (20W و30W و45W) لـ iPhone 17 Pro Max وفق المواصفات والاختبارات المستقلة. الفرق بين 20W و30W في السرعة 4 دقائق بس! الأرقام الحقيقية في مصر 2026.',
             keywords: 'شاحن ايفون 17 برو ماكس, افضل شاحن ايفون 17, شاحن 20W ايفون, شاحن 30W ايفون, شاحن 45W ايفون, سرعة شحن ايفون 17 برو ماكس, شاحن اصلي ايفون مصر, انكر شاحن ايفون, هل شاحن 20W كفاية للايفون, شحن سريع ايفون 17 مصر, charger iphone 17 pro max egypt',
             excerpt: 'مقارنة 3 شواحن (20W و30W و45W) لـ iPhone 17 Pro Max بالأرقام — الفرق بين 20W و30W في السرعة 4 دقائق بس. الـ 45W مش بيفرق خالص. النتائج بالأرقام.',
-            quickAnswer: 'شاحن 30W هو الاختيار الأمثل لـ iPhone 17 Pro Max. ليه؟ iPhone 17 Pro Max أقصى قبول شحن ليه 27W — يعني شاحن 30W بيستغل كل إمكانياته. شاحن 20W بيشحنه من 0-50% في 28 دقيقة. شاحن 30W بيعمل نفس الشحنة في 24 دقيقة — فرق 4 دقائق. شاحن 45W؟ نفس سرعة الـ 30W بالظبط لإن الموبايل مش بيقبل أكتر من 27W. الأفضل: أنكر GaN 30W (490ج) — أصغر حجماً من الـ 20W وبيشحن أسرع.',
+            quickAnswer: 'شاحن 30W هو الاختيار الأمثل لـ iPhone 17 Pro Max لإن أقصى قبول شحن ليه 27W. الـ 30W بيشحن 0-50% في 24 دقيقة، والـ 20W في 28 دقيقة، والـ 45W نفس سرعة الـ 30W بالظبط. الأفضل: أنكر GaN 30W (490ج) — أصغر حجماً وأسرع.',
             content: `<p>"شاحن 20 واط كفاية ولا لازم 30 ولا 45؟" — ده أكتر سؤال بنسمعه من عملاء كايرو فولت اللي اشتروا iPhone 17 Pro Max. Apple بتبيع الموبايل من غير شاحن، وبتسيب الاختيار عليك. المشكلة؟ كتير بيشتروا شاحن 45W بـ 800ج+ وهو مش بيفرق عن 30W بجنيه واحد في السرعة. وكتير بيفضلوا على شاحن 5W القديم اللي بيشحن الموبايل في 3 ساعات ونص.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -267,11 +267,11 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
         },
         en: {
             title: 'Best iPhone 17 Pro Max Charger — 20W vs 30W vs 45W? Tested with Real Numbers',
-            metaTitle: 'Best iPhone 17 Pro Max Charger — 20W vs 30W vs 45W? | CairoVolt',
+            metaTitle: 'iPhone 17 Pro Max Charger: 20W vs 30W vs 45W — Which to Buy (Egypt)',
             metaDescription: 'A numbers-based comparison of 3 chargers (20W, 30W, 45W) for iPhone 17 Pro Max based on specs and independent tests. The difference between 20W and 30W is only 4 minutes! Real numbers...',
             keywords: 'iphone 17 pro max charger, best charger iphone 17, 20W charger iphone, 30W charger iphone, 45W charger iphone, iphone 17 pro max charging speed, anker charger iphone, is 20W enough for iphone, fast charging iphone 17 egypt, charger iphone 17 pro max egypt, GaN charger iphone',
             excerpt: 'Comparing 3 chargers (20W, 30W, 45W) for iPhone 17 Pro Max by the numbers — the difference between 20W and 30W is only 4 minutes. 45W makes zero difference. Results by the numbers.',
-            quickAnswer: 'A 30W charger is the optimal choice for iPhone 17 Pro Max. Why? iPhone 17 Pro Max accepts a maximum of 27W — so a 30W charger utilizes its full potential. 20W charger: 0-50% in 28 minutes. 30W charger: 0-50% in 24 minutes — 4 minutes faster. 45W charger: 0-50% in 24 minutes (identical to 30W because the phone caps at 27W). Best pick: Anker GaN 30W (490 EGP) — smaller than a 20W charger and charges faster.',
+            quickAnswer: 'A 30W charger is the optimal choice for iPhone 17 Pro Max — the phone accepts a maximum of 27W. 30W charges 0-50% in 24 minutes, 20W takes 28, and 45W is identical to 30W because of the 27W cap. Best pick: Anker GaN 30W (490 EGP) — smaller and faster.',
             content: `<p>"Is a 20W charger enough, or do I need 30W or 45W?" — this is the most common question we hear from CairoVolt customers who bought an iPhone 17 Pro Max. Apple sells the phone without a charger, leaving the choice to you. The problem? Many buy a 45W charger for 800+ EGP when it performs identically to a 30W. And many stick with the old 5W charger that takes 3.5 hours for a full charge.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">

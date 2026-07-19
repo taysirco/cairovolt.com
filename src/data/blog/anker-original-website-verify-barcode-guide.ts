@@ -28,11 +28,11 @@ export const anker_original_website_verify_barcode_guide: BlogArticle = {
     translations: {
         ar: {
             title: 'موقع Anker الرسمي — خطوة بخطوة للتحقق من باركود الضمان والأرقام التسلسلية',
-            metaTitle: 'التحقق من Anker الأصلي — خطوات باركود الضمان والرقم التسلسلي',
+            metaTitle: 'موقع Anker الرسمي للتحقق — خطوات الباركود والسيريال بالتفصيل',
             metaDescription: 'دليل مصوّر خطوة بخطوة للتحقق من أصالة منتجات Anker عبر موقعها الرسمي verify.anker.com. اعرف كيف تجد السيريال نمبر وماذا تفعل لو فشل التحقق بالكامل.',
             excerpt: 'خطوات بسيطة للتحقق من أصالة منتج Anker عبر anker.com/verify — ما تُدخله وماذا تعني النتيجة.',
             quickAnswer: 'للتحقق من أصالة منتج Anker: ادخل على anker.com/verify، ادخل الرقم التسلسلي (Serial Number) من الكارتون أو الملصق خلف المنتج، واضغط Verify. النتيجة الإيجابية: "This product is genuine Anker". لو فشل التحقق أو الرقم غلط — المنتج على الأرجح تقليد.',
-            keywords: 'موقع انكر الرسمي التحقق, anker.com verify, التحقق من انكر اصلي, باركود انكر ضمان, رقم تسلسلي انكر, انكر serial number check, التحقق من اصالة انكر, انكر fake original check',
+            keywords: 'موقع انكر الرسمي التحقق, anker.com verify, التحقق من انكر اصلي, باركود انكر ضمان, خطوات التحقق من انكر, انكر serial number check, التحقق من اصالة انكر, موقع انكر لمعرفة الشاحن الاصلي',
             faq: [
                 {
                     question: 'فين بلاقي الرقم التسلسلي (Serial Number) على منتج Anker؟',
@@ -51,7 +51,9 @@ export const anker_original_website_verify_barcode_guide: BlogArticle = {
                     answer: 'رقم الموديل (Model Number) بيعرّف نوع المنتج — نفس الرقم لكل المنتجات من نفس النوع. مثلاً A2741 هو موديل شاحن Anker 30W. الرقم التسلسلي (Serial Number) فريد لكل منتج منفرد — زي البصمة. Anker بتستخدم الاثنين لكن للتحقق من الأصالة بتحتاج الرقم التسلسلي.',
                 },
             ],
-            content: `<p>هل اشتريت شاحن أنكر أو باور بانك أو سماعة لاسلكية جديدة من السوق وتريد التأكد بضمان 100% أن هذا المنتج أصلي وليس تقليداً صينياً رديئاً قد يضر ببطارية هاتفك؟ توفر شركة Anker العالمية نظاماً ذكياً ورسمياً على موقعها الإلكتروني يتيح للمستهلكين التحقق من أصالة كل منتج باستخدام الرقم التسلسلي (Serial Number) أو كود الأمان. في هذا الدليل التقني الشامل، سنشرح لك خطوة بخطوة وبالتفصيل المصور كيفية فحص المنتج، وماذا تعني الرسائل المختلفة لنتائج الفحص، وكيف تتجنب حيل المقلدين المتقدمة التي تحاول خداع أنظمة التحقق الرقمية.</p>
+            content: `<p>هل اشتريت شاحن أنكر أو باور بانك أو سماعة لاسلكية جديدة من السوق وتريد التأكد بضمان 100% أن هذا المنتج أصلي وليس تقليداً صينياً رديئاً قد يضر ببطارية هاتفك؟ توفر شركة Anker العالمية نظاماً ذكياً ورسمياً على موقعها الإلكتروني يتيح للمستهلكين التحقق من أصالة كل منتج باستخدام الرقم التسلسلي (Serial Number) أو كود الأمان. في هذا الدليل التقني الشامل، سنشرح لك خطوة بخطوة وبالتفصيل المصور كيفية فحص المنتج، وماذا تعني الرسائل المختلفة لنتائج الفحص، وكيف تتجنب حيل المقلدين المتقدمة التي تحاول خداع أنظمة التحقق الرقمية. التركيز هنا على خطوات الموقع الرسمي بالتفصيل من أول خطوة لآخر نتيجة.</p>
+
+<p>لو لسه مش لاقي الرقم نفسه على منتجك، راجع الأول <a href="/blog/anker-serial-number-location-format-explained">مكان السيريال نمبر في منتجات انكر وصيغته الصحيحة</a>، ولو عايز الصورة الكاملة لكل طرق التمييز راجع <a href="/blog/how-to-identify-original-anker">الدليل الشامل لمعرفة انكر الأصلي بـ5 طرق</a>.</p>
 
 <div class="quick-answer-inline" style="background: #f0f7ff; border-right: 4px solid #2563eb; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
 <strong>الإجابة السريعة:</strong> ادخل على <a href="https://www.anker.com/verify" target="_blank" rel="noopener noreferrer">anker.com/verify</a> ← أدخل الرقم التسلسلي من الكارتون ← اضغط Verify. النتيجة الإيجابية: "This product is genuine Anker". لو فشل — المنتج على الأرجح تقليد.
@@ -155,7 +157,7 @@ export const anker_original_website_verify_barcode_guide: BlogArticle = {
 <li><strong>مصدر الشراء:</strong> الشراء من متجر موثوق زي كايرو فولت هو أفضل ضمان للأصالة</li>
 </ul>
 
-<p>للفهم الكامل لنظام Anker Verify وكيف تكشف التقليد المتطور، اقرأ مقالنا التفصيلي: <a href="/blog/anker-verify-serial-number-security-check">شرح Anker Verify — دليلك لفحص السيريال نمبر</a>.</p>
+<p>للفهم الكامل لنظام Anker Verify وكيف تكشف التقليد المتطور، اقرأ مقالنا التفصيلي: <a href="/blog/anker-verify-serial-number-security-check">خطورة شواحن انكر التقليد — شرح نظام Anker Verify من الداخل</a>.</p>
 
 <h2>التحقق من QR Code بدل الرقم اليدوي</h2>
 
@@ -207,11 +209,11 @@ export const anker_original_website_verify_barcode_guide: BlogArticle = {
         },
         en: {
             title: 'Anker Official Website — Step-by-Step Barcode and Serial Number Verification Guide',
-            metaTitle: 'Anker Authenticity Verification — Step-by-Step Serial Number & Barcode Guide',
+            metaTitle: 'Anker Official Website Verification — Step-by-Step Barcode & Serial Walkthrough',
             metaDescription: 'How to verify your Anker product\'s authenticity using anker.com/verify — what to enter, what each result means, and what to do if verification fails.',
             excerpt: 'Simple steps to verify any Anker product\'s authenticity via anker.com/verify — what to enter and what the result actually means.',
             quickAnswer: 'To verify Anker authenticity: go to anker.com/verify, enter the Serial Number from the box or product label, click Verify. A genuine result shows "This product is genuine Anker." Failed verification or invalid serial number strongly suggests a counterfeit.',
-            keywords: 'Anker verify website, anker.com verify, Anker serial number check, Anker authenticity verification, Anker barcode check, Anker fake vs original, Anker genuine product check, Anker warranty barcode Egypt',
+            keywords: 'Anker verify website, anker.com verify, Anker serial number check, Anker authenticity verification, Anker barcode check, Anker verify step by step, Anker genuine product check, Anker warranty barcode Egypt',
             faq: [
                 {
                     question: 'Where do I find the Serial Number on an Anker product?',
@@ -230,7 +232,9 @@ export const anker_original_website_verify_barcode_guide: BlogArticle = {
                     answer: 'The model number (e.g., A2741) identifies the product type — the same for every unit of that model. The serial number is unique to each individual unit, like a fingerprint. Both appear on Anker packaging, but you need the serial number for authenticity verification.',
                 },
             ],
-            content: `<p>Bought an Anker product and want to confirm it's genuine? Anker provides an official verification tool directly on their website. This guide walks through every step — how to find the right number, how to enter it, what each result means, and what to do if verification fails.</p>
+            content: `<p>Bought an Anker product and want to confirm it's genuine? Anker provides an official verification tool directly on their website, and this guide is dedicated purely to that walkthrough — every step on the official site: how to find the right number, how to enter it, what each result means, and what to do if verification fails.</p>
+
+<p>If you haven't located the number itself yet, start with <a href="/en/blog/anker-serial-number-location-format-explained">where to find the Anker serial number and what its format looks like</a> — and for the full picture of every identification method, see <a href="/en/blog/how-to-identify-original-anker">the complete 5-method guide to identifying original Anker products</a>.</p>
 
 <div class="quick-answer-inline" style="background: #f0f7ff; border-left: 4px solid #2563eb; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
 <strong>Quick Answer:</strong> Go to <a href="https://www.anker.com/verify" target="_blank" rel="noopener noreferrer">anker.com/verify</a> → enter the Serial Number from the box → click Verify. Genuine result: "This product is genuine Anker." Failed verification: likely counterfeit.
@@ -334,7 +338,7 @@ export const anker_original_website_verify_barcode_guide: BlogArticle = {
 <li><strong>Purchase source:</strong> Buying from a trusted retailer like CairoVolt remains the strongest authenticity guarantee</li>
 </ul>
 
-<p>For a deep dive into what makes Anker serial numbers valid and how to identify sophisticated fakes, read: <a href="/en/blog/anker-verify-serial-number-security-check">Anker Verify Explained — Complete Guide to Checking Your Serial Number</a>.</p>
+<p>For a deep dive into what makes Anker serial numbers valid and how to identify sophisticated fakes, read: <a href="/en/blog/anker-verify-serial-number-security-check">Counterfeit Anker Danger — Inside the Anker Verify Security System</a>.</p>
 
 <h2>Using QR Code Instead of Manual Entry</h2>
 

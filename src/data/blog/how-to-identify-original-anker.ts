@@ -22,10 +22,10 @@ export const how_to_identify_original_anker: BlogArticle = {
     },
         translations: {
             ar: {
-                title: 'كيف تعرف انكر الأصلي من المقلد؟ 5 طرق مضمونة',
-                metaTitle: 'كيف تعرف انكر الاصلي من التقليد | 5 طرق مضمونة',
+                title: 'كيف تعرف انكر الأصلي من المقلد؟ الدليل الشامل بـ5 طرق',
+                metaTitle: 'كيف تعرف انكر الاصلي من التقليد؟ الدليل الشامل — 5 طرق',
                 metaDescription: 'تعلم كيف تفرق بين منتجات انكر الأصلية والمقلدة. 5 طرق سهلة للتحقق من أصالة شاحن انكر وباور بانك انكر. نصائح من خبراء كايرو فولت. تابع التفاصيل والمقارنة بمصر.',
-                keywords: 'انكر اصلي, الفرق بين انكر الاصلي والتقليد, كيف اعرف انكر الاصلي, شاحن انكر اصلي, التاكد من انكر الاصلي, موقع انكر لمعرفة الشاحن الاصلي',
+                keywords: 'انكر اصلي, الفرق بين انكر الاصلي والتقليد, كيف اعرف انكر الاصلي, شاحن انكر اصلي, التاكد من انكر الاصلي, علامات انكر التقليد',
                 excerpt: '5 طرق سهلة ومضمونة للتفريق بين منتجات انكر الأصلية والمقلدة.',
                 quickAnswer: 'للتفريق بين أنكر الأصلي والتقليد: (1) افحص الباركود بتطبيق أنكر الرسمي (2) الوزن الأثقل يعني الأصلي (3) الأصلي عليه شعار أنكر محفور وليس مطبوع. الشراء من متجر موثوق مثل كايرو فولت يضمن الأصالة.',
                 content: `
@@ -33,7 +33,8 @@ export const how_to_identify_original_anker: BlogArticle = {
                                                                                                         <div class="quick-answer-inline" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role = "complementary" aria - label="تحذير">
                                                                                                             <p><strong>❗ باختصار: </strong> 80% من منتجات "انكر" على OLX وفيسبوك مقلدة. للتأكد من الأصالة: (1) امسح كود QR على anker.com/verify(2) قارن الوزن(3) اشتري من موزع معتمد.</p>
                                                                                                                 </div>
-                                                                                                                <p> بسبب شهرة انكر الكبيرة، ظهرت منتجات مقلدة كثيرة في الأسواق المصرية، خاصة على منصات مثل أوليكس وفيسبوك ماركت.المقلد قد يكون خطراً على بطارية موبايلك وحتى على سلامتك الشخصية.</p>
+                                                                                                                <p> بسبب شهرة انكر الكبيرة، ظهرت منتجات مقلدة كثيرة في الأسواق المصرية، خاصة على منصات مثل أوليكس وفيسبوك ماركت.المقلد قد يكون خطراً على بطارية موبايلك وحتى على سلامتك الشخصية. ده الدليل الشامل اللي بيجمعلك كل طرق التمييز الخمسة في مكان واحد — من الفحص البصري للوزن والطباعة لحد التحقق الرقمي والشراء الآمن.</p>
+                                                                                                                <p>ولكل جزئية عندنا دليل متخصص: <a href="/blog/anker-serial-number-location-format-explained">فين تلاقي السيريال نمبر وإيه صيغته الصحيحة</a>، <a href="/blog/anker-original-website-verify-barcode-guide">خطوات التحقق خطوة بخطوة من موقع Anker الرسمي</a>، و<a href="/blog/anker-verify-serial-number-security-check">خطورة شواحن انكر التقليد ونظام الأمان بالتفصيل</a>.</p>
 
                                                                                                                     <div class="expert-callout" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0">
                                                                                                                         <p><strong>⚠️ تجربة ميدانية منشورة: </strong> في تجربة شراء منشورة لـ 5 منتجات "انكر" من بائعين مختلفين على OLX وفيسبوك ماركت، كانت النتيجة: 4 من 5 تقليد! الباور بانك المقلد كانت سعته الفعلية 6,200mAh فقط بدل 10,000mAh المكتوبة عليه. الشاحن المقلد سخن لدرجة 72°C (الأصلي لا يتجاوز 45°C).</p>
@@ -108,61 +109,99 @@ export const how_to_identify_original_anker: BlogArticle = {
                 ]
             },
             en: {
-                title: 'How to Identify Original Anker Products: 5 Guaranteed Methods',
-                metaTitle: 'How to Spot Fake Anker Products | 5 Guaranteed Methods',
+                title: 'How to Identify Original Anker Products: The Complete 5-Method Guide',
+                metaTitle: 'How to Identify Original Anker Products | Complete 5-Method Guide',
                 metaDescription: 'Learn how to tell the difference between original and fake Anker products. 5 easy ways to verify Anker chargers and power banks. Tips from CairoVolt experts.',
-                keywords: 'original anker, fake anker, how to verify anker, anker authentic, anker verification',
+                keywords: 'original anker, fake anker, how to identify original anker, anker authentic, spot fake anker products',
                 excerpt: '5 easy and guaranteed methods to tell original Anker products from fakes.',
                 quickAnswer: 'To verify Anker products: (1) Scan barcode in the official Anker app (2) Heavier weight means original (3) Genuine products have engraved, not printed logos. Buying from trusted stores like CairoVolt guarantees authenticity.',
                 content: `
                     <h2> Why Fake Anker Products Exist in Egypt</h2>
-                <p>Due to Anker's massive popularity, many counterfeit products have appeared in Egyptian markets, especially on platforms like OLX and Facebook Marketplace. Fakes can damage your phone battery or even pose safety risks.</p>
+                <div class="quick-answer-inline" style="background:#fef2f2;border-left:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role="complementary" aria-label="Warning">
+                <p><strong>❗ In short: </strong> About 80% of "Anker" listings on OLX and Facebook are fake. To verify: (1) scan the QR code at anker.com/verify (2) check the weight (3) buy from an authorized dealer.</p>
+                </div>
+                <p>Anker's huge popularity has flooded Egyptian markets — especially OLX and Facebook Marketplace — with counterfeits that can damage your phone's battery or even endanger your safety. This guide brings all five methods together — from weight and print checks to digital verification and safe buying.</p>
+                <p>Each method has a dedicated deep-dive: <a href="/en/blog/anker-serial-number-location-format-explained">where to find the Anker serial number and what its format looks like</a>, <a href="/en/blog/anker-original-website-verify-barcode-guide">the step-by-step official website verification walkthrough</a>, and <a href="/en/blog/anker-verify-serial-number-security-check">why counterfeit Anker chargers are genuinely dangerous</a>.</p>
 
                 <div class="expert-callout" style="background:#fef2f2;border-left:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0">
-                <p><strong>⚠️ Published field test: </strong> In a documented test purchase of 5 "Anker" products from different sellers on OLX and Facebook Marketplace, 4 out of 5 were counterfeit! The fake power bank had an actual capacity of just 6,200mAh instead of the labeled 10,000mAh. The fake charger reached 72°C (genuine Anker stays below 45°C).</p>
+                <p><strong>⚠️ Published field test: </strong> A published purchase test of 5 "Anker" products from OLX and Facebook Marketplace sellers found 4 of 5 fake: only 6,200mAh real capacity instead of the labeled 10,000mAh, and a charger hitting 72°C (genuine stays below 45°C).</p>
                     </div>
 
                     <h2> 5 Ways to Verify Anker is Original</h2>
 
             <h3>1. QR Verification Code on Box ✓</h3>
-    <p> Every genuine Anker product has a QR code on the packaging.Scan it with your phone camera — it opens <strong> anker.com / verify </strong>. If it says "Authentic", it's 100% genuine.</p>
+    <p> <strong>The easiest and most reliable method.</strong> Every genuine Anker box carries a QR code — scan it to open <strong>anker.com/verify</strong>. "Authentic" means 100% genuine.</p>
+    <p><strong>The fake: </strong> no QR code, a code that won't scan, or one opening a different website.</p>
 
     <div class="verify-cta" style="background: linear-gradient(135deg, #2563eb, #1d4ed8); border-radius: 12px; padding: 24px; text-align: center; color: white; margin: 30px 0; box-shadow: 0 4px 15px rgba(37, 99, 235, 0.2);">
         <h4 style="color: white; margin-top: 0; font-size: 1.25rem;">Want to verify your product right now?</h4>
-        <p style="margin-bottom: 20px; font-size: 0.95rem; opacity: 0.9;">Use our quick verification tool to ensure your product is 100% genuine.</p>
+        <p style="margin-bottom: 20px; font-size: 0.95rem; opacity: 0.9;">Use our quick verification tool to confirm it's 100% genuine.</p>
         <a href="https://cairovolt.com/verify" style="display: inline-block; background: white; color: #1d4ed8; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: transform 0.2s;">
             <span style="margin-right: 8px;">🛡️</span> Verify Your Product Now
         </a>
     </div>
 
         <h3>2. Weight & amp; Density </h3>
-            <p> Original Anker products use Grade - A high - density battery cells.A genuine 10,000mAh weighs ~190g, 20,000mAh weighs ~350g.Fakes are noticeably lighter.</p>
+            <p> Original Anker uses Grade-A high-density battery cells, so genuine units are noticeably heavier:</p>
+            <ul>
+                <li>Genuine 10,000mAh power bank: around 190g</li>
+                <li>Genuine 20,000mAh power bank: around 350g</li>
+            </ul>
+            <p><strong>The fake: </strong> noticeably lighter — sometimes 50% less — due to low-grade cells.</p>
 
                 <h3> 3. Plastic Quality & amp; Print </h3>
-                    <p> Original: smooth matte plastic, clear even printing.Fake: shiny cheap plastic, faded or uneven text.</p>
+                    <p> Compare the casing and printing under good light:</p>
+                    <table>
+                        <thead><tr><th>Detail</th><th>Original</th><th>Fake</th></tr></thead>
+                        <tbody>
+                            <tr><td><strong>Plastic</strong></td><td>Smooth matte finish</td><td>Shiny cheap plastic</td></tr>
+                            <tr><td><strong>Printing</strong></td><td>Clear, even, no gaps</td><td>Faded or slanted</td></tr>
+                            <tr><td><strong>Lettering</strong></td><td>Uniform and even</td><td>Uneven letters</td></tr>
+                        </tbody>
+                    </table>
 
                         <h3> 4. Charging Speed </h3>
-                            <p> Genuine Anker supports PowerIQ smart charging.If charging is unusually slow or the device gets very hot, it's likely fake.</p>
+                            <p> Genuine Anker supports <strong>PowerIQ</strong> smart charging. The product is likely fake if you notice:</p>
+                            <ul>
+                                <li>Much slower charging than the printed specs</li>
+                                <li>Abnormal heat while charging</li>
+                                <li>No "Fast Charging" indication on your phone</li>
+                            </ul>
 
                                 <h3> 5. Buy from Authorized Dealer 🏪</h3>
-                                    <p> The safest way is buying from an authorized dealer or a trusted store.CairoVolt is an independent store selling genuine Anker products in Egypt with an 18 - month written store warranty.</p>
+                                    <p> The safest way is buying from an <strong>authorized dealer</strong> or a trusted store. CairoVolt, an independent Egyptian store selling genuine Anker, offers:</p>
+                                    <ul>
+                                        <li>18-month written warranty with instant replacement</li>
+                                        <li>Official invoice</li>
+                                        <li>Serial number verification</li>
+                                        <li>24/7 WhatsApp support</li>
+                                    </ul>
 
-                                        <p>Our best-selling verified products: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000</a>, <a href="/en/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker PowerCore 10000</a>, and <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W MFi Charger</a> — all with working QR authentication.</p><h2> Signs You Can Trust the Seller </h2>
+                                        <p>Our best-selling products: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000</a>, <a href="/en/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker PowerCore 10000</a>, and <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W MFi Charger</a> — all with working QR authentication.</p><h2> Signs You Can Trust the Seller </h2>
                                             <ul>
                                             <li>✓ Official invoice with warranty stamp </li>
                                                 <li>✓ Products have QR verification codes </li>
-                                                    <li>✓ Serial number can be verified online </li>
-                                                        <li>✓ WhatsApp support 24 / 7 </li>
-                                                            <li>✓ Instant replacement warranty(not repair) </li>
+                                                    <li>✓ Serial number verifiable online </li>
+                                                        <li>✓ WhatsApp support 24/7 </li>
+                                                            <li>✓ Instant replacement warranty (not repair) </li>
+                                                                <li>✓ Realistic prices — half the market price is a red flag</li>
                                                                 </ul>
 
                                                                 <h2> What to Do If You Discover a Fake </h2>
                                                                     <ol>
-                                                                    <li><strong>Stop using it immediately</strong> — fakes can damage your phone battery or overheat</li>
+                                                                    <li><strong>Stop using it immediately</strong> — it can damage your battery or overheat</li>
                                                                         <li>Demand a refund from the seller </li>
-                                                                            <li> Report the counterfeit to Anker via their official website </li>
-                                                                                <li> Purchase the genuine replacement from an authorized dealer </li>
+                                                                            <li> Report it to Anker via their official website </li>
+                                                                                <li> Buy the genuine replacement from a trusted seller </li>
                                                                                     </ol>
+
+                                                                                        <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
+                                                                                            <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 Trusted sources: </p>
+                                                                                            <ul style="margin:0;padding-left:20px;color:#78350f">
+                                                                                                <li><a href="https://www.cpsc.gov/Safety-Education/Safety-Guides/Electronics" target="_blank" rel="noopener" style="color:#1d4ed8">CPSC — Electronics Safety Guides</a></li>
+                                                                                                <li><a href="https://www.fcc.gov/consumers/guides/equipment-authorization-fcc" target="_blank" rel="noopener" style="color:#1d4ed8">FCC — Equipment Authorization</a></li>
+                                                                                            </ul>
+                                                                                        </div>
                                                                                         `,
                 faq: [
                     { question: 'How do I verify my Anker is original?', answer: 'Scan the QR code on the box at anker.com/verify. If it shows "Authentic", it\'s genuine. Or buy from trusted stores like CairoVolt.' },

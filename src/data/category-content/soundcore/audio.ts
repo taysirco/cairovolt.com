@@ -78,7 +78,7 @@ export const soundcore_audio_content: CategoryContent = {
             },
             pageContent: {
                 ar: {
-                    title: 'سماعات ساوندكور',
+                    title: 'سماعات ساوندكور الأصلية',
                     subtitle: 'ساوندكور - قارن الصوت والعزل والراحة حسب الموديل',
                     description: `
       تختلف سماعات **ساوندكور** في دعم Hi-Res Audio وLDAC وBassUp وANC وتصنيف مقاومة الماء ومدة البطارية. راجع صفحة الموديل لأن هذه الميزات لا تتوفر كلها في كل سماعة.
@@ -146,7 +146,7 @@ export const soundcore_audio_content: CategoryContent = {
                     ]
                 },
                 en: {
-                    title: 'Soundcore Earbuds',
+                    title: 'Original Soundcore Earbuds',
                     subtitle: 'Compare sound, isolation, fit, and features by model',
                     description: `
       **Soundcore** earbuds vary in support for Hi-Res Audio, LDAC, BassUp, ANC, water-resistance ratings, and battery duration. Check the individual product page because these features are not available on every model.
