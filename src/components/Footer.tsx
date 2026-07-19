@@ -312,21 +312,31 @@ export default function Footer() {
                             ? 'العلامات التي نوفّرها حاصلة على اعتمادات وجوائز عالمية'
                             : 'The brands we carry hold international certifications & awards'}
                     </p>
-                    <div className="mx-auto max-w-4xl space-y-2.5">
+                    <div className="mx-auto flex max-w-3xl flex-wrap items-center justify-center gap-2 sm:gap-2.5">
                         {[
-                            { brand: isRTL ? 'انكر' : 'Anker', items: ['CES Innovation Award', 'Red Dot', 'iF Design', 'Apple MFi', 'Qi2 Certified', 'TÜV Safety'] },
-                            { brand: isRTL ? 'ساوندكور' : 'Soundcore', items: ['Hi-Res Audio', 'CES Innovation Award', 'Red Dot', 'iF Design'] },
-                            { brand: isRTL ? 'جوي روم' : 'Joyroom', items: ['CE', 'FCC Certified', 'GaN Technology'] },
-                        ].map((g) => (
-                            <div key={g.brand} className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1.5">
-                                <span className="text-xs font-bold text-gray-700 dark:text-gray-300">{g.brand}</span>
-                                <span className="text-gray-300 dark:text-gray-600" aria-hidden="true">·</span>
-                                {g.items.map((it) => (
-                                    <span key={it} className="rounded-full border border-gray-200 bg-white px-2.5 py-0.5 text-[11px] text-gray-600 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300">
-                                        {it}
-                                    </span>
-                                ))}
-                            </div>
+                            { src: '/images/awards/apple-mfi.png', alt: isRTL ? 'شهادة Apple MFi — متوافق مع آيفون وآيباد' : 'Apple MFi — Made for iPhone and iPad' },
+                            { src: '/images/awards/hi-res-audio.png', alt: isRTL ? 'اعتماد Hi-Res Audio (ساوندكور)' : 'Hi-Res Audio certified (Soundcore)' },
+                            { src: '/images/awards/qi2-certified.png', alt: isRTL ? 'اعتماد Qi2 للشحن اللاسلكي' : 'Qi2 Certified wireless charging' },
+                            { src: '/images/awards/tuv-rheinland.png', alt: isRTL ? 'اعتماد TÜV Rheinland لسلامة المنتج' : 'TÜV Rheinland product safety certified' },
+                            { src: '/images/awards/ces-innovation.png', alt: isRTL ? 'جائزة CES للابتكار' : 'CES Innovation Award' },
+                            { src: '/images/awards/if-world-design.png', alt: isRTL ? 'دليل iF العالمي للتصميم' : 'iF World Design Guide' },
+                            { src: '/images/awards/chargerlab-golden-2025.png', alt: isRTL ? 'جائزة ChargerLAB الذهبية 2025 — أنكر' : 'ChargerLAB Golden Charge Awards 2025 — Anker' },
+                            { src: '/images/awards/ce-fcc-rohs.png', alt: isRTL ? 'علامات المطابقة CE و FCC و RoHS' : 'CE, FCC and RoHS compliance marks' },
+                        ].map((b) => (
+                            <span
+                                key={b.src}
+                                title={b.alt}
+                                className="flex h-9 items-center justify-center rounded-lg border border-gray-200 bg-white px-2.5 shadow-sm transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-md dark:border-gray-700"
+                            >
+                                <Image
+                                    src={b.src}
+                                    alt={b.alt}
+                                    width={54}
+                                    height={25}
+                                    className="object-contain"
+                                    loading="lazy"
+                                />
+                            </span>
                         ))}
                     </div>
                 </div>
