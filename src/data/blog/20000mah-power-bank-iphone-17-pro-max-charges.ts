@@ -32,7 +32,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
             metaDescription: 'البائع قال 5 شحنات والإعلان قال 4، لكن الحساب من المواصفات المعلنة لـ 5 باور بانكات بسعة 20000mAh مع ايفون 17 برو ماكس يكشف عدد الشحنات الفعلي بالأرقام الدقيقة.',
             keywords: 'باور بانك 20000mah ايفون 17 برو ماكس, كم شحنة 20000mah, انكر zolo iphone 17 charges, جوي روم 20000 iphone, شحنات باور بانك ايفون, 20000mah iphone 17 pro max actual charges egypt',
             excerpt: 'البائع وعدك بـ 5 شحنات. الإعلان قال 4. الإعدادات هتفاجئك بأقل من 3. حسبنا الأرقام من المواصفات المعلنة لـ 5 باور بانكات 20,000mAh مع iPhone 17 Pro Max — الأرقام الحقيقية بالكامل.',
-            quickAnswer: 'باور بانك 20,000mAh أصلي يعطي 2.4-2.8 شحنة كاملة فقط لـ iPhone 17 Pro Max — مش 4 أو 5 زي ما يقول البائع. الحساب: 20,000mAh ≈ 12,000mAh فعلية بعد فقد التحويل والكابل، ÷ 4,685mAh (بطارية الموبايل) = 2.56 شحنة.',
+            quickAnswer: 'باور بانك 20,000mAh أصلي يعطي 2.4-2.8 شحنة كاملة فقط لـ iPhone 17 Pro Max — مش 4 أو 5 زي ما يقول البائع. الحساب: 20,000mAh ≈ 12,000mAh فعلية بعد فقد التحويل والكابل، ÷ 4,823mAh (بطارية الموبايل) = 2.49 شحنة.',
             content: `<p>"باور بانك 20,000mAh = 4 شحنات كاملة لـ iPhone 17 Pro Max" — هذا اللي بيقوله البائع. الإعلان على Amazon Egypt يقول "5 شحنات". الواقع لما تروح البيت وتختبر بنفسك؟ <strong>بين 2.4 و 2.8 شحنة فقط</strong>. الفرق المرعب بين الكلام والواقع: شحنة كاملة كاملة <strong>"ضائعة"</strong> في الفيزياء والكيمياء. خلّيني أوضحلك بالضبط أين تذهب هذه الـ mAh الـ 8,000 المفقودة، وليه باور بانك 20,000mAh مختلف عن آخر بنفس السعة المعلنة بـ 0.4 شحنة كاملة. قارنّا بالحساب 5 باور بانكات 20,000mAh أصلية مع iPhone 17 Pro Max — انطلاقاً من المواصفات المعلنة وكفاءة التحويل المعتادة لكل فئة. الأرقام النهائية ستغيّر طريقة شراء الباور بانك إلى الأبد.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -42,7 +42,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
         السبب: (1) فقد التحويل 3.7V→5V يأكل 38% من السعة،
         (2) مقاومة الكابل 5-8%،
         (3) كفاءة بطارية iPhone نفسها 92%.
-        الإجابة الرياضية: 20,000mAh = 12,000mAh فعلية ÷ 4,685mAh (بطارية iPhone 17 Pro Max) = <strong>2.56 شحنة كاملة</strong>.
+        الإجابة الرياضية: 20,000mAh = 12,000mAh فعلية ÷ 4,823mAh (بطارية iPhone 17 Pro Max) = <strong>2.49 شحنة كاملة</strong>.
     </p>
 </div>
 
@@ -51,7 +51,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
         🔬 مقارنة كايرو فولت — 5 باور بانكات 20,000mAh بالأرقام
     </p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        قارنّا بالحساب 5 باور بانكات 20,000mAh مع iPhone 17 Pro Max (بطارية 4,685mAh بصحة 100%) — انطلاقاً من المواصفات المعلنة وكفاءة الشريحة المعتادة لكل فئة.
+        قارنّا بالحساب 5 باور بانكات 20,000mAh مع iPhone 17 Pro Max (بطارية 4,823mAh بصحة 100%) — انطلاقاً من المواصفات المعلنة وكفاءة الشريحة المعتادة لكل فئة.
         النماذج: جوي روم 20K (997ج)، أنكر ZOLO A110E (1,730ج)، أنكر ZOLO A1681 30W بكابلين مدمجين (2,200ج)، أنكر PowerCore 20K (1,550ج)، وباور بانك مقلّد شائع على OLX (650ج — كمثال للمقارنة).
         <strong>التقدير:</strong> أنكر ZOLO 30W يعطي أعلى متوسط (≈2.78 شحنة)، الـ جوي روم (≈2.61)، أنكر PowerCore (≈2.55)، أنكر ZOLO 22.5W (≈2.51)، والمقلّد بكفاءة ~60% <strong>نحو 1.3 شحنة فقط (!)</strong> — أقل من نص اللي على العلبة.
     </p>
@@ -98,7 +98,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
     </tbody>
 </table>
 
-<p>الحساب النهائي: <strong>10,764mAh ÷ 4,685mAh (بطارية iPhone 17 Pro Max) = 2.30 شحنة كاملة</strong>. لو الباور بانك بكفاءة chip أعلى (90%+ زي أنكر ZOLO 30W)، الرقم يصل لـ 2.78. لو مقلّد بكفاءة 60%، الرقم ينزل لـ 1.3.</p>
+<p>الحساب النهائي: <strong>10,764mAh ÷ 4,823mAh (بطارية iPhone 17 Pro Max) = 2.23 شحنة كاملة</strong>. لو الباور بانك بكفاءة chip أعلى (90%+ زي أنكر ZOLO 30W)، الرقم يصل لـ 2.78. لو مقلّد بكفاءة 60%، الرقم ينزل لـ 1.3.</p>
 <p>المرعب: <strong>9,236mAh ضاعت في الرحلة من الباور بانك للبطارية</strong> — أكتر من نص السعة المعلنة! هذا مش غش — هذا فيزياء كهربائية. كل من يقول لك "20,000mAh = 4 شحنات" بيكذب أو لا يفهم الفيزياء.</p>
 
 <h2>تأثير الشحن الممرر Pass-Through Charging على كفاءة البطارية</h2>
@@ -108,7 +108,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
 <p>عند استخدام باور بانك يدعم الشحن المغناطيسي اللاسلكي (مثل جوي روم المغناطيسي 10000 أو الموديلات الأكبر)، فإن ميزة الكشف عن الأجسام الغريبة FOD تعد صمام الأمان الأساسي لحماية جهازك. تعمل هذه التقنية بمراقبة المجالات الكهرومغناطيسية المنبعثة من ملفات الإرسال؛ وإذا تداخلت أي قطعة معدنية خارجية مثل مفتاح أو عملة معدنية أو مشبك ورق بين الهاتف والباور بانك، فإن الشاحن يكتشف الخلل فوراً ويفصل الطاقة تلقائياً. بدون وجود دائرة FOD الحساسة، ستستمر الملفات في إرسال الطاقة مما يسخن المعدن الغريب لدرجات حرارة شديدة قد تؤدي إلى ذوبان الهيكل الخارجي للباور بانك وتلف الدوائر وتدمير بطارية هاتفك الثمين بالكامل.</p>
 
 <h2>مقارنة بالأرقام: 5 باور بانكات 20,000mAh في يد واحدة</h2>
-<p>قارنّا 5 موديلات على نفس الأساس الحسابي: نفس الهاتف (iPhone 17 Pro Max ببطارية 4,685mAh)، بافتراض كابل جيد (مثل أنكر زولو A8060 بقدرة 140W)، درجة حرارة معتدلة (24°م)، ونفس نقطة البداية (الباور بانك 100%، iPhone 0%). الأرقام تقديرات محسوبة من المواصفات المعلنة وكفاءة كل فئة:</p>
+<p>قارنّا 5 موديلات على نفس الأساس الحسابي: نفس الهاتف (iPhone 17 Pro Max ببطارية 4,823mAh)، بافتراض كابل جيد (مثل أنكر زولو A8060 بقدرة 140W)، درجة حرارة معتدلة (24°م)، ونفس نقطة البداية (الباور بانك 100%، iPhone 0%). الأرقام تقديرات محسوبة من المواصفات المعلنة وكفاءة كل فئة:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
@@ -204,8 +204,8 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">iPhone Pro Max</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">4,685mAh</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>2.56 شحنة</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">4,823mAh</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>2.49 شحنة</strong></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Samsung Galaxy S</td>
@@ -288,7 +288,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
                 },
                 {
                     question: 'إذا اشتغلت غرفتي على 35°م في الصيف، كم شحنة سيعطيني الباور بانك 20,000mAh؟',
-                    answer: 'حرارة 35°م تفقد 10-15% من الكفاءة. الباور بانك اللي بيعطي 2.56 شحنة في 24°م (غرفة مكيفة) سيعطي 2.1-2.2 شحنة فقط في 35°م. الحل: اشحن iPhone في مكان مظلل، استخدم باور بانك بنظام تبريد نشط، وتجنب الشحن في السيارة في الصيف (60°م = -30% من السعة).',
+                    answer: 'حرارة 35°م تفقد 10-15% من الكفاءة. الباور بانك اللي بيعطي 2.49 شحنة في 24°م (غرفة مكيفة) سيعطي 2.1-2.2 شحنة فقط في 35°م. الحل: اشحن iPhone في مكان مظلل، استخدم باور بانك بنظام تبريد نشط، وتجنب الشحن في السيارة في الصيف (60°م = -30% من السعة).',
                 },
             ],
         },
@@ -298,7 +298,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
             metaDescription: 'Seller said 5 charges, the ad said 4 — the math from published specs for 5 different 20000mAh power banks with iPhone 17 Pro Max puts the real number between 2.4 and 2.8 only.',
             keywords: '20000mah power bank iphone 17 pro max, how many charges 20000mah, anker zolo iphone 17 charges, joyroom 20000 iphone, power bank actual iphone charges, 20000mah iphone 17 pro max actual charges egypt',
             excerpt: 'The seller promised 5 charges. The ad said 4. Settings will surprise you with less than 3. We ran the math from published specs for 5 different 20,000mAh power banks with iPhone 17 Pro Max — the complete real numbers.',
-            quickAnswer: 'An authentic 20,000mAh power bank gives only 2.4-2.8 full charges for iPhone 17 Pro Max — not 4 or 5 as sellers claim. The math: 20,000mAh ≈ 12,000mAh usable after conversion and cable losses, ÷ 4,685mAh (iPhone 17 Pro Max battery) = 2.56 full charges.',
+            quickAnswer: 'An authentic 20,000mAh power bank gives only 2.4-2.8 full charges for iPhone 17 Pro Max — not 4 or 5 as sellers claim. The math: 20,000mAh ≈ 12,000mAh usable after conversion and cable losses, ÷ 4,823mAh (iPhone 17 Pro Max battery) = 2.49 full charges.',
             content: `<p>"A 20,000mAh power bank = 4 full charges for iPhone 17 Pro Max" — that is what the seller says. Amazon Egypt ad says "5 charges". The reality when you go home and test yourself? <strong>Between 2.4 and 2.8 charges only</strong>. The terrifying gap between marketing and reality: a full charge "lost" in physics and chemistry. Let me explain exactly where these missing 8,000mAh go, and why one 20,000mAh power bank differs from another with the same advertised capacity by 0.4 full charges. We compared 5 authentic 20,000mAh power banks with iPhone 17 Pro Max by the numbers — working from published specs and the typical conversion efficiency of each class. The final numbers will change how you buy a power bank forever.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -308,7 +308,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
         Why: (1) 3.7V→5V conversion eats 38% of capacity,
         (2) 5-8% cable resistance,
         (3) iPhone\'s own battery efficiency 92%.
-        The math: 20,000mAh = 12,000mAh actual ÷ 4,685mAh (iPhone 17 Pro Max battery) = <strong>2.56 full charges</strong>.
+        The math: 20,000mAh = 12,000mAh actual ÷ 4,823mAh (iPhone 17 Pro Max battery) = <strong>2.49 full charges</strong>.
     </p>
 </div>
 
@@ -317,7 +317,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
         🔬 CairoVolt Comparison — 5 Power Banks of 20,000mAh by the Numbers
     </p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We compared 5 different 20,000mAh power banks against one iPhone 17 Pro Max (4,685mAh battery at 100% health) — estimates computed from published specs and the typical chip efficiency of each class.
+        We compared 5 different 20,000mAh power banks against one iPhone 17 Pro Max (4,823mAh battery at 100% health) — estimates computed from published specs and the typical chip efficiency of each class.
         Models: Joyroom 20K (997 EGP), Anker ZOLO A110E (1,730 EGP), Anker ZOLO A1681 30W with built-in dual cables (2,200 EGP), Anker PowerCore 20K (1,550 EGP), and a typical counterfeit listed on OLX (650 EGP, as a comparison example).
         <strong>Estimate:</strong> Anker ZOLO 30W works out highest (≈2.78 charges), Joyroom (≈2.61), Anker PowerCore (≈2.55), Anker ZOLO 22.5W (≈2.51), and a counterfeit at ~60% efficiency <strong>only about 1.3 charges (!)</strong> — less than half what's on the label.
     </p>
@@ -364,14 +364,14 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
     </tbody>
 </table>
 
-<p>The final math: <strong>10,764mAh ÷ 4,685mAh (iPhone 17 Pro Max battery) = 2.30 full charges</strong>. With a higher-efficiency chip (90%+ like Anker ZOLO 30W), the number reaches 2.78. With a counterfeit at 60% efficiency, it drops to 1.3.</p>
+<p>The final math: <strong>10,764mAh ÷ 4,823mAh (iPhone 17 Pro Max battery) = 2.23 full charges</strong>. With a higher-efficiency chip (90%+ like Anker ZOLO 30W), the number reaches 2.78. With a counterfeit at 60% efficiency, it drops to 1.3.</p>
 <p>The shocking part: <strong>9,236mAh lost in the journey from power bank to battery</strong> — more than half the advertised capacity! This is not a scam — this is electrical physics. Anyone telling you "20,000mAh = 4 charges" is lying or doesn't understand physics.</p>
 
 <h2>Impact of Pass-Through Charging on Power Bank Lifespan</h2>
 <p>Pass-through charging allows you to charge the power bank from the wall while simultaneously charging your connected iPhone from the power bank. While extremely convenient for overnight travel setups, it imposes a double thermal load on the internal power IC and lithium cells. The concurrent heat generated by charging the power bank and discharging it to the phone degrades the battery cells significantly faster than normal separate usage cycles. This thermal wear reduces the overall efficiency of the power bank over time, leading to a permanent drop in the actual capacity and fewer usable charges in the long run.</p>
 
 <h2>By the Numbers: 5 Power Banks of 20,000mAh in One Hand</h2>
-<p>We compared 5 models on the same basis: same phone (iPhone 17 Pro Max, 4,685mAh battery), assuming a good cable (such as Anker Zolo A8060 140W), moderate temperature (24°C), same start point (power bank 100%, iPhone 0%). The figures are estimates computed from published specs and each class's typical efficiency:</p>
+<p>We compared 5 models on the same basis: same phone (iPhone 17 Pro Max, 4,823mAh battery), assuming a good cable (such as Anker Zolo A8060 140W), moderate temperature (24°C), same start point (power bank 100%, iPhone 0%). The figures are estimates computed from published specs and each class's typical efficiency:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
@@ -467,8 +467,8 @@ breaks down the practical difference between 22.5W, 45W, and 100W with numbers.<
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">iPhone Pro Max</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">4,685mAh</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>2.56 charges</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">4,823mAh</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>2.49 charges</strong></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Samsung Galaxy S</td>
@@ -551,7 +551,7 @@ breaks down the practical difference between 22.5W, 45W, and 100W with numbers.<
                 },
                 {
                     question: 'If my room sits at 35°C in summer, how many charges will the 20,000mAh power bank deliver?',
-                    answer: '35°C heat loses 10-15% of efficiency. A power bank that gives 2.56 charges at 24°C (AC room) will deliver only 2.1-2.2 at 35°C. Solution: charge iPhone in a shaded place, use a power bank with active cooling, and avoid charging in a summer car (60°C = -30% capacity).',
+                    answer: '35°C heat loses 10-15% of efficiency. A power bank that gives 2.49 charges at 24°C (AC room) will deliver only 2.1-2.2 at 35°C. Solution: charge iPhone in a shaded place, use a power bank with active cooling, and avoid charging in a summer car (60°C = -30% capacity).',
                 },
             ],
         },

@@ -68,7 +68,7 @@ export const iphone_14_pro_max_airpods_alternative_charger: BlogArticle = {
 </ul>
 
 <h3>الخصائص الفنية لسماعة جويروم وزمن تأخير الصوت</h3>
-<p>تحتوي سماعة جويروم JR-T03S Pro على بطارية بسعة **30 مللي أمبير** في كل سماعة، بالإضافة إلى بطارية بسعة **360 مللي أمبير** في علبة الشحن، مما يعطيك حوالي 4 إلى 5 ساعات من الاستماع المتواصل للموسيقى والمكالمات. وتدعم السماعة معيار البلوتوث **Bluetooth 5.3** المتطور وترميز الصوت **AAC** عالي النقاء.</p>
+<p>تحتوي سماعة جويروم JR-T03S Pro على بطارية بسعة **30 مللي أمبير** في كل سماعة، بالإضافة إلى بطارية بسعة **360 مللي أمبير** في علبة الشحن، مما يعطيك حوالي 4 إلى 5 ساعات من الاستماع المتواصل للموسيقى والمكالمات. وتدعم السماعة معيار البلوتوث **Bluetooth 5.0** وترميز الصوت **AAC** عالي النقاء.</p>
 <p>أما بالنسبة للألعاب (مثل PUBG) ومشاهدة الفيديوهات، فإن السماعة تتميز بزمن تأخير صوت منخفض للغاية (Low Latency) يقل عن **65 مللي ثانية**، مما يمنع حدوث أي فارق زمني بين الحركة في اللعبة والصوت المسموع في أذنك، وهي تجربة مقاربة جداً لسماعات أبل الأصلية المرتفعة السعر.</p>
 
 <h3>2. سماعة Soundcore Liberty 4 NC (من أنكر)</h3>
@@ -189,7 +189,7 @@ export const iphone_14_pro_max_airpods_alternative_charger: BlogArticle = {
 </ul>
 
 <h3>Technical Specifications and Audio Latency Performance</h3>
-<p>The Joyroom JR-T03S Pro is powered by a **30mAh battery** in each earbud, paired with a **360mAh battery** in the charging case. This configuration yields about 4 to 5 hours of continuous music playback or call time. Operating on the **Bluetooth 5.3** standard and utilizing the high-quality **AAC** audio codec, the earbuds ensure robust connection stability.</p>
+<p>The Joyroom JR-T03S Pro is powered by a **30mAh battery** in each earbud, paired with a **360mAh battery** in the charging case. This configuration yields about 4 to 5 hours of continuous music playback or call time. Operating on the **Bluetooth 5.0** standard and utilizing the high-quality **AAC** audio codec, the earbuds ensure robust connection stability.</p>
 <p>For gaming and video streaming, latency is a critical metric. The Joyroom earbuds achieve an exceptionally low audio latency of under **65 milliseconds (ms)**. This eliminates any noticeable sync delay between the on-screen action (such as in PUBG Mobile) and the audio signal, delivering a highly responsive user experience akin to Apple\'s original AirPods.</p>
 
 <h3>Soundcore Liberty 4 NC (by Anker)</h3>

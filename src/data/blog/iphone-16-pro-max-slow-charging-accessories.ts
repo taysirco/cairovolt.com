@@ -64,8 +64,8 @@ export const iphone_16_pro_max_slow_charging_accessories: BlogArticle = {
     <li>📱 <strong>استخدام كابلات شحن قديمة أو تجارية:</strong> الكابلات التجارية الرخيصة تمتلك مقاومة نحاسية عالية تتسبب في فقدان الطاقة وتوليد حرارة عند مخرج الشحن، مما يجبر الهاتف على إبطاء سرعة الشحن لمنع حدوث التلف.</li>
 </ol>
 
-<h3>الغلاف المعدني الجديد للبطارية في ايفون 16 برو ماكس وتأثيره الحراري</h3>
-<p>استخدمت أبل في ايفون 16 برو ماكس تصميماً حرارياً جديداً كلياً، حيث قامت بتغليف بطارية الليثيوم بغطاء معدني رقيق (Metal-Cased Battery) بدلاً من التغليف البلاستيكي التقليدي. هذا التحديث الهندسي يهدف إلى توزيع الحرارة بكفاءة أكبر وتمريرها من قلب البطارية إلى الهيكل التيتانيومي الخارجي للجهاز لتبريد المكونات الداخلية بشكل أسرع.</p>
+<h3>إدارة حرارة البطارية في ايفون 16 برو ماكس أثناء الشحن السريع</h3>
+<p>الغلاف المعدني للبطارية (Metal-Cased Battery) اللي أضافته أبل سنة 2024 موجود في ايفون 16 برو الأصغر فقط لتسهيل استبدال البطارية، أما ايفون 16 برو ماكس فاحتفظ بالبطارية بالتغليف التقليدي (foil-pouch). في الحالتين، أثناء الشحن السريع تنتقل حرارة البطارية إلى الهيكل الخارجي المصنوع من التيتانيوم والألومنيوم اللي بيعمل كمشتت حراري. ولما ترتفع درجة الحرارة الداخلية، يقوم معالج الطاقة (PMIC) بخفض سرعة الشحن تلقائياً لحماية البطارية — وده السبب الحقيقي وراء إحساسك بتباطؤ الشحن في الجو الحار.</p>
 <p>النتيجة العملية لهذا التصميم هي أن المستخدم يشعر بحرارة ملموسة ومرتفعة على إطار الهاتف الخارجي أثناء الشحن بقوة 38 واط. يعتقد بعض المستخدمين خطأً أن الهاتف يعاني من مشكلة صيانة أو عيب تصنيع، ولكن في الحقيقة الهاتف يطرد الحرارة بكفاءة للخارج لحماية خلايا البطارية؛ وبمجرد أن يسخن الإطار، تقوم الحماية البرمجية بخفض سرعة الشحن تلقائياً لضمان سلامة الهاتف.</p>
 
 <h2>ثالثاً: كيفية الشحن بالسرعة القصوى وتجنب بطء الشحن في الصيف</h2>
@@ -86,7 +86,7 @@ export const iphone_16_pro_max_slow_charging_accessories: BlogArticle = {
 </ul>
 
 <h2>خامساً: أهمية كابل الـ E-Marker للشحن الفائق</h2>
-<p>مع تحول الايفون لسحب تيارات طاقة أعلى، أصبح اختيار الكابل جزءاً لا يتجزأ من سرعة الشحن. الكابلات التقليدية مصممة لتوصيل تيار أقصى يبلغ **3 أمبير** (3A)، وهو ما يحد من قدرة الشحن عند 27 واط أو 30 واط كحد أقصى.</p>
+<p>مع تحول الايفون لسحب تيارات طاقة أعلى، أصبح اختيار الكابل جزءاً لا يتجزأ من سرعة الشحن. الكابلات التقليدية مصممة لتوصيل تيار أقصى يبلغ **3 أمبير** (3A). كابل 3A بيقدر ينقل حتى 45–60 واط على جهد 15–20 فولت، لكن على جهد 9 فولت اللي الايفون بيستخدمه في الشحن، الـ 3 أمبير بتطلع حوالي 27 واط فقط — فعشان الايفون 16 برو ماكس يوصل لأقصى دفعة شحن، الكابل لازم يشيل تيار أعلى.</p>
 <p>إذا كنت تريد سحب طاقة أعلى تصل إلى 45 واط، يجب استخدام كابل يحتوي على رقاقة ذكية تسمى **E-Marker** قادرة على تنظيم تيارات كهربائية تصل إلى **5 أمبير** (5A) وقدرة 100 واط. نوصي باستخدام كابل معتمد ذو جودة نحاسية ممتازة وتغليف متين مثل <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">كابل تايب سي جويروم 60 واط</a> لضمان سلامة نقل الطاقة وثبات التيار دون مقاومة حرارية.</p>
 
 <h2>سادساً: جدول مقارنة سرعات الشحن لبطارية ايفون 16 برو ماكس (4685mAh)</h2>
@@ -168,9 +168,9 @@ export const iphone_16_pro_max_slow_charging_accessories: BlogArticle = {
     <li>📱 <strong>Uncertified Cables:</strong> Cheap, uncertified cables have high electrical resistance. This causes a voltage drop and generates heat at the charging port, prompting the phone to slow down charging to protect its circuits.</li>
 </ol>
 
-<h3>The Metal-Cased Battery Casing and Thermal Control Mechanisms</h3>
-<p>In the iPhone 16 Pro Max, Apple introduced a new structural design: a thin metal casing that wraps around the battery pack, replacing the traditional plastic polymer laminate. This metal casing functions as an internal heatsink, actively transferring heat away from the core battery cells and spreading it across the titanium and aluminum chassis.</p>
-<p>While this prevents the internal battery from degrading due to heat pockets, it makes the phone\'s titanium frame noticeably warmer to the touch during the initial 38W fast-charging burst. Some users mistake this warm frame for an issue, but it is actually working as designed to maximize longevity. However, as the frame heats up, the phone\'s software will reduce the charging speed to keep temperatures within safe limits.</p>
+<h3>Battery Thermal Management During Fast Charging on the iPhone 16 Pro Max</h3>
+<p>The metal-cased (aluminum) battery Apple introduced in 2024 appears only in the smaller iPhone 16 Pro, where it makes battery replacement easier; the iPhone 16 Pro Max kept the conventional foil-pouch battery. Either way, during fast charging the battery\'s heat spreads into the titanium and aluminum chassis, which acts as the phone\'s heatsink.</p>
+<p>This heat spreading makes the phone\'s titanium frame noticeably warmer to the touch during the initial 38W fast-charging burst. Some users mistake this warm frame for an issue, but it is actually working as designed to maximize longevity. However, as the frame heats up, the phone\'s software will reduce the charging speed to keep temperatures within safe limits.</p>
 
 <h2>3. How to Maximize Charging Speed and Prevent Throttling in Summer</h2>
 <p>To bypass the thermal throttling limits and ensure your iPhone 16 Pro Max charges as fast as possible on a 45W PPS adapter, follow these actionable tips to regulate device temperatures:</p>
@@ -193,7 +193,7 @@ export const iphone_16_pro_max_slow_charging_accessories: BlogArticle = {
 <p>When selecting a 45W or 65W charger, pay close attention to whether it has multiple ports. Many multi-port chargers share power dynamically. For example, if you plug a 45W charger into your iPhone 16 Pro Max and then plug a smartwatch or AirPods into the second port, the charger will split the power. It may drop the primary USB-C port down to 30W or 20W, preventing your iPhone from drawing its peak 38W. To get the fastest charging speed, always charge your iPhone 16 Pro Max using a single dedicated USB-C port on a high-output adapter.</p>
 
 <h2>5. The Role of 5A E-Marker Cables in 45W Charging</h2>
-<p>As the iPhone draws higher charging currents, the cable becomes a critical factor. Standard USB-C to USB-C cables are only rated for **3 Amperes (3A)** of current, which limits charging power to a maximum of 30W (at 9V or 15V profiles).</p>
+<p>As the iPhone draws higher charging currents, the cable becomes a critical factor. Standard USB-C to USB-C cables are rated for **3 Amperes (3A)** of current. A 3A cable carries up to 45–60W at the higher 15V/20V PD profiles, but at the ~9V profile the iPhone uses for charging, 3A works out to only about 27W — so hitting the iPhone 16 Pro Max's full peak burst needs a cable that can carry more current.</p>
 <p>To unlock charging speeds above 30W, you must use a cable equipped with an **E-Marker (Electronic Marker)** chip, which is rated for **5 Amperes (5A)** and up to 100W/240W of power. We recommend a durable, braided cable with high-quality copper shielding, such as the <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom 60W Type-C Cable</a>, to ensure stable current flow without thermal resistance.</p>
 
 <h2>6. Charging Times Comparison for iPhone 16 Pro Max (4,685mAh)</h2>

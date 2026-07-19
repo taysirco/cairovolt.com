@@ -101,7 +101,7 @@ export const two_in_1_wireless_charger_phone_watch_bedside: BlogArticle = {
 <h2>MagSafe ولا Qi ولا Qi2 — إيه الفرق وأيهم تشتري؟</h2>
 <p>في السوق اليوم، فيه 3 معايير شحن لاسلكي رئيسية يجب فهمها قبل الشراء:</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">🔵 <strong>MagSafe (Apple فقط):</strong> مغناطيس بيثبّت الموبايل بالظبط فوق ملف الشحن الداخلي. 15W لـ iPhone 12 وأحدث. ده اللي بيخلي الشحن اللاسلكي عملي فعلاً — مفيش تحريك وتظبيط يدوي.</li>
+    <li style="margin-bottom:16px;">🔵 <strong>MagSafe (Apple فقط):</strong> مغناطيس بيثبّت الموبايل بالظبط فوق ملف الشحن الداخلي. 15W لـ iPhone 12–15، وحتى 25W لـ iPhone 16/17 مع شاحن MagSafe الأحدث وشاحن حيطة 30 واط. ده اللي بيخلي الشحن اللاسلكي عملي فعلاً — مفيش تحريك وتظبيط يدوي.</li>
     <li style="margin-bottom:16px;">🟢 <strong>Qi2 (المعيار المفتوح الجديد):</strong> نفس تقنية المغناطيس والسرعة بتاعة MagSafe لكن معيار مفتوح لكل الشركات. هواتف الأندرويد الحديثة بدأت تدعمه بالكامل ليكون شاحناً مغناطيسياً شاملاً بقوة 15 واط.</li>
     <li style="margin-bottom:16px;">🔴 <strong>Qi الأصلي (القديم):</strong> بدون مغناطيس. 7.5W لـ iPhone، و10-15W لبعض أجهزة Android. لازم تحط الموبايل بدقة شديدة فوق ملف الشحن — لو تحرّك ملي واحد بفعل الاهتزاز، السرعة بتنزل أو الشحن بيوقف تماماً.</li>
 </ul>
@@ -268,7 +268,7 @@ export const two_in_1_wireless_charger_phone_watch_bedside: BlogArticle = {
 <h2>MagSafe vs Qi vs Qi2 — What Is the Difference and Which to Buy?</h2>
 <p>There are 3 major wireless charging standards to understand before purchasing accessories:</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">🔵 <strong>MagSafe (Apple only):</strong> Magnets lock the phone precisely over the charging coil. 15W for iPhone 12 and newer. This is what makes wireless charging actually practical — no fumbling or misalignment.</li>
+    <li style="margin-bottom:16px;">🔵 <strong>MagSafe (Apple only):</strong> Magnets lock the phone precisely over the charging coil. 15W for iPhone 12–15, and up to 25W for iPhone 16/17 with the newer MagSafe charger and a 30W adapter. This is what makes wireless charging actually practical — no fumbling or misalignment.</li>
     <li style="margin-bottom:16px;">🟢 <strong>Qi2 (New standard):</strong> Same magnetic technology as MagSafe but as an open standard for all manufacturers. Samsung S26 and modern Android devices support it at 15W, serving as the new universal magnetic charging standard.</li>
     <li style="margin-bottom:16px;">🔴 <strong>Original Qi (Legacy):</strong> No magnets. 7.5W for iPhone, 15W for some Android devices. You must place the phone precisely over the coil — if it shifts even a millimeter due to phone vibrations, speed drops or charging stops entirely.</li>
 </ul>

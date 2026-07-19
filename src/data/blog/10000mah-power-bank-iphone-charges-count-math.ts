@@ -119,7 +119,7 @@ export const power_bank_10000mah_iphone_charges_count_math: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPhone 16 / 15 العادي</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">3,561 مللي أمبير</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">3,561 / 3,349 مللي أمبير</td>
             <td style="padding:12px;color:#2563eb;font-weight:bold;border:1px solid #d1d5db;">1.77 شحنة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">مرة وثلاثة أرباع شحنة</td>
         </tr>
@@ -250,7 +250,7 @@ export const power_bank_10000mah_iphone_charges_count_math: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPhone 16 / 15 Standard</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">3,561 mAh</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">3,561 / 3,349 mAh</td>
             <td style="padding:12px;color:#2563eb;font-weight:bold;border:1px solid #d1d5db;">1.77 charges</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Approx. 1.75 charges</td>
         </tr>
