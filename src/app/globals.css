@@ -395,3 +395,65 @@ html {
 .dark .prose table th {
   color: #f9fafb;
 }
+
+/* ⭐ Verified product reviews — global styles.
+   Moved out of styled-jsx: under reactCompiler the scoping class (jsx-*) was not
+   injected onto elements, so the scoped rules never matched and cards rendered
+   unstyled. Scoped here under .verified-reviews to avoid collisions; dark mode
+   via the existing .dark ancestor class. */
+.verified-reviews { margin-top: 48px; padding: 28px; background: #f8fafc; border-radius: 20px; }
+.dark .verified-reviews { background: #0f172a; }
+.verified-reviews--empty { padding: 32px; background: #f8fafc; border-radius: 16px; margin-top: 32px; }
+.dark .verified-reviews--empty { background: #0f172a; }
+.verified-reviews .section-title { font-size: 22px; font-weight: 700; color: #1f2937; margin-bottom: 8px; }
+.dark .verified-reviews .section-title { color: #f1f5f9; }
+.verified-reviews .review-disclosure { max-width: 760px; color: #64748b; font-size: 13px; line-height: 1.7; margin: 0 0 24px; }
+.dark .verified-reviews .review-disclosure { color: #94a3b8; }
+.verified-reviews .empty-state { text-align: center; padding: 40px 20px; }
+.verified-reviews .empty-state__icon { font-size: 48px; margin-bottom: 16px; }
+.verified-reviews .empty-state__text { color: #6b7280; font-size: 16px; }
+.dark .verified-reviews .empty-state__text { color: #94a3b8; }
+.verified-reviews .aggregate-rating { display: flex; align-items: center; gap: 18px; padding: 20px 24px; background: #fff; border: 1px solid #eef2f7; border-radius: 16px; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(16,24,40,0.06); }
+.dark .verified-reviews .aggregate-rating { background: #1e293b; border-color: #334155; }
+.verified-reviews .aggregate-rating__score { font-size: 46px; font-weight: 800; line-height: 1; color: #f59e0b; }
+.verified-reviews .aggregate-rating__count { color: #6b7280; font-size: 14px; margin-top: 6px; display: block; }
+.dark .verified-reviews .aggregate-rating__count { color: #94a3b8; }
+.verified-reviews .stars { display: inline-flex; gap: 2px; }
+.verified-reviews .star { color: #d1d5db; font-size: 18px; line-height: 1; }
+.dark .verified-reviews .star { color: #475569; }
+.verified-reviews .star--filled { color: #fbbf24; }
+.dark .verified-reviews .star--filled { color: #fbbf24; }
+.verified-reviews .reviews-list { display: flex; flex-direction: column; gap: 14px; }
+.verified-reviews .review-card { background: #fff; border: 1px solid #eef2f7; border-radius: 16px; padding: 20px; box-shadow: 0 1px 2px rgba(16,24,40,0.05); transition: box-shadow .18s ease, transform .18s ease, border-color .18s ease; }
+.verified-reviews .review-card:hover { box-shadow: 0 8px 24px rgba(16,24,40,0.08); transform: translateY(-2px); border-color: #e2e8f0; }
+.dark .verified-reviews .review-card { background: #1e293b; border-color: #334155; box-shadow: none; }
+.dark .verified-reviews .review-card:hover { border-color: #475569; }
+.verified-reviews .review-header { display: flex; align-items: flex-start; margin-bottom: 12px; gap: 12px; }
+.verified-reviews .review-author { display: flex; align-items: center; gap: 12px; width: 100%; }
+.verified-reviews .review-avatar { flex-shrink: 0; width: 44px; height: 44px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 15px; color: #fff; background: linear-gradient(135deg, #6366f1, #8b5cf6); text-transform: uppercase; }
+.verified-reviews .review-author__meta { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.verified-reviews .review-author__name { font-weight: 700; color: #1f2937; display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.dark .verified-reviews .review-author__name { color: #f1f5f9; }
+.verified-reviews .verified-badge { background: #dcfce7; color: #15803d; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 20px; white-space: nowrap; }
+.dark .verified-reviews .verified-badge { background: rgba(21,128,61,0.18); color: #4ade80; }
+.verified-reviews .review-meta { display: flex; align-items: center; gap: 10px; }
+.verified-reviews .review-date { color: #94a3b8; font-size: 12.5px; }
+.verified-reviews .review-title { font-size: 16px; font-weight: 700; color: #1f2937; margin: 4px 0 8px; }
+.dark .verified-reviews .review-title { color: #e2e8f0; }
+.verified-reviews .review-text { color: #475569; line-height: 1.75; margin-bottom: 12px; white-space: pre-line; }
+.dark .verified-reviews .review-text { color: #cbd5e1; }
+.verified-reviews .review-pros-cons { display: flex; gap: 24px; margin-bottom: 12px; flex-wrap: wrap; }
+.verified-reviews .pros, .verified-reviews .cons { flex: 1; min-width: 150px; }
+.verified-reviews .pros ul, .verified-reviews .cons ul { list-style: none; padding: 0; margin: 0; }
+.verified-reviews .pros li { color: #15803d; font-size: 14px; padding: 2px 0; }
+.verified-reviews .cons li { color: #dc2626; font-size: 14px; padding: 2px 0; }
+.dark .verified-reviews .pros li { color: #4ade80; }
+.dark .verified-reviews .cons li { color: #f87171; }
+.verified-reviews .label { font-size: 14px; margin-left: 4px; }
+.verified-reviews .review-location { color: #94a3b8; font-size: 12.5px; display: inline-flex; align-items: center; gap: 4px; }
+.verified-reviews .btn-show-more { width: 100%; margin-top: 16px; padding: 13px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; color: #4f46e5; font-weight: 600; font-size: 14px; cursor: pointer; transition: all .18s ease; }
+.verified-reviews .btn-show-more:hover { background: #4f46e5; border-color: #4f46e5; color: #fff; }
+.dark .verified-reviews .btn-show-more { background: #1e293b; border-color: #334155; color: #a5b4fc; }
+.dark .verified-reviews .btn-show-more:hover { background: #4f46e5; border-color: #4f46e5; color: #fff; }
+.verified-reviews .btn-show-less { width: 100%; margin-top: 8px; padding: 10px; background: transparent; border: none; border-radius: 12px; color: #94a3b8; font-weight: 500; font-size: 13px; cursor: pointer; transition: color .18s ease; }
+.verified-reviews .btn-show-less:hover { color: #4f46e5; }
