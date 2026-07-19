@@ -186,7 +186,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 
 <p>كل المنتجات المذكورة في هذا المقال موجودة على
 <a href="/joyroom/power-banks" style="color:#2563eb;font-weight:600;">كايرو فولت</a>
-كموزع معتمد لـ جوي روم في مصر — مع <strong>ضمان أصلي 12-18 شهر + استبدال خلال 14 يوم في حالة العطل + توصيل لكل المحافظات خلال 24-72 ساعة + دفع عند الاستلام</strong>.</p>
+— متجر مستقل يوفر منتجات جوي روم الأصلية في مصر — مع <strong>ضمان كايرو فولت المكتوب 12-18 شهر + استبدال خلال 14 يوم في حالة العطل + توصيل لكل المحافظات خلال 24-72 ساعة + دفع عند الاستلام</strong>.</p>
 
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
@@ -378,7 +378,7 @@ worth the extra 273 EGP?</p>
 
 <p>All products mentioned in this article are available at
 <a href="/en/joyroom/power-banks" style="color:#2563eb;font-weight:600;">CairoVolt</a>
-as authorized Joyroom distributor in Egypt — with <strong>authentic 12-18 month warranty + replacement within 14 days on defect + delivery to all governorates within 24-72 hours + cash on delivery</strong>.</p>
+— an independent store offering genuine Joyroom products in Egypt — with <strong>CairoVolt's written 12-18 month store warranty + replacement within 14 days on defect + delivery to all governorates within 24-72 hours + cash on delivery</strong>.</p>
 
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">

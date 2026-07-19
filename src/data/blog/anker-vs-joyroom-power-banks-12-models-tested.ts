@@ -30,7 +30,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
         ar: {
             title: 'أنكر ضد جوي روم في الباور بانكات — مقارنة 12 موديل بالأرقام والأسعار في مصر 2026',
             metaTitle: 'انكر ضد جوي روم باور بانك — 12 موديل بالأرقام | كايرو فولت',
-            metaDescription: 'مقارنة بالأرقام بين 7 باور بانكات أنكر و5 جوي روم: السعة الحقيقية والخرج الفعلي والحرارة والسعر — من 550ج لـ 3,950ج. التفاصيل الكاملة.',
+            metaDescription: 'مقارنة بالأرقام بين 7 باور بانكات أنكر و5 جوي روم: السعة الحقيقية والخرج الفعلي والحرارة والسعر — من 997ج لـ 3,950ج. التفاصيل الكاملة.',
             keywords: 'انكر ضد جوي روم باور بانك, مقارنة باور بانك انكر وجوي روم, افضل باور بانك مصر 2026, انكر زولو ضد جوي روم 20000, مقارنة مواصفات باور بانك, انكر vs جوي روم power bank egypt, سعة باور بانك, باور بانك مصر, اسعار باور بانك مصر 2026, انكر برايم ضد جوي روم',
             excerpt: 'مقارنة تفصيلية لـ 12 باور بانك من أنكر و جوي روم — السعة الحقيقية والخرج الفعلي والحرارة والسعر. النتائج المفاجئة بالأرقام.',
             quickAnswer: 'أنكر بيتفوق في 4 معايير: السعة الحقيقية أعلى (88-92% من المُعلن مقابل 82-86% لـ جوي روم)، الخرج الفعلي أثبت تحت الحمل، الحرارة أقل بـ 8-12°م، والضمان أطول (18 شهر مقابل 12). جوي روم بيفوز في معيار واحد حاسم: السعر — أرخص 40-55%. لو ميزانيتك تحت 1,200ج → جوي روم 20,000mAh بـ 997ج اختيار ممتاز. لو محتاج أداء احترافي أو شحن لابتوب → أنكر PowerCore III Elite 26K بقوة 60W (2,300ج) أو أنكر زولو A1695 بقوة 165W (3,950ج).',
@@ -141,7 +141,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>82%</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">22.5W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">44°م</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>550ج ⭐</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">1,624ج</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">جوي روم MagSafe 10K</a></td>
@@ -247,9 +247,9 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">جوي روم 10K</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">550ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,624ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">30.7Wh</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>17.9ج/Wh ⭐</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">52.9ج/Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">22.5W</td>
         </tr>
         <tr>
@@ -325,7 +325,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
         en: {
             title: 'Anker vs Joyroom Power Banks — 12 Models Compared with Real Numbers in Egypt 2026',
             metaTitle: 'Anker vs Joyroom Power Banks — 12 Models Compared | CairoVolt',
-            metaDescription: '7 Anker vs 5 Joyroom power banks compared by the numbers. Real capacity, output stability, temperature, and price — from 550 to 3,950 EGP in Egypt.',
+            metaDescription: '7 Anker vs 5 Joyroom power banks compared by the numbers. Real capacity, output stability, temperature, and price — from 997 to 3,950 EGP in Egypt.',
             keywords: 'anker vs joyroom power bank, anker vs joyroom comparison egypt, best power bank egypt 2026, anker zolo vs joyroom 20000, power bank specification comparison, anker prime vs joyroom, power bank price egypt egp, anker or joyroom which better, power bank output comparison, power bank compatibility',
             excerpt: 'A detailed comparison of 12 power banks from Anker and Joyroom — real capacity, output stability, temperature, and price. The surprising results by the numbers.',
             quickAnswer: 'Anker wins on 4 criteria: higher real capacity (88-92% of rated vs 82-86% for Joyroom), more stable output under load, 8-12°C cooler temperatures, and longer warranty (18 months vs 12). Joyroom wins on one decisive criterion: price — 40-55% cheaper. Budget under 1,200 EGP → Joyroom 20,000mAh at 997 EGP is excellent. Need professional performance or laptop charging → Anker PowerCore III Elite 26K 60W (2,300 EGP) or Anker Zolo A1695 165W (3,950 EGP).',
@@ -436,7 +436,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>82%</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">22.5W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">44°C</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>550 EGP ⭐</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">1,624 EGP</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom MagSafe 10K</a></td>
@@ -542,9 +542,9 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 10K</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">550 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,624 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">30.7Wh</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>17.9 EGP/Wh ⭐</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">52.9 EGP/Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">22.5W</td>
         </tr>
         <tr>

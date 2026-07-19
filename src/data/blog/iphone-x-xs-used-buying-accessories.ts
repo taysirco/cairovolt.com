@@ -111,7 +111,7 @@ export const iphone_x_xs_used_buying_accessories: BlogArticle = {
 
 <h3>3. سماعات لاسلكية ممتازة للرياضة والعمل</h3>
 <ul>
-    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> اقتنِ <a href="/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a> التي تدعم ترميز الصوت عالي الجودة وتوفر تجربة استماع ممتازة دون استهلاك مكثف لطاقة بطارية الهاتف.</li>
+    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> اقتنِ <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a> التي تدعم ترميز الصوت عالي الجودة وتوفر تجربة استماع ممتازة دون استهلاك مكثف لطاقة بطارية الهاتف.</li>
 </ul>
 
 <h2>سادساً: جدول تفصيلي لمقارنة طرازات X/XS الشائعة بمصر</h2>
@@ -244,7 +244,7 @@ export const iphone_x_xs_used_buying_accessories: BlogArticle = {
 
 <h3>Compatible Wireless Earbuds</h3>
 <ul>
-    <li>🎵 <strong>Joyroom Wireless Buds:</strong> We suggest pairing the phone with <a href="/en/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a>. They support high-quality AAC streaming, ensuring clear audio and sparing your charging port from wear.</li>
+    <li>🎵 <strong>Joyroom Wireless Buds:</strong> We suggest pairing the phone with <a href="/en/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a>. They support high-quality AAC streaming, ensuring clear audio and sparing your charging port from wear.</li>
 </ul>
 
 <h2>7. iPhone X/XS Generation Comparison Table</h2>

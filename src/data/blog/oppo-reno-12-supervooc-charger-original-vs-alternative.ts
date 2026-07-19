@@ -165,7 +165,7 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
 
 <h3>لو اخترت البديل PD (التوصية الأولى لـ 70% من المستخدمين)</h3>
 
-<p><a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W A2741</a> بـ 500 جنيه — GaN II يعني حرارة أقل وحجم أصغر. PD 3.0 كامل، بيشحن Oppo Reno 12 بـ 30W (أقصى سرعة PD اللي الموبايل بيقبلها). <strong>وبيشحن أي جهاز تاني USB-C بنفس الكفاءة.</strong> ضمان 18 شهر.</p>
+<p><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W A2741</a> بـ 500 جنيه — GaN II يعني حرارة أقل وحجم أصغر. PD 3.0 كامل، بيشحن Oppo Reno 12 بـ 30W (أقصى سرعة PD اللي الموبايل بيقبلها). <strong>وبيشحن أي جهاز تاني USB-C بنفس الكفاءة.</strong> ضمان 18 شهر.</p>
 
 <p>البديل الاقتصادي: <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> بـ 350 جنيه — نفس الأداء على Oppo (30W PD) بسعر أقل. الفرق عن Anker: حجم أكبر شوية وحرارة أعلى بـ 3°م.</p>
 
@@ -416,7 +416,7 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
 
 <h3>If You Choose a PD Alternative (Top Pick for 70% of Users)</h3>
 
-<p><a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W A2741</a> at 500 EGP — GaN II means less heat and smaller size. Full PD 3.0, charges Oppo Reno 12 at 30W (maximum PD speed the phone accepts). <strong>And charges any other USB-C device at the same efficiency.</strong> 18-month warranty.</p>
+<p><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W A2741</a> at 500 EGP — GaN II means less heat and smaller size. Full PD 3.0, charges Oppo Reno 12 at 30W (maximum PD speed the phone accepts). <strong>And charges any other USB-C device at the same efficiency.</strong> 18-month warranty.</p>
 
 <p>Budget alternative: <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> at 350 EGP — same Oppo performance (30W PD) at a lower price. The difference from Anker: slightly larger and 3°C warmer.</p>
 

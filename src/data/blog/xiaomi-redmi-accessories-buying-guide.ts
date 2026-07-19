@@ -80,13 +80,13 @@ export const xiaomi_redmi_accessories_buying_guide: BlogArticle = {
 
 <h3>2. كابلات الشحن سريعة النقل للبيانات</h3>
 <ul>
-    <li>🔌 <strong>كابل جويروم تايب سي المعتمد:</strong> ننصح بـ <a href="/joyroom/type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">كابل جويروم تايب سي إلى تايب سي</a> عالي الجودة للربط بشواحن الـ PD وتمرير التيارات المستقرة بأمان، أو استخدام كابل شاومي الأصلي ذو السن البرتقالي لتنشيط شحن الـ Turbo بالكامل.</li>
+    <li>🔌 <strong>كابل جويروم تايب سي المعتمد:</strong> ننصح بـ <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">كابل جويروم تايب سي إلى تايب سي</a> عالي الجودة للربط بشواحن الـ PD وتمرير التيارات المستقرة بأمان، أو استخدام كابل شاومي الأصلي ذو السن البرتقالي لتنشيط شحن الـ Turbo بالكامل.</li>
 </ul>
 
 <h3>3. سماعات بلوتوث متكاملة وتفعيل Dolby Atmos على HyperOS</h3>
 <p>تحتوي واجهات شاومي الحديثة على محرك مؤثرات صوتية متطور يدعم تقنية **Dolby Atmos**. عند ربط سماعات لاسلكية ممتازة، يقوم النظام بتحسين الترددات وتوزيع الصوت ثلاثي الأبعاد بشكل محاكي للسينما.</p>
 <ul>
-    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> نوصي بـ <a href="/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a>، والتي تدعم ترميز AAC عالي الجودة. ننصحك بالدخول إلى إعدادات الصوت في هاتفك وتنشيط Dolby Atmos واختيار ملف الصوت "موسيقى" (Music Profile) لتحصل على أقصى نقاء وتضخيم للبيس يتناسب مع مكونات السماعة الداخلية.</li>
+    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> نوصي بـ <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a>، والتي تدعم ترميز AAC عالي الجودة. ننصحك بالدخول إلى إعدادات الصوت في هاتفك وتنشيط Dolby Atmos واختيار ملف الصوت "موسيقى" (Music Profile) لتحصل على أقصى نقاء وتضخيم للبيس يتناسب مع مكونات السماعة الداخلية.</li>
 </ul>
 
 <h2>رابعاً: جرابات الحماية وحماية عدسات الكاميرا الضخمة في هواتف Redmi Note</h2>
@@ -200,13 +200,13 @@ export const xiaomi_redmi_accessories_buying_guide: BlogArticle = {
 
 <h3>Heavy-Duty Type-C Cables</h3>
 <ul>
-    <li>🔌 <strong>Joyroom Type-C Cable:</strong> We recommend the <a href="/en/joyroom/type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom Type-C to Type-C Cable</a> for safe power delivery and stable data syncing, or the original Xiaomi 6A orange-accented cable for native Turbo Charging.</li>
+    <li>🔌 <strong>Joyroom Type-C Cable:</strong> We recommend the <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom Type-C to Type-C Cable</a> for safe power delivery and stable data syncing, or the original Xiaomi 6A orange-accented cable for native Turbo Charging.</li>
 </ul>
 
 <h3>Compatible Bluetooth Earbuds and Dolby Atmos Optimizations</h3>
 <p>Xiaomi\'s HyperOS features a robust audio engine that includes **Dolby Atmos** integration. When paired with high-quality earbuds, it unlocks spatial audio and virtual surround sound tuning.</p>
 <ul>
-    <li>🎵 <strong>Joyroom Wireless Buds:</strong> We suggest the <a href="/en/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a>, which support the AAC high-fidelity codec. We recommend navigating to Settings > Sound & Vibration > Sound Effects, enabling Dolby Atmos, and choosing the "Music" profile to maximize bass depth and treble clarity.</li>
+    <li>🎵 <strong>Joyroom Wireless Buds:</strong> We suggest the <a href="/en/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a>, which support the AAC high-fidelity codec. We recommend navigating to Settings > Sound & Vibration > Sound Effects, enabling Dolby Atmos, and choosing the "Music" profile to maximize bass depth and treble clarity.</li>
 </ul>
 
 <h2>4. Protecting Massive Redmi Note Camera Bumps</h2>

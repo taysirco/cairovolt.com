@@ -236,12 +236,12 @@ const nextConfig: NextConfig = {
             { source: '/anker/anker-powercore-10000', destination: '/anker/power-banks/anker-powercore-10000', permanent: true },
             { source: '/anker/anker-powercore-20000', destination: '/anker/power-banks/anker-powercore-20000', permanent: true },
             { source: '/anker/anker-737-powerbank', destination: '/anker/power-banks/anker-737-powerbank', permanent: true },
-            { source: '/anker/anker-soundcore-motion-plus', destination: '/anker/speakers/anker-soundcore-motion-plus', permanent: true },
+            { source: '/anker/anker-soundcore-motion-plus', destination: '/soundcore/speakers/anker-soundcore-motion-plus', permanent: true },
             { source: '/en/anker/anker-powercore-26800', destination: '/en/anker/power-banks/anker-powercore-26800', permanent: true },
             { source: '/en/anker/anker-powercore-10000', destination: '/en/anker/power-banks/anker-powercore-10000', permanent: true },
             { source: '/en/anker/anker-powercore-20000', destination: '/en/anker/power-banks/anker-powercore-20000', permanent: true },
             { source: '/en/anker/anker-737-powerbank', destination: '/en/anker/power-banks/anker-737-powerbank', permanent: true },
-            { source: '/en/anker/anker-soundcore-motion-plus', destination: '/en/anker/speakers/anker-soundcore-motion-plus', permanent: true },
+            { source: '/en/anker/anker-soundcore-motion-plus', destination: '/en/soundcore/speakers/anker-soundcore-motion-plus', permanent: true },
 
             // === Joyroom products: Missing category in URL ===
             { source: '/joyroom/joyroom-power-bank-10000', destination: '/joyroom/power-banks/joyroom-power-bank-10000', permanent: true },
@@ -263,8 +263,8 @@ const nextConfig: NextConfig = {
             { source: '/en/anker/anker-usb-c-lightning-sureistrong', destination: '/en/anker/cables/anker-usb-c-lightning-sureistrong', permanent: true },
             { source: '/anker/anker-622-maggo', destination: '/anker/power-banks/anker-622-maggo', permanent: true },
             { source: '/en/anker/anker-622-maggo', destination: '/en/anker/power-banks/anker-622-maggo', permanent: true },
-            { source: '/anker/anker-soundcore-flare-2', destination: '/anker/speakers/anker-soundcore-flare-2', permanent: true },
-            { source: '/en/anker/anker-soundcore-flare-2', destination: '/en/anker/speakers/anker-soundcore-flare-2', permanent: true },
+            { source: '/anker/anker-soundcore-flare-2', destination: '/soundcore/speakers/anker-soundcore-flare-2', permanent: true },
+            { source: '/en/anker/anker-soundcore-flare-2', destination: '/en/soundcore/speakers/anker-soundcore-flare-2', permanent: true },
             { source: '/anker/anker-521-powerhouse', destination: '/anker/power-banks/anker-521-powerhouse', permanent: true },
             { source: '/en/anker/anker-521-powerhouse', destination: '/en/anker/power-banks/anker-521-powerhouse', permanent: true },
 
@@ -273,20 +273,18 @@ const nextConfig: NextConfig = {
             { source: '/en/joyroom/joyroom-t03s-pro-earbuds', destination: '/en/joyroom/audio/joyroom-t03s-pro-earbuds', permanent: true },
 
             // === Non-existent Anker products → Category ===
-            { source: '/anker/anker-soundcore-life-p2i', destination: '/anker/audio', permanent: true },
-            { source: '/en/anker/anker-soundcore-life-p2i', destination: '/en/anker/audio', permanent: true },
+            { source: '/anker/anker-soundcore-life-p2i', destination: '/soundcore/audio/anker-soundcore-life-p2i', permanent: true },
+            { source: '/en/anker/anker-soundcore-life-p2i', destination: '/en/soundcore/audio/anker-soundcore-life-p2i', permanent: true },
 
             // === Non-existent Joyroom car products → Appropriate category ===
-            { source: '/joyroom/joyroom-60w-car-charger', destination: '/joyroom/car-accessories', permanent: true },
-            { source: '/en/joyroom/joyroom-60w-car-charger', destination: '/en/joyroom/car-accessories', permanent: true },
+            { source: '/joyroom/joyroom-60w-car-charger', destination: '/joyroom/car-chargers/joyroom-60w-car-charger', permanent: true },
+            { source: '/en/joyroom/joyroom-60w-car-charger', destination: '/en/joyroom/car-chargers/joyroom-60w-car-charger', permanent: true },
             { source: '/joyroom/joyroom-car-phone-mount', destination: '/joyroom/car-holders', permanent: true },
             { source: '/en/joyroom/joyroom-car-phone-mount', destination: '/en/joyroom/car-holders', permanent: true },
 
             // === Category aliases (old names → current names) ===
             { source: '/joyroom/earbuds', destination: '/joyroom/audio', permanent: true },
             { source: '/en/joyroom/earbuds', destination: '/en/joyroom/audio', permanent: true },
-            { source: '/joyroom/car-chargers', destination: '/joyroom/car-accessories', permanent: true },
-            { source: '/en/joyroom/car-chargers', destination: '/en/joyroom/car-accessories', permanent: true },
 
             // === Non-existent product WITH category in URL → Category page ===
             { source: '/joyroom/cables/joyroom-usb-a-lightning-1.2m', destination: '/joyroom/cables', permanent: true },

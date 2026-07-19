@@ -85,7 +85,7 @@ export const what_is_gan_gallium_nitride_charger_explained_simply: BlogArticle =
 <p>تصفّح دليلنا المفصل حول <a href="/blog/gan-charger-vs-traditional-silicon-charger-comparison">الفرق بين شاحن GaN والشاحن التقليدي</a> لتفهم الفروقات التقنية بالمنحنيات والرسومات.</p>
 
 <h2>ثالثاً: المقارنة الكهربائية المباشرة — السيليكون ضد نيتريد الجاليوم</h2>
-<p>من واقع اختباراتنا المعملية الدقيقة، قمنا بتلخيص الفروقات الفيزيائية والتشغيلية في هذا الجدول:</p>
+<p>من واقع الاختبارات المعملية المنشورة، قمنا بتلخيص الفروقات الفيزيائية والتشغيلية في هذا الجدول:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">

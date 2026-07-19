@@ -49,7 +49,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     <li style="margin-bottom:12px;">📊 <strong>السعة مش كافية:</strong> حتى لو قدرت تشحن — بطارية DJI Mavic 3 سعتها 77Wh. يعني باور بانك 20,000mAh (74Wh) مش هيملاها ولا مرة واحدة بعد حساب كفاءة التحويل (60-70%). مش عملي.</li>
 </ul>
 
-<p><strong>الحل الحقيقي لشحن بطاريات الدرون في الفيلد:</strong> محطة طاقة متنقلة مع مخرج AC (زي <a href="/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> — 256Wh) + الشاحن الأصلي. بتوصل الشاحن الأصلي بالمحطة وبتشحن البطاريات بأمان. محطة 256Wh بتشحن 3 بطاريات DJI Mini أو بطارية ونص DJI Mavic 3. ده الحل للمصورين المحترفين اللي بيشتغلوا يوم كامل بعيد عن الكهرباء.</p>
+<p><strong>الحل الحقيقي لشحن بطاريات الدرون في الفيلد:</strong> محطة طاقة متنقلة مع مخرج AC (زي <a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> — 256Wh) + الشاحن الأصلي. بتوصل الشاحن الأصلي بالمحطة وبتشحن البطاريات بأمان. محطة 256Wh بتشحن 3 بطاريات DJI Mini أو بطارية ونص DJI Mavic 3. ده الحل للمصورين المحترفين اللي بيشتغلوا يوم كامل بعيد عن الكهرباء.</p>
 
 <h2>إيه اللي الباور بانك بيشحنه فعلاً — وليه مهم</h2>
 
@@ -183,16 +183,16 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">فريق إنتاج (يوم كامل)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;">انكر 521 PowerHouse</a> (5,500ج)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;">انكر 521 PowerHouse</a> (5,500ج)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">256Wh + مخرج AC لشحن بطاريات الدرون</td>
     </tr>
     </tbody>
 </table>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ اشحن تصويرك من كايرو فولت — بضمان الوكيل المعتمد</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ اشحن تصويرك من كايرو فولت — بضمان المتجر المكتوب</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل باور بانكات المصورين متاحة بضمان <strong>18 شهر معتمد</strong> + توصيل لكل المحافظات. تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/portable-power-stations" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
+        كل باور بانكات المصورين متاحة بضمان <strong>المتجر المكتوب 18 شهر</strong> + توصيل لكل المحافظات. تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
     </p>
 </div>`,
             faq: [
@@ -241,7 +241,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     <li style="margin-bottom:12px;">📊 <strong>Insufficient capacity:</strong> Even if you could charge it — a DJI Mavic 3 battery is 77Wh. A 20,000mAh power bank (74Wh) can't fill it even once after accounting for conversion efficiency (60-70%). Not practical.</li>
 </ul>
 
-<p><strong>The real solution for field charging drone batteries:</strong> A portable power station with AC output (like the <a href="/en/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> — 256Wh) + the original charger. Connect the original charger to the station and charge batteries safely. A 256Wh station charges 3 DJI Mini batteries or 1.5 DJI Mavic 3 batteries. This is the solution for professional photographers working full days away from power.</p>
+<p><strong>The real solution for field charging drone batteries:</strong> A portable power station with AC output (like the <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> — 256Wh) + the original charger. Connect the original charger to the station and charge batteries safely. A 256Wh station charges 3 DJI Mini batteries or 1.5 DJI Mavic 3 batteries. This is the solution for professional photographers working full days away from power.</p>
 
 <h2>What a Power Bank Actually Charges — And Why It Matters</h2>
 
@@ -375,7 +375,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Production team (full day)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;">Anker 521 PowerHouse</a> (5,500 EGP)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;">Anker 521 PowerHouse</a> (5,500 EGP)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">256Wh + AC output for drone batteries</td>
     </tr>
     </tbody>
@@ -384,7 +384,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Power Your Shoots from CairoVolt — With Authorized Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All photographer power banks are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates. Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/portable-power-stations" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
+        All photographer power banks are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates. Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
     </p>
 </div>`,
             faq: [

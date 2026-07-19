@@ -151,7 +151,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 <p>ده الحل الأمثل والأكثر أماناً. محطة الطاقة المتنقلة (Portable Power Station) هي أساساً بطارية ليثيوم كبيرة + إنفرتر Pure Sine Wave مدمج + منافذ AC/DC/USB. بتوصّل جهاز الـ CPAP بمنفذ الـ AC زي ما بتوصله في البريزة بالظبط — بدون أدابترات ولا تحويلات.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>السعة:</strong> من 256Wh (زي <a href="/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a>) — بتدّيك 5-7 ساعات CPAP بدون مسخن — إلى 1,000Wh+ في الفئات الأعلى.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>السعة:</strong> من 256Wh (زي <a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a>) — بتدّيك 5-7 ساعات CPAP بدون مسخن — إلى 1,000Wh+ في الفئات الأعلى.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>الموجة:</strong> كل محطات الطاقة المحترمة (Anker, EcoFlow, Jackery, Bluetti) بتطلع Pure Sine Wave — THD أقل من 3%.</li>
     <li style="margin-bottom:12px;">🔋 <strong>الشحن:</strong> بتشحن من البريزة (3-5 ساعات) أو من لوح شمسي (6-8 ساعات) أو من ولاعة العربية (8-10 ساعات).</li>
     <li style="margin-bottom:12px;">📱 <strong>إضافي:</strong> في نفس الوقت تقدر تشحن الموبايل واللابتوب والراوتر — يعني حل متكامل لانقطاع الكهرباء، مش بس للـ CPAP.</li>
@@ -186,7 +186,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        محطات الطاقة المتنقلة من <a href="/anker/portable-power-stations" style="color:#2563eb;font-weight:600;">انكر</a> متوفرة بضمان 18 شهر + توصيل لكل المحافظات. <strong>استشر طبيبك أولاً</strong> عن إعدادات جهازك، ثم تواصل معانا عبر واتساب لنساعدك تختار السعة المناسبة.
+        محطات الطاقة المتنقلة من <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">انكر</a> متوفرة بضمان 18 شهر + توصيل لكل المحافظات. <strong>استشر طبيبك أولاً</strong> عن إعدادات جهازك، ثم تواصل معانا عبر واتساب لنساعدك تختار السعة المناسبة.
     </p>
 </div>
 
@@ -346,7 +346,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 <p>This is the optimal and safest solution. A portable power station is essentially a large lithium battery + built-in Pure Sine Wave inverter + AC/DC/USB ports. You plug your CPAP into the AC outlet exactly as you would into a wall socket — no adapters, no conversions.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>Capacity:</strong> From 256Wh (like the <a href="/en/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a>) — giving you 5-7 hours of CPAP without humidifier — up to 1,000Wh+ in higher tiers.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>Capacity:</strong> From 256Wh (like the <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a>) — giving you 5-7 hours of CPAP without humidifier — up to 1,000Wh+ in higher tiers.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>Waveform:</strong> All reputable power stations (Anker, EcoFlow, Jackery, Bluetti) output Pure Sine Wave — THD under 3%.</li>
     <li style="margin-bottom:12px;">🔋 <strong>Charging:</strong> Charges from wall outlet (3-5 hours), solar panels (6-8 hours), or car cigarette lighter (8-10 hours).</li>
     <li style="margin-bottom:12px;">📱 <strong>Bonus:</strong> You can simultaneously charge your phone, laptop, and router — making it a complete power outage solution, not just for CPAP.</li>
@@ -381,7 +381,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Portable power stations from <a href="/en/anker/portable-power-stations" style="color:#2563eb;font-weight:600;">Anker</a> are available with 18-month warranty + delivery across all governorates. <strong>Consult your doctor first</strong> about your machine's settings, then contact us via WhatsApp to help you choose the right capacity.
+        Portable power stations from <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker</a> are available with 18-month warranty + delivery across all governorates. <strong>Consult your doctor first</strong> about your machine's settings, then contact us via WhatsApp to help you choose the right capacity.
     </p>
 </div>
 

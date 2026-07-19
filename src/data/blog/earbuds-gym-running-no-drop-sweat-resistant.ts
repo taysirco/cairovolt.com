@@ -151,7 +151,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
     </tbody>
 </table>
 
-<p>كل المنتجات دي متاحة على <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور</a> في كايرو فولت بضمان 18 شهر من الوكيل المعتمد.</p>
+<p>كل المنتجات دي متاحة على <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور</a> في كايرو فولت بضمان 18 شهر مكتوب من المتجر.</p>
 
 <h2>إزاي تختار سماعة الجيم المناسبة لنوع تمرينك؟</h2>
 
@@ -256,7 +256,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل <a href="/soundcore/audio" style="color:#166534;font-weight:600;">ايربودز ساوند كور</a> <strong>أصلية بضمان 18 شهر</strong> من الوكيل المعتمد + توصيل لكل المحافظات 24-72 ساعة + دعم واتساب 24/7. اختار السماعة المناسبة لتمرينك وابدأ رحلة الفيتنس بصوت يحفّزك فعلاً.
+        كل <a href="/soundcore/audio" style="color:#166534;font-weight:600;">ايربودز ساوند كور</a> <strong>أصلية بضمان 18 شهر</strong> مكتوب من المتجر + توصيل لكل المحافظات 24-72 ساعة + دعم واتساب 24/7. اختار السماعة المناسبة لتمرينك وابدأ رحلة الفيتنس بصوت يحفّزك فعلاً.
     </p>
 </div>
 
@@ -509,7 +509,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> are <strong>genuine with 18-month warranty</strong> from the authorized distributor + delivery to all governorates within 24-72 hours + 24/7 WhatsApp support. Choose the right earbuds for your workout and start your fitness journey with sound that actually motivates.
+        All <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> are <strong>genuine with 18-month written warranty</strong> from the CairoVolt store + delivery to all governorates within 24-72 hours + 24/7 WhatsApp support. Choose the right earbuds for your workout and start your fitness journey with sound that actually motivates.
     </p>
 </div>
 

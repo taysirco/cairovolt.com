@@ -108,7 +108,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 
 <p>ده شاحن مميز من Apple — فيه منفذين USB-C. بيقدر يشحن جهازين في نفس الوقت: ايفون + AirPods، أو ايفون + Apple Watch. القوة بتتوزع بين الجهازين (حوالي 17W + 18W لما الاتنين متوصّلين).</p>
 
-<p>السعر 1,400-1,800 جنيه — غالي جداً. البديل الأذكى: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> بـ ~600 جنيه. أصغر حجماً من شاحن Apple 35W، بيدعم 30W، وبتقنية GaN اللي بتقلل الحرارة. صحيح فيه منفذ واحد بس — لكن بيوفّرلك 1,000+ جنيه. لو عايز منفذين — خد شاحنين Anker 20W بـ 980 جنيه (أقل من شاحن Apple 35W الواحد!).</p>
+<p>السعر 1,400-1,800 جنيه — غالي جداً. البديل الأذكى: <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> بـ ~600 جنيه. أصغر حجماً من شاحن Apple 35W، بيدعم 30W، وبتقنية GaN اللي بتقلل الحرارة. صحيح فيه منفذ واحد بس — لكن بيوفّرلك 1,000+ جنيه. لو عايز منفذين — خد شاحنين Anker 20W بـ 980 جنيه (أقل من شاحن Apple 35W الواحد!).</p>
 
 <h2>ضمان Apple في مصر — الحقيقة الكاملة</h2>
 
@@ -228,7 +228,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 
 <p>ولو عايز تحافظ على صحة بطارية ايفونك لأطول فترة — فعّل خاصية "Optimized Battery Charging" من Settings → Battery → Battery Health. الخاصية دي بتخلّي الايفون يتعلم عاداتك في الشحن ويبطّئ الشحن فوق 80% عشان يحمي البطارية.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بدائل أصلية لشواحن ايفون: <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a>.</p></div>`
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بدائل أصلية لشواحن ايفون: <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> · <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a>.</p></div>`
         },
         en: {
             title: 'iPhone Original Charger Price in Egypt — Battery Protection Guide with Official Warranty',
@@ -317,7 +317,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 
 <p>This is a unique Apple charger — it has two USB-C ports. It can charge two devices simultaneously: iPhone + AirPods, or iPhone + Apple Watch. Power is distributed between devices (roughly 17W + 18W when both connected).</p>
 
-<p>The price is 1,400-1,800 EGP — very expensive. The smarter alternative: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> at ~600 EGP. Smaller than Apple's 35W, supports 30W, with GaN technology that reduces heat. It has only one port — but saves you 1,000+ EGP. If you want two ports — buy two Anker 20W chargers for 980 EGP total (less than one Apple 35W!).</p>
+<p>The price is 1,400-1,800 EGP — very expensive. The smarter alternative: <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> at ~600 EGP. Smaller than Apple's 35W, supports 30W, with GaN technology that reduces heat. It has only one port — but saves you 1,000+ EGP. If you want two ports — buy two Anker 20W chargers for 980 EGP total (less than one Apple 35W!).</p>
 
 <h2>Apple Warranty in Egypt — The Full Truth</h2>
 
@@ -428,7 +428,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 
 <p>And if you want to preserve your iPhone's battery health for the longest time — enable "Optimized Battery Charging" from Settings → Battery → Battery Health. This feature lets your iPhone learn your charging habits and slows down charging above 80% to protect the battery.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Genuine iPhone charger alternatives: <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> · <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a>.</p></div>`
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Genuine iPhone charger alternatives: <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> · <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a>.</p></div>`
         }
     }
 };

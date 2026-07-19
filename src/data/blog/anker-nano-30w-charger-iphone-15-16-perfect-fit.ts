@@ -39,7 +39,7 @@ export const anker_nano_30w_charger_iphone_15_16_perfect_fit: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">أنكر نانو 30W (A2741)</a> هو أقصى ما تحتاجه لشحن iPhone 15 أو 16. Apple Fast Charge أقصاها 27W — يعني 30W بيغطي السقف بالضبط. حجمه أصغر من شاحن Apple 20W، سعره 450-550ج، وبيشتغل على 220V كهرباء مصر بأمان كامل. لا داعي لـ 45W أو 65W لشحن الآيفون — ده بيضيف صفر سرعة.
+        <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">أنكر نانو 30W (A2741)</a> هو أقصى ما تحتاجه لشحن iPhone 15 أو 16. Apple Fast Charge أقصاها 27W — يعني 30W بيغطي السقف بالضبط. حجمه أصغر من شاحن Apple 20W، سعره 450-550ج، وبيشتغل على 220V كهرباء مصر بأمان كامل. لا داعي لـ 45W أو 65W لشحن الآيفون — ده بيضيف صفر سرعة.
     </p>
 </div>
 
@@ -191,7 +191,7 @@ export const anker_nano_30w_charger_iphone_15_16_perfect_fit: BlogArticle = {
 </div>
 
 <h2>أين تشتري وكيف تتحقق من الأصالة</h2>
-<p>شاحن أنكر نانو 30W متاح على <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">كايرو فولت بسعر 450-550ج</a> — أصلي 100% بكود تحقق من أنكر. التحقق من الأصل بسيط:</p>
+<p>شاحن أنكر نانو 30W متاح على <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">كايرو فولت بسعر 450-550ج</a> — أصلي 100% بكود تحقق من أنكر. التحقق من الأصل بسيط:</p>
 <ul style="line-height:2;">
     <li>الباركود على العلبة يروح على موقع verify.anker.com</li>
     <li>الشاحن فيه ختم "Anker" على نفس الجسم مش ملصق</li>
@@ -202,7 +202,7 @@ export const anker_nano_30w_charger_iphone_15_16_perfect_fit: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أنكر نانو 30W أصلي بضمان 18 شهر</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        متاح على كايرو فولت بـ <strong>450-550 جنيه</strong>. أصلي 100% بكود تحقق من أنكر. ضمان 18 شهر يشمل عيوب التصنيع. توصيل لكل المحافظات + دفع عند الاستلام. <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#166534;font-weight:600;text-decoration:underline;">اطلب دلوقتي ←</a>
+        متاح على كايرو فولت بـ <strong>450-550 جنيه</strong>. أصلي 100% بكود تحقق من أنكر. ضمان 18 شهر يشمل عيوب التصنيع. توصيل لكل المحافظات + دفع عند الاستلام. <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#166534;font-weight:600;text-decoration:underline;">اطلب دلوقتي ←</a>
     </p>
 </div>`,
             faq: [
@@ -236,7 +236,7 @@ export const anker_nano_30w_charger_iphone_15_16_perfect_fit: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        The <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W (A2741)</a> is everything you need for iPhone 15 or 16. Apple Fast Charge peaks at 27W — meaning 30W covers the ceiling exactly. It is smaller than Apple's 20W charger, costs 450-550 EGP, and works safely on Egypt's 220V power. No reason to spend more on 45W or 65W for iPhone — they add zero speed.
+        The <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W (A2741)</a> is everything you need for iPhone 15 or 16. Apple Fast Charge peaks at 27W — meaning 30W covers the ceiling exactly. It is smaller than Apple's 20W charger, costs 450-550 EGP, and works safely on Egypt's 220V power. No reason to spend more on 45W or 65W for iPhone — they add zero speed.
     </p>
 </div>
 
@@ -388,7 +388,7 @@ export const anker_nano_30w_charger_iphone_15_16_perfect_fit: BlogArticle = {
 </div>
 
 <h2>Where to Buy and How to Verify Authenticity</h2>
-<p>The Anker Nano 30W is available on <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">CairoVolt at 450-550 EGP</a> — 100% authentic with an Anker verification code. Verifying authenticity is straightforward:</p>
+<p>The Anker Nano 30W is available on <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">CairoVolt at 450-550 EGP</a> — 100% authentic with an Anker verification code. Verifying authenticity is straightforward:</p>
 <ul style="line-height:2;">
     <li>Barcode on packaging scans to verify.anker.com</li>
     <li>The "Anker" text is molded into the charger body, not a sticker</li>
@@ -398,7 +398,7 @@ export const anker_nano_30w_charger_iphone_15_16_perfect_fit: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic Anker Nano 30W with 18-Month Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Available on CairoVolt at <strong>450-550 EGP</strong>. 100% authentic with Anker verification code. 18-month warranty covering manufacturing defects. Delivery to all governorates + cash on delivery. <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#166534;font-weight:600;text-decoration:underline;">Order now ←</a>
+        Available on CairoVolt at <strong>450-550 EGP</strong>. 100% authentic with Anker verification code. 18-month warranty covering manufacturing defects. Delivery to all governorates + cash on delivery. <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#166534;font-weight:600;text-decoration:underline;">Order now ←</a>
     </p>
 </div>`,
             faq: [

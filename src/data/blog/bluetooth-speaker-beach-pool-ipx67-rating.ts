@@ -156,7 +156,7 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
     </tbody>
 </table>
 
-<p>كل المنتجات دي متاحة على <a href="/soundcore/speakers" style="color:#2563eb;font-weight:600;">سبيكرات ساوند كور</a> في كايرو فولت بضمان 18 شهر من الوكيل المعتمد. والفرق بينهم وبين سبيكرات الـ 200 جنيه اللي على OLX؟ إن دول فعلاً اتحطوا في ماء تحت ظروف مختبر حقيقي — مش بس اتكتب عليهم كلمتين على العلبة.</p>
+<p>كل المنتجات دي متاحة على <a href="/soundcore/speakers" style="color:#2563eb;font-weight:600;">سبيكرات ساوند كور</a> في كايرو فولت بضمان المتجر المكتوب 18 شهر. والفرق بينهم وبين سبيكرات الـ 200 جنيه اللي على OLX؟ إن دول فعلاً اتحطوا في ماء تحت ظروف مختبر حقيقي — مش بس اتكتب عليهم كلمتين على العلبة.</p>
 
 <h2>إزاي تختار السبيكر المناسب لاحتياجك بالظبط؟</h2>
 
@@ -207,7 +207,7 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل <a href="/soundcore/speakers" style="color:#166534;font-weight:600;">سبيكرات ساوند كور</a> <strong>أصلية بضمان 18 شهر</strong> من الوكيل المعتمد + توصيل لكل المحافظات 24-72 ساعة + دعم واتساب 24/7. ولو حابب تتصفح السماعات كمان، زور <a href="/soundcore/audio" style="color:#166534;font-weight:600;">ايربودز ساوند كور</a>.
+        كل <a href="/soundcore/speakers" style="color:#166534;font-weight:600;">سبيكرات ساوند كور</a> <strong>أصلية بضمان 18 شهر</strong> مكتوب من المتجر + توصيل لكل المحافظات 24-72 ساعة + دعم واتساب 24/7. ولو حابب تتصفح السماعات كمان، زور <a href="/soundcore/audio" style="color:#166534;font-weight:600;">ايربودز ساوند كور</a>.
     </p>
 </div>
 
@@ -405,7 +405,7 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All <a href="/en/soundcore/speakers" style="color:#166534;font-weight:600;">Soundcore speakers</a> are <strong>genuine with 18-month warranty</strong> from the authorized distributor + delivery to all governorates within 24-72 hours + 24/7 WhatsApp support. Also browse <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> for your audio needs.
+        All <a href="/en/soundcore/speakers" style="color:#166534;font-weight:600;">Soundcore speakers</a> are <strong>genuine with 18-month written store warranty</strong> from CairoVolt + delivery to all governorates within 24-72 hours + 24/7 WhatsApp support. Also browse <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> for your audio needs.
     </p>
 </div>
 

@@ -454,7 +454,7 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
                 },
                 {
                     question: 'What is the cheapest authentic MagSafe power bank in Egypt 2026?',
-                    answer: 'Joyroom MagSafe 10,000mAh at 850 EGP — the cheapest authentic option with authorized distributor warranty. Anything cheaper than 700 EGP on OLX (350-550 EGP) is very likely counterfeit. Rule: never buy a MagSafe power bank under 700 EGP.',
+                    answer: 'Joyroom MagSafe 10,000mAh at 850 EGP — the cheapest authentic option with a written store warranty. Anything cheaper than 700 EGP on OLX (350-550 EGP) is very likely counterfeit. Rule: never buy a MagSafe power bank under 700 EGP.',
                 },
             ],
         },

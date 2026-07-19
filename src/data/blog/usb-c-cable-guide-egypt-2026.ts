@@ -166,7 +166,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <h2>أفضل 3 كابلات USB-C نرشحها في مصر</h2>
 
 <h3>🥇 <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">انكر باور لاين III USB-C (60W)</a> — الأفضل</h3>
-<p>نايلون مضفر، 60 واط، USB 3.2 (نقل بيانات سريع)، ضمان 18 شهر. يشحن iPhone وSamsung بأقصى سرعة ممكنة. <strong>الكابل اللي بنستخدمه في كل اختباراتنا.</strong></p>
+<p>نايلون مضفر، 60 واط، USB 3.2 (نقل بيانات سريع)، ضمان 18 شهر. يشحن iPhone وSamsung بأقصى سرعة ممكنة. <strong>الكابل المرجعي المعتاد في الاختبارات المستقلة المنشورة.</strong></p>
 
 <h3>🥈 <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">جوي روم USB-C 60W</a> — أفضل قيمة</h3>
 <p>أداء قريب جداً من أنكر بنصف السعر تقريباً. غلاف مقوى، 60 واط، ضمان 12 شهر. <strong>خيارنا الأول لمن يبحث عن الاقتصاد.</strong></p>

@@ -35,7 +35,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> الباور بانك الشمسي المدمج (اللوح الصغير المدمج في الجسم) <strong>مش عملي</strong> — بيحتاج 40-80 ساعة شمس لشحن نفسه (5-10 أيام!). البديل الأذكى: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (1,550ج) واشحنه في البيت قبل الرحلة. لو رحلتك أطول من 3 أيام، <a href="/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> هي الحل الحقيقي — أو لوح شمسي منفصل بقدرة 20W+ مع باور بانك عادي.
+        <strong>💡 الإجابة السريعة:</strong> الباور بانك الشمسي المدمج (اللوح الصغير المدمج في الجسم) <strong>مش عملي</strong> — بيحتاج 40-80 ساعة شمس لشحن نفسه (5-10 أيام!). البديل الأذكى: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (1,550ج) واشحنه في البيت قبل الرحلة. لو رحلتك أطول من 3 أيام، <a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> هي الحل الحقيقي — أو لوح شمسي منفصل بقدرة 20W+ مع باور بانك عادي.
     </p>
 </div>
 
@@ -129,7 +129,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 <p>لوح شمسي منفصل بقدرة 20-30W مع MPPT controller بيشحن باور بانك عادي بكفاءة عالية. اللوح المنفصل مساحته أكبر بـ 10x من المدمج — يعني بيولد 10x طاقة. لوح 20W بيشحن باور بانك 10,000mAh في 4-5 ساعات شمس. ده حل عملي لرحلات 5-7 أيام. سعر اللوح 500-1,200 جنيه + <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">باور بانك انكر زولو 20,000mAh</a> (1,350ج).</p>
 
 <h3>2. محطة طاقة متنقلة (للرحلات الجماعية)</h3>
-<p><a href="/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> — محطة طاقة متنقلة بسعة 256Wh. بتشحن 8-10 موبايلات أو لابتوب + موبايل + سبيكر بلوتوث. فيها مخرج AC (زي بريزة البيت) ومنافذ USB-A و USB-C. الحل المثالي لمجموعة 4-6 أشخاص في رحلة كامبينج. بتتشحن من الكهرباء في 5 ساعات أو من لوح شمسي 60-100W في 6-8 ساعات. ده الحل الحقيقي للاستقلالية عن الكهرباء.</p>
+<p><a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> — محطة طاقة متنقلة بسعة 256Wh. بتشحن 8-10 موبايلات أو لابتوب + موبايل + سبيكر بلوتوث. فيها مخرج AC (زي بريزة البيت) ومنافذ USB-A و USB-C. الحل المثالي لمجموعة 4-6 أشخاص في رحلة كامبينج. بتتشحن من الكهرباء في 5 ساعات أو من لوح شمسي 60-100W في 6-8 ساعات. ده الحل الحقيقي للاستقلالية عن الكهرباء.</p>
 
 <h3>3. الحل البسيط: اشحن كل حاجة قبل ما تمشي</h3>
 <p>لو رحلتك يومين أو 3 — وده الأغلب — الحل الأبسط والأوفر: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (1,550ج) مشحون 100% بيديك 3.5 شحنات كاملة للموبايل. يعني 3 أيام كاملين بدون كهرباء مع استخدام معقول. لو معاك اتنين (أو واحد 20,000 + واحد 10,000)، بتغطي أسبوع كامل.</p>
@@ -160,7 +160,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">3-5 أيام — مجموعة 4-6</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;">انكر 521 PowerHouse</a></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;">انكر 521 PowerHouse</a></td>
         <td style="padding:12px;border:1px solid #d1d5db;">5,500ج (مشتركة)</td>
     </tr>
     <tr>
@@ -204,9 +204,9 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 </div>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جهّز رحلتك من كايرو فولت — بضمان الوكيل المعتمد</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جهّز رحلتك من كايرو فولت — بضمان المتجر المكتوب</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل باور بانكات الرحلات ومحطات الطاقة المتنقلة متاحة بضمان <strong>18 شهر معتمد</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + فحص قبل الدفع. لو بتخطط لرحلة كامبينج أو سفاري، تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/portable-power-stations" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
+        كل باور بانكات الرحلات ومحطات الطاقة المتنقلة متاحة بضمان <strong>18 شهر مكتوب</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + فحص قبل الدفع. لو بتخطط لرحلة كامبينج أو سفاري، تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
     </p>
 </div>`,
             faq: [
@@ -241,7 +241,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Built-in solar panels on power banks (2-5W) are <strong>practically useless</strong> — they need 40-80 hours of direct sunlight to charge (5-10 days!). The smarter alternative: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (1,550 EGP) fully charged at home before the trip. For trips longer than 3 days, the <a href="/en/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> is the real solution — or a separate 20W+ solar panel with a regular power bank.
+        <strong>💡 Quick Answer:</strong> Built-in solar panels on power banks (2-5W) are <strong>practically useless</strong> — they need 40-80 hours of direct sunlight to charge (5-10 days!). The smarter alternative: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (1,550 EGP) fully charged at home before the trip. For trips longer than 3 days, the <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> is the real solution — or a separate 20W+ solar panel with a regular power bank.
     </p>
 </div>
 
@@ -335,7 +335,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 <p>A standalone 20-30W solar panel with an MPPT controller charges a regular power bank with high efficiency. A separate panel has 10x the surface area of a built-in one — meaning it generates 10x the energy. A 20W panel charges a 10,000mAh power bank in 4-5 hours of sunshine. This is a practical solution for 5-7 day trips. Panel cost: 500-1,200 EGP + <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO 20,000mAh</a> (1,350 EGP).</p>
 
 <h3>2. Portable Power Station (For Group Trips)</h3>
-<p>The <a href="/en/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> — a portable power station with 256Wh capacity. Charges 8-10 phones, or a laptop + phone + Bluetooth speaker. Features AC output (like a home outlet) plus USB-A and USB-C ports. The ideal solution for groups of 4-6 people on a camping trip. Charges from mains in 5 hours or from a 60-100W solar panel in 6-8 hours. This is the real solution for power independence.</p>
+<p>The <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> — a portable power station with 256Wh capacity. Charges 8-10 phones, or a laptop + phone + Bluetooth speaker. Features AC output (like a home outlet) plus USB-A and USB-C ports. The ideal solution for groups of 4-6 people on a camping trip. Charges from mains in 5 hours or from a 60-100W solar panel in 6-8 hours. This is the real solution for power independence.</p>
 
 <h3>3. The Simple Solution: Charge Everything Before You Leave</h3>
 <p>If your trip is 2-3 days — which covers most cases — the simplest and most cost-effective solution: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (1,550 EGP) fully charged gives you 3.5 complete phone charges. That's 3 full days without electricity with moderate use. If you bring two (or one 20,000 + one 10,000), you're covered for a full week.</p>
@@ -366,7 +366,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">3-5 days — group of 4-6</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/portable-power-stations/anker-521-powerhouse" style="color:#2563eb;">Anker 521 PowerHouse</a></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;">Anker 521 PowerHouse</a></td>
         <td style="padding:12px;border:1px solid #d1d5db;">5,500 EGP (shared)</td>
     </tr>
     <tr>
@@ -412,7 +412,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt — With Authorized Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All trip power banks and portable power stations are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + product inspection before payment. Planning a camping or safari trip? Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/portable-power-stations" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
+        All trip power banks and portable power stations are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + product inspection before payment. Planning a camping or safari trip? Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
     </p>
 </div>`,
             faq: [

@@ -202,7 +202,7 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
 
 <h3>السيناريو 3: عندك أجهزة تانية غير الموبايل</h3>
 
-<p><a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W A2741</a> بـ 500 جنيه — الـ 5W الزيادة مش هتفرق مع A55 (اللي بيقبل 25W بس)، لكن الميزة: لو عندك iPad أو iPhone أو أي جهاز تاني بيقبل 30W — شاحن واحد بيشحن كل حاجة. استثمار مستقبلي ذكي لو بتفكر تشتري تابلت أو تغيّر موبايلك لواحد بيقبل 30W.</p>
+<p><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W A2741</a> بـ 500 جنيه — الـ 5W الزيادة مش هتفرق مع A55 (اللي بيقبل 25W بس)، لكن الميزة: لو عندك iPad أو iPhone أو أي جهاز تاني بيقبل 30W — شاحن واحد بيشحن كل حاجة. استثمار مستقبلي ذكي لو بتفكر تشتري تابلت أو تغيّر موبايلك لواحد بيقبل 30W.</p>
 
 <h2>الكابل — مش أي كابل هينفع</h2>
 
@@ -471,7 +471,7 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
 
 <h3>Scenario 3: You Have Other Devices Besides Your Phone</h3>
 
-<p><a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W A2741</a> at 500 EGP — the extra 5W won't matter for the A55 (which maxes at 25W), but the advantage: if you have an iPad, iPhone, or any other device that accepts 30W — one charger handles everything. A smart future-proof investment if you're thinking of buying a tablet or switching to a phone that accepts 30W.</p>
+<p><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W A2741</a> at 500 EGP — the extra 5W won't matter for the A55 (which maxes at 25W), but the advantage: if you have an iPad, iPhone, or any other device that accepts 30W — one charger handles everything. A smart future-proof investment if you're thinking of buying a tablet or switching to a phone that accepts 30W.</p>
 
 <h2>The Cable — Not Just Any Cable Will Work</h2>
 

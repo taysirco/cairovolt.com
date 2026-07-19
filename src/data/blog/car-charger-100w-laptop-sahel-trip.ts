@@ -240,7 +240,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
     <li><strong>شغّل المحرك والتكييف قبل ما توصل الشاحن بـ 5 دقائق</strong> — خلّي حرارة الكابينة تنزل من 65°م لـ 30°م الأول.</li>
     <li><strong>ماتسيبش الشاحن في العربية وهي مقفولة في الشمس</strong> — الحرارة الشديدة بتأثر على المكونات الإلكترونية حتى من غير ما يبقى شغال. حط الشاحن في الشنطة لما تنزل.</li>
     <li><strong>ماتغطّيش الشاحن</strong> — بعض الناس بيحطوا الشاحن تحت كتب أو ورق في العربية. ده بيمنع التهوية وبيزود الحرارة.</li>
-    <li><strong>استخدم <a href="/joyroom/car-accessories/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">حامل موبايل جوي روم ZS290</a> للتنظيم</strong> — حامل الموبايل بيخلّي الكابلات منظمة ومش بتتلف من الثني المتكرر.</li>
+    <li><strong>استخدم <a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">حامل موبايل جوي روم ZS290</a> للتنظيم</strong> — حامل الموبايل بيخلّي الكابلات منظمة ومش بتتلف من الثني المتكرر.</li>
     <li><strong>خد <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">باور بانك انكر 737</a> كاحتياطي</strong> — لو الشاحن عمل thermal throttling أو لو وصلت ومفيش كهرباء في الشاليه (بيحصل كتير في الساحل)، الباور بانك 140W / 24,000mAh يقدر يدي اللابتوب شحنة إضافية.</li>
 </ol>
 
@@ -540,7 +540,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
     <li><strong>Run the engine and AC for 5 minutes before plugging in the charger</strong> — let the cabin temperature drop from 65°C to 30°C first.</li>
     <li><strong>Don't leave the charger in a parked car under direct sun</strong> — extreme heat damages electronic components even when they're not in use. Put the charger in your bag when you leave the car.</li>
     <li><strong>Don't cover the charger</strong> — some people bury the charger under papers, books, or tissue boxes in the center console. This blocks ventilation and raises temperature.</li>
-    <li><strong>Use a <a href="/en/joyroom/car-accessories/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290 car mount</a> for cable management</strong> — a phone mount keeps cables organized and prevents damage from repeated bending.</li>
+    <li><strong>Use a <a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290 car mount</a> for cable management</strong> — a phone mount keeps cables organized and prevents damage from repeated bending.</li>
     <li><strong>Carry an <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 power bank</a> as backup</strong> — if the charger thermal throttles or you arrive at a Sahel chalet with no electricity (happens more often than you'd think), the 140W / 24,000mAh power bank provides an emergency laptop charge.</li>
 </ol>
 

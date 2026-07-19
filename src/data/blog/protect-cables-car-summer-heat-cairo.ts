@@ -175,7 +175,7 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
     <li style="margin-bottom:14px;">✅ <strong>العلامات الدالة على الجودة الحقيقية:</strong> ثقل محسوس في اليد، رأس معدني صلب، ضفيرة قماش ناعمة ومحكمة، ضمان مكتوب على الكرتونة.</li>
 </ul>
 
-<p>على OLX وFacebook Marketplace في مصر، نسبة كبيرة من الكابلات اللي بتتباع على إنها nylon braided بتطلع إما مقلّدة أو بمواصفات أقل بكتير من المكتوب. الأمان الوحيد: الشراء من موزع معتمد زي <a href="/anker/cables" style="color:#2563eb;font-weight:600;">قسم كابلات انكر</a> أو <a href="/joyroom/cables" style="color:#2563eb;font-weight:600;">قسم كابلات جوي روم</a> على كايرو فولت بضمان 18 شهر.</p>
+<p>على OLX وFacebook Marketplace في مصر، نسبة كبيرة من الكابلات اللي بتتباع على إنها nylon braided بتطلع إما مقلّدة أو بمواصفات أقل بكتير من المكتوب. الأمان الوحيد: الشراء من متجر موثوق زي <a href="/anker/cables" style="color:#2563eb;font-weight:600;">قسم كابلات انكر</a> أو <a href="/joyroom/cables" style="color:#2563eb;font-weight:600;">قسم كابلات جوي روم</a> على كايرو فولت بضمان 18 شهر مكتوب من المتجر.</p>
 
 <h2>حساب التكلفة الحقيقية — الكابل الرخيص أغلى على المدى البعيد</h2>
 
@@ -222,7 +222,7 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ خلاصة العملية</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        الوصفة: (1) كابل nylon braided واحد من موزع معتمد + (2) خزّنه في درج الأمام + (3) اسحبه من الرأس + (4) متابعش التلف = كابل بيعيش 3 سنين في أقسى ظروف صيف القاهرة.
+        الوصفة: (1) كابل nylon braided واحد من مصدر موثوق + (2) خزّنه في درج الأمام + (3) اسحبه من الرأس + (4) متابعش التلف = كابل بيعيش 3 سنين في أقسى ظروف صيف القاهرة.
     </p>
 </div>`,
         },
@@ -355,7 +355,7 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
     <li style="margin-bottom:14px;">✅ <strong>Markers of genuine quality:</strong> Noticeable weight in the hand, solid metal connector, tight and silky fabric weave, printed warranty card in the packaging.</li>
 </ul>
 
-<p>On OLX and Facebook Marketplace Egypt, the risk of receiving a counterfeit or misrepresented cable is high. The only reliable protection: purchase from an authorized distributor like CairoVolt's <a href="/en/anker/cables" style="color:#2563eb;font-weight:600;">Anker cables section</a> or <a href="/en/joyroom/cables" style="color:#2563eb;font-weight:600;">Joyroom cables section</a> with an 18-month warranty.</p>
+<p>On OLX and Facebook Marketplace Egypt, the risk of receiving a counterfeit or misrepresented cable is high. The only reliable protection: purchase from a trusted store like CairoVolt's <a href="/en/anker/cables" style="color:#2563eb;font-weight:600;">Anker cables section</a> or <a href="/en/joyroom/cables" style="color:#2563eb;font-weight:600;">Joyroom cables section</a> with an 18-month written store warranty.</p>
 
 <h2>True Cost Analysis — The Cheap Cable Is the Expensive Choice</h2>
 

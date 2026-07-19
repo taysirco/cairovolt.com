@@ -182,8 +182,8 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
     <li><strong>عدم الشحن طوال الليل:</strong> افصل السماعة فور اكتمال الشحن وتجنب تركها موصلة بالكهرباء أثناء النوم لتفادي زيادة التحميل الحراري على خلايا البطارية.</li>
 </ul>
 
-<h2>الضمان المعتمد وخدمات الصيانة لوكلاء أنكر بمصر</h2>
-<p>تأتي جميع سماعات سلسلة Soundcore Liberty الأصلية بضمان استبدال معتمد لمدة 18 شهراً ضد عيوب الصناعة من الوكيل الرسمي في مصر. يشمل الضمان فحص السماعة واستبدالها بقطعة جديدة بالكامل في فروع الصيانة المعتمدة (بمناطق مصر الجديدة والمهندسين بالقاهرة، وسموحة بالإسكندرية) في حال ظهور مشاكل في الشحن أو مكبرات الصوت الداخلية. احرص دائماً على الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي الفريد لضمان سريان الضمان وحقوق الصيانة.</p>
+<h2>الضمان المعتمد وخدمات الصيانة في مصر</h2>
+<p>تأتي جميع سماعات سلسلة Soundcore Liberty الأصلية بضمان استبدال مكتوب من متجر كايرو فولت لمدة 18 شهراً ضد عيوب الصناعة في مصر. يشمل الضمان فحص السماعة واستبدالها بقطعة جديدة بالكامل عبر خدمة عملاء كايرو فولت في حال ظهور مشاكل في الشحن أو مكبرات الصوت الداخلية. احرص دائماً على الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي الفريد لضمان سريان الضمان وحقوق الصيانة.</p>
 
 <h2>دليل الاختيار الذكي — أي سماعة تشتري؟</h2>
 <ul>
@@ -326,7 +326,7 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
 </ul>
 
 <h2>Official Local Warranty and Technical Support in Egypt</h2>
-<p>Buyers of all original Soundcore Liberty products in Egypt receive a comprehensive 18-month replacement warranty from the authorized distributor. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or speaker driver failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim at official service centers located in Cairo (Heliopolis, Mohandessin) and Alexandria (Smouha).</p>
+<p>Buyers of all original Soundcore Liberty products in Egypt receive a comprehensive 18-month written store warranty from CairoVolt, an independent online retailer. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or speaker driver failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim through CairoVolt customer support.</p>
 
 <h2>Decision Framework — Which Liberty Model Fits You?</h2>
 <ul>

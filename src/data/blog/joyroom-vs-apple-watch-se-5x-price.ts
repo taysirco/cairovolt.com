@@ -130,7 +130,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
 
 <h2>البطارية — الفارق الأكبر على الإطلاق</h2>
 
-<p>هنا Joyroom بتسحق Apple Watch بلا رحمة. <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> بتدّيك 5-7 أيام على شحنة واحدة — يعني بتشحنها مرة في الأسبوع وبتنسى. Apple Watch SE بطاريتها 18 ساعة — يعني لازم تشحنها كل يوم. ده فرق جوهري في الحياة اليومية.</p>
+<p>هنا Joyroom بتسحق Apple Watch بلا رحمة. <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> بتدّيك 5-7 أيام على شحنة واحدة — يعني بتشحنها مرة في الأسبوع وبتنسى. Apple Watch SE بطاريتها 18 ساعة — يعني لازم تشحنها كل يوم. ده فرق جوهري في الحياة اليومية.</p>
 
 <p>لو بتنام بالساعة عشان تتبع نومك — Apple Watch لازم تشحنها في وقت تاني (الصبح مثلاً). Joyroom بتنام بيها وبتصحى بيها وبتكمّل يومك عادي — لسه فيها بطارية. وده بيفرق كمان لو بتسافر — مش محتاج تاخد الشاحن المخصوص معاك في رحلة weekend.</p>
 
@@ -188,7 +188,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">✅ <strong>اشتري Apple Watch SE لو:</strong> عندك iPhone ومش ناوي تغيره، ميزانيتك مفتوحة، محتاج GPS مدمج للجري، عايز حساسات صحة بدقة طبية، أو بتستخدم Apple Pay.</li>
-    <li style="margin-bottom:16px;">✅ <strong>اشتري <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> لو:</strong> ميزانيتك محدودة، عندك Android أو بتغير موبايلات كتير، عايز بطارية بتعيش أيام مش ساعات، أو ده أول ساعة ذكية ليك وعايز تجرّب من غير ما تدفع كتير.</li>
+    <li style="margin-bottom:16px;">✅ <strong>اشتري <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> لو:</strong> ميزانيتك محدودة، عندك Android أو بتغير موبايلات كتير، عايز بطارية بتعيش أيام مش ساعات، أو ده أول ساعة ذكية ليك وعايز تجرّب من غير ما تدفع كتير.</li>
 </ul>
 
 <p>لمقارنة شاملة بين منتجات Anker و Joyroom بشكل عام — اقرأ <a href="/blog/anker-vs-joyroom-comparison" style="color:#2563eb;">مقارنة أنكر ضد جويروم</a>. ولو بتدوّر على سماعات — اقرأ <a href="/blog/best-bluetooth-earbuds-egypt-2026" style="color:#2563eb;">دليل أفضل سماعات بلوتوث في مصر 2026</a>. ولو ميزانيتك ضيقة — اقرأ <a href="/blog/soundcore-earbuds-under-1000-egp-students" style="color:#2563eb;">أقوى سماعات تحت 1000 جنيه</a>.</p>
@@ -196,7 +196,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ ساعات ذكية واكسسوارات أصلية — على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> أصلية بضمان 12 شهر + توصيل لكل المحافظات + دعم فني واتساب 24/7. ابدأ تجربتك مع الساعات الذكية بسعر عادل — من غير ما تدفع ثمن شعار.
+        <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> أصلية بضمان 12 شهر + توصيل لكل المحافظات + دعم فني واتساب 24/7. ابدأ تجربتك مع الساعات الذكية بسعر عادل — من غير ما تدفع ثمن شعار.
     </p>
 </div>`,
             faq: [
@@ -326,7 +326,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
 
 <h2>Battery — The Single Biggest Differentiator</h2>
 
-<p>Here, Joyroom crushes Apple Watch without mercy. The <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> delivers 5-7 days on a single charge — charge it once a week and forget about it. Apple Watch SE has an 18-hour battery — meaning daily charging is mandatory. This is a fundamental difference in daily life.</p>
+<p>Here, Joyroom crushes Apple Watch without mercy. The <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> delivers 5-7 days on a single charge — charge it once a week and forget about it. Apple Watch SE has an 18-hour battery — meaning daily charging is mandatory. This is a fundamental difference in daily life.</p>
 
 <p>If you wear your watch to bed for sleep tracking — the Apple Watch needs to charge at another time (morning perhaps). The Joyroom goes to bed with you, wakes up with you, and gets through your entire day — still with battery remaining. This also matters for travel — no need to bring the proprietary charger on a weekend trip.</p>
 
@@ -380,7 +380,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">✅ <strong>Buy Apple Watch SE if:</strong> You own an iPhone and plan to keep it, your budget is flexible, you need built-in GPS for running, you want medical-grade health sensors, or you use Apple Pay.</li>
-    <li style="margin-bottom:16px;">✅ <strong>Buy <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> if:</strong> Your budget is limited, you own Android or switch phones frequently, you want battery life measured in days not hours, or this is your first smartwatch and you want to explore without significant financial commitment.</li>
+    <li style="margin-bottom:16px;">✅ <strong>Buy <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> if:</strong> Your budget is limited, you own Android or switch phones frequently, you want battery life measured in days not hours, or this is your first smartwatch and you want to explore without significant financial commitment.</li>
 </ul>
 
 <p>For a broader Anker vs Joyroom comparison — read our <a href="/en/blog/anker-vs-joyroom-comparison" style="color:#2563eb;">Anker vs Joyroom comparison</a>. Looking for earbuds? Check our <a href="/en/blog/best-bluetooth-earbuds-egypt-2026" style="color:#2563eb;">Best Bluetooth Earbuds in Egypt 2026 Guide</a>. On a tight budget? Read <a href="/en/blog/soundcore-earbuds-under-1000-egp-students" style="color:#2563eb;">Best Earbuds Under 1,000 EGP</a>.</p>
@@ -388,7 +388,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Original Smartwatches and Accessories — on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> original with 12-month warranty + delivery across all Egyptian governorates + WhatsApp support 24/7. Start your smartwatch journey at a fair price — without paying for a logo.
+        <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> original with 12-month warranty + delivery across all Egyptian governorates + WhatsApp support 24/7. Start your smartwatch journey at a fair price — without paying for a logo.
     </p>
 </div>`,
             faq: [

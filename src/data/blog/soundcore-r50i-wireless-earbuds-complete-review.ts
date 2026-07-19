@@ -122,7 +122,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 <p>نسيت تشحن السماعة بالليل. الصبح عندك ساعة قبل الخروج. 10 دقايق في الكيس = ساعتين استماع. ده مش مجرد تسويق — دي ميزة معلنة رسمياً في مواصفات الشركة. بالنسبة للكتير من الناس ده هو السبب الوحيد اللي خلّاهم يختاروا R50i.</p>
 
 <h3>السبب الرابع — السعر والقيمة</h3>
-<p>R50i بيجي في نطاق سعر اقتصادي (350-450 جنيه) — ده مش سعر "رخيص بيبان في الجودة". ده سعر يعكس المكونات الحقيقية. المنافسون بنفس السعر بيقدموا بطارية أقل أو IPX4 أو بلوتوث 5.1.</p>
+<p>R50i بيجي في نطاق سعر اقتصادي (حوالي 880 جنيهاً) — ده مش سعر "رخيص بيبان في الجودة". ده سعر يعكس المكونات الحقيقية. المنافسون بنفس السعر بيقدموا بطارية أقل أو IPX4 أو بلوتوث 5.1.</p>
 
 <h2>جودة الصوت — تقييم صادق بدون مبالغة</h2>
 
@@ -165,7 +165,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 
 <p>صُنعت علبة السماعة من بلاستيك البوليكربونات المقوى المعالج بطلاء مطفي. هذا الاختيار الهندسي للمواد يحميها من التشرخ أو الخدوش العميقة عند سقوطها العرضي على الأرضيات الصلبة مثل البلاط أو الأسفلت. بالإضافة إلى ذلك، فإن القطع المغناطيسية الداخلية التي تثبت السماعات في مكانها قوية بما يكفي لمنع خروج السماعات وتناثرها في الشارع عند سقوط علبة الشحن وهي مغلقة.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات أنكر أصلية 100% بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">سماعات أصلية قابلة للتخصيص: <a href="/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الأساسية</a> · <a href="/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات أنكر أصلية 100% بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">سماعات أصلية قابلة للتخصيص: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الأساسية</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a>.</p></div>
 
 <h2>جودة المكالمات — صادقون معك</h2>
 
@@ -203,7 +203,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
     </tbody>
 </table>
 
-<p>لو المكالمات مهمة جداً في بيئة صاخبة — <a href="/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">R50i NC</a> أفضل بشكل محسوس بسبب الميكروفونات الإضافية.</p>
+<p>لو المكالمات مهمة جداً في بيئة صاخبة — <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">R50i NC</a> أفضل بشكل محسوس بسبب الميكروفونات الإضافية.</p>
 
 <h2>العيوب الحقيقية — بدون تجميل</h2>
 
@@ -275,7 +275,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Soundcore R50i أصلية بضمان 18 شهر — كايرو فولت.كوم</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        متاحة على كايرو فولت.كوم بضمان حقيقي يشمل عيوب التصنيع والبطارية. توصيل لكل المحافظات + دفع عند الاستلام. اشتري من الموزع الرسمي واطمن.
+        متاحة على كايرو فولت.كوم بضمان حقيقي يشمل عيوب التصنيع والبطارية. توصيل لكل المحافظات + دفع عند الاستلام. اشتري بضمان المتجر المكتوب واطمن.
     </p>
 </div>`,
             faq: [
@@ -413,7 +413,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
     <li style="margin-bottom:8px;"><strong>Long-session comfort:</strong> Too large creates pressure, too small falls out. Medium is best for extended wear.</li>
 </ul>
 
-<p>In our testing: 4 hours of continuous listening — no notable discomfort. Beyond 5 hours, some users report slight fatigue. This is normal for any in-ear design.</p>
+<p>In published hands-on reviews: 4 hours of continuous listening — no notable discomfort. Beyond 5 hours, some users report slight fatigue. This is normal for any in-ear design.</p>
 
 <h2>Call Quality — Being Honest With You</h2>
 
@@ -465,7 +465,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 
 <p>The charging case and earbuds are constructed from a durable, impact-resistant polycarbonate blend treated with a textured matte finish. This engineering choice helps the device survive accidental drops on hard concrete or tiled floors without cracking the housing. Furthermore, the internal magnets anchoring the earbuds inside their slots are strong enough to prevent them from flying out and rolling into street grates if the case drops while closed.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore earbuds: <a href="/en/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore earbuds: <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a>.</p></div>
 
 <h2>Real Cons — No Glossing Over</h2>
 
@@ -486,12 +486,12 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 <li><strong>Perform a Factory Reset:</strong> If the left and right earbuds lose synchronization, place both buds inside the charging case and keep the lid open. Press and hold the touch sensor areas on both earbuds simultaneously for 10 seconds until the LED indicators flash red three times. Remove them from the case and pair them again with your device.</li>
 </ul>
 
-<p>This troubleshooting process takes less than five minutes but resolves over 90% of reported issues. Keeping the charging pins clean also prevents long-term oxidation, which is accelerated by high temperatures and moisture. Buying from an authorized source like CairoVolt ensures you receive a factory-sealed box with all original components, including the custom lanyard and official Type-C charging cable.</p>
+<p>This troubleshooting process takes less than five minutes but resolves over 90% of reported issues. Keeping the charging pins clean also prevents long-term oxidation, which is accelerated by high temperatures and moisture. Buying from a trusted source like CairoVolt ensures you receive a factory-sealed box with all original components, including the custom lanyard and official Type-C charging cable.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic Soundcore R50i with 18-Month Warranty — CairoVolt.com</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Available on CairoVolt.com with a real warranty covering manufacturing defects and battery issues. Delivery to all governorates + cash on delivery. Buy from the official distributor with confidence.
+        Available on CairoVolt.com with a real warranty covering manufacturing defects and battery issues. Delivery to all governorates + cash on delivery. Buy with confidence — backed by CairoVolt's written store warranty.
     </p>
 </div>`,
             faq: [

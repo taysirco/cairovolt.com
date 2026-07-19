@@ -60,7 +60,7 @@ export const iphone_14_pro_max_airpods_alternative_charger: BlogArticle = {
 <p>سماعة الـ AirPods Pro ممتازة، ولكن إذا كنت تريد بديلاً ذكياً لا يؤثر على ميزانيتك، فإليك الترشيحات المعتمدة:</p>
 
 <h3>1. سماعة جويروم Joyroom JR-T03S Pro</h3>
-<p>تعتبر سماعة <a href="/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">جويروم JR-T03S Pro</a> هي البديل الأكثر شهرة ونجاحاً في مصر لعدة أسباب:</p>
+<p>تعتبر سماعة <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">جويروم JR-T03S Pro</a> هي البديل الأكثر شهرة ونجاحاً في مصر لعدة أسباب:</p>
 <ul style="line-height:1.8;">
     <li>🔋 <strong>التوافق الكامل مع نظام iOS:</strong> بفضل شريحة البلوتوث المتقدمة، تتعرف عليها هواتف الايفون فوراً وتظهر نافذة الاتصال المنبثقة (Pop-up Animation) لتعرض نسبة شحن السماعات بدقة.</li>
     <li>🎵 <strong>جودة الصوت وتصميم مريح:</strong> تقدم السماعة صوتاً نقياً مع استجابة باس (Bass) ممتازة، وتأتي مع غيارات أذن سيليكون مطابقة للتصميم الأصلي، مما يوفر عزلاً سلبياً جيداً جداً للضوضاء المحيطة.</li>
@@ -120,7 +120,7 @@ export const iphone_14_pro_max_airpods_alternative_charger: BlogArticle = {
         <tr style="background: #fdf2f8;">
             <td style="border:1px solid #d1d5db;padding:12px;font-weight:600;">سماعات لاسلكية</td>
             <td style="border:1px solid #d1d5db;padding:12px;">AirPods Pro (~ 12,000 EGP)</td>
-            <td style="border:1px solid #d1d5db;padding:12px;"><a href="/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;">Joyroom JR-T03S Pro</a></td>
+            <td style="border:1px solid #d1d5db;padding:12px;"><a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;">Joyroom JR-T03S Pro</a></td>
             <td style="border:1px solid #d1d5db;padding:12px;color:#16a34a;font-weight:600;">90% (تطابق كامل بالـ iOS والتحكم)</td>
         </tr>
         <tr>
@@ -181,7 +181,7 @@ export const iphone_14_pro_max_airpods_alternative_charger: BlogArticle = {
 <p>If you want a premium wireless audio experience without the high price tag of AirPods Pro, consider these options:</p>
 
 <h3>Joyroom JR-T03S Pro</h3>
-<p>The <a href="/en/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro</a> is a popular alternative in Egypt for several reasons:</p>
+<p>The <a href="/en/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro</a> is a popular alternative in Egypt for several reasons:</p>
 <ul style="line-height:1.8;">
     <li>🔋 <strong>Seamless iOS Integration:</strong> Equipped with a specialized bluetooth chip, it triggers the official pairing pop-up and displays accurate battery levels for the earbuds and case.</li>
     <li>🎵 <strong>Sound Quality and Ergonomics:</strong> It delivers clear audio with strong bass and includes multiple silicone ear tips for passive noise isolation.</li>
@@ -241,7 +241,7 @@ export const iphone_14_pro_max_airpods_alternative_charger: BlogArticle = {
         <tr style="background: #fdf2f8;">
             <td style="border:1px solid #d1d5db;padding:12px;font-weight:600;">Wireless Earbuds</td>
             <td style="border:1px solid #d1d5db;padding:12px;">AirPods Pro (~ 12,000 EGP)</td>
-            <td style="border:1px solid #d1d5db;padding:12px;"><a href="/en/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;">Joyroom JR-T03S Pro</a></td>
+            <td style="border:1px solid #d1d5db;padding:12px;"><a href="/en/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;">Joyroom JR-T03S Pro</a></td>
             <td style="border:1px solid #d1d5db;padding:12px;color:#16a34a;font-weight:600;">90% (Pop-up animation and control match)</td>
         </tr>
         <tr>

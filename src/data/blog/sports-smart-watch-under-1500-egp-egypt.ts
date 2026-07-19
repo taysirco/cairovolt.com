@@ -35,7 +35,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أهم 3 معايير: مقاومة مياه IP68+، حساس نبض قلب أثناء التمرين، وبطارية 4+ أيام. تحت 1500 جنيه — <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> أقوى اختيار شامل: بطارية 5-7 أيام + IP68 + 100+ وضع رياضي.
+        <strong>💡 الإجابة السريعة:</strong> أهم 3 معايير: مقاومة مياه IP68+، حساس نبض قلب أثناء التمرين، وبطارية 4+ أيام. تحت 1500 جنيه — <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> أقوى اختيار شامل: بطارية 5-7 أيام + IP68 + 100+ وضع رياضي.
     </p>
 </div>
 
@@ -79,7 +79,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
 
 <h2>التوصية #1 — Joyroom FT3: أفضل توازن شامل</h2>
 
-<p><a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> بتجمع بين كل حاجة بتحتاجها في ساعة رياضية بسعر معقول: شاشة 1.85 بوصة كبيرة وواضحة بتقرأها أثناء التمرين، بطارية 5-7 أيام (مش هتحتاج تشحنها قبل كل جيم)، 100+ وضع رياضي يغطي كل حاجة من الجري لليوغا لكرة القدم، وحساس نبض قلب real-time بيتتبع أداءك طول التمرين.</p>
+<p><a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> بتجمع بين كل حاجة بتحتاجها في ساعة رياضية بسعر معقول: شاشة 1.85 بوصة كبيرة وواضحة بتقرأها أثناء التمرين، بطارية 5-7 أيام (مش هتحتاج تشحنها قبل كل جيم)، 100+ وضع رياضي يغطي كل حاجة من الجري لليوغا لكرة القدم، وحساس نبض قلب real-time بيتتبع أداءك طول التمرين.</p>
 
 <p>الميزة الإضافية: بتدعم مكالمات بلوتوث — يعني لو حد كلّمك وإنت في الجيم تقدر تردّ من إيدك من غير ما تطلع موبايلك. وده بيفرق لو موبايلك في اللوكر. IP68 بتتحمل العرق والمطر والوضوء — بس مش للسباحة الفعلية.</p>
 
@@ -151,7 +151,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ ساعات ذكية رياضية أصلية — على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> أصلية بضمان 12 شهر — 100+ وضع رياضي + مقاومة مياه + نبض قلب real-time. توصيل لكل المحافظات + دعم فني واتساب 24/7.
+        <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> أصلية بضمان 12 شهر — 100+ وضع رياضي + مقاومة مياه + نبض قلب real-time. توصيل لكل المحافظات + دعم فني واتساب 24/7.
     </p>
 </div>`,
             faq: [
@@ -186,7 +186,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Top 3 criteria: IP68+ water resistance, real-time HR during workouts, and 4+ day battery. Under 1,500 EGP — <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> is the strongest all-round choice: 5-7 day battery + IP68 + 100+ sport modes.
+        <strong>💡 Quick Answer:</strong> Top 3 criteria: IP68+ water resistance, real-time HR during workouts, and 4+ day battery. Under 1,500 EGP — <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> is the strongest all-round choice: 5-7 day battery + IP68 + 100+ sport modes.
     </p>
 </div>
 
@@ -230,7 +230,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
 
 <h2>Recommendation #1 — Joyroom FT3: Best Overall Balance</h2>
 
-<p>The <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> combines everything you need in a sports watch at a reasonable price: a large 1.85-inch screen that is readable during workouts, 5-7 day battery (no pre-gym charging anxiety), 100+ sport modes covering everything from running to yoga to football, and a real-time heart rate sensor that tracks your performance throughout the workout.</p>
+<p>The <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> combines everything you need in a sports watch at a reasonable price: a large 1.85-inch screen that is readable during workouts, 5-7 day battery (no pre-gym charging anxiety), 100+ sport modes covering everything from running to yoga to football, and a real-time heart rate sensor that tracks your performance throughout the workout.</p>
 
 <p>The bonus feature: it supports Bluetooth calls — meaning if someone calls you while at the gym, you can answer from your wrist without retrieving your phone from the locker. IP68 handles sweat, rain, and hand washing — but not actual swimming.</p>
 
@@ -277,7 +277,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Original Sports Smartwatches — on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> original with 12-month warranty — 100+ sport modes + water resistance + real-time heart rate. Delivery across all Egyptian governorates + WhatsApp support 24/7.
+        <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> original with 12-month warranty — 100+ sport modes + water resistance + real-time heart rate. Delivery across all Egyptian governorates + WhatsApp support 24/7.
     </p>
 </div>`,
             faq: [

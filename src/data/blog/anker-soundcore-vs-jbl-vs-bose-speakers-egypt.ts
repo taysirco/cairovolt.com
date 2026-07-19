@@ -45,7 +45,7 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
 
 <p><strong>JBL:</strong> معروفة بصوت الباص القوي والعميق. لو بتسمع هيب هوب أو إلكترونيك أو شعبي — JBL بتديك باص يهزّ الأرض. بس الأصوات العالية (treble) أحياناً بتكون أقل وضوحاً مقارنة بـ Bose. الصوت بشكل عام ممتاز ومناسب للحفلات والتجمعات.</p>
 
-<p><strong>Soundcore:</strong> المفاجأة. سماعات Soundcore المتقدمة زي <a href="/anker/speakers/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">Motion Plus</a> بتقدم صوت قريب جداً من JBL — وأحياناً أفضل في الـ treble والوضوح. فيها تطبيق (Soundcore App) بيخلّيك تعدّل الـ EQ حسب ذوقك — وده ميزة مش موجودة في كل سماعات JBL بنفس السعر. هل هي أفضل من Bose؟ لا. بس هل الفرق يستاهل 3 أضعاف السعر؟ لمعظم الناس — لا.</p>
+<p><strong>Soundcore:</strong> المفاجأة. سماعات Soundcore المتقدمة زي <a href="/soundcore/speakers/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">Motion Plus</a> بتقدم صوت قريب جداً من JBL — وأحياناً أفضل في الـ treble والوضوح. فيها تطبيق (Soundcore App) بيخلّيك تعدّل الـ EQ حسب ذوقك — وده ميزة مش موجودة في كل سماعات JBL بنفس السعر. هل هي أفضل من Bose؟ لا. بس هل الفرق يستاهل 3 أضعاف السعر؟ لمعظم الناس — لا.</p>
 
 <h2>الجولة التانية — السعر في مصر</h2>
 
@@ -77,13 +77,13 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
     <li style="margin-bottom:10px;">🔋 <strong>Bose SoundLink Flex:</strong> حتى 12 ساعة — نفس الرقم تقريباً.</li>
 </ul>
 
-<p>في البطارية — التلات ماركات متقاربين في الأرقام الرسمية (10-12 ساعة). بس Soundcore عندها ميزة إضافية: شواحنها من انكر — يعني لو عندك <a href="/anker/chargers" style="color:#2563eb;">شاحن انكر</a> أصلاً — بتشحن السماعة بنفس الكابل والشاحن. مفيش حاجة إضافية تشتريها. وده بيوفّر فلوس ومساحة — خصوصاً في السفر.</p>
+<p>في البطارية — التلات ماركات متقاربين في الأرقام الرسمية (10-12 ساعة). بس Soundcore عندها ميزة إضافية: شواحنها من انكر — يعني لو عندك <a href="/anker/wall-chargers" style="color:#2563eb;">شاحن انكر</a> أصلاً — بتشحن السماعة بنفس الكابل والشاحن. مفيش حاجة إضافية تشتريها. وده بيوفّر فلوس ومساحة — خصوصاً في السفر.</p>
 
 <h2>الجولة الرابعة — مقاومة المياه والمتانة</h2>
 
 <p><strong>JBL:</strong> الأقوى في المتانة. معظم سماعات JBL المحمولة فيها تصنيف IP67 — يعني مقاومة للغبار والغمر في المياه لعمق متر لمدة 30 دقيقة. مثالية للبحر والحمام السباحة والمطر. بعض الموديلات زي JBL Xtreme بتطفو على المياه كمان.</p>
 
-<p><strong>Soundcore:</strong> معظمها IPX7 (مقاومة للغمر في المياه بدون حماية من الغبار) أو IP67 في الموديلات المتقدمة. <a href="/anker/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Soundcore Flare 2</a> مثلاً عندها IPX7 — كافية للبحر والمسبح. ومعظم الاستخدامات العملية مش محتاجة أكتر من كده.</p>
+<p><strong>Soundcore:</strong> معظمها IPX7 (مقاومة للغمر في المياه بدون حماية من الغبار) أو IP67 في الموديلات المتقدمة. <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Soundcore Flare 2</a> مثلاً عندها IPX7 — كافية للبحر والمسبح. ومعظم الاستخدامات العملية مش محتاجة أكتر من كده.</p>
 
 <p><strong>Bose:</strong> IP67 في معظم الموديلات الحديثة. ممتازة في مقاومة المياه بس السعر بيخلّيك تخاف تاخدها للبحر 😅. عملياً — لو هتستخدم السماعة في ظروف قاسية (رمل، مياه، حرارة) — JBL أو Soundcore أنسب لأن لو حصلها حاجة — التكلفة أقل بكتير.</p>
 
@@ -92,7 +92,7 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
 <p>ده عامل مهم جداً ناس كتير بتنساه:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>Soundcore (انكر):</strong> متوفرة في مصر من موزعين معتمدين زي كايرو فولت — بضمان حقيقي 18 شهر وقطع غيار وصيانة. لو حصلت مشكلة — في حد بيرد عليك بالعربي ويحلها.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Soundcore (انكر):</strong> متوفرة في مصر من متاجر موثوقة زي كايرو فولت — بضمان متجر مكتوب 18 شهر وقطع غيار وصيانة. لو حصلت مشكلة — في حد بيرد عليك بالعربي ويحلها.</li>
     <li style="margin-bottom:12px;">⚠️ <strong>JBL:</strong> متوفرة بشكل واسع — بس خلّي بالك من الأنواع المقلّدة (كتيرة جداً في السوق المصري). الأصلي موجود عند الموزعين الرسميين بس السعر بيكون أعلى. الضمان يعتمد على مكان الشراء — مش كل البائعين بيديك ضمان حقيقي.</li>
     <li style="margin-bottom:12px;">⚠️ <strong>Bose:</strong> التوافر محدود في مصر ومعظم المنتجات بتتجاب من بره (Amazon أو أمريكا/أوروبا). الضمان الدولي ممكن يكون صعب تفعيله من مصر. ولو حصلت مشكلة — مفيش مركز صيانة رسمي قريب.</li>
 </ul>
@@ -128,8 +128,8 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🎵 <strong>عايز أحسن صوت ممكن والفلوس مش مشكلة:</strong> Bose — مفيش كلام. بس اتأكد إنك بتشتري من مصدر موثوق بضمان. ومتنساش إن الصيانة في مصر صعبة لو حصلت مشكلة.</li>
     <li style="margin-bottom:12px;">🏖️ <strong>عايز سماعة للبحر والرحلات ومتحمّلة:</strong> JBL — المتانة ومقاومة المياه بتاعتها مش بتتغلب. بس اشتري من موزع رسمي عشان تتأكد إنها أصلية. السوق المصري مليان تقليد JBL — وده مشكلة كبيرة.</li>
-    <li style="margin-bottom:12px;">💰 <strong>عايز أفضل قيمة مقابل السعر (وده أغلب الناس):</strong> Soundcore — 85-90% من جودة المنافسين بنصف السعر. ضمان حقيقي في مصر. ومتوفرة بسهولة من موزعين معتمدين.</li>
-    <li style="margin-bottom:12px;">🎧 <strong>سماعات أذن لاسلكية بميزانية معقولة:</strong> Soundcore بلا منازع. <a href="/anker/earbuds" style="color:#2563eb;">سماعات انكر</a> زي R50i و Liberty بتقدم صوت وعزل ممتاز بسعر أقل من نصف سعر JBL وربع سعر Bose.</li>
+    <li style="margin-bottom:12px;">💰 <strong>عايز أفضل قيمة مقابل السعر (وده أغلب الناس):</strong> Soundcore — 85-90% من جودة المنافسين بنصف السعر. ضمان متجر مكتوب حقيقي في مصر. ومتوفرة بسهولة من متاجر موثوقة.</li>
+    <li style="margin-bottom:12px;">🎧 <strong>سماعات أذن لاسلكية بميزانية معقولة:</strong> Soundcore بلا منازع. <a href="/soundcore/audio" style="color:#2563eb;">سماعات انكر</a> زي R50i و Liberty بتقدم صوت وعزل ممتاز بسعر أقل من نصف سعر JBL وربع سعر Bose.</li>
     <li style="margin-bottom:12px;">🏠 <strong>عايز سماعة للبيت (غرفة المعيشة أو المطبخ):</strong> Soundcore Flare 2 — بتدّي صوت 360 درجة بإضاءة LED ملونة. شكلها حلو في البيت وسعرها معقول. ومقاومة للمياه — يعني ممكن تحطها في المطبخ وأنت بتطبخ.</li>
     <li style="margin-bottom:12px;">🎁 <strong>عايز هدية حد:</strong> Soundcore أفضل خيار — سعرها مناسب وشكلها محترم والعلبة شيك. الشخص اللي بتهديه هيفرح بجودة الصوت وميحسش إنك اشتريت حاجة رخيصة.</li>
 </ul>
@@ -138,12 +138,12 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
 
 <p>لو بتقارن جودة الصوت بس — Bose بتكسب. بس لو بتقارن القيمة الإجمالية (صوت + سعر + بطارية + ضمان في مصر + توافر + ميزات إضافية) — <strong>Soundcore بتكسب بفارق كبير</strong>. ده مش رأي — ده حساب بسيط: سماعة بـ 1,500 جنيه بتدّي 85% من أداء سماعة بـ 5,000 جنيه. الـ 15% الزيادة بتكلّفك 3,500 جنيه إضافية. ومعظم الناس مش هيلاحظوا الفرق ده إلا بسماعات استوديو في غرفة معزولة صوتياً.</p>
 
-<p>والأهم: Soundcore عندها ضمان حقيقي في مصر من انكر — وده شيء JBL مش دايماً بتقدمه (بسبب المقلّدين الكتير في السوق) وBose مش بتقدمه أصلاً محلياً. ولو حصلت مشكلة في سماعة Soundcore — بتتصل بالموزع المعتمد وبيتحل الموضوع. لو حصلت مشكلة في Bose — بتبعتها بره مصر على حسابك وتستنى أسابيع. وده فرق عملي مهم جداً مش بيتقال في المراجعات الأجنبية — لأنهم مش بيعيشوا في مصر.</p>
+<p>والأهم: Soundcore بتلاقي لها ضمان متجر مكتوب حقيقي في مصر — وده شيء JBL مش دايماً بتقدمه (بسبب المقلّدين الكتير في السوق) وBose مش بتقدمه أصلاً محلياً. ولو حصلت مشكلة في سماعة Soundcore — بتتصل بالمتجر اللي اشتريت منه وبيتحل الموضوع. لو حصلت مشكلة في Bose — بتبعتها بره مصر على حسابك وتستنى أسابيع. وده فرق عملي مهم جداً مش بيتقال في المراجعات الأجنبية — لأنهم مش بيعيشوا في مصر.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/speakers" style="color:#2563eb;font-weight:600;">سماعات Soundcore</a> المحمولة — صوت ممتاز، مقاومة مياه، وبطارية طويلة بسعر معقول. و<a href="/anker/earbuds" style="color:#2563eb;font-weight:600;">سماعات الأذن اللاسلكية</a> — عزل ضوضاء وجودة صوت بأقل من نصف سعر المنافسين. ضمان 18 شهر + توصيل لكل المحافظات.
+        <a href="/soundcore/speakers" style="color:#2563eb;font-weight:600;">سماعات Soundcore</a> المحمولة — صوت ممتاز، مقاومة مياه، وبطارية طويلة بسعر معقول. و<a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">سماعات الأذن اللاسلكية</a> — عزل ضوضاء وجودة صوت بأقل من نصف سعر المنافسين. ضمان 18 شهر + توصيل لكل المحافظات.
     </p>
 </div>`,
             faq: [
@@ -188,7 +188,7 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
 
 <p><strong>JBL:</strong> Known for strong, deep bass. If you listen to hip hop, electronic, or Arabic pop — JBL delivers bass that shakes the floor. But treble is sometimes less clear compared to Bose. Overall sound is excellent and perfect for parties and gatherings.</p>
 
-<p><strong>Soundcore:</strong> The surprise. Advanced Soundcore speakers like the <a href="/en/anker/speakers/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">Motion Plus</a> deliver sound very close to JBL — and sometimes better in treble and clarity. They include an app (Soundcore App) that lets you customize the EQ to your taste — a feature not available on all JBL speakers at the same price. Is it better than Bose? No. But is the difference worth 3x the price? For most people — no.</p>
+<p><strong>Soundcore:</strong> The surprise. Advanced Soundcore speakers like the <a href="/en/soundcore/speakers/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">Motion Plus</a> deliver sound very close to JBL — and sometimes better in treble and clarity. They include an app (Soundcore App) that lets you customize the EQ to your taste — a feature not available on all JBL speakers at the same price. Is it better than Bose? No. But is the difference worth 3x the price? For most people — no.</p>
 
 <h2>Round 2 — Price in Egypt</h2>
 
@@ -220,13 +220,13 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
     <li style="margin-bottom:10px;">🔋 <strong>Bose SoundLink Flex:</strong> Up to 12 hours — roughly the same.</li>
 </ul>
 
-<p>In battery life — all three brands are close in official numbers (10-12 hours). But Soundcore has an extra advantage: its chargers are from Anker — meaning if you already own an <a href="/en/anker/chargers" style="color:#2563eb;">Anker charger</a>, you charge the speaker with the same cable and charger. Nothing extra to buy. This saves money and space — especially when traveling.</p>
+<p>In battery life — all three brands are close in official numbers (10-12 hours). But Soundcore has an extra advantage: its chargers are from Anker — meaning if you already own an <a href="/en/anker/wall-chargers" style="color:#2563eb;">Anker charger</a>, you charge the speaker with the same cable and charger. Nothing extra to buy. This saves money and space — especially when traveling.</p>
 
 <h2>Round 4 — Water Resistance and Durability</h2>
 
 <p><strong>JBL:</strong> Strongest in durability. Most portable JBL speakers carry an IP67 rating — meaning dust-proof and waterproof for submersion up to 1 meter for 30 minutes. Perfect for the beach, swimming pools, and rain. Some models like JBL Xtreme even float on water.</p>
 
-<p><strong>Soundcore:</strong> Most models are IPX7 (water submersion resistant without dust protection) or IP67 in advanced models. The <a href="/en/anker/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Soundcore Flare 2</a> for example has IPX7 — sufficient for beach and pool use. And most practical use cases don't need more than that.</p>
+<p><strong>Soundcore:</strong> Most models are IPX7 (water submersion resistant without dust protection) or IP67 in advanced models. The <a href="/en/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Soundcore Flare 2</a> for example has IPX7 — sufficient for beach and pool use. And most practical use cases don't need more than that.</p>
 
 <p><strong>Bose:</strong> IP67 in most modern models. Excellent water resistance but the price makes you nervous about taking it to the beach 😅. Practically — if you'll use the speaker in harsh conditions (sand, water, heat) — JBL or Soundcore are more suitable because if something happens, the replacement cost is much lower.</p>
 
@@ -235,7 +235,7 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
 <p>This is a very important factor many people forget:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>Soundcore (Anker):</strong> Available in Egypt from authorized distributors like CairoVolt — with real 18-month warranty, spare parts, and service. If there's a problem — there's someone who responds in Arabic and resolves it.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Soundcore (Anker):</strong> Available in Egypt from trusted retailers like CairoVolt — with a real written 18-month store warranty, spare parts, and service. If there's a problem — there's someone who responds in Arabic and resolves it.</li>
     <li style="margin-bottom:12px;">⚠️ <strong>JBL:</strong> Widely available — but watch out for counterfeits (very common in the Egyptian market). Originals are at official distributors but at higher prices. Warranty depends on where you buy — not all sellers offer real warranty.</li>
     <li style="margin-bottom:12px;">⚠️ <strong>Bose:</strong> Limited availability in Egypt — most products are imported from abroad (Amazon or US/Europe). International warranty can be difficult to activate from Egypt. And if there's a problem — there's no nearby official service center.</li>
 </ul>
@@ -272,7 +272,7 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
     <li style="margin-bottom:12px;">🎵 <strong>Want the best possible sound and money's no issue:</strong> Bose — no contest. But make sure you buy from a trusted source with warranty.</li>
     <li style="margin-bottom:12px;">🏖️ <strong>Want a speaker for beach, trips, and durability:</strong> JBL — their ruggedness and water resistance are unmatched. But buy from an official distributor to ensure authenticity.</li>
     <li style="margin-bottom:12px;">💰 <strong>Want the best value for money (this is most people):</strong> Soundcore — 85-90% of competitors' quality at half the price. Real warranty in Egypt. And easily available.</li>
-    <li style="margin-bottom:12px;">🎧 <strong>True wireless earbuds on a reasonable budget:</strong> Soundcore without contest. <a href="/en/anker/earbuds" style="color:#2563eb;">Anker earbuds</a> like R50i and Liberty deliver excellent sound and noise isolation at less than half JBL's price and a quarter of Bose's.</li>
+    <li style="margin-bottom:12px;">🎧 <strong>True wireless earbuds on a reasonable budget:</strong> Soundcore without contest. <a href="/en/soundcore/audio" style="color:#2563eb;">Anker earbuds</a> like R50i and Liberty deliver excellent sound and noise isolation at less than half JBL's price and a quarter of Bose's.</li>
 </ul>
 
 <h2>The Bottom Line — The Price Competition Isn't Fair</h2>
@@ -284,7 +284,7 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/speakers" style="color:#2563eb;font-weight:600;">Soundcore portable speakers</a> — excellent sound, water resistance, and long battery at a reasonable price. And <a href="/en/anker/earbuds" style="color:#2563eb;font-weight:600;">wireless earbuds</a> — noise isolation and sound quality at less than half the competitors' price. 18-month warranty + delivery to all governorates.
+        <a href="/en/soundcore/speakers" style="color:#2563eb;font-weight:600;">Soundcore portable speakers</a> — excellent sound, water resistance, and long battery at a reasonable price. And <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">wireless earbuds</a> — noise isolation and sound quality at less than half the competitors' price. 18-month warranty + delivery to all governorates.
     </p>
 </div>`,
             faq: [

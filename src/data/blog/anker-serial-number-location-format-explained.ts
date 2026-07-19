@@ -79,7 +79,7 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">
         <strong>المكان الأول — الجهة الخلفية للشاحن:</strong> دوّر على ملصق صغير أو نص محفور على البلاستيك نفسه. الخط بيكون صغير جداً — ممكن تحتاج تستخدم كاميرا الموبايل بوضع التكبير.
-        على شاحن زي <a href="/anker/chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741</a> هتلاقي "Model: A2741" وتحته مباشرة "S/N: XXXXXXXXXXXX".
+        على شاحن زي <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741</a> هتلاقي "Model: A2741" وتحته مباشرة "S/N: XXXXXXXXXXXX".
     </li>
     <li style="margin-bottom:16px;">
         <strong>المكان الثاني — داخل العلبة:</strong> ملصق أبيض على الجهة الداخلية من الغطاء أو على ورقة التعليمات. بيكون واضح أكتر من اللي على المنتج.
@@ -175,9 +175,9 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 
 <h2>لماذا يعد ضمان الـ 18 شهراً من كايرو فولت حيوياً؟</h2>
 
-<p>التحقق الرقمي عبر موقع anker.com/verify يخبرك إذا كان الرقم حقيقياً، ولكنه لا يضمن أن البائع لم ينسخ رقماً حقيقياً واحداً على آلاف العلب المقلدة. هنا يأتي دور الفاتورة الضريبية الرسمية من الموزع المعتمد مثل كايرو فولت. الفاتورة تسجل الرقم التسلسلي للمنتج الذي اشتريته بشكل رسمي، وهو ما يضمن حقك القانوني والتقني الكامل في استبدال الشاحن فوراً بمنتج جديد بضمان 18 شهراً لو ظهر به أي عيب، دون الدخول في جدال مع بائعي السوق الموازي.</p>
+<p>التحقق الرقمي عبر موقع anker.com/verify يخبرك إذا كان الرقم حقيقياً، ولكنه لا يضمن أن البائع لم ينسخ رقماً حقيقياً واحداً على آلاف العلب المقلدة. هنا يأتي دور الفاتورة الضريبية الرسمية من متجر موثوق مثل كايرو فولت. الفاتورة تسجل الرقم التسلسلي للمنتج الذي اشتريته بشكل رسمي، وهو ما يضمن حقك القانوني والتقني الكامل في استبدال الشاحن فوراً بمنتج جديد بضمان 18 شهراً لو ظهر به أي عيب، دون الدخول في جدال مع بائعي السوق الموازي.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات أنكر أصلية 100% بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن أصلية قابلة للتحقق: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن أنكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن أنكر 45 واط بشاشة</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل أنكر الأصلي USB-C</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات أنكر أصلية 100% بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن أصلية قابلة للتحقق: <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن أنكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن أنكر 45 واط بشاشة</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل أنكر الأصلي USB-C</a>.</p></div>
 
 <h2>إزاي تستخدم السيريال نمبر للتحقق</h2>
 
@@ -218,7 +218,7 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 لأ. الضمان مش مرتبط بالملصق نفسه — مرتبط بالفاتورة وتاريخ الشراء. بس حاول تحافظ على الملصق مقروء للتحقق مستقبلاً.</p>
 
 <p><strong>لو المنتج جديد ومش مسجّل على anker.com — ده يعني إيه؟</strong><br>
-ممكن يعني إن السيريال "محجوز" ومش نُشر للعموم بعد (نادر). أو إن المنتج مقلّد. في الحالتين، تواصل مع بائع الأصلي (كايرو فولت مثلاً) وأخبره — الموزع الرسمي يقدر يتحقق من الجانب التاني.</p>
+ممكن يعني إن السيريال "محجوز" ومش نُشر للعموم بعد (نادر). أو إن المنتج مقلّد. في الحالتين، تواصل مع بائع الأصلي (كايرو فولت مثلاً) وأخبره — البائع الموثوق يقدر يتحقق من الجانب التاني.</p>
 
 <p><strong>هل السيريال نمبر موجود على التليفون بعد مسح العلبة؟</strong><br>
 بالنسبة للشواحن والباور بانكات — نعم، السيريال موجود على الجهاز نفسه (ظهر أو تحت). العلبة مش ضرورية للتحقق لو المنتج عندك.</p>
@@ -300,7 +300,7 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">
-        <strong>Location #1 — Back of the charger:</strong> Look for a small sticker or text engraved into the plastic itself. The text will be very small — you may need to use your phone camera's zoom. On a charger like the <a href="/en/anker/chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741</a>, you will find "Model: A2741" with "S/N: XXXXXXXXXXXX" directly below it.
+        <strong>Location #1 — Back of the charger:</strong> Look for a small sticker or text engraved into the plastic itself. The text will be very small — you may need to use your phone camera's zoom. On a charger like the <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741</a>, you will find "Model: A2741" with "S/N: XXXXXXXXXXXX" directly below it.
     </li>
     <li style="margin-bottom:16px;">
         <strong>Location #2 — Inside the box:</strong> A white sticker on the inside of the lid or on the instruction paper. This is usually easier to read than what is on the product itself.
@@ -401,9 +401,9 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 
 <h2>Why Tax Invoices Complement Digital Verification</h2>
 
-<p>While verification at anker.com/verify confirms that a serial number is mathematically valid and exists in Anker's database, it cannot prevent a counterfeiter from printing that single valid serial number on thousands of fake boxes. This is why a formal tax invoice from an authorized distributor like CairoVolt is essential. The invoice officially registers your unique serial number to your transaction, giving you undisputed legal and technical grounds to claim your 18-month replacement warranty if a defect arises.</p>
+<p>While verification at anker.com/verify confirms that a serial number is mathematically valid and exists in Anker's database, it cannot prevent a counterfeiter from printing that single valid serial number on thousands of fake boxes. This is why a formal tax invoice from a trusted retailer like CairoVolt is essential. The invoice officially registers your unique serial number to your transaction, giving you undisputed legal and technical grounds to claim your 18-month replacement warranty if a defect arises.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Anker chargers: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Wall Charger</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Genuine Anker chargers: <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Wall Charger</a>.</p></div>
 
 <h2>What to Do If the Serial Number Is Damaged or Unreadable?</h2>
 <p>Sometimes, after months of heavy use, the serial number sticker may wear out, or the laser-etched text on the charger or power bank might fade due to friction in bags or pockets. If you encounter this issue and need to verify authenticity or make a warranty claim, follow these steps:</p>

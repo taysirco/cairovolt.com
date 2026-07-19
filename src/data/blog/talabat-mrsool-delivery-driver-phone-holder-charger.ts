@@ -35,7 +35,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أفضل تركيبة لسائق طلبات أو مرسول: حامل ميكانيكي بمشبك <strong>claw-grip</strong> زي <a href="/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> (934ج) + <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">شاحن سيارة انكر مزدوج 30W+</a> (350ج). للموتوسيكل: حامل بذراع معدني يتثبت على المقود بمسمار. التركيبة الكاملة 700-900ج وبتوفرلك 3,000ج+ سنوياً في موبايلات واقعة وأوردرات ضايعة.
+        <strong>💡 الإجابة السريعة:</strong> أفضل تركيبة لسائق طلبات أو مرسول: حامل ميكانيكي بمشبك <strong>claw-grip</strong> زي <a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> (934ج) + <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">شاحن سيارة انكر مزدوج 30W+</a> (350ج). للموتوسيكل: حامل بذراع معدني يتثبت على المقود بمسمار. التركيبة الكاملة 700-900ج وبتوفرلك 3,000ج+ سنوياً في موبايلات واقعة وأوردرات ضايعة.
     </p>
 </div>
 
@@ -102,12 +102,12 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 <h2>ترشيحات الحوامل: الأفضل لكل نوع مركبة</h2>
 
 <h3>للموتوسيكل والسكوتر — حامل مقود بذراع معدني</h3>
-<p>الموتوسيكل محتاج حامل يتثبت على الـ handlebar (المقود) بمشبك معدني أو مسمار Allen key. <a href="/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> — ده الخيار اللي بنوصي بيه لسائقي طلبات ومرسول. بيتثبت على أنبوب المقود (قطر 22-32mm يناسب 95% من الموتوسيكلات في مصر) بمشبك معدني، والأذرع الأربعة بتمسك الموبايل من الجوانب بقوة سوست مضاعفة. بيدور 360 درجة عشان تشوف الخريطة أفقي أو رأسي. مقاوم للأتربة والمطر (IPX4) — يعني بيستحمل شتاء القاهرة. سعره 350 جنيه.</p>
+<p>الموتوسيكل محتاج حامل يتثبت على الـ handlebar (المقود) بمشبك معدني أو مسمار Allen key. <a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> — ده الخيار اللي بنوصي بيه لسائقي طلبات ومرسول. بيتثبت على أنبوب المقود (قطر 22-32mm يناسب 95% من الموتوسيكلات في مصر) بمشبك معدني، والأذرع الأربعة بتمسك الموبايل من الجوانب بقوة سوست مضاعفة. بيدور 360 درجة عشان تشوف الخريطة أفقي أو رأسي. مقاوم للأتربة والمطر (IPX4) — يعني بيستحمل شتاء القاهرة. سعره 350 جنيه.</p>
 
 <p>أهم حاجة في حامل الموتوسيكل: <strong>لازم يكون فيه وسادة مطاطية (rubber padding)</strong> على الأذرع اللي بتمسك الموبايل. بدون المطاط، الاهتزاز المستمر بينقل مباشرة للموبايل وبيأثر على كاميرا الموبايل الخلفية — تحديداً نظام OIS (التثبيت البصري). أبل وسامسونج حذروا رسمياً إن الاهتزاز المستمر على الموتوسيكل ممكن يتلف نظام OIS بشكل دائم. الوسادة المطاطية بتمتص جزء كبير من الاهتزاز وبتحمي الكاميرا.</p>
 
 <h3>للتوكتوك — حامل على فتحة التكييف أو على لوحة القيادة</h3>
-<p>التوكتوك عنده اهتزاز أقل من الموتوسيكل بس أعلى من السيارة. <a href="/joyroom/car-mounts/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">جوي روم حامل سيارة</a> بيشتغل كويس على التوكتوك لو عندك فتحة تكييف أو سطح مستوي. المشبك القوي بتاعه بيتحمل مطبات شوارع القاهرة القديمة. سعره 250 جنيه.</p>
+<p>التوكتوك عنده اهتزاز أقل من الموتوسيكل بس أعلى من السيارة. <a href="/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">جوي روم حامل سيارة</a> بيشتغل كويس على التوكتوك لو عندك فتحة تكييف أو سطح مستوي. المشبك القوي بتاعه بيتحمل مطبات شوارع القاهرة القديمة. سعره 250 جنيه.</p>
 
 <h2>الشاحن المثالي لسائق التوصيل — المواصفات الإلزامية</h2>
 
@@ -129,14 +129,14 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 
 <h3>التركيبة الاقتصادية (700ج تقريباً)</h3>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">📱 <strong>حامل:</strong> <a href="/joyroom/car-mounts/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">جوي روم حامل سيارة</a> — 250ج</li>
+    <li style="margin-bottom:12px;">📱 <strong>حامل:</strong> <a href="/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">جوي روم حامل سيارة</a> — 250ج</li>
     <li style="margin-bottom:12px;">⚡ <strong>شاحن:</strong> <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">انكر شاحن سيارة مزدوج 30W</a> — 350ج</li>
     <li style="margin-bottom:12px;">🔋 <strong>احتياطي:</strong> <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو 10,000mAh</a> — 750ج (اختياري لشيفتات 12+ ساعة)</li>
 </ul>
 
 <h3>تركيبة الموتوسيكل المحترفة (1,100ج تقريباً)</h3>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">📱 <strong>حامل مقود:</strong> <a href="/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290 حامل مقود</a> — 934ج</li>
+    <li style="margin-bottom:12px;">📱 <strong>حامل مقود:</strong> <a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290 حامل مقود</a> — 934ج</li>
     <li style="margin-bottom:12px;">🔋 <strong>باور بانك بكابل مدمج:</strong> <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو 20,000mAh</a> — 1,350ج (الكابل المدمج بيمنع مشكلة الكابل اللي بيطير)</li>
 </ul>
 
@@ -164,7 +164,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت — كل اللي محتاجه لشيفتك</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل حوامل الموبايل وشواحن السيارة الأصلية لسائقي التوصيل متاحة بضمان <strong>18 شهر معتمد</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + فحص قبل الدفع + دعم واتساب 24/7. لو بتشتغل توصيل، الاستثمار في حامل وشاحن كويس بيحمي موبايلك وتقييمك ودخلك. تصفح <a href="/joyroom/car-mounts" style="color:#166534;font-weight:600;">حوامل جوي روم</a> أو <a href="/anker/car-chargers" style="color:#166534;font-weight:600;">شواحن سيارة انكر</a>.
+        كل حوامل الموبايل وشواحن السيارة الأصلية لسائقي التوصيل متاحة بضمان <strong>18 شهر معتمد</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + فحص قبل الدفع + دعم واتساب 24/7. لو بتشتغل توصيل، الاستثمار في حامل وشاحن كويس بيحمي موبايلك وتقييمك ودخلك. تصفح <a href="/joyroom/car-holders" style="color:#166534;font-weight:600;">حوامل جوي روم</a> أو <a href="/anker/car-chargers" style="color:#166534;font-weight:600;">شواحن سيارة انكر</a>.
     </p>
 </div>`,
             faq: [
@@ -199,7 +199,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Best combo for a Talabat or Mrsool driver: a mechanical <strong>claw-grip</strong> mount like the <a href="/en/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> (350 EGP) + <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">Anker Dual-Port Car Charger 30W+</a> (350 EGP). For motorcycles: a metal-arm mount that bolts to the handlebar. The complete setup costs 700-900 EGP and saves you 3,000+ EGP annually in dropped phones and lost orders.
+        <strong>💡 Quick Answer:</strong> Best combo for a Talabat or Mrsool driver: a mechanical <strong>claw-grip</strong> mount like the <a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> (350 EGP) + <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">Anker Dual-Port Car Charger 30W+</a> (350 EGP). For motorcycles: a metal-arm mount that bolts to the handlebar. The complete setup costs 700-900 EGP and saves you 3,000+ EGP annually in dropped phones and lost orders.
     </p>
 </div>
 
@@ -266,12 +266,12 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 <h2>Mount Recommendations: Best Pick for Each Vehicle Type</h2>
 
 <h3>For Motorcycles & Scooters — Handlebar Mount with Metal Arm</h3>
-<p>Motorcycles need a mount that bolts to the handlebar with a metal clamp or Allen key bolt. <a href="/en/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> — this is our top recommendation for Talabat and Mrsool drivers. It clamps to handlebar tubes (22-32mm diameter, fitting 95% of motorcycles in Egypt) with a metal bracket, and four spring-loaded arms grip the phone from all sides. Rotates 360° so you can view the map in landscape or portrait. Dust and rain resistant (IPX4) — handles Cairo winter. Priced at 350 EGP.</p>
+<p>Motorcycles need a mount that bolts to the handlebar with a metal clamp or Allen key bolt. <a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> — this is our top recommendation for Talabat and Mrsool drivers. It clamps to handlebar tubes (22-32mm diameter, fitting 95% of motorcycles in Egypt) with a metal bracket, and four spring-loaded arms grip the phone from all sides. Rotates 360° so you can view the map in landscape or portrait. Dust and rain resistant (IPX4) — handles Cairo winter. Priced at 350 EGP.</p>
 
 <p>The most important feature in a motorcycle mount: <strong>rubber padding on the gripping arms is mandatory</strong>. Without rubber, continuous vibration transfers directly to the phone and affects the rear camera's OIS (Optical Image Stabilization) system. Apple and Samsung have officially warned that sustained motorcycle vibration can permanently damage OIS components. Rubber padding absorbs a significant portion of vibration and protects the camera.</p>
 
 <h3>For Tuktuks — Vent Clip or Dashboard Mount</h3>
-<p>Tuktuks have less vibration than motorcycles but more than cars. The <a href="/en/joyroom/car-mounts/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">Joyroom Car Phone Mount</a> works well on tuktuks if you have an AC vent or flat surface. Its strong clamp handles Cairo's old quarter speed bumps. Priced at 250 EGP.</p>
+<p>Tuktuks have less vibration than motorcycles but more than cars. The <a href="/en/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">Joyroom Car Phone Mount</a> works well on tuktuks if you have an AC vent or flat surface. Its strong clamp handles Cairo's old quarter speed bumps. Priced at 250 EGP.</p>
 
 <h2>The Ideal Charger for Delivery Drivers — Mandatory Specifications</h2>
 
@@ -293,14 +293,14 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 
 <h3>Budget Setup (~700 EGP)</h3>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">📱 <strong>Mount:</strong> <a href="/en/joyroom/car-mounts/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">Joyroom Car Phone Mount</a> — 250 EGP</li>
+    <li style="margin-bottom:12px;">📱 <strong>Mount:</strong> <a href="/en/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">Joyroom Car Phone Mount</a> — 250 EGP</li>
     <li style="margin-bottom:12px;">⚡ <strong>Charger:</strong> <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">Anker Dual-Port Car Charger 30W</a> — 350 EGP</li>
     <li style="margin-bottom:12px;">🔋 <strong>Backup:</strong> <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO 10,000mAh</a> — 750 EGP (optional for 12+ hour shifts)</li>
 </ul>
 
 <h3>Professional Motorcycle Setup (~1,100 EGP)</h3>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">📱 <strong>Handlebar Mount:</strong> <a href="/en/joyroom/car-mounts/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290 Handlebar Mount</a> — 350 EGP</li>
+    <li style="margin-bottom:12px;">📱 <strong>Handlebar Mount:</strong> <a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290 Handlebar Mount</a> — 350 EGP</li>
     <li style="margin-bottom:12px;">🔋 <strong>Power Bank with Built-in Cable:</strong> <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO 20,000mAh</a> — 1,350 EGP (built-in cable eliminates the flying-cable problem)</li>
 </ul>
 
@@ -328,7 +328,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt — Everything You Need for Your Shift</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All original phone mounts and car chargers for delivery drivers are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + product inspection before payment + 24/7 WhatsApp support. If you work in delivery, investing in a quality mount and charger protects your phone, rating, and income. Browse <a href="/en/joyroom/car-mounts" style="color:#166534;font-weight:600;">Joyroom Mounts</a> or <a href="/en/anker/car-chargers" style="color:#166534;font-weight:600;">Anker Car Chargers</a>.
+        All original phone mounts and car chargers for delivery drivers are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + product inspection before payment + 24/7 WhatsApp support. If you work in delivery, investing in a quality mount and charger protects your phone, rating, and income. Browse <a href="/en/joyroom/car-holders" style="color:#166534;font-weight:600;">Joyroom Mounts</a> or <a href="/en/anker/car-chargers" style="color:#166534;font-weight:600;">Anker Car Chargers</a>.
     </p>
 </div>`,
             faq: [

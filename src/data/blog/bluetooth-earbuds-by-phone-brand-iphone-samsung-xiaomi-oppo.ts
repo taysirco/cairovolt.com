@@ -247,7 +247,7 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أصلية بضمان 18 شهر من كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل سماعات <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور</a> متوفرة أصلية 100% بضمان الوكيل المعتمد في مصر. سواء عندك آيفون أو سامسونج أو شاومي أو أوبو — هتلاقي السماعة المناسبة. اطلب توصيل لباب بيتك خلال 24-72 ساعة مع الدفع عند الاستلام. لو محتاج مساعدة في اختيار السماعة حسب موبايلك، تواصل معنا عبر واتساب.
+        كل سماعات <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور</a> متوفرة أصلية 100% بضمان المتجر المكتوب في مصر. سواء عندك آيفون أو سامسونج أو شاومي أو أوبو — هتلاقي السماعة المناسبة. اطلب توصيل لباب بيتك خلال 24-72 ساعة مع الدفع عند الاستلام. لو محتاج مساعدة في اختيار السماعة حسب موبايلك، تواصل معنا عبر واتساب.
     </p>
 </div>
 
@@ -505,7 +505,7 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic with 18-Month Warranty from CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore earbuds</a> are available 100% authentic with authorized agent warranty in Egypt. Whether you have an iPhone, Samsung, Xiaomi, or Oppo — you'll find the right earbuds. Order with delivery to your door within 24-72 hours with cash on delivery. Need help choosing earbuds for your specific phone? Contact us via WhatsApp.
+        All <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore earbuds</a> are available 100% authentic with CairoVolt's written store warranty in Egypt. Whether you have an iPhone, Samsung, Xiaomi, or Oppo — you'll find the right earbuds. Order with delivery to your door within 24-72 hours with cash on delivery. Need help choosing earbuds for your specific phone? Contact us via WhatsApp.
     </p>
 </div>
 

@@ -36,7 +36,7 @@ export const smartwatch_battery_quick_drain_5_solutions: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أكتر 3 أسباب لنفاد البطارية: شاشة Always-On (30-40% استهلاك) + إشعارات كل التطبيقات + حساسات صحية بمعدل عالي. قفّل AOD + قلّل الإشعارات لـ 3-5 تطبيقات + خفّض قياس النبض = توفير 40-60%. ساعات زي <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> بطاريتها 5-7 أيام أصلاً من غير كل المعاناة دي.
+        <strong>💡 الإجابة السريعة:</strong> أكتر 3 أسباب لنفاد البطارية: شاشة Always-On (30-40% استهلاك) + إشعارات كل التطبيقات + حساسات صحية بمعدل عالي. قفّل AOD + قلّل الإشعارات لـ 3-5 تطبيقات + خفّض قياس النبض = توفير 40-60%. ساعات زي <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> بطاريتها 5-7 أيام أصلاً من غير كل المعاناة دي.
     </p>
 </div>
 
@@ -114,7 +114,7 @@ export const smartwatch_battery_quick_drain_5_solutions: BlogArticle = {
 
 <p>الحل بسيط: اختار واجهة ساعة بخلفية سوداء (OLED = البكسلات السوداء مقفولة = صفر استهلاك) + عدد قليل من الـ complications (2-3 بدل 6-8) + بدون أنيميشن.</p>
 
-<p>في اختبار CNET على Apple Watch: التبديل من واجهة \"Modular\" بـ 6 complications لواجهة \"Simple\" بـ 2 complications وفّر 12% من البطارية يومياً. على شاشة AMOLED زي اللي في <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a>: الخلفية السوداء بتوفّر 15-20% مقارنة بخلفية بيضاء أو ملونة — لأن البكسلات السوداء في AMOLED مش بتستهلك طاقة أصلاً.</p>
+<p>في اختبار CNET على Apple Watch: التبديل من واجهة \"Modular\" بـ 6 complications لواجهة \"Simple\" بـ 2 complications وفّر 12% من البطارية يومياً. على شاشة AMOLED زي اللي في <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a>: الخلفية السوداء بتوفّر 15-20% مقارنة بخلفية بيضاء أو ملونة — لأن البكسلات السوداء في AMOLED مش بتستهلك طاقة أصلاً.</p>
 
 <p><strong>نصيحة عملية:</strong> اختار واجهة ساعة رقمية (Digital) بأرقام كبيرة على خلفية سوداء + الوقت + التاريخ + نسبة البطارية — وبس. ده أسرع في القراءة وأوفر في البطارية.</p>
 
@@ -165,14 +165,14 @@ export const smartwatch_battery_quick_drain_5_solutions: BlogArticle = {
 
 <p>لو تعبت من شحن ساعتك كل يوم وعايز حل جذري — الحقيقة إن المشكلة أحياناً مش في الإعدادات بل في اختيار الساعة نفسها. Apple Watch و Galaxy Watch ساعات ممتازة — بس بطاريتها 18-40 ساعة حتى مع أحسن إعدادات. الفيزياء مش بتكدب: شاشة كبيرة + معالج قوي + GPS + LTE = بطارية بتخلص بسرعة.</p>
 
-<p>لو أولويتك بطارية طويلة + مميزات صحية أساسية + سعر معقول — الساعات المستقلة بتديك 5-10 أيام بشحنة واحدة. <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> مثلاً بتديك 5-7 أيام مع كل الحساسات شغّالة + مكالمات بلوتوث + 100+ وضع رياضي — وبسعر 1,200 جنيه بس. يعني بتشحنها مرة في الأسبوع وبتنسى موضوع البطارية تماماً.</p>
+<p>لو أولويتك بطارية طويلة + مميزات صحية أساسية + سعر معقول — الساعات المستقلة بتديك 5-10 أيام بشحنة واحدة. <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> مثلاً بتديك 5-7 أيام مع كل الحساسات شغّالة + مكالمات بلوتوث + 100+ وضع رياضي — وبسعر 1,200 جنيه بس. يعني بتشحنها مرة في الأسبوع وبتنسى موضوع البطارية تماماً.</p>
 
 <p>لمقارنة بين الساعات المختلفة وأسعارها — اقرأ <a href="/blog/joyroom-vs-apple-watch-se-5x-price" style="color:#2563eb;">هل فرق السعر 5 أضعاف يستاهل؟</a>. ولأفضل الساعات الرياضية تحت 1500 جنيه — <a href="/blog/sports-smart-watch-under-1500-egp-egypt" style="color:#2563eb;">دليل الساعات الرياضية في مصر</a>.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ زهقت من الشحن اليومي؟ Joyroom FT3 — بطارية أسبوع كامل</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — 5-7 أيام بطارية + نبض 24/7 + مكالمات بلوتوث + شاشة 1.96 بوصة AMOLED. بـ 1,200 جنيه بضمان 12 شهر + توصيل لكل المحافظات.
+        <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — 5-7 أيام بطارية + نبض 24/7 + مكالمات بلوتوث + شاشة 1.96 بوصة AMOLED. بـ 1,200 جنيه بضمان 12 شهر + توصيل لكل المحافظات.
     </p>
 </div>`,
             faq: [
@@ -209,7 +209,7 @@ export const smartwatch_battery_quick_drain_5_solutions: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Top 3 battery killers: Always-On Display (30-40% consumption) + all app notifications + high-frequency health sensors. Disable AOD + limit notifications to 3-5 apps + reduce heart rate measurement = 40-60% savings. Watches like the <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> have 5-7 day battery life without any of this hassle.
+        <strong>💡 Quick Answer:</strong> Top 3 battery killers: Always-On Display (30-40% consumption) + all app notifications + high-frequency health sensors. Disable AOD + limit notifications to 3-5 apps + reduce heart rate measurement = 40-60% savings. Watches like the <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> have 5-7 day battery life without any of this hassle.
     </p>
 </div>
 
@@ -287,7 +287,7 @@ export const smartwatch_battery_quick_drain_5_solutions: BlogArticle = {
 
 <p>The solution is simple: choose a watch face with a black background (OLED = black pixels are off = zero consumption) + few complications (2-3 instead of 6-8) + no animation.</p>
 
-<p>In CNET testing on Apple Watch: switching from a "Modular" face with 6 complications to a "Simple" face with 2 complications saved 12% battery daily. On AMOLED screens like the <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a>: a black background saves 15-20% compared to white or colorful backgrounds — because black pixels on AMOLED draw zero power.</p>
+<p>In CNET testing on Apple Watch: switching from a "Modular" face with 6 complications to a "Simple" face with 2 complications saved 12% battery daily. On AMOLED screens like the <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a>: a black background saves 15-20% compared to white or colorful backgrounds — because black pixels on AMOLED draw zero power.</p>
 
 <p><strong>Practical tip:</strong> Choose a digital watch face with large numbers on a black background showing only time + date + battery percentage. This is faster to read and more battery-efficient.</p>
 
@@ -338,14 +338,14 @@ export const smartwatch_battery_quick_drain_5_solutions: BlogArticle = {
 
 <p>If you are tired of daily charging and want a fundamental solution — the truth is that sometimes the problem is not in the settings but in the watch choice itself. Apple Watch and Galaxy Watch are excellent watches — but their battery lasts 18-40 hours even with optimal settings. Physics does not lie: large screen + powerful processor + GPS + LTE = fast battery drain.</p>
 
-<p>If your priority is long battery life + essential health features + reasonable price — independent watches deliver 5-10 days on a single charge. The <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a>, for example, provides 5-7 days with all sensors active + Bluetooth calls + 100+ sport modes — at just 1,200 EGP. That means charging once a week and completely forgetting about battery anxiety.</p>
+<p>If your priority is long battery life + essential health features + reasonable price — independent watches deliver 5-10 days on a single charge. The <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a>, for example, provides 5-7 days with all sensors active + Bluetooth calls + 100+ sport modes — at just 1,200 EGP. That means charging once a week and completely forgetting about battery anxiety.</p>
 
 <p>For a comparison between different watches and their prices, read <a href="/en/blog/joyroom-vs-apple-watch-se-5x-price" style="color:#2563eb;">Is the 5x price difference worth it?</a>. For the best sports watches under 1,500 EGP, check our <a href="/en/blog/sports-smart-watch-under-1500-egp-egypt" style="color:#2563eb;">Sports Watch Guide for Egypt</a>.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Tired of Daily Charging? Joyroom FT3 — Full Week Battery</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — 5-7 day battery + 24/7 heart rate + Bluetooth calls + 1.96" AMOLED screen. At 1,200 EGP with 12-month warranty + delivery across all governorates.
+        <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — 5-7 day battery + 24/7 heart rate + Bluetooth calls + 1.96" AMOLED screen. At 1,200 EGP with 12-month warranty + delivery across all governorates.
     </p>
 </div>`,
             faq: [

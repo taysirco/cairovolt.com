@@ -35,7 +35,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> Apple Watch = iPhone بس. Galaxy Watch = Samsung أحسن / Android ممكن. لو عايز ساعة حرة — <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> بتشتغل على أي موبايل (iOS + Android) بكل المميزات.
+        <strong>💡 الإجابة السريعة:</strong> Apple Watch = iPhone بس. Galaxy Watch = Samsung أحسن / Android ممكن. لو عايز ساعة حرة — <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> بتشتغل على أي موبايل (iOS + Android) بكل المميزات.
     </p>
 </div>
 
@@ -79,7 +79,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 
 <h2>ليه ساعة مستقلة ممكن تكون الاختيار الأذكى؟</h2>
 
-<p>الساعات المستقلة (يعني مش تابعة لـ Apple ولا Samsung ولا Google) بتستخدم بلوتوث قياسي للاتصال بالموبايل — يعني أي موبايل بيشغّل بلوتوث بيقدر يتوصل بيها. <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> مثلاً بتتوصل بـ iPhone وSamsung وXiaomi وOppo وأي موبايل تاني بنفس الطريقة ونفس المميزات.</p>
+<p>الساعات المستقلة (يعني مش تابعة لـ Apple ولا Samsung ولا Google) بتستخدم بلوتوث قياسي للاتصال بالموبايل — يعني أي موبايل بيشغّل بلوتوث بيقدر يتوصل بيها. <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> مثلاً بتتوصل بـ iPhone وSamsung وXiaomi وOppo وأي موبايل تاني بنفس الطريقة ونفس المميزات.</p>
 
 <p>ده بيديك حرية كاملة — لو غيّرت من iPhone لـ Samsung أو العكس، الساعة بتاعتك بتفضل شغّالة. بتمسح التطبيق من الموبايل القديم وبتحمّله على الجديد وبتعمل pair من أول وجديد. مفيش بيانات بتتخسر (التاريخ الرياضي والصحي محفوظ في التطبيق).</p>
 
@@ -125,7 +125,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:14px;">📱 <strong>عندك iPhone ومش هتغيّره أبداً:</strong> Apple Watch هي الأفضل — التكامل مع iOS لا يُضاهى. بس اعرف إنك "مقفول" في النظام.</li>
     <li style="margin-bottom:14px;">📱 <strong>عندك Samsung ومش هتغيّره:</strong> Galaxy Watch أحسن اختيار — Samsung Health ممتاز والتكامل كامل. بس لو غيّرت لـ iPhone هتخسر كتير.</li>
-    <li style="margin-bottom:14px;">🔄 <strong>بتغيّر موبايلات كل فترة:</strong> ساعة مستقلة زي <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> — بتتنقل معاك من أي موبايل لأي موبايل من غير مشاكل.</li>
+    <li style="margin-bottom:14px;">🔄 <strong>بتغيّر موبايلات كل فترة:</strong> ساعة مستقلة زي <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> — بتتنقل معاك من أي موبايل لأي موبايل من غير مشاكل.</li>
     <li style="margin-bottom:14px;">👫 <strong>أنت وشريكك أنظمة مختلفة:</strong> لو عايز تشتري ساعة هدية لحد ومش متأكد من موبايله — ساعة مستقلة أأمن اختيار.</li>
     <li style="margin-bottom:14px;">💰 <strong>ميزانيتك محدودة:</strong> الساعات المستقلة أرخص بكتير (800-1500 جنيه) مقارنة بـ Apple Watch (7000+) أو Galaxy Watch (4000+). وبتديك 90% من المميزات اليومية.</li>
 </ul>
@@ -162,7 +162,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ ساعة ذكية بتشتغل على أي موبايل — على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> متوافقة مع iPhone وSamsung وكل أجهزة Android — بضمان 12 شهر + مكالمات بلوتوث + 100+ وضع رياضي. توصيل لكل المحافظات.
+        <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> متوافقة مع iPhone وSamsung وكل أجهزة Android — بضمان 12 شهر + مكالمات بلوتوث + 100+ وضع رياضي. توصيل لكل المحافظات.
     </p>
 </div>`,
             faq: [
@@ -197,7 +197,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Apple Watch = iPhone only. Galaxy Watch = Samsung best / Android possible. For a free watch — <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> works on any phone (iOS + Android) with full features.
+        <strong>💡 Quick Answer:</strong> Apple Watch = iPhone only. Galaxy Watch = Samsung best / Android possible. For a free watch — <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> works on any phone (iOS + Android) with full features.
     </p>
 </div>
 
@@ -241,7 +241,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 
 <h2>Why an Independent Watch Might Be the Smartest Choice</h2>
 
-<p>Independent watches (meaning not affiliated with Apple, Samsung, or Google) use standard Bluetooth for phone connectivity — meaning any phone with Bluetooth can connect to them. The <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a>, for example, connects to iPhone, Samsung, Xiaomi, Oppo, and any other phone using the same method and delivering the same features.</p>
+<p>Independent watches (meaning not affiliated with Apple, Samsung, or Google) use standard Bluetooth for phone connectivity — meaning any phone with Bluetooth can connect to them. The <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a>, for example, connects to iPhone, Samsung, Xiaomi, Oppo, and any other phone using the same method and delivering the same features.</p>
 
 <p>This gives you complete freedom — if you switch from iPhone to Samsung or vice versa, your watch keeps working. You delete the app from the old phone, download it on the new one, and pair fresh. No data is lost (workout and health history is saved in the app).</p>
 
@@ -285,7 +285,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:14px;">📱 <strong>You have an iPhone and will never switch:</strong> Apple Watch is the best choice — iOS integration is unmatched. But know that you are "locked" into the ecosystem.</li>
     <li style="margin-bottom:14px;">📱 <strong>You have a Samsung and will never switch:</strong> Galaxy Watch is the best choice — Samsung Health is excellent and integration is complete. But switching to iPhone later means losing most features.</li>
-    <li style="margin-bottom:14px;">🔄 <strong>You change phones regularly:</strong> An independent watch like the <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> — moves with you from any phone to any phone without issues.</li>
+    <li style="margin-bottom:14px;">🔄 <strong>You change phones regularly:</strong> An independent watch like the <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> — moves with you from any phone to any phone without issues.</li>
     <li style="margin-bottom:14px;">👫 <strong>You and your partner use different systems:</strong> If you want to buy a watch as a gift and are unsure of the recipient's phone — an independent watch is the safest choice.</li>
     <li style="margin-bottom:14px;">💰 <strong>Your budget is limited:</strong> Independent watches are significantly cheaper (800-1,500 EGP) compared to Apple Watch (7,000+) or Galaxy Watch (4,000+). And they provide 90% of daily features.</li>
 </ul>
@@ -309,7 +309,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Smartwatch That Works With Any Phone — on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> compatible with iPhone, Samsung, and all Android devices — 12-month warranty + Bluetooth calls + 100+ sport modes. Delivery across all governorates.
+        <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> compatible with iPhone, Samsung, and all Android devices — 12-month warranty + Bluetooth calls + 100+ sport modes. Delivery across all governorates.
     </p>
 </div>`,
             faq: [

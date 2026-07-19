@@ -36,7 +36,7 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
                 },
                 {
                     question: 'هل شاحن سامسونج التقليد ممكن يبوظ الموبايل؟',
-                    answer: 'أيوا — وده مش كلام تخويف. الشاحن التقليد مفيهوش دائرة حماية OVP (Over-Voltage Protection) ولا OCP (Over-Current Protection). في اختباراتنا، شاحن تقليد 25W طلع voltage ripple بيوصل 800mV — المفروض يكون أقل من 120mV. الـ ripple ده بيأثر على دائرة الشحن IC في الموبايل وممكن يقصّر عمر البطارية 40-60% في أول سنة. في أسوأ الحالات، ممكن يسبب انتفاخ البطارية.'
+                    answer: 'أيوا — وده مش كلام تخويف. الشاحن التقليد مفيهوش دائرة حماية OVP (Over-Voltage Protection) ولا OCP (Over-Current Protection). في الاختبارات المعملية المنشورة، شاحن تقليد 25W طلع voltage ripple بيوصل 800mV — المفروض يكون أقل من 120mV. الـ ripple ده بيأثر على دائرة الشحن IC في الموبايل وممكن يقصّر عمر البطارية 40-60% في أول سنة. في أسوأ الحالات، ممكن يسبب انتفاخ البطارية.'
                 },
                 {
                     question: 'سعر شاحن سامسونج 25W الأصلي كام في مصر؟',
@@ -163,7 +163,7 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 
 <h2>البديل الذكي: شواحن أصلية بسعر أقل</h2>
 
-<p>لو مش عايز تلعب لعبة "أصلي ولا تقليد" مع بياعين الموبايلات — في حل أبسط: اشتري شاحن من <strong>براند موثوق</strong> بضمان رسمي مصري. <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a> بيدّي نفس قوة شاحن سامسونج الأصلي — 25W PD 3.0 — بس بسعر أقل 30-40% ومعاه ضمان 18 شهر. ولو عايز حاجة أقوى، <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> بيشحن أسرع بـ 20% وحجمه أصغر عشان تقنية GaN.</p>
+<p>لو مش عايز تلعب لعبة "أصلي ولا تقليد" مع بياعين الموبايلات — في حل أبسط: اشتري شاحن من <strong>براند موثوق</strong> بضمان رسمي مصري. <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a> بيدّي نفس قوة شاحن سامسونج الأصلي — 25W PD 3.0 — بس بسعر أقل 30-40% ومعاه ضمان 18 شهر. ولو عايز حاجة أقوى، <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> بيشحن أسرع بـ 20% وحجمه أصغر عشان تقنية GaN.</p>
 
 <p>ولو ميزانيتك محدودة، <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 25W</a> خيار ممتاز بسعر اقتصادي مع شهادات سلامة حقيقية. المهم: أي شاحن بضمان رسمي > شاحن سامسونج "أصلي" من بياع مش موثوق.</p>
 
@@ -198,7 +198,7 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 
 <p>وآخر حاجة: لو البياع قالك "مفيش ضمان على الشواحن" — ده في حد ذاته علامة إن المنتج تقليد. الشاحن الأصلي بيجي بضمان من التوكيل أو من الموزع المعتمد. ولو عايز تبعد عن اللعبة دي خالص، اشتري من متجر أونلاين موثوق بضمان رسمي مكتوب — وخلّيك في الـ safe side.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 25W</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a>.</p></div>`
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a> · <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 25W</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a>.</p></div>`
         },
         en: {
             title: '5 Differences That Expose a Fake Samsung Charger Before You Pay',
@@ -214,7 +214,7 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
                 },
                 {
                     question: 'Can a fake Samsung charger actually damage my phone?',
-                    answer: 'Yes — and this isn\'t fearmongering. Counterfeit chargers lack proper OVP (Over-Voltage Protection) and OCP (Over-Current Protection) circuits. In our testing, a fake 25W charger produced voltage ripple up to 800mV — the safe limit is below 120mV. This excessive ripple damages the phone\'s charging IC and can reduce battery lifespan by 40-60% within the first year. In worst cases, it can cause battery swelling.'
+                    answer: 'Yes — and this isn\'t fearmongering. Counterfeit chargers lack proper OVP (Over-Voltage Protection) and OCP (Over-Current Protection) circuits. In published lab tests, a fake 25W charger produced voltage ripple up to 800mV — the safe limit is below 120mV. This excessive ripple damages the phone\'s charging IC and can reduce battery lifespan by 40-60% within the first year. In worst cases, it can cause battery swelling.'
                 },
                 {
                     question: 'How much does an original Samsung 25W charger cost in Egypt?',
@@ -341,7 +341,7 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 
 <h2>The Smart Alternative: Genuine Chargers at Better Prices</h2>
 
-<p>If you don't want to play the "original or fake" game with phone shop sellers — there's a simpler solution: buy a charger from a <strong>trusted brand</strong> with an official Egyptian warranty. The <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W</a> delivers the same power as Samsung's original charger — 25W PD 3.0 — but at 30-40% less cost with an 18-month warranty. For something more powerful, the <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W charger</a> charges 20% faster and comes in a smaller package thanks to GaN technology.</p>
+<p>If you don't want to play the "original or fake" game with phone shop sellers — there's a simpler solution: buy a charger from a <strong>trusted brand</strong> with an official Egyptian warranty. The <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W</a> delivers the same power as Samsung's original charger — 25W PD 3.0 — but at 30-40% less cost with an 18-month warranty. For something more powerful, the <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W charger</a> charges 20% faster and comes in a smaller package thanks to GaN technology.</p>
 
 <p>If budget is a priority, the <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W charger</a> is an excellent option at an economical price with genuine safety certifications. The bottom line: any charger with an official warranty beats a "genuine" Samsung charger from an unverified seller.</p>
 
@@ -374,7 +374,7 @@ export const original_samsung_charger_5_differences_identify: BlogArticle = {
 
 <p>If any of the 3 fail — don't buy it. If all 3 pass — run the barcode verification for final confirmation. Remember: a counterfeit charger saves you 200 EGP today and costs you 3,000 EGP in battery replacement after a year. The math is clear — you don't even need a calculator.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W Charger</a> · <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Charger</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a>.</p></div>`
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W Charger</a> · <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Charger</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a>.</p></div>`
         }
     }
 };

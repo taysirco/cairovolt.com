@@ -60,7 +60,7 @@ export const bluetooth_speaker_camping_road_trip_all_day_battery: BlogArticle = 
     <li>🔌 <strong>ميزة الشحن العكسي (Powerbank Feature):</strong> وجود منفذ شحن مخرجي يتيح لك استخدام بطارية السبيكر الضخمة كباوربانك لشحن هاتفك في الطوارئ عندما تنفد بطاريتك وتكون بعيداً عن مصادر التيار الكهربائي.</li>
     <li>🔗 <strong>تقنية البلوتوث الحديثة (Bluetooth 5.3):</strong> تضمن استقرار الإشارة لمسافات طويلة (تصل لـ 15 متراً) واستهلاكاً أقل بكثير لطاقة البطارية مقارنة بالإصدارات القديمة.</li>
 </ol>
-<p>موديلات مثل <a href="/soundcore/audio/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">Soundcore Motion Plus</a> أو السبيكر القوي <a href="/soundcore/audio/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Soundcore Flare 2</a> بتقدم المواصفات دي بأداء فني مذهل.</p>
+<p>موديلات مثل <a href="/soundcore/speakers/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">Soundcore Motion Plus</a> أو السبيكر القوي <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Soundcore Flare 2</a> بتقدم المواصفات دي بأداء فني مذهل.</p>
 
 <h2>ثانياً: كيف تقرأ وتفهم معايير الحماية (IP) بشكل صحيح؟</h2>
 <p>الكثير من المحلات بمصر تروج لمصطلح "سبيكر ضد الميه" دون توضيح التفاصيل الفنية، مما يوقع المستهلك في فخ التلف الفوري. إليك فك الشفرة الهندسية لمعيار الحماية العالمي (IP):</p>
@@ -180,7 +180,7 @@ export const bluetooth_speaker_camping_road_trip_all_day_battery: BlogArticle = 
     <li>🔌 <strong>Reverse Charging (Power Bank Feature):</strong> An integrated USB output port lets you use the speaker's large internal battery to recharge your mobile phone when you are far from wall outlets.</li>
     <li>🔗 <strong>Modern Bluetooth Version (Bluetooth 5.3):</strong> This ensures a stable wireless connection up to 15 meters and reduces energy consumption compared to older protocols.</li>
 </ol>
-<p>Models like the <a href="/en/soundcore/audio/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">Soundcore Motion Plus</a> or the 360-degree <a href="/en/soundcore/audio/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Soundcore Flare 2</a> deliver these features with premium acoustic performance.</p>
+<p>Models like the <a href="/en/soundcore/speakers/anker-soundcore-motion-plus" style="color:#2563eb;font-weight:600;">Soundcore Motion Plus</a> or the 360-degree <a href="/en/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Soundcore Flare 2</a> deliver these features with premium acoustic performance.</p>
 
 <h2>2. How to Understand IP Protection Ratings Accurately</h2>
 <p>Many retailers in Egypt promote speakers as "waterproof" without clarifying the specific technical rating, which often leads to accidental liquid damage. Here is the engineering breakdown of the International Protection (IP) code:</p>

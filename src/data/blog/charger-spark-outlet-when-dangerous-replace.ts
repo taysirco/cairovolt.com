@@ -108,7 +108,7 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
 <h2>5 قواعد أمان ذهبية — عشان الشاحن ميبقاش خطر أبداً</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">💡 <strong>اشتري شواحن من ماركات معتمدة بس.</strong> <a href="/anker/chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> عندها شهادات UL/CE/FCC + حماية من القصر والحرارة الزائدة والشحن الزائد. الفرق بين شاحن 150 جنيه من ماركة مجهولة وشاحن 400 جنيه من انكر — هو إن التاني فيه 7 طبقات حماية والأول فيه صفر.</li>
+    <li style="margin-bottom:16px;">💡 <strong>اشتري شواحن من ماركات معتمدة بس.</strong> <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> عندها شهادات UL/CE/FCC + حماية من القصر والحرارة الزائدة والشحن الزائد. الفرق بين شاحن 150 جنيه من ماركة مجهولة وشاحن 400 جنيه من انكر — هو إن التاني فيه 7 طبقات حماية والأول فيه صفر.</li>
     <li style="margin-bottom:16px;">🔌 <strong>متسيبش الشاحن في البريزة بدون ما يكون بيشحن حاجة.</strong> الشاحن المتوصل بالبريزة 24/7 (حتى من غير موبايل) بيسحب تيار ضعيف (standby current) وبيسخن ببطء — وده بيقصّر عمره ويزود احتمالية العطل.</li>
     <li style="margin-bottom:16px;">🚫 <strong>متشحنش على مشترك (توصيلة) مليان.</strong> المشترك المحمّل بـ 5-6 أجهزة بيحمّل الملامس فوق طاقتها — وده بيزود الشرارات والسخونة. لو محتاج مشترك — استخدم واحد بـ surge protector ومتحمّلوش فوق 80% من قدرته.</li>
     <li style="margin-bottom:16px;">🌡️ <strong>متحطش الشاحن تحت المخدة أو فوق سرير.</strong> لو حصلت أي مشكلة حرارية — القماش بيشتعل بسرعة. اشحن على سطح صلب (مكتب، كومودينو) بعيد عن المواد القابلة للاشتعال.</li>
@@ -124,10 +124,10 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> معتمدة بشهادات UL/CE/FCC — 7 طبقات حماية من القصر والحرارة والشحن الزائد. ضمان 18 شهر + توصيل لكل المحافظات. متخاطرش بشاحن رخيص — السلامة أولاً.
+        <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> معتمدة بشهادات UL/CE/FCC — 7 طبقات حماية من القصر والحرارة والشحن الزائد. ضمان 18 شهر + توصيل لكل المحافظات. متخاطرش بشاحن رخيص — السلامة أولاً.
     </p>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a>.</p></div>
 `,
             faq: [
                 {
@@ -232,7 +232,7 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
 <h2>5 Golden Safety Rules — So Your Charger Is Never a Hazard</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">💡 <strong>Only buy chargers from certified brands.</strong> <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> carry UL/CE/FCC certifications + protection against short circuits, overheating, and overcharging. The difference between a 150 EGP no-name charger and a 400 EGP Anker is that the latter has 7 layers of protection and the former has zero.</li>
+    <li style="margin-bottom:16px;">💡 <strong>Only buy chargers from certified brands.</strong> <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> carry UL/CE/FCC certifications + protection against short circuits, overheating, and overcharging. The difference between a 150 EGP no-name charger and a 400 EGP Anker is that the latter has 7 layers of protection and the former has zero.</li>
     <li style="margin-bottom:16px;">🔌 <strong>Don't leave the charger plugged in when not charging anything.</strong> A charger connected 24/7 (even without a phone) draws standby current and heats slowly — shortening its lifespan and increasing failure probability.</li>
     <li style="margin-bottom:16px;">🚫 <strong>Don't charge on an overloaded power strip.</strong> A power strip loaded with 5-6 devices overloads its contacts — increasing sparks and heat. If you need a strip — use one with a surge protector and don't load it above 80% capacity.</li>
     <li style="margin-bottom:16px;">🌡️ <strong>Don't place the charger under a pillow or on a bed.</strong> If any thermal issue occurs — fabric ignites quickly. Charge on a hard surface (desk, nightstand) away from flammable materials.</li>
@@ -246,10 +246,10 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> are certified with UL/CE/FCC — 7 layers of protection against short circuits, overheating, and overcharging. 18-month warranty + delivery to all governorates. Don't risk a cheap charger — safety first.
+        <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> are certified with UL/CE/FCC — 7 layers of protection against short circuits, overheating, and overcharging. 18-month warranty + delivery to all governorates. Don't risk a cheap charger — safety first.
     </p>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W Charger</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W Charger</a>.</p></div>
 `,
             faq: [
                 {

@@ -140,7 +140,7 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
 </ul>
 
 <h2>الضمان المعتمد وخدمات الصيانة والدعم الفني في مصر</h2>
-<p>يحظى مشترو الموديل A30i في مصر بضمان استثنائي يمتد لـ 18 شهراً من الوكيل الرسمي، والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول جهازك في مراكز الدعم الفني الرسمية.</p>
+<p>يحظى مشترو الموديل A30i في مصر بضمان استثنائي يمتد لـ 18 شهراً مكتوب من المتجر، والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول طلب الضمان لدى المتجر.</p>
 <p>ملاحظة صيانة هامة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن خارج المراكز المعتمدة. كما يوصى بالتحقق من ملصق الضمان الفضي الموجود على كرتونة المنتج للتأكد من الموزع المحلي المسؤول عن التغطية.</p>
 
 <h2>تفاصيل الضمان والتوصيل من كايرو فولت</h2>
@@ -150,7 +150,7 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
     <li><strong>توصيل سريع لباب البيت:</strong> شحن لجميع محافظات مصر خلال 24 إلى 48 ساعة فقط، مع إمكانية فحص الطرد والتحقق من سلامته الخارجية قبل الدفع للمندوب.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 عروض حصرية على سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">أفضل الموديلات بأفضل الأسعار: <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore A30i الأنيقة</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a> · <a href="/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 عروض حصرية على سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">أفضل الموديلات بأفضل الأسعار: <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore A30i الأنيقة</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a>.</p></div>` ,
             faq: [
                 {
                     question: 'هل تدعم سماعة Soundcore A30i عزل الضوضاء النشط (ANC)؟',
@@ -282,13 +282,13 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
 </ul>
 
 <h2>Official Local Warranty and Technical Support in Egypt</h2>
-<p>Buyers of the Model A30i in Egypt receive a comprehensive 18-month warranty from the authorized local distributor. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or connection failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim at official service centers.</p>
+<p>Buyers of the Model A30i in Egypt receive a comprehensive 18-month written store warranty from CairoVolt. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or connection failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim with the store.</p>
 <p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. Always cross-check the localized silver warranty sticker on the retail packaging to identify the exact local distributor responsible for servicing your product.</p>
 
 <h2>Warranty & Express Shipping at CairoVolt</h2>
 <p>Purchasing the Soundcore A30i from CairoVolt guarantees a premium local purchasing experience. We provide a full 18-Month replacement warranty, meaning any manufacturing defect is resolved by replacing your unit with a brand-new one quickly. Delivery is handled within 24 to 48 hours to all Egyptian governorates, with full allowance for package inspection before you pay the courier.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore models at CairoVolt: <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A30i (Lipstick Shape)</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i (Square Case)</a> · <a href="/en/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC (ANC Model)</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Genuine Soundcore models at CairoVolt: <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A30i (Lipstick Shape)</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i (Square Case)</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC (ANC Model)</a>.</p></div>` ,
             faq: [
                 {
                     question: 'Does the Soundcore A30i feature Active Noise Cancellation (ANC)?',

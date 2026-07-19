@@ -223,7 +223,7 @@ export const anker_activeshield_2_0_battery_protection_real: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل باور بانكات Anker بـ ActiveShield 2.0 متاحة بـ<strong>ضمان 18 شهر</strong> من الوكيل المعتمد + توصيل لكل المحافظات 24-72 ساعة + دعم واتساب 24/7. تصفّح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a>.
+        كل باور بانكات Anker بـ ActiveShield 2.0 متاحة بـ<strong>ضمان 18 شهر</strong> مكتوب من كايرو فولت + توصيل لكل المحافظات 24-72 ساعة + دعم واتساب 24/7. تصفّح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a>.
     </p>
 </div>
 
@@ -431,7 +431,7 @@ export const anker_activeshield_2_0_battery_protection_real: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All Anker power banks with ActiveShield 2.0 are available with an <strong>18-month warranty</strong> from the authorized distributor + delivery to all governorates within 24-72 hours + 24/7 WhatsApp support. Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a>.
+        All Anker power banks with ActiveShield 2.0 are available with an <strong>18-month written store warranty</strong> from CairoVolt + delivery to all governorates within 24-72 hours + 24/7 WhatsApp support. Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a>.
     </p>
 </div>
 

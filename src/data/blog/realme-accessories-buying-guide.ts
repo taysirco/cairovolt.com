@@ -107,7 +107,7 @@ export const realme_accessories_buying_guide: BlogArticle = {
 
 <h3>3. سماعات لاسلكية توفر عمر البطارية</h3>
 <ul>
-    <li>🎵 <strong>سماعات جويروم JR-T03S Pro:</strong> ننصح بـ <a href="/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a>، والتي تقدم تجربة صوت نقي جداً وتتصل بسلاسة تامة بمحرك الصوت في هواتف ريلمي.</li>
+    <li>🎵 <strong>سماعات جويروم JR-T03S Pro:</strong> ننصح بـ <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a>، والتي تقدم تجربة صوت نقي جداً وتتصل بسلاسة تامة بمحرك الصوت في هواتف ريلمي.</li>
 </ul>
 
 <h2>حادي عشر: جدول تفصيلي لمقارنة طرازات ريلمي الشائعة وسرعات شحنها بمصر</h2>
@@ -238,7 +238,7 @@ export const realme_accessories_buying_guide: BlogArticle = {
 
 <h3>Compatible Wireless Earbuds</h3>
 <ul>
-    <li>🎵 <strong>Joyroom Wireless Buds:</strong> Consider the <a href="/en/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a> for excellent sound quality and stable Bluetooth integration with Realme devices.</li>
+    <li>🎵 <strong>Joyroom Wireless Buds:</strong> Consider the <a href="/en/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a> for excellent sound quality and stable Bluetooth integration with Realme devices.</li>
 </ul>
 
 <h2>12. Realme Model Comparison & Charging Specifications</h2>

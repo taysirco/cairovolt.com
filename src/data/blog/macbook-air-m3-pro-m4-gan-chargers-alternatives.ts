@@ -145,7 +145,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">24 شهر</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W PD</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W PD</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">سيليكون</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>280ج</strong></td>
@@ -223,7 +223,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">أقل من 300ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">أرخص خيار أصلي بضمان — بيشحن MacBook Air للعمل الخفيف</td>
         </tr>
         <tr style="background:#f0fdf4;">
@@ -249,7 +249,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل شواحن GaN المذكورة في المقال <strong>أصلية بضمان 24 شهر</strong> من الموزع المعتمد + توصيل لكل المحافظات خلال 24-72 ساعة + دعم واتساب 24/7. لو الشاحن ضرب خلال فترة الضمان — بنبدّله مش بنصلّحه.
+        كل شواحن GaN المذكورة في المقال <strong>أصلية بضمان المتجر المكتوب لمدة 24 شهر</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + دعم واتساب 24/7. لو الشاحن ضرب خلال فترة الضمان — بنبدّله مش بنصلّحه.
     </p>
 </div>
 
@@ -403,7 +403,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">24 months</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W PD</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W PD</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Silicon</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>280 EGP</strong></td>
@@ -481,7 +481,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Under 300 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">Cheapest genuine option with warranty — charges MacBook Air for light work</td>
         </tr>
         <tr style="background:#f0fdf4;">
@@ -507,7 +507,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All GaN chargers mentioned in this article are <strong>genuine with 24-month warranty</strong> from the authorized distributor + delivery to all governorates within 24-72 hours + 24/7 WhatsApp support. If the charger fails during warranty — we replace it, not repair it.
+        All GaN chargers mentioned in this article are <strong>genuine with a 24-month written store warranty</strong> from CairoVolt + delivery to all governorates within 24-72 hours + 24/7 WhatsApp support. If the charger fails during warranty — we replace it, not repair it.
     </p>
 </div>
 

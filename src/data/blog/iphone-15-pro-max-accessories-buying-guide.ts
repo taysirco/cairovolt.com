@@ -61,7 +61,7 @@ export const iphone_15_pro_max_accessories_buying_guide: BlogArticle = {
 <p>تعتبر كيمياء بطارية ايفون 15 برو ماكس ضخمة وحساسة. الهاتف يدعم سحب طاقة يصل إلى **27 واط** كحد أقصى أثناء الشحن السريع. دعنا نحلل الاختيارات الكهربائية المتاحة في السوق المصري:</p>
 <ol style="line-height:1.8;">
     <li>📉 <strong>شاحن 20 واط (Apple/Anker):</strong> سيقوم بشحن الهاتف بشكل آمن، ولكن الشحن سيستغرق حوالي ساعة و 45 دقيقة للوصول إلى 100% لأن الشاحن يمثل عنق زجاجة (يقيد سرعة الهاتف عند 20 واط فقط).</li>
-    <li>🎯 <strong>شاحن 30 واط GaN (الخيار الهيكلي الأفضل):</strong> شاحن مثل <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">أنكر نانو 30 واط (A2741)</a> أو شاحن <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جويروم 30 واط السريع</a> يمنح الهاتف طاقته القصوى الكاملة (27 واط) مع الحفاظ على حجم متناهي الصغر وكفاءة حرارية عالية بفضل تقنية نتريد الغاليوم (GaN)، مما يوفر حوالي 25 دقيقة من وقت الشحن الكلي.</li>
+    <li>🎯 <strong>شاحن 30 واط GaN (الخيار الهيكلي الأفضل):</strong> شاحن مثل <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">أنكر نانو 30 واط (A2741)</a> أو شاحن <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جويروم 30 واط السريع</a> يمنح الهاتف طاقته القصوى الكاملة (27 واط) مع الحفاظ على حجم متناهي الصغر وكفاءة حرارية عالية بفضل تقنية نتريد الغاليوم (GaN)، مما يوفر حوالي 25 دقيقة من وقت الشحن الكلي.</li>
     <li>💻 <strong>شاحن 65 واط أو شاحن لابتوب:</strong> آمن تماماً بفضل ذكاء بروتوكول Power Delivery (الهاتف يسحب 27 واط فقط)، وهو ممتاز إذا كنت تريد شاحناً واحداً للسفر يشحن اللابتوب والايفون معاً.</li>
 </ol>
 <p>💡 <strong>نصيحة لتوفير الفلوس:</strong> لو عايز قوة الـ 30 واط GaN دي بأقل سعر ممكن، <a href="/anker/wall-chargers/anker-zolo-30w-a2698-charger" style="color:#2563eb;font-weight:600;">شاحن انكر زولو 30W</a> بسعر 599 ج.م هو أرخص شاحن 30 واط GaN أصلي في السوق المصري حالياً — بيمد ايفون 15 برو ماكس بكامل الـ 27 واط وبيوفر لك نفس الـ 25 دقيقة تقريباً من وقت الشحن الكلي.</p>
@@ -109,7 +109,7 @@ export const iphone_15_pro_max_accessories_buying_guide: BlogArticle = {
             <td style="border:1px solid #d1d5db;padding:12px;font-weight:600;">رأس الشاحن المنزلي</td>
             <td style="border:1px solid #d1d5db;padding:12px;">30W USB-PD (مع تقنية GaN)</td>
             <td style="border:1px solid #d1d5db;padding:12px;">شحن الهاتف بالسرعة القصوى الآمنة (27 واط)</td>
-            <td style="border:1px solid #d1d5db;padding:12px;"><a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">أنكر نانو 30 واط</a></td>
+            <td style="border:1px solid #d1d5db;padding:12px;"><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">أنكر نانو 30 واط</a></td>
         </tr>
         <tr>
             <td style="border:1px solid #d1d5db;padding:12px;font-weight:600;">كابل البيانات والتصوير</td>
@@ -169,7 +169,7 @@ export const iphone_15_pro_max_accessories_buying_guide: BlogArticle = {
 <p>The iPhone 15 Pro Max has a large battery capacity and supports peak charging speeds of up to **27W** under USB Power Delivery (USB-PD). Let\'s look at your options in the market:</p>
 <ol style="line-height:1.8;">
     <li>📉 <strong>20W Chargers:</strong> While safe and common, a 20W adapter acts as a bottleneck. It will take approximately 1 hour and 45 minutes to charge to 100% because the charger restricts the phone\'s power draw.</li>
-    <li>🎯 <strong>30W GaN Chargers (Recommended):</strong> An adapter like the <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W (A2741)</a> or the <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W Charger</a> delivers the full 27W peak charging rate. Thanks to Gallium Nitride (GaN) technology, these adapters stay extremely cool, maintain a small profile, and save about 25 minutes of overall charging time.</li>
+    <li>🎯 <strong>30W GaN Chargers (Recommended):</strong> An adapter like the <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W (A2741)</a> or the <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W Charger</a> delivers the full 27W peak charging rate. Thanks to Gallium Nitride (GaN) technology, these adapters stay extremely cool, maintain a small profile, and save about 25 minutes of overall charging time.</li>
 </ol>
 <p>💡 <strong>Budget tip:</strong> If you want the same 30W GaN performance at the lowest possible price, the <a href="/en/anker/wall-chargers/anker-zolo-30w-a2698-charger" style="color:#2563eb;font-weight:600;">Anker Zolo 30W</a> at 599 EGP is currently the cheapest genuine 30W GaN charger on the market — it still delivers the full 27W peak rate to the iPhone 15 Pro Max and saves the same ~25 minutes per full charge cycle.</p>
 
@@ -216,7 +216,7 @@ export const iphone_15_pro_max_accessories_buying_guide: BlogArticle = {
             <td style="border:1px solid #d1d5db;padding:12px;font-weight:600;">Wall Charger</td>
             <td style="border:1px solid #d1d5db;padding:12px;">30W USB-PD (with GaN technology)</td>
             <td style="border:1px solid #d1d5db;padding:12px;">Charges the phone at its peak safe speed (27W)</td>
-            <td style="border:1px solid #d1d5db;padding:12px;"><a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker Nano 30W</a></td>
+            <td style="border:1px solid #d1d5db;padding:12px;"><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker Nano 30W</a></td>
         </tr>
         <tr>
             <td style="border:1px solid #d1d5db;padding:12px;font-weight:600;">USB-C Cable</td>

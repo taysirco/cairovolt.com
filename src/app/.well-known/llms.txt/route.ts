@@ -50,6 +50,8 @@ Current price, availability, warranty, delivery, and return terms are shown on t
 
 Soundcore is Anker's audio brand. Arabic pages use the Arabic brand spellings انكر and ساوندكور in headings and descriptions.
 
+CairoVolt is an independent retailer; it is not the manufacturer of, nor an official agent or authorized distributor for, Anker, Soundcore, or Joyroom. Product warranties referenced on the site are CairoVolt's own written store warranty unless explicitly attributed to the manufacturer.
+
 ## Public Resources
 
 - This file: ${baseUrl}/llms.txt (also served at ${baseUrl}/.well-known/llms.txt)

@@ -102,7 +102,7 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
     <li><a href="https://www.anker.com/verify" target="_blank" rel="noopener" style="color:#1d4ed8">أنكر Verify — التحقق من الأصالة</a></li>
   </ul>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/earbuds/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i</a>.</p></div>
 `,
             faq: [
                 { question: 'ما الفرق بين ساوندكور P30i وR50i NC؟', answer: 'R50i NC المتوفرة في مصر تتفوق: ANC 42dB (مقابل 40dB في P30i)، 4 مايك AI (مقابل 2)، 45 ساعة (مقابل 28). P30i غير متوفرة حالياً في مصر.' },
@@ -163,7 +163,7 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
     <li><a href="https://www.anker.com/verify" target="_blank" rel="noopener" style="color:#1d4ed8">Anker Verify — Authenticity Check</a></li>
   </ul>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/earbuds/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a>.</p></div>
 `,
             faq: [
                 { question: 'What is the difference between Soundcore P30i and R50i NC?', answer: 'R50i NC (available in Egypt) outperforms P30i: ANC 42dB vs 40dB, 4-mic AI vs 2-mic, 45h vs 28h total battery. P30i is not currently available in Egypt.' },

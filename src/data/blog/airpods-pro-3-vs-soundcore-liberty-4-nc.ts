@@ -244,7 +244,7 @@ export const airpods_pro_3_vs_soundcore_liberty_4_nc: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت بضمان 18 شهر</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        سماعة <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور Liberty 4 NC</a> أصلية 100% بضمان الوكيل المعتمد في مصر. تصفّح كل <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور</a> المتوفرة أو قارنها مع <a href="/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Liberty 4 Pro</a> الأعلى فئة. توصيل لكل المحافظات خلال 24-72 ساعة + دفع عند الاستلام.
+        سماعة <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور Liberty 4 NC</a> أصلية 100% بضمان المتجر المكتوب في مصر. تصفّح كل <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور</a> المتوفرة أو قارنها مع <a href="/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Liberty 4 Pro</a> الأعلى فئة. توصيل لكل المحافظات خلال 24-72 ساعة + دفع عند الاستلام.
     </p>
 </div>
 
@@ -499,7 +499,7 @@ export const airpods_pro_3_vs_soundcore_liberty_4_nc: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt with 18-Month Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        The <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> is 100% authentic with authorized agent warranty in Egypt. Browse all available <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore earbuds</a> or compare with the higher-tier <a href="/en/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Liberty 4 Pro</a>. Delivery to all governorates within 24-72 hours + Cash on Delivery.
+        The <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> is 100% authentic with a written store warranty in Egypt. Browse all available <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore earbuds</a> or compare with the higher-tier <a href="/en/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Liberty 4 Pro</a>. Delivery to all governorates within 24-72 hours + Cash on Delivery.
     </p>
 </div>
 

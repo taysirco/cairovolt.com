@@ -110,7 +110,7 @@ export const samsung_note_buying_guide_accessories: BlogArticle = {
 
 <h3>3. سماعات بلوتوث متوافقة وذكية</h3>
 <ul>
-    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> اقتنِ <a href="/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a>، والتي تقدم نقاء صوت ممتاز ومكالمات واضحة وتتكامل بسلاسة مع البلوتوث الخاص بهواتف سامسونج.</li>
+    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> اقتنِ <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a>، والتي تقدم نقاء صوت ممتاز ومكالمات واضحة وتتكامل بسلاسة مع البلوتوث الخاص بهواتف سامسونج.</li>
 </ul>
 
 <h2>خمسة: جدول تفصيلي لمقارنة طرازات Note الشائعة بمصر</h2>
@@ -238,13 +238,13 @@ export const samsung_note_buying_guide_accessories: BlogArticle = {
 
 <h3>Durable Type-C Cables</h3>
 <ul>
-    <li>🔌 <strong>Joyroom USB-C to USB-C:</strong> We recommend the <a href="/en/joyroom/type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom Type-C to Type-C Cable</a> to handle the 3A current and protect against current spikes.</li>
+    <li>🔌 <strong>Joyroom USB-C to USB-C:</strong> We recommend the <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom Type-C to Type-C Cable</a> to handle the 3A current and protect against current spikes.</li>
 </ul>
 
 <h3>Compatible Wireless Earbuds and Audio Codec Configuration</h3>
 <p>Samsung smartphones support a proprietary high-definition audio encoder called the **Samsung Scalable Codec (SSC)**. This encoder dynamically adapts the Bluetooth bitrate from 88kbps up to 512kbps to prevent signal dropouts and audio stuttering in high-interference areas. When pairing non-Samsung earbuds, the phone defaults to standard **AAC (Advanced Audio Coding)** transmission.</p>
 <ul>
-    <li>🎵 <strong>Joyroom Wireless Buds:</strong> Consider the <a href="/en/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a>. They support high-bitrate AAC decoding, providing an exceptional audio curve with deep bass response and clear vocals that fully leverage your Galaxy Note\'s Dolby Atmos processor.</li>
+    <li>🎵 <strong>Joyroom Wireless Buds:</strong> Consider the <a href="/en/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a>. They support high-bitrate AAC decoding, providing an exceptional audio curve with deep bass response and clear vocals that fully leverage your Galaxy Note\'s Dolby Atmos processor.</li>
 </ul>
 
 <h2>5. Samsung Galaxy Note Model Performance Profiles</h2>

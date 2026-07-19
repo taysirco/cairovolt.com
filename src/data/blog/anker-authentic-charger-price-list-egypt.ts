@@ -72,25 +72,25 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">شاحن حائط 20W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">350 — 450 ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;">شاحن حائط 30W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">500 — 650 ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN II</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">شاحن حائط 45W بشاشة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">750 — 950 ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN + شاشة ذكية</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;">شاحن GaN 30W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2147 GaN 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2147 GaN 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">600 — 800 ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN III</td>
         </tr>
@@ -121,7 +121,7 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
     </tbody>
 </table>
 
-<p>للمقارنة — شاحن Joyroom 25W بـ <a href="/joyroom/chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">سعر أقل</a> هو بديل اقتصادي للشواحن الأساسية لو الميزانية محدودة.</p>
+<p>للمقارنة — شاحن Joyroom 25W بـ <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">سعر أقل</a> هو بديل اقتصادي للشواحن الأساسية لو الميزانية محدودة.</p>
 
 <h2>تفصيل كل فئة — ليه الفرق السعري منطقي؟</h2>
 
@@ -132,12 +132,12 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #f59e0b;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#b45309;font-weight:bold;">⚙️ مثال عملي — فرق الحجم مع GaN:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        شاحن انكر 45W القديم (Silicon) كان بيجي بحجم حائط كبير ويسخن بشكل واضح. <strong><a href="/anker/chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W</a></strong> الجديد (GaN) بيجي بحجم أصغر بـ 40% وحرارته أقل بـ 30%. الفرق في السعر (350ج vs 850ج) بيعكس تكلفة مكونات GaN المختلفة تماماً — مش ربح إضافي.
+        شاحن انكر 45W القديم (Silicon) كان بيجي بحجم حائط كبير ويسخن بشكل واضح. <strong><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W</a></strong> الجديد (GaN) بيجي بحجم أصغر بـ 40% وحرارته أقل بـ 30%. الفرق في السعر (350ج vs 850ج) بيعكس تكلفة مكونات GaN المختلفة تماماً — مش ربح إضافي.
     </p>
 </div>
 
 <h3>شواحن GaN 45-65W (750-1,200 جنيه)</h3>
-<p>هنا بيدخل GaN بشكل واضح. الشاحن في حجم صغير بيطلع 45W على USB-C واحد — كفاية تشحن MacBook Air أو iPad Pro بسرعة. بعض الموديلات زي <a href="/anker/chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Nano 45W Smart Display</a> فيها شاشة بتعرض الواط الفعلي اللي بيتشحن — ميزة مفيدة جداً للتحقق.</p>
+<p>هنا بيدخل GaN بشكل واضح. الشاحن في حجم صغير بيطلع 45W على USB-C واحد — كفاية تشحن MacBook Air أو iPad Pro بسرعة. بعض الموديلات زي <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Nano 45W Smart Display</a> فيها شاشة بتعرض الواط الفعلي اللي بيتشحن — ميزة مفيدة جداً للتحقق.</p>
 <p>وفي نفس الفئة وصلنا موديلين جداد يستحقوا نظرة: <a href="/anker/wall-chargers/anker-nano-pro-45w-a2692" style="color:#2563eb;font-weight:600;">شاحن انكر نانو برو 45W</a> بـ 790 جنيه — أصغر شاحن 45 واط GaN، بيشحن الموبايل ولابتوب خفيف بأقصى سرعة. ولمستخدمي سامسونج تحديداً، <a href="/anker/wall-chargers/anker-nano-45w-1c-pd" style="color:#2563eb;font-weight:600;">شاحن انكر نانو 45W 1C</a> بـ 775 جنيه بيدعم PPS — يعني S26 Ultra بيشحن بكامل سرعة Super Fast Charging 2.0.</p>
 
 <h3>شواحن GaN 100W+ متعدد المنافذ (1,400-2,200 جنيه)</h3>
@@ -182,7 +182,7 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;font-weight:bold;">البائع بيرفض إرجاع أو ضمان</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">الموزع الرسمي بيدي ضمان 18 شهر — المقلّد مفيهوش ضمان حقيقي</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">المتجر الموثوق بيدي ضمان مكتوب 18 شهر — المقلّد مفيهوش ضمان حقيقي</td>
         </tr>
     </tbody>
 </table>
@@ -213,27 +213,27 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
 
 <p>ظاهرة "الاستيراد الموازي" أو ما يُعرف بالمنتجات المهربة أصبحت شائعة جداً في المحلات التجارية والمنصات غير المعتمدة في مصر. هذه المنتجات تكون أصلية ومصنعة بالفعل في مصانع Anker، ولكن يتم استيرادها بشكل غير رسمي لتجنب دفع الرسوم الجمركية والضرائب وشهادات الفحص الفني المصرية.</p>
 
-<p>على الرغم من أن سعر هذه المنتجات قد يكون أقل بـ 15% إلى 20% من السعر الرسمي للموزع، إلا أنك تضحي بالضمان تماماً. وكيل Anker الرسمي وموزعيه المعتمدين في مصر لا يقبلون صيانة أو استبدال أي منتج لم يتم شراؤه عبر قنواتهم الرسمية بالفاتورة الضريبية المعتمدة. في بيئة تتميز بتذبذب التيار الكهربائي وحالات تخفيف الأحمال الصيفية، فإن وجود ضمان استبدال حقيقي لمدة 18 شهر من كايرو فولت هو استثمار لا غنى عنه لحماية أموالك وأجهزتك.</p>
+<p>على الرغم من أن سعر هذه المنتجات قد يكون أقل بـ 15% إلى 20% من السعر الرسمي للموزع، إلا أنك تضحي بالضمان تماماً. ضمان كايرو فولت المكتوب لا يغطي صيانة أو استبدال أي منتج لم يتم شراؤه من المتجر مباشرة بفاتورة ضريبية معتمدة. في بيئة تتميز بتذبذب التيار الكهربائي وحالات تخفيف الأحمال الصيفية، فإن وجود ضمان استبدال حقيقي لمدة 18 شهر من كايرو فولت هو استثمار لا غنى عنه لحماية أموالك وأجهزتك.</p>
 
 <h2>العمر الافتراضي للشاحن الأصلي مقابل المقلد واقتصاديته</h2>
 
 <p>إذا اشتريت شاحناً مقلداً بسعر 200 جنيه، وتلف بعد 3 أشهر (وهذا هو المتوسط الفعلي)، واضطررت لشراء شاحن آخر، فستنفق 800 جنيه خلال عام واحد. بينما شاحن Anker الأصلي الذي تشتريه بسعر 500 جنيه من كايرو فولت سيعيش معك لأكثر من 3 إلى 5 سنوات بكفاءة كاملة ودون أن يعرض بطارية هاتفك للتلف. من الناحية الاقتصادية البحثة، الاستثمار في الشاحن الأصلي هو الخيار الأرخص والأكثر أماناً على المدى الطويل.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات أصلية بضمان 18 شهر من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن أنكر المعتمدة: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن أنكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن أنكر 45 واط بشاشة</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن جويروم 25 واط</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات أصلية بضمان 18 شهر من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن أنكر المعتمدة: <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن أنكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن أنكر 45 واط بشاشة</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن جويروم 25 واط</a>.</p></div>
 
 <h2>شواحن Joyroom كبديل اقتصادي</h2>
-<p>لو الميزانية ضيّقة، <a href="/joyroom/chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 25W</a> هو بديل موثوق بسعر أقل من انكر بنسبة 20-30%. نفس مستوى الأمان، ضمان حقيقي، ومناسب لمن لا يحتاج الـ GaN.</p>
+<p>لو الميزانية ضيّقة، <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 25W</a> هو بديل موثوق بسعر أقل من انكر بنسبة 20-30%. نفس مستوى الأمان، ضمان حقيقي، ومناسب لمن لا يحتاج الـ GaN.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن انكر الأصلية بأسعار رسمية على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل الشواحن المذكورة في هذا الدليل متاحة على <strong>كايرو فولت.كوم</strong> بالسعر الرسمي مع ضمان 18 شهر. لا تزيد ولا تنقص — السعر اللي شايفه هو السعر الرسمي للموزع المعتمد. توصيل لكل المحافظات + دفع عند الاستلام.
+        كل الشواحن المذكورة في هذا الدليل متاحة على <strong>كايرو فولت.كوم</strong> بالسعر الرسمي مع ضمان 18 شهر. لا تزيد ولا تنقص — السعر اللي شايفه هو السعر المعلن على المتجر بضمان مكتوب. توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'كام سعر شاحن انكر 20W الأصلي في مصر 2026؟',
-                    answer: 'شاحن انكر 20W الأصلي يتراوح بين 350 و450 جنيه من الموزع الرسمي في مصر. أي سعر أقل من 250 جنيه لنفس الموديل يستوجب التحقق من الأصالة — لأن تكلفة مكونات انكر الأصلية لا تسمح بهذا السعر.'
+                    answer: 'شاحن انكر 20W الأصلي يتراوح بين 350 و450 جنيه من المتاجر الموثوقة في مصر. أي سعر أقل من 250 جنيه لنفس الموديل يستوجب التحقق من الأصالة — لأن تكلفة مكونات انكر الأصلية لا تسمح بهذا السعر.'
                 },
                 {
                     question: 'الفرق بين شاحن GaN وشاحن عادي — هل يستحق فرق السعر؟',
@@ -241,7 +241,7 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
                 },
                 {
                     question: 'ليه نفس موديل الشاحن بيختلف سعره بين المحلات؟',
-                    answer: 'الأسباب: (1) بعض المحلات بتبيع منتجات مقلّدة بسعر أقل. (2) بعض التجار بيبيعوا "موازي" — منتجات أصلية من خارج مصر بدون ضمان رسمي. (3) فرق هامش ربح بين التجار. الأصل الموثوق هو الموزع الرسمي بضمان رسمي من الشركة.'
+                    answer: 'الأسباب: (1) بعض المحلات بتبيع منتجات مقلّدة بسعر أقل. (2) بعض التجار بيبيعوا "موازي" — منتجات أصلية من خارج مصر بدون ضمان رسمي. (3) فرق هامش ربح بين التجار. الأصل الموثوق هو متجر معروف بيقدم ضمان مكتوب واضح.'
                 },
                 {
                     question: 'هل شاحن انكر 100W+ يستحق سعره الغالي؟',
@@ -297,25 +297,25 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Wall Charger 20W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">350 — 450 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;">Wall Charger 30W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">500 — 650 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN II</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Wall Charger 45W with Display</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">750 — 950 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN + Smart Display</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;">GaN Charger 30W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2147 GaN 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2147 GaN 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">600 — 800 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN III</td>
         </tr>
@@ -346,7 +346,7 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
     </tbody>
 </table>
 
-<p>For comparison — the <a href="/en/joyroom/chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W charger</a> is a reliable budget alternative at 20-30% less than equivalent Anker models.</p>
+<p>For comparison — the <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W charger</a> is a reliable budget alternative at 20-30% less than equivalent Anker models.</p>
 
 <h2>How to Spot a Price Too Low = Fake</h2>
 
@@ -382,7 +382,7 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;font-weight:bold;">Seller refuses returns or warranty</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">The official distributor provides an 18-month warranty — counterfeits have none</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">A trusted retailer provides a written 18-month warranty — counterfeits have none</td>
         </tr>
     </tbody>
 </table>
@@ -421,24 +421,24 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
 
 <p>"Parallel imports" refer to authentic products imported through unofficial, non-authorized channels to bypass customs duties, taxes, and mandatory technical inspection certificates. While these chargers are genuine Anker hardware and are sold at a 15% to 20% discount compared to authorized dealers, they carry zero local warranty.</p>
 
-<p>Anker's official distributor in Egypt will not service or replace any parallel import. In Egypt's challenging electrical climate — marked by frequent load-shedding and voltage fluctuations — having an active, local 18-month warranty through CairoVolt is a critical safeguard for your expensive smartphones and laptops.</p>
+<p>CairoVolt's written store warranty does not cover parallel imports. In Egypt's challenging electrical climate — marked by frequent load-shedding and voltage fluctuations — having an active, local 18-month warranty through CairoVolt is a critical safeguard for your expensive smartphones and laptops.</p>
 
 <h2>The Financial Equation: Authentic vs. Counterfeit Lifecycle</h2>
 
 <p>Buying a counterfeit charger for 200 EGP might seem economical, but if it fails within 3 months (the average lifespan of fake adapters) and damages your phone's battery health, the real cost escalates. Replacing cheap chargers repeatedly costs up to 800 EGP a year, not to mention battery replacement expenses. A genuine Anker charger bought for 500 EGP from CairoVolt easily lasts 3 to 5 years, making it the most cost-effective and secure choice.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Anker chargers: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Wall Charger</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Anker chargers: <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Wall Charger</a>.</p></div>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic Anker Chargers at Official Prices on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All chargers in this guide are available on <strong>CairoVolt.com</strong> at official pricing with an 18-month warranty. No markups, no shortcuts — the price you see is the official authorized distributor price. Delivery to all governorates + cash on delivery.
+        All chargers in this guide are available on <strong>CairoVolt.com</strong> at official pricing with an 18-month warranty. No markups, no shortcuts — the price you see is the listed store price backed by a written warranty. Delivery to all governorates + cash on delivery.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'How much does an authentic Anker 20W charger cost in Egypt in 2026?',
-                    answer: 'An authentic Anker 20W charger ranges from 350 to 450 EGP from the official distributor in Egypt. Any price below 250 EGP for the same model warrants authenticity verification — Anker\'s genuine component costs do not allow for that price point.'
+                    answer: 'An authentic Anker 20W charger ranges from 350 to 450 EGP from trusted retailers in Egypt. Any price below 250 EGP for the same model warrants authenticity verification — Anker\'s genuine component costs do not allow for that price point.'
                 },
                 {
                     question: 'Is the price difference between GaN and standard Anker chargers worth it?',
@@ -446,7 +446,7 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
                 },
                 {
                     question: 'Why does the same Anker charger model have different prices across shops?',
-                    answer: 'Three reasons: (1) Some shops sell counterfeit products at lower prices. (2) Some sell "parallel imports" — genuine products brought in from outside Egypt without official warranty. (3) Varying profit margins between retailers. The reliable source is the official distributor offering a real manufacturer warranty.'
+                    answer: 'Three reasons: (1) Some shops sell counterfeit products at lower prices. (2) Some sell "parallel imports" — genuine products brought in from outside Egypt without official warranty. (3) Varying profit margins between retailers. The reliable source is a trusted retailer offering a real written warranty.'
                 },
                 {
                     question: 'Is an Anker 100W+ GaN charger worth the high price?',

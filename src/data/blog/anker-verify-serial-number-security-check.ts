@@ -208,7 +208,7 @@ export const anker_verify_serial_number_security_check: BlogArticle = {
 <li><strong>وقف الاستخدام فوراً:</strong> مش آمن تفضل تستخدمه حتى بعد الاكتشاف</li>
 <li><strong>الرجوع للبائع:</strong> لو اشتريت من محل وادعى إنه أصلي — طالب باسترداد المبلغ</li>
 <li><strong>الإبلاغ عن التقليد:</strong> ممكن تبلّغ Anker عبر موقعهم بالبيانات — ده بيساعدهم في مكافحة التقليد</li>
-<li><strong>التالي، اشتري من مصدر معتمد:</strong> كايرو فولت أو موزع رسمي معتمد يضمن لك الأصالة والضمان</li>
+<li><strong>التالي، اشتري من مصدر موثوق:</strong> كايرو فولت — متجر مستقل — يضمن لك الأصالة مع ضمان المتجر المكتوب</li>
 </ol>
 
 <h2>لماذا بعض الناس لا يلاحظون الفرق؟</h2>
@@ -243,7 +243,7 @@ export const anker_verify_serial_number_security_check: BlogArticle = {
 <li>الحماية من تفريغ الشحن العكسي والكهرباء الاستاتيكية لحماية اللوحة الأم لهاتفك الذكي.</li>
 </ol>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت بضمان 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن وكابلات أصلية: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن أنكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن أنكر 45 واط نانو</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل أنكر USB-C الأصلي</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت بضمان 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن وكابلات أصلية: <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن أنكر 30 واط نانو</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن أنكر 45 واط نانو</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل أنكر USB-C الأصلي</a>.</p></div>
 
 <h3>تاريخ ملصقات مكافحة التزييف وتطورها عبر السنوات</h3>
 
@@ -251,10 +251,10 @@ export const anker_verify_serial_number_security_check: BlogArticle = {
 
 <h2>الشراء الآمن من Anker في مصر</h2>
 
-<p>الضمان الوحيد الحقيقي للأصالة هو الشراء من موزع معتمد. في مصر:</p>
+<p>الضمان الوحيد الحقيقي للأصالة هو الشراء من مصدر موثوق. في مصر:</p>
 
 <ul style="line-height: 1.9; margin-right: 20px;">
-<li><strong>كايرو فولت:</strong> الموزع الرسمي — ضمان 18 شهر + دعم عربي</li>
+<li><strong>كايرو فولت:</strong> متجر مستقل — ضمان متجر مكتوب 18 شهر + دعم عربي</li>
 <li><strong>Amazon.eg (seller: كايرو فولت):</strong> نفس الضمان</li>
 <li><strong>منصات أخرى:</strong> تحقق دايماً من البائع وهل هو موزع معتمد</li>
 </ul>
@@ -473,7 +473,7 @@ export const anker_verify_serial_number_security_check: BlogArticle = {
 <li><strong>Stop using it immediately:</strong> Don't continue use even after discovering it's fake</li>
 <li><strong>Return to the seller:</strong> If a store claimed it was genuine — demand a refund</li>
 <li><strong>Report to Anker:</strong> You can report counterfeit products via their website — helps them track and combat fakes</li>
-<li><strong>Replace with authorized source:</strong> CairoVolt or another authorized distributor guarantees authenticity and warranty</li>
+<li><strong>Replace from a trusted source:</strong> CairoVolt — an independent store — guarantees authenticity with its own written store warranty</li>
 </ol>
 
 <h2>Why Many People Don't Notice the Problem Immediately</h2>
@@ -508,7 +508,7 @@ export const anker_verify_serial_number_security_check: BlogArticle = {
 <li>Static Protection: Shields your phone's mainboard from static discharge during plugin.</li>
 </ol>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Genuine Anker accessories: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C PowerLine Cable</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Genuine Anker accessories: <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Nano Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C PowerLine Cable</a>.</p></div>
 
 <h3>The Evolution of Anker's Anti-Counterfeiting Security Technology</h3>
 

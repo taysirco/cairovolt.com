@@ -218,7 +218,7 @@ export const anker_usb_c_charging_cables_powerline_vs_flow: BlogArticle = {
                 },
                 {
                     question: 'هل ضمان مدى الحياة على انكر PowerLine حقيقي؟',
-                    answer: 'أيوا، ضمان مدى الحياة حقيقي — لكن بشروط. يشمل عيوب التصنيع والكسر الناتج عن استخدام طبيعي. لا يشمل القطع الناتج عن إجراءات غير طبيعية (سحب بعنف، قطع متعمد، حرارة شديدة). على كايرو فولت، الضمان ده قابل للتطبيق من خلالنا كموزع معتمد.'
+                    answer: 'أيوا، ضمان مدى الحياة حقيقي — لكن بشروط. يشمل عيوب التصنيع والكسر الناتج عن استخدام طبيعي. لا يشمل القطع الناتج عن إجراءات غير طبيعية (سحب بعنف، قطع متعمد، حرارة شديدة). على كايرو فولت — متجر مستقل — المنتج مدعوم بضمان المتجر المكتوب.'
                 }
             ]
         },
@@ -412,7 +412,7 @@ export const anker_usb_c_charging_cables_powerline_vs_flow: BlogArticle = {
                 },
                 {
                     question: 'Is the lifetime warranty on Anker PowerLine legitimate?',
-                    answer: 'Yes, the lifetime warranty is real — with conditions. It covers manufacturing defects and breakage from normal use. It does not cover cutting from abnormal force, intentional damage, or extreme heat exposure. On CairoVolt, this warranty is enforceable through us as an authorized distributor.'
+                    answer: 'Yes, the lifetime warranty is real — with conditions. It covers manufacturing defects and breakage from normal use. It does not cover cutting from abnormal force, intentional damage, or extreme heat exposure. On CairoVolt — an independent retailer — the product is backed by the CairoVolt written store warranty.'
                 }
             ]
         }

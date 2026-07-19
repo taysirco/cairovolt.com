@@ -44,7 +44,7 @@ export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
                 },
                 {
                     question: 'هل الباوربانك له ضمان لمدة عامين مثل الهواتف المحمولة؟',
-                    answer: 'تتراوح مدة ضمان الباوربانك بين عام وعامين حسب براند المنتج والوكيل المعتمد؛ فمثلاً توكيل أنكر الرسمي بمصر يقدم ضماناً لمدة 18 إلى 24 شهراً على الباوربانك والشواحن الأصلية.'
+                    answer: 'تتراوح مدة ضمان الباوربانك بين عام وعامين حسب براند المنتج والمتجر البائع؛ فمثلاً منتجات أنكر الأصلية بمصر بتتباع عادة بضمان لمدة 18 إلى 24 شهراً على الباوربانك والشواحن حسب المتجر.'
                 }
             ],
             content: `<p>لو إنت شاري موبايل جديد وغالي، ودفع فيه مبلغ وقدره، زي <a href="/blog/online-vs-store-original-accessories-egypt-guide" style="color:#2563eb;font-weight:600;">سعر ايفون 13 برو max في مصر</a> أو موبايل سامسونج s24 ultra، وجيت تشتري شاحن سريع أو سماعة بلوتوث، أكيد هتسأل البياع: "الحاجة دي عليها ضمان قد إيه؟". هنا بتسمع الرد الشهير من بعض أصحاب المحلات: "يا فندم الملحقات والإكسسوارات دي ملهاش ضمان، جربها وأنت واقف في المحل وخلاص!".</p>
@@ -57,7 +57,7 @@ export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
     <li>🚨 <strong>الضمان الإلزامي:</strong> يلتزم المنتج أو الموزع أو الوكيل بتقديم ضمان لا يقل عن **عام كامل (12 شهراً)** ضد عيوب الصناعة لجميع الملحقات الكهربائية النشطة (Active Electronics).</li>
     <li>📜 <strong>بطلان الشروط التعسفية:</strong> أي لافتة أو جملة مطبوعة على الفاتورة مثل "البضاعة المباعة لا ترد ولا تستبدل" أو "الإكسسوارات خارج الضمان" تعتبر باطلة تماماً بموجب المادة 15 من قانون حماية المستهلك، ولا قيمة قانونية لها عند النزاع.</li>
 </ul>
-<p>التزامك بشراء منتجات معتمدة تابعة لوكلاء محليين مثل شواحن <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W</a> أو باوربانكات <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10000</a> يضمن لك تفعيل هذه الحقوق القانونية بسلاسة.</p>
+<p>التزامك بشراء منتجات معتمدة بضمان مكتوب واضح مثل شواحن <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W</a> أو باوربانكات <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10000</a> يضمن لك تفعيل هذه الحقوق القانونية بسلاسة.</p>
 
 <h2>ثانياً: متى يسري الضمان ومتى يسقط؟ الفروق الفنية الدقيقة</h2>
 <p>لكي لا تضيع حقوقك، يجب أن تفهم الفارق الفني بين **عيب الصناعة** و**سوء الاستخدام**، لأن الوكلاء يعتمدون على هذا الفحص الفني لقبول أو رفض الشكوى:</p>
@@ -89,7 +89,7 @@ export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">فئة الملحق الإلكتروني</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الحد الأدنى للضمان القانوني بمصر</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">مدة ضمان الوكيل المعتمد (أنكر/جويروم)</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">مدة الضمان المعتاد للمنتج الأصلي (أنكر/جويروم)</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المستندات المطلوبة للاستبدال</th>
     </tr></thead>
     <tbody>
@@ -176,12 +176,12 @@ export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
                 },
                 {
                     question: 'Do power banks carry a two-year warranty similar to smartphones?',
-                    answer: 'Power bank warranties range from 12 to 24 months depending on the manufacturer and authorized agent. For example, Anker\'s official Egyptian distributor offers a 18 to 24-month warranty on original charging blocks and power banks.'
+                    answer: 'Power bank warranties range from 12 to 24 months depending on the manufacturer and retailer. For example, genuine Anker charging blocks and power banks in Egypt typically carry an 18 to 24-month warranty depending on the store.'
                 }
             ],
             content: `<p>If you have recently purchased an expensive flagship smartphone in Egypt, such as the iPhone 13 Pro Max or the Samsung S24 Ultra, and you decide to buy a fast charger or Bluetooth earbuds, you will naturally ask the merchant: "How long is the warranty on this?". You will often receive the infamous response: "Sir, accessories and cables carry no warranty. Test it in the shop before leaving, and that is it!".</p>
 
-<p>At the CairoVolt lab, we prioritize consumer awareness. This disclaimer is not only technically incorrect; it is a direct violation of the Egyptian Consumer Protection Law. Electrical components are not toys, and using a charger without a warranty poses risks to your phone's battery and your home. In this guide, we detail the local consumer regulations that protect your purchases and explain how to hold uncooperative retailers accountable.</p>
+<p>At CairoVolt, we prioritize consumer awareness. This disclaimer is not only technically incorrect; it is a direct violation of the Egyptian Consumer Protection Law. Electrical components are not toys, and using a charger without a warranty poses risks to your phone's battery and your home. In this guide, we detail the local consumer regulations that protect your purchases and explain how to hold uncooperative retailers accountable.</p>
 
 <h2>1. The 12-Month Rule: What Egyptian Consumer Protection Law Dictates</h2>
 <p>Under Egyptian Law No. 181 of 2018 and its executive regulations, wall chargers, power banks, and wireless earbuds are classified as active electrical consumer goods. The law is explicit and binding:</p>
@@ -189,7 +189,7 @@ export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
     <li>🚨 <strong>Mandatory Warranties:</strong> Manufacturers, distributors, and retailers must provide a warranty of at least **one full year (12 months)** against manufacturing defects for all active consumer electronics.</li>
     <li>📜 <strong>Invalid Disclaimers:</strong> Any printed statements on receipts declaring "sold items are non-refundable and non-exchangeable" or "accessories carry no warranty" are legally void under Article 15 of the Consumer Protection Law. They hold no legal weight in disputes.</li>
 </ul>
-<p>Purchasing certified accessories backed by official local agents, such as <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W chargers</a> or <a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10,000mAh power banks</a>, ensures your consumer rights can be exercised smoothly.</p>
+<p>Purchasing certified accessories backed by clear written warranties, such as <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W chargers</a> or <a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10,000mAh power banks</a>, ensures your consumer rights can be exercised smoothly.</p>
 
 <h2>2. Manufacturing Defects vs. User Damage: Technical Differences</h2>
 <p>To secure your rights, you must understand the distinction between a **manufacturing defect** and **user-inflicted damage**, as local distributors perform technical checks before approving exchanges:</p>
@@ -221,7 +221,7 @@ export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Accessory Class</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Minimum Legal Warranty</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Official Agent Warranty (Anker/Joyroom)</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Typical Genuine-Product Warranty (Anker/Joyroom)</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Required Documents for Claim</th>
     </tr></thead>
     <tbody>

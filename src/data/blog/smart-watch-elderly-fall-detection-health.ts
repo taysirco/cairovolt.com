@@ -36,7 +36,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> ساعة لكبار السن لازم فيها: حساس نبض 24/7 + تنبيه نبض غير طبيعي + تتبع نوم + شاشة كبيرة + بطارية 3+ أيام + إشعارات بصوت عالي. كشف السقوط الحقيقي = Apple Watch أو Galaxy Watch (7,000+ جنيه). البديل العملي في مصر: <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> بـ 1,092 جنيه — 5 من 6 مميزات أساسية.
+        <strong>💡 الإجابة السريعة:</strong> ساعة لكبار السن لازم فيها: حساس نبض 24/7 + تنبيه نبض غير طبيعي + تتبع نوم + شاشة كبيرة + بطارية 3+ أيام + إشعارات بصوت عالي. كشف السقوط الحقيقي = Apple Watch أو Galaxy Watch (7,000+ جنيه). البديل العملي في مصر: <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> بـ 1,092 جنيه — 5 من 6 مميزات أساسية.
     </p>
 </div>
 
@@ -101,7 +101,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <p>كبار السن في مصر — خصوصاً مرضى الضغط والسكر — بياخدوا 3-7 أدوية يومياً في مواعيد مختلفة. والنسيان مش عيب — ده طبيعي بعد سن معيّن. الساعة الذكية بتحل المشكلة دي بشكل عبقري: تنبيهات مواعيد الأدوية بالاهتزاز + صوت + الاسم على الشاشة. مش محتاج يفتح الموبايل أو يدوّر على التطبيق — التنبيه بييجي على إيده مباشرة.</p>
 
-<p>المفاجأة إن معظم الساعات — حتى الاقتصادية — بتدعم إنك تضبط تنبيهات متعددة من تطبيق الموبايل. <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> مثلاً بتسمحلك تضبط لحد 8 تنبيهات يومية بأسماء مختلفة — \"دوا الضغط الصبح\"، \"إنسولين قبل الغدا\"، \"حبة الكالسيوم بالليل\". الاهتزاز على المعصم أصعب في تجاهله من رنة الموبايل اللي ممكن يكون في أوضة تانية.</p>
+<p>المفاجأة إن معظم الساعات — حتى الاقتصادية — بتدعم إنك تضبط تنبيهات متعددة من تطبيق الموبايل. <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> مثلاً بتسمحلك تضبط لحد 8 تنبيهات يومية بأسماء مختلفة — \"دوا الضغط الصبح\"، \"إنسولين قبل الغدا\"، \"حبة الكالسيوم بالليل\". الاهتزاز على المعصم أصعب في تجاهله من رنة الموبايل اللي ممكن يكون في أوضة تانية.</p>
 
 <p>في دراسة نُشرت في Journal of Medical Internet Research (2024): المرضى اللي استخدموا تنبيهات ساعة ذكية لمواعيد الأدوية حققوا نسبة التزام 87% مقارنة بـ 65% للي بيعتمدوا على الذاكرة بس. ده فرق 22 نقطة — ممكن يكون الفرق بين ضغط مضبوط وأزمة ارتفاع ضغط مفاجئة.</p>
 
@@ -132,7 +132,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     </tbody>
 </table>
 
-<p>الحقيقة الواضحة: لو ميزانيتك تسمح وأبوك عنده iPhone — Apple Watch هي الأفضل طبياً بلا منافس. بس لو الميزانية محدودة (وده واقع معظم البيوت المصرية) أو أبوك عنده Samsung أو Xiaomi — <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> بتديك أغلب المميزات الصحية اليومية بعُشر السعر، وبتشتغل على أي موبايل. والأهم: بطاريتها بتكمّل أسبوع — يعني مش هتلاقيها ميتة كل يوم.</p>
+<p>الحقيقة الواضحة: لو ميزانيتك تسمح وأبوك عنده iPhone — Apple Watch هي الأفضل طبياً بلا منافس. بس لو الميزانية محدودة (وده واقع معظم البيوت المصرية) أو أبوك عنده Samsung أو Xiaomi — <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> بتديك أغلب المميزات الصحية اليومية بعُشر السعر، وبتشتغل على أي موبايل. والأهم: بطاريتها بتكمّل أسبوع — يعني مش هتلاقيها ميتة كل يوم.</p>
 
 <h2>5 أخطاء شائعة عند شراء ساعة لكبار السن — تجنّبها</h2>
 
@@ -162,7 +162,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ ساعة ذكية صحية لكبار السن — على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — نبض القلب 24/7 + تنبيه أدوية + مكالمات بلوتوث + شاشة 1.96 بوصة + بطارية 7 أيام. متوافقة مع أي موبايل. بضمان 12 شهر + توصيل لكل المحافظات.
+        <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — نبض القلب 24/7 + تنبيه أدوية + مكالمات بلوتوث + شاشة 1.96 بوصة + بطارية 7 أيام. متوافقة مع أي موبايل. بضمان 12 شهر + توصيل لكل المحافظات.
     </p>
 </div>`,
             faq: [
@@ -199,7 +199,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> A smartwatch for elderly parents needs: 24/7 heart rate sensor + abnormal heart rate alerts + sleep tracking + large screen + 3+ day battery + loud notifications. Real fall detection = Apple Watch or Galaxy Watch (7,000+ EGP). Practical alternative in Egypt: <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> at 1,092 EGP — 5 of 6 essential features.
+        <strong>💡 Quick Answer:</strong> A smartwatch for elderly parents needs: 24/7 heart rate sensor + abnormal heart rate alerts + sleep tracking + large screen + 3+ day battery + loud notifications. Real fall detection = Apple Watch or Galaxy Watch (7,000+ EGP). Practical alternative in Egypt: <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> at 1,092 EGP — 5 of 6 essential features.
     </p>
 </div>
 
@@ -264,7 +264,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <p>Elderly people in Egypt — especially those with hypertension and diabetes — take 3-7 medications daily at different times. Forgetting is not a flaw — it is natural after a certain age. A smartwatch solves this problem brilliantly: medication reminders via vibration + sound + the medicine name on screen. No need to open a phone or search for an app — the alert comes directly on the wrist.</p>
 
-<p>The surprise is that most watches — even budget ones — support multiple reminders set through the phone app. The <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a>, for example, allows up to 8 daily reminders with different names — "Morning blood pressure pill," "Insulin before lunch," "Calcium tablet at night." A vibration on the wrist is harder to ignore than a phone ringtone that might be in another room.</p>
+<p>The surprise is that most watches — even budget ones — support multiple reminders set through the phone app. The <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a>, for example, allows up to 8 daily reminders with different names — "Morning blood pressure pill," "Insulin before lunch," "Calcium tablet at night." A vibration on the wrist is harder to ignore than a phone ringtone that might be in another room.</p>
 
 <p>A study published in the Journal of Medical Internet Research (2024) found that patients using smartwatch medication reminders achieved an 87% adherence rate compared to 65% for those relying on memory alone. That is a 22-point difference — which could be the difference between controlled blood pressure and a sudden hypertensive crisis.</p>
 
@@ -295,7 +295,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     </tbody>
 </table>
 
-<p>The clear truth: if your budget allows and your parent has an iPhone — Apple Watch is the unmatched medical champion. But if your budget is limited (the reality for most Egyptian families) or your parent uses Samsung or Xiaomi — the <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> provides most daily health features at one-tenth the price, works with any phone, and — crucially — its battery lasts a week, meaning you will not find it dead every day.</p>
+<p>The clear truth: if your budget allows and your parent has an iPhone — Apple Watch is the unmatched medical champion. But if your budget is limited (the reality for most Egyptian families) or your parent uses Samsung or Xiaomi — the <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> provides most daily health features at one-tenth the price, works with any phone, and — crucially — its battery lasts a week, meaning you will not find it dead every day.</p>
 
 <h2>5 Common Mistakes When Buying a Watch for Elderly Parents — Avoid Them</h2>
 
@@ -325,7 +325,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Health Smartwatch for Elderly Parents — on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — 24/7 heart rate + medication reminders + Bluetooth calls + 1.96" screen + 7-day battery. Compatible with any phone. 12-month warranty + delivery across all governorates.
+        <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — 24/7 heart rate + medication reminders + Bluetooth calls + 1.96" screen + 7-day battery. Compatible with any phone. 12-month warranty + delivery across all governorates.
     </p>
 </div>`,
             faq: [

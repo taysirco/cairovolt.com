@@ -139,7 +139,7 @@ export const soundcore_r100_specs_problems_solutions: BlogArticle = {
 </ul>
 
 <h2>الضمان المعتمد وخدمات الصيانة والدعم الفني في مصر</h2>
-<p>يحظى مشترو الموديل R100 في مصر بضمان استثنائي يمتد لـ 18 شهراً من الوكيل الرسمي، والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول جهازك في مراكز الدعم الفني الرسمية.</p>
+<p>يحظى مشترو الموديل R100 من كايرو فولت بضمان استثنائي يمتد لـ 18 شهراً — ضمان المتجر المكتوب — والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول جهازك عند تقديم طلب الضمان.</p>
 <p>ملاحظة هامة من فريق الصيانة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن خارج المراكز المعتمدة. كما يوصى بالتحقق من ملصق الضمان الفضي الموجود على كرتونة المنتج للتأكد من الموزع المحلي المسؤول عن التغطية.</p>
 
 <h2>تفاصيل الضمان والصيانة في مصر من كايرو فولت</h2>
@@ -149,7 +149,7 @@ export const soundcore_r100_specs_problems_solutions: BlogArticle = {
     <li><strong>شحن سريع ومعاينة قبل الدفع:</strong> نقوم بشحن الطلب ليصلك خلال 24 إلى 48 ساعة فقط لجميع المحافظات، مع السماح الكامل بفتح الشحنة وفحصها خارجياً قبل سداد قيمتها للمندوب للتأكد من المنتج الأصلي.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 عروض مميزة على سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد المنتجات الأصلية: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i البديلة</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الصغيرة</a> · <a href="/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة R50i NC بعزل الضوضاء</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 عروض مميزة على سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد المنتجات الأصلية: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i البديلة</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الصغيرة</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة R50i NC بعزل الضوضاء</a>.</p></div>` ,
             faq: [
                 {
                     question: 'هل يمكنني توصيل سماعة Soundcore R100 بتطبيق الموبايل لتعديل الصوت؟',
@@ -290,7 +290,7 @@ export const soundcore_r100_specs_problems_solutions: BlogArticle = {
     <li><strong>Fast Delivery and Package Inspection:</strong> Orders are delivered to all Egyptian governorates in 24 to 48 hours. CairoVolt permits customers to open and inspect the package before paying the courier.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore models at CairoVolt: <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a> · <a href="/en/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore models at CairoVolt: <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a>.</p></div>` ,
             faq: [
                 {
                     question: 'Can I connect the Soundcore R100 to the official app to adjust settings?',

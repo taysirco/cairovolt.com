@@ -157,7 +157,7 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
 
 <h2>ميزة Multipoint — توصيل سماعة بجهازين في نفس الوقت</h2>
 
-<p>ميزة مهمة جاية مع BT 5.2/5.3 وأحدث هي Bluetooth Multipoint — بتسمح لسماعتك تتوصل بجهازين في نفس الوقت. مثلاً: موصلة باللابتوب عشان الموسيقى، وفي نفس الوقت موصلة بالموبايل. لما حد يكلمك على الموبايل — السماعة بتحول تلقائياً للمكالمة، وبعد ما تخلص بترجع للموسيقى على اللابتوب من غير ما تعمل أي حاجة يدوياً. ده بيوفّر عليك وجع الدماغ بتاع فصل واعادة توصيل السماعة كل شوية. <a href="/soundcore/headphones/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Soundcore Space One</a> و <a href="/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> بيدعموا Multipoint — ودي ميزة بتفرق فعلاً في الاستخدام اليومي أكتر من رقم البلوتوث نفسه.</p>
+<p>ميزة مهمة جاية مع BT 5.2/5.3 وأحدث هي Bluetooth Multipoint — بتسمح لسماعتك تتوصل بجهازين في نفس الوقت. مثلاً: موصلة باللابتوب عشان الموسيقى، وفي نفس الوقت موصلة بالموبايل. لما حد يكلمك على الموبايل — السماعة بتحول تلقائياً للمكالمة، وبعد ما تخلص بترجع للموسيقى على اللابتوب من غير ما تعمل أي حاجة يدوياً. ده بيوفّر عليك وجع الدماغ بتاع فصل واعادة توصيل السماعة كل شوية. <a href="/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Soundcore Space One</a> و <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> بيدعموا Multipoint — ودي ميزة بتفرق فعلاً في الاستخدام اليومي أكتر من رقم البلوتوث نفسه.</p>
 
 <h2>3 خرافات شائعة عن البلوتوث</h2>
 
@@ -171,7 +171,7 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">1️⃣ <strong>الكوديك أولاً:</strong> دوّر على LDAC أو aptX لو عايز أفضل جودة صوت. لو مستخدم iPhone — AAC كفاية.</li>
-    <li style="margin-bottom:12px;">2️⃣ <strong>ANC ثانياً:</strong> لو بتسمع في أماكن صاخبة — إلغاء الضوضاء (ANC) أهم بكتير من رقم البلوتوث. <a href="/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> من أفضل الخيارات في مصر. ولو عايز تفهم الفرق بين ANC و ENC، اقرأ <a href="/blog/anc-vs-enc-vs-transparency-mode-difference" style="color:#2563eb;font-weight:600;">ANC ضد ENC — إيه الفرق؟</a></li>
+    <li style="margin-bottom:12px;">2️⃣ <strong>ANC ثانياً:</strong> لو بتسمع في أماكن صاخبة — إلغاء الضوضاء (ANC) أهم بكتير من رقم البلوتوث. <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> من أفضل الخيارات في مصر. ولو عايز تفهم الفرق بين ANC و ENC، اقرأ <a href="/blog/anc-vs-enc-vs-transparency-mode-difference" style="color:#2563eb;font-weight:600;">ANC ضد ENC — إيه الفرق؟</a></li>
     <li style="margin-bottom:12px;">3️⃣ <strong>BT 5.3 كحد أدنى:</strong> في 2026، مفيش سبب تشتري سماعة BT 5.0. ادفع شوية زيادة واحصل على 5.3 — الثبات والبطارية أفضل بوضوح.</li>
     <li style="margin-bottom:12px;">4️⃣ <strong>متدفعش أكتر عشان BT 5.4:</strong> لو سماعتين بنفس السعر — خد 5.4 طبعاً. لكن لو 5.4 أغلى بـ 200-300ج — وفّر الفلوس. مش هتحس بفرق.</li>
 </ul>
@@ -179,7 +179,7 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ سماعات Soundcore أصلية بأحدث بلوتوث — بضمان على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#166534;font-weight:600;">Liberty 4 NC</a> (BT 5.3 + LDAC + ANC) أو <a href="/soundcore/earbuds/anker-soundcore-r50i-nc" style="color:#166534;font-weight:600;">R50i NC</a> (BT 5.3 + ANC بسعر اقتصادي). كلها <strong>أصلية 100%</strong> بضمان 18 شهر + توصيل لكل المحافظات + دفع عند الاستلام.
+        <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#166534;font-weight:600;">Liberty 4 NC</a> (BT 5.3 + LDAC + ANC) أو <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#166534;font-weight:600;">R50i NC</a> (BT 5.3 + ANC بسعر اقتصادي). كلها <strong>أصلية 100%</strong> بضمان 18 شهر + توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>`,
             faq: [
@@ -336,7 +336,7 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
 
 <h2>Multipoint — Connect to Two Devices Simultaneously</h2>
 
-<p>An important feature coming with BT 5.2/5.3 and newer is Bluetooth Multipoint — it allows your earbuds to connect to two devices simultaneously. For example: connected to your laptop for music and to your phone at the same time. When someone calls you on your phone — the earbuds automatically switch to the call, and after you hang up they return to music on the laptop. The <a href="/en/soundcore/headphones/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Soundcore Space One</a> and <a href="/en/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> support Multipoint — and this is a feature that makes more of a daily difference than the Bluetooth version number itself.</p>
+<p>An important feature coming with BT 5.2/5.3 and newer is Bluetooth Multipoint — it allows your earbuds to connect to two devices simultaneously. For example: connected to your laptop for music and to your phone at the same time. When someone calls you on your phone — the earbuds automatically switch to the call, and after you hang up they return to music on the laptop. The <a href="/en/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Soundcore Space One</a> and <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> support Multipoint — and this is a feature that makes more of a daily difference than the Bluetooth version number itself.</p>
 
 <h2>3 Common Bluetooth Myths Debunked</h2>
 
@@ -350,7 +350,7 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">1️⃣ <strong>Codec first:</strong> Look for LDAC or aptX if you want the best sound quality. If you use iPhone — AAC is sufficient.</li>
-    <li style="margin-bottom:12px;">2️⃣ <strong>ANC second:</strong> If you listen in noisy environments — Active Noise Cancellation (ANC) is far more important than the Bluetooth version number. <a href="/en/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> is one of the best options in Egypt. To understand the difference between ANC and ENC, read <a href="/en/blog/anc-vs-enc-vs-transparency-mode-difference" style="color:#2563eb;font-weight:600;">ANC vs ENC — What Is the Difference?</a></li>
+    <li style="margin-bottom:12px;">2️⃣ <strong>ANC second:</strong> If you listen in noisy environments — Active Noise Cancellation (ANC) is far more important than the Bluetooth version number. <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> is one of the best options in Egypt. To understand the difference between ANC and ENC, read <a href="/en/blog/anc-vs-enc-vs-transparency-mode-difference" style="color:#2563eb;font-weight:600;">ANC vs ENC — What Is the Difference?</a></li>
     <li style="margin-bottom:12px;">3️⃣ <strong>BT 5.3 minimum:</strong> In 2026, there is no reason to buy BT 5.0 earbuds. Pay a little more and get 5.3 — stability and battery are clearly better.</li>
     <li style="margin-bottom:12px;">4️⃣ <strong>Do not pay extra for BT 5.4:</strong> If two earbuds are the same price — take 5.4 of course. But if 5.4 is 200-300 EGP more expensive — save the money. You will not notice a difference.</li>
 </ul>
@@ -358,7 +358,7 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Genuine Soundcore Earbuds with Latest Bluetooth — Warranty at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/soundcore/earbuds/soundcore-liberty-4-nc" style="color:#166534;font-weight:600;">Liberty 4 NC</a> (BT 5.3 + LDAC + ANC) or <a href="/en/soundcore/earbuds/anker-soundcore-r50i-nc" style="color:#166534;font-weight:600;">R50i NC</a> (BT 5.3 + ANC at budget price). All <strong>100% genuine</strong> with 18-month warranty + delivery to all governorates + cash on delivery.
+        <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#166534;font-weight:600;">Liberty 4 NC</a> (BT 5.3 + LDAC + ANC) or <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#166534;font-weight:600;">R50i NC</a> (BT 5.3 + ANC at budget price). All <strong>100% genuine</strong> with 18-month warranty + delivery to all governorates + cash on delivery.
     </p>
 </div>`,
             faq: [

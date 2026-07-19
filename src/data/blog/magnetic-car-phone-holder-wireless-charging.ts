@@ -41,7 +41,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> حامل السيارة المغناطيسي بشحن لاسلكي حل ممتاز للراحة لكن مش الأسرع في الشحن. أقصى سرعة 15W (MagSafe) أو 7.5W (Qi عادي). الأفضل للي بيستخدم GPS وعايز إيده فاضية. في صيف مصر الحرارة بتنزّل السرعة لـ 5W. لو محتاج شحن سريع → <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">شاحن سلكي</a> أحسن. لو محتاج راحة → <a href="/joyroom/car-accessories/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">حامل جوي روم ZS290</a> هو الخيار.
+        <strong>💡 الإجابة السريعة:</strong> حامل السيارة المغناطيسي بشحن لاسلكي حل ممتاز للراحة لكن مش الأسرع في الشحن. أقصى سرعة 15W (MagSafe) أو 7.5W (Qi عادي). الأفضل للي بيستخدم GPS وعايز إيده فاضية. في صيف مصر الحرارة بتنزّل السرعة لـ 5W. لو محتاج شحن سريع → <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">شاحن سلكي</a> أحسن. لو محتاج راحة → <a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">حامل جوي روم ZS290</a> هو الخيار.
     </p>
 </div>
 
@@ -156,7 +156,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 <h2>قوة المغناطيس: هل الموبايل هيقع على مطبات مصر؟</h2>
 <p>ده من أكتر الأسئلة اللي بنسمعها. والإجابة المختصرة: <strong>بيعتمد على جودة الحامل وقوة المغناطيس</strong>. مش كل الحوامل المغناطيسية زي بعض. خلينا نفهم الفرق:</p>
 <ul>
-<li><strong>مغناطيس N52:</strong> ده أقوى درجة مغناطيس نيوديميوم متاحة تجارياً. بيتحمل اهتزازات عادية ومطبات متوسطة. الحوامل المحترمة زي <a href="/joyroom/car-accessories/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> بتستخدم النوع ده.</li>
+<li><strong>مغناطيس N52:</strong> ده أقوى درجة مغناطيس نيوديميوم متاحة تجارياً. بيتحمل اهتزازات عادية ومطبات متوسطة. الحوامل المحترمة زي <a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> بتستخدم النوع ده.</li>
 <li><strong>مغناطيس N35-N42:</strong> أضعف بنسبة 20-40%. بيشتغل على طرق سليمة بس بيقع بسهولة على المطبات القوية.</li>
 <li><strong>مغناطيس رخيص (بدون تصنيف):</strong> اللي في الحوامل اللي بـ 50-100 جنيه. خطر فعلي — الموبايل بيقع حتى مع فرملة عادية.</li>
 </ul>
@@ -247,7 +247,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 <div class="cta-box" style="background:linear-gradient(135deg,#eff6ff,#f0fdf4);border:2px solid #2563eb;border-radius:12px;padding:24px;margin:32px 0;text-align:center;">
     <p style="font-size:18px;font-weight:700;color:#1e40af;margin:0 0 12px;">🧲 جاهز تثبّت موبايلك في العربية بدون قلق؟</p>
     <p style="font-size:15px;color:#374151;margin:0 0 16px;">تصفّح حوامل الموبايل الأصلية على كايرو فولت — ضمان 18 شهر + توصيل لكل المحافظات.</p>
-    <p style="margin:0;"><a href="/joyroom/car-accessories" style="display:inline-block;background:#2563eb;color:#fff;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">تصفّح حوامل السيارة</a></p>
+    <p style="margin:0;"><a href="/joyroom/car-holders" style="display:inline-block;background:#2563eb;color:#fff;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">تصفّح حوامل السيارة</a></p>
 </div>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
@@ -293,7 +293,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> A magnetic wireless charging car mount is excellent for convenience but not the fastest charger. Max speed: 15W (MagSafe) or 7.5W (standard Qi). Best for GPS users who want hands-free convenience. In Egyptian summer, heat throttles charging to 5W. If you need fast charging → <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">a wired charger</a> is better. If you need convenience → <a href="/en/joyroom/car-accessories/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290 mount</a> is the choice.
+        <strong>💡 Quick Answer:</strong> A magnetic wireless charging car mount is excellent for convenience but not the fastest charger. Max speed: 15W (MagSafe) or 7.5W (standard Qi). Best for GPS users who want hands-free convenience. In Egyptian summer, heat throttles charging to 5W. If you need fast charging → <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">a wired charger</a> is better. If you need convenience → <a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290 mount</a> is the choice.
     </p>
 </div>
 
@@ -408,7 +408,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 <h2>Magnet Strength: Will Your Phone Survive Egyptian Road Bumps?</h2>
 <p>This is one of the most common concerns we hear. The short answer: <strong>it depends on mount quality and magnet strength</strong>. Not all magnetic mounts are created equal. Here's the breakdown:</p>
 <ul>
-<li><strong>N52 magnets:</strong> The strongest commercially available neodymium grade. Handles normal vibrations and moderate bumps well. Quality mounts like the <a href="/en/joyroom/car-accessories/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> use this grade.</li>
+<li><strong>N52 magnets:</strong> The strongest commercially available neodymium grade. Handles normal vibrations and moderate bumps well. Quality mounts like the <a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> use this grade.</li>
 <li><strong>N35-N42 magnets:</strong> 20-40% weaker. Works on smooth roads but drops the phone easily on rough surfaces.</li>
 <li><strong>Ungraded cheap magnets:</strong> Found in 50-100 EGP mounts. A genuine safety hazard — the phone falls off even during normal braking.</li>
 </ul>
@@ -495,7 +495,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 <div class="cta-box" style="background:linear-gradient(135deg,#eff6ff,#f0fdf4);border:2px solid #2563eb;border-radius:12px;padding:24px;margin:32px 0;text-align:center;">
     <p style="font-size:18px;font-weight:700;color:#1e40af;margin:0 0 12px;">🧲 Ready to mount your phone worry-free?</p>
     <p style="font-size:15px;color:#374151;margin:0 0 16px;">Browse original car phone mounts on CairoVolt — 18-month warranty + nationwide delivery.</p>
-    <p style="margin:0;"><a href="/en/joyroom/car-accessories" style="display:inline-block;background:#2563eb;color:#fff;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">Browse Car Mounts</a></p>
+    <p style="margin:0;"><a href="/en/joyroom/car-holders" style="display:inline-block;background:#2563eb;color:#fff;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">Browse Car Mounts</a></p>
 </div>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">

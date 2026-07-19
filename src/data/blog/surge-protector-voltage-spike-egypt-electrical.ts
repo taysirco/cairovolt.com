@@ -89,7 +89,7 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
 <p>واقي الفولتية الكويس فيه لمبة LED (عادةً خضراء) بتقول "الحماية شغالة". لو اللمبة دي طفيت — معناها الـ MOV استهلك ومبقاش بيحمي. في الحالة دي — الواقي بقى مجرد مشترك عادي ومحتاج يتغيّر. دوّر على واقي فيه مؤشرين: واحد للتشغيل (Power) وواحد للحماية (Protected). لو في مؤشر واحد بس — اتأكد إنه مؤشر الحماية مش التشغيل.</p>
 
 <h3>3. عدد المخارج ونوعها</h3>
-<p>عدّ الأجهزة اللي محتاج توصّلها — وزوّد مخرج أو اتنين احتياطي. لو بتشحن أجهزة كتير — شوف واقي فيه مخارج USB-A أو USB-C مدمجة — ده بيوفّر مساحة وبيقلل عدد الشواحن. بس خلّي بالك: مخارج الـ USB في الواقي مش دايماً بتدعم شحن سريع — لو محتاج شحن سريع حقيقي، الأفضل تستخدم <a href="/anker/chargers" style="color:#2563eb;font-weight:600;">شاحن انكر مخصص</a> متوصل بمخرج الحائط في الواقي.</p>
+<p>عدّ الأجهزة اللي محتاج توصّلها — وزوّد مخرج أو اتنين احتياطي. لو بتشحن أجهزة كتير — شوف واقي فيه مخارج USB-A أو USB-C مدمجة — ده بيوفّر مساحة وبيقلل عدد الشواحن. بس خلّي بالك: مخارج الـ USB في الواقي مش دايماً بتدعم شحن سريع — لو محتاج شحن سريع حقيقي، الأفضل تستخدم <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شاحن انكر مخصص</a> متوصل بمخرج الحائط في الواقي.</p>
 
 <h3>4. حماية إضافية (Clamping Voltage)</h3>
 <p>الـ Clamping Voltage هو أقصى جهد بيسمح بيه الواقي يعدّي لأجهزتك. كل ما الرقم أقل — الحماية أفضل. المعيار الجيد: 330V أو أقل (ده المعيار الأمريكي UL1449). يعني لو الجهد وصل 331V — الواقي بيبدأ يمتص الزيادة فوراً. بعض الأنواع الرخيصة بتسمح بـ 400V أو أكتر — وده بيسيب جهد عالي يعدّي لأجهزتك قبل ما يتدخل. في شبكة مصر (220V) — واقي بـ Clamping Voltage 330V بيديك هامش أمان ممتاز.</p>
@@ -104,7 +104,7 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
     <li style="margin-bottom:8px;">✅ الكمبيوتر واللابتوب — الإلكترونيات الحساسة فيهم مش بتتحمل ذبذبات الجهد.</li>
     <li style="margin-bottom:8px;">✅ الراوتر والسويتش — تذبذب بسيط ممكن يحرق البورد الداخلي.</li>
     <li style="margin-bottom:8px;">✅ شاشة التليفزيون — خصوصاً الـ Smart TV والـ OLED.</li>
-    <li style="margin-bottom:8px;">✅ شواحن الأجهزة الثمينة — <a href="/anker/chargers" style="color:#2563eb;">شواحن انكر</a> فيها حماية داخلية بس واقي الفولتية بيضيف طبقة حماية إضافية.</li>
+    <li style="margin-bottom:8px;">✅ شواحن الأجهزة الثمينة — <a href="/anker/wall-chargers" style="color:#2563eb;">شواحن انكر</a> فيها حماية داخلية بس واقي الفولتية بيضيف طبقة حماية إضافية.</li>
     <li style="margin-bottom:8px;">✅ البلايستيشن / إكس بوكس — أي جهاز ألعاب ثمنه عالي.</li>
 </ul>
 
@@ -136,10 +136,10 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> فيها حماية داخلية متعددة الطبقات (حماية من ارتفاع الجهد + ارتفاع الحرارة + التيار الزيادة). وصّلها بواقي فولتية كويس — وأجهزتك في أمان تام. ضمان 18 شهر + توصيل لكل المحافظات.
+        <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> فيها حماية داخلية متعددة الطبقات (حماية من ارتفاع الجهد + ارتفاع الحرارة + التيار الزيادة). وصّلها بواقي فولتية كويس — وأجهزتك في أمان تام. ضمان 18 شهر + توصيل لكل المحافظات.
     </p>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل Anker PowerLine USB-C</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل Anker PowerLine USB-C</a>.</p></div>
 `,
             faq: [
                 {
@@ -227,7 +227,7 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
 <p>A good surge protector has an LED (usually green) indicating "protection active." If this light goes off — it means the MOV is exhausted and no longer protecting. At that point — the protector has become just a regular power strip and needs replacement. Look for protectors with two indicators: one for Power and one for Protected. If there's only one indicator — make sure it's the protection indicator, not just the power indicator.</p>
 
 <h3>3. Number and Type of Outlets</h3>
-<p>Count the devices you need to connect — and add one or two spare outlets. If you charge many devices — look for protectors with built-in USB-A or USB-C ports — this saves space and reduces the number of chargers. But note: USB ports on protectors don't always support fast charging — if you need true fast charging, it's better to use a dedicated <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Anker charger</a> plugged into a wall outlet on the protector.</p>
+<p>Count the devices you need to connect — and add one or two spare outlets. If you charge many devices — look for protectors with built-in USB-A or USB-C ports — this saves space and reduces the number of chargers. But note: USB ports on protectors don't always support fast charging — if you need true fast charging, it's better to use a dedicated <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">Anker charger</a> plugged into a wall outlet on the protector.</p>
 
 <h3>4. Additional Protection (Clamping Voltage)</h3>
 <p>Clamping Voltage is the maximum voltage the protector allows to pass through to your devices. Lower number = better protection. The good standard: 330V or less (the American UL1449 standard). Meaning if voltage reaches 331V — the protector immediately starts absorbing the excess. Some cheap models allow 400V or more — letting high voltage pass through to your devices before intervening. On Egypt's grid (220V) — a protector with 330V Clamping Voltage gives you an excellent safety margin.</p>
@@ -242,7 +242,7 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
     <li style="margin-bottom:8px;">✅ Computers and laptops — sensitive electronics can't tolerate voltage fluctuations.</li>
     <li style="margin-bottom:8px;">✅ Routers and switches — a small fluctuation can burn the internal board.</li>
     <li style="margin-bottom:8px;">✅ TV screens — especially Smart TVs and OLEDs.</li>
-    <li style="margin-bottom:8px;">✅ Chargers for expensive devices — <a href="/en/anker/chargers" style="color:#2563eb;">Anker chargers</a> have internal protection but a surge protector adds an extra layer.</li>
+    <li style="margin-bottom:8px;">✅ Chargers for expensive devices — <a href="/en/anker/wall-chargers" style="color:#2563eb;">Anker chargers</a> have internal protection but a surge protector adds an extra layer.</li>
     <li style="margin-bottom:8px;">✅ PlayStation / Xbox — any high-value gaming console.</li>
 </ul>
 
@@ -268,10 +268,10 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> feature multi-layer internal protection (over-voltage + over-temperature + over-current). Connect them to a quality surge protector — and your devices are fully safe. 18-month warranty + delivery to all governorates.
+        <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> feature multi-layer internal protection (over-voltage + over-temperature + over-current). Connect them to a quality surge protector — and your devices are fully safe. 18-month warranty + delivery to all governorates.
     </p>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C Cable</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C Cable</a>.</p></div>
 `,
             faq: [
                 {

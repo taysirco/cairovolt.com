@@ -171,7 +171,7 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
 <p>عند مقارنة P20i بمنافسين مثل QCY T13 أو Xiaomi Redmi Buds، تظهر عدة فروق جوهرية تصب في مصلحة أنكر:</p>
 <ul>
 <li><strong>خامات الدرايفر (Driver Diaphragm):</strong> تستخدم أنكر غشاءً من البوليمر المرن بقطر 10 مم، مما يعطي مرونة أكبر واهتزازاً أعمق للباس مقارنة بالدرايفرات الورقية الرخيصة في الماركات المجهولة.</li>
-<li><strong>الضمان المحلي والدعم الفني:</strong> الميزة الأكبر في مصر هي فترة الضمان التي تبلغ 18 شهراً كاملة من الوكيل المعتمد (وعبر كايرو فولت)، بينما تأتي أغلب سماعات الفئة الاقتصادية بضمان محلي لا يتجاوز 3 أو 6 أشهر كحد أقصى. هذا يوفر راحة بال حقيقية للمشتري المصري.</li>
+<li><strong>الضمان المحلي والدعم الفني:</strong> الميزة الأكبر في مصر هي فترة الضمان التي تبلغ 18 شهراً كاملة بضمان المتجر المكتوب عبر كايرو فولت، بينما تأتي أغلب سماعات الفئة الاقتصادية بضمان محلي لا يتجاوز 3 أو 6 أشهر كحد أقصى. هذا يوفر راحة بال حقيقية للمشتري المصري.</li>
 </ul>
 
 <h2>حماية منفذ الشحن والتعامل مع تذبذب التيار الكهربائي</h2>
@@ -181,7 +181,7 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
 <li><strong>حماية منفذ Type-C:</strong> احرص على تنظيف المنفذ بانتظام باستخدام دبوس صغير لإزالة خيوط الجيب والأتربة التي تمنع الكابل من الاستقرار والشحن بشكل سليم.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 عروض حصرية على سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">أفضل قيمة مقابل السعر: <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a> · <a href="/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a> · <a href="/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الأساسية</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 عروض حصرية على سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">أفضل قيمة مقابل السعر: <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a> · <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الأساسية</a>.</p></div>
 
 <h2>دعم تطبيق Soundcore ومميزات التحكم وتخصيص الصوت</h2>
 <p>على عكس الكثير من السماعات الاقتصادية المنافسة في السوق المصري التي تأتي بدون تطبيق مصاحب وتجبرك على قبول توقيع الصوت الافتراضي، تتميز Soundcore P20i بالدعم الكامل لتطبيق Soundcore الرسمي المتاح مجاناً على هواتف أندرويد وآيفون. هذا الدعم يمنح المستخدم المصري مزايا تقنية هامة:</p>
@@ -426,7 +426,7 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
 <li><strong>Clean the Type-C Port:</strong> Dust and pocket lint easily accumulate inside the exposed Type-C port, preventing the charging cable from seating correctly. Clean it gently with a non-metallic toothpick once a month.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore earbuds: <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a> · <a href="/en/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore earbuds: <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a>.</p></div>
 
 <h2>Soundcore App Support and Audio Customization Features</h2>
 <p>Unlike most budget wireless earbuds in Egypt that force you to accept their default sound profile, the P20i features full integration with the official Soundcore companion app on Android and iOS. This unlocks critical benefits:</p>

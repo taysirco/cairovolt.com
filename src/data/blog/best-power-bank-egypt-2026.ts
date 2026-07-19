@@ -96,7 +96,7 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 
 <h3>حسب الميزانية:</h3>
 <ul>
-<li><strong>أقل من 500 جنيه:</strong> جوي روم 10000mAh</li>
+<li><strong>أقل من 1,000 جنيه:</strong> جوي روم 20000mAh (997ج) أو جوي روم المغناطيسي 10000 (850ج)</li>
 <li><strong>500-1500 جنيه:</strong> أنكر PowerCore 20000 أو Nano 10000</li>
 <li><strong>أكثر من 1500 جنيه:</strong> أنكر Prime للمحترفين</li>
 </ul>

@@ -103,7 +103,7 @@ export const samsung_galaxy_m_buying_guide_accessories: BlogArticle = {
 
 <h3>3. سماعات بلوتوث ممتازة لتوفير البطارية</h3>
 <ul>
-    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> ننصح بـ <a href="/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a>، والتي تقدم تجربة صوت نقي جداً وتتصل بسلاسة تامة بمحرك الصوت في هواتف سامسونج.</li>
+    <li>🎵 <strong>سماعات جويروم اللاسلكية:</strong> ننصح بـ <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">سماعات جويروم اللاسلكية JR-T03S Pro</a>، والتي تقدم تجربة صوت نقي جداً وتتصل بسلاسة تامة بمحرك الصوت في هواتف سامسونج.</li>
 </ul>
 
 <h2>سابعاً: جدول تفصيلي لمقارنة طرازات M الشائعة بمصر</h2>
@@ -226,12 +226,12 @@ export const samsung_galaxy_m_buying_guide_accessories: BlogArticle = {
 
 <h3>Low-Resistance USB-C Cables</h3>
 <ul>
-    <li>🔌 <strong>Joyroom Type-C to Type-C Cable:</strong> We recommend the <a href="/en/joyroom/type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom Type-C to Type-C Cable</a>. Its heavy-duty copper core reduces resistance, ensuring stable power delivery and protecting the port.</li>
+    <li>🔌 <strong>Joyroom Type-C to Type-C Cable:</strong> We recommend the <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom Type-C to Type-C Cable</a>. Its heavy-duty copper core reduces resistance, ensuring stable power delivery and protecting the port.</li>
 </ul>
 
 <h3>Compatible Wireless Earbuds</h3>
 <ul>
-    <li>🎵 <strong>Joyroom Wireless Buds:</strong> Consider the <a href="/en/joyroom/earbuds/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a> for excellent sound quality and stable Bluetooth integration on Samsung devices.</li>
+    <li>🎵 <strong>Joyroom Wireless Buds:</strong> Consider the <a href="/en/joyroom/audio/joyroom-jr-t03-wireless-earbuds" style="color:#2563eb;font-weight:600;">Joyroom JR-T03S Pro Wireless Earbuds</a> for excellent sound quality and stable Bluetooth integration on Samsung devices.</li>
 </ul>
 
 <h2>7. Samsung Galaxy M Series Model Comparison</h2>
