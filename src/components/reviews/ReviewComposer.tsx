@@ -152,7 +152,7 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
 
     const submit = async () => {
         setError('');
-        if (!credential) { setError(isArabic ? 'سجّل الدخول بجوجل أولاً' : 'Sign in with Google first'); return; }
+        if (!credential) { setError(isArabic ? 'سجّل الدخول بجوجل أو فيسبوك أولاً' : 'Sign in with Google or Facebook first'); return; }
         if (!rating) { setError(isArabic ? 'اختر عدد النجوم' : 'Pick a star rating'); return; }
         if (text.trim().length < 10) { setError(isArabic ? 'اكتب تقييماً من 10 أحرف على الأقل' : 'Write at least 10 characters'); return; }
         if (!/^01[0125]\d{8}$/.test(phone.trim())) { setError(isArabic ? 'اكتب رقم واتساب صحيح (01xxxxxxxxx) لاستلام هدية 5%' : 'Enter a valid WhatsApp number'); return; }
