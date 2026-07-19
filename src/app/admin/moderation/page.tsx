@@ -18,7 +18,7 @@ interface PendingReview {
     images: string[];
     isVerified: boolean;
     authEmail: string; authProvider: string;
-    rewardPhone: string; rewardStatus: string;
+    rewardPhone: string; rewardStatus: string; rewardRef?: string;
     reviewDate: string | null;
 }
 
@@ -84,12 +84,12 @@ export default function ModerationPage() {
     return (
         <div className="min-h-screen bg-gray-50 p-4" dir="rtl">
             <div className="max-w-3xl mx-auto space-y-4">
-                <div className="flex items-center justify-between">
-                    <h1 className="font-bold text-xl">🛡️ إشراف التقييمات</h1>
-                    <div className="flex gap-1 bg-white rounded-xl p-1 shadow-sm">
+                <div className="flex items-center justify-between flex-wrap gap-3">
+                    <h1 className="font-bold text-lg sm:text-xl">🛡️ إشراف التقييمات</h1>
+                    <div className="flex gap-1 bg-white rounded-xl p-1 shadow-sm w-full sm:w-auto">
                         {(['pending', 'approved', 'rejected'] as const).map(t => (
                             <button key={t} onClick={() => { setTab(t); load(secret, t); }}
-                                className={`px-3 py-1.5 rounded-lg text-sm font-medium ${tab === t ? 'bg-blue-600 text-white' : 'text-gray-600'}`}>
+                                className={`flex-1 sm:flex-none px-2.5 sm:px-3 py-2 sm:py-1.5 rounded-lg text-xs sm:text-sm font-bold whitespace-nowrap ${tab === t ? 'bg-blue-600 text-white' : 'text-gray-600'}`}>
                                 {t === 'pending' ? '⏳ معلّقة' : t === 'approved' ? '✅ منشورة' : '🚫 مرفوضة'}
                             </button>
                         ))}
@@ -107,7 +107,12 @@ export default function ModerationPage() {
                             </div>
                             <span className="text-xs text-gray-400">{r.reviewDate?.slice(0, 10)}</span>
                         </div>
-                        <p className="text-sm text-gray-500">{r.productName} <span className="text-gray-300">|</span> {r.authEmail} <span className="text-gray-300">|</span> واتساب: <span dir="ltr">{r.rewardPhone}</span></p>
+                        <p className="text-sm text-gray-500 break-words">
+                            {r.productName} <span className="text-gray-300">|</span> {r.authEmail || '—'} <span className="text-gray-300">|</span>{' '}
+                            {r.rewardRef
+                                ? <span className="text-emerald-600 font-bold">🎁 مؤهّل لكوبون 5%</span>
+                                : <span className="text-gray-400">تقييم عضوي</span>}
+                        </p>
                         {r.title && <p className="font-semibold">{r.title}</p>}
                         <p className="text-gray-800 leading-relaxed">{r.reviewText}</p>
                         {r.images.length > 0 && (
