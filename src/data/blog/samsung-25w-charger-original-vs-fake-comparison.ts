@@ -307,7 +307,7 @@ export const samsung_25w_charger_original_vs_fake_comparison: BlogArticle = {
 <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
 <h3 itemprop="name">هل شاحن سامسونج 25W الأصلي بيشتغل مع كل موبايلات سامسونج؟</h3>
 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-<p itemprop="text">أيوه، بيشتغل مع أي موبايل سامسونج فيه USB-C — من Galaxy A15 لغاية S26 Ultra. بس "Super Fast Charging" (25W الكاملة) محتاج الموبايل يدعم PD 3.0 + PPS، وده موجود في سلسلة S من S20 فصاعداً، وA من A54 فصاعداً. الموبايلات الأقدم هتشحن بـ 15W أو أقل — لكن بأمان كامل.</p>
+<p itemprop="text">أيوه، بيشتغل مع أي موبايل سامسونج فيه USB-C — من Galaxy A15 لغاية S26 Ultra. بس "Super Fast Charging" (25W الكاملة) محتاج الموبايل يدعم PD 3.0 + PPS. ده معيار في سلسلة S من S20 (وظهر لأول مرة في S10 5G وNote10 سنة 2019)، وفي سلسلة A أغلب الموبايلات المتوسطة والأعلى بتدعم 25W من زمان — من Galaxy A70/A71 سنة 2019، ومروراً بـ A52/A72 وA53، وحتى الفئة الاقتصادية زي A15 نفسها بتدعم 25W. بس الموبايلات الأقدم أو البسيطة جداً هي اللي بتشحن بـ 15W أو أقل — لكن بأمان كامل.</p>
 </div>
 </div>
 
@@ -640,7 +640,7 @@ export const samsung_25w_charger_original_vs_fake_comparison: BlogArticle = {
 <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
 <h3 itemprop="name">Does the original Samsung 25W charger work with all Samsung phones?</h3>
 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-<p itemprop="text">Yes, it works with any Samsung phone with USB-C — from the Galaxy A15 to the S26 Ultra. However, "Super Fast Charging" (full 25W) requires PD 3.0 + PPS support, available in the S series from S20 onwards and the A series from A54 onwards. Older models will charge at 15W or less — but safely.</p>
+<p itemprop="text">Yes, it works with any Samsung phone with USB-C — from the Galaxy A15 to the S26 Ultra. However, "Super Fast Charging" (full 25W) requires PD 3.0 + PPS support. On the S series it's been standard since the S20 (and first appeared on the S10 5G / Note10 back in 2019), and most mid-range and higher A-series phones have supported 25W since the Galaxy A70/A71 in 2019 — including the A52/A72, A53, and even the budget A15 itself. Only much older or very basic models are capped at 15W or less — but they still charge safely.</p>
 </div>
 </div>
 

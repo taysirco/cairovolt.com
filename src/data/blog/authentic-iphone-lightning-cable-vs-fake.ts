@@ -70,7 +70,7 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
 <p>الموصّل الأصلي أملس ومتساوي الحواف — مصنوع من معدن عالي الجودة. التقليد الموصّل بتاعه فيه خشونة أو عدم تساوي أو لون مختلف شوية. كمان الموصّل الأصلي بيدخل في منفذ الايفون بسلاسة — التقليد ممكن يكون ضيق أو فضفاض.</p>
 
 <h3>3. رقم السيريال على الكابل</h3>
-<p>كابل Apple الأصلي مطبوع عليه رقم سيريال بالليزر — بيكون واضح ومقروء. التقليد إما مفيهوش رقم سيريال أو مطبوع بطريقة رديئة. الرقم ده بيكون على بُعد حوالي 7 سم من الموصّل.</p>
+<p>كابل Apple الأصلي مطبوع عليه رقم سيريال بالليزر — بيكون واضح ومقروء. التقليد إما مفيهوش رقم سيريال أو مطبوع بطريقة رديئة. في كابل Apple Lightning to USB الأصلي، عبارة "Designed by Apple in California" ورقم السيريال (12 خانة) بيكونوا على بُعد حوالي 18 سم (7 إنش) من موصّل الـ USB — لو لقيت النص أقرب أو أبعد بكتير من كده، ده غالباً تقليد.</p>
 
 <h3>4. المرونة والمتانة</h3>
 <p>الكابل الأصلي مرن بدون ما يكون هش — بيتحمل الثني المتكرر. التقليد إما صلب جداً (بيتكسّر بسرعة) أو لين جداً (بيتمط ويتلف). الأصلي لما تثنيه بيرجع لشكله — التقليد بيفضل مثني.</p>
@@ -229,7 +229,7 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
 <p>The genuine connector is smooth with even edges — made from high-quality metal. Fake connectors show roughness, unevenness, or slight color differences. Also, the genuine connector slides into the iPhone port smoothly — fakes can be too tight or too loose.</p>
 
 <h3>3. Serial Number on the Cable</h3>
-<p>Apple's original cable has a laser-printed serial number — clear and readable. Fakes either lack a serial number or it's poorly printed. The number is located about 7cm from the connector.</p>
+<p>Apple's original cable has a laser-printed serial number — clear and readable. Fakes either lack a serial number or it's poorly printed. On a genuine Apple Lightning to USB cable, the "Designed by Apple in California" text and 12-digit serial number are located about seven inches (~18cm) from the USB connector — text significantly closer or farther than that is a sign of a counterfeit.</p>
 
 <h3>4. Flexibility and Durability</h3>
 <p>The genuine cable is flexible without being brittle — it withstands repeated bending. Fakes are either too rigid (breaking quickly) or too soft (stretching and damaging). When you bend the genuine cable it springs back — fakes stay bent.</p>

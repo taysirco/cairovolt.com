@@ -63,7 +63,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;"><strong>الشاشة</strong></td>
-        <td style="padding:10px;border:1px solid #d1d5db;">IPS LCD 1.85"</td>
+        <td style="padding:10px;border:1px solid #d1d5db;">IPS LCD 1.83"</td>
         <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>OLED Retina</strong></td>
         <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>Apple</strong></td>
     </tr>
@@ -82,7 +82,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;"><strong>حساس نبض القلب</strong></td>
         <td style="padding:10px;border:1px solid #d1d5db;">Optical HR (أساسي)</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>Optical HR Gen 3 (طبي)</strong></td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>Optical HR Gen 2 (طبي)</strong></td>
         <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>Apple</strong></td>
     </tr>
     <tr>
@@ -118,7 +118,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
 
 <p>Apple Watch SE جسمها ألومنيوم مُعاد تدويره — خفيف وصلب ومقاوم للخدش. الشاشة محمية بزجاج Ion-X. الإحساس بيها على الإيد "premium" — بتحس إنك لابس حاجة غالية فعلاً. الأحزمة (bands) متنوعة بشكل مجنون — مئات الخيارات من Apple ومن brands تانية.</p>
 
-<p>Joyroom FT3 جسمها من البولي كربونات (بلاستيك عالي الجودة) — أخف وزناً بس مش بنفس الإحساس الـ premium. الشاشة محمية بزجاج مقوّى — كويس بس مش بنفس مستوى Ion-X. الأحزمة أقل تنوعاً — بس بتيجي بأحزمة سيليكون مريحة ومعظم أحزمة 22mm القياسية بتركب عليها.</p>
+<p>Joyroom FT3 جسمها من البولي كربونات (بلاستيك عالي الجودة) — أخف وزناً بس مش بنفس الإحساس الـ premium. الشاشة محمية بزجاج مقوّى — كويس بس مش بنفس مستوى Ion-X. الأحزمة أقل تنوعاً — بس بتيجي بأحزمة سيليكون مريحة ومعظم أحزمة 20mm القياسية بتركب عليها.</p>
 
 <p><strong>عملياً:</strong> لو بتهتم بشكل الساعة كاكسسوار أزياء — Apple Watch أحسن. لو بتبص على الساعة كأداة عملية (إشعارات + صحة + وقت) — Joyroom FT3 شكلها محترم وبتأدي الغرض. كتير من الناس بيحطوا screen protector على أي ساعة — وده بيلغي فرق الزجاج تقريباً.</p>
 
@@ -136,7 +136,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
 
 <h2>الصحة واللياقة — هنا Apple Watch بتتألق</h2>
 
-<p>حساسات Apple Watch SE أدق — وده مش كلام تسويقي، ده حقيقة تقنية. حساس نبض القلب الجيل التالت من Apple أثبت دقته في دراسات طبية متعددة. يقدر يكشف عدم انتظام ضربات القلب (AFib) ويبلّغك بتنبيه. كمان في كشف السقوط (Fall Detection) وكشف حوادث السيارات (Crash Detection) — مميزات ممكن تنقذ حياتك حرفياً.</p>
+<p>حساسات Apple Watch SE أدق — وده مش كلام تسويقي، ده حقيقة تقنية. حساس نبض القلب الجيل التاني من Apple أثبت دقته في دراسات طبية متعددة. يقدر يكشف عدم انتظام ضربات القلب (AFib) ويبلّغك بتنبيه. كمان في كشف السقوط (Fall Detection) وكشف حوادث السيارات (Crash Detection) — مميزات ممكن تنقذ حياتك حرفياً.</p>
 
 <p>Joyroom FT3 فيها حساس نبض قلب وأكسجين في الدم (SpO2) — بس دقتها أقل وما ينفعش تعتمد عليها طبياً. كافية عشان تعرف "نبضك عالي ولا طبيعي" أثناء التمرين — بس مش كافية لقرارات طبية.</p>
 
@@ -210,7 +210,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
                 },
                 {
                     question: 'هل Joyroom FT3 تنفع للسباحة؟',
-                    answer: 'IP68 يعني مقاومة للغمر في مياه هادية لفترة قصيرة — زي الوضوء أو غسل الإيدين أو مطر. بس مش مصممة للسباحة الفعلية أو الغطس. Apple Watch SE عندها WR50 — يعني تقدر تعوم بيها فعلاً لحد عمق 50 متر. لو السباحة مهمة ليك — Apple Watch أو ساعة رياضية متخصصة.'
+                    answer: 'IP68 يعني مقاومة للغمر في مياه هادية لفترة قصيرة — زي الوضوء أو غسل الإيدين أو مطر. بس مش مصممة للسباحة الفعلية أو الغطس. Apple Watch SE عندها WR50 — يعني مقاومة للمياه لعمق 50 متر حسب معيار ISO 22810، فبتنفع للسباحة الخفيفة زي حمام السباحة أو البحر. بس رقم الـ 50 متر ده قيمة اختبار ضغط ثابت مش عمق تقدر تغطس ليه فعلاً — Apple نفسها بتحذّر من الغطس (scuba) والرياضات المائية العنيفة. لو السباحة مهمة ليك — Apple Watch أو ساعة رياضية متخصصة.'
                 },
                 {
                     question: 'ساعة بـ 1200 جنيه هتعيش قد إيه؟',
@@ -259,7 +259,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;"><strong>Display</strong></td>
-        <td style="padding:10px;border:1px solid #d1d5db;">IPS LCD 1.85"</td>
+        <td style="padding:10px;border:1px solid #d1d5db;">IPS LCD 1.83"</td>
         <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>OLED Retina</strong></td>
         <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>Apple</strong></td>
     </tr>
@@ -278,7 +278,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;"><strong>Heart rate sensor</strong></td>
         <td style="padding:10px;border:1px solid #d1d5db;">Optical HR (basic)</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>Optical HR Gen 3 (medical)</strong></td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>Optical HR Gen 2 (medical)</strong></td>
         <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>Apple</strong></td>
     </tr>
     <tr>
@@ -314,7 +314,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
 
 <p>The Apple Watch SE body is made from recycled aluminum — lightweight, rigid, and scratch-resistant. The display is protected by Ion-X glass. The feel on your wrist is distinctly premium — you genuinely feel like you are wearing something expensive. Band options are incredibly diverse — hundreds of choices from Apple and third-party brands.</p>
 
-<p>The Joyroom FT3 body is polycarbonate (high-quality plastic) — lighter but without the same premium feel. The display is protected by hardened glass — good but not at Ion-X level. Band variety is more limited — but it comes with comfortable silicone bands and most standard 22mm bands are compatible.</p>
+<p>The Joyroom FT3 body is polycarbonate (high-quality plastic) — lighter but without the same premium feel. The display is protected by hardened glass — good but not at Ion-X level. Band variety is more limited — but it comes with comfortable silicone bands and most standard 20mm bands are compatible.</p>
 
 <p><strong>Practically speaking:</strong> If you care about the watch as a fashion accessory — Apple Watch is superior. If you view the watch as a practical tool (notifications, health, time) — the Joyroom FT3 looks respectable and serves the purpose well. Many people apply a screen protector to any watch — which effectively neutralizes the glass quality difference.</p>
 
@@ -332,7 +332,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
 
 <h2>Health and Fitness — Where Apple Watch Shines</h2>
 
-<p>Apple Watch SE sensors are more accurate — and this is not marketing rhetoric, it is technical fact. Apple's third-generation optical heart rate sensor has been validated in multiple medical studies. It can detect irregular heart rhythms (AFib) and alert you. Additionally, it includes Fall Detection and Crash Detection — features that could literally save your life.</p>
+<p>Apple Watch SE sensors are more accurate — and this is not marketing rhetoric, it is technical fact. Apple's second-generation optical heart rate sensor has been validated in multiple medical studies. It can detect irregular heart rhythms (AFib) and alert you. Additionally, it includes Fall Detection and Crash Detection — features that could literally save your life.</p>
 
 <p>Joyroom FT3 includes heart rate and blood oxygen (SpO2) sensors — but with lower accuracy that should not be relied upon medically. Sufficient for knowing "is my heart rate high or normal" during exercise — but not sufficient for medical decisions.</p>
 
@@ -402,7 +402,7 @@ export const joyroom_vs_apple_watch_se_5x_price: BlogArticle = {
                 },
                 {
                     question: 'Is the Joyroom FT3 suitable for swimming?',
-                    answer: 'IP68 means resistance to brief submersion in calm water — like washing hands, ablution, or rain. It is not designed for actual swimming or diving. Apple Watch SE has WR50 — meaning you can genuinely swim with it to depths of 50 meters. If swimming is important to you — choose Apple Watch or a specialized sports watch.'
+                    answer: 'IP68 means resistance to brief submersion in calm water — like washing hands, ablution, or rain. It is not designed for actual swimming or diving. Apple Watch SE has WR50 — meaning it is water resistant to 50 meters under ISO 22810:2010, so it is rated for shallow-water activities like pool or ocean swimming. That 50-meter figure is a static pressure-test rating, not a depth you can actually dive to — Apple itself warns against scuba diving and high-velocity water sports. If swimming is important to you — choose Apple Watch or a specialized sports watch.'
                 },
                 {
                     question: 'How long will a 1,200 EGP watch actually last?',

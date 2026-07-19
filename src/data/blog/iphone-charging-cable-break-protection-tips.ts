@@ -221,7 +221,7 @@ export const iphone_charging_cable_break_protection_tips: BlogArticle = {
 
 <p>مع تحول Apple لـ USB-C في ايفون 15 وما بعده — السؤال المهم: هل كابلات USB-C أمتن من Lightning؟ الإجابة: نعم — لكن مش بسبب التقنية نفسها. كابلات USB-C بيكون الكونيكتور بتاعها أقوى هيكلياً لأنه أكبر حجماً وفيه قطعة معدنية أسمك من Lightning. وكمان التوصيلة بتكون أعمق في المنفذ — يعني أقل عرضة للانثناء الحاد. بس لو استخدمت كابل USB-C رخيص بدون MFi — نفس المشكلة هتحصل بالظبط. المعيار هو جودة التصنيع مش نوع الكونيكتور.</p>
 
-<p>كابلات <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C</a> المعتمدة MFi بتتحمل نفس الـ 10,000+ انثناء — وبتدعم USB PD الشحن السريع 20W+ بدون أي مشاكل. وعشان USB-C هو المستقبل — استثمارك في كابل USB-C جيد هيخدمك مع كل أجهزتك مش بس الايفون.</p>
+<p>كابلات <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-A إلى USB-C</a> بتتحمل نفس الـ 10,000+ انثناء، وبتدّي شحن USB-A سريع لحد حوالي 15 وات (أو ~18 وات بتقنية Quick Charge على الموبايلات اللي بتدعمها). بس خلّي بالك إن كابل USB-A إلى USB-C مش بيدعم USB Power Delivery — الـ PD لازم يكون USB-C على الطرفين، فلو عايز شحن PD كامل لايفون أو آيباد بمنفذ USB-C اختار كابل USB-C إلى USB-C أو USB-C إلى Lightning. وعشان USB-C هو المستقبل — استثمارك في كابل USB-C جيد هيخدمك مع كل أجهزتك مش بس الايفون.</p>
 
 <h2>تأثير المناخ المصري على عمر الكابل</h2>
 
@@ -239,7 +239,7 @@ export const iphone_charging_cable_break_protection_tips: BlogArticle = {
 
 <p>لو العازل بدأ يتشقق بس الكابل لسه بيشتغل — ممكن تحطّ شريط حراري (heat shrink tubing) على المنطقة المتضررة كحل مؤقت. الشريط بيتقلّص بالحرارة وبيعمل عزل جديد متين. بس لو الشحن بدأ يقطع ويرجع أو بطيء — الأسلاك الداخلية اتلفت وده خطر على بطارية الموبايل. في الحالة دي استبدله فوراً — كابل Anker بـ 570 جنيه أرخص بكتير من تغيير بطارية ايفون بـ 3,000+ جنيه.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">كابلات MFi معتمدة: <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a>.</p></div>`,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">معدات شحن ذات صلة: <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a>.</p></div>`,
         },
         en: {
             title: 'iPhone Charging Cable Breaking at the End? 7 Practical Tips to Double Its Lifespan',
@@ -422,7 +422,7 @@ export const iphone_charging_cable_break_protection_tips: BlogArticle = {
 
 <p>With Apple's transition to USB-C starting with iPhone 15 — the important question: are USB-C cables more durable than Lightning? The answer: yes — but not because of the technology itself. USB-C connectors are structurally stronger because they're larger with a thicker metal shell than Lightning. The connection also sits deeper in the port — meaning less sharp bending at the entry point. However, using a cheap USB-C cable without MFi certification will result in exactly the same problems. The standard is manufacturing quality, not connector type.</p>
 
-<p><a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker MFi USB-C cables</a> handle the same 10,000+ bends and support USB PD fast charging at 20W+ without issues. Since USB-C is the future — investing in a quality USB-C cable serves all your devices, not just iPhone.</p>
+<p><a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-A to USB-C cables</a> handle the same 10,000+ bends and deliver fast USB-A charging up to about 15W (or ~18W via Quick Charge on supported phones). Note that a USB-A-to-USB-C cable can't do USB Power Delivery — true PD needs a USB-C connector on both ends, so choose a USB-C-to-USB-C or USB-C-to-Lightning cable if you want full PD fast charging. Since USB-C is the future — investing in a quality USB-C cable serves all your devices, not just iPhone.</p>
 
 <h2>Egyptian Climate Impact on Cable Lifespan</h2>
 
@@ -440,7 +440,7 @@ export const iphone_charging_cable_break_protection_tips: BlogArticle = {
 
 <p>If just the outer insulation is cracking but the cable still works — you can apply heat shrink tubing over the damaged area as a temporary fix. The tubing contracts with heat and creates a new, durable insulation layer. But if charging becomes intermittent or slow — the internal wires are damaged and this is a safety hazard for your phone's battery. Replace immediately — an Anker cable at 570 EGP is far cheaper than an iPhone battery replacement at 3,000+ EGP.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">MFi certified cables: <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a>.</p></div>`,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Related charging gear: <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a>.</p></div>`,
         },
     },
 };

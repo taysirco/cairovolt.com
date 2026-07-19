@@ -80,7 +80,7 @@ export const iphone_x_xs_used_buying_accessories: BlogArticle = {
 </ul>
 
 <h3>4. فحص مودم الشبكة: Qualcomm (A1865) مقابل Intel (A1901)</h3>
-<p>طرحت أبل نسختين من ايفون X بمودم شبكة مختلف. يأتي الموديل **A1865** بمودم من شركة **Qualcomm** (MDM9625)، بينما الموديل **A1901** يأتي بمودم من شركة **Intel** (XMM7480).</p>
+<p>طرحت أبل نسختين من ايفون X بمودم شبكة مختلف. يأتي الموديل **A1865** بمودم من شركة **Qualcomm** (MDM9655)، بينما الموديل **A1901** يأتي بمودم من شركة **Intel** (XMM7480).</p>
 <p>من الناحية الهندسية وتجارب المستخدمين بمصر، فإن مودم Qualcomm يتفوق بمراحل في قوة التقاط شبكات المحمول الضعيفة وتقديم سرعات إنترنت أعلى واستقرار كلي للاتصال، في حين أن موديل Intel يعاني بشكل شائع من عيب تلف رقاقة البيس باند (Baseband IC) الذي يجعل الهاتف يفقد الشبكة تماماً ويبحث بلا توقف. نوصيك بشدة بالتحقق من رقم الموديل المطبوع بظهر الهاتف أو في الإعدادات واختيار نسخة Qualcomm A1865.</p>
 
 <h3>5. تلف رقاقة تنظيم الشحن Tristar (U2 IC) نتيجة الشواحن المقلدة</h3>
@@ -211,7 +211,7 @@ export const iphone_x_xs_used_buying_accessories: BlogArticle = {
 </ul>
 
 <h3>Qualcomm (A1865) vs. Intel (A1901) Modems</h3>
-<p>iPhone X units carry different modems based on region. The **A1865** model contains a **Qualcomm MDM9625** modem, while the **A1901** utilizes an **Intel XMM7480** chip. YouTube teardowns and micro-soldering labs in Egypt prioritize the Qualcomm modem because of its superior signal reception in low-coverage zones and its lower failure rate. The Intel model suffers from baseband IC failure loops, which permanently disables cellular connectivity. Verify the model number under Settings > General > About before buying.</p>
+<p>iPhone X units carry different modems based on region. The **A1865** model contains a **Qualcomm MDM9655** modem, while the **A1901** utilizes an **Intel XMM7480** chip. YouTube teardowns and micro-soldering labs in Egypt prioritize the Qualcomm modem because of its superior signal reception in low-coverage zones and its lower failure rate. The Intel model suffers from baseband IC failure loops, which permanently disables cellular connectivity. Verify the model number under Settings > General > About before buying.</p>
 
 <h3>Tristar Charging Controller (1612A1 IC) Damage from Counterfeit Power Adapters</h3>
 <p>A critical microchip called the **Tristar IC** (specifically the **1612A1** chip in the X/XS generation) regulates the incoming charging voltage and initiates the USB handshake. Using uncertified wall adapters or cheap generic car chargers exposes this chip to voltage spikes that puncture its thin silicon gate junctions.</p>

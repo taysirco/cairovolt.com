@@ -36,15 +36,15 @@ export const samsung_45w_charger_vs_25w_real_charging_speed: BlogArticle = {
                 },
                 {
                     question: 'إيه الفرق بين Super Fast Charging و Super Fast Charging 2.0؟',
-                    answer: 'Super Fast Charging (الجيل الأول) بيدعم 25W — وده الافتراضي في أغلب موبايلات سامسونج من A-series و S-series. Super Fast Charging 2.0 بيدعم 45W — بس مش كل الموبايلات بتدعمه. Galaxy S24 Ultra و S25 Ultra و Note 20 Ultra بيدعموه، لكن Galaxy A55 مثلاً أقصى حاجة عنده 25W. لازم تتأكد من مواصفات موبايلك الأول.'
+                    answer: 'Super Fast Charging (الجيل الأول) بيدعم 25W — وده الافتراضي في أغلب موبايلات سامسونج من A-series و S-series. Super Fast Charging 2.0 بيدعم 45W — بس مش كل الموبايلات بتدعمه. Galaxy S24 Ultra و S25 Ultra و Note 10+ بيدعموه، لكن Galaxy A55 مثلاً أقصى حاجة عنده 25W. لازم تتأكد من مواصفات موبايلك الأول.'
                 },
                 {
                     question: 'هل أي كابل USB-C بيشتغل مع شاحن 45W سامسونج؟',
-                    answer: 'لأ — شاحن 45W محتاج كابل USB-C to USB-C بيدعم 5A (الكابلات العادية بتدعم 3A بس). لو استخدمت كابل 3A عادي، الشاحن هيشتغل بس بقوة 25W مش 45W. الكابل اللي جوا علبة سامسونج الأصلي بيدعم 5A — لكن لو ضاع، كابل Anker PowerLine USB-C to USB-C بيدعم 5A كمان.'
+                    answer: 'لأ — شاحن 45W محتاج كابل USB-C to USB-C بيدعم 5A (الكابلات العادية بتدعم 3A بس). لو استخدمت كابل 3A عادي، الشاحن هيشتغل بس بقوة 25W مش 45W. الكابل اللي جوا علبة سامسونج الأصلي بيدعم 5A — ولو ضاع، لازم كابل USB-C to USB-C معتمد 5A (e-marked). خلّي بالك إن كتير من كابلات 60W زي Anker PowerLine بتدعم 3A بس، فهتقفّل الشحن عند 25W.'
                 },
                 {
                     question: 'هل في بديل أرخص لشاحن سامسونج 45W الأصلي في مصر؟',
-                    answer: 'أيوه — Anker Nano 45W (A2047) بيدّي نفس الـ 45W عبر PD 3.0 + PPS بسعر أقل حوالي 30-40%. وبيشتغل مع سامسونج Galaxy S24/S25 Ultra بنفس سرعة Super Fast Charging 2.0. كمان Anker بيدعم GaN III فـ حجمه أصغر 40% من شاحن سامسونج الأصلي.'
+                    answer: 'أيوه — Anker Nano 45W (A2664K11) بيدّي نفس الـ 45W عبر PD 3.0 + PPS بسعر أقل حوالي 30-40%. وبيشتغل مع سامسونج Galaxy S24/S25 Ultra بنفس سرعة Super Fast Charging 2.0. كمان Anker بيدعم GaN II فـ حجمه أصغر 40% من شاحن سامسونج الأصلي.'
                 }
             ],
             content: `<h2>الحكاية اللي هتخلّيك تسأل على الأرقام</h2>
@@ -223,7 +223,12 @@ export const samsung_45w_charger_vs_25w_real_charging_speed: BlogArticle = {
 <td style="padding: 10px; text-align: center;">PD 3.0 + PPS</td>
 </tr>
 <tr style="background: #e3f2fd;">
-<td style="padding: 10px; font-weight: 600;">Galaxy A15 / A14</td>
+<td style="padding: 10px; font-weight: 600;">Galaxy A15</td>
+<td style="padding: 10px; text-align: center;">25W ⚠️</td>
+<td style="padding: 10px; text-align: center;">PD 3.0 + PPS</td>
+</tr>
+<tr>
+<td style="padding: 10px; font-weight: 600;">Galaxy A14</td>
 <td style="padding: 10px; text-align: center;">15W ❌</td>
 <td style="padding: 10px; text-align: center;">Adaptive Fast Charging</td>
 </tr>
@@ -243,7 +248,7 @@ export const samsung_45w_charger_vs_25w_real_charging_speed: BlogArticle = {
 
 <p>أفضل البدائل المتاحة بالمواصفات:</p>
 
-<p><strong>1. <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W (A2047)</a></strong> — بيستخدم GaN III يعني حجمه أصغر 40% من شاحن سامسونج. بيدعم PD 3.0 + PPS بالكامل. وعلى Galaxy S24 Ultra بيدّي نفس سرعة الشاحن الأصلي تقريباً (فرق في حدود ±1% لا يُذكر) لأنه بيدعم نفس البروتوكول. وسعره أقل حوالي 30%.</p>
+<p><strong>1. <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W (A2664K11)</a></strong> — بيستخدم GaN II يعني حجمه أصغر 40% من شاحن سامسونج. بيدعم PD 3.0 + PPS بالكامل. وعلى Galaxy S24 Ultra بيدّي نفس سرعة الشاحن الأصلي تقريباً (فرق في حدود ±1% لا يُذكر) لأنه بيدعم نفس البروتوكول. وسعره أقل حوالي 30%.</p>
 
 <p><strong>2. <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort III 25W</a></strong> — لو قررت إن 25W كافي ليك (وفي أغلب الحالات هو كافي فعلاً)، ده أحسن اختيار. بيدعم PPS + حجم صغير جداً. سعره حوالي نصف سعر شاحن سامسونج 25W الأصلي.</p>
 
@@ -251,7 +256,7 @@ export const samsung_45w_charger_vs_25w_real_charging_speed: BlogArticle = {
 
 <p><strong>4. <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W Fast Charger</a></strong> — حل وسط ذكي. بيدّي 30W يعني أسرع شوية من 25W بس أرخص بكتير من 45W. مناسب لو عايز تحسين بسيط في السرعة بدون ما تدفع كتير.</p>
 
-<p>وبخصوص الكابل — لو هتستخدم شاحن 45W، لازم كابل بيدعم 5A. <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C</a> بيدعم 5A و60W وبيتحمل 12,000+ مرة ثني. أحسن من كابل سامسونج الأصلي بصراحة من حيث المتانة.</p>
+<p>وبخصوص الكابل — لو عايز أقصى سرعة من شاحن 45W، لازم كابل معتمد 5A زي كابل سامسونج الأصلي. <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C</a> بيدعم حتى 60W عند 3A وبيتحمل 12,000+ مرة ثني — متانته أحسن من كابل سامسونج الأصلي، بس لأنه 3A هيديك Super Fast Charging لحد 25W مش 45W الكاملة.</p>
 
 <h2>الـ PPS — البروتوكول اللي بيخلّي الموضوع كله يشتغل</h2>
 
@@ -320,15 +325,15 @@ export const samsung_45w_charger_vs_25w_real_charging_speed: BlogArticle = {
                 },
                 {
                     question: 'What is the difference between Super Fast Charging and Super Fast Charging 2.0?',
-                    answer: 'Super Fast Charging (first gen) supports 25W and is the default on most Samsung A-series and S-series phones. Super Fast Charging 2.0 supports 45W but is not available on all models. Galaxy S24 Ultra, S25 Ultra, and Note 20 Ultra support it, but the Galaxy A55 maxes out at 25W. Always check your phone\'s specifications first.'
+                    answer: 'Super Fast Charging (first gen) supports 25W and is the default on most Samsung A-series and S-series phones. Super Fast Charging 2.0 supports 45W but is not available on all models. Galaxy S24 Ultra, S25 Ultra, and Note 10+ support it, but the Galaxy A55 maxes out at 25W. Always check your phone\'s specifications first.'
                 },
                 {
                     question: 'Does any USB-C cable work with the Samsung 45W charger?',
-                    answer: 'No — the 45W charger requires a USB-C to USB-C cable that supports 5A (standard cables only support 3A). Using a 3A cable will limit the charger to 25W instead of 45W. Samsung\'s original bundled cable supports 5A. If you need a replacement, the Anker PowerLine USB-C to USB-C cable also supports 5A and 60W.'
+                    answer: 'No — the 45W charger requires a USB-C to USB-C cable that supports 5A (standard cables only support 3A). Using a 3A cable will limit the charger to 25W instead of 45W. Samsung\'s original bundled cable supports 5A. If you need a replacement, get a certified 5A (e-marked) USB-C to USB-C cable — note that many 60W cables, including the Anker PowerLine, are rated at 3A and will cap Samsung at 25W.'
                 },
                 {
                     question: 'Are there cheaper alternatives to the original Samsung 45W charger in Egypt?',
-                    answer: 'Yes — the Anker Nano 45W (A2047) delivers the same 45W via PD 3.0 + PPS at roughly 30-40% less cost. It is fully compatible with Samsung Galaxy S24/S25 Ultra at identical Super Fast Charging 2.0 speeds. It also uses GaN III technology, making it 40% smaller than Samsung\'s original charger.'
+                    answer: 'Yes — the Anker Nano 45W (A2664K11) delivers the same 45W via PD 3.0 + PPS at roughly 30-40% less cost. It is fully compatible with Samsung Galaxy S24/S25 Ultra at identical Super Fast Charging 2.0 speeds. It also uses GaN II technology, making it 40% smaller than Samsung\'s original charger.'
                 }
             ],
             content: `<h2>The Story That Makes You Ask for Real Numbers</h2>
@@ -507,7 +512,12 @@ export const samsung_45w_charger_vs_25w_real_charging_speed: BlogArticle = {
 <td style="padding: 10px; text-align: center;">PD 3.0 + PPS</td>
 </tr>
 <tr style="background: #e3f2fd;">
-<td style="padding: 10px; font-weight: 600;">Galaxy A15 / A14</td>
+<td style="padding: 10px; font-weight: 600;">Galaxy A15</td>
+<td style="padding: 10px; text-align: center;">25W ⚠️</td>
+<td style="padding: 10px; text-align: center;">PD 3.0 + PPS</td>
+</tr>
+<tr>
+<td style="padding: 10px; font-weight: 600;">Galaxy A14</td>
 <td style="padding: 10px; text-align: center;">15W ❌</td>
 <td style="padding: 10px; text-align: center;">Adaptive Fast Charging</td>
 </tr>
@@ -527,7 +537,7 @@ export const samsung_45w_charger_vs_25w_real_charging_speed: BlogArticle = {
 
 <p>The top alternatives by specifications:</p>
 
-<p><strong>1. <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W (A2047)</a></strong> — Uses GaN III technology, making it 40% smaller than Samsung's charger. Fully supports PD 3.0 + PPS. On the Galaxy S24 Ultra it delivers effectively identical charging speed to the original (within about ±1%, negligible), since it speaks the same protocol. Priced roughly 30% less.</p>
+<p><strong>1. <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W (A2664K11)</a></strong> — Uses GaN II technology, making it 40% smaller than Samsung's charger. Fully supports PD 3.0 + PPS. On the Galaxy S24 Ultra it delivers effectively identical charging speed to the original (within about ±1%, negligible), since it speaks the same protocol. Priced roughly 30% less.</p>
 
 <p><strong>2. <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort III 25W</a></strong> — If you decide that 25W is sufficient (and in most cases, it genuinely is), this is the best option. Supports PPS in an ultra-compact form factor. Priced at roughly half the Samsung original 25W.</p>
 
@@ -535,7 +545,7 @@ export const samsung_45w_charger_vs_25w_real_charging_speed: BlogArticle = {
 
 <p><strong>4. <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W Fast Charger</a></strong> — A smart middle ground. Delivers 30W — slightly faster than 25W but significantly cheaper than 45W. Perfect if you want a modest speed improvement without the premium price tag.</p>
 
-<p>Regarding cables: if you are using a 45W charger, you need a cable rated for 5A. The <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C</a> supports 5A and 60W with 12,000+ bend lifespan — frankly superior to Samsung's bundled cable in terms of durability.</p>
+<p>Regarding cables: for full speed from a 45W charger, you need a certified 5A cable like Samsung's original. The <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C</a> is rated up to 60W at 3A with a 12,000+ bend lifespan — frankly superior to Samsung's bundled cable in durability, but as a 3A cable it delivers Super Fast Charging up to 25W rather than the full 45W.</p>
 
 <h2>PPS — The Protocol That Makes Everything Work</h2>
 

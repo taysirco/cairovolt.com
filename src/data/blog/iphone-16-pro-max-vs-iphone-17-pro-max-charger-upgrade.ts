@@ -47,7 +47,7 @@ export const iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade: BlogArticle
 
 <p>خلّينا نشوف الأرقام الحقيقية:</p>
 
-<h3>جدول شحن iPhone 17 Pro Max (بطارية 4,685mAh)</h3>
+<h3>جدول شحن iPhone 17 Pro Max (بطارية 4,832mAh)</h3>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -274,7 +274,7 @@ export const iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade: BlogArticle
                 },
                 {
                     question: 'لو شاحني 20W وعمره سنة — أغيّره مع iPhone 17 الجديد؟',
-                    answer: 'لأ — وفّر فلوسك. شاحن 20W USB-C PD عمره سنة بيكون في أفضل حالاته. iPhone 17 Pro Max أقصى استهلاك فعلي منه حوالي 27W — يعني حتى شاحن 30W مش هيفرق كتير. الفرق 6 دقايق فقط للوصول لـ 50%. اشتري كابل جديد بدلاً من الشاحن لو مضطر تصرف.',
+                    answer: 'لأ مش ضروري — شاحن 20W USB-C PD عمره سنة بيكون في أفضل حالاته وبيشحن iPhone 17 Pro Max كويس للاستخدام اليومي. بس للدقة: iPhone 17 Pro Max بيدعم شحن سلكي لحد 40W (وبيسحب فعلياً حوالي 36-37W في الذروة)، وآبل بتقول إنه بيوصل 50% في 20 دقيقة مع شاحن 40W أو أعلى — يعني شاحن أقوى بيفرق فعلاً في السرعة. لو أقصى سرعة مش أولوية عندك، الـ 20W كفاية ووفّر فلوسك؛ ولو الكابل قديم، اشتري كابل جديد بدل الشاحن.',
                 },
             ],
         },
@@ -303,7 +303,7 @@ export const iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade: BlogArticle
 
 <p>Let's look at the real numbers:</p>
 
-<h3>iPhone 17 Pro Max Charging Table (4,685mAh battery)</h3>
+<h3>iPhone 17 Pro Max Charging Table (4,832mAh battery)</h3>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -530,7 +530,7 @@ export const iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade: BlogArticle
                 },
                 {
                     question: 'If my 20W charger is only one year old — should I replace it with iPhone 17?',
-                    answer: 'No — save your money. A 20W USB-C PD charger that\'s one year old is in peak condition. iPhone 17 Pro Max\'s actual maximum draw is about 27W — meaning even a 30W charger won\'t make much difference. The gap is only 6 minutes to reach 50%. Buy a new cable instead of a charger if you need to spend.',
+                    answer: 'Not necessarily — a one-year-old 20W USB-C PD charger is in peak condition and charges the iPhone 17 Pro Max just fine for everyday use. But to be accurate: the iPhone 17 Pro Max supports up to 40W wired charging (drawing a real-world peak of about 36-37W), and Apple rates it for 50% in 20 minutes with a 40W or higher adapter — so a higher-wattage charger genuinely does charge faster. If top speed isn\'t a priority for you, 20W is enough and you can save your money; if you want the fastest charging, consider a 40W or higher adapter. Either way, if your cable is old, buy a new cable instead.',
                 },
             ],
         }

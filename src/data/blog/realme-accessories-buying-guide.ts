@@ -24,10 +24,10 @@ export const realme_accessories_buying_guide: BlogArticle = {
         ar: {
             title: 'دليل شراء إكسسوارات هواتف ريلمي: كيف تختار الشحن السريع المتوافق؟',
             metaTitle: 'دليل شراء إكسسوارات هواتف ريلمي شواحن وكابلات متوافقة',
-            metaDescription: 'دليل شامل لاختيار وشراء شواحن وإكسسوارات هواتف ريلمي (C53, C67, Realme 12) في مصر. تعرف على بروتوكول SuperVOOC وكابلات الـ 11 سنّاً المخصصة.',
+            metaDescription: 'دليل شامل لاختيار وشراء شواحن وإكسسوارات هواتف ريلمي (C53, C67, Realme 12) في مصر. تعرف على بروتوكول SuperVOOC وكابلات الـ 7 سنون المخصصة.',
             keywords: 'اكسسوارات ريلمي, شاحن ريلمي الاصلي بمصر, سعر شاحن ريلمي 33 واط, كابل ريلمي الأصلي, جرابات ريلمي 11, سماعات ريلمي بلوتوث',
-            excerpt: 'هل فقدت شاحن ريلمي الأصلي؟ نكشف لك المعايير الهندسية لبروتوكول SuperVOOC وكيف تختار كابلات الـ 11 سنّاً المخصصة وشواحن موثوقة بمصر.',
-            quickAnswer: 'تعتمد هواتف ريلمي على بروتوكولات شحن خاصة تسمى **SuperVOOC / Dart Charge** وهي منخفضة الفولت ومرتفعة التيار. لشحن الموبايل بسرعته الكاملة (33 واط أو 67 واط)، يجب استخدام **شاحن يدعم بروتوكول SuperVOOC الأصلي** مع **كابل ريلمي المخصص ذو الـ 11 سنّاً**؛ حيث أن الشواحن العادية ستتراجع تلقائياً لسرعة 10 واط فقط.',
+            excerpt: 'هل فقدت شاحن ريلمي الأصلي؟ نكشف لك المعايير الهندسية لبروتوكول SuperVOOC وكيف تختار كابلات الـ 7 سنون المخصصة وشواحن موثوقة بمصر.',
+            quickAnswer: 'تعتمد هواتف ريلمي على بروتوكولات شحن خاصة تسمى **SuperVOOC / Dart Charge** وهي منخفضة الفولت ومرتفعة التيار. لشحن الموبايل بسرعته الكاملة (33 واط أو 67 واط)، يجب استخدام **شاحن يدعم بروتوكول SuperVOOC الأصلي** مع **كابل ريلمي المخصص ذو الـ 7 سنون**؛ حيث أن الشواحن العادية ستتراجع تلقائياً لسرعة 10 واط فقط.',
             faq: [
                 {
                     question: 'هل يمكنني شحن هاتف ريلمي بشاحن أنكر أو جويروم بقوة 30 واط？',
@@ -39,7 +39,7 @@ export const realme_accessories_buying_guide: BlogArticle = {
                 },
                 {
                     question: 'لماذا يبطئ الشحن فجأة في هاتف ريلمي C53 عند استخدام كابل تايب سي عادي؟',
-                    answer: 'يتطلب هاتف Realme C53 كابل SuperVOOC المخصص الذي يحتوي على سن برمجية إضافية (السن الـ 11). عند استخدام كابل عادي بـ 5 سنون، يعجز الشاحن عن التحقق من أمان التوصيل فيتراجع كإجراء أمان لقوة 10 واط فقط.'
+                    answer: 'يتطلب هاتف Realme C53 كابل SuperVOOC المخصص الذي يحتوي على سن إشارة إضافية (بتصميم 7 سنون). عند استخدام كابل عادي بـ 4 سنون، يعجز الشاحن عن التحقق من أمان التوصيل فيتراجع كإجراء أمان لقوة 10 واط فقط.'
                 },
                 {
                     question: 'هل تدعم هواتف ريلمي فئة C الشحن اللاسلكي؟',
@@ -53,11 +53,11 @@ export const realme_accessories_buying_guide: BlogArticle = {
 <p>هذا التصميم الذكي يهدف لنقل عبء تشتيت الحرارة وتنظيم الجهد من داخل الموبايل إلى رأس الشاحن الخارجي مباشرة؛ مما يضمن شحن الهاتف بأقصى سرعة ممكنة مع الحفاظ على برودته التامة بالداخل. ولكن النتيجة السلبية هي أنه في حال توصيل شاحن PD عادي، سيعجز الهاتف عن تنظيم الفولت المرتفع فيتراجع لسرعة الأمان البطيئة (10 واط) لحماية البطارية.</p>
 
 <h2>ثانياً: تكنولوجيا مضخة الشحن (Charge Pump) وتصميم البطارية الثنائية الخلايا</h2>
-<p>في الموديلات المتقدمة من ريلمي التي تدعم سرعات شحن فائقة (مثل 67 واط في Realme 11 أو 100 واط في Realme 12 Pro+)، تستعين الشركة بتقنية هندسية متطورة تسمى **البطارية ثنائية الخلايا (Dual-cell battery)**؛ حيث يتم تقسيم البطارية الكلية بالداخل إلى بطاريتين منفصلتين متصلتين على التوالي.</p>
+<p>في الموديلات المتقدمة من ريلمي التي تدعم سرعات شحن فائقة (مثل 67 واط في Realme 11 أو 100 واط في Realme 11 Pro+)، تستعين الشركة بتقنية هندسية متطورة تسمى **البطارية ثنائية الخلايا (Dual-cell battery)**؛ حيث يتم تقسيم البطارية الكلية بالداخل إلى بطاريتين منفصلتين متصلتين على التوالي.</p>
 <p>أثناء الشحن، يقوم الشاحن بإدخال تيار بجهد 11 فولت مثلاً. وهنا يأتي دور رقاقة إلكترونية متطورة داخل الهاتف تسمى **مضخة الشحن (Charge Pump)**، والتي تعمل كمحول خافض للجهد مستمر-مستمر (DC-DC step-down converter). تقوم هذه الرقاقة بتحويل الجهد الداخل من 11 فولت/6 أمبير إلى 5.5 فولت/12 أمبير مع شحن الخليتين بالتوازي في نفس الوقت. تتيح هذه الهندسة تقليل المقاومة الكهربائية لتيار الشحن للنصف وتفادي ارتفاع الحرارة؛ مما يحافظ على سلامة الهاتف وعمر البطارية الطويل.</p>
 
-<h2>ثالثاً: البنية الكهربائية للكابلات المخصصة ذات الـ 11 سنّاً ومراقبة المقاومة</h2>
-<p>إذا نظرت بدقة داخل منفذ USB-A الخاص بكابل ريلمي الأصلي ذو اللون الأصفر أو البرتقالي، ستلاحظ وجود سنون نحاسية إضافية دقيقة مقارنة بالكابلات العادية. صممت ريلمي الكابلات بـ **11 سنّاً (Proprietary 11-pin USB)** بدلاً من 4 أو 5 سنون القياسية.</p>
+<h2>ثالثاً: البنية الكهربائية للكابلات المخصصة ذات الـ 7 سنون ومراقبة المقاومة</h2>
+<p>إذا نظرت بدقة داخل منفذ USB-A الخاص بكابل ريلمي الأصلي ذو اللون الأصفر أو البرتقالي، ستلاحظ وجود سنون نحاسية إضافية دقيقة مقارنة بالكابلات العادية. صممت ريلمي الكابلات بـ **7 سنون (Proprietary 7-pin USB)** بدلاً من 4 سنون القياسية.</p>
 <p>تستخدم هذه السنون الإضافية كقناة اتصال مباشر بين المعالج الدقيق في الهاتف ورقاقة التحكم بالشاحن لإجراء **مصافحة برمجية بالعتاد (Hardware Handshake)**. يقوم المعالج بمراقبة الفقد الكهربائي وهبوط الجهد (Voltage Drop) عبر خطوط الطاقة (VBUS و GND) باستمرار.</p>
 <p>إذا تم استخدام كابل تجاري رديء أو رقيق ذو مقاومة عالية، يكتشف النظام فوراً هبوط الجهد ويقوم بخفض تيار الشحن تلقائياً لحماية الموصلات والكابل من خطر الذوبان نتيجة الحرارة الزائدة. عند توصيل كابل عادي، يفشل الشاحن في التعرف على هوية الكابل ومستوى مقاومته الكهربائية، فيقوم بتحديد التيار تلقائياً بقوة 2 أمبير فقط خوفاً من ذوبان الكابل التجاري الرقيق.</p>
 
@@ -147,16 +147,16 @@ export const realme_accessories_buying_guide: BlogArticle = {
 </table>
 
 <h2>ثاني عشر: الخلاصة ونصيحة كايرو فولت</h2>
-<p>تمنحك هواتف ريلمي أداء شحن استثنائي بفضل تقنيات SuperVOOC المتطورة، ولكن هذا الأداء مشروط بالالتزام بالملحقات الأصلية أو البدائل المعتمدة المتوافقة. نصيحة كايرو فولت هي الحفاظ على كابل ريلمي الأصلي ذو الـ 11 سنّاً بعناية بالغة وتجنب ثنيه بعنف، وعند الرغبة في اقتناء شاحن احتياطي موثوق للمنزل أو العمل، يفضل الاعتماد على شاحن جويروم 30 واط PD للحصول على شحن بديل آمن يمنع تعرض دائرة الشحن للتلف الكهربائي.</p>
+<p>تمنحك هواتف ريلمي أداء شحن استثنائي بفضل تقنيات SuperVOOC المتطورة، ولكن هذا الأداء مشروط بالالتزام بالملحقات الأصلية أو البدائل المعتمدة المتوافقة. نصيحة كايرو فولت هي الحفاظ على كابل ريلمي الأصلي ذو الـ 7 سنون بعناية بالغة وتجنب ثنيه بعنف، وعند الرغبة في اقتناء شاحن احتياطي موثوق للمنزل أو العمل، يفضل الاعتماد على شاحن جويروم 30 واط PD للحصول على شحن بديل آمن يمنع تعرض دائرة الشحن للتلف الكهربائي.</p>
 <p>لتجنب المشكلات الشائعة التي تصيب منافذ الشحن وتؤدي لتلف الكابلات أو بطء الشحن المفاجئ نتيجة تراكم الأتربة، ننصحك بقراءة مقالنا المفصل حول <a href="/blog/clean-lightning-usb-c-port-safe-tools-mistakes" style="color:#2563eb;">الطريقة الصحيحة لتنظيف منفذ شحن الايفون وأجهزة الأندرويد بأمان والأدوات التي يجب تجنبها</a> لتوفير تكاليف الصيانة غير الضرورية.</p>`
         },
         en: {
             title: 'Realme Accessories Buying Guide: Selecting Compatible Fast Chargers',
             metaTitle: 'Realme Accessories Buying Guide Compatible Chargers Cables',
-            metaDescription: 'A complete guide to choosing and buying chargers and accessories for Realme phones (C53, C67, Realme 12) in Egypt. Learn about SuperVOOC and 11-pin USB cables.',
+            metaDescription: 'A complete guide to choosing and buying chargers and accessories for Realme phones (C53, C67, Realme 12) in Egypt. Learn about SuperVOOC and 7-pin USB cables.',
             keywords: 'realme accessories guide, original realme charger price egypt, realme 33w charger, realme dart cable, realme 11 cases, best chargers for realme',
-            excerpt: 'Lost your original Realme charger? We explain the electrical details behind SuperVOOC protocols and how to choose compatible 11-pin USB cables in Egypt.',
-            quickAnswer: 'Realme smartphones utilize proprietary **SuperVOOC / Dart Charge** protocols that rely on low-voltage, high-current electrical designs. To charge at full speed (33W or 67W), you must pair a **SuperVOOC-certified wall adapter** with a **custom 11-pin Realme USB cable**. Legacy USB-PD chargers will fallback to slow 10W charging.',
+            excerpt: 'Lost your original Realme charger? We explain the electrical details behind SuperVOOC protocols and how to choose compatible 7-pin USB cables in Egypt.',
+            quickAnswer: 'Realme smartphones utilize proprietary **SuperVOOC / Dart Charge** protocols that rely on low-voltage, high-current electrical designs. To charge at full speed (33W or 67W), you must pair a **SuperVOOC-certified wall adapter** with a **custom 7-pin Realme USB cable**. Legacy USB-PD chargers will fallback to slow 10W charging.',
             faq: [
                 {
                     question: 'Can I charge my Realme phone with an Anker or Joyroom 30W charger?',
@@ -168,7 +168,7 @@ export const realme_accessories_buying_guide: BlogArticle = {
                 },
                 {
                     question: 'Why does my Realme C53 charge slowly with a standard Type-C cable?',
-                    answer: 'The C53 requires a proprietary SuperVOOC cable containing an extra 11th data pin. Standard 5-pin USB cables cannot complete the safety handshake, causing the charger to limit current to 10W.'
+                    answer: 'The C53 requires a proprietary SuperVOOC cable with an extra signal pin (a 7-pin design). Standard 4-pin USB cables cannot complete the safety handshake, causing the charger to limit current to 10W.'
                 },
                 {
                     question: 'Do Realme C-series smartphones support wireless charging?',
@@ -182,11 +182,11 @@ export const realme_accessories_buying_guide: BlogArticle = {
 <p>This design moves the heat generated by voltage conversion out of the phone and into the wall charger block itself. This keeps the smartphone cool during fast charging cycles. However, if you connect a standard USB-PD charger, the phone cannot convert the high voltage efficiently. To prevent overheating, it defaults to a safe, slow charging rate of 10W.</p>
 
 <h2>2. Charge Pump Technology & Dual-Cell Battery Architecture</h2>
-<p>On advanced Realme devices that support higher wattages (like the 67W Realme 11 or 100W Realme 12 Pro+), the company employs a high-efficiency electrical design known as a **dual-cell battery**. Instead of charging one single cell, the battery capacity is divided into two separate, identical batteries connected in a series array.</p>
+<p>On advanced Realme devices that support higher wattages (like the 67W Realme 11 or 100W Realme 11 Pro+), the company employs a high-efficiency electrical design known as a **dual-cell battery**. Instead of charging one single cell, the battery capacity is divided into two separate, identical batteries connected in a series array.</p>
 <p>During the fast charging cycle, the wall brick delivers high voltage like 11V. An integrated chip called the **Charge Pump** functions as a high-efficiency DC-DC step-down converter inside the phone. It converts the incoming 11V/6A input into a parallel 5.5V/12A stream, charging both cells simultaneously. This step-down process keeps the internal resistance low and avoids thermal buildup inside the phone. PD chargers cannot trigger this Charge Pump module, forcing standard linear charging which results in thermal limits capping speeds at 10W-18W.</p>
 
-<h2>3. Hardware Constraints of the Custom 11-Pin USB Cable and Resistance Detection</h2>
-<p>Looking closely inside the USB-A connector of an original Realme cable (distinguished by its orange or yellow plastic spacer), you will see extra pins that are absent on standard USB cords. Realme uses a **custom 11-pin USB connector** instead of the typical 4 or 5-pin configuration.</p>
+<h2>3. Hardware Constraints of the Custom 7-Pin USB Cable and Resistance Detection</h2>
+<p>Looking closely inside the USB-A connector of an original Realme cable (distinguished by its orange or yellow plastic spacer), you will see extra pins that are absent on standard USB cords. Realme uses a **custom 7-pin USB connector** instead of the typical 4-pin configuration.</p>
 <p>These extra pins allow the phone\'s processor to communicate directly with the charging block during a **hardware handshake**. The phone\'s charging microcontroller continuously monitors the voltage drop across the VBUS and GND power lanes.</p>
 <p>If you use a thin, cheap aftermarket cable, the high electrical resistance creates a noticeable voltage drop. The phone immediately instructs the charger to throttle down current (from 6A to 3A or 2A) to prevent melting the cable. If you use a standard cable, the charger cannot complete this handshake, restricting output to 2A.</p>
 
@@ -207,7 +207,7 @@ export const realme_accessories_buying_guide: BlogArticle = {
 <p>Using cheap cables with rough metal housings can scrape and bend these contacts. This mechanical damage increases resistance and prevents the phone from triggering SuperVOOC mode, limiting charging to standard speeds permanently. Ensure you use precision-machined cables to protect your port.</p>
 
 <h2>7. Decimal Charging Animation lockscreen Notifications</h2>
-<p>When you plug a compatible SuperVOOC charger into a Realme phone, the lock screen displays a unique charging animation showing decimals counting up in real-time, accompanied by the text 'SuperVOOC' or 'Dart'. If you only see 'Charging' or a generic double-bolt lightning icon, the phone is charging at standard 10W-18W speeds. This visual indicator provides immediate feedback to verify if your charger and 11-pin cable are negotiating the protocol correctly.</p>
+<p>When you plug a compatible SuperVOOC charger into a Realme phone, the lock screen displays a unique charging animation showing decimals counting up in real-time, accompanied by the text 'SuperVOOC' or 'Dart'. If you only see 'Charging' or a generic double-bolt lightning icon, the phone is charging at standard 10W-18W speeds. This visual indicator provides immediate feedback to verify if your charger and 7-pin cable are negotiating the protocol correctly.</p>
 
 <h2>8. Optimizing Battery Lifespan via Realme UI Software Settings</h2>
 <p>Realme UI contains excellent integrated power management tools to extend the lifespan of your lithium-ion cells:</p>
@@ -278,7 +278,7 @@ export const realme_accessories_buying_guide: BlogArticle = {
 </table>
 
 <h2>13. Verdict and CairoVolt Recommendation</h2>
-<p>Realme devices offer fast charging speeds through SuperVOOC technology, but this requires using original accessories or certified compatible alternatives. CairoVolt recommends handling your original 11-pin Realme cable carefully to prevent internal wire breakage. If you need a secondary charger for travel or office use, the Joyroom 30W PD wall block provides a safe backup charging solution.</p>
+<p>Realme devices offer fast charging speeds through SuperVOOC technology, but this requires using original accessories or certified compatible alternatives. CairoVolt recommends handling your original 7-pin Realme cable carefully to prevent internal wire breakage. If you need a secondary charger for travel or office use, the Joyroom 30W PD wall block provides a safe backup charging solution.</p>
 <p>To prevent charging port issues caused by pocket lint and dust, check out our guide on <a href="/en/blog/clean-lightning-usb-c-port-safe-tools-mistakes" style="color:#2563eb;">how to safely clean your charging port</a> to save on repair costs.</p>`
         }
     }

@@ -55,14 +55,14 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPad Pro M4 13"</td>
         <td style="padding:12px;border:1px solid #d1d5db;">38.99Wh</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">38W PD</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">USB-C (Thunderbolt 4)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">USB-C (Thunderbolt / USB 4)</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">كابل فقط ❌</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPad Pro M4 11"</td>
         <td style="padding:12px;border:1px solid #d1d5db;">31.29Wh</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">38W PD</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">USB-C (Thunderbolt 4)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">USB-C (Thunderbolt / USB 4)</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">كابل فقط ❌</td>
     </tr>
     <tr>
@@ -229,7 +229,7 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
                 },
                 {
                     question: 'ليه iPad Pro Thunderbolt بس بيشحن بـ 38W؟',
-                    answer: 'Thunderbolt 4 هو بروتوكول بيانات (40Gbps) مش بروتوكول شحن. الشحن بيتم عبر PD العادي. Apple اختارت 38W كأقصى سرعة عشان توازن بين سرعة الشحن وعمر البطارية والحرارة في جسم رفيع 5.1mm.',
+                    answer: 'Thunderbolt / USB 4 هو بروتوكول بيانات (40Gbps) مش بروتوكول شحن. الشحن بيتم عبر PD العادي. Apple اختارت 38W كأقصى سرعة عشان توازن بين سرعة الشحن وعمر البطارية والحرارة في جسم رفيع 5.1mm.',
                 },
             ],
         },
@@ -267,14 +267,14 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPad Pro M4 13"</td>
         <td style="padding:12px;border:1px solid #d1d5db;">38.99Wh</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">38W PD</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">USB-C (Thunderbolt 4)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">USB-C (Thunderbolt / USB 4)</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">Cable only ❌</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPad Pro M4 11"</td>
         <td style="padding:12px;border:1px solid #d1d5db;">31.29Wh</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">38W PD</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">USB-C (Thunderbolt 4)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">USB-C (Thunderbolt / USB 4)</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">Cable only ❌</td>
     </tr>
     <tr>
@@ -437,7 +437,7 @@ export const ipad_pro_m4_vs_ipad_air_charger_requirements: BlogArticle = {
                 },
                 {
                     question: 'Why does iPad Pro with Thunderbolt only charge at 38W?',
-                    answer: 'Thunderbolt 4 is a data protocol (40Gbps), not a charging protocol. Charging uses standard PD. Apple chose 38W as the maximum to balance charging speed, battery longevity, and heat in a 5.1mm thin body.',
+                    answer: 'Thunderbolt / USB 4 is a data protocol (40Gbps), not a charging protocol. Charging uses standard PD. Apple chose 38W as the maximum to balance charging speed, battery longevity, and heat in a 5.1mm thin body.',
                 },
             ],
         }

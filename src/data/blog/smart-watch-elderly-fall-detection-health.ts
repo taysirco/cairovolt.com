@@ -46,7 +46,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <p>الفرق ده مش أكاديمي — ده فرق بين الحياة والموت لكبار السن. تخيّل إن الساعة بتقولك ضغط بابا 130/85 \"طبيعي\" — بينما الضغط الحقيقي 180/110 وعايز يروح الطوارئ فوراً. الأجهزة المعتمدة طبياً لقياس الضغط (FDA-cleared) بتستخدم حزام ضاغط (Cuff) على الذراع أو المعصم — مش حساس ضوئي صغير.</p>
 
-<p>الساعة الوحيدة المعتمدة طبياً لقياس الضغط في العالم (حتى يونيو 2026) هي Samsung Galaxy Watch 4/5/6 — وبتحتاج معايرة كل 28 يوم بجهاز ضغط حقيقي (Cuff-based calibration)، ومعتمدة فقط في كوريا الجنوبية رسمياً. يعني حتى Samsung مش بتقولك \"بنقيس الضغط من غير أي حاجة\" — بتقولك \"بنقدّره بعد ما تعايره بجهاز حقيقي\".</p>
+<p>قليل جداً من الساعات معتمد طبياً لقياس الضغط أصلاً. Samsung Galaxy Watch 4/5/6 بتقدّر الضغط بصرياً بس لازم تعايرها كل 28 يوم بجهاز ضغط حقيقي (Cuff-based calibration) — وميزة الضغط دي حاصلة على شهادة CE ومفعّلة في أكتر من 30 دولة (مش متاحة في أمريكا بس، مش محصورة في كوريا). وفيه ساعات قليلة بتروح أبعد من كده وفيها حزام ضاغط حقيقي فعلاً زي Omron HeartGuide المعتمدة من FDA و Huawei Watch D المعتمدة من CE و NMPA — والنوع ده أقرب طبياً من أي تقدير بصري من غير حزام. يعني حتى Samsung مش بتقولك \"بنقيس الضغط من غير أي حاجة\" — بتقولك \"بنقدّره بعد ما تعايره بجهاز حقيقي\".</p>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;color:#991b1b;"><strong>⚠️ تحذير مهم:</strong> لا تعتمد على أي ساعة ذكية كبديل لجهاز قياس ضغط الدم الطبي. أرقام \"ضغط الدم\" في الساعات الرخيصة (تحت 2,000 جنيه) غالباً غير دقيقة بنسبة ±15-30 mmHg — وده فرق ممكن يخلّيك تتجاهل أزمة ضغط حقيقية.</p>
@@ -126,7 +126,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     <tr><td style="padding:10px;border:1px solid #d1d5db;">تتبع النوم</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">مكالمات بلوتوث</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">عمر البطارية</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>5-7 أيام</strong></td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 ساعة</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 ساعة</td></tr>
-    <tr><td style="padding:10px;border:1px solid #d1d5db;">شاشة</td><td style="padding:10px;border:1px solid #d1d5db;">1.96 بوصة AMOLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.78 بوصة OLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.9 بوصة OLED</td></tr>
+    <tr><td style="padding:10px;border:1px solid #d1d5db;">شاشة</td><td style="padding:10px;border:1px solid #d1d5db;">1.96 بوصة TFT</td><td style="padding:10px;border:1px solid #d1d5db;">1.78 بوصة OLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.9 بوصة OLED</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">التوافق</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">أي موبايل</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone فقط</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone فقط</td></tr>
     <tr style="background:#f0fdf4;"><td style="padding:10px;border:1px solid #d1d5db;"><strong>السعر في مصر</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>1,092 جنيه</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>7,000+ جنيه</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>12,000+ جنيه</strong></td></tr>
     </tbody>
@@ -168,7 +168,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
             faq: [
                 {
                     question: 'هل الساعة الذكية بتقيس ضغط الدم فعلاً؟',
-                    answer: 'معظم الساعات الذكية الرخيصة بتدّي رقم تقديري لضغط الدم — مش قياس حقيقي. الساعة الوحيدة المعتمدة لقياس الضغط هي Samsung Galaxy Watch (مع معايرة بجهاز ضغط حقيقي). لا تعتمد على أي ساعة كبديل لجهاز قياس الضغط الطبي — خصوصاً لكبار السن.'
+                    answer: 'معظم الساعات الذكية الرخيصة بتدّي رقم تقديري لضغط الدم — مش قياس حقيقي. فيه ساعات قليلة معتمدة طبياً للضغط زي Samsung Galaxy Watch (تقدير بصري مع معايرة بجهاز ضغط حقيقي)، وكمان Omron HeartGuide و Huawei Watch D اللي فيهم حزام ضاغط حقيقي. لكن حتى دي مش بديل — لا تعتمد على أي ساعة كبديل لجهاز قياس الضغط الطبي، خصوصاً لكبار السن.'
                 },
                 {
                     question: 'إيه أهم ميزة في ساعة ذكية لكبار السن؟',
@@ -176,7 +176,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
                 },
                 {
                     question: 'هل كشف السقوط موجود في ساعات رخيصة؟',
-                    answer: 'كشف السقوط الحقيقي (بدقة 90%+ واتصال طوارئ تلقائي) موجود فقط في Apple Watch Series 8+ و Galaxy Watch 5+ — بأسعار تبدأ من 7,000 جنيه. الساعات الرخيصة ممكن يكون فيها الخيار بس دقته ضعيفة (40-60%) وبينتج إنذارات كاذبة كتير.'
+                    answer: 'كشف السقوط الحقيقي (بدقة 90%+ واتصال طوارئ تلقائي) مش محصور في أحدث الموديلات — موجود في Apple Watch Series 4 وأحدث وكل موديلات Apple Watch SE، وفي Samsung Galaxy Watch 4 وأحدث، وفي Google Pixel Watch. الموديلات الحالية اللي فيها الميزة دي بتبدأ من 7,000 جنيه. الساعات الرخيصة ممكن يكون فيها الخيار بس دقته ضعيفة (40-60%) وبينتج إنذارات كاذبة كتير.'
                 },
                 {
                     question: 'أبويا عنده Samsung — إيه أفضل ساعة ليه؟',
@@ -209,7 +209,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <p>This difference is not academic — it is the difference between life and death for elderly people. Imagine the watch telling you your father's blood pressure is 130/85 "normal" — while the actual reading is 180/110 and he needs emergency care immediately. FDA-cleared blood pressure devices use a pressurized cuff on the arm or wrist — not a small optical sensor.</p>
 
-<p>The only medically approved smartwatch for blood pressure measurement worldwide (as of June 2026) is the Samsung Galaxy Watch 4/5/6 — which requires calibration every 28 days with a real cuff-based device, and is officially approved only in South Korea. Even Samsung does not tell you "we measure blood pressure from nothing" — they say "we estimate it after you calibrate with a real device."</p>
+<p>Very few smartwatches are medically certified for blood pressure at all. The Samsung Galaxy Watch 4/5/6 estimates it optically but still requires calibration every 28 days with a real cuff-based device — and its blood-pressure feature is CE-marked and enabled in 30+ countries (it is simply unavailable in the US, not limited to South Korea). A handful of watches go further with an actual built-in cuff: the FDA-cleared Omron HeartGuide and the CE- and NMPA-certified Huawei Watch D use a real inflatable cuff, which is more medically legitimate than any cuffless optical estimate. Even Samsung does not tell you "we measure blood pressure from nothing" — they say "we estimate it after you calibrate with a real device."</p>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;color:#991b1b;"><strong>⚠️ Important Warning:</strong> Do not rely on any smartwatch as a substitute for a medical blood pressure device. "Blood pressure" readings from cheap watches (under 2,000 EGP) are typically inaccurate by ±15-30 mmHg — a margin that could cause you to ignore a genuine hypertensive crisis.</p>
@@ -289,7 +289,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Sleep Tracking</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">BT Calls</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Battery Life</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>5-7 days</strong></td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 hours</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 hours</td></tr>
-    <tr><td style="padding:10px;border:1px solid #d1d5db;">Screen</td><td style="padding:10px;border:1px solid #d1d5db;">1.96" AMOLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.78" OLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.9" OLED</td></tr>
+    <tr><td style="padding:10px;border:1px solid #d1d5db;">Screen</td><td style="padding:10px;border:1px solid #d1d5db;">1.96" TFT</td><td style="padding:10px;border:1px solid #d1d5db;">1.78" OLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.9" OLED</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Compatibility</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">Any phone</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone only</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone only</td></tr>
     <tr style="background:#f0fdf4;"><td style="padding:10px;border:1px solid #d1d5db;"><strong>Price in Egypt</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>1,092 EGP</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>7,000+ EGP</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>12,000+ EGP</strong></td></tr>
     </tbody>
@@ -331,7 +331,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
             faq: [
                 {
                     question: 'Can smartwatches actually measure blood pressure?',
-                    answer: 'Most budget smartwatches provide an estimated blood pressure number — not a real measurement. The only medically approved watch for blood pressure is the Samsung Galaxy Watch (requiring calibration with a real cuff device). Never rely on any smartwatch as a substitute for a medical blood pressure device — especially for elderly people.'
+                    answer: 'Most budget smartwatches provide an estimated blood pressure number — not a real measurement. A few watches are medically certified for BP — the Samsung Galaxy Watch (optical estimate with real-cuff calibration), plus the Omron HeartGuide and Huawei Watch D, which use an actual built-in cuff. But even these are not a substitute — never rely on any smartwatch instead of a medical blood pressure device, especially for elderly people.'
                 },
                 {
                     question: 'What is the most important feature in an elderly smartwatch?',
@@ -339,7 +339,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
                 },
                 {
                     question: 'Is fall detection available in budget smartwatches?',
-                    answer: 'Real fall detection (90%+ accuracy with automatic emergency calling) exists only in Apple Watch Series 8+ and Galaxy Watch 5+ — starting at 7,000 EGP. Budget watches may have the option but accuracy is poor (40-60%) with frequent false alarms.'
+                    answer: 'Real fall detection (90%+ accuracy with automatic emergency calling) is not exclusive to the newest models — it works on Apple Watch Series 4 or later and every Apple Watch SE, on Samsung Galaxy Watch 4 and later, and on Google Pixel Watch. Current models with this feature start at 7,000 EGP. Budget watches may have the option but accuracy is poor (40-60%) with frequent false alarms.'
                 },
                 {
                     question: 'My father uses Samsung — what is the best smartwatch for him?',

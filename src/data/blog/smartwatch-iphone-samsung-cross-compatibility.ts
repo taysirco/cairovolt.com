@@ -51,7 +51,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
     </tr></thead>
     <tbody>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Apple Watch</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ كامل</td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">❌ لا</td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">❌ لا</td><td style="padding:8px;border:1px solid #d1d5db;font-size:11px;">مقفولة على iOS تماماً</td></tr>
-    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Galaxy Watch</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#f59e0b;">⚠️ محدود</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ كامل</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ أغلب</td><td style="padding:8px;border:1px solid #d1d5db;font-size:11px;">بعض المميزات Samsung فقط</td></tr>
+    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Galaxy Watch</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">❌ لا</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ كامل</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ أغلب</td><td style="padding:8px;border:1px solid #d1d5db;font-size:11px;">الموديلات الحالية (Wear OS) مش بتتوصل بـ iPhone</td></tr>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Huawei Watch</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ أغلب</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ كامل</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ كامل</td><td style="padding:8px;border:1px solid #d1d5db;font-size:11px;">تطبيق Huawei Health</td></tr>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Xiaomi Band/Watch</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ أغلب</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ كامل</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ كامل</td><td style="padding:8px;border:1px solid #d1d5db;font-size:11px;">تطبيق Mi Fitness</td></tr>
     <tr style="background:#f0fdf4;"><td style="padding:8px;border:1px solid #d1d5db;"><strong>Joyroom FT3</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅ كامل</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅ كامل</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅ كامل</strong></td><td style="padding:8px;border:1px solid #d1d5db;font-size:11px;">BT مباشر، بدون قفل</td></tr>
@@ -62,7 +62,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 
 <p>الشركات الكبيرة بتصمم ساعاتها عمداً عشان تربطك بنظامها. Apple Watch مش بتتوصل خالص بـ Android — مش "بتشتغل بشكل محدود"، لا، مش بتشتغل أصلاً. لو اشتريت Apple Watch وبعدها غيّرت لـ Samsung — الساعة بتاعتك بقت حتّة حديد على إيدك. حرفياً.</p>
 
-<p>Galaxy Watch بقيت أحسن في الموضوع ده — بتشتغل على أي Android بس على iPhone الدعم ضعيف جداً. وحتى على Android غير Samsung بتخسر بعض المميزات زي قياس ضغط الدم وتخطيط القلب ECG.</p>
+<p>Galaxy Watch بقيت أحسن في الموضوع ده — بتشتغل على أي Android، بس الموديلات الحالية (Galaxy Watch 4 وأحدث، اللي شغّالة بنظام Wear OS) مش بتتوصل بـ iPhone خالص — تطبيق Galaxy Wearable مش موجود على iOS أصلاً (الدعم المحدود لـ iPhone كان بس في موديلات Tizen القديمة زي Watch 3 وActive 2 اللي اتوقفت). وحتى على Android غير Samsung بتخسر بعض المميزات زي قياس ضغط الدم وتخطيط القلب ECG.</p>
 
 <p>ده معناه إيه عملياً؟ لو بتغيّر موبايلات كل سنة أو سنتين — ممكن تلاقي نفسك مجبر تغيّر الساعة كمان. وده تكلفة إضافية محدش بيحسبها وقت الشراء.</p>
 
@@ -72,7 +72,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:10px;">🔴 <strong>Apple Watch على Android:</strong> مش بتشتغل خالص. صفر. مش بتتوصل. مش بتتزامن. خلاص.</li>
-    <li style="margin-bottom:10px;">🟡 <strong>Galaxy Watch على iPhone:</strong> بتتوصل بس بتخسر: الرد على الرسائل من الساعة، تحميل تطبيقات Google Play على الساعة، Samsung Pay، بعض واجهات الساعة. يعني الساعة بتبقى "قارئة إشعارات" بس.</li>
+    <li style="margin-bottom:10px;">🔴 <strong>Galaxy Watch على iPhone:</strong> الموديلات الحالية (Galaxy Watch 4 وأحدث بنظام Wear OS) مش بتتوصل بـ iPhone خالص — تطبيق Galaxy Wearable مش متاح على iOS، يعني لو غيّرت من Samsung لـ iPhone ساعتك مش هتشتغل مع الموبايل الجديد. (الموديلات القديمة بنظام Tizen زي Watch 3 كانت بتشتغل بشكل محدود بس اتوقفت.)</li>
     <li style="margin-bottom:10px;">🟡 <strong>Galaxy Watch على Android غير Samsung:</strong> بتشتغل كويس بس بتخسر: ECG (تخطيط قلب)، قياس ضغط الدم، بعض مميزات Samsung Health الحصرية.</li>
     <li style="margin-bottom:10px;">🟢 <strong>ساعات مستقلة (Joyroom / Xiaomi / Haylou):</strong> بتشتغل بنفس الكفاءة على أي موبايل. الاتصال بالبلوتوث مباشر — مفيش نظام بيئي بيقفلك.</li>
 </ul>
@@ -172,7 +172,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
                 },
                 {
                     question: 'لو عندي Galaxy Watch وغيّرت لـ iPhone — إيه اللي هيحصل؟',
-                    answer: 'Galaxy Watch بتتوصل بـ iPhone بشكل محدود جداً — هتقدر تشوف إشعارات وتتبع خطوات بس مش هتقدر تردّ على رسائل أو تحمّل تطبيقات أو تستخدم Samsung Pay. الساعة بتفقد أكتر من نصف مميزاتها.'
+                    answer: 'الموديلات الحالية من Galaxy Watch (Galaxy Watch 4 وأحدث، اللي بتشتغل بنظام Wear OS) مش بتتوصل بـ iPhone خالص — تطبيق Galaxy Wearable مش موجود على iOS، فمفيش إشعارات ولا تتبع خطوات ولا Samsung Pay. يعني لو غيّرت من Samsung لـ iPhone ساعتك عملياً مش هتشتغل مع الموبايل الجديد. (الموديلات القديمة بنظام Tizen زي Watch 3 وActive 2 كانت بتدعم iPhone بشكل محدود بس اتوقفت.)'
                 },
                 {
                     question: 'إيه أفضل ساعة ذكية تشتغل على iPhone و Android معاً؟',
@@ -213,7 +213,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
     </tr></thead>
     <tbody>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Apple Watch</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ Full</td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">❌ No</td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">❌ No</td><td style="padding:8px;border:1px solid #d1d5db;font-size:11px;">Locked to iOS entirely</td></tr>
-    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Galaxy Watch</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#f59e0b;">⚠️ Limited</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ Full</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ Most</td><td style="padding:8px;border:1px solid #d1d5db;font-size:11px;">Some features Samsung-only</td></tr>
+    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Galaxy Watch</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">❌ No</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ Full</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ Most</td><td style="padding:8px;border:1px solid #d1d5db;font-size:11px;">Current (Wear OS) models don't connect to iPhone</td></tr>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Huawei Watch</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ Most</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ Full</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ Full</td><td style="padding:8px;border:1px solid #d1d5db;font-size:11px;">Huawei Health app</td></tr>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Xiaomi Band/Watch</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ Most</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ Full</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;">✅ Full</td><td style="padding:8px;border:1px solid #d1d5db;font-size:11px;">Mi Fitness app</td></tr>
     <tr style="background:#f0fdf4;"><td style="padding:8px;border:1px solid #d1d5db;"><strong>Joyroom FT3</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅ Full</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅ Full</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅ Full</strong></td><td style="padding:8px;border:1px solid #d1d5db;font-size:11px;">Direct BT, no lock-in</td></tr>
@@ -224,7 +224,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 
 <p>Major companies deliberately design their watches to bind you to their ecosystem. The Apple Watch does not connect to Android at all — not "works with limited features," it simply does not work. If you buy an Apple Watch and later switch to Samsung — your watch becomes a piece of metal on your wrist. Literally.</p>
 
-<p>The Galaxy Watch has improved in this regard — it works on any Android device, but iPhone support is extremely limited. Even on non-Samsung Android, you lose some features like blood pressure measurement and ECG heart monitoring.</p>
+<p>The Galaxy Watch has improved in this regard — it works on any Android device, but current models (the Galaxy Watch 4 and later, running Wear OS) do not connect to an iPhone at all — the Galaxy Wearable app does not exist on iOS. (Only the older, discontinued Tizen models like the Watch 3 and Active 2 ever paired with an iPhone, and only in a limited mode.) Even on non-Samsung Android, you lose some features like blood pressure measurement and ECG heart monitoring.</p>
 
 <p>What does this mean practically? If you change phones every year or two — you might find yourself forced to change the watch as well. That is an additional cost nobody calculates at purchase time.</p>
 
@@ -234,7 +234,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:10px;">🔴 <strong>Apple Watch on Android:</strong> Does not work at all. Zero. Does not connect. Does not sync. Period.</li>
-    <li style="margin-bottom:10px;">🟡 <strong>Galaxy Watch on iPhone:</strong> Connects but you lose: replying to messages from the watch, downloading Google Play apps on the watch, Samsung Pay, some watch faces. Essentially the watch becomes a "notification reader" only.</li>
+    <li style="margin-bottom:10px;">🔴 <strong>Galaxy Watch on iPhone:</strong> Current models (the Galaxy Watch 4 and later, running Wear OS) do not connect to an iPhone at all — the Galaxy Wearable app is not available on iOS, so if you switch from Samsung to iPhone the watch stops working with your new phone. (Older Tizen models like the Watch 3 paired in a limited mode but are discontinued.)</li>
     <li style="margin-bottom:10px;">🟡 <strong>Galaxy Watch on non-Samsung Android:</strong> Works well but you lose: ECG (electrocardiogram), blood pressure measurement, some exclusive Samsung Health features.</li>
     <li style="margin-bottom:10px;">🟢 <strong>Independent watches (Joyroom / Xiaomi / Haylou):</strong> Work with equal efficiency on any phone. Bluetooth connection is direct — no ecosystem locking you in.</li>
 </ul>
@@ -319,7 +319,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
                 },
                 {
                     question: 'If I have a Galaxy Watch and switch to iPhone — what happens?',
-                    answer: 'Galaxy Watch connects to iPhone with very limited functionality — you can see notifications and track steps but cannot reply to messages, download apps, or use Samsung Pay. The watch loses more than half its features.'
+                    answer: 'Current Galaxy Watch models (the Galaxy Watch 4 and later, running Wear OS) do not connect to an iPhone at all — the Galaxy Wearable app does not exist on iOS, so there are no notifications, no step tracking, and no Samsung Pay. In practice, if you switch from Samsung to iPhone the watch stops working with your new phone. (Only the older, discontinued Tizen models like the Watch 3 and Active 2 ever supported iPhone, and only in a limited way.)'
                 },
                 {
                     question: 'What is the best smartwatch that works on both iPhone and Android?',

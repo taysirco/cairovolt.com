@@ -338,10 +338,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Anker PowerLine III USB-C to Lightning (A8612H11) | Verify MFi | USB-PD"
+                "name": "Anker PowerLine Select USB-C to Lightning (A8612H11) | Verify MFi | USB-PD"
             },
             "ar": {
-                "name": "كابل انكر PowerLine III من USB-C إلى Lightning (A8612H11) | تحقق من MFi | USB-PD"
+                "name": "كابل انكر PowerLine Select من USB-C إلى Lightning (A8612H11) | تحقق من MFi | USB-PD"
             }
         },
         "image": {
@@ -369,7 +369,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         },
         "image": {
             "url": "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-to-usb-c-100w-cable-cairovolt-egypt.webp",
-            "alt": "كابل انكر USB-C إلى USB-C 100 واط نايلون مضفر متين - كايرو فولت مصر"
+            "alt": "كابل انكر USB-C إلى USB-C 60 واط متين - كايرو فولت مصر"
         }
     },
     {
@@ -407,7 +407,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Joyroom 10000mAh Slim Power Bank | QC 3.0 | LED Display"
+                "name": "Joyroom 10000mAh Slim Power Bank | Dual USB | LED Display"
             },
             "ar": {
                 "name": "باور بانك جوي روم 10000 مللي | الفئة الاقتصادية (منقذ الطلبة)"
@@ -944,7 +944,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         },
         "image": {
             "url": "/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-240w-braided-cable-cairovolt.webp",
-            "alt": "Anker SureIStrong USB-C to Lightning 240W braided cable with Kevlar reinforcement - CairoVolt Egypt"
+            "alt": "Anker SureIStrong USB-C to Lightning PD braided cable with Kevlar reinforcement - CairoVolt Egypt"
         }
     },
     {
@@ -1166,10 +1166,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Anker 30W Mini Car Charger (A2741) | USB-C 27W PD + USB-A 22.5W | Ultra-Compact"
+                "name": "Anker 30W Mini Car Charger (A2741) | USB-C 30W PD + USB-A 22.5W | Ultra-Compact"
             },
             "ar": {
-                "name": "شاحن سيارة انكر 30 واط ميني (A2741) | USB-C 27 واط PD/PPS + USB-A 22.5 واط | فائق الصغر"
+                "name": "شاحن سيارة انكر 30 واط ميني (A2741) | USB-C 30 واط PD/PPS + USB-A 22.5 واط | فائق الصغر"
             }
         },
         "image": {
@@ -1327,10 +1327,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Soundcore P25i | 10mm BassUp | 28h Battery | Ultra-Light"
+                "name": "Soundcore P25i | 10mm BassUp | 30h Battery | Ultra-Light"
             },
             "ar": {
-                "name": "سماعة ساوندكور P25i | 10mm BassUp | 28 ساعة بطارية | خفيفة جداً"
+                "name": "سماعة ساوندكور P25i | 10mm BassUp | 30 ساعة بطارية | خفيفة جداً"
             }
         },
         "image": {
@@ -1534,7 +1534,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Soundcore P40i | 40dB ANC | 12mm BassUp | 60h Battery | App EQ"
+                "name": "Soundcore P40i | Adaptive ANC | 11mm BassUp | 60h Battery | App EQ"
             },
             "ar": {
                 "name": "سماعة ساوندكور P40i | ANC تكيّفي | 11mm BassUp | 60 ساعة | علبة حامل موبايل"
@@ -1565,7 +1565,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         },
         "image": {
             "url": "/products/anker/soundcore-p41i-earbuds/soundcore-p41i-earbuds-main-view-cairovolt.webp",
-            "alt": "Soundcore P41i A3956 travel earbuds 192h battery powerbank case - CairoVolt"
+            "alt": "Soundcore P41i A3937 travel earbuds 192h battery powerbank case - CairoVolt"
         }
     },
     {
@@ -1588,7 +1588,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         },
         "image": {
             "url": "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-main-view-cairovolt.webp",
-            "alt": "Soundcore V20i A3962 open-ear ear-hook 16mm BassUp - CairoVolt"
+            "alt": "Soundcore V20i A3876 open-ear ear-hook 16mm BassUp - CairoVolt"
         }
     },
     {
@@ -1611,7 +1611,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         },
         "image": {
             "url": "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-main-view-cairovolt.webp",
-            "alt": "Soundcore R50i Vi A3983 main view - CairoVolt"
+            "alt": "Soundcore R50i Vi A3969 main view - CairoVolt"
         }
     },
     {
@@ -1657,7 +1657,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         },
         "image": {
             "url": "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-main-view-cairovolt.webp",
-            "alt": "Soundcore C30i A3965 open-ear clip-on earbuds - CairoVolt"
+            "alt": "Soundcore C30i A3330 open-ear clip-on earbuds - CairoVolt"
         }
     },
     {
@@ -1672,15 +1672,15 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Soundcore C40i | Open-Ear Clip-On | A3966"
+                "name": "Soundcore C40i | Open-Ear Clip-On | A3331"
             },
             "ar": {
-                "name": "سماعة ساوندكور C40i كليب أذن مفتوح | موديل A3966"
+                "name": "سماعة ساوندكور C40i كليب أذن مفتوح | موديل A3331"
             }
         },
         "image": {
             "url": "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-main-view-cairovolt.webp",
-            "alt": "Soundcore C40i A3966 open-ear clip-on titanium flex - CairoVolt"
+            "alt": "Soundcore C40i A3331 open-ear clip-on titanium flex - CairoVolt"
         }
     },
     {
@@ -1772,7 +1772,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         },
         "image": {
             "url": "/products/anker/soundcore-q11i-headphones/soundcore-q11i-headphones-main-view-cairovolt.webp",
-            "alt": "Soundcore Q11i A3037 over-ear 40mm BassUp foldable - CairoVolt"
+            "alt": "Soundcore Q11i A3005 over-ear 40mm BassUp foldable - CairoVolt"
         }
     },
     {
@@ -1841,7 +1841,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         },
         "image": {
             "url": "/products/anker/soundcore-rave-3-speaker/soundcore-rave-3-speaker-main-view-cairovolt.webp",
-            "alt": "Soundcore Rave 3 A3399 200W party karaoke speaker - CairoVolt"
+            "alt": "Soundcore Rave 3 A31A3 200W party karaoke speaker - CairoVolt"
         }
     },
     {
@@ -1856,15 +1856,15 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Soundcore Select 4 Go A3129 | Manufacturer-Listed IP67 and Floating Design | 5W"
+                "name": "Soundcore Select 4 Go A31X1 | Manufacturer-Listed IP67 and Floating Design | 5W"
             },
             "ar": {
-                "name": "مكبر صوت ساوندكور Select 4 Go A3129 | تصنيف IP67 وتصميم طافٍ معلنان | 5 واط | الضمان الحالي"
+                "name": "مكبر صوت ساوندكور Select 4 Go A31X1 | تصنيف IP67 وتصميم طافٍ معلنان | 5 واط | الضمان الحالي"
             }
         },
         "image": {
             "url": "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-main-view-cairovolt.webp",
-            "alt": "Soundcore Select 4 Go A3129 IP67 waterproof floating speaker - CairoVolt"
+            "alt": "Soundcore Select 4 Go A31X1 IP67 waterproof floating speaker - CairoVolt"
         }
     },
     {
@@ -1879,10 +1879,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Anker Pencil Pro A7166 | iPad Stylus | Tilt | Palm Rejection | USB-C"
+                "name": "Anker Pencil Pro A7166 | iPad Stylus | Tilt | Palm Rejection | Magnetic Charging"
             },
             "ar": {
-                "name": "قلم انكر Pencil Pro A7166 للايباد | ميل ورفض لمس الكف | USB-C"
+                "name": "قلم انكر Pencil Pro A7166 للايباد | ميل ورفض لمس الكف | شحن مغناطيسي"
             }
         },
         "image": {
@@ -1948,10 +1948,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Anker Nano 45W 1C (A2039) — Single-Port USB-C GaN | iPhone 17 & MacBook Air"
+                "name": "Anker Nano 45W 1C (A2664) — Single-Port USB-C GaN | iPhone 17 & MacBook Air"
             },
             "ar": {
-                "name": "شاحن انكر نانو 45 واط 1C (A2039) | منفذ USB-C واحد بتقنية GaN"
+                "name": "شاحن انكر نانو 45 واط 1C (A2664) | منفذ USB-C واحد بتقنية GaN"
             }
         },
         "image": {
@@ -2178,10 +2178,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Anker Zolo USB-C to USB-C Braided Cable (A8060) — 140W PD 3.1, 1.5m | 240W-Grade 8-Core Wire"
+                "name": "Anker Zolo USB-C to USB-C Braided Cable (A8060) — 240W PD 3.1, 1.5m | 240W-Grade 8-Core Wire"
             },
             "ar": {
-                "name": "كابل انكر زولو USB-C إلى USB-C مضفر (A8060) — 140 واط PD 3.1، 1.5 متر | سلك 8 نوى بمعمار 240 واط"
+                "name": "كابل انكر زولو USB-C إلى USB-C مضفر (A8060) — 240 واط PD 3.1، 1.5 متر | سلك 8 نوى بمعمار 240 واط"
             }
         },
         "image": {

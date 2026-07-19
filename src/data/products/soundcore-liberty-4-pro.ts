@@ -15,7 +15,7 @@ export const soundcore_liberty_4_pro = {
 
     images: [
  { id: "img_1", url: "/products/anker/soundcore-liberty-4-pro/soundcore-liberty-4-pro-main-view-cairovolt.webp", alt: "Soundcore Liberty 4 Pro wireless earbuds ACAA dual driver 10.5mm Hi-Res LDAC - product view in Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/soundcore-liberty-4-pro/soundcore-liberty-4-pro-features-angle-cairovolt.webp", alt: "سماعة ساوندكور ليبرتي 4 برو لاسلكية ACAA درايفر مزدوج عزل تكيفي - A3952 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/soundcore-liberty-4-pro/soundcore-liberty-4-pro-features-angle-cairovolt.webp", alt: "سماعة ساوندكور ليبرتي 4 برو لاسلكية ACAA درايفر مزدوج عزل تكيفي - A3954 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/anker/soundcore-liberty-4-pro/soundcore-liberty-4-pro-specifications-detail-cairovolt.webp", alt: "Soundcore Liberty 4 Pro 10.5mm woofer + 4.6mm tweeter coaxial driver close-up LDAC Hi-Res - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
  { id: "img_4", url: "/products/anker/soundcore-liberty-4-pro/soundcore-liberty-4-pro-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور ليبرتي 4 برو علبة المنتج - مصر - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/anker/soundcore-liberty-4-pro/soundcore-liberty-4-pro-in-use-lifestyle-cairovolt.webp", alt: "Soundcore Liberty 4 Pro worn in-ear ANC active lifestyle commute - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },

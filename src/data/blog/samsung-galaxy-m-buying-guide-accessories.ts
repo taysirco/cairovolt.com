@@ -93,7 +93,7 @@ export const samsung_galaxy_m_buying_guide_accessories: BlogArticle = {
 
 <h3>1. رأس الشاحن الجداري الذكي</h3>
 <ul>
-    <li>⚡ <strong>شاحن جويروم 30 واط السريع:</strong> مثل <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن جويروم 30 واط السريع</a>. يدعم الشاحن بروتوكول PPS الخاص بسامسونج بالكامل، ليمنح هواتف M14 و M34 و M54 قوة الـ 25 واط كاملة. يشحن البطارية العملاقة في أقل من 90 دقيقة بأمان تام دون التسبب في سخونة هيكل الهاتف البلاستيكي.</li>
+    <li>⚡ <strong>شاحن جويروم 30 واط السريع:</strong> مثل <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن جويروم 30 واط السريع</a>. يدعم الشاحن بروتوكول PPS الخاص بسامسونج بالكامل، ليمنح هاتفي M34 و M54 قوة الـ 25 واط كاملة ويشحن بطاريتهما العملاقة في أقل من 90 دقيقة بأمان تام دون التسبب في سخونة الهيكل البلاستيكي. (أما هاتف M14 5G بنسخته العالمية المتوفرة في مصر فهو محدود بحد أقصى 15 واط ولن يسحب أكثر من ذلك على أي شاحن، تماماً كما هو موضح في جدول المقارنة أدناه.)</li>
 </ul>
 
 <h3>2. كابل الشحن التايب سي ذو المقاومة المنخفضة</h3>
@@ -221,7 +221,7 @@ export const samsung_galaxy_m_buying_guide_accessories: BlogArticle = {
 
 <h3>Regulated Wall Chargers</h3>
 <ul>
-    <li>⚡ <strong>Joyroom 30W Fast Charger:</strong> The <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W Fast Charger</a> fully supports Samsung\'s PPS fast charging standard, delivering the required 25W to M14, M34, and M54 models. It charges the 6000mAh battery in under 90 minutes while keeping temperatures low.</li>
+    <li>⚡ <strong>Joyroom 30W Fast Charger:</strong> The <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W Fast Charger</a> fully supports Samsung\'s PPS fast charging standard, delivering the full 25W to the M34 and M54 and charging their 6000mAh batteries in under 90 minutes while keeping temperatures low. (The Egypt/global Galaxy M14 5G is hardware-capped at 15W — 25W is exclusive to the India variant — so it charges at its own 15W maximum on any adapter, matching the comparison table below.)</li>
 </ul>
 
 <h3>Low-Resistance USB-C Cables</h3>

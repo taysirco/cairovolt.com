@@ -6,7 +6,7 @@ export const soundcore_c30i_earbuds = {
     categorySlug: "audio",
     gtin: "",
     gtin13: "",
-    mpn: "A3965",
+    mpn: "A3330",
     price: 2350,
     originalPrice: 2679,
     stock: 1120,
@@ -14,15 +14,15 @@ export const soundcore_c30i_earbuds = {
     status: "active",
 
     images: [
-            { id: "img_1", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-main-view-cairovolt.webp", alt: "Soundcore C30i A3965 open-ear clip-on earbuds - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور C30i A3965 كليب أذن مفتوح - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-specifications-detail-cairovolt.webp", alt: "Soundcore C30i A3965 racetrack titanium driver - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
- { id: "img_4", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور C30i A3965 علبة المنتج - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore C30i A3965 open-ear running lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور C30i A3965 مقارنة حجم - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-accessories-included-cairovolt.webp", alt: "Soundcore C30i A3965 silicone grips accessories - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور C30i A3965 تفاصيل قرب - كايرو فولت", order: 7, isPrimary: false, width: 750, height: 750 },
-            { id: "img_9", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-alternate-color-cairovolt.webp", alt: "Soundcore C30i A3965 alternate color - CairoVolt", order: 8, isPrimary: false, width: 750, height: 750 },
+            { id: "img_1", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-main-view-cairovolt.webp", alt: "Soundcore C30i A3330 open-ear clip-on earbuds - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور C30i A3330 كليب أذن مفتوح - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-specifications-detail-cairovolt.webp", alt: "Soundcore C30i A3330 racetrack titanium driver - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+ { id: "img_4", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور C30i A3330 علبة المنتج - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore C30i A3330 open-ear running lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور C30i A3330 مقارنة حجم - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-accessories-included-cairovolt.webp", alt: "Soundcore C30i A3330 silicone grips accessories - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور C30i A3330 تفاصيل قرب - كايرو فولت", order: 7, isPrimary: false, width: 750, height: 750 },
+            { id: "img_9", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-alternate-color-cairovolt.webp", alt: "Soundcore C30i A3330 alternate color - CairoVolt", order: 8, isPrimary: false, width: 750, height: 750 },
     ],
 
     relatedProducts: ["soundcore-c40i-earbuds", "soundcore-v20i-earbuds", "soundcore-life-u2i-neckband", "soundcore-p20i-earbuds", "anker-soundcore-life-p2i", "anker-a2741-charger-30w"],
@@ -49,7 +49,7 @@ export const soundcore_c30i_earbuds = {
     <p class="text-gray-700 leading-relaxed mb-3">C30i is an OPEN-EAR clip-on — it does NOT go inside the ear canal and has NO ANC. If you want in-ear buds with ANC, buy P30i (the current listed price) or P40i (the current listed price) instead.</p>
     <p class="font-bold mb-2">How to verify the supplied model:</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
-        <li><strong>Model:</strong> A3965 engraved on the case</li>
+        <li><strong>Model:</strong> A3330 engraved on the case</li>
         <li><strong>Design:</strong> Hard-shell clip-on with detachable silicone grips</li>
         <li><strong>App:</strong> Shows "Soundcore C30i" in Soundcore app</li>
         <li><strong>Driver:</strong> Compare the listed racetrack shape with current manufacturer documentation</li>
@@ -88,7 +88,7 @@ export const soundcore_c30i_earbuds = {
     <p class="text-gray-700 leading-relaxed mb-3">C30i كليب أذن مفتوح — مش بتدخل جوه الودان ومفيهاش ANC. لو عايز سماعة داخلية بـ ANC، اشتري P30i (السعر الحالي المعروض في الصفحة) أو P40i (السعر الحالي المعروض في الصفحة).</p>
     <p class="font-bold mb-2">إزاي تتحقق من الموديل المورّد؟</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
-        <li><strong>الموديل:</strong> A3965 محفور على العلبة</li>
+        <li><strong>الموديل:</strong> A3330 محفور على العلبة</li>
         <li><strong>التصميم:</strong> كليب صلب بقبضات سيليكون قابلة للفك</li>
         <li><strong>التطبيق:</strong> بتظهر باسم "ساوندكور C30i" في التطبيق</li>
         <li><strong>الدرايفر:</strong> قارن شكل racetrack المدرج بوثائق الشركة الحالية</li>

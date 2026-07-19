@@ -73,7 +73,7 @@ export const samsung_charger_prices_egypt_all_models: BlogArticle = {
         </tr>
         <tr style="background:#f8fafc;">
             <td style="padding:12px;border:1px solid #cbd5e1;font-weight:bold;">Samsung 45W (EP-T4510)</td>
-            <td style="padding:12px;border:1px solid #cbd5e1;color:#1e3a8a;font-weight:bold;">45 واط - PD 3.0 / PPS 2.0</td>
+            <td style="padding:12px;border:1px solid #cbd5e1;color:#1e3a8a;font-weight:bold;">45 واط - PD 3.0 / PPS</td>
             <td style="padding:12px;border:1px solid #cbd5e1;font-weight:bold;">1400 - 1800 جنيه</td>
             <td style="padding:12px;border:1px solid #cbd5e1;">الهواتف الرائدة والتابلت (S24 Ultra, S23+, Tab S9)</td>
         </tr>
@@ -145,7 +145,7 @@ export const samsung_charger_prices_egypt_all_models: BlogArticle = {
             faq: [
                 {
                     question: 'هل يمكن شحن هاتف سامسونج بشاحن آيفون أو العكس؟',
-                    answer: 'نعم، الشحن آمن تماماً بفضل توافق معيار USB Power Delivery العام. ولكن لن تحصل على سرعة الشحن الفائقة كاملة إلا إذا كان شاحن الآيفون يدعم بروتوكول PPS الخاص بسامسونج وبقدرة مخرج مناسبة.'
+                    answer: 'نعم، الشحن آمن تماماً بفضل توافق معيار USB Power Delivery العام. لكن انتبه أن بروتوكول PPS ليس حكراً على سامسونج، بل هو معيار مفتوح من اتحاد USB (جزء من USB PD 3.0)، وشواحن آبل لا تدعمه من الأساس. لذلك شحن هاتف سامسونج بشاحن آيفون سيتم بسرعة الشحن العادية فقط ولن يفعّل خاصية "Super Fast Charging". للحصول على السرعة الفائقة كاملة تحتاج لشاحن يدعم PPS مثل شاحن سامسونج الأصلي أو بديل معتمد.'
                 },
                 {
                     question: 'ما هو الموديل الفني لشاحن سامسونج 25 واط الأصلي؟',
@@ -208,7 +208,7 @@ export const samsung_charger_prices_egypt_all_models: BlogArticle = {
         </tr>
         <tr style="background:#f8fafc;">
             <td style="padding:12px;border:1px solid #cbd5e1;font-weight:bold;">Samsung 45W EP-T4510</td>
-            <td style="padding:12px;border:1px solid #cbd5e1;color:#1e3a8a;font-weight:bold;">45W - PD 3.0 / PPS 2.0</td>
+            <td style="padding:12px;border:1px solid #cbd5e1;color:#1e3a8a;font-weight:bold;">45W - PD 3.0 / PPS</td>
             <td style="padding:12px;border:1px solid #cbd5e1;font-weight:bold;">1,400 - 1,800 EGP</td>
             <td style="padding:12px;border:1px solid #cbd5e1;">Galaxy S24 Ultra, S23 Ultra, S24+, and Tab S9</td>
         </tr>
@@ -276,7 +276,7 @@ export const samsung_charger_prices_egypt_all_models: BlogArticle = {
             faq: [
                 {
                     question: 'Can I charge a Samsung phone with an Apple charger?',
-                    answer: 'Yes, it is completely safe. Modern devices and chargers use standard USB Power Delivery. However, you will only get maximum fast charging speeds if the Apple charger supports the PPS protocol required by Samsung.'
+                    answer: 'Yes, it is completely safe thanks to the shared USB Power Delivery standard. However, PPS is not Samsung\'s own protocol — it is an open USB-IF standard (part of USB PD 3.0), and Apple chargers do not support it. So charging a Samsung phone with an Apple charger will only reach standard speeds and won\'t trigger "Super Fast Charging"; to get maximum speed you need a PPS-capable charger such as the original Samsung adapter or a certified alternative.'
                 },
                 {
                     question: 'What is the model number of the original 25W Samsung charger?',

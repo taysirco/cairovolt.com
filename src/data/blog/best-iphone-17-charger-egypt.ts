@@ -33,10 +33,10 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
     <div class= "quick-answer-inline" style = "background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role = "complementary" aria - label="ملخص سريع">
     <p><strong>باختصار: </strong> أفضل شاحن للايفون 17 هو أنكر Nano 45W بسعر 790 جنيه — يشحن من 0% لـ 50% في 22 دقيقة فقط. للميزانية المحدودة أنكر 20W بسعر 490 جنيه. لا تستخدم شواحن التقليد أبداً.</p>
     </div>
-    <p> مفاجأة: Apple لا تضع شاحن في العلبة! وحتى شاحنها الرسمي 20W أصبح <strong> بطيئاً </strong> لـ iPhone 17 الذي يدعم شحن حتى 27 واط. الحل؟ شاحن انكر 30W بنصف سعر شاحن أبل الأصلي.</p>
+    <p> مفاجأة: Apple لا تضع شاحن في العلبة! وحتى شاحنها الرسمي 20W أصبح <strong> بطيئاً </strong> لـ iPhone 17 الذي يدعم شحناً سلكياً حتى نحو 40 واط. الحل؟ شاحن انكر 30W بنصف سعر شاحن أبل الأصلي.</p>
 
     <div class="expert-callout" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
-    <p><strong>📱 بالأرقام المعلنة: </strong> وفق بيانات Apple الرسمية، شاحن 20W (سواء Apple أو أنكر) يوصل iPhone 17 Pro من 0% لـ 50% في نحو 30 دقيقة. الشواحن الأقوى مثل أنكر 30W Nano تستغل الحد الأقصى المدعوم (~27W) فيقل الزمن لنحو 22-25 دقيقة بالحساب من المواصفات. أما شواحن التقليد فغالباً أبطأ بكثير مع سخونة ملحوظة. الفرق واضح.</p>
+    <p><strong>📱 بالأرقام المعلنة: </strong> الرقم الرسمي من Apple لـ iPhone 17 هو الوصول إلى 50% في نحو 20 دقيقة باستخدام محول 40 واط أو أعلى — فالهاتف يقبل شحناً سلكياً حتى نحو 40 واط. أما شاحن 20W (سواء Apple أو أنكر) فأبطأ، ويأخذ iPhone 17 Pro من 0% لـ 50% في نحو 30 دقيقة أو أكثر في الاختبارات العملية، وهو رقم لا تنشره Apple رسمياً. الشواحن الأقوى مثل أنكر Nano 45W تستغل الحد الأقصى المدعوم (~40W) فتصل لـ 50% في نحو 20 دقيقة. أما شواحن التقليد فغالباً أبطأ بكثير مع سخونة ملحوظة. الفرق واضح.</p>
     </div>
 
     <h2> أفضل شواحن ايفون 17 في مصر </h2>
@@ -78,7 +78,7 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
         `,
                 faq: [
                     { question: 'ما أفضل شاحن للايفون 17 في مصر؟', answer: 'أنكر Nano 45W بسعر 790 جنيه. يعطي iPhone 17 أقصى سرعة شحن (0→50% في 25 دقيقة). أصغر من شاحن Apple الأصلي.' },
-                    { question: 'هل شاحن 20 واط كافي للايفون 17؟', answer: 'كافي لكنه ليس الأسرع. iPhone 17 يدعم حتى 27W، فشاحن 45W يعطيك السرعة الكاملة مقابل 370 جنيه فرق فقط.' },
+                    { question: 'هل شاحن 20 واط كافي للايفون 17؟', answer: 'كافي لكنه ليس الأسرع. iPhone 17 يدعم شحناً سلكياً حتى نحو 40W، فشاحن 45W يعطيك السرعة الكاملة مقابل 370 جنيه فرق فقط.' },
                     { question: 'هل شاحن انكر آمن على بطارية الايفون؟', answer: 'نعم 100%. شواحن انكر معتمدة من Apple MFi وتستخدم تقنية ActiveShield لمراقبة الحرارة 3 مليون مرة يومياً.' },
                 ]
             },
@@ -91,10 +91,10 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
                 quickAnswer: 'The best iPhone 17 charger is the Anker 20W at EGP 375, charging from 0% to 50% in 30 minutes. For faster charging, the Anker Nano 45W reaches 50% in 22 minutes at EGP 790.',
                 content: `
     <h2> Why Apple's Official Charger Isn't the Best for iPhone 17 </h2>
-        <p> Surprise: Apple doesn't include a charger in the box! And even their official 20W charger is now <strong>slow</strong> for iPhone 17, which supports up to 27W charging. The solution? Anker 30W charger at half the price of Apple's official one.</p>
+        <p> Surprise: Apple doesn't include a charger in the box! And even their official 20W charger is now <strong>slow</strong> for iPhone 17, which supports up to ~40W wired charging. The solution? Anker 30W charger at half the price of Apple's official one.</p>
 
             <div class="expert-callout" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
-                <p><strong>📱 By the published numbers: </strong> According to Apple's official figures, a 20W adapter (Apple or Anker) takes iPhone 17 Pro from 0% to 50% in about 30 minutes. Higher-wattage chargers like the Anker 30W Nano use the phone's full ~27W ceiling, bringing that down to roughly 22–25 minutes based on the specs. Counterfeit chargers are typically far slower, with noticeable heat. The difference is clear.</p>
+                <p><strong>📱 By the published numbers: </strong> Apple's official figure for iPhone 17 is up to 50% charge in around 20 minutes using a 40W-or-higher adapter — the phone accepts up to ~40W wired charging. A 20W adapter (Apple or Anker) is slower, taking iPhone 17 Pro from 0% to 50% in about 30 minutes or more in real-world testing, a figure Apple does not publish. Higher-wattage chargers like the Anker Nano 45W use the phone's full ~40W ceiling, reaching 50% in roughly 20 minutes. Counterfeit chargers are typically far slower, with noticeable heat. The difference is clear.</p>
                     </div>
 
                     <h2> Best iPhone 17 Chargers in Egypt </h2>
@@ -131,7 +131,7 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
                                                                                                         `,
                 faq: [
                     { question: 'What is the best charger for iPhone 17 in Egypt?', answer: 'Anker Nano 45W at EGP 790. Gives iPhone 17 maximum charging speed (0→50% in 25 minutes). Smaller than Apple official charger.' },
-                    { question: 'Is a 20W charger enough for iPhone 17?', answer: 'Sufficient but not the fastest. iPhone 17 supports up to 27W, so a 45W charger gives you full speed for just EGP 370 more.' },
+                    { question: 'Is a 20W charger enough for iPhone 17?', answer: 'Sufficient but not the fastest. iPhone 17 supports up to ~40W wired charging, so a 45W charger gives you full speed for just EGP 370 more.' },
                     { question: 'Does iPhone 17 use USB-C or Lightning?', answer: 'USB-C. Since iPhone 15, Apple switched to USB-C. Make sure your cable and charger both have USB-C connectors for maximum speed.' },
                 ]
             }

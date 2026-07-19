@@ -6,7 +6,7 @@ export const soundcore_v20i_earbuds = {
     categorySlug: "audio",
     gtin: "",
     gtin13: "",
-    mpn: "A3962",
+    mpn: "A3876",
     price: 1449,
     originalPrice: 1699,
     stock: 792,
@@ -14,14 +14,14 @@ export const soundcore_v20i_earbuds = {
     status: "active",
 
     images: [
-            { id: "img_1", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-main-view-cairovolt.webp", alt: "Soundcore V20i A3962 open-ear ear-hook 16mm BassUp - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور V20i A3962 خطاف أذن مفتوح LED - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-specifications-detail-cairovolt.webp", alt: "Soundcore V20i A3962 16mm titanium BassUp driver - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
- { id: "img_4", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور V20i A3962 علبة المنتج - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore V20i A3962 ear-hook running lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور V20i A3962 مقارنة حجم - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-accessories-included-cairovolt.webp", alt: "Soundcore V20i A3962 ear hooks accessories - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور V20i A3962 تفاصيل خطاف قرب - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-main-view-cairovolt.webp", alt: "Soundcore V20i A3876 open-ear ear-hook 16mm BassUp - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور V20i A3876 خطاف أذن مفتوح LED - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-specifications-detail-cairovolt.webp", alt: "Soundcore V20i A3876 16mm titanium BassUp driver - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+ { id: "img_4", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور V20i A3876 علبة المنتج - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore V20i A3876 ear-hook running lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور V20i A3876 مقارنة حجم - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-accessories-included-cairovolt.webp", alt: "Soundcore V20i A3876 ear hooks accessories - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/anker/soundcore-v20i-earbuds/soundcore-v20i-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور V20i A3876 تفاصيل خطاف قرب - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
     ],
 
     relatedProducts: ["soundcore-c30i-earbuds", "soundcore-c40i-earbuds", "soundcore-p20i-earbuds", "anker-soundcore-r50i", "anker-soundcore-k20i", "anker-a2741-charger-30w"],
@@ -43,7 +43,7 @@ export const soundcore_v20i_earbuds = {
     </section>
 </div>
 
-<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3962</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3876</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
             features: ["Open-ear ear-hook", "Listed 16mm titanium-coated driver", "Four-position hook listing", "App-controlled LED listing", "No ANC", "Manufacturer-published battery figures", "Verify Bluetooth and multipoint support", "Microphone processing", "Review IP55 limits", "Soundcore app", "Review current warranty terms"],
             metaTitle: "Soundcore V20i — Open-Ear Hook | 16mm BassUp | LED",
             metaDesc: "Soundcore V20i open-ear earbuds with adjustable hooks, 16mm driver, LED lights, manufacturer-rated battery and IP55 listing. Check current price and terms.",
@@ -71,7 +71,7 @@ export const soundcore_v20i_earbuds = {
     </section>
 </div>
 
-<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3962</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3876</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["خطاف أذن مفتوح", "درايفر 16mm مطلي بالتيتانيوم وفق القائمة", "أربعة أوضاع خطاف وفق القائمة", "LED يتحكم به التطبيق", "بدون ANC", "أرقام بطارية منشورة من الشركة", "تحقق من البلوتوث والاتصال المتعدد", "معالجة ميكروفون", "راجع حدود IP55", "تطبيق ساوندكور", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "سماعة ساوندكور V20i — خطاف أذن مفتوح | 16mm BassUp",
             metaDesc: "اشتري سماعة ساوندكور V20i في مصر — السعر الحالي المعروض في الصفحة. خطاف أذن مفتوح، 16mm تيتانيوم BassUp، LED، خطاف 4 أوضاع، 36 ساعة، IP55، 4 مايكات AI. راجع سياسة الضمان والاسترجاع الحالية.",

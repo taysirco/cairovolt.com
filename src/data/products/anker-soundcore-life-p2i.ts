@@ -33,7 +33,7 @@ export const anker_soundcore_life_p2i = {
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
-        <li>🎧 <strong>Published battery:</strong> up to 7h earbuds and 28h total under Soundcore's test settings.</li>
+        <li>🎧 <strong>Published battery:</strong> up to 8h earbuds and 28h total under Soundcore's test settings.</li>
         <li>🤖 <strong>Call processing:</strong> dual microphones intended to emphasise speech; results vary by environment.</li>
         <li>🎵 <strong>Dual EQ:</strong> Bass and Podcast modes adjust frequency emphasis; preference is personal.</li>
         <li>⚡ <strong>Fast-charge example:</strong> verify the current manufacturer test conditions; playback varies.</li>
@@ -53,7 +53,7 @@ export const anker_soundcore_life_p2i = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Published Battery and Fast-Charge Figures</h2>
-        <p class="text-gray-700">Soundcore lists up to 7 hours for the earbuds and 28 hours with the case, plus a fast-charge playback example under specified conditions. Volume, calls, connection, temperature and battery age affect actual runtime.</p>
+        <p class="text-gray-700">Soundcore lists up to 8 hours for the earbuds and 28 hours with the case, plus a fast-charge playback example under specified conditions. Volume, calls, connection, temperature and battery age affect actual runtime.</p>
     </section>
 </div>
 <div class="device-compatibility">
@@ -87,7 +87,7 @@ export const anker_soundcore_life_p2i = {
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
-        <li>🎧 <strong>بطارية معلنة:</strong> حتى 7 ساعات للسماعات و28 ساعة إجمالاً تحت إعدادات ساوندكور.</li>
+        <li>🎧 <strong>بطارية معلنة:</strong> حتى 8 ساعات للسماعات و28 ساعة إجمالاً تحت إعدادات ساوندكور.</li>
         <li>🤖 <strong>معالجة مكالمات:</strong> ميكروفونان لإبراز الكلام؛ النتيجة تتغير حسب البيئة.</li>
         <li>🎵 <strong>وضعا EQ:</strong> Bass وPodcast يغيران الترددات؛ التفضيل شخصي.</li>
         <li>⚡ <strong>مثال شحن سريع:</strong> تحقق من شروط اختبار الشركة؛ تختلف مدة التشغيل.</li>
@@ -109,7 +109,7 @@ export const anker_soundcore_life_p2i = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">أرقام البطارية والشحن السريع المعلنة</h2>
-        <p class="text-gray-700">تذكر ساوندكور حتى 7 ساعات للسماعات و28 ساعة مع العلبة ومثالاً للشحن السريع تحت شروط محددة. تؤثر شدة الصوت والمكالمات والاتصال والحرارة وعمر البطارية في المدة الفعلية.</p>
+        <p class="text-gray-700">تذكر ساوندكور حتى 8 ساعات للسماعات و28 ساعة مع العلبة ومثالاً للشحن السريع تحت شروط محددة. تؤثر شدة الصوت والمكالمات والاتصال والحرارة وعمر البطارية في المدة الفعلية.</p>
     </section>
 </div>
 <div class="device-compatibility">

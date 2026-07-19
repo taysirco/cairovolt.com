@@ -130,7 +130,7 @@ export const iphone_20w_charger_head_price_egypt: BlogArticle = {
 
 <p>لما تحط الاتنين جنب بعض — الفرق واضح. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort III 20W</a> بيدّي نفس الأداء بالظبط. من 0 لـ 50% في 30 دقيقة على iPhone 15. شحن كامل في حوالي 1 ساعة و45 دقيقة. نفس البروتوكول (USB PD). بس بسعر 400 جنيه بدل 850+. ومعاه ضمان 18 شهر مقابل 12 شهر لـ Apple. يعني بتوفّر 450+ جنيه وبتاخد ضمان أطول بـ 6 شهور — ده مش اختيار صعب.</p>
 
-<p>ولو عايز شوية قوة زيادة — <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> بـ 500 جنيه بيدّي 25W — يعني بيشحن ايفون بنفس سرعة 20W (الايفون محدود عند 20W) بس لو عندك سامسونج كمان هيشحنه بـ 25W. شاحن واحد لكل أجهزتك.</p>
+<p>ولو عايز شوية قوة زيادة — <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> بـ 500 جنيه بيدّي 25W. مهم تعرف حاجة: الايفونات الأساسية (iPhone 12 لحد 15 العادي وSE) بتوصل لأقصى سرعة عند حوالي 20W — فعليها شاحن 25W بيشحن بنفس سرعة شاحن 20W تقريباً. لكن موبايلات الـ Pro وiPhone 16 وiPhone 17 بتسحب أكتر (من حوالي 27W لحد ~40W مع شاحن آبل 40W الجديد) — فعليها شاحن 25 أو 30 واط بيشحن أسرع من 20W فعلاً. وفي كل الأحوال لو عندك سامسونج كمان هيشحنه بـ 25W. شاحن واحد لكل أجهزتك.</p>
 
 <h2>تحذير: رأس شاحن 20W التقليد — إزاي تكتشفه؟</h2>
 
@@ -345,7 +345,7 @@ export const iphone_20w_charger_head_price_egypt: BlogArticle = {
 
 <p>When you place both side by side — the difference is clear. <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort III 20W</a> delivers identical performance. 0 to 50% in 30 minutes on iPhone 15. Full charge in about 1 hour 45 minutes. Same protocol (USB PD). But at 400 EGP instead of 850+. With an 18-month warranty vs Apple's 12 months. You save 450+ EGP and get 6 extra months of warranty — not a difficult choice.</p>
 
-<p>And if you want a bit more power — <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> at 500 EGP delivers 25W — charges iPhone at the same 20W speed (iPhone is capped at 20W) but charges Samsung phones at 25W too. One charger for all your devices.</p>
+<p>And if you want a bit more power — <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> at 500 EGP delivers 25W. Worth knowing: base iPhones (iPhone 12–15 non-Pro and SE) peak at around 20W, so on those a 25W charger charges at essentially the same speed as a 20W one. But Pro models and the iPhone 16/17 lineup draw more — roughly 27W up to ~40W with Apple's new 40W adapter — so on those a 25W or 30W charger genuinely charges faster than 20W. Either way, if you also own a Samsung it'll charge that at 25W too. One charger for all your devices.</p>
 
 <h2>Warning: Counterfeit 20W Charger Heads — How to Spot Them</h2>
 

@@ -53,7 +53,7 @@ export const anker_nano_45w = {
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">GaN III: Laptop Power in Phone Charger Size</h2>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">GaN II: Laptop Power in Phone Charger Size</h2>
         <p class="text-gray-700">GaN can support a compact power design, but percentage size and temperature comparisons depend on the reference charger and test conditions. Verify the listed dimensions and weight, keep the charger ventilated and pair it with an <a href="/en/anker/cables" class="text-blue-600 hover:underline">Anker USB-C cable</a> rated for the required profile.</p>
     </section>
 
@@ -115,7 +115,7 @@ export const anker_nano_45w = {
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">GaN III: طاقة لابتوب في حجم شاحن موبايل</h2>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">GaN II: طاقة لابتوب في حجم شاحن موبايل</h2>
         <p class="text-gray-700">قد تساعد تقنية GaN على تصميم أصغر، لكن نسب الحجم والحرارة تعتمد على الشاحن المرجعي وظروف الاختبار. تحقق من الأبعاد والوزن المعلنين، وحافظ على التهوية، واستخدم <a href="/anker/cables" class="text-blue-600 hover:underline">كابل انكر USB-C</a> مصنفاً للبروفايل المطلوب.</p>
     </section>
 

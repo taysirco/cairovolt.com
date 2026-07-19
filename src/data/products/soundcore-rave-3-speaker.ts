@@ -6,7 +6,7 @@ export const soundcore_rave_3_speaker = {
     categorySlug: "speakers",
     gtin: "",
     gtin13: "",
-    mpn: "A3399",
+    mpn: "A31A3",
     price: 9450,
     originalPrice: 11359,
     stock: 719,
@@ -14,11 +14,11 @@ export const soundcore_rave_3_speaker = {
     status: "active",
 
     images: [
-            { id: "img_1", url: "/products/anker/soundcore-rave-3-speaker/soundcore-rave-3-speaker-main-view-cairovolt.webp", alt: "Soundcore Rave 3 A3399 200W party karaoke speaker - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/soundcore-rave-3-speaker/soundcore-rave-3-speaker-features-angle-cairovolt.webp", alt: "مكبر صوت ساوندكور Rave 3 A3399 كاريوكي AI - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/soundcore-rave-3-speaker/soundcore-rave-3-speaker-specifications-detail-cairovolt.webp", alt: "Soundcore Rave 3 A3399 6.5 inch woofer HexaGlow - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
- { id: "img_4", url: "/products/anker/soundcore-rave-3-speaker/soundcore-rave-3-speaker-retail-box-authentic-cairovolt.webp", alt: "مكبر صوت ساوندكور Rave 3 A3399 علبة المنتج - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/soundcore-rave-3-speaker/soundcore-rave-3-speaker-in-use-lifestyle-cairovolt.webp", alt: "Soundcore Rave 3 A3399 rooftop party lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/soundcore-rave-3-speaker/soundcore-rave-3-speaker-main-view-cairovolt.webp", alt: "Soundcore Rave 3 A31A3 200W party karaoke speaker - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/soundcore-rave-3-speaker/soundcore-rave-3-speaker-features-angle-cairovolt.webp", alt: "مكبر صوت ساوندكور Rave 3 A31A3 كاريوكي AI - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/soundcore-rave-3-speaker/soundcore-rave-3-speaker-specifications-detail-cairovolt.webp", alt: "Soundcore Rave 3 A31A3 6.5 inch woofer HexaGlow - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+ { id: "img_4", url: "/products/anker/soundcore-rave-3-speaker/soundcore-rave-3-speaker-retail-box-authentic-cairovolt.webp", alt: "مكبر صوت ساوندكور Rave 3 A31A3 علبة المنتج - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/soundcore-rave-3-speaker/soundcore-rave-3-speaker-in-use-lifestyle-cairovolt.webp", alt: "Soundcore Rave 3 A31A3 rooftop party lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
     ],
 
     relatedProducts: ["soundcore-select-4-go-speaker", "anker-soundcore-flare-2", "anker-soundcore-motion-plus", "soundcore-liberty-4-pro", "anker-prime-a1695-25000", "anker-powercore-26800"],
@@ -40,7 +40,7 @@ export const soundcore_rave_3_speaker = {
     </section>
 </div>
 
-<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3399</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A31A3</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
             features: ["Manufacturer-listed 200W-class output", "Listed 6.5-inch woofer", "AI karaoke processing", "Verify two microphones in the supplied package", "Vocal-removal feature", "HexaGlow RGB", "BassUp", "Manufacturer-rated battery figure", "BT 5.3", "Verify Auracast support", "Verify TWS compatibility", "AUX", "IPX4 limits", "Review warranty and return policy"],
             metaTitle: "Soundcore Rave 3 — 200W Party + AI Karaoke | 2 Mics",
             metaDesc: "Buy Soundcore Rave 3 in Egypt — the current listed price. 200W, 6.5\" woofer, AI karaoke, 2 wireless mics, HexaGlow RGB, 12h battery, IPX4, BT 5.3. current warranty and return policy. COD.",
@@ -68,7 +68,7 @@ export const soundcore_rave_3_speaker = {
     </section>
 </div>
 
-<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3399</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A31A3</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["200 واط ذروة", "ووفر 6.5\"", "كاريوكي AI", "2 مايك لاسلكي", "إزالة صوت AI", "HexaGlow RGB", "BassUp", "12 ساعة", "BT 5.3", "Auracast", "ربط TWS", "AUX", "IPX4", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "مكبر صوت ساوندكور Rave 3 — 200 واط + كاريوكي AI",
             metaDesc: "اشتري مكبر صوت ساوندكور Rave 3 في مصر — السعر الحالي المعروض في الصفحة. 200 واط، ووفر 6.5\"، كاريوكي AI، 2 مايك لاسلكي، HexaGlow RGB، 12 ساعة، IPX4. راجع سياسة الضمان والاسترجاع الحالية.",

@@ -29,7 +29,7 @@ export const xiaomi_redmi_note_14_accessories_students_budget: BlogArticle = {
             keywords: 'ملحقات شاومي ريدمي نوت 14, شاحن ريدمي نوت 14, باور بانك شاومي, كابل شاومي, شاحن 33 واط شاومي مصر, xiaomi redmi note 14 charger egypt, أفضل شاحن ريدمي نوت 14 بديل, ملحقات موبايل بميزانية طالب',
             excerpt: 'دليل عملي لأفضل ملحقات Xiaomi Redmi Note 14 في مصر — شاحن سريع 33W وكابل USB-C وباور بانك بميزانية طالب جامعي.',
             quickAnswer: 'Xiaomi Redmi Note 14 بيدعم شحن سريع 33W عبر بروتوكول USB-C PD. الشاحن الأصلي شاومي بـ 500-650 جنيه، لكن البديل الأذكى: Joyroom 30W بـ 350 جنيه (هيوصل لـ 30W = 91% من أقصى سرعة) أو Anker 20W بـ 490 جنيه (كفاية للاستخدام اليومي). باقة كاملة (شاحن + كابل + باور بانك) تبدأ من 870 جنيه.',
-            content: `<p>لو إنت من الناس اللي اشترت Xiaomi Redmi Note 14 — يبقى إنت كده من نوعية الأذكياء. موبايل بمعالج قوي وشاشة AMOLED وكاميرا 108MP بسعر أقل من نص فلاجشيبات سامسونج وApple. بس في مشكلة صغيرة: الشاحن اللي جاي في العلبة — لو جاي أصلاً — بيكون 22W. وموبايلك بيقبل 33W. يعني الشاحن المرفق بيشحن موبايلك بـ 67% فقط من أقصى سرعته. زي ما تشتري عربية BMW وتحطلها كاوتش بلدي.</p>
+            content: `<p>لو إنت من الناس اللي اشترت Xiaomi Redmi Note 14 — يبقى إنت كده من نوعية الأذكياء. موبايل بمعالج قوي وشاشة AMOLED وكاميرا 108MP بسعر أقل من نص فلاجشيبات سامسونج وApple. بس في مشكلة صغيرة: في أسواق كتير — زي النسخة الأوروبية والعالمية — الـ Redmi Note 14 بيجي من غير شاحن في العلبة خالص، فلازم تشتري واحد بنفسك. ولو الشاحن جاي مع الموبايل (في بعض أسواق آسيا) بيكون 33W — يعني نفس أقصى سرعة الموبايل بالظبط. المهم إنك في الغالب هتحتاج تجيب شاحن بنفسك.</p>
 
 <p>والمشكلة التانية: ملحقات شاومي الأصلية في مصر نادرة ومسعّرة بشكل مبالغ فيه. شاحن شاومي 33W الأصلي — لو لقيته — بـ 500-650 جنيه. وده سعر قريب من شاحن Anker GaN 30W اللي أصغر حجماً وأبرد حرارة. فالسؤال: تشتري أصلي شاومي ولا بديل أذكى؟</p>
 
@@ -54,7 +54,7 @@ export const xiaomi_redmi_note_14_accessories_students_budget: BlogArticle = {
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">سعة البطارية</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong>5,110mAh</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>5,500mAh</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>5,500mAh</strong></td>
     </tr>
     <tr>
@@ -69,7 +69,7 @@ export const xiaomi_redmi_note_14_accessories_students_budget: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">الشاحن في العلبة</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">22W (في بعض الأسواق)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">بدون شاحن (أوروبا/عالمي) أو 33W (بعض الأسواق)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">33W (في بعض الأسواق)</td>
     </tr>
     <tr>
@@ -115,9 +115,9 @@ export const xiaomi_redmi_note_14_accessories_students_budget: BlogArticle = {
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">350 ج</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;">الشاحن المرفق 22W</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong>30 دقيقة</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong>74 دقيقة</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">الشاحن المرفق 33W (لو موجود)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>24 دقيقة</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>62 دقيقة</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">مجاني</td>
     </tr>
     <tr style="background:#fefce8;">
@@ -157,16 +157,16 @@ export const xiaomi_redmi_note_14_accessories_students_budget: BlogArticle = {
 
 <h2>القطعة #3: باور بانك — الرفيق اليومي</h2>
 
-<p>بطارية Redmi Note 14 ضخمة — 5,110mAh — وده كويس. لكن حتى مع البطارية دي، الاستخدام الثقيل (سوشيال ميديا + كاميرا + ألعاب) بيخلّصها في 6-7 ساعات. يعني لو خارج من 8 الصبح ورجعت 6 المسا — هتحتاج top-up واحد على الأقل.</p>
+<p>بطارية Redmi Note 14 ضخمة — 5,500mAh — وده كويس. لكن حتى مع البطارية دي، الاستخدام الثقيل (سوشيال ميديا + كاميرا + ألعاب) بيخلّصها في 6-7 ساعات. يعني لو خارج من 8 الصبح ورجعت 6 المسا — هتحتاج top-up واحد على الأقل.</p>
 
 <h3>ليه 10,000mAh هو الحجم المثالي لـ Redmi Note 14؟</h3>
 
-<p>حساب بسيط: بطارية 5,110mAh × كفاءة التحويل 85% = 4,343mAh فعلية لكل شحنة من باور بانك. يعني:</p>
+<p>حساب بسيط: بطارية 5,500mAh × كفاءة التحويل 85% = 4,675mAh فعلية لكل شحنة من باور بانك. يعني:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:8px;">📱 <strong>باور بانك 10,000mAh:</strong> = 1.7 شحنة كاملة لـ Redmi Note 14 (كافي ليوم كامل خارج البيت)</li>
-    <li style="margin-bottom:8px;">📱 <strong>باور بانك 5,000mAh:</strong> = 0.85 شحنة (أقل من شحنة كاملة — ممكن يخذلك)</li>
-    <li style="margin-bottom:8px;">📱 <strong>باور بانك 20,000mAh:</strong> = 3.4 شحنة (أكتر من اللازم ليوم واحد + وزن أثقل 2×)</li>
+    <li style="margin-bottom:8px;">📱 <strong>باور بانك 10,000mAh:</strong> = 1.5 شحنة كاملة لـ Redmi Note 14 (كافي ليوم كامل خارج البيت)</li>
+    <li style="margin-bottom:8px;">📱 <strong>باور بانك 5,000mAh:</strong> = 0.77 شحنة (أقل من شحنة كاملة — ممكن يخذلك)</li>
+    <li style="margin-bottom:8px;">📱 <strong>باور بانك 20,000mAh:</strong> = 3.1 شحنة (أكتر من اللازم ليوم واحد + وزن أثقل 2×)</li>
 </ul>
 
 <p>توصياتنا:</p>
@@ -301,7 +301,7 @@ export const xiaomi_redmi_note_14_accessories_students_budget: BlogArticle = {
             keywords: 'xiaomi redmi note 14 accessories, redmi note 14 charger, xiaomi power bank, redmi note 14 cable, 33w charger xiaomi egypt, best redmi note 14 charger alternative, student budget phone accessories egypt',
             excerpt: 'A practical guide to the best Xiaomi Redmi Note 14 accessories in Egypt — 33W fast charger, USB-C cable, and power bank on a university student budget.',
             quickAnswer: 'Xiaomi Redmi Note 14 supports 33W fast charging via USB-C PD. The original Xiaomi charger costs 500-650 EGP, but the smarter alternative: Joyroom 30W at 350 EGP (91% of max speed) or Anker 20W at 490 EGP (sufficient for daily use). A complete bundle (charger + cable + power bank) starts at 870 EGP.',
-            content: `<p>If you're one of the people who bought a Xiaomi Redmi Note 14 — you're clearly the smart type. A phone with a powerful processor, AMOLED display, and 108MP camera at less than half the price of Samsung and Apple flagships. But there's a small problem: the charger that comes in the box — if it comes at all — is only 22W. And your phone accepts 33W. That means the bundled charger charges your phone at only 67% of its maximum speed. Like buying a BMW and fitting it with economy tires.</p>
+            content: `<p>If you're one of the people who bought a Xiaomi Redmi Note 14 — you're clearly the smart type. A phone with a powerful processor, AMOLED display, and 108MP camera at less than half the price of Samsung and Apple flagships. But there's a small problem: in many markets — including the EU and global versions — the Redmi Note 14 ships with no charger in the box at all, so you have to buy one yourself. And where a charger is included (some Asian markets), it's a 33W unit that matches the phone's 33W max exactly. Either way, you'll most likely be shopping for a charger.</p>
 
 <p>The second problem: original Xiaomi accessories in Egypt are rare and overpriced. The original Xiaomi 33W charger — if you can find it — costs 500-650 EGP. That's close to an Anker GaN 30W charger that's smaller and cooler. So the question: buy original Xiaomi or a smarter alternative?</p>
 
@@ -326,7 +326,7 @@ export const xiaomi_redmi_note_14_accessories_students_budget: BlogArticle = {
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Battery capacity</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong>5,110mAh</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>5,500mAh</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>5,500mAh</strong></td>
     </tr>
     <tr>
@@ -341,7 +341,7 @@ export const xiaomi_redmi_note_14_accessories_students_budget: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Charger in box</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">22W (in some markets)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">None (EU/global) or 33W (some markets)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">33W (in some markets)</td>
     </tr>
     <tr>
@@ -387,9 +387,9 @@ export const xiaomi_redmi_note_14_accessories_students_budget: BlogArticle = {
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">350 EGP</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;">Bundled 22W charger</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong>30 min</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong>74 min</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">In-box 33W charger (where included)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>24 min</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>62 min</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;">Free</td>
     </tr>
     <tr style="background:#fefce8;">
@@ -429,16 +429,16 @@ export const xiaomi_redmi_note_14_accessories_students_budget: BlogArticle = {
 
 <h2>Item #3: Power Bank — Your Daily Companion</h2>
 
-<p>The Redmi Note 14's battery is massive — 5,110mAh — and that's great. But even with this battery, heavy use (social media + camera + gaming) drains it in 6-7 hours. Meaning if you leave at 8 AM and return at 6 PM — you'll need at least one top-up.</p>
+<p>The Redmi Note 14's battery is massive — 5,500mAh — and that's great. But even with this battery, heavy use (social media + camera + gaming) drains it in 6-7 hours. Meaning if you leave at 8 AM and return at 6 PM — you'll need at least one top-up.</p>
 
 <h3>Why 10,000mAh Is the Ideal Size for Redmi Note 14</h3>
 
-<p>Simple math: 5,110mAh battery × 85% conversion efficiency = 4,343mAh effective per power bank charge. So:</p>
+<p>Simple math: 5,500mAh battery × 85% conversion efficiency = 4,675mAh effective per power bank charge. So:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:8px;">📱 <strong>10,000mAh power bank:</strong> = 1.7 full charges for Redmi Note 14 (enough for a full day out)</li>
-    <li style="margin-bottom:8px;">📱 <strong>5,000mAh power bank:</strong> = 0.85 charges (less than one full charge — might let you down)</li>
-    <li style="margin-bottom:8px;">📱 <strong>20,000mAh power bank:</strong> = 3.4 charges (more than needed for one day + 2× the weight)</li>
+    <li style="margin-bottom:8px;">📱 <strong>10,000mAh power bank:</strong> = 1.5 full charges for Redmi Note 14 (enough for a full day out)</li>
+    <li style="margin-bottom:8px;">📱 <strong>5,000mAh power bank:</strong> = 0.77 charges (less than one full charge — might let you down)</li>
+    <li style="margin-bottom:8px;">📱 <strong>20,000mAh power bank:</strong> = 3.1 charges (more than needed for one day + 2× the weight)</li>
 </ul>
 
 <p>Our recommendations:</p>

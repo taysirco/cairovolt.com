@@ -52,7 +52,7 @@ export const connect_apple_watch_to_iphone_pairing_charging: BlogArticle = {
 <h2>أولاً: الهندسة البرمجية للإقران وبروتوكولات التوصيل (BLE & P2P Wi-Fi)</h2>
 <p>تعتمد ساعة ابل في اتصالها بالايفون على هندسة اتصالات ثنائية الطبقات لتوفير استهلاك الطاقة وضمان أمن البيانات:</p>
 <ol style="line-height:1.8;">
-    <li>📶 <strong>بلوتوث منخفض الطاقة (BLE - Bluetooth Low Energy):</strong> يُستخدم في اكتشاف الساعة لأول مرة بمجرد تقريبها من الهاتف وإتمام المصافحة الأولية ونقل الإشعارات البسيطة ذات حجم البيانات الصغير لتقليل استهلاك البطارية عبر بروتوكولات مثل HFP (Hands-Free Profile) و A2DP لنقل الصوت والمكالمات.</li>
+    <li>📶 <strong>بلوتوث منخفض الطاقة (BLE - Bluetooth Low Energy):</strong> يُستخدم في اكتشاف الساعة لأول مرة بمجرد تقريبها من الهاتف وإتمام المصافحة الأولية ونقل الإشعارات البسيطة ذات حجم البيانات الصغير لتقليل استهلاك البطارية. (أما نقل الصوت والمكالمات فلا يتم عبر BLE، بل عبر بلوتوث الكلاسيكي BR/EDR باستخدام بروتوكولات مثل HFP (Hands-Free Profile) و A2DP.)</li>
     <li>📶 <strong>شبكة الواي فاي المحلية المباشرة (P2P Wi-Fi):</strong> بمجرد إتمام الإقران، وفي حال رغبت في نقل ملفات كبيرة (مثل تحديثات نظام watchOS، أو نقل مقاطع الموسيقى والصور)، يقوم الهاتف بإنشاء قناة اتصال واي فاي مباشرة وسريعة مع الساعة لنقل حزم البيانات الضخمة في ثوانٍ معدودة.</li>
 </ol>
 <p>أما **الأنيميشن النقطي الأزرق الدوار** الذي يظهر على شاشة الساعة وتقوم بمسحه بكاميرا الهاتف، فهو رمز مكاني مشفر (Spatial Cryptographic Code) يحتوي على مفتاح التشفير العام الخاص بالساعة؛ ليتيح للايفون فك التشفير وبناء قناة اتصال آمنة ومحمية (Secured Link) داخل المعقل الآمن (Secure Enclave) بالهاتف لمنع أي جهاز محيط من التجسس على بياناتك الصحية والخاصة.</p>
@@ -71,7 +71,7 @@ export const connect_apple_watch_to_iphone_pairing_charging: BlogArticle = {
 <ul>
     <li>🔧 <strong>قاعدة الشحن والبطارية:</strong> يرفض نظام أبل بدء أي تحديث للساعة إذا كانت بطاريتها أقل من 50%. ضع الساعة على شاحنها المغناطيسي طوال فترة التحديث.</li>
     <li>🔧 <strong>فصل الواي فاي بالهاتف وإعادة توجيهه:</strong> اذهب لإعدادات الواي فاي بالايفون، واحذف الشبكة (Forget Network) ثم أعد الاتصال بها بتردد 2.4 جيجاهرتز بدلاً من 5 جيجاهرتز؛ حيث أن شريحة الواي فاي بالساعة (خصوصاً الطرازات القديمة) تتعامل بشكل أفضل وأكثر استقراراً مع نطاق 2.4 جيجاهرتز.</li>
-    <li>🔧 <strong>تفعيل وضع الاستعادة اللاسلكي:</strong> في الساعات الحديثة (Series 8 وما بعدها)، إذا ظهرت علامة تعجب حمراء، يمكنك وضع الساعة بجوار آيفون متصل بالواي فاي؛ ليتعرف الهاتف تلقائياً على الساعة بوضع الاسترداد (Recovery Mode) ويقوم بتحميل وإرسال نظام السوفت وير لاسلكياً.</li>
+    <li>🔧 <strong>تفعيل وضع الاستعادة اللاسلكي:</strong> تعمل هذه الميزة على أي ساعة تشغّل نظام watchOS 8.5 أو أحدث (بداية من Series 3 وليست مقتصرة على الطرازات الجديدة) بشرط أن يكون الايفون بنظام iOS 15.4 أو أحدث. إذا ظهرت علامة تعجب حمراء، يمكنك وضع الساعة بجوار آيفون متصل بالواي فاي؛ ليتعرف الهاتف تلقائياً على الساعة بوضع الاسترداد (Recovery Mode) ويقوم بتحميل وإرسال نظام السوفت وير لاسلكياً.</li>
     <li>🔒 <strong>تخطي قفل التنشيط:</strong> إذا كانت الساعة مستعملة ومغلقة على حساب Apple ID للمالك السابق، فلن تتمكن من إقرانها نهائياً. يجب على المالك السابق تسجيل الدخول إلى icloud.com/find وحذف الساعة من حسابه؛ حيث لا توجد أي طريقة فيزيائية أو برمجية لتجاوز هذا القفل الأمني لضمان حماية خصوصية المستخدمين.</li>
 </ul>
 
@@ -81,7 +81,7 @@ export const connect_apple_watch_to_iphone_pairing_charging: BlogArticle = {
 <p>مخاطر تسرب الفيض المغناطيسي (Flux Leakage):</p>
 <p>بسبب صغر حجم ملفات ساعة أبل مقارنة بالهواتف، فإن أي انحراف بسيط في المحاذاة الفيزيائية بين الساعة وقاعدة الشحن يسبب تسرباً للفيض المغناطيسي (Magnetic Flux Leakage). يتحول هذا التسرب فوراً إلى طاقة حرارية مهدرة ترفع درجة حرارة الساعة بسرعة. ولمنع تدهور بطارية الليثيوم، يراقب نظام الساعة (عبر خوارزمية powerd) مستشعرات الحرارة الداخلية؛ فإذا تجاوزت الحرارة 40 درجة مئوية، يقوم النظام تلقائياً بخفض طاقة الشحن لـ 1.5 واط أو إيقاف الشحن مؤقتاً لحين انخفاض الحرارة. لذا ننصح بمسح ظهر الساعة دائماً لتفادي تكوين عازل حراري من الأوساخ والتعرق.</p>
 <p>تقنية الشحن السريع (Fast Charging):</p>
-<p>بدءاً من ساعة Apple Watch Series 7 والإصدارات الأحدث ووصولاً لـ Series 10 وساعات Ultra، تدعم الساعة الشحن السريع لشحن 80% من البطارية في 45 دقيقة فقط. لتفعيل هذا الشحن بمصر، يجب توفر شرطين هندسيين:</p>
+<p>تدعم ساعة Apple Watch الشحن السريع بدءاً من Series 7 فما فوق، لكن زمن الشحن من 0% إلى 80% يختلف حسب الطراز: طرازات Series 7 و 8 و 9 تصل إلى 80% في حوالي 45 دقيقة، بينما Series 10 تصل في حوالي 30 دقيقة، أما ساعات Ultra و Ultra 2 فتستغرق حوالي 60 دقيقة للوصول إلى 80%. لتفعيل هذا الشحن بمصر، يجب توفر شرطين هندسيين:</p>
 <ol style="line-height:1.8;">
     <li>🔌 <strong>استخدام كابل الشحن السريع الأصلي:</strong> يتميز الكابل بمنفذ Type-C ووجود حلقة ألومنيوم تحيط بقاعدة الشحن الدائرية والتايب سي، مقارنة بالكابلات القديمة المصنوعة بالكامل من البلاستيك الأبيض.</li>
     <li>🔌 <strong>رأس شاحن يدعم بروتوكول USB-PD:</strong> يجب توصيل كابل الساعة برأس شاحن يوفر قوة 18 واط أو 20 واط أو أكثر (مثل شواحن جويروم المعتمدة). استخدام شواحن USB-A القديمة بقوة 5 واط سيبطل الشحن السريع تماماً ويستغرق شحن الساعة أكثر من ساعتين.</li>
@@ -120,7 +120,7 @@ export const connect_apple_watch_to_iphone_pairing_charging: BlogArticle = {
             <td style="border:1px solid #d1d5db;padding:12px;font-weight:600;">شاحن USB-C مغناطيسي سريع + رأس 20W PD</td>
             <td style="border:1px solid #d1d5db;padding:12px;color:#16a34a;font-weight:600;">15W - 20W</td>
             <td style="border:1px solid #d1d5db;padding:12px;color:#16a34a;font-weight:600;">مدعوم بالكامل</td>
-            <td style="border:1px solid #d1d5db;padding:12px;">حوالي 45 دقيقة</td>
+            <td style="border:1px solid #d1d5db;padding:12px;">حوالي 30–60 دقيقة (حسب الطراز)</td>
             <td style="border:1px solid #d1d5db;padding:12px;color:#16a34a;font-weight:600;">ممتازة (تعديل طاقة ذكي)</td>
         </tr>
         <tr>
@@ -175,7 +175,7 @@ export const connect_apple_watch_to_iphone_pairing_charging: BlogArticle = {
 <h2>1. Under the Hood: Discovery & Pairing Protocols (BLE & P2P Wi-Fi)</h2>
 <p>Apple Watch uses a dual-layer communication model to balance power consumption and data transfer speeds:</p>
 <ul>
-    <li>📶 <strong>Bluetooth Low Energy (BLE):</strong> Manages initial discovery, pairing negotiation, and basic low-bandwidth tasks like sending short text alerts to conserve battery life, utilizing A2DP and HFP Bluetooth profiles.</li>
+    <li>📶 <strong>Bluetooth Low Energy (BLE):</strong> Manages initial discovery, pairing negotiation, and basic low-bandwidth tasks like sending short text alerts to conserve battery life. (Audio streaming for calls and music does not run over BLE — it uses the separate Bluetooth Classic (BR/EDR) transport with the A2DP and HFP profiles.)</li>
     <li>📶 <strong>Peer-to-Peer (P2P) Wi-Fi:</strong> Triggered automatically when transferring larger files (such as watchOS system updates or local photo albums). The iPhone establishes a direct Wi-Fi tunnel to the watch for fast data transfers.</li>
 </ul>
 <p>The **blue particle animation** displayed on the watch face during pairing acts as a Spatial Cryptographic Code. This code transmits the watch\'s public key to the iPhone camera, allowing both devices to establish an encrypted link inside the Secure Enclave that protects your health telemetry from local wireless eavesdropping.</p>
@@ -194,7 +194,7 @@ export const connect_apple_watch_to_iphone_pairing_charging: BlogArticle = {
 <ul>
     <li>🔧 <strong>Power Requirements:</strong> watchOS updates will fail if the watch battery is below 50%. Keep the Apple Watch on its magnetic charger puck during the update process.</li>
     <li>🔧 <strong>Wi-Fi Frequency Matching:</strong> If the update stalls, open iPhone Wi-Fi settings, select "Forget This Network", and connect to a 2.4GHz network rather than a 5GHz band. The wireless chipsets in older Apple Watch models establish more stable connections on 2.4GHz frequencies.</li>
-    <li>🔧 <strong>Wireless Recovery Mode:</strong> On Series 8 and newer models, if the watch displays a red exclamation mark or a support icon, placing it near an iPhone running iOS 15.4 or later will trigger a wireless recovery prompt. The iPhone will download the system firmware and transfer it over the local Wi-Fi link directly to the watch, removing the need for a physical iBus connection tool at Apple service centers.</li>
+    <li>🔧 <strong>Wireless Recovery Mode:</strong> On any Apple Watch running watchOS 8.5 or later (Series 3 and up, not just recent models), if the watch displays a red exclamation mark or a support icon, placing it near an iPhone running iOS 15.4 or later will trigger a wireless recovery prompt. The iPhone will download the system firmware and transfer it over the local Wi-Fi link directly to the watch, removing the need for a physical iBus connection tool at Apple service centers.</li>
     <li>🔒 <strong>iCloud Activation Lock:</strong> If you purchase a used Apple Watch that is locked to the previous owner\'s Apple ID, you cannot pair it. The previous owner must log into icloud.com/find to remove the watch from their account. There is no software bypass or hardware override for this security feature.</li>
 </ul>
 
@@ -203,7 +203,7 @@ export const connect_apple_watch_to_iphone_pairing_charging: BlogArticle = {
 <p>The charging puck contains a copper transmitter coil that generates an alternating magnetic field when powered. Placing the watch back onto the puck aligns its internal receiver coil with this magnetic field. This alignment induces an alternating current, which the watch\'s internal PMIC rectifies into DC power to charge the lithium battery.</p>
 <p>Because the induction coils are tiny, physical alignment is crucial. Any minor offset between the watch back and the puck results in magnetic flux leakage, converting electromagnetic energy directly into thermal heat. To prevent battery degradation, watchOS\'s power management daemon (powerd) monitors internal temperature sensors. If the battery exceeds 40°C, the daemon caps charging power at 1.5W or pauses charging entirely until the unit cools. This is why wiping sweat and debris from the back of the watch is essential to prevent thermal throttling.</p>
 <p>Understanding Fast Charging Requirements:</p>
-<p>The Apple Watch Series 7, 8, 9, 10, and Ultra models support fast charging, which restores 80% battery in 45 minutes. To enable fast charging, you must meet two hardware requirements:</p>
+<p>The Apple Watch Series 7 and later support fast charging, but the 0–80% time depends on the model: Series 7, 8, and 9 reach 80% in about 45 minutes, Series 10 does it in about 30 minutes, and the Ultra and Ultra 2 take about 60 minutes to hit 80%. To enable fast charging, you must meet two hardware requirements:</p>
 <ol style="line-height:1.8;">
     <li>🔌 <strong>Original Fast Charger Puck:</strong> You must use the official Apple USB-C Fast Charger Cable, which features an aluminum housing around the magnetic puck. Older, all-plastic white pucks are limited to slow charging.</li>
     <li>🔌 <strong>USB-PD Wall Adapter:</strong> The USB-C end of the puck must connect to a charger that supports the USB Power Delivery (USB-PD) protocol and outputs 18W or higher (such as a certified Joyroom adapter). Connecting the puck to a 5W USB-A port via an adapter will disable fast charging, extending charge times to over 2 hours.</li>
@@ -242,7 +242,7 @@ export const connect_apple_watch_to_iphone_pairing_charging: BlogArticle = {
             <td style="border:1px solid #d1d5db;padding:12px;font-weight:600;">USB-C Fast Cable + 20W PD Adapter</td>
             <td style="border:1px solid #d1d5db;padding:12px;color:#16a34a;font-weight:600;">15W - 20W</td>
             <td style="border:1px solid #d1d5db;padding:12px;color:#16a34a;font-weight:600;">Supported</td>
-            <td style="border:1px solid #d1d5db;padding:12px;">~45 mins</td>
+            <td style="border:1px solid #d1d5db;padding:12px;">~30–60 mins (by model)</td>
             <td style="border:1px solid #d1d5db;padding:12px;color:#16a34a;font-weight:600;">Excellent (Active current modulation)</td>
         </tr>
         <tr>

@@ -92,7 +92,7 @@ export const magsafe_wireless_charger_iphone_battery_health: BlogArticle = {
 
 <h2>التأثير على صحة البطارية — بالأرقام</h2>
 
-<p>Apple بتقول إن البطارية مصممة تحتفظ بـ 80% من سعتها بعد 500 دورة شحن كاملة. بس الحرارة بتسرّع التدهور بشكل ملحوظ — وده مش Apple بتقوله ده فيزيا الليثيوم المعروفة. البيانات المتاحة من مستخدمين حقيقيين وتقارير مواقع تقنية عالمية بتوضّح:</p>
+<p>Apple بتقول إن البطارية مصممة تحتفظ بـ 80% من سعتها بعد 1,000 دورة شحن كاملة. بس الحرارة بتسرّع التدهور بشكل ملحوظ — وده مش Apple بتقوله ده فيزيا الليثيوم المعروفة. البيانات المتاحة من مستخدمين حقيقيين وتقارير مواقع تقنية عالمية بتوضّح:</p>
 
 <ul>
 <li><strong>شحن سلكي يومي (20W):</strong> Battery Health بعد سنة ≈ 92%</li>
@@ -275,7 +275,7 @@ export const magsafe_wireless_charger_iphone_battery_health: BlogArticle = {
 
 <h2>Impact on Battery Health — By the Numbers</h2>
 
-<p>Apple states the battery is designed to retain 80% capacity after 500 full charge cycles. But heat accelerates degradation. Available data from real users shows:</p>
+<p>Apple states the battery is designed to retain 80% capacity after 1,000 full charge cycles. But heat accelerates degradation. Available data from real users shows:</p>
 
 <ul>
 <li><strong>Daily wired charging (20W):</strong> Battery Health after one year ≈ 92%</li>

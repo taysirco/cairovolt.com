@@ -36,7 +36,7 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
             faq: [
                 {
                     question: 'الشحن السريع بتاع Apple Watch بيشتغل مع أي موديل؟',
-                    answer: 'الشحن السريع (Fast Charging) بيشتغل بس مع Apple Watch Series 7 وأحدث (Series 8، Series 9، Ultra، Ultra 2، SE الجيل التاني). الموديلات الأقدم (Series 6 وما قبله) بتشحن بنفس السرعة العادية مهما استخدمت شاحن قوي. ولازم الشاحن نفسه يكون معتمد ويدعم USB Power Delivery.',
+                    answer: 'الشحن السريع (Fast Charging) بيشتغل بس مع Apple Watch Series 7 وأحدث (Series 8، Series 9، Ultra، Ultra 2). موديلات SE (الجيل الأول والتاني) والموديلات الأقدم (Series 6 وما قبله) بتشحن بنفس السرعة العادية مهما استخدمت شاحن قوي. ولازم الشاحن نفسه يكون معتمد ويدعم USB Power Delivery.',
                 },
                 {
                     question: 'هل أقدر أشحن Apple Watch من Power Bank؟',
@@ -130,12 +130,12 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 <tr style="background: #f0fdf4;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Ultra و Ultra 2</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">أيوه</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">~45 دقيقة</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">~60 دقيقة</td>
 </tr>
-<tr style="background: #f0fdf4;">
+<tr style="background: #f8fafc;">
 <td style="padding: 10px;">SE الجيل الثاني</td>
-<td style="padding: 10px; text-align: center;">أيوه</td>
-<td style="padding: 10px; text-align: center;">~45 دقيقة</td>
+<td style="padding: 10px; text-align: center;">لا</td>
+<td style="padding: 10px; text-align: center;">~100 دقيقة</td>
 </tr>
 </tbody>
 </table>
@@ -266,7 +266,7 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
             faq: [
                 {
                     question: 'Which Apple Watch models support fast charging?',
-                    answer: 'Fast charging works only with Apple Watch Series 7, Series 8, Series 9, Ultra, Ultra 2, and SE (2nd generation). Older models (Series 6 and earlier, SE 1st gen) charge at normal speed regardless of charger wattage. You also need a USB-C charger that supports USB Power Delivery.',
+                    answer: 'Fast charging works only with Apple Watch Series 7, Series 8, Series 9, Ultra, and Ultra 2. Older models (Series 6 and earlier) and both Apple Watch SE generations charge at normal speed regardless of charger wattage. You also need a USB-C charger that supports USB Power Delivery.',
                 },
                 {
                     question: 'Can I charge my Apple Watch from a power bank?',
@@ -362,10 +362,10 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">Yes</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">~60 minutes</td>
 </tr>
-<tr style="background: #f0fdf4;">
+<tr style="background: #f8fafc;">
 <td style="padding: 10px;">SE (2nd generation)</td>
-<td style="padding: 10px; text-align: center;">Yes</td>
-<td style="padding: 10px; text-align: center;">~45 minutes</td>
+<td style="padding: 10px; text-align: center;">No</td>
+<td style="padding: 10px; text-align: center;">~100 minutes</td>
 </tr>
 </tbody>
 </table>

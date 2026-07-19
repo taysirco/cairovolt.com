@@ -7,7 +7,7 @@ export const anker_622_maggo = {
         categorySlug: "power-banks",
         gtin: "0194644092122",
         gtin13: "0194644092122",
-        mpn: "A1610011",
+        mpn: "A1611",
         price: 2800,
         originalPrice: 3309,
         stock: 457,
@@ -15,11 +15,11 @@ export const anker_622_maggo = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-622-maggo/anker-622-maggo-package-box-contents-cable-egypt.webp", alt: "محتويات علبة انكر 622 ماج جو مع كابل USB-C - كايرو فولت مصر", order: 0, isPrimary: true, width: 676, height: 811 },
-            { id: "img_2", url: "/products/anker/anker-622-maggo/anker-622-maggo-5000mah-magsafe-wireless-power-bank-cairovolt.webp", alt: "باور بانك انكر 622 ماج جو 5000 مللي أمبير شحن لاسلكي MagSafe - A1610011 - كايرو فولت", order: 1, isPrimary: false, width: 530, height: 722 },
+            { id: "img_2", url: "/products/anker/anker-622-maggo/anker-622-maggo-5000mah-magsafe-wireless-power-bank-cairovolt.webp", alt: "باور بانك انكر 622 ماج جو 5000 مللي أمبير شحن لاسلكي MagSafe - A1611 - كايرو فولت", order: 1, isPrimary: false, width: 530, height: 722 },
             { id: "img_3", url: "/products/anker/anker-622-maggo/anker-622-maggo-magnetic-attachment-iphone-wireless-charging.webp", alt: "Anker 622 MagGo magnetically attached to a compatible iPhone for wireless charging", order: 2, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_4", url: "/products/anker/anker-622-maggo/anker-622-maggo-foldable-kickstand-phone-stand-viewing.webp", alt: "حامل قابل للطي لباور بانك انكر 622 ماج جو - زاوية مشاهدة بدون يدين - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_5", url: "/products/anker/anker-622-maggo/anker-622-maggo-usb-c-port-input-output-detail.webp", alt: "Anker 622 MagGo USB-C input output port detail for charging and power delivery - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_6", url: "/products/anker/anker-622-maggo/anker-622-maggo-slim-7mm-design-thickness-profile.webp", alt: "تصميم رفيع 7mm لباور بانك انكر 622 ماج جو - ملف عرض جانبي - كايرو فولت", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-622-maggo/anker-622-maggo-slim-7mm-design-thickness-profile.webp", alt: "تصميم رفيع 13مم لباور بانك انكر 622 ماج جو - ملف عرض جانبي - كايرو فولت", order: 5, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_7", url: "/products/anker/anker-622-maggo/anker-622-maggo-charging-iphone-magnetic-alignment-test.webp", alt: "Anker 622 MagGo magnetic alignment while charging a compatible iPhone", order: 6, isPrimary: false, width: 1024, height: 1024 }
         ],
         relatedProducts: [
@@ -30,9 +30,9 @@ export const anker_622_maggo = {
                 shortDescription: "🧲 MagSafe Wireless Charging | 📱 Built-in Foldable Kickstand | 🪨 Ultra-Slim Design | 🔌 USB-C Two-Way Charging",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker 622 MagGo (A1610)</strong> is a magnetic wireless battery pack with a foldable stand for supported iPhones and compatible magnetic cases. The listing states wireless charging up to 7.5W, a 13mm profile and USB-C two-way charging; verify pass-through behavior and exact compatibility in the current manual. Check the live price, stock, package contents and applicable warranty terms before ordering.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker 622 MagGo (A1611)</strong> is a magnetic wireless battery pack with a foldable stand for supported iPhones and compatible magnetic cases. The listing states wireless charging up to 7.5W, a 13mm profile and USB-C two-way charging; verify pass-through behavior and exact compatibility in the current manual. Check the live price, stock, package contents and applicable warranty terms before ordering.</p>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A1610011</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A1611</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
@@ -43,7 +43,7 @@ export const anker_622_maggo = {
     <li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul>
 </div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A1610011</strong>, check the printed Wh/mAh, wireless profile, USB-C functions, dimensions and phone or case compatibility. Actual attachment, power, usable energy and temperature vary by setup. Check current package contents, live price, stock and written service terms before ordering.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A1611</strong>, check the printed Wh/mAh, wireless profile, USB-C functions, dimensions and phone or case compatibility. Actual attachment, power, usable energy and temperature vary by setup. Check current package contents, live price, stock and written service terms before ordering.</p></div>
 
 <div class="product-details">
     <section>
@@ -86,9 +86,9 @@ export const anker_622_maggo = {
                 shortDescription: "شحن لاسلكي مغناطيسي معلن حتى 7.5 واط | حامل قابل للطي | سمك مدرج 13مم | تحقق من الهاتف أو الجراب ووظائف USB-C",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed"><strong>انكر 622 MagGo (A1610)</strong> بطارية شحن لاسلكية مغناطيسية بحامل قابل للطي للايفون المدعوم والجرابات المغناطيسية المتوافقة. تذكر القائمة شحناً لاسلكياً حتى 7.5 واط وسمك 13مم وشحن USB-C في الاتجاهين؛ تحقق من الشحن التمريري والتوافق الدقيق في الدليل الحالي. راجع السعر والمخزون ومحتويات العبوة وشروط الضمان المطبقة قبل الطلب.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>انكر 622 MagGo (A1611)</strong> بطارية شحن لاسلكية مغناطيسية بحامل قابل للطي للايفون المدعوم والجرابات المغناطيسية المتوافقة. تذكر القائمة شحناً لاسلكياً حتى 7.5 واط وسمك 13مم وشحن USB-C في الاتجاهين؛ تحقق من الشحن التمريري والتوافق الدقيق في الدليل الحالي. راجع السعر والمخزون ومحتويات العبوة وشروط الضمان المطبقة قبل الطلب.</p>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A1610011</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A1611</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -99,7 +99,7 @@ export const anker_622_maggo = {
     </ul>
 </div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A1610011</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A1611</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
@@ -138,9 +138,9 @@ export const anker_622_maggo = {
                     { question: "شروط ضمان كايرو فولت الحالية بتغطي إيه؟", answer: "التغطية والأهلية تخضعان لسياسة الضمان والاسترجاع المنشورة وقت الطلب. احتفظ بالفاتورة وتواصل مع كايرو فولت برقم الموديل ووصف العطل للتقييم." }]
             }
         },
-        meta: { keywords: "انكر 622 MagGo, انكر A1610011, باور بانك مغناطيسي انكر, حامل مدمج, شحن لاسلكي مغناطيسي, Anker 622 MagGo Egypt, magnetic power bank", mainTerm: "anker 622 maggo" },
+        meta: { keywords: "انكر 622 MagGo, انكر A1611, باور بانك مغناطيسي انكر, حامل مدمج, شحن لاسلكي مغناطيسي, Anker 622 MagGo Egypt, magnetic power bank", mainTerm: "anker 622 maggo" },
         expertOpinion: {
         en: "A622 may suit a compatible magnetic-phone setup when a foldable stand and attached charging are useful. Verify the exact phone or case, alignment, listed battery and wireless-output conditions, live price and current warranty.",
-        ar: "قد يناسب A1610011 من يريد بطارية مغناطيسية بحامل قابل للطي، بعد التحقق من الهاتف أو الجراب والمحاذاة وبروفايل اللاسلكي ووظائف USB-C. قارن بخيار سلكي إذا لم يكن الهاتف متوافقاً مغناطيسياً."
+        ar: "قد يناسب A1611 من يريد بطارية مغناطيسية بحامل قابل للطي، بعد التحقق من الهاتف أو الجراب والمحاذاة وبروفايل اللاسلكي ووظائف USB-C. قارن بخيار سلكي إذا لم يكن الهاتف متوافقاً مغناطيسياً."
     }
     };

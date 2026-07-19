@@ -55,14 +55,14 @@ export const joyroom_car_phone_mount = {
     </ul>
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">Safety note</h3><p class="text-gray-700">The previous listing contained conflicting descriptions of an air-vent and a dashboard or windshield version. Confirm the actual JR-ZS295 package and included mounting parts before use. Install and test it while parked, inspect it regularly, remove the phone if attachment weakens, and follow local rules for screen position and phone use while driving.</p></div>`,
-                features: ["📱 Fits phones up to 7 inches", "✨ Strong suction cup mount", "✨ Dashboard or windshield mounting", "✨ 360-degree rotation", "✨ One-hand operation", "✨ Adjustable arm length", "🏆 current warranty and return policy", "🔒 Anti-Scratch Silicone Grip"],
+                features: ["📱 Fits phones up to 6.7 inches", "✨ Magnetic MagSafe-compatible mount with up to 15W wireless charging", "✨ Dashboard or windshield mounting", "✨ 360-degree rotation", "✨ One-hand operation", "✨ Adjustable arm length", "🏆 current warranty and return policy", "🔒 Anti-Scratch Silicone Grip"],
                 metaTitle: "Joyroom JR-ZS295 Car Phone Mount | Fit Guide | Egypt",
                 metaDesc: "Joyroom JR-ZS295 car phone mount. Verify the supplied mounting method, phone and case dimensions, weight limit, installation instructions, live price and warranty.",
                 faqs: [
                     { question: "Will it fit my phone and case?", answer: "Compare the combined phone-and-case width, depth and weight with the printed JR-ZS295 limits. A screen diagonal alone does not establish fit, and rugged cases can change grip." },
                     { question: "Does it work on a textured dashboard?", answer: "First confirm whether the supplied JR-ZS295 variant is intended for a dashboard, windshield or vent. Use only the surfaces and installation parts specified in the package instructions; textured surfaces can reduce adhesion." },
                     { question: "Will it hold a heavy phone on bumpy roads?", answer: "No mount can guarantee retention over every bump or temperature. Confirm the weight limit, install it correctly, test it while parked and inspect the grip before each trip." },
-                    { question: "How should I use the suction cup in summer heat?", answer: "Install it on a clean, smooth surface within the manufacturer's temperature limits. Recheck adhesion before driving and remove the mount if the pad softens, warps, or loses grip." },
+                    { question: "How does the magnetic mount hold up in summer heat?", answer: "Keep it within the manufacturer's stated temperature range and confirm the magnetic hold and any adhesive base before driving. Heat can weaken adhesive pads and reduce magnetic grip, so recheck the hold and remove the phone if attachment weakens." },
                     { question: "Can I use it with a phone case?", answer: "Only if the combined dimensions and weight remain within the holder's printed limits and the arms contact the phone securely. Thick, uneven or soft cases may reduce grip." }
                 ]
             },
@@ -107,7 +107,7 @@ export const joyroom_car_phone_mount = {
                     { question: "هل يناسب هاتفي والجراب؟", answer: "قارن عرض وعمق ووزن الهاتف والجراب مع الحدود المطبوعة للموديل JR-ZS295. قطر الشاشة وحده لا يثبت الملاءمة وقد يغير الجراب الكبير من الإمساك." },
                     { question: "هل يعمل على التابلوه الخشن؟", answer: "أكد أولاً هل النسخة الموردة للتابلوه أو الزجاج أو فتحة التكييف. استخدم فقط السطح وقطع التركيب المذكورة في تعليمات العبوة؛ الأسطح الخشنة قد تضعف الالتصاق." },
                     { question: "هل يثبت هاتفاً ثقيلاً على المطبات؟", answer: "لا يمكن لحامل أن يضمن الثبات على كل مطب أو حرارة. تحقق من حد الوزن وركبه صحيحاً واختبره والسيارة متوقفة وافحص الإمساك قبل الرحلة." },
-                    { question: "كاسة الشفط بتستحمل حر صيف مصر؟", answer: "راجع نطاق الحرارة المعلن للموديل في العبوة أو وثائق الشركة. قوة الشفط تتأثر بنظافة السطح والحرارة والوقت؛ افحص الحامل دورياً ولا تترك الهاتف أو الحامل في حرارة شديدة." },
+                    { question: "التثبيت المغناطيسي بيستحمل حر صيف مصر؟", answer: "راجع نطاق الحرارة المعلن للموديل في العبوة أو وثائق الشركة. الحرارة قد تضعف قوة المغناطيس أو لصق القاعدة مع الوقت؛ افحص التثبيت دورياً ولا تترك الهاتف أو الحامل في حرارة شديدة." },
                     { question: "بيتحط مع الجراب؟", answer: "فقط إذا بقيت الأبعاد والوزن داخل الحدود المطبوعة ولامست الأذرع الهاتف جيداً. الجراب السميك أو غير المستوي أو المرن قد يقلل الإمساك." }
                 ]
             }

@@ -7,7 +7,7 @@ export const anker_521_powerhouse = {
         categorySlug: "power-banks",
         gtin: "0194644081034",
         gtin13: "0194644081034",
-        mpn: "A1710Z21",
+        mpn: "A1720Z21",
         price: 11000,
         originalPrice: 12830,
         stock: 727,
@@ -19,7 +19,7 @@ export const anker_521_powerhouse = {
                 label: { en: '256Wh / 200W', ar: '256 واط·ساعة / 200 واط' },
                 model: 'Anker 521',
                 sku: 'ANK-PB-521',
-                mpn: 'A1710Z21',
+                mpn: 'A1720Z21',
                 gtin: '0194644081034',
                 price: 11000,
                 originalPrice: 12890,
@@ -67,7 +67,7 @@ export const anker_521_powerhouse = {
         ],
         images: [
             { id: "img_1", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-usb-c-60w-pd-output-port-detail.webp", alt: "Anker 521 Powerhouse LCD display showing battery percentage and wattage - CairoVolt", order: 0, isPrimary: true, width: 1200, height: 1038 },
-            { id: "img_2", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-256wh-portable-power-station-cairovolt.webp", alt: "محطة طاقة انكر 521 باور هاوس 256 واط ساعة متنقلة - A1710Z21 - كايرو فولت مصر", order: 1, isPrimary: false, width: 1200, height: 628 },
+            { id: "img_2", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-256wh-portable-power-station-cairovolt.webp", alt: "محطة طاقة انكر 521 باور هاوس 256 واط ساعة متنقلة - A1720Z21 - كايرو فولت مصر", order: 1, isPrimary: false, width: 1200, height: 628 },
             { id: "img_3", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-package-box-cables-accessories.webp", alt: "Anker 521 Powerhouse AC outlet 200W pure sine wave output - home appliance ready - CairoVolt", order: 2, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_4", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-ac-outlet-200w-pure-sine-wave.webp", alt: "منفذ USB-C بقوة 60 واط لمحطة انكر 521 باور هاوس - شحن سريع PD - كايرو فولت", order: 3, isPrimary: false, width: 928, height: 1152 },
             { id: "img_5", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-lcd-display-battery-wattage-status.webp", alt: "شحن أجهزة متعددة من محطة انكر 521 في الهواء الطلق - استخدام تخييم - كايرو فولت", order: 4, isPrimary: false, width: 1200, height: 1031 },
@@ -84,11 +84,11 @@ export const anker_521_powerhouse = {
                 shortDescription: "🔋 256Wh LiFePO4 | 🔌 200W AC Outlet (220V) | ♻️ Manufacturer-rated cycle life | 💡 Built-in LED Light",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker 521 PowerHouse (A1710)</strong> is a portable power station with a manufacturer-listed 256Wh LiFePO4 battery, 200W AC output, multiple DC/USB outputs and a built-in light. Before connecting a router, fan, medical device or other appliance, compare its continuous and start-up power requirements with the exact output ratings printed on the station. Check the current price, stock, package contents and applicable warranty on this page before ordering.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker 521 PowerHouse (A1720)</strong> is a portable power station with a manufacturer-listed 256Wh LiFePO4 battery, 200W AC output, multiple DC/USB outputs and a built-in light. Before connecting a router, fan, medical device or other appliance, compare its continuous and start-up power requirements with the exact output ratings printed on the station. Check the current price, stock, package contents and applicable warranty on this page before ordering.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Match model <strong>A1710Z21</strong>, battery energy, AC waveform, input/output ratings and package contents with the unit and current manufacturer documentation. For medical or sensitive equipment, follow the equipment maker's power-source requirements and do not rely on a general compatibility example.</p>
+    <p class="text-gray-700">Match model <strong>A1720Z21</strong>, battery energy, AC waveform, input/output ratings and package contents with the unit and current manufacturer documentation. For medical or sensitive equipment, follow the equipment maker's power-source requirements and do not rely on a general compatibility example.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
@@ -98,7 +98,7 @@ export const anker_521_powerhouse = {
         <li>⚡ <strong>6 Output Ports:</strong> AC 220V + USB-C PD + 2× USB-A + Car Socket + DC.</li>
         <li>🛡️ <strong>Service terms:</strong> check the current warranty period, coverage and eligibility for this listing.</li>
     <li>🧾 <strong>Returns and warranty:</strong> handled under the current published policy and eligibility terms.</li><li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A1710Z21</strong>, start with the manufacturer-rated Wh/mAh, input/output profiles and airline limits printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A1720Z21</strong>, start with the manufacturer-rated Wh/mAh, input/output profiles and airline limits printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
     <section>
@@ -136,7 +136,7 @@ export const anker_521_powerhouse = {
                     { question: "Can it charge a MacBook?", answer: "Compare the MacBook adapter requirement with the printed USB-C profiles or AC-output limit. Actual rate varies by model and cable." },
                     { question: "Is it allowed on airplanes?", answer: "Its listed 256Wh capacity is above the common 100Wh passenger-battery threshold. Do not place it in baggage or travel with it unless the carrier explicitly confirms the current route-specific rule." },
                     { question: "Can it charge from a solar panel?", answer: "Only use a panel whose voltage, current, connector and polarity match the exact input range in the supplied manual. Charge time varies with panel output, weather and angle." },
-                    { question: "How long does it take to fully recharge?", answer: "Use the exact input method and manufacturer table for A1710Z21. Charge time varies with source power, temperature and use during charging." },
+                    { question: "How long does it take to fully recharge?", answer: "Use the exact input method and manufacturer table for A1720Z21. Charge time varies with source power, temperature and use during charging." },
                     { question: "Does it support pass-through charging?", answer: "Use pass-through operation only where the supplied manual explicitly permits it, and follow its load and ventilation limits." }
                 ]
             },
@@ -145,11 +145,11 @@ export const anker_521_powerhouse = {
                 shortDescription: "🔋 سعة معلنة 256 واط·ساعة | 🔌 خرج AC معلن 200 واط | ⚡ منافذ USB و12V | 💡 إضاءة مدمجة",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed"><strong>محطة طاقة انكر 521 (A1710)</strong> تأتي وفق بيانات الشركة المصنّعة ببطارية LiFePO4 سعتها 256 واط·ساعة وخرج AC معلن 200 واط، مع منافذ USB و12V وإضاءة مدمجة. قبل توصيل راوتر أو مروحة أو جهاز طبي أو أي حمل آخر، قارن قدرته المستمرة وقدرة بدء التشغيل مع القيم المطبوعة على المحطة. راجع السعر والمخزون ومحتويات العبوة وشروط الضمان الحالية في الصفحة قبل الطلب.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>محطة طاقة انكر 521 (A1720)</strong> تأتي وفق بيانات الشركة المصنّعة ببطارية LiFePO4 سعتها 256 واط·ساعة وخرج AC معلن 200 واط، مع منافذ USB و12V وإضاءة مدمجة. قبل توصيل راوتر أو مروحة أو جهاز طبي أو أي حمل آخر، قارن قدرته المستمرة وقدرة بدء التشغيل مع القيم المطبوعة على المحطة. راجع السعر والمخزون ومحتويات العبوة وشروط الضمان الحالية في الصفحة قبل الطلب.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">طابق رقم الموديل <strong>A1710Z21</strong> وسعة البطارية وشكل موجة AC وقدرات الإدخال والإخراج ومحتويات العبوة مع الوحدة ووثائق الشركة المصنّعة الحالية. بالنسبة للأجهزة الطبية أو الحساسة، اتبع متطلبات مصدر الطاقة التي يحددها مصنع الجهاز ولا تعتمد على مثال توافق عام.</p>
+    <p class="text-gray-700">طابق رقم الموديل <strong>A1720Z21</strong> وسعة البطارية وشكل موجة AC وقدرات الإدخال والإخراج ومحتويات العبوة مع الوحدة ووثائق الشركة المصنّعة الحالية. بالنسبة للأجهزة الطبية أو الحساسة، اتبع متطلبات مصدر الطاقة التي يحددها مصنع الجهاز ولا تعتمد على مثال توافق عام.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
@@ -161,7 +161,7 @@ export const anker_521_powerhouse = {
     </ul>
 </div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A1710Z21</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A1720Z21</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>

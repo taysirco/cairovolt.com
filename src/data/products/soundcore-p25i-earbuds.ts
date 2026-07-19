@@ -29,7 +29,7 @@ export const soundcore_p25i_earbuds = {
 
     translations: {
         en: {
-            name: "Soundcore P25i | 10mm BassUp | 28h Battery | Ultra-Light",
+            name: "Soundcore P25i | 10mm BassUp | 30h Battery | Ultra-Light",
             shortDescription: "Soundcore P25i — check current CairoVolt warranty terms",
             description: `<div class="product-details">
     <section>
@@ -44,7 +44,7 @@ export const soundcore_p25i_earbuds = {
 </div>
 
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3949</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. Soundcore lists P25i and R50i as regional names for this model, so also match the name printed on the supplied package. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
-            features: ["🎧 10mm BassUp", "🔋 28h", "🔒 current warranty and return policy"],
+            features: ["🎧 10mm BassUp", "🔋 30h", "🔒 current warranty and return policy"],
             metaTitle: "Soundcore P25i | CairoVolt Egypt",
             metaDesc: "Buy Soundcore P25i in Egypt. Check the current price, model specifications, warranty terms, availability and delivery options before ordering.",
             faqs: [
@@ -55,7 +55,7 @@ export const soundcore_p25i_earbuds = {
             ]
         },
         ar: {
-            name: "سماعة ساوندكور P25i | 10mm BassUp | 28 ساعة بطارية | خفيفة جداً",
+            name: "سماعة ساوندكور P25i | 10mm BassUp | 30 ساعة بطارية | خفيفة جداً",
             shortDescription: "ساوندكور P25i — راجع شروط ضمان كايرو فولت الحالية",
             description: `<div class="product-details">
     <section>
@@ -70,7 +70,7 @@ export const soundcore_p25i_earbuds = {
 </div>
 
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3949</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. تدرج ساوندكور P25i وR50i كاسمين إقليميين لهذا الموديل، لذلك طابق أيضاً الاسم المطبوع على العبوة الموردة. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
-            features: ["🎧 10mm BassUp", "🔋 28h", "🔒 راجع سياسة الضمان والاسترجاع الحالية"],
+            features: ["🎧 10mm BassUp", "🔋 30h", "🔒 راجع سياسة الضمان والاسترجاع الحالية"],
             metaTitle: "سماعة ساوندكور P25i | كايرو فولت مصر",
             metaDesc: "تعرف على سماعة ساوندكور P25i في مصر. راجع السعر الحالي ومواصفات الموديل وشروط الضمان والتوفر وخيارات التوصيل قبل الطلب.",
             faqs: [

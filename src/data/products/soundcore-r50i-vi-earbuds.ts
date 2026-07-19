@@ -6,7 +6,7 @@ export const soundcore_r50i_vi_earbuds = {
     categorySlug: "audio",
     gtin: "",
     gtin13: "",
-    mpn: "A3983",
+    mpn: "A3969",
     price: 785,
     originalPrice: 900,
     stock: 992,
@@ -14,14 +14,14 @@ export const soundcore_r50i_vi_earbuds = {
     status: "active",
 
     images: [
-            { id: "img_1", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-main-view-cairovolt.webp", alt: "Soundcore R50i Vi A3983 main view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور R50i Vi A3983 features angle - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-specifications-detail-cairovolt.webp", alt: "Soundcore R50i Vi A3983 specifications detail - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
- { id: "img_4", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور R50i Vi A3983 retail box and model details - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore R50i Vi A3983 in use lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور R50i Vi A3983 size comparison - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-accessories-included-cairovolt.webp", alt: "Soundcore R50i Vi A3983 accessories included - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور R50i Vi A3983 close up detail - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-main-view-cairovolt.webp", alt: "Soundcore R50i Vi A3969 main view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور R50i Vi A3969 features angle - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-specifications-detail-cairovolt.webp", alt: "Soundcore R50i Vi A3969 specifications detail - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+ { id: "img_4", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور R50i Vi A3969 retail box and model details - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore R50i Vi A3969 in use lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور R50i Vi A3969 size comparison - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-accessories-included-cairovolt.webp", alt: "Soundcore R50i Vi A3969 accessories included - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور R50i Vi A3969 close up detail - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
     ],
 
     relatedProducts: ["anker-soundcore-r50i", "anker-soundcore-r50i-nc", "soundcore-a30i-earbuds", "soundcore-p30i-earbuds", "anker-soundcore-k20i", "anker-a2741-charger-30w"],
@@ -42,7 +42,7 @@ export const soundcore_r50i_vi_earbuds = {
     </section>
 </div>
 
-<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3983</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3969</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
             features: ["🎧 10mm BassUp", "🔋 30h", "🔒 current warranty and return policy"],
             metaTitle: "Soundcore R50i Vi | CairoVolt Egypt",
             metaDesc: "Buy Soundcore R50i Vi in Egypt. Check the current price, model specifications, warranty terms, availability and delivery options before ordering.",
@@ -68,7 +68,7 @@ export const soundcore_r50i_vi_earbuds = {
     </section>
 </div>
 
-<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3983</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3969</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["🎧 10mm BassUp", "🔋 30h", "🔒 راجع سياسة الضمان والاسترجاع الحالية"],
             metaTitle: "سماعة ساوندكور R50i Vi | كايرو فولت مصر",
             metaDesc: "تعرف على سماعة ساوندكور R50i Vi في مصر. راجع السعر الحالي ومواصفات الموديل وشروط الضمان والتوفر وخيارات التوصيل قبل الطلب.",

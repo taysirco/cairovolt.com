@@ -14,9 +14,9 @@ export const anker_powerline_usb_c_usb_c = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-to-usb-c-100w-cable-cairovolt-egypt.webp", alt: "كابل انكر USB-C إلى USB-C 100 واط نايلون مضفر متين - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1200 },
+            { id: "img_1", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-to-usb-c-100w-cable-cairovolt-egypt.webp", alt: "كابل انكر USB-C إلى USB-C 60 واط متين - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1200 },
             { id: "img_2", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-connector-detail-reinforced-joint.webp", alt: "Anker PowerLine USB-C connector detail with reinforced joint stress relief - A8852H11 - CairoVolt", order: 1, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-braided-nylon-texture-durability.webp", alt: "نسيج نايلون مضفر لكابل انكر USB-C - جودة بناء متميزة ومتانة - كايرو فولت", order: 2, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-braided-nylon-texture-durability.webp", alt: "تفاصيل غلاف كابل انكر USB-C - جودة بناء متميزة ومتانة - كايرو فولت", order: 2, isPrimary: false, width: 928, height: 1152 },
             { id: "img_4", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-100w-charging-laptop-macbook.webp", alt: "Anker USB-C cable charging a compatible MacBook laptop with USB-C PD", order: 3, isPrimary: false, width: 928, height: 1152 },
             { id: "img_5", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-cable-flexibility-bend-resistance.webp", alt: "مرونة كابل انكر USB-C وتصميم الموصلات المدعمة لمقاومة الثني", order: 4, isPrimary: false, width: 928, height: 1152 },
             { id: "img_6", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-data-transfer-speed-10gbps.webp", alt: "Anker USB-C cable data-transfer specification graphic", order: 5, isPrimary: false, width: 928, height: 1152 },
@@ -94,7 +94,7 @@ export const anker_powerline_usb_c_usb_c = {
             },
             ar: {
                 name: "كابل انكر USB-C إلى USB-C بقدرة حتى 60 واط | راجع الضمان الحالي",
-                shortDescription: "⚡ قدرة معلنة حتى 60 واط | 💪 تحقق من اختبار الثني وشروطه | 🧵 غلاف مجدول للاستخدام اليومي | 🛡️ راجع التوافق والضمان الحالي",
+                shortDescription: "⚡ قدرة معلنة حتى 60 واط | 💪 تحقق من اختبار الثني وشروطه | 🧵 غلاف متين للاستخدام اليومي | 🛡️ راجع التوافق والضمان الحالي",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed"><strong>كابل انكر PowerLine III USB-C إلى USB-C (A8852H11)</strong> مدرج لقدرة حتى 60 واط وبيانات USB 2.0 مع بيان اختبار ثني من الشركة. تحقق من تصنيف الطاقة والبيانات والموصلات على العبوة الموردة. سرعة الجهاز تعتمد على الشاحن ومتطلبات الكابل والبروتوكول والحرارة والاستخدام؛ رقم اختبار الثني لا يضمن عمراً ثابتاً. راجع السعر والمخزون وشروط الضمان الحالية.</p>
@@ -120,7 +120,7 @@ export const anker_powerline_usb_c_usb_c = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">مصنوع إنه يعيش أكثر من أي كابل امتلكته</h2>
-        <p class="text-gray-700">تذكر الشركة المصنّعة تصنيف <strong>35,000+ ثني</strong>؛ العمر الفعلي يعتمد على طريقة الاستخدام. افحص الموصلات دورياً وتوقف عن الاستخدام عند ظهور ارتخاء أو تلف. سواء ملفوف في شنطة <a href="/anker/power-banks" class="text-blue-600 hover:underline">الباور بانك</a> أو ممدود بين المنضدة والمقبس، الكابل ده مصمم للاستخدام اليومي.</p>
+        <p class="text-gray-700">تذكر الشركة المصنّعة تصنيف <strong>25,000+ ثني</strong>؛ العمر الفعلي يعتمد على طريقة الاستخدام. افحص الموصلات دورياً وتوقف عن الاستخدام عند ظهور ارتخاء أو تلف. سواء ملفوف في شنطة <a href="/anker/power-banks" class="text-blue-600 hover:underline">الباور بانك</a> أو ممدود بين المنضدة والمقبس، الكابل ده مصمم للاستخدام اليومي.</p>
     </section>
 
     <section>

@@ -89,7 +89,7 @@ export const samsung_chargers_prices_market_egypt: BlogArticle = {
 </tr>
 <tr style="background: #f8fafc;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">الموبايلات المتوافقة</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">A15/A25/قديمة</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">A12/A13/A14/قديمة</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">كل سامسونج حديث</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">S24/S25 Ultra + Tab</td>
 </tr>
@@ -244,7 +244,7 @@ export const samsung_chargers_prices_market_egypt: BlogArticle = {
 <p>القرار بسيط لما تعرف موبايلك:</p>
 
 <ul>
-<li><strong>A15/A25/A35:</strong> شاحن 20W كفاية — <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> هو الاختيار الأمثل (~400 ج.م)</li>
+<li><strong>A15/A25/A35:</strong> بتدعم شحن سريع 25W (PPS)، فأفضل اختيار للسرعة القصوى شاحن 25W — بس لو ميزانيتك محدودة، <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> (~400 ج.م) بيشحنهم كويس (أقل شوية من الـ 25W الكاملة)</li>
 <li><strong>A55/A75 أو S24/S25:</strong> شاحن 25W — <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> (~500 ج.م) أفضل من Samsung 25W</li>
 <li><strong>S24/S25 Ultra:</strong> شاحن 45W لو عايز أقصى سرعة — أو 25W لو الفرق 15 دقيقة مش مهم</li>
 </ul>
@@ -326,7 +326,7 @@ export const samsung_chargers_prices_market_egypt: BlogArticle = {
 </tr>
 <tr style="background: #f8fafc;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Compatible phones</td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">A15/A25/older</td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">A12/A13/A14/older</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">All modern Samsung</td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;">S24/S25 Ultra + Tab</td>
 </tr>
@@ -481,7 +481,7 @@ export const samsung_chargers_prices_market_egypt: BlogArticle = {
 <p>The decision is simple once you know your phone:</p>
 
 <ul>
-<li><strong>A15/A25/A35:</strong> A 20W charger is sufficient — <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> is the optimal choice (~400 EGP)</li>
+<li><strong>A15/A25/A35:</strong> These support 25W Super Fast Charging (PPS), so a 25W charger is best for maximum speed — but on a budget, <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> (~400 EGP) still charges them well (just below the full 25W)</li>
 <li><strong>A55/A75 or S24/S25:</strong> A 25W charger — <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> (~500 EGP) is better value than Samsung 25W</li>
 <li><strong>S24/S25 Ultra:</strong> 45W if you want maximum speed — or 25W if the 15-minute difference doesn't matter</li>
 </ul>

@@ -98,7 +98,7 @@ export const apple_chargers_egypt_power_selection_iphone_ipad_macbook: BlogArtic
 <p>بسبب انتشار النسخ المقلدة رديئة الصنع التي تباع في علب مطابقة للأصل تماماً، يُوصى بإجراء هذه الاختبارات الهندسية البسيطة:</p>
 <ul style="line-height:2;">
     <li><strong>الوزن الدقيق للشاحن:</strong> يزن رأس شاحن ابل 20 واط الأصلي حوالي **58 جراماً** نتيجة للمكونات النحاسية الثقيلة والمكثفات الصلبة. الشواحن المقلدة تزن عادة ما بين 35 إلى 42 جراماً وتكون خفيفة جداً.</li>
-    <li><strong>فحص قراءة النظام في نظام iOS:</strong> عند توصيل الشاحن الأصلي بالآيفون، يمكنك الذهاب إلى إعدادات الهاتف (Settings) ثم "عام" (General) ثم "حول" (About) لترى موديل الشاحن والرقم التسلسلي يظهر بشكل رسمي. الشواحن المقلدة لا تظهر معلوماتها داخل النظام لعدم احتوائها على الرقاقة البرمجية المعتمدة.</li>
+    <li><strong>الشراء من مصدر معتمد:</strong> خلي بالك إن نظام iOS ما بيوفرش أي طريقة للتحقق من أصالة الشاحن. الشاحن السلكي بمنفذ USB-C ما بتظهرش بياناته إطلاقاً في إعدادات الهاتف (Settings) ثم "عام" (General) ثم "حول" (About) — الشاشة دي بتعرض موديل الآيفون ورقمه التسلسلي هو نفسه، مش الشاحن. اللي بيظهر بس هو شواحن MagSafe وبطاريات MagSafe لأنها بتحتوي على شريحة تعريف، أما شاحن USB-C السلكي فمعيار USB Power Delivery بيتفاوض على الفولت والقدرة بس ومش بينقل أي رقم تعريفي للنظام. عشان كده الشاحن الأصلي نفسه مش هيظهر في القائمة، فما تعتمدش على الاختبار ده مطلقاً — الضمان الوحيد للأصالة هو الشراء من ابل أو موزع معتمد.</li>
     <li><strong>جودة الطباعة والملمس الخارجي:</strong> الشاحن الأصلي يتميز بملمس مطفي ناعم وطباعة رمادية خفيفة جداً بالليزر، بينما المقلد يستخدم حبراً غامقاً يسهل مسحه باليد ويكون البلاستيك لامعاً ورديئاً.</li>
 </ul>
 
@@ -209,7 +209,7 @@ export const apple_chargers_egypt_power_selection_iphone_ipad_macbook: BlogArtic
 <p>Counterfeit Apple chargers are common in Egypt. Use these tests to verify authenticity:</p>
 <ul style="line-height:2;">
     <li><strong>Verify the Weight:</strong> A genuine Apple 20W charger weighs **58 grams** due to its internal shielding and components. Counterfeits typically weigh between 35 and 42 grams and feel light.</li>
-    <li><strong>Check iOS Settings:</strong> Plug the charger into your iPhone, go to Settings > General > About, and check if the charger\'s serial number and model appear. Replicas lack the certification chip and will not show up in the menu.</li>
+    <li><strong>Buy from Authorized Sources:</strong> iOS provides no way to verify a wired charger's authenticity. A standard USB-C power adapter never appears in Settings > General > About — that screen shows your iPhone's own model and serial number, not the charger's. Only MagSafe chargers and MagSafe Battery Packs show up there, because they carry an accessory-identification chip; a wired adapter uses USB Power Delivery, which only negotiates voltage and wattage and transmits no identity data to iOS. Since a genuine charger also won't appear in the menu, do not rely on this test — the only reliable safeguard is to buy from Apple or an authorized reseller.</li>
     <li><strong>Check the Printing:</strong> Original chargers feature light grey laser engraving, while fakes use dark ink that smudges easily.</li>
 </ul>
 

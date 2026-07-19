@@ -6,7 +6,7 @@ export const soundcore_select_4_go_speaker = {
     categorySlug: "speakers",
     gtin: "",
     gtin13: "",
-    mpn: "A3129",
+    mpn: "A31X1",
     price: 1249,
     originalPrice: 1470,
     stock: 927,
@@ -14,19 +14,19 @@ export const soundcore_select_4_go_speaker = {
     status: "active",
 
     images: [
-            { id: "img_1", url: "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-main-view-cairovolt.webp", alt: "Soundcore Select 4 Go A3129 IP67 waterproof floating speaker - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-features-angle-cairovolt.webp", alt: "مكبر صوت ساوندكور Select 4 Go A3129 ضد المية بتطفو - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-specifications-detail-cairovolt.webp", alt: "Soundcore Select 4 Go A3129 IP67 detail - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
- { id: "img_4", url: "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-retail-box-authentic-cairovolt.webp", alt: "مكبر صوت ساوندكور Select 4 Go A3129 علبة المنتج - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-in-use-lifestyle-cairovolt.webp", alt: "Soundcore Select 4 Go A3129 pool floating lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-size-comparison-cairovolt.webp", alt: "مكبر صوت ساوندكور Select 4 Go A3129 مقارنة حجم - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-main-view-cairovolt.webp", alt: "Soundcore Select 4 Go A31X1 IP67 waterproof floating speaker - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-features-angle-cairovolt.webp", alt: "مكبر صوت ساوندكور Select 4 Go A31X1 ضد المية بتطفو - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-specifications-detail-cairovolt.webp", alt: "Soundcore Select 4 Go A31X1 IP67 detail - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+ { id: "img_4", url: "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-retail-box-authentic-cairovolt.webp", alt: "مكبر صوت ساوندكور Select 4 Go A31X1 علبة المنتج - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-in-use-lifestyle-cairovolt.webp", alt: "Soundcore Select 4 Go A31X1 pool floating lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-size-comparison-cairovolt.webp", alt: "مكبر صوت ساوندكور Select 4 Go A31X1 مقارنة حجم - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
     ],
 
     relatedProducts: ["soundcore-rave-3-speaker", "anker-soundcore-flare-2", "anker-soundcore-motion-plus", "soundcore-p20i-earbuds", "anker-powercore-10000", "anker-a2741-charger-30w"],
 
     translations: {
         en: {
-            name: "Soundcore Select 4 Go A3129 | Manufacturer-Listed IP67 and Floating Design | 5W",
+            name: "Soundcore Select 4 Go A31X1 | Manufacturer-Listed IP67 and Floating Design | 5W",
             shortDescription: "Manufacturer-listed IP67 and floating design | 5W rated output | Published battery figure depends on test conditions | BT 5.4 | App EQ | TWS",
             description: `<div class="product-details">
     <section>
@@ -41,20 +41,20 @@ export const soundcore_select_4_go_speaker = {
     </section>
 </div>
 
-<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3129</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A31X1</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
             features: ["IP67 Waterproof", "Floats on Water", "Dustproof", "5W", "20h Battery", "BT 5.4", "9-Band EQ", "TWS Pairing", "USB-C", "Carry Strap", "No Mic", "No AUX", "🧾 Review warranty and return policy"],
             metaTitle: "Soundcore Select 4 Go — IP67 Waterproof + Floats | 20h",
-            metaDesc: "Explore Soundcore Select 4 Go A3129 in Egypt. Review manufacturer IP67, floating-design, battery, Bluetooth, EQ and TWS specifications plus current stock and warranty.",
+            metaDesc: "Explore Soundcore Select 4 Go A31X1 in Egypt. Review manufacturer IP67, floating-design, battery, Bluetooth, EQ and TWS specifications plus current stock and warranty.",
             faqs: [
                     { question: "Does Select 4 Go float?", answer: "Soundcore lists a floating design and an IP67 rating for the Select 4 Go. Follow the manufacturer's water-exposure limits, avoid salt water and chemicals, and dry the charging port before use." },
                     { question: "Select 4 Go vs another pocket speaker?", answer: "Compare current IP rating limits, rated output, battery test conditions, codec/app features, TWS support, weight, live price and warranty using the same criteria. Do not infer a winner from one specification." },
                     { question: "Is 5W enough for my use?", answer: "It depends on room size, outdoor noise, distance and preferred volume. The listed 5W output is generally intended for close personal listening; test expectations against your use case." },
-                    { question: "Does it include a microphone or AUX input?", answer: "Verify the current A3129 specification and supplied ports. Do not assume call or wired-audio support from Bluetooth or IP67 alone." },
+                    { question: "Does it include a microphone or AUX input?", answer: "Verify the current A31X1 specification and supplied ports. Do not assume call or wired-audio support from Bluetooth or IP67 alone." },
                     { question: "Can I pair two Select 4 Go speakers?", answer: "Soundcore lists TWS pairing for compatible units. Both speakers may need matching firmware; stereo effect varies with placement and listening position, and each unit is sold separately." },
             ]
         },
         ar: {
-            name: "مكبر صوت ساوندكور Select 4 Go A3129 | تصنيف IP67 وتصميم طافٍ معلنان | 5 واط | الضمان الحالي",
+            name: "مكبر صوت ساوندكور Select 4 Go A31X1 | تصنيف IP67 وتصميم طافٍ معلنان | 5 واط | الضمان الحالي",
             shortDescription: "IP67 وتصميم طافٍ معلنان من الشركة | خرج مصنف 5 واط | رقم البطارية مرتبط بشروط الاختبار | BT 5.4 | EQ عبر التطبيق | TWS",
             description: `<div class="product-details">
     <section>
@@ -69,15 +69,15 @@ export const soundcore_select_4_go_speaker = {
     </section>
 </div>
 
-<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3129</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A31X1</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["IP67 ضد المية", "بتطفو على المية", "ضد الغبار", "5 واط", "20 ساعة", "BT 5.4", "9-باند EQ", "ربط TWS", "USB-C", "حزام حمل", "بدون مايك", "بدون AUX", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "مكبر صوت ساوندكور Select 4 Go — IP67 + بتطفو | 20 ساعة",
-            metaDesc: "تعرف على ساوندكور Select 4 Go A3129 في مصر. راجع مواصفات IP67 والتصميم الطافي والبطارية والبلوتوث وEQ وTWS والمخزون والضمان الحالي.",
+            metaDesc: "تعرف على ساوندكور Select 4 Go A31X1 في مصر. راجع مواصفات IP67 والتصميم الطافي والبطارية والبلوتوث وEQ وTWS والمخزون والضمان الحالي.",
             faqs: [
                     { question: "هل Select 4 Go تطفو؟", answer: "تدرج ساوندكور تصميماً طافياً وتصنيف IP67. اتبع حدود الماء في الدليل وتجنب الملح والمواد الكيميائية وجفف منفذ الشحن تماماً قبل الاستخدام أو الشحن." },
                     { question: "كيف أقارنها بسبيكر جيب آخر؟", answer: "قارن حدود IP والخرج وشروط اختبار البطارية والكودك والتطبيق وTWS والوزن والسعر المباشر والضمان بالمعايير نفسها، ولا تحدد الاختيار من رقم واحد." },
                     { question: "هل 5 واط مناسبة لاستخدامي؟", answer: "يعتمد ذلك على مساحة المكان وضوضاء الخارج والمسافة ومستوى الصوت المطلوب. الخرج المعلن 5 واط موجه غالباً للاستماع القريب؛ قارن توقعك بالاستخدام الفعلي." },
-                    { question: "هل بها مايك أو AUX؟", answer: "تحقق من مواصفات A3129 الحالية والمنافذ الموردة. لا تفترض دعم المكالمات أو الصوت السلكي من وجود البلوتوث أو IP67 وحدهما." },
+                    { question: "هل بها مايك أو AUX؟", answer: "تحقق من مواصفات A31X1 الحالية والمنافذ الموردة. لا تفترض دعم المكالمات أو الصوت السلكي من وجود البلوتوث أو IP67 وحدهما." },
                     { question: "هل يمكن ربط وحدتين؟", answer: "تدرج ساوندكور ربط TWS للوحدات المتوافقة. قد يلزم فيرموير متطابق ويختلف تأثير الستيريو حسب الموضع؛ تباع كل وحدة على حدة." },
             ]
         }

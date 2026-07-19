@@ -27,7 +27,7 @@ export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
             metaDescription: 'دليلك الشامل لتعلم طريقة اختيار شواحن وإكسسوارات هواتف سامسونج فئة A (مثل Galaxy A55 و A35 و A15) بمصر بأمان. واكتشف سر الـ 25 واط وقاعدة الـ PPS لتجنب خسارة...',
             keywords: 'افضل هاتف سامسونج فئة a, دليل شراء سامسونج فئة A, اكسسوارات سامسونج a55, شاحن سامسونج a15, شواحن اقتصادية لسامسونج',
             excerpt: 'اشتريت سامسونج A55 أو A35 ولقيت العلبة فاضية بدون شاحن؟ بنشرح لك بالفيزياء أداء الشحن الحقيقي (الـ 25 واط) وأفضل الإكسسوارات الاقتصادية.',
-            quickAnswer: 'هواتف سامسونج فئة A (مثل Galaxy A55 وA35 وA15) **لا تدعم الشحن بقوة 45 واط** نهائياً؛ الحد الأقصى لقدرتها هو **25 واط** (أو **15 واط** للموديلات الاقتصادية مثل A05). لتشغيل الشحن السريع الفائق (Super Fast Charging), يجب شراء **شاحن يدعم بروتوكول PD 3.0 PPS بقوة 25 واط** على الأقل (مثل شاحن أنكر 25 واط أو جويروم 25 واط). شراء شاحن 45 واط لن يزيد من سرعة الشحن وسيكون هدرًا للمال.',
+            quickAnswer: 'هواتف سامسونج فئة A (مثل Galaxy A55 وA35 وA15) **لا تدعم الشحن بقوة 45 واط** نهائياً؛ الحد الأقصى لقدرتها هو **25 واط** (بما في ذلك الموديلات الاقتصادية مثل A05 وA05s). لتشغيل الشحن السريع الفائق (Super Fast Charging), يجب شراء **شاحن يدعم بروتوكول PD 3.0 PPS بقوة 25 واط** على الأقل (مثل شاحن أنكر 25 واط أو جويروم 25 واط). شراء شاحن 45 واط لن يزيد من سرعة الشحن وسيكون هدرًا للمال.',
             faq: [
                 {
                     question: 'هل شاحن سامسونج 45 واط بيشحن موبايل جالاكسي A55 أسرع من شاحن 25 واط؟',
@@ -39,7 +39,7 @@ export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
                 },
                 {
                     question: 'هل يمكنني استخدام شاحن لابتوب بقوة 65 واط لشحن هاتف سامسونج A15؟',
-                    answer: 'نعم، هذا آمن تماماً. بفضل توافق بروتوكول USB-PD، يقوم الهاتف بالتفاوض مع الشاحن وسحب الطاقة التي يحتاجها فقط (وهي 25 واط لهاتف A15 5G أو 15 واط لهاتف A15 4G)، دون أي خطر على صحة البطارية.'
+                    answer: 'نعم، هذا آمن تماماً. بفضل توافق بروتوكول USB-PD، يقوم الهاتف بالتفاوض مع الشاحن وسحب الطاقة التي يحتاجها فقط (وهي 25 واط لكل من A15 5G و A15 4G)، دون أي خطر على صحة البطارية.'
                 },
                 {
                     question: 'هل تأتي هواتف سامسونج فئة A مع جراب حماية وسكرينة في العلبة بمصر؟',
@@ -81,7 +81,7 @@ export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
         </tr>
         <tr>
             <td style="border:1px solid #d1d5db;padding:12px;font-weight:600;">Galaxy A05 / A05s</td>
-            <td style="border:1px solid #d1d5db;padding:12px;text-align:center;color:#ca8a04;font-weight:600;">25W / 15W</td>
+            <td style="border:1px solid #d1d5db;padding:12px;text-align:center;color:#ca8a04;font-weight:600;">25W</td>
             <td style="border:1px solid #d1d5db;padding:12px;text-align:center;">Standard USB-PD / PPS</td>
             <td style="border:1px solid #d1d5db;padding:12px;text-align:center;">~ 100 دقيقة</td>
         </tr>
@@ -173,7 +173,7 @@ export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
             metaDescription: 'Comprehensive guide for choosing chargers and accessories for Samsung Galaxy A-series (A55, A35, A15). Understand the 25W limit and PPS requirements.',
             keywords: 'best samsung a series phone, samsung a15 charger specification, samsung galaxy a55 accessories, samsung a series buying guide, best charger for samsung a55',
             excerpt: 'Bought a Galaxy A55 or A35 and found an empty box without a charger? Learn the charging physics (the 25W rule) and discover the best budget accessories.',
-            quickAnswer: 'Samsung Galaxy A-series phones (such as the Galaxy A55, A35, and A15) **do not support 45W charging**. Their maximum charging rate is strictly capped at **25W** (or **15W** for entry-level models like the A05). To enable Super Fast Charging, you must purchase a **25W USB-PD 3.0 charger that supports the PPS protocol** (like Anker 25W or Joyroom 25W). A 45W charger will not charge the phone any faster and is a waste of money.',
+            quickAnswer: 'Samsung Galaxy A-series phones (such as the Galaxy A55, A35, and A15) **do not support 45W charging**. Their maximum charging rate is strictly capped at **25W** (including entry-level models like the A05 and A05s). To enable Super Fast Charging, you must purchase a **25W USB-PD 3.0 charger that supports the PPS protocol** (like Anker 25W or Joyroom 25W). A 45W charger will not charge the phone any faster and is a waste of money.',
             faq: [
                 {
                     question: 'Does a 45W Samsung charger charge a Galaxy A55 faster than a 25W charger?',
@@ -185,7 +185,7 @@ export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
                 },
                 {
                     question: 'Can I safely charge my Galaxy A15 with a 65W laptop charger?',
-                    answer: 'Yes, this is completely safe. USB Power Delivery negotiation ensures that the phone only draws the power it requires (25W for A15 5G or 15W for A15 4G), leaving the excess capacity unused with no risk to the battery.'
+                    answer: 'Yes, this is completely safe. USB Power Delivery negotiation ensures that the phone only draws the power it requires (25W for both the A15 5G and A15 4G), leaving the excess capacity unused with no risk to the battery.'
                 },
                 {
                     question: 'Do Samsung A-series retail boxes in Egypt include a protective case?',
@@ -227,7 +227,7 @@ export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
         </tr>
         <tr>
             <td style="border:1px solid #d1d5db;padding:12px;font-weight:600;">Galaxy A05 / A05s</td>
-            <td style="border:1px solid #d1d5db;padding:12px;text-align:center;color:#ca8a04;font-weight:600;">25W / 15W</td>
+            <td style="border:1px solid #d1d5db;padding:12px;text-align:center;color:#ca8a04;font-weight:600;">25W</td>
             <td style="border:1px solid #d1d5db;padding:12px;text-align:center;">Standard USB-PD / PPS</td>
             <td style="border:1px solid #d1d5db;padding:12px;text-align:center;">~ 100 minutes</td>
         </tr>

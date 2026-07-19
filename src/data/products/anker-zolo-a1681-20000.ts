@@ -31,7 +31,7 @@ export const anker_zolo_a1681_20000 = {
         translations: {
             en: {
                 name: "Anker ZOLO Power Bank 20,000mAh 30W | Built-In Dual Cables",
-                shortDescription: "🔌 Built-In USB-C (30W) + Lightning (27W) Cables | 🔋 20,000mAh (74Wh) | 📱 Charge 3 Devices at Once | 📊 Digital Display | 🛡️ ActiveShield",
+                shortDescription: "🔌 Built-In USB-C (30W) + Lightning (27W) Cables | 🔋 20,000mAh (74Wh) | 📱 Charge 4 Devices at Once | 📊 Digital Display | 🛡️ ActiveShield",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">The Anker ZOLO A1681 integrates a USB-C cable and a Lightning cable, with a separate USB-A port, manufacturer-listed 20,000mAh (74Wh) capacity and a digital battery display. Output depends on the connected device, cable and number of ports in use. Verify the printed input/output table, package contents and current warranty terms before ordering.</p>
@@ -42,7 +42,7 @@ export const anker_zolo_a1681_20000 = {
     <ul class="list-none space-y-1">
         <li>🔌 <strong>Built-In Dual Cables:</strong> USB-C (30W) + Lightning (27W) — nothing to carry, forget, or lose.</li>
         <li>🔋 <strong>20,000mAh (74Wh) cell rating:</strong> delivered energy is lower after conversion and varies by device.</li>
-        <li>📱 <strong>3 Devices at Once:</strong> Both built-in cables + the 22.5W USB-A port.</li>
+        <li>📱 <strong>4 Devices at Once:</strong> Both built-in cables + a separate USB-C port and the 22.5W USB-A port.</li>
         <li>📊 <strong>Smart Digital Display:</strong> Battery % and charging status at a glance.</li>
         <li>✈️ <strong>Travel check:</strong> the listed 74Wh is below the common 100Wh cabin threshold; confirm the current carrier and route rules.</li>
     <li>🧾 <strong>Returns and warranty:</strong> handled under the current published policy and eligibility terms.</li><li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
@@ -56,7 +56,7 @@ export const anker_zolo_a1681_20000 = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">The Café Worker's Secret Weapon</h2>
-        <p class="text-gray-700">The integrated cables can reduce what you need to pack. Up to three outputs may be available, but total power can be shared when several devices are connected. The 20,000mAh figure is measured at cell voltage and does not equal the energy delivered at USB voltage; the display is an operating estimate rather than a calibrated capacity measurement.</p>
+        <p class="text-gray-700">The integrated cables can reduce what you need to pack. Up to four outputs may be available, but total power can be shared when several devices are connected. The 20,000mAh figure is measured at cell voltage and does not equal the energy delivered at USB voltage; the display is an operating estimate rather than a calibrated capacity measurement.</p>
     </section>
 
     <section>
@@ -76,11 +76,11 @@ export const anker_zolo_a1681_20000 = {
 
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A1681</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms. Review <a href="/en/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">related guide 1</a>.</p></div>
 `,
-                features: ["🔌 Built-In USB-C Cable", "🔌 Built-In Lightning Cable", "🔋 Manufacturer-listed 20,000mAh (74Wh)", "📱 Up to 3 outputs; power may be shared", "📊 Digital Display", "🛡️ ActiveShield statement", "✈️ Check current airline rules", "💡 Low-Power Mode", "🧾 Check current warranty terms"],
+                features: ["🔌 Built-In USB-C Cable", "🔌 Built-In Lightning Cable", "🔋 Manufacturer-listed 20,000mAh (74Wh)", "📱 Up to 4 outputs; power may be shared", "📊 Digital Display", "🛡️ ActiveShield statement", "✈️ Check current airline rules", "💡 Low-Power Mode", "🧾 Check current warranty terms"],
                 metaTitle: "Anker ZOLO A1681 20000mAh | Built-In Cables",
                 metaDesc: "Shop Anker ZOLO A1681 in Egypt with built-in USB-C and Lightning cables, listed 20000mAh (74Wh) capacity, USB-A output and digital display. Check live terms.",
                 faqs: [
-                    { question: "Are the cables really built in?", answer: "Yes! A USB-C cable (up to 30W) and a Lightning cable (up to 27W) fold into the body. There's also a 22.5W USB-A port for a third device — so you can leave every cable at home." },
+                    { question: "Are the cables really built in?", answer: "Yes! A USB-C cable (up to 30W) and a Lightning cable (up to 27W) fold into the body. There's also a separate USB-C port and a 22.5W USB-A port, so you can charge four devices at once and leave every cable at home." },
                     { question: "How is this different from the A110E (22.5W)?", answer: "Compare the current models by built-in connector types, display, printed Wh and output profiles, dimensions, weight, live price and service terms. An attached cable can reduce what you carry, but inspect it because it is still subject to wear." },
                     { question: "How does the power bank recharge itself?", answer: "Through the same built-in USB-C cable — plug it into any USB-C PD wall charger and it refills. One cable does everything, in and out." },
                     { question: "Can I use it during a power outage for my router?", answer: "Only if the router's voltage, connector, continuous power and restart behaviour match a listed output. Runtime depends on load and conversion loss." },
@@ -89,7 +89,7 @@ export const anker_zolo_a1681_20000 = {
             },
             ar: {
                 name: "باور بانك انكر زولو 20,000 مللي أمبير 30 واط | كابلان مدمجان",
-                shortDescription: "🔌 كابلين مدمجين: USB-C (30 واط) + لايتننج (27 واط) | 🔋 20,000 مللي أمبير (74Wh) | 📱 3 أجهزة في نفس الوقت | 📊 شاشة رقمية | 🛡️ ActiveShield",
+                shortDescription: "🔌 كابلين مدمجين: USB-C (30 واط) + لايتننج (27 واط) | 🔋 20,000 مللي أمبير (74Wh) | 📱 4 أجهزة في نفس الوقت | 📊 شاشة رقمية | 🛡️ ActiveShield",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">يجمع باور بانك انكر زولو A1681 كابل USB-C وكابل لايتننج مدمجين مع منفذ USB-A منفصل، وسعة خلايا معلنة 20,000 مللي أمبير (74Wh) وشاشة رقمية للبطارية. القدرة الفعلية تعتمد على الجهاز وعدد المخارج المستخدمة. تحقق من جدول الإدخال والإخراج المطبوع ومحتويات العبوة وشروط الضمان الحالية قبل الطلب.</p>
@@ -100,7 +100,7 @@ export const anker_zolo_a1681_20000 = {
     <ul class="list-none space-y-1">
         <li>🔌 <strong>كابلان مدمجان:</strong> تحقق من ملفات USB-C ولايتننج المطبوعة وتوافق جهازك.</li>
         <li>🔋 <strong>تصنيف خلايا 20,000 مللي أمبير (74Wh):</strong> الطاقة المسلمة أقل بعد التحويل وتختلف حسب الجهاز.</li>
-        <li>📱 <strong>3 أجهزة في نفس الوقت:</strong> الكابلين المدمجين + منفذ USB-A بقوة 22.5 واط.</li>
+        <li>📱 <strong>4 أجهزة في نفس الوقت:</strong> الكابلين المدمجين + منفذ USB-C منفصل + منفذ USB-A بقوة 22.5 واط.</li>
         <li>📊 <strong>شاشة رقمية ذكية:</strong> نسبة البطارية + حالة الشحن بنظرة واحدة.</li>
         <li>✈️ <strong>تحقق قبل السفر:</strong> 74Wh أقل من الحد الشائع 100Wh، لكن قواعد الناقل والرحلة قد تختلف.</li>
     </ul>
@@ -139,11 +139,11 @@ export const anker_zolo_a1681_20000 = {
     <p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A1681</strong> والقيم المطبوعة والموصلات ومحتويات العبوة مع الوحدة ووثائق الشركة المصنّعة الحالية. عند استخدام منفذ USB-A اختر كابلاً يطابق قدرة جهازك؛ راجع <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">انكر A8050</a> كخيار للمقارنة، وليس كدليل توافق تلقائي.</p>
 </div>
 `,
-                features: ["🔌 كابل USB-C مدمج", "🔌 كابل لايتننج مدمج", "🔋 سعة معلنة 20,000 مللي أمبير (74Wh)", "📱 حتى 3 مخارج مع احتمال توزيع القدرة", "📊 شاشة رقمية", "🛡️ بيان ActiveShield", "✈️ تحقق من قواعد الطيران الحالية", "💡 وضع منخفض الاستهلاك", "🧾 راجع سياسة الضمان والاسترجاع"],
+                features: ["🔌 كابل USB-C مدمج", "🔌 كابل لايتننج مدمج", "🔋 سعة معلنة 20,000 مللي أمبير (74Wh)", "📱 حتى 4 مخارج مع احتمال توزيع القدرة", "📊 شاشة رقمية", "🛡️ بيان ActiveShield", "✈️ تحقق من قواعد الطيران الحالية", "💡 وضع منخفض الاستهلاك", "🧾 راجع سياسة الضمان والاسترجاع"],
                 metaTitle: "باور بانك انكر زولو A1681 بسعة 20000 | كابلات مدمجة",
                 metaDesc: "تسوق باور بانك انكر زولو A1681 في مصر بكابلي USB-C ولايتننج مدمجين وسعة معلنة 20000 مللي أمبير وخرج USB-A وشاشة رقمية. راجع الشروط الحالية.",
                 faqs: [
-                    { question: "الكابلات فعلاً مدمجة؟", answer: "أيوه! كابل USB-C (حتى 30 واط) وكابل لايتننج (حتى 27 واط) مدمجين في الجسم بيتفردوا ويترجعوا. وفيه كمان منفذ USB-A بقوة 22.5 واط لجهاز تالت — يعني سيب كل الكابلات في البيت." },
+                    { question: "الكابلات فعلاً مدمجة؟", answer: "أيوه! كابل USB-C (حتى 30 واط) وكابل لايتننج (حتى 27 واط) مدمجين في الجسم بيتفردوا ويترجعوا. وفيه كمان منفذ USB-C منفصل ومنفذ USB-A بقوة 22.5 واط — يعني تشحن 4 أجهزة في نفس الوقت وتسيب كل الكابلات في البيت." },
                     { question: "إيه الفرق بينه وبين A110E (22.5 واط)؟", answer: "نفس فئة الـ 20 ألف مللي أمبير، بس الـ A1681 جايب الكابلين مدمجين في جسمه + شاشة رقمية. الـ A110E اختيار الميزانية؛ الـ A1681 اختيار «مش هشيل كابل تاني في حياتي»." },
                     { question: "بيشحن نفسه إزاي؟", answer: "من نفس كابل الـ USB-C المدمج — وصّله في أي شاحن USB-C PD وهو بيتملي. كابل واحد بيعمل كل حاجة، دخول وخروج." },
                     { question: "ينفع للراوتر وقت قطع الكهربا؟", answer: "فقط إذا تطابق جهد الراوتر وموصله وقدرته المستمرة وسلوك إعادة التشغيل مع خرج معلن. المدة تعتمد على الحمل وفقد التحويل." },

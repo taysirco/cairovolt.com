@@ -77,7 +77,7 @@ export const samsung_charger_head_authentic_packaging_barcode: BlogArticle = {
 <li>الباركود على الجنب الأيمن</li>
 </ul>
 
-<h3>EP-TA800 — شاحن 25W PD 3.0</h3>
+<h3>EP-TA800 — شاحن 25W PD 3.0 + PPS</h3>
 
 <p>أشهر شاحن سامسونج في مصر. العلبة:</p>
 <ul>
@@ -93,7 +93,7 @@ export const samsung_charger_head_authentic_packaging_barcode: BlogArticle = {
 <p>الجيل الأحدث من شاحن 25W. العلبة:</p>
 <ul>
 <li>أصغر شوية من EP-TA800 — تصميم أكثر مربع</li>
-<li>مكتوب عليها "25W" + "Super Fast Charging" + علامة PPS</li>
+<li>مكتوب عليها "25W" + "Super Fast Charging" — والفرق الحقيقي عن EP-TA800 إنه GaN (أصغر وأخف). الاتنين PD 3.0 + PPS، يعني الـ PPS مش اللي بيفرّق بينهم</li>
 <li>العلبة مصنوعة من ورق مُعاد تدويره (ملمسها مختلف — أكثر خشونة)</li>
 <li>ختم بيئي "Eco-Conscious Packaging" على العلبة</li>
 <li>QR Code أكبر حجماً من الموديلات القديمة</li>
@@ -299,7 +299,7 @@ export const samsung_charger_head_authentic_packaging_barcode: BlogArticle = {
 <li>Barcode on the right side</li>
 </ul>
 
-<h3>EP-TA800 — 25W PD 3.0 Charger</h3>
+<h3>EP-TA800 — 25W PD 3.0 + PPS Charger</h3>
 
 <p>The most popular Samsung charger in Egypt. The box:</p>
 <ul>
@@ -315,7 +315,7 @@ export const samsung_charger_head_authentic_packaging_barcode: BlogArticle = {
 <p>The newer generation 25W charger. The box:</p>
 <ul>
 <li>Slightly smaller than the EP-TA800 — more square design</li>
-<li>Labeled "25W" + "Super Fast Charging" + PPS marking</li>
+<li>Labeled "25W" + "Super Fast Charging" — the real difference from the EP-TA800 is its GaN internals (smaller and lighter). Both models are PD 3.0 + PPS, so PPS isn't what sets them apart</li>
 <li>Box made from recycled paper (different texture — more rough)</li>
 <li>"Eco-Conscious Packaging" environmental seal on the box</li>
 <li>Larger QR Code than older models</li>

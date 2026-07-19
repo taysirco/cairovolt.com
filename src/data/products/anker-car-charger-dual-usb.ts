@@ -7,7 +7,7 @@ export const anker_car_charger_dual_usb = {
         categorySlug: "car-chargers",
         gtin: "0848061073508",
         gtin13: "0848061073508",
-        mpn: "A2224011",
+        mpn: "A2310011",
         price: 950,
         originalPrice: 1080,
         stock: 525,
@@ -15,7 +15,7 @@ export const anker_car_charger_dual_usb = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-package-box-contents-egypt.webp", alt: "Anker dual USB car charger package box and contents - CairoVolt Egypt", order: 0, isPrimary: true, width: 1200, height: 1500 },
-            { id: "img_2", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-24w-powerdrive-cairovolt-egypt.webp", alt: "شاحن سيارة انكر 24 واط ثنائي المنافذ PowerDrive - A2224011 - كايرو فولت مصر", order: 1, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_2", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-24w-powerdrive-cairovolt-egypt.webp", alt: "شاحن سيارة انكر 24 واط ثنائي المنافذ PowerDrive - A2310011 - كايرو فولت مصر", order: 1, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_3", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-a-ports-detail-24w-output.webp", alt: "Anker car charger dual USB-A ports 24W total output power detail close-up - CairoVolt", order: 2, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_4", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-installed-car-dashboard-cigarette-lighter.webp", alt: "شاحن انكر مركب في لوحة السيارة بمقبس ولاعة السجائر - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_5", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-charging-phone-tablet-dual-device.webp", alt: "Anker dual-port car charger connected to a phone and tablet", order: 4, isPrimary: false, width: 1024, height: 1024 },
@@ -29,7 +29,7 @@ export const anker_car_charger_dual_usb = {
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerDrive 2</strong> is a dual USB-A car charger with a listed 24W total output and PowerIQ compatibility statements. Confirm the exact model number, vehicle input range, per-port and shared output, indicator and package contents on the supplied unit. Charging speed varies by device and cable. Check the current price, stock and warranty terms before ordering.</p>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A2224011</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A2310011</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
@@ -38,7 +38,7 @@ export const anker_car_charger_dual_usb = {
         <li>📱 <strong>Charge 2 Devices:</strong> Phone + earbuds, or 2 phones simultaneously.</li>
         <li>🔌 <strong>Vehicle input:</strong> confirm the printed 12V/24V range, socket shape, clearance and vehicle guidance.</li>
     <li>🧾 <strong>Returns and warranty:</strong> handled under the current published policy and eligibility terms.</li><li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A2224011</strong>, start with the manufacturer-rated vehicle input range, port output profiles and supported charging protocols printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A2310011</strong>, start with the manufacturer-rated vehicle input range, port output profiles and supported charging protocols printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 
 <div class="product-details">
     <section>
@@ -53,7 +53,7 @@ export const anker_car_charger_dual_usb = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Safety and Cable Checks</h2>
-        <p class="text-gray-700">Verify the current MultiProtect statement and input/output markings for A2224011. Keep the socket and charger ventilated, use an undamaged rated <a href="/en/anker/cables" class="text-blue-600 hover:underline">cable</a>, and stop use if the unit, plug or socket is damaged or unusually hot. Review the current written warranty rather than assuming a fixed term.</p>
+        <p class="text-gray-700">Verify the current MultiProtect statement and input/output markings for A2310011. Keep the socket and charger ventilated, use an undamaged rated <a href="/en/anker/cables" class="text-blue-600 hover:underline">cable</a>, and stop use if the unit, plug or socket is damaged or unusually hot. Review the current written warranty rather than assuming a fixed term.</p>
     </section>
 </div>
 <div class="device-compatibility">
@@ -68,7 +68,7 @@ export const anker_car_charger_dual_usb = {
 `,
                 features: ["🚗 Listed 24W total dual USB-A", "⚡ PowerIQ profile negotiation", "📱 Two-device shared output", "🔌 Verify 12V/24V socket compatibility", "💡 Blue LED Indicator", "🏆 current warranty and return policy", "🔎 Verify compliance marks on the unit and manufacturer documentation", "🚗 Check vehicle socket fit"],
                 metaTitle: "Anker PowerDrive 2 Dual USB-A Car Charger | Egypt",
-                metaDesc: "Anker PowerDrive 2 A2224011 with two USB-A ports and listed 24W total output. Verify vehicle socket fit, power distribution, live price and warranty terms.",
+                metaDesc: "Anker PowerDrive 2 A2310011 with two USB-A ports and listed 24W total output. Verify vehicle socket fit, power distribution, live price and warranty terms.",
                 faqs: [
                     { question: "Does it work in all cars?", answer: "It requires a compatible vehicle socket within the printed input range and enough physical clearance. Check the vehicle manual, socket shape and charger label; compatibility cannot be promised for every console." },
                     { question: "Does it drain the car battery when not in use?", answer: "Standby draw and socket behaviour vary by vehicle; some sockets stay powered after the engine is off. Remove the charger during long parking periods and follow the vehicle manual." },
@@ -82,9 +82,9 @@ export const anker_car_charger_dual_usb = {
                 shortDescription: "🚗 قدرة معلنة 24 واط إجمالاً عبر منفذين USB-A | ⚡ PowerIQ | 📱 خرج مشترك لجهازين | 🔌 تحقق من توافق مقبس السيارة",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed"><strong>شاحن سيارة انكر PowerDrive 2 موديل A2224011</strong> مزود بمنفذين USB-A وقدرة إجمالية معلنة 24 واط مع PowerIQ. تحقق من دخل السيارة وتوزيع القدرة على المنفذين وشكل المقبس والمساحة ومحتويات العبوة على الوحدة الموردة؛ تختلف سرعة الشحن حسب الجهاز والكابل. راجع السعر والمخزون وشروط الضمان الحالية قبل الطلب.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>شاحن سيارة انكر PowerDrive 2 موديل A2310011</strong> مزود بمنفذين USB-A وقدرة إجمالية معلنة 24 واط مع PowerIQ. تحقق من دخل السيارة وتوزيع القدرة على المنفذين وشكل المقبس والمساحة ومحتويات العبوة على الوحدة الموردة؛ تختلف سرعة الشحن حسب الجهاز والكابل. راجع السعر والمخزون وشروط الضمان الحالية قبل الطلب.</p>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A2224011</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A2310011</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -95,7 +95,7 @@ export const anker_car_charger_dual_usb = {
     <li>🧾 <strong>الاسترجاع والضمان:</strong> وفق السياسة المنشورة وشروط الأهلية الحالية.</li></ul>
 </div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A2224011</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A2310011</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
@@ -110,7 +110,7 @@ export const anker_car_charger_dual_usb = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">فحوص السلامة والكابل</h2>
-        <p class="text-gray-700">تحقق من بيان MultiProtect وعلامات الدخل والخرج الحالية للموديل A2224011. استخدم مقبساً وكابل <a href="/anker/cables" class="text-blue-600 hover:underline">شحن</a> سليمين واترك تهوية، وتوقف عن الاستخدام عند التلف أو السخونة غير المعتادة. راجع الضمان المكتوب الحالي من دون افتراض مدة ثابتة.</p>
+        <p class="text-gray-700">تحقق من بيان MultiProtect وعلامات الدخل والخرج الحالية للموديل A2310011. استخدم مقبساً وكابل <a href="/anker/cables" class="text-blue-600 hover:underline">شحن</a> سليمين واترك تهوية، وتوقف عن الاستخدام عند التلف أو السخونة غير المعتادة. راجع الضمان المكتوب الحالي من دون افتراض مدة ثابتة.</p>
     </section>
 </div>
 <div class="device-compatibility">
@@ -125,7 +125,7 @@ export const anker_car_charger_dual_usb = {
 `,
                 features: ["🚗 قدرة معلنة 24 واط إجمالاً عبر USB-A", "⚡ تفاوض PowerIQ", "📱 خرج مشترك لجهازين", "🔌 تحقق من توافق مقبس 12/24 فولت", "💡 مؤشر LED أزرق", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة", "🚗 قِس مساحة مقبس السيارة"],
                 metaTitle: "شاحن سيارة انكر ثنائي USB | مقبس 12/24 فولت | مصر",
-                metaDesc: "شاحن سيارة انكر PowerDrive 2 موديل A2224011 بمنفذين USB-A وقدرة إجمالية معلنة 24 واط. تحقق من توافق المقبس وتوزيع الخرج والسعر والضمان الحالي.",
+                metaDesc: "شاحن سيارة انكر PowerDrive 2 موديل A2310011 بمنفذين USB-A وقدرة إجمالية معلنة 24 واط. تحقق من توافق المقبس وتوزيع الخرج والسعر والضمان الحالي.",
                 faqs: [
                     { question: "هل يعمل في جميع السيارات؟", answer: "يحتاج مقبس 12/24 فولت متوافقاً من حيث الجهد والشكل والمساحة. راجع دليل السيارة والقيم المطبوعة على الشاحن؛ لا يمكن ضمان التوافق مع كل مقبس." },
                     { question: "هل أتركه متصلاً بالسيارة؟", answer: "يعتمد سلوك المقبس عند إيقاف السيارة على تصميمها. افصل الشاحن إذا أوصى دليل السيارة بذلك أو عند الركن الطويل، وتوقف عن الاستخدام عند تلف المقبس أو سخونة غير معتادة." },

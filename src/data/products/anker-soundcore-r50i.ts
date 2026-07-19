@@ -35,7 +35,7 @@ export const anker_soundcore_r50i = {
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
 <li>🎵 <strong>10mm BassUp™ Drivers:</strong> Balanced sound with enhanced bass.</li>
-<li>🔋 <strong>Published battery:</strong> up to 8h earbuds and 30h total under Soundcore's stated conditions; actual runtime varies.</li>
+<li>🔋 <strong>Published battery:</strong> up to 10h earbuds and 30h total under Soundcore's stated conditions; actual runtime varies.</li>
 <li>👂 <strong>In-Ear Design:</strong> Silicone tips for passive noise isolation.</li>
 <li>🎙️ <strong>Call processing:</strong> dual microphones; results depend on the phone, app and surrounding noise.</li>
 <li>⚡ <strong>Fast-charge example:</strong> verify Soundcore's current test conditions; actual playback varies.</li>
@@ -46,7 +46,7 @@ export const anker_soundcore_r50i = {
 <section><h2 class="text-2xl font-bold mb-2">10mm Driver and Soundcore App EQ</h2>
 <p class="text-gray-700">R50i lists a 10mm driver with BassUp and EQ controls in the Soundcore app. App functions can change with phone, operating system, region and firmware, while perceived bass and clarity depend on fit, recording, codec, volume and the chosen EQ.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">Published Battery and Fast-Charge Figures</h2>
-<p class="text-gray-700">Soundcore lists up to 8 hours for the earbuds and 30 hours with the case, plus a fast-charge playback example under its stated settings. Volume, calls, app features, temperature and battery age affect runtime, so use the figures for comparison under the same test conditions rather than as a fixed schedule.</p></section>
+<p class="text-gray-700">Soundcore lists up to 10 hours for the earbuds and 30 hours with the case, plus a fast-charge playback example under its stated settings. Volume, calls, app features, temperature and battery age affect runtime, so use the figures for comparison under the same test conditions rather than as a fixed schedule.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">In-Ear Passive Isolation</h2>
 <p class="text-gray-700">The silicone ear tips create a physical seal for passive isolation without ANC power use. The reduction varies with ear shape, tip size and fit and should not be represented by one universal dB figure. Try the included sizes, keep playback at a safe level and stay aware of traffic and announcements.</p></section>
 </div>
@@ -58,9 +58,9 @@ export const anker_soundcore_r50i = {
 <tr><td class="p-2 border">Brand</td><td class="p-2 border">Anker / Soundcore</td></tr>
 <tr class="bg-gray-50"><td class="p-2 border">Type</td><td class="p-2 border">True Wireless (TWS) In-Ear</td></tr>
 <tr><td class="p-2 border">Driver Size</td><td class="p-2 border">10mm with BassUp™</td></tr>
-<tr class="bg-gray-50"><td class="p-2 border">Battery (Earbuds)</td><td class="p-2 border">8 hours</td></tr>
+<tr class="bg-gray-50"><td class="p-2 border">Battery (Earbuds)</td><td class="p-2 border">10 hours</td></tr>
 <tr><td class="p-2 border">Battery (Total with Case)</td><td class="p-2 border">30 hours</td></tr>
-<tr class="bg-gray-50"><td class="p-2 border">Fast Charge</td><td class="p-2 border">10 min = 1h playback</td></tr>
+<tr class="bg-gray-50"><td class="p-2 border">Fast Charge</td><td class="p-2 border">10 min = 2h playback</td></tr>
 <tr><td class="p-2 border">Bluetooth</td><td class="p-2 border">5.3</td></tr>
 <tr class="bg-gray-50"><td class="p-2 border">Codec</td><td class="p-2 border">AAC, SBC</td></tr>
 <tr><td class="p-2 border">Water Resistance</td><td class="p-2 border">IPX5</td></tr>
@@ -84,7 +84,7 @@ export const anker_soundcore_r50i = {
 <tr class="bg-gray-50"><td class="p-2 border font-semibold">Battery</td><td class="p-2 border">30h</td><td class="p-2 border">45h</td><td class="p-2 border">36h</td><td class="p-2 border">28h</td></tr>
 <tr><td class="p-2 border font-semibold">ANC</td><td class="p-2 border">❌ Passive only</td><td class="p-2 border">✅ 42dB</td><td class="p-2 border">❌ None</td><td class="p-2 border">❌ Passive</td></tr>
 <tr class="bg-gray-50"><td class="p-2 border font-semibold">Fit Type</td><td class="p-2 border">In-Ear</td><td class="p-2 border">In-Ear</td><td class="p-2 border">Semi In-Ear</td><td class="p-2 border">In-Ear</td></tr>
-<tr><td class="p-2 border font-semibold">Water Resistance</td><td class="p-2 border">IPX5</td><td class="p-2 border">IPX5</td><td class="p-2 border">IPX5</td><td class="p-2 border">IPX5</td></tr>
+<tr><td class="p-2 border font-semibold">Water Resistance</td><td class="p-2 border">IPX5</td><td class="p-2 border">IP54</td><td class="p-2 border">IPX5</td><td class="p-2 border">IPX5</td></tr>
 <tr class="bg-gray-50"><td class="p-2 border font-semibold">Suggested use</td><td class="p-2 border text-blue-700 font-bold">Everyday in-ear</td><td class="p-2 border">Active noise control</td><td class="p-2 border">Semi-in-ear fit</td><td class="p-2 border">Daily use</td></tr>
 </tbody></table>
 </div>
@@ -134,7 +134,7 @@ export const anker_soundcore_r50i = {
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">
 <li>🎵 <strong>10mm BassUp™:</strong> صوت متوازن مع باس معزز.</li>
-<li>🔋 <strong>بطارية معلنة:</strong> حتى 8 ساعات للسماعات و30 ساعة إجمالاً تحت شروط ساوندكور؛ تختلف المدة الفعلية.</li>
+<li>🔋 <strong>بطارية معلنة:</strong> حتى 10 ساعات للسماعات و30 ساعة إجمالاً تحت شروط ساوندكور؛ تختلف المدة الفعلية.</li>
 <li>👂 <strong>تصميم داخلي:</strong> أطراف سيليكون لعزل سلبي.</li>
 <li>🎙️ <strong>معالجة مكالمات:</strong> ميكروفونان؛ تعتمد النتيجة على الهاتف والتطبيق والضوضاء.</li>
 <li>⚡ <strong>مثال شحن سريع:</strong> تحقق من شروط اختبار ساوندكور؛ تختلف مدة التشغيل الفعلية.</li>
@@ -144,7 +144,7 @@ export const anker_soundcore_r50i = {
 <section><h2 class="text-2xl font-bold mb-2">درايفر 10mm وEQ عبر تطبيق ساوندكور</h2>
 <p class="text-gray-700">تذكر R50i درايفر 10mm مع BassUp وتحكم EQ في تطبيق ساوندكور. قد تتغير وظائف التطبيق حسب الهاتف والنظام والمنطقة والبرنامج، بينما يعتمد الباس والوضوح على الملاءمة والتسجيل والكودك ومستوى الصوت وEQ. للعزل النشط قارن <a href="/soundcore/audio/anker-soundcore-r50i-nc" class="text-blue-600 hover:underline">ساوندكور R50i NC</a>، وللتصميم نصف الداخلي قارن <a href="/soundcore/audio/anker-soundcore-k20i" class="text-blue-600 hover:underline">ساوندكور K20i</a>.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">أرقام البطارية والشحن السريع المعلنة</h2>
-<p class="text-gray-700">تذكر ساوندكور حتى 8 ساعات للسماعات و30 ساعة مع العلبة ومثالاً للشحن السريع تحت إعداداتها. تؤثر شدة الصوت والمكالمات ووظائف التطبيق والحرارة وعمر البطارية في المدة، لذلك قارن الأرقام تحت شروط اختبار متقاربة ولا تعتبرها جدولاً ثابتاً.</p></section>
+<p class="text-gray-700">تذكر ساوندكور حتى 10 ساعات للسماعات و30 ساعة مع العلبة ومثالاً للشحن السريع تحت إعداداتها. تؤثر شدة الصوت والمكالمات ووظائف التطبيق والحرارة وعمر البطارية في المدة، لذلك قارن الأرقام تحت شروط اختبار متقاربة ولا تعتبرها جدولاً ثابتاً.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">عزل سلبي داخلي</h2>
 <p class="text-gray-700">أطراف السيليكون تعمل عزلاً سلبياً من دون استهلاك طاقة ANC، لكن مقدار خفض الضوضاء يتغير حسب شكل الأذن وحجم الطرف وجودة الإحكام ولا يمثله رقم dB واحد لكل المستخدمين. جرّب المقاسات المرفقة وحافظ على مستوى صوت آمن وانتبه للطريق والإعلانات.</p></section>
 </div>

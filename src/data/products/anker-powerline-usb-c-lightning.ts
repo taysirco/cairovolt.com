@@ -23,12 +23,12 @@ export const anker_powerline_usb_c_lightning = {
         ],
         translations: {
             en: {
-                name: "Anker PowerLine III USB-C to Lightning (A8612H11) | Verify MFi | USB-PD",
+                name: "Anker PowerLine Select USB-C to Lightning (A8612H11) | Verify MFi | USB-PD",
                 shortDescription: "✅ Verify the MFi mark for model A8612H11 | ⚡ USB-C PD for compatible Lightning devices | 💪 Reinforced braided construction | 📱 CarPlay depends on the vehicle",
 
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerLine III USB-C to Lightning (A8612H11)</strong> connects a USB-C charger to compatible Lightning iPhones, iPads and accessories. Confirm the MFi mark, rated power, length and exact model on the supplied packaging. USB-PD speed depends on the charger, device, battery level and temperature. iPhone 15 and later use USB-C rather than Lightning. Check the current price, stock, package contents and applicable warranty before ordering.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerLine Select USB-C to Lightning (A8612H11)</strong> connects a USB-C charger to compatible Lightning iPhones, iPads and accessories. Confirm the MFi mark, rated power, length and exact model on the supplied packaging. USB-PD speed depends on the charger, device, battery level and temperature. iPhone 15 and later use USB-C rather than Lightning. Check the current price, stock, package contents and applicable warranty before ordering.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">Before You Buy:</h3>
@@ -72,7 +72,7 @@ export const anker_powerline_usb_c_lightning = {
 `,
                 features: ["✅ Verify MFi mark for A8612H11", "⚡ USB-C PD support", "💪 Reinforced braided construction", "📱 Lightning iPhone compatibility", "🚗 CarPlay depends on the vehicle", "🏆 Check current warranty terms", "🛡️ Bend rating is a manufacturer test condition", "🔎 Verify marks on the unit and manufacturer documentation"],
                 metaTitle: "Anker USB-C to Lightning Cable | Verify MFi | Egypt",
-                metaDesc: "Buy Anker PowerLine III USB-C to Lightning in Egypt. Verify MFi status for A8612H11, USB-C PD support, braided construction and current warranty terms.",
+                metaDesc: "Buy Anker PowerLine Select USB-C to Lightning in Egypt. Verify MFi status for A8612H11, USB-C PD support, braided construction and current warranty terms.",
                 faqs: [
                     { question: "Is this MFi certified?", answer: "The model is listed with MFi support; verify the mark and A8612H11 reference on the supplied package or current Anker documentation." },
                     { question: "What warranty applies?", answer: "Check the warranty term and covered defects shown for this SKU at purchase. The current written policy controls eligibility and service." },
@@ -83,12 +83,12 @@ export const anker_powerline_usb_c_lightning = {
                 ]
             },
             ar: {
-                name: "كابل انكر PowerLine III من USB-C إلى Lightning (A8612H11) | تحقق من MFi | USB-PD",
+                name: "كابل انكر PowerLine Select من USB-C إلى Lightning (A8612H11) | تحقق من MFi | USB-PD",
                 shortDescription: "✅ تحقق من علامة MFi للموديل A8612H11 | ⚡ USB-C PD لأجهزة Lightning المتوافقة | 💪 غلاف مضفر مدعم | 📱 توافق CarPlay يعتمد على السيارة",
 
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed"><strong>كابل انكر PowerLine III من USB-C إلى Lightning (A8612H11)</strong> يصل شاحن USB-C بأجهزة ايفون وايباد وملحقات Lightning المتوافقة. تحقق من علامة MFi والقدرة والطول ورقم الموديل على العبوة الموردة. سرعة USB-PD تعتمد على الشاحن والجهاز ونسبة البطارية والحرارة. ايفون 15 وما بعده يستخدم USB-C وليس Lightning. راجع السعر والمخزون ومحتويات العبوة وشروط الضمان الحالية قبل الطلب.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>كابل انكر PowerLine Select من USB-C إلى Lightning (A8612H11)</strong> يصل شاحن USB-C بأجهزة ايفون وايباد وملحقات Lightning المتوافقة. تحقق من علامة MFi والقدرة والطول ورقم الموديل على العبوة الموردة. سرعة USB-PD تعتمد على الشاحن والجهاز ونسبة البطارية والحرارة. ايفون 15 وما بعده يستخدم USB-C وليس Lightning. راجع السعر والمخزون ومحتويات العبوة وشروط الضمان الحالية قبل الطلب.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">قبل الشراء:</h3>
@@ -132,7 +132,7 @@ export const anker_powerline_usb_c_lightning = {
 `,
                 features: ["✅ تحقق من MFi للموديل A8612H11", "⚡ دعم USB-C PD", "💪 غلاف مضفر مدعم", "📱 لأجهزة ايفون Lightning المتوافقة", "🚗 دعم CarPlay يعتمد على السيارة", "🧾 راجع سياسة الضمان والاسترجاع", "🛡️ رقم الثني شرط اختبار من الشركة", "🔎 تحقق من العلامات على الوحدة ووثائق الشركة"],
                 metaTitle: "كابل انكر USB-C إلى Lightning | تحقق من MFi | مصر",
-                metaDesc: "اشتري كابل انكر PowerLine III USB-C إلى Lightning في مصر. تحقق من MFi للموديل A8612H11 ودعم USB-PD والغلاف المضفر وشروط الضمان الحالية.",
+                metaDesc: "اشتري كابل انكر PowerLine Select USB-C إلى Lightning في مصر. تحقق من MFi للموديل A8612H11 ودعم USB-PD والغلاف المضفر وشروط الضمان الحالية.",
                 faqs: [
                     { question: "هل الكابل يدعم MFi؟", answer: "الموديل مدرج بدعم MFi؛ تحقق من العلامة ورقم A8612H11 على العبوة أو وثائق انكر الحالية." },
                     { question: "ما الضمان المطبق؟", answer: "راجع مدة الضمان والعيوب المشمولة الظاهرة لهذا الموديل وقت الشراء؛ السياسة المكتوبة الحالية تحدد الأهلية والخدمة." },

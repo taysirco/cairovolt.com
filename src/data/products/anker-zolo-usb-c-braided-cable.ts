@@ -19,11 +19,11 @@ export const anker_zolo_usb_c_braided_cable = {
             { id: "img_4", url: "/products/anker/anker-zolo-usb-c-braided-cable/anker-zolo-usb-c-braided-cable-bend-lifespan-durability.webp", alt: "كابل انكر زولو المضفر مع رسم اختبار ثني معلن من الشركة — راجع الشروط وطريقة الاختبار", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/anker/anker-zolo-usb-c-braided-cable/anker-zolo-usb-c-braided-cable-usb-240w-8core-graphene-cutaway.webp", alt: "Anker Zolo A8060 USB-C cable internal conductor and E-marker diagram — كايرو فولت", order: 4, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_6", url: "/products/anker/anker-zolo-usb-c-braided-cable/anker-zolo-usb-c-braided-cable-dirt-repellent-braid-closeup.webp", alt: "كابل انكر زولو المضفر مقاوم للأوساخ ويحافظ على النعومة مقارنة بغيره — CairoVolt", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/anker/anker-zolo-usb-c-braided-cable/anker-zolo-usb-c-braided-cable-retail-box-front.webp", alt: "Anker Zolo USB-C to USB-C 140W 1.5m braided cable retail box front — كايرو فولت", order: 6, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_7", url: "/products/anker/anker-zolo-usb-c-braided-cable/anker-zolo-usb-c-braided-cable-retail-box-front.webp", alt: "Anker Zolo USB-C to USB-C 240W 1.5m braided cable retail box front — كايرو فولت", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
-                name: "Anker Zolo USB-C to USB-C Braided Cable (A8060) — 140W PD 3.1, 1.5m | 240W-Grade 8-Core Wire",
+                name: "Anker Zolo USB-C to USB-C Braided Cable (A8060) — 240W PD 3.1, 1.5m | 240W-Grade 8-Core Wire",
                 shortDescription: "⚡ Verify the listed USB-PD 3.1 rating for A8060 | 🧬 E-marker | 🔁 Braided construction | 📏 Listed 1.5m | 🛡️ Check exact compliance documentation",
 
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Anker Zolo USB-C to USB-C braided cable (A8060)</strong> is listed for USB-PD 3.1 charging up to the rating printed for this SKU, with an E-marker and a 1.5m braided jacket. Confirm the exact power, voltage/current table and data capability on the supplied package; do not infer a 240W certification from a wire-construction claim. Actual power depends on the charger, device and cable negotiation. Check the live price and warranty before ordering.</p></div>
@@ -33,7 +33,7 @@ export const anker_zolo_usb_c_braided_cable = {
 <div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">Rated Power and Cable Construction</h2><p class="text-gray-700">Conductor size, connector design and the E-marker all matter at higher USB-C power levels. Use the rating printed for A8060 rather than treating a generic 240W wire architecture as the product's certified output. For other lengths or ratings, compare the <a href="/en/anker/cables" class="text-blue-600 hover:underline">Anker USB-C cable range</a>.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">PD 3.1 and Device Compatibility</h2><p class="text-gray-700">A compatible <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">USB-C wall charger</a>, cable and device negotiate a shared USB-PD profile. A laptop may request a higher profile while a phone selects a lower one. The cable does not force power into a device, and actual charging time varies with battery state, temperature and system load.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">Braided Jacket and Safe Use</h2><p class="text-gray-700">The braided jacket and reinforced connectors are intended to reduce everyday wear. Avoid tight coils, pulling by the wire, liquids and hot surfaces. A cable does not regulate unstable mains power; the wall charger is responsible for AC conversion and must also be compliant and undamaged.</p></section></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">Compatibility Guide:</h3><ul class="list-disc list-inside text-gray-700"><li>💻 <strong>USB-C laptops:</strong> only the shared profile supported by charger, cable and laptop.</li><li>📱 <strong>Phones and tablets:</strong> the device selects its accepted rate.</li><li>📊 <strong>Data:</strong> confirm the printed data specification; charging power does not imply high-speed video or data.</li></ul></div>`,
                 features: [
-  "⚡ 140W PD 3.1 (28V/5A)",
+  "⚡ 240W PD 3.1 (48V/5A)",
   "🧬 240W-grade 8-core copper wire",
   "💎 Graphene conductive strip",
   "🔁 10,000+ bend lifespan",
@@ -43,8 +43,8 @@ export const anker_zolo_usb_c_braided_cable = {
   "🛡️ Verify compliance documentation for A8060",
   "🏆 Current Anker Warranty Terms"
 ],
-                metaTitle: "Anker Zolo 140W USB-C Cable ⚡ Braided PD 3.1 | Egypt",
-                metaDesc: "Buy the Anker Zolo 140W USB-C to USB-C braided cable in Egypt. PD 3.1, 240W-grade 8-core wire, 10,000+ bend life, 1.5m. current warranty and return policy, COD.",
+                metaTitle: "Anker Zolo 240W USB-C Cable ⚡ Braided PD 3.1 | Egypt",
+                metaDesc: "Buy the Anker Zolo 240W USB-C to USB-C braided cable in Egypt. PD 3.1, 240W-grade 8-core wire, 10,000+ bend life, 1.5m. current warranty and return policy, COD.",
                 faqs: [
                     { question: "What power is this A8060 cable rated for?", answer: "Use the maximum printed on the exact supplied SKU and current Anker documentation. Do not infer a 240W product certification from a conductor-design claim." },
                     { question: "What does the E-marker do?", answer: "It identifies cable capabilities during compatible USB-PD negotiation. The charger and device must support the same profile." },
@@ -54,7 +54,7 @@ export const anker_zolo_usb_c_braided_cable = {
                 ]
             },
             ar: {
-                name: "كابل انكر زولو USB-C إلى USB-C مضفر (A8060) — 140 واط PD 3.1، 1.5 متر | سلك 8 نوى بمعمار 240 واط",
+                name: "كابل انكر زولو USB-C إلى USB-C مضفر (A8060) — 240 واط PD 3.1، 1.5 متر | سلك 8 نوى بمعمار 240 واط",
                 shortDescription: "⚡ تحقق من تصنيف USB-PD 3.1 للموديل A8060 | 🧬 E-marker | 🔁 غلاف مضفر | 📏 طول مدرج 1.5 متر | 🛡️ راجع وثائق المطابقة",
 
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed"><strong>كابل انكر زولو USB-C إلى USB-C المضفر (A8060)</strong> مدرج لشحن USB-PD 3.1 حتى التصنيف المطبوع لهذه النسخة، مع E-marker وغلاف مضفر بطول 1.5 متر. تحقق من القدرة وجدول الجهد والتيار ونقل البيانات على العبوة؛ لا تستنتج اعتماد 240 واط من وصف بنية السلك. تعتمد القدرة على تفاوض الشاحن والجهاز والكابل. راجع السعر والضمان الحالي قبل الطلب.</p></div>
@@ -64,7 +64,7 @@ export const anker_zolo_usb_c_braided_cable = {
 <div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">القدرة المدرجة وبنية الكابل</h2><p class="text-gray-700">مقاس الموصلات وتصميم الأطراف وE-marker عوامل مهمة عند قدرات USB-C الأعلى. استخدم التصنيف المطبوع لـA8060 ولا تعامل وصف بنية سلك 240 واط كأنه اعتماد خرج للمنتج. للأطوال والتصنيفات الأخرى قارن <a href="/anker/cables" class="text-blue-600 hover:underline">كابلات انكر USB-C</a>.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">PD 3.1 وتوافق الأجهزة</h2><p class="text-gray-700">يتفاوض <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">شاحن الحائط USB-C</a> والكابل والجهاز المتوافقون على بروفايل مشترك. قد يطلب اللابتوب بروفايلاً أعلى ويختار الهاتف بروفايلاً أقل. لا يفرض الكابل قدرة على الجهاز، وتتغير المدة حسب البطارية والحرارة وحمل النظام.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">الغلاف المضفر والاستخدام السليم</h2><p class="text-gray-700">الغلاف المضفر والموصلات المدعمة مصممة لتقليل التآكل اليومي. تجنب اللف المحكم والسحب من السلك والسوائل والأسطح الساخنة. لا ينظم الكابل كهرباء الحائط؛ شاحن الحائط مسؤول عن تحويل AC ويجب أن يكون مطابقاً وسليماً.</p></section></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">دليل التوافق:</h3><ul class="list-disc list-inside text-gray-700"><li>💻 <strong>لابتوب USB-C:</strong> فقط البروفايل المشترك بين الشاحن والكابل واللابتوب.</li><li>📱 <strong>هواتف وتابلت:</strong> الجهاز يختار المعدل المقبول.</li><li>📊 <strong>البيانات:</strong> أكد مواصفة البيانات المطبوعة؛ قدرة الشحن لا تعني فيديو أو بيانات عالية السرعة.</li></ul></div>`,
                 features: [
-  "⚡ 140 واط PD 3.1 (28 فولت/5 أمبير)",
+  "⚡ 240 واط PD 3.1 (48 فولت/5 أمبير)",
   "🧬 سلك نحاس 8 نوى بمعمار 240 واط",
   "💎 شريحة جرافين موصلة",
   "🔁 عمر 10,000+ دورة ثني",
@@ -74,8 +74,8 @@ export const anker_zolo_usb_c_braided_cable = {
   "🛡️ تحقق من وثائق المطابقة للموديل A8060",
   "🏆 راجع شروط ضمان انكر الحالية"
 ],
-                metaTitle: "كابل انكر زولو 140 واط USB-C ⚡ مضفر PD 3.1 مصر",
-                metaDesc: "اشتري كابل انكر زولو 140 واط USB-C مضفر في مصر: PD 3.1، سلك 8 نوى بمعمار 240 واط، 10,000 دورة ثني، طول 1.5 متر. راجع سياسة الضمان والاسترجاع الحالية ودفع عند الاستلام.",
+                metaTitle: "كابل انكر زولو 240 واط USB-C ⚡ مضفر PD 3.1 مصر",
+                metaDesc: "اشتري كابل انكر زولو 240 واط USB-C مضفر في مصر: PD 3.1، سلك 8 نوى بمعمار 240 واط، 10,000 دورة ثني، طول 1.5 متر. راجع سياسة الضمان والاسترجاع الحالية ودفع عند الاستلام.",
                 faqs: [
                     { question: "ما القدرة المصنف لها كابل A8060؟", answer: "اعتمد على الحد المطبوع على النسخة الموردة ووثائق انكر الحالية. لا تستنتج اعتماد منتج 240 واط من وصف تصميم الموصلات." },
                     { question: "ماذا يفعل E-marker؟", answer: "يعرّف قدرات الكابل أثناء تفاوض USB-PD المتوافق. يجب أن يدعم الشاحن والجهاز البروفايل نفسه." },
@@ -85,7 +85,7 @@ export const anker_zolo_usb_c_braided_cable = {
                 ]
             }
         },
-        meta: { keywords: "كابل انكر زولو, anker zolo cable, anker zolo A8060, كابل USB-C 140 واط, anker 140w usb-c cable, كابل شحن سريع انكر, anker braided cable egypt, كابل PD 3.1, anker usb-c to usb-c 240w, سعر كابل انكر زولو, كابل انكر مضفر, anker zolo braided 1.5m, كابل لابتوب ماك بوك, anker cable cod egypt, CairoVolt anker cable, وصلة انكر زولو, anker graphene cable, كابل شحن ماك بوك 140 واط, anker zolo egypt price", mainTerm: "كابل انكر زولو 140 واط" },
+        meta: { keywords: "كابل انكر زولو, anker zolo cable, anker zolo A8060, كابل USB-C 240 واط, anker 240w usb-c cable, كابل شحن سريع انكر, anker braided cable egypt, كابل PD 3.1, anker usb-c to usb-c 240w, سعر كابل انكر زولو, كابل انكر مضفر, anker zolo braided 1.5m, كابل لابتوب ماك بوك, anker cable cod egypt, CairoVolt anker cable, وصلة انكر زولو, anker graphene cable, كابل شحن ماك بوك 240 واط, anker zolo egypt price", mainTerm: "كابل انكر زولو 240 واط" },
         expertOpinion: { en: "A8060 may suit a compatible high-power USB-C setup when its printed rating, E-marker statement and data capability meet the charger and device requirements. Keep the cable uncoiled during high-load use, inspect it regularly and stop if it becomes damaged or unusually hot.", ar: "قد يناسب A8060 منظومة USB-C مرتفعة القدرة عندما يطابق تصنيفه المطبوع وبيان E-marker وقدرة البيانات متطلبات الشاحن والجهاز. افرد الكابل أثناء الأحمال المرتفعة وافحصه دورياً وتوقف عند التلف أو السخونة غير المعتادة." },
         relatedProducts: [
         "anker-prime-fusion-a1339-9600mah-65w",

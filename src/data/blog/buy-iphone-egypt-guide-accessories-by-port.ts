@@ -63,7 +63,7 @@ export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
 <p>هناك فروق جوهرية في كفاءة الشحن وتصميم الدوائر الكهربائية بين المنفذين:</p>
 <ul>
     <li>⚡ <strong>محدودية تيار منفذ Lightning:</strong> صُمم منفذ الـ Lightning فيزيائياً لتحمل تيار كهربائي لا يتعدى 2.4 أمبير، وهو ما يقيد سرعة الشحن السريع في هواتف ايفون 13 و 14 برو ماكس عند قدرة أقصاها **27 واط** فقط، و 20 واط في الطرازات العادية.</li>
-    <li>⚡ <strong>مرونة تيار منفذ USB-C:</strong> يمكن لمنفذ الـ USB-C الجديد تمرير تيارات كهربائية تتخطى 3 أمبير وتصل لـ 5 أمبير بأمان، وهو ما يتيح لسلسلة ايفون 16 شحناً أسرع بقدرات تصل لـ **30 واط إلى 38 واط** فعلية عند استخدام شواحن تدعم بروتوكول USB-PD PPS المتطور، مما يقلل بشكل ملموس وقت الشحن الكلي.</li>
+    <li>⚡ <strong>مرونة تيار منفذ USB-C:</strong> يمكن لمنفذ الـ USB-C الجديد تمرير تيارات كهربائية تتخطى 3 أمبير وتصل لـ 5 أمبير بأمان، وهو ما يتيح لسلسلة ايفون 16 شحناً أسرع بقدرات تصل لـ **30 واط إلى 38 واط** فعلية عند استخدام شواحن USB-PD عالية القدرة متوافقة، مما يقلل بشكل ملموس وقت الشحن الكلي.</li>
 </ul>
 
 <h3>بروتوكول تفاوض الطاقة USB-PD ودور خيوط التكوين CC</h3>
@@ -187,7 +187,7 @@ export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
 <p>The physical connector change altered the electrical charging characteristics of the iPhone lineup:</p>
 <ul>
     <li>⚡ <strong>Lightning Current Caps:</strong> The physical design of the Lightning connector is limited to a maximum current of 2.4A. This restricts fast charging on the iPhone 13 and 14 Pro Max to a maximum of **27W**, and standard models to 20W.</li>
-    <li>⚡ <strong>USB-C Current Flexibility:</strong> The USB-C connector can carry currents exceeding 3A to 5A safely. This allows the iPhone 16 series to draw up to **30W to 38W** when paired with compatible USB-PD PPS adapters, reducing total charging times compared to older models.</li>
+    <li>⚡ <strong>USB-C Current Flexibility:</strong> The USB-C connector can carry currents exceeding 3A to 5A safely. This allows the iPhone 16 series to draw up to **30W to 38W** when paired with compatible high-wattage USB-PD adapters, reducing total charging times compared to older models.</li>
 </ul>
 
 <h3>USB-PD Negotiation Protocol and Configuration Channel (CC) Lines</h3>

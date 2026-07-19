@@ -17,23 +17,23 @@ export const joyroom_power_bank_10000 = {
             { id: "img_1", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-1.webp", alt: "باور بانك جوي روم 10000 في مصر - موديل JR-T012 - كايرو فولت", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-2.webp", alt: "شاحن متنقل جوي روم 10000 مللي أمبير - توصيل القاهرة - راجع سياسة الضمان والاسترجاع الحالية - JR-T012 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-3.webp", alt: "باور بانك جوي روم نحيف 10000 - السعر الحالي في مصر فبراير - كايرو فولت", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-4.webp", alt: "Joyroom JR-T012 10000mAh power bank with Quick Charge 3.0 - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-4.webp", alt: "Joyroom JR-T012 10000mAh power bank with dual USB-A output - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom 10000mAh slim power bank model JR-T012 - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_6", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك جوي روم 10000 بشاشة رقمية ومخرجي USB - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
-                name: "Joyroom 10000mAh Slim Power Bank | QC 3.0 | LED Display",
-                shortDescription: "🔋 Manufacturer-listed 10,000mAh (37Wh) | ⚡ Quick Charge 3.0 | 📊 Estimated LED Battery Display | 📏 Listed 14mm Thickness | 🔌 Dual USB Output",
+                name: "Joyroom 10000mAh Slim Power Bank | Dual USB | LED Display",
+                shortDescription: "🔋 Manufacturer-listed 10,000mAh (37Wh) | ⚡ Standard 5V/2.1A Output | 📊 Estimated LED Battery Display | 📏 Listed 16.2mm Thickness | 🔌 Dual USB Output",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom JR-T012 10000mAh Slim Power Bank</strong> is listed with a 37Wh cell rating, Quick Charge 3.0 output, two USB-A ports and a digital battery indicator. The display is an estimate and delivered energy is lower than the internal cell rating after conversion. Verify the printed input/output table, dimensions and package contents, then check the current price, stock and warranty terms before ordering.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom JR-T012 10000mAh Slim Power Bank</strong> is listed with a 37Wh cell rating, a standard 5V/2.1A USB-A output, two USB-A ports and a digital battery indicator. The display is an estimate and delivered energy is lower than the internal cell rating after conversion. Verify the printed input/output table, dimensions and package contents, then check the current price, stock and warranty terms before ordering.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>10,000mAh / 37Wh cell rating:</strong> usable USB energy and charge count vary after conversion.</li>
-        <li>⚡ <strong>Quick Charge 3.0:</strong> requires a compatible device, cable and output profile.</li>
+        <li>⚡ <strong>Standard 5V/2.1A output:</strong> no fast-charge protocol; total is shared across the two USB-A ports.</li>
         <li>📊 <strong>LED Display:</strong> provides an estimated remaining percentage.</li>
-        <li>📏 <strong>Listed 14mm thickness:</strong> confirm the dimensions and pocket fit on the supplied model.</li>
+        <li>📏 <strong>Listed 16.2mm thickness:</strong> confirm the dimensions and pocket fit on the supplied model.</li>
     <li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul>
 </div>
 
@@ -41,13 +41,13 @@ export const joyroom_power_bank_10000 = {
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Quick Charge, Display and Dual Outputs</h2>
-        <p class="text-gray-700">JR-T012 combines <strong>Quick Charge 3.0</strong>, a <strong>digital LED indicator</strong> and <strong>two USB outputs</strong>. A connected device accepts only a supported profile, and power may be shared when two devices charge. Treat the displayed percentage as an estimate and compare the live price and port table with alternatives.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Standard Output, Display and Dual USB Ports</h2>
+        <p class="text-gray-700">JR-T012 combines a <strong>standard 5V/2.1A USB-A output</strong>, a <strong>digital LED indicator</strong> and <strong>two USB outputs</strong>. It does not negotiate a fast-charge profile, and power may be shared when two devices charge. Treat the displayed percentage as an estimate and compare the live price and port table with alternatives.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Listed 14mm Slim Profile</h2>
-        <p class="text-gray-700">The listing states a thickness of <strong>14mm</strong>; confirm that dimension and the exact model on the supplied label. A compact body can fit common pockets and small bags, but fit varies. If the package includes a Golden Code or other manufacturer verification label, follow its printed verification process rather than treating the code name alone as a guarantee of authenticity.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Listed 16.2mm Slim Profile</h2>
+        <p class="text-gray-700">The listing states a thickness of about <strong>16.2mm</strong> (roughly 142.8 × 70.39 × 16.21mm); confirm that dimension and the exact model on the supplied label. A compact body can fit common pockets and small bags, but fit varies. If the package includes a Golden Code or other manufacturer verification label, follow its printed verification process rather than treating the code name alone as a guarantee of authenticity.</p>
     </section>
 
     <section>
@@ -68,19 +68,19 @@ export const joyroom_power_bank_10000 = {
 `,
                 features: [
                     "🔋 Manufacturer-listed 10,000mAh (37Wh)",
-                    "⚡ Quick Charge 3.0 for Compatible Devices",
+                    "⚡ Standard 5V/2.1A USB-A Output",
                     "📊 LED Digital Battery Display",
-                    "📏 Ultra-Slim 14mm Design",
+                    "📏 Listed 16.2mm Slim Profile",
                     "🔌 Dual USB Output",
                     "✈️ Check Current Airline Rules (37Wh)",
                     "✅ Use Official Golden Code Process If Supplied",
                     "🏆 current warranty and return policy", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
-                metaTitle: "Joyroom 10000mAh Power Bank ⚡ QC 3.0 + LED Display | COD",
-                metaDesc: "Buy Joyroom JR-T012 10000mAh power bank in Egypt with QC 3.0, digital LED display, listed 14mm profile and dual USB output. Check current terms.",
+                metaTitle: "Joyroom 10000mAh Power Bank ⚡ Dual USB + LED Display | COD",
+                metaDesc: "Buy Joyroom JR-T012 10000mAh power bank in Egypt with standard 5V/2.1A output, digital LED display, listed 16.2mm profile and dual USB output. Check current terms.",
                 faqs: [
                     { question: "What is the price of Joyroom 10000mAh in Egypt?", answer: "The live price is displayed on this page. Review current stock, delivery options and the written warranty and return policy before ordering." },
                     { question: "How many times does Joyroom 10000 charge a phone?", answer: "There is no fixed count. Compare usable watt-hours with the phone battery and allow for conversion loss, cable loss and phone use while charging." },
-                    { question: "Does Joyroom 10000 support fast charging?", answer: "It lists Quick Charge 3.0 on compatible USB-A output. Actual speed depends on the phone, cable, accepted profile, temperature and battery level." },
+                    { question: "Does Joyroom 10000 support fast charging?", answer: "No. This model uses a standard 5V/2.1A USB-A output and does not list a Quick Charge or other fast-charge profile. Total output is limited to about 10.5W, and actual speed depends on the phone, cable, temperature and battery level." },
                     { question: "What makes Joyroom 10000 useful?", answer: "It combines a listed 10,000mAh cell rating, digital indicator, slim profile and two USB outputs. Compare the live price and exact port table with your needs." },
                     { question: "Can Joyroom 10000 power a Bluetooth speaker?", answer: "Only if the speaker accepts USB power within the power bank port's listed 5V output. Check the speaker input requirement and use its recommended cable." },
                     { question: "What's the difference between Joyroom 10000 and Joyroom 20000?", answer: "The 20,000mAh class has a higher cell rating but is typically larger and heavier. Compare the exact Wh, dimensions, weight, ports and current price; neither capacity promises a fixed charge count." },
@@ -90,16 +90,16 @@ export const joyroom_power_bank_10000 = {
             },
             ar: {
                 name: "باور بانك جوي روم 10000 مللي | الفئة الاقتصادية (منقذ الطلبة)",
-                shortDescription: "🔋 سعة خلايا معلنة 10,000 مللي أمبير (37Wh) | ⚡ Quick Charge 3.0 | 📊 شاشة نسبة تقديرية | 📏 سمك معلن 14مم | 🔌 مخرجا USB",
+                shortDescription: "🔋 سعة خلايا معلنة 10,000 مللي أمبير (37Wh) | ⚡ خرج قياسي 5V/2.1A | 📊 شاشة نسبة تقديرية | 📏 سمك معلن 16.2مم | 🔌 مخرجا USB",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">باور بانك <strong>جوي روم JR-T012 سعة 10000mAh</strong> مدرج بتصنيف خلايا 37Wh وخرج Quick Charge 3.0 ومخرجي USB-A وشاشة رقمية للبطارية. الشاشة تقديرية والطاقة المسلمة أقل من تصنيف الخلايا بعد التحويل. تحقق من جدول الإدخال والإخراج والأبعاد ومحتويات العبوة، ثم راجع السعر والمخزون وشروط الضمان قبل الطلب.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">باور بانك <strong>جوي روم JR-T012 سعة 10000mAh</strong> مدرج بتصنيف خلايا 37Wh وخرج قياسي 5V/2.1A ومخرجي USB-A وشاشة رقمية للبطارية. الشاشة تقديرية والطاقة المسلمة أقل من تصنيف الخلايا بعد التحويل. تحقق من جدول الإدخال والإخراج والأبعاد ومحتويات العبوة، ثم راجع السعر والمخزون وشروط الضمان قبل الطلب.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>تصنيف خلايا 10,000 مللي أمبير / 37Wh:</strong> الطاقة الفعلية وعدد الشحنات يتغيران بعد التحويل.</li>
-        <li>⚡ <strong>Quick Charge 3.0:</strong> يحتاج جهازاً وكابلاً وبروفايلاً متوافقين.</li>
+        <li>⚡ <strong>خرج قياسي 5V/2.1A:</strong> بدون بروتوكول شحن سريع، والقدرة موزعة على مخرجي USB (حوالي 10.5 وات إجمالاً).</li>
         <li>📊 <strong>شاشة LED:</strong> تعرض تقديراً للنسبة المتبقية.</li>
-        <li>📏 <strong>سمك معلن 14مم:</strong> تحقق من الأبعاد وملاءمة الجيب للموديل المورّد.</li>
+        <li>📏 <strong>سمك معلن 16.2مم:</strong> تحقق من الأبعاد وملاءمة الجيب للموديل المورّد.</li>
     </ul>
 </div>
 
@@ -107,12 +107,12 @@ export const joyroom_power_bank_10000 = {
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Quick Charge وشاشة ومخرجان</h2>
-        <p class="text-gray-700">يجمع JR-T012 بين <strong>Quick Charge 3.0</strong> و<strong>مؤشر LED رقمي</strong> و<strong>مخرجي USB</strong>. يقبل الجهاز المتصل البروفايل الذي يدعمه فقط، وقد تتوزع القدرة عند شحن جهازين. تعامل مع النسبة المعروضة كتقدير وقارن السعر الحالي وجدول المنافذ بالبدائل.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">خرج قياسي وشاشة ومخرجان</h2>
+        <p class="text-gray-700">يجمع JR-T012 بين <strong>خرج قياسي 5V/2.1A</strong> و<strong>مؤشر LED رقمي</strong> و<strong>مخرجي USB</strong>. لا يتفاوض على بروتوكول شحن سريع، وقد تتوزع القدرة عند شحن جهازين. تعامل مع النسبة المعروضة كتقدير وقارن السعر الحالي وجدول المنافذ بالبدائل.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">سمك مدرج 14مم</h2>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">سمك مدرج 16.2مم</h2>
         <p class="text-gray-700">راجع السمك والأبعاد والوزن المعلنة للموديل على الوحدة قبل اختيار حجم الشنطة أو الجيب. إذا توفر <strong>Golden Code</strong> فاستخدم فقط عملية التحقق الرسمية المطبوعة؛ الكود وحده لا يضمن كل جوانب المصدر أو الضمان.</p>
     </section>
 
@@ -134,19 +134,19 @@ export const joyroom_power_bank_10000 = {
 `,
                 features: [
                     "🔋 سعة خلايا معلنة 10,000 مللي أمبير (37Wh)",
-                    "⚡ Quick Charge 3.0 للأجهزة المتوافقة",
+                    "⚡ خرج قياسي 5V/2.1A عبر USB-A",
                     "📊 شاشة LED رقمية",
-                    "📏 نحيف 14مم",
+                    "📏 سمك معلن 16.2مم",
                     "🔌 مخرجين USB",
                     "✈️ تحقق من قواعد الطيران الحالية (37Wh)",
                     "✅ استخدم عملية Golden Code الرسمية إذا كانت مطبوعة",
                     "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
-                metaTitle: "باور بانك جوي روم 10000 | QC 3.0 وشاشة LED | مصر",
-                metaDesc: "اشتري باور بانك جوي روم JR-T012 سعة 10000 في مصر مع QC 3.0 وشاشة LED وسمك معلن 14مم ومخرجي USB. راجع السعر والمخزون والضمان الحالي.",
+                metaTitle: "باور بانك جوي روم 10000 | مخرجا USB وشاشة LED | مصر",
+                metaDesc: "اشتري باور بانك جوي روم JR-T012 سعة 10000 في مصر مع خرج قياسي 5V/2.1A وشاشة LED وسمك معلن 16.2مم ومخرجي USB. راجع السعر والمخزون والضمان الحالي.",
                 faqs: [
                     { question: "كم سعر باور بانك جوي روم 10000 في مصر؟", answer: "اعتمد السعر الحالي الظاهر في الصفحة، وراجع المخزون والتوصيل وشروط الضمان والاسترجاع قبل الطلب." },
                     { question: "كم مرة يشحن جوي روم 10000 الهاتف؟", answer: "لا يوجد عدد ثابت. قارن الطاقة القابلة للاستخدام ببطارية الهاتف واحتسب فقد التحويل والكابل واستخدام الهاتف أثناء الشحن." },
-                    { question: "هل باور بانك جوي روم 10000 يدعم الشحن السريع؟", answer: "يدرج Quick Charge 3.0 عبر خرج USB-A المتوافق. تتغير السرعة حسب الهاتف والكابل والبروفايل والحرارة ونسبة البطارية." },
+                    { question: "هل باور بانك جوي روم 10000 يدعم الشحن السريع؟", answer: "لا. هذا الموديل يستخدم خرج USB-A قياسي 5V/2.1A ولا يدرج بروفايل Quick Charge أو أي شحن سريع. الخرج الإجمالي محدود بحوالي 10.5 وات، وتتغير السرعة حسب الهاتف والكابل والحرارة ونسبة البطارية." },
                     { question: "ما أهم مميزات باور بانك جوي روم 10000؟", answer: "يجمع تصنيف خلايا 10,000 مللي أمبير وشاشة رقمية وتصميماً نحيفاً ومخرجي USB. قارن السعر الحالي وجدول المنافذ باحتياجك." },
                     { question: "جوي روم 10000 ينفع كمصدر طاقة لسماعة بلوتوث؟", answer: "ينفع فقط لو السماعة تقبل طاقة USB ضمن خرج 5V المعلن للمنفذ. راجع متطلبات دخل السماعة واستخدم الكابل الموصى به." },
                     { question: "إيه الفرق بين جوي روم 10000 و 20000؟", answer: "فئة 20,000 مللي أمبير أعلى في تصنيف الخلايا لكنها عادة أكبر وأثقل. قارن Wh والأبعاد والوزن والمنافذ والسعر الحالي؛ السعة وحدها لا تضمن عدداً ثابتاً من الشحنات." },

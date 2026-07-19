@@ -23,13 +23,13 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
     coverImage: '/images/blog/posts/samsung-galaxy-a55-a75-charger-affordable-alternatives.webp',
     translations: {
         ar: {
-            title: 'شاحن Samsung Galaxy A55 و A75 — أرخص الأصلي وأذكى البدائل المتاحة',
-            metaTitle: 'أفضل شاحن سامسونج A55 و A75 — أصلي وبديل بأقل سعر | كايرو فولت',
-            metaDescription: 'دليل شامل لأفضل شاحن سامسونج جالاكسي A55 و A75 في مصر 2026 — مقارنة بين الشاحن الأصلي وبدائل Anker و Joyroom بأقل من نص السعر وبنفس الأداء. تابع التفاصيل بمصر.',
-            keywords: 'شاحن سامسونج A55, شاحن جالاكسي A75, بديل شاحن سامسونج, أفضل شاحن samsung galaxy a55, شاحن 25 واط سامسونج, شاحن سريع A55 مصر, samsung a55 charger egypt, شاحن أصلي سامسونج ولا بديل',
-            excerpt: 'دليل عملي لاختيار أفضل شاحن لسامسونج A55 و A75 — الأصلي ولا البديل؟ مقارنة بالأرقام مع توصيات بأقل من نص السعر.',
-            quickAnswer: 'سامسونج Galaxy A55 بيدعم شحن سريع 25W وسامسونج A75 بيدعم 25W كمان (مع توافق محدود مع 45W). الشاحن الأصلي سامسونج 25W بـ 650-800 جنيه. البديل الأذكى: Anker PowerPort 25W بـ 400 جنيه أو Joyroom 25W بـ 300 جنيه — نفس السرعة بالظبط عشان كلهم PD+PPS. وفّر 250-500 جنيه بدون أي تنازل.',
-            content: `<p>مبروك على الموبايل الجديد — Samsung Galaxy A55 أو A75. الاختيار الذكي فعلاً: أداء فلاجشيب تقريباً بسعر الفئة المتوسطة. فتحت العلبة ولقيت الموبايل والكابل و... مفيش شاحن. أيوا، حتى سامسونج الفئة المتوسطة بقت من غير شاحن في العلبة. فبتروح على أمازون أو جوميا وتلاقي "شاحن سامسونج أصلي 25W" بـ 650-800 جنيه. وجنبه شاحن Anker 25W بـ 400 جنيه. وجنبه شاحن صيني مجهول بـ 80 جنيه. مين فيهم؟</p>
+            title: 'شاحن Samsung Galaxy A55 و A73 — أرخص الأصلي وأذكى البدائل المتاحة',
+            metaTitle: 'أفضل شاحن سامسونج A55 و A73 — أصلي وبديل بأقل سعر | كايرو فولت',
+            metaDescription: 'دليل شامل لأفضل شاحن سامسونج جالاكسي A55 و A73 في مصر 2026 — مقارنة بين الشاحن الأصلي وبدائل Anker و Joyroom بأقل من نص السعر وبنفس الأداء. تابع التفاصيل بمصر.',
+            keywords: 'شاحن سامسونج A55, شاحن جالاكسي A73, بديل شاحن سامسونج, أفضل شاحن samsung galaxy a55, شاحن 25 واط سامسونج, شاحن سريع A55 مصر, samsung a55 charger egypt, شاحن أصلي سامسونج ولا بديل',
+            excerpt: 'دليل عملي لاختيار أفضل شاحن لسامسونج A55 و A73 — الأصلي ولا البديل؟ مقارنة بالأرقام مع توصيات بأقل من نص السعر.',
+            quickAnswer: 'سامسونج Galaxy A55 بيدعم شحن سريع 25W وسامسونج A73 بيدعم 25W كمان. الشاحن الأصلي سامسونج 25W بـ 650-800 جنيه. البديل الأذكى: Anker PowerPort 25W بـ 400 جنيه أو Joyroom 25W بـ 300 جنيه — نفس السرعة بالظبط عشان كلهم PD+PPS. وفّر 250-500 جنيه بدون أي تنازل.',
+            content: `<p>مبروك على الموبايل الجديد — Samsung Galaxy A55 أو A73. الاختيار الذكي فعلاً: أداء فلاجشيب تقريباً بسعر الفئة المتوسطة. فتحت العلبة ولقيت الموبايل والكابل و... مفيش شاحن. أيوا، حتى سامسونج الفئة المتوسطة بقت من غير شاحن في العلبة. فبتروح على أمازون أو جوميا وتلاقي "شاحن سامسونج أصلي 25W" بـ 650-800 جنيه. وجنبه شاحن Anker 25W بـ 400 جنيه. وجنبه شاحن صيني مجهول بـ 80 جنيه. مين فيهم؟</p>
 
 <p>الإجابة القصيرة: الشاحن الأصلي مش أحسن من البديل — هو بس أغلى. ليه؟ عشان تقنية الشحن السريع USB-C PD+PPS هي <strong>بروتوكول عالمي موحّد</strong> — مش ملك سامسونج. أي شاحن بيدعم PD+PPS بقدرة 25W هيشحن موبايلك بنفس السرعة بالظبط. الفرق الوحيد: اللوجو على الشاحن. وإنت مش بتدفع 250-400 جنيه زيادة عشان لوجو.</p>
 
@@ -37,11 +37,11 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> سامسونج Galaxy A55 بيدعم شحن سريع 25W وسامسونج A75 بيدعم 25W كمان. الشاحن الأصلي سامسونج 25W بـ 650-800 جنيه. البديل الأذكى: Anker PowerPort 25W بـ 400 جنيه أو Joyroom 25W بـ 300 جنيه — نفس السرعة بالظبط عشان كلهم PD+PPS. وفّر 250-500 جنيه بدون أي تنازل.
+        <strong>💡 الإجابة السريعة:</strong> سامسونج Galaxy A55 بيدعم شحن سريع 25W وسامسونج A73 بيدعم 25W كمان. الشاحن الأصلي سامسونج 25W بـ 650-800 جنيه. البديل الأذكى: Anker PowerPort 25W بـ 400 جنيه أو Joyroom 25W بـ 300 جنيه — نفس السرعة بالظبط عشان كلهم PD+PPS. وفّر 250-500 جنيه بدون أي تنازل.
     </p>
 </div>
 
-<h2>مواصفات الشحن الرسمية — Galaxy A55 و A75</h2>
+<h2>مواصفات الشحن الرسمية — Galaxy A55 و A73</h2>
 
 <p>قبل ما نقارن الشواحن، لازم نفهم إيه اللي الموبايل نفسه بيقبله:</p>
 
@@ -49,7 +49,7 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المواصفة</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Galaxy A55</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Galaxy A75</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Galaxy A73</th>
     </tr></thead>
     <tbody>
     <tr>
@@ -198,7 +198,7 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
 
 <h3>السيناريو 2: أفضل توازن جودة/سعر (350-500 جنيه)</h3>
 
-<p><a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">انكر PowerPort 25W</a> بـ 400 جنيه — GaN II يعني حرارة أقل بـ 15% وحجم أصغر بـ 30% من أي شاحن 25W تاني. PD+PPS كامل، ضمان 18 شهر. الشاحن الأصغر في فئته — حرفياً أصغر من شاحن Apple 5W القديم. <strong>توصية كايرو فولت الأولى لـ Galaxy A55 و A75.</strong></p>
+<p><a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">انكر PowerPort 25W</a> بـ 400 جنيه — GaN II يعني حرارة أقل بـ 15% وحجم أصغر بـ 30% من أي شاحن 25W تاني. PD+PPS كامل، ضمان 18 شهر. الشاحن الأصغر في فئته — حرفياً أصغر من شاحن Apple 5W القديم. <strong>توصية كايرو فولت الأولى لـ Galaxy A55 و A73.</strong></p>
 
 <h3>السيناريو 3: عندك أجهزة تانية غير الموبايل</h3>
 
@@ -215,7 +215,7 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
     <li style="margin-bottom:12px;">🔌 <strong>الخيار المتين:</strong> <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">انكر PowerLine USB-C to USB-C</a> بـ 180 جنيه — 60W، ضمان 18 شهر، 25,000 دورة ثني.</li>
 </ul>
 
-<h2>أسئلة شائعة خاصة بـ A55 و A75</h2>
+<h2>أسئلة شائعة خاصة بـ A55 و A73</h2>
 
 <h3>هل أقدر أستخدم شاحن 45W مع Galaxy A55؟</h3>
 
@@ -269,7 +269,7 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        شواحن Anker و Joyroom المتوافقة مع Galaxy A55 و A75 <strong>أصلية بضمان 18 شهر</strong> + توصيل لكل المحافظات 24-72 ساعة. مش متأكد أنهي شاحن يناسب موبايلك؟ راسلنا على واتساب وهنساعدك.
+        شواحن Anker و Joyroom المتوافقة مع Galaxy A55 و A73 <strong>أصلية بضمان 18 شهر</strong> + توصيل لكل المحافظات 24-72 ساعة. مش متأكد أنهي شاحن يناسب موبايلك؟ راسلنا على واتساب وهنساعدك.
     </p>
 </div>`,
             faq: [
@@ -292,13 +292,13 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
             ],
         },
         en: {
-            title: 'Samsung Galaxy A55 & A75 Charger — Cheapest Original and Smartest Alternatives',
-            metaTitle: 'Best Samsung A55 & A75 Charger — Original vs Alternatives | CairoVolt',
-            metaDescription: 'Complete guide to the best Samsung Galaxy A55 and A75 charger in Egypt 2026 — comparing the original charger with Anker and Joyroom alternatives at half the ...',
-            keywords: 'samsung a55 charger egypt, galaxy a75 charger, samsung charger alternative, best charger samsung galaxy a55, 25w charger samsung, super fast charging a55, samsung a55 charger original vs alternative, pps charger samsung egypt',
-            excerpt: 'A practical guide to choosing the best charger for Samsung A55 and A75 — original or alternative? Comparison with real numbers, with picks at half the price.',
-            quickAnswer: 'Samsung Galaxy A55 supports 25W fast charging and Galaxy A75 also supports 25W. The original Samsung 25W charger costs 650-800 EGP. The smarter alternative: Anker PowerPort 25W at 400 EGP or Joyroom 25W at 300 EGP — identical speed because they all use PD+PPS. Save 250-500 EGP with zero compromise.',
-            content: `<p>Congratulations on the new phone — Samsung Galaxy A55 or A75. A genuinely smart choice: near-flagship performance at a mid-range price. You open the box and find the phone, a cable, and... no charger. Yes, even Samsung's mid-range phones now ship without a charger. So you go on Amazon or Jumia and find "Samsung Original 25W Charger" at 650-800 EGP. Next to it, an Anker 25W charger at 400 EGP. And next to that, an unknown Chinese charger at 80 EGP. Which one?</p>
+            title: 'Samsung Galaxy A55 & A73 Charger — Cheapest Original and Smartest Alternatives',
+            metaTitle: 'Best Samsung A55 & A73 Charger — Original vs Alternatives | CairoVolt',
+            metaDescription: 'Complete guide to the best Samsung Galaxy A55 and A73 charger in Egypt 2026 — comparing the original charger with Anker and Joyroom alternatives at half the ...',
+            keywords: 'samsung a55 charger egypt, galaxy a73 charger, samsung charger alternative, best charger samsung galaxy a55, 25w charger samsung, super fast charging a55, samsung a55 charger original vs alternative, pps charger samsung egypt',
+            excerpt: 'A practical guide to choosing the best charger for Samsung A55 and A73 — original or alternative? Comparison with real numbers, with picks at half the price.',
+            quickAnswer: 'Samsung Galaxy A55 supports 25W fast charging and Galaxy A73 also supports 25W. The original Samsung 25W charger costs 650-800 EGP. The smarter alternative: Anker PowerPort 25W at 400 EGP or Joyroom 25W at 300 EGP — identical speed because they all use PD+PPS. Save 250-500 EGP with zero compromise.',
+            content: `<p>Congratulations on the new phone — Samsung Galaxy A55 or A73. A genuinely smart choice: near-flagship performance at a mid-range price. You open the box and find the phone, a cable, and... no charger. Yes, even Samsung's mid-range phones now ship without a charger. So you go on Amazon or Jumia and find "Samsung Original 25W Charger" at 650-800 EGP. Next to it, an Anker 25W charger at 400 EGP. And next to that, an unknown Chinese charger at 80 EGP. Which one?</p>
 
 <p>The short answer: the original charger isn't better than the alternative — it's just more expensive. Why? Because USB-C PD+PPS fast charging technology is a <strong>universal open standard</strong> — not owned by Samsung. Any charger that supports PD+PPS at 25W will charge your phone at exactly the same speed. The only difference: the logo on the charger. And you're not paying 250-400 EGP extra for a logo.</p>
 
@@ -306,11 +306,11 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Samsung Galaxy A55 supports 25W fast charging and Galaxy A75 also supports 25W. The original Samsung 25W charger costs 650-800 EGP. The smarter alternative: Anker PowerPort 25W at 400 EGP or Joyroom 25W at 300 EGP — identical speed because they all use PD+PPS. Save 250-500 EGP with zero compromise.
+        <strong>💡 Quick Answer:</strong> Samsung Galaxy A55 supports 25W fast charging and Galaxy A73 also supports 25W. The original Samsung 25W charger costs 650-800 EGP. The smarter alternative: Anker PowerPort 25W at 400 EGP or Joyroom 25W at 300 EGP — identical speed because they all use PD+PPS. Save 250-500 EGP with zero compromise.
     </p>
 </div>
 
-<h2>Official Charging Specs — Galaxy A55 and A75</h2>
+<h2>Official Charging Specs — Galaxy A55 and A73</h2>
 
 <p>Before comparing chargers, we need to understand what the phone itself accepts:</p>
 
@@ -318,7 +318,7 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Specification</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Galaxy A55</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Galaxy A75</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Galaxy A73</th>
     </tr></thead>
     <tbody>
     <tr>
@@ -467,7 +467,7 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
 
 <h3>Scenario 2: Best Quality/Price Balance (350-500 EGP)</h3>
 
-<p><a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W</a> at 400 EGP — GaN II means 15% less heat and 30% smaller than any other 25W charger. Full PD+PPS, 18-month warranty. The smallest charger in its class — literally smaller than Apple's old 5W charger. <strong>CairoVolt's #1 recommendation for Galaxy A55 and A75.</strong></p>
+<p><a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W</a> at 400 EGP — GaN II means 15% less heat and 30% smaller than any other 25W charger. Full PD+PPS, 18-month warranty. The smallest charger in its class — literally smaller than Apple's old 5W charger. <strong>CairoVolt's #1 recommendation for Galaxy A55 and A73.</strong></p>
 
 <h3>Scenario 3: You Have Other Devices Besides Your Phone</h3>
 
@@ -484,7 +484,7 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
     <li style="margin-bottom:12px;">🔌 <strong>Durable pick:</strong> <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C</a> at 180 EGP — 60W, 18-month warranty, 25,000 bend cycles.</li>
 </ul>
 
-<h2>A55 & A75 Specific FAQs</h2>
+<h2>A55 & A73 Specific FAQs</h2>
 
 <h3>Can I Use a 45W Charger with Galaxy A55?</h3>
 
@@ -538,7 +538,7 @@ export const samsung_galaxy_a55_a75_charger_affordable_alternatives: BlogArticle
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Anker and Joyroom chargers compatible with Galaxy A55 and A75 are <strong>genuine with 18-month warranty</strong> + delivery to all governorates in 24-72 hours. Not sure which charger suits your phone? Message us on WhatsApp and we'll help.
+        Anker and Joyroom chargers compatible with Galaxy A55 and A73 are <strong>genuine with 18-month warranty</strong> + delivery to all governorates in 24-72 hours. Not sure which charger suits your phone? Message us on WhatsApp and we'll help.
     </p>
 </div>`,
             faq: [

@@ -29,18 +29,18 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         ar: {
             title: 'باور بانك 100W لشحن سريع — أفضل اختيارات لـ iPhone 17 و Galaxy S26 في مصر 2026',
             metaTitle: 'باور بانك 100W لـ iPhone 17 و S26 في مصر 2026 | كايرو فولت',
-            metaDescription: 'iPhone 17 يقف عند 30W و Galaxy S26 Ultra عند 45W — فلماذا تحتاج باور بانك 100W؟ 3 أسباب علمية + أفضل خيارين بالأرقام في مصر 2026. تابع التفاصيل والمقارنة بمصر.',
+            metaDescription: 'iPhone 17 Pro Max يقف عند 40W و Galaxy S26 Ultra عند 60W — فلماذا تحتاج باور بانك 100W؟ 3 أسباب علمية + أفضل خيارين بالأرقام في مصر 2026. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'باور بانك 100 واط, باور بانك ايفون 17, باور بانك سامسونج S26, شحن سريع باور بانك, انكر prime 165w, انكر 737 140w, باور بانك لابتوب وموبايل, 100w power bank iphone samsung egypt, افضل باور بانك شحن سريع 2026',
-            excerpt: 'iPhone 17 يقف عند 30W و Galaxy S26 Ultra عند 45W — فلماذا قد تحتاج باور بانك 100W فعلاً؟ 3 أسباب علمية تفسر الفرق + خياران مدروسان بالأرقام والمواصفات لمصر.',
-            quickAnswer: 'iPhone 17 Pro Max يحد الشحن عند 30W و Galaxy S26 Ultra عند 45W — لكن باور بانك 100W+ يستحق الفرق لـ 3 أسباب: (1) شحن جهازين معاً بكامل السرعة، (2) إعادة شحن الباور بانك نفسه في 30-50 دقيقة، (3) شحن لابتوب طوارئ. أفضل خيارين: أنكر Prime 165W (3,950ج) و أنكر 737 140W (4,999ج).',
-            content: `<p>أكبر مفهوم خاطئ في سوق الباور بانك المصري: إن باور بانك 100W هيشحن iPhone 17 أو Galaxy S26 أسرع من باور بانك 30W. الحقيقة العلمية مختلفة تماماً — iPhone 17 Pro Max بيحد الشحن داخلياً عند 30W مهما كان مصدر الكهرباء، و Samsung Galaxy S26 Ultra بيقف عند 45W. يعني لو وصلت أي منهما بباور بانك 165W، هتاخد نفس السرعة بالضبط زي اللي بتاخدها من باور بانك 45W. السؤال الحقيقي: <strong>طب ليه تدفع 4,000 جنيه إضافية في باور بانك 100W+؟</strong> الإجابة في 3 أسباب علمية بنشرحها بالأرقام.</p>
+            excerpt: 'iPhone 17 Pro Max يقف عند 40W و Galaxy S26 Ultra عند 60W — فلماذا قد تحتاج باور بانك 100W فعلاً؟ 3 أسباب علمية تفسر الفرق + خياران مدروسان بالأرقام والمواصفات لمصر.',
+            quickAnswer: 'iPhone 17 Pro Max يحد الشحن عند 40W و Galaxy S26 Ultra عند 60W — لكن باور بانك 100W+ يستحق الفرق لـ 3 أسباب: (1) شحن جهازين معاً بكامل السرعة، (2) إعادة شحن الباور بانك نفسه في حوالي ساعتين بدل 5-6 ساعات، (3) شحن لابتوب طوارئ. أفضل خيارين: أنكر Prime 165W (3,950ج) و أنكر 737 140W (4,999ج).',
+            content: `<p>أكبر مفهوم خاطئ في سوق الباور بانك المصري: إن باور بانك 100W هيشحن iPhone 17 أو Galaxy S26 أسرع من باور بانك 30W. الحقيقة العلمية مختلفة تماماً — iPhone 17 Pro Max بيحد الشحن داخلياً عند حوالي 40W، و Samsung Galaxy S26 Ultra بيقف عند 60W مهما كان مصدر الكهرباء. يعني بمجرد ما الباور بانك يغطّي الحد ده، أي زيادة فوقه مش هتزوّد سرعة الموبايل — الـ iPhone 17 Pro Max هياخد نفس السرعة من باور بانك 45W زي 165W، و الـ Galaxy S26 Ultra محتاج مصدر 60W علشان يشتغل بأقصى سرعته. السؤال الحقيقي: <strong>طب ليه تدفع 4,000 جنيه إضافية في باور بانك 100W+؟</strong> الإجابة في 3 أسباب علمية بنشرحها بالأرقام.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        iPhone 17 Pro Max يحد الشحن عند 30W و Galaxy S26 Ultra عند 45W — لكن باور بانك 100W+ يستحق الفرق لـ 3 أسباب:
+        iPhone 17 Pro Max يحد الشحن عند 40W و Galaxy S26 Ultra عند 60W — لكن باور بانك 100W+ يستحق الفرق لـ 3 أسباب:
         (1) شحن موبايل + لابتوب معاً بكامل السرعة بدون اختناق،
-        (2) إعادة شحن الباور بانك نفسه في 30-50 دقيقة بدلاً من 5 ساعات،
+        (2) إعادة شحن الباور بانك نفسه في حوالي ساعتين بدلاً من 5-6 ساعات،
         (3) شحن MacBook Pro طوارئ بسرعة الشاحن الأصلي.
         أفضل خيارين: <strong>انكر برايم 165W</strong> (3,950ج) و <strong>انكر 737 140W</strong> (4,999ج).
     </p>
@@ -80,7 +80,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">iPhone 17 Pro Max</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>30W</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>40W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20 دقيقة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">78 دقيقة</td>
         </tr>
@@ -92,19 +92,19 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Galaxy S26 Ultra</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>60W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>18 دقيقة</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">72 دقيقة</td>
         </tr>
     </tbody>
 </table>
 
-<p>الاستنتاج بسيط: <strong>باور بانك 45W كافي لإشباع أعلى موبايل من الاتنين (S26 Ultra).</strong> أي زيادة فوق 45W ضائعة كهربائياً للموبايل. لو دفعت 4,000 جنيه إضافية في باور بانك 165W علشان موبايلك بس، فأنت دفعت زيادة. السؤال إذن: <em>طب ليه يبقى الـ 100W+ منطقياً أصلاً؟</em></p>
+<p>الاستنتاج بسيط: <strong>أعلى موبايل من الاتنين (S26 Ultra) بيقف عند 60W، فباور بانك بيوفّر 60W كافي لإشباعه.</strong> أي زيادة فوق كده ضائعة كهربائياً للموبايل. لو دفعت 4,000 جنيه إضافية في باور بانك 165W علشان موبايلك بس، فأنت دفعت زيادة. السؤال إذن: <em>طب ليه يبقى الـ 100W+ منطقياً أصلاً؟</em></p>
 
 
 <h2>السبب 2: Multi-Device Charging — حيث يظهر الفرق الحقيقي</h2>
 
-<p>افتح أي باور بانك 45W ووصّله بموبايل + لابتوب في نفس الوقت — هتلاقي حاجة مزعجة: <strong>الباور بانك يقسم الـ 45W بين الجهازين بطريقة غير متساوية</strong>. النتيجة المعتادة: 30W للابتوب، 15W للموبايل. الموبايل اللي بياخد عادة 30W، بياخد نص ده — يعني وقت شحن مضاعف.</p>
+<p>افتح أي باور بانك 45W ووصّله بموبايل + لابتوب في نفس الوقت — هتلاقي حاجة مزعجة: <strong>الباور بانك يقسم الـ 45W بين الجهازين بطريقة غير متساوية</strong>. النتيجة المعتادة: 30W للابتوب، 15W للموبايل. الموبايل اللي بياخد عادة حتى 40W، بياخد أقل من نص ده — يعني وقت شحن مضاعف.</p>
 
 <p>الباور بانك 100W+ بيحل المشكلة دي بـ <strong>Independent Port Power Allocation</strong> — كل منفذ بياخد طاقته الكاملة بدون مزاحمة. وفق جداول توزيع الطاقة المعلنة من أنكر، سيناريو
 <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم 165W</a>
@@ -112,19 +112,19 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">💻 <strong>MacBook Air M3:</strong> 65W كاملة على المنفذ USB-C #1 — شحن بسرعة الشاحن الأصلي تماماً.</li>
-    <li style="margin-bottom:12px;">📱 <strong>iPhone 17 Pro Max:</strong> 30W كاملة على المنفذ USB-C #2 — أقصى سرعة يدعمها الموبايل بدون اختناق.</li>
-    <li style="margin-bottom:12px;">⌚ <strong>Apple Watch Series 10:</strong> 5W لاسلكي عبر USB-A + dongle MagSafe.</li>
-    <li style="margin-bottom:12px;">🌡️ <strong>الحرارة:</strong> مروحة التبريد الداخلية بتشتغل تلقائياً عند الأحمال العالية عشان تحافظ على الحرارة في نطاق آمن حوالي 38°م.</li>
+    <li style="margin-bottom:12px;">📱 <strong>iPhone 17 Pro Max:</strong> 40W كاملة على المنفذ USB-C #2 — أقصى سرعة يدعمها الموبايل بدون اختناق.</li>
+    <li style="margin-bottom:12px;">⌚ <strong>Apple Watch Series 10:</strong> 5W لاسلكي عبر شاحن Apple Watch المغناطيسي بمنفذ USB-A.</li>
+    <li style="margin-bottom:12px;">🌡️ <strong>الحرارة:</strong> النظام بيعتمد على تبريد سلبي (جسم معدني) + وضع Active Cooling بيقلّل القدرة تلقائياً عند الأحمال العالية عشان يحافظ على الحرارة في نطاق آمن حوالي 38°م.</li>
 </ul>
 
 <p>المقارنة مع باور بانك 45W في نفس السيناريو: الـ 45W ينقسم لـ 30W لابتوب + 15W موبايل = موبايل يشحن بنص السرعة + لابتوب يكمل بكفاءة 90% فقط. لو بتسافر مع لابتوب وموبايل معاً، الفرق العملي ساعة كاملة من التوفير.</p>
 
 
-<h2>السبب 3: إعادة شحن الباور بانك نفسه — من 5 ساعات إلى 35 دقيقة</h2>
+<h2>السبب 3: إعادة شحن الباور بانك نفسه — من 6 ساعات إلى حوالي ساعتين</h2>
 
-<p>الفرق اللي محدش بيتكلم عنه: <strong>الباور بانك 100W+ بيتشحن هو نفسه أسرع 7-10 أضعاف من الـ 30W العادي</strong>. باور بانك 24,000mAh بشحن 18W يحتاج 5-6 ساعات يمتلي. نفس السعة بشحن 100W input يحتاج 35-50 دقيقة فقط.</p>
+<p>الفرق اللي محدش بيتكلم عنه: <strong>الباور بانك 100W+ بيتشحن هو نفسه أسرع بكتير من الـ 18W العادي</strong>. باور بانك 24,000mAh بشحن 18W يحتاج 5-6 ساعات يمتلي. نفس السعة بشحن 100W input يحتاج حوالي ساعتين فقط.</p>
 
-<p>السيناريو الواقعي: إنت في فترة استراحة بين اجتماعين، عندك ساعة فاضية، الباور بانك على 10%. مع الـ 100W input هتخرج بـ 80% شحن. مع الـ 18W هتخرج بـ 25% فقط — يعني شحنة كاملة واحدة للموبايل بدلاً من 4 شحنات.</p>
+<p>السيناريو الواقعي: إنت في فترة استراحة بين اجتماعين، عندك ساعة فاضية، الباور بانك على 10%. مع الـ 100W input هتخرج بحوالي 60% شحن. مع الـ 18W هتخرج بـ 25% فقط — يعني شحنة كاملة واحدة للموبايل بدلاً من 3 شحنات.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
@@ -151,8 +151,8 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">24,000-25,000mAh</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">6+ ساعات</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">90 دقيقة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>50 دقيقة</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حوالي ساعتين ونصف</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>حوالي ساعتين</strong></td>
         </tr>
     </tbody>
 </table>
@@ -169,10 +169,10 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
 <p>أهم المواصفات المعلنة بالأرقام:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>165W قدرة كلية:</strong> منفذ USB-C #1 يطلع 140W لوحده لشحن MacBook Pro 16" بسرعة الشاحن الأصلي.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>165W قدرة كلية:</strong> كل منفذ USB-C يطلع حتى 100W كحد أقصى (20V⎓5A)، والـ 165W هي الإجمالي الموزّع على المنافذ عند شحن أكتر من جهاز معاً — يشحن MacBook Pro 16" بسرعة عالية جداً (لكن أقل شوية من شاحنه الأصلي 140W).</li>
     <li style="margin-bottom:12px;">🔋 <strong>25,000mAh = 5 شحنات iPhone 17 Pro Max</strong> أو شحنة كاملة + 50% لـ MacBook Pro 16.</li>
-    <li style="margin-bottom:12px;">🌡️ <strong>مروحة تبريد نشطة:</strong> تشتغل تلقائياً فوق 100W output — الحرارة لا تتعدى 42°م حتى في صيف القاهرة.</li>
-    <li style="margin-bottom:12px;">⏱️ <strong>شحن ذاتي 100W input:</strong> من 0 إلى 80% في 35 دقيقة فقط مع شاحن أنكر Prime 100W.</li>
+    <li style="margin-bottom:12px;">🌡️ <strong>تبريد سلبي + Active Cooling Mode:</strong> جسم معدني بيوزّع الحرارة، ومع الأحمال العالية وضع Active Cooling البرمجي بيخفّض القدرة تلقائياً عشان الحرارة ما تتعداش 42°م حتى في صيف القاهرة.</li>
+    <li style="margin-bottom:12px;">⏱️ <strong>شحن ذاتي 100W input:</strong> من 0 إلى 80% في حوالي ساعة ونصف (شحن كامل في حوالي ساعتين) مع شاحن أنكر Prime 100W.</li>
     <li style="margin-bottom:12px;">📊 <strong>شاشة رقمية:</strong> تعرض الوات الحي لكل منفذ + الحرارة + النسبة المتبقية + الوقت المقدر.</li>
     <li style="margin-bottom:12px;">✈️ <strong>92.7Wh:</strong> أقصى سعة قانونية للطيران المدني — مسموح في حقيبة اليد بدون تفتيش إضافي.</li>
 </ul>
@@ -184,9 +184,9 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
 
 <p>بسعر 4,999 جنيه،
 <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 باور كور 24K</a>
-يقدم 140W مع تصميم أبسط وأمتن — بدون مروحة تبريد (لأن 140W أقل من 165W في حرارة التوليد).</p>
+يقدم 140W مع تصميم أبسط وأمتن — بدون أجزاء متحركة، بيعتمد على تبريد سلبي بالكامل.</p>
 
-<p>الميزة اللي يتفوّق فيها على Prime A1695: <strong>المتانة الفائقة والبساطة</strong>. الجسم ألومنيوم مصنّع بدقة، بدون أجزاء متحركة (لا مراوح). للسفر القاسي (سفاري الصحراء، الكامبينج، رحلات السيارة الطويلة) — الـ 737 أنسب لأن مروحة Prime ممكن تدخلها رمال أو غبار.</p>
+<p>الميزة اللي يتفوّق فيها على Prime A1695: <strong>المتانة الفائقة والبساطة</strong>. الجسم ألومنيوم مصنّع بدقة، بدون أجزاء متحركة (لا مراوح). للسفر القاسي (سفاري الصحراء، الكامبينج، رحلات السيارة الطويلة) — الـ 737 خيار ممتاز بجسمه الألومنيوم المتين وبدون أجزاء متحركة.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
@@ -199,7 +199,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">القدرة القصوى</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>165W (140W لمنفذ واحد)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>165W (100W لكل منفذ)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">140W</td>
         </tr>
         <tr>
@@ -209,7 +209,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">التبريد</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>مروحة نشطة + Passive</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Active Cooling Mode + Passive</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">Passive فقط</td>
         </tr>
         <tr>
@@ -219,7 +219,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">المتانة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">جيدة (المروحة نقطة ضعف)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">جيدة (بدون أجزاء متحركة)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>ممتازة (لا أجزاء متحركة)</strong></td>
         </tr>
         <tr>
@@ -238,11 +238,11 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         <strong>🎯 الخلاصة:</strong> لو ما عندكش لابتوب USB-C، وما بتسافرش لـ 2+ يوم بدون كهرباء، وما بتشحنش 3 أجهزة معاً —
         الـ 100W+ مش ضروري. البديل الذكي:
         <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">انكر زولو 20,000mAh 45W PD</a>
-        بـ 2,200 جنيه — يشحن iPhone 17 و Galaxy S26 Ultra بكامل سرعتهم بـ <strong>توفير 1,750 جنيه</strong>.
+        بـ 2,200 جنيه — يشحن iPhone 17 بكامل سرعته و Galaxy S26 Ultra بشحن سريع قوي (الـ Ultra بيوصل لأقصى 60W مع مصدر أكبر) مع <strong>توفير 1,750 جنيه</strong>.
     </p>
 </div>
 
-<p>المعادلة الواقعية: <strong>45W = أقصى ما يحتاجه أي موبايل في 2026.</strong> فوق ده ميزات للابتوب و multi-device فقط. لو احتياجك موبايل + سماعة + ساعة، الـ 45W كافي تماماً. الفرق الفعلي في وقت الشحن بين باور بانك 45W و 165W لـ iPhone 17 Pro Max وحده: <strong>43 ثانية في الـ 50% الأولى</strong> — هل تستحق 1,750 جنيه إضافية؟ لا.</p>
+<p>المعادلة الواقعية: <strong>أغلب الموبايلات في 2026 مش محتاجة أكتر من 40-60W</strong> — الـ iPhone 17 Pro Max بيقف عند 40W و الـ Galaxy S26 Ultra عند 60W. فوق ده ميزات للابتوب و multi-device فقط. لو احتياجك موبايل + سماعة + ساعة، باور بانك 45-60W كافي. الفرق الفعلي في وقت الشحن بين باور بانك 45W و 165W لـ iPhone 17 Pro Max وحده: <strong>أقل من دقيقة في الـ 50% الأولى</strong> — هل تستحق 1,750 جنيه إضافية؟ لا.</p>
 
 
 <h2>الكابل: العامل الخفي اللي بيحدد سرعتك الفعلية</h2>
@@ -274,37 +274,37 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
             faq: [
                 {
                     question: 'هل iPhone 17 Pro Max يستفيد من باور بانك 100W فعلاً؟',
-                    answer: 'لا، iPhone 17 Pro Max يحد الشحن داخلياً عند 30W مهما كان مصدر الكهرباء. باور بانك 30W و 165W يديانه نفس السرعة بالضبط (20 دقيقة من 0 إلى 50%). الاستفادة الحقيقية من 100W+ تظهر فقط عند شحن لابتوب أو 3 أجهزة معاً، أو عند إعادة شحن الباور بانك نفسه بسرعة.',
+                    answer: 'لا، iPhone 17 Pro Max يحد الشحن داخلياً عند حوالي 40W مهما كان مصدر الكهرباء. باور بانك 45W و 165W يديانه نفس السرعة بالضبط (50% في حوالي 20 دقيقة). الاستفادة الحقيقية من 100W+ تظهر فقط عند شحن لابتوب أو 3 أجهزة معاً، أو عند إعادة شحن الباور بانك نفسه بسرعة.',
                 },
                 {
                     question: 'إيه الفرق بين 100W input و 100W output؟',
-                    answer: 'الـ Output هو الكهرباء اللي بتطلع من الباور بانك لأجهزتك. الـ Input هي السرعة اللي بيشحن بيها الباور بانك نفسه. باور بانك 100W output ممكن يكون 30W input فقط — يعني يطلع طاقة بسرعة لكن يحتاج 5+ ساعات يمتلي. أنكر Prime 165W يدعم 100W input — يمتلي من 0 إلى 80% في 35 دقيقة فقط.',
+                    answer: 'الـ Output هو الكهرباء اللي بتطلع من الباور بانك لأجهزتك. الـ Input هي السرعة اللي بيشحن بيها الباور بانك نفسه. باور بانك 100W output ممكن يكون 30W input فقط — يعني يطلع طاقة بسرعة لكن يحتاج 5+ ساعات يمتلي. أنكر Prime 165W يدعم 100W input — يمتلي من 0 إلى 80% في حوالي ساعة ونصف (شحن كامل في حوالي ساعتين).',
                 },
                 {
                     question: 'هل أقدر أركّب باور بانك 25,000mAh في الطيارة؟',
                     answer: 'نعم، أنكر Prime A1695 سعة 92.7Wh — أقل من حد TSA الدولي وحد الطيران المصري (100Wh). مسموح في حقيبة اليد فقط (لا تضعه في الشحن). أي باور بانك أكبر من 100Wh ممنوع تماماً. التحقق: ابحث عن رقم Wh مطبوع على الجسم — لو غير موجود فهو غير معتمد للطيران.',
                 },
                 {
-                    question: 'هل Galaxy S26 Ultra محتاج باور بانك 100W علشان شحن سريع 45W؟',
-                    answer: 'لا، أي باور بانك يدعم USB-C PD 3.0 بقدرة 45W+ يكفي لتشغيل Super Fast Charging على S26 Ultra. حتى أنكر ZOLO 45W (2,200ج) يعطي الـ 45W الكاملة. الترقية لـ 100W+ تفيد فقط لو هتشحن S26 Ultra + لابتوب معاً، أو لو محتاج إعادة شحن الباور بانك نفسه بسرعة.',
+                    question: 'هل Galaxy S26 Ultra محتاج باور بانك 100W علشان شحن سريع 60W؟',
+                    answer: 'لا، الـ Galaxy S26 Ultra بيوصل لأقصى شحن 60W مع مصدر USB-C PD/PPS بيدعم 60W. باور بانك 45W بيشغّل الشحن السريع بس مش بيوصل للـ 60W الكاملة — لو عايز أقصى سرعة محتاج مصدر 60W. الترقية لـ 100W+ تفيد كمان لو هتشحن S26 Ultra + لابتوب معاً، أو لو محتاج إعادة شحن الباور بانك نفسه بسرعة.',
                 },
             ],
         },
         en: {
             title: 'Best 100W Power Banks for Fast Charging iPhone 17 & Galaxy S26 in Egypt 2026',
             metaTitle: 'Best 100W Power Bank iPhone 17 & S26 Egypt 2026 | CairoVolt',
-            metaDescription: 'iPhone 17 caps at 30W and Galaxy S26 Ultra at 45W — so why pay for a 100W power bank? 3 scientific reasons + the 2 top picks by the numbers in Egypt 2026.',
+            metaDescription: 'iPhone 17 Pro Max caps at 40W and Galaxy S26 Ultra at 60W — so why pay for a 100W power bank? 3 scientific reasons + the 2 top picks by the numbers in Egypt 2026.',
             keywords: '100w power bank, iphone 17 power bank, samsung s26 power bank, anker prime 165w, anker 737 140w, fast charge power bank, laptop power bank egypt, 100w power bank iphone samsung egypt, best fast charge power bank 2026',
-            excerpt: 'iPhone 17 caps at 30W and Galaxy S26 Ultra at 45W — so why might you actually need a 100W power bank? 3 scientific reasons explained + 2 top options picked by the numbers for Egypt.',
-            quickAnswer: 'iPhone 17 Pro Max caps charging at 30W and Galaxy S26 Ultra at 45W — but a 100W+ power bank earns its premium for 3 reasons: (1) charging two devices simultaneously at full speed, (2) recharging the power bank itself in 30-50 minutes, (3) emergency laptop charging. Top picks: Anker Prime 165W (3,950 EGP) and Anker 737 140W (4,999 EGP).',
-            content: `<p>The biggest misconception in Egypt's power bank market: that a 100W power bank charges iPhone 17 or Galaxy S26 faster than a 30W one. The scientific reality is different — iPhone 17 Pro Max caps charging internally at 30W regardless of the power source, and Samsung Galaxy S26 Ultra stops at 45W. Meaning if you connect either to a 165W power bank, you get exactly the same speed as a 45W one. The real question: <strong>so why pay an extra 4,000 EGP for a 100W+ power bank?</strong> The answer lies in 3 scientific reasons we explain with numbers.</p>
+            excerpt: 'iPhone 17 Pro Max caps at 40W and Galaxy S26 Ultra at 60W — so why might you actually need a 100W power bank? 3 scientific reasons explained + 2 top options picked by the numbers for Egypt.',
+            quickAnswer: 'iPhone 17 Pro Max caps charging at 40W and Galaxy S26 Ultra at 60W — but a 100W+ power bank earns its premium for 3 reasons: (1) charging two devices simultaneously at full speed, (2) recharging the power bank itself in about 2 hours instead of 5-6 hours, (3) emergency laptop charging. Top picks: Anker Prime 165W (3,950 EGP) and Anker 737 140W (4,999 EGP).',
+            content: `<p>The biggest misconception in Egypt's power bank market: that a 100W power bank charges iPhone 17 or Galaxy S26 faster than a 30W one. The scientific reality is different — iPhone 17 Pro Max caps charging internally at around 40W, and Samsung Galaxy S26 Ultra tops out at 60W regardless of the power source. Meaning once the power bank meets each phone's cap, anything above it adds no speed — the iPhone 17 Pro Max charges just as fast from a 45W bank as from a 165W one, while the Galaxy S26 Ultra needs a 60W source to hit its top speed. The real question: <strong>so why pay an extra 4,000 EGP for a 100W+ power bank?</strong> The answer lies in 3 scientific reasons we explain with numbers.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        iPhone 17 Pro Max caps at 30W and Galaxy S26 Ultra at 45W — but a 100W+ power bank earns its premium for 3 reasons:
+        iPhone 17 Pro Max caps at 40W and Galaxy S26 Ultra at 60W — but a 100W+ power bank earns its premium for 3 reasons:
         (1) charging phone + laptop simultaneously at full speed without throttling,
-        (2) recharging the power bank itself in 30-50 minutes instead of 5 hours,
+        (2) recharging the power bank itself in about 2 hours instead of 5-6 hours,
         (3) emergency MacBook Pro charging at original adapter speed.
         Top picks: <strong>Anker Prime 165W</strong> (3,950 EGP) and <strong>Anker 737 140W</strong> (4,999 EGP).
     </p>
@@ -344,7 +344,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">iPhone 17 Pro Max</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>30W</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>40W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20 min</td>
             <td style="padding:12px;border:1px solid #d1d5db;">78 min</td>
         </tr>
@@ -356,19 +356,19 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Galaxy S26 Ultra</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>60W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>18 min</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">72 min</td>
         </tr>
     </tbody>
 </table>
 
-<p>The conclusion is simple: <strong>a 45W power bank fully saturates the highest-charging phone of the two (S26 Ultra).</strong> Any extra wattage above 45W is electrically wasted on the phone. If you paid an extra 4,000 EGP for a 165W power bank just for your phone, you overpaid. The question then: <em>so why would 100W+ make sense at all?</em></p>
+<p>The conclusion is simple: <strong>the highest-charging phone of the two (S26 Ultra) tops out at 60W, so a power bank that delivers 60W fully saturates it.</strong> Any wattage above that is electrically wasted on the phone. If you paid an extra 4,000 EGP for a 165W power bank just for your phone, you overpaid. The question then: <em>so why would 100W+ make sense at all?</em></p>
 
 
 <h2>Reason 2: Multi-Device Charging — Where the Real Difference Appears</h2>
 
-<p>Open any 45W power bank and plug in phone + laptop simultaneously — you'll notice something annoying: <strong>the power bank splits 45W between the two devices unevenly</strong>. The typical result: 30W for laptop, 15W for phone. The phone normally takes 30W, but gets half — meaning double charging time.</p>
+<p>Open any 45W power bank and plug in phone + laptop simultaneously — you'll notice something annoying: <strong>the power bank splits 45W between the two devices unevenly</strong>. The typical result: 30W for laptop, 15W for phone. The phone normally takes up to 40W, but gets far less — meaning double charging time.</p>
 
 <p>100W+ power banks solve this with <strong>Independent Port Power Allocation</strong> — each port gets its full wattage without competition. Based on Anker's published power-allocation tables, the
 <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime 165W</a>
@@ -376,19 +376,19 @@ scenario with MacBook Air M3 + iPhone 17 Pro Max simultaneously looks like this:
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">💻 <strong>MacBook Air M3:</strong> Full 65W on USB-C port #1 — charging at original adapter speed exactly.</li>
-    <li style="margin-bottom:12px;">📱 <strong>iPhone 17 Pro Max:</strong> Full 30W on USB-C port #2 — max speed phone supports without throttling.</li>
-    <li style="margin-bottom:12px;">⌚ <strong>Apple Watch Series 10:</strong> 5W wireless via USB-A + MagSafe dongle.</li>
-    <li style="margin-bottom:12px;">🌡️ <strong>Temperature:</strong> The internal cooling fan engages automatically under heavy loads to keep the unit in a safe range of around 38°C.</li>
+    <li style="margin-bottom:12px;">📱 <strong>iPhone 17 Pro Max:</strong> Full 40W on USB-C port #2 — max speed phone supports without throttling.</li>
+    <li style="margin-bottom:12px;">⌚ <strong>Apple Watch Series 10:</strong> 5W wireless via a USB-A Apple Watch magnetic charging dongle.</li>
+    <li style="margin-bottom:12px;">🌡️ <strong>Temperature:</strong> The unit relies on passive cooling (metal chassis) plus a software Active Cooling Mode that lowers output automatically under heavy loads to keep it in a safe range around 38°C.</li>
 </ul>
 
 <p>Comparison with 45W power bank in the same scenario: 45W splits into 30W laptop + 15W phone = phone charges at half speed + laptop completes at only 90% efficiency. If you travel with laptop and phone together, the real-world savings reach a full hour.</p>
 
 
-<h2>Reason 3: Recharging the Power Bank Itself — From 5 Hours to 35 Minutes</h2>
+<h2>Reason 3: Recharging the Power Bank Itself — From 6 Hours to About 2 Hours</h2>
 
-<p>The difference no one talks about: <strong>100W+ power banks recharge themselves 7-10× faster than ordinary 30W ones</strong>. A 24,000mAh power bank at 18W input needs 5-6 hours to fill. The same capacity at 100W input needs only 35-50 minutes.</p>
+<p>The difference no one talks about: <strong>100W+ power banks recharge themselves far faster than ordinary 18W ones</strong>. A 24,000mAh power bank at 18W input needs 5-6 hours to fill. The same capacity at 100W input needs only about 2 hours.</p>
 
-<p>Real scenario: you're on a break between two meetings, you have an hour free, the power bank is at 10%. With 100W input you'll leave with 80% charge. With 18W you'll only reach 25% — meaning one full phone charge instead of 4.</p>
+<p>Real scenario: you're on a break between two meetings, you have an hour free, the power bank is at 10%. With 100W input you'll leave with around 60% charge. With 18W you'll only reach 25% — meaning one full phone charge instead of 3.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
@@ -415,8 +415,8 @@ scenario with MacBook Air M3 + iPhone 17 Pro Max simultaneously looks like this:
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">24,000-25,000mAh</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">6+ hrs</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">90 min</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>50 min</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">~2.5 hrs</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>~2 hrs</strong></td>
         </tr>
     </tbody>
 </table>
@@ -433,10 +433,10 @@ is the most powerful flight-legal portable power bank in Egypt — at 92.7Wh (ju
 <p>The key published specs by the numbers:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>165W total power:</strong> USB-C port #1 delivers 140W alone for charging MacBook Pro 16" at original adapter speed.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>165W total power:</strong> each USB-C port delivers up to 100W max (20V⎓5A), and the 165W is the combined total across ports when charging multiple devices — enough to fast-charge a MacBook Pro 16" quickly (though below its original 140W adapter).</li>
     <li style="margin-bottom:12px;">🔋 <strong>25,000mAh = 5 iPhone 17 Pro Max full charges</strong> or 1 full + 50% MacBook Pro 16" charge.</li>
-    <li style="margin-bottom:12px;">🌡️ <strong>Active cooling fan:</strong> Engages automatically above 100W output — temperature stays under 42°C even in Cairo summer.</li>
-    <li style="margin-bottom:12px;">⏱️ <strong>100W input self-charging:</strong> From 0 to 80% in just 35 minutes with Anker Prime 100W charger.</li>
+    <li style="margin-bottom:12px;">🌡️ <strong>Passive cooling + Active Cooling Mode:</strong> a metal chassis spreads heat, and under high loads the software Active Cooling Mode lowers output automatically so temperature stays under 42°C even in Cairo summer.</li>
+    <li style="margin-bottom:12px;">⏱️ <strong>100W input self-charging:</strong> From 0 to 80% in about 1.5 hours (full charge in about 2 hours) with the Anker Prime 100W charger.</li>
     <li style="margin-bottom:12px;">📊 <strong>Smart digital display:</strong> Shows real-time watts per port + temperature + remaining % + estimated time.</li>
     <li style="margin-bottom:12px;">✈️ <strong>92.7Wh:</strong> Max legally-allowed flight capacity — permitted in carry-on bags without extra inspection.</li>
 </ul>
@@ -448,9 +448,9 @@ is the most powerful flight-legal portable power bank in Egypt — at 92.7Wh (ju
 
 <p>At 4,999 EGP,
 <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 PowerCore 24K</a>
-offers 140W with a simpler, more rugged design — without active cooling (since 140W generates less heat than 165W).</p>
+offers 140W with a simpler, more rugged design — with no moving parts, relying entirely on passive cooling.</p>
 
-<p>What it wins over Prime A1695: <strong>extreme durability and simplicity</strong>. The body is precision-machined aluminum, with no moving parts (no fans). For rough travel (desert safari, camping, long road trips) — the 737 is more suitable because Prime's fan could be exposed to sand or dust.</p>
+<p>What it wins over Prime A1695: <strong>extreme durability and simplicity</strong>. The body is precision-machined aluminum, with no moving parts (no fans). For rough travel (desert safari, camping, long road trips) — the 737 is an excellent choice with its durable aluminum body and no moving parts.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
@@ -463,7 +463,7 @@ offers 140W with a simpler, more rugged design — without active cooling (since
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Max Power</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>165W (140W per single port)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>165W (100W per port)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">140W</td>
         </tr>
         <tr>
@@ -473,7 +473,7 @@ offers 140W with a simpler, more rugged design — without active cooling (since
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Cooling</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Active fan + Passive</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Active Cooling Mode + Passive</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">Passive only</td>
         </tr>
         <tr>
@@ -483,7 +483,7 @@ offers 140W with a simpler, more rugged design — without active cooling (since
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Durability</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Good (fan is weak point)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Good (no moving parts)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Excellent (no moving parts)</strong></td>
         </tr>
         <tr>
@@ -502,11 +502,11 @@ offers 140W with a simpler, more rugged design — without active cooling (since
         <strong>🎯 Bottom Line:</strong> If you don't have a USB-C laptop, don't travel 2+ days without power, and don't charge 3 devices simultaneously —
         100W+ isn't necessary. Smart alternative:
         <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">Anker ZOLO 20,000mAh 45W PD</a>
-        at 2,200 EGP — fully saturates iPhone 17 and Galaxy S26 Ultra charging while <strong>saving 1,750 EGP</strong>.
+        at 2,200 EGP — fully saturates iPhone 17 charging and fast-charges the Galaxy S26 Ultra (which hits its full 60W only with a larger source) while <strong>saving 1,750 EGP</strong>.
     </p>
 </div>
 
-<p>The real-world math: <strong>45W = max any phone needs in 2026.</strong> Above that is features for laptops and multi-device only. If your need is phone + earbuds + watch, 45W is plenty. The actual charging time difference between 45W and 165W power bank for iPhone 17 Pro Max alone: <strong>43 seconds for the first 50%</strong> — is that worth an extra 1,750 EGP? No.</p>
+<p>The real-world math: <strong>most phones in 2026 don't need more than 40-60W</strong> — the iPhone 17 Pro Max caps at 40W and the Galaxy S26 Ultra at 60W. Above that is features for laptops and multi-device only. If your need is phone + earbuds + watch, a 45-60W bank is plenty. The actual charging time difference between a 45W and a 165W power bank for iPhone 17 Pro Max alone: <strong>under a minute for the first 50%</strong> — is that worth an extra 1,750 EGP? No.</p>
 
 
 <h2>The Cable: The Hidden Factor Determining Your Real Speed</h2>
@@ -538,19 +538,19 @@ offers 140W with a simpler, more rugged design — without active cooling (since
             faq: [
                 {
                     question: 'Does iPhone 17 Pro Max actually benefit from a 100W power bank?',
-                    answer: 'No, iPhone 17 Pro Max caps charging internally at 30W regardless of the power source. A 30W and 165W power bank deliver the exact same speed (20 minutes from 0 to 50%). Real benefit from 100W+ only appears when charging a laptop, 3 devices simultaneously, or when recharging the power bank itself fast.',
+                    answer: 'No, iPhone 17 Pro Max caps charging internally at around 40W regardless of the power source. A 45W and 165W power bank deliver the exact same speed (about 20 minutes from 0 to 50%). Real benefit from 100W+ only appears when charging a laptop, 3 devices simultaneously, or when recharging the power bank itself fast.',
                 },
                 {
                     question: 'What is the difference between 100W input and 100W output?',
-                    answer: 'Output is the power flowing from the power bank to your devices. Input is the speed at which the power bank itself recharges. A 100W output power bank may only have 30W input — meaning it outputs fast but needs 5+ hours to refill. Anker Prime 165W supports 100W input — refilling from 0 to 80% in just 35 minutes.',
+                    answer: 'Output is the power flowing from the power bank to your devices. Input is the speed at which the power bank itself recharges. A 100W output power bank may only have 30W input — meaning it outputs fast but needs 5+ hours to refill. Anker Prime 165W supports 100W input — refilling from 0 to 80% in about 1.5 hours (full charge in about 2 hours).',
                 },
                 {
                     question: 'Can I take a 25,000mAh power bank on a plane?',
                     answer: 'Yes, Anker Prime A1695 is 92.7Wh — under the international TSA limit and Egyptian aviation limit (100Wh). Allowed in carry-on only (not checked baggage). Any power bank above 100Wh is strictly forbidden. To verify: look for the Wh rating printed on the body — if missing, it is not flight-certified.',
                 },
                 {
-                    question: 'Does Galaxy S26 Ultra need a 100W power bank for 45W Super Fast Charging?',
-                    answer: 'No, any power bank supporting USB-C PD 3.0 at 45W+ is enough to trigger Super Fast Charging on S26 Ultra. Even Anker ZOLO 45W (2,200 EGP) delivers the full 45W. Upgrading to 100W+ only helps if you will charge S26 Ultra + laptop together, or if you need the power bank to self-recharge fast.',
+                    question: 'Does Galaxy S26 Ultra need a 100W power bank for its 60W Super Fast Charging?',
+                    answer: 'No. The Galaxy S26 Ultra reaches its top 60W speed with a USB-C PD/PPS source that supports 60W. A 45W power bank triggers fast charging but won\'t reach the full 60W — for maximum speed you need a 60W source. Upgrading to 100W+ also helps if you will charge S26 Ultra + laptop together, or if you need the power bank to self-recharge fast.',
                 },
             ],
         },

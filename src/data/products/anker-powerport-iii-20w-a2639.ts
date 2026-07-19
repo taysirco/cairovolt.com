@@ -150,7 +150,7 @@ export const anker_powerport_iii_20w_a2639 = {
             }
         },
         meta: { keywords: "شاحن انكر 20 واط كيوب, شاحن انكر A2149, شاحن انكر باور بورت 3, راس شاحن انكر 20 واط, سعر شاحن انكر كيوب, شاحن انكر USB-C, شاحن ايفون انكر, تحقق من موديل شاحن انكر, انكر كيوب 20 واط, شاحن انكر قابس بيتطوي, Anker A2149, Anker PowerPort III 20W Cube, Anker 20W USB-C charger Egypt, Anker cube charger price, Anker PD charger iPhone 17, انكر شاحن مصر, CairoVolt Anker charger, شاحن سريع انكر مصر, سعر شاحن انكر 20 واط", mainTerm: "شاحن انكر 20 واط كيوب" },
-        expertOpinion: { en: "A compact single-port option for a phone whose required USB-PD profile appears on A2639. Verify the printed output table, plug design, cable needs, live price and current warranty; actual power and temperature vary with the complete setup.", ar: "خيار صغير بمنفذ واحد لهاتف يظهر بروفايل USB-PD المطلوب له على A2639. تحقق من جدول الخرج والقابس والكابل والسعر والضمان الحالي؛ تتغير القدرة والحرارة حسب المنظومة كاملة." },
+        expertOpinion: { en: "A compact single-port option for a phone whose required USB-PD profile appears on A2149. Verify the printed output table, plug design, cable needs, live price and current warranty; actual power and temperature vary with the complete setup.", ar: "خيار صغير بمنفذ واحد لهاتف يظهر بروفايل USB-PD المطلوب له على A2149. تحقق من جدول الخرج والقابس والكابل والسعر والضمان الحالي؛ تتغير القدرة والحرارة حسب المنظومة كاملة." },
         relatedProducts: [
   "anker-310-usb-c-lightning-cable",
   "anker-powerline-usb-c-usb-c",

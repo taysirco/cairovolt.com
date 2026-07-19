@@ -100,7 +100,7 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🎵 <strong>الـ Codec الأقصى على آيفون:</strong> AAC (256 kbps) — وده ثابت مهما كان نوع السماعة. حتى AirPods Pro 3 بتشتغل بـ AAC مع آيفون (+ Apple Lossless عبر شريحة H2 حصرياً).</li>
-    <li style="margin-bottom:12px;">📱 <strong>ميزة النظام البيئي:</strong> آيفون بيدّي أفضلية لسماعات تدعم AAC بشكل ممتاز + Bluetooth 5.3 — الاتصال بيكون أسرع وأثبت. كمان iOS 18+ بيدعم Spatial Audio مع أي سماعة بتدعم head tracking — مش بس AirPods.</li>
+    <li style="margin-bottom:12px;">📱 <strong>ميزة النظام البيئي:</strong> آيفون بيدّي أفضلية لسماعات تدعم AAC بشكل ممتاز + Bluetooth 5.3 — الاتصال بيكون أسرع وأثبت. كمان iOS 18+ بيدعم Spatialize Stereo (صوت مكاني ثابت) مع أي سماعة بلوتوث، لكن الـ Spatial Audio اللي بيتتبع حركة راسك (head tracking) بيفضل حصري لسماعات AirPods وبعض موديلات Beats اللي فيها شرائح Apple — مش أي سماعة عندها head tracking من عندها.</li>
     <li style="margin-bottom:12px;">⚡ <strong>التأخير (Latency):</strong> آيفون مع AAC بيعطي تأخير حوالي 120-150ms — مقبول للموسيقى والفيديو، لكن لو بتلعب PUBG أو Free Fire هتحتاج Game Mode في السماعة. سماعات <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوند كور</a> بتوفر Game Mode بتأخير 60ms تقريباً.</li>
 </ul>
 
@@ -123,7 +123,7 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 
 <h3>أفضل سماعة ساوند كور لأصحاب سامسونج</h3>
 
-<p><strong>الترشيح الأول:</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور Liberty 4 NC</a> — عشان تستغل <strong>LDAC بـ 990 kbps</strong> اللي موبايلك سامسونج بيدعمه. ده هيديك جودة صوتية أقرب لملف FLAC الأصلي. السعر: 2,800 ج.م. <strong>الترشيح الاقتصادي:</strong> <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور A30i</a> (1,200 ج.م) — AAC ممتاز + ANC + تصميم مدمج + بطارية 9 ساعات. أو <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 ج.م) لو الميزانية محدودة — AAC بأداء ممتاز وبطارية 10 ساعات.</p>
+<p><strong>الترشيح الأول:</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور Liberty 4 NC</a> — عشان تستغل <strong>LDAC بـ 990 kbps</strong> اللي موبايلك سامسونج بيدعمه. ده هيديك جودة صوتية أقرب لملف FLAC الأصلي. السعر: 2,800 ج.م. <strong>الترشيح الاقتصادي:</strong> <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور A30i</a> (1,200 ج.م) — AAC ممتاز + ANC + تصميم مدمج + بطارية لحد 7 ساعات (حوالي 5 ساعات مع ANC) و24 ساعة مع العلبة. أو <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 ج.م) لو الميزانية محدودة — AAC بأداء ممتاز وبطارية 10 ساعات.</p>
 
 <h2>أصحاب Xiaomi/Redmi/POCO — أعلى جودة صوتية متاحة</h2>
 
@@ -140,7 +140,7 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 
 <h3>أفضل سماعة ساوند كور لأصحاب شاومي</h3>
 
-<p><strong>الترشيح الأول (ضروري):</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور Liberty 4 NC</a> — هي السماعة الوحيدة في تشكيلة ساوند كور اللي بتدعم LDAC. يعني دي الوحيدة اللي هتستغل إمكانية موبايل شاومي الكاملة بجودة 990 kbps. السعر: 2,800 ج.م. <strong>البديل الاقتصادي:</strong> <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور P25i</a> (900 ج.م) أو <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 ج.م) — هيشتغلوا بـ AAC أو SBC (مش LDAC) بس الأداء لسه ممتاز جداً لو الميزانية أولوية.</p>
+<p><strong>الترشيح الأول (ضروري):</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور Liberty 4 NC</a> — هي واحدة من سماعات ساوند كور القليلة اللي بتدعم LDAC (زيها Liberty 4 Pro). يعني هتستغل إمكانية موبايل شاومي الكاملة بجودة 990 kbps. السعر: 2,800 ج.م. <strong>البديل الاقتصادي:</strong> <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور P25i</a> (900 ج.م) أو <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 ج.م) — هيشتغلوا بـ AAC أو SBC (مش LDAC) بس الأداء لسه ممتاز جداً لو الميزانية أولوية.</p>
 
 <h2>أصحاب Oppo/Realme/OnePlus — العائلة الكبيرة بميزة مخفية</h2>
 
@@ -156,7 +156,7 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 
 <h3>أفضل سماعة ساوند كور لأصحاب Oppo/Realme</h3>
 
-<p><strong>الترشيح الأول:</strong> <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور A30i</a> — AAC بأداء ممتاز + ANC + تصميم أنيق مدمج + 4.8 جرام (أخف سماعة في التشكيلة) + بطارية 9 ساعات. السعر: 1,200 ج.م. <strong>لو موبايلك بيدعم LDAC:</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> (2,800 ج.م) — عشان تستفيد من أقصى جودة. <strong>اقتصادي:</strong> <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">ساوند كور Life P2i</a> (800 ج.م) — خيار ممتاز لأصحاب الميزانية المحدودة، بأزرار فيزيائية وصوت متوازن.</p>
+<p><strong>الترشيح الأول:</strong> <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور A30i</a> — AAC بأداء ممتاز + ANC + تصميم أنيق مدمج + 4.8 جرام (أخف سماعة في التشكيلة) + بطارية لحد 7 ساعات (حوالي 5 ساعات مع ANC) و24 ساعة مع العلبة. السعر: 1,200 ج.م. <strong>لو موبايلك بيدعم LDAC:</strong> <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> (2,800 ج.م) — عشان تستفيد من أقصى جودة. <strong>اقتصادي:</strong> <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">ساوند كور Life P2i</a> (800 ج.م) — خيار ممتاز لأصحاب الميزانية المحدودة، بأزرار فيزيائية وصوت متوازن.</p>
 
 <h2>الجدول الشامل: كل ماركة × كل سماعة — الـ Codec والتوافق</h2>
 
@@ -358,7 +358,7 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🎵 <strong>Maximum Codec on iPhone:</strong> AAC (256 kbps) — this is fixed regardless of earbuds type. Even AirPods Pro 3 use AAC with iPhone (+ Apple Lossless via H2 chip exclusively).</li>
-    <li style="margin-bottom:12px;">📱 <strong>Ecosystem Advantage:</strong> iPhone gives priority to earbuds with excellent AAC support + Bluetooth 5.3 — connections are faster and more stable. iOS 18+ also supports Spatial Audio with any earbuds that have head tracking — not just AirPods.</li>
+    <li style="margin-bottom:12px;">📱 <strong>Ecosystem Advantage:</strong> iPhone gives priority to earbuds with excellent AAC support + Bluetooth 5.3 — connections are faster and more stable. iOS 18+ also applies fixed "Spatialize Stereo" processing to any Bluetooth earbuds, but dynamic head-tracked Spatial Audio stays exclusive to AirPods and select Beats models with Apple chips — iOS doesn't use a third-party earbud's own head-tracking sensors.</li>
     <li style="margin-bottom:12px;">⚡ <strong>Latency:</strong> iPhone with AAC delivers approximately 120-150ms latency — acceptable for music and video, but for PUBG or Free Fire gaming, you'll need Game Mode in your earbuds. <a href="/en/soundcore" style="color:#2563eb;font-weight:600;">Soundcore</a> earbuds offer Game Mode with approximately 60ms latency.</li>
 </ul>
 
@@ -381,7 +381,7 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 
 <h3>Best Soundcore Earbuds for Samsung Owners</h3>
 
-<p><strong>Top Pick:</strong> <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> — to take advantage of <strong>LDAC at 990 kbps</strong> that your Samsung phone supports. This delivers audio quality closest to a FLAC original file. Price: 2,800 EGP. <strong>Budget Pick:</strong> <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A30i</a> (1,200 EGP) — excellent AAC + ANC + compact design + 9-hour battery. Or <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 EGP) for a tighter budget — excellent AAC performance and 10-hour battery.</p>
+<p><strong>Top Pick:</strong> <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> — to take advantage of <strong>LDAC at 990 kbps</strong> that your Samsung phone supports. This delivers audio quality closest to a FLAC original file. Price: 2,800 EGP. <strong>Budget Pick:</strong> <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A30i</a> (1,200 EGP) — excellent AAC + ANC + compact design + up to 7-hour battery (≈5h with ANC), 24h with the case. Or <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 EGP) for a tighter budget — excellent AAC performance and 10-hour battery.</p>
 
 <h2>Xiaomi/Redmi/POCO Owners — The Highest Audio Quality Available</h2>
 
@@ -398,7 +398,7 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 
 <h3>Best Soundcore Earbuds for Xiaomi Owners</h3>
 
-<p><strong>Top Pick (Essential):</strong> <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> — it's the only Soundcore earbud that supports LDAC. This means it's the only one that will fully utilize your Xiaomi phone's capabilities at 990 kbps quality. Price: 2,800 EGP. <strong>Budget Alternative:</strong> <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P25i</a> (900 EGP) or <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 EGP) — they'll run on AAC or SBC (not LDAC) but performance is still excellent if budget is your priority.</p>
+<p><strong>Top Pick (Essential):</strong> <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> — it's one of the few Soundcore earbuds that support LDAC (alongside the Liberty 4 Pro). This means it will fully utilize your Xiaomi phone's capabilities at 990 kbps quality. Price: 2,800 EGP. <strong>Budget Alternative:</strong> <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P25i</a> (900 EGP) or <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 EGP) — they'll run on AAC or SBC (not LDAC) but performance is still excellent if budget is your priority.</p>
 
 <h2>Oppo/Realme/OnePlus Owners — The Big Family with a Hidden Advantage</h2>
 
@@ -414,7 +414,7 @@ export const bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo: BlogAr
 
 <h3>Best Soundcore Earbuds for Oppo/Realme Owners</h3>
 
-<p><strong>Top Pick:</strong> <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A30i</a> — excellent AAC performance + ANC + elegant compact design + 4.8g (lightest in the lineup) + 9-hour battery. Price: 1,200 EGP. <strong>If your phone supports LDAC:</strong> <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> (2,800 EGP) — to unlock maximum quality. <strong>Budget:</strong> <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Soundcore Life P2i</a> (800 EGP) — an excellent choice for tight budgets, with physical buttons and balanced sound.</p>
+<p><strong>Top Pick:</strong> <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A30i</a> — excellent AAC performance + ANC + elegant compact design + 4.8g (lightest in the lineup) + up to 7-hour battery (≈5h with ANC), 24h with the case. Price: 1,200 EGP. <strong>If your phone supports LDAC:</strong> <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> (2,800 EGP) — to unlock maximum quality. <strong>Budget:</strong> <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Soundcore Life P2i</a> (800 EGP) — an excellent choice for tight budgets, with physical buttons and balanced sound.</p>
 
 <h2>Complete Compatibility Table: Every Brand × Every Earbud — Codecs and Compatibility</h2>
 

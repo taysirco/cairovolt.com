@@ -23,15 +23,15 @@ export const anker_a2741_charger_30w = {
     ],
         translations: {
             en: {
-                name: "Anker 30W Mini Car Charger (A2741) | USB-C 27W PD + USB-A 22.5W | Ultra-Compact",
+                name: "Anker 30W Mini Car Charger (A2741) | USB-C 30W PD + USB-A 22.5W | Ultra-Compact",
                 shortDescription: "🚗 Listed 30W total | 🔌 USB-C PD/PPS + USB-A PowerIQ 3.0 | 📐 Listed 15g design | 📱 Match phone and cable profiles | 🛡️ Verify MultiProtect statement | 🔋 Check vehicle socket fit",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker A2741 car charger</strong> listing states a 30W total, USB-C PD/PPS up to 27W, USB-A PowerIQ 3.0 up to 22.5W and a 15g weight. Confirm the printed single-port and simultaneous-use table, vehicle input range, socket fit, dimensions and protection markings on the supplied unit. Actual power varies with the phone, cable, battery state and temperature. Check the live price, stock and current warranty terms.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker A2741 car charger</strong> listing states a 30W total, USB-C PD/PPS up to 30W, USB-A PowerIQ 3.0 up to 22.5W and a 15g weight. Confirm the printed single-port and simultaneous-use table, vehicle input range, socket fit, dimensions and protection markings on the supplied unit. Actual power varies with the phone, cable, battery state and temperature. Check the live price, stock and current warranty terms.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
-    <li>🚗 <strong>30W Total Output:</strong> USB-C PD/PPS (27W single) + USB-A PowerIQ 3.0 (22.5W single).</li>
+    <li>🚗 <strong>30W Total Output:</strong> USB-C PD/PPS (30W single) + USB-A PowerIQ 3.0 (22.5W single).</li>
     <li>📐 <strong>Listed size:</strong> verify 15g, 55mm dimensions and console clearance for the supplied unit.</li>
     <li>⚡ <strong>PPS support:</strong> requires a phone, charger profile and cable that support the same mode.</li>
     <li>🔌 <strong>PowerIQ 3.0 USB-A:</strong> verify the listed profile and compare it with the exact phone, cable and other charger under the same conditions.</li>
@@ -42,7 +42,7 @@ export const anker_a2741_charger_30w = {
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">Miniature Size, Maximum Power</h2>
-    <p class="text-gray-700">The listed dimensions are <strong>55mm × 24mm</strong> with a 15g weight, designed to sit close to a compatible 12V socket. The stated profiles are <strong>30W total</strong>, USB-C PD/PPS up to 27W and USB-A PowerIQ 3.0 up to 22.5W when used separately. Confirm dimensions, socket clearance and shared-output behavior for the supplied model.</p></section>
+    <p class="text-gray-700">The listed dimensions are <strong>55mm × 24mm</strong> with a 15g weight, designed to sit close to a compatible 12V socket. The stated profiles are <strong>30W total</strong>, USB-C PD/PPS up to 30W and USB-A PowerIQ 3.0 up to 22.5W when used separately. Confirm dimensions, socket clearance and shared-output behavior for the supplied model.</p></section>
     <section><h2 class="text-2xl font-bold mb-2">PPS and Device Profiles</h2>
     <p class="text-gray-700">The listing describes a USB-C PPS range for A2741. A branded phone mode appears only when the phone, charger profile and cable meet the same requirements. When both ports are active, use the printed shared-output table instead of assuming a fixed split.</p></section>
     <section><h2 class="text-2xl font-bold mb-2">Vehicle Socket, Heat and Active Phone Use</h2>
@@ -58,9 +58,9 @@ export const anker_a2741_charger_30w = {
 
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A2741</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms. Review <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">the official verification reference</a>.</p></div>
 `,
-                features: ["🚗 Listed 30W total", "⚡ USB-C PD/PPS listed up to 27W", "🔌 USB-A PowerIQ 3.0 listed up to 22.5W", "📐 Verify listed 15g dimensions", "📱 Match device and cable profiles", "🛡️ Verify MultiProtect statement", "🔋 Check 12V/24V socket compatibility", "🏆 current warranty and return policy"],
+                features: ["🚗 Listed 30W total", "⚡ USB-C PD/PPS listed up to 30W", "🔌 USB-A PowerIQ 3.0 listed up to 22.5W", "📐 Verify listed 15g dimensions", "📱 Match device and cable profiles", "🛡️ Verify MultiProtect statement", "🔋 Check 12V/24V socket compatibility", "🏆 current warranty and return policy"],
                 metaTitle: "Anker Mini 30W Car Charger | Ultra Compact | COD",
-                metaDesc: "Buy Anker A2741 mini car charger in Egypt. 30W: USB-C 27W PD/PPS + USB-A 22.5W. Only 15g! Samsung PPS fast charging. ✓ current warranty and return policy ✓ Fast Delivery.",
+                metaDesc: "Buy Anker A2741 mini car charger in Egypt. 30W: USB-C 30W PD/PPS + USB-A 22.5W. Only 15g! Samsung PPS fast charging. ✓ current warranty and return policy ✓ Fast Delivery.",
                 faqs: [
                     { question: "How should I compare the A2741 with A2732?", answer: "Compare the current printed dimensions, weight, single-port and shared output tables, PD/PPS profiles, socket clearance, live prices and warranty terms. Do not infer the better choice from size or one wattage alone." },
                     { question: "Does PPS make a difference for Samsung phones?", answer: "PPS can enable a compatible negotiated charging mode only when the phone, charger profile and cable all meet the requirements. Check the exact phone and A2741 output table." },
@@ -70,15 +70,15 @@ export const anker_a2741_charger_30w = {
                 ]
             },
             ar: {
-                name: "شاحن سيارة انكر 30 واط ميني (A2741) | USB-C 27 واط PD/PPS + USB-A 22.5 واط | فائق الصغر",
+                name: "شاحن سيارة انكر 30 واط ميني (A2741) | USB-C 30 واط PD/PPS + USB-A 22.5 واط | فائق الصغر",
                 shortDescription: "🚗 قدرة إجمالية معلنة 30 واط | 📐 وزن معلن 15 جرام | 🔌 USB-C PD/PPS + USB-A PowerIQ 3.0 | ⚡ طابق بروفايل الهاتف والكابل | 🛡️ تحقق من MultiProtect | 🔋 راجع مقبس السيارة",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">تذكر قائمة <strong>شاحن السيارة انكر A2741</strong> قدرة إجمالية 30 واط وUSB-C PD/PPS حتى 27 واط وUSB-A PowerIQ 3.0 حتى 22.5 واط ووزناً 15 جرام. تحقق من جدول المنفذ الواحد والاستخدام المتزامن ودخل السيارة وشكل المقبس والأبعاد وعلامات الحماية على الوحدة الموردة. تختلف القدرة حسب الهاتف والكابل والبطارية والحرارة. راجع السعر والمخزون والضمان الحالي.</p>
+    <p class="text-gray-800 leading-relaxed">تذكر قائمة <strong>شاحن السيارة انكر A2741</strong> قدرة إجمالية 30 واط وUSB-C PD/PPS حتى 30 واط وUSB-A PowerIQ 3.0 حتى 22.5 واط ووزناً 15 جرام. تحقق من جدول المنفذ الواحد والاستخدام المتزامن ودخل السيارة وشكل المقبس والأبعاد وعلامات الحماية على الوحدة الموردة. تختلف القدرة حسب الهاتف والكابل والبطارية والحرارة. راجع السعر والمخزون والضمان الحالي.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">
-    <li>🚗 <strong>30 واط إجمالي:</strong> USB-C PD/PPS (27 واط منفرد) + USB-A PowerIQ 3.0 (22.5 واط منفرد).</li>
+    <li>🚗 <strong>30 واط إجمالي:</strong> USB-C PD/PPS (30 واط منفرد) + USB-A PowerIQ 3.0 (22.5 واط منفرد).</li>
     <li>📐 <strong>الحجم المعلن:</strong> تحقق من وزن 15 جرام وطول 55 ملم ومساحة الكونسول.</li>
     <li>⚡ <strong>دعم PPS:</strong> يحتاج هاتفاً وبروفايل شاحن وكابلاً يدعمون الوضع نفسه.</li>
     <li>🔌 <strong>USB-A PowerIQ 3.0:</strong> قدرة معلنة حتى 22.5 واط؛ يعتمد الخرج على الجهاز والكابل والبروفايل المشترك.</li>
@@ -89,7 +89,7 @@ export const anker_a2741_charger_30w = {
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">حجم صغير، قوة كبيرة</h2>
-    <p class="text-gray-700">الأبعاد المدرجة <strong>55 ملم × 24 ملم</strong> والوزن 15 جرام، وهو مصمم للجلوس قريباً من مقبس 12 فولت المتوافق. البروفايلات المعلنة هي <strong>30 واط إجمالي</strong> وUSB-C PD/PPS حتى 27 واط وUSB-A PowerIQ 3.0 حتى 22.5 واط عند الاستخدام المنفرد. تحقق من الأبعاد ومساحة المقبس وتقسيم القدرة للموديل المورّد.</p></section>
+    <p class="text-gray-700">الأبعاد المدرجة <strong>55 ملم × 24 ملم</strong> والوزن 15 جرام، وهو مصمم للجلوس قريباً من مقبس 12 فولت المتوافق. البروفايلات المعلنة هي <strong>30 واط إجمالي</strong> وUSB-C PD/PPS حتى 30 واط وUSB-A PowerIQ 3.0 حتى 22.5 واط عند الاستخدام المنفرد. تحقق من الأبعاد ومساحة المقبس وتقسيم القدرة للموديل المورّد.</p></section>
     <section><h2 class="text-2xl font-bold mb-2">PPS: شحن سامسونج السريع في العربية</h2>
     <p class="text-gray-700">منفذ USB-C في A2741 مدرج بدعم <strong>PPS (Programmable Power Supply)</strong> ضمن 3.3-11V⎓3A. يحتاج الشحن السريع المتفاوض عليه توافق الهاتف والكابل وملف الخرج، ولا يعني دعم PPS حصول كل هاتف سامسونج أو ايفون على قدرة ثابتة. عند تشغيل المنفذين تتوزع القدرة وفق جدول الموديل؛ راجع القيم المطبوعة على الوحدة.</p></section>
     <section><h2 class="text-2xl font-bold mb-2">مصمم لزحمة القاهرة وحر الصيف</h2>
@@ -105,9 +105,9 @@ export const anker_a2741_charger_30w = {
 
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A2741</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية. راجع <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">مرجع التحقق الرسمي</a>.</p></div>
 `,
-                features: ["🚗 قدرة إجمالية معلنة 30 واط", "📐 تحقق من وزن وأبعاد 15 جرام المعلنة", "⚡ USB-C PD/PPS حتى 27 واط معلنة", "🔌 USB-A PowerIQ حتى 22.5 واط معلنة", "📱 طابق بروفايل الجهاز والكابل", "🛡️ تحقق من بيان MultiProtect", "🔋 راجع توافق مقبس 12/24 فولت", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
+                features: ["🚗 قدرة إجمالية معلنة 30 واط", "📐 تحقق من وزن وأبعاد 15 جرام المعلنة", "⚡ USB-C PD/PPS حتى 30 واط معلنة", "🔌 USB-A PowerIQ حتى 22.5 واط معلنة", "📱 طابق بروفايل الجهاز والكابل", "🛡️ تحقق من بيان MultiProtect", "🔋 راجع توافق مقبس 12/24 فولت", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "شاحن سيارة انكر ميني 30 واط | USB-C PD/PPS | مصر",
-                metaDesc: "اشتري شاحن سيارة انكر A2741 ميني في مصر. 30 واط: USB-C بقوة 27 واط PD/PPS + USB-A بقوة 22.5 واط. وزنه 15 جرام بس! شحن سامسونج السريع. ✓ راجع سياسة الضمان والاسترجاع الحالية.",
+                metaDesc: "اشتري شاحن سيارة انكر A2741 ميني في مصر. 30 واط: USB-C بقوة 30 واط PD/PPS + USB-A بقوة 22.5 واط. وزنه 15 جرام بس! شحن سامسونج السريع. ✓ راجع سياسة الضمان والاسترجاع الحالية.",
                 faqs: [
                     { question: "إزاي أقارنه مع A2732؟", answer: "قارن الأبعاد والوزن وجدول المنفذ الواحد والتوزيع المشترك وبروفايلات PD/PPS ومساحة المقبس والسعر والضمان الحاليين. لا تحسم الاختيار من الحجم أو رقم قدرة واحد." },
                     { question: "الـ PPS بيفرق إيه مع سامسونج؟", answer: "يسمح PPS بتفاوض متدرج للجهد والتيار مع هواتف متوافقة. يجب أن يدعم الهاتف والكابل وملف الشاحن الوضع نفسه، لذلك راجع مواصفات جهاز سامسونج والقيم المطبوعة على A2741 بدل افتراض معدل ثابت." },

@@ -29,7 +29,7 @@ export const soundcore_p40i_earbuds = {
 
     translations: {
         en: {
-            name: "Soundcore P40i | 40dB ANC | 12mm BassUp | 60h Battery | App EQ",
+            name: "Soundcore P40i | Adaptive ANC | 11mm BassUp | 60h Battery | App EQ",
             shortDescription: "Soundcore P40i A3955 — verify current specifications, package contents and CairoVolt warranty terms",
             description: `<div class="product-details">
     <section>
@@ -53,7 +53,7 @@ export const soundcore_p40i_earbuds = {
                     { question: "Is the driver 12mm or 11mm?", answer: "This listing identifies an 11mm composite driver. Confirm A3955 and the current manufacturer documentation; perceived bass depends on fit, EQ, source and recording." },
                     { question: "Does the phone-stand case hold large phones?", answer: "The case includes a fixed-angle stand for compatible phones. Stability depends on phone size, case thickness, and the surface, so place it on a flat surface and check the fit." },
                     { question: "How is call quality with the listed microphones?", answer: "Microphone processing depends on fit, wind, background noise, phone, firmware and call app. The microphone count alone does not predict a fixed score; test the current unit in your typical environment." },
-                    { question: "How is the 60-hour battery figure calculated?", answer: "It is the manufacturer's total rated playback with the charging case under stated conditions. Actual runtime varies with ANC, volume, calls, codec, and temperature. Soundcore lists a 10-minute quick charge for up to 2 hours of playback." },
+                    { question: "How is the 60-hour battery figure calculated?", answer: "It is the manufacturer's total rated playback with the charging case under stated conditions. Actual runtime varies with ANC, volume, calls, codec, and temperature. Soundcore lists a 10-minute quick charge for up to 5 hours of playback." },
             ]
         },
         ar: {
@@ -80,7 +80,7 @@ export const soundcore_p40i_earbuds = {
                     { question: "P40i ولا R50i NC — أقارن إيه؟", answer: "قارن طرق العزل الحالية تحت الاختبار نفسه والملاءمة ودعم التطبيق والكودك وإعدادات البطارية المنشورة ووظائف العلبة والسعر والضمان. رقم الدرايفر أو dB وحده لا يحدد الأنسب." },
                     { question: "الدرايفر 12mm ولا 11mm؟", answer: "تذكر هذه القائمة درايفر 11mm. تحقّق من A3955 ووثائق ساوندكور الحالية؛ يعتمد الباس الفعلي على الملاءمة وEQ والمصدر والتسجيل." },
                     { question: "علبة حامل الموبايل بتمسك موبايلات كبيرة؟", answer: "العلبة فيها حامل بزاوية ثابتة للهواتف المتوافقة. الثبات يعتمد على حجم الهاتف وسمك الجراب والسطح، فضعها على سطح مستوٍ وتأكد من الملاءمة." },
-                    { question: "رقم 60 ساعة بطارية محسوب إزاي؟", answer: "ده إجمالي التشغيل المعلن من الشركة مع علبة الشحن وتحت شروط محددة. المدة الفعلية تختلف حسب ANC ومستوى الصوت والمكالمات والكودك والحرارة. وتعلن ساوندكور أن 10 دقائق شحن سريع توفر حتى ساعتين تشغيل." },
+                    { question: "رقم 60 ساعة بطارية محسوب إزاي؟", answer: "ده إجمالي التشغيل المعلن من الشركة مع علبة الشحن وتحت شروط محددة. المدة الفعلية تختلف حسب ANC ومستوى الصوت والمكالمات والكودك والحرارة. وتعلن ساوندكور أن 10 دقائق شحن سريع توفر حتى 5 ساعات تشغيل." },
                     { question: "الضمان بيغطي إيه؟", answer: "راجع مدة الضمان الحالية والأهلية والاستثناءات وطريقة المطالبة المنشورة لهذه القائمة، واحتفظ بالفاتورة وبيانات الموديل." },
             ]
         }
