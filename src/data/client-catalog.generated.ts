@@ -683,15 +683,15 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Joyroom JR-CL26 Retractable Car Charger | Verify 60W-Class Output"
+                "name": "Joyroom JR-CCL05 Retractable 4-in-1 Car Charger 69W | 2 Cables + 2 Ports"
             },
             "ar": {
-                "name": "شاحن سيارة جوي روم JR-CL26 بكابل قابل للسحب | تحقق من قدرة فئة 60 واط"
+                "name": "شاحن سيارة جوي روم JR-CCL05 القابل للسحب 4 في 1 بقدرة 69 واط | كابلين + منفذين"
             }
         },
         "image": {
             "url": "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-6.webp",
-            "alt": "Joyroom JR-CL26 retractable car charger - CairoVolt"
+            "alt": "Joyroom JR-CCL05 retractable car charger - CairoVolt"
         }
     },
     {

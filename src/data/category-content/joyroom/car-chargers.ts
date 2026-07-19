@@ -6,46 +6,46 @@ export const joyroom_car_chargers_content: CategoryContent = {
             categoryName: 'Car Chargers',
             metadata: {
                 en: {
-                    title: 'Joyroom Car Charger Egypt | JR-CL26 Retractable 60W USB-C',
-                    description: 'Joyroom JR-CL26 car charger in Egypt: retractable USB-C cable, extra USB-A port, 60W-class total. Current price and CairoVolt warranty on the product page.',
-                    keywords: 'joyroom car charger, joyroom 60w car charger, Joyroom JR-CL26, retractable car charger egypt, USB-C PD car charger, fast car charger egypt, joyroom car charger price egypt, شاحن سيارة جوي روم',
+                    title: 'Joyroom Car Charger Egypt | JR-CCL05 Retractable 4-in-1 69W',
+                    description: 'Joyroom JR-CCL05 retractable 4-in-1 car charger in Egypt: two built-in cables (USB-C + Lightning) plus USB-A and USB-C ports, 69W total. Price and CairoVolt warranty on the product page.',
+                    keywords: 'joyroom car charger, joyroom retractable car charger, Joyroom JR-CCL05, 4-in-1 car charger egypt, retractable car charger egypt, USB-C PD car charger, fast car charger egypt, شاحن سيارة جوي روم',
                 },
                 ar: {
-                    title: 'شاحن سيارة جوي روم مصر | JR-CL26 بكابل قابل للسحب 60W',
-                    description: 'شاحن سيارة جوي روم JR-CL26 بكابل USB-C قابل للسحب ومنفذ USB-A إضافي وقدرة من فئة 60 واط. السعر الحالي وضمان كايرو فولت موضحان في صفحة المنتج مع الدفع عند الاستلام.',
-                    keywords: 'شاحن سيارة جوي روم, شاحن سيارة 60W, شاحن سيارة سريع, شاحن سيارة USB-C, سعر شاحن سيارة جوي روم, Joyroom JR-CL26, شاحن سيارة بكابل قابل للسحب, شاحن سيارة مصر',
+                    title: 'شاحن سيارة جوي روم مصر | JR-CCL05 قابل للسحب 4 في 1 بقدرة 69W',
+                    description: 'شاحن سيارة جوي روم JR-CCL05 القابل للسحب 4 في 1: كابلان مدمجان (USB-C + Lightning) ومنفذا USB-A و USB-C بقدرة إجمالية 69 واط. السعر وضمان كايرو فولت في صفحة المنتج مع الدفع عند الاستلام.',
+                    keywords: 'شاحن سيارة جوي روم, شاحن سيارة قابل للسحب, شاحن سيارة 4 في 1, شاحن سيارة سريع, شاحن سيارة USB-C, سعر شاحن سيارة جوي روم, Joyroom JR-CCL05, شاحن سيارة مصر',
                 }
             },
             pageContent: {
                 ar: {
-                    title: 'شاحن سيارة جوي روم 60W سريع',
-                    subtitle: 'جوي روم Car Charger - كابل مدمج قابل للسحب ومنفذ إضافي',
+                    title: 'شاحن سيارة جوي روم 69W قابل للسحب 4 في 1',
+                    subtitle: 'جوي روم Car Charger - كابلان مدمجان قابلان للسحب + منفذان إضافيان',
                     description: `
-      لو بتستخدم موبايلك في الملاحة أو المكالمات وانت سايق، شاحن سيارة **جوي روم** JR-CL26 بيجمع كابل USB-C مدمج قابل للسحب ومنفذ USB-A إضافي في جهاز واحد بقدرة إجمالية من فئة 60 واط حسب جدول التوزيع المطبوع على الوحدة.
+      لو بتستخدم موبايلك في الملاحة أو المكالمات وانت سايق، شاحن سيارة **جوي روم** JR-CCL05 بيجمع كابلين مدمجين قابلين للسحب (طرف USB-C وطرف Lightning) بالإضافة لمنفذ USB-A 2.4A ومنفذ USB-C 3A في جهاز واحد بقدرة إجمالية 69 واط حسب جدول التوزيع المطبوع على الوحدة — فيقدر يشحن حتى 4 أجهزة في نفس الوقت.
 
       **من غير كابلات مرمية في العربية:**
-      الكابل القابل للسحب بيرجع جوه الشاحن بعد الاستخدام، فالتابلوه بيفضل مرتب ومش محتاج كابل منفصل للمنفذ الأساسي. اسحب الكابل ورجّعه بهدوء من غير لي أو شد مفاجئ حسب التعليمات.
+      الكابلان القابلان للسحب بيرجعوا جوه الشاحن بعد الاستخدام، فالتابلوه بيفضل مرتب ومش محتاج تشتري كابل للأيفون أو للأندرويد. اسحب الكابل ورجّعه بهدوء من غير لي أو شد مفاجئ حسب التعليمات (الكابلات بطول حوالي 80 سم).
 
       راجع توافق الشاحن مع منفذ السيارة 12V أو 24V، وما تسيبوش تحت الشمس المباشرة. ضمان كايرو فولت ومدته وشروطه موضحة في صفحة المنتج والسياسة، والدفع عند الاستلام متاح للطلبات المؤهلة. كمّل منظومة عربيتك مع [حامل موبايل سيارة جوي روم](/joyroom/car-holders)، أو قارن مع [شواحن سيارة انكر](/anker/car-chargers) لو بتدور على منافذ وقدرات مختلفة.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'كابل USB-C مدمج قابل للسحب + منفذ USB-A' },
+                        { type: 'originality', text: 'كابلان مدمجان (USB-C + Lightning) + منفذا USB-A و USB-C' },
                         { type: 'warranty', text: 'ضمان كايرو فولت حسب صفحة المنتج والسياسة' },
-                        { type: 'expert_verified', text: 'قدرة فئة 60W حسب جدول التوزيع المطبوع' }
+                        { type: 'expert_verified', text: 'قدرة 69W حسب جدول التوزيع المطبوع' }
                     ],
                     buyingGuide: [
                         {
-                            title: 'ليه الكابل القابل للسحب عملي في العربية؟',
+                            title: 'ليه الكابلات القابلة للسحب عملية في العربية؟',
                             content: `
-- **تابلوه مرتب:** الكابل بيرجع جوه الشاحن بعد الاستخدام، فمفيش كابل متدلي قدام الفتيس أو فتحة التكييف.
-- **جاهز على طول:** المنفذ الأساسي USB-C جاهز بكابله المدمج، ومنفذ USB-A بيشتغل مع كابلك الخاص لجهاز تاني متوافق.
+- **تابلوه مرتب:** الكابلات بترجع جوه الشاحن بعد الاستخدام، فمفيش كابل متدلي قدام الفتيس أو فتحة التكييف.
+- **جاهز على طول:** فيه طرف USB-C وطرف Lightning مدمجين لأجهزة الأندرويد والأيفون، ومنفذا USB-A و USB-C بيشتغلوا مع كابلك الخاص لأجهزة إضافية — لحد 4 أجهزة مع بعض.
 - **العناية بيه:** اسحب الكابل ورجّعه من غير لي أو شد مفاجئ، وبطّل استخدام لو ظهر تلف في الكابل أو آلية السحب.
 `
                         },
                         {
-                            title: 'قدرة 60W بتتوزع إزاي بين المنفذين؟',
+                            title: 'قدرة 69W بتتوزع إزاي بين المنافذ؟',
                             content: `
-رقم 60 واط بيعبر عن حد إجمالي من فئته، مش وعد بقدرة ثابتة لكل منفذ. لما توصل جهازين مع بعض، حصة كل منفذ بتتحدد حسب جدول التوزيع المطبوع على الوحدة ودعم كل جهاز لبروفايلات PD أو PPS. راجع الجدول في صفحة المنتج وطابقه مع متطلبات موبايلك قبل الشراء.
+رقم 69 واط بيعبر عن حد إجمالي، مش وعد بقدرة ثابتة لكل منفذ. لما توصل أكتر من جهاز مع بعض، حصة كل منفذ أو كابل بتتحدد حسب جدول التوزيع المطبوع على الوحدة ودعم كل جهاز لبروفايلات PD أو PPS. راجع الجدول في صفحة المنتج وطابقه مع متطلبات موبايلك قبل الشراء.
 `
                         },
                         {
@@ -61,12 +61,12 @@ export const joyroom_car_chargers_content: CategoryContent = {
                             answer: 'السعر الحالي يظهر في بطاقة وصفحة المنتج وقد يتغير حسب العروض. قارن المنافذ وجدول توزيع القدرة ودعم PD/PPS، وراجع ضمان كايرو فولت وموعد التوصيل التقديري لعنوانك قبل تأكيد الطلب.'
                         },
                         {
-                            question: 'شاحن جوي روم 60W بيشحن جهازين في نفس الوقت؟',
-                            answer: 'موديل JR-CL26 يوفر كابل USB-C مدمجاً ومنفذ USB-A لشحن جهازين متوافقين. القدرة المتاحة لكل اتصال قد تقل عند استخدامهما معاً؛ راجع جدول توزيع الطاقة المطبوع على الوحدة وفي صفحة المنتج.'
+                            question: 'شاحن جوي روم JR-CCL05 بيشحن كام جهاز في نفس الوقت؟',
+                            answer: 'موديل JR-CCL05 فيه كابلان مدمجان قابلان للسحب (USB-C + Lightning) ومنفذا USB-A و USB-C، فيقدر يشحن حتى 4 أجهزة متوافقة. القدرة المتاحة لكل اتصال قد تقل عند استخدامهم معاً؛ راجع جدول توزيع الطاقة المطبوع على الوحدة وفي صفحة المنتج.'
                         },
                         {
-                            question: 'الكابل القابل للسحب طوله قد إيه؟',
-                            answer: 'تحقق من الطول المطبوع على الوحدة أو العبوة الموردة قبل الاعتماد على رقم معين. مدد الكابل ورجّعه حسب التعليمات من غير لي أو شد مفاجئ للحفاظ على آلية السحب.'
+                            question: 'الكابلات القابلة للسحب طولها قد إيه؟',
+                            answer: 'الكابلات المدمجة بطول حوالي 80 سم؛ تحقق من الطول المطبوع على الوحدة أو العبوة الموردة قبل الاعتماد على رقم معين. مدد الكابل ورجّعه حسب التعليمات من غير لي أو شد مفاجئ للحفاظ على آلية السحب.'
                         },
                         {
                             question: 'هل الشاحن آمن مع حرارة الجو في مصر؟',
@@ -74,11 +74,11 @@ export const joyroom_car_chargers_content: CategoryContent = {
                         },
                         {
                             question: 'هل بيشحن ايفون وسامسونج بسرعة؟',
-                            answer: 'الكابل المدمج USB-C يدعم الشحن السريع للأجهزة المتوافقة مع بروفايلات PD أو PPS المطبوعة على الموديل. السرعة الفعلية تختلف حسب الهاتف وحالة البطارية والحرارة؛ طابق متطلبات جهازك مع الجدول في صفحة المنتج.'
+                            answer: 'الكابلان المدمجان (USB-C + Lightning) يدعمان الشحن السريع للأجهزة المتوافقة مع بروفايلات PD أو PPS المطبوعة على الموديل. السرعة الفعلية تختلف حسب الهاتف وحالة البطارية والحرارة؛ طابق متطلبات جهازك مع الجدول في صفحة المنتج.'
                         },
                         {
                             question: '⚠️ إزاي أفرق بين شاحن جوي روم الأصلي والمقلد؟',
-                            answer: 'راجع رقم الموديل JR-CL26 ومواصفات الخرج المطبوعة على العبوة ووسيلة التحقق الرسمية المتاحة من الشركة، واحتفظ بالفاتورة. الخامة أو كود QR أو سجل الضمان وحدها لا تثبت أصالة الشركة المصنّعة.'
+                            answer: 'راجع رقم الموديل JR-CCL05 ومواصفات الخرج المطبوعة على العبوة ووسيلة التحقق الرسمية المتاحة من الشركة، واحتفظ بالفاتورة. الخامة أو كود QR أو سجل الضمان وحدها لا تثبت أصالة الشركة المصنّعة.'
                         },
                         {
                             question: 'ما ضمان شاحن سيارة جوي روم في مصر؟',
@@ -90,38 +90,38 @@ export const joyroom_car_chargers_content: CategoryContent = {
                         }
                     ],
                     products: [
-                        { name: 'شاحن سيارة جوي روم 60W (JR-CL26)', price: 513, badge: 'كابل قابل للسحب' }
+                        { name: 'شاحن سيارة جوي روم 69W قابل للسحب 4 في 1 (JR-CCL05)', price: 513, badge: 'كابلان قابلان للسحب' }
                     ]
                 },
                 en: {
                     title: 'Joyroom Car Chargers',
-                    subtitle: 'Retractable built-in cable plus an extra port for a second device',
+                    subtitle: 'Two retractable built-in cables plus two extra ports — up to 4 devices',
                     description: `
-      The Joyroom JR-CL26 car charger combines a retractable built-in USB-C cable with an additional USB-A port in a single 60W-class unit. The power available to each connection follows the distribution table printed on the charger.
+      The Joyroom JR-CCL05 retractable 4-in-1 car charger combines two retractable built-in cables (a USB-C tip and a Lightning tip) with two fixed ports (USB-A 2.4A and USB-C 3A) in a single 69W unit, so it can charge up to four devices at once. The power available to each connection follows the distribution table printed on the charger.
 
       **No loose cables on the dashboard:**
-      The built-in cable retracts back into the charger after use, so the primary USB-C connection needs no separate cable. Extend and retract it gently according to the instructions, without twisting or sudden pulls.
+      The two built-in cables retract back into the charger after use, so you don't need a separate cable for your iPhone or Android phone. Extend and retract them gently according to the instructions, without twisting or sudden pulls (the cords are about 80cm each).
 
       Check compatibility with the vehicle's 12V or 24V outlet and avoid direct sun exposure. CairoVolt warranty duration and terms are listed on the product page and warranty policy, and cash on delivery is available for eligible orders. Pair it with a [Joyroom car phone holder](/joyroom/car-holders), or compare [Anker car chargers](/anker/car-chargers) for different port and output options.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'Retractable USB-C cable plus USB-A port' },
+                        { type: 'originality', text: 'Two retractable cables (USB-C + Lightning) plus USB-A and USB-C ports' },
                         { type: 'warranty', text: 'CairoVolt warranty as listed per product' },
-                        { type: 'expert_verified', text: '60W-class total per printed distribution table' }
+                        { type: 'expert_verified', text: '69W total per printed distribution table' }
                     ],
                     buyingGuide: [
                         {
-                            title: 'Why a Retractable Cable Works Well in the Car',
+                            title: 'Why Retractable Cables Work Well in the Car',
                             content: `
-- **Tidy dashboard:** the built-in cable retracts into the charger after use, so nothing dangles near the gear lever or air vents.
-- **Always ready:** the primary USB-C connection carries its own cable, while the USB-A port works with your own cable for a second compatible device.
-- **Cable care:** extend and retract gently without twisting, and stop using the charger if the cable or retraction mechanism is damaged.
+- **Tidy dashboard:** the built-in cables retract into the charger after use, so nothing dangles near the gear lever or air vents.
+- **Always ready:** a USB-C tip and a Lightning tip are built in for Android and iPhone, while the USB-A and USB-C ports take your own cable for extra devices — up to four at once.
+- **Cable care:** extend and retract gently without twisting, and stop using the charger if a cable or the retraction mechanism is damaged.
 `
                         },
                         {
-                            title: 'How the 60W-Class Total Is Shared',
+                            title: 'How the 69W Total Is Shared',
                             content: `
-The 60W figure describes a combined ceiling for its class, not a fixed promise per port. When two devices are connected, each port's share follows the distribution table printed on the unit and each device's PD/PPS support. Match that table against your phone's requirements before buying.
+The 69W figure describes a combined ceiling, not a fixed promise per port. When several devices are connected, each cable or port's share follows the distribution table printed on the unit and each device's PD/PPS support. Match that table against your phone's requirements before buying.
 `
                         },
                         {
@@ -132,7 +132,7 @@ It depends on the vehicle: some 12V outlets switch off with the engine while oth
                         }
                     ],
                     products: [
-                        { name: 'Joyroom 60W Car Charger (JR-CL26)', price: 513, badge: 'Retractable Cable' }
+                        { name: 'Joyroom 69W Retractable 4-in-1 Car Charger (JR-CCL05)', price: 513, badge: 'Two Retractable Cables' }
                     ]
                 }
             }
