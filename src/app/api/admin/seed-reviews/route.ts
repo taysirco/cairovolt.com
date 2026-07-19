@@ -139,7 +139,7 @@ export async function POST(req: NextRequest) {
     }
 
     try {
-        revalidateTag('reviews');
+        revalidateTag('reviews', 'default');
     } catch (err) {
         console.error('Failed to revalidate reviews tag:', err);
     }
@@ -186,7 +186,7 @@ export async function DELETE(req: NextRequest) {
     }
 
     try {
-        revalidateTag('reviews');
+        revalidateTag('reviews', 'default');
     } catch (err) {
         console.error('Failed to revalidate reviews tag:', err);
     }
