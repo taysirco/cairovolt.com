@@ -30,6 +30,7 @@ const FB_PAGE_ID           = process.env.FB_PAGE_ID;
 const IG_USER_ID           = process.env.IG_USER_ID;
 const DRY_RUN              = process.env.DRY_RUN === 'true';
 const FORCE_SLUG          = process.env.FORCE_SLUG?.trim() || '';
+const SKIP_IG             = process.env.SKIP_IG === 'true';   // اختبار فيسبوك وحده بدون تكرار انستجرام
 const MAX_PER_RUN          = Math.max(1, parseInt(process.env.MAX_PER_RUN || '2', 10));
 
 const SCHEDULE_FILE = resolve(projectRoot, 'src/data/blog-schedule.generated.ts');
@@ -122,27 +123,46 @@ ${a.excerptAr}
 }
 
 // ─── Facebook Graph helper ───────────────────────────────────────────────────
-async function fbPost(endpoint, body) {
+async function fbPost(endpoint, body, token) {
   const url = `https://graph.facebook.com/v21.0/${endpoint}`;
   if (DRY_RUN) { console.log(`  🔵 [DRY RUN] POST ${url}`); return { id: 'dry-' + Date.now() }; }
   const res = await fetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ ...body, access_token: FB_PAGE_ACCESS_TOKEN }),
+    body: JSON.stringify({ ...body, access_token: token || FB_PAGE_ACCESS_TOKEN }),
   });
   const data = await res.json();
   if (!res.ok || data.error) throw new Error(`FB API: ${JSON.stringify(data.error || data)}`);
   return data;
 }
 
+// النشر على صفحة فيسبوك لازم يتم "باسم الصفحة" عبر Page access token — مش الـ
+// System User token مباشرةً (وإلا يرجع الخطأ: "must be posted to a page as the
+// page itself" / نقص pages_manage_posts). فنشتقّ الـ page token من التوكن مرة واحدة.
+let _pageToken = null;
+async function getPageToken() {
+  if (_pageToken) return _pageToken;
+  if (DRY_RUN || !FB_PAGE_ID) return FB_PAGE_ACCESS_TOKEN;
+  try {
+    const qs = new URLSearchParams({ fields: 'access_token', access_token: FB_PAGE_ACCESS_TOKEN }).toString();
+    const res = await fetch(`https://graph.facebook.com/v21.0/${FB_PAGE_ID}?${qs}`);
+    const data = await res.json();
+    if (data.access_token) { console.log('  🔑 تم اشتقاق Page token من التوكن'); _pageToken = data.access_token; return _pageToken; }
+    console.log(`  ⚠️ تعذّر اشتقاق Page token: ${data.error?.message || 'لا يوجد token'} — استخدام التوكن الأصلي`);
+  } catch (e) { console.log(`  ⚠️ خطأ اشتقاق Page token: ${e.message}`); }
+  _pageToken = FB_PAGE_ACCESS_TOKEN;
+  return _pageToken;
+}
+
 async function postToFacebook(a, url, coverUrl) {
   console.log('  📘 Facebook...');
   const message = buildPostText(a, url);
+  const pageToken = await getPageToken();
   if (!DRY_RUN && coverUrl) {
     try {
       await fetch('https://graph.facebook.com/v21.0/', {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id: url, scrape: true, access_token: FB_PAGE_ACCESS_TOKEN }),
+        body: JSON.stringify({ id: url, scrape: true, access_token: pageToken }),
       });
       await new Promise(r => setTimeout(r, 1500));
     } catch { /* cache refresh best-effort */ }
@@ -150,16 +170,16 @@ async function postToFacebook(a, url, coverUrl) {
   if (coverUrl && !DRY_RUN) {
     const photoRes = await fetch(`https://graph.facebook.com/v21.0/${FB_PAGE_ID}/photos`, {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ url: coverUrl, published: false, access_token: FB_PAGE_ACCESS_TOKEN }),
+      body: JSON.stringify({ url: coverUrl, published: false, access_token: pageToken }),
     });
     const photo = await photoRes.json();
     if (photo.id && !photo.error) {
-      const r = await fbPost(`${FB_PAGE_ID}/feed`, { message, link: url, attached_media: [{ media_fbid: photo.id }] });
+      const r = await fbPost(`${FB_PAGE_ID}/feed`, { message, link: url, attached_media: [{ media_fbid: photo.id }] }, pageToken);
       return r.id;
     }
     console.log(`  ⚠️ رفع الصورة فشل: ${JSON.stringify(photo.error)} — نشر بالرابط فقط`);
   }
-  const r = await fbPost(`${FB_PAGE_ID}/feed`, { message, link: url });
+  const r = await fbPost(`${FB_PAGE_ID}/feed`, { message, link: url }, pageToken);
   return r.id;
 }
 
@@ -290,8 +310,11 @@ async function main() {
     let fb = null, ig = null;
     try { fb = await postToFacebook(a, url, coverUrl); console.log(`  ✅ FB: ${fb}`); }
     catch (e) { console.error(`  ❌ FB فشل: ${e.message}`); }
-    try { ig = await postToInstagram(a, coverUrl); if (ig) console.log(`  ✅ IG: ${ig}`); }
-    catch (e) { console.error(`  ❌ IG فشل: ${e.message}`); }
+    if (SKIP_IG) { console.log('  ⏭️ Instagram: تخطّي (SKIP_IG)'); }
+    else {
+      try { ig = await postToInstagram(a, coverUrl); if (ig) console.log(`  ✅ IG: ${ig}`); }
+      catch (e) { console.error(`  ❌ IG فشل: ${e.message}`); }
+    }
     if (fb || ig) { postedSet.add(slug); postedCount++; }   // سجّل فقط عند نجاح واحد على الأقل
     else { failures.push(slug); }                            // فشل كامل → يُعاد المحاولة لاحقاً
   }

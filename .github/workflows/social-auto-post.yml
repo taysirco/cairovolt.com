@@ -17,6 +17,10 @@ on:
         description: 'Dry run — بدون نشر فعلي (لاختبار المنطق والـ token)'
         type: boolean
         default: false
+      skip_ig:
+        description: 'تخطّي انستجرام (لاختبار فيسبوك وحده بدون تكرار)'
+        type: boolean
+        default: false
 
 # منع تشغيلتين متوازيتين تنشروا نفس المقال أو يتعارضوا على السجل
 concurrency:
@@ -50,6 +54,7 @@ jobs:
           IG_USER_ID:           ${{ secrets.IG_USER_ID }}
           FORCE_SLUG:           ${{ github.event.inputs.force_slug }}
           DRY_RUN:              ${{ github.event.inputs.dry_run }}
+          SKIP_IG:              ${{ github.event.inputs.skip_ig }}
           MAX_PER_RUN:          '2'
 
       - name: 💾 Commit updated ledger
