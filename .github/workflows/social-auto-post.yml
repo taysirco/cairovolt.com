@@ -1,98 +1,91 @@
-name: 🚀 Auto-Post New Blog Articles to Social Media
+name: 🚀 Auto-Post Scheduled Blog Articles to Social Media
+
+# ينشر المقالات على Facebook + Instagram لما "تطلع" فعلياً حسب جدول النشر
+# (publishDate)، مش لما يتعمل push. كل المقالات مرفوعة مسبقاً وبتظهر تدريجياً،
+# فالنشر لازم يتربط بالجدول (cron) مش بالـ commit.
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'src/data/blog/*.ts'         # يشتغل فقط عند إضافة/تعديل مقال
-      - 'src/data/blog-articles.ts'  # أو تحديث الـ barrel index
-  workflow_dispatch:                  # تشغيل يدوي من لوحة GitHub
+  schedule:
+    - cron: '0 */6 * * *'   # كل 6 ساعات — ينشر المقالات اللي بقت LIVE من غير تكرار
+  workflow_dispatch:         # تشغيل يدوي من لوحة GitHub
     inputs:
       force_slug:
-        description: 'Slug محدد للنشر (اتركه فارغاً للتلقائي)'
+        description: 'Slug محدد للنشر فوراً (اتركه فارغاً للتلقائي حسب الجدول)'
         required: false
         default: ''
       dry_run:
-        description: 'Dry run - بدون نشر فعلي'
+        description: 'Dry run — بدون نشر فعلي (لاختبار المنطق والـ token)'
         type: boolean
         default: false
 
+# منع تشغيلتين متوازيتين تنشروا نفس المقال أو يتعارضوا على السجل
+concurrency:
+  group: social-auto-post
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # لعمل commit للسجل (social-post-ledger.json)
+
 jobs:
-  detect-and-post:
-    name: Detect New Articles & Post to Social Media
+  post-scheduled:
+    name: Post articles that went live (per schedule)
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
-      - name: ⬇️ Checkout Repository
+      - name: ⬇️ Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 2  # نحتاج الـ commit السابق للمقارنة
 
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
+          # لا حاجة لـ npm ci — السكربت يستخدم node built-ins + fetch الأصلية فقط
 
-      - name: 📦 Install Dependencies
-        run: npm ci --ignore-scripts
-
-      - name: 🔍 Detect New Blog Articles
-        id: detect
-        run: node scripts/detect-new-articles.mjs
-        env:
-          FORCE_SLUG: ${{ github.event.inputs.force_slug }}
-
-      - name: 📢 Post to Facebook & Instagram
-        if: steps.detect.outputs.has_new_article == 'true'
-        run: node scripts/post-to-social.mjs
+      - name: 📢 Post scheduled-live articles
+        id: post
+        run: node scripts/post-scheduled-articles.mjs
         env:
           FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
-          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
-          ARTICLE_SLUG: ${{ steps.detect.outputs.article_slug }}
-          ARTICLE_TITLE_AR: ${{ steps.detect.outputs.article_title_ar }}
-          ARTICLE_EXCERPT_AR: ${{ steps.detect.outputs.article_excerpt_ar }}
-          ARTICLE_COVER: ${{ steps.detect.outputs.article_cover }}
-          ARTICLE_CATEGORY: ${{ steps.detect.outputs.article_category }}
-          ARTICLE_READING_TIME: ${{ steps.detect.outputs.article_reading_time }}
-          DRY_RUN: ${{ github.event.inputs.dry_run }}
+          FB_PAGE_ID:           ${{ secrets.FB_PAGE_ID }}
+          IG_USER_ID:           ${{ secrets.IG_USER_ID }}
+          FORCE_SLUG:           ${{ github.event.inputs.force_slug }}
+          DRY_RUN:              ${{ github.event.inputs.dry_run }}
+          MAX_PER_RUN:          '2'
 
-      - name: ✅ Summary
+      - name: 💾 Commit updated ledger
+        if: steps.post.outputs.ledger_changed == 'true'
+        run: |
+          git config user.name  "cairovolt-bot"
+          git config user.email "bot@cairovolt.com"
+          git add scripts/social-post-ledger.json
+          git commit -m "chore(social): mark ${{ steps.post.outputs.posted_count }} article(s) as posted [skip ci]" || echo "no ledger change"
+          # rebase احتياطاً لو حصل push آخر أثناء التشغيل، ثم push
+          git pull --rebase origin ${{ github.ref_name }} || true
+          git push origin HEAD:${{ github.ref_name }}
+
+      - name: 📊 Summary
         if: always()
         run: |
-          echo "## 📊 نتيجة النشر" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          if [ "${{ steps.detect.outputs.has_new_article }}" == "true" ]; then
-            echo "✅ **تم اكتشاف مقال جديد:** \`${{ steps.detect.outputs.article_slug }}\`" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "**العنوان:** ${{ steps.detect.outputs.article_title_ar }}" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "ℹ️ **لا يوجد مقالات جديدة** في هذا الـ push" >> $GITHUB_STEP_SUMMARY
-          fi
+          echo "## 📊 نتيجة النشر التلقائي" >> $GITHUB_STEP_SUMMARY
+          echo "- المقالات المنشورة هذه المرة: **${{ steps.post.outputs.posted_count || '0' }}**" >> $GITHUB_STEP_SUMMARY
+          echo "- تحديث السجل: ${{ steps.post.outputs.ledger_changed || 'false' }}" >> $GITHUB_STEP_SUMMARY
 
-  # تنبيه تجديد الـ Token قبل انتهائه
+  # تنبيه انتهاء صلاحية الـ Token (شغّله يدوياً أو راقبه — الطوكن مدته 60 يوم)
   check-token-expiry:
-    name: 🔑 Check Token Expiry (Monthly)
+    name: 🔑 Check Token Expiry
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch'
     steps:
       - name: Check Token Age
+        continue-on-error: true
         run: |
           node -e "
           const created = process.env.FB_TOKEN_CREATED_DATE;
           if (!created) { console.log('⚠️ FB_TOKEN_CREATED_DATE غير محددة'); process.exit(0); }
           const days = Math.floor((Date.now() - new Date(created).getTime()) / 86400000);
-          console.log('🗓️ Token عمره:', days, 'يوم');
-          if (days > 53) {
-            console.log('⚠️ تحذير: Token سينتهي خلال أقل من 7 أيام! جدد من Graph API Explorer');
-            process.exit(1);
-          } else {
-            console.log('✅ Token سليم - باقي:', 60 - days, 'يوم');
-          }
+          console.log('🗓️ عمر الـ Token:', days, 'يوم');
+          if (days > 53) { console.log('⚠️ سينتهي خلال أقل من 7 أيام! جدّده من Meta Business أو استخدم System User token دائم'); process.exit(1); }
+          console.log('✅ سليم — باقي:', 60 - days, 'يوم');
           "
         env:
           FB_TOKEN_CREATED_DATE: ${{ secrets.FB_TOKEN_CREATED_DATE }}
-        continue-on-error: true
