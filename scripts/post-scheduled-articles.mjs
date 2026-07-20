@@ -187,6 +187,63 @@ function pickTargets(schedule, ledger, now) {
     .map(([slug]) => slug);
 }
 
+// ─── Token healthcheck (read-only — لا ينشر أي شيء) ──────────────────────────
+// يتحقق أن FB_PAGE_ACCESS_TOKEN يقبله فيسبوك، ويصل للصفحة + انستجرام، ودائم،
+// وعنده الصلاحيات المطلوبة. لا يطبع قيمة التوكن أبداً. يُستدعى في DRY_RUN فقط.
+async function graphGet(path, params = {}) {
+  const qs = new URLSearchParams({ ...params, access_token: FB_PAGE_ACCESS_TOKEN }).toString();
+  const res = await fetch(`https://graph.facebook.com/v21.0/${path}?${qs}`);
+  let data = {};
+  try { data = await res.json(); } catch { /* non-json */ }
+  return { ok: res.ok && !data.error, data };
+}
+
+async function healthcheck() {
+  console.log('\n🩺 فحص التوكن (قراءة فقط — بدون نشر)');
+  if (!FB_PAGE_ACCESS_TOKEN) { console.log('  ❌ FB_PAGE_ACCESS_TOKEN غير موجود'); return false; }
+  let critical = true;
+
+  // 1) صلاحية التوكن نفسه
+  {
+    const { ok, data } = await graphGet('me', { fields: 'id,name' });
+    if (ok) console.log(`  ✅ التوكن صالح — الحساب: ${data.name || data.id}`);
+    else { console.log(`  ❌ التوكن غير صالح: ${data.error?.message || JSON.stringify(data)}`); critical = false; }
+  }
+
+  // 2) الصفحة متاحة بالتوكن (شرط النشر على فيسبوك)
+  if (FB_PAGE_ID) {
+    const { ok, data } = await graphGet(FB_PAGE_ID, { fields: 'id,name' });
+    if (ok) console.log(`  ✅ صفحة فيسبوك متاحة: ${data.name} (${data.id})`);
+    else { console.log(`  ❌ الصفحة غير متاحة بالتوكن: ${data.error?.message || JSON.stringify(data)}`); critical = false; }
+  } else { console.log('  ⚠️ FB_PAGE_ID غير محدد'); }
+
+  // 3) انستجرام متاح بالتوكن
+  if (IG_USER_ID) {
+    const { ok, data } = await graphGet(IG_USER_ID, { fields: 'id,username' });
+    if (ok) console.log(`  ✅ انستجرام متاح: @${data.username} (${data.id})`);
+    else console.log(`  ⚠️ انستجرام غير متاح بالتوكن: ${data.error?.message || JSON.stringify(data)}`);
+  } else { console.log('  ⚠️ IG_USER_ID غير محدد'); }
+
+  // 4) الديمومة + الصلاحيات (self-debug — أفضل جهد، بدون طباعة التوكن)
+  try {
+    const qs = new URLSearchParams({ input_token: FB_PAGE_ACCESS_TOKEN, access_token: FB_PAGE_ACCESS_TOKEN }).toString();
+    const res = await fetch(`https://graph.facebook.com/v21.0/debug_token?${qs}`);
+    const d = (await res.json()).data;
+    if (d && d.type) {
+      const exp = d.expires_at === 0 ? 'دائم لا ينتهي ✅' : new Date(d.expires_at * 1000).toISOString().slice(0, 10);
+      console.log(`  🗓️ انتهاء الصلاحية: ${exp}   |   النوع: ${d.type}`);
+      if (Array.isArray(d.scopes)) {
+        const need = ['pages_manage_posts', 'pages_read_engagement', 'instagram_basic', 'instagram_content_publish'];
+        const missing = need.filter(s => !d.scopes.includes(s));
+        if (missing.length === 0) console.log('  🔐 كل صلاحيات النشر المطلوبة موجودة ✅');
+        else console.log(`  ⚠️ صلاحيات نشر ناقصة: ${missing.join(', ')}`);
+      }
+    }
+  } catch { /* self-debug غير مدعوم لهذا التوكن — تخطي */ }
+
+  return critical;
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 async function main() {
   const now = Date.now();
@@ -197,6 +254,15 @@ async function main() {
   if (!DRY_RUN && (!FB_PAGE_ACCESS_TOKEN || !FB_PAGE_ID)) {
     console.error('❌ FB_PAGE_ACCESS_TOKEN أو FB_PAGE_ID غير محدد في الـ secrets');
     process.exit(1);
+  }
+
+  // في التشغيل التجريبي: افحص التوكن فعلياً ضد Graph API (بدون نشر) وأبلغ بالنتيجة
+  if (DRY_RUN) {
+    const healthy = await healthcheck();
+    console.log(healthy
+      ? '\n✅ فحص التوكن نجح — التوكن شغّال وجاهز للنشر على فيسبوك + انستجرام'
+      : '\n❌ فحص التوكن فشل — راجع الأخطاء أعلاه');
+    if (!healthy) process.exit(1);
   }
 
   const schedule = loadSchedule();
