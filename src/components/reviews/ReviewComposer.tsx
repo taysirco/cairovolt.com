@@ -117,10 +117,13 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
     useEffect(() => { if (open) initGsi(); }, [open, initGsi]);
 
     // 🔗 تحويل ذكي من رسالة الواتساب مباشرةً لقسم التقييم: لو الرابط يقصد التقييم
-    //    (#write-review أو #reviews أو ?rvw=) نفتح الصندوق ونهبط على *بداية* القسم
-    //    (العنوان + زر «اكتب تقييمك») لا على التقييمات نفسها. block:'start' يحترم
-    //    scroll-margin-top (84px) فلا يختفي الزر تحت الهيدر الثابت. نعيد المحاولة
-    //    لأن القسم يُرسَم على العميل (content-visibility) وارتفاع الصندوق يكبر عند فتحه.
+    //    (#write-review أو #reviews أو ?rvw=) نفتح الصندوق ونهبط فوراً على *بداية* قسم
+    //    التقييمات (العنوان + زر «اكتب تقييمك») لا على التقييمات نفسها. block:'start'
+    //    يحترم scroll-margin-top (84px) فلا يختفي الزر تحت الهيدر الثابت.
+    //    نستخدم تمريراً *فورياً* لا 'smooth': القسم داخل content-visibility:auto والصفحة
+    //    مشغولة بالـhydration وقت الوصول، والتمرير الناعم يُسقَط في هذي الحالة — بينما
+    //    الفوري يفرض حساب التخطيط فيعمل دائماً. حلقة تصحيح قصيرة تعيد المحاولة حتى يهبط
+    //    القسم تحت الهيدر ثم تتوقف فلا تزاحم العميل لو مرّر بنفسه.
     useEffect(() => {
         let intent = false;
         try {
@@ -130,15 +133,22 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
         } catch { intent = false; }
         if (!intent) return;
         setOpen(true);
-        const timers: ReturnType<typeof setTimeout>[] = [];
-        const scrollToSection = () => {
+        let timer: ReturnType<typeof setTimeout>;
+        let attempts = 0;
+        const settle = () => {
+            attempts++;
             // بطاقة قسم التقييمات (العنوان في أعلاها) أولاً، ثم صندوق الكتابة كبديل
             const el = document.querySelector('.verified-reviews') || document.getElementById('write-review');
-            if (el) (el as HTMLElement).scrollIntoView({ behavior: 'smooth', block: 'start' });
+            if (el) {
+                const top = (el as HTMLElement).getBoundingClientRect().top;
+                // هبط تحت الهيدر مباشرة؟ (scroll-margin-top≈84px، بسماحية)
+                if (top >= -8 && top <= 120) return; // وصلنا — أوقف الحلقة
+                (el as HTMLElement).scrollIntoView({ block: 'start' }); // فوري
+            }
+            if (attempts < 12) timer = setTimeout(settle, 200); // نافذة ~2.4ث
         };
-        // محاولات متتالية حتى يستقر التخطيط الكسول ويكتمل ارتفاع الصندوق المفتوح
-        [350, 900, 1600].forEach(d => timers.push(setTimeout(scrollToSection, d)));
-        return () => timers.forEach(clearTimeout);
+        timer = setTimeout(settle, 100);
+        return () => clearTimeout(timer);
     }, []);
 
     // 🔵 دخول فيسبوك (FB JS SDK) — يُحمَّل عند فتح الفورم فقط
