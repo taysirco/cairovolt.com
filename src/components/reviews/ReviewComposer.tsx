@@ -116,6 +116,28 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
 
     useEffect(() => { if (open) initGsi(); }, [open, initGsi]);
 
+    // 🔗 تحويل ذكي من رسالة الواتساب مباشرةً لقسم التقييم: لو الرابط يقصد التقييم
+    //    (#write-review أو #reviews أو ?rvw=) نفتح الصندوق ونمرّر إليه بسلاسة — بإعادة
+    //    محاولة لأن القسم يُرسَم على العميل (content-visibility) فلا يعمل الـanchor وحده.
+    useEffect(() => {
+        let intent = false;
+        try {
+            const u = new URL(window.location.href);
+            intent = u.hash === '#write-review' || u.hash === '#reviews'
+                || u.searchParams.has('rvw') || u.searchParams.has('rt');
+        } catch { intent = false; }
+        if (!intent) return;
+        setOpen(true);
+        const timers: ReturnType<typeof setTimeout>[] = [];
+        const scrollToBox = () => {
+            const el = document.getElementById('write-review');
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        };
+        // محاولات متتالية حتى يستقر التخطيط الكسول فوق القسم
+        [350, 900, 1600].forEach(d => timers.push(setTimeout(scrollToBox, d)));
+        return () => timers.forEach(clearTimeout);
+    }, []);
+
     // 🔵 دخول فيسبوك (FB JS SDK) — يُحمَّل عند فتح الفورم فقط
     const fbLogin = useCallback(() => {
         if (!fbAppId) return;
