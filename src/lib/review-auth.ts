@@ -11,11 +11,42 @@ const GOOGLE_TOKENINFO = 'https://oauth2.googleapis.com/tokeninfo';
 const FB_GRAPH = 'https://graph.facebook.com/v21.0';
 
 export interface ReviewIdentity {
-    provider: 'google' | 'facebook';
+    provider: 'google' | 'facebook' | 'whatsapp';
     subject: string;   // معرّف المستخدم الثابت لدى المزوّد
     email: string;
     name: string;
     picture?: string;
+}
+
+/**
+ * 🎫 توثيق «مشترٍ» عبر توكن طلب-التقييم (?rvw=) — بلا تسجيل دخول، يعمل على أي متصفح.
+ *
+ * العميل يصل برابط واتساب شخصي فيه توكن يقابل سجل حملة (wa_review_log) لطلب مُسلَّم.
+ * هذا أقوى إثبات من OAuth (يثبت شراءً فعلياً) ولا يعتمد على كوكيز الطرف-الثالث.
+ * التوكن يعيش في الـCRM (مشروع آخر)، فنتحقق منه خادمياً عبر نقطة CRM موثّقة.
+ * الهوية pseudonymous (wa:<token>) — لا هاتف يُخزَّن على المتجر؛ الاستهلاك (صلاحية
+ * لمرة) يديره المتجر عبر حالة التقييم فلا يفقد التوكن صلاحيته إلا بموافقة الأدمن.
+ */
+export async function verifyBuyerToken(token: string): Promise<ReviewIdentity | null> {
+    const ref = String(token || '').replace(/[^A-Za-z0-9_-]/g, '').slice(0, 64);
+    if (ref.length < 5) return null;
+    const crmBase = (process.env.CRM_WEBHOOK_URL || '').replace(/\/api\/webhook\/new-lead$/, '');
+    const secret = process.env.CRM_WEBHOOK_SECRET || '';
+    if (!crmBase || !secret) return null;
+    try {
+        const res = await fetch(`${crmBase}/api/reviews/token-identity`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${secret}` },
+            body: JSON.stringify({ token: ref }),
+            signal: AbortSignal.timeout(8000),
+        });
+        if (!res.ok) return null;
+        const j = (await res.json()) as { valid?: boolean; name?: string };
+        if (!j.valid) return null;
+        return { provider: 'whatsapp', subject: `wa:${ref}`, email: '', name: String(j.name || 'عميلنا').slice(0, 80) };
+    } catch {
+        return null;
+    }
 }
 
 /** تحقق توكن فيسبوك (JS SDK) بلا App Secret: /app يطابق التطبيق، /me يجلب الهوية */

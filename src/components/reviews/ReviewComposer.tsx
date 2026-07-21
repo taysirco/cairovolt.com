@@ -93,6 +93,10 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
     const [verifiedBuyer, setVerifiedBuyer] = useState(false);
     const [error, setError] = useState('');
     const [gsiReady, setGsiReady] = useState(false);
+    // 🎫 وضع التوكن: العميل جاء برابط طلب-تقييم (?rvw=) — مشترٍ موثَّق فيقيّم بلا تسجيل
+    //    دخول على أي متصفح. forceLogin يُظهر تسجيل الدخول احتياطياً لو فشل التحقق.
+    const [tokenMode, setTokenMode] = useState(false);
+    const [forceLogin, setForceLogin] = useState(false);
 
     // نطبّق الهوية مرة واحدة فقط (سباق محتمل: قد يرجع جوجل وفيسبوك معاً) — أول مصدر يفوز.
     const connectedRef = useRef(false);
@@ -145,6 +149,8 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
         let intent = false;
         try {
             const u = new URL(window.location.href);
+            // توكن طلب-التقييم = مشترٍ موثَّق → وضع التوكن (تقييم بلا تسجيل دخول)
+            if (u.searchParams.has('rvw') || u.searchParams.has('rt')) setTokenMode(true);
             intent = u.hash === '#write-review' || u.hash === '#reviews'
                 || u.searchParams.has('rvw') || u.searchParams.has('rt');
         } catch { intent = false; }
@@ -212,11 +218,12 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
 
     // عند فتح الصندوق: نحاول الربط التلقائي فوراً (جوجل One Tap + فيسبوك getLoginStatus)
     //   ليقفز العميل لخطوة كتابة التقييم مباشرة لو عنده جلسة قائمة — بلا مراحل دخول.
+    //   في وضع التوكن لا داعي لأي OAuth (التوكن هو الهوية) إلا لو سقط التحقق (forceLogin).
     useEffect(() => {
-        if (!open) return;
+        if (!open || (tokenMode && !forceLogin)) return;
         initGsi();
         fbAutoConnect();
-    }, [open, initGsi, fbAutoConnect]);
+    }, [open, tokenMode, forceLogin, initGsi, fbAutoConnect]);
 
     const onPickPhotos = async (files: FileList | null) => {
         if (!files) return;
@@ -230,25 +237,38 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
 
     const submit = async () => {
         setError('');
-        if (!credential) { setError(isArabic ? 'سجّل الدخول بجوجل أو فيسبوك أولاً' : 'Sign in with Google or Facebook first'); return; }
+        // الهوية: إما تسجيل دخول (credential) أو توكن طلب-التقييم (وضع المشترٍ الموثَّق)
+        if (!credential && !tokenMode) { setError(isArabic ? 'سجّل الدخول بجوجل أو فيسبوك أولاً' : 'Sign in with Google or Facebook first'); return; }
         if (!rating) { setError(isArabic ? 'اختر عدد النجوم' : 'Pick a star rating'); return; }
         if (text.trim().length < 10) { setError(isArabic ? 'اكتب تقييماً من 10 أحرف على الأقل' : 'Write at least 10 characters'); return; }
         setBusy(true);
         try {
-            // مرجع المكافأة: رمز من رابط طلب التقييم على واتساب (?rvw=) — يربط التقييم
-            // بهاتف العميل خادمياً لإرسال كوبون 5% بعد الاعتماد بلا سؤال العميل عن رقمه.
+            // مرجع المكافأة: رمز من رابط طلب التقييم على واتساب (?rvw=) — يوثّق المشترِي
+            // ويربط التقييم بهاتفه خادمياً لإرسال كوبون 5% بعد الاعتماد بلا سؤاله عن رقمه.
             let rewardRef = '';
             try {
                 const u = new URL(window.location.href);
                 rewardRef = (u.searchParams.get('rvw') || u.searchParams.get('rt') || '').slice(0, 64);
             } catch { /* لا شيء */ }
+            // نرسل الاعتماد فقط لو كان العميل قد سجّل الدخول؛ وإلا نعتمد على التوكن.
+            const body: Record<string, unknown> = { productSlug, rating, title, reviewText: text, rewardRef, photos };
+            if (credential) { body.credential = credential; body.provider = provider; }
             const res = await fetch('/api/reviews/submit', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ credential, provider, productSlug, rating, title, reviewText: text, rewardRef, photos }),
+                body: JSON.stringify(body),
             });
             const j = await res.json();
-            if (!res.ok) { setError(String(j.error || 'حصل خطأ — جرّب تاني')); return; }
+            if (!res.ok) {
+                // 401 في وضع التوكن = تعذّر التحقق من الرابط → نُظهر تسجيل الدخول احتياطياً
+                if (res.status === 401 && tokenMode && !credential) {
+                    setForceLogin(true);
+                    setError(isArabic ? 'تعذّر التحقق من رابط التقييم — سجّل الدخول للمتابعة' : 'Could not verify the review link — please sign in');
+                    return;
+                }
+                setError(String(j.error || 'حصل خطأ — جرّب تاني'));
+                return;
+            }
             setVerifiedBuyer(j.verifiedBuyer === true);
             setDone(true);
         } catch {
@@ -257,6 +277,9 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
             setBusy(false);
         }
     };
+
+    // نُظهر فورم التقييم مباشرة لو: سجّل الدخول، أو وضع التوكن (مشترٍ موثَّق بلا دخول).
+    const showForm = credential || (tokenMode && !forceLogin);
 
     if (done) {
         return (
@@ -293,7 +316,7 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                         {isArabic ? `قيّم ${productName}` : `Review ${productName}`}
                     </p>
 
-                    {!credential ? (
+                    {!showForm ? (
                         <div className="space-y-2">
                             <p className="text-sm text-gray-600 dark:text-gray-300">
                                 {isArabic ? 'سجّل الدخول بضغطة واحدة عشان نتأكد إن التقييم حقيقي:' : 'One-tap sign-in keeps reviews genuine:'}
@@ -317,7 +340,14 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                         </div>
                     ) : (
                         <>
-                            <p className="text-sm text-emerald-700">✓ {isArabic ? `أهلاً ${userName || ''}` : `Hi ${userName || ''}`}</p>
+                            {credential ? (
+                                <p className="text-sm text-emerald-700">✓ {isArabic ? `أهلاً ${userName || ''}` : `Hi ${userName || ''}`}</p>
+                            ) : (
+                                <div className="rounded-lg bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800 px-3 py-2">
+                                    <p className="text-sm font-bold text-emerald-700 dark:text-emerald-400">✓ {isArabic ? 'موثَّق كمشترٍ من طلبك' : 'Verified buyer from your order'}</p>
+                                    <p className="text-[11px] text-emerald-600/80 dark:text-emerald-400/70">{isArabic ? 'يظهر تقييمك باسمك الأول — بلا تسجيل دخول' : 'Shown with your first name — no sign-in needed'}</p>
+                                </div>
+                            )}
 
                             {/* النجوم بأرقام 1→5 (ثابتة الاتجاه) + تسمية حيّة حتى لا يقيّم العميل بالخطأ */}
                             <div>

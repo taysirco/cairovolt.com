@@ -11,7 +11,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import crypto from 'crypto';
 import { getFirestore, getStorageBucket } from '@/lib/firebase-admin';
-import { verifyGoogleIdToken, verifyFacebookAccessToken } from '@/lib/review-auth';
+import { verifyGoogleIdToken, verifyFacebookAccessToken, verifyBuyerToken, type ReviewIdentity } from '@/lib/review-auth';
 import { getProductBySlug } from '@/lib/static-products';
 import { checkRateLimit } from '@/lib/rate-limit';
 import { getClientIp } from '@/lib/request-ip';
@@ -42,12 +42,19 @@ export async function POST(req: NextRequest) {
         return json({ error: 'طلب غير صالح' }, 400);
     }
 
-    // 1) الهوية — تسجيل دخول جوجل أو فيسبوك إلزامي
-    const provider = String(data.provider || 'google');
-    const identity = provider === 'facebook'
-        ? await verifyFacebookAccessToken(String(data.credential || ''))
-        : await verifyGoogleIdToken(String(data.credential || ''));
-    if (!identity) return json({ error: 'سجّل الدخول بحساب جوجل أو فيسبوك أولاً ثم أعد الإرسال' }, 401);
+    // 1) الهوية — إما تسجيل دخول جوجل/فيسبوك، أو توكن طلب-التقييم (?rvw=) لمشترٍ موثَّق.
+    //    التوكن يعمل على أي متصفح بلا OAuth، ويثبت شراءً فعلياً (أقوى من حساب عشوائي).
+    const provider = String(data.provider || '');
+    const credential = String(data.credential || '');
+    const rewardRef = String(data.rewardRef || '').replace(/[^A-Za-z0-9_-]/g, '').slice(0, 64);
+    let identity: ReviewIdentity | null = null;
+    if (credential) {
+        identity = provider === 'facebook'
+            ? await verifyFacebookAccessToken(credential)
+            : await verifyGoogleIdToken(credential);
+    }
+    if (!identity && rewardRef) identity = await verifyBuyerToken(rewardRef);
+    if (!identity) return json({ error: 'سجّل الدخول بجوجل أو فيسبوك، أو افتح رابط التقييم من رسالة الواتساب ثم أعد الإرسال' }, 401);
 
     // 2) المنتج
     const productSlug = String(data.productSlug || '').toLowerCase();
@@ -63,19 +70,34 @@ export async function POST(req: NextRequest) {
     const title = String(data.title || '').replace(/\s+/g, ' ').trim().slice(0, 90);
     const displayName = (String(data.displayName || '').trim() || identity.name).slice(0, 60);
 
-    // 4) مرجع المكافأة (اختياري) — رمز من رابط طلب التقييم على واتساب (?rvw=).
-    //    لا نسأل العميل عن رقمه؛ الـCRM يحوّل هذا الرمز إلى هاتفه (من سجل الحملة)
-    //    ويُرسل كوبون 5% بعد الاعتماد. غيابه = تقييم عضوي بلا مكافأة.
-    const rewardRef = String(data.rewardRef || '').replace(/[^A-Za-z0-9_-]/g, '').slice(0, 64);
+    // 4) مرجع المكافأة (rewardRef) عُرّف أعلاه — يوثّق المشترِي ويربطه بهاتفه في الـCRM
+    //    لإرسال كوبون 5% بعد الاعتماد بلا سؤاله عن رقمه. غيابه = تقييم عضوي بلا مكافأة.
 
     const db = await getFirestore();
 
-    // 5) منع التكرار: تقييم واحد لكل (مستخدم جوجل × منتج)
-    const dup = await db.collection('reviews')
-        .where('authSubject', '==', identity.subject)
-        .where('productSlug', '==', productSlug)
-        .limit(1).get();
-    if (!dup.empty) return json({ error: 'قيّمت هذا المنتج بالفعل — شكراً لك! 🌟' }, 409);
+    // 5) منع التكرار — مع إبقاء صلاحية التوكن حتى الاعتماد+النشر:
+    //    • مسار التوكن (مشترٍ موثَّق): تقييم واحد لكل توكن — لا يُستهلك إلا بموافقة الأدمن
+    //      (وجود تقييم approved). المرفوض يسمح بإعادة الإرسال؛ المعلّق يمنع مؤقتاً.
+    //      يعالج تعدّد المشتريات: كل طلب له توكنه المستقل فلا يتأثر بعضها ببعض.
+    //    • مسار جوجل/فيسبوك: تقييم واحد لكل (مستخدم × منتج) بنفس القاعدة.
+    const isTokenId = identity.provider === 'whatsapp';
+    const dupSnap = isTokenId
+        ? await db.collection('reviews').where('rewardRef', '==', rewardRef).get()
+        : await db.collection('reviews')
+            .where('authSubject', '==', identity.subject)
+            .where('productSlug', '==', productSlug).get();
+    const activeDup = dupSnap.docs.find(d => {
+        const s = String((d.data() as Record<string, unknown>).status || '');
+        return s === 'approved' || s === 'pending';
+    });
+    if (activeDup) {
+        const s = String((activeDup.data() as Record<string, unknown>).status);
+        return json({
+            error: s === 'approved'
+                ? 'قيّمت هذا المنتج بالفعل — شكراً لك! 🌟'
+                : 'تقييمك السابق قيد المراجعة — سيظهر فور اعتماده 🙌',
+        }, 409);
+    }
 
     // 6) «مشترٍ موثَّق»: وجود مرجع مكافأة يعني أن التقييم جاء من رابط طلب-تقييم
     //    (يُرسَل فقط لعملاء لديهم طلب مُسلَّم). التحقق النهائي للمكافأة يتم في الـCRM.
