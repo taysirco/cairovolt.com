@@ -6,7 +6,7 @@ export const soundcore_liberty_buds = {
     categorySlug: "audio",
     gtin: "",
     gtin13: "",
-    mpn: "A3960",
+    mpn: "D1200Z11",
     price: 1750,
     originalPrice: 2119,
     stock: 751,
@@ -14,14 +14,14 @@ export const soundcore_liberty_buds = {
     status: "active",
 
     images: [
-            { id: "img_1", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-main-view-cairovolt.webp", alt: "Soundcore Liberty Buds A3960 semi-in-ear wireless earbuds ANC 3.0 - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور Liberty Buds A3960 تصميم semi-in-ear - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-specifications-detail-cairovolt.webp", alt: "Soundcore Liberty Buds A3960 11mm driver LDAC Hi-Res - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
- { id: "img_4", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور Liberty Buds A3960 علبة المنتج - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore Liberty Buds A3960 semi-in-ear comfort lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور Liberty Buds A3960 مقارنة حجم مع العلبة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-accessories-included-cairovolt.webp", alt: "Soundcore Liberty Buds A3960 ear fins accessories included - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور Liberty Buds A3960 تفاصيل قرب - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-main-view-cairovolt.webp", alt: "Soundcore Liberty Buds D1200Z11 semi-in-ear wireless earbuds ANC 3.0 - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور Liberty Buds D1200Z11 تصميم semi-in-ear - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-specifications-detail-cairovolt.webp", alt: "Soundcore Liberty Buds D1200Z11 11mm driver LDAC Hi-Res - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+ { id: "img_4", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور Liberty Buds D1200Z11 علبة المنتج - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore Liberty Buds D1200Z11 semi-in-ear comfort lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور Liberty Buds D1200Z11 مقارنة حجم مع العلبة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-accessories-included-cairovolt.webp", alt: "Soundcore Liberty Buds D1200Z11 ear fins accessories included - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور Liberty Buds D1200Z11 تفاصيل قرب - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
     ],
 
     relatedProducts: ["soundcore-p30i-earbuds", "anker-soundcore-r50i", "soundcore-a30i-earbuds", "soundcore-liberty-air-2-pro", "anker-soundcore-k20i", "anker-a2741-charger-30w"],
@@ -43,7 +43,7 @@ export const soundcore_liberty_buds = {
     </section>
 </div>
 
-<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3960</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>D1200Z11</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
             features: ["Listed 11mm driver and LDAC", "Adaptive ANC listing", "Semi-in-ear fit with detachable fins", "Verify Bluetooth and multipoint support", "Manufacturer-published battery figures", "Manufacturer-published fast-charge example", "Review IP55 limits", "Verify translation support in the current app", "HearID and Soundcore app", "Review current warranty terms"],
             metaTitle: "Soundcore Liberty Buds — Semi-In-Ear ANC 3.0 + LDAC",
             metaDesc: "Comfortable all-day fit with Soundcore Liberty Buds — semi-in-ear design, ANC and LDAC audio. Genuine with store warranty and cash on delivery in Egypt.",
@@ -71,7 +71,7 @@ export const soundcore_liberty_buds = {
     </section>
 </div>
 
-<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3960</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
+<div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>D1200Z11</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["درايفر 11mm وLDAC وفق القائمة", "عزل تكيفي مدرج", "ملاءمة نصف داخلية وزعانف قابلة للفك", "تحقق من البلوتوث والاتصال المتعدد", "أرقام بطارية منشورة من الشركة", "مثال شحن سريع منشور من الشركة", "راجع حدود IP55", "تحقق من الترجمة في التطبيق الحالي", "HearID وتطبيق ساوندكور", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "سماعة ساوندكور Liberty Buds — Semi-In-Ear ANC 3.0",
             metaDesc: "راحة طوال اليوم مع ساوندكور ليبرتي Buds: تصميم نصف داخلي وعزل ضوضاء وصوت LDAC. أصلية بضمان المتجر ودفع عند الاستلام في مصر.",

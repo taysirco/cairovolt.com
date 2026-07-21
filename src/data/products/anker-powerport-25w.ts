@@ -7,7 +7,7 @@ export const anker_powerport_25w = {
         categorySlug: "wall-chargers",
         gtin: "0194644063566",
         gtin13: "0194644063566",
-        mpn: "A2322K11",
+        mpn: "A2656111",
         price: 550,
         originalPrice: 640,
         stock: 1179,

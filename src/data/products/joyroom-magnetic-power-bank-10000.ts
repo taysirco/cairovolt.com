@@ -7,7 +7,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         categorySlug: "power-banks",
         gtin: "6956116750060",
         gtin13: "6956116750060",
-        mpn: "JR-W030",
+        mpn: "JR-W050",
         price: 850,
         originalPrice: 1019,
         stock: 758,
@@ -15,7 +15,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-1.webp", alt: "Joyroom Magnetic MagSafe Power Bank 10000mAh Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-2.webp", alt: "باور بانك جوي روم مغناطيسي 10000 مللي امبير مصر - JR-W030 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-2.webp", alt: "باور بانك جوي روم مغناطيسي 10000 مللي امبير مصر - JR-W050 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-3.webp", alt: "MagSafe Power Bank iPhone 17/16/15 Compatible - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-4.webp", alt: "شاحن متنقل مغناطيسي للايفون - القاهرة - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom Wireless Magnetic Charger Power Bank - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
@@ -27,7 +27,7 @@ export const joyroom_magnetic_power_bank_10000 = {
                 name: "Joyroom MagSafe Power Bank 10000mAh | 15W Wireless + 20W Wired | Kickstand",
                 shortDescription: "Listed 10,000mAh cell capacity | magnetic wireless alignment | USB-C wired output | built-in stand | verify shared-power and compatibility details",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom JR-W030 magnetic power bank</strong> combines a manufacturer-listed 10,000mAh cell capacity, wireless charging, USB-C wired output and a foldable stand. Confirm the exact wireless standard, printed Wh value, input/output profiles, compatible phone or case and simultaneous-use table on the supplied unit. Usable energy, charging power, attachment and temperature vary by setup. Review the live price, stock and written service terms before ordering.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom JR-W050 magnetic power bank</strong> combines a manufacturer-listed 10,000mAh cell capacity, wireless charging, USB-C wired output and a foldable stand. Confirm the exact wireless standard, printed Wh value, input/output profiles, compatible phone or case and simultaneous-use table on the supplied unit. Usable energy, charging power, attachment and temperature vary by setup. Review the live price, stock and written service terms before ordering.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
@@ -36,7 +36,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         <li>⚡ <strong>Wireless and USB-C modes:</strong> check the printed output and shared-power table.</li>
         <li>📐 <strong>Foldable stand:</strong> use on a stable surface and check phone balance.</li>
     <li>🧾 <strong>Returns and warranty:</strong> handled under the current published policy and eligibility terms.</li><li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>JR-W030</strong>, start with the printed Wh/mAh, wireless standard, input/output profiles, shared-power table and dimensions. Match the phone, case and connector requirements. Actual performance varies with alignment, device settings, temperature and use. Check current package contents, price, stock and written service terms before ordering.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>JR-W050</strong>, start with the printed Wh/mAh, wireless standard, input/output profiles, shared-power table and dimensions. Match the phone, case and connector requirements. Actual performance varies with alignment, device settings, temperature and use. Check current package contents, price, stock and written service terms before ordering.</p></div>
 
 <div class="product-details">
     <section>
@@ -67,7 +67,7 @@ export const joyroom_magnetic_power_bank_10000 = {
 `,
                 features: ["Listed 10,000mAh cell capacity", "Magnetic wireless alignment", "Verify the wireless output profile", "Verify USB-C wired profiles", "Foldable stand", "Review shared-output limits", "Review warranty and return policy", "Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Joyroom MagSafe 10000mAh | Wireless Charge | COD",
-                metaDesc: "Snap-on wireless charging for iPhone with the Joyroom JR-W030 magnetic bank — 10,000mAh, USB-C and built-in stand. Genuine, store warranty, COD Egypt.",
+                metaDesc: "Snap-on wireless charging for iPhone with the Joyroom JR-W050 magnetic bank — 10,000mAh, USB-C and built-in stand. Genuine, store warranty, COD Egypt.",
                 faqs: [
                     { question: "How many times can it charge a phone?", answer: "There is no fixed count. The cell rating differs from usable output energy, and results depend on the phone battery, starting level, conversion loss, alignment, temperature and use while charging." },
                     { question: "Can I use it while attached to my phone?", answer: "Check magnetic alignment and case compatibility, and support the phone if movement could detach the battery. The stand can provide a viewing angle on a stable surface, but retention varies by phone, case, orientation and temperature." },
@@ -76,10 +76,10 @@ export const joyroom_magnetic_power_bank_10000 = {
                 ]
             },
             ar: {
-                name: "باور بانك جوي روم JR-W030 مغناطيسي 10000 مللي أمبير | حامل مدمج",
+                name: "باور بانك جوي روم JR-W050 مغناطيسي 10000 مللي أمبير | حامل مدمج",
                 shortDescription: "سعة خلايا معلنة 10000 مللي أمبير | محاذاة مغناطيسية للشحن اللاسلكي | خرج USB-C سلكي | حامل مدمج | تحقق من التوافق والقدرة المشتركة",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">يجمع <strong>جوي روم JR-W030</strong> بين سعة خلايا معلنة 10000 مللي أمبير وشحن لاسلكي مغناطيسي وخرج USB-C سلكي وحامل قابل للطي. تحقق من معيار اللاسلكي والقيمة بالواط ساعة وبروفايلات الدخل والخرج والهاتف أو الجراب المتوافق وجدول الاستخدام المتزامن على الوحدة الموردة. تتغير الطاقة القابلة للاستخدام والقدرة والتثبيت والحرارة حسب المنظومة. راجع السعر والمخزون وسياسة الخدمة المكتوبة قبل الطلب.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">يجمع <strong>جوي روم JR-W050</strong> بين سعة خلايا معلنة 10000 مللي أمبير وشحن لاسلكي مغناطيسي وخرج USB-C سلكي وحامل قابل للطي. تحقق من معيار اللاسلكي والقيمة بالواط ساعة وبروفايلات الدخل والخرج والهاتف أو الجراب المتوافق وجدول الاستخدام المتزامن على الوحدة الموردة. تتغير الطاقة القابلة للاستخدام والقدرة والتثبيت والحرارة حسب المنظومة. راجع السعر والمخزون وسياسة الخدمة المكتوبة قبل الطلب.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -90,7 +90,7 @@ export const joyroom_magnetic_power_bank_10000 = {
     </ul>
 </div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>JR-W030</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>JR-W050</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 
 <div class="product-details">
     <section>
@@ -121,7 +121,7 @@ export const joyroom_magnetic_power_bank_10000 = {
 `,
                 features: ["سعة خلايا معلنة 10000 مللي أمبير", "محاذاة مغناطيسية للشحن اللاسلكي", "تحقق من بروفايل الخرج اللاسلكي", "تحقق من بروفايلات USB-C السلكية", "حامل قابل للطي", "راجع حدود توزيع القدرة", "راجع سياسة الضمان والاسترجاع", "تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "باور بانك جوي روم MagSafe 10000 | شحن لاسلكي",
-                metaDesc: "شحن لاسلكي مغناطيسي لايفونك في أي مكان مع باور بانك جوي روم JR-W030 — سعة 10,000 وUSB-C وحامل مدمج. أصلي بضمان متجر ودفع عند الاستلام.",
+                metaDesc: "شحن لاسلكي مغناطيسي لايفونك في أي مكان مع باور بانك جوي روم JR-W050 — سعة 10,000 وUSB-C وحامل مدمج. أصلي بضمان متجر ودفع عند الاستلام.",
                 faqs: [
                     { question: "كم شحنة يعطي باور بانك 10000 لهاتف متوافق؟", answer: "لا يوجد عدد ثابت؛ تصنيف الخلايا يختلف عن الطاقة القابلة للاستخدام، وتؤثر بطارية الهاتف ونسبة البداية وكفاءة التحويل والمحاذاة والحرارة واستخدام الهاتف في النتيجة." },
                     { question: "هل أستطيع استخدامه ملتصقاً بالهاتف؟", answer: "تحقق من المحاذاة والجراب وادعم الهاتف إذا كانت الحركة قد تفصل البطارية. يمكن للحامل توفير زاوية على سطح ثابت، لكن التثبيت يختلف حسب الهاتف والجراب والاتجاه والحرارة." },
@@ -132,7 +132,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         },
         meta: { keywords: "جوي روم magsafe power bank, باور بانك مغناطيسي, شاحن ايفون 17 لاسلكي, magnetic wireless charger egypt, باور بانك MagSafe مصر, جوي روم portable charger, جوي روم travel power bank, جوي روم cod egypt power bank, سعر باور بانك جوي روم, جوي روم magnetic power bank, تحقق من موديل باور بانك جوي روم, شاحن متنقل جوي روم, جوي روم power bank egypt price, شروط ضمان باور بانك", mainTerm: "joyroom magnetic power bank" },
         expertOpinion: {
-        en: "JR-W030 may suit a buyer who wants magnetic wireless alignment and a foldable stand. Confirm the phone or case standard, printed Wh, wired and wireless profiles, shared-output table, weight, live price and service terms.",
+        en: "JR-W050 may suit a buyer who wants magnetic wireless alignment and a foldable stand. Confirm the phone or case standard, printed Wh, wired and wireless profiles, shared-output table, weight, live price and service terms.",
             ar: "قد يناسب هذا الموديل من يريد بطارية مغناطيسية مع حامل مدمج، بعد التحقق من الهاتف أو الجراب ومعيار الشحن والمحاذاة والقدرة المشتركة. قارن Wh والوزن والسعر وشروط الضمان الحالية قبل الاختيار."
         },
         relatedProducts: ["joyroom-power-bank-10000",
