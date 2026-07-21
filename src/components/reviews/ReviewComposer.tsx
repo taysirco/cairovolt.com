@@ -117,8 +117,10 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
     useEffect(() => { if (open) initGsi(); }, [open, initGsi]);
 
     // 🔗 تحويل ذكي من رسالة الواتساب مباشرةً لقسم التقييم: لو الرابط يقصد التقييم
-    //    (#write-review أو #reviews أو ?rvw=) نفتح الصندوق ونمرّر إليه بسلاسة — بإعادة
-    //    محاولة لأن القسم يُرسَم على العميل (content-visibility) فلا يعمل الـanchor وحده.
+    //    (#write-review أو #reviews أو ?rvw=) نفتح الصندوق ونهبط على *بداية* القسم
+    //    (العنوان + زر «اكتب تقييمك») لا على التقييمات نفسها. block:'start' يحترم
+    //    scroll-margin-top (84px) فلا يختفي الزر تحت الهيدر الثابت. نعيد المحاولة
+    //    لأن القسم يُرسَم على العميل (content-visibility) وارتفاع الصندوق يكبر عند فتحه.
     useEffect(() => {
         let intent = false;
         try {
@@ -129,12 +131,13 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
         if (!intent) return;
         setOpen(true);
         const timers: ReturnType<typeof setTimeout>[] = [];
-        const scrollToBox = () => {
-            const el = document.getElementById('write-review');
-            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const scrollToSection = () => {
+            // بطاقة قسم التقييمات (العنوان في أعلاها) أولاً، ثم صندوق الكتابة كبديل
+            const el = document.querySelector('.verified-reviews') || document.getElementById('write-review');
+            if (el) (el as HTMLElement).scrollIntoView({ behavior: 'smooth', block: 'start' });
         };
-        // محاولات متتالية حتى يستقر التخطيط الكسول فوق القسم
-        [350, 900, 1600].forEach(d => timers.push(setTimeout(scrollToBox, d)));
+        // محاولات متتالية حتى يستقر التخطيط الكسول ويكتمل ارتفاع الصندوق المفتوح
+        [350, 900, 1600].forEach(d => timers.push(setTimeout(scrollToSection, d)));
         return () => timers.forEach(clearTimeout);
     }, []);
 
