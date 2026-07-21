@@ -664,15 +664,43 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             </div>
                         )}
 
-                        {/* Local Pain Point */}
-                        {productDetail?.localContext && (
-                            <div className="p-3 rounded-lg bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800">
-                                <p className="text-sm text-amber-900 dark:text-amber-200 flex items-start gap-2">
-                                    <svg className="w-4 h-4 mt-0.5 flex-shrink-0 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-                                    {isRTL ? localizeArabicBrandNames(productDetail.localContext.ar) : productDetail.localContext.en}
-                                </p>
-                            </div>
-                        )}
+                        {/* Local Pain Point — inline if short, collapsible if long (>250 chars)
+                            so a deep report block stays crawlable in the DOM but does not dominate scroll. */}
+                        {productDetail?.localContext && (() => {
+                            const localText = isRTL
+                                ? localizeArabicBrandNames(productDetail.localContext.ar)
+                                : productDetail.localContext.en;
+                            const isDeep = localText.length > 250;
+                            const box = (
+                                <div className="p-3 rounded-lg bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800">
+                                    <p className="text-sm text-amber-900 dark:text-amber-200 leading-relaxed">{localText}</p>
+                                </div>
+                            );
+                            if (!isDeep) {
+                                return (
+                                    <div className="p-3 rounded-lg bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800">
+                                        <p className="text-sm text-amber-900 dark:text-amber-200 flex items-start gap-2">
+                                            <svg className="w-4 h-4 mt-0.5 flex-shrink-0 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                                            {localText}
+                                        </p>
+                                    </div>
+                                );
+                            }
+                            return (
+                                <CollapsibleSection
+                                    className="rounded-lg bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 p-3"
+                                    summaryClassName="text-sm font-semibold text-amber-900 dark:text-amber-200"
+                                    summary={
+                                        <span className="flex items-center gap-2">
+                                            <span aria-hidden>🇪🇬</span>
+                                            {isRTL ? 'اعرف الاستخدام في مصر بعمق (طيران · حرارة · كهربا)' : 'How this fits Egyptian use — deep dive (airlines · heat · electricity)'}
+                                        </span>
+                                    }
+                                >
+                                    {box}
+                                </CollapsibleSection>
+                            );
+                        })()}
 
                         {/* ═══ Product Variant Selector ═══ */}
                         {product.variants && product.variants.length > 1 && (
