@@ -64,7 +64,7 @@ export const anker_soundcore_r50i_nc = {
 `,
                 features: ["🔇 Manufacturer-listed ANC up to 42dB", "🔋 Check published battery test conditions", "🎙️ Four-microphone call processing", "📱 Fold-out phone-stand case", "🎵 10mm driver and app EQ", "💧 Verify IP54 scope and limitations", "⚡ Manufacturer-listed quick-charge figure", "🔊 Transparency Mode", "🏆 Review current CairoVolt warranty terms"],
                 metaTitle: "Soundcore R50i NC Original — ANC + 45h Battery | Best Price Egypt",
-                metaDesc: "Explore Soundcore R50i NC A3959 in Egypt. Review manufacturer ANC, battery, microphone, IP54 and case specifications plus stock and current warranty terms.",
+                metaDesc: "Cut the noise with Soundcore R50i NC active noise cancelling, up to 45h total battery and IP54 resistance. Genuine, store warranty and COD in Egypt.",
                 faqs: [
                     { question: "How does the advertised 42dB ANC help?", answer: "Soundcore rates the ANC at up to 42dB under its specified conditions. Actual reduction varies with fit and noise type; choose an ear tip that seals comfortably and follow the fit guidance." },
                     { question: "What's the phone stand case?", answer: "A fold-out support is integrated into the charging case. Use it on a stable flat surface and confirm the phone's size, protective case, orientation and viewing angle are suitable." },
@@ -113,7 +113,7 @@ export const anker_soundcore_r50i_nc = {
 `,
                 features: ["🔇 عزل معلن من الشركة حتى 42dB", "🔋 راجع شروط اختبار البطارية المنشورة", "🎙️ معالجة مكالمات بأربعة مايكات", "📱 حامل قابل للفتح في العلبة", "🎵 درايفر 10mm وEQ عبر التطبيق", "💧 تحقق من نطاق وحدود IP54", "⚡ رقم شحن سريع معلن من الشركة", "🔊 وضع الشفافية", "🏆 راجع شروط ضمان كايرو فولت الحالية"],
                 metaTitle: "سماعة ساوندكور R50i NC الأصلية — عزل ضوضاء ANC وبطارية 45 ساعة | مصر",
-                metaDesc: "تعرف على سماعة ساوندكور R50i NC A3959 في مصر. راجع مواصفات العزل والبطارية والمايكات وIP54 والعلبة والمخزون والضمان الحالي.",
+                metaDesc: "اعزل الضوضاء مع سماعة ساوندكور R50i NC: عزل ANC وبطارية حتى 45 ساعة وتصنيف IP54. أصلية بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "رقم 42dB ANC معناه إيه؟", answer: "ساوندكور تعلن خفض ضوضاء حتى 42dB ضمن شروطها. النتيجة الفعلية تختلف حسب إحكام السماعة ونوع الضوضاء؛ استخدم مقاس طرف الأذن المناسب لأفضل عزل." },
                     { question: "ما حامل الموبايل في العلبة؟", answer: "هو جزء قابل للفتح في علبة الشحن. استخدمه على سطح ثابت وتحقق من ملاءمة حجم الهاتف وسمك الجراب والوضع والزاوية." },

@@ -29,7 +29,7 @@ export const joyroom_usb_a_lightning_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">This cable does NOT work with iPhone 17/16/15 (USB-C). It is for Lightning-port iPhones only. Check your phone's charging port before ordering.</p></div>`,
                 features: ["⚡ Check listed current rating", "✨ Verify 1m length on package", "📱 For compatible Lightning devices", "✨ TPE exterior", "🧾 current warranty and return policy", "🛡️ Bend/lifespan claims require model documentation", "🔒 Verify protection statement for exact model"],
                 metaTitle: "Joyroom USB-A to Lightning Cable | Egypt Price",
-                metaDesc: "Buy joyroom USB-A to Lightning Cable - standard charging for iPhone 14 and earlier. Current price Egypt. ✓ COD ✓ Fast Delivery Egypt.",
+                metaDesc: "A genuine Joyroom USB-A to Lightning cable for reliable everyday charging on iPhone 14 and earlier. In Egypt with store warranty and cash on delivery.",
                 faqs: [
                     { question: "Is this cable compatible with iPhone 17?", answer: "No, iPhone 17 uses USB-C. This USB-A to Lightning cable is designed for iPhone 14/13/12/11 and earlier models that have the Lightning port." },
                     { question: "What's the difference between this and USB-C cables?", answer: "USB-A is the traditional rectangular connector found on older chargers. USB-C offers faster charging. Use this cable if your charger has USB-A port." },
@@ -49,7 +49,7 @@ export const joyroom_usb_a_lightning_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل ده مش بيشتغل مع ايفون 17/16/15 (USB-C). هو لايفونات Lightning بس. تأكد من منفذ شحن موبايلك قبل الطلب.</p></div>`,
                 features: ["⚡ تحقق من تصنيف التيار", "✨ تحقق من طول 1 متر على العبوة", "✨ لأجهزة Lightning المتوافقة", "✨ غلاف TPE", "🧾 راجع سياسة الضمان والاسترجاع", "🛡️ أرقام الثني والعمر تحتاج توثيق الموديل", "🔒 تحقق من بيان الحماية للموديل"],
                 metaTitle: "كابل جوي روم USB-A إلى Lightning | السعر في مصر",
-                metaDesc: "اشتري كابل جوي روم USB-A إلى Lightning - شحن قياسي للايفون 14 والأقدم. السعر الحالي في مصر. ✓ ضمان ✓ توصيل سريع مصر.",
+                metaDesc: "كابل جوي روم الأصلي من USB-A إلى Lightning لشحن يومي ثابت لايفون 14 والأقدم. في مصر بضمان متجر ودفع عند الاستلام.",
                 faqs: [
                     { question: "هل هذا الكابل متوافق مع ايفون 17؟", answer: "لا، ايفون 17 يستخدم USB-C. هذا الكابل USB-A إلى Lightning مصمم للايفون 14/13/12/11 والأقدم التي بها منفذ Lightning." },
                     { question: "ما الفرق بين هذا وكابلات USB-C؟", answer: "USB-A وUSB-C نوعا موصلات مختلفان، والسرعة تعتمد على بروفايل المصدر والكابل والجهاز. استخدم الموصل والتصنيف المطابقين لشاحنك وجهازك ولا تستنتج السرعة من الشكل وحده." },

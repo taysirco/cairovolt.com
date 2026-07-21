@@ -28,7 +28,7 @@ export const joyroom_type_c_to_type_c_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">Before ordering</h3><p class="text-gray-700">Match <strong>JR-S-CC100</strong>, the connector type, printed ratings, length and package contents with the supplied cable. Review the current warranty and return terms, and do not use a cable with damaged connectors or insulation.</p></div>`,
                 features: ["USB-C to USB-C", "Verify printed USB-PD rating", "Check 3A/5A requirements", "Verify USB data capability", "Listed 1m length", "Manufacturer bend test is not a lifespan", "Current warranty terms"],
                 metaTitle: "Joyroom JR-S-CC100 USB-C Cable | Specifications | Egypt",
-                metaDesc: "Joyroom JR-S-CC100 USB-C to USB-C cable. Verify the printed power, current, data and length ratings, live price, stock and current warranty terms.",
+                metaDesc: "Charge and sync your USB-C phones, tablets and laptops with the Joyroom JR-S-CC100 cable. Genuine, store warranty and cash on delivery across Egypt.",
                 faqs: [
                     { question: "Will it fast-charge my USB-C phone?", answer: "Only when the phone, charger and cable share the required USB-PD or PPS profile within the printed cable rating. Check any 3A or 5A requirement and expect power to vary with battery level and temperature." },
                     { question: "Can it charge a USB-C laptop?", answer: "Compare the laptop's input requirement with the charger and the cable's printed power/current ratings. A lower-power setup may charge slowly or may not support charging while the laptop is under load." },
@@ -47,7 +47,7 @@ export const joyroom_type_c_to_type_c_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">قبل الطلب</h3><p class="text-gray-700">طابق <strong>JR-S-CC100</strong> ونوع الموصل والتصنيفات والطول ومحتويات العبوة مع الكابل المورّد. راجع الضمان والاسترجاع الحاليين ولا تستخدم كابلاً تالف الموصل أو العزل.</p></div>`,
                 features: ["USB-C إلى USB-C", "تحقق من تصنيف USB-PD المطبوع", "راجع متطلبات 3 أو 5 أمبير", "تحقق من قدرة بيانات USB", "طول معلن 1 متر", "اختبار الثني ليس عمراً ثابتاً", "🧾 راجع سياسة الضمان والاسترجاع"],
                 metaTitle: "كابل جوي روم JR-S-CC100 USB-C | المواصفات والسعر",
-                metaDesc: "كابل جوي روم JR-S-CC100 من USB-C إلى USB-C. تحقق من تصنيف الطاقة والتيار والبيانات والطول والسعر والمخزون وشروط الضمان الحالية.",
+                metaDesc: "اشحن وزامن أجهزتك بمنفذ USB-C من موبايل وتابلت ولابتوب مع كابل جوي روم JR-S-CC100. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "هل يشحن هاتف USB-C بسرعة؟", answer: "فقط عندما يشترك الهاتف والشاحن والكابل في بروفايل USB-PD أو PPS المطلوب داخل تصنيف الكابل المطبوع. تحقق من متطلب 3 أو 5 أمبير، وتتغير القدرة حسب البطارية والحرارة." },
                     { question: "هل يشحن لابتوب USB-C؟", answer: "قارن دخل اللابتوب بتصنيف الشاحن والطاقة والتيار المطبوعين على الكابل. قد يشحن الإعداد الأقل قدرة ببطء أو لا يغطي استهلاك اللابتوب أثناء التشغيل." },

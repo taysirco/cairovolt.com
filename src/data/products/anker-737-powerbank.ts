@@ -52,7 +52,7 @@ export const anker_737_powerbank = {
 `,
                 features: ["⚡ Listed 140W USB-C PD 3.1 Output", "🔋 24,000mAh (86.4Wh)", "📊 Smart Digital Display", "💻 Manufacturer fast-charge example (actual time varies)", "🛡️ ActiveShield 3.0 statement", "✈️ Check current airline rules (86.4Wh)", "🔌 3 Ports (2×USB-C + USB-A)", "🧾 Check current warranty terms"],
                 metaTitle: "Anker 737 Power Bank 140W | Ultra Fast Charge | COD",
-                metaDesc: "Buy Anker 737 (PowerCore 24K) in Egypt. 140W charges MacBook Pro manufacturer-rated fast charging (actual time varies). 24,000mAh, smart display. ✓ Sealed ✓ Nationwide Delivery.",
+                metaDesc: "Charge a MacBook Pro on the go — Anker 737 PowerCore 24K with 140W output, 24,000mAh capacity and a smart display. Genuine, store warranty & COD in Egypt.",
                 faqs: [
                     { question: "Can Anker 737 charge a laptop?", answer: "Yes, when the laptop accepts a USB-C PD profile printed on A1289011 and the cable is rated for it. Speed may differ from the original adapter." },
                     { question: "Is it allowed on flights?", answer: "The listed 86.4Wh is below the common 100Wh cabin threshold, but it must be carried in cabin baggage and current airline rules should be confirmed." },
@@ -78,7 +78,7 @@ export const anker_737_powerbank = {
 `,
                 features: ["⚡ خرج USB-C PD 3.1 معلن حتى 140 واط", "🔋 24,000 مللي أمبير (86.4Wh)", "📊 شاشة رقمية", "💻 مثال شحن سريع من الشركة (المدة الفعلية تختلف)", "🛡️ بيان ActiveShield 3.0", "✈️ تحقق من قواعد الطيران الحالية", "🔌 3 منافذ (2×USB-C + USB-A)", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من القيم على الوحدة ووثائق الشركة"],
                 metaTitle: "باور بانك انكر 737 | USB-C حتى 140 واط | مصر",
-                metaDesc: "اشتري باور بانك انكر 737 في مصر. 140 واط يشحن ماك بوك برو شحن سريع معلن من الشركة (المدة الفعلية تختلف). سعة 24,000، شاشة ذكية. ✓ راجع سياسة الضمان والاسترجاع الحالية ✓ توصيل سريع.",
+                metaDesc: "اشحن ماك بوك برو وانت في الطريق — انكر 737 باور كور 24K بخرج 140 واط وسعة 24,000 وشاشة ذكية. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "هل انكر 737 يشحن لابتوب؟", answer: "نعم عندما يقبل اللابتوب بروفايل USB-C PD مطبوعاً على A1289011 ويكون الكابل مصنفاً له. قد تختلف السرعة عن الشاحن الأصلي." },
                     { question: "هل مسموح به في الطيران؟", answer: "سعة 86.4Wh المدرجة أقل من حد 100Wh الشائع، لكنه يوضع في حقيبة المقصورة ويجب تأكيد قواعد شركة الطيران الحالية." },

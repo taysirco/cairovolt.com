@@ -83,7 +83,7 @@ export const anker_prime_fusion_a1339_9600mah_65w = {
   "🛡️ current warranty and return policy"
 ],
                 metaTitle: "⚡ Anker Prime Fusion 65W A1339 | 9,600mAh | COD Egypt",
-                metaDesc: "Review Anker Prime Fusion A1339 in Egypt: hybrid charger and 9,600mAh / 34.56Wh battery modes, printed USB-C profiles, plug, price, stock and service terms.",
+                metaDesc: "A wall charger and 9,600mAh power bank in one: the Anker Prime Fusion 65W with fold-in plug. Genuine, store warranty and cash on delivery in Egypt.",
                 faqs: [
                     { question: "What is the price of the Anker Prime Fusion (A1339) in Egypt?", answer: "Use the live price shown for A1339 and review current stock, package contents, warranty, payment and delivery terms before ordering." },
                     { question: "How is it a charger and a power bank at the same time?", answer: "The 'Fusion' design fuses a GaN wall charger and a 9,600mAh battery on one 65W power path. Plug the foldable prongs into a socket to charge devices and refill itself; unplug it and the battery powers your gear." },
@@ -155,7 +155,7 @@ export const anker_prime_fusion_a1339_9600mah_65w = {
   "🧾 راجع سياسة الضمان والاسترجاع"
 ],
                 metaTitle: "⚡ انكر برايم فيوجن 65 واط A1339 باور بانك | مصر",
-                metaDesc: "راجع انكر برايم فيوجن A1339 في مصر: وضعا الشاحن والبطارية 9,600 مللي أمبير / 34.56Wh وبروفايلات USB-C والقابس والسعر والمخزون والشروط الحالية.",
+                metaDesc: "شاحن حائط وباور بانك 9600 في جهاز واحد: انكر برايم فيوجن 65 واط بقابس مدمج يتطوى. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "كام سعر انكر برايم فيوجن A1339 في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لـ A1339 وراجع المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
                     { question: "إزاي بيكون شاحن وباور بانك في نفس الوقت؟", answer: "تصميم فيوجن بيدمج شاحن GaN وبطارية 9,600 مللي أمبير على مسار 65 واط واحد. تولّع القابس القابل للطي في البريزة فيشحن أجهزتك ويشحن نفسه؛ تفصله فالبطارية بتشغّل معداتك." },

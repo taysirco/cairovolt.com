@@ -31,7 +31,7 @@ export const joyroom_usb_c_cable_60w = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">Before purchase:</h3><p class="text-gray-700">Match JR-S-CC60 and the printed power and data ratings with the supplied cable. A damaged or unusually hot cable should be disconnected and replaced. Price, jacket thickness or a bend number alone does not prove performance or origin.</p></div>`,
                 features: ["🔋 Manufacturer-listed up to 60W", "⚡ Check charger and device PD/PPS profiles", "💻 Compatible laptops must accept a listed profile", "💾 Verify data capability", "✨ Bend count is a manufacturer test condition", "✨ Verify listed length", "🏆 Current warranty terms", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Joyroom USB-C 60W Cable | iPhone + Samsung | COD",
-                metaDesc: "Buy Joyroom JR-S-CC60 USB-C to USB-C cable in Egypt with a manufacturer-listed rating up to 60W. Verify power, data, length, price and current warranty terms.",
+                metaDesc: "Fast-charge laptops and phones with the genuine Joyroom JR-S-CC60 USB-C cable, rated up to 60W. In Egypt with store warranty and cash on delivery.",
                 faqs: [
                     { question: "Can I use it with my laptop?", answer: "Only if the laptop accepts a USB-PD profile within the cable's rating and the charger provides it. Compare the recommended adapter and cable requirements for the exact laptop." },
                     { question: "Does it fast-charge a compatible phone?", answer: "The cable can carry a supported profile up to its listed rating. Actual speed depends on the phone, charger, protocol, battery level, temperature and use." },
@@ -51,7 +51,7 @@ export const joyroom_usb_c_cable_60w = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">قبل الشراء:</h3><p class="text-gray-700">طابق JR-S-CC60 وقدرة الطاقة والبيانات المطبوعة مع الكابل المورّد. افصل أي كابل تالف أو ساخن بصورة غير معتادة. السعر أو سمك الغلاف أو رقم الثني وحدها لا تثبت الأداء أو المصدر.</p></div>`,
                 features: ["⚡ قدرة معلنة حتى 60 واط", "📱 طابق بروفايلات PD/PPS للجهاز والشاحن", "💻 اللابتوب المتوافق يجب أن يقبل بروفايلاً مدرجاً", "💾 تحقق من قدرة البيانات", "✨ رقم الثني شرط اختبار من الشركة", "✨ تحقق من الطول المعلن", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "كابل جوي روم 60 واط | ايفون وسامسونج | COD مصر",
-                metaDesc: "اشتري كابل جوي روم JR-S-CC60 من USB-C إلى USB-C في مصر بقدرة معلنة حتى 60 واط. تحقق من الطاقة والبيانات والطول والسعر والضمان الحالي.",
+                metaDesc: "اشحن اللابتوب والموبايل بسرعة بكابل جوي روم JR-S-CC60 الأصلي USB-C بقدرة معلنة حتى 60 واط. في مصر بضمان متجر وفاتورة ودفع عند الاستلام.",
                 faqs: [
                     { question: "هل يشحن لابتوب؟", answer: "فقط إذا قبل اللابتوب بروفايل USB-PD ضمن تصنيف الكابل ووفره الشاحن. قارن قدرة المحول والكابل المطلوبة للموديل الدقيق." },
                     { question: "هل يدعم الشحن السريع لهواتف سامسونج؟", answer: "الكابل ينقل USB-C PD حتى قدرته المعلنة. تشغيل Samsung Super Fast Charging يتطلب أيضاً شاحناً يدعم PPS وهاتفاً متوافقاً بالقدرة المطلوبة." },

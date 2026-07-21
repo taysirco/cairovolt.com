@@ -78,7 +78,7 @@ export const anker_zolo_a1681_20000 = {
 `,
                 features: ["🔌 Built-In USB-C Cable", "🔌 Built-In Lightning Cable", "🔋 Manufacturer-listed 20,000mAh (74Wh)", "📱 Up to 4 outputs; power may be shared", "📊 Digital Display", "🛡️ ActiveShield statement", "✈️ Check current airline rules", "💡 Low-Power Mode", "🧾 Check current warranty terms"],
                 metaTitle: "Anker ZOLO A1681 20000mAh | Built-In Cables",
-                metaDesc: "Shop Anker ZOLO A1681 in Egypt with built-in USB-C and Lightning cables, listed 20000mAh (74Wh) capacity, USB-A output and digital display. Check live terms.",
+                metaDesc: "Genuine Anker ZOLO 20,000mAh power bank with built-in USB-C and Lightning cables plus a digital display. In Egypt, store warranty and COD.",
                 faqs: [
                     { question: "Are the cables really built in?", answer: "Yes! A USB-C cable (up to 30W) and a Lightning cable (up to 27W) fold into the body. There's also a separate USB-C port and a 22.5W USB-A port, so you can charge four devices at once and leave every cable at home." },
                     { question: "How is this different from the A110E (22.5W)?", answer: "Compare the current models by built-in connector types, display, printed Wh and output profiles, dimensions, weight, live price and service terms. An attached cable can reduce what you carry, but inspect it because it is still subject to wear." },
@@ -141,7 +141,7 @@ export const anker_zolo_a1681_20000 = {
 `,
                 features: ["🔌 كابل USB-C مدمج", "🔌 كابل لايتننج مدمج", "🔋 سعة معلنة 20,000 مللي أمبير (74Wh)", "📱 حتى 4 مخارج مع احتمال توزيع القدرة", "📊 شاشة رقمية", "🛡️ بيان ActiveShield", "✈️ تحقق من قواعد الطيران الحالية", "💡 وضع منخفض الاستهلاك", "🧾 راجع سياسة الضمان والاسترجاع"],
                 metaTitle: "باور بانك انكر زولو A1681 بسعة 20000 | كابلات مدمجة",
-                metaDesc: "تسوق باور بانك انكر زولو A1681 في مصر بكابلي USB-C ولايتننج مدمجين وسعة معلنة 20000 مللي أمبير وخرج USB-A وشاشة رقمية. راجع الشروط الحالية.",
+                metaDesc: "باور بانك انكر زولو الأصلي 20000 مللي أمبير بكابلي USB-C ولايتننج مدمجين وشاشة رقمية، في مصر بضمان المتجر والدفع عند الاستلام.",
                 faqs: [
                     { question: "الكابلات فعلاً مدمجة؟", answer: "أيوه! كابل USB-C (حتى 30 واط) وكابل لايتننج (حتى 27 واط) مدمجين في الجسم بيتفردوا ويترجعوا. وفيه كمان منفذ USB-C منفصل ومنفذ USB-A بقوة 22.5 واط — يعني تشحن 4 أجهزة في نفس الوقت وتسيب كل الكابلات في البيت." },
                     { question: "إيه الفرق بينه وبين A110E (22.5 واط)؟", answer: "نفس فئة الـ 20 ألف مللي أمبير، بس الـ A1681 جايب الكابلين مدمجين في جسمه + شاشة رقمية. الـ A110E اختيار الميزانية؛ الـ A1681 اختيار «مش هشيل كابل تاني في حياتي»." },

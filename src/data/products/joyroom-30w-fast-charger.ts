@@ -68,7 +68,7 @@ export const joyroom_30w_fast_charger = {
 `,
             features: ["30W rated maximum output", "USB-C Power Delivery 3.0", "USB-A Quick Charge 3.0", "Two-device charging with shared power", "AC 100–240V input", "Protocol negotiation", "Warranty according to current product policy", "Over-current and temperature protection listed by the manufacturer"],
             metaTitle: "Joyroom 30W PD+QC Charger in Egypt | JR-TCF30",
-            metaDesc: "Shop the Joyroom JR-TCF30 30W wall charger in Egypt. USB-C PD 3.0, USB-A QC 3.0 and shared dual-port charging. Check current price, stock and warranty.",
+            metaDesc: "Genuine Joyroom 30W dual-port charger in Egypt: USB-C PD 3.0 plus USB-A QC 3.0 to power two devices. Store warranty and cash on delivery.",
             faqs: [
                 { question: "Will every phone charge at 30W?", answer: "No. 30W is the charger's rated maximum under a supported profile. The actual rate depends on the exact device, its supported protocol, battery state, temperature, cable and whether the second port is being used." },
                 { question: "What is the difference between PD and QC?", answer: "This model provides USB Power Delivery 3.0 through USB-C and Quick Charge 3.0 through USB-A. Check your device documentation to see which protocol and power profile it supports." },
@@ -122,7 +122,7 @@ export const joyroom_30w_fast_charger = {
 `,
             features: ["قدرة اسمية حتى 30 واط", "USB-C Power Delivery 3.0", "USB-A Quick Charge 3.0", "شحن جهازين مع توزيع القدرة", "دخل AC 100–240 فولت", "تفاوض بروتوكول الشحن", "الضمان وفق سياسة المنتج الحالية", "حماية تيار وحرارة مذكورة من الشركة المصنّعة"],
             metaTitle: "شاحن جوي روم 30 واط PD+QC في مصر | JR-TCF30",
-            metaDesc: "تسوق شاحن جوي روم JR-TCF30 بقدرة 30 واط في مصر: USB-C PD 3.0 وUSB-A QC 3.0 وشحن بمنفذين. راجع السعر والمخزون والضمان الحالي.",
+            metaDesc: "شاحن جوي روم الأصلي 30 واط بمنفذين في مصر: USB-C PD 3.0 وUSB-A QC 3.0 لجهازين معاً، بضمان المتجر والدفع عند الاستلام.",
             faqs: [
                 { question: "هل كل هاتف سيشحن بقدرة 30 واط؟", answer: "لا. 30 واط هي القدرة الاسمية القصوى عند بروفايل مدعوم. السرعة الفعلية تعتمد على موديل الجهاز والبروتوكول وحالة البطارية والحرارة والكابل واستخدام المنفذ الثاني." },
                 { question: "ما الفرق بين PD وQC؟", answer: "يوفر هذا الموديل USB Power Delivery 3.0 عبر USB-C وQuick Charge 3.0 عبر USB-A. راجع مواصفات جهازك لمعرفة البروتوكول وبروفايل القدرة المدعومين." },

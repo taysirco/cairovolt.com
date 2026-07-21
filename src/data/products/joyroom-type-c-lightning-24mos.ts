@@ -29,7 +29,7 @@ export const joyroom_type_c_lightning_24mos = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>JR-S-CL24M</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
                 features: ["⚡ Up to 30W with compatible USB-PD equipment", "🏆 Check current warranty duration and terms", "📱 For compatible Lightning devices", "✨ Verify 1m length on package", "✨ Braided exterior", "🛡️ Check manufacturer bend-test statement", "🏆 Warranty follows the current product policy"],
                 metaTitle: "Joyroom JR-S-CL24M USB-C to Lightning | Warranty Terms",
-                metaDesc: "Review Joyroom JR-S-CL24M USB-C to Lightning cable specifications, model-specific MFi statement, current price, stock, package and written service terms in Egypt.",
+                metaDesc: "Charge and sync your iPhone with the Joyroom JR-S-CL24M USB-C to Lightning cable. Genuine, store warranty and cash on delivery in Egypt.",
                 faqs: [
                     { question: "How should I check the warranty?", answer: "Review the current duration, defect coverage, eligibility, exclusions and claim process for this exact listing before ordering. Keep the invoice and model details." },
                     { question: "What's covered under warranty?", answer: "Coverage, exclusions, eligibility and remedy follow the current written policy for this exact SKU. Review it before ordering and keep the invoice and model details." },
@@ -49,7 +49,7 @@ export const joyroom_type_c_lightning_24mos = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>JR-S-CL24M</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
                 features: ["⚡ حتى 30 واط مع معدات USB-PD متوافقة", "🏆 راجع مدة وشروط الضمان الحالية", "✨ لأجهزة Lightning المتوافقة", "✨ تحقق من طول 1 متر على العبوة", "✨ غلاف مضفر", "🛡️ راجع بيان اختبار الثني من الشركة", "🏆 الضمان وفق سياسة المنتج الحالية"],
                 metaTitle: "كابل جوي روم USB-C إلى Lightning | السعر والشروط الحالية",
-                metaDesc: "راجع مواصفات كابل جوي روم JR-S-CL24M من USB-C إلى Lightning وبيان MFi للموديل والسعر والمخزون والعبوة وشروط الخدمة المكتوبة الحالية في مصر.",
+                metaDesc: "اشحن وزامن ايفونك بثبات مع كابل جوي روم JR-S-CL24M من USB-C إلى Lightning. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "كيف أتحقق من ضمان هذا الكابل؟", answer: "راجع مدة الضمان الظاهرة لـ JR-S-CL24M والسياسة المكتوبة الحالية قبل الطلب؛ فهي التي تحدد الأهلية والاستثناءات وإثبات الشراء وخطوات الخدمة." },
                     { question: "ماذا يغطي الضمان؟", answer: "التغطية والاستثناءات والأهلية وطريقة المعالجة تخضع للسياسة المكتوبة الحالية لهذا الموديل. احتفظ بالفاتورة ورقم الموديل." },

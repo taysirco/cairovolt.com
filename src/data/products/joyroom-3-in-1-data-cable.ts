@@ -29,7 +29,7 @@ export const joyroom_3_in_1_data_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">Before ordering</h3><p class="text-gray-700">Match <strong>JR-S-1830G</strong>, the three connector types, source plug, length, ratings and package contents with the supplied cable. Verify any MFi statement specifically for this model's Lightning branch; do not infer blanket MFi or USB-IF approval from the connector layout.</p></div>`,
                 features: ["Lightning + USB-C + Micro-USB", "Verify printed total current", "Check simultaneous-use instructions", "Verify which branches support data", "Listed 1.2m length", "Manufacturer bend test is not a lifespan", "Current warranty terms"],
                 metaTitle: "Joyroom JR-S-1830G 3-in-1 Charging Cable | Egypt",
-                metaDesc: "Joyroom JR-S-1830G cable with Lightning, USB-C and Micro-USB connectors. Verify current sharing, data support, length, live price and warranty terms.",
+                metaDesc: "One genuine Joyroom cable, three tips: Lightning, USB-C and Micro-USB for almost any device. In Egypt with store warranty and COD.",
                 faqs: [
                     { question: "Can all three connectors charge at the same time?", answer: "Check the printed JR-S-1830G instructions. If simultaneous connection is allowed, the source current may be shared, so no branch is guaranteed its single-device maximum." },
                     { question: "Does it support USB-PD fast charging?", answer: "Do not infer USB-PD from the USB-C connector. Verify the exact input connector, voltage/current table and supported protocols on the package; a dedicated cable may be required for a phone's higher-power mode." },
@@ -47,7 +47,7 @@ export const joyroom_3_in_1_data_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">قبل الطلب</h3><p class="text-gray-700">طابق <strong>JR-S-1830G</strong> والموصلات الثلاثة وقابس المصدر والطول والتصنيفات ومحتويات العبوة مع الكابل المورّد. تحقق من أي بيان MFi لهذا الموديل وفرع Lightning تحديداً؛ لا تستنتج اعتماداً شاملاً من شكل الموصلات.</p></div>`,
                 features: ["Lightning + USB-C + Micro-USB", "تحقق من التيار الكلي المطبوع", "راجع تعليمات الاستخدام المتزامن", "تحقق من فروع نقل البيانات", "طول معلن 1.2 متر", "اختبار الثني ليس عمراً ثابتاً", "🧾 راجع سياسة الضمان والاسترجاع"],
                 metaTitle: "كابل جوي روم JR-S-1830G 3 في 1 | المواصفات والسعر",
-                metaDesc: "كابل جوي روم JR-S-1830G بموصلات Lightning وUSB-C وMicro-USB. تحقق من توزيع التيار ودعم البيانات والطول والسعر والضمان الحالي.",
+                metaDesc: "كابل جوي روم الأصلي 3 في 1 بأطراف Lightning وUSB-C وMicro-USB يشحن أغلب أجهزتك، في مصر بضمان المتجر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل تعمل الموصلات الثلاثة معاً؟", answer: "راجع تعليمات JR-S-1830G المطبوعة. إذا سُمح بالتوصيل المتزامن فقد يتوزع تيار المصدر، لذلك لا يضمن أي فرع الحد الأقصى نفسه الموجود عند توصيل جهاز واحد." },
                     { question: "هل يدعم شحن USB-PD السريع؟", answer: "لا تستنتج USB-PD من وجود USB-C. تحقق من موصل المصدر وجدول الجهد والتيار والبروتوكولات على العبوة؛ قد يحتاج وضع الهاتف الأعلى إلى كابل مخصص." },

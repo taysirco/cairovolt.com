@@ -74,7 +74,7 @@ export const anker_a2216_magnetic_wireless_car_charger = {
   "🏆 current warranty and return policy"
 ],
                 metaTitle: "Anker A2216 Qi2 Car Charger ⚡ 15W Magnetic | Egypt COD",
-                metaDesc: "Review Anker Nano A2216 in Egypt: listed Qi2 output, magnetic-hold and mount specifications, phone and case compatibility, live price and service terms.",
+                metaDesc: "Magnetic Qi2 wireless charging that holds your phone while you drive — Anker Nano A2216, up to 15W. Genuine, store warranty & COD in Egypt.",
                 faqs: [
                     { question: "What is the price of the Anker A2216 car charger in Egypt?", answer: "Use the live price shown for this SKU and verify current stock, package contents, warranty, payment and delivery terms before ordering." },
                     { question: "Does it support wireless charging up to 15W?", answer: "The model supports Qi2 up to its stated power with a compatible phone and power adapter. Actual output varies with alignment, phone model, temperature, and battery level." },
@@ -139,7 +139,7 @@ export const anker_a2216_magnetic_wireless_car_charger = {
   "🧾 راجع سياسة الضمان والاسترجاع"
 ],
                 metaTitle: "شاحن انكر A2216 المغناطيسي للسيارة | Qi2 | مصر",
-                metaDesc: "تعرف على شاحن انكر نانو A2216 المغناطيسي للسيارة في مصر، مع Qi2 حتى 15 واط وحامل تابلوه مرن. راجع التوافق والمخزون والضمان والتوصيل.",
+                metaDesc: "شحن لاسلكي Qi2 مغناطيسي يمسك موبايلك وانت بتسوق — شاحن انكر نانو A2216 حتى 15 واط. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "كام سعر شاحن انكر A2216 للسيارة في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لهذا المنتج وتحقق من المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
                     { question: "هل بيدعم شحن لاسلكي حتى 15 واط؟", answer: "الموديل يدعم Qi2 حتى القدرة المعلنة مع هاتف ومحول طاقة متوافقين. القدرة الفعلية تتغير حسب الهاتف والمحاذاة والحرارة ونسبة البطارية." },

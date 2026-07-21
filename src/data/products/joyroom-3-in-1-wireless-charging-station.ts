@@ -65,7 +65,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
 `,
                 features: ["📱 Verify magnetic-phone standard and output", "⌚ Check Apple Watch model support", "🎧 For compatible wireless earbud cases", "🔄 Check simultaneous-output table", "🏛️ Listed aluminum construction", "📐 Adjustable viewing angle", "🔌 Single input cable", "🏆 Current warranty terms"],
                 metaTitle: "Joyroom 3-in-1 Wireless Station ⚡ iPhone+Watch+AirPods | COD",
-                metaDesc: "Explore Joyroom JR-WQN01 3-in-1 wireless charging station in Egypt. Check phone, Apple Watch and earbud-case compatibility, output, adapter, stock and warranty.",
+                metaDesc: "Charge your iPhone, Apple Watch and AirPods on one genuine Joyroom 3-in-1 wireless station. In Egypt with store warranty and COD.",
                 faqs: [
                     { question: "Does it support Apple Watch Ultra 2?", answer: "Check the current JR-WQN01 compatibility list and the watch's charging requirements. Watch model support and fast-charge behavior should be confirmed for the exact supplied station." },
                     { question: "What iPhone models are compatible?", answer: "Check the phone's magnetic-charging standard, case and current JR-WQN01 compatibility list. The listed maximum is not guaranteed for every model or setup." },
@@ -119,7 +119,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
 `,
                 features: ["📱 شحن مغناطيسي معلن حتى 15 واط", "⌚ موضع شحن لساعة ابل المتوافقة", "🎧 موضع شحن لاسلكي للعلب المتوافقة", "🔄 3 أجهزة معاً حسب التوافق", "🏛️ هيكل ألومنيوم", "📐 زاوية StandBy", "🔌 كابل واحد", "🧾 راجع سياسة الضمان والاسترجاع", "🔒 تحقق من علامة Qi والموديل على الوحدة ووثائق الشركة"],
                 metaTitle: "محطة شحن جوي روم 3 في 1 ⚡ ايفون + واتش + ايربودز | COD مصر",
-                metaDesc: "تعرف على محطة جوي روم JR-WQN01 للشحن اللاسلكي 3 في 1 في مصر. راجع توافق الهاتف وساعة ابل وعلبة السماعات والخرج والمحول والمخزون والضمان.",
+                metaDesc: "اشحن ايفونك وساعة ابل والايربودز لاسلكياً على محطة جوي روم الأصلية 3 في 1، في مصر بضمان المتجر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل تدعم ابل واتش الترا 2؟", answer: "راجع قائمة توافق JR-WQN01 الحالية ومتطلبات الساعة. يجب تأكيد دعم الموديل وسلوك الشحن السريع للمحطة الموردة." },
                     { question: "ما موديلات الايفون المتوافقة؟", answer: "راجع معيار الشحن المغناطيسي للهاتف والجراب وقائمة توافق JR-WQN01 الحالية. الحد المعلن لا يتحقق بالضرورة مع كل موديل أو إعداد." },

@@ -47,7 +47,7 @@ export const soundcore_p40i_earbuds = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3955</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
             features: ["Listed 11mm composite driver and BassUp", "Adaptive ANC listing", "Manufacturer-published battery figures", "Phone-stand case", "Microphone processing", "Verify Bluetooth and multipoint support", "Review IPX5 limits", "Manufacturer-published fast-charge example", "Transparency mode", "Review current warranty terms"],
             metaTitle: "Soundcore P40i — 11mm ANC + 60h Battery",
-            metaDesc: "Review Soundcore P40i A3955 in Egypt: listed driver, ANC, battery, microphone and phone-stand features, current price, stock and warranty terms.",
+            metaDesc: "All-day power with Soundcore P40i — 11mm drivers, ANC and up to 60h battery plus a phone-stand case. Genuine, store warranty and COD in Egypt.",
             faqs: [
                     { question: "P40i vs R50i NC — what should I compare?", answer: "Compare current ANC methods under the same test, fit, app and codec support, published battery settings, case functions, live price and warranty. Driver or dB figures alone do not establish which is better for a listener." },
                     { question: "Is the driver 12mm or 11mm?", answer: "This listing identifies an 11mm composite driver. Confirm A3955 and the current manufacturer documentation; perceived bass depends on fit, EQ, source and recording." },
@@ -75,7 +75,7 @@ export const soundcore_p40i_earbuds = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3955</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["درايفر 11mm وBassUp وفق القائمة", "عزل تكيفي مدرج", "أرقام بطارية منشورة من الشركة", "علبة بحامل هاتف", "معالجة ميكروفون", "تحقق من البلوتوث والاتصال المتعدد", "راجع حدود IPX5", "مثال شحن سريع منشور", "وضع شفافية", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "سماعة ساوندكور P40i — 11mm ANC + 60 ساعة + حامل موبايل",
-            metaDesc: "راجع ساوندكور P40i A3955 في مصر: الدرايفر والعزل والبطارية والميكروفونات وحامل الهاتف وفق القائمة، مع السعر والمخزون والضمان الحالي.",
+            metaDesc: "طاقة طوال اليوم مع ساوندكور P40i: درايفر 11mm وعزل ANC وبطارية حتى 60 ساعة وعلبة تسند الموبايل. أصلية بضمان المتجر ودفع عند الاستلام في مصر.",
             faqs: [
                     { question: "P40i ولا R50i NC — أقارن إيه؟", answer: "قارن طرق العزل الحالية تحت الاختبار نفسه والملاءمة ودعم التطبيق والكودك وإعدادات البطارية المنشورة ووظائف العلبة والسعر والضمان. رقم الدرايفر أو dB وحده لا يحدد الأنسب." },
                     { question: "الدرايفر 12mm ولا 11mm؟", answer: "تذكر هذه القائمة درايفر 11mm. تحقّق من A3955 ووثائق ساوندكور الحالية؛ يعتمد الباس الفعلي على الملاءمة وEQ والمصدر والتسجيل." },

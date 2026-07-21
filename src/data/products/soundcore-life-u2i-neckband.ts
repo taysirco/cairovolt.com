@@ -44,7 +44,7 @@ export const soundcore_life_u2i_neckband = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">Before ordering</h3><p class="text-gray-700">Match model <strong>A3213</strong>, printed battery, input and IP information, Bluetooth name and package contents with current manufacturer documentation. Use only where wearing earbuds is safe and legal, and maintain awareness around traffic and machinery.</p></div>`,
             features: ["Wireless Neckband", "10mm Graphene BassUp", "22h Battery", "10min = 3h Fast Charge", "Magnetic Auto-Pause", "28g Ultralight", "BT 5.0", "AI Mic", "IPX5", "USB-C", "🧾 Review warranty and return policy"],
             metaTitle: "Soundcore Life U2i — Neckband | 10mm BassUp | 22h",
-            metaDesc: "Shop Soundcore Life U2i in Egypt. Neckband design, manufacturer-listed 10mm driver, battery figure, IPX5 rating, microphone features and magnetic earbuds. Check live terms.",
+            metaDesc: "Neckband freedom with Soundcore Life U2i: 10mm BassUp drivers, up to 22h battery and IPX5 sweat resistance. Genuine, store warranty and COD in Egypt.",
             faqs: [
                     { question: "Why choose a neckband instead of TWS earbuds?", answer: "The connected form may reduce the chance of misplacing one separate earbud and does not require a separate charging case. It can still fall, snag or be lost; compare comfort, battery conditions and use case." },
                     { question: "How should I compare Bluetooth 5.0 with newer versions?", answer: "A Bluetooth version number alone does not determine range, latency or multipoint. Check the exact profiles, firmware and device support for Life U2i and the alternative model." },
@@ -72,7 +72,7 @@ export const soundcore_life_u2i_neckband = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">قبل الطلب</h3><p class="text-gray-700">طابق موديل <strong>A3213</strong> وبيانات البطارية والدخل وIP واسم البلوتوث ومحتويات العبوة مع وثائق الشركة المصنّعة الحالية. استخدم السماعات فقط عندما يكون ذلك آمنًا ومسموحًا وحافظ على الوعي قرب المرور والآلات.</p></div>`,
             features: ["نيكباند لاسلكي", "10mm جرافين BassUp", "22 ساعة بطارية", "10 دقائق = 3 ساعات", "تشبيك مغناطيسي أوتوماتيك", "28 جرام خفيف", "BT 5.0", "مايك AI", "IPX5", "USB-C", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "سماعة ساوندكور Life U2i — نيكباند | 10mm BassUp",
-            metaDesc: "ساوندكور Life U2i نيكباند بدرايفر 10mm مع BassUp وبطارية معلنة حتى 22 ساعة وIPX5 وسماعات مغناطيسية. راجع التوافق والشروط الحالية.",
+            metaDesc: "حرية النيكباند مع ساوندكور Life U2i: درايفر 10mm BassUp وبطارية حتى 22 ساعة وIPX5. أصلية بضمان المتجر ودفع عند الاستلام في مصر.",
             faqs: [
                     { question: "ليه نيكباند بدل TWS؟", answer: "قد يقلل التصميم المتصل احتمال فقد قطعة واحدة ولا يحتاج علبة شحن منفصلة، لكنه يمكن أن يسقط أو يتشابك أو يُفقد. قارن الراحة والبطارية وطريقة الاستخدام." },
                     { question: "إزاي أقارن Bluetooth 5.0 بالإصدارات الأحدث؟", answer: "رقم إصدار البلوتوث وحده لا يحدد المدى أو التأخير أو Multipoint. راجع الملفات المدعومة والبرنامج وتوافق الجهاز للموديلين." },

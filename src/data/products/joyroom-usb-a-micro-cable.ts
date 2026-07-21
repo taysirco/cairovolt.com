@@ -29,7 +29,7 @@ export const joyroom_usb_a_micro_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Before ordering:</h3><p class="text-gray-700">Micro-USB is different from USB-C and Lightning. Inspect the device port or its manual rather than relying on the device category or model family alone.</p></div>`,
                 features: ["⚡ Verify the printed current rating", "✨ Listed 1.2m length", "⚡ Micro-USB connector; check the device", "✨ Verify the supplied jacket material", "🏆 Review current CairoVolt warranty terms", "🛡️ Verify any bend-test statement", "🔒 Stop use if damaged or unusually hot", "🏆 Warranty follows the current product policy"],
                 metaTitle: "Joyroom JR-S-AM24 Micro-USB Cable 1.2m | Egypt",
-                metaDesc: "Explore Joyroom JR-S-AM24 1.2m USB-A to Micro-USB cable in Egypt. Check current/data rating, connector, stock, package and current warranty terms.",
+                metaDesc: "Keep older phones, speakers and accessories charged with the Joyroom JR-S-AM24 Micro-USB cable, 1.2m. Genuine, in Egypt with store warranty and COD.",
                 faqs: [
                     { question: "Which devices use Micro USB today?", answer: "Micro USB is used by older Android phones, budget earbuds, power banks, and some Bluetooth speakers. Most new devices now use USB-C." },
                     { question: "Can I charge my new Samsung with this cable?", answer: "No, Samsung S26/S25 use USB-C. This Micro USB cable is for older devices like budget phones, speakers, and accessories." },
@@ -49,7 +49,7 @@ export const joyroom_usb_a_micro_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ قبل الطلب:</h3><p class="text-gray-700">موصل Micro-USB مختلف عن USB-C وLightning. افحص منفذ الجهاز أو دليله ولا تعتمد على فئة الجهاز أو اسم العائلة وحدهما.</p></div>`,
                 features: ["⚡ تحقق من تصنيف التيار المطبوع", "✨ طول معلن 1.2 متر", "⚡ موصل Micro-USB؛ تحقق من الجهاز", "✨ راجع مادة الغلاف الموردة", "🏆 راجع شروط ضمان كايرو فولت الحالية", "🛡️ تحقق من أي بيان لاختبار الثني", "🔒 توقف عند التلف أو السخونة غير المعتادة", "🏆 الضمان وفق سياسة المنتج الحالية"],
                 metaTitle: "كابل جوي روم JR-S-AM24 Micro-USB بطول 1.2 متر | مصر",
-                metaDesc: "تعرف على كابل جوي روم JR-S-AM24 بطول 1.2 متر من USB-A إلى Micro-USB في مصر. راجع التيار والبيانات والموصل والمخزون والعبوة والضمان الحالي.",
+                metaDesc: "خلي أجهزتك القديمة وسماعاتك شغالة بكابل جوي روم JR-S-AM24 مايكرو USB بطول 1.2 متر. أصلي في مصر بضمان متجر ودفع عند الاستلام.",
                 faqs: [
                     { question: "أي أجهزة تستخدم Micro USB الحالي؟", answer: "Micro USB يستخدم في هواتف اندرويد القديمة، سماعات اقتصادية، باور بانك، وبعض سماعات بلوتوث. معظم الأجهزة الجديدة USB-C." },
                     { question: "هل يشحن سامسونج الجديد؟", answer: "لا، سامسونج S26/S25 يستخدم USB-C. هذا الكابل Micro USB للأجهزة القديمة مثل هواتف اقتصادية وسماعات." },

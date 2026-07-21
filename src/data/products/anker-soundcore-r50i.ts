@@ -112,7 +112,7 @@ export const anker_soundcore_r50i = {
 `,
                 features: ["🎵 10mm BassUp™", "🔋 Up to 30h Listed Battery", "👂 In-Ear Passive Isolation", "🎙️ Dual-Mic Call Processing", "⚡ Listed Fast Charge", "💧 IPX5", "📱 Soundcore App", "💰 Check Current Listing", "🏆 current warranty and return policy", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Soundcore R50i in Egypt | 10mm BassUp, 30h, IPX5",
-                metaDesc: "Soundcore R50i earbuds in Egypt with listed 10mm BassUp drivers, up to 30h battery, app EQ and IPX5. Check model, current price, stock and warranty terms.",
+                metaDesc: "Deep bass from 10mm BassUp drivers, up to 30h battery and IPX5: Soundcore R50i earbuds. Genuine, store warranty and cash on delivery in Egypt.",
                 faqs: [
                     { question: "Does the Soundcore R50i have ANC?", answer: "No. R50i uses passive isolation from its silicone tips. Compare it with R50i NC using the current ANC method and test conditions, fit, battery settings, live price and warranty." },
                     { question: "Soundcore R50i vs R50i NC — what's the difference?", answer: "Compare the current pages for ANC, fit, microphones, case design, published battery conditions, codecs, app support, live prices and warranty. A higher single specification does not establish the right model for every user." },
@@ -161,7 +161,7 @@ export const anker_soundcore_r50i = {
 `,
                 features: ["🎵 10mm BassUp™", "🔋 حتى 30 ساعة معلنة", "👂 عزل سلبي داخلي", "🎙️ معالجة مكالمات بميكروفونين", "⚡ شحن سريع معلن", "💧 IPX5", "📱 تطبيق ساوندكور", "💰 راجع السعر الحالي", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "سماعة انكر ساوندكور R50i | بطارية معلنة حتى 30 ساعة",
-                metaDesc: "اشتري سماعة انكر ساوندكور R50i في مصر بدرايفر 10mm BassUp ومدة معلنة حتى 30 ساعة وتصنيف IPX5. راجع الموديل والسعر والمخزون والضمان الحالي.",
+                metaDesc: "باس عميق بدرايفر 10mm BassUp وبطارية حتى 30 ساعة وتصنيف IPX5 مع سماعة ساوندكور R50i. أصلية بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "فيها إلغاء ضوضاء ANC؟", answer: "لا. تستخدم R50i عزلاً سلبياً من أطراف السيليكون. قارنها مع R50i NC حسب طريقة العزل وشروط الاختبار والملاءمة والبطارية والسعر والضمان الحالي." },
                     { question: "R50i ولا R50i NC — إيه الفرق؟", answer: "قارن الصفحتين الحاليتين حسب ANC والملاءمة والميكروفونات وتصميم العلبة وشروط البطارية والكودكات والتطبيق والسعر والضمان. رقم واحد أعلى لا يحسم الاختيار لكل مستخدم." },

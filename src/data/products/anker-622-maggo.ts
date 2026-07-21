@@ -72,7 +72,7 @@ export const anker_622_maggo = {
 `,
                 features: ["🧲 Listed 7.5W Magnetic Wireless Charging", "📱 Built-in Foldable Kickstand", "📐 Check listed 13mm thickness", "🔌 USB-C Two-Way Charging", "🔄 Verify Pass-Through Support in Manual", "🧾 Current Anker Warranty Terms", "🔎 Verify ratings on the unit and manufacturer documentation", "✈️ Check Current Airline Rules"],
                 metaTitle: "Anker 622 MagGo Wireless | MagSafe iPhone | COD",
-                metaDesc: "Buy Anker 622 MagGo in Egypt. Magnetic wireless charging for supported iPhones, built-in kickstand and slim design. Check current warranty, stock and delivery terms.",
+                metaDesc: "Snap-on wireless power for iPhone — Anker 622 MagGo with magnetic MagSafe charging, built-in kickstand and slim design. Genuine, store warranty & COD in Egypt.",
                 faqs: [
                     { question: "Does it work with non-magnetic cases?", answer: "Attachment and charging depend on the exact phone, case, alignment and wireless standard. Thick, metal-containing or non-magnetic cases may prevent attachment or reduce charging." },
                     { question: "How fast is the wireless charging?", answer: "The listing states up to 7.5W under supported conditions. Actual power varies with phone, case, alignment, battery state and temperature." },
@@ -128,7 +128,7 @@ export const anker_622_maggo = {
 `,
                 features: ["🧲 شحن لاسلكي مغناطيسي معلن 7.5 واط", "📱 حامل مدمج قابل للطي", "📐 تحقق من السمك المعلن 13مم", "🔌 USB-C في الاتجاهين", "🔄 تحقق من دعم الشحن التمريري في الدليل", "🧾 راجع شروط ضمان انكر الحالية", "🔎 تحقق من القيم على الوحدة ووثائق الشركة", "✈️ تحقق من قواعد الطيران الحالية"],
                 metaTitle: "باور بانك انكر 622 MagGo | شحن لاسلكي ايفون",
-                metaDesc: "اشتري بطارية انكر 622 MagGo في مصر. شحن لاسلكي MagSafe لايفون 17/16/15. حامل مدمج، نحيف جداً. ✓ راجع سياسة الضمان والاسترجاع الحالية ✓ توصيل سريع.",
+                metaDesc: "طاقة لاسلكية تلتصق بظهر ايفونك — انكر 622 MagGo بشحن مغناطيسي MagSafe وحامل مدمج وتصميم نحيف. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "هل يعمل مع الجرابات غير المغناطيسية؟", answer: "التثبيت والشحن يعتمدان على الهاتف والجراب والمحاذاة ومعيار اللاسلكي. الجراب السميك أو المعدني أو غير المغناطيسي قد يمنع التثبيت أو يقلل الشحن." },
                     { question: "ما سرعة الشحن اللاسلكي؟", answer: "تذكر القائمة حتى 7.5 واط تحت شروط متوافقة. تتغير القدرة حسب الهاتف والجراب والمحاذاة ومستوى البطارية والحرارة." },

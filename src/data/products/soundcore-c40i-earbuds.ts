@@ -36,7 +36,7 @@ export const soundcore_c40i_earbuds = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">Before ordering</h3><p class="text-gray-700">Match model <strong>A3331</strong>, the printed ratings, Bluetooth name, app recognition and package contents with current Soundcore documentation. Review the current warranty and return terms and do not infer authenticity from price or packaging appearance alone.</p></div>`,
             features: ["Open-ear clip-on", "Flexible titanium wire and TPU", "Listed 12×17mm racetrack driver", "Physical controls", "Bluetooth 5.4 multipoint", "Call processing", "Soundcore app EQ", "Manufacturer-rated battery figures", "IPX4", "Current warranty terms"],
             metaTitle: "Soundcore C40i A3331 Open-Ear Clip Earbuds | Egypt",
-            metaDesc: "Soundcore C40i A3331 open-ear clip earbuds with flexible frame, listed 12×17mm driver, physical controls, Bluetooth 5.4 and IPX4. Check current terms.",
+            metaDesc: "Comfortable open-ear clip design that stays put through workouts — genuine Soundcore C40i with IPX4 and Bluetooth 5.4. In Egypt with store warranty.",
             faqs: [
                     { question: "How should I compare C40i with C30i?", answer: "Compare the current fit structure, controls, Bluetooth and multipoint support, app functions, published battery conditions, IP limits, package contents, live prices and warranty. Do not assume identical sound or comfort from one shared specification." },
                     { question: "Does C40i have ANC?", answer: "No. It is an open-ear model without ANC. Open-ear listening may pass more ambient sound but is not guaranteed safety; compare any ANC alternative using its current method, fit, IP limits, live price and warranty." },
@@ -54,7 +54,7 @@ export const soundcore_c40i_earbuds = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">قبل الطلب</h3><p class="text-gray-700">طابق موديل <strong>A3331</strong> والمواصفات المطبوعة واسم البلوتوث وظهور المنتج في تطبيق ساوندكور ومحتويات العبوة مع وثائق الشركة الحالية. راجع الضمان والاسترجاع ولا تستنتج الأصالة من السعر أو شكل العبوة وحدهما.</p></div>`,
             features: ["كليب أذن مفتوح", "سلك تيتانيوم مرن وTPU", "درايفر معلن 12×17mm", "أزرار فعلية", "بلوتوث 5.4 multipoint", "معالجة مكالمات", "EQ عبر تطبيق ساوندكور", "أرقام بطارية من الشركة", "IPX4", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "سماعة ساوندكور C40i A3331 كليب أذن مفتوح",
-            metaDesc: "سماعة ساوندكور C40i A3331 بتصميم كليب مفتوح وهيكل مرن ودرايفر معلن 12×17mm وأزرار وبلوتوث 5.4 وتصنيف IPX4. راجع الشروط الحالية.",
+            metaDesc: "تصميم كليب أذن مفتوح مريح يثبت أثناء التمرين — سماعة ساوندكور C40i الأصلية بتصنيف IPX4 وبلوتوث 5.4. في مصر بضمان متجر ودفع عند الاستلام.",
             faqs: [
                     { question: "إزاي أقارن C40i مع C30i؟", answer: "قارن هيكل الملاءمة والأزرار والبلوتوث وmultipoint والتطبيق وشروط البطارية وحدود IP ومحتويات العبوة والسعر والضمان الحالي. لا تفترض صوتاً أو راحة متطابقين من مواصفة مشتركة واحدة." },
                     { question: "C40i فيها ANC؟", answer: "لا. هي سماعة أذن مفتوحة بلا ANC. قد تمرر صوتاً محيطاً أكثر لكنها لا تضمن الأمان؛ قارن بديل ANC حسب طريقته وملاءمته وحدود IP والسعر والضمان الحالي." },

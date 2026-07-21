@@ -69,7 +69,7 @@ export const joyroom_25w_fast_charger = {
 `,
                 features: ["⚡ Rated up to 25W", "🔌 Single USB-C port", "📱 Protocol-based device compatibility", "🛡️ Verify protection and compliance marks", "🧳 Compact wall-charger format", "🌍 Check the input range on the unit", "🏆 Warranty follows current listing terms", "🧾 Model JR-TCF25"],
                 metaTitle: "Joyroom 25W PD Charger ⚡ iPhone + Samsung | Official | COD",
-                metaDesc: "Buy Joyroom JR-TCF25 25W USB-C PD charger in Egypt. Check PD/PPS output profiles, device compatibility, live price, stock and current warranty terms.",
+                metaDesc: "Charge iPhone and Samsung fast with the genuine Joyroom 25W USB-C PD charger, PD/PPS ready. In Egypt with store warranty and COD.",
                 faqs: [
                     { question: "How fast will it charge my iPhone or Samsung phone?", answer: "There is no single time for every model. Compare the phone's required USB-PD or PPS profile with the JR-TCF25 output table; the negotiated power then varies with cable, battery level, temperature and use." },
                     { question: "Does it support Egypt's mains voltage?", answer: "Check that the supplied unit is marked for the local voltage and frequency before connection. A wide input range does not protect against every electrical fault; use a sound outlet and follow the manufacturer instructions." },
@@ -125,7 +125,7 @@ export const joyroom_25w_fast_charger = {
 `,
                 features: ["⚡ تصنيف حتى 25 واط", "🔌 منفذ USB-C واحد", "📱 التوافق حسب البروتوكول", "🛡️ تحقق من علامات الحماية والمطابقة", "🧳 تصميم شاحن حائط صغير", "🌍 راجع نطاق الدخل على الوحدة", "🏆 الضمان وفق الشروط الحالية", "🧾 موديل JR-TCF25"],
                 metaTitle: "شاحن جوي روم 25 واط | ايفون وسامسونج | مصر",
-                metaDesc: "اشتر شاحن جوي روم JR-TCF25 بقوة 25 واط USB-C PD في مصر. راجع بروفايلات PD/PPS والتوافق والسعر والمخزون وشروط الضمان الحالية.",
+                metaDesc: "اشحن ايفون وسامسونج بسرعة مع شاحن جوي روم الأصلي 25 واط USB-C PD بدعم PD/PPS، في مصر بضمان المتجر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل يدعم وضع الشحن السريع في سامسونج؟", answer: "يعتمد ذلك على بروفايل PPS المطلوب لموديل الهاتف. طابقه مع جدول خرج JR-TCF25؛ وقد يختلف اسم الوضع والطاقة الفعلية حسب الهاتف والكابل والحرارة." },
                     { question: "ينفع أسيبه يشحن من غير متابعة؟", answer: "اتبع تعليمات السلامة الخاصة بالهاتف والشاحن. اترك تهوية واستخدم كابل ومقبساً سليمين وتوقف عن الاستخدام عند التلف أو السخونة غير المعتادة." },

@@ -30,7 +30,7 @@ export const joyroom_type_c_lightning_braided = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Lightning cable only — does NOT work with iPhone 17/16/15 (USB-C). If you want the same braided quality for USB-C, see our Joyroom USB-C cables.</p></div>`,
                 features: ["⚡ Verify rated USB-PD output", "✨ Verify MFi statement for exact SKU", "✨ Braided nylon design", "📱 For compatible Lightning devices", "✨ Check length on package", "🏆 Warranty follows current listing terms", "🛡️ Verify bend rating in manufacturer documentation", "🔎 Inspect cable and connector before use"],
                 metaTitle: "Joyroom Lightning Braided | iPhone Fast Charge",
-                metaDesc: "Buy Joyroom JR-S-CL30B braided USB-C to Lightning cable in Egypt. Check rated power, MFi statement, length, live price, stock and current warranty terms.",
+                metaDesc: "A tough braided USB-C to Lightning cable for daily iPhone charging — Joyroom JR-S-CL30B. Genuine, backed by store warranty and cash on delivery in Egypt.",
                 faqs: [
                     { question: "Is this cable MFi certified?", answer: "Verify the MFi mark for model JR-S-CL30B on the supplied package or manufacturer documentation. Do not infer certification or error-free operation from the connector shape alone." },
                     { question: "How fast does the braided Lightning cable charge?", answer: "It supports USB-C PD up to the cable's listed rating with compatible iPhones and chargers. Actual speed varies by phone model, charger, cable condition, and battery level." },
@@ -49,7 +49,7 @@ export const joyroom_type_c_lightning_braided = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">كابل Lightning بس — مش بيشتغل مع ايفون 17/16/15 (USB-C). لو عايز نفس جودة النايلون لـ USB-C، شوف كابلات جوي روم USB-C بتاعتنا.</p></div>`,
                 features: ["⚡ تحقق من تصنيف USB-PD", "✨ تحقق من بيان MFi للموديل", "✨ تصميم نايلون مضفر", "✨ لأجهزة Lightning المتوافقة", "✨ راجع الطول على العبوة", "🏆 الضمان وفق الشروط الحالية", "🛡️ تحقق من تصنيف الثني في وثائق الشركة", "🔎 افحص الكابل والموصل قبل الاستخدام"],
                 metaTitle: "كابل جوي روم ايفون نايلون | شحن سريع | COD مصر",
-                metaDesc: "اشتر كابل جوي روم JR-S-CL30B المضفر من USB-C إلى Lightning في مصر. راجع تصنيف الطاقة وبيان MFi والطول والسعر والمخزون والضمان الحالي.",
+                metaDesc: "كابل جوي روم JR-S-CL30B المضفر من USB-C إلى Lightning لشحن ايفونك اليومي بمتانة. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "هل الكابل معتمد MFi؟", answer: "تحقق من علامة MFi للموديل JR-S-CL30B على العبوة الموردة أو وثائق الشركة المصنّعة. لا تفترض الاعتماد أو عدم ظهور أخطاء من شكل الموصل وحده." },
                     { question: "كم سرعة شحن كابل Lightning المجدول؟", answer: "يدعم USB-C PD حتى القدرة المعلنة عند استخدام ايفون وشاحن متوافقين. السرعة الفعلية تختلف حسب موديل الهاتف والشاحن وحالة البطارية." },

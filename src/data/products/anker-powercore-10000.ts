@@ -44,7 +44,7 @@ export const anker_powercore_10000 = {
                     "🛡️ Verify protection and compliance marks on the unit",
                     "🏆 Warranty and replacement follow the current written policy"],
                 metaTitle: "Anker 10000mAh Power Bank | iPhone Fast | COD",
-                metaDesc: "Buy Anker PowerCore 10000mAh power bank in Egypt. Check model A1263, rated capacity and Wh, output profiles, live price, stock, delivery and current return terms.",
+                metaDesc: "Keep your iPhone charged on the go with the genuine Anker PowerCore 10000mAh power bank (A1263). Compact, with store warranty in Egypt and cash on delivery.",
                 faqs: [
                     { question: "What is the current price of Anker PowerCore 10000?", answer: "Use the live price on this listing and check stock, delivery options and the applicable warranty at checkout; these details can change." },
                     { question: "Will it charge my iPhone or Android phone?", answer: "It will charge a phone only through a mutually supported output profile and suitable cable. The number of charges and time vary with phone battery size, conversion loss, temperature and use." },
@@ -77,7 +77,7 @@ export const anker_powercore_10000 = {
                     "🛡️ تحقق من علامات الحماية والمطابقة على الوحدة",
                     "🏆 الضمان والاستبدال وفق السياسة المكتوبة الحالية"],
                 metaTitle: "سعر باور بانك انكر 10000 في مصر | شحن سريع ايفون",
-                metaDesc: "اشتر باور بانك انكر PowerCore 10000 موديل A1263 في مصر. راجع قيمة Wh وبروفايلات الخرج والسعر والمخزون والتوصيل وشروط الضمان الحالية.",
+                metaDesc: "اشحن ايفونك في أي مكان مع باور بانك انكر PowerCore سعة 10000 مللي أمبير الأصلي (A1263). حجم صغير، بضمان متجر في مصر والدفع عند الاستلام.",
                 faqs: [
                     { question: "كم سعر باور بانك انكر 10000 في مصر؟", answer: "اعتمد على السعر الحي في الصفحة وراجع المخزون والتوصيل والضمان المطبق عند إتمام الطلب؛ هذه البيانات قد تتغير." },
                     { question: "هل يشحن ايفون أو هاتف اندرويد؟", answer: "يشحن الهاتف فقط عبر بروفايل مشترك وكابل مناسب. عدد الشحنات والوقت يتغيران حسب سعة بطارية الهاتف وفاقد التحويل والحرارة والاستخدام." },

@@ -45,7 +45,7 @@ export const anker_nano_pro_45w_a2692 = {
   "🏆 Review current CairoVolt warranty terms"
 ],
                 metaTitle: "Anker Nano Pro 45W ⚡ iPhone + Samsung | COD Egypt",
-                metaDesc: "Explore Anker Nano Pro A2692 45W USB-C GaN charger in Egypt. Check printed PD/PPS profiles, cable, plug, package, stock and current warranty terms.",
+                metaDesc: "Charge iPhone and Samsung fast with the genuine Anker Nano Pro A2692 — 45W USB-C GaN with PD/PPS profiles. Store warranty and cash on delivery in Egypt.",
                 faqs: [
                     { question: "What is the price of the Anker Nano Pro 45W (A2692) in Egypt?", answer: "Use the live price shown for A2692 and review current stock, package contents, warranty, payment and delivery terms before ordering." },
                     { question: "Can this port charge a USB-C laptop or iPhone?", answer: "It can charge a compatible device when A2692 provides a profile that device accepts. Compare the printed table, recommended adapter and cable rating; actual wattage and time vary." },
@@ -76,7 +76,7 @@ export const anker_nano_pro_45w_a2692 = {
   "🏆 راجع شروط ضمان كايرو فولت الحالية"
 ],
                 metaTitle: "شاحن انكر نانو برو A2692 بقدرة 45 واط GaN | مصر",
-                metaDesc: "تعرف على شاحن انكر نانو برو A2692 بحد معلن 45 واط USB-C GaN في مصر. راجع بروفايلات PD/PPS والكابل والقابس والعبوة والمخزون والضمان الحالي.",
+                metaDesc: "اشحن ايفون وسامسونج بسرعة مع شاحن انكر نانو برو A2692 الأصلي: 45 واط USB-C GaN بدعم PD/PPS. بضمان متجر في مصر مع الدفع عند الاستلام.",
                 faqs: [
                     { question: "كم سعر شاحن انكر نانو برو 45 واط A2692 في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لـ A2692 وراجع المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
                     { question: "هل يشحن لابتوب USB-C أو ايفون؟", answer: "يمكنه شحن جهاز متوافق عندما يوفر A2692 بروفايلاً يقبله الجهاز. قارن الجدول المطبوع والمحول الموصى به وقدرة الكابل؛ تختلف القدرة والمدة الفعلية." },

@@ -37,7 +37,7 @@ export const joyroom_20w_usb_c_charger = {
 `,
                 features: ["⚡ Listed 20W USB-C PD output", "📱 Device profiles vary", "🛡️ Printed protection functions", "🔌 Compact single-port design", "🌍 Verify AC input range", "💰 Check current listed price", "🏆 Check current warranty", "🔒 Use sound sockets and cables"],
                 metaTitle: "Joyroom 20W USB-C Charger | iPhone Fast | COD",
-                metaDesc: "Buy Joyroom JR-TCF20 20W USB-C PD charger in Egypt. Check output profiles, compact design, package contents and current warranty.",
+                metaDesc: "Fast-charge your iPhone with the genuine Joyroom 20W USB-C PD charger in Egypt. Compact and travel-ready, with store warranty and COD.",
                 faqs: [
                     { question: "Does it heat up?", answer: "Some warmth can occur. Temperature depends on load, device, ambient conditions and ventilation; stop use if heat is unusual." },
                     { question: "How does it compare with another 20W charger?", answer: "Compare the printed PD profiles, plug, port count, included cable, live price and current warranty rather than assuming identical performance." },
@@ -60,7 +60,7 @@ export const joyroom_20w_usb_c_charger = {
 `,
                 features: ["⚡ خرج USB-C PD مدرج 20 واط", "📱 البروفايل يختلف حسب الجهاز", "🛡️ وظائف حماية مطبوعة", "🔌 تصميم صغير بمنفذ واحد", "🌍 تحقق من مدى AC", "💰 راجع السعر الحالي", "🏆 راجع الضمان الحالي", "🔎 تحقق من العلامات والوثائق"],
                 metaTitle: "شاحن جوي روم 20 واط | شحن سريع ايفون | COD مصر",
-                metaDesc: "اشتري شاحن جوي روم JR-TCF20 بخرج USB-C PD مدرج 20 واط في مصر. تحقق من البروفايلات والعبوة والضمان الحالي.",
+                metaDesc: "اشحن ايفونك بسرعة مع شاحن جوي روم الأصلي 20 واط USB-C PD في مصر، حجم صغير للسفر، بضمان المتجر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل يسخن الشاحن؟", answer: "قد تظهر سخونة طبيعية. تعتمد الحرارة على الحمل والجهاز والجو والتهوية؛ توقف إذا كانت السخونة غير معتادة." },
                     { question: "كيف أقارنه بشاحن آخر 20 واط؟", answer: "قارن بروفايلات PD المطبوعة والقابس وعدد المنافذ والكابل والسعر والضمان الحالي، ولا تفترض أداء متماثلاً." },

@@ -75,7 +75,7 @@ export const anker_powerport_iii_20w_a2639 = {
   "📏 Verify dimensions and weight on the package"
 ],
                 metaTitle: "Anker 20W Cube Charger ⚡ Fast Charge iPhone | Egypt COD",
-                metaDesc: "Explore Anker PowerPort III A2149P21 20W USB-C PD charger in Egypt. Check printed profiles, plug, package contents, stock and current warranty terms.",
+                metaDesc: "Fast-charge your iPhone with the genuine Anker PowerPort III 20W USB-C PD cube charger. Compact design, store warranty in Egypt and cash on delivery.",
                 faqs: [
                     { question: "What is the price of the Anker 20W Cube charger in Egypt?", answer: "Use the live price shown for A2149 and review current stock, package contents, warranty, payment and delivery terms before ordering." },
                     { question: "Does the A2149 support fast charging for compatible iPhones?", answer: "The charger supports USB-C PD up to its stated 20W output. Actual charging speed varies with the iPhone model, battery level, cable, and temperature." },
@@ -138,7 +138,7 @@ export const anker_powerport_iii_20w_a2639 = {
   "📏 تحقق من المقاسات والوزن على العبوة"
 ],
                 metaTitle: "سعر شاحن انكر 20 واط كيوب ⚡ شحن سريع ايفون | مصر",
-                metaDesc: "تعرف على شاحن انكر باور بورت III بقدرة 20 واط USB-C في مصر بالسعر الحالي المعروض. راجع مواصفات الموديل وشروط الضمان والتوفر وخيارات التوصيل قبل الطلب.",
+                metaDesc: "اشحن ايفونك بسرعة مع شاحن انكر باور بورت III كيوب الأصلي 20 واط USB-C PD. تصميم مدمج، بضمان متجر في مصر والدفع عند الاستلام.",
                 faqs: [
                     { question: "كم سعر شاحن انكر 20 واط كيوب في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لـ A2149 وراجع المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
                     { question: "هل الـ A2149 بيشحن ايفون 17 بسرعة؟", answer: "أيوه، الشاحن مصنّف بخرج USB-C PD حتى 20 واط مع الأجهزة المتوافقة. زمن الشحن الفعلي يختلف حسب موديل الايفون ونسبة البطارية والحرارة وحالة الكابل." },

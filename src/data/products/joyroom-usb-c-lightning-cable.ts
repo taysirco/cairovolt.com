@@ -36,7 +36,7 @@ export const joyroom_usb_c_lightning_cable = {
 `,
                 features: ["⚡ Listed up to 20W with compatible PD equipment", "🔗 Braided exterior", "💾 Verify exact data rating", "📱 For compatible Lightning devices", "🔩 Reinforced connector housing", "💰 Current Price Egypt", "🧾 Check current warranty and return policy", "🛡️ Bend count is a manufacturer test condition"],
                 metaTitle: "Joyroom USB-C to Lightning Cable | Egypt Price",
-                metaDesc: "Shop Joyroom JR-S-CL20 USB-C to Lightning cable in Egypt. Verify listed charging, data, length and MFi statement for the exact model. For Lightning devices.",
+                metaDesc: "Fast-charge your iPhone from USB-C with the genuine Joyroom JR-S-CL20 Lightning cable. In Egypt with store warranty, invoice and cash on delivery.",
                 faqs: [
                     { question: "How durable is this cable?", answer: "Braiding may help resist abrasion, but bend counts are manufacturer test figures and do not guarantee a fixed lifespan. Avoid sharp bends and pulling from the wire." },
                     { question: "Does it support data transfer?", answer: "Verify the exact JR-S-CL20 data specification on the package and current documentation before relying on it for sync." },
@@ -57,7 +57,7 @@ export const joyroom_usb_c_lightning_cable = {
 `,
                 features: ["⚡ حتى 20 واط مع معدات PD متوافقة", "🔗 غلاف مضفر", "💾 تحقق من تصنيف البيانات", "📱 لأجهزة Lightning المتوافقة", "🔩 غلاف موصل مقوى", "💰 السعر الحالي في مصر", "🧾 راجع سياسة الضمان والاسترجاع", "🛡️ رقم الثني شرط اختبار من الشركة"],
                 metaTitle: "كابل جوي روم USB-C إلى Lightning | السعر في مصر",
-                metaDesc: "تسوق كابل جوي روم JR-S-CL20 من USB-C إلى Lightning في مصر. تحقق من الشحن والبيانات والطول وبيان MFi للموديل نفسه. لأجهزة Lightning.",
+                metaDesc: "اشحن ايفونك بسرعة من USB-C بكابل جوي روم JR-S-CL20 الأصلي لايتننج. في مصر بضمان متجر وفاتورة ودفع عند الاستلام.",
                 faqs: [
                     { question: "ما متانة هذا الكابل؟", answer: "يساعد التضفير ضد الاحتكاك، لكن أرقام الثني اختبارات من الشركة ولا تضمن عمراً ثابتاً. تجنب الثني الحاد والسحب من السلك." },
                     { question: "هل يدعم نقل البيانات؟", answer: "تحقق من مواصفات البيانات الدقيقة للموديل JR-S-CL20 على العبوة والوثائق الحالية قبل الاعتماد عليه للمزامنة." },

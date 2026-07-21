@@ -46,7 +46,7 @@ export const soundcore_p30i_earbuds = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3959</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
             features: ["10mm BassUp Driver", "42dB Adaptive ANC", "45h Total Battery", "Phone Stand Case", "10min = 2h Fast Charge", "BT 5.4 Multipoint", "IP54 Dust+Splash", "Soundcore App EQ", "Transparency Mode", "🧾 Review warranty and return policy"],
             metaTitle: "Soundcore P30i — 42dB ANC + BassUp + Phone Stand Case",
-            metaDesc: "Explore Soundcore P30i in Egypt. Review the published ANC, driver, battery, case and IP specifications, plus current stock, warranty and delivery terms.",
+            metaDesc: "Block noise and prop up your phone with Soundcore P30i — 42dB ANC, 10mm BassUp and up to 45h battery. Genuine with store warranty, COD in Egypt.",
             faqs: [
                     { question: "P30i vs P40i — what should I compare?", answer: "Compare current driver, ANC test conditions, microphones, battery settings, fit, codecs, app features, live price and warranty. Do not infer that one is better for every user from a single figure." },
                     { question: "What is the phone stand case?", answer: "The charging case includes a stand mechanism for a phone on a stable surface. Confirm phone dimensions, protective-case thickness, orientation and viewing angle; do not assume support for every phone." },
@@ -74,7 +74,7 @@ export const soundcore_p30i_earbuds = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3959</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["درايفر 10mm BassUp", "ANC تكيّفي 42dB", "45 ساعة إجمالي", "علبة ستاند موبايل", "10 دقائق = ساعتين شحن", "BT 5.4 Multipoint", "IP54 غبار+رذاذ", "تطبيق ساوندكور EQ", "وضع شفافية", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "سماعة ساوندكور P30i — 42dB ANC + BassUp + علبة ستاند",
-            metaDesc: "اشتري سماعة ساوندكور P30i في مصر — السعر الحالي المعروض في الصفحة. ANC 42dB، 10mm BassUp، 45 ساعة، علبة ستاند موبايل، BT 5.4، IP54. راجع سياسة الضمان والاسترجاع الحالية. الدفع عند الاستلام.",
+            metaDesc: "اعزل الضوضاء واسند موبايلك مع ساوندكور P30i: عزل 42dB ودرايفر 10mm BassUp وبطارية حتى 45 ساعة. أصلية بضمان المتجر ودفع عند الاستلام في مصر.",
             faqs: [
                     { question: "P30i ولا P40i — ماذا أقارن؟", answer: "قارن الدرايفر وشروط اختبار ANC والمايكات وإعدادات البطارية والملاءمة والكودكات والتطبيق والسعر المباشر والضمان. لا يفوز موديل لكل مستخدم بسبب رقم واحد." },
                     { question: "ما علبة حامل الموبايل؟", answer: "تحتوي علبة الشحن على آلية تسند الهاتف على سطح ثابت. تحقق من أبعاد الهاتف وسمك الجراب والوضع والزاوية ولا تفترض دعم كل الهواتف." },

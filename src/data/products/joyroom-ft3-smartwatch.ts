@@ -67,7 +67,7 @@ export const joyroom_ft3_smartwatch = {
 `,
                 features: ["⌚ Verify IP68 limits", "🏃 Check manufacturer-listed sports modes", "❤️ Wellness heart-rate estimates; not medical", "🔋 Check published battery test conditions", "📱 Verify current app and OS support", "💬 Arabic notifications depend on app/phone", "🏆 Review current CairoVolt warranty terms", "🔒 Resistance can diminish with wear"],
                 metaTitle: "Joyroom FT3 Smartwatch JR-FT3 | IP68 + Sports Modes | Egypt",
-                metaDesc: "Explore Joyroom FT3 smartwatch in Egypt. Review manufacturer IP68, sports, wellness-sensor, app and battery specifications plus stock and current warranty.",
+                metaDesc: "Track workouts and daily health on the Joyroom FT3 smartwatch — IP68 rating and multiple sports modes. Genuine, store warranty, COD in Egypt.",
                 faqs: [
                     { question: "Does it support Arabic?", answer: "Check current interface and notification-language support with the companion app, phone OS, permissions and firmware. Some app content or characters may display differently." },
                     { question: "Can I make calls from the watch?", answer: "No, this model supports call notifications (reject/mute) but does not have a microphone for Bluetooth calling." },
@@ -120,7 +120,7 @@ export const joyroom_ft3_smartwatch = {
 `,
                 features: ["⌚ تحقق من حدود IP68", "🏃 راجع الأوضاع الرياضية المعلنة", "❤️ تقديرات نبض للعافية وليست طبية", "🔋 راجع شروط اختبار البطارية", "📱 تحقق من التطبيق والنظام الحاليين", "💬 الإشعارات العربية تعتمد على الهاتف والتطبيق", "🏆 راجع شروط ضمان كايرو فولت الحالية", "🔎 قد تتراجع مقاومة الماء مع الاستخدام"],
                 metaTitle: "ساعة جوي روم FT3 | IP68 وأوضاع رياضية | مصر",
-                metaDesc: "تعرف على ساعة جوي روم FT3 في مصر. راجع مواصفات IP68 والرياضة ومستشعر العافية والتطبيق والبطارية والمخزون والضمان الحالي.",
+                metaDesc: "تابع تمارينك وصحتك اليومية مع ساعة جوي روم FT3 الذكية — مقاومة ماء IP68 وأوضاع رياضية متعددة. أصلية بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "هل تدعم العربية؟", answer: "تحقق من دعم لغة الواجهة والإشعارات مع التطبيق والنظام والأذونات والفيرموير الحالي. قد يختلف عرض بعض التطبيقات أو الحروف." },
                     { question: "هل يمكن إجراء مكالمات؟", answer: "لا، تدعم إشعارات المكالمات مع خيار الرفض أو الكتم بلمسة، لكن بدون ميكروفون مدمج لإجراء مكالمات بلوتوث." },

@@ -30,7 +30,7 @@ export const joyroom_60w_car_charger = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">Before ordering</h3><p class="text-gray-700">Match <strong>JR-CCL05</strong>, the built-in cable, ports, printed input/output table, dimensions and package contents with the supplied unit. Do not assume laptop charging, a branded phone mode or a fixed two-device split unless the complete charger-device profile is documented.</p></div>`,
                 features: ["Two retractable built-in cables (USB-C + Lightning)", "USB-A 2.4A + USB-C 3A fixed ports", "Charge up to 4 devices at once", "69W total — verify the shared-power table", "Retractable cords ~80cm", "Match USB-PD/PPS profiles", "Check vehicle socket fit", "Current warranty terms"],
                 metaTitle: "Joyroom JR-CCL05 Retractable 4-in-1 Car Charger 69W | Egypt",
-                metaDesc: "Joyroom JR-CCL05 retractable 4-in-1 car charger: two built-in cables (USB-C + Lightning) plus USB-A and USB-C ports, 69W total. Verify the shared-power table, socket fit, live price and warranty.",
+                metaDesc: "Charge four devices on the go with the genuine Joyroom 4-in-1 retractable car charger, 69W with built-in cables. In Egypt with store warranty and COD.",
                 faqs: [
                     { question: "Will two phones each receive 30W?", answer: "Only if that exact combination appears in the printed JR-CCL05 power-distribution table and both phones support the required profiles. Each device may draw less because of its protocol, battery state, temperature or simultaneous use." },
                     { question: "Does the retractable cable work with my USB-C phone?", answer: "Confirm the built-in connector and printed USB-PD or PPS profiles against the phone's accepted input. A USB-C connector alone does not establish a particular wattage or branded charging mode." },
@@ -48,7 +48,7 @@ export const joyroom_60w_car_charger = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">قبل الطلب</h3><p class="text-gray-700">طابق <strong>JR-CCL05</strong> والكابل والمنافذ وجدول الدخل والخرج والأبعاد ومحتويات العبوة مع الوحدة الموردة. لا تفترض شحن لابتوب أو وضع هاتف خاصاً أو توزيعاً ثابتاً لجهازين من دون توثيق بروفايل الإعداد الكامل.</p></div>`,
                 features: ["كابلان مدمجان قابلان للسحب (USB-C + Lightning)", "منفذان ثابتان USB-A 2.4A و USB-C 3A", "يشحن حتى 4 أجهزة في نفس الوقت", "قدرة إجمالية 69 واط — راجع جدول التوزيع", "كابلات قابلة للسحب بطول ~80 سم", "طابق بروفايلات USB-PD/PPS", "تحقق من توافق مقبس السيارة", "🧾 راجع سياسة الضمان والاسترجاع"],
                 metaTitle: "شاحن سيارة جوي روم JR-CCL05 القابل للسحب 4 في 1 بقدرة 69 واط",
-                metaDesc: "شاحن سيارة جوي روم JR-CCL05 القابل للسحب 4 في 1: كابلان مدمجان (USB-C + Lightning) ومنفذا USB-A و USB-C، قدرة إجمالية 69 واط. تحقق من جدول التوزيع وتوافق المقبس والسعر والضمان.",
+                metaDesc: "اشحن 4 أجهزة في عربيتك مع شاحن جوي روم الأصلي 4 في 1 القابل للسحب بكابلات مدمجة و69 واط، في مصر بضمان المتجر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل يحصل هاتفان على 30 واط لكل واحد؟", answer: "فقط إذا ظهر هذا التركيب في جدول توزيع JR-CCL05 المطبوع ودعم الهاتفان البروفايلات المطلوبة. قد يسحب كل جهاز قدرة أقل بسبب البروتوكول أو البطارية أو الحرارة أو الاستخدام المتزامن." },
                     { question: "هل الكابل القابل للسحب يعمل مع هاتفي USB-C؟", answer: "طابق الموصل المدمج وبروفايلات USB-PD أو PPS المطبوعة مع دخل الهاتف المقبول. وجود USB-C وحده لا يثبت قدرة محددة أو وضع شحن خاصاً." },

@@ -29,7 +29,7 @@ export const joyroom_usb_a_type_c_1_2m = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>JR-S-AC12</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
                 features: ["⚡ Verify the printed current rating", "✨ Listed 1.2m length", "📱 USB-C connector; check device input", "✨ USB-A source connector", "🏆 Review current CairoVolt warranty terms", "🛡️ Verify jacket and bend-test details", "🔒 Stop use if damaged or unusually hot", "🏆 Warranty follows the current product policy"],
                 metaTitle: "Joyroom USB-A to USB-C Cable 1.2m JR-S-AC12 | Egypt",
-                metaDesc: "Explore Joyroom JR-S-AC12 1.2m USB-A to USB-C cable in Egypt. Check printed current/data rating, connectors, stock, package and current warranty terms.",
+                metaDesc: "Genuine Joyroom JR-S-AC12 USB-A to USB-C cable, 1.2m — charge Android phones, tablets and earbuds from any older adapter. In Egypt with store warranty.",
                 faqs: [
                     { question: "Why choose a 1.2m cable?", answer: "The extra length may help when the source is farther away. Measure the route and keep enough slack so the connectors are not pulled or sharply bent." },
                     { question: "Does this work with my USB-C phone?", answer: "Check that the phone accepts charging from a USB-A source and compare its input with the source and cable ratings. Connector fit alone does not guarantee a protocol or speed." },
@@ -49,7 +49,7 @@ export const joyroom_usb_a_type_c_1_2m = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ قبل الطلب:</h3><p class="text-gray-700">طابق طرفي USB-A وUSB-C مع المصدر والجهاز. هذا الكابل لا يوفر USB-C PD؛ إذا كان جهازك يتطلب PD فاستخدم مصدراً وكابلاً يدعمان البروفايل المطلوب.</p></div>`,
                 features: ["⚡ تحقق من تصنيف التيار المطبوع", "✨ طول معلن 1.2 متر", "✨ موصل USB-C؛ راجع مدخل الجهاز", "✨ موصل مصدر USB-A", "🏆 راجع شروط ضمان كايرو فولت الحالية", "🛡️ تحقق من الغلاف واختبار الثني", "🔒 توقف عند التلف أو السخونة غير المعتادة", "🏆 الضمان وفق سياسة المنتج الحالية"],
                 metaTitle: "كابل جوي روم USB-A إلى USB-C بطول 1.2 متر | مصر",
-                metaDesc: "تعرف على كابل جوي روم JR-S-AC12 بطول 1.2 متر من USB-A إلى USB-C في مصر. راجع التيار والبيانات والموصلات والمخزون والعبوة والضمان الحالي.",
+                metaDesc: "كابل جوي روم JR-S-AC12 الأصلي من USB-A إلى USB-C بطول 1.2 متر لشحن موبايلات الأندرويد والتابلت من أي شاحن قديم. في مصر بضمان متجر وفاتورة.",
                 faqs: [
                     { question: "لماذا أختار طول 1.2 متر؟", answer: "قد يساعد الطول الإضافي عندما يكون المصدر بعيداً. قس المسار واترك ارتخاءً حتى لا تتعرض الموصلات للشد أو الثني الحاد." },
                     { question: "هل يعمل مع هاتفي USB-C؟", answer: "تحقق أن الهاتف يقبل الشحن من مصدر USB-A وقارن مدخله بتصنيف المصدر والكابل. تطابق شكل الموصل وحده لا يضمن بروتوكولاً أو سرعة." },

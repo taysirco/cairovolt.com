@@ -60,7 +60,7 @@ export const anker_a2741_charger_30w = {
 `,
                 features: ["🚗 Listed 30W total", "⚡ USB-C PD/PPS listed up to 30W", "🔌 USB-A PowerIQ 3.0 listed up to 22.5W", "📐 Verify listed 15g dimensions", "📱 Match device and cable profiles", "🛡️ Verify MultiProtect statement", "🔋 Check 12V/24V socket compatibility", "🏆 current warranty and return policy"],
                 metaTitle: "Anker Mini 30W Car Charger | Ultra Compact | COD",
-                metaDesc: "Buy Anker A2741 mini car charger in Egypt. 30W: USB-C 30W PD/PPS + USB-A 22.5W. Only 15g! Samsung PPS fast charging. ✓ current warranty and return policy ✓ Fast Delivery.",
+                metaDesc: "Tiny 30W car charger with two ports — Anker A2741, USB-C 30W PD/PPS plus 22.5W USB-A, just 15g. Genuine, store warranty & COD in Egypt.",
                 faqs: [
                     { question: "How should I compare the A2741 with A2732?", answer: "Compare the current printed dimensions, weight, single-port and shared output tables, PD/PPS profiles, socket clearance, live prices and warranty terms. Do not infer the better choice from size or one wattage alone." },
                     { question: "Does PPS make a difference for Samsung phones?", answer: "PPS can enable a compatible negotiated charging mode only when the phone, charger profile and cable all meet the requirements. Check the exact phone and A2741 output table." },
@@ -107,7 +107,7 @@ export const anker_a2741_charger_30w = {
 `,
                 features: ["🚗 قدرة إجمالية معلنة 30 واط", "📐 تحقق من وزن وأبعاد 15 جرام المعلنة", "⚡ USB-C PD/PPS حتى 30 واط معلنة", "🔌 USB-A PowerIQ حتى 22.5 واط معلنة", "📱 طابق بروفايل الجهاز والكابل", "🛡️ تحقق من بيان MultiProtect", "🔋 راجع توافق مقبس 12/24 فولت", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "شاحن سيارة انكر ميني 30 واط | USB-C PD/PPS | مصر",
-                metaDesc: "اشتري شاحن سيارة انكر A2741 ميني في مصر. 30 واط: USB-C بقوة 30 واط PD/PPS + USB-A بقوة 22.5 واط. وزنه 15 جرام بس! شحن سامسونج السريع. ✓ راجع سياسة الضمان والاسترجاع الحالية.",
+                metaDesc: "شاحن سيارة انكر A2741 صغير بقوة 30 واط ومنفذين — USB-C بقوة 30 واط PD/PPS وUSB-A بقوة 22.5 واط، وزنه 15 جرام بس. أصلي بضمان متجر ودفع عند الاستلام.",
                 faqs: [
                     { question: "إزاي أقارنه مع A2732؟", answer: "قارن الأبعاد والوزن وجدول المنفذ الواحد والتوزيع المشترك وبروفايلات PD/PPS ومساحة المقبس والسعر والضمان الحاليين. لا تحسم الاختيار من الحجم أو رقم قدرة واحد." },
                     { question: "الـ PPS بيفرق إيه مع سامسونج؟", answer: "يسمح PPS بتفاوض متدرج للجهد والتيار مع هواتف متوافقة. يجب أن يدعم الهاتف والكابل وملف الشاحن الوضع نفسه، لذلك راجع مواصفات جهاز سامسونج والقيم المطبوعة على A2741 بدل افتراض معدل ثابت." },

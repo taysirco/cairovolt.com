@@ -40,7 +40,7 @@ export const anker_a2147_gan_charger_30w = {
 `,
                 features: ["30W-class GaN USB-C charger", "Verify manufacturer size comparison and reference", "Manufacturer iPhone charging example; actual time varies", "PowerIQ 3 listing", "Verify foldable-plug variant", "ActiveShield 2.0 listing", "Review current warranty terms", "Verify printed 100–240V input and plug", "Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Anker 511 Nano 3 GaN 30W | Ultra Compact | COD",
-                metaDesc: "Review Anker 511 Nano 3 A2147 in Egypt: listed 30W USB-C profiles, compact GaN design, IQ3 and ActiveShield statements, live price, stock and service terms.",
+                metaDesc: "Pocket-size 30W fast charging for iPhone and more — Anker 511 Nano 3 with a compact GaN design. Genuine with store warranty and COD in Egypt.",
                 faqs: [
                     { question: "What does GaN mean here?", answer: "GaN is used in the charger's power stage and can support a compact design. Verify A2147's actual dimensions, weight and ratings in current Anker specifications." },
                     { question: "Can it charge my MacBook?", answer: "Only if the laptop accepts one of A2147's printed USB-C profiles. A 30W source may charge more slowly than the laptop's recommended adapter." },
@@ -63,7 +63,7 @@ export const anker_a2147_gan_charger_30w = {
 `,
                 features: ["شاحن USB-C من فئة 30 واط بتقنية GaN", "تحقق من مقارنة الحجم ومرجعها لدى الشركة", "مثال شحن ايفون معلن من الشركة؛ المدة الفعلية تختلف", "PowerIQ 3 وفق القائمة", "تحقق من نسخة القابس القابل للطي", "ActiveShield 2.0 وفق القائمة", "🧾 راجع سياسة الضمان والاسترجاع", "تحقق من دخل 100–240V ونوع القابس المطبوع", "تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "شاحن انكر A2147 بقدرة 30 واط GaN | USB-C | مصر",
-                metaDesc: "راجع شاحن انكر 511 نانو 3 A2147 في مصر: بروفايلات USB-C حتى 30 واط وتصميم GaN وبيانات IQ3 وActiveShield والسعر والمخزون وسياسة الخدمة.",
+                metaDesc: "شحن سريع 30 واط بحجم الجيب لايفونك وأجهزتك — شاحن انكر 511 نانو 3 بتصميم GaN مدمج. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "ماذا تعني GaN هنا؟", answer: "تستخدم GaN في مرحلة الطاقة ويمكن أن تدعم تصميماً صغيراً. تحقق من أبعاد ووزن وتصنيفات A2147 في مواصفات انكر الحالية." },
                     { question: "هل يشحن ماك بوك؟", answer: "فقط إذا قبل اللابتوب أحد بروفايلات USB-C المطبوعة على A2147. قد يكون مصدر 30 واط أبطأ من الشاحن الموصى به." },

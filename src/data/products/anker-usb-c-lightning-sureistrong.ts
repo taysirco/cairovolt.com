@@ -65,7 +65,7 @@ export const anker_usb_c_lightning_sureistrong = {
 `,
                 features: ["⚡ USB-C PD support", "✨ Verify MFi for A8652H21", "✨ Soft-touch low-tangle design", "✨ Easy-clean jacket", "📱 Compatible Lightning devices", "✨ 1.8m listed length", "🏆 Check current Anker warranty", "🛡️ Bend figures are manufacturer test conditions"],
                 metaTitle: "Anker SureIStrong USB-C to Lightning | A8652H21 | Egypt",
-                metaDesc: "Anker SureIStrong A8652H21 USB-C to Lightning cable with a soft-touch 1.8m design. Verify the MFi statement, charging rating, live price and current warranty terms.",
+                metaDesc: "Reliable iPhone charging with the Anker SureIStrong USB-C to Lightning cable: durable 1.8m soft-touch, MFi. Genuine, store warranty, COD in Egypt.",
 
                 faqs: [
                     { question: "Why choose Anker over a generic cable?", answer: "Compare the exact model, verified MFi status, connector reinforcement, length and current warranty. No cable can promise a fixed lifespan or battery outcome." },
@@ -120,7 +120,7 @@ export const anker_usb_c_lightning_sureistrong = {
 `,
                 features: ["⚡ دعم USB-C PD", "✨ تحقق من MFi للموديل A8652H21", "✨ غلاف ناعم قليل التشابك", "✨ سطح سهل التنظيف", "✨ لأجهزة Lightning المتوافقة", "✨ طول مدرج 1.8 متر", "🏆 راجع ضمان انكر الحالي", "🛡️ أرقام الثني شروط اختبار من الشركة"],
                 metaTitle: "كابل انكر ايفون SureIStrong | شحن سريع 30 واط",
-                metaDesc: "كابل انكر SureIStrong موديل A8652H21 من USB-C إلى Lightning بطول معلن 1.8 متر. تحقق من بيان MFi وتصنيف الشحن والسعر وشروط الضمان الحالية.",
+                metaDesc: "شحن ايفون سريع وموثوق بكابل انكر SureIStrong من USB-C إلى Lightning: متين بطول 1.8 متر وشهادة MFi. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
 
                 faqs: [
                     { question: "لماذا انكر وليس كابلاً عاماً؟", answer: "قارن رقم الموديل وحالة MFi المثبتة وتقوية الموصل والطول والضمان الحالي. لا يمكن لكابل أن يعد بعمر ثابت أو نتيجة بطارية مضمونة." },

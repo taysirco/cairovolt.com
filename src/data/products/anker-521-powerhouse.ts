@@ -128,7 +128,7 @@ export const anker_521_powerhouse = {
 `,
                 features: ["🔋 Manufacturer-listed 256Wh LiFePO4", "🔌 Listed 200W AC Outlet (220V)", "⚡ USB-C PD 60W + 2× USB-A", "🚗 12V Car Socket", "💡 Built-in LED Light", "🧾 Check current warranty terms", "📐 Match continuous and start-up watts", "🔎 Verify ratings on the unit and manufacturer documentation"],
                 metaTitle: "Anker 521 Power Station 256Wh | Current Price",
-                metaDesc: "Shop Anker 521 PowerHouse in Egypt. Manufacturer-listed 256Wh LiFePO4 battery, 200W AC output, USB-C, USB-A, 12V socket and LED light. Check live warranty terms.",
+                metaDesc: "Portable backup power for trips and outages — Anker 521 PowerHouse with a 256Wh LiFePO4 battery and 200W AC output. Genuine, store warranty & COD in Egypt.",
                 faqs: [
                     { question: "Can it power a CPAP machine?", answer: "Do not infer medical-device compatibility from wattage alone. Ask the CPAP manufacturer to confirm voltage, waveform, grounding, start-up demand and backup requirements for this exact power-station model." },
                     { question: "Can I use it while it's charging (UPS)?", answer: "No, the Anker 521 does not support UPS function. It supports pass-through charging but extended use as a UPS is not recommended." },
@@ -191,7 +191,7 @@ export const anker_521_powerhouse = {
 `,
                 features: ["🔋 سعة LiFePO4 معلنة 256 واط·ساعة", "🔌 خرج AC معلن 200 واط", "⚡ USB-C PD 60 واط + 2× USB-A", "🚗 مقبس سيارة 12 فولت", "💡 إضاءة LED مدمجة", "🧾 راجع سياسة الضمان والاسترجاع", "📐 طابق قدرة التشغيل والبدء", "🔎 تحقق من القيم على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "محطة طاقة انكر 521 بسعة 256Wh | السعر الحالي",
-                metaDesc: "تسوق محطة طاقة انكر 521 في مصر ببطارية LiFePO4 معلنة 256 واط·ساعة وخرج AC معلن 200 واط ومنافذ USB و12V وإضاءة. راجع الضمان الحالي.",
+                metaDesc: "طاقة احتياطية محمولة للرحلات وانقطاع الكهرباء — محطة انكر 521 ببطارية LiFePO4 سعة 256 واط·ساعة وخرج 200 واط AC. أصلي بضمان متجر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل يمكنه تشغيل جهاز التنفس CPAP؟", answer: "لا تستنتج توافق جهاز طبي من القدرة فقط. اطلب من مصنع جهاز CPAP تأكيد الجهد وشكل الموجة والتأريض وقدرة البدء ومتطلبات الطاقة الاحتياطية لهذا الموديل تحديداً." },
                     { question: "هل يمكن استخدامه أثناء شحنه (UPS)؟", answer: "لا، لا يدعم وظيفة UPS الكاملة. يدعم الشحن أثناء الاستخدام لكن لا ينصح كبديل دائم للكهرباء." },

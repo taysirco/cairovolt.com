@@ -42,7 +42,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
 `,
                 features: ["🎧 Published up to 20h Total Playback", "👆 Touch Controls", "📱 Bluetooth 5.0", "🎤 Built-in Microphone", "🎵 Stereo Audio", "💧 IPX4 Listed Splash Resistance", "🏆 current warranty and return policy", "🔎 Verify Model and Package Contents"],
                 metaTitle: "Joyroom JR-T03 Wireless Earbuds | Bluetooth 5.0 | Egypt",
-                metaDesc: "Joyroom JR-T03 earbuds with Bluetooth 5.0, touch controls, built-in microphone, IPX4 listing and published total playback up to 20h. Check current terms.",
+                metaDesc: "Wireless music and calls all day with Joyroom JR-T03 earbuds — Bluetooth 5.0, touch controls, up to 20h playback. Genuine, store warranty, COD Egypt.",
                 faqs: [
                     { question: "How can I verify the supplied Joyroom model?", answer: "Match the model number, serial or verification label, package contents and Bluetooth name with the supplied packaging and manufacturer instructions. Warranty terms are those currently shown for this listing." },
                     { question: "Does it have a microphone?", answer: "It includes a built-in microphone for calls. Clarity varies with the phone, app, wind, surrounding noise and connection quality." },
@@ -67,7 +67,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
 `,
                 features: ["🎧 تشغيل إجمالي معلن حتى 20 ساعة", "👆 تحكم باللمس", "📱 Bluetooth 5.0", "🎤 ميكروفون مدمج", "🎵 صوت ستيريو", "💧 تصنيف IPX4 ضد الرذاذ", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من الموديل ومحتويات العبوة"],
                 metaTitle: "سماعة جوي روم JR-T03 | بلوتوث 5.0 وتحكم باللمس",
-                metaDesc: "جوي روم JR-T03 ببلوتوث 5.0 وتحكم باللمس وميكروفون مدمج وتصنيف IPX4 وتشغيل إجمالي معلن حتى 20 ساعة. راجع الشروط الحالية.",
+                metaDesc: "موسيقى ومكالمات لاسلكية طول اليوم مع سماعة جوي روم JR-T03 — بلوتوث 5.0 وتحكم باللمس وتشغيل حتى 20 ساعة. أصلية بضمان متجر ودفع عند الاستلام.",
                 faqs: [
                     { question: "إزاي أتحقق من موديل جوي روم المورّد؟", answer: "طابق رقم الموديل وملصق الرقم التسلسلي أو التحقق ومحتويات العبوة واسم البلوتوث مع العبوة وتعليمات الشركة. الضمان وفق الشروط الحالية في الصفحة." },
                     { question: "هل تحتوي على ميكروفون؟", answer: "تتضمن ميكروفونًا مدمجًا للمكالمات. يختلف الوضوح حسب الهاتف والتطبيق والرياح والضوضاء المحيطة وجودة الاتصال." },

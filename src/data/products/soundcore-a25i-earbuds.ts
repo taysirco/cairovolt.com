@@ -45,7 +45,7 @@ export const soundcore_a25i_earbuds = {
   "Verify compliance marks on the unit and in manufacturer documentation"
 ],
                 metaTitle: "Soundcore A25i ⚡ 28h Battery Earbuds | Egypt COD",
-                metaDesc: "Buy the Soundcore A25i earbuds in Egypt at the current listed price. Check model specifications, current warranty terms, availability and delivery options before ordering.",
+                metaDesc: "Genuine Soundcore A25i wireless earbuds with up to 28h total playtime for all-day listening. In Egypt with store warranty and cash on delivery.",
                 faqs: [
                     { question: "What is the price of the Soundcore A25i in Egypt?", answer: "Use the live price shown for A3948 and review current stock, package contents, warranty, payment and delivery terms before ordering." },
                     { question: "Does the Soundcore A25i have active noise cancellation?", answer: "No. The A25i relies on passive isolation from its silicone tips. For active ANC, compare a model such as the Soundcore R50i NC." },
@@ -77,7 +77,7 @@ export const soundcore_a25i_earbuds = {
   "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة الحالية"
 ],
                 metaTitle: "سماعة ساوندكور A25i | المواصفات والسعر في مصر",
-                metaDesc: "تعرف على سماعة ساوندكور A25i في مصر بالسعر الحالي المعروض. راجع مواصفات الموديل وشروط الضمان والتوفر وخيارات التوصيل قبل الطلب.",
+                metaDesc: "سماعة ساوندكور A25i الأصلية اللاسلكية بتشغيل إجمالي حتى 28 ساعة تكفيك طول اليوم. في مصر بضمان متجر ودفع عند الاستلام.",
                 faqs: [
                     { question: "كم سعر سماعة ساوندكور A25i في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لـ A3948 وراجع المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
                     { question: "فيها إلغاء ضوضاء ANC؟", answer: "لأ. A25i بتعتمد على العزل السلبي من أطراف السيليكون. لو محتاج ANC نشط، قارنها بموديل مثل ساوندكور R50i NC." },

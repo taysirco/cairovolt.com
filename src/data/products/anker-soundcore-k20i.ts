@@ -61,7 +61,7 @@ export const anker_soundcore_k20i = {
 `,
                 features: ["🎵 13mm BassUp™ Drivers", "🔋 36h Total Battery", "👂 Semi-In-Ear Comfort", "🎙️ AI ENC Dual Mic", "⚡ 10min Fast Charge", "💧 IPX5 Waterproof", "📱 Soundcore App EQ", "🎮 Low-Latency Mode", "🏆 current warranty and return policy"],
                 metaTitle: "Soundcore K20i A3994 Semi-In-Ear Earbuds | Egypt",
-                metaDesc: "Explore Soundcore K20i A3994 in Egypt. Review manufacturer driver, battery, call, IPX5, app and fit specifications plus stock and current warranty terms.",
+                metaDesc: "Comfortable semi-in-ear Soundcore K20i earbuds with app tuning and IPX5 sweat resistance. Genuine, with store warranty and cash on delivery in Egypt.",
                 faqs: [
                     { question: "Are semi-in-ear earbuds comfortable for long wear?", answer: "They avoid a sealed silicone tip, but comfort and stability differ by ear shape and movement. Take listening breaks and stop if you feel pressure or irritation." },
                     { question: "How should I assess the bass?", answer: "Driver diameter alone does not determine bass quality. Evaluate fit, EQ, content and listening preference; BassUp and app settings may change the balance." },
@@ -106,7 +106,7 @@ export const anker_soundcore_k20i = {
 `,
                 features: ["🎵 13mm BassUp™", "🔋 36 ساعة إجمالي", "👂 نصف داخلية مريحة", "🎙️ AI ENC مزدوج", "⚡ شحن 10 دقايق", "💧 IPX5", "📱 تطبيق ساوندكور", "🎮 وضع تأخير منخفض", "🧾 راجع سياسة الضمان والاسترجاع"],
                 metaTitle: "سماعة ساوندكور K20i A3994 نصف داخلية | مصر",
-                metaDesc: "تعرف على ساوندكور K20i A3994 في مصر. راجع مواصفات الدرايفر والبطارية والمكالمات وIPX5 والتطبيق والملاءمة والمخزون والضمان الحالي.",
+                metaDesc: "سماعة ساوندكور K20i نصف داخل الأذن بتحكم عبر التطبيق ومقاومة عرق IPX5. أصلية بضمان متجر وفاتورة ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "هل السماعات النصف داخلية مريحة لفترة طويلة؟", answer: "تتجنب الطرف السيليكون المغلق لكن الراحة والثبات يختلفان حسب شكل الأذن والحركة. خذ فواصل وتوقف عند وجود ضغط أو تهيج." },
                     { question: "كيف أقيّم الباس؟", answer: "قطر الدرايفر وحده لا يحدد جودة الباس. قيّم الملاءمة وEQ والمحتوى وتفضيل السمع؛ قد تغير إعدادات BassUp والتطبيق التوازن." },

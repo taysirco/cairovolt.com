@@ -66,7 +66,7 @@ export const anker_soundcore_life_p2i = {
 `,
                 features: ["🎧 28H Total Playtime", "🤖 AI Dual-Mic Calls", "🎵 Dual EQ (Bass/Podcast)", "⚡ 10 Min = 1H Fast Charge", "📱 Bluetooth 5.2", "🔊 10mm Large Drivers", "🏆 Current Anker Warranty Terms", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Anker Soundcore Life P2i | 28h + Clear Calls | COD",
-                metaDesc: "Anker Soundcore Life P2i A3991 with manufacturer-rated 28h total battery, dual-mic call processing, two EQ modes and fast-charge example. Check current terms.",
+                metaDesc: "All-day 28h playtime and clear dual-mic calls with the Soundcore Life P2i, plus a 10-minute fast charge. Genuine, store warranty and COD in Egypt.",
                 faqs: [
                     { question: "How do they perform for calls?", answer: "They include dual-mic call processing intended to emphasize speech. Clarity varies with phone, app, fit, wind, surrounding noise and connection quality." },
                     { question: "Does Life P2i support single earbud mode?", answer: "Yes, Life P2i supports Single Earbud Mode, allowing you to use either the left or right earbud independently." },
@@ -122,7 +122,7 @@ export const anker_soundcore_life_p2i = {
 `,
                 features: ["🎧 28 ساعة بطارية", "🤖 مكالمات AI بميكروفونين", "🎵 EQ مزدوج (Bass/Podcast)", "⚡ 10 دقائق = ساعة", "📱 Bluetooth 5.2", "🔊 10mm سماعات كبيرة", "🏆 راجع شروط ضمان انكر الحالية", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "سماعة انكر Life P2i | 28 ساعة + مكالمات واضحة",
-                metaDesc: "اشتري سماعات انكر Life P2i في مصر. 28 ساعة، مكالمات AI بميكروفونين، EQ مزدوج، شحن سريع 10 دقائق. راجع شروط ضمان انكر الحالية.",
+                metaDesc: "بطارية 28 ساعة ومكالمات واضحة بميكروفونين مع سماعة ساوندكور Life P2i وشحن سريع 10 دقائق. أصلية بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "أداؤها عامل إزاي في المكالمات؟", answer: "تتضمن معالجة بميكروفونين مصممة لإبراز الكلام. تختلف النتيجة حسب الهاتف والتطبيق والملاءمة والرياح والضوضاء والاتصال، ولا تُعزل كل أصوات الشارع." },
                     { question: "هل Life P2i تدعم وضع السماعة الفردية؟", answer: "نعم، تدعم وضع السماعة الفردية لاستخدام اليمنى أو اليسرى مستقلة." },

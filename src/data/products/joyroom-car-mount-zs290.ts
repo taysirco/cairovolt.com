@@ -51,7 +51,7 @@ export const joyroom_car_mount_zs290 = {
 `,
                 features: ["🧲 Listed N52 Magnets", "📱 MagSafe-Compatible Alignment", "🔄 360° Ball Joint", "❄️ Air Vent Clip", "🖐️ One-Hand Placement", "📦 Check Included Ring or Plate", "🏆 current warranty and return policy", "🔒 Silicone Contact Surface"],
                 metaTitle: "Joyroom Magnetic Car Mount ⚡ N52 MagSafe | COD Egypt",
-                metaDesc: "Joyroom JR-ZS290 magnetic car mount with listed N52 magnets, MagSafe-compatible alignment, 360° joint and air-vent clip. Check phone, case and vent compatibility.",
+                metaDesc: "Keep your phone in view on every drive with the Joyroom JR-ZS290 magnetic mount — N52 magnets, MagSafe alignment. Genuine, store warranty, COD in Egypt.",
                 faqs: [
                     { question: "Can it hold a large phone?", answer: "Do not judge retention from the N52 label alone. Phone weight, case, ring alignment, vent strength, installation, vibration and heat all matter. Test the exact setup while stationary and inspect it regularly." },
                     { question: "Does it block airflow?", answer: "The effect depends on the vehicle's vent size and the mount position. Install it only where airflow, controls, visibility and airbags remain unobstructed." },
@@ -87,7 +87,7 @@ export const joyroom_car_mount_zs290 = {
 `,
                 features: ["🧲 مغناطيس N52 معلن", "📱 محاذاة MagSafe متوافقة", "🔄 مفصل كروي 360°", "❄️ مشبك فتحة التكييف", "🖐️ وضع بيد واحدة", "📦 تحقق من الحلقة أو القطعة المرفقة", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 اختبر التثبيت والسيارة متوقفة"],
                 metaTitle: "حامل جوال مغناطيسي جوي روم ⚡ N52 MagSafe | ادفع عند الاستلام",
-                metaDesc: "حامل جوي روم JR-ZS290 بمغناطيس N52 معلن ومحاذاة MagSafe المتوافقة ومفصل 360° ومشبك تكييف. تحقق من توافق الهاتف والجراب وفتحة السيارة.",
+                metaDesc: "ثبّت موبايلك في مجال رؤيتك طول الطريق مع حامل جوي روم JR-ZS290 المغناطيسي، مغناطيس N52 ومحاذاة MagSafe. أصلي بضمان متجر ودفع عند الاستلام.",
                 faqs: [
                     {
                         question: "هل يتحمل ايفون 14 برو ماكس؟",

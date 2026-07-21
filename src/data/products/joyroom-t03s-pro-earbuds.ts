@@ -72,7 +72,7 @@ export const joyroom_t03s_pro_earbuds = {
 `,
                 features: ["🎧 Verify published ANC figure and method", "🔋 Published battery figures—actual runtime varies", "📱 Bluetooth 5.3—latency varies", "💧 IPX5—follow stated limits", "👆 Listed touch controls", "📱 Check iOS pop-up support", "🏆 Current warranty terms", "🔎 Verify ratings on unit and manufacturer documentation"],
                 metaTitle: "Joyroom T03S Pro Earbuds | ANC Noise Cancel | COD",
-                metaDesc: "Explore Joyroom T03S Pro earbuds in Egypt. Review the published ANC, battery, Bluetooth and IPX5 specifications, plus current stock, warranty and delivery terms.",
+                metaDesc: "Cut the noise and focus on your music with Joyroom T03S Pro earbuds — active noise cancellation and IPX5 resistance. Genuine, store warranty, COD Egypt.",
                 faqs: [
                     { question: "Is the noise cancellation real?", answer: "The listing states ANC. Verify the exact reduction figure and test method for JR-AU-T03SPRO; results vary with fit, noise type and movement, and ANC does not remove every sound." },
                     { question: "Is it good for gaming?", answer: "Bluetooth latency varies by phone, codec, game mode, app and wireless conditions. Confirm any low-latency mode in the current manual for your device." },
@@ -128,7 +128,7 @@ export const joyroom_t03s_pro_earbuds = {
 `,
                 features: ["🎧 تحقق من رقم ANC وطريقة الاختبار", "🔋 أرقام بطارية معلنة—التشغيل يختلف", "📱 Bluetooth 5.3—التأخير يختلف", "💧 تحقق من تصنيف IP وحدوده", "👆 تحكم باللمس حسب القائمة", "📱 تحقق من دعم إشعار iOS", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من القيم على الوحدة ووثائق الشركة"],
                 metaTitle: "سماعة جوي روم T03S Pro | إلغاء ضوضاء ANC | COD مصر",
-                metaDesc: "تعرف على سماعة جوي روم T03S Pro في مصر. راجع مواصفات ANC والبطارية وBluetooth وتصنيف IP المعلنة، مع المخزون والضمان والتوصيل الحالي.",
+                metaDesc: "اقطع الضوضاء وركّز في موسيقاك مع سماعة جوي روم T03S Pro — عزل ضوضاء نشط ANC ومقاومة رذاذ IPX5. أصلية بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "هل العزل حقيقي؟", answer: "تذكر القائمة ANC. تحقق من رقم الخفض وطريقة الاختبار للموديل JR-AU-T03SPRO؛ النتيجة تختلف حسب الإحكام ونوع الضوضاء والحركة ولا يزيل ANC كل الأصوات." },
                     { question: "هل هي جيدة للألعاب؟", answer: "تأخير Bluetooth يختلف حسب الهاتف والكودك ووضع اللعبة والتطبيق والظروف اللاسلكية. راجع أي وضع تأخير منخفض في الدليل الحالي لجهازك." },

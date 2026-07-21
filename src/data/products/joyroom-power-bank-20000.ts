@@ -54,7 +54,7 @@ export const joyroom_power_bank_20000 = {
 `,
                 features: ["🔋 Manufacturer-listed 20,000mAh", "⚡ Check listed PD/QC/SCP profiles", "🔌 3 outputs; power may be shared", "📊 LED Digital Display", "✈️ Check Current Airline Rules (72Wh)", "✅ Use official Golden Code process if supplied", "🧾 Check current warranty and return policy", "🔎 Verify ratings on the unit and manufacturer documentation"],
                 metaTitle: "Joyroom 20000mAh Power Bank | Current Price | 22.5W Class",
-                metaDesc: "Joyroom JR-T020 20000mAh power bank with printed profiles up to the 22.5W class, three outputs and LED display. Check usable energy, compatibility and current terms.",
+                metaDesc: "Power three devices on long days with the Joyroom JR-T020 20,000mAh bank — 22.5W fast output, LED display. Genuine, store warranty, COD Egypt.",
                 faqs: [
                     { question: "What does the 22.5W figure mean?", answer: "It refers to a supported output profile or class. The actual rate depends on the printed voltage/current combinations and whether the phone, port and cable support the same protocol." },
                     { question: "Does it display exact battery percentage?", answer: "The LED display provides an operating estimate. It is not a calibrated measurement of remaining usable energy, and the reading can change with load and battery condition." },
@@ -91,7 +91,7 @@ export const joyroom_power_bank_20000 = {
 `,
                 features: ["🔋 سعة معلنة 20,000 مللي أمبير", "⚡ تحقق من ملفات PD/QC/SCP المعلنة", "🔌 3 مخارج مع احتمال توزيع القدرة", "📊 شاشة LED رقمية", "✈️ تحقق من قواعد الطيران الحالية (72Wh)", "✅ استخدم عملية Golden Code الرسمية إذا توفرت", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من القيم على الوحدة ووثائق الشركة"],
                 metaTitle: "باور بانك جوي روم 20000 ⚡ السعر الحالي | 22.5 واط PD+QC",
-                metaDesc: "باور بانك جوي روم JR-T020 بسعة معلنة 20000 مللي أمبير وملفات حتى فئة 22.5 واط وثلاثة مخارج وشاشة LED. راجع الطاقة القابلة للاستخدام والتوافق.",
+                metaDesc: "طاقة تكفي 3 أجهزة في يومك الطويل مع باور بانك جوي روم JR-T020 سعة 20,000 — خرج سريع 22.5 واط وشاشة LED. أصلي بضمان متجر ودفع عند الاستلام.",
                 faqs: [
                     {
                         question: "ما هو الشحن السريع 22.5 واط؟",

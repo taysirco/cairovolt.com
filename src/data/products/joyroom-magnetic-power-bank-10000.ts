@@ -67,7 +67,7 @@ export const joyroom_magnetic_power_bank_10000 = {
 `,
                 features: ["Listed 10,000mAh cell capacity", "Magnetic wireless alignment", "Verify the wireless output profile", "Verify USB-C wired profiles", "Foldable stand", "Review shared-output limits", "Review warranty and return policy", "Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Joyroom MagSafe 10000mAh | Wireless Charge | COD",
-                metaDesc: "Review Joyroom JR-W030 magnetic power bank in Egypt: listed 10,000mAh capacity, wireless and USB-C profiles, stand, compatibility, live price and service terms.",
+                metaDesc: "Snap-on wireless charging for iPhone with the Joyroom JR-W030 magnetic bank — 10,000mAh, USB-C and built-in stand. Genuine, store warranty, COD Egypt.",
                 faqs: [
                     { question: "How many times can it charge a phone?", answer: "There is no fixed count. The cell rating differs from usable output energy, and results depend on the phone battery, starting level, conversion loss, alignment, temperature and use while charging." },
                     { question: "Can I use it while attached to my phone?", answer: "Check magnetic alignment and case compatibility, and support the phone if movement could detach the battery. The stand can provide a viewing angle on a stable surface, but retention varies by phone, case, orientation and temperature." },
@@ -121,7 +121,7 @@ export const joyroom_magnetic_power_bank_10000 = {
 `,
                 features: ["سعة خلايا معلنة 10000 مللي أمبير", "محاذاة مغناطيسية للشحن اللاسلكي", "تحقق من بروفايل الخرج اللاسلكي", "تحقق من بروفايلات USB-C السلكية", "حامل قابل للطي", "راجع حدود توزيع القدرة", "راجع سياسة الضمان والاسترجاع", "تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "باور بانك جوي روم MagSafe 10000 | شحن لاسلكي",
-                metaDesc: "راجع جوي روم JR-W030 المغناطيسي في مصر: سعة معلنة 10000 مللي أمبير وبروفايلات اللاسلكي وUSB-C والحامل والتوافق والسعر وسياسة الخدمة.",
+                metaDesc: "شحن لاسلكي مغناطيسي لايفونك في أي مكان مع باور بانك جوي روم JR-W030 — سعة 10,000 وUSB-C وحامل مدمج. أصلي بضمان متجر ودفع عند الاستلام.",
                 faqs: [
                     { question: "كم شحنة يعطي باور بانك 10000 لهاتف متوافق؟", answer: "لا يوجد عدد ثابت؛ تصنيف الخلايا يختلف عن الطاقة القابلة للاستخدام، وتؤثر بطارية الهاتف ونسبة البداية وكفاءة التحويل والمحاذاة والحرارة واستخدام الهاتف في النتيجة." },
                     { question: "هل أستطيع استخدامه ملتصقاً بالهاتف؟", answer: "تحقق من المحاذاة والجراب وادعم الهاتف إذا كانت الحركة قد تفصل البطارية. يمكن للحامل توفير زاوية على سطح ثابت، لكن التثبيت يختلف حسب الهاتف والجراب والاتجاه والحرارة." },

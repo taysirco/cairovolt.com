@@ -45,7 +45,7 @@ export const anker_prime_a1336_20000mah_power_bank = {
   "Review the written warranty and return policy"
 ],
                 metaTitle: "⚡ Anker Prime 200W 20,000mAh Power Bank | Egypt COD",
-                metaDesc: "Review Anker Prime A1336 in Egypt: listed 20,000mAh / 72Wh battery, shared-output table, USB-C profiles, status display, live price, stock and service terms.",
+                metaDesc: "Charge a laptop and two phones at once with the Anker Prime 20,000mAh power bank: 200W output and a smart status display. Genuine, store warranty, COD in Egypt.",
                 faqs: [
                     { question: "How many times can the Anker A1336 charge a phone?", answer: "The battery is rated at 72Wh. Actual charge count and speed vary with the phone battery, conversion loss, cable, protocol, and use while charging." },
                     { question: "Can the A1336 charge a MacBook?", answer: "Compare the exact MacBook input, selected USB-C port, shared-output table and cable rating. The laptop accepts only a supported profile, and charging may slow while the computer is under load." },
@@ -75,7 +75,7 @@ export const anker_prime_a1336_20000mah_power_bank = {
   "🧾 راجع سياسة الضمان والاسترجاع"
 ],
                 metaTitle: "⚡ انكر برايم 200 واط باور بانك 20000 A1336 | مصر",
-                metaDesc: "راجع انكر برايم A1336 في مصر: سعة معلنة 20000mAh / 72Wh، جدول توزيع المخارج وبروفايلات USB-C وشاشة الحالة والسعر والمخزون وسياسة الخدمة.",
+                metaDesc: "شغّل لابتوب وموبايلين مع باور بانك انكر برايم 20000: خرج 200 واط وشاشة ذكية تعرض الحالة. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "انكر A1336 بيشحن الهاتف كام مرة؟", answer: "البطارية مصنفة 72Wh. عدد الشحنات والسرعة الفعليين بيتغيروا حسب بطارية الهاتف وفقد التحويل والكابل والبروتوكول والاستخدام أثناء الشحن." },
                     { question: "A1336 يقدر يشحن ماك بوك بأقصى سرعة؟", answer: "يعتمد ذلك على موديل ماك بوك وملف USB-C PD والكابل والحمل أثناء الاستخدام. قارن احتياج الجهاز بحد المنفذ وجدول توزيع القدرة المطبوع؛ الحد المعلن لا يعني نفس السرعة لكل الأجهزة أو عند استخدام عدة منافذ." },

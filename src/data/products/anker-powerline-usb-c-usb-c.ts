@@ -74,7 +74,7 @@ export const anker_powerline_usb_c_usb_c = {
 `,
                 features: ["⚡ Listed up to 60W Power Delivery", "📱 Match device PD requirements", "📱 PPS/5A needs vary by model", "💻 Check laptop input rating", "💪 Verify manufacturer bend-test conditions", "🏆 current warranty and return policy", "🛡️ Inspect the cable for wear", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Anker PowerLine III USB-C Cable | Up to 60W | Egypt",
-                metaDesc: "Anker PowerLine III A8852H11 USB-C cable listed up to 60W. Verify the power and data ratings, device profile, live price and current warranty terms.",
+                metaDesc: "Charge laptops and phones with the genuine Anker PowerLine III USB-C cable rated up to 60W. Durable build, store warranty in Egypt and cash on delivery.",
                 faqs: [
                     {
                         question: "Does it support 45W Samsung charging?",
@@ -142,7 +142,7 @@ export const anker_powerline_usb_c_usb_c = {
 `,
                 features: ["⚡ قدرة معلنة حتى 60 واط", "📱 طابق بروفايل PD للجهاز", "📱 متطلبات PPS و5 أمبير تختلف", "💻 تحقق من دخل اللابتوب", "💪 راجع شروط اختبار الثني", "🧾 راجع سياسة الضمان والاسترجاع", "🛡️ افحص الكابل من التلف", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "كابل انكر PowerLine III USB-C حتى 60 واط | مصر",
-                metaDesc: "كابل انكر PowerLine III موديل A8852H11 بقدرة معلنة حتى 60 واط. تحقق من تصنيف الطاقة والبيانات وبروفايل الجهاز والسعر والضمان الحالي.",
+                metaDesc: "اشحن اللابتوب والموبايل مع كابل انكر PowerLine III من USB-C إلى USB-C الأصلي بقدرة حتى 60 واط. بضمان متجر في مصر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل يدعم شحن سامسونج 45 واط؟", answer: "يعتمد وضع سامسونج على الهاتف وبروفايل PPS في الشاحن ومتطلب كابل 5 أمبير إن وُجد. طابق المواصفات المطبوعة للعناصر الثلاثة قبل توقع وضع محدد." },
                     { question: "هل يمكن استخدامه لنقل البيانات؟", answer: "تحقق من تصنيف USB للبيانات المطبوع على موديل A8852H11 المورّد؛ قدرة الشحن وحدها لا تثبت سرعة البيانات أو دعم خرج الفيديو." },

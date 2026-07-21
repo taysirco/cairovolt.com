@@ -43,7 +43,7 @@ export const anker_prime_a2688_100w_charger = {
   "🏆 Review current CairoVolt warranty terms"
 ],
                 metaTitle: "Anker Prime 100W Charger ⚡ 3-Port GaN | Egypt COD",
-                metaDesc: "Explore Anker Prime A2688 100W 3-port GaN charger in Egypt. Check the printed USB-PD/PPS allocation, plug, stock, package and current warranty terms.",
+                metaDesc: "Power a laptop and phones from one wall plug with the Anker Prime 100W 3-port GaN charger. Genuine, with store warranty and cash on delivery in Egypt.",
                 faqs: [
                     { question: "What is the price of the Anker Prime 100W charger (A2688) in Egypt?", answer: "Use the live price shown for A2688 and review current stock, package contents, warranty, payment and delivery terms before ordering." },
                     { question: "Can the Anker A2688 charge a USB-C laptop?", answer: "It can charge a compatible laptop when its printed USB-PD output matches the laptop's required profile. Use an appropriately rated cable; actual power and time vary." },
@@ -73,7 +73,7 @@ export const anker_prime_a2688_100w_charger = {
   "🏆 راجع شروط ضمان كايرو فولت الحالية"
 ],
                 metaTitle: "شاحن انكر برايم 100 واط ⚡ 3 منافذ GaN | مصر COD",
-                metaDesc: "تعرف على شاحن انكر برايم A2688 بحد إجمالي معلن 100 واط و3 منافذ GaN في مصر. راجع جدول USB-PD/PPS والقابس والمخزون والعبوة والضمان الحالي.",
+                metaDesc: "شاحن واحد للابتوب والموبايل: انكر برايم 100 واط بثلاثة منافذ GaN. أصلي بضمان متجر وفاتورة ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "كم سعر شاحن انكر برايم 100 واط (A2688) في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لـ A2688 وراجع المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
                     { question: "هل شاحن انكر A2688 يشحن لابتوب USB-C؟", answer: "يمكنه شحن لابتوب متوافق عندما يطابق خرج USB-PD المطبوع البروفايل المطلوب. استخدم كابلاً مصنفاً بشكل مناسب؛ القدرة والمدة الفعلية تختلفان." },

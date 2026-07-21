@@ -45,7 +45,7 @@ export const soundcore_liberty_air_2_pro = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3951</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
             features: ["LDAC on compatible sources", "11mm PureNote", "Targeted ANC", "HearID EQ", "Qi case charging", "9 Ear Tips", "Manufacturer-rated up to 7h/26h", "BT 5.0", "IPX4", "Soundcore App", "🧾 Review warranty and return policy"],
             metaTitle: "Soundcore Liberty Air 2 Pro — LDAC + ANC + Qi | Egypt",
-            metaDesc: "Soundcore Liberty Air 2 Pro with LDAC on compatible devices, 11mm PureNote driver, targeted ANC, Qi case charging and HearID. Check current price and warranty terms.",
+            metaDesc: "Personalized sound from Soundcore Liberty Air 2 Pro — 11mm PureNote drivers, targeted ANC and Qi wireless case. Genuine, store warranty, COD in Egypt.",
             faqs: [
                     { question: "Liberty Air 2 Pro or A30i — which should I buy?", answer: "Compare the live prices, fit, supported codecs, ANC controls and test methods, published battery conditions, case-charging method, app support and current warranty. No single specification establishes the better choice for every listener." },
                     { question: "Does LDAC work on iPhone?", answer: "LDAC requires a compatible source and is not provided by iOS. Confirm the codecs available on the exact phone and current firmware; the listening result also depends on fit, recording and settings." },
@@ -73,7 +73,7 @@ export const soundcore_liberty_air_2_pro = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">قبل الطلب</h3><p class="text-gray-700">طابق موديل <strong>A3951</strong> والمواصفات المطبوعة واسم البلوتوث وظهور المنتج في تطبيق ساوندكور ومحتويات العبوة مع وثائق الشركة المصنّعة الحالية. راجع توافق LDAC وQi وحدود IPX4 وشروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["LDAC Hi-Res", "11mm PureNote", "ANC موجه", "HearID EQ", "شحن Qi لاسلكي", "9 مقاسات أطراف", "7/26 ساعة بطارية", "BT 5.0", "IPX4", "تطبيق ساوندكور", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "سماعة ساوندكور Liberty Air 2 Pro — LDAC + ANC + Qi",
-            metaDesc: "اشتري سماعة ساوندكور Liberty Air 2 Pro في مصر — السعر الحالي المعروض في الصفحة. LDAC Hi-Res، 11mm PureNote، ANC موجه، شحن Qi لاسلكي، HearID، 9 أطراف، 26 ساعة. راجع سياسة الضمان والاسترجاع الحالية.",
+            metaDesc: "صوت غني مخصص لك مع ساوندكور Liberty Air 2 Pro: درايفر 11mm PureNote وعزل موجه وشحن Qi لاسلكي. أصلية بضمان المتجر ودفع عند الاستلام في مصر.",
             faqs: [
                     { question: "Liberty Air 2 Pro ولا A30i — أشتري أنهي؟", answer: "قارن دعم LDAC وQi وHearID وطريقة العزل والبطارية المعلنة والملاءمة والسعر والضمان الحالي. أرقام ANC أو عدد المميزات وحدها لا تحدد الاختيار المناسب لكل مستخدم." },
                     { question: "LDAC بيشتغل على iPhone؟", answer: "يتطلب LDAC مصدرًا متوافقًا ولا توفره كل المنصات. تحقق من الكودكات المتاحة في ايفون أو أندرويد المحدد ومن إعدادات تطبيق ساوندكور؛ قد يستخدم الجهاز AAC أو SBC بدلًا منه." },

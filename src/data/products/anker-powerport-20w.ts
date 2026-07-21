@@ -77,7 +77,7 @@ export const anker_powerport_20w = {
                     "🔌 Confirm the supplied plug variant",
                     "🏆 Review current CairoVolt warranty terms", "🔎 Verify compliance marks on the unit and manufacturer documentation", "🌍 Verify the printed AC input range"],
                 metaTitle: "Anker A2347K11 20W USB-C PD Charger | Egypt",
-                metaDesc: "Explore Anker A2347K11 20W USB-C PD charger in Egypt. Check printed profiles, AC input, plug, package contents, stock and current warranty terms.",
+                metaDesc: "Fast-charge your iPhone with the genuine Anker 20W USB-C PD charger (A2347K11). Compact and reliable, with store warranty in Egypt and cash on delivery.",
                 faqs: [
                     { question: "What is the price of the Anker 20W charger in Egypt?", answer: "The live price is displayed on this page. Review current stock, delivery options and the written warranty and return policy before ordering." },
                     { question: "Does Anker 20W fast charge a compatible iPhone?", answer: "It can provide a compatible USB-PD profile up to its printed ceiling. Actual power and time vary with model, cable, battery level and temperature; verify current Apple and Anker specifications." },
@@ -144,7 +144,7 @@ export const anker_powerport_20w = {
                     "🔌 تأكد من نسخة القابس الموردة",
                     "🏆 راجع شروط ضمان كايرو فولت الحالية", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة", "🌍 راجع مدى إدخال AC المطبوع"],
                 metaTitle: "سعر شاحن انكر 20 واط | USB-C PD للايفون | مصر",
-                metaDesc: "تعرف على شاحن انكر 20 واط USB-C PD في مصر بالسعر الحالي المعروض. راجع مواصفات الموديل وشروط الضمان والتوفر وخيارات التوصيل قبل الطلب.",
+                metaDesc: "اشحن ايفونك بسرعة مع شاحن انكر الأصلي 20 واط USB-C PD موديل A2347K11. حجم صغير وعملي، بضمان متجر في مصر والدفع عند الاستلام.",
                 faqs: [
                     { question: "كم سعر شاحن انكر 20 وات في مصر؟", answer: "السعر الحالي معروض في الصفحة. راجع المخزون وخيارات التوصيل وسياسة الضمان والاسترجاع المكتوبة قبل الطلب." },
                     { question: "هل يشحن ايفون متوافقاً عبر USB-PD؟", answer: "يمكنه توفير بروفايل متوافق حتى الحد المطبوع. تختلف القدرة والمدة حسب الموديل والكابل ونسبة البطارية والحرارة؛ راجع مواصفات Apple وانكر الحالية." },

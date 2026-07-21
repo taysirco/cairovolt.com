@@ -67,7 +67,7 @@ export const anker_nano_45w_smart_display_charger = {
 `,
             features: ["⚡ Up to 45W USB-C output", "📺 Integrated smart display", "🔄 180° foldable plug", "🔌 Single USB-C port", "🌍 Check 100–240V marking on unit", "🧾 Model A121D", "🏆 Warranty follows the current product policy", "🔎 Verify output and compliance marks on the unit"],
             metaTitle: "Anker Nano A121D 45W Smart Display Charger | Egypt",
-            metaDesc: "Shop Anker Nano A121D 45W USB-C charger with smart display and 180° foldable plug in Egypt. Check live price, stock, output profiles and warranty terms.",
+            metaDesc: "Fast-charge a laptop or iPhone with the genuine Anker Nano A121D — 45W USB-C, smart power display and 180° foldable plug. Store warranty in Egypt, cash on delivery.",
             faqs: [
                 { question: "What does the Smart Display show?", answer: "The display presents charging and status information. Confirm the exact fields supported by model A121D in the supplied manual because available data can vary with the connected device and firmware." },
                 { question: "Can this charge a USB-C laptop?", answer: "It can charge a laptop only when the laptop accepts one of the A121D output profiles and its required power is within the 45W class. Check both labels and use a suitably rated USB-C cable; higher-power laptops may charge slowly or not at all." },
@@ -119,7 +119,7 @@ export const anker_nano_45w_smart_display_charger = {
 `,
             features: ["⚡ خرج USB-C حتى 45 واط", "📺 شاشة ذكية مدمجة", "🔄 قابس قابل للطي 180°", "🔌 منفذ USB-C واحد", "🌍 تحقق من علامة 100–240V", "🧾 موديل A121D", "🏆 الضمان وفق سياسة المنتج الحالية", "🔎 تحقق من جدول الخرج وعلامات المطابقة"],
             metaTitle: "شاحن انكر نانو A121D 45 واط بشاشة ذكية | مصر",
-            metaDesc: "اشتر شاحن انكر نانو A121D بخرج USB-C حتى 45 واط وشاشة ذكية وقابس 180° في مصر. راجع السعر والمخزون وبروفايلات الخرج والضمان الحالي.",
+            metaDesc: "اشحن اللابتوب أو الايفون بسرعة مع شاحن انكر نانو A121D الأصلي: 45 واط USB-C وشاشة ذكية وقابس قابل للطي 180°. بضمان متجر في مصر والدفع عند الاستلام.",
             faqs: [
                 { question: "الشاشة الذكية بتعرض إيه؟", answer: "تعرض الشاشة معلومات عن الشحن والحالة. راجع دليل الموديل A121D لمعرفة الحقول المدعومة لأن البيانات المتاحة قد تختلف حسب الجهاز المتصل والبرنامج الداخلي." },
                 { question: "ينفع يشحن لابتوب USB-C؟", answer: "ينفع فقط عندما يقبل اللابتوب أحد بروفايلات خرج A121D وتكون طاقته المطلوبة ضمن فئة 45 واط. طابق الملصقين واستخدم كابل USB-C مناسباً؛ الأجهزة الأعلى طاقة قد تشحن ببطء أو لا تشحن." },

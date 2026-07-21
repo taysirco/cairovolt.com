@@ -44,7 +44,7 @@ export const anker_zolo_usb_c_braided_cable = {
   "🏆 Current Anker Warranty Terms"
 ],
                 metaTitle: "Anker Zolo 240W USB-C Cable ⚡ Braided PD 3.1 | Egypt",
-                metaDesc: "Buy the Anker Zolo 240W USB-C to USB-C braided cable in Egypt. PD 3.1, 240W-grade 8-core wire, 10,000+ bend life, 1.5m. current warranty and return policy, COD.",
+                metaDesc: "Power laptops and phones with the genuine Anker Zolo 240W braided USB-C cable, PD 3.1 and 1.5m reach. In Egypt with store warranty and COD.",
                 faqs: [
                     { question: "What power is this A8060 cable rated for?", answer: "Use the maximum printed on the exact supplied SKU and current Anker documentation. Do not infer a 240W product certification from a conductor-design claim." },
                     { question: "What does the E-marker do?", answer: "It identifies cable capabilities during compatible USB-PD negotiation. The charger and device must support the same profile." },
@@ -75,7 +75,7 @@ export const anker_zolo_usb_c_braided_cable = {
   "🏆 راجع شروط ضمان انكر الحالية"
 ],
                 metaTitle: "كابل انكر زولو 240 واط USB-C ⚡ مضفر PD 3.1 مصر",
-                metaDesc: "اشتري كابل انكر زولو 240 واط USB-C مضفر في مصر: PD 3.1، سلك 8 نوى بمعمار 240 واط، 10,000 دورة ثني، طول 1.5 متر. راجع سياسة الضمان والاسترجاع الحالية ودفع عند الاستلام.",
+                metaDesc: "شغّل اللابتوب والموبايل بكابل انكر زولو الأصلي 240 واط المضفر، PD 3.1 وطول 1.5 متر، في مصر بضمان المتجر والدفع عند الاستلام.",
                 faqs: [
                     { question: "ما القدرة المصنف لها كابل A8060؟", answer: "اعتمد على الحد المطبوع على النسخة الموردة ووثائق انكر الحالية. لا تستنتج اعتماد منتج 240 واط من وصف تصميم الموصلات." },
                     { question: "ماذا يفعل E-marker؟", answer: "يعرّف قدرات الكابل أثناء تفاوض USB-PD المتوافق. يجب أن يدعم الشاحن والجهاز البروفايل نفسه." },

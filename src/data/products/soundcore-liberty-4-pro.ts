@@ -47,7 +47,7 @@ export const soundcore_liberty_4_pro = {
             `,
             features: ["ACAA 10.5mm+4.6mm Dual Driver", "Adaptive ANC 3.0 (7 Sensors)", "Smart Case Display + Touch Bar", "LDAC Hi-Res 990kbps", "40h Battery (ANC off)", "5min = 4h Fast Charge", "IPX5 Sweatproof", "HearID 4.0 + 8-Band EQ", "Multipoint BT 5.3", "🧾 Review warranty and return policy"],
             metaTitle: "Soundcore Liberty 4 Pro | ACAA Dual Driver, ANC, LDAC | Egypt",
-            metaDesc: "Soundcore Liberty 4 Pro earbuds — the current listed price with current warranty and return policy. ACAA coaxial dual driver (10.5mm+4.6mm), Adaptive ANC 3.0, Smart Case with display, LDAC.",
+            metaDesc: "Hear every detail with Soundcore Liberty 4 Pro — ACAA dual drivers, Adaptive ANC 3.0 and a smart display case. Genuine, store warranty, COD in Egypt.",
             faqs: [
                 { question: "What is the ACAA dual-driver design?", answer: "It is the listed coaxial arrangement of a 10.5mm woofer and 4.6mm tweeter. It is a hardware specification, not a guarantee of preferred sound or zero distortion." },
                 { question: "Liberty 4 Pro vs Liberty 4 NC — what should I compare?", answer: "Compare the live prices, fit, driver design, codecs, ANC controls, battery test conditions and case functions. Avoid treating different ANC figures as directly comparable without the same method." },
@@ -79,7 +79,7 @@ export const soundcore_liberty_4_pro = {
             `,
             features: ["درايفر ACAA 10.5mm+4.6mm مزدوج", "عزل ANC 3.0 تكيفي (7 مستشعرات)", "علبة ذكية بشاشة + تاتش بار", "LDAC Hi-Res 990kbps", "40 ساعة بطارية", "5 دقائق = 4 ساعات شحن سريع", "IPX5", "HearID 4.0 + EQ 8 نطاقات", "Multipoint بلوتوث 5.3", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "سماعة ساوندكور ليبرتي 4 برو | ACAA وعزل تكيفي | مصر",
-            metaDesc: "اشتري سماعة ساوندكور ليبرتي 4 برو في مصر بدرايفر ACAA مزدوج وعزل تكيفي وعلبة ذكية ودعم LDAC على الأجهزة المتوافقة. راجع الشروط الحالية.",
+            metaDesc: "تفاصيل صوت غنية مع ساوندكور ليبرتي 4 برو: درايفر ACAA مزدوج وعزل تكيفي 3.0 وعلبة ذكية بشاشة. أصلية بضمان المتجر ودفع عند الاستلام في مصر.",
             faqs: [
                 { question: "ما معنى درايفر ACAA المزدوج؟", answer: "هو ترتيب محوري معلن لووفر 10.5mm وتويتر 4.6mm. هذه مواصفة عتاد وليست ضماناً لصوت يفضله الجميع أو انعدام التشوه." },
                 { question: "ليبرتي 4 برو ولا ليبرتي 4 NC — أقارن بإيه؟", answer: "قارن السعر الحالي والملاءمة وبنية الدرايفر والكودكات وأوضاع العزل وشروط البطارية ووظائف العلبة. لا تعتبر أرقام عزل بطرق مختلفة نتائج متطابقة." },

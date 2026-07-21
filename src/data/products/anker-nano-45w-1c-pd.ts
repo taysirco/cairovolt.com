@@ -40,7 +40,7 @@ export const anker_nano_45w_1c_pd = {
   "🏆 current warranty and return policy"
 ],
                 metaTitle: "Anker Nano 45W 1C ⚡ GaN Charger Egypt | COD",
-                metaDesc: "Explore the Anker Nano A2664 45W-rated USB-C GaN charger in Egypt. Check printed PD/PPS profiles, plug type, stock, current warranty and delivery terms.",
+                metaDesc: "Charge laptop and phone fast from one 45W port — Anker Nano A2664 USB-C GaN charger with PD/PPS. Genuine, store warranty & COD in Egypt.",
                 faqs: [
                     { question: "What is the price of the Anker Nano 45W 1C in Egypt?", answer: "Use the live price shown for this SKU and review the current stock, package contents, warranty, payment and delivery terms before ordering." },
                     { question: "Does one USB-C port really charge a MacBook Air at full speed?", answer: "It depends on the MacBook model, its required USB-PD profile, the cable and use while charging. Compare those requirements with the output table printed on A2664." },
@@ -70,7 +70,7 @@ export const anker_nano_45w_1c_pd = {
   "🧾 راجع سياسة الضمان والاسترجاع"
 ],
                 metaTitle: "شاحن انكر نانو A2664 بقدرة 45 واط USB-C | مصر",
-                metaDesc: "تعرف على شاحن انكر نانو A2664 بقدرة مصنفة 45 واط USB-C GaN في مصر. راجع بروفايلات PD/PPS ونوع القابس والمخزون والضمان والتوصيل.",
+                metaDesc: "اشحن اللابتوب والموبايل بسرعة من منفذ 45 واط واحد — شاحن انكر نانو A2664 USB-C GaN بدعم PD/PPS. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "كم سعر شاحن انكر نانو 45 واط 1C في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لهذا المنتج وراجع المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
                     { question: "منفذ USB-C واحد بيشحن ماك بوك اير بسرعة كاملة فعلاً؟", answer: "يعتمد على موديل ماك بوك وبروفايل USB-PD المطلوب والكابل والاستخدام أثناء الشحن. قارن هذه المتطلبات بجدول الخرج المطبوع على A2664." },

@@ -76,7 +76,7 @@ export const anker_nano_45w = {
 `,
                 features: ["⚡ Listed 45W USB-C GaN", "💻 Check laptop input profile", "📱 Check phone USB-PD/PPS support", "📏 Verify listed dimensions and plug type", "🏆 Check current warranty terms", "🔎 Verify ratings and compliance marks on the supplied unit"],
                 metaTitle: "Anker 45W GaN Charger | Laptop + iPhone | COD",
-                metaDesc: "Explore Anker Nano A2664K11 45W-rated USB-C GaN charger in Egypt. Check printed PD/PPS profiles, plug type, stock, current warranty and delivery terms.",
+                metaDesc: "Power a laptop and iPhone from one genuine Anker Nano 45W GaN charger with USB-C PD/PPS. Compact GaN build, store warranty in Egypt and cash on delivery.",
                 faqs: [
                     { question: "Can this charge my MacBook Air?", answer: "It can charge a compatible MacBook Air when the laptop accepts a profile printed on A2664K11 and the cable is appropriately rated. Speed varies by model and use." },
                     { question: "Is it Samsung Super Fast Charging 2.0 compatible?", answer: "Check the exact phone's PPS requirement against the range printed on A2664K11 and use the specified cable. The device determines the accepted power." },
@@ -138,7 +138,7 @@ export const anker_nano_45w = {
 `,
                 features: ["⚡ قدرة مصنفة 45 واط USB-C GaN", "💻 تحقق من بروفايل اللابتوب", "📱 تحقق من دعم الهاتف لـ USB-PD/PPS", "📏 تحقق من الأبعاد ونوع القابس", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من التصنيفات وعلامات المطابقة على الوحدة"],
                 metaTitle: "شاحن انكر 45 واط GaN | لابتوب + ايفون | مصر",
-                metaDesc: "تعرف على شاحن انكر نانو A2664K11 بقدرة مصنفة 45 واط USB-C GaN في مصر. راجع بروفايلات PD/PPS ونوع القابس والمخزون والضمان والتوصيل.",
+                metaDesc: "شاحن انكر نانو 45 واط GaN أصلي يشحن اللابتوب والايفون من منفذ USB-C بدعم PD/PPS. تصميم GaN مدمج، بضمان متجر في مصر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل يمكنه شحن ماك بوك آير؟", answer: "يمكنه شحن ماك بوك اير متوافق عندما يقبل اللابتوب بروفايلاً مطبوعاً على A2664K11 ويكون الكابل مصنفاً له. السرعة تختلف حسب الموديل والاستخدام." },
                     { question: "هل يدعم شحن سامسونج فائق السرعة 2.0؟", answer: "قارن متطلبات PPS للهاتف الدقيق بالنطاق المطبوع على A2664K11 واستخدم الكابل المحدد. الهاتف يقرر القدرة المقبولة." },

@@ -57,7 +57,7 @@ export const joyroom_car_phone_mount = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">Safety note</h3><p class="text-gray-700">The previous listing contained conflicting descriptions of an air-vent and a dashboard or windshield version. Confirm the actual JR-ZS295 package and included mounting parts before use. Install and test it while parked, inspect it regularly, remove the phone if attachment weakens, and follow local rules for screen position and phone use while driving.</p></div>`,
                 features: ["📱 Fits phones up to 6.7 inches", "✨ Magnetic MagSafe-compatible mount with up to 15W wireless charging", "✨ Dashboard or windshield mounting", "✨ 360-degree rotation", "✨ One-hand operation", "✨ Adjustable arm length", "🏆 current warranty and return policy", "🔒 Anti-Scratch Silicone Grip"],
                 metaTitle: "Joyroom JR-ZS295 Car Phone Mount | Fit Guide | Egypt",
-                metaDesc: "Joyroom JR-ZS295 car phone mount. Verify the supplied mounting method, phone and case dimensions, weight limit, installation instructions, live price and warranty.",
+                metaDesc: "Mount your phone for hands-free navigation with the Joyroom JR-ZS295 car holder. Genuine, backed by store warranty and cash on delivery across Egypt.",
                 faqs: [
                     { question: "Will it fit my phone and case?", answer: "Compare the combined phone-and-case width, depth and weight with the printed JR-ZS295 limits. A screen diagonal alone does not establish fit, and rugged cases can change grip." },
                     { question: "Does it work on a textured dashboard?", answer: "First confirm whether the supplied JR-ZS295 variant is intended for a dashboard, windshield or vent. Use only the surfaces and installation parts specified in the package instructions; textured surfaces can reduce adhesion." },
@@ -102,7 +102,7 @@ export const joyroom_car_phone_mount = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">ملاحظة سلامة</h3><p class="text-gray-700">كان الوصف السابق يجمع بين نسخة لفتحة التكييف ونسخة للتابلوه أو الزجاج. أكد عبوة JR-ZS295 الفعلية وقطع التركيب الموجودة قبل الاستخدام. ركّبه واختبره والسيارة متوقفة وافحصه دورياً وانزع الهاتف إذا ضعف التثبيت واتبع قواعد وضع الشاشة واستخدام الهاتف أثناء القيادة.</p></div>`,
                 features: ["📐 تحقق من مقاس الهاتف والجراب", "✨ أكد قاعدة أو مشبك التركيب المورّد", "✨ اتبع السطح المسموح في التعليمات", "✨ زاوية قابلة للتعديل", "✨ اختبر آلية الفك والسيارة متوقفة", "✨ افحص التثبيت دورياً", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "حامل موبايل سيارة جوي روم JR-ZS295 | دليل التركيب",
-                metaDesc: "حامل جوي روم JR-ZS295 للسيارة. تحقق من طريقة التركيب الموردة وأبعاد الهاتف والجراب وحد الوزن وتعليمات التثبيت والسعر والضمان الحالي.",
+                metaDesc: "ثبّت موبايلك بأمان للتنقل بدون استخدام اليدين مع حامل جوي روم JR-ZS295 للسيارة. أصلي بضمان متجر ودفع عند الاستلام في كل مصر.",
                 faqs: [
                     { question: "هل يناسب هاتفي والجراب؟", answer: "قارن عرض وعمق ووزن الهاتف والجراب مع الحدود المطبوعة للموديل JR-ZS295. قطر الشاشة وحده لا يثبت الملاءمة وقد يغير الجراب الكبير من الإمساك." },
                     { question: "هل يعمل على التابلوه الخشن؟", answer: "أكد أولاً هل النسخة الموردة للتابلوه أو الزجاج أو فتحة التكييف. استخدم فقط السطح وقطع التركيب المذكورة في تعليمات العبوة؛ الأسطح الخشنة قد تضعف الالتصاق." },

@@ -58,7 +58,7 @@ export const soundcore_c30i_earbuds = {
 </div>`,
             features: ["Open-Ear Clip-On", "12×17mm Racetrack Titanium", "No ANC (Hear Environment)", "10h/30h Battery", "10min = 3h Fast Charge", "BT 5.3 Multipoint", "IPX4 Sweat+Rain", "5.7g Ultralight", "2-Mic Calls", "Detachable Silicone Grips", "🧾 Review warranty and return policy"],
             metaTitle: "Soundcore C30i — Open-Ear Clip-On Earbuds",
-            metaDesc: "Buy Soundcore C30i in Egypt — the current listed price. Open-ear clip-on, 12×17mm titanium, hear environment + music, 30h battery, BT 5.3, IPX4, 5.7g. current warranty and return policy. COD.",
+            metaDesc: "Hear your music and your surroundings with Soundcore C30i open-ear clip earbuds — 30h battery, just 5.7g. Genuine, in Egypt with store warranty.",
             faqs: [
                     { question: "C30i is open-ear — what does that mean?", answer: "It clips to the outer ear rather than sealing the canal and does not include ANC. You may hear more ambient sound than with sealed earbuds, but audio can still mask warnings; it is not a safety system." },
                     { question: "Why doesn't C30i have ANC?", answer: "Its open design does not create the same seal as an in-ear ANC model. Compare current alternatives by fit, awareness, leakage, ANC method and water-resistance limits rather than treating open-ear as guaranteed safety." },
@@ -97,7 +97,7 @@ export const soundcore_c30i_earbuds = {
 </div>`,
             features: ["كليب أذن مفتوح", "12×17mm Racetrack تيتانيوم", "بدون ANC (اسمع البيئة)", "10/30 ساعة بطارية", "10 دقائق = 3 ساعات", "BT 5.3 Multipoint", "IPX4 عرق+مطر", "5.7 جرام خفيف", "2 مايك مكالمات", "قبضات سيليكون قابلة للفك", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "سماعة ساوندكور C30i — كليب أذن مفتوح تيتانيوم | مصر",
-            metaDesc: "اشتري سماعة ساوندكور C30i في مصر — السعر الحالي المعروض في الصفحة. كليب أذن مفتوح، 12×17mm تيتانيوم، اسمع البيئة + الموسيقى، 30 ساعة، BT 5.3، IPX4، 5.7 جرام. راجع سياسة الضمان والاسترجاع الحالية. الدفع.",
+            metaDesc: "اسمع الموسيقى والعالم حواليك بسماعة ساوندكور C30i المفتوحة كليب الأذن — بطارية 30 ساعة ووزن 5.7 جرام. أصلية في مصر بضمان متجر.",
             faqs: [
                     { question: "C30i أذن مفتوحة يعني إيه؟", answer: "تتعلق على الأذن الخارجية بدل إغلاق القناة ولا تتضمن ANC. قد تسمع محيطًا أكثر من السماعات المحكمة، لكن الصوت قد يحجب التحذيرات؛ ليست نظام سلامة." },
                     { question: "ليه C30i مفيهاش ANC؟", answer: "التصميم المفتوح لا يصنع الإحكام نفسه الموجود في سماعات ANC الداخلية. قارن البدائل حسب الملاءمة والوعي والتسريب وطريقة العزل وحدود الماء بدل اعتبار الأذن المفتوحة أمانًا مضمونًا." },

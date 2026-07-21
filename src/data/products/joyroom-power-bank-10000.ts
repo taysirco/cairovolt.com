@@ -76,7 +76,7 @@ export const joyroom_power_bank_10000 = {
                     "✅ Use Official Golden Code Process If Supplied",
                     "🏆 current warranty and return policy", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Joyroom 10000mAh Power Bank ⚡ Dual USB + LED Display | COD",
-                metaDesc: "Buy Joyroom JR-T012 10000mAh power bank in Egypt with standard 5V/2.1A output, digital LED display, listed 16.2mm profile and dual USB output. Check current terms.",
+                metaDesc: "Slim everyday backup for your phone — Joyroom JR-T012 10,000mAh power bank, dual USB and LED charge display. Genuine, store warranty, COD Egypt.",
                 faqs: [
                     { question: "What is the price of Joyroom 10000mAh in Egypt?", answer: "The live price is displayed on this page. Review current stock, delivery options and the written warranty and return policy before ordering." },
                     { question: "How many times does Joyroom 10000 charge a phone?", answer: "There is no fixed count. Compare usable watt-hours with the phone battery and allow for conversion loss, cable loss and phone use while charging." },
@@ -142,7 +142,7 @@ export const joyroom_power_bank_10000 = {
                     "✅ استخدم عملية Golden Code الرسمية إذا كانت مطبوعة",
                     "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "باور بانك جوي روم 10000 | مخرجا USB وشاشة LED | مصر",
-                metaDesc: "اشتري باور بانك جوي روم JR-T012 سعة 10000 في مصر مع خرج قياسي 5V/2.1A وشاشة LED وسمك معلن 16.2مم ومخرجي USB. راجع السعر والمخزون والضمان الحالي.",
+                metaDesc: "باور بانك خفيف لشحن موبايلك كل يوم — جوي روم JR-T012 سعة 10,000 بمخرجي USB وشاشة LED. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "كم سعر باور بانك جوي روم 10000 في مصر؟", answer: "اعتمد السعر الحالي الظاهر في الصفحة، وراجع المخزون والتوصيل وشروط الضمان والاسترجاع قبل الطلب." },
                     { question: "كم مرة يشحن جوي روم 10000 الهاتف؟", answer: "لا يوجد عدد ثابت. قارن الطاقة القابلة للاستخدام ببطارية الهاتف واحتسب فقد التحويل والكابل واستخدام الهاتف أثناء الشحن." },

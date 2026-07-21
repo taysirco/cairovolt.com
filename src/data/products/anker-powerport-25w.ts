@@ -42,7 +42,7 @@ export const anker_powerport_25w = {
                     "📏 Compact 4.5cm Design",
                     "Review current written warranty terms", "Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Anker 25W PPS Charger | Super Fast Samsung | COD",
-                metaDesc: "Review Anker A2322K11 25W-class PPS charger in Egypt: printed USB-PD/PPS profiles, device and cable compatibility, current price, stock and service terms.",
+                metaDesc: "Fast-charge Samsung and iPhone with the genuine Anker 25W USB-C charger — PPS and USB-PD support. Store warranty in Egypt and cash on delivery.",
                 faqs: [
                     { question: "Is PPS useful for my device?", answer: "Only if the exact device supports a PPS profile printed on A2322K11. Check the phone specification and use a rated cable." },
                     { question: "Which Samsung models can use 25W?", answer: "Support varies by exact model and region. Confirm the required PPS voltage/current range in the device documentation." },
@@ -74,7 +74,7 @@ export const anker_powerport_25w = {
                     "📏 صغير 4.5 سم",
                     "راجع شروط الضمان المكتوبة الحالية", "تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "شاحن انكر 25 واط | سوبر فاست سامسونج | مصر",
-                metaDesc: "اشتري شاحن انكر 25 واط PPS في مصر بالسعر الحالي المعروض في الصفحة. سامسونج S26 سوبر فاست شحن سريع معلن من الشركة (المدة الفعلية تختلف). متوافق ايفون 17. ✓ راجع سياسة الضمان والاسترجاع الحالية ✓ توصيل سريع.",
+                metaDesc: "اشحن سامسونج وايفون بسرعة مع شاحن انكر الأصلي 25 واط USB-C بدعم PPS وUSB-PD. بضمان متجر في مصر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل PPS مفيد لجهازي؟", answer: "فقط إذا كان الجهاز نفسه يدعم بروفايل PPS مطبوعاً على A2322K11. راجع مواصفة الهاتف واستخدم كابلاً مصنفاً." },
                     { question: "أي موديلات سامسونج تستخدم 25 واط؟", answer: "يختلف الدعم حسب الموديل والمنطقة. تحقق من نطاق PPS المطلوب في وثائق الجهاز." },

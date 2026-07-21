@@ -34,7 +34,7 @@ export const joyroom_type_c_lightning_36mos = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Lightning cable — does NOT fit iPhone 17/16/15 (USB-C). This is our premium option for Lightning iPhones only. If you have USB-C iPhone, see our USB-C cables.</p></div>`,
                 features: ["⚡ Up to 30W with compatible USB-PD equipment", "🧾 Review the written warranty and return policy", "📱 For Lightning devices", "✨ Check length on package", "✨ Braided exterior", "🔎 Verify MFi statement for exact SKU", "🛡️ Stop use if cable or connector is damaged"],
                 metaTitle: "Joyroom JR-S-CL36M USB-C to Lightning Cable",
-                metaDesc: "Review Joyroom JR-S-CL36M USB-C to Lightning cable specifications, rated power, model-specific MFi statement, price, stock and written service policy in Egypt.",
+                metaDesc: "Fast-charge your iPhone with the Joyroom JR-S-CL36M USB-C to Lightning cable at its rated power. Genuine, store warranty, cash on delivery in Egypt.",
                 faqs: [
                     { question: "How do I confirm the applicable warranty?", answer: "Check that model JR-S-CL36M and the displayed warranty term appear on the supplied package and current listing. The written policy controls coverage, exclusions, proof of purchase and service steps." },
                     { question: "What construction details should I check?", answer: "Confirm the braided jacket, connector finish, cable length and model marking against the listing. Durability varies with handling, so avoid pulling the cable or bending it tightly at the connector." },
@@ -54,7 +54,7 @@ export const joyroom_type_c_lightning_36mos = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">هذا كابل Lightning ولا يركّب على أجهزة USB-C. طابق رقم الموديل والطول وتصنيف الطاقة على العبوة مع الطلب، وافحص الكابل دورياً وتوقف عن استخدامه عند ظهور قطع في الغلاف أو تلف أو سخونة غير معتادة عند الموصل.</p></div>`,
                 features: ["⚡ حتى 30 واط مع معدات USB-PD متوافقة", "🧾 راجع سياسة الضمان والاسترجاع المكتوبة", "✨ لأجهزة Lightning", "✨ راجع الطول على العبوة", "✨ غلاف مضفر", "🔎 تحقق من بيان MFi للموديل نفسه", "🛡️ توقف عن الاستخدام عند تلف الكابل أو الموصل"],
                 metaTitle: "كابل جوي روم JR-S-CL36M من USB-C إلى Lightning",
-                metaDesc: "راجع مواصفات كابل جوي روم JR-S-CL36M من USB-C إلى Lightning وتصنيف الطاقة وبيان MFi للموديل والسعر والمخزون وسياسة الخدمة المكتوبة في مصر.",
+                metaDesc: "اشحن ايفونك بسرعة مع كابل جوي روم JR-S-CL36M من USB-C إلى Lightning بقدرته المعلنة. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "إزاي أتأكد من الضمان المطبق؟", answer: "تأكد من ظهور موديل JR-S-CL36M ومدة الضمان في العبوة والقائمة الحالية. السياسة المكتوبة هي التي تحدد التغطية والاستثناءات وإثبات الشراء وخطوات الخدمة." },
                     { question: "إيه تفاصيل البناء اللي أفحصها؟", answer: "طابق الغلاف المضفر وتشطيب الموصل والطول ورقم الموديل مع القائمة. العمر يتغير حسب الاستخدام، فتجنب السحب من الكابل أو ثنيه بقوة عند الموصل." },

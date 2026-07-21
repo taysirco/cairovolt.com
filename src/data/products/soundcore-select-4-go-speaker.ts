@@ -44,7 +44,7 @@ export const soundcore_select_4_go_speaker = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A31X1</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
             features: ["IP67 Waterproof", "Floats on Water", "Dustproof", "5W", "20h Battery", "BT 5.4", "9-Band EQ", "TWS Pairing", "USB-C", "Carry Strap", "No Mic", "No AUX", "🧾 Review warranty and return policy"],
             metaTitle: "Soundcore Select 4 Go — IP67 Waterproof + Floats | 20h",
-            metaDesc: "Explore Soundcore Select 4 Go A31X1 in Egypt. Review manufacturer IP67, floating-design, battery, Bluetooth, EQ and TWS specifications plus current stock and warranty.",
+            metaDesc: "Soundcore Select 4 Go portable speaker in Egypt: IP67 waterproof, floats in water and up to 20h battery. Genuine with store warranty and cash on delivery.",
             faqs: [
                     { question: "Does Select 4 Go float?", answer: "Soundcore lists a floating design and an IP67 rating for the Select 4 Go. Follow the manufacturer's water-exposure limits, avoid salt water and chemicals, and dry the charging port before use." },
                     { question: "Select 4 Go vs another pocket speaker?", answer: "Compare current IP rating limits, rated output, battery test conditions, codec/app features, TWS support, weight, live price and warranty using the same criteria. Do not infer a winner from one specification." },
@@ -72,7 +72,7 @@ export const soundcore_select_4_go_speaker = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A31X1</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["IP67 ضد المية", "بتطفو على المية", "ضد الغبار", "5 واط", "20 ساعة", "BT 5.4", "9-باند EQ", "ربط TWS", "USB-C", "حزام حمل", "بدون مايك", "بدون AUX", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "مكبر صوت ساوندكور Select 4 Go — IP67 + بتطفو | 20 ساعة",
-            metaDesc: "تعرف على ساوندكور Select 4 Go A31X1 في مصر. راجع مواصفات IP67 والتصميم الطافي والبطارية والبلوتوث وEQ وTWS والمخزون والضمان الحالي.",
+            metaDesc: "مكبر صوت ساوندكور Select 4 Go المحمول في مصر: مقاوم للماء IP67 وبيطفو على المياه وبطارية حتى 20 ساعة. أصلي بضمان متجر ودفع عند الاستلام.",
             faqs: [
                     { question: "هل Select 4 Go تطفو؟", answer: "تدرج ساوندكور تصميماً طافياً وتصنيف IP67. اتبع حدود الماء في الدليل وتجنب الملح والمواد الكيميائية وجفف منفذ الشحن تماماً قبل الاستخدام أو الشحن." },
                     { question: "كيف أقارنها بسبيكر جيب آخر؟", answer: "قارن حدود IP والخرج وشروط اختبار البطارية والكودك والتطبيق وTWS والوزن والسعر المباشر والضمان بالمعايير نفسها، ولا تحدد الاختيار من رقم واحد." },

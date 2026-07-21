@@ -47,7 +47,7 @@ export const soundcore_a30i_earbuds = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">Before ordering</h3><p class="text-gray-700">Match model <strong>A3958</strong>, printed specifications, Bluetooth name, app recognition and package contents with current manufacturer documentation. Treat ANC, battery and fast-charge numbers as manufacturer ratings under stated conditions. Review current warranty and return terms.</p></div>`,
             features: ["Manufacturer-Listed ANC up to 46dB", "6mm Composite Driver", "Lipstick-Style Case", "Listed 3.7g per Earbud", "Published Battery up to 24h", "Manufacturer Fast-Charge Example", "Bluetooth 5.4 Multipoint", "4-Mic Call Processing", "IP54 Listing", "App Sound Controls", "🧾 Review warranty and return policy"],
             metaTitle: "Soundcore A30i — 46dB ANC + Lipstick Case | Egypt",
-            metaDesc: "Soundcore A30i earbuds with manufacturer-listed Smart ANC, 6mm driver, compact case, Bluetooth 5.4 multipoint and IP54 rating. Check current price and terms.",
+            metaDesc: "Silence the noise with Soundcore A30i earbuds — up to 46dB Smart ANC in a slim lipstick case. Genuine, in Egypt with store warranty and COD.",
             faqs: [
                     { question: "A30i or P30i — which should I buy?", answer: "Compare current ANC test methods, driver and case design, published battery conditions, codec and app features, fit, price and warranty. Headline dB and driver size alone do not determine real cancellation or sound preference." },
                     { question: "Does the 6mm driver mean weak bass?", answer: "Driver diameter alone cannot determine bass depth or quality. Fit, seal, recording, codec, volume and EQ all affect the result; use the app controls conservatively to match your preference." },
@@ -75,7 +75,7 @@ export const soundcore_a30i_earbuds = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">قبل الطلب</h3><p class="text-gray-700">طابق موديل <strong>A3958</strong> والمواصفات المطبوعة واسم البلوتوث وظهور المنتج في التطبيق ومحتويات العبوة مع وثائق الشركة المصنّعة الحالية. تعامل مع أرقام العزل والبطارية والشحن كتصنيفات شركة في ظروف محددة، وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["عزل معلن من الشركة حتى 46dB", "درايفر 6mm مركب", "علبة بشكل أحمر الشفاه", "وزن معلن 3.7 جرام لكل سماعة", "بطارية معلنة حتى 24 ساعة", "مثال شركة للشحن السريع", "Bluetooth 5.4 Multipoint", "معالجة مكالمات بأربعة ميكروفونات", "تصنيف IP54", "تحكم صوت من التطبيق", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "سماعة ساوندكور A30i — 46dB ANC + علبة أحمر شفاه | مصر",
-            metaDesc: "اشتري سماعة ساوندكور A30i في مصر — السعر الحالي المعروض في الصفحة. 46dB ANC ذكي، 6mm composite، علبة أحمر شفاه، 3.7 جرام، 24 ساعة، BT 5.4، IP54. راجع سياسة الضمان والاسترجاع الحالية. الدفع عند الاستلام.",
+            metaDesc: "اقفل على الضوضاء بسماعة ساوندكور A30i — عزل ذكي حتى 46dB في علبة أحمر شفاه أنيقة. أصلية في مصر بضمان متجر ودفع عند الاستلام.",
             faqs: [
                     { question: "A30i ولا P30i — أشتري أنهي؟", answer: "قارن طرق اختبار العزل وتصميم الدرايفر والعلبة والبطارية المعلنة والكودك والتطبيق والملاءمة والسعر والضمان الحالي. رقم dB وحجم الدرايفر وحدهما لا يحددان العزل أو تفضيل الصوت." },
                     { question: "الباس ضعيف بسبب درايفر 6mm؟", answer: "حجم الدرايفر وحده لا يحدد عمق الباس أو الجودة. يؤثر الإحكام والتسجيل والكودك والصوت وEQ في النتيجة؛ استخدم تحكم التطبيق باعتدال حسب تفضيلك." },

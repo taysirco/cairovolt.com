@@ -47,7 +47,7 @@ export const anker_a1637_wukong_3_in_1_power_bank = {
   "🛡️ current warranty and return policy"
 ],
                 metaTitle: "Anker Wukong 3-in-1 Power Bank 10000mAh ⚡ COD Egypt",
-                metaDesc: "Buy the Anker Wukong 3-in-1 Power Bank (A1637) in Egypt: 10000mAh, 30W, built-in cable + foldable AC plug, 6th-gen GaN. current warranty and return policy, cash on delivery.",
+                metaDesc: "Power bank, wall charger and cable in one — Anker Wukong A1637 with 10000mAh, 30W and a foldable AC plug. Genuine, store warranty & COD in Egypt.",
                 faqs: [
                     { question: "What makes this a 3-in-1 power bank?", answer: "It combines the listed battery, a built-in USB-C cable, a foldable AC plug and a USB-C port. Confirm the exact port and simultaneous-use behaviour in the supplied manual." },
                     { question: "How fast does A1637 charge devices?", answer: "Its output follows the profiles printed on the unit. Actual power and time depend on device support, battery level, temperature and simultaneous use." },
@@ -82,7 +82,7 @@ export const anker_a1637_wukong_3_in_1_power_bank = {
   "🧾 راجع سياسة الضمان والاسترجاع"
 ],
                 metaTitle: "باور بانك انكر ووكونج 3في1 10000 ⚡ دفع عند الاستلام",
-                metaDesc: "اشتري انكر ووكونج باور بانك 3 في 1 (A1637) في مصر: 10000 مللي أمبير، 30 واط، كابل مدمج وفيشة بتتطوى، شريحة GaN الجيل السادس. راجع سياسة الضمان والاسترجاع الحالية ودفع عند الاستلام.",
+                metaDesc: "باور بانك وشاحن حائط وكابل في جهاز واحد — انكر ووكونج A1637 بسعة 10000 و30 واط وفيشة قابلة للطي. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "إيه اللي بيخلّيه باور بانك 3 في 1؟", answer: "يجمع البطارية المدرجة وكابل USB-C مدمجاً وقابس AC قابلاً للطي ومنفذ USB-C. راجع الدليل لمعرفة المنافذ والاستخدام المتزامن." },
                     { question: "الـA1637 بيشحن بسرعة قد إيه؟", answer: "يتبع الخرج البروفايلات المطبوعة على الوحدة. تعتمد القدرة والمدة على دعم الجهاز ونسبة البطارية والحرارة والاستخدام المتزامن." },

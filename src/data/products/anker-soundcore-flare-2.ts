@@ -66,7 +66,7 @@ export const anker_soundcore_flare_2 = {
 `,
                 features: ["🔊 Listed 20W 360° arrangement (10W×2)", "💡 Music-reactive LED rings", "💧 IPX7 rating with stated limits", "🔗 PartyCast compatibility varies by model", "🎚️ Soundcore App EQ", "📱 Bluetooth 5.0", "🏆 current warranty and return policy", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Soundcore Flare 2 | 360° Speaker, LED and IPX7 | Egypt",
-                metaDesc: "Soundcore Flare 2 A3165011 with listed 20W 360° arrangement, LED rings, PartyCast and IPX7 rating. Verify limits, live price and current warranty terms.",
+                metaDesc: "Fill the room with 360° sound and LED rings: Soundcore Flare 2, 20W, PartyCast pairing and IPX7 waterproofing. Genuine, store warranty, COD in Egypt.",
                 faqs: [
                     { question: "How many speakers can I link?", answer: "PartyCast is listed for linking compatible Soundcore speakers. Verify the current group limit, model compatibility, firmware and pairing instructions in the manufacturer's documentation." },
                     { question: "Can I turn off the lights?", answer: "The listing describes light controls in the Soundcore app. Confirm the current app, operating-system and firmware support for switching or customising the LED effects." },
@@ -123,7 +123,7 @@ export const anker_soundcore_flare_2 = {
 `,
                 features: ["🔊 ترتيب 360° بقدرة معلنة 20 واط (10×2)", "💡 حلقات LED تتفاعل مع الموسيقى", "💧 تصنيف IPX7 بحدود معلنة", "🔗 توافق PartyCast يختلف حسب الموديل", "🎚️ تطبيق ساوندكور للتحكم", "📱 بلوتوث 5.0", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "مكبر صوت ساوندكور Flare 2 | صوت 360° وLED وIPX7",
-                metaDesc: "ساوندكور Flare 2 موديل A3165011 بترتيب 360° وقدرة معلنة 20 واط وحلقات LED وPartyCast وتصنيف IPX7. تحقق من الحدود والسعر والضمان الحالي.",
+                metaDesc: "صوت 360° وإضاءة LED مع مكبر ساوندكور Flare 2: قدرة 20 واط وربط PartyCast ومقاومة ماء IPX7. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "كم سماعة يمكنني ربطها معاً؟", answer: "تذكر القائمة ربط سماعات ساوندكور المتوافقة عبر PartyCast. تحقق من الحد الحالي وقائمة الموديلات والبرنامج وخطوات الاقتران في وثائق الشركة." },
                     { question: "هل يمكنني إطفاء الأنوار؟", answer: "تذكر القائمة التحكم في حلقات LED من تطبيق ساوندكور. تحقق من دعم الهاتف والنظام والبرنامج الحالي لخيارات التخصيص أو الإيقاف." },

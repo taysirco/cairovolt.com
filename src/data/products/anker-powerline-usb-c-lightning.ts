@@ -72,7 +72,7 @@ export const anker_powerline_usb_c_lightning = {
 `,
                 features: ["✅ Verify MFi mark for A8612H11", "⚡ USB-C PD support", "💪 Reinforced braided construction", "📱 Lightning iPhone compatibility", "🚗 CarPlay depends on the vehicle", "🏆 Check current warranty terms", "🛡️ Bend rating is a manufacturer test condition", "🔎 Verify marks on the unit and manufacturer documentation"],
                 metaTitle: "Anker USB-C to Lightning Cable | Verify MFi | Egypt",
-                metaDesc: "Buy Anker PowerLine Select USB-C to Lightning in Egypt. Verify MFi status for A8612H11, USB-C PD support, braided construction and current warranty terms.",
+                metaDesc: "Fast-charge iPhone with the genuine Anker PowerLine Select USB-C to Lightning cable — MFi, USB-C PD, braided build. Store warranty in Egypt, cash on delivery.",
                 faqs: [
                     { question: "Is this MFi certified?", answer: "The model is listed with MFi support; verify the mark and A8612H11 reference on the supplied package or current Anker documentation." },
                     { question: "What warranty applies?", answer: "Check the warranty term and covered defects shown for this SKU at purchase. The current written policy controls eligibility and service." },
@@ -132,7 +132,7 @@ export const anker_powerline_usb_c_lightning = {
 `,
                 features: ["✅ تحقق من MFi للموديل A8612H11", "⚡ دعم USB-C PD", "💪 غلاف مضفر مدعم", "📱 لأجهزة ايفون Lightning المتوافقة", "🚗 دعم CarPlay يعتمد على السيارة", "🧾 راجع سياسة الضمان والاسترجاع", "🛡️ رقم الثني شرط اختبار من الشركة", "🔎 تحقق من العلامات على الوحدة ووثائق الشركة"],
                 metaTitle: "كابل انكر USB-C إلى Lightning | تحقق من MFi | مصر",
-                metaDesc: "اشتري كابل انكر PowerLine Select USB-C إلى Lightning في مصر. تحقق من MFi للموديل A8612H11 ودعم USB-PD والغلاف المضفر وشروط الضمان الحالية.",
+                metaDesc: "اشحن ايفونك بسرعة مع كابل انكر PowerLine Select من USB-C إلى Lightning الأصلي: MFi ودعم USB-C PD وغلاف مضفر. بضمان متجر في مصر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل الكابل يدعم MFi؟", answer: "الموديل مدرج بدعم MFi؛ تحقق من العلامة ورقم A8612H11 على العبوة أو وثائق انكر الحالية." },
                     { question: "ما الضمان المطبق؟", answer: "راجع مدة الضمان والعيوب المشمولة الظاهرة لهذا الموديل وقت الشراء؛ السياسة المكتوبة الحالية تحدد الأهلية والخدمة." },

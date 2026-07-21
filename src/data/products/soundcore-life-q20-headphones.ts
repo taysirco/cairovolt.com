@@ -48,7 +48,7 @@ export const soundcore_life_q20_headphones = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3025</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
             features: ["40mm Hi-Res BassUp", "Hybrid ANC 4-mic", "40h ANC / 60h off", "5min = 4h Fast Charge", "3.5mm Wired Mode", "BT 5.0", "Micro-USB", "Foldable + Pouch", "263g Protein Leather", "🧾 Review warranty and return policy"],
             metaTitle: "Soundcore Life Q20 — 40mm ANC Over-Ear + 60h Battery",
-            metaDesc: "Explore Soundcore Life Q20 in Egypt. Review the published driver, ANC, battery and wired-listening specifications, plus current stock, warranty and delivery terms.",
+            metaDesc: "Over-ear comfort meets 60h battery with Soundcore Life Q20 — 40mm Hi-Res drivers and hybrid ANC. Genuine with store warranty, cash on delivery in Egypt.",
             faqs: [
                     { question: "Life Q20 or Q20i — what should I compare?", answer: "Compare charging port, app and multipoint support, codecs, current ANC method, battery settings, fit, live price and warranty. A similar driver size does not make sound or ANC identical." },
                     { question: "Does Life Q20 work with a depleted battery?", answer: "The listing includes a 3.5mm wired input. Confirm source and cable compatibility and which functions remain active without battery power; airline systems may require an adapter." },
@@ -76,7 +76,7 @@ export const soundcore_life_q20_headphones = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3025</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["درايفر 40mm Hi-Res BassUp", "ANC هجين 4 مايكات", "40 ساعة ANC / 60 بدون", "5 دقايق = 4 ساعات", "وضع سلكي 3.5mm", "BT 5.0", "Micro-USB", "قابل للطي + حقيبة", "263 جرام جلد بروتين", "🧾 راجع سياسة الضمان والاسترجاع"],
             metaTitle: "سماعة ساوندكور Life Q20 — 40mm ANC Over-Ear + 60 ساعة",
-            metaDesc: "اشتري سماعة ساوندكور Life Q20 في مصر — السعر الحالي المعروض في الصفحة. درايفر 40mm Hi-Res، ANC هجين، 60 ساعة، BassUp، قابل للطي، 3.5mm سلكي. راجع سياسة الضمان والاسترجاع الحالية. الدفع عند الاستلام.",
+            metaDesc: "راحة أوفر-إير وبطارية 60 ساعة مع ساوندكور Life Q20: درايفر 40mm Hi-Res وعزل هجين. أصلية بضمان المتجر ودفع عند الاستلام في مصر.",
             faqs: [
                     { question: "Life Q20 ولا Q20i — أقارن إيه؟", answer: "قارن منفذ الشحن ودعم التطبيق والاتصال المتعدد والكودكات وطريقة العزل الحالية وإعدادات البطارية والملاءمة والسعر والضمان. تشابه حجم الدرايفر لا يعني تطابق الصوت أو العزل." },
                     { question: "Q20 بتشتغل والبطارية فاضية؟", answer: "تذكر القائمة مدخل 3.5mm. تحقّق من توافق المصدر والكابل والوظائف التي تبقى فعالة من دون البطارية؛ قد تحتاج أنظمة الطائرات إلى محول." },

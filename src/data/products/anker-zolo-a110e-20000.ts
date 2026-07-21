@@ -79,7 +79,7 @@ export const anker_zolo_a110e_20000 = {
 `,
                 features: ["⚡ Listed 22.5W Charging", "🔋 20,000mAh (74Wh)", "🔌 Built-in USB-C Cable", "📊 Digital LED Display", "🛡️ ActiveShield 3.0 statement", "✈️ Check Current Airline Rules (74Wh)", "🔌 Up to 3 Outputs; Power May Be Shared", "💡 Low-Power Mode", "🧾 Check current warranty and return policy"],
                 metaTitle: "Anker ZOLO A110E 20000mAh | Built-in Cable | Egypt",
-                metaDesc: "Explore Anker ZOLO A110E-P11 20000mAh power bank in Egypt. Check printed 74Wh/input/output profiles, built-in cable, stock, package and current warranty.",
+                metaDesc: "Keep every device topped up with the genuine Anker ZOLO 20,000mAh power bank and its built-in cable. In Egypt with store warranty and COD.",
                 faqs: [
                     { question: "How many times can it charge my phone?", answer: "Calculate from the power bank's listed Wh and the phone battery's Wh, then allow for conversion loss and use during charging. Actual count varies; mAh values at different cell voltages are not directly comparable." },
                     { question: "Is it allowed on airplanes?", answer: "The listed 74Wh is below the common 100Wh cabin threshold, but approval depends on the airline and route. Confirm the current carrier policy and keep power banks out of checked baggage unless explicitly permitted." },
@@ -142,7 +142,7 @@ export const anker_zolo_a110e_20000 = {
 `,
                 features: ["⚡ خرج معلن 22.5 واط", "🔋 20,000 مللي أمبير (74Wh)", "🔌 كابل USB-C مدمج", "📊 شاشة LED رقمية", "🛡️ بيان ActiveShield 3.0", "✈️ تحقق من قواعد الطيران الحالية (74Wh)", "🔌 حتى 3 مخارج مع احتمال توزيع القدرة", "💡 وضع منخفض الاستهلاك", "🧾 راجع سياسة الضمان والاسترجاع"],
                 metaTitle: "باور بانك انكر زولو A110E 20000 | كابل مدمج | مصر",
-                metaDesc: "تعرف على باور بانك انكر زولو A110E-P11 سعة 20000 في مصر. راجع 74Wh وبروفايلات الإدخال والخرج والكابل والمخزون والعبوة والضمان الحالي.",
+                metaDesc: "شحّن أجهزتك كلها مع باور بانك انكر زولو الأصلي 20000 مللي أمبير بكابل مدمج، في مصر بضمان المتجر وفاتورة ودفع عند الاستلام.",
                 faqs: [
                     { question: "كام مرة يشحن هاتفي؟", answer: "احسب من 74Wh المعلنة وسعة بطارية الهاتف بوحدة Wh ثم اترك هامشاً لفقد التحويل والاستخدام أثناء الشحن. يختلف العدد الفعلي ولا تقارن mAh عند جهود خلايا مختلفة مباشرة." },
                     { question: "مسموح به في الطائرة؟", answer: "رقم 74Wh المعلن أقل من حد 100Wh الشائع للمقصورة، لكن القبول يعتمد على شركة الطيران والمسار والقواعد الحالية. أكد السياسة قبل السفر ولا تضعه في الأمتعة المشحونة إلا إذا سمحت القواعد صراحة." },

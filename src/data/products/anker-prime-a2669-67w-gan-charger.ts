@@ -45,7 +45,7 @@ export const anker_prime_a2669_67w_gan_charger = {
   "🏆 Review current CairoVolt warranty terms"
 ],
                 metaTitle: "Anker Prime 67W GaN Charger ⚡ 3 Ports | Egypt COD",
-                metaDesc: "Explore Anker Prime A2669 67W GaN charger in Egypt with 2 USB-C and 1 USB-A. Check printed port allocation, plug, stock, package and current warranty.",
+                metaDesc: "Charge a laptop and two phones together with the Anker Prime 67W GaN charger: 2 USB-C plus 1 USB-A. Genuine, with store warranty and cash on delivery in Egypt.",
                 faqs: [
                     { question: "What is the price of the Anker Prime 67W GaN charger in Egypt?", answer: "Use the live price shown for A2669 and review current stock, package contents, warranty, payment and delivery terms before ordering." },
                     { question: "Can it charge a laptop and phone at the same time?", answer: "It can power compatible devices together within its listed 67W total. Check the printed shared-output table because the available wattage changes with the port combination." },
@@ -76,7 +76,7 @@ export const anker_prime_a2669_67w_gan_charger = {
   "🏆 راجع شروط ضمان كايرو فولت الحالية"
 ],
                 metaTitle: "شاحن انكر برايم 67 واط ⚡ 3 منافذ | مصر COD",
-                metaDesc: "تعرف على شاحن انكر برايم A2669 بحد إجمالي معلن 67 واط و3 منافذ GaN في مصر. راجع توزيع المنافذ والقابس والمخزون والعبوة والضمان الحالي.",
+                metaDesc: "اشحن لابتوب وموبايلين معاً بشاحن انكر برايم 67 واط GaN: منفذا USB-C ومنفذ USB-A. أصلي بضمان متجر وفاتورة ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "كم سعر شاحن انكر برايم 67 واط GaN في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لـ A2669 وراجع المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
                     { question: "ينفع يشحن لابتوب وموبايل في نفس الوقت؟", answer: "يمكنه تشغيل أجهزة متوافقة معاً داخل إجمالي 67 واط المعلن. راجع جدول الخرج المشترك لأن القدرة المتاحة تتغير حسب تركيبة المنافذ." },

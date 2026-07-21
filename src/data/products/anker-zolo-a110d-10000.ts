@@ -82,7 +82,7 @@ export const anker_zolo_a110d_10000 = {
 `,
                 features: ["⚡ Listed 22.5W Charging", "🔋 10,000mAh (37Wh)", "🔌 Built-in USB-C Cable", "📊 Digital LED Display", "🛡️ ActiveShield 3.0 statement", "✈️ Check Current Airline Rules", "🔌 Up to 3 Outputs; Power May Be Shared", "💡 Low-Power Mode", "🧾 Check current warranty and return policy"],
                 metaTitle: "Anker ZOLO 10000mAh | Built-in Cable | COD Egypt",
-                metaDesc: "Review Anker ZOLO A110D in Egypt: listed 10,000mAh / 37Wh, built-in USB-C cable, output profiles, display, live price, stock and service terms.",
+                metaDesc: "The genuine Anker ZOLO 10,000mAh power bank has a built-in USB-C cable and smart display. Buy in Egypt with store warranty and cash on delivery.",
                 faqs: [
                     { question: "Does the built-in cable charge USB-C phones?", answer: "Confirm that the supplied A110D variant lists the built-in cable as an output and match its profile with the phone. Actual power depends on the phone, battery level, temperature and simultaneous use." },
                     { question: "Can I use several outputs at the same time?", answer: "Check the printed simultaneous-use table for the built-in cable, USB-C and USB-A combination. Total power may be shared and can differ from a single-output figure." },
@@ -145,7 +145,7 @@ export const anker_zolo_a110d_10000 = {
 `,
                 features: ["⚡ خرج معلن 22.5 واط", "🔋 10,000 مللي أمبير (37Wh)", "🔌 كابل USB-C مدمج", "📊 شاشة LED رقمية", "🛡️ بيان ActiveShield 3.0", "✈️ تحقق من قواعد الطيران الحالية", "🔌 حتى 3 مخارج مع احتمال توزيع القدرة", "💡 وضع منخفض الاستهلاك", "🧾 راجع سياسة الضمان والاسترجاع"],
                 metaTitle: "باور بانك انكر زولو 10000 | كابل مدمج | COD مصر",
-                metaDesc: "راجع انكر زولو A110D في مصر: سعة معلنة 10000 مللي أمبير / 37Wh وكابل USB-C مدمج وبروفايلات الخرج والشاشة والسعر والمخزون وسياسة الخدمة.",
+                metaDesc: "باور بانك انكر زولو الأصلي بسعة 10000 مللي أمبير وكابل USB-C مدمج وشاشة، متوفر في مصر بضمان المتجر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل الكابل المدمج يشحن هواتف USB-C؟", answer: "تحقق أن نسخة A110D الموردة تذكر الكابل المدمج كمخرج وطابق بروفايله مع الهاتف. القدرة الفعلية تعتمد على الهاتف والبطارية والحرارة والاستخدام المتزامن." },
                     { question: "هل أستخدم عدة مخارج معاً؟", answer: "راجع جدول الاستخدام المتزامن للكابل المدمج ومنفذي USB-C وUSB-A. قد تتوزع القدرة وتختلف عن رقم المنفذ الواحد." },

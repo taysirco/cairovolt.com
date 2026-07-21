@@ -40,7 +40,7 @@ export const anker_zolo_30w_a2698_charger = {
   "🏆 current warranty and return policy"
 ],
                 metaTitle: "Anker Zolo 30W GaN Charger ⚡ Cool & Fast | COD Egypt",
-                metaDesc: "Explore Anker Zolo A2698 30W-rated USB-C GaN charger in Egypt. Check printed PD/PPS profiles, plug type, stock, current warranty and delivery terms.",
+                metaDesc: "Charge your phone fast with the genuine Anker Zolo 30W USB-C GaN charger in Egypt. Compact PD/PPS output, store warranty and cash on delivery.",
                 faqs: [
                     { question: "What is the price of the Anker Zolo 30W charger in Egypt?", answer: "Use the live price shown for this SKU and review current stock, package contents, warranty, payment and delivery terms before ordering." },
                     { question: "Can the Anker Zolo 30W charge a MacBook Air?", answer: "It can charge a compatible MacBook Air when the laptop accepts a profile printed on A2698 and the cable is suitably rated. Speed varies by model and use." },
@@ -71,7 +71,7 @@ export const anker_zolo_30w_a2698_charger = {
   "🧾 راجع سياسة الضمان والاسترجاع"
 ],
                 metaTitle: "شاحن انكر زولو 30 واط GaN ⚡ بارد وسريع | COD مصر",
-                metaDesc: "تعرف على شاحن انكر زولو A2698 بقدرة مصنفة 30 واط USB-C GaN في مصر. راجع بروفايلات PD/PPS ونوع القابس والمخزون والضمان والتوصيل.",
+                metaDesc: "اشحن موبايلك بسرعة مع شاحن انكر زولو 30 واط USB-C GaN الأصلي في مصر، بمخارج PD/PPS وضمان المتجر والدفع عند الاستلام.",
                 faqs: [
                     { question: "كم سعر شاحن انكر زولو 30 واط في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لهذا المنتج وراجع المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
                     { question: "شاحن انكر زولو 30 واط ينفع للماك بوك اير؟", answer: "يمكنه شحن ماك بوك اير متوافق عندما يقبل اللابتوب بروفايلاً مطبوعاً على A2698 ويكون الكابل مصنفاً له. السرعة تختلف حسب الموديل والاستخدام." },

@@ -46,7 +46,7 @@ export const soundcore_p20i_earbuds = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3949Z11</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
             features: ["🎧 10mm BassUp", "🔋 30h", "🔒 current warranty and return policy"],
             metaTitle: "Soundcore P20i Earbuds | 10mm BassUp | Egypt",
-            metaDesc: "Soundcore P20i with 10mm BassUp driver, manufacturer-rated battery up to 30h total, Bluetooth 5.3 and IPX5 listing. Check current price and terms.",
+            metaDesc: "Big bass on a budget with Soundcore P20i — 10mm BassUp drivers, up to 30h battery and IPX5. Genuine with store warranty, cash on delivery in Egypt.",
             faqs: [
                     { question: "Does the Soundcore P20i support multipoint?", answer: "Confirm multipoint in the current model documentation and firmware; a Bluetooth 5.3 label alone does not prove simultaneous two-device support or identical switching behavior." },
                     { question: "Can the Soundcore P20i handle gym sweat?", answer: "The P20i carries an IPX5 rating for sweat and splashes within the manufacturer's limits. It is not designed for swimming or submersion; dry it before charging." },
@@ -73,7 +73,7 @@ export const soundcore_p20i_earbuds = {
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3949Z11</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["🎧 10mm BassUp", "🔋 30h", "🔒 راجع سياسة الضمان والاسترجاع الحالية"],
             metaTitle: "سماعة ساوندكور P20i ⚡ السعر الحالي | مصر | كايرو فولت",
-            metaDesc: "اشتري سماعة ساوندكور P20i في مصر — 10mm درايفر BassUp، 30 ساعة بطارية، بلوتوث 5.3. ✓ راجع سياسة الضمان والاسترجاع الحالية ✓ الدفع عند الاستلام ✓ توصيل سريع.",
+            metaDesc: "باس قوي بسعر اقتصادي مع ساوندكور P20i: درايفر 10mm BassUp وبطارية حتى 30 ساعة وIPX5. أصلية بضمان المتجر ودفع عند الاستلام في مصر.",
             faqs: [
                     { question: "الـ P20i بتتوصل بجهازين؟", answer: "تحقق من دعم Multipoint في وثائق الموديل والبرنامج الحالي؛ كتابة Bluetooth 5.3 وحدها لا تثبت الاتصال بجهازين أو سلوك التبديل نفسه." },
                     { question: "الـ P20i مناسبة لعرق الجيم؟", answer: "تحمل تصنيف IPX5 ضمن حدود الشركة، لكنها ليست للسباحة أو الغمر أو الشحن وهي مبللة. جفف السماعات ونقاط التلامس قبل وضعها في العلبة." },

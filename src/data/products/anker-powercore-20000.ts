@@ -53,7 +53,7 @@ export const anker_powercore_20000 = {
                     "🧾 Check current warranty terms",
                     "🔎 Verify ratings on the unit and manufacturer documentation"],
                 metaTitle: "Anker PowerCore 20000mAh | Price in Egypt",
-                metaDesc: "Shop Anker PowerCore 20000 in Egypt with a manufacturer-listed 20,000mAh (72Wh) cell rating, dual USB-A outputs and LED indicator. Check live terms.",
+                metaDesc: "Charge phone and tablet for days with the genuine Anker PowerCore 20000mAh — dual USB-A and LED indicator. Store warranty in Egypt, cash on delivery.",
                 faqs: [
                     { question: "How should I interpret the 20,000mAh capacity?", answer: "It is the internal cell rating. Delivered energy at USB voltage is lower after conversion, so charge count varies by phone, cable, load, temperature and battery condition." },
                     { question: "Can I charge two devices at once?", answer: "The model lists two USB-A outputs. Check the printed total-output table because power may be shared between them." },
@@ -84,7 +84,7 @@ export const anker_powercore_20000 = {
                     "🧾 راجع سياسة الضمان والاسترجاع",
                     "🔎 تحقق من القيم على الوحدة ووثائق الشركة"],
                 metaTitle: "باور بانك انكر PowerCore 20000 | السعر في مصر",
-                metaDesc: "تسوق باور بانك انكر PowerCore 20000 في مصر بسعة خلايا معلنة 20,000 مللي أمبير (72Wh) ومنفذي USB-A ومؤشر LED. راجع الشروط الحالية.",
+                metaDesc: "اشحن موبايلك وتابلتك لأيام مع باور بانك انكر PowerCore 20000 الأصلي: سعة 20,000 مللي أمبير ومنفذي USB-A ومؤشر LED. بضمان متجر في مصر والدفع عند الاستلام.",
                 faqs: [
                     { question: "كيف أفهم سعة 20,000 مللي أمبير؟", answer: "هي تصنيف الخلايا الداخلية. الطاقة المسلمة عند جهد USB أقل بعد التحويل، ولذلك يختلف عدد الشحنات حسب الهاتف والكابل والحمل والحرارة وحالة البطارية." },
                     { question: "هل يمكن شحن جهازين معاً؟", answer: "الموديل يذكر منفذي USB-A. راجع جدول الخرج الكلي المطبوع لأن القدرة قد تتوزع بينهما." },

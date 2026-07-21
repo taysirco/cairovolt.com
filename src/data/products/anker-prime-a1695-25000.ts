@@ -90,7 +90,7 @@ export const anker_prime_a1695_25000 = {
 `,
                 features: ["⚡ Up to 165W Combined Output", "💻 Up to 100W per USB-C Port (165W Combined)", "🔋 25,000mAh (90Wh)", "🌡️ ActiveShield 2.0 Temperature Monitoring", "⚡ Manufacturer Recharge Example", "📊 Operating Status Display", "✈️ Check Current Airline Rules", "🛡️ current warranty and return policy"],
                 metaTitle: "Anker Zolo A1695 25000mAh 165W | Laptop Power Bank Egypt",
-                metaDesc: "Anker Zolo A1695 power bank with 25,000mAh (90Wh), up to 165W combined output, 100W per USB-C port, temperature monitoring and display. Check current terms.",
+                metaDesc: "Charge a laptop on the go with the Anker Zolo 25,000mAh power bank: up to 165W, 100W per USB-C port and a live display. Genuine with store warranty and COD in Egypt.",
                 faqs: [
                     { question: "Can it charge a MacBook Pro 16-inch?", answer: "It lists a supported USB-C output profile up to 100W per port, but the accepted rate depends on the exact MacBook, PD negotiation, cable rating, battery state and connected loads. Check the printed A1695 port table and the laptop's requirements." },
                     { question: "Does it have a cooling fan?", answer: "No — the A1695 is passively cooled with no fan. It uses ActiveShield 2.0 temperature monitoring and may temporarily slow recharging when it gets warm. Keep the vents clear and allow airflow; this does not guarantee a fixed output in every temperature and load." },
@@ -150,7 +150,7 @@ export const anker_prime_a1695_25000 = {
 `,
                 features: ["⚡ حتى 165 واط إخراج مشترك", "💻 حتى 100 واط لكل منفذ USB-C (165 واط مشترك)", "🔋 25,000 مللي أمبير (90Wh)", "🌡️ مراقبة حرارة ActiveShield 2.0", "⚡ مثال شركة لإعادة الشحن", "📊 شاشة حالة التشغيل", "✈️ راجع قواعد شركة الطيران", "🧾 راجع سياسة الضمان والاسترجاع"],
                 metaTitle: "انكر زولو A1695 سعة 25000 وقدرة 165 واط | مصر",
-                metaDesc: "انكر زولو A1695 بسعة 25,000 مللي أمبير (90Wh) وحتى 165 واط قدرة مشتركة و100 واط لكل منفذ USB-C مع مراقبة حرارة وشاشة. راجع الشروط الحالية.",
+                metaDesc: "اشحن اللابتوب في أي مكان مع باور بانك انكر زولو 25000: حتى 165 واط و100 واط لكل منفذ USB-C وشاشة عرض. أصلي بضمان متجر ودفع عند الاستلام.",
                 faqs: [
                     { question: "بيشحن ماك بوك برو 16 بوصة؟", answer: "يذكر منفذ USB-C مدعومًا بملف يصل إلى 100 واط لكل منفذ، لكن المعدل المقبول يعتمد على موديل ماك بوك وتفاوض PD وتصنيف الكابل وحالة البطارية والأحمال الأخرى. راجع جدول منافذ A1695 ومتطلبات اللابتوب." },
                     { question: "هل فيه مروحة تبريد؟", answer: "لا، الـA1695 يعتمد على تبريد سلبي بدون مروحة. يستخدم مراقبة حرارة ActiveShield 2.0 وقد يبطئ إعادة الشحن مؤقتًا عند ارتفاع الحرارة. اترك الفتحات مكشوفة ووفّر تهوية؛ هذا لا يضمن قدرة ثابتة في كل حمل ودرجة حرارة." },

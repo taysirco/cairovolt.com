@@ -34,7 +34,7 @@ export const joyroom_usb_a_lightning_1_2m = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>JR-S-AL12</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
                 features: ["⚡ Up to 2.4A with compatible equipment", "✨ Listed 1.2m length", "📱 For compatible Lightning devices", "🏆 Check current warranty terms", "✨ Verify construction on package", "🛡️ Check manufacturer bend-test statement", "🏆 Warranty follows the current product policy"],
                 metaTitle: "Joyroom JR-S-AL12 USB-A to Lightning 1.2m | Egypt",
-                metaDesc: "Review Joyroom JR-S-AL12 USB-A to Lightning cable in Egypt: listed 1.2m length, current rating, construction, MFi statement, live price and service terms.",
+                metaDesc: "Charge your iPhone from any USB-A port with the genuine Joyroom JR-S-AL12 cable — 1.2m reach, store warranty and cash on delivery in Egypt.",
                 faqs: [
                     { question: "How should I check the warranty?", answer: "Review the current duration, eligibility, exclusions and claim process for JR-S-AL12 before ordering. Keep the invoice and model details." },
                     { question: "Is 1.2m suitable for my setup?", answer: "Measure the route from the source to where the phone will rest and leave enough slack to avoid tension. Do not use the phone in a way that pulls or sharply bends the cable." },
@@ -54,7 +54,7 @@ export const joyroom_usb_a_lightning_1_2m = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">USB-A لـ Lightning بس. مش بيشتغل مع ايفون 17/16/15 (USB-C) ومش بيدعم شحن PD سريع. للشحن السريع، استخدم كابل USB-C لـ Lightning.</p></div>`,
                 features: ["⚡ حتى 2.4 أمبير مع معدات متوافقة", "✨ طول معلن 1.2 متر", "✨ لأجهزة Lightning المتوافقة", "🧾 راجع سياسة الضمان والاسترجاع", "✨ تحقق من الخامات على العبوة", "🛡️ راجع بيان اختبار الثني من الشركة", "🏆 الضمان وفق سياسة المنتج الحالية"],
                 metaTitle: "كابل جوي روم JR-S-AL12 من USB-A إلى Lightning 1.2م",
-                metaDesc: "تعرف على كابل جوي روم JR-S-AL12 من USB-A إلى Lightning بطول 1.2 متر. راجع التصنيف وبيان MFi إن وجد والسعر والمخزون والضمان الحالي.",
+                metaDesc: "اشحن ايفونك من أي منفذ USB-A بكابل جوي روم JR-S-AL12 الأصلي بطول 1.2 متر. متوفر في مصر بضمان متجر وفاتورة ودفع عند الاستلام.",
                 faqs: [
                     { question: "كيف أتحقق من ضمان الكابل؟", answer: "راجع المدة والأهلية والاستثناءات وخطوات المطالبة الحالية لـ JR-S-AL12 قبل الطلب، واحتفظ بالفاتورة ورقم الموديل." },
                     { question: "هل 1.2 متر مناسب للشحن بجانب السرير؟", answer: "قِس المسافة من المقبس إلى مكان وضع الهاتف واترك ارتخاءً يمنع شد الموصل. تجنب استخدام الهاتف بطريقة تسحب الكابل أو تثنيه بحدة." },

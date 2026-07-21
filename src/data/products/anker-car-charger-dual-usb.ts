@@ -68,7 +68,7 @@ export const anker_car_charger_dual_usb = {
 `,
                 features: ["🚗 Listed 24W total dual USB-A", "⚡ PowerIQ profile negotiation", "📱 Two-device shared output", "🔌 Verify 12V/24V socket compatibility", "💡 Blue LED Indicator", "🏆 current warranty and return policy", "🔎 Verify compliance marks on the unit and manufacturer documentation", "🚗 Check vehicle socket fit"],
                 metaTitle: "Anker PowerDrive 2 Dual USB-A Car Charger | Egypt",
-                metaDesc: "Anker PowerDrive 2 A2310011 with two USB-A ports and listed 24W total output. Verify vehicle socket fit, power distribution, live price and warranty terms.",
+                metaDesc: "Charge two devices at once on the road — Anker PowerDrive 2 with dual USB-A ports and 24W total output. Genuine, store warranty & COD in Egypt.",
                 faqs: [
                     { question: "Does it work in all cars?", answer: "It requires a compatible vehicle socket within the printed input range and enough physical clearance. Check the vehicle manual, socket shape and charger label; compatibility cannot be promised for every console." },
                     { question: "Does it drain the car battery when not in use?", answer: "Standby draw and socket behaviour vary by vehicle; some sockets stay powered after the engine is off. Remove the charger during long parking periods and follow the vehicle manual." },
@@ -125,7 +125,7 @@ export const anker_car_charger_dual_usb = {
 `,
                 features: ["🚗 قدرة معلنة 24 واط إجمالاً عبر USB-A", "⚡ تفاوض PowerIQ", "📱 خرج مشترك لجهازين", "🔌 تحقق من توافق مقبس 12/24 فولت", "💡 مؤشر LED أزرق", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة", "🚗 قِس مساحة مقبس السيارة"],
                 metaTitle: "شاحن سيارة انكر ثنائي USB | مقبس 12/24 فولت | مصر",
-                metaDesc: "شاحن سيارة انكر PowerDrive 2 موديل A2310011 بمنفذين USB-A وقدرة إجمالية معلنة 24 واط. تحقق من توافق المقبس وتوزيع الخرج والسعر والضمان الحالي.",
+                metaDesc: "اشحن جهازين في نفس الوقت وانت بتسوق — شاحن سيارة انكر PowerDrive 2 بمنفذي USB-A وقدرة إجمالية 24 واط. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "هل يعمل في جميع السيارات؟", answer: "يحتاج مقبس 12/24 فولت متوافقاً من حيث الجهد والشكل والمساحة. راجع دليل السيارة والقيم المطبوعة على الشاحن؛ لا يمكن ضمان التوافق مع كل مقبس." },
                     { question: "هل أتركه متصلاً بالسيارة؟", answer: "يعتمد سلوك المقبس عند إيقاف السيارة على تصميمها. افصل الشاحن إذا أوصى دليل السيارة بذلك أو عند الركن الطويل، وتوقف عن الاستخدام عند تلف المقبس أو سخونة غير معتادة." },

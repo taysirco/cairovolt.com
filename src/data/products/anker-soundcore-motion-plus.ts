@@ -69,7 +69,7 @@ export const anker_soundcore_motion_plus = {
 `,
                 features: ["🔈 30W Sound (Hi-Res)", "🔋 12-Hour Battery (6700mAh)", "💧 IPX7 Waterproof", "📱 Bluetooth 5.0 + AUX", "🎚️ Custom EQ App", "🏆 current warranty and return policy", "🔎 Verify compliance marks on the unit and manufacturer documentation", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Soundcore Motion+ A3116011 | 30W + IPX7 | Egypt",
-                metaDesc: "Explore Anker Soundcore Motion+ in Egypt: 30W-rated audio, IPX7 rating and manufacturer-stated battery specifications. Check current warranty, stock and delivery terms.",
+                metaDesc: "Rich 30W stereo sound that goes anywhere: Soundcore Motion+ with IPX7 waterproofing. Genuine, with store warranty and cash on delivery in Egypt.",
                 faqs: [
                     { question: "Can I use Motion+ with my TV?", answer: "Only if the TV provides a compatible Bluetooth-audio or 3.5mm output. Check TV settings; latency, volume control and codec support vary by model." },
                     { question: "Is the volume enough for my space?", answer: "Soundcore lists 30W output, but perceived volume and clarity depend on room size, outdoor noise, placement, content and listening distance. Compare those conditions with your use." },
@@ -126,7 +126,7 @@ export const anker_soundcore_motion_plus = {
 `,
                 features: ["🔈 صوت 30 وات (Hi-Res)", "🔋 بطارية معلنة 12 ساعة (6700mAh)", "💧 تصنيف IPX7 وفق حدود دليل الاستخدام", "📱 بلوتوث 5.0 + AUX", "🎚️ تطبيق للتحكم في الـ EQ", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "سماعة ساوندكور Motion+ A3116011 | 30 واط وIPX7 | مصر",
-                metaDesc: "تعرف على سماعة انكر ساوندكور Motion+ في مصر بقدرة صوت مصنفة 30 واط وتصنيف IPX7 ومواصفات بطارية معلنة من الشركة. راجع الضمان والتوفر والتوصيل.",
+                metaDesc: "صوت ستيريو قوي 30 واط في أي مكان مع مكبر ساوندكور Motion+ ومقاومة ماء IPX7. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "هل Motion+ تنفع للتلفزيون؟", answer: "فقط إذا وفر التلفزيون خرج صوت بلوتوث أو 3.5mm متوافقاً. راجع الإعدادات؛ يختلف التأخير والتحكم والكودك حسب موديل التلفزيون." },
                     { question: "هل الصوت مناسب لمساحتي؟", answer: "تدرج ساوندكور خرجاً 30 واط لكن الصوت المدرك يعتمد على مساحة الغرفة وضوضاء الخارج والموضع والمحتوى والمسافة. قارن هذه الظروف باستخدامك." },

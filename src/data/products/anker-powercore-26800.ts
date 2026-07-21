@@ -37,7 +37,7 @@ export const anker_powercore_26800 = {
 `,
                 features: ["💻 Listed USB-C PD profiles up to 60W", "🔋 Manufacturer-listed 25,600mAh (92.16Wh)", "🔌 USB-C + 2 USB-A; check shared output", "✈️ Check current airline rules", "🔄 Verify USB-C input profile and cable", "🛡️ Review printed protection features", "🧾 current warranty and return policy", "🔎 Verify ratings on unit and documentation"],
                 metaTitle: "Anker PowerCore III Elite 26K 60W | Egypt Price",
-                metaDesc: "Shop Anker PowerCore III Elite 26K A1290 in Egypt. Listed 25,600mAh (92.16Wh), USB-C PD profiles up to 60W and two USB-A outputs. Check live terms.",
+                metaDesc: "Fast-charge a laptop and phones with the genuine Anker PowerCore III Elite 26K — 25,600mAh, USB-C PD up to 60W. Store warranty in Egypt, cash on delivery.",
                 faqs: [
                     { question: "Can it charge my laptop?", answer: "Only if the laptop accepts one of A1290's printed USB-C PD profiles and the cable is rated accordingly. A lower-power source may charge slowly or only under light load." },
                     { question: "Is it allowed on planes?", answer: "The listed 92.16Wh is below the common 100Wh cabin threshold, but approval is airline- and route-specific. Confirm current rules." },
@@ -60,7 +60,7 @@ export const anker_powercore_26800 = {
 `,
                 features: ["💻 ملفات USB-C PD معلنة حتى 60 واط", "🔋 تصنيف خلايا معلن 25,600 مللي أمبير (92.16Wh)", "🔌 USB-C + منفذا USB-A؛ راجع توزيع القدرة", "✈️ تحقق من قواعد الطيران الحالية", "🔄 تحقق من ملف دخل USB-C والكابل", "🛡️ راجع ميزات الحماية المطبوعة", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من القيم على الوحدة والوثائق"],
                 metaTitle: "باور بانك انكر PowerCore III Elite 26K | السعر في مصر",
-                metaDesc: "تسوق باور بانك انكر PowerCore III Elite 26K A1290 في مصر بتصنيف خلايا 25,600 مللي أمبير وملفات USB-C PD حتى 60 واط ومنفذي USB-A.",
+                metaDesc: "اشحن لابتوب وموبايلين مع انكر PowerCore III Elite 26K الأصلي: 25,600 مللي أمبير وUSB-C PD حتى 60 واط. بضمان متجر في مصر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل يشحن اللابتوب؟", answer: "فقط إذا قبل اللابتوب أحد ملفات USB-C PD المطبوعة على A1290 وكان الكابل بالقدرة المناسبة. قد يكون الشحن أبطأ من المحول الموصى به." },
                     { question: "هل يمكن السفر به؟", answer: "السعة المعلنة 92.16Wh أقل من حد 100Wh الشائع للمقصورة، لكن الموافقة مرتبطة بالناقل والرحلة. تحقق من القواعد الحالية." },

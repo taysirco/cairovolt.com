@@ -40,7 +40,7 @@ export const anker_310_usb_c_lightning_cable = {
   "🚚 Cash on Delivery Across Egypt"
 ],
                 metaTitle: "Anker 310 Lightning Cable A81A5 | Verify MFi and USB-PD",
-                metaDesc: "Buy Anker 310 USB-C to Lightning cable in Egypt. Verify MFi for A81A5, USB-PD support, 0.9m double-braided construction and current warranty.",
+                metaDesc: "Fast, MFi-certified charging for your iPhone — Anker 310 USB-C to Lightning, 0.9m double-braided. Genuine with CairoVolt store warranty and COD in Egypt.",
 
                 faqs: [
                     { question: "How fast is the Anker 310 USB-C to Lightning cable?", answer: "It supports USB-PD with compatible devices and chargers. Actual time varies with the phone, charger, battery level, temperature and use." },
@@ -72,7 +72,7 @@ export const anker_310_usb_c_lightning_cable = {
   "🚚 الدفع عند الاستلام في كل مصر"
 ],
                 metaTitle: "كابل انكر 310 لايتننج A81A5 | تحقق من MFi وUSB-PD",
-                metaDesc: "اشتري كابل انكر 310 من USB-C إلى Lightning في مصر. تحقق من MFi للموديل A81A5 ودعم USB-PD والطول 0.9 متر والضمان الحالي.",
+                metaDesc: "شحن سريع لايفونك بكابل انكر 310 من USB-C إلى Lightning بشهادة MFi ومضفر مزدوج 0.9 متر. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
 
                 faqs: [
                     { question: "كابل انكر 310 بيشحن بسرعة قد إيه؟", answer: "يدعم USB-PD مع الأجهزة والشواحن المتوافقة. المدة الفعلية تتغير حسب الهاتف والشاحن ونسبة البطارية والحرارة والاستخدام." },

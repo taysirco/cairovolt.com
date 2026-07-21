@@ -72,7 +72,7 @@ export const anker_a8050_usb_c_cable = {
 `,
                 features: ["USB-A to USB-C", "Verify supported charging profiles", "Manufacturer-listed bend test", "1.8m braided construction", "Verify listed data rating", "Reinforced connector areas", "Review current warranty terms"],
                 metaTitle: "Anker USB-A to USB-C Cable 1.8m | Braided Nylon | COD Egypt",
-                metaDesc: "Review Anker A8050 USB-A to USB-C cable specifications in Egypt: 1.8m braided construction, listed bend/data ratings, current price, stock and service terms.",
+                metaDesc: "A durable everyday charging cable — Anker A8050 USB-A to USB-C, 1.8m braided nylon. Genuine with store warranty and COD in Egypt.",
                 faqs: [
                     { question: "Is this a USB-C to USB-C cable?", answer: "No — the A8050 is USB-A to USB-C (the box says so explicitly). It connects classic USB-A chargers, power banks, and car chargers to USB-C phones. If you need C-to-C laptop charging, check the Anker Zolo 140W cable." },
                     { question: "How durable is it?", answer: "Anker lists a bend-cycle rating for the braided cable. Actual lifespan depends on use; avoid sharp bends and pulling it by the wire." },
@@ -118,7 +118,7 @@ export const anker_a8050_usb_c_cable = {
 `,
                 features: ["USB-A إلى USB-C", "تحقق من بروفايلات الشحن المدعومة", "اختبار ثني معلن من الشركة", "غلاف مضفر بطول 1.8 متر", "تحقق من تصنيف البيانات المعلن", "مناطق موصل مدعمة", "🧾 راجع سياسة الضمان والاسترجاع"],
                 metaTitle: "كابل انكر USB-A إلى USB-C مضفر 1.8م | COD مصر",
-                metaDesc: "راجع مواصفات كابل انكر A8050 من USB-A إلى USB-C في مصر: غلاف مضفر 1.8 متر، تصنيفات الثني والبيانات المعلنة، السعر والمخزون والشروط الحالية.",
+                metaDesc: "كابل شحن يومي متين — انكر A8050 من USB-A إلى USB-C بطول 1.8 متر بغلاف نايلون مضفر. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
                     { question: "ده كابل USB-C للطرفين؟", answer: "لأ — الـ A8050 كابل USB-A إلى USB-C حسب مواصفات الموديل. بيوصّل مصادر USB-A بأجهزة USB-C المتوافقة. لو محتاج C-to-C لشحن لابتوب، اختَر كابلاً مصنفاً للقدرة المطلوبة." },
                     { question: "بيعيش قد إيه؟", answer: "تذكر الشركة اختبار ثني حتى 35,000 دورة في ظروفها. لا يتحول رقم الاختبار إلى عمر زمني مضمون؛ زاوية الثني والقوة والحرارة والتخزين تؤثر في العمر الفعلي." },

@@ -29,7 +29,7 @@ export const joyroom_usb_a_type_c_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>JR-S-AC30</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
                 features: ["⚡ Manufacturer-listed up to 3A", "✨ Listed 1m length", "🔌 USB-A to USB-C", "💾 Verify data rating", "📱 Check exact device compatibility", "🛡️ Bend count is a manufacturer test condition", "🔎 Verify protection statements on the supplied model", "🏆 Current warranty terms"],
                 metaTitle: "Joyroom USB-A to Type-C | Current Price Egypt | COD",
-                metaDesc: "Buy joyroom USB-A to Type-C Cable for Samsung S26 & iPhone 17 with old chargers. Current price Egypt. ✓ COD ✓ Fast Delivery Egypt.",
+                metaDesc: "Use your old USB-A charger with Samsung S26 or iPhone 17 via this genuine Joyroom USB-A to Type-C cable. In Egypt with store warranty and COD.",
                 faqs: [
                     { question: "Why would I use USB-A to USB-C?", answer: "It connects a compatible USB-A source to a USB-C device. Check the source output and device protocol; it does not add USB-C PD to a standard USB-A port." },
                     { question: "Is a 3A rating the same as fast charging?", answer: "No. It is a cable current ceiling under compatible conditions. Actual speed depends on source, device and supported protocol." },
@@ -49,7 +49,7 @@ export const joyroom_usb_a_type_c_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل ده مش بيدعم شحن PD السريع (20 واط+). لأقصى سرعة، استخدم كابل USB-C لـ USB-C مع شاحن PD. ده كابل جسر لشواحن USB-A بس.</p></div>`,
                 features: ["⚡ حتى 3 أمبير وفق بيانات الشركة", "✨ طول معلن 1 متر", "🔌 USB-A إلى USB-C", "💾 تحقق من تصنيف البيانات", "📱 تحقق من توافق الجهاز الدقيق", "🛡️ رقم الثني شرط اختبار من الشركة", "🔎 تحقق من بيانات الحماية للموديل المورّد", "🧾 راجع سياسة الضمان والاسترجاع"],
                 metaTitle: "كابل جوي روم تايب سي | السعر الحالي في مصر | COD مصر",
-                metaDesc: "اشتري كابل جوي روم USB-A إلى Type-C لسامسونج S26 وايفون 17 مع شواحن قديمة. السعر الحالي في مصر. ✓ ضمان ✓ توصيل سريع مصر.",
+                metaDesc: "استخدم شاحنك القديم USB-A مع سامسونج S26 أو ايفون 17 بكابل جوي روم الأصلي من USB-A إلى Type-C. في مصر بضمان متجر ودفع عند الاستلام.",
                 faqs: [
                     { question: "لماذا أستخدم USB-A إلى USB-C؟", answer: "لوصل مصدر USB-A متوافق بجهاز USB-C. تحقق من خرج المصدر وبروتوكول الجهاز؛ الكابل لا يضيف USB-C PD إلى منفذ USB-A عادي." },
                     { question: "هل 3 أمبير نفس الشحن السريع؟", answer: "لا. هو حد تيار للكابل تحت ظروف متوافقة، بينما السرعة الفعلية تعتمد على المصدر والجهاز والبروتوكول." },
