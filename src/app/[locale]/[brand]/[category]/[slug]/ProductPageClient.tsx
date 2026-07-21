@@ -877,28 +877,37 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
                     {/* Editorial guidance, FAQs and comparison */}
                     <div className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800 cv-auto">
-                        {/* Expert Opinion */}
-                        <ExpertOpinion
-                            productName={productName}
-                            brand={translatedBrand}
-                            category={category}
-                            locale={locale}
-                            customOpinion={isRTL
-                                ? localizeArabicBrandNames(product.expertOpinion?.ar || '')
-                                : product.expertOpinion?.en}
-                        />
+                        {/* Expert review + calculator — collapsed to keep the page short */}
+                        <CollapsibleSection
+                            summary={
+                                <h3 className="text-xl font-bold flex items-center gap-2 text-gray-900 dark:text-white">
+                                    <span aria-hidden>💡</span>
+                                    {isRTL ? 'رأي الخبير ونصائح الشراء' : 'Expert review & buying advice'}
+                                </h3>
+                            }
+                        >
+                            <ExpertOpinion
+                                productName={productName}
+                                brand={translatedBrand}
+                                category={category}
+                                locale={locale}
+                                customOpinion={isRTL
+                                    ? localizeArabicBrandNames(product.expertOpinion?.ar || '')
+                                    : product.expertOpinion?.en}
+                            />
 
-                        {/* BackupTimeCalculator — only for power bank products with parseable capacity */}
-                        {category === 'power-banks' && parsedCapacity && (
-                            <div className="border-t border-gray-100 dark:border-gray-800 my-6 pt-6">
-                                <BackupTimeCalculator
-                                    locale={locale}
-                                    productName={productName}
-                                    batteryCapacityMah={parsedCapacity.mah}
-                                    batteryWh={parsedCapacity.wh}
-                                />
-                            </div>
-                        )}
+                            {/* BackupTimeCalculator — only for power bank products with parseable capacity */}
+                            {category === 'power-banks' && parsedCapacity && (
+                                <div className="border-t border-gray-100 dark:border-gray-800 my-6 pt-6">
+                                    <BackupTimeCalculator
+                                        locale={locale}
+                                        productName={productName}
+                                        batteryCapacityMah={parsedCapacity.mah}
+                                        batteryWh={parsedCapacity.wh}
+                                    />
+                                </div>
+                            )}
+                        </CollapsibleSection>
 
                         {/* Smart Product FAQs (Prioritize Specific Layout) */}
                         <div className="border-t border-gray-100 dark:border-gray-800 my-6 pt-6">
@@ -934,19 +943,29 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             )}
                         </div>
 
-                        {/* Product Comparison Table */}
-                        <ProductComparisonTable
-                            product={{
-                                slug: product.slug,
-                                brand: product.brand,
-                                price: activePrice,
-                                translations: {
-                                    en: { name: product.translations?.en?.name || product.slug },
-                                    ar: { name: localizeArabicBrandNames(product.translations?.ar?.name || product.slug) }
-                                }
-                            }}
-                            locale={locale}
-                        />
+                        {/* Product Comparison Table — collapsed to keep the page short */}
+                        <CollapsibleSection
+                            className="border-t border-gray-100 dark:border-gray-800 mt-6 pt-6"
+                            summary={
+                                <h3 className="text-xl font-bold flex items-center gap-2 text-gray-900 dark:text-white">
+                                    <span aria-hidden>⚖️</span>
+                                    {isRTL ? 'قارن مع منتجات مشابهة' : 'Compare with similar products'}
+                                </h3>
+                            }
+                        >
+                            <ProductComparisonTable
+                                product={{
+                                    slug: product.slug,
+                                    brand: product.brand,
+                                    price: activePrice,
+                                    translations: {
+                                        en: { name: product.translations?.en?.name || product.slug },
+                                        ar: { name: localizeArabicBrandNames(product.translations?.ar?.name || product.slug) }
+                                    }
+                                }}
+                                locale={locale}
+                            />
+                        </CollapsibleSection>
                     </div>
 
                     {/* Description Section - Progressive Disclosure Pattern */}
