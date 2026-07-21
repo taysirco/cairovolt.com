@@ -28,12 +28,15 @@ declare global {
                 id: {
                     initialize: (cfg: Record<string, unknown>) => void;
                     renderButton: (el: HTMLElement, cfg: Record<string, unknown>) => void;
+                    prompt: (cb?: (n: unknown) => void) => void;
                 };
             };
         };
         FB?: {
             init: (cfg: Record<string, unknown>) => void;
             login: (cb: (res: FbLoginResponse) => void, opts?: Record<string, unknown>) => void;
+            getLoginStatus: (cb: (res: FbLoginResponse) => void, roundtrip?: boolean) => void;
+            api: (path: string, params: Record<string, unknown>, cb: (res?: { name?: string }) => void) => void;
         };
         fbAsyncInit?: () => void;
     }
@@ -91,30 +94,43 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
     const [error, setError] = useState('');
     const [gsiReady, setGsiReady] = useState(false);
 
+    // نطبّق الهوية مرة واحدة فقط (سباق محتمل: قد يرجع جوجل وفيسبوك معاً) — أول مصدر يفوز.
+    const connectedRef = useRef(false);
+    const applyIdentity = useCallback((token: string, prov: 'google' | 'facebook') => {
+        if (connectedRef.current || !token) return false;
+        connectedRef.current = true;
+        setCredential(token);
+        setProvider(prov);
+        return true;
+    }, []);
+
     const initGsi = useCallback(() => {
         if (!clientId || !window.google || !gsiRef.current || credential) return;
         try {
             window.google.accounts.id.initialize({
                 client_id: clientId,
                 callback: (res: GoogleCredentialResponse) => {
-                    setCredential(res.credential);
-                    setProvider('google');
+                    if (!applyIdentity(res.credential, 'google')) return;
                     try {
                         const payload = JSON.parse(atob(res.credential.split('.')[1].replace(/-/g, '+').replace(/_/g, '/')));
                         setUserName(String(payload.name || payload.email || ''));
                     } catch { /* الاسم تحسين شكلي فقط */ }
                 },
-                auto_select: false,
+                // 🔗 ربط تلقائي فوري للعائدين المسجّلين دخول جوجل — بلا أي ضغطة
+                auto_select: true,
+                itp_support: true,
+                use_fedcm_for_prompt: true,
             });
             window.google.accounts.id.renderButton(gsiRef.current, {
                 theme: 'outline', size: 'large', shape: 'pill',
                 text: 'continue_with', locale: isArabic ? 'ar' : 'en',
             });
             setGsiReady(true);
+            // One Tap: لو للعميل جلسة جوجل نشطة يظهر «المتابعة كـ…» بضغطة واحدة
+            //   (أو يُربَط تلقائياً للعائدين). لا يُرسِل التقييم — فقط يثبّت الهوية.
+            try { window.google.accounts.id.prompt(); } catch { /* لا شيء */ }
         } catch { /* يظهر زر إعادة المحاولة */ }
-    }, [clientId, credential, isArabic]);
-
-    useEffect(() => { if (open) initGsi(); }, [open, initGsi]);
+    }, [clientId, credential, isArabic, applyIdentity]);
 
     // 🔗 تحويل ذكي من رسالة الواتساب مباشرةً لقسم التقييم: لو الرابط يقصد التقييم
     //    (#write-review أو #reviews أو ?rvw=) نفتح الصندوق ونهبط فوراً على *بداية* قسم
@@ -154,28 +170,53 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
         return () => clearTimeout(timer);
     }, []);
 
-    // 🔵 دخول فيسبوك (FB JS SDK) — يُحمَّل عند فتح الفورم فقط
-    const fbLogin = useCallback(() => {
+    // 🔵 فيسبوك (FB JS SDK): نحمّله ونهيّئه مرة واحدة، ونصفّ ما نحتاجه حتى يجهز.
+    const fbCbQueue = useRef<Array<() => void>>([]);
+    const fbLoading = useRef(false);
+    const ensureFb = useCallback((cb: () => void) => {
         if (!fbAppId) return;
-        const doLogin = () => {
-            window.FB?.login((res) => {
-                if (res.status === 'connected' && res.authResponse?.accessToken) {
-                    setCredential(res.authResponse.accessToken);
-                    setProvider('facebook');
-                    setUserName('');
-                }
-            }, { scope: 'public_profile' });
-        };
-        if (window.FB) { doLogin(); return; }
+        if (window.FB) { cb(); return; }
+        fbCbQueue.current.push(cb);
+        if (fbLoading.current) return;
+        fbLoading.current = true;
         window.fbAsyncInit = () => {
-            window.FB?.init({ appId: fbAppId, cookie: false, xfbml: false, version: 'v21.0' });
-            doLogin();
+            try { window.FB?.init({ appId: fbAppId, cookie: true, xfbml: false, version: 'v21.0' }); } catch { /* لا شيء */ }
+            const q = fbCbQueue.current; fbCbQueue.current = [];
+            q.forEach((fn) => { try { fn(); } catch { /* لا شيء */ } });
         };
         const s = document.createElement('script');
+        s.id = 'cv-fb-jssdk';
         s.src = 'https://connect.facebook.net/ar_AR/sdk.js';
         s.async = true; s.defer = true;
         document.body.appendChild(s);
     }, [fbAppId]);
+
+    // نلتقط جلسة فيسبوك (من الفحص التلقائي أو زر الدخول) ونجلب الاسم للترحيب.
+    const captureFb = useCallback((res: FbLoginResponse) => {
+        if (res.status !== 'connected' || !res.authResponse?.accessToken) return;
+        if (!applyIdentity(res.authResponse.accessToken, 'facebook')) return;
+        try { window.FB?.api('/me', { fields: 'name' }, (u) => setUserName(u?.name || '')); } catch { /* الاسم تحسين شكلي */ }
+    }, [applyIdentity]);
+
+    // 🔗 ربط تلقائي فوري: لو المتصفح مسجّل دخول فيسبوك وسبق أن صرّح للتطبيق،
+    //    getLoginStatus يرجع 'connected' ومعه التوكن بلا أي نافذة دخول.
+    const fbAutoConnect = useCallback(() => {
+        if (connectedRef.current) return;
+        ensureFb(() => { try { window.FB?.getLoginStatus((res) => captureFb(res)); } catch { /* لا شيء */ } });
+    }, [ensureFb, captureFb]);
+
+    // زر «المتابعة بحساب فيسبوك» — نافذة الدخول تحتاج ضغطة المستخدم (احتياطي).
+    const fbLogin = useCallback(() => {
+        ensureFb(() => { try { window.FB?.login((res) => captureFb(res), { scope: 'public_profile' }); } catch { /* لا شيء */ } });
+    }, [ensureFb, captureFb]);
+
+    // عند فتح الصندوق: نحاول الربط التلقائي فوراً (جوجل One Tap + فيسبوك getLoginStatus)
+    //   ليقفز العميل لخطوة كتابة التقييم مباشرة لو عنده جلسة قائمة — بلا مراحل دخول.
+    useEffect(() => {
+        if (!open) return;
+        initGsi();
+        fbAutoConnect();
+    }, [open, initGsi, fbAutoConnect]);
 
     const onPickPhotos = async (files: FileList | null) => {
         if (!files) return;
