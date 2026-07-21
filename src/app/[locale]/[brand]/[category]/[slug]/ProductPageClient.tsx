@@ -1132,33 +1132,17 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                     <div
                         className={`lg:hidden fixed bottom-0 left-0 right-0 z-40 transition-transform duration-300 ${showStickyBar ? 'translate-y-0' : 'translate-y-full'}`}
                     >
-                        <div className="sticky-footer-bar bg-zinc-900 border-t-2 border-zinc-700 shadow-[0_-8px_25px_rgba(0,0,0,0.3)] px-4 pt-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]" style={{ backgroundColor: '#18181b' }}>
-                            {/* COD chip — same published-policy wording as the trust row */}
-                            {deliveryIntelligence.cash_on_delivery && (
-                                <p className="text-[11px] font-medium mb-1.5 text-zinc-300" style={{ color: '#d4d4d8' }}>
-                                    <span aria-hidden="true">💵</span>{' '}
-                                    {isRTL
-                                        ? 'الدفع عند الاستلام متاح للطلبات المؤهلة'
-                                        : 'Cash on delivery is available for eligible orders'}
-                                </p>
-                            )}
-                            <div className="flex items-center gap-3">
-                                {/* Price Section — forced white text on dark bg for guaranteed visibility */}
-                                <div className="flex-shrink-0 min-w-[90px]">
-                                    <span className="sticky-label block text-[11px] font-medium mb-0.5 text-zinc-400" style={{ color: '#a1a1aa' }}>{tProduct('price')}</span>
-                                    <div className="flex items-baseline gap-1">
-                                        <span className="sticky-price text-xl font-black text-white" style={{ color: '#ffffff' }}>{activePrice.toLocaleString('en-US')}</span>
-                                        <span className="sticky-label text-xs font-medium text-zinc-400" style={{ color: '#a1a1aa' }}>{tCommon('egp')}</span>
-                                        {discount.hasDiscount && (
-                                            <span className="rounded-full bg-red-600 px-1.5 py-0.5 text-[10px] font-extrabold text-white">
-                                                -{discount.percent}%
-                                            </span>
-                                        )}
-                                    </div>
+                        <div className="sticky-footer-bar bg-zinc-900 border-t border-zinc-700 shadow-[0_-8px_25px_rgba(0,0,0,0.3)] px-3 pt-1.5 pb-[calc(0.45rem+env(safe-area-inset-bottom))]" style={{ backgroundColor: '#18181b' }}>
+                            <div className="flex items-center gap-2.5">
+                                {/* السعر — سطر واحد مضغوط (بلا تسمية ولا سطر منفصل للسعر القديم) */}
+                                <div className="flex-shrink-0 flex items-baseline gap-1">
+                                    <span className="sticky-price text-lg font-black text-white leading-none" style={{ color: '#ffffff' }}>{activePrice.toLocaleString('en-US')}</span>
+                                    <span className="sticky-label text-[11px] font-medium text-zinc-400" style={{ color: '#a1a1aa' }}>{tCommon('egp')}</span>
                                     {discount.hasDiscount && activeOriginalPrice != null && (
-                                        <span className="block text-[11px] font-medium text-zinc-500 line-through" style={{ color: '#a1a1aa' }}>
-                                            {activeOriginalPrice.toLocaleString('en-US')} {tCommon('egp')}
-                                        </span>
+                                        <span className="text-[10px] font-medium text-zinc-500 line-through" style={{ color: '#a1a1aa' }}>{activeOriginalPrice.toLocaleString('en-US')}</span>
+                                    )}
+                                    {discount.hasDiscount && (
+                                        <span className="rounded-full bg-red-600 px-1.5 py-0.5 text-[9px] font-extrabold text-white leading-none">-{discount.percent}%</span>
                                     )}
                                 </div>
                                 {/* عداد الكمية (بدل زر واتساب) — زيادة/نقص قبل الإضافة للسلة */}
@@ -1166,16 +1150,16 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                     <button
                                         type="button"
                                         onClick={() => setQuantity((q) => Math.max(1, q - 1))}
-                                        className="px-2.5 py-3 text-white font-bold text-xl leading-none hover:bg-zinc-800 transition-colors"
+                                        className="px-2.5 py-2 text-white font-bold text-xl leading-none hover:bg-zinc-800 transition-colors"
                                         aria-label={isRTL ? 'تقليل الكمية' : 'Decrease quantity'}
                                     >
                                         −
                                     </button>
-                                    <span className="px-1 py-3 text-white font-bold text-base min-w-[1.5rem] text-center" style={{ color: '#ffffff' }}>{quantity}</span>
+                                    <span className="px-1 py-2 text-white font-bold text-base min-w-[1.5rem] text-center" style={{ color: '#ffffff' }}>{quantity}</span>
                                     <button
                                         type="button"
                                         onClick={() => setQuantity((q) => q + 1)}
-                                        className="px-2.5 py-3 text-white font-bold text-xl leading-none hover:bg-zinc-800 transition-colors"
+                                        className="px-2.5 py-2 text-white font-bold text-xl leading-none hover:bg-zinc-800 transition-colors"
                                         aria-label={isRTL ? 'زيادة الكمية' : 'Increase quantity'}
                                     >
                                         +
@@ -1185,7 +1169,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 <button
                                     onClick={handleAddToCart}
                                     data-add-to-cart
-                                    className={`flex-1 px-4 py-3.5 font-bold text-white rounded-xl shadow-lg transition-all duration-200 text-base ${showAddedFeedback
+                                    className={`flex-1 px-4 py-2.5 font-bold text-white rounded-xl shadow-lg transition-all duration-200 text-base ${showAddedFeedback
                                         ? 'bg-green-600 scale-95 shadow-green-600/30'
                                         : stickyButtonClass
                                         }`}
@@ -1199,7 +1183,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             }
 
             {/* Spacer for sticky bar - only show when bar is visible and in stock */}
-            {!isOutOfStock && <div className="lg:hidden h-24" />}
+            {!isOutOfStock && <div className="lg:hidden h-16" />}
         </div>
     );
 }
