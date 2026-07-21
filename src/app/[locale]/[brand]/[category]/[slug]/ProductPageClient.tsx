@@ -15,6 +15,7 @@ import CollapsibleSection from '@/components/products/CollapsibleSection';
 import type { BenchTest } from '@/data/details/_types';
 import BrandVerification from '@/components/UX/BrandVerification';
 import OpenInBrowserBanner from '@/components/OpenInBrowserBanner';
+import WhatsAppNudge from '@/components/WhatsAppNudge';
 import type { AggregateRating, Review } from '@/components/reviews/VerifiedReviews';
 import type { RegionalStats } from '@/lib/bosta';
 import type { ProductVariant } from '@/lib/static-products';
@@ -303,29 +304,11 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             image: product.images?.[0]?.url,
             brand: product.brand
         });
+        // إشارة انخراط: تُلغي/تُخفي نداء واتساب المتأخّر (العميل أضاف للسلة فعلاً)
+        try { window.dispatchEvent(new Event('cv:addtocart')); } catch { /* noop */ }
     };
 
-    // 📲 Order via WhatsApp — the #1 COD conversion path for hesitant buyers.
-    //    Opens wa.me with the exact product/model/price/qty + the page URL pre-filled,
-    //    and fires a VALUED generate_lead so Google Analytics records the order intent
-    //    (and its EGP value) — a real engagement/conversion signal, not a fake purchase.
-    const handleWhatsappOrder = () => {
-        const url = typeof window !== 'undefined' ? window.location.href : 'https://cairovolt.com';
-        const variantLabel = selectedVariant ? ` — ${selectedVariant.model} (${selectedVariant.capacity})` : '';
-        const qtyLabel = quantity > 1 ? ` × ${quantity}` : '';
-        const priceStr = activePrice.toLocaleString('en-US');
-        const msg = isRTL
-            ? `مرحبًا، أريد طلب هذا المنتج:\n${productName}${variantLabel}\nالسعر: ${priceStr} ج.م${qtyLabel}\n${url}`
-            : `Hi, I'd like to order this product:\n${productName}${variantLabel}\nPrice: ${priceStr} EGP${qtyLabel}\n${url}`;
-        trackWhatsappClick('product', {
-            value: activePrice * quantity,
-            itemId: activeSku,
-            itemName: productName,
-        });
-        if (typeof window !== 'undefined') {
-            window.open(`https://wa.me/201558245974?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer');
-        }
-    };
+    // (زر «اطلب عبر واتساب» الدائم أُزيل — استُبدل بنداء واتساب ذكي بعد 30ث: WhatsAppNudge)
 
     const images = product.images || [];
     const primaryImage = images[selectedImage]?.url || '';
@@ -405,6 +388,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
             {/* 🌐 «افتح في المتصفح» — يظهر فقط داخل المتصفحات المدمجة (يحل حجب دخول جوجل هناك) */}
             <OpenInBrowserBanner locale={locale} />
+            {/* 💬 نداء واتساب ذكي: يظهر بعد 30ث لو ما أضافش للسلة — فوق شريط الطلب/الكوبون بلا تصادم */}
+            <WhatsAppNudge isRTL={isRTL} productName={productName} />
 
             {/* Visual Interface Layer */}
 
@@ -781,7 +766,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                         {/* Purchase CTAs — Hidden when Out of Stock */}
                         {!isOutOfStock ? (
                             <>
-                                {/* Quantity + Add to Cart + WhatsApp — one row; Add-to-Cart takes the most space */}
+                                {/* Quantity + Add to Cart — one row; Add-to-Cart takes the most space (WhatsApp moved to a smart 30s nudge) */}
                                 <div className="flex flex-row items-stretch gap-2 sm:gap-3">
                                     <div className="flex flex-shrink-0 items-center border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden bg-white dark:bg-gray-800">
                                         <button
@@ -812,16 +797,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         {showAddedFeedback
                                             ? <><SvgIcon name="cart" className="w-5 h-5 inline-block" /> ✓ {isRTL ? 'تم الإضافة' : 'Added!'}</>
                                             : <><SvgIcon name="cart" className="w-5 h-5 inline-block" /> {tProduct('addToCart')}</>}
-                                    </button>
-                                    {/* Order via WhatsApp — reassurance path for hesitant COD buyers */}
-                                    <button
-                                        type="button"
-                                        onClick={handleWhatsappOrder}
-                                        className="flex-shrink-0 inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-3 font-bold text-sm sm:text-lg rounded-xl bg-green-600 hover:bg-green-700 text-white shadow-lg shadow-green-600/25 transition-all"
-                                        aria-label={isRTL ? 'اطلب عبر واتساب' : 'Order via WhatsApp'}
-                                    >
-                                        <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" /></svg>
-                                        <span className="hidden md:inline whitespace-nowrap">{isRTL ? 'اطلب عبر واتساب' : 'Order via WhatsApp'}</span>
                                     </button>
                                 </div>
 
@@ -1186,6 +1161,26 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         </span>
                                     )}
                                 </div>
+                                {/* عداد الكمية (بدل زر واتساب) — زيادة/نقص قبل الإضافة للسلة */}
+                                <div className="flex flex-shrink-0 items-center rounded-lg border border-zinc-600 overflow-hidden" style={{ borderColor: '#52525b' }}>
+                                    <button
+                                        type="button"
+                                        onClick={() => setQuantity((q) => Math.max(1, q - 1))}
+                                        className="px-2.5 py-3 text-white font-bold text-xl leading-none hover:bg-zinc-800 transition-colors"
+                                        aria-label={isRTL ? 'تقليل الكمية' : 'Decrease quantity'}
+                                    >
+                                        −
+                                    </button>
+                                    <span className="px-1 py-3 text-white font-bold text-base min-w-[1.5rem] text-center" style={{ color: '#ffffff' }}>{quantity}</span>
+                                    <button
+                                        type="button"
+                                        onClick={() => setQuantity((q) => q + 1)}
+                                        className="px-2.5 py-3 text-white font-bold text-xl leading-none hover:bg-zinc-800 transition-colors"
+                                        aria-label={isRTL ? 'زيادة الكمية' : 'Increase quantity'}
+                                    >
+                                        +
+                                    </button>
+                                </div>
                                 {/* CTA Button */}
                                 <button
                                     onClick={handleAddToCart}
@@ -1196,15 +1191,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         }`}
                                 >
                                     {showAddedFeedback ? (isRTL ? '✓ تم' : '✓ Added') : tProduct('addToCart')}
-                                </button>
-                                {/* Order via WhatsApp — compact, always reachable while scrolling */}
-                                <button
-                                    type="button"
-                                    onClick={handleWhatsappOrder}
-                                    className="flex-shrink-0 inline-flex items-center justify-center w-14 py-3.5 rounded-xl bg-green-600 hover:bg-green-700 text-white shadow-lg transition-all"
-                                    aria-label={isRTL ? 'اطلب عبر واتساب' : 'Order via WhatsApp'}
-                                >
-                                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" /></svg>
                                 </button>
                             </div>
                         </div>
