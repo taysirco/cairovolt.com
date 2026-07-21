@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getFirestore } from '@/lib/firebase-admin';
-import { getProductBySlug, getSmartRelatedProducts, getSmartBundleProducts, BRAND_FAMILIES } from '@/lib/static-products';
+import { getProductBySlug, getSmartRelatedProducts, getSmartBundleProducts, getProductsByCategory, getProductsByBrand, getFeaturedProducts, staticProducts, BRAND_FAMILIES } from '@/lib/static-products';
 import ProductPageClient from './ProductPageClient';
 import { ProductSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { calculateVerifiedAggregateRating, getProductReviews as getVerifiedProductReviews } from '@/lib/verified-reviews';
@@ -392,6 +392,46 @@ export default async function ProductPage({ params }: Props) {
         })()
         : undefined;
 
+    // «الذين اشتروا هذا المنتج في الغالب اشتروا أيضاً» — قائمة عريضة (≥13، حتى 16)
+    // تُعرض بنفس أسلوب «قد يعجبك أيضاً»: بدائل من نفس الفئة (نفس عائلة العلامة) ثم
+    // بقيّة منتجات العلامة ثم الأكثر رواجاً، مع شبكة أمان من الكتالوج لضمان العدد.
+    // نستبعد المنتج الحالي ومقترحات «قد يعجبك أيضاً» فلا يتكرّر منتج بين القسمين.
+    const alsoBoughtProducts = staticProduct
+        ? (() => {
+            const brandLower = product.brand.toLowerCase();
+            const family = BRAND_FAMILIES[brandLower] || [brandLower];
+            const excluded = new Set<string>([staticProduct.slug, ...relatedProducts.map((p) => p.slug)]);
+            const pool = [
+                ...getProductsByCategory(staticProduct.categorySlug).filter((p) => family.includes(p.brand.toLowerCase())),
+                ...getProductsByBrand(product.brand),
+                ...getFeaturedProducts(),
+                ...staticProducts, // شبكة أمان: تضمن 13+ حتى لو كانت الفئة/العلامة صغيرة
+            ];
+            const seen = new Set<string>(excluded);
+            const picked: typeof pool = [];
+            for (const p of pool) {
+                if (p.status !== 'active' || seen.has(p.slug)) continue;
+                seen.add(p.slug);
+                picked.push(p);
+                if (picked.length >= 16) break;
+            }
+            return picked.map((p) => ({
+                id: `static_${p.slug}`,
+                slug: p.slug,
+                sku: p.sku,
+                brand: p.brand,
+                categorySlug: p.categorySlug,
+                price: p.price,
+                originalPrice: p.originalPrice,
+                images: p.images?.[0] ? [{ url: p.images[0].url }] : [],
+                translations: {
+                    en: { name: p.translations?.en?.name },
+                    ar: { name: p.translations?.ar?.name },
+                },
+            } as Product));
+        })()
+        : [];
+
     const isArabic = locale === 'ar';
     const sourceTranslation = product.translations?.[locale as 'ar' | 'en'] || product.translations?.en || {};
     const localizedTextTranslation = isArabic
@@ -564,6 +604,7 @@ export default async function ProductPage({ params }: Props) {
                     variants: (product as any).variants,
                 } as Product}
                 relatedProducts={relatedProducts}
+                alsoBoughtProducts={alsoBoughtProducts}
                 bundleData={bundleData}
                 locale={locale}
                 brand={brand}

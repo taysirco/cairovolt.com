@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Outfit } from "next/font/google";
+import { Cairo } from "next/font/google";
 import "../globals.css"; // Corrected path
 import LazyUXComponents from '@/components/LazyUXComponents';
 import Header from "@/components/Header";
@@ -20,23 +20,13 @@ import GlobalBusinessSchema from '@/components/content/GlobalBusinessSchema';
 import PromoBanner from '@/components/content/PromoBanner';
 import { localizeArabicBrandContent } from '@/lib/arabic-brand-names';
 
-const geistSans = Geist({
-  subsets: ["latin"],
-  variable: "--font-geist-sans",
-  display: 'swap',
-});
-
-// NOTE: the Cairo (Arabic) webfont was removed — it was downloaded on every
-// page (preloaded via next/font) but never applied to any element: globals.css
-// sets `body { font-family: var(--font-sans) }` → Geist → system-ui fallback,
-// and no rule or Tailwind class ever referenced var(--font-cairo). Arabic text
-// already renders in the system Arabic font, so removing Cairo is a pure
-// per-page download saving with zero visual change. To intentionally style
-// Arabic with Cairo, re-add it AND wire `var(--font-cairo)` into globals.css.
-
-const outfit = Outfit({
-  subsets: ['latin'],
-  variable: '--font-outfit',
+// 🔤 Cairo — نفس خط موقع نون (font-family: Cairo, Tahoma, sans-serif). خط ثنائي
+// النص (عربي + لاتيني) متغيّر الأوزان، فيغطّي كل العناوين والنصوص بأسلوب واحد.
+// يُطبّق فعلياً: globals.css يضبط `--font-sans` و`--font-outfit` على var(--font-cairo)
+// و`body { font-family: var(--font-sans), Tahoma, … }` — مطابقةً لمكدّس نون.
+const cairo = Cairo({
+  subsets: ['arabic', 'latin'],
+  variable: '--font-cairo',
   display: 'swap',
 });
 
@@ -152,7 +142,7 @@ export default async function RootLayout({
     : rawMessages;
 
   return (
-    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={cairo.variable} suppressHydrationWarning>
       <head>
         {/* Prevent browsers/extensions from auto-detecting phone numbers — causes hydration mismatches */}
         <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
@@ -171,7 +161,7 @@ export default async function RootLayout({
             Store, Noon, Amazon) ship a single calm light theme; we do the same. */}
       </head>
       <body
-        className={`${geistSans.variable} ${outfit.variable} antialiased min-h-screen flex flex-col`}
+        className={`antialiased min-h-screen flex flex-col`}
         suppressHydrationWarning
       >
 

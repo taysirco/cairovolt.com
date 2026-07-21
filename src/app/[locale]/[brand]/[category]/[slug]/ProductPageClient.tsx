@@ -38,7 +38,6 @@ const VerifiedReviews = dynamic(() => import('@/components/reviews/VerifiedRevie
 // slow connections get no pop-in. All of them render purely from props/context
 // with zero window/document access at render time.
 const RelatedProducts = dynamic(() => import('@/components/products/RelatedProducts'));
-const FrequentlyBoughtTogether = dynamic(() => import('@/components/products/FrequentlyBoughtTogether'));
 
 const BundleSelector = dynamic(() => import('@/components/products/BundleSelector'), {
     loading: () => <div className="h-64 bg-gray-50 dark:bg-gray-800 rounded-2xl animate-pulse my-8" />,
@@ -95,6 +94,7 @@ interface Product {
 interface ProductPageClientProps {
     product: Product;
     relatedProducts?: Product[];
+    alsoBoughtProducts?: Product[];
     bundleData?: {
         bundleProducts: Array<{
             product: Product;
@@ -134,7 +134,7 @@ const categoryKeyMap: Record<string, string> = {
     'smart-watches': 'smartWatches',
 };
 
-export default function ProductPageClient({ product, relatedProducts = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail }: ProductPageClientProps) {
+export default function ProductPageClient({ product, relatedProducts = [], alsoBoughtProducts = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail }: ProductPageClientProps) {
     const isRTL = locale === 'ar';
     const tCommon = useTranslations('Common');
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
@@ -178,24 +178,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
     const activeStock = selectedVariant?.stock ?? (product.stock || 0);
     // Display-only pre-discount reference (never affects checkout/feed/schema)
     const discount = getDiscountInfo(activePrice, activeOriginalPrice);
-
-    // ═══ توصيات الأسفل: قسمان بلا تكرار ═══
-    // «الذين اشتروا هذا المنتج في الغالب اشتروا أيضاً» = المكمّلات الحقيقية (بسبب
-    // مختصر) من محرّك الكومبو الذكي؛ و«قد يعجبك أيضاً» = بقيّة المقترحات بعد
-    // استبعاد تلك المكمّلات، فلا يظهر منتج في القسمين معاً.
-    const boughtTogether = useMemo(() => (
-        (bundleData?.bundleProducts || []).map((bp) => ({
-            ...bp.product,
-            reason: isRTL ? bp.reason?.ar : bp.reason?.en,
-            slot: bp.slot,
-        }))
-    ), [bundleData, isRTL]);
-
-    const youMayLikeProducts = useMemo(() => {
-        if (!boughtTogether.length) return relatedProducts;
-        const usedSlugs = new Set(boughtTogether.map((p) => p.slug));
-        return relatedProducts.filter((p) => !usedSlugs.has(p.slug));
-    }, [relatedProducts, boughtTogether]);
 
     // Variant-aware product for BundleSelector — overrides price/name with selected variant
     const variantAwareMainProduct = useMemo(() => {
@@ -1134,7 +1116,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             </div>
             {/* Related Products Section */}
             <div className="container mx-auto px-4 pb-8 cv-auto">
-                <RelatedProducts products={youMayLikeProducts} locale={locale} />
+                <RelatedProducts products={relatedProducts} locale={locale} />
 
                 {/* Related Categories (تصفح أيضاً) — الفراغ السفلي مضبوط ليلتصق بالقسم التالي */}
                 <div className="[&>div]:pb-0">
@@ -1146,8 +1128,14 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                     />
                 </div>
 
-                {/* الذين اشتروا هذا المنتج في الغالب اشتروا أيضاً */}
-                <FrequentlyBoughtTogether products={boughtTogether} locale={locale} />
+                {/* الذين اشتروا هذا المنتج في الغالب اشتروا أيضاً — نفس عرض «قد يعجبك أيضاً» (≥13 منتجاً) */}
+                <RelatedProducts
+                    products={alsoBoughtProducts}
+                    locale={locale}
+                    title={isRTL ? 'الذين اشتروا هذا المنتج في الغالب اشتروا أيضاً' : 'Customers who bought this also bought'}
+                    icon="cart"
+                    maxItems={16}
+                />
             </div>
 
             {/* Mobile Sticky Action Bar — Hidden when Out of Stock */}

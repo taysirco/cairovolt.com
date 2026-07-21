@@ -7,7 +7,9 @@
   --color-brand-dark: #0f172a;
   --color-brand-gold: #fbbf24;
 
-  --font-sans: var(--font-geist-sans);
+  /* 🔤 خطوط نون: Cairo كخط أساسي لكل النصوص والعناوين (عربي + لاتيني). */
+  --font-sans: var(--font-cairo);
+  --font-outfit: var(--font-cairo);
 }
 
 :root {
@@ -30,7 +32,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), system-ui, sans-serif;
+  font-family: var(--font-sans), Tahoma, system-ui, sans-serif;
   overflow-x: hidden;
   max-width: 100vw;
   width: 100%;

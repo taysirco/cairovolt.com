@@ -23,16 +23,22 @@ interface Product {
 interface RelatedProductsProps {
     products: Product[];
     locale: string;
+    /** Override heading (defaults to "قد يعجبك أيضاً"). */
+    title?: string;
+    /** How many cards to show (defaults to 8). */
+    maxItems?: number;
+    /** SvgIcon name for the heading (defaults to "sparkles"). */
+    icon?: string;
 }
 
-export default function RelatedProducts({ products, locale }: RelatedProductsProps) {
+export default function RelatedProducts({ products, locale, title, maxItems = 8, icon = 'sparkles' }: RelatedProductsProps) {
     const isArabic = locale === 'ar';
 
     // Ensure we don't show empty section
     if (!products || products.length === 0) return null;
 
-    // Limit to 6 products mostly, but accept whatever is passed
-    const displayProducts = products.slice(0, 8);
+    // Show up to maxItems cards, but accept whatever is passed
+    const displayProducts = products.slice(0, maxItems);
 
     const getLocalizedHref = (path: string) => {
         const cleanPath = path.startsWith('/') ? path : `/${path}`;
@@ -42,8 +48,8 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
     return (
         <div className="py-8 border-t border-gray-100 dark:border-gray-800">
             <h3 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
-                <SvgIcon name="sparkles" className="w-6 h-6" />
-                {isArabic ? 'قد يعجبك أيضاً' : 'You May Also Like'}
+                <SvgIcon name={icon} className="w-6 h-6" />
+                {title ?? (isArabic ? 'قد يعجبك أيضاً' : 'You May Also Like')}
             </h3>
 
             {/* Mobile: Horizontal Snap Scroll | Desktop: Grid */}
