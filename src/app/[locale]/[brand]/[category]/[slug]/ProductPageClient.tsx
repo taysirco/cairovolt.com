@@ -650,13 +650,19 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
                         {/* Short Description removed — already displayed inside QuickSummary above */}
 
-                        {/* AI TL;DR */}
+                        {/* AI TL;DR — collapsed by default to save above-the-fold scroll; the bullets
+                            stay in the DOM (crawlable for Google + AI answer engines) inside <details>. */}
                         {productDetail?.aiTldr && (
-                            <div className={`p-4 rounded-xl border-2 ${summaryClass}`}>
-                                <h2 className="text-sm font-bold mb-2 flex items-center gap-1.5 text-gray-800 dark:text-gray-200">
-                                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                                    {isRTL ? selectedArAiHeading : selectedEnAiHeading}
-                                </h2>
+                            <CollapsibleSection
+                                className={`p-4 rounded-xl border-2 ${summaryClass}`}
+                                summaryClassName="text-sm font-bold text-gray-800 dark:text-gray-200"
+                                summary={
+                                    <span className="flex items-center gap-1.5">
+                                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                                        {isRTL ? selectedArAiHeading : selectedEnAiHeading}
+                                    </span>
+                                }
+                            >
                                 <ul className="space-y-1">
                                     {(isRTL ? productDetail.aiTldr.ar : productDetail.aiTldr.en).map((point: string, idx: number) => (
                                         <li key={idx} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
@@ -665,7 +671,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         </li>
                                     ))}
                                 </ul>
-                            </div>
+                            </CollapsibleSection>
                         )}
 
                         {/* Local Pain Point — inline if short, collapsible if long (>250 chars)
