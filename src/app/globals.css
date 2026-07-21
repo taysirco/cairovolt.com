@@ -404,11 +404,13 @@ html {
 .verified-reviews { margin-top: 48px; padding: 28px; background: #f8fafc; border-radius: 20px; }
 .dark .verified-reviews { background: #0f172a; }
 .verified-reviews--empty { padding: 32px; background: #f8fafc; border-radius: 16px; margin-top: 32px; }
-/* 🔗 هبوط رابط طلب التقييم: الهيدر ثابت (fixed, ~65px) فيغطّي أعلى القسم — نترك
-   هامش تمرير يكشف بداية قسم التقييمات (العنوان + زر «اكتب تقييمك») تحت الهيدر.
-   يُحترَم تلقائياً في تمرير الـhash وفي scrollIntoView({block:'start'}).
-   (الغلاف الخارجي #reviews له scroll-mt-24 من tailwind بالفعل.) */
+/* 🔗 هبوط رابط طلب التقييم: الهيدر ثابت (fixed) فيغطّي أعلى القسم — نترك هامش تمرير
+   يكشف بداية قسم التقييمات (العنوان + زر «اكتب تقييمك») تحته. الهيدر متجاوب: ≈64px
+   على الموبايل، ويظهر شريط ترويجي إضافي من md: فيصير ≈104px — فنكبّر الهامش عندها.
+   هذا احتياطي لتمرير الـhash قبل عمل الـJS؛ والـJS يحسب الإزاحة من ارتفاع الهيدر
+   الفعلي بدقة. (الغلاف الخارجي #reviews له scroll-mt-24 من tailwind بالفعل.) */
 .verified-reviews, #write-review { scroll-margin-top: 84px; }
+@media (min-width: 768px) { .verified-reviews, #write-review { scroll-margin-top: 120px; } }
 .dark .verified-reviews--empty { background: #0f172a; }
 .verified-reviews .section-title { font-size: 22px; font-weight: 700; color: #1f2937; margin-bottom: 8px; }
 .dark .verified-reviews .section-title { color: #f1f5f9; }

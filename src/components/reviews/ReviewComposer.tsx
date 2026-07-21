@@ -118,12 +118,13 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
 
     // 🔗 تحويل ذكي من رسالة الواتساب مباشرةً لقسم التقييم: لو الرابط يقصد التقييم
     //    (#write-review أو #reviews أو ?rvw=) نفتح الصندوق ونهبط فوراً على *بداية* قسم
-    //    التقييمات (العنوان + زر «اكتب تقييمك») لا على التقييمات نفسها. block:'start'
-    //    يحترم scroll-margin-top (84px) فلا يختفي الزر تحت الهيدر الثابت.
-    //    نستخدم تمريراً *فورياً* لا 'smooth': القسم داخل content-visibility:auto والصفحة
-    //    مشغولة بالـhydration وقت الوصول، والتمرير الناعم يُسقَط في هذي الحالة — بينما
-    //    الفوري يفرض حساب التخطيط فيعمل دائماً. حلقة تصحيح قصيرة تعيد المحاولة حتى يهبط
-    //    القسم تحت الهيدر ثم تتوقف فلا تزاحم العميل لو مرّر بنفسه.
+    //    التقييمات (العنوان + زر «اكتب تقييمك») لا على التقييمات نفسها.
+    //    نحسب مقدار الإزاحة من *ارتفاع الهيدر الفعلي* لأنه متجاوب (≈64px موبايل، ≈104px
+    //    ديسكتوب) فلا نعتمد على رقم ثابت يخبّي أعلى القسم على الشاشات الكبيرة.
+    //    نستخدم window.scrollTo *فورياً* لا 'smooth': القسم داخل content-visibility:auto
+    //    والصفحة مشغولة بالـhydration وقت الوصول، والتمرير الناعم يُسقَط في هذي الحالة —
+    //    بينما الفوري يفرض حساب التخطيط فيعمل دائماً. حلقة تصحيح قصيرة تعيد المحاولة حتى
+    //    يستقر الهبوط ثم تتوقف فلا تزاحم العميل لو مرّر بنفسه.
     useEffect(() => {
         let intent = false;
         try {
@@ -140,10 +141,12 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
             // بطاقة قسم التقييمات (العنوان في أعلاها) أولاً، ثم صندوق الكتابة كبديل
             const el = document.querySelector('.verified-reviews') || document.getElementById('write-review');
             if (el) {
-                const top = (el as HTMLElement).getBoundingClientRect().top;
-                // هبط تحت الهيدر مباشرة؟ (scroll-margin-top≈84px، بسماحية)
-                if (top >= -8 && top <= 120) return; // وصلنا — أوقف الحلقة
-                (el as HTMLElement).scrollIntoView({ block: 'start' }); // فوري
+                const header = document.querySelector('header');
+                const headerH = header ? header.getBoundingClientRect().height : 72;
+                const absTop = (el as HTMLElement).getBoundingClientRect().top + window.scrollY;
+                const targetY = Math.max(0, Math.round(absTop - headerH - 16)); // تحت الهيدر بـ16px
+                if (Math.abs(window.scrollY - targetY) <= 6) return; // وصلنا — أوقف الحلقة
+                window.scrollTo({ top: targetY }); // فوري
             }
             if (attempts < 12) timer = setTimeout(settle, 200); // نافذة ~2.4ث
         };
