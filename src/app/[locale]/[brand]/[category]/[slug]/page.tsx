@@ -393,44 +393,44 @@ export default async function ProductPage({ params }: Props) {
         : undefined;
 
     // «الذين اشتروا هذا المنتج في الغالب اشتروا أيضاً» — قائمة عريضة (≥13، حتى 16)
-    // تُعرض بنفس أسلوب «قد يعجبك أيضاً»: بدائل من نفس الفئة (نفس عائلة العلامة) ثم
-    // بقيّة منتجات العلامة ثم الأكثر رواجاً، مع شبكة أمان من الكتالوج لضمان العدد.
-    // نستبعد المنتج الحالي ومقترحات «قد يعجبك أيضاً» فلا يتكرّر منتج بين القسمين.
-    const alsoBoughtProducts = staticProduct
-        ? (() => {
-            const brandLower = product.brand.toLowerCase();
-            const family = BRAND_FAMILIES[brandLower] || [brandLower];
-            const excluded = new Set<string>([staticProduct.slug, ...relatedProducts.map((p) => p.slug)]);
-            const pool = [
-                ...getProductsByCategory(staticProduct.categorySlug).filter((p) => family.includes(p.brand.toLowerCase())),
-                ...getProductsByBrand(product.brand),
-                ...getFeaturedProducts(),
-                ...staticProducts, // شبكة أمان: تضمن 13+ حتى لو كانت الفئة/العلامة صغيرة
-            ];
-            const seen = new Set<string>(excluded);
-            const picked: typeof pool = [];
-            for (const p of pool) {
-                if (p.status !== 'active' || seen.has(p.slug)) continue;
-                seen.add(p.slug);
-                picked.push(p);
-                if (picked.length >= 16) break;
-            }
-            return picked.map((p) => ({
-                id: `static_${p.slug}`,
-                slug: p.slug,
-                sku: p.sku,
-                brand: p.brand,
-                categorySlug: p.categorySlug,
-                price: p.price,
-                originalPrice: p.originalPrice,
-                images: p.images?.[0] ? [{ url: p.images[0].url }] : [],
-                translations: {
-                    en: { name: p.translations?.en?.name },
-                    ar: { name: p.translations?.ar?.name },
-                },
-            } as Product));
-        })()
-        : [];
+    // تُعرض بنفس أسلوب «قد يعجبك أيضاً» على **كل** صفحات المنتجات (سواء كان المنتج
+    // من الكتالوج الثابت أو من فايرستور) — لذا نعتمد على مُعرّفات الرابط (brand /
+    // category / slug) بدل staticProduct الذي قد يكون فارغاً. المصدر دائماً كتالوج
+    // المتجر الثابت، مُرشَّحاً بفئة/علامة الرابط ثم الأكثر رواجاً، مع شبكة أمان
+    // تضمن العدد. نستبعد المنتج الحالي ومقترحات «قد يعجبك أيضاً» فلا يتكرّر منتج.
+    const alsoBoughtProducts = (() => {
+        const brandLower = brand.toLowerCase();
+        const family = BRAND_FAMILIES[brandLower] || [brandLower];
+        const excluded = new Set<string>([slug, ...relatedProducts.map((p) => p.slug)]);
+        const pool = [
+            ...getProductsByCategory(category).filter((p) => family.includes(p.brand.toLowerCase())),
+            ...getProductsByBrand(brand),
+            ...getFeaturedProducts(),
+            ...staticProducts, // شبكة أمان: تضمن 13+ حتى لو لم تُطابق الفئة/العلامة الكتالوج
+        ];
+        const seen = new Set<string>(excluded);
+        const picked: typeof pool = [];
+        for (const p of pool) {
+            if (p.status !== 'active' || seen.has(p.slug)) continue;
+            seen.add(p.slug);
+            picked.push(p);
+            if (picked.length >= 16) break;
+        }
+        return picked.map((p) => ({
+            id: `static_${p.slug}`,
+            slug: p.slug,
+            sku: p.sku,
+            brand: p.brand,
+            categorySlug: p.categorySlug,
+            price: p.price,
+            originalPrice: p.originalPrice,
+            images: p.images?.[0] ? [{ url: p.images[0].url }] : [],
+            translations: {
+                en: { name: p.translations?.en?.name },
+                ar: { name: p.translations?.ar?.name },
+            },
+        } as Product));
+    })();
 
     const isArabic = locale === 'ar';
     const sourceTranslation = product.translations?.[locale as 'ar' | 'en'] || product.translations?.en || {};
