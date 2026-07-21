@@ -10,6 +10,9 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import { useCart } from '@/context/CartContext';
 import ProductGuarantees from '@/components/products/ProductGuarantees';
+import BenchTestSection from '@/components/products/BenchTestSection';
+import CollapsibleSection from '@/components/products/CollapsibleSection';
+import type { BenchTest } from '@/data/details/_types';
 import BrandVerification from '@/components/UX/BrandVerification';
 import type { AggregateRating, Review } from '@/components/reviews/VerifiedReviews';
 import type { RegionalStats } from '@/lib/bosta';
@@ -114,6 +117,7 @@ interface ProductPageClientProps {
         aiTldr?: { en: string[]; ar: string[] };
         localContext?: { en: string; ar: string };
         specifications?: Record<string, { en: string; ar: string }>;
+        benchTest?: BenchTest;
     } | null;
 }
 
@@ -983,12 +987,16 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                         </section>
                     )}
 
-                    {/* Product specifications */}
+                    {/* Product specifications — collapsed by default to shorten the page */}
                     <section className="p-6 md:p-8" aria-label={isRTL ? 'مواصفات المنتج' : 'Product Specifications'}>
-                        <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                            <span>📊</span>
-                            {tProduct('specifications')}
-                        </h2>
+                      <CollapsibleSection
+                        summary={
+                            <h2 className="text-2xl font-bold flex items-center gap-2">
+                                <span>📊</span>
+                                {tProduct('specifications')}
+                            </h2>
+                        }
+                      >
                         <table className="w-full text-sm md:text-base table-fixed">
                             <colgroup>
                                 <col className="w-[40%]" />
@@ -1051,7 +1059,13 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 ))}
                             </tbody>
                         </table>
+                      </CollapsibleSection>
                     </section>
+
+                    {/* Real hands-on bench test — only for products the team has measured */}
+                    {productDetail?.benchTest && (
+                        <BenchTestSection data={productDetail.benchTest} isRTL={isRTL} />
+                    )}
                 </div>
             </div>
 

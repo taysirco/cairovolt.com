@@ -580,6 +580,7 @@ export default async function ProductPage({ params }: Props) {
                     aiTldr: productDetailData.aiTldr,
                     localContext: productDetailData.localContext,
                     specifications: productDetailData.specifications,
+                    benchTest: productDetailData.benchTest,
                 } : null}
             />
 

@@ -208,9 +208,10 @@ export async function getProductDetailAsync(slug: string): Promise<ProductDetail
         // or something similar. Find the first object that looks like a ProductDetail.
         const detail = Object.values(mod).find(
             (v): v is ProductDetail =>
-                typeof v === 'object' && v !== null && 'features' in v && 'specs' in v
+                typeof v === 'object' && v !== null && ('specifications' in v || 'aiTldr' in v)
         );
-        return detail;
+        // Fall back to the in-memory barrel if the module shape is unexpected.
+        return detail ?? enhancements[slug];
     } catch {
         // Fallback to synchronous in-memory map (the barrel is already evaluated at build time)
         return enhancements[slug];
