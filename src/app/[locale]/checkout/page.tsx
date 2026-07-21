@@ -200,14 +200,14 @@ export default function CheckoutPage() {
             const fromVerify = localStorage.getItem('cv_verify_completed') === 'true';
             if (fromVerify && !couponCode) {
                 // Auto-apply the warranty activation thank-you discount.
-                const code = 'WARRANTY10';
+                const code = 'WARRANTY5';
                 validateCouponRemote(code).then((v) => {
                     if (!v.valid) return;
                     setCouponInput(code);
                     setCouponCode(code);
                     setCouponType(v.type);
                     setCouponValue(v.value);
-                    setCouponLabel(isArabic ? 'خصم 10% — شكر تفعيل الضمان' : '10% Off — Warranty Activation Thank You');
+                    setCouponLabel(isArabic ? 'خصم 5% — شكر تفعيل الضمان' : '5% Off — Warranty Activation Thank You');
                 });
             }
         } catch { /* private browsing */ }

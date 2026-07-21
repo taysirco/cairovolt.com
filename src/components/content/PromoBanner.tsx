@@ -1,48 +1,87 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
 
+const CODE = 'WARRANTY5';
+
 /**
- * 🎁 بوكس شكر تفعيل الضمان — يظهر مرة واحدة بعد نجاح التحقق من كارت الضمان.
+ * 🎁 بوكس شكر تفعيل الضمان — يظهر مرة بعد نجاح التحقق من كارت الضمان (خصم 5%).
  *
- * أعيد تصميمه من «بار علوي» (كان يتصادم مع الهيدر الثابت الشفاف فيظهر مشوّشاً) إلى
- * **بطاقة عائمة أسفل الشاشة**: خارج مسار الهيدر تماماً (position:fixed)، قابلة للإغلاق
- * **ويُحفَظ الإغلاق فلا تعود**، مع **نسخ الكود بضغطة**. لا تزاحم الهيدر ولا المحتوى.
+ * بطاقة عائمة أسفل الشاشة (خارج مسار الهيدر الثابت — لا تصادم):
+ *  • قابلة للإغلاق **ويُحفَظ الإغلاق** فلا تعود.
+ *  • **تختفي تلقائياً بعد 20 ثانية** بلا أكشن (لا تشوّش على المحتوى).
+ *  • **ترتفع فوق أي شريط سفلي** (أيقونة/شريط الطلب على الموبايل) بقياس ارتفاعه حيّاً.
+ *  • نسخ الكود بضغطة.
  */
 export default function PromoBanner() {
     const pathname = usePathname();
     const isEn = pathname === '/en' || pathname.startsWith('/en/');
     const [visible, setVisible] = useState(false);
     const [copied, setCopied] = useState(false);
+    const [bottomPx, setBottomPx] = useState(16);
 
+    const hide = useCallback(() => {
+        setVisible(false);
+        try { localStorage.setItem('cv_promo_dismissed', 'true'); } catch { /* noop */ }
+    }, []);
+    const copy = useCallback(async () => {
+        try {
+            await navigator.clipboard.writeText(CODE);
+            setCopied(true);
+            window.setTimeout(() => setCopied(false), 2000);
+        } catch { /* بعض المتصفحات تمنع الحافظة بلا إذن/HTTPS — الكود ظاهر للنسخ اليدوي */ }
+    }, []);
+
+    // إظهار بعد نجاح التحقق (ما لم يُغلَق سابقاً)
     useEffect(() => {
-        let t: number | undefined;
+        let showT: number | undefined;
         try {
             const done = localStorage.getItem('cv_verify_completed') === 'true';
             const dismissed = localStorage.getItem('cv_promo_dismissed') === 'true';
             if (done && !dismissed) {
-                t = window.setTimeout(() => setVisible(true), 400); // دخول لطيف بعد استقرار الصفحة
+                showT = window.setTimeout(() => setVisible(true), 400);
                 const w = window as Window & { gtag?: (c: string, e: string, p: Record<string, string>) => void };
-                if (typeof w.gtag === 'function') {
-                    w.gtag('event', 'promo_banner_shown', { source: 'verified_warranty_record', promo_code: 'WARRANTY10' });
-                }
+                if (typeof w.gtag === 'function') w.gtag('event', 'promo_banner_shown', { source: 'verified_warranty_record', promo_code: CODE });
             }
         } catch { /* التصفح الخاص */ }
-        return () => { if (t !== undefined) window.clearTimeout(t); };
+        return () => { if (showT !== undefined) window.clearTimeout(showT); };
     }, []);
 
-    const close = () => {
-        setVisible(false);
-        try { localStorage.setItem('cv_promo_dismissed', 'true'); } catch { /* noop */ }
-    };
-    const copy = async () => {
-        try {
-            await navigator.clipboard.writeText('WARRANTY10');
-            setCopied(true);
-            window.setTimeout(() => setCopied(false), 2000);
-        } catch { /* بعض المتصفحات تمنع الحافظة بلا HTTPS/إذن */ }
-    };
+    // بعد الظهور: مؤقّت اختفاء 20ث + رفع البطاقة فوق أي شريط سفلي ثابت (أيقونة الطلب)
+    useEffect(() => {
+        if (!visible) return;
+        const hideT = window.setTimeout(hide, 20000);
+        const measure = () => {
+            let barH = 0;
+            document.querySelectorAll('div,section,nav,footer,aside').forEach((el) => {
+                if (el.id === 'promo-banner' || el.closest('#promo-banner')) return;
+                const cs = getComputedStyle(el);
+                if (cs.position !== 'fixed') return;
+                // ملتصق بأسفل الشاشة (computed bottom≈0) — أمتن من مقارنة rect.bottom بـ
+                // innerHeight (يختلفان على الموبايل: layout vs visual viewport).
+                const bottomVal = parseFloat(cs.bottom);
+                if (!(bottomVal >= 0 && bottomVal <= 4)) return;
+                const h = (el as HTMLElement).offsetHeight;
+                const r = el.getBoundingClientRect();
+                // شريط/أيقونة الطلب: يمتد بعرض الشاشة وارتفاعه معقول (نستبعد الطبقات كاملة الشاشة)
+                if (r.width > window.innerWidth * 0.7 && h >= 40 && h < 220) {
+                    barH = Math.max(barH, h);
+                }
+            });
+            setBottomPx(barH > 0 ? barH + 12 : 16);
+        };
+        measure();
+        window.addEventListener('resize', measure);
+        window.addEventListener('scroll', measure, { passive: true });
+        const measureT = window.setInterval(measure, 1500); // يلتقط ظهور الشريط بعد تمرير/تنقّل
+        return () => {
+            window.clearTimeout(hideT);
+            window.clearInterval(measureT);
+            window.removeEventListener('resize', measure);
+            window.removeEventListener('scroll', measure);
+        };
+    }, [visible, hide]);
 
     if (!visible) return null;
 
@@ -50,7 +89,8 @@ export default function PromoBanner() {
         <div
             dir={isEn ? 'ltr' : 'rtl'}
             id="promo-banner"
-            className="fixed bottom-4 inset-x-0 z-[60] flex justify-center px-4 pointer-events-none"
+            className="fixed inset-x-0 z-[60] flex justify-center px-4 pointer-events-none"
+            style={{ bottom: bottomPx, transition: 'bottom .2s ease' }}
         >
             <div
                 className="pointer-events-auto w-full max-w-sm rounded-2xl border border-amber-300/60 shadow-2xl overflow-hidden"
@@ -58,7 +98,7 @@ export default function PromoBanner() {
             >
                 <div className="relative px-4 py-3">
                     <button
-                        onClick={close}
+                        onClick={hide}
                         aria-label={isEn ? 'Close' : 'إغلاق'}
                         className={`absolute top-2 ${isEn ? 'right-2' : 'left-2'} w-7 h-7 flex items-center justify-center rounded-full text-black/60 hover:text-black hover:bg-black/10 text-lg font-bold leading-none`}
                     >
@@ -72,7 +112,7 @@ export default function PromoBanner() {
                                 {isEn ? 'Warranty activated — thank-you gift!' : 'تم تفعيل الضمان — هدية شكراً لك!'}
                             </p>
                             <p className="text-[11px] text-black/70">
-                                {isEn ? '10% off your next order' : 'خصم 10% على طلبك الجاي'}
+                                {isEn ? '5% off your next order' : 'خصم 5% على طلبك الجاي'}
                             </p>
                         </div>
                     </div>
@@ -81,7 +121,7 @@ export default function PromoBanner() {
                         onClick={copy}
                         className="mt-2.5 w-full flex items-center justify-between gap-2 rounded-xl bg-black px-3 py-2 hover:bg-black/90 active:bg-black/80 transition-colors"
                     >
-                        <span className="text-base font-bold tracking-wider text-yellow-400" style={{ fontFamily: "'Outfit', monospace" }}>WARRANTY10</span>
+                        <span className="text-base font-bold tracking-wider text-yellow-400" style={{ fontFamily: "'Outfit', monospace" }}>{CODE}</span>
                         <span className="text-xs font-bold text-yellow-300">
                             {copied ? (isEn ? 'Copied ✓' : 'تم النسخ ✓') : (isEn ? 'Tap to copy' : 'اضغط للنسخ')}
                         </span>

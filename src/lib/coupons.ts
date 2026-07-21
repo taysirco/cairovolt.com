@@ -7,6 +7,7 @@ const TTL = 60_000;
 
 /** Local fallback for established codes when the CRM is unavailable. */
 function fallbackVerdict(code: string): CouponVerdict {
+  if (code === 'WARRANTY5') return { valid: true, type: 'percent', value: 5 };
   if (code === 'ORIGINAL10') return { valid: true, type: 'percent', value: 10 };
   if (code === 'SALARY10') {
     const day = Number(new Intl.DateTimeFormat('en-GB', { timeZone: 'Africa/Cairo', day: 'numeric' }).format(new Date()));
@@ -19,9 +20,11 @@ export async function validateCoupon(rawCode: string): Promise<CouponVerdict> {
   const submittedCode = String(rawCode || '').trim().toUpperCase().replace(/[^A-Z0-9_-]/g, '').slice(0, 24);
   if (submittedCode.length < 3) return { valid: false, type: 'percent', value: 0 };
 
-  // WARRANTY10 is the customer-facing name. Keep the established CRM code as
-  // a compatibility alias so existing orders and campaign links still work.
-  const code = submittedCode === 'WARRANTY10' ? 'ORIGINAL10' : submittedCode;
+  // WARRANTY5 is the customer-facing warranty thank-you code (5%). Keep the old
+  // WARRANTY10 name working as a compatibility alias → WARRANTY5, so any code
+  // already copied/sent still validates (now at 5%). ORIGINAL10 (general 10%)
+  // stays a separate coupon.
+  const code = submittedCode === 'WARRANTY10' ? 'WARRANTY5' : submittedCode;
 
   const hit = cache.get(code);
   if (hit && Date.now() - hit.at < TTL) return hit.v;
