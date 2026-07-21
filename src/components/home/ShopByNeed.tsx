@@ -144,11 +144,15 @@ export default function ShopByNeed({ locale }: ShopByNeedProps) {
                 </div>
               )}
               <div className="relative z-10 flex h-full flex-col items-start p-6 sm:p-7">
-                <span className={`inline-flex h-10 w-10 items-center justify-center rounded-full border backdrop-blur-sm ${category.accent}`}>
-                  <SvgIcon name={category.icon} className="h-5 w-5" />
-                </span>
-                <h3 className="mt-4 font-outfit text-2xl font-bold tracking-tight">{isAr ? category.titleAr : category.titleEn}</h3>
-                <p className={`mt-1 max-w-[250px] text-sm leading-6 ${category.copyClass}`}>{isAr ? category.copyAr : category.copyEn}</p>
+                {/* Icon + title share one row — pairs the glyph with its label
+                    and reclaims the vertical gap that used to sit between them. */}
+                <div className="flex items-center gap-3">
+                  <span className={`inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border backdrop-blur-sm ${category.accent}`}>
+                    <SvgIcon name={category.icon} className="h-5 w-5" />
+                  </span>
+                  <h3 className="font-outfit text-xl font-bold leading-tight tracking-tight sm:text-2xl">{isAr ? category.titleAr : category.titleEn}</h3>
+                </div>
+                <p className={`mt-3 max-w-[250px] text-sm leading-6 ${category.copyClass}`}>{isAr ? category.copyAr : category.copyEn}</p>
                 <span className="mt-auto inline-flex items-center gap-2 text-sm font-bold">
                   {isAr ? 'اكتشف الخيارات' : 'Explore options'}
                   <span className="transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1">{isAr ? '←' : '→'}</span>

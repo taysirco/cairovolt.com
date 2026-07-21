@@ -241,25 +241,31 @@ export default function CategoryDiscoveryGrid({
                                 {/* Text stays first in the DOM so crawlers and screen
                                     readers meet the category meaning before the image. */}
                                 <div className="relative z-10 flex h-full min-h-[286px] flex-col items-start p-[18px] sm:p-5">
-                                    <div className="flex w-full items-start justify-between gap-2">
+                                    {/* Icon leads the title cluster: eyebrow label + spec
+                                        chip share the top line, headline sits right beneath
+                                        — all beside the glyph, so no isolated icon row. */}
+                                    <div className="flex w-full items-start gap-2.5">
                                         <span className={`inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border backdrop-blur-sm ${tone.icon}`}>
                                             <SvgIcon name={category.icon} className="h-4 w-4" />
                                         </span>
-                                        <span
-                                            dir="auto"
-                                            className="inline-flex max-w-[68%] rounded-full border border-white/70 bg-white/55 px-2.5 py-1 text-center text-[10px] font-bold leading-tight text-slate-700 backdrop-blur-sm"
-                                        >
-                                            {presentation.signal[language]}
-                                        </span>
+                                        <div className="min-w-0 flex-1">
+                                            <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                                                <span className={`text-[11px] font-black sm:text-xs ${tone.label}`}>
+                                                    {label}
+                                                </span>
+                                                <span
+                                                    dir="auto"
+                                                    className="inline-flex shrink-0 rounded-full border border-white/70 bg-white/55 px-2.5 py-1 text-[10px] font-bold leading-tight text-slate-700 backdrop-blur-sm"
+                                                >
+                                                    {presentation.signal[language]}
+                                                </span>
+                                            </div>
+                                            <h3 className="mt-0.5 text-lg font-black leading-tight tracking-[-0.02em] sm:text-xl">
+                                                {presentation.headline[language]}
+                                            </h3>
+                                        </div>
                                     </div>
-
-                                    <span className={`mt-2 text-[11px] font-black sm:text-xs ${tone.label}`}>
-                                        {label}
-                                    </span>
-                                    <h3 className="mt-0.5 max-w-[96%] text-lg font-black leading-tight tracking-[-0.02em] sm:text-xl">
-                                        {presentation.headline[language]}
-                                    </h3>
-                                    <p className="mt-1 max-w-[96%] text-xs leading-[1.15rem] text-slate-600">
+                                    <p className="mt-2 max-w-[96%] text-xs leading-[1.15rem] text-slate-600">
                                         {presentation.description[language]}
                                     </p>
 
