@@ -38,6 +38,7 @@ const VerifiedReviews = dynamic(() => import('@/components/reviews/VerifiedRevie
 // slow connections get no pop-in. All of them render purely from props/context
 // with zero window/document access at render time.
 const RelatedProducts = dynamic(() => import('@/components/products/RelatedProducts'));
+const FrequentlyBoughtTogether = dynamic(() => import('@/components/products/FrequentlyBoughtTogether'));
 
 const BundleSelector = dynamic(() => import('@/components/products/BundleSelector'), {
     loading: () => <div className="h-64 bg-gray-50 dark:bg-gray-800 rounded-2xl animate-pulse my-8" />,
@@ -177,6 +178,24 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
     const activeStock = selectedVariant?.stock ?? (product.stock || 0);
     // Display-only pre-discount reference (never affects checkout/feed/schema)
     const discount = getDiscountInfo(activePrice, activeOriginalPrice);
+
+    // ═══ توصيات الأسفل: قسمان بلا تكرار ═══
+    // «الذين اشتروا هذا المنتج في الغالب اشتروا أيضاً» = المكمّلات الحقيقية (بسبب
+    // مختصر) من محرّك الكومبو الذكي؛ و«قد يعجبك أيضاً» = بقيّة المقترحات بعد
+    // استبعاد تلك المكمّلات، فلا يظهر منتج في القسمين معاً.
+    const boughtTogether = useMemo(() => (
+        (bundleData?.bundleProducts || []).map((bp) => ({
+            ...bp.product,
+            reason: isRTL ? bp.reason?.ar : bp.reason?.en,
+            slot: bp.slot,
+        }))
+    ), [bundleData, isRTL]);
+
+    const youMayLikeProducts = useMemo(() => {
+        if (!boughtTogether.length) return relatedProducts;
+        const usedSlugs = new Set(boughtTogether.map((p) => p.slug));
+        return relatedProducts.filter((p) => !usedSlugs.has(p.slug));
+    }, [relatedProducts, boughtTogether]);
 
     // Variant-aware product for BundleSelector — overrides price/name with selected variant
     const variantAwareMainProduct = useMemo(() => {
@@ -801,16 +820,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 </div>
 
 
-                                {/* Share Buttons */}
-                                <div className="mt-3">
-                                    <ShareButtons
-                                        slug={product.slug}
-                                        productName={productName}
-                                        price={activePrice}
-                                        locale={locale}
-                                    />
-                                </div>
-
                                 {/* Bundle Selector Component */}
                                 <div className="mt-8">
                                     <BundleSelector
@@ -1112,18 +1121,33 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                     productSlug={product.slug}
                     productName={isRTL ? (product.translations?.ar?.name || product.slug) : (product.translations?.en?.name || product.slug)}
                 />
+
+                {/* Share Buttons — moved here, under the reviews section */}
+                <div className="mt-6 pt-6 border-t border-gray-100 dark:border-gray-800">
+                    <ShareButtons
+                        slug={product.slug}
+                        productName={productName}
+                        price={activePrice}
+                        locale={locale}
+                    />
+                </div>
             </div>
             {/* Related Products Section */}
             <div className="container mx-auto px-4 pb-8 cv-auto">
-                <RelatedProducts products={relatedProducts} locale={locale} />
+                <RelatedProducts products={youMayLikeProducts} locale={locale} />
 
-                {/* Related Categories */}
-                <RelatedLinks
-                    currentUrl={`/${brandLower}/${categoryLower}`}
-                    locale={locale}
-                    variant="pill"
-                    maxLinks={4}
-                />
+                {/* Related Categories (تصفح أيضاً) — الفراغ السفلي مضبوط ليلتصق بالقسم التالي */}
+                <div className="[&>div]:pb-0">
+                    <RelatedLinks
+                        currentUrl={`/${brandLower}/${categoryLower}`}
+                        locale={locale}
+                        variant="pill"
+                        maxLinks={4}
+                    />
+                </div>
+
+                {/* الذين اشتروا هذا المنتج في الغالب اشتروا أيضاً */}
+                <FrequentlyBoughtTogether products={boughtTogether} locale={locale} />
             </div>
 
             {/* Mobile Sticky Action Bar — Hidden when Out of Stock */}
