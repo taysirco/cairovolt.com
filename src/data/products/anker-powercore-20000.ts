@@ -36,7 +36,7 @@ export const anker_powercore_20000 = {
                 name: "Anker PowerCore 20000mAh | 72Wh | Dual USB-A",
                 shortDescription: "🔋 Manufacturer-listed 20,000mAh (72Wh) | 🔌 Dual USB-A outputs | 📊 LED indicator | ✈️ Check current airline rules | 🧾 Check current warranty terms",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Anker PowerCore 20000 (A1260/A1260011)</strong> has a manufacturer-listed 20,000mAh cell rating (72Wh), two USB-A outputs and a four-LED battery indicator. The mAh value is measured at cell voltage; usable energy at USB output is lower after conversion. Charge count, speed and runtime depend on the device, cable, battery condition and simultaneous load. Check the current price, package contents and service terms before ordering.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Anker PowerCore II 20000 (A1260/A1260011)</strong> has a manufacturer-listed 20,000mAh cell rating (72Wh), two USB-A outputs (an 18W PowerIQ 2.0 port and a 12W port) and an 8-light LED battery indicator. The mAh value is measured at cell voltage; usable energy at USB output is lower after conversion. Charge count, speed and runtime depend on the device, cable, battery condition and simultaneous load. Check the current price, package contents and service terms before ordering.</p></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">How to verify the listing</h3><p class="text-gray-700">Match model <strong>A1260011</strong>, the 72Wh label, input/output table, ports and package contents with the supplied unit and current manufacturer documentation. If the unit provides a serial verification process, use the printed instructions or <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">official verification reference</a>. Appearance or price alone does not prove origin.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">Key points</h3><ul class="list-none space-y-1"><li>🔋 <strong>20,000mAh / 72Wh cell rating:</strong> delivered USB energy varies after conversion.</li><li>🔌 <strong>Two USB-A outputs:</strong> total power may be shared when two devices charge.</li><li>⚡ <strong>PowerIQ and VoltageBoost statements:</strong> the connected device controls accepted current.</li><li>✈️ <strong>Travel check:</strong> 72Wh is below the common 100Wh cabin threshold; confirm current carrier and route rules.</li><li>🧾 <strong>Warranty and returns:</strong> review the current period, eligibility, exclusions and claim process.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">Use the exact model and printed Wh value rather than relying only on the 20,000mAh marketing class. Compare output current, connector type and cable requirements with each device. General charge-count examples are estimates, not measurements of your phone or this unit.</p></div>
@@ -49,7 +49,7 @@ export const anker_powercore_20000 = {
                     "⚡ PowerIQ + VoltageBoost statements",
                     "✈️ Check current airline rules",
                     "🛡️ Review printed protection features",
-                    "📊 Four-LED power indicator",
+                    "📊 8-light LED power indicator",
                     "🧾 Check current warranty terms",
                     "🔎 Verify ratings on the unit and manufacturer documentation"],
                 metaTitle: "Anker PowerCore 20000mAh | Price in Egypt",
@@ -67,7 +67,7 @@ export const anker_powercore_20000 = {
                 name: "باور بانك انكر PowerCore بسعة 20000 مللي أمبير | 72Wh | منفذا USB-A",
                 shortDescription: "🔋 سعة خلايا معلنة 20,000 مللي أمبير (72Wh) | 🔌 منفذا USB-A | 📊 مؤشر LED | ✈️ تحقق من قواعد الطيران | 🧾 راجع الضمان الحالي",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">باور بانك <strong>انكر PowerCore 20000 (A1260/A1260011)</strong> يأتي وفق بيانات الشركة بتصنيف خلايا 20,000 مللي أمبير (72Wh) ومنفذي USB-A ومؤشر بطارية بأربع لمبات. قيمة المللي أمبير مقاسة عند جهد الخلايا، بينما تقل الطاقة المسلمة عند خرج USB بعد التحويل. عدد الشحنات والسرعة والمدة تتغير حسب الجهاز والكابل وحالة البطارية والحمل المتزامن. راجع السعر ومحتويات العبوة وشروط الخدمة الحالية قبل الطلب.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">باور بانك <strong>انكر PowerCore II 20000 (A1260/A1260011)</strong> يأتي وفق بيانات الشركة بتصنيف خلايا 20,000 مللي أمبير (72Wh) ومنفذي USB-A (منفذ PowerIQ 2.0 بقدرة 18W ومنفذ 12W) ومؤشر بطارية بـ 8 لمبات. قيمة المللي أمبير مقاسة عند جهد الخلايا، بينما تقل الطاقة المسلمة عند خرج USB بعد التحويل. عدد الشحنات والسرعة والمدة تتغير حسب الجهاز والكابل وحالة البطارية والحمل المتزامن. راجع السعر ومحتويات العبوة وشروط الخدمة الحالية قبل الطلب.</p></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">طريقة التحقق من المنتج</h3><p class="text-gray-700">طابق رقم الموديل <strong>A1260011</strong> وبيان 72Wh وجدول الإدخال والإخراج والمنافذ ومحتويات العبوة مع الوحدة ووثائق الشركة الحالية. إذا توفرت طريقة تحقق تسلسلية فاستخدم التعليمات المطبوعة أو <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">مرجع التحقق الرسمي</a>. الشكل أو السعر وحدهما لا يثبتان المصدر.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">نقاط مهمة</h3><ul class="list-none space-y-1"><li>🔋 <strong>تصنيف خلايا 20,000 مللي أمبير / 72Wh:</strong> الطاقة المسلمة تختلف بعد التحويل.</li><li>🔌 <strong>منفذا USB-A:</strong> قد تتوزع القدرة عند شحن جهازين.</li><li>⚡ <strong>بيانات PowerIQ وVoltageBoost:</strong> الجهاز المتصل يحدد التيار المقبول.</li><li>✈️ <strong>تحقق قبل السفر:</strong> 72Wh أقل من حد 100Wh الشائع للمقصورة، لكن قواعد الناقل والرحلة قد تختلف.</li><li>🧾 <strong>الضمان والاسترجاع:</strong> راجع المدة والأهلية والاستثناءات وطريقة المطالبة الحالية.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">اعتمد رقم الموديل وقيمة Wh المطبوعة بدلاً من فئة 20,000 مللي أمبير وحدها. قارن تيار الخرج ونوع الموصل ومتطلبات الكابل بكل جهاز. أمثلة عدد الشحنات تقديرات وليست قياساً لهاتفك أو لهذه الوحدة.</p></div>
@@ -80,7 +80,7 @@ export const anker_powercore_20000 = {
                     "⚡ بيانات PowerIQ + VoltageBoost",
                     "✈️ تحقق من قواعد الطيران الحالية",
                     "🛡️ راجع ميزات الحماية المطبوعة",
-                    "📊 مؤشر بطارية بأربع لمبات",
+                    "📊 مؤشر بطارية بـ 8 لمبات",
                     "🧾 راجع سياسة الضمان والاسترجاع",
                     "🔎 تحقق من القيم على الوحدة ووثائق الشركة"],
                 metaTitle: "باور بانك انكر PowerCore 20000 | السعر في مصر",
