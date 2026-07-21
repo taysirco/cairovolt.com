@@ -266,25 +266,6 @@ export default function Footer() {
                                     {t('shippingPolicy')}
                                 </Link>
                             </li>
-                            <li className="text-xs leading-relaxed">
-                                <span className="block mb-1 text-gray-500 dark:text-gray-500">
-                                    {isRTL ? 'التوصيل للمحافظات:' : 'Delivery by governorate:'}
-                                </span>
-                                <span className="flex flex-wrap gap-x-2 gap-y-1">
-                                    <Link href={getLocalizedHref('/locations/cairo')} className="hover:text-blue-600 transition-colors">
-                                        {isRTL ? 'القاهرة' : 'Cairo'}
-                                    </Link>
-                                    <Link href={getLocalizedHref('/locations/giza')} className="hover:text-blue-600 transition-colors">
-                                        {isRTL ? 'الجيزة' : 'Giza'}
-                                    </Link>
-                                    <Link href={getLocalizedHref('/locations/alexandria')} className="hover:text-blue-600 transition-colors">
-                                        {isRTL ? 'الإسكندرية' : 'Alexandria'}
-                                    </Link>
-                                    <Link href={getLocalizedHref('/locations/dakahlia')} className="hover:text-blue-600 transition-colors">
-                                        {isRTL ? 'الدقهلية' : 'Dakahlia'}
-                                    </Link>
-                                </span>
-                            </li>
                             <li>
                                 <Link href={getLocalizedHref('/return-policy')} className="hover:text-gray-900 dark:hover:text-white transition-colors">
                                     {t('returnPolicy')}
