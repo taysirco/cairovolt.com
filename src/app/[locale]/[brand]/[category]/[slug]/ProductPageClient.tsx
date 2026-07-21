@@ -14,6 +14,7 @@ import BenchTestSection from '@/components/products/BenchTestSection';
 import CollapsibleSection from '@/components/products/CollapsibleSection';
 import type { BenchTest } from '@/data/details/_types';
 import BrandVerification from '@/components/UX/BrandVerification';
+import OpenInBrowserBanner from '@/components/OpenInBrowserBanner';
 import type { AggregateRating, Review } from '@/components/reviews/VerifiedReviews';
 import type { RegionalStats } from '@/lib/bosta';
 import type { ProductVariant } from '@/lib/static-products';
@@ -401,6 +402,9 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
     return (
         <div className={`min-h-screen pb-20 overflow-x-hidden ${locale === 'ar' ? 'rtl' : 'ltr'}`}>
+
+            {/* 🌐 «افتح في المتصفح» — يظهر فقط داخل المتصفحات المدمجة (يحل حجب دخول جوجل هناك) */}
+            <OpenInBrowserBanner locale={locale} />
 
             {/* Visual Interface Layer */}
 
