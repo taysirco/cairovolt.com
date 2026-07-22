@@ -64,7 +64,7 @@ export const anker_stores_egypt_cairo_alexandria: BlogArticle = {
 </ul>
 
 <h3>الخطر #3 — مقلّدات OLX وFacebook Marketplace</h3>
-<p>من واقع بيانات داخلية، أكتر من 40% من شواحن انكر المعروضة على منصات البيع بين الأفراد في مصر مقلّدة — حتى لو البائع مؤمن بإن اللي عنده أصلي، لأنه هو اشتراه غلط كمان. الشاحن المقلّد بيتناقل من بائع لبائع.</p>
+<p>من واقع حالات العملاء اللي بتوصلنا وتحذيرات السوق المتكررة، نسبة كبيرة من شواحن أنكر المعروضة على منصات البيع بين الأفراد (OLX وفيسبوك ماركت) في مصر مقلّدة — حتى لو البائع نفسه مؤمن إن اللي عنده أصلي، لأنه هو كمان اشتراه غلط. الشاحن المقلّد بيتناقل من بائع لبائع.</p>
 
 <h2>إزاي تتعرف على البائع الموثوق — 5 علامات</h2>
 
@@ -241,7 +241,7 @@ export const anker_stores_egypt_cairo_alexandria: BlogArticle = {
 </ul>
 
 <h3>Risk #3 — Counterfeits on OLX and Facebook Marketplace</h3>
-<p>Based on internal data, more than 40% of Anker chargers listed on peer-to-peer selling platforms in Egypt are counterfeit — even when the seller genuinely believes they have an original, because they bought it incorrectly too. Counterfeit chargers travel from seller to seller.</p>
+<p>Based on the customer cases that reach us and repeated market warnings, a large share of Anker chargers listed on peer-to-peer platforms (OLX and Facebook Marketplace) in Egypt are counterfeit — even when the seller genuinely believes theirs is original, because they too bought it by mistake. Counterfeit chargers travel from seller to seller.</p>
 
 <h2>How to Identify a Trusted Seller — 5 Signs</h2>
 

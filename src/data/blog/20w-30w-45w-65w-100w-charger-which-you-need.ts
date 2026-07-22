@@ -46,9 +46,9 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 بيانات كايرو فولت — مبيعات مايو 2026:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 من واقع طلبات الشراء عندنا في كايرو فولت:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        حللّنا 2,400 طلب شراء شاحن في آخر 3 شهور. <strong>النتيجة:</strong> 38% اشتروا شاحن 20W (الأرخص). 35% اشتروا 30W (الأذكى). 18% اشتروا 45W (لأجهزة متعددة). 9% اشتروا 65W+ (لابتوب). المفاجأة: 41% من مشتري 20W رجعوا خلال 60 يوم يشتروا 30W — لإنهم حسوا بالفرق في السرعة.
+        من مراجعة طلبات شراء الشواحن لدينا مؤخراً (نحو 2,400 طلب)، كان التوزيع تقريباً: <strong>38% لشاحن 20W</strong> (الأرخص)، و<strong>35% لشاحن 30W</strong>، و18% لشاحن 45W (لأجهزة متعددة)، و9% لفئة 65W+ (لابتوب). والملاحظة اللافتة: نسبة ملحوظة من مشتري 20W رجعوا خلال شهرين تقريباً ليشتروا 30W بعد ما حسّوا الفرق في السرعة. الدرس: لو ميزانيتك تسمح، الـ30W غالباً هي الاختيار الأذكى للموبايل.
     </p>
 </div>
 
@@ -309,9 +309,9 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Data — May 2026 Sales:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 From our own charger orders at CairoVolt:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We analyzed 2,400 charger purchases over the last 3 months. <strong>Result:</strong> 38% bought 20W (cheapest). 35% bought 30W (smartest). 18% bought 45W (multi-device). 9% bought 65W+ (laptop). The surprise: 41% of 20W buyers returned within 60 days to buy a 30W — because they felt the speed difference.
+        Reviewing our recent charger orders (around 2,400), the split was roughly: <strong>38% chose 20W</strong> (the cheapest), <strong>35% chose 30W</strong>, 18% chose 45W (multi-device), and 9% chose 65W+ (laptop). The notable pattern: a meaningful share of 20W buyers came back within about two months for a 30W once they felt the speed difference. The lesson: if your budget allows, 30W is usually the smartest pick for a phone.
     </p>
 </div>
 

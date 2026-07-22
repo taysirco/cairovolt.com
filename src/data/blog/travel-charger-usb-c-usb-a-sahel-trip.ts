@@ -232,9 +232,9 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Data — Summer 2025:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 From our own order records — Sahel season (Jun–Aug 2025):</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We analyzed 1,200 purchase orders from June–August 2025 (Sahel season). <strong>Result:</strong> 67% of customers bought USB-C only chargers. 28% bought dual-port (USB-C + USB-A). 5% bought USB-A only. The #1 reason for returns/exchanges: "The charger doesn't have USB-A for my old earbuds" — 14% of all exchanges.
+        Across roughly 1,200 travel-charger orders during the June–August 2025 Sahel season, about <strong>67% chose USB-C-only chargers</strong>, around 28% chose dual-port (USB-C + USB-A), and only ~5% picked USB-A only. The most common exchange reason was needing a USB-A port for older earbuds or accessories (about one in seven exchanges). Practical takeaway: if you still use any USB-A device, a dual-port charger saves you a second trip.
     </p>
 </div>
 

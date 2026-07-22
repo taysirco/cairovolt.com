@@ -139,9 +139,9 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
 </ul>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 نصيحة من مستخدم خبرة — أحمد من مدينة نصر</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">💡 نصيحة عملية لمستخدمي السكوتر الكهربائي اليومي</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        "أنا بستخدم السكوتر الكهربائي من سنة ونص للشغل كل يوم (22 كم ذهاب وإياب). أهم حاجة اتعلمتها: اشتري خوذة كويسة وحامل موبايل ميكانيكي من أول يوم — مش بعد ما تقع. وخلي معاك باور بانك صغير دايماً — الموبايل بيموت بسرعة والأنت في نص الشارع بدون خريطة ده إحساس مش حلو."
+        لو بتعتمد على السكوتر الكهربائي في تنقلك اليومي، أهم أساسيات السلامة والراحة: خوذة جيدة وحامل موبايل ميكانيكي من أول يوم — مش بعد أول وقعة. واحتفظ دائماً بباور بانك صغير معاك، لأن نفاد شحن الموبايل في نص الطريق بدون خريطة موقف مزعج ويمكن تفاديه بسهولة.
     </p>
 </div>
 
@@ -283,9 +283,9 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
 </ul>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 Advice from an Experienced User — Ahmed from Nasr City</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">💡 Practical advice for daily electric-scooter riders</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        "I've been using my electric scooter for a year and a half to commute to work daily (22 km round trip). The most important thing I learned: buy a good helmet and a mechanical phone mount from day one — not after you fall. And always carry a small power bank — having your phone die in the middle of the street with no map is not a good feeling."
+        If you rely on an electric scooter for your daily commute, the safety and comfort essentials matter most: get a good helmet and a mechanical phone mount from day one — not after your first fall. And always carry a small power bank, because having your phone die mid-route with no map is an easily avoidable hassle.
     </p>
 </div>
 

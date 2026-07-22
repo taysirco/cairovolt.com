@@ -46,9 +46,9 @@ export const slimmest_100w_laptop_gan_chargers_egypt: BlogArticle = {
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 بيانات كايرو فولت — مايو 2026:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 من واقع ملاحظات عملائنا:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        من استبيان 800 عميل اشتروا شواحن 45W+ في آخر 3 شهور: <strong>43% بيستخدموا الشاحن للابتوب + موبايل معاً</strong>. 67% اشتكوا من حجم ووزن شاحن اللابتوب الأصلي. والمفاجأة: <strong>28% مكانوش يعرفوا إن اللابتوب بتاعهم ممكن يتشحن من USB-C</strong> — كانوا فاكرين إن لازم الشاحن الأصلي بالـ barrel connector.
+        لما راجعنا طريقة استخدام العملاء اللي اشتروا شاحن 45W+، تكررت نفس الملاحظات: نسبة كبيرة (حوالي الثلثين) بيشغّلوا شاحن واحد <strong>للابتوب والموبايل معاً</strong>، وكثيرون اشتكوا من حجم ووزن شاحن اللابتوب الأصلي، والمفاجأة إن عدداً غير قليل ماكانش يعرف إن اللابتوب بتاعه ممكن يتشحن من <strong>USB-C</strong> أصلاً — كانوا فاكرين إن موصل الـbarrel هو الخيار الوحيد. قبل الشراء تأكد من دعم USB-C Power Delivery في دليل جهازك.
     </p>
 </div>
 
@@ -290,9 +290,9 @@ export const slimmest_100w_laptop_gan_chargers_egypt: BlogArticle = {
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Data — May 2026:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 From our own customer feedback:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        From surveying 800 customers who purchased 45W+ chargers in the last 3 months: <strong>43% use their charger for both laptop and phone simultaneously</strong>. 67% complained about the size and weight of their original laptop charger. And the surprise: <strong>28% did not know their laptop could charge via USB-C</strong> — they thought the original barrel connector was the only option.
+        When we looked at how customers who bought a 45W+ charger actually use it, a few themes came up again and again: a large share (around two-thirds) run one charger for <strong>both a laptop and a phone</strong>, many were frustrated by the size and weight of their original laptop brick, and a surprising number did not realise their laptop could charge over <strong>USB-C</strong> at all — they assumed the barrel connector was the only option. Before you buy, confirm USB-C Power Delivery support in your laptop's manual.
     </p>
 </div>
 

@@ -46,9 +46,9 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 بيانات كايرو فولت — مايو 2026:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 من واقع استفسارات عملائنا في كايرو فولت:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        من تحليل 2,400+ استفسار عملاء في آخر 6 شهور: <strong>34% سألوا "هل الشحن بالليل بيبوظ الموبايل؟"</strong> — ده تاني أكتر سؤال بعد "الشاحن ده أصلي؟". 78% من العملاء اللي رجّعوا بطاريات تالفة كانوا بيستخدموا شواحن مقلّدة — مش لإنهم بيشحنوا بالليل. <strong>النتيجة:</strong> المشكلة مش التوقيت، المشكلة جودة الشاحن.
+        سؤال "هل الشحن بالليل بيبوظ الموبايل؟" من أكثر الأسئلة اللي بتوصلنا من العملاء — تقريباً في المرتبة الثانية بعد "الشاحن ده أصلي؟". والملاحظة الأهم من واقع حالات إرجاع البطاريات التالفة: الغالبية العظمى كانت مرتبطة باستخدام شواحن مقلّدة أو مجهولة المصدر، مش بتوقيت الشحن نفسه. <strong>الخلاصة:</strong> المشكلة مش إنك بتشحن بالليل، المشكلة في جودة الشاحن ومطابقته للمواصفات.
     </p>
 </div>
 
@@ -256,9 +256,9 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Data — May 2026:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 From our own customer inquiries at CairoVolt:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        From analyzing 2,400+ customer inquiries over the last 6 months: <strong>34% asked "Does overnight charging damage my phone?"</strong> — the second most common question after "Is this charger genuine?" 78% of customers who returned damaged batteries were using counterfeit chargers — not because they charged overnight. <strong>The takeaway:</strong> the problem is not timing, it is charger quality.
+        "Does overnight charging damage my phone?" is one of the most frequent questions we receive — roughly the second most common after "Is this charger genuine?" And the more telling pattern from damaged-battery returns: the large majority were linked to counterfeit or unknown-source chargers, not to the timing of charging. <strong>The takeaway:</strong> the problem is not charging overnight — it is charger quality and spec compliance.
     </p>
 </div>
 

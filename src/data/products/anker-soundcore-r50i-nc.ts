@@ -63,7 +63,7 @@ export const anker_soundcore_r50i_nc = {
 </div>
 `,
                 features: ["🔇 Manufacturer-listed ANC up to 42dB", "🔋 Check published battery test conditions", "🎙️ Four-microphone call processing", "📱 Fold-out phone-stand case", "🎵 10mm driver and app EQ", "💧 Verify IP54 scope and limitations", "⚡ Manufacturer-listed quick-charge figure", "🔊 Transparency Mode", "🏆 Review current CairoVolt warranty terms"],
-                metaTitle: "Soundcore R50i NC Original — ANC + 45h Battery | Best Price Egypt",
+                metaTitle: "Soundcore R50i NC Original | ANC + 45h Battery | Egypt COD",
                 metaDesc: "Cut the noise with Soundcore R50i NC active noise cancelling, up to 45h total battery and IP54 resistance. Genuine, store warranty and COD in Egypt.",
                 faqs: [
                     { question: "How does the advertised 42dB ANC help?", answer: "Soundcore rates the ANC at up to 42dB under its specified conditions. Actual reduction varies with fit and noise type; choose an ear tip that seals comfortably and follow the fit guidance." },

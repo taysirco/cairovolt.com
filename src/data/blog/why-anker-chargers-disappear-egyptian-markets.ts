@@ -45,7 +45,7 @@ export const why_anker_chargers_disappear_egyptian_markets: BlogArticle = {
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 بيانات كايرو فولت — من تتبع المخزون على مدار 18 شهر (يناير 2025 – مايو 2026):</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 من رصدنا لتوفّر المنتجات في السوق المصري (يناير 2025 – مايو 2026):</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
         تتبّعنا توفّر 8 منتجات أنكر الأكثر مبيعاً في مصر عبر 5 قنوات بيع (أمازون مصر، نون، OLX، فيسبوك ماركت، والمحلات الفعلية). <strong>النتيجة: المنتج الواحد كان "غير متاح" في المتوسط 47 يوم من كل 180 يوم</strong> — يعني ربع السنة مفيش مخزون. وفي فترات ذروة الطلب (يونيو-أغسطس ورمضان)، النسبة ارتفعت لـ <strong>63 يوم من 180</strong>. الخبر الكويس: المتاجر اللي بتطلب بنظام الحجز المسبق كانت نسبة توفّرها أعلى بـ 3 أضعاف.
     </p>
@@ -226,7 +226,7 @@ export const why_anker_chargers_disappear_egyptian_markets: BlogArticle = {
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Data — 18-Month Inventory Tracking (January 2025 – May 2026):</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 From our market availability monitoring (January 2025 – May 2026):</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
         We tracked the availability of 8 best-selling Anker products in Egypt across 5 sales channels (Amazon Egypt, Noon, OLX, Facebook Marketplace, and physical stores). <strong>Result: each product was "unavailable" an average of 47 days out of every 180</strong> — meaning one quarter of the year with zero stock. During peak demand periods (June-August and Ramadan), this rose to <strong>63 out of 180 days</strong>. The good news: retailers using pre-order systems had 3× higher availability rates.
     </p>

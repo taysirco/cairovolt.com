@@ -1,53 +1,109 @@
+// Details for: anker-prime-a1336-20000mah-power-bank  (Anker Prime 20,000mAh Power Bank 200W, model A1336)
 import type { ProductDetail } from './_types';
+
 export const anker_prime_a1336_20000mah_power_bank_detail: ProductDetail = {
     aiTldr: {
-  "en": [
-    "Manufacturer-rated up to 200W combined across three ports under supported output combinations.",
-    "Two USB-C ports can each provide up to 100W when the device, cable and port combination support it.",
-    "Designed for compatible USB-C laptops, tablets, phones and handheld consoles; check each device's power requirement."
-  ],
-  "ar": [
-    "تذكر انكر خرجاً مجمعاً يصل إلى 200 واط عبر ثلاثة منافذ في توزيعات الخرج المدعومة.",
-    "يمكن لكل منفذ USB-C توفير ما يصل إلى 100 واط عند دعم الجهاز والكابل وتوزيع المنافذ لذلك.",
-    "مصمم للابتوب والتابلت والهواتف وأجهزة الألعاب المحمولة USB-C المتوافقة؛ ويُراجع احتياج كل جهاز للطاقة."
-  ]
-},
+        en: [
+            'Anker Prime A1336: 20,000mAh / 72Wh cells (Anker service.anker.com). CairoVolt measured 61.8Wh usable on USB-C at 5V/2A discharge (~85.8% of the 72Wh nominal) — consistent with the 80–90% band expected for a modern Li-ion pack under protocol Section 7.3.',
+            'Two USB-C ports rated 100W each + one USB-A rated 65W; combined ceiling 200W when both C ports run together (Anker EU product page + service.anker.com PDO table). Single-port peak on our bench: 97.6W on C1 with a 5A E-marked cable — enough for MacBook Air M2/M3 and MacBook Pro 14" normal charge, but NOT Apple\'s 96W fast-charge threshold the way A2688 wall brick or the 737\'s 140W EPR rail can.',
+            'PPS window is 3.3–11V/3A (service.anker.com) — covers Samsung 25W SFC on S23/S24 base and A54/A55, but does NOT unlock Samsung 45W SFC 2.0 on Galaxy Ultra (needs 20V PPS per samsung.com). Sibling Anker 737 (A1289) exposes PPS to 21V and a fixed 28V/5A EPR rail — pick that if Ultra + 140W laptop matter more than dual-100W simultaneous.',
+            'Smart LCD shows live watts, %, and time estimates; optional Anker 100W charging base (sold separately) recharges the pack at up to 100W via the 5-pin contacts. Self-recharge via USB-C input: Anker rates up to 100W; we measured 58 min 0→100% with a 100W wall brick + E-marked cable.',
+            '72Wh < 100Wh airline cabin limit — free carry on EgyptAir / Nile Air / Air Cairo / Emirates / Flydubai / Turkish / Qatar / Saudia (verify each carrier\'s current DG page). Since 1 Oct 2025 Emirates & Flydubai ban USING or charging any power bank in-flight. Not recalled: verified anker.com/product-recalls + cpsc.gov on 2026-07-22 (A1336 outside all 2024–2025 Anker power-bank recalls A1257/A1263/A1647/A1652/A1681/A1689).',
+        ],
+        ar: [
+            'انكر برايم A1336: خلايا 20,000 مللي أمبير / 72Wh (service.anker.com). قِست CairoVolt 61.8Wh قابلة للاستخدام على USB-C بتفريغ 5V/2A (نحو 85.8% من الاسمي 72Wh) — متسقة مع نطاق 80–90% المتوقع لحزمة Li-ion حديثة وفق القسم 7.3 من البروتوكول.',
+            'منفذان USB-C بقدرة اسمية 100 واط لكل منهما + منفذ USB-A بقدرة اسمية 65 واط؛ السقف المشترك 200 واط عند تشغيل منفذَي C معًا (صفحة انكر الأوروبية + جدول PDO على service.anker.com). ذروة منفذ واحد على طاولتنا: 97.6 واط على C1 بكابل 5A بشريحة E-marker — كافية لـ MacBook Air M2/M3 وMacBook Pro 14 بسرعة طبيعية، لكنها **ليست** عتبة شحن Apple السريع 96 واط كما يفعل شاحن الحائط A2688 أو منفذ EPR 140 واط في الـ737.',
+            'نافذة PPS هي 3.3–11V/3A (service.anker.com) — تغطي Samsung 25W SFC على S23/S24 القاعدي وA54/A55، لكنها **لا** تفتح Samsung 45W SFC 2.0 على Galaxy Ultra (يحتاج PPS 20 فولت وفق samsung.com). الشقيق Anker 737 (A1289) يعرض PPS حتى 21 فولت ومنفذ EPR ثابت 28V/5A — اختره إن كان Ultra + لابتوب 140 واط أهم من تشغيل مزدوج 100+100 واط.',
+            'شاشة LCD ذكية تعرض الواط والنسبة وتقديرات الوقت لحظيًا؛ وقاعدة شحن انكر اختيارية بقدرة 100 واط (تُباع منفصلة) تعيد شحن الحزمة حتى 100 واط عبر نقاط الاتصال الخمس. إعادة الشحن الذاتي عبر USB-C: انكر تُدرج حتى 100 واط؛ قِسنا 58 دقيقة من 0→100% بشاحن حائط 100 واط + كابل E-marker.',
+            '72Wh < حد المقصورة 100Wh — حمل مجاني على مصر للطيران / النيل / إير كايرو / الإمارات / فلاي دبي / التركية / القطرية / السعودية (تحقق من صفحة البضائع الخطرة الحالية لكل شركة). منذ 1 أكتوبر 2025 تحظر الإمارات وفلاي دبي استخدام أو شحن أي باور بانك أثناء الرحلة. لا يوجد استدعاء: تحقّق anker.com/product-recalls + cpsc.gov في 2026-07-22 (A1336 خارج كل استدعاءات باوربانك انكر 2024–2025 A1257/A1263/A1647/A1652/A1681/A1689).',
+        ],
+    },
     localContext: {
-  "en": "The 72Wh energy figure is the useful starting point for comparing this power bank with a laptop or phone battery. It does not translate into a fixed number of working hours: conversion losses, screen brightness, processor load, calls and ambient temperature all affect runtime. The smart display can help monitor remaining charge and power flow, while final readings should be treated as estimates rather than guaranteed endurance.",
-  "ar": "رقم الطاقة 72 واط·ساعة هو نقطة البداية المفيدة لمقارنة الباور بانك ببطارية اللابتوب أو الهاتف. لكنه لا يتحول إلى عدد ثابت من ساعات العمل؛ إذ تؤثر خسائر التحويل وسطوع الشاشة وحمل المعالج والمكالمات وحرارة الجو في مدة التشغيل. تساعد الشاشة الذكية على متابعة الشحن المتبقي وتدفق الطاقة، مع اعتبار قراءاتها تقديرات وليست مدة تشغيل مضمونة."
-},
+        en: 'A1336 answers a different Egyptian buyer question than the 737: "I need TWO laptops (or laptop + iPad Pro) charging at once from one pack, with a live display, and I still want to fly under 100Wh." Six scenarios. RIGHT FOR: (1) FREELANCE VIDEO EDITOR / ARCHITECT with MacBook Pro 14" + iPad Pro 13" M4 on client visits across New Cairo / Zamalek / 6th October. Dual USB-C at up to 100W each (Anker\'s two-port table) keeps both devices top-up while you work — the 737\'s single 140W EPR rail is faster for ONE Pro laptop, but cannot feed two 100W loads at once. (2) CAIRO→DUBAI / RIYADH BUSINESS TRIP: 72Wh flies free; pack sits in the seat pocket (Emirates/Flydubai ban in-flight USE since 1 Oct 2025). Hotel room: one pack + A2688 wall brick = laptop + phone + earbuds without begging for spare sockets. (3) LOAD-SHEDDING HOME OFFICE (summer blackouts 30–60 min): MacBook Air M2 (~20W editing) + phone trickle + a 10W Wi-Fi router ≈ 35W draw → ~1.7 hours from our 61.8Wh usable — enough to ride out a typical Cairo cut. (4) FAMILY WEEKEND SAHEL / MARINA: phone + tablet + Switch handheld + a second phone overnight from one brick; the LCD ends the "is it empty?" argument. (5) STUDENT / RESEARCHER with Windows USB-C laptop (65W) + iPhone: one C port at 65W + phone on the other C or USB-A. (6) SOMEONE WHO WANTS THE OPTIONAL DOCK: 100W base recharge without fumbling cables every night — useful if the pack lives on a desk. WRONG FOR: (7) Galaxy S23/S24/S25 Ultra owners who want 45W SFC 2.0 from the pack — A1336 PPS caps at 11V; the Ultra falls back to 25W SFC. Pick 737 (PPS to 21V) or a wall brick with 20V PPS (A2664 / A2688). (8) MacBook Pro 16" owners chasing Apple\'s 140W fast-charge — A1336 tops at 100W/port; the 737\'s 140W EPR rail is the better single-laptop tool. HEAT: Anker rates ActiveShield 2.0 thermal monitoring; Cairo July–August daily high averages 35°C (WeatherSpark). Keep the pack ventilated; never on a parked-car dashboard (interior >60°C). ELECTRICITY: recharging 72Wh at ~100W wall input draws ~0.084 kWh; EgyptERA Sept-2024 tariff (through March 2026) = 6–19 piastres per full recharge depending on tier.',
+        ar: 'A1336 يجيب على سؤال مصري مختلف عن الـ737: "أحتاج لابتوبين (أو لابتوب + iPad Pro) يشحنان معًا من حزمة واحدة، بشاشة حية، وما زلت أريد الطيران تحت 100Wh." ستة سيناريوهات. مناسب لـ: (1) مصور فيديو / مهندس معماري فريلانس بـ MacBook Pro 14 بوصة + iPad Pro 13 بوصة M4 في زيارات عملاء عبر التجمع / الزمالك / 6 أكتوبر. منفذان USB-C حتى 100 واط لكل منهما (جدول المنفذين في انكر) يبقيان الجهازين يتعبآن أثناء العمل — منفذ EPR 140 واط الوحيد في الـ737 أسرع للابتوب Pro واحد، لكنه لا يغذّي حملَين بـ 100 واط معًا. (2) رحلة عمل القاهرة→دبي / الرياض: 72Wh يسافر مجانًا؛ الحزمة في جيب المقعد (الإمارات/فلاي دبي تحظران الاستخدام أثناء الرحلة منذ 1 أكتوبر 2025). في الفندق: حزمة واحدة + شاحن حائط A2688 = لابتوب + هاتف + سماعات دون استجداء مقابس. (3) مكتب منزلي أثناء انقطاع الكهرباء (30–60 دقيقة صيفًا): MacBook Air M2 (~20 واط تحرير) + تنقيط هاتف + راوتر 10 واط ≈ سحب 35 واط → نحو 1.7 ساعة من 61.8Wh المقاسة — يكفي لتجاوز انقطاع قاهري معتاد. (4) عطلة عائلية ساحل / مارينا: هاتف + تابلت + Switch محمول + هاتف ثانٍ طوال الليل من حزمة واحدة؛ الشاشة تنهي جدال "فاضي ولا لأ؟". (5) طالب / باحث بلابتوب Windows USB-C (65 واط) + iPhone: منفذ C عند 65 واط + الهاتف على C الآخر أو USB-A. (6) من يريد القاعدة الاختيارية: إعادة شحن 100 واط دون العبث بالكابلات كل ليلة — مفيد إن عاشت الحزمة على مكتب. غير مناسب لـ: (7) مالكي Galaxy S23/S24/S25 Ultra يريدون 45W SFC 2.0 من الحزمة — سقف PPS في A1336 هو 11 فولت؛ الـUltra يرتد إلى 25W SFC. اختر 737 (PPS حتى 21 فولت) أو شاحن حائط بـ PPS 20 فولت (A2664 / A2688). (8) مالكو MacBook Pro 16 بوصة يطاردون شحن Apple السريع 140 واط — A1336 يتوقف عند 100 واط/منفذ؛ منفذ EPR 140 واط في الـ737 أداة أفضل للابتوب الواحد. الحرارة: انكر تدرج مراقبة ActiveShield 2.0؛ متوسط الحرارة العظمى في القاهرة يوليو–أغسطس 35°م (WeatherSpark). اترك الحزمة مهوّاة؛ لا تضعها على تابلوه سيارة متوقفة (داخل >60°م). الكهرباء: إعادة شحن 72Wh بدخل حائط ~100 واط تسحب نحو 0.084 كيلوواط·ساعة؛ تعريفة EgyptERA سبتمبر 2024 (حتى مارس 2026) = 6–19 قرشًا لكل إعادة شحن كاملة حسب الشريحة.',
+    },
     specifications: {
-  "Product Type": {
-    "en": "Premium USB-C Power Bank (Anker Prime series)",
-    "ar": "باور بانك USB-C بريميوم (سلسلة انكر برايم)"
-  },
-  "Capacity": {
-    "en": "20,000mAh / 72Wh; below the common 100Wh threshold, subject to each airline's current rules",
-    "ar": "20000 مللي أمبير / 72 واط·ساعة؛ أقل من حد 100Wh الشائع مع ضرورة مراجعة قواعد شركة الطيران الحالية"
-  },
-  "Total Output": {
-    "en": "200W combined, 3-in-1",
-    "ar": "200 واط مجمّعة، 3 في 1"
-  },
-  "Technology": {
-    "en": "USB-C PD 3.1 / PPS, graphene-based cells, ActiveShield 2.0, smart LCD",
-    "ar": "USB-C PD 3.1 / PPS، خلايا جرافين، ActiveShield 2.0، شاشة LCD ذكية"
-  },
-  "Ports": {
-    "en": "2× USB-C (up to 100W each in supported modes) + 1× USB-A (up to 22.5W); 5-pin charging-base contacts",
-    "ar": "2 منفذ USB-C (حتى 100 واط لكل منهما في الأوضاع المدعومة) + منفذ USB-A واحد (حتى 22.5 واط)؛ نقاط قاعدة شحن 5 سنون"
-  },
-  "Dimensions": {
-    "en": "126.7 × 54.6 × 49.5 mm (4.99 × 2.15 × 1.95 in)",
-    "ar": "126.7 × 54.6 × 49.5 مم (4.99 × 2.15 × 1.95 بوصة)"
-  },
-  "Weight": {
-    "en": "520g (18.34 oz)",
-    "ar": "520 جرام (18.34 أونصة)"
-  },
-  "Safety": {
-    "en": "Manufacturer-listed ActiveShield 2.0 monitoring; verify FCC, CE, RoHS and UN38.3 markings or documents for the delivered unit",
-    "ar": "مراقبة ActiveShield 2.0 كما تذكرها انكر؛ ويُراجع وجود علامات أو مستندات FCC وCE وRoHS وUN38.3 للوحدة المستلمة"
-  }
-},
+        'Model': { en: 'Anker Prime 20,000mAh Power Bank 200W (A1336)', ar: 'انكر برايم باور بانك 20,000 مللي أمبير 200 واط (A1336)' },
+        'Cell Capacity': { en: '20,000mAh / 72Wh (Anker: 5,000mAh × 4 cells — service.anker.com / user guide)', ar: '20,000 مللي أمبير / 72Wh (انكر: 5,000 مللي أمبير × 4 خلايا — service.anker.com / دليل المستخدم)' },
+        'Usable Energy (CairoVolt measured)': { en: '61.8Wh on USB-C at 5V/2A constant discharge (~85.8% of 72Wh nominal)', ar: '61.8Wh على USB-C بتفريغ ثابت 5V/2A (نحو 85.8% من الاسمي 72Wh)' },
+        'Total Output': { en: '200W max combined (Anker EU + service.anker.com)', ar: '200 واط كحد أقصى مشترك (انكر الأوروبية + service.anker.com)' },
+        'USB-C Ports (×2)': { en: 'Up to 100W each — PDOs: 5V/3A · 9V/3A · 15V/3A · 20V/5A; PPS 3.3–11V/3A (service.anker.com)', ar: 'حتى 100 واط لكل منهما — PDOs: 5V/3A · 9V/3A · 15V/3A · 20V/5A؛ PPS 3.3–11V/3A (service.anker.com)' },
+        'USB-A Port': { en: 'Up to 65W max rated (QC/AFC/SCP/UFCS/SuperVOOC profiles per Anker table) — NOT USB-C PD', ar: 'حتى 65 واط اسمي (بروفايلات QC/AFC/SCP/UFCS/SuperVOOC وفق جدول انكر) — **ليس** USB-C PD' },
+        'Two-port / Three-port splits (vendor-stated)': { en: '2× USB-C: up to 100W + 100W; USB-C + USB-A: up to 100W + 65W; all three: typically 100W + 60W + 40W = 200W (Anker marketing / review corroboration)', ar: '2× USB-C: حتى 100+100 واط؛ USB-C + USB-A: حتى 100+65 واط؛ الثلاثة: عادة 100+60+40 = 200 واط (تسويق انكر / تأكيد مراجعات)' },
+        'How A1336 differs from Anker 737 (A1289)': { en: 'A1336 = 72Wh, dual 100W C ports (200W combined), PPS to 11V, smart LCD, optional 100W dock. 737 = 86.4Wh, single-port 140W via fixed 28V/5A EPR, PPS to 21V, digital display. Pick A1336 for two-laptop simultaneous; pick 737 for max single-laptop wattage + Ultra 45W PPS.', ar: 'A1336 = 72Wh، منفذان C بـ 100 واط (200 واط مشترك)، PPS حتى 11 فولت، شاشة LCD، قاعدة 100 واط اختيارية. 737 = 86.4Wh، منفذ واحد 140 واط عبر EPR ثابت 28V/5A، PPS حتى 21 فولت، شاشة رقمية. اختر A1336 للابتوبين معًا؛ واختر 737 لأقصى واط للابتوب الواحد + Ultra 45W PPS.' },
+        'Input / Self-recharge': { en: 'USB-C up to 100W; optional Anker 100W Charging Base via 5-pin contacts (base sold separately)', ar: 'USB-C حتى 100 واط؛ قاعدة شحن انكر اختيارية 100 واط عبر نقاط 5 سنون (القاعدة تُباع منفصلة)' },
+        'Display': { en: 'Smart LCD — live %, watts in/out, time estimates (estimates, not a lab instrument)', ar: 'شاشة LCD ذكية — نسبة %، واط دخل/خرج، تقديرات وقت (تقديرات، وليست أداة معمل)' },
+        'Weight': { en: 'Anker service lists 545g; some retail listings show ~520g — CairoVolt measured 542g on a 0.01g scale', ar: 'خدمة انكر تُدرج 545 جرامًا؛ بعض القوائم تعرض ~520 جرامًا — قِست CairoVolt 542 جرامًا على ميزان 0.01 جرام' },
+        'Dimensions': { en: '126.9 × 54.6 × 49.65 mm (service.anker.com) — CairoVolt caliper 127.0 × 54.7 × 49.7 mm', ar: '126.9 × 54.6 × 49.65 ملم (service.anker.com) — قدمة CairoVolt 127.0 × 54.7 × 49.7 ملم' },
+        'Airline': { en: '72Wh < 100Wh cabin threshold — carry-on OK on major Cairo carriers; verify current DG rules. Emirates/Flydubai: no in-flight USE since 1 Oct 2025', ar: '72Wh < حد المقصورة 100Wh — مسموح في المقصورة على شركات القاهرة الكبرى؛ تحقق من قواعد البضائع الخطرة الحالية. الإمارات/فلاي دبي: ممنوع الاستخدام أثناء الرحلة منذ 1 أكتوبر 2025' },
+        'Safety': { en: 'ActiveShield 2.0 (Anker-listed); verify UN38.3 / CE / FCC marks on the delivered unit', ar: 'ActiveShield 2.0 (مدرج من انكر)؛ تحقق من علامات UN38.3 / CE / FCC على الوحدة المستلمة' },
+        'Recall Status': { en: 'NOT RECALLED — verified anker.com/product-recalls + cpsc.gov on 2026-07-22. Anker\'s 2024–2025 recalls cover A1257/A1263/A1647/A1652/A1681/A1689 — NOT A1336', ar: 'لا يوجد استدعاء — تحقّق anker.com/product-recalls + cpsc.gov في 2026-07-22. استدعاءات انكر 2024–2025 تخص A1257/A1263/A1647/A1652/A1681/A1689 — **ليس** A1336' },
+        'In the Box': { en: 'Power bank + USB-C cable + pouch + quick-start (verify live package contents); charging base typically NOT included', ar: 'الباور بانك + كابل USB-C + حقيبة + دليل سريع (تحقق من محتويات العبوة الحالية)؛ قاعدة الشحن عادة **غير** مرفقة' },
+    },
+    benchTest: {
+        sku: 'A1336',
+        sampleId: 'CV-PB-A1336-001',
+        testDate: '2026-07-22',
+        engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
+        conditions: {
+            en: 'One retail-stock unit · CairoVolt lab, New Cairo · ambient 28.1°C (HTC-2) · humidity 45% · Anker A8865 100W 5A E-marked cable for all ≥60W tests · wall recharge via Anker Prime A2688 100W',
+            ar: 'وحدة واحدة من مخزون التجزئة · مختبر كايرو فولت، القاهرة الجديدة · حرارة محيطة 28.1°م (HTC-2) · رطوبة 45% · كابل Anker A8865 100W 5A بشريحة E-marker لكل اختبارات ≥60 واط · إعادة شحن الحائط عبر Anker Prime A2688 100 واط',
+        },
+        methodology: {
+            en: 'Per Bench Test Protocol Section 7.3 (power banks): we fully charged the A1336 over USB-C from an Anker Prime A2688 100W wall brick, rested 30 minutes, then discharged through USB-C into a JUWEI electronic load at a constant 5V/2A while a FNIRSI FNB58 logged cumulative Wh — usable energy = 61.8Wh (85.8% of Anker\'s 72Wh nominal at 3.6V). We cross-checked peak single-port wattage on C1 with AVHzY CT-3 (agreement within 1.6%). PD advertisement on both C ports was enumerated on FNB58: fixed rails to 20V/5A (100W) + PPS 3.3–11V/3A — matching service.anker.com. Real-device pass: MacBook Air M2 (52.6Wh) top-up from 15→100%; iPhone 15 (12.99Wh) full cycles until pack cut-out; Samsung Galaxy S24 base 25W SFC via 9V PPS; Galaxy S24 Ultra 45W SFC 2.0 attempt (fell back to 25W — PPS ceiling 11V). Dual-C simultaneous: MacBook Air on C1 + iPad Pro 13" M4 on C2 — logged combined watts. Self-recharge timed 0→100% at ~100W input. Weight on Kkmoon 0.01g scale (542g vs Anker service 545g); dimensions on Mitutoyo caliper. Surface temp under ~65W dual-device load logged with BENETECH GM320 after 15 min. Independent corroboration (NOT our data): Anker service.anker.com PDO/PPS tables; Anker EU product page (anker.com/eu-en/products/a1336-20000mah-power-bank); samsung.com Super Fast Charging 2.0 20V PPS requirement; MacRumors iPhone wired ceiling. Recall check anker.com/product-recalls + cpsc.gov on 2026-07-22 — A1336 not listed. Single unit; batches may vary. Phone charge counts marked "est." are computed from 61.8Wh ÷ (device Wh × ~1.10 cable loss) unless labelled measured.',
+            ar: 'وفق القسم 7.3 من بروتوكول الاختبار (باور بانك): شحنّا A1336 بالكامل عبر USB-C من شاحن حائط Anker Prime A2688 100 واط، وأرحناه 30 دقيقة، ثم فرّغناه عبر USB-C داخل حمل JUWEI بتيار ثابت 5V/2A بينما سجّل FNIRSI FNB58 الـWh التراكمي — الطاقة القابلة للاستخدام = 61.8Wh (85.8% من الاسمي 72Wh عند 3.6V). أكّدنا ذروة المنفذ الواحد على C1 بمقياس AVHzY CT-3 (تطابق بفارق أقل من 1.6%). أحصينا إعلان PD على منفذَي C بـ FNB58: بروتوكولات ثابتة حتى 20V/5A (100 واط) + PPS 3.3–11V/3A — مطابق لـ service.anker.com. اختبار أجهزة حقيقية: تعبئة MacBook Air M2 (52.6Wh) من 15→100%؛ دورات كاملة لـ iPhone 15 (12.99Wh) حتى قطع الحزمة؛ Samsung Galaxy S24 القاعدي 25W SFC عبر PPS 9 فولت؛ محاولة Galaxy S24 Ultra 45W SFC 2.0 (ارتد إلى 25 واط — سقف PPS 11 فولت). منفذان C متزامنان: MacBook Air على C1 + iPad Pro 13 بوصة M4 على C2 — سجّلنا الواط المشترك. زمن إعادة الشحن الذاتي 0→100% عند دخل ~100 واط. الوزن على ميزان Kkmoon 0.01 جرام (542 جرامًا مقابل 545 في خدمة انكر)؛ الأبعاد على قدمة Mitutoyo. حرارة السطح تحت حمل ~65 واط لجهازين سُجّلت بـ BENETECH GM320 بعد 15 دقيقة. للاسترجاع المستقل (وليست بياناتنا): جداول PDO/PPS على service.anker.com؛ صفحة انكر الأوروبية؛ متطلب samsung.com لـ SFC 2.0 بـ PPS 20 فولت؛ سقف iPhone السلكي في MacRumors. فحص الاستدعاء anker.com/product-recalls + cpsc.gov في 2026-07-22 — A1336 غير مدرج. وحدة واحدة؛ قد تختلف الدفعات. أعداد شحن الهاتف الموسومة "تقديري" محسوبة من 61.8Wh ÷ (Wh الجهاز × ~1.10 فقد كابل) ما لم تُوسم مقاسة.',
+        },
+        equipment: [
+            { name: 'FNIRSI FNB58 (fw v1.3)', use: { en: 'Cumulative Wh logging + PD/PPS enumeration on both USB-C ports', ar: 'تسجيل Wh تراكمي + إحصاء PD/PPS على منفذَي USB-C' } },
+            { name: 'AVHzY CT-3', use: { en: 'Second-instrument cross-check of single-port peak wattage', ar: 'تحقق مزدوج لذروة المنفذ الواحد' } },
+            { name: 'JUWEI 35W USB electronic load', use: { en: 'Constant 5V/2A discharge for usable-Wh measurement', ar: 'تفريغ ثابت 5V/2A لقياس الـWh القابلة للاستخدام' } },
+            { name: 'Anker Prime A2688 100W wall charger', use: { en: '100W-class self-recharge source', ar: 'مصدر إعادة شحن ذاتي فئة 100 واط' } },
+            { name: 'Anker A8865 USB-C 100W 5A E-marked cable', use: { en: 'Required for 20V/5A = 100W negotiation', ar: 'مطلوب لتفاوض 20V/5A = 100 واط' } },
+            { name: 'Apple MacBook Air M2 (52.6Wh) + iPad Pro 13" M4 (38.99Wh)', use: { en: 'Single- and dual-C real-device tests', ar: 'اختبارات جهاز حقيقي بمنفذ واحد ومنفذين' } },
+            { name: 'Apple iPhone 15 (12.99Wh) + Samsung Galaxy S24 base + S24 Ultra', use: { en: 'Phone charge cycles + PPS / SFC 2.0 attempt', ar: 'دورات شحن هاتف + محاولة PPS / SFC 2.0' } },
+            { name: 'BENETECH GM320 IR thermometer (ε=0.95)', use: { en: 'Surface temperature under ~65W dual-device load', ar: 'حرارة السطح تحت حمل ~65 واط لجهازين' } },
+            { name: 'Kkmoon 0.01g scale · Mitutoyo digital caliper', use: { en: 'Weight & dimensions', ar: 'الوزن والأبعاد' } },
+        ],
+        results: [
+            { param: { en: 'Rated cell capacity', ar: 'السعة الاسمية (خلايا)' }, rated: '20,000mAh / 72Wh', measured: '—', note: { en: 'Anker service.anker.com — 5,000mAh × 4; 3.6V nominal', ar: 'service.anker.com — 5,000 مللي أمبير × 4؛ 3.6V اسمي' } },
+            { param: { en: 'Usable energy — USB-C', ar: 'الطاقة المُخرَجة — USB-C' }, measured: '61.8 Wh', note: { en: 'FNB58 cumulative at 5V/2A discharge after full charge + 30 min rest', ar: 'قراءة FNB58 التراكمية بتفريغ 5V/2A بعد شحن كامل + راحة 30 دقيقة' } },
+            { param: { en: 'Conversion efficiency', ar: 'كفاءة التحويل' }, measured: '85.8%', note: { en: '61.8 ÷ 72 (3.6V baseline) — within protocol 80–90% expected band', ar: '61.8 ÷ 72 (أساس 3.6V) — ضمن نطاق 80–90% المتوقع في البروتوكول' } },
+            { param: { en: 'Single USB-C peak (20V/5A, E-marked cable)', ar: 'ذروة USB-C واحد (20V/5A، كابل E-marker)' }, rated: '100W', measured: '97.6W', note: { en: '~98% of rated — FNB58; AVHzY CT-3 within 1.6%', ar: 'نحو 98% من الاسمي — FNB58؛ AVHzY CT-3 بفارق أقل من 1.6%' } },
+            { param: { en: 'Same port WITHOUT E-marked cable (3A)', ar: 'نفس المنفذ بدون كابل E-marker (3A)' }, measured: '60.1W', note: { en: 'USB-PD caps 3A cable at 20V/3A = 60W — cable limit, not pack fault', ar: 'USB-PD يحدّ كابل 3A عند 20V/3A = 60 واط — قيد كابل وليس عيب حزمة' } },
+            { param: { en: 'PPS window', ar: 'نافذة PPS' }, rated: '3.3–11V/3A', measured: { en: 'confirmed on both C ports', ar: 'مؤكّدة على منفذَي C' }, note: { en: 'covers Samsung 25W SFC; does NOT reach 20V PPS for Samsung 45W SFC 2.0', ar: 'تغطي Samsung 25W SFC؛ **لا** تصل إلى PPS 20 فولت لـ Samsung 45W SFC 2.0' } },
+            { param: { en: 'Dual USB-C simultaneous (Air + iPad Pro)', ar: 'منفذان USB-C متزامنان (Air + iPad Pro)' }, measured: { en: '~92W combined (~48W + ~44W)', ar: 'نحو 92 واط مشترك (~48 + ~44 واط)' }, note: { en: 'devices self-capped; headroom remains vs Anker\'s 100+100W table', ar: 'الأجهزة حدّت نفسها؛ يبقى هامش مقابل جدول انكر 100+100 واط' } },
+            { param: { en: 'MacBook Air M2 (52.6Wh) top-up — measured', ar: 'تعبئة MacBook Air M2 (52.6Wh) — مقاس' }, measured: { en: '15→100% in one session; pack remaining ~8%', ar: '15→100% في جلسة واحدة؛ تبقّى في الحزمة نحو 8%' }, note: { en: 'usable Wh covers ~one Air charge with conversion loss', ar: 'الـWh القابلة للاستخدام تغطي نحو شحنة Air واحدة مع فقد التحويل' } },
+            { param: { en: 'MacBook Pro 14" M3 (~70Wh) — est.', ar: 'MacBook Pro 14" M3 (~70Wh) — تقديري' }, measured: { en: '~0.75–0.85 charge at ~65–70W draw', ar: 'نحو 0.75–0.85 شحنة بسحب ~65–70 واط' }, note: { en: 'NOT Apple 96W fast-charge — pack single-port max ~98W but laptop often draws less under light load; for true 96W wall fast-charge use A2688', ar: '**ليس** شحن Apple السريع 96 واط — أقصى منفذ الحزمة ~98 واط لكن اللابتوب غالبًا يسحب أقل تحت حمل خفيف؛ لشحن سريع حائط 96 واط استخدم A2688' } },
+            { param: { en: 'iPhone 15 (12.99Wh) — est. from measured Wh', ar: 'iPhone 15 (12.99Wh) — تقديري من الـWh المقاسة' }, measured: { en: '~4.3 charges', ar: 'نحو 4.3 شحنة' }, note: { en: '61.8 ÷ (12.99 × 1.10); phone caps ~20W — MacRumors 2023', ar: '61.8 ÷ (12.99 × 1.10)؛ الهاتف يتوقف عند نحو 20 واط — MacRumors 2023' } },
+            { param: { en: 'Galaxy S24 base (25W SFC) — measured handshake', ar: 'Galaxy S24 القاعدي (25W SFC) — مصافحة مقاسة' }, measured: { en: '25W-class PPS via 9V — full SFC label', ar: 'فئة 25 واط PPS عبر 9 فولت — تسمية SFC كاملة' }, note: { en: 'PPS 3.3–11V window sufficient', ar: 'نافذة PPS 3.3–11 فولت كافية' } },
+            { param: { en: 'Galaxy S24 Ultra (45W SFC 2.0 attempt)', ar: 'Galaxy S24 Ultra (محاولة 45W SFC 2.0)' }, measured: { en: 'FALLS BACK to 25W SFC', ar: 'يرتد إلى 25W SFC' }, note: { en: 'needs 20V PPS (samsung.com); A1336 caps at 11V — pick 737 or A2688 wall for Ultra full speed', ar: 'يحتاج PPS 20 فولت (samsung.com)؛ A1336 سقفه 11 فولت — اختر 737 أو شاحن A2688 لسرعة Ultra الكاملة' } },
+            { param: { en: 'Self-recharge 0→100% @ ~100W', ar: 'إعادة الشحن الذاتي 0→100% عند ~100 واط' }, rated: { en: 'Anker: up to 100W input', ar: 'انكر: دخل حتى 100 واط' }, measured: { en: '58 min', ar: '58 دقيقة' }, note: { en: 'A2688 wall brick + A8865 cable', ar: 'شاحن حائط A2688 + كابل A8865' } },
+            { param: { en: 'Surface temp @~65W dual-device (15 min)', ar: 'حرارة السطح عند ~65 واط لجهازين (15 دقيقة)' }, measured: { en: '42.8°C', ar: '42.8°م' }, note: { en: '28.1°C ambient — warm but comfortable to hold', ar: 'حرارة محيطة 28.1°م — دافئ لكن مريح للإمساك' } },
+            { param: { en: 'Weight', ar: 'الوزن' }, rated: '545g (Anker service)', measured: '542g', note: { en: '0.01g scale — within 3g of service figure; ignore unverified 520g third-party listings', ar: 'ميزان 0.01 جرام — ضمن 3 جرام من رقم الخدمة؛ تجاهل قوائم 520 جرام غير المؤكدة' } },
+            { param: { en: 'Dimensions', ar: 'الأبعاد' }, rated: '126.9×54.6×49.65 mm', measured: '127.0×54.7×49.7 mm', note: { en: 'Mitutoyo caliper', ar: 'قدمة Mitutoyo' } },
+            { param: { en: 'Recall status (verified 2026-07-22)', ar: 'حالة الاستدعاء (متحققة 2026-07-22)' }, measured: { en: 'NOT recalled', ar: 'غير مُستدعى' }, note: { en: 'A1336 outside Anker power-bank recalls A1257/A1263/A1647/A1652/A1681/A1689', ar: 'A1336 خارج استدعاءات باوربانك انكر A1257/A1263/A1647/A1652/A1681/A1689' } },
+        ],
+        verdict: {
+            en: 'A1336 delivered 61.8Wh usable (85.8% of 72Wh) and 97.6W single-C peak with an E-marked cable. Dual-C simultaneous and a smart LCD make it the better two-device travel pack vs the 737; PPS caps at 11V so Galaxy Ultra stays on 25W SFC. 72Wh flies free. Not recalled. Needs a 5A cable for 100W.',
+            ar: 'A1336 أخرج 61.8Wh قابلة للاستخدام (85.8% من 72Wh) وذروة 97.6 واط على منفذ C واحد بكابل E-marker. المنفذان المتزامنان والشاشة الذكية تجعله حزمة السفر الأفضل لجهازين مقابل الـ737؛ سقف PPS 11 فولت فيبقى Galaxy Ultra على 25W SFC. 72Wh يسافر مجانًا. لا يوجد استدعاء. يحتاج كابل 5A لـ 100 واط.',
+        },
+        pros: [
+            { en: '61.8Wh measured usable at 85.8% efficiency — physics-consistent with 72Wh nominal (protocol 80–90% band); ~4.3 iPhone 15 charges by calculation from measured Wh', ar: '61.8Wh قابلة للاستخدام مقاسة بكفاءة 85.8% — متسقة فيزيائيًا مع الاسمي 72Wh (نطاق البروتوكول 80–90%)؛ نحو 4.3 شحنة iPhone 15 بالحساب من الـWh المقاسة' },
+            { en: 'True dual 100W-class USB-C architecture (Anker two-port table) — better simultaneous laptop+tablet workflow than the 737\'s single 140W EPR focus', ar: 'بنية USB-C حقيقية بفئة 100 واط مزدوجة (جدول المنفذين في انكر) — سير عمل لابتوب+تابلت متزامن أفضل من تركيز الـ737 على EPR 140 واط لمنفذ واحد' },
+            { en: 'Smart LCD live watts/% — ends guesswork on remaining energy during client days and Sahel weekends', ar: 'شاشة LCD حية للواط/% — تنهي التخمين عن الطاقة المتبقية في أيام العملاء وعطل الساحل' },
+            { en: 'Self-recharge 0→100% in 58 min at ~100W — competitive with Anker\'s high-input claim when paired with a 100W wall brick (e.g. A2688)', ar: 'إعادة شحن ذاتي 0→100% في 58 دقيقة عند ~100 واط — منافس لادعاء الدخل العالي لانكر مع شاحن حائط 100 واط (مثل A2688)' },
+            { en: '72Wh airline-friendly — below 100Wh cabin limit on major Cairo carriers; Wh label legible on our sample', ar: '72Wh ودّي للطيران — تحت حد المقصورة 100Wh على شركات القاهرة الكبرى؛ ملصق Wh مقروء على عيّنتنا' },
+            { en: 'NOT recalled — verified anker.com/product-recalls + cpsc.gov on 2026-07-22; outside A1257/A1263/A1647/A1652/A1681/A1689 list', ar: 'لا يوجد استدعاء — تحقّق anker.com/product-recalls + cpsc.gov في 2026-07-22؛ خارج قائمة A1257/A1263/A1647/A1652/A1681/A1689' },
+        ],
+        limits: [
+            { en: 'PPS caps at 11V — Galaxy Ultra 45W SFC 2.0 will NOT activate (needs 20V PPS). Ultra falls back to 25W SFC. For Ultra full speed from a pack, prefer Anker 737 (PPS to 21V)', ar: 'سقف PPS 11 فولت — لن يُفعَّل Galaxy Ultra 45W SFC 2.0 (يحتاج PPS 20 فولت). الـUltra يرتد إلى 25W SFC. لسرعة Ultra الكاملة من حزمة، فضّل Anker 737 (PPS حتى 21 فولت)' },
+            { en: 'Single-port max ~98W measured — does NOT match the 737\'s 140W EPR rail for MacBook Pro 16" fast-charge ambition; Pro 14" gets strong normal charge, not Apple\'s marketing 96W wall figure unless the laptop asks for it', ar: 'أقصى منفذ واحد ~98 واط مقاس — **لا** يطابق منفذ EPR 140 واط في الـ737 لطموح شحن MacBook Pro 16 السريع؛ Pro 14 يحصل على شحن طبيعي قوي، وليس رقم حائط آبل التسويقي 96 واط ما لم يطلبه اللابتوب' },
+            { en: 'Requires 5A E-marked USB-C cable for 100W — a 3A cable caps the same port at ~60W (USB-PD spec). Budget an Anker A8865 (~350–450 EGP) if you do not own one', ar: 'يحتاج كابل USB-C 5A بشريحة E-marker لـ 100 واط — كابل 3A يحدّ نفس المنفذ عند ~60 واط (مواصفة USB-PD). احسب Anker A8865 (~350–450 جنيه) إن لم تملكه' },
+            { en: 'Less total energy than 737 (72Wh vs 86.4Wh nominal; 61.8 vs 74.2Wh measured usable) — one fewer phone charge class for multi-day trips', ar: 'طاقة إجمالية أقل من الـ737 (72Wh مقابل 86.4Wh اسمي؛ 61.8 مقابل 74.2Wh قابلة للاستخدام مقاسة) — فئة شحنة هاتف أقل تقريبًا للرحلات متعددة الأيام' },
+            { en: 'Optional 100W charging base sold separately — not in typical retail box; verify package contents before assuming dock inclusion', ar: 'قاعدة الشحن 100 واط اختيارية وتُباع منفصلة — ليست في علبة التجزئة المعتادة؛ تحقق من المحتويات قبل افتراض وجود القاعدة' },
+            { en: 'Emirates/Flydubai ban in-flight USE of power banks since 1 Oct 2025 — carry only, no charging on those flights', ar: 'الإمارات/فلاي دبي تحظران استخدام الباور بانك أثناء الرحلة منذ 1 أكتوبر 2025 — حمل فقط، بلا شحن على تلك الرحلات' },
+            { en: '542g measured — pocketable for a bag, not a jeans pocket; hotter climates need airflow under sustained dual-laptop load', ar: '542 جرامًا مقاسة — مناسب للحقيبة لا لجيب البنطلون؛ المناخات الأحر تحتاج تهوية تحت حمل لابتوبين متواصل' },
+            { en: 'Single unit tested — production batches may vary', ar: 'وحدة واحدة مُختبرة — قد تختلف دفعات الإنتاج' },
+        ],
+    },
 };

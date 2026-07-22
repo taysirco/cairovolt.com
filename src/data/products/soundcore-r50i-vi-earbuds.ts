@@ -44,7 +44,7 @@ export const soundcore_r50i_vi_earbuds = {
 
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>A3969</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>`,
             features: ["🎧 10mm BassUp", "🔋 30h", "🔒 current warranty and return policy"],
-            metaTitle: "Soundcore R50i Vi | CairoVolt Egypt",
+            metaTitle: "Soundcore R50i Vi | 10mm BassUp, 30h | Egypt",
             metaDesc: "Everyday Soundcore R50i Vi wireless earbuds in Egypt. Genuine product with store warranty, official invoice and cash on delivery across Egypt.",
             faqs: [
                     { question: "Does Soundcore R50i Vi support multipoint Bluetooth?", answer: "Confirm multipoint in the current product documentation and firmware; supported combinations and switching behaviour can vary by source and software." },
@@ -70,7 +70,7 @@ export const soundcore_r50i_vi_earbuds = {
 
 <div class="buyer-warning"><h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">قبل الدفع، طابق رقم الموديل <strong>A3969</strong> والتصنيفات والمنافذ أو الموصلات ومحتويات العبوة مع الوحدة الموردة ووثائق الشركة الحالية. إذا توفر رقم تسلسلي أو ملصق تحقق فاستخدم العملية الرسمية المطبوعة؛ لا يثبت السعر أو الوزن أو شكل العبوة وحده الأصالة. افحص المنتج عند الاستلام وراجع شروط الضمان والاسترجاع الحالية.</p></div>`,
             features: ["🎧 10mm BassUp", "🔋 30h", "🔒 راجع سياسة الضمان والاسترجاع الحالية"],
-            metaTitle: "سماعة ساوندكور R50i Vi | كايرو فولت مصر",
+            metaTitle: "سماعة ساوندكور R50i Vi | 10mm BassUp و30 ساعة | مصر",
             metaDesc: "سماعة ساوندكور R50i Vi اللاسلكية للاستخدام اليومي في مصر. منتج أصلي بضمان متجر وفاتورة ودفع عند الاستلام في كل المحافظات.",
             faqs: [
                     { question: "سماعة ساوندكور R50i Vi بتتوصل بجهازين؟", answer: "تحقّق من دعم الاتصال المتعدد في وثائق المنتج والفيرموير الحاليين؛ قد تختلف مجموعات الأجهزة وسلوك التبديل حسب المصدر والبرنامج." },

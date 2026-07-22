@@ -45,11 +45,11 @@ export const car_accessories_uber_careem_drivers_egypt: BlogArticle = {
 <p>في نفس الوقت، إنت بتشحن الموبايل بتيار مستمر من شاحن السيارة. عملية الشحن الكيميائي جوة البطارية بتولد حرارة إضافية. ضيف على ده كله شمس الصيف في مصر اللي بتضرب في الزجاج الأمامي وترفع حرارة التابلوه لـ 60 درجة مئوية. لو الملحقات بتاعتك رخيصة أو مش مناسبة، الحرارة دي مش بس هتبطئ الشحن، دي هتدمر البطارية وتعمل انتفاخ فيها في خلال 3 شهور بس. عشان كده، إنت محتاج ملحقات "تتحمل الشغل الشاق" مش مجرد إكسسوارات شكلها حلو.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 دراسة ميدانية من فريق كايرو فولت</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 دراسة ميدانية من فريق كايرو فولت (مايو 2026)</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        قمنا بعمل استطلاع رأي واختبار لـ 15 سائق أوبر وكريم في القاهرة خلال شهر مايو 2026.
+        عملنا استطلاعاً وفحصاً لـ 15 سائق أوبر وكريم في القاهرة خلال مايو 2026.
         <br>
-        <strong>النتائج الصادمة:</strong> 11 من أصل 15 سائق بيستخدموا شواحن رخيصة بدون اسم من محلات إكسسوارات عادية. 9 منهم عانوا من مشاكل واضحة تشمل: توقف الموبايل عن العمل فجأة بسبب السخونة، هبوط صحة البطارية لأقل من 78% في أقل من سنة، وفقدان الشحن حتى أثناء توصيل الهاتف بالشاحن. السائقين الأربعة الذين استخدموا شواحن PD مع حوامل مثبتة على التكييف لم يواجهوا أي مشكلة شحن أو سخونة طوال الصيف.
+        <strong>أبرز النتائج:</strong> 11 من أصل 15 سائق كانوا يستخدمون شواحن رخيصة بدون اسم من محلات إكسسوارات عادية. 9 منهم عانوا من مشاكل واضحة شملت: توقف الموبايل فجأة بسبب السخونة، وهبوط صحة البطارية لأقل من 78% في أقل من سنة، وفقدان الشحن حتى أثناء توصيل الهاتف. أما السائقون الأربعة الذين استخدموا شواحن PD مع حوامل مثبتة على فتحة التكييف فلم يواجهوا مشاكل شحن أو سخونة طوال الصيف. (عيّنة صغيرة استرشادية توضّح الفارق بين النوعين.)
     </p>
 </div>
 
@@ -133,11 +133,11 @@ export const car_accessories_uber_careem_drivers_egypt: BlogArticle = {
 <p>Simultaneously, you are charging the battery with direct current from the car charger. The chemical process of charging generates additional thermal energy. Combine this with the Egyptian summer sun shining through the windshield, raising dashboard temperatures to 60°C. If your accessories are cheap or unsuitable, this heat will not only slow down charging, but it will also degrade battery cells, leading to swelling within 3 months. Therefore, you need heavy-duty, professionally certified accessories, not just cheap gadgets.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Field Study</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Field Study (May 2026)</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We surveyed and tested 15 Uber and Careem drivers in Cairo during May 2026.
+        We surveyed and checked 15 Uber and Careem drivers in Cairo during May 2026.
         <br>
-        <strong>Shocking Results:</strong> 11 out of 15 drivers were using cheap, unbranded chargers bought from generic accessory shops. 9 of them experienced severe issues including: sudden phone shutdowns due to overheating, battery health dropping below 78% within a year, and the battery draining even while connected. The 4 drivers who used certified PD chargers combined with AC vent mounts experienced zero issues throughout the summer.
+        <strong>Key findings:</strong> 11 of the 15 drivers were using cheap, unbranded chargers from generic accessory shops. 9 of them had clear issues including sudden phone shutdowns from overheating, battery health dropping below 78% within a year, and the battery draining even while connected. The 4 drivers who used certified PD chargers with AC-vent mounts had no charging or heat problems all summer. (A small indicative sample that illustrates the difference between the two types.)
     </p>
 </div>
 

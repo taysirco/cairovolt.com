@@ -202,7 +202,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 
 <h2>5 أخطاء شائعة في اختيار شاحن بديل لـ MacBook</h2>
 
-<p>من خبرتنا في كايرو فولت مع آلاف العملاء، دي أشهر الغلطات اللي بنشوفها:</p>
+<p>من خبرتنا في السوق المصري، دي أشهر الغلطات الشائعة اللي بنشوفها:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #1: شراء شاحن بدون USB-C PD.</strong> لازم يدعم Power Delivery protocol — مش كل شاحن USB-C بيفهم "لغة" MacBook. لو الشاحن بيدعم QC بس بدون PD، الماك بوك هياخد 5W فقط.</li>
@@ -460,7 +460,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 
 <h2>5 Common Mistakes When Choosing a MacBook Charger Alternative</h2>
 
-<p>From our experience at CairoVolt serving thousands of customers, these are the most common mistakes we see:</p>
+<p>From our experience in the Egyptian market, these are the most common mistakes we see:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">❌ <strong>Mistake #1: Buying a charger without USB-C PD.</strong> It must support Power Delivery protocol — not every USB-C charger "speaks" MacBook's language. A QC-only charger without PD will deliver just 5W to your MacBook.</li>

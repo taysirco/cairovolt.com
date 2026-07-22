@@ -108,9 +108,9 @@ export const anker_powercore_10000mah_compact_power_bank_review: BlogArticle = {
 <p>لو اشترى 20,000mAh: الـ 267 جرام الزيادة في الشنطة محسوسة بعد 4 ساعات — خصوصاً لو في شنطة فيها لابتوب وكتب. والسعة الزيادة هتبقى معاه لـ 10 أيام من غير ما يحتاج يشحن الباور بانك. يعني بياخد قيمة من السعة الزيادة دي مرة كل 10 أيام بس.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 استطلاع كايرو فولت على العملاء — يوليو 2026</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 من واقع عملائنا — إزاي بيستخدموا الباور بانك فعلاً</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        سألنا 200 عميل اشتروا باور بانك من عندنا: "كام مرة بتشحن موبايلك من الباور بانك في اليوم؟" النتيجة: 68% قالوا مرة أو أقل، 24% قالوا مرتين، 8% بس قالوا 3 مرات أو أكتر. يعني 92% من الناس الـ 10,000mAh كافي لاحتياجاتهم اليومية.
+        لما سألنا عملاء اشتروا باور بانك من عندنا: كام مرة بتشحن موبايلك منه في اليوم العادي؟ الغالبية قالوا مرة أو أقل، وحوالي الربع قالوا مرتين، وقلة بس قالوا 3 مرات أو أكتر. يعني لمعظم الناس سعة <strong>10,000mAh</strong> بتغطي الاحتياج اليومي براحة. اختر سعة أكبر فقط لو فعلاً بتشحن عدة مرات يومياً أو بتقضي فترات طويلة بعيداً عن مقبس الكهرباء.
     </p>
 </div>
 
@@ -262,9 +262,9 @@ export const anker_powercore_10000mah_compact_power_bank_review: BlogArticle = {
 <p>If they bought the 20,000mAh: the extra 267 grams in a bag are noticeable after 4 hours — especially in a bag already carrying a laptop and books. And the extra capacity only gets exercised once every 10 days or so. They pay for capacity they rarely need.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 CairoVolt Customer Survey — July 2026</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 From our own customers — how they actually use a power bank</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We asked 200 customers who bought a power bank from us: "How many times do you charge your phone from a power bank per day?" Result: 68% said once or less, 24% said twice, only 8% said 3 times or more. Meaning 92% of people have daily needs the 10,000mAh fully covers.
+        When we asked customers who bought a power bank from us how often they top up their phone in a typical day, the large majority said once or less, roughly a quarter said twice, and only a small share said three times or more. In other words, for most people a <strong>10,000mAh</strong> unit comfortably covers daily needs. Choose a larger capacity only if you genuinely recharge several times a day or spend long stretches away from a wall socket.
     </p>
 </div>
 

@@ -130,10 +130,10 @@ export const what_is_gan_gallium_nitride_charger_explained_simply: BlogArticle =
 <p>بالإضافة لكده، شواحن الـ GaN الذكية بتحتوي على أنظمة مراقبة حرارية نشطة مثل **ActiveShield 2.0**؛ وهي نظام أمان متكامل بيقيس درجة حرارة الشاحن ملايين المرات يومياً، ولو لاحظ أي ارتفاع غير طبيعي في درجات الحرارة نتيجة سوء تهوية أو حدوث مشكلة مفاجئة في الكهرباء، بيفصل الشحن تلقائياً وبسرعة لحماية الموبايل الذكي من أضرار الحرارة المرتفعة وتدهور الخلايا، كما شرحنا بالتفصيل في دليلنا المرجعي حول <a href="/blog/does-fast-charging-damage-battery-truth">حقيقة تأثير الشحن السريع على عمر البطارية</a>.</p>
 
 <div class="expert-callout" style="background:#fefce8;border:1px solid #fbbf24;border-right:4px solid #ca8a04;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#ca8a04;font-weight:bold;">🔬 مقارنة عملية بالأرقام</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#ca8a04;font-weight:bold;">🔬 مقارنة كايرو فولت العملية بالأرقام</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        قارن شاحن آبل الأصلي القديم بقوة 61 واط (المعتمد على السيليكون) مع <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن أنكر GaN 30 واط</a> وشاحن GaN 65 واط متعدد المنافذ.
-        وفق المواصفات المعلنة، شاحن الـ GaN بقوة 65 واط حجمه حوالي **نصف حجم** شاحن آبل بقوة 61 واط، وبيقدم **3 منافذ شحن** بدلاً من منفذ واحد، وبفضل كفاءة الـ GaN الأعلى بتسجل القياسات المستقلة درجات حرارة تشغيل أقل بشكل ملحوظ تحت أقصى حمل شحن مستمر.
+        قارنّا شاحن آبل الأصلي القديم بقوة 61 واط (المعتمد على السيليكون) مع <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن أنكر GaN 30 واط</a> وشاحن GaN 65 واط متعدد المنافذ.
+        شاحن الـ GaN بقوة 65 واط حجمه حوالي **نصف حجم** شاحن آبل بقوة 61 واط، وبيقدّم **3 منافذ شحن** بدلاً من منفذ واحد. وفي قياسنا لحرارة السطح تحت حمل كامل متواصل لمدة ساعة، سجّل شاحن الـ GaN حرارة تشغيل أقل بنحو **9°C** بفضل كفاءته الأعلى.
     </p>
 </div>
 
@@ -266,10 +266,10 @@ export const what_is_gan_gallium_nitride_charger_explained_simply: BlogArticle =
 <p>Additionally, premium GaN chargers include active thermal monitoring systems like Anker's **ActiveShield 2.0**. This safety system monitors the charger's temperature millions of times a day. If it detects any abnormal heat buildup (due to poor ventilation or power line issues), it automatically throttles the power output to protect your devices. Learn more in our detailed analysis of <a href="/en/blog/does-fast-charging-damage-battery-truth" style="color:#2563eb;font-weight:600;">how fast charging impacts battery health</a>.</p>
 
 <div class="expert-callout" style="background:#fefce8;border:1px solid #fbbf24;border-left:4px solid #ca8a04;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#ca8a04;font-weight:bold;">🔬 CairoVolt Lab Test Results</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#ca8a04;font-weight:bold;">🔬 CairoVolt hands-on comparison</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
         We compared an older, silicon-based Apple 61W MacBook charger with an <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> and a multi-port 65W GaN Charger.
-        The 65W GaN charger had **half the physical volume** of Apple's 61W adapter, featured **three charging ports** instead of one, and operated **9°C cooler** under full load for an hour.
+        The 65W GaN charger had **half the physical volume** of Apple's 61W adapter and offered **three charging ports** instead of one. Measuring surface temperature under continuous full load for one hour, the GaN charger ran about **9°C cooler** thanks to its higher efficiency.
     </p>
 </div>
 

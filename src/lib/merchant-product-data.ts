@@ -93,12 +93,17 @@ export const STANDARD_DELIVERY_MAX_DAYS = 5;
  * Records omitted from Merchant and machine catalogs while their public URLs
  * remain untouched. Two lack stable product landing pages. The P30i record is
  * a regional-name alias of R50i NC: Soundcore identifies both as model A3959.
+ * The Nano 45W 1C-PD record is a descriptive-slug alias of the primary Nano
+ * 45W listing: both resolve to Anker model A2664 (variant A2664K11 on the
+ * primary listing), so publishing them as separate Merchant offers would
+ * create a duplicate-SKU signal.
  */
 export const MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS = new Set([
     'joyroom-usb-a-lightning-1.2m',
     'joyroom-usb-a-type-c-1.2m',
     'soundcore-p30i-earbuds',
     'soundcore-p25i-earbuds',
+    'anker-nano-45w-1c-pd',
 ]);
 
 /** Date of the latest full catalog-content and offer review. */

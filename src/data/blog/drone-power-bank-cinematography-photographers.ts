@@ -140,9 +140,9 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
 <p><strong>نصيحة عملية:</strong> لو بتصور في الصيف في مصر، حاول تصور في الساعات الأولى من الصباح (6-9 صباحاً) أو قبل المغرب (4-6 مساءً). الضوء أحلى للتصوير (golden hour) والبطاريات بتشتغل أحسن والموبايل مش هيقفل عليك.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 تجربة حقيقية — مصور عقاري من القاهرة</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">💡 نصيحة عملية لمصوري الدرون</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        "بشتغل بـ DJI Air 3 في التصوير العقاري. في جلسة تصوير عادية بصور 3-4 عقارات في اليوم — يعني 8-10 طيرات. بحمل 4 بطاريات درون + باور بانك انكر 20,000. الباور بانك مش بيشحن الدرون طبعاً، بس بيخلي الريموت والموبايل شغالين طول اليوم. من غيره كنت بضطر أرجع العربية كل ساعتين أشحن الريموت — وده بيضيع وقت ومجهود وبنزين. الباور بانك وفرلي ساعة ونص من يوم الشغل على الأقل."
+        في التصوير العقاري بدرون زي DJI Air 3، الجلسة العادية ممكن توصل لـ 3-4 عقارات و8-10 طيرات في اليوم. الباور بانك (زي انكر 20,000mAh) مش بيشحن الدرون نفسه، لكنه بيخلي الريموت والموبايل شغّالين طول اليوم — وبيوفّر عليك رحلات متكررة للعربية لشحن الريموت، يعني وقت ومجهود وبنزين. لو بتصوّر يوماً كاملاً، الباور بانك من أساسيات العدة.
     </p>
 </div>
 
@@ -332,9 +332,9 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
 <p><strong>Practical tip:</strong> If shooting in Egyptian summer, aim for early morning (6-9 AM) or before sunset (4-6 PM). The light is better for cinematography (golden hour), batteries perform optimally, and your phone won't overheat and shut down mid-shoot.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 Real Experience — Real Estate Photographer from Cairo</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">💡 Practical advice for drone photographers</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        "I work with a DJI Air 3 for real estate photography. In a typical session, I shoot 3-4 properties per day — that's 8-10 flights. I carry 4 drone batteries + an Anker 20,000mAh power bank. The power bank obviously doesn't charge the drone, but it keeps the controller and phone running all day. Without it, I'd have to go back to the car every two hours to charge the controller — wasting time, effort, and fuel. The power bank saves me at least an hour and a half per work day."
+        In real-estate drone work with something like a DJI Air 3, a typical session can run to 3-4 properties and 8-10 flights per day. A power bank (such as an Anker 20,000mAh) obviously doesn't charge the drone itself, but it keeps the controller and phone running all day — and saves you repeated trips back to the car to recharge the controller, which cost time, effort, and fuel. If you shoot a full day, a power bank is essential kit.
     </p>
 </div>
 

@@ -87,6 +87,8 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
     const [hoverStar, setHoverStar] = useState(0);
     const [title, setTitle] = useState('');
     const [text, setText] = useState('');
+    const [pros, setPros] = useState('');
+    const [cons, setCons] = useState('');
     const [photos, setPhotos] = useState<string[]>([]);
     const [busy, setBusy] = useState(false);
     const [done, setDone] = useState(false);
@@ -250,8 +252,17 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                 const u = new URL(window.location.href);
                 rewardRef = (u.searchParams.get('rvw') || u.searchParams.get('rt') || '').slice(0, 64);
             } catch { /* لا شيء */ }
+            // المميزات/العيوب: سطر لكل نقطة، حتى 5 نقاط، تُنقّى وتُقصّ على الخادم أيضاً.
+            const toList = (v: string) => v
+                .split('\n')
+                .map(s => s.trim())
+                .filter(Boolean)
+                .slice(0, 5);
             // نرسل الاعتماد فقط لو كان العميل قد سجّل الدخول؛ وإلا نعتمد على التوكن.
-            const body: Record<string, unknown> = { productSlug, rating, title, reviewText: text, rewardRef, photos };
+            const body: Record<string, unknown> = {
+                productSlug, rating, title, reviewText: text, rewardRef, photos,
+                pros: toList(pros), cons: toList(cons),
+            };
             if (credential) { body.credential = credential; body.provider = provider; }
             const res = await fetch('/api/reviews/submit', {
                 method: 'POST',
@@ -289,8 +300,8 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                 <p className="text-sm text-emerald-700 mt-1">
                     {verifiedBuyer
                         ? (isArabic
-                            ? 'تقييمك قيد المراجعة، وفور الموافقة عليه هتوصلك هدية كوبون خصم 5% على الواتساب 🎁'
-                            : 'Your review is in moderation — once approved, a 5% coupon gift arrives on WhatsApp 🎁')
+                            ? 'تقييمك قيد المراجعة للتأكد إنه حقيقي فقط (مش بنحكم على رأيك) — وبعد نشره هيوصلك كوبون خصم 5% على الواتساب مهما كان تقييمك 🎁'
+                            : 'Your review is being checked only for authenticity (not for your opinion) — once posted, a 5% coupon arrives on WhatsApp whatever your rating 🎁')
                         : (isArabic
                             ? 'تقييمك قيد المراجعة — شكراً لمساعدتك عملاء آخرين يختاروا صح 🌟'
                             : 'Your review is in moderation — thanks for helping other shoppers 🌟')}
@@ -380,6 +391,31 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                             <textarea value={text} onChange={e => setText(e.target.value)} rows={4} maxLength={1200}
                                 placeholder={isArabic ? 'إيه رأيك في المنتج؟ (10 أحرف على الأقل)' : 'Your honest experience (10+ chars)'}
                                 className="w-full rounded-lg border border-gray-300 dark:border-gray-600 px-3 py-2 text-sm bg-transparent" />
+                            <p className={`text-[11px] text-left ${text.trim().length < 10 ? 'text-gray-400' : 'text-emerald-600'}`} dir="ltr">
+                                {text.trim().length < 10
+                                    ? (isArabic ? `باقي ${10 - text.trim().length} حرف على الأقل` : `${10 - text.trim().length} more characters needed`)
+                                    : `${text.length} / 1200`}
+                            </p>
+
+                            {/* المميزات/العيوب (اختياري) — سطر لكل نقطة؛ تُثري التقييم وتظهر منفصلة */}
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                                <div>
+                                    <label className="text-xs font-bold text-emerald-600 block mb-1">
+                                        ➕ {isArabic ? 'المميزات (اختياري)' : 'Pros (optional)'}
+                                    </label>
+                                    <textarea value={pros} onChange={e => setPros(e.target.value)} rows={3}
+                                        placeholder={isArabic ? 'نقطة في كل سطر' : 'One point per line'}
+                                        className="w-full rounded-lg border border-gray-300 dark:border-gray-600 px-3 py-2 text-sm bg-transparent" />
+                                </div>
+                                <div>
+                                    <label className="text-xs font-bold text-rose-500 block mb-1">
+                                        ➖ {isArabic ? 'العيوب (اختياري)' : 'Cons (optional)'}
+                                    </label>
+                                    <textarea value={cons} onChange={e => setCons(e.target.value)} rows={3}
+                                        placeholder={isArabic ? 'نقطة في كل سطر' : 'One point per line'}
+                                        className="w-full rounded-lg border border-gray-300 dark:border-gray-600 px-3 py-2 text-sm bg-transparent" />
+                                </div>
+                            </div>
 
                             <div>
                                 <label className="text-xs text-gray-500 dark:text-gray-400 block mb-1">
@@ -412,8 +448,13 @@ export default function ReviewComposer({ productSlug, productName, locale }: Pro
                             </button>
                             <p className="text-[11px] text-gray-500 text-center">
                                 {isArabic
-                                    ? 'كل التقييمات تُراجَع قبل النشر — قيّم بصراحتك الكاملة'
-                                    : 'All reviews are checked before publishing — please be fully honest'}
+                                    ? 'كل التقييمات تُراجَع للتأكد من مصداقيتها فقط — لا نحكم على رأيك. قيّم بصراحتك الكاملة.'
+                                    : 'All reviews are checked for authenticity only — we never judge your opinion. Please be fully honest.'}
+                            </p>
+                            <p className="text-[11px] text-gray-400 text-center">
+                                {isArabic
+                                    ? '🎁 لو كنت مشترياً موثَّقاً، هتحصل على كوبون خصم 5% مقابل تقييمك الصادق — أياً كان عدد النجوم.'
+                                    : '🎁 If you are a verified buyer, you get a 5% coupon for your honest review — regardless of your star rating.'}
                             </p>
                         </>
                     )}

@@ -20,6 +20,24 @@ const MAX_BODY_BYTES = 4 * 1024 * 1024;          // 4MB (3 صور مضغوطة +
 const MAX_PHOTOS = 3;
 const MAX_PHOTO_BYTES = 600 * 1024;              // بعد ضغط العميل — حارس خادمي
 const SLUG_PATTERN = /^[a-z0-9-]{3,80}$/;
+const MAX_LIST_ITEMS = 5;
+const MAX_LIST_ITEM_LENGTH = 120;
+
+/** تعقيم قائمة المميزات/العيوب: عناصر قصيرة، بلا محارف تحكّم/وسوم، حتى 5 عناصر. */
+function sanitizeList(value: unknown): string[] {
+    if (!Array.isArray(value)) return [];
+    const out: string[] = [];
+    for (const item of value) {
+        const s = String(item ?? '')
+            .replace(/[\u0000-\u001f\u007f<>]/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim()
+            .slice(0, MAX_LIST_ITEM_LENGTH);
+        if (s) out.push(s);
+        if (out.length >= MAX_LIST_ITEMS) break;
+    }
+    return out;
+}
 
 const json = (body: unknown, status = 200) =>
     NextResponse.json(body, { status, headers: { 'Cache-Control': 'no-store' } });
@@ -69,6 +87,8 @@ export async function POST(req: NextRequest) {
     if (reviewText.length < 10 || reviewText.length > 1200) return json({ error: 'اكتب تقييماً من 10 إلى 1200 حرف' }, 400);
     const title = String(data.title || '').replace(/\s+/g, ' ').trim().slice(0, 90);
     const displayName = (String(data.displayName || '').trim() || identity.name).slice(0, 60);
+    const pros = sanitizeList(data.pros);
+    const cons = sanitizeList(data.cons);
 
     // 4) مرجع المكافأة (rewardRef) عُرّف أعلاه — يوثّق المشترِي ويربطه بهاتفه في الـCRM
     //    لإرسال كوبون 5% بعد الاعتماد بلا سؤاله عن رقمه. غيابه = تقييم عضوي بلا مكافأة.
@@ -141,7 +161,7 @@ export async function POST(req: NextRequest) {
         customerName: displayName,
         customerInitials: displayName.slice(0, 2),
         rating, title, reviewText,
-        pros: [], cons: [],
+        pros, cons,
         images,
         purchaseDate, reviewDate: now, createdAt: now,
         isVerified,
@@ -162,7 +182,7 @@ export async function POST(req: NextRequest) {
     return json({
         success: true,
         reviewId: docRef.id,
-        message: 'وصل تقييمك — قيد المراجعة، وفور الموافقة هتوصلك هدية كوبون 5% على الواتساب 🎁',
+        message: 'وصل تقييمك — قيد المراجعة للتأكد من مصداقيته فقط، وبعد نشره هتوصلك هدية كوبون 5% على الواتساب أياً كان تقييمك 🎁',
         verifiedBuyer: isVerified,
     });
 }

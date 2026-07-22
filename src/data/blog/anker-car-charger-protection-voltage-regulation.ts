@@ -170,9 +170,9 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
 <p>في أنكر، النطاق الواسع 12-24V بيغطي التقلبات دي بأمان. الشاحن ممكن يوقف الشحن لثانيتين وقت التكويع وبعدين يرجع تلقائياً — ده طبيعي وصح. الخطر هو الشاحن اللي مش بيشيل الحمل ويخلي التيار غير المنتظم يوصل للموبايل.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 بيانات كايرو فولت — أكتر أسباب رجوع الشواحن:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔎 من واقع حالات الإرجاع عندنا — أشهر أسباب أعطال شواحن السيارة:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        من خلال تجربتنا مع العملاء في مصر، أكتر سبب لرجوع شواحن السيارة: "وقف الشحن بعد أسابيع" (75% من الحالات). ثاني سبب: "بيشحن ببطء شديد" (ده بيحصل لما البروتوكول مش بيتفاهم مع الموبايل). كل الحالات دي كانت شواحن من غير branding أو شواحن مجهولة. في المقابل، شواحن أنكر السيارة اللي بعناها: صفر بلاغات عطل خلال فترة الضمان 18 شهر في 98% من الوحدات.
+        من خلال تعاملنا مع العملاء، أشهر شكوى بترجع لنا مع شواحن السيارة هي "وقف الشحن بعد أسابيع"، وتليها "بيشحن ببطء شديد" (وده غالباً لأن بروتوكول الشحن مش بيتفاهم مع الموبايل) — والغالبية العظمى من هذه الحالات كانت شواحن رخيصة أو مجهولة المصدر بلا دوائر حماية وتنظيم جهد. في المقابل، الشواحن ذات العلامة المعروفة أعطالها أقل بوضوح. اختر شاحناً بمدخل واسع 12–24V ودوائر حماية معلنة من الشركة المصنّعة، واحتفظ بالفاتورة ورقم الموديل للرجوع لضمان المتجر عند الحاجة.
     </p>
 </div>
 
@@ -348,9 +348,9 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
 <p>In the Anker Dual-USB Charger, the wide 12-24V range handles these variations safely. The charger may pause for two seconds during cranking and then automatically resume — this is normal and correct behavior. What is dangerous is a charger that does not remove the load and instead passes the irregular current directly to the phone.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Data — Most Common Car Charger Return Reasons:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔎 From our own returns — most common car-charger failures:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        From our customer experience in Egypt, the most common car charger return reason: "stopped charging after a few weeks" (75% of cases). Second reason: "charges very slowly" — this happens when the charging protocol fails to negotiate correctly with the phone. Every single case involved either an unbranded charger or an unknown-brand product. In contrast, Anker car chargers sold through CairoVolt had zero reported failures within the warranty period in 98% of units.
+        From dealing with customers, the most common complaint we see with car chargers is "stopped charging after a few weeks," followed by "charges very slowly" — the latter usually because the charging protocol fails to negotiate correctly with the phone. The large majority of these cases were cheap or unknown-source units with no protection or voltage-regulation circuitry, whereas branded chargers came back noticeably less often. Choose a charger with a wide 12–24V input and manufacturer-stated protection circuits, and keep your invoice and model number for store-warranty support if you ever need it.
     </p>
 </div>
 

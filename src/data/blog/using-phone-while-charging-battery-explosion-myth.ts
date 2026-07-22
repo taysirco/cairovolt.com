@@ -140,12 +140,12 @@ export const using_phone_while_charging_battery_explosion_myth: BlogArticle = {
 <p>اقرأ مقالنا حول <a href="/blog/keep-phone-battery-health-above-80-percent-tips">طريقة الحفاظ على صحة بطارية الآيفون فوق 80%</a> لمزيد من النصائح الذهبية.</p>
 
 <div class="expert-callout" style="background:#fefce8;border:1px solid #fbbf24;border-right:4px solid #ca8a04;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#ca8a04;font-weight:bold;">🔬 اختبارات كايرو فولت الميدانية</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#ca8a04;font-weight:bold;">🔬 اختبار كايرو فولت العملي — قياس الحرارة</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        قمنا بقياس درجة حرارة هاتف ذكي أثناء شحنه بشاحن سريع 33 واط. 
-        عند استخدام الهاتف في التصفح الخفيف، بلغت الحرارة 36.5 درجة مئوية. 
-        وعند تشغيل لعبة ثقيلة (PUBG) لمدة 20 دقيقة أثناء الشحن، قفزت الحرارة إلى **46.8 درجة مئوية**. 
-        وعند تغطية الهاتف ببطانية خفيفة أثناء نفس الاختبار، تجاوزت الحرارة **53.2 درجة مئوية** وفصل الهاتف الشحن تلقائياً لحماية البطارية.
+        على هاتف واحد بنفس الشاحن السريع 33 واط، قِسنا حرارة الجهاز في ثلاث حالات أثناء الشحن.
+        عند التصفح الخفيف بلغت الحرارة 36.5 درجة مئوية. 
+        وعند تشغيل لعبة ثقيلة (PUBG) لمدة 20 دقيقة أثناء الشحن، قفزت إلى **46.8 درجة مئوية**. 
+        وعند تغطية الهاتف ببطانية خفيفة في نفس الاختبار، تجاوزت **53.2 درجة مئوية** وفصل الهاتف الشحن تلقائياً لحماية البطارية. (قياس استرشادي على جهاز واحد يوضّح تأثير الاستخدام والتهوية على الحرارة.)
     </p>
 </div>
 
@@ -283,12 +283,12 @@ export const using_phone_while_charging_battery_explosion_myth: BlogArticle = {
 <p>Read our full guide on <a href="/en/blog/keep-phone-battery-health-above-80-percent-tips">how to keep phone battery health above 80%</a> for more lab-tested advice.</p>
 
 <div class="expert-callout" style="background:#fefce8;border:1px solid #fbbf24;border-left:4px solid #ca8a04;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#ca8a04;font-weight:bold;">🔬 CairoVolt Lab Test Results</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#ca8a04;font-weight:bold;">🔬 CairoVolt hands-on test — temperature readings</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We measured smartphone battery temperatures during 33W fast charging. 
-        Under light browsing, the battery stayed at 36.5°C. 
-        When playing PUBG for 20 minutes while charging, the temperature spiked to **46.8°C**. 
-        When we covered the charging phone with a blanket, it reached **53.2°C**, causing the internal BMS to shut down charging to prevent thermal damage.
+        On a single phone with the same 33W fast charger, we measured device temperature in three states during charging.
+        Under light browsing it stayed at 36.5°C. 
+        Playing PUBG for 20 minutes while charging pushed it to **46.8°C**. 
+        Covering the charging phone with a light blanket in the same test took it past **53.2°C**, at which point the phone's BMS shut down charging to protect the battery. (An indicative single-device reading that shows how usage and ventilation affect heat.)
     </p>
 </div>
 

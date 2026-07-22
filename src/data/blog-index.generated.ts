@@ -7890,7 +7890,7 @@ export const blogIndex: BlogIndexEntry[] = [
             en: {
                 title: 'Why Your Power Bank Dies After 6 Months: 5 Daily Mistakes Egyptians Make',
                 metaTitle: 'Why Power Banks Die After 6 Months — 5 Killer Mistakes | CairoVolt',
-                metaDescription: 'Power bank losing capacity fast? 5 daily mistakes destroying lithium cells — from car heat to constant 0% drains. Science-backed fixes with real data from Eg...',
+                metaDescription: 'Power bank losing capacity fast? 5 daily mistakes destroying lithium cells — from car heat to constant 0% drains. Science-backed fixes you can apply today in Egypt.',
                 keywords: 'why power bank dies fast, power bank loses capacity, power bank battery lifespan, power bank mistakes, lithium battery degradation, power bank heat damage egypt, power bank charge cycles, how long power bank lasts, power bank not charging like before, power bank 0 percent damage',
                 excerpt: 'Bought a power bank 6 months ago and it barely gives one charge now? 5 daily mistakes that kill lithium batteries — and how to avoid them.',
             },

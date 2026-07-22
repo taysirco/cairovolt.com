@@ -92,8 +92,8 @@ export default function VerifiedReviews({ locale, initialReviews, initialAggrega
             </h3>
             <p className="review-disclosure">
                 {isArabic
-                    ? 'تُراجَع كل التقييمات قبل النشر — نعرض المدح والنقد بشفافية.'
-                    : 'All reviews are moderated before publishing — we show praise and criticism transparently.'}
+                    ? 'تُراجَع كل التقييمات قبل النشر للتأكد من مصداقيتها — نعرض المدح والنقد بشفافية. وقد يحصل بعض المشترين الموثَّقين على كوبون خصم 5% مقابل تقييم صادق، أياً كان رأيهم.'
+                    : 'All reviews are moderated for authenticity before publishing — we show praise and criticism transparently. Some verified buyers may receive a 5% coupon for leaving an honest review, regardless of their opinion.'}
             </p>
 
             {/* ⭐ اكتب تقييمك — تسجيل جوجل + صور مضغوطة + هدية 5% بعد الموافقة */}

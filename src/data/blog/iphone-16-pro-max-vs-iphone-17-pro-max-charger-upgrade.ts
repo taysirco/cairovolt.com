@@ -169,9 +169,9 @@ export const iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade: BlogArticle
 </ul>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 اختبار كايرو فولت</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 اختبار كايرو فولت العملي (أبريل 2026)</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        قِسنا voltage ripple على خرج 8 شواحن: 4 جديدة و 4 مستخدمة لأكتر من 3 سنين (أبريل 2026). الشواحن الجديدة (Anker GaN): ripple أقل من 30mV (مقبول). الشواحن القديمة: 2 من 4 وصل الـ ripple فيها لـ 80-120mV — أعلى بـ 3-4× من المعيار. <strong>الخلاصة:</strong> شاحن عمره 3+ سنين بيستخدم يومياً — حتى لو شكله كويس من بره — ممكن يكون بيأذي بطاريتك من جوا.
+        قِسنا تموّج الجهد (voltage ripple) على خرج 8 شواحن: 4 جديدة و4 مستخدمة لأكثر من 3 سنين. الشواحن الجديدة (Anker GaN): ripple أقل من 30mV (مقبول). الشواحن القديمة: 2 من 4 وصل الـ ripple فيها لـ 80-120mV — أعلى بـ 3-4× من المعدّل المقبول. <strong>الخلاصة:</strong> شاحن عمره 3+ سنين بيُستخدم يومياً — حتى لو شكله كويس من بره — ممكن يكون بيأذي بطاريتك من جوا. (عيّنة صغيرة استرشادية، لكنها مؤشّر مهم.)
     </p>
 </div>
 
@@ -425,9 +425,9 @@ export const iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade: BlogArticle
 </ul>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt Test</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 CairoVolt hands-on test (April 2026)</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We measured voltage ripple on the output of 8 chargers: 4 new and 4 used for more than 3 years (April 2026). New chargers (Anker GaN): ripple below 30mV (acceptable). Old chargers: 2 out of 4 had ripple reaching 80-120mV — 3-4× higher than the standard. <strong>Bottom line:</strong> A charger that's 3+ years old with daily use — even if it looks fine on the outside — could be damaging your battery from the inside.
+        We measured voltage ripple on the output of 8 chargers: 4 new and 4 used for more than 3 years. New chargers (Anker GaN): ripple below 30mV (acceptable). Old chargers: 2 out of 4 had ripple reaching 80-120mV — 3-4× above the acceptable level. <strong>Bottom line:</strong> A charger that's 3+ years old with daily use — even if it looks fine on the outside — could be damaging your battery from the inside. (A small indicative sample, but a meaningful signal.)
     </p>
 </div>
 
