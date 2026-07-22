@@ -124,12 +124,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             addBilingual(routes, path, 0.9, 'weekly');
         });
 
-    // Firebase-only products
+    // Firebase-only products (hard 12s ceiling so prerender never stalls the build)
     try {
-        const db = await getFirestore();
+        const db = await Promise.race([
+            getFirestore(),
+            new Promise<null>((resolve) => setTimeout(() => resolve(null), 12_000)),
+        ]);
         if (db) {
-            const snapshot = await db.collection('products').get();
-            snapshot.docs.forEach(doc => {
+            const snapshot = await Promise.race([
+                db.collection('products').get(),
+                new Promise<null>((resolve) => setTimeout(() => resolve(null), 12_000)),
+            ]);
+            snapshot?.docs.forEach(doc => {
                 const data = doc.data();
                 if (data.slug && data.brand && data.categorySlug && !staticSlugs.has(data.slug)) {
                     const path = `/${toLower(data.brand)}/${toLower(data.categorySlug)}/${data.slug}`;

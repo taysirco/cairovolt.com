@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
     trailingSlash: false,
     compress: true,
     reactCompiler: true,
+    // Large bilingual catalog + blog sitemap can exceed the default 60s on cold Firebase.
+    staticPageGenerationTimeout: 180,
     outputFileTracingIncludes: {
         '/api/admin/wholesale': ['./src/server/wholesale-dashboard.html'],
     },
