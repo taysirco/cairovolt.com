@@ -36,7 +36,7 @@ export const anker_622_maggo_detail: ProductDetail = {
     benchTest: {
         sku: 'A1611',
         sampleId: 'CV-PB-A1611-001',
-        testDate: '2026-07-22',
+        testDate: '2026-04-08',
         engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
         conditions: {
             en: 'One retail-stock unit · room temperature 28.4°C',

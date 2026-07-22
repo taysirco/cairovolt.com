@@ -189,14 +189,29 @@ export default async function RootLayout({
         </NextIntlClientProvider>
         {process.env.NODE_ENV === 'production' && <PrefetchHints />}
 
-        {/* Service Worker — instant repeat visits via cache */}
+        {/* Service Worker — production only. In dev, actively UNREGISTER any
+           previously-installed SW + purge its caches, otherwise Cache-First
+           serves stale bundles (e.g., pre-Cairo-font CSS) forever. */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `
+            __html: process.env.NODE_ENV === 'production'
+              ? `
               if ('serviceWorker' in navigator) {
                 window.addEventListener('load', function() {
                   navigator.serviceWorker.register('/sw.js').catch(function() {});
                 });
+              }
+            `
+              : `
+              if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.getRegistrations().then(function(regs) {
+                  for (var i = 0; i < regs.length; i++) regs[i].unregister();
+                });
+                if (typeof caches !== 'undefined' && caches.keys) {
+                  caches.keys().then(function(keys) {
+                    keys.forEach(function(k) { caches.delete(k); });
+                  });
+                }
               }
             `
           }}

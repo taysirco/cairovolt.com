@@ -2,8 +2,6 @@
 // Do not edit by hand.
 export const PUBLIC_IMAGE_PATHS = new Set<string>([
     "/apple-icon.png",
-    "/awards_certificates/CE award.png",
-    "/awards_certificates/Red_Dot .webp",
     "/cairovolt-logo-icon.png",
     "/cairovolt_logo.png",
     "/cairovolt_logo.webp",

@@ -108,13 +108,22 @@ const nextConfig: NextConfig = {
             {
                 source: '/_next/static/:path*',
                 headers: [
+                    // In prod, `/_next/static/*` names are content-hashed → safe
+                    // to mark immutable and cache for a year. In dev (Turbopack)
+                    // chunk names are STABLE while contents change, so immutable
+                    // makes browsers serve stale CSS/JS forever — e.g., pre-Cairo
+                    // fonts persist even after edits + hard reloads.
                     {
                         key: 'Cache-Control',
-                        value: 'public, max-age=31536000, immutable',
+                        value: process.env.NODE_ENV === 'production'
+                            ? 'public, max-age=31536000, immutable'
+                            : 'no-store, must-revalidate',
                     },
                     {
                         key: 'CDN-Cache-Control',
-                        value: 'public, max-age=31536000, immutable',
+                        value: process.env.NODE_ENV === 'production'
+                            ? 'public, max-age=31536000, immutable'
+                            : 'no-store, must-revalidate',
                     },
                 ],
             },

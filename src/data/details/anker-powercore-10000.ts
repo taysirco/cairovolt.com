@@ -34,7 +34,7 @@ export const anker_powercore_10000_detail: ProductDetail = {
     benchTest: {
         sku: 'A1263',
         sampleId: 'CV-PB-A1263-001',
-        testDate: '2026-07-18',
+        testDate: '2026-03-04',
         engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
         conditions: {
             en: 'One retail-stock unit (post-recall-window manufacturing date verified) · room temperature 27.4–28.1°C',

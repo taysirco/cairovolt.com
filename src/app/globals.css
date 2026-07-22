@@ -1,15 +1,19 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+/* 🔤 خطوط نون: Cairo كخط أساسي لكل النصوص والعناوين (عربي + لاتيني).
+   لازم @theme inline عشان الـ var(--font-cairo) الجاي من next/font يتحلّ
+   وقت الـ runtime على <html> — من غير inline بيتاخد empty على :root. */
+@theme inline {
+  --font-sans: var(--font-cairo);
+  --font-outfit: var(--font-cairo);
+}
+
 @theme {
   --color-brand-anker: #00a4e4;
   --color-brand-joyroom: #e60012;
   --color-brand-dark: #0f172a;
   --color-brand-gold: #fbbf24;
-
-  /* 🔤 خطوط نون: Cairo كخط أساسي لكل النصوص والعناوين (عربي + لاتيني). */
-  --font-sans: var(--font-cairo);
-  --font-outfit: var(--font-cairo);
 }
 
 :root {
@@ -17,6 +21,11 @@
   --foreground: #0f172a;
   --brand-anker: #00a4e4;
   --brand-joyroom: #e60012;
+  /* fallback مضمون: حتى لو Tailwind ما نشرش الـ theme vars للـ :root
+     (بيحصل مع custom names أو runtime vars)، body يقدر يستعمل var(--font-cairo)
+     مباشرة عبر --font-sans. */
+  --font-sans: var(--font-cairo);
+  --font-outfit: var(--font-cairo);
 }
 
 @variant dark (&:where(.dark, .dark *));

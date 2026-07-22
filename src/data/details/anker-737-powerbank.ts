@@ -36,7 +36,7 @@ export const anker_737_powerbank_detail: ProductDetail = {
     benchTest: {
         sku: 'A1289',
         sampleId: 'CV-PB-A1289-001',
-        testDate: '2026-07-22',
+        testDate: '2026-06-27',
         engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
         conditions: {
             en: 'One retail-stock unit · room temperature 27.9°C',

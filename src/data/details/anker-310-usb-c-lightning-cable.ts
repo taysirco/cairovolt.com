@@ -60,7 +60,7 @@ export const anker_310_usb_c_lightning_cable_detail: ProductDetail = {
     benchTest: {
         sku: 'A81A1 (Anker 310 USB-C to Lightning, 0.9m)',
         sampleId: 'CV-CB-A81A1-001',
-        testDate: '2026-07-24',
+        testDate: '2026-03-21',
         engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
         conditions: {
             en: 'One retail-stock unit — tested sample is MPN A81A1 (3ft / 0.9m Anker 310 USB-C to Lightning); the store lists the functionally identical 0.9m A81A5 · room temperature 28.1°C',

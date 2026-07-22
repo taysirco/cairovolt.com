@@ -438,7 +438,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         },
         "image": {
             "url": "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-1.webp",
-            "alt": "Joyroom JR-T020 20000mAh power bank main view - CairoVolt"
+            "alt": "Joyroom JR-PBF14 Pro 20000mAh power bank main view - CairoVolt"
         }
     },
     {
@@ -614,10 +614,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Joyroom 25W USB-C PD Charger (JR-TCF25) | iPhone and Samsung Compatibility"
+                "name": "Joyroom 25W USB-C PD Charger (JR-TCF23) | iPhone and Samsung Compatibility"
             },
             "ar": {
-                "name": "شاحن جوي روم 25 واط USB-C PD موديل JR-TCF25 | توافق ايفون وسامسونج"
+                "name": "شاحن جوي روم 25 واط USB-C PD موديل JR-TCF23 | توافق ايفون وسامسونج"
             }
         },
         "image": {
@@ -663,7 +663,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
                 "name": "Joyroom MagSafe Power Bank 10000mAh | 15W Wireless + 20W Wired | Kickstand"
             },
             "ar": {
-                "name": "باور بانك جوي روم JR-W030 مغناطيسي 10000 مللي أمبير | حامل مدمج"
+                "name": "باور بانك جوي روم JR-W050 مغناطيسي 10000 مللي أمبير | حامل مدمج"
             }
         },
         "image": {
@@ -1496,7 +1496,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         },
         "image": {
             "url": "/products/anker/soundcore-liberty-buds/soundcore-liberty-buds-main-view-cairovolt.webp",
-            "alt": "Soundcore Liberty Buds A3960 semi-in-ear wireless earbuds ANC 3.0 - CairoVolt"
+            "alt": "Soundcore Liberty Buds D1200Z11 semi-in-ear wireless earbuds ANC 3.0 - CairoVolt"
         }
     },
     {

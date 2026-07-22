@@ -33,7 +33,7 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
         benchTest: {
             sku: 'A2310 (A2310011)',
             sampleId: 'CV-CC-A2310-001',
-            testDate: '2026-07-24',
+            testDate: '2026-04-25',
             engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
             conditions: {
                 en: 'One retail-stock unit · powered from a 12V car accessory socket and from a 24V bench DC supply',
