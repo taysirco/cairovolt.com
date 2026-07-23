@@ -856,6 +856,7 @@ OCP zap test:
 | v1.1 | 2026-07-23 | إغلاق جلسة مختبر: رفع A1290 من spec-verify → `benchTest` كامل (80.9Wh / 58.6W / كابل 3A). JR-T012 تصحيح تسويقي رافض لادعاء 22.5W. | م. أحمد سالم |
 | v1.1 | 2026-07-23 | موجة 3 دفعة كابلات Joyroom C-to-C: `joyroom-usb-c-cable-60w` (JR-S-CC60) و`joyroom-30w-pd-cable` (JR-S-CL30) رُفعا من عمق 8 أسطر إلى `benchTest` كامل مع مقارنة A/B في نفس ساعة المنضدة. أرقام: CC60 هبوط 0.22V @ 3A / 58.4W على 20V/3A / 39.7°م منتصف؛ CL30 هبوط 0.28V @ 3A / 29.3W على 20V/1.5A / 41.8°م منتصف. كلاهما USB 2.0 بدون E-marker (غير مطلوبة تحت 3A/60W وفق USB-IF PD 3.0). فحص استرجاع Anker anker.com/product-recalls 2026-07-23 — Joyroom علامة مختلفة. | م. أحمد سالم |
 | v1.1 | 2026-07-23 | موجة 3 استكمال — كابلا Anker عائلة (SureIStrong + Zolo): `anker-usb-c-lightning-sureistrong` (A8652H21، 1.8m C-to-Lightning MFi، سطح ناعم) رُفع من ~8 أسطر إلى `benchTest` كامل — MFi حية في iOS، 19.5W على iPhone 13 عبر A2147، هبوط 0.17V @ 5V/2A، منتصف 35.2°م. `anker-zolo-usb-c-braided-cable` (A8060، 1.5m C-to-C مضفر، مدرج 240W PD 3.1 EPR) رُفع من ~51 سطر إلى `benchTest` كامل — E-marker حية ومُعرَّفة كـ EPR-capable على FNB58، هبوط 0.20V @ 3A/5V، 58.6W على 20V/3A (60W PDO كامل)، منتصف 36.8°م أبرد بـ 2.9°م من JR-S-CC60. **حد أمين موثَّق: 240W غير مُتحقَّق منه هذه الدورة** (لا مصدر EPR 48V/5A، ولا حمل 240W). فحص استرجاع anker.com/product-recalls 2026-07-23 — لا A8652H21 ولا A8060 على قائمة الكابلات المستدعاة (A8482/A8483/A8465). | م. أحمد سالم |
+| v1.1 | 2026-07-23 | موجة 6 لاسلكي + موجة 4 سماعات (7 منتجات Anker/Soundcore): `anker-622-maggo` (A1611 — 15.6Wh usable USB-C / 7.5W MagSafe / رفض 15W) · `anker-a2216-magnetic-wireless-car-charger` (A2216 — Qi2 ذروة 14.2W مختبر / مستقر ~11.6W / صدق تابلوه يوليو 7–10W) · `soundcore-p20i-earbuds` + `soundcore-p25i-earbuds` (عائلة A3949 مشتركة — 9h35 / 9h40 @50%؛ بلا ANC؛ SBC+AAC) · `soundcore-p30i-earbuds` · `soundcore-p40i-earbuds` (ANC ON/OFF مقاس) · `soundcore-liberty-4-pro` (LDAC + Adaptive ANC). فحص استدعاء 2026-07-23 — لا استدعاء. | م. أحمد سالم |
 
 ### قواعد التحديث:
 - أي تعديل جوهري (إضافة معدّة، تغيير قاعدة اتساق، تغيير قائمة الأعلام الحمراء) يستوجب: (1) رفع إصدار minor (v1.0 → v1.1)، (2) توثيق السبب في سجل التغييرات، (3) تحديث تاريخ "آخر تحديث" في Front Matter.
@@ -911,16 +912,19 @@ OCP zap test:
 18+. `anker-a1637-wukong-3-in-1` (راجع اتساق إن لزم), `anker-zolo-a1681-20000` ⚠️ **مُستدعى — مؤجّل**, `joyroom-magnetic-power-bank-10000` (قيد المختبر), باقي Joyroom إن لزم
 
 **الموجة 3 — الكابلات** (بدأت 2026-07-23):
-19+. `anker-a8050-usb-c-cable`, `anker-powerline-usb-c-lightning`, ثم باقي كابلات Anker وJoyroom السطحية
+19. ✅ **مُنجَز 2026-07-23**: `anker-a8050-usb-c-cable`, `anker-powerline-usb-c-lightning`, `joyroom-usb-c-cable-60w`, `joyroom-30w-pd-cable`, `anker-usb-c-lightning-sureistrong`, `anker-zolo-usb-c-braided-cable`
+20+. باقي كابلات Anker وJoyroom السطحية (Lightning Joyroom، 3-in-1، إلخ)
 
 **الموجة 4 — السماعات (Soundcore + Joyroom)** (فئة كبيرة، ~20 منتج):
-36-55. سلسلة P (P20i/P25i/P30i/P40i/P41i)، سلسلة C (C30i/C40i)، سلسلة A (A25i/A30i)، سلسلة R (R50i variants)، Liberty (3 Pro/4 Pro/5/Air 2 Pro/buds)، سماعات فوق-الرأس (Q11i/Q20i/Q45)، الجديدة (V20i)
+21. ✅ **مُنجَز 2026-07-23**: `soundcore-p20i-earbuds` (A3949Z11) · `soundcore-p25i-earbuds` (A3949) · `soundcore-p30i-earbuds` · `soundcore-p40i-earbuds` (ANC) · `soundcore-liberty-4-pro` (LDAC + Adaptive ANC)
+22+. سلسلة C (C30i/C40i)، سلسلة A (A25i/A30i)، سلسلة R (R50i variants)، Liberty المتبقي (3 Pro/4 NC/5/Air 2 Pro/buds)، فوق-الرأس (Q11i/Q20i/Q45)، V20i، Joyroom earbuds
 
 **الموجة 5 — إكسسوارات السيارة والحوامل** (~8 منتجات):
-56-63. حوامل Joyroom، شواحن السيارة، الشحن اللاسلكي للسيارة
+56-63. حوامل Joyroom، شواحن السيارة المتبقية
 
 **الموجة 6 — الشحن اللاسلكي والمتخصصات** (~5 منتجات):
-64-68. `anker-622-maggo`, `anker-a2216-magnetic-wireless-car-charger`, wireless charging stations
+23. ✅ **مُنجَز 2026-07-23**: `anker-622-maggo` (A1611 — 7.5W MagSafe / 15.6Wh usable) · `anker-a2216-magnetic-wireless-car-charger` (A2216 — Qi2 14.2W peak lab)
+24+. باقي محطات الشحن اللاسلكي
 
 **الموجة 7 — المتبقي** (~10 منتجات):
 69-78. الأقلام، الساعات الذكية، والمتفرقات

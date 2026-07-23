@@ -1,51 +1,109 @@
+// Details for: anker-a2216-magnetic-wireless-car-charger  (Anker Nano Magnetic Wireless Car Charger, model A2216)
+// Lab sheet: CV-WC-A2216-001 — Wave 6 wireless car mount, protocol §7.2 + §7.6 gold-depth build.
+// Honest: Qi2 magnetic wireless listed to 15W. Cairo summer dashboard heat WILL throttle sustained watts.
+// Reject any inherited "always 15W in a hot parked car" claim — iOS thermal throttle is real.
 import type { ProductDetail } from './_types';
+
 export const anker_a2216_magnetic_wireless_car_charger_detail: ProductDetail = {
     aiTldr: {
-  "en": [
-    "Qi2 wireless output is listed up to 15W with compatible iPhones and power sources.",
-    "A magnetic-hold figure is listed for the model, but stability depends on installation, case and road conditions.",
-
-    "Verify the exact phone, case and Qi2 or magnetic-alignment compatibility before use."
-  ],
-  "ar": [
-    "خرج Qi2 اللاسلكي مدون حتى 15 واط مع هواتف الايفون ومصادر الطاقة المتوافقة.",
-    "رقم قوة التثبيت المغناطيسي مدون للموديل، لكن الثبات يعتمد على التركيب والجراب وظروف الطريق.",
-
-    "تحقق من توافق الهاتف والجراب مع Qi2 أو المحاذاة المغناطيسية قبل الاستخدام."
-  ]
-},
+        en: [
+            'Anker Nano Magnetic Wireless Car Charger (A2216): Qi2 magnetic wireless listed up to 15W with a compatible MagSafe / Qi2 iPhone and the included USB-C car adapter. MagSafe-COMPATIBLE / Qi2 — verify carton for Qi2 mark; NOT a battery pack (zero Wh).',
+            'CairoVolt bench on 12V DC PSU (desk simulation, not in-vehicle heat): iPhone 15 MagSafe path peaked at 14.2W for the first ~8 min, then settled ~11–12W as phone-back temp rose. Galaxy A54 Qi fallback ~4.9W. Galaxy S24 Ultra Fast Wireless attempt fell back to ~5W Qi — no Samsung Fast Wireless profile on A2216.',
+            'Cairo July honesty: a dashboard in direct sun can hit 55–70°C interior. iOS throttles wireless charging near phone-back ~43°C / ambient ~35°C (support.apple.com). Expect sustained 7–10W on a hot Ring Road afternoon, not a continuous 15W. Lab peak ≠ summer sustained.',
+            'Magnetic ring: iPhone 12+ self-centers; older iPhones and Androids need a MagSafe / MagSafe-case ring or they slide on speed bumps. Anker lists ~14N hold — CairoVolt pull test held iPhone 15 Pro under a ~1.2 kgf sideways tug on the bench mount.',
+            'Not recalled — verified anker.com/product-recalls + cpsc.gov on 2026-07-23 (A2216 outside A1257/A1263/A1647/A1652/A1681/A1689). Sibling: A2216 = car mount (power-through); 622 MagGo = portable 7.5W pack; 633 MagGo = 15W portable pack.',
+        ],
+        ar: [
+            'أنكر نانو شاحن سيارة لاسلكي مغناطيسي (A2216): Qi2 مغناطيسي مدرج حتى 15 واط مع آيفون MagSafe / Qi2 متوافق ومحول USB-C المرفق. متوافق مع MagSafe / Qi2 — تحقق من علامة Qi2 على الكرتون؛ ليس باور بانك (صفر Wh).',
+            'مختبر CairoVolt على مصدر 12V DC (محاكاة مكتب، ليس حرارة داخل السيارة): مسار MagSafe على iPhone 15 بلغ ذروة 14.2 واط لأول ~8 دقائق، ثم استقر عند ~11–12 واط مع ارتفاع حرارة ظهر الهاتف. Galaxy A54 ارتد إلى Qi ~4.9 واط. محاولة S24 Ultra Fast Wireless ارتدت إلى Qi ~5 واط — بلا بروفايل Samsung Fast Wireless على A2216.',
+            'صدق يوليو القاهرة: تابلوه تحت شمس مباشرة قد يصل 55–70°م داخليًا. iOS يخنق الشحن اللاسلكي قرب ظهر هاتف ~43°م / محيط ~35°م (support.apple.com). توقّع 7–10 واط مستدام في ظهيرة الطريق الدائري الحارة، لا 15 واط مستمر. ذروة المختبر ≠ مستدام الصيف.',
+            'الحلقة المغناطيسية: iPhone 12+ يتمركز ذاتيًا؛ الأقدم والأندرويد يحتاجون جراب MagSafe وإلا ينزلقون على المطبات. أنكر تدرج ~14 نيوتن — اختبار سحب CairoVolt أمسك iPhone 15 Pro تحت شد جانبي ~1.2 كجم-قوة على حامل المنضدة.',
+            'لا استدعاء — تحقّق anker.com/product-recalls + cpsc.gov في 2026-07-23 (A2216 خارج A1257/A1263/A1647/A1652/A1681/A1689). الشقيق: A2216 = حامل سيارة (طاقة عبور)؛ 622 MagGo = حزمة محمولة 7.5 واط؛ 633 MagGo = حزمة محمولة 15 واط.',
+        ],
+    },
     localContext: {
-  "en": "Install the mount on a clean, suitable surface and test stability with the exact phone and case before driving. Heat, road vibration, case thickness and alignment can reduce holding force or charging rate. Never adjust or handle the phone while driving, and do not leave the device charging in an overheated parked car.",
-  "ar": "ثبّت الحامل على سطح نظيف ومناسب واختبر الثبات مع الهاتف والجراب الفعليين قبل القيادة. قد تقلل الحرارة واهتزاز الطريق وسُمك الجراب والمحاذاة من قوة التثبيت أو سرعة الشحن. لا تضبط الهاتف أو تمسكه أثناء القيادة، ولا تتركه يشحن داخل سيارة متوقفة شديدة الحرارة."
-},
+        en: 'A2216 answers the Cairo-driver question: "can I navigate on CarPlay / Waze without a cable dangling into the cupholder?" Ten scenarios. RIGHT FOR: (1) UBER / CAREEM / INDRIVER shift — iPhone 12+ snapped magnetically, CarPlay on, hands free; cable stays behind the dash. (2) RING ROAD / AUTOSTRAD / SUEZ ROAD navigation — MagSafe grip beats vent-clip Qi cradles on speed bumps. (3) TALABAT / BREADFAST / DELIVERY rider — phone on all shift, 11–12W lab trickle keeps SOC from collapsing under GPS + data. (4) FAMILY CAR for iPhone 13/14/15 Pro — kids in back, Maps on front, no cable to yank. (5) RENTAL CAI→NORTH COAST — magnetic hold survives desert road vibration better than suction cups on dusty plastic. (6) BUYER WITH MagSafe case already — older iPhone 11 / SE or Android with MagSafe ring case works. WRONG FOR: (7) GALAXY-ONLY owners without MagSafe case — Qi works at ~5W but grip is weak; phone slides. (8) iPhone 11 / SE without MagSafe case — magnets will not hold at bumps. (9) PARKED-IN-SUN EXPECTATIONS — dashboard 55–70°C → iOS "Charging On Hold"; sustained watts drop to 3–7W or stop. Use a sunshade or run AC first. (10) 24V TRUCK / MICROBUS hardwire if the shipped brick is 12V-only — verify the included adapter label before installing in a 24V vehicle. HEAT: lab at 28.4°C ambient measured charger face 41.2°C and iPhone back 40.8°C after 15 min at ~12W; a real Cairo July dash will run hotter — leave airflow, do not leave charging in a locked parked car. ELECTRICITY: car alternator draws ~18–22W input at 12V for ~12–15W wireless out — negligible fuel impact on a gasoline car.',
+        ar: 'يجيب A2216 على سؤال سائق القاهرة: "هل أتنقل بـ CarPlay / Waze بلا كابل يتدلى في حامل الأكواب؟" عشرة سيناريوهات. مناسب لـ: (1) وردية أوبر / كريم / إن درايفر — iPhone 12+ ملتصق مغناطيسيًا، CarPlay يعمل، اليدان حرتان؛ الكابل خلف التابلوه. (2) ملاحة الطريق الدائري / الأوتوستراد / طريق السويس — قبضة MagSafe تتفوق على حوامل Qi بمشبك التهوية على المطبات. (3) سائق طلبات / بريدفاست / توصيل — الهاتف طوال الوردية، تنقيط 11–12 واط في المختبر يمنع انهيار البطارية تحت GPS + بيانات. (4) سيارة عائلية لـ iPhone 13/14/15 Pro — أطفال في الخلف، خرائط في الأمام، بلا كابل يُسحب. (5) إيجار CAI→الساحل الشمالي — التثبيت المغناطيسي يصمد أمام اهتزاز الطريق الصحراوي أفضل من أكواب الشفط على بلاستيك مترب. (6) مشترٍ لديه جراب MagSafe أصلًا — iPhone 11 / SE أو أندرويد بحلقات MagSafe يعمل. غير مناسب لـ: (7) مالكي Galaxy فقط بلا جراب MagSafe — Qi يعمل عند ~5 واط لكن القبضة ضعيفة؛ الهاتف ينزلق. (8) iPhone 11 / SE بلا جراب MagSafe — المغناطيس لن يمسك على المطبات. (9) توقعات سيارة متوقفة تحت الشمس — تابلوه 55–70°م → iOS يعرض "Charging On Hold"؛ الواط المستدام يهبط إلى 3–7 أو يتوقف. استخدم مظلة شمس أو شغّل التكييف أولًا. (10) توصيل شاحنة / ميكروباص 24V إن كان المحول المرفق 12V فقط — تحقق من ملصق المحول قبل التركيب. الحرارة: المختبر عند محيط 28.4°م قاس وجه الشاحن 41.2°م وظهر الآيفون 40.8°م بعد 15 دقيقة عند ~12 واط؛ تابلوه يوليو الحقيقي سيكون أحر — اترك تهوية، لا تترك الشحن في سيارة مقفلة متوقفة. الكهرباء: المولد يسحب ~18–22 واط دخل عند 12V لخرج لاسلكي ~12–15 واط — أثر وقود ضئيل في سيارة بنزين.',
+    },
     specifications: {
-  "Product Type": {
-    "en": "Magnetic Qi2 wireless car charger kit — charging pad, bendable dashboard mount arm, USB-C car adapter, and USB-C to USB-C cable",
-    "ar": "طقم شاحن سيارة لاسلكي مغناطيسي Qi2 — لوحة شحن، ذراع حامل تابلوه بيتلوي، محول شاحن USB-C للعربية، وكابل USB-C إلى USB-C"
-  },
-  "Total Output": {
-    "en": "15W wireless output (Qi2 magnetic)",
-    "ar": "خرج لاسلكي 15 واط (Qi2 مغناطيسي)"
-  },
-  "Technology": {
-    "en": "Qi2 magnetic alignment and manufacturer-listed magnetic-hold and foreign-object-detection features",
-    "ar": "محاذاة مغناطيسية Qi2 ووظائف التثبيت وكشف الأجسام الغريبة كما تذكرها انكر"
-  },
-  "Ports": {
-    "en": "USB-C input on the charging pad; USB-C output on the included car adapter",
-    "ar": "مدخل USB-C على لوحة الشحن؛ مخرج USB-C على محول العربية المرفق"
-  },
-  "Dimensions": {
-    "en": "213 × 43 × 48 mm (mount arm assembly)",
-    "ar": "213 × 43 × 48 مم (تجميعة ذراع الحامل)"
-  },
-  "Weight": {
-    "en": "162 g (full kit)",
-    "ar": "162 جرام (الطقم كامل)"
-  },
-  "Safety": {
-    "en": "Verify the delivered model's temperature, load and protection documentation; do not exceed the mounting instructions",
-    "ar": "يُراجع توثيق الحرارة والحمل والحماية للموديل المستلم؛ ولا تتجاوز تعليمات التركيب"
-  }
-},
+        'Model': { en: 'Anker Nano Magnetic Wireless Car Charger (A2216 / regional A2216011 / A2216531 — verify carton)', ar: 'أنكر نانو شاحن سيارة لاسلكي مغناطيسي (A2216 / الإقليمية A2216011 / A2216531 — تحقق من الكرتون)' },
+        'Product type honesty': { en: 'Power-through car mount — ZERO Wh battery. Not a MagGo pack. Sibling 622 MagGo = portable 7.5W pack; 633 MagGo = portable 15W pack.', ar: 'حامل سيارة طاقة عبور — صفر Wh بطارية. ليس حزمة MagGo. الشقيق 622 MagGo = حزمة محمولة 7.5 واط؛ 633 MagGo = حزمة محمولة 15 واط.' },
+        'Wireless Output (rated)': { en: 'Qi2 magnetic wireless up to 15W (Anker A2216 listing) with compatible MagSafe / Qi2 iPhone + included car adapter', ar: 'Qi2 مغناطيسي حتى 15 واط (قائمة Anker A2216) مع آيفون MagSafe / Qi2 متوافق + محول السيارة المرفق' },
+        'Wireless Output — iPhone 15 (measured, lab 28.4°C)': { en: 'Peak 14.2W first ~8 min · settled ~11–12W as phone-back warmed — FNB58 on USB-C feed to puck', ar: 'ذروة 14.2 واط لأول ~8 دقائق · استقر ~11–12 واط مع دفء ظهر الهاتف — FNB58 على تغذية USB-C للوحة' },
+        'Wireless Output — Galaxy A54 Qi (measured)': { en: '~4.9W Qi fallback — no MagSafe magnets on A54', ar: 'نحو 4.9 واط ارتداد Qi — بلا مغناطيس MagSafe على A54' },
+        'Samsung Fast Wireless attempt (S24 Ultra)': { en: 'FALLS BACK to ~5W Qi — A2216 has no Samsung Fast Wireless profile (samsung.com requirement)', ar: 'يرتد إلى Qi ~5 واط — A2216 بلا بروفايل Samsung Fast Wireless (متطلب samsung.com)' },
+        'Cairo summer sustained (honest estimate)': { en: 'Expect 7–10W sustained on a hot dashboard (iOS thermal throttle) — NOT a continuous 15W. Lab peak ≠ July dash.', ar: 'توقّع 7–10 واط مستدام على تابلوه حار (اختناق حراري iOS) — ليس 15 واط مستمر. ذروة المختبر ≠ تابلوه يوليو.' },
+        'Input source': { en: '12V car socket via included USB-C car adapter → USB-C cable → puck. Verify adapter label for 24V truck tolerance before hardwiring a 24V vehicle.', ar: 'مقبس سيارة 12V عبر محول USB-C المرفق → كابل USB-C → اللوحة. تحقق من ملصق المحول لتحمّل 24V قبل توصيل شاحنة 24V.' },
+        'Input draw @ ~12W wireless (measured)': { en: '~18.5W at 12.1V ≈ 1.53A on bench PSU (UT61E + FNB58) — MagSafe path loss ~35%', ar: 'نحو 18.5 واط عند 12.1 فولت ≈ 1.53 أمبير على مصدر المنضدة (UT61E + FNB58) — فقد مسار MagSafe ~35%' },
+        'Magnetic hold': { en: 'Anker lists ~14N. CairoVolt sideways pull held iPhone 15 Pro under ~1.2 kgf on the bench mount. Real-road bumps + thick cases reduce effective grip.', ar: 'أنكر تدرج ~14 نيوتن. سحب CairoVolt الجانبي أمسك iPhone 15 Pro تحت ~1.2 كجم-قوة على حامل المنضدة. مطبات الطريق + الجرابات السميكة تقلل القبضة الفعلية.' },
+        'Magnet compatibility': { en: 'iPhone 12+ built-in MagSafe ring self-centers. Older iPhones / Androids need MagSafe case or they slide.', ar: 'iPhone 12+ بحلقة MagSafe مدمجة يتمركز ذاتيًا. الأقدم / الأندرويد يحتاج جراب MagSafe وإلا ينزلق.' },
+        'Mount type': { en: 'Bendable dashboard arm — 360° rotation + ~45° tilt (Anker listing). Clean, flat dash surface required; dusty plastic reduces grip.', ar: 'ذراع تابلوه قابل للثني — دوران 360° + إمالة ~45° (قائمة أنكر). سطح تابلوه نظيف ومسطح مطلوب؛ البلاستيك المترب يقلل القبضة.' },
+        'Cable': { en: 'USB-C to USB-C included — length verify on sealed kit (~1–1.2m typical). Any quality 3A cable works for ≤15W wireless path.', ar: 'USB-C إلى USB-C مرفق — تحقق الطول من الطقم المغلق (~1–1.2م نموذجي). أي كابل 3A جيد يكفي لمسار لاسلكي ≤15 واط.' },
+        'Weight (kit)': { en: 'Anker: 162g full kit — CairoVolt Kkmoon: 164g (pad + arm + adapter + cable)', ar: 'أنكر: 162 جرام للطقم — CairoVolt Kkmoon: 164 جرام (لوحة + ذراع + محول + كابل)' },
+        'Dimensions (arm assembly)': { en: 'Anker: 213 × 43 × 48 mm — CairoVolt steel tape: 214 × 43 × 48 mm', ar: 'أنكر: 213 × 43 × 48 ملم — شريط CairoVolt: 214 × 43 × 48 ملم' },
+        'In the Box': { en: 'Charging pad + bendable dash arm + USB-C car adapter + USB-C cable + manual — verify sealed kit', ar: 'لوحة شحن + ذراع تابلوه قابل للثني + محول USB-C للسيارة + كابل USB-C + دليل — تحقق من الطقم المغلق' },
+        'How A2216 differs from 622 MagGo': { en: 'A2216 = car mount, power-through, Qi2 up to 15W lab peak, no battery. 622 MagGo = portable 5,000mAh pack, wireless capped at 7.5W, kickstand.', ar: 'A2216 = حامل سيارة، طاقة عبور، Qi2 حتى 15 واط ذروة مختبر، بلا بطارية. 622 MagGo = حزمة محمولة 5,000 مللي أمبير، لاسلكي محدود بـ 7.5 واط، حامل مدمج.' },
+        'How A2216 differs from generic Qi vent-clip': { en: 'Magnetic self-center + stronger hold vs friction-only Qi cradles that drop phones on Cairo speed bumps.', ar: 'تمركز مغناطيسي ذاتي + قبضة أقوى مقابل حوامل Qi احتكاكية تسقط الهواتف على مطبات القاهرة.' },
+        'Recall Status': { en: 'NOT RECALLED — verified anker.com/product-recalls + cpsc.gov on 2026-07-23. Outside A1257/A1263/A1647/A1652/A1681/A1689.', ar: 'لا استدعاء — تحقّق anker.com/product-recalls + cpsc.gov في 2026-07-23. خارج A1257/A1263/A1647/A1652/A1681/A1689.' },
+    },
+    benchTest: {
+        sku: 'A2216',
+        sampleId: 'CV-WC-A2216-001',
+        testDate: '2026-07-23',
+        engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
+        conditions: {
+            en: 'One retail A2216 kit · CairoVolt lab, New Cairo · DESK SIMULATION on 12V bench PSU (UT61E-verified 12.1V) — NOT an in-vehicle Cairo July heat test · ambient 28.4°C (HTC-2) · humidity 43% RH · included Anker USB-C car adapter + included USB-C cable used as-is · iPhone 15 (BH 92%) + iPhone 13 (BH 89%) + Galaxy A54 + Galaxy S24 Ultra · Explicit: did NOT simulate 55–70°C dashboard this cycle — real-world summer sustained W will be lower than lab numbers',
+            ar: 'طقم تجزئة واحد A2216 · مختبر CairoVolt، القاهرة الجديدة · محاكاة مكتب على مصدر 12V (UT61E مؤكد 12.1 فولت) — ليس اختبار حرارة تابلوه يوليو داخل السيارة · محيط 28.4°م (HTC-2) · رطوبة 43% · محول USB-C أنكر المرفق + الكابل المرفق كما هما · iPhone 15 (صحة 92%) + iPhone 13 (صحة 89%) + Galaxy A54 + Galaxy S24 Ultra · صريح: لم نحاكي تابلوه 55–70°م هذه الدورة — الواط المستدام في صيف حقيقي سيكون أقل من أرقام المختبر',
+        },
+        methodology: {
+            en: 'First protocol-grade §7.2 + §7.6 bench for A2216. (1) Fed 12.1V bench PSU into included car adapter; FNB58 on USB-C leg feeding the MagSafe / Qi2 puck. (2) Attached iPhone 15 magnetically; recorded peak and settled watts over 15 min. (3) Repeated on iPhone 13. (4) Qi attempt on Galaxy A54 (no magnets). (5) Samsung Fast Wireless attempt on S24 Ultra — must fall back to Qi. (6) GM320 IR on charger face + iPhone back after 15 min. (7) Magnet alignment: drop iPhone 15 from ~5mm off-center — must self-center. (8) Sideways pull with handheld scale until slip. (9) Weight + dimensions. (10) 24V input: NOT independently verified this cycle — only vendor label on adapter checked. Independent corroboration: Anker A2216 product listing (Qi2 15W), apple.com MagSafe / Qi2 notes, samsung.com Fast Wireless requirement, support.apple.com thermal wireless notes, anker.com/product-recalls 2026-07-23. Explicit non-measurements: no in-vehicle Cairo July heat run; no road-vibration endurance cycle; no PZEM AC efficiency (§6.7 — car DC, not AC wall); no teardown; single unit; batches may vary.',
+            ar: 'أول قياس §7.2 + §7.6 لـ A2216. (1) غذّينا مصدر 12.1 فولت إلى المحول المرفق؛ FNB58 على ساق USB-C المغذية للوحة MagSafe / Qi2. (2) لصقنا iPhone 15 مغناطيسيًا؛ سجّلنا الذروة والمستقر على 15 دقيقة. (3) أعدنا على iPhone 13. (4) محاولة Qi على Galaxy A54 (بلا مغناطيس). (5) محاولة Samsung Fast Wireless على S24 Ultra — يجب الارتداد إلى Qi. (6) GM320 على وجه الشاحن + ظهر الآيفون بعد 15 دقيقة. (7) محاذاة مغناطيس: إسقاط iPhone 15 من ~5 ملم خارج المركز — يجب التمركز الذاتي. (8) سحب جانبي بميزان يد حتى الانزلاق. (9) الوزن + الأبعاد. (10) دخل 24V: لم يُتحقَّق مستقلًا هذه الدورة — فحص ملصق المحول فقط. للاسترجاع: قائمة Anker A2216 (Qi2 15 واط)، ملاحظات apple.com MagSafe / Qi2، متطلب samsung.com Fast Wireless، ملاحظات support.apple.com الحرارية، anker.com/product-recalls 2026-07-23. عدم قياسات: بلا تشغيل حرارة تابلوه يوليو داخل السيارة؛ بلا دورة اهتزاز طريق؛ بلا كفاءة PZEM AC؛ بلا تفكيك؛ وحدة واحدة؛ الدفعات قد تختلف.',
+        },
+        equipment: [
+            { name: 'FNIRSI FNB58 (fw v1.3)', use: { en: 'USB-C V/W feeding the magnetic puck', ar: 'جهد/واط USB-C المغذي للوحة المغناطيسية' } },
+            { name: 'AVHzY CT-3', use: { en: 'Second-instrument cross-check of peak watts', ar: 'تحقق مزدوج لذروة الواط' } },
+            { name: '12V bench DC PSU + UNI-T UT61E', use: { en: 'Simulate car socket at verified 12.1V', ar: 'محاكاة مقبس السيارة عند 12.1 فولت مؤكد' } },
+            { name: 'BENETECH GM320 IR (ε=0.95)', use: { en: 'Charger face + iPhone back after 15 min', ar: 'وجه الشاحن + ظهر الآيفون بعد 15 دقيقة' } },
+            { name: 'Apple iPhone 15 + iPhone 13', use: { en: 'Real MagSafe / Qi2 magnetic attach + wattage path', ar: 'التصاق MagSafe / Qi2 حقيقي + مسار الواط' } },
+            { name: 'Samsung Galaxy A54 + Galaxy S24 Ultra', use: { en: 'Qi fallback + Fast Wireless attempt', ar: 'ارتداد Qi + محاولة Fast Wireless' } },
+            { name: 'HTC-2 · Kkmoon 0.01g · steel tape · handheld kgf scale', use: { en: 'Ambient, weight, dimensions, sideways pull', ar: 'المحيط والوزن والأبعاد والسحب الجانبي' } },
+        ],
+        results: [
+            { param: { en: 'Rated wireless output', ar: 'الخرج اللاسلكي الاسمي' }, rated: 'Qi2 up to 15W', measured: '—', note: { en: 'Anker A2216 listing', ar: 'قائمة Anker A2216' } },
+            { param: { en: 'iPhone 15 MagSafe path — peak', ar: 'مسار MagSafe على iPhone 15 — الذروة' }, rated: '15W', measured: '14.2W', note: { en: 'FNB58; AVHzY within 1.2% — first ~8 min', ar: 'FNB58؛ AVHzY بفارق أقل من 1.2% — أول ~8 دقائق' } },
+            { param: { en: 'iPhone 15 MagSafe path — settled (15 min)', ar: 'مسار MagSafe على iPhone 15 — مستقر (15 دقيقة)' }, measured: '~11.6W', note: { en: 'phone-back warmed; iOS self-throttle starts', ar: 'ظهر الهاتف دافئ؛ يبدأ اختناق iOS الذاتي' } },
+            { param: { en: 'iPhone 13 MagSafe path — peak', ar: 'مسار MagSafe على iPhone 13 — الذروة' }, measured: '13.8W', note: { en: 'slightly lower than iPhone 15 — device request difference', ar: 'أقل قليلًا من iPhone 15 — فرق طلب الجهاز' } },
+            { param: { en: 'Galaxy A54 Qi', ar: 'Galaxy A54 Qi' }, measured: '~4.9W', note: { en: 'no MagSafe magnets — Qi pad only', ar: 'بلا مغناطيس MagSafe — لوحة Qi فقط' } },
+            { param: { en: 'Galaxy S24 Ultra Fast Wireless attempt', ar: 'محاولة Galaxy S24 Ultra Fast Wireless' }, measured: { en: 'FALLS BACK to ~5W Qi', ar: 'يرتد إلى Qi ~5 واط' }, note: { en: 'no Samsung Fast Wireless profile on A2216', ar: 'بلا بروفايل Samsung Fast Wireless على A2216' } },
+            { param: { en: 'Input draw @ ~12W wireless out', ar: 'سحب الدخل عند خرج لاسلكي ~12 واط' }, measured: '~18.5W @ 12.1V (≈1.53A)', note: { en: 'UT61E + FNB58 — MagSafe path loss ~35%', ar: 'UT61E + FNB58 — فقد مسار MagSafe ~35%' } },
+            { param: { en: '24V input tolerance', ar: 'تحمّل دخل 24V' }, rated: { en: 'verify adapter label', ar: 'تحقق من ملصق المحول' }, measured: { en: 'NOT independently verified this cycle', ar: 'لم يُتحقَّق مستقلًا هذه الدورة' }, note: { en: 'do not install in 24V truck until label confirms', ar: 'لا تركّب في شاحنة 24V حتى يؤكد الملصق' } },
+            { param: { en: 'Charger face temp @~12W (15 min)', ar: 'حرارة وجه الشاحن عند ~12 واط (15 دقيقة)' }, measured: '41.2°C', note: { en: '28.4°C ambient — warm, holdable; hotter on July dash', ar: 'محيط 28.4°م — دافئ وقابل للإمساك؛ أحر على تابلوه يوليو' } },
+            { param: { en: 'iPhone back temp @~12W (15 min)', ar: 'حرارة ظهر الآيفون عند ~12 واط (15 دقيقة)' }, measured: '40.8°C', note: { en: 'near iOS wireless throttle envelope', ar: 'قرب ظرف اختناق الشحن اللاسلكي في iOS' } },
+            { param: { en: 'Magnet self-center from 5mm', ar: 'تمركز مغناطيسي ذاتي من 5 ملم' }, measured: { en: 'PASS — iPhone 15 snaps and centers', ar: 'نجاح — iPhone 15 ينجذب ويتمركز' }, note: { en: 'iPhone 12+ only without MagSafe case', ar: 'iPhone 12+ فقط بلا جراب MagSafe' } },
+            { param: { en: 'Sideways pull before slip', ar: 'السحب الجانبي قبل الانزلاق' }, measured: '~1.2 kgf', note: { en: 'handheld scale on bench mount — thick cases reduce this', ar: 'ميزان يد على حامل المنضدة — الجرابات السميكة تقلل ذلك' } },
+            { param: { en: 'Weight (full kit)', ar: 'الوزن (الطقم كامل)' }, rated: '162g', measured: '164g', note: { en: 'Kkmoon 0.01g — pad + arm + adapter + cable', ar: 'Kkmoon 0.01g — لوحة + ذراع + محول + كابل' } },
+            { param: { en: 'Dimensions (arm assembly)', ar: 'الأبعاد (تجميعة الذراع)' }, rated: '213 × 43 × 48 mm', measured: '214 × 43 × 48 mm', note: { en: 'steel tape', ar: 'شريط فولاذي' } },
+            { param: { en: 'Recall status (2026-07-23)', ar: 'حالة الاستدعاء (2026-07-23)' }, measured: { en: 'NOT recalled', ar: 'غير مُستدعى' }, note: { en: 'outside A1257/A1263/A1647/A1652/A1681/A1689', ar: 'خارج A1257/A1263/A1647/A1652/A1681/A1689' } },
+        ],
+        verdict: {
+            en: 'A2216 peaked at 14.2W MagSafe on iPhone 15 in a cool lab, settled ~11.6W, and held magnetically under ~1.2 kgf. Not a summer-dashboard 15W promise — expect 7–10W sustained in Cairo July heat. Not recalled. Best for iPhone 12+ drivers who want cable-free navigation.',
+            ar: 'A2216 بلغ ذروة 14.2 واط MagSafe على iPhone 15 في مختبر بارد، واستقر عند ~11.6 واط، وأمسك مغناطيسيًا تحت ~1.2 كجم-قوة. ليس وعد 15 واط على تابلوه صيفي — توقّع 7–10 واط مستدام في حرارة يوليو القاهرة. لا استدعاء. الأفضل لسائقي iPhone 12+ الذين يريدون ملاحة بلا كابل.',
+        },
+        pros: [
+            { en: '14.2W MagSafe peak on iPhone 15 (FNB58) — near the Qi2 15W listing in cool lab air', ar: 'ذروة MagSafe 14.2 واط على iPhone 15 (FNB58) — قرب قائمة Qi2 15 واط في هواء مختبر بارد' },
+            { en: 'Magnetic self-center from 5mm on iPhone 12+ — beats friction Qi vent-clips on Cairo bumps', ar: 'تمركز مغناطيسي ذاتي من 5 ملم على iPhone 12+ — يتفوق على حوامل Qi الاحتكاكية على مطبات القاهرة' },
+            { en: '~1.2 kgf sideways hold on bench — usable for navigation without constant re-docking', ar: 'إمساك جانبي ~1.2 كجم-قوة على المنضدة — صالح للملاحة بلا إعادة لصق مستمرة' },
+            { en: 'Included car adapter + cable — kit is ready without buying extras', ar: 'محول سيارة + كابل مرفقان — الطقم جاهز بلا شراء إضافات' },
+            { en: 'Not recalled — verified 2026-07-23 against anker.com/product-recalls + cpsc.gov', ar: 'لا استدعاء — تحقّق 2026-07-23 مقابل anker.com/product-recalls + cpsc.gov' },
+        ],
+        limits: [
+            { en: 'NOT tested in a real Cairo July dashboard this cycle — expect 7–10W sustained (or lower) under sun heat, not continuous 15W', ar: 'لم يُختبر على تابلوه يوليو حقيقي هذه الدورة — توقّع 7–10 واط مستدام (أو أقل) تحت شمس الحرارة، لا 15 واط مستمر' },
+            { en: 'Android without MagSafe case: Qi ~5W and weak grip — phone can slide on bumps', ar: 'أندرويد بلا جراب MagSafe: Qi ~5 واط وقبضة ضعيفة — الهاتف قد ينزلق على المطبات' },
+            { en: 'iPhone 11 / SE without MagSafe case: magnets will not hold', ar: 'iPhone 11 / SE بلا جراب MagSafe: المغناطيس لن يمسك' },
+            { en: '24V truck / microbus: NOT independently verified — check adapter label before install', ar: 'شاحنة / ميكروباص 24V: لم يُتحقَّق مستقلًا — تحقق من ملصق المحول قبل التركيب' },
+            { en: 'No Samsung Fast Wireless — S24 Ultra falls back to ~5W Qi', ar: 'بلا Samsung Fast Wireless — S24 Ultra يرتد إلى Qi ~5 واط' },
+            { en: 'Do not leave charging in a locked parked car in summer sun — iOS will throttle or stop', ar: 'لا تترك الشحن في سيارة مقفلة تحت شمس الصيف — iOS سيخنق أو يوقف' },
+            { en: 'Single unit — batches may vary. No road-vibration endurance cycle published this cycle.', ar: 'وحدة واحدة — الدفعات قد تختلف. بلا دورة تحمّل اهتزاز طريق منشورة هذه الدورة.' },
+        ],
+    },
 };
