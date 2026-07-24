@@ -1093,7 +1093,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "price": 2200,
         "originalPrice": 2609,
         "stock": 544,
-        "featured": true,
+        "featured": false,
         "status": "active",
         "translations": {
             "en": {
@@ -1231,7 +1231,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "price": 1199,
         "originalPrice": 1440,
         "stock": 812,
-        "featured": true,
+        "featured": false,
         "status": "active",
         "translations": {
             "en": {

@@ -160,6 +160,11 @@ export function isReviewBackedByDeliveredOrder(
     orderDocId: string,
     orderData: Record<string, unknown>,
 ): boolean {
+    // Admin seed fixtures must never enter AggregateRating / Review JSON-LD or the PDP UI.
+    if (reviewData.isSeeded === true || orderData.isSeeded === true) {
+        return false;
+    }
+
     const orderId = normalizeSingleLine(reviewData.orderId);
     const storedOrderDocId = normalizeSingleLine(reviewData.orderDocId);
     const productSlug = normalizeSingleLine(reviewData.productSlug).toLowerCase();
@@ -718,6 +723,8 @@ async function filterOrderBackedReviews(
         }))
         .filter((candidate): candidate is typeof candidate & { review: VerifiedReview } => (
             candidate.review !== null
+            // Seeded fixtures are admin-only QA data — never public / never schema.
+            && candidate.data.isSeeded !== true
         ));
 
     // ⭐ النظام المبسّط: تقييمات صفحة المنتج الموقَّعة بجوجل (authProvider) بوابتها

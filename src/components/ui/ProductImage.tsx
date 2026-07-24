@@ -65,7 +65,7 @@ export function ProductImage({
     const displayAlt = locale === 'ar' ? localizeArabicBrandNames(alt) : alt;
     const year = new Date().getFullYear();
     const figureStyle = fill
-        ? { position: 'relative' as const, width: '100%', height: '100%', overflow: 'hidden' as const }
+        ? { position: 'absolute' as const, inset: 0, overflow: 'hidden' as const }
         : { position: 'relative' as const, overflow: 'hidden' as const };
 
     return (

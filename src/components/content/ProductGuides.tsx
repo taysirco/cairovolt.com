@@ -1,6 +1,7 @@
 'use client';
 
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import CollapsibleSection from '@/components/products/CollapsibleSection';
 
 interface ComparisonTableProps {
     product: {
@@ -424,25 +425,30 @@ export function ProductFAQ({ categorySlug, locale, t }: ProductFAQProps) {
 
     return (
         <div className="my-8">
-            <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-                <SvgIcon name="question" className="w-6 h-6" />
-                {isArabic ? 'أسئلة شائعة عن المنتج' : 'Product FAQs'}
-            </h3>
-            <div className="space-y-3">
-                {faqs.map((faq, idx) => (
-                    <details key={idx} className="group bg-gray-50 dark:bg-gray-800/50 rounded-xl border border-gray-100 dark:border-gray-800/50 open:bg-blue-50/50 dark:open:bg-blue-900/10">
-                        <summary className="flex items-center justify-between p-4 cursor-pointer font-medium text-gray-800 dark:text-gray-200">
-                            <span>{faq.q}</span>
-                            <span className="text-xl group-open:rotate-180 transition-transform text-blue-500">
-                                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
-                            </span>
-                        </summary>
-                        <p className="px-4 pb-4 text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                            {faq.a}
-                        </p>
-                    </details>
-                ))}
-            </div>
+            <CollapsibleSection
+                summary={
+                    <h3 className="text-xl font-bold flex items-center gap-2 text-gray-900 dark:text-white">
+                        <SvgIcon name="question" className="w-6 h-6" />
+                        {isArabic ? 'أسئلة شائعة عن المنتج' : 'Product FAQs'}
+                    </h3>
+                }
+            >
+                <div className="space-y-3">
+                    {faqs.map((faq, idx) => (
+                        <details key={idx} className="group bg-gray-50 dark:bg-gray-800/50 rounded-xl border border-gray-100 dark:border-gray-800/50 open:bg-blue-50/50 dark:open:bg-blue-900/10">
+                            <summary className="flex items-center justify-between p-4 cursor-pointer font-medium text-gray-800 dark:text-gray-200">
+                                <span>{faq.q}</span>
+                                <span className="text-xl group-open:rotate-180 transition-transform text-blue-500">
+                                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                                </span>
+                            </summary>
+                            <p className="px-4 pb-4 text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                                {faq.a}
+                            </p>
+                        </details>
+                    ))}
+                </div>
+            </CollapsibleSection>
         </div>
     );
 }

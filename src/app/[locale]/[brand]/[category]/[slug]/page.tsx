@@ -13,7 +13,7 @@ import { DeliveryStatus, LivePulseSkeleton } from '@/components/products/Deliver
 import { logger } from '@/lib/logger';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { BostaTracker } from '@/lib/bosta';
-import { getMerchantProductBrandSlug } from '@/lib/merchant-product-data';
+import { getMerchantProductBrandSlug, SEO_NOINDEX_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
 import { categoryContent } from '@/data/category-content';
 import { unstable_cache } from 'next/cache';
 import {
@@ -34,14 +34,17 @@ type Props = {
 
 export async function generateStaticParams() {
     const { staticProducts } = await import('@/lib/static-products');
+    const { SEO_ALIAS_REDIRECTS } = await import('@/lib/merchant-product-data');
     const locales = ['ar', 'en'];
     return locales.flatMap(locale =>
-        staticProducts.map(p => ({
-            locale,
-            brand: p.brand.toLowerCase(),
-            category: p.categorySlug.toLowerCase(),
-            slug: p.slug,
-        }))
+        staticProducts
+            .filter(p => !(p.slug in SEO_ALIAS_REDIRECTS))
+            .map(p => ({
+                locale,
+                brand: p.brand.toLowerCase(),
+                category: p.categorySlug.toLowerCase(),
+                slug: p.slug,
+            }))
     );
 }
 
@@ -295,6 +298,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             creator: '@cairovolt',
             site: '@cairovolt',
         },
+        // Recalled / safety-disclosure SKUs stay readable for owners but must not compete in organic.
+        ...(SEO_NOINDEX_PRODUCT_SLUGS.has(slug) ? {
+            robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
+        } : {}),
         // Product-specific OG meta tags for e-commerce
         other: {
             'product:price:amount': String(product.price),

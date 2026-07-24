@@ -303,6 +303,16 @@ const nextConfig: NextConfig = {
             { source: '/joyroom/cables/joyroom-usb-a-type-c-1.2m', destination: '/joyroom/cables', permanent: true },
             { source: '/en/joyroom/cables/joyroom-usb-a-type-c-1.2m', destination: '/en/joyroom/cables', permanent: true },
 
+            // === Duplicate-identity aliases → canonical PDP (Merchant + organic hygiene) ===
+            { source: '/anker/wall-chargers/anker-nano-45w-1c-pd', destination: '/anker/wall-chargers/anker-nano-45w', permanent: true },
+            { source: '/en/anker/wall-chargers/anker-nano-45w-1c-pd', destination: '/en/anker/wall-chargers/anker-nano-45w', permanent: true },
+            { source: '/anker/anker-nano-45w-1c-pd', destination: '/anker/wall-chargers/anker-nano-45w', permanent: true },
+            { source: '/en/anker/anker-nano-45w-1c-pd', destination: '/en/anker/wall-chargers/anker-nano-45w', permanent: true },
+            { source: '/soundcore/audio/anker-soundcore-r50i-nc', destination: '/soundcore/audio/soundcore-p30i-earbuds', permanent: true },
+            { source: '/en/soundcore/audio/anker-soundcore-r50i-nc', destination: '/en/soundcore/audio/soundcore-p30i-earbuds', permanent: true },
+            { source: '/anker/audio/anker-soundcore-r50i-nc', destination: '/soundcore/audio/soundcore-p30i-earbuds', permanent: true },
+            { source: '/en/anker/audio/anker-soundcore-r50i-nc', destination: '/en/soundcore/audio/soundcore-p30i-earbuds', permanent: true },
+
             // === Non-existent Joyroom power banks → Power Banks category ===
             { source: '/joyroom/joyroom-magnetic-power-bank-10000', destination: '/joyroom/power-banks', permanent: true },
             { source: '/en/joyroom/joyroom-magnetic-power-bank-10000', destination: '/en/joyroom/power-banks', permanent: true },

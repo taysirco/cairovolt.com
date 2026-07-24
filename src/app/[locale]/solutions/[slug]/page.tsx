@@ -5,6 +5,7 @@ import { getProductBySlug } from '@/lib/static-products';
 import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 
 export const revalidate = 3600;
 // Closed slug space (solutionsDB) → unknown slugs get a real 404 instead of
@@ -84,6 +85,19 @@ export default async function SolutionPage({ params }: Props) {
 
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-gray-950 py-12" dir={isArabic ? 'rtl' : 'ltr'}>
+            <BreadcrumbSchema
+                items={[
+                    { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
+                    { name: isArabic ? 'حلول شائعة' : 'Common solutions', url: `https://cairovolt.com${isArabic ? '' : '/en'}/faq` },
+                    {
+                        name: title,
+                        url: isArabic
+                            ? `https://cairovolt.com/solutions/${slug}`
+                            : `https://cairovolt.com/en/solutions/${slug}`,
+                    },
+                ]}
+                locale={locale}
+            />
             {/* JSON-LD ItemList of the recommended products (matches the on-page product grid) */}
             <script
                 type="application/ld+json"

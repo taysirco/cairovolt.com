@@ -5,6 +5,7 @@ import { getGovernorateBySlug, governorates } from '@/data/governorates';
 import { BostaTracker } from '@/lib/bosta';
 import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import { FAQPageSchema } from '@/components/schemas/StructuredDataSchemas';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 
 export const revalidate = 3600;
@@ -193,6 +194,12 @@ export default async function GovernoratePage({ params }: PageProps) {
                     { name: governorateName, url: serviceUrl },
                 ]}
                 locale={locale}
+            />
+
+            <FAQPageSchema
+                items={questions}
+                locale={locale}
+                url={serviceUrl}
             />
 
             <script

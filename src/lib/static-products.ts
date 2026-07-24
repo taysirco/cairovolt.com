@@ -11,6 +11,7 @@ import {
     type BundleProductOf,
     type BundleResultOf,
 } from '@/lib/catalog-core';
+import { isStorefrontPromotableSlug } from '@/lib/merchant-product-data';
 
 // 🚫 The FULL catalog (bilingual HTML descriptions — ~1.5MB of generated JS)
 // must never ship to the browser. Client components import the slim generated
@@ -211,15 +212,15 @@ export function resolveCatalogPricing(item: {
 }
 
 export function getProductsByCategory(categorySlug: string): StaticProduct[] {
-    return staticProducts.filter(p => p.categorySlug === categorySlug);
+    return staticProducts.filter(p => p.categorySlug === categorySlug && isStorefrontPromotableSlug(p.slug));
 }
 
 export function getProductsByBrand(brand: string): StaticProduct[] {
-    return staticProducts.filter(p => p.brand.toLowerCase() === brand.toLowerCase());
+    return staticProducts.filter(p => p.brand.toLowerCase() === brand.toLowerCase() && isStorefrontPromotableSlug(p.slug));
 }
 
 export function getFeaturedProducts(): StaticProduct[] {
-    return staticProducts.filter(p => p.featured);
+    return staticProducts.filter(p => p.featured && isStorefrontPromotableSlug(p.slug));
 }
 
 export function getCategoryBySlug(slug: string): StaticCategory | undefined {
@@ -228,7 +229,9 @@ export function getCategoryBySlug(slug: string): StaticCategory | undefined {
 
 export function getProductsByBrandAndCategory(brand: string, categorySlug: string): StaticProduct[] {
     return staticProducts.filter(
-        p => p.brand.toLowerCase() === brand.toLowerCase() && p.categorySlug === categorySlug
+        p => p.brand.toLowerCase() === brand.toLowerCase()
+            && p.categorySlug === categorySlug
+            && isStorefrontPromotableSlug(p.slug)
     );
 }
 
@@ -288,6 +291,7 @@ export function getSmartRelatedProducts(product: StaticProduct, maxProducts: num
     const fallbackProducts = staticProducts
         .filter(p =>
             p.status === 'active' &&
+            isStorefrontPromotableSlug(p.slug) &&
             !usedSlugs.has(p.slug) &&
             (BRAND_FAMILIES[product.brand.toLowerCase()] || [product.brand.toLowerCase()]).includes(p.brand.toLowerCase()) &&
             !usedCategories.has(p.categorySlug) // NEVER same category

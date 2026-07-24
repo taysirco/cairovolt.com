@@ -12,6 +12,7 @@
  */
 
 import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
+import { isStorefrontPromotableSlug } from '@/lib/merchant-product-data';
 
 /** Minimal variant shape the pricing logic needs (structural subset of ProductVariant). */
 export interface CatalogVariantCore {
@@ -246,6 +247,7 @@ export function getSmartBundleProductsFrom<T extends CatalogProductCore>(
         const candidates = catalog
             .filter(p =>
                 p.status === 'active' &&
+                isStorefrontPromotableSlug(p.slug) &&
                 p.slug !== product.slug &&
                 (BRAND_FAMILIES[brandLower] || [brandLower]).includes(p.brand.toLowerCase()) &&
                 p.categorySlug === entry.targetCategory &&

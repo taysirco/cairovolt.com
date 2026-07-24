@@ -8,6 +8,7 @@ import { logger } from '@/lib/logger';
 import { blogIndex, isIndexEntryLive } from '@/data/blog-index';
 import { genericCategories } from '@/data/generic-categories';
 import { getFirestore } from '@/lib/firebase-admin';
+import { SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
 
 const baseUrl = 'https://cairovolt.com';
 
@@ -109,14 +110,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
 
     // ── Product Pages ──
-    const redirectedSlugs = new Set([
-        'joyroom-usb-a-lightning-1.2m',
-        'joyroom-usb-a-type-c-1.2m',
-    ]);
     const staticSlugs = new Set(staticProducts.map(p => p.slug));
 
     staticProducts
-        .filter(p => !redirectedSlugs.has(p.slug))
+        .filter(p => !SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS.has(p.slug))
         .forEach(product => {
             const path = `/${toLower(product.brand)}/${toLower(product.categorySlug)}/${product.slug}`;
             // 'weekly' is the honest cadence — product copy rarely changes daily,
@@ -137,7 +134,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             ]);
             snapshot?.docs.forEach(doc => {
                 const data = doc.data();
-                if (data.slug && data.brand && data.categorySlug && !staticSlugs.has(data.slug)) {
+                if (
+                    data.slug
+                    && data.brand
+                    && data.categorySlug
+                    && !staticSlugs.has(data.slug)
+                    && !SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS.has(data.slug)
+                ) {
                     const path = `/${toLower(data.brand)}/${toLower(data.categorySlug)}/${data.slug}`;
                     addBilingual(routes, path, 0.9, 'daily');
                 }
@@ -169,7 +172,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     try {
         const { solutionsDB } = await import('@/data/solutions-data');
         solutionsDB.forEach(solution => {
-            addBilingual(routes, `/solutions/${solution.slug}`, 0.7, 'monthly');
+            // Thin solution set — keep discoverable but do not over-claim crawl priority.
+            addBilingual(routes, `/solutions/${solution.slug}`, 0.4, 'monthly');
         });
     } catch {
         // Solutions data not available

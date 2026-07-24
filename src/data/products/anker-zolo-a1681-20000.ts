@@ -11,7 +11,7 @@ export const anker_zolo_a1681_20000 = {
         price: 2200,
         originalPrice: 2609,
         stock: 544,
-        featured: true,
+        featured: false,
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-dual-port-output-detail-usb-c-pd-specification.webp", alt: "Anker ZOLO A1681 built-in USB-C 30W and Lightning 27W cables with USB-A port detail - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
@@ -25,7 +25,7 @@ export const anker_zolo_a1681_20000 = {
         "anker-prime-a1695-25000",
         "anker-a8050-usb-c-cable",
         "anker-a2732-charger-35w",
-        "anker-soundcore-r50i-nc",
+        "soundcore-p30i-earbuds",
         "anker-zolo-a110d-10000"
     ],
         translations: {

@@ -14,6 +14,7 @@ import {
     getProductBySlug,
     resolveCatalogPricing,
 } from '@/lib/static-products';
+import { SEO_NOINDEX_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
 import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
 import { checkRateLimit } from '@/lib/rate-limit';
 import { governorates } from '@/data/governorates';
@@ -210,6 +211,12 @@ export async function POST(req: NextRequest) {
                 const catalogProduct = getProductBySlug(res.slug);
                 if (!catalogProduct) {
                     return NextResponse.json({ error: 'منتج غير معروف في الطلب. حدّث الصفحة وأعد المحاولة.' }, { status: 400 });
+                }
+                if (SEO_NOINDEX_PRODUCT_SLUGS.has(catalogProduct.slug)) {
+                    return NextResponse.json(
+                        { error: 'هذا المنتج غير متاح للبيع بسبب استدعاء سلامة من الشركة المصنّعة.' },
+                        { status: 400 },
+                    );
                 }
                 const catalogVariant = res.variantId
                     ? catalogProduct.variants?.find(variant => variant.id === res.variantId)

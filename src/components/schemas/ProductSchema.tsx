@@ -6,6 +6,7 @@ import {
     getMerchantGtin,
     getMerchantProductUrl,
     normalizeMpn,
+    SEO_NOINDEX_PRODUCT_SLUGS,
 } from '@/lib/merchant-product-data';
 
 interface ProductSchemaProps {
@@ -172,9 +173,11 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             priceCurrency: 'EGP',
             price: product.price,
             priceValidUntil,
-            availability: product.stock > 0
-                ? 'https://schema.org/InStock'
-                : 'https://schema.org/OutOfStock',
+            availability: SEO_NOINDEX_PRODUCT_SLUGS.has(product.slug)
+                ? 'https://schema.org/Discontinued'
+                : product.stock > 0
+                    ? 'https://schema.org/InStock'
+                    : 'https://schema.org/OutOfStock',
             itemCondition: 'https://schema.org/NewCondition',
             eligibleRegion: {
                 '@type': 'Country',

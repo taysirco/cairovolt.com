@@ -26,6 +26,7 @@ import {
     localizeArabicBrandHtml,
     localizeArabicBrandNames,
 } from '@/lib/arabic-brand-names';
+import { SEO_NOINDEX_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
 
 // Lazy Load Heavy Components
 const VerifiedReviews = dynamic(() => import('@/components/reviews/VerifiedReviews'), {
@@ -137,7 +138,6 @@ const categoryKeyMap: Record<string, string> = {
 export default function ProductPageClient({ product, relatedProducts = [], alsoBoughtProducts = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail }: ProductPageClientProps) {
     const isRTL = locale === 'ar';
     const tCommon = useTranslations('Common');
-    const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
 
     // Get translations for the current product
     const tProduct = useTranslations('Product');
@@ -274,6 +274,7 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
     })();
 
     const handleAddToCart = () => {
+        if (SEO_NOINDEX_PRODUCT_SLUGS.has(product.slug)) return;
         // flushSync forces React to paint the green feedback BEFORE startTransition batches the cart update
         flushSync(() => {
             setShowAddedFeedback(true);
@@ -365,7 +366,8 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
         : isAnkerBrand
             ? 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/30'
             : 'bg-red-600 hover:bg-red-700 shadow-red-600/30';
-    const isOutOfStock = activeStock <= 0;
+    const isRecalled = SEO_NOINDEX_PRODUCT_SLUGS.has(product.slug);
+    const isOutOfStock = activeStock <= 0 || isRecalled;
 
     // Breadcrumb Data - Strict Lowercase URLs
     const brandLower = product.brand.toLowerCase();
@@ -437,7 +439,7 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                     <div className="space-y-4 max-w-full min-w-0">
                         {/* Main Image */}
                         <div
-                            className="relative aspect-square mx-auto w-full bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-lg"
+                            className="relative aspect-square mx-auto w-full bg-white dark:bg-gray-900 rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-lg isolate"
                             onTouchStart={(e) => {
                                 const touch = e.touches[0];
                                 (e.currentTarget as HTMLDivElement).dataset.touchStartX = touch.clientX.toString();
@@ -492,8 +494,8 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                 </div>
                             )}
 
-                            {/* Product Image — full-bleed, fills container edge-to-edge */}
-                            <div className="w-full h-full relative">
+                            {/* Product Image — full-bleed inside card; overflow-hidden clips to rounded border */}
+                            <div className="absolute inset-0 overflow-hidden">
                                 {primaryImage ? (
                                     <ProductImage
                                         src={heroImage800}
@@ -506,12 +508,12 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                         priority
                                         unoptimized
                                         sizes="(max-width: 640px) 480px, 800px"
-                                        imageClassName="object-cover transition-transform hover:scale-105"
+                                        imageClassName="object-cover"
                                         isPrimary
                                         locale={locale}
                                     />
                                 ) : (
-                                    <div className={`w-full h-full flex items-center justify-center text-8xl font-bold bg-gradient-to-br ${fallbackGradientClass} bg-clip-text text-transparent`}>
+                                    <div className={`absolute inset-0 flex items-center justify-center text-8xl font-bold bg-gradient-to-br ${fallbackGradientClass} bg-clip-text text-transparent`}>
                                         {brand.charAt(0).toUpperCase()}
                                     </div>
                                 )}
@@ -586,6 +588,30 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white leading-tight">
                             {productName}
                         </h1>
+
+                        {isRecalled && (
+                            <div
+                                role="alert"
+                                className="rounded-xl border border-red-300 bg-red-50 p-4 text-sm leading-7 text-red-900 dark:border-red-800 dark:bg-red-950/40 dark:text-red-100"
+                            >
+                                <p className="font-bold">
+                                    {isRTL ? '⚠️ منتج ضمن استدعاء سلامة — توقف عن الاستخدام' : '⚠️ Safety recall — stop using this product'}
+                                </p>
+                                <p className="mt-2">
+                                    {isRTL
+                                        ? 'هذا الموديل مدرج في برنامج استدعاء الشركة المصنّعة. لا نبيع وحدات جديدة منه. إن كنت تملك وحدة، راجع تعليمات الاستدعاء الرسمية وتواصل مع دعم كايرو فولت للمساعدة.'
+                                        : 'This model is included in the manufacturer recall programme. We do not sell new units. If you already own one, follow the official recall instructions and contact CairoVolt support for help.'}
+                                </p>
+                                <a
+                                    href="https://www.anker.com/rc2506"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="mt-2 inline-flex font-semibold underline"
+                                >
+                                    {isRTL ? 'تعليمات الاستدعاء الرسمية (Anker)' : 'Official Anker recall instructions'}
+                                </a>
+                            </div>
+                        )}
 
                         {/* Verified rating summary — same purchase-verified data as the reviews section; hidden when there are no reviews */}
                         {initialAggregateRating && initialAggregateRating.reviewCount > 0 && (
@@ -814,23 +840,33 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                 </div>
                             </>
                         ) : (
-                            /* Out of Stock — Notify Me CTA */
+                            /* Out of Stock / Recall — no purchase CTA */
                             <div className="space-y-4">
                                 <div className="p-4 md:p-6 bg-gray-50 dark:bg-gray-800/50 rounded-xl border border-gray-200 dark:border-gray-700 text-center">
                                     <svg className="w-10 h-10 mx-auto mb-3 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
                                     </svg>
                                     <p className="text-lg font-bold text-gray-700 dark:text-gray-300 mb-1">
-                                        {isRTL ? 'هذا المنتج غير متوفر حالياً' : 'This product is currently out of stock'}
+                                        {isRecalled
+                                            ? (isRTL ? 'غير متاح للبيع — منتج مُستدعى' : 'Not for sale — recalled product')
+                                            : (isRTL ? 'هذا المنتج غير متوفر حالياً' : 'This product is currently out of stock')}
                                     </p>
                                     <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
-                                        {isRTL ? 'تواصل معنا عبر واتساب لمعرفة موعد التوفر' : 'Contact us via WhatsApp to know when it\'s back'}
+                                        {isRecalled
+                                            ? (isRTL
+                                                ? 'تواصل معنا عبر واتساب إذا كنت تملك وحدة وتحتاج مساعدة بخصوص الاستدعاء'
+                                                : 'Contact us on WhatsApp if you already own a unit and need recall assistance')
+                                            : (isRTL ? 'تواصل معنا عبر واتساب لمعرفة موعد التوفر' : 'Contact us via WhatsApp to know when it\'s back')}
                                     </p>
                                     <a
                                         href={`https://wa.me/201558245974?text=${encodeURIComponent(
-                                            isRTL
-                                                ? `مرحباً، أريد أن أعرف متى سيتوفر: ${productName}`
-                                                : `Hi, I want to know when this will be available: ${productName}`
+                                            isRecalled
+                                                ? (isRTL
+                                                    ? `مرحباً، أحتاج مساعدة بخصوص استدعاء المنتج: ${productName}`
+                                                    : `Hi, I need help with a product recall: ${productName}`)
+                                                : (isRTL
+                                                    ? `مرحباً، أريد أن أعرف متى سيتوفر: ${productName}`
+                                                    : `Hi, I want to know when this will be available: ${productName}`)
                                         )}`}
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -918,25 +954,30 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                             {/* Pass specific FAQs if they exist */}
                             {currentTranslation?.faqs && currentTranslation.faqs.length > 0 ? (
                                 <div className="my-8">
-                                    <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-                                        <SvgIcon name="question" className="w-5 h-5" />
-                                        {isRTL ? 'أسئلة شائعة عن المنتج' : 'Product FAQs'}
-                                    </h3>
-                                    <div className="space-y-3">
-                                        {currentTranslation.faqs.map((faq, idx) => (
-                                            <details key={idx} className="group bg-gray-50 dark:bg-gray-800/50 rounded-xl border border-gray-100 dark:border-gray-800/50 open:bg-blue-50/50 dark:open:bg-blue-900/10">
-                                                <summary className="flex items-center justify-between p-4 cursor-pointer font-medium text-gray-800 dark:text-gray-200">
-                                                    <span>{faq.question}</span>
-                                                    <span className="text-xl group-open:rotate-180 transition-transform text-blue-500">
-                                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
-                                                    </span>
-                                                </summary>
-                                                <p className="px-4 pb-4 text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                                                    {faq.answer}
-                                                </p>
-                                            </details>
-                                        ))}
-                                    </div>
+                                    <CollapsibleSection
+                                        summary={
+                                            <h3 className="text-xl font-bold flex items-center gap-2 text-gray-900 dark:text-white">
+                                                <SvgIcon name="question" className="w-5 h-5" />
+                                                {isRTL ? 'أسئلة شائعة عن المنتج' : 'Product FAQs'}
+                                            </h3>
+                                        }
+                                    >
+                                        <div className="space-y-3">
+                                            {currentTranslation.faqs.map((faq, idx) => (
+                                                <details key={idx} className="group bg-gray-50 dark:bg-gray-800/50 rounded-xl border border-gray-100 dark:border-gray-800/50 open:bg-blue-50/50 dark:open:bg-blue-900/10">
+                                                    <summary className="flex items-center justify-between p-4 cursor-pointer font-medium text-gray-800 dark:text-gray-200">
+                                                        <span>{faq.question}</span>
+                                                        <span className="text-xl group-open:rotate-180 transition-transform text-blue-500">
+                                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                                                        </span>
+                                                    </summary>
+                                                    <p className="px-4 pb-4 text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                                                        {faq.answer}
+                                                    </p>
+                                                </details>
+                                            ))}
+                                        </div>
+                                    </CollapsibleSection>
                                 </div>
                             ) : (
                                 <ProductFAQ
@@ -972,41 +1013,26 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                         </CollapsibleSection>
                     </div>
 
-                    {/* Description Section - Progressive Disclosure Pattern */}
+                    {/* Description Section — title visible, body collapsed (content stays in HTML) */}
                     {productDesc && (
                         <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800 cv-auto" aria-label={isRTL ? 'وصف المنتج' : 'Product Description'}>
-                            <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                                <SvgIcon name="clipboard" className="w-6 h-6" />
-                                {tProduct('details')}
-                            </h2>
-                            <div className="relative">
+                            <CollapsibleSection
+                                summary={
+                                    <h2 className="text-2xl font-bold flex items-center gap-2 text-gray-900 dark:text-white">
+                                        <SvgIcon name="clipboard" className="w-6 h-6" />
+                                        {tProduct('details')}
+                                    </h2>
+                                }
+                            >
                                 <div
-                                    className={`prose prose-lg dark:prose-invert max-w-none transition-all duration-500 overflow-hidden ${isDescriptionExpanded ? 'max-h-none' : 'max-h-72'}`}
-                                >
-                                    <div
-                                        dangerouslySetInnerHTML={{
-                                            __html: isRTL
-                                                ? localizeArabicBrandHtml(localizeInternalLinks(sanitizeHtml(productDesc), locale))
-                                                : localizeInternalLinks(sanitizeHtml(productDesc), locale),
-                                        }}
-                                    />
-                                </div>
-
-                                {!isDescriptionExpanded && (
-                                    <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white dark:from-gray-900 to-transparent flex items-end justify-center pb-4 cursor-pointer" onClick={() => setIsDescriptionExpanded(true)}>
-                                    </div>
-                                )}
-
-                                <button
-                                    onClick={() => setIsDescriptionExpanded(!isDescriptionExpanded)}
-                                    className="mt-4 mx-auto block px-6 py-2 bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 font-bold rounded-full transition-colors text-sm"
-                                >
-                                    {isDescriptionExpanded
-                                        ? (isRTL ? 'إخفاء التفاصيل' : 'Show Less')
-                                        : (isRTL ? 'اقرأ جميع المواصفات الهندسية' : 'Read Full Engineering Specs')
-                                    }
-                                </button>
-                            </div>
+                                    className="prose prose-lg dark:prose-invert max-w-none"
+                                    dangerouslySetInnerHTML={{
+                                        __html: isRTL
+                                            ? localizeArabicBrandHtml(localizeInternalLinks(sanitizeHtml(productDesc), locale))
+                                            : localizeInternalLinks(sanitizeHtml(productDesc), locale),
+                                    }}
+                                />
+                            </CollapsibleSection>
                         </section>
                     )}
 

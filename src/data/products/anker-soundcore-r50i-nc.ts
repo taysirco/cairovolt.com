@@ -1,7 +1,7 @@
 // Product: anker-soundcore-r50i-nc
 export const anker_soundcore_r50i_nc = {
         slug: "anker-soundcore-r50i-nc", sku: "SH21", brand: "Soundcore", categorySlug: "audio",
-        gtin: "194644197421", gtin13: "0194644197421", mpn: "A3959", price: 1199, originalPrice: 1440, stock: 812, featured: true, status: "active",
+        gtin: "194644197421", gtin13: "0194644197421", mpn: "A3959", price: 1199, originalPrice: 1440, stock: 812, featured: false, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-earbud-anc-driver-detail-closeup.webp", alt: "سماعة ساوندكور R50i NC مع إلغاء ضوضاء - كايرو فولت", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt.webp", alt: "Soundcore R50i NC ANC earbuds with case - Egypt - A3959 - CairoVolt", order: 1, isPrimary: false, width: 1080, height: 1080 },
@@ -14,7 +14,6 @@ export const anker_soundcore_r50i_nc = {
         relatedProducts: [
         "anker-soundcore-k20i",
         "anker-soundcore-r50i",
-        "anker-zolo-a1681-20000",
         "anker-a2732-charger-35w",
         "anker-zolo-a110e-20000",
         "anker-prime-a1695-25000",

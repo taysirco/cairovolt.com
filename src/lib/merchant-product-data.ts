@@ -108,5 +108,40 @@ export const MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS = new Set([
     'anker-zolo-a1681-20000', // active Anker/CPSC recall (rc2506) — do not promote in Merchant
 ]);
 
+/**
+ * Duplicate-identity PDPs that must 301 to the canonical public product URL.
+ * Paths are locale-unprefixed (Arabic default); /en is added by the redirect layer.
+ */
+export const SEO_ALIAS_REDIRECTS: Record<string, string> = {
+    'anker-nano-45w-1c-pd': '/anker/wall-chargers/anker-nano-45w',
+    // Gold bench lives on P30i (A3959); R50i NC is the regional-name stub.
+    'anker-soundcore-r50i-nc': '/soundcore/audio/soundcore-p30i-earbuds',
+    'joyroom-usb-a-lightning-1.2m': '/joyroom/cables',
+    'joyroom-usb-a-type-c-1.2m': '/joyroom/cables',
+};
+
+/**
+ * Keep the HTML page for owners / safety disclosure, but exclude from indexing
+ * and the HTML sitemap so Shopping/organic do not promote the SKU.
+ */
+export const SEO_NOINDEX_PRODUCT_SLUGS = new Set([
+    'anker-zolo-a1681-20000',
+]);
+
+/** Slugs omitted from the HTML sitemap (aliases already redirected + recalls). */
+export const SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS = new Set([
+    ...Object.keys(SEO_ALIAS_REDIRECTS),
+    ...SEO_NOINDEX_PRODUCT_SLUGS,
+]);
+
+/**
+ * True when the slug may appear in featured grids, related/bundle slots,
+ * category listings, and other promotional surfaces. Alias stubs and
+ * recalled SKUs stay reachable by direct URL (or 301) but are not promoted.
+ */
+export function isStorefrontPromotableSlug(slug: string): boolean {
+    return !SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS.has(slug);
+}
+
 /** Date of the latest full catalog-content and offer review. */
 export const CATALOG_LAST_REVIEWED_AT = '2026-07-17T00:00:00+02:00';
