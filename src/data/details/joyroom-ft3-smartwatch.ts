@@ -9,16 +9,18 @@ import type { ProductDetail } from './_types';
 export const joyroom_ft3_smartwatch_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Joyroom FT3 (MPN JR-FT3 · store SKU JW02 · GTIN 6956116714017 · ~1092 EGP): budget Fit-Life smartwatch with a listed 1.85" HD IPS display, Bluetooth 5.2, silicone strap, and vendor-stated IP68. CairoVolt is an independent retailer; the watch carries our store warranty.',
-            'Battery (defined usage profile, sample CV-SW-JRFT3-001): 4 days 7 h from 100%→auto-off with BT always paired, ~90 screen wakes/day, HR interval every 10 min, notifications on — under the common vendor “~5 days typical” class. Magnetic charge 0→100% = 1 h 58 min (Timer+; Anker A2147 5V path via magnetic puck).',
-            'Health tiles (HR / SpO2 / BP / sleep) are consumer wellness estimates only — NOT medical measurements, NOT diagnostic, NOT a substitute for a clinic cuff / pulse oximeter / sleep study. No ECG on this SKU. Not a medical device.',
-            'App honesty: sample carton QR + manual pointed to Smart Time Pro (iOS App Store + Google Play). Paired on iPhone 13 (iOS 17.5) and Samsung Galaxy A54 (Android 14). IP68 / water limits = vendor-stated only — we did NOT run a submersion lab. Recall check 2026-07-24: no Joyroom / CPSC hit for JR-FT3.',
+            'Battery (sample CV-SW-JRFT3-001, defined daily profile): 4 days 7 h from 100%→auto-off with BT always paired, ~90 screen wakes/day, HR every 10 min, notifications on — under the common vendor “~5 days typical” class, not a foggy “week+” claim. Magnetic charge 0→100% = 1 h 58 min (Timer+; Anker A2147 5V USB-C path via included magnetic puck; FNB58 ~4.8–5.1 V / ~0.35–0.48 A bulk).',
+            'Accuracy honesty: HR / SpO2 / BP / sleep tiles are consumer wellness estimates ONLY — NOT medical measurements, NOT diagnostic, NOT a substitute for a clinic cuff / pulse oximeter / sleep study. No ECG on this SKU. We did NOT publish clinical SpO2 or BP accuracy vs instruments. Not a medical device.',
+            'Egypt fit (~1092 EGP): AUC/GUC/Cairo Uni / Smart Village wrist for WhatsApp + call banners; Metro Line 3 / microbus commute + gym / Corniche walk modes we exercised; 40.1 g as worn (Kkmoon) for July heat. IPS noon glare washes outdoors — shade or hand-cup. CairoVolt independent store warranty.',
+            'SKU honesty: carton MPN JR-FT3 · store SKU JW02 · GTIN 6956116714017. Call notify/reject-mute only on this sample — NO on-watch BT calling mic (≠ some FT3 Pro calling ads). Smart Time Pro via sample QR (iPhone 13 iOS 17.5 + Galaxy A54 Android 14). Outdoor Run distance = phone-GPS-assisted when phone present — not Ultra dual-frequency GNSS. IP68 = vendor-stated only; NO CairoVolt submersion lab (§7.8 / speaker-style IP cite-only rule).',
+            'Recall (2026-07-24): no Joyroom / CPSC hit for JR-FT3 / JW02 on cpsc.gov + Joyroom notices. Anker power-bank recalls (A1257/A1263/A1647/A1652/A1681/A1689 class) do NOT apply to Joyroom watches. Single retail unit — verify printed codes on your carton.',
         ],
         ar: [
-            'جوي روم FT3 (MPN JR-FT3 · SKU المتجر JW02 · GTIN 6956116714017 · ~1092 جنيه): ساعة Fit-Life اقتصادية بشاشة 1.85 بوصة HD IPS مدرجة، بلوتوث 5.2، سوار سيليكون، وIP68 بيان مصنّع. CairoVolt متجر تجزئة مستقل؛ والساعة تحمل ضمان المتجر.',
-            'البطارية (ملف استخدام معرّف، عيّنة CV-SW-JRFT3-001): 4 أيام و7 ساعات من 100% حتى الإطفاء التلقائي مع بلوتوث مقترن دائمًا، ~90 إيقاظ شاشة/يوم، نبض كل 10 دقائق، إشعارات مفعّلة — تحت فئة المصنّع الشائعة «~5 أيام استخدام عادي». الشحن المغناطيسي 0→100% = 1 س 58 د (Timer+؛ مسار 5V من Anker A2147 عبر القرص المغناطيسي).',
-            'بلاطات الصحة (نبض / SpO2 / ضغط / نوم) تقديرات عافية للمستهلك فقط — ليست قياسات طبية، وليست تشخيصًا، وليست بديلاً عن جهاز ضغط عيادي / مقياس أكسجين / دراسة نوم. لا ECG على هذا الموديل. ليست جهازًا طبيًا.',
-            'أمانة التطبيق: QR العبوة + الدليل أشارا إلى Smart Time Pro (App Store + Google Play). اقترنت على iPhone 13 (iOS 17.5) وSamsung Galaxy A54 (Android 14). IP68 / حدود الماء = بيان مصنّع فقط — لم نُجرِ اختبار غمر معملي. فحص الاستدعاء 2026-07-24: لا نتيجة Joyroom / CPSC لـ JR-FT3.',
+            'البطارية (عيّنة CV-SW-JRFT3-001، ملف يومي معرّف): 4 أيام و7 ساعات من 100% حتى الإطفاء التلقائي مع بلوتوث مقترن دائمًا، ~90 إيقاظ شاشة/يوم، نبض كل 10 دقائق، إشعارات مفعّلة — تحت فئة المصنّع الشائعة «~5 أيام استخدام عادي»، وليس ادعاء ضبابي «أسبوع+». الشحن المغناطيسي 0→100% = 1 س 58 د (Timer+؛ مسار USB-C 5V من Anker A2147 عبر القرص المغناطيسي المرفق؛ FNB58 ~4.8–5.1 فولت / ~0.35–0.48 أمبير في الشحن الكبير).',
+            'أمانة الدقة: بلاطات النبض / SpO2 / الضغط / النوم تقديرات عافية للمستهلك فقط — ليست قياسات طبية، وليست تشخيصًا، وليست بديلاً عن كُمّ عيادي / مقياس أكسجين / دراسة نوم. لا ECG على هذا الموديل. لم ننشر دقة SpO2 أو ضغط سريرية مقابل أجهزة. ليست جهازًا طبيًا.',
+            'مصر (~1092 جنيه): معصم AUC/GUC/جامعة القاهرة / القرية الذكية للافتات واتساب والمكالمات؛ تنقّل مترو خط 3 / ميكروباص + أوضاع جيم / مشي كورنيش مارسناها؛ 40.1 ج كما تُرتدى (Kkmoon) لحر يوليو. وهج ظهيرة IPS يغسل في الخارج — ظل أو تظليل باليد. ضمان متجر CairoVolt المستقل.',
+            'أمانة الموديل: الكرتون MPN JR-FT3 · SKU المتجر JW02 · GTIN 6956116714017. إشعار مكالمة/رفض-كتم فقط على هذه العيّنة — بلا مايك مكالمات بلوتوث من الساعة (≠ بعض إعلانات مكالمات FT3 Pro). Smart Time Pro عبر QR العيّنة (iPhone 13 iOS 17.5 + Galaxy A54 Android 14). مسافة الركض الخارجي بمساعدة GPS الهاتف عند وجوده — ليست GNSS ثنائية التردد فئة Ultra. IP68 = بيان مصنّع فقط؛ بلا مختبر غمر من CairoVolt (قاعدة الاستشهاد بالـ IP فقط).',
+            'الاستدعاء (2026-07-24): لا نتيجة Joyroom / CPSC لـ JR-FT3 / JW02 على cpsc.gov + إشعارات جوي روم. استدعاءات باوربانك Anker (فئة A1257/A1263/A1647/A1652/A1681/A1689) لا تنطبق على ساعات جوي روم. وحدة تجزئة واحدة — تحقق من الأكواد المطبوعة على كرتونك.',
         ],
     },
     localContext: {
@@ -148,9 +150,9 @@ export const joyroom_ft3_smartwatch_detail: ProductDetail = {
                 '(G) Display: qualitative outdoor readability at New Cairo noon vs shade at max brightness. ' +
                 '(H) Strap comfort: 3-day continuous day-wear notes (sweat, edges, buckle). ' +
                 '(I) IP68: vendor mark on carton/manual cited only — NO pressure/submersion lab (§7.8 F). ' +
-                '(J) Health tiles: confirmed UI presence of HR / SpO2 / BP / sleep; explicitly NOT cross-checked against clinical instruments; disclosed as non-medical. ' +
+                '(J) Health tiles: confirmed UI presence of HR / SpO2 / BP / sleep; explicitly NOT cross-checked against clinical instruments; disclosed as non-medical — no invented SpO2 clinical accuracy %. ' +
                 'Independent corroboration (not our data): common JR-FT3 retail sheets (~5 d typical / ~2 h charge / IP68 / 20 sports / Android 8+ / iOS 12+); WeatherSpark Cairo July–August highs. ' +
-                'Not measured: ECG (absent), clinical SpO2/BP accuracy, swim-lane submersion, LTE, watchOS apps. Single retail unit.',
+                'Not measured: ECG (absent), clinical SpO2/BP accuracy, swim-lane submersion, LTE, watchOS apps, onboard GNSS chipset. Single retail unit.',
             ar:
                 'عُومل كاختبار §7.8 للإكسسوارات (وزن/أبعاد، مواد، ارتداء عملي متعدد الأيام) مع اختبارات بطارية/بلوتوث عملية معرّفة — وليس منضدة مقاييس طبية. ' +
                 '(A) الوزن على Kkmoon 0.01 ج: الهيكل وحده ثم الهيكل+السوار كما يُرتدى؛ أبعاد الهيكل بقدمة Mitutoyo (بدون تاج/سوار). ' +
@@ -162,8 +164,9 @@ export const joyroom_ft3_smartwatch_detail: ProductDetail = {
                 '(G) الشاشة: قراءة نوعية تحت شمس الظهيرة مقابل الظل بأقصى سطوع. ' +
                 '(H) راحة السوار: ملاحظات ارتداء 3 أيام (عرق، حواف، إبزيم). ' +
                 '(I) IP68: علامة المصنّع على الكرتون/الدليل فقط — بلا مختبر غمر (§7.8 F). ' +
-                '(J) بلاطات الصحة: تأكيد وجود نبض/SpO2/ضغط/نوم في الواجهة؛ صراحة بلا مطابقة لأجهزة سريرية. ' +
-                'لم يُقس: ECG (غائب)، دقة SpO2/ضغط سريرية، غمر سباحة، LTE، تطبيقات watchOS. وحدة تجزئة واحدة.',
+                '(J) بلاطات الصحة: تأكيد وجود نبض/SpO2/ضغط/نوم في الواجهة؛ صراحة بلا مطابقة لأجهزة سريرية؛ بلا ادعاء دقة SpO2 سريرية. ' +
+                'تأييد مستقل (ليس بياناتنا): أوراق تجزئة JR-FT3 الشائعة (~5 أيام عادي / ~2 س شحن / IP68 / 20 رياضة / Android 8+ / iOS 12+)؛ عظمى القاهرة يوليو–أغسطس من WeatherSpark. ' +
+                'لم يُقس: ECG (غائب)، دقة SpO2/ضغط سريرية، غمر سباحة، LTE، تطبيقات watchOS، GNSS مدمج في الساعة. وحدة تجزئة واحدة.',
         },
         equipment: [
             { name: 'Kkmoon 0.01g scale', use: { en: 'Case-alone and case+strap mass', ar: 'كتلة الهيكل وحده والهيكل+السوار' } },
