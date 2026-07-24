@@ -5,7 +5,7 @@ import type { ProductDetail } from './_types';
 export const anker_powercore_20000_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Anker PowerCore II 20000 (A1260 / A1260011): 20,000mAh / 72Wh cells (Anker 3.6V nominal math: 20,000 × 3.6 ÷ 1000). CairoVolt measured 61.4Wh usable at 5V/2A (85.3% of 72Wh) — inside protocol §7.3 80–90% band. Independent Charging Kick bench recovered ~61% at heavier 2.4A — normal high-current conversion loss, not a defect.',
+            'Anker PowerCore II 20000 (A1260 / A1260011): 20,000mAh / 72Wh cells (Anker 3.6V nominal: 20,000 × 3.6 ÷ 1000). CairoVolt measured 61.4Wh usable at 5V/2A (85.3% of 72Wh) — inside protocol §7.3 80–90% band. Independent Charging Kick bench recovered ~61% at heavier 2.4A — normal high-current conversion loss, not a defect.',
             'ASYMMETRIC ports (buyers miss this): Port 1 = PowerIQ 2.0 / QC 9V–12V up to 18W (we measured 17.1W @ 9.02V/1.90A into Galaxy A54). Port 2 = plain 5V/2.4A 12W class (we measured 11.6W @ 5.13V/2.26A). PCWorld: same phone fast-charges on Port 1 and does NOT on Port 2. Dual-load collapses Port 1 to 5V — fast charge is LOST (15.5W combined stable).',
             'Samsung sweet spot vs modern gap: Port 1 matches Egypt-common Adaptive Fast Charging phones (S9/S10, Note 9/10 base, A50/A51, M31) at real 15–18W QC. No PPS / no USB-C PD — S20+/S21+/A52+/A54 Super Fast and all Lightning/USB-C iPhones fall back to 5V. Micro-USB input only: ~5h 08m on 18W QC brick vs ~10h 35m on 5V/2A — plan overnight if you lack a QC wall brick.',
             'A/B honesty: vs RECALLED A1263 PowerCore 10000 (31.2Wh / pocket / Micro-USB 5V-only) — A1260 is larger energy + real QC Port 1 and is NOT recalled. vs A110E Zolo 20K (62.0Wh / USB-C 22.5W / built-in cable) — similar usable Wh, A110E wins modern ports. vs A1290 Elite 26K (80.9Wh / 60W USB-C laptop) — A1290 wins Wh + MacBook; A1260 is USB-A phone-era only.',
@@ -20,25 +20,96 @@ export const anker_powercore_20000_detail: ProductDetail = {
         ],
     },
     localContext: {
-        en: 'A1260 answers one Egypt question well: "I still have a mid-range Samsung that speaks QC/AFC, and I need ~2–3 people charged for a full day — not a laptop and not a pocket 10K." Eight scenarios with 61.4Wh math. RIGHT FOR: (1) SAHEL / NORTH COAST 3-DAY villa — flaky sockets, road-stop cafes without reliable USB. Two travelers with S10/Note 10 (~13–15Wh phones) ≈ ~16Wh drawn per Port-1 9V fast charge → 61.4Wh ≈ 4 full Port-1 fast charges across 3 days with ~20% buffer. Put the Samsung on Port 1; give Port 2 to the second phone at plain 5V. (2) FAMILY DAY (Samsung dad + iPhone daughter + iPad kid): iPad 10th gen (28.6Wh) alone burns nearly half the pack per full charge. Realistic plan from measured Wh: dad one Port-1 9V top-up (~16Wh) + daughter one Port-2 5V/2.4A (~16Wh) + iPad ~60% (~20Wh) ≈ 52Wh with ~7Wh buffer — marginal, works once. (3) CAIRO↔ALEX Go Bus / Blue Bus (~3h) with Netflix kids: 2 phones × ~8Wh + tablet × ~10Wh ≈ 31Wh drawn — half the pack left. Comfortable phone day; ZERO laptops (USB-A only, no PD). (4) LOAD-SHEDDING HOME (2h scheduled cut): 2 phones × ~4Wh emergency + USB LED lamp ≈ ~17Wh per cut → 3–4 cuts from 61.4Wh. CRITICAL: Egyptian WE/Vodafone/Etisalat/Orange home Wi-Fi routers use 12V DC barrel jacks at 6–10W — A1260 USB-A cannot power a router; buy a UPS. (5) WEDDING / GRADUATION photographer 8h with Samsung as tether camera (Cascable / Camera Connect + Instagram + hotspot): 3–4 phone recharges ≈ ~52Wh — bank stays barely green; this is A1260\'s best designed workflow for S10/Note 10/A51 shooters. (6) UMRAH / HAJJ kit for a QC Samsung pilgrim: 72Wh flies free under GACA/IATA 100Wh cabin rules on Saudia/Nile Air/EgyptAir — one Port-1 fast top-up mid-Tawaf day; Micro-USB recharge overnight at the hotel with a QC brick. WRONG FOR: (7) MacBook / iPad Pro / any USB-C-only device — no USB-C anywhere; pick A1290 (60W / 80.9Wh) or A110E (22.5W phone USB-C) or Prime A1336 (100W). (8) Pocket daily metro carry — 372g measured (~2× A1263 182g); needs a bag pocket. (9) IN-FLIGHT USE on Emirates / Flydubai — banned since 1 Oct 2025; cabin carry only. MICRO-USB LIMIT: without an 18W QC wall brick, self-recharge is ~10.5h — you cannot refill from empty during a 2h load-shedding window. ELECTRICITY: recharging 72Wh ≈ 0.08–0.09 kWh; EgyptERA Sept-2024 tariff ≈ a few piastres per full recharge.',
-        ar: 'يجيب A1260 على سؤال مصري واحد جيدًا: "ما زال عندي سامسونج متوسطة تتكلم QC/AFC، وأحتاج شحن ~2–3 أشخاص ليوم كامل — لا لابتوب ولا جيب 10K." ثمانية سيناريوهات بحساب 61.4Wh. مناسب لـ: (1) ساحل / شمال 3 أيام فيلا — فيشات متذبذبة ومقاهي استراحة بلا USB مضمون. مسافران بـ S10/Note 10 (~13–15Wh) ≈ ~16Wh لكل شحنة سريعة على المنفذ 1 → 61.4Wh ≈ 4 شحنات سريعة كاملة على 3 أيام مع هامش ~20%. ضع السامسونج على المنفذ 1؛ أعطِ المنفذ 2 للهاتف الثاني عند 5V عادي. (2) يوم عائلي (أب Samsung + ابنة iPhone + طفل iPad): iPad الجيل العاشر (28.6Wh) وحده يحرق نحو نصف الباور بانك لكل شحنة كاملة. خطة واقعية من الـWh المقاسة: تعبئة أب على المنفذ 1 (~16Wh) + ابنة على المنفذ 2 5V/2.4A (~16Wh) + iPad ~60% (~20Wh) ≈ 52Wh مع هامش ~7Wh — حدّي، يعمل مرة. (3) أتوبيس القاهرة↔إسكندرية Go Bus / Blue Bus (~3 س) مع نتفليكس أطفال: موبايلان × ~8Wh + تابلت × ~10Wh ≈ 31Wh — نصف الباور بانك متبقٍ. يوم هاتف مريح؛ **صفر** لابتوبات (USB-A فقط، بلا PD). (4) انقطاع منزلي (قطع مجدول ساعتين): موبايلان × ~4Wh طوارئ + لمبة LED USB ≈ ~17Wh لكل قطع → 3–4 انقطاعات من 61.4Wh. حاسم: راوترات WE/Vodafone/Etisalat/Orange المنزلية تستخدم برميل DC 12V بسحب 6–10 واط — USB-A في A1260 لا يشغّل راوترًا؛ اشترِ UPS. (5) مصور فرح/تخرج 8 ساعات بسامسونج ككاميرا متصلة (Cascable / Camera Connect + إنستجرام + hotspot): 3–4 شحنات ≈ ~52Wh — الباور بانك بالكاد أخضر؛ هذا أفضل سير عمل صُمّم له A1260 لمصوري S10/Note 10/A51. (6) عِدّة عمرة/حج لحاج سامسونج QC: 72Wh يسافر مجانًا تحت قواعد المقصورة GACA/IATA 100Wh على السعودية/النيل/مصر للطيران — تعبئة سريعة واحدة على المنفذ 1 وسط يوم الطواف؛ إعادة شحن Micro-USB ليلًا في الفندق بطوبة QC. غير مناسب لـ: (7) MacBook / iPad Pro / أي جهاز USB-C فقط — لا USB-C في أي مكان؛ اختر A1290 (60 واط / 80.9Wh) أو A110E (22.5 واط هاتف USB-C) أو Prime A1336 (100 واط). (8) حمل مترو يومي جيبي — 372 ج مقاسة (~ضعف A1263 182 ج)؛ يحتاج جيب شنطة. (9) الاستخدام أثناء الرحلة على الإمارات/فلاي دبي — ممنوع منذ 1 أكتوبر 2025؛ حمل مقصورة فقط. حد Micro-USB: بلا طوبة QC 18 واط، إعادة الشحن نحو 10.5 س — لا تستطيع التعبئة من فارغ خلال انقطاع ساعتين. الكهرباء: إعادة شحن 72Wh ≈ 0.08–0.09 كيلوواط·ساعة؛ تعريفة EgyptERA سبتمبر 2024 ≈ قروش قليلة لكل إعادة شحن كاملة.',
+        en:
+            'A1260 answers one Egypt question well: "I still have a mid-range Samsung that speaks QC/AFC, and I need ~2–3 people charged for a full day — not a laptop and not a pocket 10K." ' +
+            'Eight scenarios with 61.4Wh math. RIGHT FOR: ' +
+            '(1) SAHEL / NORTH COAST 3-DAY villa — flaky sockets, road-stop cafes without reliable USB. Two travelers with S10/Note 10 (~13–15Wh phones) ≈ ~16Wh drawn per Port-1 9V fast charge → 61.4Wh ≈ 4 full Port-1 fast charges across 3 days with ~20% buffer. Put the Samsung on Port 1; give Port 2 to the second phone at plain 5V. ' +
+            '(2) FAMILY DAY (Samsung dad + iPhone daughter + iPad kid): iPad 10th gen (28.6Wh) alone burns nearly half the pack per full charge. Realistic plan from measured Wh: dad one Port-1 9V top-up (~16Wh) + daughter one Port-2 5V/2.4A (~16Wh) + iPad ~60% (~20Wh) ≈ 52Wh with ~7Wh buffer — marginal, works once. ' +
+            '(3) CAIRO↔ALEX Go Bus / Blue Bus (~3h) with Netflix kids: 2 phones × ~8Wh + tablet × ~10Wh ≈ 31Wh drawn — half the pack left. Comfortable phone day; ZERO laptops (USB-A only, no PD). ' +
+            '(4) LOAD-SHEDDING HOME (2h scheduled cut): 2 phones × ~4Wh emergency + USB LED lamp ≈ ~17Wh per cut → 3–4 cuts from 61.4Wh. CRITICAL: Egyptian WE/Vodafone/Etisalat/Orange home Wi-Fi routers use 12V DC barrel jacks at 6–10W — A1260 USB-A cannot power a router; buy a UPS. ' +
+            '(5) WEDDING / GRADUATION photographer 8h with Samsung as tether camera (Cascable / Camera Connect + Instagram + hotspot): 3–4 phone recharges ≈ ~52Wh — bank stays barely green; this is A1260\'s best designed workflow for S10/Note 10/A51 shooters. ' +
+            '(6) UMRAH / HAJJ kit for a QC Samsung pilgrim: 72Wh flies free under GACA/IATA 100Wh cabin rules on Saudia/Nile Air/EgyptAir — one Port-1 fast top-up mid-Tawaf day; Micro-USB recharge overnight at the hotel with a QC brick. ' +
+            'WRONG FOR: (7) MacBook / iPad Pro / any USB-C-only device — no USB-C anywhere; pick A1290 (60W / 80.9Wh) or A110E (22.5W phone USB-C) or Prime A1336 (100W). ' +
+            '(8) Pocket daily metro carry — 372g measured (~2× A1263 182g); needs a bag pocket. ' +
+            '(9) IN-FLIGHT USE on Emirates / Flydubai — banned since 1 Oct 2025; cabin carry only. ' +
+            'MICRO-USB LIMIT: without an 18W QC wall brick, self-recharge is ~10.5h — you cannot refill from empty during a 2h load-shedding window. ' +
+            'ELECTRICITY: recharging 72Wh ≈ 0.08–0.09 kWh; EgyptERA Sept-2024 tariff ≈ a few piastres per full recharge.',
+        ar:
+            'يجيب A1260 على سؤال مصري واحد جيدًا: "ما زال عندي سامسونج متوسطة تتكلم QC/AFC، وأحتاج شحن ~2–3 أشخاص ليوم كامل — لا لابتوب ولا جيب 10K." ' +
+            'ثمانية سيناريوهات بحساب 61.4Wh. مناسب لـ: ' +
+            '(1) ساحل / شمال 3 أيام فيلا — فيشات متذبذبة ومقاهي استراحة بلا USB مضمون. مسافران بـ S10/Note 10 (~13–15Wh) ≈ ~16Wh لكل شحنة سريعة على المنفذ 1 → 61.4Wh ≈ 4 شحنات سريعة كاملة على 3 أيام مع هامش ~20%. ضع السامسونج على المنفذ 1؛ أعطِ المنفذ 2 للهاتف الثاني عند 5V عادي. ' +
+            '(2) يوم عائلي (أب Samsung + ابنة iPhone + طفل iPad): iPad الجيل العاشر (28.6Wh) وحده يحرق نحو نصف الباور بانك لكل شحنة كاملة. خطة واقعية من الـWh المقاسة: تعبئة أب على المنفذ 1 (~16Wh) + ابنة على المنفذ 2 5V/2.4A (~16Wh) + iPad ~60% (~20Wh) ≈ 52Wh مع هامش ~7Wh — حدّي، يعمل مرة. ' +
+            '(3) أتوبيس القاهرة↔إسكندرية Go Bus / Blue Bus (~3 س) مع نتفليكس أطفال: موبايلان × ~8Wh + تابلت × ~10Wh ≈ 31Wh — نصف الباور بانك متبقٍ. يوم هاتف مريح؛ **صفر** لابتوبات (USB-A فقط، بلا PD). ' +
+            '(4) انقطاع منزلي (قطع مجدول ساعتين): موبايلان × ~4Wh طوارئ + لمبة LED USB ≈ ~17Wh لكل قطع → 3–4 انقطاعات من 61.4Wh. حاسم: راوترات WE/Vodafone/Etisalat/Orange المنزلية تستخدم برميل DC 12V بسحب 6–10 واط — USB-A في A1260 لا يشغّل راوترًا؛ اشترِ UPS. ' +
+            '(5) مصور فرح/تخرج 8 ساعات بسامسونج ككاميرا متصلة (Cascable / Camera Connect + إنستجرام + hotspot): 3–4 شحنات ≈ ~52Wh — الباور بانك بالكاد أخضر؛ هذا أفضل سير عمل صُمّم له A1260 لمصوري S10/Note 10/A51. ' +
+            '(6) عِدّة عمرة/حج لحاج سامسونج QC: 72Wh يسافر مجانًا تحت قواعد المقصورة GACA/IATA 100Wh على السعودية/النيل/مصر للطيران — تعبئة سريعة واحدة على المنفذ 1 وسط يوم الطواف؛ إعادة شحن Micro-USB ليلًا في الفندق بطوبة QC. ' +
+            'غير مناسب لـ: (7) MacBook / iPad Pro / أي جهاز USB-C فقط — لا USB-C في أي مكان؛ اختر A1290 (60 واط / 80.9Wh) أو A110E (22.5 واط هاتف USB-C) أو Prime A1336 (100 واط). ' +
+            '(8) حمل مترو يومي جيبي — 372 ج مقاسة (~ضعف A1263 182 ج)؛ يحتاج جيب شنطة. ' +
+            '(9) الاستخدام أثناء الرحلة على الإمارات/فلاي دبي — ممنوع منذ 1 أكتوبر 2025؛ حمل مقصورة فقط. ' +
+            'حد Micro-USB: بلا طوبة QC 18 واط، إعادة الشحن نحو 10.5 س — لا تستطيع التعبئة من فارغ خلال انقطاع ساعتين. ' +
+            'الكهرباء: إعادة شحن 72Wh ≈ 0.08–0.09 كيلوواط·ساعة؛ تعريفة EgyptERA سبتمبر 2024 ≈ قروش قليلة لكل إعادة شحن كاملة.',
     },
     specifications: {
-        'Model': { en: 'Anker PowerCore II 20000 (A1260 / retail A1260011)', ar: 'انكر PowerCore II 20000 (A1260 / تجزئة A1260011)' },
-        'Cell Capacity': { en: '20,000mAh / 72Wh (Anker 3.6V nominal: 20,000 × 3.6 ÷ 1000)', ar: '20,000 مللي أمبير / 72Wh (اسمي انكر 3.6V: 20,000 × 3.6 ÷ 1000)' },
-        'Usable Energy (CairoVolt measured)': { en: '61.4Wh at 5V/2A constant discharge (~85.3% of 72Wh) — headline figure reconciles across Port-1 / Port-2 / dual-load discharge paths', ar: '61.4Wh بتفريغ ثابت 5V/2A (نحو 85.3% من 72Wh) — الرقم الأساسي يتوافق عبر مسارات تفريغ المنفذ 1 / المنفذ 2 / الحمل المزدوج' },
-        'Port 1 (PowerIQ 2.0)': { en: 'Fast-charge port ONLY — QC 3.0 / PowerIQ 2.0 up to 18W (5V/9V/12V). CairoVolt peak 17.1W (9.02V/1.90A) into Galaxy A54', ar: 'منفذ الشحن السريع فقط — QC 3.0 / PowerIQ 2.0 حتى 18 واط (5V/9V/12V). ذروة CairoVolt 17.1 واط (9.02V/1.90A) داخل Galaxy A54' },
-        'Port 2 (standard USB-A)': { en: '12W class 5V/2.4A ONLY — does NOT trigger Samsung AFC / QC. CairoVolt peak 11.6W (5.13V/2.26A). PCWorld confirmed same-phone asymmetry', ar: 'فئة 12 واط 5V/2.4A فقط — **لا** يفعّل Samsung AFC / QC. ذروة CairoVolt 11.6 واط (5.13V/2.26A). أكدت PCWorld عدم التماثل على نفس الهاتف' },
-        'Dual-load behaviour': { en: 'Both ports together: 15.5W total stable — Port 1 drops to 5V so QC/AFC is LOST while two devices charge', ar: 'المنفذان معًا: 15.5 واط إجمالي مستقر — المنفذ 1 يسقط إلى 5V فيضيع QC/AFC أثناء شحن جهازين' },
-        'Input (Micro-USB only)': { en: 'Micro-USB 5V/2A or 9V/2A QC 18W — NO USB-C in, NO USB-C out. Measured recharge ~5h 08m (18W QC) vs ~10h 35m (5V/2A)', ar: 'Micro-USB 5V/2A أو 9V/2A QC 18 واط — بلا USB-C دخل، بلا USB-C خرج. إعادة شحن مقاسة نحو 5 س 08 د (QC 18 واط) مقابل نحو 10 س 35 د (5V/2A)' },
-        'Fast Charging honesty': { en: 'PowerIQ 2.0 + QC 3.0 on Port 1 ONLY — no PPS, no USB-C PD. Modern Samsung Super Fast / iPhone PD will NOT unlock', ar: 'PowerIQ 2.0 + QC 3.0 على المنفذ 1 فقط — بلا PPS، بلا USB-C PD. Samsung Super Fast الحديثة / iPhone PD **لن** تُفتح' },
-        'How A1260 differs from A1263 (RECALLED)': { en: 'A1260 = 20K / 72Wh / 61.4Wh measured / asymmetric 18W+12W USB-A / NOT recalled. A1263 = 10K / 36Wh / 31.2Wh measured / single 12W USB-A / RECALLED (US Jan 2016–Oct 2019 batches, CPSC June 2025). Different SKUs — do not mix safety status.', ar: 'A1260 = 20K / 72Wh / 61.4Wh مقاسة / USB-A غير متماثل 18+12 واط / **غير** مُستدعى. A1263 = 10K / 36Wh / 31.2Wh مقاسة / USB-A واحد 12 واط / **مُستدعى** (دفعات أمريكا يناير 2016–أكتوبر 2019، CPSC يونيو 2025). SKUs مختلفة — لا تخلط حالة السلامة.' },
-        'How A1260 differs from A110E': { en: 'A1260 = Micro-USB in + dual USB-A out, Port-1 QC 18W, 61.4Wh, 372g, no built-in cable. A110E = USB-C bidirectional + built-in cable, 22.5W phone-class, 62.0Wh measured, 394g. Similar usable Wh; A110E wins modern port ecology.', ar: 'A1260 = دخل Micro-USB + خرجان USB-A، QC 18 واط على المنفذ 1، 61.4Wh، 372 ج، بلا كابل مدمج. A110E = USB-C ثنائي الاتجاه + كابل مدمج، 22.5 واط فئة هاتف، 62.0Wh مقاسة، 394 ج. Wh قابلة للاستخدام متقاربة؛ A110E يفوز ببيئة المنافذ الحديثة.' },
-        'How A1260 differs from A1290': { en: 'A1260 = phone-era USB-A, 72Wh / 61.4Wh, max ~18W, no laptop path. A1290 Elite 26K = 94.72Wh / 80.9Wh measured, USB-C PD 60W (58.6W into MacBook Air M2). Pick A1290 for near-100Wh laptop bag; pick A1260 only if your phones still need QC USB-A.', ar: 'A1260 = عصر USB-A للهواتف، 72Wh / 61.4Wh، أقصى ~18 واط، بلا مسار لابتوب. A1290 Elite 26K = 94.72Wh / 80.9Wh مقاسة، USB-C PD 60 واط (58.6 واط داخل MacBook Air M2). اختر A1290 لحقيبة لابتوب قرب 100Wh؛ واختر A1260 فقط إن كانت هواتفك ما زالت تحتاج QC USB-A.' },
-        'Battery Indicator': { en: '8-light LED wheel', ar: 'عجلة LED بـ 8 لمبات' },
-        'Weight / Dimensions': { en: 'Anker 369g / 170×62×22 mm; CairoVolt 372g / 170.4×62.3×22.1 mm', ar: 'انكر 369 ج / 170×62×22 ملم؛ CairoVolt 372 ج / 170.4×62.3×22.1 ملم' },
-        'Airline': { en: '72Wh < 100Wh cabin threshold — carry-on OK on major Cairo carriers; Emirates/Flydubai: NO in-flight USE since 1 Oct 2025 (carry only)', ar: '72Wh < حد المقصورة 100Wh — مسموح في المقصورة على شركات القاهرة الكبرى؛ الإمارات/فلاي دبي: ممنوع الاستخدام أثناء الرحلة منذ 1 أكتوبر 2025 (حمل فقط)' },
-        'Safety / Recall Status': { en: 'Manufacturer-listed MultiProtect. NOT RECALLED — verified anker.com/product-recalls + cpsc.gov on 2026-07-24. Outside A1257/A1263/A1647/A1652/A1681/A1689. Do NOT confuse with recalled A1263 PowerCore 10000.', ar: 'MultiProtect كما تذكرها انكر. **لا استدعاء** — تحقّق anker.com/product-recalls + cpsc.gov في 2026-07-24. خارج A1257/A1263/A1647/A1652/A1681/A1689. **لا** تخلطه بـ A1263 PowerCore 10000 المُستدعى.' },
+        'Model': {
+            en: 'Anker PowerCore II 20000 (A1260 / retail A1260011)',
+            ar: 'انكر PowerCore II 20000 (A1260 / تجزئة A1260011)',
+        },
+        'Cell Capacity': {
+            en: '20,000mAh / 72Wh (Anker 3.6V nominal: 20,000 × 3.6 ÷ 1000) — keep 72Wh consistent; do not relabel as 74Wh 3.7V without a new bench',
+            ar: '20,000 مللي أمبير / 72Wh (اسمي انكر 3.6V: 20,000 × 3.6 ÷ 1000) — حافظ على اتساق 72Wh؛ لا تُعدّ التسمية إلى 74Wh عند 3.7V بلا قياس جديد',
+        },
+        'Usable Energy (CairoVolt measured)': {
+            en: '61.4Wh at 5V/2A constant discharge (~85.3% of 72Wh) — headline reconciles across Port-1 / Port-2 / dual-load discharge paths',
+            ar: '61.4Wh بتفريغ ثابت 5V/2A (نحو 85.3% من 72Wh) — الرقم الأساسي يتوافق عبر مسارات تفريغ المنفذ 1 / المنفذ 2 / الحمل المزدوج',
+        },
+        'Port 1 (PowerIQ 2.0)': {
+            en: 'Fast-charge port ONLY — QC 3.0 / PowerIQ 2.0 up to 18W (5V/9V/12V). CairoVolt peak 17.1W (9.02V/1.90A) into Galaxy A54',
+            ar: 'منفذ الشحن السريع فقط — QC 3.0 / PowerIQ 2.0 حتى 18 واط (5V/9V/12V). ذروة CairoVolt 17.1 واط (9.02V/1.90A) داخل Galaxy A54',
+        },
+        'Port 2 (standard USB-A)': {
+            en: '12W class 5V/2.4A ONLY — does NOT trigger Samsung AFC / QC. CairoVolt peak 11.6W (5.13V/2.26A). PCWorld confirmed same-phone asymmetry',
+            ar: 'فئة 12 واط 5V/2.4A فقط — **لا** يفعّل Samsung AFC / QC. ذروة CairoVolt 11.6 واط (5.13V/2.26A). أكدت PCWorld عدم التماثل على نفس الهاتف',
+        },
+        'Dual-load behaviour': {
+            en: 'Both ports together: 15.5W total stable — Port 1 drops to 5V so QC/AFC is LOST while two devices charge',
+            ar: 'المنفذان معًا: 15.5 واط إجمالي مستقر — المنفذ 1 يسقط إلى 5V فيضيع QC/AFC أثناء شحن جهازين',
+        },
+        'Input (Micro-USB only)': {
+            en: 'Micro-USB 5V/2A or 9V/2A QC 18W — NO USB-C in, NO USB-C out. Measured recharge ~5h 08m (18W QC) vs ~10h 35m (5V/2A)',
+            ar: 'Micro-USB 5V/2A أو 9V/2A QC 18 واط — بلا USB-C دخل، بلا USB-C خرج. إعادة شحن مقاسة نحو 5 س 08 د (QC 18 واط) مقابل نحو 10 س 35 د (5V/2A)',
+        },
+        'Fast Charging honesty': {
+            en: 'PowerIQ 2.0 + QC 3.0 on Port 1 ONLY — no PPS, no USB-C PD. Modern Samsung Super Fast / iPhone PD will NOT unlock',
+            ar: 'PowerIQ 2.0 + QC 3.0 على المنفذ 1 فقط — بلا PPS، بلا USB-C PD. Samsung Super Fast الحديثة / iPhone PD **لن** تُفتح',
+        },
+        'How A1260 differs from A1263 (RECALLED)': {
+            en: 'A1260 = 20K / 72Wh / 61.4Wh measured / asymmetric 18W+12W USB-A / NOT recalled. A1263 = 10K / 36Wh / 31.2Wh measured / single 12W USB-A / RECALLED (US Jan 2016–Oct 2019 batches, CPSC June 2025). Different SKUs — do not mix safety status.',
+            ar: 'A1260 = 20K / 72Wh / 61.4Wh مقاسة / USB-A غير متماثل 18+12 واط / **غير** مُستدعى. A1263 = 10K / 36Wh / 31.2Wh مقاسة / USB-A واحد 12 واط / **مُستدعى** (دفعات أمريكا يناير 2016–أكتوبر 2019، CPSC يونيو 2025). SKUs مختلفة — لا تخلط حالة السلامة.',
+        },
+        'How A1260 differs from A110E': {
+            en: 'A1260 = Micro-USB in + dual USB-A out, Port-1 QC 18W, 61.4Wh, 372g, no built-in cable. A110E = USB-C bidirectional + built-in cable, 22.5W phone-class, 62.0Wh measured, 394g. Similar usable Wh; A110E wins modern port ecology.',
+            ar: 'A1260 = دخل Micro-USB + خرجان USB-A، QC 18 واط على المنفذ 1، 61.4Wh، 372 ج، بلا كابل مدمج. A110E = USB-C ثنائي الاتجاه + كابل مدمج، 22.5 واط فئة هاتف، 62.0Wh مقاسة، 394 ج. Wh قابلة للاستخدام متقاربة؛ A110E يفوز ببيئة المنافذ الحديثة.',
+        },
+        'How A1260 differs from A1290': {
+            en: 'A1260 = phone-era USB-A, 72Wh / 61.4Wh, max ~18W, no laptop path. A1290 Elite 26K = 94.72Wh / 80.9Wh measured, USB-C PD 60W (58.6W into MacBook Air M2). Pick A1290 for near-100Wh laptop bag; pick A1260 only if your phones still need QC USB-A.',
+            ar: 'A1260 = عصر USB-A للهواتف، 72Wh / 61.4Wh، أقصى ~18 واط، بلا مسار لابتوب. A1290 Elite 26K = 94.72Wh / 80.9Wh مقاسة، USB-C PD 60 واط (58.6 واط داخل MacBook Air M2). اختر A1290 لحقيبة لابتوب قرب 100Wh؛ واختر A1260 فقط إن كانت هواتفك ما زالت تحتاج QC USB-A.',
+        },
+        'Battery Indicator': {
+            en: '8-light LED wheel',
+            ar: 'عجلة LED بـ 8 لمبات',
+        },
+        'Weight / Dimensions': {
+            en: 'Anker 369g / 170×62×22 mm; CairoVolt 372g / 170.4×62.3×22.1 mm',
+            ar: 'انكر 369 ج / 170×62×22 ملم؛ CairoVolt 372 ج / 170.4×62.3×22.1 ملم',
+        },
+        'Airline': {
+            en: '72Wh < 100Wh cabin threshold — carry-on OK on major Cairo carriers; Emirates/Flydubai: NO in-flight USE since 1 Oct 2025 (carry only)',
+            ar: '72Wh < حد المقصورة 100Wh — مسموح في المقصورة على شركات القاهرة الكبرى؛ الإمارات/فلاي دبي: ممنوع الاستخدام أثناء الرحلة منذ 1 أكتوبر 2025 (حمل فقط)',
+        },
+        'Safety / Recall Status': {
+            en: 'Manufacturer-listed MultiProtect. NOT RECALLED — verified anker.com/product-recalls + cpsc.gov on 2026-07-24. Outside A1257/A1263/A1647/A1652/A1681/A1689. Do NOT confuse with recalled A1263 PowerCore 10000.',
+            ar: 'MultiProtect كما تذكرها انكر. **لا استدعاء** — تحقّق anker.com/product-recalls + cpsc.gov في 2026-07-24. خارج A1257/A1263/A1647/A1652/A1681/A1689. **لا** تخلطه بـ A1263 PowerCore 10000 المُستدعى.',
+        },
     },
     benchTest: {
         sku: 'A1260 (A1260011)',
@@ -50,64 +121,271 @@ export const anker_powercore_20000_detail: ProductDetail = {
             ar: 'وحدة تجزئة واحدة A1260011 · مختبر كايرو فولت · محيط 27.8–28.5°م · إعادة شحن Micro-USB عبر Anker PowerPort+ 1 (A2013، QC 3.0 18 واط) · إعادة تحقق الاستدعاء 2026-07-24',
         },
         methodology: {
-            en: 'Per Bench Test Protocol §7.3 (power banks): (1) Fully charged over Micro-USB with Anker A2013 18W QC, rested 30 minutes. (2) THREE separate full discharges into JUWEI at 5V/2A — Port 1 alone, Port 2 alone, and dual-load — while FNIRSI FNB58 logged cumulative Wh; headline usable energy 61.4Wh reconciles across those paths (85.3% of Anker 72Wh / 3.6V nominal). (3) Peak negotiation: Port 1 into Galaxy A54 = 17.1W (9.02V/1.90A QC); Port 2 into same phone-class load = 11.6W (5.13V/2.26A) — confirms asymmetric fast-charge design flagged by PCWorld / Tech Advisor. (4) Dual-load both ports: 15.5W combined stable; Port 1 collapsed to 5V (QC lost). (5) Real-device charge count into Galaxy A15 (5000mAh) on Port 1 path — 2.78 charges measured (A15 does not hold 9V QC; falls to 5V). Est. charge counts for S10/Note 9/A51/M31/S24 from 61.4Wh ÷ (phone Wh × ~1.10) marked "est." (6) Self-recharge timed 0→100% on 18W QC Micro-USB and on plain 5V/2A. (7) Weight/dimensions on Kkmoon 0.01g + Mitutoyo caliper. (8) Independent corroboration (NOT our data): Charging Kick ~12,195 mAh recovered (~61%) at 2.4A. (9) Recall check anker.com/product-recalls + cpsc.gov on 2026-07-24 — A1260 NOT listed (unlike A1263). Single unit; batches may vary. A/B Wh anchors: A1263 31.2Wh · A110E 62.0Wh · A1290 80.9Wh (separate CairoVolt sheets).',
-            ar: 'وفق بروتوكول الاختبار §7.3 (باور بانك): (1) شحن كامل عبر Micro-USB بـ Anker A2013 QC 18 واط، راحة 30 دقيقة. (2) **ثلاث** تفريغات كاملة منفصلة داخل JUWEI عند 5V/2A — المنفذ 1 وحده، المنفذ 2 وحده، والحمل المزدوج — بينما سجّل FNB58 الـWh التراكمي؛ الطاقة الأساسية 61.4Wh تتوافق عبر تلك المسارات (85.3% من 72Wh الاسمي لانكر / 3.6V). (3) تفاوض الذروة: المنفذ 1 داخل Galaxy A54 = 17.1 واط (9.02V/1.90A QC)؛ المنفذ 2 على حمل فئة نفس الهاتف = 11.6 واط (5.13V/2.26A) — يؤكد تصميم الشحن السريع غير المتماثل الذي أشارت إليه PCWorld / Tech Advisor. (4) حمل مزدوج للمنفذين: 15.5 واط مشترك مستقر؛ المنفذ 1 انهار إلى 5V (ضاع QC). (5) عدد شحنات حقيقي داخل Galaxy A15 (5000mAh) على مسار المنفذ 1 — 2.78 شحنة مقاسة (A15 لا يثبت QC 9V؛ يعود إلى 5V). أعداد تقديرية لـ S10/Note 9/A51/M31/S24 من 61.4Wh ÷ (Wh الهاتف × ~1.10) موسومة "تقديري". (6) زمن إعادة الشحن 0→100% على Micro-USB QC 18 واط وعلى 5V/2A عادي. (7) الوزن/الأبعاد على Kkmoon 0.01g + قدمة Mitutoyo. (8) استرجاع مستقل (ليست بياناتنا): Charging Kick ~12,195 مللي أمبير (~61%) عند 2.4A. (9) فحص الاستدعاء anker.com/product-recalls + cpsc.gov في 2026-07-24 — A1260 **غير** مدرج (بخلاف A1263). وحدة واحدة؛ قد تختلف الدفعات. مراسي A/B للـWh: A1263 31.2Wh · A110E 62.0Wh · A1290 80.9Wh (صحائف CairoVolt منفصلة).',
+            en:
+                'Per Bench Test Protocol §7.3 (power banks) on sample CV-PB-A1260-001 (bench 2026-05-13; recall re-check 2026-07-24). ' +
+                '(A–B) Nominal Wh kept at Anker\'s printed 3.6V math: 20,000mAh × 3.6V ÷ 1000 = 72Wh — do not silently swap to 3.7V/74Wh on this sheet. ' +
+                '(C) Fully charged over Micro-USB with Anker A2013 18W QC, rested 30 minutes, then THREE separate full discharges into JUWEI at 5V/2A — Port 1 alone, Port 2 alone, and dual-load — while FNIRSI FNB58 logged cumulative Wh. ' +
+                'Headline usable energy 61.4Wh reconciles across those paths (85.3% of 72Wh) — inside the §7.3 80–90% band. ' +
+                '(G) Peak negotiation: Port 1 into Galaxy A54 = 17.1W (9.02V/1.90A QC); Port 2 into same phone-class load = 11.6W (5.13V/2.26A) — confirms asymmetric fast-charge design flagged by PCWorld / Tech Advisor (+5.5W / +QC 9V on Port 1 only). ' +
+                'Dual-load both ports: 15.5W combined stable; Port 1 collapsed to 5V (QC/AFC lost). ' +
+                '(F/H) Self-recharge timed 0→100% on 18W QC Micro-USB (~5h 08m) and on plain 5V/2A (~10h 35m) — Micro-USB ceiling; no USB-C in. ' +
+                '(I) Real-device charge count into Galaxy A15 (5000mAh) on Port 1 path — 2.78 charges measured (A15 does not hold 9V QC; falls to 5V). ' +
+                'Est. charge counts for S10/Note 9/A51/M31/S24/iPhone 15 from 61.4Wh ÷ (phone Wh × ~1.10) marked "est." ' +
+                '(A) Weight/dimensions on Kkmoon 0.01g + Mitutoyo caliper (372g / 170.4×62.3×22.1 mm). ' +
+                '(L) Recall check anker.com/product-recalls + cpsc.gov on 2026-07-24 — A1260 NOT listed (unlike A1263 PowerCore 10000). ' +
+                'Independent corroboration (NOT our data): Charging Kick ~12,195 mAh recovered (~61%) at 2.4A. ' +
+                'A/B Wh anchors from separate CairoVolt sheets: A1263 31.2Wh · A110E 62.0Wh · A1290 80.9Wh. ' +
+                'Surface IR / 9V constant-load Wh / PPS APDO: NOT on this pass — refuse invented °C or PDOs. Single unit; batches may vary.',
+            ar:
+                'وفق بروتوكول الاختبار §7.3 (باور بانك) على العيّنة CV-PB-A1260-001 (قياس 2026-05-13؛ إعادة فحص الاستدعاء 2026-07-24). ' +
+                '(A–B) الـWh الاسمي محفوظ على حساب انكر المطبوع 3.6V: 20,000mAh × 3.6V ÷ 1000 = 72Wh — لا تستبدل بصمت إلى 3.7V/74Wh على هذه الصحيفة. ' +
+                '(C) شحن كامل عبر Micro-USB بـ Anker A2013 QC 18 واط، راحة 30 دقيقة، ثم **ثلاث** تفريغات كاملة منفصلة داخل JUWEI عند 5V/2A — المنفذ 1 وحده، المنفذ 2 وحده، والحمل المزدوج — بينما سجّل FNB58 الـWh التراكمي. ' +
+                'الطاقة الأساسية 61.4Wh تتوافق عبر تلك المسارات (85.3% من 72Wh) — ضمن نطاق §7.3 80–90%. ' +
+                '(G) تفاوض الذروة: المنفذ 1 داخل Galaxy A54 = 17.1 واط (9.02V/1.90A QC)؛ المنفذ 2 على حمل فئة نفس الهاتف = 11.6 واط (5.13V/2.26A) — يؤكد تصميم الشحن السريع غير المتماثل الذي أشارت إليه PCWorld / Tech Advisor (+5.5 واط / +QC 9V على المنفذ 1 فقط). ' +
+                'حمل مزدوج للمنفذين: 15.5 واط مشترك مستقر؛ المنفذ 1 انهار إلى 5V (ضاع QC/AFC). ' +
+                '(F/H) زمن إعادة الشحن 0→100% على Micro-USB QC 18 واط (~5 س 08 د) وعلى 5V/2A عادي (~10 س 35 د) — سقف Micro-USB؛ بلا USB-C دخل. ' +
+                '(I) عدد شحنات حقيقي داخل Galaxy A15 (5000mAh) على مسار المنفذ 1 — 2.78 شحنة مقاسة (A15 لا يثبت QC 9V؛ يعود إلى 5V). ' +
+                'أعداد تقديرية لـ S10/Note 9/A51/M31/S24/iPhone 15 من 61.4Wh ÷ (Wh الهاتف × ~1.10) موسومة "تقديري". ' +
+                '(A) الوزن/الأبعاد على Kkmoon 0.01g + قدمة Mitutoyo (372 ج / 170.4×62.3×22.1 ملم). ' +
+                '(L) فحص الاستدعاء anker.com/product-recalls + cpsc.gov في 2026-07-24 — A1260 **غير** مدرج (بخلاف A1263 PowerCore 10000). ' +
+                'استرجاع مستقل (ليست بياناتنا): Charging Kick ~12,195 مللي أمبير (~61%) عند 2.4A. ' +
+                'مراسي A/B للـWh من صحائف CairoVolt منفصلة: A1263 31.2Wh · A110E 62.0Wh · A1290 80.9Wh. ' +
+                'حرارة سطح IR / Wh حمل ثابت 9V / APDO لـ PPS: ليست في هذه المرحلة — نرفض اختراع °م أو PDOs. وحدة واحدة؛ قد تختلف الدفعات.',
         },
         equipment: [
-            { name: 'FNIRSI FNB58 (fw v1.3)', use: { en: 'Cumulative V·A·W·Wh·mAh logging + QC rail capture', ar: 'تسجيل V·A·W·Wh·mAh التراكمي + التقاط سكة QC' } },
-            { name: 'JUWEI 35W USB electronic load', use: { en: 'Constant-current 5V/2A discharge (Port 1 / Port 2 / dual)', ar: 'تفريغ ثابت 5V/2A (المنفذ 1 / المنفذ 2 / مزدوج)' } },
-            { name: 'Anker PowerPort+ 1 (A2013, QC 3.0 18W)', use: { en: 'Fast Micro-USB QC recharge timing', ar: 'توقيت إعادة الشحن السريع QC عبر Micro-USB' } },
-            { name: 'Samsung Galaxy A15 + A54 (5000mAh class)', use: { en: 'Charge-count + Port-1 QC negotiation vs Port-2 fallback', ar: 'عدد الشحنات + تفاوض QC المنفذ 1 مقابل سقوط المنفذ 2' } },
-            { name: 'Kkmoon 0.01g scale · Mitutoyo 150mm caliper', use: { en: 'Weight & dimensions', ar: 'الوزن والأبعاد' } },
+            {
+                name: 'FNIRSI FNB58 (fw v1.3)',
+                use: { en: 'Cumulative V·A·W·Wh·mAh logging + QC rail capture on Port 1 vs Port 2', ar: 'تسجيل V·A·W·Wh·mAh التراكمي + التقاط سكة QC على المنفذ 1 مقابل المنفذ 2' },
+            },
+            {
+                name: 'JUWEI 35W USB electronic load',
+                use: { en: 'Constant-current 5V/2A discharge (Port 1 / Port 2 / dual)', ar: 'تفريغ ثابت 5V/2A (المنفذ 1 / المنفذ 2 / مزدوج)' },
+            },
+            {
+                name: 'Anker PowerPort+ 1 (A2013, QC 3.0 18W)',
+                use: { en: 'Fast Micro-USB QC recharge timing vs plain 5V/2A', ar: 'توقيت إعادة الشحن السريع QC عبر Micro-USB مقابل 5V/2A عادي' },
+            },
+            {
+                name: 'Samsung Galaxy A15 + A54 (5000mAh class)',
+                use: { en: 'Charge-count + Port-1 QC negotiation vs Port-2 fallback', ar: 'عدد الشحنات + تفاوض QC المنفذ 1 مقابل سقوط المنفذ 2' },
+            },
+            {
+                name: 'Kkmoon 0.01g scale · Mitutoyo 150mm caliper',
+                use: { en: 'Weight & dimensions', ar: 'الوزن والأبعاد' },
+            },
         ],
         results: [
-            { param: { en: 'Rated cell capacity', ar: 'السعة الاسمية (خلايا)' }, rated: '20,000mAh / 72Wh', measured: '—', note: { en: 'Anker 3.6V nominal (20,000 × 3.6 ÷ 1000) — keep 72Wh figure consistent everywhere', ar: 'اسمي انكر 3.6V (20,000 × 3.6 ÷ 1000) — حافظ على اتساق رقم 72Wh في كل المواضع' } },
-            { param: { en: 'Usable energy — 5V/2A (headline)', ar: 'الطاقة المُخرَجة — 5V/2A (الأساسي)' }, measured: '61.4 Wh', note: { en: 'FNB58 cumulative — reconciles Port-1 / Port-2 / dual discharge paths', ar: 'FNB58 تراكمي — يتوافق عبر مسارات تفريغ المنفذ 1 / المنفذ 2 / المزدوج' } },
-            { param: { en: 'Conversion efficiency — 2A (ours)', ar: 'كفاءة التحويل — 2A (لنا)' }, measured: '85.3%', note: { en: '61.4 ÷ 72 — inside §7.3 80–90% band', ar: '61.4 ÷ 72 — ضمن نطاق §7.3 80–90%' } },
-            { param: { en: 'Efficiency — 2.4A (Charging Kick, independent)', ar: 'الكفاءة — 2.4A (Charging Kick، مستقل)' }, measured: { en: '~82% overall / ~61% capacity recovered', ar: 'نحو 82% كفاءة / نحو 61% سعة مسترجعة' }, note: { en: 'NOT our data — high-current loss consistent with our moderate-load 61.4Wh', ar: 'ليست بياناتنا — خسارة تيار عالٍ متسقة مع 61.4Wh لحملنا المعتدل' } },
-            { param: { en: 'Peak — Port 1 (PowerIQ 2.0 / QC)', ar: 'ذروة — المنفذ 1 (PowerIQ 2.0 / QC)' }, rated: '18W (QC 9V/2A)', measured: '17.1W (9.02V/1.90A)', note: { en: 'Negotiated 9V QC with Galaxy A54 — the ONLY fast port', ar: 'تفاوض 9V QC مع Galaxy A54 — المنفذ السريع الوحيد' } },
-            { param: { en: 'Peak — Port 2 (standard USB-A)', ar: 'ذروة — المنفذ 2 (USB-A قياسي)' }, rated: '12W (5V/2.4A)', measured: '11.6W (5.13V/2.26A)', note: { en: 'PCWorld verified: does NOT fast-charge the same phone Port 1 does', ar: 'أكدت PCWorld: **لا** يشحن سريعًا نفس الهاتف الذي يشحنه المنفذ 1' } },
-            { param: { en: 'Port 1 vs Port 2 asymmetry delta', ar: 'فرق عدم تماثل المنفذ 1 مقابل 2' }, measured: { en: '+5.5W / +QC 9V on Port 1 only', ar: '+5.5 واط / +QC 9V على المنفذ 1 فقط' }, note: { en: '17.1 − 11.6 — buyers who plug into Port 2 lose Adaptive Fast Charging', ar: '17.1 − 11.6 — من يوصل بالمنفذ 2 يفقد Adaptive Fast Charging' } },
-            { param: { en: 'Dual-load (both ports together)', ar: 'حمل مزدوج (المنفذان معًا)' }, measured: { en: '15.5W total (stable)', ar: '15.5 واط إجمالي (مستقر)' }, note: { en: 'CAUTION: Port 1 drops to 5V — QC/AFC LOST while two devices charge', ar: 'تحذير: المنفذ 1 يسقط لـ 5V — يضيع QC/AFC أثناء شحن جهازين' } },
-            { param: { en: 'Galaxy A15 (5000mAh) charges — measured', ar: 'شحنات Galaxy A15 (5000mAh) — مقاس' }, measured: { en: '2.78 charges', ar: '2.78 شحنة' }, note: { en: 'A15 does not hold QC 9V — falls back to 5V (physical test)', ar: 'A15 لا يثبت QC 9V — يعود إلى 5V (اختبار فعلي)' } },
-            { param: { en: 'Samsung S10 (3400mAh) — est.', ar: 'Samsung S10 (3400mAh) — تقديري' }, rated: { en: 'phone: 15W AFC (QC 2.0)', ar: 'الهاتف: 15W AFC (QC 2.0)' }, measured: { en: '~4.1 charges', ar: 'نحو 4.1 شحنة' }, note: { en: 'Full-speed 9V on Port 1 — Anker\'s target Egypt user', ar: 'سرعة كاملة 9V على المنفذ 1 — مستخدم مصر الذي صمّمت له انكر' } },
-            { param: { en: 'Samsung Note 9 (4000mAh) — est.', ar: 'Samsung Note 9 (4000mAh) — تقديري' }, rated: { en: 'phone: 18W QC 9V/2A', ar: 'الهاتف: 18W QC بجهد 9V/2A' }, measured: { en: '~3.5 charges', ar: 'نحو 3.5 شحنة' }, note: { en: 'Phone A1260 was arguably built for — full 18W Port 1', ar: 'الهاتف الذي بُني له A1260 — 18 واط كاملة على المنفذ 1' } },
-            { param: { en: 'Samsung A51 (4000mAh) — est.', ar: 'Samsung A51 (4000mAh) — تقديري' }, rated: { en: 'phone: 15W AFC', ar: 'الهاتف: 15W AFC' }, measured: { en: '~3.5 charges', ar: 'نحو 3.5 شحنة' }, note: { en: 'Egypt\'s biggest mid-range addressable base for A1260', ar: 'أكبر قاعدة متوسطة مصرية يخاطبها A1260' } },
-            { param: { en: 'Samsung M31 (6000mAh) — est.', ar: 'Samsung M31 (6000mAh) — تقديري' }, rated: { en: 'phone: 15W AFC', ar: 'الهاتف: 15W AFC' }, measured: { en: '~2.3 charges', ar: 'نحو 2.3 شحنة' }, note: { en: 'Road-trip "monster battery" kept full 12h+ on Port 1', ar: 'هاتف "بطارية وحش" للسفر يُبقى ممتلئًا 12س+ على المنفذ 1' } },
-            { param: { en: 'Samsung S24/A54/A55 — est. (FALLBACK)', ar: 'Samsung S24/A54/A55 — تقديري (سقوط)' }, rated: { en: 'phone: 25W PPS Super Fast', ar: 'الهاتف: 25W PPS Super Fast' }, measured: { en: '~3 charges at standard 5V speed', ar: 'نحو 3 شحنات بسرعة 5V عادية' }, note: { en: 'No PPS on A1260 — Super Fast badge does not appear', ar: 'لا PPS على A1260 — شارة Super Fast لا تظهر' } },
-            { param: { en: 'iPhone 15 (12.99Wh) — est. from 61.4Wh', ar: 'iPhone 15 (12.99Wh) — تقديري من 61.4Wh' }, measured: { en: '~4.3 charges at 5V (no PD)', ar: 'نحو 4.3 شحنة عند 5V (بلا PD)' }, note: { en: '61.4 ÷ (12.99 × 1.10) — count yes, speed no', ar: '61.4 ÷ (12.99 × 1.10) — العدد نعم، السرعة لا' } },
-            { param: { en: 'iPad 10th gen (28.6Wh) — est.', ar: 'iPad الجيل العاشر (28.6Wh) — تقديري' }, measured: { en: '~1.9 top-ups', ar: 'نحو 1.9 تعبئة' }, note: { en: 'Big draw — ~half the pack per full iPad charge', ar: 'استهلاك كبير — نحو نصف الباور بانك لتعبئة iPad كاملة' } },
-            { param: { en: 'vs A1263 usable Wh (CairoVolt)', ar: 'مقابل Wh A1263 القابلة للاستخدام (CairoVolt)' }, measured: { en: '61.4Wh vs A1263 31.2Wh (~2.0×)', ar: '61.4Wh مقابل A1263 31.2Wh (~2.0×)' }, note: { en: 'A1263 is RECALLED — A1260 is NOT; do not treat as safety twins', ar: 'A1263 **مُستدعى** — A1260 **ليس**؛ لا تعاملهما كتوءمي سلامة' } },
-            { param: { en: 'vs A110E usable Wh (CairoVolt)', ar: 'مقابل Wh A110E القابلة للاستخدام (CairoVolt)' }, measured: { en: '61.4Wh vs A110E 62.0Wh (~tied)', ar: '61.4Wh مقابل A110E 62.0Wh (~تعادل)' }, note: { en: 'Similar energy; A110E adds USB-C 22.5W + built-in cable', ar: 'طاقة متقاربة؛ A110E يضيف USB-C 22.5 واط + كابل مدمج' } },
-            { param: { en: 'vs A1290 usable Wh (CairoVolt)', ar: 'مقابل Wh A1290 القابلة للاستخدام (CairoVolt)' }, measured: { en: '61.4Wh vs A1290 80.9Wh', ar: '61.4Wh مقابل A1290 80.9Wh' }, note: { en: 'A1290 adds 60W USB-C laptop path (58.6W Air) — different job', ar: 'A1290 يضيف مسار لابتوب USB-C 60 واط (58.6 واط Air) — وظيفة مختلفة' } },
-            { param: { en: 'Micro-USB input — 18W QC recharge', ar: 'دخل Micro-USB — إعادة شحن QC 18 واط' }, rated: { en: 'Anker: ~5 h', ar: 'انكر: ~5 س' }, measured: { en: '~5h 08m', ar: 'نحو 5 س 08 د' }, note: { en: 'Requires QC wall brick — Micro-USB ceiling, no USB-C in', ar: 'يتطلب طوبة QC — سقف Micro-USB، بلا USB-C دخل' } },
-            { param: { en: 'Micro-USB input — 5V/2A recharge', ar: 'دخل Micro-USB — إعادة شحن 5V/2A' }, measured: { en: '~10h 35m', ar: 'نحو 10 س 35 د' }, note: { en: 'Roughly 2× QC time — cannot refill empty pack in a 2h blackout', ar: 'نحو ضعف زمن QC — لا يعبّئ فارغًا خلال انقطاع ساعتين' } },
-            { param: { en: 'Weight', ar: 'الوزن' }, rated: '369g', measured: '372g', note: { en: '~2× A1263 182g pocket pack — bag, not jeans', ar: 'نحو ضعف A1263 182 ج جيبي — شنطة لا بنطلون' } },
-            { param: { en: 'Dimensions', ar: 'الأبعاد' }, rated: '170×62×22mm', measured: '170.4×62.3×22.1mm', note: { en: 'Mitutoyo 3-point', ar: 'قدمة Mitutoyo من 3 نقاط' } },
-            { param: { en: 'Airline Wh rating', ar: 'تصنيف Wh للطيران' }, rated: '72Wh', measured: { en: '72Wh label class — below 100Wh; Emirates/Flydubai carry-only (no in-flight use since 1 Oct 2025)', ar: 'فئة ملصق 72Wh — تحت 100Wh؛ الإمارات/فلاي دبي حمل فقط (بلا استخدام أثناء الرحلة منذ 1 أكتوبر 2025)' } },
-            { param: { en: 'Recall status (verified 2026-07-24)', ar: 'حالة الاستدعاء (متحققة 2026-07-24)' }, measured: { en: 'NOT recalled', ar: 'غير مُستدعى' }, note: { en: 'A1260 outside A1257/A1263/A1647/A1652/A1681/A1689 — unlike recalled sibling-era A1263 10K', ar: 'A1260 خارج A1257/A1263/A1647/A1652/A1681/A1689 — بخلاف A1263 10K المُستدعى من نفس الحقبة' } },
+            {
+                param: { en: 'Rated cell capacity', ar: 'السعة الاسمية (خلايا)' },
+                rated: '20,000mAh / 72Wh',
+                measured: '—',
+                note: { en: 'Anker 3.6V nominal (20,000 × 3.6 ÷ 1000) — keep 72Wh figure consistent everywhere on this sheet', ar: 'اسمي انكر 3.6V (20,000 × 3.6 ÷ 1000) — حافظ على اتساق رقم 72Wh في كل مواضع هذه الصحيفة' },
+            },
+            {
+                param: { en: 'Usable energy — 5V/2A (headline)', ar: 'الطاقة المُخرَجة — 5V/2A (الأساسي)' },
+                measured: '61.4 Wh',
+                note: { en: 'FNB58 cumulative — reconciles Port-1 / Port-2 / dual discharge paths', ar: 'FNB58 تراكمي — يتوافق عبر مسارات تفريغ المنفذ 1 / المنفذ 2 / المزدوج' },
+            },
+            {
+                param: { en: 'Conversion efficiency — 2A (ours)', ar: 'كفاءة التحويل — 2A (لنا)' },
+                measured: '85.3%',
+                note: { en: '61.4 ÷ 72 — inside §7.3 80–90% band', ar: '61.4 ÷ 72 — ضمن نطاق §7.3 80–90%' },
+            },
+            {
+                param: { en: 'Wh consistency check (red-flag)', ar: 'فحص اتساق Wh (علم أحمر)' },
+                measured: { en: 'PASS — 61.4 ≤ 72 × 0.90', ar: 'نجاح — 61.4 ≤ 72 × 0.90' },
+                note: { en: 'Reject any marketing that implies >~65Wh USB-out from this 72Wh pack', ar: 'ارفض أي تسويق يوحي بأكثر من ~65Wh خرج USB من هذه الحزمة 72Wh' },
+            },
+            {
+                param: { en: 'Efficiency — 2.4A (Charging Kick, independent)', ar: 'الكفاءة — 2.4A (Charging Kick، مستقل)' },
+                measured: { en: '~82% overall / ~61% capacity recovered', ar: 'نحو 82% كفاءة / نحو 61% سعة مسترجعة' },
+                note: { en: 'NOT our data — high-current loss consistent with our moderate-load 61.4Wh', ar: 'ليست بياناتنا — خسارة تيار عالٍ متسقة مع 61.4Wh لحملنا المعتدل' },
+            },
+            {
+                param: { en: 'Peak — Port 1 (PowerIQ 2.0 / QC)', ar: 'ذروة — المنفذ 1 (PowerIQ 2.0 / QC)' },
+                rated: '18W (QC 9V/2A)',
+                measured: '17.1W (9.02V/1.90A)',
+                note: { en: 'Negotiated 9V QC with Galaxy A54 — the ONLY fast port', ar: 'تفاوض 9V QC مع Galaxy A54 — المنفذ السريع الوحيد' },
+            },
+            {
+                param: { en: 'Peak — Port 2 (standard USB-A)', ar: 'ذروة — المنفذ 2 (USB-A قياسي)' },
+                rated: '12W (5V/2.4A)',
+                measured: '11.6W (5.13V/2.26A)',
+                note: { en: 'PCWorld verified: does NOT fast-charge the same phone Port 1 does', ar: 'أكدت PCWorld: **لا** يشحن سريعًا نفس الهاتف الذي يشحنه المنفذ 1' },
+            },
+            {
+                param: { en: 'Port 1 vs Port 2 asymmetry delta', ar: 'فرق عدم تماثل المنفذ 1 مقابل 2' },
+                measured: { en: '+5.5W / +QC 9V on Port 1 only', ar: '+5.5 واط / +QC 9V على المنفذ 1 فقط' },
+                note: { en: '17.1 − 11.6 — buyers who plug into Port 2 lose Adaptive Fast Charging', ar: '17.1 − 11.6 — من يوصل بالمنفذ 2 يفقد Adaptive Fast Charging' },
+            },
+            {
+                param: { en: 'Dual-load (both ports together)', ar: 'حمل مزدوج (المنفذان معًا)' },
+                measured: { en: '15.5W total (stable)', ar: '15.5 واط إجمالي (مستقر)' },
+                note: { en: 'CAUTION: Port 1 drops to 5V — QC/AFC LOST while two devices charge', ar: 'تحذير: المنفذ 1 يسقط لـ 5V — يضيع QC/AFC أثناء شحن جهازين' },
+            },
+            {
+                param: { en: 'Galaxy A15 (5000mAh) charges — measured', ar: 'شحنات Galaxy A15 (5000mAh) — مقاس' },
+                measured: { en: '2.78 charges', ar: '2.78 شحنة' },
+                note: { en: 'A15 does not hold QC 9V — falls back to 5V (physical test)', ar: 'A15 لا يثبت QC 9V — يعود إلى 5V (اختبار فعلي)' },
+            },
+            {
+                param: { en: 'Samsung S10 (3400mAh) — est.', ar: 'Samsung S10 (3400mAh) — تقديري' },
+                rated: { en: 'phone: 15W AFC (QC 2.0)', ar: 'الهاتف: 15W AFC (QC 2.0)' },
+                measured: { en: '~4.1 charges', ar: 'نحو 4.1 شحنة' },
+                note: { en: 'Full-speed 9V on Port 1 — Anker\'s target Egypt user', ar: 'سرعة كاملة 9V على المنفذ 1 — مستخدم مصر الذي صمّمت له انكر' },
+            },
+            {
+                param: { en: 'Samsung Note 9 (4000mAh) — est.', ar: 'Samsung Note 9 (4000mAh) — تقديري' },
+                rated: { en: 'phone: 18W QC 9V/2A', ar: 'الهاتف: 18W QC بجهد 9V/2A' },
+                measured: { en: '~3.5 charges', ar: 'نحو 3.5 شحنة' },
+                note: { en: 'Phone A1260 was arguably built for — full 18W Port 1', ar: 'الهاتف الذي بُني له A1260 — 18 واط كاملة على المنفذ 1' },
+            },
+            {
+                param: { en: 'Samsung A51 (4000mAh) — est.', ar: 'Samsung A51 (4000mAh) — تقديري' },
+                rated: { en: 'phone: 15W AFC', ar: 'الهاتف: 15W AFC' },
+                measured: { en: '~3.5 charges', ar: 'نحو 3.5 شحنة' },
+                note: { en: 'Egypt\'s biggest mid-range addressable base for A1260', ar: 'أكبر قاعدة متوسطة مصرية يخاطبها A1260' },
+            },
+            {
+                param: { en: 'Samsung M31 (6000mAh) — est.', ar: 'Samsung M31 (6000mAh) — تقديري' },
+                rated: { en: 'phone: 15W AFC', ar: 'الهاتف: 15W AFC' },
+                measured: { en: '~2.3 charges', ar: 'نحو 2.3 شحنة' },
+                note: { en: 'Road-trip "monster battery" kept full 12h+ on Port 1', ar: 'هاتف "بطارية وحش" للسفر يُبقى ممتلئًا 12س+ على المنفذ 1' },
+            },
+            {
+                param: { en: 'Samsung S24/A54/A55 — est. (FALLBACK)', ar: 'Samsung S24/A54/A55 — تقديري (سقوط)' },
+                rated: { en: 'phone: 25W PPS Super Fast', ar: 'الهاتف: 25W PPS Super Fast' },
+                measured: { en: '~3 charges at standard 5V speed', ar: 'نحو 3 شحنات بسرعة 5V عادية' },
+                note: { en: 'No PPS on A1260 — Super Fast badge does not appear', ar: 'لا PPS على A1260 — شارة Super Fast لا تظهر' },
+            },
+            {
+                param: { en: 'iPhone 15 (12.99Wh) — est. from 61.4Wh', ar: 'iPhone 15 (12.99Wh) — تقديري من 61.4Wh' },
+                measured: { en: '~4.3 charges at 5V (no PD)', ar: 'نحو 4.3 شحنة عند 5V (بلا PD)' },
+                note: { en: '61.4 ÷ (12.99 × 1.10) — count yes, speed no', ar: '61.4 ÷ (12.99 × 1.10) — العدد نعم، السرعة لا' },
+            },
+            {
+                param: { en: 'iPad 10th gen (28.6Wh) — est.', ar: 'iPad الجيل العاشر (28.6Wh) — تقديري' },
+                measured: { en: '~1.9 top-ups', ar: 'نحو 1.9 تعبئة' },
+                note: { en: 'Big draw — ~half the pack per full iPad charge', ar: 'استهلاك كبير — نحو نصف الباور بانك لتعبئة iPad كاملة' },
+            },
+            {
+                param: { en: 'vs A1263 usable Wh (CairoVolt)', ar: 'مقابل Wh A1263 القابلة للاستخدام (CairoVolt)' },
+                measured: { en: '61.4Wh vs A1263 31.2Wh (~2.0×)', ar: '61.4Wh مقابل A1263 31.2Wh (~2.0×)' },
+                note: { en: 'A1263 is RECALLED — A1260 is NOT; do not treat as safety twins', ar: 'A1263 **مُستدعى** — A1260 **ليس**؛ لا تعاملهما كتوءمي سلامة' },
+            },
+            {
+                param: { en: 'vs A110E usable Wh (CairoVolt)', ar: 'مقابل Wh A110E القابلة للاستخدام (CairoVolt)' },
+                measured: { en: '61.4Wh vs A110E 62.0Wh (~tied)', ar: '61.4Wh مقابل A110E 62.0Wh (~تعادل)' },
+                note: { en: 'Similar energy; A110E adds USB-C 22.5W + built-in cable', ar: 'طاقة متقاربة؛ A110E يضيف USB-C 22.5 واط + كابل مدمج' },
+            },
+            {
+                param: { en: 'vs A1290 usable Wh (CairoVolt)', ar: 'مقابل Wh A1290 القابلة للاستخدام (CairoVolt)' },
+                measured: { en: '61.4Wh vs A1290 80.9Wh', ar: '61.4Wh مقابل A1290 80.9Wh' },
+                note: { en: 'A1290 adds 60W USB-C laptop path (58.6W Air) — different job', ar: 'A1290 يضيف مسار لابتوب USB-C 60 واط (58.6 واط Air) — وظيفة مختلفة' },
+            },
+            {
+                param: { en: 'Micro-USB input — 18W QC recharge', ar: 'دخل Micro-USB — إعادة شحن QC 18 واط' },
+                rated: { en: 'Anker: ~5 h', ar: 'انكر: ~5 س' },
+                measured: { en: '~5h 08m', ar: 'نحو 5 س 08 د' },
+                note: { en: 'Requires QC wall brick — Micro-USB ceiling, no USB-C in', ar: 'يتطلب طوبة QC — سقف Micro-USB، بلا USB-C دخل' },
+            },
+            {
+                param: { en: 'Micro-USB input — 5V/2A recharge', ar: 'دخل Micro-USB — إعادة شحن 5V/2A' },
+                measured: { en: '~10h 35m', ar: 'نحو 10 س 35 د' },
+                note: { en: 'Roughly 2× QC time — cannot refill empty pack in a 2h blackout', ar: 'نحو ضعف زمن QC — لا يعبّئ فارغًا خلال انقطاع ساعتين' },
+            },
+            {
+                param: { en: 'Weight', ar: 'الوزن' },
+                rated: '369g',
+                measured: '372g',
+                note: { en: '~2× A1263 182g pocket pack — bag, not jeans', ar: 'نحو ضعف A1263 182 ج جيبي — شنطة لا بنطلون' },
+            },
+            {
+                param: { en: 'Dimensions', ar: 'الأبعاد' },
+                rated: '170×62×22mm',
+                measured: '170.4×62.3×22.1mm',
+                note: { en: 'Mitutoyo 3-point', ar: 'قدمة Mitutoyo من 3 نقاط' },
+            },
+            {
+                param: { en: 'Airline Wh rating', ar: 'تصنيف Wh للطيران' },
+                rated: '72Wh',
+                measured: {
+                    en: '72Wh label class — below 100Wh; Emirates/Flydubai carry-only (no in-flight use since 1 Oct 2025)',
+                    ar: 'فئة ملصق 72Wh — تحت 100Wh؛ الإمارات/فلاي دبي حمل فقط (بلا استخدام أثناء الرحلة منذ 1 أكتوبر 2025)',
+                },
+            },
+            {
+                param: { en: 'Recall status (verified 2026-07-24)', ar: 'حالة الاستدعاء (متحققة 2026-07-24)' },
+                measured: { en: 'NOT recalled', ar: 'غير مُستدعى' },
+                note: {
+                    en: 'A1260 outside A1257/A1263/A1647/A1652/A1681/A1689 — unlike recalled sibling-era A1263 10K',
+                    ar: 'A1260 خارج A1257/A1263/A1647/A1652/A1681/A1689 — بخلاف A1263 10K المُستدعى من نفس الحقبة',
+                },
+            },
         ],
         verdict: {
             en: 'A1260 delivered 61.4Wh usable (85.3% of 72Wh). Port 1 is real 17.1W QC for Egypt\'s older Samsung base; Port 2 is plain 11.6W and dual-load kills QC. No USB-C/PPS. NOT recalled (unlike A1263). Tied with A110E on Wh; loses to A1290 on laptop energy.',
             ar: 'قدّم A1260 61.4Wh قابلة للاستخدام (85.3% من 72Wh). المنفذ 1 هو QC حقيقي 17.1 واط لقاعدة سامسونج المصرية الأقدم؛ المنفذ 2 عادي 11.6 واط والحمل المزدوج يقتل QC. بلا USB-C/PPS. **غير** مُستدعى (بخلاف A1263). يتعادل مع A110E في الـWh؛ ويخسر أمام A1290 في طاقة اللابتوب.',
         },
         pros: [
-            { en: '61.4Wh measured at 85.3% — physics-consistent with 72Wh nominal; headline reconciles across Port-1 / Port-2 / dual paths', ar: '61.4Wh مقاسة بكفاءة 85.3% — متسقة فيزيائيًا مع 72Wh الاسمي؛ الرقم الأساسي يتوافق عبر مسارات المنفذ 1 / 2 / المزدوج' },
-            { en: 'Port 1 real 15–18W QC 9V — perfect match for Egypt-common S9/S10, Note 9/10 base, A50/A51, M31 Adaptive Fast Charging phones', ar: 'المنفذ 1 QC 9V حقيقي 15–18 واط — تطابق مثالي لهواتف Adaptive Fast Charging الشائعة في مصر: S9/S10، Note 9/10 base، A50/A51، M31' },
-            { en: 'Micro-USB QC input recharges in ~5h 08m — roughly half the ~10h 35m plain 5V/2A overnight trap', ar: 'دخل Micro-USB QC يعيد الشحن في نحو 5 س 08 د — نحو نصف فخ 5V/2A الليلي (~10 س 35 د)' },
-            { en: '✅ NOT recalled — anker.com/product-recalls + cpsc.gov 2026-07-24; outside A1257/A1263/A1647/A1652/A1681/A1689 (unlike A1263 PowerCore 10000)', ar: '✅ لا استدعاء — anker.com/product-recalls + cpsc.gov في 2026-07-24؛ خارج A1257/A1263/A1647/A1652/A1681/A1689 (بخلاف A1263 PowerCore 10000)' },
-            { en: '72Wh airline cabin-OK on EgyptAir / Nile Air / Air Cairo / Emirates / Flydubai / Turkish / Qatar / Saudia — carry-on only', ar: '72Wh مسموح مقصورة على مصر للطيران / النيل / إير كايرو / الإمارات / فلاي دبي / التركية / القطرية / السعودية — مقصورة فقط' },
-            { en: '~2× A1263 usable energy (61.4 vs 31.2Wh) for multi-person Sahel / photographer days without jumping to a 26K laptop brick', ar: 'نحو ضعف طاقة A1263 القابلة للاستخدام (61.4 مقابل 31.2Wh) لأيام ساحل/تصوير متعددة الأشخاص دون القفز لحزمة لابتوب 26K' },
+            {
+                en: '61.4Wh measured at 85.3% — physics-consistent with 72Wh nominal; headline reconciles across Port-1 / Port-2 / dual paths',
+                ar: '61.4Wh مقاسة بكفاءة 85.3% — متسقة فيزيائيًا مع 72Wh الاسمي؛ الرقم الأساسي يتوافق عبر مسارات المنفذ 1 / 2 / المزدوج',
+            },
+            {
+                en: 'Port 1 real 15–18W QC 9V — perfect match for Egypt-common S9/S10, Note 9/10 base, A50/A51, M31 Adaptive Fast Charging phones',
+                ar: 'المنفذ 1 QC 9V حقيقي 15–18 واط — تطابق مثالي لهواتف Adaptive Fast Charging الشائعة في مصر: S9/S10، Note 9/10 base، A50/A51، M31',
+            },
+            {
+                en: 'Micro-USB QC input recharges in ~5h 08m — roughly half the ~10h 35m plain 5V/2A overnight trap',
+                ar: 'دخل Micro-USB QC يعيد الشحن في نحو 5 س 08 د — نحو نصف فخ 5V/2A الليلي (~10 س 35 د)',
+            },
+            {
+                en: '✅ NOT recalled — anker.com/product-recalls + cpsc.gov 2026-07-24; outside A1257/A1263/A1647/A1652/A1681/A1689 (unlike A1263 PowerCore 10000)',
+                ar: '✅ لا استدعاء — anker.com/product-recalls + cpsc.gov في 2026-07-24؛ خارج A1257/A1263/A1647/A1652/A1681/A1689 (بخلاف A1263 PowerCore 10000)',
+            },
+            {
+                en: '72Wh airline cabin-OK on EgyptAir / Nile Air / Air Cairo / Emirates / Flydubai / Turkish / Qatar / Saudia — carry-on only',
+                ar: '72Wh مسموح مقصورة على مصر للطيران / النيل / إير كايرو / الإمارات / فلاي دبي / التركية / القطرية / السعودية — مقصورة فقط',
+            },
+            {
+                en: '~2× A1263 usable energy (61.4 vs 31.2Wh) for multi-person Sahel / photographer days without jumping to a 26K laptop brick',
+                ar: 'نحو ضعف طاقة A1263 القابلة للاستخدام (61.4 مقابل 31.2Wh) لأيام ساحل/تصوير متعددة الأشخاص دون القفز لحزمة لابتوب 26K',
+            },
         ],
         limits: [
-            { en: 'Asymmetric ports: ONLY Port 1 fast-charges. Port 2 is plain 5V/2.4A (11.6W measured). PCWorld same-phone proof — label the ports in your bag', ar: 'منافذ غير متماثلة: فقط المنفذ 1 يشحن سريعًا. اسم المنفذ 2 5V/2.4A عادي (11.6 واط مقاسة). إثبات PCWorld على نفس الهاتف — سمِّ المنافذ في شنطتك' },
-            { en: 'Dual-load caveat: charging two phones collapses Port 1 to 5V — QC/AFC is LOST. Fast-charge one alone, or accept slow for both', ar: 'تحذير الحمل المزدوج: شحن هاتفين يُسقط المنفذ 1 إلى 5V — يضيع QC/AFC. اشحن واحدًا بسرعة، أو اقبل البطء للاثنين' },
-            { en: 'No PPS / no USB-C anywhere — modern Samsung Super Fast and all PD iPhones/iPads/MacBooks charge at plain 5V or not at all. Prefer A110E / A1290 / A1336 for post-2020 devices', ar: 'بلا PPS / بلا USB-C في أي مكان — Samsung Super Fast الحديثة وكل iPhone/iPad/MacBook بـ PD تشحن عند 5V عادي أو لا تشحن. فضّل A110E / A1290 / A1336 لأجهزة ما بعد 2020' },
-            { en: 'Micro-USB input ceiling: ~10h 35m on 5V/2A; cannot refill from empty in a 2h load-shedding window; cannot recharge from a USB-C laptop brick', ar: 'سقف دخل Micro-USB: نحو 10 س 35 د على 5V/2A؛ لا يعبّئ من فارغ خلال انقطاع ساعتين؛ لا يُشحن من طوبة لابتوب USB-C' },
-            { en: 'Cannot power Egyptian home Wi-Fi routers (WE/Vodafone/Etisalat/Orange 12V barrel) — USB-A phone rails ≠ router UPS', ar: 'لا يشغّل راوترات الواي فاي المنزلية المصرية (برميل 12V لـ WE/Vodafone/Etisalat/Orange) — سكك USB-A للهواتف ≠ UPS راوتر' },
-            { en: '372g — ~2× A1263 pocket weight; bag pocket only', ar: '372 ج — نحو ضعف وزن جيب A1263؛ جيب شنطة فقط' },
-            { en: 'Emirates/Flydubai ban in-flight USE of any power bank since 1 Oct 2025 — cabin carry OK under 100Wh, no charging onboard those carriers', ar: 'الإمارات/فلاي دبي تحظران **استخدام** أي باور بانك أثناء الرحلة منذ 1 أكتوبر 2025 — حمل مقصورة تحت 100Wh مسموح، بلا شحن على متن تلك الشركات' },
-            { en: 'Single unit tested (CV-PB-A1260-001) — production batches may vary', ar: 'وحدة واحدة مُختبرة (CV-PB-A1260-001) — قد تختلف دفعات الإنتاج' },
+            {
+                en: 'Asymmetric ports: ONLY Port 1 fast-charges. Port 2 is plain 5V/2.4A (11.6W measured). PCWorld same-phone proof — label the ports in your bag',
+                ar: 'منافذ غير متماثلة: فقط المنفذ 1 يشحن سريعًا. اسم المنفذ 2 5V/2.4A عادي (11.6 واط مقاسة). إثبات PCWorld على نفس الهاتف — سمِّ المنافذ في شنطتك',
+            },
+            {
+                en: 'Dual-load caveat: charging two phones collapses Port 1 to 5V — QC/AFC is LOST. Fast-charge one alone, or accept slow for both',
+                ar: 'تحذير الحمل المزدوج: شحن هاتفين يُسقط المنفذ 1 إلى 5V — يضيع QC/AFC. اشحن واحدًا بسرعة، أو اقبل البطء للاثنين',
+            },
+            {
+                en: 'No PPS / no USB-C anywhere — modern Samsung Super Fast and all PD iPhones/iPads/MacBooks charge at plain 5V or not at all. Prefer A110E / A1290 / A1336 for post-2020 devices',
+                ar: 'بلا PPS / بلا USB-C في أي مكان — Samsung Super Fast الحديثة وكل iPhone/iPad/MacBook بـ PD تشحن عند 5V عادي أو لا تشحن. فضّل A110E / A1290 / A1336 لأجهزة ما بعد 2020',
+            },
+            {
+                en: 'Micro-USB input ceiling: ~10h 35m on 5V/2A; cannot refill from empty in a 2h load-shedding window; cannot recharge from a USB-C laptop brick',
+                ar: 'سقف دخل Micro-USB: نحو 10 س 35 د على 5V/2A؛ لا يعبّئ من فارغ خلال انقطاع ساعتين؛ لا يُشحن من طوبة لابتوب USB-C',
+            },
+            {
+                en: 'Cannot power Egyptian home Wi-Fi routers (WE/Vodafone/Etisalat/Orange 12V barrel) — USB-A phone rails ≠ router UPS',
+                ar: 'لا يشغّل راوترات الواي فاي المنزلية المصرية (برميل 12V لـ WE/Vodafone/Etisalat/Orange) — سكك USB-A للهواتف ≠ UPS راوتر',
+            },
+            {
+                en: '372g — ~2× A1263 pocket weight; bag pocket only',
+                ar: '372 ج — نحو ضعف وزن جيب A1263؛ جيب شنطة فقط',
+            },
+            {
+                en: 'Emirates/Flydubai ban in-flight USE of any power bank since 1 Oct 2025 — cabin carry OK under 100Wh, no charging onboard those carriers',
+                ar: 'الإمارات/فلاي دبي تحظران **استخدام** أي باور بانك أثناء الرحلة منذ 1 أكتوبر 2025 — حمل مقصورة تحت 100Wh مسموح، بلا شحن على متن تلك الشركات',
+            },
+            {
+                en: 'Single unit tested (CV-PB-A1260-001) — production batches may vary',
+                ar: 'وحدة واحدة مُختبرة (CV-PB-A1260-001) — قد تختلف دفعات الإنتاج',
+            },
         ],
     },
 };
