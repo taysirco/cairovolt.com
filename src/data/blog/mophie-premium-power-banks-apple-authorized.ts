@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const mophie_premium_power_banks_apple_authorized: BlogArticle = {
     slug: 'mophie-premium-power-banks-apple-authorized',
     category: 'buying-guide',
-    publishDate: '2026-08-11',
-    modifiedDate: '2026-08-11',
+    publishDate: '2026-08-15T20:24:00+03:00',
+    modifiedDate: '2026-08-15T20:24:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'joyroom-magnetic-power-bank-10000',

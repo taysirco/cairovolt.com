@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const buy_original_accessories_amazon_jumia_egypt_tips: BlogArticle = {
     slug: 'buy-original-accessories-amazon-jumia-egypt-tips',
     category: 'buying-guide',
-    publishDate: '2026-10-08T14:59:00+02:00',
-    modifiedDate: '2026-10-08T14:59:00+02:00',
+    publishDate: '2026-10-11T16:14:00+03:00',
+    modifiedDate: '2026-10-11T16:14:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',

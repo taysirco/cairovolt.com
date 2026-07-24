@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const clean_lightning_usb_c_port_safe_tools_mistakes: BlogArticle = {
     slug: 'clean-lightning-usb-c-port-safe-tools-mistakes',
     category: 'tips',
-    publishDate: '2026-10-26T19:41:00+02:00',
-    modifiedDate: '2026-10-26T19:41:00+02:00',
+    publishDate: '2026-10-29T14:01:00+03:00',
+    modifiedDate: '2026-10-29T14:01:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-type-c-to-type-c-cable',

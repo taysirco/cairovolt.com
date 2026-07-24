@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const phone_not_charging_fixes_cable_charger: BlogArticle = {
     slug: 'phone-not-charging-fixes-cable-charger',
     category: 'buying-guide',
-    publishDate: '2026-11-15T19:00:00+02:00',
-    modifiedDate: '2026-11-15T19:00:00+02:00',
+    publishDate: '2026-11-18T12:17:00+02:00',
+    modifiedDate: '2026-11-18T12:17:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

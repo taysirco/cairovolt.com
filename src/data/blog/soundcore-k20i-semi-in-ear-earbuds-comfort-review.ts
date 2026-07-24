@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
     slug: 'soundcore-k20i-semi-in-ear-earbuds-comfort-review',
     category: 'review',
-    publishDate: '2026-07-26',
-    modifiedDate: '2026-07-26',
+    publishDate: '2026-07-26T14:36:00+03:00',
+    modifiedDate: '2026-07-26T14:36:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-soundcore-k20i',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const usb_c_charger_cable_speeds_charging_time_impact: BlogArticle = {
     slug: 'usb-c-charger-cable-speeds-charging-time-impact',
     category: 'how-to',
-    publishDate: '2026-08-08',
-    modifiedDate: '2026-08-08',
+    publishDate: '2026-08-09T21:27:00+03:00',
+    modifiedDate: '2026-08-09T21:27:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-a8050-usb-c-cable',

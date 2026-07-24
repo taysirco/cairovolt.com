@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const power_bank_cgm_diabetes_continuous_glucose_monitor: BlogArticle = {
     slug: 'power-bank-cgm-diabetes-continuous-glucose-monitor',
     category: 'buying-guide',
-    publishDate: '2026-09-27T11:34:00+02:00',
-    modifiedDate: '2026-09-27T11:34:00+02:00',
+    publishDate: '2026-10-01T09:49:00+03:00',
+    modifiedDate: '2026-10-01T09:49:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-powercore-10000',

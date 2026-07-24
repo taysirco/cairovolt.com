@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const smartwatch_magnetic_chargers_original_vs_clones: BlogArticle = {
     slug: 'smartwatch-magnetic-chargers-original-vs-clones',
     category: 'tips',
-    publishDate: '2026-08-18T19:14:00+02:00',
-    modifiedDate: '2026-08-18T19:14:00+02:00',
+    publishDate: '2026-08-24T11:19:00+03:00',
+    modifiedDate: '2026-08-24T11:19:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'joyroom-3-in-1-wireless-charging-station',

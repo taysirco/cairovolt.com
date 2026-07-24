@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const phone_case_affect_wireless_charging_test_types: BlogArticle = {
     slug: 'phone-case-affect-wireless-charging-test-types',
     category: 'tips',
-    publishDate: '2026-10-22T21:07:00+02:00',
-    modifiedDate: '2026-10-22T21:07:00+02:00',
+    publishDate: '2026-10-25T16:22:00+03:00',
+    modifiedDate: '2026-10-25T16:22:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-car-mount-zs290',

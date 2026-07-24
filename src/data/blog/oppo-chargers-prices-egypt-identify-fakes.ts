@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const oppo_chargers_prices_egypt_identify_fakes: BlogArticle = {
     slug: 'oppo-chargers-prices-egypt-identify-fakes',
     category: 'buying-guide',
-    publishDate: '2026-08-26T15:29:00+02:00',
-    modifiedDate: '2026-08-26T15:29:00+02:00',
+    publishDate: '2026-09-01T15:33:00+03:00',
+    modifiedDate: '2026-09-01T15:33:00+03:00',
     readingTime: 11,
     relatedProducts: [
         'joyroom-usb-c-cable-60w',

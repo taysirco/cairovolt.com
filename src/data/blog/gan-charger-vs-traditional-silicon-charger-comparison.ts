@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const gan_charger_vs_traditional_silicon_charger_comparison: BlogArticle = {
     slug: 'gan-charger-vs-traditional-silicon-charger-comparison',
     category: 'comparison',
-    publishDate: '2026-09-13T11:07:00+02:00',
-    modifiedDate: '2026-09-13T11:07:00+02:00',
+    publishDate: '2026-09-19T10:32:00+03:00',
+    modifiedDate: '2026-09-19T10:32:00+03:00',
     readingTime: 14,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',

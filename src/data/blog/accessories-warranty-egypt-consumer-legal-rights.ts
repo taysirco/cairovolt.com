@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
     slug: 'accessories-warranty-egypt-consumer-legal-rights',
     category: 'buying-guide',
-    publishDate: '2026-10-07T13:48:00+02:00',
-    modifiedDate: '2026-10-07T13:48:00+02:00',
+    publishDate: '2026-10-10T15:01:00+03:00',
+    modifiedDate: '2026-10-10T15:01:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',

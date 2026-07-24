@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const samsung_galaxy_s24_fe_accessories_charger_cable: BlogArticle = {
     slug: 'samsung-galaxy-s24-fe-accessories-charger-cable',
     category: 'buying-guide',
-    publishDate: '2026-09-14T14:55:00+02:00',
-    modifiedDate: '2026-09-14T14:55:00+02:00',
+    publishDate: '2026-09-20T19:57:00+03:00',
+    modifiedDate: '2026-09-20T19:57:00+03:00',
     readingTime: 14,
     relatedProducts: [
         'anker-powerport-25w',

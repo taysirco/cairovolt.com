@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const charger_45w_anker_nano_vs_samsung_original: BlogArticle = {
     slug: '45w-charger-anker-nano-vs-samsung-original',
     category: 'comparison',
-    publishDate: '2026-08-24T16:51:00+02:00',
-    modifiedDate: '2026-08-24T16:51:00+02:00',
+    publishDate: '2026-08-30T21:45:00+03:00',
+    modifiedDate: '2026-08-30T21:45:00+03:00',
     readingTime: 11,
     relatedProducts: [
         'anker-nano-45w',

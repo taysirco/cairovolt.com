@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const wireless_car_charger_worth_investment_vs_cable: BlogArticle = {
     slug: 'wireless-car-charger-worth-investment-vs-cable',
     category: 'tips',
-    publishDate: '2026-10-23T17:29:00+02:00',
-    modifiedDate: '2026-10-23T17:29:00+02:00',
+    publishDate: '2026-10-26T11:26:00+03:00',
+    modifiedDate: '2026-10-26T11:26:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-car-mount-zs290',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const reverse_wireless_charging_useful_vs_waste: BlogArticle = {
     slug: 'reverse-wireless-charging-useful-vs-waste',
     category: 'tips',
-    publishDate: '2026-10-24T16:05:00+02:00',
-    modifiedDate: '2026-10-24T16:05:00+02:00',
+    publishDate: '2026-10-27T21:22:00+03:00',
+    modifiedDate: '2026-10-27T21:22:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-jr-t03-wireless-earbuds',

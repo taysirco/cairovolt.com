@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
     slug: 'soundcore-motion-plus-30w-hi-res-speaker-review',
     category: 'review',
-    publishDate: '2026-08-01',
-    modifiedDate: '2026-08-01',
+    publishDate: '2026-08-01T21:31:00+03:00',
+    modifiedDate: '2026-08-01T21:31:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-soundcore-motion-plus',

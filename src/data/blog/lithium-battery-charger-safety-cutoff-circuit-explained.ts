@@ -4,8 +4,8 @@ import type { BlogArticle } from './_types';
 export const lithium_battery_charger_safety_cutoff_circuit_explained: BlogArticle = {
     slug: 'lithium-battery-charger-safety-cutoff-circuit-explained',
     category: 'how-to',
-    publishDate: '2026-08-14',
-    modifiedDate: '2026-08-14',
+    publishDate: '2026-08-20T18:53:00+03:00',
+    modifiedDate: '2026-08-20T18:53:00+03:00',
     readingTime: 8,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',

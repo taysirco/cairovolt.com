@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const running_laptop_on_power_bank_capacity_requirements: BlogArticle = {
     slug: 'running-laptop-on-power-bank-capacity-requirements',
     category: 'tips',
-    publishDate: '2026-10-19T20:48:00+02:00',
-    modifiedDate: '2026-10-19T20:48:00+02:00',
+    publishDate: '2026-10-22T15:05:00+03:00',
+    modifiedDate: '2026-10-22T15:05:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'anker-737-powerbank',

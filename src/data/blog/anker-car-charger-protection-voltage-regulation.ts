@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
     slug: 'anker-car-charger-protection-voltage-regulation',
     category: 'how-to',
-    publishDate: '2026-08-12',
-    modifiedDate: '2026-08-12',
+    publishDate: '2026-08-16T14:23:00+03:00',
+    modifiedDate: '2026-08-16T14:23:00+03:00',
     readingTime: 8,
     relatedProducts: [
         'anker-car-charger-dual-usb',

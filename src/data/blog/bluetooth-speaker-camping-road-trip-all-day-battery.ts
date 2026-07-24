@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const bluetooth_speaker_camping_road_trip_all_day_battery: BlogArticle = {
     slug: 'bluetooth-speaker-camping-road-trip-all-day-battery',
     category: 'buying-guide',
-    publishDate: '2026-10-11T15:08:00+02:00',
-    modifiedDate: '2026-10-11T15:08:00+02:00',
+    publishDate: '2026-10-14T19:47:00+03:00',
+    modifiedDate: '2026-10-14T19:47:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'anker-soundcore-flare-2',

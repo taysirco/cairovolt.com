@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const charging_phone_from_laptop_usb_damage_myth: BlogArticle = {
     slug: 'charging-phone-from-laptop-usb-damage-myth',
     category: 'buying-guide',
-    publishDate: '2026-09-06T16:35:00+02:00',
-    modifiedDate: '2026-09-06T16:35:00+02:00',
+    publishDate: '2026-09-12T15:51:00+03:00',
+    modifiedDate: '2026-09-12T15:51:00+03:00',
     readingTime: 14,
     relatedProducts: [
         'joyroom-25w-fast-charger',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
     slug: 'joyroom-10000mah-power-bank-real-capacity-test',
     category: 'review',
-    publishDate: '2026-08-21T13:58:00+02:00',
-    modifiedDate: '2026-08-21T13:58:00+02:00',
+    publishDate: '2026-08-27T16:34:00+03:00',
+    modifiedDate: '2026-08-27T16:34:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'joyroom-power-bank-10000',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const power_bank_router_ups_alternative_8_hours: BlogArticle = {
     slug: 'power-bank-router-ups-alternative-8-hours',
     category: 'tips',
-    publishDate: '2026-10-17T16:57:00+02:00',
-    modifiedDate: '2026-10-17T16:57:00+02:00',
+    publishDate: '2026-10-20T10:30:00+03:00',
+    modifiedDate: '2026-10-20T10:30:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'anker-737-powerbank',

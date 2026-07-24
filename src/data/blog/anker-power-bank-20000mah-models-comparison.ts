@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const anker_power_bank_20000mah_models_comparison: BlogArticle = {
     slug: 'anker-power-bank-20000mah-models-comparison',
     category: 'comparison',
-    publishDate: '2026-08-05',
-    modifiedDate: '2026-08-05',
+    publishDate: '2026-08-05T13:56:00+03:00',
+    modifiedDate: '2026-08-05T13:56:00+03:00',
     readingTime: 8,
     relatedProducts: [
         'anker-zolo-a1681-20000',

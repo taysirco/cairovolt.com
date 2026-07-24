@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const iphone_11_accessories_still_worth_it: BlogArticle = {
     slug: 'iphone-11-accessories-still-worth-it',
     category: 'buying-guide',
-    publishDate: '2026-11-05T18:33:00+02:00',
-    modifiedDate: '2026-11-05T18:33:00+02:00',
+    publishDate: '2026-11-08T13:37:00+02:00',
+    modifiedDate: '2026-11-08T13:37:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

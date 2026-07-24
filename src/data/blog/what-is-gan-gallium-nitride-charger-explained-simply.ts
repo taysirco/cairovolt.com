@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const what_is_gan_gallium_nitride_charger_explained_simply: BlogArticle = {
     slug: 'what-is-gan-gallium-nitride-charger-explained-simply',
     category: 'tips',
-    publishDate: '2026-09-23T11:38:00+02:00',
-    modifiedDate: '2026-09-23T11:38:00+02:00',
+    publishDate: '2026-09-28T18:13:00+03:00',
+    modifiedDate: '2026-09-28T18:13:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-737-powerbank',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const anker_powercore_10000mah_compact_power_bank_review: BlogArticle = {
     slug: 'anker-powercore-10000mah-compact-power-bank-review',
     category: 'review',
-    publishDate: '2026-08-06',
-    modifiedDate: '2026-08-06',
+    publishDate: '2026-08-06T17:21:00+03:00',
+    modifiedDate: '2026-08-06T17:21:00+03:00',
     readingTime: 7,
     relatedProducts: [
         'anker-powercore-10000',

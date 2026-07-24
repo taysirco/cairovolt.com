@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const charging_two_phones_one_charger_speed_impact: BlogArticle = {
     slug: 'charging-two-phones-one-charger-speed-impact',
     category: 'buying-guide',
-    publishDate: '2026-09-08T09:19:00+02:00',
-    modifiedDate: '2026-09-08T09:19:00+02:00',
+    publishDate: '2026-09-14T16:32:00+03:00',
+    modifiedDate: '2026-09-14T16:32:00+03:00',
     readingTime: 14,
     relatedProducts: [
         'joyroom-25w-fast-charger',

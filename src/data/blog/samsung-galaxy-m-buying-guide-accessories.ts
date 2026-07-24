@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const samsung_galaxy_m_buying_guide_accessories: BlogArticle = {
     slug: 'samsung-galaxy-m-buying-guide-accessories',
     category: 'buying-guide',
-    publishDate: '2026-11-11T21:40:00+02:00',
-    modifiedDate: '2026-11-11T21:40:00+02:00',
+    publishDate: '2026-11-14T21:21:00+02:00',
+    modifiedDate: '2026-11-14T21:21:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

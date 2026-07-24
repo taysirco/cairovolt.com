@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
     slug: 'anker-wireless-magnetic-power-bank-compatibility',
     category: 'buying-guide',
-    publishDate: '2026-08-07',
-    modifiedDate: '2026-08-07',
+    publishDate: '2026-08-07T16:56:00+03:00',
+    modifiedDate: '2026-08-07T16:56:00+03:00',
     readingTime: 8,
     relatedProducts: [
         'joyroom-magnetic-power-bank-10000',

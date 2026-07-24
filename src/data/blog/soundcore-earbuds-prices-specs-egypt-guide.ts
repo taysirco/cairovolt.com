@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
     slug: 'soundcore-earbuds-prices-specs-egypt-guide',
     category: 'buying-guide',
-    publishDate: '2026-08-15',
-    modifiedDate: '2026-08-15',
+    publishDate: '2026-08-21T14:01:00+03:00',
+    modifiedDate: '2026-08-21T14:01:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'soundcore-p20i-earbuds',

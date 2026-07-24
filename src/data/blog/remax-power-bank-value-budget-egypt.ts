@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const remax_power_bank_value_budget_egypt: BlogArticle = {
     slug: 'remax-power-bank-value-budget-egypt',
     category: 'buying-guide',
-    publishDate: '2026-08-10',
-    modifiedDate: '2026-08-10',
+    publishDate: '2026-08-13T14:25:00+03:00',
+    modifiedDate: '2026-08-13T14:25:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'joyroom-magnetic-power-bank-10000',

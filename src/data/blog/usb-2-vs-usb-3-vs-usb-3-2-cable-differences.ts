@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const usb_2_vs_usb_3_vs_usb_3_2_cable_differences: BlogArticle = {
     slug: 'usb-2-vs-usb-3-vs-usb-3-2-cable-differences',
     category: 'comparison',
-    publishDate: '2026-09-24T21:18:00+02:00',
-    modifiedDate: '2026-09-24T21:18:00+02:00',
+    publishDate: '2026-09-29T21:13:00+03:00',
+    modifiedDate: '2026-09-29T21:13:00+03:00',
     readingTime: 8,
     relatedProducts: [
         'joyroom-usb-c-cable-60w',

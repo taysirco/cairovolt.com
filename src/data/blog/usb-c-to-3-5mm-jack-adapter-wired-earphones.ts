@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const usb_c_to_3_5mm_jack_adapter_wired_earphones: BlogArticle = {
     slug: 'usb-c-to-3-5mm-jack-adapter-wired-earphones',
     category: 'tips',
-    publishDate: '2026-10-14T18:38:00+02:00',
-    modifiedDate: '2026-10-14T18:38:00+02:00',
+    publishDate: '2026-10-17T16:45:00+03:00',
+    modifiedDate: '2026-10-17T16:45:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'soundcore-life-q20-headphones',

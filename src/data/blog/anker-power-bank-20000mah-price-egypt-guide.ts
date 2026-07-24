@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const anker_power_bank_20000mah_price_egypt_guide: BlogArticle = {
     slug: 'anker-power-bank-20000mah-price-egypt-guide',
     category: 'buying-guide',
-    publishDate: '2026-08-28T20:46:00+02:00',
-    modifiedDate: '2026-08-28T20:46:00+02:00',
+    publishDate: '2026-09-03T15:14:00+03:00',
+    modifiedDate: '2026-09-03T15:14:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-power-bank-20000',

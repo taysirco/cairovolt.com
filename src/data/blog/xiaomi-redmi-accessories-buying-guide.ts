@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const xiaomi_redmi_accessories_buying_guide: BlogArticle = {
     slug: 'xiaomi-redmi-accessories-buying-guide',
     category: 'buying-guide',
-    publishDate: '2026-11-08T15:43:00+02:00',
-    modifiedDate: '2026-11-08T15:43:00+02:00',
+    publishDate: '2026-11-11T12:49:00+02:00',
+    modifiedDate: '2026-11-11T12:49:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

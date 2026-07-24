@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const buy_samsung_phone_egypt_guide_accessories: BlogArticle = {
     slug: 'buy-samsung-phone-egypt-guide-accessories',
     category: 'buying-guide',
-    publishDate: '2026-10-31T14:48:00+02:00',
-    modifiedDate: '2026-10-31T14:48:00+02:00',
+    publishDate: '2026-11-03T12:29:00+02:00',
+    modifiedDate: '2026-11-03T12:29:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

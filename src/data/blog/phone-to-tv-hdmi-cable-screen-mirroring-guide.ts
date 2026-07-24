@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const phone_to_tv_hdmi_cable_screen_mirroring_guide: BlogArticle = {
     slug: 'phone-to-tv-hdmi-cable-screen-mirroring-guide',
     category: 'buying-guide',
-    publishDate: '2026-10-13T12:08:00+02:00',
-    modifiedDate: '2026-10-13T12:08:00+02:00',
+    publishDate: '2026-10-16T18:54:00+03:00',
+    modifiedDate: '2026-10-16T18:54:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'joyroom-3-in-1-data-cable',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const samsung_authentic_charger_prices_market_update_egypt: BlogArticle = {
     slug: 'samsung-authentic-charger-prices-market-update-egypt',
     category: 'buying-guide',
-    publishDate: '2026-09-01T15:59:00+02:00',
-    modifiedDate: '2026-09-01T15:59:00+02:00',
+    publishDate: '2026-09-07T19:54:00+03:00',
+    modifiedDate: '2026-09-07T19:54:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-25w-fast-charger',

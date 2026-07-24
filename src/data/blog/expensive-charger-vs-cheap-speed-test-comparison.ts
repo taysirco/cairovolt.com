@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const expensive_charger_vs_cheap_speed_test_comparison: BlogArticle = {
     slug: 'expensive-charger-vs-cheap-speed-test-comparison',
     category: 'comparison',
-    publishDate: '2026-09-11T15:33:00+02:00',
-    modifiedDate: '2026-09-11T15:33:00+02:00',
+    publishDate: '2026-09-17T11:48:00+03:00',
+    modifiedDate: '2026-09-17T11:48:00+03:00',
     readingTime: 14,
     relatedProducts: [
         'anker-powerport-25w',

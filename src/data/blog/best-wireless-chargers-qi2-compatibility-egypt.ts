@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
     slug: 'best-wireless-chargers-qi2-compatibility-egypt',
     category: 'buying-guide',
-    publishDate: '2026-08-16',
-    modifiedDate: '2026-08-16',
+    publishDate: '2026-08-22T21:48:00+03:00',
+    modifiedDate: '2026-08-22T21:48:00+03:00',
     readingTime: 8,
     relatedProducts: [
         'anker-a2741-charger-30w',

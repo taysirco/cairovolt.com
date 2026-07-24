@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
     slug: 'soundcore-flare-2-partycast-led-speaker-review',
     category: 'review',
-    publishDate: '2026-07-31',
-    modifiedDate: '2026-07-31',
+    publishDate: '2026-07-31T11:43:00+03:00',
+    modifiedDate: '2026-07-31T11:43:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-soundcore-flare-2',

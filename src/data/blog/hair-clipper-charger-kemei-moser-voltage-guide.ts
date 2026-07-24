@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const hair_clipper_charger_kemei_moser_voltage_guide: BlogArticle = {
     slug: 'hair-clipper-charger-kemei-moser-voltage-guide',
     category: 'how-to',
-    publishDate: '2026-08-17T10:48:00+02:00',
-    modifiedDate: '2026-08-17T10:48:00+02:00',
+    publishDate: '2026-08-23T17:56:00+03:00',
+    modifiedDate: '2026-08-23T17:56:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'joyroom-usb-a-micro-cable',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const wireless_charging_slower_than_wired_qi2_solution: BlogArticle = {
     slug: 'wireless-charging-slower-than-wired-qi2-solution',
     category: 'tips',
-    publishDate: '2026-10-21T20:33:00+02:00',
-    modifiedDate: '2026-10-21T20:33:00+02:00',
+    publishDate: '2026-10-24T12:10:00+03:00',
+    modifiedDate: '2026-10-24T12:10:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-3-in-1-wireless-charging-station',

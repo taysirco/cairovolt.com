@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const anker_power_station_powerhouse_models_comparison: BlogArticle = {
     slug: 'anker-power-station-powerhouse-models-comparison',
     category: 'comparison',
-    publishDate: '2026-08-04',
-    modifiedDate: '2026-08-04',
+    publishDate: '2026-08-04T14:31:00+03:00',
+    modifiedDate: '2026-08-04T14:31:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'anker-prime-a1695-25000',

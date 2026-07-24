@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const iphone_14_pro_max_airpods_alternative_charger: BlogArticle = {
     slug: 'iphone-14-pro-max-airpods-alternative-charger',
     category: 'buying-guide',
-    publishDate: '2026-11-01T18:03:00+02:00',
-    modifiedDate: '2026-11-01T18:03:00+02:00',
+    publishDate: '2026-11-04T15:01:00+02:00',
+    modifiedDate: '2026-11-04T15:01:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-jr-t03-wireless-earbuds',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const airpods_earbuds_charger_safety_battery_health_tips: BlogArticle = {
     slug: 'airpods-earbuds-charger-safety-battery-health-tips',
     category: 'buying-guide',
-    publishDate: '2026-09-02T15:19:00+02:00',
-    modifiedDate: '2026-09-02T15:19:00+02:00',
+    publishDate: '2026-09-08T12:06:00+03:00',
+    modifiedDate: '2026-09-08T12:06:00+03:00',
     readingTime: 11,
     relatedProducts: [
         'joyroom-25w-fast-charger',

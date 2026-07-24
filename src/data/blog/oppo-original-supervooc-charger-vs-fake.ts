@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const oppo_original_supervooc_charger_vs_fake: BlogArticle = {
     slug: 'oppo-original-supervooc-charger-vs-fake',
     category: 'buying-guide',
-    publishDate: '2026-08-08',
-    modifiedDate: '2026-08-08',
+    publishDate: '2026-08-08T11:44:00+03:00',
+    modifiedDate: '2026-08-08T11:44:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-nano-45w-smart-display-charger',

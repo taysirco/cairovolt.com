@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const bassup_ldac_aptx_audio_terms_explained_before_buying: BlogArticle = {
     slug: 'bassup-ldac-aptx-audio-terms-explained-before-buying',
     category: 'buying-guide',
-    publishDate: '2026-09-26T20:07:00+02:00',
-    modifiedDate: '2026-09-26T20:07:00+02:00',
+    publishDate: '2026-09-30T15:51:00+03:00',
+    modifiedDate: '2026-09-30T15:51:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'soundcore-liberty-4-nc',

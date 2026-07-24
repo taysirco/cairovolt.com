@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const power_bank_10000mah_iphone_charges_count_math: BlogArticle = {
     slug: '10000mah-power-bank-iphone-charges-count-math',
     category: 'buying-guide',
-    publishDate: '2026-10-01T18:09:00+02:00',
-    modifiedDate: '2026-10-01T18:09:00+02:00',
+    publishDate: '2026-10-05T10:35:00+03:00',
+    modifiedDate: '2026-10-05T10:35:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'joyroom-power-bank-10000',

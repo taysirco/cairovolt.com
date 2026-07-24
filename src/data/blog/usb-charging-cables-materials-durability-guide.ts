@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const usb_charging_cables_materials_durability_guide: BlogArticle = {
     slug: 'usb-charging-cables-materials-durability-guide',
     category: 'buying-guide',
-    publishDate: '2026-08-09',
-    modifiedDate: '2026-08-09',
+    publishDate: '2026-08-11T15:13:00+03:00',
+    modifiedDate: '2026-08-11T15:13:00+03:00',
     readingTime: 8,
     relatedProducts: [
         'anker-a8050-usb-c-cable',

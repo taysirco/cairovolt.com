@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const original_xiaomi_charger_turbo_charging_guide: BlogArticle = {
     slug: 'original-xiaomi-charger-turbo-charging-guide',
     category: 'buying-guide',
-    publishDate: '2026-08-09',
-    modifiedDate: '2026-08-09',
+    publishDate: '2026-08-10T16:56:00+03:00',
+    modifiedDate: '2026-08-10T16:56:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-nano-45w-smart-display-charger',

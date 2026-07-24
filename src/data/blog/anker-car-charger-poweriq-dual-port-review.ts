@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const anker_car_charger_poweriq_dual_port_review: BlogArticle = {
     slug: 'anker-car-charger-poweriq-dual-port-review',
     category: 'review',
-    publishDate: '2026-08-25T17:31:00+02:00',
-    modifiedDate: '2026-08-25T17:31:00+02:00',
+    publishDate: '2026-08-31T20:00:00+03:00',
+    modifiedDate: '2026-08-31T20:00:00+03:00',
     readingTime: 11,
     relatedProducts: [
         'anker-car-charger-dual-usb',

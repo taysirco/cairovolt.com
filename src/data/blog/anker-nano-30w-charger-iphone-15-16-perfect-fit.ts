@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const anker_nano_30w_charger_iphone_15_16_perfect_fit: BlogArticle = {
     slug: 'anker-nano-30w-charger-iphone-15-16-perfect-fit',
     category: 'review',
-    publishDate: '2026-08-11',
-    modifiedDate: '2026-08-11',
+    publishDate: '2026-08-14T20:21:00+03:00',
+    modifiedDate: '2026-08-14T20:21:00+03:00',
     readingTime: 7,
     relatedProducts: [
         'anker-a2741-charger-30w',

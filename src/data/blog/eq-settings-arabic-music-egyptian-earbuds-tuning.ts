@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
     slug: 'eq-settings-arabic-music-egyptian-earbuds-tuning',
     category: 'buying-guide',
-    publishDate: '2026-10-09T09:32:00+02:00',
-    modifiedDate: '2026-10-09T09:32:00+02:00',
+    publishDate: '2026-10-12T14:02:00+03:00',
+    modifiedDate: '2026-10-12T14:02:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'soundcore-p20i-earbuds',

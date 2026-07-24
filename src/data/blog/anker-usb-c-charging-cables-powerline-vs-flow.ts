@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const anker_usb_c_charging_cables_powerline_vs_flow: BlogArticle = {
     slug: 'anker-usb-c-charging-cables-powerline-vs-flow',
     category: 'comparison',
-    publishDate: '2026-08-10',
-    modifiedDate: '2026-08-10',
+    publishDate: '2026-08-12T17:22:00+03:00',
+    modifiedDate: '2026-08-12T17:22:00+03:00',
     readingTime: 8,
     relatedProducts: [
         'anker-a8050-usb-c-cable',

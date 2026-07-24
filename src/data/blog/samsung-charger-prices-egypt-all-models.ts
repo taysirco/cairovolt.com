@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const samsung_charger_prices_egypt_all_models: BlogArticle = {
     slug: 'samsung-charger-prices-egypt-all-models',
     category: 'buying-guide',
-    publishDate: '2026-08-31T11:09:00+02:00',
-    modifiedDate: '2026-08-31T11:09:00+02:00',
+    publishDate: '2026-09-06T16:10:00+03:00',
+    modifiedDate: '2026-09-06T16:10:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-25w-fast-charger',

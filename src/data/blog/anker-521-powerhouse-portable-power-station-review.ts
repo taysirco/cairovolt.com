@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const anker_521_powerhouse_portable_power_station_review: BlogArticle = {
     slug: 'anker-521-powerhouse-portable-power-station-review',
     category: 'review',
-    publishDate: '2026-08-03',
-    modifiedDate: '2026-08-03',
+    publishDate: '2026-08-03T14:02:00+03:00',
+    modifiedDate: '2026-08-03T14:02:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'anker-prime-a1695-25000',

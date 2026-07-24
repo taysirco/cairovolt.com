@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle = {
     slug: 'joyroom-20000mah-power-bank-travel-performance-review',
     category: 'review',
-    publishDate: '2026-08-22T12:11:00+02:00',
-    modifiedDate: '2026-08-22T12:11:00+02:00',
+    publishDate: '2026-08-28T14:11:00+03:00',
+    modifiedDate: '2026-08-28T14:11:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'joyroom-power-bank-20000',

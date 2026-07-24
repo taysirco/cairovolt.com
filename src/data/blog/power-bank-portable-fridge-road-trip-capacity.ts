@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const power_bank_portable_fridge_road_trip_capacity: BlogArticle = {
     slug: 'power-bank-portable-fridge-road-trip-capacity',
     category: 'tips',
-    publishDate: '2026-10-20T19:46:00+02:00',
-    modifiedDate: '2026-10-20T19:46:00+02:00',
+    publishDate: '2026-10-23T12:38:00+03:00',
+    modifiedDate: '2026-10-23T12:38:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'anker-521-powerhouse',

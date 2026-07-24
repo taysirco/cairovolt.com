@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const train_bus_long_trip_charging_accessories_egypt: BlogArticle = {
     slug: 'train-bus-long-trip-charging-accessories-egypt',
     category: 'buying-guide',
-    publishDate: '2026-09-30T10:40:00+02:00',
-    modifiedDate: '2026-09-30T10:40:00+02:00',
+    publishDate: '2026-10-04T09:30:00+03:00',
+    modifiedDate: '2026-10-04T09:30:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'soundcore-life-q20-headphones',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const connect_apple_watch_to_iphone_pairing_charging: BlogArticle = {
     slug: 'connect-apple-watch-to-iphone-pairing-charging',
     category: 'buying-guide',
-    publishDate: '2026-11-16T15:18:00+02:00',
-    modifiedDate: '2026-11-16T15:18:00+02:00',
+    publishDate: '2026-11-19T19:00:00+02:00',
+    modifiedDate: '2026-11-19T19:00:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

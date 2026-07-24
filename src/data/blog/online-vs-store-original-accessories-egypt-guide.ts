@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const online_vs_store_original_accessories_egypt_guide: BlogArticle = {
     slug: 'online-vs-store-original-accessories-egypt-guide',
     category: 'buying-guide',
-    publishDate: '2026-10-06T10:29:00+02:00',
-    modifiedDate: '2026-10-06T10:29:00+02:00',
+    publishDate: '2026-10-09T19:36:00+03:00',
+    modifiedDate: '2026-10-09T19:36:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',

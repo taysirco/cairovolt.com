@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const data_cable_vs_charge_only_cable_file_transfer: BlogArticle = {
     slug: 'data-cable-vs-charge-only-cable-file-transfer',
     category: 'tips',
-    publishDate: '2026-10-16T13:00:00+02:00',
-    modifiedDate: '2026-10-16T13:00:00+02:00',
+    publishDate: '2026-10-19T21:37:00+03:00',
+    modifiedDate: '2026-10-19T21:37:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'anker-a8050-usb-c-cable',

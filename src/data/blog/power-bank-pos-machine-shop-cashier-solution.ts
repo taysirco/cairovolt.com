@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const power_bank_pos_machine_shop_cashier_solution: BlogArticle = {
     slug: 'power-bank-pos-machine-shop-cashier-solution',
     category: 'buying-guide',
-    publishDate: '2026-09-29T17:10:00+02:00',
-    modifiedDate: '2026-09-29T17:10:00+02:00',
+    publishDate: '2026-10-03T19:27:00+03:00',
+    modifiedDate: '2026-10-03T19:27:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'joyroom-power-bank-10000',

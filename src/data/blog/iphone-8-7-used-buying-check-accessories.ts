@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const iphone_8_7_used_buying_check_accessories: BlogArticle = {
     slug: 'iphone-8-7-used-buying-check-accessories',
     category: 'buying-guide',
-    publishDate: '2026-11-10T14:18:00+02:00',
-    modifiedDate: '2026-11-10T14:18:00+02:00',
+    publishDate: '2026-11-13T13:09:00+02:00',
+    modifiedDate: '2026-11-13T13:09:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

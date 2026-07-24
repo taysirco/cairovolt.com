@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const portable_power_station_apartment_summer_outage_egypt: BlogArticle = {
     slug: 'portable-power-station-apartment-summer-outage-egypt',
     category: 'tips',
-    publishDate: '2026-10-18T19:44:00+02:00',
-    modifiedDate: '2026-10-18T19:44:00+02:00',
+    publishDate: '2026-10-21T19:49:00+03:00',
+    modifiedDate: '2026-10-21T19:49:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'anker-521-powerhouse',

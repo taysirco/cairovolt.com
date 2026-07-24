@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const store_power_bank_long_term_battery_protection: BlogArticle = {
     slug: 'store-power-bank-long-term-battery-protection',
     category: 'tips',
-    publishDate: '2026-10-25T20:09:00+02:00',
-    modifiedDate: '2026-10-25T20:09:00+02:00',
+    publishDate: '2026-10-28T11:18:00+03:00',
+    modifiedDate: '2026-10-28T11:18:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'anker-737-powerbank',

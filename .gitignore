@@ -121,6 +121,7 @@ cairovolt-authenticator.zip
 !/scripts/generate-blog-cover.mjs
 !/scripts/schedule-blog.mjs
 !/scripts/next-publish-date.mjs
+!/scripts/repair-blog-publish-schedule.mjs
 !/scripts/optimize-blog-covers.mjs
 !/scripts/check-repository-hygiene.mjs
 

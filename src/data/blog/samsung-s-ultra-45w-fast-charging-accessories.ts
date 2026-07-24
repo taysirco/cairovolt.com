@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const samsung_s_ultra_45w_fast_charging_accessories: BlogArticle = {
     slug: 'samsung-s-ultra-45w-fast-charging-accessories',
     category: 'buying-guide',
-    publishDate: '2026-11-04T21:33:00+02:00',
-    modifiedDate: '2026-11-04T21:33:00+02:00',
+    publishDate: '2026-11-07T12:09:00+02:00',
+    modifiedDate: '2026-11-07T12:09:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

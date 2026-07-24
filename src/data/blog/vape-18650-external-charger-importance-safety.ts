@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const vape_18650_external_charger_importance_safety: BlogArticle = {
     slug: 'vape-18650-external-charger-importance-safety',
     category: 'tips',
-    publishDate: '2026-08-20T11:10:00+02:00',
-    modifiedDate: '2026-08-20T11:10:00+02:00',
+    publishDate: '2026-08-26T16:49:00+03:00',
+    modifiedDate: '2026-08-26T16:49:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'joyroom-usb-c-cable-60w',

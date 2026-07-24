@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const old_charger_new_phone_charging_speed_answer: BlogArticle = {
     slug: 'old-charger-new-phone-charging-speed-answer',
     category: 'buying-guide',
-    publishDate: '2026-10-02T15:38:00+02:00',
-    modifiedDate: '2026-10-02T15:38:00+02:00',
+    publishDate: '2026-10-06T14:55:00+03:00',
+    modifiedDate: '2026-10-06T14:55:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',

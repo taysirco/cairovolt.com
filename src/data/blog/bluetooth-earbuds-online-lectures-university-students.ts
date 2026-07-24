@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const bluetooth_earbuds_online_lectures_university_students: BlogArticle = {
     slug: 'bluetooth-earbuds-online-lectures-university-students',
     category: 'buying-guide',
-    publishDate: '2026-10-10T14:54:00+02:00',
-    modifiedDate: '2026-10-10T14:54:00+02:00',
+    publishDate: '2026-10-13T20:41:00+03:00',
+    modifiedDate: '2026-10-13T20:41:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'soundcore-p20i-earbuds',

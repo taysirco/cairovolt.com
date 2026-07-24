@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const teacher_accessories_charger_earbuds_power_bank: BlogArticle = {
     slug: 'teacher-accessories-charger-earbuds-power-bank',
     category: 'buying-guide',
-    publishDate: '2026-09-28T21:19:00+02:00',
-    modifiedDate: '2026-09-28T21:19:00+02:00',
+    publishDate: '2026-10-02T18:48:00+03:00',
+    modifiedDate: '2026-10-02T18:48:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'soundcore-liberty-4-nc',

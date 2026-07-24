@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const samsung_charger_for_iphone_cross_brand_compatibility: BlogArticle = {
     slug: 'samsung-charger-for-iphone-cross-brand-compatibility',
     category: 'buying-guide',
-    publishDate: '2026-10-03T21:04:00+02:00',
-    modifiedDate: '2026-10-03T21:04:00+02:00',
+    publishDate: '2026-10-07T21:30:00+03:00',
+    modifiedDate: '2026-10-07T21:30:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',

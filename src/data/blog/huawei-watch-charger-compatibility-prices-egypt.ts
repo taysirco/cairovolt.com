@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const huawei_watch_charger_compatibility_prices_egypt: BlogArticle = {
     slug: 'huawei-watch-charger-compatibility-prices-egypt',
     category: 'tips',
-    publishDate: '2026-08-19T17:42:00+02:00',
-    modifiedDate: '2026-08-19T17:42:00+02:00',
+    publishDate: '2026-08-25T15:42:00+03:00',
+    modifiedDate: '2026-08-25T15:42:00+03:00',
     readingTime: 8,
     relatedProducts: [
         'joyroom-3-in-1-wireless-charging-station',

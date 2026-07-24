@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const how_to_transfer_data_android_iphone_cable_otg: BlogArticle = {
     slug: 'how-to-transfer-data-android-iphone-cable-otg',
     category: 'buying-guide',
-    publishDate: '2026-11-14T14:21:00+02:00',
-    modifiedDate: '2026-11-14T14:21:00+02:00',
+    publishDate: '2026-11-17T16:32:00+02:00',
+    modifiedDate: '2026-11-17T16:32:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

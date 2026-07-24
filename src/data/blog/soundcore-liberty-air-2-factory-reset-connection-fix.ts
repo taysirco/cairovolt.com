@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle = {
     slug: 'soundcore-liberty-air-2-factory-reset-connection-fix',
     category: 'how-to',
-    publishDate: '2026-07-29',
-    modifiedDate: '2026-07-29',
+    publishDate: '2026-07-29T11:48:00+03:00',
+    modifiedDate: '2026-07-29T11:48:00+03:00',
     readingTime: 7,
     relatedProducts: [
         'soundcore-liberty-air-2-pro',

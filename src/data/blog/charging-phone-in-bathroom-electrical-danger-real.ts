@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const charging_phone_in_bathroom_electrical_danger_real: BlogArticle = {
     slug: 'charging-phone-in-bathroom-electrical-danger-real',
     category: 'tips',
-    publishDate: '2026-09-19T20:50:00+02:00',
-    modifiedDate: '2026-09-19T20:50:00+02:00',
+    publishDate: '2026-09-25T21:11:00+03:00',
+    modifiedDate: '2026-09-25T21:11:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',

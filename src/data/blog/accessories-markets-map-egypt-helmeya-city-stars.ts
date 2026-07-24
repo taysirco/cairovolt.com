@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const accessories_markets_map_egypt_helmeya_city_stars: BlogArticle = {
     slug: 'accessories-markets-map-egypt-helmeya-city-stars',
     category: 'buying-guide',
-    publishDate: '2026-10-05T18:22:00+02:00',
-    modifiedDate: '2026-10-05T18:22:00+02:00',
+    publishDate: '2026-10-08T09:46:00+03:00',
+    modifiedDate: '2026-10-08T09:46:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',

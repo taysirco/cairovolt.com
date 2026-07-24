@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const realme_accessories_buying_guide: BlogArticle = {
     slug: 'realme-accessories-buying-guide',
     category: 'buying-guide',
-    publishDate: '2026-11-13T17:20:00+02:00',
-    modifiedDate: '2026-11-13T17:20:00+02:00',
+    publishDate: '2026-11-16T11:31:00+02:00',
+    modifiedDate: '2026-11-16T11:31:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

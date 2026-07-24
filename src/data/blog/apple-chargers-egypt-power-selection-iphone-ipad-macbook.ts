@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const apple_chargers_egypt_power_selection_iphone_ipad_macbook: BlogArticle = {
     slug: 'apple-chargers-egypt-power-selection-iphone-ipad-macbook',
     category: 'buying-guide',
-    publishDate: '2026-09-03T17:29:00+02:00',
-    modifiedDate: '2026-09-03T17:29:00+02:00',
+    publishDate: '2026-09-09T10:06:00+03:00',
+    modifiedDate: '2026-09-09T10:06:00+03:00',
     readingTime: 14,
     relatedProducts: [
         'joyroom-25w-fast-charger',

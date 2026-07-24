@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const joyroom_power_banks_10k_20k_models_review: BlogArticle = {
     slug: 'joyroom-power-banks-10k-20k-models-review',
     category: 'review',
-    publishDate: '2026-08-02',
-    modifiedDate: '2026-08-02',
+    publishDate: '2026-08-02T12:36:00+03:00',
+    modifiedDate: '2026-08-02T12:36:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'joyroom-power-bank-10000',

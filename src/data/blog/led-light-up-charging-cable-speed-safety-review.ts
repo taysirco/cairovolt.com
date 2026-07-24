@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const led_light_up_charging_cable_speed_safety_review: BlogArticle = {
     slug: 'led-light-up-charging-cable-speed-safety-review',
     category: 'tips',
-    publishDate: '2026-10-15T13:15:00+02:00',
-    modifiedDate: '2026-10-15T13:15:00+02:00',
+    publishDate: '2026-10-18T14:33:00+03:00',
+    modifiedDate: '2026-10-18T14:33:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'anker-a8050-usb-c-cable',

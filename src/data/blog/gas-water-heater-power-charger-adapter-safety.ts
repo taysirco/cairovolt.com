@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const gas_water_heater_power_charger_adapter_safety: BlogArticle = {
     slug: 'gas-water-heater-power-charger-adapter-safety',
     category: 'tips',
-    publishDate: '2026-08-13',
-    modifiedDate: '2026-08-13',
+    publishDate: '2026-08-18T14:09:00+03:00',
+    modifiedDate: '2026-08-18T14:09:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-powerport-20w',

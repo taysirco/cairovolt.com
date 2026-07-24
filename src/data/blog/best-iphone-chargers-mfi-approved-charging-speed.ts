@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const best_iphone_chargers_mfi_approved_charging_speed: BlogArticle = {
     slug: 'best-iphone-chargers-mfi-approved-charging-speed',
     category: 'comparison',
-    publishDate: '2026-08-23T14:41:00+02:00',
-    modifiedDate: '2026-08-23T14:41:00+02:00',
+    publishDate: '2026-08-29T13:37:00+03:00',
+    modifiedDate: '2026-08-29T13:37:00+03:00',
     readingTime: 11,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',

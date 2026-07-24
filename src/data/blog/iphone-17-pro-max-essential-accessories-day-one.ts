@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const iphone_17_pro_max_essential_accessories_day_one: BlogArticle = {
     slug: 'iphone-17-pro-max-essential-accessories-day-one',
     category: 'buying-guide',
-    publishDate: '2026-11-02T16:54:00+02:00',
-    modifiedDate: '2026-11-02T16:54:00+02:00',
+    publishDate: '2026-11-05T14:09:00+02:00',
+    modifiedDate: '2026-11-05T14:09:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

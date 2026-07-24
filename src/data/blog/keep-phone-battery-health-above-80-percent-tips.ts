@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const keep_phone_battery_health_above_80_percent_tips: BlogArticle = {
     slug: 'keep-phone-battery-health-above-80-percent-tips',
     category: 'buying-guide',
-    publishDate: '2026-09-07T17:00:00+02:00',
-    modifiedDate: '2026-09-07T17:00:00+02:00',
+    publishDate: '2026-09-13T21:18:00+03:00',
+    modifiedDate: '2026-09-13T21:18:00+03:00',
     readingTime: 14,
     relatedProducts: [
         'joyroom-25w-fast-charger',

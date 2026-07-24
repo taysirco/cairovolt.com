@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const best_bluetooth_earbuds_clear_calls_noise_cancelling: BlogArticle = {
     slug: 'best-bluetooth-earbuds-clear-calls-noise-cancelling',
     category: 'buying-guide',
-    publishDate: '2026-09-05T14:56:00+02:00',
-    modifiedDate: '2026-09-05T14:56:00+02:00',
+    publishDate: '2026-09-11T18:48:00+03:00',
+    modifiedDate: '2026-09-11T18:48:00+03:00',
     readingTime: 14,
     relatedProducts: [
         'joyroom-25w-fast-charger',

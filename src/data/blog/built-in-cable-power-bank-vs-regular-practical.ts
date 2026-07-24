@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const built_in_cable_power_bank_vs_regular_practical: BlogArticle = {
     slug: 'built-in-cable-power-bank-vs-regular-practical',
     category: 'comparison',
-    publishDate: '2026-09-12T13:12:00+02:00',
-    modifiedDate: '2026-09-12T13:12:00+02:00',
+    publishDate: '2026-09-18T18:49:00+03:00',
+    modifiedDate: '2026-09-18T18:49:00+03:00',
     readingTime: 14,
     relatedProducts: [
         'anker-powercore-20000',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const original_apple_charger_vs_counterfeit_fine_details: BlogArticle = {
     slug: 'original-apple-charger-vs-counterfeit-fine-details',
     category: 'buying-guide',
-    publishDate: '2026-08-27T15:18:00+02:00',
-    modifiedDate: '2026-08-27T15:18:00+02:00',
+    publishDate: '2026-09-02T16:49:00+03:00',
+    modifiedDate: '2026-09-02T16:49:00+03:00',
     readingTime: 11,
     relatedProducts: [
         'joyroom-usb-c-cable-60w',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const tecno_infinix_budget_phone_charger_cable_guide: BlogArticle = {
     slug: 'tecno-infinix-budget-phone-charger-cable-guide',
     category: 'buying-guide',
-    publishDate: '2026-09-15T11:08:00+02:00',
-    modifiedDate: '2026-09-15T11:08:00+02:00',
+    publishDate: '2026-09-21T16:39:00+03:00',
+    modifiedDate: '2026-09-21T16:39:00+03:00',
     readingTime: 14,
     relatedProducts: [
         'joyroom-25w-fast-charger',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const iphone_15_pro_max_accessories_buying_guide: BlogArticle = {
     slug: 'iphone-15-pro-max-accessories-buying-guide',
     category: 'buying-guide',
-    publishDate: '2026-10-29T14:46:00+02:00',
-    modifiedDate: '2026-10-29T14:46:00+02:00',
+    publishDate: '2026-11-01T18:50:00+02:00',
+    modifiedDate: '2026-11-01T18:50:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'anker-a2741-charger-30w',

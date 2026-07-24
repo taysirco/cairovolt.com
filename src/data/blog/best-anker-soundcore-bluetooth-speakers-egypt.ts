@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const best_anker_soundcore_bluetooth_speakers_egypt: BlogArticle = {
     slug: 'best-anker-soundcore-bluetooth-speakers-egypt',
     category: 'buying-guide',
-    publishDate: '2026-07-30',
-    modifiedDate: '2026-07-30',
+    publishDate: '2026-07-30T12:28:00+03:00',
+    modifiedDate: '2026-07-30T12:28:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'soundcore-select-4-go-speaker',

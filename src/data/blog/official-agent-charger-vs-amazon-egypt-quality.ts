@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const official_agent_charger_vs_amazon_egypt_quality: BlogArticle = {
     slug: 'official-agent-charger-vs-amazon-egypt-quality',
     category: 'comparison',
-    publishDate: '2026-09-10T19:01:00+02:00',
-    modifiedDate: '2026-09-10T19:01:00+02:00',
+    publishDate: '2026-09-16T11:29:00+03:00',
+    modifiedDate: '2026-09-16T11:29:00+03:00',
     readingTime: 14,
     relatedProducts: [
         'anker-powerport-25w',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
     slug: 'samsung-galaxy-a-buying-guide-accessories',
     category: 'buying-guide',
-    publishDate: '2026-10-27T09:27:00+02:00',
-    modifiedDate: '2026-10-27T09:27:00+02:00',
+    publishDate: '2026-10-30T16:42:00+02:00',
+    modifiedDate: '2026-10-30T16:42:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'anker-powerport-25w',

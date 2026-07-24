@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
     slug: 'buy-iphone-egypt-guide-accessories-by-port',
     category: 'buying-guide',
-    publishDate: '2026-11-07T09:16:00+02:00',
-    modifiedDate: '2026-11-07T09:16:00+02:00',
+    publishDate: '2026-11-10T17:34:00+02:00',
+    modifiedDate: '2026-11-10T17:34:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

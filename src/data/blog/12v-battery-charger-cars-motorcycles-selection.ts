@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const twelve_v_battery_charger_cars_motorcycles_selection: BlogArticle = {
     slug: '12v-battery-charger-cars-motorcycles-selection',
     category: 'how-to',
-    publishDate: '2026-08-14',
-    modifiedDate: '2026-08-14',
+    publishDate: '2026-08-19T10:41:00+03:00',
+    modifiedDate: '2026-08-19T10:41:00+03:00',
     readingTime: 9,
     relatedProducts: [
         'anker-521-powerhouse',

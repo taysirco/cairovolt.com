@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const soundcore_life_q20_headphones_best_budget_over_ear: BlogArticle = {
     slug: 'soundcore-life-q20-headphones-best-budget-over-ear',
     category: 'buying-guide',
-    publishDate: '2026-07-27',
-    modifiedDate: '2026-07-27',
+    publishDate: '2026-07-27T14:52:00+03:00',
+    modifiedDate: '2026-07-27T14:52:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'soundcore-life-q20-headphones',

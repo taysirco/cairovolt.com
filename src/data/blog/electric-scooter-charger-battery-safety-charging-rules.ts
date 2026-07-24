@@ -4,8 +4,8 @@ import type { BlogArticle } from './_types';
 export const electric_scooter_charger_battery_safety_charging_rules: BlogArticle = {
     slug: 'electric-scooter-charger-battery-safety-charging-rules',
     category: 'tips',
-    publishDate: '2026-08-13',
-    modifiedDate: '2026-08-13',
+    publishDate: '2026-08-17T14:12:00+03:00',
+    modifiedDate: '2026-08-17T14:12:00+03:00',
     readingTime: 7,
     relatedProducts: [
         'anker-powercore-10000',

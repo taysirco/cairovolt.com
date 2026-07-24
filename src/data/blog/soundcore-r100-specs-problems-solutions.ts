@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const soundcore_r100_specs_problems_solutions: BlogArticle = {
     slug: 'soundcore-r100-specs-problems-solutions',
     category: 'tips',
-    publishDate: '2026-07-25',
-    modifiedDate: '2026-07-25',
+    publishDate: '2026-07-25T11:31:00+03:00',
+    modifiedDate: '2026-07-25T11:31:00+03:00',
     readingTime: 8,
     relatedProducts: [
         'anker-soundcore-r50i',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
     slug: 'soundcore-liberty-buds-complete-lineup-comparison',
     category: 'comparison',
-    publishDate: '2026-07-28',
-    modifiedDate: '2026-07-28',
+    publishDate: '2026-07-28T18:36:00+03:00',
+    modifiedDate: '2026-07-28T18:36:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'soundcore-liberty-buds',

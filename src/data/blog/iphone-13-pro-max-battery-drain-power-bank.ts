@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const iphone_13_pro_max_battery_drain_power_bank: BlogArticle = {
     slug: 'iphone-13-pro-max-battery-drain-power-bank',
     category: 'tips',
-    publishDate: '2026-10-28T17:52:00+02:00',
-    modifiedDate: '2026-10-28T17:52:00+02:00',
+    publishDate: '2026-10-31T20:26:00+02:00',
+    modifiedDate: '2026-10-31T20:26:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-magnetic-power-bank-10000',

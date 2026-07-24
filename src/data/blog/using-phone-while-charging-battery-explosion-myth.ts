@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const using_phone_while_charging_battery_explosion_myth: BlogArticle = {
     slug: 'using-phone-while-charging-battery-explosion-myth',
     category: 'tips',
-    publishDate: '2026-09-20T09:52:00+02:00',
-    modifiedDate: '2026-09-20T09:52:00+02:00',
+    publishDate: '2026-09-26T10:01:00+03:00',
+    modifiedDate: '2026-09-26T10:01:00+03:00',
     readingTime: 8,
     relatedProducts: [
         'anker-737-powerbank',

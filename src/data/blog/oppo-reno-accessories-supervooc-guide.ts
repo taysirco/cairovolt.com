@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const oppo_reno_accessories_supervooc_guide: BlogArticle = {
     slug: 'oppo-reno-accessories-supervooc-guide',
     category: 'buying-guide',
-    publishDate: '2026-11-06T15:20:00+02:00',
-    modifiedDate: '2026-11-06T15:20:00+02:00',
+    publishDate: '2026-11-09T20:35:00+02:00',
+    modifiedDate: '2026-11-09T20:35:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

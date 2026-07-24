@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const samsung_note_buying_guide_accessories: BlogArticle = {
     slug: 'samsung-note-buying-guide-accessories',
     category: 'buying-guide',
-    publishDate: '2026-11-09T18:17:00+02:00',
-    modifiedDate: '2026-11-09T18:17:00+02:00',
+    publishDate: '2026-11-12T13:24:00+02:00',
+    modifiedDate: '2026-11-12T13:24:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

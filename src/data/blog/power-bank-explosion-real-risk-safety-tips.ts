@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const power_bank_explosion_real_risk_safety_tips: BlogArticle = {
     slug: 'power-bank-explosion-real-risk-safety-tips',
     category: 'tips',
-    publishDate: '2026-09-18T10:20:00+02:00',
-    modifiedDate: '2026-09-18T10:20:00+02:00',
+    publishDate: '2026-09-24T15:31:00+03:00',
+    modifiedDate: '2026-09-24T15:31:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'anker-737-powerbank',

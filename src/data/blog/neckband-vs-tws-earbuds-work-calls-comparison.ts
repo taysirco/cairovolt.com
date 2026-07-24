@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const neckband_vs_tws_earbuds_work_calls_comparison: BlogArticle = {
     slug: 'neckband-vs-tws-earbuds-work-calls-comparison',
     category: 'buying-guide',
-    publishDate: '2026-10-12T16:05:00+02:00',
-    modifiedDate: '2026-10-12T16:05:00+02:00',
+    publishDate: '2026-10-15T11:44:00+03:00',
+    modifiedDate: '2026-10-15T11:44:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'soundcore-life-u2i-neckband',

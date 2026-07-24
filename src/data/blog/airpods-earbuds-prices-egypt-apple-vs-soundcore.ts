@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const airpods_earbuds_prices_egypt_apple_vs_soundcore: BlogArticle = {
     slug: 'airpods-earbuds-prices-egypt-apple-vs-soundcore',
     category: 'buying-guide',
-    publishDate: '2026-09-04T19:22:00+02:00',
-    modifiedDate: '2026-09-04T19:22:00+02:00',
+    publishDate: '2026-09-10T17:02:00+03:00',
+    modifiedDate: '2026-09-10T17:02:00+03:00',
     readingTime: 13,
     relatedProducts: [
         'joyroom-25w-fast-charger',

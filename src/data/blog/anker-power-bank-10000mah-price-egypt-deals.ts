@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const anker_power_bank_10000mah_price_egypt_deals: BlogArticle = {
     slug: 'anker-power-bank-10000mah-price-egypt-deals',
     category: 'buying-guide',
-    publishDate: '2026-08-30T18:02:00+02:00',
-    modifiedDate: '2026-08-30T18:02:00+02:00',
+    publishDate: '2026-09-05T21:47:00+03:00',
+    modifiedDate: '2026-09-05T21:47:00+03:00',
     readingTime: 11,
     relatedProducts: [
         'joyroom-power-bank-10000',

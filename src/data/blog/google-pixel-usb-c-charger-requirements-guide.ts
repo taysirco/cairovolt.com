@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const google_pixel_usb_c_charger_requirements_guide: BlogArticle = {
     slug: 'google-pixel-usb-c-charger-requirements-guide',
     category: 'buying-guide',
-    publishDate: '2026-09-17T16:21:00+02:00',
-    modifiedDate: '2026-09-17T16:21:00+02:00',
+    publishDate: '2026-09-23T09:07:00+03:00',
+    modifiedDate: '2026-09-23T09:07:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',

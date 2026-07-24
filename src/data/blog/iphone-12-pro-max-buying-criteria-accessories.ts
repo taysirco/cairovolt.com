@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const iphone_12_pro_max_buying_criteria_accessories: BlogArticle = {
     slug: 'iphone-12-pro-max-buying-criteria-accessories',
     category: 'buying-guide',
-    publishDate: '2026-11-03T18:40:00+02:00',
-    modifiedDate: '2026-11-03T18:40:00+02:00',
+    publishDate: '2026-11-06T12:52:00+02:00',
+    modifiedDate: '2026-11-06T12:52:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'joyroom-30w-fast-charger',

@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const charger_plugged_without_phone_electricity_waste: BlogArticle = {
     slug: 'charger-plugged-without-phone-electricity-waste',
     category: 'tips',
-    publishDate: '2026-09-21T19:42:00+02:00',
-    modifiedDate: '2026-09-21T19:42:00+02:00',
+    publishDate: '2026-09-27T15:41:00+03:00',
+    modifiedDate: '2026-09-27T15:41:00+03:00',
     readingTime: 10,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',

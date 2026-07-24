@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const anker_power_bank_prices_all_capacities_egypt: BlogArticle = {
     slug: 'anker-power-bank-prices-all-capacities-egypt',
     category: 'buying-guide',
-    publishDate: '2026-08-29T16:27:00+02:00',
-    modifiedDate: '2026-08-29T16:27:00+02:00',
+    publishDate: '2026-09-04T18:07:00+03:00',
+    modifiedDate: '2026-09-04T18:07:00+03:00',
     readingTime: 12,
     relatedProducts: [
         'anker-powercore-10000',

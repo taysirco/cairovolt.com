@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const power_bank_charging_slowly_6_hidden_causes_fixes: BlogArticle = {
     slug: 'power-bank-charging-slowly-6-hidden-causes-fixes',
     category: 'tips',
-    publishDate: '2026-09-09T20:44:00+02:00',
-    modifiedDate: '2026-09-09T20:44:00+02:00',
+    publishDate: '2026-09-15T21:49:00+03:00',
+    modifiedDate: '2026-09-15T21:49:00+03:00',
     readingTime: 14,
     relatedProducts: [
         'anker-powercore-20000',

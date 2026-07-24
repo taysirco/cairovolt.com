@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const iphone_16_pro_max_slow_charging_accessories: BlogArticle = {
     slug: 'iphone-16-pro-max-slow-charging-accessories',
     category: 'tips',
-    publishDate: '2026-10-30T21:34:00+02:00',
-    modifiedDate: '2026-10-30T21:34:00+02:00',
+    publishDate: '2026-11-02T11:03:00+02:00',
+    modifiedDate: '2026-11-02T11:03:00+02:00',
     readingTime: 12,
     relatedProducts: [
         'anker-a2741-charger-30w',
