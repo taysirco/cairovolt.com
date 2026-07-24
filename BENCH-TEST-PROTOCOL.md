@@ -857,6 +857,7 @@ OCP zap test:
 | v1.1 | 2026-07-23 | موجة 3 دفعة كابلات Joyroom C-to-C: `joyroom-usb-c-cable-60w` (JR-S-CC60) و`joyroom-30w-pd-cable` (JR-S-CL30) رُفعا من عمق 8 أسطر إلى `benchTest` كامل مع مقارنة A/B في نفس ساعة المنضدة. أرقام: CC60 هبوط 0.22V @ 3A / 58.4W على 20V/3A / 39.7°م منتصف؛ CL30 هبوط 0.28V @ 3A / 29.3W على 20V/1.5A / 41.8°م منتصف. كلاهما USB 2.0 بدون E-marker (غير مطلوبة تحت 3A/60W وفق USB-IF PD 3.0). فحص استرجاع Anker anker.com/product-recalls 2026-07-23 — Joyroom علامة مختلفة. | م. أحمد سالم |
 | v1.1 | 2026-07-23 | موجة 3 استكمال — كابلا Anker عائلة (SureIStrong + Zolo): `anker-usb-c-lightning-sureistrong` (A8652H21، 1.8m C-to-Lightning MFi، سطح ناعم) رُفع من ~8 أسطر إلى `benchTest` كامل — MFi حية في iOS، 19.5W على iPhone 13 عبر A2147، هبوط 0.17V @ 5V/2A، منتصف 35.2°م. `anker-zolo-usb-c-braided-cable` (A8060، 1.5m C-to-C مضفر، مدرج 240W PD 3.1 EPR) رُفع من ~51 سطر إلى `benchTest` كامل — E-marker حية ومُعرَّفة كـ EPR-capable على FNB58، هبوط 0.20V @ 3A/5V، 58.6W على 20V/3A (60W PDO كامل)، منتصف 36.8°م أبرد بـ 2.9°م من JR-S-CC60. **حد أمين موثَّق: 240W غير مُتحقَّق منه هذه الدورة** (لا مصدر EPR 48V/5A، ولا حمل 240W). فحص استرجاع anker.com/product-recalls 2026-07-23 — لا A8652H21 ولا A8060 على قائمة الكابلات المستدعاة (A8482/A8483/A8465). | م. أحمد سالم |
 | v1.1 | 2026-07-23 | موجة 6 لاسلكي + موجة 4 سماعات (7 منتجات Anker/Soundcore): `anker-622-maggo` (A1611 — 15.6Wh usable USB-C / 7.5W MagSafe / رفض 15W) · `anker-a2216-magnetic-wireless-car-charger` (A2216 — Qi2 ذروة 14.2W مختبر / مستقر ~11.6W / صدق تابلوه يوليو 7–10W) · `soundcore-p20i-earbuds` + `soundcore-p25i-earbuds` (عائلة A3949 مشتركة — 9h35 / 9h40 @50%؛ بلا ANC؛ SBC+AAC) · `soundcore-p30i-earbuds` · `soundcore-p40i-earbuds` (ANC ON/OFF مقاس) · `soundcore-liberty-4-pro` (LDAC + Adaptive ANC). فحص استدعاء 2026-07-23 — لا استدعاء. | م. أحمد سالم |
+| v1.1 | 2026-07-24 | موجة 4 استكمال — 10 منتجات Soundcore: سلسلة C (`c30i` A3330 / `c40i` A3331 — open-ear؛ C40i ليس ترقية بطارية) · سلسلة A (`a25i` A3948 6mm sealed / `a30i` A3958 ANC lipstick) · `p41i` A3937 (علبة باور بانك؛ ANC −34%) · Liberty (`liberty-4-nc` A3947 LDAC stack / `liberty-5` A3957) · `v20i` A3876 (BT 5.4؛ LED tax) · فوق-أذن (`q11i` A3005 بلا ANC / `q20i` A3004 Hybrid ANC). فحص استدعاء 2026-07-24 — لا استدعاء. | م. أحمد سالم |
 
 ### قواعد التحديث:
 - أي تعديل جوهري (إضافة معدّة، تغيير قاعدة اتساق، تغيير قائمة الأعلام الحمراء) يستوجب: (1) رفع إصدار minor (v1.0 → v1.1)، (2) توثيق السبب في سجل التغييرات، (3) تحديث تاريخ "آخر تحديث" في Front Matter.
@@ -917,7 +918,9 @@ OCP zap test:
 
 **الموجة 4 — السماعات (Soundcore + Joyroom)** (فئة كبيرة، ~20 منتج):
 21. ✅ **مُنجَز 2026-07-23**: `soundcore-p20i-earbuds` (A3949Z11) · `soundcore-p25i-earbuds` (A3949) · `soundcore-p30i-earbuds` · `soundcore-p40i-earbuds` (ANC) · `soundcore-liberty-4-pro` (LDAC + Adaptive ANC)
-22+. سلسلة C (C30i/C40i)، سلسلة A (A25i/A30i)، سلسلة R (R50i variants)، Liberty المتبقي (3 Pro/4 NC/5/Air 2 Pro/buds)، فوق-الرأس (Q11i/Q20i/Q45)، V20i، Joyroom earbuds
+22. ✅ **مُنجَز 2026-07-24**: `soundcore-c30i-earbuds` (A3330) · `soundcore-c40i-earbuds` (A3331) · `soundcore-a25i-earbuds` (A3948) · `soundcore-a30i-earbuds` (A3958) · `soundcore-p41i-earbuds` (A3937)
+23. ✅ **مُنجَز 2026-07-24**: `soundcore-liberty-4-nc` (A3947) · `soundcore-liberty-5` (A3957) · `soundcore-v20i-earbuds` (A3876) · `soundcore-q20i-headphones` (A3004) · `soundcore-q11i-headphones` (A3005)
+24+. سلسلة R (R50i — فحص alias A3949 قبل إعادة نشر)، Liberty المتبقي (3 Pro/Air 2 Pro/buds)، Q30 / Life Q20، Joyroom earbuds
 
 **الموجة 5 — إكسسوارات السيارة والحوامل** (~8 منتجات):
 56-63. حوامل Joyroom، شواحن السيارة المتبقية

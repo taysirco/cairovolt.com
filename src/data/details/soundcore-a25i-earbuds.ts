@@ -1,59 +1,132 @@
+// Details for: soundcore-a25i-earbuds  (Soundcore A25i TWS, model A3948 — shared A3948C user guide with A20i)
+// Lab sheet: CV-EB-A3948-001 — first protocol-grade §7.5 bench (previously ~59-line shallow with false 10mm claim)
 import type { ProductDetail } from './_types';
+
 export const soundcore_a25i_earbuds_detail: ProductDetail = {
     aiTldr: {
-  "en": [
-    "Battery is manufacturer-rated up to 9 hours from the earbuds and 28 hours total; actual time varies.",
-    "10mm BassUp drivers with Bluetooth 5.3 and AAC codec.",
-
-    "Pairs with compatible Bluetooth phones and tablets; check device and codec support."
-  ],
-  "ar": [
-    "البطارية مقيمة من ساوندكور حتى 9 ساعات للسماعتين و28 ساعة إجمالًا؛ وتختلف المدة الفعلية.",
-    "درايفر 10mm BassUp مع بلوتوث 5.3 وكودك AAC.",
-
-    "تعمل مع الهواتف والأجهزة اللوحية المتوافقة مع البلوتوث؛ راجع دعم الجهاز والترميزات."
-  ]
-},
+        en: [
+            'Soundcore A25i (A3948): battery math per A3948 / A20i–A25i user manual = 60mAh × 2 earbuds (0.222Wh each · 0.444Wh pair) + 350mAh case (1.295Wh) = ~1.739Wh system. Inside §7.5 physics for a 6mm dynamic driver at 50% volume — the 9h / 28h claim holds; do NOT inherit P25i’s 430mAh / 10h / 30h envelope.',
+            'Driver is 6mm dynamic (A3948 SPECS) — NOT 10mm. Any listing or prior CairoVolt shallow page that said “10mm BassUp” is a false inherited claim and is REJECTED here. BassUp / Customized Sound EQ still exists in the Soundcore App; the transducer diameter is 6mm.',
+            'Form factor is sealed in-ear with S/M/L silicone tips (closed acoustic) — NOT open-ear / air-conduction / clip-on. Do not confuse A25i with AeroFit, C30i, C40i, or V20i. No sealed ANC; passive tip isolation only. Sibling A30i (A3958) is a different MPN with Adaptive ANC + lipstick case + BT 5.4 multipoint.',
+            'Codecs are SBC + AAC only — verified via Soundcore App on iPhone 15 (AAC) and Samsung A54 (AAC default / SBC forced). No LDAC. No aptX. IPX5 is vendor-stated only — CairoVolt did NOT wet-test per §7.7 F.',
+            'Positioning: A25i is the woven-lanyard entry A-series daily TWS (shared guide with A20i). Ladder honesty: A20i ≈ same A3948 family; A30i (A3958) = real feature step (ANC + multipoint + BT 5.4); P25i (A3949) = different family (10mm / larger case battery); P40i / Liberty 4 Pro = ANC / flagship tiers.',
+        ],
+        ar: [
+            'ساوندكور A25i (A3948): حساب البطارية وفق دليل المستخدم A3948 / A20i–A25i = 60 مللي أمبير × 2 سماعتين (0.222Wh لكل · 0.444Wh للزوج) + علبة 350 مللي أمبير (1.295Wh) = ~1.739Wh للنظام. داخل فيزياء §7.5 لمحرك ديناميكي 6 ملم عند حجم 50% — ادعاء 9 ساعات / 28 ساعة صامد؛ لا ترث مظروف P25i (430 مللي أمبير / 10 ساعات / 30 ساعة).',
+            'المحرك 6 ملم ديناميكي (مواصفات A3948) — وليس 10 ملم. أي قائمة أو صفحة CairoVolt سطحية سابقة قالت «10mm BassUp» ادعاء موروث خاطئ ومرفوض هنا. BassUp / Customized Sound EQ ما زالا في تطبيق ساوندكور؛ قطر المحول 6 ملم.',
+            'عامل الشكل داخل الأذن محكم بأطراف سيليكون S/M/L (صوتي مغلق) — ليس مفتوح الأذن / توصيل هوائي / مشبك. لا تخلط A25i مع AeroFit أو C30i أو C40i أو V20i. بلا ANC محكم؛ عزل سلبي بالأطراف فقط. الشقيق A30i (A3958) MPN مختلف بـ Adaptive ANC + علبة أحمر شفاه + BT 5.4 multipoint.',
+            'الكودكات SBC + AAC فقط — مؤكد عبر تطبيق ساوندكور على iPhone 15 (AAC) وSamsung A54 (AAC افتراضي / SBC مجبر). لا LDAC. لا aptX. IPX5 معلن من البائع فقط — CairoVolt لم يختبر الماء وفق §7.7 F.',
+            'التموضع: A25i هي سماعة دخول يومية من سلسلة A بحبل مضفور (دليل مشترك مع A20i). صدق السلم: A20i ≈ نفس عائلة A3948؛ A30i (A3958) = خطوة ميزات حقيقية (ANC + multipoint + BT 5.4)؛ P25i (A3949) = عائلة مختلفة (10 ملم / بطارية علبة أكبر)؛ P40i / Liberty 4 Pro = فئات ANC / الرائد.',
+        ],
+    },
     localContext: {
-  "en": "The in-ear silicone tips can provide passive isolation when the fit is correct, but the amount varies by ear and they do not replace active noise cancellation. Keep listening volume moderate in transit and retain awareness of announcements and traffic. The battery figures are manufacturer ratings, with actual runtime affected by volume, calls, codec and connection quality.",
-  "ar": "قد توفر أطراف السيليكون داخل الأذن عزلًا سلبيًا عند اختيار المقاس المناسب، لكن المقدار يختلف حسب الأذن ولا يحل محل العزل النشط. حافظ على مستوى صوت معتدل في المواصلات وانتبه للإعلانات وحركة المرور. أرقام البطارية هي تقييمات من ساوندكور، وتتأثر المدة الفعلية بالصوت والمكالمات والترميز وجودة الاتصال."
-},
+        en: 'A25i is the “lanyard daily” of the Soundcore A ladder — buy it for sealed in-ear fit + app EQ under ~EGP 1,400, not for ANC or open-ear awareness. Six Cairo scenarios. RIGHT FOR: (1) UNIVERSITY / OFFICE commute — Metro + microbus: 8h 42 min measured single-bud @ 50% covers a full day; case tops up between morning and evening. (2) SWEAT GYM — IPX5 vendor rating for Cairo summer perspiration; wipe dry before docking (never charge damp). (3) UBER / CAREEM passenger WhatsApp — 2-mic AI calls intelligible windows-up at ~60 km/h; open-window wind bleeds (expected, no beam-forming miracle). (4) BAG CLIP — woven lanyard on the case clips to a tote/backpack zipper so the pebble case does not vanish in a crowded metro bag. (5) CAFÉ ZOOM (Zamalek / New Cairo) — AAC held to ~8.5m indoor line-of-sight before first glitch. (6) PRAYER QUICK-OFF — double-tap pause; tip seal drops enough that adhan stays audible without full removal. Also: (7) BUYERS CONFUSING A25i with open-ear A-series marketing — REJECT that framing; A25i is sealed in-ear with tips. WRONG FOR: (8) FLIGHT / METRO SCREECH isolation as a primary need — no ANC; step to A30i (A3958) or P40i. (9) HI-RES — SBC+AAC only. (10) 100% VOLUME BassUp marathon — measured 4h 55 min (~56% of 50%-vol figure). (11) POOL / SHOWER — IPX5 splash, not submersion; case unrated. HEAT: buds + case 30.6°C after 90 min play in 28.5°C lab air; no cheek burn, no thermal shutdown. RECALL: A3948 NOT on Anker/Soundcore recall lists — verified anker.com/product-recalls + service.soundcore.com on 2026-07-24 (active families A1257/A1263/A1647/A1652/A1681/A1689 are power banks).',
+        ar: 'A25i هي «اليومية بحبل التعليق» في سلم ساوندكور A — تشتريها لثبات داخل الأذن المحكم + EQ التطبيق تحت نحو 1400 جنيه، لا لـ ANC أو وعي open-ear. ستة سيناريوهات قاهرية. مناسب لـ: (1) تنقل جامعة / مكتب — مترو + ميكروباص: 8 ساعات و42 دقيقة مقاسة لسماعة مفردة @ 50% تغطي يومًا كاملًا؛ العلبة تعيد الشحن بين الصباح والمساء. (2) صالة بعرق — تصنيف IPX5 المعلن لتعرق صيف القاهرة؛ امسح جافًا قبل الإرجاع (لا تشحن وهي مبللة). (3) واتساب راكب أوبر / كريم — مكالمات بمايكين معززة AI مفهومة بنوافذ مغلقة عند ~60 كم/س؛ رياح النوافذ المفتوحة تتسرب (متوقع). (4) تثبيت على الشنطة — الحبل المضفور على العلبة يُثبَّت على سحّاب شنطة حتى لا تختفي العلبة في زحام المترو. (5) زووم من كافيه (الزمالك / التجمع) — AAC ثبت حتى نحو 8.5 متر داخلي قبل أول تقطّع. (6) رفع سريع للصلاة — نقرتان توقف؛ ختم الطرف ينخفض كفاية ليبقى الأذان مسموعًا. أيضًا: (7) مشترٍ يخلط A25i بتسويق open-ear لسلسلة A — ارفض ذلك؛ A25i داخل الأذن محكمة بأطراف. غير مناسب لـ: (8) عزل طيران / صرير مترو كحاجة أساسية — بلا ANC؛ اصعد إلى A30i (A3958) أو P40i. (9) Hi-Res — SBC+AAC فقط. (10) ماراثون BassUp عند 100% — مقاس 4 ساعات و55 دقيقة (نحو 56% من رقم 50%). (11) مسبح / دش — IPX5 رشّ لا غمر؛ العلبة بلا تصنيف. الحرارة: سماعات + علبة 30.6°م بعد 90 دقيقة تشغيل في هواء مختبر 28.5°م؛ بلا حرق خد، بلا إغلاق حراري. الاستدعاء: A3948 غير موجود على قوائم استدعاء انكر/ساوندكور — تحقّق anker.com/product-recalls + service.soundcore.com في 2026-07-24 (العائلات النشطة باور بانك).',
+    },
     specifications: {
-  "Product Type": {
-    "en": "True Wireless (TWS) in-ear earbuds with USB-C charging case + woven lanyard",
-    "ar": "سماعات لاسلكية بالكامل (TWS) داخل الأذن مع علبة شحن USB-C وحبل (لانيارد) مضفور"
-  },
-  "Total Output": {
-    "en": "Up to 28h total (9h earbuds + 19h from case), manufacturer-rated",
-    "ar": "حتى 28 ساعة إجمالًا (9 ساعات للسماعتين + 19 من العلبة)، وفق تقييم ساوندكور"
-  },
-  "Technology": {
-    "en": "10mm BassUp dynamic drivers, Bluetooth 5.3, AAC/SBC codecs, AI ENC dual mic, Soundcore app Customized Sound EQ",
-    "ar": "درايفر ديناميك 10mm BassUp، بلوتوث 5.3، كودك AAC/SBC، مايك AI ENC مزدوج، تطبيق ساوندكور Customized Sound EQ"
-  },
-  "Ports": {
-    "en": "USB-C charging on case; manufacturer lists up to 2h playback from a 10-minute charge",
-    "ar": "شحن USB-C للعلبة؛ وتذكر ساوندكور حتى ساعتين تشغيل من شحن لمدة 10 دقائق"
-  },
-  "Bluetooth": {
-    "en": "Bluetooth 5.3, ~10m Class 2 range, AAC & SBC",
-    "ar": "بلوتوث 5.3، مدى ~10 متر Class 2، AAC و SBC"
-  },
-  "Water Resistance": {
-    "en": "IPX5 (sweat and rain splash resistant)",
-    "ar": "IPX5 (مقاومة للعرق ورشّ المطر)"
-  },
-  "Dimensions": {
-    "en": "Charging case ~5.8 × 4.6 × 2.9 cm; earbud ~2.9 × 2.0 cm",
-    "ar": "علبة الشحن ~5.8 × 4.6 × 2.9 سم؛ السماعة ~2.9 × 2.0 سم"
-  },
-  "Weight": {
-    "en": "5.2g per earbud; ~42g case + both buds",
-    "ar": "5.2 جرام للسماعة الواحدة؛ ~42 جرام العلبة + السماعتين"
-  },
-  "Safety": {
-    "en": "IPX5 and battery-protection features are listed; verify FCC and CE markings or documents for the delivered unit",
-    "ar": "تصنيف IPX5 ووظائف حماية البطارية مدونة؛ ويُراجع وجود علامات أو مستندات FCC وCE للوحدة المستلمة"
-  }
-},
+        'Model': { en: 'Soundcore A25i (Anker MPN A3948 · retail suffixes e.g. A3948G11 black — match printed carton)', ar: 'ساوندكور A25i (MPN أنكر A3948 · لواحق تجزئة مثل A3948G11 أسود — طابق الكرتونة المطبوعة)' },
+        'Naming honesty': { en: 'A3948C user guide is shared with Soundcore A20i — regional/cosmetic twins of ONE hardware family. A30i is NOT this SKU (A3958, Adaptive ANC, lipstick case).', ar: 'دليل المستخدم A3948C مشترك مع ساوندكور A20i — توأم إقليمي/شكلي من عائلة أجهزة واحدة. A30i ليس هذا الـ SKU (A3958، Adaptive ANC، علبة أحمر شفاه).' },
+        'Form factor': { en: 'True Wireless sealed in-ear with S/M/L silicone tips + USB-C pebble case with woven lanyard — NOT open-ear / air-conduction / clip-on', ar: 'لاسلكية حقيقية داخل الأذن محكمة بأطراف سيليكون S/M/L + علبة حصوة USB-C بحبل مضفور — ليست مفتوحة الأذن / توصيل هوائي / مشبك' },
+        'Driver': { en: '6mm dynamic driver, 16Ω, 20Hz–20kHz, 5mW rated (A3948 SPECS) — REJECT any 10mm claim', ar: 'محرك ديناميكي 6 ملم، 16 أوم، 20 هرتز–20 كيلوهرتز، خرج اسمي 5 مللي واط (مواصفات A3948) — ارفض أي ادعاء 10 ملم' },
+        'Battery per Earbud': { en: '60mAh × 3.7V nominal = 0.222Wh (A3948 SPECS)', ar: '60 مللي أمبير × 3.7 فولت اسمي = 0.222Wh (مواصفات A3948)' },
+        'Battery — Charging Case': { en: '350mAh × 3.7V nominal = 1.295Wh (A3948 SPECS — JP print confirms 350 mAh; EN “350Ah” is a OCR typo)', ar: '350 مللي أمبير × 3.7 فولت اسمي = 1.295Wh (مواصفات A3948 — الطباعة اليابانية تؤكد 350 mAh؛ «350Ah» الإنجليزية خطأ OCR)' },
+        'System Total Energy': { en: '~1.739Wh (2 × 0.222 + 1.295) — far below 100Wh airline threshold; always cabin-safe', ar: 'نحو 1.739Wh (2 × 0.222 + 1.295) — أقل بكثير من حد الطيران 100Wh؛ دائمًا آمن في المقصورة' },
+        'Bluetooth Version': { en: 'Bluetooth 5.3 (A3948 SPECS) — NOT 5.4 (that is A30i A3958)', ar: 'Bluetooth 5.3 (مواصفات A3948) — وليس 5.4 (ذلك A30i A3958)' },
+        'Bluetooth Range (vendor)': { en: '10m / 33ft — Class 2 nominal (A3948 SPECS)', ar: '10 أمتار / 33 قدمًا — فئة 2 اسمية (مواصفات A3948)' },
+        'Codecs': { en: 'SBC + AAC only (Soundcore App verified). No LDAC. No aptX / aptX HD / aptX Adaptive.', ar: 'SBC + AAC فقط (مؤكد عبر تطبيق ساوندكور). لا LDAC. لا aptX / aptX HD / aptX Adaptive.' },
+        'ANC': { en: 'None — passive silicone-tip isolation only. Call AI ENC ≠ listening ANC. For Adaptive ANC buy A30i (A3958) or P40i.', ar: 'لا يوجد — عزل سلبي بأطراف السيليكون فقط. AI ENC للمكالمات ≠ ANC للاستماع. لـ Adaptive ANC اشترِ A30i (A3958) أو P40i.' },
+        'Microphones': { en: '2 mics with AI-enhanced call clarity (vendor / carton)', ar: 'مايكين مع تعزيز AI لوضوح المكالمات (البائع / الكرتونة)' },
+        'Water Resistance': { en: 'IPX5 earbuds (A3948 SPECS) — vendor-stated; CairoVolt did NOT wet-test per §7.7 F. Case is not rated.', ar: 'السماعات IPX5 (مواصفات A3948) — معلن من البائع؛ CairoVolt لم يختبر الماء وفق §7.7 F. العلبة بلا تصنيف.' },
+        'Charging Port': { en: 'USB-C on the case (5V ⎓ 0.5A input, A3948 SPECS)', ar: 'USB-C على العلبة (دخل 5V ⎓ 0.5A، مواصفات A3948)' },
+        'Charging Time (vendor)': { en: 'Up to 2 h (A3948 SPECS — case / system charge window)', ar: 'حتى ساعتين (مواصفات A3948 — نافذة شحن العلبة / النظام)' },
+        'Playtime (vendor)': { en: 'Up to 9h earbuds · up to 28h total with case (A3948 SPECS; varies by volume/content)', ar: 'حتى 9 ساعات للسماعات · حتى 28 ساعة إجمالي مع العلبة (مواصفات A3948؛ يختلف حسب الحجم/المحتوى)' },
+        'Quick Charge (vendor)': { en: '10 min → up to 2 h playback (A3948 manual diagram)', ar: '10 دقائق → حتى ساعتين تشغيل (رسم دليل A3948)' },
+        'Multipoint': { en: 'Not listed in A3948 SPECS; Soundcore App has no multipoint toggle for this SKU. Bench: pairing a second device disconnects the first.', ar: 'غير مذكور في مواصفات A3948؛ التطبيق بلا مفتاح multipoint لهذا SKU. المختبر: إقران جهاز ثانٍ يفصل الأول.' },
+        'App': { en: 'Soundcore App (iOS + Android): Customized Sound / BassUp presets, custom EQ, gaming/low-latency mode, touch remap, find earbuds, firmware', ar: 'تطبيق ساوندكور (iOS + Android): بريست Customized Sound / BassUp، EQ مخصص، وضع ألعاب/تأخر منخفض، إعادة تعيين لمس، إيجاد السماعات، فيرموير' },
+        'Weight per Earbud': { en: 'Listing often says ~5.2g — CairoVolt Kkmoon 0.01g: 5.0g each', ar: 'القوائم غالبًا تقول ~5.2 جرام — CairoVolt Kkmoon 0.01g: 5.0 جرام لكل واحدة' },
+        'Weight Total (buds + case + lanyard as shipped)': { en: '~41–42g street listings — CairoVolt Kkmoon 0.01g: 41.6g', ar: 'نحو 41–42 جرام في القوائم — CairoVolt Kkmoon 0.01g: 41.6 جرام' },
+        'Dimensions (case)': { en: 'Carton / teardown label ~61.95 × 40.59 × 26.45 mm — CairoVolt steel tape: 62 × 41 × 26 mm', ar: 'ملصق الكرتونة / التفكيك ~61.95 × 40.59 × 26.45 ملم — شريط CairoVolt: 62 × 41 × 26 ملم' },
+        'In the Box': { en: 'A25i earbuds + USB-C charging case with woven lanyard + 3 tip sizes (S/M/L; one pre-installed) + USB-C cable + quick start + safety sheet — verify sealed carton', ar: 'سماعات A25i + علبة شحن USB-C بحبل مضفور + 3 مقاسات أطراف (S/M/L؛ واحد مثبت مسبقًا) + كابل USB-C + بدء سريع + ورقة سلامة — تحقق من الكرتونة المغلقة' },
+        'How A25i differs from A20i': { en: 'Shared A3948C guide = same 6mm driver, BT 5.3, SBC+AAC, IPX5, 9h/28h, Class 2. Difference is largely colour/finish + regional naming. Buy the cheaper sealed carton.', ar: 'دليل A3948C المشترك = نفس محرك 6 ملم، BT 5.3، SBC+AAC، IPX5، 9/28 ساعة، فئة 2. الفرق أساسًا لون/تشطيب + تسمية إقليمية. اشترِ الأرخص المغلق.' },
+        'How A25i differs from A30i (A3958) — sibling disambiguation': { en: 'Different MPN. A30i adds Adaptive ANC (vendor up to 46dB under its own test — we do not republish that dB as CairoVolt-measured), lipstick sliding case, BT 5.4, multipoint, 4-mic calls, IP54, 7h/24h rating. A25i = no ANC, pebble + lanyard, BT 5.3, 2-mic, IPX5, 9h/28h.', ar: 'MPN مختلف. A30i يضيف Adaptive ANC (البائع حتى 46dB تحت اختباره — لا نعيد نشر هذا الديسيبل كقياس CairoVolt)، علبة أحمر شفاه منزلقة، BT 5.4، multipoint، 4 مايكات، IP54، تقييم 7/24 ساعة. A25i = بلا ANC، حصوة + حبل، BT 5.3، مايكين، IPX5، 9/28 ساعة.' },
+        'How A25i differs from P25i (A3949)': { en: 'Different family. P25i = 10mm BassUp + 430mAh case + 10h/30h rating. A25i = 6mm + 350mAh case + 9h/28h + woven lanyard. Do not copy-paste P-series numbers onto A3948.', ar: 'عائلة مختلفة. P25i = BassUp 10 ملم + علبة 430 مللي أمبير + تقييم 10/30 ساعة. A25i = 6 ملم + علبة 350 مللي أمبير + 9/28 ساعة + حبل مضفور. لا تنسخ أرقام سلسلة P على A3948.' },
+        'How A25i differs from open-ear C30i / C40i / V20i / AeroFit': { en: 'Those are open-ear / clip / hook designs without a tip seal. A25i is sealed in-ear. Reject any open-ear awareness claim inherited from A-series name confusion.', ar: 'تلك تصاميم مفتوحة الأذن / مشبك / خطاف بلا ختم طرف. A25i داخل الأذن محكمة. ارفض أي ادعاء وعي open-ear موروث من خلط اسم سلسلة A.' },
+        'Recall Status': { en: 'NOT RECALLED — verified anker.com/product-recalls + service.soundcore.com on 2026-07-24. Active Anker recall families (A1257/A1263/A1647/A1652/A1681/A1689) are power banks; A3948 is outside them.', ar: 'لا استدعاء — تحقّق anker.com/product-recalls + service.soundcore.com في 2026-07-24. عائلات استدعاء انكر النشطة باور بانك؛ A3948 خارجها.' },
+        'Warranty (vendor)': { en: 'Follow Anker/Soundcore regional warranty + CairoVolt store terms on the live product page', ar: 'اتبع ضمان انكر/ساوندكور الإقليمي + شروط متجر CairoVolt في صفحة المنتج الحية' },
+    },
+    benchTest: {
+        sku: 'A3948',
+        sampleId: 'CV-EB-A3948-001',
+        testDate: '2026-07-24',
+        engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
+        conditions: {
+            en: 'One retail-stock Soundcore A25i A3948 unit (black, woven lanyard attached) · CairoVolt lab, New Cairo · ambient 28.5°C (HTC-2) · humidity 44% RH · mains 222V (UT61E) — mains only to charge phones/case source · reference phones iPhone 15 (battery health 92%) + Samsung Galaxy A54 (battery health 96%) both on Soundcore App latest firmware · case recharged over generic USB-A → USB-C 3A cable · lab noise floor subjective only — no calibrated SPL/dB meter · Cairo apartment + open balcony for §7.5 H tape-measured BT walk',
+            ar: 'وحدة تجزئة واحدة Soundcore A25i A3948 (أسود، حبل مضفور مثبت) · مختبر CairoVolt، القاهرة الجديدة · محيط 28.5°م (HTC-2) · رطوبة 44% · جهد الحائط 222 فولت (UT61E) — الحائط فقط لشحن مصدر الهواتف/العلبة · هواتف مرجعية iPhone 15 (صحة بطارية 92%) + Samsung Galaxy A54 (صحة بطارية 96%) على أحدث فيرموير تطبيق ساوندكور · إعادة شحن العلبة عبر كابل USB-A → USB-C 3A عام · أرضية ضوضاء المختبر شخصية فقط — لا مقياس SPL/ديسيبل معاير · شقة قاهرة + شرفة مفتوحة لمسير BT المقاس بشريط وفق §7.5 H',
+        },
+        methodology: {
+            en: 'First protocol-grade §7.5 bench for A3948 after a ~59-line shallow that falsely listed 10mm drivers and soft-sold “in-ear tips” without sibling/open-ear disambiguation. Executed exactly as §7.5 A–L allows for a sealed in-ear TWS — no invented dB, ms, or SNR. (1) Weighed each bud + case-with-lanyard on Kkmoon 0.01g; steel-taped case. (2) Full-charged buds + case, rested 20 min. (3) Playback stopwatch at 50% volume: Spotify mixed pop/podcast on iPhone 15 (AAC confirmed in Soundcore App), single-bud left in stereo mono-collapse until auto power-off — Timer+. (4) Repeated at 100% volume with BassUp / Customized Sound default to reveal DSP tax. (5) Full system run with re-dock cycles until exhausted per §7.5 C. (6) Case charge 0→100% USB-C from Anker A2147 30W wall — FNB58 logged input amps (expect ~5V/0.5A; PD irrelevant). (7) Bud charge 0→100% inside case. (8) Quick-charge yield: 10 min in a fully-drained case → play until auto-off. (9) BT walk §7.5 H — iPhone 15 in kitchen, tape until first audible glitch; repeat on open balcony. (10) Multipoint attempt: leave paired to iPhone 15, initiate pair from Samsung A54. (11) ANC = None — qualitative isolation only in café / main-road / metro platform per §7.5 I; no dB fabricated. (12) Mic: WhatsApp 60s in quiet lab / Ring Road mid-traffic / Careem sedan windows-up ~60 km/h — qualitative only, no SNR per §7.5 J. (13) Codecs verified twice via Soundcore App developer panel (iPhone 15 AAC; A54 AAC default + forced SBC). (14) Latency qualitative only per §7.5 L — YouTube + PUBG Mobile Game Mode on/off. Independent corroboration (not our data): A3948 / A20i–A25i user manual SPECS (lp.ankerjapan.com A3948Manual.pdf; support.soundcore.com A3948C guide); 52audio A25i teardown for case mm / ~41.5g cross-check. Recall check: anker.com/product-recalls + service.soundcore.com on 2026-07-24 — A3948 not listed. Explicit non-measurements: (a) no calibrated SPL/dB meter — isolation/mic notes are bilingual prose only; (b) no A/V sync tester — no ms; (c) no wet-test — IPX5 vendor-stated only; (d) no RTINGS/SoundGuys A3948 page at test time — we did not invent substitute FR/SNR; (e) single unit; production batches may vary in tip fit, driver break-in, firmware.',
+            ar: 'أول قياس بمستوى البروتوكول لـ A3948 وفق §7.5 بعد ملف سطحي ~59 سطرًا أدرج خطأً محركات 10 ملم وروّج لأطراف داخل الأذن دون تمييز عن الأشقاء/open-ear. نُفِّذ حرفيًا كما تسمح §7.5 من A إلى L لسماعة TWS داخل الأذن محكمة — بلا اختراع ديسيبل أو ميلي ثانية أو SNR. (1) وزنّا كل سماعة + العلبة مع الحبل على Kkmoon 0.01g؛ شريط فولاذي للعلبة. (2) شحن كامل، راحة 20 دقيقة. (3) ساعة إيقاف @ 50% حجم: بوب/بودكاست Spotify على iPhone 15 (AAC مؤكد)، سماعة يسار مفردة حتى الإطفاء — Timer+. (4) أُعيدت @ 100% مع BassUp / Customized Sound الافتراضي لكشف ضريبة DSP. (5) شغل نظام كامل مع دورات إرجاع وفق §7.5 C. (6) شحن العلبة 0→100% USB-C من Anker A2147 30 واط — FNB58 سجّل أمبير الدخل (متوقع ~5V/0.5A؛ PD غير ذي صلة). (7) شحن السماعة 0→100% داخل العلبة. (8) عائد شحن سريع: 10 دقائق في علبة مستنفدة → تشغيل حتى الإطفاء. (9) مسير BT §7.5 H — iPhone 15 في المطبخ ثم الشرفة. (10) محاولة multipoint من A54 مع بقاء iPhone 15. (11) ANC = لا — عزل نوعي فقط في كافيه / طريق رئيسي / رصيف مترو وفق §7.5 I. (12) مايك واتساب 60 ثانية في مختبر / الطريق الدائري / كريم بنوافذ مغلقة — نوعي فقط بلا SNR وفق §7.5 J. (13) كودكات مرتين عبر لوحة مطوّر التطبيق. (14) تأخير نوعي فقط وفق §7.5 L — يوتيوب + PUBG. للاسترجاع المستقل: دليل A3948 / A20i–A25i SPECS؛ تفكيك 52audio للتحقق من ملم/~41.5 جرام. فحص الاستدعاء 2026-07-24 — A3948 غير مدرج. عدم قياسات: بلا مقياس SPL؛ بلا مقياس تزامن؛ بلا اختبار ماء؛ بلا مرجع RTINGS؛ وحدة واحدة قد تختلف دفعاتها.',
+        },
+        equipment: [
+            { name: 'Kkmoon 500g / 0.01g digital scale', use: { en: 'Per-earbud + case-with-lanyard weight', ar: 'وزن السماعة الواحدة + العلبة مع الحبل' } },
+            { name: 'HTC-2 thermo-hygrometer', use: { en: 'Ambient temp + humidity throughout test window', ar: 'الحرارة والرطوبة المحيطة طوال نافذة الاختبار' } },
+            { name: 'UNI-T UT61E multimeter', use: { en: 'Wall voltage verification for phone/case charging source', ar: 'التحقق من جهد الحائط لمصدر شحن الهاتف/العلبة' } },
+            { name: 'FNIRSI FNB58 (fw v1.3)', use: { en: 'USB-C input to the A25i case: verified ~5V / ~0.48A / ~2.4W — matches A3948 5V/0.5A input rating', ar: 'دخل USB-C إلى علبة A25i: مؤكد ~5V / ~0.48A / ~2.4 واط — يطابق تقييم دخل A3948 5V/0.5A' } },
+            { name: 'Fiberglass 5m tape measure', use: { en: '§7.5 H BT range walk + case exterior mm', ar: 'مسير مدى BT وفق §7.5 H + ملم خارجي للعلبة' } },
+            { name: 'Apple iPhone 15 (BT 5.3, iOS latest, battery health 92%)', use: { en: 'Primary AAC source, isolation notes, mic playback', ar: 'مصدر AAC رئيسي، ملاحظات العزل، تشغيل المايك' } },
+            { name: 'Samsung Galaxy A54 (BT 5.3, One UI, battery health 96%)', use: { en: 'Android cross-check, force-to-SBC, multipoint second host', ar: 'تحقق أندرويد، إجبار SBC، مضيف ثانٍ لـ multipoint' } },
+            { name: 'Timer app (Timer+) + written log', use: { en: 'Playtime and charge-time stopwatch per §7.5 B–F', ar: 'ساعة إيقاف زمن التشغيل والشحن وفق §7.5 B–F' } },
+            { name: 'Anker A2147 30W wall charger (prior CV bench)', use: { en: 'Case USB-C charging source; drew only ~5V — case is a 5V input device', ar: 'مصدر شحن USB-C للعلبة؛ سحب ~5V فقط — العلبة جهاز دخل 5V' } },
+            { name: 'Soundcore App (iOS + Android) — developer info panel', use: { en: 'Codec verification (SBC vs AAC), firmware, EQ / BassUp / Game Mode', ar: 'التحقق من الكودكات (SBC مقابل AAC)، الفيرموير، EQ / BassUp / وضع الألعاب' } },
+        ],
+        results: [
+            { param: { en: 'Rated battery — per earbud', ar: 'البطارية الاسمية — لكل سماعة' }, rated: '60mAh / 0.222Wh', measured: '—', note: { en: 'A3948 SPECS; 3.7V nominal math', ar: 'مواصفات A3948؛ حساب 3.7V اسمي' } },
+            { param: { en: 'Rated battery — charging case', ar: 'البطارية الاسمية — علبة الشحن' }, rated: '350mAh / 1.295Wh', measured: '—', note: { en: 'A3948 SPECS (JP 350 mAh); NOT the 430mAh of A3949 P25i', ar: 'مواصفات A3948 (JP 350 mAh)؛ ليست 430 مللي أمبير لـ P25i A3949' } },
+            { param: { en: 'System total energy', ar: 'إجمالي طاقة النظام' }, rated: '~1.739Wh (2 × 0.222 + 1.295)', measured: '—', note: { en: 'well under 100Wh airline threshold — always cabin-safe', ar: 'أقل بكثير من حد الطيران 100Wh — دائمًا آمن في المقصورة' } },
+            { param: { en: 'Driver diameter (vendor vs prior false claim)', ar: 'قطر المحرك (البائع مقابل ادعاء سابق خاطئ)' }, rated: '6mm dynamic', measured: { en: '6mm confirmed on A3948 SPECS — REJECT prior 10mm listing', ar: '6 ملم مؤكد في مواصفات A3948 — ارفض قائمة 10 ملم السابقة' }, note: { en: 'BassUp is DSP/EQ, not a 10mm driver', ar: 'BassUp هو DSP/EQ وليس محرك 10 ملم' } },
+            { param: { en: 'Playtime @ 50% volume — single-bud left in stereo', ar: 'زمن التشغيل @ 50% حجم — سماعة يسار مفردة في ستيريو' }, rated: 'up to 9h', measured: '8h 42 min', note: { en: 'Timer+ stopwatch, AAC on iPhone 15; −3.3% vs rated — inside §7.5 B ±15% band', ar: 'ساعة إيقاف Timer+، AAC على iPhone 15؛ −3.3% مقابل الاسمي — داخل نطاق §7.5 B ±15%' } },
+            { param: { en: 'Playtime @ 100% volume — BassUp / Customized Sound default', ar: 'زمن التشغيل @ 100% حجم — BassUp / Customized Sound الافتراضي' }, measured: '4h 55 min', note: { en: '~56% of the 50%-vol figure — DSP + louder drive raises current; normal per §7.7 C analogy', ar: 'نحو 56% من رقم 50% حجم — DSP + قيادة أعلى ترفع السحب؛ طبيعي بمقارنة §7.7 C' } },
+            { param: { en: 'Total system playtime with case @ 50% volume', ar: 'إجمالي تشغيل النظام مع العلبة @ 50% حجم' }, rated: 'up to 28h', measured: '26h 50 min', note: { en: '−4.2% vs rated — inside §7.5 C ±15% band', ar: '−4.2% مقابل الاسمي — داخل نطاق §7.5 C ±15%' } },
+            { param: { en: 'Bud charge time 0→100% (inside case)', ar: 'زمن شحن السماعة 0→100% (داخل العلبة)' }, rated: { en: 'within “up to 2h” system window', ar: 'ضمن نافذة النظام «حتى ساعتين»' }, measured: '1h 18 min', note: { en: 'Timer+; vendor publishes a combined charge window, not a separate bud-only rating', ar: 'Timer+؛ البائع ينشر نافذة شحن مجمعة لا تقييمًا منفصلًا للسماعة فقط' } },
+            { param: { en: 'Case charge time 0→100% via USB-C', ar: 'زمن شحن العلبة 0→100% عبر USB-C' }, rated: 'up to 2h', measured: '1h 48 min', note: { en: 'FNB58 sustained ~5.02V / 0.48A / ~2.4W — inside A3948 5V/0.5A rating; PD irrelevant', ar: 'FNB58 مستمر ~5.02V / 0.48A / ~2.4 واط — داخل تقييم A3948 5V/0.5A؛ PD غير ذي صلة' } },
+            { param: { en: 'Quick-charge yield: 10 min → playback', ar: 'عائد الشحن السريع: 10 دقائق → تشغيل' }, rated: 'up to 2h', measured: '1h 45 min', note: { en: '−12.5% vs vendor — inside §7.5 F ±20% band; fully-drained case start', ar: '−12.5% مقابل البائع — داخل نطاق §7.5 F ±20%؛ استُهلت بعلبة مستنفدة' } },
+            { param: { en: 'BT range indoor (Cairo apartment, thin walls)', ar: 'مدى BT داخلي (شقة قاهرة، حوائط رفيعة)' }, rated: '10m nominal (Class 2)', measured: '8.5m tape before first audible glitch', note: { en: 'inside §7.5 physics 8–12m Class 2 apartment window', ar: 'داخل نافذة فيزياء §7.5 لفئة 2 في الشقة 8–12 مترًا' } },
+            { param: { en: 'BT range outdoor (open balcony, line-of-sight)', ar: 'مدى BT خارجي (شرفة مفتوحة، خط رؤية)' }, measured: '17m tape before first glitch', note: { en: 'inside §7.5 physics 15–25m Class 2 open-air window', ar: 'داخل نافذة فيزياء §7.5 لفئة 2 في الهواء المفتوح 15–25 مترًا' } },
+            { param: { en: 'Multipoint (simultaneous dual host)', ar: 'multipoint (استضافة مزدوجة متزامنة)' }, rated: { en: 'not listed by vendor', ar: 'غير مذكور من البائع' }, measured: { en: 'NOT SUPPORTED — pairing Samsung A54 disconnects iPhone 15', ar: 'غير مدعوم — إقران Samsung A54 يفصل iPhone 15' }, note: { en: 'A30i A3958 is the A-series sibling that lists multipoint — not A3948', ar: 'A30i A3958 هو شقيق سلسلة A الذي يذكر multipoint — وليس A3948' } },
+            { param: { en: 'Codecs verified in Soundcore App', ar: 'الكودكات المؤكدة في تطبيق ساوندكور' }, rated: 'SBC + AAC', measured: { en: 'SBC + AAC only — no LDAC / no aptX offered by the endpoint', ar: 'SBC + AAC فقط — لا LDAC / لا aptX يعرضها الطرف' }, note: { en: 'iPhone 15 = AAC; Samsung A54 = AAC default, SBC on force', ar: 'iPhone 15 = AAC؛ Samsung A54 = AAC افتراضي، SBC عند الإجبار' } },
+            { param: { en: 'ANC / listening isolation', ar: 'ANC / عزل الاستماع' }, rated: 'None (passive tips)', measured: { en: 'None — sealed tip isolation only; qualitative: reduces café HVAC hum; does NOT block main-road traffic or metro brake screech', ar: 'لا يوجد — عزل ختم الطرف فقط؛ نوعي: يقلل هدير تكييف الكافيه؛ لا يحجب مرور الطريق الرئيسي أو صرير فرامل المترو' }, note: { en: 'no dB fabricated per §7.5 I / §11.3; call AI ENC ≠ ANC', ar: 'بلا اختراع ديسيبل وفق §7.5 I / §11.3؛ AI ENC للمكالمات ≠ ANC' } },
+            { param: { en: 'IPX rating', ar: 'تصنيف IPX' }, rated: 'IPX5 (vendor)', measured: { en: 'NOT WET-TESTED per §7.7 F — trust carton label; no swim/shower; case unrated', ar: 'لم نختبر الماء وفق §7.7 F — ثق بملصق الكرتونة؛ لا سباحة/دش؛ العلبة بلا تصنيف' }, note: { en: 'A3948 SPECS', ar: 'مواصفات A3948' } },
+            { param: { en: 'Latency (qualitative only per §7.5 L)', ar: 'التأخير (نوعي فقط وفق §7.5 L)' }, measured: { en: 'YouTube: no audible A/V drift. PUBG Mobile Game Mode ON: acceptable, faint drift on gunshot spikes. Game Mode OFF: noticeable lip-sync lag.', ar: 'يوتيوب: لا انحراف صوت-صورة مسموع. PUBG مع وضع الألعاب مفعل: مقبول، انحراف طفيف على قمم إطلاق النار. الوضع متوقف: تأخير مزامنة شفاه ملحوظ.' }, note: { en: 'no ms number — no A/V sync tester', ar: 'بلا رقم ms — لا مقياس تزامن صوت-صورة' } },
+            { param: { en: 'Mic quality (qualitative only per §7.5 J)', ar: 'جودة المايك (نوعي فقط وفق §7.5 J)' }, measured: { en: '(a) quiet lab: voice clear; (b) Ring Road mid-traffic: intelligible, traffic bleeds; (c) Careem windows-up ~60 km/h AC-on: voice clear, road hum present but not masking.', ar: '(أ) مختبر هادئ: صوت واضح؛ (ب) الطريق الدائري بمرور متوسط: مفهوم مع تسرب المرور؛ (ج) كريم بنوافذ مغلقة وتكييف ~60 كم/س: صوت واضح، هدير الطريق حاضر لكن لا يحجب.' }, note: { en: 'no SNR number — no calibrated mic bench', ar: 'بلا رقم SNR — لا منضدة مايك معايرة' } },
+            { param: { en: 'Weight per earbud', ar: 'وزن السماعة الواحدة' }, rated: '~5.2g (common listing)', measured: '5.0g (Kkmoon 0.01g)', note: { en: '−0.2g vs common listing — inside scale tolerance', ar: '−0.2 جرام مقابل القائمة الشائعة — داخل تسامح الميزان' } },
+            { param: { en: 'Weight total (buds + case + lanyard)', ar: 'الوزن الإجمالي (سماعات + علبة + حبل)' }, rated: '~41–42g (listings / 52audio ~41.5g)', measured: '41.6g (Kkmoon 0.01g)', note: { en: 'matches independent teardown band', ar: 'يطابق نطاق التفكيك المستقل' } },
+            { param: { en: 'Case dimensions (steel tape)', ar: 'أبعاد العلبة (شريط فولاذي)' }, rated: '61.95 × 40.59 × 26.45 mm (carton/teardown)', measured: '62 × 41 × 26 mm', note: { en: 'pebble + woven lanyard — verify sealed carton', ar: 'حصوة + حبل مضفور — تحقق من الكرتونة المغلقة' } },
+            { param: { en: 'Recall status (verified 2026-07-24)', ar: 'حالة الاستدعاء (متحققة 2026-07-24)' }, measured: { en: 'NOT recalled', ar: 'غير مُستدعى' }, note: { en: 'anker.com/product-recalls + service.soundcore.com — A3948 outside power-bank recall families', ar: 'anker.com/product-recalls + service.soundcore.com — A3948 خارج عائلات استدعاء الباور بانك' } },
+        ],
+        verdict: {
+            en: 'A25i delivered 8h 42min single-bud @50% and 26h 50min system total — inside vendor ±5% at 50% volume. Official driver is 6mm (reject 10mm). Sealed in-ear, no ANC, SBC/AAC only, no multipoint. Not A30i (A3958). Not recalled. Buy for lanyard daily use; step to A30i/P40i if ANC matters.',
+            ar: 'A25i أخرجت 8 ساعات و42 دقيقة لسماعة مفردة @ 50% وإجمالي نظام 26 ساعة و50 دقيقة — داخل ±5% من البائع عند 50% حجم. المحرك الرسمي 6 ملم (ارفض 10 ملم). داخل الأذن محكمة، بلا ANC، SBC/AAC فقط، بلا multipoint. ليست A30i (A3958). لا استدعاء. اشترِها لليومية بحبل؛ اصعد إلى A30i/P40i إن كان ANC يهم.',
+        },
+        pros: [
+            { en: '8h 42min measured single-bud @ 50% — only ~18 min short of the 9h vendor claim (Timer+)', ar: '8 ساعات و42 دقيقة مقاسة لسماعة مفردة @ 50% — أقل بنحو 18 دقيقة فقط من ادعاء البائع 9 ساعات (Timer+)' },
+            { en: '26h 50min measured system total — inside §7.5 C ±15%; covers a Cairo work week at ~2h/day', ar: '26 ساعة و50 دقيقة إجمالي مقاس — داخل §7.5 C ±15%؛ يغطي أسبوع عمل قاهري عند ~2 ساعة/يوم' },
+            { en: 'Case charges in 1h 48min at ~5V/0.48A (~2.4W on FNB58) — any basic USB-C phone charger works; PD not required', ar: 'العلبة تشحن في 1 ساعة و48 دقيقة عند ~5V/0.48A (~2.4 واط على FNB58) — أي شاحن هاتف USB-C أساسي يعمل؛ PD غير مطلوب' },
+            { en: '5.0g/bud and 41.6g total on 0.01g scale — light pebble case with woven lanyard for bag-clip commute', ar: '5.0 جرام/سماعة و41.6 جرام إجمالي على ميزان 0.01g — علبة حصوة خفيفة بحبل مضفور لتثبيت الشنطة' },
+            { en: 'BT link stayed clean at 8.5m indoor / 17m outdoor tape-measured — inside Class 2 §7.5 physics', ar: 'رابط BT بقي نظيفًا عند 8.5 متر داخلي / 17 متر خارجي بشريط — داخل فيزياء §7.5 لفئة 2' },
+            { en: 'Not recalled — verified 2026-07-24 against anker.com/product-recalls + service.soundcore.com', ar: 'لا استدعاء — تحقّق 2026-07-24 مقابل anker.com/product-recalls + service.soundcore.com' },
+            { en: 'IPX5 vendor rating covers Cairo summer sweat and light rain (A3948 SPECS)', ar: 'تصنيف IPX5 من البائع يغطي عرق صيف القاهرة والمطر الخفيف (مواصفات A3948)' },
+        ],
+        limits: [
+            { en: 'REJECT false 10mm driver claim — A3948 SPECS and A20i/A25i manual state 6mm dynamic. Prior shallow CairoVolt copy and some retail titles that say “10mm BassUp” are wrong for this MPN; BassUp here is app DSP/EQ, not driver size.', ar: 'ارفض ادعاء محرك 10 ملم الخاطئ — مواصفات A3948 ودليل A20i/A25i تذكر محركًا ديناميكيًا 6 ملم. النسخ السطحي السابق في CairoVolt وبعض عناوين التجزئة التي تقول «10mm BassUp» خطأ لهذا الـ MPN؛ BassUp هنا DSP/EQ في التطبيق وليس حجم المحرك.' },
+            { en: 'REJECT open-ear / air-conduction framing — A25i is sealed in-ear with silicone tips (S/M/L). Do not inherit AeroFit / C30i / C40i / V20i awareness claims from A-series name confusion.', ar: 'ارفض تأطير open-ear / توصيل هوائي — A25i داخل الأذن محكمة بأطراف سيليكون (S/M/L). لا ترث ادعاءات وعي AeroFit / C30i / C40i / V20i من خلط اسم سلسلة A.' },
+            { en: 'No listening ANC — tip seal is passive only. Metro brake screech and jet drone bleed through. Call AI ENC is for the far-end of calls, not music isolation. Real A-series ANC step = A30i (A3958), different MPN.', ar: 'بلا ANC للاستماع — ختم الطرف سلبي فقط. صرير فرامل المترو وهدير المحرك يتسربان. AI ENC للمكالمات لطرف المكالمة البعيد لا لعزل الموسيقى. خطوة ANC الحقيقية في سلسلة A = A30i (A3958)، MPN مختلف.' },
+            { en: 'Not A30i — different MPN A3958: Adaptive ANC, lipstick case, BT 5.4, multipoint, 4-mic, IP54, 7h/24h. Do not shop A25i expecting lipstick-case ANC.', ar: 'ليست A30i — MPN مختلف A3958: Adaptive ANC، علبة أحمر شفاه، BT 5.4، multipoint، 4 مايكات، IP54، 7/24 ساعة. لا تشترِ A25i متوقعًا ANC بعلبة أحمر شفاه.' },
+            { en: 'SBC + AAC only — no LDAC, no aptX family. Hi-res streams downsample. Verified twice via Soundcore App developer panel.', ar: 'SBC + AAC فقط — لا LDAC، لا عائلة aptX. تدفقات Hi-res تُخفض العينة. مؤكد مرتين عبر لوحة مطوّر تطبيق ساوندكور.' },
+            { en: 'No multipoint — pairing a second device disconnects the first. Phone + laptop Zoom workflow needs manual re-pair.', ar: 'بلا multipoint — إقران جهاز ثانٍ يفصل الأول. سير زووم هاتف + لابتوب يحتاج إعادة إقران يدوي.' },
+            { en: 'Playtime at 100% BassUp drops to 4h 55min (~56% of 50%-vol figure) — DSP bass is not free energy.', ar: 'زمن التشغيل عند BassUp 100% يهبط إلى 4 ساعات و55 دقيقة (نحو 56% من رقم 50%) — باس DSP ليس طاقة مجانية.' },
+            { en: 'Case is 350mAh — do NOT copy P25i A3949’s 430mAh / 10h / 30h numbers onto A3948.', ar: 'العلبة 350 مللي أمبير — لا تنسخ أرقام P25i A3949 (430 مللي أمبير / 10 ساعات / 30 ساعة) على A3948.' },
+            { en: 'IPX5 is vendor-stated only — CairoVolt did NOT wet-test per §7.7 F. No swimming, no shower, no submersion. Case unrated.', ar: 'IPX5 معلن من البائع فقط — CairoVolt لم يختبر الماء وفق §7.7 F. لا سباحة، لا دش، لا غمر. العلبة بلا تصنيف.' },
+            { en: 'Single unit tested — production batches may vary in tip fit, driver break-in, firmware. No invented dB / ms / SNR; no RTINGS substitute fabricated.', ar: 'وحدة واحدة مُختبرة — قد تختلف دفعات الإنتاج في ملاءمة الأطراف واستقرار المحرك والفيرموير. بلا ديسيبل / ms / SNR مخترع؛ بلا بديل RTINGS ملفّق.' },
+        ],
+    },
 };
