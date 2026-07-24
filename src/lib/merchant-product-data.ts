@@ -103,7 +103,9 @@ export const MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS = new Set([
     'joyroom-usb-a-type-c-1.2m',
     'soundcore-p30i-earbuds',
     'soundcore-p25i-earbuds',
-    'anker-nano-45w-1c-pd',
+    'anker-nano-45w-1c-pd', // A2664 alias of anker-nano-45w
+    'anker-soundcore-r50i-nc', // A3959 alias of soundcore-p30i family — do not duplicate Merchant SKU
+    'anker-zolo-a1681-20000', // active Anker/CPSC recall (rc2506) — do not promote in Merchant
 ]);
 
 /** Date of the latest full catalog-content and offer review. */
