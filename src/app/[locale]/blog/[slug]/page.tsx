@@ -587,7 +587,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                             href={getLocalizedHref(`/${prod.brand.toLowerCase()}/${prod.categorySlug.toLowerCase()}/${slug}`)}
                                             className={`group rounded-2xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-1 ${isAnkerBrand ? 'hover:border-blue-300 hover:shadow-blue-100/50 dark:hover:shadow-blue-900/30' : 'hover:border-red-300 hover:shadow-red-100/50 dark:hover:shadow-red-900/30'}`}
                                         >
-                                            {/* Product Image — catalog assets are 1:1; keep the frame square */}
+                                            {/* Product Image — square frame, full-bleed (no inset padding) */}
                                             <div className="relative aspect-square bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-800 overflow-hidden">
                                                 {primaryImage ? (
                                                     <Image
@@ -595,7 +595,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                                         alt={isArabic ? localizeArabicBrandNames(pTrans.name) : pTrans.name}
                                                         fill
                                                         sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
-                                                        className="object-contain p-3 group-hover:scale-105 transition-transform duration-500"
+                                                        className="object-cover group-hover:scale-105 transition-transform duration-500"
                                                         loading="lazy"
                                                     />
                                                 ) : (
