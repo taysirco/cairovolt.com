@@ -1,8 +1,21 @@
-// Details for: joyroom-usb-a-lightning-1.2m
+// Orphan slug (hyphen 1-2m) — no product file. Canonical listing: joyroom-usb-a-lightning-1.2m (JR-S-AL12).
 import type { ProductDetail } from './_types';
 
 export const joyroom_usb_a_lightning_1_2m_detail: ProductDetail = {
-        aiTldr: { en: ['USB-A to Lightning cable for compatible chargers and devices', 'Output is listed up to 2.4A with compatible equipment', '1.2m length for added reach', 'Check the charger, device connector and cable condition before use'], ar: ['كابل USB-A إلى Lightning للشواحن والأجهزة المتوافقة', 'الخرج مدون حتى 2.4 أمبير مع المعدات المتوافقة', 'طول 1.2 متر لمدى إضافي', 'راجع الشاحن وموصل الجهاز وحالة الكابل قبل الاستخدام'] },
-        localContext: { en: 'This cable can work with a sound USB-A charger and a compatible Lightning device. Confirm the exact device connector and charger output rather than assuming universal compatibility.', ar: 'يمكن استخدام هذا الكابل مع شاحن USB-A سليم وجهاز Lightning متوافق. تأكد من موصل الجهاز وخرج الشاحن بدلًا من افتراض التوافق الشامل.' },
-        specifications: { 'Length': { en: '1.2m', ar: '1.2 متر' }, 'Max Charging': { en: 'Up to 2.4A with compatible equipment', ar: 'حتى 2.4 أمبير مع المعدات المتوافقة' }, 'Material': { en: 'TPE', ar: 'TPE' }, 'Connector': { en: 'USB-A to Lightning', ar: 'USB-A إلى Lightning' }, 'Compatibility': { en: 'Compatible Lightning devices; verify the exact model', ar: 'أجهزة Lightning المتوافقة؛ تحقق من الموديل الدقيق' }, 'Dimensions': { en: '1.2m length', ar: 'طول 1.2 متر' }, 'Weight': { en: '20g', ar: '20 جرام' }, 'Safety': { en: 'Inspect the connectors and strain relief; replace if damaged', ar: 'افحص الموصلات وتخفيف الشد واستبدل الكابل عند التلف' } },
-    };
+    aiTldr: {
+        en: [
+            'This slug is an orphan spelling variant (1-2m) with no catalogue product row.',
+            'Use `joyroom-usb-a-lightning-1.2m` (MPN JR-S-AL12) for the live 1.2m USB-A→Lightning listing and any gold bench.',
+            'Do not confuse with `joyroom-usb-a-lightning-cable` (JR-S-AL24, ~1m).',
+        ],
+        ar: [
+            'هذا الـslug تهجئة يتيمة (1-2m) بلا صف منتج في الكتالوج.',
+            'استخدم `joyroom-usb-a-lightning-1.2m` (MPN JR-S-AL12) للقائمة الحية وأي تقرير ذهبي.',
+            'لا تخلطه مع `joyroom-usb-a-lightning-cable` (JR-S-AL24، ~1 م).',
+        ],
+    },
+    specifications: {
+        'Status': { en: 'Orphan stub — redirect to joyroom-usb-a-lightning-1.2m', ar: 'stub يتيم — توجيه إلى joyroom-usb-a-lightning-1.2m' },
+        'Canonical MPN': { en: 'JR-S-AL12', ar: 'JR-S-AL12' },
+    },
+};

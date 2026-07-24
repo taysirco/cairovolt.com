@@ -1,8 +1,21 @@
-// Details for: joyroom-usb-a-type-c-1.2m
+// Orphan slug (hyphen 1-2m) — no product file. Canonical listing: joyroom-usb-a-type-c-1.2m (JR-S-AC12).
 import type { ProductDetail } from './_types';
 
 export const joyroom_usb_a_type_c_1_2m_detail: ProductDetail = {
-        aiTldr: { en: ['1.2m USB-A to USB-C cable for added reach', 'Current is listed up to 3A with compatible equipment', 'Check the exact phone connector and charging protocol', 'Review the current warranty terms on the product and policy pages'], ar: ['كابل USB-A إلى USB-C بطول 1.2 متر لمدى إضافي', 'التيار مدون حتى 3 أمبير مع المعدات المتوافقة', 'راجع موصل الهاتف وبروتوكول الشحن الدقيقين', 'راجع شروط الضمان الحالية في صفحة المنتج وصفحات السياسات'] },
-        localContext: { en: 'The 1.2m length can provide extra reach in a car or at a desk. Route the cable away from pedals and controls, and verify the device connector and charger output before use.', ar: 'قد يوفر طول 1.2 متر مدى إضافيًا في السيارة أو المكتب. أبعد الكابل عن الدواسات وأدوات التحكم، وتحقق من موصل الجهاز وخرج الشاحن قبل الاستخدام.' },
-        specifications: { 'Length': { en: '1.2m (4ft)', ar: '1.2 متر (4 أقدام)' }, 'Max Current': { en: 'Up to 3A with compatible equipment', ar: 'حتى 3 أمبير مع المعدات المتوافقة' }, 'Connector': { en: 'USB-A to Type-C', ar: 'USB-A إلى Type-C' }, 'Compatibility': { en: 'Compatible USB-C devices; verify the exact model and protocol', ar: 'أجهزة USB-C المتوافقة؛ تحقق من الموديل والبروتوكول' }, 'Warranty': { en: 'Review current product-page and policy terms', ar: 'راجع الشروط الحالية في صفحة المنتج والسياسات' }, 'Dimensions': { en: '1.2m length', ar: 'طول 1.2 متر' }, 'Weight': { en: '22g', ar: '22 جرام' }, 'Safety': { en: 'Inspect the strain relief and replace if damaged', ar: 'افحص منطقة تخفيف الشد واستبدل الكابل عند التلف' } },
-    };
+    aiTldr: {
+        en: [
+            'This slug is an orphan spelling variant (1-2m) with no catalogue product row.',
+            'Use `joyroom-usb-a-type-c-1.2m` (MPN JR-S-AC12) for the live 1.2m USB-A→Type-C listing and any gold bench.',
+            'Do not confuse with `joyroom-usb-a-type-c-cable` (JR-S-AC30, ~1m).',
+        ],
+        ar: [
+            'هذا الـslug تهجئة يتيمة (1-2m) بلا صف منتج في الكتالوج.',
+            'استخدم `joyroom-usb-a-type-c-1.2m` (MPN JR-S-AC12) للقائمة الحية وأي تقرير ذهبي.',
+            'لا تخلطه مع `joyroom-usb-a-type-c-cable` (JR-S-AC30، ~1 م).',
+        ],
+    },
+    specifications: {
+        'Status': { en: 'Orphan stub — redirect to joyroom-usb-a-type-c-1.2m', ar: 'stub يتيم — توجيه إلى joyroom-usb-a-type-c-1.2m' },
+        'Canonical MPN': { en: 'JR-S-AC12', ar: 'JR-S-AC12' },
+    },
+};

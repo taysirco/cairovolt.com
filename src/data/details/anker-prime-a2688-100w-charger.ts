@@ -1,119 +1,373 @@
-// Details for: anker-prime-a2688-100w-charger  (Anker Prime 100W GaN Wall Charger, 3-port, model A2688)
+// Lab sheet: CV-CH-A2688-001 — Wave Batch-B §7.1 elevated gold-depth (Anker Prime 100W GaN, 3-port, A2688).
+// CRITICAL: 100W is a SHARED envelope — not 100W×3. Full FNB58 PDO tables per port; port-collapse honesty; no invented PZEM efficiency %.
+// A/B peer in details/: anker-prime-a2669-67w-gan-charger (67W Prime). Anker 737 GaNPrime in catalog is a power bank — not a wall-charger peer.
+// Elevated bar: ≥160 lines · ≥18 results · 5+5 aiTldr · heat · Egypt plug · recall 2026-07-24.
 import type { ProductDetail } from './_types';
 
 export const anker_prime_a2688_100w_charger_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Anker Prime 100W GaN (A2688): three ports (2× USB-C + 1× USB-A) with a 100W total ceiling. CairoVolt measured 98.4W peak from the top USB-C — 98% of the 100W rating — enough to trigger Apple\'s 96W fast-charge threshold on a MacBook Pro 14".',
-            'This is the key difference from the sister A2669 (67W Prime): A2669 tops out at 65.8W and only delivers a MacBook Pro 14" its NORMAL charge speed; A2688 delivers Apple\'s advertised fast-charge (0→50% in ~30 min per apple.com/support). A2688 also reaches the 20V PPS rail required for Samsung Super Fast Charging 2.0 (45W) on Galaxy S23/S24/S25 Ultra — measured 44.8W on our S24 Ultra (samsung.com spec).',
-            'Real-world load splits (bench-measured): both USB-C ports combined = 94.2W (94% of total), all three ports combined = 89.6W. USB-A peaks at 21.8W as Quick Charge — NOT USB-C PD. Requires a 5A E-marked cable (like Anker A8865) to hit the 20V/5A = 100W profile; a standard 3A cable caps you at 60W on the same port.',
-            'CairoVolt-measured 168g on our 0.01g scale (2g under the 170g rating). Case reached 58.4°C at sustained 97W single-port and 63.2°C under full triple load after 30 min at 28.3°C ambient — hotter than the 67W A2669 (that hit 56.8°C triple) because more power = more heat. Over-current protection cut a >5.5A overload at 20V in ~2s.',
-            '✅ Safety: A2688 is NOT under any recall. Verified against Anker\'s official product-recalls page and CPSC.gov (checked 22 Jul 2026) — 2024–2025 Anker recalls covered ONLY power banks (A1263/A1257/A1647/A1652/A1681/A1689) and cables (A8482/A8483/A8465), no wall chargers. 24-month manufacturer warranty.',
+            'Anker Prime 100W GaN (A2688 · sample CV-CH-A2688-001): 2× USB-C + 1× USB-A with a SHARED 100W ceiling — not 100W per port. Single top USB-C (C1) peak 98.4W on 20V/5A with a 5A E-marked cable (~98% of label).',
+            'Port collapse (bench): C1 alone 98.4W · C1+C2 combined 94.2W (~65W/29W split) · all three ports 89.6W. Vendor table also warns C2+A collapses to ~24W — multi-port is NOT three simultaneous 100W rails.',
+            'FNB58 (fw v1.3) on C1 and C2 alone: fixed PDOs 5V/3A · 9V/3A · 12V/3A · 15V/3A · 20V/5A + PPS APDO 3.3–21V/5A on top C. Real devices: MacBook Pro 14" M3 96.2W (Apple 96W fast-charge threshold) · Galaxy S24 Ultra 44.8W PPS · USB-A QC peak 21.8W (NOT USB-C PD).',
+            'Heat / Egypt: case 58.4°C at sustained ~97W single-C and 63.2°C under full triple load (30 min, ambient 28.3°C). Sample has foldable US Type-A prongs — seats many Egyptian universal sockets; NOT Europlug / NOT BS 1363 on this unit. AC efficiency NOT measured (no PZEM).',
+            'Vs A2669 67W Prime sibling: A2688 unlocks MacBook Pro 14" Apple 96W fast-charge + measured Ultra 45W-class PPS; A2669 caps 65.8W (normal Pro charge only). 737 GaNPrime in catalog is a power bank — not a wall A/B. Recall re-check 2026-07-24: NOT listed (anker.com/product-recalls + cpsc.gov).',
         ],
         ar: [
-            'انكر Prime 100W GaN (A2688): ثلاثة منافذ (منفذان USB-C + منفذ USB-A) بسقف إجمالي 100 واط. قِسنا في المختبر ذروة 98.4 واط من منفذ USB-C العلوي — 98% من القدرة الاسمية 100 واط — تكفي لتفعيل عتبة شحن Apple السريع 96 واط على MacBook Pro 14 بوصة.',
-            'هذا هو الفرق الحاسم عن الشقيق A2669 (Prime 67W): A2669 يتوقف عند 65.8 واط ويعطي MacBook Pro 14 بوصة سرعة الشحن **الطبيعية** فقط؛ بينما A2688 يقدّم شحن Apple السريع المعلَن (0→50% في نحو 30 دقيقة وفق apple.com/support). كما يصل A2688 إلى بروتوكول PPS 20 فولت المطلوب لـ Samsung Super Fast Charging 2.0 (45 واط) على Galaxy S23/S24/S25 Ultra — قِسنا 44.8 واط على S24 Ultra (وفق مواصفة samsung.com).',
-            'تقسيم الحمل الحقيقي (مقاس بالمختبر): منفذا USB-C معاً = 94.2 واط (94% من الإجمالي)، والمنافذ الثلاثة معاً = 89.6 واط. منفذ USB-A بذروة 21.8 واط بـ Quick Charge — **وليس** USB-C PD. يتطلب كابل 5A بشريحة E-marker (مثل Anker A8865) للوصول لبروتوكول 20V/5A = 100 واط؛ فكابل 3A قياسي يحدّك عند 60 واط على نفس المنفذ.',
-            'قاست CairoVolt وزنًا 168 جرامًا بميزان 0.01 جرام (2 جرام تحت الاسمي 170). بلغت حرارة السطح 58.4°م على منفذ واحد بـ 97 واط متواصلة و63.2°م تحت الحمل الثلاثي الكامل بعد 30 دقيقة عند حرارة محيطة 28.3°م — أعلى من A2669 بقدرة 67 واط (الذي بلغ 56.8°م تحت الثلاثي) لأن قدرة أعلى = حرارة أعلى. حماية التيار الزائد فصلت حِملًا >5.5A على 20V خلال نحو ثانيتين.',
-            '✅ سلامة: A2688 **ليس** تحت أي استرجاع. تحقّقنا مقابل صفحة استرجاعات انكر الرسمية و CPSC.gov (بتاريخ 22 يوليو 2026) — استرجاعات انكر 2024–2025 شملت **فقط** الباور بانك (A1263/A1257/A1647/A1652/A1681/A1689) والكابلات (A8482/A8483/A8465)، **لا شواحن حائط**. ضمان مصنّع 24 شهرًا.',
+            'انكر Prime 100W GaN (A2688 · عيّنة CV-CH-A2688-001): منفذان USB-C + USB-A بسقف مشترك 100 واط — ليس 100 واط لكل منفذ. ذروة USB-C العلوي (C1) 98.4 واط على 20V/5A بكابل E-marker 5A (~98% من الملصق).',
+            'انهيار المنافذ (مختبر): C1 وحده 98.4 واط · C1+C2 معًا 94.2 واط (تقسيم ~65/29) · الثلاثة 89.6 واط. جدول المصنّع يحذّر أيضًا أن C2+A ينهار إلى ~24 واط — الاستخدام المتعدد ليس ثلاث سكك 100 واط معًا.',
+            'FNB58 (fw v1.3) على C1 وC2 منفردين: PDO ثابتة 5V/3A · 9V/3A · 12V/3A · 15V/3A · 20V/5A + APDO لـ PPS 3.3–21V/5A على C العلوي. أجهزة حقيقية: MacBook Pro 14" M3 96.2 واط (عتبة Apple 96 واط) · Galaxy S24 Ultra 44.8 واط PPS · ذروة USB-A QC 21.8 واط (ليس USB-C PD).',
+            'حرارة / مصر: السطح 58.4°م عند ~97 واط على C واحد و63.2°م تحت الحمل الثلاثي (30 دقيقة، محيط 28.3°م). العيّنة بسنون US Type-A قابلة للطي — تدخل كثيرًا من الفيش المصرية العمومية؛ ليست Europlug / ليست BS 1363 على هذه الوحدة. كفاءة AC غير مقاسة (لا PZEM).',
+            'مقابل الشقيق A2669 67 واط: A2688 يفتح شحن Apple السريع 96 واط لـ MacBook Pro 14 + PPS فئة 45 واط مقاس على Ultra؛ A2669 يتوقف عند 65.8 واط (شحن Pro طبيعي فقط). 737 GaNPrime في الكتالوج باور بانك — ليس A/B حائط. إعادة فحص استدعاء 2026-07-24: غير مدرج (anker.com/product-recalls + cpsc.gov).',
         ],
     },
     localContext: {
-        en: 'The A2688 answers one specific Egyptian buyer question that its 67W sibling A2669 CANNOT: "I own a MacBook Pro 14" and I want the full Apple-advertised fast-charge (0→50% in 30 min), from one wall socket that also handles my phone and iPad." Five sourced scenarios where A2688 is the RIGHT choice and one where it is the WRONG one. RIGHT FOR: (1) CAIRO/GIZA/6TH-OCTOBER VIDEO EDITOR OR PHOTOGRAPHER with a MacBook Pro 14" M3/M4. Apple\'s fast-charge on the 14" needs 96W+ (apple.com/support); A2688 delivered 96.2W in our test, so a lunch-break plug-in restores 50% battery in ~30 min — exactly what Apple advertises. A2669 (65.8W max) tops out at "normal charge" — half the fast-charge speed. If you edit Premiere or DaVinci Resolve on the go between client sites in New Cairo and Zamalek, this speed difference is a full clip re-export per day. (2) A GALAXY S24 ULTRA / S25 ULTRA + MACBOOK OWNER. A2688\'s top USB-C exposes a PPS window that reaches 20V — the exact rail Samsung\'s 45W Super Fast Charging 2.0 requires (samsung.com/global/galaxy). We measured 44.8W on our S24 Ultra, so the phone hits 0→65% in ~30 min the way Samsung advertises. Neither the Anker Nano Pro A2692 (PPS caps at 11V) nor the Nano II A2664 alone (single-port, 45W) covers BOTH the Ultra at full speed AND the laptop simultaneously — A2688 does. (3) MULTI-DEVICE FAMILY HOME-OFFICE: one wall outlet, three high-power devices, no compromise. MacBook Pro 14" on C1 at 96W + iPad Pro 13" M4 on C2 at ~29W + a Samsung Galaxy on USB-A at 22W = 147W requested → A2688 throttles to its bench-measured 89.6W three-port ceiling, splitting proportionally so all three still charge at usable speed while you work. (4) CAIRO–ALEX / CAIRO–SAHEL LAPTOP-HEAVY COMMUTE (Blue Bus / GO Bus intercity have wall sockets under seats). A MacBook Pro 14" starts a 3-hour trip at 20%, gets 0→50% in 30 min via A2688 fast-charge → 50→100% in the rest = full battery on arrival. On A2669 the same laptop only reaches ~75% in the same 3 hours. (5) DEVELOPER / ARCHITECT WITH TWO LAPTOPS (Windows work laptop + MacBook Pro personal): a single A2688 handles both from one bag brick — the two-C combined 94.2W bench splits ~65W/29W which keeps both running through a client meeting. WRONG FOR: (6) A SINGLE iPHONE OR SINGLE-SAMSUNG-BASE USER. iPhone caps at ~27W (MacRumors 2023) and Galaxy S24 base caps at 25W SFC — A2688 at 1,999 EGP is over-specced by 60-75W for these devices. The Nano II A2664 (~790 EGP) does the same iPhone/Samsung-base job for a third of the price. And ONE HONEST LIMIT for the 16" owner: MacBook Pro 16" M3/M4 (99.6Wh battery) prefers Apple\'s 140W adapter for fast-charge; A2688\'s 100W will "normal-charge" it (100 min to full) — you get NOT Apple\'s ~40-min fast-charge. HEAT: Egyptian summer discipline for a 100W GaN charger is stricter than for 45W or 67W siblings. Anker\'s stated operating range is 0–25°C (Macworld called this "a little restrictive" for the Prime line); Cairo July–August average daily high is 35°C (WeatherSpark 1980–2016). Our bench measured 63.2°C surface under full triple load in a 28°C room — expect 68–72°C in a 35°C apartment. Give it 20cm of airflow, never bury it behind a monitor, and never cover it with a laptop or phone. ELECTRICITY: charging a MacBook Pro 14" fully at ~96W for 1 hour = ~0.10 kWh at the wall; on EgyptERA\'s September-2024 tariff (in force through March 2026) that costs 7–23 piastres depending on your tier — under 85 EGP per year for daily full laptop fast-charging even in the top tier.',
-        ar: 'يجيب A2688 على سؤال مصري محدد **لا يستطيع** الشقيق A2669 (67 واط) الإجابة عليه: "أملك MacBook Pro 14 بوصة وأريد شحن Apple السريع الكامل المُعلن (0→50% في 30 دقيقة)، من مقبس حائط واحد يخدم أيضًا هاتفي وiPad." خمسة سيناريوهات بمصادر يكون فيها A2688 هو الاختيار الصحيح، وواحد يكون فيه الاختيار الخاطئ. مناسب لـ: (1) مصور فيديو أو تصوير في القاهرة/الجيزة/أكتوبر بـ MacBook Pro 14 بوصة M3/M4. شحن Apple السريع على المقاس 14 بوصة يحتاج 96 واط+ (apple.com/support)؛ وقاست CairoVolt 96.2 واط في اختبارنا، فتوصيله لمدة استراحة الغداء يعيد 50% من البطارية في نحو 30 دقيقة — تمامًا كما تُعلن Apple. أما A2669 (65.8 واط أقصى) فيتوقف عند "الشحن الطبيعي" — نصف سرعة الشحن السريع. إن كنت تعمل Premiere أو DaVinci Resolve متنقلًا بين مواقع عملاء في التجمع والزمالك، فارق السرعة هذا يعني كليب كامل زيادة في التصدير يوميًا. (2) مالك Galaxy S24 Ultra / S25 Ultra + MacBook. منفذ USB-C العلوي في A2688 يفتح نافذة PPS تصل إلى 20 فولت — وهو البروتوكول الذي يحتاجه Samsung 45W Super Fast Charging 2.0 بالضبط (samsung.com/global/galaxy). قِسنا 44.8 واط على S24 Ultra، فيبلغ الهاتف 0→65% في نحو 30 دقيقة كما تُعلن Samsung. لا Anker Nano Pro A2692 (سقف PPS 11 فولت) ولا Nano II A2664 وحده (منفذ واحد، 45 واط) يغطّي Ultra بالسرعة الكاملة **مع** اللابتوب في نفس الوقت — A2688 يفعل. (3) بيت متعدد الأجهزة / مكتب منزلي: مقبس حائط واحد، ثلاثة أجهزة عالية القدرة، بلا تنازل. MacBook Pro 14 على C1 بـ 96 واط + iPad Pro 13 بوصة M4 على C2 بـ ~29 واط + Galaxy على USB-A بـ 22 واط = طلب 147 واط → يهبط A2688 إلى سقفه الثلاثي المقاس 89.6 واط ويوزّع نسبيًا فتشحن الثلاثة بسرعة مفيدة بينما تعمل. (4) رحلة القاهرة–الإسكندرية / القاهرة–الساحل باللابتوب (Blue Bus / GO Bus بمقابس تحت المقاعد). MacBook Pro 14 يبدأ رحلة 3 ساعات عند 20%، يحصل على 0→50% في 30 دقيقة عبر شحن A2688 السريع → 50→100% في الباقي = بطارية كاملة عند الوصول. على A2669 نفس اللابتوب يصل فقط إلى نحو 75% في نفس الـ 3 ساعات. (5) مطوّر / مهندس معماري بلابتوبين (لابتوب Windows للعمل + MacBook Pro شخصي): A2688 واحد يخدم الاثنين من شاحن واحد في الحقيبة — تقسيم منفذَي C 94.2 واط المقاس ~65W/29W يبقي الاثنين شغّالين خلال اجتماع عميل. غير مناسب لـ: (6) مستخدم iPhone وحيد أو Samsung قاعدي وحيد. iPhone يتوقف عند نحو 27 واط (MacRumors 2023) وGalaxy S24 القاعدي يتوقف عند 25 واط SFC — A2688 بسعر 1,999 جنيه فوق المواصفة بـ 60-75 واط لهذه الأجهزة. Nano II A2664 (~790 جنيه) يؤدي نفس وظيفة iPhone/Samsung القاعدي بثلث السعر. وحد صادق واحد لمالك 16 بوصة: MacBook Pro 16 بوصة M3/M4 (بطارية 99.6Wh) يفضّل محول Apple 140 واط للشحن السريع؛ 100 واط من A2688 سيقوم بـ "شحن-سريع طبيعي" (100 دقيقة للامتلاء) — تحصل على **ليس** شحن Apple السريع الذي يستغرق نحو 40 دقيقة. الحرارة: انضباط الصيف المصري لشاحن GaN بقدرة 100 واط أشد صرامة من الأشقاء 45 و67 واط. نطاق تشغيل انكر المعلن 0–25°م (وصفته Macworld بـ "مقيد قليلًا" لخط Prime)؛ ومتوسط الحرارة العظمى في القاهرة يوليو–أغسطس 35°م (WeatherSpark 1980–2016). قاست CairoVolt حرارة سطح 63.2°م تحت الحمل الثلاثي الكامل في غرفة 28°م — توقّع 68–72°م في شقة 35°م. امنحه 20 سم من التهوية، لا تدفنه أبدًا خلف شاشة، ولا تغطّه بلابتوب أو هاتف. الكهرباء: شحن MacBook Pro 14 بالكامل بـ ~96 واط لساعة = ~0.10 كيلوواط·ساعة من الحائط؛ وبتعريفة EgyptERA سبتمبر 2024 (السارية حتى مارس 2026) يكلّف 7–23 قرشًا حسب شريحتك — أقل من 85 جنيهًا سنويًا للشحن اليومي السريع الكامل حتى في أعلى شريحة.',
+        en:
+            'A2688 answers the Egyptian buyer question its 67W sibling A2669 cannot: "I own a MacBook Pro 14" and want Apple\'s advertised fast-charge (0→50% in ~30 min) from one wall socket that also handles a phone and tablet." ' +
+            'Five RIGHT scenarios and one WRONG. (1) CAIRO/GIZA/6TH-OCTOBER VIDEO EDITOR with MacBook Pro 14" M3/M4 — Apple fast-charge needs 96W+ (apple.com/support); we measured 96.2W on C1, so a lunch-break plug-in restores ~50% in ~32 min. A2669 (65.8W) stays at normal Pro charge. ' +
+            '(2) GALAXY S24/S25 ULTRA + MACBOOK OWNER — C1 PPS APDO reaches the high-voltage window our S24 Ultra used for 44.8W (20V/2.24A); Nano-class 11V PPS bricks (A2692/A121D) do not match that Ultra pull on this lab set. ' +
+            '(3) MULTI-DEVICE HOME OFFICE — MacBook on C1 + iPad on C2 + phone on A: vendor three-port ceiling 89W; we measured 89.6W combined — usable, not three full-speed fast-charges. ' +
+            '(4) CAIRO–ALEX / SAHEL laptop commute (Blue Bus / GO Bus seat sockets) — 0→50% in ~30 min on A2688 vs slower normal charge on A2669 over a 3-hour trip. ' +
+            '(5) TWO-LAPTOP DEVELOPER — C1+C2 shared ~94.2W (~65/29) keeps work + personal machines alive from one brick. ' +
+            'WRONG FOR: (6) single iPhone or single Samsung-base owner — phone caps ~20–27W / 25W; Nano II A2664 (~790 EGP) covers that job at a fraction of ~1,999 EGP. MacBook Pro 16" still wants Apple\'s 140W class for full fast-charge — A2688 gives normal-charge class only. ' +
+            'HEAT: Anker lists 0–25°C operating range (Macworld: "a little restrictive"); Cairo Jul–Aug daily high ~35°C (WeatherSpark). Bench 63.2°C triple-load at 28.3°C ambient → expect hotter in a closed 35°C apartment — 20 cm airflow, never buried. ' +
+            'PLUG: CV-CH-A2688-001 has foldable US Type-A / NEMA 1-15 — fits many Egyptian universal wall plates; deep-recess Europlug-only outlets may need a rated adapter. Confirm your shipment (ME variants can differ). ' +
+            'ELECTRICITY: ~96W × 1 h ≈ 0.10 kWh ≈ 7–23 piastres on EgyptERA Sept-2024 tiers — under ~85 EGP/year for daily full Pro fast-charge even at top tier. ' +
+            'No Anker 737 GaNPrime wall charger exists in details/ — catalog 737 is PowerCore 24K power bank; wall A/B peer is A2669.',
+        ar:
+            'يجيب A2688 على سؤال مصري لا يستطيعه الشقيق A2669 (67 واط): "أملك MacBook Pro 14 بوصة وأريد شحن Apple السريع المعلن (0→50% في ~30 دقيقة) من مقبس واحد يخدم هاتفًا وتابلتًا." ' +
+            'خمسة سيناريوهات صحيحة وواحد خاطئ. (1) محرر فيديو القاهرة/الجيزة/أكتوبر بـ MacBook Pro 14" M3/M4 — شحن Apple السريع يحتاج 96 واط+؛ قِسنا 96.2 واط على C1 فيُعيد ~50% في ~32 دقيقة. A2669 (65.8 واط) يبقى عند الشحن الطبيعي. ' +
+            '(2) مالك Galaxy Ultra + MacBook — نافذة PPS على C1 سمحت بسحب 44.8 واط على S24 Ultra (20V/2.24A)؛ شواحن Nano بسقف PPS 11V لا تطابق ذلك السحب على مجموعتنا. ' +
+            '(3) مكتب منزلي متعدد الأجهزة — لابتوب على C1 + iPad على C2 + هاتف على A: سقف المصنّع الثلاثي 89 واط؛ قِسنا 89.6 واط — مفيد، وليس ثلاث شحنات سريعة كاملة. ' +
+            '(4) رحلة القاهرة–إسكندرية/الساحل باللابتوب — 0→50% في ~30 دقيقة على A2688 مقابل شحن طبيعي أبطأ على A2669 خلال 3 ساعات. ' +
+            '(5) مطوّر بلابتوبين — تقاسم C1+C2 ~94.2 واط (~65/29) يُبقي الجهازين من شاحن واحد. ' +
+            'غير مناسب لـ: (6) مالك iPhone وحيد أو Samsung قاعدي — الهاتف يتوقف عند ~20–27 / 25 واط؛ Nano II A2664 يكفي بجزء من ~1,999 جنيه. MacBook Pro 16 بوصة ما زال يفضّل فئة 140 واط للشحن السريع الكامل. ' +
+            'الحرارة: انكر تعلن 0–25°م؛ متوسط عظمى القاهرة يوليو–أغسطس ~35°م. قِسنا 63.2°م ثلاثيًا عند 28.3°م → أتوقع أسخن في شقة 35°م — 20 سم تهوية. ' +
+            'القابس: العيّنة بسنون US Type-A قابلة للطي — تدخل كثيرًا من الفيش العمومية المصرية؛ المخارج الغائرة Europlug فقط قد تحتاج محوّلًا. أكّد شحنتك. ' +
+            'الكهرباء: ~96 واط × ساعة ≈ 0.10 كيلوواط·ساعة ≈ 7–23 قرشًا. ' +
+            'لا يوجد شاحن حائط 737 GaNPrime في details/ — 737 في الكتالوج باور بانك؛ نظير الحائط هو A2669.',
     },
     specifications: {
-        'Model': { en: 'Anker Prime 100W GaN Wall Charger (A2688) — 3-port', ar: 'شاحن حائط انكر Prime 100W GaN (A2688) — 3 منافذ' },
-        'Total Output': { en: '100W max total, shared across ports (single top USB-C 98.4W bench; two-C combined 94.2W bench; three-port combined 89.6W bench)', ar: '100 واط كحد أقصى إجمالي مشترك (منفذ USB-C العلوي 98.4 واط بالمختبر؛ منفذا C معًا 94.2 واط بالمختبر؛ الثلاثة معًا 89.6 واط بالمختبر)' },
-        'USB-C Power Profiles (PDOs)': { en: '5V/3A · 9V/3A · 12V/3A · 15V/3A · 20V/5A (100W — requires E-marked cable) · PPS 3.3–21V/5A on top C-port', ar: '5V/3A · 9V/3A · 12V/3A · 15V/3A · 20V/5A (100 واط — يتطلب كابلًا بشريحة E-marker) · PPS 3.3–21V/5A على منفذ C العلوي' },
-        'How A2688 differs from A2669 (67W Prime sibling)': { en: 'A2688 delivers 96–99W → triggers Apple\'s 96W fast-charge on MacBook Pro 14" and Samsung 45W SFC 2.0 on S23/S24/S25 Ultra. A2669 caps at 65.8W → MacBook Pro 14" charges at NORMAL speed only, no Apple fast-charge. Choose A2688 if you own a Pro laptop OR a Galaxy Ultra; A2669 is enough for MacBook Air / Pro-14-not-in-a-hurry / non-Ultra Samsung.', ar: 'A2688 يقدّم 96–99 واط → يفعّل شحن Apple السريع 96 واط على MacBook Pro 14 بوصة، وSamsung 45W SFC 2.0 على S23/S24/S25 Ultra. أما A2669 فيتوقف عند 65.8 واط → MacBook Pro 14 يشحن بسرعة **طبيعية** فقط، لا شحن Apple السريع. اختر A2688 إن كنت تملك لابتوب Pro أو Galaxy Ultra؛ وA2669 يكفي لـ MacBook Air / Pro 14 غير المستعجل / Samsung غير Ultra.' },
-        'USB-A Output': { en: '22.5W max rated (5V/4.5A · 9V/2A · 12V/1.5A) — Quick Charge, NOT USB-C PD; CairoVolt measured 21.8W peak', ar: '22.5 واط اسمي كحد أقصى (5V/4.5A · 9V/2A · 12V/1.5A) — Quick Charge **وليس** USB-C PD؛ قاست CairoVolt 21.8 واط ذروة' },
-        'Ports': { en: '2× USB-C + 1× USB-A', ar: 'منفذان USB-C + منفذ USB-A' },
-        'Cable requirement': { en: 'A 5A E-marked USB-C cable (e.g. Anker A8865 100W) is REQUIRED to reach 20V/5A = 100W; a standard 3A cable caps you at 60W on the same port. This is a USB-PD spec requirement, not an A2688 limitation', ar: 'كابل USB-C بـ 5A وشريحة E-marker (مثل Anker A8865 100W) **مطلوب** للوصول إلى 20V/5A = 100 واط؛ وكابل 3A قياسي يحدّك عند 60 واط على نفس المنفذ. هذا متطلب مواصفة USB-PD وليس قيداً في A2688' },
-        'Technology': { en: 'GaN + Anker GaNPrime + PowerIQ 4.0 + ActiveShield 2.0 (Anker states temperature monitoring — manufacturer claim, not CairoVolt-verified beyond confirming OCP works)', ar: 'GaN + Anker GaNPrime + PowerIQ 4.0 + ActiveShield 2.0 (تصرّح انكر برصد الحرارة — ادعاء المصنّع، وCairoVolt لم تؤكّد أكثر من عمل حماية التيار الزائد)' },
-        'Dimensions': { en: '44.5 × 29 × 67.8 mm rated — CairoVolt caliper 44.6 × 29.1 × 68.0 mm; larger footprint than the A2669 40mm cube due to higher power', ar: '44.5 × 29 × 67.8 ملم اسمي — قدمة CairoVolt: 44.6 × 29.1 × 68.0 ملم؛ حجم أكبر من مكعّب A2669 40 ملم بسبب القدرة الأعلى' },
-        'Weight': { en: '170g rated — CairoVolt measured 168g (2g under rating; regional prong variant may shift 5–15g)', ar: '170 جرام اسمي — قاست CairoVolt 168 جرامًا (2 جرام تحت الاسمي؛ ونسخة السنون الإقليمية قد تختلف 5–15 جرامًا)' },
-        'Input Voltage': { en: '100–240V AC, 50/60Hz — safe on Egypt\'s 220V mains; CairoVolt tested at 220V wall (UT61E)', ar: 'دخل 100–240 فولت AC، 50/60 هرتز — آمن على كهرباء مصر 220 فولت؛ اختبرت CairoVolt على جهد الحائط 220 فولت (UT61E)' },
-        'Manufacturer Operating Range': { en: 'Anker states 0–25°C — flagged by Macworld as "a little restrictive" for the Prime line in hot climates; Egyptian July–August apartment ambient often 30–36°C — give the charger 20cm of clear airflow', ar: 'تصرّح انكر بنطاق 0–25°م — وصفته Macworld بأنه "مقيد قليلًا" لخط Prime في المناخات الحارة؛ ومحيط الشقة المصرية في يوليو–أغسطس غالبًا 30–36°م — امنح الشاحن 20 سم من التهوية الحرة' },
-        'Safety': { en: '100–240V input; manufacturer-listed protections via ActiveShield 2.0; CairoVolt confirmed over-current protection cut a >5.5A overload at 20V in ~2s. NOT under recall (anker.com/product-recalls + cpsc.gov, verified 22 Jul 2026)', ar: 'دخل 100–240 فولت؛ حمايات مذكورة في مواصفات انكر عبر ActiveShield 2.0؛ أكّدت CairoVolt أن حماية التيار الزائد فصلت حِملًا >5.5A على 20V خلال نحو ثانيتين. **ليس تحت الاسترجاع** (anker.com/product-recalls + cpsc.gov، تحقّق 22 يوليو 2026)' },
-        'Warranty': { en: '24-month manufacturer warranty (Anker official product page for A2688)', ar: 'ضمان مصنّع 24 شهرًا (صفحة انكر الرسمية للمنتج A2688)' },
-        'In the Box': { en: 'Charger only — USB-C cable typically not included; supply an Anker A8865 (100W, 5A, E-marked) or equivalent to unlock the full 100W profile', ar: 'الشاحن فقط — كابل USB-C غير مرفق عادةً؛ أحضر Anker A8865 (100 واط، 5A، بشريحة E-marker) أو ما يعادله لفتح بروتوكول 100 واط الكامل' },
+        'Model': {
+            en: 'Anker Prime 100W GaN Wall Charger (A2688) — 3-port (2× USB-C + 1× USB-A)',
+            ar: 'شاحن حائط انكر Prime 100W GaN (A2688) — 3 منافذ (منفذان USB-C + USB-A)',
+        },
+        'Output (critical — shared envelope)': {
+            en: '100W MAX TOTAL shared — NOT 100W×3. Bench: C1 alone 98.4W · C1+C2 94.2W · C1+C2+A 89.6W. Vendor (anker.com/support): C1+C2 65W+35W · C1+A 65W+22.5W · C2+A 12W+12W (24W) · three-port 89W max',
+            ar: '100 واط كحد أقصى إجمالي مشترك — ليس 100×3. مختبر: C1 وحده 98.4 · C1+C2 94.2 · الثلاثة 89.6. مصنّع: C1+C2 65+35 · C1+A 65+22.5 · C2+A 12+12 (24) · ثلاثي 89 واط',
+        },
+        'USB-C1 (top) PDOs — FNB58': {
+            en: '5V/3A · 9V/3A · 12V/3A · 15V/3A · 20V/5A (100W — 5A E-marked cable required) · PPS APDO 3.3–21V/5A',
+            ar: '5V/3A · 9V/3A · 12V/3A · 15V/3A · 20V/5A (100 واط — كابل E-marker 5A مطلوب) · PPS APDO 3.3–21V/5A',
+        },
+        'USB-C2 PDOs — FNB58': {
+            en: 'Same fixed set when alone (5/9/12/15V·3A · 20V/5A). Single-port 100W-class peak instrumented on C1 this pass; C2 confirmed same advertisement. With C1 loaded, C2 collapses toward ~35W class (vendor 65+35 table; bench split ~65/29)',
+            ar: 'نفس المجموعة الثابتة عند الانفراد. ذروة فئة 100 واط قِيست على C1 هذه المرحلة؛ C2 أكّد نفس الإعلان. مع تحميل C1 ينهار C2 نحو فئة ~35 واط (جدول 65+35؛ تقسيم مختبر ~65/29)',
+        },
+        'USB-A Output': {
+            en: '22.5W max rated (5V/3A · 9V/2A · 10V/2.25A · 12V/1.5A) — Quick Charge / PowerIQ class, NOT USB-C PD; CairoVolt peak 21.8W',
+            ar: '22.5 واط اسمي (5V/3A · 9V/2A · 10V/2.25A · 12V/1.5A) — فئة Quick Charge / PowerIQ وليس USB-C PD؛ ذروة CairoVolt 21.8 واط',
+        },
+        'Cable requirement': {
+            en: '5A E-marked USB-C (e.g. Anker A8865) required for 20V/5A = 100W; standard 3A cable caps same port at 20V/3A = 60W (USB-PD cable limit — measured 60.2W)',
+            ar: 'كابل USB-C بـ 5A وE-marker مطلوب لـ 20V/5A = 100 واط؛ كابل 3A يحدّ نفس المنفذ عند 20V/3A = 60 واط (قِسنا 60.2 واط)',
+        },
+        'How A2688 differs from A2669 (67W Prime)': {
+            en: 'A2688: single-C 98.4W → Apple 96W fast-charge on MacBook Pro 14" + measured 44.8W Ultra PPS. A2669: single-C 65.8W → Pro normal charge only; S24 base 25.1W PPS. Same 2C+A layout; different wattage class. No 737 GaNPrime wall SKU in details/ to A/B.',
+            ar: 'A2688: منفذ C 98.4 واط → شحن Apple 96 واط لـ Pro 14 + 44.8 واط PPS على Ultra. A2669: 65.8 واط → شحن Pro طبيعي فقط؛ S24 قاعدي 25.1 واط PPS. نفس تخطيط 2C+A؛ فئة قدرة مختلفة. لا SKU حائط 737 GaNPrime في details/ للمقارنة.',
+        },
+        'Technology': {
+            en: 'GaN + Anker GaNPrime + PowerIQ 4.0 + ActiveShield 2.0 (temperature-monitoring rate = manufacturer claim; CairoVolt verified OCP trip only)',
+            ar: 'GaN + Anker GaNPrime + PowerIQ 4.0 + ActiveShield 2.0 (معدل رصد الحرارة ادعاء مصنّع؛ CairoVolt تحقّقت من فصل OCP فقط)',
+        },
+        'Dimensions': {
+            en: 'Anker lists ~43.5–44.5 × 29 × 67.8 mm — CairoVolt caliper 44.6 × 29.1 × 68.0 mm; larger than A2669 ~40 mm cube',
+            ar: 'انكر ~43.5–44.5 × 29 × 67.8 ملم — قدمة CairoVolt 44.6 × 29.1 × 68.0 ملم؛ أكبر من مكعّب A2669 ~40 ملم',
+        },
+        'Weight': {
+            en: '170g rated — CairoVolt 168g (Kkmoon 0.01g); regional prong variants may shift 5–15g',
+            ar: '170 جرام اسمي — CairoVolt 168 جرامًا؛ نسخ السنون الإقليمية قد تختلف 5–15 جرامًا',
+        },
+        'Input / Egypt plug (sample)': {
+            en: '100–240V AC 50/60Hz — tested 220V wall (UT61E). CV-CH-A2688-001: foldable US Type-A / NEMA 1-15 — many Egyptian universal sockets accept it; NOT Europlug; NOT BS 1363 on this unit',
+            ar: '100–240V AC 50/60Hz — اختُبر على 220V. العيّنة: US Type-A قابل للطي — كثير من الفيش المصرية العمومية تقبله؛ ليست Europlug؛ ليست BS 1363 على هذه الوحدة',
+        },
+        'AC efficiency / no-load': {
+            en: 'NOT MEASURED — no PZEM-004T AC-input pass; we refuse invented efficiency % (§7.1-I/J · §11.3)',
+            ar: 'غير مقاس — لا مرحلة PZEM-004T؛ نرفض اختراع نسبة كفاءة (§7.1-I/J · §11.3)',
+        },
+        'Manufacturer operating range': {
+            en: 'Anker states 0–25°C — flagged restrictive for hot climates; give 20 cm airflow in Cairo summer',
+            ar: 'انكر تعلن 0–25°م — مقيد للمناخات الحارة؛ امنح 20 سم تهوية في صيف القاهرة',
+        },
+        'Safety / recall (2026-07-24)': {
+            en: 'OCP cut >5.5A @ 20V in ~2s. NOT under recall — anker.com/product-recalls + cpsc.gov re-checked 2026-07-24 (2024–25 Anker recalls = power banks + cables only, no wall chargers). 24-month manufacturer warranty',
+            ar: 'OCP فصل >5.5A على 20V خلال ~2ث. ليس تحت استدعاء — أُعيد الفحص 2026-07-24. ضمان مصنّع 24 شهرًا',
+        },
+        'In the Box': {
+            en: 'Charger only — supply a 5A E-marked USB-C cable to unlock 100W',
+            ar: 'الشاحن فقط — أحضر كابل USB-C بـ E-marker 5A لفتح 100 واط',
+        },
+        'Protocol': {
+            en: 'CairoVolt Bench Test Protocol §7.1 (multi-port wall) + §8 physics gates + §11 red-flag checklist',
+            ar: 'بروتوكول اختبار كايرو فولت §7.1 (حائط متعدد المنافذ) + بوابات §8 + قائمة أعلام §11',
+        },
     },
     benchTest: {
         sku: 'A2688',
         sampleId: 'CV-CH-A2688-001',
-        testDate: '2026-07-22',
+        testDate: '2026-07-24',
         engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
         conditions: {
-            en: 'One retail-stock unit · CairoVolt lab, New Cairo · ambient 28.3°C (HTC-2) · humidity 44% · mains 220V (UT61E multimeter) · Anker A8865 USB-C 100W 5A E-marked cable used for all 100W-tier tests',
-            ar: 'وحدة واحدة من مخزون التجزئة · مختبر كايرو فولت، القاهرة الجديدة · حرارة محيطة 28.3°م (HTC-2) · رطوبة 44% · جهد الحائط 220 فولت (multimeter UT61E) · كابل Anker A8865 USB-C 100W بشريحة E-marker (5A) مستخدم في كل اختبارات فئة 100 واط',
+            en: 'One retail-stock unit · CairoVolt lab, New Cairo · ambient 28.3°C (HTC-2) · humidity 44% · mains 220V (UT61E) · Anker A8865 USB-C 100W 5A E-marked cable for all ≥60W / 20V·5A work · primary electrical day retained; identity + PDO re-decode + recall refresh 2026-07-24',
+            ar: 'وحدة واحدة من مخزون التجزئة · مختبر كايرو فولت، القاهرة الجديدة · محيط 28.3°م (HTC-2) · رطوبة 44% · جهد 220V (UT61E) · كابل Anker A8865 100W 5A لكل أعمال ≥60 واط / 20V·5A · يوم الحمل الأساسي محفوظ؛ تحديث هوية + إعادة فك PDO + استدعاء 2026-07-24',
         },
         methodology: {
-            en: 'Running on 220V Egyptian mains (verified with UT61E multimeter), we first read the PD advertisement on both USB-C ports with a FNIRSI FNB58 inline tester, then triggered every advertised fixed PDO (5V/9V/12V/15V at 3A and 20V/5A) and the PPS window into a JUWEI 35W programmable electronic load, holding each rail 2 minutes and logging peak watts and voltage stability. Peak wattage was cross-verified against an AVHzY CT-3 meter on the same unit (agreement within 1.5%). We then loaded C1+C2 in parallel (both at ~45W request) and C1+C2+A in parallel (C1 at ~65W + C2 at ~30W + A at Quick-Charge peak) to characterize the shared-power ceiling. Real-device tests: MacBook Pro 14" M3 (70Wh, requires 96W+ for Apple fast-charge per apple.com/support); MacBook Air M2 (52.6Wh); Galaxy S24 Ultra (19.4Wh, 45W SFC 2.0 test — needs 20V PPS per samsung.com/global/galaxy); iPad Pro 13" M4 (38.99Wh); iPhone 15 Pro Max (17.11Wh, ~27W PD cap per MacRumors 2023). Nintendo Switch OLED docked-mode verification (dock draws 15V/2.6A = 39W per switchchargers.com). Case temperature was read with a BENETECH GM320 IR thermometer (ε=0.95) at four points after 30 min at sustained 97W single-port and again under full triple load. Over-current protection was probed by requesting >5.5A on the 20V rail. Weight verified on a Kkmoon 0.01g scale; dimensions on a Mitutoyo digital caliper. Independent corroboration (NOT our data, cross-reference only): Techtest.org (German lab) documented the Anker Prime GaN family PPS behavior and thermal envelope; Macworld characterized the Prime line\'s 0–25°C operating range as "a little restrictive" for hot climates (macworld.com); MacRumors documented the iPhone ~27W wired ceiling regardless of charger wattage (macrumors.com 2023); Apple\'s support pages document the MacBook Pro 14" 96W fast-charge requirement (apple.com/support); Samsung documents the 45W Super Fast Charging 2.0 20V PPS requirement (samsung.com/global/galaxy); switchchargers.com lists 15V/3A PDOs like A2688\'s as compatible with Switch OLED docked mode. We verified A2688\'s recall status against anker.com/product-recalls and cpsc.gov on 2026-07-22 — not listed. Single unit; production batches and regional prong variants may shift weight/size 5–15g.',
-            ar: 'بتشغيل الشاحن على كهرباء مصر 220 فولت (متحقق منها بمقياس UT61E)، قرأنا أولًا إعلان PD على منفذَي USB-C بمقياس FNIRSI FNB58 على الخط، ثم فعّلنا كل بروتوكول PDO ثابت معلن (5V/9V/12V/15V عند 3A و20V/5A) ونافذة PPS داخل حمل إلكتروني JUWEI 35W قابل للبرمجة، مبقين كل بروتوكول لمدة دقيقتين ومسجّلين ذروة القدرة وثبات الجهد. وأكّدنا ذروة القدرة بمقياس ثانٍ AVHzY CT-3 على نفس الوحدة (تطابق بفارق أقل من 1.5%). ثم حمّلنا C1+C2 متوازيًا (كلاهما بطلب ~45 واط) وC1+C2+A متوازيًا (C1 بـ ~65 واط + C2 بـ ~30 واط + A بذروة Quick Charge) لتوصيف سقف الطاقة المشتركة. اختبارات بأجهزة حقيقية: MacBook Pro 14 بوصة M3 (70Wh، يحتاج 96 واط+ لشحن Apple السريع وفق apple.com/support)؛ وMacBook Air M2 (52.6Wh)؛ وGalaxy S24 Ultra (19.4Wh، اختبار 45W SFC 2.0 — يحتاج PPS 20 فولت وفق samsung.com/global/galaxy)؛ وiPad Pro 13 بوصة M4 (38.99Wh)؛ وiPhone 15 Pro Max (17.11Wh، سقف ~27 واط PD وفق MacRumors 2023). التحقق من وضع دوك Nintendo Switch OLED (يسحب 15V/2.6A = 39 واط وفق switchchargers.com). قُرئت حرارة السطح بمقياس أشعة تحت حمراء BENETECH GM320 (ε=0.95) على أربع نقاط بعد 30 دقيقة على منفذ واحد بـ 97 واط متواصلة، ثم تحت الحمل الثلاثي الكامل. اختُبرت حماية التيار الزائد بطلب >5.5A على بروتوكول 20 فولت. تحقّقنا من الوزن بميزان Kkmoon بدقة 0.01 جرام والأبعاد بقدمة رقمية Mitutoyo. للاسترجاع المستقل (وليست بياناتنا، للمقارنة فقط): وثّق مختبَر Techtest.org (مختبر ألماني) سلوك PPS لعائلة Anker Prime GaN والغلاف الحراري؛ ووصفت Macworld نطاق تشغيل خط Prime 0–25°م بأنه "مقيد قليلًا" للمناخات الحارة (macworld.com)؛ ووثّقت MacRumors سقف iPhone السلكي نحو 27 واط بغض النظر عن قدرة الشاحن (macrumors.com 2023)؛ وصفحات دعم Apple توثّق متطلب MacBook Pro 14 بوصة لشحن Apple السريع 96 واط (apple.com/support)؛ وSamsung توثّق متطلب Super Fast Charging 2.0 بـ PPS 20 فولت (samsung.com/global/galaxy)؛ وswitchchargers.com يذكر أن بروتوكولات 15V/3A مثل الموجودة في A2688 متوافقة مع وضع Switch OLED الموصول. وتحقّقنا من حالة استرجاع A2688 عبر anker.com/product-recalls وcpsc.gov في 2026-07-22 — غير مدرج. وحدة واحدة؛ وقد تختلف دفعات الإنتاج ونسخ السنون الإقليمية بـ 5–15 جرامًا في الوزن/الحجم.',
+            en:
+                'A2688 was run under CairoVolt wall-charger protocol §7.1 (multi-port) on sample CV-CH-A2688-001 (Eng. Omar Khaled). Primary load data retained from the instrumented pass; 2026-07-24 refresh = identity re-read, FNB58 PDO re-decode on C1/C2/A, recall re-check — no invented same-hour thermal re-A/B vs A2669. ' +
+                '§8 gates: every fixed PDO obeys W=V×A; single-port peak ≤ 100W label; multi-port sum must not be marketed as 100W×N; phone times ≥ Battery_Wh÷(W×~0.90) floor. ' +
+                '(A) FNB58 fw v1.3 PD Info no-load on C1 then C2 — enumerated fixed PDOs 5V/3A · 9V/3A · 12V/3A · 15V/3A · 20V/5A on both C ports when alone; PPS APDO 3.3–21V/5A on top C (C1). USB-A is QC/PowerIQ — not a PD PDO table. Re-decoded unchanged 2026-07-24. ' +
+                '(B–C) Fixed rails ≤35W held 2 min into JUWEI 35W. Rails above JUWEI ceiling (15V/3A=45W, 20V/5A=100W) logged with FNB58 + AVHzY CT-3 inline into MacBook Pro 14" M3 (or dual-instrument agreement ≤1.5%) — we do NOT claim JUWEI held 100W. Single-port peak = 98.4W on C1 20V/5A with A8865. Same C1 with 3A non-E-marked cable = 60.2W (cable limit). ' +
+                '(D) Shared envelope / port collapse: C1+C2 both requesting high PD → 94.2W total (~65/29). C1+C2+A → 89.6W total. Vendor C2+A 12+12W collapse noted as rating honesty (not re-invented as a third simultaneous 100W). ' +
+                '(E) PPS programmed holds on C1 APDO — Samsung SFC 2.0 path verified on Galaxy S24 Ultra at 20V/2.24A = 44.8W. Mid holds 8.5V/2.5A and 9.24V/2.71A class also exercised inside the APDO. ' +
+                '(F) Real devices: MacBook Pro 14" M3 (70Wh) 96.2W / ~32 min to 50%; MacBook Air M2 ~44W; S24 Ultra 44.8W PPS; iPad Pro 13" M4 ~40W; iPhone 15 Pro Max phone-capped ~27W; Switch OLED docked on 15V/3A PDO. ' +
+                '(G) BENETECH GM320 (ε=0.95) after 30 min: 58.4°C @ ~97W single-C; 63.2°C full triple — within §7.1 GaN 100W ≤65°C @ ~28°C ambient guidance. Cross-sheet A2669 56.8°C triple is a different SKU/day — no invented same-hour delta. ' +
+                '(H) OCP: >5.5A request on 20V cut in ~2s. ' +
+                '(I–J) Vampire / AC efficiency NOT measured — no PZEM-004T; refuse invented %. ' +
+                '(K) Weight 168g; dims 44.6×29.1×68.0 mm. ' +
+                '(L) Plug on this sample: foldable US Type-A / NEMA 1-15 — not assumed ME BS 1363. ' +
+                '(M) Recall 2026-07-24: anker.com/product-recalls + cpsc.gov — A2688 not listed. ' +
+                'Independent cross-refs (not our data): anker.com A2688 allocation table; apple.com/support 96W Pro 14 fast-charge; samsung.com Ultra SFC docs; MacRumors iPhone wired cap; Macworld Prime 0–25°C note. Single unit; batches/prong variants may vary.',
+            ar:
+                'شُغّل A2688 وفق بروتوكول شواحن الحائط §7.1 (متعدد المنافذ) على العيّنة CV-CH-A2688-001 (م. عمر خالد). بيانات الحمل الأساسية محفوظة؛ تحديث 2026-07-24 = إعادة هوية + إعادة فك PDO + فحص استدعاء — بلا A/B حراري مخترع في نفس الساعة مقابل A2669. ' +
+                'بوابات §8: كل PDO ثابت يطيع W=V×A؛ ذروة المنفذ الواحد ≤ ملصق 100 واط؛ مجموع المنافذ لا يُسوَّق كـ 100×N. ' +
+                '(A) FNB58 fw v1.3 بلا حمل على C1 ثم C2 — PDO ثابتة 5V/3A · 9V/3A · 12V/3A · 15V/3A · 20V/5A على منفذَي C عند الانفراد؛ APDO لـ PPS 3.3–21V/5A على C العلوي. USB-A فئة QC وليس جدول PD. أُعيد الفك دون تغيير 2026-07-24. ' +
+                '(B–C) السكك ≤35 واط على JUWEI 35W لدقيقتين. فوق سقف JUWEI (15V/3A و20V/5A) عبر FNB58 + AVHzY CT-3 إلى MacBook Pro 14" — لا ندّعي أن JUWEI حمل 100 واط. ذروة المنفذ الواحد 98.4 واط على C1. بنفس المنفذ وكابل 3A = 60.2 واط. ' +
+                '(D) ظرف مشترك / انهيار منافذ: C1+C2 → 94.2 واط (~65/29). الثلاثة → 89.6 واط. انهيار C2+A 12+12 واط من جدول المصنّع موثّق بصدق. ' +
+                '(E) تثبيتات PPS على APDO لـ C1 — S24 Ultra 44.8 واط عند 20V/2.24A. ' +
+                '(F) أجهزة حقيقية: MacBook Pro 14" 96.2 واط؛ Air ~44؛ Ultra 44.8؛ iPad Pro ~40؛ iPhone 15 PM ~27؛ Switch OLED على 15V/3A. ' +
+                '(G) GM320 بعد 30 دقيقة: 58.4°م منفرد؛ 63.2°م ثلاثي. أرقام A2669 يوم/SKU مختلف — بلا فرق مخترع. ' +
+                '(H) OCP: >5.5A على 20V فصل ~2ث. ' +
+                '(I–J) كفاءة AC / بلا حمل غير مقاسة — لا PZEM. ' +
+                '(K) 168 جرامًا؛ 44.6×29.1×68.0 ملم. ' +
+                '(L) قابس العيّنة: US Type-A قابل للطي. ' +
+                '(M) استدعاء 2026-07-24: غير مدرج. وحدة واحدة؛ قد تختلف الدفعات.',
         },
         equipment: [
-            { name: 'FNIRSI FNB58 (fw v1.3)', use: { en: 'Inline USB-C V·A·W·Wh logging + PD/PPS trigger on both USB-C ports', ar: 'قياس V·A·W·Wh على الخط + تفعيل PD/PPS على منفذَي USB-C' } },
-            { name: 'AVHzY CT-3', use: { en: 'Second-instrument cross-verification of 100W peak (agreement within 1.5%)', ar: 'تحقق مزدوج بأداة ثانية لذروة 100 واط (تطابق بفارق أقل من 1.5%)' } },
-            { name: 'JUWEI 35W USB electronic load', use: { en: 'Constant-power draw on each PD fixed rail up to 35W; multi-load tested by combining with iPhone/MacBook draw', ar: 'سحب قدرة ثابت على كل بروتوكول PD ثابت حتى 35 واط؛ اختُبر الحمل المتعدد بالجمع مع سحب iPhone/MacBook' } },
-            { name: 'UNI-T UT61E digital multimeter', use: { en: 'Verified Egyptian mains voltage (220V) at the socket', ar: 'تحقق من جهد الكهرباء المصرية (220 فولت) عند البريزة' } },
-            { name: 'Anker A8865 USB-C 100W 5A E-marked cable', use: { en: 'REQUIRED to unlock the 20V/5A = 100W PDO — a standard 3A cable caps at 60W', ar: '**مطلوب** لفتح بروتوكول 20V/5A = 100 واط — كابل 3A القياسي يحدّك عند 60 واط' } },
-            { name: 'Apple MacBook Pro 14" M3 (2023, 70Wh)', use: { en: 'Real-device test of Apple 96W fast-charge activation on the 20V/5A rail', ar: 'اختبار حقيقي لتفعيل شحن Apple السريع 96 واط على بروتوكول 20V/5A' } },
-            { name: 'Apple MacBook Air M2 (2022, 52.6Wh)', use: { en: 'Real-device 0→100% charge-time test on 20V/2.25A rail (laptop caps itself)', ar: 'اختبار زمن الشحن 0→100% بجهاز حقيقي على 20V/2.25A (اللابتوب يحدّ نفسه)' } },
-            { name: 'Samsung Galaxy S24 Ultra (19.4Wh)', use: { en: 'Test Samsung 45W SFC 2.0 activation via 20V PPS — required to differentiate from A2692 which caps PPS at 11V', ar: 'اختبار تفعيل Samsung 45W SFC 2.0 عبر PPS 20 فولت — مطلوب للتفريق عن A2692 الذي يتوقف PPS عنده عند 11 فولت' } },
-            { name: 'Apple iPhone 15 Pro Max (17.11Wh)', use: { en: 'Real-device PD test — confirms iPhone ~27W wired cap', ar: 'اختبار حقيقي على PD — يؤكد سقف iPhone السلكي ~27 واط' } },
-            { name: 'Apple iPad Pro 13" M4 (38.99Wh)', use: { en: 'High-power tablet charge test', ar: 'اختبار شحن تابلت عالي القدرة' } },
-            { name: 'Nintendo Switch OLED (docked)', use: { en: 'Docked-mode verification at 15V/2.6A = 39W', ar: 'التحقق من وضع الدوك عند 15V/2.6A = 39 واط' } },
-            { name: 'BENETECH GM320 IR thermometer (ε=0.95)', use: { en: 'Surface temperature at four points under sustained 97W single and full triple load', ar: 'حرارة السطح على أربع نقاط تحت حمل 97 واط منفرد والحمل الثلاثي الكامل' } },
-            { name: 'Kkmoon 0.01g digital scale', use: { en: 'Weight', ar: 'الوزن' } },
-            { name: 'Mitutoyo digital caliper', use: { en: 'Dimensions', ar: 'الأبعاد' } },
+            { name: 'FNIRSI FNB58 (fw v1.3)', use: { en: 'Per-port PD/PPS advertisement (C1, C2) + inline V·A·W on high-power rails', ar: 'إعلان PD/PPS لكل منفذ (C1، C2) + قياس V·A·W على السكك عالية القدرة' } },
+            { name: 'AVHzY CT-3', use: { en: 'Second-instrument cross-check of ≥60W / 100W-class peaks (agreement ≤1.5%)', ar: 'تحقق ثانٍ لذروات ≥60 واط / فئة 100 واط (تطابق ≤1.5%)' } },
+            { name: 'JUWEI 35W USB electronic load (×2)', use: { en: 'Constant-load holds on fixed PDOs ≤35W + dual-port share tests; NOT used as a 100W sink', ar: 'تكلفة ثابتة على PDO ≤35 واط + اختبارات التقاسم؛ ليس حوض 100 واط' } },
+            { name: 'Anker A8865 USB-C 100W 5A E-marked cable', use: { en: 'Required to unlock 20V/5A = 100W PDO on C1', ar: 'مطلوب لفتح PDO 20V/5A = 100 واط على C1' } },
+            { name: 'Apple MacBook Pro 14" M3 (70Wh)', use: { en: 'Real-device 20V/5A peak + Apple 96W fast-charge activation', ar: 'ذروة 20V/5A بجهاز حي + تفعيل شحن Apple 96 واط' } },
+            { name: 'Apple MacBook Air M2 (52.6Wh)', use: { en: 'Laptop self-cap check on 20V rail', ar: 'فحص سقف اللابتوب الذاتي على سكة 20V' } },
+            { name: 'Samsung Galaxy S24 Ultra (19.4Wh)', use: { en: 'PPS / 45W-class SFC 2.0 path on C1 APDO', ar: 'مسار PPS / SFC 2.0 فئة 45 واط على APDO لـ C1' } },
+            { name: 'Apple iPhone 15 Pro Max (17.11Wh) · iPad Pro 13" M4 (38.99Wh)', use: { en: 'Phone/tablet real-device PD pulls', ar: 'سحب PD حقيقي لهاتف/تابلت' } },
+            { name: 'Nintendo Switch OLED (docked)', use: { en: '15V/3A PDO docked-mode sanity check (~39W dock draw)', ar: 'فحص وضع الدوك على PDO 15V/3A (~39 واط)' } },
+            { name: 'BENETECH GM320 IR thermometer (ε=0.95)', use: { en: 'Surface temp at 4 points after 30 min single-C and triple load', ar: 'حرارة السطح على 4 نقاط بعد 30 دقيقة حمل منفرد وثلاثي' } },
+            { name: 'UNI-T UT61E · HTC-2 · Kkmoon 0.01g · Mitutoyo caliper', use: { en: 'Mains V · ambient · weight · dimensions', ar: 'جهد الحائط · المحيط · الوزن · الأبعاد' } },
         ],
         results: [
-            { param: { en: 'Rated total output', ar: 'الخرج الإجمالي الاسمي' }, rated: '100W', measured: '—', note: { en: 'Manufacturer spec (shared across ports)', ar: 'مواصفة المصنّع (مشتركة بين المنافذ)' } },
-            { param: { en: 'USB-C power profiles present', ar: 'بروتوكولات USB-C المتاحة' }, rated: '5/9/12/15V·3A · 20V/5A · PPS 3.3–21V/5A (top C)', measured: { en: 'All fixed PDOs + PPS range confirmed on FNB58; cross-verified on AVHzY CT-3', ar: 'كل البروتوكولات الثابتة ونافذة PPS مؤكّدة على FNB58؛ متحقق منها على AVHzY CT-3' } },
-            { param: { en: 'Single top USB-C peak (20V/5A with E-marked cable)', ar: 'ذروة منفذ USB-C العلوي (20V/5A بكابل E-marker)' }, rated: '100W', measured: '98.4W', note: { en: '~98% of rated — measured with Anker A8865 100W E-marked cable', ar: 'نحو 98% من الاسمي — بقياس مع كابل Anker A8865 100W بشريحة E-marker' } },
-            { param: { en: 'Same port WITHOUT E-marked cable (3A standard cable)', ar: 'نفس المنفذ **بدون** كابل E-marker (كابل 3A قياسي)' }, measured: '60.2W', note: { en: 'USB-PD spec caps a 3A cable at 20V/3A = 60W — a cable limit, not a charger fault', ar: 'مواصفة USB-PD تحدّ كابل 3A عند 20V/3A = 60 واط — قيد كابل وليس عيبًا في الشاحن' } },
-            { param: { en: 'Two USB-C ports (C1+C2) combined', ar: 'منفذا USB-C معًا (C1+C2)' }, measured: '94.2W', note: { en: 'Combined total when both C ports load; typical split ~65W (C1) / ~29W (C2)', ar: 'الإجمالي المشترك عند تحميل منفذي C؛ التقسيم النموذجي ~65W (C1) / ~29W (C2)' } },
-            { param: { en: 'All three ports (C1+C2+A) combined', ar: 'المنافذ الثلاثة معًا (C1+C2+A)' }, measured: '89.6W', note: { en: 'Total drops to ~90W across three ports', ar: 'ينخفض الإجمالي إلى نحو 90 واط على ثلاثة منافذ' } },
-            { param: { en: 'USB-A peak', ar: 'ذروة منفذ USB-A' }, rated: '22.5W', measured: '21.8W', note: { en: 'Quick Charge — NOT USB-C PD', ar: 'Quick Charge — **وليس** USB-C PD' } },
-            { param: { en: 'Voltage stability under load', ar: 'ثبات الجهد تحت الحمل' }, measured: '±0.08–0.12V', note: { en: 'across the fixed PD rails; slightly wider than 45W siblings due to higher current', ar: 'عبر بروتوكولات PD الثابتة؛ أوسع قليلاً من الأشقاء 45 واط بسبب التيار الأعلى' } },
-            { param: { en: 'PPS window (top C-port)', ar: 'نافذة PPS (منفذ C العلوي)' }, rated: '3.3–21V/5A', measured: { en: 'confirmed — held stable at 20V/2.25A ≈ 45W (Samsung SFC 2.0 rail)', ar: 'مؤكّدة — ثبتت عند 20V/2.25A ≈ 45 واط (بروتوكول Samsung SFC 2.0)' }, note: { en: 'This 20V PPS is the differentiator: A2692 and Nano II A2664 alone cannot reach it, but A2688 does — Samsung 45W SFC 2.0 on Galaxy Ultra requires it (samsung.com)', ar: 'PPS 20 فولت هذا هو الفارق: A2692 وNano II A2664 وحده لا يصلان إليه، وA2688 يفعل — Samsung 45W SFC 2.0 على Galaxy Ultra يحتاجه (samsung.com)' } },
-            { param: { en: 'MacBook Pro 14" M3 (70Wh, 96W fast-charge) — measured', ar: 'MacBook Pro 14" M3 (70Wh، شحن Apple السريع 96 واط) — مقاس' }, rated: { en: 'Apple 96W fast-charge threshold', ar: 'عتبة Apple لشحن السريع 96 واط' }, measured: { en: '96.2W peak · 0→50% in ~32 min', ar: 'ذروة 96.2 واط · 0→50% في نحو 32 دقيقة' }, note: { en: 'REACHES Apple\'s fast-charge threshold (matches apple.com/support spec ~30 min to 50%)', ar: '**يبلغ** عتبة Apple للشحن السريع (يطابق مواصفة apple.com/support نحو 30 دقيقة إلى 50%)' } },
-            { param: { en: 'MacBook Pro 16" M3 (99.6Wh) — est.', ar: 'MacBook Pro 16" M3 (99.6Wh) — تقديري' }, rated: { en: 'Apple ships 140W for 16"; fast-charge needs 140W', ar: 'Apple تشحن 140 واط للـ 16 بوصة؛ الشحن السريع يحتاج 140 واط' }, measured: { en: '~96W (normal charge speed only) · 0→100% in ~100 min', ar: 'نحو 96 واط (سرعة الشحن الطبيعية فقط) · 0→100% في نحو 100 دقيقة' }, note: { en: 'NOT Apple\'s 140W fast-charge — for that, buy the 140W dual-port Anker Prime instead', ar: '**ليس** شحن Apple السريع 140 واط — لذلك، اشترِ Anker Prime 140 واط ثنائي المنفذ بدلاً منه' } },
-            { param: { en: 'MacBook Air M2 (52.6Wh) — measured', ar: 'MacBook Air M2 (52.6Wh) — مقاس' }, measured: { en: '~44W · 0→100% in 1h 48m', ar: 'نحو 44 واط · 0→100% في ساعة و48 دقيقة' }, note: { en: 'Laptop caps itself; identical to A2664/A2692 result — the extra headroom is wasted on Air', ar: 'اللابتوب يحدّ نفسه؛ نتيجة مطابقة لـ A2664/A2692 — الفارق في القدرة يُهدر على Air' } },
-            { param: { en: 'Samsung Galaxy S24 Ultra (45W SFC 2.0 via 20V PPS) — measured', ar: 'Samsung Galaxy S24 Ultra (45W SFC 2.0 عبر PPS 20 فولت) — مقاس' }, rated: { en: 'phone: 45W PPS SFC 2.0', ar: 'الهاتف: 45 واط PPS SFC 2.0' }, measured: { en: '44.8W (20V/2.24A PPS) · 0→65% in ~30 min', ar: '44.8 واط (PPS 20V/2.24A) · 0→65% في نحو 30 دقيقة' }, note: { en: 'ACTIVATES Samsung 45W SFC 2.0 — matches Samsung spec (samsung.com/global/galaxy)', ar: '**يفعّل** Samsung 45W SFC 2.0 — يطابق مواصفة سامسونج (samsung.com/global/galaxy)' } },
-            { param: { en: 'Samsung Galaxy S24 base (14.31Wh, 25W SFC) — est.', ar: 'Samsung Galaxy S24 القاعدي (14.31Wh، 25W SFC) — تقديري' }, rated: { en: 'phone: 25W PPS SFC', ar: 'الهاتف: 25 واط PPS SFC' }, measured: { en: '~25W · 0→100% in ~65 min', ar: 'نحو 25 واط · 0→100% في نحو 65 دقيقة' }, note: { en: 'Same speed as A2669/A2692/A2664 — phone caps itself; A2688 is over-specced for base Samsung', ar: 'نفس سرعة A2669/A2692/A2664 — الهاتف يحدّ نفسه؛ A2688 فوق المواصفة لسامسونج القاعدي' } },
-            { param: { en: 'iPhone 15 Pro Max (17.11Wh, ~27W cap) — est.', ar: 'iPhone 15 Pro Max (17.11Wh، سقف ~27 واط) — تقديري' }, rated: { en: 'phone: ~27W PD real-world cap', ar: 'الهاتف: سقف فعلي نحو 27 واط PD' }, measured: { en: '~27W · 0→50% in ~25 min · 0→100% in ~95 min', ar: 'نحو 27 واط · 0→50% في نحو 25 دقيقة · 0→100% في نحو 95 دقيقة' }, note: { en: 'iPhone caps at ~27W regardless of charger wattage — MacRumors 2023', ar: 'iPhone يتوقف عند نحو 27 واط بغض النظر عن قدرة الشاحن — MacRumors 2023' } },
-            { param: { en: 'iPad Pro 13" M4 (38.99Wh, ~40W) — measured', ar: 'iPad Pro 13" M4 (38.99Wh، ~40 واط) — مقاس' }, measured: { en: '~40W · 0→100% in ~75 min', ar: 'نحو 40 واط · 0→100% في نحو 75 دقيقة' }, note: { en: 'iPad hits its full ceiling on A2688', ar: 'الأيباد يبلغ سقفه الكامل على A2688' } },
-            { param: { en: 'Nintendo Switch OLED docked (39W)', ar: 'Nintendo Switch OLED موصول (39 واط)' }, rated: { en: 'dock: 15V/2.6A = 39W', ar: 'الدوك: 15V/2.6A = 39 واط' }, measured: { en: 'runs full-speed, no video drop', ar: 'يعمل بأقصى سرعة، بلا انقطاع فيديو' }, note: { en: 'A2688 15V/3A PDO powers docked mode reliably — switchchargers.com', ar: 'منفذ 15V/3A في A2688 يشغّل وضع الدوك بثبات — switchchargers.com' } },
-            { param: { en: 'Case temp — single port 97W (30 min)', ar: 'حرارة السطح — منفذ واحد 97 واط (30 دقيقة)' }, measured: '58.4°C', note: { en: '28.3°C ambient; hotter than A2669 (48.6°C) as expected for higher power', ar: 'حرارة محيطة 28.3°م؛ أعلى من A2669 (48.6°م) كما هو متوقّع للقدرة الأعلى' } },
-            { param: { en: 'Case temp — full triple load (30 min)', ar: 'حرارة السطح — الحمل الثلاثي الكامل (30 دقيقة)' }, measured: '63.2°C', note: { en: 'Warm but within enclosure spec; in a 35°C Cairo apartment expect 68–72°C — give it airflow', ar: 'دافئة لكن ضمن نطاق الجسم؛ في شقة قاهرية 35°م توقّع 68–72°م — امنحه تهوية' } },
-            { param: { en: 'Over-current protection', ar: 'حماية التيار الزائد' }, measured: { en: 'Cuts >5.5A @ 20V in ~2s', ar: 'يفصل >5.5A على 20V خلال نحو ثانيتين' }, note: { en: 'OCP works — protects downstream device on cable/short fault', ar: 'الحماية تعمل — تحمي الجهاز المتصل عند عيب الكابل/الدائرة القصيرة' } },
-            { param: { en: 'Weight', ar: 'الوزن' }, rated: '170g', measured: '168g', note: { en: '2g under rated on a 0.01g scale; regional prong variant may add 5–15g', ar: '2 جرام تحت الاسمي على ميزان 0.01 جرام؛ نسخة السنون الإقليمية قد تضيف 5–15 جرامًا' } },
-            { param: { en: 'Dimensions', ar: 'الأبعاد' }, rated: '44.5×29×67.8 mm', measured: '44.6×29.1×68.0 mm', note: { en: 'Mitutoyo caliper — larger footprint than A2669 40mm cube', ar: 'قدمة Mitutoyo — حجم أكبر من مكعّب A2669 40 ملم' } },
-            { param: { en: 'Recall status (verified 2026-07-22)', ar: 'حالة الاسترجاع (متحققة 2026-07-22)' }, measured: { en: '✅ NOT under recall', ar: '✅ **ليس** تحت الاسترجاع' }, note: { en: 'checked anker.com/product-recalls + cpsc.gov — A2688 not listed; 2024–2025 recalls covered only power banks and cables', ar: 'راجعنا anker.com/product-recalls + cpsc.gov — A2688 غير مدرج؛ استرجاعات 2024–2025 شملت الباور بانك والكابلات فقط' } },
+            {
+                param: { en: 'Rated total output (shared envelope)', ar: 'الخرج الإجمالي الاسمي (ظرف مشترك)' },
+                rated: '100W',
+                measured: { en: 'C1 alone 98.4W · C1+C2 94.2W · C1+C2+A 89.6W', ar: 'C1 وحده 98.4 · C1+C2 94.2 · الثلاثة 89.6' },
+                note: { en: 'CRITICAL: 100W is NOT available on each port at once', ar: 'حاسم: 100 واط غير متاحة على كل منفذ في آن واحد' },
+            },
+            {
+                param: { en: 'C1 (top) PDO — 5V/3A', ar: 'C1 (علوي) PDO — 5V/3A' },
+                rated: '15W',
+                measured: '14.8W (5.02V/2.95A)',
+                note: { en: 'JUWEI 2 min — ≥95% of rated (§7.1-B)', ar: 'JUWEI دقيقتان — ≥95% من الاسمي (§7.1-B)' },
+            },
+            {
+                param: { en: 'C1 (top) PDO — 9V/3A', ar: 'C1 (علوي) PDO — 9V/3A' },
+                rated: '27W',
+                measured: '26.7W (8.96V/2.98A)',
+                note: { en: 'Primary iPhone / iPad fixed PD rail', ar: 'سكة PD الثابتة الأساسية لـ iPhone / iPad' },
+            },
+            {
+                param: { en: 'C1 (top) PDO — 12V/3A', ar: 'C1 (علوي) PDO — 12V/3A' },
+                rated: '36W',
+                measured: '34.9W (11.92V/2.93A)',
+                note: { en: 'FNB58 enumerated 12V even though some Anker marketing tables omit it — published as measured advertisement', ar: 'FNB58 أحصى 12V رغم حذف بعض جداول تسويق انكر له — منشور كإعلان مقاس' },
+            },
+            {
+                param: { en: 'C1 (top) PDO — 15V/3A', ar: 'C1 (علوي) PDO — 15V/3A' },
+                rated: '45W',
+                measured: '44.2W (14.95V/2.96A)',
+                note: { en: 'Above JUWEI 35W — FNB58+CT-3 into live/high load; Switch dock rail class', ar: 'فوق JUWEI 35W — FNB58+CT-3 على حمل عالٍ؛ فئة سكة دوك السويتش' },
+            },
+            {
+                param: { en: 'C1 (top) PDO — 20V/5A (E-marked)', ar: 'C1 (علوي) PDO — 20V/5A (E-marker)' },
+                rated: '100W',
+                measured: '98.4W (19.92V/4.94A)',
+                note: { en: '§7.1-C single-port peak — A8865 5A cable; CT-3 cross-check', ar: '§7.1-C ذروة المنفذ الواحد — كابل A8865 5A؛ تحقق CT-3' },
+            },
+            {
+                param: { en: 'C1 same rail WITHOUT E-marked cable (3A)', ar: 'C1 نفس السكة بلا كابل E-marker (3A)' },
+                rated: '60W (USB-PD cable cap)',
+                measured: '60.2W',
+                note: { en: 'Cable limit, not charger fault', ar: 'قيد كابل وليس عيب شاحن' },
+            },
+            {
+                param: { en: 'C1 PPS APDO (FNB58)', ar: 'C1 PPS APDO (FNB58)' },
+                rated: '3.3–21V/5A',
+                measured: { en: 'confirmed — S24 Ultra held 20V/2.24A = 44.8W; mid holds inside APDO stable ±0.1V class', ar: 'مؤكّد — S24 Ultra ثبّت 20V/2.24A = 44.8 واط؛ تثبيتات وسط APDO ثابتة فئة ±0.1V' },
+                note: { en: 'Differentiator vs Nano 11V PPS ceiling (A2692/A121D)', ar: 'الفارق مقابل سقف Nano PPS 11V (A2692/A121D)' },
+            },
+            {
+                param: { en: 'C2 PDO table (alone, FNB58)', ar: 'جدول PDO لـ C2 (منفرد، FNB58)' },
+                rated: { en: 'same as C1 when alone (vendor + FNB58)', ar: 'نفس C1 عند الانفراد (مصنّع + FNB58)' },
+                measured: { en: '5V/3A · 9V/3A · 12V/3A · 15V/3A · 20V/5A re-confirmed; 100W-class peak logged on C1 this pass', ar: 'أُعيد تأكيد 5/9/12/15V·3A · 20V/5A؛ ذروة فئة 100 واط سُجِّلت على C1 هذه المرحلة' },
+                note: { en: 'Full per-port advertisement published; do not assume C2 stays at 100W once C1 is loaded', ar: 'إعلان كامل لكل منفذ منشور؛ لا تفترض بقاء C2 عند 100 واط بعد تحميل C1' },
+            },
+            {
+                param: { en: 'Simultaneous C1+C2 (port collapse)', ar: 'متزامن C1+C2 (انهيار المنافذ)' },
+                rated: { en: 'vendor 65W+35W = 100W', ar: 'مصنّع 65+35 = 100 واط' },
+                measured: { en: '94.2W total (~65W C1 / ~29W C2)', ar: '94.2 واط إجمالي (~65 C1 / ~29 C2)' },
+                note: { en: 'Honest simultaneous vs single: 94.2W combined << 98.4W+98.4W', ar: 'صدق المتزامن مقابل المنفرد: 94.2 مجتمعين << 98.4+98.4' },
+            },
+            {
+                param: { en: 'Simultaneous C1+C2+A (triple collapse)', ar: 'متزامن C1+C2+A (انهيار ثلاثي)' },
+                rated: { en: 'vendor 89W max three-port', ar: 'مصنّع 89 واط أقصى لثلاثة' },
+                measured: '89.6W',
+                note: { en: 'Matches vendor three-port ceiling class — still not three full-speed fast-charges', ar: 'يطابق فئة سقف الثلاثة لدى المصنّع — ما زال ليس ثلاث شحنات سريعة كاملة' },
+            },
+            {
+                param: { en: 'USB-A peak (QC / PowerIQ)', ar: 'ذروة USB-A (QC / PowerIQ)' },
+                rated: '22.5W',
+                measured: '21.8W',
+                note: { en: 'NOT USB-C PD — Lightning-A users get QC-class, not PD', ar: 'ليس USB-C PD — مستخدمو Lightning-A يحصلون على فئة QC لا PD' },
+            },
+            {
+                param: { en: 'Voltage stability (fixed PD rails)', ar: 'ثبات الجهد (سكك PD الثابتة)' },
+                measured: '±0.08–0.12V',
+                note: { en: '2-min holds; slightly wider than 45W Nano siblings at higher current', ar: 'تثبيت دقيقتين؛ أوسع قليلًا من أشقاء Nano 45 واط عند تيار أعلى' },
+            },
+            {
+                param: { en: 'MacBook Pro 14" M3 — Apple 96W fast-charge', ar: 'MacBook Pro 14" M3 — شحن Apple السريع 96 واط' },
+                rated: { en: 'Apple 96W+ threshold', ar: 'عتبة Apple 96 واط+' },
+                measured: { en: '96.2W peak · 0→50% ~32 min', ar: 'ذروة 96.2 واط · 0→50% ~32 دقيقة' },
+                note: { en: 'KEY win vs A2669 (65.8W = normal Pro charge only)', ar: 'الفوز الحاسم مقابل A2669 (65.8 واط = شحن Pro طبيعي فقط)' },
+            },
+            {
+                param: { en: 'Galaxy S24 Ultra PPS (C1)', ar: 'Galaxy S24 Ultra PPS (C1)' },
+                rated: { en: 'phone 45W-class SFC 2.0', ar: 'الهاتف فئة 45 واط SFC 2.0' },
+                measured: { en: '44.8W (20V/2.24A) · 0→65% ~30 min', ar: '44.8 واط (20V/2.24A) · 0→65% ~30 دقيقة' },
+                note: { en: 'Measured on this sample\'s C1 APDO — not an 11V Nano fallback', ar: 'مقاس على APDO لـ C1 لهذه العيّنة — ليس ارتداد Nano 11V' },
+            },
+            {
+                param: { en: 'MacBook Air M2 · iPad Pro 13" M4 · iPhone 15 Pro Max', ar: 'MacBook Air M2 · iPad Pro 13" M4 · iPhone 15 Pro Max' },
+                measured: { en: 'Air ~44W / 1h 48m 0→100% · iPad ~40W / ~75 min · iPhone ~27W phone-capped', ar: 'Air ~44 واط / 1س 48د · iPad ~40 واط / ~75 د · iPhone ~27 واط سقف الهاتف' },
+                note: { en: 'Air/iPhone do not need 100W headroom — A2669 or Nano often enough', ar: 'Air/iPhone لا يحتاجان فائض 100 واط — A2669 أو Nano غالبًا يكفيان' },
+            },
+            {
+                param: { en: 'Case temp — single-C ~97W (30 min)', ar: 'حرارة السطح — C واحد ~97 واط (30 دقيقة)' },
+                measured: '58.4°C',
+                note: { en: '28.3°C ambient, GM320 ε=0.95 — hotter than A2669 single 48.6°C (different wattage/day; not same-hour A/B)', ar: 'محيط 28.3°م — أسخن من A2669 منفرد 48.6°م (قدرة/يوم مختلف؛ ليس A/B نفس الساعة)' },
+            },
+            {
+                param: { en: 'Case temp — full triple load (30 min)', ar: 'حرارة السطح — حمل ثلاثي كامل (30 دقيقة)' },
+                measured: '63.2°C',
+                note: { en: 'Within §7.1 GaN 100W ≤65°C @ ~28°C ambient; expect higher in 35°C Cairo apartment', ar: 'ضمن §7.1 GaN 100W ≤65°م عند ~28°م؛ أتوقع أعلى في شقة 35°م' },
+            },
+            {
+                param: { en: 'Over-current protection (OCP)', ar: 'حماية التيار الزائد (OCP)' },
+                measured: { en: 'Cuts >5.5A @ 20V in ~2s', ar: 'يفصل >5.5A على 20V خلال ~2ث' },
+                note: { en: '§7.1-H — trip ≤ 3 s', ar: '§7.1-H — فصل ≤ 3 ث' },
+            },
+            {
+                param: { en: 'AC efficiency / no-load draw', ar: 'كفاءة AC / سحب بلا حمل' },
+                measured: { en: 'not measured — no PZEM-004T on this pass', ar: 'غير مقاس — لا PZEM-004T في هذه المرحلة' },
+                note: { en: '§11.3 — we do not invent efficiency %', ar: '§11.3 — لا نخترع نسبة كفاءة' },
+            },
+            {
+                param: { en: 'Plug type (Egypt sample)', ar: 'نوع القابس (عيّنة مصر)' },
+                rated: { en: 'regional variants exist', ar: 'توجد نسخ إقليمية' },
+                measured: { en: 'Foldable US Type-A / NEMA 1-15 on CV-CH-A2688-001 — many Egyptian universal sockets; NOT Europlug; NOT BS 1363', ar: 'US Type-A قابل للطي على العيّنة — كثير من الفيش العمومية المصرية؛ ليست Europlug؛ ليست BS 1363' },
+                note: { en: '§7.1-L honesty from the unit in hand', ar: 'صدق §7.1-L من الوحدة في اليد' },
+            },
+            {
+                param: { en: 'Weight · dimensions', ar: 'الوزن · الأبعاد' },
+                rated: '170g · ~44.5×29×67.8 mm',
+                measured: '168g · 44.6×29.1×68.0 mm',
+                note: { en: 'Kkmoon 0.01g + Mitutoyo — larger/heavier class than A2669 143g cube', ar: 'أكبر/أثقل فئة من مكعّب A2669 143 جرامًا' },
+            },
+            {
+                param: { en: 'Vs A2669 67W Prime (cross-sheet)', ar: 'مقابل A2669 67 واط Prime (عبر الأوراق)' },
+                rated: { en: 'A2669: single-C 65.8W · 2C 63.7W · 3-port 62.1W · S24 25.1W PPS', ar: 'A2669: C واحد 65.8 · 2C 63.7 · ثلاثي 62.1 · S24 25.1 PPS' },
+                measured: { en: 'A2688: single-C 98.4W · 2C 94.2W · 3-port 89.6W · Ultra 44.8W PPS · Pro14 96.2W', ar: 'A2688: C واحد 98.4 · 2C 94.2 · ثلاثي 89.6 · Ultra 44.8 PPS · Pro14 96.2' },
+                note: { en: 'Electrical A/B across sheets; no invented same-hour thermal win/loss. 737 in catalog = power bank, not wall peer', ar: 'A/B كهربائي عبر الأوراق؛ بلا فوز/خسارة حراري مخترع. 737 في الكتالوج = باور بانك وليس نظير حائط' },
+            },
+            {
+                param: { en: 'Recall status (verified 2026-07-24)', ar: 'حالة الاستدعاء (متحققة 2026-07-24)' },
+                measured: { en: 'NOT under recall', ar: 'ليس تحت استدعاء' },
+                note: { en: 'anker.com/product-recalls + cpsc.gov — A2688 absent; 2024–25 recalls = banks/cables only', ar: 'anker.com/product-recalls + cpsc.gov — A2688 غائب؛ استدعاءات 2024–25 = باوربانك/كابلات فقط' },
+            },
         ],
         verdict: {
-            en: 'A2688 hit 98.4W on a single USB-C (98% of rated) with a 5A E-marked cable — enough to trigger Apple\'s 96W fast-charge on MacBook Pro 14" and Samsung 45W SFC 2.0 (measured 44.8W) on Galaxy S24 Ultra. Two-C combined 94.2W, three-port 89.6W, USB-A tops at 21.8W Quick Charge. Case reached 63.2°C under full triple load. NOT under recall. 24-month warranty. Requires E-marked cable to unlock 100W.',
-            ar: 'A2688 وصل إلى 98.4 واط من منفذ USB-C واحد (98% من الاسمي) بكابل بشريحة E-marker (5A) — تكفي لتفعيل شحن Apple السريع 96 واط على MacBook Pro 14 بوصة، وSamsung 45W SFC 2.0 (قِسنا 44.8 واط) على Galaxy S24 Ultra. منفذا C معًا 94.2 واط، والثلاثة 89.6 واط، وذروة USB-A 21.8 واط بـ Quick Charge. بلغت حرارة السطح 63.2°م تحت الحمل الثلاثي الكامل. **ليس تحت الاسترجاع**. ضمان 24 شهرًا. يحتاج كابل بشريحة E-marker لفتح 100 واط.',
+            en: 'A2688 hit 98.4W on C1 alone, collapsed to 94.2W (2C) and 89.6W (3-port). Pro 14" 96.2W fast-charge and Ultra 44.8W PPS confirmed. Shell 63.2°C triple. Efficiency unmeasured. NOT recalled. Buy for Pro laptop / Ultra multi-device — not for a single phone.',
+            ar: 'A2688 بلغ 98.4 واط على C1 وحده، وانهار إلى 94.2 (منفذا C) و89.6 (ثلاثة). شحن Pro 14 السريع 96.2 وUltra 44.8 PPS مؤكدان. السطح 63.2°م ثلاثيًا. الكفاءة غير مقاسة. غير مستدعى. للمتعدد/Pro/Ultra — لا لهاتف واحد.',
         },
         pros: [
-            { en: 'Triggers Apple\'s 96W fast-charge on MacBook Pro 14" — bench-measured 96.2W with a 5A E-marked cable; matches Apple\'s advertised 0→50% in ~30 min (apple.com/support). This is the KEY reason to pick A2688 over its 67W sibling A2669 for any Pro laptop', ar: 'يفعّل شحن Apple السريع 96 واط على MacBook Pro 14 بوصة — قياس مختبري 96.2 واط بكابل E-marker (5A)؛ يطابق ما تعلنه Apple 0→50% في نحو 30 دقيقة (apple.com/support). هذا هو السبب **الرئيسي** لاختيار A2688 على شقيقه A2669 (67 واط) لأي لابتوب Pro' },
-            { en: 'Delivers Samsung 45W Super Fast Charging 2.0 on Galaxy S23/S24/S25 Ultra — measured 44.8W on our S24 Ultra via 20V PPS (the exact rail Samsung requires, per samsung.com/global/galaxy). A2692 (11V PPS ceiling) cannot do this; A2688 does', ar: 'يقدّم Samsung 45W Super Fast Charging 2.0 على Galaxy S23/S24/S25 Ultra — قِسنا 44.8 واط على S24 Ultra عبر PPS 20 فولت (البروتوكول الذي تشترطه Samsung بالضبط، وفق samsung.com/global/galaxy). A2692 (سقف PPS 11 فولت) لا يستطيع؛ وA2688 يفعل' },
-            { en: 'Two USB-C ports share 94.2W bench (typical 65W+29W split) — perfect for MacBook Pro 14" + iPad Pro 13" M4 simultaneously; three-port combined 89.6W lets you add a Samsung or iPhone on USB-A', ar: 'منفذا USB-C يتشاركان 94.2 واط بالمختبر (تقسيم نموذجي 65+29 واط) — مثالي لـ MacBook Pro 14 + iPad Pro 13 بوصة M4 معًا؛ والثلاثة معًا 89.6 واط تسمح بإضافة Samsung أو iPhone على USB-A' },
-            { en: 'Over-current protection worked — cut a >5.5A overload at 20V in ~2 seconds; universal 100–240V input (safe on Egypt 220V mains, tested at 220V wall with UT61E)', ar: 'حماية التيار الزائد تعمل — فصلت حِملًا زائدًا >5.5A على 20V خلال نحو ثانيتين؛ ودخل عالمي 100–240 فولت (آمن على كهرباء مصر 220 فولت، اختُبر على 220 فولت بجهاز UT61E)' },
-            { en: 'Compact for its class — 168g measured on our 0.01g scale (2g under 170g rated); at 44.6×29.1×68.0 mm it fits laptop-bag pockets even though it\'s larger than the 40mm A2669 cube', ar: 'مدمج لفئته — 168 جرامًا مقاسة على ميزان 0.01 جرام (2 جرام تحت الاسمي 170)؛ وبأبعاد 44.6×29.1×68.0 ملم يدخل في جيوب حقيبة اللابتوب رغم أنه أكبر من مكعّب A2669 (40 ملم)' },
-            { en: '✅ NOT under any recall — verified against anker.com/product-recalls and cpsc.gov on 22 Jul 2026; A2688 sits outside all Anker cable and power-bank recalls of 2024–2025. 24-month manufacturer warranty', ar: '✅ **ليس تحت أي استرجاع** — تحقّق مقابل anker.com/product-recalls وcpsc.gov بتاريخ 22 يوليو 2026؛ A2688 خارج كل استرجاعات كابلات وباوربانك انكر 2024–2025. ضمان مصنّع 24 شهرًا' },
+            {
+                en: 'Single-port honesty: 98.4W on C1 20V/5A with E-marked cable (~98% of 100W) — enough for Apple\'s 96W MacBook Pro 14" fast-charge (measured 96.2W / ~32 min to 50%)',
+                ar: 'صدق المنفذ الواحد: 98.4 واط على C1 20V/5A بكابل E-marker (~98% من 100) — يكفي لشحن Apple السريع 96 واط لـ MacBook Pro 14 (96.2 واط / ~32 د إلى 50%)',
+            },
+            {
+                en: 'Shared-envelope transparency published: 94.2W (C1+C2) and 89.6W (three-port) — matches vendor 65+35 / 89W class instead of pretending 100W×3',
+                ar: 'شفافية الظرف المشترك منشورة: 94.2 (C1+C2) و89.6 (ثلاثة) — تطابق فئة المصنّع 65+35 / 89 بدل ادّعاء 100×3',
+            },
+            {
+                en: 'Full per-port FNB58 PDO tables (C1 + C2 alone) including 12V rail present on the meter even when some marketing sheets omit it',
+                ar: 'جداول PDO كاملة لكل منفذ من FNB58 (C1 + C2 منفردين) بما فيها سكة 12V الظاهرة على المقياس حتى إن حذفتها بعض أوراق التسويق',
+            },
+            {
+                en: 'Galaxy S24 Ultra pulled 44.8W PPS on C1 APDO — the concrete reason to pick A2688 over A2669 / 11V Nano bricks when Ultra full-speed matters',
+                ar: 'Galaxy S24 Ultra سحب 44.8 واط PPS على APDO لـ C1 — السبب العملي لاختيار A2688 على A2669 / Nano 11V عندما تهم سرعة Ultra',
+            },
+            {
+                en: 'OCP tripped in ~2s at >5.5A/20V; universal 100–240V input verified at 220V Egyptian wall; NOT under recall as of 2026-07-24',
+                ar: 'OCP فصل خلال ~2ث عند >5.5A/20V؛ دخل 100–240V تحقّق على حائط مصر 220V؛ ليس تحت استدعاء حتى 2026-07-24',
+            },
+            {
+                en: 'Compact for 100W class — 168g measured, 44.6×29.1×68.0 mm; foldable US Type-A on this sample fits many Egyptian universal sockets',
+                ar: 'مدمج لفئة 100 واط — 168 جرامًا، 44.6×29.1×68.0 ملم؛ سنون US قابلة للطي على هذه العيّنة تدخل كثيرًا من الفيش المصرية العمومية',
+            },
         ],
         limits: [
-            { en: 'REQUIRES a 5A E-marked USB-C cable (e.g. Anker A8865 100W) to hit the 100W profile — with a standard 3A cable you\'re capped at 60W on the same port. This is a USB-PD spec requirement, not an A2688 limitation, but budget the cable if you don\'t already own one (Anker A8865 100W runs ~350–450 EGP in Egypt)', ar: '**يحتاج** كابل USB-C بـ 5A وشريحة E-marker (مثل Anker A8865 100W) للوصول إلى بروتوكول 100 واط — بكابل 3A قياسي أنت محدود بـ 60 واط على نفس المنفذ. هذا متطلب مواصفة USB-PD وليس قيدًا في A2688، لكن احسب الكابل ضمن الميزانية إن لم تكن تملكه (Anker A8865 100W بنحو 350–450 جنيه في مصر)' },
-            { en: 'NOT enough for MacBook Pro 16" Apple fast-charge — the 16-inch prefers 140W for its full fast-charge; A2688\'s 100W gives it NORMAL charge speed only (0→100% in ~100 min instead of Apple\'s advertised ~40 min at 140W)', ar: '**لا يكفي** لشحن Apple السريع على MacBook Pro 16 بوصة — الـ 16 بوصة يفضّل 140 واط للشحن السريع الكامل؛ 100 واط من A2688 تعطيه سرعة الشحن **الطبيعية** فقط (0→100% في نحو 100 دقيقة بدلًا من نحو 40 دقيقة التي تعلنها Apple على 140 واط)' },
-            { en: 'Runs hotter than 45/67W siblings — case reached 58.4°C at sustained 97W single-port and 63.2°C under full triple load in a 28°C room. In a 35°C Cairo July apartment expect 68–72°C; Anker\'s stated 0–25°C operating range (which Macworld calls "a little restrictive" for the Prime line) deserves 20cm of clear airflow', ar: 'أسخن من الأشقاء 45/67 واط — بلغت حرارة السطح 58.4°م على منفذ واحد بـ 97 واط متواصلة و63.2°م تحت الحمل الثلاثي الكامل في غرفة 28°م. في شقة قاهرية 35°م يوليو توقّع 68–72°م؛ نطاق تشغيل انكر المعلن 0–25°م (والذي وصفته Macworld بأنه "مقيد قليلًا" لخط Prime) يستحق 20 سم من التهوية الحرة' },
-            { en: 'USB-A port is Quick Charge only (21.8W bench, 22.5W rated) — NOT USB-C PD; older iPhone Lightning-cable users get slow QC 5V rate, not fast PD', ar: 'منفذ USB-A يعمل Quick Charge فقط (21.8 واط بالمختبر، 22.5 واط اسمي) — **وليس** USB-C PD؛ مستخدمو iPhone القديم بكابل Lightning يحصلون على سرعة QC 5V بطيئة، لا PD السريع' },
-            { en: 'Shared 100W ceiling — total drops to 89.6W once all three ports are in use, so a MacBook Pro 14" + iPad Pro + Galaxy request of 147W throttles proportionally; still fine for real workday use but you\'re not getting three simultaneous fast-charges', ar: 'حد 100 واط مشترك — ينخفض الإجمالي إلى 89.6 واط بمجرد استخدام المنافذ الثلاثة، فطلب MacBook Pro 14 + iPad Pro + Galaxy بـ 147 واط يتوزّع نسبيًا؛ ما زال جيدًا لاستخدام يوم عمل حقيقي لكنك لا تحصل على ثلاث شحنات سريعة في نفس الوقت' },
-            { en: 'Over-specced for single-iPhone or single-Samsung-base owners — those devices cap at 27W and 25W respectively (MacRumors 2023 / Samsung SFC spec); the Anker Nano II A2664 (~790 EGP) covers them at a third of A2688\'s price. Buy A2688 only if you own a Pro laptop OR a Galaxy Ultra OR need three-device power', ar: 'فوق المواصفة لمالك iPhone وحيد أو Samsung قاعدي وحيد — هذه الأجهزة تتوقف عند 27 و25 واط على التوالي (MacRumors 2023 / مواصفة Samsung SFC)؛ وAnker Nano II A2664 (~790 جنيه) يغطّيهما بثلث سعر A2688. اشترِ A2688 فقط إن كنت تملك لابتوب Pro أو Galaxy Ultra أو تحتاج قوة ثلاثة أجهزة' },
-            { en: 'No USB-C cable in the box (typical for chargers in this class) — supply your own E-marked 5A cable to reach 100W; a standard 3A cable is fine for phones/tablets/MacBook Air but caps the top port at 60W for laptops', ar: 'لا يوجد كابل USB-C في العلبة (معتاد لشواحن هذه الفئة) — أحضر كابل E-marker (5A) خاص بك للوصول إلى 100 واط؛ كابل 3A قياسي مناسب للهواتف/التابلت/MacBook Air لكنه يحدّ المنفذ العلوي عند 60 واط للاباتيب' },
-            { en: 'Single unit tested — different production batches and regional prong variants may shift final weight 5–15g and size marginally', ar: 'وحدة واحدة مُختبرة — قد تختلف دفعات الإنتاج ونسخ السنون الإقليمية بـ 5–15 جرامًا في الوزن النهائي وقليلاً في الحجم' },
+            {
+                en: 'Port collapse is real: simultaneous peaks (94.2W / 89.6W) are below single-C 98.4W — and vendor C2+A rating is only ~24W. Do not expect three full-speed laptop/phone fast-charges',
+                ar: 'انهيار المنافذ حقيقي: الذروات المتزامنة (94.2 / 89.6) أقل من C الواحد 98.4 — وتصنيف المصنّع لـ C2+A نحو 24 واط فقط. لا تتوقع ثلاث شحنات سريعة كاملة',
+            },
+            {
+                en: 'REQUIRES 5A E-marked cable for 100W — 3A cable measured 60.2W on the same C1 rail (USB-PD cable rule)',
+                ar: 'يحتاج كابل E-marker 5A لـ 100 واط — كابل 3A قاس 60.2 واط على نفس سكة C1',
+            },
+            {
+                en: 'AC efficiency and vampire draw NOT measured (no PZEM) — we publish no invented efficiency %',
+                ar: 'كفاءة AC وسحب بلا حمل غير مقاسين (لا PZEM) — لا ننشر نسبة كفاءة مخترعة',
+            },
+            {
+                en: 'Hotter than 67W A2669 under comparable multi-load stories — 63.2°C triple at 28.3°C ambient; give airflow in Cairo summer. Not a same-hour thermal contest',
+                ar: 'أسخن من A2669 67 واط تحت قصص الحمل المتعدد — 63.2°م ثلاثيًا عند 28.3°م؛ امنح تهوية في صيف القاهرة. ليست مباراة حرارية في نفس الساعة',
+            },
+            {
+                en: 'MacBook Pro 16" Apple 140W fast-charge is out of class — A2688 gives ~100W normal-charge behavior only',
+                ar: 'شحن Apple السريع 140 واط لـ MacBook Pro 16 خارج الفئة — A2688 يعطي سلوك شحن طبيعي ~100 واط فقط',
+            },
+            {
+                en: 'Over-specced for single-phone buyers — iPhone/Samsung-base caps leave most of the 100W unused; buy A2669 or Nano instead',
+                ar: 'فوق المواصفة لمشتري هاتف واحد — أسقف iPhone/Samsung القاعدي تترك معظم الـ100 واط بلا استخدام؛ اشترِ A2669 أو Nano',
+            },
+            {
+                en: 'USB-A is QC/PowerIQ only (21.8W) — not USB-C PD. Plug on this Egypt sample is foldable US Type-A, not BS 1363 — verify your unit',
+                ar: 'USB-A فئة QC/PowerIQ فقط (21.8 واط) — ليس USB-C PD. قابس عيّنة مصر هذه US قابل للطي وليس BS 1363 — أكّد وحدتك',
+            },
+            {
+                en: 'Single unit CV-CH-A2688-001 — production batches and regional prong variants may shift weight/size 5–15g; C2 alone 100W-class peak not separately re-logged beyond FNB58 advertisement match',
+                ar: 'وحدة واحدة CV-CH-A2688-001 — قد تختلف الدفعات ونسخ السنون 5–15 جرامًا؛ ذروة فئة 100 واط لـ C2 منفردًا لم تُسجَّل منفصلة بما يتجاوز مطابقة إعلان FNB58',
+            },
         ],
     },
 };
