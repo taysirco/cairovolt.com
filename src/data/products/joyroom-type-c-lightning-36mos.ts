@@ -69,6 +69,6 @@ export const joyroom_type_c_lightning_36mos = {
             en: "A USB-C to Lightning option for buyers who value a braided exterior and a prominently listed warranty term. Confirm model JR-S-CL36M, the rated power, any MFi statement and the current warranty policy before purchase; actual cable life depends on handling.",
             ar: "خيار USB-C إلى Lightning لمن يهتم بالغلاف المضفر وأجل الضمان المعروض. أكد موديل JR-S-CL36M وتصنيف الطاقة وبيان MFi إن وجد وسياسة الضمان الحالية قبل الشراء؛ عمر الكابل يتغير حسب الاستخدام."
         },
-        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-usb-a-micro-cable", "joyroom-60w-car-charger", "joyroom-usb-a-lightning-cable", "joyroom-usb-a-type-c-1.2m", 'joyroom-usb-a-type-c-1.2m'],
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-usb-a-micro-cable", "joyroom-60w-car-charger", "joyroom-usb-a-lightning-cable"],
 
     };

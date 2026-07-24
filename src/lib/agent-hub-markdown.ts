@@ -464,6 +464,14 @@ export function generateSolutionMarkdown(
     md += `## ${isAr ? 'المشكلة' : 'Problem'}\n\n${clean(solution.problemStatement[locale])}\n\n`;
     md += `## ${isAr ? 'التحليل الهندسي' : 'Engineering explanation'}\n\n${clean(solution.engineeringExplanation[locale])}\n\n`;
 
+    if (solution.steps?.[locale]?.length) {
+        md += `## ${isAr ? 'خطوات عملية' : 'Practical steps'}\n\n`;
+        solution.steps[locale].forEach((step, i) => {
+            md += `${i + 1}. ${clean(step)}\n`;
+        });
+        md += '\n';
+    }
+
     md += `## ${isAr ? 'منتجات موصى بها' : 'Recommended products'}\n\n`;
     if (!products.length) {
         md += isAr
@@ -478,6 +486,13 @@ export function generateSolutionMarkdown(
         md += isAr
             ? `> ملاحظة فهرسة: هذه الـ slugs مذكورة في بيانات الحل لكنها غير نشطة/غير موجودة في الكتالوج الآن: ${missingSlugs.join(', ')}\n\n`
             : `> Catalog note: these solution slugs are referenced but not active/present in the live catalog: ${missingSlugs.join(', ')}\n\n`;
+    }
+
+    if (solution.faqs?.length) {
+        md += `## ${isAr ? 'أسئلة شائعة' : 'FAQ'}\n\n`;
+        for (const faq of solution.faqs) {
+            md += `### ${clean(faq.question[locale])}\n\n${clean(faq.answer[locale])}\n\n`;
+        }
     }
 
     if (solution.relatedSolutions.length) {

@@ -24,7 +24,7 @@ export const soundcore_r50i_vi_earbuds = {
             { id: "img_8", url: "/products/anker/soundcore-r50i-vi-earbuds/soundcore-r50i-vi-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور R50i Vi A3969 close up detail - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["anker-soundcore-r50i", "anker-soundcore-r50i-nc", "soundcore-a30i-earbuds", "soundcore-p30i-earbuds", "anker-soundcore-k20i", "anker-a2741-charger-30w"],
+    relatedProducts: ["anker-soundcore-r50i", "soundcore-p30i-earbuds", "soundcore-a30i-earbuds", "anker-soundcore-k20i", "anker-a2741-charger-30w"],
 
     translations: {
         en: {

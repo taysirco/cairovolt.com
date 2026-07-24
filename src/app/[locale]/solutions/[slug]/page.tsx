@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import { FAQPageSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
 
 export const revalidate = 3600;
 // Closed slug space (solutionsDB) → unknown slugs get a real 404 instead of
@@ -77,6 +78,14 @@ export default async function SolutionPage({ params }: Props) {
     const title = isArabic ? solution.searchQuery.ar : solution.searchQuery.en;
     const problem = isArabic ? solution.problemStatement.ar : solution.problemStatement.en;
     const answer = isArabic ? solution.engineeringExplanation.ar : solution.engineeringExplanation.en;
+    const steps = isArabic ? solution.steps.ar : solution.steps.en;
+    const faqs = solution.faqs.map(faq => ({
+        question: isArabic ? faq.question.ar : faq.question.en,
+        answer: isArabic ? faq.answer.ar : faq.answer.en,
+    }));
+    const pageUrl = isArabic
+        ? `https://cairovolt.com/solutions/${slug}`
+        : `https://cairovolt.com/en/solutions/${slug}`;
 
     // Fetch the specific products recommended to solve this pain point
     const recommendedProducts = solution.recommendedProductSlugs
@@ -91,13 +100,21 @@ export default async function SolutionPage({ params }: Props) {
                     { name: isArabic ? 'حلول شائعة' : 'Common solutions', url: `https://cairovolt.com${isArabic ? '' : '/en'}/faq` },
                     {
                         name: title,
-                        url: isArabic
-                            ? `https://cairovolt.com/solutions/${slug}`
-                            : `https://cairovolt.com/en/solutions/${slug}`,
+                        url: pageUrl,
                     },
                 ]}
                 locale={locale}
             />
+            <HowToSchema
+                title={title}
+                description={problem}
+                steps={steps.map((text, index) => ({
+                    name: isArabic ? `الخطوة ${index + 1}` : `Step ${index + 1}`,
+                    text,
+                }))}
+                locale={locale}
+            />
+            <FAQPageSchema items={faqs} locale={locale} url={pageUrl} />
             {/* JSON-LD ItemList of the recommended products (matches the on-page product grid) */}
             <script
                 type="application/ld+json"
@@ -148,11 +165,23 @@ export default async function SolutionPage({ params }: Props) {
                     </div>
                 </div>
 
+                {/* Action checklist — visible mirror of HowToSchema */}
+                <div className="bg-white dark:bg-gray-900 rounded-3xl p-8 md:p-10 border border-gray-100 dark:border-gray-800 mb-12">
+                    <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
+                        {isArabic ? 'خطوات عملية' : 'Practical steps'}
+                    </h2>
+                    <ol className="space-y-4 list-decimal list-inside text-gray-700 dark:text-gray-300 leading-relaxed">
+                        {steps.map((step) => (
+                            <li key={step} className="ps-1">{step}</li>
+                        ))}
+                    </ol>
+                </div>
+
                 {/* Targeted Product Recommendations */}
                 <div className="mb-12">
-                    <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
+                    <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
                         {isArabic ? 'المنتجات الموصى بها لحل هذه المشكلة' : 'Recommended Products to Solve This'}
-                    </h3>
+                    </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {recommendedProducts.map((product) => {
                             const rawName = isArabic ? product.translations?.ar?.name : product.translations?.en?.name;
@@ -182,7 +211,7 @@ export default async function SolutionPage({ params }: Props) {
                                     </div>
                                     <div className="flex flex-col justify-center">
                                         <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">{brandLabel}</span>
-                                        <h4 className="font-bold text-gray-900 dark:text-white mb-2 line-clamp-2">{pName}</h4>
+                                        <h3 className="font-bold text-gray-900 dark:text-white mb-2 line-clamp-2">{pName}</h3>
                                         <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
                                             <span className="text-blue-600 dark:text-blue-400 font-black">{product.price} EGP</span>
                                             {product.originalPrice > product.price && (
@@ -201,6 +230,30 @@ export default async function SolutionPage({ params }: Props) {
                     </div>
                 </div>
 
+                {/* Visible FAQ — mirrors FAQPageSchema */}
+                {faqs.length > 0 && (
+                    <div className="mb-12">
+                        <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
+                            {isArabic ? 'أسئلة شائعة' : 'Frequently asked questions'}
+                        </h2>
+                        <div className="space-y-4">
+                            {faqs.map((faq) => (
+                                <details
+                                    key={faq.question}
+                                    className="group rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900"
+                                >
+                                    <summary className="cursor-pointer list-none font-semibold text-gray-900 dark:text-white">
+                                        {faq.question}
+                                    </summary>
+                                    <p className="mt-3 leading-relaxed text-gray-600 dark:text-gray-400">
+                                        {faq.answer}
+                                    </p>
+                                </details>
+                            ))}
+                        </div>
+                    </div>
+                )}
+
                 {solution.relatedSolutions.length > 0 && (() => {
                     const related = solution.relatedSolutions
                         .map(ref => getSolutionByIdOrSlug(ref))
@@ -208,9 +261,9 @@ export default async function SolutionPage({ params }: Props) {
                     if (!related.length) return null;
                     return (
                         <div className="mb-12">
-                            <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
+                            <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
                                 {isArabic ? 'حلول ذات صلة' : 'Related solutions'}
-                            </h3>
+                            </h2>
                             <ul className="space-y-3">
                                 {related.map(item => (
                                     <li key={item.slug}>

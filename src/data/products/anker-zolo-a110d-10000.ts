@@ -28,10 +28,9 @@ export const anker_zolo_a110d_10000 = {
         "anker-zolo-a110e-20000",
         "anker-a8050-usb-c-cable",
         "anker-a2732-charger-35w",
-        "anker-zolo-a1681-20000",
         "anker-soundcore-k20i",
         "anker-a2741-charger-30w"
-    ],
+],
         translations: {
             en: {
                 name: "Anker ZOLO Power Bank 10,000mAh (22.5W) | Built-in Cable",

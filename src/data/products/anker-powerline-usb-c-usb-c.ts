@@ -160,10 +160,13 @@ export const anker_powerline_usb_c_usb_c = {
         relatedProducts: [
         "anker-prime-a2688-100w-charger",
         "anker-powerport-iii-20w-a2639",
-        "anker-nano-45w-1c-pd","anker-powerport-20w",
-        "anker-powerport-25w",
         "anker-nano-45w",
+        "anker-powerport-20w",
+        "anker-powerport-25w",
         "anker-powercore-10000",
         "anker-car-charger-dual-usb",
-        "anker-737-powerbank", 'anker-nano-45w-smart-display-charger', 'anker-soundcore-motion-plus']
+        "anker-737-powerbank",
+        "anker-nano-45w-smart-display-charger",
+        "anker-soundcore-motion-plus"
+]
     };

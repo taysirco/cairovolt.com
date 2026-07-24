@@ -25,7 +25,7 @@ export const soundcore_liberty_4_nc = {
             { id: "img_9", url: "/products/anker/soundcore-liberty-4-nc/soundcore-liberty-4-nc-alternate-color-cairovolt.webp", alt: "Soundcore Liberty 4 NC alternate color option - CairoVolt Egypt", order: 8, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["soundcore-liberty-4-pro", "soundcore-liberty-5", "soundcore-liberty-3-pro", "anker-soundcore-r50i-nc", "soundcore-space-one-headphones", "anker-nano-45w"],
+    relatedProducts: ["soundcore-liberty-4-pro", "soundcore-liberty-5", "soundcore-liberty-3-pro", "soundcore-p30i-earbuds", "soundcore-space-one-headphones", "anker-nano-45w"],
 
     translations: {
         en: {

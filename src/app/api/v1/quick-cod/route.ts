@@ -11,6 +11,7 @@ import { getClientIp } from '@/lib/request-ip';
 import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { getGovernorateBySlug } from '@/data/governorates';
 import {
+    SEO_NOINDEX_PRODUCT_SLUGS,
     STANDARD_SHIPPING_MAX_EGP,
     STANDARD_SHIPPING_MIN_EGP,
 } from '@/lib/merchant-product-data';
@@ -264,6 +265,18 @@ export async function POST(req: NextRequest) {
         }, { status: 404 });
     }
 
+    if (SEO_NOINDEX_PRODUCT_SLUGS.has(String(product.slug || ''))) {
+        return jsonResponse({
+            success: false,
+            error: 'Product unavailable due to manufacturer safety recall',
+            error_ar: 'هذا المنتج غير متاح للبيع بسبب استدعاء سلامة من الشركة المصنّعة',
+            support: {
+                whatsapp: 'https://wa.me/201558245974',
+                recall_info: 'https://www.anker.com/product-recalls',
+            },
+        }, { status: 410 });
+    }
+
     // ── 5. Stock Check ──
     const stock = Number(product.stock) || 0;
     if (stock <= 0) {
@@ -478,6 +491,15 @@ export async function GET(req: NextRequest) {
                 error: 'Product not found',
                 error_ar: 'المنتج غير موجود',
             }, { status: 404 });
+        }
+
+        if (SEO_NOINDEX_PRODUCT_SLUGS.has(String(product.slug || ''))) {
+            return jsonResponse({
+                available: false,
+                error: 'Product unavailable due to manufacturer safety recall',
+                error_ar: 'هذا المنتج غير متاح للبيع بسبب استدعاء سلامة من الشركة المصنّعة',
+                recall_info: 'https://www.anker.com/product-recalls',
+            }, { status: 410 });
         }
 
         const translations = product.translations as

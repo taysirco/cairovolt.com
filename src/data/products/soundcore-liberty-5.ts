@@ -27,7 +27,7 @@ export const soundcore_liberty_5 = {
             { id: "img_11", url: "/products/anker/soundcore-liberty-5/soundcore-liberty-5-side-view-cairovolt.webp", alt: "Soundcore Liberty 5 side view stem design - CairoVolt", order: 10, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["soundcore-liberty-4-nc", "soundcore-liberty-4-pro", "soundcore-liberty-3-pro", "soundcore-space-one-headphones", "anker-soundcore-r50i-nc", "anker-nano-45w"],
+    relatedProducts: ["soundcore-liberty-4-nc", "soundcore-liberty-4-pro", "soundcore-liberty-3-pro", "soundcore-space-one-headphones", "soundcore-p30i-earbuds", "anker-nano-45w"],
 
     translations: {
         en: {

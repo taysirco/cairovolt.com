@@ -14,16 +14,15 @@ export const anker_soundcore_r50i = {
         ],
         relatedProducts: [
         "soundcore-a25i-earbuds",
-        "anker-soundcore-r50i-nc",
+        "soundcore-p30i-earbuds",
         "anker-soundcore-k20i",
         "anker-soundcore-life-p2i",
         "anker-a2741-charger-30w",
         "anker-soundcore-motion-plus",
         "anker-soundcore-flare-2",
         "soundcore-r50i-vi-earbuds",
-        "soundcore-p30i-earbuds",
         "soundcore-a30i-earbuds"
-    ],
+],
         translations: {
             en: {
                 name: "Anker Soundcore R50i | 10mm Drivers | 30h Battery | In-Ear",
@@ -41,7 +40,7 @@ export const anker_soundcore_r50i = {
 <li>⚡ <strong>Fast-charge example:</strong> verify Soundcore's current test conditions; actual playback varies.</li>
 <li>💧 <strong>IPX5:</strong> follow the stated water-resistance limits and dry the earbuds before charging.</li>
 <li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul></div>
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A3949</strong>, start with the manufacturer-rated Bluetooth version, codec support, battery conditions and IP rating printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. For active noise control, compare the <a href='/en/soundcore/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>R50i NC</a>; for a semi-in-ear fit, compare the <a href='/en/soundcore/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>K20i</a>. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">How to verify this model before buying</h2><p class="text-gray-700 leading-relaxed text-lg">For model <strong>A3949</strong>, start with the manufacturer-rated Bluetooth version, codec support, battery conditions and IP rating printed on the unit or packaging. Match the connector and required protocol to your exact device. Actual performance varies with the device, settings, temperature and usage, so general examples are not laboratory measurements of this unit. For active noise control, compare the <a href='/en/soundcore/audio/soundcore-p30i-earbuds' class='text-blue-600 hover:underline'>R50i NC</a>; for a semi-in-ear fit, compare the <a href='/en/soundcore/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>K20i</a>. Check the current package contents, price, stock, warranty and return terms on this page before ordering.</p></div>
 <div class="product-details">
 <section><h2 class="text-2xl font-bold mb-2">10mm Driver and Soundcore App EQ</h2>
 <p class="text-gray-700">R50i lists a 10mm driver with BassUp and EQ controls in the Soundcore app. App functions can change with phone, operating system, region and firmware, while perceived bass and clarity depend on fit, recording, codec, volume and the chosen EQ.</p></section>
@@ -78,7 +77,7 @@ export const anker_soundcore_r50i = {
 <div class="comparison-section">
 <h2 class="text-2xl font-bold mb-3">Soundcore R50i vs Alternatives — Quick Comparison</h2>
 <p class="text-gray-600 mb-3">Not sure which Soundcore earbuds are right for you? Here's how the Soundcore R50i stacks up against its siblings:</p>
-<table class="w-full border-collapse text-sm"><thead><tr class="bg-blue-900 text-white"><th class="p-3">Feature</th><th class="p-3">Soundcore R50i</th><th class="p-3"><a href='/en/soundcore/audio/anker-soundcore-r50i-nc' class='text-blue-200 hover:underline'>R50i NC</a></th><th class="p-3"><a href='/en/soundcore/audio/anker-soundcore-k20i' class='text-blue-200 hover:underline'>K20i</a></th><th class="p-3"><a href='/en/soundcore/audio/anker-soundcore-life-p2i' class='text-blue-200 hover:underline'>Life P2i</a></th></tr></thead><tbody>
+<table class="w-full border-collapse text-sm"><thead><tr class="bg-blue-900 text-white"><th class="p-3">Feature</th><th class="p-3">Soundcore R50i</th><th class="p-3"><a href='/en/soundcore/audio/soundcore-p30i-earbuds' class='text-blue-200 hover:underline'>R50i NC</a></th><th class="p-3"><a href='/en/soundcore/audio/anker-soundcore-k20i' class='text-blue-200 hover:underline'>K20i</a></th><th class="p-3"><a href='/en/soundcore/audio/anker-soundcore-life-p2i' class='text-blue-200 hover:underline'>Life P2i</a></th></tr></thead><tbody>
 <tr class="bg-gray-50"><td class="p-2 border font-semibold">Price (EGP)</td><td class="p-2 border text-green-700 font-bold">See current listing</td><td class="p-2 border">See current listing</td><td class="p-2 border">See current listing</td><td class="p-2 border">See current listing</td></tr>
 <tr><td class="p-2 border font-semibold">Driver</td><td class="p-2 border">10mm BassUp</td><td class="p-2 border">10mm BassUp</td><td class="p-2 border">13mm BassUp</td><td class="p-2 border">10mm</td></tr>
 <tr class="bg-gray-50"><td class="p-2 border font-semibold">Battery</td><td class="p-2 border">30h</td><td class="p-2 border">45h</td><td class="p-2 border">36h</td><td class="p-2 border">28h</td></tr>
@@ -97,7 +96,7 @@ export const anker_soundcore_r50i = {
 <li><strong>Exercise use:</strong> follow the IPX5 limits and clean and dry the earbuds before charging.</li>
 <li><strong>Call use:</strong> evaluate microphone performance with the actual phone, meeting app and environment.</li>
 </ul>
-<p class="text-gray-600 mt-3"><strong>Skip the R50i if:</strong> You need Active Noise Cancellation → get the <a href='/en/soundcore/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>Soundcore R50i NC</a>. You prefer open/semi-in-ear fit → get the <a href='/en/soundcore/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>Soundcore K20i</a>.</p>
+<p class="text-gray-600 mt-3"><strong>Skip the R50i if:</strong> You need Active Noise Cancellation → get the <a href='/en/soundcore/audio/soundcore-p30i-earbuds' class='text-blue-600 hover:underline'>Soundcore R50i NC</a>. You prefer open/semi-in-ear fit → get the <a href='/en/soundcore/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>Soundcore K20i</a>.</p>
 </div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">Compatibility guide based on listed specifications:</h3>
 <ul class="list-disc list-inside text-gray-700">
@@ -142,7 +141,7 @@ export const anker_soundcore_r50i = {
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">طريقة التحقق قبل الشراء</h2><p class="text-gray-700 leading-relaxed text-lg">بالنسبة للموديل <strong>A3949</strong>، ابدأ بالمواصفات المعلنة ورقم الموديل المطبوعين على الوحدة والعبوة، ثم طابق نوع الموصل والبروتوكول المطلوب مع جهازك. الأداء الفعلي يتغير حسب الجهاز والإعدادات والحرارة وطريقة الاستخدام، لذلك لا تُعامل الأمثلة العامة كقياس معمل لهذا المنتج. راجع محتويات العبوة والسعر والمخزون وشروط الضمان والاسترجاع الحالية في الصفحة قبل الطلب.</p></div>
 <div class="product-details">
 <section><h2 class="text-2xl font-bold mb-2">درايفر 10mm وEQ عبر تطبيق ساوندكور</h2>
-<p class="text-gray-700">تذكر R50i درايفر 10mm مع BassUp وتحكم EQ في تطبيق ساوندكور. قد تتغير وظائف التطبيق حسب الهاتف والنظام والمنطقة والبرنامج، بينما يعتمد الباس والوضوح على الملاءمة والتسجيل والكودك ومستوى الصوت وEQ. للعزل النشط قارن <a href="/soundcore/audio/anker-soundcore-r50i-nc" class="text-blue-600 hover:underline">ساوندكور R50i NC</a>، وللتصميم نصف الداخلي قارن <a href="/soundcore/audio/anker-soundcore-k20i" class="text-blue-600 hover:underline">ساوندكور K20i</a>.</p></section>
+<p class="text-gray-700">تذكر R50i درايفر 10mm مع BassUp وتحكم EQ في تطبيق ساوندكور. قد تتغير وظائف التطبيق حسب الهاتف والنظام والمنطقة والبرنامج، بينما يعتمد الباس والوضوح على الملاءمة والتسجيل والكودك ومستوى الصوت وEQ. للعزل النشط قارن <a href="/soundcore/audio/soundcore-p30i-earbuds" class="text-blue-600 hover:underline">ساوندكور R50i NC</a>، وللتصميم نصف الداخلي قارن <a href="/soundcore/audio/anker-soundcore-k20i" class="text-blue-600 hover:underline">ساوندكور K20i</a>.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">أرقام البطارية والشحن السريع المعلنة</h2>
 <p class="text-gray-700">تذكر ساوندكور حتى 10 ساعات للسماعات و30 ساعة مع العلبة ومثالاً للشحن السريع تحت إعداداتها. تؤثر شدة الصوت والمكالمات ووظائف التطبيق والحرارة وعمر البطارية في المدة، لذلك قارن الأرقام تحت شروط اختبار متقاربة ولا تعتبرها جدولاً ثابتاً.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">عزل سلبي داخلي</h2>

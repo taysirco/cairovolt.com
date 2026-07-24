@@ -27,7 +27,7 @@ export const soundcore_p41i_earbuds = {
             { id: "img_11", url: "/products/anker/soundcore-p41i-earbuds/soundcore-p41i-earbuds-side-view-cairovolt.webp", alt: "Soundcore P41i A3937 side view - CairoVolt", order: 10, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["soundcore-p40i-earbuds", "soundcore-a30i-earbuds", "soundcore-p30i-earbuds", "anker-soundcore-r50i-nc", "soundcore-liberty-buds", "anker-a2741-charger-30w"],
+    relatedProducts: ["soundcore-p40i-earbuds", "soundcore-a30i-earbuds", "soundcore-p30i-earbuds", "soundcore-liberty-buds", "anker-a2741-charger-30w"],
 
     translations: {
         en: {

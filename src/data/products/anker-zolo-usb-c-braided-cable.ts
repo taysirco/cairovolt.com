@@ -92,13 +92,13 @@ export const anker_zolo_usb_c_braided_cable = {
         "anker-prime-a2669-67w-gan-charger",
         "anker-powerport-iii-20w-a2639",
         "anker-a2216-magnetic-wireless-car-charger",
-        "anker-nano-45w-1c-pd",
+        "anker-nano-45w",
         "anker-a1637-wukong-3-in-1-power-bank",
-  "anker-prime-a2688-100w-charger",
-  "anker-nano-pro-45w-a2692",
-  "anker-a2732-charger-35w",
-  "anker-prime-a1336-20000mah-power-bank",
-  "anker-a8050-usb-c-cable",
-  "anker-zolo-30w-a2698-charger"
+        "anker-prime-a2688-100w-charger",
+        "anker-nano-pro-45w-a2692",
+        "anker-a2732-charger-35w",
+        "anker-prime-a1336-20000mah-power-bank",
+        "anker-a8050-usb-c-cable",
+        "anker-zolo-30w-a2698-charger"
 ]
     };

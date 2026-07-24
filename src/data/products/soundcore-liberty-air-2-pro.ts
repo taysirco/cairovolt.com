@@ -23,7 +23,7 @@ export const soundcore_liberty_air_2_pro = {
             { id: "img_7", url: "/products/anker/soundcore-liberty-air-2-pro/soundcore-liberty-air-2-pro-accessories-included-cairovolt.webp", alt: "Soundcore Liberty Air 2 Pro A3951 9 ear tips accessories - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["soundcore-liberty-4-nc", "soundcore-liberty-5", "soundcore-liberty-buds", "soundcore-a30i-earbuds", "anker-soundcore-r50i-nc", "anker-a2741-charger-30w"],
+    relatedProducts: ["soundcore-liberty-4-nc", "soundcore-liberty-5", "soundcore-liberty-buds", "soundcore-a30i-earbuds", "soundcore-p30i-earbuds", "anker-a2741-charger-30w"],
 
     translations: {
         en: {

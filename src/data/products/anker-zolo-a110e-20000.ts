@@ -23,12 +23,11 @@ export const anker_zolo_a110e_20000 = {
         ],
         relatedProducts: [
         "anker-zolo-a110d-10000",
-        "anker-zolo-a1681-20000",
         "anker-powercore-26800",
         "anker-prime-a1695-25000",
-        "anker-soundcore-r50i-nc",
+        "soundcore-p30i-earbuds",
         "anker-a2732-charger-35w"
-    ],
+],
         translations: {
             en: {
                 name: "Anker ZOLO Power Bank 20,000mAh (22.5W) | Built-in Cable",

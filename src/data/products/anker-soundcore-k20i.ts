@@ -15,7 +15,7 @@ export const anker_soundcore_k20i = {
         ],
         relatedProducts: [
         "soundcore-a25i-earbuds",
-        "anker-soundcore-r50i-nc",
+        "soundcore-p30i-earbuds",
         "anker-soundcore-r50i",
         "anker-a8050-usb-c-cable",
         "anker-a2741-charger-30w",
@@ -23,7 +23,7 @@ export const anker_soundcore_k20i = {
         "soundcore-p20i-earbuds",
         "soundcore-c30i-earbuds",
         "soundcore-v20i-earbuds"
-    ],
+],
         translations: {
             en: {
                 name: "Anker Soundcore K20i | 13mm Drivers | 36h Battery | Semi-In-Ear",

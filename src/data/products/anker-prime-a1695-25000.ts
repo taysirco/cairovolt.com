@@ -28,16 +28,15 @@ export const anker_prime_a1695_25000 = {
         relatedProducts: [
         "anker-prime-fusion-a1339-9600mah-65w",
         "anker-prime-a1336-20000mah-power-bank",
-        "anker-zolo-a1681-20000",
+        "anker-zolo-a110e-20000",
         "anker-a2732-charger-35w",
         "anker-a8050-usb-c-cable",
-        "anker-zolo-a110e-20000",
-        "anker-soundcore-r50i-nc",
+        "soundcore-p30i-earbuds",
         "anker-737-powerbank",
         "soundcore-liberty-4-pro",
         "soundcore-rave-3-speaker",
         "soundcore-space-one-headphones"
-    ],
+],
         translations: {
             en: {
                 name: "Anker Zolo Power Bank 25,000mAh 165W — Built-In Dual Cables | MacBook Charging",

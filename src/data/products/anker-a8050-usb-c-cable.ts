@@ -21,18 +21,18 @@ export const anker_a8050_usb_c_cable = {
         "anker-prime-a2688-100w-charger",
         "anker-a2216-magnetic-wireless-car-charger",
         "anker-nano-pro-45w-a2692",
-        "anker-nano-45w-1c-pd",
+        "anker-nano-45w",
         "anker-310-usb-c-lightning-cable",
         "anker-a1637-wukong-3-in-1-power-bank",
         "anker-usb-c-lightning-sureistrong",
         "anker-a2732-charger-35w",
         "anker-a2741-charger-30w",
         "anker-zolo-a110d-10000",
-        "anker-zolo-a1681-20000",
+        "anker-zolo-a110e-20000",
         "anker-prime-a1695-25000",
         "anker-pencil-stylus",
         "soundcore-p20i-earbuds"
-    ],
+],
         translations: {
             en: {
                 name: "Anker USB-A to USB-C Cable (A8050) | Braided Nylon 1.8m | Fast Charging",

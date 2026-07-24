@@ -91,11 +91,11 @@ export const anker_prime_a1336_20000mah_power_bank = {
         relatedProducts: [
         "anker-zolo-usb-c-braided-cable",
         "anker-prime-fusion-a1339-9600mah-65w",
-  "anker-prime-a1695-25000",
-  "anker-prime-a2688-100w-charger",
-  "anker-a8050-usb-c-cable",
-  "anker-737-powerbank",
-  "anker-zolo-a1681-20000",
-  "anker-prime-a2669-67w-gan-charger"
+        "anker-prime-a1695-25000",
+        "anker-prime-a2688-100w-charger",
+        "anker-a8050-usb-c-cable",
+        "anker-737-powerbank",
+        "anker-zolo-a110e-20000",
+        "anker-prime-a2669-67w-gan-charger"
 ]
     };

@@ -169,13 +169,13 @@ export const anker_prime_fusion_a1339_9600mah_65w = {
         meta: { keywords: "انكر برايم فيوجن, anker prime fusion, انكر A1339, anker a1339, باور بانك انكر 65 واط, anker 65w power bank, شاحن هجين انكر, anker hybrid charger, باور بانك 9600, 9600mAh power bank, انكر GaN, anker prime fusion egypt, سعر انكر برايم فيوجن, انكر برايم فيوجن مصر, شاحن قابل للطي, foldable plug charger, باور بانك بشاشة, CairoVolt, كايرو فولت, تحقق من موديل باور بانك انكر, anker power bank price egypt", mainTerm: "انكر برايم فيوجن" },
         expertOpinion: { en: "A1339 combines a wall-charger mode and an internal battery in one listed 305g design. Compare its printed AC input, USB-C profiles, shared output, usable battery energy, plug type and current service terms with separate charger and power-bank options.", ar: "يجمع A1339 وضع شاحن حائط وبطارية داخلية في تصميم معلن وزنه 305 جرام. قارن دخل AC وبروفايلات USB-C وتوزيع الخرج والطاقة القابلة للاستخدام ونوع القابس والشروط الحالية بخيار شاحن وباور بانك منفصلين." },
         relatedProducts: [
-        "anker-nano-45w-1c-pd",
+        "anker-nano-45w",
         "anker-a1637-wukong-3-in-1-power-bank",
-  "anker-a8050-usb-c-cable",
-  "anker-prime-a2669-67w-gan-charger",
-  "anker-prime-a1336-20000mah-power-bank",
-  "anker-prime-a1695-25000",
-  "anker-737-powerbank",
-  "anker-zolo-usb-c-braided-cable"
+        "anker-a8050-usb-c-cable",
+        "anker-prime-a2669-67w-gan-charger",
+        "anker-prime-a1336-20000mah-power-bank",
+        "anker-prime-a1695-25000",
+        "anker-737-powerbank",
+        "anker-zolo-usb-c-braided-cable"
 ]
     };

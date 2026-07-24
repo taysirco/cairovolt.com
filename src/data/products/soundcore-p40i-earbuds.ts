@@ -25,7 +25,7 @@ export const soundcore_p40i_earbuds = {
             { id: "img_9", url: "/products/anker/soundcore-p40i-earbuds/soundcore-p40i-earbuds-alternate-color-cairovolt.webp", alt: "Soundcore P40i A3955 alternate color - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["soundcore-p41i-earbuds", "soundcore-p30i-earbuds", "soundcore-a30i-earbuds", "anker-soundcore-r50i-nc", "soundcore-liberty-buds", "anker-a2741-charger-30w"],
+    relatedProducts: ["soundcore-p41i-earbuds", "soundcore-p30i-earbuds", "soundcore-a30i-earbuds", "soundcore-liberty-buds", "anker-a2741-charger-30w"],
 
     translations: {
         en: {

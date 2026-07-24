@@ -25,7 +25,13 @@ export const soundcore_a30i_earbuds = {
     ],
 
     relatedProducts: [
-        "soundcore-a25i-earbuds","anker-soundcore-r50i-nc", "soundcore-p40i-earbuds", "soundcore-p30i-earbuds", "soundcore-liberty-buds", "anker-soundcore-r50i", "anker-a2741-charger-30w"],
+        "soundcore-a25i-earbuds",
+        "soundcore-p30i-earbuds",
+        "soundcore-p40i-earbuds",
+        "soundcore-liberty-buds",
+        "anker-soundcore-r50i",
+        "anker-a2741-charger-30w"
+],
 
     translations: {
         en: {

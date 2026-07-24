@@ -104,7 +104,7 @@ export const anker_powercore_20000 = {
             ar: "PowerCore 20000 باور بانك بمنفذي USB-A وتصنيف معلن 72Wh. اختره بعد مقارنة الطاقة القابلة للاستخدام وحدود توزيع الخرج ووقت الإدخال والوزن وشروط الخدمة الحالية."
         },
         relatedProducts: [
-        "anker-nano-45w-1c-pd",
+        "anker-nano-45w",
         "anker-powercore-10000",
         "anker-powercore-26800",
         "anker-622-maggo",
@@ -113,5 +113,5 @@ export const anker_powercore_20000 = {
         "anker-521-powerhouse",
         "soundcore-q45-headphones",
         "soundcore-rave-3-speaker"
-    ]
+]
     };

@@ -55,6 +55,6 @@ export const joyroom_30w_pd_cable = {
             ar: "قد يناسب JR-S-CL30 من يحتاج كابل USB-C بطول 1.2 متر ضمن منظومة مصنفة 30 واط. تحقق من الموصل والطاقة والبيانات والخامة والسعر والضمان قبل الاختيار."
         },
         meta: { keywords: "جوي روم 30w cable, كابل 30 واط, كابل ايفون 17 اقتصادي, كابل جوي روم, جوي روم type c, جوي روم charging cable, جوي روم fast charge cable, جوي روم usb c cable, جوي روم iphone cable egypt, جوي روم cod egypt cable, جوي روم durable cable, سعر كابل جوي روم, USB-C PD cable specifications, جوي روم 30w pd cable", mainTerm: "joyroom 30w pd cable" },
-        relatedProducts: ["joyroom-type-c-lightning-24mos", "joyroom-type-c-lightning-braided", "joyroom-type-c-to-type-c-cable", "joyroom-type-c-lightning-36mos", "joyroom-3-in-1-wireless-charging-station", "joyroom-30w-fast-charger", 'joyroom-25w-fast-charger', 'joyroom-usb-a-lightning-1.2m'],
+        relatedProducts: ["joyroom-type-c-lightning-24mos", "joyroom-type-c-lightning-braided", "joyroom-type-c-to-type-c-cable", "joyroom-type-c-lightning-36mos", "joyroom-3-in-1-wireless-charging-station", "joyroom-30w-fast-charger", "joyroom-25w-fast-charger"],
 
     };

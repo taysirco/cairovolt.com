@@ -64,6 +64,6 @@ export const joyroom_type_c_lightning_24mos = {
             ar: "قد يناسب JR-S-CL24M من يقارن كابل USB-C إلى Lightning حسب التصنيف والغلاف المضفر ومدة الضمان المعروضة. تحقق من الموديل وبيان MFi والسياسة المكتوبة قبل الشراء."
         },
         meta: { keywords: "جوي روم JR-S-CL24M, كابل جوي روم USB-C إلى Lightning, كابل Lightning للايفون, كابل جوي روم مصر, Joyroom JR-S-CL24M Egypt, USB-C Lightning cable", mainTerm: "joyroom JR-S-CL24M" },
-        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-usb-a-micro-cable", "joyroom-60w-car-charger", "joyroom-usb-a-lightning-cable", "joyroom-usb-a-type-c-1.2m", 'joyroom-usb-a-type-c-1.2m'],
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-usb-a-micro-cable", "joyroom-60w-car-charger", "joyroom-usb-a-lightning-cable"],
 
     };
