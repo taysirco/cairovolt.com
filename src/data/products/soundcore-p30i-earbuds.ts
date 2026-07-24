@@ -10,7 +10,7 @@ export const soundcore_p30i_earbuds = {
     price: 1200,
     originalPrice: 1440,
     stock: 1092,
-    featured: false,
+    featured: true,
     status: "active",
 
     images: [

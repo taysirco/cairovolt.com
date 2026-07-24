@@ -78,14 +78,27 @@ export function sanitizeHtml(html: string): string {
 // (ProductPageClient), so it must never pull in the full static catalog.
 import { getProductBySlug } from './client-catalog';
 import { getIndexEntry } from '../data/blog-index';
+import { rewriteDeprecatedProductPath } from './merchant-product-data';
 
 export function localizeInternalLinks(html: string, locale: string): string {
-    if (locale === 'ar') return html; // default locale = no prefix
+    // First collapse deprecated alias/recall product URLs to their public targets
+    // so old article HTML never keeps promoting them — for every locale.
+    const rewritten = html.replace(
+        /href=(["'])(\/(?:en\/)?[^"']+)\1/gi,
+        (_match, quote: string, href: string) => {
+            if (!href.startsWith('/') || href.startsWith('//')) {
+                return `href=${quote}${href}${quote}`;
+            }
+            return `href=${quote}${rewriteDeprecatedProductPath(href)}${quote}`;
+        },
+    );
+
+    if (locale === 'ar') return rewritten; // default locale = no prefix
 
     // Matches: href="/<path>" or href='/<path>' where <path> is NOT
     //   - `en` followed by [ / ' " # ? ]  (already-localized link)
     //   - `/`                              (protocol-relative URL like //cdn.com)
-    return html.replace(
+    return rewritten.replace(
         /href=(["'])\/(?!en[/'"#?]|\/)([^"']*)\1/gi,
         (_match, quote: string, path: string) =>
             `href=${quote}/${locale}/${path}${quote}`,

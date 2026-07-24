@@ -101,10 +101,9 @@ export const STANDARD_DELIVERY_MAX_DAYS = 5;
 export const MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS = new Set([
     'joyroom-usb-a-lightning-1.2m',
     'joyroom-usb-a-type-c-1.2m',
-    'soundcore-p30i-earbuds',
-    'soundcore-p25i-earbuds',
+    // P30i (A3959) is the public + Merchant canonical; R50i NC remains the alias stub.
     'anker-nano-45w-1c-pd', // A2664 alias of anker-nano-45w
-    'anker-soundcore-r50i-nc', // A3959 alias of soundcore-p30i family — do not duplicate Merchant SKU
+    'anker-soundcore-r50i-nc', // A3959 alias of soundcore-p30i — do not duplicate Merchant SKU
     'anker-zolo-a1681-20000', // active Anker/CPSC recall (rc2506) — do not promote in Merchant
 ]);
 
@@ -141,6 +140,64 @@ export const SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS = new Set([
  */
 export function isStorefrontPromotableSlug(slug: string): boolean {
     return !SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS.has(slug);
+}
+
+/**
+ * Resolve a slug to the promotable canonical for cards / related rails.
+ * Returns null for recalls and for aliases that only redirect to a category.
+ */
+export function canonicalPromotableSlug(slug: string): string | null {
+    if (SEO_NOINDEX_PRODUCT_SLUGS.has(slug)) return null;
+    const destination = SEO_ALIAS_REDIRECTS[slug];
+    if (destination) {
+        const parts = destination.split('/').filter(Boolean);
+        // /brand/category/product-slug → promote the product; /brand/category → drop
+        return parts.length >= 3 ? parts[parts.length - 1] : null;
+    }
+    return slug;
+}
+
+/**
+ * Rewrite an internal pathname that still points at an alias or recall slug.
+ * Used by HTML sanitization so old blog/product hrefs stop promoting bad SKUs.
+ */
+export function rewriteDeprecatedProductPath(pathname: string): string {
+    const input = pathname.trim();
+    const localePrefix = /^\/en(?=\/|$)/.test(input) ? '/en' : '';
+    const withoutLocale = input.replace(/^\/en(?=\/|$)/, '').replace(/^\//, '');
+    const pathMatch = withoutLocale.match(/^([^?#]*)(.*)$/);
+    if (!pathMatch) return pathname;
+
+    const pathPart = pathMatch[1];
+    const suffix = pathMatch[2] || '';
+    const segments = pathPart.split('/').filter(Boolean);
+    if (segments.length === 0) return pathname;
+
+    const slug = segments[segments.length - 1];
+    if (SEO_NOINDEX_PRODUCT_SLUGS.has(slug)) {
+        // Keep a dedicated recall PDP for owners; do not deep-link it from content.
+        return `${localePrefix}/anker/power-banks${suffix}`;
+    }
+
+    const destination = SEO_ALIAS_REDIRECTS[slug];
+    if (destination) {
+        return `${localePrefix}${destination}${suffix}`;
+    }
+
+    return pathname;
+}
+
+/** Deduplicate and remap a related-product slug list for public surfaces. */
+export function sanitizeRelatedProductSlugs(slugs: readonly string[]): string[] {
+    const seen = new Set<string>();
+    const out: string[] = [];
+    for (const slug of slugs) {
+        const canonical = canonicalPromotableSlug(slug);
+        if (!canonical || seen.has(canonical)) continue;
+        seen.add(canonical);
+        out.push(canonical);
+    }
+    return out;
 }
 
 /** Date of the latest full catalog-content and offer review. */

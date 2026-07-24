@@ -11,6 +11,7 @@ import {
     getMerchantProductUrl,
     STANDARD_SHIPPING_MAX_EGP,
     STANDARD_SHIPPING_MIN_EGP,
+    SEO_NOINDEX_PRODUCT_SLUGS,
 } from '@/lib/merchant-product-data';
 import { randomUUID } from 'node:crypto';
 import { governorates } from '@/data/governorates';
@@ -255,6 +256,13 @@ export async function GET(req: NextRequest) {
             }, { status: 404 });
         }
 
+        if (SEO_NOINDEX_PRODUCT_SLUGS.has(String(product.slug || ''))) {
+            return NextResponse.json({
+                available: false,
+                error: 'Product unavailable due to manufacturer safety recall',
+            }, { status: 410 });
+        }
+
         const translations = product.translations as Record<string, Record<string, string>> | undefined;
         const images = product.images as Array<{ url: string; isPrimary?: boolean }> | undefined;
         const primaryImage = images?.find(img => img.isPrimary)?.url || images?.[0]?.url || null;
@@ -419,6 +427,13 @@ export async function POST(req: NextRequest) {
         const staticMatch = staticLookup.product;
         if (staticMatch) {
             product = { id: `static_${staticMatch.slug}`, ...staticMatch } as unknown as Record<string, unknown>;
+        }
+
+        if (product && SEO_NOINDEX_PRODUCT_SLUGS.has(String(product.slug || ''))) {
+            return NextResponse.json({
+                success: false,
+                error: 'Product unavailable due to manufacturer safety recall',
+            }, { status: 410 });
         }
 
         // Fallback: try Firestore if not found in static data

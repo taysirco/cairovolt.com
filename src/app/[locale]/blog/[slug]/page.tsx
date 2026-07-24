@@ -7,6 +7,7 @@ import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { ArticleSchema, FAQPageSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
 import { SpeakableSchema } from '@/components/schemas/SpeakableSchema';
 import { getProductBySlug } from '@/lib/static-products';
+import { sanitizeRelatedProductSlugs } from '@/lib/merchant-product-data';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
 import dynamic from 'next/dynamic';
@@ -564,14 +565,17 @@ export default async function BlogArticlePage({ params }: Props) {
                         </div>
                     </div>
 
-                    {/* Product Recommendations */}
-                    {article.relatedProducts && article.relatedProducts.length > 0 && (
+                    {/* Product Recommendations — remap aliases, drop recalls */}
+                    {(() => {
+                        const relatedSlugs = sanitizeRelatedProductSlugs(article.relatedProducts || []);
+                        if (relatedSlugs.length === 0) return null;
+                        return (
                         <section className="mt-12 pt-8 border-t border-gray-100 dark:border-gray-800">
                             <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
                                 {isArabic ? <><SvgIcon name="cart" className="w-6 h-6 inline-block" /> المنتجات المذكورة في المقال</> : <><SvgIcon name="cart" className="w-6 h-6 inline-block" /> Products Mentioned in This Article</>}
                             </h2>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-                                {article.relatedProducts.map((slug: string) => {
+                                {relatedSlugs.map((slug: string) => {
                                     const prod = getProductBySlug(slug);
                                     if (!prod) return null;
                                     const pTrans = prod.translations[isArabic ? 'ar' : 'en'];
@@ -630,7 +634,8 @@ export default async function BlogArticlePage({ params }: Props) {
                                 })}
                             </div>
                         </section>
-                    )}
+                        );
+                    })()}
 
                     {/* Related Articles */}
                     {relatedArticles.length > 0 && (

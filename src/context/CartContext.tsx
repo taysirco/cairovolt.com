@@ -7,9 +7,20 @@ import {
     getSmartBundleProducts,
     resolveCatalogPricing,
 } from '@/lib/client-catalog';
+import { SEO_NOINDEX_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
 
 // Mirrors the per-line cap enforced by /api/orders (quantity > 10 → 400).
 const MAX_QUANTITY_PER_ITEM = 10;
+
+function isRecalledCartProductId(productId: string): boolean {
+    if (typeof productId !== 'string' || !productId.startsWith('static_')) return false;
+    for (const slug of SEO_NOINDEX_PRODUCT_SLUGS) {
+        if (productId === `static_${slug}` || productId.startsWith(`static_${slug}_`)) {
+            return true;
+        }
+    }
+    return false;
+}
 
 export interface CartItem {
     productId: string;
@@ -102,7 +113,9 @@ export function CartProvider({ children }: { children: ReactNode }) {
                         // products (bare-slug productId, never prefixed "static_") are
                         // kept — the order API resolves those server-side.
                         .filter((it: CartItem) => {
-                            if (typeof it?.productId !== 'string' || !it.productId.startsWith('static_')) return true;
+                            if (typeof it?.productId !== 'string') return false;
+                            if (isRecalledCartProductId(it.productId)) return false;
+                            if (!it.productId.startsWith('static_')) return true;
                             return resolveCatalogPricing(it).status === 'ok';
                         })
                         .map((it: CartItem) => {
