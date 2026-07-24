@@ -7,13 +7,12 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
     modifiedDate: '2026-08-28T14:11:00+03:00',
     readingTime: 10,
     relatedProducts: [
-        'joyroom-power-bank-20000',
-        'anker-powercore-20000',
-        'anker-zolo-a110e-20000',
-        'anker-zolo-a1681-20000',
-        'joyroom-power-bank-10000',
-        'joyroom-usb-c-cable-60w'
-    ],
+        "joyroom-power-bank-20000",
+        "anker-powercore-20000",
+        "anker-zolo-a110e-20000",
+        "joyroom-power-bank-10000",
+        "joyroom-usb-c-cable-60w"
+],
     relatedArticles: [
         'joyroom-power-banks-10k-20k-models-review',
         'joyroom-10000mah-power-bank-real-capacity-test',

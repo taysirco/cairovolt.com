@@ -7,13 +7,13 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
     modifiedDate: '2026-08-07T16:56:00+03:00',
     readingTime: 8,
     relatedProducts: [
-        'joyroom-magnetic-power-bank-10000',
-        'anker-prime-a1695-25000',
-        'anker-zolo-a1681-20000',
-        'joyroom-power-bank-10000',
-        'joyroom-power-bank-20000',
-        'anker-nano-45w-smart-display-charger'
-    ],
+        "joyroom-magnetic-power-bank-10000",
+        "anker-prime-a1695-25000",
+        "anker-zolo-a110e-20000",
+        "joyroom-power-bank-10000",
+        "joyroom-power-bank-20000",
+        "anker-nano-45w-smart-display-charger"
+],
     relatedArticles: [
         'magsafe-magnetic-power-bank-worth-extra-cost',
         'qi2-magsafe-wireless-charging-future-egypt',

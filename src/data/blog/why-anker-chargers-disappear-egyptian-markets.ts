@@ -7,13 +7,13 @@ export const why_anker_chargers_disappear_egyptian_markets: BlogArticle = {
     modifiedDate: '2026-05-24',
     readingTime: 7,
     relatedProducts: [
-        'anker-powerport-20w',
-        'anker-powerport-25w',
-        'anker-a2147-gan-charger-30w',
-        'anker-nano-45w',
-        'anker-zolo-a1681-20000',
-        'anker-powercore-20000'
-    ],
+        "anker-powerport-20w",
+        "anker-powerport-25w",
+        "anker-a2147-gan-charger-30w",
+        "anker-nano-45w",
+        "anker-zolo-a110e-20000",
+        "anker-powercore-20000"
+],
     relatedArticles: [
         'how-to-identify-original-anker',
         'how-to-spot-fake-chargers-7-tests',
@@ -177,7 +177,7 @@ export const why_anker_chargers_disappear_egyptian_markets: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن أنكر الأصلية — متوفرة على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#166534;font-weight:600;">انكر شاحن 20W</a> (375ج) · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#166534;font-weight:600;">انكر شاحن 25W</a> (550ج) · <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">انكر شاحن GaN 30W</a> (599ج) · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#166534;font-weight:600;">انكر نانو 45W</a> (799ج) · <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#166534;font-weight:600;">انكر زولو باور بانك 20,000</a> (2,200ج) — كل المنتجات <strong>أصلية 100% بكود QR + ضمان 18 شهر + توصيل لكل المحافظات</strong>.
+        <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#166534;font-weight:600;">انكر شاحن 20W</a> (375ج) · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#166534;font-weight:600;">انكر شاحن 25W</a> (550ج) · <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">انكر شاحن GaN 30W</a> (599ج) · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#166534;font-weight:600;">انكر نانو 45W</a> (799ج) · <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#166534;font-weight:600;">انكر زولو باور بانك 20,000</a> (2,200ج) — كل المنتجات <strong>أصلية 100% بكود QR + ضمان 18 شهر + توصيل لكل المحافظات</strong>.
     </p>
 </div>
 
@@ -358,7 +358,7 @@ export const why_anker_chargers_disappear_egyptian_markets: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Original Anker Chargers — Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#166534;font-weight:600;">Anker 20W Charger</a> (490 EGP) · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#166534;font-weight:600;">Anker 25W Charger</a> (550 EGP) · <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">Anker GaN 30W Charger</a> (599 EGP) · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#166534;font-weight:600;">Anker Nano 45W</a> (799 EGP) · <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#166534;font-weight:600;">Anker ZOLO A1681 20,000mAh</a> (2,200 EGP) — all products <strong>100% genuine with QR verification + 18-month warranty + delivery to all governorates</strong>.
+        <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#166534;font-weight:600;">Anker 20W Charger</a> (490 EGP) · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#166534;font-weight:600;">Anker 25W Charger</a> (550 EGP) · <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">Anker GaN 30W Charger</a> (599 EGP) · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#166534;font-weight:600;">Anker Nano 45W</a> (799 EGP) · <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#166534;font-weight:600;">Anker ZOLO A1681 20,000mAh</a> (2,200 EGP) — all products <strong>100% genuine with QR verification + 18-month warranty + delivery to all governorates</strong>.
     </p>
 </div>
 

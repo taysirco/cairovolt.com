@@ -7,12 +7,12 @@ export const anker_stores_egypt_cairo_alexandria: BlogArticle = {
     modifiedDate: '2026-07-14',
     readingTime: 7,
     relatedProducts: [
-        'anker-a2741-charger-30w',
-        'anker-powerport-20w',
-        'anker-nano-45w-smart-display-charger',
-        'anker-a2147-gan-charger-30w',
-        'anker-zolo-a1681-20000'
-    ],
+        "anker-a2741-charger-30w",
+        "anker-powerport-20w",
+        "anker-nano-45w-smart-display-charger",
+        "anker-a2147-gan-charger-30w",
+        "anker-zolo-a110e-20000"
+],
     relatedArticles: [
         'anker-authentic-charger-price-list-egypt',
         'anker-serial-number-location-format-explained',

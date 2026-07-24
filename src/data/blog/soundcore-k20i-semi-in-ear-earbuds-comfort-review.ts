@@ -7,14 +7,14 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
     modifiedDate: '2026-07-26T14:36:00+03:00',
     readingTime: 9,
     relatedProducts: [
-        'anker-soundcore-k20i',
-        'soundcore-life-u2i-neckband',
-        'soundcore-p20i-earbuds',
-        'soundcore-a30i-earbuds',
-        'soundcore-a25i-earbuds',
-        'anker-soundcore-r50i',
-        'anker-soundcore-r50i-nc'
-    ],
+        "anker-soundcore-k20i",
+        "soundcore-life-u2i-neckband",
+        "soundcore-p20i-earbuds",
+        "soundcore-a30i-earbuds",
+        "soundcore-a25i-earbuds",
+        "anker-soundcore-r50i",
+        "soundcore-p30i-earbuds"
+],
     relatedArticles: [
         'soundcore-models-guide-egypt-2026',
         'soundcore-earbuds-under-1000-egp-students',

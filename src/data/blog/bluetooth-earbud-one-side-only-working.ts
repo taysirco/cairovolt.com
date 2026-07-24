@@ -7,13 +7,12 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
     modifiedDate: '2026-06-07',
     readingTime: 7,
     relatedProducts: [
-        'anker-soundcore-r50i-nc',
-        'soundcore-liberty-5',
-        'soundcore-liberty-4-nc',
-        'soundcore-p40i-earbuds',
-        'soundcore-p30i-earbuds',
-        'soundcore-a30i-earbuds',
-    ],
+        "soundcore-p30i-earbuds",
+        "soundcore-liberty-5",
+        "soundcore-liberty-4-nc",
+        "soundcore-p40i-earbuds",
+        "soundcore-a30i-earbuds"
+],
     relatedArticles: [
         'bluetooth-earbuds-disconnect-6-causes-7-fixes',
         'best-bluetooth-earbuds-egypt-2026',

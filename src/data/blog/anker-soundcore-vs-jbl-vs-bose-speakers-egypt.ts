@@ -7,13 +7,13 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
     modifiedDate: '2026-06-24',
     readingTime: 8,
     relatedProducts: [
-        'anker-soundcore-motion-plus',
-        'anker-soundcore-flare-2',
-        'anker-soundcore-r50i',
-        'anker-soundcore-r50i-nc',
-        'soundcore-v20i-earbuds',
-        'soundcore-liberty-buds',
-    ],
+        "anker-soundcore-motion-plus",
+        "anker-soundcore-flare-2",
+        "anker-soundcore-r50i",
+        "soundcore-p30i-earbuds",
+        "soundcore-v20i-earbuds",
+        "soundcore-liberty-buds"
+],
     relatedArticles: [
         '2-port-vs-4-port-vs-6-port-charger-family',
         'does-fast-charging-damage-battery-truth',

@@ -7,13 +7,12 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
     modifiedDate: '2026-05-21',
     readingTime: 8,
     relatedProducts: [
-        'anker-prime-a1695-25000',
-        'anker-zolo-a1681-20000',
-        'anker-zolo-a110e-20000',
-        'anker-zolo-a110d-10000',
-        'joyroom-power-bank-20000',
-        'joyroom-power-bank-10000'
-    ],
+        "anker-prime-a1695-25000",
+        "anker-zolo-a110e-20000",
+        "anker-zolo-a110d-10000",
+        "joyroom-power-bank-20000",
+        "joyroom-power-bank-10000"
+],
     relatedArticles: [
         'anker-vs-joyroom-comparison',
         'best-power-bank-egypt-2026',
@@ -105,7 +104,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">1,550ج</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681 20K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681 20K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">66.2Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>89%</strong></td>
@@ -400,7 +399,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">1,550 EGP</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">ZOLO A1681 20K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">ZOLO A1681 20K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">66.2Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>89%</strong></td>

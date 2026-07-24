@@ -7,7 +7,7 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
     publishDate: '2026-04-01',
     modifiedDate: '2026-04-23',
     readingTime: 7,
-    relatedProducts: ['anker-soundcore-r50i-nc', 'anker-soundcore-r50i', 'anker-soundcore-k20i', 'anker-soundcore-life-p2i'],
+    relatedProducts: ["soundcore-p30i-earbuds", "anker-soundcore-r50i", "anker-soundcore-k20i", "anker-soundcore-life-p2i"],
     relatedArticles: ['best-bluetooth-earbuds-egypt-2026', 'anker-vs-joyroom-comparison', 'protect-phone-from-heat-summer-egypt'],
     relatedCategories: ['Soundcore/audio'],
     coverImage: "/images/blog/posts/soundcore-models-guide-egypt-2026.webp?v=2",

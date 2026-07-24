@@ -7,13 +7,12 @@ export const short_30cm_cable_power_bank_extends_life: BlogArticle = {
     modifiedDate: '2026-05-28',
     readingTime: 7,
     relatedProducts: [
-        'anker-a8050-usb-c-cable',
-        'joyroom-usb-c-cable-60w',
-        'joyroom-30w-pd-cable',
-        'joyroom-usb-a-type-c-1.2m',
-        'anker-usb-c-lightning-sureistrong',
-        'joyroom-type-c-to-type-c-cable',
-    ],
+        "anker-a8050-usb-c-cable",
+        "joyroom-usb-c-cable-60w",
+        "joyroom-30w-pd-cable",
+        "anker-usb-c-lightning-sureistrong",
+        "joyroom-type-c-to-type-c-cable"
+],
     relatedArticles: [
         'usb-c-cable-guide-egypt-2026',
         'protect-cables-car-summer-heat-cairo',

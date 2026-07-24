@@ -7,13 +7,12 @@ export const tuktuk_motorcycle_delivery_driver_fast_charging: BlogArticle = {
     modifiedDate: '2026-06-17',
     readingTime: 8,
     relatedProducts: [
-        'anker-powercore-20000',
-        'anker-zolo-a1681-20000',
-        'anker-zolo-a110e-20000',
-        'joyroom-power-bank-20000',
-        'anker-car-charger-dual-usb',
-        'anker-zolo-a110d-10000',
-    ],
+        "anker-powercore-20000",
+        "anker-zolo-a110e-20000",
+        "joyroom-power-bank-20000",
+        "anker-car-charger-dual-usb",
+        "anker-zolo-a110d-10000"
+],
     relatedArticles: [
         'best-power-bank-egypt-2026',
         'best-car-charger-egypt-2026',

@@ -7,12 +7,12 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
     modifiedDate: '2026-05-18',
     readingTime: 7,
     relatedProducts: [
-        'anker-prime-a1695-25000',
-        'anker-737-powerbank',
-        'anker-zolo-a1681-20000',
-        'anker-powercore-26800',
-        'anker-a8050-usb-c-cable',
-    ],
+        "anker-prime-a1695-25000",
+        "anker-737-powerbank",
+        "anker-zolo-a110e-20000",
+        "anker-powercore-26800",
+        "anker-a8050-usb-c-cable"
+],
     relatedArticles: [
         'best-power-bank-egypt-2026',
         'can-power-bank-charge-laptop-guide',
@@ -237,7 +237,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
     <p style="margin:0;font-size:16px;line-height:1.7;color:#854d0e;">
         <strong>🎯 الخلاصة:</strong> لو ما عندكش لابتوب USB-C، وما بتسافرش لـ 2+ يوم بدون كهرباء، وما بتشحنش 3 أجهزة معاً —
         الـ 100W+ مش ضروري. البديل الذكي:
-        <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">انكر زولو 20,000mAh 45W PD</a>
+        <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">انكر زولو 20,000mAh 45W PD</a>
         بـ 2,200 جنيه — يشحن iPhone 17 بكامل سرعته و Galaxy S26 Ultra بشحن سريع قوي (الـ Ultra بيوصل لأقصى 60W مع مصدر أكبر) مع <strong>توفير 1,750 جنيه</strong>.
     </p>
 </div>
@@ -501,7 +501,7 @@ offers 140W with a simpler, more rugged design — with no moving parts, relying
     <p style="margin:0;font-size:16px;line-height:1.7;color:#854d0e;">
         <strong>🎯 Bottom Line:</strong> If you don't have a USB-C laptop, don't travel 2+ days without power, and don't charge 3 devices simultaneously —
         100W+ isn't necessary. Smart alternative:
-        <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">Anker ZOLO 20,000mAh 45W PD</a>
+        <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">Anker ZOLO 20,000mAh 45W PD</a>
         at 2,200 EGP — fully saturates iPhone 17 charging and fast-charges the Galaxy S26 Ultra (which hits its full 60W only with a larger source) while <strong>saving 1,750 EGP</strong>.
     </p>
 </div>

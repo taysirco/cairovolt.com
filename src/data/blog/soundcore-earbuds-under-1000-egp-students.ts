@@ -7,13 +7,12 @@ export const soundcore_earbuds_under_1000_egp_students: BlogArticle = {
     modifiedDate: '2026-06-07',
     readingTime: 7,
     relatedProducts: [
-        'anker-soundcore-r50i-nc',
-        'anker-soundcore-r50i',
-        'soundcore-p30i-earbuds',
-        'soundcore-p40i-earbuds',
-        'soundcore-a30i-earbuds',
-        'soundcore-p20i-earbuds',
-    ],
+        "soundcore-p30i-earbuds",
+        "anker-soundcore-r50i",
+        "soundcore-p40i-earbuds",
+        "soundcore-a30i-earbuds",
+        "soundcore-p20i-earbuds"
+],
     relatedArticles: [
         'best-bluetooth-earbuds-egypt-2026',
         'on-ear-vs-over-ear-vs-in-ear-headphones',
@@ -66,7 +65,7 @@ export const soundcore_earbuds_under_1000_egp_students: BlogArticle = {
     </tr></thead>
     <tbody>
     <tr style="background:#f0fdf4;">
-        <td style="padding:10px;border:1px solid #d1d5db;"><a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">R50i NC ⭐</a></td>
+        <td style="padding:10px;border:1px solid #d1d5db;"><a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">R50i NC ⭐</a></td>
         <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>Hybrid ANC</strong></td>
         <td style="padding:10px;border:1px solid #d1d5db;"><strong>30 ساعة</strong></td>
         <td style="padding:10px;border:1px solid #d1d5db;">5.3</td>
@@ -118,7 +117,7 @@ export const soundcore_earbuds_under_1000_egp_students: BlogArticle = {
 
 <h2>التوصية #1 — Soundcore R50i NC: أفضل سماعة شاملة للطلاب</h2>
 
-<p><a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">ساوند كور R50i NC</a> هي التوصية الأولى بدون تردد — وده ليه:</p>
+<p><a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور R50i NC</a> هي التوصية الأولى بدون تردد — وده ليه:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:10px;">✅ <strong>Hybrid ANC حقيقي:</strong> مش Feedforward بس — عندها ميكروفون بره وجوا بيلغوا الضوضاء بكفاءة عالية. في المترو أو الميكروباص هتحس بفرق حقيقي — الـ Bass بتاع المحرك والعجلات بيختفي تقريباً.</li>
@@ -281,7 +280,7 @@ export const soundcore_earbuds_under_1000_egp_students: BlogArticle = {
     </tr></thead>
     <tbody>
     <tr style="background:#f0fdf4;">
-        <td style="padding:10px;border:1px solid #d1d5db;"><a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">R50i NC ⭐</a></td>
+        <td style="padding:10px;border:1px solid #d1d5db;"><a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">R50i NC ⭐</a></td>
         <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>Hybrid ANC</strong></td>
         <td style="padding:10px;border:1px solid #d1d5db;"><strong>30 hours</strong></td>
         <td style="padding:10px;border:1px solid #d1d5db;">5.3</td>
@@ -333,7 +332,7 @@ export const soundcore_earbuds_under_1000_egp_students: BlogArticle = {
 
 <h2>Pick #1 — Soundcore R50i NC: Best Overall Student Earbuds</h2>
 
-<p>The <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC</a> is our top recommendation without hesitation — here is why:</p>
+<p>The <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore R50i NC</a> is our top recommendation without hesitation — here is why:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:10px;">✅ <strong>Real Hybrid ANC:</strong> Not just Feedforward — it has both external and internal microphones that cancel noise with high efficiency. On the metro or microbus you will notice a real difference — engine and wheel rumble virtually disappears.</li>

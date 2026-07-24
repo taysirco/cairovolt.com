@@ -7,12 +7,12 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
     modifiedDate: '2026-07-15',
     readingTime: 7,
     relatedProducts: [
-        'anker-a2741-charger-30w',
-        'anker-powerport-20w',
-        'anker-nano-45w-smart-display-charger',
-        'anker-zolo-a1681-20000',
-        'anker-prime-a1695-25000'
-    ],
+        "anker-a2741-charger-30w",
+        "anker-powerport-20w",
+        "anker-nano-45w-smart-display-charger",
+        "anker-zolo-a110e-20000",
+        "anker-prime-a1695-25000"
+],
     relatedArticles: [
         'anker-verify-serial-number-security-check',
         'anker-original-website-verify-barcode-guide',

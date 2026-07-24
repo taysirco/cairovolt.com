@@ -7,12 +7,12 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
     modifiedDate: '2026-07-17',
     readingTime: 9,
     relatedProducts: [
-        'anker-soundcore-r50i',
-        'anker-soundcore-r50i-nc',
-        'soundcore-p25i-earbuds',
-        'soundcore-p20i-earbuds',
-        'soundcore-space-one-headphones'
-    ],
+        "anker-soundcore-r50i",
+        "soundcore-p30i-earbuds",
+        "soundcore-p25i-earbuds",
+        "soundcore-p20i-earbuds",
+        "soundcore-space-one-headphones"
+],
     relatedArticles: [
         'soundcore-models-guide-egypt-2026',
         'soundcore-r50i-nc-anc-earbuds-full-review',
@@ -165,7 +165,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 
 <p>صُنعت علبة السماعة من بلاستيك البوليكربونات المقوى المعالج بطلاء مطفي. هذا الاختيار الهندسي للمواد يحميها من التشرخ أو الخدوش العميقة عند سقوطها العرضي على الأرضيات الصلبة مثل البلاط أو الأسفلت. بالإضافة إلى ذلك، فإن القطع المغناطيسية الداخلية التي تثبت السماعات في مكانها قوية بما يكفي لمنع خروج السماعات وتناثرها في الشارع عند سقوط علبة الشحن وهي مغلقة.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات أنكر أصلية 100% بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">سماعات أصلية قابلة للتخصيص: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الأساسية</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات أنكر أصلية 100% بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">سماعات أصلية قابلة للتخصيص: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الأساسية</a> · <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a>.</p></div>
 
 <h2>جودة المكالمات — صادقون معك</h2>
 
@@ -203,7 +203,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
     </tbody>
 </table>
 
-<p>لو المكالمات مهمة جداً في بيئة صاخبة — <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">R50i NC</a> أفضل بشكل محسوس بسبب الميكروفونات الإضافية.</p>
+<p>لو المكالمات مهمة جداً في بيئة صاخبة — <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">R50i NC</a> أفضل بشكل محسوس بسبب الميكروفونات الإضافية.</p>
 
 <h2>العيوب الحقيقية — بدون تجميل</h2>
 
@@ -465,7 +465,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 
 <p>The charging case and earbuds are constructed from a durable, impact-resistant polycarbonate blend treated with a textured matte finish. This engineering choice helps the device survive accidental drops on hard concrete or tiled floors without cracking the housing. Furthermore, the internal magnets anchoring the earbuds inside their slots are strong enough to prevent them from flying out and rolling into street grates if the case drops while closed.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore earbuds: <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore earbuds: <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a>.</p></div>
 
 <h2>Real Cons — No Glossing Over</h2>
 

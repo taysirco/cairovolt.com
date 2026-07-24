@@ -7,13 +7,12 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     modifiedDate: '2026-06-19',
     readingTime: 8,
     relatedProducts: [
-        'anker-powercore-26800',
-        'anker-powercore-20000',
-        'anker-zolo-a1681-20000',
-        'anker-521-powerhouse',
-        'anker-zolo-a110e-20000',
-        'anker-zolo-a110d-10000',
-    ],
+        "anker-powercore-26800",
+        "anker-powercore-20000",
+        "anker-zolo-a110e-20000",
+        "anker-521-powerhouse",
+        "anker-zolo-a110d-10000"
+],
     relatedArticles: [
         'power-bank-airplane-rules-egypt-2026',
         'content-creator-camera-laptop-phone-one-power-bank',
@@ -155,7 +154,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     <li style="margin-bottom:12px;">🚀 <strong>مع USB-C PD:</strong> بيشحن بـ 20W-30W+. الآيفون بيوصل 50% في 30 دقيقة. كمان بعض ريموتات الدرون (زي DJI RC 2) بتشحن أسرع بـ USB-C. ده مهم لما تكون في نص جلسة تصوير ومحتاج 15 دقيقة شحن سريع بين الطيرات.</li>
 </ul>
 
-<p><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> بيدعم USB-C PD 20W — يعني بيشحن الموبايل بسرعة وبيشحن الريموت بكفاءة. <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو 20,000mAh</a> فيه منفذين USB-C + USB-A — يعني بتشحن الريموت والموبايل في نفس الوقت بدون ما تستنى واحد يخلص.</p>
+<p><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> بيدعم USB-C PD 20W — يعني بيشحن الموبايل بسرعة وبيشحن الريموت بكفاءة. <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو 20,000mAh</a> فيه منفذين USB-C + USB-A — يعني بتشحن الريموت والموبايل في نفس الوقت بدون ما تستنى واحد يخلص.</p>
 
 <h2>أفضل باور بانك لكل نوع مصور درون</h2>
 
@@ -347,7 +346,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     <li style="margin-bottom:12px;">🚀 <strong>With USB-C PD:</strong> Charges at 20W-30W+. iPhone reaches 50% in 30 minutes. Some drone controllers (like DJI RC 2) also charge faster via USB-C. This matters when you're mid-shoot and need a quick 15-minute charge between flights.</li>
 </ul>
 
-<p>The <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> supports USB-C PD at 20W — fast phone charging and efficient controller charging. The <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO 20,000mAh</a> has dual USB-C + USB-A ports — so you can charge the controller and phone simultaneously without waiting for one to finish.</p>
+<p>The <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> supports USB-C PD at 20W — fast phone charging and efficient controller charging. The <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO 20,000mAh</a> has dual USB-C + USB-A ports — so you can charge the controller and phone simultaneously without waiting for one to finish.</p>
 
 <h2>Best Power Bank for Each Type of Drone Photographer</h2>
 

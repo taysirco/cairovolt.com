@@ -7,12 +7,11 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
     modifiedDate: '2026-05-18',
     readingTime: 7,
     relatedProducts: [
-        'anker-zolo-a1681-20000',
-        'anker-prime-a1695-25000',
-        'anker-zolo-a110e-20000',
-        'anker-737-powerbank',
-        'joyroom-power-bank-20000',
-    ],
+        "anker-zolo-a110e-20000",
+        "anker-prime-a1695-25000",
+        "anker-737-powerbank",
+        "joyroom-power-bank-20000"
+],
     relatedArticles: [
         'best-100w-fast-charge-power-bank-iphone-samsung',
         'protect-phone-from-heat-summer-egypt',

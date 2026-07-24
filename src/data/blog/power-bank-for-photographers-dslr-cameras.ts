@@ -7,12 +7,12 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
     modifiedDate: '2026-05-18',
     readingTime: 8,
     relatedProducts: [
-        'anker-prime-a1695-25000',
-        'anker-737-powerbank',
-        'anker-powercore-26800',
-        'anker-zolo-a1681-20000',
-        'anker-a8050-usb-c-cable',
-    ],
+        "anker-prime-a1695-25000",
+        "anker-737-powerbank",
+        "anker-powercore-26800",
+        "anker-zolo-a110e-20000",
+        "anker-a8050-usb-c-cable"
+],
     relatedArticles: [
         'best-100w-fast-charge-power-bank-iphone-samsung',
         'can-power-bank-charge-laptop-guide',
@@ -185,7 +185,7 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
     <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم 165W (3,950ج)</a>
     — شحن الكاميرا + اللابتوب لو احتاج backup فوري.</li>
     <li style="margin-bottom:12px;">📱 <strong>الموبايل + GoPro:</strong>
-    <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو 45W (2,200ج)</a>
+    <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو 45W (2,200ج)</a>
     — احتياطي خفيف للأجهزة الثانوية.</li>
     <li style="margin-bottom:12px;">🔋 <strong>إجمالي 45,000mAh متاحة:</strong> ضمان عدم انقطاع التصوير حتى في عرس 12 ساعة.</li>
 </ul>
@@ -408,7 +408,7 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
     <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime 165W (3,950 EGP)</a>
     — camera + laptop if instant backup is needed.</li>
     <li style="margin-bottom:12px;">📱 <strong>Phone + GoPro:</strong>
-    <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO 45W (2,200 EGP)</a>
+    <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO 45W (2,200 EGP)</a>
     — lightweight backup for secondary devices.</li>
     <li style="margin-bottom:12px;">🔋 <strong>Total 45,000mAh available:</strong> guaranteed no interruption even at a 12-hour wedding.</li>
 </ul>

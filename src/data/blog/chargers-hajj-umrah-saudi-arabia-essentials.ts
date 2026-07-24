@@ -8,13 +8,12 @@ export const chargers_hajj_umrah_saudi_arabia_essentials: BlogArticle = {
     modifiedDate: '2026-06-13',
     readingTime: 9,
     relatedProducts: [
-        'anker-zolo-a1681-20000',
-        'anker-zolo-a110e-20000',
-        'anker-a2147-gan-charger-30w',
-        'anker-a8050-usb-c-cable',
-        'anker-powerline-usb-c-usb-c',
-        'anker-a2741-charger-30w',
-    ],
+        "anker-zolo-a110e-20000",
+        "anker-a2147-gan-charger-30w",
+        "anker-a8050-usb-c-cable",
+        "anker-powerline-usb-c-usb-c",
+        "anker-a2741-charger-30w"
+],
     relatedArticles: [
         'power-bank-airplane-rules-egypt-2026',
         'protect-phone-from-heat-summer-egypt',
@@ -122,7 +121,7 @@ export const chargers_hajj_umrah_saudi_arabia_essentials: BlogArticle = {
     <p style="margin:0;color:#991b1b;"><strong>⚠️ قانون الطيران المهم:</strong> الباور بانك <strong>ممنوع في الشنطة المشحونة</strong> (اللي بتتسلم). لازم يكون في <strong>شنطة اليد (Carry-on)</strong> فقط. أي باور بانك أكتر من 100Wh (≈27,000mAh) محتاج موافقة مسبقة من شركة الطيران. القاعدة دي موحّدة في السعودية، فلاي ناس، فلاي أديل، ومصر للطيران.</p>
 </div>
 
-<p>توصيتنا: <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">باور بانك انكر Zolo 20,000mAh</a> — 72Wh (أقل من حد الـ 100Wh بكتير)، ويدعم شحن سريع 22.5W، ووزنه خفيف مناسب للحركة بين المشاعر.</p>
+<p>توصيتنا: <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">باور بانك انكر Zolo 20,000mAh</a> — 72Wh (أقل من حد الـ 100Wh بكتير)، ويدعم شحن سريع 22.5W، ووزنه خفيف مناسب للحركة بين المشاعر.</p>
 
 <h2>ثالثاً: الشاحن — صغير وسريع وبيستحمل الحر</h2>
 
@@ -381,7 +380,7 @@ export const chargers_hajj_umrah_saudi_arabia_essentials: BlogArticle = {
     <p style="margin:0;color:#991b1b;"><strong>⚠️ Critical Airline Rule:</strong> Power banks are <strong>banned from checked luggage</strong>. They must be in your <strong>carry-on bag only</strong>. Any power bank exceeding 100Wh (≈27,000mAh) requires prior airline approval. This rule is universal across Saudia, flynas, flyadeal, and EgyptAir.</p>
 </div>
 
-<p>Our recommendation: the <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker Zolo 20,000mAh</a> — 72Wh (well under the 100Wh limit), supports 22.5W fast charging, and is lightweight enough for constant movement between holy sites.</p>
+<p>Our recommendation: the <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker Zolo 20,000mAh</a> — 72Wh (well under the 100Wh limit), supports 22.5W fast charging, and is lightweight enough for constant movement between holy sites.</p>
 
 <h2>Third: The Charger — Small, Fast, and Heat-Resistant</h2>
 

@@ -7,13 +7,12 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
     modifiedDate: '2026-05-20',
     readingTime: 7,
     relatedProducts: [
-        'anker-zolo-a110e-20000',
-        'anker-zolo-a1681-20000',
-        'anker-prime-a1695-25000',
-        'joyroom-power-bank-20000',
-        'joyroom-power-bank-10000',
-        'anker-powercore-10000'
-    ],
+        "anker-zolo-a110e-20000",
+        "anker-prime-a1695-25000",
+        "joyroom-power-bank-20000",
+        "joyroom-power-bank-10000",
+        "anker-powercore-10000"
+],
     relatedArticles: [
         'how-to-charge-power-bank-correctly',
         'power-bank-10000mah-real-capacity-myth',

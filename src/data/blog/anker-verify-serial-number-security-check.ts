@@ -7,13 +7,13 @@ export const anker_verify_serial_number_security_check: BlogArticle = {
     modifiedDate: '2026-07-13T14:00:00+02:00',
     readingTime: 9,
     relatedProducts: [
-        'anker-a2741-charger-30w',
-        'anker-powerport-25w',
-        'anker-nano-45w-smart-display-charger',
-        'anker-prime-a1695-25000',
-        'anker-zolo-a1681-20000',
-        'anker-a8050-usb-c-cable',
-    ],
+        "anker-a2741-charger-30w",
+        "anker-powerport-25w",
+        "anker-nano-45w-smart-display-charger",
+        "anker-prime-a1695-25000",
+        "anker-zolo-a110e-20000",
+        "anker-a8050-usb-c-cable"
+],
     relatedArticles: [
         'anker-original-website-verify-barcode-guide',
         'anker-agent-egypt-branches-warranty-rules',

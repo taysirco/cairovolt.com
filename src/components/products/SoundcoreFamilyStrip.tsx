@@ -6,6 +6,7 @@ import { ProductImage } from '@/components/ui/ProductImage';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { staticProducts, StaticProduct } from '@/lib/static-products';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import { isStorefrontPromotableSlug } from '@/lib/merchant-product-data';
 
 interface SoundcoreFamilyStripProps {
     locale: string;
@@ -13,7 +14,7 @@ interface SoundcoreFamilyStripProps {
 
 // Curated Soundcore catalogue entries.
 const soundcoreTopSeven: string[] = [
-    'anker-soundcore-r50i-nc',
+    'soundcore-p30i-earbuds',
     'anker-soundcore-r50i',
     'soundcore-liberty-5',
     'anker-soundcore-k20i',
@@ -28,7 +29,10 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
     const products: StaticProduct[] = [];
     for (const slug of soundcoreTopSeven) {
         const product = staticProducts.find(
-            p => p.slug === slug && p.brand.toLowerCase() === 'soundcore' && p.status === 'active'
+            p => p.slug === slug
+                && p.brand.toLowerCase() === 'soundcore'
+                && p.status === 'active'
+                && isStorefrontPromotableSlug(p.slug)
         );
         if (product) products.push(product);
     }

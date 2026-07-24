@@ -7,14 +7,14 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
     modifiedDate: '2026-08-21T14:01:00+03:00',
     readingTime: 9,
     relatedProducts: [
-        'soundcore-p20i-earbuds',
-        'anker-soundcore-r50i',
-        'soundcore-p25i-earbuds',
-        'anker-soundcore-r50i-nc',
-        'soundcore-life-q20-headphones',
-        'soundcore-liberty-4-nc',
-        'soundcore-a25i-earbuds'
-    ],
+        "soundcore-p20i-earbuds",
+        "anker-soundcore-r50i",
+        "soundcore-p25i-earbuds",
+        "soundcore-p30i-earbuds",
+        "soundcore-life-q20-headphones",
+        "soundcore-liberty-4-nc",
+        "soundcore-a25i-earbuds"
+],
     relatedArticles: [
         'best-bluetooth-earbuds-egypt-2026',
         'soundcore-r50i-wireless-earbuds-complete-review',
@@ -92,7 +92,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
             <td style="padding:12px 10px;border:1px solid #d1d5db;color:#059669;">أيوه</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;"><a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;text-decoration:none;">R50i NC</a></td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;"><a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;text-decoration:none;">R50i NC</a></td>
             <td style="padding:12px 10px;border:1px solid #d1d5db;">~1199</td>
             <td style="padding:12px 10px;border:1px solid #d1d5db;color:#059669;">أيوه (35 dB)</td>
             <td style="padding:12px 10px;border:1px solid #d1d5db;">9 ساعات (ANC شغال)</td>
@@ -176,7 +176,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
 
 <h3>Soundcore R50i NC — ~1199 جنيه</h3>
 
-<p><a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;">R50i NC</a> هو أول موديل في القائمة بيجي بـ ANC (Active Noise Cancellation) — إلغاء الضوضاء الفعّال. ودي نقلة نوعية في الاستخدام اليومي في القاهرة:</p>
+<p><a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;">R50i NC</a> هو أول موديل في القائمة بيجي بـ ANC (Active Noise Cancellation) — إلغاء الضوضاء الفعّال. ودي نقلة نوعية في الاستخدام اليومي في القاهرة:</p>
 
 <ul style="padding-right:20px;line-height:1.9;">
     <li><strong>ANC حتى 35 dB تخفيف للضوضاء</strong> — ضوضاء مترو القاهرة بتتراوح بين 85-90 dB. مع 35 dB تخفيف، الصوت اللي بيوصل لأذنك بيكون 50-55 dB — ده مريح ومش مؤذي.</li>
@@ -292,7 +292,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
     <li><strong>ميزانية 699 جنيه؟</strong> — <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;">P20i</a>. بسيطة وشغالة وبطاريتها ممتازة.</li>
     <li><strong>ميزانية 880 جنيه؟</strong> — <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;">R50i</a>. الأفضل قيمة في الفئة دي، وأكثر مبيعاً لأسباب حقيقية.</li>
     <li><strong>عندك Samsung أو Pixel + بتحب الموسيقى؟</strong> — <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;">P25i</a> بـ 770 جنيه للـ LDAC.</li>
-    <li><strong>بتركب المترو يومياً ومحتاج ANC؟</strong> — <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;">R50i NC</a> بـ 1199 جنيه. استثمار حقيقي في راحة أذنيك.</li>
+    <li><strong>بتركب المترو يومياً ومحتاج ANC؟</strong> — <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;">R50i NC</a> بـ 1199 جنيه. استثمار حقيقي في راحة أذنيك.</li>
     <li><strong>عايز سماعة يومية متوازنة من غير ما تدفع في ANC؟</strong> — <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;">سماعة ساوندكور A25i</a> بـ 1370 جنيه، ولسه نازلة عندنا جديد: 28 ساعة تشغيل إجمالي مع باس BassUp أقوى و IPX5 — سعر عاقل لسماعة تعيش معاك اليوم كله.</li>
     <li><strong>بتشتغل من البيت أو مكتب صاخب؟</strong> — <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;">Liberty 4 NC</a> بـ 2570 جنيه. الـ 50 dB ANC هيغير حياتك.</li>
     <li><strong>عايز أحسن حاجة في خط Soundcore كله؟</strong> — Liberty 4 Pro بـ 5830 جنيه. فلاجشيب حقيقي.</li>
@@ -380,7 +380,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
             <td style="padding:12px 10px;border:1px solid #d1d5db;color:#059669;">Yes</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;"><a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;text-decoration:none;">R50i NC</a></td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;"><a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;text-decoration:none;">R50i NC</a></td>
             <td style="padding:12px 10px;border:1px solid #d1d5db;">~1199</td>
             <td style="padding:12px 10px;border:1px solid #d1d5db;color:#059669;">Yes (35 dB)</td>
             <td style="padding:12px 10px;border:1px solid #d1d5db;">9 hrs (ANC on)</td>
@@ -466,7 +466,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
 
 <h3>Soundcore R50i NC — ~1199 EGP</h3>
 
-<p>The <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;">R50i NC</a> is the first model on this list with genuine Active Noise Cancellation. In the context of daily life in Cairo, that matters:</p>
+<p>The <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;">R50i NC</a> is the first model on this list with genuine Active Noise Cancellation. In the context of daily life in Cairo, that matters:</p>
 
 <ul style="padding-left:20px;line-height:1.9;">
     <li><strong>ANC up to 35 dB noise reduction</strong> — Cairo metro noise typically measures 85-90 dB. With 35 dB reduction, the sound reaching your ears drops to 50-55 dB — a comfortable, non-damaging level. This is not marketing noise; it is a physically meaningful reduction you feel immediately when you put them on.</li>
@@ -557,7 +557,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
     <li><strong>Budget is 699 EGP?</strong> — <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;">P20i</a>. Simple, functional, great battery life for the price.</li>
     <li><strong>Budget is 880 EGP?</strong> — <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;">R50i</a>. Best value in the budget tier. Best-seller for real reasons.</li>
     <li><strong>Have a Samsung or Pixel and care about audio quality?</strong> — <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;">P25i</a> at 770 EGP for LDAC.</li>
-    <li><strong>Daily Cairo metro commuter?</strong> — <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;">R50i NC</a> at 1199 EGP. A genuine investment in your hearing health.</li>
+    <li><strong>Daily Cairo metro commuter?</strong> — <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;">R50i NC</a> at 1199 EGP. A genuine investment in your hearing health.</li>
     <li><strong>Want a balanced daily earbud without paying for ANC?</strong> — <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;">Soundcore A25i</a> at 1370 EGP, newly added to our lineup: 28 hours of total battery, BassUp bass enhancement, and IPX5 — a sane price for an earbud that lasts all day.</li>
     <li><strong>Work from home or open office?</strong> — <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;">Liberty 4 NC</a> at 2570 EGP. The 50 dB ANC will change your workday.</li>
     <li><strong>Want the best Soundcore makes?</strong> — Liberty 4 Pro at 5830 EGP. Full flagship, no compromises.</li>

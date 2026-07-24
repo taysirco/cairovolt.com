@@ -7,12 +7,11 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
     modifiedDate: '2026-05-19',
     readingTime: 7,
     relatedProducts: [
-        'joyroom-power-bank-20000',
-        'anker-zolo-a110e-20000',
-        'anker-zolo-a1681-20000',
-        'anker-powercore-20000',
-        'anker-prime-a1695-25000',
-    ],
+        "joyroom-power-bank-20000",
+        "anker-zolo-a110e-20000",
+        "anker-powercore-20000",
+        "anker-prime-a1695-25000"
+],
     relatedArticles: [
         '5000-vs-10000-vs-20000-mah-which-capacity',
         'power-bank-10000mah-real-capacity-myth',
@@ -265,7 +264,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
         <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">جوي روم 20,000mAh</a>
         بـ 997 جنيه = 2.61 شحنة iPhone.
         <strong>أعلى عدد شحنات + كابلان مدمجان:</strong>
-        <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">انكر زولو 30W</a>
+        <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">انكر زولو 30W</a>
         بـ 2,200ج = 2.78 شحنة.
         <strong>أطول ضمان + بناء أنكر:</strong>
         <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">انكر زولو A110E</a>
@@ -528,7 +527,7 @@ breaks down the practical difference between 22.5W, 45W, and 100W with numbers.<
         <a href="/en/joyroom/power-banks/joyroom-power-bank-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">Joyroom 20,000mAh</a>
         at 997 EGP = 2.61 iPhone charges.
         <strong>Highest charge count + built-in dual cables:</strong>
-        <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">Anker ZOLO 30W</a>
+        <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">Anker ZOLO 30W</a>
         at 2,200 EGP = 2.78 charges.
         <strong>Longest warranty + Anker build:</strong>
         <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">Anker ZOLO A110E</a>

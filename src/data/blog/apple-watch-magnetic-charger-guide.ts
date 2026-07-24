@@ -7,12 +7,12 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
     modifiedDate: '2026-07-10T14:00:00+02:00',
     readingTime: 7,
     relatedProducts: [
-        'anker-a2741-charger-30w',
-        'anker-powerport-20w',
-        'anker-nano-45w-smart-display-charger',
-        'anker-powercore-10000',
-        'anker-zolo-a1681-20000',
-    ],
+        "anker-a2741-charger-30w",
+        "anker-powerport-20w",
+        "anker-nano-45w-smart-display-charger",
+        "anker-powercore-10000",
+        "anker-zolo-a110e-20000"
+],
     relatedArticles: [
         'iphone-charging-cable-break-protection-tips',
         'authentic-iphone-lightning-cable-vs-fake',

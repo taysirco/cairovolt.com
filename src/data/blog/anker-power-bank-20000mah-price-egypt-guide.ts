@@ -7,13 +7,12 @@ export const anker_power_bank_20000mah_price_egypt_guide: BlogArticle = {
     modifiedDate: '2026-09-03T15:14:00+03:00',
     readingTime: 12,
     relatedProducts: [
-        'joyroom-power-bank-20000',
-        'joyroom-power-bank-10000',
-        'anker-powercore-20000',
-        'anker-zolo-a110e-20000',
-        'anker-zolo-a1681-20000',
-        'anker-prime-a1336-20000mah-power-bank'
-    ],
+        "joyroom-power-bank-20000",
+        "joyroom-power-bank-10000",
+        "anker-powercore-20000",
+        "anker-zolo-a110e-20000",
+        "anker-prime-a1336-20000mah-power-bank"
+],
     relatedArticles: [
         'joyroom-20000mah-power-bank-travel-performance-review',
         'joyroom-10000mah-power-bank-real-capacity-test',

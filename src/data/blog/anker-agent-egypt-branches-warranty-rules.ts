@@ -7,13 +7,13 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
     modifiedDate: '2026-07-11T14:00:00+02:00',
     readingTime: 8,
     relatedProducts: [
-        'anker-a2741-charger-30w',
-        'anker-nano-45w-smart-display-charger',
-        'anker-powerport-25w',
-        'anker-prime-a1695-25000',
-        'anker-zolo-a1681-20000',
-        'anker-a8050-usb-c-cable',
-    ],
+        "anker-a2741-charger-30w",
+        "anker-nano-45w-smart-display-charger",
+        "anker-powerport-25w",
+        "anker-prime-a1695-25000",
+        "anker-zolo-a110e-20000",
+        "anker-a8050-usb-c-cable"
+],
     relatedArticles: [
         'anker-original-website-verify-barcode-guide',
         'anker-verify-serial-number-security-check',
@@ -235,7 +235,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 
 <p>ضمان كايرو فولت المكتوب الممتد لـ 18 شهر على منتجات Anker هو الضمان الأقوى والأكثر موثوقية لملحقات الشحن في مصر. الشروط معلنة وشفافة، والإجراءات بسيطة تتم بالكامل عبر البريد الإلكتروني دون الحاجة لتضييع وقتك في مشاوير لمراكز الصيانة. للاستفادة الكاملة من الضمان، تأكد دائماً من شراء منتجك من كايرو فولت مباشرة واحتفظ بفاتورة الشراء الأصلية.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت بضمان 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن وكابلات معتمدة: <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن أنكر 30 واط</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل أنكر USB-C</a> · <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">باور بانك أنكر زولو 20 ألف</a>.</p></div>`,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت بضمان 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن وكابلات معتمدة: <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن أنكر 30 واط</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل أنكر USB-C</a> · <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">باور بانك أنكر زولو 20 ألف</a>.</p></div>`,
         },
         en: {
             title: 'Anker 18-Month Warranty in Egypt — Where to Buy and Full Replacement Conditions',
@@ -441,7 +441,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 
 <p>CairoVolt’s written 18-month store warranty on Anker products is the most reliable protection program for mobile accessories in Egypt. The terms are fully transparent, the filing process is completed online, and replacements are handled quickly. To ensure you have access to this warranty, always purchase your Anker products from CairoVolt directly, and keep your original purchase invoice safe.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Certified accessories: <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker Zolo 20000mAh Power Bank</a>.</p></div>`,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Certified accessories: <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker Zolo 20000mAh Power Bank</a>.</p></div>`,
         },
     },
 };

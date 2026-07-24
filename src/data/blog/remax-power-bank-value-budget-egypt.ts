@@ -7,13 +7,13 @@ export const remax_power_bank_value_budget_egypt: BlogArticle = {
     modifiedDate: '2026-08-13T14:25:00+03:00',
     readingTime: 9,
     relatedProducts: [
-        'joyroom-magnetic-power-bank-10000',
-        'joyroom-power-bank-10000',
-        'joyroom-power-bank-20000',
-        'anker-powercore-10000',
-        'anker-powercore-20000',
-        'anker-zolo-a1681-20000'
-    ],
+        "joyroom-magnetic-power-bank-10000",
+        "joyroom-power-bank-10000",
+        "joyroom-power-bank-20000",
+        "anker-powercore-10000",
+        "anker-powercore-20000",
+        "anker-zolo-a110e-20000"
+],
     relatedArticles: [
         'anker-vs-joyroom-power-banks-12-models-tested',
         '5000-vs-10000-vs-20000-mah-which-capacity',

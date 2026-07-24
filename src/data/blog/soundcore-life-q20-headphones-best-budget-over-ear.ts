@@ -7,13 +7,13 @@ export const soundcore_life_q20_headphones_best_budget_over_ear: BlogArticle = {
     modifiedDate: '2026-07-27T14:52:00+03:00',
     readingTime: 10,
     relatedProducts: [
-        'soundcore-life-q20-headphones',
-        'soundcore-q30-headphones',
-        'soundcore-q45-headphones',
-        'soundcore-space-one-headphones',
-        'soundcore-liberty-buds',
-        'anker-soundcore-r50i-nc'
-    ],
+        "soundcore-life-q20-headphones",
+        "soundcore-q30-headphones",
+        "soundcore-q45-headphones",
+        "soundcore-space-one-headphones",
+        "soundcore-liberty-buds",
+        "soundcore-p30i-earbuds"
+],
     relatedArticles: [
         'soundcore-models-guide-egypt-2026',
         'airpods-pro-3-vs-soundcore-liberty-4-nc',

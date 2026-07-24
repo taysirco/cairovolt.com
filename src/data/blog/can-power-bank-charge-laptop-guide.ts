@@ -13,15 +13,14 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
         avatar: '/images/team/cairovolt-team.webp'
     },
     relatedProducts: [
-        'anker-737-powerbank',
-        'anker-521-powerhouse',
-        'anker-powercore-26800',
-        'anker-powercore-20000',
-        'anker-zolo-a110e-20000',
-        'anker-zolo-a1681-20000',
-        'anker-nano-45w',
-        'anker-a8050-usb-c-cable',
-    ],
+        "anker-737-powerbank",
+        "anker-521-powerhouse",
+        "anker-powercore-26800",
+        "anker-powercore-20000",
+        "anker-zolo-a110e-20000",
+        "anker-nano-45w",
+        "anker-a8050-usb-c-cable"
+],
     relatedArticles: ['best-power-bank-egypt-2026', 'power-bank-10000mah-real-capacity-myth', 'gan-charger-technology-guide-egypt'],
     relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks', 'Anker/wall-chargers'],
     translations: {

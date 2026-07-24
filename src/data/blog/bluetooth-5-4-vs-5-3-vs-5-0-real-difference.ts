@@ -7,13 +7,13 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
     modifiedDate: '2026-06-11',
     readingTime: 8,
     relatedProducts: [
-        'soundcore-liberty-4-nc',
-        'anker-soundcore-r50i-nc',
-        'anker-soundcore-r50i',
-        'soundcore-space-one-headphones',
-        'soundcore-q30-headphones',
-        'soundcore-liberty-buds'
-    ],
+        "soundcore-liberty-4-nc",
+        "soundcore-p30i-earbuds",
+        "anker-soundcore-r50i",
+        "soundcore-space-one-headphones",
+        "soundcore-q30-headphones",
+        "soundcore-liberty-buds"
+],
     relatedArticles: [
         'airpods-pro-3-vs-soundcore-liberty-4-nc',
         'anc-vs-enc-vs-transparency-mode-difference',
@@ -179,7 +179,7 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ سماعات Soundcore أصلية بأحدث بلوتوث — بضمان على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#166534;font-weight:600;">Liberty 4 NC</a> (BT 5.3 + LDAC + ANC) أو <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#166534;font-weight:600;">R50i NC</a> (BT 5.3 + ANC بسعر اقتصادي). كلها <strong>أصلية 100%</strong> بضمان 18 شهر + توصيل لكل المحافظات + دفع عند الاستلام.
+        <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#166534;font-weight:600;">Liberty 4 NC</a> (BT 5.3 + LDAC + ANC) أو <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#166534;font-weight:600;">R50i NC</a> (BT 5.3 + ANC بسعر اقتصادي). كلها <strong>أصلية 100%</strong> بضمان 18 شهر + توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>`,
             faq: [
@@ -358,7 +358,7 @@ export const bluetooth_5_4_vs_5_3_vs_5_0_real_difference: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Genuine Soundcore Earbuds with Latest Bluetooth — Warranty at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#166534;font-weight:600;">Liberty 4 NC</a> (BT 5.3 + LDAC + ANC) or <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#166534;font-weight:600;">R50i NC</a> (BT 5.3 + ANC at budget price). All <strong>100% genuine</strong> with 18-month warranty + delivery to all governorates + cash on delivery.
+        <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#166534;font-weight:600;">Liberty 4 NC</a> (BT 5.3 + LDAC + ANC) or <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#166534;font-weight:600;">R50i NC</a> (BT 5.3 + ANC at budget price). All <strong>100% genuine</strong> with 18-month warranty + delivery to all governorates + cash on delivery.
     </p>
 </div>`,
             faq: [

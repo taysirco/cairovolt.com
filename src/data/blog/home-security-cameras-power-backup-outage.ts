@@ -7,13 +7,12 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
     modifiedDate: '2026-06-18',
     readingTime: 8,
     relatedProducts: [
-        'anker-521-powerhouse',
-        'anker-powercore-20000',
-        'anker-powercore-26800',
-        'anker-zolo-a1681-20000',
-        'anker-zolo-a110e-20000',
-        'anker-zolo-a110d-10000',
-    ],
+        "anker-521-powerhouse",
+        "anker-powercore-20000",
+        "anker-powercore-26800",
+        "anker-zolo-a110e-20000",
+        "anker-zolo-a110d-10000"
+],
     relatedArticles: [
         'best-power-bank-router-power-outage-egypt',
         'best-power-bank-egypt-2026',

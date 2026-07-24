@@ -152,7 +152,7 @@ export const back_to_school_university_accessories_bag_egypt: BlogArticle = {
     <li style="margin-bottom:12px;">💰 <strong>السعر تحت 1,000 جنيه:</strong> اللي فوق ده مش ميزانية طالب — ده مستوى تاني خالص من الصرف (وأغلب الناس بتتردد قبل ما تدفعه 😄).</li>
 </ul>
 
-<p>توصيتنا: <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور P20i</a> بـ 700 جنيه — بطارية 7.5 ساعة تشغيل + 30 ساعة مع العلبة، Bluetooth 5.3 لاتصال مستقر، مقاومة IPX5 للعرق والمطر، و 22 بريست صوت قابلة للتعديل من التطبيق. لو عايز عزل ضوضاء (ANC) حقيقي وميزانيتك أوسع شوية: <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور R50i NC</a> بـ 950 جنيه — ANC هجين يقلل ضوضاء المواصلات بنسبة 98%.</p>
+<p>توصيتنا: <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور P20i</a> بـ 700 جنيه — بطارية 7.5 ساعة تشغيل + 30 ساعة مع العلبة، Bluetooth 5.3 لاتصال مستقر، مقاومة IPX5 للعرق والمطر، و 22 بريست صوت قابلة للتعديل من التطبيق. لو عايز عزل ضوضاء (ANC) حقيقي وميزانيتك أوسع شوية: <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور R50i NC</a> بـ 950 جنيه — ANC هجين يقلل ضوضاء المواصلات بنسبة 98%.</p>
 
 <h2>القطعة #5: ساعة ذكية — مساعدك الأكاديمي الصامت</h2>
 
@@ -411,7 +411,7 @@ export const back_to_school_university_accessories_bag_egypt: BlogArticle = {
     <li style="margin-bottom:12px;">💰 <strong>Price under 1,000 EGP:</strong> Anything above isn't a student budget — that's a whole different spending tier (and most people would hesitate before paying it 😄).</li>
 </ul>
 
-<p>Our recommendation: <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a> at 700 EGP — 7.5 hours playback + 30 hours with the case, Bluetooth 5.3 for stable connection, IPX5 sweat and rain resistance, and 22 customizable sound presets through the app. If you want real ANC (Active Noise Cancellation) and your budget is slightly larger: <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> at 950 EGP — hybrid ANC that reduces commute noise by 98%.</p>
+<p>Our recommendation: <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a> at 700 EGP — 7.5 hours playback + 30 hours with the case, Bluetooth 5.3 for stable connection, IPX5 sweat and rain resistance, and 22 customizable sound presets through the app. If you want real ANC (Active Noise Cancellation) and your budget is slightly larger: <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> at 950 EGP — hybrid ANC that reduces commute noise by 98%.</p>
 
 <h2>Item #5: Smartwatch — Your Silent Academic Assistant</h2>
 

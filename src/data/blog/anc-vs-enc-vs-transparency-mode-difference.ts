@@ -7,13 +7,13 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
     modifiedDate: '2026-06-05',
     readingTime: 7,
     relatedProducts: [
-        'soundcore-liberty-4-nc',
-        'soundcore-liberty-4-pro',
-        'soundcore-liberty-5',
-        'anker-soundcore-r50i-nc',
-        'soundcore-a30i-earbuds',
-        'soundcore-p40i-earbuds',
-    ],
+        "soundcore-liberty-4-nc",
+        "soundcore-liberty-4-pro",
+        "soundcore-liberty-5",
+        "soundcore-p30i-earbuds",
+        "soundcore-a30i-earbuds",
+        "soundcore-p40i-earbuds"
+],
     relatedArticles: [
         'best-bluetooth-earbuds-egypt-2026',
         'soundcore-models-guide-egypt-2026',
@@ -188,7 +188,7 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
 <p><strong>محتاج: Transparency Mode بالدرجة الأولى.</strong> ANC في الشارع خطر — مش هتسمع العربيات. Transparency بيخلّيك تسمع البيئة حواليك وإنت بتسمع الموسيقى — أمان أكتر بكتير. توصيتنا: <a href="/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">ساوند كور ليبرتي 5</a> — Transparency Mode طبيعي جداً مع BT 5.4.</p>
 
 <h3>لو طالب جامعة وعايز تذاكر في كافيه أو مكتبة</h3>
-<p><strong>محتاج: ANC + ENC معاً.</strong> ANC عشان تعزل نفسك عن كلام الناس والضوضاء وإنت بتذاكر، وENC عشان لو حد كلمك تليفون تقدر ترد من غير ما تقلع السماعة ويسمعك نضيف. الأوفر: <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">ساوند كور R50i NC</a> — أرخص سماعة بـ ANC حقيقي في مصر.</p>
+<p><strong>محتاج: ANC + ENC معاً.</strong> ANC عشان تعزل نفسك عن كلام الناس والضوضاء وإنت بتذاكر، وENC عشان لو حد كلمك تليفون تقدر ترد من غير ما تقلع السماعة ويسمعك نضيف. الأوفر: <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور R50i NC</a> — أرخص سماعة بـ ANC حقيقي في مصر.</p>
 
 <h3>لو مش محتاج حاجة من دول</h3>
 <p>لو بتستخدم السماعة في البيت بس أو في مكان هادي — وفّر فلوسك واشتري سماعة من غير ANC. <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور P30i</a> مثلاً — صوت ممتاز وبطارية طويلة بسعر اقتصادي جداً، من غير ANC عشان مش محتاجه.</p>
@@ -396,7 +396,7 @@ export const anc_vs_enc_vs_transparency_mode_difference: BlogArticle = {
 <p><strong>You need: Transparency Mode first and foremost.</strong> ANC on the street is dangerous — you will not hear cars. Transparency lets you hear your environment while enjoying music — much safer. Our recommendation: <a href="/en/soundcore/audio/soundcore-liberty-5" style="color:#2563eb;font-weight:600;">Soundcore Liberty 5</a> — very natural Transparency Mode with BT 5.4.</p>
 
 <h3>University student studying in cafes or libraries</h3>
-<p><strong>You need: ANC + ENC together.</strong> ANC to isolate yourself from people chatting and noise while studying, and ENC so you can answer phone calls without removing the earbuds and be heard clearly. The best value: <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC</a> — the most affordable earbuds with real ANC in Egypt.</p>
+<p><strong>You need: ANC + ENC together.</strong> ANC to isolate yourself from people chatting and noise while studying, and ENC so you can answer phone calls without removing the earbuds and be heard clearly. The best value: <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore R50i NC</a> — the most affordable earbuds with real ANC in Egypt.</p>
 
 <h3>You do not need any of these</h3>
 <p>If you only use earbuds at home or in quiet environments — save your money and buy earbuds without ANC. The <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P30i</a>, for example — excellent sound and long battery at a very affordable price, without ANC because you simply do not need it.</p>

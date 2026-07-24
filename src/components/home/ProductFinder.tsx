@@ -120,7 +120,7 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
 
   // Short catalogue-based reason for each suggestion.
   const whyPick: Record<string, { ar: string; en: string }> = {
-    'anker-soundcore-r50i-nc': { ar: 'عزل ضوضاء نشط حسب مواصفات الموديل', en: 'Active noise cancellation in the model specification' },
+    'soundcore-p30i-earbuds': { ar: 'عزل ضوضاء نشط حسب مواصفات الموديل', en: 'Active noise cancellation in the model specification' },
     'anker-soundcore-k20i': { ar: 'تصميم خفيف للاستخدام اليومي', en: 'Lightweight design for daily use' },
     'joyroom-t03s-pro-earbuds': { ar: 'خيار بسعر اقتصادي', en: 'A lower-price option' },
     'anker-soundcore-flare-2': { ar: 'سبيكر محمول بإضاءة مدمجة', en: 'Portable speaker with integrated lighting' },
@@ -141,7 +141,7 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
   };
 
   const suggestedPick: Record<Need, string> = {
-    sound: 'anker-soundcore-r50i-nc',
+    sound: 'soundcore-p30i-earbuds',
     power: 'anker-zolo-a110e-20000',
     charging: 'anker-nano-45w',
     cables: 'anker-a8050-usb-c-cable',

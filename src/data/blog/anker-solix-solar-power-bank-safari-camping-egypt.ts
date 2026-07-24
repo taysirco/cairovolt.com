@@ -7,13 +7,12 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     modifiedDate: '2026-06-18',
     readingTime: 8,
     relatedProducts: [
-        'anker-powercore-20000',
-        'anker-zolo-a1681-20000',
-        'anker-521-powerhouse',
-        'anker-powercore-26800',
-        'anker-zolo-a110e-20000',
-        'anker-zolo-a110d-10000',
-    ],
+        "anker-powercore-20000",
+        "anker-zolo-a110e-20000",
+        "anker-521-powerhouse",
+        "anker-powercore-26800",
+        "anker-zolo-a110d-10000"
+],
     relatedArticles: [
         'best-power-bank-egypt-2026',
         'power-bank-airplane-rules-egypt-2026',
@@ -155,7 +154,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">3-5 أيام — شخص واحد</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;">انكر زولو 20,000mAh</a> × 2</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;">انكر زولو 20,000mAh</a> × 2</td>
         <td style="padding:12px;border:1px solid #d1d5db;">2,700ج</td>
     </tr>
     <tr>
@@ -361,7 +360,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">3-5 days — 1 person</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;">Anker ZOLO 20,000mAh</a> × 2</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;">Anker ZOLO 20,000mAh</a> × 2</td>
         <td style="padding:12px;border:1px solid #d1d5db;">2,700 EGP</td>
     </tr>
     <tr>

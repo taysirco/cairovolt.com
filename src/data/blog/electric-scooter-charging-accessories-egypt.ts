@@ -7,13 +7,13 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
     modifiedDate: '2026-06-18',
     readingTime: 8,
     relatedProducts: [
-        'anker-powercore-20000',
-        'anker-zolo-a1681-20000',
-        'anker-powercore-26800',
-        'joyroom-car-mount-zs290',
-        'joyroom-car-phone-mount',
-        'anker-zolo-a110d-10000',
-    ],
+        "anker-powercore-20000",
+        "anker-zolo-a110e-20000",
+        "anker-powercore-26800",
+        "joyroom-car-mount-zs290",
+        "joyroom-car-phone-mount",
+        "anker-zolo-a110d-10000"
+],
     relatedArticles: [
         'tuktuk-motorcycle-delivery-driver-fast-charging',
         'talabat-mrsool-delivery-driver-phone-holder-charger',

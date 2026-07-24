@@ -7,12 +7,11 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
     modifiedDate: '2026-05-18',
     readingTime: 7,
     relatedProducts: [
-        'anker-zolo-a1681-20000',
-        'joyroom-magnetic-power-bank-10000',
-        'anker-622-maggo',
-        'anker-zolo-a110e-20000',
-        'anker-prime-a1695-25000',
-    ],
+        "anker-zolo-a110e-20000",
+        "joyroom-magnetic-power-bank-10000",
+        "anker-622-maggo",
+        "anker-prime-a1695-25000"
+],
     relatedArticles: [
         'best-100w-fast-charge-power-bank-iphone-samsung',
         'best-samsung-s26-charger',

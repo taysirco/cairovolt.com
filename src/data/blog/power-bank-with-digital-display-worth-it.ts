@@ -7,13 +7,12 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
     modifiedDate: '2026-05-20',
     readingTime: 7,
     relatedProducts: [
-        'anker-zolo-a110d-10000',
-        'anker-zolo-a110e-20000',
-        'anker-zolo-a1681-20000',
-        'joyroom-power-bank-20000',
-        'anker-prime-a1695-25000',
-        'anker-powercore-10000'
-    ],
+        "anker-zolo-a110d-10000",
+        "anker-zolo-a110e-20000",
+        "joyroom-power-bank-20000",
+        "anker-prime-a1695-25000",
+        "anker-powercore-10000"
+],
     relatedArticles: [
         'power-bank-10000mah-real-capacity-myth',
         'how-to-charge-power-bank-correctly',
@@ -149,7 +148,7 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>1,730ج</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (72Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W PD</td>
             <td style="padding:12px;border:1px solid #d1d5db;">رقمية (%) + كابلان مدمجان</td>
@@ -325,7 +324,7 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>1,730 EGP</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (72Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W PD</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Digital (%) + built-in dual cables</td>

@@ -7,14 +7,13 @@ export const anker_powercore_10000mah_compact_power_bank_review: BlogArticle = {
     modifiedDate: '2026-08-06T17:21:00+03:00',
     readingTime: 7,
     relatedProducts: [
-        'anker-powercore-10000',
-        'anker-zolo-a110e-20000',
-        'anker-zolo-a1681-20000',
-        'joyroom-power-bank-10000',
-        'joyroom-power-bank-20000',
-        'joyroom-magnetic-power-bank-10000',
-        'anker-a1637-wukong-3-in-1-power-bank'
-    ],
+        "anker-powercore-10000",
+        "anker-zolo-a110e-20000",
+        "joyroom-power-bank-10000",
+        "joyroom-power-bank-20000",
+        "joyroom-magnetic-power-bank-10000",
+        "anker-a1637-wukong-3-in-1-power-bank"
+],
     relatedArticles: [
         'anker-power-bank-20000mah-models-comparison',
         '5000-vs-10000-vs-20000-mah-which-capacity',

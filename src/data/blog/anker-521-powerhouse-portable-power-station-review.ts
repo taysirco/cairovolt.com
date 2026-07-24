@@ -7,13 +7,13 @@ export const anker_521_powerhouse_portable_power_station_review: BlogArticle = {
     modifiedDate: '2026-08-03T14:02:00+03:00',
     readingTime: 10,
     relatedProducts: [
-        'anker-prime-a1695-25000',
-        'anker-zolo-a1681-20000',
-        'anker-powercore-10000',
-        'anker-nano-45w-smart-display-charger',
-        'joyroom-power-bank-20000',
-        'joyroom-3-in-1-wireless-charging-station'
-    ],
+        "anker-prime-a1695-25000",
+        "anker-zolo-a110e-20000",
+        "anker-powercore-10000",
+        "anker-nano-45w-smart-display-charger",
+        "joyroom-power-bank-20000",
+        "joyroom-3-in-1-wireless-charging-station"
+],
     relatedArticles: [
         'anker-power-station-powerhouse-models-comparison',
         'best-power-bank-router-power-outage-egypt',

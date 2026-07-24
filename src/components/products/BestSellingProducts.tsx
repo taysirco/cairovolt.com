@@ -5,6 +5,7 @@ import { ProductImage } from '@/components/ui/ProductImage';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { staticProducts, StaticProduct } from '@/lib/static-products';
 import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import { isStorefrontPromotableSlug } from '@/lib/merchant-product-data';
 
 interface BestSellingProductsProps {
     brandSlug: string;
@@ -45,7 +46,7 @@ export const ankerBestSellers: string[] = [
 export const soundcoreBestSellers: string[] = [
     // Earbuds and headphones
     'anker-soundcore-r50i',
-    'anker-soundcore-r50i-nc',
+    'soundcore-p30i-earbuds',
     'anker-soundcore-life-p2i',
     'anker-soundcore-k20i',
     'soundcore-a25i-earbuds',
@@ -65,7 +66,10 @@ function getFeaturedProducts(brandSlug: string, max: number): StaticProduct[] {
         const ordered: StaticProduct[] = [];
         for (const slug of curatedList) {
             const product = staticProducts.find(
-                p => p.slug === slug && p.brand.toLowerCase() === brandSlug && p.status === 'active'
+                p => p.slug === slug
+                    && p.brand.toLowerCase() === brandSlug
+                    && p.status === 'active'
+                    && isStorefrontPromotableSlug(p.slug)
             );
             if (product) ordered.push(product);
             if (ordered.length >= max) break;
@@ -75,7 +79,7 @@ function getFeaturedProducts(brandSlug: string, max: number): StaticProduct[] {
 
     // Fallback for other brands: featured first, then by price
     return staticProducts
-        .filter(p => p.brand.toLowerCase() === brandSlug && p.status === 'active')
+        .filter(p => p.brand.toLowerCase() === brandSlug && p.status === 'active' && isStorefrontPromotableSlug(p.slug))
         .sort((a, b) => {
             if (a.featured !== b.featured) return a.featured ? -1 : 1;
             return a.price - b.price;

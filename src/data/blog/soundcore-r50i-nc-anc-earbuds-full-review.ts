@@ -7,12 +7,12 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
     modifiedDate: '2026-07-16',
     readingTime: 9,
     relatedProducts: [
-        'anker-soundcore-r50i-nc',
-        'anker-soundcore-r50i',
-        'soundcore-p40i-earbuds',
-        'soundcore-liberty-4-nc',
-        'soundcore-space-one-headphones'
-    ],
+        "soundcore-p30i-earbuds",
+        "anker-soundcore-r50i",
+        "soundcore-p40i-earbuds",
+        "soundcore-liberty-4-nc",
+        "soundcore-space-one-headphones"
+],
     relatedArticles: [
         'soundcore-models-guide-egypt-2026',
         'soundcore-r50i-wireless-earbuds-complete-review',
@@ -161,7 +161,7 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
 
 <p>السماعات الاقتصادية بدون تطبيق تكون خياراتها محدودة جداً. ولكن تطبيق Soundcore يغير المعادلة بالكامل لـ R50i NC. يمنحك التطبيق إمكانية الاختيار بين 22 ملف EQ (معادل صوت) جاهز، بالإضافة إلى تفعيل وضع الباس المتميز (BassUp) الذي يضخم الإيقاعات بصورة واضحة. كما يتيح لك تخصيص اختصارات اللمس على ساقي السماعة؛ مثل نقرة مزدوجة للتحكم في الأغاني أو نقرة مطولة للتبديل بين وضع العزل والشفافية، وهو ما يغنيك تماماً عن إخراج الموبايل من جيبك في الأماكن المزدحمة لتغيير الإعدادات.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات أنكر أصلية 100% بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن وسماعات أصلية: <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC</a> · <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الأساسية</a> · <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">سماعة Liberty 4 NC الاحترافية</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات أنكر أصلية 100% بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن وسماعات أصلية: <a href="/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC</a> · <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الأساسية</a> · <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">سماعة Liberty 4 NC الاحترافية</a>.</p></div>
 
 <h2>جودة الصوت — إيه اللي تتوقعه؟</h2>
 
@@ -400,7 +400,7 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
 
 <p>Many budget earbuds lack app support, restricting customization. The Soundcore App solves this for the R50i NC by unlocking 22 pre-configured EQ presets and a dedicated BassUp toggle to deepen low-end beats. More importantly, it permits custom touch-control mapping for the stems. You can map double-taps to track skips and long presses to switch between ANC and Transparency, eliminating the need to take your phone out of your pocket in crowded public spaces.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore earbuds: <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC Earbuds</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore earbuds: <a href="/en/soundcore/audio/soundcore-p30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC Earbuds</a>.</p></div>
 
 <h2>Sound Quality — What to Expect</h2>
 
