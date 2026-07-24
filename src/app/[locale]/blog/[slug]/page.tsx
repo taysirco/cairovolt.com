@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { getLiveIndexSlugs, isIndexEntryLive, getIndexEntry, getLiveIndex, getBlogArticleBySlug } from '@/data/blog-index';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { ArticleSchema, FAQPageSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
+import { SpeakableSchema } from '@/components/schemas/SpeakableSchema';
 import { getProductBySlug } from '@/lib/static-products';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
@@ -192,6 +193,13 @@ export default async function BlogArticlePage({ params }: Props) {
                     items={trans.faq}
                     locale={locale}
                     url={`https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`}
+                />
+            )}
+            {trans.quickAnswer && (
+                <SpeakableSchema
+                    locale={locale}
+                    url={`https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`}
+                    cssSelectors={['[data-speakable="quick-answer"]']}
                 />
             )}
             {/* HowTo Schema for the charger identification guide */}

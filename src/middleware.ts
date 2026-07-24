@@ -277,6 +277,13 @@ export default function middleware(request: NextRequest) {
         if (isCacheablePage) {
             response.headers.set('Cache-Control', 'public, max-age=0, must-revalidate');
             response.headers.set('CDN-Cache-Control', 'public, max-age=3600, stale-while-revalidate=86400');
+            const discoveryLink =
+                '</.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json", </llms.txt>; rel="describedby"; type="text/plain"';
+            const existingLink = response.headers.get('Link');
+            response.headers.set(
+                'Link',
+                existingLink ? `${existingLink}, ${discoveryLink}` : discoveryLink,
+            );
         }
     }
     return response;

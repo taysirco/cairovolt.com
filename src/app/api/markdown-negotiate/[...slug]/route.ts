@@ -11,10 +11,29 @@ import {
     localizeArabicBrandHtml,
     localizeArabicBrandNames,
 } from '@/lib/arabic-brand-names';
+import {
+    formatAgentLabMarkdown,
+    getAgentLabSummary,
+    type AgentLocale,
+} from '@/lib/agent-lab-export';
 // Same translation source the HTML policy pages render via next-intl —
 // the markdown surface reuses the identical published copy, never new claims.
 import enMessages from '../../../../../messages/en.json';
 import arMessages from '../../../../../messages/ar.json';
+
+/** Voice FAQs mirrored from src/app/[locale]/faq/page.tsx — keep strings identical. */
+const VOICE_FAQS = {
+    ar: [
+        { question: 'لو المنتج وصلني فيه مشكلة أعمل إيه؟', answer: 'تواصل معنا على واتساب 01558245974 واحتفظ بالمنتج وملحقاته وتغليفه. يراجع فريقنا الحالة ويؤكد لك الإجراء المتاح وفق سياسة الإرجاع أو ضمان كايرو فولت.' },
+        { question: 'هل بتقبلوا الدفع فودافون كاش أو إنستاباي؟', answer: 'حالياً الدفع عند الاستلام كاش فقط (COD). راجع إجمالي الطلب وتكلفة الشحن قبل التأكيد، وسياسة الإرجاع إذا ظهرت مشكلة بعد الاستلام.' },
+        { question: 'الضمان بتاعكم بيغطي إيه بالظبط؟', answer: 'تظهر مدة ضمان كايرو فولت وشروطه في صفحة كل منتج. يغطي الضمان المنتجات المؤهلة وفق الشروط المكتوبة، ويحدد فريق الدعم الإجراء بعد فحص الحالة.' },
+    ],
+    en: [
+        { question: 'What if my product arrives damaged?', answer: 'Contact us on WhatsApp at 01558245974 and keep the product, accessories, and packaging. Our team will review the case and confirm the available remedy under the return policy or CairoVolt warranty.' },
+        { question: 'Do you accept Vodafone Cash or InstaPay?', answer: 'Currently we accept Cash on Delivery (COD) only. Review the order total and shipping cost before confirmation, and the return policy if an issue appears after receipt.' },
+        { question: 'What exactly does your warranty cover?', answer: 'The CairoVolt warranty duration and terms are shown on each product page. Eligible cases are handled under those written terms after the support team reviews the product.' },
+    ],
+} as const;
 
 /**
  * Markdown Content Negotiation Handler
@@ -596,6 +615,11 @@ function generateKnownPageMarkdown(
                 md += `### ${cat[`q${num}`]}\n\n${cat[`a${num}`]}\n\n`;
             }
         }
+        const voiceTitle = isArabic ? 'أسئلة الشارع' : 'Common Questions';
+        md += `## ${voiceTitle}\n\n`;
+        for (const qa of isArabic ? VOICE_FAQS.ar : VOICE_FAQS.en) {
+            md += `### ${qa.question}\n\n${qa.answer}\n\n`;
+        }
         return md + contactBlock;
     }
 
@@ -619,30 +643,51 @@ function generateProductMarkdown(
     product: (typeof staticProducts)[number],
     localePrefix: string,
 ): string {
-    const name = plainText(product.translations.en.name);
-    const nameAr = plainText(product.translations.ar.name);
-    const description = plainText(
+    const locale: AgentLocale = localePrefix === '/en' ? 'en' : 'ar';
+    const isArabic = locale === 'ar';
+    const nameEn = plainText(product.translations.en.name);
+    const nameAr = localizeArabicBrandNames(plainText(product.translations.ar.name));
+    const descEn = plainText(
         product.translations.en.shortDescription || product.translations.en.description,
     );
+    const descAr = localizeArabicBrandNames(plainText(
+        product.translations.ar.shortDescription || product.translations.ar.description,
+    ));
+    const primaryName = isArabic ? (nameAr || nameEn) : nameEn;
+    const secondaryName = isArabic ? nameEn : nameAr;
+    const description = isArabic
+        ? (descAr || descEn)
+        : (descEn || descAr);
     const productPath = `${localePrefix}/${product.brand.toLowerCase()}/${product.categorySlug}/${product.slug}`;
     const productUrl = `https://cairovolt.com${productPath}`;
+    const labSummary = getAgentLabSummary(product.slug, locale, { maxResults: 8 });
+    const labBlock = labSummary ? `\n${formatAgentLabMarkdown(labSummary, locale)}\n` : '';
 
-    return `# ${name}${nameAr ? ` (${nameAr})` : ''}
+    const fieldsTitle = isArabic ? 'الحقول' : 'Field';
+    const valuesTitle = isArabic ? 'القيمة' : 'Value';
+    const descHeading = isArabic ? 'الوصف' : 'Description';
+    const buyHeading = isArabic ? 'طلب هذا المنتج' : 'Buy This Product';
+    const linksHeading = isArabic ? 'روابط' : 'Links';
+    const fallbackDesc = isArabic
+        ? `${primaryName} مدرج في كتالوج كايرو فولت.`
+        : `${primaryName} is listed in the CairoVolt catalog.`;
 
-| Field | Value |
+    return `# ${primaryName}${secondaryName && secondaryName !== primaryName ? ` (${secondaryName})` : ''}
+
+| ${fieldsTitle} | ${valuesTitle} |
 |-------|-------|
 | Brand | ${product.brand} |
 | Category | ${product.categorySlug} |
 | Price | ${product.price} EGP |
-| In Stock | ${product.stock > 0 ? 'Yes' : 'No'} |
+| In Stock | ${product.stock > 0 ? (isArabic ? 'نعم' : 'Yes') : (isArabic ? 'لا' : 'No')} |
 | Shipping | Free above ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} EGP |
 | Payment | Cash on Delivery |
 
-## Description
+## ${descHeading}
 
-${description || `${name} is listed in the CairoVolt catalog.`}
-
-## Buy This Product
+${description || fallbackDesc}
+${labBlock}
+## ${buyHeading}
 
 \`\`\`bash
 curl -X POST "https://cairovolt.com/api/v1/checkout" \\
@@ -650,9 +695,10 @@ curl -X POST "https://cairovolt.com/api/v1/checkout" \\
   -d '{"slug": "${product.slug}", "quantity": 1, "customerName": "...", "phone": "...", "address": "...", "city": "cairo"}'
 \`\`\`
 
-## Links
+## ${linksHeading}
 
-- [Product Page](${productUrl})
-- [Full Catalog](https://cairovolt.com/api/llms/catalog)
+- [${isArabic ? 'صفحة المنتج' : 'Product Page'}](${productUrl})
+- [${isArabic ? 'الكتالوج الكامل' : 'Full Catalog'}](https://cairovolt.com/api/llms/catalog)
+- [${isArabic ? 'تصدير المختبر' : 'Lab export'}](https://cairovolt.com/api/lab-data/json)
 `;
 }

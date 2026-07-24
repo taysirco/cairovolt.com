@@ -1,11 +1,21 @@
 import { staticProducts } from '@/lib/static-products';
 import {
+    getMerchantGtin,
     getMerchantProductUrl,
     MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
+    normalizeMpn,
 } from '@/lib/merchant-product-data';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import { getAgentLabSummary } from '@/lib/agent-lab-export';
 
 // Structured-data endpoint for the store, listed brands, and active products.
 export const revalidate = 86400;
+
+const BRAND_AR: Record<string, string> = {
+    anker: 'انكر',
+    joyroom: 'جوي روم',
+    soundcore: 'ساوندكور',
+};
 
 export async function GET() {
     const baseUrl = 'https://cairovolt.com';
@@ -74,10 +84,12 @@ export async function GET() {
     const brandNames = [...new Set(activeProducts.map(product => product.brand))];
     for (const brand of brandNames) {
         const brandKey = brand.toLowerCase();
+        const arName = BRAND_AR[brandKey];
         graph["@graph"].push({
             "@type": "Brand",
             "@id": `${baseUrl}/#brand-${brandKey}`,
             "name": brand,
+            ...(arName ? { alternateName: arName } : {}),
         });
     }
 
@@ -100,13 +112,27 @@ export async function GET() {
         const brandId = `${baseUrl}/#brand-${brandKey}`;
         const isSoundcoreProduct = brandKey === 'soundcore';
         const productUrl = getMerchantProductUrl(product);
+        const lab = getAgentLabSummary(product.slug, 'en');
+        const shortEn = (product.translations.en.shortDescription || product.translations.en.description || '')
+            .replace(/<[^>]*>/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim();
+        const description = (lab?.aiTldr[0] || shortEn).slice(0, 300);
+        const gtin = getMerchantGtin(product.gtin13, product.gtin);
+        const mpn = normalizeMpn(product.mpn);
 
         graph["@graph"].push({
             "@type": "Product",
             "@id": `${productUrl}#product`,
             "name": product.translations.en.name,
+            "alternateName": localizeArabicBrandNames(product.translations.ar.name),
             "url": productUrl,
             "brand": { "@id": brandId },
+            "inLanguage": ["en-EG", "ar-EG"],
+            ...(description ? { description } : {}),
+            ...(product.sku ? { sku: product.sku } : {}),
+            ...(mpn ? { mpn } : {}),
+            ...(gtin ? { gtin } : {}),
             ...(isSoundcoreProduct && {
                 "isPartOf": { "@id": `${baseUrl}/soundcore#collectionpage` },
             }),

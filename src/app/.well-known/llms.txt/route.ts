@@ -57,12 +57,13 @@ CairoVolt is an independent retailer; it is not the manufacturer of, nor an offi
 - This file: ${baseUrl}/llms.txt (also served at ${baseUrl}/.well-known/llms.txt)
 - Detailed catalog reference: ${baseUrl}/llms-full.txt (also at ${baseUrl}/.well-known/llms-full.txt)
 - Product catalog (markdown): ${baseUrl}/api/llms/catalog
+- Lab export (bench verdict + aiTldr + key measured rows when published): ${baseUrl}/api/lab-data/json · CSV: ${baseUrl}/api/lab-data/csv
 - Commerce API description: ${baseUrl}/api/openapi.json
 - Product feed (RSS): ${baseUrl}/feed.xml
 - Sitemap: ${baseUrl}/sitemap.xml
 - Entity graph: ${baseUrl}/api/knowledge-graph
 
-Any page URL on this site also returns a markdown representation when requested with the header \`Accept: text/markdown\` (content negotiation for agents); product, blog, and policy pages return their real content.
+Any page URL on this site also returns a markdown representation when requested with the header \`Accept: text/markdown\` (content negotiation for agents). Product markdown is locale-primary (Arabic on \`/\`, English on \`/en\`) and includes lab verdict / aiTldr when a CairoVolt bench sheet exists. \`/api/orders\` is private (not for public crawlers).
 
 ## CairoVolt Warranty Serial Check
 

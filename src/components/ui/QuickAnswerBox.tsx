@@ -39,6 +39,7 @@ export function QuickAnswerBox({ answer, locale, variant = 'subtle' }: QuickAnsw
             dir={isArabic ? 'rtl' : 'ltr'}
             role="complementary"
             aria-label={ariaLabel}
+            data-speakable="quick-answer"
         >
             <p>
                 <strong className="text-gray-900 dark:text-white">{prefix}</strong>{' '}

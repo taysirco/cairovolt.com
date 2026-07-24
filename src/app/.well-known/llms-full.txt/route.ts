@@ -6,10 +6,14 @@ import {
     getMerchantProductUrl,
     MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
 } from '@/lib/merchant-product-data';
+import {
+    formatAgentLabMarkdown,
+    getAgentLabSummary,
+} from '@/lib/agent-lab-export';
 
 /**
  * Detailed machine-readable product reference generated from the same static
- * catalog used by the storefront.
+ * catalog used by the storefront, plus compact lab blocks when published.
  */
 export const revalidate = 3600;
 
@@ -35,6 +39,8 @@ export function GET() {
         const featuresEn = (product.translations.en.features || []).map(feature => clean(feature)).filter(Boolean);
         const featuresAr = (product.translations.ar.features || []).map(feature => localizeArabicBrandNames(clean(feature))).filter(Boolean);
         const gtin = getMerchantGtin(product.gtin13, product.gtin);
+        const labEn = getAgentLabSummary(product.slug, 'en', { maxResults: 5 });
+        const labAr = getAgentLabSummary(product.slug, 'ar', { maxResults: 5 });
 
         let section = `## ${clean(product.translations.en.name)}\n\n`;
         section += `- Arabic name: ${localizeArabicBrandNames(clean(product.translations.ar.name))}\n`;
@@ -49,6 +55,15 @@ export function GET() {
         if (featuresEn.length) section += `- Features: ${featuresEn.join('; ')}\n`;
         if (featuresAr.length) section += `- المميزات: ${featuresAr.join('؛ ')}\n`;
         section += `- Product page: ${url}\n`;
+        if (labEn) {
+            section += `\n${formatAgentLabMarkdown(labEn, 'en')}\n`;
+        }
+        if (labAr && labAr.aiTldr.length) {
+            section += `\n${formatAgentLabMarkdown(
+                { ...labAr, keyResults: [], methodology: '', pros: [], limits: [] },
+                'ar',
+            )}\n`;
+        }
         return section;
     }).join('\n');
 
@@ -57,6 +72,7 @@ export function GET() {
 
 > Generated from the storefront catalog. Updated ${updated}.
 > Product pages are the source of truth for current price, availability, warranty, delivery, and return terms.
+> Machine lab export: ${baseUrl}/api/lab-data/json
 
 ## Catalog Summary
 

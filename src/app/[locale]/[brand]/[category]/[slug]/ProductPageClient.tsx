@@ -649,7 +649,7 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                     </span>
                                 }
                             >
-                                <ul className="space-y-1">
+                                <ul className="space-y-1" data-speakable="ai-tldr">
                                     {(isRTL ? productDetail.aiTldr.ar : productDetail.aiTldr.en).map((point: string, idx: number) => (
                                         <li key={idx} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
                                             <span className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${summaryDotClass}`} />

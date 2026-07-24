@@ -5,6 +5,7 @@ import { getFirestore } from '@/lib/firebase-admin';
 import { getProductBySlug, getSmartRelatedProducts, getSmartBundleProducts, getProductsByCategory, getProductsByBrand, getFeaturedProducts, staticProducts, BRAND_FAMILIES } from '@/lib/static-products';
 import ProductPageClient from './ProductPageClient';
 import { ProductSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import { SpeakableSchema } from '@/components/schemas/SpeakableSchema';
 import { calculateVerifiedAggregateRating, getProductReviews as getVerifiedProductReviews } from '@/lib/verified-reviews';
 import { getProductDetailAsync } from '@/data/product-details';
 import { ImageObjectSchema } from '@/components/schemas/ImageObjectSchema';
@@ -536,6 +537,21 @@ export default async function ProductPage({ params }: Props) {
                     ? localizeArabicFields(productDetailData?.specifications)
                     : productDetailData?.specifications}
             />
+
+            {(() => {
+                const speakableSelectors: string[] = [];
+                if (productDetailData?.benchTest) speakableSelectors.push('[data-speakable="lab-verdict"]');
+                if (productDetailData?.aiTldr) speakableSelectors.push('[data-speakable="ai-tldr"]');
+                if (!speakableSelectors.length) return null;
+                const productUrl = `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${product.slug}`;
+                return (
+                    <SpeakableSchema
+                        locale={locale}
+                        url={productUrl}
+                        cssSelectors={speakableSelectors}
+                    />
+                );
+            })()}
 
             {/* Image schemas */}
             {product.images && product.images.length > 0 && (

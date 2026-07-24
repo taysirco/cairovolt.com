@@ -33,12 +33,13 @@ export function GET() {
                 item: [
                     { href: `${BASE_URL}/api/v1/checkout` },
                     { href: `${BASE_URL}/api/v1/quick-cod` },
-                    { href: `${BASE_URL}/api/orders` },
                     { href: `${BASE_URL}/api/products` },
                     { href: `${BASE_URL}/api/verify` },
                     { href: `${BASE_URL}/api/feed` },
                     { href: `${BASE_URL}/api/knowledge-graph` },
                     { href: `${BASE_URL}/api/llms/catalog` },
+                    { href: `${BASE_URL}/api/lab-data/json` },
+                    { href: `${BASE_URL}/api/lab-data/csv` },
                 ],
                 'service-desc': [
                     {

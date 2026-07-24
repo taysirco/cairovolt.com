@@ -31,7 +31,7 @@ export default function BenchTestSection({ data, isRTL }: { data: BenchTest; isR
             className="p-6 md:p-8 border-t border-gray-100 dark:border-gray-800"
             aria-label={isRTL ? 'اختبار كايرو فولت المعملي' : 'CairoVolt bench test'}
         >
-            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2" data-speakable="lab-heading">
                 <span aria-hidden>🔬</span>
                 {isRTL ? 'مُختبَر في كايرو فولت' : 'Bench-tested at CairoVolt'}
             </h2>
@@ -44,7 +44,12 @@ export default function BenchTestSection({ data, isRTL }: { data: BenchTest; isR
             {/* Answer-first verdict — always visible (the key takeaway for AEO) */}
             <div className="rounded-xl border-s-4 border-blue-500 bg-blue-50 dark:bg-blue-900/20 p-4 md:p-5">
                 <h3 className="font-bold mb-1 text-blue-900 dark:text-blue-200">{isRTL ? 'الخلاصة' : 'The verdict'}</h3>
-                <p className="text-sm md:text-base leading-relaxed text-gray-800 dark:text-gray-200">{t(data.verdict)}</p>
+                <p
+                    className="text-sm md:text-base leading-relaxed text-gray-800 dark:text-gray-200"
+                    data-speakable="lab-verdict"
+                >
+                    {t(data.verdict)}
+                </p>
             </div>
 
             {/* Everything below is collapsed by default to keep the page short */}

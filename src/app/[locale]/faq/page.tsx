@@ -2,6 +2,8 @@ import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import { FAQPageSchema } from '@/components/schemas/StructuredDataSchemas';
+import { SpeakableSchema } from '@/components/schemas/SpeakableSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 
 export const revalidate = 86400;
@@ -81,15 +83,22 @@ export default async function FAQPage({ params }: Props) {
     // Merge voice Q&As into the same schema to avoid duplicate FAQPage
     allFaqs.push(...(isArabic ? voiceFAQs.ar : voiceFAQs.en));
 
+    const faqUrl = `https://cairovolt.com${isArabic ? '' : '/en'}/faq`;
+
     return (
         <>
-            {/* The answers stay visible without asserting FAQPage rich-result eligibility. */}
             <BreadcrumbSchema
                 items={[
                     { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
-                    { name: t('title'), url: `https://cairovolt.com${isArabic ? '' : '/en'}/faq` },
+                    { name: t('title'), url: faqUrl },
                 ]}
                 locale={locale}
+            />
+            <FAQPageSchema items={allFaqs} locale={locale} url={faqUrl} />
+            <SpeakableSchema
+                locale={locale}
+                url={faqUrl}
+                cssSelectors={['[data-speakable="faq-answer"]']}
             />
             <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
                 <div className="container mx-auto px-4 py-16">
@@ -131,7 +140,10 @@ export default async function FAQPage({ params }: Props) {
                                                     <span>{t(`categories.${category}.q${num}`)}</span>
                                                     <span className="text-2xl group-open:rotate-45 transition-transform">+</span>
                                                 </summary>
-                                                <p className="px-5 pb-5 text-gray-600 dark:text-gray-400">
+                                                <p
+                                                    className="px-5 pb-5 text-gray-600 dark:text-gray-400"
+                                                    data-speakable="faq-answer"
+                                                >
                                                     {t(`categories.${category}.a${num}`)}
                                                 </p>
                                             </details>
@@ -154,7 +166,10 @@ export default async function FAQPage({ params }: Props) {
                                             {qa.question}
                                             <span className="text-blue-600 transition-transform group-open:rotate-180">▼</span>
                                         </summary>
-                                        <div className="cairovolt-faq-answer mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 font-medium">
+                                        <div
+                                            className="cairovolt-faq-answer mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 font-medium"
+                                            data-speakable="faq-answer"
+                                        >
                                             <strong className="text-blue-700 dark:text-blue-400">
                                                 {isArabic ? 'إجابة كايرو فولت:' : 'CairoVolt answer:'}
                                             </strong>{' '}
