@@ -1,9 +1,10 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getSolutionBySlug, solutionsDB } from '@/data/solutions-data';
+import { getSolutionBySlug, solutionsDB, getSolutionByIdOrSlug } from '@/data/solutions-data';
 import { getProductBySlug } from '@/lib/static-products';
 import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
+import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 export const revalidate = 3600;
 // Closed slug space (solutionsDB) → unknown slugs get a real 404 instead of
@@ -92,11 +93,12 @@ export default async function SolutionPage({ params }: Props) {
                         '@type': 'ItemList',
                         name: title,
                         description: problem,
+                        numberOfItems: recommendedProducts.length,
                         itemListElement: recommendedProducts.map((p, i) => ({
                             '@type': 'ListItem',
                             position: i + 1,
                             name: isArabic
-                                ? p.translations?.ar?.name || p.slug
+                                ? localizeArabicBrandNames(p.translations?.ar?.name || p.slug)
                                 : p.translations?.en?.name || p.slug,
                             url: `https://cairovolt.com${isArabic ? '' : '/en'}/${p.brand.toLowerCase()}/${p.categorySlug.toLowerCase()}/${p.slug}`,
                         })),
@@ -139,8 +141,9 @@ export default async function SolutionPage({ params }: Props) {
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {recommendedProducts.map((product) => {
-                            const pName = isArabic ? product.translations?.ar?.name : product.translations?.en?.name;
-                            const pDesc = isArabic ? product.translations?.ar?.shortDescription : product.translations?.en?.shortDescription;
+                            const rawName = isArabic ? product.translations?.ar?.name : product.translations?.en?.name;
+                            const pName = isArabic && rawName ? localizeArabicBrandNames(rawName) : rawName;
+                            const brandLabel = getBrandDisplayName(product.brand, isArabic ? 'ar' : 'en');
 
                             return (
                                 <Link
@@ -164,7 +167,7 @@ export default async function SolutionPage({ params }: Props) {
                                         )}
                                     </div>
                                     <div className="flex flex-col justify-center">
-                                        <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">{product.brand}</span>
+                                        <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">{brandLabel}</span>
                                         <h4 className="font-bold text-gray-900 dark:text-white mb-2 line-clamp-2">{pName}</h4>
                                         <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
                                             <span className="text-blue-600 dark:text-blue-400 font-black">{product.price} EGP</span>
@@ -183,6 +186,32 @@ export default async function SolutionPage({ params }: Props) {
                         })}
                     </div>
                 </div>
+
+                {solution.relatedSolutions.length > 0 && (() => {
+                    const related = solution.relatedSolutions
+                        .map(ref => getSolutionByIdOrSlug(ref))
+                        .filter((item): item is NonNullable<typeof item> => Boolean(item));
+                    if (!related.length) return null;
+                    return (
+                        <div className="mb-12">
+                            <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
+                                {isArabic ? 'حلول ذات صلة' : 'Related solutions'}
+                            </h3>
+                            <ul className="space-y-3">
+                                {related.map(item => (
+                                    <li key={item.slug}>
+                                        <Link
+                                            href={`${isArabic ? '' : '/en'}/solutions/${item.slug}`}
+                                            className="block rounded-2xl border border-gray-200 bg-white p-4 font-semibold text-blue-700 transition hover:border-blue-500 hover:shadow-md dark:border-gray-800 dark:bg-gray-900 dark:text-blue-300"
+                                        >
+                                            {isArabic ? item.searchQuery.ar : item.searchQuery.en}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    );
+                })()}
 
             </div>
         </div>

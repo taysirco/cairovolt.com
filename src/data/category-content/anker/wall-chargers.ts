@@ -137,6 +137,40 @@ CairoVolt warranty duration and terms are listed on the product page and warrant
 `
                         }
                     ],
+                    faq: [
+                        {
+                            question: 'What is the best Anker charger for iPhone?',
+                            answer: 'Choose a USB-C PD charger rated at or above what your specific iPhone model supports, without assuming the phone will draw the full rated power. Check the product page and your device guide — speed also depends on battery condition, temperature, and cable.'
+                        },
+                        {
+                            question: 'What is the best Anker charger for Samsung?',
+                            answer: 'Choose a charger that supports USB-C PD and PPS at the power your specific Samsung model requires. Check phone and charger specs because Super Fast Charging requirements differ by device.'
+                        },
+                        {
+                            question: 'What is the difference between a 20W and a 30W charger?',
+                            answer: 'Higher wattage does not always mean shorter charge time; the phone draws only what it supports. Compare PD/PPS support, port count, cable, and battery condition instead of relying on wattage alone.'
+                        },
+                        {
+                            question: 'Can an Anker charger charge a MacBook?',
+                            answer: 'Models with suitable USB-C PD output can charge compatible MacBook devices. Check the power your MacBook recommends and how output is shared across ports, and use a cable rated for that power.'
+                        },
+                        {
+                            question: 'What warranty covers an Anker charger from CairoVolt?',
+                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are written on the product page and warranty policy. Keep the invoice; a serial number or warranty record alone does not prove manufacturer authenticity.'
+                        },
+                        {
+                            question: 'Warning: How can I spot a counterfeit Anker charger?',
+                            answer: 'Check packaging quality, model number, and serial markings, and use any official manufacturer verification method if available. Buy with a clear invoice and warranty, and avoid chargers that overheat abnormally or do not match the packaging specs.'
+                        },
+                        {
+                            question: 'Can an Anker charger harm phone battery health?',
+                            answer: 'A sound, compatible charger negotiates power with the device over the supported protocol. Some Anker models mention ActiveShield — check the model specs and use a suitable cable, and stop use if there is damage or unusual heat.'
+                        },
+                        {
+                            question: 'Can it handle Egypt power fluctuations?',
+                            answer: 'Check the input range printed on your specific model instead of assuming one figure for every charger. Use appropriate electrical protection when supply is unstable, and unplug the charger during clear surges or faults.'
+                        }
+                    ],
                     products: [
                         { name: 'Anker Nano 45W (Single Port)', price: 775, badge: '45W PD' },
                         { name: 'Anker Nano Pro 45W (A2692)', price: 790, badge: '🆕 Nano Pro' },

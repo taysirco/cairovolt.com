@@ -374,6 +374,33 @@ export async function GET() {
                     },
                 },
             },
+            '/api/lab-data/json': {
+                get: {
+                    operationId: 'getLabDataJson',
+                    summary: 'Catalogue fields plus published CairoVolt bench verdict/aiTldr/key results',
+                    description: 'Returns active catalog items with bilingual lab summaries when a ProductDetail.benchTest sheet exists. Human index: /lab.',
+                    tags: ['Feeds'],
+                    responses: {
+                        '200': {
+                            description: 'JSON lab + catalogue export',
+                            content: { 'application/json': {} },
+                        },
+                    },
+                },
+            },
+            '/api/lab-data/csv': {
+                get: {
+                    operationId: 'getLabDataCsv',
+                    summary: 'Flat CSV of catalogue + compact lab fields (verdict, aiTldr)',
+                    tags: ['Feeds'],
+                    responses: {
+                        '200': {
+                            description: 'CSV lab + catalogue export',
+                            content: { 'text/csv': {} },
+                        },
+                    },
+                },
+            },
             '/.well-known/llms.txt': {
                 get: {
                     operationId: 'getAIFeed',

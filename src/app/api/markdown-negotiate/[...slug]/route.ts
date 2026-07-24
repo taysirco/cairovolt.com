@@ -16,6 +16,14 @@ import {
     getAgentLabSummary,
     type AgentLocale,
 } from '@/lib/agent-lab-export';
+import {
+    generateBrandCategoryMarkdown,
+    generateBrandHubMarkdown,
+    generateGenericCategoryMarkdown,
+    generateLabHubMarkdown,
+    generateSolutionMarkdown,
+    generateSolutionsListingMarkdown,
+} from '@/lib/agent-hub-markdown';
 // Same translation source the HTML policy pages render via next-intl —
 // the markdown surface reuses the identical published copy, never new claims.
 import enMessages from '../../../../../messages/en.json';
@@ -222,7 +230,7 @@ export async function GET(
         return markdownNotFound(path);
     }
 
-    // Brand and category collection pages.
+    // Brand and category collection pages — rich hub markdown (not stubs).
     if (routeSegments.length <= 2 && COLLECTION_ROOTS.has(routeSegments[0] || '')) {
         // Two-segment paths are only valid brand/category combinations —
         // the same closed space the HTML [brand]/[category] page enforces
@@ -232,33 +240,32 @@ export async function GET(
             return markdownNotFound(path);
         }
 
-        const segment = routeSegments.at(-1) || '';
-        const md = `# CairoVolt — ${segment.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
+        const hubLocale: AgentLocale = localePrefix === '/en' ? 'en' : 'ar';
 
-Browse this collection at [cairovolt.com/${path}](${baseUrl}/${path})
+        let hubMd: string | null = null;
+        if (routeSegments.length === 1) {
+            const root = routeSegments[0];
+            if (PRODUCT_BRANDS.has(root)) {
+                hubMd = generateBrandHubMarkdown(root, hubLocale, localePrefix);
+            } else {
+                hubMd = generateGenericCategoryMarkdown(root, hubLocale, localePrefix);
+            }
+        } else if (routeSegments.length === 2) {
+            hubMd = generateBrandCategoryMarkdown(
+                routeSegments[0],
+                routeSegments[1],
+                hubLocale,
+                localePrefix,
+            );
+        }
 
-## About CairoVolt
+        if (hubMd) {
+            return markdownContent(hubMd);
+        }
 
-CairoVolt is an Egyptian online store for **Anker**, **Joyroom**, and **Soundcore** accessories.
-
-- Service area: Egypt
-- Free shipping above ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} EGP
-- 💰 Cash on Delivery
-- ✅ CairoVolt warranty-card serial lookup available at ${baseUrl}/verify
-
-## API Access
-
-- Product catalog: ${baseUrl}/api/llms/catalog
-- OpenAPI spec: ${baseUrl}/api/openapi.json
-`;
-
-        return new NextResponse(md, {
-            headers: {
-                'Content-Type': 'text/markdown; charset=utf-8',
-                'Vary': 'Accept',
-                'Cache-Control': 'public, max-age=3600, s-maxage=3600',
-            },
-        });
+        // Allowlisted collection roots must always have a generator. Never serve
+        // the old English stub (cloaking-adjacent vs HTML richness claims).
+        return markdownNotFound(path);
     }
 
     // Deeper paths under the product/collection trees have no HTML route
@@ -269,6 +276,22 @@ CairoVolt is an Egyptian online store for **Anker**, **Joyroom**, and **Soundcor
 
     // ── Real content for editorial and policy pages (AR default, /en → EN) ──
     const isArabicSurface = localePrefix === '';
+    const hubLocale: AgentLocale = isArabicSurface ? 'ar' : 'en';
+
+    // Lab hub — measured index + methodology (same truth as HTML /lab).
+    if (routeSegments.length === 1 && routeSegments[0] === 'lab') {
+        return markdownContent(generateLabHubMarkdown(hubLocale, localePrefix));
+    }
+
+    // Solutions listing + individual solution pages.
+    if (routeSegments.length === 1 && routeSegments[0] === 'solutions') {
+        return markdownContent(generateSolutionsListingMarkdown(hubLocale, localePrefix));
+    }
+    if (routeSegments.length === 2 && routeSegments[0] === 'solutions') {
+        const solutionMd = generateSolutionMarkdown(routeSegments[1], hubLocale, localePrefix);
+        if (solutionMd) return markdownContent(solutionMd);
+        return markdownNotFound(path);
+    }
 
     // Blog listing → live article index with links.
     if (routeSegments.length === 1 && routeSegments[0] === 'blog') {
@@ -291,9 +314,9 @@ CairoVolt is an Egyptian online store for **Anker**, **Joyroom**, and **Soundcor
         return markdownContent(generateKnownPageMarkdown(routeSegments[0], isArabicSurface, localePrefix));
     }
 
-    // Generic fallback for the remaining KNOWN static pages (contact,
-    // locations, solutions, verify, …) —
-    // a basic markdown page with navigation hints.
+    // Generic fallback for remaining known static pages (contact, locations,
+    // verify, team, …) — a basic markdown page with navigation hints.
+    // Lab + solutions are handled above with rich generators.
     const md = `# CairoVolt — ${path.replace(/-/g, ' ').replace(/\//g, ' / ').replace(/\b\w/g, c => c.toUpperCase())}
 
 This page is available at [cairovolt.com/${path}](${baseUrl}/${path})

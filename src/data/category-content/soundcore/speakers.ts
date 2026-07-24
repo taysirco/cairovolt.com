@@ -124,6 +124,40 @@ PartyCast can link compatible models and versions according to the count and met
 `
                         }
                     ],
+                    faq: [
+                        {
+                            question: 'How much does a Soundcore speaker cost in Egypt?',
+                            answer: 'The live price is shown on each model card and product page and can change with stock and promotions. Compare output, size, battery, IP rating, and features, then review the CairoVolt warranty and estimated delivery timing.'
+                        },
+                        {
+                            question: 'Is Motion+ worth it compared with a JBL speaker?',
+                            answer: 'Motion+ lists Hi-Res Audio certification and Soundcore app EQ. Compare price, size, battery life, and sound character against the specific JBL model before buying.'
+                        },
+                        {
+                            question: 'How can I spot a counterfeit speaker?',
+                            answer: 'Match the model number, rated output, and IP marking with available manufacturer information, and use any official verification method if provided. A QR code, app recognition, or store warranty record alone does not prove manufacturer authenticity; keep the invoice.'
+                        },
+                        {
+                            question: 'Are Anker/Soundcore speakers safe for hearing?',
+                            answer: 'Any speaker can reach levels that affect hearing depending on distance and duration. Use a moderate volume, keep distance at high levels, and limit exposure time; do not assume an 85 dB limit unless the product page states one.'
+                        },
+                        {
+                            question: 'What warranty covers a Soundcore speaker in Egypt?',
+                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are written on the product page and warranty policy. Delivery timing is an estimate from the confirmed address, and cash on delivery is available for eligible orders.'
+                        },
+                        {
+                            question: 'How many hours of battery does a Soundcore speaker last?',
+                            answer: 'Stated runtime varies by model, volume, lighting, BassUp, and temperature. Check the published runtime on the product page.'
+                        },
+                        {
+                            question: 'Will a Soundcore speaker work with iPhone and Samsung phones?',
+                            answer: 'Bluetooth models work with compatible phones, but Bluetooth version, app/EQ support, and lighting controls differ by speaker. Check the product page and supported app version.'
+                        },
+                        {
+                            question: 'Can I use a Soundcore speaker as a TV external speaker?',
+                            answer: 'A speaker with Bluetooth or AUX can work with a TV that has a matching output. Bluetooth audio may introduce delay, and not every model includes AUX — check the ports and browse a suitable Anker cable if needed.'
+                        }
+                    ],
                     products: [
                         { name: 'Soundcore Motion+', price: 3600, badge: 'Hi-Res Audio' },
                         { name: 'Soundcore Flare 2', price: 2999, badge: 'LED Lights' },

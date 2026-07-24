@@ -48,7 +48,7 @@ Current price, availability, warranty, delivery, and return terms are shown on t
 - Joyroom: ${baseUrl}/joyroom
 - Soundcore: ${baseUrl}/soundcore
 
-Soundcore is Anker's audio brand. Arabic pages use the Arabic brand spellings انكر and ساوندكور in headings and descriptions.
+Soundcore is Anker's audio brand. Arabic pages use the Arabic brand spellings انكر، ساوندكور، and جوي روم in headings and descriptions.
 
 CairoVolt is an independent retailer; it is not the manufacturer of, nor an official agent or authorized distributor for, Anker, Soundcore, or Joyroom. Product warranties referenced on the site are CairoVolt's own written store warranty unless explicitly attributed to the manufacturer.
 
@@ -57,13 +57,15 @@ CairoVolt is an independent retailer; it is not the manufacturer of, nor an offi
 - This file: ${baseUrl}/llms.txt (also served at ${baseUrl}/.well-known/llms.txt)
 - Detailed catalog reference: ${baseUrl}/llms-full.txt (also at ${baseUrl}/.well-known/llms-full.txt)
 - Product catalog (markdown): ${baseUrl}/api/llms/catalog
-- Lab export (bench verdict + aiTldr + key measured rows when published): ${baseUrl}/api/lab-data/json · CSV: ${baseUrl}/api/lab-data/csv
+- Lab export JSON (bench verdict + aiTldr + key measured rows when published): ${baseUrl}/api/lab-data/json
+- Lab export CSV (flat verdict/aiTldr fields only): ${baseUrl}/api/lab-data/csv
+- Lab measured index (HTML): ${baseUrl}/lab · ${baseUrl}/en/lab
 - Commerce API description: ${baseUrl}/api/openapi.json
 - Product feed (RSS): ${baseUrl}/feed.xml
 - Sitemap: ${baseUrl}/sitemap.xml
 - Entity graph: ${baseUrl}/api/knowledge-graph
 
-Any page URL on this site also returns a markdown representation when requested with the header \`Accept: text/markdown\` (content negotiation for agents). Product markdown is locale-primary (Arabic on \`/\`, English on \`/en\`) and includes lab verdict / aiTldr when a CairoVolt bench sheet exists. \`/api/orders\` is private (not for public crawlers).
+Any page URL on this site also returns a markdown representation when requested with the header \`Accept: text/markdown\` (content negotiation for agents). Product markdown is locale-primary (Arabic on \`/\`, English on \`/en\`) and includes lab verdict / aiTldr when a CairoVolt bench sheet exists. Brand, category, lab, and solutions hubs return rich catalog + FAQ + measured snippets when generators resolve; unresolved collection roots 404 (no stub). \`/api/orders\` is private (not for public crawlers).
 
 ## CairoVolt Warranty Serial Check
 

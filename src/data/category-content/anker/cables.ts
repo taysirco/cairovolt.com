@@ -130,6 +130,40 @@ Many USB-C to Lightning and USB-C to USB-C models support PD. Check the cable ra
 `
                         }
                     ],
+                    faq: [
+                        {
+                            question: 'Why is an Anker cable more expensive than a basic cable?',
+                            answer: 'PowerLine cables use reinforced connectors and durable materials, and some models carry manufacturer bend ratings. MFi-certified Lightning models are designed for Apple-device compatibility according to the model listing.'
+                        },
+                        {
+                            question: 'Warning: How can I spot a counterfeit Anker cable?',
+                            answer: 'Check the model number, packaging quality, and any official manufacturer verification method available. For Lightning cables, confirm MFi status on the model page. Keep the invoice and warranty record; a serial number or warranty record alone does not prove manufacturer authenticity.'
+                        },
+                        {
+                            question: 'What is the difference between an Anker iPhone cable and a regular Anker cable?',
+                            answer: 'Choose an Anker Lightning cable with MFi listed on the product page, or USB-C for newer iPhones with a compatible port. CairoVolt warranty duration is shown per product, and delivery depends on the confirmed address.'
+                        },
+                        {
+                            question: 'Does an Anker USB-C cable work with Samsung phones?',
+                            answer: 'A suitably rated Anker USB-C cable can support Samsung fast charging when the cable and charger meet the PD/PPS requirements of that phone. Check the product page for power rating, durability claims, and warranty.'
+                        },
+                        {
+                            question: 'Will an Anker cable charge an iPhone 17 Pro Max quickly?',
+                            answer: 'A compatible USB-C to Lightning cable supports USB-C PD when used with a charger and device that support it. Actual speed depends on the phone model, charger, and battery condition.'
+                        },
+                        {
+                            question: 'Does an Anker cable support Samsung Super Fast Charging?',
+                            answer: 'Choose a USB-C to USB-C cable with a suitable power rating and a charger that supports the PD/PPS profile required by that Samsung phone. Cables differ in power and data support — check the model specs.'
+                        },
+                        {
+                            question: 'What warranty covers an Anker cable from CairoVolt?',
+                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are written on the product page and warranty policy. Delivery timing is an estimate after address confirmation, and cash on delivery is available for eligible orders.'
+                        },
+                        {
+                            question: 'Does an Anker cable transfer data or only charge?',
+                            answer: 'Both, depending on the model. Many Anker USB-C cables support data transfer up to 480Mbps alongside PD charging; confirm on the product page.'
+                        }
+                    ],
                     products: [
                         { name: 'Anker 310 USB-C to Lightning', price: 730, badge: 'New' },
                         { name: 'Anker Zolo USB-C Braided Cable', price: 790, badge: 'New' },

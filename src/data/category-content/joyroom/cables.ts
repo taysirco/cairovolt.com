@@ -123,6 +123,40 @@ Data support and speed vary by model. Some cables use USB 2.0 speeds and some ma
 `
                         }
                     ],
+                    faq: [
+                        {
+                            question: 'Is the cable safe for phone battery health?',
+                            answer: 'Some models use a Smart IC chip and support auto-disconnect according to the product specs. Use the cable with a compatible charger and device, and stop use if damage or unusual heat appears.'
+                        },
+                        {
+                            question: 'What is the difference between a 60W and a 100W cable?',
+                            answer: 'The figure is the cable rated limit, not what it forces onto the device. Choose 60W or 100W based on charger and device power, and confirm PD support and the cable rating needed for higher power levels.'
+                        },
+                        {
+                            question: 'Warning: Why choose a Joyroom cable over an Apple original cable?',
+                            answer: 'Auto-Disconnect on supported models stops power after charging completes, and braided nylon with reinforced connectors helps resist wear. Check bend rating and warranty per model.'
+                        },
+                        {
+                            question: 'Does this cable transfer data or only charge?',
+                            answer: 'It depends on the model. Check the data-transfer line on the product page; some cables support USB 2.0 and others may be charge-focused.'
+                        },
+                        {
+                            question: 'Can the cable handle Egypt summer heat?',
+                            answer: 'Braided material and reinforced connectors help resist wear, but they do not guarantee survival in a closed hot car. Do not leave the cable in direct sun or near a hot surface, and replace it if it cracks or internal metal shows.'
+                        },
+                        {
+                            question: 'Warning: How can I tell an original Joyroom cable from a counterfeit?',
+                            answer: 'Check the model number, specifications, and any official manufacturer verification method available, and keep the invoice. Material, QR code, or warranty record alone do not prove manufacturer authenticity.'
+                        },
+                        {
+                            question: 'Will a Joyroom cable charge an iPhone 17 quickly?',
+                            answer: 'A compatible USB-C to Lightning cable supports USB-C PD when used with a charger and phone that support it. Actual speed depends on the phone, charger, and battery condition.'
+                        },
+                        {
+                            question: 'What warranty covers a Joyroom cable from CairoVolt?',
+                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are shown on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
+                        }
+                    ],
                     products: [
                         { name: 'Joyroom Light Speed (Auto-Stop)', price: 118, badge: 'Auto-Stop by Model' },
                         { name: 'Joyroom 100W Type-C', price: 123, badge: 'Laptop Ready' },

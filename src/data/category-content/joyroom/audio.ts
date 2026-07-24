@@ -141,6 +141,40 @@ A code or warranty record alone does not prove manufacturer authenticity. Match 
 `
                         }
                     ],
+                    faq: [
+                        {
+                            question: 'What is the difference between JR-T03 and T03s Pro?',
+                            answer: 'See the comparison table in the buying guide above. In short: JR-T03 is a classic earbuds design without noise cancellation, while T03s Pro lists ANC and Spatial Audio for everyday use.'
+                        },
+                        {
+                            question: 'Do Joyroom earbuds work with iPhone and Samsung?',
+                            answer: 'Compatible Bluetooth models work with iPhone and Samsung, but pop-up pairing, voice assistants, and Bluetooth version differ by model and device. Check the product page before buying.'
+                        },
+                        {
+                            question: 'How do Joyroom earbuds compare with AirPods?',
+                            answer: 'Compare model-to-model on ANC, microphones, codecs, fit, battery life, and system integration. Not every Joyroom feature matches AirPods, and the live price is shown on each product page.'
+                        },
+                        {
+                            question: 'How long does Joyroom earbud battery last?',
+                            answer: 'It varies by model, volume, ANC use, and calls. Check the published runtime in the comparison table and on the product page.'
+                        },
+                        {
+                            question: 'What warranty covers Joyroom earbuds from CairoVolt?',
+                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are shown on the product page and warranty policy. Keep the invoice and model details when requesting support.'
+                        },
+                        {
+                            question: 'Are Joyroom earbuds water- and sweat-resistant?',
+                            answer: 'The T03s Pro model carries an IPX5 rating per manufacturer specs, suitable for sweat and light spray within that rating. Do not use it for swimming or immersion.'
+                        },
+                        {
+                            question: 'Is there an app to tune Joyroom earbud sound?',
+                            answer: 'App support and EQ, ANC, and update features differ by model. Check the product page and the supported-model list in the app store before relying on a feature.'
+                        },
+                        {
+                            question: 'Joyroom earbuds or unbranded earbuds — what is the difference?',
+                            answer: 'Compare written specifications, fit, warranty policy, and after-sales support. CairoVolt warranty duration is per product, and a code on the packaging alone is not independent proof of manufacturer authenticity.'
+                        }
+                    ],
                     products: [
                         { name: 'Joyroom T03s Pro ANC', price: 664, badge: 'ANC by Version' },
                         { name: 'Joyroom JR-T03 لاسلكي', price: 774, badge: 'بديل ايربودز كلاسيكي' },

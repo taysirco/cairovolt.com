@@ -150,6 +150,40 @@ MagSafe-compatible mounts are designed for specified devices and cases, but a me
 `
                         }
                     ],
+                    faq: [
+                        {
+                            question: 'Is the mount safe for the phone? Does the magnet cause harm?',
+                            answer: 'Use the mount per manufacturer instructions with a compatible phone or case. If the model needs a metal ring, attach it to the case in the recommended position and avoid placing it over wireless-charging components.'
+                        },
+                        {
+                            question: 'What is the difference between a vent mount and a dashboard mount?',
+                            answer: 'A vent mount depends on vent-blade shape and strength and can be affected by airflow. A dashboard mount depends on surface compatibility, adhesive, and heat. Choose a position that does not block vision or airbags and check the weight limit.'
+                        },
+                        {
+                            question: 'Does it work with iPhone 17 and MagSafe cases?',
+                            answer: 'Check the JR-ZS290 page for MagSafe compatibility and the supported device or case list. Test stability with the case you actually use before driving; real holding force changes with thickness, alignment, and vibration.'
+                        },
+                        {
+                            question: 'Will the mount drop the phone on bumps?',
+                            answer: 'Stability depends on base installation, phone and case weight, and the mounting surface condition. Check the stated weight limit for the model, clean the surface, and tighten the base before driving.'
+                        },
+                        {
+                            question: 'How much does a Joyroom car phone mount cost in Egypt?',
+                            answer: 'The live price is shown on each product card and page and can change with mount type, compatibility, and promotions. Also review the CairoVolt warranty and estimated delivery timing for your address.'
+                        },
+                        {
+                            question: 'Does the mount fit every phone?',
+                            answer: 'Not every mount fits every phone. Check the clamp size and weight range, or MagSafe compatibility and case type for magnetic mounts, then confirm the phone is secure before driving.'
+                        },
+                        {
+                            question: 'What warranty covers a Joyroom mount from CairoVolt?',
+                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are written on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
+                        },
+                        {
+                            question: 'Does the mount block the AC vent?',
+                            answer: 'That depends on vent shape and phone size. Choose a suitable clip and adjust the mount so it does not block airflow or controls.'
+                        }
+                    ],
                     products: [
                         { name: 'Joyroom Dashboard 360 (Adhesive)', price: 169, badge: 'Dashboard Mount' },
                         { name: 'Joyroom JR-ZS290 MagSafe (Magnetic)', price: 934, badge: 'MagSafe iPhone' }

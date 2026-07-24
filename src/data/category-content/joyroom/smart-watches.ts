@@ -155,6 +155,40 @@ Check the current price and CairoVolt warranty on the product page. Delivery tim
 `
                         }
                     ],
+                    faq: [
+                        {
+                            question: 'Does a Joyroom watch charge the phone? (common question)',
+                            answer: 'No. The watch does not charge the phone. Showing notifications and answering calls from the wrist may reduce how often you open the screen, but the effect on phone battery varies and there is no fixed percentage.'
+                        },
+                        {
+                            question: 'Is the watch safe on the wrist? Can it cause irritation?',
+                            answer: 'Check the strap material and model weight on the product page. If your skin is sensitive, clean and dry the strap regularly and stop use if irritation appears.'
+                        },
+                        {
+                            question: 'What is the difference between FT3 Pro and FT5? Which should I choose?',
+                            answer: 'FT3 Pro lists a round 1.43-inch AMOLED display and published battery life up to 7 days, while FT5 lists a square 1.83-inch IPS display and up to 5 days. Choose by shape and size, and check the live price and specs on the product page.'
+                        },
+                        {
+                            question: 'Does the watch work with iPhone and Android?',
+                            answer: 'Compatibility, Bluetooth version, call features, notifications, and language differ by model, app version, and phone. Check the product page and supported OS list in the app store.'
+                        },
+                        {
+                            question: 'Does the watch get warm?',
+                            answer: 'The watch may become warm during charging or long calls. Use the recommended charger, and remove the watch and stop using it if unusual heat appears.'
+                        },
+                        {
+                            question: 'Does a Joyroom watch measure blood pressure and oxygen?',
+                            answer: 'Supported models show SpO2 and heart-rate estimates for general tracking only. The watch is not a medical device and should not be used for diagnosis or treatment decisions.'
+                        },
+                        {
+                            question: 'Does a Joyroom watch work without a phone?',
+                            answer: 'Partially. It can show time and date and record steps and heart rate without a phone. Calls, notifications, and weather need a Bluetooth connection to the phone.'
+                        },
+                        {
+                            question: 'How much does a Joyroom watch cost in Egypt?',
+                            answer: 'The live price is shown on each model card and page and can change with stock and promotions. Compare display, calls, app, and battery, then review the CairoVolt warranty written for the product.'
+                        }
+                    ],
                     products: [
                         { name: 'Joyroom FT3 Pro AMOLED (BT Calling)', price: 1092, badge: 'Round AMOLED' },
                         { name: 'Joyroom FT5 Big Screen 1.83"', price: 1092, badge: 'Biggest Display' }

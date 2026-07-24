@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
+import { getLabIndexRows } from '@/lib/lab-index';
+import LabMeasuredIndex from '@/components/lab/LabMeasuredIndex';
 
-export const revalidate = 86400;
+export const revalidate = 3600;
 
 type Props = {
     params: Promise<{ locale: string }>;
@@ -14,13 +16,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale } = await params;
     const isArabic = locale === 'ar';
     const canonical = `${BASE_URL}${isArabic ? '' : '/en'}/lab`;
+    const rows = getLabIndexRows();
 
     const title = isArabic
-        ? 'مختبر كايرو فولت للمواصفات — حسابات الشحن والتوافق'
-        : 'CairoVolt Specs Lab — Charging Calculations & Compatibility';
+        ? `مختبر كايرو فولت — ${rows.length} تقرير قياس منشور`
+        : `CairoVolt Lab — ${rows.length} published measurement reports`;
     const description = isArabic
-        ? 'مركز عملي لفهم مواصفات الباور بانك والشواحن والكابلات: طريقة تحويل mAh إلى Wh، تقدير عدد الشحنات، وفحص توافق PD وPPS مع توضيح المصادر والافتراضات.'
-        : 'A practical hub for understanding power-bank, charger, and cable specifications, including mAh-to-Wh calculations, estimated charge counts, and PD/PPS compatibility with transparent sources and assumptions.';
+        ? `فهرس حي لتقارير المختبر المنشورة (SKU · الخلاصة · التاريخ · صفحة المنتج) مع منهجية الحسابات والتوافق. ${rows.length} منتجًا بتقارير benchTest.`
+        : `Live index of published CairoVolt bench reports (SKU · verdict · date · product page) plus calculation methodology. ${rows.length} products with benchTest sheets.`;
 
     return {
         title: { absolute: title },
@@ -50,6 +53,7 @@ export default async function LabPage({ params }: Props) {
     const isArabic = locale === 'ar';
     const prefix = isArabic ? '' : '/en';
     const canonical = `${BASE_URL}${prefix}/lab`;
+    const rows = getLabIndexRows();
 
     const methodology = isArabic
         ? [
@@ -117,18 +121,39 @@ export default async function LabPage({ params }: Props) {
                 '@id': `${canonical}#webpage`,
                 url: canonical,
                 name: isArabic
-                    ? 'مختبر كايرو فولت للمواصفات والحسابات'
-                    : 'CairoVolt Specifications and Calculations Lab',
+                    ? 'مختبر كايرو فولت — فهرس القياسات والمنهجية'
+                    : 'CairoVolt Lab — measured index and methodology',
                 description: isArabic
-                    ? 'منهجية واضحة لفهم مواصفات الشحن وإجراء حسابات تقديرية قبل الشراء.'
-                    : 'A transparent method for understanding charging specifications and making disclosed estimates before buying.',
+                    ? `فهرس حي لـ ${rows.length} تقرير قياس منشور مع منهجية الحسابات والتوافق.`
+                    : `Live index of ${rows.length} published measurement reports plus calculation methodology.`,
                 inLanguage: isArabic ? 'ar-EG' : 'en-EG',
                 isPartOf: { '@id': `${BASE_URL}/#website` },
+                speakable: {
+                    '@type': 'SpeakableSpecification',
+                    cssSelector: [
+                        '[data-speakable="lab-index-intro"]',
+                        '[data-speakable="lab-index-verdict"]',
+                    ],
+                },
                 about: [
                     { '@type': 'Thing', name: 'USB Power Delivery' },
                     { '@type': 'Thing', name: 'Programmable Power Supply' },
                     { '@type': 'Thing', name: 'Battery energy in watt-hours' },
+                    { '@type': 'Thing', name: 'CairoVolt bench testing' },
                 ],
+            },
+            {
+                '@type': 'ItemList',
+                '@id': `${canonical}#measured-index`,
+                name: isArabic ? 'فهرس تقارير المختبر المنشورة' : 'Published CairoVolt bench reports',
+                numberOfItems: rows.length,
+                itemListElement: rows.map((row, index) => ({
+                    '@type': 'ListItem',
+                    position: index + 1,
+                    name: isArabic ? row.nameAr : row.nameEn,
+                    url: isArabic ? row.productUrlAr : row.productUrlEn,
+                    description: (isArabic ? row.verdictAr : row.verdictEn).slice(0, 300),
+                })),
             },
             {
                 '@type': 'BreadcrumbList',
@@ -142,7 +167,7 @@ export default async function LabPage({ params }: Props) {
                     {
                         '@type': 'ListItem',
                         position: 2,
-                        name: isArabic ? 'مختبر المواصفات' : 'Specs Lab',
+                        name: isArabic ? 'المختبر' : 'Lab',
                         item: canonical,
                     },
                 ],
@@ -160,18 +185,34 @@ export default async function LabPage({ params }: Props) {
             <section className="bg-gradient-to-br from-blue-700 via-blue-800 to-slate-950 py-14 text-white md:py-20">
                 <div className="container mx-auto max-w-5xl px-4">
                     <p className="mb-3 text-sm font-bold text-cyan-200">
-                        {isArabic ? 'مركز رقمي للمواصفات والحسابات' : 'A digital specifications and calculations hub'}
+                        {isArabic
+                            ? 'فهرس قياسات منشور + منهجية مواصفات'
+                            : 'Published measured index + specs methodology'}
                     </p>
                     <h1 className="max-w-4xl text-3xl font-black leading-tight md:text-5xl">
                         {isArabic
-                            ? 'مختبر كايرو فولت: افهم مواصفات الشحن قبل أن تختار'
-                            : 'CairoVolt Specs Lab: understand charging specifications before you choose'}
+                            ? 'مختبر كايرو فولت: قياسات حقيقية قبل أن تختار'
+                            : 'CairoVolt Lab: real measurements before you choose'}
                     </h1>
-                    <p className="mt-5 max-w-3xl text-base leading-8 text-blue-100 md:text-lg">
+                    <p
+                        className="mt-5 max-w-3xl text-base leading-8 text-blue-100 md:text-lg"
+                        data-speakable="lab-index-intro"
+                    >
                         {isArabic
-                            ? 'نحوّل أرقام العبوة إلى أسئلة عملية: هل القدرة مناسبة؟ ما الطاقة بالواط/ساعة؟ وما الذي يجب مطابقته بين الشاحن والكابل والجهاز؟ كل حساب تقديري موضح بفرضياته، ولا نعرضه كاختبار معملي.'
-                            : 'We turn packaging numbers into practical questions: Is the wattage suitable? What is the energy in watt-hours? What must match between the charger, cable, and device? Every estimate discloses its assumptions and is not presented as a laboratory test.'}
+                            ? `جدول حي لـ ${rows.length} تقرير مختبر (SKU · الخلاصة · التاريخ · رابط المنتج)، ثم منهجية الحسابات والتوافق. كل رقم مقاس من ورقة benchTest — والحسابات التقديرية منفصلة وموضّحة بفرضياتها.`
+                            : `A live table of ${rows.length} bench reports (SKU · verdict · date · product link), then calculation and compatibility methodology. Every measured figure comes from a benchTest sheet — estimates stay separate and disclose assumptions.`}
                     </p>
+                </div>
+            </section>
+
+            <section className="border-b border-slate-200 py-12 dark:border-slate-800 md:py-16">
+                <div className="container mx-auto max-w-5xl px-4">
+                    <h2 className="text-2xl font-black md:text-3xl">
+                        {isArabic ? 'فهرس القياسات المنشورة' : 'Published measured index'}
+                    </h2>
+                    <div className="mt-6">
+                        <LabMeasuredIndex rows={rows} isArabic={isArabic} />
+                    </div>
                 </div>
             </section>
 

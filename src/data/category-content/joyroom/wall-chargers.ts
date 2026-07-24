@@ -117,6 +117,40 @@ Joyroom models labeled for 100V-240V input can be used within that stated range.
 `
                         }
                     ],
+                    faq: [
+                        {
+                            question: 'How much does a Joyroom charger cost in Egypt in 2026?',
+                            answer: 'The live price is shown on each product card and page and can change with power rating, ports, stock, and promotions. Also review the CairoVolt warranty and estimated delivery timing for your address.'
+                        },
+                        {
+                            question: 'Does the charger overheat, or is it safe?',
+                            answer: 'A charger may become warm during use. Choose a model that lists the required protection systems, keep ventilation clear, and stop use if unusual heat or smell appears.'
+                        },
+                        {
+                            question: 'What is the difference between 20W, 35W, and 65W?',
+                            answer: '20W may suit a compatible phone, 35W may provide headroom or two ports depending on the model, and 65W may suit some laptops. Check device requirements, power distribution, and the live price on the product page.'
+                        },
+                        {
+                            question: 'Can it handle Egypt power fluctuations?',
+                            answer: 'Check the input range printed on the charger. During severe fluctuation or sudden surges, use suitable surge protection and unplug the charger until the supply is stable.'
+                        },
+                        {
+                            question: 'Warning: How can I spot a counterfeit Joyroom charger?',
+                            answer: 'Check packaging quality, model number, output specs, and any official manufacturer verification method available. Keep the invoice; a serial number or warranty record alone does not prove manufacturer authenticity. Avoid any charger that does not match the packaging specs or overheats abnormally.'
+                        },
+                        {
+                            question: 'Will a Joyroom charger charge an iPhone 17 quickly?',
+                            answer: 'Compatible USB-C PD models support fast charging for iPhones within the device limit. Use a suitable cable; speed still varies by model and battery condition.'
+                        },
+                        {
+                            question: 'Will a Joyroom charger charge a Samsung S26?',
+                            answer: 'Choose a model that supports USB-C PD and PPS at the power required by that Samsung phone for the compatible charging mode.'
+                        },
+                        {
+                            question: 'What warranty covers a Joyroom charger in Egypt?',
+                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are written on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
+                        }
+                    ],
                     products: [
                         { name: 'Joyroom 20W PD Charger', price: 236, badge: 'Value' },
                         { name: 'Joyroom 35W GaN Dual', price: 342, badge: 'Dual Port by Model' },

@@ -1,5 +1,5 @@
 /**
- * Canonical Arabic display spellings for CairoVolt's two related brands.
+ * Canonical Arabic display spellings for CairoVolt's listed brands.
  *
  * Keep technical identifiers, URLs, slugs, API values, and Schema.org Brand
  * entity names in their official Latin form. These helpers are only for
@@ -8,6 +8,7 @@
 export const ARABIC_BRAND_NAMES = {
     anker: 'انكر',
     soundcore: 'ساوندكور',
+    joyroom: 'جوي روم',
 } as const;
 
 const LATIN_TOKEN_BOUNDARY = 'A-Za-z0-9_';
@@ -27,7 +28,7 @@ function hasUrlLikeContext(
 
     // Human-facing combined brand notation is prose, not a path. Keep this
     // ahead of the slash checks below so "Anker/Soundcore" is localized.
-    if (/^(?:Anker|Soundcore|انكر|ساوندكور)[/-](?:Anker|Soundcore|انكر|ساوندكور)[.,:;!?]?$/u.test(token)) {
+    if (/^(?:Anker|Soundcore|Joyroom|انكر|ساوندكور|جوي روم)[/-](?:Anker|Soundcore|Joyroom|انكر|ساوندكور|جوي روم)[.,:;!?]?$/u.test(token)) {
         return false;
     }
 
@@ -81,7 +82,8 @@ function replaceStandaloneLatinBrand(
 export function localizeArabicBrandNames(text: string): string {
     let localized = text
         .replace(/ساوند\s+كور/gu, ARABIC_BRAND_NAMES.soundcore)
-        .replace(/أنكر/gu, ARABIC_BRAND_NAMES.anker);
+        .replace(/أنكر/gu, ARABIC_BRAND_NAMES.anker)
+        .replace(/جوي\s*روم/gu, ARABIC_BRAND_NAMES.joyroom);
 
     localized = replaceStandaloneLatinBrand(
         localized,
@@ -92,6 +94,11 @@ export function localizeArabicBrandNames(text: string): string {
         localized,
         'Anker',
         ARABIC_BRAND_NAMES.anker,
+    );
+    localized = replaceStandaloneLatinBrand(
+        localized,
+        'Joyroom',
+        ARABIC_BRAND_NAMES.joyroom,
     );
 
     return localized;
@@ -155,15 +162,27 @@ export function localizeArabicFields<T>(value: T): T {
 
 /** Return the localized display name while leaving unknown brands untouched. */
 export function getBrandDisplayName(brand: string, locale: string): string {
-    if (locale !== 'ar') return brand;
+    const trimmed = brand.trim();
+    // URL slugs arrive lowercase ("anker"); normalize to Latin display first.
+    const latinDisplay = /^[a-z0-9-]+$/.test(trimmed)
+        ? trimmed
+            .split('-')
+            .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+            .join(' ')
+        : trimmed;
 
-    const normalized = brand.toLowerCase();
+    if (locale !== 'ar') return latinDisplay;
+
+    const normalized = latinDisplay.toLowerCase();
     if (normalized.includes('soundcore') || normalized.includes('ساوندكور') || normalized.includes('ساوند كور')) {
         return ARABIC_BRAND_NAMES.soundcore;
+    }
+    if (normalized.includes('joyroom') || normalized.includes('جوي روم') || normalized.includes('جويروم')) {
+        return ARABIC_BRAND_NAMES.joyroom;
     }
     if (normalized.includes('anker') || normalized.includes('أنكر') || normalized.includes('انكر')) {
         return ARABIC_BRAND_NAMES.anker;
     }
 
-    return localizeArabicBrandNames(brand);
+    return localizeArabicBrandNames(latinDisplay);
 }

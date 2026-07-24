@@ -5,6 +5,7 @@ import {
     MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
 } from '@/lib/merchant-product-data';
 import { getAgentLabSummary } from '@/lib/agent-lab-export';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 export const revalidate = 3600;
 
@@ -32,7 +33,7 @@ export async function GET() {
                 brand: product.brand,
                 category: product.categorySlug,
                 name: {
-                    ar: product.translations.ar.name,
+                    ar: localizeArabicBrandNames(product.translations.ar.name),
                     en: product.translations.en.name,
                 },
                 price: {
@@ -40,7 +41,10 @@ export async function GET() {
                     currency: 'EGP',
                 },
                 availability: product.stock > 0 ? 'in_stock' : 'out_of_stock',
-                sourceUrl: getMerchantProductUrl(product),
+                sourceUrl: {
+                    ar: getMerchantProductUrl(product, 'ar'),
+                    en: getMerchantProductUrl(product, 'en'),
+                },
                 lab: {
                     en: labEn,
                     ar: labAr,
@@ -53,8 +57,12 @@ export async function GET() {
     return NextResponse.json({
         name: 'CairoVolt lab + catalogue export',
         methodologyUrl: `${BASE_URL}/lab`,
+        indexUrl: {
+            ar: `${BASE_URL}/lab`,
+            en: `${BASE_URL}/en/lab`,
+        },
         description:
-            'Catalogue identifiers plus CairoVolt bench verdict, aiTldr, and key measured rows when a ProductDetail benchTest exists. Products without a published bench sheet have lab.en/lab.ar null. Not a substitute for the HTML product page.',
+            'Catalogue identifiers plus CairoVolt bench verdict, aiTldr, and key measured rows when a ProductDetail benchTest exists. Products without a published bench sheet have lab.en/lab.ar null. The human-readable measured index is at /lab. Not a substitute for the HTML product page.',
         sourcePolicy:
             'Every measured value comes from CairoVolt instrumented bench sheets. Manufacturer ratings are labeled separately. Price and availability are catalogue fields and may change.',
         currency: 'EGP',

@@ -118,6 +118,40 @@ export const joyroom_car_accessories_content: CategoryContent = {
 `
                         }
                     ],
+                    faq: [
+                        {
+                            question: 'Is a Joyroom car charger safe in Egypt heat?',
+                            answer: 'Choose a model that lists the required protection systems and use it within the vehicle input range printed on the product. Do not leave the charger in direct sun, and stop use if unusual heat appears.'
+                        },
+                        {
+                            question: 'How many devices can a Joyroom 60W car charger charge at once?',
+                            answer: 'A multi-port model can charge two devices, but the printed power may be total and each port share can change when both are used. Check the power-distribution table and PD/PPS/QC support on the product page.'
+                        },
+                        {
+                            question: 'Does the magnetic mount hold large phones like Ultra and Pro Max?',
+                            answer: 'The N52 mount is designed for compatible phones within the stated weight limit for the model. Use the matching ring or case and confirm the base is secure before driving.'
+                        },
+                        {
+                            question: 'Will the mount damage the dashboard liner or AC vent?',
+                            answer: 'Impact depends on dashboard material, vent shape, mounting method, and heat. Clean the surface, follow model instructions, and do not force the clip or adhesive; stop use if pressure marks or damage appear.'
+                        },
+                        {
+                            question: 'Does this car charger work with any car?',
+                            answer: 'It works with 12V or 24V vehicle power sockets if they fall within the input range printed on the model. Check the vehicle manual and fuse rating before use.'
+                        },
+                        {
+                            question: 'Can it charge an iPhone 17 and Samsung S26 at the same time?',
+                            answer: 'The 60W model provides USB-C PD and a USB-A port for two compatible devices. Available power per port may change when both are connected; check the power-distribution table on the product page.'
+                        },
+                        {
+                            question: 'Warning: How can I spot counterfeit Joyroom car accessories?',
+                            answer: 'Check the model number, output specs, and any official manufacturer verification method available, and keep the invoice. Material, QR code, or warranty record alone do not prove manufacturer authenticity.'
+                        },
+                        {
+                            question: 'What warranty covers Joyroom car accessories?',
+                            answer: 'CairoVolt warranty duration, coverage, and replacement terms vary by product and appear on its page and the warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
+                        }
+                    ],
                     products: [
                         { name: 'Joyroom 60W Car Charger', price: 513, badge: 'Fast Charge' },
                         { name: 'Joyroom Magnetic Car Holder', price: 169, badge: 'Magnetic' },

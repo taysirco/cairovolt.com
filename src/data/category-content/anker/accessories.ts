@@ -141,6 +141,40 @@ Charging is over USB-C, and the published runtime and charge-time figures are ma
 `
                         }
                     ],
+                    faq: [
+                        {
+                            question: 'Which iPads work with the Anker A7166 stylus?',
+                            answer: 'Open iPad Settings and check the exact model number, then compare it with Anker\'s current compatibility table for A7166. A year or generation range can be misleading — the model number is the accurate reference.'
+                        },
+                        {
+                            question: 'Does the Anker stylus have Apple Pencil-like pressure sensitivity?',
+                            answer: 'The company lists tilt support and palm rejection for A7166, with no stated pressure sensitivity. If pressure sensitivity is required for drawing, choose a stylus and iPad that explicitly support it.'
+                        },
+                        {
+                            question: 'Does the stylus charge magnetically when attached to the iPad?',
+                            answer: 'No. Magnetic attachment is for storage only on iPads whose shape allows it. Charging uses the USB-C port specified in the product data.'
+                        },
+                        {
+                            question: 'How long does the battery last in use?',
+                            answer: 'Published runtime and charge figures are manufacturer examples under defined test conditions; real results vary with use, temperature, and battery age. Check the product page for current figures.'
+                        },
+                        {
+                            question: 'Can I use Apple Pencil tips on the Anker stylus?',
+                            answer: 'Fit only a tip listed with a part number compatible with A7166. Similar shape does not prove mechanical compatibility or iPad screen safety.'
+                        },
+                        {
+                            question: 'Does it work with Procreate, GoodNotes, and note apps?',
+                            answer: 'App support varies. Confirm the specific function — writing, tilt, or palm rejection — on your iPad model, OS version, and app.'
+                        },
+                        {
+                            question: 'Warning: How can I spot a counterfeit Anker stylus?',
+                            answer: 'Match model number A7166, packaging quality, printed specs, and box contents, and use any official manufacturer verification method available. Keep the invoice and warranty record; appearance or price alone do not prove authenticity.'
+                        },
+                        {
+                            question: 'What warranty covers Anker accessories from CairoVolt?',
+                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are written on the product page and warranty policy. Delivery timing is an estimate after address confirmation, and cash on delivery is available for eligible orders.'
+                        }
+                    ],
                     products: [
                         { name: 'Anker Pencil Pro A7166 iPad Stylus', price: 1199, badge: 'iPad Stylus' },
                     ]

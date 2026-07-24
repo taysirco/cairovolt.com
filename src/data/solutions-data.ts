@@ -14,11 +14,13 @@ export interface UserSolution {
         ar: string;
     };
     recommendedProductSlugs: string[];
+    /** Related solution slugs (same field as URL segment), never internal ids. */
     relatedSolutions: string[];
 }
 
-// Solution Routing 
+// Solution Routing
 // Captures specific user questions and maps them to technical solutions.
+// recommendedProductSlugs MUST be active catalog SKUs that match the engineering claim.
 export const solutionsDB: UserSolution[] = [
     {
         id: 'iphone-15-overheating-car',
@@ -32,14 +34,14 @@ export const solutionsDB: UserSolution[] = [
             ar: 'درجات الحرارة المرتفعة في مصر مع استخدام شواحن سيارة قديمة (5V/1A) تسبب اختناق حراري وتدهور سريع لبطارية الآيفون.'
         },
         engineeringExplanation: {
-            en: 'The solution requires a Power Delivery (PD) 3.0 certified car charger with dynamic voltage scaling (PPS). This allows the charger to negotiate the exact voltage (9V) and current required, shifting the heat generation from the phone\'s internal power management IC to the car charger itself.',
-            ar: 'الحل الهندسي يكمن في استخدام شاحن سيارة يدعم تقنية Power Delivery (PD) 3.0 مع PPS. هذا يسمح بالتفاوض الدقيق على الفولتية، مما ينقل الحرارة الناتجة عن تحويل الطاقة من داخل الآيفون إلى شاحن السيارة نفسه.'
+            en: 'The solution requires a Power Delivery (PD) 3.0 car charger with PPS where the phone supports it, so the charger negotiates voltage/current and shifts conversion heat off the phone’s power-management IC. Pair it with a USB-C cable rated for the negotiated power — a USB-A-only car adapter cannot provide USB-C PD/PPS.',
+            ar: 'الحل يتطلب شاحن سيارة USB-C بدعم Power Delivery (PD) 3.0 وPPS إن كان الهاتف يدعمها، حتى يتفاوض الشاحن على الجهد/التيار وينقل حرارة التحويل بعيدًا عن دائرة إدارة الطاقة داخل الهاتف. اربطه بكابل USB-C يتحمل القدرة المتفاوض عليها — شاحن سيارة USB-A فقط لا يوفّر USB-C PD/PPS.'
         },
         recommendedProductSlugs: [
             'joyroom-60w-car-charger',
-            'joyroom-72w-car-charger'
+            'joyroom-usb-c-cable-60w',
         ],
-        relatedSolutions: ['slow-charging-maps-navigation']
+        relatedSolutions: ['battery-drains-while-plugged-in-using-google-maps']
     },
     {
         id: 'slow-charging-maps-navigation',
@@ -53,17 +55,21 @@ export const solutionsDB: UserSolution[] = [
             ar: 'تشغيل الـ GPS وبيانات الهاتف وأقصى سطوع للشاشة يستهلك حوالي 12 واط. استخدام شاحن تقليدي (10 واط) يؤدي إلى استنزاف مستمر للبطارية رغم توصيلها بالشاحن.'
         },
         engineeringExplanation: {
-            en: 'To achieve positive net charge during intensive navigation workflows, a power source delivering a minimum of 20W PD output is mandatory. This exceeds the consumption rate and actively replenishes the cell.',
-            ar: 'لتحقيق شحن إيجابي أثناء استخدام برامج الملاحة، يجب توفر مصدر طاقة يضخ 20 واط (PD) كحد أدنى. هذا يتجاوز معدل الاستهلاك المرتفع ويقوم بشحن خلية البطارية فعلياً.'
+            en: 'To keep a positive net charge during intensive navigation, use a USB-C PD source of at least ~20W — typically a PD car charger in the vehicle, or a ≥20W PD wall charger when parked/at home. Legacy USB-A ~10W adapters usually cannot outpace Maps + GPS + bright screen draw.',
+            ar: 'للحفاظ على شحن صافٍ إيجابي أثناء الملاحة المكثفة، استخدم مصدر USB-C PD بقدرة حوالي 20 واط على الأقل — عادة شاحن سيارة PD داخل المركبة، أو شاحن حائط PD ≥20 واط عند التوقف/المنزل. محولات USB-A التقليدية ~10 واط غالبًا لا تتجاوز استهلاك الخرائط + GPS + السطوع العالي.'
         },
         recommendedProductSlugs: [
-            'joyroom-72w-car-charger',
-            'joyroom-15w-magsafe-car-mount'
+            'joyroom-60w-car-charger',
+            'joyroom-20w-usb-c-charger',
         ],
-        relatedSolutions: ['iphone-15-overheating-car']
+        relatedSolutions: ['iphone-15-pro-max-car-overheating-solution']
     }
 ];
 
 export function getSolutionBySlug(slug: string): UserSolution | undefined {
     return solutionsDB.find(p => p.slug === slug);
+}
+
+export function getSolutionByIdOrSlug(idOrSlug: string): UserSolution | undefined {
+    return solutionsDB.find(p => p.slug === idOrSlug || p.id === idOrSlug);
 }

@@ -120,6 +120,40 @@ It depends on the vehicle: some 12V outlets switch off with the engine while oth
 `
                         }
                     ],
+                    faq: [
+                        {
+                            question: 'How much does an Anker car charger cost in Egypt?',
+                            answer: 'The live price is shown on each model card and product page and can change with the model and promotions. Compare port count, PD/PPS power, and power sharing, then review the CairoVolt warranty and estimated delivery timing for your address.'
+                        },
+                        {
+                            question: 'Is the car charger safe? Does it overheat?',
+                            answer: 'Models that list MultiProtect use protection functions that vary by product to monitor conditions such as current or temperature. Use the charger in a sound socket and avoid leaving it in direct sun.'
+                        },
+                        {
+                            question: 'Warning: How can I spot a counterfeit Anker car charger?',
+                            answer: 'Check the model number, output specs on the packaging, and any official manufacturer verification method available, and keep the invoice. Material, logo, serial number, or warranty record alone do not prove manufacturer authenticity.'
+                        },
+                        {
+                            question: 'Can it charge iPhone and Samsung at the same time?',
+                            answer: 'Multi-port models can charge two devices, but each port\'s available power may change when both are used. Check the model\'s power-distribution table and whether the phone uses PD or PPS.'
+                        },
+                        {
+                            question: 'What warranty covers an Anker car charger in Egypt?',
+                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are shown on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
+                        },
+                        {
+                            question: 'Will it charge an iPhone 17 quickly in the car?',
+                            answer: 'A USB-C PD port supports fast charging for compatible iPhones. Use a suitable USB-C cable and check the model\'s output rating — speed varies with the phone and battery condition.'
+                        },
+                        {
+                            question: 'Will it charge a Samsung S26 Ultra quickly?',
+                            answer: 'The 323 model at 52W provides a USB-C PD port up to 30W. Check PPS support and the specific Samsung phone requirements for the compatible charging mode.'
+                        },
+                        {
+                            question: 'Does it work with every car?',
+                            answer: 'It works with cars that provide a compatible 12V or 24V power socket. Check your vehicle manual and fuse rating before use.'
+                        }
+                    ],
                     products: [
                         { name: 'Anker Magnetic Wireless Car Charger', price: 1200, badge: '🆕 MagSafe' },
                         { name: 'Anker PowerDrive Speed+ 2', price: 950, badge: 'PD Fast' },

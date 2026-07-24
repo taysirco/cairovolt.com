@@ -131,6 +131,40 @@ It depends on the vehicle: some 12V outlets switch off with the engine while oth
 `
                         }
                     ],
+                    faq: [
+                        {
+                            question: 'How much does a Joyroom car charger cost in Egypt?',
+                            answer: 'The live price is shown on the product card and page and can change with promotions. Compare ports, the power-distribution table, and PD/PPS support, and review the CairoVolt warranty and estimated delivery timing before confirming the order.'
+                        },
+                        {
+                            question: 'How many devices can the Joyroom JR-CCL05 charge at once?',
+                            answer: 'JR-CCL05 has two retractable built-in cables (USB-C + Lightning) plus USB-A and USB-C ports, so it can charge up to four compatible devices. Available power per connection may drop when several are used together; check the power-distribution table printed on the unit and on the product page.'
+                        },
+                        {
+                            question: 'How long are the retractable cables?',
+                            answer: 'The built-in cables are about 80 cm; confirm the length printed on the supplied unit or packaging before relying on a figure. Extend and retract according to the instructions without sudden bends or pulls to protect the retract mechanism.'
+                        },
+                        {
+                            question: 'Is the charger safe in Egypt heat?',
+                            answer: 'Use the charger within the vehicle 12V or 24V input range printed on the product, and do not leave it in direct sun. It may become warm in use; stop immediately if unusual heat or smell appears.'
+                        },
+                        {
+                            question: 'Does it charge iPhone and Samsung quickly?',
+                            answer: 'The built-in cables (USB-C + Lightning) support fast charging for devices compatible with the PD or PPS profiles printed on the model. Actual speed varies with the phone, battery condition, and temperature; match your device requirements to the table on the product page.'
+                        },
+                        {
+                            question: 'Warning: How can I spot a counterfeit Joyroom car charger?',
+                            answer: 'Check model number JR-CCL05, the output specs printed on the packaging, and any official manufacturer verification method available, and keep the invoice. Material, QR code, or warranty record alone do not prove manufacturer authenticity.'
+                        },
+                        {
+                            question: 'What warranty covers a Joyroom car charger in Egypt?',
+                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are shown on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
+                        },
+                        {
+                            question: 'Does it work with every car?',
+                            answer: 'It works with cars that provide a 12V or 24V power socket within the input range printed on the model. Check your vehicle manual, socket shape, and fuse rating before use.'
+                        }
+                    ],
                     products: [
                         { name: 'Joyroom 69W Retractable 4-in-1 Car Charger (JR-CCL05)', price: 513, badge: 'Two Retractable Cables' }
                     ]

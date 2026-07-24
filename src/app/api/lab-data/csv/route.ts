@@ -5,6 +5,7 @@ import {
     MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
 } from '@/lib/merchant-product-data';
 import { getAgentLabSummary } from '@/lib/agent-lab-export';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 export const revalidate = 3600;
 
@@ -29,7 +30,8 @@ export async function GET() {
         'category',
         'price_egp',
         'availability',
-        'source_url',
+        'source_url_ar',
+        'source_url_en',
         'has_bench',
         'verdict_en',
         'verdict_ar',
@@ -53,12 +55,13 @@ export async function GET() {
                 product.mpn,
                 product.gtin13 || product.gtin,
                 product.translations.en.name,
-                product.translations.ar.name,
+                localizeArabicBrandNames(product.translations.ar.name),
                 product.brand,
                 product.categorySlug,
                 product.price,
                 product.stock > 0 ? 'in_stock' : 'out_of_stock',
-                getMerchantProductUrl(product),
+                getMerchantProductUrl(product, 'ar'),
+                getMerchantProductUrl(product, 'en'),
                 labEn?.hasBench || labAr?.hasBench ? 'yes' : 'no',
                 labEn?.verdict || '',
                 labAr?.verdict || '',
