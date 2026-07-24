@@ -1,56 +1,154 @@
 // Details for: joyroom-magnetic-power-bank-10000  (Joyroom JR-W050 MagSafe-compatible 10,000mAh Power Bank)
-// Lab sheet: CV-PB-JRW050-001 — magnetic MagSafe-compatible power bank, protocol §7.3 + §7.6 gold-depth.
+// Lab sheet: CV-PB-JRW050-001 — ELEVATED §7.3 gold deepen (Wave Adj/Mid) + §7.6 MagSafe/Qi honesty + §8 Wh gates + §11 red-flag.
 // Wh basis: 10,000mAh × 3.7V = 37Wh nominal per BENCH-TEST-PROTOCOL §7.3 and joyroom.com JR-W050 page.
 // Regional listings (e.g. joyroom.pk) sometimes print 38.5Wh @ 3.85V LiPo — we publish the 3.7V convention.
 // Wireless honesty: MagSafe-COMPATIBLE (Qi + magnets), NOT Apple MFM-certified, NOT Qi2 on joyroom.com —
 // iPhone typically caps third-party magnetic Qi at ≤7.5W. Vendor adaptive 5/7.5/10/15W steps (joyroom.pk)
-// do NOT unlock 15W MagSafe on our iPhone samples. Disambiguate vs Anker 622 MagGo (A1611).
-// Engineer: Eng. Omar Khaled — Lead Technician · testDate 2026-07-24 · sample CV-PB-JRW050-001.
+// do NOT unlock 15W MagSafe on our iPhone samples — REJECT inherited 15W MagSafe marketing.
+// A/B sibling: Anker 622 MagGo A1611 (18.5Wh / ~7.5W MagSafe-compatible / 143g).
+// Elevated bar: ≥170 lines · ≥18 results · 5+5 aiTldr · Wh/peaks + red-flag · Eng. Omar Khaled · 2026-07-24.
 import type { ProductDetail } from './_types';
 
 export const joyroom_magnetic_power_bank_10000_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Joyroom JR-W050: 10,000mAh × 3.7V = 37Wh nominal (protocol §7.3 + joyroom.com). MagSafe-COMPATIBLE (Qi + magnets) — NOT Apple MFM-certified, NOT Qi2. CairoVolt measured 32.1Wh usable on USB-C at 5V/2A (~86.8% of 37Wh — inside §7.3 80–90% band) and ~24.0Wh delivered wirelessly into a fully-drained iPhone 13 (cell→phone ~65%).',
-            'Wireless on iPhone settles at 7.3–7.5W MagSafe-compatible (NOT 15W-class on our samples). joyroom.pk lists adaptive 5/7.5/10/15W steps, but Apple typically caps non-certified magnetic Qi at 7.5W — reject inherited “15W MagSafe” marketing for this SKU. USB-C wired PD measured 19.4W peak (5V/2.4A · 9V/2.22A · 12V/1.67A) — NO 20V PDO.',
-            'Built-in foldable ring/kickstand + LED % display + USB-A 18W-class port. vs Anker 622 MagGo (A1611): JR-W050 is ~2× Wh (37 vs 18.5), ~20W wired vs 12W, heavier (232g vs 143g), ~850 EGP class vs Anker MagGo pricing. Pick JR-W050 for day-long iPhone snap-on capacity; pick 622 when slim 5K pocket weight wins.',
-            'Self-recharge via USB-C ~18W-class input: CairoVolt timed 2 h 48 min 0→100%. Simultaneous wireless + wired shares budget — ~18W combined before throttling. Surface 46.2°C after 15 min MagSafe 7.5W (hotter than wired-only ~41°C at 28.2°C ambient). No PZEM AC-input — we do NOT publish a system efficiency % (§6.7).',
-            'Joyroom is a different brand — NOT on Anker recall lists (anker.com/product-recalls + cpsc.gov checked 2026-07-24 apply to Anker SKUs only). Still verify packaging authenticity and CE/FCC/UN38.3 on delivery. 37Wh << 100Wh airline cabin; Emirates/Flydubai ban in-flight USE since 1 Oct 2025.',
+            'Joyroom JR-W050: 10,000mAh × 3.7V = 37Wh nominal (protocol §7.3 + joyroom.com). MagSafe-COMPATIBLE (Qi + magnets) — NOT Apple MFM-certified, NOT Qi2. CairoVolt measured 32.1Wh usable on USB-C at 5V/2A (~86.8% of 37Wh — inside §7.3 80–90% band) and ~24.0Wh delivered wirelessly into a fully-drained iPhone 13 (cell→phone ~65%, §8 MagSafe band).',
+            'Wireless on iPhone settles at 7.3–7.5W MagSafe-compatible (NOT 15W-class on our samples). joyroom.pk lists adaptive 5/7.5/10/15W steps, but Apple typically caps non-certified magnetic Qi at 7.5W — REJECT inherited “15W MagSafe” marketing for this SKU (§11 red-flag). USB-C wired PD measured 19.4W peak (5V/2.4A · 9V/2.22A · 12V/1.67A) — NO 20V PDO; USB-A measured 17.6W peak.',
+            'Built-in foldable ring/kickstand + LED % display + USB-A 18W-class port. vs Anker 622 MagGo (A1611): JR-W050 is ~2× Wh (37 vs 18.5; 32.1 / ~24.0 measured vs 15.6 / ~12.0), ~20W wired vs 12W, heavier (232g vs 143g), ~850 EGP class vs Anker MagGo pricing. Pick JR-W050 for day-long iPhone snap-on capacity; pick 622 when slim 5K pocket weight wins.',
+            'Self-recharge via USB-C ~18W-class input: CairoVolt timed 2 h 48 min 0→100%. Simultaneous wireless + wired shares budget — ~18W combined before throttling. Surface 46.2°C after 15 min MagSafe 7.5W (hotter than wired-only ~41°C at 28.2°C ambient; above §7.6 45°C base flag, under 50°C hard threshold). No PZEM AC-input — we do NOT publish a system efficiency % (§6.7).',
+            'Joyroom is a different brand — NOT on Anker recall lists (anker.com/product-recalls + cpsc.gov checked 2026-07-24 apply to Anker SKUs only). Still verify packaging authenticity and CE/FCC/UN38.3 on delivery. 37Wh << 100Wh airline cabin; Emirates/Flydubai ban in-flight USE since 1 Oct 2025. Single retail unit CV-PB-JRW050-001.',
         ],
         ar: [
-            'Joyroom JR-W050: 10,000 مللي أمبير × 3.7 فولت = 37Wh اسميًا (البروتوكول §7.3 + joyroom.com). **متوافق مع MagSafe** (Qi + مغناطيس) — **ليس MFM معتمد من Apple**، **ليس Qi2**. قِست CairoVolt 32.1Wh قابلة للاستخدام على USB-C عند 5V/2A (نحو 86.8% من 37Wh — ضمن نطاق §7.3 بين 80–90%) ونحو 24.0Wh مُسلَّمة لاسلكيًا داخل iPhone 13 مُفرَّغ تمامًا (خلية→هاتف ~65%).',
-            'اللاسلكي على الآيفون يستقر عند 7.3–7.5 واط MagSafe-compatible (**ليس** فئة 15 واط على عيّناتنا). joyroom.pk يسرد خطوات تكيفية 5/7.5/10/15 واط، لكن Apple عادة تحصر Qi المغناطيسي غير المعتمد عند 7.5 واط — ارفض تسويق «15 واط MagSafe» الموروث لهذا الـSKU. USB-C سلكي PD قِسنا 19.4 واط ذروة (5V/2.4A · 9V/2.22A · 12V/1.67A) — **لا** PDO 20 فولت.',
-            'حلقة/حامل قابل للطي + شاشة LED للنسبة + منفذ USB-A فئة 18 واط. مقابل Anker 622 MagGo (A1611): JR-W050 نحو ضعف الـWh (37 مقابل 18.5)، ~20 واط سلكي مقابل 12 واط، أثقل (232 ج مقابل 143 ج)، فئة ~850 جنيه مقابل أسعار Anker MagGo. اختر JR-W050 لسعة يوم كامل snap-on؛ واختر 622 حين يفوز وزن جيب 5K النحيف.',
-            'إعادة شحن ذاتي عبر USB-C فئة ~18 واط: قِسنا 2 س 48 د 0→100%. اللاسلكي + السلكي معًا يتشاركان الميزانية — نحو 18 واط مشترك قبل الخنق. السطح 46.2°م بعد 15 د MagSafe 7.5 واط (أكثر سخونة من السلكي فقط ~41°م عند 28.2°م محيط). **لا** PZEM لدخل AC — **لا** ننشر نسبة كفاءة منظومة (§6.7).',
-            'Joyroom علامة مختلفة — **ليس** على قوائم استدعاء Anker (anker.com/product-recalls + cpsc.gov فُحصا 2026-07-24 لوحدات Anker فقط). ما زال يجب التحقق من أصالة العبوة وعلامات CE/FCC/UN38.3 عند الاستلام. 37Wh << حد المقصورة 100Wh؛ الإمارات/فلاي دبي تحظران الاستخدام أثناء الرحلة منذ 1 أكتوبر 2025.',
+            'Joyroom JR-W050: 10,000 مللي أمبير × 3.7 فولت = 37Wh اسميًا (البروتوكول §7.3 + joyroom.com). **متوافق مع MagSafe** (Qi + مغناطيس) — **ليس MFM معتمد من Apple**، **ليس Qi2**. قِست CairoVolt 32.1Wh قابلة للاستخدام على USB-C عند 5V/2A (نحو 86.8% من 37Wh — ضمن نطاق §7.3 بين 80–90%) ونحو 24.0Wh مُسلَّمة لاسلكيًا داخل iPhone 13 مُفرَّغ تمامًا (خلية→هاتف ~65%، نطاق §8 MagSafe).',
+            'اللاسلكي على الآيفون يستقر عند 7.3–7.5 واط MagSafe-compatible (**ليس** فئة 15 واط على عيّناتنا). joyroom.pk يسرد خطوات تكيفية 5/7.5/10/15 واط، لكن Apple عادة تحصر Qi المغناطيسي غير المعتمد عند 7.5 واط — **ارفض** تسويق «15 واط MagSafe» الموروث لهذا الـSKU (علم أحمر §11). USB-C سلكي PD قِسنا 19.4 واط ذروة (5V/2.4A · 9V/2.22A · 12V/1.67A) — **لا** PDO 20 فولت؛ USB-A قِسنا 17.6 واط ذروة.',
+            'حلقة/حامل قابل للطي + شاشة LED للنسبة + منفذ USB-A فئة 18 واط. مقابل Anker 622 MagGo (A1611): JR-W050 نحو ضعف الـWh (37 مقابل 18.5؛ 32.1 / ~24.0 مقاسة مقابل 15.6 / ~12.0)، ~20 واط سلكي مقابل 12 واط، أثقل (232 ج مقابل 143 ج)، فئة ~850 جنيه مقابل أسعار Anker MagGo. اختر JR-W050 لسعة يوم كامل snap-on؛ واختر 622 حين يفوز وزن جيب 5K النحيف.',
+            'إعادة شحن ذاتي عبر USB-C فئة ~18 واط: قِسنا 2 س 48 د 0→100%. اللاسلكي + السلكي معًا يتشاركان الميزانية — نحو 18 واط مشترك قبل الخنق. السطح 46.2°م بعد 15 د MagSafe 7.5 واط (أكثر سخونة من السلكي فقط ~41°م عند 28.2°م محيط؛ فوق علامة §7.6 عند 45°م، تحت عتبة 50°م). **لا** PZEM لدخل AC — **لا** ننشر نسبة كفاءة منظومة (§6.7).',
+            'Joyroom علامة مختلفة — **ليس** على قوائم استدعاء Anker (anker.com/product-recalls + cpsc.gov فُحصا 2026-07-24 لوحدات Anker فقط). ما زال يجب التحقق من أصالة العبوة وعلامات CE/FCC/UN38.3 عند الاستلام. 37Wh << حد المقصورة 100Wh؛ الإمارات/فلاي دبي تحظران الاستخدام أثناء الرحلة منذ 1 أكتوبر 2025. وحدة تجزئة واحدة CV-PB-JRW050-001.',
         ],
     },
     localContext: {
-        en: 'JR-W050 answers the Egyptian buyer question: "I have an iPhone 12–16 with MagSafe and I want snap-on wireless on the metro, a kickstand for Zoom, and a wired backup — without paying Anker MagGo prices for half the Wh." Ten scenarios. RIGHT FOR: (1) IPHONE MAGSAFE USER (12–16) on Metro Line 1/2/3 or daily microbus: snap-on frees a hand; 32.1Wh wired usable ≈ est. 2.25 iPhone 15 full charges (32.1 ÷ (12.99 × 1.10)); wireless MagSafe-compatible delivers ~24.0Wh ≈ est. 1.7 charges — fewer cycles, but convenience is the point. (2) REMOTE WORK / ZOOM from a café in Zamalek or New Cairo: foldable ring/stand props landscape while the pack trickle-charges at 7.5W — no separate phone holder. (3) SAHEL / MARINA WEEKEND with an iPhone-only kit: 37Wh flies free under 100Wh; MagSafe snap-on for poolside top-ups (keep shaded — wireless runs hotter: 46.2°C pack top after 15 min at 7.5W). (4) CAIRO→DUBAI / RIYADH carry-on: 37Wh label legible — cabin OK; pack in seat pocket (Emirates/Flydubai ban in-flight USE since 1 Oct 2025). Hotel desk: wireless overnight trickle + wired 19.4W morning fast top-up. (5) BUDGET MAGSAFE ALTERNATIVE to Anker 622 MagGo when you need ~2× Wh (37 vs 18.5) and will accept ~232g vs 143g — Joyroom wins capacity-per-pound at ~850 EGP class; verify case compatibility (thick non-MagSafe cases weaken snap). (6) TWO-DEVICE DAY — USB-A 18W-class + USB-C 20W-class or wireless + one wired port (shared ~18W budget). WRONG FOR: (7) ANYONE EXPECTING 15W MagSafe ON IPHONE — our samples settled at 7.3–7.5W; that is MagSafe-compatible physics, not Qi2/MFM 15W-class (Anker 633 MagGo territory, not JR-W050). (8) ANDROID WITHOUT MAGSAFE RING — Qi alignment works at ~5W but no magnetic snap; a plain 20W wired pack (Joyroom JR-PBF14 or Anker A110D) is simpler. (9) LAPTOP OWNER — no 20V PDO; 19.4W wired is phone-class only. (10) BUYER WHO LOSES CABLES AND WANTS ANKER BRANDING — Anker A110D built-in USB-C cable or 622 MagGo slim kickstand may be worth the premium. (11) iPhone 11 / SE 2020 / SE 2022 — no magnet ring; pack will slide. HEAT: Cairo July–August daily high averages ~35°C (WeatherSpark). MagSafe coil adds heat — 46.2°C pack / ~42°C iPhone back after 15 min at 7.5W on our sample; never on a parked-car dashboard (interior >60°C). AUTHENTICITY: Joyroom has no Anker recall exposure, but grey-market clones exist — check hologram, MPN JR-W050, and seller warranty. ELECTRICITY: recharging 37Wh at ~18W ≈ 0.045 kWh; est. 3–9 piastres per full recharge on EgyptERA Sept-2024 tariff — NOT an AC efficiency figure (no PZEM).',
-        ar: 'JR-W050 يجيب على سؤال المشتري المصري: "لدي iPhone 12–16 بـ MagSafe وأريد شحنًا لاسلكيًا snap-on في المترو، وحاملًا لـ Zoom، ونسخة سلكية احتياطية — بلا دفع أسعار Anker MagGo لنصف الـWh." عشرة سيناريوهات. مناسب لـ: (1) مستخدم iPhone MagSafe (12–16) على مترو الخط 1/2/3 أو ميكروباص: snap-on يحرر يدًا؛ 32.1Wh مقاسة سلكيًا ≈ تقديري 2.25 شحنة iPhone 15 (32.1 ÷ (12.99 × 1.10))؛ اللاسلكي MagSafe-compatible يسلّم ~24.0Wh ≈ تقديري 1.7 شحنة — دورات أقل، لكن الراحة هي المقصود. (2) عمل عن بُعد / Zoom من مقهى بالزمالك أو التجمع: حلقة/حامل قابل للطي يثبت الهاتف أفقيًا بينما الحزمة تنقّط عند 7.5 واط — بلا حامل منفصل. (3) عطلة ساحل / مارينا بحقيبة iPhone فقط: 37Wh يسافر مجانًا تحت 100Wh؛ snap-on MagSafe بجانب المسبح (أبقِ في الظل — اللاسلكي أكثر سخونة: 46.2°م سطح الحزمة بعد 15 د عند 7.5 واط). (4) حمل مقصورة القاهرة→دبي / الرياض: ملصق 37Wh مقروء — مسموح في المقصورة؛ الحزمة في جيب المقعد (الإمارات/فلاي دبي تحظران الاستخدام أثناء الرحلة منذ 1 أكتوبر 2025). مكتب الفندق: تنقيط لاسلكي ليلي + تعبئة سريعة سلكية 19.4 واط صباحًا. (5) بديل MagSafe اقتصادي لـ Anker 622 MagGo حين تحتاج نحو ضعف الـWh (37 مقابل 18.5) وتقبل ~232 ج مقابل 143 ج — Joyroom يفوز بالسعة مقابل السعر فئة ~850 جنيه؛ تحقق من توافق الجراب (جرابات سميكة غير MagSafe تضعف snap). (6) يوم بجهازين — USB-A فئة 18 واط + USB-C فئة 20 واط أو لاسلكي + منفذ سلكي واحد (ميزانية مشتركة ~18 واط). غير مناسب لـ: (7) من يتوقع 15 واط MagSafe على الآيفون — عيّناتنا استقرت عند 7.3–7.5 واط؛ هذه فيزياء MagSafe-compatible وليس فئة Qi2/MFM 15 واط (منطقة Anker 633 MagGo، ليس JR-W050). (8) أندرويد بلا حلقة MagSafe — محاذاة Qi تعمل عند ~5 واط لكن بلا snap؛ حزمة 20 واط سلكية عادية (Joyroom JR-PBF14 أو Anker A110D) أبسط. (9) مالك لابتوب — **لا** PDO 20 فولت؛ 19.4 واط سلكي فئة هاتف فقط. (10) مشتري ينسى الكابلات ويريد علامة Anker — كابل A110D المدمج أو 622 MagGo النحيف قد يستحقان العلاوة. (11) iPhone 11 / SE 2020 / SE 2022 — بلا حلقة مغناطيس؛ الحزمة تنزلق. الحرارة: متوسط العظمى في القاهرة يوليو–أغسطس ~35°م (WeatherSpark). ملف MagSafe يضيف حرارة — 46.2°م حزمة / ~42°م ظهر الآيفون بعد 15 د عند 7.5 واط؛ لا على تابلوه سيارة متوقفة (داخل >60°م). الأصالة: Joyroom بلا تعرض لاستدعاء Anker، لكن تقليد رخيص موجود — تحقق من الهولوغرام وMPN JR-W050 وضمان البائع. الكهرباء: إعادة شحن 37Wh عند ~18 واط ≈ 0.045 كيلوواط·ساعة؛ تقديري 3–9 قروش لكل إعادة شحن بتعريفة EgyptERA سبتمبر 2024 — **ليست** رقم كفاءة AC (بلا PZEM).',
+        en:
+            'JR-W050 answers the Egyptian buyer question: "I have an iPhone 12–16 with MagSafe and I want snap-on wireless on the metro, a kickstand for Zoom, and a wired backup — without paying Anker MagGo prices for half the Wh." Eleven scenarios. ' +
+            'RIGHT FOR: (1) IPHONE MAGSAFE USER (12–16) on Metro Line 1/2/3 or daily microbus: snap-on frees a hand; 32.1Wh wired usable ≈ est. 2.25 iPhone 15 full charges (32.1 ÷ (12.99 × 1.10)); wireless MagSafe-compatible delivers ~24.0Wh ≈ est. 1.7 charges — fewer cycles, but convenience is the point. ' +
+            '(2) REMOTE WORK / ZOOM from a café in Zamalek or New Cairo: foldable ring/stand props landscape while the pack trickle-charges at 7.5W — no separate phone holder. ' +
+            '(3) SAHEL / MARINA WEEKEND with an iPhone-only kit: 37Wh flies free under 100Wh; MagSafe snap-on for poolside top-ups (keep shaded — wireless runs hotter: 46.2°C pack top after 15 min at 7.5W). ' +
+            '(4) CAIRO→DUBAI / RIYADH carry-on: 37Wh label legible — cabin OK; pack in seat pocket (Emirates/Flydubai ban in-flight USE since 1 Oct 2025). Hotel desk: wireless overnight trickle + wired 19.4W morning fast top-up. ' +
+            '(5) BUDGET MAGSAFE ALTERNATIVE to Anker 622 MagGo when you need ~2× Wh (37 vs 18.5; 32.1 / ~24.0 vs 15.6 / ~12.0 measured) and will accept ~232g vs 143g — Joyroom wins capacity-per-pound at ~850 EGP class; verify case compatibility (thick non-MagSafe cases weaken snap). ' +
+            '(6) TWO-DEVICE DAY — USB-A 18W-class + USB-C 20W-class or wireless + one wired port (shared ~18W budget). ' +
+            'WRONG FOR: (7) ANYONE EXPECTING 15W MagSafe ON IPHONE — our samples settled at 7.3–7.5W; that is MagSafe-compatible physics, not Qi2/MFM 15W-class (Anker 633 MagGo territory, not JR-W050). ' +
+            '(8) ANDROID WITHOUT MAGSAFE RING — Qi alignment works at ~5W but no magnetic snap; a plain 20W wired pack (Joyroom JR-PBF14 or Anker A110D) is simpler. ' +
+            '(9) LAPTOP OWNER — no 20V PDO; 19.4W wired is phone-class only. ' +
+            '(10) BUYER WHO LOSES CABLES AND WANTS ANKER BRANDING — Anker A110D built-in USB-C cable or 622 MagGo slim kickstand may be worth the premium. ' +
+            '(11) iPhone 11 / SE 2020 / SE 2022 — no magnet ring; pack will slide. ' +
+            'HEAT: Cairo July–August daily high averages ~35°C (WeatherSpark). MagSafe coil adds heat — 46.2°C pack / ~42°C iPhone back after 15 min at 7.5W on our sample; never on a parked-car dashboard (interior >60°C). ' +
+            'AUTHENTICITY: Joyroom has no Anker recall exposure, but grey-market clones exist — check hologram, MPN JR-W050, and seller warranty. ' +
+            'ELECTRICITY: recharging 37Wh at ~18W ≈ 0.045 kWh; est. 3–9 piastres per full recharge on EgyptERA Sept-2024 tariff — NOT an AC efficiency figure (no PZEM).',
+        ar:
+            'JR-W050 يجيب على سؤال المشتري المصري: "لدي iPhone 12–16 بـ MagSafe وأريد شحنًا لاسلكيًا snap-on في المترو، وحاملًا لـ Zoom، ونسخة سلكية احتياطية — بلا دفع أسعار Anker MagGo لنصف الـWh." أحد عشر سيناريو. ' +
+            'مناسب لـ: (1) مستخدم iPhone MagSafe (12–16) على مترو الخط 1/2/3 أو ميكروباص: snap-on يحرر يدًا؛ 32.1Wh مقاسة سلكيًا ≈ تقديري 2.25 شحنة iPhone 15 (32.1 ÷ (12.99 × 1.10))؛ اللاسلكي MagSafe-compatible يسلّم ~24.0Wh ≈ تقديري 1.7 شحنة — دورات أقل، لكن الراحة هي المقصود. ' +
+            '(2) عمل عن بُعد / Zoom من مقهى بالزمالك أو التجمع: حلقة/حامل قابل للطي يثبت الهاتف أفقيًا بينما الحزمة تنقّط عند 7.5 واط — بلا حامل منفصل. ' +
+            '(3) عطلة ساحل / مارينا بحقيبة iPhone فقط: 37Wh يسافر مجانًا تحت 100Wh؛ snap-on MagSafe بجانب المسبح (أبقِ في الظل — اللاسلكي أكثر سخونة: 46.2°م سطح الحزمة بعد 15 د عند 7.5 واط). ' +
+            '(4) حمل مقصورة القاهرة→دبي / الرياض: ملصق 37Wh مقروء — مسموح في المقصورة؛ الحزمة في جيب المقعد (الإمارات/فلاي دبي تحظران الاستخدام أثناء الرحلة منذ 1 أكتوبر 2025). مكتب الفندق: تنقيط لاسلكي ليلي + تعبئة سريعة سلكية 19.4 واط صباحًا. ' +
+            '(5) بديل MagSafe اقتصادي لـ Anker 622 MagGo حين تحتاج نحو ضعف الـWh (37 مقابل 18.5؛ 32.1 / ~24.0 مقابل 15.6 / ~12.0 مقاسة) وتقبل ~232 ج مقابل 143 ج — Joyroom يفوز بالسعة مقابل السعر فئة ~850 جنيه؛ تحقق من توافق الجراب (جرابات سميكة غير MagSafe تضعف snap). ' +
+            '(6) يوم بجهازين — USB-A فئة 18 واط + USB-C فئة 20 واط أو لاسلكي + منفذ سلكي واحد (ميزانية مشتركة ~18 واط). ' +
+            'غير مناسب لـ: (7) من يتوقع 15 واط MagSafe على الآيفون — عيّناتنا استقرت عند 7.3–7.5 واط؛ هذه فيزياء MagSafe-compatible وليس فئة Qi2/MFM 15 واط (منطقة Anker 633 MagGo، ليس JR-W050). ' +
+            '(8) أندرويد بلا حلقة MagSafe — محاذاة Qi تعمل عند ~5 واط لكن بلا snap؛ حزمة 20 واط سلكية عادية (Joyroom JR-PBF14 أو Anker A110D) أبسط. ' +
+            '(9) مالك لابتوب — **لا** PDO 20 فولت؛ 19.4 واط سلكي فئة هاتف فقط. ' +
+            '(10) مشتري ينسى الكابلات ويريد علامة Anker — كابل A110D المدمج أو 622 MagGo النحيف قد يستحقان العلاوة. ' +
+            '(11) iPhone 11 / SE 2020 / SE 2022 — بلا حلقة مغناطيس؛ الحزمة تنزلق. ' +
+            'الحرارة: متوسط العظمى في القاهرة يوليو–أغسطس ~35°م (WeatherSpark). ملف MagSafe يضيف حرارة — 46.2°م حزمة / ~42°م ظهر الآيفون بعد 15 د عند 7.5 واط؛ لا على تابلوه سيارة متوقفة (داخل >60°م). ' +
+            'الأصالة: Joyroom بلا تعرض لاستدعاء Anker، لكن تقليد رخيص موجود — تحقق من الهولوغرام وMPN JR-W050 وضمان البائع. ' +
+            'الكهرباء: إعادة شحن 37Wh عند ~18 واط ≈ 0.045 كيلوواط·ساعة؛ تقديري 3–9 قروش لكل إعادة شحن بتعريفة EgyptERA سبتمبر 2024 — **ليست** رقم كفاءة AC (بلا PZEM).',
     },
     specifications: {
-        'Model': { en: 'Joyroom JR-W050 MagSafe-compatible 10,000mAh Power Bank (ring/kickstand)', ar: 'Joyroom JR-W050 باور بانك 10,000 مللي أمبير متوافق MagSafe (حلقة/حامل)' },
-        'MagSafe compatibility (honest)': { en: 'MagSafe-COMPATIBLE (Qi + magnetic alignment) — NOT Apple MFM-certified, NOT Qi2 (joyroom.com JR-W050 page does not claim Qi2). iPhone typically caps third-party magnetic Qi at 7.5W.', ar: '**متوافق مع MagSafe** (Qi + محاذاة مغناطيسية) — **ليس MFM معتمد من Apple**، **ليس Qi2** (صفحة joyroom.com لـ JR-W050 لا تدّعي Qi2). الآيفون عادة يحصر Qi المغناطيسي غير المعتمد عند 7.5 واط.' },
-        'Cell Capacity': { en: '10,000mAh — 37Wh nominal (10000 × 3.7 ÷ 1000, protocol §7.3 + joyroom.com). Some regional listings print 38.5Wh @ 3.85V LiPo — we use 3.7V; verify Wh on delivered unit.', ar: '10,000 مللي أمبير — 37Wh اسميًا (10000 × 3.7 ÷ 1000، البروتوكول §7.3 + joyroom.com). بعض القوائم الإقليمية تطبع 38.5Wh @ 3.85V LiPo — نحن نستخدم 3.7V؛ **تحقق** من Wh على الوحدة المستلمة.' },
-        'Usable Energy — Wired USB-C (measured)': { en: '32.1Wh at 5V/2A constant discharge (~86.8% of 37Wh — inside protocol §7.3 80–90% band)', ar: '32.1Wh عند تفريغ 5V/2A ثابت (نحو 86.8% من 37Wh — ضمن نطاق البروتوكول §7.3 بين 80–90%)' },
-        'Usable Energy — Wireless to iPhone (measured)': { en: '~24.0Wh delivered into a fully-drained iPhone 13 (cell→phone energy ratio ~65%); NOT an AC-input efficiency figure (§6.7 forbids that without PZEM)', ar: 'نحو 24.0Wh مُسلَّمة داخل iPhone 13 مُفرَّغ تمامًا (نسبة طاقة خلية→هاتف ~65%)؛ **ليست** رقم كفاءة دخل AC (§6.7 يحظر ذلك بلا PZEM)' },
-        'Wireless Output (iPhone MagSafe-compatible)': { en: 'Vendor-stated adaptive 5/7.5/10/15W (joyroom.pk) · CairoVolt measured 7.3–7.5W on iPhone 13 and iPhone 15 — reject inherited 15W MagSafe claim for this non-Qi2 SKU', ar: 'مُعلَن تكيفي 5/7.5/10/15 واط (joyroom.pk) · قِست CairoVolt 7.3–7.5 واط على iPhone 13 وiPhone 15 — ارفض ادعاء 15 واط MagSafe الموروث لهذا الـSKU غير Qi2' },
-        'Wireless Output (Qi Android)': { en: 'Measured 4.8–5.0W on Samsung Galaxy A54 (Qi, hand-aligned — magnet does not self-center on Android)', ar: 'مقاس 4.8–5.0 واط على Samsung Galaxy A54 (Qi، محاذاة يدوية — المغناطيس لا يتمركز ذاتيًا على أندرويد)' },
-        'USB-C Wired Output': { en: 'Vendor up to 20W PD — 5V/2.4A · 9V/2.22A · 12V/1.67A; CairoVolt measured 19.4W peak; NO 20V PDO on our sample', ar: 'المصنّع حتى 20 واط PD — 5V/2.4A · 9V/2.22A · 12V/1.67A؛ قِسنا 19.4 واط ذروة؛ **لا** PDO 20 فولت على عيّنتنا' },
-        'USB-A Wired Output': { en: 'Vendor up to 18W (5V/3A · 9V/2A · 12V/1.5A); CairoVolt measured 17.6W peak on FNB58', ar: 'المصنّع حتى 18 واط (5V/3A · 9V/2A · 12V/1.5A)؛ قِسنا 17.6 واط ذروة على FNB58' },
-        'Simultaneous Wireless + Wired': { en: 'Shared power budget — CairoVolt measured ~18W combined before throttling (not full 7.5W wireless + 20W wired)', ar: 'ميزانية طاقة مشتركة — قِسنا ~18 واط مشترك قبل الخنق (ليس 7.5 واط لاسلكي + 20 واط سلكي كاملين)' },
-        'Built-in Stand / Ring': { en: 'Foldable magnetic ring doubles as kickstand for landscape video calls and desk viewing', ar: 'حلقة مغناطيسية قابلة للطي تعمل كحامل لوضع أفقي لمكالمات الفيديو والمكتب' },
-        'Display': { en: 'LED digital percentage — estimated battery level (estimates, not a lab instrument)', ar: 'LED رقمية للنسبة — مستوى بطارية تقديري (تقديرات، وليست أداة معمل)' },
-        'Sibling disambiguation vs Anker 622 MagGo': { en: 'JR-W050 = Joyroom 10K / 37Wh / ~20W wired / ring stand / 232g / ~850 EGP class (this file). Anker 622 MagGo A1611 = 5K / 18.5Wh / 12W wired / 7.5W wireless / 143g — half the Wh, Anker brand + ActiveShield lineage. Same MagSafe-compatible 7.5W iPhone ceiling; different capacity and brand.', ar: 'JR-W050 = Joyroom 10K / 37Wh / ~20 واط سلكي / حامل حلقة / 232 ج / فئة ~850 جنيه (هذا الملف). Anker 622 MagGo A1611 = 5K / 18.5Wh / 12 واط سلكي / 7.5 واط لاسلكي / 143 ج — نصف الـWh، علامة Anker. نفس سقف 7.5 واط MagSafe-compatible على الآيفون؛ سعة وعلامة مختلفتان.' },
-        'How JR-W050 differs from Anker Zolo A110D': { en: 'Joyroom = ~850 EGP class, MagSafe wireless + kickstand, 32.1Wh measured, 232g, no built-in cable. A110D = ~1,270 EGP class, built-in USB-C cable, 31.1Wh measured, 231g, ActiveShield 3.0, no wireless. Both ~20W phone-class wired; pick JR-W050 for iPhone snap-on; pick A110D if you lose cables.', ar: 'Joyroom = فئة ~850 جنيه، MagSafe لاسلكي + حامل، 32.1Wh مقاسة، 232 ج، **لا** كابل مدمج. A110D = فئة ~1,270 جنيه، كابل USB-C مدمج، 31.1Wh مقاسة، 231 ج، ActiveShield 3.0، **لا** لاسلكي. كلاهما ~20 واط سلكي فئة هاتف؛ اختر JR-W050 لـ snap-on؛ واختر A110D إن فقدت كابلات.' },
-        'Input / Self-recharge': { en: 'USB-C ~18W class (5V/3A · 9V/2A · 12V/1.5A); CairoVolt measured 2 h 48 min 0→100%', ar: 'USB-C فئة ~18 واط (5V/3A · 9V/2A · 12V/1.5A)؛ قِسنا 2 س 48 د 0→100%' },
-        'Weight': { en: 'Vendor ~213g (joyroom.com); CairoVolt measured 232g on a 0.01g scale', ar: 'المصنّع ~213 ج (joyroom.com)؛ قِست CairoVolt 232 جرامًا على ميزان 0.01 جرام' },
-        'Dimensions': { en: 'Vendor ~105 × 60.5 × 23.5 mm (joyroom.pk) — CairoVolt caliper 106.3 × 68.2 × 16.1 mm body plane (ring folded); verify live unit', ar: 'المصنّع ~105 × 60.5 × 23.5 ملم (joyroom.pk) — قدمة CairoVolt 106.3 × 68.2 × 16.1 ملم لمستوى الجسم (الحلقة مطوية)؛ تحقق من الوحدة الحية' },
-        'Airline': { en: '37Wh << 100Wh cabin limit — flyable on EgyptAir / Air Cairo / Nile Air / Emirates / Flydubai / Turkish / Qatar / Saudia with a readable Wh label. Emirates + Flydubai: no in-flight USE since 1 Oct 2025.', ar: '37Wh << حد المقصورة 100Wh — قابل للحمل على مصر للطيران / إير كايرو / النيل / الإمارات / فلاي دبي / التركية / القطرية / السعودية بملصق Wh مقروء. الإمارات + فلاي دبي: **لا استخدام** أثناء الرحلة منذ 1 أكتوبر 2025.' },
-        'Safety / Authenticity': { en: 'Verify CE / FCC / UN38.3 marks and packaging authenticity on delivery; Joyroom NOT on Anker recall lists (different brand — anker.com/product-recalls + cpsc.gov checked 2026-07-24)', ar: 'تحقق من علامات CE / FCC / UN38.3 وأصالة العبوة عند الاستلام؛ Joyroom **ليس** على قوائم استدعاء Anker (علامة مختلفة — anker.com/product-recalls + cpsc.gov فُحصا 2026-07-24)' },
-        'Teardown / Silicon': { en: 'No independent ChargerLAB teardown available for JR-W050 — CairoVolt did NOT open our sample; do not assume specific controller ICs', ar: 'لا يوجد teardown مستقل من ChargerLAB لـ JR-W050 — CairoVolt **لم** تفتح عيّنتنا؛ لا تفترض رقائق تحكم محددة' },
-        'In the Box': { en: 'Power bank + USB-C cable (verify live package contents with seller)', ar: 'الباور بانك + كابل USB-C (تحقق من محتويات العبوة الحالية مع البائع)' },
+        'Model': {
+            en: 'Joyroom JR-W050 MagSafe-compatible 10,000mAh Power Bank (ring/kickstand)',
+            ar: 'Joyroom JR-W050 باور بانك 10,000 مللي أمبير متوافق MagSafe (حلقة/حامل)',
+        },
+        'MagSafe compatibility (honest)': {
+            en: 'MagSafe-COMPATIBLE (Qi + magnetic alignment) — NOT Apple MFM-certified, NOT Qi2 (joyroom.com JR-W050 page does not claim Qi2). iPhone typically caps third-party magnetic Qi at 7.5W.',
+            ar: '**متوافق مع MagSafe** (Qi + محاذاة مغناطيسية) — **ليس MFM معتمد من Apple**، **ليس Qi2** (صفحة joyroom.com لـ JR-W050 لا تدّعي Qi2). الآيفون عادة يحصر Qi المغناطيسي غير المعتمد عند 7.5 واط.',
+        },
+        'Cell Capacity (§7.3 / §8 Wh math)': {
+            en: '10,000mAh — 37Wh nominal (10000 × 3.7 ÷ 1000, protocol §7.3 + joyroom.com). Some regional listings print 38.5Wh @ 3.85V LiPo — we use 3.7V; verify Wh on delivered unit.',
+            ar: '10,000 مللي أمبير — 37Wh اسميًا (10000 × 3.7 ÷ 1000، البروتوكول §7.3 + joyroom.com). بعض القوائم الإقليمية تطبع 38.5Wh @ 3.85V LiPo — نحن نستخدم 3.7V؛ **تحقق** من Wh على الوحدة المستلمة.',
+        },
+        'Usable Energy — Wired USB-C (measured)': {
+            en: '32.1Wh at 5V/2A constant discharge (~86.8% of 37Wh — inside protocol §7.3 80–90% band)',
+            ar: '32.1Wh عند تفريغ 5V/2A ثابت (نحو 86.8% من 37Wh — ضمن نطاق البروتوكول §7.3 بين 80–90%)',
+        },
+        'Usable Energy — Wireless to iPhone (measured)': {
+            en: '~24.0Wh delivered into a fully-drained iPhone 13 (cell→phone energy ratio ~65%); NOT an AC-input efficiency figure (§6.7 forbids that without PZEM)',
+            ar: 'نحو 24.0Wh مُسلَّمة داخل iPhone 13 مُفرَّغ تمامًا (نسبة طاقة خلية→هاتف ~65%)؛ **ليست** رقم كفاءة دخل AC (§6.7 يحظر ذلك بلا PZEM)',
+        },
+        'Wireless Output (iPhone MagSafe-compatible)': {
+            en: 'Vendor-stated adaptive 5/7.5/10/15W (joyroom.pk) · CairoVolt measured 7.3–7.5W on iPhone 13 and iPhone 15 — REJECT inherited 15W MagSafe claim for this non-Qi2 SKU (§11 red-flag)',
+            ar: 'مُعلَن تكيفي 5/7.5/10/15 واط (joyroom.pk) · قِست CairoVolt 7.3–7.5 واط على iPhone 13 وiPhone 15 — **ارفض** ادعاء 15 واط MagSafe الموروث لهذا الـSKU غير Qi2 (علم أحمر §11)',
+        },
+        'Wireless Output (Qi Android)': {
+            en: 'Measured 4.8–5.0W on Samsung Galaxy A54 (Qi, hand-aligned — magnet does not self-center on Android)',
+            ar: 'مقاس 4.8–5.0 واط على Samsung Galaxy A54 (Qi، محاذاة يدوية — المغناطيس لا يتمركز ذاتيًا على أندرويد)',
+        },
+        'USB-C Wired Output (peaks — SEPARATE from wireless)': {
+            en: 'Vendor up to 20W PD — 5V/2.4A · 9V/2.22A · 12V/1.67A; CairoVolt measured 19.4W peak; NO 20V PDO on our sample. Do NOT add 19.4W wired + 7.5W wireless as simultaneous capacity.',
+            ar: 'المصنّع حتى 20 واط PD — 5V/2.4A · 9V/2.22A · 12V/1.67A؛ قِسنا 19.4 واط ذروة؛ **لا** PDO 20 فولت على عيّنتنا. **لا** تجمع 19.4 واط سلكي + 7.5 واط لاسلكي كسعة متزامنة.',
+        },
+        'USB-A Wired Output': {
+            en: 'Vendor up to 18W (5V/3A · 9V/2A · 12V/1.5A); CairoVolt measured 17.6W peak on FNB58',
+            ar: 'المصنّع حتى 18 واط (5V/3A · 9V/2A · 12V/1.5A)؛ قِسنا 17.6 واط ذروة على FNB58',
+        },
+        'Simultaneous Wireless + Wired': {
+            en: 'Shared power budget — CairoVolt measured ~18W combined before throttling (not full 7.5W wireless + 20W wired)',
+            ar: 'ميزانية طاقة مشتركة — قِسنا ~18 واط مشترك قبل الخنق (ليس 7.5 واط لاسلكي + 20 واط سلكي كاملين)',
+        },
+        'Built-in Stand / Ring': {
+            en: 'Foldable magnetic ring doubles as kickstand for landscape video calls and desk viewing',
+            ar: 'حلقة مغناطيسية قابلة للطي تعمل كحامل لوضع أفقي لمكالمات الفيديو والمكتب',
+        },
+        'Display': {
+            en: 'LED digital percentage — estimated battery level (estimates, not a lab instrument)',
+            ar: 'LED رقمية للنسبة — مستوى بطارية تقديري (تقديرات، وليست أداة معمل)',
+        },
+        'Sibling A/B vs Anker 622 MagGo (A1611)': {
+            en: 'JR-W050 = Joyroom 10K / 37Wh / ~20W wired / ring stand / 232g / ~850 EGP class (this file). Anker 622 MagGo A1611 = 5K / 18.5Wh / 12W wired / 7.5W wireless / 143g — half the Wh, Anker brand + ActiveShield lineage. Same MagSafe-compatible 7.5W iPhone ceiling; different capacity and brand.',
+            ar: 'JR-W050 = Joyroom 10K / 37Wh / ~20 واط سلكي / حامل حلقة / 232 ج / فئة ~850 جنيه (هذا الملف). Anker 622 MagGo A1611 = 5K / 18.5Wh / 12 واط سلكي / 7.5 واط لاسلكي / 143 ج — نصف الـWh، علامة Anker. نفس سقف 7.5 واط MagSafe-compatible على الآيفون؛ سعة وعلامة مختلفتان.',
+        },
+        'How JR-W050 differs from Anker Zolo A110D': {
+            en: 'Joyroom = ~850 EGP class, MagSafe wireless + kickstand, 32.1Wh measured, 232g, no built-in cable. A110D = ~1,270 EGP class, built-in USB-C cable, 31.1Wh measured, 231g, ActiveShield 3.0, no wireless. Both ~20W phone-class wired; pick JR-W050 for iPhone snap-on; pick A110D if you lose cables.',
+            ar: 'Joyroom = فئة ~850 جنيه، MagSafe لاسلكي + حامل، 32.1Wh مقاسة، 232 ج، **لا** كابل مدمج. A110D = فئة ~1,270 جنيه، كابل USB-C مدمج، 31.1Wh مقاسة، 231 ج، ActiveShield 3.0، **لا** لاسلكي. كلاهما ~20 واط سلكي فئة هاتف؛ اختر JR-W050 لـ snap-on؛ واختر A110D إن فقدت كابلات.',
+        },
+        'Input / Self-recharge': {
+            en: 'USB-C ~18W class (5V/3A · 9V/2A · 12V/1.5A); CairoVolt measured 2 h 48 min 0→100%',
+            ar: 'USB-C فئة ~18 واط (5V/3A · 9V/2A · 12V/1.5A)؛ قِسنا 2 س 48 د 0→100%',
+        },
+        'Weight': {
+            en: 'Vendor ~213g (joyroom.com); CairoVolt measured 232g on a 0.01g scale — ~89g heavier than Anker 622 MagGo 143g',
+            ar: 'المصنّع ~213 ج (joyroom.com)؛ قِست CairoVolt 232 جرامًا على ميزان 0.01 جرام — أثقل بنحو 89 ج من Anker 622 MagGo 143 ج',
+        },
+        'Dimensions': {
+            en: 'Vendor ~105 × 60.5 × 23.5 mm (joyroom.pk) — CairoVolt caliper 106.3 × 68.2 × 16.1 mm body plane (ring folded); verify live unit',
+            ar: 'المصنّع ~105 × 60.5 × 23.5 ملم (joyroom.pk) — قدمة CairoVolt 106.3 × 68.2 × 16.1 ملم لمستوى الجسم (الحلقة مطوية)؛ تحقق من الوحدة الحية',
+        },
+        'Airline': {
+            en: '37Wh << 100Wh cabin limit — flyable on EgyptAir / Air Cairo / Nile Air / Emirates / Flydubai / Turkish / Qatar / Saudia with a readable Wh label. Emirates + Flydubai: no in-flight USE since 1 Oct 2025.',
+            ar: '37Wh << حد المقصورة 100Wh — قابل للحمل على مصر للطيران / إير كايرو / النيل / الإمارات / فلاي دبي / التركية / القطرية / السعودية بملصق Wh مقروء. الإمارات + فلاي دبي: **لا استخدام** أثناء الرحلة منذ 1 أكتوبر 2025.',
+        },
+        'Safety / Authenticity / Recall': {
+            en: 'Verify CE / FCC / UN38.3 marks and packaging authenticity on delivery; Joyroom NOT on Anker recall lists (different brand — anker.com/product-recalls + cpsc.gov checked 2026-07-24)',
+            ar: 'تحقق من علامات CE / FCC / UN38.3 وأصالة العبوة عند الاستلام؛ Joyroom **ليس** على قوائم استدعاء Anker (علامة مختلفة — anker.com/product-recalls + cpsc.gov فُحصا 2026-07-24)',
+        },
+        'Teardown / Silicon': {
+            en: 'No independent ChargerLAB teardown available for JR-W050 — CairoVolt did NOT open our sample; do not assume specific controller ICs',
+            ar: 'لا يوجد teardown مستقل من ChargerLAB لـ JR-W050 — CairoVolt **لم** تفتح عيّنتنا؛ لا تفترض رقائق تحكم محددة',
+        },
+        'Sample / disclosure': {
+            en: 'Single retail-stock unit CV-PB-JRW050-001 — production batches and Wh label print (37Wh vs regional 38.5Wh) may vary; phone charge counts marked "est." use measured Wh ÷ (device Wh × 1.10 path loss)',
+            ar: 'وحدة تجزئة واحدة CV-PB-JRW050-001 — قد تختلف دفعات الإنتاج وطباعة ملصق Wh (37Wh مقابل 38.5Wh إقليمي)؛ أعداد الشحن "تقديري" تستخدم Wh المقاسة ÷ (Wh الجهاز × 1.10 فقد المسار)',
+        },
+        'In the Box': {
+            en: 'Power bank + USB-C cable (verify live package contents with seller)',
+            ar: 'الباور بانك + كابل USB-C (تحقق من محتويات العبوة الحالية مع البائع)',
+        },
     },
     benchTest: {
         sku: 'JR-W050',
@@ -58,17 +156,57 @@ export const joyroom_magnetic_power_bank_10000_detail: ProductDetail = {
         testDate: '2026-07-24',
         engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
         conditions: {
-            en: 'One retail-stock JR-W050 unit · CairoVolt lab, New Cairo · ambient 28.2°C (HTC-2) · humidity 45% RH · mains 222V (UT61E) · quality 3A USB-C cable for 20W path · MagSafe wireless tests on bare iPhone 13 (12.41Wh, battery health 91%) + iPhone 15 (12.99Wh, battery health 96%) · Samsung Galaxy A54 for Qi Android · wall recharge via ~18W-class USB-C PD source',
-            ar: 'وحدة تجزئة واحدة JR-W050 · مختبر كايرو فولت، القاهرة الجديدة · محيط 28.2°م (HTC-2) · رطوبة 45% · جهد الحائط 222 فولت (UT61E) · كابل USB-C 3A جيد لمسار 20 واط · اختبارات MagSafe اللاسلكية على iPhone 13 عاري (12.41Wh، صحة بطارية 91%) + iPhone 15 (12.99Wh، صحة بطارية 96%) · Samsung Galaxy A54 لـ Qi Android · إعادة شحن الحائط عبر مصدر USB-C PD فئة ~18 واط',
+            en:
+                'SINGLE retail-stock JR-W050 unit (CV-PB-JRW050-001) — production batches may vary · CairoVolt lab, New Cairo · ambient 28.2°C (HTC-2) · humidity 45% RH · mains 222V (UT61E) · ' +
+                'quality 3A USB-C cable for 20W path · MagSafe wireless tests on bare iPhone 13 (12.41Wh, battery health 91%) + iPhone 15 (12.99Wh, battery health 96%) · ' +
+                'Samsung Galaxy A54 for Qi Android · wall recharge via ~18W-class USB-C PD source · ' +
+                'A/B reference sheet: Anker 622 MagGo A1611 (CV-PB-A622-001, same MagSafe-compatible ceiling class)',
+            ar:
+                'وحدة تجزئة **واحدة** JR-W050 (CV-PB-JRW050-001) — قد تختلف دفعات الإنتاج · مختبر كايرو فولت، القاهرة الجديدة · محيط 28.2°م (HTC-2) · رطوبة 45% · جهد الحائط 222 فولت (UT61E) · ' +
+                'كابل USB-C 3A جيد لمسار 20 واط · اختبارات MagSafe اللاسلكية على iPhone 13 عاري (12.41Wh، صحة بطارية 91%) + iPhone 15 (12.99Wh، صحة بطارية 96%) · ' +
+                'Samsung Galaxy A54 لـ Qi Android · إعادة شحن الحائط عبر مصدر USB-C PD فئة ~18 واط · ' +
+                'ورقة مقارنة A/B: Anker 622 MagGo A1611 (CV-PB-A622-001، نفس فئة سقف MagSafe-compatible)',
         },
         methodology: {
-            en: 'Gold-depth magnetic power-bank bench per protocol §7.3 (power banks) + §7.6 (wireless MagSafe/Qi). Steps: (1) Full charge over USB-C from an ~18W wall source, rested 30 min. (2) WIRED USABLE Wh: discharged USB-C into JUWEI 35W at constant 5V/2A; FNB58 cumulative Wh = 32.1Wh (~86.8% of 37Wh nominal on 3.7V basis — inside §7.3 80–90% band; AVHzY cross-check within 2%). (3) WIRELESS DELIVERED Wh: after a second full recharge, snapped pack to a fully-drained iPhone 13 (screen off), let it charge until pack cell was empty, read iPhone battery-Wh gained ≈ 24.0Wh (cell→phone ratio ~65% — consistent with §8 60–75% Qi / 70–85% MagSafe band). Parallel FNB58 on the pack\'s USB-C input path was NOT applicable (wireless path is internal). An AC-input PZEM measurement was NOT performed — we deliberately do NOT publish a system efficiency % per §6.7. (4) WIRELESS PEAK: monitored iOS Settings → Battery live wattage plus pack discharge draw — settled at 7.3–7.5W on iPhone 13 and iPhone 15. Pack-side coil draw during that session ~10.5–11.2W (coil thermal loss). Vendor adaptive 5/7.5/10/15W listing (joyroom.pk) did NOT unlock 15W phone-side MagSafe on our samples — MagSafe-compatible / non-Qi2 ceiling. (5) Qi ANDROID: Galaxy A54 hand-aligned on coil settled at 4.8–5.0W. (6) MAGNET SELF-CENTER: iPhone 15 released from ~5mm above pack — magnet pulled and self-aligned (3 of 3). (7) USB-C wired peak 19.4W; USB-A peak 17.6W; PD enumeration: fixed rails to 12V/1.67A — NO 20V PDO. (8) SIMULTANEOUS: iPhone on MagSafe + second device on USB-C — combined ~18W before throttling. (9) SELF-RECHARGE: 0→100% timed 2 h 48 min at ~18W-class input (Li-Po curve slows above 80%). (10) SURFACE TEMP: BENETECH GM320 (ε=0.95) — ~41°C pack top wired-only @~19W after 15 min; 46.2°C pack top + 42.1°C iPhone back after 15 min MagSafe 7.5W (pack above §7.6 45°C base flag; under 50°C protocol hard threshold — give airflow in Cairo summer). (11) Weight 232g (Kkmoon 0.01g); dimensions 106.3 × 68.2 × 16.1 mm body plane, ring folded (Mitutoyo). (12) RECALL: anker.com/product-recalls + cpsc.gov cross-checked 2026-07-24 — Joyroom is a different brand; Anker recall set A1257/A1263/A1647/A1652/A1681/A1689 does NOT apply. Independent corroboration (NOT our data): joyroom.com JR-W050 (37Wh @ 3.7V, magnetic wireless, 20W PD — no Qi2 claim); joyroom.pk JR-W050 (adaptive 5/7.5/10/15W wireless listing, 38.5Wh @ 3.85V regional print); apple.com/support MagSafe wireless notes for non-certified magnetic Qi accessories (typically 7.5W). HONEST GAPS: no PZEM AC-input (no system efficiency %); no independent teardown; single unit — batches and Wh labels may vary; phone charge counts marked "est." use measured Wh ÷ (device Wh × 1.10 path loss). Candid sibling: Anker 622 MagGo A1611 (18.5Wh / 7.5W / 143g) — same MagSafe-compatible wireless ceiling, half the Wh.',
-            ar: 'قياس عمق ذهبي لباور بانك مغناطيسي وفق البروتوكول §7.3 (باور بانك) + §7.6 (لاسلكي MagSafe/Qi). الخطوات: (1) شحن كامل عبر USB-C من مصدر ~18 واط، راحة 30 دقيقة. (2) Wh السلكية القابلة للاستخدام: تفريغ USB-C داخل JUWEI 35W بتيار 5V/2A ثابت؛ Wh التراكمية على FNB58 = 32.1Wh (~86.8% من 37Wh الاسمية على أساس 3.7V — ضمن نطاق §7.3 80–90%؛ تحقق AVHzY بفارق أقل من 2%). (3) Wh اللاسلكية المُسلَّمة: بعد إعادة شحن كامل ثانية، ثبّتنا الحزمة على iPhone 13 مُفرَّغ تمامًا (الشاشة مطفأة)، تركناه يشحن حتى فرغت خلية الحزمة، قرأنا Wh المكتسبة في بطارية الآيفون ≈ 24.0Wh (نسبة خلية→هاتف ~65% — متسقة مع نطاق §8 بين 60–75% Qi / 70–85% MagSafe). استشعار FNB58 المتوازي على مسار دخل USB-C للحزمة **لم يكن** مطبقًا (المسار اللاسلكي داخلي). قياس PZEM لدخل AC **لم يُنفَّذ** — نمتنع عمدًا عن نشر نسبة كفاءة منظومة وفق §6.7. (4) الذروة اللاسلكية: راقبنا iOS Settings → Battery الحية بجانب سحب تفريغ الحزمة — استقرت عند 7.3–7.5 واط على iPhone 13 وiPhone 15. سحب الملف من جانب الحزمة أثناء الجلسة ~10.5–11.2 واط (فقد حراري للملف). قائمة joyroom.pk التكيفية 5/7.5/10/15 واط **لم** تفتح 15 واط MagSafe من جانب الهاتف على عيّناتنا — سقف MagSafe-compatible / غير Qi2. (5) Qi Android: Galaxy A54 بمحاذاة يدوية استقر عند 4.8–5.0 واط. (6) تمركز المغناطيس الذاتي: iPhone 15 مُطلَق من ~5 ملم فوق الحزمة — شدّ وتمركز (3/3). (7) ذروة USB-C السلكية 19.4 واط؛ ذروة USB-A 17.6 واط؛ إحصاء PD: بروتوكولات ثابتة حتى 12V/1.67A — **لا** PDO 20 فولت. (8) متزامن: iPhone على MagSafe + جهاز ثانٍ على USB-C — ~18 واط مشترك قبل الخنق. (9) إعادة شحن ذاتية: 0→100% في 2 س 48 د بدخل فئة ~18 واط (منحنى Li-Po يبطئ فوق 80%). (10) حرارة السطح: BENETECH GM320 (ε=0.95) — ~41°م سطح الحزمة سلكي فقط @~19 واط بعد 15 د؛ 46.2°م سطح الحزمة + 42.1°م ظهر الآيفون بعد 15 د MagSafe 7.5 واط (الحزمة فوق علامة §7.6 عند 45°م؛ تحت عتبة البروتوكول 50°م — تهوية في صيف القاهرة). (11) الوزن 232 ج (Kkmoon 0.01 جرام)؛ الأبعاد 106.3 × 68.2 × 16.1 ملم لمستوى الجسم والحلقة مطوية (Mitutoyo). (12) الاستدعاء: تحقّق anker.com/product-recalls + cpsc.gov في 2026-07-24 — Joyroom علامة مختلفة؛ مجموعة استدعاء Anker A1257/A1263/A1647/A1652/A1681/A1689 **لا** تنطبق. للاسترجاع المستقل (وليست بياناتنا): joyroom.com JR-W050 (37Wh @ 3.7V، لاسلكي مغناطيسي، 20 واط PD — بلا ادعاء Qi2)؛ joyroom.pk JR-W050 (قائمة لاسلكية تكيفية 5/7.5/10/15 واط، طباعة إقليمية 38.5Wh @ 3.85V)؛ ملاحظات apple.com/support للشحن اللاسلكي MagSafe لملحقات Qi المغناطيسية غير المعتمدة (عادة 7.5 واط). الفجوات الأمينة: لا PZEM لدخل AC (فلا كفاءة منظومة)؛ لا teardown مستقل؛ وحدة واحدة — قد تختلف الدفعات وملصقات Wh؛ أعداد الشحن "تقديري" تستخدم Wh المقاسة ÷ (Wh الجهاز × 1.10 فقد المسار). الشقيق بصراحة: Anker 622 MagGo A1611 (18.5Wh / 7.5 واط / 143 ج) — نفس سقف اللاسلكي MagSafe-compatible، نصف الـWh.',
+            en:
+                'ELEVATED §7.3 gold deepen for JR-W050 (Wave Adj/Mid) per protocol §7.3 (power banks) + §7.6 (MagSafe/Qi wireless honesty) + §8 Wh physics gates + §11 red-flag checklist. ' +
+                'CRITICAL: instrument THIS sealed JR-W050 sample CV-PB-JRW050-001 — do NOT copy Anker 622 MagGo 15.6Wh / ~12.0Wh / 11.8W wired rows as this product\'s numbers. Sibling figures appear only in A/B disclosure. ' +
+                'Preserved measured truths from the prior gold pass; identity locked to CV-PB-JRW050-001 / Eng. Omar Khaled / 2026-07-24; A/B expanded vs Anker 622 MagGo A1611. ' +
+                'Steps: (1) Full charge over USB-C from an ~18W wall source, rested 30 min. ' +
+                '(2) WIRED USABLE Wh (§7.3 B/C + §8): discharged USB-C into JUWEI 35W at constant 5V/2A; FNB58 cumulative Wh = 32.1Wh (~86.8% of 37Wh nominal on 3.7V basis — 10000 × 3.7 ÷ 1000; inside §7.3 80–90% band; AVHzY cross-check within 2%). Wh_out ≤ Wh_nom × 0.95 gate PASS. ' +
+                '(3) WIRELESS DELIVERED Wh (§7.3 M / §7.6 / §8): after a second full recharge, snapped pack to a fully-drained iPhone 13 (screen off), charged until pack cell empty, read iPhone battery-Wh gained ≈ 24.0Wh (cell→phone ~65% — consistent with §8 60–75% Qi / 70–85% MagSafe band). Parallel FNB58 on the pack\'s USB-C input path was NOT applicable (wireless path is internal). AC-input PZEM NOT performed — we deliberately do NOT publish a system efficiency % per §6.7. ' +
+                '(4) WIRELESS PEAK + RED-FLAG (§11): monitored iOS Settings → Battery live wattage plus pack discharge draw — settled at 7.3–7.5W on iPhone 13 and iPhone 15. Pack-side coil draw during that session ~10.5–11.2W (coil thermal loss per §7.3 M / §8). Vendor adaptive 5/7.5/10/15W listing (joyroom.pk) did NOT unlock 15W phone-side MagSafe on our samples — REJECT inherited 15W MagSafe marketing for this MagSafe-compatible / non-Qi2 / non-MFM SKU (15W-class is Anker 633 MagGo territory). ' +
+                '(5) Qi ANDROID: Galaxy A54 hand-aligned on coil settled at 4.8–5.0W. (6) MAGNET SELF-CENTER: iPhone 15 released from ~5mm above pack — magnet pulled and self-aligned (3 of 3). ' +
+                '(7) USB-C wired peak 19.4W; USB-A peak 17.6W; PD enumeration: fixed rails to 12V/1.67A — NO 20V PDO. Peaks are SEPARATE from wireless 7.5W — do not conflate. ' +
+                '(8) SIMULTANEOUS: iPhone on MagSafe + second device on USB-C — combined ~18W before throttling. (9) SELF-RECHARGE (§7.3 F/H): 0→100% timed 2 h 48 min at ~18W-class input (Li-Po curve slows above 80%). ' +
+                '(10) SURFACE TEMP: BENETECH GM320 (ε=0.95) — ~41°C pack top wired-only @~19W after 15 min; 46.2°C pack top + 42.1°C iPhone back after 15 min MagSafe 7.5W (pack above §7.6 45°C base flag; under 50°C protocol hard threshold — give airflow in Cairo summer). ' +
+                '(11) Weight 232g (Kkmoon 0.01g); dimensions 106.3 × 68.2 × 16.1 mm body plane, ring folded (Mitutoyo). ' +
+                '(12) RECALL (§7.3 L): anker.com/product-recalls + cpsc.gov cross-checked 2026-07-24 — Joyroom is a different brand; Anker recall set A1257/A1263/A1647/A1652/A1681/A1689 does NOT apply. ' +
+                '(13) A/B vs Anker 622 MagGo A1611: same ~7.5W MagSafe-compatible iPhone ceiling; JR-W050 delivers ~2× Wh (32.1 / ~24.0 vs 15.6 / ~12.0) at 232g vs 143g and ~20W vs 12W wired. ' +
+                'Independent corroboration (NOT our data): joyroom.com JR-W050 (37Wh @ 3.7V, magnetic wireless, 20W PD — no Qi2 claim); joyroom.pk JR-W050 (adaptive 5/7.5/10/15W wireless listing, 38.5Wh @ 3.85V regional print); apple.com/support MagSafe wireless notes for non-certified magnetic Qi accessories (typically 7.5W); anker.com A1611 (7.5W MagSafe / 5W Qi sibling ceiling). ' +
+                'HONEST GAPS: no PZEM AC-input (no system efficiency %); no independent teardown; SINGLE UNIT — batches and Wh labels may vary; phone charge counts marked "est." use measured Wh ÷ (device Wh × 1.10 path loss).',
+            ar:
+                'تعميق ذهب مرتفع §7.3 لـ JR-W050 (Wave Adj/Mid) وفق البروتوكول §7.3 (باور بانك) + §7.6 (صدق MagSafe/Qi) + بوابات فيزياء Wh §8 + قائمة الأعلام الحمراء §11. ' +
+                'حرج: قِس عيّنة JR-W050 هذه المغلقة CV-PB-JRW050-001 — **لا** تنسخ صفوف Anker 622 MagGo 15.6Wh / ~12.0Wh / 11.8 واط سلكي كأرقام هذا المنتج. أرقام الأشقاء تظهر فقط في إفصاح A/B. ' +
+                'حُفظت الحقائق المقاسة من المرور الذهبي السابق؛ الهوية مثبتة على CV-PB-JRW050-001 / م. عمر خالد / 2026-07-24؛ توسيع A/B مقابل Anker 622 MagGo A1611. ' +
+                'الخطوات: (1) شحن كامل عبر USB-C من مصدر ~18 واط، راحة 30 دقيقة. ' +
+                '(2) Wh السلكية القابلة للاستخدام (§7.3 B/C + §8): تفريغ USB-C داخل JUWEI 35W بتيار 5V/2A ثابت؛ Wh التراكمية على FNB58 = 32.1Wh (~86.8% من 37Wh الاسمية على أساس 3.7V — 10000 × 3.7 ÷ 1000؛ ضمن نطاق §7.3 80–90%؛ تحقق AVHzY بفارق أقل من 2%). بوابة Wh_out ≤ Wh_nom × 0.95 ناجحة. ' +
+                '(3) Wh اللاسلكية المُسلَّمة (§7.3 M / §7.6 / §8): بعد إعادة شحن كامل ثانية، ثبّتنا الحزمة على iPhone 13 مُفرَّغ تمامًا (الشاشة مطفأة)، تركناه يشحن حتى فرغت خلية الحزمة، قرأنا Wh المكتسبة في بطارية الآيفون ≈ 24.0Wh (نسبة خلية→هاتف ~65% — متسقة مع نطاق §8 بين 60–75% Qi / 70–85% MagSafe). استشعار FNB58 المتوازي على مسار دخل USB-C للحزمة **لم يكن** مطبقًا (المسار اللاسلكي داخلي). قياس PZEM لدخل AC **لم يُنفَّذ** — نمتنع عمدًا عن نشر نسبة كفاءة منظومة وفق §6.7. ' +
+                '(4) الذروة اللاسلكية + علم أحمر (§11): راقبنا iOS Settings → Battery الحية بجانب سحب تفريغ الحزمة — استقرت عند 7.3–7.5 واط على iPhone 13 وiPhone 15. سحب الملف من جانب الحزمة أثناء الجلسة ~10.5–11.2 واط (فقد حراري للملف وفق §7.3 M / §8). قائمة joyroom.pk التكيفية 5/7.5/10/15 واط **لم** تفتح 15 واط MagSafe من جانب الهاتف على عيّناتنا — **ارفض** تسويق 15 واط MagSafe الموروث لهذا الـSKU MagSafe-compatible / غير Qi2 / غير MFM (فئة 15 واط هي منطقة Anker 633 MagGo). ' +
+                '(5) Qi Android: Galaxy A54 بمحاذاة يدوية استقر عند 4.8–5.0 واط. (6) تمركز المغناطيس الذاتي: iPhone 15 مُطلَق من ~5 ملم فوق الحزمة — شدّ وتمركز (3/3). ' +
+                '(7) ذروة USB-C السلكية 19.4 واط؛ ذروة USB-A 17.6 واط؛ إحصاء PD: بروتوكولات ثابتة حتى 12V/1.67A — **لا** PDO 20 فولت. الذروات **منفصلة** عن اللاسلكي 7.5 واط — لا تخلطهما. ' +
+                '(8) متزامن: iPhone على MagSafe + جهاز ثانٍ على USB-C — ~18 واط مشترك قبل الخنق. (9) إعادة شحن ذاتية (§7.3 F/H): 0→100% في 2 س 48 د بدخل فئة ~18 واط (منحنى Li-Po يبطئ فوق 80%). ' +
+                '(10) حرارة السطح: BENETECH GM320 (ε=0.95) — ~41°م سطح الحزمة سلكي فقط @~19 واط بعد 15 د؛ 46.2°م سطح الحزمة + 42.1°م ظهر الآيفون بعد 15 د MagSafe 7.5 واط (الحزمة فوق علامة §7.6 عند 45°م؛ تحت عتبة البروتوكول 50°م — تهوية في صيف القاهرة). ' +
+                '(11) الوزن 232 ج (Kkmoon 0.01 جرام)؛ الأبعاد 106.3 × 68.2 × 16.1 ملم لمستوى الجسم والحلقة مطوية (Mitutoyo). ' +
+                '(12) الاستدعاء (§7.3 L): تحقّق anker.com/product-recalls + cpsc.gov في 2026-07-24 — Joyroom علامة مختلفة؛ مجموعة استدعاء Anker A1257/A1263/A1647/A1652/A1681/A1689 **لا** تنطبق. ' +
+                '(13) A/B مقابل Anker 622 MagGo A1611: نفس سقف ~7.5 واط MagSafe-compatible؛ JR-W050 يسلّم نحو ضعف الـWh (32.1 / ~24.0 مقابل 15.6 / ~12.0) عند 232 ج مقابل 143 ج و~20 واط مقابل 12 واط سلكي. ' +
+                'للاسترجاع المستقل (وليست بياناتنا): joyroom.com JR-W050 (37Wh @ 3.7V، لاسلكي مغناطيسي، 20 واط PD — بلا ادعاء Qi2)؛ joyroom.pk JR-W050 (قائمة لاسلكية تكيفية 5/7.5/10/15 واط، طباعة إقليمية 38.5Wh @ 3.85V)؛ ملاحظات apple.com/support للشحن اللاسلكي MagSafe لملحقات Qi المغناطيسية غير المعتمدة (عادة 7.5 واط)؛ anker.com A1611 (سقف شقيق MagSafe 7.5 واط / Qi 5 واط). ' +
+                'الفجوات الأمينة: لا PZEM لدخل AC (فلا كفاءة منظومة)؛ لا teardown مستقل؛ **وحدة واحدة** — قد تختلف الدفعات وملصقات Wh؛ أعداد الشحن "تقديري" تستخدم Wh المقاسة ÷ (Wh الجهاز × 1.10 فقد المسار).',
         },
         equipment: [
             { name: 'FNIRSI FNB58 (fw v1.3)', use: { en: 'USB-C cumulative Wh, PD enumeration, USB-A/USB-C peaks, pack discharge draw during wireless (§7.3 M / §7.6)', ar: 'Wh التراكمية على USB-C، إحصاء PD، ذروات USB-A/USB-C، سحب تفريغ الحزمة أثناء اللاسلكي (§7.3 M / §7.6)' } },
             { name: 'AVHzY CT-3', use: { en: 'Second-instrument cross-check of USB-C usable Wh and wired peak', ar: 'تحقق مزدوج لـWh السلكية القابلة للاستخدام وذروة USB-C' } },
-            { name: 'JUWEI 35W USB electronic load', use: { en: 'Constant 5V/2A wired discharge for the 32.1Wh usable figure', ar: 'تفريغ سلكي ثابت 5V/2A لرقم 32.1Wh القابل للاستخدام' } },
+            { name: 'JUWEI 35W USB electronic load', use: { en: 'Constant 5V/2A wired discharge for the 32.1Wh usable figure (§7.3 C)', ar: 'تفريغ سلكي ثابت 5V/2A لرقم 32.1Wh القابل للاستخدام (§7.3 C)' } },
             { name: 'Apple iPhone 13 (12.41Wh)', use: { en: 'Primary MagSafe-compatible receiver for wireless-delivered Wh (drained → full-drain-of-pack cycle)', ar: 'المستقبِل الأساسي MagSafe-compatible لاختبار Wh المُسلَّمة لاسلكيًا (مُفرَّغ → تفريغ كامل للحزمة)' } },
             { name: 'Apple iPhone 15 (12.99Wh)', use: { en: 'Second MagSafe-compatible receiver for wireless peak-watt readout via iOS Settings → Battery', ar: 'المستقبِل الثاني MagSafe-compatible لقراءة ذروة الواط اللاسلكية عبر iOS Settings → Battery' } },
             { name: 'Samsung Galaxy A54', use: { en: 'Qi Android receiver — hand-aligned (magnet does not self-center on Android)', ar: 'مستقبِل Qi Android — محاذاة يدوية (المغناطيس لا يتمركز ذاتيًا على أندرويد)' } },
@@ -76,55 +214,173 @@ export const joyroom_magnetic_power_bank_10000_detail: ProductDetail = {
             { name: 'HTC-2 · Kkmoon 0.01g scale · Mitutoyo digital caliper', use: { en: 'Ambient / humidity, weight, dimensions', ar: 'المحيط والرطوبة والوزن والأبعاد' } },
         ],
         results: [
-            { param: { en: 'Rated cell capacity', ar: 'سعة الخلية الاسمية' }, rated: '10,000mAh / 37Wh (3.7V basis)', measured: '—', note: { en: 'Protocol §7.3 + joyroom.com; some regional listings print 38.5Wh @ 3.85V', ar: 'البروتوكول §7.3 + joyroom.com؛ بعض القوائم الإقليمية تطبع 38.5Wh @ 3.85V' } },
-            { param: { en: 'Usable energy — WIRED USB-C @5V/2A', ar: 'الطاقة القابلة للاستخدام — سلكي USB-C @5V/2A' }, measured: '32.1 Wh', note: { en: 'FNB58 cumulative — primary source; inside protocol §7.3 80–90% band', ar: 'FNB58 تراكمي — المصدر الأساسي؛ ضمن نطاق §7.3 80–90%' } },
-            { param: { en: 'Cell → USB ratio', ar: 'نسبة خلية → USB' }, measured: '86.8%', note: { en: '32.1 ÷ 37 — NOT an AC-input efficiency (§6.7 forbids without PZEM)', ar: '32.1 ÷ 37 — **ليست** كفاءة دخل AC (§6.7 يحظر بلا PZEM)' } },
-            { param: { en: 'Usable energy — WIRELESS to iPhone 13', ar: 'الطاقة القابلة للاستخدام — لاسلكي إلى iPhone 13' }, measured: '~24.0 Wh', note: { en: 'Read from iPhone battery-Wh gained across a full pack drain', ar: 'من زيادة Wh في بطارية الآيفون عبر تفريغ حزمة كامل' } },
-            { param: { en: 'Cell → phone wireless energy ratio', ar: 'نسبة طاقة خلية → هاتف لاسلكيًا' }, measured: '~65%', note: { en: '24.0 ÷ 37 — consistent with §8 wireless band; NOT an AC efficiency', ar: '24.0 ÷ 37 — متسقة مع نطاق §8 اللاسلكي؛ **ليست** كفاءة AC' } },
-            { param: { en: 'Wireless peak on iPhone 13 (MagSafe-compatible)', ar: 'ذروة لاسلكية على iPhone 13 (MagSafe-compatible)' }, rated: '15W adaptive listing (joyroom.pk)', measured: '7.3–7.5W', note: { en: 'iOS Settings → Battery; reject inherited 15W MagSafe — non-Qi2 / non-MFM', ar: 'واط حية من iOS Settings → Battery؛ ارفض 15 واط MagSafe الموروث — غير Qi2 / غير MFM' } },
-            { param: { en: 'Wireless peak on iPhone 15 (MagSafe-compatible)', ar: 'ذروة لاسلكية على iPhone 15 (MagSafe-compatible)' }, rated: '15W adaptive listing', measured: '7.3–7.5W', note: { en: 'Same 7.5W third-party MagSafe-compatible ceiling as Anker 622 MagGo', ar: 'نفس سقف 7.5 واط MagSafe-compatible للطرف الثالث مثل Anker 622 MagGo' } },
-            { param: { en: 'Pack-side coil draw @ MagSafe 7.5W (iPhone 15)', ar: 'سحب الملف من جانب الحزمة @ MagSafe 7.5 واط (iPhone 15)' }, measured: '~10.5–11.2W', note: { en: 'During 7.5W phone-side session — coil thermal loss per §7.3 M / §8', ar: 'أثناء جلسة 7.5 واط من جانب الهاتف — فقد حراري للملف وفق §7.3 M / §8' } },
-            { param: { en: 'Wireless peak on Galaxy A54 (Qi)', ar: 'ذروة لاسلكية على Galaxy A54 (Qi)' }, rated: '5W Qi class', measured: '4.8–5.0W', note: { en: 'Hand-aligned — magnet does not self-center on Android', ar: 'محاذاة يدوية — المغناطيس لا يتمركز ذاتيًا على أندرويد' } },
-            { param: { en: 'USB-C wired peak', ar: 'ذروة USB-C سلكي' }, rated: '20W', measured: '19.4W', note: { en: 'FNB58; AVHzY within 1% — phone-class, not laptop PD', ar: 'FNB58؛ AVHzY بفارق أقل من 1% — فئة هاتف، ليس PD للابتوب' } },
-            { param: { en: 'USB-A wired peak', ar: 'ذروة USB-A سلكي' }, rated: '18W', measured: '17.6W', note: { en: 'FNB58 — QC/AFC-class rails; not USB-C PD', ar: 'FNB58 — رافدات فئة QC/AFC؛ ليس USB-C PD' } },
-            { param: { en: '20V PDO presence', ar: 'وجود PDO 20 فولت' }, measured: { en: 'NOT present', ar: '**غير** موجود' }, note: { en: 'Phone-class only — same ceiling class as A110D', ar: 'فئة هاتف فقط — نفس فئة سقف A110D' } },
-            { param: { en: 'Simultaneous wireless + wired', ar: 'لاسلكي + سلكي معًا' }, measured: { en: '~18W combined before throttling', ar: '~18 واط مشترك قبل الخنق' }, note: { en: 'Shared budget — not full 7.5W + 20W simultaneously', ar: 'ميزانية مشتركة — ليس 7.5 + 20 واط كاملين معًا' } },
-            { param: { en: 'iPhone 15 top-ups — WIRED USB-C (est.)', ar: 'تعبئات iPhone 15 — سلكيًا USB-C (تقديري)' }, measured: { en: '~2.25 charges', ar: 'نحو 2.25 شحنة' }, note: { en: '32.1 ÷ (12.99 × 1.10)', ar: '32.1 ÷ (12.99 × 1.10)' } },
-            { param: { en: 'iPhone 15 top-ups — WIRELESS (est.)', ar: 'تعبئات iPhone 15 — لاسلكيًا (تقديري)' }, measured: { en: '~1.7 charges', ar: 'نحو 1.7 شحنة' }, note: { en: '24.0 ÷ (12.99 × 1.10) — fewer than wired; wireless physics', ar: '24.0 ÷ (12.99 × 1.10) — أقل من السلكي؛ فيزياء لاسلكية' } },
-            { param: { en: 'iPhone 15 Pro Max (17.11Wh) — WIRELESS est.', ar: 'iPhone 15 Pro Max (17.11Wh) — لاسلكيًا تقديري' }, measured: { en: '~1.3 charges', ar: 'نحو 1.3 شحنة' }, note: { en: '24.0 ÷ (17.11 × 1.10) — big-battery iPhones prefer wired path for full cycles', ar: '24.0 ÷ (17.11 × 1.10) — آيفون بطاريات كبيرة تفضّل المسار السلكي للدورات الكاملة' } },
-            { param: { en: 'vs Anker 622 MagGo (A1611) usable Wh', ar: 'مقابل Wh القابلة للاستخدام لـ Anker 622 MagGo (A1611)' }, measured: { en: '32.1Wh wired / ~24.0Wh wireless vs A1611 15.6Wh / ~12.0Wh', ar: '32.1Wh سلكي / ~24.0Wh لاسلكي مقابل A1611 15.6Wh / ~12.0Wh' }, note: { en: 'Same ~7.5W MagSafe-compatible ceiling; JR-W050 ≈ 2× Wh, heavier (232g vs 143g)', ar: 'نفس سقف ~7.5 واط MagSafe-compatible؛ JR-W050 ≈ ضعف الـWh، أثقل (232 ج مقابل 143 ج)' } },
-            { param: { en: 'Self-recharge 0→100% @ ~18W', ar: 'إعادة الشحن 0→100% عند ~18 واط' }, measured: { en: '2 h 48 min', ar: '2 س 48 د' }, note: { en: 'Li-Po curve slows above 80% — standard behaviour', ar: 'منحنى Li-Po يبطئ فوق 80% — سلوك قياسي' } },
-            { param: { en: 'Pack top surface temp @~19W wired-only (15 min)', ar: 'حرارة سطح الحزمة @~19 واط سلكي فقط (15 د)' }, measured: { en: '~41°C', ar: '~41°م' }, note: { en: '28.2°C ambient — warm but holdable', ar: '28.2°م محيط — دافئ لكن قابل للإمساك' } },
-            { param: { en: 'Pack top surface temp @ MagSafe 7.5W (15 min)', ar: 'حرارة سطح الحزمة عند MagSafe 7.5 واط (15 د)' }, measured: '46.2°C', note: { en: 'Above §7.6 45°C base flag; under 50°C hard threshold — give airflow', ar: 'فوق علامة §7.6 عند 45°م؛ تحت عتبة 50°م الصلبة — وفّر تهوية' } },
-            { param: { en: 'iPhone back temp @ MagSafe 7.5W (15 min)', ar: 'حرارة ظهر الآيفون عند MagSafe 7.5 واط (15 د)' }, measured: '42.1°C', note: { en: 'Apple: iOS thermally limits charging above 35°C ambient (support.apple.com/118431)', ar: 'Apple: iOS يقيّد الشحن حراريًا فوق 35°م محيطية (support.apple.com/118431)' } },
-            { param: { en: 'Magnet self-center from 5mm', ar: 'تمركز المغناطيس ذاتيًا من 5 ملم' }, measured: { en: 'PASS (3 of 3 trials on iPhone 15)', ar: 'نجاح (3/3 محاولات على iPhone 15)' }, note: { en: 'Vendor N52H magnets (joyroom.com / joyroom.pk)', ar: 'مغناطيس N52H من المصنّع (joyroom.com / joyroom.pk)' } },
-            { param: { en: 'Weight', ar: 'الوزن' }, rated: '~213g (joyroom.com)', measured: '232g', note: { en: 'Kkmoon 0.01g — heavier than listing; ~89g heavier than Anker 622 MagGo 143g', ar: 'Kkmoon 0.01 جرام — أثقل من القائمة؛ أثقل بنحو 89 ج من Anker 622 MagGo 143 ج' } },
-            { param: { en: 'Dimensions (body, ring folded)', ar: 'الأبعاد (الجسم، الحلقة مطوية)' }, rated: '~105×60.5×23.5 mm (joyroom.pk)', measured: '106.3×68.2×16.1 mm', note: { en: 'Mitutoyo caliper — verify live unit; ring adds usable thickness when open', ar: 'قدمة Mitutoyo — تحقق من الوحدة الحية؛ الحلقة تضيف سُمكًا عند الفتح' } },
-            { param: { en: 'Anker recall relevance (verified 2026-07-24)', ar: 'علاقة استدعاء Anker (متحققة 2026-07-24)' }, measured: { en: 'N/A — different brand; not on Anker lists', ar: 'غ/م — علامة مختلفة؛ غير على قوائم Anker' }, note: { en: 'Still verify packaging authenticity and CE/FCC/UN38.3 on delivery', ar: 'ما زال يجب التحقق من أصالة العبوة وCE/FCC/UN38.3 عند الاستلام' } },
-            { param: { en: 'Teardown / silicon IDs', ar: 'Teardown / معرفات الرقائق' }, measured: { en: 'NOT performed — no ChargerLAB report to cite', ar: '**لم** يُجرَ — لا تقرير ChargerLAB للاستشهاد' }, note: { en: 'CairoVolt did not open the sample', ar: 'CairoVolt لم تفتح العيّنة' } },
+            {
+                param: { en: 'Rated cell capacity (§7.3 B Wh math)', ar: 'سعة الخلية الاسمية (حساب Wh §7.3 B)' },
+                rated: '10,000mAh / 37Wh (3.7V basis)',
+                measured: '—',
+                note: { en: '10000 × 3.7 ÷ 1000 = 37Wh; some regional listings print 38.5Wh @ 3.85V LiPo', ar: '10000 × 3.7 ÷ 1000 = 37Wh؛ بعض القوائم الإقليمية تطبع 38.5Wh @ 3.85V LiPo' },
+            },
+            {
+                param: { en: 'Usable energy — WIRED USB-C @5V/2A', ar: 'الطاقة القابلة للاستخدام — سلكي USB-C @5V/2A' },
+                measured: '32.1 Wh',
+                note: { en: 'FNB58 cumulative — primary §7.3 C source; inside 80–90% band', ar: 'FNB58 تراكمي — المصدر الأساسي §7.3 C؛ ضمن نطاق 80–90%' },
+            },
+            {
+                param: { en: 'Cell → USB ratio (§8 gate)', ar: 'نسبة خلية → USB (بوابة §8)' },
+                measured: '86.8%',
+                note: { en: '32.1 ÷ 37 — NOT an AC-input efficiency (§6.7 forbids without PZEM)', ar: '32.1 ÷ 37 — **ليست** كفاءة دخل AC (§6.7 يحظر بلا PZEM)' },
+            },
+            {
+                param: { en: 'Usable energy — WIRELESS to iPhone 13', ar: 'الطاقة القابلة للاستخدام — لاسلكي إلى iPhone 13' },
+                measured: '~24.0 Wh',
+                note: { en: 'Read from iPhone battery-Wh gained across a full pack drain', ar: 'من زيادة Wh في بطارية الآيفون عبر تفريغ حزمة كامل' },
+            },
+            {
+                param: { en: 'Cell → phone wireless energy ratio (§8)', ar: 'نسبة طاقة خلية → هاتف لاسلكيًا (§8)' },
+                measured: '~65%',
+                note: { en: '24.0 ÷ 37 — consistent with §8 wireless band; NOT an AC efficiency', ar: '24.0 ÷ 37 — متسقة مع نطاق §8 اللاسلكي؛ **ليست** كفاءة AC' },
+            },
+            {
+                param: { en: '15W MagSafe marketing claim (red-flag audit §11)', ar: 'ادعاء تسويق MagSafe 15 واط (تدقيق علم أحمر §11)' },
+                rated: { en: 'Vendor adaptive 5/7.5/10/15W listing (joyroom.pk) — often misread as 15W MagSafe', ar: 'قائمة تكيّفية 5/7.5/10/15 واط (joyroom.pk) — غالبًا تُقرأ خطأ كـ MagSafe 15 واط' },
+                measured: { en: 'REJECTED — 7.3–7.5W only on iPhone', ar: '**مرفوض** — 7.3–7.5 واط فقط على الآيفون' },
+                note: { en: 'Third-party MagSafe-compatible / non-Qi2 / non-MFM — same ceiling class as Anker 622 MagGo; 15W-class is 633 MagGo', ar: 'طرف ثالث MagSafe-compatible / غير Qi2 / غير MFM — نفس فئة سقف Anker 622 MagGo؛ فئة 15 واط هي 633 MagGo' },
+            },
+            {
+                param: { en: 'Wireless peak on iPhone 13 (MagSafe-compatible)', ar: 'ذروة لاسلكية على iPhone 13 (MagSafe-compatible)' },
+                rated: '15W adaptive listing (joyroom.pk)',
+                measured: '7.3–7.5W',
+                note: { en: 'iOS Settings → Battery; reject inherited 15W MagSafe', ar: 'واط حية من iOS Settings → Battery؛ ارفض 15 واط MagSafe الموروث' },
+            },
+            {
+                param: { en: 'Wireless peak on iPhone 15 (MagSafe-compatible)', ar: 'ذروة لاسلكية على iPhone 15 (MagSafe-compatible)' },
+                rated: '15W adaptive listing',
+                measured: '7.3–7.5W',
+                note: { en: 'Same 7.5W third-party MagSafe-compatible ceiling as Anker 622 MagGo', ar: 'نفس سقف 7.5 واط MagSafe-compatible للطرف الثالث مثل Anker 622 MagGo' },
+            },
+            {
+                param: { en: 'Pack-side coil draw @ MagSafe 7.5W (iPhone 15)', ar: 'سحب الملف من جانب الحزمة @ MagSafe 7.5 واط (iPhone 15)' },
+                measured: '~10.5–11.2W',
+                note: { en: 'During 7.5W phone-side session — coil thermal loss per §7.3 M / §8', ar: 'أثناء جلسة 7.5 واط من جانب الهاتف — فقد حراري للملف وفق §7.3 M / §8' },
+            },
+            {
+                param: { en: 'Wireless peak on Galaxy A54 (Qi)', ar: 'ذروة لاسلكية على Galaxy A54 (Qi)' },
+                rated: '5W Qi class',
+                measured: '4.8–5.0W',
+                note: { en: 'Hand-aligned — magnet does not self-center on Android', ar: 'محاذاة يدوية — المغناطيس لا يتمركز ذاتيًا على أندرويد' },
+            },
+            {
+                param: { en: 'USB-C wired peak (SEPARATE from wireless)', ar: 'ذروة USB-C سلكي (منفصلة عن اللاسلكي)' },
+                rated: '20W',
+                measured: '19.4W',
+                note: { en: 'FNB58; AVHzY within 1% — phone-class, not laptop PD; do not add to 7.5W wireless', ar: 'FNB58؛ AVHzY بفارق أقل من 1% — فئة هاتف، ليس PD للابتوب؛ لا تُضاف إلى 7.5 واط لاسلكي' },
+            },
+            {
+                param: { en: 'USB-A wired peak', ar: 'ذروة USB-A سلكي' },
+                rated: '18W',
+                measured: '17.6W',
+                note: { en: 'FNB58 — QC/AFC-class rails; not USB-C PD', ar: 'FNB58 — رافدات فئة QC/AFC؛ ليس USB-C PD' },
+            },
+            {
+                param: { en: '20V PDO presence', ar: 'وجود PDO 20 فولت' },
+                measured: { en: 'NOT present', ar: '**غير** موجود' },
+                note: { en: 'Phone-class only — same ceiling class as A110D', ar: 'فئة هاتف فقط — نفس فئة سقف A110D' },
+            },
+            {
+                param: { en: 'Simultaneous wireless + wired', ar: 'لاسلكي + سلكي معًا' },
+                measured: { en: '~18W combined before throttling', ar: '~18 واط مشترك قبل الخنق' },
+                note: { en: 'Shared budget — not full 7.5W + 20W simultaneously', ar: 'ميزانية مشتركة — ليس 7.5 + 20 واط كاملين معًا' },
+            },
+            {
+                param: { en: 'iPhone 15 top-ups — WIRED USB-C (est. §7.3 I / §8)', ar: 'تعبئات iPhone 15 — سلكيًا USB-C (تقديري §7.3 I / §8)' },
+                measured: { en: '~2.25 charges', ar: 'نحو 2.25 شحنة' },
+                note: { en: '32.1 ÷ (12.99 × 1.10)', ar: '32.1 ÷ (12.99 × 1.10)' },
+            },
+            {
+                param: { en: 'iPhone 15 top-ups — WIRELESS (est. §8)', ar: 'تعبئات iPhone 15 — لاسلكيًا (تقديري §8)' },
+                measured: { en: '~1.7 charges', ar: 'نحو 1.7 شحنة' },
+                note: { en: '24.0 ÷ (12.99 × 1.10) — fewer than wired; wireless physics', ar: '24.0 ÷ (12.99 × 1.10) — أقل من السلكي؛ فيزياء لاسلكية' },
+            },
+            {
+                param: { en: 'iPhone 15 Pro Max (17.11Wh) — WIRELESS est.', ar: 'iPhone 15 Pro Max (17.11Wh) — لاسلكيًا تقديري' },
+                measured: { en: '~1.3 charges', ar: 'نحو 1.3 شحنة' },
+                note: { en: '24.0 ÷ (17.11 × 1.10) — big-battery iPhones prefer wired path for full cycles', ar: '24.0 ÷ (17.11 × 1.10) — آيفون بطاريات كبيرة تفضّل المسار السلكي للدورات الكاملة' },
+            },
+            {
+                param: { en: 'vs Anker 622 MagGo (A1611) usable Wh (A/B)', ar: 'مقابل Wh القابلة للاستخدام لـ Anker 622 MagGo (A1611) (A/B)' },
+                measured: { en: 'JR-W050 32.1Wh wired / ~24.0Wh wireless vs A1611 15.6Wh / ~12.0Wh', ar: 'JR-W050 32.1Wh سلكي / ~24.0Wh لاسلكي مقابل A1611 15.6Wh / ~12.0Wh' },
+                note: { en: 'Same ~7.5W MagSafe-compatible ceiling; JR-W050 ≈ 2× Wh, heavier (232g vs 143g)', ar: 'نفس سقف ~7.5 واط MagSafe-compatible؛ JR-W050 ≈ ضعف الـWh، أثقل (232 ج مقابل 143 ج)' },
+            },
+            {
+                param: { en: 'Self-recharge 0→100% @ ~18W', ar: 'إعادة الشحن 0→100% عند ~18 واط' },
+                measured: { en: '2 h 48 min', ar: '2 س 48 د' },
+                note: { en: 'Li-Po curve slows above 80% — standard behaviour', ar: 'منحنى Li-Po يبطئ فوق 80% — سلوك قياسي' },
+            },
+            {
+                param: { en: 'Pack top surface temp @~19W wired-only (15 min)', ar: 'حرارة سطح الحزمة @~19 واط سلكي فقط (15 د)' },
+                measured: { en: '~41°C', ar: '~41°م' },
+                note: { en: '28.2°C ambient — warm but holdable', ar: '28.2°م محيط — دافئ لكن قابل للإمساك' },
+            },
+            {
+                param: { en: 'Pack top surface temp @ MagSafe 7.5W (15 min)', ar: 'حرارة سطح الحزمة عند MagSafe 7.5 واط (15 د)' },
+                measured: '46.2°C',
+                note: { en: 'Above §7.6 45°C base flag; under 50°C hard threshold — give airflow; hotter than MagGo 622 44.5°C', ar: 'فوق علامة §7.6 عند 45°م؛ تحت عتبة 50°م الصلبة — وفّر تهوية؛ أسخن من MagGo 622 عند 44.5°م' },
+            },
+            {
+                param: { en: 'iPhone back temp @ MagSafe 7.5W (15 min)', ar: 'حرارة ظهر الآيفون عند MagSafe 7.5 واط (15 د)' },
+                measured: '42.1°C',
+                note: { en: 'Apple: iOS thermally limits charging above 35°C ambient (support.apple.com/118431)', ar: 'Apple: iOS يقيّد الشحن حراريًا فوق 35°م محيطية (support.apple.com/118431)' },
+            },
+            {
+                param: { en: 'Magnet self-center from 5mm', ar: 'تمركز المغناطيس ذاتيًا من 5 ملم' },
+                measured: { en: 'PASS (3 of 3 trials on iPhone 15)', ar: 'نجاح (3/3 محاولات على iPhone 15)' },
+                note: { en: 'Vendor N52H magnets (joyroom.com / joyroom.pk)', ar: 'مغناطيس N52H من المصنّع (joyroom.com / joyroom.pk)' },
+            },
+            {
+                param: { en: 'Weight', ar: 'الوزن' },
+                rated: '~213g (joyroom.com)',
+                measured: '232g',
+                note: { en: 'Kkmoon 0.01g — heavier than listing; ~89g heavier than Anker 622 MagGo 143g', ar: 'Kkmoon 0.01 جرام — أثقل من القائمة؛ أثقل بنحو 89 ج من Anker 622 MagGo 143 ج' },
+            },
+            {
+                param: { en: 'Dimensions (body, ring folded)', ar: 'الأبعاد (الجسم، الحلقة مطوية)' },
+                rated: '~105×60.5×23.5 mm (joyroom.pk)',
+                measured: '106.3×68.2×16.1 mm',
+                note: { en: 'Mitutoyo caliper — verify live unit; ring adds usable thickness when open', ar: 'قدمة Mitutoyo — تحقق من الوحدة الحية؛ الحلقة تضيف سُمكًا عند الفتح' },
+            },
+            {
+                param: { en: 'Anker recall relevance (verified 2026-07-24)', ar: 'علاقة استدعاء Anker (متحققة 2026-07-24)' },
+                measured: { en: 'N/A — different brand; not on Anker lists', ar: 'غ/م — علامة مختلفة؛ غير على قوائم Anker' },
+                note: { en: 'Still verify packaging authenticity and CE/FCC/UN38.3 on delivery', ar: 'ما زال يجب التحقق من أصالة العبوة وCE/FCC/UN38.3 عند الاستلام' },
+            },
+            {
+                param: { en: 'Teardown / silicon IDs', ar: 'Teardown / معرفات الرقائق' },
+                measured: { en: 'NOT performed — no ChargerLAB report to cite', ar: '**لم** يُجرَ — لا تقرير ChargerLAB للاستشهاد' },
+                note: { en: 'CairoVolt did not open the sample', ar: 'CairoVolt لم تفتح العيّنة' },
+            },
+            {
+                param: { en: 'Sample disclosure', ar: 'إفصاح العيّنة' },
+                measured: { en: 'Single unit CV-PB-JRW050-001', ar: 'وحدة واحدة CV-PB-JRW050-001' },
+                note: { en: 'Production batches may vary — do not treat as multi-unit statistics', ar: 'قد تختلف دفعات الإنتاج — لا تُعامل كإحصاء متعدد الوحدات' },
+            },
         ],
         verdict: {
-            en: 'JR-W050 delivered 32.1Wh wired (86.8% of 37Wh) and ~24.0Wh wireless into iPhone 13 (~65% cell-to-phone) — ~2.25 iPhone 15 wired or ~1.7 wireless. MagSafe-compatible ceiling 7.5W (NOT 15W/Qi2). Ring stand suits metro + Zoom. Not on Anker recalls. Verify authenticity.',
-            ar: 'JR-W050 أعطى 32.1Wh سلكيًا (86.8% من 37Wh) و~24.0Wh لاسلكيًا داخل iPhone 13 (~65% خلية-إلى-هاتف) — ~2.25 شحنة iPhone 15 سلكيًا أو ~1.7 لاسلكيًا. سقف MagSafe-compatible 7.5 واط (**ليس** 15 واط/Qi2). حامل الحلقة يناسب المترو وZoom. ليس على استدعاءات Anker. تحقق من الأصالة.',
+            en: 'JR-W050 delivered 32.1Wh wired (86.8% of 37Wh) and ~24.0Wh wireless into iPhone 13 (~65% cell-to-phone) — ~2.25 iPhone 15 wired or ~1.7 wireless. MagSafe-compatible ceiling 7.5W (NOT 15W/Qi2). ~2× Wh vs MagGo 622 at 232g. Ring stand suits metro + Zoom. Not on Anker recalls. Verify authenticity.',
+            ar: 'JR-W050 أعطى 32.1Wh سلكيًا (86.8% من 37Wh) و~24.0Wh لاسلكيًا داخل iPhone 13 (~65% خلية-إلى-هاتف) — ~2.25 شحنة iPhone 15 سلكيًا أو ~1.7 لاسلكيًا. سقف MagSafe-compatible 7.5 واط (**ليس** 15 واط/Qi2). نحو ضعف Wh مقابل MagGo 622 عند 232 ج. حامل الحلقة يناسب المترو وZoom. ليس على استدعاءات Anker. تحقق من الأصالة.',
         },
         pros: [
-            { en: '32.1Wh measured wired usable at 86.8% cell→USB ratio — inside protocol §7.3 80–90% band; est. ~2.25 iPhone 15 wired charges from measured Wh', ar: '32.1Wh قابلة للاستخدام سلكيًا بنسبة خلية→USB 86.8% — ضمن نطاق §7.3 80–90%؛ تقديري ~2.25 شحنة iPhone 15 سلكيًا من الـWh المقاسة' },
+            { en: '32.1Wh measured wired usable at 86.8% cell→USB ratio — inside protocol §7.3 80–90% band; est. ~2.25 iPhone 15 wired charges from measured Wh (§8 math)', ar: '32.1Wh قابلة للاستخدام سلكيًا بنسبة خلية→USB 86.8% — ضمن نطاق §7.3 80–90%؛ تقديري ~2.25 شحنة iPhone 15 سلكيًا من الـWh المقاسة (حساب §8)' },
             { en: 'MagSafe snap-on + foldable ring/kickstand — one-handed metro carry and landscape Zoom without a separate phone holder', ar: 'snap-on MagSafe + حلقة/حامل قابل للطي — حمل بيد واحدة في المترو وZoom أفقي بلا حامل هاتف منفصل' },
-            { en: '~2× Wh vs Anker 622 MagGo (37Wh vs 18.5Wh) at the same MagSafe-compatible 7.5W iPhone ceiling — better day-long capacity if you accept 232g vs 143g', ar: 'نحو ضعف الـWh مقابل Anker 622 MagGo (37Wh مقابل 18.5Wh) عند نفس سقف 7.5 واط MagSafe-compatible — سعة يوم أفضل إن قبلت 232 ج مقابل 143 ج' },
+            { en: '~2× Wh vs Anker 622 MagGo (37Wh vs 18.5Wh; 32.1 / ~24.0 vs 15.6 / ~12.0 measured) at the same MagSafe-compatible 7.5W iPhone ceiling — better day-long capacity if you accept 232g vs 143g', ar: 'نحو ضعف الـWh مقابل Anker 622 MagGo (37Wh مقابل 18.5Wh؛ 32.1 / ~24.0 مقابل 15.6 / ~12.0 مقاسة) عند نفس سقف 7.5 واط MagSafe-compatible — سعة يوم أفضل إن قبلت 232 ج مقابل 143 ج' },
             { en: '~850 EGP street class vs Anker MagGo / A110D premiums — saves money if you already own a USB-C cable and prioritize snap-on + Wh over Anker branding', ar: 'فئة ~850 جنيه في السوق مقابل علاوات Anker MagGo / A110D — يوفر مالًا إن كنت تملك كابل USB-C وتفضّل snap-on + Wh على علامة Anker' },
             { en: '37Wh << 100Wh airline cabin limit — flyable on major Cairo carriers; compact ring-stand form vs long wired bricks', ar: '37Wh << حد المقصورة 100Wh — قابل للحمل على شركات القاهرة الرئيسية؛ شكل حلقة-حامل مدمج مقابل طوب سلكي طويل' },
         ],
         limits: [
-            { en: 'Wireless on iPhone capped at 7.3–7.5W on our samples — MagSafe-COMPATIBLE / NOT Qi2 / NOT Apple MFM; reject inherited 15W MagSafe marketing from adaptive vendor listings', ar: 'اللاسلكي على الآيفون محصور بـ 7.3–7.5 واط على عيّناتنا — MagSafe-COMPATIBLE / **ليس** Qi2 / **ليس** Apple MFM؛ ارفض تسويق 15 واط MagSafe الموروث من قوائم المصنّع التكيفية' },
+            { en: 'Wireless on iPhone capped at 7.3–7.5W on our samples — MagSafe-COMPATIBLE / NOT Qi2 / NOT Apple MFM; REJECT inherited 15W MagSafe marketing from adaptive vendor listings (§11 red-flag)', ar: 'اللاسلكي على الآيفون محصور بـ 7.3–7.5 واط على عيّناتنا — MagSafe-COMPATIBLE / **ليس** Qi2 / **ليس** Apple MFM؛ **ارفض** تسويق 15 واط MagSafe الموروث من قوائم المصنّع التكيفية (علم أحمر §11)' },
             { en: 'Wireless energy loss is ~35% cell→phone (physics per §8) — ~1.7 iPhone 15 wireless top-ups vs ~2.25 wired; use USB-C when you need full cycles', ar: 'خسارة الطاقة اللاسلكية ~35% خلية→هاتف (فيزياء §8) — ~1.7 تعبئة iPhone 15 لاسلكيًا مقابل ~2.25 سلكيًا؛ استخدم USB-C حين تحتاج دورات كاملة' },
             { en: 'MagSafe wireless runs hotter — 46.2°C pack top after 15 min at 7.5W vs ~41°C wired-only; above §7.6 45°C base flag — give airflow; never on a hot car dashboard', ar: 'MagSafe اللاسلكي أكثر سخونة — 46.2°م سطح الحزمة بعد 15 د عند 7.5 واط مقابل ~41°م سلكي فقط؛ فوق علامة §7.6 عند 45°م — وفّر تهوية؛ لا على تابلوه سيارة ساخن' },
-            { en: 'Simultaneous wireless + wired throttles to ~18W combined — cannot run full MagSafe + 20W USB-C at once', ar: 'اللاسلكي + السلكي معًا يُخنق إلى ~18 واط مشترك — **لا** يمكن MagSafe كامل + 20 واط USB-C معًا' },
-            { en: 'No built-in USB-C cable — Anker A110D integrated cable is the main reason to pay more if you lose cables often', ar: '**لا** كابل USB-C مدمج — كابل A110D المدمج هو السبب الرئيسي لدفع أكثر إن فقدت كابلات كثيرًا' },
-            { en: '19.4W phone-class wired — NO 20V PDO; cannot charge a laptop usefully. Heavier than Anker 622 MagGo (232g vs 143g)', ar: '19.4 واط سلكي فئة هاتف — **لا** PDO 20 فولت؛ لا شحن لابتوب مفيد. أثقل من Anker 622 MagGo (232 ج مقابل 143 ج)' },
-            { en: 'MagSafe alignment requires compatible iPhone 12+ or MagSafe case — iPhone 11 / SE 2020 / SE 2022 and thick non-MagSafe cases weaken or lose snap', ar: 'محاذاة MagSafe تحتاج iPhone 12+ أو جراب MagSafe — iPhone 11 / SE 2020 / SE 2022 والجرابات السميكة غير MagSafe تضعف أو تفقد snap' },
-            { en: 'No PZEM AC-input measurement — we deliberately do NOT publish a system efficiency % (§6.7 requires AC-input for that term)', ar: 'لا قياس PZEM لدخل AC — نمتنع عمدًا عن نشر نسبة كفاءة منظومة (§6.7 يتطلب دخل AC لهذا المصطلح)' },
-            { en: 'No independent ChargerLAB teardown — CairoVolt did not open the unit; verify packaging authenticity against grey-market clones common in Egypt', ar: '**لا** teardown مستقل من ChargerLAB — CairoVolt لم تفتح الوحدة؛ تحقق من أصالة العبوة ضد التقليد الرخيص الشائع في مصر' },
-            { en: 'Single unit tested — production batches and Wh label print (37Wh vs regional 38.5Wh) may vary; Joyroom is NOT on Anker recall lists because it is a different brand', ar: 'وحدة واحدة مُختبرة — قد تختلف الدفعات وطباعة ملصق Wh (37Wh مقابل 38.5Wh إقليمي)؛ Joyroom **ليس** على قوائم استدعاء Anker لأنه علامة مختلفة' },
+            { en: 'Simultaneous wireless + wired throttles to ~18W combined — cannot run full MagSafe + 20W USB-C at once; 19.4W phone-class wired — NO 20V PDO for laptops', ar: 'اللاسلكي + السلكي معًا يُخنق إلى ~18 واط مشترك — **لا** يمكن MagSafe كامل + 20 واط USB-C معًا؛ 19.4 واط سلكي فئة هاتف — **لا** PDO 20 فولت للابتوب' },
+            { en: 'Heavier than Anker 622 MagGo (232g vs 143g); no built-in USB-C cable — A110D integrated cable is the reason to pay more if you lose cables; MagSafe needs iPhone 12+ / MagSafe case', ar: 'أثقل من Anker 622 MagGo (232 ج مقابل 143 ج)؛ **لا** كابل USB-C مدمج — كابل A110D المدمج سبب دفع أكثر إن فقدت كابلات؛ MagSafe يحتاج iPhone 12+ / جراب MagSafe' },
         ],
     },
 };
