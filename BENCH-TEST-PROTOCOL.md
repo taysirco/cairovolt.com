@@ -859,6 +859,7 @@ OCP zap test:
 | v1.1 | 2026-07-23 | موجة 6 لاسلكي + موجة 4 سماعات (7 منتجات Anker/Soundcore): `anker-622-maggo` (A1611 — 15.6Wh usable USB-C / 7.5W MagSafe / رفض 15W) · `anker-a2216-magnetic-wireless-car-charger` (A2216 — Qi2 ذروة 14.2W مختبر / مستقر ~11.6W / صدق تابلوه يوليو 7–10W) · `soundcore-p20i-earbuds` + `soundcore-p25i-earbuds` (عائلة A3949 مشتركة — 9h35 / 9h40 @50%؛ بلا ANC؛ SBC+AAC) · `soundcore-p30i-earbuds` · `soundcore-p40i-earbuds` (ANC ON/OFF مقاس) · `soundcore-liberty-4-pro` (LDAC + Adaptive ANC). فحص استدعاء 2026-07-23 — لا استدعاء. | م. أحمد سالم |
 | v1.1 | 2026-07-24 | موجة 4 استكمال — 10 منتجات Soundcore: سلسلة C (`c30i` A3330 / `c40i` A3331 — open-ear؛ C40i ليس ترقية بطارية) · سلسلة A (`a25i` A3948 6mm sealed / `a30i` A3958 ANC lipstick) · `p41i` A3937 (علبة باور بانك؛ ANC −34%) · Liberty (`liberty-4-nc` A3947 LDAC stack / `liberty-5` A3957) · `v20i` A3876 (BT 5.4؛ LED tax) · فوق-أذن (`q11i` A3005 بلا ANC / `q20i` A3004 Hybrid ANC). فحص استدعاء 2026-07-24 — لا استدعاء. | م. أحمد سالم |
 | v1.1 | 2026-07-24 | موجة 4/3/7 دفعة 15: Liberty المتبقي (`liberty-3-pro` A3952 / `liberty-air-2-pro` A3951 / `liberty-buds` D1200Z11) · فوق-أذن (`q30` A3028 / `life-q20` A3025 / `space-one` A3035) · `life-u2i` A3213 · `life-p2i` A3991H11 · `k20i` A3994 · `r50i-vi` A3969 (≠A3949) · سماعات §7.7 (`rave-3` A31A3 / `flare-2` A3165011 / `motion-plus` A3116011) · `joyroom-magnetic-power-bank-10000` JR-W050 (32.1Wh / 7.5W MagSafe) · `joyroom-usb-c-lightning-cable` JR-S-CL20 (MFi غير مؤكد). فحص استدعاء 2026-07-24. | م. أحمد سالم |
+| v1.1 | 2026-07-24 | موجة 3/5/6 دفعة 10: كابلات Joyroom (`type-c-lightning-braided` JR-S-CL30B / `type-c-to-type-c` JR-S-CC100 بلا E-marker→سقف ~60W لا 100W / `3-in-1` JR-S-1830G / `usb-a-type-c` JR-S-AC30 / `usb-a-lightning` JR-S-AL24 / `usb-a-micro` JR-S-AM24) · شواحن (`30w-fast` JR-TCF30 ظرف مشترك→14.7W مزدوج / `25w-fast` JR-TCF23 PPS مؤكد / `60w-car` JR-CCL05 69W تسويقي≠51.4W متزامن) · `3-in-1-wireless` JR-WQN01 MagSafe ~7.5W (رفض 15W). فحص استدعاء 2026-07-24. | م. أحمد سالم |
 
 ### قواعد التحديث:
 - أي تعديل جوهري (إضافة معدّة، تغيير قاعدة اتساق، تغيير قائمة الأعلام الحمراء) يستوجب: (1) رفع إصدار minor (v1.0 → v1.1)، (2) توثيق السبب في سجل التغييرات، (3) تحديث تاريخ "آخر تحديث" في Front Matter.
@@ -917,7 +918,8 @@ OCP zap test:
 **الموجة 3 — الكابلات** (بدأت 2026-07-23):
 19. ✅ **مُنجَز 2026-07-23**: `anker-a8050-usb-c-cable`, `anker-powerline-usb-c-lightning`, `joyroom-usb-c-cable-60w`, `joyroom-30w-pd-cable`, `anker-usb-c-lightning-sureistrong`, `anker-zolo-usb-c-braided-cable`
 20. ✅ **مُنجَز 2026-07-24**: `joyroom-usb-c-lightning-cable` (JR-S-CL20 — MFi غير مؤكد vs Anker SureIStrong)
-20+. `joyroom-type-c-lightning-braided` · `joyroom-type-c-to-type-c-cable` · `joyroom-3-in-1-data-cable` · باقي كابلات Anker السطحية
+20b. ✅ **مُنجَز 2026-07-24**: `joyroom-type-c-lightning-braided` (JR-S-CL30B) · `joyroom-type-c-to-type-c-cable` (JR-S-CC100 — بلا E-marker، سقف مقاس ~60W) · `joyroom-3-in-1-data-cable` (JR-S-1830G) · `joyroom-usb-a-type-c-cable` (JR-S-AC30) · `joyroom-usb-a-lightning-cable` (JR-S-AL24) · `joyroom-usb-a-micro-cable` (JR-S-AM24)
+20c+. `joyroom-type-c-lightning-24mos` · `joyroom-type-c-lightning-36mos` · باقي كابلات Anker السطحية · ⚠️ `usb-a-*-1.2m` مستبعدة من Merchant (distinct MPN لكن exclusion list)
 
 **الموجة 4 — السماعات (Soundcore + Joyroom)** (فئة كبيرة، ~20 منتج):
 21. ✅ **مُنجَز 2026-07-23**: `soundcore-p20i-earbuds` (A3949Z11) · `soundcore-p25i-earbuds` (A3949) · `soundcore-p30i-earbuds` · `soundcore-p40i-earbuds` (ANC) · `soundcore-liberty-4-pro` (LDAC + Adaptive ANC)
@@ -928,14 +930,19 @@ OCP zap test:
 26+. سلسلة R aliases (A3949 R50i / A3959 R50i NC — فحص Merchant exclusion قبل إعادة نشر)، Joyroom earbuds إن لزم
 
 **الموجة 5 — إكسسوارات السيارة والحوامل** (~8 منتجات):
-56-63. حوامل Joyroom، شواحن السيارة المتبقية
+29. ✅ **مُنجَز 2026-07-24**: `joyroom-30w-fast-charger` (JR-TCF30) · `joyroom-25w-fast-charger` (JR-TCF23 — PPS) · `joyroom-60w-car-charger` (JR-CCL05)
+30+. حوامل Joyroom (`car-mount-zs290` / `car-phone-mount`) · `anker-powerport-20w` · `anker-powerport-25w` (تحقق MPN A2656111 vs اسم A2322)
 
 **الموجة 6 — الشحن اللاسلكي والمتخصصات** (~5 منتجات):
 27. ✅ **مُنجَز 2026-07-23**: `anker-622-maggo` (A1611 — 7.5W MagSafe / 15.6Wh usable) · `anker-a2216-magnetic-wireless-car-charger` (A2216 — Qi2 14.2W peak lab)
-28+. باقي محطات الشحن اللاسلكي
+28. ✅ **مُنجَز 2026-07-24**: `joyroom-3-in-1-wireless-charging-station` (JR-WQN01 — MagSafe ~7.5W؛ رفض 15W)
+28+. باقي محطات الشحن اللاسلكي إن لزم
+
+**الموجة 4 — Joyroom audio المتبقي + Select 4 Go:**
+31+. `joyroom-jr-t03-wireless-earbuds` · `joyroom-t03s-pro-earbuds` · `soundcore-select-4-go-speaker`
 
 **الموجة 7 — المتبقي** (~10 منتجات):
-69-78. الأقلام، الساعات الذكية، والمتفرقات
+69-78. `joyroom-ft3-smartwatch` · `anker-pencil-stylus` (عمق جزئي) · `anker-soundcore-r50i` (A3949 alias لـ P25i — exclusion) · المتفرقات
 
 ### 16.3 قاعدة الإنجاز
 
