@@ -90,6 +90,16 @@ export const STANDARD_DELIVERY_MIN_DAYS = 1;
 export const STANDARD_DELIVERY_MAX_DAYS = 5;
 
 /**
+ * Return window published on /return-policy.
+ *
+ * Single source for every surface that restates it — Offer.hasMerchantReturnPolicy
+ * on product pages, the store-level MerchantReturnPolicy node, and the machine
+ * answer block in llms.txt. A number that disagrees across those surfaces is
+ * exactly the kind of inconsistency Merchant review and AI answers both punish.
+ */
+export const STANDARD_RETURN_WINDOW_DAYS = 14;
+
+/**
  * Records omitted from Merchant and machine catalogs while their public URLs
  * remain untouched. Two lack stable product landing pages. The P30i record is
  * a regional-name alias of R50i NC: Soundcore identifies both as model A3959.

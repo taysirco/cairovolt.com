@@ -1,12 +1,14 @@
 // Server Component — structured data
 // DO NOT add 'use client' here!
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import { getBrandEntity } from '@/lib/brand-entities';
 import {
     getGtinSchemaProperty,
     getMerchantGtin,
     getMerchantProductUrl,
     normalizeMpn,
     SEO_NOINDEX_PRODUCT_SLUGS,
+    STANDARD_RETURN_WINDOW_DAYS,
 } from '@/lib/merchant-product-data';
 
 interface ProductSchemaProps {
@@ -71,6 +73,17 @@ function getAbsoluteUrl(url: string, baseUrl: string): string {
     return /^https?:\/\//i.test(url) ? url : `${baseUrl}${url}`;
 }
 
+/**
+ * Google merchant listings want an offer price-validity date, a year out so it
+ * never reads as expired. Evaluated once at module load rather than per render:
+ * `Date.now()` inside a component body is impure, which the React Compiler
+ * rejects, and a value that shifts between renders of the same prerendered page
+ * is exactly the instability that rule exists to prevent.
+ */
+const PRICE_VALID_UNTIL = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000)
+    .toISOString()
+    .split('T')[0];
+
 export function ProductSchema({ product, locale, aggregateRating, reviews, specifications, isAccessoryOrSparePartFor }: ProductSchemaProps) {
     const t = product.translations[locale as 'en' | 'ar'] || product.translations.en;
     const isArabic = locale === 'ar';
@@ -78,6 +91,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
     const productUrl = getMerchantProductUrl(product, locale);
     const gtin = getMerchantGtin(product.gtin13, product.gtin);
     const mpn = normalizeMpn(product.mpn);
+    const brandEntity = getBrandEntity(product.brand);
     // Use plain text description for JSON-LD (Google requires 50-5000 chars for Product description)
     const productDisplayName = isArabic
         ? localizeArabicBrandNames(t.name)
@@ -101,11 +115,6 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         'Joyroom': { name: 'JOYROOM', sameAs: 'https://www.joyroom.com/pages/about-joyroom' },
     };
 
-    // Google merchant listings want an offer price-validity date; refresh it a
-    // year out from each build so it never reads as expired.
-    const priceValidUntil = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000)
-        .toISOString()
-        .split('T')[0];
     // Store-wide shipping (mirrors the feed + the site policy): free from 3700 EGP,
     // otherwise a conservative flat 130 EGP within Egypt, 1-5 day transit.
     const FREE_SHIPPING_THRESHOLD_EGP = 3700;
@@ -115,14 +124,23 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         '@context': 'https://schema.org',
         '@type': 'Product',
         '@id': `${productUrl}#product`,
+        // Canonical page for this product — the Offer carries the same URL, but
+        // Product.url is what entity resolvers follow when they read the node
+        // outside an offer context.
+        url: productUrl,
         name: productDisplayName,
         description: plainDescription,
+        inLanguage: isArabic ? 'ar-EG' : 'en-EG',
         sku: product.sku,
         // Only expose identifiers with a supported length and valid GS1 check digit.
         ...getGtinSchemaProperty(gtin),
         ...(mpn && { mpn }),
+        // Keep the inline name (Google's merchant-listings validator reads
+        // brand.name directly) AND carry the shared @id, so this brand resolves
+        // to the same Wikidata-linked entity the site-wide graph defines.
         brand: {
             '@type': 'Brand',
+            ...(brandEntity && { '@id': brandEntity.id }),
             name: product.brand,
         },
         ...(manufacturerMap[product.brand] && {
@@ -172,7 +190,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             url: productUrl,
             priceCurrency: 'EGP',
             price: product.price,
-            priceValidUntil,
+            priceValidUntil: PRICE_VALID_UNTIL,
             availability: SEO_NOINDEX_PRODUCT_SLUGS.has(product.slug)
                 ? 'https://schema.org/Discontinued'
                 : product.stock > 0
@@ -218,7 +236,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 '@type': 'MerchantReturnPolicy',
                 applicableCountry: 'EG',
                 returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
-                merchantReturnDays: 14,
+                merchantReturnDays: STANDARD_RETURN_WINDOW_DAYS,
                 returnMethod: 'https://schema.org/ReturnByMail',
                 returnFees: 'https://schema.org/ReturnFeesCustomerResponsibility',
             },

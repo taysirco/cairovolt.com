@@ -53,8 +53,20 @@ const nextConfig: NextConfig = {
         ],
     },
     experimental: {
-        // Inline route CSS to reduce render-blocking requests.
-        inlineCss: true,
+        // inlineCss is deliberately OFF.
+        //
+        // It saves one request, but this project's Tailwind bundle is ~250 KB,
+        // and Next ships an inlined bundle TWICE per document: once in the
+        // <style> tag and again as a string inside the RSC flight payload (so
+        // the client router can re-apply it on navigation). Measured on the
+        // live site: 511 KB of the 891 KB product-page HTML — 57% — was that
+        // one stylesheet, duplicated, on every single page, uncacheable.
+        //
+        // As an external file it is content-hashed and served
+        // `max-age=31536000, immutable` (see the /_next/static rule below), so
+        // it is fetched once per visitor instead of re-parsed on every page.
+        // Re-enable only if the CSS bundle ever shrinks to true critical-CSS size.
+        inlineCss: false,
         optimizePackageImports: ['next-intl', 'react-hook-form'],  // Tree-shake barrel exports
         staleTimes: {
             dynamic: 180,   // 3 min — RSC payloads stay cached longer in client router

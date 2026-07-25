@@ -1,7 +1,9 @@
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { buildBrandSchemaNodes } from '@/lib/brand-entities';
 import {
     STANDARD_DELIVERY_MAX_DAYS,
     STANDARD_DELIVERY_MIN_DAYS,
+    STANDARD_RETURN_WINDOW_DAYS,
     STANDARD_SHIPPING_MAX_EGP,
     STANDARD_SHIPPING_MIN_EGP,
 } from '@/lib/merchant-product-data';
@@ -10,6 +12,9 @@ import {
 export default function GlobalBusinessSchema({ locale }: { locale: string }) {
     const isArabic = locale === 'ar';
     const policyPrefix = isArabic ? '' : '/en';
+    // Wikidata-linked Brand nodes. Emitted once per page in the site-wide graph
+    // so product, category, and brand pages can all reference them by @id.
+    const brandSchemaNodes = buildBrandSchemaNodes(locale);
 
     const globalPayload = {
         '@context': 'https://schema.org',
@@ -51,6 +56,37 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 description: isArabic
                     ? 'كايرو فولت بائع تجزئة إلكتروني مستقل لإكسسوارات الموبايل ومنتجات انكر وجوي روم، مع مواصفات وأسعار وسياسات مكتوبة وخدمة توصيل داخل مصر.'
                     : 'CairoVolt is an independent online retailer of mobile accessories and Anker and Joyroom products, with published specifications, prices, policies, and delivery within Egypt.',
+                // Topical scope of the store, stated as entities rather than
+                // keywords. This is what an entity resolver reads to decide
+                // which subject area the organization is an authority in.
+                knowsAbout: isArabic
+                    ? [
+                        'باور بانك',
+                        'شواحن USB-C',
+                        'شحن سريع Power Delivery',
+                        'كابلات شحن',
+                        'سماعات لاسلكية',
+                        'إكسسوارات الموبايل في مصر',
+                    ]
+                    : [
+                        'Power banks',
+                        'USB-C chargers',
+                        'USB Power Delivery fast charging',
+                        'Charging cables',
+                        'Wireless earbuds',
+                        'Mobile accessories in Egypt',
+                    ],
+                // NOTE — deliberately NOT set on this node:
+                // • `brand`: schema.org defines it as brands *maintained by* the
+                //   organization. CairoVolt resells Anker/Soundcore/Joyroom and
+                //   states plainly that it is not their agent or distributor, so
+                //   claiming them here would contradict that disclosure. The
+                //   Brand entities live as standalone nodes in this @graph and
+                //   are referenced from each Product.brand instead.
+                // • `currenciesAccepted` / `paymentAccepted`: LocalBusiness-only
+                //   properties; OnlineStore descends from Organization. Currency
+                //   and COD are stated where they validate — Offer.priceCurrency
+                //   and Offer.acceptedPaymentMethod on each product page.
                 logo: {
                     '@type': 'ImageObject',
                     url: 'https://cairovolt.com/logo.png',
@@ -163,7 +199,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     applicableCountry: 'EG',
                     returnPolicyCountry: 'EG',
                     returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
-                    merchantReturnDays: 14,
+                    merchantReturnDays: STANDARD_RETURN_WINDOW_DAYS,
                     itemCondition: 'https://schema.org/NewCondition',
                     returnMethod: 'https://schema.org/ReturnByMail',
                     returnFees: 'https://schema.org/ReturnFeesCustomerResponsibility',
@@ -173,6 +209,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     merchantReturnLink: `https://cairovolt.com${policyPrefix}/return-policy`,
                 },
             },
+            ...brandSchemaNodes,
         ],
     };
 

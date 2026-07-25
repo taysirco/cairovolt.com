@@ -7,15 +7,10 @@ import {
 } from '@/lib/merchant-product-data';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { getAgentLabSummary } from '@/lib/agent-lab-export';
+import { buildBrandSchemaNodes, getBrandEntity } from '@/lib/brand-entities';
 
 // Structured-data endpoint for the store, listed brands, and active products.
 export const revalidate = 86400;
-
-const BRAND_AR: Record<string, string> = {
-    anker: 'انكر',
-    joyroom: 'جوي روم',
-    soundcore: 'ساوندكور',
-};
 
 export async function GET() {
     const baseUrl = 'https://cairovolt.com';
@@ -64,6 +59,18 @@ export async function GET() {
             "https://www.youtube.com/@cairovolt",
         ],
         "description": "CairoVolt is an independent online retailer of mobile accessories and Anker and Joyroom products, with published specifications, prices, policies, and delivery within Egypt.",
+        // Mirrors the on-page node's topical scope — see GlobalBusinessSchema.
+        "knowsAbout": [
+            "Power banks",
+            "USB-C chargers",
+            "USB Power Delivery fast charging",
+            "Charging cables",
+            "Wireless earbuds",
+            "Mobile accessories in Egypt",
+        ],
+        // No currenciesAccepted/paymentAccepted: LocalBusiness-only properties,
+        // and this is an OnlineStore (Organization branch). Same reasoning as
+        // the on-page node in GlobalBusinessSchema.
         "areaServed": {
             "@type": "Country",
             "name": "Egypt",
@@ -81,16 +88,14 @@ export async function GET() {
         product.status === 'active'
         && !MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(product.slug)
     );
-    const brandNames = [...new Set(activeProducts.map(product => product.brand))];
-    for (const brand of brandNames) {
-        const brandKey = brand.toLowerCase();
-        const arName = BRAND_AR[brandKey];
-        graph["@graph"].push({
-            "@type": "Brand",
-            "@id": `${baseUrl}/#brand-${brandKey}`,
-            "name": brand,
-            ...(arName ? { alternateName: arName } : {}),
-        });
+    // Same Wikidata-linked Brand nodes, same @ids, as the on-page @graph
+    // (GlobalBusinessSchema) — one shared source, so an entity resolver merging
+    // the two surfaces never sees two different definitions of "Anker".
+    const stockedBrandKeys = new Set(activeProducts.map(product => product.brand.toLowerCase()));
+    for (const brandNode of buildBrandSchemaNodes('en')) {
+        if (stockedBrandKeys.has(String(brandNode.name).toLowerCase())) {
+            graph["@graph"].push(brandNode);
+        }
     }
 
     graph["@graph"].push({
@@ -109,7 +114,7 @@ export async function GET() {
 
     for (const product of activeProducts) {
         const brandKey = product.brand.toLowerCase();
-        const brandId = `${baseUrl}/#brand-${brandKey}`;
+        const brandId = getBrandEntity(product.brand)?.id ?? `${baseUrl}/#brand-${brandKey}`;
         const isSoundcoreProduct = brandKey === 'soundcore';
         const productUrl = getMerchantProductUrl(product);
         const lab = getAgentLabSummary(product.slug, 'en');
