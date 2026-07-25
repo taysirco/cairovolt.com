@@ -164,7 +164,19 @@ export default async function DynamicCategoryPage({ params }: Props) {
         return 0;
     });
 
-    // Map to the interface expected by CategoryTemplate
+    // Map to the interface expected by CategoryTemplate.
+    //
+    // CategoryTemplate is a CLIENT component, so every field handed to it is
+    // serialised into the page's RSC payload and shipped to the browser. It
+    // reads exactly six things per product (see its `displayProducts` memo):
+    // id, slug, price, originalPrice, stock, categorySlug, `images[0].url`,
+    // and `translations.{ar,en}.{name,shortDescription}`.
+    //
+    // Passing whole catalogue records instead put the full bilingual product
+    // body — long HTML `description`, features, faqs, specifications,
+    // metaTitle/metaDesc, buyer checklists — plus every gallery image into the
+    // HTML of every category page, where nothing ever read it. Project down to
+    // the fields actually consumed; the rendered output is byte-identical.
     const initialProducts = staticProducts.map(p => ({
         id: `static_${p.slug}`,
         slug: p.slug,
@@ -173,8 +185,18 @@ export default async function DynamicCategoryPage({ params }: Props) {
         price: p.price,
         originalPrice: p.originalPrice,
         stock: p.stock,
-        images: p.images.map(img => ({ url: img.url, alt: img.alt, isPrimary: img.isPrimary })),
-        translations: p.translations
+        // Only images[0] is rendered (the card thumbnail) — keep its shape, drop the gallery.
+        images: p.images.slice(0, 1).map(img => ({ url: img.url, alt: img.alt, isPrimary: img.isPrimary })),
+        translations: {
+            ar: {
+                name: p.translations?.ar?.name,
+                shortDescription: p.translations?.ar?.shortDescription,
+            },
+            en: {
+                name: p.translations?.en?.name,
+                shortDescription: p.translations?.en?.shortDescription,
+            },
+        },
     }));
 
     return (
