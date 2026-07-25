@@ -52,6 +52,10 @@ export function GET() {
                         href: `${BASE_URL}/.well-known/llms.txt`,
                         type: 'text/plain',
                     },
+                    {
+                        href: `${BASE_URL}/.well-known/llms-full.txt`,
+                        type: 'text/plain',
+                    },
                 ],
             },
         ],

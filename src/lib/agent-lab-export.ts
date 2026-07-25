@@ -81,16 +81,31 @@ export function getAgentLabSummary(
     return buildAgentLabSummary(slug, getProductDetail(slug), locale, options);
 }
 
-/** Compact markdown block for product MD / llms-full / catalog. */
+/**
+ * Compact markdown block for product MD / llms-full / catalog.
+ *
+ * `baseLevel` is the heading depth of the block's own sections and MUST sit one
+ * level below the heading of the section this block is embedded in. Get it wrong
+ * and the lab data stops being a child of its product: an agent chunking the
+ * document by heading emits orphan "Lab verdict" chunks with no product name in
+ * them, which is how a measured figure ends up attributed to the wrong product.
+ *
+ * Default 2 suits a document where each product is an `#` H1 (the per-product
+ * markdown served by /api/markdown-negotiate). llms-full.txt lists products as
+ * `##`, so it passes 3.
+ */
 export function formatAgentLabMarkdown(
     summary: AgentLabSummary,
     locale: AgentLocale,
+    baseLevel: 2 | 3 = 2,
 ): string {
     const isAr = locale === 'ar';
+    const h = '#'.repeat(baseLevel);
+    const hSub = '#'.repeat(baseLevel + 1);
     const lines: string[] = [];
 
     if (summary.aiTldr.length) {
-        lines.push(isAr ? '## خلاصة للوكلاء (aiTldr)' : '## Agent TL;DR (aiTldr)');
+        lines.push(isAr ? `${h} خلاصة للوكلاء (aiTldr)` : `${h} Agent TL;DR (aiTldr)`);
         lines.push('');
         for (const bullet of summary.aiTldr) {
             lines.push(`- ${bullet}`);
@@ -99,7 +114,7 @@ export function formatAgentLabMarkdown(
     }
 
     if (summary.verdict || summary.hasBench) {
-        lines.push(isAr ? '## خلاصة المختبر' : '## Lab verdict');
+        lines.push(isAr ? `${h} خلاصة المختبر` : `${h} Lab verdict`);
         lines.push('');
         if (summary.verdict) lines.push(summary.verdict);
         const meta: string[] = [];
@@ -112,7 +127,7 @@ export function formatAgentLabMarkdown(
     }
 
     if (summary.keyResults.length) {
-        lines.push(isAr ? '## قياسات مختارة' : '## Key measured results');
+        lines.push(isAr ? `${h} قياسات مختارة` : `${h} Key measured results`);
         lines.push('');
         lines.push(
             isAr
@@ -131,13 +146,13 @@ export function formatAgentLabMarkdown(
 
     if (summary.pros.length || summary.limits.length) {
         if (summary.pros.length) {
-            lines.push(isAr ? '### نقاط قوة مقاسة' : '### Measured strengths');
+            lines.push(isAr ? `${hSub} نقاط قوة مقاسة` : `${hSub} Measured strengths`);
             lines.push('');
             for (const p of summary.pros.slice(0, 5)) lines.push(`- ${p}`);
             lines.push('');
         }
         if (summary.limits.length) {
-            lines.push(isAr ? '### حدود / تحفظات' : '### Limits / caveats');
+            lines.push(isAr ? `${hSub} حدود / تحفظات` : `${hSub} Limits / caveats`);
             lines.push('');
             for (const p of summary.limits.slice(0, 5)) lines.push(`- ${p}`);
             lines.push('');

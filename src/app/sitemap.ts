@@ -8,9 +8,37 @@ import { logger } from '@/lib/logger';
 import { blogIndex, isIndexEntryLive } from '@/data/blog-index';
 import { genericCategories } from '@/data/generic-categories';
 import { getFirestore } from '@/lib/firebase-admin';
-import { SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
+import { CATALOG_LAST_REVIEWED_AT, SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
 
 const baseUrl = 'https://cairovolt.com';
+
+/**
+ * Catalog surfaces (home, brand hubs, category pages, product pages, location
+ * pages) all render the same catalog data, so they share ONE honest
+ * lastModified: the date of the last full catalog content and offer review.
+ *
+ * Google discards lastmod it judges unreliable — a date that moves to "today"
+ * on every build is the classic way to lose the signal. Pinning these to the
+ * real review date keeps lastmod trustworthy and lets it actually influence
+ * recrawl scheduling.
+ */
+const catalogReviewedAt = new Date(CATALOG_LAST_REVIEWED_AT);
+
+/**
+ * Coerce a Firestore Timestamp / Date / ISO string into a usable Date.
+ * Returns undefined for anything unparseable so the caller falls back to the
+ * catalog review date rather than emitting an invalid <lastmod>.
+ */
+function toValidDate(value: unknown): Date | undefined {
+    if (!value) return undefined;
+    const candidate =
+        typeof (value as { toDate?: () => Date }).toDate === 'function'
+            ? (value as { toDate: () => Date }).toDate()
+            : new Date(value as string | number | Date);
+    return candidate instanceof Date && !Number.isNaN(candidate.getTime())
+        ? candidate
+        : undefined;
+}
 
 // Keep route segments in the same lowercase form used by the application.
 const toLower = (str: string) => str.toLowerCase();
@@ -72,7 +100,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const routes: MetadataRoute.Sitemap = [];
 
     // ── Home ──
-    addBilingual(routes, '', 1.0, 'weekly');
+    addBilingual(routes, '', 1.0, 'weekly', catalogReviewedAt);
 
     // ── Static Pages ──
     addBilingual(routes, '/about', 0.5, 'monthly', new Date('2025-12-01'));
@@ -92,7 +120,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     // ── Brand Pages ──
     Object.keys(brandData).forEach(brandId => {
-        addBilingual(routes, `/${toLower(brandId)}`, 0.9, 'weekly');
+        addBilingual(routes, `/${toLower(brandId)}`, 0.9, 'weekly', catalogReviewedAt);
     });
 
     // ── Soundcore Hub (Anker audio sub-brand) ──
@@ -105,7 +133,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     Object.keys(categoryContent).forEach(brandId => {
         const brandSlug = toLower(brandId);
         Object.keys(categoryContent[brandId]).forEach(catSlug => {
-            addBilingual(routes, `/${brandSlug}/${toLower(catSlug)}`, 0.8, 'weekly');
+            addBilingual(routes, `/${brandSlug}/${toLower(catSlug)}`, 0.8, 'weekly', catalogReviewedAt);
         });
     });
 
@@ -118,7 +146,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             const path = `/${toLower(product.brand)}/${toLower(product.categorySlug)}/${product.slug}`;
             // 'weekly' is the honest cadence — product copy rarely changes daily,
             // and overstating freshness erodes sitemap trust.
-            addBilingual(routes, path, 0.9, 'weekly');
+            addBilingual(routes, path, 0.9, 'weekly', catalogReviewedAt);
         });
 
     // Firebase-only products (hard 12s ceiling so prerender never stalls the build)
@@ -142,7 +170,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
                     && !SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS.has(data.slug)
                 ) {
                     const path = `/${toLower(data.brand)}/${toLower(data.categorySlug)}/${data.slug}`;
-                    addBilingual(routes, path, 0.9, 'daily');
+                    // Same honest cadence as static products, and the document's
+                    // own updatedAt when Firestore actually carries one.
+                    addBilingual(routes, path, 0.9, 'weekly', toValidDate(data.updatedAt) ?? catalogReviewedAt);
                 }
             });
         }
@@ -152,20 +182,28 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     // ── Generic Category Pages ──
     genericCategories.forEach(cat => {
-        addBilingual(routes, `/${cat.slug}`, 0.8, 'weekly');
+        addBilingual(routes, `/${cat.slug}`, 0.8, 'weekly', catalogReviewedAt);
     });
 
     // ── Blog ── (only LIVE articles — scheduled/future ones stay out of the
     // sitemap until their publishDate arrives; the sitemap is dynamic so it
     // picks up each article on its scheduled day.)
-    addBilingual(routes, '/blog', 0.7, 'weekly');
-    blogIndex.filter(a => isIndexEntryLive(a)).forEach(article => {
+    const liveArticles = blogIndex.filter(a => isIndexEntryLive(a));
+    // The index's real freshness is its newest live article, not the build time.
+    const newestArticleAt = liveArticles.reduce<Date | undefined>((latest, article) => {
+        const modified = toValidDate(article.modifiedDate);
+        return modified && (!latest || modified > latest) ? modified : latest;
+    }, undefined);
+    addBilingual(routes, '/blog', 0.7, 'weekly', newestArticleAt);
+    liveArticles.forEach(article => {
         addBilingual(routes, `/blog/${article.slug}`, 0.8, 'monthly', new Date(article.modifiedDate));
     });
 
     // ── Governorate Location Pages ──
+    // Templated from the same catalog + shipping data, so they share its
+    // review date rather than claiming an independent update cadence.
     governorates.forEach(gov => {
-        addBilingual(routes, `/locations/${gov.slug}`, 0.8, 'weekly');
+        addBilingual(routes, `/locations/${gov.slug}`, 0.8, 'weekly', catalogReviewedAt);
     });
 
     // ── Solution Pages ──

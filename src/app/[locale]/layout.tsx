@@ -153,6 +153,18 @@ export default async function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         {/* OpenSearch */}
         <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CairoVolt Search" />
+        {/* Catalogue RSS autodiscovery — the feed existed but was only reachable
+            from llms.txt, so feed readers and syndication crawlers never saw it.
+            Kept as a literal <link> rather than metadata.alternates because
+            per-page generateMetadata replaces the whole alternates object. */}
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          href="/feed.xml"
+          title={locale === 'ar' ? 'كتالوج منتجات كايرو فولت' : 'CairoVolt Product Catalogue'}
+        />
+        {/* Machine-readable representation of this site for AI agents (llmstxt.org) */}
+        <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
         {/* hreflang tags are generated dynamically by each page's generateMetadata → alternates.languages */}
         {/* Theme: intentionally light-only. The old inline script forced .dark by
             OS preference OR wall-clock (18:00–06:00), flipping half the UI at

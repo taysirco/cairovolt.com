@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { staticProducts } from '@/lib/static-products';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import {
+    CATALOG_LAST_REVIEWED_AT,
     getMerchantGtin,
     getMerchantProductUrl,
     MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
@@ -28,7 +29,10 @@ export function GET() {
         && !MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(product.slug)
     );
     const available = publishedProducts.filter(product => product.stock > 0);
-    const updated = new Date().toISOString().split('T')[0];
+    // The date of the last real catalog review, not the request date. The old
+    // `new Date()` restamped this document "updated today" on every fetch, which
+    // makes the freshness claim meaningless and defeats client-side caching.
+    const updated = CATALOG_LAST_REVIEWED_AT.split('T')[0];
 
     const productSections = publishedProducts.map(product => {
         const brand = product.brand || 'Unknown';
@@ -55,13 +59,18 @@ export function GET() {
         if (featuresEn.length) section += `- Features: ${featuresEn.join('; ')}\n`;
         if (featuresAr.length) section += `- المميزات: ${featuresAr.join('؛ ')}\n`;
         section += `- Product page: ${url}\n`;
+        // Level 3: products are `## ` in this document, so the lab block must
+        // nest UNDER the product. At the default level 2 it rendered as a
+        // sibling — 88 products produced 530 H2s, and any agent chunking by
+        // heading got "Lab verdict" blocks with no product name attached.
         if (labEn) {
-            section += `\n${formatAgentLabMarkdown(labEn, 'en')}\n`;
+            section += `\n${formatAgentLabMarkdown(labEn, 'en', 3)}\n`;
         }
         if (labAr && labAr.aiTldr.length) {
             section += `\n${formatAgentLabMarkdown(
                 { ...labAr, keyResults: [], methodology: '', pros: [], limits: [] },
                 'ar',
+                3,
             )}\n`;
         }
         return section;
@@ -70,7 +79,7 @@ export function GET() {
     const content = `# CairoVolt Detailed Catalog Reference
 # مرجع كتالوج كايرو فولت
 
-> Generated from the storefront catalog. Updated ${updated}.
+> Generated from the storefront catalog. Catalog last reviewed ${updated}.
 > Product pages are the source of truth for current price, availability, warranty, delivery, and return terms.
 > Machine lab export: ${baseUrl}/api/lab-data/json
 

@@ -1,3 +1,11 @@
+# CairoVolt — https://cairovolt.com
+# Two rule groups: classic search crawlers, then AI retrieval/agent crawlers.
+# A crawler obeys only its MOST SPECIFIC matching group, so every group repeats
+# the full rule set instead of inheriting from `*`.
+
+# ─────────────────────────────────────────────────────────────
+# 1. Search engines and everything not named below
+# ─────────────────────────────────────────────────────────────
 User-agent: *
 Allow: /
 Allow: /.well-known/
@@ -24,22 +32,65 @@ Disallow: /api/reviews
 Disallow: /api/seed
 Disallow: /api/serials
 Disallow: /api/v1/
+# Markdown twin of every HTML page (Accept: text/markdown negotiation target).
+# Search engines already receive the HTML original at the canonical URL, so
+# crawling the alternate representation is pure crawl-budget waste. AI agents
+# keep explicit access in the group below.
+Disallow: /api/markdown-negotiate
 
 # Allow lines for /api/v1/checkout and /api/v1/quick-cod override /api/v1/ Disallow (Google longest-match).
 
+# ─────────────────────────────────────────────────────────────
+# 2. AI crawlers — training, retrieval/index, and user-triggered agents
+#    Same access as search engines, plus the machine-readable surfaces
+#    (llms.txt, catalog markdown, lab exports, entity graph, OpenAPI).
+#    Review this list ~2×/year: new AI user-agent tokens ship regularly.
+# ─────────────────────────────────────────────────────────────
+# OpenAI: training / search index / in-chat agent
 User-agent: GPTBot
+User-agent: OAI-SearchBot
 User-agent: ChatGPT-User
+# Anthropic: training / search index / in-chat agent (+ legacy tokens)
 User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: Claude-Web
 User-agent: anthropic-ai
+# Google AI surfaces (Gemini grounding, AI Overviews training, Vertex agents)
 User-agent: Google-Extended
+User-agent: Google-CloudVertexBot
+# Perplexity: index / in-chat agent
 User-agent: PerplexityBot
+User-agent: Perplexity-User
+# Apple: Siri and Spotlight index / AI training
+User-agent: Applebot
 User-agent: Applebot-Extended
+# Meta AI
+User-agent: meta-externalagent
+User-agent: Meta-ExternalFetcher
+User-agent: FacebookBot
+# Other assistants and datasets
+User-agent: Amazonbot
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: CCBot
+User-agent: AI2Bot
+User-agent: YouBot
+User-agent: Diffbot
+User-agent: Timpibot
+User-agent: omgili
+User-agent: omgilibot
+User-agent: PetalBot
 User-agent: Bytespider
+User-agent: TikTokSpider
 Allow: /
 Allow: /.well-known/
 Allow: /api/llms/
 Allow: /api/lab-data/
 Allow: /api/knowledge-graph
+Allow: /api/markdown-negotiate
 Allow: /api/openapi.json
 Allow: /api/products
 Allow: /api/feed
@@ -52,10 +103,13 @@ Disallow: /checkout
 Disallow: /confirm
 Disallow: /review/
 Disallow: /api/admin/
+Disallow: /api/categories
+Disallow: /api/indexing
 Disallow: /api/orders
 Disallow: /api/reviews
 Disallow: /api/seed
 Disallow: /api/serials
+Disallow: /api/v1/
 
 Sitemap: https://cairovolt.com/sitemap.xml
 Sitemap: https://cairovolt.com/image-sitemap.xml

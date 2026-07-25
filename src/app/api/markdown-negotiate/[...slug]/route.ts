@@ -121,6 +121,9 @@ export async function GET(
     const path = slug.join('/');
     const baseUrl = BASE_URL;
     const isHome = path === 'index' || path === '';
+    // The HTML page this markdown is an alternate representation OF. Every 200
+    // below advertises it as rel="canonical" (see markdownContent).
+    const canonicalUrl = isHome ? BASE_URL : `${BASE_URL}/${path}`;
 
     // Homepage → serve llms.txt (our comprehensive markdown representation).
     // Call the route handler DIRECTLY — an HTTP self-fetch here once pinned a
@@ -130,14 +133,9 @@ export async function GET(
         try {
             const { GET: llmsGet } = await import('@/app/.well-known/llms.txt/route');
             const llmsContent = await llmsGet().text();
-            return new NextResponse(llmsContent, {
-                headers: {
-                    'Content-Type': 'text/markdown; charset=utf-8',
-                    'Vary': 'Accept',
-                    'Cache-Control': 'public, max-age=3600, s-maxage=3600',
-                    'X-Content-Source': 'llms.txt',
-                },
-            });
+            const homeResponse = markdownContent(llmsContent, canonicalUrl);
+            homeResponse.headers.set('X-Content-Source', 'llms.txt');
+            return homeResponse;
         } catch {
             // Fall through to generic handler
         }
@@ -216,13 +214,7 @@ export async function GET(
 
         if (product) {
             const md = generateProductMarkdown(product, localePrefix);
-            return new NextResponse(md, {
-                headers: {
-                    'Content-Type': 'text/markdown; charset=utf-8',
-                    'Vary': 'Accept',
-                    'Cache-Control': 'public, max-age=3600, s-maxage=3600',
-                },
-            });
+            return markdownContent(md, canonicalUrl);
         }
 
         // No matching brand+category+slug in the catalog → not found,
@@ -260,7 +252,7 @@ export async function GET(
         }
 
         if (hubMd) {
-            return markdownContent(hubMd);
+            return markdownContent(hubMd, canonicalUrl);
         }
 
         // Allowlisted collection roots must always have a generator. Never serve
@@ -280,22 +272,22 @@ export async function GET(
 
     // Lab hub — measured index + methodology (same truth as HTML /lab).
     if (routeSegments.length === 1 && routeSegments[0] === 'lab') {
-        return markdownContent(generateLabHubMarkdown(hubLocale, localePrefix));
+        return markdownContent(generateLabHubMarkdown(hubLocale, localePrefix), canonicalUrl);
     }
 
     // Solutions listing + individual solution pages.
     if (routeSegments.length === 1 && routeSegments[0] === 'solutions') {
-        return markdownContent(generateSolutionsListingMarkdown(hubLocale, localePrefix));
+        return markdownContent(generateSolutionsListingMarkdown(hubLocale, localePrefix), canonicalUrl);
     }
     if (routeSegments.length === 2 && routeSegments[0] === 'solutions') {
         const solutionMd = generateSolutionMarkdown(routeSegments[1], hubLocale, localePrefix);
-        if (solutionMd) return markdownContent(solutionMd);
+        if (solutionMd) return markdownContent(solutionMd, canonicalUrl);
         return markdownNotFound(path);
     }
 
     // Blog listing → live article index with links.
     if (routeSegments.length === 1 && routeSegments[0] === 'blog') {
-        return markdownContent(generateBlogListingMarkdown(isArabicSurface, localePrefix));
+        return markdownContent(generateBlogListingMarkdown(isArabicSurface, localePrefix), canonicalUrl);
     }
 
     // Live blog articles → full article markdown. Unknown or not-yet-published
@@ -304,14 +296,14 @@ export async function GET(
     if (routeSegments.length === 2 && routeSegments[0] === 'blog') {
         const article = await getBlogArticleBySlug(routeSegments[1]);
         if (article) {
-            return markdownContent(generateBlogArticleMarkdown(article, isArabicSurface, localePrefix));
+            return markdownContent(generateBlogArticleMarkdown(article, isArabicSurface, localePrefix), canonicalUrl);
         }
         return markdownNotFound(path);
     }
 
     // Policy and info pages → the same published copy the HTML pages render.
     if (routeSegments.length === 1 && KNOWN_PAGE_SLUGS.has(routeSegments[0])) {
-        return markdownContent(generateKnownPageMarkdown(routeSegments[0], isArabicSurface, localePrefix));
+        return markdownContent(generateKnownPageMarkdown(routeSegments[0], isArabicSurface, localePrefix), canonicalUrl);
     }
 
     // Generic fallback for remaining known static pages (contact, locations,
@@ -338,13 +330,7 @@ CairoVolt is an Egyptian online store for **Anker**, **Joyroom**, and **Soundcor
 - Website: ${baseUrl}
 `;
 
-    return new NextResponse(md, {
-        headers: {
-            'Content-Type': 'text/markdown; charset=utf-8',
-            'Vary': 'Accept',
-            'Cache-Control': 'public, max-age=3600, s-maxage=3600',
-        },
-    });
+    return markdownContent(md, canonicalUrl);
 }
 
 
@@ -355,13 +341,26 @@ function plainText(value: string | undefined): string {
         .trim();
 }
 
-// Shared 200 response for negotiated markdown content pages.
-function markdownContent(md: string): NextResponse {
+/**
+ * Shared 200 response for negotiated markdown content pages.
+ *
+ * This markdown is an ALTERNATE REPRESENTATION of an HTML page that already
+ * exists at a canonical URL, so it must never compete with that page in a
+ * search index. Two headers enforce that:
+ *   - `X-Robots-Tag: noindex` drops /api/markdown-negotiate/* from indexes.
+ *   - `Link: <html-url>; rel="canonical"` consolidates any signal a crawler
+ *     that reaches the alternate format anyway would otherwise strand there.
+ * Neither header blocks fetching, so AI agents keep full access — and robots.txt
+ * still allows the path explicitly for the AI crawler group.
+ */
+function markdownContent(md: string, canonicalUrl: string): NextResponse {
     return new NextResponse(md, {
         headers: {
             'Content-Type': 'text/markdown; charset=utf-8',
             'Vary': 'Accept',
             'Cache-Control': 'public, max-age=3600, s-maxage=3600',
+            'X-Robots-Tag': 'noindex',
+            Link: `<${canonicalUrl}>; rel="canonical"`,
         },
     });
 }
