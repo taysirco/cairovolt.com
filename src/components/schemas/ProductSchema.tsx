@@ -253,8 +253,21 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 worstRating: aggregateRating.worstRating,
             },
         }),
-        // Individual reviews are included only when supplied by the verified-review source.
-        ...(reviews && reviews.length > 0 && {
+        // Individual reviews are included only when supplied by the verified-review
+        // source AND an aggregateRating exists to accompany them.
+        //
+        // Google: "If you include multiple individual reviews, also include an
+        // aggregate rating of the individual reviews." calculateVerifiedAggregateRating
+        // deliberately withholds an aggregate below 3 reviews (2 ratings is not a
+        // meaningful average), so a product with 1-2 reviews used to emit review[]
+        // with no aggregateRating — the Rich Results Test failed those as
+        // "Review snippets: N invalid items detected".
+        //
+        // Gating both on the same condition keeps the markup internally consistent:
+        // either the product has enough verified reviews to carry a rating, or it
+        // publishes neither. The reviews still render on the page for shoppers;
+        // only the structured data waits until the aggregate is honest.
+        ...(aggregateRating && reviews && reviews.length > 0 && {
             review: reviews.map(r => ({
                 '@type': 'Review',
                 name: isArabic ? `مراجعة ${r.author} لـ ${productDisplayName}` : `${r.author}'s Review of ${productDisplayName}`,
