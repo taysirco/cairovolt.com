@@ -33,6 +33,10 @@ permissions:
 jobs:
   post-scheduled:
     name: Post articles that went live (per schedule)
+    # النشر من الريبو الإنتاجي بس. النسخة المرآة (althaqelco/cairovolt.com)
+    # ماعندهاش الـ secrets فبتفشل كل 6 ساعات، ولو اتضافت لها هتنشر نفس
+    # المقال مرتين على فيسبوك/انستجرام وهيبقى فيه سجلّين متعارضين.
+    if: github.repository == 'taysirco/cairovolt.com'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -79,7 +83,7 @@ jobs:
   check-token-expiry:
     name: 🔑 Check Token Expiry
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch' && github.repository == 'taysirco/cairovolt.com'
     steps:
       - name: Check Token Age
         continue-on-error: true
