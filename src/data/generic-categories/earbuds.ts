@@ -4,8 +4,8 @@ import type { GenericCategory } from './_types';
 export const earbuds_generic: GenericCategory = {
         slug: 'earbuds',
         brandCategories: [
-            { brand: 'Soundcore', brandSlug: 'Soundcore', categorySlug: 'audio' },
-            { brand: 'Joyroom', brandSlug: 'Joyroom', categorySlug: 'audio' },
+            { brand: 'Soundcore', brandSlug: 'soundcore', categorySlug: 'audio' },
+            { brand: 'Joyroom', brandSlug: 'joyroom', categorySlug: 'audio' },
         ],
         metadata: {
             ar: {

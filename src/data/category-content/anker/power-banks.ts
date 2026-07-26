@@ -49,17 +49,17 @@ export const anker_power_banks_content: CategoryContent = {
                 ],
                 faq: {
                     ar: [
-                        { question: 'ما الفرق بين باور بانك انكر 10000 و 20000 مللي أمبير؟', answer: 'راجع جدول السعات في دليل الشراء بالأسفل. باختصار: 10K للجيب واليوم العادي، 20K للسفر والرحلات الطويلة.' },
+                        { question: 'ما الفرق بين باور بانك انكر 10000 و 20000 مللي أمبير؟', answer: '10,000 مللي أمبير للجيب واليوم العادي، و20,000 للسفر والرحلات الطويلة أو لشحن أكثر من جهاز. الطاقة القابلة للاستخدام أقل من السعة المعلنة بعد فقد التحويل — الرقم المقاس لكل موديل على صفحته.' },
                         { question: 'هل باور بانك انكر Prime يشحن لابتوب MacBook؟', answer: 'يمكن للموديل الذي يوفر خرج USB-C PD مناسباً شحن MacBook متوافق. راجع قدرة اللابتوب وتوزيع الطاقة عند توصيل عدة أجهزة وتصنيف الكابل في صفحة الموديل.' },
                         { question: 'أيهما أفضل باور بانك انكر أم شاومي (Xiaomi)؟', answer: 'لا توجد نتيجة واحدة لكل الموديلات. قارن السعة بوحدة Wh، خرج USB-C، توزيع القدرة، الوزن، خصائص الحماية، وضمان كل منتج. اختر الموديل الذي يطابق جهازك واحتياجك بدلاً من المقارنة بالعلامة وحدها.' },
-                        { question: 'كم مرة يشحن باور بانك انكر iPhone 17 Pro؟', answer: 'القاعدة: كل 5,000mAh = شحنة كاملة تقريباً (بعد خصم 15% خسارة التحويل). راجع الجدول في دليل الشراء للأرقام الدقيقة حسب الموديل.' },
+                        { question: 'كم مرة يشحن باور بانك انكر iPhone 17 Pro؟', answer: 'كقاعدة تقريبية: كل 5,000 مللي أمبير ≈ شحنة كاملة بعد فقد التحويل. العدد الفعلي يختلف حسب الموديل والكابل والحرارة — صفحة كل منتج تعرض الطاقة القابلة للاستخدام بالـWh التي قِسناها.' },
                         { question: 'هل باور بانك انكر مسموح على الطائرة؟', answer: 'راجع قيمة Wh المطبوعة على الموديل وقواعد شركة الطيران والبلد قبل السفر؛ تختلف الموافقة وطريقة الحمل حسب الرحلة. لا تعتمد على mAh أو اسم الموديل وحدهما.' }
                     ],
                     en: [
-                        { question: 'What is the difference between Anker 10000mAh and 20000mAh power bank?', answer: 'See the detailed capacity comparison in our buying guide below. Short version: 10K for pocket carry and light daily use, 20K for travel and heavy multi-device usage.' },
+                        { question: 'What is the difference between Anker 10000mAh and 20000mAh power bank?', answer: '10,000mAh suits pocket carry and light daily use; 20,000mAh suits travel and charging more than one device. Usable energy is lower than the rated capacity after conversion loss — each product page lists the figure we measured for that unit.' },
                         { question: 'Can Anker Prime power bank charge a MacBook laptop?', answer: 'A model with sufficient USB-C PD output can charge a compatible MacBook. Check the laptop requirement, multi-device power distribution, and cable rating on the exact product page.' },
                         { question: 'Which is better: Anker or Xiaomi power bank?', answer: 'There is no single result across every model. Compare Wh capacity, USB-C output, power distribution, weight, listed protections, and each product warranty, then choose for your device and use case.' },
-                        { question: 'How many times can an Anker power bank charge iPhone 17 Pro?', answer: 'Rule: every 5,000mAh ≈ one full charge (after 15% conversion loss). See the exact per-model numbers in our buying guide below.' },
+                        { question: 'How many times can an Anker power bank charge iPhone 17 Pro?', answer: 'As a rough rule, every 5,000mAh ≈ one full charge after conversion loss. The real count varies by model, cable and heat — each product page shows the usable Wh we measured for that unit.' },
                         { question: 'Are Anker power banks allowed on flights?', answer: 'Check the Wh value printed on the model and the current rules of your airline, route, and country. Approval and carry-on requirements vary, so do not rely on mAh or the product name alone.' }
                     ]
                 }
@@ -107,7 +107,7 @@ export const anker_power_banks_content: CategoryContent = {
                             content: `
 - **سلسلة 3 (Essential):** جودة ممتازة وسعر اقتصادي.
 - **سلسلة 5 (Nano/PowerCore):** سرعات أعلى وتصميمات أنحف، تدعم الشحن السريع للايفون 17.
-- **سلسلة Prime (الجيل الجديد):** أحدث تكنولوجيا، شاشات رقمية، وسرعات تصل لـ 250 وات لشحن كل أجهزتك.
+- **سلسلة Prime:** شاشة رقمية وخرج عالٍ متعدد المنافذ. أعلى موديل معروض هنا هو Prime A1336 بخرج معلن 200 واط ومنفذَي USB-C بقدرة 100 واط.
 `
                         },
                         {

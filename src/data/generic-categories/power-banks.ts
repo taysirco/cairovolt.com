@@ -4,8 +4,8 @@ import type { GenericCategory } from './_types';
 export const power_banks_generic: GenericCategory = {
         slug: 'power-banks',
         brandCategories: [
-            { brand: 'Anker', brandSlug: 'Anker', categorySlug: 'power-banks' },
-            { brand: 'Joyroom', brandSlug: 'Joyroom', categorySlug: 'power-banks' },
+            { brand: 'Anker', brandSlug: 'anker', categorySlug: 'power-banks' },
+            { brand: 'Joyroom', brandSlug: 'joyroom', categorySlug: 'power-banks' },
         ],
         metadata: {
             ar: {

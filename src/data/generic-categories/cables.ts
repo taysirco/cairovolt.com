@@ -4,8 +4,8 @@ import type { GenericCategory } from './_types';
 export const cables_generic: GenericCategory = {
         slug: 'cables',
         brandCategories: [
-            { brand: 'Anker', brandSlug: 'Anker', categorySlug: 'cables' },
-            { brand: 'Joyroom', brandSlug: 'Joyroom', categorySlug: 'cables' },
+            { brand: 'Anker', brandSlug: 'anker', categorySlug: 'cables' },
+            { brand: 'Joyroom', brandSlug: 'joyroom', categorySlug: 'cables' },
         ],
         metadata: {
             ar: {

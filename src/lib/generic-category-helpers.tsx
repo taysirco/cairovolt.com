@@ -4,6 +4,7 @@ import { ProductImage } from '@/components/ui/ProductImage';
 import { getGenericCategory } from '@/data/generic-categories';
 import { getIndexEntry } from '@/data/blog-index';
 import { staticProducts } from '@/lib/static-products';
+import { isStorefrontPromotableSlug } from '@/lib/merchant-product-data';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
@@ -112,7 +113,15 @@ export function GenericCategoryContent({
     // 301-redirect and must never resurface on listings)
     const allProducts = data.brandCategories.flatMap(bc => {
         return staticProducts
-            .filter(p => p.status === 'active' && p.brand.toLowerCase() === bc.brand.toLowerCase() && p.categorySlug === bc.categorySlug)
+            // isStorefrontPromotableSlug is documented for exactly this surface:
+            // "featured grids, related/bundle slots, category listings". Without it
+            // the generic hubs rendered alias stubs — e.g. a card headed "R50i NC"
+            // whose link 301s to the differently-named P30i — and recalled SKUs.
+            // Both stay reachable by direct URL; they just stop being promoted.
+            .filter(p => p.status === 'active'
+                && isStorefrontPromotableSlug(p.slug)
+                && p.brand.toLowerCase() === bc.brand.toLowerCase()
+                && p.categorySlug === bc.categorySlug)
             .map(p => ({
                 ...p,
                 brandDisplay: bc.brand,

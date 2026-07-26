@@ -4,8 +4,8 @@ import type { GenericCategory } from './_types';
 export const chargers_generic: GenericCategory = {
         slug: 'chargers',
         brandCategories: [
-            { brand: 'Anker', brandSlug: 'Anker', categorySlug: 'wall-chargers' },
-            { brand: 'Joyroom', brandSlug: 'Joyroom', categorySlug: 'wall-chargers' },
+            { brand: 'Anker', brandSlug: 'anker', categorySlug: 'wall-chargers' },
+            { brand: 'Joyroom', brandSlug: 'joyroom', categorySlug: 'wall-chargers' },
         ],
         metadata: {
             ar: {
@@ -99,11 +99,11 @@ export const chargers_generic: GenericCategory = {
 <tbody>
 <tr><td>جوي روم 20W</td><td>حتى 20W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من دعم PD للموديل</td><td>توافق الجهاز والكابل</td><td>السعر الحالي في صفحة المنتج</td></tr>
 <tr><td>انكر Nano 20W</td><td>حتى 20W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وGaN للموديل</td><td>الحجم والتوافق الفعليان</td><td>السعر الحالي في صفحة المنتج</td></tr>
-<tr><td>انكر 312 25W</td><td>حتى 25W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وPPS للموديل</td><td>متطلبات طراز Samsung</td><td>السعر الحالي في صفحة المنتج</td></tr>
+<tr><td>انكر PowerPort 25W</td><td>حتى 25W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وPPS للموديل</td><td>متطلبات طراز Samsung</td><td>السعر الحالي في صفحة المنتج</td></tr>
 <tr><td>انكر 511 30W</td><td>حتى 30W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وGaN للموديل</td><td>متطلبات الجهاز المحدد</td><td>السعر الحالي في صفحة المنتج</td></tr>
-<tr><td>جوي روم 33W</td><td>حتى 33W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وQC للموديل</td><td>توزيع الطاقة بين المنافذ</td><td>السعر الحالي في صفحة المنتج</td></tr>
-<tr><td>انكر 521 40W</td><td>حتى 40W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من بروتوكولات الإصدار</td><td>توزيع الطاقة بين المنافذ</td><td>السعر الحالي في صفحة المنتج</td></tr>
-<tr><td>انكر 735 65W</td><td>حتى 65W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من GaNPrime وPD للإصدار</td><td>متطلبات اللابتوب والهاتف</td><td>السعر الحالي في صفحة المنتج</td></tr>
+<tr><td>جوي روم 30W</td><td>حتى 30W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وQC للموديل</td><td>توزيع الطاقة بين المنافذ</td><td>السعر الحالي في صفحة المنتج</td></tr>
+<tr><td>انكر نانو 45W</td><td>حتى 45W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من بروتوكولات الإصدار</td><td>توزيع الطاقة بين المنافذ</td><td>السعر الحالي في صفحة المنتج</td></tr>
+<tr><td>انكر برايم 67W</td><td>حتى 67W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من GaN وPD للإصدار</td><td>متطلبات اللابتوب والهاتف</td><td>السعر الحالي في صفحة المنتج</td></tr>
 </tbody>
 </table>
 
@@ -175,11 +175,11 @@ export const chargers_generic: GenericCategory = {
 <tbody>
 <tr><td>Joyroom 20W</td><td>Up to 20W for the listed version</td><td>See product page</td><td>Confirm PD for the exact model</td><td>Device and cable compatibility</td><td>Current price on product page</td></tr>
 <tr><td>Anker Nano 20W</td><td>Up to 20W for the listed version</td><td>See product page</td><td>Confirm PD and GaN for the exact model</td><td>Actual size and compatibility</td><td>Current price on product page</td></tr>
-<tr><td>Anker 312 25W</td><td>Up to 25W for the listed version</td><td>See product page</td><td>Confirm PD and PPS for the exact model</td><td>Samsung model requirements</td><td>Current price on product page</td></tr>
+<tr><td>Anker PowerPort 25W</td><td>Up to 25W for the listed version</td><td>See product page</td><td>Confirm PD and PPS for the exact model</td><td>Samsung model requirements</td><td>Current price on product page</td></tr>
 <tr><td>Anker 511 30W</td><td>Up to 30W for the listed version</td><td>See product page</td><td>Confirm PD and GaN for the exact model</td><td>Requirements of the exact device</td><td>Current price on product page</td></tr>
-<tr><td>Joyroom 33W</td><td>Up to 33W for the listed version</td><td>See product page</td><td>Confirm PD and QC for the exact model</td><td>Power distribution between ports</td><td>Current price on product page</td></tr>
-<tr><td>Anker 521 40W</td><td>Up to 40W for the listed version</td><td>See product page</td><td>Confirm protocols for the listed version</td><td>Power distribution between ports</td><td>Current price on product page</td></tr>
-<tr><td>Anker 735 65W</td><td>Up to 65W for the listed version</td><td>See product page</td><td>Confirm GaNPrime and PD for the version</td><td>Laptop and phone requirements</td><td>Current price on product page</td></tr>
+<tr><td>Joyroom 30W</td><td>Up to 30W for the listed version</td><td>See product page</td><td>Confirm PD and QC for the exact model</td><td>Power distribution between ports</td><td>Current price on product page</td></tr>
+<tr><td>Anker Nano 45W</td><td>Up to 45W for the listed version</td><td>See product page</td><td>Confirm protocols for the listed version</td><td>Power distribution between ports</td><td>Current price on product page</td></tr>
+<tr><td>Anker Prime 67W</td><td>Up to 67W for the listed version</td><td>See product page</td><td>Confirm GaN and PD for the version</td><td>Laptop and phone requirements</td><td>Current price on product page</td></tr>
 </tbody>
 </table>
 
