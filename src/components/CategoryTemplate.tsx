@@ -31,6 +31,8 @@ interface Product {
     price: number;
     originalPrice?: number;
     stock?: number;
+    /** Model carries an active manufacturer/CPSC recall — resolved server-side. */
+    recalled?: boolean;
     images?: Array<{ url: string; alt?: string; isPrimary?: boolean }>;
     translations?: {
         en?: { name?: string; description?: string; shortDescription?: string };
@@ -149,6 +151,7 @@ export default function CategoryTemplate({
             image: p.images?.[0]?.url,
             categorySlug: p.categorySlug,
             inStock: (p.stock ?? 0) > 0,
+            recalled: p.recalled === true,
             badge: undefined as string | undefined
         };
     }), [initialProducts, isRTL]);

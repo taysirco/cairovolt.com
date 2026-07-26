@@ -7,6 +7,7 @@ import { staticProducts } from '@/lib/static-products';
 import { ankerBestSellers, soundcoreBestSellers } from '@/components/products/BestSellingProducts';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { resolveMinPriceToken } from '@/lib/meta-price-token';
+import { isRecallAffectedSlug } from '@/lib/merchant-product-data';
 
 /**
  * The Joyroom car-accessories route is an umbrella landing page. Products keep
@@ -194,6 +195,10 @@ export default async function DynamicCategoryPage({ params }: Props) {
         price: p.price,
         originalPrice: p.originalPrice,
         stock: p.stock,
+        // Resolved here rather than in the client component so the recall list
+        // does not ship to the browser. See isRecallAffectedSlug for why this
+        // cannot be derived from the product record alone.
+        recalled: isRecallAffectedSlug(p.slug),
         // Only images[0] is rendered (the card thumbnail) — keep its shape, drop the gallery.
         images: p.images.slice(0, 1).map(img => ({ url: img.url, alt: img.alt, isPrimary: img.isPrimary })),
         translations: {

@@ -210,6 +210,8 @@ interface CategoryComparisonProps {
         badge?: string;
         shortDescription?: string;
         categorySlug?: string;
+        /** Model carries an active recall — the row says so and links to the PDP. */
+        recalled?: boolean;
     }>;
     categoryName: string;
     locale: string;
@@ -244,6 +246,7 @@ export function CategoryComparisonTable({
         feature: 'أبرز مواصفة',
         currency: 'جنيه',
         fallbackFeature: 'المواصفات في صفحة المنتج',
+        recall: 'استدعاء — راجع صفحة المنتج',
     } : {
         title: `${categoryName} Model Comparison`,
         model: 'Model',
@@ -251,6 +254,7 @@ export function CategoryComparisonTable({
         feature: 'Headline Spec',
         currency: 'EGP',
         fallbackFeature: 'See the product page',
+        recall: 'Recall — see product page',
     };
 
     if (products.length === 0) return null;
@@ -290,6 +294,11 @@ export function CategoryComparisonTable({
                                                 {product.name}
                                             </Link>
                                         ) : product.name}
+                                        {product.recalled && (
+                                            <span className="mt-1 flex items-center gap-1 text-[10px] md:text-xs font-semibold text-amber-700 dark:text-amber-400">
+                                                <span aria-hidden="true">⚠️</span>{labels.recall}
+                                            </span>
+                                        )}
                                     </td>
                                     <td className="py-3 px-3 md:py-4 md:px-6 text-blue-600 dark:text-blue-400 font-semibold text-xs md:text-sm whitespace-nowrap">
                                         {product.price.toLocaleString('en-US')} {labels.currency}

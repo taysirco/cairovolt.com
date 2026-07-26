@@ -118,6 +118,33 @@ export const MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS = new Set([
 ]);
 
 /**
+ * Slugs whose model carries an active manufacturer/CPSC recall.
+ *
+ * Recall findings are written up per product in `src/data/details/<slug>.ts` —
+ * NOT in `src/data/products/` — so grepping the product record alone returns
+ * nothing and reads as "no recall". This set exists so listing surfaces can ask
+ * the question directly instead of re-deriving it from prose.
+ *
+ * Membership here is *disclosure*, not suppression: these products stay in the
+ * catalogue, in the grid and in listings. Suppression is a separate decision and
+ * lives in MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS, which A1681 is in and A1263
+ * deliberately is not.
+ */
+export const RECALL_AFFECTED_PRODUCT_SLUGS = new Set([
+    // A1263 — CPSC June 2025, US-manufactured units Jan 2016 – Oct 2019,
+    // fire/overheating hazard. Serial-scoped, so the PDP is the place that can
+    // explain scope; listings only need to say "check before you buy".
+    'anker-powercore-10000',
+    // A1681 — Anker/CPSC rc2506. Also Merchant-excluded above.
+    'anker-zolo-a1681-20000',
+]);
+
+/** True when the slug's model has an active recall that a buyer should see. */
+export function isRecallAffectedSlug(slug: string): boolean {
+    return RECALL_AFFECTED_PRODUCT_SLUGS.has(slug);
+}
+
+/**
  * Duplicate-identity PDPs that must 301 to the canonical public product URL.
  * Paths are locale-unprefixed (Arabic default); /en is added by the redirect layer.
  */
