@@ -59,6 +59,10 @@ const AUTH_PROVIDER_LABELS: Record<string, string> = {
     order_token: 'رابط طلب موثّق',
 };
 
+// تنبيه شبه فوري بتكلفة منخفضة: 30 طلباً/ساعة فقط أثناء ظهور الداشبورد.
+const PENDING_COUNT_POLL_MS = 2 * 60_000;
+const PENDING_COUNT_MAX_BACKOFF_MS = 10 * 60_000;
+
 function formatReviewDate(value: string | null): string {
     if (!value) return 'بدون تاريخ';
     const date = new Date(value);
@@ -169,12 +173,12 @@ export default function ModerationPage() {
             });
             if (response.status === 401) {
                 setAuthed(false);
-                return;
+                return false;
             }
-            if (!response.ok) return;
+            if (!response.ok) return false;
 
             const data = await response.json() as { count?: number };
-            if (!Number.isFinite(data.count)) return;
+            if (!Number.isFinite(data.count)) return false;
             const count = Math.max(0, Number(data.count));
             if (pendingCountReadyRef.current && count > pendingCountRef.current) {
                 setHasNewPending(true);
@@ -182,8 +186,10 @@ export default function ModerationPage() {
             pendingCountRef.current = count;
             pendingCountReadyRef.current = true;
             setPendingCount(count);
+            return true;
         } catch {
-            // فشل الفحص الخلفي لا يعطّل الداشبورد؛ سيُعاد تلقائياً في الدورة التالية.
+            // فشل الفحص الخلفي لا يعطّل الداشبورد؛ ويُبطّئ المحاولات تلقائياً لتقليل التكلفة.
+            return false;
         }
     }, []);
 
@@ -196,16 +202,50 @@ export default function ModerationPage() {
     useEffect(() => {
         if (!authed) return;
 
-        const checkWhenVisible = () => {
-            if (document.visibilityState === 'visible') void checkPendingCount(secret);
-        };
-        checkWhenVisible();
-        const intervalId = window.setInterval(checkWhenVisible, 30_000);
-        document.addEventListener('visibilitychange', checkWhenVisible);
+        let stopped = false;
+        let failedChecks = 0;
+        let timeoutId: number | null = null;
+
+        function schedule(delay: number) {
+            if (stopped) return;
+            if (timeoutId !== null) window.clearTimeout(timeoutId);
+            timeoutId = window.setTimeout(() => void runCheck(), delay);
+        }
+
+        async function runCheck() {
+            timeoutId = null;
+            if (stopped || document.visibilityState !== 'visible') return;
+
+            const succeeded = await checkPendingCount(secret);
+            if (stopped) return;
+            failedChecks = succeeded ? 0 : Math.min(failedChecks + 1, 3);
+            const nextDelay = succeeded
+                ? PENDING_COUNT_POLL_MS
+                : Math.min(
+                    PENDING_COUNT_MAX_BACKOFF_MS,
+                    PENDING_COUNT_POLL_MS * (2 ** failedChecks),
+                );
+            schedule(nextDelay);
+        }
+
+        function handleVisibilityChange() {
+            if (document.visibilityState === 'visible') {
+                failedChecks = 0;
+                schedule(0);
+            } else if (timeoutId !== null) {
+                window.clearTimeout(timeoutId);
+                timeoutId = null;
+            }
+        }
+
+        // التحميل الأول جلب العدد بالفعل؛ نؤخر أول فحص لمنع طلب مكرر بلا فائدة.
+        schedule(PENDING_COUNT_POLL_MS);
+        document.addEventListener('visibilitychange', handleVisibilityChange);
 
         return () => {
-            window.clearInterval(intervalId);
-            document.removeEventListener('visibilitychange', checkWhenVisible);
+            stopped = true;
+            if (timeoutId !== null) window.clearTimeout(timeoutId);
+            document.removeEventListener('visibilitychange', handleVisibilityChange);
         };
     }, [authed, checkPendingCount, secret]);
 
