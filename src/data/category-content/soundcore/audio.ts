@@ -49,15 +49,15 @@ export const soundcore_audio_content: CategoryContent = {
                 ],
                 faq: {
                     ar: [
-                        { question: 'ما الفرق بين سماعات ساوندكور R50i وK20i وR50i NC؟', answer: 'شوف دليل الشراء بالأعلى للمقارنة. باختصار: قارن K20i لتصميمه، وR50i للاستخدام اليومي، وR50i NC إذا كنت تحتاج ANC، مع مراجعة صفحة كل موديل.' },
-                        { question: 'هل سماعات ساوندكور تدعم عزل الضوضاء ANC؟', answer: 'تدعم موديلات مثل R50i NC وP40i عزل ANC، بينما تستخدم موديلات أخرى عزلاً سلبياً. تختلف النتيجة حسب الموديل والملاءمة والبيئة؛ راجع صفحة المنتج للمواصفة الدقيقة.' },
+                        { question: 'ما الفرق بين سماعات ساوندكور R50i وK20i وP30i؟', answer: 'شوف دليل الشراء بالأعلى للمقارنة. باختصار: K20i لتصميمه نصف الداخلي، وR50i للاستخدام اليومي الاقتصادي، وP30i إذا كنت تحتاج ANC (42dB معلنة)، مع مراجعة صفحة كل موديل.' },
+                        { question: 'هل سماعات ساوندكور تدعم عزل الضوضاء ANC؟', answer: 'تدعم موديلات مثل A30i (46dB معلنة) وP30i (42dB معلنة) وLiberty 4 NC عزل ANC، بينما تستخدم موديلات أخرى مثل C40i تصميماً مفتوحاً بلا ANC. تختلف النتيجة حسب الملاءمة والبيئة؛ راجع صفحة المنتج.' },
                         { question: 'أيهما أفضل: سماعات ساوندكور أم AirPods؟', answer: 'يعتمد على الموديل والجهاز. قارن تكامل النظام وANC والميكروفونات والترميزات وEQ والملاءمة وعمر البطارية والسعر الحالي؛ لا توجد نتيجة واحدة لكل موديلات العلامتين.' },
                         { question: 'هل سماعات ساوندكور بتشتغل مع ايفون وسامسونج؟', answer: 'سماعات ساوندكور تعمل عبر Bluetooth مع الأجهزة المتوافقة، لكن إصدار البلوتوث والميزات تختلف حسب الموديل. تطبيق ساوندكور متاح على iOS وAndroid للموديلات الداعمة.' },
                         { question: 'كام سنة بتعيش سماعات ساوندكور؟', answer: 'لا يمكن ضمان عمر ثابت؛ تتأثر البطارية بدورات الشحن والحرارة ومستوى الصوت والتخزين. راجع ضمان كايرو فولت المكتوب للمنتج، وتسوق [كابل انكر](/anker/cables) متوافقاً أو [سبيكر ساوندكور](/soundcore/speakers) لاستخدام مختلف.' }
                     ],
                     en: [
-                        { question: 'What is the difference between Soundcore R50i, K20i, and R50i NC?', answer: 'Use the guide above to compare K20i for its design, R50i for everyday listening, and R50i NC when ANC is needed, then confirm the exact product specifications.' },
-                        { question: 'Do Soundcore earbuds support ANC (Active Noise Cancelling)?', answer: 'Models such as R50i NC and P40i list active ANC, while other models use passive isolation. Results vary by model, fit, and environment; check the exact product specification.' },
+                        { question: 'What is the difference between Soundcore R50i, K20i, and P30i?', answer: 'Use the guide above to compare K20i for its half-in-ear design, R50i for budget everyday listening, and P30i when you need ANC (42dB rated), then confirm the exact product specifications.' },
+                        { question: 'Do Soundcore earbuds support ANC (Active Noise Cancelling)?', answer: 'Models such as the A30i (46dB rated), P30i (42dB rated) and Liberty 4 NC list active ANC, while others like the C40i are open designs with no ANC at all. Results vary by fit and environment; check the product page.' },
                         { question: 'Which is better: Soundcore or AirPods?', answer: 'It depends on the exact models and source device. Compare platform integration, ANC, microphones, codecs, EQ, fit, rated battery life, and current price rather than treating either range as one product.' },
                         { question: 'Do Soundcore earbuds work with iPhone and Samsung?', answer: 'Soundcore Bluetooth models work with compatible phones, but Bluetooth version, app support, codecs, and controls vary by product. Check the product page and current app requirements.' },
                         { question: 'How long do Soundcore earbuds last?', answer: 'There is no guaranteed service life. Battery aging depends on charge cycles, heat, volume, and storage. CairoVolt warranty duration and terms are listed on the individual product page and policy.' }
@@ -118,13 +118,13 @@ export const soundcore_audio_content: CategoryContent = {
                     products: [
                         { name: 'Soundcore K20i', price: 750, badge: 'تصميم نصف داخل الأذن' },
                         { name: 'Soundcore R50i', price: 880, badge: 'اقتصادي ناجح' },
-                        { name: 'Soundcore R50i NC', price: 1199, badge: 'ANC الغاء ضوضاء' },
+                        { name: 'Soundcore Life P2i', price: 1199, badge: 'بطارية 28 ساعة' },
                         { name: 'Soundcore A25i', price: 1370, badge: '🆕 بطارية 28 ساعة' },
                         { name: 'Soundcore P20i', price: 699, badge: 'TWS مدمجة' },
                         { name: 'Soundcore P25i', price: 770, badge: 'BassUp' },
                         { name: 'Soundcore Life U2i', price: 739, badge: 'نيكباند 22h' },
                         { name: 'Soundcore R50i Vi', price: 785, badge: 'مساعد صوتي' },
-                        { name: 'Soundcore P30i', price: 1200, badge: 'XBS باس' },
+                        { name: 'Soundcore P30i', price: 1200, badge: '42dB ANC + BassUp' },
                         { name: 'Soundcore A30i', price: 1450, badge: '46dB ANC' },
                         { name: 'Soundcore V20i', price: 1449, badge: 'أوبن-إير' },
                         { name: 'Soundcore Liberty Buds', price: 1750, badge: 'كلاسيكي TWS' },
@@ -134,9 +134,9 @@ export const soundcore_audio_content: CategoryContent = {
                         { name: 'Soundcore C30i', price: 2350, badge: 'فيت مفتوح' },
                         { name: 'Soundcore Life Q20', price: 2350, badge: 'هيدفون ANC' },
                         { name: 'Soundcore Q11i', price: 2312, badge: '60h هيدفون' },
-                        { name: 'Soundcore P41i', price: 2439, badge: '60h + XBS' },
+                        { name: 'Soundcore P41i', price: 2439, badge: 'ANC تكيّفي · 192 ساعة' },
                         { name: 'Soundcore Q20i', price: 2522, badge: 'ANC هيدفون' },
-                        { name: 'Soundcore C40i', price: 3050, badge: 'ANC مفتوح' },
+                        { name: 'Soundcore C40i', price: 3050, badge: 'بدون ANC — كليب مفتوح' },
                         { name: 'Soundcore Liberty 3 Pro', price: 4400, badge: 'ACAA 2.0' },
                         { name: 'Soundcore Liberty 5', price: 3997, badge: 'LDAC Hi-Res' },
                         { name: 'Soundcore Q30', price: 4649, badge: 'هيدفون بريميوم' },
@@ -171,7 +171,7 @@ export const soundcore_audio_content: CategoryContent = {
                             title: 'Which Soundcore Earbud Should You Buy?',
                             content: `
 - **R50i / P20i:** Compare design, rated battery, and BassUp; check the product page for ANC availability.
-- **P40i / Life Note 3:** May include ANC, wireless charging, or Game Mode depending on the exact version.
+- **P40i:** Rated 60h total battery; check the product page for the exact ANC and charging-case specification of the version listed.
 - **Liberty 4 / 4 NC:** Compare LDAC, ANC, sensors, and microphones; not every feature is shared by both models.
 `
                         },
@@ -186,13 +186,13 @@ Depending on the model, the app may provide EQ, Game Mode, firmware updates, or 
                     products: [
                         { name: 'Soundcore K20i', price: 750, badge: 'Semi-In-Ear' },
                         { name: 'Soundcore R50i', price: 880, badge: 'Compact TWS' },
-                        { name: 'Soundcore R50i NC', price: 1199, badge: 'ANC Noise Cancel' },
+                        { name: 'Soundcore Life P2i', price: 1199, badge: '28h battery' },
                         { name: 'Soundcore A25i', price: 1370, badge: '🆕 28h Battery' },
                         { name: 'Soundcore P20i', price: 699, badge: 'Compact TWS' },
                         { name: 'Soundcore P25i', price: 770, badge: 'BassUp' },
                         { name: 'Soundcore Life U2i', price: 739, badge: 'Neckband 22h' },
                         { name: 'Soundcore R50i Vi', price: 785, badge: 'Voice Assistant' },
-                        { name: 'Soundcore P30i', price: 1200, badge: 'XBS Bass' },
+                        { name: 'Soundcore P30i', price: 1200, badge: '42dB ANC + BassUp' },
                         { name: 'Soundcore A30i', price: 1450, badge: '46dB ANC' },
                         { name: 'Soundcore V20i', price: 1449, badge: 'Open-Ear' },
                         { name: 'Soundcore Liberty Buds', price: 1750, badge: 'Classic TWS' },
@@ -202,9 +202,9 @@ Depending on the model, the app may provide EQ, Game Mode, firmware updates, or 
                         { name: 'Soundcore C30i', price: 2350, badge: 'Open Fit' },
                         { name: 'Soundcore Life Q20', price: 2350, badge: 'ANC Headphones' },
                         { name: 'Soundcore Q11i', price: 2312, badge: '60h Headphones' },
-                        { name: 'Soundcore P41i', price: 2439, badge: '60h + XBS' },
+                        { name: 'Soundcore P41i', price: 2439, badge: 'Adaptive ANC · 192h' },
                         { name: 'Soundcore Q20i', price: 2522, badge: 'ANC Headphones' },
-                        { name: 'Soundcore C40i', price: 3050, badge: 'ANC Open-Ear' },
+                        { name: 'Soundcore C40i', price: 3050, badge: 'No ANC — open clip' },
                         { name: 'Soundcore Liberty 3 Pro', price: 4400, badge: 'ACAA 2.0' },
                         { name: 'Soundcore Liberty 5', price: 3997, badge: 'LDAC Hi-Res' },
                         { name: 'Soundcore Q30', price: 4649, badge: 'Premium Headphones' },
