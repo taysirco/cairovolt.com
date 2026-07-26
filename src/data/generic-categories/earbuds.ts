@@ -10,12 +10,12 @@ export const earbuds_generic: GenericCategory = {
         metadata: {
             ar: {
                 title: 'دليل أفضل سماعات بلوتوث في مصر | ساوندكور وجوي روم | كايرو فولت',
-                description: 'قارن سماعات بلوتوث ساوندكور وجوي روم مثل P20i وR50i وLiberty 4 Pro وC30i حسب المقاس والبطارية والميكروفون وANC، مع سعر ومخزون وضمان كايرو فولت محدث لكل موديل.',
+                description: 'سماعات بلوتوث وايربودز ساوندكور وجوي روم في مصر — P20i وR50i وLiberty وT03s من {minPrice} جنيه. ضمان كايرو فولت والدفع عند الاستلام.',
                 keywords: 'سماعه ايربودز, سماعه بلوتوث, سماعة ساوندكور, سماعات ساوندكور, ايربودز انكر, ايربودز انكر r50i, سماعات انكر, سماعة بلوتوث انكر, سماعات بلوتوث, سماعات لاسلكية, بديل ايربودز, سماعات ANC, سماعات بلوتوث رخيصة, ايربودز في مصر, انكر سماعه, سعر سماعة ايربودز, سماعة جوي روم, سماعات جويروم, سماعات بلوتوث مصر, سماعة بلوتوث رخيصه, افضل سماعة بلوتوث, سماعات بلوتوث اصلية, سماعه ساوندكور p20i, سماعة ساوندكور p20i, سماعه ساوندكور liberty',
             },
             en: {
                 title: 'Bluetooth Earbuds Guide Egypt | Soundcore & Joyroom | CairoVolt',
-                description: 'Compare Soundcore and Joyroom earbuds such as P20i, R50i, Liberty 4 Pro, and C30i by fit, battery, microphones, and ANC, with current price, stock, and written CairoVolt warranty terms per model.',
+                description: 'Soundcore and Joyroom Bluetooth earbuds in Egypt — P20i, R50i, Liberty and T03s from {minPrice} EGP. CairoVolt warranty and cash on delivery.',
                 keywords: 'anker earbuds, soundcore earbuds, bluetooth earbuds egypt, anker headphones, wireless earbuds, airpods alternative, anker airpods, best bluetooth earbuds egypt, earbuds with anc, soundcore r50i, soundcore liberty 4 nc, anker soundcore egypt, tws earbuds egypt, soundcore p20i, soundcore liberty 4 pro, joyroom earbuds, cheap earbuds egypt, best earbuds under 1000 egp, noise cancelling earbuds egypt, soundcore c30i, soundcore p40i',
             },
         },

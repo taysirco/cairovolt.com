@@ -4,6 +4,7 @@ import { ProductImage } from '@/components/ui/ProductImage';
 import { getGenericCategory } from '@/data/generic-categories';
 import { getIndexEntry } from '@/data/blog-index';
 import { staticProducts } from '@/lib/static-products';
+import { resolveMinPriceToken } from '@/lib/meta-price-token';
 import { isStorefrontPromotableSlug } from '@/lib/merchant-product-data';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
@@ -32,9 +33,19 @@ export function generateCategoryMetadata(locale: string, categorySlug: string): 
         ? `https://cairovolt.com/${cleanSlug}`
         : `https://cairovolt.com/en/${cleanSlug}`;
 
+    // Same selection the grid below renders, so a {minPrice} token in the copy
+    // quotes the cheapest item a visitor will actually see on this hub.
+    const shelf = data.brandCategories.flatMap(bc =>
+        staticProducts.filter(p => p.status === 'active'
+            && isStorefrontPromotableSlug(p.slug)
+            && p.brand.toLowerCase() === bc.brand.toLowerCase()
+            && p.categorySlug === bc.categorySlug)
+    );
+    const metaDescription = resolveMinPriceToken(meta.description, shelf);
+
     return {
         title: { absolute: meta.title },
-        description: meta.description,
+        description: metaDescription,
         keywords: meta.keywords,
         alternates: {
             canonical: canonicalUrl,
@@ -46,7 +57,7 @@ export function generateCategoryMetadata(locale: string, categorySlug: string): 
         },
         openGraph: {
             title: meta.title,
-            description: meta.description,
+            description: metaDescription,
             url: canonicalUrl,
             locale: isArabic ? 'ar_EG' : 'en_US',
             alternateLocale: isArabic ? 'en_US' : 'ar_EG',
@@ -62,7 +73,7 @@ export function generateCategoryMetadata(locale: string, categorySlug: string): 
         twitter: {
             card: 'summary_large_image',
             title: meta.title,
-            description: meta.description,
+            description: metaDescription,
             images: ['https://cairovolt.com/logo.png'],
         },
         robots: { index: true, follow: true },
@@ -130,6 +141,11 @@ export function GenericCategoryContent({
             }));
     });
 
+    // The copy may carry a {minPrice} token. Every consumer below — page
+    // microdata and the JSON-LD blocks — must read the resolved string, or the
+    // literal token ships into the markup.
+    const resolvedDescription = resolveMinPriceToken(metadata.description, allProducts);
+
     // Sort: featured first, then by price
     const sortedProducts = allProducts.sort((a, b) => {
         if (a.featured && !b.featured) return -1;
@@ -151,7 +167,7 @@ export function GenericCategoryContent({
 
             <main className="min-h-screen bg-gray-50 dark:bg-gray-950" dir={isArabic ? 'rtl' : 'ltr'} itemScope itemType="https://schema.org/CollectionPage">
                 <meta itemProp="name" content={content.title} />
-                <meta itemProp="description" content={metadata.description} />
+                <meta itemProp="description" content={resolvedDescription} />
                 <meta itemProp="inLanguage" content={isArabic ? 'ar-EG' : 'en-EG'} />
 
                 {/* Breadcrumb */}
@@ -422,7 +438,7 @@ export function GenericCategoryContent({
                             '@context': 'https://schema.org',
                             '@type': 'HowTo',
                             name: isArabic ? `كيف تختار أفضل ${content.title}` : `How to Choose the Best ${content.title}`,
-                            description: metadata.description,
+                            description: resolvedDescription,
                             step: content.buyingTips.map((tip, i) => ({
                                 '@type': 'HowToStep',
                                 position: i + 1,
@@ -441,7 +457,7 @@ export function GenericCategoryContent({
                             '@type': 'CollectionPage',
                             '@id': `https://cairovolt.com${isArabic ? '' : '/en'}/${categorySlug}#collectionpage`,
                             name: content.title,
-                            description: metadata.description,
+                            description: resolvedDescription,
                             url: `https://cairovolt.com${isArabic ? '' : '/en'}/${categorySlug}`,
                             inLanguage: isArabic ? 'ar-EG' : 'en-EG',
                             author: {
@@ -457,7 +473,7 @@ export function GenericCategoryContent({
                             about: {
                                 '@type': 'Thing',
                                 name: content.title,
-                                description: metadata.description,
+                                description: resolvedDescription,
                             },
                             ...(sortedProducts.length > 0 && {
                                 mainEntity: {

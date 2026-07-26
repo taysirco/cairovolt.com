@@ -10,12 +10,12 @@ export const chargers_generic: GenericCategory = {
         metadata: {
             ar: {
                 title: 'دليل الشواحن السريعة في مصر | ايفون وسامسونج وUSB-C',
-                description: 'دليل لاختيار شاحن ايفون أو سامسونج أو شاحن لاسلكي في مصر. قارن دعم USB-C PD وPPS وGaN لكل موديل، وراجع السعر والتوفر الحاليين في صفحة المنتج.',
+                description: 'شواحن انكر وجوي روم في مصر — راس شاحن USB-C PD وGaN للايفون والسامسونج من {minPrice} جنيه. ضمان كايرو فولت والدفع عند الاستلام.',
                 keywords: 'شاحن سريع, شاحن ايفون, شاحن سامسونج, شاحن تايب سي, شاحن type c, شاحن وايرلس, شاحن لاسلكي, راس شاحن, راس شاحن انكر, شاحن انكر, USB-C PD, PPS, GaN',
             },
             en: {
                 title: 'Fast Charger Guide Egypt | iPhone, Samsung & USB-C',
-                description: 'Choose an iPhone, Samsung, or wireless charger in Egypt. Compare model-specific USB-C PD, PPS, and GaN support, then check the product page for current price and availability.',
+                description: 'Anker and Joyroom wall chargers in Egypt — USB-C PD and GaN for iPhone and Samsung from {minPrice} EGP. CairoVolt warranty and cash on delivery.',
                 keywords: 'anker charger, fast charger egypt, iphone charger, samsung charger, anker iphone charger, wireless charger, anker wireless charger, usb c charger, gan charger, pd charger, wall charger egypt, 25w charger, 45w charger',
             },
         },

@@ -281,7 +281,13 @@ export default async function BrandHubPage({ params }: Props) {
     const pageHeading = isRTL
         ? `منتجات ${brandDisplayName} في مصر`
         : `${brandName} Products in Egypt`;
-    const pageDescription = copy.description;
+    // Same {minPrice} resolution generateMetadata does. This string is also the
+    // hero paragraph and feeds the page's JSON-LD, so leaving it raw would print
+    // a literal token on screen and in structured data.
+    const brandProducts = staticProducts.filter(
+        product => product.status === 'active' && product.brand.toLowerCase() === brand.toLowerCase()
+    );
+    const pageDescription = resolveMinPriceToken(copy.description, brandProducts);
     const safeCategories = data.categories.map((category) => ({
         href: category.href,
         icon: category.icon,

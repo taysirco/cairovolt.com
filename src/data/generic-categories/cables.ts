@@ -10,12 +10,12 @@ export const cables_generic: GenericCategory = {
         metadata: {
             ar: {
                 title: 'دليل أفضل كابل شحن في مصر | USB-C ووصلة ايفون | كايرو فولت',
-                description: 'قارن كابلات شحن انكر وجوي روم حسب نوع الموصل والقدرة ونقل البيانات والطول والغلاف، مع السعر والمخزون وشروط ضمان كايرو فولت المحدثة لكل موديل.',
+                description: 'وصلات وكابلات شحن انكر وجوي روم في مصر — USB-C وLightning وMicro من {minPrice} جنيه. ضمان كايرو فولت والدفع عند الاستلام.',
                 keywords: 'وصلة شاحن, وصلة شاحن تايب سي, وصلة شاحن ايفون, وصلة ايفون, وصلة ايفون اصلية, وصلة انكر, سلك شاحن ايفون, سلك شاحن انكر, كابل شاحن, كابل شحن سريع, كابل ايفون, كابل تايب سي, كابل usb c, كابل PD, افضل كابل شحن',
             },
             en: {
                 title: 'Charging Cable Guide Egypt | Anker USB-C & iPhone Cables',
-                description: 'Compare Anker and Joyroom charging cables by connector, power rating, data support, length, and jacket, with current listed price, stock, and written CairoVolt warranty terms per model.',
+                description: 'Anker and Joyroom charging cables in Egypt — USB-C, Lightning and Micro from {minPrice} EGP. CairoVolt warranty and cash on delivery.',
                 keywords: 'anker cables, anker iphone cable, anker type c cable, anker usb cable, anker lightning cable, anker micro usb cable, charging cable egypt, usb c cable, iphone cable, fast charging cable, lightning cable, nylon braided cable, pd cable, best charging cable, cable price egypt',
             },
         },

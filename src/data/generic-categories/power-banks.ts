@@ -10,12 +10,12 @@ export const power_banks_generic: GenericCategory = {
         metadata: {
             ar: {
                 title: 'دليل أفضل باور بانك في مصر | انكر وجوي روم 10000 و20000',
-                description: 'قارن باور بانك انكر وجوي روم حسب الطاقة بالواط/ساعة والقدرة والمنافذ والوزن ودعم PD، مع السعر والمخزون وشروط ضمان كايرو فولت المحدثة لكل موديل.',
+                description: 'باور بانك انكر وجوي روم في مصر — 10000 و20000 و26800 مللي أمبير ومغناطيسي من {minPrice} جنيه. ضمان كايرو فولت والدفع عند الاستلام.',
                 keywords: 'باور بانك, باور بانك انكر, باور بانك انكر 20000, باور بانك انكر 10000, سعر باور بانك انكر 20000, سعر باور بانك انكر, باور بنك انكر, انكر باور بانك, باور بانك في مصر, افضل باور بانك, باور بانك 20000, باور بانك 10000, باور بانك شحن سريع, شاحن متنقل, محطة طاقة متنقلة',
             },
             en: {
                 title: 'Power Bank Guide Egypt | Anker & Joyroom 10000 and 20000mAh',
-                description: 'Compare Anker and Joyroom power banks by watt-hours, output, ports, weight, and PD support, with current listed price, stock, and written CairoVolt warranty terms per model.',
+                description: 'Anker and Joyroom power banks in Egypt — 10000, 20000 and 26800mAh plus magnetic from {minPrice} EGP. CairoVolt warranty and cash on delivery.',
                 keywords: 'power bank egypt, anker power bank, anker power station, anker power bank 20000mah, anker power bank 10000mah, joyroom power bank, best power bank, power bank 20000mah, power bank 10000mah, wireless power bank, laptop power bank, powerbank, portable charger egypt, portable power station, power bank price egypt',
             },
         },
