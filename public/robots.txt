@@ -20,10 +20,16 @@ Allow: /api/v1/checkout
 Allow: /api/v1/quick-cod
 Allow: /api/verify
 
+# NOT disallowed on purpose: /checkout, /confirm, /review/ and /search.
+# Every one of them already serves `noindex` (meta + X-Robots-Tag, in BOTH
+# locales — verified). Blocking them here would stop Googlebot fetching the
+# page and therefore stop it ever READING that noindex, which is how a URL ends
+# up in the index with no snippet — Search Console reported exactly that for
+# /en/checkout?add_sku=JR-TC30W under "Indexed, though blocked by robots.txt".
+# It also removes a locale asymmetry: `Disallow: /checkout` never matched
+# `/en/checkout`, so the English funnel was crawlable while the Arabic one was
+# not. noindex is the correct tool for de-indexing; robots.txt is not.
 Disallow: /admin/
-Disallow: /checkout
-Disallow: /confirm
-Disallow: /review/
 Disallow: /api/admin/
 Disallow: /api/categories
 Disallow: /api/indexing
@@ -98,10 +104,9 @@ Allow: /api/discover-feed
 Allow: /api/v1/checkout
 Allow: /api/v1/quick-cod
 Allow: /api/verify
+# Same reasoning as the group above: /checkout, /confirm and /review/ carry
+# their own noindex and stay crawlable so it can actually be read.
 Disallow: /admin/
-Disallow: /checkout
-Disallow: /confirm
-Disallow: /review/
 Disallow: /api/admin/
 Disallow: /api/categories
 Disallow: /api/indexing
