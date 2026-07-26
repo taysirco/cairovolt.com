@@ -5,14 +5,14 @@ export const joyroom_smart_watches_content: CategoryContent = {
             categoryName: 'Smart Watches',
             metadata: {
                 en: {
-                    title: 'Joyroom Smartwatch Egypt | AMOLED and Bluetooth Calling',
+                    title: 'Joyroom Smartwatch Egypt | JR-FT3, IPS and Bluetooth Calling',
                     description: 'Compare Joyroom smartwatches by display, Bluetooth calling, rated battery life, app compatibility, and water-resistance rating. Current price and CairoVolt warranty are listed per product.',
-                    keywords: 'جوي روم smartwatch, جوي روم smart watch, جوي روم watch egypt, جوي روم FT3, ساعة جوي روم FT3, smart watch egypt, fitness tracker egypt, جوي روم AMOLED watch, ساعة جوي روم, bluetooth calling watch',
+                    keywords: 'جوي روم smartwatch, جوي روم smart watch, جوي روم watch egypt, جوي روم FT3, ساعة جوي روم FT3, smart watch egypt, fitness tracker egypt, joyroom JR-FT3 IPS watch, ساعة جوي روم, bluetooth calling watch',
                 },
                 ar: {
-                    title: 'ساعة جوي روم الذكية | AMOLED ومكالمات بلوتوث',
+                    title: 'ساعة جوي روم الذكية JR-FT3 | شاشة IPS ومكالمات بلوتوث',
                     description: 'قارن ساعات جوي روم حسب الشاشة ومكالمات البلوتوث وعمر البطارية المعلن وتوافق التطبيق وتصنيف مقاومة الماء. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
-                    keywords: 'ساعة جوي روم, ساعة ذكية جوي روم, ساعة ذكية مصر, جوي روم FT3, ساعة AMOLED جوي روم, ساعة رياضية ذكية, ساعة بلوتوث كولينج, سعر ساعة جوي روم, ساعة مكالمات بلوتوث',
+                    keywords: 'ساعة جوي روم, ساعة ذكية جوي روم, ساعة ذكية مصر, جوي روم FT3, ساعة سمارت مصر, ساعة رياضية ذكية, ساعة بلوتوث كولينج, سعر ساعة جوي روم, ساعة مكالمات بلوتوث',
                 }
             },
             pageContent: {

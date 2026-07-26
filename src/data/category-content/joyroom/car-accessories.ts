@@ -5,7 +5,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
             categoryName: 'Car Accessories',
             metadata: {
                 en: {
-                    title: 'Joyroom Car Accessories Egypt | USB-C PD 60W + N52 Mount',
+                    title: 'Joyroom Car Accessories Egypt | USB-C PD 69W + N52 Mount',
                     description: 'Compare Joyroom car accessories in Egypt, including USB-C PD chargers, N52 magnetic holders, and MagSafe-compatible models. Current price and CairoVolt warranty are listed per product.',
                     keywords: 'joyroom car charger, joyroom car holder, car accessories egypt, joyroom 69W USB-C PD, N52 magnetic mount, MagSafe car holder, joyroom car accessories price',
                 },
