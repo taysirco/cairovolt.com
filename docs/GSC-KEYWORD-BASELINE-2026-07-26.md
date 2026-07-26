@@ -13,30 +13,65 @@ Site totals: **10,305 clicks · 846K impressions · CTR 1.2% · avg position 6.2
 
 ## 1. Where the traffic actually is
 
-Of **702 pages** with ≥1 impression in 28 days:
+Of **702 pages** with at least 1 impression in 28 days:
 
-| Page type | Pages with impressions |
-|---|---|
-| Blog articles | **351** |
-| Product pages | **1** |
-| Category pages | **1** |
+| Page type | Pages | Clicks |
+|---|---|---|
+| Blog articles | 351 | 6,783 |
+| Product pages | **217** | **1,903** |
+| Category pages | **40** | ~840 |
 
-**The site's organic traffic is essentially 100% blog.** Twenty of the twenty-two
-category pages and virtually the entire product catalogue are invisible in search.
+> **Correction (same day).** An earlier revision of this document claimed only
+> **1** product page and **1** category page had impressions. That was an
+> extraction bug, not a finding: GSC appends
+> `" Copy URL to clipboard Open in new tab Inspect URL"` to the URL cell of any
+> row whose hover actions are rendered, and the `$`-anchored regex used to
+> classify rows silently dropped 216 product and 39 category pages. **Strip that
+> suffix before parsing GSC table rows.** Every conclusion that rested on the
+> old numbers — "traffic is ~100% blog", "the catalogue is invisible in search",
+> "`/anker` captures none of its navigational demand", "20 category pages carry
+> zero ranking risk" — was wrong and is corrected below.
 
-The two exceptions:
+Blog is the largest single bucket but the catalogue is **not** invisible: product
+and category pages together earn roughly **2,740 clicks**, about 27% of site total.
+
+### Best-converting pages on the site
 
 | URL | Clicks | Impressions | CTR | Position |
 |---|---|---|---|---|
-| `/soundcore/audio` | 227 | 24,450 | 0.9% | 6.3 |
-| `/soundcore/audio/anker-soundcore-r50i-nc` | 216 | 14,294 | 1.5% | 7.6 |
+| `/en/anker/accessories/anker-pencil-stylus` | 131 | 1,772 | **7.4%** | 5.0 |
+| `/anker/accessories/anker-pencil-stylus` | 81 | 1,086 | **7.5%** | 4.7 |
+| `/soundcore/audio/soundcore-q20i-headphones` | 66 | 1,438 | 4.6% | 5.0 |
+| `/soundcore/audio/soundcore-p20i-earbuds` | 92 | 2,922 | 3.1% | 5.4 |
+| `/anker` | 171 | 6,338 | 2.7% | 7.5 |
 
-Note the second one is the **retired alias** that 301s to `soundcore-p30i-earbuds`
-(`next.config.ts:323`). Google still indexes and ranks the alias; visitors are
-redirected, so the traffic is not lost, but the canonical product URL is not the
-one earning position.
+The two **Anker Pencil** pages convert at ~7.4% against a 1.2% site average — the
+strongest commercial signal in the property.
 
----
+### The real opportunity: high impressions, near-zero CTR
+
+| URL | Impressions | CTR | Position |
+|---|---|---|---|
+| `/soundcore/audio` | 24,450 | 0.9% | 6.3 |
+| `/soundcore` | 9,446 | 0.9% | 7.6 |
+| `/cables` | 9,221 | 1.2% | 7.4 |
+| `/en/anker` | 5,555 | 0.5% | 7.0 |
+| `/en/earbuds` | 4,850 | **0.3%** | 6.0 |
+| `/en/soundcore` | 3,967 | 0.5% | 9.5 |
+| `/en/soundcore/audio` | 3,821 | **0.2%** | 7.0 |
+| `/en/anker/power-banks` | 2,598 | **0.1%** | 8.6 |
+| `/en/joyroom/power-banks` | 803 | **0.1%** | 6.0 |
+
+These rank on page one and are not clicked. That is a snippet problem, not a
+ranking problem — and meta description is not a ranking factor, so it is the
+lowest-risk lever available.
+
+### Ranking on page two or three (impressions, no clicks)
+
+`/en/anker/cables` position **21.4** (588 im, 0% CTR) · `/anker/car-chargers`
+position **20.5** (477 im, 0%) · `/en/anker/car-chargers` position **20.6** ·
+`/soundcore/speakers` position 13.8 · `/en/anker/wall-chargers` position 13.0.
+These need content/authority work, not metadata.
 
 ## 2. Demand clusters (28d)
 
@@ -62,23 +97,52 @@ soundcore p20i               769 im ·  16 cl · pos 6.3
 soundcore q20i               432 im ·  11 cl · pos 7.8
 ```
 
-### Navigational Anker demand — **not served by `/anker`**
+### Navigational Anker demand — served by `/anker`, but under-converting
 ```
 انكر              939 im    anker egypt      683 im
-anker egypt       683 im    انكر مصر         451 im · 51 cl · pos 3.9
-anker             330 im    توكيل انكر مصر   232 im
+انكر مصر          451 im · 51 cl · pos 3.9   توكيل انكر مصر   232 im
 أنكر مصر          231 im    توكيل انكر       222 im
-موقع انكر         141 im    موقع انكر مصر    135 im
+موقع انكر مصر     135 im    وكيل انكر في مصر 156 im
 ```
-≈ **3,364 impressions** of pure brand/navigational intent, while the `/anker`
-brand hub records **zero impressions**. (Earbuds-flavoured Anker queries such as
-`سماعات انكر` are correctly served by `/soundcore/audio`, since Soundcore is
-Anker's audio brand — those are excluded from the figure above.)
+Roughly **4,400 impressions** of brand / "where do I buy this in Egypt" intent
+(`انكر مصر`, `توكيل`, `وكيل`, `فروع`, `متجر`, `موقع`, `خدمة عملاء`).
+
+`/anker` **does** serve it: **171 clicks · 6,338 im · 2.7% CTR · pos 7.5** —
+the second-best category page on the site. Its English twin `/en/anker` sits at
+5,555 impressions but only **0.5% CTR** at position 7.0, so the English snippet
+is the weak half. (Earbuds-flavoured Anker queries like `سماعات انكر` are served
+by `/soundcore/audio` instead, correctly — Soundcore is Anker's audio brand.)
+
+### Anker Pencil — the strongest commercial cluster
+```
+anker pencil        402 im · 33 cl · 8.2%  · pos 4.4
+anker pencil for ipad  178 im · 10 cl · 5.6%
+anker ipad pencil      157 im · 10 cl · 6.4%
+قلم انكر               109 im · 11 cl · 10.1% · pos 3.5
+قلم انكر للايباد        80 im · 11 cl · 13.8%
+anker pencil a7139      48 im · 13 cl · 27.1% · pos 2.7
+anker a7139              9 im ·  4 cl · 44.4%
+```
+≈ **1,270 impressions / 123 clicks — about 9.7% CTR, eight times the site
+average.** The two product pages earn 212 clicks between them.
+
+**Stock signal, not a content fix:** several of these queries name **A7139**,
+while `src/data/products/anker-pencil-stylus.ts` is MPN **A7166** (Anker Pencil
+*Pro*) consistently throughout. A7139 is a different model the store does not
+carry. Do **not** add A7139 to the page — that would recreate the phantom-SKU
+defect the category audit spent 73 findings removing. Treat it as demand for a
+product worth sourcing.
 
 ### Smart watches — no AMOLED demand exists
 Only 3 queries in the top 1,000, totalling 203 impressions. **Zero queries in the
-entire 1,000-query set contain "AMOLED".** The strongest is a price-bracket query:
-`افضل ساعة سمارت في حدود 1500` (150 im) — note the colloquial **سمارت**, not `ذكية`.
+entire 1,000-query set contain "AMOLED"**, so the token removed from the live
+keywords meta was earning nothing. The strongest smartwatch query is a
+price-bracket one: `افضل ساعة سمارت في حدود 1500` (150 im) — note the colloquial
+**سمارت**, not `ذكية`.
+
+The page itself is **not** dormant: `/joyroom/smart-watches` draws 359
+impressions at position **4.9** for 1 click (0.3% CTR). It ranks well and
+converts badly — the same snippet problem as the pages above.
 
 ---
 
@@ -165,8 +229,16 @@ returned **0 drift** — confirming no ranking signal was altered.
    expected rate for that position. The page ranks; its snippet under-converts.
    Meta description is not a ranking factor, so rewriting it is a CTR lever with
    negligible ranking risk. Highest-value single edit available.
-3. **20 category pages have zero impressions.** Their titles/metas can be changed
-   freely — there is no ranking to protect. The constraint that applies elsewhere
-   does not apply to them.
-4. `scripts/blog-keywords.mjs` is broken until its CSV inputs are restored or the
+3. **Almost every category page already ranks — treat none of them as free to
+   edit.** 40 of them draw impressions; even the quietest
+   (`/joyroom/car-accessories`, 30 im) has a position to protect. The pages that
+   look "dead" are mostly page-two rankers (`/en/anker/cables` pos 21.4,
+   `/anker/car-chargers` pos 20.5) that need content and links, not new titles.
+4. **English snippets under-convert far worse than Arabic.** `/en/soundcore/audio`
+   0.2% vs `/soundcore/audio` 0.9%; `/en/anker` 0.5% vs `/anker` 2.7%;
+   `/en/anker/power-banks` 0.1% on 2,598 impressions. The English descriptions are
+   the biggest untouched CTR pool on the site.
+5. **Source the Anker Pencil A7139.** Demand exists at 27–44% CTR on model-specific
+   queries; the store carries only the A7166 Pro.
+6. `scripts/blog-keywords.mjs` is broken until its CSV inputs are restored or the
    script is repointed at this baseline.
