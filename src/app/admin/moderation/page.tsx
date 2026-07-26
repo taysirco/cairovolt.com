@@ -7,7 +7,7 @@
  * الإخفاء والاستعادة، والحذف العميق للمستند والصور.
  */
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
@@ -104,6 +104,10 @@ export default function ModerationPage() {
     const [confirmation, setConfirmation] = useState<ConfirmationDialog | null>(null);
     const [actionReason, setActionReason] = useState('');
     const [deleteConfirmation, setDeleteConfirmation] = useState('');
+    const [pendingCount, setPendingCount] = useState(0);
+    const [hasNewPending, setHasNewPending] = useState(false);
+    const pendingCountRef = useRef(0);
+    const pendingCountReadyRef = useRef(false);
 
     const load = useCallback(async (sec: string, status: ReviewStatus) => {
         setLoading(true);
@@ -126,6 +130,7 @@ export default function ModerationPage() {
 
             const data = await response.json() as {
                 reviews?: PendingReview[];
+                count?: number;
                 error?: string;
             };
 
@@ -135,6 +140,15 @@ export default function ModerationPage() {
             }
 
             setReviews(data.reviews || []);
+            if (status === 'pending') {
+                const count = Number.isFinite(data.count)
+                    ? Math.max(0, Number(data.count))
+                    : (data.reviews || []).length;
+                pendingCountRef.current = count;
+                pendingCountReadyRef.current = true;
+                setPendingCount(count);
+                setHasNewPending(false);
+            }
             setAuthed(true);
             setTab(status);
             if (sec) sessionStorage.setItem('mod_secret', sec);
@@ -146,11 +160,54 @@ export default function ModerationPage() {
         }
     }, []);
 
+    const checkPendingCount = useCallback(async (sec: string) => {
+        try {
+            const response = await fetch('/api/reviews/moderate?status=pending&countOnly=1', {
+                headers: sec ? { 'X-Admin-Secret': sec } : {},
+                credentials: 'same-origin',
+                cache: 'no-store',
+            });
+            if (response.status === 401) {
+                setAuthed(false);
+                return;
+            }
+            if (!response.ok) return;
+
+            const data = await response.json() as { count?: number };
+            if (!Number.isFinite(data.count)) return;
+            const count = Math.max(0, Number(data.count));
+            if (pendingCountReadyRef.current && count > pendingCountRef.current) {
+                setHasNewPending(true);
+            }
+            pendingCountRef.current = count;
+            pendingCountReadyRef.current = true;
+            setPendingCount(count);
+        } catch {
+            // فشل الفحص الخلفي لا يعطّل الداشبورد؛ سيُعاد تلقائياً في الدورة التالية.
+        }
+    }, []);
+
     useEffect(() => {
         const savedSecret = sessionStorage.getItem('mod_secret') || '';
         setSecret(savedSecret);
         void load(savedSecret, 'pending');
     }, [load]);
+
+    useEffect(() => {
+        if (!authed) return;
+
+        const checkWhenVisible = () => {
+            if (document.visibilityState === 'visible') void checkPendingCount(secret);
+        };
+        checkWhenVisible();
+        const intervalId = window.setInterval(checkWhenVisible, 30_000);
+        document.addEventListener('visibilitychange', checkWhenVisible);
+
+        return () => {
+            window.clearInterval(intervalId);
+            document.removeEventListener('visibilitychange', checkWhenVisible);
+        };
+    }, [authed, checkPendingCount, secret]);
 
     useEffect(() => {
         if (!confirmation) return;
@@ -173,7 +230,14 @@ export default function ModerationPage() {
     };
 
     const selectTab = (status: ReviewStatus) => {
-        if (status === tab || loading) return;
+        if (loading) return;
+        if (status === tab) {
+            if (status === 'pending' && hasNewPending) {
+                setQuery('');
+                void load(secret, status);
+            }
+            return;
+        }
         setQuery('');
         void load(secret, status);
     };
@@ -254,6 +318,12 @@ export default function ModerationPage() {
                 )));
             } else {
                 setReviews(current => current.filter(review => review.id !== reviewId));
+            }
+            if (tab === 'pending' && (action === 'approve' || action === 'reject')) {
+                const nextCount = Math.max(0, pendingCountRef.current - 1);
+                pendingCountRef.current = nextCount;
+                setPendingCount(nextCount);
+                if (nextCount === 0) setHasNewPending(false);
             }
             return true;
         } catch {
@@ -485,6 +555,18 @@ export default function ModerationPage() {
                                     <SvgIcon name={item.icon} className="hidden h-4 w-4 sm:block" />
                                     <span className="sm:hidden">{item.shortLabel}</span>
                                     <span className="hidden sm:inline">{item.label}</span>
+                                    {item.id === 'pending' && pendingCount > 0 && (
+                                        <span
+                                            role="status"
+                                            aria-label={`${pendingCount} تقييم ${hasNewPending ? 'جديد ' : ''}قيد المراجعة`}
+                                            className={`inline-flex min-w-5 items-center justify-center rounded-full bg-rose-600 px-1.5 py-0.5 text-[10px] font-black leading-none text-white shadow-sm shadow-rose-950/30 ${
+                                                hasNewPending ? 'animate-pulse ring-4 ring-rose-500/20' : ''
+                                            }`}
+                                            dir="ltr"
+                                        >
+                                            {pendingCount > 99 ? '99+' : pendingCount}
+                                        </span>
+                                    )}
                                 </button>
                             ))}
                         </div>

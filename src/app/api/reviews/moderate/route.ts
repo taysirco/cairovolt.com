@@ -188,7 +188,15 @@ export async function GET(req: NextRequest) {
     const status = req.nextUrl.searchParams.get('status') || 'pending';
     if (!REVIEW_STATUSES.has(status)) return json({ error: 'Bad status' }, 400);
     const db = await getFirestore();
-    const snap = await db.collection('reviews').where('status', '==', status).limit(60).get();
+    const statusQuery = db.collection('reviews').where('status', '==', status);
+
+    // استعلام خفيف للعداد الحي في الداشبورد؛ لا ينقل محتوى التقييم أو بيانات العميل.
+    if (req.nextUrl.searchParams.get('countOnly') === '1') {
+        const countSnap = await statusQuery.count().get();
+        return json({ count: countSnap.data().count });
+    }
+
+    const snap = await statusQuery.limit(60).get();
     const reviews = snap.docs.map(d => {
         const r = d.data() as Record<string, unknown>;
         return {
@@ -214,7 +222,7 @@ export async function GET(req: NextRequest) {
             deletionStatus: dashboardString(r.deletionStatus, 60),
         };
     }).sort((a, b) => String(b.reviewDate || '').localeCompare(String(a.reviewDate || '')));
-    return json({ reviews });
+    return json({ reviews, count: snap.size });
 }
 
 export async function POST(req: NextRequest) {
