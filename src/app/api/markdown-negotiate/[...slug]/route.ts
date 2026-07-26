@@ -152,8 +152,12 @@ export async function GET(
         }
 
         // Canonicalize the optional Arabic prefix with a permanent redirect.
+        // Lowercased in the same hop, matching the HTML middleware — otherwise
+        // /ar/Anker would chain through /Anker before reaching /anker.
         if (slug[0] === 'ar') {
-            return markdownRedirect(slug.length === 1 ? '/' : `/${slug.slice(1).join('/')}`);
+            return markdownRedirect(
+                slug.length === 1 ? '/' : `/${slug.slice(1).join('/').toLowerCase()}`,
+            );
         }
 
         // Strict lowercase enforcement.

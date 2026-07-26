@@ -149,9 +149,14 @@ export default function middleware(request: NextRequest) {
     }
 
     // Canonicalize the optional Arabic prefix with a permanent redirect.
+    //
+    // Lowercase in the SAME hop. Emitting the still-cased path here sent the
+    // crawler to a URL only the lowercase gate below could fix, so /ar/Anker
+    // became a two-hop chain: /ar/Anker -> /Anker -> /anker. Search Console
+    // listed those chained URLs under "Crawled - currently not indexed".
     if (pathname === '/ar' || pathname === '/ar/' || pathname.startsWith('/ar/')) {
         const url = request.nextUrl.clone();
-        url.pathname = pathname === '/ar' ? '/' : pathname.slice(3);
+        url.pathname = pathname === '/ar' ? '/' : pathname.slice(3).toLowerCase();
         return NextResponse.redirect(url, { status: 301 });
     }
 
