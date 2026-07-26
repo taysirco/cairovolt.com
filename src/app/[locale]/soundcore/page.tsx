@@ -6,6 +6,7 @@ import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { soundcoreHub } from '@/data/soundcore-hub';
+import { resolveMinPriceToken } from '@/lib/meta-price-token';
 import { staticProducts } from '@/lib/static-products';
 import CategoryDiscoveryGrid from '@/components/brand/CategoryDiscoveryGrid';
 import {
@@ -28,19 +29,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const meta = isArabic
         ? {
             title: 'ساوندكور من انكر مصر | سماعات وايربودز وسبيكرات',
-            description: 'تصفح ايربودز وهيدفون وسبيكرات ساوندكور من انكر في مصر، وقارن ANC والتطبيق وEQ وLDAC وBassUp وPartyCast وتصنيفات IP حسب كل موديل.',
+            description: 'ساوند كور من انكر في مصر — ايربودز P20i وR50i NC وQ20i وLiberty وهيدفون وسبيكرات من {minPrice} جنيه. ضمان كايرو فولت والدفع عند الاستلام.',
             keywords: 'ساوندكور, انكر, سماعات ساوندكور, سبيكر ساوندكور, ايربودز ساوندكور, ساوندكور مصر',
         }
         : {
             title: 'Soundcore by Anker Egypt | Earbuds, Headphones & Speakers',
-            description: 'Browse Soundcore by Anker earbuds, headphones, and speakers in Egypt. Compare model-specific ANC, app/EQ, LDAC, BassUp, PartyCast, and IP ratings.',
+            description: 'Soundcore by Anker in Egypt — P20i, R50i NC, Q20i and Liberty earbuds, headphones and speakers from {minPrice} EGP. CairoVolt warranty and cash on delivery.',
             keywords: 'soundcore, anker soundcore, soundcore egypt, soundcore earbuds, soundcore speakers',
         };
     const canonical = isArabic ? 'https://cairovolt.com/soundcore' : 'https://cairovolt.com/en/soundcore';
+    // The copy quotes this hub's entry price with a {minPrice} token, resolved
+    // from the live Soundcore shelf so the snippet cannot advertise a stale figure.
+    const soundcoreProducts = staticProducts.filter(
+        product => product.status === 'active' && product.brand.toLowerCase() === 'soundcore'
+    );
+    const metaDescription = resolveMinPriceToken(meta.description, soundcoreProducts);
 
     return {
         title: { absolute: meta.title },
-        description: meta.description,
+        description: metaDescription,
         keywords: isArabic
             ? localizeArabicBrandNames(meta.keywords)
             : meta.keywords,
@@ -54,7 +61,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         },
         openGraph: {
             title: meta.title,
-            description: meta.description,
+            description: metaDescription,
             url: canonical,
             locale: isArabic ? 'ar_EG' : 'en_EG',
             type: 'website',
@@ -63,7 +70,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         twitter: {
             card: 'summary_large_image',
             title: meta.title,
-            description: meta.description,
+            description: metaDescription,
         },
     };
 }

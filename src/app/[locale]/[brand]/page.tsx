@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { brandData } from '@/data/brand-data';
+import { resolveMinPriceToken } from '@/lib/meta-price-token';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { BrandOverviewBlock } from '@/components/content/CategoryOverviewBlock';
 import { SvgIcon } from '@/components/ui/SvgIcon';
@@ -48,7 +49,7 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
         if (isAnker) {
             return {
                 ...common,
-                description: 'تصفح شواحن وباور بانك وكابلات وشواحن سيارة انكر في مصر. قارن قدرة USB-C وبروتوكولات PD وPPS والسعة والمنافذ والتوافق، ثم راجع السعر وشروط ضمان كايرو فولت في صفحة المنتج.',
+                description: 'انكر في مصر — شواحن GaN وباور بانك PowerCore وكابلات وشواحن سيارة من {minPrice} جنيه. ضمان كايرو فولت والدفع عند الاستلام.',
                 keywords: 'انكر, منتجات انكر, انكر مصر, شاحن انكر, باور بانك انكر, كابل انكر, شاحن سيارة انكر, كايرو فولت',
                 quickAnswer: 'اختيار منتج انكر يبدأ من احتياج الجهاز لا من رقم الواط وحده: تحقق من المنفذ وبروتوكول الشحن والقدرة التي يقبلها جهازك، ثم قارن السعة والمنافذ والكابل المرفق. تقنيات GaN وPowerIQ وActiveShield تظهر في موديلات محددة وليست ميزة موحّدة لكل المنتجات.',
                 overviewLabel: 'دليل تقنيات الشحن',
@@ -74,7 +75,7 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
 
         return {
             ...common,
-            description: 'تصفح منتجات جوي روم في مصر ضمن السماعات والباور بانك والشواحن والكابلات والساعات وحوامل السيارة. قارن رقم الموديل والتوافق والمنافذ والقدرة والمقاس، ثم راجع السعر وشروط ضمان كايرو فولت في صفحة المنتج.',
+            description: 'جوي روم في مصر — ايربودز T03s وباور بانك وشواحن وكابلات وساعات وحوامل سيارة من {minPrice} جنيه. ضمان كايرو فولت والدفع عند الاستلام.',
             keywords: 'جوي روم, منتجات جوي روم, جوي روم مصر, سماعات جوي روم, باور بانك جوي روم, شاحن جوي روم, كابل جوي روم, ساعات جوي روم, كايرو فولت',
             quickAnswer: 'منتجات جوي روم تغطي فئات متعددة، وقد تتشابه الأسماء بينما تختلف المنافذ والقدرة أو التطبيق والتوافق. ابدأ برقم الموديل واحتياج جهازك، ثم راجع مواصفات الشحن أو الصوت أو التثبيت في صفحة المنتج قبل مقارنة السعر.',
             overviewLabel: 'دليل فئات جوي روم',
@@ -124,7 +125,7 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
     if (isAnker) {
         return {
             ...common,
-            description: 'Browse Anker wall chargers, power banks, cables, and car chargers in Egypt. Compare USB-C output, PD/PPS support, capacity, ports, and compatibility, then check the product page for current price and CairoVolt warranty terms.',
+            description: 'Anker in Egypt — GaN wall chargers, PowerCore power banks, cables and car chargers from {minPrice} EGP. CairoVolt warranty and cash on delivery.',
             keywords: 'Anker, Anker Egypt, Anker charger, Anker power bank, Anker cable, Anker car charger, CairoVolt',
             quickAnswer: 'Choose an Anker product from the device requirement, not wattage alone: check the connector, charging protocol, and power accepted by your device, then compare capacity, ports, and the included cable. GaN, PowerIQ, and ActiveShield appear on selected models rather than every product.',
             overviewLabel: 'Charging technology guide',
@@ -150,7 +151,7 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
 
     return {
         ...common,
-        description: 'Browse Joyroom audio, power banks, chargers, cables, smartwatches, and car accessories in Egypt. Compare the exact model, compatibility, ports, output, and fit, then check current price and CairoVolt warranty terms on the product page.',
+        description: 'Joyroom in Egypt — T03s earbuds, power banks, chargers, cables, smartwatches and car mounts from {minPrice} EGP. CairoVolt warranty and cash on delivery.',
         keywords: 'Joyroom, Joyroom Egypt, Joyroom earbuds, Joyroom power bank, Joyroom charger, Joyroom cable, Joyroom smartwatch, CairoVolt',
         quickAnswer: 'Joyroom spans several accessory categories, and similarly named models can differ in ports, output, app support, or compatibility. Start with the exact model and your device requirements, then review the relevant charging, audio, or mounting specifications before comparing price.',
         overviewLabel: 'Joyroom category guide',
@@ -209,9 +210,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         : (isArabic ? `${brandDisplayName} - كايرو فولت مصر` : `${data.hero.title} - CairoVolt Egypt`);
 
     // Descriptive brand page title based on the active catalogue.
-    const brandProductCount = staticProducts.filter(
+    const brandProducts = staticProducts.filter(
         p => p.status === 'active' && p.brand.toLowerCase() === brand.toLowerCase()
-    ).length;
+    );
+    const brandProductCount = brandProducts.length;
+    // The copy may quote this brand's entry price with a {minPrice} token.
+    const metaDescription = resolveMinPriceToken(copy.description, brandProducts);
     const arTitle = `منتجات ${brandDisplayName} في مصر | ${brandProductCount} منتج | ضمان كايرو فولت`;
     const enTitle = `${brandName} Products in Egypt | ${brandProductCount} Products | CairoVolt Warranty`;
 
@@ -223,7 +227,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // Strict lowercase for canonical URLs (URL best practice)
     return {
         title: { absolute: dynamicTitle },
-        description: copy.description,
+        description: metaDescription,
         keywords: copy.keywords,
         alternates: {
             canonical,
@@ -235,7 +239,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         },
         openGraph: {
             title: dynamicTitle,
-            description: copy.description,
+            description: metaDescription,
             url: canonical,
             siteName: 'CairoVolt',
             locale: isArabic ? 'ar_EG' : 'en_EG',
@@ -247,7 +251,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         twitter: {
             card: 'summary_large_image',
             title: dynamicTitle,
-            description: copy.description,
+            description: metaDescription,
             images: socialImageUrl ? [socialImageUrl] : undefined,
         },
     };

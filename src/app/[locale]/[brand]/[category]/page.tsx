@@ -6,6 +6,7 @@ import { getProductsByBrandAndCategory } from '@/lib/static-products';
 import { staticProducts } from '@/lib/static-products';
 import { ankerBestSellers, soundcoreBestSellers } from '@/components/products/BestSellingProducts';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import { resolveMinPriceToken } from '@/lib/meta-price-token';
 
 /**
  * The Joyroom car-accessories route is an umbrella landing page. Products keep
@@ -98,26 +99,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? `${enCategoryName} in Egypt ⚡ ${productCount} Products | Prices & COD`
         : `${enCategoryName} in Egypt ⚡ Prices & COD`;
 
-    // Lowest live price on the shelf. A meta description may ask for it with a
-    // {minPrice} token instead of hard-coding a figure, so an entry price in the
-    // SERP snippet is filled from the catalogue at build time and cannot go
-    // stale the way a typed number would. Categories that never use the token
-    // are unaffected.
-    const shelfPrices = catProducts
-        .map(product => product.price)
-        .filter((price): price is number => typeof price === 'number' && price > 0);
-    const minPrice = shelfPrices.length ? Math.min(...shelfPrices) : null;
-
     const dynamicTitle = isArabic ? arTitle : enTitle;
     const localizedDescription = isArabic
         ? localizeArabicBrandNames(meta.description)
         : meta.description;
-    // With no priced product to quote, drop the whole sentence that asked for
-    // the token rather than emit a literal "{minPrice}" into the snippet.
-    const metaDescription = (minPrice !== null
-        ? localizedDescription.replace(/\{minPrice\}/g, minPrice.toLocaleString('en-US'))
-        : localizedDescription.replace(/[^.!؟]*\{minPrice\}[^.!؟]*[.!؟]\s*/g, '')
-    ).trim();
+    // A description may quote this shelf's entry price with a {minPrice} token.
+    const metaDescription = resolveMinPriceToken(localizedDescription, catProducts);
     const canonical = isArabic
         ? `https://cairovolt.com/${path}`
         : `https://cairovolt.com/en/${path}`;
