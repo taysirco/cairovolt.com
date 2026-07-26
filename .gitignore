@@ -153,6 +153,9 @@ public/images/blog/posts/cairovolt-c2pa-authentication-card.webp
 # IDE & editor settings
 .vscode/
 
+# Installed dependencies for the isolated backup Functions codebase
+/functions-backup/node_modules/
+
 # Genkit traces & caches
 .genkit/
 
