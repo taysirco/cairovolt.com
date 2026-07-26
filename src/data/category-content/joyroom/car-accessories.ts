@@ -7,12 +7,12 @@ export const joyroom_car_accessories_content: CategoryContent = {
                 en: {
                     title: 'Joyroom Car Accessories Egypt | USB-C PD 60W + N52 Mount',
                     description: 'Compare Joyroom car accessories in Egypt, including USB-C PD chargers, N52 magnetic holders, and MagSafe-compatible models. Current price and CairoVolt warranty are listed per product.',
-                    keywords: 'joyroom car charger, joyroom car holder, car accessories egypt, joyroom 60W USB-C PD, N52 magnetic mount, MagSafe car holder, joyroom car accessories price',
+                    keywords: 'joyroom car charger, joyroom car holder, car accessories egypt, joyroom 69W USB-C PD, N52 magnetic mount, MagSafe car holder, joyroom car accessories price',
                 },
                 ar: {
                     title: 'اكسسوارات سيارة جوي روم مصر | USB-C PD وحوامل N52',
                     description: 'قارن اكسسوارات سيارة جوي روم، بما فيها شواحن USB-C PD وحوامل N52 وموديلات متوافقة مع MagSafe. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
-                    keywords: 'شاحن سيارة جوي روم, سعر اكسسوارات سيارة, حامل موبايل سيارة, حامل N52, شاحن USB-C PD 60W, MagSafe سيارة, اكسسوارات سيارة مصر',
+                    keywords: 'شاحن سيارة جوي روم, سعر اكسسوارات سيارة, حامل موبايل سيارة, حامل N52, شاحن USB-C PD 69W, MagSafe سيارة, اكسسوارات سيارة مصر',
                 }
             },
             pageContent: {
@@ -36,7 +36,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
                             content: `
 - **أقل من 20W:** مناسب للمحافظة على الشحن في أجهزة متوافقة، وقد لا يعوض استهلاك الملاحة والشاشة.
 - **30-45W:** مناسب لهاتف واحد إذا كان يدعم البروتوكول والقدرة المدرجين.
-- **حتى 60W:** قد يناسب شحن جهازين، لكن يجب مراجعة توزيع القدرة بين المنافذ ودعم PD/PPS لكل جهاز.
+- **حتى 69W إجمالي:** الموديل المعروض هنا (JR-CCL05) يذكر 69 واط إجمالية موزّعة على كابلين مدمجين ومنفذين — راجع تركيبات التوزيع المطبوعة على الوحدة ودعم PD/PPS لكل جهاز.
 `
                         },
                         {
@@ -53,7 +53,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
                             answer: 'اختر موديلًا يذكر أنظمة الحماية المطلوبة، واستخدمه داخل نطاق دخل السيارة المحدد على المنتج. لا تترك الشاحن تحت الشمس المباشرة وتوقف عن استخدامه إذا ظهرت سخونة غير طبيعية.'
                         },
                         {
-                            question: 'شاحن جوي روم 60W بيشحن كام جهاز في نفس الوقت؟',
+                            question: 'شاحن جوي روم JR-CCL05 بيشحن كام جهاز في نفس الوقت؟',
                             answer: 'يمكن للموديل متعدد المنافذ شحن جهازين، لكن القدرة المكتوبة قد تكون إجمالية وقد تتغير حصة كل منفذ عند الاستخدام المتزامن. راجع جدول توزيع الطاقة ودعم PD/PPS/QC في صفحة المنتج.'
                         },
                         {
@@ -70,7 +70,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
                         }
                         ,{
                             question: 'هل بيشحن ايفون 17 وسامسونج S26 في نفس الوقت؟',
-                            answer: 'موديل 60W يوفر USB-C PD ومنفذ USB-A لشحن جهازين متوافقين. القدرة المتاحة لكل منفذ قد تتغير عند توصيل جهازين؛ راجع جدول توزيع الطاقة في صفحة المنتج.'
+                            answer: 'JR-CCL05 يوفر كابلين مدمجين ومنفذين، بإجمالي معلن 69 واط. حصة كل مخرج تتغير عند توصيل أكثر من جهاز — التركيبة المضمونة الوحيدة هي المطبوعة على الوحدة نفسها؛ راجعها وراجع دعم البروفايلات في صفحة المنتج.'
                         }
                         ,{
                             question: '⚠️ إزاي افرق بين اكسسوارات جوي روم الأصلية والمقلدة؟',
@@ -82,9 +82,9 @@ export const joyroom_car_accessories_content: CategoryContent = {
                         }
                     ],
                     products: [
-                        { name: 'Joyroom 60W Car Charger', price: 513, badge: 'شحن سريع' },
-                        { name: 'Joyroom Magnetic Car Holder', price: 169, badge: 'مغناطيسي' },
-                        { name: 'Joyroom Dashboard Mount', price: 169, badge: 'مثبت' }
+                        { name: 'شاحن سيارة جوي روم JR-CCL05 (4 في 1)', price: 513, badge: 'كابلات مدمجة' },
+                        { name: 'حامل جوال مغناطيسي جوي روم ZS290 (N52 MagSafe)', price: 934, badge: 'مغناطيسي' },
+                        { name: 'حامل موبايل سيارة جوي روم JR-ZS295', price: 169, badge: 'حامل' }
                     ]
                 },
                 en: {
@@ -107,7 +107,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
                             content: `
 - **Under 20W:** Suitable for maintaining charge on compatible devices, but may not offset navigation and screen use.
 - **30-45W:** Suitable for one phone when its protocol and power requirements match.
-- **Up to 60W:** May suit two-device charging; check port distribution and PD/PPS support for each device.
+- **Up to 69W total:** The model listed here (JR-CCL05) states 69W total shared across two built-in cables and two ports — check the distribution combinations printed on the unit and PD/PPS support per device.
 `
                         },
                         {
@@ -124,7 +124,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
                             answer: 'Choose a model that lists the required protection systems and use it within the vehicle input range printed on the product. Do not leave the charger in direct sun, and stop use if unusual heat appears.'
                         },
                         {
-                            question: 'How many devices can a Joyroom 60W car charger charge at once?',
+                            question: 'How many devices can the Joyroom JR-CCL05 car charger charge at once?',
                             answer: 'A multi-port model can charge two devices, but the printed power may be total and each port share can change when both are used. Check the power-distribution table and PD/PPS/QC support on the product page.'
                         },
                         {
@@ -141,7 +141,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
                         },
                         {
                             question: 'Can it charge an iPhone 17 and Samsung S26 at the same time?',
-                            answer: 'The 60W model provides USB-C PD and a USB-A port for two compatible devices. Available power per port may change when both are connected; check the power-distribution table on the product page.'
+                            answer: 'The JR-CCL05 has two built-in cables plus two ports, with a stated 69W total. The share each output gets changes once more than one device is connected — the only guaranteed combinations are those printed on the unit itself; check those and the supported profiles on the product page.'
                         },
                         {
                             question: 'Warning: How can I spot counterfeit Joyroom car accessories?',
@@ -153,9 +153,9 @@ export const joyroom_car_accessories_content: CategoryContent = {
                         }
                     ],
                     products: [
-                        { name: 'Joyroom 60W Car Charger', price: 513, badge: 'Fast Charge' },
-                        { name: 'Joyroom Magnetic Car Holder', price: 169, badge: 'Magnetic' },
-                        { name: 'Joyroom Dashboard Mount', price: 169, badge: 'Dashboard' }
+                        { name: 'Joyroom JR-CCL05 Car Charger (4-in-1)', price: 513, badge: 'Built-in cables' },
+                        { name: 'Joyroom ZS290 Magnetic Car Mount (N52 MagSafe)', price: 934, badge: 'Magnetic' },
+                        { name: 'Joyroom JR-ZS295 Car Phone Mount', price: 169, badge: 'Mount' }
                     ]
                 }
             }
