@@ -61,8 +61,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const localizedCategoryName = isArabic
         ? localizeArabicBrandNames(data.pageContent.ar.title)
         : data.pageContent.en.title;
-    const arCategoryName = localizeArabicBrandNames(data.pageContent.ar.title).replace(/\s+في مصر$/u, '');
-    const enCategoryName = data.pageContent.en.title.replace(/\s+in Egypt$/i, '');
+    // The composed title always appends the geo token, so strip every occurrence
+    // already present in the heading — not just a trailing one. Two shelves carry
+    // it mid-string ("Anker Power Banks in Egypt by Capacity and Output"), and the
+    // old end-anchored strip let those ship a title that said "in Egypt" twice.
+    // Only the <title> is affected; pageContent.title still renders as the H1 with
+    // its geo wording intact.
+    const arCategoryName = localizeArabicBrandNames(data.pageContent.ar.title).replace(/\s*في مصر/gu, '').trim();
+    const enCategoryName = data.pageContent.en.title.replace(/\s*\bin Egypt\b/gi, '').trim();
     // Strict lowercase for canonical URLs (URL best practice)
     const path = `${brandKey}/${categoryKey}`;
 

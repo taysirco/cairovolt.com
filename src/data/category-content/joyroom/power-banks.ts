@@ -96,12 +96,12 @@ export const joyroom_power_banks_content: CategoryContent = {
     metadata: {
         en: {
             title: 'Joyroom Power Bank Egypt | 10000 & 20000mAh Options',
-            description: 'Compare Joyroom power banks in Egypt by capacity, USB-C and Quick Charge support, built-in cables, displays, and magnetic wireless models. Current price and CairoVolt warranty are listed per product.',
+            description: 'Joyroom power banks in Egypt — 10000mAh, 20000mAh and magnetic wireless — from {minPrice} EGP. CairoVolt warranty and cash on delivery.',
             keywords: 'joyroom power bank, joyroom power bank egypt, joyroom 10000mah, joyroom 20000mah, joyroom magnetic power bank, usb c power bank egypt, باور بانك جوي روم'
         },
         ar: {
             title: 'باور بانك جوي روم مصر | خيارات 10000 و20000mAh',
-            description: 'قارن باور بانك جوي روم حسب السعة ودعم USB-C وQuick Charge والكابلات المدمجة والشاشة والموديلات اللاسلكية المغناطيسية. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
+            description: 'باور بانك جوي روم في مصر — 10000 و20000 مللي أمبير ومغناطيسي لاسلكي — من {minPrice} جنيه. ضمان كايرو فولت والدفع عند الاستلام.',
             keywords: 'باور بانك جوي روم, باور بانك جوي روم 10000, باور بانك جوي روم 20000, سعر باور بانك جوي روم, باور بانك USB-C مصر, باور بانك مغناطيسي, joyroom power bank'
         }
     },

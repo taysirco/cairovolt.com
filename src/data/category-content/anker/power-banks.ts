@@ -67,12 +67,12 @@ export const anker_power_banks_content: CategoryContent = {
             metadata: {
                 en: {
                     title: 'Anker Power Bank & Power Station Egypt | 20000mAh, 10000mAh',
-                    description: 'Compare Anker power banks and portable power stations in Egypt, including PowerCore and PowerHouse models, by capacity, Wh rating, USB-C PD output, current price, and CairoVolt warranty.',
+                    description: 'Anker power banks in Egypt — PowerCore 10000, 20000, 26800, Zolo, MagGo and 521 PowerHouse — from {minPrice} EGP. CairoVolt warranty and cash on delivery.',
                     keywords: 'anker power bank, anker power station, anker power bank 20000mah, anker powercore, anker prime power bank, anker powerhouse, anker 521, power bank egypt, portable power station',
                 },
                 ar: {
                     title: 'باور بانك انكر ومحطة طاقة | انكر Power Bank مصر',
-                    description: 'قارن باور بانك انكر ومحطات الطاقة PowerCore وPowerHouse حسب السعة بوحدة mAh وWh وقدرة USB-C PD. السعر الحالي وضمان كايرو فولت موضحان في صفحة المنتج.',
+                    description: 'باور بانك انكر في مصر — PowerCore 10000 و20000 و26800 وZolo وMagGo و521 PowerHouse — من {minPrice} جنيه. ضمان كايرو فولت والدفع عند الاستلام.',
                     keywords: 'باور بانك انكر, باور بنك انكر, محطة طاقة انكر, انكر باور ستيشن, باور بانك انكر 20000, باور بانك انكر 10000, سعر باور بانك انكر, انكر باور بانك, باور بانك',
                 }
             },
