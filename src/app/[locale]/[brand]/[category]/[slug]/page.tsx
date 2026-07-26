@@ -26,7 +26,23 @@ import {
 // ISR: Revalidate every hour + on-demand via /api/indexing webhook
 // Removing headers() allows true SSG → pages served as static HTML from CDN
 export const revalidate = 3600;
-export const dynamicParams = true;
+// Unknown slugs → framework 404, matching every sibling route ([brand],
+// [brand]/[category], locations/[governorate], solutions/[slug]).
+//
+// With dynamicParams = true this route soft-404ed: notFound() rendered the 404
+// UI but ISR served it with HTTP 200, so /anker/power-banks/<nonexistent> and
+// real slugs under the wrong brand/category segment both returned 200. That is
+// a soft 404 in Search Console, and it broke the status-parity contract the
+// markdown surface documents (/api/markdown-negotiate correctly returned 404
+// for the same URLs). Rejecting unknown params at the framework level is the
+// only mechanism in this app that reliably produces a real 404.
+//
+// Trade-off accepted: a product that exists ONLY in Firestore (getProduct's
+// fallback lookup) is not in generateStaticParams, so it now 404s until a
+// rebuild. There are currently zero such products — the live sitemap, which
+// explicitly enumerates Firestore products missing from staticProducts, emits
+// exactly the 176 URLs a static-only build produces.
+export const dynamicParams = false;
 
 type Props = {
     params: Promise<{ locale: string; brand: string; category: string; slug: string }>;
