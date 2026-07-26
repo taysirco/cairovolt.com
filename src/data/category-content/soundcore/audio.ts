@@ -67,12 +67,12 @@ export const soundcore_audio_content: CategoryContent = {
             metadata: {
                 en: {
                     title: 'Soundcore Earbuds Egypt | R50i, P20i, Liberty 4 NC',
-                    description: 'Compare Soundcore earbuds in Egypt: R50i, R50i NC, P20i, K20i, A30i, and Liberty models by ANC, codecs, fit, and battery. Current price and CairoVolt warranty are listed per product.',
+                    description: 'Original Soundcore earbuds and headphones in Egypt — R50i NC, P20i, Q20i and Liberty — from {minPrice} EGP. CairoVolt warranty and cash on delivery.',
                     keywords: 'soundcore, anker earbuds, anker headphones, soundcore earbuds, soundcore r50i, anker r50i nc, soundcore p20i, anker p2i, soundcore k20i, soundcore a30i, soundcore liberty 4 nc, soundcore liberty 5, anker r100, anker airpods, soundcore egypt, anker',
                 },
                 ar: {
                     title: 'سماعات ساوندكور | ايربودز ساوندكور R50i | سماعة بلوتوث',
-                    description: 'قارن سماعات ساوندكور R50i وR50i NC وP20i وK20i وA30i وLiberty حسب ANC والترميزات والملاءمة والبطارية. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
+                    description: 'سماعات ساوندكور أصلية في مصر — R50i NC وP20i وQ20i وR50i VI وLiberty — تبدأ من {minPrice} جنيه. ضمان كايرو فولت والدفع عند الاستلام.',
                     keywords: 'سماعات ساوندكور, ايربودز ساوندكور, ايربودز ساوندكور r50i, سماعة ساوندكور, سماعة بلوتوث ساوندكور, سماعات ساوندكور بلوتوث, ساوندكور سماعه, سماعه ساوندكور, سعر سماعة ايربودز, انكر',
                 }
             },

@@ -92,10 +92,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? `${enCategoryName} in Egypt ⚡ ${productCount} Products | Prices & COD`
         : `${enCategoryName} in Egypt ⚡ Prices & COD`;
 
+    // Lowest live price on the shelf. A meta description may ask for it with a
+    // {minPrice} token instead of hard-coding a figure, so an entry price in the
+    // SERP snippet is filled from the catalogue at build time and cannot go
+    // stale the way a typed number would. Categories that never use the token
+    // are unaffected.
+    const shelfPrices = catProducts
+        .map(product => product.price)
+        .filter((price): price is number => typeof price === 'number' && price > 0);
+    const minPrice = shelfPrices.length ? Math.min(...shelfPrices) : null;
+
     const dynamicTitle = isArabic ? arTitle : enTitle;
-    const metaDescription = isArabic
+    const localizedDescription = isArabic
         ? localizeArabicBrandNames(meta.description)
         : meta.description;
+    // With no priced product to quote, drop the whole sentence that asked for
+    // the token rather than emit a literal "{minPrice}" into the snippet.
+    const metaDescription = (minPrice !== null
+        ? localizedDescription.replace(/\{minPrice\}/g, minPrice.toLocaleString('en-US'))
+        : localizedDescription.replace(/[^.!؟]*\{minPrice\}[^.!؟]*[.!؟]\s*/g, '')
+    ).trim();
     const canonical = isArabic
         ? `https://cairovolt.com/${path}`
         : `https://cairovolt.com/en/${path}`;
