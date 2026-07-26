@@ -75,7 +75,11 @@ export const anker_car_chargers_content: CategoryContent = {
                         },
                         {
                             question: 'هل يشحن سامسونج S26 Ultra بسرعة؟',
-                            answer: 'موديل 323 بقدرة 52W يوفر منفذ USB-C PD حتى 30W. تحقق من دعم PPS ومتطلبات هاتف Samsung المحدد للحصول على وضع الشحن المتوافق.'
+                            // كان يشير إلى "موديل 323 بقدرة 52W" وهو غير موجود في الكتالوج
+                            // إطلاقاً. أُعيدت الصياغة اعتماداً على أرقام منشورة على صفحتَي
+                            // المنتج نفسيهما: A2741 (PPS، ذروة مقاسة 29.3 واط على USB-C)
+                            // وA2732 (بدون PPS، وSFC يرتد إلى ~15 واط).
+                            answer: 'من المعروض هنا: A2741 يدعم PPS وهو المناسب لشحن سامسونج السريع (ذروة قِسناها 29.3 واط على منفذ USB-C). أما A2732 فبدون PPS، فيرتد شحن Samsung SFC إلى نحو 15 واط. تعتمد السرعة أيضاً على الكابل وحالة البطارية.'
                         },
                         {
                             question: 'هل بيشتغل مع كل السيارات؟',
@@ -147,7 +151,10 @@ It depends on the vehicle: some 12V outlets switch off with the engine while oth
                         },
                         {
                             question: 'Will it charge a Samsung S26 Ultra quickly?',
-                            answer: 'The 323 model at 52W provides a USB-C PD port up to 30W. Check PPS support and the specific Samsung phone requirements for the compatible charging mode.'
+                            // Mirrors the Arabic answer. The previous text cited a "323 model
+                            // at 52W" that is not in the catalogue at all; these figures come
+                            // from the A2741 and A2732 product pages on this site.
+                            answer: 'Of the chargers listed here, the A2741 supports PPS and is the one for Samsung fast charging (we measured a 29.3W peak on its USB-C port). The A2732 has no PPS, so Samsung SFC falls back to about 15W. Speed also depends on your cable and battery state.'
                         },
                         {
                             question: 'Does it work with every car?',

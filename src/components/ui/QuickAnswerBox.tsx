@@ -19,8 +19,16 @@ export function QuickAnswerBox({ answer, locale, variant = 'subtle' }: QuickAnsw
     const isArabic = locale === 'ar';
     const hash = typeof answer === 'string' ? answer.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
 
-    const arPrefixes = ['باختصار:', 'الخلاصة:', 'مباشرة من المعمل:', 'في الجون:', 'ع السريع:'];
-    const enPrefixes = ['In short:', 'Bottom Line:', 'Straight from the Lab:', 'TL;DR:', 'Quick Take:'];
+    // Labels must stay NEUTRAL. 'مباشرة من المعمل:' and 'Straight from the Lab:'
+    // were removed: this box carries editorial buying guidance, not measurements,
+    // so a lab label asserted a provenance the copy does not have — on category
+    // hubs it sat above generic advice with zero figures and zero citations.
+    // CairoVolt runs a real bench-test programme, which is exactly why lab wording
+    // must be reserved for blocks carrying an actual measurement with a sample ID
+    // or a named third-party source. ('في الجون:' is Egyptian for "spot on" — a
+    // register choice, not a provenance claim, so it stays.)
+    const arPrefixes = ['باختصار:', 'الخلاصة:', 'في الجون:', 'ع السريع:'];
+    const enPrefixes = ['In short:', 'Bottom Line:', 'TL;DR:', 'Quick Take:'];
 
     const arLabels = ['ملخص سريع', 'إجابتك المختصرة', 'نظرة سريعة'];
     const enLabels = ['Quick summary', 'Short answer', 'Brief overview'];
