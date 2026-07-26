@@ -217,7 +217,10 @@ export const brandData: Record<string, BrandData> = {
             { title: { en: 'Joyroom Power Banks', ar: 'باور بانك جوي روم' }, description: { en: 'Capacities and ports listed by model', ar: 'السعات والمنافذ موضحة حسب الموديل' }, href: '/joyroom/power-banks', icon: 'bolt', volume: { en: 'Compare capacities', ar: 'قارن السعات' } },
             { title: { en: 'Joyroom Chargers', ar: 'شواحن جوي روم' }, description: { en: 'Outputs and protocols listed by model', ar: 'القدرات والبروتوكولات حسب الموديل' }, href: '/joyroom/wall-chargers', icon: 'plug', volume: { en: 'Compare charging options', ar: 'قارن خيارات الشحن' } },
             { title: { en: 'Joyroom Cables', ar: 'كابلات جوي روم' }, description: { en: 'Connector and power options by model', ar: 'خيارات الموصل والقدرة حسب الموديل' }, href: '/joyroom/cables', icon: 'link', volume: { en: 'Check compatibility', ar: 'تحقق من التوافق' } },
-            { title: { en: 'Joyroom Smart Watches', ar: 'ساعات جوي روم' }, description: { en: 'FT3 Pro and other listed models', ar: 'FT3 Pro وموديلات أخرى معروضة' }, href: '/joyroom/smart-watches', icon: 'watch', volume: { en: 'Browse watch models', ar: 'تصفّح موديلات الساعات' }, badge: { en: 'Watches', ar: 'ساعات' } },
+            { title: { en: 'Joyroom Smart Watches', ar: 'ساعات جوي روم' }, // كان: "FT3 Pro وموديلات أخرى معروضة" — ادعاء مزدوج الخطأ: "FT3 Pro"
+// ليس في الكتالوج (الموديل المعروض هو JR-FT3، وصفحة منتجه تحذّر صراحةً من
+// الخلط بينهما)، ولا توجد "موديلات أخرى" — القسم يعرض موديلاً واحداً.
+description: { en: 'JR-FT3 — IP68, sports modes', ar: 'JR-FT3 — IP68 وأوضاع رياضية' }, href: '/joyroom/smart-watches', icon: 'watch', volume: { en: 'Browse watch models', ar: 'تصفّح موديلات الساعات' }, badge: { en: 'Watches', ar: 'ساعات' } },
             { title: { en: 'Car Holders', ar: 'حوامل سيارة جوي روم' }, description: { en: 'Mounting type and fit vary by model', ar: 'نوع التثبيت والتوافق حسب الموديل' }, href: '/joyroom/car-holders', icon: 'compass', volume: { en: 'Browse holder options', ar: 'تصفّح خيارات الحوامل' } },
             { title: { en: 'Car Accessories', ar: 'إكسسوارات سيارة جوي روم' }, description: { en: 'Chargers, mounts, and related accessories', ar: 'شواحن وحوامل وملحقات مرتبطة' }, href: '/joyroom/car-accessories', icon: 'car', volume: { en: 'Browse car accessories', ar: 'تصفّح إكسسوارات السيارة' } },
         ],
