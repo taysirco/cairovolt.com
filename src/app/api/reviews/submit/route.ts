@@ -126,6 +126,7 @@ export async function POST(req: NextRequest) {
 
     // 7) الصور: JPEG مضغوطة من العميل → Storage بتوكن تنزيل
     const images: string[] = [];
+    const imagePaths: string[] = [];
     const photos = Array.isArray(data.photos) ? (data.photos as string[]).slice(0, MAX_PHOTOS) : [];
     if (photos.length) {
         try {
@@ -146,6 +147,7 @@ export async function POST(req: NextRequest) {
                     metadata: { cacheControl: 'public, max-age=31536000, immutable', metadata: { firebaseStorageDownloadTokens: token } },
                 });
                 images.push(`https://firebasestorage.googleapis.com/v0/b/${bucket.name}/o/${encodeURIComponent(path)}?alt=media&token=${token}`);
+                imagePaths.push(path);
             }
         } catch (e) {
             console.error('[reviews/submit] photo upload failed:', (e as Error).message);
@@ -154,34 +156,55 @@ export async function POST(req: NextRequest) {
 
     // 8) الحفظ — بحالة pending حتى موافقة الداشبورد
     const now = new Date();
-    const docRef = await db.collection('reviews').add({
-        productSlug,
-        productName: String(product.translations?.ar?.name || product.slug).slice(0, 140),
-        orderId, orderDocId,
-        customerName: displayName,
-        customerInitials: displayName.slice(0, 2),
-        rating, title, reviewText,
-        pros, cons,
-        images,
-        purchaseDate, reviewDate: now, createdAt: now,
-        isVerified,
-        status: 'pending',
-        governorate: '',
-        helpfulCount: 0,
-        locale: 'ar',
-        // هوية المُقيِّم + هاتف المكافأة (لا يُعرضان للعامة — GET يرشّح الحقول)
-        authProvider: identity.provider,
-        authSubject: identity.subject,
-        authEmail: identity.email,
-        rewardPhone: '',
-        rewardRef,
-        rewardStatus: 'awaiting_moderation',
-        submitIp: ip,
-    });
+    let reviewId = '';
+    try {
+        const docRef = await db.collection('reviews').add({
+            productSlug,
+            productName: String(product.translations?.ar?.name || product.slug).slice(0, 140),
+            orderId, orderDocId,
+            customerName: displayName,
+            customerInitials: displayName.slice(0, 2),
+            rating, title, reviewText,
+            pros, cons,
+            images,
+            // المسارات الداخلية لا تُعرض للعامة؛ تحفظ مرجعاً دقيقاً للحذف العميق من Storage.
+            imagePaths,
+            purchaseDate, reviewDate: now, createdAt: now,
+            isVerified,
+            status: 'pending',
+            governorate: '',
+            helpfulCount: 0,
+            locale: 'ar',
+            // هوية المُقيِّم + هاتف المكافأة (لا يُعرضان للعامة — GET يرشّح الحقول)
+            authProvider: identity.provider,
+            authSubject: identity.subject,
+            authEmail: identity.email,
+            rewardPhone: '',
+            rewardRef,
+            rewardStatus: 'awaiting_moderation',
+            submitIp: ip,
+        });
+        reviewId = docRef.id;
+    } catch (error) {
+        // لا نترك صوراً يتيمة إذا فشل إنشاء مستند التقييم بعد نجاح الرفع.
+        if (imagePaths.length > 0) {
+            try {
+                const bucket = await getStorageBucket();
+                await Promise.all(imagePaths.map(path => (
+                    bucket.file(path).delete({ ignoreNotFound: true }).catch(() => undefined)
+                )));
+            } catch {
+                // فشل تنظيف الصور لا يغيّر استجابة فشل الحفظ، لكنه يُسجل للمراقبة.
+                console.error('[reviews/submit] orphan photo cleanup failed');
+            }
+        }
+        console.error('[reviews/submit] review persistence failed:', (error as Error).message);
+        return json({ error: 'تعذّر حفظ التقييم الآن — حاول مرة أخرى' }, 500);
+    }
 
     return json({
         success: true,
-        reviewId: docRef.id,
+        reviewId,
         message: 'وصل تقييمك — قيد المراجعة للتأكد من مصداقيته فقط، وبعد نشره هتوصلك هدية كوبون 5% على الواتساب أياً كان تقييمك 🎁',
         verifiedBuyer: isVerified,
     });

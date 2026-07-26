@@ -3,15 +3,16 @@
 /**
  * داشبورد الإشراف على التقييمات
  *
- * يعرض التقييمات المعلّقة والمنشورة والمرفوضة، مع اعتماد/رفض التقييم
- * وإعادة محاولة إرسال مكافأة العميل عند الحاجة.
+ * يعرض التقييمات المعلّقة والمنشورة والمخفية والمرفوضة، مع اعتماد/رفض التقييم،
+ * الإخفاء والاستعادة، والحذف العميق للمستند والصور.
  */
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { FormEvent } from 'react';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
-type ReviewStatus = 'pending' | 'approved' | 'rejected';
+type ReviewStatus = 'pending' | 'approved' | 'hidden' | 'rejected';
+type ModerationAction = 'approve' | 'reject' | 'hide' | 'restore' | 'delete';
 type Notice = { type: 'success' | 'warning' | 'error'; text: string };
 
 interface PendingReview {
@@ -30,6 +31,14 @@ interface PendingReview {
     rewardStatus: string;
     rewardRef?: string;
     reviewDate: string | null;
+    hiddenAt?: string | null;
+    hiddenReason?: string;
+    deletionStatus?: string;
+}
+
+interface ConfirmationDialog {
+    action: 'hide' | 'delete';
+    review: PendingReview;
 }
 
 const TABS: Array<{
@@ -40,6 +49,7 @@ const TABS: Array<{
 }> = [
     { id: 'pending', label: 'قيد المراجعة', shortLabel: 'معلّقة', icon: 'clock' },
     { id: 'approved', label: 'التقييمات المنشورة', shortLabel: 'منشورة', icon: 'check-circle' },
+    { id: 'hidden', label: 'التقييمات المخفية', shortLabel: 'مخفية', icon: 'eye-off' },
     { id: 'rejected', label: 'التقييمات المرفوضة', shortLabel: 'مرفوضة', icon: 'x-circle' },
 ];
 
@@ -91,6 +101,9 @@ export default function ModerationPage() {
     const [notice, setNotice] = useState<Notice | null>(null);
     const [tab, setTab] = useState<ReviewStatus>('pending');
     const [query, setQuery] = useState('');
+    const [confirmation, setConfirmation] = useState<ConfirmationDialog | null>(null);
+    const [actionReason, setActionReason] = useState('');
+    const [deleteConfirmation, setDeleteConfirmation] = useState('');
 
     const load = useCallback(async (sec: string, status: ReviewStatus) => {
         setLoading(true);
@@ -139,6 +152,20 @@ export default function ModerationPage() {
         void load(savedSecret, 'pending');
     }, [load]);
 
+    useEffect(() => {
+        if (!confirmation) return;
+        const previousOverflow = document.body.style.overflow;
+        document.body.style.overflow = 'hidden';
+        const closeOnEscape = (event: KeyboardEvent) => {
+            if (event.key === 'Escape' && !busy) setConfirmation(null);
+        };
+        window.addEventListener('keydown', closeOnEscape);
+        return () => {
+            document.body.style.overflow = previousOverflow;
+            window.removeEventListener('keydown', closeOnEscape);
+        };
+    }, [busy, confirmation]);
+
     const handleLogin = (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         if (!secret.trim() || loading) return;
@@ -151,7 +178,11 @@ export default function ModerationPage() {
         void load(secret, status);
     };
 
-    const act = async (reviewId: string, action: 'approve' | 'reject') => {
+    const act = async (
+        reviewId: string,
+        action: ModerationAction,
+        reason = '',
+    ): Promise<boolean> => {
         setBusy(reviewId);
         setNotice(null);
 
@@ -164,38 +195,90 @@ export default function ModerationPage() {
                 },
                 credentials: 'same-origin',
                 cache: 'no-store',
-                body: JSON.stringify({ action, reviewId }),
+                body: JSON.stringify({ action, reviewId, ...(reason.trim() && { reason: reason.trim() }) }),
             });
             const data = await response.json() as {
                 error?: string;
                 rewardStatus?: string;
+                status?: string;
+                partial?: boolean;
+                deletedImages?: number;
             };
 
             if (response.status === 401) {
                 setAuthed(false);
                 setNotice({ type: 'error', text: 'انتهت جلسة الإدارة. سجّل الدخول من جديد.' });
-                return;
+                return false;
             }
 
             if (!response.ok) {
+                if (data.partial && data.status === 'hidden') {
+                    setReviews(current => current.filter(review => review.id !== reviewId));
+                    setNotice({
+                        type: 'warning',
+                        text: data.error || 'تم إخفاء التقييم، لكن لم يكتمل حذف ملفاته. أعد المحاولة من تبويب المخفية.',
+                    });
+                    return true;
+                }
                 setNotice({ type: 'error', text: data.error || 'تعذّر تحديث التقييم.' });
-                return;
+                if (response.status === 409) void load(secret, tab);
+                return false;
             }
 
             if (action === 'approve') {
-                setNotice(data.rewardStatus === 'crm_notified'
-                    ? { type: 'success', text: 'تم نشر التقييم، وكوبون الخصم في طريقه للعميل عبر واتساب.' }
-                    : { type: 'warning', text: 'تم نشر التقييم، لكن تعذّر إرسال الكوبون. يمكنك إعادة المحاولة من التقييمات المنشورة.' });
-            } else {
+                if (data.rewardStatus === 'crm_notified') {
+                    setNotice({ type: 'success', text: 'تم نشر التقييم، وكوبون الخصم في طريقه للعميل عبر واتساب.' });
+                } else if (data.rewardStatus === 'no_reward') {
+                    setNotice({ type: 'success', text: 'تم نشر التقييم العضوي بنجاح دون كوبون.' });
+                } else {
+                    setNotice({ type: 'warning', text: 'تم نشر التقييم، لكن تعذّر إرسال الكوبون. يمكنك إعادة المحاولة من التقييمات المنشورة.' });
+                }
+            } else if (action === 'reject') {
                 setNotice({ type: 'success', text: 'تم رفض التقييم ونقله إلى قائمة المرفوضة.' });
+            } else if (action === 'hide') {
+                setNotice({ type: 'success', text: 'تم إخفاء التقييم فورًا من الموقع والنجوم والبيانات المنظمة.' });
+            } else if (action === 'restore') {
+                setNotice({ type: 'success', text: 'تمت استعادة التقييم ونشره مجددًا.' });
+            } else {
+                const imageNote = data.deletedImages
+                    ? ` وحذف ${data.deletedImages} من صوره`
+                    : '';
+                setNotice({ type: 'success', text: `تم حذف التقييم نهائيًا${imageNote}.` });
             }
 
-            setReviews(current => current.filter(review => review.id !== reviewId));
+            if (action === 'approve' && tab === 'approved') {
+                setReviews(current => current.map(review => (
+                    review.id === reviewId
+                        ? { ...review, rewardStatus: data.rewardStatus || review.rewardStatus }
+                        : review
+                )));
+            } else {
+                setReviews(current => current.filter(review => review.id !== reviewId));
+            }
+            return true;
         } catch {
             setNotice({ type: 'error', text: 'تعذّر الاتصال بالخادم. حاول مرة أخرى.' });
+            return false;
         } finally {
             setBusy('');
         }
+    };
+
+    const openConfirmation = (review: PendingReview, action: 'hide' | 'delete') => {
+        setActionReason('');
+        setDeleteConfirmation('');
+        setConfirmation({ review, action });
+    };
+
+    const confirmModerationAction = async () => {
+        if (!confirmation || busy) return;
+        if (confirmation.action === 'delete' && deleteConfirmation.trim() !== 'حذف') return;
+        const completed = await act(
+            confirmation.review.id,
+            confirmation.action,
+            actionReason,
+        );
+        if (completed) setConfirmation(null);
     };
 
     const filteredReviews = useMemo(() => {
@@ -385,7 +468,7 @@ export default function ModerationPage() {
 
                 <section className="mt-5 overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-[0_18px_55px_rgba(15,23,42,.06)]">
                     <div className="border-b border-slate-100 p-3 sm:p-4">
-                        <div className="grid grid-cols-3 gap-1 rounded-2xl bg-slate-100 p-1.5">
+                        <div className="grid grid-cols-4 gap-1 rounded-2xl bg-slate-100 p-1.5">
                             {TABS.map(item => (
                                 <button
                                     key={item.id}
@@ -537,6 +620,28 @@ export default function ModerationPage() {
                                                 )}
                                             </div>
 
+                                            {tab === 'hidden' && (
+                                                <div className="mt-4 rounded-2xl border border-violet-100 bg-violet-50 px-4 py-3 text-sm text-violet-900">
+                                                    <div className="flex items-center gap-2 font-black">
+                                                        <SvgIcon name="eye-off" className="h-4 w-4" />
+                                                        مخفي عن الموقع
+                                                        {review.hiddenAt && (
+                                                            <span className="font-semibold text-violet-600">
+                                                                منذ {formatReviewDate(review.hiddenAt)}
+                                                            </span>
+                                                        )}
+                                                    </div>
+                                                    {review.hiddenReason && (
+                                                        <p className="mt-1.5 leading-6 text-violet-700">{review.hiddenReason}</p>
+                                                    )}
+                                                    {review.deletionStatus === 'storage_cleanup_failed' && (
+                                                        <p className="mt-2 font-bold text-rose-700">
+                                                            لم يكتمل تنظيف الصور في المحاولة السابقة؛ أعد الحذف النهائي.
+                                                        </p>
+                                                    )}
+                                                </div>
+                                            )}
+
                                             {review.images.length > 0 && (
                                                 <div className="mt-5">
                                                     <p className="mb-2 text-xs font-black text-slate-500">صور العميل ({review.images.length})</p>
@@ -590,16 +695,63 @@ export default function ModerationPage() {
                                             </footer>
                                         )}
 
-                                        {tab === 'approved' && review.rewardStatus === 'notify_failed' && (
-                                            <footer className="border-t border-amber-100 bg-amber-50 p-3 sm:p-4">
+                                        {tab === 'approved' && (
+                                            <footer className="grid gap-2 border-t border-slate-100 bg-[#fafbfc] p-3 sm:grid-cols-2 sm:p-4">
+                                                {review.rewardStatus === 'notify_failed' && (
+                                                    <button
+                                                        type="button"
+                                                        disabled={busy === review.id}
+                                                        onClick={() => void act(review.id, 'approve')}
+                                                        className="flex min-h-12 items-center justify-center gap-2 rounded-xl bg-amber-500 px-5 text-sm font-black text-white transition hover:bg-amber-600 disabled:cursor-wait disabled:opacity-50 sm:col-span-2"
+                                                    >
+                                                        <SvgIcon name="arrows-rotate" className={`h-4 w-4 ${busy === review.id ? 'animate-spin' : ''}`} />
+                                                        إعادة محاولة إرسال كوبون 5%
+                                                    </button>
+                                                )}
                                                 <button
                                                     type="button"
                                                     disabled={busy === review.id}
-                                                    onClick={() => void act(review.id, 'approve')}
-                                                    className="flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-amber-500 px-5 text-sm font-black text-white transition hover:bg-amber-600 disabled:cursor-wait disabled:opacity-50"
+                                                    onClick={() => openConfirmation(review, 'hide')}
+                                                    className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-violet-200 bg-white px-5 text-sm font-black text-violet-700 transition hover:bg-violet-50 disabled:cursor-wait disabled:opacity-50"
                                                 >
-                                                    <SvgIcon name="arrows-rotate" className={`h-4 w-4 ${busy === review.id ? 'animate-spin' : ''}`} />
-                                                    إعادة محاولة إرسال كوبون 5%
+                                                    <SvgIcon name="eye-off" className="h-4 w-4" />
+                                                    إخفاء عن الموقع
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    disabled={busy === review.id}
+                                                    onClick={() => openConfirmation(review, 'delete')}
+                                                    className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-rose-200 bg-white px-5 text-sm font-black text-rose-700 transition hover:bg-rose-50 disabled:cursor-wait disabled:opacity-50"
+                                                >
+                                                    <SvgIcon name="trash" className="h-4 w-4" />
+                                                    حذف نهائي
+                                                </button>
+                                            </footer>
+                                        )}
+
+                                        {tab === 'hidden' && (
+                                            <footer className={`grid gap-2 border-t border-violet-100 bg-violet-50/50 p-3 sm:p-4 ${
+                                                review.deletionStatus ? '' : 'sm:grid-cols-2'
+                                            }`}>
+                                                {!review.deletionStatus && (
+                                                    <button
+                                                        type="button"
+                                                        disabled={busy === review.id}
+                                                        onClick={() => void act(review.id, 'restore')}
+                                                        className="flex min-h-12 items-center justify-center gap-2 rounded-xl bg-[#07111f] px-5 text-sm font-black text-white transition hover:bg-sky-800 disabled:cursor-wait disabled:opacity-50"
+                                                    >
+                                                        <SvgIcon name="undo" className="h-4 w-4 text-emerald-300" />
+                                                        استعادة ونشر
+                                                    </button>
+                                                )}
+                                                <button
+                                                    type="button"
+                                                    disabled={busy === review.id}
+                                                    onClick={() => openConfirmation(review, 'delete')}
+                                                    className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-rose-200 bg-white px-5 text-sm font-black text-rose-700 transition hover:bg-rose-50 disabled:cursor-wait disabled:opacity-50"
+                                                >
+                                                    <SvgIcon name="trash" className="h-4 w-4" />
+                                                    {review.deletionStatus ? 'إكمال الحذف النهائي' : 'حذف نهائي'}
                                                 </button>
                                             </footer>
                                         )}
@@ -610,6 +762,141 @@ export default function ModerationPage() {
                     </div>
                 </section>
             </div>
+
+            {confirmation && (
+                <div
+                    className="fixed inset-0 z-[100] grid place-items-center bg-[#07111f]/75 px-4 py-8 backdrop-blur-sm"
+                    role="presentation"
+                    onMouseDown={event => {
+                        if (event.target === event.currentTarget && !busy) setConfirmation(null);
+                    }}
+                >
+                    <section
+                        role="dialog"
+                        aria-modal="true"
+                        aria-labelledby="moderation-confirmation-title"
+                        className="w-full max-w-lg overflow-hidden rounded-[1.75rem] border border-white/10 bg-white shadow-[0_35px_120px_rgba(2,8,23,.45)]"
+                    >
+                        <div className={`p-5 text-white sm:p-6 ${
+                            confirmation.action === 'delete'
+                                ? 'bg-gradient-to-l from-rose-700 to-rose-950'
+                                : 'bg-gradient-to-l from-violet-700 to-[#07111f]'
+                        }`}>
+                            <div className="flex items-start justify-between gap-4">
+                                <div className="flex items-start gap-3">
+                                    <span className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-white/10">
+                                        <SvgIcon
+                                            name={confirmation.action === 'delete' ? 'trash' : 'eye-off'}
+                                            className="h-5 w-5"
+                                        />
+                                    </span>
+                                    <div>
+                                        <h2 id="moderation-confirmation-title" className="text-xl font-black">
+                                            {confirmation.action === 'delete'
+                                                ? 'حذف التقييم نهائيًا'
+                                                : 'إخفاء التقييم عن الموقع'}
+                                        </h2>
+                                        <p className="mt-1 text-sm leading-6 text-white/70">
+                                            {confirmation.review.customerName} — {confirmation.review.productName}
+                                        </p>
+                                    </div>
+                                </div>
+                                <button
+                                    type="button"
+                                    onClick={() => setConfirmation(null)}
+                                    disabled={Boolean(busy)}
+                                    className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10 transition hover:bg-white/20 disabled:opacity-50"
+                                    aria-label="إغلاق"
+                                >
+                                    <SvgIcon name="x-circle" className="h-5 w-5" />
+                                </button>
+                            </div>
+                        </div>
+
+                        <div className="space-y-5 p-5 sm:p-6">
+                            <div className={`rounded-2xl border px-4 py-3 text-sm leading-7 ${
+                                confirmation.action === 'delete'
+                                    ? 'border-rose-200 bg-rose-50 text-rose-900'
+                                    : 'border-violet-200 bg-violet-50 text-violet-900'
+                            }`}>
+                                {confirmation.action === 'delete' ? (
+                                    <>
+                                        سيُخفى التقييم أولًا، ثم يُحذف مستند Firestore وصور العميل المخزنة
+                                        لدى CairoVolt. لا يمكن التراجع عن هذا الإجراء.
+                                    </>
+                                ) : (
+                                    <>
+                                        سيختفي التقييم فورًا من صفحة المنتج ومتوسط النجوم وبيانات Google
+                                        المنظمة، مع الاحتفاظ به وصوره داخل تبويب المخفية للاستعادة لاحقًا.
+                                    </>
+                                )}
+                            </div>
+
+                            <label className="block">
+                                <span className="mb-2 block text-xs font-black text-slate-600">سبب القرار (اختياري)</span>
+                                <textarea
+                                    value={actionReason}
+                                    onChange={event => setActionReason(event.target.value.slice(0, 200))}
+                                    rows={3}
+                                    maxLength={200}
+                                    placeholder="مثال: يتضمن بيانات شخصية أو محتوى غير مناسب"
+                                    className="w-full resize-none rounded-2xl border border-slate-200 bg-[#f7f8fa] px-4 py-3 text-sm leading-6 outline-none transition focus:border-sky-400 focus:bg-white focus:ring-4 focus:ring-sky-100"
+                                />
+                                <span className="mt-1 block text-left text-[10px] font-semibold text-slate-400" dir="ltr">
+                                    {actionReason.length}/200
+                                </span>
+                            </label>
+
+                            {confirmation.action === 'delete' && (
+                                <label className="block">
+                                    <span className="mb-2 block text-xs font-black text-slate-600">
+                                        اكتب «حذف» لتأكيد الإجراء النهائي
+                                    </span>
+                                    <input
+                                        type="text"
+                                        value={deleteConfirmation}
+                                        onChange={event => setDeleteConfirmation(event.target.value)}
+                                        autoComplete="off"
+                                        className="min-h-12 w-full rounded-2xl border border-rose-200 bg-rose-50 px-4 text-sm font-bold outline-none transition focus:border-rose-400 focus:bg-white focus:ring-4 focus:ring-rose-100"
+                                    />
+                                </label>
+                            )}
+
+                            <div className="grid gap-2 sm:grid-cols-2">
+                                <button
+                                    type="button"
+                                    onClick={() => void confirmModerationAction()}
+                                    disabled={Boolean(busy)
+                                        || (confirmation.action === 'delete' && deleteConfirmation.trim() !== 'حذف')}
+                                    className={`flex min-h-12 items-center justify-center gap-2 rounded-xl px-5 text-sm font-black text-white transition disabled:cursor-not-allowed disabled:opacity-40 ${
+                                        confirmation.action === 'delete'
+                                            ? 'bg-rose-700 hover:bg-rose-800'
+                                            : 'bg-violet-700 hover:bg-violet-800'
+                                    }`}
+                                >
+                                    {busy === confirmation.review.id ? (
+                                        <SvgIcon name="arrows-rotate" className="h-4 w-4 animate-spin" />
+                                    ) : (
+                                        <SvgIcon
+                                            name={confirmation.action === 'delete' ? 'trash' : 'eye-off'}
+                                            className="h-4 w-4"
+                                        />
+                                    )}
+                                    {confirmation.action === 'delete' ? 'تأكيد الحذف النهائي' : 'تأكيد الإخفاء'}
+                                </button>
+                                <button
+                                    type="button"
+                                    onClick={() => setConfirmation(null)}
+                                    disabled={Boolean(busy)}
+                                    className="min-h-12 rounded-xl border border-slate-200 bg-white px-5 text-sm font-black text-slate-600 transition hover:bg-slate-50 disabled:opacity-50"
+                                >
+                                    إلغاء
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            )}
         </main>
     );
 }

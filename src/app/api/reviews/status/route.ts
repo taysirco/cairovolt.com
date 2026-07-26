@@ -107,7 +107,11 @@ export async function GET(req: NextRequest) {
                 truncated: snapshot.size === MAX_STATUS_REVIEWS,
             },
             products: sorted
-        }, { headers: { 'Cache-Control': 'public, max-age=60, stale-while-revalidate=300' } });
+        }, {
+            // Moderation actions must be reflected immediately in counts; a public
+            // CDN cache could otherwise keep a hidden/deleted rating for minutes.
+            headers: { 'Cache-Control': 'private, no-store, max-age=0' },
+        });
 
     } catch {
         console.error('Review status retrieval failed');
