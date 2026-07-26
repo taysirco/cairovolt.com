@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import CollapsibleSection from '@/components/products/CollapsibleSection';
 
@@ -193,35 +194,68 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
 }
 
 // Category Comparison Table
+//
+// Rows are bound to the same catalogue array the grid above renders, not to a
+// hand-typed list. The typed version drifted into fiction — a "323 model at 52W"
+// that does not exist, watches specced against a different SKU, badges that
+// contradicted the product page — and it printed "See product page" in a column
+// headed "Current Price" while the real price sat unused in its own prop. Every
+// cell here now comes from the product record, so a row cannot describe
+// something the shelf does not stock.
 interface CategoryComparisonProps {
     products: Array<{
+        slug?: string;
         name: string;
         price: number;
         badge?: string;
+        shortDescription?: string;
+        categorySlug?: string;
     }>;
     categoryName: string;
     locale: string;
+    /** Brand segment for row links, e.g. "soundcore". Rows render unlinked without it. */
+    brandSlug?: string;
+    /** "" for Arabic, "/en" for English — matches the grid's link construction. */
+    localePrefix?: string;
 }
 
-export function CategoryComparisonTable({ products, categoryName, locale }: CategoryComparisonProps) {
+/**
+ * First clause of a product's short description. Catalogue copy is pipe-delimited
+ * ("⚡ USB-C PD … | 🧬 نايلون مزدوج | 📏 0.9 متر"), so the leading clause is the
+ * headline spec — real per-row data rather than an editorial badge.
+ */
+function leadingSpec(shortDescription: string | undefined): string {
+    if (!shortDescription) return '';
+    return shortDescription.split('|')[0].trim();
+}
+
+export function CategoryComparisonTable({
+    products,
+    categoryName,
+    locale,
+    brandSlug,
+    localePrefix = '',
+}: CategoryComparisonProps) {
     const isArabic = locale === 'ar';
     const labels = isArabic ? {
         title: `مقارنة موديلات ${categoryName}`,
         model: 'الموديل',
         price: 'السعر الحالي',
-        feature: 'الميزة الرئيسية',
-        verification: 'أساس المقارنة',
-        currentPrice: 'راجع صفحة المنتج',
-        specificationBasis: 'المواصفات والتوافق'
+        feature: 'أبرز مواصفة',
+        currency: 'جنيه',
+        fallbackFeature: 'المواصفات في صفحة المنتج',
     } : {
         title: `${categoryName} Model Comparison`,
         model: 'Model',
         price: 'Current Price',
-        feature: 'Key Feature',
-        verification: 'Comparison Basis',
-        currentPrice: 'See product page',
-        specificationBasis: 'Specifications & compatibility'
+        feature: 'Headline Spec',
+        currency: 'EGP',
+        fallbackFeature: 'See the product page',
     };
+
+    if (products.length === 0) return null;
+
+    const rows = [...products].sort((a, b) => a.price - b.price);
 
     return (
         <div className="my-8 md:my-12 bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 overflow-hidden">
@@ -239,28 +273,33 @@ export function CategoryComparisonTable({ products, categoryName, locale }: Cate
                             <th className="py-3 px-3 md:py-4 md:px-6 text-start font-bold text-gray-700 dark:text-gray-300 text-xs md:text-sm">{labels.model}</th>
                             <th className="py-3 px-3 md:py-4 md:px-6 text-start font-bold text-gray-700 dark:text-gray-300 text-xs md:text-sm">{labels.price}</th>
                             <th className="py-3 px-3 md:py-4 md:px-6 text-start font-bold text-gray-700 dark:text-gray-300 text-xs md:text-sm">{labels.feature}</th>
-                            <th className="py-3 px-3 md:py-4 md:px-6 text-start font-bold text-gray-700 dark:text-gray-300 text-xs md:text-sm">{labels.verification}</th>
                         </tr>
                     </thead>
                     <tbody>
-                        {products.map((product, index) => (
-                            <tr key={index} className="border-b border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800/30 transition-colors">
-                                <td className="py-3 px-3 md:py-4 md:px-6 font-semibold text-gray-900 dark:text-white text-xs md:text-sm">
-                                    {product.name}
-                                </td>
-                                <td className="py-3 px-3 md:py-4 md:px-6 text-blue-600 dark:text-blue-400 font-semibold text-xs md:text-sm">
-                                    {labels.currentPrice}
-                                </td>
-                                <td className="py-3 px-3 md:py-4 md:px-6">
-                                    <span className="bg-gray-100 dark:bg-gray-700 px-2 py-1 md:px-3 md:py-1 rounded-full text-[10px] md:text-xs font-medium whitespace-nowrap">
-                                        {product.badge || (isArabic ? 'مواصفة الموديل' : 'Model feature')}
-                                    </span>
-                                </td>
-                                <td className="py-3 px-3 md:py-4 md:px-6 text-gray-600 dark:text-gray-300 text-xs md:text-sm">
-                                    {labels.specificationBasis}
-                                </td>
-                            </tr>
-                        ))}
+                        {rows.map((product, index) => {
+                            const href = product.slug && brandSlug && product.categorySlug
+                                ? `${localePrefix}/${brandSlug}/${product.categorySlug}/${product.slug}`
+                                : null;
+                            const spec = leadingSpec(product.shortDescription) || product.badge || labels.fallbackFeature;
+
+                            return (
+                                <tr key={product.slug || index} className="border-b border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800/30 transition-colors">
+                                    <td className="py-3 px-3 md:py-4 md:px-6 font-semibold text-gray-900 dark:text-white text-xs md:text-sm">
+                                        {href ? (
+                                            <Link href={href} className="text-blue-700 dark:text-blue-400 hover:underline">
+                                                {product.name}
+                                            </Link>
+                                        ) : product.name}
+                                    </td>
+                                    <td className="py-3 px-3 md:py-4 md:px-6 text-blue-600 dark:text-blue-400 font-semibold text-xs md:text-sm whitespace-nowrap">
+                                        {product.price.toLocaleString('en-US')} {labels.currency}
+                                    </td>
+                                    <td className="py-3 px-3 md:py-4 md:px-6 text-gray-600 dark:text-gray-300 text-xs md:text-sm">
+                                        {spec}
+                                    </td>
+                                </tr>
+                            );
+                        })}
                     </tbody>
                 </table>
             </div>

@@ -723,10 +723,17 @@ export default function CategoryTemplate({
                         )}
 
                         {/* Structured Data: Comparison Table */}
+                        {/*
+                          * Bound to displayProducts — the catalogue slice the grid
+                          * above renders — rather than categoryInfo.products, which
+                          * was hand-typed and drifted from the shelf it described.
+                          */}
                         <CategoryComparisonTable
-                            products={content.products}
+                            products={displayProducts}
                             categoryName={translatedCategory}
                             locale={locale}
+                            brandSlug={brandSlug}
+                            localePrefix={localePrefix}
                         />
 
                         {/* FAQ Section (New) */}
