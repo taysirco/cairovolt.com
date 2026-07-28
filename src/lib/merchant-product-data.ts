@@ -159,12 +159,19 @@ export const SEO_ALIAS_REDIRECTS: Record<string, string> = {
 };
 
 /**
- * Keep the HTML page for owners / safety disclosure, but exclude from indexing
- * and the HTML sitemap so Shopping/organic do not promote the SKU.
+ * Pages kept out of the index and the HTML sitemap.
+ *
+ * A1681 used to sit here. It was removed on the owner's instruction: the page is
+ * a recall notice for people who already own the affected unit ("لا نبيع وحدات
+ * جديدة منه" / shown as unavailable), and a safety notice nobody can find helps
+ * nobody. It is indexable and listed again, and every listing surface renders it
+ * with the ⚠️ recall marker via RECALL_AFFECTED_PRODUCT_SLUGS.
+ *
+ * It stays in MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS: organic discovery of a
+ * safety notice is the point, but feeding a recalled model into Merchant as a
+ * purchasable offer is a different act with its own policy exposure.
  */
-export const SEO_NOINDEX_PRODUCT_SLUGS = new Set([
-    'anker-zolo-a1681-20000',
-]);
+export const SEO_NOINDEX_PRODUCT_SLUGS = new Set<string>([]);
 
 /** Slugs omitted from the HTML sitemap (aliases already redirected + recalls). */
 export const SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS = new Set([
