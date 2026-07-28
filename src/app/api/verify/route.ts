@@ -27,6 +27,39 @@ function checkVerifyRateLimit(ip: string): boolean {
     return entry.count <= VERIFY_LIMIT;
 }
 
+/**
+ * Discovery document for the serial-verification endpoint.
+ *
+ * robots.txt Allows /api/verify to both the general and the AI-crawler group —
+ * it is part of the machine-readable API surface alongside /api/products and
+ * /api/openapi.json. Without a GET handler a crawler that accepts that
+ * invitation receives 405, which Search Console files under "Blocked due to
+ * other 4xx issue". Answering the GET with the contract, the way /api/v1 does,
+ * keeps the endpoint discoverable instead of erroring. Verification itself
+ * stays on POST; GET performs no lookup and consumes no rate-limit budget.
+ */
+export function GET() {
+    return NextResponse.json({
+        name: 'CairoVolt warranty serial check',
+        method: 'POST',
+        contentType: 'application/json',
+        requestBody: { serial: 'string — the serial printed on the CairoVolt warranty card' },
+        rateLimit: `${VERIFY_LIMIT} requests per hour per IP`,
+        verificationScope:
+            'Confirms a CairoVolt-issued serial and warranty record; does not certify manufacturer authenticity.',
+        responseFields: ['valid', 'recordFound', 'recordIssuer', 'verificationScope', 'alreadyActivated',
+            'productId', 'productName', 'productNameEn', 'warrantyCode', 'activatedAt',
+            'warrantyExpiresAt', 'warrantyDurationMonths', 'warrantyTermsUrl'],
+        errorCodes: ['invalid_request', 'invalid_format', 'serial_not_found', 'rate_limited', 'server_error'],
+        documentation: 'https://cairovolt.com/api/openapi.json',
+    }, {
+        headers: {
+            'Cache-Control': 'public, max-age=3600, s-maxage=3600',
+            'X-Content-Type-Options': 'nosniff',
+        },
+    });
+}
+
 export async function POST(request: NextRequest) {
     try {
         // Rate limiting
