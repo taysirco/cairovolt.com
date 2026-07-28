@@ -101,19 +101,20 @@ export const STANDARD_RETURN_WINDOW_DAYS = 14;
 
 /**
  * Records omitted from Merchant and machine catalogs while their public URLs
- * remain untouched. Two lack stable product landing pages. The P30i record is
- * a regional-name alias of R50i NC: Soundcore identifies both as model A3959.
- * The Nano 45W 1C-PD record is a descriptive-slug alias of the primary Nano
- * 45W listing: both resolve to Anker model A2664 (variant A2664K11 on the
- * primary listing), so publishing them as separate Merchant offers would
- * create a duplicate-SKU signal.
+ * remain untouched. The two Joyroom cables are `status: "retired"` and lack
+ * stable product landing pages.
+ *
+ * R50i NC and Nano 45W 1C-PD used to be listed here as alias stubs of P30i and
+ * Nano 45W. That was wrong and is reversed: each is a separate product with its
+ * own SKU (SH21 on a record carrying barcode 194644197421; AC09 against AC01)
+ * and its own independently tracked stock — 812 and 222 units. A single
+ * catalogue record cannot hold two stock counts, so a shared MPN was never
+ * sufficient evidence of one product. Before collapsing two records again,
+ * check stock and SKU, not just MPN.
  */
 export const MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS = new Set([
-    'joyroom-usb-a-lightning-1.2m',
-    'joyroom-usb-a-type-c-1.2m',
-    // P30i (A3959) is the public + Merchant canonical; R50i NC remains the alias stub.
-    'anker-nano-45w-1c-pd', // A2664 alias of anker-nano-45w
-    'anker-soundcore-r50i-nc', // A3959 alias of soundcore-p30i — do not duplicate Merchant SKU
+    'joyroom-usb-a-lightning-1.2m', // status: retired
+    'joyroom-usb-a-type-c-1.2m', // status: retired
     'anker-zolo-a1681-20000', // active Anker/CPSC recall (rc2506) — do not promote in Merchant
 ]);
 
@@ -149,9 +150,10 @@ export function isRecallAffectedSlug(slug: string): boolean {
  * Paths are locale-unprefixed (Arabic default); /en is added by the redirect layer.
  */
 export const SEO_ALIAS_REDIRECTS: Record<string, string> = {
-    'anker-nano-45w-1c-pd': '/anker/wall-chargers/anker-nano-45w',
-    // Gold bench lives on P30i (A3959); R50i NC is the regional-name stub.
-    'anker-soundcore-r50i-nc': '/soundcore/audio/soundcore-p30i-earbuds',
+    // Retired cables with no standalone landing page — the category is the
+    // honest destination. Do NOT add an active, separately stocked product here:
+    // R50i NC and Nano 45W 1C-PD were listed here in error and are now served at
+    // their own URLs. See MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS above.
     'joyroom-usb-a-lightning-1.2m': '/joyroom/cables',
     'joyroom-usb-a-type-c-1.2m': '/joyroom/cables',
 };

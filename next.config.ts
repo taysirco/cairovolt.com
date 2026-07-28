@@ -315,15 +315,20 @@ const nextConfig: NextConfig = {
             { source: '/joyroom/cables/joyroom-usb-a-type-c-1.2m', destination: '/joyroom/cables', permanent: true },
             { source: '/en/joyroom/cables/joyroom-usb-a-type-c-1.2m', destination: '/en/joyroom/cables', permanent: true },
 
-            // === Duplicate-identity aliases → canonical PDP (Merchant + organic hygiene) ===
-            { source: '/anker/wall-chargers/anker-nano-45w-1c-pd', destination: '/anker/wall-chargers/anker-nano-45w', permanent: true },
-            { source: '/en/anker/wall-chargers/anker-nano-45w-1c-pd', destination: '/en/anker/wall-chargers/anker-nano-45w', permanent: true },
-            { source: '/anker/anker-nano-45w-1c-pd', destination: '/anker/wall-chargers/anker-nano-45w', permanent: true },
-            { source: '/en/anker/anker-nano-45w-1c-pd', destination: '/en/anker/wall-chargers/anker-nano-45w', permanent: true },
-            { source: '/soundcore/audio/anker-soundcore-r50i-nc', destination: '/soundcore/audio/soundcore-p30i-earbuds', permanent: true },
-            { source: '/en/soundcore/audio/anker-soundcore-r50i-nc', destination: '/en/soundcore/audio/soundcore-p30i-earbuds', permanent: true },
-            { source: '/anker/audio/anker-soundcore-r50i-nc', destination: '/soundcore/audio/soundcore-p30i-earbuds', permanent: true },
-            { source: '/en/anker/audio/anker-soundcore-r50i-nc', destination: '/en/soundcore/audio/soundcore-p30i-earbuds', permanent: true },
+            // === Legacy-shaped product URLs → the product's own PDP ===
+            //
+            // Nano 45W 1C-PD and R50i NC were previously 301'd onto Nano 45W and
+            // P30i as "duplicate identities". They are not duplicates: each holds
+            // its own SKU (AC09 vs AC01, SH21 on a record with barcode
+            // 194644197421) and — decisively — its own independently tracked
+            // stock, 222 and 812 units. One catalogue record cannot carry two
+            // stock counts. Both are active products and answer at their own
+            // URLs again; only the legacy URL shapes still redirect, and now to
+            // the product itself rather than to a different one.
+            { source: '/anker/anker-nano-45w-1c-pd', destination: '/anker/wall-chargers/anker-nano-45w-1c-pd', permanent: true },
+            { source: '/en/anker/anker-nano-45w-1c-pd', destination: '/en/anker/wall-chargers/anker-nano-45w-1c-pd', permanent: true },
+            { source: '/anker/audio/anker-soundcore-r50i-nc', destination: '/soundcore/audio/anker-soundcore-r50i-nc', permanent: true },
+            { source: '/en/anker/audio/anker-soundcore-r50i-nc', destination: '/en/soundcore/audio/anker-soundcore-r50i-nc', permanent: true },
 
             // === Non-existent Joyroom power banks → Power Banks category ===
             { source: '/joyroom/joyroom-magnetic-power-bank-10000', destination: '/joyroom/power-banks', permanent: true },
