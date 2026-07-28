@@ -146,6 +146,30 @@ export function isRecallAffectedSlug(slug: string): boolean {
 }
 
 /**
+ * Recalls broad enough that the store does not sell the model at all, so the PDP
+ * blocks purchase rather than merely disclosing.
+ *
+ * This is deliberately narrower than RECALL_AFFECTED_PRODUCT_SLUGS. A1681's
+ * recall covers the whole model (anker.com/rc2506) and the page states plainly
+ * that no new units are sold. A1263's is scoped to US-manufactured units from a
+ * date window, so its buyers are told to check their serial — disclosure, not a
+ * block.
+ *
+ * Keep this separate from SEO_NOINDEX_PRODUCT_SLUGS. The PDP used to derive both
+ * its recall banner and its out-of-stock state from that indexing set, so making
+ * a recall notice findable silently removed the warning and made a recalled pack
+ * purchasable. Indexing and safety are unrelated questions.
+ */
+export const RECALL_PURCHASE_BLOCKED_PRODUCT_SLUGS = new Set([
+    'anker-zolo-a1681-20000',
+]);
+
+/** True when an active recall means this model must not be sold at all. */
+export function isRecallPurchaseBlockedSlug(slug: string): boolean {
+    return RECALL_PURCHASE_BLOCKED_PRODUCT_SLUGS.has(slug);
+}
+
+/**
  * Duplicate-identity PDPs that must 301 to the canonical public product URL.
  * Paths are locale-unprefixed (Arabic default); /en is added by the redirect layer.
  */

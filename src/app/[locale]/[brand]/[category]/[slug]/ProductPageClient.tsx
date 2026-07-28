@@ -26,7 +26,7 @@ import {
     localizeArabicBrandHtml,
     localizeArabicBrandNames,
 } from '@/lib/arabic-brand-names';
-import { SEO_NOINDEX_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
+import { isRecallAffectedSlug, isRecallPurchaseBlockedSlug } from '@/lib/merchant-product-data';
 
 // Lazy Load Heavy Components
 const VerifiedReviews = dynamic(() => import('@/components/reviews/VerifiedReviews'), {
@@ -274,7 +274,7 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
     })();
 
     const handleAddToCart = () => {
-        if (SEO_NOINDEX_PRODUCT_SLUGS.has(product.slug)) return;
+        if (isRecallPurchaseBlockedSlug(product.slug)) return;
         // flushSync forces React to paint the green feedback BEFORE startTransition batches the cart update
         flushSync(() => {
             setShowAddedFeedback(true);
@@ -366,8 +366,11 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
         : isAnkerBrand
             ? 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/30'
             : 'bg-red-600 hover:bg-red-700 shadow-red-600/30';
-    const isRecalled = SEO_NOINDEX_PRODUCT_SLUGS.has(product.slug);
-    const isOutOfStock = activeStock <= 0 || isRecalled;
+    // Recall state is a safety fact, not an indexing one. These used to read
+    // SEO_NOINDEX_PRODUCT_SLUGS, which meant making a recall notice findable
+    // silently deleted its warning and put a recalled pack back on sale.
+    const isRecalled = isRecallAffectedSlug(product.slug);
+    const isOutOfStock = activeStock <= 0 || isRecallPurchaseBlockedSlug(product.slug);
 
     // Breadcrumb Data - Strict Lowercase URLs
     const brandLower = product.brand.toLowerCase();
@@ -595,21 +598,31 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                 className="rounded-xl border border-red-300 bg-red-50 p-4 text-sm leading-7 text-red-900 dark:border-red-800 dark:bg-red-950/40 dark:text-red-100"
                             >
                                 <p className="font-bold">
-                                    {isRTL ? '⚠️ منتج ضمن استدعاء سلامة — توقف عن الاستخدام' : '⚠️ Safety recall — stop using this product'}
+                                    {isRTL ? '⚠️ استدعاء سلامة — أوقف الاستخدام واسترد قيمته' : '⚠️ Safety recall — stop using it and claim your refund'}
                                 </p>
                                 <p className="mt-2">
                                     {isRTL
-                                        ? 'هذا الموديل مدرج في برنامج استدعاء الشركة المصنّعة. لا نبيع وحدات جديدة منه. إن كنت تملك وحدة، راجع تعليمات الاستدعاء الرسمية وتواصل مع دعم كايرو فولت للمساعدة.'
-                                        : 'This model is included in the manufacturer recall programme. We do not sell new units. If you already own one, follow the official recall instructions and contact CairoVolt support for help.'}
+                                        ? 'هذا الموديل مدرج في برنامج استدعاء الشركة المصنّعة بسبب خطر ارتفاع حرارة خلايا الليثيوم. لو عندك وحدة: أوقف استخدامها، تحقق من السيريال على الصفحة الرسمية، واتبع خطوات الاسترداد — الشركة تعوّض القيمة. لا نبيع وحدات جديدة منه، وفريق دعم كايرو فولت يساعدك في الإجراءات.'
+                                        : 'This model is in the manufacturer recall programme over a lithium-cell overheating hazard. If you own one: stop using it, check the serial on the official page, and follow the refund steps — the manufacturer compensates you. We do not sell new units, and CairoVolt support will help you through the process.'}
                                 </p>
-                                <a
-                                    href="https://www.anker.com/rc2506"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="mt-2 inline-flex font-semibold underline"
-                                >
-                                    {isRTL ? 'تعليمات الاستدعاء الرسمية (Anker)' : 'Official Anker recall instructions'}
-                                </a>
+                                <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1">
+                                    <a
+                                        href="https://www.anker.com/rc2506"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex font-semibold underline"
+                                    >
+                                        {isRTL ? 'تعليمات الاستدعاء الرسمية (Anker)' : 'Official Anker recall instructions'}
+                                    </a>
+                                    {/* Route the visitor to stock that is actually sellable rather than
+                                        leaving a dead end on a page nobody can buy from. */}
+                                    <Link
+                                        href={`${isRTL ? '' : '/en'}/anker/power-banks`}
+                                        className="inline-flex font-semibold underline"
+                                    >
+                                        {isRTL ? 'بدائل باور بانك متاحة للشراء' : 'Power banks available to buy'}
+                                    </Link>
+                                </div>
                             </div>
                         )}
 
