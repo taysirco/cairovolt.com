@@ -191,7 +191,7 @@ export async function GET(req: NextRequest) {
         return NextResponse.json({
             error: 'Missing parameter: provide sku, slug, or q (search query)',
             usage: {
-                by_sku: '/api/v1/checkout?sku=A1289',
+                by_sku: '/api/v1/checkout?sku=AP02',
                 by_slug: '/api/v1/checkout?slug=anker-737-powerbank',
                 by_search: '/api/v1/checkout?q=anker charger',
             },

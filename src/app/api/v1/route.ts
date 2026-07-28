@@ -18,6 +18,15 @@ export function GET() {
             quickOrder: '/api/v1/quick-cod',
             warrantySerialCheck: '/api/verify',
         },
+        // checkout and quickOrder answer GET only when given a lookup parameter;
+        // a bare GET is a 400 carrying usage. robots.txt Allows both paths, so a
+        // crawler following the list above would otherwise collect 4xx responses
+        // for endpoints that work fine. These are the same endpoints with a
+        // parameter that resolves.
+        examples: {
+            checkout: '/api/v1/checkout?slug=anker-737-powerbank',
+            quickOrder: '/api/v1/quick-cod?sku=AP02',
+        },
     }, {
         headers: {
             'Cache-Control': 'public, max-age=3600, s-maxage=3600',

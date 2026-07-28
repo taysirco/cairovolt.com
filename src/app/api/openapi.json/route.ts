@@ -102,7 +102,7 @@ export async function GET() {
                             in: 'query',
                             description: 'Unique catalog SKU for legacy integrations. Use slug when available because a SKU can identify more than one catalog page.',
                             deprecated: true,
-                            example: 'A1289',
+                            example: 'AP02',
                             schema: { type: 'string' },
                         },
                         {

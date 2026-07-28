@@ -453,7 +453,7 @@ export async function GET(req: NextRequest) {
             error: 'Missing sku parameter',
             error_ar: 'مطلوب رمز المنتج',
             usage: {
-                by_sku: '/api/v1/quick-cod?sku=A1289',
+                by_sku: '/api/v1/quick-cod?sku=AP02',
                 by_slug: '/api/v1/quick-cod?sku=anker-737-powerbank',
             },
             docs: 'https://cairovolt.com/api/openapi.json',
