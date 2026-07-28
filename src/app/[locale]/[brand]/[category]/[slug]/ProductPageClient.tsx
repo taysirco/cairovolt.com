@@ -26,7 +26,11 @@ import {
     localizeArabicBrandHtml,
     localizeArabicBrandNames,
 } from '@/lib/arabic-brand-names';
-import { isRecallAffectedSlug, isRecallPurchaseBlockedSlug } from '@/lib/merchant-product-data';
+import {
+    isRecallAffectedSlug,
+    isRecallPurchaseBlockedSlug,
+    RECALL_STOCK_VERIFIED_OUTSIDE_SCOPE,
+} from '@/lib/merchant-product-data';
 
 // Lazy Load Heavy Components
 const VerifiedReviews = dynamic(() => import('@/components/reviews/VerifiedReviews'), {
@@ -371,6 +375,12 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
     // silently deleted its warning and put a recalled pack back on sale.
     const isRecalled = isRecallAffectedSlug(product.slug);
     const isOutOfStock = activeStock <= 0 || isRecallPurchaseBlockedSlug(product.slug);
+    // The model is named in a recall, but the units we hold were serial-checked
+    // against the manufacturer's tool and fall outside it. The notice stays —
+    // a buyer who looks up the model will find the recall — but it states the
+    // check and its date instead of telling them to stop using the product.
+    const recallScopeCheck = RECALL_STOCK_VERIFIED_OUTSIDE_SCOPE[product.slug];
+    const stockVerifiedOutsideRecall = Boolean(recallScopeCheck);
 
     // Breadcrumb Data - Strict Lowercase URLs
     const brandLower = product.brand.toLowerCase();
@@ -594,16 +604,24 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
 
                         {isRecalled && (
                             <div
-                                role="alert"
-                                className="rounded-xl border border-red-300 bg-red-50 p-4 text-sm leading-7 text-red-900 dark:border-red-800 dark:bg-red-950/40 dark:text-red-100"
+                                role="note"
+                                className={stockVerifiedOutsideRecall
+                                    ? 'rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm leading-7 text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-100'
+                                    : 'rounded-xl border border-red-300 bg-red-50 p-4 text-sm leading-7 text-red-900 dark:border-red-800 dark:bg-red-950/40 dark:text-red-100'}
                             >
                                 <p className="font-bold">
-                                    {isRTL ? '⚠️ استدعاء سلامة — أوقف الاستخدام واسترد قيمته' : '⚠️ Safety recall — stop using it and claim your refund'}
+                                    {stockVerifiedOutsideRecall
+                                        ? (isRTL ? 'ℹ️ هذا الموديل مذكور في استدعاء — ووحداتنا مفحوصة خارج نطاقه' : 'ℹ️ This model appears in a recall — our units were checked and fall outside it')
+                                        : (isRTL ? '⚠️ استدعاء سلامة — أوقف الاستخدام واسترد قيمته' : '⚠️ Safety recall — stop using it and claim your refund')}
                                 </p>
                                 <p className="mt-2">
-                                    {isRTL
-                                        ? 'هذا الموديل مدرج في برنامج استدعاء الشركة المصنّعة بسبب خطر ارتفاع حرارة خلايا الليثيوم. لو عندك وحدة: أوقف استخدامها، تحقق من السيريال على الصفحة الرسمية، واتبع خطوات الاسترداد — الشركة تعوّض القيمة. لا نبيع وحدات جديدة منه، وفريق دعم كايرو فولت يساعدك في الإجراءات.'
-                                        : 'This model is in the manufacturer recall programme over a lithium-cell overheating hazard. If you own one: stop using it, check the serial on the official page, and follow the refund steps — the manufacturer compensates you. We do not sell new units, and CairoVolt support will help you through the process.'}
+                                    {stockVerifiedOutsideRecall
+                                        ? (isRTL
+                                            ? `الشركة المصنّعة أدرجت هذا الموديل في برنامج استدعاء يخص أرقام تسلسلية محددة. فحصت كايرو فولت سيريالات الوحدات المتوفرة لديها مقابل ${recallScopeCheck?.source} بتاريخ ${recallScopeCheck?.checkedOn}، ووقعت خارج النطاق المتأثر. ننصحك بالتحقق من سيريال وحدتك بنفسك عند الاستلام عبر الرابط الرسمي أدناه.`
+                                            : `The manufacturer listed this model in a recall programme covering specific serial numbers. CairoVolt checked the serials of the units it stocks against ${recallScopeCheck?.source} on ${recallScopeCheck?.checkedOn} and they fall outside the affected range. We still recommend verifying your own unit's serial on arrival using the official link below.`)
+                                        : (isRTL
+                                            ? 'هذا الموديل مدرج في برنامج استدعاء الشركة المصنّعة بسبب خطر ارتفاع حرارة خلايا الليثيوم. لو عندك وحدة: أوقف استخدامها، تحقق من السيريال على الصفحة الرسمية، واتبع خطوات الاسترداد — الشركة تعوّض القيمة. لا نبيع وحدات جديدة منه، وفريق دعم كايرو فولت يساعدك في الإجراءات.'
+                                            : 'This model is in the manufacturer recall programme over a lithium-cell overheating hazard. If you own one: stop using it, check the serial on the official page, and follow the refund steps — the manufacturer compensates you. We do not sell new units, and CairoVolt support will help you through the process.')}
                                 </p>
                                 <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1">
                                     <a
@@ -612,16 +630,18 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                         rel="noopener noreferrer"
                                         className="inline-flex font-semibold underline"
                                     >
-                                        {isRTL ? 'تعليمات الاستدعاء الرسمية (Anker)' : 'Official Anker recall instructions'}
+                                        {isRTL ? 'تحقّق من سيريال وحدتك (Anker)' : 'Check your unit’s serial (Anker)'}
                                     </a>
-                                    {/* Route the visitor to stock that is actually sellable rather than
-                                        leaving a dead end on a page nobody can buy from. */}
+                                    {/* Only when the product cannot be bought here. Steering a visitor
+                                        away from stock they can actually order would be self-defeating. */}
+                                    {!stockVerifiedOutsideRecall && (
                                     <Link
                                         href={`${isRTL ? '' : '/en'}/anker/power-banks`}
                                         className="inline-flex font-semibold underline"
                                     >
                                         {isRTL ? 'بدائل باور بانك متاحة للشراء' : 'Power banks available to buy'}
                                     </Link>
+                                    )}
                                 </div>
                             </div>
                         )}

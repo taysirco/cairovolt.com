@@ -115,7 +115,10 @@ export const STANDARD_RETURN_WINDOW_DAYS = 14;
 export const MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS = new Set([
     'joyroom-usb-a-lightning-1.2m', // status: retired
     'joyroom-usb-a-type-c-1.2m', // status: retired
-    'anker-zolo-a1681-20000', // active Anker/CPSC recall (rc2506) — do not promote in Merchant
+    // A1681 was excluded here as a recalled SKU. Owner attests the stock on hand
+    // was serial-checked against anker.com/rc2506 and falls outside the affected
+    // range — see RECALL_STOCK_VERIFIED_OUTSIDE_SCOPE, which also keeps the
+    // disclosure on the product page. Re-exclude if a new batch is unverified.
 ]);
 
 /**
@@ -160,13 +163,34 @@ export function isRecallAffectedSlug(slug: string): boolean {
  * a recall notice findable silently removed the warning and made a recalled pack
  * purchasable. Indexing and safety are unrelated questions.
  */
-export const RECALL_PURCHASE_BLOCKED_PRODUCT_SLUGS = new Set([
-    'anker-zolo-a1681-20000',
-]);
+export const RECALL_PURCHASE_BLOCKED_PRODUCT_SLUGS = new Set<string>([]);
 
 /** True when an active recall means this model must not be sold at all. */
 export function isRecallPurchaseBlockedSlug(slug: string): boolean {
     return RECALL_PURCHASE_BLOCKED_PRODUCT_SLUGS.has(slug);
+}
+
+/**
+ * Models named in a recall programme whose CairoVolt stock was serial-checked
+ * against the manufacturer's tool and found outside the affected range.
+ *
+ * This is an owner attestation about physical inventory, recorded with its date
+ * so the basis is auditable — it is not something the codebase can verify. The
+ * product page still states that the model appears in a recall programme and
+ * still links the official serial checker, because a buyer who searches the
+ * model number will find the recall and a silent page would read as concealment.
+ * What changes is the claim: from "do not use / not sold" to "these units were
+ * checked and fall outside it, verify yours on arrival".
+ *
+ * If stock is replenished from a new batch, re-check before trusting this.
+ */
+export const RECALL_STOCK_VERIFIED_OUTSIDE_SCOPE: Record<string, { checkedOn: string; source: string }> = {
+    'anker-zolo-a1681-20000': { checkedOn: '2026-07-28', source: 'anker.com/rc2506' },
+};
+
+/** True when this model is in a recall programme but our stock was checked clear. */
+export function isRecallStockVerifiedOutsideScope(slug: string): boolean {
+    return Object.prototype.hasOwnProperty.call(RECALL_STOCK_VERIFIED_OUTSIDE_SCOPE, slug);
 }
 
 /**
