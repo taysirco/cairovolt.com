@@ -10,7 +10,7 @@ export const anker_nano_45w_1c_pd = {
         price: 775,
         originalPrice: 899,
         stock: 222,
-        featured: false,
+        featured: true,
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-nano-45w-1c-pd/anker-nano-45w-1c-pd-main-front-hero-white.webp", alt: "شاحن انكر نانو 45 واط أبيض بمنفذ USB-C وشعار PD - Anker Nano 45W single USB-C PD wall charger - كايرو فولت", order: 0, isPrimary: true, width: 1080, height: 1080 },

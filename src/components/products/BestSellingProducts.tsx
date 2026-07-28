@@ -26,6 +26,7 @@ export const ankerBestSellers: string[] = [
     'anker-powercore-20000',
     // Wall chargers
     'anker-nano-45w',
+    'anker-nano-45w-1c-pd',
     'anker-powerport-20w',
     'anker-zolo-30w-a2698-charger',
     'anker-nano-45w-smart-display-charger',
@@ -45,6 +46,12 @@ export const ankerBestSellers: string[] = [
  */
 export const soundcoreBestSellers: string[] = [
     // Earbuds and headphones
+    // R50i NC leads on measured demand, not preference: its name draws ~2,843
+    // impressions a month across query variants (soundcore r50i nc 1,533,
+    // anker r50i nc سعر 508, r50i nc 452, anker soundcore r50i nc 350) — roughly
+    // four times the next model. It ranked nowhere while it was suppressed as an
+    // alias; see the restoration in the product-alias notes.
+    'anker-soundcore-r50i-nc',
     'anker-soundcore-r50i',
     'soundcore-p30i-earbuds',
     'anker-soundcore-life-p2i',

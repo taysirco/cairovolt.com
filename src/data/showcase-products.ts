@@ -27,6 +27,20 @@ export const showcaseProducts: ShowcaseProduct[] = [
     categorySlug: 'power-banks',
   },
   {
+    // Highest measured demand of any single model in the catalogue — roughly
+    // 2,843 impressions a month across its name variants. Placed ahead of P30i
+    // for that reason alone; both are stocked separately.
+    slug: 'anker-soundcore-r50i-nc',
+    name: { en: 'Soundcore R50i NC', ar: 'ساوندكور R50i NC' },
+    image: '/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-earbud-anc-driver-detail-closeup-thumb.webp',
+    price: 1199,
+    originalPrice: 1440,
+    brand: 'Soundcore',
+    badge: { en: 'Best Seller', ar: 'الأكثر مبيعاً' },
+    href: '/soundcore/audio/anker-soundcore-r50i-nc',
+    categorySlug: 'audio',
+  },
+  {
     slug: 'soundcore-p30i-earbuds',
     name: { en: 'Soundcore P30i ANC', ar: 'ساوندكور P30i' },
     image: '/products/anker/soundcore-p30i-earbuds/soundcore-p30i-earbuds-main-view-cairovolt-thumb.webp',

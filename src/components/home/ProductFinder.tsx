@@ -120,6 +120,7 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
 
   // Short catalogue-based reason for each suggestion.
   const whyPick: Record<string, { ar: string; en: string }> = {
+    'anker-soundcore-r50i-nc': { ar: 'عزل ضوضاء وبطارية معلنان من الشركة', en: 'Manufacturer-listed noise cancelling and battery' },
     'soundcore-p30i-earbuds': { ar: 'عزل ضوضاء نشط حسب مواصفات الموديل', en: 'Active noise cancellation in the model specification' },
     'anker-soundcore-k20i': { ar: 'تصميم خفيف للاستخدام اليومي', en: 'Lightweight design for daily use' },
     'joyroom-t03s-pro-earbuds': { ar: 'خيار بسعر اقتصادي', en: 'A lower-price option' },
