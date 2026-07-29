@@ -404,6 +404,8 @@ body { font-family:'Cairo',sans-serif; background:var(--bg-dark); color:var(--te
                         <p style="font-size:10px;color:var(--text-muted);margin-top:8px;">يُطبق على سعر الجملة الحالي (بعد الخصم)</p>
                         <div style="margin-top:20px;">
                             <h3>📊 ملخص الكتالوج</h3>
+                        <div id="accountingStatus" style="font-size:11px;margin-top:6px;"></div>
+                        <button class="btn" onclick="pushPricesToAccounting()" style="margin-top:8px;font-size:11px;padding:6px 12px;">⬆️ اعتماد الأسعار في المحاسبة</button>
                             <div id="catalogSummary" style="margin-top:10px;font-size:12px;color:var(--text-dim);"></div>
                         </div>
                     </div>
@@ -1510,6 +1512,81 @@ async function syncFromCatalog() {
         renderAll();
     } catch (e) {
         console.error('[wholesale] catalog sync merge failed:', e && e.message);
+    }
+
+    await applyAccountingPrices();
+}
+
+/**
+ * 🏭 أسعار الجملة والضمان من النظام المحاسبي — هو مالكها لا هذا المتصفح.
+ * تُطبَّق بعد المزامنة فتَجُبّ ما في localStorage: هكذا يرى كل موظف نفس الأسعار،
+ * ولا تضيع بمسح الكاش، ويطابق ما تُسعَّر به فاتورة الجملة في المحاسبة.
+ */
+async function applyAccountingPrices() {
+    let items;
+    try {
+        const res = await fetch('/api/admin/wholesale/prices', { cache: 'no-store' });
+        if (!res.ok) { setAccountingStatus('offline'); return; }
+        const data = await res.json();
+        items = Array.isArray(data.items) ? data.items : [];
+    } catch { setAccountingStatus('offline'); return; }
+
+    const bySku = new Map();
+    for (const it of items) {
+        const k = String(it.sku || '').trim().toUpperCase();
+        if (k) bySku.set(k, it);
+    }
+
+    let priced = 0, warranted = 0;
+    for (const p of products) {
+        const rec = bySku.get(String(p.sku || '').trim().toUpperCase());
+        if (!rec) continue;
+        const wp = Math.round(Number(rec.wholesalePrice) || 0);
+        // لا نقبل سعر جملة أعلى من التجزئة حتى لو جاء من المحاسبة — التسعير
+        // المقلوب يُطبع للتاجر كخصم وهمي، فنُبقي القيمة الحالية ونُبلّغ.
+        if (wp > 0 && (!(p.originalPrice > 0) || wp <= p.originalPrice)) { p.price = wp; priced++; }
+        const wm = Math.round(Number(rec.warrantyMonths) || 0);
+        if (wm > 0 && wm <= 120) { p.warranty = wm; warranted++; }
+    }
+
+    if (priced || warranted) {
+        try { products = validateProductList(products); saveProducts(); renderAll(); }
+        catch (e) { console.error('[wholesale] accounting merge failed:', e && e.message); return; }
+    }
+    setAccountingStatus('online', priced, warranted, bySku.size);
+}
+
+function setAccountingStatus(state, priced, warranted, total) {
+    const el = document.getElementById('accountingStatus');
+    if (!el) return;
+    if (state === 'offline') {
+        el.innerHTML = '<span style="color:var(--orange)">⚠️ تعذّر الوصول للنظام المحاسبي — تُعرض النسخة المحفوظة محلياً</span>';
+        return;
+    }
+    el.innerHTML = total
+        ? `<span style="color:var(--green)">🏭 من النظام المحاسبي: ${priced} سعر جملة · ${warranted} مدة ضمان (من ${total} صنف معتمد)</span>`
+        : '<span style="color:var(--text-muted)">🏭 لا أسعار جملة معتمدة في المحاسبة بعد — ارفع الأسعار الحالية لاعتمادها</span>';
+}
+
+/** ⬆️ اعتماد أسعار هذه اللوحة في المحاسبة (هجرة لمرة واحدة ثم عند أي تعديل). */
+async function pushPricesToAccounting() {
+    const items = products
+        .filter(p => p.sku && p.price > 0)
+        .map(p => ({ sku: p.sku, wholesalePrice: p.price, warrantyMonths: p.warranty }));
+    if (!items.length) { showToast('⚠️ لا توجد أسعار للرفع','error'); return; }
+    if (!confirm(`رفع ${items.length} سعر جملة إلى النظام المحاسبي؟ ستصبح هي المعتمدة لفواتير الجملة.`)) return;
+    try {
+        const res = await fetch('/api/admin/wholesale/prices', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ items }),
+        });
+        const d = await res.json();
+        if (!res.ok) { showToast('❌ ' + (d.error || 'فشل الرفع'),'error'); return; }
+        showToast(`✅ اعتُمد ${d.updated} صنفاً في المحاسبة${d.unknownCount ? ` (${d.unknownCount} كود غير معروف)` : ''}`,'success');
+        applyAccountingPrices();
+    } catch {
+        showToast('❌ تعذّر الاتصال بالنظام المحاسبي','error');
     }
 }
 
