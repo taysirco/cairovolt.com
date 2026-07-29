@@ -1,0 +1,87 @@
+name: 💱 Sync Retail Prices from Accounting
+
+# النظام المحاسبي (leads-CRM → acc_products.sellPrice) هو مالك سعر التجزئة.
+# أسعار الموقع literals تُجمَّع وقت البناء، فالمزامنة = ترقيع src/data/products/*.ts
+# ثم push → App Hosting يعيد البناء والنشر تلقائياً فتتغير كل الواجهات معاً
+# (الصفحات، السلة، الدفع، JSON-LD، فيد جوجل ميرشنت) — لا سعر قديم في أي مكان.
+#
+# يُشغَّل من مسارين:
+#  1. dispatch فوري من الـCRM لحظة تعديل أي سعر بيع (lib/siteSync.ts) — لو GITHUB_DISPATCH_TOKEN مضبوط.
+#  2. جدولة كل 15 دقيقة (الريبو عام = دقائق Actions مجانية) — لا تعديل يفوت
+#     حتى بلا token، والتشغيلة بلا تغييرات تنتهي في ثوانٍ دون commit.
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # كل ربع ساعة — أسوأ تأخير للانعكاس ≈ 15د + زمن البناء
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'سبب المزامنة (يُسجَّل في الملخص)'
+        required: false
+        default: 'manual'
+      dry_run:
+        description: 'Dry run — اعرض ما سيتغير دون كتابة أو push'
+        type: boolean
+        default: false
+      allow_large:
+        description: 'السماح بتغيّر سعر أكبر من ±50% (تأكيد صريح لتغيير كبير مقصود)'
+        type: boolean
+        default: false
+
+# تشغيلة واحدة فقط — تشغيلتان متوازيتان قد تدفعان commits متعارضة
+concurrency:
+  group: price-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # commit ترقيع الأسعار
+
+jobs:
+  sync-prices:
+    name: Patch product files from accounting sellPrice
+    # من الريبو الإنتاجي فقط — المرآة بلا secrets وستفشل أو تدفع تعارضات
+    if: github.repository == 'taysirco/cairovolt.com'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: ⬇️ Checkout
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          # لا npm ci — السكربت يستخدم built-ins + fetch الأصلية فقط
+
+      - name: 💱 Update prices from accounting
+        id: sync
+        run: |
+          node scripts/update-prices.mjs
+          if git diff --quiet -- src/data; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          CRM_BASE_URL:       ${{ secrets.CRM_BASE_URL }}
+          CRM_WEBHOOK_SECRET: ${{ secrets.CRM_WEBHOOK_SECRET }}
+          DRY_RUN:            ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
+          ALLOW_LARGE:        ${{ github.event.inputs.allow_large == 'true' && '1' || '' }}
+
+      - name: 💾 Commit & push (يُطلق نشر App Hosting)
+        if: steps.sync.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "cairovolt-bot"
+          git config user.email "bot@cairovolt.com"
+          git add src/data
+          git commit -m "chore(prices): sync retail prices from accounting (${{ github.event.inputs.reason || 'schedule' }})"
+          git pull --rebase origin ${{ github.ref_name }} || true
+          git push origin HEAD:${{ github.ref_name }}
+
+      - name: 📊 Summary
+        if: always()
+        run: |
+          echo "## 💱 مزامنة أسعار الموقع" >> $GITHUB_STEP_SUMMARY
+          echo "- السبب: **${{ github.event.inputs.reason || 'schedule' }}**" >> $GITHUB_STEP_SUMMARY
+          echo "- تغييرات: **${{ steps.sync.outputs.changed || 'false' }}**" >> $GITHUB_STEP_SUMMARY
+          echo "- Dry run: ${{ github.event.inputs.dry_run || 'false' }}" >> $GITHUB_STEP_SUMMARY

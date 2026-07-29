@@ -2,7 +2,9 @@
 
 export const anker_powerport_20w = {
         slug: "anker-powerport-20w",
-        sku: "AC04",
+        // AC04 كان مشتركاً بالخطأ مع مكعب PowerPort III (A2149) — هذا المنتج موديل
+        // A2347K11 المختلف، والكود المشترك كان يكسر مزامنة الأسعار بالمحاسبة (SKU هو المفتاح)
+        sku: "AC13",
         brand: "Anker",
         categorySlug: "wall-chargers",
         gtin: "0194644031275",

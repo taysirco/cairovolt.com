@@ -112,6 +112,7 @@ cairovolt-authenticator.zip
 # them present. Everything else under /scripts/ stays local one-off tooling.
 !/scripts/generate-blog-index.mjs
 !/scripts/generate-client-catalog.mjs
+!/scripts/update-prices.mjs
 !/scripts/reveal-blog.mjs
 !/scripts/post-scheduled-articles.mjs
 !/scripts/social-post-ledger.json

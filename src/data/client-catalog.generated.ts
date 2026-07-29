@@ -236,7 +236,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
     },
     {
         "slug": "anker-powerport-20w",
-        "sku": "AC04",
+        "sku": "AC13",
         "brand": "Anker",
         "categorySlug": "wall-chargers",
         "price": 490,
@@ -1435,7 +1435,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "SH21",
         "brand": "Soundcore",
         "categorySlug": "audio",
-        "price": 1200,
+        "price": 1199,
         "originalPrice": 1440,
         "stock": 1092,
         "featured": true,

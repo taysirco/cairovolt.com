@@ -44,7 +44,7 @@ export const showcaseProducts: ShowcaseProduct[] = [
     slug: 'soundcore-p30i-earbuds',
     name: { en: 'Soundcore P30i ANC', ar: 'ساوندكور P30i' },
     image: '/products/anker/soundcore-p30i-earbuds/soundcore-p30i-earbuds-main-view-cairovolt-thumb.webp',
-    price: 1200,
+    price: 1199,
     originalPrice: 1440,
     brand: 'Soundcore',
     badge: { en: 'New', ar: 'جديد' },

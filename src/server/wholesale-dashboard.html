@@ -135,6 +135,7 @@ body { font-family:'Cairo',sans-serif; background:var(--bg-dark); color:var(--te
     display:inline-block; padding:2px 8px; border-radius:6px; font-size:9px; font-weight:800;
 }
 .brand-anker { background:rgba(59,130,246,0.15); color:var(--blue); }
+.brand-soundcore { background:rgba(0,176,255,0.15); color:#00b0ff; }
 .brand-joyroom { background:rgba(168,85,247,0.15); color:var(--purple); }
 .table-row .price { font-weight:800; color:var(--green); }
 .table-row .price-original { font-size:10px; color:var(--text-muted); text-decoration:line-through; }
@@ -496,37 +497,32 @@ body { font-family:'Cairo',sans-serif; background:var(--bg-dark); color:var(--te
             </div>
             <div class="form-group">
                 <label>البراند</label>
-                <select id="pBrand" class="filter-select" style="width:100%;">
-                    <option value="Anker">Anker</option>
-                    <option value="Joyroom">Joyroom</option>
-                </select>
+                <!-- الخيارات تُولَّد من ALLOWED_BRANDS — قائمة يدوية ناقصة كانت تمنع تعديل منتجات Soundcore كلها -->
+                <select id="pBrand" class="filter-select" style="width:100%;"></select>
             </div>
             <div class="form-group">
                 <label>الفئة</label>
-                <select id="pCategory" class="filter-select" style="width:100%;">
-                    <option value="power-banks">باور بانك</option>
-                    <option value="wall-chargers">شواحن حائط</option>
-                    <option value="car-chargers">شواحن سيارة</option>
-                    <option value="cables">كابلات</option>
-                    <option value="audio">سماعات</option>
-                    <option value="speakers">مكبرات صوت</option>
-                    <option value="smart-watches">ساعات ذكية</option>
-                    <option value="car-holders">حوامل سيارة</option>
-                    <option value="wireless-chargers">شحن لاسلكي</option>
-                    <option value="power-stations">محطات طاقة</option>
-                </select>
+                <!-- الخيارات تُولَّد من CATEGORY_NAMES — «إكسسوارات» كانت غائبة فتُعاد تصنيف منتجاتها بصمت -->
+                <select id="pCategory" class="filter-select" style="width:100%;"></select>
             </div>
             <div class="form-group">
                 <label>الضمان (بالشهور)</label>
                 <input type="number" id="pWarranty" value="18" min="0">
             </div>
             <div class="form-group">
-                <label>السعر الأصلي (ج.م)</label>
+                <label>سعر التجزئة (ج.م) — سعر الموقع</label>
                 <input type="number" id="pOriginalPrice" placeholder="1650">
             </div>
             <div class="form-group">
                 <label>سعر الجملة (ج.م)</label>
                 <input type="number" id="pPrice" placeholder="1300">
+            </div>
+            <div class="form-group full" id="storeManagedHint" style="display:none;">
+                <div style="background:rgba(59,130,246,.1);border:1px solid rgba(59,130,246,.35);border-radius:10px;padding:10px 14px;font-size:12px;color:var(--text-dim);line-height:1.7;">
+                    🔗 هذا المنتج مُزامَن من الموقع: الاسم والكود والبراند والفئة والصورة تُدار هناك
+                    (تعديلها هنا كان يُلغى بصمت مع أول مزامنة). المتاح للتحرير: الأسعار والضمان والوصف —
+                    وتعديل سعر التجزئة يُعتمد في المحاسبة ثم يُحدَّث الموقع تلقائياً عند «⬆️ اعتماد الأسعار».
+                </div>
             </div>
             <div class="form-group full">
                 <label>وصف مختصر</label>
@@ -709,7 +705,27 @@ function normalizeProductRecord(value) {
         desc: cleanText(value.desc, 300),
         image: normalizeImageURL(value.image),
         inCatalog: value.inCatalog !== false,
+        // مُزامَن من الموقع؟ هويته (اسم/كود/براند/فئة/صورة) يملكها الموقع لا هذه اللوحة
+        fromStore: value.fromStore === true,
     };
+}
+
+/**
+ * إنقاذ ما يصلح بدل رمي الكل: سجل واحد تالف في localStorage كان يُرجع الكتالوج
+ * كله للافتراضي ويمسح كل تعديلات الأسعار المحفوظة معه.
+ */
+function salvageProductList(value) {
+    if (!Array.isArray(value)) throw new Error('Invalid product list');
+    const ids = new Set();
+    const out = [];
+    let dropped = 0;
+    for (const item of value.slice(0, MAX_PRODUCTS)) {
+        const product = normalizeProductRecord(item);
+        if (!product || ids.has(product.id)) { dropped++; continue; }
+        ids.add(product.id);
+        out.push(product);
+    }
+    return { list: out, dropped };
 }
 
 function validateProductList(value) {
@@ -754,13 +770,39 @@ let catalogSelectedIds = new Set();
 // المنتجات التي استبعدها الموظف يدوياً. بدونها كان أي تغيير في نسبة الخصم أو
 // الفلاتر يستدعي updateCatalogPreview فيعيد اختيار كل شيء ويلغي استبعاداته بصمت.
 let catalogDeselectedIds = new Set();
+// آخر ما قرأناه من المحاسبة (sku → {sellPrice, wholesalePrice}) — أساس الفحص
+// التفاؤلي عند الرفع: لا نكتب فوق سعر تغيّر في المحاسبة بعد آخر تحميل هنا.
+let accountingBySku = new Map();
+// منتجات حذفها الموظف من الكتالوج — بدون هذا السجل كانت المزامنة تُحييها في
+// كل فتح للصفحة: «حذف ناجح» ظاهرياً يعود بعد ثوانٍ.
+let excludedKeys = new Set();
+
+function loadExclusions() {
+    try {
+        const raw = JSON.parse(localStorage.getItem('cv_wholesale_excluded') || '[]');
+        excludedKeys = new Set(Array.isArray(raw) ? raw.filter(k => typeof k === 'string').slice(0, 500) : []);
+    } catch { excludedKeys = new Set(); }
+}
+function saveExclusions() {
+    localStorage.setItem('cv_wholesale_excluded', JSON.stringify([...excludedKeys]));
+}
+/** مفتاح استبعاد ثابت للمنتج — سلاگ الصورة أولاً (فريد) ثم SKU+الاسم */
+function exclusionKey(p) {
+    const slug = slugFromImage(p.image);
+    return slug ? 'slug:' + slug : 'sku:' + String(p.sku || '').toLowerCase() + '|' + normKey(p.name);
+}
 
 function loadProducts() {
     const saved = localStorage.getItem('cv_wholesale_products');
     try {
-        products = saved
-            ? validateProductList(JSON.parse(saved))
-            : validateProductList(DEFAULT_PRODUCTS);
+        if (saved) {
+            const { list, dropped } = salvageProductList(JSON.parse(saved));
+            if (!list.length) throw new Error('empty after salvage');
+            products = list;
+            if (dropped > 0) console.warn(`[wholesale] أُسقط ${dropped} سجلاً تالفاً وأُنقذ الباقي`);
+        } else {
+            products = validateProductList(DEFAULT_PRODUCTS);
+        }
         migrateIdentities();
     } catch {
         products = validateProductList(DEFAULT_PRODUCTS);
@@ -780,7 +822,9 @@ function migrateIdentities() {
     if (changed) saveProducts();
 }
 function saveProducts() {
-    products = validateProductList(products);
+    // إنقاذ لا رمي: استثناء هنا كان يُسقط الحفظ كله بصمت بعد أن تعدّلت الذاكرة
+    const { list } = salvageProductList(products);
+    products = list;
     localStorage.setItem('cv_wholesale_products', JSON.stringify(products));
 }
 function getNextId() { return products.length ? Math.max(...products.map(p=>p.id)) + 1 : 1; }
@@ -814,8 +858,8 @@ function switchPage(page, el) {
 // ══════════════════════════════════════════
 function renderStats() {
     const ankerCount = products.filter(p=>p.brand==='Anker').length;
+    const scCount = products.filter(p=>p.brand==='Soundcore').length;
     const jrCount = products.filter(p=>p.brand==='Joyroom').length;
-    const totalValue = products.reduce((s,p)=>s+p.price,0);
     // نتجاهل المنتجات بلا سعر أصلي: القسمة على صفر كانت تُنتج -Infinity% في البطاقة
     const withBase = products.filter(p => p.originalPrice > 0);
     const avgDiscount = withBase.length ? Math.round(withBase.reduce((s,p)=>s+((p.originalPrice-p.price)/p.originalPrice*100),0)/withBase.length) : 0;
@@ -823,6 +867,7 @@ function renderStats() {
     document.getElementById('statsGrid').innerHTML = `
         <div class="stat-card"><div class="stat-icon">📦</div><div class="stat-value">${products.length}</div><div class="stat-label">إجمالي المنتجات</div></div>
         <div class="stat-card"><div class="stat-icon">⚡</div><div class="stat-value">${ankerCount}</div><div class="stat-label">منتجات Anker</div></div>
+        <div class="stat-card"><div class="stat-icon">🎧</div><div class="stat-value">${scCount}</div><div class="stat-label">منتجات Soundcore</div></div>
         <div class="stat-card"><div class="stat-icon">🔮</div><div class="stat-value">${jrCount}</div><div class="stat-label">منتجات Joyroom</div></div>
         <div class="stat-card"><div class="stat-icon">💰</div><div class="stat-value">${avgDiscount}%</div><div class="stat-label">متوسط الخصم</div></div>
     `;
@@ -868,6 +913,25 @@ function renderProducts() {
 // ══════════════════════════════════════════
 // PRODUCT CRUD
 // ══════════════════════════════════════════
+/** خيارات البراند والفئة من المصدر الوحيد — قائمة مكتوبة يدوياً تنقص عنصراً
+ *  كانت تجعل تعديل منتجات كاملة مستحيلاً (Soundcore) أو تُفرغ الفئة (accessories). */
+function populateModalSelects() {
+    document.getElementById('pBrand').innerHTML = [...ALLOWED_BRANDS]
+        .map(b => `<option value="${escapeAttr(b)}">${escapeHTML(b)}</option>`).join('');
+    document.getElementById('pCategory').innerHTML = Object.entries(CATEGORY_NAMES)
+        .map(([v, label]) => `<option value="${escapeAttr(v)}">${escapeHTML(label.replace(/^[^\s]+\s/, ''))}</option>`).join('');
+}
+
+/** هوية المنتج المُزامَن يملكها الموقع — تحريرها هنا كان «ينجح» ثم يرتد بصمت مع أول مزامنة */
+function setIdentityLock(locked) {
+    ['pName','pSku','pBrand','pCategory','pImage'].forEach(fid => {
+        const el = document.getElementById(fid);
+        el.disabled = locked;
+        el.style.opacity = locked ? '.55' : '';
+    });
+    document.getElementById('storeManagedHint').style.display = locked ? '' : 'none';
+}
+
 function openAddModal() {
     document.getElementById('modalTitle').textContent = '➕ إضافة منتج جديد';
     document.getElementById('editId').value = '';
@@ -877,6 +941,7 @@ function openAddModal() {
     document.getElementById('pWarranty').value = 18;
     document.getElementById('pBrand').value = 'Anker';
     document.getElementById('pCategory').value = 'power-banks';
+    setIdentityLock(false);
     document.getElementById('productModal').classList.add('show');
 }
 
@@ -894,6 +959,7 @@ function openEditModal(id) {
     document.getElementById('pWarranty').value = p.warranty;
     document.getElementById('pDesc').value = p.desc || '';
     document.getElementById('pImage').value = p.image || '';
+    setIdentityLock(p.fromStore === true);
     document.getElementById('productModal').classList.add('show');
 }
 
@@ -901,18 +967,23 @@ function closeModal() { document.getElementById('productModal').classList.remove
 
 function saveProduct() {
     const editId = document.getElementById('editId').value;
+    const existing = editId ? products.find(p => p.id === parseInt(editId)) : null;
+    const identityLocked = !!(existing && existing.fromStore);
     const candidate = {
         id: editId ? parseInt(editId) : getNextId(),
-        name: document.getElementById('pName').value.trim(),
-        sku: document.getElementById('pSku').value.trim(),
-        brand: document.getElementById('pBrand').value,
-        category: document.getElementById('pCategory').value,
+        // المنتج المُزامَن: هويته من السجل نفسه لا من الحقول المقفولة —
+        // disabled fields قد تعود فارغة من بعض المتصفحات فتُفسد السجل
+        name: identityLocked ? existing.name : document.getElementById('pName').value.trim(),
+        sku: identityLocked ? existing.sku : document.getElementById('pSku').value.trim(),
+        brand: identityLocked ? existing.brand : document.getElementById('pBrand').value,
+        category: identityLocked ? existing.category : document.getElementById('pCategory').value,
         originalPrice: parseInt(document.getElementById('pOriginalPrice').value) || 0,
         price: parseInt(document.getElementById('pPrice').value) || 0,
         warranty: parseInt(document.getElementById('pWarranty').value) || 0,
         desc: document.getElementById('pDesc').value.trim(),
-        image: document.getElementById('pImage').value.trim(),
-        inCatalog: true
+        image: identityLocked ? existing.image : document.getElementById('pImage').value.trim(),
+        inCatalog: existing ? existing.inCatalog : true,
+        fromStore: identityLocked
     };
     const data = normalizeProductRecord(candidate);
     if (!data || !data.price) { showToast('❌ يرجى مراجعة الحقول المطلوبة','error'); return; }
@@ -935,10 +1006,14 @@ function saveProduct() {
 
 function deleteProduct(id) {
     if (!confirm('هل أنت متأكد من حذف هذا المنتج؟')) return;
-    products = products.filter(p => p.id !== id);
+    const p = products.find(x => x.id === id);
+    // المنتج المُزامَن كان «يُحذف» ثم تُحييه المزامنة في الفتح التالي —
+    // نسجّل استبعاده حتى تتخطاه المزامنة نهائياً (يُستعاد من الإعدادات)
+    if (p && p.fromStore) { excludedKeys.add(exclusionKey(p)); saveExclusions(); }
+    products = products.filter(x => x.id !== id);
     selectedIds.delete(id);
     saveProducts(); renderAll();
-    showToast('🗑️ تم حذف المنتج','success');
+    showToast(p && p.fromStore ? '🗑️ حُذف واستُبعد من مزامنة الموقع' : '🗑️ تم حذف المنتج','success');
 }
 
 function toggleSelect(id) { selectedIds.has(id) ? selectedIds.delete(id) : selectedIds.add(id); }
@@ -950,10 +1025,15 @@ function toggleSelectAll() {
 function deleteSelected() {
     if (!selectedIds.size) { showToast('⚠️ لم يتم تحديد أي منتج','error'); return; }
     if (!confirm(`هل أنت متأكد من حذف ${selectedIds.size} منتج؟`)) return;
+    let excluded = 0;
+    for (const p of products) {
+        if (selectedIds.has(p.id) && p.fromStore) { excludedKeys.add(exclusionKey(p)); excluded++; }
+    }
+    if (excluded > 0) saveExclusions();
     products = products.filter(p => !selectedIds.has(p.id));
     selectedIds.clear();
     saveProducts(); renderAll();
-    showToast('🗑️ تم حذف المنتجات المحددة','success');
+    showToast(excluded > 0 ? `🗑️ حُذفت واستُبعد ${excluded} من مزامنة الموقع` : '🗑️ تم حذف المنتجات المحددة','success');
 }
 
 // ══════════════════════════════════════════
@@ -1339,15 +1419,29 @@ function loadSettings() {
 }
 function updateSettingsStats() {
     const anker = products.filter(p=>p.brand==='Anker').length;
+    const sc = products.filter(p=>p.brand==='Soundcore').length;
     const jr = products.filter(p=>p.brand==='Joyroom').length;
     const cats = [...new Set(products.map(p=>p.category))].length;
     document.getElementById('settingsStats').innerHTML = `
         <p>📦 إجمالي المنتجات: <strong>${products.length}</strong></p>
         <p>⚡ منتجات Anker: <strong>${anker}</strong></p>
+        <p>🎧 منتجات Soundcore: <strong>${sc}</strong></p>
         <p>🔮 منتجات Joyroom: <strong>${jr}</strong></p>
         <p>📂 عدد الفئات: <strong>${cats}</strong></p>
         <p>💾 حجم البيانات: <strong>${(JSON.stringify(products).length/1024).toFixed(1)} KB</strong></p>
+        ${excludedKeys.size > 0 ? `<p>🚫 منتجات مستبعدة من مزامنة الموقع: <strong>${excludedKeys.size}</strong>
+            <button class="btn btn-outline btn-sm" onclick="restoreExcluded()" style="margin-inline-start:8px;">↩️ استعادة الكل</button></p>` : ''}
     `;
+}
+
+/** ↩️ إلغاء كل الاستبعادات — المنتجات المحذوفة من المزامنة تعود مع التحديث التالي */
+function restoreExcluded() {
+    if (!excludedKeys.size) return;
+    if (!confirm(`استعادة ${excludedKeys.size} منتجاً مستبعداً إلى مزامنة الموقع؟`)) return;
+    excludedKeys.clear();
+    saveExclusions();
+    showToast('↩️ أُلغيت الاستبعادات — جاري إعادة المزامنة','success');
+    syncFromCatalog().then(() => updateSettingsStats());
 }
 
 function resetData() {
@@ -1450,9 +1544,14 @@ async function syncFromCatalog() {
     const used = new Set();
     const seenSlug = new Set();
     const catalog = [];
+    let unknownBrand = 0;
     for (const it of items) {
-        const brand = it.brand, category = it.categorySlug;
-        if (!ALLOWED_BRANDS.has(brand) || !ALLOWED_CATEGORIES.has(category)) continue;
+        const brand = it.brand;
+        // فئة جديدة في الموقع لم تُسقط المنتج بعد اليوم — تهبط في «إكسسوارات»
+        // بدل الاختفاء الصامت الذي أخفى منتج AA01 وسيتكرر مع كل فئة مستقبلية.
+        let category = it.categorySlug;
+        if (!ALLOWED_CATEGORIES.has(category)) category = 'accessories';
+        if (!ALLOWED_BRANDS.has(brand)) { unknownBrand++; continue; }
         // المنتجات المتوقّفة لا تدخل قائمة أسعار يستلمها تاجر — كل صفحات المتجر
         // تفلتر status==='active' وهذه المزامنة كانت الاستثناء الوحيد.
         if (it.status && it.status !== 'active') continue;
@@ -1460,6 +1559,8 @@ async function syncFromCatalog() {
         const slugKey = String(it.slug || '').toLowerCase();
         if (!slugKey || seenSlug.has(slugKey)) continue;
         seenSlug.add(slugKey);
+        // استبعده الموظف بالحذف؟ المزامنة تحترم قراره بدل إحيائه في كل فتح
+        if (excludedKeys.has('slug:' + slugKey)) continue;
         const tr = it.translations || {};
         const arName = firstSegment(tr.ar && tr.ar.name);
         const enName = firstSegment(tr.en && tr.en.name);
@@ -1467,6 +1568,7 @@ async function syncFromCatalog() {
         if (!name) continue;
         let sku = String(it.sku || '').trim();
         if (!sku) sku = ('WS-' + it.slug).slice(0, 80);
+        if (excludedKeys.has('sku:' + sku.toLowerCase() + '|' + normKey(arName || enName))) continue;
         const retail = Math.max(0, Math.round(Number(it.price) || 0));
         const imgs = Array.isArray(it.images) ? it.images : [];
         const primary = imgs.find(im => im && im.isPrimary) || imgs[0];
@@ -1490,8 +1592,10 @@ async function syncFromCatalog() {
             desc: (match && match.desc) || firstSegment(tr.ar && tr.ar.shortDescription).slice(0, 300),
             image: primary && primary.url ? primary.url : '',
             inCatalog: match && typeof match.inCatalog === 'boolean' ? match.inCatalog : true,
+            fromStore: true,
         });
     }
+    if (unknownBrand > 0) console.warn(`[wholesale] تخطّي ${unknownBrand} منتجاً ببراند غير معروف — أضِفه إلى ALLOWED_BRANDS`);
     if (!catalog.length) return;
 
     // نُبقي أي منتجات محفوظة غير موجودة بالكتالوج (مخصّصة) بلا تكرار
@@ -1506,10 +1610,14 @@ async function syncFromCatalog() {
     for (const e of extras) e.id = stableId('extra-' + (e.sku || e.name), used);
 
     try {
-        const merged = validateProductList([...catalog, ...extras]);
-        products = merged;
-        saveProducts();
-        renderAll();
+        // إنقاذ لا رمي — سجل واحد شاذ كان يُفشل الدمج كله فتبقى اللوحة على نسخة قديمة
+        const { list, dropped } = salvageProductList([...catalog, ...extras]);
+        if (list.length) {
+            products = list;
+            saveProducts();
+            renderAll();
+            if (dropped > 0) console.warn(`[wholesale] الدمج أسقط ${dropped} سجلاً شاذاً`);
+        }
     } catch (e) {
         console.error('[wholesale] catalog sync merge failed:', e && e.message);
     }
@@ -1536,11 +1644,17 @@ async function applyAccountingPrices() {
         const k = String(it.sku || '').trim().toUpperCase();
         if (k) bySku.set(k, it);
     }
+    // ذاكرة الفحص التفاؤلي للرفع — ما قرأناه الآن هو «قبل» أي تعديل محلي لاحق
+    accountingBySku = bySku;
 
-    let priced = 0, warranted = 0;
+    let priced = 0, warranted = 0, retailSynced = 0;
     for (const p of products) {
         const rec = bySku.get(String(p.sku || '').trim().toUpperCase());
         if (!rec) continue;
+        // 🔗 سعر التجزئة من المحاسبة أولاً — هو نفسه سعر الموقع (مزامنة CI)،
+        // فكل شاشات هذه اللوحة والـPDF تعرض نفس الرقم الذي يراه المشتري.
+        const sp = Math.round(Number(rec.sellPrice) || 0);
+        if (sp > 0 && p.originalPrice !== sp) { p.originalPrice = sp; retailSynced++; }
         const wp = Math.round(Number(rec.wholesalePrice) || 0);
         // لا نقبل سعر جملة أعلى من التجزئة حتى لو جاء من المحاسبة — التسعير
         // المقلوب يُطبع للتاجر كخصم وهمي، فنُبقي القيمة الحالية ونُبلّغ.
@@ -1549,14 +1663,13 @@ async function applyAccountingPrices() {
         if (wm > 0 && wm <= 120) { p.warranty = wm; warranted++; }
     }
 
-    if (priced || warranted) {
-        try { products = validateProductList(products); saveProducts(); renderAll(); }
-        catch (e) { console.error('[wholesale] accounting merge failed:', e && e.message); return; }
+    if (priced || warranted || retailSynced) {
+        saveProducts(); renderAll();
     }
-    setAccountingStatus('online', priced, warranted, bySku.size);
+    setAccountingStatus('online', priced, warranted, bySku.size, retailSynced);
 }
 
-function setAccountingStatus(state, priced, warranted, total) {
+function setAccountingStatus(state, priced, warranted, total, retailSynced) {
     const el = document.getElementById('accountingStatus');
     if (!el) return;
     if (state === 'offline') {
@@ -1564,17 +1677,29 @@ function setAccountingStatus(state, priced, warranted, total) {
         return;
     }
     el.innerHTML = total
-        ? `<span style="color:var(--green)">🏭 من النظام المحاسبي: ${priced} سعر جملة · ${warranted} مدة ضمان (من ${total} صنف معتمد)</span>`
+        ? `<span style="color:var(--green)">🏭 من النظام المحاسبي: ${priced} سعر جملة · ${retailSynced || 0} سعر تجزئة · ${warranted} مدة ضمان (من ${total} صنف معتمد)</span>`
         : '<span style="color:var(--text-muted)">🏭 لا أسعار جملة معتمدة في المحاسبة بعد — ارفع الأسعار الحالية لاعتمادها</span>';
 }
 
-/** ⬆️ اعتماد أسعار هذه اللوحة في المحاسبة (هجرة لمرة واحدة ثم عند أي تعديل). */
+/** ⬆️ اعتماد أسعار هذه اللوحة في المحاسبة (جملة + تجزئة).
+ *  سعر التجزئة المعدَّل هنا يُعتمد كـsellPrice في المحاسبة، وهي بدورها تُطلق
+ *  إعادة بناء الموقع فيتغير السعر أمام المشتري — الحلقة كاملة من زر واحد.
+ *  prevSellPrice = ما قرأناه من المحاسبة عند آخر تحميل: لو تغيّر هناك بعدها
+ *  يرفض السيرفر الكتابة لهذا الصنف (لا دهس لسعر أحدث من متصفح قديم). */
 async function pushPricesToAccounting() {
     const items = products
         .filter(p => p.sku && p.price > 0)
-        .map(p => ({ sku: p.sku, wholesalePrice: p.price, warrantyMonths: p.warranty }));
+        .map(p => {
+            const acc = accountingBySku.get(String(p.sku || '').trim().toUpperCase());
+            const item = { sku: p.sku, wholesalePrice: p.price, warrantyMonths: p.warranty };
+            if (p.originalPrice > 0) {
+                item.sellPrice = p.originalPrice;
+                if (acc && Number(acc.sellPrice) > 0) item.prevSellPrice = Math.round(Number(acc.sellPrice));
+            }
+            return item;
+        });
     if (!items.length) { showToast('⚠️ لا توجد أسعار للرفع','error'); return; }
-    if (!confirm(`رفع ${items.length} سعر جملة إلى النظام المحاسبي؟ ستصبح هي المعتمدة لفواتير الجملة.`)) return;
+    if (!confirm(`اعتماد ${items.length} صنفاً في المحاسبة (جملة + تجزئة)؟ تعديلات سعر التجزئة ستُحدَّث على الموقع تلقائياً خلال دقائق.`)) return;
     try {
         const res = await fetch('/api/admin/wholesale/prices', {
             method: 'POST',
@@ -1583,7 +1708,13 @@ async function pushPricesToAccounting() {
         });
         const d = await res.json();
         if (!res.ok) { showToast('❌ ' + (d.error || 'فشل الرفع'),'error'); return; }
-        showToast(`✅ اعتُمد ${d.updated} صنفاً في المحاسبة${d.unknownCount ? ` (${d.unknownCount} كود غير معروف)` : ''}`,'success');
+        let msg = `✅ اعتُمد ${d.updated} صنفاً`;
+        if (d.sellUpdated) msg += ` — ${d.sellUpdated} سعر تجزئة سيصل الموقع تلقائياً`;
+        if (d.unknownCount) msg += ` (${d.unknownCount} كود غير معروف)`;
+        showToast(msg,'success');
+        if (d.sellConflictCount) {
+            showToast(`⚠️ ${d.sellConflictCount} سعر تجزئة تغيّر في المحاسبة بعد آخر تحميل — حدِّث الصفحة وراجع: ${(d.sellConflicts||[]).slice(0,3).join('، ')}`,'error');
+        }
         applyAccountingPrices();
     } catch {
         showToast('❌ تعذّر الاتصال بالنظام المحاسبي','error');
@@ -1591,6 +1722,8 @@ async function pushPricesToAccounting() {
 }
 
 function init() {
+    populateModalSelects();
+    loadExclusions();
     loadProducts();
     loadSettings();
     renderAll();
