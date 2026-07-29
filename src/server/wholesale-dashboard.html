@@ -71,7 +71,7 @@ body { font-family:'Cairo',sans-serif; background:var(--bg-dark); color:var(--te
 .page-header .subtitle { color:var(--text-muted); font-size:12px; }
 
 /* Stats */
-.stats-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:15px; margin-bottom:25px; }
+.stats-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:15px; margin-bottom:25px; }
 .stat-card {
     background:var(--bg-card); border:1px solid var(--border); border-radius:14px;
     padding:18px 20px; transition:transform 0.2s;
@@ -873,24 +873,38 @@ function renderStats() {
     `;
 }
 
-function renderProducts() {
+/** المنتجات المطابقة لفلاتر صفحة المنتجات الحالية — تشاركها القائمة و«تحديد الكل» */
+function getFilteredProducts() {
     const search = document.getElementById('searchInput').value.toLowerCase();
     const brandF = document.getElementById('brandFilter').value;
     const catF = document.getElementById('catFilter').value;
-
-    let filtered = products.filter(p => {
+    return products.filter(p => {
         if (brandF !== 'all' && p.brand !== brandF) return false;
         if (catF !== 'all' && p.category !== catF) return false;
         if (search && !p.name.toLowerCase().includes(search) && !p.sku.toLowerCase().includes(search)) return false;
         return true;
     });
+}
+
+function renderProducts() {
+    let filtered = getFilteredProducts();
 
     if (!filtered.length) {
         document.getElementById('productsList').innerHTML = '<div class="empty-state"><span class="empty-icon">🔍</span><p>لا توجد منتجات مطابقة للبحث</p></div>';
         return;
     }
 
-    document.getElementById('productsList').innerHTML = filtered.map(p => `
+    document.getElementById('productsList').innerHTML = filtered.map(p => {
+        // 📦 المخزون الحقيقي من المحاسبة — للوحة الداخلية فقط، لا يُطبع في كتالوج التاجر.
+        // أحمر للعجز الفعلي فقط؛ الصفر رمادي (أغلب الأصناف بلا رصيد مسجَّل بعد) وإلا احمرّت القائمة كلها.
+        const acc = accountingBySku.get(String(p.sku || '').trim().toUpperCase());
+        const stockStyle = !acc ? '' : acc.stock < 0
+            ? 'background:rgba(239,68,68,.15);color:#ef4444;'
+            : acc.stock > 0 ? 'background:rgba(34,197,94,.15);color:#22c55e;' : 'opacity:.55;';
+        const stockBadge = acc && typeof acc.stock === 'number'
+            ? `<div><span class="warranty-tag" style="${stockStyle}" title="المخزون الفعلي في النظام المحاسبي">📦 ${acc.stock.toLocaleString()}</span></div>`
+            : '';
+        return `
         <div class="table-row" data-id="${p.id}">
             <div class="cb-cell"><input type="checkbox" ${selectedIds.has(p.id)?'checked':''} onchange="toggleSelect(${p.id})"></div>
             <div class="img-cell"><img src="${escapeAttr(p.image)}" alt="${escapeAttr(p.name)}" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><rect fill=%22%23222636%22 width=%2240%22 height=%2240%22/><text x=%2220%22 y=%2224%22 text-anchor=%22middle%22 fill=%22%2364748b%22 font-size=%2212%22>📷</text></svg>'"></div>
@@ -901,13 +915,14 @@ function renderProducts() {
                 <div class="price-original">${p.originalPrice.toLocaleString()} ج.م</div>
                 <div class="price">${p.price.toLocaleString()} ج.م</div>
                 <div><span class="warranty-tag">${p.warranty===0?'غير محدد':p.warranty+' شهر'}</span></div>
+                ${stockBadge}
             </div>
             <div class="actions">
                 <button class="btn btn-outline btn-sm" onclick="openEditModal(${p.id})" aria-label="تعديل">✏️</button>
                 <button class="btn btn-danger btn-sm" onclick="deleteProduct(${p.id})" aria-label="حذف">🗑️</button>
             </div>
         </div>
-    `).join('');
+    `;}).join('');
 }
 
 // ══════════════════════════════════════════
@@ -1007,19 +1022,22 @@ function saveProduct() {
 function deleteProduct(id) {
     if (!confirm('هل أنت متأكد من حذف هذا المنتج؟')) return;
     const p = products.find(x => x.id === id);
-    // المنتج المُزامَن كان «يُحذف» ثم تُحييه المزامنة في الفتح التالي —
-    // نسجّل استبعاده حتى تتخطاه المزامنة نهائياً (يُستعاد من الإعدادات)
-    if (p && p.fromStore) { excludedKeys.add(exclusionKey(p)); saveExclusions(); }
+    // نسجّل الاستبعاد لكل حذف (لا للمُزامَن فقط): صف من البيانات الافتراضية
+    // قبل أول مزامنة يحمل fromStore=false لكن نظيره في الموقع سيُحييه بعدها —
+    // الاستبعاد بالمفتاح يقطع الطريق على الحالتين، ولا يضر منتجاً يدوياً.
+    if (p) { excludedKeys.add(exclusionKey(p)); saveExclusions(); }
     products = products.filter(x => x.id !== id);
     selectedIds.delete(id);
     saveProducts(); renderAll();
-    showToast(p && p.fromStore ? '🗑️ حُذف واستُبعد من مزامنة الموقع' : '🗑️ تم حذف المنتج','success');
+    showToast('🗑️ حُذف واستُبعد من مزامنة الموقع (يُستعاد من الإعدادات)','success');
 }
 
 function toggleSelect(id) { selectedIds.has(id) ? selectedIds.delete(id) : selectedIds.add(id); }
 function toggleSelectAll() {
     const all = document.getElementById('selectAll').checked;
-    if (all) { products.forEach(p => selectedIds.add(p.id)); } else { selectedIds.clear(); }
+    // «تحديد الكل» = المعروض بعد الفلاتر فقط — تحديد ما لا يراه الموظف كان
+    // يجعل «حذف المحدد» يمسح منتجات خارج نطاق بحثه
+    if (all) { getFilteredProducts().forEach(p => selectedIds.add(p.id)); } else { selectedIds.clear(); }
     renderProducts();
 }
 function deleteSelected() {
@@ -1027,13 +1045,14 @@ function deleteSelected() {
     if (!confirm(`هل أنت متأكد من حذف ${selectedIds.size} منتج؟`)) return;
     let excluded = 0;
     for (const p of products) {
-        if (selectedIds.has(p.id) && p.fromStore) { excludedKeys.add(exclusionKey(p)); excluded++; }
+        // استبعاد لكل حذف — سطر البيانات الافتراضية أيضاً يعود من الموقع بعد المزامنة
+        if (selectedIds.has(p.id)) { excludedKeys.add(exclusionKey(p)); excluded++; }
     }
     if (excluded > 0) saveExclusions();
     products = products.filter(p => !selectedIds.has(p.id));
     selectedIds.clear();
     saveProducts(); renderAll();
-    showToast(excluded > 0 ? `🗑️ حُذفت واستُبعد ${excluded} من مزامنة الموقع` : '🗑️ تم حذف المنتجات المحددة','success');
+    showToast(`🗑️ حُذف ${excluded} واستُبعد من مزامنة الموقع (يُستعاد من الإعدادات)`,'success');
 }
 
 // ══════════════════════════════════════════
@@ -1102,10 +1121,13 @@ function toggleCatalogItem(id) {
 function toggleCatalogSelectAll() {
     const checked = document.getElementById('catalogSelectAll').checked;
     document.querySelectorAll('.catalog-item-cb').forEach(cb => {
-        cb.checked = checked;
         const id = parseInt(cb.dataset.id);
-        checked ? catalogSelectedIds.add(id) : catalogSelectedIds.delete(id);
+        // بدون تحديث سجل الاستبعادات كان أول إعادة رسم تُرجع الاختيار للوضع
+        // السابق — «تحديد الكل» يظهر ثم يتبخر عند أي لمسة للفلاتر
+        if (checked) { catalogSelectedIds.add(id); catalogDeselectedIds.delete(id); }
+        else { catalogSelectedIds.delete(id); catalogDeselectedIds.add(id); }
     });
+    updateCatalogPreview();
 }
 
 function renderCategoryFilters() {
@@ -1647,18 +1669,23 @@ async function applyAccountingPrices() {
     // ذاكرة الفحص التفاؤلي للرفع — ما قرأناه الآن هو «قبل» أي تعديل محلي لاحق
     accountingBySku = bySku;
 
-    let priced = 0, warranted = 0, retailSynced = 0;
+    let priced = 0, warranted = 0, retailSynced = 0, inverted = 0;
     for (const p of products) {
         const rec = bySku.get(String(p.sku || '').trim().toUpperCase());
         if (!rec) continue;
         // 🔗 سعر التجزئة من المحاسبة أولاً — هو نفسه سعر الموقع (مزامنة CI)،
         // فكل شاشات هذه اللوحة والـPDF تعرض نفس الرقم الذي يراه المشتري.
+        // السقف نفسه الذي يفرضه normalizeProductRecord — قيمة شاذة من المحاسبة
+        // كانت تجعل الإنقاذ يُسقط الصف كله بصمت بدل تجاهل الرقم الشاذ وحده.
         const sp = Math.round(Number(rec.sellPrice) || 0);
-        if (sp > 0 && p.originalPrice !== sp) { p.originalPrice = sp; retailSynced++; }
+        if (sp > 0 && sp <= 100_000_000 && p.originalPrice !== sp) { p.originalPrice = sp; retailSynced++; }
         const wp = Math.round(Number(rec.wholesalePrice) || 0);
         // لا نقبل سعر جملة أعلى من التجزئة حتى لو جاء من المحاسبة — التسعير
         // المقلوب يُطبع للتاجر كخصم وهمي، فنُبقي القيمة الحالية ونُبلّغ.
         if (wp > 0 && (!(p.originalPrice > 0) || wp <= p.originalPrice)) { p.price = wp; priced++; }
+        // نزول التجزئة تحت الجملة الحالية = تسعير انقلب بعد التحديث — يُحصى ويُعلن
+        // (الرفع يتخطاه أيضاً) بدل أن يبقى عالقاً بصمت حتى يطبعه كتالوج تاجر.
+        if (p.originalPrice > 0 && p.price > p.originalPrice) inverted++;
         const wm = Math.round(Number(rec.warrantyMonths) || 0);
         if (wm > 0 && wm <= 120) { p.warranty = wm; warranted++; }
     }
@@ -1667,6 +1694,10 @@ async function applyAccountingPrices() {
         saveProducts(); renderAll();
     }
     setAccountingStatus('online', priced, warranted, bySku.size, retailSynced);
+    if (inverted > 0) {
+        const el = document.getElementById('accountingStatus');
+        if (el) el.innerHTML += ` <span style="color:var(--orange)">· ⚠️ ${inverted} تسعير مقلوب (جملة أعلى من التجزئة) — راجعه</span>`;
+    }
 }
 
 function setAccountingStatus(state, priced, warranted, total, retailSynced) {
@@ -1687,17 +1718,34 @@ function setAccountingStatus(state, priced, warranted, total, retailSynced) {
  *  prevSellPrice = ما قرأناه من المحاسبة عند آخر تحميل: لو تغيّر هناك بعدها
  *  يرفض السيرفر الكتابة لهذا الصنف (لا دهس لسعر أحدث من متصفح قديم). */
 async function pushPricesToAccounting() {
-    const items = products
-        .filter(p => p.sku && p.price > 0)
-        .map(p => {
-            const acc = accountingBySku.get(String(p.sku || '').trim().toUpperCase());
-            const item = { sku: p.sku, wholesalePrice: p.price, warrantyMonths: p.warranty };
-            if (p.originalPrice > 0) {
-                item.sellPrice = p.originalPrice;
-                if (acc && Number(acc.sellPrice) > 0) item.prevSellPrice = Math.round(Number(acc.sellPrice));
-            }
-            return item;
-        });
+    // بلا لقطة محاسبية لا رفع لأسعار تجزئة إطلاقاً: متصفح لم يحمّل الأسعار
+    // الحالية قد يعيد سعر أمس فيُنشر على الموقع — الفحص التفاؤلي يحتاج «قبل».
+    if (accountingBySku.size === 0) {
+        showToast('⚠️ لم تُحمَّل أسعار المحاسبة بعد — حدِّث الصفحة أولاً ثم اعتمد','error');
+        return;
+    }
+    const seenSkus = new Set();
+    let invertedSkipped = 0;
+    const items = [];
+    for (const p of products) {
+        if (!p.sku || !(p.price > 0)) continue;
+        const key = String(p.sku).trim().toUpperCase();
+        // كود مكرر (توأما A3959 مثلاً) يُرفع مرة واحدة — إرساله مرتين كان يجعل
+        // آخر صف يفوز بصمت بسعر الجملة والضمان
+        if (seenSkus.has(key)) continue;
+        seenSkus.add(key);
+        // تسعير مقلوب (جملة > تجزئة بعد نزول سعر الموقع) لا يُعاد اعتماده —
+        // يُصلحه الموظف أولاً بدل تدويره إلى المحاسبة من جديد
+        if (p.originalPrice > 0 && p.price > p.originalPrice) { invertedSkipped++; continue; }
+        const acc = accountingBySku.get(key);
+        const item = { sku: p.sku, wholesalePrice: p.price, warrantyMonths: p.warranty };
+        if (p.originalPrice > 0) {
+            item.sellPrice = p.originalPrice;
+            if (acc && Number(acc.sellPrice) > 0) item.prevSellPrice = Math.round(Number(acc.sellPrice));
+        }
+        items.push(item);
+    }
+    if (invertedSkipped > 0) showToast(`⚠️ تخطّي ${invertedSkipped} صنفاً تسعيره مقلوب (جملة أعلى من التجزئة) — راجعه قبل الاعتماد`,'error');
     if (!items.length) { showToast('⚠️ لا توجد أسعار للرفع','error'); return; }
     if (!confirm(`اعتماد ${items.length} صنفاً في المحاسبة (جملة + تجزئة)؟ تعديلات سعر التجزئة ستُحدَّث على الموقع تلقائياً خلال دقائق.`)) return;
     try {

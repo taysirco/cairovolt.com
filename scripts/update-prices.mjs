@@ -38,10 +38,15 @@ const ALLOW_LARGE = process.env.ALLOW_LARGE === '1';
 const MAX_RATIO = 0.5;
 const WINDOW = 800; // أقصى مسافة بين sku والسعر التابع له في كل الملفات الحالية ~450 حرفاً
 
-/** كل مواضع sku في نص الملف مع السعر/السعر الأصلي التابعين لكل منها. */
+/**
+ * كل مواضع sku في نص الملف مع السعر/السعر الأصلي التابعين لكل منها.
+ * المفاتيح قد تكون مقتبسة ("sku": في client-catalog.generated.ts المكتوب بـ
+ * JSON.stringify) أو غير مقتبسة (sku: في ملفات المنتجات) — القارئ يقبل الاثنين،
+ * وإلا كان التحقق المغلق يقرأ صفر أصناف من الملف المولَّد فيفشل كل تغيير حقيقي.
+ */
 function extractEntries(source) {
     const entries = [];
-    const skuRe = /\bsku:\s*["']([^"']+)["']/g;
+    const skuRe = /["']?\bsku["']?:\s*["']([^"']+)["']/g;
     let m;
     const positions = [];
     while ((m = skuRe.exec(source)) !== null) positions.push({ sku: m[1], at: m.index });
@@ -50,9 +55,9 @@ function extractEntries(source) {
         const next = i + 1 < positions.length ? positions[i + 1].at : source.length;
         const end = Math.min(at + WINDOW, next);
         const windowText = source.slice(at, end);
-        const priceM = /\bprice:\s*(\d+)/.exec(windowText);
+        const priceM = /["']?\bprice["']?:\s*(\d+)/.exec(windowText);
         if (!priceM) continue;
-        const origM = /\boriginalPrice:\s*(\d+)/.exec(windowText);
+        const origM = /["']?\boriginalPrice["']?:\s*(\d+)/.exec(windowText);
         entries.push({
             sku,
             price: parseInt(priceM[1], 10),
@@ -122,12 +127,23 @@ for (const it of items) {
     if (sku && sell > 0) target.set(sku, sell);
 }
 console.log(`🏭 المحاسبة: ${target.size} صنفاً بسعر بيع معتمد`);
+// أرضية أمان: انهيار شكل الرد (مفاتيح تغيّرت/فلتر انكسر) يجب أن يوقف المزامنة
+// بصوت عالٍ — لا أن يجمّد الأسعار للأبد بتشغيلات «خضراء» بلا أهداف.
+const MIN_ITEMS = Math.max(1, parseInt(process.env.MIN_TARGET_ITEMS || '50', 10));
+if (target.size < MIN_ITEMS) {
+    console.error(`❌ ${target.size} هدفاً فقط (المتوقع ≥ ${MIN_ITEMS}) — شكل رد المحاسبة تغيّر؟ إلغاء بلا تعديل`);
+    process.exit(1);
+}
 
 // ─────────────────────────── ترقيع ملفات المنتجات ───────────────────────────
 const changes = [];   // {file, sku, from, to}
 const skipped = [];   // تغيّرات فوق الحارس
-const skuToNewPrice = new Map(); // بعد الترقيع — لمرآة الواجهة showcase
-const skuToSlug = new Map();
+// أسعار اجتازت الحارس فعلاً — مرآة showcase تتبعها. تسجيل السعر قبل الحارس كان
+// يسمح لخطأ إدخال ضخم (تخطّته ملفات المنتجات) بالوصول لبطاقات الرئيسية وحدها.
+const skuToNewPrice = new Map();
+// سلاگ → كود المنتج الرئيسي مباشرة من كل ملف (لا عكس خريطة sku→slug: كود
+// مشترك بين ملفين توأم كان يُسقط بطاقة أحدهما من المزامنة للأبد)
+const slugToSku = new Map();
 
 for (const file of loadProductFiles()) {
     let src = readFileSync(file, 'utf8');
@@ -135,26 +151,32 @@ for (const file of loadProductFiles()) {
     let touched = false;
     // نرقّع من آخر موضع لأول موضع حتى لا تتحرك المواضع المحسوبة
     const entries = extractEntries(src).reverse();
+    // كود الملف الرئيسي = أول sku في الملف (الـvariants تأتي بعده)
+    const topSku = entries.length ? entries[entries.length - 1].sku.toUpperCase() : '';
+    if (slugM && topSku) slugToSku.set(slugM[1], topSku);
     for (const e of entries) {
         const skuKey = e.sku.toUpperCase();
-        if (slugM) skuToSlug.set(skuKey, slugM[1]);
         const want = target.get(skuKey);
         if (!want) continue;
-        skuToNewPrice.set(skuKey, want);
-        if (e.price === want) continue;
+        if (e.price === want) { skuToNewPrice.set(skuKey, want); continue; }
         const ratio = Math.abs(want - e.price) / e.price;
         if (ratio > MAX_RATIO && !ALLOW_LARGE) {
             skipped.push({ file: file.replace(ROOT + '/', ''), sku: e.sku, from: e.price, to: want, pct: Math.round(ratio * 100) });
             continue;
         }
+        skuToNewPrice.set(skuKey, want);
+        // نستبدل الأرقام فقط داخل النص المطابق — نحافظ على شكل المفتاح كما هو
+        // (مقتبساً أو لا) فلا يمكن أن يُفسد الترقيع صياغة الملف.
+        const newPriceRaw = e.priceRaw.replace(/\d+/, String(want));
+        const newOrigRaw = e.origRaw ? e.origRaw.replace(/\d+/, String(want)) : '';
         // originalPrice أولاً (موضعه بعد السعر غالباً لكن الترقيع بالمواضع المطلقة —
         // نبدأ بالأبعد في الملف). لو أصبح أقل من السعر الجديد نرفعه إليه.
         if (e.originalPrice !== null && e.originalPrice < want && e.origAt > e.priceAt) {
-            src = spliceAt(src, e.origAt, e.origRaw, `originalPrice: ${want}`);
+            src = spliceAt(src, e.origAt, e.origRaw, newOrigRaw);
         }
-        src = spliceAt(src, e.priceAt, e.priceRaw, `price: ${want}`);
+        src = spliceAt(src, e.priceAt, e.priceRaw, newPriceRaw);
         if (e.originalPrice !== null && e.originalPrice < want && e.origAt !== -1 && e.origAt < e.priceAt) {
-            src = spliceAt(src, e.origAt, e.origRaw, `originalPrice: ${want}`);
+            src = spliceAt(src, e.origAt, e.origRaw, newOrigRaw);
         }
         changes.push({ file: file.replace(ROOT + '/', ''), sku: e.sku, from: e.price, to: want });
         touched = true;
@@ -165,7 +187,6 @@ for (const file of loadProductFiles()) {
 // ─────────────────────────── مرآة الواجهة showcase-products.ts ───────────────────────────
 {
     let src = readFileSync(SHOWCASE, 'utf8');
-    const slugToSku = new Map([...skuToSlug].map(([sku, slug]) => [slug, sku]));
     const slugRe = /\bslug:\s*["']([^"']+)["']/g;
     const blocks = [];
     let m;
@@ -174,6 +195,8 @@ for (const file of loadProductFiles()) {
     for (let i = blocks.length - 1; i >= 0; i--) {
         const { slug, at } = blocks[i];
         const sku = slugToSku.get(slug);
+        // skuToNewPrice تحمل فقط أسعاراً اجتازت حارس ±50% في ملفات المنتجات —
+        // البطاقة لا تسبق صفحة المنتج أبداً بسعر رفضه الحارس هناك.
         const want = sku ? skuToNewPrice.get(sku) : null;
         if (!want) continue;
         const end = i + 1 < blocks.length ? blocks[i + 1].at : src.length;
@@ -182,13 +205,19 @@ for (const file of loadProductFiles()) {
         if (!priceM) continue;
         const current = parseInt(priceM[1], 10);
         if (current !== want) {
-            src = spliceAt(src, at + priceM.index, priceM[0], `price: ${want}`);
-            changes.push({ file: 'src/data/showcase-products.ts', sku, from: current, to: want });
+            // نفس حارس التغيّر الكبير — البطاقة نفسها قد تحمل قيمة قديمة شاذة
+            const ratio = current > 0 ? Math.abs(want - current) / current : 1;
+            if (ratio > MAX_RATIO && !ALLOW_LARGE) {
+                skipped.push({ file: 'src/data/showcase-products.ts', sku, from: current, to: want, pct: Math.round(ratio * 100) });
+                continue;
+            }
+            src = spliceAt(src, at + priceM.index, priceM[0], priceM[0].replace(/\d+/, String(want)));
+            changes.push({ file: 'src/data/showcase-products.ts', sku, from: current, to: want, slug });
             touched = true;
         }
         const origM = /\boriginalPrice:\s*(\d+)/.exec(src.slice(at, Math.min(at + WINDOW, end + 40)));
         if (origM && parseInt(origM[1], 10) < want) {
-            src = spliceAt(src, at + origM.index, origM[0], `originalPrice: ${want}`);
+            src = spliceAt(src, at + origM.index, origM[0], origM[0].replace(/\d+/, String(want)));
             touched = true;
         }
     }
@@ -212,17 +241,33 @@ if (changes.length > 0) {
         console.error('❌ فشل توليد كتالوج العميل بعد الترقيع — راجع الملفات، لا commit');
         process.exit(1);
     }
-    // تحقق نهائي: الأسعار المُنفَّذة من الملفات نفسها تطابق المستهدف
+    // تحقق نهائي: الأسعار المُنفَّذة من الملفات نفسها تطابق المستهدف.
+    // الملف المولَّد يجب أن يحتوي أصنافاً أصلاً — قارئ أعمى عنه = تحقق كاذب.
     const generated = readFileSync(GENERATED, 'utf8');
     const genEntries = extractEntries(generated);
+    if (genEntries.length < MIN_ITEMS) {
+        console.error(`❌ قارئ التحقق استخرج ${genEntries.length} صنفاً فقط من الكتالوج المولَّد — صيغة الملف تغيّرت؟`);
+        process.exit(1);
+    }
     const genBySku = new Map(genEntries.map((e) => [e.sku.toUpperCase(), e.price]));
+    // مرآة showcase تُتحقق من ملفها مباشرة (ليست ضمن كتالوج العميل)
+    const showcaseNow = readFileSync(SHOWCASE, 'utf8');
     let bad = 0;
     for (const c of changes) {
-        const got = genBySku.get(c.sku.toUpperCase());
-        // showcase ليست في كتالوج العميل — نتحقق من أصناف المنتجات فقط
-        if (c.file.startsWith('src/data/products/') && got !== c.to) {
-            console.error(`❌ تحقق فاشل: ${c.sku} متوقع ${c.to} لكن الكتالوج المولَّد يحمل ${got}`);
-            bad++;
+        if (c.file.startsWith('src/data/products/')) {
+            const got = genBySku.get(c.sku.toUpperCase());
+            if (got !== c.to) {
+                console.error(`❌ تحقق فاشل: ${c.sku} متوقع ${c.to} لكن الكتالوج المولَّد يحمل ${got}`);
+                bad++;
+            }
+        } else if (c.slug) {
+            const blockAt = showcaseNow.indexOf(`slug: '${c.slug}'`);
+            const windowText = blockAt >= 0 ? showcaseNow.slice(blockAt, blockAt + WINDOW) : '';
+            const pm = /\bprice:\s*(\d+)/.exec(windowText);
+            if (!pm || parseInt(pm[1], 10) !== c.to) {
+                console.error(`❌ تحقق فاشل (showcase): ${c.slug} متوقع ${c.to} لكن الملف يحمل ${pm ? pm[1] : '؟'}`);
+                bad++;
+            }
         }
     }
     if (bad > 0) process.exit(1);
