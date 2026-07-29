@@ -386,6 +386,10 @@ body { font-family:'Cairo',sans-serif; background:var(--bg-dark); color:var(--te
                                 <input type="checkbox" id="catBrandJoyroom" checked onchange="updateCatalogPreview()">
                                 <label for="catBrandJoyroom" class="active">🔮 Joyroom</label>
                             </div>
+                            <div>
+                                <input type="checkbox" id="catBrandSoundcore" checked onchange="updateCatalogPreview()">
+                                <label for="catBrandSoundcore" class="active">🎧 Soundcore</label>
+                            </div>
                         </div>
                         <h3 style="margin-top:15px;">📂 اختر الفئات</h3>
                         <div id="catCategoryFilters" style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;"></div>
@@ -452,7 +456,7 @@ body { font-family:'Cairo',sans-serif; background:var(--bg-dark); color:var(--te
                         </div>
                         <div class="form-group" style="margin-bottom:12px;">
                             <label>البريد الإلكتروني</label>
-                            <input type="text" id="settEmail" value="support@cairovolt.com" dir="ltr" style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-dark);color:var(--text);font-family:'Cairo';">
+                            <input type="text" id="settEmail" value="info@cairovolt.com" dir="ltr" style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--bg-dark);color:var(--text);font-family:'Cairo';">
                         </div>
                         <button class="btn btn-primary" onclick="saveSettings()" style="margin-top:10px;">💾 حفظ الإعدادات</button>
                     </div>
@@ -707,7 +711,10 @@ function normalizeProductRecord(value) {
 }
 
 function validateProductList(value) {
-    if (!Array.isArray(value) || value.length < 1 || value.length > MAX_PRODUCTS) {
+    // ⚠️ القائمة الفارغة مسموحة عمداً: رفضها كان يجعل «حذف الكل» يرمي استثناءً
+    // صامتاً داخل saveProducts، فتبقى الشاشة كما هي بينما الذاكرة فُرّغت — ثم أول
+    // منتج يُضاف يكتب قائمة من عنصر واحد فوق الكتالوج كله في localStorage.
+    if (!Array.isArray(value) || value.length > MAX_PRODUCTS) {
         throw new Error('Invalid product list');
     }
     const ids = new Set();
@@ -732,7 +739,7 @@ function normalizeSettings(value) {
     const emailCandidate = cleanText(input.email, 120);
     const email = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailCandidate)
         ? emailCandidate
-        : 'contact@cairovolt.com';
+        : 'info@cairovolt.com';
     return { company, whatsapp, website, email };
 }
 
@@ -742,6 +749,9 @@ function normalizeSettings(value) {
 let products = [];
 let selectedIds = new Set();
 let catalogSelectedIds = new Set();
+// المنتجات التي استبعدها الموظف يدوياً. بدونها كان أي تغيير في نسبة الخصم أو
+// الفلاتر يستدعي updateCatalogPreview فيعيد اختيار كل شيء ويلغي استبعاداته بصمت.
+let catalogDeselectedIds = new Set();
 
 function loadProducts() {
     const saved = localStorage.getItem('cv_wholesale_products');
@@ -804,7 +814,9 @@ function renderStats() {
     const ankerCount = products.filter(p=>p.brand==='Anker').length;
     const jrCount = products.filter(p=>p.brand==='Joyroom').length;
     const totalValue = products.reduce((s,p)=>s+p.price,0);
-    const avgDiscount = products.length ? Math.round(products.reduce((s,p)=>s+((p.originalPrice-p.price)/p.originalPrice*100),0)/products.length) : 0;
+    // نتجاهل المنتجات بلا سعر أصلي: القسمة على صفر كانت تُنتج -Infinity% في البطاقة
+    const withBase = products.filter(p => p.originalPrice > 0);
+    const avgDiscount = withBase.length ? Math.round(withBase.reduce((s,p)=>s+((p.originalPrice-p.price)/p.originalPrice*100),0)/withBase.length) : 0;
 
     document.getElementById('statsGrid').innerHTML = `
         <div class="stat-card"><div class="stat-icon">📦</div><div class="stat-value">${products.length}</div><div class="stat-label">إجمالي المنتجات</div></div>
@@ -841,7 +853,7 @@ function renderProducts() {
                 <div><span class="brand-tag brand-${p.brand.toLowerCase()}">${escapeHTML(p.brand)}</span></div>
                 <div class="price-original">${p.originalPrice.toLocaleString()} ج.م</div>
                 <div class="price">${p.price.toLocaleString()} ج.م</div>
-                <div><span class="warranty-tag">${p.warranty===0?'مدى الحياة':p.warranty+' شهر'}</span></div>
+                <div><span class="warranty-tag">${p.warranty===0?'غير محدد':p.warranty+' شهر'}</span></div>
             </div>
             <div class="actions">
                 <button class="btn btn-outline btn-sm" onclick="openEditModal(${p.id})" aria-label="تعديل">✏️</button>
@@ -902,6 +914,12 @@ function saveProduct() {
     };
     const data = normalizeProductRecord(candidate);
     if (!data || !data.price) { showToast('❌ يرجى مراجعة الحقول المطلوبة','error'); return; }
+    // سعر جملة أعلى من التجزئة = تسعير مقلوب: التاجر يُعرض عليه أغلى مما يدفعه
+    // المستهلك على الموقع، ويُطبع في الكتالوج بشكل يبدو خصماً.
+    if (data.originalPrice > 0 && data.price > data.originalPrice) {
+        showToast('❌ سعر الجملة أعلى من سعر التجزئة ('+data.originalPrice.toLocaleString()+' ج.م) — راجع التسعير','error');
+        return;
+    }
     if (editId) {
         const idx = products.findIndex(p => p.id === parseInt(editId));
         if (idx > -1) { products[idx] = data; }
@@ -942,9 +960,11 @@ function deleteSelected() {
 function updateCatalogPreview() {
     const showAnker = document.getElementById('catBrandAnker').checked;
     const showJoyroom = document.getElementById('catBrandJoyroom').checked;
+    const showSoundcore = document.getElementById('catBrandSoundcore')?.checked !== false;
     // Update label active states
     document.querySelector('label[for="catBrandAnker"]').classList.toggle('active', showAnker);
     document.querySelector('label[for="catBrandJoyroom"]').classList.toggle('active', showJoyroom);
+    document.querySelector('label[for="catBrandSoundcore"]')?.classList.toggle('active', showSoundcore);
 
     // Get active categories
     const activeCats = new Set();
@@ -953,22 +973,25 @@ function updateCatalogPreview() {
     let filtered = products.filter(p => {
         if (!showAnker && p.brand === 'Anker') return false;
         if (!showJoyroom && p.brand === 'Joyroom') return false;
+        if (!showSoundcore && p.brand === 'Soundcore') return false;
         if (activeCats.size > 0 && !activeCats.has(p.category)) return false;
         return true;
     });
 
-    // Initialize catalog selected
-    catalogSelectedIds = new Set(filtered.map(p => p.id));
+    // نحترم الاستبعاد اليدوي بدل إعادة الاختيار الكامل في كل إعادة رسم
+    catalogSelectedIds = new Set(filtered.filter(p => !catalogDeselectedIds.has(p.id)).map(p => p.id));
 
     const disc = Math.max(0, Math.min(90, parseInt(document.getElementById('extraDiscount').value) || 0));
 
     // Summary
-    const totalProducts = filtered.length;
-    const totalValue = filtered.reduce((s,p) => s + (disc ? Math.round(p.price * (1 - disc/100)) : p.price), 0);
+    // الملخّص يعكس ما سيُطبع فعلاً (المحدَّد) لا كل المفلتر — كان يعرض رقماً أكبر
+    const chosen = filtered.filter(p => catalogSelectedIds.has(p.id));
+    const totalProducts = chosen.length;
+    const totalValue = chosen.reduce((s,p) => s + (disc ? Math.round(p.price * (1 - disc/100)) : p.price), 0);
     document.getElementById('catalogSummary').innerHTML = `
         <p>📦 عدد المنتجات: <strong>${totalProducts}</strong></p>
         <p>💰 إجمالي القيمة: <strong>${totalValue.toLocaleString()} ج.م</strong></p>
-        <p>🏷️ البراندات: <strong>${showAnker?'Anker':''}${showAnker&&showJoyroom?' + ':''}${showJoyroom?'Joyroom':''}</strong></p>
+        <p>🏷️ البراندات: <strong>${[showAnker&&'Anker',showJoyroom&&'Joyroom',showSoundcore&&'Soundcore'].filter(Boolean).join(' + ')||'—'}</strong></p>
         ${disc > 0 ? `<p style="color:var(--orange);">⚡ خصم إضافي: <strong>${disc}%</strong></p>` : ''}
     `;
 
@@ -977,20 +1000,22 @@ function updateCatalogPreview() {
         const finalPrice = disc ? Math.round(p.price * (1 - disc/100)) : p.price;
         return `
         <div class="table-row" style="grid-template-columns:40px 60px 1.5fr 0.8fr 0.7fr 0.8fr 0.8fr 0.6fr;">
-            <div class="cb-cell"><input type="checkbox" checked class="catalog-item-cb" data-id="${p.id}" onchange="toggleCatalogItem(${p.id})"></div>
+            <div class="cb-cell"><input type="checkbox" ${catalogSelectedIds.has(p.id)?'checked':''} class="catalog-item-cb" data-id="${p.id}" onchange="toggleCatalogItem(${p.id})"></div>
             <div><img src="${escapeAttr(p.image)}" alt="${escapeAttr(p.name)}" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><rect fill=%22%23222636%22 width=%2240%22 height=%2240%22/><text x=%2220%22 y=%2224%22 text-anchor=%22middle%22 fill=%22%2364748b%22 font-size=%2212%22>📷</text></svg>'"></div>
             <div><div class="product-name">${escapeHTML(p.name)}</div><div class="product-desc">${escapeHTML(p.desc||'')}</div></div>
             <div class="sku">${escapeHTML(p.sku)}</div>
             <div><span class="brand-tag brand-${p.brand.toLowerCase()}">${escapeHTML(p.brand)}</span></div>
             <div class="price-original">${p.originalPrice.toLocaleString()} ج.م</div>
             <div class="price">${finalPrice.toLocaleString()} ج.م</div>
-            <div><span class="warranty-tag">${p.warranty===0?'مدى الحياة':p.warranty+' شهر'}</span></div>
+            <div><span class="warranty-tag">${p.warranty===0?'غير محدد':p.warranty+' شهر'}</span></div>
         </div>`;
     }).join('') || '<div class="empty-state"><span class="empty-icon">📋</span><p>لم يتم تحديد أي براند</p></div>';
 }
 
 function toggleCatalogItem(id) {
-    catalogSelectedIds.has(id) ? catalogSelectedIds.delete(id) : catalogSelectedIds.add(id);
+    if (catalogSelectedIds.has(id)) { catalogSelectedIds.delete(id); catalogDeselectedIds.add(id); }
+    else { catalogSelectedIds.add(id); catalogDeselectedIds.delete(id); }
+    updateCatalogPreview(); // الملخّص يتبع الاختيار فوراً
 }
 function toggleCatalogSelectAll() {
     const checked = document.getElementById('catalogSelectAll').checked;
@@ -1037,13 +1062,16 @@ async function generateCatalog() {
     });
 
     // Sort categories
-    const catOrder = ['power-banks','wall-chargers','car-chargers','cables','audio','speakers','wireless-chargers','smart-watches','car-holders','power-stations'];
-    const sortedCats = Object.keys(groups).sort((a,b) => catOrder.indexOf(a) - catOrder.indexOf(b));
+    const catOrder = ['power-banks','wall-chargers','car-chargers','cables','audio','speakers','wireless-chargers','smart-watches','car-holders','power-stations','accessories'];
+    // غير المعروف يذهب للآخر لا للأول (indexOf = -1 كان يسبق كل الأقسام)
+    const catRank = c => { const i = catOrder.indexOf(c); return i < 0 ? 999 : i; };
+    const sortedCats = Object.keys(groups).sort((a,b) => catRank(a) - catRank(b));
 
-    let brandTitle = '';
-    if (showAnker && showJoyroom) brandTitle = 'Anker & Joyroom';
-    else if (showAnker) brandTitle = 'Anker';
-    else brandTitle = 'Joyroom';
+    // العنوان يُشتق من البراندات الموجودة فعلاً في المنتجات المطبوعة — الصياغة
+    // القديمة كانت تكتب «Anker & Joyroom» حتى لو كان ثلث الكتالوج Soundcore.
+    const brandOrder = ['Anker', 'Soundcore', 'Joyroom'];
+    const presentBrands = brandOrder.filter(b => catalogProducts.some(p => p.brand === b));
+    const brandTitle = presentBrands.length ? presentBrands.join(' & ') : 'CairoVolt';
 
     let tablesHTML = `<table class="products-table"><thead><tr>
                     <th style="width:35%;">المنتج</th><th>الكود</th><th>البراند</th><th>الضمان</th>
@@ -1063,9 +1091,12 @@ async function generateCatalog() {
         items.forEach(p => {
             const finalPrice = disc ? Math.round(p.price * (1 - disc/100)) : p.price;
             const saving = p.originalPrice - finalPrice;
-            const warrantyLabel = p.warranty === 0 ? 'مدى الحياة' : p.warranty + ' شهر';
+            // تسعير مقلوب (تجزئة < جملة، غالباً بعد تخفيض على الموقع): نخفي عمود
+            // «قبل الخصم» بدل طباعة رقم أقل مشطوب يوهم التاجر بخصم غير موجود.
+            const inverted = p.originalPrice > 0 && finalPrice > p.originalPrice;
+            const warrantyLabel = p.warranty === 0 ? 'غير محدد' : p.warranty + ' شهر';
             const warrantyStyle = p.warranty === 0 ? 'background:linear-gradient(135deg,#fff3e0,#ffe0b2);color:#e65100;' : p.warranty >= 24 ? 'background:linear-gradient(135deg,#e3f2fd,#bbdefb);color:#1565c0;' : '';
-            const brandColor = p.brand === 'Anker' ? '#0055ff' : '#a855f7';
+            const brandColor = p.brand === 'Anker' ? '#0055ff' : p.brand === 'Soundcore' ? '#00b0ff' : '#a855f7';
             tablesHTML += `
                 <tr class="product-row">
                     <td><div class="product-info">
@@ -1078,7 +1109,7 @@ async function generateCatalog() {
                     <td class="sku-cell">${escapeHTML(p.sku)}</td>
                     <td><span style="background:${brandColor}15;color:${brandColor};padding:2px 8px;border-radius:6px;font-size:9px;font-weight:800;">${escapeHTML(p.brand)}</span></td>
                     <td><span class="warranty-badge" ${warrantyStyle?'style="'+warrantyStyle+'"':''}>${warrantyLabel}</span></td>
-                    <td><span class="price-before">${p.originalPrice.toLocaleString()} ج.م</span></td>
+                    <td>${inverted ? '<span style="color:#999;font-size:9px;">—</span>' : `<span class="price-before">${p.originalPrice.toLocaleString()} ج.م</span>`}</td>
                     <td>
                         <span class="price-after">${finalPrice.toLocaleString()} ج.م</span>
                         ${saving > 0 ? `<span class="price-save">وفّر ${saving.toLocaleString()} ج.م</span>` : ''}
@@ -1408,7 +1439,7 @@ async function syncFromCatalog() {
     const ov = new Map();
     const putOv = (k, v) => { if (k && !ov.has(k)) ov.set(k, v); };
     for (const p of products) {
-        const v = { price: p.price, warranty: p.warranty, desc: p.desc, inCatalog: p.inCatalog };
+        const v = { price: p.price, originalPrice: p.originalPrice, warranty: p.warranty, desc: p.desc, inCatalog: p.inCatalog };
         putOv('slug:' + slugFromImage(p.image), v);
         putOv('sku:' + String(p.sku || '').toLowerCase(), v);
         putOv('name:' + normKey(p.name), v);
@@ -1420,6 +1451,9 @@ async function syncFromCatalog() {
     for (const it of items) {
         const brand = it.brand, category = it.categorySlug;
         if (!ALLOWED_BRANDS.has(brand) || !ALLOWED_CATEGORIES.has(category)) continue;
+        // المنتجات المتوقّفة لا تدخل قائمة أسعار يستلمها تاجر — كل صفحات المتجر
+        // تفلتر status==='active' وهذه المزامنة كانت الاستثناء الوحيد.
+        if (it.status && it.status !== 'active') continue;
         // إزالة التكرار بالسلاگ الفريد لا بالـSKU (الكتالوج فيه SKU مشترك بين منتجين)
         const slugKey = String(it.slug || '').toLowerCase();
         if (!slugKey || seenSlug.has(slugKey)) continue;
@@ -1445,7 +1479,10 @@ async function syncFromCatalog() {
             sku,
             brand,
             category,
-            originalPrice: retail,
+            // «قبل الخصم» حقل يحرّره الموظف ويُطبع في الكتالوج — كانت المزامنة
+            // تدهسه بسعر الموقع في كل فتح للصفحة فتضيع صياغته التسعيرية.
+            originalPrice: match && Number.isSafeInteger(Math.round(match.originalPrice)) && match.originalPrice > 0
+                ? Math.round(match.originalPrice) : retail,
             price: match && Number.isSafeInteger(Math.round(match.price)) ? Math.round(match.price) : retail,
             warranty: match && Number.isSafeInteger(match.warranty) ? match.warranty : 18,
             desc: (match && match.desc) || firstSegment(tr.ar && tr.ar.shortDescription).slice(0, 300),
