@@ -1,7 +1,7 @@
 // Details for: anker-nano-45w  (Anker 713 Charger, Nano II 45W, model A2664 / retail MPN A2664K11 · ~790 EGP)
-// Lab sheet: CV-CH-A2664-001 — Wave Adj/Mid §7.1 elevated gold-depth (canonical A2664 — NOT the alias stub).
+// Lab sheet: CV-CH-A2664-001 — Wave Adj/Mid §7.1 elevated gold-depth (canonical A2664K11 sample — NOT the separate 1C-PD listing).
 // CRITICAL A/B: dual PPS to 21V (3.3–16V/3A · 3.3–21V/2.25A) ≠ A2692 Nano Pro (single PPS 3.3–11V/4.05A) ≠ A121D Smart Display (PPS 3.3–11V/4.05A).
-// ALIAS GATE: gold bench lives HERE — `anker-nano-45w-1c-pd` is catalogue alias stub only; do not duplicate measurements there.
+// BENCH GATE: gold bench lives HERE (sample CV-CH-A2664-001) — `anker-nano-45w-1c-pd` is a separate listing (SKU AC09) with no measured sample of its own; do not duplicate measurements there.
 // Elevated bar: ≥170 lines · ≥18 results · 5+5 aiTldr · shell temp · peaks callout · recall 2026-07-24 · Eng. Omar Khaled.
 // Red-flag audit: no invented PZEM % · peak ≤ 45W label · no copy of A2692/A121D rows as A2664 · no same-hour thermal ranking vs siblings · US foldable-plug honesty · Samsung 45W SFC claim gated on dual-PPS decode.
 // Export must remain `anker_nano_45w_detail` for the details registry.
@@ -37,7 +37,7 @@ export const anker_nano_45w_detail: ProductDetail = {
             'PLUG HONESTY: physical sample = foldable US Type-A prongs — seats in most Egyptian universal sockets; not BS 1363, not fixed Europlug. HEAT: Anker 0–40°C operating window; Cairo July avg high ~35°C (WeatherSpark) — ventilate, never dashboard-cover at full 45W. ELECTRICITY: ~0.081 kWh per full Air charge → piastres on EgyptERA tariffs. No vampire/efficiency % — PZEM not run.',
         ar:
             'للمشتري المصري عند ~790 جنيه، A2664 يجيب: "أحتاج طوبة 60 جرامًا تشحن MacBook Air بسرعة وتفتح Samsung Ultra 45W SFC 2.0." ' +
-            'خريطة الموديلات الحرجة (لا تخلط عائلة Anker Nano 45 واط). (أ) A2664 = هذه الورقة — Nano II، PPS مزدوج حتى 16V/3A + 21V/2.25A — Samsung Ultra 45W SFC 2.0 يعمل. (ب) A2692 Nano Pro = PPS واحد 3.3–11V/4.05A — الـUltra يرتد إلى 25W SFC. (ج) A121D Smart Display = شاشة TFT + وضع Care، وسقف PPS أيضًا 11 فولت — علاوة الشاشة لا 45 واط Ultra. (د) `anker-nano-45w-1c-pd` = stub alias كتالوج لنفس MPN A2664 — افتح هذه الصفحة للقياسات. ' +
+            'خريطة الموديلات الحرجة (لا تخلط عائلة Anker Nano 45 واط). (أ) A2664 = هذه الورقة — Nano II، PPS مزدوج حتى 16V/3A + 21V/2.25A — Samsung Ultra 45W SFC 2.0 يعمل. (ب) A2692 Nano Pro = PPS واحد 3.3–11V/4.05A — الـUltra يرتد إلى 25W SFC. (ج) A121D Smart Display = شاشة TFT + وضع Care، وسقف PPS أيضًا 11 فولت — علاوة الشاشة لا 45 واط Ultra. (د) `anker-nano-45w-1c-pd` = قائمة مستقلة (SKU AC09) بلا قياسات خاصة بها — القياسات في هذه الصفحة. ' +
             'ستة استخدامات واقعية. (1) تنقل عمل عن بُعد القاهرة–الإسكندرية (قطار / Go Bus ~2.5 ساعة): MacBook Air M2 يسحب ~18–20 واط؛ A2664 يوفّر ~44 واط — يغطي الحمل ويرفع 40→95% بوزن 60 جرامًا مقابل 145 جرامًا لآبل. ' +
             '(2) عطلة الساحل / مارينا: شاحن واحد للـAir (52.6Wh، 0→100 في ساعة و48 دقيقة) + S24 Ultra (~41 دقيقة عبر PPS كامل) — يوفّر ~140 جرامًا وفيشة. ' +
             '(3) جلسة تحرير زمالك (~2 ساعة): اللابتوب ~15 واط؛ فارق 45 واط يشحن صافيًا أثناء العمل ثم يعبّئ iPad Air M2. ' +
@@ -62,7 +62,7 @@ export const anker_nano_45w_detail: ProductDetail = {
         'In the Box': { en: 'Charger only — USB-C cable not sealed with CV-CH-A2664-001 (bring a 3A C-to-C; 5A E-mark not required for this non-EPR 45W class)', ar: 'الشاحن فقط — كابل USB-C غير مُغلق مع CV-CH-A2664-001 (أحضر كابل 3A من C إلى C؛ كابل 5A بـ E-mark غير مطلوب لفئة 45 واط غير EPR)' },
         'Vs A2692 Nano Pro (candid)': { en: 'A2692 = single PPS 3.3–11V/4.05A — Ultra 45W SFC 2.0 OFF (25W fallback). A2664 = dual PPS to 21V — Ultra 45W SFC 2.0 ON. Same ~60g / foldable class; opposite Ultra outcome.', ar: 'A2692 = PPS واحد 3.3–11V/4.05A — Ultra 45W SFC 2.0 مطفأ (رجوع 25 واط). A2664 = PPS مزدوج حتى 21 فولت — Ultra 45W SFC 2.0 يعمل. نفس فئة ~60 جرامًا / قابس قابل للطي؛ نتيجة Ultra معاكسة.' },
         'Vs A121D Smart Display (candid)': { en: 'A121D adds TFT + Care Mode + 180° hinge but PPS tops 11V — display premium, not Ultra 45W. A2664 is the Ultra-speed pick without a screen.', ar: 'A121D يضيف شاشة TFT + وضع Care + مفصل 180° لكن سقف PPS 11 فولت — علاوة الشاشة لا 45 واط Ultra. A2664 اختيار سرعة Ultra بلا شاشة.' },
-        'Alias slug (do not re-bench)': { en: '`anker-nano-45w-1c-pd` is the same physical A2664 — Merchant-excluded alias stub; measurements published only on this page', ar: '`anker-nano-45w-1c-pd` هو نفس A2664 الفعلي — stub alias مستبعد من Merchant؛ القياسات تُنشر على هذه الصفحة فقط' },
+        'Related listing (do not re-bench)': { en: '`anker-nano-45w-1c-pd` is a separate CairoVolt listing (SKU AC09) with no measured sample of its own; measurements are published only on this page', ar: '`anker-nano-45w-1c-pd` قائمة مستقلة (SKU AC09) بلا عيّنة مقاسة خاصة بها؛ القياسات تُنشر على هذه الصفحة فقط' },
         'Safety': { en: 'ActiveShield + MultiProtect as listed by Anker — we do not invent internal monitor rates we did not measure', ar: 'ActiveShield + MultiProtect كما تذكرها انكر — لا نخترع معدلات مراقبة داخلية لم نقيسها' },
         'Recall Status (2026-07-24)': { en: 'NOT RECALLED — anker.com/product-recalls + cpsc.gov returned zero hits for A2664 on 2026-07-24. Active Anker lists cover cables A8482/A8483/A8465 and power banks A1257/A1263/A1647/A1652/A1681/A1689 — not this wall charger', ar: 'لا يوجد استدعاء — anker.com/product-recalls + cpsc.gov أعادا صفر نتائج لـ A2664 في 2026-07-24. قوائم انكر النشطة تخص كابلات A8482/A8483/A8465 وباوربانك A1257/A1263/A1647/A1652/A1681/A1689 — لا هذا الشاحن الحائطي' },
         'Efficiency': { en: 'Not measured — no AC power analyzer (PZEM) on this pass; we do not invent wall efficiency %', ar: 'غير مقيسة — بلا محلّل قدرة AC (PZEM) في هذه الجولة؛ لا نخترع نسبة كفاءة من الحائط' },
@@ -80,7 +80,7 @@ export const anker_nano_45w_detail: ProductDetail = {
         },
         methodology: {
             en:
-                'A2664 was run under CairoVolt wall-charger protocol §7.1 on sample CV-CH-A2664-001 (2026-07-24) — canonical gold sheet for this MPN (alias stub `anker-nano-45w-1c-pd` must not duplicate these rows). ' +
+                'A2664 was run under CairoVolt wall-charger protocol §7.1 on sample CV-CH-A2664-001 (2026-07-24) — canonical gold sheet for this MPN (the separate `anker-nano-45w-1c-pd` listing must not duplicate these rows). ' +
                 '§8 physics gates applied before publish: every fixed PDO obeys W = V × A (5×3=15; 9×3=27; 15×3=45; 20×2.25=45); PPS APDO ceilings obey 16×3=48W env / 21×2.25=47.25W env but single-port peak ≤ 45W label; MacBook Air M2 (52.6Wh) timed full charge ≥ Battery_Wh ÷ (Charging_W × ~0.90) — theoretical floor ≈ 79 min at ~44W, so measured 1h 48m is physically allowed; Samsung Ultra 45W SFC 2.0 requires a real ~20V PPS APDO (§8) — confirmed present before claiming Ultra SFC. ' +
                 '(A) FNB58 fw v1.3 PD Info decode with no load — enumerated all four fixed PDOs and BOTH PPS APDO windows. Critical honesty gate vs A2692/A121D (PPS tops 11V): confirm 3.3–21V/2.25A exists before claiming Samsung 45W SFC 2.0. ' +
                 '(B–C) Each fixed rail loaded on JUWEI 35W for 2 minutes; logged FNB58 V·A·W; single-port peak taken as highest stable rail. ' +
@@ -150,7 +150,7 @@ export const anker_nano_45w_detail: ProductDetail = {
             { param: { en: 'Alias hygiene (A2664)', ar: 'نظافة الـalias (A2664)' }, measured: { en: 'Canonical gold bench on anker-nano-45w only; anker-nano-45w-1c-pd remains stub', ar: 'الـbench الذهبي القانوني على anker-nano-45w فقط؛ anker-nano-45w-1c-pd يبقى stub' }, note: { en: 'Prevents duplicate Merchant / search identity for one MPN', ar: 'يمنع هوية Merchant / بحث مكررة لنفس الـMPN' } },
         ],
         verdict: {
-            en: 'A2664 is a real 45W dual-PPS brick: FNB58 saw 3.3–21V/2.25A, peak 44.2W, S24 Ultra hit ~43.6W Super Fast 2.0, Air M2 filled in 1h 48m. Single USB-C, no cable, 54.8°C shell — not A2692, not A121D, not the alias stub.',
+            en: 'A2664 is a real 45W dual-PPS brick: FNB58 saw 3.3–21V/2.25A, peak 44.2W, S24 Ultra hit ~43.6W Super Fast 2.0, Air M2 filled in 1h 48m. Single USB-C, no cable, 54.8°C shell — not A2692, not A121D, not the separate 1C-PD listing.',
             ar: 'A2664 شاحن 45 واط بـ PPS مزدوج حقيقي: FNB58 رأى 3.3–21V/2.25A، ذروة 44.2 واط، وS24 Ultra بلغ ~43.6 واط Super Fast 2.0، وAir M2 امتلأ في ساعة و48 دقيقة. منفذ USB-C واحد بلا كابل وسطح 54.8°م — ليس A2692 ولا A121D ولا stub الـalias.',
         },
         pros: [
@@ -170,7 +170,7 @@ export const anker_nano_45w_detail: ProductDetail = {
             { en: 'No USB-C cable in the CairoVolt pack — budget a 3A C-to-C (or C-to-Lightning for older iPhones)', ar: 'لا كابل USB-C في عبوة كايرو فولت — احسب كابل 3A من C إلى C (أو C إلى Lightning للآيفونات الأقدم)' },
             { en: 'Foldable US Type-A plug — works on most Egyptian universal strips on our sample, but is not a native Europlug / BS 1363 pinout', ar: 'قابس أمريكي قابل للطي — يعمل على أغلب الشرائط المصرية العامة على عيّنتنا، لكنه ليس Europlug أصلي / ولا BS 1363' },
             { en: 'Wall efficiency and no-load draw NOT measured (no PZEM) — we do not invent % figures', ar: 'كفاءة الحائط والاستهلاك بلا حمل غير مقيسين (بلا PZEM) — لا نخترع نسبًا مئوية' },
-            { en: 'Do not treat `anker-nano-45w-1c-pd` as a second measured sample — alias stub only', ar: 'لا تعامل `anker-nano-45w-1c-pd` كعيّنة مقاسة ثانية — stub alias فقط' },
+            { en: 'Do not treat `anker-nano-45w-1c-pd` as a second measured sample — it has no measured sample of its own', ar: 'لا تعامل `anker-nano-45w-1c-pd` كعيّنة مقاسة ثانية — لا عيّنة مقاسة له' },
             { en: 'Single unit tested (CV-CH-A2664-001) — production batches and regional plug variants may vary', ar: 'وحدة واحدة مُختبرة (CV-CH-A2664-001) — قد تختلف دفعات الإنتاج ونسخ القابس الإقليمية' },
         ],
     },

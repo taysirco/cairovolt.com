@@ -1,33 +1,39 @@
 // Details for: anker-soundcore-r50i-nc
-// ALIAS GATE: catalogue MPN A3959 shares the Soundcore P30i / R50i NC platform.
-// Do NOT publish a second gold bench that duplicates Merchant identity for A3959.
-// Canonical measured sibling in catalog: soundcore-p30i-earbuds (Merchant-excluded as duplicate family).
+// Restored 2026-07-28 as a separate, separately stocked product (SKU SH21,
+// barcode 194644197421, own stock count) after being wrongly 301'd away as an
+// alias. The old text here called the page "an alias/disambiguation stub only"
+// and "Merchant-excluded" — statements that were syndicated into speakable
+// JSON-LD and the machine surfaces while the page ranked 6-10 on the R50i NC
+// query cluster. Every claim below must stay true on its own:
+// - NO CairoVolt gold bench exists under this slug. Do not invent one, and do
+//   not copy measured figures from any other listing (Bench Test Protocol §1).
+// - Spec figures are manufacturer-listed (est.) until a bench is published.
 import type { ProductDetail } from './_types';
 
 export const anker_soundcore_r50i_nc_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Catalogue MPN A3959 is the Soundcore R50i NC / P30i-class Adaptive ANC earbud platform — the same hardware family as the P30i listing, not a distinct lab SKU.',
-            'CairoVolt does NOT publish a second gold-depth electrical/audio bench under this slug. Doing so would create a duplicate Merchant / search identity for one MPN.',
-            'For measured playtime, ANC qualitative notes, codecs and BT range on this platform, use the P30i / A3959 family report already maintained in the Soundcore earbud set — do not read R50i (A3949, no ANC) numbers across to this NC model.',
-            'This page is an alias / disambiguation stub only. Verify the printed model on your box (A3959 vs A3949) before ordering.',
+            'Soundcore R50i NC (model A3959 printed on the retail box) is a separately stocked CairoVolt listing — ANC earbuds sold in Egypt with cash on delivery and CairoVolt store warranty; live price and stock are on this page.',
+            'Do not confuse it with the non-ANC R50i (model A3949) or the P20i/P25i family. The NC suffix and the printed A-number on the box and charging-case hinge are the reliable tells before ordering.',
+            'Specification figures on this page — the 42dB ANC ceiling, battery hours, quick-charge figure, phone-stand case — are manufacturer-listed values under Soundcore\'s stated test conditions, not CairoVolt bench measurements. CairoVolt has not published a measured bench report under this listing.',
+            'Recall check (verified 2026-07-24): A3959 appears on no Anker/CPSC earbud recall list — anker.com/product-recalls and CPSC checked; the recalled Anker SKUs are unrelated power-bank and speaker models.',
         ],
         ar: [
-            'رقم الكتالوج A3959 هو منصة سماعات Soundcore R50i NC / فئة P30i بـ Adaptive ANC — نفس عائلة العتاد لقائمة P30i، وليست SKU مختبرية منفصلة.',
-            'لا تنشر CairoVolt تقريرًا ذهبيًا كهربائيًا/صوتيًا ثانيًا تحت هذا الـslug. ذلك يُنشئ هوية Merchant / بحث مكررة لنفس الـMPN.',
-            'لزمن التشغيل المقاس وملاحظات ANC النوعية والcodecs ومدى البلوتوث لهذه المنصة، راجع تقرير عائلة P30i / A3959 ضمن مجموعة ساوندكور — لا تنقل أرقام R50i (A3949 بلا ANC) إلى موديل NC هذا.',
-            'هذه الصفحة stub تمييز/alias فقط. تحقق من الموديل المطبوع على علبتك (A3959 مقابل A3949) قبل الطلب.',
+            'سماعة ساوندكور R50i NC (الموديل A3959 المطبوع على العبوة) قائمة مستقلة بمخزونها لدى كايرو فولت — سماعات بعزل ضوضاء تُباع في مصر بالدفع عند الاستلام وضمان متجر كايرو فولت؛ السعر والمخزون المباشران في هذه الصفحة.',
+            'لا تخلط بينها وبين R50i بلا عزل (موديل A3949) أو عائلة P20i/P25i. لاحقة NC ورقم A المطبوع على العبوة ومفصل علبة الشحن هما الفيصل قبل الطلب.',
+            'أرقام المواصفات في هذه الصفحة — سقف العزل 42dB وساعات البطارية ورقم الشحن السريع وعلبة الستاند — قيم معلنة من الشركة المصنّعة وفق شروط اختبارها، وليست قياسات كايرو فولت. لم تنشر كايرو فولت تقرير قياس معملي تحت هذه القائمة.',
+            'فحص الاستدعاء (تحقق 2026-07-24): A3959 غير مدرج في أي قائمة استدعاء سماعات لدى انكر أو CPSC — فُحص anker.com/product-recalls وCPSC؛ الوحدات المستدعاة لدى انكر موديلات باور بانك وسبيكرات غير ذات صلة.',
         ],
     },
     localContext: {
-        en: 'If you landed here searching “R50i NC”, you almost certainly want the ANC member of the A3959 platform — not the non-ANC R50i (A3949) best-seller. In Egypt retail, packaging may say R50i NC or P30i depending on channel. CairoVolt excludes this slug from the machine Merchant catalogue to avoid two offer IDs for one MPN. Check the printed A-number on the hinge of the case before comparing battery or ANC claims to any other Soundcore page.',
-        ar: 'إذا وصلت إلى هنا بالبحث عن «R50i NC»، فأنت على الأرجح تريد عضو ANC في منصة A3959 — وليس R50i بلا ANC (A3949) الأكثر مبيعًا. في تجزئة مصر قد تقول العبوة R50i NC أو P30i حسب القناة. تستبعد CairoVolt هذا الـslug من كتالوج Merchant الآلي لتجنب عرضين لنفس الـMPN. تحقق من رقم A المطبوع على مفصل العلبة قبل مقارنة ادعاءات البطارية أو ANC بأي صفحة ساوندكور أخرى.',
+        en: 'In Egyptian retail this model is sold as R50i NC, and the printed A-number is the anchor: check A3959 on the box or the charging-case hinge before comparing ANC or battery claims against any other Soundcore page — A3949 (R50i, no ANC) looks similar in listings and photos. This page carries the live CairoVolt price, stock, cash-on-delivery availability and the current store-warranty terms.',
+        ar: 'في تجزئة مصر يُباع هذا الموديل باسم R50i NC، ورقم A المطبوع هو المرجع: تحقق من A3959 على العبوة أو مفصل علبة الشحن قبل مقارنة ادعاءات العزل أو البطارية بأي صفحة ساوندكور أخرى — فموديل A3949 (‏R50i بلا عزل) يشبهه في القوائم والصور. تعرض هذه الصفحة سعر كايرو فولت المباشر والمخزون وإتاحة الدفع عند الاستلام وشروط ضمان المتجر الحالية.',
     },
     specifications: {
-        'Catalogue MPN': { en: 'A3959 (R50i NC / P30i-class platform)', ar: 'A3959 (منصة R50i NC / فئة P30i)' },
-        'Status': { en: 'Alias stub — no separate gold benchTest on this slug', ar: 'stub alias — لا يوجد benchTest ذهبي منفصل على هذا الـslug' },
-        'Do not confuse with': { en: 'A3949 R50i / P20i / P25i family (no ANC)', ar: 'عائلة A3949 R50i / P20i / P25i (بلا ANC)' },
-        'Merchant feed': { en: 'Excluded from MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS as A3959 duplicate-family SKU', ar: 'مستبعد من MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS كـSKU عائلة مكررة لـ A3959' },
-        'Recall (verified 2026-07-24)': { en: 'No CPSC earbud recall on A3959; Anker speaker recalls A3102 / PowerConf S3 A3302 are unrelated', ar: 'لا استدعاء CPSC لسماعات A3959؛ استدعاءات سماعات انكر A3102 / PowerConf S3 A3302 غير ذات صلة' },
+        'Model': { en: 'A3959 — printed on the retail box and charging-case hinge', ar: 'A3959 — مطبوع على العبوة ومفصل علبة الشحن' },
+        'Availability': { en: 'Separately stocked CairoVolt listing — live price, stock and cash on delivery on this page', ar: 'قائمة مستقلة بمخزونها لدى كايرو فولت — السعر والمخزون والدفع عند الاستلام في هذه الصفحة' },
+        'Do not confuse with': { en: 'A3949 R50i / P20i / P25i family (no ANC)', ar: 'عائلة A3949 R50i / P20i / P25i (بلا عزل ضوضاء)' },
+        'Specification source': { en: 'Manufacturer-listed figures (est.) — no CairoVolt measured bench published under this listing', ar: 'أرقام معلنة من الشركة المصنّعة (تقديري) — لا يوجد قياس معملي منشور من كايرو فولت تحت هذه القائمة' },
+        'Recall (verified 2026-07-24)': { en: 'No CPSC earbud recall on A3959; Anker speaker recalls A3102 / PowerConf A3302 are unrelated', ar: 'لا استدعاء CPSC لسماعات A3959؛ استدعاءات سبيكرات انكر A3102 / PowerConf A3302 غير ذات صلة' },
     },
 };

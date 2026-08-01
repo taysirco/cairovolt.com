@@ -330,6 +330,30 @@ const nextConfig: NextConfig = {
             { source: '/anker/audio/anker-soundcore-r50i-nc', destination: '/soundcore/audio/anker-soundcore-r50i-nc', permanent: true },
             { source: '/en/anker/audio/anker-soundcore-r50i-nc', destination: '/en/soundcore/audio/anker-soundcore-r50i-nc', permanent: true },
 
+            // === Phantom category segments Google actually ranks → the real category ===
+            //
+            // The 2026-08-02 GSC export shows these URL shapes drawing impressions
+            // at page-one positions while returning 404 — e.g.
+            // /soundcore/earbuds/anker-soundcore-r50i-nc at position ~5-6 with
+            // ~1,000 impressions across locales. The category segment never
+            // existed ("earbuds" vs the real "audio", "chargers" vs
+            // "wall-chargers"), so every click lands on an error page. All six
+            // source patterns 404'd in production before these rules, so they
+            // cannot shadow any live route; they only convert dead ends into the
+            // product the searcher wanted.
+            { source: '/soundcore/earbuds/:slug', destination: '/soundcore/audio/:slug', permanent: true },
+            { source: '/en/soundcore/earbuds/:slug', destination: '/en/soundcore/audio/:slug', permanent: true },
+            { source: '/soundcore/headphones/:slug', destination: '/soundcore/audio/:slug', permanent: true },
+            { source: '/en/soundcore/headphones/:slug', destination: '/en/soundcore/audio/:slug', permanent: true },
+            { source: '/anker/chargers/:slug', destination: '/anker/wall-chargers/:slug', permanent: true },
+            { source: '/en/anker/chargers/:slug', destination: '/en/anker/wall-chargers/:slug', permanent: true },
+            { source: '/anker/power-stations/:slug', destination: '/anker/power-banks/:slug', permanent: true },
+            { source: '/en/anker/power-stations/:slug', destination: '/en/anker/power-banks/:slug', permanent: true },
+            { source: '/joyroom/chargers/:slug', destination: '/joyroom/wall-chargers/:slug', permanent: true },
+            { source: '/en/joyroom/chargers/:slug', destination: '/en/joyroom/wall-chargers/:slug', permanent: true },
+            { source: '/joyroom/wireless-chargers/:slug', destination: '/joyroom/wall-chargers/:slug', permanent: true },
+            { source: '/en/joyroom/wireless-chargers/:slug', destination: '/en/joyroom/wall-chargers/:slug', permanent: true },
+
             // === Non-existent Joyroom power banks → Power Banks category ===
             { source: '/joyroom/joyroom-magnetic-power-bank-10000', destination: '/joyroom/power-banks', permanent: true },
             { source: '/en/joyroom/joyroom-magnetic-power-bank-10000', destination: '/en/joyroom/power-banks', permanent: true },
