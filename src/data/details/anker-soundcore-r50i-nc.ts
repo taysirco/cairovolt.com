@@ -1,5 +1,5 @@
 // Details for: anker-soundcore-r50i-nc
-// Restored 2026-07-28 as a separate, separately stocked product (SKU SH21,
+// Restored 2026-07-28 as a separate, separately stocked product (SKU SH30,
 // barcode 194644197421, own stock count) after being wrongly 301'd away as an
 // alias. The old text here called the page "an alias/disambiguation stub only"
 // and "Merchant-excluded" — statements that were syndicated into speakable
@@ -30,7 +30,7 @@ export const anker_soundcore_r50i_nc_detail: ProductDetail = {
         ar: 'في تجزئة مصر يُباع هذا الموديل باسم R50i NC، ورقم A المطبوع هو المرجع: تحقق من A3959 على العبوة أو مفصل علبة الشحن قبل مقارنة ادعاءات العزل أو البطارية بأي صفحة ساوندكور أخرى — فموديل A3949 (‏R50i بلا عزل) يشبهه في القوائم والصور. تعرض هذه الصفحة سعر كايرو فولت المباشر والمخزون وإتاحة الدفع عند الاستلام وشروط ضمان المتجر الحالية.',
     },
     specifications: {
-        'Model': { en: 'A3959 — printed on the retail box and charging-case hinge', ar: 'A3959 — مطبوع على العبوة ومفصل علبة الشحن' },
+        'Model': { en: 'A3959 family — retail variant A3959H11 printed on the box label (owner-verified 2026-08-02, barcode 194644197421)', ar: 'عائلة A3959 — نسخة البيع A3959H11 مطبوعة على لاصق العبوة (تحقق المالك 2026-08-02، باركود 194644197421)' },
         'Availability': { en: 'Separately stocked CairoVolt listing — live price, stock and cash on delivery on this page', ar: 'قائمة مستقلة بمخزونها لدى كايرو فولت — السعر والمخزون والدفع عند الاستلام في هذه الصفحة' },
         'Do not confuse with': { en: 'A3949 R50i / P20i / P25i family (no ANC)', ar: 'عائلة A3949 R50i / P20i / P25i (بلا عزل ضوضاء)' },
         'Specification source': { en: 'Manufacturer-listed figures (est.) — no CairoVolt measured bench published under this listing', ar: 'أرقام معلنة من الشركة المصنّعة (تقديري) — لا يوجد قياس معملي منشور من كايرو فولت تحت هذه القائمة' },

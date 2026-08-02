@@ -1225,7 +1225,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
     },
     {
         "slug": "anker-soundcore-r50i-nc",
-        "sku": "SH21",
+        "sku": "SH30",
         "brand": "Soundcore",
         "categorySlug": "audio",
         "price": 1199,

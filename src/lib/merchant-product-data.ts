@@ -106,7 +106,7 @@ export const STANDARD_RETURN_WINDOW_DAYS = 14;
  *
  * R50i NC and Nano 45W 1C-PD used to be listed here as alias stubs of P30i and
  * Nano 45W. That was wrong and is reversed: each is a separate product with its
- * own SKU (SH21 on a record carrying barcode 194644197421; AC09 against AC01)
+ * own SKU (SH30 / variant A3959H11, barcode 194644197421 — owner-verified from the box 2026-08-02; AC09 against AC01)
  * and its own independently tracked stock — 812 and 222 units. A single
  * catalogue record cannot hold two stock counts, so a shared MPN was never
  * sufficient evidence of one product. Before collapsing two records again,
