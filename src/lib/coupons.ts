@@ -11,7 +11,9 @@ function fallbackVerdict(code: string): CouponVerdict {
   if (code === 'ORIGINAL10') return { valid: true, type: 'percent', value: 10 };
   if (code === 'SALARY10') {
     const day = Number(new Intl.DateTimeFormat('en-GB', { timeZone: 'Africa/Cairo', day: 'numeric' }).format(new Date()));
-    return { valid: day >= 29 || day <= 5, type: 'percent', value: 10 };
+    // النافذة تبدأ يوم 27 لا 29: حملة الواتساب تُرسل أيام 27-29، ومن يرد يومي
+    // 27-28 يستلم الكوبون فوراً — رفضه حتى يوم 29 كان وعداً مكسوراً أمام العميل
+    return { valid: day >= 27 || day <= 5, type: 'percent', value: 10 };
   }
   return { valid: false, type: 'percent', value: 0 };
 }
