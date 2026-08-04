@@ -18,7 +18,9 @@
 
 import { useEffect, useMemo, useRef, useState, type FormEvent } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
-import { PRODUCT_NAMES } from '@/lib/serial-generator';
+// من الوحدة النقية مباشرة — استيرادها عبر serial-generator كان يجر node:crypto
+// إلى حزمة المتصفح ويُفشل بناء webpack الإنتاجي
+import { PRODUCT_NAMES } from '@/lib/product-names';
 
 interface VerifyResult {
     valid: boolean;
