@@ -271,7 +271,7 @@ export const phone_charging_during_prayer_fasting_battery_safe: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر Smart Display 45W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">45W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,900ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,250ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Care Mode (80%)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">🏆 أقصى حماية — شاشة + 80% تلقائي</td>
         </tr>
@@ -577,7 +577,7 @@ export const phone_charging_during_prayer_fasting_battery_safe: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Smart Display 45W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">45W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,900 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,250 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Care Mode (80%)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">🏆 Maximum protection — display + auto 80%</td>
         </tr>

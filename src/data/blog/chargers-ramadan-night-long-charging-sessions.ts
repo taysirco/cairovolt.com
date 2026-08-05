@@ -183,7 +183,7 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر Nano 45W Smart Display</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">45W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,900ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,250ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>✅ ActiveShield 2.0</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>✅ بيوقف عند 80%</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>🏆 الأفضل مطلقاً للشحن الليلي</strong></td>
@@ -205,13 +205,13 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>iPhone</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;">جوي روم 20W — 236ج</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;">انكر 20W — 375ج ⭐</a></strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر Smart Display — 1,900ج</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر Smart Display — 1,250ج</a></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Samsung</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;">جوي روم 25W — 342ج</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;">انكر 25W — 550ج ⭐</a></strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر Smart Display — 1,900ج</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر Smart Display — 1,250ج</a></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>iPhone + Watch + AirPods</strong></td>
@@ -223,7 +223,7 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
 
 <p>لو سألتني شخصياً: <strong>لمستخدمي iPhone — انكر 20W بـ 375ج</strong> هو sweet spot مثالي. تقنية ActiveShield 2.0 بتراقب الحرارة 3 مليون مرة يومياً — يعني حتى لو نمت 10 ساعات والشاحن شغّال، هو بيضبط نفسه. ولمستخدمي Samsung — <strong>انكر 25W بـ 550ج</strong> عشان تاخد Super Fast Charging بالنهار + حماية حرارية متقدمة بالليل.</p>
 
-<p>أما لو عايز <strong>أقصى حماية ممكنة</strong> ومش فارق معاك السعر: <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر Nano 45W Smart Display</a> بـ 1,900ج — خاصية Care Mode بتوقف الشحن عند 80% تلقائياً. ده أفضل حل هندسي للشحن الليلي على مستوى العالم — مش في مصر بس.</p>
+<p>أما لو عايز <strong>أقصى حماية ممكنة</strong> ومش فارق معاك السعر: <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر Nano 45W Smart Display</a> بـ 1,250ج — خاصية Care Mode بتوقف الشحن عند 80% تلقائياً. ده أفضل حل هندسي للشحن الليلي على مستوى العالم — مش في مصر بس.</p>
 
 <h2>7 نصائح عملية للشحن الليلي في رمضان</h2>
 
@@ -450,7 +450,7 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">45W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,900 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,250 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>✅ ActiveShield 2.0</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>✅ Stops at 80%</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>🏆 Best overall for overnight charging</strong></td>
@@ -472,13 +472,13 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>iPhone</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;">Joyroom 20W — 236 EGP</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;">Anker 20W — 490 EGP ⭐</a></strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Smart Display — 1,900 EGP</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Smart Display — 1,250 EGP</a></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Samsung</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;">Joyroom 25W — 342 EGP</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;">Anker 25W — 550 EGP ⭐</a></strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Smart Display — 1,900 EGP</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Smart Display — 1,250 EGP</a></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>iPhone + Watch + AirPods</strong></td>
@@ -490,7 +490,7 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
 
 <p>My personal recommendation: <strong>for iPhone users — Anker 20W at 490 EGP</strong> is the perfect sweet spot. ActiveShield 2.0 monitors temperature 3 million times daily — so even if you sleep 10 hours with the charger running, it self-adjusts. For Samsung users — <strong>Anker 25W at 550 EGP</strong> to get Super Fast Charging during the day + advanced thermal protection at night.</p>
 
-<p>And if you want <strong>maximum possible protection</strong> and budget isn't a concern: the <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a> at 1,900 EGP — Care Mode automatically stops charging at 80%. This is the best engineering solution for overnight charging worldwide — not just in Egypt.</p>
+<p>And if you want <strong>maximum possible protection</strong> and budget isn't a concern: the <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a> at 1,250 EGP — Care Mode automatically stops charging at 80%. This is the best engineering solution for overnight charging worldwide — not just in Egypt.</p>
 
 <h2>7 Practical Tips for Overnight Charging During Ramadan</h2>
 

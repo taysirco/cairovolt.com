@@ -140,7 +140,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر Nano 45W Smart Display</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,900ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,250ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">أصغر 35%</td>
             <td style="padding:12px;border:1px solid #d1d5db;">24 شهر</td>
         </tr>
@@ -268,7 +268,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
                 },
                 {
                     question: 'إيه الفرق بين شاحن Anker Nano 45W العادي وإصدار Smart Display؟',
-                    answer: 'الاتنين بيدّوا نفس الـ 45W بالظبط بتقنية GaN. الفرق إن Smart Display (A121D) عنده شاشة TFT صغيرة بتعرض الواط اللحظي + Care Mode بيقلل الشحن لـ 80% لإطالة عمر البطارية + تصميم حاصل على Red Dot 2026. السعر 1,900ج مقابل 790ج للعادي.',
+                    answer: 'الاتنين بيدّوا نفس الـ 45W بالظبط بتقنية GaN. الفرق إن Smart Display (A121D) عنده شاشة TFT صغيرة بتعرض الواط اللحظي + Care Mode بيقلل الشحن لـ 80% لإطالة عمر البطارية + تصميم حاصل على Red Dot 2026. السعر 1,250ج مقابل 790ج للعادي.',
                 },
                 {
                     question: 'أقدر أشحن MacBook Pro 14" بشاحن 45W؟',
@@ -398,7 +398,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,900 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,250 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">35% smaller</td>
             <td style="padding:12px;border:1px solid #d1d5db;">24 months</td>
         </tr>
@@ -526,7 +526,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
                 },
                 {
                     question: 'What\'s the difference between regular Anker Nano 45W and the Smart Display version?',
-                    answer: 'Both deliver exactly the same 45W via GaN technology. The Smart Display (A121D) adds a small TFT screen showing real-time wattage + Care Mode that limits charging to 80% for battery longevity + a Red Dot 2026 award-winning design. Price is 1,900 EGP versus 790 EGP for the standard version.',
+                    answer: 'Both deliver exactly the same 45W via GaN technology. The Smart Display (A121D) adds a small TFT screen showing real-time wattage + Care Mode that limits charging to 80% for battery longevity + a Red Dot 2026 award-winning design. Price is 1,250 EGP versus 790 EGP for the standard version.',
                 },
                 {
                     question: 'Can I charge a MacBook Pro 14" with a 45W charger?',

@@ -86,7 +86,7 @@ export const anker_wall_chargers_content: CategoryContent = {
                         { name: 'شاحن انكر 25W PPS', price: 550, badge: 'Samsung S26' },
                         { name: 'شاحن انكر GaN نانو 3 — 30W (A2147)', price: 490, badge: '⭐ iPhone 17 GaN' },
                         { name: 'شاحن انكر 45W', price: 790, badge: 'S26 Ultra' },
-                        { name: 'شاحن انكر نانو 45W شاشة ذكية (A121D)', price: 1900, badge: '🆕 Smart Display + Care Mode' },
+                        { name: 'شاحن انكر نانو 45W شاشة ذكية (A121D)', price: 1250, badge: '🆕 Smart Display + Care Mode' },
                     ]
                 },
                 en: {
@@ -182,7 +182,7 @@ CairoVolt warranty duration and terms are listed on the product page and warrant
                         { name: 'Anker 25W PPS', price: 550, badge: 'Samsung S26' },
                         { name: 'Anker Nano 3 GaN 30W (A2147)', price: 490, badge: '⭐ iPhone 17 GaN' },
                         { name: 'Anker 45W', price: 790, badge: 'S26 Ultra' },
-                        { name: 'Anker Nano 45W Smart Display (A121D)', price: 1900, badge: '🆕 Smart Display + Care Mode' },
+                        { name: 'Anker Nano 45W Smart Display (A121D)', price: 1250, badge: '🆕 Smart Display + Care Mode' },
                     ]
                 }
             }
