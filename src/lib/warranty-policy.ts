@@ -29,6 +29,10 @@ export function getCairoVoltWarrantyPolicy(
         return { months: 12, policyUrl: '/warranty' };
     }
 
+    if (normalizedProductId.startsWith('jbl-') || normalizedBrand === 'jbl') {
+        return { months: 12, policyUrl: '/warranty' };
+    }
+
     if (
         normalizedProductId.startsWith('anker-')
         || normalizedProductId.startsWith('soundcore-')

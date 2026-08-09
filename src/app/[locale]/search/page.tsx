@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
         title: isArabic ? 'البحث في المنتجات' : 'Product Search',
         description: isArabic
-            ? 'ابحث في كل منتجات كايرو فولت — باور بانك، شواحن، سماعات وكابلات انكر وجوي روم.'
-            : 'Search all CairoVolt products — Anker & Joyroom power banks, chargers, earbuds and cables.',
+            ? 'ابحث في كل منتجات كايرو فولت — باور بانك، شواحن، سماعات وسبيكرات وكابلات انكر وجوي روم وساوندكور وJBL.'
+            : 'Search all CairoVolt products — Anker, Joyroom, Soundcore & JBL power banks, chargers, earbuds, speakers and cables.',
         alternates: {
             canonical: isArabic ? 'https://cairovolt.com/search' : 'https://cairovolt.com/en/search',
             languages: {

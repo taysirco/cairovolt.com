@@ -18,10 +18,10 @@ type Budget = 'any' | 'under-1000' | 'mid' | 'premium';
 const finderPool: ShowcaseProduct[] = [...showcaseProducts, ...finderExtraProducts];
 
 // Anker is the house flagship: Anker → Soundcore (Anker family) → Joyroom.
-const brandRank: Record<string, number> = { Anker: 0, Soundcore: 1, Joyroom: 2 };
+const brandRank: Record<string, number> = { Anker: 0, Soundcore: 1, Joyroom: 2, JBL: 3 };
 
 const matchesNeed = (product: ShowcaseProduct, need: Need) => {
-  if (need === 'sound') return product.categorySlug === 'audio' || product.categorySlug === 'speakers';
+  if (need === 'sound') return ['audio', 'speakers', 'headphones', 'earbuds', 'partybox'].includes(product.categorySlug);
   if (need === 'power') return product.categorySlug === 'power-banks';
   if (need === 'cables') return product.categorySlug === 'cables';
   if (need === 'car') return product.categorySlug === 'car-chargers';

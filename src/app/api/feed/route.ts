@@ -54,6 +54,9 @@ const GOOGLE_CATEGORY: Record<string, string> = {
     'car-holders': 'Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Mounts & Stands',
     'car-accessories': 'Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Mounts & Stands',
     'smart-watches': 'Electronics > Electronics Accessories > Wearable Technology',
+    'headphones': 'Electronics > Audio > Audio Components > Headphones & Headsets',
+    'earbuds': 'Electronics > Audio > Audio Components > Headphones & Headsets',
+    'partybox': 'Electronics > Audio > Audio Components > Speakers',
 };
 
 /** Strip HTML + entities to clean plain text for the feed description. */

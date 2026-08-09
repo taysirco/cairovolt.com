@@ -6,6 +6,7 @@ export const earbuds_generic: GenericCategory = {
         brandCategories: [
             { brand: 'Soundcore', brandSlug: 'soundcore', categorySlug: 'audio' },
             { brand: 'Joyroom', brandSlug: 'joyroom', categorySlug: 'audio' },
+            { brand: 'JBL', brandSlug: 'jbl', categorySlug: 'earbuds' },
         ],
         metadata: {
             ar: {

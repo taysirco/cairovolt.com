@@ -562,6 +562,12 @@ export default async function BlogArticlePage({ params }: Props) {
                             >
                                 {isArabic ? 'تسوق Joyroom' : 'Shop Joyroom'}
                             </Link>
+                            <Link
+                                href={getLocalizedHref('/jbl')}
+                                className="px-6 py-3 bg-white/10 border border-white/30 text-white font-bold rounded-full hover:bg-white/20 transition-colors"
+                            >
+                                {isArabic ? 'تسوق JBL' : 'Shop JBL'}
+                            </Link>
                         </div>
                     </div>
 
@@ -580,12 +586,13 @@ export default async function BlogArticlePage({ params }: Props) {
                                     if (!prod) return null;
                                     const pTrans = prod.translations[isArabic ? 'ar' : 'en'];
                                     const isAnkerBrand = prod.brand.toLowerCase() === 'anker';
+                                    const isJblBrand = prod.brand.toLowerCase() === 'jbl';
                                     const primaryImage = prod.images?.find(img => img.isPrimary) || prod.images?.[0];
                                     return (
                                         <Link
                                             key={slug}
                                             href={getLocalizedHref(`/${prod.brand.toLowerCase()}/${prod.categorySlug.toLowerCase()}/${slug}`)}
-                                            className={`group rounded-2xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-1 ${isAnkerBrand ? 'hover:border-blue-300 hover:shadow-blue-100/50 dark:hover:shadow-blue-900/30' : 'hover:border-red-300 hover:shadow-red-100/50 dark:hover:shadow-red-900/30'}`}
+                                            className={`group rounded-2xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-1 ${isAnkerBrand ? 'hover:border-blue-300 hover:shadow-blue-100/50 dark:hover:shadow-blue-900/30' : isJblBrand ? 'hover:border-orange-300 hover:shadow-orange-100/50 dark:hover:shadow-orange-900/30' : 'hover:border-red-300 hover:shadow-red-100/50 dark:hover:shadow-red-900/30'}`}
                                         >
                                             {/* Product Image — square frame, full-bleed (no inset padding) */}
                                             <div className="relative aspect-square bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-800 overflow-hidden">
@@ -605,7 +612,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                                 )}
                                                 {/* Brand badge */}
                                                 <div className="absolute top-2.5 start-2.5">
-                                                    <span className={`text-[10px] font-bold px-2.5 py-1 rounded-full backdrop-blur-md shadow-sm ${isAnkerBrand ? 'bg-blue-600/90 text-white' : 'bg-red-600/90 text-white'}`}>
+                                                    <span className={`text-[10px] font-bold px-2.5 py-1 rounded-full backdrop-blur-md shadow-sm ${isAnkerBrand ? 'bg-blue-600/90 text-white' : isJblBrand ? 'bg-orange-600/90 text-white' : 'bg-red-600/90 text-white'}`}>
                                                         {getBrandDisplayName(prod.brand, locale)}
                                                     </span>
                                                 </div>
@@ -624,7 +631,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                                             </span>
                                                         )}
                                                     </div>
-                                                    <span className={`text-xs font-semibold px-3 py-1.5 rounded-full transition-colors duration-300 ${isAnkerBrand ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 group-hover:bg-blue-600 group-hover:text-white' : 'bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-300 group-hover:bg-red-600 group-hover:text-white'}`}>
+                                                    <span className={`text-xs font-semibold px-3 py-1.5 rounded-full transition-colors duration-300 ${isAnkerBrand ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 group-hover:bg-blue-600 group-hover:text-white' : isJblBrand ? 'bg-orange-50 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300 group-hover:bg-orange-600 group-hover:text-white' : 'bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-300 group-hover:bg-red-600 group-hover:text-white'}`}>
                                                         {isArabic ? 'تسوق' : 'Shop'} →
                                                     </span>
                                                 </div>

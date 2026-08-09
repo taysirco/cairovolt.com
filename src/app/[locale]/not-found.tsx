@@ -47,6 +47,12 @@ export default function NotFound() {
                     >
                         {isRTL ? 'تسوق Joyroom' : 'Shop Joyroom'}
                     </Link>
+                    <Link
+                        href={getLocalizedHref('/jbl')}
+                        className="px-6 py-3 bg-gray-100 text-gray-800 font-medium rounded-full hover:bg-gray-200 transition-colors"
+                    >
+                        {isRTL ? 'تسوق JBL' : 'Shop JBL'}
+                    </Link>
                 </div>
 
                 <div className="border-t border-gray-200 pt-6">
@@ -58,6 +64,7 @@ export default function NotFound() {
                             { href: '/anker/power-banks', ar: 'باور بانك', en: 'Power Banks' },
                             { href: '/anker/wall-chargers', ar: 'شواحن', en: 'Chargers' },
                             { href: '/joyroom/audio', ar: 'سماعات', en: 'Earbuds' },
+                            { href: '/jbl/speakers', ar: 'سبيكرات JBL', en: 'JBL Speakers' },
                             { href: '/anker/cables', ar: 'كابلات', en: 'Cables' },
                         ].map(cat => (
                             <Link

@@ -1,4 +1,4 @@
-export type DiscoveryCollectionKey = 'anker' | 'joyroom' | 'soundcore';
+export type DiscoveryCollectionKey = 'anker' | 'joyroom' | 'soundcore' | 'jbl';
 
 export type LocalizedCopy = {
     ar: string;
@@ -278,6 +278,89 @@ export const categoryDiscovery: Record<DiscoveryCollectionKey, CategoryDiscovery
                 imageBase: '/images/categories/joyroom/joyroom-car-accessories-category-card-cairovolt-egypt-v2',
                 provenance: 'ai-assisted',
                 tone: 'sand',
+                visual: 'white',
+            },
+        },
+    },
+    jbl: {
+        accent: 'orange',
+        sourceBrand: 'JBL',
+        eyebrow: { ar: 'اختار على مزاجك', en: 'Pick by how you listen' },
+        title: {
+            ar: 'اختر قسم JBL المناسب لطريقة استخدامك',
+            en: 'Choose the right JBL category for how you listen',
+        },
+        intro: {
+            ar: 'سبيكرات محمولة وسماعات رأس وايربودز وبازوكا حفلات—كل قسم بيوصّلك مباشرةً للموديلات المناسبة بدل ما تتوه بين عشرات الأسماء.',
+            en: 'Portable speakers, headphones, earbuds, and party-class sound—each category takes you straight to the right models instead of a wall of names.',
+        },
+        items: {
+            '/jbl/speakers': {
+                headline: { ar: 'صوت يمشي معاك في كل حتة', en: 'Sound that travels with you' },
+                description: {
+                    ar: 'من Go 4 في الجيب لحد Boombox 3 — خرج وبطارية وتصنيف ماء معلن لكل موديل.',
+                    en: 'From the pocket Go 4 to the Boombox 3 — stated output, battery, and IP rating per model.',
+                },
+                action: { ar: 'تصفّح سبيكرات JBL', en: 'Browse JBL speakers' },
+                signal: { ar: 'IP67/IP68 · حتى 24 ساعة معلنة', en: 'IP67/IP68 · up to a stated 24h' },
+                alt: {
+                    ar: 'سبيكر JBL بلوتوث محمول بقماش شبكي',
+                    en: 'Portable fabric-wrapped JBL Bluetooth speaker',
+                },
+                imageBase: '/images/categories/jbl/jbl-speakers-category-card-cairovolt-egypt',
+                provenance: 'ai-assisted',
+                tone: 'peach',
+                visual: 'balanced',
+            },
+            '/jbl/partybox': {
+                headline: { ar: 'البازوكا اللي بتقلب القعدة فرح', en: 'The party class Egyptians call "bazooka"' },
+                description: {
+                    ar: 'PartyBox بقوة 100 لحد 1100 واط معلنة، مداخل مايك وجيتار وإضاءة مدمجة.',
+                    en: 'PartyBox power from a stated 100W to 1100W with mic and guitar inputs and built-in lightshows.',
+                },
+                action: { ar: 'تصفّح سماعات الحفلات', en: 'Browse party speakers' },
+                signal: { ar: '100–1100 واط معلنة', en: 'Stated 100–1100W' },
+                alt: {
+                    ar: 'سماعة حفلات JBL PartyBox بإضاءة',
+                    en: 'JBL PartyBox party speaker with lightshow',
+                },
+                imageBase: '/images/categories/jbl/jbl-partybox-category-card-cairovolt-egypt',
+                provenance: 'ai-assisted',
+                tone: 'violet',
+                visual: 'tall',
+            },
+            '/jbl/headphones': {
+                headline: { ar: 'هيدفون يعزلك عن دوشة الدنيا', en: 'Headphones that mute the commute' },
+                description: {
+                    ar: 'بطاريات معلنة 57–76 ساعة وموديلات بعزل ضوضاء تكيفي للمواصلات والشغل.',
+                    en: 'Stated 57–76h batteries and adaptive noise-cancelling models for commutes and work.',
+                },
+                action: { ar: 'تصفّح هيدفون JBL', en: 'Browse JBL headphones' },
+                signal: { ar: 'حتى 76 ساعة معلنة', en: 'Up to a stated 76h' },
+                alt: {
+                    ar: 'سماعة رأس JBL لاسلكية فوق الأذن',
+                    en: 'Wireless over-ear JBL headphones',
+                },
+                imageBase: '/images/categories/jbl/jbl-headphones-category-card-cairovolt-egypt',
+                provenance: 'ai-assisted',
+                tone: 'indigo',
+                visual: 'white',
+            },
+            '/jbl/earbuds': {
+                headline: { ar: 'الايربودز اللي الكل بيسأل عليها', en: 'The earbuds everyone asks about' },
+                description: {
+                    ar: 'من T110 السلكية الكلاسيكية لحد Tour Pro 2 بعلبتها الذكية — لكل ميزانية موديل.',
+                    en: 'From the classic wired T110 to the smart-case Tour Pro 2 — a model for every budget.',
+                },
+                action: { ar: 'تصفّح ايربودز JBL', en: 'Browse JBL earbuds' },
+                signal: { ar: 'من 449 جنيه', en: 'From EGP 449' },
+                alt: {
+                    ar: 'ايربودز JBL لاسلكية مع علبة الشحن',
+                    en: 'JBL wireless earbuds with charging case',
+                },
+                imageBase: '/images/categories/jbl/jbl-earbuds-category-card-cairovolt-egypt',
+                provenance: 'ai-assisted',
+                tone: 'cyan',
                 visual: 'white',
             },
         },

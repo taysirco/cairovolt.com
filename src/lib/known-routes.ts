@@ -15,7 +15,7 @@
 // MAINTENANCE: extend when adding a brand, generic category, or landing page.
 export const KNOWN_TOP_SEGMENTS = new Set([
     // brands + brand hubs
-    'anker', 'joyroom', 'soundcore',
+    'anker', 'joyroom', 'soundcore', 'jbl',
     // generic category landing pages
     'power-banks', 'chargers', 'cables', 'earbuds',
     // content & info pages

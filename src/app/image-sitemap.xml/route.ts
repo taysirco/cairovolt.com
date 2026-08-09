@@ -167,6 +167,7 @@ export async function GET() {
         anker: new Set(brandData.anker.categories.map(category => category.href)),
         joyroom: new Set(brandData.joyroom.categories.map(category => category.href)),
         soundcore: new Set(soundcoreHub.categories.map(category => category.href)),
+        jbl: new Set((brandData.jbl?.categories ?? []).map(category => category.href)),
     };
 
     for (const [collection, discovery] of Object.entries(categoryDiscovery)) {

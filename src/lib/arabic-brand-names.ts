@@ -163,6 +163,14 @@ export function localizeArabicFields<T>(value: T): T {
 /** Return the localized display name while leaving unknown brands untouched. */
 export function getBrandDisplayName(brand: string, locale: string): string {
     const trimmed = brand.trim();
+
+    // JBL keeps its Latin mark in BOTH locales: Egyptian search behaviour writes
+    // "jbl" in Latin inside Arabic queries (keyword data 2026-08), and the slug
+    // "jbl" would otherwise title-case to "Jbl".
+    if (/^jbl$/i.test(trimmed) || /جي\s*بي\s*[اإ]ل/u.test(trimmed)) {
+        return 'JBL';
+    }
+
     // URL slugs arrive lowercase ("anker"); normalize to Latin display first.
     const latinDisplay = /^[a-z0-9-]+$/.test(trimmed)
         ? trimmed

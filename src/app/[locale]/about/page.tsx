@@ -136,6 +136,12 @@ export default async function AboutPage({ params }: Props) {
                                     </h3>
                                     <p className="text-gray-600 dark:text-gray-400">{t('brands.joyroom')}</p>
                                 </div>
+                                <div className="bg-gradient-to-br from-orange-50 to-orange-100 dark:from-orange-900/30 dark:to-orange-800/30 rounded-xl p-6">
+                                    <h3 className="text-2xl font-bold mb-2 text-orange-700 dark:text-orange-400">
+                                        JBL
+                                    </h3>
+                                    <p className="text-gray-600 dark:text-gray-400">{t('brands.jbl')}</p>
+                                </div>
                             </div>
                         </section>
 

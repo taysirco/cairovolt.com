@@ -4,6 +4,7 @@
         "subtitle": "An online retailer specializing in Anker and Joyroom products in Egypt, with model details, prices, and written policies",
         "shopAnker": "Shop Anker",
         "shopJoyroom": "Shop Joyroom",
+        "shopJbl": "Shop JBL",
         "featuredCategories": "Featured Categories",
         "viewAll": "View All",
         "newArrivals": "New Arrivals",
@@ -14,6 +15,7 @@
         "home": "Home",
         "anker": "Anker",
         "joyroom": "Joyroom",
+        "jbl": "JBL",
         "categories": "Categories",
         "contactUs": "Contact Us",
         "search": "Search...",
@@ -30,6 +32,9 @@
         "audio": "Audio & Earbuds",
         "smartWatches": "Smart Watches",
         "speakers": "Bluetooth Speakers",
+        "headphones": "Headphones",
+        "earbuds": "Earbuds",
+        "partybox": "Party Speakers",
         "carHolders": "Car Holders",
         "carAccessories": "Car Accessories",
         "accessories": "Accessories",
@@ -61,9 +66,10 @@
     },
     "Footer": {
         "aboutUs": "About Us",
-        "aboutDescription": "CairoVolt is an independent Egyptian online retailer of genuine Anker, Soundcore & Joyroom products — clear prices, an invoice with every order, and a written store warranty.",
+        "aboutDescription": "CairoVolt is an independent Egyptian online retailer of genuine Anker, Soundcore, JBL & Joyroom products — clear prices, an invoice with every order, and a written store warranty.",
         "shopAnker": "Shop Anker",
         "shopJoyroom": "Shop Joyroom",
+        "shopJbl": "Shop JBL",
         "customerService": "Customer Service",
         "shippingPolicy": "Shipping Policy",
         "returnPolicy": "Return Policy",
@@ -155,6 +161,8 @@
         "anker": "Anker",
         "joyroom": "Joyroom",
         "soundcore": "Soundcore",
+        "jbl": "JBL",
+        "jblDescription": "Genuine JBL audio: Bluetooth speakers, headphones, earbuds, and party speakers with model-specific specifications and the current listed price",
         "ankerDescription": "Anker power banks, chargers, and cables with model-specific specifications and the current listed price",
         "joyroomDescription": "Joyroom earbuds, power banks, and accessories with model-specific specifications and the current listed price",
         "shopNow": "Shop Now",
@@ -173,7 +181,8 @@
         "homeTitle": "CairoVolt | Anker & Joyroom Mobile Accessories",
         "homeDescription": "Shop Anker and Joyroom mobile accessories in Egypt, including power banks, chargers, earbuds, and cables, with clear prices and written CairoVolt warranty terms.",
         "ankerTitle": "Anker Egypt | Power Banks & Chargers",
-        "joyroomTitle": "Joyroom Egypt | Earbuds & Power Banks"
+        "joyroomTitle": "Joyroom Egypt | Earbuds & Power Banks",
+        "jblTitle": "JBL Egypt — Genuine Speakers, Headphones & Earbuds | CairoVolt"
     },
     "NotFound": {
         "title": "Page Not Found",
@@ -212,7 +221,7 @@
     },
     "Warranty": {
         "metaTitle": "Warranty Policy",
-        "metaDescription": "Eligible products carry a written CairoVolt store warranty: 18 months for Anker and Soundcore and 12 months for Joyroom unless the product page states otherwise.",
+        "metaDescription": "Eligible products carry a written CairoVolt store warranty: 18 months for Anker and Soundcore and 12 months for Joyroom and JBL unless the product page states otherwise.",
         "title": "Warranty Policy",
         "period": {
             "title": "Warranty Period",
@@ -273,7 +282,7 @@
             "warranty": {
                 "title": "Warranty",
                 "q1": "How long is the warranty?",
-                "a1": "Eligible Anker and Soundcore products carry an 18-month CairoVolt store warranty, while eligible Joyroom products carry 12 months unless a specific product page states otherwise. The product page and order confirmation record the terms applicable at purchase.",
+                "a1": "Eligible Anker and Soundcore products carry an 18-month CairoVolt store warranty, while eligible Joyroom and JBL products carry 12 months unless a specific product page states otherwise. The product page and order confirmation record the terms applicable at purchase.",
                 "q2": "How do I claim warranty?",
                 "a2": "Contact us on WhatsApp with your order number and describe the issue.",
                 "q3": "Is the warranty transferable?",
@@ -355,7 +364,7 @@
     },
     "About": {
         "metaTitle": "About Us",
-        "metaDescription": "CairoVolt is an online retailer of Anker and Joyroom mobile accessories in Egypt, with clear prices and written policies.",
+        "metaDescription": "CairoVolt is an online retailer of Anker, Joyroom, Soundcore, and JBL mobile accessories and audio in Egypt, with clear prices and written policies.",
         "title": "About CairoVolt",
         "subtitle": "An online mobile-accessories retailer with clear purchase information and written policies in Egypt",
         "mission": {
@@ -364,7 +373,7 @@
         },
         "relationship": {
             "title": "Our Relationship With Brands",
-            "description": "CairoVolt is an independent online retailer in Egypt. We do not claim to be the official agent or authorized distributor of Anker, Soundcore, or Joyroom, and the CairoVolt warranty is not a manufacturer warranty, unless a specific product page expressly says otherwise and provides verifiable documentation. Brand names and logos belong to their owners and are used to identify products offered for sale. CairoVolt is a brand of Taysir Smart Investment LLC, registered in Egypt under Commercial Register No. 8446 (GAFI, Gamasa Investment Office), Tax Registration No. 777471566, based in New Damietta."
+            "description": "CairoVolt is an independent online retailer in Egypt. We do not claim to be the official agent or authorized distributor of Anker, Soundcore, Joyroom, or JBL, and the CairoVolt warranty is not a manufacturer warranty, unless a specific product page expressly says otherwise and provides verifiable documentation. Brand names and logos belong to their owners and are used to identify products offered for sale. CairoVolt is a brand of Taysir Smart Investment LLC, registered in Egypt under Commercial Register No. 8446 (GAFI, Gamasa Investment Office), Tax Registration No. 777471566, based in New Damietta."
         },
         "whyUs": {
             "title": "Why Choose Us",
@@ -388,7 +397,8 @@
         "brands": {
             "title": "Our Brands",
             "anker": "Charging products including power banks, chargers, and cables across several models.",
-            "joyroom": "Accessories across earbuds, power banks, cables, and car-product categories."
+            "joyroom": "Accessories across earbuds, power banks, cables, and car-product categories.",
+            "jbl": "JBL audio across Bluetooth speakers, headphones, earbuds, and party-speaker categories."
         },
         "stats": {
             "customers": "Customer Service",

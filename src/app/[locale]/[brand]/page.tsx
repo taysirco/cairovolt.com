@@ -23,6 +23,7 @@ type Props = {
 
 function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolean) {
     const isAnker = brandSlug === 'anker';
+    const isJbl = brandSlug === 'jbl';
 
     if (isArabic) {
         const common = {
@@ -69,6 +70,38 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
                 faq: [
                     { question: 'هل وجود GaN أو PowerIQ يعني أن كل شواحن انكر متشابهة؟', answer: 'لا. هذه أسماء لتقنيات أو عائلات خصائص تظهر في موديلات محددة. عدد المنافذ والقدرة وبروتوكولات PD وPPS وطريقة توزيع الطاقة تختلف، لذلك ارجع إلى مواصفات الموديل وجهازك.' },
                     ...common.commonFaq,
+                ],
+            };
+        }
+
+        if (isJbl) {
+            return {
+                ...common,
+                shoppingSteps: [
+                    { icon: 'compass', title: 'حدد مكان الاستخدام', description: 'قعدة بيت هادية غير خروجة ساحل غير فرح — كل استخدام له حجم سبيكر أو نوع سماعة مختلف.' },
+                    { icon: 'scale', title: 'قارن الأرقام المعلنة', description: 'ساعات البطارية وتصنيف IP والوزن حسب مواصفات JBL المعلنة لكل موديل، مش حسب اسم العائلة وحده.' },
+                    { icon: 'clipboard', title: 'راجع تفاصيل الطلب', description: 'تحقق من التوافر وخيارات الدفع والتوصيل وشروط ضمان كايرو فولت قبل التأكيد.' },
+                ],
+                description: 'JBL في مصر — سبيكرات بلوتوث وبارتي بوكس وسماعات رأس وايربودز من {minPrice} جنيه. ضمان كايرو فولت 12 شهر والدفع عند الاستلام.',
+                keywords: 'jbl, سماعات jbl, سبيكر jbl, سعر سماعة jbl, اسعار سماعات jbl, بارتي بوكس jbl, ايربودز jbl, كايرو فولت',
+                quickAnswer: 'اختيار منتج JBL بيبدأ من مكان الاستخدام مش من الشكل: السبيكرات المحمولة زي Go وFlip وCharge للخروجات والبيت، والبارتي بوكس للمناسبات والأفراح، وسماعات الرأس والايربودز للاستخدام الشخصي. قارن ساعات البطارية وتصنيف مقاومة الماء المعلنين من JBL لكل موديل، وافتكر إن الصوت العالي بيقلل ساعات التشغيل عن الرقم المعلن.',
+                overviewLabel: 'دليل صوتيات JBL',
+                overviewTitle: 'كيف تقرأ كتالوج JBL قبل الشراء؟',
+                overviewParagraphs: [
+                    'يغطي كتالوج JBL في كايرو فولت أربعة أقسام: سبيكرات بلوتوث محمولة من Go 4 حتى Boombox 3، وسبيكرات بارتي بوكس للمناسبات، وسماعات رأس Tune، وايربودز من T110 السلكية حتى Tour Pro 2. الاسم التجاري الواحد قد يضم أجيالًا مختلفة المواصفات، لذلك ارجع دائمًا إلى رقم الموديل نفسه.',
+                    'في السبيكرات، حجم الدرايفر هو الفيزياء الأساسية: مساحة أكبر بتحرّك هواء أكتر فباص أعمق، لكن بوزن وسعر أعلى. قارن ساعات التشغيل المعلنة وتصنيف IP والوزن حسب الموديل، وخد بالك إن دعم ربط السبيكرات ببعضها (PartyBoost أو Auracast) بيختلف بين الأجيال والنظامان مش متوافقين مع بعض.',
+                    'في السماعات الشخصية، حدد الأول شكل الارتداء: سماعة رأس للجلسات الطويلة براحة وبطارية أكبر، أو ايربودز خفيفة للتنقل والجيم. خصائص عزل الضوضاء ودعم التطبيق بتظهر في موديلات محددة مش في الكل، وساعات البطارية المعلنة بتقل مع رفع الصوت وتشغيل العزل.',
+                ],
+                categoryDescriptions: {
+                    '/jbl/speakers': 'قارن ساعات البطارية المعلنة وتصنيف IP والوزن ونظام ربط السبيكرات؛ الحجم الأكبر بيدي باص أعمق لكن بوزن وسعر أعلى.',
+                    '/jbl/partybox': 'راجع مصدر الطاقة (بطارية أو كهرباء) ومداخل الميكروفون والوزن وطريقة النقل؛ سبيكرات المناسبات تحتاج تخطيطًا للمساحة والكهرباء.',
+                    '/jbl/headphones': 'اختر بين أون-إير وأوفر-إير، وراجع ساعات البطارية المعلنة ودعم عزل الضوضاء في الموديلات التي توفره.',
+                    '/jbl/earbuds': 'قارن السلكية بموديلات البلوتوث، وراجع بطارية العلبة والعزل ودعم التطبيق حسب الموديل.',
+                } as Record<string, string>,
+                faq: [
+                    { question: 'كيف أختار منتج JBL المناسب؟', answer: 'ابدأ من مكان الاستخدام وحجم المساحة: سبيكر محمول للخروجات والبيت، بارتي بوكس للمناسبات، سماعة رأس أو ايربودز للاستخدام الشخصي. بعد كده قارن ساعات البطارية وتصنيف مقاومة الماء المعلنين من JBL لكل موديل في القسم المناسب.' },
+                    { question: 'هل دعم ربط السبيكرات يعني إمكانية ربط أي سبيكرين JBL؟', answer: 'لا. الربط بيشتغل بين الموديلات اللي بتدعم النظام نفسه: PartyBoost مع PartyBoost، وAuracast مع Auracast، والنظامان غير متوافقين مع بعضهما. راجع نظام الربط المذكور في مواصفات كل موديل قبل شراء سبيكر تاني.' },
+                    ...common.commonFaq.slice(1),
                 ],
             };
         }
@@ -145,6 +178,38 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
             faq: [
                 { question: 'Do GaN or PowerIQ make every Anker charger equivalent?', answer: 'No. These names identify technologies or feature families used on selected models. Port count, output, PD/PPS support, and power-sharing behavior vary, so check the exact model and your device requirements.' },
                 ...common.commonFaq,
+            ],
+        };
+    }
+
+    if (isJbl) {
+        return {
+            ...common,
+            shoppingSteps: [
+                { icon: 'compass', title: 'Identify the listening place', description: 'A quiet room, a beach trip, and a wedding each call for a different speaker size or headphone type.' },
+                { icon: 'scale', title: 'Compare the listed figures', description: 'Battery hours, IP rating, and weight are JBL-listed per model — compare those rather than the family name alone.' },
+                { icon: 'clipboard', title: 'Review order details', description: 'Confirm availability, payment, delivery, and CairoVolt warranty terms before ordering.' },
+            ],
+            description: 'JBL in Egypt — Bluetooth speakers, PartyBox, headphones and earbuds from {minPrice} EGP. CairoVolt 12-month warranty and cash on delivery.',
+            keywords: 'JBL, JBL Egypt, JBL speakers, JBL speakers price in Egypt, JBL PartyBox, JBL headphones, JBL earbuds, CairoVolt',
+            quickAnswer: 'Choose a JBL product by where it will play, not by looks: portable speakers such as Go, Flip, and Charge suit outings and home, PartyBox models suit events, and headphones or earbuds suit personal listening. Compare the JBL-listed battery hours and water rating per model; louder playback shortens runtime below the listed figure.',
+            overviewLabel: 'JBL audio guide',
+            overviewTitle: 'How to read the JBL catalogue before buying',
+            overviewParagraphs: [
+                'CairoVolt’s JBL catalogue covers four sections: portable Bluetooth speakers from the Go 4 up to the Boombox 3, PartyBox event speakers, Tune headphones, and earbuds from the wired T110 to the Tour Pro 2. One product family can span generations with different specifications, so always check the exact model number.',
+                'For speakers, driver size is the underlying physics: a larger driver moves more air and produces deeper bass, at the cost of weight and price. Compare the listed playtime, IP rating, and weight per model, and note that speaker-linking support (PartyBoost or Auracast) differs by generation and the two standards do not link to each other.',
+                'For personal audio, decide the wearing style first: headphones for long comfortable sessions with a larger battery, or light earbuds for commuting and the gym. Noise cancelling and app support appear on selected models rather than all of them, and listed battery hours drop with higher volume and active noise control.',
+            ],
+            categoryDescriptions: {
+                '/jbl/speakers': 'Compare listed battery hours, IP rating, weight, and the speaker-linking standard; a larger size gives deeper bass at higher weight and price.',
+                '/jbl/partybox': 'Review the power source (battery or mains), mic inputs, weight, and transport method; event speakers need space and power planning.',
+                '/jbl/headphones': 'Choose between on-ear and over-ear, then check listed battery hours and noise-cancelling support on the models that include it.',
+                '/jbl/earbuds': 'Compare wired and Bluetooth models, then review case battery, noise control, and app support per model.',
+            } as Record<string, string>,
+            faq: [
+                { question: 'How do I choose the right JBL product?', answer: 'Start from where it will play and the space size: a portable speaker for outings and home, a PartyBox for events, headphones or earbuds for personal listening. Then compare the JBL-listed battery hours and water rating per model in the relevant category.' },
+                { question: 'Does speaker-linking support mean any two JBL speakers can pair together?', answer: 'No. Linking works between models that support the same standard: PartyBoost with PartyBoost, and Auracast with Auracast — the two standards are not compatible with each other. Check the linking standard listed in each model’s specifications before buying a second speaker.' },
+                ...common.commonFaq.slice(1),
             ],
         };
     }
@@ -344,7 +409,7 @@ export default async function BrandHubPage({ params }: Props) {
                             {pageHeading}
                         </h1>
 
-                        <p data-top-summary className={`mx-auto mb-4 max-w-4xl text-sm font-light leading-relaxed md:text-base lg:mx-0 lg:mb-0 ${brand === 'joyroom' ? 'text-red-50' : 'text-blue-50'
+                        <p data-top-summary className={`mx-auto mb-4 max-w-4xl text-sm font-light leading-relaxed md:text-base lg:mx-0 lg:mb-0 ${brand === 'joyroom' ? 'text-red-50' : brand === 'jbl' ? 'text-orange-50' : 'text-blue-50'
                             }`}>
                             {pageDescription}
                         </p>
@@ -355,7 +420,7 @@ export default async function BrandHubPage({ params }: Props) {
                             href="#shop-by-category"
                             className="group inline-flex min-h-10 items-center gap-2 rounded-full bg-white px-5 py-2.5 text-xs font-black text-gray-900 shadow-xl transition hover:-translate-y-0.5 hover:shadow-2xl md:text-sm"
                         >
-                            <SvgIcon name="compass" className={`h-4 w-4 ${brand === 'joyroom' ? 'text-red-600' : 'text-blue-600'}`} />
+                            <SvgIcon name="compass" className={`h-4 w-4 ${brand === 'joyroom' ? 'text-red-600' : brand === 'jbl' ? 'text-orange-600' : 'text-blue-600'}`} />
                             {isRTL ? 'اختر القسم' : 'Choose a category'}
                             <span aria-hidden="true">{isRTL ? '←' : '→'}</span>
                         </a>
@@ -399,7 +464,7 @@ export default async function BrandHubPage({ params }: Props) {
 
             <div id="commerce-entry">
                 <CategoryDiscoveryGrid
-                    collection={brand as 'anker' | 'joyroom'}
+                    collection={brand as 'anker' | 'joyroom' | 'jbl'}
                     categories={safeCategories}
                     locale={locale}
                     pageName={pageHeading}
@@ -420,7 +485,7 @@ export default async function BrandHubPage({ params }: Props) {
             <section id="brand-guide" aria-labelledby={`${brand}-guide-heading`} className="scroll-mt-32 bg-white py-8 dark:bg-gray-950 sm:py-10">
                 <div className="container mx-auto px-4">
                     <div className="mx-auto mb-5 max-w-3xl text-center">
-                        <span className={`text-xs font-black uppercase tracking-wide ${brand === 'joyroom' ? 'text-red-700' : 'text-blue-700'}`}>
+                        <span className={`text-xs font-black uppercase tracking-wide ${brand === 'joyroom' ? 'text-red-700' : brand === 'jbl' ? 'text-orange-700' : 'text-blue-700'}`}>
                             {isRTL ? 'معلومات الشراء' : 'Buying information'}
                         </span>
                         <h2 id={`${brand}-guide-heading`} className="mt-2 text-2xl font-black text-gray-950 dark:text-white md:text-3xl">
@@ -451,7 +516,7 @@ export default async function BrandHubPage({ params }: Props) {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto max-w-5xl">
                         <div className="mb-7 max-w-3xl">
-                            <span className={`text-xs font-black uppercase tracking-wide ${brand === 'joyroom' ? 'text-red-700 dark:text-red-300' : 'text-blue-700 dark:text-blue-300'}`}>
+                            <span className={`text-xs font-black uppercase tracking-wide ${brand === 'joyroom' ? 'text-red-700 dark:text-red-300' : brand === 'jbl' ? 'text-orange-700 dark:text-orange-300' : 'text-blue-700 dark:text-blue-300'}`}>
                                 {copy.overviewLabel}
                             </span>
                             <h2 id={`${brand}-catalogue-context-heading`} className="mt-2 text-2xl font-black text-gray-950 dark:text-white md:text-4xl">
@@ -474,7 +539,9 @@ export default async function BrandHubPage({ params }: Props) {
                                     href={getLocalizedHref(category.href)}
                                     className={`group flex h-full flex-col rounded-2xl border bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md dark:bg-gray-950 ${brand === 'joyroom'
                                         ? 'border-red-200 text-red-800 hover:border-red-400 dark:border-red-900 dark:text-red-300'
-                                        : 'border-blue-200 text-blue-800 hover:border-blue-400 dark:border-blue-900 dark:text-blue-300'
+                                        : brand === 'jbl'
+                                            ? 'border-orange-200 text-orange-800 hover:border-orange-400 dark:border-orange-900 dark:text-orange-300'
+                                            : 'border-blue-200 text-blue-800 hover:border-blue-400 dark:border-blue-900 dark:text-blue-300'
                                     }`}
                                 >
                                     <span className="inline-flex items-center justify-between gap-3 text-sm font-black">

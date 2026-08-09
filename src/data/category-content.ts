@@ -19,6 +19,11 @@ import { joyroom_car_accessories_content } from './category-content/joyroom/car-
 import { joyroom_car_chargers_content } from './category-content/joyroom/car-chargers';
 import { joyroom_car_holders_content } from './category-content/joyroom/car-holders';
 import { joyroom_smart_watches_content } from './category-content/joyroom/smart-watches';
+// JBL — first-class brand (see JBL-STRATEGY.md)
+import { jbl_speakers_content } from './category-content/jbl/speakers';
+import { jbl_partybox_content } from './category-content/jbl/partybox';
+import { jbl_headphones_content } from './category-content/jbl/headphones';
+import { jbl_earbuds_content } from './category-content/jbl/earbuds';
 
 export const categoryContent: Record<string, Record<string, import("./category-content/_types").CategoryContent>> = {
     anker: {
@@ -31,6 +36,12 @@ export const categoryContent: Record<string, Record<string, import("./category-c
     soundcore: {
         'audio': soundcore_audio_content,
         'speakers': soundcore_speakers_content,
+    },
+    jbl: {
+        'speakers': jbl_speakers_content,
+        'partybox': jbl_partybox_content,
+        'headphones': jbl_headphones_content,
+        'earbuds': jbl_earbuds_content,
     },
     joyroom: {
         'audio': joyroom_audio_content,

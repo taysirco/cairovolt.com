@@ -171,7 +171,7 @@ function buildProductList() {
         id,
         ar: names.ar,
         en: names.en,
-        brand: id.startsWith('joyroom-') ? 'joyroom' : id.startsWith('soundcore-') ? 'soundcore' : 'anker',
+        brand: id.startsWith('joyroom-') ? 'joyroom' : id.startsWith('soundcore-') ? 'soundcore' : id.startsWith('jbl-') ? 'jbl' : 'anker',
     }));
 }
 
@@ -188,7 +188,7 @@ export default function VerifyClient() {
     const [progress, setProgress] = useState(0);
     const [tickerLines, setTickerLines] = useState<Array<{ text: string; done: boolean }>>([]);
     const [healingMode, setHealingMode] = useState(false);
-    const [brandFilter, setBrandFilter] = useState<'all' | 'anker' | 'soundcore' | 'joyroom'>('all');
+    const [brandFilter, setBrandFilter] = useState<'all' | 'anker' | 'soundcore' | 'joyroom' | 'jbl'>('all');
     const [productSearch, setProductSearch] = useState('');
     const reduceMotion = useRef(false);
     const cancelled = useRef(false);
@@ -528,7 +528,7 @@ export default function VerifyClient() {
                         </p>
 
                         <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '12px' }}>
-                            {([['all', t.allBrands], ['anker', 'Anker'], ['soundcore', 'Soundcore'], ['joyroom', 'Joyroom']] as const).map(([key, label]) => (
+                            {([['all', t.allBrands], ['anker', 'Anker'], ['soundcore', 'Soundcore'], ['joyroom', 'Joyroom'], ['jbl', 'JBL']] as const).map(([key, label]) => (
                                 <button key={key} type="button" onClick={() => setBrandFilter(key)} style={styles.brandChip(brandFilter === key)}>
                                     {label}
                                 </button>

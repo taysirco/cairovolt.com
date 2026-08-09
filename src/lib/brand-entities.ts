@@ -72,6 +72,24 @@ export const BRAND_ENTITIES: readonly BrandEntity[] = [
         },
     },
     {
+        key: 'jbl',
+        name: 'JBL',
+        // Egyptians overwhelmingly write "JBL" in Latin script inside Arabic
+        // queries (keyword data 2026-08), so the Arabic surface keeps the Latin
+        // mark; the transliteration below exists for entity alternateName only.
+        arabicName: 'جي بي إل',
+        id: brandId('jbl'),
+        sameAs: [
+            'https://www.wikidata.org/wiki/Q1153754',
+            'https://en.wikipedia.org/wiki/JBL',
+            'https://www.jbl.com',
+        ],
+        description: {
+            en: 'Audio brand founded in 1946, owned by Harman International, a Samsung Electronics subsidiary; covers speakers, headphones, and earbuds.',
+            ar: 'علامة صوتيات تأسست عام 1946، مملوكة لشركة Harman International التابعة لسامسونج للإلكترونيات؛ تشمل مكبرات الصوت وسماعات الرأس والايربودز.',
+        },
+    },
+    {
         key: 'joyroom',
         name: 'Joyroom',
         arabicName: 'جوي روم',

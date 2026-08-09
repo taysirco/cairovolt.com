@@ -327,5 +327,135 @@ description: { en: 'JR-FT3 — IP68, sports modes', ar: 'JR-FT3 — IP68 وأو�
             en: 'CairoVolt lists Joyroom earbuds, power banks, chargers, cables, watches, and car accessories in Egypt. Price and stock are live on each product page; specifications, packaging verification options, compatibility, and CairoVolt warranty terms vary by model.',
             ar: 'تعرض كايرو فولت سماعات وباور بانك وشواحن وكابلات وساعات وإكسسوارات سيارة من جوي روم في مصر. يظهر السعر والمخزون الحاليان في صفحة كل منتج، وتختلف المواصفات ووسائل التحقق عبر العبوة والتوافق وشروط ضمان كايرو فولت حسب الموديل.'
         }
+    },
+    jbl: {
+        id: 'jbl',
+        hero: {
+            bgGradient: 'from-orange-500 via-orange-600 to-amber-700',
+            badge: { en: 'Speakers and headphones for everyday listening', ar: 'سبيكرات وسماعات للاستخدام اليومي' },
+            title: 'JBL Egypt',
+            description: {
+                en: 'Browse JBL Bluetooth speakers, PartyBox party speakers, headphones, and earbuds. Battery hours, output, and water-resistance figures are manufacturer-listed per model; current price and stock appear on each product page.',
+                ar: 'تصفّح سبيكرات JBL البلوتوث وسماعات البارتي بوكس وسماعات الرأس والايربودز. أرقام البطارية والقدرة ومقاومة الماء حسب المواصفات المعلنة من JBL لكل موديل، والسعر والمخزون بيظهروا مباشرة في صفحة كل منتج.'
+            },
+            features: [
+                { en: 'CairoVolt 12-Month Store Warranty', ar: 'ضمان كايرو فولت 12 شهر' },
+                { en: 'Cash on Delivery Across Egypt', ar: 'الدفع عند الاستلام داخل مصر' },
+                { en: 'Manufacturer-Listed Specifications', ar: 'مواصفات معلنة من JBL لكل موديل' }
+            ],
+            heroProduct: {
+                label: { en: 'Featured speakers:', ar: 'سبيكرات مختارة:' },
+                link: { href: '/jbl/speakers', text: { en: 'Browse JBL Flip and Charge speakers', ar: 'تصفّح سبيكرات JBL Flip وCharge' } }
+            }
+        },
+        categories: [
+            { title: { en: 'JBL Bluetooth Speakers', ar: 'سبيكرات JBL بلوتوث' }, description: { en: 'From Go 4 to Boombox 3 — battery hours and IP rating listed per model', ar: 'من Go 4 لحد Boombox 3 — ساعات البطارية وتصنيف مقاومة الماء موضحين لكل موديل' }, href: '/jbl/speakers', icon: 'speaker', volume: { en: 'Browse portable speakers', ar: 'تصفّح السبيكرات المحمولة' }, badge: { en: 'Portable', ar: 'محمولة' } },
+            { title: { en: 'JBL PartyBox', ar: 'بارتي بوكس JBL' }, description: { en: 'Party speakers with mic inputs and light shows on listed models', ar: 'سبيكرات حفلات بمداخل ميكروفون وإضاءة حسب الموديل' }, href: '/jbl/partybox', icon: 'party', volume: { en: 'Compare party speakers', ar: 'قارن سبيكرات الحفلات' }, badge: { en: 'Events', ar: 'مناسبات' } },
+            { title: { en: 'JBL Headphones', ar: 'سماعات رأس JBL' }, description: { en: 'Tune on-ear and over-ear models with manufacturer-listed battery hours', ar: 'موديلات Tune أون-إير وأوفر-إير بساعات بطارية معلنة من JBL' }, href: '/jbl/headphones', icon: 'headphones', volume: { en: 'Browse headphones', ar: 'تصفّح سماعات الرأس' } },
+            { title: { en: 'JBL Earbuds', ar: 'ايربودز JBL' }, description: { en: 'Wave, Tune Buds, and Tour Pro 2, plus wired T110 options', ar: 'موديلات Wave وTune Buds وTour Pro 2 مع خيارات T110 السلكية' }, href: '/jbl/earbuds', icon: 'music', volume: { en: 'Browse earbuds', ar: 'تصفّح الايربودز' } },
+        ],
+        whySection: {
+            title: { en: 'Why consider JBL?', ar: 'لماذا قد تختار JBL؟' },
+            items: [
+                { icon: 'speaker', title: { en: 'Audio Heritage Since 1946', ar: 'خبرة صوتيات من 1946' }, description: { en: 'Founded by audio engineer James B. Lansing; a Harman International brand', ar: 'أسسها مهندس الصوت جيمس ب. لانسنج، وهي علامة تابعة لهارمان إنترناشونال' } },
+                { icon: 'shield', title: { en: 'Buy Authentic Guidance', ar: 'التحقق من الأصالة' }, description: { en: 'JBL publishes official Buy Authentic guidance for verifying products and sellers', ar: 'JBL ناشرة إرشادات Buy Authentic رسمية للتحقق من المنتجات والبائعين' } },
+                { icon: 'battery', title: { en: 'Listed Battery and IP Ratings', ar: 'بطارية ومقاومة ماء معلنة' }, description: { en: 'Playtime and water-resistance ratings are stated per model in the JBL specifications', ar: 'ساعات التشغيل وتصنيف IP موضحان لكل موديل حسب المواصفات المعلنة من JBL' } },
+                { icon: 'handshake', title: { en: 'CairoVolt Warranty', ar: 'ضمان كايرو فولت' }, description: { en: '12-month store warranty; conditions are stated on each product page', ar: 'ضمان متجر 12 شهر وشروطه موضحة في صفحة كل منتج' } },
+            ]
+        },
+        aboutSection: {
+            title: {
+                en: 'About JBL Audio',
+                ar: 'عن صوتيات JBL'
+            },
+            history: {
+                en: 'JBL was founded in 1946 by audio engineer James B. Lansing and is a Harman International brand; Harman has been a Samsung Electronics subsidiary since 2017. JBL engineers received Academy Scientific and Technical Awards in 2002, and the brand provided sound reinforcement for the 93rd Academy Awards ceremony in 2021. Battery hours, output, and water-resistance ratings differ by model, so CairoVolt lists the manufacturer-stated details on each product page.',
+                ar: 'تأسست JBL عام 1946 على يد مهندس الصوت جيمس ب. لانسنج، وهي علامة تابعة لهارمان إنترناشونال المملوكة لسامسونج للإلكترونيات منذ 2017. حصل مهندسو JBL على جوائز الأكاديمية العلمية والتقنية عام 2002، وتولّت العلامة تجهيزات الصوت في حفل الأوسكار الـ93 عام 2021. تختلف ساعات البطارية والقدرة ومقاومة الماء حسب الموديل، لذلك تعرض كايرو فولت المواصفات المعلنة في صفحة كل منتج.'
+            },
+            achievements: [
+                { icon: 'calendar', stat: { en: '1946', ar: '1946' }, label: { en: 'Founded by James B. Lansing', ar: 'سنة التأسيس على يد جيمس ب. لانسنج' } },
+                { icon: 'factory', stat: { en: 'Harman', ar: 'هارمان' }, label: { en: 'Harman International brand, a Samsung subsidiary since 2017', ar: 'علامة هارمان إنترناشونال التابعة لسامسونج منذ 2017' } },
+                { icon: 'trophy', stat: { en: 'Awards', ar: 'جوائز' }, label: { en: 'Red Dot and iF Design awards for named models', ar: 'جوائز Red Dot وiF Design لموديلات محددة' } },
+                { icon: 'globe', stat: { en: '4 sections', ar: '4 أقسام' }, label: { en: 'Speakers, PartyBox, headphones, and earbuds at CairoVolt', ar: 'سبيكرات وبارتي بوكس وسماعات رأس وايربودز في كايرو فولت' } },
+                { icon: 'star', stat: { en: 'By model', ar: 'حسب الموديل' }, label: { en: 'Customer reviews shown only where available', ar: 'تظهر تقييمات العملاء عند توفرها' } },
+                { icon: 'medal', stat: { en: 'Support', ar: 'الدعم' }, label: { en: 'CairoVolt order and warranty assistance', ar: 'مساعدة كايرو فولت للطلبات والضمان' } }
+            ],
+            technologies: [
+                { name: 'JBL Pro Sound', description: { en: 'JBL uses the Pro Sound name for the tuning of selected models. Driver size, rated output, and frequency range are listed per model in the manufacturer specifications.', ar: 'تستخدم JBL اسم Pro Sound لضبط الصوت في موديلات محددة. حجم الدرايفر والقدرة المقننة والمدى الترددي موضحون لكل موديل في المواصفات المعلنة.' } },
+                { name: 'PartyBoost / Auracast', description: { en: 'Speaker-linking support differs by generation: some models list PartyBoost while newer ones list Auracast, and the two standards do not link to each other. Check the pairing standard listed for the selected model.', ar: 'يختلف دعم ربط السبيكرات حسب الجيل: بعض الموديلات بتدعم PartyBoost والأحدث بتدعم Auracast، والنظامان مش بيرتبطوا ببعض. راجع نظام الربط المذكور في مواصفات الموديل المختار.' } },
+                { name: 'IP Ratings', description: { en: 'Water and dust ratings such as IP67 or IP68 are stated per model and assume the test conditions defined in the manufacturer documentation, not unlimited submersion.', ar: 'تصنيفات مقاومة الماء والأتربة زي IP67 أو IP68 معلنة لكل موديل وفق شروط اختبار الشركة، ومش معناها غمر بلا حدود.' } },
+                { name: 'Battery Playtime', description: { en: 'Playtime figures are as stated by JBL for each model and vary with volume, features, and light effects. Compare the listed hours on the selected product page.', ar: 'أرقام ساعات التشغيل حسب إعلان JBL لكل موديل، وبتتأثر بمستوى الصوت والخصائص والإضاءة. قارن الساعات المعلنة في صفحة المنتج المختار.' } }
+            ]
+        },
+        trustBadges: [
+            { icon: 'check-circle', title: { en: 'Buy Authentic', ar: 'التحقق من الأصالة' }, description: { en: 'Follow JBL’s official Buy Authentic guidance and verify the seller', ar: 'اتبع إرشادات Buy Authentic الرسمية من JBL وتأكد من البائع' } },
+            { icon: 'shield', title: { en: 'CairoVolt Warranty', ar: 'ضمان كايرو فولت' }, description: { en: '12-month store warranty with conditions listed by product', ar: 'ضمان متجر 12 شهر وشروطه موضحة حسب المنتج' } },
+            { icon: 'money', title: { en: 'Cash on Delivery', ar: 'الدفع عند الاستلام' }, description: { en: 'Pay when the order arrives, where the service is available', ar: 'ادفع لما الطلب يوصلك حسب توفر الخدمة في عنوانك' } },
+            { icon: 'coin', title: { en: 'Current Product Price', ar: 'سعر المنتج الحالي' }, description: { en: 'The current listed price is shown on the product page and at checkout', ar: 'السعر الحالي يظهر في صفحة المنتج وعند الدفع' } },
+            { icon: 'truck', title: { en: 'Delivery Across Egypt', ar: 'توصيل داخل مصر' }, description: { en: 'Estimated timing and fees depend on the destination and order', ar: 'المدة والتكلفة تقديريتان حسب العنوان والطلب' } },
+            { icon: 'call', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: 'See the contact page for current support hours', ar: 'راجع صفحة التواصل لمعرفة مواعيد الدعم' } }
+        ],
+        metadata: {
+            en: {
+                title: 'JBL Egypt | Bluetooth Speakers, PartyBox & Headphones',
+                description: 'Browse JBL Bluetooth speakers, PartyBox party speakers, headphones, and earbuds at CairoVolt. Genuine stock, 12-month store warranty, cash on delivery.',
+                keywords: 'jbl, jbl egypt, jbl speakers egypt, jbl speakers price in egypt, jbl partybox egypt, jbl headphones egypt, jbl earbuds egypt, jbl bluetooth speaker',
+            },
+            ar: {
+                title: 'سماعات JBL في مصر | سبيكرات بلوتوث وبارتي بوكس وايربودز',
+                description: 'تصفّح سبيكرات JBL البلوتوث والبارتي بوكس وسماعات الرأس والايربودز من كايرو فولت. منتجات أصلية بضمان كايرو فولت 12 شهر ودفع عند الاستلام داخل مصر.',
+                keywords: 'jbl, سماعات jbl, سعر سماعات jbl بلوتوث, سعر سماعة jbl, اسعار سماعات jbl, سبيكر jbl, بارتي بوكس jbl, ايربودز jbl',
+            }
+        },
+        article: {
+            ar: {
+                title: 'JBL مصر: اختيار السبيكر والسماعة المناسبة',
+                sections: [
+                    {
+                        heading: 'كيف تختار سبيكر JBL المناسب؟',
+                        content: 'حجم السبيكر بيحدد طبيعة الصوت قبل أي حاجة تانية: الدرايفر الأكبر بيحرّك هواء أكتر فبيدي **باص** أعمق، لكن بوزن وسعر أعلى. قارن ساعات التشغيل المعلنة من JBL وتصنيف مقاومة الماء والوزن حسب الموديل، وافتكر إن الصوت العالي بيستهلك البطارية أسرع من الرقم المعلن.'
+                    },
+                    {
+                        heading: 'ضمان كايرو فولت والتحقق من الأصالة',
+                        content: 'كايرو فولت متجر مستقل بيبيع منتجات JBL أصلية بضمان متجر 12 شهر، وشروطه موضحة في صفحة كل منتج. وللتحقق من أي منتج JBL، راجع إرشادات برنامج **Buy Authentic** الرسمي من JBL وقارن السعر: الفرق الكبير جدًا عن السعر المعروف في السوق غالبًا إشارة تحذير.'
+                    }
+                ]
+            },
+            en: {
+                title: 'JBL Egypt: Choosing the Right Speaker or Headphones',
+                sections: [
+                    {
+                        heading: 'How to Choose a JBL Speaker',
+                        content: 'Speaker size shapes the sound before anything else: a larger driver moves more air and produces deeper **bass**, at the cost of weight and price. Compare the JBL-listed playtime hours, water-resistance rating, and weight per model, and expect louder playback to drain the battery faster than the listed figure.'
+                    },
+                    {
+                        heading: 'CairoVolt Warranty and Authenticity Checks',
+                        content: 'CairoVolt is an independent retailer selling genuine JBL products with a 12-month store warranty; the conditions are stated on each product page. To verify any JBL product, follow JBL’s official **Buy Authentic** guidance and compare the price — an offer far below the known market price is usually a warning sign.'
+                    }
+                ]
+            }
+        },
+        faq: {
+            ar: [
+                { question: 'هل كايرو فولت توكيل JBL الرسمي في مصر؟', answer: 'لا، كايرو فولت متجر إلكتروني مستقل ومش وكيلًا رسميًا لـ JBL. المنتجات المعروضة أصلية، وبتتباع بضمان كايرو فولت 12 شهر وفق الشروط الموضحة في صفحة كل منتج، مع الدفع عند الاستلام.' },
+                { question: 'إزاي أعرف إن سماعة JBL أصلية؟', answer: 'راجع إرشادات برنامج Buy Authentic الرسمي من JBL على موقع jbl.com، وجرّب اقتران المنتج بتطبيق JBL الرسمي في الموديلات المدعومة، وافحص جودة العبوة والنقش. وخد بالك من السعر: لو العرض أقل بكتير من السعر المعروف في السوق، فده مؤشر تحذير قوي.' },
+                { question: 'فين صيانة سماعات JBL في مصر؟', answer: 'داخل مدة ضمان كايرو فولت (12 شهر) بنتولى الاستبدال أو الإصلاح وفق سياسة الضمان الموضحة في صفحة المنتج — تواصل واتساب برقم الطلب ووصف المشكلة. خارج مدة الضمان، تقدر تراجع خدمة أي بائع معتمد حسب شروطه.' },
+                { question: 'إيه الفرق بين سبيكرات JBL المحمولة والبارتي بوكس؟', answer: 'المحمولة زي Flip وCharge مصممة للشنطة والخروجات وبتشتغل بالبطارية، بينما البارتي بوكس سبيكرات مناسبات أكبر بكتير، بمداخل ميكروفون وإضاءة في موديلات محددة. قارن الوزن ومصدر الطاقة (بطارية أو كهرباء) حسب المواصفات المعلنة لكل موديل قبل الاختيار.' },
+                { question: 'هل سماعات JBL بتشتغل مع ايفون وأندرويد؟', answer: 'موديلات البلوتوث بتقترن بأي هاتف يدعم بلوتوث، ايفون أو أندرويد. بعض الخصائص الإضافية زي الإكوالايزر بتحتاج تطبيق JBL الرسمي المتاح للنظامين، وبعض المزايا بتختلف حسب الموديل — راجع صفحة المنتج للتفاصيل.' },
+                { question: 'هل سبيكر بتصنيف IP67 ينفع للبحر والرمل في الساحل؟', answer: 'تصنيف IP67 المعلن بيغطي الغمر المؤقت في مياه عذبة والحماية من الأتربة وفق شروط اختبار الشركة، ومياه البحر المالحة والرمل الناعم أقسى من ظروف الاختبار. اشطف السبيكر بمياه عذبة بعد يوم البحر واتبع تعليمات JBL الخاصة بالموديل.' }
+            ],
+            en: [
+                { question: 'Is CairoVolt the official JBL distributor in Egypt?', answer: 'No. CairoVolt is an independent online retailer, not an official JBL distributor. The listed products are genuine and are sold with a CairoVolt 12-month store warranty under the conditions stated on each product page, with cash on delivery.' },
+                { question: 'How can I verify a JBL product is genuine?', answer: 'Follow JBL’s official Buy Authentic guidance on jbl.com, pair the product with the official JBL app on supported models, and inspect the packaging and engraving quality. Also apply price logic: an offer far below the known market price is a strong warning sign.' },
+                { question: 'Where can I service JBL products in Egypt?', answer: 'Within the CairoVolt 12-month warranty period, we handle replacement or repair under the warranty policy stated on the product page — contact WhatsApp with your order number and issue details. Outside that period, any authorized retailer’s service applies under its own terms.' },
+                { question: 'What is the difference between JBL portable speakers and PartyBox?', answer: 'Portable models such as Flip and Charge are battery-powered and built for bags and outings, while PartyBox models are much larger event speakers with mic inputs and light shows on listed models. Compare weight and power source (battery or mains) in the manufacturer specifications before choosing.' },
+                { question: 'Do JBL headphones and speakers work with iPhone and Android?', answer: 'Bluetooth models pair with any phone that supports Bluetooth, iPhone or Android. Some extra features such as the equalizer require the official JBL app, available for both systems, and feature support varies by model — check the product page for details.' },
+                { question: 'Is an IP67 speaker suitable for the beach and sand?', answer: 'The listed IP67 rating covers temporary fresh-water immersion and dust protection under the manufacturer’s test conditions; salt water and fine sand are harsher than those conditions. Rinse the speaker with fresh water after a beach day and follow JBL’s instructions for the model.' }
+            ]
+        },
+        quickAnswer: {
+            en: 'JBL prices at CairoVolt start at 449 EGP for wired T110 earphones, with wireless earbuds from 2,199 EGP, headphones from 1,999 EGP, Bluetooth speakers from 2,099 to 26,999 EGP, and PartyBox models from 20,999 to 62,999 EGP. Current price and stock are shown on each product page.',
+            ar: 'أسعار JBL في كايرو فولت بتبدأ من 449 جنيه لسماعات T110 السلكية، والايربودز اللاسلكية من 2199 جنيه، وسماعات الرأس من 1999 جنيه، وسبيكرات البلوتوث من 2099 حتى 26999 جنيه، والبارتي بوكس من 20999 حتى 62999 جنيه. السعر الحالي والمخزون في صفحة كل منتج.'
+        }
     }
 };

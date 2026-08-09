@@ -58,7 +58,7 @@ export async function GET() {
             "https://x.com/cairovolt",
             "https://www.youtube.com/@cairovolt",
         ],
-        "description": "CairoVolt is an independent online retailer of mobile accessories and Anker and Joyroom products, with published specifications, prices, policies, and delivery within Egypt.",
+        "description": "CairoVolt is an independent online retailer of mobile accessories, audio gear, and Anker, Joyroom, Soundcore, and JBL products, with published specifications, prices, policies, and delivery within Egypt.",
         // Mirrors the on-page node's topical scope — see GlobalBusinessSchema.
         "knowsAbout": [
             "Power banks",
@@ -66,6 +66,8 @@ export async function GET() {
             "USB Power Delivery fast charging",
             "Charging cables",
             "Wireless earbuds",
+            "Bluetooth speakers",
+            "Headphones",
             "Mobile accessories in Egypt",
         ],
         // No currenciesAccepted/paymentAccepted: LocalBusiness-only properties,

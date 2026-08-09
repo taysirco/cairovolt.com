@@ -84,6 +84,28 @@ import { soundcore_q20i_headphones_reviews } from './reviews/soundcore-q20i-head
 import { soundcore_space_one_headphones_reviews } from './reviews/soundcore-space-one-headphones';
 import { soundcore_rave_3_speaker_reviews } from './reviews/soundcore-rave-3-speaker';
 import { soundcore_select_4_go_speaker_reviews } from './reviews/soundcore-select-4-go-speaker';
+import { jbl_go_4_reviews } from './reviews/jbl-go-4';
+import { jbl_clip_5_reviews } from './reviews/jbl-clip-5';
+import { jbl_flip_6_reviews } from './reviews/jbl-flip-6';
+import { jbl_flip_7_reviews } from './reviews/jbl-flip-7';
+import { jbl_charge_5_reviews } from './reviews/jbl-charge-5';
+import { jbl_charge_6_reviews } from './reviews/jbl-charge-6';
+import { jbl_xtreme_4_reviews } from './reviews/jbl-xtreme-4';
+import { jbl_pulse_5_reviews } from './reviews/jbl-pulse-5';
+import { jbl_boombox_3_reviews } from './reviews/jbl-boombox-3';
+import { jbl_partybox_encore_essential_reviews } from './reviews/jbl-partybox-encore-essential';
+import { jbl_partybox_club_120_reviews } from './reviews/jbl-partybox-club-120';
+import { jbl_partybox_stage_320_reviews } from './reviews/jbl-partybox-stage-320';
+import { jbl_partybox_1000_reviews } from './reviews/jbl-partybox-1000';
+import { jbl_partybox_wireless_mic_reviews } from './reviews/jbl-partybox-wireless-mic';
+import { jbl_tune_520bt_reviews } from './reviews/jbl-tune-520bt';
+import { jbl_tune_720bt_reviews } from './reviews/jbl-tune-720bt';
+import { jbl_tune_770nc_reviews } from './reviews/jbl-tune-770nc';
+import { jbl_wave_beam_reviews } from './reviews/jbl-wave-beam';
+import { jbl_tune_buds_reviews } from './reviews/jbl-tune-buds';
+import { jbl_tour_pro_2_reviews } from './reviews/jbl-tour-pro-2';
+import { jbl_t110_reviews } from './reviews/jbl-t110';
+import { jbl_t110bt_reviews } from './reviews/jbl-t110bt';
 import { anker_pencil_stylus_reviews } from './reviews/anker-pencil-stylus';
 import { anker_a1637_wukong_3_in_1_power_bank_reviews } from './reviews/anker-a1637-wukong-3-in-1-power-bank';
 import { anker_310_usb_c_lightning_cable_reviews } from './reviews/anker-310-usb-c-lightning-cable';
@@ -192,6 +214,28 @@ export const productReviewsDb: Record<string, import('./reviews/_shared').Produc
     'soundcore-space-one-headphones': soundcore_space_one_headphones_reviews,
     'soundcore-rave-3-speaker': soundcore_rave_3_speaker_reviews,
     'soundcore-select-4-go-speaker': soundcore_select_4_go_speaker_reviews,
+    'jbl-go-4': jbl_go_4_reviews,
+    'jbl-clip-5': jbl_clip_5_reviews,
+    'jbl-flip-6': jbl_flip_6_reviews,
+    'jbl-flip-7': jbl_flip_7_reviews,
+    'jbl-charge-5': jbl_charge_5_reviews,
+    'jbl-charge-6': jbl_charge_6_reviews,
+    'jbl-xtreme-4': jbl_xtreme_4_reviews,
+    'jbl-pulse-5': jbl_pulse_5_reviews,
+    'jbl-boombox-3': jbl_boombox_3_reviews,
+    'jbl-partybox-encore-essential': jbl_partybox_encore_essential_reviews,
+    'jbl-partybox-club-120': jbl_partybox_club_120_reviews,
+    'jbl-partybox-stage-320': jbl_partybox_stage_320_reviews,
+    'jbl-partybox-1000': jbl_partybox_1000_reviews,
+    'jbl-partybox-wireless-mic': jbl_partybox_wireless_mic_reviews,
+    'jbl-tune-520bt': jbl_tune_520bt_reviews,
+    'jbl-tune-720bt': jbl_tune_720bt_reviews,
+    'jbl-tune-770nc': jbl_tune_770nc_reviews,
+    'jbl-wave-beam': jbl_wave_beam_reviews,
+    'jbl-tune-buds': jbl_tune_buds_reviews,
+    'jbl-tour-pro-2': jbl_tour_pro_2_reviews,
+    'jbl-t110': jbl_t110_reviews,
+    'jbl-t110bt': jbl_t110bt_reviews,
     'anker-pencil-stylus': anker_pencil_stylus_reviews,
 };
 

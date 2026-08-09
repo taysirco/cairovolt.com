@@ -9,12 +9,13 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
     relatedProducts: [
         'anker-soundcore-motion-plus',
         'anker-soundcore-flare-2',
+        'jbl-flip-6',
+        'jbl-charge-5',
         'anker-soundcore-r50i',
-        'anker-soundcore-r50i-nc',
-        'soundcore-v20i-earbuds',
         'soundcore-liberty-buds',
     ],
     relatedArticles: [
+        'jbl-sub-speaker-meaning',
         '2-port-vs-4-port-vs-6-port-charger-family',
         'does-fast-charging-damage-battery-truth',
         'phone-battery-needs-replacement-5-signs',

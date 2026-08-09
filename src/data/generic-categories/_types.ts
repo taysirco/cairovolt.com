@@ -1,7 +1,7 @@
 export interface GenericCategory {
     slug: string;
     brandCategories: Array<{
-        brand: 'Anker' | 'Joyroom' | 'Soundcore';
+        brand: 'Anker' | 'Joyroom' | 'Soundcore' | 'JBL';
         brandSlug: string;
         categorySlug: string;
     }>;

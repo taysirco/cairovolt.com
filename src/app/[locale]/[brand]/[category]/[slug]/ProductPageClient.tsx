@@ -137,6 +137,10 @@ const categoryKeyMap: Record<string, string> = {
     'car-chargers': 'carChargers',
     'audio': 'audio',
     'smart-watches': 'smartWatches',
+    'speakers': 'speakers',
+    'headphones': 'headphones',
+    'earbuds': 'earbuds',
+    'partybox': 'partybox',
 };
 
 export default function ProductPageClient({ product, relatedProducts = [], alsoBoughtProducts = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail }: ProductPageClientProps) {
@@ -330,42 +334,47 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
     const normalizedRouteBrand = brand.toLowerCase();
     const normalizedProductBrand = product.brand.toLowerCase();
     const isSoundcoreBrand = normalizedRouteBrand === 'soundcore' || normalizedProductBrand === 'soundcore';
-    const isAnkerBrand = !isSoundcoreBrand && (normalizedRouteBrand === 'anker' || normalizedProductBrand === 'anker');
+    const isJblBrand = !isSoundcoreBrand && (normalizedRouteBrand === 'jbl' || normalizedProductBrand === 'jbl');
+    const isAnkerBrand = !isSoundcoreBrand && !isJblBrand && (normalizedRouteBrand === 'anker' || normalizedProductBrand === 'anker');
     const translatedBrandValue = isSoundcoreBrand
         ? tBrand('soundcore')
-        : isAnkerBrand
-            ? tBrand('anker')
-            : tBrand('joyroom');
+        : isJblBrand
+            ? tBrand('jbl')
+            : isAnkerBrand
+                ? tBrand('anker')
+                : tBrand('joyroom');
     const translatedBrand = isRTL
         ? localizeArabicBrandNames(translatedBrandValue)
         : translatedBrandValue;
     const fallbackGradientClass = isSoundcoreBrand
         ? 'from-orange-400 to-pink-600'
-        : isAnkerBrand
-            ? 'from-blue-400 to-blue-600'
-            : 'from-red-400 to-red-600';
-    const selectedThumbnailClass = isSoundcoreBrand
+        : isJblBrand
+            ? 'from-orange-500 to-amber-700'
+            : isAnkerBrand
+                ? 'from-blue-400 to-blue-600'
+                : 'from-red-400 to-red-600';
+    const selectedThumbnailClass = (isSoundcoreBrand || isJblBrand)
         ? 'border-orange-500 shadow-lg ring-2 ring-orange-500/20'
         : isAnkerBrand
             ? 'border-blue-600 shadow-lg ring-2 ring-blue-600/20'
             : 'border-red-600 shadow-lg ring-2 ring-red-600/20';
-    const brandBadgeClass = isSoundcoreBrand
+    const brandBadgeClass = (isSoundcoreBrand || isJblBrand)
         ? 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300'
         : isAnkerBrand
             ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300'
             : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300';
-    const summaryClass = isSoundcoreBrand
+    const summaryClass = (isSoundcoreBrand || isJblBrand)
         ? 'border-orange-200 bg-orange-50/50 dark:border-orange-800 dark:bg-orange-950/30'
         : isAnkerBrand
             ? 'border-blue-200 bg-blue-50/50 dark:border-blue-800 dark:bg-blue-950/30'
             : 'border-red-200 bg-red-50/50 dark:border-red-800 dark:bg-red-950/30';
-    const summaryDotClass = isSoundcoreBrand ? 'bg-orange-600' : isAnkerBrand ? 'bg-blue-600' : 'bg-red-600';
-    const purchaseButtonClass = isSoundcoreBrand
+    const summaryDotClass = (isSoundcoreBrand || isJblBrand) ? 'bg-orange-600' : isAnkerBrand ? 'bg-blue-600' : 'bg-red-600';
+    const purchaseButtonClass = (isSoundcoreBrand || isJblBrand)
         ? 'bg-orange-600 hover:bg-orange-700 text-white shadow-orange-600/30 hover:scale-[1.02]'
         : isAnkerBrand
             ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-blue-600/30 hover:scale-[1.02]'
             : 'bg-red-600 hover:bg-red-700 text-white shadow-red-600/30 hover:scale-[1.02]';
-    const stickyButtonClass = isSoundcoreBrand
+    const stickyButtonClass = (isSoundcoreBrand || isJblBrand)
         ? 'bg-orange-600 hover:bg-orange-700 shadow-orange-600/30'
         : isAnkerBrand
             ? 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/30'

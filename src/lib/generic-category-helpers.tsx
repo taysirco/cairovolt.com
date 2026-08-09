@@ -204,6 +204,8 @@ export function GenericCategoryContent({
                                         ? 'bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100 dark:bg-blue-900/30 dark:text-blue-300 dark:border-blue-800'
                                     : bc.brand === 'Soundcore'
                                         ? 'bg-teal-50 text-teal-700 border-teal-200 hover:bg-teal-100 dark:bg-teal-900/30 dark:text-teal-300 dark:border-teal-800'
+                                    : bc.brand === 'JBL'
+                                        ? 'bg-orange-50 text-orange-700 border-orange-200 hover:bg-orange-100 dark:bg-orange-900/30 dark:text-orange-300 dark:border-orange-800'
                                     : 'bg-red-50 text-red-700 border-red-200 hover:bg-red-100 dark:bg-red-900/30 dark:text-red-300 dark:border-red-800'
                                     }`}
                             >
@@ -236,6 +238,8 @@ export function GenericCategoryContent({
                                                     ? 'bg-blue-100 text-blue-700'
                                                 : product.brandDisplay === 'Soundcore'
                                                     ? 'bg-teal-100 text-teal-700'
+                                                : product.brandDisplay === 'JBL'
+                                                    ? 'bg-orange-100 text-orange-700'
                                                 : 'bg-red-100 text-red-700'
                                                 }`}>
                                                 {localizedBrandDisplay}

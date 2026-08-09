@@ -123,6 +123,7 @@ export const BRAND_FAMILIES: Record<string, string[]> = {
     'anker': ['anker', 'soundcore'],
     'soundcore': ['anker', 'soundcore'],
     'joyroom': ['joyroom'],
+    'jbl': ['jbl'],
 };
 
 // ═══════════════════════════════════════════════════════════
@@ -169,6 +170,19 @@ const complementaryMatrix: Record<string, Array<{
         { targetCategory: 'power-banks', slot: 'essential', reason: { ar: 'باور بانك للبيتش والخروجات', en: 'A power bank for beach trips' } },
         { targetCategory: 'cables', slot: 'accessory', reason: { ar: 'كابل شحن للسبيكر', en: 'A charging cable for the speaker' } },
         { targetCategory: 'audio', slot: 'accessory', reason: { ar: 'سماعة للاستخدام الشخصي', en: 'Earbuds for personal listening' } },
+        { targetCategory: 'earbuds', slot: 'accessory', reason: { ar: 'ايربودز للاستخدام الشخصي', en: 'Earbuds for personal listening' } },
+    ],
+    'headphones': [
+        { targetCategory: 'earbuds', slot: 'essential', reason: { ar: 'ايربودز خفيفة للجيم والمشاوير', en: 'Lightweight earbuds for the gym and commutes' } },
+        { targetCategory: 'speakers', slot: 'accessory', reason: { ar: 'سبيكر للبيت والخروجات', en: 'A speaker for home and hangouts' } },
+    ],
+    'earbuds': [
+        { targetCategory: 'headphones', slot: 'essential', reason: { ar: 'هيدفون للمكتب والتركيز الطويل', en: 'Over-ear headphones for long focus sessions' } },
+        { targetCategory: 'speakers', slot: 'accessory', reason: { ar: 'سبيكر للتجمعات والخروجات', en: 'A speaker for gatherings' } },
+    ],
+    'partybox': [
+        { targetCategory: 'speakers', slot: 'essential', reason: { ar: 'سبيكر محمول للخروجات الأصغر', en: 'A portable speaker for smaller outings' } },
+        { targetCategory: 'earbuds', slot: 'accessory', reason: { ar: 'ايربودز للاستخدام الشخصي بعد الحفلة', en: 'Earbuds for personal listening after the party' } },
     ],
     'smart-watches': [
         { targetCategory: 'wall-chargers', slot: 'essential', reason: { ar: 'شاحن سريع للساعة', en: 'A fast charger for the watch' } },

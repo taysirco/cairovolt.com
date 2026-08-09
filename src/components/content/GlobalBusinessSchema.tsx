@@ -26,8 +26,8 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 name: 'CairoVolt',
                 alternateName: 'كايرو فولت',
                 description: isArabic
-                    ? 'متجر إكسسوارات موبايل في مصر — انكر وجوي روم مع مواصفات واضحة وسياسات ضمان مكتوبة.'
-                    : 'Mobile accessories store in Egypt — Anker and Joyroom products with clear specifications and written warranty policies.',
+                    ? 'متجر إكسسوارات موبايل وصوتيات في مصر — انكر وجوي روم وساوندكور وJBL مع مواصفات واضحة وسياسات ضمان مكتوبة.'
+                    : 'Mobile accessories and audio store in Egypt — Anker, Joyroom, Soundcore, and JBL products with clear specifications and written warranty policies.',
                 publisher: { '@id': 'https://cairovolt.com/#organization' },
                 inLanguage: ['ar-EG', 'en-EG'],
                 potentialAction: {
@@ -54,8 +54,8 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 },
                 url: 'https://cairovolt.com',
                 description: isArabic
-                    ? 'كايرو فولت بائع تجزئة إلكتروني مستقل لإكسسوارات الموبايل ومنتجات انكر وجوي روم، مع مواصفات وأسعار وسياسات مكتوبة وخدمة توصيل داخل مصر.'
-                    : 'CairoVolt is an independent online retailer of mobile accessories and Anker and Joyroom products, with published specifications, prices, policies, and delivery within Egypt.',
+                    ? 'كايرو فولت بائع تجزئة إلكتروني مستقل لإكسسوارات الموبايل والصوتيات ومنتجات انكر وجوي روم وساوندكور وJBL، مع مواصفات وأسعار وسياسات مكتوبة وخدمة توصيل داخل مصر.'
+                    : 'CairoVolt is an independent online retailer of mobile accessories, audio gear, and Anker, Joyroom, Soundcore, and JBL products, with published specifications, prices, policies, and delivery within Egypt.',
                 // Topical scope of the store, stated as entities rather than
                 // keywords. This is what an entity resolver reads to decide
                 // which subject area the organization is an authority in.
@@ -66,6 +66,8 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                         'شحن سريع Power Delivery',
                         'كابلات شحن',
                         'سماعات لاسلكية',
+                        'مكبرات صوت بلوتوث',
+                        'سماعات رأس',
                         'إكسسوارات الموبايل في مصر',
                     ]
                     : [
@@ -74,6 +76,8 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                         'USB Power Delivery fast charging',
                         'Charging cables',
                         'Wireless earbuds',
+                        'Bluetooth speakers',
+                        'Headphones',
                         'Mobile accessories in Egypt',
                     ],
                 // NOTE — deliberately NOT set on this node:

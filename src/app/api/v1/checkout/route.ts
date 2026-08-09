@@ -88,7 +88,8 @@ function normaliseQuery(raw: string): string {
         .replace(/كابل|وصلة/gi, 'cable')
         .replace(/انكر/gi, 'anker')
         .replace(/جوي\s*روم/gi, 'joyroom')
-        .replace(/ساوند\s*كور|سوندكور/gi, 'soundcore');
+        .replace(/ساوند\s*كور|سوندكور/gi, 'soundcore')
+        .replace(/جي\s*بي\s*[اإ]ل/gi, 'jbl');
 }
 
 /**

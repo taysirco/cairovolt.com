@@ -92,8 +92,8 @@ export default function SearchClient({ locale, index }: SearchClientProps) {
                 </h1>
                 <p className="text-gray-500 dark:text-gray-400 mb-6">
                     {isArabic
-                        ? 'باور بانك، شواحن، سماعات وكابلات — انكر وساوندكور وجوي روم'
-                        : 'Power banks, chargers, earbuds, and cables — Anker, Soundcore & Joyroom'}
+                        ? 'باور بانك، شواحن، سماعات وسبيكرات — انكر وساوندكور وجوي روم وJBL'
+                        : 'Power banks, chargers, earbuds, and speakers — Anker, Soundcore, Joyroom & JBL'}
                 </p>
 
                 <input

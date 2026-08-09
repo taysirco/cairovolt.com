@@ -190,7 +190,7 @@ export const contentGraph: ContentMap = {
                 relatedEntities: ['Soundcore', 'ANC', 'Bluetooth 5.3', 'IPX5', 'Hi-Res Audio', 'BassUp', 'LDAC'],
                 contentPriority: { ar: 3200, en: 590 },
                 // Soundcore hub is the canonical parent — listed first for link weight
-                internalLinks: ['/soundcore', '/soundcore/speakers', '/joyroom/audio'],
+                internalLinks: ['/soundcore', '/soundcore/speakers', '/joyroom/audio', '/jbl/earbuds'],
             },
             {
                 topic: 'Soundcore Bluetooth Speakers',
@@ -222,7 +222,7 @@ export const contentGraph: ContentMap = {
                 ],
                 relatedEntities: ['Soundcore', 'IPX7', 'Hi-Res Audio', 'BassUp', 'PartyCast', 'Bluetooth 5.3'],
                 contentPriority: { ar: 780, en: 720 },
-                internalLinks: ['/soundcore', '/soundcore/audio', '/anker/power-banks'],
+                internalLinks: ['/soundcore', '/soundcore/audio', '/anker/power-banks', '/jbl/speakers'],
             },
             {
                 topic: 'Cables',
@@ -248,6 +248,95 @@ export const contentGraph: ContentMap = {
                 relatedEntities: ['USB-C', 'Lightning', 'MFi Certification', 'Nylon Braided', '100W'],
                 contentPriority: { ar: 1900, en: 320 },
                 internalLinks: ['/anker/wall-chargers', '/anker/power-banks'],
+            },
+        ],
+    },
+    jbl: {
+        main: {
+            topic: 'JBL Speakers, Headphones and Earbuds in Egypt',
+            topicAr: 'سماعات JBL في مصر — سبيكرات وهيدفون وايربودز',
+            url: '/jbl',
+            pageType: 'navigational',
+        },
+        categories: [
+            {
+                topic: 'JBL Bluetooth Speakers',
+                topicAr: 'سبيكرات JBL بلوتوث',
+                url: '/jbl/speakers',
+                pageType: 'commercial',
+                supportingContent: [
+                    {
+                        topic: 'What Egyptians Mean by a "Sub" Speaker',
+                        topicAr: 'يعني إيه سماعة صب؟',
+                        type: 'educational',
+                        alternateNames: ['jbl sub', 'sub speaker meaning'],
+                        alternateNamesAr: ['صب بلوتوث jbl', 'سماعات صب jbl'],
+                    },
+                    {
+                        topic: 'Flip 6 vs Flip 7 vs Charge 6',
+                        topicAr: 'مقارنة Flip 6 وFlip 7 وCharge 6',
+                        type: 'comparison',
+                        alternateNames: ['jbl flip comparison', 'jbl charge vs flip'],
+                        alternateNamesAr: ['الفرق بين فليب وتشارج', 'مقارنة سماعات jbl'],
+                    },
+                ],
+                relatedEntities: ['JBL', 'IP67', 'IP68', 'Auracast', 'PartyBoost', 'Bluetooth 5.3'],
+                contentPriority: { ar: 5240, en: 3600 },
+                internalLinks: ['/jbl', '/jbl/partybox', '/soundcore/speakers', '/anker/power-banks'],
+            },
+            {
+                topic: 'JBL Party Speakers (PartyBox)',
+                topicAr: 'سماعات حفلات JBL (بازوكا)',
+                url: '/jbl/partybox',
+                pageType: 'commercial',
+                supportingContent: [
+                    {
+                        topic: 'PartyBox Buying Guide for Egyptian Events',
+                        topicAr: 'دليل اختيار البازوكا للأفراح والمناسبات',
+                        type: 'buying_guide',
+                        alternateNames: ['jbl partybox guide', 'party speaker egypt'],
+                        alternateNamesAr: ['بازوكا jbl', 'سماعة أفراح'],
+                    },
+                ],
+                relatedEntities: ['JBL', 'PartyBox', 'Auracast', 'Wireless Mic', 'IPX4'],
+                contentPriority: { ar: 960, en: 320 },
+                internalLinks: ['/jbl', '/jbl/speakers'],
+            },
+            {
+                topic: 'JBL Headphones',
+                topicAr: 'هيدفون JBL',
+                url: '/jbl/headphones',
+                pageType: 'commercial',
+                supportingContent: [
+                    {
+                        topic: 'On-Ear vs Over-Ear for Cairo Commutes',
+                        topicAr: 'أون اير ولا أوفر اير للمواصلات؟',
+                        type: 'educational',
+                        alternateNames: ['jbl tune comparison', 'anc headphones metro'],
+                        alternateNamesAr: ['سماعات راس jbl', 'هيدفون عزل ضوضاء'],
+                    },
+                ],
+                relatedEntities: ['JBL', 'Adaptive ANC', 'Bluetooth 5.3', 'Multipoint'],
+                contentPriority: { ar: 4940, en: 2900 },
+                internalLinks: ['/jbl', '/jbl/earbuds', '/soundcore/audio'],
+            },
+            {
+                topic: 'JBL Earbuds',
+                topicAr: 'ايربودز JBL',
+                url: '/jbl/earbuds',
+                pageType: 'commercial',
+                supportingContent: [
+                    {
+                        topic: 'Spotting Fake JBL Earbuds in Egypt',
+                        topicAr: 'إزاي تعرف ايربودز JBL الأصلية من التقليد',
+                        type: 'educational',
+                        alternateNames: ['fake jbl', 'jbl buy authentic'],
+                        alternateNamesAr: ['jbl تقليد', 'jbl اصلي'],
+                    },
+                ],
+                relatedEntities: ['JBL', 'TWS', 'IP54', 'ANC', 'Bluetooth 5.3'],
+                contentPriority: { ar: 2150, en: 590 },
+                internalLinks: ['/jbl', '/jbl/headphones', '/soundcore/audio', '/joyroom/audio'],
             },
         ],
     },

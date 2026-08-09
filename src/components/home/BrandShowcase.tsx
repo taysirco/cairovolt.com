@@ -20,7 +20,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
             {isAr ? 'اختار الشخصية اللي شبه يومك' : 'Choose the personality that fits your day'}
           </span>
           <h2 className="mt-3 font-outfit text-3xl font-bold tracking-[-0.03em] sm:text-4xl lg:text-5xl">
-            {isAr ? 'ثلاث عائلات. كل واحدة بتحل حاجة مختلفة.' : 'Three families. Each solves a different need.'}
+            {isAr ? 'أربع عائلات. كل واحدة بتحل حاجة مختلفة.' : 'Four families. Each solves a different need.'}
           </h2>
         </div>
 
@@ -118,6 +118,32 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
                 className="object-contain object-bottom p-2 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)] transition duration-700 group-hover:scale-105"
               />
             </div>
+          </article>
+
+          <article className="group relative isolate min-h-[440px] overflow-hidden rounded-[2rem] border border-orange-100 bg-[#fff3e8] p-7 sm:p-9 lg:col-span-2">
+            {/* TODO(images): swap the decorative gradient for a real JBL product
+                cutout at /images/home/cutouts/jbl-*.png when owner art lands. */}
+            <div className="relative z-10 max-w-[60%] sm:max-w-[55%]">
+              <span className="text-xs font-black uppercase tracking-[.18em] text-orange-700">JBL</span>
+              <h3 className="mt-3 font-outfit text-3xl font-bold tracking-tight sm:text-4xl">
+                {isAr ? 'صوت له تاريخ من 1946.' : 'Sound with history since 1946.'}
+              </h3>
+              <p className="mt-3 text-sm leading-7 text-slate-600">
+                {isAr
+                  ? 'سبيكرات وهيدفون وايربودز وبازوكا حفلات — من علامة Harman العالمية، بمواصفات معلنة لكل موديل.'
+                  : 'Speakers, headphones, earbuds, and party-class sound — a Harman International brand, with stated specs per model.'}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2 text-xs text-slate-700">
+                <span className="rounded-full border border-orange-200 bg-white/70 px-3 py-2">{isAr ? 'مقاومة ماء IP67/IP68' : 'IP67/IP68 models'}</span>
+                <span className="rounded-full border border-orange-200 bg-white/70 px-3 py-2">Auracast</span>
+                <span className="rounded-full border border-orange-200 bg-white/70 px-3 py-2">{isAr ? 'بازوكا PartyBox' : 'PartyBox line'}</span>
+              </div>
+              <Link href={hrefFor(locale, '/jbl')} className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-orange-800">
+                {isAr ? 'تسوق JBL' : 'Shop JBL'}
+                <span>{isAr ? '←' : '→'}</span>
+              </Link>
+            </div>
+            <div className="absolute bottom-0 right-0 h-3/4 w-2/5 rounded-tl-[6rem] bg-[radial-gradient(circle_at_70%_70%,rgba(249,115,22,.35),transparent_65%),radial-gradient(circle_at_30%_30%,rgba(180,83,9,.25),transparent_55%)] rtl:left-0 rtl:right-auto rtl:rounded-tl-none rtl:rounded-tr-[6rem]" />
           </article>
         </div>
       </div>

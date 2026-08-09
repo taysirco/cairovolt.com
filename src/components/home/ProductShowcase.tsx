@@ -101,7 +101,9 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
               ? 'text-emerald-700'
               : product.brand === 'Soundcore'
                 ? 'text-violet-700'
-                : 'text-blue-700';
+                : product.brand === 'JBL'
+                  ? 'text-orange-700'
+                  : 'text-blue-700';
 
             return (
               <article

@@ -44,6 +44,13 @@ export default function MobileMenu({
         { slug: 'car-accessories', icon: 'car', key: 'carAccessories' },
     ];
 
+    const jblCategories = [
+        { slug: 'speakers', icon: 'speaker', key: 'speakers' },
+        { slug: 'partybox', icon: 'speaker', key: 'partybox' },
+        { slug: 'headphones', icon: 'headphones', key: 'headphones' },
+        { slug: 'earbuds', icon: 'headphones', key: 'earbuds' },
+    ];
+
     return (
         <div
             className={`fixed inset-0 z-40 lg:hidden ${
@@ -141,6 +148,27 @@ export default function MobileMenu({
                                     <Link
                                         key={cat.slug}
                                         href={getLocalizedHref(`/joyroom/${cat.slug}`)}
+                                        onClick={onClose}
+                                        className="flex items-center gap-3 px-3 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
+                                    >
+                                        <SvgIcon name={cat.icon} className="w-5 h-5" />
+                                        <span>{tCat(cat.key)}</span>
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* JBL Section */}
+                        <div>
+                            <h3 className="flex items-center gap-2 text-sm font-bold text-orange-600 mb-3">
+                                <span className="w-2 h-2 rounded-full bg-orange-500"></span>
+                                {tBrand('jbl')}
+                            </h3>
+                            <div className="space-y-1">
+                                {jblCategories.map((cat) => (
+                                    <Link
+                                        key={cat.slug}
+                                        href={getLocalizedHref(`/jbl/${cat.slug}`)}
                                         onClick={onClose}
                                         className="flex items-center gap-3 px-3 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
                                     >

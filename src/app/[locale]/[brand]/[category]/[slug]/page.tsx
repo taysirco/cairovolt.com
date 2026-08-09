@@ -669,7 +669,7 @@ export default async function ProductPage({ params }: Props) {
                 <DeliveryStatus
                     sku={product.sku || product.id}
                     locale={locale}
-                    brandColor={product.brand.toLowerCase() === 'joyroom' ? 'red' : 'blue'}
+                    brandColor={product.brand.toLowerCase() === 'joyroom' ? 'red' : product.brand.toLowerCase() === 'jbl' ? 'orange' : 'blue'}
                 />
             </Suspense>
         </>

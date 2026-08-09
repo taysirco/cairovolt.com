@@ -96,5 +96,41 @@ export const categories = [
             ar: { name: "مكبرات صوت بلوتوث", description: "سماعات بصوت جبار وبطارية مبتفصلش عشان خروجات الساحل وتجمعات الرووف." }
         },
         meta: { keywords: "speaker, bluetooth speaker, ساوندكور, مكبر صوت, سماعة بلوتوث, ساوندكور speaker, سماعة ساوندكور" }
+    },
+    {
+        slug: "headphones",
+        icon: "headphones",
+        order: 9,
+        status: "active",
+        productCount: 0,
+        translations: {
+            en: { name: "Headphones", description: "Compare driver size, stated battery hours, ANC type and Bluetooth version for on-ear and over-ear models." },
+            ar: { name: "سماعات رأس (هيدفون)", description: "قارن حجم الدرايفر وساعات البطارية المعلنة ونوع عزل الضوضاء وإصدار البلوتوث لكل موديل." }
+        },
+        meta: { keywords: "هيدفون, سماعات راس, headphones, jbl headphones, هيدفون jbl, سماعة راس بلوتوث, jbl headset" }
+    },
+    {
+        slug: "earbuds",
+        icon: "headphones",
+        order: 10,
+        status: "active",
+        productCount: 0,
+        translations: {
+            en: { name: "Earbuds", description: "Compare fit, stated battery with case, mic count, water-resistance rating and app support per model." },
+            ar: { name: "ايربودز وسماعات أذن", description: "قارن الخامة والبطارية المعلنة مع العلبة وعدد المايكات وتصنيف مقاومة الماء ودعم التطبيق لكل موديل." }
+        },
+        meta: { keywords: "ايربودز, سماعات اذن, earbuds, ايربودز jbl, jbl airpods, سماعة بلوتوث صغيرة, wireless earbuds" }
+    },
+    {
+        slug: "partybox",
+        icon: "speaker",
+        order: 11,
+        status: "active",
+        productCount: 0,
+        translations: {
+            en: { name: "Party Speakers", description: "Compare stated wattage, battery runtime, mic and guitar inputs, lightshow and mobility for event-class speakers." },
+            ar: { name: "سماعات حفلات (بازوكا)", description: "قارن القوة المعلنة بالواط ومدة البطارية ومداخل المايك والجيتار والإضاءة وسهولة النقل لسماعات الحفلات." }
+        },
+        meta: { keywords: "بازوكا, سماعة حفلات, partybox, jbl partybox, بازوكا jbl, مكبر صوت حفلات, party speaker" }
     }
 ];

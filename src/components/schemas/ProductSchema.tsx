@@ -113,6 +113,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         'Anker': { name: 'Anker Innovations', sameAs: 'https://www.anker.com/about-us' },
         'Soundcore': { name: 'Anker Innovations', sameAs: 'https://www.anker.com/about-us' },
         'Joyroom': { name: 'JOYROOM', sameAs: 'https://www.joyroom.com/pages/about-joyroom' },
+        'JBL': { name: 'Harman International Industries', sameAs: 'https://www.harman.com' },
     };
 
     // Store-wide shipping (mirrors the feed + the site policy): free from 3700 EGP,

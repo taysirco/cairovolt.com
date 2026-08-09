@@ -71,13 +71,14 @@ export const revalidate = 3600;
 const BASE_URL = 'https://cairovolt.com';
 
 // Product route trees: /[brand]/[category]/[slug] (closed, validated space).
-const PRODUCT_BRANDS = new Set(['anker', 'joyroom', 'soundcore']);
+const PRODUCT_BRANDS = new Set(['anker', 'joyroom', 'soundcore', 'jbl']);
 
 // Single-segment collection landing pages (brand hubs + generic categories).
 const COLLECTION_ROOTS = new Set([
     'anker',
     'joyroom',
     'soundcore',
+    'jbl',
     'power-banks',
     'chargers',
     'cables',
@@ -176,7 +177,7 @@ export async function GET(
 
         // Retired product slug 301s — same map and regex as the middleware.
         const legacyProduct = pathname.match(
-            /^(\/en)?\/(?:anker|joyroom|soundcore)(?:\/[a-z0-9-]+)?\/([a-z0-9-]+)\/?$/
+            /^(\/en)?\/(?:anker|joyroom|soundcore|jbl)(?:\/[a-z0-9-]+)?\/([a-z0-9-]+)\/?$/
         );
         if (legacyProduct) {
             const target = LEGACY_PRODUCT_REDIRECTS[legacyProduct[2]];
@@ -319,7 +320,7 @@ This page is available at [cairovolt.com/${path}](${baseUrl}/${path})
 
 ## About CairoVolt
 
-CairoVolt is an Egyptian online store for **Anker**, **Joyroom**, and **Soundcore** accessories.
+CairoVolt is an Egyptian online store for **Anker**, **Joyroom**, **Soundcore**, and **JBL** accessories.
 
 ### Key Links
 
@@ -481,7 +482,7 @@ function generateBlogListingMarkdown(isArabic: boolean, localePrefix: string): s
     let md = isArabic ? '# مدونة كايرو فولت\n\n' : '# CairoVolt Blog\n\n';
     md += isArabic
         ? `أدلة شراء ومقارنات وشروحات ومراجعات ونصائح لإكسسوارات انكر وجوي روم وساوندكور في مصر. عدد المقالات المنشورة: ${entries.length}.\n\n`
-        : `Buying guides, comparisons, how-tos, reviews, and tips for Anker, Joyroom, and Soundcore accessories in Egypt. Published articles: ${entries.length}.\n\n`;
+        : `Buying guides, comparisons, how-tos, reviews, and tips for Anker, Joyroom, Soundcore, and JBL accessories in Egypt. Published articles: ${entries.length}.\n\n`;
     md += isArabic
         ? 'كل رابط مقال يعيد نسخة ماركداون كاملة عند طلبه بترويسة `Accept: text/markdown`.\n\n'
         : 'Each article URL returns full markdown when requested with `Accept: text/markdown`.\n\n';
@@ -611,8 +612,8 @@ function generateKnownPageMarkdown(
         const w = m.Warranty;
         // Same period paragraph the HTML page renders above the duration tiles.
         const periodParagraph = isArabic
-            ? 'هذه سياسة ضمان كايرو فولت للمنتجات المؤهلة: 18 شهرًا لمنتجات انكر وساوندكور، و12 شهرًا لمنتجات جوي روم، ما لم تعرض صفحة منتج محدد مدة مختلفة. لا تمثل ضمانًا من الشركة المصنّعة إلا إذا ذُكر ذلك صراحةً مع مستند يمكن التحقق منه. صفحة المنتج وتأكيد الطلب هما مرجع المدة المطبقة وقت الشراء.'
-            : 'Eligible Anker and Soundcore products carry an 18-month CairoVolt store warranty, while eligible Joyroom products carry 12 months unless a specific product page states a different duration. This is not a manufacturer-issued warranty unless expressly stated with verifiable documentation. The product page and order confirmation record the terms applicable at purchase.';
+            ? 'هذه سياسة ضمان كايرو فولت للمنتجات المؤهلة: 18 شهرًا لمنتجات انكر وساوندكور، و12 شهرًا لمنتجات جوي روم وJBL، ما لم تعرض صفحة منتج محدد مدة مختلفة. لا تمثل ضمانًا من الشركة المصنّعة إلا إذا ذُكر ذلك صراحةً مع مستند يمكن التحقق منه. صفحة المنتج وتأكيد الطلب هما مرجع المدة المطبقة وقت الشراء.'
+            : 'Eligible Anker and Soundcore products carry an 18-month CairoVolt store warranty, while eligible Joyroom and JBL products carry 12 months unless a specific product page states a different duration. This is not a manufacturer-issued warranty unless expressly stated with verifiable documentation. The product page and order confirmation record the terms applicable at purchase.';
         const covered = (['manufacturing', 'battery', 'charging', 'ports'] as const)
             .map(item => `- ${w.covered[item]}`)
             .join('\n');
@@ -655,13 +656,13 @@ function generateKnownPageMarkdown(
         .map(item => `- **${a.whyUs[item].title}** — ${a.whyUs[item].description}`)
         .join('\n');
     const brandNames = isArabic
-        ? { anker: 'انكر', joyroom: 'جوي روم' }
-        : { anker: 'Anker', joyroom: 'Joyroom' };
+        ? { anker: 'انكر', joyroom: 'جوي روم', jbl: 'JBL' }
+        : { anker: 'Anker', joyroom: 'Joyroom', jbl: 'JBL' };
     return `# ${a.title}\n\n${a.subtitle}\n\n`
         + `## ${a.mission.title}\n\n${a.mission.description}\n\n`
         + `## ${a.relationship.title}\n\n${a.relationship.description}\n\n`
         + `## ${a.whyUs.title}\n\n${whyUs}\n\n`
-        + `## ${a.brands.title}\n\n- ${brandNames.anker}: ${a.brands.anker}\n- ${brandNames.joyroom}: ${a.brands.joyroom}\n\n`
+        + `## ${a.brands.title}\n\n- ${brandNames.anker}: ${a.brands.anker}\n- ${brandNames.joyroom}: ${a.brands.joyroom}\n- ${brandNames.jbl}: ${a.brands.jbl}\n\n`
         + contactBlock;
 }
 

@@ -215,6 +215,31 @@ export default function Footer() {
                                     {isRTL ? 'إكسسوارات سيارة جوي روم' : 'Joyroom Car Accessories'}
                                 </Link>
                             </li>
+                            <li className="pt-2 border-t border-gray-200 dark:border-gray-700">
+                                <Link href={getLocalizedHref('/jbl')} className="hover:text-orange-600 transition-colors font-medium">
+                                    {isRTL ? 'جميع منتجات JBL' : 'All JBL Products'}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={getLocalizedHref('/jbl/speakers')} className="hover:text-orange-600 transition-colors">
+                                    {isRTL ? 'سبيكرات JBL' : 'JBL Speakers'}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={getLocalizedHref('/jbl/partybox')} className="hover:text-orange-600 transition-colors">
+                                    {isRTL ? 'سماعات حفلات JBL (بازوكا)' : 'JBL Party Speakers'}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={getLocalizedHref('/jbl/headphones')} className="hover:text-orange-600 transition-colors">
+                                    {isRTL ? 'هيدفون JBL' : 'JBL Headphones'}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={getLocalizedHref('/jbl/earbuds')} className="hover:text-orange-600 transition-colors">
+                                    {isRTL ? 'ايربودز JBL' : 'JBL Earbuds'}
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 

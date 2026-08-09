@@ -41,7 +41,7 @@ interface Product {
 }
 
 interface CategoryTemplateProps {
-    brand: 'Anker' | 'Joyroom' | 'Soundcore';
+    brand: 'Anker' | 'Joyroom' | 'Soundcore' | 'JBL';
     brandColor: 'blue' | 'red' | 'orange';
     category: string;
     categorySlug: string;
@@ -63,6 +63,9 @@ const categoryKeyMap: Record<string, string> = {
     'car-accessories': 'carAccessories',
     'speakers': 'speakers',
     'accessories': 'accessories',
+    'headphones': 'headphones',
+    'earbuds': 'earbuds',
+    'partybox': 'partybox',
     'other': 'other',
 };
 
@@ -97,6 +100,7 @@ export default function CategoryTemplate({
     const translatedBrandValue =
         brand === 'Anker' ? tBrand('anker') :
         brand === 'Soundcore' ? tBrand('soundcore') :
+        brand === 'JBL' ? tBrand('jbl') :
         tBrand('joyroom');
     const translatedBrand = isRTL
         ? localizeArabicBrandNames(translatedBrandValue)

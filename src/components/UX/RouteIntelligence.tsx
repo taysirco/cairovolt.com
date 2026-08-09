@@ -25,6 +25,7 @@ import { canPrefetch, isPrefetchableUrl, markPrefetched } from '@/lib/prefetch-s
 const BRAND_CATEGORIES: Record<string, string[]> = {
     anker: ['power-banks', 'wall-chargers', 'cables'],
     joyroom: ['audio', 'power-banks', 'cables'],
+    jbl: ['speakers', 'headphones', 'earbuds'],
 };
 
 function getPageType(pathname: string): { type: string; locale: string; brand?: string } {

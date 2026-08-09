@@ -146,8 +146,8 @@ export function translateAnchorTexts(html: string, locale: string): string {
             if (categoryMatch) {
                 const brand = categoryMatch[1];
                 const categorySlug = categoryMatch[2];
-                if (['anker', 'joyroom', 'soundcore'].includes(brand.toLowerCase())) {
-                    const brandAr = brand.toLowerCase() === 'anker' ? 'انكر' : brand.toLowerCase() === 'joyroom' ? 'جويروم' : 'ساوندكور';
+                if (['anker', 'joyroom', 'soundcore', 'jbl'].includes(brand.toLowerCase())) {
+                    const brandAr = brand.toLowerCase() === 'anker' ? 'انكر' : brand.toLowerCase() === 'joyroom' ? 'جويروم' : brand.toLowerCase() === 'jbl' ? 'JBL' : 'ساوندكور';
                     let catAr = '';
                     if (categorySlug === 'power-banks') catAr = 'باور بانك';
                     else if (categorySlug === 'wall-chargers' || categorySlug === 'chargers') catAr = 'شواحن حائط';
@@ -156,6 +156,8 @@ export function translateAnchorTexts(html: string, locale: string): string {
                     else if (categorySlug === 'car-holders' || categorySlug === 'car-accessories') catAr = 'إكسسوارات سيارة';
                     else if (categorySlug === 'earbuds' || categorySlug === 'audio') catAr = 'سماعات';
                     else if (categorySlug === 'speakers') catAr = 'سبيكرات';
+                    else if (categorySlug === 'headphones') catAr = 'هيدفون';
+                    else if (categorySlug === 'partybox') catAr = 'سماعات حفلات';
 
                     if (catAr) {
                         return `<a ${prefix}href=${quote}${href}${quote}${suffix}>${catAr} ${brandAr}</a>`;

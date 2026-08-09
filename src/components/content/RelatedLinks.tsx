@@ -19,7 +19,7 @@ interface RelatedLink {
     url: string;
     topic: string;
     topicAr: string;
-    brand: 'anker' | 'joyroom';
+    brand: 'anker' | 'joyroom' | 'jbl';
 }
 
 /**
@@ -58,7 +58,7 @@ function getRelatedLinksFromContentMap(currentUrl: string): RelatedLink[] {
                         url: cluster.url,
                         topic: cluster.topic,
                         topicAr: cluster.topicAr,
-                        brand: brandSlug as 'anker' | 'joyroom',
+                        brand: brandSlug as 'anker' | 'joyroom' | 'jbl',
                     });
                 }
             }
@@ -68,7 +68,8 @@ function getRelatedLinksFromContentMap(currentUrl: string): RelatedLink[] {
     // Remove duplicates and current page
     // STRICT: Filter by brand if we can determine the current brand context
     const currentBrand = normalizedUrl.includes('/anker') ? 'anker' :
-        normalizedUrl.includes('/joyroom') ? 'joyroom' : undefined;
+        normalizedUrl.includes('/joyroom') ? 'joyroom' :
+        normalizedUrl.includes('/jbl') ? 'jbl' : undefined;
 
     return relatedLinks.filter((link, index, self) =>
         !normalizedUrl.includes(link.url) &&
@@ -106,10 +107,12 @@ export default function RelatedLinks({
                             href={getLocalizedHref(link.url)}
                             className={`group p-6 rounded-xl border transition-all hover:shadow-lg text-center ${link.brand === 'anker'
                                 ? 'bg-blue-50 dark:bg-blue-900/20 border-blue-100 dark:border-blue-800 hover:border-blue-300'
+                                : link.brand === 'jbl'
+                                ? 'bg-orange-50 dark:bg-orange-900/20 border-orange-100 dark:border-orange-800 hover:border-orange-300'
                                 : 'bg-red-50 dark:bg-red-900/20 border-red-100 dark:border-red-800 hover:border-red-300'
                                 }`}
                         >
-                            <span className={`text-sm font-medium ${link.brand === 'anker' ? 'text-blue-600' : 'text-red-600'
+                            <span className={`text-sm font-medium ${link.brand === 'anker' ? 'text-blue-600' : link.brand === 'jbl' ? 'text-orange-600' : 'text-red-600'
                                 }`}>
                                 {getBrandDisplayName(link.brand, locale)}
                             </span>

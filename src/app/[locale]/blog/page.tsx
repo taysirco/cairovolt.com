@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? 'مدونة كايرو فولت | أدلة شراء ومراجعات اكسسوارات الموبايل'
         : 'CairoVolt Blog | Mobile Accessories Guides & Reviews';
     const description = isArabic
-        ? 'أدلة شراء ومقارنات ومراجعات تساعدك على اختيار اكسسوارات الموبايل المناسبة في مصر، ومنها الباور بانك والشواحن والسماعات من انكر وجوي روم.'
-        : 'Buying guides, comparisons, and reviews to help you choose suitable mobile accessories in Egypt, including power banks, chargers, and earbuds from Anker and Joyroom.';
+        ? 'أدلة شراء ومقارنات ومراجعات تساعدك على اختيار اكسسوارات الموبايل المناسبة في مصر، ومنها الباور بانك والشواحن والسماعات من انكر وجوي روم وساوندكور وJBL.'
+        : 'Buying guides, comparisons, and reviews to help you choose suitable mobile accessories in Egypt, including power banks, chargers, and earbuds from Anker, Joyroom, Soundcore, and JBL.';
 
     return {
         title: { absolute: title },

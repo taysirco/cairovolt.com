@@ -1891,6 +1891,424 @@ export const clientCatalog: ClientCatalogProduct[] = [
         }
     },
     {
+        "slug": "jbl-go-4",
+        "sku": "JB01",
+        "brand": "JBL",
+        "categorySlug": "speakers",
+        "price": 2099,
+        "originalPrice": 2399,
+        "stock": 340,
+        "featured": true,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Go 4 — IP67 Compact | 7h Battery | Auracast"
+            },
+            "ar": {
+                "name": "JBL Go 4 — سماعة مدمجة IP67 | بطارية 7 ساعات | Auracast"
+            }
+        }
+    },
+    {
+        "slug": "jbl-clip-5",
+        "sku": "JB02",
+        "brand": "JBL",
+        "categorySlug": "speakers",
+        "price": 2999,
+        "originalPrice": 3399,
+        "stock": 280,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Clip 5 — Carabiner Clip | 12h Battery | IP67"
+            },
+            "ar": {
+                "name": "JBL Clip 5 — كارابينر مدمج | بطارية 12 ساعة | IP67"
+            }
+        }
+    },
+    {
+        "slug": "jbl-flip-6",
+        "sku": "JB03",
+        "brand": "JBL",
+        "categorySlug": "speakers",
+        "price": 6499,
+        "originalPrice": 7399,
+        "stock": 220,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Flip 6 — 30W Two-Way | 12h Battery | IP67"
+            },
+            "ar": {
+                "name": "JBL Flip 6 — نظام 30 واط بدرايفرين | بطارية 12 ساعة | IP67"
+            }
+        }
+    },
+    {
+        "slug": "jbl-flip-7",
+        "sku": "JB04",
+        "brand": "JBL",
+        "categorySlug": "speakers",
+        "price": 7499,
+        "originalPrice": 8599,
+        "stock": 180,
+        "featured": true,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Flip 7 — IP68 Rugged | 14h Battery | Lossless USB-C"
+            },
+            "ar": {
+                "name": "JBL Flip 7 — مقاومة IP68 | بطارية 14 ساعة | صوت لوسلس USB-C"
+            }
+        }
+    },
+    {
+        "slug": "jbl-charge-5",
+        "sku": "JB05",
+        "brand": "JBL",
+        "categorySlug": "speakers",
+        "price": 6999,
+        "originalPrice": 7999,
+        "stock": 190,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Charge 5 — 20h Battery | Phone Powerbank | IP67"
+            },
+            "ar": {
+                "name": "JBL Charge 5 — بطارية 20 ساعة | باور بانك للموبايل | IP67"
+            }
+        }
+    },
+    {
+        "slug": "jbl-charge-6",
+        "sku": "JB06",
+        "brand": "JBL",
+        "categorySlug": "speakers",
+        "price": 8499,
+        "originalPrice": 9699,
+        "stock": 160,
+        "featured": true,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Charge 6 — 24h Battery | Built-in Powerbank | IP68"
+            },
+            "ar": {
+                "name": "JBL Charge 6 — بطارية 24 ساعة | باور بانك مدمج | IP68"
+            }
+        }
+    },
+    {
+        "slug": "jbl-xtreme-4",
+        "sku": "JB07",
+        "brand": "JBL",
+        "categorySlug": "speakers",
+        "price": 21999,
+        "originalPrice": 24999,
+        "stock": 45,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Xtreme 4 — Swappable Battery | 24h Playtime | IP67"
+            },
+            "ar": {
+                "name": "JBL Xtreme 4 — بطارية بتتبدل | تشغيل 24 ساعة | IP67"
+            }
+        }
+    },
+    {
+        "slug": "jbl-pulse-5",
+        "sku": "JB08",
+        "brand": "JBL",
+        "categorySlug": "speakers",
+        "price": 15999,
+        "originalPrice": 18499,
+        "stock": 35,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Pulse 5 — 360° Lightshow | 40W | IP67"
+            },
+            "ar": {
+                "name": "JBL Pulse 5 — إضاءة 360 درجة | 40 واط | IP67"
+            }
+        }
+    },
+    {
+        "slug": "jbl-boombox-3",
+        "sku": "JB09",
+        "brand": "JBL",
+        "categorySlug": "speakers",
+        "price": 26999,
+        "originalPrice": 30999,
+        "stock": 30,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Boombox 3 — 180W | 24h Battery | IP67"
+            },
+            "ar": {
+                "name": "JBL Boombox 3 — قوة 180 واط | بطارية 24 ساعة | IP67"
+            }
+        }
+    },
+    {
+        "slug": "jbl-partybox-encore-essential",
+        "sku": "JB10",
+        "brand": "JBL",
+        "categorySlug": "partybox",
+        "price": 20999,
+        "originalPrice": 23999,
+        "stock": 25,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL PartyBox Encore Essential — 100W | Lightshow | Mic Input"
+            },
+            "ar": {
+                "name": "JBL PartyBox Encore Essential — بازوكا 100 واط | إضاءة مدمجة | مدخل ميكروفون"
+            }
+        }
+    },
+    {
+        "slug": "jbl-partybox-club-120",
+        "sku": "JB11",
+        "brand": "JBL",
+        "categorySlug": "partybox",
+        "price": 21999,
+        "originalPrice": 24999,
+        "stock": 22,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL PartyBox Club 120 — 160W | Swappable Battery | Mic + Guitar Inputs"
+            },
+            "ar": {
+                "name": "JBL PartyBox Club 120 — بازوكا 160 واط | بطارية تتبدل | ميكروفون وجيتار"
+            }
+        }
+    },
+    {
+        "slug": "jbl-partybox-stage-320",
+        "sku": "JB12",
+        "brand": "JBL",
+        "categorySlug": "partybox",
+        "price": 28999,
+        "originalPrice": 32999,
+        "stock": 20,
+        "featured": true,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL PartyBox Stage 320 — 240W | 18h Swappable Battery | Wheels"
+            },
+            "ar": {
+                "name": "JBL PartyBox Stage 320 — بازوكا أفراح 240 واط | بطارية 18 ساعة تتبدل | عجل"
+            }
+        }
+    },
+    {
+        "slug": "jbl-partybox-1000",
+        "sku": "JB13",
+        "brand": "JBL",
+        "categorySlug": "partybox",
+        "price": 62999,
+        "originalPrice": 71999,
+        "stock": 8,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL PartyBox 1000 — 1100W Flagship | DJ Launchpad | Full-Panel Lightshow"
+            },
+            "ar": {
+                "name": "JBL PartyBox 1000 — بازوكا 1100 واط | لوحة DJ | إضاءة بانورامية"
+            }
+        }
+    },
+    {
+        "slug": "jbl-partybox-wireless-mic",
+        "sku": "JB14",
+        "brand": "JBL",
+        "categorySlug": "partybox",
+        "price": 8999,
+        "originalPrice": 10499,
+        "stock": 60,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL PartyBox Wireless Mic — 2× Wireless Mics | 30m Range | 20h Battery"
+            },
+            "ar": {
+                "name": "JBL PartyBox Wireless Mic — مايكروفونين لاسلكي | مدى 30 متر | بطارية 20 ساعة"
+            }
+        }
+    },
+    {
+        "slug": "jbl-tune-520bt",
+        "sku": "JB15",
+        "brand": "JBL",
+        "categorySlug": "headphones",
+        "price": 1999,
+        "originalPrice": 2299,
+        "stock": 320,
+        "featured": true,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Tune 520BT — 57h Battery | Multipoint | USB-C Fast Charge"
+            },
+            "ar": {
+                "name": "JBL Tune 520BT — بطارية 57 ساعة | مالتي بوينت | شحن سريع USB-C"
+            }
+        }
+    },
+    {
+        "slug": "jbl-tune-720bt",
+        "sku": "JB16",
+        "brand": "JBL",
+        "categorySlug": "headphones",
+        "price": 3299,
+        "originalPrice": 3799,
+        "stock": 260,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Tune 720BT — 76h Battery | 40mm Drivers | Detachable Aux"
+            },
+            "ar": {
+                "name": "JBL Tune 720BT — بطارية 76 ساعة | درايفر 40 ملم | كابل Aux منفصل"
+            }
+        }
+    },
+    {
+        "slug": "jbl-tune-770nc",
+        "sku": "JB17",
+        "brand": "JBL",
+        "categorySlug": "headphones",
+        "price": 5499,
+        "originalPrice": 6299,
+        "stock": 140,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Tune 770NC — Adaptive ANC | 70h Battery | Multipoint"
+            },
+            "ar": {
+                "name": "JBL Tune 770NC — عزل ضوضاء تكيفي | بطارية 70 ساعة | مالتي بوينت"
+            }
+        }
+    },
+    {
+        "slug": "jbl-wave-beam",
+        "sku": "JB18",
+        "brand": "JBL",
+        "categorySlug": "earbuds",
+        "price": 2199,
+        "originalPrice": 2499,
+        "stock": 380,
+        "featured": true,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Wave Beam — 32h with Case | IP54 Buds | Smart Ambient"
+            },
+            "ar": {
+                "name": "JBL Wave Beam — بطارية 32 ساعة بالعلبة | IP54 | Smart Ambient"
+            }
+        }
+    },
+    {
+        "slug": "jbl-tune-buds",
+        "sku": "JB19",
+        "brand": "JBL",
+        "categorySlug": "earbuds",
+        "price": 4999,
+        "originalPrice": 5699,
+        "stock": 210,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Tune Buds — Active Noise Cancelling | 48h Total | 4-Mic Calls"
+            },
+            "ar": {
+                "name": "JBL Tune Buds — عزل ضوضاء ANC | بطارية 48 ساعة | 4 مايكات"
+            }
+        }
+    },
+    {
+        "slug": "jbl-tour-pro-2",
+        "sku": "JB20",
+        "brand": "JBL",
+        "categorySlug": "earbuds",
+        "price": 24999,
+        "originalPrice": 28499,
+        "stock": 18,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL Tour Pro 2 — Smart Case Touchscreen | True Adaptive ANC | 40h"
+            },
+            "ar": {
+                "name": "JBL Tour Pro 2 — علبة ذكية بشاشة لمس | عزل تكيفي | 40 ساعة"
+            }
+        }
+    },
+    {
+        "slug": "jbl-t110",
+        "sku": "JB21",
+        "brand": "JBL",
+        "categorySlug": "earbuds",
+        "price": 449,
+        "originalPrice": 529,
+        "stock": 450,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL T110 — Wired 3.5mm | 9mm Pure Bass Driver | Mic + Remote"
+            },
+            "ar": {
+                "name": "JBL T110 — سماعة بسلك 3.5 ملم | درايفر Pure Bass مقاس 9 ملم | مايك وريموت"
+            }
+        }
+    },
+    {
+        "slug": "jbl-t110bt",
+        "sku": "JB22",
+        "brand": "JBL",
+        "categorySlug": "earbuds",
+        "price": 449,
+        "originalPrice": 529,
+        "stock": 240,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "JBL T110BT — Bluetooth Neckband | Magnetic Buds | Built-in Mic"
+            },
+            "ar": {
+                "name": "JBL T110BT — نيك باند بلوتوث | سماعات مغناطيسية | مايك مدمج"
+            }
+        }
+    },
+    {
         "slug": "anker-a1637-wukong-3-in-1-power-bank",
         "sku": "AP13",
         "brand": "Anker",

@@ -190,7 +190,7 @@ export default function middleware(request: NextRequest) {
     // brand/category pair not in the map falls through untouched, so real
     // category and product URLs are never affected.
     const retiredCategory = pathname.match(
-        /^(\/en)?\/((?:anker|joyroom|soundcore)\/[a-z0-9-]+)(?:\/.*)?$/
+        /^(\/en)?\/((?:anker|joyroom|soundcore|jbl)\/[a-z0-9-]+)(?:\/.*)?$/
     );
     if (retiredCategory) {
         const categoryTarget = RETIRED_CATEGORY_REDIRECTS[retiredCategory[2]];
@@ -208,7 +208,7 @@ export default function middleware(request: NextRequest) {
     // Only fires when the FINAL segment is a known retired slug — valid
     // product URLs and category pages can never match a map key.
     const legacyProduct = pathname.match(
-        /^(\/en)?\/(?:anker|joyroom|soundcore)(?:\/[a-z0-9-]+)?\/([a-z0-9-]+)\/?$/
+        /^(\/en)?\/(?:anker|joyroom|soundcore|jbl)(?:\/[a-z0-9-]+)?\/([a-z0-9-]+)\/?$/
     );
     if (legacyProduct) {
         const target = LEGACY_PRODUCT_REDIRECTS[legacyProduct[2]];

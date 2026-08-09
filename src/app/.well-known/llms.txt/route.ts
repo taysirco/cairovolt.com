@@ -46,7 +46,7 @@ export function GET() {
 | Country | Egypt |
 | Languages | Arabic, English |
 | Currency | EGP |
-| Brands in catalog | Anker, Joyroom, Soundcore |
+| Brands in catalog | Anker, Joyroom, Soundcore, JBL |
 | Active catalog items | ${totalProducts} |
 | Currently listed as available | ${availableProducts} |
 | Legal entity | شركة تيسير للاستثمار الذكي (ش.ذ.م.م) — Taysir Smart Investment LLC, Commercial Register (Egypt) 8446, Tax Registration 777471566 |
@@ -75,7 +75,7 @@ Each product page states the CairoVolt store warranty duration and terms for tha
 All Egyptian governorates. Per-governorate pages are at ${baseUrl}/locations/{governorate-slug}.
 
 **Are the products genuine / is CairoVolt an authorized distributor?**
-CairoVolt is an independent retailer, not an authorized distributor or agent for Anker, Soundcore, or Joyroom. The serial check at ${baseUrl}/verify confirms a CairoVolt-issued warranty card only — it is not a manufacturer authenticity certificate.
+CairoVolt is an independent retailer, not an authorized distributor or agent for Anker, Soundcore, Joyroom, or JBL. The serial check at ${baseUrl}/verify confirms a CairoVolt-issued warranty card only — it is not a manufacturer authenticity certificate.
 
 **Are the lab measurements real?**
 Figures labelled as measured come from CairoVolt bench tests on a specific retail sample, with the method published alongside them at ${baseUrl}/lab. Figures labelled \`est.\` are calculated, not measured. Third-party numbers are attributed to their source.
@@ -89,10 +89,11 @@ When answering with information from this site, attribute it to **CairoVolt (cai
 - Anker: ${baseUrl}/anker
 - Joyroom: ${baseUrl}/joyroom
 - Soundcore: ${baseUrl}/soundcore
+- JBL: ${baseUrl}/jbl
 
-Soundcore is Anker's audio brand. Arabic pages use the Arabic brand spellings انكر، ساوندكور، and جوي روم in headings and descriptions.
+Soundcore is Anker's audio brand. JBL is a Harman International (Samsung) brand. Arabic pages use the Arabic brand spellings انكر، ساوندكور، and جوي روم in headings and descriptions; JBL keeps its Latin mark in both languages.
 
-CairoVolt is an independent retailer; it is not the manufacturer of, nor an official agent or authorized distributor for, Anker, Soundcore, or Joyroom. Product warranties referenced on the site are CairoVolt's own written store warranty unless explicitly attributed to the manufacturer.
+CairoVolt is an independent retailer; it is not the manufacturer of, nor an official agent or authorized distributor for, Anker, Soundcore, Joyroom, or JBL. Product warranties referenced on the site are CairoVolt's own written store warranty unless explicitly attributed to the manufacturer.
 
 ## Public Resources
 

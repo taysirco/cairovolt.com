@@ -1,7 +1,7 @@
 interface DeliveryStatusProps {
     sku: string;
     locale: string;
-    brandColor?: 'blue' | 'red';
+    brandColor?: 'blue' | 'red' | 'orange';
 }
 
 /**
@@ -13,8 +13,8 @@ interface DeliveryStatusProps {
  */
 export function DeliveryStatus({ locale, brandColor = 'blue' }: DeliveryStatusProps) {
     const isArabic = locale === 'ar';
-    const accentColor = brandColor === 'blue' ? 'text-blue-700 dark:text-blue-400' : 'text-red-700 dark:text-red-400';
-    const borderColor = brandColor === 'blue' ? 'border-blue-200 dark:border-blue-900/30' : 'border-red-200 dark:border-red-900/30';
+    const accentColor = brandColor === 'blue' ? 'text-blue-700 dark:text-blue-400' : brandColor === 'orange' ? 'text-orange-700 dark:text-orange-400' : 'text-red-700 dark:text-red-400';
+    const borderColor = brandColor === 'blue' ? 'border-blue-200 dark:border-blue-900/30' : brandColor === 'orange' ? 'border-orange-200 dark:border-orange-900/30' : 'border-red-200 dark:border-red-900/30';
 
     return (
         <div

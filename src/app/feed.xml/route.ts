@@ -16,7 +16,7 @@ export async function GET() {
 
     const feed = new Feed({
         title: 'CairoVolt Product Catalogue',
-        description: 'Active Anker, Soundcore, and Joyroom product listings with current catalogue prices and links.',
+        description: 'Active Anker, Soundcore, Joyroom, and JBL product listings with current catalogue prices and links.',
         id: baseUrl,
         link: baseUrl,
         language: "en, ar",

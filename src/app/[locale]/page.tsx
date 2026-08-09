@@ -33,12 +33,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (locale === 'en') {
     return {
       ...baseMetadata,
-      title: { absolute: 'Mobile Accessories Egypt | Anker, Soundcore & Joyroom' },
-      description: 'Shop Anker, Soundcore, and Joyroom accessories in Egypt. Power banks, earbuds, chargers, and cables with written CairoVolt warranty terms and cash on delivery for eligible orders.',
-      keywords: 'mobile accessories, anker egypt, soundcore egypt, joyroom, power bank, earbuds, anker charger, joyroom t03s',
+      title: { absolute: 'Mobile Accessories Egypt | Anker, Soundcore, JBL & Joyroom' },
+      description: 'Shop Anker, Soundcore, JBL, and Joyroom accessories in Egypt. Power banks, earbuds, speakers, chargers, and cables with written CairoVolt warranty terms and cash on delivery for eligible orders.',
+      keywords: 'mobile accessories, anker egypt, soundcore egypt, jbl egypt, joyroom, power bank, earbuds, jbl speaker, anker charger, joyroom t03s',
       openGraph: {
         title: 'Mobile Accessories Egypt | CairoVolt',
-        description: 'Anker, Soundcore, and Joyroom accessories with delivery to eligible addresses within Egypt, written CairoVolt warranty terms, and cash on delivery for eligible orders.',
+        description: 'Anker, Soundcore, JBL, and Joyroom accessories with delivery to eligible addresses within Egypt, written CairoVolt warranty terms, and cash on delivery for eligible orders.',
         url: 'https://cairovolt.com/en',
         locale: 'en_US',
         type: 'website',
@@ -55,12 +55,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     ...baseMetadata,
-    title: { absolute: 'اكسسوارات موبايل في مصر | انكر وساوندكور وجوي روم' },
-    description: 'تسوق منتجات انكر وساوندكور وجوي روم في مصر. باور بانك، سماعات، شواحن وكابلات بشروط ضمان كايرو فولت المكتوبة حسب المنتج والدفع عند الاستلام للطلبات المؤهلة.',
-    keywords: 'اكسسوارات موبايل, انكر مصر, انكر, ساوندكور, جوي روم, باور بانك, سماعات, شاحن انكر, ايربودز انكر',
+    title: { absolute: 'اكسسوارات موبايل في مصر | انكر وساوندكور وJBL وجوي روم' },
+    description: 'تسوق منتجات انكر وساوندكور وJBL وجوي روم في مصر. باور بانك، سماعات، سبيكرات، شواحن وكابلات بشروط ضمان كايرو فولت المكتوبة حسب المنتج والدفع عند الاستلام للطلبات المؤهلة.',
+    keywords: 'اكسسوارات موبايل, انكر مصر, انكر, ساوندكور, جوي روم, سماعات jbl, jbl مصر, باور بانك, سماعات, شاحن انكر, ايربودز انكر',
     openGraph: {
       title: 'اكسسوارات موبايل في مصر | كايرو فولت',
-      description: 'منتجات انكر وساوندكور وجوي روم مع ضمان كايرو فولت المكتوب وتوصيل للعناوين المؤهلة داخل مصر والدفع عند الاستلام للطلبات المؤهلة.',
+      description: 'منتجات انكر وساوندكور وJBL وجوي روم مع ضمان كايرو فولت المكتوب وتوصيل للعناوين المؤهلة داخل مصر والدفع عند الاستلام للطلبات المؤهلة.',
       url: 'https://cairovolt.com',
       locale: 'ar_EG',
       type: 'website',
@@ -84,6 +84,7 @@ export default async function Home({ params }: Props) {
     ? [
       { title: 'باور بانك', href: '/anker/power-banks' },
       { title: 'ساوندكور', href: '/soundcore' },
+      { title: 'سماعات JBL', href: '/jbl' },
       { title: 'سماعات جوي روم', href: '/joyroom/audio' },
       { title: 'شواحن', href: '/anker/wall-chargers' },
       { title: 'كابلات', href: '/anker/cables' },
@@ -91,6 +92,7 @@ export default async function Home({ params }: Props) {
     : [
       { title: 'Power Banks', href: '/en/anker/power-banks' },
       { title: 'Soundcore Audio', href: '/en/soundcore' },
+      { title: 'JBL Audio', href: '/en/jbl' },
       { title: 'Joyroom Earbuds', href: '/en/joyroom/audio' },
       { title: 'Chargers', href: '/en/anker/wall-chargers' },
       { title: 'Cables', href: '/en/anker/cables' },
@@ -244,11 +246,11 @@ export default async function Home({ params }: Props) {
             <div className="mx-auto mt-4 max-w-3xl text-sm leading-8 text-slate-600">
               {isRTL ? (
                 <p>
-                  كايرو فولت يجمع منتجات <strong className="text-slate-900">انكر</strong> للشحن والطاقة، ومنتجات <strong className="text-slate-900">ساوندكور</strong> للصوتيات، وخيارات <strong className="text-slate-900">جوي روم</strong> العملية للاستخدام اليومي. تقدر تقارن بين الباور بانك، الشواحن، الكابلات، الايربودز والهيدفون، وتشوف السعر والتوافق والضمان الخاص بكل منتج قبل الطلب. التوصيل متاح للعناوين المؤهلة داخل مصر، ويظهر تأكيد الشحن والدفع عند الاستلام قبل إتمام الطلب.
+                  كايرو فولت يجمع منتجات <strong className="text-slate-900">انكر</strong> للشحن والطاقة، ومنتجات <strong className="text-slate-900">ساوندكور</strong> و<strong className="text-slate-900">JBL</strong> للصوتيات، وخيارات <strong className="text-slate-900">جوي روم</strong> العملية للاستخدام اليومي. تقدر تقارن بين الباور بانك، الشواحن، الكابلات، الايربودز والهيدفون، وتشوف السعر والتوافق والضمان الخاص بكل منتج قبل الطلب. التوصيل متاح للعناوين المؤهلة داخل مصر، ويظهر تأكيد الشحن والدفع عند الاستلام قبل إتمام الطلب.
                 </p>
               ) : (
                 <p>
-                  CairoVolt brings together <strong className="text-slate-900">Anker</strong> charging and power products, <strong className="text-slate-900">Soundcore</strong> audio, and practical <strong className="text-slate-900">Joyroom</strong> everyday options. Compare power banks, chargers, cables, earbuds, and headphones with clear pricing, compatibility, and product-specific warranty terms before ordering. Delivery is available to eligible addresses within Egypt, with shipping and cash-on-delivery eligibility confirmed before the order is completed.
+                  CairoVolt brings together <strong className="text-slate-900">Anker</strong> charging and power products, <strong className="text-slate-900">Soundcore</strong> and <strong className="text-slate-900">JBL</strong> audio, and practical <strong className="text-slate-900">Joyroom</strong> everyday options. Compare power banks, chargers, cables, earbuds, and headphones with clear pricing, compatibility, and product-specific warranty terms before ordering. Delivery is available to eligible addresses within Egypt, with shipping and cash-on-delivery eligibility confirmed before the order is completed.
                 </p>
               )}
             </div>
@@ -258,7 +260,7 @@ export default async function Home({ params }: Props) {
         <section className="dark bg-[#07111f] py-16 lg:py-24">
           <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
             <FAQSection
-              productName={isRTL ? 'كايرو فولت — انكر وساوندكور وجوي روم' : 'CairoVolt — Anker, Soundcore & Joyroom'}
+              productName={isRTL ? 'كايرو فولت — انكر وساوندكور وJBL وجوي روم' : 'CairoVolt — Anker, Soundcore, JBL & Joyroom'}
               locale={locale}
               qaList={isRTL ? [
                 { question: 'أبدأ منين لو مش عارف الموديل المناسب؟', answer: 'ابدأ بقسم «اختار حسب استخدامك» أو مساعد الاختيار السريع في الصفحة. اختار هل محتاج صوت أفضل، بطارية أطول، أو شحن أسرع، وحدد ميزانيتك عشان تشوف نقطة بداية مناسبة.' },

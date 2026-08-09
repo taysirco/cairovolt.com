@@ -142,6 +142,8 @@ export const BLOG_SCHEDULE: Record<string, number> = {
     'iphone-charging-cable-break-protection-tips': 1783598400000,
     'iphone-original-charger-price-egypt-warranty': 1783269420000,
     'iphone-x-xs-used-buying-accessories': 1794743340000,
+    'jbl-original-vs-fake-egypt': 1786863600000,
+    'jbl-sub-speaker-meaning': 1786950000000,
     'joyroom-10000mah-power-bank-real-capacity-test': 1787837640000,
     'joyroom-20000mah-power-bank-travel-performance-review': 1787915460000,
     'joyroom-power-banks-10k-20k-models-review': 1785663360000,

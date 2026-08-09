@@ -118,6 +118,7 @@ export default function AdminIndexingPage() {
                             >
                                 <option value="anker">anker</option>
                                 <option value="joyroom">joyroom</option>
+                                <option value="jbl">jbl</option>
                             </select>
                         </div>
                         <div>
