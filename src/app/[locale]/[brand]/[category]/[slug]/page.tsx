@@ -8,6 +8,7 @@ import { ProductSchema, BreadcrumbSchema } from '@/components/schemas/ProductSch
 import { SpeakableSchema } from '@/components/schemas/SpeakableSchema';
 import { calculateVerifiedAggregateRating, getProductReviews as getVerifiedProductReviews } from '@/lib/verified-reviews';
 import { getProductDetailAsync } from '@/data/product-details';
+import { getSpin360FrameCount } from '@/lib/product-spin';
 import { ImageObjectSchema } from '@/components/schemas/ImageObjectSchema';
 import { DeliveryStatus, LivePulseSkeleton } from '@/components/products/DeliveryStatus';
 import { logger } from '@/lib/logger';
@@ -359,6 +360,11 @@ export default async function ProductPage({ params }: Props) {
     // Product detail — computed once, used for schema + client props
     const productDetailData = (await getProductDetailAsync(slug)) || null;
 
+    // 360° spin frame count — computed at build time from the on-disk
+    // public/products/<brand>/<slug>/spin/ directory. Zero when no frames
+    // exist, in which case the client viewer never mounts.
+    const spin360FrameCount = getSpin360FrameCount(product.brand, slug);
+
     // Get static product for smart related products
     const staticProduct = getProductBySlug(slug);
 
@@ -662,6 +668,7 @@ export default async function ProductPage({ params }: Props) {
                     specifications: productDetailData.specifications,
                     benchTest: productDetailData.benchTest,
                 } : null}
+                spin360FrameCount={spin360FrameCount}
             />
 
             {/* Live delivery tracking — streamed dynamically via Suspense */}

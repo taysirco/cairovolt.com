@@ -61,6 +61,10 @@ const BackupTimeCalculator = dynamic(() => import('@/components/UX/BackupTimeCal
     ssr: false
 });
 const VariantSelector = dynamic(() => import('@/components/products/VariantSelector'));
+// 360° spin viewer — client-only, drag/touch driven, mounts only when the
+// server confirmed on-disk spin frames (spin360FrameCount >= 24) AND the user
+// switches to the "360°" gallery tab. Keeps zero weight on 99% of pages today.
+const ProductSpin360 = dynamic(() => import('@/components/products/ProductSpin360'), { ssr: false });
 const RelatedLinks = dynamic(() => import('@/components/content/RelatedLinks'));
 const ShareButtons = dynamic(() => import('@/components/products/ShareButtons'), { ssr: false });
 import { SvgIcon } from '@/components/ui/SvgIcon';
@@ -127,6 +131,10 @@ interface ProductPageClientProps {
         specifications?: Record<string, { en: string; ar: string }>;
         benchTest?: BenchTest;
     } | null;
+    /** Number of 360° spin frames the build detected on disk under
+     *  public/products/<brand>/<slug>/spin/. When < 24 the viewer never
+     *  renders and the gallery-mode toggle is not shown (silent dark ship). */
+    spin360FrameCount?: number;
 }
 
 // Category mapping for breadcrumb
@@ -143,7 +151,7 @@ const categoryKeyMap: Record<string, string> = {
     'partybox': 'partybox',
 };
 
-export default function ProductPageClient({ product, relatedProducts = [], alsoBoughtProducts = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail }: ProductPageClientProps) {
+export default function ProductPageClient({ product, relatedProducts = [], alsoBoughtProducts = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail, spin360FrameCount = 0 }: ProductPageClientProps) {
     const isRTL = locale === 'ar';
     const tCommon = useTranslations('Common');
 
@@ -158,6 +166,11 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
     const [quantity, setQuantity] = useState(1);
     const [selectedImage, setSelectedImage] = useState(0);
     const [showAddedFeedback, setShowAddedFeedback] = useState(false);
+    // Gallery mode toggle — 'photos' shows the existing static-image hero,
+    // 'spin' mounts <ProductSpin360>. Toggle only rendered when the build
+    // detected >= 24 real spin frames on disk. Silent dark ship otherwise.
+    const [galleryMode, setGalleryMode] = useState<'photos' | 'spin'>('photos');
+    const has360 = spin360FrameCount >= 24;
 
     // ═══ Variant State ═══
     const defaultVariant = useMemo(() => {
@@ -459,7 +472,55 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                 <article className="grid lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-12 max-w-full min-w-0">
                     {/* Product Images */}
                     <div className="space-y-4 max-w-full min-w-0">
+                        {/* Gallery mode toggle — only when real spin frames exist on disk.
+                            Ships dark by default: every current product has 0 frames and
+                            renders exactly as before. */}
+                        {has360 && (
+                            <div
+                                role="tablist"
+                                aria-label={isRTL ? 'وضع عرض المنتج' : 'Product gallery mode'}
+                                className="inline-flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-full text-sm font-medium"
+                            >
+                                <button
+                                    type="button"
+                                    role="tab"
+                                    aria-selected={galleryMode === 'photos'}
+                                    onClick={() => setGalleryMode('photos')}
+                                    className={`px-4 py-1.5 rounded-full transition-colors ${
+                                        galleryMode === 'photos'
+                                            ? `${(isSoundcoreBrand || isJblBrand) ? 'bg-orange-600' : isAnkerBrand ? 'bg-blue-600' : 'bg-red-600'} text-white shadow`
+                                            : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
+                                    }`}
+                                >
+                                    {isRTL ? 'الصور' : 'Photos'}
+                                </button>
+                                <button
+                                    type="button"
+                                    role="tab"
+                                    aria-selected={galleryMode === 'spin'}
+                                    onClick={() => setGalleryMode('spin')}
+                                    className={`px-4 py-1.5 rounded-full transition-colors ${
+                                        galleryMode === 'spin'
+                                            ? `${(isSoundcoreBrand || isJblBrand) ? 'bg-orange-600' : isAnkerBrand ? 'bg-blue-600' : 'bg-red-600'} text-white shadow`
+                                            : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
+                                    }`}
+                                >
+                                    <span aria-hidden="true" className="mr-1">360°</span>
+                                    {isRTL ? 'عرض 360°' : '360° View'}
+                                </button>
+                            </div>
+                        )}
                         {/* Main Image */}
+                        {has360 && galleryMode === 'spin' ? (
+                            <ProductSpin360
+                                slug={product.slug}
+                                brand={product.brand}
+                                frameCount={spin360FrameCount}
+                                locale={locale === 'ar' ? 'ar' : 'en'}
+                                primaryImage={heroImage800}
+                                altName={productName}
+                            />
+                        ) : (
                         <div
                             className="relative aspect-square mx-auto w-full bg-white dark:bg-gray-900 rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-lg isolate"
                             onTouchStart={(e) => {
@@ -541,6 +602,7 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                 )}
                             </div>
                         </div>
+                        )}
 
                         {/* Thumbnail Images */}
                         {images.length > 1 && (
