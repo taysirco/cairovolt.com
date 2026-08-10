@@ -1075,9 +1075,19 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                                                         </span>
                                                     </summary>
-                                                    <p className="px-4 pb-4 text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                                                        {faq.answer}
-                                                    </p>
+                                                    {/* Answers may carry internal links (sibling models, category
+                                                        pages). Rendering them as a plain string printed the raw
+                                                        <a href=…> markup as visible text on 64 answers across the
+                                                        catalogue. Same sanitize + locale-aware link pipeline the
+                                                        description already uses, so the i18n quarantine still holds. */}
+                                                    <p
+                                                        className="px-4 pb-4 text-gray-600 dark:text-gray-400 text-sm leading-relaxed [&_a]:text-blue-700 [&_a]:underline dark:[&_a]:text-blue-400"
+                                                        dangerouslySetInnerHTML={{
+                                                            __html: isRTL
+                                                                ? localizeArabicBrandHtml(localizeInternalLinks(sanitizeHtml(faq.answer), locale))
+                                                                : localizeInternalLinks(sanitizeHtml(faq.answer), locale),
+                                                        }}
+                                                    />
                                                 </details>
                                             ))}
                                         </div>

@@ -71,6 +71,7 @@ export const jbl_earbuds_content: CategoryContent = {
                 }
             ],
             faq: [
+                        { question: 'كام سعر ايربودز JBL في مصر؟', answer: 'أرخص دخول لصوت JBL هو T110 السلك بـ249 جنيه، والنيك باند T110BT بـ449. الايربودز اللاسلكية بتبدأ من Wave Beam بـ2,449 جنيه، وTune Buds بعزل الضوضاء بـ5,999، والفلاجشيب Tour Pro 2 بعلبة الشاشة بـ14,499 جنيه.' },
                 {
                     question: 'هو JBL بتعمل AirPods؟ إيه اللي بيطلع لما أدور "jbl airpods"؟',
                     answer: 'AirPods اسم منتج Apple، لكن الناس بتستخدم الكلمة لأي ايربودز لاسلكية. اللي بتدور عليه هو سماعات JBL True Wireless (TWS) — زي Wave Beam وTune Buds وTour Pro 2 — وكلها بتشتغل مع الأندرويد والايفون عادي عبر البلوتوث.'
@@ -166,6 +167,7 @@ If your day includes metro and bus commutes, ANC makes an audible difference on 
                 }
             ],
             faq: [
+                        { question: 'How much do JBL earbuds cost in Egypt?', answer: 'The cheapest way into JBL sound is the wired T110 at 249 EGP, with the T110BT neckband at 449. True-wireless starts with the Wave Beam at 2,449 EGP, the ANC Tune Buds at 5,999, and the touchscreen-case Tour Pro 2 flagship at 14,499 EGP.' },
                 {
                     question: 'Does JBL make AirPods? What do I get when I search "JBL AirPods"?',
                     answer: 'AirPods is Apple\'s product name, but people use it for any true wireless earbuds. What you are looking for is JBL\'s TWS line — Wave Beam, Tune Buds, and Tour Pro 2 — all of which pair with both Android and iPhone over standard Bluetooth.'

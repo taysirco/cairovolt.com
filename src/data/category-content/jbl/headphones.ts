@@ -66,6 +66,7 @@ export const jbl_headphones_content: CategoryContent = {
                 }
             ],
             faq: [
+                        { question: 'كام سعر هيدفون JBL في مصر؟', answer: 'سماعات الراس JBL عندنا بتبدأ من 2,149 جنيه لـ Tune 520BT (أون اير)، وTune 720BT الأوفر اير بـ3,049، وTune 770NC بعزل الضوضاء التكيفي بـ4,049 جنيه. السعر الحالي والمخزون في صفحة كل موديل.' },
                 {
                     question: 'هيدفون JBL بيشتغل بسلك لو البطارية خلصت؟',
                     answer: 'حسب المواصفات المعلنة: Tune 720BT وTune 770NC فيهم مدخل AUX وبييجي معاهم كابل صوت، فتقدر تكمل سماع بالسلك لو البطارية خلصت. أما Tune 520BT فبلوتوث بس من غير مدخل سلك صوت — الشحن السريع المعلن (5 دقايق تدي حوالي 3 ساعات) هو الحل السريع فيه.'
@@ -150,6 +151,7 @@ JBL lists two figures for the Tune 770NC: **70 hours with ANC off** and **44 hou
                 }
             ],
             faq: [
+                        { question: 'How much do JBL headphones cost in Egypt?', answer: 'JBL headphones here start at 2,149 EGP for the on-ear Tune 520BT, with the over-ear Tune 720BT at 3,049 and the adaptive-ANC Tune 770NC at 4,049 EGP. Live price and stock are on each model page.' },
                 {
                     question: 'Do JBL headphones work wired if the battery dies?',
                     answer: 'Per the listed specs: the Tune 720BT and Tune 770NC include an AUX input with a detachable audio cable, so you can keep listening wired when the battery runs out. The Tune 520BT is Bluetooth-only with no audio-cable input — its listed quick charge (5 minutes for about 3 hours) is the fallback there.'

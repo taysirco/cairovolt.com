@@ -60,8 +60,8 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Bose</th>
     </tr></thead>
     <tbody>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>سماعة محمولة (فئة البداية)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">800-1,200 ج</td><td style="padding:12px;border:1px solid #d1d5db;">1,200-1,800 ج</td><td style="padding:12px;border:1px solid #d1d5db;">3,000-4,500 ج</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>سماعة محمولة (فئة متوسطة)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">1,500-2,500 ج</td><td style="padding:12px;border:1px solid #d1d5db;">2,500-4,000 ج</td><td style="padding:12px;border:1px solid #d1d5db;">5,000-8,000 ج</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>سماعة محمولة (فئة البداية)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">800-1,200 ج</td><td style="padding:12px;border:1px solid #d1d5db;">2,000-3,000 ج</td><td style="padding:12px;border:1px solid #d1d5db;">3,000-4,500 ج</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>سماعة محمولة (فئة متوسطة)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">1,500-2,500 ج</td><td style="padding:12px;border:1px solid #d1d5db;">5,500-9,500 ج</td><td style="padding:12px;border:1px solid #d1d5db;">5,000-8,000 ج</td></tr>
     <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>سماعة أذن لاسلكية (TWS)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">600-1,500 ج</td><td style="padding:12px;border:1px solid #d1d5db;">1,200-2,500 ج</td><td style="padding:12px;border:1px solid #d1d5db;">4,000-7,000 ج</td></tr>
     </tbody>
 </table>
@@ -82,7 +82,7 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
 
 <h2>الجولة الرابعة — مقاومة المياه والمتانة</h2>
 
-<p><strong>JBL:</strong> الأقوى في المتانة. معظم سماعات JBL المحمولة فيها تصنيف IP67 — يعني مقاومة للغبار والغمر في المياه لعمق متر لمدة 30 دقيقة. مثالية للبحر والحمام السباحة والمطر. بعض الموديلات زي JBL Xtreme بتطفو على المياه كمان.</p>
+<p><strong>JBL:</strong> الأقوى في المتانة. معظم سماعات JBL المحمولة فيها تصنيف IP67 — يعني مقاومة للغبار والغمر في المياه لعمق متر لمدة 30 دقيقة. مثالية للبحر والحمام السباحة والمطر. ومهم توضيحه: JBL مابتعلنش الطفو كميزة للموديلات المعروضة عندنا، فما تعتمدش على إن السبيكر هيطفو. أسعار الجدول ده رصد سوق (أغسطس 2026) وبتتغير — السعر الحالي على <a href="/jbl/speakers">سبيكرات JBL</a> و<a href="/soundcore/speakers">سبيكرات ساوندكور</a>.</p>
 
 <p><strong>Soundcore:</strong> معظمها IPX7 (مقاومة للغمر في المياه بدون حماية من الغبار) أو IP67 في الموديلات المتقدمة. <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Soundcore Flare 2</a> مثلاً عندها IPX7 — كافية للبحر والمسبح. ومعظم الاستخدامات العملية مش محتاجة أكتر من كده.</p>
 
@@ -203,8 +203,8 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Bose</th>
     </tr></thead>
     <tbody>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>Portable (Entry-level)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">800-1,200 EGP</td><td style="padding:12px;border:1px solid #d1d5db;">1,200-1,800 EGP</td><td style="padding:12px;border:1px solid #d1d5db;">3,000-4,500 EGP</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>Portable (Mid-range)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">1,500-2,500 EGP</td><td style="padding:12px;border:1px solid #d1d5db;">2,500-4,000 EGP</td><td style="padding:12px;border:1px solid #d1d5db;">5,000-8,000 EGP</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>Portable (Entry-level)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">800-1,200 EGP</td><td style="padding:12px;border:1px solid #d1d5db;">2,000-3,000 EGP</td><td style="padding:12px;border:1px solid #d1d5db;">3,000-4,500 EGP</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>Portable (Mid-range)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">1,500-2,500 EGP</td><td style="padding:12px;border:1px solid #d1d5db;">5,500-9,500 EGP</td><td style="padding:12px;border:1px solid #d1d5db;">5,000-8,000 EGP</td></tr>
     <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>True Wireless Earbuds (TWS)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">600-1,500 EGP</td><td style="padding:12px;border:1px solid #d1d5db;">1,200-2,500 EGP</td><td style="padding:12px;border:1px solid #d1d5db;">4,000-7,000 EGP</td></tr>
     </tbody>
 </table>
@@ -225,7 +225,7 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
 
 <h2>Round 4 — Water Resistance and Durability</h2>
 
-<p><strong>JBL:</strong> Strongest in durability. Most portable JBL speakers carry an IP67 rating — meaning dust-proof and waterproof for submersion up to 1 meter for 30 minutes. Perfect for the beach, swimming pools, and rain. Some models like JBL Xtreme even float on water.</p>
+<p><strong>JBL:</strong> Strongest in durability. Most portable JBL speakers carry an IP67 rating — meaning dust-proof and waterproof for submersion up to 1 meter for 30 minutes. Perfect for the beach, swimming pools, and rain. Worth clarifying: JBL does not list floating as a feature for the models we stock, so do not rely on it. The table above reflects an August 2026 market survey and changes — current pricing lives on <a href="/en/jbl/speakers">JBL speakers</a> and <a href="/en/soundcore/speakers">Soundcore speakers</a>.</p>
 
 <p><strong>Soundcore:</strong> Most models are IPX7 (water submersion resistant without dust protection) or IP67 in advanced models. The <a href="/en/soundcore/speakers/anker-soundcore-flare-2" style="color:#2563eb;font-weight:600;">Soundcore Flare 2</a> for example has IPX7 — sufficient for beach and pool use. And most practical use cases don't need more than that.</p>
 

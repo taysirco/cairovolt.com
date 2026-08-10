@@ -102,7 +102,7 @@ export const jbl_speakers_content: CategoryContent = {
                 },
                 {
                     question: 'سعر صب JBL كام في مصر؟',
-                    answer: 'السعر الحالي معروض على بطاقة وصفحة كل موديل وبيتغير مع المخزون والعروض — المدى عندنا بيبدأ من Go 4 الصغيرة ويوصل لـ Boombox 3. قارن الخرج والبطارية وتصنيف IP حسب استخدامك، وكل الموديلات بضمان كايرو فولت 12 شهر ودفع عند الاستلام.'
+                    answer: 'سبيكرات JBL عندنا بتبدأ من 2,049 جنيه لـ Go 4 وبتوصل 22,649 جنيه لـ Boombox 3. اللي أغلب الناس بتقصده بكلمة "صب" — يعني باس ملموس — بيبدأ من Flip 6 بـ5,499 جنيه، وCharge 5 بـ6,999، وCharge 6 بـ9,149. السعر بيتغير مع المخزون والعروض، والسعر الحالي معروض على صفحة كل موديل بضمان كايرو فولت 12 شهر ودفع عند الاستلام.'
                 }
             ],
             products: [
@@ -202,7 +202,7 @@ Bottom line: tighter budget and shorter sessions → Flip 6. Newest protocols in
                 },
                 {
                     question: 'How much does a JBL speaker cost in Egypt?',
-                    answer: 'The live price is shown on each model card and product page and changes with stock and promotions — our range starts at the compact Go 4 and tops out at the Boombox 3. Compare output, battery, and IP rating against your use case; every model carries the CairoVolt 12-month warranty with cash on delivery.'
+                    answer: 'JBL speakers here start at 2,049 EGP for the Go 4 and reach 22,649 EGP for the Boombox 3. The class most buyers mean by real bass starts at the Flip 6 (5,499 EGP), with Charge 5 at 6,999 and Charge 6 at 9,149. Prices move with stock and promotions; the live figure is on each model page, and every model carries the CairoVolt 12-month warranty with cash on delivery.'
                 }
             ],
             products: [

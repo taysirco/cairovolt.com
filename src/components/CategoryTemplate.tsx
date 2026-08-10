@@ -543,7 +543,11 @@ export default function CategoryTemplate({
                                             <span className="text-purple-500 group-open:rotate-180 transition-transform">▼</span>
                                         </summary>
                                         <div className="px-5 pb-5 text-gray-600 dark:text-gray-400 leading-relaxed">
-                                            {item.answer}
+                                            {/* Answers carry markdown/HTML links (sibling models,
+                                                the JBL Buy Authentic reference). Rendering them as a
+                                                plain string printed the literal syntax to the user —
+                                                buyingGuide on the same page already uses this renderer. */}
+                                            <MarkdownRenderer content={item.answer} />
                                         </div>
                                     </details>
                                 ))}
@@ -664,7 +668,11 @@ export default function CategoryTemplate({
                                             <span className={`${brandColor === 'red' ? 'text-red-500' : brandColor === 'orange' ? 'text-orange-500' : 'text-blue-500'} group-open:rotate-180 transition-transform`}>▼</span>
                                         </summary>
                                         <div className="px-5 pb-5 text-gray-600 dark:text-gray-400 leading-relaxed">
-                                            {item.answer}
+                                            {/* Answers carry markdown/HTML links (sibling models,
+                                                the JBL Buy Authentic reference). Rendering them as a
+                                                plain string printed the literal syntax to the user —
+                                                buyingGuide on the same page already uses this renderer. */}
+                                            <MarkdownRenderer content={item.answer} />
                                         </div>
                                     </details>
                                 ))}
@@ -758,7 +766,11 @@ export default function CategoryTemplate({
                                                 <span className="transform group-open:rotate-180 transition-transform text-gray-400">▼</span>
                                             </summary>
                                             <div className="px-4 pb-4 pt-2 text-gray-600 dark:text-gray-400 leading-relaxed border-t border-gray-100 dark:border-gray-800">
-                                                {item.answer}
+                                                {/* Answers carry markdown/HTML links (sibling models,
+                                                the JBL Buy Authentic reference). Rendering them as a
+                                                plain string printed the literal syntax to the user —
+                                                buyingGuide on the same page already uses this renderer. */}
+                                            <MarkdownRenderer content={item.answer} />
                                             </div>
                                         </details>
                                     ))}
