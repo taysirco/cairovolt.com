@@ -7,23 +7,24 @@ export const jbl_go_4 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLGO4",
-    price: 2099,
+    price: 2049,
     originalPrice: 2399,
-    stock: 340,
+    stock: 446,
     featured: true,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-go-4/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-go-4-main-view-cairovolt.webp                 alt EN: "JBL Go 4 compact IP67 Bluetooth speaker JBLGO4 - CairoVolt"
-    //   jbl-go-4-features-angle-cairovolt.webp            alt AR: "سماعة JBL Go 4 موديل JBLGO4 زاوية المزايا - كايرو فولت"
-    //   jbl-go-4-specifications-detail-cairovolt.webp     alt EN: "JBL Go 4 JBLGO4 USB-C port and controls detail - CairoVolt"
-    //   jbl-go-4-retail-box-authentic-cairovolt.webp      alt AR: "علبة سماعة JBL Go 4 الأصلية JBLGO4 - كايرو فولت"
-    //   jbl-go-4-in-use-lifestyle-cairovolt.webp          alt EN: "JBL Go 4 JBLGO4 speaker on a desk lifestyle - CairoVolt"
-    //   jbl-go-4-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم سماعة JBL Go 4 موديل JBLGO4 باليد - كايرو فولت"
-    //   jbl-go-4-accessories-included-cairovolt.webp      alt EN: "JBL Go 4 JBLGO4 box contents and strap - CairoVolt"
-    //   jbl-go-4-close-up-detail-cairovolt.webp           alt AR: "تفاصيل قماش سماعة JBL Go 4 موديل JBLGO4 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-go-4/jbl-go-4-main-view-cairovolt.webp", alt: "JBL Go 4 JBLGO4 black portable speaker, three-quarter front view with fabric loop strap - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-go-4/jbl-go-4-in-use-lifestyle-cairovolt.webp", alt: "سماعة JBL Go 4 زرقاء في الخارج وإصبع يضغط على أزرار التحكم العلوية - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-go-4/jbl-go-4-back-view-cairovolt.webp", alt: "JBL Go 4 JBLGO4 black speaker back view showing loop strap and rubber grip strips - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-go-4/jbl-go-4-charging-port-detail-cairovolt.webp", alt: "جانب سماعة JBL Go 4 يظهر شعار GO4 ومنفذ شحن USB-C - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-go-4/jbl-go-4-controls-detail-cairovolt.webp", alt: "JBL Go 4 JBLGO4 side panel with power, Bluetooth and Auracast buttons - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-go-4/jbl-go-4-back-view-2-cairovolt.webp", alt: "منظر خلفي مائل لسماعة JBL Go 4 يوضح شعار GO4 ومنفذ USB-C وشرائط المطاط - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-go-4/jbl-go-4-retail-box-authentic-cairovolt.webp", alt: "JBL Go 4 JBLGO4 retail box with orange JBL branding, Bluetooth 5.3 and 7H battery icons - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-go-4/jbl-go-4-in-use-lifestyle-2-cairovolt.webp", alt: "سماعة JBL Go 4 سوداء موضوعة على أوراق نبات خضراء في الخارج - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-go-4/jbl-go-4-in-use-lifestyle-3-cairovolt.webp", alt: "JBL Go 4 JBLGO4 black speaker on beach sand with sea in the background - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-go-4/jbl-go-4-size-comparison-cairovolt.webp", alt: "سماعة JBL Go 4 مع الأبعاد موضحة: 12.19 × 10.31 × 5.59 سم - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-clip-5", "jbl-flip-6", "jbl-charge-5", "jbl-wave-beam"],
 

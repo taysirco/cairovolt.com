@@ -9,21 +9,21 @@ export const jbl_charge_5 = {
     mpn: "JBLCHARGE5",
     price: 6999,
     originalPrice: 7999,
-    stock: 190,
+    stock: 489,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-charge-5/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-charge-5-main-view-cairovolt.webp                 alt EN: "JBL Charge 5 IP67 Bluetooth speaker JBLCHARGE5 - CairoVolt"
-    //   jbl-charge-5-features-angle-cairovolt.webp            alt AR: "سماعة JBL Charge 5 موديل JBLCHARGE5 زاوية المزايا - كايرو فولت"
-    //   jbl-charge-5-specifications-detail-cairovolt.webp     alt EN: "JBL Charge 5 JBLCHARGE5 ports and powerbank output detail - CairoVolt"
-    //   jbl-charge-5-retail-box-authentic-cairovolt.webp      alt AR: "علبة سماعة JBL Charge 5 الأصلية JBLCHARGE5 - كايرو فولت"
-    //   jbl-charge-5-in-use-lifestyle-cairovolt.webp          alt EN: "JBL Charge 5 JBLCHARGE5 speaker charging a phone on a camping trip - CairoVolt"
-    //   jbl-charge-5-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم سماعة JBL Charge 5 موديل JBLCHARGE5 باليد - كايرو فولت"
-    //   jbl-charge-5-accessories-included-cairovolt.webp      alt EN: "JBL Charge 5 JBLCHARGE5 box contents and cable - CairoVolt"
-    //   jbl-charge-5-close-up-detail-cairovolt.webp           alt AR: "تفاصيل قماش سماعة JBL Charge 5 موديل JBLCHARGE5 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-charge-5/jbl-charge-5-main-view-cairovolt.webp", alt: "JBL Charge 5 JBLCHARGE5 black speaker straight front view with JBL logo and battery LED - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-charge-5/jbl-charge-5-features-angle-cairovolt.webp", alt: "سماعة JBL Charge 5 سوداء، منظر ثلاثي الأرباع يوضح المشع الجانبي وأزرار التحكم - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-charge-5/jbl-charge-5-back-view-cairovolt.webp", alt: "JBL Charge 5 JBLCHARGE5 back view with CHARGE 5 port cover and USB-C - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-charge-5/jbl-charge-5-side-view-cairovolt.webp", alt: "منظر جانبي لطرف سماعة JBL Charge 5 يوضح مشع الباس بعلامة التعجب - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-charge-5/jbl-charge-5-top-view-cairovolt.webp", alt: "JBL Charge 5 JBLCHARGE5 top view with PartyBoost, volume, power, Bluetooth and play buttons - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-charge-5/jbl-charge-5-bottom-view-cairovolt.webp", alt: "الجزء السفلي لسماعة JBL Charge 5 يوضح شبكة الباس المضلعة ومؤشر البطارية - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-charge-5/jbl-charge-5-charging-port-detail-cairovolt.webp", alt: "JBL Charge 5 JBLCHARGE5 open port panel with USB-C charging and USB-A powerbank output - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-charge-5/jbl-charge-5-retail-box-authentic-cairovolt.webp", alt: "علبة سماعة JBL Charge 5 الأصلية برسمة رذاذ الماء وبلوتوث 5.1 وبطارية 20 ساعة - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-charge-5/jbl-charge-5-in-use-lifestyle-cairovolt.webp", alt: "JBL Charge 5 JBLCHARGE5 blue speaker resting on an ornate metal patio table outdoors - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-charge-6", "jbl-flip-6", "jbl-go-4", "jbl-xtreme-4"],
 

@@ -7,23 +7,26 @@ export const jbl_partybox_club_120 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLPBCLUB120",
-    price: 21999,
-    originalPrice: 24999,
-    stock: 22,
+    price: 20949,
+    originalPrice: 24649,
+    stock: 348,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-partybox-club-120/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-partybox-club-120-main-view-cairovolt.webp             alt EN: "JBL PartyBox Club 120 160W party speaker JBLPBCLUB120 - CairoVolt"
-    //   jbl-partybox-club-120-features-angle-cairovolt.webp        alt AR: "بازوكا JBL PartyBox Club 120 موديل JBLPBCLUB120 زاوية المزايا - كايرو فولت"
-    //   jbl-partybox-club-120-specifications-detail-cairovolt.webp alt EN: "JBL PartyBox Club 120 JBLPBCLUB120 swappable battery and inputs detail - CairoVolt"
-    //   jbl-partybox-club-120-retail-box-authentic-cairovolt.webp  alt AR: "علبة بازوكا JBL PartyBox Club 120 الأصلية JBLPBCLUB120 - كايرو فولت"
-    //   jbl-partybox-club-120-in-use-lifestyle-cairovolt.webp      alt EN: "JBL PartyBox Club 120 JBLPBCLUB120 lightshow at a cafe party - CairoVolt"
-    //   jbl-partybox-club-120-size-comparison-cairovolt.webp       alt AR: "مقارنة حجم بازوكا JBL PartyBox Club 120 موديل JBLPBCLUB120 - كايرو فولت"
-    //   jbl-partybox-club-120-accessories-included-cairovolt.webp  alt EN: "JBL PartyBox Club 120 JBLPBCLUB120 box contents and battery pack - CairoVolt"
-    //   jbl-partybox-club-120-close-up-detail-cairovolt.webp       alt AR: "تفاصيل مقبض بازوكا JBL PartyBox Club 120 موديل JBLPBCLUB120 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-main-view-cairovolt.webp", alt: "JBL PartyBox Club 120 JBLPBCLUB120 three-quarter view with handle up and pink-red figure-8 lightshow - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-front-view-cairovolt.webp", alt: "سماعة JBL PartyBox Club 120 من الأمام بإضاءة خضراء على شكل 8 على الشبكة - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-back-view-cairovolt.webp", alt: "JBL PartyBox Club 120 JBLPBCLUB120 back view with recessed handle, splash-covered port panel and bass port - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-side-view-cairovolt.webp", alt: "الجانب في سماعة JBL PartyBox Club 120 بتصميم مضلع وشعار علامة التعجب - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-back-angle-view-cairovolt.webp", alt: "JBL PartyBox Club 120 JBLPBCLUB120 rear three-quarter view with folding handle raised and port covers closed - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-charging-port-detail-cairovolt.webp", alt: "لوحة منافذ JBL PartyBox Club 120: مدخلين مايك وجيتار و USB و AUX وتوصيل Daisy Chain - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-port-cover-open-detail-cairovolt.webp", alt: "JBL PartyBox Club 120 JBLPBCLUB120 close-up of splashproof cover flipped open with orange interior - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-top-view-cairovolt.webp", alt: "لوحة التحكم العلوية في JBL PartyBox Club 120 بأزرار التشغيل والبلوتوث و Bass Boost والإضاءة - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-bottom-view-cairovolt.webp", alt: "JBL PartyBox Club 120 JBLPBCLUB120 bottom view showing rubber feet and integrated carry recess - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-retail-box-authentic-cairovolt.webp", alt: "العلبة الأصلية لسماعة JBL PartyBox Club 120 بتصميم Pure Party Energy - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_11", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-retail-display-with-mic-bundle-cairovolt.webp", alt: "JBL PartyBox Club 120 JBLPBCLUB120 in-store display with green lightshow beside wireless mic bundle box - CairoVolt", order: 10, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_12", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-internal-drivers-cutaway-cairovolt.webp", alt: "رسم توضيحي داخلي لسماعة JBL PartyBox Club 120 يظهر الووفرات والتويتر خارج الهيكل - كايرو فولت", order: 11, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-partybox-encore-essential", "jbl-partybox-stage-320", "jbl-partybox-wireless-mic", "jbl-boombox-3", "jbl-partybox-1000"],
 

@@ -7,23 +7,24 @@ export const jbl_clip_5 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLCLIP5",
-    price: 2999,
-    originalPrice: 3399,
-    stock: 280,
+    price: 2799,
+    originalPrice: 3199,
+    stock: 435,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-clip-5/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-clip-5-main-view-cairovolt.webp                 alt EN: "JBL Clip 5 carabiner Bluetooth speaker JBLCLIP5 - CairoVolt"
-    //   jbl-clip-5-features-angle-cairovolt.webp            alt AR: "سماعة JBL Clip 5 موديل JBLCLIP5 زاوية المزايا - كايرو فولت"
-    //   jbl-clip-5-specifications-detail-cairovolt.webp     alt EN: "JBL Clip 5 JBLCLIP5 carabiner and USB-C detail - CairoVolt"
-    //   jbl-clip-5-retail-box-authentic-cairovolt.webp      alt AR: "علبة سماعة JBL Clip 5 الأصلية JBLCLIP5 - كايرو فولت"
-    //   jbl-clip-5-in-use-lifestyle-cairovolt.webp          alt EN: "JBL Clip 5 JBLCLIP5 clipped on a backpack lifestyle - CairoVolt"
-    //   jbl-clip-5-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم سماعة JBL Clip 5 موديل JBLCLIP5 باليد - كايرو فولت"
-    //   jbl-clip-5-accessories-included-cairovolt.webp      alt EN: "JBL Clip 5 JBLCLIP5 box contents - CairoVolt"
-    //   jbl-clip-5-close-up-detail-cairovolt.webp           alt AR: "تفاصيل كارابينر سماعة JBL Clip 5 موديل JBLCLIP5 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-clip-5/jbl-clip-5-main-view-cairovolt.webp", alt: "JBL Clip 5 JBLCLIP5 black speaker, three-quarter front view with built-in carabiner - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-clip-5/jbl-clip-5-carabiner-open-detail-cairovolt.webp", alt: "سماعة JBL Clip 5 من الأمام مع مشبك الكارابينر مفتوح - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-clip-5/jbl-clip-5-back-view-cairovolt.webp", alt: "JBL Clip 5 JBLCLIP5 back view showing rubber grip ridges and carabiner - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-clip-5/jbl-clip-5-side-view-cairovolt.webp", alt: "منظر جانبي لسماعة JBL Clip 5 بأزرار التشغيل والبلوتوث وAuracast - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-clip-5/jbl-clip-5-top-view-cairovolt.webp", alt: "JBL Clip 5 JBLCLIP5 top view showing the carabiner spine and fabric body - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-clip-5/jbl-clip-5-charging-port-detail-cairovolt.webp", alt: "الجزء السفلي لسماعة JBL Clip 5 مع منفذ شحن USB-C - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-clip-5/jbl-clip-5-internal-driver-detail-cairovolt.webp", alt: "JBL Clip 5 JBLCLIP5 x-ray style render revealing the internal speaker driver - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-clip-5/jbl-clip-5-retail-box-authentic-cairovolt.webp", alt: "علبة سماعة JBL Clip 5 الأصلية ببلوتوث 5.3 وبطارية 12 ساعة - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-clip-5/jbl-clip-5-in-use-lifestyle-cairovolt.webp", alt: "JBL Clip 5 JBLCLIP5 black speaker hanging by its carabiner on driftwood outdoors - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-clip-5/jbl-clip-5-in-use-lifestyle-2-cairovolt.webp", alt: "سماعة JBL Clip 5 سوداء مستندة على صخرة أمام خلفية وردية - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-go-4", "jbl-flip-6", "jbl-flip-7", "jbl-pulse-5"],
 

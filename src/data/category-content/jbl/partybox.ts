@@ -93,11 +93,11 @@ Encore Essential وClub 120 وStage 320 بيشتغلوا على بطارية أ�
                         }
                     ],
                     products: [
-                        { name: 'JBL PartyBox Encore Essential', price: 20999, badge: 'بداية البازوكا' },
-                        { name: 'JBL PartyBox Club 120', price: 21999, badge: 'بطارية تتبدل' },
-                        { name: 'JBL PartyBox Stage 320', price: 28999, badge: 'الأكثر طلبًا' },
-                        { name: 'JBL PartyBox 1000', price: 62999, badge: '1100 واط' },
-                        { name: 'JBL PartyBox Wireless Mic', price: 8999, badge: 'ميكروفون ×2' },
+                        { name: 'JBL PartyBox Encore Essential', price: 20099, badge: 'بداية البازوكا' },
+                        { name: 'JBL PartyBox Club 120', price: 20949, badge: 'بطارية تتبدل' },
+                        { name: 'JBL PartyBox Stage 320', price: 29449, badge: 'الأكثر طلبًا' },
+                        { name: 'JBL PartyBox 1000', price: 65999, badge: '1100 واط' },
+                        { name: 'JBL PartyBox Wireless Mic', price: 5949, badge: 'ميكروفون ×2' },
                     ]
                 },
                 en: {
@@ -176,11 +176,11 @@ The Encore Essential, Club 120, and Stage 320 run on battery or AC; the Club 120
                         }
                     ],
                     products: [
-                        { name: 'JBL PartyBox Encore Essential', price: 20999, badge: 'Entry PartyBox' },
-                        { name: 'JBL PartyBox Club 120', price: 21999, badge: 'Swappable Battery' },
-                        { name: 'JBL PartyBox Stage 320', price: 28999, badge: 'Top Pick' },
-                        { name: 'JBL PartyBox 1000', price: 62999, badge: '1100W Flagship' },
-                        { name: 'JBL PartyBox Wireless Mic', price: 8999, badge: 'Wireless Mic ×2' },
+                        { name: 'JBL PartyBox Encore Essential', price: 20099, badge: 'Entry PartyBox' },
+                        { name: 'JBL PartyBox Club 120', price: 20949, badge: 'Swappable Battery' },
+                        { name: 'JBL PartyBox Stage 320', price: 29449, badge: 'Top Pick' },
+                        { name: 'JBL PartyBox 1000', price: 65999, badge: '1100W Flagship' },
+                        { name: 'JBL PartyBox Wireless Mic', price: 5949, badge: 'Wireless Mic ×2' },
                     ]
                 }
             }

@@ -12,6 +12,7 @@ export const anker_soundcore_r50i_nc = {
             { id: "img_7", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-package-contents-eartips-cable-box.webp", alt: "سماعة ساوندكور R50i NC مع خاصية الشفافية - كايرو فولت", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
+        "soundcore-r60i-nc",
         "anker-soundcore-k20i",
         "anker-soundcore-r50i",
         "anker-a2732-charger-35w",

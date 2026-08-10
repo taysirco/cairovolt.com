@@ -28,6 +28,7 @@ export const PRODUCT_NAMES: Record<string, { ar: string; en: string }> = {
     'anker-prime-a1695-25000': { ar: 'باور بانك انكر برايم 25000', en: 'Anker Prime 25000' },
     'anker-soundcore-r50i': { ar: 'سماعة ساوندكور R50i', en: 'Soundcore R50i' },
     'anker-soundcore-r50i-nc': { ar: 'سماعة ساوندكور R50i NC', en: 'Soundcore R50i NC' },
+    'soundcore-r60i-nc': { ar: 'ايربودز ساوندكور R60i NC بعزل ضوضاء', en: 'Soundcore R60i NC ANC Earbuds' },
     'anker-soundcore-life-p2i': { ar: 'سماعة ساوندكور Life P2i', en: 'Soundcore Life P2i' },
     'anker-soundcore-k20i': { ar: 'هيدسيت ساوندكور K20i', en: 'Soundcore K20i' },
     'anker-soundcore-flare-2': { ar: 'سبيكر ساوندكور Flare 2', en: 'Soundcore Flare 2' },

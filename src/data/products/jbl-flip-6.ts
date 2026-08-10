@@ -7,23 +7,23 @@ export const jbl_flip_6 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLFLIP6",
-    price: 6499,
-    originalPrice: 7399,
-    stock: 220,
+    price: 5499,
+    originalPrice: 6199,
+    stock: 419,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-flip-6/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-flip-6-main-view-cairovolt.webp                 alt EN: "JBL Flip 6 portable Bluetooth speaker JBLFLIP6 - CairoVolt"
-    //   jbl-flip-6-features-angle-cairovolt.webp            alt AR: "سماعة JBL Flip 6 موديل JBLFLIP6 زاوية المزايا - كايرو فولت"
-    //   jbl-flip-6-specifications-detail-cairovolt.webp     alt EN: "JBL Flip 6 JBLFLIP6 passive radiators and USB-C detail - CairoVolt"
-    //   jbl-flip-6-retail-box-authentic-cairovolt.webp      alt AR: "علبة سماعة JBL Flip 6 الأصلية JBLFLIP6 - كايرو فولت"
-    //   jbl-flip-6-in-use-lifestyle-cairovolt.webp          alt EN: "JBL Flip 6 JBLFLIP6 speaker at an outdoor gathering lifestyle - CairoVolt"
-    //   jbl-flip-6-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم سماعة JBL Flip 6 موديل JBLFLIP6 باليد - كايرو فولت"
-    //   jbl-flip-6-accessories-included-cairovolt.webp      alt EN: "JBL Flip 6 JBLFLIP6 box contents and strap - CairoVolt"
-    //   jbl-flip-6-close-up-detail-cairovolt.webp           alt AR: "تفاصيل قماش سماعة JBL Flip 6 موديل JBLFLIP6 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-flip-6/jbl-flip-6-main-view-cairovolt.webp", alt: "JBL Flip 6 JBLFLIP6 black speaker, three-quarter view showing passive radiator end - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-flip-6/jbl-flip-6-back-view-cairovolt.webp", alt: "منظر خلفي رأسي لسماعة JBL Flip 6 بشريط FLIP6 وأزرار التشغيل والبلوتوث وUSB-C - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-flip-6/jbl-flip-6-features-angle-cairovolt.webp", alt: "JBL Flip 6 JBLFLIP6 angled view with exclamation-mark radiator and lanyard strap - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-flip-6/jbl-flip-6-back-view-2-cairovolt.webp", alt: "منظر خلفي مائل لسماعة JBL Flip 6 يوضح لوحة FLIP6 والأزرار ومنفذ USB-C - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-flip-6/jbl-flip-6-retail-box-authentic-cairovolt.webp", alt: "JBL Flip 6 JBLFLIP6 retail box with water splash art, Bluetooth 5.1 and 12H battery - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-flip-6/jbl-flip-6-color-variant-cairovolt.webp", alt: "سماعة JBL Flip 6 باللون الأزرق واقفة رأسياً على طاولة خشبية - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-flip-6/jbl-flip-6-passive-radiator-detail-cairovolt.webp", alt: "JBL Flip 6 JBLFLIP6 close-up of the exclamation-mark passive bass radiator, blue unit - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-flip-6/jbl-flip-6-internal-driver-diagram-cairovolt.webp", alt: "رسم توضيحي لسماعة JBL Flip 6 يوضح المشغل البيضاوي والتويتر ومشعّين للباس - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-flip-6/jbl-flip-6-in-use-lifestyle-cairovolt.webp", alt: "JBL Flip 6 JBLFLIP6 held in hand showing back panel buttons, retail boxes behind - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-flip-7", "jbl-charge-5", "jbl-go-4", "jbl-clip-5"],
 

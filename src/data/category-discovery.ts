@@ -353,7 +353,7 @@ export const categoryDiscovery: Record<DiscoveryCollectionKey, CategoryDiscovery
                     en: 'From the classic wired T110 to the smart-case Tour Pro 2 — a model for every budget.',
                 },
                 action: { ar: 'تصفّح ايربودز JBL', en: 'Browse JBL earbuds' },
-                signal: { ar: 'من 449 جنيه', en: 'From EGP 449' },
+                signal: { ar: 'من 249 جنيه', en: 'From EGP 249' },
                 alt: {
                     ar: 'ايربودز JBL لاسلكية مع علبة الشحن',
                     en: 'JBL wireless earbuds with charging case',

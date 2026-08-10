@@ -7,23 +7,24 @@ export const jbl_partybox_wireless_mic = {
     gtin: "",
     gtin13: "",
     mpn: "JBLPBWIRELESSMIC",
-    price: 8999,
-    originalPrice: 10499,
-    stock: 60,
+    price: 5949,
+    originalPrice: 6899,
+    stock: 322,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-partybox-wireless-mic/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-partybox-wireless-mic-main-view-cairovolt.webp                 alt EN: "JBL PartyBox Wireless Mic set of 2 JBLPBWIRELESSMIC - CairoVolt"
-    //   jbl-partybox-wireless-mic-features-angle-cairovolt.webp            alt AR: "مايك JBL PartyBox اللاسلكي موديل JBLPBWIRELESSMIC زاوية المزايا - كايرو فولت"
-    //   jbl-partybox-wireless-mic-specifications-detail-cairovolt.webp     alt EN: "JBL PartyBox Wireless Mic JBLPBWIRELESSMIC 2.4GHz dongle detail - CairoVolt"
-    //   jbl-partybox-wireless-mic-retail-box-authentic-cairovolt.webp      alt AR: "علبة مايك JBL PartyBox اللاسلكي الأصلية موديل JBLPBWIRELESSMIC - كايرو فولت"
-    //   jbl-partybox-wireless-mic-in-use-lifestyle-cairovolt.webp          alt EN: "JBL PartyBox Wireless Mic JBLPBWIRELESSMIC duet singing lifestyle - CairoVolt"
-    //   jbl-partybox-wireless-mic-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم مايك JBL PartyBox اللاسلكي موديل JBLPBWIRELESSMIC باليد - كايرو فولت"
-    //   jbl-partybox-wireless-mic-accessories-included-cairovolt.webp      alt EN: "JBL PartyBox Wireless Mic JBLPBWIRELESSMIC box contents and dongle - CairoVolt"
-    //   jbl-partybox-wireless-mic-close-up-detail-cairovolt.webp           alt AR: "تفاصيل كبسولة مايك JBL PartyBox اللاسلكي موديل JBLPBWIRELESSMIC عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-partybox-wireless-mic/jbl-partybox-wireless-mic-main-view-cairovolt.webp", alt: "JBL PartyBox Wireless Mic JBLPBWIRELESSMIC set: two black mics with orange accents and plug-in receiver - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-partybox-wireless-mic/jbl-partybox-wireless-mic-front-view-cairovolt.webp", alt: "مايك JBL PartyBox Wireless Mic واحد من الأمام بزرار الكتم وشعار JBL - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-partybox-wireless-mic/jbl-partybox-wireless-mic-back-view-cairovolt.webp", alt: "JBL PartyBox Wireless Mic JBLPBWIRELESSMIC single microphone rear view showing plain handle and grille - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-partybox-wireless-mic/jbl-partybox-wireless-mic-features-angle-cairovolt.webp", alt: "مايك JBL PartyBox Wireless Mic بزاوية مائلة تظهر الرأس الشبكية والمشابك البرتقالية وزرار الكتم - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-partybox-wireless-mic/jbl-partybox-wireless-mic-charging-port-detail-cairovolt.webp", alt: "JBL PartyBox Wireless Mic JBLPBWIRELESSMIC angled view showing USB-C charging port on the handle base - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-partybox-wireless-mic/jbl-partybox-wireless-mic-receiver-jack-detail-cairovolt.webp", alt: "ريسيفر مايك JBL PartyBox Wireless Mic من فوق ويظهر مقبس الصوت 6.35 مم - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-partybox-wireless-mic/jbl-partybox-wireless-mic-receiver-front-view-cairovolt.webp", alt: "JBL PartyBox Wireless Mic JBLPBWIRELESSMIC receiver dongle front view with pairing button and JBL logo - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-partybox-wireless-mic/jbl-partybox-wireless-mic-receiver-angle-view-cairovolt.webp", alt: "ريسيفر مايك JBL PartyBox Wireless Mic بزاوية مائلة يظهر فيها المقبس 6.35 مم والزرار - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-partybox-wireless-mic/jbl-partybox-wireless-mic-in-use-lifestyle-cairovolt.webp", alt: "JBL PartyBox Wireless Mic JBLPBWIRELESSMIC leaning on a PartyBox speaker with receiver plugged into mic port - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-partybox-wireless-mic/jbl-partybox-wireless-mic-retail-box-authentic-cairovolt.webp", alt: "العلبة الأصلية لطقم مايك JBL PartyBox Wireless Mic وعليها المايكين والريسيفر وبطارية 20 ساعة - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-partybox-encore-essential", "jbl-partybox-club-120", "jbl-partybox-stage-320", "jbl-partybox-1000"],
 

@@ -454,8 +454,8 @@ description: { en: 'JR-FT3 — IP68, sports modes', ar: 'JR-FT3 — IP68 وأو�
             ]
         },
         quickAnswer: {
-            en: 'JBL prices at CairoVolt start at 449 EGP for wired T110 earphones, with wireless earbuds from 2,199 EGP, headphones from 1,999 EGP, Bluetooth speakers from 2,099 to 26,999 EGP, and PartyBox models from 20,999 to 62,999 EGP. Current price and stock are shown on each product page.',
-            ar: 'أسعار JBL في كايرو فولت بتبدأ من 449 جنيه لسماعات T110 السلكية، والايربودز اللاسلكية من 2199 جنيه، وسماعات الرأس من 1999 جنيه، وسبيكرات البلوتوث من 2099 حتى 26999 جنيه، والبارتي بوكس من 20999 حتى 62999 جنيه. السعر الحالي والمخزون في صفحة كل منتج.'
+            en: 'JBL prices at CairoVolt start at 449 EGP for wired T110 earphones, with wireless earbuds from 2,199 EGP, headphones from 1,999 EGP, Bluetooth speakers from 2,099 to 26,999 EGP, and PartyBox models from 20,999 to 65,999 EGP. Current price and stock are shown on each product page.',
+            ar: 'أسعار JBL في كايرو فولت بتبدأ من 249 جنيه لسماعات T110 السلكية، والايربودز اللاسلكية من 2199 جنيه، وسماعات الرأس من 1999 جنيه، وسبيكرات البلوتوث من 2099 حتى 26999 جنيه، والبارتي بوكس من 20999 حتى 62999 جنيه. السعر الحالي والمخزون في صفحة كل منتج.'
         }
     }
 };

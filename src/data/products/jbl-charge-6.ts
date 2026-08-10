@@ -7,23 +7,24 @@ export const jbl_charge_6 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLCHARGE6",
-    price: 8499,
-    originalPrice: 9699,
-    stock: 160,
+    price: 9149,
+    originalPrice: 10249,
+    stock: 382,
     featured: true,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-charge-6/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-charge-6-main-view-cairovolt.webp                 alt EN: "JBL Charge 6 IP68 Bluetooth speaker JBLCHARGE6 - CairoVolt"
-    //   jbl-charge-6-features-angle-cairovolt.webp            alt AR: "سماعة JBL Charge 6 موديل JBLCHARGE6 زاوية المزايا - كايرو فولت"
-    //   jbl-charge-6-specifications-detail-cairovolt.webp     alt EN: "JBL Charge 6 JBLCHARGE6 USB-C powerbank port detail - CairoVolt"
-    //   jbl-charge-6-retail-box-authentic-cairovolt.webp      alt AR: "علبة سماعة JBL Charge 6 الأصلية JBLCHARGE6 - كايرو فولت"
-    //   jbl-charge-6-in-use-lifestyle-cairovolt.webp          alt EN: "JBL Charge 6 JBLCHARGE6 speaker charging a phone outdoors - CairoVolt"
-    //   jbl-charge-6-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم سماعة JBL Charge 6 موديل JBLCHARGE6 باليد - كايرو فولت"
-    //   jbl-charge-6-accessories-included-cairovolt.webp      alt EN: "JBL Charge 6 JBLCHARGE6 box contents and carry strap - CairoVolt"
-    //   jbl-charge-6-close-up-detail-cairovolt.webp           alt AR: "تفاصيل قماش سماعة JBL Charge 6 موديل JBLCHARGE6 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-charge-6/jbl-charge-6-main-view-cairovolt.webp", alt: "JBL Charge 6 JBLCHARGE6 portable Bluetooth speaker in black, clean front view with JBL logo - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-charge-6/jbl-charge-6-features-angle-cairovolt.webp", alt: "سماعة JBL Charge 6 سوداء بزاوية جانبية مع يد الحمل القماشية المثبتة - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-charge-6/jbl-charge-6-top-view-cairovolt.webp", alt: "JBL Charge 6 JBLCHARGE6 top view showing playback, power and Bluetooth control buttons - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-charge-6/jbl-charge-6-bottom-view-cairovolt.webp", alt: "منظر سفلي لسماعة JBL Charge 6 يوضح قواعد المطاط ومكان منفذ الشحن USB-C - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-charge-6/jbl-charge-6-side-view-cairovolt.webp", alt: "JBL Charge 6 JBLCHARGE6 black speaker angled side view showing the end passive bass radiator - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-charge-6/jbl-charge-6-carry-strap-detail-cairovolt.webp", alt: "يد الحمل القماشية القابلة للفك الخاصة بسماعة JBL Charge 6 معروضة منفصلة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-charge-6/jbl-charge-6-retail-box-authentic-cairovolt.webp", alt: "JBL Charge 6 JBLCHARGE6 retail box showing Bluetooth 5.4 logo and 28H battery marking - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-charge-6/jbl-charge-6-internal-components-cutaway-cairovolt.webp", alt: "رسم مقطعي لسماعة JBL Charge 6 يوضح مكبر الصوت الداخلي ولوحة الدائرة - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-charge-6/jbl-charge-6-in-use-lifestyle-cairovolt.webp", alt: "JBL Charge 6 JBLCHARGE6 in blue with carry loop resting on beach sand, lifestyle shot - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-charge-6/jbl-charge-6-controls-detail-cairovolt.webp", alt: "صورة حقيقية لأزرار التحكم العلوية بسماعة JBL Charge 6 وسط النباتات - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-charge-5", "jbl-flip-7", "jbl-xtreme-4", "jbl-boombox-3", "jbl-pulse-5"],
 

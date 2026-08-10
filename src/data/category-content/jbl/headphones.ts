@@ -96,9 +96,9 @@ export const jbl_headphones_content: CategoryContent = {
                 }
             ],
             products: [
-                { name: 'JBL Tune 520BT', price: 1999, badge: '57 ساعة' },
-                { name: 'JBL Tune 720BT', price: 3299, badge: '76 ساعة' },
-                { name: 'JBL Tune 770NC', price: 5499, badge: 'عزل ضوضاء تكيفي' },
+                { name: 'JBL Tune 520BT', price: 2149, badge: '57 ساعة' },
+                { name: 'JBL Tune 720BT', price: 3049, badge: '76 ساعة' },
+                { name: 'JBL Tune 770NC', price: 4049, badge: 'عزل ضوضاء تكيفي' },
             ]
         },
         en: {
@@ -180,9 +180,9 @@ JBL lists two figures for the Tune 770NC: **70 hours with ANC off** and **44 hou
                 }
             ],
             products: [
-                { name: 'JBL Tune 520BT', price: 1999, badge: '57h Battery' },
-                { name: 'JBL Tune 720BT', price: 3299, badge: '76h Battery' },
-                { name: 'JBL Tune 770NC', price: 5499, badge: 'Adaptive ANC' },
+                { name: 'JBL Tune 520BT', price: 2149, badge: '57h Battery' },
+                { name: 'JBL Tune 720BT', price: 3049, badge: '76h Battery' },
+                { name: 'JBL Tune 770NC', price: 4049, badge: 'Adaptive ANC' },
             ]
         }
     }

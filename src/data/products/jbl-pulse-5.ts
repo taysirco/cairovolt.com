@@ -7,23 +7,26 @@ export const jbl_pulse_5 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLPULSE5",
-    price: 15999,
-    originalPrice: 18499,
-    stock: 35,
+    price: 16749,
+    originalPrice: 18949,
+    stock: 322,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-pulse-5/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-pulse-5-main-view-cairovolt.webp                 alt EN: "JBL Pulse 5 360 lightshow Bluetooth speaker JBLPULSE5 - CairoVolt"
-    //   jbl-pulse-5-features-angle-cairovolt.webp            alt AR: "سماعة JBL Pulse 5 موديل JBLPULSE5 بإضاءة 360 درجة زاوية المزايا - كايرو فولت"
-    //   jbl-pulse-5-specifications-detail-cairovolt.webp     alt EN: "JBL Pulse 5 JBLPULSE5 light dome and controls detail - CairoVolt"
-    //   jbl-pulse-5-retail-box-authentic-cairovolt.webp      alt AR: "علبة سماعة JBL Pulse 5 الأصلية JBLPULSE5 - كايرو فولت"
-    //   jbl-pulse-5-in-use-lifestyle-cairovolt.webp          alt EN: "JBL Pulse 5 JBLPULSE5 glowing at a night gathering lifestyle - CairoVolt"
-    //   jbl-pulse-5-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم سماعة JBL Pulse 5 موديل JBLPULSE5 - كايرو فولت"
-    //   jbl-pulse-5-accessories-included-cairovolt.webp      alt EN: "JBL Pulse 5 JBLPULSE5 box contents - CairoVolt"
-    //   jbl-pulse-5-close-up-detail-cairovolt.webp           alt AR: "تفاصيل قبة إضاءة سماعة JBL Pulse 5 موديل JBLPULSE5 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-main-view-cairovolt.webp", alt: "JBL Pulse 5 JBLPULSE5 speaker front view with yellow-red-pink 360 lightshow glowing - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-features-angle-cairovolt.webp", alt: "منظر مائل لسماعة JBL Pulse 5 يوضح الشبكة العلوية والإضاءة القزحية المتدرجة - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-controls-detail-cairovolt.webp", alt: "JBL Pulse 5 JBLPULSE5 rear control strip with power, Bluetooth, light and link buttons plus USB-C - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-top-view-cairovolt.webp", alt: "منظر علوي مائل لسماعة JBL Pulse 5 يوضح الشبكة المعدنية فوق الجسم المضيء - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-bottom-radiator-detail-cairovolt.webp", alt: "JBL Pulse 5 JBLPULSE5 close view of the round passive radiator face with hanging strap - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-lightshow-detail-cairovolt.webp", alt: "منظر مائل لسماعة JBL Pulse 5 يوضح حلقة المشع المضيئة بألوان وردية وصفراء - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-bottom-view-cairovolt.webp", alt: "JBL Pulse 5 JBLPULSE5 bottom view showing passive radiator, rubber pads and strap, lights off - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-features-angle-2-cairovolt.webp", alt: "منظر مائل لسماعة JBL Pulse 5 وهي مضيئة بدرجات الأزرق والبنفسجي - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-main-view-2-cairovolt.webp", alt: "JBL Pulse 5 JBLPULSE5 front view with warm yellow-to-pink gradient lightshow - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-in-use-lifestyle-cairovolt.webp", alt: "سماعة JBL Pulse 5 مضيئة بالبنفسجي بين يدي شخصين في حفلة، صورة واقعية - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_11", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-in-use-lifestyle-2-cairovolt.webp", alt: "JBL Pulse 5 JBLPULSE5 held up glowing by smiling women at a party, lifestyle shot - CairoVolt", order: 10, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_12", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-retail-box-authentic-cairovolt.webp", alt: "علبة سماعة JBL Pulse 5 الأصلية موضح عليها بلوتوث 5.3 وبطارية 12 ساعة - كايرو فولت", order: 11, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-flip-7", "jbl-charge-6", "jbl-clip-5", "jbl-boombox-3"],
 

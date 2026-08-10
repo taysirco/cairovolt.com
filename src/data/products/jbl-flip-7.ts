@@ -7,23 +7,23 @@ export const jbl_flip_7 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLFLIP7",
-    price: 7499,
-    originalPrice: 8599,
-    stock: 180,
+    price: 6499,
+    originalPrice: 7349,
+    stock: 497,
     featured: true,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-flip-7/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-flip-7-main-view-cairovolt.webp                 alt EN: "JBL Flip 7 IP68 Bluetooth speaker JBLFLIP7 - CairoVolt"
-    //   jbl-flip-7-features-angle-cairovolt.webp            alt AR: "سماعة JBL Flip 7 موديل JBLFLIP7 زاوية المزايا - كايرو فولت"
-    //   jbl-flip-7-specifications-detail-cairovolt.webp     alt EN: "JBL Flip 7 JBLFLIP7 USB-C port and controls detail - CairoVolt"
-    //   jbl-flip-7-retail-box-authentic-cairovolt.webp      alt AR: "علبة سماعة JBL Flip 7 الأصلية JBLFLIP7 - كايرو فولت"
-    //   jbl-flip-7-in-use-lifestyle-cairovolt.webp          alt EN: "JBL Flip 7 JBLFLIP7 speaker by the beach lifestyle - CairoVolt"
-    //   jbl-flip-7-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم سماعة JBL Flip 7 موديل JBLFLIP7 باليد - كايرو فولت"
-    //   jbl-flip-7-accessories-included-cairovolt.webp      alt EN: "JBL Flip 7 JBLFLIP7 box contents and carry loop - CairoVolt"
-    //   jbl-flip-7-close-up-detail-cairovolt.webp           alt AR: "تفاصيل قماش سماعة JBL Flip 7 موديل JBLFLIP7 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-flip-7/jbl-flip-7-main-view-cairovolt.webp", alt: "JBL Flip 7 JBLFLIP7 black speaker horizontal front view with playback and top controls - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-flip-7/jbl-flip-7-front-view-cairovolt.webp", alt: "سماعة JBL Flip 7 سوداء واقفة رأسياً بواجهة قماشية وشعار JBL - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-flip-7/jbl-flip-7-back-view-cairovolt.webp", alt: "JBL Flip 7 JBLFLIP7 back view with FLIP7 strip, attachment rail, buttons and USB-C - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-flip-7/jbl-flip-7-carabiner-clip-detail-cairovolt.webp", alt: "لقطة مقربة لمشبك الكارابينر القابل للفك وأزرار الظهر في سماعة JBL Flip 7 - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-flip-7/jbl-flip-7-accessories-included-cairovolt.webp", alt: "JBL Flip 7 JBLFLIP7 speaker with included loop strap and orange carabiner attachments - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-flip-7/jbl-flip-7-retail-box-authentic-cairovolt.webp", alt: "علبة سماعة JBL Flip 7 الأصلية برسمة رذاذ الماء وبلوتوث 5.4 وبطارية 16 ساعة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-flip-7/jbl-flip-7-passive-radiator-detail-cairovolt.webp", alt: "JBL Flip 7 JBLFLIP7 close-up of the exclamation-mark passive bass radiator end cap - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-flip-7/jbl-flip-7-in-use-lifestyle-cairovolt.webp", alt: "سماعة JBL Flip 7 سوداء موضوعة على طاولة خشبية قديمة في الخارج - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-flip-7/jbl-flip-7-in-use-lifestyle-2-cairovolt.webp", alt: "JBL Flip 7 JBLFLIP7 back panel close-up with carabiner attached, on a garden chair - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-flip-6", "jbl-charge-6", "jbl-clip-5", "jbl-xtreme-4", "jbl-pulse-5"],
 

@@ -13,6 +13,7 @@ export const anker_soundcore_r50i = {
             { id: "img_8", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-package-box-contents-accessories-egypt.webp", alt: "ساوندكور R50i تطبيق ساوندكور EQ - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
+        "soundcore-r60i-nc",
         "soundcore-a25i-earbuds",
         "soundcore-p30i-earbuds",
         "anker-soundcore-k20i",

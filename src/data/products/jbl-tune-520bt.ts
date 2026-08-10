@@ -7,23 +7,24 @@ export const jbl_tune_520bt = {
     gtin: "",
     gtin13: "",
     mpn: "JBLT520BT",
-    price: 1999,
-    originalPrice: 2299,
-    stock: 320,
+    price: 2149,
+    originalPrice: 2399,
+    stock: 442,
     featured: true,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-tune-520bt/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-tune-520bt-main-view-cairovolt.webp                 alt EN: "JBL Tune 520BT on-ear wireless headphones JBLT520BT - CairoVolt"
-    //   jbl-tune-520bt-features-angle-cairovolt.webp            alt AR: "هيدفون JBL Tune 520BT موديل JBLT520BT زاوية المزايا - كايرو فولت"
-    //   jbl-tune-520bt-specifications-detail-cairovolt.webp     alt EN: "JBL Tune 520BT JBLT520BT USB-C port and buttons detail - CairoVolt"
-    //   jbl-tune-520bt-retail-box-authentic-cairovolt.webp      alt AR: "علبة هيدفون JBL Tune 520BT الأصلية JBLT520BT - كايرو فولت"
-    //   jbl-tune-520bt-in-use-lifestyle-cairovolt.webp          alt EN: "JBL Tune 520BT JBLT520BT worn during online lectures lifestyle - CairoVolt"
-    //   jbl-tune-520bt-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم هيدفون JBL Tune 520BT موديل JBLT520BT مطوية باليد - كايرو فولت"
-    //   jbl-tune-520bt-accessories-included-cairovolt.webp      alt EN: "JBL Tune 520BT JBLT520BT box contents and USB-C cable - CairoVolt"
-    //   jbl-tune-520bt-close-up-detail-cairovolt.webp           alt AR: "تفاصيل وسادات هيدفون JBL Tune 520BT موديل JBLT520BT عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-tune-520bt/jbl-tune-520bt-main-view-cairovolt.webp", alt: "JBL Tune 520BT JBLT520BT black wireless on-ear headphones, three-quarter hero view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-tune-520bt/jbl-tune-520bt-front-view-cairovolt.webp", alt: "سماعة JBL Tune 520BT سوداء من الأمام موضح فيها وسادتا الأذن الناعمتان - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-tune-520bt/jbl-tune-520bt-front-view-2-cairovolt.webp", alt: "JBL Tune 520BT JBLT520BT black headphones front view with volume controls visible on right ear cup - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-tune-520bt/jbl-tune-520bt-side-view-cairovolt.webp", alt: "سماعة JBL Tune 520BT سوداء من الجانب وشعار JBL على السماعة - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-tune-520bt/jbl-tune-520bt-top-view-cairovolt.webp", alt: "JBL Tune 520BT JBLT520BT black headphones folded flat, top view showing swivel ear cups and buttons - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-tune-520bt/jbl-tune-520bt-controls-detail-cairovolt.webp", alt: "سماعة JBL Tune 520BT سوداء مطوية، لقطة قريبة لزر التشغيل وأزرار التحكم - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-tune-520bt/jbl-tune-520bt-earcup-cushion-detail-cairovolt.webp", alt: "JBL Tune 520BT JBLT520BT black headphones laid flat showing padded ear cushion and driver mesh - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-tune-520bt/jbl-tune-520bt-retail-box-authentic-cairovolt.webp", alt: "علبة سماعة JBL Tune 520BT الأصلية وعليها السماعة السوداء وشعار البلوتوث وبطارية 57 ساعة - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-tune-520bt/jbl-tune-520bt-in-use-lifestyle-cairovolt.webp", alt: "JBL Tune 520BT JBLT520BT black headphones resting on a studio mixing console - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-tune-520bt/jbl-tune-520bt-color-variant-cairovolt.webp", alt: "ألوان سماعة JBL Tune 520BT المتاحة: أسود وأزرق وبنفسجي وأبيض - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-tune-720bt", "jbl-tune-770nc", "jbl-wave-beam", "jbl-t110", "jbl-t110bt"],
 

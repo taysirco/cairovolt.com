@@ -7,23 +7,23 @@ export const jbl_tune_770nc = {
     gtin: "",
     gtin13: "",
     mpn: "JBLT770NC",
-    price: 5499,
-    originalPrice: 6299,
-    stock: 140,
+    price: 4049,
+    originalPrice: 4699,
+    stock: 508,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-tune-770nc/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-tune-770nc-main-view-cairovolt.webp                 alt EN: "JBL Tune 770NC adaptive noise cancelling headphones JBLT770NC - CairoVolt"
-    //   jbl-tune-770nc-features-angle-cairovolt.webp            alt AR: "هيدفون JBL Tune 770NC موديل JBLT770NC زاوية المزايا - كايرو فولت"
-    //   jbl-tune-770nc-specifications-detail-cairovolt.webp     alt EN: "JBL Tune 770NC JBLT770NC ANC button and USB-C port detail - CairoVolt"
-    //   jbl-tune-770nc-retail-box-authentic-cairovolt.webp      alt AR: "علبة هيدفون JBL Tune 770NC الأصلية JBLT770NC - كايرو فولت"
-    //   jbl-tune-770nc-in-use-lifestyle-cairovolt.webp          alt EN: "JBL Tune 770NC JBLT770NC worn on a metro commute lifestyle - CairoVolt"
-    //   jbl-tune-770nc-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم هيدفون JBL Tune 770NC موديل JBLT770NC مطوية باليد - كايرو فولت"
-    //   jbl-tune-770nc-accessories-included-cairovolt.webp      alt EN: "JBL Tune 770NC JBLT770NC box contents with aux cable - CairoVolt"
-    //   jbl-tune-770nc-close-up-detail-cairovolt.webp           alt AR: "تفاصيل وسادات هيدفون JBL Tune 770NC موديل JBLT770NC عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-tune-770nc/jbl-tune-770nc-main-view-cairovolt.webp", alt: "JBL Tune 770NC JBLT770NC black wireless noise cancelling over-ear headphones, three-quarter hero view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-tune-770nc/jbl-tune-770nc-front-view-cairovolt.webp", alt: "سماعة JBL Tune 770NC سوداء من الأمام وتظهر وسادتا الأذن وزر عزل الضوضاء - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-tune-770nc/jbl-tune-770nc-side-view-cairovolt.webp", alt: "JBL Tune 770NC JBLT770NC black headphones side profile with JBL logo on the ear cup - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-tune-770nc/jbl-tune-770nc-top-view-cairovolt.webp", alt: "سماعة JBL Tune 770NC سوداء مطوية بشكل مسطح من الأعلى وتظهر أزرار التحكم على حافة السماعة - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-tune-770nc/jbl-tune-770nc-controls-detail-cairovolt.webp", alt: "JBL Tune 770NC JBLT770NC black headphones angled view showing power, ANC button, aux jack and controls - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-tune-770nc/jbl-tune-770nc-retail-box-authentic-cairovolt.webp", alt: "علبة سماعة JBL Tune 770NC الأصلية وعليها عزل الضوضاء التكيفي وشارة ANC وبطارية 70 ساعة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-tune-770nc/jbl-tune-770nc-unboxing-lifestyle-cairovolt.webp", alt: "JBL Tune 770NC JBLT770NC black headphones unboxed on the open box with warranty card visible - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-tune-770nc/jbl-tune-770nc-close-up-detail-cairovolt.webp", alt: "لقطة قريبة لسماعة JBL Tune 770NC سوداء في الخارج توضح الأزرار ومدخل الأوكس وزر ANC - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-tune-770nc/jbl-tune-770nc-retail-box-back-cairovolt.webp", alt: "JBL Tune 770NC JBLT770NC box back panel with model number JBLT770NCBLK, contents and battery specs - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-tune-720bt", "jbl-tune-520bt", "jbl-tour-pro-2", "jbl-tune-buds", "jbl-t110bt"],
 

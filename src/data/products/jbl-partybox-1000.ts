@@ -7,23 +7,24 @@ export const jbl_partybox_1000 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLPARTYBOX1000",
-    price: 62999,
-    originalPrice: 71999,
-    stock: 8,
+    price: 65999,
+    originalPrice: 75599,
+    stock: 404,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-partybox-1000/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-partybox-1000-main-view-cairovolt.webp                 alt EN: "JBL PartyBox 1000 1100W party speaker JBLPARTYBOX1000 - CairoVolt"
-    //   jbl-partybox-1000-features-angle-cairovolt.webp            alt AR: "بازوكا JBL PartyBox 1000 موديل JBLPARTYBOX1000 زاوية المزايا - كايرو فولت"
-    //   jbl-partybox-1000-specifications-detail-cairovolt.webp     alt EN: "JBL PartyBox 1000 JBLPARTYBOX1000 DJ launchpad and input panel detail - CairoVolt"
-    //   jbl-partybox-1000-retail-box-authentic-cairovolt.webp      alt AR: "كرتونة JBL PartyBox 1000 الأصلية موديل JBLPARTYBOX1000 - كايرو فولت"
-    //   jbl-partybox-1000-in-use-lifestyle-cairovolt.webp          alt EN: "JBL PartyBox 1000 JBLPARTYBOX1000 lightshow at an event lifestyle - CairoVolt"
-    //   jbl-partybox-1000-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم بازوكا JBL PartyBox 1000 موديل JBLPARTYBOX1000 - كايرو فولت"
-    //   jbl-partybox-1000-accessories-included-cairovolt.webp      alt EN: "JBL PartyBox 1000 JBLPARTYBOX1000 gesture wristband and box contents - CairoVolt"
-    //   jbl-partybox-1000-close-up-detail-cairovolt.webp           alt AR: "تفاصيل لوحة DJ في JBL PartyBox 1000 موديل JBLPARTYBOX1000 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-partybox-1000/jbl-partybox-1000-front-view-cairovolt.webp", alt: "JBL PartyBox 1000 JBLPARTYBOX1000 tall party speaker, front view with full-panel red-green lightshow - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-partybox-1000/jbl-partybox-1000-main-view-cairovolt.webp", alt: "سماعة JBL PartyBox 1000 بزاوية جانبية بالهيكل الأسود كامل والإضاءة مطفية - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-partybox-1000/jbl-partybox-1000-charging-port-detail-cairovolt.webp", alt: "JBL PartyBox 1000 JBLPARTYBOX1000 rear connection panel: mic, guitar, channel, USB, AUX and RCA in/out - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-partybox-1000/jbl-partybox-1000-side-view-cairovolt.webp", alt: "الجانب في سماعة JBL PartyBox 1000 بشعار JBL كبير ولمسات برتقالية في الأركان - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-partybox-1000/jbl-partybox-1000-back-view-cairovolt.webp", alt: "JBL PartyBox 1000 JBLPARTYBOX1000 rear view showing top DJ pad panel, connection ports and wheels - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-partybox-1000/jbl-partybox-1000-controls-detail-cairovolt.webp", alt: "اللوحة العلوية في JBL PartyBox 1000 بباد DJ ملون وأزرار Smart DJ و Bass Boost - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-partybox-1000/jbl-partybox-1000-back-view-2-cairovolt.webp", alt: "JBL PartyBox 1000 JBLPARTYBOX1000 full rear view with connection panel, bass port and transport wheels - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-partybox-1000/jbl-partybox-1000-in-use-lifestyle-cairovolt.webp", alt: "سماعة JBL PartyBox 1000 واقفة في غرفة معيشة بين مقاعد بين باج، صورة حقيقية - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-partybox-1000/jbl-partybox-1000-in-use-lifestyle-2-cairovolt.webp", alt: "JBL PartyBox 1000 JBLPARTYBOX1000 with orange lightshow outdoors next to a DJ controller setup - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-partybox-1000/jbl-partybox-1000-accessories-included-cairovolt.webp", alt: "سماعة JBL PartyBox 1000 مع اثنين مايك JBL لاسلكي وريسيفر التوصيل في صورة واحدة - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-partybox-stage-320", "jbl-partybox-club-120", "jbl-partybox-wireless-mic", "jbl-boombox-3"],
 

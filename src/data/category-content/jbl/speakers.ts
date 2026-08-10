@@ -106,15 +106,15 @@ export const jbl_speakers_content: CategoryContent = {
                 }
             ],
             products: [
-                { name: 'JBL Go 4', price: 2099, badge: 'IP67 مدمجة' },
-                { name: 'JBL Clip 5', price: 2999, badge: 'كارابينر' },
-                { name: 'JBL Flip 6', price: 6499, badge: 'الأكثر انتشارًا' },
-                { name: 'JBL Flip 7', price: 7499, badge: 'IP68 جديدة' },
+                { name: 'JBL Go 4', price: 2049, badge: 'IP67 مدمجة' },
+                { name: 'JBL Clip 5', price: 2799, badge: 'كارابينر' },
+                { name: 'JBL Flip 6', price: 5499, badge: 'الأكثر انتشارًا' },
+                { name: 'JBL Flip 7', price: 6499, badge: 'IP68 جديدة' },
                 { name: 'JBL Charge 5', price: 6999, badge: 'الأكثر بحثًا' },
-                { name: 'JBL Charge 6', price: 8499, badge: 'باور بانك مدمج' },
-                { name: 'JBL Xtreme 4', price: 21999, badge: 'بطارية تتبدل' },
-                { name: 'JBL Pulse 5', price: 15999, badge: 'إضاءة 360°' },
-                { name: 'JBL Boombox 3', price: 26999, badge: '180 واط' },
+                { name: 'JBL Charge 6', price: 9149, badge: 'باور بانك مدمج' },
+                { name: 'JBL Xtreme 4', price: 15849, badge: 'بطارية تتبدل' },
+                { name: 'JBL Pulse 5', price: 16749, badge: 'إضاءة 360°' },
+                { name: 'JBL Boombox 3', price: 22649, badge: '180 واط' },
             ]
         },
         en: {
@@ -206,15 +206,15 @@ Bottom line: tighter budget and shorter sessions → Flip 6. Newest protocols in
                 }
             ],
             products: [
-                { name: 'JBL Go 4', price: 2099, badge: 'IP67 Compact' },
-                { name: 'JBL Clip 5', price: 2999, badge: 'Carabiner Clip' },
-                { name: 'JBL Flip 6', price: 6499, badge: 'Best Seller' },
-                { name: 'JBL Flip 7', price: 7499, badge: 'New IP68' },
+                { name: 'JBL Go 4', price: 2049, badge: 'IP67 Compact' },
+                { name: 'JBL Clip 5', price: 2799, badge: 'Carabiner Clip' },
+                { name: 'JBL Flip 6', price: 5499, badge: 'Best Seller' },
+                { name: 'JBL Flip 7', price: 6499, badge: 'New IP68' },
                 { name: 'JBL Charge 5', price: 6999, badge: 'Most Searched' },
-                { name: 'JBL Charge 6', price: 8499, badge: 'Powerbank Built-in' },
-                { name: 'JBL Xtreme 4', price: 21999, badge: 'Swappable Battery' },
-                { name: 'JBL Pulse 5', price: 15999, badge: '360° Lightshow' },
-                { name: 'JBL Boombox 3', price: 26999, badge: '180W' },
+                { name: 'JBL Charge 6', price: 9149, badge: 'Powerbank Built-in' },
+                { name: 'JBL Xtreme 4', price: 15849, badge: 'Swappable Battery' },
+                { name: 'JBL Pulse 5', price: 16749, badge: '360° Lightshow' },
+                { name: 'JBL Boombox 3', price: 22649, badge: '180W' },
             ]
         }
     }

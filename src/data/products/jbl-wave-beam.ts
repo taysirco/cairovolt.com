@@ -7,23 +7,21 @@ export const jbl_wave_beam = {
     gtin: "",
     gtin13: "",
     mpn: "JBLWBEAM",
-    price: 2199,
-    originalPrice: 2499,
-    stock: 380,
+    price: 2449,
+    originalPrice: 2899,
+    stock: 464,
     featured: true,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-wave-beam/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-wave-beam-main-view-cairovolt.webp             alt EN: "JBL Wave Beam JBLWBEAM true wireless earbuds with case - CairoVolt"
-    //   jbl-wave-beam-features-angle-cairovolt.webp        alt AR: "ايربودز JBL Wave Beam موديل JBLWBEAM زاوية المزايا - كايرو فولت"
-    //   jbl-wave-beam-specifications-detail-cairovolt.webp alt EN: "JBL Wave Beam JBLWBEAM charging case USB-C port detail - CairoVolt"
-    //   jbl-wave-beam-retail-box-authentic-cairovolt.webp  alt AR: "علبة ايربودز JBL Wave Beam الأصلية JBLWBEAM - كايرو فولت"
-    //   jbl-wave-beam-in-use-lifestyle-cairovolt.webp      alt EN: "JBL Wave Beam JBLWBEAM earbuds worn during a commute lifestyle - CairoVolt"
-    //   jbl-wave-beam-size-comparison-cairovolt.webp       alt AR: "مقارنة حجم ايربودز JBL Wave Beam موديل JBLWBEAM باليد - كايرو فولت"
-    //   jbl-wave-beam-accessories-included-cairovolt.webp  alt EN: "JBL Wave Beam JBLWBEAM box contents and cable - CairoVolt"
-    //   jbl-wave-beam-close-up-detail-cairovolt.webp       alt AR: "تفاصيل ايربودز JBL Wave Beam موديل JBLWBEAM عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-wave-beam/jbl-wave-beam-main-view-cairovolt.webp", alt: "JBL Wave Beam JBLGO4-class TWS earbuds in black, open charging case with one earbud in front - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-wave-beam/jbl-wave-beam-back-view-cairovolt.webp", alt: "سماعة JBL Wave Beam سوداء من الخلف موضح أذرع السماعة وشعار JBL - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-wave-beam/jbl-wave-beam-features-angle-cairovolt.webp", alt: "JBL Wave Beam JBLWBEAM black earbuds three-quarter angle showing mic slots and ear tips - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-wave-beam/jbl-wave-beam-accessories-included-cairovolt.webp", alt: "ملحقات سماعة JBL Wave Beam: ثلاث مقاسات قطع أذن وكابل شحن USB-C برتقالي - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-wave-beam/jbl-wave-beam-mismatch-2-cairovolt.webp", alt: "Two JBL Wave Beam 2 retail boxes on a desk next to a plant - different model than JBL Wave Beam - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-wave-beam/jbl-wave-beam-in-use-lifestyle-cairovolt.webp", alt: "علبة شحن JBL سوداء مفتوحة في اليد وجواها السماعتين - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-wave-beam/jbl-wave-beam-water-resistance-demo-cairovolt.webp", alt: "JBL Wave Beam JBLWBEAM earbuds IP54-certified graphic with water splash and dust - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-tune-buds", "jbl-t110", "jbl-tune-520bt", "jbl-go-4", "jbl-tune-720bt", "jbl-tour-pro-2"],
 

@@ -7,23 +7,24 @@ export const jbl_boombox_3 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLBOOMBOX3",
-    price: 26999,
-    originalPrice: 30999,
-    stock: 30,
+    price: 22649,
+    originalPrice: 25599,
+    stock: 315,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-boombox-3/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-boombox-3-main-view-cairovolt.webp                 alt EN: "JBL Boombox 3 180W portable Bluetooth speaker JBLBOOMBOX3 - CairoVolt"
-    //   jbl-boombox-3-features-angle-cairovolt.webp            alt AR: "سماعة JBL Boombox 3 موديل JBLBOOMBOX3 زاوية المزايا - كايرو فولت"
-    //   jbl-boombox-3-specifications-detail-cairovolt.webp     alt EN: "JBL Boombox 3 JBLBOOMBOX3 controls and ports detail - CairoVolt"
-    //   jbl-boombox-3-retail-box-authentic-cairovolt.webp      alt AR: "علبة سماعة JBL Boombox 3 الأصلية JBLBOOMBOX3 - كايرو فولت"
-    //   jbl-boombox-3-in-use-lifestyle-cairovolt.webp          alt EN: "JBL Boombox 3 JBLBOOMBOX3 carried by its handle outdoors lifestyle - CairoVolt"
-    //   jbl-boombox-3-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم سماعة JBL Boombox 3 موديل JBLBOOMBOX3 - كايرو فولت"
-    //   jbl-boombox-3-accessories-included-cairovolt.webp      alt EN: "JBL Boombox 3 JBLBOOMBOX3 box contents and power adapter - CairoVolt"
-    //   jbl-boombox-3-close-up-detail-cairovolt.webp           alt AR: "تفاصيل مقبض سماعة JBL Boombox 3 موديل JBLBOOMBOX3 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-boombox-3/jbl-boombox-3-main-view-cairovolt.webp", alt: "JBL Boombox 3 JBLBOOMBOX3 black speaker three-quarter hero view with metal carry handle - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-boombox-3/jbl-boombox-3-front-view-cairovolt.webp", alt: "منظر أمامي مباشر لسماعة JBL Boombox 3 بشعار JBL الكبير والمقبض العلوي - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-boombox-3/jbl-boombox-3-back-view-cairovolt.webp", alt: "JBL Boombox 3 JBLBOOMBOX3 back view showing fabric grille and covered port flap - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-boombox-3/jbl-boombox-3-side-view-cairovolt.webp", alt: "منظر جانبي لسماعة JBL Boombox 3 يوضح مشع الباص الطرفي وعلامة JBL - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-boombox-3/jbl-boombox-3-top-view-cairovolt.webp", alt: "JBL Boombox 3 JBLBOOMBOX3 top view of BOOMBOX3 handle and power, Bluetooth, link buttons - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-boombox-3/jbl-boombox-3-bottom-view-cairovolt.webp", alt: "منظر سفلي لسماعة JBL Boombox 3 يوضح القاعدة المطاطية المضلعة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-boombox-3/jbl-boombox-3-charging-port-detail-cairovolt.webp", alt: "JBL Boombox 3 JBLBOOMBOX3 rear ports detail: AC power inlet, USB port and info label - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-boombox-3/jbl-boombox-3-features-angle-cairovolt.webp", alt: "منظر علوي مائل لسماعة JBL Boombox 3 يوضح طباعة المقبض وأزرار التحكم - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-boombox-3/jbl-boombox-3-retail-box-authentic-cairovolt.webp", alt: "JBL Boombox 3 JBLBOOMBOX3 retail box with splash artwork, Bluetooth 5.3 and 24H markings - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-boombox-3/jbl-boombox-3-in-use-lifestyle-cairovolt.webp", alt: "سماعة JBL Boombox 3 محمولة من المقبض وسط رذاذ الماء، صورة استخدام واقعي - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-xtreme-4", "jbl-charge-6", "jbl-partybox-encore-essential", "jbl-partybox-club-120", "jbl-pulse-5", "jbl-partybox-1000"],
 

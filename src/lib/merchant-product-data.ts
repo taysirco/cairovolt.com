@@ -115,10 +115,10 @@ export const STANDARD_RETURN_WINDOW_DAYS = 14;
 export const MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS = new Set([
     'joyroom-usb-a-lightning-1.2m', // status: retired
     'joyroom-usb-a-type-c-1.2m', // status: retired
-    // JBL launch batch — excluded from the Merchant feed until real product
-    // images land (an imageless offer emits an invalid <g:image_link> and
-    // risks disapproval; see JBL-STRATEGY.md §10 gate 1). Remove each slug
-    // as its public/products/jbl/<slug>/ gallery is populated.
+    // JBL batch — kept OUT of the Google Merchant feed by OWNER DECISION
+    // (2026-08-10, "لا تضيف منتجات jbl لجوجل ميرش الان"). Images exist and the
+    // storefront pages are live-ready; only the machine feed is gated. Remove
+    // these when the owner green-lights Merchant listing.
     'jbl-go-4',
     'jbl-clip-5',
     'jbl-flip-6',
@@ -321,4 +321,4 @@ export function sanitizeRelatedProductSlugs(slugs: readonly string[]): string[] 
 }
 
 /** Date of the latest full catalog-content and offer review. */
-export const CATALOG_LAST_REVIEWED_AT = '2026-08-09T00:00:00+03:00';
+export const CATALOG_LAST_REVIEWED_AT = '2026-08-10T00:00:00+03:00';

@@ -106,6 +106,7 @@ import { jbl_tune_buds_reviews } from './reviews/jbl-tune-buds';
 import { jbl_tour_pro_2_reviews } from './reviews/jbl-tour-pro-2';
 import { jbl_t110_reviews } from './reviews/jbl-t110';
 import { jbl_t110bt_reviews } from './reviews/jbl-t110bt';
+import { soundcore_r60i_nc_reviews } from './reviews/soundcore-r60i-nc';
 import { anker_pencil_stylus_reviews } from './reviews/anker-pencil-stylus';
 import { anker_a1637_wukong_3_in_1_power_bank_reviews } from './reviews/anker-a1637-wukong-3-in-1-power-bank';
 import { anker_310_usb_c_lightning_cable_reviews } from './reviews/anker-310-usb-c-lightning-cable';
@@ -236,6 +237,7 @@ export const productReviewsDb: Record<string, import('./reviews/_shared').Produc
     'jbl-tour-pro-2': jbl_tour_pro_2_reviews,
     'jbl-t110': jbl_t110_reviews,
     'jbl-t110bt': jbl_t110bt_reviews,
+    'soundcore-r60i-nc': soundcore_r60i_nc_reviews,
     'anker-pencil-stylus': anker_pencil_stylus_reviews,
 };
 

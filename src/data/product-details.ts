@@ -104,6 +104,7 @@ import { jbl_tune_buds_detail } from './details/jbl-tune-buds';
 import { jbl_tour_pro_2_detail } from './details/jbl-tour-pro-2';
 import { jbl_t110_detail } from './details/jbl-t110';
 import { jbl_t110bt_detail } from './details/jbl-t110bt';
+import { soundcore_r60i_nc_detail } from './details/soundcore-r60i-nc';
 import { anker_pencil_stylus_detail } from './details/anker-pencil-stylus';
 import { anker_a1637_wukong_3_in_1_power_bank_detail } from './details/anker-a1637-wukong-3-in-1-power-bank';
 import { anker_310_usb_c_lightning_cable_detail } from './details/anker-310-usb-c-lightning-cable';
@@ -234,6 +235,7 @@ export const enhancements: Record<string, import('./details/_types').ProductDeta
     'jbl-tour-pro-2': jbl_tour_pro_2_detail,
     'jbl-t110': jbl_t110_detail,
     'jbl-t110bt': jbl_t110bt_detail,
+    'soundcore-r60i-nc': soundcore_r60i_nc_detail,
     'anker-pencil-stylus': anker_pencil_stylus_detail,
 };
 

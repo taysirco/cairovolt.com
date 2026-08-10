@@ -7,23 +7,26 @@ export const jbl_tour_pro_2 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLTOURPRO2",
-    price: 24999,
-    originalPrice: 28499,
-    stock: 18,
+    price: 14499,
+    originalPrice: 16799,
+    stock: 383,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-tour-pro-2/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-tour-pro-2-main-view-cairovolt.webp             alt EN: "JBL Tour Pro 2 JBLTOURPRO2 earbuds with touchscreen smart case - CairoVolt"
-    //   jbl-tour-pro-2-features-angle-cairovolt.webp        alt AR: "ايربودز JBL Tour Pro 2 موديل JBLTOURPRO2 بالعلبة الذكية زاوية المزايا - كايرو فولت"
-    //   jbl-tour-pro-2-specifications-detail-cairovolt.webp alt EN: "JBL Tour Pro 2 JBLTOURPRO2 smart case 1.45 inch touchscreen detail - CairoVolt"
-    //   jbl-tour-pro-2-retail-box-authentic-cairovolt.webp  alt AR: "علبة ايربودز JBL Tour Pro 2 الأصلية JBLTOURPRO2 - كايرو فولت"
-    //   jbl-tour-pro-2-in-use-lifestyle-cairovolt.webp      alt EN: "JBL Tour Pro 2 JBLTOURPRO2 earbuds in an office meeting lifestyle - CairoVolt"
-    //   jbl-tour-pro-2-size-comparison-cairovolt.webp       alt AR: "مقارنة حجم ايربودز JBL Tour Pro 2 موديل JBLTOURPRO2 باليد - كايرو فولت"
-    //   jbl-tour-pro-2-accessories-included-cairovolt.webp  alt EN: "JBL Tour Pro 2 JBLTOURPRO2 box contents ear tips and cable - CairoVolt"
-    //   jbl-tour-pro-2-close-up-detail-cairovolt.webp       alt AR: "تفاصيل شاشة علبة ايربودز JBL Tour Pro 2 موديل JBLTOURPRO2 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-main-view-cairovolt.webp", alt: "JBL Tour Pro 2 JBLTOURPRO2 black open smart case with touchscreen and one earbud in front - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-controls-detail-cairovolt.webp", alt: "العلبة الذكية لسماعة JBL Tour Pro 2 مقفولة موضح شاشة اللمس بخيارات ANC والبطارية - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-back-view-cairovolt.webp", alt: "JBL Tour Pro 2 JBLTOURPRO2 smart case back with TOUR PRO 2 badge and regulatory marks - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-charging-port-detail-cairovolt.webp", alt: "قاعدة علبة سماعة JBL Tour Pro 2 موضح منفذ USB-C وزرار الاقتران - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-features-angle-cairovolt.webp", alt: "JBL Tour Pro 2 JBLTOURPRO2 open case angled with both black earbuds floating above - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-side-view-cairovolt.webp", alt: "سماعة JBL Tour Pro 2 سوداء من الجنب موضح لوحة اللمس بشعار JBL وقطع الأذن - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-mic-detail-cairovolt.webp", alt: "JBL Tour Pro 2 JBLTOURPRO2 earbuds front view showing stem mic grilles and chrome accents - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-main-view-2-cairovolt.webp", alt: "علبة سماعة JBL Tour Pro 2 الذكية مفتوحة والسماعتين جواها والشاشة شغالة - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-back-view-2-cairovolt.webp", alt: "JBL Tour Pro 2 JBLTOURPRO2 earbuds inner side showing L and R markings and ear tips - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-accessories-included-cairovolt.webp", alt: "ملحقات سماعة JBL Tour Pro 2: ثلاث مقاسات قطع أذن وكابل شحن USB-C أسود - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_11", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-retail-box-authentic-cairovolt.webp", alt: "JBL Tour Pro 2 JBLTOURPRO2 retail box showing smart case, ANC, wireless charging, 40H battery - CairoVolt", order: 10, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_12", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-in-use-lifestyle-cairovolt.webp", alt: "علبة سماعة JBL Tour Pro 2 الذكية مفتوحة على طاولة وشاشتها موضحة أزرار الموسيقى - كايرو فولت", order: 11, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-tune-buds", "jbl-tune-770nc", "jbl-wave-beam", "jbl-xtreme-4"],
 

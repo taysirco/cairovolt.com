@@ -8,22 +8,20 @@ export const jbl_t110bt = {
     gtin13: "",
     mpn: "JBLT110BT",
     price: 449,
-    originalPrice: 529,
-    stock: 240,
+    originalPrice: 499,
+    stock: 479,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-t110bt/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-t110bt-main-view-cairovolt.webp                 alt EN: "JBL T110BT Bluetooth neckband earphones JBLT110BT - CairoVolt"
-    //   jbl-t110bt-features-angle-cairovolt.webp            alt AR: "سماعة JBL T110BT نيك باند موديل JBLT110BT زاوية المزايا - كايرو فولت"
-    //   jbl-t110bt-specifications-detail-cairovolt.webp     alt EN: "JBL T110BT JBLT110BT inline remote and micro-USB port detail - CairoVolt"
-    //   jbl-t110bt-retail-box-authentic-cairovolt.webp      alt AR: "علبة سماعة JBL T110BT الأصلية موديل JBLT110BT - كايرو فولت"
-    //   jbl-t110bt-in-use-lifestyle-cairovolt.webp          alt EN: "JBL T110BT JBLT110BT neckband worn during commute lifestyle - CairoVolt"
-    //   jbl-t110bt-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم سماعة JBL T110BT موديل JBLT110BT باليد - كايرو فولت"
-    //   jbl-t110bt-accessories-included-cairovolt.webp      alt EN: "JBL T110BT JBLT110BT box contents and charging cable - CairoVolt"
-    //   jbl-t110bt-close-up-detail-cairovolt.webp           alt AR: "تفاصيل السماعات المغناطيسية في JBL T110BT موديل JBLT110BT عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-t110bt/jbl-t110bt-main-view-cairovolt.webp", alt: "JBL T110BT JBLT110BT black wireless neckband earphones with flat cable and inline remote - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-t110bt/jbl-t110bt-close-up-detail-cairovolt.webp", alt: "لقطة مقربة لسماعة JBL T110BT السوداء موضح شعار JBL وقطعة الأذن بلمسة برتقالي - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-t110bt/jbl-t110bt-controls-detail-cairovolt.webp", alt: "JBL T110BT JBLT110BT inline module with JBL logo on the flat neckband cable - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-t110bt/jbl-t110bt-accessories-included-cairovolt.webp", alt: "ملحقات سماعة JBL T110BT: كابل شحن مايكرو USB برتقالي وجوزين قطع أذن احتياطية - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-t110bt/jbl-t110bt-retail-box-authentic-cairovolt.webp", alt: "JBL Tune 110BT JBLT110BT retail box: Pure Bass Zero Cables, Bluetooth, 6H battery - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-t110bt/jbl-t110bt-case-open-cairovolt.webp", alt: "محتويات علبة سماعة JBL T110BT: السماعة في الدرج الداخلي مع كابل الشحن وقطع الأذن - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-t110bt/jbl-t110bt-in-use-lifestyle-cairovolt.webp", alt: "Man wearing JBL T110BT JBLT110BT wireless neckband earphones on a metro platform - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-t110", "jbl-tune-buds", "jbl-tune-520bt", "jbl-tune-770nc"],
 

@@ -1895,9 +1895,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB01",
         "brand": "JBL",
         "categorySlug": "speakers",
-        "price": 2099,
+        "price": 2049,
         "originalPrice": 2399,
-        "stock": 340,
+        "stock": 446,
         "featured": true,
         "status": "active",
         "translations": {
@@ -1907,6 +1907,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Go 4 — سماعة مدمجة IP67 | بطارية 7 ساعات | Auracast"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-go-4/jbl-go-4-main-view-cairovolt.webp",
+            "alt": "JBL Go 4 JBLGO4 black portable speaker, three-quarter front view with fabric loop strap - CairoVolt"
         }
     },
     {
@@ -1914,9 +1918,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB02",
         "brand": "JBL",
         "categorySlug": "speakers",
-        "price": 2999,
-        "originalPrice": 3399,
-        "stock": 280,
+        "price": 2799,
+        "originalPrice": 3199,
+        "stock": 435,
         "featured": false,
         "status": "active",
         "translations": {
@@ -1926,6 +1930,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Clip 5 — كارابينر مدمج | بطارية 12 ساعة | IP67"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-clip-5/jbl-clip-5-main-view-cairovolt.webp",
+            "alt": "JBL Clip 5 JBLCLIP5 black speaker, three-quarter front view with built-in carabiner - CairoVolt"
         }
     },
     {
@@ -1933,9 +1941,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB03",
         "brand": "JBL",
         "categorySlug": "speakers",
-        "price": 6499,
-        "originalPrice": 7399,
-        "stock": 220,
+        "price": 5499,
+        "originalPrice": 6199,
+        "stock": 419,
         "featured": false,
         "status": "active",
         "translations": {
@@ -1945,6 +1953,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Flip 6 — نظام 30 واط بدرايفرين | بطارية 12 ساعة | IP67"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-flip-6/jbl-flip-6-main-view-cairovolt.webp",
+            "alt": "JBL Flip 6 JBLFLIP6 black speaker, three-quarter view showing passive radiator end - CairoVolt"
         }
     },
     {
@@ -1952,9 +1964,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB04",
         "brand": "JBL",
         "categorySlug": "speakers",
-        "price": 7499,
-        "originalPrice": 8599,
-        "stock": 180,
+        "price": 6499,
+        "originalPrice": 7349,
+        "stock": 497,
         "featured": true,
         "status": "active",
         "translations": {
@@ -1964,6 +1976,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Flip 7 — مقاومة IP68 | بطارية 14 ساعة | صوت لوسلس USB-C"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-flip-7/jbl-flip-7-main-view-cairovolt.webp",
+            "alt": "JBL Flip 7 JBLFLIP7 black speaker horizontal front view with playback and top controls - CairoVolt"
         }
     },
     {
@@ -1973,7 +1989,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "categorySlug": "speakers",
         "price": 6999,
         "originalPrice": 7999,
-        "stock": 190,
+        "stock": 489,
         "featured": false,
         "status": "active",
         "translations": {
@@ -1983,6 +1999,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Charge 5 — بطارية 20 ساعة | باور بانك للموبايل | IP67"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-charge-5/jbl-charge-5-main-view-cairovolt.webp",
+            "alt": "JBL Charge 5 JBLCHARGE5 black speaker straight front view with JBL logo and battery LED - CairoVolt"
         }
     },
     {
@@ -1990,9 +2010,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB06",
         "brand": "JBL",
         "categorySlug": "speakers",
-        "price": 8499,
-        "originalPrice": 9699,
-        "stock": 160,
+        "price": 9149,
+        "originalPrice": 10249,
+        "stock": 382,
         "featured": true,
         "status": "active",
         "translations": {
@@ -2002,6 +2022,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Charge 6 — بطارية 24 ساعة | باور بانك مدمج | IP68"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-charge-6/jbl-charge-6-main-view-cairovolt.webp",
+            "alt": "JBL Charge 6 JBLCHARGE6 portable Bluetooth speaker in black, clean front view with JBL logo - CairoVolt"
         }
     },
     {
@@ -2009,9 +2033,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB07",
         "brand": "JBL",
         "categorySlug": "speakers",
-        "price": 21999,
-        "originalPrice": 24999,
-        "stock": 45,
+        "price": 15849,
+        "originalPrice": 18049,
+        "stock": 313,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2021,6 +2045,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Xtreme 4 — بطارية بتتبدل | تشغيل 24 ساعة | IP67"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-xtreme-4/jbl-xtreme-4-main-view-cairovolt.webp",
+            "alt": "JBL Xtreme 4 JBLXTREME4 portable speaker in blue, three-quarter hero view with strap hooks - CairoVolt"
         }
     },
     {
@@ -2028,9 +2056,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB08",
         "brand": "JBL",
         "categorySlug": "speakers",
-        "price": 15999,
-        "originalPrice": 18499,
-        "stock": 35,
+        "price": 16749,
+        "originalPrice": 18949,
+        "stock": 322,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2040,6 +2068,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Pulse 5 — إضاءة 360 درجة | 40 واط | IP67"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-pulse-5/jbl-pulse-5-main-view-cairovolt.webp",
+            "alt": "JBL Pulse 5 JBLPULSE5 speaker front view with yellow-red-pink 360 lightshow glowing - CairoVolt"
         }
     },
     {
@@ -2047,9 +2079,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB09",
         "brand": "JBL",
         "categorySlug": "speakers",
-        "price": 26999,
-        "originalPrice": 30999,
-        "stock": 30,
+        "price": 22649,
+        "originalPrice": 25599,
+        "stock": 315,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2059,6 +2091,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Boombox 3 — قوة 180 واط | بطارية 24 ساعة | IP67"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-boombox-3/jbl-boombox-3-main-view-cairovolt.webp",
+            "alt": "JBL Boombox 3 JBLBOOMBOX3 black speaker three-quarter hero view with metal carry handle - CairoVolt"
         }
     },
     {
@@ -2066,9 +2102,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB10",
         "brand": "JBL",
         "categorySlug": "partybox",
-        "price": 20999,
-        "originalPrice": 23999,
-        "stock": 25,
+        "price": 20099,
+        "originalPrice": 23549,
+        "stock": 328,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2078,6 +2114,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL PartyBox Encore Essential — بازوكا 100 واط | إضاءة مدمجة | مدخل ميكروفون"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-partybox-encore-essential/jbl-partybox-encore-essential-main-view-cairovolt.webp",
+            "alt": "JBL PartyBox Encore Essential JBLPBENCOREESS black party speaker, three-quarter view with ring lightshow - CairoVolt"
         }
     },
     {
@@ -2085,9 +2125,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB11",
         "brand": "JBL",
         "categorySlug": "partybox",
-        "price": 21999,
-        "originalPrice": 24999,
-        "stock": 22,
+        "price": 20949,
+        "originalPrice": 24649,
+        "stock": 348,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2097,6 +2137,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL PartyBox Club 120 — بازوكا 160 واط | بطارية تتبدل | ميكروفون وجيتار"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-main-view-cairovolt.webp",
+            "alt": "JBL PartyBox Club 120 JBLPBCLUB120 three-quarter view with handle up and pink-red figure-8 lightshow - CairoVolt"
         }
     },
     {
@@ -2104,9 +2148,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB12",
         "brand": "JBL",
         "categorySlug": "partybox",
-        "price": 28999,
-        "originalPrice": 32999,
-        "stock": 20,
+        "price": 29449,
+        "originalPrice": 34249,
+        "stock": 433,
         "featured": true,
         "status": "active",
         "translations": {
@@ -2116,6 +2160,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL PartyBox Stage 320 — بازوكا أفراح 240 واط | بطارية 18 ساعة تتبدل | عجل"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-main-view-cairovolt.webp",
+            "alt": "JBL PartyBox Stage 320 JBLPBSTAGE320 three-quarter view with telescopic handle extended and green lightshow - CairoVolt"
         }
     },
     {
@@ -2123,9 +2171,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB13",
         "brand": "JBL",
         "categorySlug": "partybox",
-        "price": 62999,
-        "originalPrice": 71999,
-        "stock": 8,
+        "price": 65999,
+        "originalPrice": 75599,
+        "stock": 404,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2135,6 +2183,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL PartyBox 1000 — بازوكا 1100 واط | لوحة DJ | إضاءة بانورامية"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-partybox-1000/jbl-partybox-1000-front-view-cairovolt.webp",
+            "alt": "JBL PartyBox 1000 JBLPARTYBOX1000 tall party speaker, front view with full-panel red-green lightshow - CairoVolt"
         }
     },
     {
@@ -2142,9 +2194,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB14",
         "brand": "JBL",
         "categorySlug": "partybox",
-        "price": 8999,
-        "originalPrice": 10499,
-        "stock": 60,
+        "price": 5949,
+        "originalPrice": 6899,
+        "stock": 322,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2154,6 +2206,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL PartyBox Wireless Mic — مايكروفونين لاسلكي | مدى 30 متر | بطارية 20 ساعة"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-partybox-wireless-mic/jbl-partybox-wireless-mic-main-view-cairovolt.webp",
+            "alt": "JBL PartyBox Wireless Mic JBLPBWIRELESSMIC set: two black mics with orange accents and plug-in receiver - CairoVolt"
         }
     },
     {
@@ -2161,9 +2217,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB15",
         "brand": "JBL",
         "categorySlug": "headphones",
-        "price": 1999,
-        "originalPrice": 2299,
-        "stock": 320,
+        "price": 2149,
+        "originalPrice": 2399,
+        "stock": 442,
         "featured": true,
         "status": "active",
         "translations": {
@@ -2173,6 +2229,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Tune 520BT — بطارية 57 ساعة | مالتي بوينت | شحن سريع USB-C"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-tune-520bt/jbl-tune-520bt-main-view-cairovolt.webp",
+            "alt": "JBL Tune 520BT JBLT520BT black wireless on-ear headphones, three-quarter hero view - CairoVolt"
         }
     },
     {
@@ -2180,9 +2240,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB16",
         "brand": "JBL",
         "categorySlug": "headphones",
-        "price": 3299,
-        "originalPrice": 3799,
-        "stock": 260,
+        "price": 3049,
+        "originalPrice": 3499,
+        "stock": 508,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2192,6 +2252,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Tune 720BT — بطارية 76 ساعة | درايفر 40 ملم | كابل Aux منفصل"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-main-view-cairovolt.webp",
+            "alt": "JBL Tune 720BT JBLT720BT black wireless over-ear headphones, three-quarter hero view - CairoVolt"
         }
     },
     {
@@ -2199,9 +2263,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB17",
         "brand": "JBL",
         "categorySlug": "headphones",
-        "price": 5499,
-        "originalPrice": 6299,
-        "stock": 140,
+        "price": 4049,
+        "originalPrice": 4699,
+        "stock": 508,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2211,6 +2275,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Tune 770NC — عزل ضوضاء تكيفي | بطارية 70 ساعة | مالتي بوينت"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-tune-770nc/jbl-tune-770nc-main-view-cairovolt.webp",
+            "alt": "JBL Tune 770NC JBLT770NC black wireless noise cancelling over-ear headphones, three-quarter hero view - CairoVolt"
         }
     },
     {
@@ -2218,9 +2286,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB18",
         "brand": "JBL",
         "categorySlug": "earbuds",
-        "price": 2199,
-        "originalPrice": 2499,
-        "stock": 380,
+        "price": 2449,
+        "originalPrice": 2899,
+        "stock": 464,
         "featured": true,
         "status": "active",
         "translations": {
@@ -2230,6 +2298,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Wave Beam — بطارية 32 ساعة بالعلبة | IP54 | Smart Ambient"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-wave-beam/jbl-wave-beam-main-view-cairovolt.webp",
+            "alt": "JBL Wave Beam JBLGO4-class TWS earbuds in black, open charging case with one earbud in front - CairoVolt"
         }
     },
     {
@@ -2237,9 +2309,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB19",
         "brand": "JBL",
         "categorySlug": "earbuds",
-        "price": 4999,
-        "originalPrice": 5699,
-        "stock": 210,
+        "price": 5999,
+        "originalPrice": 6949,
+        "stock": 362,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2249,6 +2321,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Tune Buds — عزل ضوضاء ANC | بطارية 48 ساعة | 4 مايكات"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-tune-buds/jbl-tune-buds-main-view-cairovolt.webp",
+            "alt": "JBL Tune Buds JBLTBUDS in black, open charging case with one earbud in front - CairoVolt"
         }
     },
     {
@@ -2256,9 +2332,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB20",
         "brand": "JBL",
         "categorySlug": "earbuds",
-        "price": 24999,
-        "originalPrice": 28499,
-        "stock": 18,
+        "price": 14499,
+        "originalPrice": 16799,
+        "stock": 383,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2268,6 +2344,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL Tour Pro 2 — علبة ذكية بشاشة لمس | عزل تكيفي | 40 ساعة"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-main-view-cairovolt.webp",
+            "alt": "JBL Tour Pro 2 JBLTOURPRO2 black open smart case with touchscreen and one earbud in front - CairoVolt"
         }
     },
     {
@@ -2275,9 +2355,9 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "sku": "JB21",
         "brand": "JBL",
         "categorySlug": "earbuds",
-        "price": 449,
-        "originalPrice": 529,
-        "stock": 450,
+        "price": 249,
+        "originalPrice": 299,
+        "stock": 483,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2287,6 +2367,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL T110 — سماعة بسلك 3.5 ملم | درايفر Pure Bass مقاس 9 ملم | مايك وريموت"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-t110/jbl-t110-main-view-cairovolt.webp",
+            "alt": "JBL T110 JBLT110 black wired in-ear earphones with one-button mic remote on flat cable - CairoVolt"
         }
     },
     {
@@ -2295,8 +2379,8 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "brand": "JBL",
         "categorySlug": "earbuds",
         "price": 449,
-        "originalPrice": 529,
-        "stock": 240,
+        "originalPrice": 499,
+        "stock": 479,
         "featured": false,
         "status": "active",
         "translations": {
@@ -2306,6 +2390,33 @@ export const clientCatalog: ClientCatalogProduct[] = [
             "ar": {
                 "name": "JBL T110BT — نيك باند بلوتوث | سماعات مغناطيسية | مايك مدمج"
             }
+        },
+        "image": {
+            "url": "/products/jbl/jbl-t110bt/jbl-t110bt-main-view-cairovolt.webp",
+            "alt": "JBL T110BT JBLT110BT black wireless neckband earphones with flat cable and inline remote - CairoVolt"
+        }
+    },
+    {
+        "slug": "soundcore-r60i-nc",
+        "sku": "SH31",
+        "brand": "Soundcore",
+        "categorySlug": "audio",
+        "price": 1749,
+        "originalPrice": 1999,
+        "stock": 427,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "Soundcore R60i NC — Adaptive ANC | LDAC Hi-Res | 50h with Case"
+            },
+            "ar": {
+                "name": "Soundcore R60i NC — عزل ضوضاء تكيفي | LDAC هاي-ريس | بطارية 50 ساعة"
+            }
+        },
+        "image": {
+            "url": "/products/anker/soundcore-r60i-nc/soundcore-r60i-nc-main-view-cairovolt.webp",
+            "alt": "Soundcore R60i NC D1202 ANC earbuds floating above closed charging case - CairoVolt"
         }
     },
     {

@@ -7,23 +7,22 @@ export const jbl_tune_buds = {
     gtin: "",
     gtin13: "",
     mpn: "JBLTBUDS",
-    price: 4999,
-    originalPrice: 5699,
-    stock: 210,
+    price: 5999,
+    originalPrice: 6949,
+    stock: 362,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-tune-buds/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-tune-buds-main-view-cairovolt.webp             alt EN: "JBL Tune Buds JBLTBUDS ANC true wireless earbuds with case - CairoVolt"
-    //   jbl-tune-buds-features-angle-cairovolt.webp        alt AR: "ايربودز JBL Tune Buds موديل JBLTBUDS بعزل الضوضاء زاوية المزايا - كايرو فولت"
-    //   jbl-tune-buds-specifications-detail-cairovolt.webp alt EN: "JBL Tune Buds JBLTBUDS charging case USB-C port detail - CairoVolt"
-    //   jbl-tune-buds-retail-box-authentic-cairovolt.webp  alt AR: "علبة ايربودز JBL Tune Buds الأصلية JBLTBUDS - كايرو فولت"
-    //   jbl-tune-buds-in-use-lifestyle-cairovolt.webp      alt EN: "JBL Tune Buds JBLTBUDS earbuds worn on a noisy street lifestyle - CairoVolt"
-    //   jbl-tune-buds-size-comparison-cairovolt.webp       alt AR: "مقارنة حجم ايربودز JBL Tune Buds موديل JBLTBUDS باليد - كايرو فولت"
-    //   jbl-tune-buds-accessories-included-cairovolt.webp  alt EN: "JBL Tune Buds JBLTBUDS box contents ear tips and cable - CairoVolt"
-    //   jbl-tune-buds-close-up-detail-cairovolt.webp       alt AR: "تفاصيل مايكات ايربودز JBL Tune Buds موديل JBLTBUDS عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-tune-buds/jbl-tune-buds-main-view-cairovolt.webp", alt: "JBL Tune Buds JBLTBUDS in black, open charging case with one earbud in front - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-tune-buds/jbl-tune-buds-features-angle-cairovolt.webp", alt: "سماعة JBL Tune Buds سوداء من الأمام موضح سطح اللمس البيضاوي بشعار JBL - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-tune-buds/jbl-tune-buds-back-view-cairovolt.webp", alt: "JBL Tune Buds JBLTBUDS black earbuds inner side showing charging contacts and silicone tips - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-tune-buds/jbl-tune-buds-charging-port-detail-cairovolt.webp", alt: "قاعدة علبة شحن سماعة JBL Tune Buds موضح منفذ USB-C - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-tune-buds/jbl-tune-buds-case-open-cairovolt.webp", alt: "JBL Tune Buds JBLTBUDS black open charging case front view with both earbuds seated inside - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-tune-buds/jbl-tune-buds-back-view-2-cairovolt.webp", alt: "علبة شحن سماعة JBL Tune Buds من الخلف بشعار JBL TUNE بارز - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-tune-buds/jbl-tune-buds-features-angle-2-cairovolt.webp", alt: "JBL Tune Buds JBLTBUDS open case at an angle with one earbud inside and one floating - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-tune-buds/jbl-tune-buds-retail-box-authentic-cairovolt.webp", alt: "علبة بيع سماعة JBL Tune Buds سوداء من الأمام: Pure Bass وعزل ضوضاء وبطارية 48 ساعة - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-wave-beam", "jbl-tour-pro-2", "jbl-tune-770nc", "jbl-t110bt", "jbl-tune-720bt", "jbl-t110"],
 

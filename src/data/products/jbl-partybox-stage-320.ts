@@ -7,23 +7,27 @@ export const jbl_partybox_stage_320 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLPBSTAGE320",
-    price: 28999,
-    originalPrice: 32999,
-    stock: 20,
+    price: 29449,
+    originalPrice: 34249,
+    stock: 433,
     featured: true,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-partybox-stage-320/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-partybox-stage-320-main-view-cairovolt.webp             alt EN: "JBL PartyBox Stage 320 240W party speaker JBLPBSTAGE320 - CairoVolt"
-    //   jbl-partybox-stage-320-features-angle-cairovolt.webp        alt AR: "بازوكا JBL PartyBox Stage 320 موديل JBLPBSTAGE320 زاوية المزايا - كايرو فولت"
-    //   jbl-partybox-stage-320-specifications-detail-cairovolt.webp alt EN: "JBL PartyBox Stage 320 JBLPBSTAGE320 swappable battery and telescopic handle detail - CairoVolt"
-    //   jbl-partybox-stage-320-retail-box-authentic-cairovolt.webp  alt AR: "علبة بازوكا JBL PartyBox Stage 320 الأصلية JBLPBSTAGE320 - كايرو فولت"
-    //   jbl-partybox-stage-320-in-use-lifestyle-cairovolt.webp      alt EN: "JBL PartyBox Stage 320 JBLPBSTAGE320 lightshow at a wedding - CairoVolt"
-    //   jbl-partybox-stage-320-size-comparison-cairovolt.webp       alt AR: "مقارنة حجم بازوكا JBL PartyBox Stage 320 موديل JBLPBSTAGE320 - كايرو فولت"
-    //   jbl-partybox-stage-320-accessories-included-cairovolt.webp  alt EN: "JBL PartyBox Stage 320 JBLPBSTAGE320 box contents and battery pack - CairoVolt"
-    //   jbl-partybox-stage-320-close-up-detail-cairovolt.webp       alt AR: "تفاصيل عجل بازوكا JBL PartyBox Stage 320 موديل JBLPBSTAGE320 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-main-view-cairovolt.webp", alt: "JBL PartyBox Stage 320 JBLPBSTAGE320 three-quarter view with telescopic handle extended and green lightshow - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-front-view-cairovolt.webp", alt: "سماعة JBL PartyBox Stage 320 من الأمام بإضاءة وردي وأحمر على شكل 8 وشرائط إضاءة - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-back-view-cairovolt.webp", alt: "JBL PartyBox Stage 320 JBLPBSTAGE320 back view showing PartyBox handle, port covers, bass port and wheels - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-side-view-cairovolt.webp", alt: "الجانب في سماعة JBL PartyBox Stage 320 بلوحة دائرية مضلعة وعجلة في القاعدة - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-bottom-view-cairovolt.webp", alt: "JBL PartyBox Stage 320 JBLPBSTAGE320 bottom view showing rubber feet and two transport wheels - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-top-view-cairovolt.webp", alt: "اللوحة العلوية في JBL PartyBox Stage 320 بمفاتيح المايك والباس والتربل والإيكو وأزرار التشغيل - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-telescopic-handle-detail-cairovolt.webp", alt: "JBL PartyBox Stage 320 JBLPBSTAGE320 close-up of extended telescopic trolley handle above the top panel - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-charging-port-detail-cairovolt.webp", alt: "لوحة منافذ JBL PartyBox Stage 320: مدخل مايك وجيتار و USB و AUX وتوصيل Daisy Chain - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-port-cover-open-detail-cairovolt.webp", alt: "JBL PartyBox Stage 320 JBLPBSTAGE320 close-up of rear splashproof compartment cover open with orange interior - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-handle-wheels-detail-cairovolt.webp", alt: "لقطة مقربة لعجلة النقل عليها شعار JBL PartyBox Stage 320 في ركن القاعدة - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_11", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-retail-box-authentic-cairovolt.webp", alt: "JBL PartyBox Stage 320 JBLPBSTAGE320 original retail boxes stacked, showing iF Design Award 2024 badge - CairoVolt", order: 10, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_12", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-water-resistance-demo-cairovolt.webp", alt: "اللوحة العلوية لسماعة JBL PartyBox Stage 320 مبلولة بالمية بجانب حمام سباحة بعلامة IPX4 - كايرو فولت", order: 11, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_13", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-internal-drivers-cutaway-cairovolt.webp", alt: "JBL PartyBox Stage 320 JBLPBSTAGE320 cutaway render with woofers and tweeters pulled out of the cabinet - CairoVolt", order: 12, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-partybox-club-120", "jbl-partybox-1000", "jbl-partybox-wireless-mic", "jbl-partybox-encore-essential"],
 

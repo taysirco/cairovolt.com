@@ -105,10 +105,10 @@ export const jbl_earbuds_content: CategoryContent = {
                 }
             ],
             products: [
-                { name: 'JBL Wave Beam', price: 2199, badge: 'قيمة ممتازة' },
-                { name: 'JBL Tune Buds', price: 4999, badge: 'عزل ضوضاء' },
-                { name: 'JBL Tour Pro 2', price: 24999, badge: 'علبة بشاشة' },
-                { name: 'JBL T110', price: 449, badge: 'الكلاسيكية بسلك' },
+                { name: 'JBL Wave Beam', price: 2449, badge: 'قيمة ممتازة' },
+                { name: 'JBL Tune Buds', price: 5999, badge: 'عزل ضوضاء' },
+                { name: 'JBL Tour Pro 2', price: 14499, badge: 'علبة بشاشة' },
+                { name: 'JBL T110', price: 249, badge: 'الكلاسيكية بسلك' },
                 { name: 'JBL T110BT', price: 449, badge: 'نيك باند' },
             ]
         },
@@ -200,10 +200,10 @@ If your day includes metro and bus commutes, ANC makes an audible difference on 
                 }
             ],
             products: [
-                { name: 'JBL Wave Beam', price: 2199, badge: 'Best Value' },
-                { name: 'JBL Tune Buds', price: 4999, badge: 'ANC' },
-                { name: 'JBL Tour Pro 2', price: 24999, badge: 'Smart Case' },
-                { name: 'JBL T110', price: 449, badge: 'Wired Classic' },
+                { name: 'JBL Wave Beam', price: 2449, badge: 'Best Value' },
+                { name: 'JBL Tune Buds', price: 5999, badge: 'ANC' },
+                { name: 'JBL Tour Pro 2', price: 14499, badge: 'Smart Case' },
+                { name: 'JBL T110', price: 249, badge: 'Wired Classic' },
                 { name: 'JBL T110BT', price: 449, badge: 'Neckband' },
             ]
         }

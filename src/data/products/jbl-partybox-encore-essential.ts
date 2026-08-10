@@ -7,23 +7,23 @@ export const jbl_partybox_encore_essential = {
     gtin: "",
     gtin13: "",
     mpn: "JBLPBENCOREESS",
-    price: 20999,
-    originalPrice: 23999,
-    stock: 25,
+    price: 20099,
+    originalPrice: 23549,
+    stock: 328,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-partybox-encore-essential/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-partybox-encore-essential-main-view-cairovolt.webp             alt EN: "JBL PartyBox Encore Essential 100W party speaker JBLPBENCOREESS - CairoVolt"
-    //   jbl-partybox-encore-essential-features-angle-cairovolt.webp        alt AR: "بازوكا JBL PartyBox Encore Essential موديل JBLPBENCOREESS زاوية المزايا - كايرو فولت"
-    //   jbl-partybox-encore-essential-specifications-detail-cairovolt.webp alt EN: "JBL PartyBox Encore Essential JBLPBENCOREESS controls and mic input detail - CairoVolt"
-    //   jbl-partybox-encore-essential-retail-box-authentic-cairovolt.webp  alt AR: "علبة بازوكا JBL PartyBox Encore Essential الأصلية JBLPBENCOREESS - كايرو فولت"
-    //   jbl-partybox-encore-essential-in-use-lifestyle-cairovolt.webp      alt EN: "JBL PartyBox Encore Essential JBLPBENCOREESS lightshow at a family gathering - CairoVolt"
-    //   jbl-partybox-encore-essential-size-comparison-cairovolt.webp       alt AR: "مقارنة حجم بازوكا JBL PartyBox Encore Essential موديل JBLPBENCOREESS - كايرو فولت"
-    //   jbl-partybox-encore-essential-accessories-included-cairovolt.webp  alt EN: "JBL PartyBox Encore Essential JBLPBENCOREESS box contents - CairoVolt"
-    //   jbl-partybox-encore-essential-close-up-detail-cairovolt.webp       alt AR: "تفاصيل شبكة بازوكا JBL PartyBox Encore Essential موديل JBLPBENCOREESS عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-partybox-encore-essential/jbl-partybox-encore-essential-main-view-cairovolt.webp", alt: "JBL PartyBox Encore Essential JBLPBENCOREESS black party speaker, three-quarter view with ring lightshow - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-partybox-encore-essential/jbl-partybox-encore-essential-front-view-cairovolt.webp", alt: "سماعة JBL PartyBox Encore Essential من الأمام بشبكة السماعة وحلقة إضاءة وردي وأزرق - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-partybox-encore-essential/jbl-partybox-encore-essential-back-view-cairovolt.webp", alt: "JBL PartyBox Encore Essential JBLPBENCOREESS back panel with mic input, gain knob, USB and AUX ports - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-partybox-encore-essential/jbl-partybox-encore-essential-side-view-cairovolt.webp", alt: "الجانب في سماعة JBL PartyBox Encore Essential ويظهر عليه شعار علامة التعجب - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-partybox-encore-essential/jbl-partybox-encore-essential-top-view-cairovolt.webp", alt: "JBL PartyBox Encore Essential JBLPBENCOREESS top view with carry handle recesses and control buttons - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-partybox-encore-essential/jbl-partybox-encore-essential-bottom-view-cairovolt.webp", alt: "قاعدة سماعة JBL PartyBox Encore Essential وتظهر أربع قواعد مطاطية - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-partybox-encore-essential/jbl-partybox-encore-essential-accessories-included-cairovolt.webp", alt: "JBL PartyBox Encore Essential JBLPBENCOREESS with lightshow next to two JBL wireless microphones - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-partybox-encore-essential/jbl-partybox-encore-essential-retail-box-authentic-cairovolt.webp", alt: "العلبة الأصلية لسماعة JBL PartyBox Encore Essential بطباعة Powerful Bass Boost - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-partybox-encore-essential/jbl-partybox-encore-essential-internal-drivers-cutaway-cairovolt.webp", alt: "JBL PartyBox Encore Essential JBLPBENCOREESS cutaway render showing internal woofer and tweeter drivers - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-partybox-club-120", "jbl-partybox-stage-320", "jbl-partybox-wireless-mic", "jbl-boombox-3", "jbl-xtreme-4"],
 

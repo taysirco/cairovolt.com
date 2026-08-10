@@ -7,23 +7,24 @@ export const jbl_xtreme_4 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLXTREME4",
-    price: 21999,
-    originalPrice: 24999,
-    stock: 45,
+    price: 15849,
+    originalPrice: 18049,
+    stock: 313,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-xtreme-4/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-xtreme-4-main-view-cairovolt.webp                 alt EN: "JBL Xtreme 4 portable Bluetooth speaker JBLXTREME4 - CairoVolt"
-    //   jbl-xtreme-4-features-angle-cairovolt.webp            alt AR: "سماعة JBL Xtreme 4 موديل JBLXTREME4 زاوية المزايا - كايرو فولت"
-    //   jbl-xtreme-4-specifications-detail-cairovolt.webp     alt EN: "JBL Xtreme 4 JBLXTREME4 replaceable battery compartment detail - CairoVolt"
-    //   jbl-xtreme-4-retail-box-authentic-cairovolt.webp      alt AR: "علبة سماعة JBL Xtreme 4 الأصلية JBLXTREME4 - كايرو فولت"
-    //   jbl-xtreme-4-in-use-lifestyle-cairovolt.webp          alt EN: "JBL Xtreme 4 JBLXTREME4 speaker with shoulder strap outdoors lifestyle - CairoVolt"
-    //   jbl-xtreme-4-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم سماعة JBL Xtreme 4 موديل JBLXTREME4 - كايرو فولت"
-    //   jbl-xtreme-4-accessories-included-cairovolt.webp      alt EN: "JBL Xtreme 4 JBLXTREME4 box contents and carry strap - CairoVolt"
-    //   jbl-xtreme-4-close-up-detail-cairovolt.webp           alt AR: "تفاصيل سماعة JBL Xtreme 4 موديل JBLXTREME4 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-xtreme-4/jbl-xtreme-4-main-view-cairovolt.webp", alt: "JBL Xtreme 4 JBLXTREME4 portable speaker in blue, three-quarter hero view with strap hooks - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-xtreme-4/jbl-xtreme-4-front-view-cairovolt.webp", alt: "منظر أمامي مباشر لسماعة JBL Xtreme 4 الزرقاء يوضح شعار XTREME 4 وأزرار التحكم - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-xtreme-4/jbl-xtreme-4-side-view-cairovolt.webp", alt: "JBL Xtreme 4 JBLXTREME4 side view of the end passive radiator with JBL mark and top handle - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-xtreme-4/jbl-xtreme-4-controls-detail-cairovolt.webp", alt: "منظر علوي لسماعة JBL Xtreme 4 يوضح أزرار Auracast والباور والبلوتوث والتشغيل - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-xtreme-4/jbl-xtreme-4-bottom-view-cairovolt.webp", alt: "JBL Xtreme 4 JBLXTREME4 bottom view showing rubber feet and regulatory info plate - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-xtreme-4/jbl-xtreme-4-accessories-included-cairovolt.webp", alt: "حجرة البطارية القابلة للإزالة بسماعة JBL Xtreme 4 مع الغطاء وشاحن JBL المرفق - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-xtreme-4/jbl-xtreme-4-strap-attached-view-cairovolt.webp", alt: "JBL Xtreme 4 JBLXTREME4 blue speaker with shoulder strap clipped on, angled view - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-xtreme-4/jbl-xtreme-4-close-up-detail-cairovolt.webp", alt: "صورة حقيقية مقربة لمشع الباص وخطاف الحزام المعدني بسماعة JBL Xtreme 4 - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-xtreme-4/jbl-xtreme-4-strap-detail-cairovolt.webp", alt: "JBL Xtreme 4 JBLXTREME4 real photo of top controls with detached shoulder strap laid out - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-xtreme-4/jbl-xtreme-4-retail-box-authentic-cairovolt.webp", alt: "علبة سماعة JBL Xtreme 4 الأصلية بصورة اللون الأسود وعلامتي بلوتوث 5.3 و24 ساعة - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-charge-6", "jbl-charge-5", "jbl-boombox-3", "jbl-flip-7", "jbl-partybox-encore-essential", "jbl-tour-pro-2"],
 

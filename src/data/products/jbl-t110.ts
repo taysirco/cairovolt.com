@@ -7,23 +7,21 @@ export const jbl_t110 = {
     gtin: "",
     gtin13: "",
     mpn: "JBLT110",
-    price: 449,
-    originalPrice: 529,
-    stock: 450,
+    price: 249,
+    originalPrice: 299,
+    stock: 483,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-t110/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-t110-main-view-cairovolt.webp                 alt EN: "JBL T110 wired in-ear earphones JBLT110 - CairoVolt"
-    //   jbl-t110-features-angle-cairovolt.webp            alt AR: "سماعة JBL T110 بسلك موديل JBLT110 زاوية المزايا - كايرو فولت"
-    //   jbl-t110-specifications-detail-cairovolt.webp     alt EN: "JBL T110 JBLT110 flat cable and one-button remote detail - CairoVolt"
-    //   jbl-t110-retail-box-authentic-cairovolt.webp      alt AR: "علبة سماعة JBL T110 الأصلية موديل JBLT110 - كايرو فولت"
-    //   jbl-t110-in-use-lifestyle-cairovolt.webp          alt EN: "JBL T110 JBLT110 earphones with phone lifestyle - CairoVolt"
-    //   jbl-t110-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم سماعة JBL T110 موديل JBLT110 باليد - كايرو فولت"
-    //   jbl-t110-accessories-included-cairovolt.webp      alt EN: "JBL T110 JBLT110 box contents and ear tips - CairoVolt"
-    //   jbl-t110-close-up-detail-cairovolt.webp           alt AR: "تفاصيل شعار سماعة JBL T110 موديل JBLT110 عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-t110/jbl-t110-main-view-cairovolt.webp", alt: "JBL T110 JBLT110 black wired in-ear earphones with one-button mic remote on flat cable - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-t110/jbl-t110-retail-box-authentic-cairovolt.webp", alt: "سماعة JBL T110 السلكية السوداء جنب علبة البيع Pure Bass - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-t110/jbl-t110-in-use-lifestyle-cairovolt.webp", alt: "JBL T110 JBLT110 collage: earbud close-up, L M S ear tip sizes, and woman wearing the earphone - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-t110/jbl-t110-close-up-detail-cairovolt.webp", alt: "لقطة مقربة لسماعة JBL T110 السوداء موضح السماعات المائلة وقطع الأذن بلمسة برتقالي - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-t110/jbl-t110-audio-jack-detail-cairovolt.webp", alt: "JBL T110 JBLT110 detail of gold-plated 3.5mm jack and flat tangle-free cable - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-t110/jbl-t110-retail-box-authentic-2-cairovolt.webp", alt: "ظهر علبة بيع سماعة JBL Tune 110 موضح صوت Pure Bass والمكالمات والكابل المسطح - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-t110/jbl-t110-accessories-included-cairovolt.webp", alt: "JBL T110 JBLT110 full cable coiled with mic remote and four spare orange-accent ear tips - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-t110bt", "jbl-wave-beam", "jbl-tune-520bt", "jbl-tune-buds"],
 

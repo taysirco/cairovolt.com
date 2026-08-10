@@ -7,23 +7,24 @@ export const jbl_tune_720bt = {
     gtin: "",
     gtin13: "",
     mpn: "JBLT720BT",
-    price: 3299,
-    originalPrice: 3799,
-    stock: 260,
+    price: 3049,
+    originalPrice: 3499,
+    stock: 508,
     featured: false,
     status: "active",
 
-    // TODO(images): drop files in public/products/jbl/jbl-tune-720bt/ then fill this array.
-    // Planned filenames (8):
-    //   jbl-tune-720bt-main-view-cairovolt.webp                 alt EN: "JBL Tune 720BT over-ear wireless headphones JBLT720BT - CairoVolt"
-    //   jbl-tune-720bt-features-angle-cairovolt.webp            alt AR: "هيدفون JBL Tune 720BT موديل JBLT720BT زاوية المزايا - كايرو فولت"
-    //   jbl-tune-720bt-specifications-detail-cairovolt.webp     alt EN: "JBL Tune 720BT JBLT720BT USB-C port and aux jack detail - CairoVolt"
-    //   jbl-tune-720bt-retail-box-authentic-cairovolt.webp      alt AR: "علبة هيدفون JBL Tune 720BT الأصلية JBLT720BT - كايرو فولت"
-    //   jbl-tune-720bt-in-use-lifestyle-cairovolt.webp          alt EN: "JBL Tune 720BT JBLT720BT worn at a home-office desk lifestyle - CairoVolt"
-    //   jbl-tune-720bt-size-comparison-cairovolt.webp           alt AR: "مقارنة حجم هيدفون JBL Tune 720BT موديل JBLT720BT مطوية باليد - كايرو فولت"
-    //   jbl-tune-720bt-accessories-included-cairovolt.webp      alt EN: "JBL Tune 720BT JBLT720BT box contents with detachable aux cable - CairoVolt"
-    //   jbl-tune-720bt-close-up-detail-cairovolt.webp           alt AR: "تفاصيل وسادات هيدفون JBL Tune 720BT موديل JBLT720BT عن قرب - كايرو فولت"
-    images: [],
+    images: [
+        { id: "img_1", url: "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-main-view-cairovolt.webp", alt: "JBL Tune 720BT JBLT720BT black wireless over-ear headphones, three-quarter hero view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+        { id: "img_2", url: "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-front-view-cairovolt.webp", alt: "سماعة JBL Tune 720BT سوداء من الأمام وتظهر وسادتا الأذن الكبيرتان - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_3", url: "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-side-view-cairovolt.webp", alt: "JBL Tune 720BT JBLT720BT black headphones side profile with JBL logo on the ear cup - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_4", url: "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-top-view-cairovolt.webp", alt: "سماعة JBL Tune 720BT سوداء مطوية بشكل مسطح من الأعلى وتظهر أزرار التحكم على حافة السماعة - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_5", url: "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-controls-detail-cairovolt.webp", alt: "JBL Tune 720BT JBLT720BT black headphones angled view showing power button, aux jack and control buttons - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_6", url: "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-accessories-included-cairovolt.webp", alt: "ملحقات سماعة JBL Tune 720BT: كابل شحن USB-C برتقالي وكابل أوكس 3.5 ملم أسود - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_7", url: "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-earcup-cushion-detail-cairovolt.webp", alt: "JBL Tune 720BT JBLT720BT black headphones laid flat showing padded right ear cushion with R marking - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_8", url: "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-retail-box-authentic-cairovolt.webp", alt: "علبة سماعة JBL Tune 720BT الأصلية وعليها السماعة السوداء وشعار البلوتوث وبطارية 76 ساعة - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_9", url: "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-retail-box-back-cairovolt.webp", alt: "JBL Tune 720BT JBLT720BT box back panel showing Pure Bass Wireless features and Bluetooth 5.3 specs - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+        { id: "img_10", url: "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-in-use-lifestyle-cairovolt.webp", alt: "سماعة JBL Tune 720BT باللون الأبيض، لقطة قريبة في الهواء الطلق على خلفية السماء والأشجار - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
+    ],
 
     relatedProducts: ["jbl-tune-770nc", "jbl-tune-520bt", "jbl-tune-buds", "jbl-wave-beam"],
 
