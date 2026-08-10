@@ -10,6 +10,7 @@ import {
     STANDARD_DELIVERY_MIN_DAYS,
     STANDARD_SHIPPING_MAX_EGP,
     MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
+    MERCHANT_FEED_WITHHELD_PRODUCT_SLUGS,
 } from '@/lib/merchant-product-data';
 
 /**
@@ -78,7 +79,8 @@ function stripHtmlToText(s: string): string {
 // Google Merchant Center must always display correct, current prices.
 function getProducts(): FeedProduct[] {
     const activeProducts = staticProducts.filter(
-        (p) => p.status === 'active' && !MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(p.slug),
+        (p) => p.status === 'active' && !MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(p.slug)
+        && !MERCHANT_FEED_WITHHELD_PRODUCT_SLUGS.has(p.slug),
     );
     const skuCounts = activeProducts.reduce<Map<string, number>>((counts, product) => {
         if (product.sku) counts.set(product.sku, (counts.get(product.sku) || 0) + 1);

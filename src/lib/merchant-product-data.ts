@@ -112,13 +112,21 @@ export const STANDARD_RETURN_WINDOW_DAYS = 14;
  * sufficient evidence of one product. Before collapsing two records again,
  * check stock and SKU, not just MPN.
  */
-export const MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS = new Set([
-    'joyroom-usb-a-lightning-1.2m', // status: retired
-    'joyroom-usb-a-type-c-1.2m', // status: retired
-    // JBL batch — kept OUT of the Google Merchant feed by OWNER DECISION
-    // (2026-08-10, "لا تضيف منتجات jbl لجوجل ميرش الان"). Images exist and the
-    // storefront pages are live-ready; only the machine feed is gated. Remove
-    // these when the owner green-lights Merchant listing.
+/**
+ * Slugs withheld from the GOOGLE MERCHANT product feed only.
+ *
+ * WHY THIS IS SEPARATE FROM MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS:
+ * that set is consumed by SIX surfaces — the Merchant feed, llms.txt,
+ * llms-full.txt, the knowledge graph, the lab export and feed.xml. Putting the
+ * JBL batch there to honour the owner's "don't list JBL on Google Merchant yet"
+ * instruction also deleted the entire brand from every AI/agent-facing catalogue,
+ * which was never the intent: the products are on sale, fully imaged, and should
+ * be discoverable by assistants and answer engines. Merchant listing is a
+ * commercial decision; machine readability is not.
+ *
+ * Empty this set when the owner green-lights Merchant listing for JBL.
+ */
+export const MERCHANT_FEED_WITHHELD_PRODUCT_SLUGS = new Set([
     'jbl-go-4',
     'jbl-clip-5',
     'jbl-flip-6',
@@ -141,6 +149,11 @@ export const MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS = new Set([
     'jbl-tour-pro-2',
     'jbl-t110',
     'jbl-t110bt',
+]);
+
+export const MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS = new Set([
+    'joyroom-usb-a-lightning-1.2m', // status: retired
+    'joyroom-usb-a-type-c-1.2m', // status: retired
     // A1681 was excluded here as a recalled SKU. Owner attests the stock on hand
     // was serial-checked against anker.com/rc2506 and falls outside the affected
     // range — see RECALL_STOCK_VERIFIED_OUTSIDE_SCOPE, which also keeps the
