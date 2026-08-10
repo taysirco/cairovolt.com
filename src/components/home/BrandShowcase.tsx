@@ -121,8 +121,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
           </article>
 
           <article className="group relative isolate min-h-[440px] overflow-hidden rounded-[2rem] border border-orange-100 bg-[#fff3e8] p-7 sm:p-9 lg:col-span-2">
-            {/* TODO(images): swap the decorative gradient for a real JBL product
-                cutout at /images/home/cutouts/jbl-*.png when owner art lands. */}
+
             <div className="relative z-10 max-w-[60%] sm:max-w-[55%]">
               <span className="text-xs font-black uppercase tracking-[.18em] text-orange-700">JBL</span>
               <h3 className="mt-3 font-outfit text-3xl font-bold tracking-tight sm:text-4xl">
@@ -143,7 +142,15 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
                 <span>{isAr ? '←' : '→'}</span>
               </Link>
             </div>
-            <div className="absolute bottom-0 right-0 h-3/4 w-2/5 rounded-tl-[6rem] bg-[radial-gradient(circle_at_70%_70%,rgba(249,115,22,.35),transparent_65%),radial-gradient(circle_at_30%_30%,rgba(180,83,9,.25),transparent_55%)] rtl:left-0 rtl:right-auto rtl:rounded-tl-none rtl:rounded-tr-[6rem]" />
+            <div className="absolute bottom-4 right-4 h-1/2 w-2/5 sm:h-3/5 rtl:left-4 rtl:right-auto">
+              <Image
+                src="/images/home/cutouts/jbl-charge-5-portable-speaker-cutout-cairovolt.png"
+                alt={isAr ? 'سماعة JBL Charge 5 بلوتوث' : 'JBL Charge 5 Bluetooth speaker'}
+                fill
+                sizes="(max-width: 1024px) 65vw, 32vw"
+                className="object-contain object-bottom p-2 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)] transition duration-700 group-hover:scale-105"
+              />
+            </div>
           </article>
         </div>
       </div>
