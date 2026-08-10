@@ -304,6 +304,15 @@ export const config = {
     // homepage clone via the [locale] catch-all.
     matcher: [
         '/.well-known/:path*',
-        '/((?!_next|__firebase|api/img).*)',
+        // public/ asset trees are excluded so Firebase App Hosting can edge-cache
+        // them. Measured on production: /_next/static/* (already excluded) serves
+        // in ~0.20s from the edge, while /products/**.webp — same static bytes but
+        // stamped x-fah-middleware:true — served in 0.57–1.5s from the container
+        // despite an identical public cdn-cache-control. That gap sits directly on
+        // the LCP of every product page.
+        // Safe because public/ holds only datasets|images|products|videos and no
+        // page route lives under those prefixes; a missing file still 404s through
+        // the router's dynamicParams:false gates rather than soft-404ing.
+        '/((?!_next|__firebase|api/img|products/|images/|videos/|datasets/).*)',
     ]
 };

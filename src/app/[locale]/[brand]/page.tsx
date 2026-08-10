@@ -479,7 +479,10 @@ export default async function BrandHubPage({ params }: Props) {
                     brandSlug={brand}
                     brandDisplayName={isRTL ? brandDisplayName : data.hero.title}
                     locale={locale}
-                    maxProducts={20}
+                    // Never cap below the brand's own catalogue size — a hard 20
+                    // silently orphaned JBL's two most expensive SKUs (Boombox 3,
+                    // PartyBox 1000) from the only hub that links them.
+                    maxProducts={Math.max(20, brandProducts.length)}
                 />
             </div>
 

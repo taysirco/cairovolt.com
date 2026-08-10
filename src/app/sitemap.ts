@@ -10,6 +10,13 @@ import { genericCategories } from '@/data/generic-categories';
 import { getFirestore } from '@/lib/firebase-admin';
 import { CATALOG_LAST_REVIEWED_AT, SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
 
+// The blog scheduling gate is time-based (isIndexEntryLive), so this route must
+// NOT be a frozen build-time prerender: without ISR a scheduled article goes
+// live on-site yet never enters the sitemap until the next deploy. Verified via
+// .next/prerender-manifest.json (initialRevalidateSeconds was false here while
+// /feed.xml and /llms.txt already used 3600). Hourly matches the /blog listing.
+export const revalidate = 3600;
+
 const baseUrl = 'https://cairovolt.com';
 
 /**

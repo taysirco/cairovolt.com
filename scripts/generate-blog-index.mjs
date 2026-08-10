@@ -24,10 +24,18 @@ const OUTPUT = join(import.meta.dirname, '..', 'src', 'data', 'blog-index.genera
 
 // ── Regex helpers ──
 function extractString(text, fieldName) {
-    // Match: fieldName: 'value' or fieldName: "value"
-    const re = new RegExp(`${fieldName}:\\s*['"]([^'"]+)['"]`);
+    // Match: fieldName: 'value' or fieldName: "value".
+    // The quote character is captured and back-referenced so the value may
+    // contain the OTHER quote type — a single-quoted string is allowed to hold
+    // a double quote (Arabic copy quotes terms constantly: "سماعة صب").
+    // The previous [^'"]+ class truncated at the first embedded quote and
+    // silently shipped half a title into <title> and <meta description>.
+    // Escaped quotes of the same type (\' or \") are also consumed.
+    const re = new RegExp(`${fieldName}:\\s*(['"])((?:\\\\.|(?!\\1)[^\\\\])*)\\1`);
     const m = text.match(re);
-    return m ? m[1] : null;
+    if (!m) return null;
+    // Unescape what the TS source escaped, so the index carries the real text.
+    return m[2].replace(/\\(['"\\])/g, '$1');
 }
 
 function extractNumber(text, fieldName) {

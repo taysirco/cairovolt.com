@@ -159,10 +159,52 @@ export default async function BlogArticlePage({ params }: Props) {
         return locale === 'ar' ? cleanPath : `/${locale}${cleanPath}`;
     };
 
-    // Get related articles from the lightweight index (no content loaded)
-    const relatedArticles = getLiveIndex()
-        .filter(a => a.slug !== slug)
-        .slice(0, 3);
+    // Related articles: the article's OWN curated cluster first, then a topical
+    // top-up. A bare getLiveIndex().slice(0, 3) makes every article on the site
+    // link to the same three alphabetically-first posts, which left 75 of 172
+    // live articles with zero internal inbound links and made the curated
+    // relatedArticles arrays dead data.
+    const relatedArticles = (() => {
+        const seen = new Set<string>([slug]);
+        const picked: ReturnType<typeof getLiveIndex> = [];
+
+        const take = (candidate: ReturnType<typeof getIndexEntry>) => {
+            if (!candidate || picked.length >= 3) return;
+            if (seen.has(candidate.slug)) return;
+            if (!isIndexEntryLive(candidate)) return;
+            seen.add(candidate.slug);
+            picked.push(candidate);
+        };
+
+        for (const relatedSlug of indexEntry?.relatedArticles ?? []) take(getIndexEntry(relatedSlug));
+
+        // The top-up walks the index from a per-article offset instead of index 0.
+        // getLiveIndex() is filename-alphabetical, so starting every article at 0
+        // piles all top-up links onto the same handful of posts. The offset is a
+        // stable hash of the slug: deterministic per article (no hydration drift,
+        // no build nondeterminism) but spread across the corpus.
+        const pool = getLiveIndex();
+        let offset = 0;
+        for (let i = 0; i < slug.length; i++) offset = (offset * 31 + slug.charCodeAt(i)) >>> 0;
+        const rotated = pool.length > 0
+            ? pool.slice(offset % pool.length).concat(pool.slice(0, offset % pool.length))
+            : pool;
+
+        if (picked.length < 3) {
+            // Same category first — keeps the topical cluster tight.
+            for (const candidate of rotated) {
+                if (picked.length >= 3) break;
+                if (candidate.category === indexEntry?.category) take(candidate);
+            }
+        }
+        if (picked.length < 3) {
+            for (const candidate of rotated) {
+                if (picked.length >= 3) break;
+                take(candidate);
+            }
+        }
+        return picked;
+    })();
 
     return (
         <div suppressHydrationWarning>
