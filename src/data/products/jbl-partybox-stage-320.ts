@@ -12,6 +12,7 @@ export const jbl_partybox_stage_320 = {
     stock: 433,
     featured: true,
     status: "active",
+    chargePort: "none",   // AC power cable — not USB-C charged
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-partybox-stage-320/jbl-partybox-stage-320-main-view-cairovolt.webp", alt: "JBL PartyBox Stage 320 JBLPBSTAGE320 three-quarter view with telescopic handle extended and green lightshow - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

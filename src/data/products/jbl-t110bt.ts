@@ -12,6 +12,7 @@ export const jbl_t110bt = {
     stock: 479,
     featured: false,
     status: "active",
+    chargePort: "micro-usb",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-t110bt/jbl-t110bt-main-view-cairovolt.webp", alt: "JBL T110BT JBLT110BT black wireless neckband earphones with flat cable and inline remote - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

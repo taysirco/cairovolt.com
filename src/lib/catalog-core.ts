@@ -32,6 +32,14 @@ export interface CatalogProductCore {
     featured: boolean;
     variants?: CatalogVariantCore[];
     translations?: { en?: { name?: string } };
+    /**
+     * How the product itself takes power, when stated by the manufacturer.
+     * Declared explicitly so cross-brand charging complements rest on a real
+     * datum rather than a guess parsed out of the product name. `'none'` marks
+     * a device that charges nothing at all (a wired earphone) — it must never
+     * be offered a cable or a power bank.
+     */
+    chargePort?: 'usb-c' | 'lightning' | 'micro-usb' | 'none';
 }
 
 /**
@@ -133,11 +141,25 @@ export const BRAND_FAMILIES: Record<string, string[]> = {
 // another power bank — they need a charger to charge it and a
 // cable to connect it to their phone."
 
-/** Smart Complementary Matrix with bilingual reason texts */
+/**
+ * Smart Complementary Matrix with bilingual reason texts.
+ *
+ * `crossBrand: 'gap-only'` lets a slot fall back to ANY brand — but ONLY when
+ * the main product's own brand family carries nothing at all in that target
+ * category (a structural gap, e.g. JBL sells no power banks or cables). The
+ * gap is derived from the live catalogue, never hardcoded, so the day we stock
+ * a JBL cable the fallback closes itself. Default is same-brand-only.
+ *
+ * `compatBasis: 'usb-c-charging'` additionally requires a POSITIVE USB-C
+ * signal on the main product before a cross-brand charging accessory may be
+ * shown — no signal, no pick. A cross-brand item is never labelled essential.
+ */
 const complementaryMatrix: Record<string, Array<{
     targetCategory: string;
     slot: 'essential' | 'accessory';
     reason: { ar: string; en: string };
+    crossBrand?: 'gap-only';
+    compatBasis?: 'usb-c-charging';
 }>> = {
     'power-banks': [
         { targetCategory: 'wall-chargers', slot: 'essential', reason: { ar: 'عشان تشحن الباور بانك بسرعة', en: 'To fast-charge your power bank' } },
@@ -167,22 +189,50 @@ const complementaryMatrix: Record<string, Array<{
         { targetCategory: 'speakers', slot: 'accessory', reason: { ar: 'سبيكر للخروجات والتجمعات', en: 'A speaker for hangouts and gatherings' } },
     ],
     'speakers': [
-        { targetCategory: 'power-banks', slot: 'essential', reason: { ar: 'باور بانك للبيتش والخروجات', en: 'A power bank for beach trips' } },
-        { targetCategory: 'cables', slot: 'accessory', reason: { ar: 'كابل شحن للسبيكر', en: 'A charging cable for the speaker' } },
+        {
+            targetCategory: 'power-banks', slot: 'essential',
+            crossBrand: 'gap-only', compatBasis: 'usb-c-charging',
+            reason: { ar: 'باور بانك عشان السبيكر يكمّل معاك اليوم كله بره', en: 'A power bank so the speaker lasts the whole day out' },
+        },
+        {
+            targetCategory: 'cables', slot: 'accessory',
+            crossBrand: 'gap-only', compatBasis: 'usb-c-charging',
+            reason: { ar: 'كابل USB-C زيادة تسيبه في الشنطة', en: 'A spare USB-C cable to keep in your bag' },
+        },
         { targetCategory: 'audio', slot: 'accessory', reason: { ar: 'سماعة للاستخدام الشخصي', en: 'Earbuds for personal listening' } },
         { targetCategory: 'earbuds', slot: 'accessory', reason: { ar: 'ايربودز للاستخدام الشخصي', en: 'Earbuds for personal listening' } },
     ],
     'headphones': [
-        { targetCategory: 'earbuds', slot: 'essential', reason: { ar: 'ايربودز خفيفة للجيم والمشاوير', en: 'Lightweight earbuds for the gym and commutes' } },
-        { targetCategory: 'speakers', slot: 'accessory', reason: { ar: 'سبيكر للبيت والخروجات', en: 'A speaker for home and hangouts' } },
+        {
+            targetCategory: 'power-banks', slot: 'accessory',
+            crossBrand: 'gap-only', compatBasis: 'usb-c-charging',
+            reason: { ar: 'بطارية احتياطية تشحن الهيدفون وانت بره', en: 'A spare battery to recharge on the go' },
+        },
+        {
+            targetCategory: 'cables', slot: 'accessory',
+            crossBrand: 'gap-only', compatBasis: 'usb-c-charging',
+            reason: { ar: 'كابل شحن USB-C زيادة للمكتب', en: 'A spare USB-C charging cable for the desk' },
+        },
+        { targetCategory: 'earbuds', slot: 'accessory', reason: { ar: 'ايربودز خفيفة للجيم والمشاوير', en: 'Lightweight earbuds for the gym and commutes' } },
     ],
     'earbuds': [
-        { targetCategory: 'headphones', slot: 'essential', reason: { ar: 'هيدفون للمكتب والتركيز الطويل', en: 'Over-ear headphones for long focus sessions' } },
-        { targetCategory: 'speakers', slot: 'accessory', reason: { ar: 'سبيكر للتجمعات والخروجات', en: 'A speaker for gatherings' } },
+        {
+            targetCategory: 'power-banks', slot: 'accessory',
+            crossBrand: 'gap-only', compatBasis: 'usb-c-charging',
+            reason: { ar: 'باور بانك يشحن علبة السماعة وانت بره', en: 'A power bank to recharge the case on the go' },
+        },
+        {
+            targetCategory: 'cables', slot: 'accessory',
+            crossBrand: 'gap-only', compatBasis: 'usb-c-charging',
+            reason: { ar: 'كابل USB-C زيادة لعلبة الشحن', en: 'A spare USB-C cable for the charging case' },
+        },
+        { targetCategory: 'headphones', slot: 'accessory', reason: { ar: 'هيدفون للمكتب والتركيز الطويل', en: 'Over-ear headphones for long focus sessions' } },
     ],
+    // PartyBox units run on mains power or a swappable internal battery — a
+    // phone power bank is NOT a real complement, so no charging slot here.
     'partybox': [
-        { targetCategory: 'speakers', slot: 'essential', reason: { ar: 'سبيكر محمول للخروجات الأصغر', en: 'A portable speaker for smaller outings' } },
-        { targetCategory: 'earbuds', slot: 'accessory', reason: { ar: 'ايربودز للاستخدام الشخصي بعد الحفلة', en: 'Earbuds for personal listening after the party' } },
+        { targetCategory: 'speakers', slot: 'accessory', reason: { ar: 'سبيكر صغير للخروجات اللي مش محتاجة الحجم ده', en: 'A compact speaker for outings that do not need this size' } },
+        { targetCategory: 'earbuds', slot: 'accessory', reason: { ar: 'ايربودز للاستماع لوحدك بعد الحفلة', en: 'Earbuds for private listening after the party' } },
     ],
     'smart-watches': [
         { targetCategory: 'wall-chargers', slot: 'essential', reason: { ar: 'شاحن سريع للساعة', en: 'A fast charger for the watch' } },
@@ -191,11 +241,29 @@ const complementaryMatrix: Record<string, Array<{
     ],
 };
 
+/**
+ * Shown next to any cross-brand bundle item. Describes the interface and the
+ * store's own role — never a relationship between the two manufacturers.
+ */
+export const CROSS_BRAND_DISCLOSURE = {
+    ar: 'اختيار كايرو فولت — منتج منفصل من ماركة تانية، بيوصل بنفس منفذ USB-C ومش طقم رسمي',
+    en: 'CairoVolt pairing — a separate product from another brand, same USB-C port, not an official set',
+} as const;
+
 /** Result type for smart bundle recommendations */
 export interface BundleProductOf<T extends CatalogProductCore> {
     product: T;
     slot: 'essential' | 'accessory';
     reason: { ar: string; en: string };
+    /**
+     * 'cross-brand' when the item comes from a different brand than the main
+     * product — surfaced ONLY where the main brand carries nothing in that
+     * category. Every consumer must show `disclosure` alongside it so the
+     * pairing is never read as a manufacturer-endorsed set.
+     */
+    pairing?: 'same-brand' | 'cross-brand';
+    /** Neutral disclosure text, present exactly when pairing === 'cross-brand'. */
+    disclosure?: { ar: string; en: string };
 }
 
 export interface BundleResultOf<T extends CatalogProductCore> {
@@ -233,6 +301,9 @@ export function getSmartBundleProductsFrom<T extends CatalogProductCore>(
     // Charging-port signal of the main product (for cable compatibility).
     // Derived from slug + English name — no extra data fields needed.
     const portSignalOf = (p: T): 'lightning' | 'usb-c' | null => {
+        // A declared port always wins over a name guess.
+        if (p.chargePort === 'usb-c' || p.chargePort === 'lightning') return p.chargePort;
+        if (p.chargePort === 'none' || p.chargePort === 'micro-usb') return null;
         const hay = `${p.slug} ${p.translations?.en?.name || ''}`.toLowerCase();
         if (/lightning/.test(hay)) return 'lightning';
         if (/usb-c|type-c|usb c|typec/.test(hay)) return 'usb-c';
@@ -257,16 +328,50 @@ export function getSmartBundleProductsFrom<T extends CatalogProductCore>(
         const capRatio = entry.slot === 'essential' ? 0.9 : 0.6;
         const maxPrice = Math.min(product.price * capRatio, remainingBudget);
 
-        // Find best product from targetCategory, same brand family, under cap
-        const candidates = catalog
-            .filter(p =>
+        // Base predicate — everything except the brand test.
+        const passesBase = (p: T) =>
+            p.status === 'active' &&
+            isStorefrontPromotableSlug(p.slug) &&
+            p.slug !== product.slug &&
+            p.categorySlug === entry.targetCategory &&
+            p.price <= maxPrice;
+
+        // PASS 1 — same brand family. Unchanged behaviour: whenever the family
+        // yields anything at all, it wins and nothing below runs.
+        const family = BRAND_FAMILIES[brandLower] || [brandLower];
+        let candidates = catalog.filter(p => passesBase(p) && family.includes(p.brand.toLowerCase()));
+        let isCrossBrand = false;
+
+        // PASS 2 — cross-brand, only through a STRUCTURAL capability gap.
+        // Gate 1: the matrix entry opted in.
+        // Gate 2: the family carries NOTHING in this category anywhere in the
+        //         live catalogue — computed from all promotable actives, NOT
+        //         from the price-capped pool, so a stockout or a price cap can
+        //         never silently open cross-brand for a brand that does stock
+        //         the category.
+        // Gate 3: for charging accessories, the main product must show a
+        //         POSITIVE USB-C signal — no signal means no claim.
+        if (candidates.length === 0 && entry.crossBrand === 'gap-only') {
+            const familyCarriesCategory = catalog.some(p =>
                 p.status === 'active' &&
                 isStorefrontPromotableSlug(p.slug) &&
-                p.slug !== product.slug &&
-                (BRAND_FAMILIES[brandLower] || [brandLower]).includes(p.brand.toLowerCase()) &&
-                p.categorySlug === entry.targetCategory &&
-                p.price <= maxPrice
+                family.includes(p.brand.toLowerCase()) &&
+                p.categorySlug === entry.targetCategory
             );
+            const chargesNothing = product.chargePort === 'none';
+            const compatOk = entry.compatBasis !== 'usb-c-charging'
+                || (mainPort === 'usb-c' && !chargesNothing);
+            if (!familyCarriesCategory && compatOk) {
+                candidates = catalog.filter(passesBase);
+                // A cross-brand cable must MATCH the port — here it is a hard
+                // filter, not a score penalty: without the brand's own vouching
+                // a mismatched cable would be a false compatibility claim.
+                if (entry.targetCategory === 'cables') {
+                    candidates = candidates.filter(c => portSignalOf(c) === mainPort);
+                }
+                isCrossBrand = candidates.length > 0;
+            }
+        }
 
         if (candidates.length === 0) continue;
 
@@ -317,8 +422,11 @@ export function getSmartBundleProductsFrom<T extends CatalogProductCore>(
         if (scored.length > 0) {
             bundleProducts.push({
                 product: scored[0].product,
-                slot: entry.slot,
+                // A third-party item is never presented as "required with it".
+                slot: isCrossBrand ? 'accessory' : entry.slot,
                 reason: entry.reason,
+                pairing: isCrossBrand ? 'cross-brand' : 'same-brand',
+                ...(isCrossBrand ? { disclosure: CROSS_BRAND_DISCLOSURE } : {}),
             });
             usedCategories.add(entry.targetCategory);
         }

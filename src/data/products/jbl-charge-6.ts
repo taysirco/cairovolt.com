@@ -12,6 +12,7 @@ export const jbl_charge_6 = {
     stock: 382,
     featured: true,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-charge-6/jbl-charge-6-main-view-cairovolt.webp", alt: "JBL Charge 6 JBLCHARGE6 portable Bluetooth speaker in black, clean front view with JBL logo - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

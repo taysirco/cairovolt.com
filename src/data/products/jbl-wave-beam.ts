@@ -12,6 +12,7 @@ export const jbl_wave_beam = {
     stock: 464,
     featured: true,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-wave-beam/jbl-wave-beam-main-view-cairovolt.webp", alt: "JBL Wave Beam JBLGO4-class TWS earbuds in black, open charging case with one earbud in front - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
@@ -23,7 +24,7 @@ export const jbl_wave_beam = {
         { id: "img_7", url: "/products/jbl/jbl-wave-beam/jbl-wave-beam-water-resistance-demo-cairovolt.webp", alt: "JBL Wave Beam JBLWBEAM earbuds IP54-certified graphic with water splash and dust - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["jbl-tune-buds", "jbl-t110", "jbl-tune-520bt", "jbl-go-4", "jbl-tune-720bt", "jbl-tour-pro-2"],
+    relatedProducts: ["jbl-tune-buds", "jbl-tune-520bt", "jbl-go-4", "jbl-tune-720bt", "jbl-tour-pro-2", "jbl-tune-770nc"],
 
     translations: {
         en: {

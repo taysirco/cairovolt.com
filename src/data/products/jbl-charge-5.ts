@@ -12,6 +12,7 @@ export const jbl_charge_5 = {
     stock: 489,
     featured: false,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-charge-5/jbl-charge-5-main-view-cairovolt.webp", alt: "JBL Charge 5 JBLCHARGE5 black speaker straight front view with JBL logo and battery LED - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

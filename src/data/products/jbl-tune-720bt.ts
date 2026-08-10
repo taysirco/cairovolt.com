@@ -12,6 +12,7 @@ export const jbl_tune_720bt = {
     stock: 508,
     featured: false,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-main-view-cairovolt.webp", alt: "JBL Tune 720BT JBLT720BT black wireless over-ear headphones, three-quarter hero view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
@@ -26,7 +27,7 @@ export const jbl_tune_720bt = {
         { id: "img_10", url: "/products/jbl/jbl-tune-720bt/jbl-tune-720bt-in-use-lifestyle-cairovolt.webp", alt: "سماعة JBL Tune 720BT باللون الأبيض، لقطة قريبة في الهواء الطلق على خلفية السماء والأشجار - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["jbl-tune-770nc", "jbl-tune-520bt", "jbl-tune-buds", "jbl-wave-beam"],
+    relatedProducts: ["jbl-tune-770nc", "jbl-tune-520bt", "jbl-tune-buds", "jbl-wave-beam", "jbl-t110"],
 
     translations: {
         en: {

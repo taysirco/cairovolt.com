@@ -12,6 +12,7 @@ export const jbl_pulse_5 = {
     stock: 322,
     featured: false,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-pulse-5/jbl-pulse-5-main-view-cairovolt.webp", alt: "JBL Pulse 5 JBLPULSE5 speaker front view with yellow-red-pink 360 lightshow glowing - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

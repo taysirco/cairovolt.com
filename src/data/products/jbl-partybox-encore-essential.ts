@@ -12,6 +12,7 @@ export const jbl_partybox_encore_essential = {
     stock: 328,
     featured: false,
     status: "active",
+    chargePort: "none",   // AC power cable — not USB-C charged
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-partybox-encore-essential/jbl-partybox-encore-essential-main-view-cairovolt.webp", alt: "JBL PartyBox Encore Essential JBLPBENCOREESS black party speaker, three-quarter view with ring lightshow - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

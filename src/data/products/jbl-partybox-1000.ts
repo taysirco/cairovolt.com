@@ -12,6 +12,7 @@ export const jbl_partybox_1000 = {
     stock: 404,
     featured: false,
     status: "active",
+    chargePort: "none",   // AC mains only — no battery
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-partybox-1000/jbl-partybox-1000-front-view-cairovolt.webp", alt: "JBL PartyBox 1000 JBLPARTYBOX1000 tall party speaker, front view with full-panel red-green lightshow - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

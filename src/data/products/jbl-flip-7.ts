@@ -12,6 +12,7 @@ export const jbl_flip_7 = {
     stock: 497,
     featured: true,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-flip-7/jbl-flip-7-main-view-cairovolt.webp", alt: "JBL Flip 7 JBLFLIP7 black speaker horizontal front view with playback and top controls - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

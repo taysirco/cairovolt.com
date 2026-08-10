@@ -28,6 +28,13 @@ interface BundleProductData {
     product: Product;
     slot: 'essential' | 'accessory';
     reason: { ar: string; en: string };
+    /** 'cross-brand' when the item is from another brand than the main product. */
+    pairing?: 'same-brand' | 'cross-brand';
+    /**
+     * Neutral note shown with cross-brand items so the pairing is never read
+     * as a manufacturer-endorsed set. Comes from the engine, not hardcoded here.
+     */
+    disclosure?: { ar: string; en: string };
 }
 
 interface BundleData {
@@ -72,7 +79,15 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
     // All products in order: main first, then smart bundle items
     const allProducts = useMemo(() => {
         return [
-            { product: mainProduct, slot: 'main' as const, reason: { ar: '', en: '' } },
+            {
+                product: mainProduct,
+                slot: 'main' as const,
+                reason: { ar: '', en: '' },
+                // The main product is never a cross-brand pairing; declaring the
+                // fields keeps the union assignable at the render sites below.
+                pairing: undefined as 'same-brand' | 'cross-brand' | undefined,
+                disclosure: undefined as { ar: string; en: string } | undefined,
+            },
             ...smartBundleItems,
         ];
     }, [mainProduct, smartBundleItems]);
@@ -202,6 +217,9 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                         const t = item.product.translations?.[isArabic ? 'ar' : 'en'] || item.product.translations?.en;
                         const productName = displayText(t?.name || item.product.slug);
                         const reasonText = displayText(item.reason[isArabic ? 'ar' : 'en'] || '');
+                        const disclosureText = item.pairing === 'cross-brand'
+                            ? displayText(item.disclosure?.[isArabic ? 'ar' : 'en'] || '')
+                            : '';
                         const badge = getSlotBadge(item.slot);
 
                         return (
@@ -264,6 +282,13 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                 {!isMain && reasonText && (
                                     <p className="text-[10px] text-orange-700 dark:text-orange-400 font-medium mb-1 line-clamp-1 text-start">
                                         💡 {reasonText}
+                                    </p>
+                                )}
+
+                                {/* Cross-brand disclosure — never let a pairing read as an official set */}
+                                {!isMain && disclosureText && (
+                                    <p className="text-[9px] text-gray-500 dark:text-gray-400 mb-1 line-clamp-2 text-start" title={disclosureText}>
+                                        {disclosureText}
                                     </p>
                                 )}
 
@@ -367,6 +392,9 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                         const t = item.product.translations?.[isArabic ? 'ar' : 'en'] || item.product.translations?.en;
                         const productName = displayText(t?.name || item.product.slug);
                         const reasonText = displayText(item.reason[isArabic ? 'ar' : 'en'] || '');
+                        const disclosureText = item.pairing === 'cross-brand'
+                            ? displayText(item.disclosure?.[isArabic ? 'ar' : 'en'] || '')
+                            : '';
                         const isMain = item.product.slug === mainProduct.slug;
                         const badge = getSlotBadge(item.slot);
 
@@ -421,6 +449,13 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                             {!isMain && reasonText && (
                                                 <p className="text-[11px] text-orange-700 dark:text-orange-400 font-medium mb-2 line-clamp-1">
                                                     💡 {reasonText}
+                                                </p>
+                                            )}
+
+                                            {/* Cross-brand disclosure — never let a pairing read as an official set */}
+                                            {!isMain && disclosureText && (
+                                                <p className="text-[10px] text-gray-500 dark:text-gray-400 mb-2">
+                                                    {disclosureText}
                                                 </p>
                                             )}
 

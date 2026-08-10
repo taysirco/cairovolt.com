@@ -7,19 +7,19 @@ export const jbl_earbuds_content: CategoryContent = {
     metadata: {
         en: {
             title: 'JBL Earbuds Egypt | Wave Beam, Tune Buds, Tour Pro 2 and T110',
-            description: 'Compare JBL wireless earbuds and wired earphones: Wave Beam, Tune Buds ANC, Tour Pro 2 smart case, plus the classic T110 wired and T110BT neckband. Genuine with CairoVolt warranty and cash on delivery.',
+            description: 'Compare JBL wireless earbuds and wired earphones: Wave Beam, Tune Buds ANC, Tour Pro 2 smart case, plus the classic T110 wired and T110BT neckband. Genuine w…',
             keywords: 'jbl earbuds, jbl airpods, jbl wireless earbuds, jbl earphones, jbl tune 120tws, jbl t110, jbl earbuds egypt, jbl tune buds',
         },
         ar: {
             title: 'ايربودز JBL في مصر | Wave Beam وTune Buds وTour Pro 2 وT110',
-            description: 'قارن سماعات JBL ايربودز: Wave Beam وTune Buds بعزل الضوضاء وTour Pro 2 بعلبة الشاشة، مع T110 السلك الكلاسيك وT110BT النيك باند. أصلي بضمان كايرو فولت ودفع عند الاستلام.',
+            description: 'قارن سماعات JBL ايربودز: Wave Beam وTune Buds بعزل الضوضاء وTour Pro 2 بعلبة الشاشة، مع T110 السلك الكلاسيك وT110BT النيك باند. أصلي بضمان كايرو فولت ودفع عن…',
             keywords: 'ايربودز jbl, سماعات jbl ايربودز, jbl airpods, jbl earbuds, سماعة jbl بسلك, jbl t110, jbl tune 120tws, سماعات jbl لاسلكية',
         }
     },
     pageContent: {
         ar: {
             title: 'ايربودز وسماعات JBL',
-            subtitle: 'من T110 السلك بـ449 جنيه لحد Tour Pro 2 بعلبة الشاشة — قارن قبل ما تختار',
+            subtitle: 'من T110 السلك بـ249 جنيه لحد Tour Pro 2 بعلبة الشاشة — قارن قبل ما تختار',
             description: `
 كتير بيدور على "**airpods jbl**" — والمقصود عادة الايربودز اللاسلكية TWS من JBL، لأن AirPods اسم منتج Apple بس الناس اتعودت تسمي أي ايربودز كده. اللي انت بتدور عليه فعلاً موجود هنا: سماعات True Wireless من JBL بدرايفرات Pure Bass، من فئة اقتصادية زي **Wave Beam** لحد **Tour Pro 2** بعلبة الشحن اللي فيها شاشة لمس.
 
@@ -32,7 +32,7 @@ export const jbl_earbuds_content: CategoryContent = {
 
 ⚠️ التقليد منتشر في فئة الايربودز الرخيصة بالذات — راجع دليل الشراء تحت وبرنامج [Buy Authentic الرسمي من JBL](https://www.jbl.com/customer-service/ordering/buy-authentic.html).
 
-⬅️ عايز صوت أكبر؟ تصفّح [سماعات JBL الرأس](/jbl/headphones) لبطاريات 57-76 ساعة معلنة، أو [سبيكرات JBL](/jbl/speakers) للخروجات.
+⬅️ عايز صوت أكبر؟ تصفّح [سماعات JBL الرأس](/jbl/headphones) لبطاريات 57-76 ساعة معلنة، أو [سبيكرات JBL](/jbl/speakers) للخروجات. وللمناسبات الكبيرة شوف [سماعات الحفلات](/jbl/partybox)، أو ارجع لـ[صفحة JBL الرئيسية](/jbl).
     `,
             qualityBadges: [
                 { type: 'originality', text: 'منتجات أصلية — اتحقق ببرنامج JBL Buy Authentic' },
@@ -127,7 +127,7 @@ For delivery riders and long commutes, the number that counts is buds plus case 
 
 ⚠️ Counterfeits are common in the budget earbuds segment — see the buying guide below and JBL's official [Buy Authentic program](https://www.jbl.com/customer-service/ordering/buy-authentic.html).
 
-⬅️ Want bigger sound? Browse [JBL headphones](/en/jbl/headphones) with 57-76h listed batteries, or [JBL speakers](/en/jbl/speakers) for outings.
+⬅️ Want bigger sound? Browse [JBL headphones](/en/jbl/headphones) with 57-76h listed batteries, or [JBL speakers](/en/jbl/speakers) for outings. For big events see [JBL party speakers](/en/jbl/partybox), or return to the [JBL hub](/en/jbl).
     `,
             qualityBadges: [
                 { type: 'originality', text: 'Genuine products — verify via JBL Buy Authentic' },

@@ -437,14 +437,18 @@ description: { en: 'JR-FT3 — IP68, sports modes', ar: 'JR-FT3 — IP68 وأو�
         },
         faq: {
             ar: [
+                { question: 'كام سعر سماعات JBL في مصر؟', answer: 'الأسعار في كايرو فولت بتبدأ من 249 جنيه لسماعة T110 السلك، والايربودز اللاسلكية من 2449 جنيه، وسماعات الراس من 2149 جنيه، وسبيكرات البلوتوث من 2049 لحد 22649 جنيه، والبارتي بوكس من 20099 لحد 65999 جنيه. السعر الحالي والمخزون بيظهروا في صفحة كل منتج وبيتغيروا مع العروض.' },
+                { question: 'هل كايرو فولت بتبيع ساوند بار JBL؟', answer: 'لأ، حاليًا مفيش ساوند بار JBL في كايرو فولت — بنوفر السبيكرات المحمولة والبارتي بوكس وسماعات الراس والايربودز. لو عايز صوت للتلفزيون، السبيكر البلوتوث بيتوصل لكن ممكن تلاحظ تأخير بسيط في الصوت حسب التلفزيون.' },
                 { question: 'هل كايرو فولت توكيل JBL الرسمي في مصر؟', answer: 'لا، كايرو فولت متجر إلكتروني مستقل ومش وكيلًا رسميًا لـ JBL. المنتجات المعروضة أصلية، وبتتباع بضمان كايرو فولت 12 شهر وفق الشروط الموضحة في صفحة كل منتج، مع الدفع عند الاستلام.' },
                 { question: 'إزاي أعرف إن سماعة JBL أصلية؟', answer: 'راجع إرشادات برنامج Buy Authentic الرسمي من JBL على موقع jbl.com، وجرّب اقتران المنتج بتطبيق JBL الرسمي في الموديلات المدعومة، وافحص جودة العبوة والنقش. وخد بالك من السعر: لو العرض أقل بكتير من السعر المعروف في السوق، فده مؤشر تحذير قوي.' },
-                { question: 'فين صيانة سماعات JBL في مصر؟', answer: 'داخل مدة ضمان كايرو فولت (12 شهر) بنتولى الاستبدال أو الإصلاح وفق سياسة الضمان الموضحة في صفحة المنتج — تواصل واتساب برقم الطلب ووصف المشكلة. خارج مدة الضمان، تقدر تراجع خدمة أي بائع معتمد حسب شروطه.' },
+                { question: 'فين صيانة سماعات JBL في مصر؟', answer: 'داخل مدة ضمان كايرو فولت (12 شهر) بنتولى الاستبدال أو التصليح (الإصلاح) وفق سياسة الضمان الموضحة في صفحة المنتج — تواصل واتساب برقم الطلب ووصف المشكلة. خارج مدة الضمان، تقدر تراجع خدمة أي بائع معتمد حسب شروطه.' },
                 { question: 'إيه الفرق بين سبيكرات JBL المحمولة والبارتي بوكس؟', answer: 'المحمولة زي Flip وCharge مصممة للشنطة والخروجات وبتشتغل بالبطارية، بينما البارتي بوكس سبيكرات مناسبات أكبر بكتير، بمداخل ميكروفون وإضاءة في موديلات محددة. قارن الوزن ومصدر الطاقة (بطارية أو كهرباء) حسب المواصفات المعلنة لكل موديل قبل الاختيار.' },
                 { question: 'هل سماعات JBL بتشتغل مع ايفون وأندرويد؟', answer: 'موديلات البلوتوث بتقترن بأي هاتف يدعم بلوتوث، ايفون أو أندرويد. بعض الخصائص الإضافية زي الإكوالايزر بتحتاج تطبيق JBL الرسمي المتاح للنظامين، وبعض المزايا بتختلف حسب الموديل — راجع صفحة المنتج للتفاصيل.' },
                 { question: 'هل سبيكر بتصنيف IP67 ينفع للبحر والرمل في الساحل؟', answer: 'تصنيف IP67 المعلن بيغطي الغمر المؤقت في مياه عذبة والحماية من الأتربة وفق شروط اختبار الشركة، ومياه البحر المالحة والرمل الناعم أقسى من ظروف الاختبار. اشطف السبيكر بمياه عذبة بعد يوم البحر واتبع تعليمات JBL الخاصة بالموديل.' }
             ],
             en: [
+                { question: 'How much do JBL products cost in Egypt?', answer: 'At CairoVolt prices start at 249 EGP for the wired T110 earphones, with wireless earbuds from 2,449 EGP, headphones from 2,149 EGP, Bluetooth speakers from 2,049 to 22,649 EGP, and PartyBox models from 20,099 to 65,999 EGP. The live price and stock appear on each product page and change with promotions.' },
+                { question: 'Does CairoVolt sell JBL soundbars?', answer: 'No — CairoVolt does not currently stock JBL soundbars. The range here is portable speakers, PartyBox party speakers, headphones and earbuds. For TV audio a Bluetooth speaker can connect, though some audio delay is possible depending on the TV.' },
                 { question: 'Is CairoVolt the official JBL distributor in Egypt?', answer: 'No. CairoVolt is an independent online retailer, not an official JBL distributor. The listed products are genuine and are sold with a CairoVolt 12-month store warranty under the conditions stated on each product page, with cash on delivery.' },
                 { question: 'How can I verify a JBL product is genuine?', answer: 'Follow JBL’s official Buy Authentic guidance on jbl.com, pair the product with the official JBL app on supported models, and inspect the packaging and engraving quality. Also apply price logic: an offer far below the known market price is a strong warning sign.' },
                 { question: 'Where can I service JBL products in Egypt?', answer: 'Within the CairoVolt 12-month warranty period, we handle replacement or repair under the warranty policy stated on the product page — contact WhatsApp with your order number and issue details. Outside that period, any authorized retailer’s service applies under its own terms.' },
@@ -454,8 +458,8 @@ description: { en: 'JR-FT3 — IP68, sports modes', ar: 'JR-FT3 — IP68 وأو�
             ]
         },
         quickAnswer: {
-            en: 'JBL prices at CairoVolt start at 449 EGP for wired T110 earphones, with wireless earbuds from 2,199 EGP, headphones from 1,999 EGP, Bluetooth speakers from 2,099 to 26,999 EGP, and PartyBox models from 20,999 to 65,999 EGP. Current price and stock are shown on each product page.',
-            ar: 'أسعار JBL في كايرو فولت بتبدأ من 249 جنيه لسماعات T110 السلكية، والايربودز اللاسلكية من 2199 جنيه، وسماعات الرأس من 1999 جنيه، وسبيكرات البلوتوث من 2099 حتى 26999 جنيه، والبارتي بوكس من 20999 حتى 62999 جنيه. السعر الحالي والمخزون في صفحة كل منتج.'
+            en: 'JBL prices at CairoVolt start at 249 EGP for the wired T110 earphones, with wireless earbuds from 2,449 EGP, headphones from 2,149 EGP, Bluetooth speakers from 2,049 to 22,649 EGP, and PartyBox models from 20,099 to 65,999 EGP. Current price and stock are shown on each product page.',
+            ar: 'أسعار JBL في كايرو فولت بتبدأ من 249 جنيه لسماعة T110 السلك، والايربودز اللاسلكية من 2449 جنيه، وسماعات الراس من 2149 جنيه، وسبيكرات البلوتوث من 2049 لحد 22649 جنيه، والبارتي بوكس من 20099 لحد 65999 جنيه. السعر الحالي والمخزون في صفحة كل منتج.'
         }
     }
 };

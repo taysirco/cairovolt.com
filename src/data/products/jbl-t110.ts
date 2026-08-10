@@ -8,10 +8,11 @@ export const jbl_t110 = {
     gtin13: "",
     mpn: "JBLT110",
     price: 249,
-    originalPrice: 299,
+    originalPrice: 289,
     stock: 483,
     featured: false,
     status: "active",
+    chargePort: "none",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-t110/jbl-t110-main-view-cairovolt.webp", alt: "JBL T110 JBLT110 black wired in-ear earphones with one-button mic remote on flat cable - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
@@ -23,7 +24,7 @@ export const jbl_t110 = {
         { id: "img_7", url: "/products/jbl/jbl-t110/jbl-t110-accessories-included-cairovolt.webp", alt: "JBL T110 JBLT110 full cable coiled with mic remote and four spare orange-accent ear tips - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["jbl-t110bt", "jbl-wave-beam", "jbl-tune-520bt", "jbl-tune-buds"],
+    relatedProducts: ["jbl-t110bt", "jbl-tune-520bt", "jbl-tune-720bt", "jbl-go-4"],
 
     translations: {
         en: {

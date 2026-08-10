@@ -12,6 +12,7 @@ export const jbl_go_4 = {
     stock: 446,
     featured: true,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-go-4/jbl-go-4-main-view-cairovolt.webp", alt: "JBL Go 4 JBLGO4 black portable speaker, three-quarter front view with fabric loop strap - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
@@ -26,7 +27,7 @@ export const jbl_go_4 = {
         { id: "img_10", url: "/products/jbl/jbl-go-4/jbl-go-4-size-comparison-cairovolt.webp", alt: "سماعة JBL Go 4 مع الأبعاد موضحة: 12.19 × 10.31 × 5.59 سم - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["jbl-clip-5", "jbl-flip-6", "jbl-charge-5", "jbl-wave-beam"],
+    relatedProducts: ["jbl-clip-5", "jbl-flip-6", "jbl-charge-5", "jbl-wave-beam", "jbl-t110"],
 
     translations: {
         en: {

@@ -7,7 +7,7 @@ export const jbl_speakers_content: CategoryContent = {
     metadata: {
         en: {
             title: 'JBL Speakers Egypt | Go 4 to Boombox 3 — IP67/IP68, COD',
-            description: 'Compare JBL Bluetooth speakers from Go 4 to Boombox 3 by manufacturer-listed output, battery, and IP rating. Genuine with CairoVolt 12-month warranty and cash on delivery.',
+            description: 'Compare JBL Bluetooth speakers from Go 4 to Boombox 3 by manufacturer-listed output, battery, and IP rating. Genuine, 12-month warranty, COD.',
             keywords: 'jbl speaker, jbl bluetooth speaker, jbl speaker price egypt, jbl sub, jbl box, jbl mini speaker, jbl flip 7 egypt, jbl charge 6 egypt',
         },
         ar: {
@@ -21,14 +21,14 @@ export const jbl_speakers_content: CategoryContent = {
             title: 'سماعات JBL بلوتوث',
             subtitle: 'سبيكر JBL من Go 4 الصغيرة لـ Boombox 3 — قارن الخرج والبطارية وتصنيف الماء',
             description: `
-سبيكرات **JBL** بتغطي مدى كبير: من Go 4 اللي وزنها 190 جرام وبتتحط في جيب الشنطة، لـ Boombox 3 اللي بتعلن JBL لها خرج 180 واط على الكهربا. الفرق الحقيقي بين الموديلات في الخرج والبطارية وتصنيف الماء — والأرقام دي كلها حسب المواصفات المعلنة من JBL ومش واحدة في كل السلسلة، فراجع صفحة الموديل قبل ما تقرر.
+سبيكرات **JBL** — اللي ناس كتير بتسميها "مكبر صوت JBL" أو "JBL box" — بتغطي مدى كبير: من Go 4 اللي وزنها 190 جرام وبتتحط في جيب الشنطة، لـ Boombox 3 اللي بتعلن JBL لها خرج 180 واط على الكهربا. الفرق الحقيقي بين الموديلات في الخرج والبطارية وتصنيف الماء — والأرقام دي كلها حسب المواصفات المعلنة من JBL ومش واحدة في كل السلسلة، فراجع صفحة الموديل قبل ما تقرر.
 
 **يعني إيه "صب"؟**
 لما تسمع حد بيدور على "صب بلوتوث" أو "سماعات صب"، الكلمة أصلها "Sub" من "Subwoofer" بالإنجليزي — والمقصود الحقيقي مش السماعة نفسها، المقصود **الباس العميق** اللي بتحس بيه في صدرك مش بس بتسمعه. وده فيزياء بسيطة: الترددات الواطية محتاجة مخروط أكبر يحرك هوا أكتر. عشان كده JBL بتفصل الشغل في تصميماتها: وفر (Woofer) مخصص للترددات الواطية وتويتر للعالية — Flip 6 مثلًا بتعلن 20 واط للوفر و10 واط للتويتر لوحده. ولو سبيكر واحد مش مكفي القعدة، بروتوكول **PartyBoost** أو **Auracast** (حسب الموديل) بيربط أكتر من سبيكر JBL متوافق مع بعض.
 
 عايز صوت فرح أو تجمع كبير بمايكات؟ دي شغلة [سماعات الحفلات](/jbl/partybox) مش السبيكرات المحمولة. وكل منتجات JBL متجمعة في [مركز JBL](/jbl). ولو رايح الساحل أو العين السخنة، خد معاك [باور بانك انكر](/anker/power-banks) يشحن السبيكر والموبايل في السكة.
 
-ضمان كايرو فولت 12 شهر ودفع عند الاستلام على كل الموديلات، والفاتورة بتوصلك مع الطلب.
+ضمان كايرو فولت 12 شهر ودفع عند الاستلام على كل الموديلات، والفاتورة بتوصلك مع الطلب. وللاستماع الشخصي شوف [هيدفون JBL](/jbl/headphones) أو [ايربودز JBL](/jbl/earbuds).
     `,
             qualityBadges: [
                 { type: 'originality', text: 'موديلات أصلية بفاتورة — تقدر تتأكد عبر برنامج JBL Buy Authentic' },
@@ -40,7 +40,7 @@ export const jbl_speakers_content: CategoryContent = {
                     title: 'إزاي تختار مقاس السبيكر',
                     content: `
 - **Go 4 وClip 5 (4.2–7 واط):** للشنطة والمكتب والشاور — Go 4 وزنها 190 جرام وClip 5 معاها كارابينر بتتعلق في الضهر. صوت شخصي، مش صوت قعدة.
-- **Flip 6 وFlip 7 (30–35 واط):** قعدة 5–10 أفراد في أوضة أو بلكونة — الحجم اللي بيتباع أكتر في مصر لأنه بيوازن بين الصوت والحمل.
+- **Flip 6 وFlip 7 (30–35 واط):** قعدة 5–10 أفراد في أوضة أو بلكونة — الحجم الأوسط في السلسلة لأنه بيوازن بين الصوت والحمل.
 - **Charge 5 وCharge 6 (40–45 واط):** يوم كامل على البحر — بطارية معلنة 20–24 ساعة وبتشحن موبايلك من نفس البطارية.
 - **Xtreme 4 وBoombox 3 (حتى 100–180 واط):** الرووف والتجمعات الكبيرة والمساحات المفتوحة — بس الوزن 2.1 و6.7 كجم، فدي بتتشال مش بتتحط في جيب.
 
@@ -63,7 +63,7 @@ export const jbl_speakers_content: CategoryContent = {
                     content: `
 مقارنة سريعة بالمواصفات المعلنة من JBL:
 
-- **Flip 6:** خرج 30 واط (وفر 20 + تويتر 10)، بطارية 12 ساعة، IP67، بلوتوث 5.1 مع PartyBoost — أقل سعر في التلاتة والأكثر انتشارًا.
+- **Flip 6:** خرج 30 واط (وفر 20 + تويتر 10)، بطارية 12 ساعة، IP67، بلوتوث 5.1 مع PartyBoost — أقل سعر في التلاتة.
 - **Flip 7:** خرج 35 واط، بطارية 14 ساعة (+2 بوضع Playtime Boost)، IP68، بلوتوث 5.4 مع Auracast، وصوت لوسليس 24-bit/96kHz عبر كابل USB-C — نفس الحجم تقريبًا بجيل أحدث.
 - **Charge 6:** خرج 45 واط، بطارية 24 ساعة (+4 بوضع Boost)، IP68، وبتشحن موبايلك كباور بانك — أتقل وأغلى، لكنها سبيكر اليوم الكامل.
 
@@ -108,9 +108,9 @@ export const jbl_speakers_content: CategoryContent = {
             products: [
                 { name: 'JBL Go 4', price: 2049, badge: 'IP67 مدمجة' },
                 { name: 'JBL Clip 5', price: 2799, badge: 'كارابينر' },
-                { name: 'JBL Flip 6', price: 5499, badge: 'الأكثر انتشارًا' },
+                { name: 'JBL Flip 6', price: 5499, badge: 'أقل سعر في التلاتة' },
                 { name: 'JBL Flip 7', price: 6499, badge: 'IP68 جديدة' },
-                { name: 'JBL Charge 5', price: 6999, badge: 'الأكثر بحثًا' },
+                { name: 'JBL Charge 5', price: 6999, badge: 'باور بانك + 20 ساعة' },
                 { name: 'JBL Charge 6', price: 9149, badge: 'باور بانك مدمج' },
                 { name: 'JBL Xtreme 4', price: 15849, badge: 'بطارية تتبدل' },
                 { name: 'JBL Pulse 5', price: 16749, badge: 'إضاءة 360°' },
@@ -121,14 +121,14 @@ export const jbl_speakers_content: CategoryContent = {
             title: 'JBL Bluetooth Speakers',
             subtitle: 'From the pocket-size Go 4 to the 180W Boombox 3 — compare output, battery, and water rating',
             description: `
-**JBL** portable speakers span a wide range: from the 190 g Go 4 that disappears into a bag pocket to the Boombox 3, which JBL lists at 180 W on AC power. The real differences between models are output, battery, and water rating — and every number here is manufacturer-listed by JBL and varies across the line, so check the individual model page before deciding.
+**JBL** portable speakers — shopped for just as often as a "JBL box", a "JBL mini speaker" or a full "JBL sound system" — span a wide range: from the 190 g Go 4 that disappears into a bag pocket to the Boombox 3, which JBL lists at 180 W on AC power. The real differences between models are output, battery, and water rating — and every number here is manufacturer-listed by JBL and varies across the line, so check the individual model page before deciding.
 
 **What does "sub" mean in Egypt?**
 If you hear Egyptians searching for a "صب بلوتوث" (sub Bluetooth), the word comes from the English "sub(woofer)" — what people actually mean is **deep bass** you feel, not just hear. The physics is simple: low frequencies need a larger cone moving more air. That is why JBL splits the job in its designs — a dedicated woofer for lows and a tweeter for highs; the Flip 6, for example, lists 20 W for the woofer and 10 W for the tweeter separately. And when one speaker is not enough, the **PartyBoost** or **Auracast** protocol (depending on the model) links multiple compatible JBL speakers together.
 
 Need wedding-scale sound with microphones? That is the job of the [PartyBox line](/en/jbl/partybox), not the portables. Browse everything JBL in the [JBL hub](/en/jbl). And for Sahel or Ain Sokhna trips, an [Anker power bank](/en/anker/power-banks) keeps both the speaker and your phone charged on the road.
 
-Every model ships genuine with the CairoVolt 12-month warranty, cash on delivery, and an invoice in the box.
+Every model ships genuine with the CairoVolt 12-month warranty, cash on delivery, and an invoice in the box. For private listening, see [JBL headphones](/en/jbl/headphones) or [JBL earbuds](/en/jbl/earbuds).
     `,
             qualityBadges: [
                 { type: 'originality', text: 'Genuine units with invoice — verifiable via the official JBL Buy Authentic program' },
@@ -163,7 +163,7 @@ What matters on Egyptian beaches specifically:
                     content: `
 A quick comparison using JBL's listed specifications:
 
-- **Flip 6:** 30 W output (20 W woofer + 10 W tweeter), 12 h battery, IP67, Bluetooth 5.1 with PartyBoost — the cheapest of the three and the best seller.
+- **Flip 6:** 30 W output (20 W woofer + 10 W tweeter), 12 h battery, IP67, Bluetooth 5.1 with PartyBoost — the cheapest of the three.
 - **Flip 7:** 35 W output, 14 h battery (+2 h Playtime Boost), IP68, Bluetooth 5.4 with Auracast, plus 24-bit/96kHz lossless audio over USB-C — roughly the same size, one generation newer.
 - **Charge 6:** 45 W output, 24 h battery (+4 h Boost), IP68, and it charges your phone as a power bank — heavier and pricier, but built for a full day out.
 
@@ -208,9 +208,9 @@ Bottom line: tighter budget and shorter sessions → Flip 6. Newest protocols in
             products: [
                 { name: 'JBL Go 4', price: 2049, badge: 'IP67 Compact' },
                 { name: 'JBL Clip 5', price: 2799, badge: 'Carabiner Clip' },
-                { name: 'JBL Flip 6', price: 5499, badge: 'Best Seller' },
+                { name: 'JBL Flip 6', price: 5499, badge: 'Lowest of the three' },
                 { name: 'JBL Flip 7', price: 6499, badge: 'New IP68' },
-                { name: 'JBL Charge 5', price: 6999, badge: 'Most Searched' },
+                { name: 'JBL Charge 5', price: 6999, badge: 'Powerbank + 20h' },
                 { name: 'JBL Charge 6', price: 9149, badge: 'Powerbank Built-in' },
                 { name: 'JBL Xtreme 4', price: 15849, badge: 'Swappable Battery' },
                 { name: 'JBL Pulse 5', price: 16749, badge: '360° Lightshow' },

@@ -413,6 +413,8 @@ export default async function ProductPage({ params }: Props) {
                     } as Product,
                     slot: bp.slot,
                     reason: bp.reason,
+                    pairing: bp.pairing,
+                    disclosure: bp.disclosure,
                 })),
                 bundleDiscount: result.bundleDiscount,
                 fullBundlePrice: result.fullBundlePrice,

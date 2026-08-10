@@ -12,6 +12,7 @@ export const jbl_xtreme_4 = {
     stock: 313,
     featured: false,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-xtreme-4/jbl-xtreme-4-main-view-cairovolt.webp", alt: "JBL Xtreme 4 JBLXTREME4 portable speaker in blue, three-quarter hero view with strap hooks - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

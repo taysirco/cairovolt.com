@@ -7,12 +7,12 @@ export const jbl_headphones_content: CategoryContent = {
     metadata: {
         en: {
             title: 'JBL Headphones Egypt | Tune 520BT, 720BT and 770NC ANC',
-            description: 'Compare JBL wireless headphones in Egypt: on-ear vs over-ear, manufacturer-listed 57h/76h battery, adaptive noise cancelling, and multipoint. Genuine with CairoVolt warranty and cash on delivery.',
+            description: 'Compare JBL wireless headphones in Egypt: on-ear vs over-ear, manufacturer-listed 57h/76h battery, adaptive noise cancelling, and multipoint. Genuine with Ca…',
             keywords: 'jbl headphones, jbl headset, jbl bluetooth headphones, jbl wireless headphones, jbl headphones egypt, jbl tune, jbl tune 770nc, jbl headphones price egypt',
         },
         ar: {
-            title: 'هيدفون JBL في مصر | Tune 520BT و720BT و770NC بعزل ضوضاء',
-            description: 'قارن سماعات راس JBL في مصر: أون-إير أو أوفر-إير، بطارية معلنة 57 و76 ساعة، عزل ضوضاء تكيفي وMultipoint للشغل والمحاضرات. أصلي بضمان كايرو فولت ودفع عند الاستلام.',
+            title: 'هيدفون JBL (JBL headset) في مصر | Tune 520BT و720BT و770NC بعزل ضوضاء',
+            description: 'قارن سماعات راس JBL في مصر: أون-إير أو أوفر-إير، بطارية معلنة 57 و76 ساعة، عزل ضوضاء تكيفي وMultipoint للشغل والمحاضرات. أصلي بضمان كايرو فولت ودفع عند الاست…',
             keywords: 'هيدفون jbl, سماعات راس jbl, سماعات jbl كبيرة, jbl headphones, jbl headset, سماعة jbl بلوتوث, jbl tune, هيدفون jbl مصر',
         }
     },
@@ -34,7 +34,7 @@ export const jbl_headphones_content: CategoryContent = {
 
 ضمان كايرو فولت 12 شهر وشروط الاستبدال موضحة في صفحة كل منتج، والدفع عند الاستلام متاح للطلبات المؤهلة.
 
-⬅️ تصفّح [منتجات JBL كلها](/jbl) في صفحة واحدة، أو شوف [ايربودز JBL](/jbl/earbuds) لو بتدور على حاجة أصغر للجيم، أو [سبيكرات JBL](/jbl/speakers) للخروجات والتجمعات.
+⬅️ تصفّح [منتجات JBL كلها](/jbl) في صفحة واحدة، أو شوف [ايربودز JBL](/jbl/earbuds) لو بتدور على حاجة أصغر للجيم، أو [سبيكرات JBL](/jbl/speakers) للخروجات والتجمعات. ولو المناسبة أكبر من سماعة شخصية، شوف [سماعات الحفلات](/jbl/partybox).
     `,
             qualityBadges: [
                 { type: 'originality', text: 'منتجات JBL أصلية — راجع علامات الأصالة في صفحة كل موديل' },
@@ -45,16 +45,16 @@ export const jbl_headphones_content: CategoryContent = {
                 {
                     title: 'On-ear ولا Over-ear؟',
                     content: `
-- **أون-إير (على الودن) — [JBL Tune 520BT](/jbl/jbl-tune-520bt):** الوسادة بتقعد على صيوان الودن. أخف وزنًا وأصغر في الشنطة، لكن في الاستخدام الطويل ممكن تحس بضغط على الودن أكتر.
-- **أوفر-إير (حوالين الودن) — [JBL Tune 720BT](/jbl/jbl-tune-720bt) و[Tune 770NC](/jbl/jbl-tune-770nc):** الوسادة بتلف حوالين الودن كلها. عزل طبيعي أحسن من شكل التصميم نفسه، وراحة أطول في جلسات الشغل والمذاكرة الطويلة.
+- **أون-إير (على الودن) — [JBL Tune 520BT](/jbl/headphones/jbl-tune-520bt):** الوسادة بتقعد على صيوان الودن. أخف وزنًا وأصغر في الشنطة، لكن في الاستخدام الطويل ممكن تحس بضغط على الودن أكتر.
+- **أوفر-إير (حوالين الودن) — [JBL Tune 720BT](/jbl/headphones/jbl-tune-720bt) و[Tune 770NC](/jbl/headphones/jbl-tune-770nc):** الوسادة بتلف حوالين الودن كلها. عزل طبيعي أحسن من شكل التصميم نفسه، وراحة أطول في جلسات الشغل والمذاكرة الطويلة.
 - القاعدة العملية: استخدام ساعة وساعتين في المواصلات؟ الأون-إير كفاية. قعدة 6 ساعات شغل أو محاضرات؟ الأوفر-إير أريح.
 `
                 },
                 {
                     title: 'محتاج عزل ضوضاء فعلًا؟ (770NC ولا 720BT)',
                     content: `
-- لو معظم استخدامك في البيت أو مكتب هادي، **[Tune 720BT](/jbl/jbl-tune-720bt)** بيدي نفس فئة الدرايفر 40mm وبطارية معلنة أطول (76 ساعة) بسعر أقل — العزل هنا طبيعي من تصميم الأوفر-إير بس.
-- لو يومك فيه مترو ومواصلات وضوضاء شارع مستمرة، **[Tune 770NC](/jbl/jbl-tune-770nc)** بعزل الضوضاء التكيفي المعلن بيقلل الضوضاء المستمرة، ومعاه وضع Smart Ambient لما تحتاج تسمع اللي حواليك من غير ما تقلع السماعة.
+- لو معظم استخدامك في البيت أو مكتب هادي، **[Tune 720BT](/jbl/headphones/jbl-tune-720bt)** بيدي نفس فئة الدرايفر 40mm وبطارية معلنة أطول (76 ساعة) بسعر أقل — العزل هنا طبيعي من تصميم الأوفر-إير بس.
+- لو يومك فيه مترو ومواصلات وضوضاء شارع مستمرة، **[Tune 770NC](/jbl/headphones/jbl-tune-770nc)** بعزل الضوضاء التكيفي المعلن بيقلل الضوضاء المستمرة، ومعاه وضع Smart Ambient لما تحتاج تسمع اللي حواليك من غير ما تقلع السماعة.
 - افتكر: العزل بيقلل الضوضاء المستمرة (موتور، تكييف، هدير) أكتر بكتير من الأصوات المتقطعة زي الكلام — ده طبيعة التقنية مش عيب في الموديل.
 `
                 },
@@ -102,7 +102,7 @@ export const jbl_headphones_content: CategoryContent = {
             ]
         },
         en: {
-            title: 'JBL Headphones',
+            title: 'JBL Wireless Headphones',
             subtitle: 'Compare on-ear vs over-ear, noise cancelling, and manufacturer-listed battery life',
             description: `
 **JBL** wireless headphones at CairoVolt cover the three core needs from one series — **JBL Tune**: long battery on a budget, longer battery with over-ear comfort, and adaptive noise cancelling for commuting.
@@ -118,7 +118,7 @@ All three models list **Multipoint** support — the headphones stay connected t
 
 CairoVolt's 12-month warranty and replacement terms are listed on each product page, and cash on delivery is available for eligible orders.
 
-⬅️ Browse the full [JBL range](/en/jbl) in one place, check [JBL earbuds](/en/jbl/earbuds) if you want something smaller for the gym, or [JBL speakers](/en/jbl/speakers) for gatherings and outings.
+⬅️ Browse the full [JBL range](/en/jbl) in one place, check [JBL earbuds](/en/jbl/earbuds) if you want something smaller for the gym, or [JBL speakers](/en/jbl/speakers) for gatherings and outings. And when the occasion outgrows personal listening, see [JBL party speakers](/en/jbl/partybox).
     `,
             qualityBadges: [
                 { type: 'originality', text: 'Genuine JBL — authenticity checks listed on each product page' },
@@ -129,16 +129,16 @@ CairoVolt's 12-month warranty and replacement terms are listed on each product p
                 {
                     title: 'On-ear or Over-ear?',
                     content: `
-- **On-ear — [JBL Tune 520BT](/en/jbl/jbl-tune-520bt):** the cushion rests on the ear itself. Lighter and more compact, but long sessions can press on the ear more.
-- **Over-ear — [JBL Tune 720BT](/en/jbl/jbl-tune-720bt) and [Tune 770NC](/en/jbl/jbl-tune-770nc):** the cushion surrounds the whole ear. Better passive isolation from the shape alone, and more comfortable across long work or study sessions.
+- **On-ear — [JBL Tune 520BT](/en/jbl/headphones/jbl-tune-520bt):** the cushion rests on the ear itself. Lighter and more compact, but long sessions can press on the ear more.
+- **Over-ear — [JBL Tune 720BT](/en/jbl/headphones/jbl-tune-720bt) and [Tune 770NC](/en/jbl/headphones/jbl-tune-770nc):** the cushion surrounds the whole ear. Better passive isolation from the shape alone, and more comfortable across long work or study sessions.
 - Practical rule: one or two hours of commuting — on-ear is fine. Six-hour work or lecture days — over-ear is the comfortable choice.
 `
                 },
                 {
                     title: 'Do you actually need ANC? (770NC vs 720BT)',
                     content: `
-- If most of your listening happens at home or in a quiet office, the **[Tune 720BT](/en/jbl/jbl-tune-720bt)** offers the same 40mm driver class and a longer listed battery (76h) at a lower price — isolation comes passively from the over-ear design.
-- If your day includes the metro, buses, and constant street noise, the **[Tune 770NC](/en/jbl/jbl-tune-770nc)** lists Adaptive ANC to reduce steady noise, plus a Smart Ambient mode for hearing your surroundings without removing the headphones.
+- If most of your listening happens at home or in a quiet office, the **[Tune 720BT](/en/jbl/headphones/jbl-tune-720bt)** offers the same 40mm driver class and a longer listed battery (76h) at a lower price — isolation comes passively from the over-ear design.
+- If your day includes the metro, buses, and constant street noise, the **[Tune 770NC](/en/jbl/headphones/jbl-tune-770nc)** lists Adaptive ANC to reduce steady noise, plus a Smart Ambient mode for hearing your surroundings without removing the headphones.
 - Remember: ANC reduces continuous noise (engines, air conditioning, rumble) far more than intermittent sounds like speech — that is the nature of the technology, not a flaw in the model.
 `
                 },

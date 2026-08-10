@@ -12,6 +12,7 @@ export const jbl_tour_pro_2 = {
     stock: 383,
     featured: false,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-tour-pro-2/jbl-tour-pro-2-main-view-cairovolt.webp", alt: "JBL Tour Pro 2 JBLTOURPRO2 black open smart case with touchscreen and one earbud in front - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

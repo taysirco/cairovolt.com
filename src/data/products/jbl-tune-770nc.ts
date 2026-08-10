@@ -12,6 +12,7 @@ export const jbl_tune_770nc = {
     stock: 508,
     featured: false,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-tune-770nc/jbl-tune-770nc-main-view-cairovolt.webp", alt: "JBL Tune 770NC JBLT770NC black wireless noise cancelling over-ear headphones, three-quarter hero view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
@@ -25,7 +26,7 @@ export const jbl_tune_770nc = {
         { id: "img_9", url: "/products/jbl/jbl-tune-770nc/jbl-tune-770nc-retail-box-back-cairovolt.webp", alt: "JBL Tune 770NC JBLT770NC box back panel with model number JBLT770NCBLK, contents and battery specs - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["jbl-tune-720bt", "jbl-tune-520bt", "jbl-tour-pro-2", "jbl-tune-buds", "jbl-t110bt"],
+    relatedProducts: ["jbl-tune-720bt", "jbl-tune-520bt", "jbl-tour-pro-2", "jbl-tune-buds", "jbl-wave-beam", "jbl-t110bt"],
 
     translations: {
         en: {

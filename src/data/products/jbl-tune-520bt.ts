@@ -12,6 +12,7 @@ export const jbl_tune_520bt = {
     stock: 442,
     featured: true,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-tune-520bt/jbl-tune-520bt-main-view-cairovolt.webp", alt: "JBL Tune 520BT JBLT520BT black wireless on-ear headphones, three-quarter hero view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

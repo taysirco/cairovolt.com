@@ -12,6 +12,7 @@ export const jbl_flip_6 = {
     stock: 419,
     featured: false,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-flip-6/jbl-flip-6-main-view-cairovolt.webp", alt: "JBL Flip 6 JBLFLIP6 black speaker, three-quarter view showing passive radiator end - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

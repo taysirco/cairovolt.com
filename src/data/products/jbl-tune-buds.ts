@@ -12,6 +12,7 @@ export const jbl_tune_buds = {
     stock: 362,
     featured: false,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-tune-buds/jbl-tune-buds-main-view-cairovolt.webp", alt: "JBL Tune Buds JBLTBUDS in black, open charging case with one earbud in front - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
@@ -24,7 +25,7 @@ export const jbl_tune_buds = {
         { id: "img_8", url: "/products/jbl/jbl-tune-buds/jbl-tune-buds-retail-box-authentic-cairovolt.webp", alt: "علبة بيع سماعة JBL Tune Buds سوداء من الأمام: Pure Bass وعزل ضوضاء وبطارية 48 ساعة - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["jbl-wave-beam", "jbl-tour-pro-2", "jbl-tune-770nc", "jbl-t110bt", "jbl-tune-720bt", "jbl-t110"],
+    relatedProducts: ["jbl-wave-beam", "jbl-tour-pro-2", "jbl-tune-770nc", "jbl-t110bt", "jbl-tune-720bt"],
 
     translations: {
         en: {

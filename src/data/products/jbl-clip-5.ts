@@ -12,6 +12,7 @@ export const jbl_clip_5 = {
     stock: 435,
     featured: false,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-clip-5/jbl-clip-5-main-view-cairovolt.webp", alt: "JBL Clip 5 JBLCLIP5 black speaker, three-quarter front view with built-in carabiner - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

@@ -12,6 +12,7 @@ export const soundcore_r60i_nc = {
     stock: 427,
     featured: false,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/anker/soundcore-r60i-nc/soundcore-r60i-nc-main-view-cairovolt.webp", alt: "Soundcore R60i NC D1202 ANC earbuds floating above closed charging case - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

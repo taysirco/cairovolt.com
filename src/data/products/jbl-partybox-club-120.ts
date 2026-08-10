@@ -12,6 +12,7 @@ export const jbl_partybox_club_120 = {
     stock: 348,
     featured: false,
     status: "active",
+    chargePort: "none",   // AC power cable — not USB-C charged
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-partybox-club-120/jbl-partybox-club-120-main-view-cairovolt.webp", alt: "JBL PartyBox Club 120 JBLPBCLUB120 three-quarter view with handle up and pink-red figure-8 lightshow - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

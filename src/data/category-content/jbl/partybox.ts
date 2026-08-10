@@ -7,12 +7,12 @@ export const jbl_partybox_content: CategoryContent = {
             metadata: {
                 en: {
                     title: 'JBL PartyBox Egypt | 100W to 1100W Party Speakers, Mic Inputs',
-                    description: 'Compare JBL PartyBox party speakers by manufacturer-listed wattage, swappable battery, mic and guitar inputs, and lightshow. Genuine with CairoVolt warranty and cash on delivery.',
+                    description: 'Compare JBL PartyBox party speakers by manufacturer-listed wattage, swappable battery, mic and guitar inputs, and lightshow. Genuine with CairoVolt warranty…',
                     keywords: 'jbl partybox, party box jbl, jbl partybox 1000, jbl sound system, jbl microphone, mic jbl, jbl partybox price egypt, jbl party speaker',
                 },
                 ar: {
                     title: 'بازوكا JBL في مصر | سماعات حفلات PartyBox من 100 لـ1100 واط',
-                    description: 'قارن سماعات حفلات JBL PartyBox حسب الواط المعلن والبطارية اللي بتتبدل ومداخل المايك والجيتار والإضاءة. أصلي بضمان كايرو فولت ودفع عند الاستلام.',
+                    description: 'قارن سماعات حفلات JBL PartyBox حسب الواط المعلن والبطارية اللي بتتبدل ومداخل المايك (JBL microphone) والجيتار والإضاءة. أصلي بضمان كايرو فولت ودفع عند الاستلام.',
                     keywords: 'بازوكا jbl, سعر بازوكا jbl 1000 في مصر, jbl partybox, party box jbl, سماعة حفلات, jbl microphone, mic jbl, jbl sound system',
                 }
             },
@@ -29,10 +29,10 @@ export const jbl_partybox_content: CategoryContent = {
 
 مقاومة الرش IPX4 في الموديلات الداعمة تعني رذاذ خفيف مش غمر — بعّد البازوكا عن حمام السباحة وجفف المنافذ قبل الشحن. ضمان كايرو فولت ومدته وشروط الاستبدال موضحة في صفحة كل منتج والسياسة.
 
-⬅️ لو الاستخدام شخصي أكتر من حفلات، شوف [سبيكرات JBL المحمولة](/jbl/speakers) أو [سماعات JBL الرأس](/jbl/headphones).
+⬅️ لو الاستخدام شخصي أكتر من حفلات، شوف [سبيكرات JBL المحمولة](/jbl/speakers) أو [سماعات JBL الرأس](/jbl/headphones). وتقدر ترجع لـ[صفحة JBL الرئيسية](/jbl) أو تشوف [ايربودز JBL](/jbl/earbuds) للاستماع الشخصي.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'أصلي 100% — مطابق لبرنامج JBL Buy Authentic' },
+                        { type: 'originality', text: 'منتجات أصلية بفاتورة — مطابق لبرنامج JBL Buy Authentic' },
                         { type: 'warranty', text: 'ضمان كايرو فولت 12 شهر حسب صفحة المنتج والسياسة' },
                         { type: 'expert_verified', text: 'الواط والبطارية والمداخل حسب المواصفات المعلنة من JBL' }
                     ],
@@ -61,7 +61,7 @@ Encore Essential وClub 120 وStage 320 بيشتغلوا على بطارية أ�
                     faq: [
                         {
                             question: 'كام سعر بازوكا JBL 1000 في مصر؟',
-                            answer: 'سعر JBL PartyBox 1000 في السوق المصري بيتحرك عادة بين حوالي 59 و66 ألف جنيه حسب المحل والمخزون. السعر الحالي عندنا موضح في [صفحة JBL PartyBox 1000](/jbl/partybox/jbl-partybox-1000) وبيتحدث مع العروض — أصلي بضمان كايرو فولت 12 شهر ودفع عند الاستلام.'
+                            answer: 'سعر JBL PartyBox 1000 في السوق المصري كان بيتحرك بين حوالي 59 و66 ألف جنيه (رصد أغسطس 2026) حسب المحل والمخزون، والأسعار بتتغير. السعر الحالي عندنا موضح في [صفحة JBL PartyBox 1000](/jbl/partybox/jbl-partybox-1000) وبيتحدث مع العروض — أصلي بضمان كايرو فولت 12 شهر ودفع عند الاستلام.'
                         },
                         {
                             question: 'هل الصوت يكفي فرح شارع؟',
@@ -95,7 +95,7 @@ Encore Essential وClub 120 وStage 320 بيشتغلوا على بطارية أ�
                     products: [
                         { name: 'JBL PartyBox Encore Essential', price: 20099, badge: 'بداية البازوكا' },
                         { name: 'JBL PartyBox Club 120', price: 20949, badge: 'بطارية تتبدل' },
-                        { name: 'JBL PartyBox Stage 320', price: 29449, badge: 'الأكثر طلبًا' },
+                        { name: 'JBL PartyBox Stage 320', price: 29449, badge: '240 واط + عجل' },
                         { name: 'JBL PartyBox 1000', price: 65999, badge: '1100 واط' },
                         { name: 'JBL PartyBox Wireless Mic', price: 5949, badge: 'ميكروفون ×2' },
                     ]
@@ -112,10 +112,10 @@ One honest note: the **PartyBox 1000 is AC-powered only — it has no battery**.
 
 IPX4 on supporting models covers light splashes, not immersion — keep the speaker away from the pool and dry the ports before charging. CairoVolt warranty duration and replacement terms are listed on each product page and policy.
 
-⬅️ For personal listening rather than events, browse [JBL portable speakers](/en/jbl/speakers) or [JBL headphones](/en/jbl/headphones).
+⬅️ For personal listening rather than events, browse [JBL portable speakers](/en/jbl/speakers) or [JBL headphones](/en/jbl/headphones). You can also return to the [JBL hub](/en/jbl) or browse [JBL earbuds](/en/jbl/earbuds) for private listening.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: '100% genuine — consistent with JBL Buy Authentic guidance' },
+                        { type: 'originality', text: 'Genuine stock with an invoice — consistent with JBL Buy Authentic guidance' },
                         { type: 'warranty', text: 'CairoVolt 12-month warranty per product page and policy' },
                         { type: 'expert_verified', text: 'Wattage, battery, and inputs per JBL manufacturer-listed specs' }
                     ],
@@ -144,7 +144,7 @@ The Encore Essential, Club 120, and Stage 320 run on battery or AC; the Club 120
                     faq: [
                         {
                             question: 'How much is the JBL PartyBox 1000 in Egypt?',
-                            answer: 'Egyptian market pricing for the JBL PartyBox 1000 typically moves between roughly 59,000 and 66,000 EGP depending on the seller and stock. Our current price is shown on the [JBL PartyBox 1000 page](/en/jbl/partybox/jbl-partybox-1000) and updates with promotions — genuine with CairoVolt 12-month warranty and cash on delivery.'
+                            answer: 'Egyptian market pricing for the JBL PartyBox 1000 ranged between roughly 59,000 and 66,000 EGP when surveyed in August 2026, depending on seller and stock; prices change. Our current price is shown on the [JBL PartyBox 1000 page](/en/jbl/partybox/jbl-partybox-1000) and updates with promotions — genuine with CairoVolt 12-month warranty and cash on delivery.'
                         },
                         {
                             question: 'Is the sound enough for a street wedding?',
@@ -178,7 +178,7 @@ The Encore Essential, Club 120, and Stage 320 run on battery or AC; the Club 120
                     products: [
                         { name: 'JBL PartyBox Encore Essential', price: 20099, badge: 'Entry PartyBox' },
                         { name: 'JBL PartyBox Club 120', price: 20949, badge: 'Swappable Battery' },
-                        { name: 'JBL PartyBox Stage 320', price: 29449, badge: 'Top Pick' },
+                        { name: 'JBL PartyBox Stage 320', price: 29449, badge: '240W + wheels' },
                         { name: 'JBL PartyBox 1000', price: 65999, badge: '1100W Flagship' },
                         { name: 'JBL PartyBox Wireless Mic', price: 5949, badge: 'Wireless Mic ×2' },
                     ]

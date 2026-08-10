@@ -12,6 +12,7 @@ export const jbl_boombox_3 = {
     stock: 315,
     featured: false,
     status: "active",
+    chargePort: "none",   // AC power adapter — not USB-C charged
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-boombox-3/jbl-boombox-3-main-view-cairovolt.webp", alt: "JBL Boombox 3 JBLBOOMBOX3 black speaker three-quarter hero view with metal carry handle - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

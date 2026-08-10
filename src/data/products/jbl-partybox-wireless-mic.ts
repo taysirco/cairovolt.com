@@ -12,6 +12,7 @@ export const jbl_partybox_wireless_mic = {
     stock: 322,
     featured: false,
     status: "active",
+    chargePort: "usb-c",   // manufacturer-stated charging interface
 
     images: [
         { id: "img_1", url: "/products/jbl/jbl-partybox-wireless-mic/jbl-partybox-wireless-mic-main-view-cairovolt.webp", alt: "JBL PartyBox Wireless Mic JBLPBWIRELESSMIC set: two black mics with orange accents and plug-in receiver - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

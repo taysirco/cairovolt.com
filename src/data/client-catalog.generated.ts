@@ -2356,7 +2356,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "brand": "JBL",
         "categorySlug": "earbuds",
         "price": 249,
-        "originalPrice": 299,
+        "originalPrice": 289,
         "stock": 483,
         "featured": false,
         "status": "active",
