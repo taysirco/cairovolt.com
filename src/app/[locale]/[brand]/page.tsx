@@ -99,6 +99,8 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
                     '/jbl/earbuds': 'قارن السلكية بموديلات البلوتوث، وراجع بطارية العلبة والعزل ودعم التطبيق حسب الموديل.',
                 } as Record<string, string>,
                 faq: [
+                    { question: 'كام سعر سماعات JBL في مصر؟', answer: 'الأسعار في كايرو فولت بتبدأ من 249 جنيه لسماعة T110 السلك، والايربودز اللاسلكية من 2449 جنيه، وسماعات الراس من 2149 جنيه، وسبيكرات البلوتوث من 2049 لحد 22649 جنيه، والبارتي بوكس من 20099 لحد 65999 جنيه. السعر الحالي والمخزون بيظهروا في صفحة كل منتج وبيتغيروا مع العروض.' },
+                    { question: 'هل كايرو فولت بتبيع ساوند بار JBL؟', answer: 'لأ، حاليًا مفيش ساوند بار JBL في كايرو فولت — المتاح هو السبيكرات المحمولة والبارتي بوكس وسماعات الراس والايربودز. لو عايز صوت للتلفزيون، السبيكر البلوتوث بيتوصل لكن ممكن تلاحظ تأخير بسيط في الصوت حسب التلفزيون.' },
                     { question: 'كيف أختار منتج JBL المناسب؟', answer: 'ابدأ من مكان الاستخدام وحجم المساحة: سبيكر محمول للخروجات والبيت، بارتي بوكس للمناسبات، سماعة رأس أو ايربودز للاستخدام الشخصي. بعد كده قارن ساعات البطارية وتصنيف مقاومة الماء المعلنين من JBL لكل موديل في القسم المناسب.' },
                     { question: 'هل دعم ربط السبيكرات يعني إمكانية ربط أي سبيكرين JBL؟', answer: 'لا. الربط بيشتغل بين الموديلات اللي بتدعم النظام نفسه: PartyBoost مع PartyBoost، وAuracast مع Auracast، والنظامان غير متوافقين مع بعضهما. راجع نظام الربط المذكور في مواصفات كل موديل قبل شراء سبيكر تاني.' },
                     ...common.commonFaq.slice(1),
@@ -207,6 +209,8 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
                 '/jbl/earbuds': 'Compare wired and Bluetooth models, then review case battery, noise control, and app support per model.',
             } as Record<string, string>,
             faq: [
+                { question: 'How much do JBL products cost in Egypt?', answer: 'At CairoVolt prices start at 249 EGP for the wired T110 earphones, with wireless earbuds from 2,449 EGP, headphones from 2,149 EGP, Bluetooth speakers from 2,049 to 22,649 EGP, and PartyBox models from 20,099 to 65,999 EGP. The live price and stock appear on each product page and change with promotions.' },
+                { question: 'Does CairoVolt sell JBL soundbars?', answer: 'No — CairoVolt does not currently stock JBL soundbars. The range here is portable speakers, PartyBox party speakers, headphones and earbuds. For TV audio a Bluetooth speaker can connect, though some audio delay is possible depending on the TV.' },
                 { question: 'How do I choose the right JBL product?', answer: 'Start from where it will play and the space size: a portable speaker for outings and home, a PartyBox for events, headphones or earbuds for personal listening. Then compare the JBL-listed battery hours and water rating per model in the relevant category.' },
                 { question: 'Does speaker-linking support mean any two JBL speakers can pair together?', answer: 'No. Linking works between models that support the same standard: PartyBoost with PartyBoost, and Auracast with Auracast — the two standards are not compatible with each other. Check the linking standard listed in each model’s specifications before buying a second speaker.' },
                 ...common.commonFaq.slice(1),
