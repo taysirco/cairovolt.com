@@ -126,6 +126,8 @@ cairovolt-authenticator.zip
 !/scripts/optimize-blog-covers.mjs
 !/scripts/check-repository-hygiene.mjs
 !/scripts/embed-product-image-metadata.mjs
+!/scripts/embed-blog-image-metadata.mjs
+!/scripts/blog-image-provenance.json
 
 # Root-level utility scripts (local tools)
 /convert_all.py
