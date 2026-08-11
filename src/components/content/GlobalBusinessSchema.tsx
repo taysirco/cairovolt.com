@@ -1,4 +1,5 @@
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { governorates } from '@/data/governorates';
 import { buildBrandSchemaNodes } from '@/lib/brand-entities';
 import {
     STANDARD_DELIVERY_MAX_DAYS,
@@ -114,10 +115,19 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 },
                 // Org-level service area (the ContactPoint areaServed below only
                 // scopes the phone line). Matches Offer.eligibleRegion on PDPs.
-                areaServed: {
-                    '@type': 'Country',
-                    name: 'Egypt',
-                },
+                // The Country node stays first as the coarse claim; the
+                // AdministrativeArea list is the same governorate set the
+                // /locations pages already publish a delivery estimate for, so
+                // "do you deliver to Assiut?" is answerable from the org node
+                // itself instead of requiring a crawl to a location page.
+                areaServed: [
+                    { '@type': 'Country', name: 'Egypt' },
+                    ...governorates.map(gov => ({
+                        '@type': 'AdministrativeArea',
+                        name: isArabic ? gov.nameAr : gov.nameEn,
+                        containedInPlace: { '@type': 'Country', name: 'Egypt' },
+                    })),
+                ],
                 sameAs: [
                     'https://www.facebook.com/cairovolt',
                     'https://www.instagram.com/cairovolt',

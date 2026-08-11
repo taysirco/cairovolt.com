@@ -542,11 +542,16 @@ export default async function ProductPage({ params }: Props) {
                     translations: {
                         en: {
                             name: product.translations?.en?.name || '',
-                            description: product.translations?.en?.description || ''
+                            description: product.translations?.en?.description || '',
+                            // Leads the JSON-LD description: a clean, spec-dense,
+                            // manufacturer-attributed sentence instead of the page body's
+                            // opening narrative scene.
+                            shortDescription: product.translations?.en?.shortDescription || '',
                         },
                         ar: {
                             name: localizeArabicBrandNames(product.translations?.ar?.name || ''),
-                            description: localizeArabicBrandHtml(product.translations?.ar?.description || '')
+                            description: localizeArabicBrandHtml(product.translations?.ar?.description || ''),
+                            shortDescription: localizeArabicBrandNames(product.translations?.ar?.shortDescription || ''),
                         }
                     },
                     images: product.images?.map(img => ({

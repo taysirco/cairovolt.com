@@ -2,6 +2,7 @@
 // DO NOT add 'use client' here!
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { getBrandEntity } from '@/lib/brand-entities';
+import { getCairoVoltWarrantyPolicy } from '@/lib/warranty-policy';
 import {
     getGtinSchemaProperty,
     getMerchantGtin,
@@ -25,8 +26,8 @@ interface ProductSchemaProps {
         mpn?: string;
         images: Array<{ url: string; alt: string; width?: number; height?: number }>;
         translations: {
-            en: { name: string; description: string };
-            ar: { name: string; description: string };
+            en: { name: string; description: string; shortDescription?: string };
+            ar: { name: string; description: string; shortDescription?: string };
         };
     };
     locale: string;
@@ -69,6 +70,33 @@ function getPlainTextDescription(html: string, maxLength: number = 4990): string
     return text;
 }
 
+/** Markers that open the non-descriptive tail of a product body. */
+const SCHEMA_DESCRIPTION_CUT_MARKERS = [
+    '⚠️',
+    'buyer-warning',
+    'external-context',
+    'Full manufacturer specifications',
+    'المواصفات الكاملة من المصنّع',
+];
+
+/**
+ * Build the JSON-LD description: authored shortDescription first (a clean,
+ * spec-dense, manufacturer-attributed sentence), then as much of the editorial
+ * body as fits — with the counterfeit warning and external-reference blocks cut.
+ */
+function buildSchemaDescription(html: string, shortDescription?: string): string {
+    let body = html;
+    for (const marker of SCHEMA_DESCRIPTION_CUT_MARKERS) {
+        const at = body.indexOf(marker);
+        if (at > 0) body = body.slice(0, at);
+    }
+    const lead = shortDescription?.trim();
+    const rest = getPlainTextDescription(body, 1200);
+    if (!lead) return rest;
+    if (rest.startsWith(lead)) return rest;
+    return `${lead} ${rest}`.slice(0, 1200).trim();
+}
+
 function getAbsoluteUrl(url: string, baseUrl: string): string {
     return /^https?:\/\//i.test(url) ? url : `${baseUrl}${url}`;
 }
@@ -96,9 +124,16 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
     const productDisplayName = isArabic
         ? localizeArabicBrandNames(t.name)
         : t.name;
+    // Structured-data description is NOT the page body. The body ends with the
+    // counterfeit-warning block, whose "40% below our price" threshold is derived
+    // from the CURRENT price (so it silently goes stale on every reprice) and
+    // reads as a claim about other sellers — neither belongs in the string that
+    // Merchant Center and AI assistants quote as *the* product description.
+    // Cut at the warning/reference blocks and lead with the authored
+    // shortDescription, which is already spec-dense and manufacturer-attributed.
     const plainDescription = isArabic
-        ? localizeArabicBrandNames(getPlainTextDescription(t.description))
-        : getPlainTextDescription(t.description);
+        ? localizeArabicBrandNames(buildSchemaDescription(t.description, t.shortDescription))
+        : buildSchemaDescription(t.description, t.shortDescription);
 
     // Surface missing catalogue images during local development.
     if (typeof process !== 'undefined' && process.env.NODE_ENV === 'development') {
@@ -242,6 +277,28 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 returnFees: 'https://schema.org/ReturnFeesCustomerResponsibility',
             },
             acceptedPaymentMethod: 'http://purl.org/goodrelations/v1#COD',
+            // CairoVolt's OWN written store warranty, from the same policy source
+            // the page copy renders — explicitly not a manufacturer warranty.
+            // It is the strongest differentiator we have and was invisible to
+            // machines while being stated in prose on every product page.
+            ...(() => {
+                const months = getCairoVoltWarrantyPolicy(product.slug, product.brand).months;
+                return months
+                    ? {
+                        warranty: {
+                            '@type': 'WarrantyPromise',
+                            durationOfWarranty: {
+                                '@type': 'QuantitativeValue',
+                                value: months,
+                                unitCode: 'MON',
+                            },
+                            warrantyScope: isArabic
+                                ? `ضمان كايرو فولت المكتوب لمدة ${months} شهر — ليس ضمان الشركة المصنّعة`
+                                : `CairoVolt written store warranty, ${months} months — not a manufacturer warranty`,
+                        },
+                    }
+                    : {};
+            })(),
         },
         // Dynamic Aggregate Rating - ONLY included if real reviews exist
         // Ensures aggregate ratings are strictly tied to localized verified reviews.
