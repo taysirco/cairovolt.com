@@ -14,10 +14,10 @@ export const joyroom_3_in_1_data_cable = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-1.webp", alt: "Joyroom JR-S-1830G 3-in-1 Lightning USB-C and Micro-USB cable", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-2.webp", alt: "كابل جوي روم 3 في 1 موديل JR-S-1830G - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-3.webp", alt: "Joyroom multi-connector cable model JR-S-1830G - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-4.webp", alt: "موصلات Lightning وUSB-C وMicro-USB في كابل جوي روم", order: 3, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-1.webp", alt: "Joyroom JR-S-1830G 3-in-1 Lightning USB-C and Micro-USB cable", order: 0, isPrimary: true, width: 366, height: 500 },
+            { id: "img_2", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-2.webp", alt: "كابل جوي روم 3 في 1 موديل JR-S-1830G - كايرو فولت", order: 1, isPrimary: false, width: 522, height: 522 },
+            { id: "img_3", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-3.webp", alt: "Joyroom multi-connector cable model JR-S-1830G - CairoVolt", order: 2, isPrimary: false, width: 522, height: 498 },
+            { id: "img_4", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-4.webp", alt: "موصلات Lightning وUSB-C وMicro-USB في كابل جوي روم", order: 3, isPrimary: false, width: 263, height: 350 }
         ],
         translations: {
             en: {

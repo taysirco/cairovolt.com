@@ -2,6 +2,7 @@
 // DO NOT add 'use client' here!
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { getBrandEntity } from '@/lib/brand-entities';
+import { buildProductImageSchema } from '@/lib/image-licensing';
 import { getCairoVoltWarrantyPolicy } from '@/lib/warranty-policy';
 import {
     getGtinSchemaProperty,
@@ -97,10 +98,6 @@ function buildSchemaDescription(html: string, shortDescription?: string): string
     return `${lead} ${rest}`.slice(0, 1200).trim();
 }
 
-function getAbsoluteUrl(url: string, baseUrl: string): string {
-    return /^https?:\/\//i.test(url) ? url : `${baseUrl}${url}`;
-}
-
 /**
  * Google merchant listings want an offer price-validity date, a year out so it
  * never reads as expired. Evaluated once at module load rather than per render:
@@ -187,23 +184,19 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             },
         }),
         category: (product.categorySlug || '').replace(/-/g, ' '),
-        image: product.images.map((img, idx) => ({
-            '@type': 'ImageObject',
-            name: isArabic
-                ? localizeArabicBrandNames(img.alt || `${productDisplayName} — صورة ${idx + 1}`)
-                : (img.alt || `${productDisplayName} — Image ${idx + 1}`),
-            url: getAbsoluteUrl(img.url, baseUrl),
-            contentUrl: getAbsoluteUrl(img.url, baseUrl),
-            ...(img.width ? { width: img.width } : {}),
-            ...(img.height ? { height: img.height } : {}),
-            // CairoVolt owns its product photography — declare the license so
-            // Google's "license" field is satisfied (clears the Image Metadata
-            // warning + enables the licensable-image feature).
-            license: `${baseUrl}/terms`,
-            acquireLicensePage: `${baseUrl}/contact`,
-            creditText: 'CairoVolt',
-            copyrightNotice: 'CairoVolt',
-        })),
+        // Rights-bearing ImageObject for the primary image, plain URLs for the
+        // rest — see buildProductImageSchema for why the gallery does not each
+        // carry a duplicate copy of the same licensing block.
+        image: buildProductImageSchema(
+            product.images.map(img => ({
+                url: img.url,
+                alt: isArabic ? localizeArabicBrandNames(img.alt || '') : (img.alt || ''),
+                width: img.width,
+                height: img.height,
+            })),
+            locale,
+            baseUrl,
+        ),
         // Product specifications supplied by the catalogue.
         ...(specifications && Object.keys(specifications).length > 0 && {
             additionalProperty: Object.entries(specifications).map(([key, val]) => ({

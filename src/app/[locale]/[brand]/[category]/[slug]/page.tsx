@@ -9,7 +9,6 @@ import { SpeakableSchema } from '@/components/schemas/SpeakableSchema';
 import { calculateVerifiedAggregateRating, getProductReviews as getVerifiedProductReviews } from '@/lib/verified-reviews';
 import { getProductDetailAsync } from '@/data/product-details';
 import { getSpin360FrameCount } from '@/lib/product-spin';
-import { ImageObjectSchema } from '@/components/schemas/ImageObjectSchema';
 import { DeliveryStatus, LivePulseSkeleton } from '@/components/products/DeliveryStatus';
 import { logger } from '@/lib/logger';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
@@ -508,32 +507,21 @@ export default async function ProductPage({ params }: Props) {
         location: r.governorate || undefined,
     }));
 
-    // LCP Preload: responsive preload that matches the hero <img srcset>.
-    // On mobile (≤640px) the browser preloads the lighter 480px variant (~10 KB);
-    // on desktop it preloads the 800px variant (~21 KB). imageSrcset/imageSizes
-    // on <link rel="preload"> deduplicates with the matching <img srcset>,
-    // collapsing preload + paint into a single network request.
-    const primaryImageUrl = product.images?.[0]?.url;
-    const preloadImage800 = primaryImageUrl
-        ? primaryImageUrl.replace(/\.webp$/, '-800.webp')
-        : null;
-    const preloadImage480 = primaryImageUrl
-        ? primaryImageUrl.replace(/\.webp$/, '-480.webp')
-        : null;
+    // LCP preload — deliberately NOT hand-written here any more.
+    //
+    // This block used to duplicate the hero's srcset/sizes in a second file.
+    // The two copies drifted: the hero <img> lost its srcSet entirely (next/image
+    // overwrites a caller-supplied one with `undefined`), so it always painted the
+    // 800px file while this preload still asked for the 480px file on phones —
+    // two downloads, 110 KB, for one image.
+    //
+    // React emits the preload itself from the hero <img>, carrying that element's
+    // real imageSrcSet + imageSizes + fetchPriority="high" (verified in the built
+    // markup). Derived from the element instead of restated beside it, it cannot
+    // drift out of sync again.
 
     return (
         <>
-            {/* LCP Image Preload — responsive srcset matches hero <img> */}
-            {preloadImage800 && preloadImage480 && (
-                <link
-                    rel="preload"
-                    as="image"
-                    type="image/webp"
-                    imageSrcSet={`${preloadImage480} 480w, ${preloadImage800} 800w`}
-                    imageSizes="(max-width: 640px) 480px, 800px"
-                    fetchPriority="high"
-                />
-            )}
             <ProductSchema
                 product={{
                     ...product,
@@ -589,23 +577,11 @@ export default async function ProductPage({ params }: Props) {
                 );
             })()}
 
-            {/* Image schemas */}
-            {product.images && product.images.length > 0 && (
-                <ImageObjectSchema
-                    images={product.images.map((img, i) => ({
-                        url: img.url,
-                        alt: isArabic ? localizeArabicBrandNames(img.alt || '') : (img.alt || ''),
-                        isPrimary: img.isPrimary || i === 0,
-                        width: img.width,
-                        height: img.height,
-                    }))}
-                    productName={productName}
-                    productSlug={slug}
-                    productBrand={product.brand}
-                    productCategory={category}
-                    locale={locale}
-                />
-            )}
+            {/* Image rights/licensing structured data now lives on Product.image
+                in ProductSchema. This page used to ALSO emit up to 8 standalone
+                ImageObject nodes describing the same files with the same
+                strings — ~6.7 KB of duplicate markup per page, and a second
+                place for the licensing terms to drift out of sync. */}
 
             {/* BreadcrumbSchema for navigation - STRICTLY using Product Data, not URL Params.
                 The category level is only asserted when its route actually exists —

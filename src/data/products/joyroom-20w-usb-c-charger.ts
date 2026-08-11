@@ -14,13 +14,13 @@ export const joyroom_20w_usb_c_charger = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-1.webp", alt: "Joyroom 20W USB-C charger JR-TCF20 product view - CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-2.webp", alt: "شاحن جوي روم 20 واط USB-C موديل JR-TCF20 - كايرو فولت مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-3.webp", alt: "Joyroom 20W USB-C charger product view in Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-4.webp", alt: "شاحن جوي روم JR-TCF20 بمنفذ USB-C - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-5.webp", alt: "Joyroom JR-TCF20 USB-C wall charger detail - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-6.webp", alt: "شاحن جوي روم 20 واط مع تفاصيل العبوة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-7.webp", alt: "Joyroom 20W USB-C charger packaging and model details - CairoVolt Egypt", order: 6, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-1.webp", alt: "Joyroom 20W USB-C charger JR-TCF20 product view - CairoVolt Egypt", order: 0, isPrimary: true, width: 1116, height: 1085 },
+            { id: "img_2", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-2.webp", alt: "شاحن جوي روم 20 واط USB-C موديل JR-TCF20 - كايرو فولت مصر", order: 1, isPrimary: false, width: 937, height: 1200 },
+            { id: "img_3", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-3.webp", alt: "Joyroom 20W USB-C charger product view in Egypt - CairoVolt", order: 2, isPrimary: false, width: 896, height: 1184 },
+            { id: "img_4", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-4.webp", alt: "شاحن جوي روم JR-TCF20 بمنفذ USB-C - كايرو فولت", order: 3, isPrimary: false, width: 896, height: 1184 },
+            { id: "img_5", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-5.webp", alt: "Joyroom JR-TCF20 USB-C wall charger detail - CairoVolt", order: 4, isPrimary: false, width: 908, height: 1200 },
+            { id: "img_6", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-6.webp", alt: "شاحن جوي روم 20 واط مع تفاصيل العبوة - كايرو فولت", order: 5, isPrimary: false, width: 775, height: 1024 },
+            { id: "img_7", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-7.webp", alt: "Joyroom 20W USB-C charger packaging and model details - CairoVolt Egypt", order: 6, isPrimary: false, width: 775, height: 1024 }
         ],
         translations: {
             en: {

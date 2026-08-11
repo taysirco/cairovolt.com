@@ -14,13 +14,13 @@ export const joyroom_ft3_smartwatch = {
         featured: true,
         status: "active",
         images: [
- { id: "img_1", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-1.webp", alt: "joyroom ft3 smartwatch - product view | CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
- { id: "img_2", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-2.webp", alt: "جوي روم ft3 smartwatch - بيانات العبوة | JR-FT3 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-3.webp", alt: "Joyroom FT3 smartwatch product view in Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
- { id: "img_4", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-4.webp", alt: "جوي روم ft3 smartwatch - تفاصيل المنتج في مصر - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-5.webp", alt: "Joyroom FT3 smartwatch package and model details - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
- { id: "img_6", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-6.webp", alt: "جوي روم ft3 smartwatch - منطقة الباركود وبيانات الموديل | كايرو فولت مصر", order: 5, isPrimary: false, width: 1080, height: 1080 },
- { id: "img_7", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-7.webp", alt: "Joyroom FT3 smartwatch - model and package details in Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 }
+ { id: "img_1", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-1.webp", alt: "joyroom ft3 smartwatch - product view | CairoVolt Egypt", order: 0, isPrimary: true, width: 1200, height: 1200 },
+ { id: "img_2", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-2.webp", alt: "جوي روم ft3 smartwatch - بيانات العبوة | JR-FT3 - كايرو فولت", order: 1, isPrimary: false, width: 1200, height: 1200 },
+            { id: "img_3", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-3.webp", alt: "Joyroom FT3 smartwatch product view in Egypt - CairoVolt", order: 2, isPrimary: false, width: 1200, height: 1200 },
+ { id: "img_4", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-4.webp", alt: "جوي روم ft3 smartwatch - تفاصيل المنتج في مصر - كايرو فولت", order: 3, isPrimary: false, width: 1200, height: 1200 },
+            { id: "img_5", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-5.webp", alt: "Joyroom FT3 smartwatch package and model details - CairoVolt", order: 4, isPrimary: false, width: 1200, height: 1200 },
+ { id: "img_6", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-6.webp", alt: "جوي روم ft3 smartwatch - منطقة الباركود وبيانات الموديل | كايرو فولت مصر", order: 5, isPrimary: false, width: 1200, height: 1200 },
+ { id: "img_7", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-7.webp", alt: "Joyroom FT3 smartwatch - model and package details in Egypt - CairoVolt", order: 6, isPrimary: false, width: 1200, height: 1200 }
         ],
         translations: {
             en: {

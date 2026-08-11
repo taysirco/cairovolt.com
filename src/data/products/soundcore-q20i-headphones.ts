@@ -14,7 +14,7 @@ export const soundcore_q20i_headphones = {
     status: "active",
 
     images: [
- { id: "img_1", url: "/products/anker/soundcore-q20i-headphones/soundcore-q20i-headphones-main-view-cairovolt.webp", alt: "Soundcore Q20i budget ANC over-ear headphones 40mm 60h battery - product view in Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+ { id: "img_1", url: "/products/anker/soundcore-q20i-headphones/soundcore-q20i-headphones-main-view-cairovolt.webp", alt: "Soundcore Q20i budget ANC over-ear headphones 40mm 60h battery - product view in Egypt - CairoVolt", order: 0, isPrimary: true, width: 1050, height: 1050 },
             { id: "img_2", url: "/products/anker/soundcore-q20i-headphones/soundcore-q20i-headphones-features-angle-cairovolt.webp", alt: "سماعة ساوندكور Q20i هيدفون عزل هجين اقتصادي - A3004 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/anker/soundcore-q20i-headphones/soundcore-q20i-headphones-specifications-detail-cairovolt.webp", alt: "Soundcore Q20i 40mm driver detail hybrid ANC budget - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
  { id: "img_4", url: "/products/anker/soundcore-q20i-headphones/soundcore-q20i-headphones-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور Q20i علبة المنتج هيدفون اقتصادي - مصر - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },

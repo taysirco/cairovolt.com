@@ -300,7 +300,7 @@
             "payment": {
                 "title": "Payment",
                 "q1": "What payment methods do you accept?",
-                "a1": "Cash on Delivery (COD) is our main payment method.",
+                "a1": "Cash on delivery in cash is the only payment method we accept — no cards, no online payment, and no instalments. This applies to every order at any value, and we take no deposit before you receive the item.",
                 "q2": "Can I pay by card?",
                 "a2": "Currently we only accept Cash on Delivery.",
                 "q3": "Is payment secure?",
@@ -479,7 +479,7 @@
         "metaTitle": "Terms & Conditions",
         "metaDescription": "Read the terms and conditions for shopping at CairoVolt.",
         "title": "Terms & Conditions",
-        "lastUpdated": "Last updated: July 2026",
+        "lastUpdated": "Last updated: August 2026",
         "sections": {
             "acceptance": {
                 "title": "Acceptance of Terms",
@@ -508,6 +508,10 @@
             "liability": {
                 "title": "Limitation of Liability",
                 "content": "CairoVolt is not liable for indirect, incidental, or consequential damages. Our liability is limited to the purchase price of the product."
+            },
+            "imageLicense": {
+                "title": "Image & Content Licensing",
+                "content": "All product photography, graphics and written content published on CairoVolt.com are the copyright of CairoVolt. Product names, logos, designs and trademarks that appear within those images remain the property of their respective manufacturers and are shown for identification only.\n\nOur images may not be copied, reproduced, redistributed, resold or used for commercial purposes without our written permission. To license an image, email info@cairovolt.com with the image address and how you intend to use it. Licences are granted in writing, case by case, and any permission we give applies only to the specific image and use we approve."
             },
             "changes": {
                 "title": "Changes to Terms",

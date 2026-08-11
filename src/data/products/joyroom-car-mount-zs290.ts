@@ -14,14 +14,14 @@ export const joyroom_car_mount_zs290 = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-1.webp", alt: "Joyroom JR-ZS290 magnetic air-vent car phone mount front view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-2.webp", alt: "حامل موبايل جوي روم JR-ZS290 مغناطيسي لفتحة التكييف - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-3.webp", alt: "Joyroom JR-ZS290 360-degree ball joint detail - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-4.webp", alt: "حامل جوي روم JR-ZS290 مع مشبك فتحة التكييف - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-5.webp", alt: "Joyroom JR-ZS290 magnetic phone alignment view - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-6.webp", alt: "جوي روم JR-ZS290 حامل موبايل مغناطيسي داخل السيارة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-7.webp", alt: "Joyroom JR-ZS290 included mount components - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-8.webp", alt: "تفاصيل حامل جوي روم JR-ZS290 المغناطيسي - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-1.webp", alt: "Joyroom JR-ZS290 magnetic air-vent car phone mount front view - CairoVolt", order: 0, isPrimary: true, width: 970, height: 881 },
+            { id: "img_2", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-2.webp", alt: "حامل موبايل جوي روم JR-ZS290 مغناطيسي لفتحة التكييف - كايرو فولت", order: 1, isPrimary: false, width: 800, height: 800 },
+            { id: "img_3", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-3.webp", alt: "Joyroom JR-ZS290 360-degree ball joint detail - CairoVolt", order: 2, isPrimary: false, width: 772, height: 887 },
+            { id: "img_4", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-4.webp", alt: "حامل جوي روم JR-ZS290 مع مشبك فتحة التكييف - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-5.webp", alt: "Joyroom JR-ZS290 magnetic phone alignment view - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-6.webp", alt: "جوي روم JR-ZS290 حامل موبايل مغناطيسي داخل السيارة - كايرو فولت", order: 5, isPrimary: false, width: 1000, height: 1000 },
+            { id: "img_7", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-7.webp", alt: "Joyroom JR-ZS290 included mount components - CairoVolt", order: 6, isPrimary: false, width: 1000, height: 1000 },
+            { id: "img_8", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-8.webp", alt: "تفاصيل حامل جوي روم JR-ZS290 المغناطيسي - كايرو فولت", order: 7, isPrimary: false, width: 1000, height: 1000 }
         ],
         translations: {
             en: {

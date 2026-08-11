@@ -1,8 +1,14 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Metadata } from 'next';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import { IMAGE_LICENSE_ANCHOR } from '@/lib/image-licensing';
 
 export const revalidate = 2592000;
+
+/** Message-key -> URL fragment, for sections other pages deep-link into. */
+const SECTION_ANCHORS: Record<string, string> = {
+    imageLicense: IMAGE_LICENSE_ANCHOR,
+};
 
 type Props = {
     params: Promise<{ locale: string }>;
@@ -69,8 +75,11 @@ export default async function TermsPage({ params }: Props) {
                         <p className="text-center text-gray-500 mb-12">{t('lastUpdated')}</p>
 
                         <div className="space-y-8">
-                            {['acceptance', 'orders', 'pricing', 'shipping', 'returns', 'warranty', 'liability', 'changes'].map((section) => (
-                                <section key={section} className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
+                            {['acceptance', 'orders', 'pricing', 'shipping', 'returns', 'warranty', 'liability', 'imageLicense', 'changes'].map((section) => (
+                                // Anchor ids are load-bearing for `imageLicense`: the
+                                // ImageObject JSON-LD sets license to /terms#image-license,
+                                // so that fragment must land on the licensing text.
+                                <section key={section} id={SECTION_ANCHORS[section] ?? section} className="scroll-mt-24 bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
                                     <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
                                         {t(`sections.${section}.title`)}
                                     </h2>

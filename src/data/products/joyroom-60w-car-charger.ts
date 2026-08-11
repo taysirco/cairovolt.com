@@ -14,11 +14,11 @@ export const joyroom_60w_car_charger = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-6.webp", alt: "Joyroom JR-CCL05 retractable car charger - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-7.webp", alt: "شاحن سيارة جوي روم JR-CCL05 بكابل قابل للسحب - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-8.webp", alt: "Joyroom retractable USB-C car charger model JR-CCL05", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-4.webp", alt: "شاحن سيارة جوي روم مع كابل مدمج قابل للسحب", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-5.webp", alt: "Joyroom JR-CCL05 car charger installed in a compatible vehicle socket", order: 4, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-6.webp", alt: "Joyroom JR-CCL05 retractable car charger - CairoVolt", order: 0, isPrimary: true, width: 800, height: 800 },
+            { id: "img_2", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-7.webp", alt: "شاحن سيارة جوي روم JR-CCL05 بكابل قابل للسحب - كايرو فولت", order: 1, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_3", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-8.webp", alt: "Joyroom retractable USB-C car charger model JR-CCL05", order: 2, isPrimary: false, width: 747, height: 1024 },
+            { id: "img_4", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-4.webp", alt: "شاحن سيارة جوي روم مع كابل مدمج قابل للسحب", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-5.webp", alt: "Joyroom JR-CCL05 car charger installed in a compatible vehicle socket", order: 4, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {

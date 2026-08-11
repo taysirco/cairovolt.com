@@ -14,13 +14,13 @@ export const joyroom_type_c_lightning_36mos = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-1.webp", alt: "Joyroom JR-S-CL36M USB-C to Lightning cable packaging - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-2.webp", alt: "كابل جوي روم JR-S-CL36M مع بيان مدة الضمان على العبوة - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-6.webp", alt: "Joyroom Lightning 36mos Cable Details - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-7.webp", alt: "تفاصيل كابل جوي روم JR-S-CL36M للايفون Lightning - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-8.webp", alt: "Joyroom Premium Lightning Cable - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-9.webp", alt: "كابل جوي روم فاخر - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-10.webp", alt: "Joyroom JR-S-CL36M cable model and package details - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-1.webp", alt: "Joyroom JR-S-CL36M USB-C to Lightning cable packaging - CairoVolt", order: 0, isPrimary: true, width: 747, height: 1024 },
+            { id: "img_2", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-2.webp", alt: "كابل جوي روم JR-S-CL36M مع بيان مدة الضمان على العبوة - كايرو فولت", order: 1, isPrimary: false, width: 747, height: 1024 },
+            { id: "img_3", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-6.webp", alt: "Joyroom Lightning 36mos Cable Details - CairoVolt", order: 2, isPrimary: false, width: 663, height: 687 },
+            { id: "img_4", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-7.webp", alt: "تفاصيل كابل جوي روم JR-S-CL36M للايفون Lightning - كايرو فولت", order: 3, isPrimary: false, width: 612, height: 606 },
+            { id: "img_5", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-8.webp", alt: "Joyroom Premium Lightning Cable - CairoVolt", order: 4, isPrimary: false, width: 671, height: 689 },
+            { id: "img_6", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-9.webp", alt: "كابل جوي روم فاخر - كايرو فولت", order: 5, isPrimary: false, width: 663, height: 691 },
+            { id: "img_7", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-10.webp", alt: "Joyroom JR-S-CL36M cable model and package details - CairoVolt", order: 6, isPrimary: false, width: 665, height: 784 }
         ],
         translations: {
             en: {

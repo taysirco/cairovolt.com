@@ -56,6 +56,18 @@ export const jbl_partybox_content: CategoryContent = {
                             content: `
 Encore Essential وClub 120 وStage 320 بيشتغلوا على بطارية أو كهربا؛ Club 120 وStage 320 بطاريتهم بتتبدل بواحدة مشحونة في ثواني. **PartyBox 1000 كهربا بس** — اختاره لو المكان فيه مصدر كهربا ثابت زي القاعات، ومتعتمدش عليه في مكان مفتوح من غير مصدر.
 `
+                        },
+                        {
+                            title: 'بتدفع إزاي في بازوكا بعشرين ألف أو أكتر؟',
+                            content: `
+سؤال منطقي لما يكون الطلب بـ20 ألف جنيه أو 65,999. الإجابة عندنا واحدة لكل الموديلات: **الدفع كاش عند الاستلام**، من غير عربون ولا مقدم ولا أي دفعة قبل ما تشوف الجهاز.
+
+**مفيش تقسيط ومفيش دفع أونلاين.** ده مش نقص — ده معناه إنك مش بتدفع فوايد ولا مصاريف إدارية مخبّية في السعر المعروض. السعر اللي قدامك هو اللي هتدفعه.
+
+البازوكات التقيلة زي **PartyBox 1000 (34.7 كيلو)** مش بتتشحن بالشحن العادي — بنرتّبلها توصيل مخصوص، والدفع برضه كاش عند الاستلام زي أي طلب تاني.
+
+وكل طلب معاه فاتورة، وضمان كايرو فولت مكتوب، وإرجاع خلال 14 يوم وفق الشروط المنشورة.
+`
                         }
                     ],
                     faq: [
@@ -90,6 +102,10 @@ Encore Essential وClub 120 وStage 320 بيشتغلوا على بطارية أ�
                         {
                             question: 'ينفع آخد البازوكا رحلة الساحل أو العين السخنة؟',
                             answer: 'الموديلات اللي فيها بطارية (Encore Essential وClub 120 وStage 320) تنفع للرحلات، وتصنيف IPX4 في الموديلات الداعمة بيغطي رذاذ خفيف بس — مش غمر ولا رمل. بعّدها عن المية والرمل المباشر، وجفف المنافذ قبل الشحن. PartyBox 1000 سيبه للقاعات لأنه كهربا بس.'
+                        },
+                        {
+                            question: 'هل فيه تقسيط على بازوكا JBL؟ وبدفع إزاي في طلب بـ65 ألف؟',
+                            answer: 'مفيش تقسيط ومفيش دفع أونلاين — الدفع كاش عند الاستلام بس، على كل الموديلات مهما كان سعرها. مش بناخد عربون ولا مقدم ولا أي دفعة قبل ما تستلم. ومعنى إننا مش بنقسّط إنك مش بتدفع فوايد ولا مصاريف إدارية مضافة على السعر. البازوكات التقيلة زي PartyBox 1000 (34.7 كيلو) بنرتّبلها توصيل مخصوص مش الشحن العادي، والدفع فيها كاش عند الاستلام برضه. وكل طلب بفاتورة وضمان كايرو فولت مكتوب وإرجاع خلال 14 يوم وفق الشروط.'
                         }
                     ],
                     products: [
@@ -139,6 +155,18 @@ Most PartyBox models include a wired mic input, and the Club 120 and Stage 320 l
                             content: `
 The Encore Essential, Club 120, and Stage 320 run on battery or AC; the Club 120 and Stage 320 batteries swap out for a charged spare in seconds. The **PartyBox 1000 is AC-only** — pick it when the venue has reliable mains power, and do not plan it for an open outdoor spot with no power source.
 `
+                        },
+                        {
+                            title: 'How do you pay for a 20,000+ EGP party speaker?',
+                            content: `
+A fair question when the order is 20,000 EGP or 65,999. The answer is the same for every model: **cash on delivery**, with no deposit, no down payment, and nothing paid before you see the unit.
+
+**There are no instalments and no online payment.** That is not a gap — it means you are not paying interest or administrative fees buried in the listed price. The price you see is the price you pay.
+
+The heavy models, notably the **PartyBox 1000 at 34.7 kg**, do not go out on standard courier shipping — we arrange dedicated delivery for those, and payment is still cash on delivery exactly as with any other order.
+
+Every order comes with an invoice, a written CairoVolt warranty, and returns within 14 days under the published terms.
+`
                         }
                     ],
                     faq: [
@@ -165,6 +193,10 @@ The Encore Essential, Club 120, and Stage 320 run on battery or AC; the Club 120
                         {
                             question: 'Will it work with any phone — iPhone and Samsung?',
                             answer: 'Yes, every PartyBox model connects over Bluetooth to any modern phone — iPhone, Samsung, or otherwise. Lighting and EQ control run through the JBL PartyBox app available on both platforms; the Bluetooth version differs by model, so check the product page.'
+                        },
+                        {
+                            question: 'Are instalments available on a JBL PartyBox, and how do I pay for a 65,000 EGP order?',
+                            answer: 'There are no instalments and no online payment — cash on delivery only, on every model regardless of price. We take no deposit and no down payment before you receive the unit. Because we do not finance, you are not paying interest or administrative fees added on top of the listed price. The heavy models such as the PartyBox 1000 (34.7 kg) are delivered by dedicated arrangement rather than standard courier shipping, and payment for those is still cash on delivery. Every order includes an invoice, a written CairoVolt warranty, and returns within 14 days under the published terms.'
                         },
                         {
                             question: 'How do I know the speaker is genuine, not counterfeit?',

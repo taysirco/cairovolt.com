@@ -339,8 +339,18 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
     // LCP hero: serve the pre-generated static variants directly (FAH's
     // adapter can't drive Next 16's optimizer, so <Image> otherwise paints the
     // raw 1080px master AND a hardcoded /api/img preload fetches a 2nd, unused
-    // AVIF copy). `unoptimized` + srcSet collapses that to one right-sized
-    // request. Every gallery image has -800 and -480 siblings, so swipes are safe.
+    // AVIF copy).
+    //
+    // The `unoptimized` + srcSet half of that fix never actually worked:
+    // next/image spreads its own computed attributes last, so the srcSet passed
+    // here was overwritten with `undefined` and never reached the DOM. Measured
+    // in the built markup — this was the ONE image on the product page with no
+    // `srcset`, so every device downloaded the 800px file (79.6 KB on this SKU)
+    // while the <link rel=preload> in page.tsx correctly asked for the 480px one
+    // (30.5 KB) on phones: two files, one image. ProductImage now renders the
+    // <img> itself when a candidate ladder exists, so the srcSet survives and
+    // the preload resolves to the same file the <img> picks.
+    // Every gallery image has -800 and -480 siblings, so swipes are safe.
     const heroImage800 = primaryImage.replace(/\.webp$/, '-800.webp');
     const heroImage480 = primaryImage.replace(/\.webp$/, '-480.webp');
     const heroSrcSet = `${heroImage480} 480w, ${heroImage800} 800w`;

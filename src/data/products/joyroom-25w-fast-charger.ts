@@ -14,12 +14,12 @@ export const joyroom_25w_fast_charger = {
         featured: true,
         status: "active",
         images: [
- { id: "img_1", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-3.webp", alt: "Joyroom 25W Fast Charger - product package view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-4.webp", alt: "شاحن جوي روم JR-TCF23 بقدرة مدرجة 25 واط في مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-5.webp", alt: "Joyroom 25W PD Charger - Current Price Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-6.webp", alt: "شاحن 25 واط للايفون 17 والسامسونج S26 - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-7.webp", alt: "Joyroom 25W USB-C Charger iPhone 17 Compatible - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-8.webp", alt: "شاحن جوي روم 25 واط - راجع سياسة الضمان والاسترجاع الحالية - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
+ { id: "img_1", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-3.webp", alt: "Joyroom 25W Fast Charger - product package view - CairoVolt", order: 0, isPrimary: true, width: 747, height: 1024 },
+            { id: "img_2", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-4.webp", alt: "شاحن جوي روم JR-TCF23 بقدرة مدرجة 25 واط في مصر - كايرو فولت", order: 1, isPrimary: false, width: 751, height: 1024 },
+            { id: "img_3", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-5.webp", alt: "Joyroom 25W PD Charger - Current Price Egypt - CairoVolt", order: 2, isPrimary: false, width: 751, height: 1024 },
+            { id: "img_4", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-6.webp", alt: "شاحن 25 واط للايفون 17 والسامسونج S26 - كايرو فولت", order: 3, isPrimary: false, width: 751, height: 1024 },
+            { id: "img_5", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-7.webp", alt: "Joyroom 25W USB-C Charger iPhone 17 Compatible - CairoVolt", order: 4, isPrimary: false, width: 660, height: 900 },
+            { id: "img_6", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-8.webp", alt: "شاحن جوي روم 25 واط - راجع سياسة الضمان والاسترجاع الحالية - كايرو فولت", order: 5, isPrimary: false, width: 751, height: 1024 }
         ],
         translations: {
             en: {

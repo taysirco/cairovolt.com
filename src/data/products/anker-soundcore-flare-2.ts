@@ -16,7 +16,7 @@ export const anker_soundcore_flare_2 = {
         images: [
             { id: "img_1", url: "/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-ipx7-waterproof-pool-outdoor.webp", alt: "سماعة ساوندكور فلير 2 مقاومة للماء IPX7 - استخدام حمام سباحة وأماكن مفتوحة - كايرو فولت", order: 0, isPrimary: true, width: 1024, height: 1024 },
             { id: "img_2", url: "/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-bluetooth-speaker-360-led-cairovolt.webp", alt: "سماعة ساوندكور فلير 2 بلوتوث 360 درجة مع إضاءة LED - A3165011 - كايرو فولت", order: 1, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_3", url: "/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-led-light-ring-360-ambient.webp", alt: "Soundcore Flare 2 LED light ring 360-degree ambient lighting effect - CairoVolt", order: 2, isPrimary: false, width: 684, height: 1372 },
+            { id: "img_3", url: "/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-led-light-ring-360-ambient.webp", alt: "Soundcore Flare 2 LED light ring 360-degree ambient lighting effect - CairoVolt", order: 2, isPrimary: false, width: 598, height: 1200 },
             { id: "img_4", url: "/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-package-box-contents-cable.webp", alt: "Soundcore Flare 2 package box contents with USB-C cable and user guide - Egypt - CairoVolt", order: 3, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {

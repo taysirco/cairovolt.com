@@ -1,7 +1,6 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { showcaseProducts, finderExtraProducts, type ShowcaseProduct } from '@/data/showcase-products';
@@ -252,13 +251,20 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
                   className="group overflow-hidden rounded-[1.5rem] bg-white text-[#07111f] transition duration-500 hover:-translate-y-1"
                 >
                   <div className="relative aspect-square bg-[#f4f5f7]">
-                    <Image
-                      src={product.image.replace('-thumb.webp', '-480.webp')}
+                    {/* `unoptimized` on next/image discards BOTH srcSet and sizes,
+                        so this shipped one fixed 480px file to every device. The old
+                        `sizes` also claimed 100vw on mobile while the grid above is
+                        `grid-cols-2` — a 2x overstatement that would now pull the
+                        heavier candidate for no reason. Corrected to the real slot. */}
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={`${product.image.replace(/(?:-thumb)?\.webp$/, '')}-480.webp`}
+                      srcSet={`${product.image.replace(/(?:-thumb)?\.webp$/, '')}-480.webp 480w, ${product.image.replace(/(?:-thumb)?\.webp$/, '')}-800.webp 800w`}
                       alt={isAr ? localizeArabicBrandNames(product.name.ar) : product.name.en}
-                      fill
-                      unoptimized
-                      sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
-                      className="object-cover transition duration-700 group-hover:scale-[1.035]"
+                      sizes="(max-width: 1023px) 50vw, (max-width: 1279px) 30vw, 20vw"
+                      className="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-[1.035]"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <div className="p-4">

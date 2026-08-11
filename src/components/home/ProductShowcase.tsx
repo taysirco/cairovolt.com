@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useCallback, useMemo, useState } from 'react';
-import Image from 'next/image';
 import { InstantLink as Link } from '@/components/ui/InstantLink';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { useCart } from '@/context/CartContext';
@@ -111,14 +110,20 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
                 className="group relative flex min-w-0 flex-col overflow-hidden rounded-[1.35rem] border border-slate-200/80 bg-white shadow-[0_8px_30px_rgba(15,23,42,.045)] transition duration-500 hover:-translate-y-1 hover:border-slate-300 hover:shadow-[0_22px_50px_rgba(15,23,42,.11)] sm:rounded-[1.75rem]"
               >
                 <Link href={productHref} className="relative block aspect-square overflow-hidden bg-[#f4f5f7]">
-                  <Image
-                    src={product.image.replace('-thumb.webp', '-480.webp')}
+                  {/* `unoptimized` on next/image discards BOTH srcSet and sizes,
+                      so this shipped a single fixed 480px file to every device —
+                      soft on a DPR-3 phone, oversized on a 25vw desktop card.
+                      Plain <img> keeps the candidates the adapter cannot strip.
+                      Breakpoints mirror the grid above exactly: 2 cols → md:3 → lg:4. */}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={`${product.image.replace(/(?:-thumb)?\.webp$/, '')}-480.webp`}
+                    srcSet={`${product.image.replace(/(?:-thumb)?\.webp$/, '')}-480.webp 480w, ${product.image.replace(/(?:-thumb)?\.webp$/, '')}-800.webp 800w`}
                     alt={isAr ? localizeArabicBrandNames(product.name.ar) : product.name.en}
-                    fill
-                    unoptimized
-                    className="object-cover transition duration-700 group-hover:scale-[1.035]"
-                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                    className="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-[1.035]"
+                    sizes="(max-width: 767px) 50vw, (max-width: 1023px) 33vw, 25vw"
                     loading="lazy"
+                    decoding="async"
                   />
                   {product.badge && (
                     <span className={`absolute top-3 z-10 rounded-full border border-white/80 bg-white/90 px-2.5 py-1 text-[9px] font-bold text-[#07111f] shadow-sm backdrop-blur-sm sm:top-4 sm:px-3 sm:text-[10px] ${isAr ? 'right-3 sm:right-4' : 'left-3 sm:left-4'}`}>

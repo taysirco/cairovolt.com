@@ -14,12 +14,12 @@ export const joyroom_power_bank_10000 = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-1.webp", alt: "باور بانك جوي روم 10000 في مصر - موديل JR-T012 - كايرو فولت", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-2.webp", alt: "شاحن متنقل جوي روم 10000 مللي أمبير - توصيل القاهرة - راجع سياسة الضمان والاسترجاع الحالية - JR-T012 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-3.webp", alt: "باور بانك جوي روم نحيف 10000 - السعر الحالي في مصر فبراير - كايرو فولت", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-4.webp", alt: "Joyroom JR-T012 10000mAh power bank with dual USB-A output - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom 10000mAh slim power bank model JR-T012 - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك جوي روم 10000 بشاشة رقمية ومخرجي USB - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-1.webp", alt: "باور بانك جوي روم 10000 في مصر - موديل JR-T012 - كايرو فولت", order: 0, isPrimary: true, width: 1200, height: 1200 },
+            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-2.webp", alt: "شاحن متنقل جوي روم 10000 مللي أمبير - توصيل القاهرة - راجع سياسة الضمان والاسترجاع الحالية - JR-T012 - كايرو فولت", order: 1, isPrimary: false, width: 1200, height: 1200 },
+            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-3.webp", alt: "باور بانك جوي روم نحيف 10000 - السعر الحالي في مصر فبراير - كايرو فولت", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-4.webp", alt: "Joyroom JR-T012 10000mAh power bank with dual USB-A output - CairoVolt", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom 10000mAh slim power bank model JR-T012 - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك جوي روم 10000 بشاشة رقمية ومخرجي USB - كايرو فولت", order: 5, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {

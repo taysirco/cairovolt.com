@@ -14,16 +14,16 @@ export const joyroom_power_bank_20000 = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-1.webp", alt: "Joyroom JR-PBF14 Pro 20000mAh power bank main view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-10.webp", alt: "باور بانك جوي روم JR-PBF14 Pro سعة 20000 مللي أمبير - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-2.webp", alt: "Joyroom 20000mAh power bank product view in Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-3.webp", alt: "منافذ باور بانك جوي روم JR-PBF14 Pro وشاشة LED - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-4.webp", alt: "Joyroom power bank 20000 package and model details - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-5.webp", alt: "باور بانك جوي روم JR-PBF14 Pro بيانات الموديل على العبوة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-6.webp", alt: "Joyroom JR-PBF14 Pro power bank side and port detail - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-7.webp", alt: "باور بانك جوي روم 20000 مللي أمبير منظر الاستخدام - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_9", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-8.webp", alt: "Joyroom JR-PBF14 Pro printed rating and barcode area - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_10", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-9.webp", alt: "محتويات عبوة باور بانك جوي روم JR-PBF14 Pro - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-1.webp", alt: "Joyroom JR-PBF14 Pro 20000mAh power bank main view - CairoVolt", order: 0, isPrimary: true, width: 1024, height: 1024 },
+            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-10.webp", alt: "باور بانك جوي روم JR-PBF14 Pro سعة 20000 مللي أمبير - كايرو فولت", order: 1, isPrimary: false, width: 1200, height: 1200 },
+            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-2.webp", alt: "Joyroom 20000mAh power bank product view in Egypt - CairoVolt", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-3.webp", alt: "منافذ باور بانك جوي روم JR-PBF14 Pro وشاشة LED - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-4.webp", alt: "Joyroom power bank 20000 package and model details - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-5.webp", alt: "باور بانك جوي روم JR-PBF14 Pro بيانات الموديل على العبوة - كايرو فولت", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_7", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-6.webp", alt: "Joyroom JR-PBF14 Pro power bank side and port detail - CairoVolt", order: 6, isPrimary: false, width: 1200, height: 1200 },
+            { id: "img_8", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-7.webp", alt: "باور بانك جوي روم 20000 مللي أمبير منظر الاستخدام - كايرو فولت", order: 7, isPrimary: false, width: 1200, height: 1200 },
+            { id: "img_9", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-8.webp", alt: "Joyroom JR-PBF14 Pro printed rating and barcode area - CairoVolt", order: 8, isPrimary: false, width: 1200, height: 1200 },
+            { id: "img_10", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-9.webp", alt: "محتويات عبوة باور بانك جوي روم JR-PBF14 Pro - كايرو فولت", order: 9, isPrimary: false, width: 1200, height: 1200 }
         ],
         translations: {
             en: {

@@ -417,7 +417,16 @@ export default function CategoryTemplate({
                                         brand={brand}
                                         category={product.categorySlug || categorySlug}
                                         fill
-                                        priority={idx < 4}
+                                        // Only the true LCP candidate gets the high-priority
+                                        // hint. `priority={idx < 4}` marked four cards
+                                        // `fetchpriority="high"` and emitted four <link
+                                        // rel=preload> tags (verified in the live markup for
+                                        // /anker/power-banks) — four "most important" images
+                                        // is the same signal as none, and the three extra
+                                        // preloads competed with the first for bandwidth.
+                                        // The rest of the first row stays eager, just not
+                                        // privileged.
+                                        priority={idx === 0}
                                         loading={idx < 4 ? 'eager' : 'lazy'}
                                         sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
                                         imageClassName="object-contain p-2 group-hover:scale-105 transition-transform"

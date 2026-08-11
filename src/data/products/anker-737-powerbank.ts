@@ -14,7 +14,7 @@ export const anker_737_powerbank = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-737-powerbank/anker-737-powercore-24000mah-140w-premium-power-bank-cairovolt.webp", alt: "باور بانك انكر 737 بقوة 140 واط 24000 مللي أمبير بريميوم - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1500 },
+            { id: "img_1", url: "/products/anker/anker-737-powerbank/anker-737-powercore-24000mah-140w-premium-power-bank-cairovolt.webp", alt: "باور بانك انكر 737 بقوة 140 واط 24000 مللي أمبير بريميوم - كايرو فولت مصر", order: 0, isPrimary: true, width: 960, height: 1200 },
             { id: "img_2", url: "/products/anker/anker-737-powerbank/anker-737-usb-c-140w-output-port-detail-pd3.1.webp", alt: "Anker 737 USB-C 140W output port with PD3.1 protocol support detail - A1289011 - CairoVolt", order: 1, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_3", url: "/products/anker/anker-737-powerbank/anker-737-smart-digital-display-wattage-voltage-reading.webp", alt: "شاشة ديجيتال ذكية لباور بانك انكر 737 تعرض الواط والفولت في الوقت الحقيقي - كايرو فولت", order: 2, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_4", url: "/products/anker/anker-737-powerbank/anker-737-charging-macbook-pro-140w-laptop-fast-charge.webp", alt: "Anker 737 power bank charging a compatible MacBook Pro over USB-C PD", order: 3, isPrimary: false, width: 1200, height: 1200 },

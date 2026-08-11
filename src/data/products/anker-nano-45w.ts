@@ -15,7 +15,7 @@ export const anker_nano_45w = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-nano-45w/anker-nano-45w-package-box-contents-specifications.webp", alt: "محتويات علبة شاحن انكر نانو 45 واط مع المواصفات - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1200 },
-            { id: "img_2", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-gan-charger-compact-cairovolt-egypt.webp", alt: "شاحن انكر نانو A2664K11 بقدرة مصنفة 45 واط USB-C GaN - كايرو فولت", order: 1, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_2", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-gan-charger-compact-cairovolt-egypt.webp", alt: "شاحن انكر نانو A2664K11 بقدرة مصنفة 45 واط USB-C GaN - كايرو فولت", order: 1, isPrimary: false, width: 960, height: 1200 },
             { id: "img_3", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-port-detail-gan-technology.webp", alt: "Anker Nano 45W USB-C port with GaN II technology close-up detail - CairoVolt", order: 2, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_4", url: "/products/anker/anker-nano-45w/anker-nano-45w-size-comparison-apple-charger-compact.webp", alt: "مقارنة حجم شاحن انكر نانو A2664K11 مع شاحن ابل - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_5", url: "/products/anker/anker-nano-45w/anker-nano-45w-charging-macbook-air-laptop-fast-pd.webp", alt: "Anker Nano A2664K11 USB-C charging setup with MacBook Air - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },

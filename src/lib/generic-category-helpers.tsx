@@ -217,7 +217,7 @@ export function GenericCategoryContent({
                     {/* Products Grid */}
                     {sortedProducts.length > 0 ? (
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-                            {sortedProducts.map((product) => {
+                            {sortedProducts.map((product, idx) => {
                                 const rawTranslation = product.translations[isArabic ? 'ar' : 'en'];
                                 const t = isArabic && rawTranslation
                                     ? localizeArabicBrandContent(rawTranslation)
@@ -252,7 +252,13 @@ export function GenericCategoryContent({
                                                     brand={product.brandDisplay}
                                                     category={product.catSlug}
                                                     fill
-                                                    loading="lazy"
+                                                    // Every card here was `loading="lazy"` with no
+                                                    // priority hint, so these pages emitted zero
+                                                    // fetchpriority="high" images — the LCP element
+                                                    // was explicitly deprioritised. The first card
+                                                    // (and only the first) now leads.
+                                                    loading={idx === 0 ? 'eager' : 'lazy'}
+                                                    priority={idx === 0}
                                                     sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
                                                     imageClassName="object-contain p-2 group-hover:scale-105 transition-transform"
                                                     locale={locale}
