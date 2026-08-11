@@ -94,14 +94,18 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 //   and Offer.acceptedPaymentMethod on each product page.
                 logo: {
                     '@type': 'ImageObject',
+                    '@id': 'https://cairovolt.com/logo.png#image',
                     url: 'https://cairovolt.com/logo.png',
+                    contentUrl: 'https://cairovolt.com/logo.png',
                     width: 1024,
                     height: 1024,
                     caption: 'CairoVolt',
-                    license: 'https://cairovolt.com/terms',
-                    acquireLicensePage: 'https://cairovolt.com/contact',
+                    creator: { '@id': 'https://cairovolt.com/#organization' },
+                    copyrightHolder: { '@id': 'https://cairovolt.com/#organization' },
                     creditText: 'CairoVolt',
-                    copyrightNotice: 'CairoVolt',
+                    copyrightNotice: '© 2026 CairoVolt.com',
+                    license: 'https://cairovolt.com/terms#image-license',
+                    acquireLicensePage: 'https://cairovolt.com/contact',
                 },
                 email: 'info@cairovolt.com',
                 // Locality-level HQ address — matches the published legal identity
