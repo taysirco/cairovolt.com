@@ -116,9 +116,16 @@ export async function GET(request: NextRequest) {
         const filePath = join(process.cwd(), 'public', imagePath);
         const fileBuffer = await readFile(filePath);
 
-        // Process with sharp
+        // Process with sharp. keepMetadata() carries the embedded EXIF/XMP/IPTC
+        // (creator, copyrightNotice, LicensorName, DigitalSourceType) plus the
+        // sRGB ICC through the re-encode. Without this, sharp discards all
+        // metadata by default and every /api/img derivative — which Googlebot-
+        // Image fetches on non-hero surfaces — carries none of the provenance
+        // signals JSON-LD claims about it.
         let pipeline = sharp(fileBuffer)
-            .resize(w, undefined, { fit: 'inside', withoutEnlargement: true });
+            .rotate()
+            .resize(w, undefined, { fit: 'inside', withoutEnlargement: true })
+            .keepMetadata();
 
         if (outputFormat === 'avif') {
             pipeline = pipeline.avif({ quality, effort: 4 });

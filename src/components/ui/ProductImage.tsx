@@ -98,7 +98,6 @@ export function ProductImage({
     imageClassName = '',
 }: ProductImageProps) {
     const displayAlt = locale === 'ar' ? localizeArabicBrandNames(alt) : alt;
-    const year = new Date().getFullYear();
     const figureStyle = fill
         ? { position: 'absolute' as const, inset: 0, overflow: 'hidden' as const }
         : { position: 'relative' as const, overflow: 'hidden' as const };
@@ -117,9 +116,19 @@ export function ProductImage({
             itemScope
             itemType="https://schema.org/ImageObject"
         >
-            <meta itemProp="creator" content="CairoVolt" />
+            {/* creator/copyrightHolder must be Organization or Person per schema.org;
+                bare Text values are silently ignored by validators. */}
+            <span itemProp="creator" itemScope itemType="https://schema.org/Organization">
+                <meta itemProp="name" content="CairoVolt" />
+                <meta itemProp="url" content="https://cairovolt.com" />
+            </span>
+            <span itemProp="copyrightHolder" itemScope itemType="https://schema.org/Organization">
+                <meta itemProp="name" content="CairoVolt" />
+            </span>
             <meta itemProp="creditText" content="CairoVolt" />
-            <meta itemProp="copyrightNotice" content={`© ${year} CairoVolt`} />
+            <meta itemProp="copyrightNotice" content="© 2026 CairoVolt.com" />
+            <meta itemProp="license" content="https://cairovolt.com/terms#image-license" />
+            <meta itemProp="acquireLicensePage" content="https://cairovolt.com/contact" />
             {isPrimary && <meta itemProp="representativeOfPage" content="true" />}
             {responsiveSrcSet ? (
                 // eslint-disable-next-line @next/next/no-img-element

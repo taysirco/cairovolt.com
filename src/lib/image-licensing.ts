@@ -27,8 +27,7 @@ export const IMAGE_CREDIT_TEXT = 'CairoVolt';
  * copyright notice, so emitting a translated variant in the ar JSON-LD would
  * manufacture the very structured-data/IPTC conflict Google warns about.
  */
-export const IMAGE_COPYRIGHT_NOTICE =
-    '© CairoVolt. Product designs, logos and trademarks are the property of their respective owners.';
+export const IMAGE_COPYRIGHT_NOTICE = '© 2026 CairoVolt.com';
 
 /**
  * The page that states the licensing terms. MUST stay in sync with the
@@ -43,6 +42,23 @@ export const IPTC_IMAGE_LICENSE_URL = `https://cairovolt.com/terms#${IMAGE_LICEN
 
 /** Where a licence is actually requested. Same document in both locales. */
 export const IMAGE_ACQUIRE_LICENSE_PAGE = 'https://cairovolt.com/contact';
+
+/**
+ * The PLUS licensor block Google reads for the Licensable image feature (in
+ * addition to schema.org creator/license). Written into every product image's
+ * XMP-plus namespace.
+ */
+export const IMAGE_LICENSOR_NAME = 'CairoVolt';
+export const IMAGE_LICENSOR_URL = 'https://cairovolt.com';
+
+/**
+ * IPTC Digital Source Type — an honest provenance signal. Every product image
+ * ships as a Canva composition of licensed brand assets (background, product
+ * shot, overlays), which is exactly what "composite" is defined for. This is
+ * the field that will need a per-image override if a genuine studio capture is
+ * ever added to the catalogue (that class carries `digitalCapture`).
+ */
+export const IMAGE_DIGITAL_SOURCE_TYPE = 'http://cv.iptc.org/newscodes/digitalsourcetype/composite';
 
 /**
  * Locale-appropriate license URL. /terms and /en/terms are hreflang-linked
@@ -64,6 +80,7 @@ export interface RightsBearingImage {
 
 interface ImageObjectNode {
     '@type': 'ImageObject';
+    '@id': string;
     contentUrl: string;
     url: string;
     caption?: string;
@@ -71,6 +88,7 @@ interface ImageObjectNode {
     width?: number;
     height?: number;
     creator: { '@id': string };
+    copyrightHolder: { '@id': string };
     creditText: string;
     copyrightNotice: string;
     license: string;
@@ -111,6 +129,7 @@ export function buildProductImageSchema(
 
     const primaryNode: ImageObjectNode = {
         '@type': 'ImageObject',
+        '@id': `${primaryUrl}#image`,
         contentUrl: primaryUrl,
         url: primaryUrl,
         ...(caption ? { caption } : {}),
@@ -118,6 +137,7 @@ export function buildProductImageSchema(
         ...(primary.width ? { width: primary.width } : {}),
         ...(primary.height ? { height: primary.height } : {}),
         creator: { '@id': IMAGE_CREATOR_ID },
+        copyrightHolder: { '@id': IMAGE_CREATOR_ID },
         creditText: IMAGE_CREDIT_TEXT,
         copyrightNotice: IMAGE_COPYRIGHT_NOTICE,
         license: getImageLicenseUrl(locale),
