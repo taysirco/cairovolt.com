@@ -160,7 +160,7 @@ export const soundcore_audio_content: CategoryContent = {
       **Choosing the Right Soundcore Model:**
       The Soundcore app provides EQ and features such as HearID or firmware updates on compatible models. App detection alone is not proof of authenticity; check model support, use the manufacturer's available official guidance, and retain your invoice. CairoVolt warranty duration and terms are listed per product.
 
-      ⬅️ Visit the full [Soundcore Hub](/soundcore) to browse all Soundcore products — earbuds and speakers in one place. Also check [Anker cables](/anker/cables) to charge them, [Anker power banks](/anker/power-banks) for travel, or [Soundcore speakers](/soundcore/speakers) for louder sound.
+      ⬅️ Visit the full [Soundcore Hub](/en/soundcore) to browse all Soundcore products — earbuds and speakers in one place. Also check [Anker cables](/en/anker/cables) to charge them, [Anker power banks](/en/anker/power-banks) for travel, or [Soundcore speakers](/en/soundcore/speakers) for louder sound.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Model details and invoice available for review' },

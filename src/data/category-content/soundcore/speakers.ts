@@ -102,7 +102,7 @@ On supported models, **IPX7** covers temporary fresh-water immersion within the 
 
 CairoVolt warranty duration and replacement terms are listed on the product page and policy. Delivery timing is estimated from the confirmed address.
 
-⬅️ Visit the full [Soundcore Hub](/soundcore) for all audio products in one place. Also explore [Soundcore earbuds](/soundcore/audio) for personal use, [Anker cables](/anker/cables) for fast charging, or [Anker power banks](/anker/power-banks) to power the speaker outdoors.
+⬅️ Visit the full [Soundcore Hub](/en/soundcore) for all audio products in one place. Also explore [Soundcore earbuds](/en/soundcore/audio) for personal use, [Anker cables](/en/anker/cables) for fast charging, or [Anker power banks](/en/anker/power-banks) to power the speaker outdoors.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Hi-Res Audio status listed by model' },

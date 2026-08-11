@@ -102,7 +102,7 @@ export const joyroom_car_chargers_content: CategoryContent = {
       **No loose cables on the dashboard:**
       The two built-in cables retract back into the charger after use, so you don't need a separate cable for your iPhone or Android phone. Extend and retract them gently according to the instructions, without twisting or sudden pulls (the cords are about 80cm each).
 
-      Check compatibility with the vehicle's 12V or 24V outlet and avoid direct sun exposure. CairoVolt warranty duration and terms are listed on the product page and warranty policy, and cash on delivery is available for eligible orders. Pair it with a [Joyroom car phone holder](/joyroom/car-holders), or compare [Anker car chargers](/anker/car-chargers) for different port and output options.
+      Check compatibility with the vehicle's 12V or 24V outlet and avoid direct sun exposure. CairoVolt warranty duration and terms are listed on the product page and warranty policy, and cash on delivery is available for eligible orders. Pair it with a [Joyroom car phone holder](/en/joyroom/car-holders), or compare [Anker car chargers](/en/anker/car-chargers) for different port and output options.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Two retractable cables (USB-C + Lightning) plus USB-A and USB-C ports' },

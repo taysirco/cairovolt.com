@@ -7,7 +7,7 @@ import { ProductImage } from '@/components/ui/ProductImage';
 import dynamic from 'next/dynamic';
 import { CategoryContent, BuyingGuideSection, SoundcoreData, PowerBankData } from '@/data/category-content';
 import { BreadcrumbSchema } from './schemas/ProductSchema';
-import { HowToSchema, ItemListSchema } from './schemas/StructuredDataSchemas';
+import { CategoryCollectionSchema, HowToSchema, ItemListSchema } from './schemas/StructuredDataSchemas';
 import RelatedLinks from './content/RelatedLinks';
 import { CollectionOverviewBlock } from './content/CategoryOverviewBlock';
 import { SvgIcon } from './ui/SvgIcon';
@@ -72,6 +72,29 @@ interface CategoryTemplateProps {
      */
     relatedArticles?: RelatedArticle[];
     coverageLinks?: CoverageLink[];
+}
+
+/**
+ * Markdown → plain sentence, for JSON-LD `description`.
+ *
+ * 24 of the 38 category descriptions contain markdown links. Stripping only
+ * bracket characters would leave the URL behind as prose — "Anker cables
+ * (/en/anker/cables) charge them" — inside the exact field an answer engine
+ * quotes back to a user. Link text is kept, the target is discarded, and the
+ * cut lands on a word boundary rather than mid-word.
+ */
+function toPlainSchemaText(markdown: string, maxLength: number): string {
+    const plain = markdown
+        .replace(/!\[[^\]]*\]\([^)]*\)/g, '')      // images: drop entirely
+        .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')   // links: keep the text
+        .replace(/[#*_`>|]/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+    if (plain.length <= maxLength) return plain;
+    const cut = plain.slice(0, maxLength);
+    const lastSpace = cut.lastIndexOf(' ');
+    return `${(lastSpace > maxLength * 0.6 ? cut.slice(0, lastSpace) : cut).trim()}…`;
 }
 
 // Category slug to translation key mapping
@@ -205,9 +228,23 @@ export default function CategoryTemplate({
         { name: translatedCategory, url: `https://cairovolt.com${localePrefix}/${brandSlug}/${categorySlug}` }
     ];
 
+    const canonicalUrl = `https://cairovolt.com${localePrefix}/${brandSlug}/${categorySlug}`;
+
     return (
         <div className="min-h-screen" dir={isRTL ? 'rtl' : 'ltr'}>
             <BreadcrumbSchema items={breadcrumbs} locale={locale} />
+
+            {/* Page-level entity. These shelves previously emitted a product
+             * list with nothing saying what the PAGE is or what it is about,
+             * so an entity resolver could read the items but not the shelf. */}
+            <CategoryCollectionSchema
+                url={canonicalUrl}
+                name={content.title}
+                description={toPlainSchemaText(content.description, 300)}
+                brandName={brand}
+                categoryName={translatedCategory}
+                locale={locale}
+            />
 
             {/* Buying guide schema */}
             {content.buyingGuide && (
@@ -239,6 +276,7 @@ export default function CategoryTemplate({
                         inStock: p.inStock,
                     }))}
                     locale={locale}
+                    pageUrl={canonicalUrl}
                 />
             )}
 

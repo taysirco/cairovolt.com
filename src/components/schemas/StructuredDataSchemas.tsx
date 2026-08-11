@@ -264,12 +264,14 @@ interface ItemListProps {
     listName: string;
     items: ItemListProduct[];
     locale: string;
+    /** Absolute page URL. Supplying it gives the list a stable @id to reference. */
+    pageUrl?: string;
 }
 
 // ItemList Schema for product listings in category pages.
 // Each ListItem nests a Product entity (image + Offer) so category pages carry
 // per-product markup, mirroring the Offer pattern used by ProductSchema on PDPs.
-export function ItemListSchema({ listName, items }: ItemListProps) {
+export function ItemListSchema({ listName, items, pageUrl }: ItemListProps) {
     // Summary-page ItemList (Google's recommended pattern for category/brand
     // list pages): each entry is just a position + the product URL, and the
     // product page itself carries the full, valid merchant-listing markup.
@@ -279,6 +281,10 @@ export function ItemListSchema({ listName, items }: ItemListProps) {
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
+        // Only emitted when a caller supplies a page URL, so the node can be
+        // referenced by @id from that page's CollectionPage instead of the
+        // list being duplicated inside it. Callers that omit it are unchanged.
+        ...(pageUrl ? { '@id': `${pageUrl}#itemlist` } : {}),
         name: listName,
         numberOfItems: items.length,
         itemListOrder: 'https://schema.org/ItemListUnordered',
@@ -301,6 +307,68 @@ export function ItemListSchema({ listName, items }: ItemListProps) {
 // once in GlobalBusinessSchema (layout). Its SearchAction pointed to a
 // non-existent /search route and the sitelinks searchbox is retired anyway.
 
+// ============================================
+// CATEGORY COLLECTION PAGE — for the 19 brand/category shelf pages
+// ============================================
+
+interface CategoryCollectionSchemaProps {
+    /** Canonical absolute URL of this shelf page. */
+    url: string;
+    name: string;
+    description: string;
+    /** Display brand, e.g. "JBL" — becomes the `about` Brand entity. */
+    brandName: string;
+    /** Display category, e.g. "Bluetooth Speakers". */
+    categoryName: string;
+    locale: string;
+}
+
+/**
+ * Types a brand/category shelf as what it actually is.
+ *
+ * These 19 pages previously emitted BreadcrumbList + HowTo + ItemList and no
+ * page-level entity at all: an answer engine could read the list of products
+ * but nothing said what the page *is*, what it is about, or what it belongs
+ * to. This supplies the missing node and references the ItemList by @id
+ * rather than repeating it, so the products are described exactly once.
+ *
+ * Deliberately no `dateModified`: the pages are hourly-ISR, so any build-time
+ * date would churn every hour and assert a freshness that did not happen.
+ * An untruthful recency signal is worse than none.
+ */
+export function CategoryCollectionSchema({
+    url,
+    name,
+    description,
+    brandName,
+    categoryName,
+    locale,
+}: CategoryCollectionSchemaProps) {
+    const isArabic = locale === 'ar';
+    const schema = {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        '@id': `${url}#collectionpage`,
+        name,
+        description,
+        url,
+        inLanguage: isArabic ? 'ar-EG' : 'en-EG',
+        isPartOf: { '@id': 'https://cairovolt.com/#website' },
+        about: [
+            { '@type': 'Brand', name: brandName },
+            { '@type': 'Thing', name: categoryName },
+        ],
+        mainEntity: { '@id': `${url}#itemlist` },
+    };
+
+    return (
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+    );
+}
+
 // CollectionPage Schema for homepage category/brand listings
 interface CollectionPageSchemaProps {
     locale: string;
@@ -319,10 +387,10 @@ export function CollectionPageSchema({ locale, collections }: CollectionPageSche
         '@context': 'https://schema.org',
         '@type': 'CollectionPage',
         '@id': `${baseUrl}${isArabic ? '' : '/en'}/#collectionpage`,
-        name: isArabic ? 'إكسسوارات الموبايل - انكر وساوندكور وجوي روم في مصر' : 'Mobile Accessories - Anker, Soundcore & Joyroom Egypt',
+        name: isArabic ? 'إكسسوارات الموبايل والصوتيات - انكر وساوندكور وجوي روم وJBL في مصر' : 'Mobile Accessories & Audio - Anker, Soundcore, Joyroom & JBL Egypt',
         description: isArabic
-            ? 'تسوق إكسسوارات الموبايل في مصر، بما يشمل باور بانك وشواحن وسماعات وكابلات من انكر وساوندكور وجوي روم.'
-            : 'Shop mobile accessories in Egypt, including power banks, chargers, earbuds, and cables from Anker, Soundcore, and Joyroom.',
+            ? 'تسوق إكسسوارات الموبايل والصوتيات في مصر، بما يشمل باور بانك وشواحن وكابلات وسماعات ومكبرات صوت بلوتوث من انكر وساوندكور وجوي روم وJBL.'
+            : 'Shop mobile accessories and audio in Egypt, including power banks, chargers, cables, earbuds, and Bluetooth speakers from Anker, Soundcore, Joyroom, and JBL.',
         url: `${baseUrl}${isArabic ? '' : '/en'}`,
         inLanguage: isArabic ? 'ar-EG' : 'en-EG',
         isPartOf: {
