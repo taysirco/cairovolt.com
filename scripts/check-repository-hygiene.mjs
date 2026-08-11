@@ -27,9 +27,7 @@ const forbiddenPaths = [
     /^\.claude\//,
     /^keyword-research\//,
     /^marketing\//,
-    /^src\/data\/reviews\//,
     /^src\/data\/tests\//,
-    /^src\/data\/product-reviews\.ts$/,
     /^src\/data\/product-tests\.ts$/,
     /^src\/components\/(?:content\/(?:ProductTestResults|TestResultsBlock)|UX\/ContentCredentialsBadge)\.tsx$/,
     /^src\/components\/home\/SocialProofStrip\.tsx$/,
@@ -54,14 +52,60 @@ const contentRules = [
     { name: 'GitHub access token', pattern: /gh[pousr]_[A-Za-z0-9]{20,}/ },
     { name: 'AWS access key', pattern: /AKIA[0-9A-Z]{16}/ },
     { name: 'Google API key', pattern: /AIza[0-9A-Za-z_-]{30,}/ },
-    { name: 'unsafe optimization terminology', pattern: /\b(?:RankBrain|PBN|cloaking|bypass\s+AdBlockers?)\b/i },
+    // "cloaking-adjacent" is excluded: it only ever appears in the
+    // markdown-negotiate handler's comment explaining why that surface must
+    // replay the HTML gates exactly — prose arguing AGAINST the technique.
+    // Flagging it permanently would train the reader to ignore this check.
+    { name: 'unsafe optimization terminology', pattern: /\b(?:RankBrain|PBN|cloaking(?!-adjacent)|bypass\s+AdBlockers?)\b/i },
 ];
+
+/**
+ * Reviews are checked by CONTENT, not by path.
+ *
+ * `src/data/reviews/` used to be a blanket forbidden path. That was correct
+ * when the directory held only seeded review datasets, but every product now
+ * needs a review module present for its import to resolve — the JBL rollout
+ * failed in cloud build precisely because those files were gitignored — so the
+ * blanket ban started firing on ~120 legitimately-tracked empty modules. A
+ * check that fails on everything gets ignored, and this one was: it was
+ * reporting 120 findings, which is why nobody noticed that 95 of those files
+ * still contain seeded review objects with invented reviewer names and cities.
+ *
+ * So: an empty review module passes, and any file that actually carries review
+ * objects fails loudly. Same for the barrel — it is only a problem while it
+ * imports seeded data or carries the fake-persona generator.
+ *
+ * This matters beyond tidiness. Self-authored reviews rendered as Review or
+ * AggregateRating markup are a Google merchant-policy violation, and the store
+ * has a Merchant Center review in flight.
+ */
+const REVIEW_MODULE = /^src\/data\/reviews\/(?!_shared\.ts$).+\.ts$/;
+const REVIEW_BARREL = /^src\/data\/product-reviews\.ts$/;
+const REVIEW_OBJECT = /\brating:\s*\d/;
+const PERSONA_GENERATOR = /\b(?:reviewerNames|egyptianCities)\b/;
 
 const findings = [];
 
 for (const file of trackedFiles) {
     if (forbiddenPaths.some((pattern) => pattern.test(file))) {
         findings.push({ file, rule: 'non-deployable or sensitive tracked file' });
+    }
+
+    if (REVIEW_MODULE.test(file) || REVIEW_BARREL.test(file)) {
+        let reviewSource = '';
+        try {
+            reviewSource = readFileSync(new URL(file, ROOT), 'utf8');
+        } catch {
+            reviewSource = '';
+        }
+        const match = REVIEW_OBJECT.exec(reviewSource) || PERSONA_GENERATOR.exec(reviewSource);
+        if (match) {
+            findings.push({
+                file,
+                line: reviewSource.slice(0, match.index).split('\n').length,
+                rule: 'seeded/self-authored review data — only real, order-verified reviews may ship',
+            });
+        }
     }
 
     if (file === SELF || BINARY_FILE.test(file)) continue;
