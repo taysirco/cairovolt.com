@@ -285,9 +285,17 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                     </p>
                                 )}
 
-                                {/* Cross-brand disclosure — never let a pairing read as an official set */}
+                                {/* Cross-brand disclosure — never let a pairing read as an official set.
+                                 *
+                                 * Deliberately NOT clamped and deliberately not the smallest type on
+                                 * the card. This sentence is the only thing standing between "we
+                                 * suggest an Anker power bank for your JBL speaker" and the reader
+                                 * inferring an official JBL bundle. At 9px with line-clamp-2 the
+                                 * Arabic string truncated mid-sentence on a 375px viewport — a
+                                 * disclosure that gets cut off before it discloses is worse than
+                                 * none, because the visible half still reads as endorsement. */}
                                 {!isMain && disclosureText && (
-                                    <p className="text-[9px] text-gray-500 dark:text-gray-400 mb-1 line-clamp-2 text-start" title={disclosureText}>
+                                    <p className="text-[11px] leading-snug text-gray-600 dark:text-gray-300 mb-1 text-start">
                                         {disclosureText}
                                     </p>
                                 )}
@@ -454,7 +462,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
                                             {/* Cross-brand disclosure — never let a pairing read as an official set */}
                                             {!isMain && disclosureText && (
-                                                <p className="text-[10px] text-gray-500 dark:text-gray-400 mb-2">
+                                                <p className="text-[11px] leading-snug text-gray-600 dark:text-gray-300 mb-2">
                                                     {disclosureText}
                                                 </p>
                                             )}

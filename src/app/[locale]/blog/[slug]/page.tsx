@@ -19,6 +19,7 @@ import SocialShareButtons from '@/components/content/SocialShareButtons';
 import { ExternalReferences } from '@/components/content/ExternalReferences';
 import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 import { getBrandDisplayName, localizeArabicBrandContent, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import { getCategoriesForArticle, getCategoryDisplayName } from '@/lib/blog-category-bridge';
 
 // Hourly ISR — so a scheduled article reveals within ~1h of its publishDate
 // (the daily reveal cron also force-revalidates on the exact day).
@@ -683,6 +684,42 @@ export default async function BlogArticlePage({ params }: Props) {
                                 })}
                             </div>
                         </section>
+                        );
+                    })()}
+
+                    {/* ═══════════════════════════════════════════════════ */}
+                    {/* Category shelves this article covers.              */}
+                    {/*                                                     */}
+                    {/* The reverse edge of the same graph the category     */}
+                    {/* pages now read. An article recommends 3–7 specific  */}
+                    {/* SKUs above; a reader whose model is not among them  */}
+                    {/* previously had nowhere to go but back. Legacy keys  */}
+                    {/* that match no route are dropped by the resolver, so */}
+                    {/* this can never emit a link to a 404.                */}
+                    {/* ═══════════════════════════════════════════════════ */}
+                    {(() => {
+                        const shelves = getCategoriesForArticle(article.relatedCategories, 3);
+                        if (shelves.length === 0) return null;
+                        return (
+                            <section className="mt-12 pt-8 border-t border-gray-100 dark:border-gray-800">
+                                <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
+                                    {isArabic ? 'تصفّح الأقسام اللي المقال بيتكلم عنها' : 'Browse the categories this article covers'}
+                                </h2>
+                                <div className="flex flex-wrap gap-3">
+                                    {shelves.map(shelf => (
+                                        <Link
+                                            key={shelf.href}
+                                            href={getLocalizedHref(shelf.href)}
+                                            className="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 font-semibold text-gray-800 dark:text-gray-200 hover:border-blue-400 hover:shadow-md transition"
+                                        >
+                                            {getBrandDisplayName(shelf.brandSlug, locale)}
+                                            <span className="text-gray-400">/</span>
+                                            {getCategoryDisplayName(shelf.categorySlug, locale)}
+                                            <span aria-hidden="true">→</span>
+                                        </Link>
+                                    ))}
+                                </div>
+                            </section>
                         );
                     })()}
 

@@ -31,6 +31,27 @@ export interface Governorate {
     };
 }
 
+/**
+ * The governorates surfaced as coverage chips on category pages.
+ *
+ * Deliberately a short, fixed list rather than all 27: the block is a delivery
+ * fact plus an entry point into /locations, not a directory. These are the
+ * six highest-population governorates, which is also where the delivery
+ * estimates are shortest — so the chip a reader is most likely to click is the
+ * one whose page has the most useful answer. The governorate page itself links
+ * onward to the remaining 26, so one chip is enough to make the whole layer
+ * crawlable; before this existed, /locations was reachable only from the
+ * sitemap and carried no inbound links from any commerce page.
+ */
+export const COVERAGE_GOVERNORATE_SLUGS = [
+    'cairo',
+    'giza',
+    'alexandria',
+    'qalyubia',
+    'sharqia',
+    'dakahlia',
+] as const;
+
 export const governorates: Governorate[] = [
     // Greater Cairo Region
     {

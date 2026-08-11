@@ -20,7 +20,10 @@ export const anker_soundcore_vs_jbl_vs_bose_speakers_egypt: BlogArticle = {
         'does-fast-charging-damage-battery-truth',
         'phone-battery-needs-replacement-5-signs',
     ],
-    relatedCategories: ['Anker/speakers', 'Anker/earbuds'],
+    // JBL/speakers is declared because this article compares JBL speakers by
+    // name and links jbl-flip-6 / jbl-charge-5 as related products — the shelf
+    // it sends a reader to is as much JBL's as Soundcore's.
+    relatedCategories: ['Anker/speakers', 'Anker/earbuds', 'JBL/speakers'],
     coverImage: '/images/blog/posts/anker-soundcore-vs-jbl-vs-bose-speakers-egypt.webp',
     translations: {
         ar: {

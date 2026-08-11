@@ -71,6 +71,7 @@ import { SvgIcon } from '@/components/ui/SvgIcon';
 import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
 import { getCairoVoltWarrantyPolicy } from '@/lib/warranty-policy';
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { STANDARD_RETURN_WINDOW_DAYS } from '@/lib/merchant-product-data';
 import { getDiscountInfo } from '@/lib/pricing-display';
 
 
@@ -892,6 +893,22 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                         : `Free shipping on orders of ${freeShippingFrom} EGP or more — shipping fees start from 70 EGP under the shipping policy`}
                                 </a>
                             </p>
+                            {/* The return window as a NUMBER, next to the price.
+                             *
+                             * The page already linked "return policy" from the
+                             * footer and the shipping block, but a buyer deciding
+                             * at the price does not open a policy page to find
+                             * out whether a return exists — and every marketplace
+                             * they are comparing us against states its window in
+                             * the listing. A link is not an answer. */}
+                            <p className="flex items-center gap-1.5">
+                                <span aria-hidden="true">↩️</span>
+                                <Link href={isRTL ? '/return-policy' : '/en/return-policy'} className="hover:underline">
+                                    {isRTL
+                                        ? `إرجاع أو استبدال خلال ${STANDARD_RETURN_WINDOW_DAYS} يومًا من الاستلام وفق سياسة الإرجاع`
+                                        : `Return or exchange within ${STANDARD_RETURN_WINDOW_DAYS} days of delivery under the return policy`}
+                                </Link>
+                            </p>
                         </div>
 
                         {/* Purchase CTAs — Hidden when Out of Stock */}
@@ -902,7 +919,7 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                     <div className="flex flex-shrink-0 items-center border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden bg-white dark:bg-gray-800">
                                         <button
                                             onClick={() => { const nq = Math.max(1, quantity - 1); setQuantity(nq); }}
-                                            className="px-2.5 sm:px-5 py-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors font-bold text-lg"
+                                            className="min-w-[44px] px-2.5 sm:px-5 py-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors font-bold text-lg"
                                             aria-label={isRTL ? 'تقليل الكمية' : 'Decrease quantity'}
                                         >
                                             −
@@ -910,7 +927,7 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                         <span className="px-2 sm:px-5 py-3 font-bold text-lg min-w-[1.75rem] sm:min-w-[3rem] text-center">{quantity}</span>
                                         <button
                                             onClick={() => { const nq = quantity + 1; setQuantity(nq); }}
-                                            className="px-2.5 sm:px-5 py-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors font-bold text-lg"
+                                            className="min-w-[44px] px-2.5 sm:px-5 py-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors font-bold text-lg"
                                             aria-label={isRTL ? 'زيادة الكمية' : 'Increase quantity'}
                                         >
                                             +

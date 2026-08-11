@@ -8,6 +8,8 @@ import { ankerBestSellers, soundcoreBestSellers } from '@/components/products/Be
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { resolveMinPriceToken } from '@/lib/meta-price-token';
 import { isRecallAffectedSlug, isRecallStockVerifiedOutsideScope } from '@/lib/merchant-product-data';
+import { getArticlesForCategory } from '@/lib/blog-category-bridge';
+import { governorates, COVERAGE_GOVERNORATE_SLUGS } from '@/data/governorates';
 
 /**
  * The Joyroom car-accessories route is an umbrella landing page. Products keep
@@ -146,7 +148,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function DynamicCategoryPage({ params }: Props) {
-    const { brand, category } = await params;
+    const { locale, brand, category } = await params;
     const brandKey = brand.toLowerCase();
     const categoryKey = category.toLowerCase();
 
@@ -219,6 +221,24 @@ export default async function DynamicCategoryPage({ params }: Props) {
         },
     }));
 
+    // Editorial + coverage links, resolved here rather than in the client
+    // component: getArticlesForCategory reads the 172-entry blog index and
+    // COVERAGE_GOVERNORATES reads the 27-governorate table, neither of which
+    // has any business in the browser bundle. Only the handful of strings the
+    // template renders crosses the boundary — same projection rule applied to
+    // `initialProducts` above.
+    const relatedArticles = getArticlesForCategory(brandKey, categoryKey, locale, 3).map(a => ({
+        slug: a.slug,
+        title: a.title,
+        excerpt: a.excerpt,
+        readingTime: a.readingTime,
+    }));
+
+    const coverageLinks = COVERAGE_GOVERNORATE_SLUGS.flatMap(slug => {
+        const gov = governorates.find(g => g.slug === slug);
+        return gov ? [{ slug: gov.slug, name: locale === 'ar' ? gov.nameAr : gov.nameEn }] : [];
+    });
+
     return (
         <CategoryTemplate
             brand={data.brand}
@@ -229,6 +249,8 @@ export default async function DynamicCategoryPage({ params }: Props) {
             soundcoreData={data.soundcoreData}
             powerBankData={data.powerBankData}
             initialProducts={initialProducts}
+            relatedArticles={relatedArticles}
+            coverageLinks={coverageLinks}
         />
     );
 }

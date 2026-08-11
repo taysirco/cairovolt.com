@@ -105,6 +105,16 @@ export default async function GovernoratePage({ params }: PageProps) {
                 title: 'كابلات شحن',
                 text: 'اختر طرفي الكابل وقدرة الشحن ونقل البيانات والطول المناسب للاستخدام.',
             },
+            // Added when the catalogue stopped being charging-only. These pages
+            // described a charging-accessories store long after Soundcore and
+            // JBL audio shipped, so a reader in any governorate had no path
+            // from here to more than half the shelves.
+            {
+                href: `${prefix}/earbuds`,
+                icon: '🎧',
+                title: 'سماعات ومكبرات صوت',
+                text: 'ايربودز وسماعات رأس ومكبرات بلوتوث — قارن زمن البطارية وعزل الضوضاء ومقاومة الماء.',
+            },
         ]
         : [
             {
@@ -124,6 +134,12 @@ export default async function GovernoratePage({ params }: PageProps) {
                 icon: '🔌',
                 title: 'Charging cables',
                 text: 'Choose the connectors, charging rating, data support, and length you need.',
+            },
+            {
+                href: `${prefix}/earbuds`,
+                icon: '🎧',
+                title: 'Earbuds and speakers',
+                text: 'Earbuds, headphones, and Bluetooth speakers — compare battery life, noise cancelling, and water resistance.',
             },
         ];
 
@@ -303,7 +319,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                                 ? `ابدأ باحتياج أجهزتك، ثم افتح صفحة الموديل لمراجعة السعر والتوافر الحاليين قبل طلب التوصيل إلى ${governorate.nameAr}. لا يحدد رقم mAh وحده عدد الشحنات، ولا يضمن رقم الواط وحده أعلى سرعة.`
                                 : `Start with your device requirements, then check the model page for current price and availability before ordering to ${governorate.nameEn}. mAh alone does not determine charge count, and wattage alone does not guarantee maximum speed.`}
                         </p>
-                        <div className="mt-8 grid gap-5 md:grid-cols-3">
+                        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
                             {solutionLinks.map(solution => (
                                 <Link
                                     key={solution.href}
@@ -324,6 +340,23 @@ export default async function GovernoratePage({ params }: PageProps) {
                                 </Link>
                             ))}
                         </div>
+                        <p className="mt-6 text-sm leading-6 text-gray-600 dark:text-gray-400">
+                            {isArabic ? 'مكبرات الصوت المحمولة وسماعات الحفلات: ' : 'Portable and party speakers: '}
+                            <Link href={`${prefix}/jbl/speakers`} className="font-semibold text-blue-700 hover:underline dark:text-blue-300">
+                                {isArabic ? 'مكبرات JBL' : 'JBL speakers'}
+                            </Link>
+                            {isArabic ? ' و' : ', '}
+                            <Link href={`${prefix}/jbl/partybox`} className="font-semibold text-blue-700 hover:underline dark:text-blue-300">
+                                {isArabic ? 'بازوكا JBL PartyBox' : 'JBL PartyBox'}
+                            </Link>
+                            {isArabic ? ' و' : ', and '}
+                            <Link href={`${prefix}/soundcore/speakers`} className="font-semibold text-blue-700 hover:underline dark:text-blue-300">
+                                {isArabic ? 'مكبرات ساوندكور' : 'Soundcore speakers'}
+                            </Link>
+                            {isArabic
+                                ? ` — نفس تقدير التوصيل إلى ${governorate.nameAr}.`
+                                : ` — same delivery estimate to ${governorate.nameEn}.`}
+                        </p>
                     </div>
                 </section>
 

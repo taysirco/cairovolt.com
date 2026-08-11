@@ -15,6 +15,8 @@ import { MarkdownRenderer } from './ui/MarkdownRenderer';
 import { trackWhatsappClick } from '@/lib/analytics';
 import { getDiscountInfo } from '@/lib/pricing-display';
 import { localizeArabicBrandContent, localizeArabicBrandNames, localizeArabicFields } from '@/lib/arabic-brand-names';
+import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { STANDARD_RETURN_WINDOW_DAYS } from '@/lib/merchant-product-data';
 
 const CategoryComparisonTable = dynamic(() => import('./content/ProductGuides').then(mod => mod.CategoryComparisonTable), {
     loading: () => <div className="animate-pulse h-64 bg-gray-100 dark:bg-gray-800 rounded-xl mb-12"></div>
@@ -40,6 +42,20 @@ interface Product {
     };
 }
 
+/** One editorial link, already localised server-side. */
+interface RelatedArticle {
+    slug: string;
+    title: string;
+    excerpt: string;
+    readingTime: number;
+}
+
+/** One governorate chip, already localised server-side. */
+interface CoverageLink {
+    slug: string;
+    name: string;
+}
+
 interface CategoryTemplateProps {
     brand: 'Anker' | 'Joyroom' | 'Soundcore' | 'JBL';
     brandColor: 'blue' | 'red' | 'orange';
@@ -49,6 +65,13 @@ interface CategoryTemplateProps {
     soundcoreData?: SoundcoreData;
     powerBankData?: PowerBankData;
     initialProducts?: Product[];
+    /**
+     * Resolved on the server so neither the 172-entry blog index nor the
+     * 27-governorate table is shipped to the browser — same projection
+     * discipline the product list already follows.
+     */
+    relatedArticles?: RelatedArticle[];
+    coverageLinks?: CoverageLink[];
 }
 
 // Category slug to translation key mapping
@@ -76,7 +99,9 @@ export default function CategoryTemplate({
     categoryInfo,
     soundcoreData,
     powerBankData,
-    initialProducts = []
+    initialProducts = [],
+    relatedArticles = [],
+    coverageLinks = []
 }: CategoryTemplateProps) {
     const locale = useLocale();
     const tCat = useTranslations('Categories');
@@ -817,6 +842,122 @@ export default function CategoryTemplate({
                     variant="card"
                     maxLinks={4}
                 />
+
+                {/* ═══════════════════════════════════════════════════════ */}
+                {/* Related reading — the first consumer of the article    */}
+                {/* graph that src/data/blog has always declared.          */}
+                {/* Resolved server-side; empty array renders nothing.     */}
+                {/* ═══════════════════════════════════════════════════════ */}
+                {relatedArticles.length > 0 && (
+                    <section className="mt-16" aria-labelledby="category-reading-heading">
+                        <h2 id="category-reading-heading" className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
+                            {isRTL ? `اقرأ قبل ما تشتري ${translatedCategory}` : `Read before buying ${translatedCategory.toLowerCase()}`}
+                        </h2>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            {relatedArticles.map(article => (
+                                <Link
+                                    key={article.slug}
+                                    href={locale === 'ar' ? `/blog/${article.slug}` : `/en/blog/${article.slug}`}
+                                    className="block p-5 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:border-blue-400 hover:shadow-md transition"
+                                >
+                                    <span className="inline-block text-xs font-medium text-blue-600 dark:text-blue-400 mb-2">
+                                        {isRTL ? `${article.readingTime} دقائق قراءة` : `${article.readingTime} min read`}
+                                    </span>
+                                    <h3 className="font-bold text-gray-900 dark:text-white mb-2 leading-snug">
+                                        {article.title}
+                                    </h3>
+                                    <p className="text-sm text-gray-600 dark:text-gray-400 line-clamp-3">
+                                        {article.excerpt}
+                                    </p>
+                                </Link>
+                            ))}
+                        </div>
+                    </section>
+                )}
+
+                {/* ═══════════════════════════════════════════════════════ */}
+                {/* Delivery, returns and coverage.                        */}
+                {/*                                                        */}
+                {/* These are FACTS, not copy, so they are stated on every */}
+                {/* category page rather than rotated like the trust box   */}
+                {/* above: a buyer comparing shelves should not have to    */}
+                {/* find the one page in three that happens to name the    */}
+                {/* return window. It also gives the 27 governorate pages  */}
+                {/* their first inbound links from commerce — until now    */}
+                {/* /locations was reachable only from the sitemap.        */}
+                {/* ═══════════════════════════════════════════════════════ */}
+                <section className="mt-16 p-6 md:p-8 rounded-2xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800/50" aria-labelledby="category-delivery-heading">
+                    <h2 id="category-delivery-heading" className="text-xl font-bold mb-4 text-gray-900 dark:text-white">
+                        {isRTL ? 'التوصيل والإرجاع والتغطية' : 'Delivery, returns and coverage'}
+                    </h2>
+                    <dl className="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-6">
+                        <div>
+                            <dt className="text-sm text-gray-500 dark:text-gray-400 mb-1">
+                                {isRTL ? 'الشحن المجاني' : 'Free shipping'}
+                            </dt>
+                            <dd className="font-semibold text-gray-900 dark:text-white">
+                                {isRTL
+                                    ? `للطلبات من ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} جنيه`
+                                    : `On orders from ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} EGP`}
+                            </dd>
+                        </div>
+                        <div>
+                            <dt className="text-sm text-gray-500 dark:text-gray-400 mb-1">
+                                {isRTL ? 'الإرجاع' : 'Returns'}
+                            </dt>
+                            <dd className="font-semibold text-gray-900 dark:text-white">
+                                {isRTL
+                                    ? `خلال ${STANDARD_RETURN_WINDOW_DAYS} يومًا وفق الشروط المنشورة`
+                                    : `Within ${STANDARD_RETURN_WINDOW_DAYS} days, subject to the published terms`}
+                            </dd>
+                        </div>
+                        <div>
+                            <dt className="text-sm text-gray-500 dark:text-gray-400 mb-1">
+                                {isRTL ? 'الدفع' : 'Payment'}
+                            </dt>
+                            <dd className="font-semibold text-gray-900 dark:text-white">
+                                {isRTL ? 'الدفع عند الاستلام للطلبات المؤهلة' : 'Cash on delivery for eligible orders'}
+                            </dd>
+                        </div>
+                    </dl>
+
+                    {coverageLinks.length > 0 && (
+                        <>
+                            <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                                {isRTL
+                                    ? 'مواعيد التوصيل ورسوم الشحن تختلف حسب المحافظة — راجع تقدير عنوانك:'
+                                    : 'Delivery estimates and shipping fees differ by governorate — check the estimate for your address:'}
+                            </p>
+                            <ul className="flex flex-wrap gap-2 mb-4">
+                                {coverageLinks.map(area => (
+                                    <li key={area.slug}>
+                                        <Link
+                                            href={locale === 'ar' ? `/locations/${area.slug}` : `/en/locations/${area.slug}`}
+                                            className="inline-block px-3 py-1.5 rounded-full text-sm bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:border-blue-400 transition"
+                                        >
+                                            {area.name}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </>
+                    )}
+
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
+                        {isRTL ? 'التفاصيل الكاملة: ' : 'Full details: '}
+                        <Link href={locale === 'ar' ? '/shipping' : '/en/shipping'} className="text-blue-600 dark:text-blue-400 hover:underline">
+                            {isRTL ? 'سياسة الشحن' : 'Shipping policy'}
+                        </Link>
+                        {' · '}
+                        <Link href={locale === 'ar' ? '/return-policy' : '/en/return-policy'} className="text-blue-600 dark:text-blue-400 hover:underline">
+                            {isRTL ? 'سياسة الإرجاع' : 'Return policy'}
+                        </Link>
+                        {' · '}
+                        <Link href={locale === 'ar' ? '/warranty' : '/en/warranty'} className="text-blue-600 dark:text-blue-400 hover:underline">
+                            {isRTL ? 'الضمان' : 'Warranty'}
+                        </Link>
+                    </p>
+                </section>
 
                 {/* CTA Section */}
                 <div className={`mt-16 p-8 rounded-2xl bg-gradient-to-r ${brandColorClass} text-white text-center`}>
