@@ -65,7 +65,7 @@ Encore Essential وClub 120 وStage 320 بيشتغلوا على بطارية أ�
                         },
                         {
                             question: 'هل الصوت يكفي فرح شارع؟',
-                            answer: 'حسب الواط المعلن من JBL: موديل زي Stage 320 (240 واط) بيغطي تجمع متوسط في مكان مفتوح، وPartyBox 1000 (1100 واط) معمول للمساحات الكبيرة والقاعات. المساحة والضوضاء المحيطة وعدد الناس بيفرقوا — للفرح الكبير فعلاً، ربط أكتر من سماعة متوافقة أو الموديل الأكبر أضمن من رفع الصوت لآخره.'
+                            answer: 'الاختيار بيتحدد بحجم المكان وعدد الناس مش بالواط لوحده. القاعدة العملية: قعدة بيت أو رووف لحد 30-40 فرد → Encore Essential (100 واط معلنة، 20,099 ج). فرح صالة أو كافيه لحد 100 فرد → [Club 120](/jbl/partybox/jbl-partybox-club-120) (160 واط، 20,949 ج) أو [Stage 320](/jbl/partybox/jbl-partybox-stage-320) (240 واط، 29,449 ج) — والاتنين بطاريتهم بتتبدل يعني مفيش انقطاع نص الفرح، وStage 320 بعجل ويد تليسكوبية لأن وزنها 16.5 كجم. فرح شارع أو قاعة كبيرة أو شغل DJ → [PartyBox 1000](/jbl/partybox/jbl-partybox-1000) (1,100 واط، 65,999 ج) بس خد بالك إنها كهربا بس من غير بطارية، فلازم مصدر كهرباء ثابت. وحاجتين بيفرقوا أكتر من الواط: المكان المفتوح بيبلع الصوت أكتر من القاعة المقفولة، ورفع الصوت لآخره بيشوّه — الأفضل موديل أكبر. ولو محتاج كلمة العريس أو كاريوكي، ضيف [طقم المايكات اللاسلكية](/jbl/partybox/jbl-partybox-wireless-mic) (5,949 ج، مايكين بمدى معلن 30 متر).'
                         },
                         {
                             question: 'إزاي أوصل مايك على البازوكا؟',
@@ -148,7 +148,7 @@ The Encore Essential, Club 120, and Stage 320 run on battery or AC; the Club 120
                         },
                         {
                             question: 'Is the sound enough for a street wedding?',
-                            answer: 'Going by JBL\'s listed wattage: a model like the Stage 320 (240W) covers a mid-size outdoor gathering, while the PartyBox 1000 (1100W) targets large spaces and halls. Space, ambient noise, and crowd size all matter — for a genuinely large event, linking compatible speakers or stepping up a model beats maxing the volume.'
+                            answer: 'The choice is set by room size and headcount, not wattage alone. The practical rule: a home or rooftop gathering of 30-40 people → Encore Essential (a listed 100W, 20,099 EGP). A hall or cafe up to about 100 people → [Club 120](/en/jbl/partybox/jbl-partybox-club-120) (160W, 20,949 EGP) or [Stage 320](/en/jbl/partybox/jbl-partybox-stage-320) (240W, 29,449 EGP) — both take a swappable battery so the party does not stop mid-way, and the Stage 320 rides on wheels with a telescopic handle because it weighs 16.5 kg. A street wedding, a large hall or DJ work → [PartyBox 1000](/en/jbl/partybox/jbl-partybox-1000) (1,100W, 65,999 EGP), but note it is mains-powered with no battery, so it needs a fixed power source. Two things matter more than watts: an open space absorbs sound far more than an enclosed hall, and pushing any speaker to maximum distorts it — a larger model is the better answer. If you need speeches or karaoke, add the [wireless mic set](/en/jbl/partybox/jbl-partybox-wireless-mic) (5,949 EGP, two mics with a listed 30 m range).'
                         },
                         {
                             question: 'How do I connect a microphone?',

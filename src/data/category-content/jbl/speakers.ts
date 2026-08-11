@@ -69,7 +69,20 @@ export const jbl_speakers_content: CategoryContent = {
 
 الخلاصة: ميزانية أقل وقعدات قصيرة → Flip 6. أحدث بروتوكولات بنفس الحجم → Flip 7. يوم كامل بره البيت → Charge 6.
 `
-                }
+                },
+                {
+                    title: 'Charge 5 ولا Charge 6؟ الفرق بـ2,150 جنيه',
+                    content: `
+الفرق في السعر عندنا 2,150 جنيه (6,999 مقابل 9,149)، واللي بتشتريه بالفرق ده حسب المواصفات المعلنة من JBL:
+
+- **البطارية:** 20 ساعة → 24 ساعة (+4 ساعات بوضع Playtime Boost في Charge 6).
+- **مقاومة الماء:** IP67 → IP68، وزيادة تصنيف ضد السقوط من متر — وده بيعالج السبب الأشهر لموت السبيكرات فعليًا: الوقعة من على الترابيزة مش الغرق.
+- **الربط:** PartyBoost على بلوتوث 5.1 → Auracast على 5.4. ودي مهمة لو عندك سبيكر JBL تاني: Charge 6 مابتتربطش مع Charge 5 ولا Flip 6 — الجيلين مش بيتكلموا مع بعض.
+- **الخرج:** 40 واط → 45 واط مع معالجة AI Sound Boost حسب وصف المصنّع.
+
+الخلاصة: لو ده أول سبيكر JBL ليك وهتاخده البحر والرحلات، [Charge 6](/jbl/speakers/jbl-charge-6) تستاهل الفرق. ولو عندك بالفعل سبيكرات PartyBoost وعايز تربطهم، أو الميزانية هي القيد، [Charge 5](/jbl/speakers/jbl-charge-5) لسه نفس الفكرة الأساسية — 20 ساعة وباور بانك 7,500 مللي أمبير — بـ2,150 جنيه أقل.
+`
+                },
             ],
             faq: [
                 {
@@ -169,7 +182,20 @@ A quick comparison using JBL's listed specifications:
 
 Bottom line: tighter budget and shorter sessions → Flip 6. Newest protocols in the same size → Flip 7. A full day away from power → Charge 6.
 `
-                }
+                },
+                {
+                    title: 'Charge 5 or Charge 6? What the 2,150 EGP buys',
+                    content: `
+The price gap here is 2,150 EGP (6,999 vs 9,149). What it buys, per JBL's listed specs:
+
+- **Battery:** 20h → 24h (+4h in Charge 6's Playtime Boost mode).
+- **Water rating:** IP67 → IP68, plus a 1-metre drop rating — which addresses how portable speakers actually die: the fall off a table, not immersion.
+- **Linking:** PartyBoost on Bluetooth 5.1 → Auracast on 5.4. This matters if you already own a JBL: the Charge 6 will not link with a Charge 5 or Flip 6 — the two generations do not talk to each other.
+- **Output:** 40W → 45W with AI Sound Boost processing, per the manufacturer's description.
+
+Bottom line: if this is your first JBL and it is going to the beach and on trips, the [Charge 6](/en/jbl/speakers/jbl-charge-6) earns the difference. If you already own PartyBoost speakers you want to pair, or budget is the constraint, the [Charge 5](/en/jbl/speakers/jbl-charge-5) is still the same core idea — 20 hours and a 7,500 mAh power bank — for 2,150 EGP less.
+`
+                },
             ],
             faq: [
                 {
