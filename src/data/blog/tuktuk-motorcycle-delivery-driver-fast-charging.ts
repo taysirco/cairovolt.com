@@ -375,7 +375,7 @@ export const tuktuk_motorcycle_delivery_driver_fast_charging: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt — With Authorized Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All original charging products for delivery drivers are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + product inspection before payment + 24/7 WhatsApp support. If you work in delivery and want to protect your phone and rating, browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/car-chargers" style="color:#166534;font-weight:600;">Car Chargers</a>.
+        All original charging products for delivery drivers are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + cash on delivery + 24/7 WhatsApp support. If you work in delivery and want to protect your phone and rating, browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/car-chargers" style="color:#166534;font-weight:600;">Car Chargers</a>.
     </p>
 </div>`,
             faq: [

@@ -164,7 +164,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت — كل اللي محتاجه لشيفتك</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل حوامل الموبايل وشواحن السيارة الأصلية لسائقي التوصيل متاحة بضمان <strong>18 شهر معتمد</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + فحص قبل الدفع + دعم واتساب 24/7. لو بتشتغل توصيل، الاستثمار في حامل وشاحن كويس بيحمي موبايلك وتقييمك ودخلك. تصفح <a href="/joyroom/car-holders" style="color:#166534;font-weight:600;">حوامل جوي روم</a> أو <a href="/anker/car-chargers" style="color:#166534;font-weight:600;">شواحن سيارة انكر</a>.
+        كل حوامل الموبايل وشواحن السيارة الأصلية لسائقي التوصيل متاحة بضمان <strong>18 شهر معتمد</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + دفع عند الاستلام + دعم واتساب 24/7. لو بتشتغل توصيل، الاستثمار في حامل وشاحن كويس بيحمي موبايلك وتقييمك ودخلك. تصفح <a href="/joyroom/car-holders" style="color:#166534;font-weight:600;">حوامل جوي روم</a> أو <a href="/anker/car-chargers" style="color:#166534;font-weight:600;">شواحن سيارة انكر</a>.
     </p>
 </div>`,
             faq: [
@@ -328,7 +328,7 @@ export const talabat_mrsool_delivery_driver_phone_holder_charger: BlogArticle = 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt — Everything You Need for Your Shift</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All original phone mounts and car chargers for delivery drivers are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + product inspection before payment + 24/7 WhatsApp support. If you work in delivery, investing in a quality mount and charger protects your phone, rating, and income. Browse <a href="/en/joyroom/car-holders" style="color:#166534;font-weight:600;">Joyroom Mounts</a> or <a href="/en/anker/car-chargers" style="color:#166534;font-weight:600;">Anker Car Chargers</a>.
+        All original phone mounts and car chargers for delivery drivers are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + cash on delivery + 24/7 WhatsApp support. If you work in delivery, investing in a quality mount and charger protects your phone, rating, and income. Browse <a href="/en/joyroom/car-holders" style="color:#166534;font-weight:600;">Joyroom Mounts</a> or <a href="/en/anker/car-chargers" style="color:#166534;font-weight:600;">Anker Car Chargers</a>.
     </p>
 </div>`,
             faq: [

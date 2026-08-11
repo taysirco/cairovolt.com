@@ -175,7 +175,7 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
 <ul>
     <li><strong>أصلية 100%:</strong> بضمان استبدال معتمد لمدة 18 شهراً ضد عيوب الصناعة.</li>
     <li><strong>توصيل سريع للغاية:</strong> شحن لكافة محافظات مصر خلال 24 إلى 48 ساعة فقط.</li>
-    <li><strong>معاينة المنتج قبل الدفع:</strong> تتيح لك سياسة المتجر فحص الشحنة خارجياً والتأكد من سلامتها بالكامل قبل تسليم المبلغ للمندوب.</li>
+    <li><strong>إرجاع خلال 14 يوم:</strong> لو المنتج مش مطابق أو فيه مشكلة، ترجّعه خلال 14 يوم من الاستلام وفق شروط سياسة الإرجاع المنشورة.</li>
 </ul>
 
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 تسوق سماعات أنكر الفاخرة بضمان 18 شهراً من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد العروض الحالية: <a href="/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">سماعة Soundcore Liberty 4 Pro بالشاشة</a> · <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">سماعة Liberty 4 NC الاقتصادية</a> · <a href="/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">سماعة الرأس Space One</a>.</p></div>` ,

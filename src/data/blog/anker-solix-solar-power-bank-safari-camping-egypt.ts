@@ -205,7 +205,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جهّز رحلتك من كايرو فولت — بضمان المتجر المكتوب</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل باور بانكات الرحلات ومحطات الطاقة المتنقلة متاحة بضمان <strong>18 شهر مكتوب</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + فحص قبل الدفع. لو بتخطط لرحلة كامبينج أو سفاري، تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
+        كل باور بانكات الرحلات ومحطات الطاقة المتنقلة متاحة بضمان <strong>18 شهر مكتوب</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + دفع عند الاستلام. لو بتخطط لرحلة كامبينج أو سفاري، تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
     </p>
 </div>`,
             faq: [
@@ -411,7 +411,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt — With Authorized Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All trip power banks and portable power stations are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + product inspection before payment. Planning a camping or safari trip? Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
+        All trip power banks and portable power stations are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + cash on delivery. Planning a camping or safari trip? Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
     </p>
 </div>`,
             faq: [

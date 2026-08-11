@@ -146,7 +146,7 @@ export const soundcore_r100_specs_problems_solutions: BlogArticle = {
 <p>عند شرائك سماعة Soundcore R100 من موقعنا، ستحصل على الميزات التالية لحماية استثمارك:</p>
 <ul>
     <li><strong>ضمان استبدال معتمد لمدة 18 شهراً:</strong> يغطي الضمان أي عيوب صناعة أو تلف مفاجئ بالبطارية والميكروفون خلال فترة الضمان.</li>
-    <li><strong>شحن سريع ومعاينة قبل الدفع:</strong> نقوم بشحن الطلب ليصلك خلال 24 إلى 48 ساعة فقط لجميع المحافظات، مع السماح الكامل بفتح الشحنة وفحصها خارجياً قبل سداد قيمتها للمندوب للتأكد من المنتج الأصلي.</li>
+    <li><strong>شحن سريع ودفع عند الاستلام:</strong> نقوم بشحن الطلب ليصلك خلال 24 إلى 48 ساعة فقط لجميع المحافظات، وتدفع كاش عند الاستلام، ومعاك سياسة إرجاع خلال 14 يوم لو المنتج مش مطابق.</li>
 </ul>
 
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 عروض مميزة على سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد المنتجات الأصلية: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i البديلة</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الصغيرة</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة R50i NC بعزل الضوضاء</a>.</p></div>` ,

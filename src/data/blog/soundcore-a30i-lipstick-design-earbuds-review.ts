@@ -147,7 +147,7 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
 <p>عند شرائك سماعة Soundcore A30i من موقعنا، ستحصلين على تجربة تسوق موثوقة بالكامل تشمل:</p>
 <ul>
     <li><strong>ضمان استبدال فوري لمدة 18 شهراً:</strong> لحمايتكِ ضد أي عيوب تصنيعية أو أعطال فنية بالبطارية أو الميكروفون.</li>
-    <li><strong>توصيل سريع لباب البيت:</strong> شحن لجميع محافظات مصر خلال 24 إلى 48 ساعة فقط، مع إمكانية فحص الطرد والتحقق من سلامته الخارجية قبل الدفع للمندوب.</li>
+    <li><strong>توصيل سريع لباب البيت:</strong> شحن لجميع محافظات مصر خلال 24 إلى 48 ساعة فقط، وتدفع كاش عند الاستلام، ومعاك إرجاع خلال 14 يوم وفق سياسة الإرجاع المنشورة.</li>
 </ul>
 
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 عروض حصرية على سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">أفضل الموديلات بأفضل الأسعار: <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore A30i الأنيقة</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a>.</p></div>` ,

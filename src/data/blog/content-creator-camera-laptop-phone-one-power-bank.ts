@@ -104,7 +104,7 @@ export const content_creator_camera_laptop_phone_one_power_bank: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">🛒 احصل على شريك تصويرك الأصلي الآن</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        في كايرو فولت، نوفر أحدث إصدارات باور بانك **Anker 737** و **Anker Prime** الأصلية 100% بضمان معتمد 18 شهر ضد عيوب الصناعة. التوصيل سريع جداً خلال 24-48 ساعة لجميع المحافظات مع إمكانية فحص المنتج وتجربته على أجهزتك قبل الدفع للتأكد من توافقه الكامل مع كاميرتك ولابتوبك.
+        في كايرو فولت، نوفر أحدث إصدارات باور بانك **Anker 737** و **Anker Prime** الأصلية 100% بضمان معتمد 18 شهر ضد عيوب الصناعة. التوصيل سريع جداً خلال 24-48 ساعة لجميع المحافظات والدفع كاش عند الاستلام، ولو اتضح إنه مش متوافق مع أجهزتك ترجّعه خلال 14 يوم وفق سياسة الإرجاع مع كاميرتك ولابتوبك.
     </p>
 </div>
 
@@ -210,7 +210,7 @@ export const content_creator_camera_laptop_phone_one_power_bank: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">🛒 Get Your Original Production Companion Now</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        At CairoVolt, we supply 100% genuine **Anker 737** and **Anker Prime** models with an official local 18-month warranty. Shipping takes just 24-48 hours to all governorates, with cash on delivery and full inspection allowed before paying to ensure absolute compatibility with your camera and laptop.
+        At CairoVolt, we supply 100% genuine **Anker 737** and **Anker Prime** models with an official local 18-month warranty. Shipping takes just 24-48 hours to all governorates, with cash on delivery, and if it turns out not to suit your camera and laptop you can return it within 14 days under the published return policy.
     </p>
 </div>
 

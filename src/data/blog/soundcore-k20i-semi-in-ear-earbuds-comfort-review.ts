@@ -178,7 +178,7 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
 <ul>
     <li><strong>أصلية 100%:</strong> بضمان استبدال حقيقي ومعتمد لمدة 18 شهراً ضد عيوب الصناعة.</li>
     <li><strong>توصيل سريع للغاية:</strong> شحن لكافة المحافظات المصرية خلال 24 إلى 48 ساعة فقط.</li>
-    <li><strong>معاينة وفحص قبل الدفع:</strong> تتيح لك سياسة المتجر فحص الشحنة خارجياً والتأكد من سلامتها بالكامل قبل تسليم المبلغ للمندوب.</li>
+    <li><strong>إرجاع خلال 14 يوم:</strong> لو المنتج مش مطابق أو فيه مشكلة، ترجّعه خلال 14 يوم من الاستلام وفق شروط سياسة الإرجاع المنشورة.</li>
 </ul>
 
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 تسوق سماعات أنكر الفاخرة بضمان 18 شهراً من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد العروض الحالية: <a href="/soundcore/audio/anker-soundcore-k20i" style="color:#2563eb;font-weight:600;">سماعة Soundcore K20i المفتوحة</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a> · <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الشهيرة</a>.</p></div>` ,
