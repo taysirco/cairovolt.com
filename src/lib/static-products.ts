@@ -288,7 +288,7 @@ export function getSmartRelatedProducts(product: StaticProduct, maxProducts: num
     const usedSlugs = new Set([product.slug, ...smartProducts.map(p => p.slug)]);
     const usedCategories = new Set([product.categorySlug, ...smartProducts.map(p => p.categorySlug)]);
 
-    const fallbackProducts = staticProducts
+    const ranked = staticProducts
         .filter(p =>
             p.status === 'active' &&
             isStorefrontPromotableSlug(p.slug) &&
@@ -300,8 +300,19 @@ export function getSmartRelatedProducts(product: StaticProduct, maxProducts: num
             // Prefer featured, then cheaper
             if (a.featured !== b.featured) return b.featured ? 1 : -1;
             return a.price - b.price;
-        })
-        .slice(0, maxProducts - smartProducts.length);
+        });
+
+    // Take one per category. `usedCategories` was computed once, so slicing the
+    // ranked list wholesale only kept picks out of the MAIN product's category —
+    // it happily returned two items from the same category as each other (the
+    // stylus page shipped a USB-C cable and a Lightning cable side by side).
+    const fallbackProducts: StaticProduct[] = [];
+    for (const candidate of ranked) {
+        if (fallbackProducts.length >= maxProducts - smartProducts.length) break;
+        if (usedCategories.has(candidate.categorySlug)) continue;
+        usedCategories.add(candidate.categorySlug);
+        fallbackProducts.push(candidate);
+    }
 
     return [...smartProducts, ...fallbackProducts];
 }

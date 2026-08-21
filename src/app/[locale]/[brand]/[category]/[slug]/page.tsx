@@ -415,6 +415,7 @@ export default async function ProductPage({ params }: Props) {
                     pairing: bp.pairing,
                     disclosure: bp.disclosure,
                 })),
+                compatBlocked: result.compatBlocked,
                 bundleDiscount: result.bundleDiscount,
                 fullBundlePrice: result.fullBundlePrice,
                 dailyCost: result.dailyCost,

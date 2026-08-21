@@ -234,6 +234,25 @@ const complementaryMatrix: Record<string, Array<{
         { targetCategory: 'speakers', slot: 'accessory', reason: { ar: 'سبيكر صغير للخروجات اللي مش محتاجة الحجم ده', en: 'A compact speaker for outings that do not need this size' } },
         { targetCategory: 'earbuds', slot: 'accessory', reason: { ar: 'ايربودز للاستماع لوحدك بعد الحفلة', en: 'Earbuds for private listening after the party' } },
     ],
+    // The accessories shelf is stylus pens today (Anker A7166, Joyroom JR-X15).
+    // A stylus ships with its own cable and is otherwise self-contained, so
+    // nothing here is 'essential' — claiming otherwise would be an upsell, not a
+    // recommendation. The charging slots carry compatBasis so a magnetically
+    // charged pen (chargePort 'none') is never offered a cable or a charger.
+    'accessories': [
+        {
+            targetCategory: 'wall-chargers', slot: 'accessory', compatBasis: 'usb-c-charging',
+            reason: { ar: 'العلبة فيها كابل بس من غير شاحن — ده يشحن القلم والايباد', en: 'The box has a cable but no charger — this powers the pen and the iPad' },
+        },
+        {
+            targetCategory: 'cables', slot: 'accessory', compatBasis: 'usb-c-charging',
+            reason: { ar: 'كابل USB-C زيادة تسيبه في شنطة المحاضرات', en: 'A spare USB-C cable to leave in your lecture bag' },
+        },
+        {
+            targetCategory: 'power-banks', slot: 'accessory',
+            reason: { ar: 'باور بانك يكمّل الايباد والقلم في يوم محاضرات طويل', en: 'A power bank to keep the iPad and pen going through a long day' },
+        },
+    ],
     'smart-watches': [
         { targetCategory: 'wall-chargers', slot: 'essential', reason: { ar: 'شاحن سريع للساعة', en: 'A fast charger for the watch' } },
         { targetCategory: 'power-banks', slot: 'accessory', reason: { ar: 'باور بانك لشحن الساعة بره', en: 'A power bank to charge on the go' } },
@@ -268,6 +287,15 @@ export interface BundleProductOf<T extends CatalogProductCore> {
 
 export interface BundleResultOf<T extends CatalogProductCore> {
     bundleProducts: BundleProductOf<T>[];
+    /**
+     * True when a slot was skipped because the product DECLARED it cannot take
+     * that accessory (e.g. a stylus that charges magnetically, a wired earphone).
+     * That is a compatibility fact, so the generic related-products fallback must
+     * not override it with an unreasoned pick. A slot that merely found nothing
+     * inside its price cap does NOT set this — the fallback still runs there, so
+     * cheap products keep the cross-sell they have always had.
+     */
+    compatBlocked: boolean;
     bundleDiscount: number;        // absolute discount amount in EGP
     totalBeforeDiscount: number;    // sum of all bundle products prices (without main)
     totalAfterDiscount: number;     // total after 5% bundle discount
@@ -311,10 +339,24 @@ export function getSmartBundleProductsFrom<T extends CatalogProductCore>(
     };
     const mainPort = portSignalOf(product);
 
+    // A DECLARED chargePort is authoritative; a missing one asserts nothing.
+    // `compatBasis: 'usb-c-charging'` used to gate the cross-brand pass only, so
+    // a same-brand Lightning cable could still ride along with a USB-C-only
+    // device, and a pen that charges magnetically (chargePort 'none') could be
+    // offered a charging cable it has no port for. Now the declaration is
+    // honoured on BOTH passes — but only when the product actually makes one, so
+    // items that simply have no chargePort field keep the behaviour they had.
+    const declaresPort = product.chargePort !== undefined;
+    const chargingSlotAllowed = !declaresPort || mainPort === 'usb-c';
+    let compatBlocked = false;
+
     // For each slot in the matrix (essential first, then accessory)
     for (const entry of matrix) {
         if (bundleProducts.length >= 2) break;
         if (usedCategories.has(entry.targetCategory)) continue;
+        // Never suggest a USB-C charging accessory to something that declared it
+        // charges another way, or not at all.
+        if (entry.compatBasis === 'usb-c-charging' && !chargingSlotAllowed) { compatBlocked = true; continue; }
 
         // Running total of already-picked complements — the whole combo of
         // add-ons must never exceed the main product's own price.
@@ -371,6 +413,15 @@ export function getSmartBundleProductsFrom<T extends CatalogProductCore>(
                 }
                 isCrossBrand = candidates.length > 0;
             }
+        }
+
+        // A declared port makes cable pairing a factual claim, not a preference:
+        // filter mismatches out entirely rather than only penalising them in the
+        // score, so a Lightning cable can never be the last option standing next
+        // to a device that told us it charges over USB-C.
+        if (entry.targetCategory === 'cables' && declaresPort && mainPort) {
+            const matched = candidates.filter(c => portSignalOf(c) === mainPort);
+            if (matched.length > 0) candidates = matched;
         }
 
         if (candidates.length === 0) continue;
@@ -455,6 +506,7 @@ export function getSmartBundleProductsFrom<T extends CatalogProductCore>(
 
     return {
         bundleProducts,
+        compatBlocked,
         bundleDiscount,
         totalBeforeDiscount: bundleItemsTotal,
         totalAfterDiscount: bundleItemsTotal - bundleDiscount,

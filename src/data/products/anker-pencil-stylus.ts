@@ -12,6 +12,10 @@ export const anker_pencil_stylus = {
     stock: 750,
     featured: true,
     status: "active",
+    // A7166 charges by magnetic attachment to the iPad rail and has NO port of
+    // its own — the product copy and FAQ both say so. Declaring it keeps the
+    // Golden Combo from offering this pen a charging cable it cannot use.
+    chargePort: "none",
 
     images: [
  { id: "img_1", url: "/products/anker/anker-pencil-stylus/anker-pencil-stylus-main-view-cairovolt.webp", alt: "Anker Pencil Pro A7166 iPad stylus tilt sensitivity palm rejection magnetic - product view in Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },

@@ -39,6 +39,7 @@ interface BundleProductData {
 
 interface BundleData {
     bundleProducts: BundleProductData[];
+    compatBlocked?: boolean;
     bundleDiscount: number;
     fullBundlePrice: number;
     dailyCost: number;
@@ -62,6 +63,12 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
         if (bundleData && bundleData.bundleProducts.length > 0) {
             return bundleData.bundleProducts;
         }
+        // The engine skipped a slot because this product DECLARED it cannot take
+        // that accessory — respect the fact instead of inventing a combo. The
+        // generic fallback ranks by "featured, then cheapest" with no
+        // compatibility reasoning, which put a wall charger AND a car charger
+        // next to a stylus that charges magnetically and has no port at all.
+        if (bundleData?.compatBlocked) return [];
         // Fallback: wrap relatedProducts without reasons
         return relatedProducts.slice(0, 2).map(p => ({
             product: p,
