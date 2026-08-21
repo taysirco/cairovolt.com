@@ -25,7 +25,7 @@ export const anker_pencil_stylus = {
             { id: "img_9", url: "/products/anker/anker-pencil-stylus/anker-pencil-stylus-alternate-color-cairovolt.webp", alt: "Anker Pencil Pro A7166 alternate color option white - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["anker-a2741-charger-30w", "anker-a8050-usb-c-cable", "anker-powerport-20w", "anker-nano-45w", "soundcore-p20i-earbuds", "anker-powercore-10000"],
+    relatedProducts: ["joyroom-jr-x15-pro-stylus-pen", "anker-a2741-charger-30w", "anker-a8050-usb-c-cable", "anker-powerport-20w", "anker-nano-45w", "soundcore-p20i-earbuds", "anker-powercore-10000"],
 
     translations: {
         en: {

@@ -223,6 +223,7 @@ export const brandData: Record<string, BrandData> = {
 description: { en: 'JR-FT3 — IP68, sports modes', ar: 'JR-FT3 — IP68 وأوضاع رياضية' }, href: '/joyroom/smart-watches', icon: 'watch', volume: { en: 'Browse watch models', ar: 'تصفّح موديلات الساعات' }, badge: { en: 'Watches', ar: 'ساعات' } },
             { title: { en: 'Car Holders', ar: 'حوامل سيارة جوي روم' }, description: { en: 'Mounting type and fit vary by model', ar: 'نوع التثبيت والتوافق حسب الموديل' }, href: '/joyroom/car-holders', icon: 'compass', volume: { en: 'Browse holder options', ar: 'تصفّح خيارات الحوامل' } },
             { title: { en: 'Car Accessories', ar: 'إكسسوارات سيارة جوي روم' }, description: { en: 'Chargers, mounts, and related accessories', ar: 'شواحن وحوامل وملحقات مرتبطة' }, href: '/joyroom/car-accessories', icon: 'car', volume: { en: 'Browse car accessories', ar: 'تصفّح إكسسوارات السيارة' } },
+            { title: { en: 'Accessories', ar: 'إكسسوارات جوي روم' }, description: { en: 'JR-X15 Pro iPad stylus — tilt, magnetic parking, USB-C', ar: 'قلم ايباد JR-X15 Pro — ميل وتثبيت مغناطيسي وشحن USB-C' }, href: '/joyroom/accessories', icon: 'sparkles', volume: { en: 'Check iPad compatibility', ar: 'تحقق من توافق الايباد' }, badge: { en: 'iPad stylus', ar: 'قلم ايباد' } },
         ],
         whySection: {
             title: { en: 'Why Choose Joyroom?', ar: 'لماذا تختار جوي روم؟' },

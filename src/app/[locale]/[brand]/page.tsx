@@ -129,6 +129,7 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
                 '/joyroom/smart-watches': 'تحقق من توافق التطبيق والهاتف والبطارية والحساسات وتصنيف مقاومة الماء؛ بيانات النشاط للاستخدام العام وليست تشخيصًا طبيًا.',
                 '/joyroom/car-holders': 'قارن مكان التثبيت وأبعاد الهاتف ونوع الإمساك أو المغناطيس، وتأكد من ثبات الحامل دون حجب الرؤية أو أدوات القيادة.',
                 '/joyroom/car-accessories': 'تصفح شواحن وحوامل السيارة، وطابق قدرة الشحن وطريقة التثبيت والمقاس مع السيارة والهاتف.',
+                '/joyroom/accessories': 'قلم JR-X15 Pro للايباد: حساسية ميل معلنة وتثبيت مغناطيسي للحفظ وشحن USB-C وأطراف بديلة. راجع رقم A بتاع الايباد قبل الطلب.',
             } as Record<string, string>,
             faq: [
                 { question: 'لماذا يجب مراجعة رقم موديل جوي روم؟', answer: 'لأن الاسم التجاري الواحد قد يشمل إصدارات بمنافذ أو قدرة أو تطبيق وملحقات مختلفة. رقم الموديل ومواصفات صفحة المنتج هما الأدق عند المقارنة.' },
@@ -240,6 +241,7 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
             '/joyroom/smart-watches': 'Check phone/app compatibility, battery, sensors, and water rating; activity data is for general wellness rather than medical diagnosis.',
             '/joyroom/car-holders': 'Compare mounting position, phone dimensions, and magnetic or clamp retention without obstructing the road or vehicle controls.',
             '/joyroom/car-accessories': 'Browse car chargers and mounts, matching output, mounting method, and dimensions to the vehicle and phone.',
+            '/joyroom/accessories': 'The JR-X15 Pro iPad stylus: vendor-stated tilt, magnetic parking on the iPad rail, USB-C charging and replaceable tips. Check your iPad A-number before ordering.',
         } as Record<string, string>,
         faq: [
             { question: 'Why should I check the exact Joyroom model number?', answer: 'A product family can include versions with different connectors, output, app support, and accessories. The model number and product-page specifications are the most reliable comparison points.' },

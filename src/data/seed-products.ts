@@ -106,6 +106,7 @@ import { jbl_tour_pro_2 } from './products/jbl-tour-pro-2';
 import { jbl_t110 } from './products/jbl-t110';
 import { jbl_t110bt } from './products/jbl-t110bt';
 import { soundcore_r60i_nc } from './products/soundcore-r60i-nc';
+import { joyroom_jr_x15_pro_stylus_pen } from './products/joyroom-jr-x15-pro-stylus-pen';
 import { anker_a1637_wukong_3_in_1_power_bank } from './products/anker-a1637-wukong-3-in-1-power-bank';
 import { anker_310_usb_c_lightning_cable } from './products/anker-310-usb-c-lightning-cable';
 import { anker_nano_45w_1c_pd } from './products/anker-nano-45w-1c-pd';
@@ -237,4 +238,5 @@ export const products = [
     jbl_t110,
     jbl_t110bt,
     soundcore_r60i_nc,
+    joyroom_jr_x15_pro_stylus_pen,
 ];

@@ -2420,6 +2420,29 @@ export const clientCatalog: ClientCatalogProduct[] = [
         }
     },
     {
+        "slug": "joyroom-jr-x15-pro-stylus-pen",
+        "sku": "JX01",
+        "brand": "Joyroom",
+        "categorySlug": "accessories",
+        "price": 1199,
+        "originalPrice": 1399,
+        "stock": 771,
+        "featured": true,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "Joyroom JR-X15 Pro Stylus Pen for iPad | Tilt | Magnetic Attach | USB-C 15-Min Charge"
+            },
+            "ar": {
+                "name": "قلم جوي روم JR-X15 Pro للايباد | حساسية ميل | تثبيت مغناطيسي | شحن USB-C في 15 دقيقة"
+            }
+        },
+        "image": {
+            "url": "/products/joyroom/joyroom-jr-x15-pro-stylus-pen/joyroom-jr-x15-pro-stylus-pen-main-view-cairovolt.webp",
+            "alt": "Joyroom JR-X15 Pro active capacitive stylus pen for iPad, white, USB-C port and LED status dots - CairoVolt Egypt"
+        }
+    },
+    {
         "slug": "anker-a1637-wukong-3-in-1-power-bank",
         "sku": "AP13",
         "brand": "Anker",

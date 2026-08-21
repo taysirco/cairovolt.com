@@ -19,6 +19,7 @@ import { joyroom_car_accessories_content } from './category-content/joyroom/car-
 import { joyroom_car_chargers_content } from './category-content/joyroom/car-chargers';
 import { joyroom_car_holders_content } from './category-content/joyroom/car-holders';
 import { joyroom_smart_watches_content } from './category-content/joyroom/smart-watches';
+import { joyroom_accessories_content } from './category-content/joyroom/accessories';
 // JBL — first-class brand (see JBL-STRATEGY.md)
 import { jbl_speakers_content } from './category-content/jbl/speakers';
 import { jbl_partybox_content } from './category-content/jbl/partybox';
@@ -52,5 +53,6 @@ export const categoryContent: Record<string, Record<string, import("./category-c
         'car-chargers': joyroom_car_chargers_content,
         'car-holders': joyroom_car_holders_content,
         'smart-watches': joyroom_smart_watches_content,
+        'accessories': joyroom_accessories_content,
     },
 };

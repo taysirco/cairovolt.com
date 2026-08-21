@@ -62,6 +62,6 @@ export const joyroom_type_c_to_type_c_cable = {
             ar: "قد يناسب JR-S-CC100 أجهزة USB-C المتوافقة بعد مطابقة تصنيف الطاقة والتيار والبيانات المطبوع مع الشاحن والجهاز. يعتمد الاختيار على هذه العلامات والطول والحالة والسعر والضمان الحالي."
         },
         meta: { keywords: "جوي روم usb-c cable, كابل usb-c, كابل جوي روم, جوي روم type c, وصلة جوي روم, joyroom JR-S-CC100, كابل شحن USB-PD, كابل جوي روم مصر, سعر كابل جوي روم, مواصفات كابل جوي روم", mainTerm: "joyroom usb-c cable" },
-        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-jr-x15-pro-stylus-pen", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
 
     };
