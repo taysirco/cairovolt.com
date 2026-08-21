@@ -150,6 +150,12 @@ const categoryKeyMap: Record<string, string> = {
     'headphones': 'headphones',
     'earbuds': 'earbuds',
     'partybox': 'partybox',
+    // These three routed shelves existed without a mapping, so every product on
+    // them fell through to Categories.other and rendered a breadcrumb reading
+    // "منتجات أخرى" / "Other Products". The message keys were already present.
+    'accessories': 'accessories',
+    'car-holders': 'carHolders',
+    'car-accessories': 'carAccessories',
 };
 
 export default function ProductPageClient({ product, relatedProducts = [], alsoBoughtProducts = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail, spin360FrameCount = 0 }: ProductPageClientProps) {

@@ -60,6 +60,9 @@ export default function Header() {
         { slug: 'wall-chargers', icon: 'plug', key: 'wallChargers' },
         { slug: 'cables', icon: 'link', key: 'cables' },
         { slug: 'car-chargers', icon: 'car', key: 'carChargers' },
+        // /anker/accessories is a routed shelf (the Pencil Pro A7166 lives there)
+        // but had no menu entry, so the page was unreachable from navigation.
+        { slug: 'accessories', icon: 'pencil', key: 'accessories' },
     ];
 
     // Soundcore audio sub-brand — surfaced separately in the dropdown so users
@@ -78,6 +81,7 @@ export default function Header() {
         { slug: 'smart-watches', icon: 'watch', key: 'smartWatches' },
         { slug: 'car-holders', icon: 'compass', key: 'carHolders' },
         { slug: 'car-accessories', icon: 'car', key: 'carAccessories' },
+        { slug: 'accessories', icon: 'pencil', key: 'accessories' },
     ];
 
     const jblCategories = [

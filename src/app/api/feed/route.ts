@@ -44,6 +44,15 @@ interface FeedProduct {
 
 // Google product taxonomy (full text paths) — only confidently-mapped categories;
 // google_product_category is optional, product_type always carries our own tree.
+//
+// EVERY value below must match a line in Google's official taxonomy BYTE-FOR-BYTE.
+// Merchant silently ignores a value that is not an exact taxonomy string, so an
+// invented-but-plausible path is worse than omitting the field. Three entries here
+// were exactly that and were emitting dead values on live offers:
+//   'Electronics > Communications > Telephony > … > Mobile Phone Mounts & Stands'  (no such node)
+//   'Electronics > Electronics Accessories > Wearable Technology'                  (no such node)
+// Validate any edit against the source of truth before shipping:
+//   curl -s https://www.google.com/basepages/producttype/taxonomy-with-ids.en-US.txt | grep -F '<the path>'
 const GOOGLE_CATEGORY: Record<string, string> = {
     'wall-chargers': 'Electronics > Electronics Accessories > Power > Power Adapters & Chargers',
     'car-chargers': 'Electronics > Electronics Accessories > Power > Power Adapters & Chargers',
@@ -52,12 +61,16 @@ const GOOGLE_CATEGORY: Record<string, string> = {
     'audio': 'Electronics > Audio > Audio Components > Headphones & Headsets',
     'speakers': 'Electronics > Audio > Audio Components > Speakers',
     // Previously unmapped → no google_product_category was emitted (Merchant tip).
-    'car-holders': 'Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Mounts & Stands',
-    'car-accessories': 'Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Mounts & Stands',
-    'smart-watches': 'Electronics > Electronics Accessories > Wearable Technology',
+    'car-holders': 'Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Stands',
+    'car-accessories': 'Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Stands',
+    // Google's taxonomy has exactly one watch node (201) and smartwatches live there.
+    'smart-watches': 'Apparel & Accessories > Jewelry > Watches',
     'headphones': 'Electronics > Audio > Audio Components > Headphones & Headsets',
     'earbuds': 'Electronics > Audio > Audio Components > Headphones & Headsets',
     'partybox': 'Electronics > Audio > Audio Components > Speakers',
+    // 'accessories' currently holds stylus pens only (Anker A7166, Joyroom JR-X15).
+    // Re-check this mapping if a non-stylus accessory is ever added to that shelf.
+    'accessories': 'Electronics > Electronics Accessories > Computer Accessories > Stylus Pens',
 };
 
 /** Strip HTML + entities to clean plain text for the feed description. */
