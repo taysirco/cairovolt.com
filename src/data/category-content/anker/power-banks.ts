@@ -128,6 +128,7 @@ export const anker_power_banks_content: CategoryContent = {
                         { name: 'Anker Nano 10000mAh', price: 1300, badge: 'حجم صغير' },
                         { name: 'Anker PowerCore 26800mAh', price: 2300, badge: 'سعة عملاقة' },
                         { name: 'باور بانك انكر زولو 20,000 بكابل مدمج (A110E)', price: 1730, badge: 'كابل مدمج' },
+                        { name: 'باور بانك انكر نانو 10,000 بكابل قابل للسحب (A1638)', price: 2300, badge: '45 واط · كابل مدمج' },
                         { name: 'باور بانك انكر زولو 10,000 بكابل مدمج (A110D)', price: 1270, badge: 'خفيف للجيب' },
                         { name: 'Anker 737 Power Bank', price: 4999, badge: 'Premium' },
                     ]
@@ -184,6 +185,7 @@ export const anker_power_banks_content: CategoryContent = {
                         { name: 'Anker Nano 10000mAh', price: 1300, badge: 'Compact' },
                         { name: 'Anker PowerCore 26800mAh', price: 2300, badge: 'Huge Capacity' },
                         { name: 'Anker Zolo 20,000 Built-in Cable (A110E)', price: 1730, badge: 'Built-in Cable' },
+                        { name: 'Anker Nano 10,000 Retractable Cable (A1638)', price: 2300, badge: '45W · built-in cable' },
                         { name: 'Anker Zolo 10,000 Built-in Cable (A110D)', price: 1270, badge: 'Pocket-size' },
                         { name: 'Anker 737 Power Bank', price: 4999, badge: 'Flagship' },
                     ]
