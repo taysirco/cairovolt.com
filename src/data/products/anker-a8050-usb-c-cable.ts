@@ -12,8 +12,7 @@ export const anker_a8050_usb_c_cable = {
             { id: "img_7", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-package-box-contents-cable-accessories-egypt.webp", alt: "انكر A8050 مقارنة حجم مع كابل أبل - كايرو فولت", order: 6, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_8", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-usb-c-data-transfer-speed-test-lab-benchmark.webp", alt: "Anker A8050 USB cable data transfer and charging specs - CairoVolt", order: 7, isPrimary: false, width: 1080, height: 1080 }
         ],
-        relatedProducts: [
-        "anker-zolo-usb-c-braided-cable",
+        relatedProducts: ["anker-ultra-soft-usb-c-240w-cable", "anker-zolo-usb-c-braided-cable",
         "anker-zolo-30w-a2698-charger",
         "anker-prime-fusion-a1339-9600mah-65w",
         "anker-prime-a2669-67w-gan-charger",
@@ -31,8 +30,7 @@ export const anker_a8050_usb_c_cable = {
         "anker-zolo-a110e-20000",
         "anker-prime-a1695-25000",
         "anker-pencil-stylus",
-        "soundcore-p20i-earbuds"
-],
+        "soundcore-p20i-earbuds"],
         translations: {
             en: {
                 name: "Anker USB-A to USB-C Cable (A8050) | Braided Nylon 1.8m | Fast Charging",

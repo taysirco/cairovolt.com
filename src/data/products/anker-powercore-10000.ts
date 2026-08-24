@@ -97,8 +97,7 @@ export const anker_powercore_10000 = {
             en: "PowerCore 10000 may suit buyers prioritising a compact 10,000mAh-class battery for compatible phones. Confirm the printed Wh, input/output profiles, dimensions, weight, usable-energy conditions, live price and current warranty.",
             ar: "قد يناسب PowerCore 10000 من يهتم ببطارية مدمجة من فئة 10,000 مللي أمبير لهاتف متوافق. تحقق من Wh وبروفايلات الدخل والخرج والأبعاد والوزن وشروط الطاقة القابلة للاستخدام والسعر والضمان الحالي."
         },
-        relatedProducts: [
-        "anker-powerport-iii-20w-a2639",
+        relatedProducts: ["anker-nano-power-bank-a1638-10k-45w", "anker-powerport-iii-20w-a2639",
         "anker-310-usb-c-lightning-cable",
         "anker-powerport-20w",
         "anker-powerline-usb-c-usb-c",
@@ -107,6 +106,5 @@ export const anker_powercore_10000 = {
         "anker-powerline-usb-c-lightning",
         "anker-622-maggo",
         "soundcore-p20i-earbuds",
-        "soundcore-select-4-go-speaker"
-    ]
+        "soundcore-select-4-go-speaker"]
     };

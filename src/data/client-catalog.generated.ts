@@ -2443,6 +2443,52 @@ export const clientCatalog: ClientCatalogProduct[] = [
         }
     },
     {
+        "slug": "anker-ultra-soft-usb-c-240w-cable",
+        "sku": "AK07",
+        "brand": "Anker",
+        "categorySlug": "cables",
+        "price": 650,
+        "originalPrice": 749,
+        "stock": 311,
+        "featured": false,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "Anker Ultra-Soft USB-C to USB-C Cable A82E2 | 240W | 1.8m | E-Marker | Upcycled-Braided"
+            },
+            "ar": {
+                "name": "كابل انكر Ultra-Soft يو اس بي سي A82E2 | 240 واط | 1.8 متر | شريحة E-Marker | جديلة معاد تدويرها"
+            }
+        },
+        "image": {
+            "url": "/products/anker/anker-ultra-soft-usb-c-240w-cable/anker-ultra-soft-usb-c-240w-cable-main-view-cairovolt.webp",
+            "alt": "Anker Ultra-Soft USB-C to USB-C 240W cable, both braided connectors shown on white - CairoVolt Egypt"
+        }
+    },
+    {
+        "slug": "anker-nano-power-bank-a1638-10k-45w",
+        "sku": "AP14",
+        "brand": "Anker",
+        "categorySlug": "power-banks",
+        "price": 2300,
+        "originalPrice": 2699,
+        "stock": 313,
+        "featured": true,
+        "status": "active",
+        "translations": {
+            "en": {
+                "name": "Anker Nano Power Bank A1638 | 10,000mAh | 45W | Built-In Retractable USB-C Cable"
+            },
+            "ar": {
+                "name": "باور بانك انكر نانو A1638 | 10000 مللي أمبير | 45 واط | كابل USB-C مدمج قابل للسحب"
+            }
+        },
+        "image": {
+            "url": "/products/anker/anker-nano-power-bank-a1638-10k-45w/anker-nano-power-bank-a1638-10k-45w-main-view-cairovolt.webp",
+            "alt": "Anker Nano Power Bank A1638 10000mAh 45W with built-in retractable USB-C cable and wrist lanyard - CairoVolt Egypt"
+        }
+    },
+    {
         "slug": "anker-a1637-wukong-3-in-1-power-bank",
         "sku": "AP13",
         "brand": "Anker",
