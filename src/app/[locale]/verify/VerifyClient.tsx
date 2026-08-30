@@ -21,7 +21,7 @@ import { usePathname, useSearchParams } from 'next/navigation';
 // من الوحدة النقية مباشرة — استيرادها عبر serial-generator كان يجر node:crypto
 // إلى حزمة المتصفح ويُفشل بناء webpack الإنتاجي
 import { PRODUCT_NAMES } from '@/lib/product-names';
-import { ttqSubmitForm, ttqCompleteRegistration } from '@/lib/tiktokPixel';
+import { ttqCompleteRegistration } from '@/lib/tiktokPixel';
 
 interface VerifyResult {
     valid: boolean;
@@ -342,7 +342,6 @@ export default function VerifyClient() {
         setResult(null);
         setTickerLines([]);
         track('warranty_verification_started', {});
-        ttqSubmitForm({ form: 'warranty' });
 
         // المرحلة 1: فحص الصيغة (حقيقي محلياً — الطول تحقق أعلاه، والخادم يعيد الفحص)
         setStage('scanning');

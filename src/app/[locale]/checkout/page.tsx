@@ -7,7 +7,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackBeginCheckout } from '@/lib/analytics';
-import { ttqInitiateCheckout } from '@/lib/tiktokPixel';
+import { ttqInitiateCheckout, ttqSubmitForm } from '@/lib/tiktokPixel';
 import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { BostaTracker } from '@/lib/bosta';
 import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
@@ -543,6 +543,19 @@ export default function CheckoutPage() {
 
             // Analytics: purchase + TikTok events fire on /confirm page only
             // (after the user sees the confirmation — the true conversion point)
+
+            // Except this one. SubmitForm reports the submit itself, which has
+            // already succeeded server-side, so an order still counts when the
+            // customer never reaches /confirm. Guarded because nothing below
+            // the commit may throw into the catch and tell a customer their
+            // order failed — they would place it again.
+            try {
+                ttqSubmitForm({
+                    form: 'order',
+                    content_id: result.orderId,
+                    value: confirmedTotal,
+                });
+            } catch { /* tracking must never break a committed order */ }
 
             // Redirect FIRST, then clear cart (to avoid useEffect redirect to /)
             // Use next-intl router to handle locale prefix automatically

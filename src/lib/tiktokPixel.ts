@@ -202,14 +202,29 @@ export function ttqContact(params: {
   }, eventId, /* immediate */ true);
 }
 
-/** Fires the SubmitForm event — the warranty card number was submitted.
+/** Fires the SubmitForm event — the customer submitted the order form.
  *
- *  The warranty lookup is the only form on this site that is not the checkout,
- *  and the checkout already reports itself through InitiateCheckout and
- *  PlaceAnOrder. Firing SubmitForm there as well would describe one moment
- *  three times, so it is deliberately left to this form alone. */
-export function ttqSubmitForm(params: { form: string } = { form: 'warranty' }): void {
-  fireTtqEvent('SubmitForm', { description: params.form });
+ *  This fires at the submit itself, once the server has committed the order,
+ *  rather than on /confirm where PlaceAnOrder and CompletePayment fire. The
+ *  order exists by then either way, so this is the one report that survives a
+ *  customer who closes the tab or loses signal before the confirmation page
+ *  finishes loading.
+ *
+ *  Deliberately not fired by the warranty form: that is a different action by a
+ *  different person — someone who already bought — and mixing the two would
+ *  leave a campaign optimizing toward SubmitForm chasing both at once. */
+export function ttqSubmitForm(params: {
+  form: string;
+  content_id?: string;
+  value?: number;
+  currency?: string;
+} = { form: 'order' }): void {
+  fireTtqEvent('SubmitForm', {
+    description: params.form,
+    ...(params.content_id ? { content_id: params.content_id } : {}),
+    ...(params.value !== undefined ? { value: params.value } : {}),
+    currency: params.currency || 'EGP',
+  }, undefined, /* immediate */ true);
 }
 
 /** Fires the CompleteRegistration event — a warranty record was activated.
