@@ -39,8 +39,21 @@ function getTtq(): TtqInstance | null {
 /**
  * Safely fires a TikTok Pixel event without blocking the main thread.
  * Uses requestIdleCallback where available, falls back to setTimeout.
+ *
+ * Pass `immediate` for anything fired as the visitor leaves the page. A hidden
+ * document never runs an idle callback — measured in Chrome, and NOT rescued by
+ * requestIdleCallback's own `timeout` option, which also never fires there —
+ * so an event deferred on the way out is simply lost. That is the normal path
+ * for a WhatsApp tap on mobile: the app takes the foreground and the page is
+ * hidden before the browser was ever idle. setTimeout still runs in a hidden
+ * document, which is why `immediate` uses it.
  */
-function fireTtqEvent(eventName: string, params: Record<string, unknown> = {}, eventId?: string): void {
+function fireTtqEvent(
+  eventName: string,
+  params: Record<string, unknown> = {},
+  eventId?: string,
+  immediate = false,
+): void {
   const fire = () => {
     try {
       const ttq = getTtq();
@@ -55,7 +68,9 @@ function fireTtqEvent(eventName: string, params: Record<string, unknown> = {}, e
 
   if (typeof window === 'undefined') return;
 
-  if ('requestIdleCallback' in window) {
+  if (immediate) {
+    setTimeout(fire, 0);
+  } else if ('requestIdleCallback' in window) {
     (window as unknown as { requestIdleCallback: (cb: () => void) => void }).requestIdleCallback(fire);
   } else {
     setTimeout(fire, 0);
@@ -184,5 +199,5 @@ export function ttqContact(params: {
     ...(params.content_name ? { content_name: params.content_name, content_type: 'product' } : {}),
     ...(params.value !== undefined ? { value: params.value } : {}),
     currency: params.currency || 'EGP',
-  }, eventId);
+  }, eventId, /* immediate */ true);
 }

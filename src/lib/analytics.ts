@@ -33,8 +33,18 @@ function getGtag(): ((command: GtagCommand, action: string, params?: Record<stri
 /**
  * Dispatches a GA4 event without blocking the main thread.
  * Uses requestIdleCallback where available, falls back to setTimeout.
+ *
+ * Pass `immediate` for anything fired as the visitor leaves the page — see the
+ * note on fireTtqEvent in tiktokPixel.ts. A hidden document runs no idle
+ * callback (with or without a `timeout`), so a WhatsApp tap on mobile, which
+ * hands the foreground to another app straight away, would otherwise never
+ * report its lead.
  */
-function dispatchEvent(eventName: string, params: Record<string, unknown> = {}): void {
+function dispatchEvent(
+    eventName: string,
+    params: Record<string, unknown> = {},
+    immediate = false,
+): void {
     const fire = () => {
         try {
             const gtag = getGtag();
@@ -50,7 +60,9 @@ function dispatchEvent(eventName: string, params: Record<string, unknown> = {}):
 
     if (typeof window === 'undefined') return;
 
-    if ('requestIdleCallback' in window) {
+    if (immediate) {
+        setTimeout(fire, 0);
+    } else if ('requestIdleCallback' in window) {
         (window as unknown as { requestIdleCallback: (cb: () => void) => void }).requestIdleCallback(fire);
     } else {
         setTimeout(fire, 0);
@@ -227,7 +239,7 @@ export function trackWhatsappClick(
         value: details?.value ?? 1,
         ...(details?.itemId ? { item_id: details.itemId } : {}),
         ...(details?.itemName ? { item_name: details.itemName } : {}),
-    });
+    }, /* immediate */ true);
     ttqContact({
         channel: 'whatsapp',
         ...(details?.itemId ? { content_id: details.itemId } : {}),
@@ -243,7 +255,7 @@ export function trackPhoneClick(): void {
         event_label: 'phone_call',
         currency: 'EGP',
         value: 1,
-    });
+    }, /* immediate */ true);
     ttqContact({ channel: 'phone' });
 }
 
@@ -252,7 +264,7 @@ export function trackEmailClick(): void {
     dispatchEvent('generate_lead', {
         event_category: 'contact',
         event_label: 'email',
-    });
+    }, /* immediate */ true);
     ttqContact({ channel: 'email' });
 }
 
