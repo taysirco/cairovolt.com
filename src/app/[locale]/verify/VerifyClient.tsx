@@ -21,6 +21,7 @@ import { usePathname, useSearchParams } from 'next/navigation';
 // من الوحدة النقية مباشرة — استيرادها عبر serial-generator كان يجر node:crypto
 // إلى حزمة المتصفح ويُفشل بناء webpack الإنتاجي
 import { PRODUCT_NAMES } from '@/lib/product-names';
+import { ttqSubmitForm, ttqCompleteRegistration } from '@/lib/tiktokPixel';
 
 interface VerifyResult {
     valid: boolean;
@@ -305,6 +306,15 @@ export default function VerifyClient() {
         track('warranty_verification_found', {
             state: data.alreadyActivated ? 'existing' : 'activated',
         });
+        // Only a first activation registers anything. Re-checking an active
+        // card returns the same record, so counting it would report one
+        // registration over and over.
+        if (!data.alreadyActivated) {
+            ttqCompleteRegistration({
+                method: 'warranty',
+                ...(data.productId ? { content_id: data.productId } : {}),
+            });
+        }
     };
 
     const postVerify = async (payload: { serial: string; productId?: string }): Promise<{ ok: boolean; data: VerifyResult }> => {
@@ -332,6 +342,7 @@ export default function VerifyClient() {
         setResult(null);
         setTickerLines([]);
         track('warranty_verification_started', {});
+        ttqSubmitForm({ form: 'warranty' });
 
         // المرحلة 1: فحص الصيغة (حقيقي محلياً — الطول تحقق أعلاه، والخادم يعيد الفحص)
         setStage('scanning');

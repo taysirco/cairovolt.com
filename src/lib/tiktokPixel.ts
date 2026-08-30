@@ -201,3 +201,28 @@ export function ttqContact(params: {
     currency: params.currency || 'EGP',
   }, eventId, /* immediate */ true);
 }
+
+/** Fires the SubmitForm event — the warranty card number was submitted.
+ *
+ *  The warranty lookup is the only form on this site that is not the checkout,
+ *  and the checkout already reports itself through InitiateCheckout and
+ *  PlaceAnOrder. Firing SubmitForm there as well would describe one moment
+ *  three times, so it is deliberately left to this form alone. */
+export function ttqSubmitForm(params: { form: string } = { form: 'warranty' }): void {
+  fireTtqEvent('SubmitForm', { description: params.form });
+}
+
+/** Fires the CompleteRegistration event — a warranty record was activated.
+ *
+ *  Only for a NEW activation. Re-checking an already-active card returns the
+ *  same record and registers nothing, so counting it would inflate the event
+ *  with repeat lookups of a registration that already happened. */
+export function ttqCompleteRegistration(params: {
+  method: string;
+  content_id?: string;
+} = { method: 'warranty' }): void {
+  fireTtqEvent('CompleteRegistration', {
+    description: params.method,
+    ...(params.content_id ? { content_id: params.content_id } : {}),
+  });
+}
