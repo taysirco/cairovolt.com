@@ -160,3 +160,29 @@ export function ttqCompletePayment(params: {
     currency: params.currency || 'EGP',
   }, eventId);
 }
+
+/** Fires the Contact event — a WhatsApp or phone click.
+ *
+ *  This store has no lead form: a customer who wants to buy taps WhatsApp or
+ *  the phone number, which is why GA4 already counts those as `generate_lead`.
+ *  `Contact` is the TikTok standard event that carries the same meaning, and it
+ *  is one of the events the Lead objective can optimize toward — without it the
+ *  objective has nothing to select, since every other event here is e-commerce.
+ *
+ *  Pass the product value on product-page clicks so TikTok can optimize toward
+ *  the contacts worth having rather than treating every tap as equal. */
+export function ttqContact(params: {
+  channel: 'whatsapp' | 'phone' | 'email';
+  content_id?: string;
+  content_name?: string;
+  value?: number;
+  currency?: string;
+} = { channel: 'whatsapp' }, eventId?: string): void {
+  fireTtqEvent('Contact', {
+    description: params.channel,
+    ...(params.content_id ? { content_id: params.content_id } : {}),
+    ...(params.content_name ? { content_name: params.content_name, content_type: 'product' } : {}),
+    ...(params.value !== undefined ? { value: params.value } : {}),
+    currency: params.currency || 'EGP',
+  }, eventId);
+}

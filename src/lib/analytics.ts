@@ -8,6 +8,12 @@
  * @see https://developers.google.com/analytics/devguides/collection/ga4/ecommerce
  */
 
+// The contact helpers below mirror their lead events to TikTok as well. They
+// live here rather than at each call site because a WhatsApp button appears in
+// eight components, and a lead signal that silently misses one of them is worse
+// than no lead signal at all.
+import { ttqContact } from '@/lib/tiktokPixel';
+
 // ── gtag wrapper ────────────────────────────────────────────────────────────
 
 type GtagCommand = 'event' | 'config' | 'js';
@@ -222,6 +228,12 @@ export function trackWhatsappClick(
         ...(details?.itemId ? { item_id: details.itemId } : {}),
         ...(details?.itemName ? { item_name: details.itemName } : {}),
     });
+    ttqContact({
+        channel: 'whatsapp',
+        ...(details?.itemId ? { content_id: details.itemId } : {}),
+        ...(details?.itemName ? { content_name: details.itemName } : {}),
+        ...(details?.value !== undefined ? { value: details.value } : {}),
+    });
 }
 
 /** Tracks phone number link clicks. */
@@ -232,6 +244,7 @@ export function trackPhoneClick(): void {
         currency: 'EGP',
         value: 1,
     });
+    ttqContact({ channel: 'phone' });
 }
 
 /** Tracks email link clicks. */
@@ -240,6 +253,7 @@ export function trackEmailClick(): void {
         event_category: 'contact',
         event_label: 'email',
     });
+    ttqContact({ channel: 'email' });
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
