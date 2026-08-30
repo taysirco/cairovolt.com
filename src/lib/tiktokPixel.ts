@@ -4,7 +4,7 @@
  * Full-funnel TikTok Ads conversion tracking for e-commerce flows.
  * Mirrors the GA4 analytics module pattern for consistency.
  *
- * Pixel ID: D75T3KBC77U4939GIH30
+ * Pixel ID: DAA0JC3C77U98E0UIGAG
  *
  * @see https://ads.tiktok.com/marketing_api/docs?id=1739585700402178
  */

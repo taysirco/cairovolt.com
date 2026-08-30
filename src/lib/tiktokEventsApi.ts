@@ -9,7 +9,7 @@
  * Docs: https://business-api.tiktok.com/portal/docs?id=1741601162187777
  */
 
-const TIKTOK_PIXEL_ID = 'D75T3KBC77U4939GIH30';
+const TIKTOK_PIXEL_ID = 'DAA0JC3C77U98E0UIGAG';
 const TIKTOK_API_URL = 'https://business-api.tiktok.com/open_api/v1.3/event/track/';
 
 interface TtqEventProperties {
@@ -56,22 +56,22 @@ export async function sendTiktokServerEvent(
             hashedPhone = createHash('sha256').update(normalized).digest('hex');
         }
 
+        // Events 2.0 shape. Verified against the live API: the older Events 1.0
+        // shape (`pixel_code` + ISO `timestamp` + nested `context`) is rejected
+        // outright with 40002 "Missing required field(s): data.0.event_time."
         const payload = {
-            pixel_code: TIKTOK_PIXEL_ID,
             event: eventName,
             // Deterministic event_id (e.g. PlaceAnOrder_<orderId>) must MATCH the
             // browser pixel's event_id so TikTok deduplicates S2S vs client events.
             event_id: eventId || `${eventName}_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
-            timestamp: new Date().toISOString(),
-            context: {
-                page: {
-                    url: pageUrl || 'https://cairovolt.com',
-                },
-                user_agent: userData.user_agent || '',
-                ip: userData.ip || '',
-                user: {
-                    ...(hashedPhone ? { phone_number: hashedPhone } : {}),
-                },
+            event_time: Math.floor(Date.now() / 1000), // unix SECONDS, not ISO
+            user: {
+                ...(hashedPhone ? { phone: hashedPhone } : {}),
+                ...(userData.ip ? { ip: userData.ip } : {}),
+                ...(userData.user_agent ? { user_agent: userData.user_agent } : {}),
+            },
+            page: {
+                url: pageUrl || 'https://cairovolt.com',
             },
             properties: {
                 contents: [{
@@ -99,14 +99,14 @@ export async function sendTiktokServerEvent(
             }),
         });
 
-        if (!response.ok) {
-            await response.body?.cancel().catch(() => undefined);
-            console.error(`[TikTok S2S] API error ${response.status}`);
-        } else {
-            const result = await response.json();
-            if (result.code !== 0) {
-                console.error('[TikTok S2S] API returned error:', result.message);
-            }
+        // Always read the body. TikTok puts the actionable reason in `message`
+        // for BOTH HTTP 4xx and HTTP 200-with-nonzero-code; discarding it on
+        // !response.ok is how a rejected payload stayed invisible for so long.
+        const result = await response.json().catch(() => null);
+        if (!response.ok || result?.code !== 0) {
+            console.error(
+                `[TikTok S2S] ${eventName} rejected — HTTP ${response.status}, code ${result?.code ?? '?'}: ${result?.message ?? 'unreadable body'}`,
+            );
         }
     } catch (err) {
         console.error('[TikTok S2S] Failed to send event:', err);
