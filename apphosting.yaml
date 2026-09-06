@@ -86,3 +86,13 @@ env:
     secret: crm_webhook_secret
     availability:
       - RUNTIME
+
+  # OpenAI (ChatGPT) Ads — Conversions API key (server-only; never NEXT_PUBLIC).
+  # Uncomment AFTER creating the secret, otherwise the rollout fails on a missing secret:
+  #   firebase apphosting:secrets:set openai_ads_capi_key --project gadgets-b0bdb
+  #   firebase apphosting:secrets:grantaccess openai_ads_capi_key --backend naqrastore --project gadgets-b0bdb
+  # Until then the code logs "OPENAI_ADS_CAPI_KEY is not set" once and skips server events.
+  # - variable: OPENAI_ADS_CAPI_KEY
+  #   secret: openai_ads_capi_key
+  #   availability:
+  #     - RUNTIME

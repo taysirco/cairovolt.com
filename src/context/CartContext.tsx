@@ -2,6 +2,7 @@
 
 import { createContext, useContext, useEffect, useState, useTransition, useCallback, ReactNode } from 'react';
 import { ttqAddToCart } from '@/lib/tiktokPixel';
+import { oaiItemsAdded } from '@/lib/openai-ads/pixel';
 import {
     getProductBySlug,
     getSmartBundleProducts,
@@ -190,6 +191,8 @@ export function CartProvider({ children }: { children: ReactNode }) {
             value: newItem.price * newItem.quantity,
             quantity: newItem.quantity,
         });
+        // OpenAI Ads pixel: items_added
+        oaiItemsAdded([newItem]);
         // Delay drawer open so "✓ Added" button feedback is visible first
         setTimeout(() => setIsOpen(true), 600);
     }, [startCartTransition]);
@@ -215,6 +218,8 @@ export function CartProvider({ children }: { children: ReactNode }) {
         });
         const addedValue = bundleItems.reduce((s, it) => s + (it.price || 0) * (it.quantity || 1), 0);
         ttqAddToCart({ content_id: bundleId, content_name: 'golden-combo', value: addedValue, quantity: bundleItems.length });
+        // OpenAI Ads pixel: items_added (each bundle line as its own content)
+        oaiItemsAdded(bundleItems);
         setTimeout(() => setIsOpen(true), 600);
     }, [startCartTransition]);
 

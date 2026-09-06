@@ -2,6 +2,7 @@
 import { flushSync } from 'react-dom';
 import { trackViewItem, trackAddToCart, trackWhatsappClick } from '@/lib/analytics';
 import { ttqViewContent } from '@/lib/tiktokPixel';
+import { oaiContentsViewed } from '@/lib/openai-ads/pixel';
 
 import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
@@ -271,7 +272,13 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
             content_type: 'product',
             value: activePrice,
         });
-    }, [product.id, product.slug, product.brand, product.categorySlug, activePrice, product.translations, locale]);
+        // OpenAI Ads pixel: contents_viewed (catalog SKU as the content id)
+        oaiContentsViewed({
+            id: product.sku || product.slug || product.id,
+            name: product.translations?.[locale as 'ar' | 'en']?.name || product.slug,
+            priceEgp: activePrice,
+        });
+    }, [product.id, product.sku, product.slug, product.brand, product.categorySlug, activePrice, product.translations, locale]);
 
     const getLocalizedHref = (path: string) => {
         const cleanPath = path.startsWith('/') ? path : `/${path}`;

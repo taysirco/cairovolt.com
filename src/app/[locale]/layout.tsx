@@ -13,6 +13,7 @@ import { routing } from '@/i18n/routing';
 import { CartProvider } from '@/context/CartContext';
 import LazyClientComponents from '@/components/LazyClientComponents';
 import { GoogleAnalytics } from '@/components/content/GoogleAnalytics';
+import { OpenAiPixelPageView } from '@/components/content/OpenAiPixelPageView';
 import PrefetchHints from '@/components/content/PrefetchHints';
 
 import GlobalBusinessSchema from '@/components/content/GlobalBusinessSchema';
@@ -165,6 +166,30 @@ export default async function RootLayout({
         />
         {/* Machine-readable representation of this site for AI agents (llmstxt.org) */}
         <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
+        {/* ── OpenAI (ChatGPT) Ads Measurement Pixel — queue stub + init ──
+            Only the tiny command queue and `init` run here (no network), so
+            every oaiq("measure") call made before the SDK arrives is queued
+            and replayed, exactly like the official loader. The SDK script
+            itself is injected by the interaction gate below, next to GA4 and
+            TikTok, to keep it off the critical path. Wrapper: src/lib/openai-ads/pixel.ts */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function (w) {
+                if (w.oaiq) return;
+                var q = function () { q.q.push(arguments); };
+                q.q = [];
+                w.oaiq = q;
+                try {
+                  if (w.localStorage && w.localStorage.getItem('cv_measurement_consent') === 'denied') {
+                    w.oaiq('consent', false);
+                  }
+                } catch (e) {}
+                w.oaiq('init', { pixelId: 'K8QGQ8ULRsFPeG892Pi4w9' });
+              })(window);
+            `
+          }}
+        />
         {/* hreflang tags are generated dynamically by each page's generateMetadata → alternates.languages */}
         {/* Theme: intentionally light-only. The old inline script forced .dark by
             OS preference OR wall-clock (18:00–06:00), flipping half the UI at
@@ -183,6 +208,8 @@ export default async function RootLayout({
 
             {/* Standard GA4 Analytics */}
             <GoogleAnalytics />
+            {/* OpenAI Ads pixel: SPA page_viewed (init lives in <head>) */}
+            <OpenAiPixelPageView />
             {/* Global business graph and tech stack metadata */}
             <GlobalBusinessSchema locale={locale} />
 
@@ -302,6 +329,18 @@ export default async function RootLayout({
                       ttq.load('DAA0JC3C77U98E0UIGAG');
                       ttq.page();
                     }(window, document, 'ttq');
+                  } catch (e) {}
+
+                  try {
+                    // ── OpenAI Ads Measurement Pixel SDK (stub + init are in <head>) ──
+                    if (!document.querySelector('script[src="https://bzrcdn.openai.com/sdk/oaiq.min.js"]')) {
+                      var os = document.createElement('script');
+                      os.async = true;
+                      os.src = 'https://bzrcdn.openai.com/sdk/oaiq.min.js';
+                      var of = document.getElementsByTagName('script')[0];
+                      if (of && of.parentNode) of.parentNode.insertBefore(os, of);
+                      else document.head.appendChild(os);
+                    }
                   } catch (e) {}
                 }
 

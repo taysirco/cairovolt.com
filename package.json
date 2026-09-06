@@ -19,7 +19,9 @@
     "kw:blog": "node scripts/blog-keywords.mjs",
     "schedule:blog": "node scripts/schedule-blog.mjs",
     "reveal:blog": "node scripts/reveal-blog.mjs",
-    "next-date": "node scripts/next-publish-date.mjs"
+    "next-date": "node scripts/next-publish-date.mjs",
+    "test:ads": "node --test --experimental-strip-types \"src/lib/openai-ads/__tests__/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@google-cloud/secret-manager": "^6.2.0",

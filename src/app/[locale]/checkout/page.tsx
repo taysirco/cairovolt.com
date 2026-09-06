@@ -8,6 +8,12 @@ import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackBeginCheckout } from '@/lib/analytics';
 import { ttqInitiateCheckout, ttqSubmitForm } from '@/lib/tiktokPixel';
+import {
+    collectAdsContext,
+    oaiCheckoutStarted,
+    oaiInitUserFromCheckout,
+    oaiOrderCreated,
+} from '@/lib/openai-ads/pixel';
 import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { BostaTracker } from '@/lib/bosta';
 import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
@@ -353,6 +359,8 @@ export default function CheckoutPage() {
                 value: totalAmount,
                 quantity: cartItems.reduce((sum, item) => sum + item.quantity, 0),
             });
+            // OpenAI Ads pixel: checkout_started (cart lines → contents[])
+            oaiCheckoutStarted(cartItems, totalAmount);
         }
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -470,6 +478,10 @@ export default function CheckoutPage() {
             couponDiscount: discountAmount, // Absolute discount value in EGP
             couponType, couponValue, // نوع وقيمة الكوبون (percent% أو مبلغ ثابت)
             bundleDiscount, // 🏆 خصم الكومبو 5% (عرض؛ الخادم يعيد حسابه من الكتالوج)
+            // OpenAI Ads attribution context for the server-side conversion
+            // event: page path (no query), __oppref/__obref cookies, consent.
+            // Validated again server-side; it never creates an event on its own.
+            adsContext: collectAdsContext(),
         };
 
         try {
@@ -555,6 +567,28 @@ export default function CheckoutPage() {
                     content_id: result.orderId,
                     value: confirmedTotal,
                 });
+            } catch { /* tracking must never break a committed order */ }
+
+            // OpenAI Ads pixel: order_created — fired HERE, right after the
+            // server confirmed the commit, not on /confirm (a customer who
+            // closes the tab before the confirmation page still converted).
+            // event_id = order_<orderId>, the same id the server sends to the
+            // Conversions API, so OpenAI keeps one conversion per order.
+            // The hashed-phone `user` init is best-effort and awaited only so
+            // it precedes the measure call; nothing here can reject.
+            try {
+                const confirmedOrderId: string = result.orderId;
+                void oaiInitUserFromCheckout({ phone, regionLabel: cityLabel })
+                    .catch(() => false)
+                    .then(() => {
+                        try {
+                            oaiOrderCreated({
+                                orderId: confirmedOrderId,
+                                items: confirmedItems,
+                                totalAmountEgp: confirmedTotal,
+                            });
+                        } catch { /* never surface to the shopper */ }
+                    });
             } catch { /* tracking must never break a committed order */ }
 
             // Redirect FIRST, then clear cart (to avoid useEffect redirect to /)

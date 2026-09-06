@@ -7,6 +7,14 @@ import { safeAppendOrderToSheet } from '@/lib/google-sheets';
 import { safeSendLeadToCRM } from '@/lib/crm';
 import { validateApiKey } from '@/lib/api-auth';
 import { sendTtqOrderEvent } from '@/lib/tiktokEventsApi';
+import { sendOrderCreatedEvent } from '@/lib/openai-ads/conversions-api';
+import {
+    ALLOWED_SOURCE_HOSTS,
+    DEFAULT_ORDER_SOURCE_URL,
+    buildOrderCreatedData,
+    normalizeAdsContext,
+    orderCreatedEventId,
+} from '@/lib/openai-ads/shared';
 import { getShippingFee } from '@/lib/shipping';
 import { validateCoupon, computeDiscount } from '@/lib/coupons';
 import {
@@ -400,6 +408,9 @@ export async function POST(req: NextRequest) {
         }
 
         const docRef = await db.collection('orders').add(orderData);
+        // The conversion moment is the commit above. Captured once so the
+        // Conversions API retry (and any later replay) reports the same time.
+        const conversionTimestampMs = Date.now();
 
         // Complete the business-system synchronization before returning a response.
         await Promise.all([
@@ -426,10 +437,57 @@ export async function POST(req: NextRequest) {
             }
         });
 
+        // OpenAI (ChatGPT) Ads — Conversions API `order_created`, same deferred
+        // pattern. The browser context (page URL, __oppref/__obref cookies,
+        // consent) rode along with this order request; it is validated here and
+        // only decorates the event that THIS commit produces. Amount and items
+        // come from the server-resolved order, never from the browser payload.
+        // Origin, when the browser sends it, must be our own site or the
+        // context is dropped (the event still goes out with the default URL).
+        const requestOrigin = req.headers.get('origin');
+        let originAllowed = true;
+        if (requestOrigin) {
+            try {
+                originAllowed = ALLOWED_SOURCE_HOSTS.has(new URL(requestOrigin).hostname)
+                    || (process.env.NODE_ENV !== 'production' && new URL(requestOrigin).hostname === 'localhost');
+            } catch {
+                originAllowed = false;
+            }
+        }
+        const adsContext = normalizeAdsContext(
+            originAllowed ? data.adsContext : undefined,
+            DEFAULT_ORDER_SOURCE_URL,
+        );
+        const adsEventId = orderCreatedEventId(orderId);
+        after(async () => {
+            try {
+                await sendOrderCreatedEvent({
+                    orderId,
+                    items: orderData.items,
+                    totalAmountEgp: orderData.totalAmount,
+                    conversionTimestampMs,
+                    context: adsContext,
+                    phone: cleanPhone,
+                    ip: clientIp || undefined,
+                    userAgent: clientUA || undefined,
+                    regionLabel: orderData.cityLabel,
+                });
+            } catch {
+                console.error('[OpenAI CAPI] order event delivery failed');
+            }
+        });
+
         return NextResponse.json({
             id: docRef.id,
             orderId: orderId,
             message: 'Order placed successfully',
+            // Browser-side ads event reference: the pixel reuses this exact id
+            // as `event_id`, so OpenAI deduplicates it against the server event.
+            adsEvent: {
+                id: adsEventId,
+                type: 'order_created',
+                data: buildOrderCreatedData(orderData.items, orderData.totalAmount),
+            },
             items: orderData.items,
             pricing: {
                 subtotalBeforeDiscount: orderData.subtotalBeforeDiscount,
