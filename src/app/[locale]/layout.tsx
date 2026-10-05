@@ -331,11 +331,20 @@ export default async function RootLayout({
                       // Separate confirmed-order lead pixel. Legacy events are
                       // instance-scoped; warranty/contact/payment cannot leak in.
                       w.__cvLoadOrderLeadPixel = function() {
-                        if (w.__cvOrderLeadPixelReady || w.location.search || w.location.hash) return;
+                        // Only TikTok's official diagnostic query may pass; never
+                        // initialize on arbitrary query strings or URL fragments.
+                        var leadTestQuery = /^\\?tt_test_id=DB1O8PBC77U5DCODCAM0_[0-9]+$/.test(w.location.search);
+                        if (w.__cvOrderLeadPixelReady || (w.location.search && !leadTestQuery) || w.location.hash) return;
                         var leadConsent = true;
                         try { leadConsent = w.localStorage.getItem('cv_measurement_consent') !== 'denied'; } catch (e) {}
                         if (!leadConsent) return;
                         ttq.load('DB1O8PBC77U5DCODCAM0');
+                        // Honest catalog PageView establishes base-pixel activity.
+                        // It is not a lead; no checkout/confirmation/warranty URL
+                        // is measured here and SubmitForm keeps its success guard.
+                        if (/^\\/(?:ar\\/|en\\/)?anker\\/power-banks\\/?$/.test(w.location.pathname)) {
+                          ttq.instance('DB1O8PBC77U5DCODCAM0').page();
+                        }
                         w.__cvOrderLeadPixelReady = true;
                         w.dispatchEvent(new Event('cv:tiktok-order-leads-ready'));
                       };

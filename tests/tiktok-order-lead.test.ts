@@ -159,24 +159,26 @@ test('actual inline bootstrap separates pixel queues and signals readiness once'
     const start = source.indexOf('!function (w, d, t)', source.indexOf('// ── TikTok Pixel'));
     const end = source.indexOf("}(window, document, 'ttq');", start) + "}(window, document, 'ttq');".length;
     assert.ok(start > 0 && end > start);
+    // Evaluate the template literal exactly as JSX does, including regex escapes.
+    const bootstrap = runInNewContext('`' + source.slice(start, end) + '`') as string;
     const scripts: string[] = [];
     const events: string[] = [];
     const win: {
-        location: { search: string; hash: string };
+        location: { pathname: string; search: string; hash: string };
         localStorage: ReturnType<typeof storage>;
         dispatchEvent: (event: { type: string }) => number;
         ttq?: { _i: Record<string, unknown[][]> };
         __cvOrderLeadPixelReady?: boolean;
         __cvLoadOrderLeadPixel?: () => void;
     } = {
-        location: { search: '', hash: '' }, localStorage: storage(),
+        location: { pathname: '/confirm', search: '', hash: '' }, localStorage: storage(),
         dispatchEvent: (event: { type: string }) => events.push(event.type),
     };
     const document = {
         createElement: () => ({ src: '' }),
         getElementsByTagName: () => [{ parentNode: { insertBefore: (script: { src: string }) => scripts.push(script.src) } }],
     };
-    runInNewContext(source.slice(start, end), { window: win, document, Event });
+    runInNewContext(bootstrap, { window: win, document, Event });
     assert.equal(scripts.length, 2);
     assert.deepEqual(events, ['cv:tiktok-order-leads-ready']);
     assert.equal(win.ttq!._i[ORDER_LEAD_PIXEL_ID].length, 0);
@@ -186,11 +188,32 @@ test('actual inline bootstrap separates pixel queues and signals readiness once'
 
     // A query-bearing landing page delays the new pixel until a clean URL.
     const queried = { ...win, ttq: undefined, __cvOrderLeadPixelReady: false,
-        location: { search: '?order=private-data', hash: '' } };
+        location: { pathname: '/confirm', search: '?order=private-data', hash: '' } };
     scripts.length = 0;
-    runInNewContext(source.slice(start, end), { window: queried, document, Event });
+    runInNewContext(bootstrap, { window: queried, document, Event });
     assert.equal(scripts.length, 1);
     queried.location.search = '';
     queried.__cvLoadOrderLeadPixel!();
     assert.equal(scripts.length, 2);
+
+    for (const pathname of ['/anker/power-banks', '/ar/anker/power-banks/', '/en/anker/power-banks', '/verify', '/checkout', '/confirm', '/warranty']) {
+        for (const search of ['', '?tt_test_id=DB1O8PBC77U5DCODCAM0_1791200049', '?order=private-data', '?tt_test_id=DB1O8PBC77U5DCODCAM0_1791200049&email=private', '?tt_test_id=another_pixel_123']) {
+            const catalog: typeof win = { ...win, ttq: undefined, __cvOrderLeadPixelReady: false,
+                location: { pathname, search, hash: '' } };
+            scripts.length = 0;
+            runInNewContext(bootstrap, { window: catalog, document, Event });
+            const allowedQuery = search === '' || search === '?tt_test_id=DB1O8PBC77U5DCODCAM0_1791200049';
+            assert.equal(scripts.length, allowedQuery ? 2 : 1, pathname + search);
+            const queue = catalog.ttq!._i[ORDER_LEAD_PIXEL_ID];
+            assert.equal(queue?.length ?? 0, allowedQuery && pathname.includes('/anker/power-banks') ? 1 : 0, pathname + search);
+            if (queue?.length) assert.equal(queue[0][0], 'page');
+        }
+    }
+    const denied: typeof win = { ...win, ttq: undefined, __cvOrderLeadPixelReady: false,
+        location: { pathname: '/anker/power-banks', search: '', hash: '' }, localStorage: storage() };
+    denied.localStorage.setItem('cv_measurement_consent', 'denied');
+    scripts.length = 0;
+    runInNewContext(bootstrap, { window: denied, document, Event });
+    assert.equal(scripts.length, 1);
+    assert.equal(denied.ttq!._i[ORDER_LEAD_PIXEL_ID], undefined);
 });
