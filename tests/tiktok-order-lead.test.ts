@@ -197,20 +197,34 @@ test('actual inline bootstrap separates pixel queues and signals readiness once'
     assert.equal(scripts.length, 2);
 
     for (const pathname of ['/anker/power-banks', '/ar/anker/power-banks/', '/en/anker/power-banks', '/verify', '/checkout', '/confirm', '/warranty']) {
-        for (const search of ['', '?tt_test_id=DB1O8PBC77U5DCODCAM0_1791200049', '?order=private-data', '?tt_test_id=DB1O8PBC77U5DCODCAM0_1791200049&email=private', '?tt_test_id=another_pixel_123']) {
+        for (const search of ['', '?tt_test_id=DB1O8PBC77U5DCODCAM0_1791200049',
+            '?ttclid=E.C.P.opaque_Click-123~', '?ttclid=', '?ttclid=a&ttclid=b',
+            '?ttclid=a&email=private', '?ttclid=private%40example.com', '?ttclid=one+two',
+            '?ttclid=' + 'x'.repeat(2049), '?order=private-data',
+            '?tt_test_id=DB1O8PBC77U5DCODCAM0_1791200049&email=private', '?tt_test_id=another_pixel_123']) {
             const catalog: typeof win = { ...win, ttq: undefined, __cvOrderLeadPixelReady: false,
                 location: { pathname, search, hash: '' } };
             scripts.length = 0;
             runInNewContext(bootstrap, { window: catalog, document, Event });
-            const allowedQuery = search === '' || search === '?tt_test_id=DB1O8PBC77U5DCODCAM0_1791200049';
+            const allowedQuery = search === '' || search === '?tt_test_id=DB1O8PBC77U5DCODCAM0_1791200049'
+                || (pathname.includes('/anker/power-banks') && search === '?ttclid=E.C.P.opaque_Click-123~');
             assert.equal(scripts.length, allowedQuery ? 2 : 1, pathname + search);
             const queue = catalog.ttq!._i[ORDER_LEAD_PIXEL_ID];
             assert.equal(queue?.length ?? 0, allowedQuery && pathname.includes('/anker/power-banks') ? 1 : 0, pathname + search);
             if (queue?.length) assert.equal(queue[0][0], 'page');
         }
     }
+    // A valid paid click must not bypass the existing fragment/consent guards.
+    for (const hash of ['#private-data', '#email=private']) {
+        const fragment: typeof win = { ...win, ttq: undefined, __cvOrderLeadPixelReady: false,
+            location: { pathname: '/anker/power-banks', search: '?ttclid=E.C.P.opaque_Click-123~', hash } };
+        scripts.length = 0;
+        runInNewContext(bootstrap, { window: fragment, document, Event });
+        assert.equal(scripts.length, 1);
+        assert.equal(fragment.ttq!._i[ORDER_LEAD_PIXEL_ID], undefined);
+    }
     const denied: typeof win = { ...win, ttq: undefined, __cvOrderLeadPixelReady: false,
-        location: { pathname: '/anker/power-banks', search: '', hash: '' }, localStorage: storage() };
+        location: { pathname: '/anker/power-banks', search: '?ttclid=E.C.P.opaque_Click-123~', hash: '' }, localStorage: storage() };
     denied.localStorage.setItem('cv_measurement_consent', 'denied');
     scripts.length = 0;
     runInNewContext(bootstrap, { window: denied, document, Event });

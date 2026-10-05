@@ -331,10 +331,14 @@ export default async function RootLayout({
                       // Separate confirmed-order lead pixel. Legacy events are
                       // instance-scoped; warranty/contact/payment cannot leak in.
                       w.__cvLoadOrderLeadPixel = function() {
-                        // Only TikTok's official diagnostic query may pass; never
-                        // initialize on arbitrary query strings or URL fragments.
+                        // Keep TikTok's automatic click ID on the advertised catalog
+                        // URL so the SDK can attribute the visit. Only a single bounded
+                        // opaque ttclid is allowed; other query data and fragments stay
+                        // blocked. No new cookies or customer identifiers are added.
+                        var leadCatalogPath = /^\\/(?:ar\\/|en\\/)?anker\\/power-banks\\/?$/.test(w.location.pathname);
+                        var leadClickQuery = leadCatalogPath && /^\\?ttclid=[A-Za-z0-9._~-]{1,2048}$/.test(w.location.search);
                         var leadTestQuery = /^\\?tt_test_id=DB1O8PBC77U5DCODCAM0_[0-9]+$/.test(w.location.search);
-                        if (w.__cvOrderLeadPixelReady || (w.location.search && !leadTestQuery) || w.location.hash) return;
+                        if (w.__cvOrderLeadPixelReady || (w.location.search && !leadTestQuery && !leadClickQuery) || w.location.hash) return;
                         var leadConsent = true;
                         try { leadConsent = w.localStorage.getItem('cv_measurement_consent') !== 'denied'; } catch (e) {}
                         if (!leadConsent) return;
