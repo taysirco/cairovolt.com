@@ -4,7 +4,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     slug: 'smart-watch-elderly-fall-detection-health',
     category: 'buying-guide',
     publishDate: '2026-06-08',
-    modifiedDate: '2026-06-08',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'joyroom-ft3-smartwatch',
@@ -27,7 +27,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
             metaDescription: 'دليلك لاختيار ساعة ذكية لكبار السن بمميزات كشف السقوط وقياس نبض القلب وتنبيه الطوارئ — مقارنة المميزات الصحية الحقيقية والمتاحة في مصر بأسعار معقولة.',
             keywords: 'ساعة ذكية لكبار السن, ساعة كشف السقوط, ساعة قياس الضغط, ساعة ذكية صحية, ساعة ذكية لكبار السن مصر, smart watch elderly egypt, fall detection smartwatch, ساعة تنبيه طوارئ, ساعة ذكية قياس نبض القلب',
             excerpt: 'مش كل ساعة ذكية بتنفع لكبار السن. دليل المميزات الصحية الحقيقية — من كشف السقوط لتنبيه الطوارئ — واللي فعلاً متاح في مصر بسعر معقول.',
-            quickAnswer: 'ساعة ذكية لكبار السن لازم يكون فيها 6 حاجات أساسية: (1) حساس نبض القلب 24/7، (2) تنبيه عند النبض غير الطبيعي، (3) تتبع جودة النوم، (4) شاشة كبيرة وواضحة، (5) بطارية تكمّل 3+ أيام، (6) إشعارات المكالمات والرسائل بصوت عالي. ميزة كشف السقوط الحقيقية موجودة في Apple Watch و Galaxy Watch بس بأسعار مرتفعة (7,000+ جنيه). البديل العملي: Joyroom FT3 بـ 1,092 جنيه بتديك 5 من 6 مميزات أساسية.',
+            quickAnswer: 'ساعة ذكية لكبار السن لازم يكون فيها: حساس نبض مستمر، وتتبع نوم، وشاشة كبيرة واضحة، وبطارية 3 أيام أو أكتر، وإشعارات مكالمات ورسائل باهتزاز واضح. كشف السقوط الحقيقي موجود في Apple Watch وGalaxy Watch بأسعار أعلى بكتير. البديل العملي: Joyroom FT3 بـ {{price:joyroom-ft3-smartwatch}} جنيه — شاشة 1.85 بوصة وبطارية قسناها 4 أيام و7 ساعات، بس من غير كشف سقوط ولا مايك للمكالمات.',
             content: `<p>أبوك أو أمك عدّوا الستين — ماشاء الله عليهم بصحة وعافية. بس إنت عارف إن كل يوم بيعدّي وإنت في الشغل بتفضل قلقان: هل حصلهم حاجة؟ هل وقعوا؟ هل ضغطهم عالي والموبايل بعيد عنهم ومش بيردّوا؟ الموقف ده مش فيلم درامي — ده واقع في كل بيت مصري فيه حد كبير لوحده 8 ساعات يومياً على الأقل.</p>
 
 <p>وبعدين تلاقي نفسك بتدوّر على \"ساعة ذكية لكبار السن\" على جوجل — وتلاقي 500 نتيجة كلها بتبيعلك \"ساعة صحية بتقيس الضغط وبتكشف السقطات\" بسعر 200 جنيه. وإنت كمهندس — أو حتى كإنسان عاقل — عارف إن حساس ضغط الدم الحقيقي (Oscillometric cuff) محتاج ضغط ميكانيكي على الشريان، مش LED أخضر على ضهر ساعة بلاستيك. فخلّينا نفرز الحقيقي من المضروب.</p>
@@ -36,11 +36,11 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> ساعة لكبار السن لازم فيها: حساس نبض 24/7 + تنبيه نبض غير طبيعي + تتبع نوم + شاشة كبيرة + بطارية 3+ أيام + إشعارات بصوت عالي. كشف السقوط الحقيقي = Apple Watch أو Galaxy Watch (7,000+ جنيه). البديل العملي في مصر: <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> بـ 1,092 جنيه — 5 من 6 مميزات أساسية.
+        <strong>💡 الإجابة السريعة:</strong> ساعة لكبار السن لازم فيها: حساس نبض 24/7 + تنبيه نبض غير طبيعي + تتبع نوم + شاشة كبيرة + بطارية 3+ أيام + إشعارات بصوت عالي. كشف السقوط الحقيقي = Apple Watch أو Galaxy Watch (نطاق سوق تقريبي 7,000+ جنيه). البديل العملي في مصر: <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> بـ {{price:joyroom-ft3-smartwatch}} جنيه — شاشة كبيرة وبطارية قسناها 4 أيام و7 ساعات، من غير كشف سقوط ولا مايك للمكالمات.
     </p>
 </div>
 
-<h2>الحقيقة الأولى — \"بتقيس الضغط\" دي كدبة في 95% من الساعات</h2>
+<h2>الحقيقة الأولى — \"بتقيس الضغط\" دي ادعاء تسويقي في أغلب الساعات</h2>
 
 <p>خلّينا نبدأ بأخطر ادعاء تسويقي في سوق الساعات الذكية: \"قياس ضغط الدم\". معظم الساعات الرخيصة اللي بتلاقيها على أمازون أو OLX وبتدّعي إنها \"بتقيس الضغط\" بتستخدم خوارزمية تقديرية (Estimation Algorithm) مبنية على شكل موجة النبض (PPG waveform) — مش قياس ضغط حقيقي.</p>
 
@@ -75,7 +75,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <h2>كشف السقوط — الميزة اللي الكل بيسأل عنها (والحقيقة المرّة)</h2>
 
-<p>كشف السقوط (Fall Detection) هي الميزة رقم 1 اللي بتخلّي الناس تدوّر على ساعة لكبار السن. الفكرة بسيطة: الساعة بتحسّ إن الشخص وقع (عن طريق مقياس التسارع Accelerometer + جيروسكوب Gyroscope) — وبعد 30-60 ثانية لو الشخص مرّدش على الإشعار، بتبعت رسالة طوارئ لجهة اتصال محددة أو بتتصل بالإسعاف.</p>
+<p>كشف السقوط (Fall Detection) من أهم الميزات اللي بتخلّي الناس تدوّر على ساعة لكبار السن. الفكرة بسيطة: الساعة بتحسّ إن الشخص وقع (عن طريق مقياس التسارع Accelerometer + جيروسكوب Gyroscope) — وبعد 30-60 ثانية لو الشخص مرّدش على الإشعار، بتبعت رسالة طوارئ لجهة اتصال محددة أو بتتصل بالإسعاف.</p>
 
 <p>المشكلة؟ كشف السقوط الحقيقي محتاج خوارزمية ذكاء اصطناعي متدربة على آلاف حالات سقوط حقيقية — مش بس \"هل الإيد اتحركت بسرعة لتحت؟\" لأن حركات كتير عادية بتشبه السقوط: إنك تقعد بسرعة على الكنبة، إنك تحط الإيد على الترابيزة بقوة، إنك تصفّق. الخوارزمية الذكية لازم تفرّق بين كل ده.</p>
 
@@ -101,7 +101,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <p>كبار السن في مصر — خصوصاً مرضى الضغط والسكر — بياخدوا 3-7 أدوية يومياً في مواعيد مختلفة. والنسيان مش عيب — ده طبيعي بعد سن معيّن. الساعة الذكية بتحل المشكلة دي بشكل عبقري: تنبيهات مواعيد الأدوية بالاهتزاز + صوت + الاسم على الشاشة. مش محتاج يفتح الموبايل أو يدوّر على التطبيق — التنبيه بييجي على إيده مباشرة.</p>
 
-<p>المفاجأة إن معظم الساعات — حتى الاقتصادية — بتدعم إنك تضبط تنبيهات متعددة من تطبيق الموبايل. <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> مثلاً بتسمحلك تضبط لحد 8 تنبيهات يومية بأسماء مختلفة — \"دوا الضغط الصبح\"، \"إنسولين قبل الغدا\"، \"حبة الكالسيوم بالليل\". الاهتزاز على المعصم أصعب في تجاهله من رنة الموبايل اللي ممكن يكون في أوضة تانية.</p>
+<p>المفاجأة إن معظم الساعات — حتى الاقتصادية — بتدعم إنك تضبط تنبيهات متعددة من تطبيق الموبايل. <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> مثلاً بتعرض تنبيهات تطبيق الموبايل على المعصم — فممكن تضبط تذكير زي \"دوا الضغط الصبح\" أو \"إنسولين قبل الغدا\" على الموبايل ويوصل للساعة (اتأكد من التنبيهات المتاحة في تطبيق الساعة على موبايلك). الاهتزاز على المعصم أصعب في تجاهله من رنة الموبايل اللي ممكن يكون في أوضة تانية.</p>
 
 <p>في دراسة نُشرت في Journal of Medical Internet Research (2024): المرضى اللي استخدموا تنبيهات ساعة ذكية لمواعيد الأدوية حققوا نسبة التزام 87% مقارنة بـ 65% للي بيعتمدوا على الذاكرة بس. ده فرق 22 نقطة — ممكن يكون الفرق بين ضغط مضبوط وأزمة ارتفاع ضغط مفاجئة.</p>
 
@@ -112,7 +112,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الميزة</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Joyroom FT3 (1,092ج)</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Joyroom FT3 ({{price:joyroom-ft3-smartwatch}} ج)</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Apple Watch SE 2 (7,000ج)</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Apple Watch S9 (12,000ج)</th>
     </tr></thead>
@@ -124,7 +124,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     <tr><td style="padding:10px;border:1px solid #d1d5db;">ECG تخطيط قلب</td><td style="padding:10px;border:1px solid #d1d5db;color:#dc2626;">❌</td><td style="padding:10px;border:1px solid #d1d5db;color:#dc2626;">❌</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">تنبيه أدوية</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅ (8 تنبيهات)</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅ (غير محدود)</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅ (غير محدود)</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">تتبع النوم</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td></tr>
-    <tr><td style="padding:10px;border:1px solid #d1d5db;">مكالمات بلوتوث</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td></tr>
+    <tr><td style="padding:10px;border:1px solid #d1d5db;">مكالمات بلوتوث</td><td style="padding:10px;border:1px solid #d1d5db;color:#dc2626;">❌ (إشعار مكالمات فقط — بلا مايك)</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">عمر البطارية</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>5-7 أيام</strong></td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 ساعة</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 ساعة</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">شاشة</td><td style="padding:10px;border:1px solid #d1d5db;">1.96 بوصة TFT</td><td style="padding:10px;border:1px solid #d1d5db;">1.78 بوصة OLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.9 بوصة OLED</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">التوافق</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">أي موبايل</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone فقط</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone فقط</td></tr>
@@ -132,7 +132,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     </tbody>
 </table>
 
-<p>الحقيقة الواضحة: لو ميزانيتك تسمح وأبوك عنده iPhone — Apple Watch هي الأفضل طبياً بلا منافس. بس لو الميزانية محدودة (وده واقع معظم البيوت المصرية) أو أبوك عنده Samsung أو Xiaomi — <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> بتديك أغلب المميزات الصحية اليومية بعُشر السعر، وبتشتغل على أي موبايل. والأهم: بطاريتها بتكمّل أسبوع — يعني مش هتلاقيها ميتة كل يوم.</p>
+<p>الحقيقة الواضحة: لو ميزانيتك تسمح وأبوك عنده iPhone — Apple Watch أقوى في المزايا الصحية زي كشف السقوط. بس لو الميزانية محدودة (وده واقع معظم البيوت المصرية) أو أبوك عنده Samsung أو Xiaomi — <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> بتديك أغلب المميزات الصحية اليومية بسعر أقل بكتير، وبتشتغل على أي موبايل. والأهم: قسنا بطاريتها 4 أيام و7 ساعات على عيّنتنا — يعني مش هتلاقيها ميتة كل يوم.</p>
 
 <h2>5 أخطاء شائعة عند شراء ساعة لكبار السن — تجنّبها</h2>
 
@@ -162,7 +162,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ ساعة ذكية صحية لكبار السن — على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — نبض القلب 24/7 + تنبيه أدوية + مكالمات بلوتوث + شاشة 1.96 بوصة + بطارية 7 أيام. متوافقة مع أي موبايل. بضمان 12 شهر + توصيل لكل المحافظات.
+        <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — نبض مستمر (قراءات تقديرية) + تنبيهات المكالمات والرسائل + شاشة 1.85 بوصة + بطارية قسناها 4 أيام و7 ساعات. متوافقة مع أي موبايل. بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة المنتج) + توصيل لكل المحافظات.
     </p>
 </div>`,
             faq: [
@@ -176,11 +176,11 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
                 },
                 {
                     question: 'هل كشف السقوط موجود في ساعات رخيصة؟',
-                    answer: 'كشف السقوط الحقيقي (بدقة 90%+ واتصال طوارئ تلقائي) مش محصور في أحدث الموديلات — موجود في Apple Watch Series 4 وأحدث وكل موديلات Apple Watch SE، وفي Samsung Galaxy Watch 4 وأحدث، وفي Google Pixel Watch. الموديلات الحالية اللي فيها الميزة دي بتبدأ من 7,000 جنيه. الساعات الرخيصة ممكن يكون فيها الخيار بس دقته ضعيفة (40-60%) وبينتج إنذارات كاذبة كتير.'
+                    answer: 'كشف السقوط الحقيقي (مع اتصال طوارئ تلقائي) مش محصور في أحدث الموديلات — موجود في Apple Watch Series 4 وأحدث وكل موديلات Apple Watch SE، وفي Samsung Galaxy Watch 4 وأحدث، وفي Google Pixel Watch. الموديلات الحالية اللي فيها الميزة دي بتبدأ من حوالي 7,000 جنيه (نطاق سوق تقريبي). الساعات الرخيصة ممكن يكون فيها الخيار بس دقته ضعيفة (40-60%) وبينتج إنذارات كاذبة كتير.'
                 },
                 {
                     question: 'أبويا عنده Samsung — إيه أفضل ساعة ليه؟',
-                    answer: 'لو ميزانيتك تسمح: Galaxy Watch 5 أو 6 (7,000+ جنيه) — عندها كشف سقوط + ECG + قياس ضغط (على Samsung فقط). لو ميزانيتك محدودة: Joyroom FT3 (1,092 جنيه) — بتشتغل على أي موبايل وعندها نبض + أكسجين + تنبيهات أدوية + بطارية أسبوع.'
+                    answer: 'لو ميزانيتك تسمح: Galaxy Watch 5 أو 6 (نطاق سوق تقريبي 7,000+ جنيه) — عندها كشف سقوط + ECG + قياس ضغط (على Samsung فقط). لو ميزانيتك محدودة: Joyroom FT3 ({{price:joyroom-ft3-smartwatch}} جنيه) — بتشتغل على أي موبايل وعندها نبض وأكسجين (قراءات تقديرية) وتنبيهات من الموبايل وبطارية قسناها 4 أيام و7 ساعات، بس من غير كشف سقوط.'
                 },
             ],
         },
@@ -190,7 +190,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
             metaDescription: 'Guide to choosing a smartwatch for elderly parents with fall detection, heart rate monitoring, and emergency alerts — comparing real health features availabl...',
             keywords: 'smartwatch for elderly, fall detection smartwatch, blood pressure smartwatch, health smartwatch elderly, smartwatch seniors egypt, smart watch fall detection egypt, elderly health monitoring watch, emergency alert smartwatch, heart rate smartwatch elderly',
             excerpt: 'Not every smartwatch is suitable for elderly parents. A guide to real health features — from fall detection to emergency alerts — and what is actually available in Egypt at a reasonable price.',
-            quickAnswer: 'A smartwatch for elderly parents must have 6 essential features: (1) 24/7 heart rate sensor, (2) abnormal heart rate alerts, (3) sleep quality tracking, (4) large clear screen, (5) 3+ day battery life, (6) loud notifications with strong vibration. Real fall detection exists in Apple Watch and Galaxy Watch but costs 7,000+ EGP. The practical alternative: Joyroom FT3 at 1,092 EGP provides 5 of 6 essential features.',
+            quickAnswer: 'A smartwatch for elderly parents should have continuous heart-rate tracking, sleep tracking, a large clear screen, 3+ days of battery and clear vibration alerts for calls and messages. Real fall detection exists in Apple Watch and Galaxy Watch at much higher prices. The practical alternative: Joyroom FT3 at EGP {{price:joyroom-ft3-smartwatch}} — a 1.85-inch screen and 4 days 7 hours measured battery, but no fall detection and no microphone for calls.',
             content: `<p>Your father or mother has passed 60 — may they stay in great health. But you know that every day you spend at work, you are constantly worried: Did something happen to them? Did they fall? Is their blood pressure spiking while their phone is in another room and they are not answering? This is not a dramatic movie — it is the reality in every Egyptian household with an elderly parent alone for at least 8 hours daily.</p>
 
 <p>So you find yourself searching "smartwatch for elderly" on Google — and get 500 results all selling you a "health watch that measures blood pressure and detects falls" for 200 EGP. And as an engineer — or even as a rational human being — you know that a real blood pressure sensor (Oscillometric cuff) requires mechanical pressure on the artery, not a green LED on the back of a plastic watch. So let us separate the real from the fake.</p>
@@ -199,11 +199,11 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> A smartwatch for elderly parents needs: 24/7 heart rate sensor + abnormal heart rate alerts + sleep tracking + large screen + 3+ day battery + loud notifications. Real fall detection = Apple Watch or Galaxy Watch (7,000+ EGP). Practical alternative in Egypt: <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> at 1,092 EGP — 5 of 6 essential features.
+        <strong>💡 Quick Answer:</strong> A smartwatch for elderly parents needs: 24/7 heart rate sensor + abnormal heart rate alerts + sleep tracking + large screen + 3+ day battery + loud notifications. Real fall detection = Apple Watch or Galaxy Watch (approximate market range 7,000+ EGP). Practical alternative in Egypt: <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> at EGP {{price:joyroom-ft3-smartwatch}} — a large screen and 4 days 7 hours measured battery, without fall detection or a microphone for calls.
     </p>
 </div>
 
-<h2>The First Truth — "Measures Blood Pressure" Is a Lie in 95% of Watches</h2>
+<h2>The First Truth — "Measures Blood Pressure" Is a Marketing Claim on Most Watches</h2>
 
 <p>Let us start with the most dangerous marketing claim in the smartwatch market: "blood pressure measurement." Most cheap watches you find on Amazon or OLX that claim to "measure blood pressure" use an Estimation Algorithm based on PPG waveform analysis — not actual blood pressure measurement.</p>
 
@@ -238,7 +238,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <h2>Fall Detection — The Feature Everyone Asks About (and the Bitter Truth)</h2>
 
-<p>Fall Detection is the number one feature that drives people to search for elderly smartwatches. The concept is simple: the watch detects that the person has fallen (using an Accelerometer + Gyroscope) — and after 30-60 seconds, if the person does not respond to the notification, it sends an emergency message to a designated contact or calls emergency services.</p>
+<p>Fall Detection is one of the main features that lead people to look for a smartwatch for elderly parents. The concept is simple: the watch detects that the person has fallen (using an Accelerometer + Gyroscope) — and after 30-60 seconds, if the person does not respond to the notification, it sends an emergency message to a designated contact or calls emergency services.</p>
 
 <p>The problem? Real fall detection requires an AI algorithm trained on thousands of actual fall cases — not just "did the hand move downward quickly?" Because many normal movements resemble falls: sitting down quickly on a couch, placing your hand on a table firmly, clapping. A smart algorithm must distinguish between all of these.</p>
 
@@ -264,7 +264,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <p>Elderly people in Egypt — especially those with hypertension and diabetes — take 3-7 medications daily at different times. Forgetting is not a flaw — it is natural after a certain age. A smartwatch solves this problem brilliantly: medication reminders via vibration + sound + the medicine name on screen. No need to open a phone or search for an app — the alert comes directly on the wrist.</p>
 
-<p>The surprise is that most watches — even budget ones — support multiple reminders set through the phone app. The <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a>, for example, allows up to 8 daily reminders with different names — "Morning blood pressure pill," "Insulin before lunch," "Calcium tablet at night." A vibration on the wrist is harder to ignore than a phone ringtone that might be in another room.</p>
+<p>The surprise is that most watches — even budget ones — support multiple reminders set through the phone app. The <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a>, for example, mirrors phone-app alerts on the wrist — so a reminder such as "Morning blood pressure pill" or "Insulin before lunch" set on the phone reaches the watch (check which alerts the watch app supports on your phone). A vibration on the wrist is harder to ignore than a phone ringtone that might be in another room.</p>
 
 <p>A study published in the Journal of Medical Internet Research (2024) found that patients using smartwatch medication reminders achieved an 87% adherence rate compared to 65% for those relying on memory alone. That is a 22-point difference — which could be the difference between controlled blood pressure and a sudden hypertensive crisis.</p>
 
@@ -275,7 +275,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Feature</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Joyroom FT3 (1,092 EGP)</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Joyroom FT3 (EGP {{price:joyroom-ft3-smartwatch}})</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Apple Watch SE 2 (7,000 EGP)</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Apple Watch S9 (12,000 EGP)</th>
     </tr></thead>
@@ -287,7 +287,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     <tr><td style="padding:10px;border:1px solid #d1d5db;">ECG</td><td style="padding:10px;border:1px solid #d1d5db;color:#dc2626;">❌</td><td style="padding:10px;border:1px solid #d1d5db;color:#dc2626;">❌</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Medication Reminders</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅ (8 reminders)</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅ (unlimited)</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅ (unlimited)</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Sleep Tracking</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td></tr>
-    <tr><td style="padding:10px;border:1px solid #d1d5db;">BT Calls</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td></tr>
+    <tr><td style="padding:10px;border:1px solid #d1d5db;">BT Calls</td><td style="padding:10px;border:1px solid #d1d5db;color:#dc2626;">❌ (call alerts only — no mic)</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">✅</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Battery Life</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>5-7 days</strong></td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 hours</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 hours</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Screen</td><td style="padding:10px;border:1px solid #d1d5db;">1.96" TFT</td><td style="padding:10px;border:1px solid #d1d5db;">1.78" OLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.9" OLED</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Compatibility</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">Any phone</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone only</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone only</td></tr>
@@ -295,7 +295,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     </tbody>
 </table>
 
-<p>The clear truth: if your budget allows and your parent has an iPhone — Apple Watch is the unmatched medical champion. But if your budget is limited (the reality for most Egyptian families) or your parent uses Samsung or Xiaomi — the <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> provides most daily health features at one-tenth the price, works with any phone, and — crucially — its battery lasts a week, meaning you will not find it dead every day.</p>
+<p>The clear truth: if your budget allows and your parent has an iPhone — Apple Watch is stronger on health features such as fall detection. But if your budget is limited (the reality for most Egyptian families) or your parent uses Samsung or Xiaomi — the <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> provides most daily health features at a much lower price, works with any phone, and — crucially — its battery lasted 4 days 7 hours on our sample, so you will not find it dead every day.</p>
 
 <h2>5 Common Mistakes When Buying a Watch for Elderly Parents — Avoid Them</h2>
 
@@ -325,7 +325,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Health Smartwatch for Elderly Parents — on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — 24/7 heart rate + medication reminders + Bluetooth calls + 1.96" screen + 7-day battery. Compatible with any phone. 12-month warranty + delivery across all governorates.
+        <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> — continuous heart rate (wellness estimates) + call and message alerts + 1.85" screen + 4 days 7 hours measured battery. Compatible with any phone. Invoice and CairoVolt's written store warranty (duration shown on the product page) + delivery across all governorates.
     </p>
 </div>`,
             faq: [
@@ -339,11 +339,11 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
                 },
                 {
                     question: 'Is fall detection available in budget smartwatches?',
-                    answer: 'Real fall detection (90%+ accuracy with automatic emergency calling) is not exclusive to the newest models — it works on Apple Watch Series 4 or later and every Apple Watch SE, on Samsung Galaxy Watch 4 and later, and on Google Pixel Watch. Current models with this feature start at 7,000 EGP. Budget watches may have the option but accuracy is poor (40-60%) with frequent false alarms.'
+                    answer: 'Real fall detection (with automatic emergency calling) is not exclusive to the newest models — it works on Apple Watch Series 4 or later and every Apple Watch SE, on Samsung Galaxy Watch 4 and later, and on Google Pixel Watch. Current models with this feature start at around 7,000 EGP (approximate market range). Budget watches may have the option but accuracy is poor (40-60%) with frequent false alarms.'
                 },
                 {
                     question: 'My father uses Samsung — what is the best smartwatch for him?',
-                    answer: 'If budget allows: Galaxy Watch 5 or 6 (7,000+ EGP) — offers fall detection + ECG + blood pressure (Samsung only). If budget is limited: Joyroom FT3 (1,092 EGP) — works with any phone and includes heart rate + SpO2 + medication reminders + one-week battery.'
+                    answer: 'If budget allows: Galaxy Watch 5 or 6 (approximate market range 7,000+ EGP) — offers fall detection + ECG + blood pressure (Samsung only). If budget is limited: Joyroom FT3 (EGP {{price:joyroom-ft3-smartwatch}}) — works with any phone, with heart rate and SpO2 (wellness estimates), phone alerts and a battery we measured at 4 days 7 hours, but no fall detection.'
                 },
             ],
         },

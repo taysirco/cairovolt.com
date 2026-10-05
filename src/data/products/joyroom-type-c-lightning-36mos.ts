@@ -40,7 +40,7 @@ export const joyroom_type_c_lightning_36mos = {
                     { question: "What construction details should I check?", answer: "Confirm the braided jacket, connector finish, cable length and model marking against the listing. Durability varies with handling, so avoid pulling the cable or bending it tightly at the connector." },
                     { question: "Can I buy this for iPhone 17?", answer: "No, iPhone 17 uses USB-C. This Lightning cable is designed for iPhone 14 and earlier. For iPhone 17, see our USB-C cables." },
                     { question: "Does it support fast charging?", answer: "It can provide the rated USB-PD charging mode only when the exact cable variant, USB-C charger and Lightning device all support it. It is not a 60W PPS cable for Samsung USB-C devices." },
-                    { question: "Is this cable MFi certified?", answer: "Verify an MFi statement for model JR-S-CL36M on the supplied packaging or the manufacturer's documentation. Do not infer certification from a Lightning connector or from a generic product-family description." }
+                    { question: "Is this cable MFi certified?", answer: "Not verified: our tested JR-S-CL36M sample had no Apple MFi packaging mark, and iOS showed an accessory warning. Treat MFi as unconfirmed unless your package shows the mark; the connector shape alone does not establish certification." }
                 ]
             },
             ar: {
@@ -59,7 +59,7 @@ export const joyroom_type_c_lightning_36mos = {
                     { question: "إزاي أتأكد من الضمان المطبق؟", answer: "تأكد من ظهور موديل JR-S-CL36M ومدة الضمان في العبوة والقائمة الحالية. السياسة المكتوبة هي التي تحدد التغطية والاستثناءات وإثبات الشراء وخطوات الخدمة." },
                     { question: "إيه تفاصيل البناء اللي أفحصها؟", answer: "طابق الغلاف المضفر وتشطيب الموصل والطول ورقم الموديل مع القائمة. العمر يتغير حسب الاستخدام، فتجنب السحب من الكابل أو ثنيه بقوة عند الموصل." },
                     { question: "هل يدعم الشحن السريع؟", answer: "يقدم وضع USB-PD المصنف فقط عندما يدعمه إصدار الكابل وشاحن USB-C وجهاز Lightning معاً. ليس كابل PPS بقوة 60 واط لأجهزة سامسونج USB-C." },
-                    { question: "الكابل معتمد MFi؟", answer: "تحقق من بيان MFi للموديل JR-S-CL36M على العبوة الموردة أو وثائق الشركة المصنّعة. لا تفترض الاعتماد من وجود موصل Lightning أو وصف عام لعائلة المنتجات." },
+                    { question: "الكابل معتمد MFi؟", answer: "غير مؤكَّد: عيّنة JR-S-CL36M المُختبرة لدينا بلا علامة Apple MFi على العبوة، وأظهر iOS تحذير ملحق. اعتبر MFi غير مؤكَّد ما لم تُظهر عبوتك العلامة؛ شكل الموصل وحده لا يثبت الاعتماد." },
                     { question: "الكابل هيعيش قد إيه؟", answer: "لا يمكن ضمان عمر ثابت؛ يتأثر بالثني والسحب والحرارة والتخزين. افحص الغلاف والموصل دورياً وتوقف عن الاستخدام عند التلف، وراجع سياسة الضمان والاسترجاع الحالية عند الحاجة." }
                 ]
             }

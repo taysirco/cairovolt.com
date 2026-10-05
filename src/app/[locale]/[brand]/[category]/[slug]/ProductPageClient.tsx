@@ -74,6 +74,8 @@ import { getCairoVoltWarrantyPolicy } from '@/lib/warranty-policy';
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { STANDARD_RETURN_WINDOW_DAYS } from '@/lib/merchant-product-data';
 import { getDiscountInfo } from '@/lib/pricing-display';
+import { categoryKeyMap } from '@/lib/category-keys';
+import { arSpecLabel } from '@/lib/spec-labels-ar';
 
 
 interface Product {
@@ -137,29 +139,18 @@ interface ProductPageClientProps {
      *  public/products/<brand>/<slug>/spin/. When < 24 the viewer never
      *  renders and the gallery-mode toggle is not shown (silent dark ship). */
     spin360FrameCount?: number;
+    /** Live blog guides whose body links to this product, already localized
+     *  (built server-side by getGuidesForProduct). Empty → no block. */
+    guides?: Array<{ href: string; title: string }>;
 }
 
-// Category mapping for breadcrumb
-const categoryKeyMap: Record<string, string> = {
-    'power-banks': 'powerBanks',
-    'wall-chargers': 'wallChargers',
-    'cables': 'cables',
-    'car-chargers': 'carChargers',
-    'audio': 'audio',
-    'smart-watches': 'smartWatches',
-    'speakers': 'speakers',
-    'headphones': 'headphones',
-    'earbuds': 'earbuds',
-    'partybox': 'partybox',
-    // These three routed shelves existed without a mapping, so every product on
-    // them fell through to Categories.other and rendered a breadcrumb reading
-    // "منتجات أخرى" / "Other Products". The message keys were already present.
-    'accessories': 'accessories',
-    'car-holders': 'carHolders',
-    'car-accessories': 'carAccessories',
-};
+// Category slug → Categories message key lives in '@/lib/category-keys', shared
+// with the server page so the BreadcrumbList JSON-LD names the same shelf.
 
-export default function ProductPageClient({ product, relatedProducts = [], alsoBoughtProducts = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail, spin360FrameCount = 0 }: ProductPageClientProps) {
+/** True when the text contains at least one Arabic letter. */
+const hasArabicLetters = (text: string): boolean => /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]/u.test(text);
+
+export default function ProductPageClient({ product, relatedProducts = [], alsoBoughtProducts = [], guides = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail, spin360FrameCount = 0 }: ProductPageClientProps) {
     const isRTL = locale === 'ar';
     const tCommon = useTranslations('Common');
 
@@ -638,6 +629,22 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                     // Use pre-generated 128px thumbnail for gallery strips
                                     // (Firebase App Hosting lacks /_next/image optimizer)
                                     const thumbUrl = img.url.replace(/\.webp$/, '-thumb.webp');
+                                    // Catalogue alts are single-language. When this one is in the
+                                    // other language (Arabic letters on an English page, none on an
+                                    // Arabic page), use a localized "<name> — view N" label instead.
+                                    // An Arabic alt on an Arabic page gets the site's Arabic brand
+                                    // spellings (as og:image:alt does); Latin alts are never run
+                                    // through the localiser, which produced "انكر 737 premium …".
+                                    const rawAlt = img.alt?.trim() || '';
+                                    const thumbAlt = !rawAlt
+                                        ? productName
+                                        : isRTL
+                                            ? (hasArabicLetters(rawAlt)
+                                                ? localizeArabicBrandNames(rawAlt)
+                                                : `${productName} — صورة ${idx + 1}`)
+                                            : (!hasArabicLetters(rawAlt)
+                                                ? rawAlt
+                                                : `${productName} — view ${idx + 1}`);
                                     return (
                                     <button
                                         key={idx}
@@ -651,7 +658,7 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                     >
                                         <ProductImage
                                             src={thumbUrl}
-                                            alt={img.alt || productName}
+                                            alt={thumbAlt}
                                             slug={product.slug}
                                             brand={product.brand}
                                             category={product.categorySlug || category}
@@ -790,29 +797,54 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
 
                         {/* Short Description removed — already displayed inside QuickSummary above */}
 
-                        {/* AI TL;DR — collapsed by default to save above-the-fold scroll; the bullets
-                            stay in the DOM (crawlable for Google + AI answer engines) inside <details>. */}
-                        {productDetail?.aiTldr && (
-                            <CollapsibleSection
-                                className={`p-4 rounded-xl border-2 ${summaryClass}`}
-                                summaryClassName="text-sm font-bold text-gray-800 dark:text-gray-200"
-                                summary={
-                                    <span className="flex items-center gap-1.5">
-                                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                                        {isRTL ? selectedArAiHeading : selectedEnAiHeading}
-                                    </span>
-                                }
-                            >
-                                <ul className="space-y-1" data-speakable="ai-tldr">
-                                    {(isRTL ? productDetail.aiTldr.ar : productDetail.aiTldr.en).map((point: string, idx: number) => (
-                                        <li key={idx} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
-                                            <span className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${summaryDotClass}`} />
-                                            {isRTL ? localizeArabicBrandNames(point) : point}
-                                        </li>
-                                    ))}
-                                </ul>
-                            </CollapsibleSection>
-                        )}
+                        {/* Answer-first lead + AI TL;DR.
+                            The first aiTldr point (authored as a ≤50-word, price-free
+                            answer: what it is, the key spec, who it fits) renders as an
+                            always-visible sentence right under the title, so a shopper and
+                            an answer engine both get the short answer without opening
+                            anything. It is part of this server-rendered client component's
+                            initial HTML (not a client-only dynamic import). The remaining
+                            points stay collapsed to save above-the-fold scroll, in the DOM
+                            inside <details>. Both carry data-speakable="ai-tldr", so the
+                            page's Speakable selector covers the same text as before. */}
+                        {productDetail?.aiTldr && (() => {
+                            const tldrPoints = (isRTL ? productDetail.aiTldr.ar : productDetail.aiTldr.en) || [];
+                            const [leadPoint, ...morePoints] = tldrPoints;
+                            const showPoint = (point: string) => (isRTL ? localizeArabicBrandNames(point) : point);
+                            return (
+                                <>
+                                    {leadPoint && (
+                                        <p
+                                            className="text-sm md:text-base leading-relaxed text-gray-700 dark:text-gray-300"
+                                            data-speakable="ai-tldr"
+                                        >
+                                            {showPoint(leadPoint)}
+                                        </p>
+                                    )}
+                                    {morePoints.length > 0 && (
+                                        <CollapsibleSection
+                                            className={`p-4 rounded-xl border-2 ${summaryClass}`}
+                                            summaryClassName="text-sm font-bold text-gray-800 dark:text-gray-200"
+                                            summary={
+                                                <span className="flex items-center gap-1.5">
+                                                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                                                    {isRTL ? selectedArAiHeading : selectedEnAiHeading}
+                                                </span>
+                                            }
+                                        >
+                                            <ul className="space-y-1" data-speakable="ai-tldr">
+                                                {morePoints.map((point: string, idx: number) => (
+                                                    <li key={idx} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
+                                                        <span className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${summaryDotClass}`} />
+                                                        {showPoint(point)}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </CollapsibleSection>
+                                    )}
+                                </>
+                            );
+                        })()}
 
                         {/* Local Pain Point — inline if short, collapsible if long (>250 chars)
                             so a deep report block stays crawlable in the DOM but does not dominate scroll. */}
@@ -1256,7 +1288,12 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                     isRTL ? localizeArabicFields(productDetail.specifications) : productDetail.specifications,
                                 ) as [string, { en: string; ar: string }][]).map(([key, val]) => (
                                     <tr key={key}>
-                                        <td className="py-4 text-gray-600 dark:text-gray-400">{isRTL ? localizeArabicBrandNames(key) : key}</td>
+                                        {/* Arabic label for common keys; brand spellings only inside
+                                            Arabic text (an unmapped Latin key stays Latin rather than
+                                            becoming "vs انكر Zolo …"). Same rule as additionalProperty. */}
+                                        <td className="py-4 text-gray-600 dark:text-gray-400">{isRTL
+                                            ? (hasArabicLetters(arSpecLabel(key)) ? localizeArabicBrandNames(arSpecLabel(key)) : arSpecLabel(key))
+                                            : key}</td>
                                         <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{isRTL ? localizeArabicBrandNames(val.ar) : val.en}</td>
                                     </tr>
                                 ))}
@@ -1308,11 +1345,44 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                     />
                 </div>
 
-                {/* الذين اشتروا هذا المنتج في الغالب اشتروا أيضاً — نفس عرض «قد يعجبك أيضاً» (≥13 منتجاً) */}
+                {/* Guides about this product — live articles whose body links here,
+                    computed server-side (getGuidesForProduct) and passed as plain
+                    {href, title} props. Plain text links, server-rendered; nothing
+                    renders when no live guide links to this product. */}
+                {guides.length > 0 && (
+                    <nav
+                        className="py-6"
+                        aria-label={isRTL ? 'أدلة ومقارنات عن المنتج' : 'Guides about this product'}
+                    >
+                        <h3 className="text-lg font-bold mb-3 text-gray-900 dark:text-white">
+                            {isRTL ? 'أدلة ومقارنات عن المنتج' : 'Guides about this product'}
+                        </h3>
+                        <ul className="space-y-2">
+                            {guides.map((guide) => (
+                                <li key={guide.href}>
+                                    <Link
+                                        href={guide.href}
+                                        className="text-blue-700 dark:text-blue-400 hover:underline"
+                                    >
+                                        {guide.title}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </nav>
+                )}
+
+                {/* منتجات أخرى من نفس الفئة — نفس عرض «قد يعجبك أيضاً» (≥13 منتجاً). القائمة
+                    مأخوذة من الكتالوج (نفس الفئة/العلامة) وليست بيانات طلبات فعلية.
+                    The shelf comes first, but a small shelf is topped up from the
+                    brand, featured and full catalogue, so the "from this category"
+                    heading is used only when every card really is on this shelf. */}
                 <RelatedProducts
                     products={alsoBoughtProducts}
                     locale={locale}
-                    title={isRTL ? 'الذين اشتروا هذا المنتج في الغالب اشتروا أيضاً' : 'Customers who bought this also bought'}
+                    title={alsoBoughtProducts.every((p) => p.categorySlug === (product.categorySlug || category))
+                        ? (isRTL ? 'منتجات أخرى من نفس الفئة' : 'More from this category')
+                        : (isRTL ? 'منتجات أخرى' : 'More products')}
                     icon="cart"
                     maxItems={16}
                 />

@@ -51,7 +51,7 @@ export const jbl_wave_beam = {
         <li>Build feel: genuine buds seat firmly in their case slots with a clean magnetic snap; fakes rattle or sit loose.</li>
         <li>Packaging: original boxes have sharp print, correct spelling, a labelled serial number, and three ear-tip sizes inside.</li>
         <li>App pairing: a genuine Wave Beam is recognised by the official JBL Headphones app with its model name and firmware — most fakes never appear in it.</li>
-        <li>Price logic: a "new" Wave Beam offered around 40% below our price (roughly 1,300 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" Wave Beam offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -94,7 +94,7 @@ export const jbl_wave_beam = {
         <li>إحساس التصنيع: السماعات الأصلية بتقعد ثابتة في أماكنها في العلبة بشفطة مغناطيسية نضيفة؛ التقليد بيترجرج أو يقعد سايب.</li>
         <li>العلبة: الكرتونة الأصلية طباعتها حادة، إملاؤها سليم، عليها رقم تسلسلي، وجواها 3 مقاسات جيلاتين.</li>
         <li>التطبيق: الـWave Beam الأصلية بيتعرف عليها تطبيق JBL Headphones الرسمي باسم الموديل والفيرموير — أغلب التقليد عمره ما بيظهر فيه.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 1,300 جنيه أو أقل) شبه مؤكد مش أصلية.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

@@ -4,7 +4,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
     slug: 'power-bank-charge-4-devices-simultaneously',
     category: 'buying-guide',
     publishDate: '2026-05-20',
-    modifiedDate: '2026-05-20',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
         "anker-prime-a1695-25000",
@@ -123,11 +123,11 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh (92.7Wh)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh (90Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>165W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">2× USB-C + 1× USB-A</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ حتى MacBook Pro 14</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>3,950ج ⭐</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>{{price:anker-prime-a1695-25000}}ج ⭐</strong></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 باور كور</a></td>
@@ -135,15 +135,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>140W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">2× USB-C + 1× USB-A</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ حتى MacBook Air M3</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>3,650ج</strong></td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (72Wh)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>30W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">كابلان مدمجان (USB-C + Lightning) + 1× USB-A</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">⚠️ لابتوبات خفيفة بس</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>2,200ج</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>{{price:anker-737-powerbank}}ج</strong></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E</a></td>
@@ -151,7 +143,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>22.5W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">1× USB-C + 1× USB-A + كابل مدمج</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ لا</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>1,730ج</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>{{price:anker-zolo-a110e-20000}}ج</strong></td>
         </tr>
     </tbody>
 </table>
@@ -192,9 +184,9 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت بضمان رسمي</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت بضمان كايرو فولت المكتوب</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل الباور بانكات المذكورة <strong>أصلية 100%</strong> بضمان 18 شهر + توصيل لكل محافظات مصر خلال 24-72 ساعة + دفع عند الاستلام + دعم فني واتساب 24/7.
+        كل الباور بانكات المذكورة <strong>أصلية 100%</strong> بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل محافظات مصر (عادةً 1–6 أيام عمل حسب المحافظة) + دفع عند الاستلام + دعم فني واتساب 24/7.
     </p>
 </div>`,
             faq: [
@@ -204,7 +196,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
                 },
                 {
                     question: 'لو وصّلت 4 أجهزة، البطارية هتخلص في قد إيه؟',
-                    answer: 'بيعتمد على السعة والاستهلاك. أنكر Prime (25,000mAh / 92.7Wh) بيشحن MacBook Air M2 شحنة كاملة (30Wh) + iPhone 17 Pro (16Wh) + سماعة (1.5Wh) + ساعة (1Wh) = 48.5Wh — وبعد حساب كفاءة التحويل (85%)، بيفضل معاك حوالي 30% من الباور بانك. يعني رحلة واحدة مريحة.'
+                    answer: 'بيعتمد على السعة والاستهلاك. انكر Prime A1695 (25,000mAh / 90Wh) طلّع 76.9Wh قابلة للاستخدام في قياسنا، وشحن MacBook Air M2 (بطارية 52.6Wh) من 15% لـ 100% على طاولتنا، وبعدها بيفضل فيه طاقة لأجهزة صغيرة زي السماعة والساعة. يعني لابتوب + أجهزة صغيرة ليوم سفر واحد، مش شحنتين لابتوب.'
                 },
                 {
                     question: 'هل الشحن المتعدد بيأذي بطارية الباور بانك؟',
@@ -313,11 +305,11 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh (92.7Wh)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh (90Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>165W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">2× USB-C + 1× USB-A</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Up to MacBook Pro 14</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>3,950 EGP ⭐</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>{{price:anker-prime-a1695-25000}} EGP ⭐</strong></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 PowerCore</a></td>
@@ -325,15 +317,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>140W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">2× USB-C + 1× USB-A</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ Up to MacBook Air M3</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>3,650 EGP</strong></td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (72Wh)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>30W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Built-in dual cables (USB-C + Lightning) + 1× USB-A</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">⚠️ Light laptops only</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>2,200 EGP</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>{{price:anker-737-powerbank}} EGP</strong></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E</a></td>
@@ -341,7 +325,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>22.5W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">1× USB-C + 1× USB-A + built-in cable</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ No</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>1,730 EGP</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>{{price:anker-zolo-a110e-20000}} EGP</strong></td>
         </tr>
     </tbody>
 </table>
@@ -382,9 +366,9 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt with Official Warranty</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt with a written store warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All listed power banks are <strong>100% authentic</strong> with 18-month warranty + delivery to all Egyptian governorates within 24-72 hours + cash on delivery + 24/7 WhatsApp support.
+        All listed power banks are <strong>100% authentic</strong> with CairoVolt's written store warranty (duration shown on each product page) + delivery to all Egyptian governorates (commonly 1–6 business days depending on governorate) + cash on delivery + 24/7 WhatsApp support.
     </p>
 </div>`,
             faq: [
@@ -394,7 +378,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
                 },
                 {
                     question: 'How long does the battery last when charging 4 devices?',
-                    answer: 'It depends on capacity and consumption. The Anker Prime (25,000mAh / 92.7Wh) charges a MacBook Air M2 fully (30Wh) + iPhone 17 Pro (16Wh) + earbuds (1.5Wh) + watch (1Wh) = 48.5Wh. After accounting for 85% conversion efficiency, roughly 30% of the bank remains. Enough for one comfortable trip.'
+                    answer: 'It depends on capacity and consumption. The Anker Prime A1695 (25,000mAh / 90Wh) delivered 76.9Wh usable on our bench and took a MacBook Air M2 (52.6Wh battery) from 15% to 100%, with some energy left for small devices such as earbuds and a watch. In short: one laptop plus small devices for a travel day, not two laptop charges.'
                 },
                 {
                     question: 'Does multi-device charging damage the power bank battery?',

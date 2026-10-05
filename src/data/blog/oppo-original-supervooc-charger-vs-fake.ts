@@ -4,11 +4,10 @@ export const oppo_original_supervooc_charger_vs_fake: BlogArticle = {
     slug: 'oppo-original-supervooc-charger-vs-fake',
     category: 'buying-guide',
     publishDate: '2026-08-08T11:44:00+03:00',
-    modifiedDate: '2026-08-08T11:44:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'anker-nano-45w-smart-display-charger',
-        'anker-a2732-charger-35w',
         'anker-a2147-gan-charger-30w',
         'anker-powerport-25w',
         'joyroom-30w-fast-charger',
@@ -16,7 +15,7 @@ export const oppo_original_supervooc_charger_vs_fake: BlogArticle = {
     ],
     relatedArticles: [
         '20w-30w-45w-65w-100w-charger-which-you-need',
-        'joyroom-power-banks-10k-20k-models-review',
+        'oppo-chargers-prices-egypt-identify-fakes',
         'authentic-charger-vs-3-fake-chargers-roi-math'
     ],
     relatedCategories: ['Anker/chargers', 'Joyroom/chargers'],
@@ -131,7 +130,7 @@ export const oppo_original_supervooc_charger_vs_fake: BlogArticle = {
 <div class="cta-box" style="background:#eff6ff;border:1px solid #93c5fd;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#1e40af;">تبحث عن شاحن سريع ومضمون لهاتفك؟</p>
     <p style="margin:0;color:#1d4ed8;font-size:15px;line-height:1.8;">
-        إذا تعذر عليك العثور على شاحن أوبو الأصلي من التوكيل، نوفر في كايرو فولت شواحن <strong>انكر GaN 30W و 45W</strong> المعتمدة عالمياً والمتوافقة مع كافة أجهزة أندرويد وآيفون بأمان كامل وضمان رسمي 18 شهراً. تصفح تشكيلتنا الآن.
+        إذا تعذر عليك العثور على شاحن أوبو الأصلي بفاتورة وضمان مكتوب، نوفر في كايرو فولت شواحن <strong>انكر GaN 30W و 45W</strong> اللي بتشحن أجهزة أندرويد وآيفون بمعيار USB-PD، وعليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). خد بالك إنها مش بتفعّل SuperVOOC، فهتشحن موبايل أوبو بسرعة أقل من شاحنه الأصلي. ولقائمة أسعار شواحن وكابلات أوبو الأصلية شوف <a href="/blog/oppo-chargers-prices-egypt-identify-fakes" style="color:#1d4ed8;font-weight:600;">دليل أسعار شواحن Oppo في مصر</a>.
     </p>
 </div>`,
             faq: [
@@ -149,7 +148,7 @@ export const oppo_original_supervooc_charger_vs_fake: BlogArticle = {
                 },
                 {
                     question: 'ما هو متوسط سعر شاحن أوبو 67 واط الأصلي في مصر؟',
-                    answer: 'يتراوح سعر رأس الشاحن الأصلي بقوة 67 واط في التوكيل الرسمي والموزعين المعتمدين بمصر بين 1,200 إلى 1,500 جنيه مصري بدون الكابل. أي عرض لبيع الشاحن مع الكابل بسعر أقل من 600 جنيه هو على الأرجح شاحن مقلد يشكل خطورة على سلامة جهازك.'
+                    answer: 'رأس الشاحن الأصلي بقوة 67 واط بيتباع في مصر في حدود 950 إلى 1,100 جنيه بدون الكابل (نطاق سوق تقريبي ويختلف حسب البائع). أي عرض لبيع الشاحن مع الكابل بسعر أقل من 600 جنيه هو على الأرجح شاحن مقلد يشكل خطورة على سلامة جهازك.'
                 }
             ]
         },
@@ -256,7 +255,7 @@ export const oppo_original_supervooc_charger_vs_fake: BlogArticle = {
 <div class="cta-box" style="background:#eff6ff;border:1px solid #93c5fd;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#1e40af;">Looking for a Safe and Certified Fast Charger?</p>
     <p style="margin:0;color:#1d4ed8;font-size:15px;line-height:1.8;">
-        If you cannot source an original Oppo charger from an authorized dealer, CairoVolt stock premium <strong>Anker GaN 30W and 45W chargers</strong>. They are globally certified, safe for all Android and iOS devices, and backed by our 18-month warranty. Browse our collection today.
+        If you cannot source an original Oppo charger with an invoice and a written warranty, CairoVolt stocks <strong>Anker GaN 30W and 45W chargers</strong> that charge Android and iOS devices over USB-PD, covered by CairoVolt's written store warranty (duration shown on each product page). Note that they do not trigger SuperVOOC, so an Oppo phone will charge slower than on its original charger. For original Oppo charger and cable prices, see our <a href="/en/blog/oppo-chargers-prices-egypt-identify-fakes" style="color:#1d4ed8;font-weight:600;">Oppo charger prices guide for Egypt</a>.
     </p>
 </div>`,
             faq: [
@@ -274,7 +273,7 @@ export const oppo_original_supervooc_charger_vs_fake: BlogArticle = {
                 },
                 {
                     question: 'What is the average price of a genuine Oppo 67W charger in Egypt?',
-                    answer: 'A genuine 67W Oppo charging brick (excluding the cable) typically retails between 1,200 and 1,500 EGP at authorized local dealers. Any complete kit (brick and cable) sold online for under 600 EGP is almost certainly a counterfeit model.'
+                    answer: 'A genuine 67W Oppo charging brick (excluding the cable) sells for roughly 950 to 1,100 EGP in Egypt (approximate market range, varies by seller). Any complete kit (brick and cable) sold online for under 600 EGP is almost certainly a counterfeit model.'
                 }
             ]
         }

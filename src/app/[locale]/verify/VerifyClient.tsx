@@ -246,13 +246,13 @@ export default function VerifyClient() {
         stageRegistry: isArabic ? 'الاستعلام في سجل كايرو فولت الموثّق' : 'Querying the CairoVolt registry',
         stageBatch: isArabic ? 'فحص دفعة الطباعة وحالة الكرت' : 'Checking print batch and card status',
         stageProduct: isArabic ? 'مطابقة المنتج المحدد مع الكتالوج' : 'Matching the selected product to the catalog',
-        stagePolicy: isArabic ? 'جلب مدة الضمان الرسمية من نظام الحسابات' : 'Fetching the official warranty duration',
+        stagePolicy: isArabic ? 'جلب مدة ضمان المتجر من نظام الحسابات' : 'Fetching the store warranty duration',
         stageCompute: isArabic ? 'حساب تواريخ الضمان الفعلية' : 'Computing the effective warranty dates',
         stageSeal: isArabic ? 'توليد رقم الضمان وتوثيق التفعيل' : 'Issuing the warranty number and sealing the record',
         analyzing: isArabic ? 'جارِ الفحص العميق للسجل...' : 'Running deep record analysis...',
     };
 
-    const products = useMemo(buildProductList, []);
+    const products = useMemo(() => buildProductList(), []);
     const filteredProducts = useMemo(() => {
         const q = productSearch.trim().toLowerCase();
         return products.filter((p) => {
@@ -301,6 +301,8 @@ export default function VerifyClient() {
         setProgress(100);
         try {
             localStorage.setItem('cv_verify_completed', 'true');
+            // finalize() runs only from the submit/selection handlers, never during render.
+            // eslint-disable-next-line react-hooks/purity
             localStorage.setItem('cv_verify_ts', Date.now().toString());
         } catch { /* التخزين قد يكون معطلاً في التصفح الخاص */ }
         track('warranty_verification_found', {
@@ -434,7 +436,8 @@ export default function VerifyClient() {
 
     return (
         <div style={styles.container} dir={isArabic ? 'rtl' : 'ltr'}>
-            <main style={styles.card}>
+            {/* A <div>, not <main>: the locale layout already renders the page's single <main>. */}
+            <div style={styles.card}>
                 {stage === 'idle' && (
                     <>
                         <span style={styles.label}>✓ {t.badge}</span>
@@ -623,7 +626,7 @@ export default function VerifyClient() {
                         </button>
                     </>
                 )}
-            </main>
+            </div>
         </div>
     );
 }

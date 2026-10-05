@@ -39,15 +39,6 @@ export const joyroom_audio_content: CategoryContent = {
                     ],
                     buyingGuide: [
                         {
-                            title: 'مقارنة الموديلات: أي T03s يناسبك؟',
-                            content: `
-| الموديل | السعر الحالي | ANC | عمر البطارية | الاستخدام المقترح |
-|---------|---------------|-----|---------------|-------------------|
-| **JR-T03** | راجع صفحة المنتج | راجع المواصفات | المدة المعلنة في صفحة المنتج | تصميم مفتوح للاستخدام اليومي |
-| **T03s Pro** | راجع صفحة المنتج | حسب الإصدار | المدة المعلنة في صفحة المنتج | قارن العزل والمكالمات والملاءمة |
-`
-                        },
-                        {
                             title: 'جدول الفائدة: ماذا تعني كل ميزة لك؟',
                             content: `
 | الميزة التقنية | ماذا تعني لك؟ |
@@ -72,20 +63,15 @@ export const joyroom_audio_content: CategoryContent = {
                         }
                     ],
                     faq: [
-                        { question: 'ما الفرق بين JR-T03 و T03s Pro؟', answer: 'راجع جدول المقارنة في دليل الشراء بالأعلى. باختصار: JR-T03 تصميم ايربودز كلاسيكي بدون عزل، وT03s Pro بعزل ضوضاء ANC وSpatial Audio للاستخدام اليومي.' },
+                        { question: 'ما الفرق بين JR-T03 و T03s Pro؟', answer: 'JR-T03 سماعة بدون عزل ضوضاء نشط (ANC)، بتشغيل إجمالي معلن حتى 20 ساعة وBluetooth 5.0 وتصنيف IPX4. أما T03S Pro فتذكر مواصفاتها عزل ضوضاء نشط (ANC) وتصنيف IPX5، فاختارها لو محتاج تقلل ضوضاء المواصلات. السعر الحالي لكل موديل على بطاقة المنتج.' },
                         { question: 'هل سماعات جوي روم بتشتغل مع ايفون وسامسونج؟', answer: 'تعمل موديلات Bluetooth المتوافقة مع iPhone وSamsung، لكن Pop-up Pairing والمساعد الصوتي وإصدار البلوتوث تختلف حسب الموديل والجهاز. راجع صفحة المنتج قبل الشراء.' },
                         { question: 'ما الفرق بين جوي روم وAirPods؟', answer: 'قارن موديلًا بموديل في ANC والميكروفونات والترميز والملاءمة وعمر البطارية وتكامل النظام. لا تتطابق كل ميزات جوي روم مع AirPods، والسعر الحالي يظهر في صفحة كل منتج.' },
-                        { question: 'كم عمر بطارية سماعات جوي روم؟', answer: 'يختلف حسب الموديل ومستوى الصوت وتشغيل ANC والمكالمات. راجع مدة التشغيل المعلنة في جدول المقارنة وصفحة المنتج.' },
+                        { question: 'كم عمر بطارية سماعات جوي روم؟', answer: 'يختلف حسب الموديل ومستوى الصوت وتشغيل ANC والمكالمات. راجع مدة التشغيل المعلنة في صفحة كل منتج؛ JR-T03 مثلًا معلن له تشغيل إجمالي حتى 20 ساعة.' },
                         { question: 'ما ضمان سماعات جوي روم من CairoVolt؟', answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال موضحة في صفحة المنتج وسياسة الضمان. احتفظ بالفاتورة وبيانات الموديل عند طلب الدعم.' },
                         { question: 'هل سماعات جوي روم مقاومة للماء والعرق؟', answer: 'موديل T03s Pro يحمل تصنيف IPX5 وفق مواصفات الشركة، ما يجعله مناسباً للعرق ورذاذ الماء ضمن حدود التصنيف. لا تستخدمه للسباحة أو الغمر.' },
                         { question: 'هل فيه تطبيق لضبط صوت سماعة جوي روم؟', answer: 'دعم التطبيق وميزات EQ وANC والتحديثات تختلف حسب الموديل. راجع صفحة المنتج وقائمة الموديلات المدعومة في متجر التطبيق قبل الاعتماد على الميزة.' },
                         { question: 'سماعة جوي روم ولا سماعة بدون علامة؟ إيه الفرق؟', answer: 'قارن المواصفات المكتوبة والملاءمة وسياسة الضمان وخدمة ما بعد البيع. ضمان كايرو فولت ومدته حسب المنتج، ولا يُعد وجود كود على العبوة دليلاً منفرداً على أصالة الشركة المصنّعة.' }
                     ],
-                    products: [
-                        { name: 'Joyroom T03s Pro ANC', price: 664, badge: 'ANC حسب الإصدار' },
-                        { name: 'Joyroom JR-T03 لاسلكي', price: 774, badge: 'بديل ايربودز كلاسيكي' },
-                        
-                    ]
                 },
                 en: {
                     title: 'Joyroom Earbuds for Daily Listening and Calls',
@@ -108,15 +94,6 @@ Compare ANC modes, microphone count, fit, and rated battery life to choose a mod
                         { type: 'expert_verified', text: 'ANC, IP rating, and battery vary by model' }
                     ],
                     buyingGuide: [
-                        {
-                            title: 'Model Comparison: Which T03s Fits You?',
-                            content: `
-| Model | Current Price | ANC | Rated Battery | Suggested Use |
-|-------|---------------|-----|---------------|---------------|
-| **JR-T03** | See product page | Check specification | Listed on product page | Open-style daily listening |
-| **T03s Pro** | See product page | Version dependent | Listed on product page | Compare isolation, calls, and fit |
-`
-                        },
                         {
                             title: 'Feature Benefits: What Each Spec Means for You',
                             content: `
@@ -144,7 +121,7 @@ A code or warranty record alone does not prove manufacturer authenticity. Match 
                     faq: [
                         {
                             question: 'What is the difference between JR-T03 and T03s Pro?',
-                            answer: 'See the comparison table in the buying guide above. In short: JR-T03 is a classic earbuds design without noise cancellation, while T03s Pro lists ANC and Spatial Audio for everyday use.'
+                            answer: 'The JR-T03 has no active noise cancellation (ANC); it is rated for up to 20 hours total playback, with Bluetooth 5.0 and an IPX4 listing. The T03S Pro lists ANC and an IPX5 rating, so choose it if you want to cut commute noise. The current price of each model is on its product card.'
                         },
                         {
                             question: 'Do Joyroom earbuds work with iPhone and Samsung?',
@@ -156,7 +133,7 @@ A code or warranty record alone does not prove manufacturer authenticity. Match 
                         },
                         {
                             question: 'How long does Joyroom earbud battery last?',
-                            answer: 'It varies by model, volume, ANC use, and calls. Check the published runtime in the comparison table and on the product page.'
+                            answer: 'It varies by model, volume, ANC use, and calls. Check the published runtime on each product page; the JR-T03, for example, is rated for up to 20 hours total playback.'
                         },
                         {
                             question: 'What warranty covers Joyroom earbuds from CairoVolt?',
@@ -175,11 +152,6 @@ A code or warranty record alone does not prove manufacturer authenticity. Match 
                             answer: 'Compare written specifications, fit, warranty policy, and after-sales support. CairoVolt warranty duration is per product, and a code on the packaging alone is not independent proof of manufacturer authenticity.'
                         }
                     ],
-                    products: [
-                        { name: 'Joyroom T03s Pro ANC', price: 664, badge: 'ANC by Version' },
-                        { name: 'Joyroom JR-T03 لاسلكي', price: 774, badge: 'بديل ايربودز كلاسيكي' },
-                        { name: 'Joyroom JR-T03 Wireless', price: 774, badge: 'Classic AirPods style' },
-                    ]
                 }
             }
         };

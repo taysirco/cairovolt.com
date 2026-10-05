@@ -54,7 +54,7 @@ export const jbl_partybox_1000 = {
         <li>Weight: JBL lists 34.7kg. A unit that two people lift easily is not carrying the drivers and amplifier this model is built around.</li>
         <li>Packaging: the original carton has sharp print, correct spelling, and a labelled serial number matching the unit.</li>
         <li>App recognition: a genuine PartyBox 1000 is recognised by the official JBL PartyBox app — most fakes never appear in it.</li>
-        <li>Price logic: a "new" PartyBox 1000 offered around 40% below our price (roughly 37,500 EGP or less) is almost certainly not genuine or not new.</li>
+        <li>Price logic: a "new" PartyBox 1000 offered around 40% below our price is almost certainly not genuine or not new.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -97,7 +97,7 @@ export const jbl_partybox_1000 = {
         <li>الوزن: JBL معلنة 34.7 كيلو. وحدة اتنين بيشيلوها بسهولة زيادة عن اللزوم مش شايلة الدرايفرات والأمبليفاير اللي الموديل ده مبني عليهم.</li>
         <li>الكرتونة: الأصلية طباعتها حادة، إملاؤها سليم، وعليها رقم تسلسلي مطابق للوحدة.</li>
         <li>التطبيق: الـPartyBox 1000 الأصلية بيتعرف عليها تطبيق JBL PartyBox الرسمي — أغلب التقليد عمره ما بيظهر فيه.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 37,500 جنيه أو أقل) شبه مؤكد مش أصلية أو مش جديدة.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية أو مش جديدة.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

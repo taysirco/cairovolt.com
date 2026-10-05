@@ -4,15 +4,15 @@ export const anker_power_bank_20000mah_models_comparison: BlogArticle = {
     slug: 'anker-power-bank-20000mah-models-comparison',
     category: 'comparison',
     publishDate: '2026-08-05T13:56:00+03:00',
-    modifiedDate: '2026-08-05T13:56:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         "anker-zolo-a110e-20000",
+        "anker-zolo-a1681-20000",
         "anker-prime-a1695-25000",
         "anker-prime-a1336-20000mah-power-bank",
-        "anker-powercore-10000",
-        "joyroom-power-bank-10000",
-        "joyroom-magnetic-power-bank-10000"
+        "anker-zolo-a110d-10000",
+        "anker-powercore-26800"
 ],
     relatedArticles: [
         'anker-vs-joyroom-power-banks-12-models-tested',
@@ -33,15 +33,15 @@ export const anker_power_bank_20000mah_models_comparison: BlogArticle = {
             metaDescription: 'مقارنة شاملة لكل باور بانكات انكر 20000mAh في مصر: زولو A110E، زولو A1681، وزولو A1695. جدول بالوزن وأقصى خرج وعدد شحنات آيفون والسعر بالجنيه.',
             keywords: 'باور بانك انكر 20000mAh, انكر زولو A1681, انكر زولو A110E, انكر برايم 20000, مقارنة باور بانك انكر, باور بانك 20000 مصر, افضل باور بانك 20000 mAh, انكر 20000 سعر مصر, باور بانك شحن سريع 20000, anker power bank 20000 egypt',
             excerpt: 'عندك تلاتة موديلات انكر 20000mAh في السوق المصري — كل واحد بسعر وأداء مختلف. مقارنة بالأرقام: الوزن والخرج وعدد شحنات آيفون 17 والسعر عشان تختار الصح.',
-            quickAnswer: 'انكر زولو A110E (1,730ج) أرخص وأخف — 447 جرام و22.5W — يكفي لمعظم الناس. انكر زولو A1681 (2,200ج) يضيف شحن 30W وكابلين مدمجين (USB-C + Lightning). انكر زولو A1695 (3,950ج) للأداء الاحترافي وشحن اللابتوب بـ 140W و3 منافذ. لو بتشحن موبايل بس → زولو A110E هو الاختيار الأذكى.',
-            content: `<p>لما تيجي تشتري باور بانك 20000mAh من انكر، هتلاقي في السوق المصري على الأقل تلاتة موديلات رئيسية — وكل واحد فيهم بسعر مختلف بفرق أحياناً يوصل لـ 2,000 جنيه. السؤال المنطقي: الفرق ده بيشتريلك إيه بالضبط؟</p>
+            quickAnswer: 'لمعظم الناس اختيارنا انكر زولو A110E ({{price:anker-zolo-a110e-20000}} جنيه): 20,000 مللي أمبير و22.5 واط بكابل USB-C مدمج، وقسنا منه 62.0 واط/ساعة قابلة للاستخدام. زولو A1681 ({{price:anker-zolo-a1681-20000}} جنيه) بيضيف كابل لايتننج و30 واط لكنه ضمن برنامج استدعاء انكر rc2506 — افحص السيريال. وزولو A1695 ({{price:anker-prime-a1695-25000}} جنيه) للابتوب: 165 واط إجمالي.',
+            content: `<p>لما تيجي تشتري باور بانك 20000mAh من انكر، هتلاقي على كايرو فولت تلات موديلات رئيسية بأسعار مختلفة. السؤال المنطقي: الفرق ده بيشتريلك إيه بالضبط؟</p>
 
-<p>المقارنة دي بالأرقام الحقيقية — مش كلام تسويقي. وزن كل موديل، أقصى خرج، كام مرة بيشحن آيفون 17، وامتى كل موديل يستحق سعره.</p>
+<p>المقارنة دي بالأرقام: الطاقة اللي قسناها فعلاً، الوزن، أقصى خرج، كام مرة بيشحن آيفون 17 (تقديري)، وامتى كل موديل يستحق سعره.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E</a> هو الخيار الأمثل لمعظم المصريين — 22.5W شحن سريع، وزن معقول، سعر 1,730ج. <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a> يستحق الفرق لو عايز كابلين مدمجين وشحن أسرع 30W. <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر زولو A1695</a> للمحترفين ولشحن اللابتوب — 140W و3 منافذ.
+        <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E</a> اختيارنا لمعظم المصريين — 22.5 واط بكابل USB-C مدمج وسعره {{price:anker-zolo-a110e-20000}} جنيه. <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a> بيضيف كابل لايتننج و30 واط، لكنه ضمن برنامج استدعاء انكر rc2506 فلازم تفحص السيريال. <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر زولو A1695</a> للمحترفين ولشحن اللابتوب — 165 واط إجمالي وحتى 100 واط للمنفذ الواحد.
     </p>
 </div>
 
@@ -59,169 +59,181 @@ export const anker_power_bank_20000mah_models_comparison: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">السعة</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">25,000mAh</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh (74Wh)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh (74Wh)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">25,000mAh (90Wh)</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">الوزن</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>447 جرام ⭐</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">447 جرام</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">450 جرام</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">الطاقة القابلة للاستخدام (قياسنا)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">62.0Wh</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">لم نقسه (موديل ضمن برنامج استدعاء)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">76.9Wh</td>
         </tr>
         <tr>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">الوزن</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">394 جرام (قياسنا)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">— (راجع صفحة المنتج)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">571 جرام (قياسنا)</td>
+        </tr>
+        <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">أقصى خرج</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">22.5W</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#2563eb;"><strong>30W PD</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#2563eb;"><strong>140W PD</strong></td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">شحنات آيفون 17 (3,561mAh)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~3.8 مرة</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~3.7 مرة</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>~4.7 مرة ⭐</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#2563eb;"><strong>30W</strong> (كابل USB-C)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#2563eb;"><strong>165W</strong> إجمالي (حتى 100W للمنفذ)</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">عدد المنافذ</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">2 (USB-C + USB-A)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">2 (USB-C + USB-A)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#2563eb;"><strong>3 (2×USB-C + USB-A)</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">شحنات آيفون 17 (تقديري)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">~3.8 مرة (62.0 × 0.85 ÷ 13.72)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">—</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">~4.8 مرة (76.9 × 0.85 ÷ 13.72)</td>
         </tr>
         <tr style="background:#f9fafb;">
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">المخارج</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">كابل USB-C مدمج + حتى 3 مخارج</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">كابل USB-C + كابل لايتننج مدمجين + USB-C + USB-A</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">كابل USB-C قابل للسحب + كابل USB-C مدمج + USB-C + USB-A</td>
+        </tr>
+        <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">شحن اللابتوب</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ لا</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ خفيف (MacBook Air)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ ثقيل (لابتوب جيمينج)</td>
-        </tr>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">شاشة رقمية</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">LED بار</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">LED بار</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>شاشة رقمية ذكية</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">بطيء فقط (30W)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ (حتى 100W للمنفذ)</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">السعر بمصر</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>1,730ج ⭐</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">2,200ج</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">3,950ج</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">الشاشة</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">شاشة رقمية</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">شاشة رقمية</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">شاشة ذكية بالواط والوقت</td>
+        </tr>
+        <tr>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">الاستدعاء</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">غير مُستدعى</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">ضمن برنامج rc2506 — افحص السيريال على anker.com/rc2506</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">غير مُستدعى</td>
+        </tr>
+        <tr style="background:#f9fafb;">
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">السعر</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>{{price:anker-zolo-a110e-20000}} جنيه</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">{{price:anker-zolo-a1681-20000}} جنيه</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">{{price:anker-prime-a1695-25000}} جنيه</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">الضمان</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">18 شهر</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">18 شهر</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">18 شهر</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">ضمان كايرو فولت المكتوب</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">ضمان كايرو فولت المكتوب</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">ضمان كايرو فولت المكتوب</td>
         </tr>
     </tbody>
 </table>
 
 <h2>انكر زولو A110E — الخيار العقلاني لمعظم الناس</h2>
-<p>السعة 20,000mAh والخرج 22.5W عبر USB-C. الوزن 447 جرام — مش خفيف زي الـ 10,000mAh (180 جرام)، لكنه مقبول جداً للحقيبة. بيشحن آيفون 17 من 0% لـ 100% تقريباً 3.8 مرة، وسامسونج S26 Ultra تقريباً 2.7 مرة.</p>
-<p>أهم ميزة: يشحن نفسه بـ 22.5W عبر USB-C — يعني لو عندك شاحن GaN 30W أو أكتر، هتشحنه من فاضي لممتلئ في أقل من ساعتين ونص. مقارنةً بالموديلات القديمة التي كانت تأخذ 5-6 ساعات كاملة لشحن سعتها الضخمة.</p>
-<p>مين يناسبه؟ الطالب الجامعي، الشخص اللي بيسافر، اللي بيشتغل بره المكتب. لو بتشحن موبايل وسماعات وساعة ذكية — A110E هو الاختيار الأذكى بسعره القوي.</p>
+<p>السعة 20,000mAh والخرج 22.5W عبر كابل USB-C مدمج. في اختبار كايرو فولت قسنا 62.0 واط/ساعة قابلة للاستخدام، والوزن 394 جرام (انكر بتذكر 392). يعني حوالي 3.8 شحنة لآيفون 17 (تقديري).</p>
+<p>بيشحن نفسه بقدرة حتى 20 واط عبر USB-C، وقسنا 3 ساعات و6 دقايق من الصفر لـ 100% على شاحن 20 واط تقريباً. الشاحن الأقوى مش هيقصّر الوقت لأن الدخل محدود.</p>
+<p>مين يناسبه؟ الطالب الجامعي، الشخص اللي بيسافر، اللي بيشتغل بره المكتب. لو بتشحن موبايل وسماعات وساعة ذكية — A110E اختيارنا.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📐 حساب عدد الشحنات — إزاي بنحسب؟</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        المعادلة: سعة الباور بانك (Wh) × كفاءة التحويل (90%) ÷ سعة الموبايل (Wh). انكر زولو A110E: 74Wh × 0.90 ÷ 13.72Wh (آيفون 17) = 4.85 شحنة نظرياً. لكن عملياً بناخد 78-80% من النظري = حوالي 3.8 شحنة. الفرق بسبب حرارة الموبايل وكفاءة كابل الشحن.
+        المعادلة: الطاقة القابلة للاستخدام اللي قسناها (Wh) × 0.85 (فقد الشحن جوه الموبايل) ÷ بطارية الموبايل (Wh). انكر زولو A110E: 62.0 × 0.85 ÷ 13.72 (آيفون 17) ≈ 3.8 شحنة. الرقم تقديري ويقل مع الحرارة والاستخدام أثناء الشحن.
     </p>
 </div>
 
 <h2>فهم دورات الشحن الكيميائية وصحة خلايا بطارية الباور بانك</h2>
-<p>يتأثر العمر الافتراضي لأي شاحن متنقل بنوع الخلايا الكيميائية المستخدمة داخله وطريقة إدارتها للحرارة أثناء تفريغ الطاقة. تعتمد عائلة باور بانك انكر زولو (ZOLO) على خلايا ليثيوم بوليمر (Li-Polymer) مسطحة ومدمجة، وهي خلايا ممتازة وتوفر أبعاداً نحيفة للغاية ووزناً خفيفاً، وتستمر في العمل بكفاءة عالية لـ 300 إلى 500 دورة شحن كاملة قبل أن تبدأ سعتها الفعلية بالتناقص تدريجياً.</p>
-<p>في المقابل، تستخدم سلسلة أنكر برايم (Prime) الاحترافية خلايا أسطوانية عالية التفريغ (High-Discharge Cylindrical Cells) مشابهة لتلك المستخدمة في السيارات الكهربائية. هذه الخلايا الأسطوانية تمتاز بقدرتها على تحمل تيارات كهربائية ضخمة جداً (تصل لـ 140 واط) وتتحمل الإجهاد الحراري بكفاءة أعلى بكثير، كما توفر عمراً أطول يصل لـ 800 دورة شحن كاملة قبل تدهور السعة، وهو ما يبرر فارق السعر الكبير للمستخدمين المحترفين.</p>
+<p>العمر الافتراضي لأي شاحن متنقل بيتأثر بالحرارة وعمق التفريغ وعدد الدورات. أكتر حاجة بتقصّر عمر خلايا الليثيوم هي الحرارة العالية والتخزين وهي فاضية تماماً أو مليانة تماماً لفترات طويلة.</p>
+<p>الموديلات الأكبر زي زولو A1695 (25,000 مللي أمبير، 90 واط/ساعة) مصممة لتيارات خرج أعلى بكتير من الموديلات الصغيرة، وده جزء من سبب فرق السعر والوزن.</p>
 
-<h2>نظام التبريد الذكي وتبديد الحرارة في باور بانك انكر</h2>
-<p>ينتج عن تقنية الشحن السريع بالوات المرتفع (Power Delivery) طاقة حرارية لا يستهان بها، خاصةً عند تعبئة بطارية باور بانك بسعة ضخمة مثل 20000 مللي أمبير. لحماية المكونات الداخلية، قامت أنكر بدمج مستشعرات حرارية ذكية تقوم بقياس درجة حرارة اللوحة الإلكترونية والخلايا في الوقت الحقيقي. إذا تجاوزت الحرارة 40 درجة مئوية أثناء الشحن السريع في مناخ صيف مصر الحار، تقوم شريحة التحكم تلقائياً بخفض تيار الشحن تدريجياً للحفاظ على برودة الأجهزة.</p>
-<p>تم تصميم الهيكل الخارجي للباور بانك من مادة البولي كربونات المقاومة للحرارة العالية، وهي مادة هندسية تساهم في توزيع الطاقة الحرارية بانتظام عبر سطح الباور بانك الخارجي، مما يمنع تكون بؤر ساخنة مركزية ويطيل العمر الافتراضي لعمر البطارية الكيميائي بشكل ملحوظ.</p>
+<h2>نظام التبريد وتبديد الحرارة في باور بانك انكر</h2>
+<p>الشحن السريع بالوات المرتفع بيولّد حرارة، خصوصاً في صيف مصر. في اختبارنا، سطح A110E وصل 41.2°م بعد 15 دقيقة عند حوالي 22 واط. وزولو A1695 فيه مروحة تبريد حسب انكر، لأنه بيطلع قدرات أعلى بكتير.</p>
+<p>القاعدة العملية: متشحنش الباور بانك وهو مغطى أو على تابلوه العربية في الشمس، ووقّف استخدام أي باور بانك منفوخ أو سخن بشكل غير طبيعي.</p>
 
 <h2>توزيع الطاقة الذكي والشحن الديناميكي للمنافذ المتعددة</h2>
-<p>عند شحن أكثر من جهاز معاً، تتدخل شريحة توزيع الطاقة الذكية (Power Allocation IC) لإعادة التفاوض بشأن بروتوكول الشحن (USB PD Handshake). تقوم الشريحة بقراءة متطلبات الطاقة لكل هاتف أو لابتوب متصل، وتقوم بتقسيم الجهد والتيار المتاحين بشكل ديناميكي لضمان شحن كل الأجهزة بأمان ودون التسبب في زيادة الحمل الحراري على الباور بانك.</p>
-<p>على سبيل المثال، في موديل زولو 45 واط، عند شحن لابتوب بمفرده ستحصل على القدرة الكاملة 45 واط. ولكن بمجرد توصيل هاتف آيفون بالمنفذ الثاني، تتم إعادة تهيئة خطوط الطاقة لتعطي اللابتوب 30 واط فقط، وتوجه الـ 15 واط المتبقية للهاتف، مما يضمن استمرارية الشحن لكافة أجهزتك بأمان كافٍ.</p>
+<p>عند شحن أكتر من جهاز مع بعض، الباور بانك بيعيد التفاوض على بروتوكول الشحن (USB PD) ويقسم القدرة المتاحة بين الأجهزة. القدرة الإجمالية ليها سقف، فكل جهاز بياخد أقل من أقصى خرج لوحده.</p>
+<p>مثال: زولو A1695 بيدّي حتى 100 واط لمنفذ USB-C واحد، و165 واط إجمالي لما تشغّل أكتر من منفذ. ولو محتاج أقصى سرعة لجهاز واحد، وصّله لوحده.</p>
 
 <h2>وضعية الشحن الطفيف للأجهزة الإكسسوارات الصغيرة (Trickle Charging)</h2>
-<p>من المشاكل الشائعة التي تواجه المستخدمين عند شحن الساعات الذكية أو سماعات AirPods اللاسلكية هي توقف الشحن فجأة بعد دقيقتين. تسحب هذه الإكسسوارات الصغيرة تياراً منخفضاً للغاية (أقل من 50 مللي أمبير)، مما يخدع شريحة الباور بانك ويجعلها تعتقد أنه لا يوجد جهاز موصل، فتقوم بفصل مخرج الطاقة تلقائياً لتوفير شحن البطارية.</p>
-<p>لتجنب هذه المشكلة، قامت أنكر بتضمين "وضعية الشحن الطفيف" (Trickle Charging Mode). لتفعيل هذه الوضعية في موديلات زولو، اضغط مرتين متتاليتين على زر الطاقة الجانبي أو اضغط مطولاً لمدة ثانيتين حتى يتحول مؤشر LED الدائري إلى اللون الأخضر. تبقي هذه الوضعية مخرج الطاقة نشطاً باستمرار لمدة ساعتين متواصلتين لشحن إكسسواراتك الصغيرة بأمان ودون انقطاع، وتغلق تلقائياً بعد انتهاء المدة.</p>
+<p>من المشاكل الشائعة عند شحن الساعات الذكية أو السماعات اللاسلكية إن الشحن يقف فجأة بعد شوية، لأن التيار اللي بتسحبه صغير جداً فالباور بانك بيفتكر إن مفيش جهاز متوصل.</p>
+<p>موديلات انكر الحديثة فيها وضع للأجهزة منخفضة الاستهلاك (A110E مدرج فيه Low-Power Mode). طريقة تفعيله بتختلف من موديل للتاني، فراجع دليل المستخدم الخاص بموديلك.</p>
 
-<h2>كيف تتجنب المنتجات المقلدة: كود التحقق الرسمي من انكر بمصر</h2>
-<p>نظراً للشعبية الجارفة لباور بانكات أنكر في السوق المصري، تنتشر بكثرة نسخ مقلدة مجهولة المصدر تباع بأسعار منخفضة بشكل مريب على منصات التجارة الإلكترونية غير الموثوقة. لشراء منتج أصلي وحماية أجهزتك، يجب دائماً فحص علبة الباور بانك الخارجية والبحث عن ملصق التحقق الأمني المائي الذي يحتوي على طبقة رمادية قابلة للخدش.</p>
-<p>تحت هذه الطبقة ستجد كوداً أمنياً فريداً يتكون من 20 رقماً. يمكنك الدخول لموقع أنكر الرسمي وإدخال هذا الكود للتأكد من أصالة المنتج وصلاحية الضمان المحلي البالغ 18 شهراً. جميع منتجات أنكر المباعة على كايرو فولت مضمونة أصلية 100% وتأتي من الوكلاء الرسميين لضمان راحة بالك الكاملة.</p>
+<h2>كيف تتجنب المنتجات المقلدة: كود التحقق من انكر</h2>
+<p>نظراً لشعبية باور بانكات انكر في السوق المصري، بتنتشر نسخ مقلدة بأسعار منخفضة بشكل مريب. علب انكر المبيعة في المحلات بيكون عليها ملصق أمان بكود من 16 أو 20 رقم تحت طبقة كشط — ادخله على anker.com/verify. انكر بتقول إن غياب الملصق مش دليل تقليد، لأن الكود موجود بس على المنتجات المبيعة في المحلات.</p>
+<p>وفي كل الأحوال: اشتري من بائع بيدي فاتورة وضمان مكتوب باسمه وكيانه القانوني، وطابق الموديل والقدرات على الجهاز مع مستندات انكر — العلبة أو الباركود لوحدهم مش إثبات أصالة. منتجات انكر على كايرو فولت عليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج).</p>
 
-<h2>انكر زولو A1681 — لما تحتاج كابلين مدمجين وشحن أسرع</h2>
-<p>نفس الوزن تقريباً (447 جرام) ونفس السعة (20,000mAh)، لكن الفرق الجوهري: كابلان مدمجان — USB-C بقوة 30W و Lightning بقوة 27W — فوق منفذ USB-A بقوة 22.5W. يعني بتشحن آيفون وأندرويد وسماعة من غير ما تشيل ولا كابل واحد.</p>
-<p>السؤال: هل الفرق 470 جنيه (بين A110E وA1681) يستحق؟ الإجابة بسيطة — لو عايز الكابلين المدمجين وسرعة 30W بدل 22.5W: أيوا، يستحق. لو بتشحن موبايل واحد بكابلك الخاص: لا، وفّر فلوسك. ولو محتاج شحن لابتوب حقيقي: روح على زولو A1695 (165W) أو PowerCore III Elite 26K (60W).</p>
-<p>ملاحظة مهمة: A1681 بيطلع 30W على كابل USB-C المدمج. لو شغّلت أكتر من مخرج في نفس الوقت، الخرج بينقسم بين الأجهزة حسب احتياج كل جهاز.</p>
+<h2>انكر زولو A1681 — لما تحتاج كابلين مدمجين</h2>
+<p>نفس السعة (20,000mAh)، لكن الفرق الجوهري: كابلان مدمجان — USB-C بقوة 30W ولايتننج بقوة 27W — مع منفذ USB-C ومنفذ USB-A بقوة 22.5W. يعني بتشحن آيفون قديم وأندرويد وسماعة من غير ما تشيل كابل.</p>
+<p><strong>مهم قبل الشراء:</strong> موديل A1681 ضمن برنامج استدعاء انكر rc2506 (مع CPSC) بسبب خطر سخونة وحريق. كايرو فولت فحصت سيريالات مخزونها على anker.com/rc2506 في 2026-07-28 ولقتها خارج النطاق المتأثر، ومع ذلك افحص سيريال وحدتك عند الاستلام. ولو عايز تتجنب مسألة الاستدعاء خالص، A110E بيدّيك نفس السعة.</p>
+<p>هل يستحق فرق السعر عن A110E؟ لو محتاج كابل لايتننج مدمج لآيفون قديم أو عايز 30W بدل 22.5W: ممكن. لو بتشحن موبايل واحد بكابلك: لا، A110E كافي. ولو محتاج شحن لابتوب حقيقي: روح على زولو A1695 (165W) أو <a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb;font-weight:600;">انكر PowerCore III Elite 26K</a> (60W).</p>
 
-<h2>انكر زولو A1695 — الوحش اللي ما يناسبش الكل</h2>
-<p>25,000mAh و140W PD و3 منافذ وشاشة ذكية بتعرضلك الوات الفعلي الداخل والخارج. الوزن 450 جرام فقط بالرغم من الإمكانيات دي — انكر عملوا معجزة هندسية هنا.</p>
-<p>140W معناها: MacBook Pro 14 إنش بيشحن من 0 لـ 50% في 35 دقيقة. لابتوب جيمينج 100W بيشتغل عليه وبيشحن في نفس الوقت. ده مستوى مختلف تماماً عن أي باور بانك تاني في السوق المصري.</p>
-<p>لكن السعر 3,950 جنيه — يعني لو اشتريت A110E (1,730ج) + A1681 (2,200ج) بالفرق ده هتاخد باور بانكين. الحكم: زولو A1695 للمصور أو صاحب اللابتوب الثقيل أو المسافر اللي بيحتاج يشحن 3 أجهزة في نفس الوقت.</p>
-<p>ولو حتى الـ 140 واط مش كفاية ليك، نزل عندنا حديثاً <a href="/anker/power-banks/anker-prime-a1336-20000mah-power-bank" style="color:#2563eb;font-weight:600;">باور بانك انكر برايم 20000 (200W)</a> بسعر 5,900ج — 200 واط كاملة بشاشة ذكية، يعني تقدر تشحن لابتوبين مع بعض في نفس الوقت أو ماك بوك برو بأقصى سرعة شحن ممكنة.</p>
+<h2>انكر زولو A1695 — للابتوب ومش للكل</h2>
+<p>25,000mAh (90 واط/ساعة) و165 واط إجمالي، وحتى 100 واط لمنفذ USB-C واحد، مع كابل USB-C قابل للسحب وكابل USB-C مدمج ومنفذ USB-C ومنفذ USB-A، وشاشة ذكية بتعرض الواط والوقت. في اختبارنا قسنا 76.9 واط/ساعة قابلة للاستخدام، وأعلى ذروة على منفذ واحد 97.8 واط، والوزن 571 جرام.</p>
+<p>100 واط على منفذ واحد معناها إن MacBook Air وMacBook Pro 14 بيشحنوا بشكل طبيعي. والـ PPS فيه من 5 لـ 11 فولت، فبيدعم شحن سامسونج 25 واط لكن مش 45 واط لموبايلات Ultra.</p>
+<p>الحكم: زولو A1695 للمصور أو صاحب اللابتوب أو المسافر اللي بيحتاج يشحن كذا جهاز في نفس الوقت — والسعر {{price:anker-prime-a1695-25000}} جنيه، والوزن أعلى بشكل واضح.</p>
+<p>ولو محتاج قدرة أعلى، فيه <a href="/anker/power-banks/anker-prime-a1336-20000mah-power-bank" style="color:#2563eb;font-weight:600;">باور بانك انكر برايم 20000 (A1336)</a> بسعر {{price:anker-prime-a1336-20000mah-power-bank}} جنيه — 3 مخارج بسقف مشترك 200 واط وشاشة حالة.</p>
 
 <h2>الوزن — الحقيقة اللي المواصفات بتتجاهلها</h2>
-<p>تلاتة الموديلات فرق الوزن بينهم هزيل — A110E وA1681 بـ 447 جرام، وزولو A1695 بـ 450 جرام. الفرق 3 جرام مش محسوس. لكن المقارنة الحقيقية هي مع الـ 10,000mAh:</p>
+<p>الوزن بيفرق بين الموديلات: قسنا A110E بـ 394 جرام وزولو A1695 بـ 571 جرام. والمقارنة الأهم هي مع الـ 10,000mAh:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">الموديل</th>
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">السعة</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">الوزن</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">شحنات آيفون 17</th>
+            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">الوزن (قياسنا)</th>
+            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">شحنات آيفون 17 (تقديري)</th>
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">وزن إضافي للـ شحنة الزيادة</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">انكر باور كور 10K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو A110D 10K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">10,000mAh</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>180 جرام</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~1.9 مرة</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>231 جرام</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">~1.9 مرة (31.1 × 0.85 ÷ 13.72)</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">—</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E 20K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">447 جرام</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~3.8 مرة</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">+267 جرام لـ 1.9 شحنة زيادة</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">394 جرام</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">~3.8 مرة (62.0 × 0.85 ÷ 13.72)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">+163 جرام لـ 1.9 شحنة زيادة</td>
         </tr>
     </tbody>
 </table>
 
-<p>بتدفع 267 جرام إضافية مقابل 1.9 شحنة زيادة تقريباً. لو بتسافر أو بتعمل رحلات طويلة — المقايضة دي منطقية جداً. لو بتمشي في الجامعة وهيبقى في الشنطة طول اليوم — فكّر في <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">انكر باور كور 10,000mAh</a> الأخف.</p>
+<p>بتدفع حوالي 163 جرام إضافية مقابل 1.9 شحنة زيادة تقريباً. لو بتسافر أو بتعمل رحلات طويلة — المقايضة دي منطقية. لو بتمشي في الجامعة وهيبقى في الشنطة طول اليوم — فكّر في انكر زولو A110D 10,000mAh الأخف ({{price:anker-zolo-a110d-10000}} جنيه).</p>
 
 <h2>امتى تدفع أكتر لزولو A1695؟</h2>
-<p>الفرق بين A110E (1,730ج) وزولو A1695 (3,950ج) هو 2,220 جنيه. ده مش قليل. لكن الزولو A1695 بيديك:</p>
+<p>سعر A110E {{price:anker-zolo-a110e-20000}} جنيه وسعر زولو A1695 {{price:anker-prime-a1695-25000}} جنيه (السعر الحالي في صفحة كل منتج). الزولو A1695 بيديك:</p>
 <ul style="padding-right:24px;line-height:2;">
-    <li><strong>140W بدل 22.5W</strong> — شحن لابتوب جيمينج بالكامل في رحلة.</li>
-    <li><strong>3 منافذ بدل 2</strong> — موبايل + لابتوب + تابلت في نفس الوقت.</li>
-    <li><strong>شاشة رقمية ذكية</strong> — بتعرف بالضبط كام واط داخل وخارج، ومتبقى كام وقت.</li>
-    <li><strong>25,000mAh بدل 20,000mAh</strong> — شحنة آيفون زيادة تقريباً.</li>
+    <li><strong>حتى 100W للمنفذ (165W إجمالي) بدل 22.5W</strong> — شحن لابتوب في رحلة.</li>
+    <li><strong>4 مخارج</strong> — موبايل + لابتوب + تابلت في نفس الوقت.</li>
+    <li><strong>شاشة ذكية</strong> — بتعرف كام واط داخل وخارج، ومتبقي كام وقت.</li>
+    <li><strong>76.9 واط/ساعة مقابل 62.0 (قياسنا)</strong> — حوالي شحنة آيفون زيادة.</li>
 </ul>
-<p>لو أنت مصوّر أو يوتيوبر أو مهندس بيشغّل لابتوب تقيل في الميدان — الزولو A1695 بيكسب كل الوقت. لو أنت موظف عادي بتشحن موبايل وسماعات — A110E كافي تماماً.</p>
+<p>لو أنت مصوّر أو يوتيوبر أو مهندس بيشغّل لابتوب في الميدان — الزولو A1695 مناسب ليك. لو أنت موظف بتشحن موبايل وسماعات — A110E كافي تماماً.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ كل موديلات انكر 20000mAh متاحة على كايرو فولت</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ موديلات انكر 20000mAh على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        أصلي 100% بضمان 18 شهر وكود تحقق. <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#166534;font-weight:600;">زولو A110E</a> | <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#166534;font-weight:600;">زولو A1681</a> | <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#166534;font-weight:600;">زولو A1695</a>. توصيل لكل المحافظات + دفع عند الاستلام.
+        بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#166534;font-weight:600;">زولو A110E</a> | زولو A1681 (افحص السيريال على anker.com/rc2506) | <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#166534;font-weight:600;">زولو A1695</a>. توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'إيه الفرق الحقيقي بين انكر زولو A110E وزولو A1681 في الاستخدام اليومي؟',
-                    answer: 'الفرق الحقيقي في حاجتين: A110E يطلع 22.5W بكابل مدمج واحد، وA1681 يطلع 30W ومعاه كابلان مدمجان (USB-C + Lightning) فوق منفذ USB-A. الوزن واحد (447 جرام) والسعة واحدة (20,000mAh). لو الكابلات المدمجة وسرعة الـ 30W مش مهمين ليك، وفّر الـ 470 جنيه فرق.'
+                    answer: 'A110E بيطلع 22.5 واط بكابل USB-C مدمج، وA1681 بيطلع 30 واط ومعاه كابلان مدمجان (USB-C ولايتننج) مع منفذ USB-C ومنفذ USB-A. السعة واحدة (20,000mAh). الفرق المهم كمان إن A1681 ضمن برنامج استدعاء انكر rc2506، فافحص السيريال على anker.com/rc2506. لو الكابلات المدمجة وسرعة 30 واط مش مهمين ليك، A110E كافي.'
                 },
                 {
-                    question: 'هل انكر زولو A1695 يشحن لابتوب جيمينج من 0 لـ 100%؟',
-                    answer: 'يعتمد على حجم البطارية. ASUS ROG بطاريتها 90Wh — الزولو A1695 بسعة 85Wh فعلية هيشحنها من 0 لـ 90% تقريباً. لابتوب Dell XPS 15 ببطارية 86Wh — نفس الشيء. لكن مش هيشحن لابتوب بطاريته 99Wh (زي MacBook Pro 16) من الصفر لـ 100%.'
+                    question: 'هل انكر زولو A1695 يشحن لابتوب من 0 لـ 100%؟',
+                    answer: 'يعتمد على بطارية اللابتوب. قسنا 76.9 واط/ساعة قابلة للاستخدام من A1695، فبعد فقد الشحن يوصل للابتوب حوالي 65 واط/ساعة (تقديري: 76.9 × 0.85). لابتوب ببطارية حوالي 50–60 واط/ساعة ممكن ياخد شحنة كاملة تقريباً، واللابتوبات الأكبر هتاخد جزء. وأقصى خرج لمنفذ USB-C واحد 100 واط.'
                 },
                 {
                     question: 'كام وقت بياخد شحن انكر زولو A110E من الفاضي لـ 100%؟',
-                    answer: 'بشاحن 30W: حوالي 2 ساعة و45 دقيقة. بشاحن 20W: حوالي 3 ساعة و45 دقيقة. بشاحن 65W GaN: الباور بانك نفسه يقبل أقصى 22.5W للشحن الوارد، يعني مش هتستفيد من الـ 65W — التوقيت زي الـ 30W تقريباً.'
+                    answer: 'قسنا 3 ساعات و6 دقايق من الصفر لـ 100% على شاحن حوالي 20 واط، وانكر بتذكر حوالي 3 ساعات. الدخل محدود بـ 20 واط تقريباً، فشاحن 65 واط مش هيقصّر الوقت.'
                 },
                 {
                     question: 'ممكن أشحن بالزولو A1681 أكتر من جهاز في نفس الوقت؟',
-                    answer: 'أيوا، لغاية 3 أجهزة: كابل USB-C المدمج (حتى 30W) + كابل Lightning المدمج (حتى 27W) + منفذ USB-A (حتى 22.5W). لما تشغّل أكتر من مخرج في نفس الوقت، القدرة بتتوزع بينهم حسب احتياج كل جهاز. لو محتاج أقصى سرعة لجهاز واحد، وصّله لوحده.'
+                    answer: 'أيوه، لغاية 4 أجهزة: كابل USB-C المدمج (حتى 30 واط) + كابل لايتننج المدمج (حتى 27 واط) + منفذ USB-C + منفذ USB-A (حتى 22.5 واط). لما تشغّل أكتر من مخرج، القدرة بتتوزع بينهم. وقبل الاستخدام افحص سيريال الوحدة على anker.com/rc2506 لأن الموديل ضمن برنامج استدعاء انكر.'
                 }
             ]
         },
@@ -231,15 +243,15 @@ export const anker_power_bank_20000mah_models_comparison: BlogArticle = {
             metaDescription: 'Comparison of Anker 20000mAh power banks in Egypt: ZOLO A110E, ZOLO A1681, and Zolo A1695. Output, weight, iPhone charge count and EGP price comparison.',
             keywords: 'anker 20000mah power bank comparison, anker zolo a1681 20000, anker zolo a110e review, anker prime 20000, best anker power bank egypt, anker 20000 price egypt, anker power bank 20000 vs 25000, anker 45w power bank, anker 140w power bank, anker zolo comparison egypt',
             excerpt: 'Three Anker 20000mAh models in the Egyptian market — each with different performance and price. A numbers-driven comparison: weight, output, iPhone 17 charges, and price to help you choose right.',
-            quickAnswer: 'Anker ZOLO A110E (1,730 EGP) is the smartest pick for most people — 22.5W fast charging, 447g weight. Anker ZOLO A1681 (2,200 EGP) adds 30W charging plus built-in dual cables (USB-C + Lightning). Anker Zolo A1695 (3,950 EGP) is for professionals and laptop charging, with 140W and 3 ports. If you only charge phones → ZOLO A110E is the right call.',
-            content: `<p>When you go to buy a 20000mAh Anker power bank, you will find at least three main models in the Egyptian market — each at a different price, sometimes with a gap of up to 2,000 EGP. The logical question: what exactly does that premium buy you?</p>
+            quickAnswer: 'For most people our pick is the Anker Zolo A110E (EGP {{price:anker-zolo-a110e-20000}}): 20,000mAh and 22.5W with a built-in USB-C cable, and we measured 62.0Wh usable. The Zolo A1681 (EGP {{price:anker-zolo-a1681-20000}}) adds a Lightning cable and 30W but is in Anker\'s rc2506 recall programme — check the serial. The Zolo A1695 (EGP {{price:anker-prime-a1695-25000}}) is for laptops: 165W combined.',
+            content: `<p>When you go to buy a 20000mAh Anker power bank, you will find three main models on CairoVolt at different prices. The logical question: what exactly does that premium buy you?</p>
 
-<p>This comparison uses real numbers, not marketing copy. The weight of each model, maximum output, how many times it charges an iPhone 17, and when each model is worth its price.</p>
+<p>This comparison uses numbers: the energy we actually measured, weight, maximum output, how many times each charges an iPhone 17 (est.), and when each model is worth its price.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E</a> is the optimal choice for most Egyptians — 22.5W fast charging, reasonable weight, 1,730 EGP. <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a> is worth the premium if you want built-in dual cables and faster 30W charging. <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Zolo A1695</a> is for professionals who need 140W and 3 ports simultaneously.
+        The <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E</a> is our pick for most Egyptians — 22.5W with a built-in USB-C cable at EGP {{price:anker-zolo-a110e-20000}}. The <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a> adds a Lightning cable and 30W, but it is in Anker's rc2506 recall programme, so check the serial. The <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Zolo A1695</a> is for professionals and laptop charging — 165W combined and up to 100W per port.
     </p>
 </div>
 
@@ -248,7 +260,7 @@ export const anker_power_bank_20000mah_models_comparison: BlogArticle = {
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead>
         <tr style="background:#f3f4f6;">
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Specification</th>
+            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Spec</th>
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">ZOLO A110E 20K</th>
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">ZOLO A1681 20K</th>
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Zolo A1695 25K</th>
@@ -257,156 +269,181 @@ export const anker_power_bank_20000mah_models_comparison: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Capacity</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">25,000mAh</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh (74Wh)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh (74Wh)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">25,000mAh (90Wh)</td>
         </tr>
         <tr style="background:#f9fafb;">
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Usable energy (our bench)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">62.0Wh</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Not measured (model in a recall programme)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">76.9Wh</td>
+        </tr>
+        <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Weight</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>447g ⭐</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">447g</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">450g</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">394g (measured)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">— (see product page)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">571g (measured)</td>
         </tr>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Max Output</td>
+        <tr style="background:#f9fafb;">
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Max output</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">22.5W</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#2563eb;"><strong>30W PD</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#2563eb;"><strong>140W PD</strong></td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">iPhone 17 Charges (3,561mAh)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~3.8×</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~3.7×</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>~4.7× ⭐</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#2563eb;"><strong>30W</strong> (USB-C cable)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#2563eb;"><strong>165W</strong> combined (up to 100W per port)</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Number of Ports</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">2 (USB-C + USB-A)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">2 (USB-C + USB-A)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#2563eb;"><strong>3 (2×USB-C + USB-A)</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">iPhone 17 charges (est.)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">~3.8× (62.0 × 0.85 ÷ 13.72)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">—</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">~4.8× (76.9 × 0.85 ÷ 13.72)</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Laptop Charging</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Outputs</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Built-in USB-C cable + up to 3 outputs</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Built-in USB-C + Lightning cables + USB-C + USB-A</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Retractable USB-C cable + built-in USB-C cable + USB-C + USB-A</td>
+        </tr>
+        <tr>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Laptop charging</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ No</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ Light (MacBook Air)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ Heavy (Gaming laptop)</td>
-        </tr>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Display</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">LED bar</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">LED bar</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>Smart digital display</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Slow only (30W)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ (up to 100W per port)</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Price in Egypt</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>1,730 EGP ⭐</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">2,200 EGP</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">3,950 EGP</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Display</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Digital display</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Digital display</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Smart display with watts and time</td>
+        </tr>
+        <tr>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Recall status</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Not recalled</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">In the rc2506 programme — check the serial at anker.com/rc2506</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Not recalled</td>
+        </tr>
+        <tr style="background:#f9fafb;">
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Price</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>EGP {{price:anker-zolo-a110e-20000}}</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">EGP {{price:anker-zolo-a1681-20000}}</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">EGP {{price:anker-prime-a1695-25000}}</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Warranty</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">18 months</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">18 months</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">18 months</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">CairoVolt written store warranty</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">CairoVolt written store warranty</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">CairoVolt written store warranty</td>
         </tr>
     </tbody>
 </table>
 
 <h2>Anker ZOLO A110E — The Rational Choice for Most People</h2>
-<p>20,000mAh capacity with 22.5W output via USB-C. Weight is 447 grams — not as light as the 10,000mAh (180g), but perfectly manageable in a bag. It charges an iPhone 17 from 0% to 100% approximately 3.8 times, and a Samsung S26 Ultra roughly 2.7 times.</p>
-<p>Key advantage: it recharges itself at 22.5W via USB-C — meaning with a 30W GaN charger or better, it goes from empty to full in under two and a half hours. Compare that to older models that took 5-6 hours to recharge themselves.</p>
-<p>Who should buy it? University students, frequent travelers, people who work outside the office. If you are charging a phone, earbuds, and a smartwatch — the A110E is the smartest choice at its price.</p>
+<p>20,000mAh capacity with 22.5W output through a built-in USB-C cable. On the CairoVolt bench we measured 62.0Wh usable and a weight of 394g (Anker lists 392g). That works out to about 3.8 iPhone 17 charges (est.).</p>
+<p>It recharges itself at up to 20W over USB-C; we measured 3 hours 6 minutes from empty to 100% on a ~20W charger. A more powerful charger will not shorten that because the input is limited.</p>
+<p>Who is it for? University students, travelers, anyone working outside the office. If you charge a phone, earbuds and a smartwatch — the A110E is our pick.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📐 How We Calculate Charge Counts</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        Formula: power bank capacity (Wh) × conversion efficiency (90%) ÷ phone battery (Wh). Anker ZOLO A110E: 74Wh × 0.90 ÷ 13.72Wh (iPhone 17) = 4.85 charges theoretically. In practice we get 78-80% of theoretical = about 3.8 charges. The gap accounts for phone heat and cable charging efficiency.
+        Formula: measured usable energy (Wh) × 0.85 (charging loss inside the phone) ÷ phone battery (Wh). Anker ZOLO A110E: 62.0 × 0.85 ÷ 13.72 (iPhone 17) ≈ 3.8 charges. It is an estimate and drops with heat and with using the phone while charging.
     </p>
 </div>
 
-<h2>Understanding Charge Cycles and Battery Health</h2>
-<p>The lifespan of a portable charger is fundamentally tied to the chemistry of its internal cells and how effectively it handles thermal stress during fast charging. Anker\'s ZOLO series utilizes high-density Lithium-Polymer (Li-Polymer) flat pouch cells. These cells are excellent for achieving thin physical profiles and minimizing weight, providing stable performance for 300 to 500 complete charge cycles before capacity begins to degrade.</p>
-<p>For more demanding scenarios, Anker\'s premium Prime series integrates cylindrical lithium cells similar to those found in modern electric vehicles. These cylindrical cells offer superior thermal performance under high-wattage loads (up to 140W) and sustain up to 800 cycles before experiencing significant degradation. Understanding this distinction helps users select the best model for long-term reliability.</p>
+<h2>Understanding Chemical Charge Cycles and Cell Health</h2>
+<p>The lifespan of any power bank depends on heat, depth of discharge and the number of cycles. What shortens lithium cell life most is high heat and long storage completely empty or completely full.</p>
+<p>Larger models such as the Zolo A1695 (25,000mAh, 90Wh) are designed for much higher output currents than small packs, which is part of the reason for the price and weight gap.</p>
 
-<h2>Smart Temperature Control and Heat Dissipation in Anker Power Banks</h2>
-<p>Delivering high-power output via Power Delivery protocols inevitably generates considerable heat within a compact portable shell. To guarantee user safety and protect internal components, Anker integrates continuous thermal monitoring sensors that track temperature fluctuations across the PCB. If temperatures cross 40°C during hot summer days in Egypt, the controller automatically reduces the current to cool the unit down.</p>
-<p>The chassis is made from premium flame-retardant polycarbonate that naturally disperses thermal load across the outer surface, preventing hot spots and ensuring a comfortable touch during high-wattage charging phases.</p>
+<h2>Cooling and Heat Dissipation in Anker Power Banks</h2>
+<p>High-wattage fast charging generates heat, especially in an Egyptian summer. On our bench, the A110E shell reached 41.2°C after 15 minutes at about 22W. Anker lists an active cooling fan in the Zolo A1695 because it delivers much higher power.</p>
+<p>The practical rule: do not charge a power bank while it is covered or sitting on a car dashboard in the sun, and stop using any power bank that swells or runs abnormally hot.</p>
 
-<h2>Smart Power Allocation and Dynamic Charging</h2>
-<p>When charging multiple devices from a multi-output bank like the ZOLO 30W or Zolo A1695 140W, the charger\'s internal Power Delivery controller negotiates the optimal charging profile (USB PD Handshake). The IC reads each connected device\'s power requirements and dynamically adjusts voltage and current levels to prevent overload and excessive heat generation.</p>
-<p>For example, using the Zolo A1695, charging a single USB-C laptop yields up to 140W on that port. If you connect a smartphone to a second port, the chip renegotiates the output, lowering the laptop's share and redirecting part of the power to the phone, protecting both devices and the power bank itself.</p>
+<h2>Intelligent Power Allocation Across Multiple Ports</h2>
+<p>When you charge several devices at once, the power bank renegotiates the charging protocol (USB PD) and splits the available power. Total output has a ceiling, so each device gets less than the single-port maximum.</p>
+<p>Example: the Zolo A1695 delivers up to 100W on a single USB-C port and 165W combined when several ports are in use. If you need maximum speed for one device, connect it alone.</p>
 
 <h2>Trickle Charging Mode for Small Accessories</h2>
-<p>A common issue users face when charging smartwatches or AirPods is the power bank shutting off after two minutes. Because these small accessories draw very low current (often less than 50mA), standard power bank chips assume no device is connected and enter sleep mode to save energy.</p>
-<p>Anker power banks address this with a dedicated "Trickle Charging Mode." To activate it on ZOLO models, double-press the power button or press and hold it for two seconds. The LED indicator light wheel will turn green, indicating that trickle charging is active. This forces the output to remain active for two hours, allowing small accessories to charge fully and safely without interruption.</p>
+<p>A common problem when charging smartwatches or wireless earbuds is that charging stops after a while, because the current they draw is so small that the power bank thinks nothing is connected.</p>
+<p>Recent Anker models include a low-power mode for such devices (the A110E lists a Low-Power Mode). How you enable it differs by model, so check the user guide for yours.</p>
 
-<h2>How to Avoid Fakes: Anker Security Verification in Egypt</h2>
-<p>Given Anker\'s popularity in Egypt, counterfeit models are common on unreliable online marketplaces. Genuine Anker products feature a security label on the retail box containing a scratch-off authentication code. This 20-digit code can be verified on Anker\'s official portal to confirm authenticity and active warranty. All Anker products sold through CairoVolt are 100% authentic, sourced from authorized local distributors, and covered by an 18-month warranty.</p>
+<h2>How to Avoid Counterfeits: Anker's Verification Code</h2>
+<p>Because Anker power banks are popular in Egypt, counterfeits sell at suspiciously low prices. Offline-sold Anker boxes carry a security label with a 16- or 20-digit code under a scratch-off coating — enter it at anker.com/verify. Anker says a missing label does not mean counterfeit, because only offline-sold units carry the code.</p>
+<p>Either way: buy from a seller that issues an invoice and a written warranty naming its legal identity, and match the model and ratings to Anker's documentation — packaging or a barcode alone does not prove authenticity. Anker products on CairoVolt carry CairoVolt's written store warranty (duration shown on each product page).</p>
 
-<h2>Anker ZOLO A1681 — When You Need Built-In Dual Cables and Faster Charging</h2>
-<p>Same weight (447g) and same capacity (20,000mAh), but the critical difference is the built-in dual cables — USB-C at 30W and Lightning at 27W — on top of a 22.5W USB-A port. That means you charge an iPhone, an Android, and earbuds without carrying a single cable.</p>
-<p>The question: is the 470 EGP gap between the A110E and A1681 worth it? Simple answer — if you want the built-in dual cables and 30W instead of 22.5W: yes. If you only charge one phone with your own cable: no, save your money. And if you need real laptop charging: go for the Zolo A1695 (165W) or the PowerCore III Elite 26K (60W).</p>
-<p>Important note: the A1681 delivers 30W on the built-in USB-C cable. If you run more than one output simultaneously, the power splits between devices based on what each one requests.</p>
+<h2>Anker ZOLO A1681 — When You Need Built-In Dual Cables</h2>
+<p>Same capacity (20,000mAh), but the key difference is two built-in cables — USB-C at 30W and Lightning at 27W — plus a USB-C port and a 22.5W USB-A port. You can charge an older iPhone, an Android phone and earbuds without carrying a cable.</p>
+<p><strong>Important before buying:</strong> model A1681 is in Anker's rc2506 recall programme (with the CPSC) over an overheating and fire hazard. CairoVolt checked its stock serials at anker.com/rc2506 on 2026-07-28 and found them outside the affected range; still, check your unit's serial on arrival. If you would rather avoid the recall question entirely, the A110E gives you the same capacity.</p>
+<p>Is it worth the price over the A110E? If you need a built-in Lightning cable for an older iPhone or want 30W instead of 22.5W: possibly. If you charge one phone with your own cable: no, the A110E is enough. If you need real laptop charging: go for the Zolo A1695 (165W) or the <a href="/en/anker/power-banks/anker-powercore-26800" style="color:#2563eb;font-weight:600;">Anker PowerCore III Elite 26K</a> (60W).</p>
 
-<h2>Anker Zolo A1695 — The Beast That Is Not for Everyone</h2>
-<p>25,000mAh, 140W PD, 3 ports, and a smart display showing real-time input and output wattage. The weight is just 450 grams despite those specs — Anker performed an engineering feat here.</p>
-<p>140W means: a MacBook Pro 14-inch charges from 0 to 50% in 35 minutes. A 100W gaming laptop can run and charge simultaneously. This is an entirely different tier from any other power bank in the Egyptian market.</p>
-<p>But at 3,950 EGP, consider this: for that money you could buy both the A110E (1,730 EGP) and the A1681 (2,200 EGP). The verdict: the Zolo A1695 is for photographers, YouTubers, or business travelers who need to charge 3 devices — including a heavy laptop — simultaneously.</p>
-<p>And if even 140W falls short, we have recently stocked the <a href="/en/anker/power-banks/anker-prime-a1336-20000mah-power-bank" style="color:#2563eb;font-weight:600;">Anker Prime 20K 200W</a> at 5,900 EGP — 200W with a smart display, enough to charge two laptops at once or push a MacBook Pro at its maximum charging speed.</p>
+<h2>Anker Zolo A1695 — For Laptops, Not for Everyone</h2>
+<p>25,000mAh (90Wh), 165W combined and up to 100W on a single USB-C port, with a retractable USB-C cable, a built-in USB-C cable, a USB-C port and a USB-A port, plus a smart display showing watts and time. On our bench we measured 76.9Wh usable, a 97.8W single-port peak and a weight of 571g.</p>
+<p>100W on one port means a MacBook Air or MacBook Pro 14 charges normally. Its PPS range is 5–11V, so it supports Samsung 25W charging but not 45W on Ultra models.</p>
+<p>The verdict: the Zolo A1695 is for photographers, laptop owners and travelers who need to charge several devices at once — at EGP {{price:anker-prime-a1695-25000}}, and noticeably heavier.</p>
+<p>If you need even more power, there is the <a href="/en/anker/power-banks/anker-prime-a1336-20000mah-power-bank" style="color:#2563eb;font-weight:600;">Anker Prime 20000 (A1336)</a> at EGP {{price:anker-prime-a1336-20000mah-power-bank}} — three outputs sharing a 200W ceiling, with a status display.</p>
 
-<h2>Weight Tradeoff — What 267 Extra Grams Actually Buys</h2>
+<h2>Weight Tradeoff — What the Extra Grams Actually Buy</h2>
+<p>Weight differs between the models: we measured the A110E at 394g and the Zolo A1695 at 571g. The more useful comparison is with a 10,000mAh pack:</p>
+
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Model</th>
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Capacity</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Weight</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">iPhone 17 Charges</th>
+            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Weight (measured)</th>
+            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">iPhone 17 charges (est.)</th>
+            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Extra weight per extra charge</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">Anker PowerCore 10K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker Zolo A110D 10K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">10,000mAh</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>180g</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~1.9×</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>231g</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">~1.9× (31.1 × 0.85 ÷ 13.72)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">—</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E 20K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">447g</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~3.8×</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">394g</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">~3.8× (62.0 × 0.85 ÷ 13.72)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">+163g for 1.9 extra charges</td>
         </tr>
     </tbody>
 </table>
 
-<p>You pay 267 extra grams for roughly 1.9 additional iPhone 17 charges. If you travel or spend long days away from outlets — that tradeoff is absolutely logical. If you carry it in a university bag all day, consider the lighter <a href="/en/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">Anker PowerCore 10,000mAh</a>.</p>
+<p>You carry about 163 extra grams for roughly 1.9 additional iPhone 17 charges. If you travel or spend long days away from outlets — that tradeoff makes sense. If it sits in a university bag all day — consider the lighter Anker Zolo A110D 10,000mAh (EGP {{price:anker-zolo-a110d-10000}}).</p>
 
 <h2>When to Pay Extra for the Zolo A1695</h2>
-<p>The gap between A110E (1,730 EGP) and Zolo A1695 (3,950 EGP) is 2,220 EGP. Not trivial. But the Zolo A1695 gives you 140W instead of 22.5W, three ports instead of two, a smart digital display, and 5,000mAh more capacity. If you are a photographer, creator, or engineer running a heavy laptop in the field — the Zolo A1695 wins every time. If you are an office worker charging a phone and earbuds — A110E is more than enough.</p>
+<p>The A110E costs EGP {{price:anker-zolo-a110e-20000}} and the Zolo A1695 costs EGP {{price:anker-prime-a1695-25000}} (current prices on each product page). The Zolo A1695 gives you:</p>
+<ul style="padding-left:24px;line-height:2;">
+    <li><strong>Up to 100W per port (165W combined) instead of 22.5W</strong> — laptop charging on the road.</li>
+    <li><strong>4 outputs</strong> — phone + laptop + tablet at the same time.</li>
+    <li><strong>Smart display</strong> — see watts in and out and time remaining.</li>
+    <li><strong>76.9Wh vs 62.0Wh (our bench)</strong> — roughly one more iPhone charge.</li>
+</ul>
+<p>If you are a photographer, a YouTuber or an engineer running a laptop in the field — the Zolo A1695 suits you. If you charge a phone and earbuds — the A110E is completely sufficient.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ All Anker 20000mAh Models Available on CairoVolt</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Anker 20000mAh Models on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        100% authentic with 18-month warranty and verification codes. <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#166534;font-weight:600;">ZOLO A110E</a> | <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#166534;font-weight:600;">ZOLO A1681</a> | <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#166534;font-weight:600;">Zolo A1695</a>. Delivery across all governorates + cash on delivery.
+        Covered by CairoVolt's written store warranty (duration shown on each product page). <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#166534;font-weight:600;">ZOLO A110E</a> | ZOLO A1681 (check the serial at anker.com/rc2506) | <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#166534;font-weight:600;">Zolo A1695</a>. Delivery to all governorates + cash on delivery.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'What is the real difference between Anker ZOLO A110E and ZOLO A1681 in daily use?',
-                    answer: 'The real difference is two things: A110E delivers 22.5W with a single built-in cable, while A1681 delivers 30W and carries built-in dual cables (USB-C + Lightning) plus a USB-A port. Weight and capacity are identical (447g, 20,000mAh). If the built-in cables and 30W speed do not matter to you, save the 470 EGP difference.'
+                    answer: 'The A110E delivers 22.5W through a built-in USB-C cable, while the A1681 delivers 30W and has two built-in cables (USB-C and Lightning) plus a USB-C port and a USB-A port. Capacity is the same (20,000mAh). Another important difference: the A1681 is in Anker\'s rc2506 recall programme, so check the serial at anker.com/rc2506. If built-in cables and 30W do not matter to you, the A110E is enough.'
                 },
                 {
-                    question: 'Can Anker Zolo A1695 fully charge a gaming laptop?',
-                    answer: 'Depends on battery size. ASUS ROG has a 90Wh battery — the Zolo A1695 with ~85Wh actual capacity charges it from 0 to about 90%. A Dell XPS 15 with an 86Wh battery gets the same treatment. But it cannot fully charge a laptop with a 99Wh battery (like MacBook Pro 16) from zero to 100%.'
+                    question: 'Can the Anker Zolo A1695 charge a laptop from 0 to 100%?',
+                    answer: 'It depends on the laptop battery. We measured 76.9Wh usable from the A1695, so after charging losses about 65Wh reaches the laptop (est.: 76.9 × 0.85). A laptop with a battery of about 50–60Wh can get roughly one full charge, and larger laptops a partial one. Maximum output on a single USB-C port is 100W.'
                 },
                 {
-                    question: 'How long does Anker ZOLO A110E take to recharge itself?',
-                    answer: 'With a 30W charger: about 2 hours 45 minutes. With a 20W charger: about 3 hours 45 minutes. With a 65W GaN charger: the power bank itself accepts a maximum of 22.5W input, so you get no benefit from the 65W — timing is similar to the 30W scenario.'
+                    question: 'How long does it take to recharge the Anker ZOLO A110E from empty?',
+                    answer: 'We measured 3 hours 6 minutes from empty to 100% on a ~20W charger, and Anker lists about 3 hours. Input is limited to about 20W, so a 65W charger will not shorten the time.'
                 },
                 {
                     question: 'Can I charge more than one device at the same time with ZOLO A1681?',
-                    answer: 'Yes, up to 3 devices: the built-in USB-C cable (up to 30W) + the built-in Lightning cable (up to 27W) + the USB-A port (up to 22.5W). When more than one output is active, the power splits between devices based on what each one requests. For maximum speed on a single device, connect it alone.'
+                    answer: 'Yes, up to 4 devices: the built-in USB-C cable (up to 30W) + the built-in Lightning cable (up to 27W) + a USB-C port + a USB-A port (up to 22.5W). When several outputs run at once, power is shared between them. Before use, check the unit\'s serial at anker.com/rc2506, because the model is in an Anker recall programme.'
                 }
             ]
         }

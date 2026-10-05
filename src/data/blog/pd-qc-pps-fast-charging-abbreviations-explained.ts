@@ -4,7 +4,7 @@ export const pd_qc_pps_fast_charging_abbreviations_explained: BlogArticle = {
     slug: 'pd-qc-pps-fast-charging-abbreviations-explained',
     category: 'buying-guide',
     publishDate: '2026-07-17T12:00:00+02:00',
-    modifiedDate: '2026-07-17T12:00:00+02:00',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'anker-737-powerbank',
@@ -27,7 +27,7 @@ export const pd_qc_pps_fast_charging_abbreviations_explained: BlogArticle = {
             metaDescription: 'دليل كامل يشرح معاني واختلافات بروتوكولات الشحن السريع الشهيرة PD و QC و PPS بالتفصيل. اعرف البروتوكول المناسب لجهازك الآيفون وسامسونج والماك بوك.',
             keywords: 'اختصارات الشحن السريع, ما هو شاحن pd, شاحن pps سامسونج, تقنية qc 3.0, الفرق بين pd و qc, شحن pps سريع, بروتوكولات الشحن السريع',
             excerpt: 'تشتري شاحناً فتجد عليه رموزاً غريبة مثل PD و QC و PPS؟ نفك لك طلاسم هذه الاختصارات بالفيزياء المبسطة لتختار الشاحن المناسب لهاتفك.',
-            quickAnswer: 'هذه الرموز تشير إلى **بروتوكولات الشحن السريع**: (1) **PD (Power Delivery)** هو المعيار العالمي للشحن الذكي عبر منافذ Type-C ويشحن الآيفون واللابتوب بقوة تصل لـ 240 واط. (2) **QC (Quick Charge)** هو بروتوكول شركة كوالكوم ويشحن أجهزة الأندرويد بمعالجات سناب دراجون. (3) **PPS (Programmable Power Supply)** هو امتداد ذكي لبروتوكول PD، يسمح للشاحن بتعديل الفولت والأمبير بدقة متناهية كل 10 ثوانٍ لتقليل السخونة، وهو البروتوكول المطلوب لشحن هواتف سامسونج الرائدة بأقصى سرعة (Super Fast Charging 2.0).',
+            quickAnswer: 'دي بروتوكولات شحن سريع. PD (USB Power Delivery) هو المعيار المفتوح لمنافذ USB-C ويصل لـ 240 واط في PD 3.1 (حسب USB-IF). QC (Quick Charge) بروتوكول كوالكوم لكثير من موبايلات سناب دراجون. PPS امتداد لـ PD: الموبايل بيطلب الجهد بخطوات دقيقة 20 مللي فولت (TI SSZT602) ويعيد تأكيد طلبه بشكل دوري، وده اللي يحتاجه الشحن فائق السرعة في سامسونج.',
             faq: [
                 {
                     question: 'هل ينفع أشحن آيفون بشاحن مكتوب عليه QC فقط؟',
@@ -94,7 +94,7 @@ export const pd_qc_pps_fast_charging_abbreviations_explained: BlogArticle = {
 <h2>رابعاً: بروتوكول PPS (Programmable Power Supply) — قمة الذكاء الاصطناعي الكهربائي</h2>
 <p>بروتوكول **PPS** هو التعديل الأهم والأذكى الذي تمت إضافته لمعيار **USB-PD 3.0**. في الـ PD التقليدي، الفولت بيكون ثابت (مثلاً 9 فولت) والبطارية بتضطر تخفض الجهد ده داخلياً عشان يناسب جهدها الكيميائي (حوالي 4 فولت)، وعملية التخفيض دي بتولد حرارة ضخمة جوه الموبايل بتبطئ الشحن وتضر البطارية.</p>
 
-<p>هنا بقى بيجي دور الـ PPS. الـ PPS بيحذف البروفايلات الثابتة، وبيسمح للموبايل إنه يتحكم في فولت الشاحن بدقة متناهية ويغيره بزيادات صغيرة جداً تبلغ **20 مللي فولت (0.02 فولت)** كل 10 ثوانٍ! الشاحن هنا بيبعت الكهرباء بالظبط زي ما البطارية محتاجاها كيميائياً في اللحظة دي.</p>
+<p>هنا بقى بيجي دور الـ PPS. الـ PPS بيحذف البروفايلات الثابتة، وبيسمح للموبايل إنه يتحكم في فولت الشاحن بدقة متناهية ويغيره بزيادات صغيرة جداً تبلغ **20 مللي فولت (0.02 فولت)**، والموبايل بيعيد تأكيد طلبه بشكل دوري (<a href="https://www.ti.com/lit/pdf/sszt602" target="_blank" rel="noopener" style="color:#2563eb;">Texas Instruments — SSZT602</a>). الشاحن هنا بيبعت الكهرباء بالظبط زي ما البطارية محتاجاها كيميائياً في اللحظة دي.</p>
 
 <p>تأثير الـ PPS السحري يتلخص في نقطتين:</p>
 <ol style="line-height:2;">
@@ -169,7 +169,7 @@ export const pd_qc_pps_fast_charging_abbreviations_explained: BlogArticle = {
             metaDescription: 'De-mystify fast charging symbols on your chargers. Learn what PD, QC, and PPS stand for, and which protocol is required to fast charge your device.',
             keywords: 'fast charging abbreviations, what is pd charging, usb pd vs quick charge, pps samsung super fast charging, qc 3.0 vs qc 4.0, fast charging protocols explained',
             excerpt: 'Confused by symbols like PD, QC, and PPS on power adapters? We explain these fast charging standards in plain English so you can buy the right gear.',
-            quickAnswer: 'These abbreviations represent **fast-charging protocols**: (1) **PD (Power Delivery)** is the open USB-C standard that powers iPhones, MacBooks, and iPads up to 240W. (2) **QC (Quick Charge)** is Qualcomm’s proprietary standard for Snapdragon-powered Androids. (3) **PPS (Programmable Power Supply)** is an advanced extension of USB-PD 3.0 that dynamically adjusts voltage and current every 10 seconds to reduce heat, which is required for Samsung’s 45W Super Fast Charging 2.0.',
+            quickAnswer: 'They are fast-charging protocols. PD (USB Power Delivery) is the open USB-C standard, up to 240W under PD 3.1 (per USB-IF). QC (Quick Charge) is Qualcomm\'s protocol for many Snapdragon phones. PPS extends PD: the phone requests voltage in fine 20 mV steps (TI SSZT602) and re-confirms its request periodically, which Samsung\'s Super Fast Charging needs.',
             faq: [
                 {
                     question: 'Can I fast charge an iPhone with a Quick Charge (QC) only adapter?',
@@ -236,7 +236,7 @@ export const pd_qc_pps_fast_charging_abbreviations_explained: BlogArticle = {
 <h2>4. PPS (Programmable Power Supply): Smart Thermal Management</h2>
 <p>**PPS (Programmable Power Supply)** is an advanced extension added to the **USB-PD 3.0** standard to address the primary enemy of batteries: heat. In standard USB-PD, the charger outputs a fixed voltage (like 9V or 15V), and the phone's internal power management IC must step that voltage down to match the battery's cell voltage (around 4V). This conversion process generates significant heat inside the phone, causing the charging speed to throttle.</p>
 
-<p>PPS solves this by allowing the device to take control of the charger's output. Instead of fixed profiles, the phone requests real-time voltage adjustments in tiny **20 millivolt (0.02V)** steps every 10 seconds. The charger delivers the exact voltage the battery needs, moving the heat-generating voltage conversion process out of the phone and into the wall adapter.</p>
+<p>PPS solves this by allowing the device to take control of the charger's output. Instead of fixed profiles, the phone requests real-time voltage adjustments in tiny **20 millivolt (0.02V)** steps and re-confirms its request periodically (<a href="https://www.ti.com/lit/pdf/sszt602" target="_blank" rel="noopener" style="color:#2563eb;">Texas Instruments — SSZT602</a>). The charger delivers the exact voltage the battery needs, moving the heat-generating voltage conversion process out of the phone and into the wall adapter.</p>
 
 <p>The benefits of PPS include:</p>
 <ol style="line-height:2;">

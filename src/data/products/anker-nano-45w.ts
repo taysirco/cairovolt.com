@@ -79,7 +79,7 @@ export const anker_nano_45w = {
                 metaDesc: "Power a laptop and iPhone from one genuine Anker Nano 45W GaN charger with USB-C PD/PPS. Compact GaN build, store warranty in Egypt and cash on delivery.",
                 faqs: [
                     { question: "Can this charge my MacBook Air?", answer: "It can charge a compatible MacBook Air when the laptop accepts a profile printed on A2664K11 and the cable is appropriately rated. Speed varies by model and use." },
-                    { question: "Is it Samsung Super Fast Charging 2.0 compatible?", answer: "Check the exact phone's PPS requirement against the range printed on A2664K11 and use the specified cable. The device determines the accepted power." },
+                    { question: "Is it Samsung Super Fast Charging 2.0 compatible?", answer: "Yes on our sample: FNB58 read two PPS windows (3.3–16V/3A and 3.3–21V/2.25A), and a Galaxy S24 Ultra showed Super Fast Charging at ~43.6W peak, 0→100% in ~41 min (measured). Other Samsung models were not tested; use the specified cable, and the phone determines the accepted power." },
                     { question: "Is it easy to carry around?", answer: "It is positioned as a compact GaN charger; verify the listed dimensions, weight and plug type for the supplied variant." },
                     { question: "What charging power will an iPhone draw?", answer: "The phone negotiates a supported USB-PD profile and may draw less than the charger's 45W ceiling. Actual power and time vary by model, battery level, temperature, cable and use." },
                     { question: "Should I get a 45W or 65W charger?", answer: "Compare the laptop or phone's required USB-PD profile with the output table on each charger. A device requiring more than the supported 45W profile may charge slowly or need the higher-rated option." }
@@ -141,7 +141,7 @@ export const anker_nano_45w = {
                 metaDesc: "شاحن انكر نانو 45 واط GaN أصلي يشحن اللابتوب والايفون من منفذ USB-C بدعم PD/PPS. تصميم GaN مدمج، بضمان متجر في مصر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل يمكنه شحن ماك بوك آير؟", answer: "يمكنه شحن ماك بوك اير متوافق عندما يقبل اللابتوب بروفايلاً مطبوعاً على A2664K11 ويكون الكابل مصنفاً له. السرعة تختلف حسب الموديل والاستخدام." },
-                    { question: "هل يدعم شحن سامسونج فائق السرعة 2.0؟", answer: "قارن متطلبات PPS للهاتف الدقيق بالنطاق المطبوع على A2664K11 واستخدم الكابل المحدد. الهاتف يقرر القدرة المقبولة." },
+                    { question: "هل يدعم شحن سامسونج فائق السرعة 2.0؟", answer: "نعم على عيّنتنا: قرأ FNB58 نافذتَي PPS (3.3–16V/3A و3.3–21V/2.25A)، وأظهر Galaxy S24 Ultra الشحن فائق السرعة بذروة ~43.6 واط و0→100% في ~41 دقيقة (قياس). لم نختبر موديلات سامسونج الأخرى؛ استخدم الكابل المحدد، والهاتف يقرر القدرة المقبولة." },
                     { question: "هل هو سهل الحمل؟", answer: "يُقدم باعتباره شاحن GaN مدمجاً؛ تحقق من الأبعاد والوزن ونوع القابس للنسخة الموردة." },
                     { question: "هل شاحن 45 واط أسرع من اللازم لايفون 17؟", answer: "الهاتف المتوافق يتفاوض على بروفايل يقبله ولا يسحب حد الشاحن تلقائياً. القدرة والزمن يتغيران حسب الهاتف والكابل والبطارية والحرارة." },
                     { question: "هل أختار 45 واط أم 65 واط؟", answer: "قارن بروفايل اللابتوب أو الهاتف المطلوب بجدول كل شاحن. الجهاز الذي يحتاج أكثر من بروفايل 45 واط المدعوم قد يشحن ببطء أو يحتاج الخيار الأعلى." }

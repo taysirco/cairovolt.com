@@ -176,7 +176,8 @@ export default async function LabPage({ params }: Props) {
     };
 
     return (
-        <main dir={isArabic ? 'rtl' : 'ltr'} className="bg-white text-slate-950 dark:bg-slate-950 dark:text-white">
+        // A <div>, not <main>: the locale layout already renders the page's single <main>.
+        <div dir={isArabic ? 'rtl' : 'ltr'} className="bg-white text-slate-950 dark:bg-slate-950 dark:text-white">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
@@ -184,6 +185,20 @@ export default async function LabPage({ params }: Props) {
 
             <section className="bg-gradient-to-br from-blue-700 via-blue-800 to-slate-950 py-14 text-white md:py-20">
                 <div className="container mx-auto max-w-5xl px-4">
+                    {/* Visible trail — same names and URLs as the BreadcrumbList above. */}
+                    <nav aria-label={isArabic ? 'مسار التصفح' : 'Breadcrumb'} className="mb-5 text-sm text-blue-100">
+                        <ol className="flex flex-wrap items-center gap-1">
+                            <li className="inline-flex items-center gap-1">
+                                <Link href={prefix || '/'} className="hover:text-white hover:underline">
+                                    {isArabic ? 'الرئيسية' : 'Home'}
+                                </Link>
+                            </li>
+                            <li className="inline-flex items-center gap-1">
+                                <span aria-hidden="true">/</span>
+                                <span aria-current="page" className="font-semibold text-white">{isArabic ? 'المختبر' : 'Lab'}</span>
+                            </li>
+                        </ol>
+                    </nav>
                     <p className="mb-3 text-sm font-bold text-cyan-200">
                         {isArabic
                             ? 'فهرس قياسات منشور + منهجية مواصفات'
@@ -303,6 +318,6 @@ export default async function LabPage({ params }: Props) {
                     </aside>
                 </div>
             </section>
-        </main>
+        </div>
     );
 }

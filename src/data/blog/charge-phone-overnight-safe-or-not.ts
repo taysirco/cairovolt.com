@@ -4,7 +4,7 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
     slug: 'charge-phone-overnight-safe-or-not',
     category: 'tips',
     publishDate: '2026-05-22',
-    modifiedDate: '2026-05-22',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',
@@ -33,7 +33,7 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
             metaDescription: 'هل شحن الموبايل بالليل بيبوظ البطارية؟ الإجابة العلمية بالأرقام + شرح نظام BMS + Optimized Charging + 3 حلول ذكية. دليل كايرو فولت بأسلوب مهندس.',
             keywords: 'شحن الموبايل طوال الليل, هل شحن الموبايل بالليل يضر البطارية, شحن الموبايل وهو نايم, شحن الهاتف طوال الليل, overcharging موبايل, Optimized Battery Charging, شحن ايفون بالليل, شحن سامسونج طوال الليل, حماية بطارية الموبايل, charge phone overnight safe, overnight charging egypt, BMS بطارية موبايل',
             excerpt: 'الحقيقة العلمية وراء شحن الموبايل طوال الليل — ليه الخوف قديم، وإزاي التكنولوجيا الحديثة بتحمي بطاريتك، و3 حلول ذكية لعمر بطارية أطول.',
-            quickAnswer: 'لا، شحن الموبايل طوال الليل مش بيبوظ البطارية في 2026 — بشرط شاحن أصلي معتمد. كل الموبايلات الحديثة (iPhone 13+ / Samsung S22+) فيها نظام BMS بيقطع التيار تلقائياً عند 100%. ميزة Optimized Battery Charging بتوقف الشحن عند 80% وبتكمّل قبل ما تصحى. الخطر الحقيقي: شاحن مقلّد بدون حماية حرارية + شحن تحت المخدة = حرارة 55°م+ تقصّر عمر البطارية 40%. الحل: شاحن أصلي + مكان مُهوّى + فعّل Optimized Charging.',
+            quickAnswer: 'لا، شحن الموبايل طول الليل مش بيبوظ البطارية بشرط شاحن أصلي: الموبايلات الحديثة فيها نظام BMS بيقطع الشحن عند 100%، وميزة Optimized Battery Charging بتوقف الشحن عند 80% وبتكمّل قبل ما تصحى. الخطر الحقيقي هو الحرارة: شاحن مقلّد أو شحن تحت المخدة. الحل: شاحن أصلي ومكان مهوّى.',
             content: `<p>الساعة 12 بالليل. إنت في السرير. الموبايل على 23%. بتوصّله في الشاحن وبتنام. وفجأة — صوت ماما من الأوضة التانية: "يا ابني شيل الشاحن! الموبايل هيولّع!" أو تيتا اللي قرأت بوست على فيسبوك إن واحد موبايله انفجر وهو بيشحن بالليل. أو صاحبك اللي بيقولك "أنا بحط منبه الساعة 3 الصبح أشيل الشاحن عشان البطارية ماتبوظش." حد فيكم نام كويس بعد كده؟</p>
 
 <p>الموضوع ده من أكتر الأسئلة اللي بنسمعها في كايرو فولت — وللأسف 90% من الإجابات على الإنترنت يا قديمة يا غلط يا مبنية على خرافات من 2010. في المقال ده، هنشرح الفيزياء الحقيقية وراء شحن الليل، هنوريك إيه اللي بيحصل جوا موبايلك فعلاً من أول ما توصّل الشاحن لحد ما تصحى، و3 حلول ذكية تخلّي بطاريتك تعيش أطول — من غير ما تحط منبه الساعة 3 الصبح.</p>
@@ -41,7 +41,7 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        لا، شحن الموبايل طوال الليل <strong>مش بيبوظ البطارية</strong> في 2026 — بشرط إنك تستخدم شاحن أصلي معتمد. كل الموبايلات الحديثة فيها نظام BMS (Battery Management System) بيقطع التيار تلقائياً عند 100%. ميزة Optimized Battery Charging بتوقف الشحن عند 80% وبتكمّل قبل ما تصحى. الخطر الحقيقي مش الشحن بالليل — الخطر هو: شاحن مقلّد + شحن تحت المخدة = حرارة 55°م+.
+        لا، شحن الموبايل طوال الليل <strong>مش بيبوظ البطارية</strong> في 2026 — بشرط إنك تستخدم شاحن أصلي معتمد. كل الموبايلات الحديثة فيها نظام BMS (Battery Management System) بيقطع التيار تلقائياً عند 100% (اقرأ <a href="/blog/lithium-battery-charger-safety-cutoff-circuit-explained" style="color:#2563eb;font-weight:600;">إزاي دائرة BMS بتقطع الشحن</a>). ميزة Optimized Battery Charging بتوقف الشحن عند 80% وبتكمّل قبل ما تصحى. الخطر الحقيقي مش الشحن بالليل — الخطر هو الحرارة: شاحن مقلّد أو شحن تحت المخدة.
     </p>
 </div>
 
@@ -164,17 +164,19 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
-        <strong>⚠️ تحذير:</strong> الشواحن المقلّدة — اللي بتتباع على OLX بـ 30-50 جنيه — غالباً مفيهاش دائرة حماية حرارية (Thermal Protection Circuit). يعني لو الشاحن بدأ يسخن، مفيش حاجة بتوقفه. الشاحن الأصلي (أنكر/Joyroom/Apple) فيه 7-9 طبقات حماية بتقطع التيار تلقائياً لو الحرارة تعدّت 45°م. <strong>78% من حالات تلف البطاريات اللي شوفناها في كايرو فولت كانت بسبب شواحن مقلّدة — مش بسبب الشحن بالليل.</strong>
+        <strong>⚠️ تحذير:</strong> الشواحن المقلّدة — اللي بتتباع على OLX بـ 30-50 جنيه — غالباً مفيهاش دائرة حماية حرارية (Thermal Protection Circuit). يعني لو الشاحن بدأ يسخن، مفيش حاجة بتوقفه. الشاحن الأصلي (انكر/جوي روم/Apple) بيدرج في مواصفاته حماية من الحرارة الزائدة والتيار الزائد. <strong>الحرارة — مش الشحن بالليل في حد ذاته — هي العامل الأهم في تآكل البطارية.</strong>
     </p>
 </div>
 
 <h2>3 حلول ذكية لشحن الليل بأمان + عمر بطارية أطول</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:20px;">🛡️ <strong>الحل #1 — شاحن أصلي بحماية ذكية (الأهم):</strong> شاحن زي <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (490ج) فيه ActiveShield 2.0 — بيراقب الحرارة 3 مليون مرة في اليوم ويظبط الخرج تلقائياً. أو <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 25W</a> (280ج) بـ 8 طبقات حماية. الاستثمار في شاحن أصلي بـ 300-500ج أوفر بكتير من تغيير بطارية بـ 2,000-4,000ج بعد سنة.</li>
-    <li style="margin-bottom:20px;">📱 <strong>الحل #2 — فعّل Optimized Battery Charging:</strong> الخطوات في الجدول فوق. الميزة دي مجانية ومش بتأثر على تجربتك — بس بتطوّل عمر البطارية 6-8 شهور. لو عندك Samsung S26 — فعّل خيار "حد أقصى 85%" كمان لو مش محتاج 100% كل يوم.</li>
-    <li style="margin-bottom:20px;">🌡️ <strong>الحل #3 — مكان مهوّى + بدون مخدة:</strong> حط الموبايل على الكومودينو أو سطح صلب — مش تحت المخدة أو اللحاف. شيل الجراب السميك (أكتر من 3mm) أثناء الشحن بالليل. ولو عايز الحل الأنيق — <a href="/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#2563eb;font-weight:600;">محطة جوي روم 3 في 1 اللاسلكية</a> (1,206ج) بتخلّي الموبايل واقف بزاوية مع تهوية طبيعية من كل الجهات.</li>
+    <li style="margin-bottom:20px;">🛡️ <strong>الحل #1 — شاحن أصلي بحماية ذكية (الأهم):</strong> شاحن زي <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> ({{price:anker-a2147-gan-charger-30w}}ج) اللي انكر بتدرج فيه حماية ActiveShield 2.0 لمراقبة الحرارة. أو <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 25W</a> ({{price:joyroom-25w-fast-charger}}ج) بحماية من التيار الزائد (في اختبارنا فصل خلال حوالي 2.5 ثانية). الشاحن الأصلي أوفر بكتير من تغيير بطارية بدري.</li>
+    <li style="margin-bottom:20px;">📱 <strong>الحل #2 — فعّل Optimized Battery Charging:</strong> الخطوات في الجدول فوق. الميزة دي مجانية ومش بتأثر على تجربتك، وبتقلل الوقت اللي البطارية بتقضيه عند 100%. لو عندك Samsung S26 — فعّل خيار "حد أقصى 85%" كمان لو مش محتاج 100% كل يوم.</li>
+    <li style="margin-bottom:20px;">🌡️ <strong>الحل #3 — مكان مهوّى + بدون مخدة:</strong> حط الموبايل على الكومودينو أو سطح صلب — مش تحت المخدة أو اللحاف. شيل الجراب السميك (أكتر من 3mm) أثناء الشحن بالليل. ولو عايز الحل الأنيق — <a href="/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#2563eb;font-weight:600;">محطة جوي روم 3 في 1 اللاسلكية</a> ({{price:joyroom-3-in-1-wireless-charging-station}}ج) بتخلّي الموبايل واقف بزاوية مع تهوية طبيعية من كل الجهات.</li>
 </ul>
+
+<p>ولو بتشحن لساعات طويلة بالنهار كمان، اقرأ <a href="/blog/phone-charging-during-prayer-fasting-battery-safe" style="color:#2563eb;font-weight:600;">الشحن لساعات متواصلة (مش بالليل بس)</a>، وفي رمضان اقرأ <a href="/blog/chargers-ramadan-night-long-charging-sessions" style="color:#2563eb;font-weight:600;">الشحن الليلي في رمضان</a> — والإجابة واحدة: الشحن الطويل آمن مع شاحن أصلي ومكان مهوّى.</p>
 
 <h2>خرافات شحن الليل — الحقيقة وراء كل واحدة</h2>
 
@@ -206,7 +208,7 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن أصلية بحماية ذكية على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">انكر GaN 30W</a> بـ 490ج — ActiveShield 2.0 + 9 طبقات حماية. <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#166534;font-weight:600;">جوي روم 25W</a> بـ 280ج — 8 طبقات حماية. <strong>ضمان 18 شهر + استبدال كامل</strong> + توصيل لكل المحافظات + دفع عند الاستلام. نام واشحن وإنت مرتاح.
+        <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">انكر GaN 30W</a> بـ {{price:anker-a2147-gan-charger-30w}}ج — بحماية ActiveShield 2.0 حسب انكر. <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#166534;font-weight:600;">جوي روم 25W</a> بـ {{price:joyroom-25w-fast-charger}}ج. <strong>بضمان كايرو فولت المكتوب</strong> (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات + دفع عند الاستلام. نام واشحن وإنت مرتاح.
     </p>
 </div>
 
@@ -215,7 +217,6 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
     <ul style="margin:0;padding-right:20px;color:#4b5563;">
         <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" rel="nofollow">Battery University — How to Prolong Lithium-Based Batteries (بالإنجليزية)</a></li>
         <li><a href="https://support.apple.com/ar-eg/108055" rel="nofollow">Apple — iPhone Battery and Performance</a></li>
-        <li><a href="https://www.samsung.com/eg/galaxy/what-is/adaptive-charging/" rel="nofollow">Samsung — Adaptive Charging Feature</a></li>
     </ul>
 </div>`,
             faq: [
@@ -243,7 +244,7 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
             metaDescription: 'Does charging your phone overnight damage the battery? Scientific answer with real numbers + BMS explained + Optimized Charging + 3 smart solutions. CairoVol...',
             keywords: 'charge phone overnight safe, overnight charging damage battery, is it safe to charge phone all night, phone charging overnight myth, Optimized Battery Charging, adaptive charging samsung, BMS battery management system, lithium ion overnight charging, phone battery health tips, overnight charging egypt, charger safety overnight, battery longevity tips 2026',
             excerpt: 'The scientific truth behind overnight phone charging — why the fear is outdated, how modern tech protects your battery, and 3 smart solutions for longer battery life.',
-            quickAnswer: 'No, charging your phone overnight does NOT damage the battery in 2026 — as long as you use a certified charger. All modern phones (iPhone 13+ / Samsung S22+) have a BMS that automatically cuts power at 100%. Optimized Battery Charging stops at 80% and tops up before you wake. The real danger: counterfeit chargers without thermal protection + charging under a pillow = 55°C+ heat that shortens battery life by 40%. Solution: genuine charger + ventilated spot + enable Optimized Charging.',
+            quickAnswer: 'No, charging your phone overnight does not damage the battery if you use a genuine charger: modern phones have a BMS that stops charging at 100%, and Optimized Battery Charging pauses at 80% and finishes before you wake. The real danger is heat — a counterfeit charger or charging under a pillow. Solution: a genuine charger in a ventilated spot.',
             content: `<p>It is midnight. You are in bed. Phone at 23%. You plug it in and fall asleep. Suddenly — your mother's voice from the other room: "Unplug it! The phone will catch fire!" Or your grandmother, who read a Facebook post about someone whose phone exploded while charging overnight. Or your friend who sets an alarm for 3 AM just to unplug his charger "so the battery doesn't get ruined." Has anyone actually slept well after that?</p>
 
 <p>This is one of the most common questions we get at CairoVolt — and unfortunately, 90% of the answers online are either outdated, wrong, or built on myths from 2010. In this article, we explain the real physics behind overnight charging, show you what actually happens inside your phone from the moment you plug in until you wake up, and share 3 smart solutions to make your battery last longer — without setting a 3 AM alarm.</p>
@@ -251,7 +252,7 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        No, charging your phone overnight <strong>does NOT damage the battery</strong> in 2026 — as long as you use a certified charger. All modern phones have a BMS (Battery Management System) that automatically cuts current at 100%. Optimized Battery Charging pauses at 80% and finishes just before you wake up. The real danger is not overnight charging — it is using a counterfeit charger + charging under a pillow = 55°C+ temperatures.
+        No, charging your phone overnight <strong>does NOT damage the battery</strong> in 2026 — as long as you use a certified charger. All modern phones have a BMS (Battery Management System) that automatically cuts current at 100% (see <a href="/en/blog/lithium-battery-charger-safety-cutoff-circuit-explained" style="color:#2563eb;font-weight:600;">how the BMS cut-off works</a>). Optimized Battery Charging pauses at 80% and finishes just before you wake up. The real danger is not overnight charging — it is heat: a counterfeit charger or charging under a pillow.
     </p>
 </div>
 
@@ -374,17 +375,19 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
-        <strong>⚠️ Warning:</strong> Counterfeit chargers — sold on OLX for 30-50 EGP — typically lack a Thermal Protection Circuit. This means if the charger starts overheating, nothing stops it. A genuine charger (Anker/Joyroom/Apple) has 7-9 protection layers that automatically cut power if temperature exceeds 45°C. <strong>78% of damaged battery cases we have seen at CairoVolt were caused by counterfeit chargers — not by overnight charging.</strong>
+        <strong>⚠️ Warning:</strong> Counterfeit chargers — sold on OLX for 30-50 EGP — typically lack a Thermal Protection Circuit. This means if the charger starts overheating, nothing stops it. A genuine charger (Anker/Joyroom/Apple) lists over-temperature and over-current protection in its specifications. <strong>Heat — not overnight charging itself — is the main factor in battery wear.</strong>
     </p>
 </div>
 
 <h2>3 Smart Solutions for Safe Overnight Charging + Longer Battery Life</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:20px;">🛡️ <strong>Solution #1 — Genuine charger with smart protection (most important):</strong> A charger like the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (490 EGP) features ActiveShield 2.0 — monitoring temperature 3 million times per day and adjusting output automatically. Or the <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a> (280 EGP) with 8 protection layers. Investing 300-500 EGP in a genuine charger is far cheaper than a 2,000-4,000 EGP battery replacement after a year.</li>
-    <li style="margin-bottom:20px;">📱 <strong>Solution #2 — Enable Optimized Battery Charging:</strong> Steps in the table above. This feature is free and does not affect your experience — but extends battery life by 6-8 months. If you have a Samsung S26 — also enable the "85% maximum" option if you do not need 100% every day.</li>
-    <li style="margin-bottom:20px;">🌡️ <strong>Solution #3 — Ventilated spot + no pillow:</strong> Place your phone on the nightstand or a hard surface — not under a pillow or blanket. Remove thick cases (over 3mm) during overnight charging. For the elegant solution — the <a href="/en/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#2563eb;font-weight:600;">Joyroom 3-in-1 Wireless Station</a> (1,206 EGP) keeps your phone upright at an angle with natural ventilation from all sides.</li>
+    <li style="margin-bottom:20px;">🛡️ <strong>Solution #1 — Genuine charger with smart protection (most important):</strong> A charger like the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (EGP {{price:anker-a2147-gan-charger-30w}}), for which Anker lists ActiveShield 2.0 temperature monitoring. Or the <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a> (EGP {{price:joyroom-25w-fast-charger}}) with over-current protection (in our test it cut out within about 2.5 seconds). A genuine charger costs far less than an early battery replacement.</li>
+    <li style="margin-bottom:20px;">📱 <strong>Solution #2 — Enable Optimized Battery Charging:</strong> Steps in the table above. This feature is free and does not affect your experience, and it reduces the time the battery spends at 100%. If you have a Samsung S26 — also enable the "85% maximum" option if you do not need 100% every day.</li>
+    <li style="margin-bottom:20px;">🌡️ <strong>Solution #3 — Ventilated spot + no pillow:</strong> Place your phone on the nightstand or a hard surface — not under a pillow or blanket. Remove thick cases (over 3mm) during overnight charging. For the elegant solution — the <a href="/en/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#2563eb;font-weight:600;">Joyroom 3-in-1 Wireless Station</a> (EGP {{price:joyroom-3-in-1-wireless-charging-station}}) keeps your phone upright at an angle with natural ventilation from all sides.</li>
 </ul>
+
+<p>If you also charge for long stretches during the day, read <a href="/en/blog/phone-charging-during-prayer-fasting-battery-safe" style="color:#2563eb;font-weight:600;">charging for hours at a stretch</a>, and in Ramadan read <a href="/en/blog/chargers-ramadan-night-long-charging-sessions" style="color:#2563eb;font-weight:600;">overnight charging in Ramadan</a> — the answer is the same: long charging is safe with a genuine charger in a ventilated spot.</p>
 
 <h2>Overnight Charging Myths — The Truth Behind Each One</h2>
 
@@ -416,7 +419,7 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Genuine Chargers with Smart Protection on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">Anker GaN 30W</a> at 490 EGP — ActiveShield 2.0 + 9 protection layers. <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#166534;font-weight:600;">Joyroom 25W</a> at 280 EGP — 8 protection layers. <strong>18-month warranty + full replacement</strong> + delivery to all governorates + cash on delivery. Sleep and charge with peace of mind.
+        <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">Anker GaN 30W</a> at EGP {{price:anker-a2147-gan-charger-30w}} — with Anker-listed ActiveShield 2.0. <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#166534;font-weight:600;">Joyroom 25W</a> at EGP {{price:joyroom-25w-fast-charger}}. <strong>CairoVolt's written store warranty</strong> (duration shown on each product page) + delivery to all governorates + cash on delivery. Sleep and charge with peace of mind.
     </p>
 </div>
 
@@ -425,7 +428,6 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
     <ul style="margin:0;padding-left:20px;color:#4b5563;">
         <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" rel="nofollow">Battery University — How to Prolong Lithium-Based Batteries</a></li>
         <li><a href="https://support.apple.com/en-us/108055" rel="nofollow">Apple — iPhone Battery and Performance</a></li>
-        <li><a href="https://www.samsung.com/global/galaxy/what-is/adaptive-charging/" rel="nofollow">Samsung — Adaptive Charging Feature</a></li>
     </ul>
 </div>`,
             faq: [

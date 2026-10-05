@@ -4,7 +4,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
     slug: 'joyroom-20000mah-power-bank-travel-performance-review',
     category: 'review',
     publishDate: '2026-08-28T14:11:00+03:00',
-    modifiedDate: '2026-08-28T14:11:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 10,
     relatedProducts: [
         "joyroom-power-bank-20000",
@@ -32,7 +32,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
             metaDescription: 'مراجعة لباور بانك Joyroom 20000 الحقيقي للسفر والرحلات. حساب السعة الفعلية بالأرقام، كفاءة الشحن السريع، وشروط ركوب الطائرة وكيفية كشف النسخ المقلدة بمصر.',
             keywords: 'باور بانك جويروم, باور بانك جويروم اصلي, باور بانك جويروم في مصر, سعر باور بانك جويروم, باور بانك جويروم 20000, سعر باور بانك سامسونج 10000, سعر باور بانك سامسونج 20000 امبير',
             excerpt: 'هل باور بانك جويروم 20000 هو الرفيق الأمثل لسفرك؟ مراجعة تقنية شاملة للأداء الفعلي، كفاءة الشحن السريع بقوة 22.5 واط، ومقارنته مع بدائل أنكر في مصر.',
-            quickAnswer: 'باور بانك Joyroom 20000 يوفر طاقة إجمالية تبلغ 74Wh، وهي تحت الحد المسموح به دولياً للطيران (100Wh)، مما يجعله آمناً تماماً للحقائب اليدوية. السعة الفعلية المتاحة لشحن أجهزتك عند جهد 5 فولت تبلغ حوالي 12,500 إلى 13,000 مللي أمبير ساعة (بكفاءة تحويل ~85%). يدعم الشحن السريع بقوة 22.5 واط، ويكفي لشحن آيفون 15 حوالي 3.5 مرة بالكامل، أو سامسونج S24 Ultra حوالي 2.5 مرة.',
+            quickAnswer: 'باور بانك جوي روم 20000 (JR-PBF14 Pro) مطبوع على عيّنتنا 74Wh، أقل من حد 100Wh اللي مش محتاج موافقة في حقيبة اليد. قسنا 60.8Wh قابلة للاستخدام (حوالي 82%)، يعني حوالي 4 شحنات لآيفون 15 أو حوالي 2.7 لموبايل 5,000mAh (تقدير: 60.8 × 0.85 ÷ Wh الموبايل)، وبيدعم 22.5W.',
             content: `<p>تخيل إنك بتجهز لرحلة طويلة من أسوان للقاهرة في قطار النوم، الرحلة بتاخد أكتر من 13 ساعة، ومعاك موبايلك والتابلت وسماعتك اللاسلكية. في اللحظة دي، الاعتماد على باور بانك 10000 مللي أمبير هو مجرد تأجيل للمشكلة؛ الشحنة الأولى للموبايل هتخلص بطارية الباور بانك ويسيبك بقية السفرية بتلعب في شاشة القفل. هنا بييجي دور وحوش الطاقة بسعة 20000 مللي أمبير، وبالأخص باور بانك Joyroom 20000 اللي بقى واخد شهرة واسعة في السوق المصري كأقوى بديل اقتصادي وعملي يناسب فترات انقطاع الكهرباء الطويلة والسفر الطويل.</p>
 
 <p>لكن قبل ما تدفع فلوسك وتشتري الباور بانك ده، لازم تفهم تفاصيل أدائه الفني: إيه هي السعة الفعلية اللي هتاخدها منه بجد؟ إزاي بيتعامل مع بروتوكولات الشحن السريع المختلفة زي PD و Quick Charge؟ وهل فعلاً مسموح لك تاخده معاك في الطيارة لو مسافر بره مصر؟ في المراجعة التفصيلية دي، هنفك شفرة الأرقام ونقارن باور بانك جويروم 20000 مع أشهر البدائل من أنكر وزولو عشان نحدد هل يستحق الشراء فعلاً.</p>
@@ -40,7 +40,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الخلاصة التقنية السريعة:</strong>
-        باور بانك Joyroom 20000 مللي أمبير يمتلك طاقة إجمالية تبلغ 74 وات/ساعة (Wh)، مما يجعله متوافقاً تماماً مع قوانين الطيران العالمية. السعة الفعلية المتاحة لشحن أجهزتك هي حوالي 12,500 إلى 13,000 مللي أمبير ساعة عند 5 فولت، وهو ما يكفي لشحن آيفون 15 حوالي 3.6 مرة، أو تابلت متوسط شحنة كاملة ونصف.
+        باور بانك جوي روم 20000 (JR-PBF14 Pro) مطبوع على عيّنتنا 74Wh — أقل من حد 100Wh. قسنا 60.8Wh قابلة للاستخدام عند 5V/2A (حوالي 12,160 مللي أمبير عند 5 فولت)، وده تقريباً 4 شحنات لآيفون 15 (تقدير: 60.8 × 0.85 ÷ 13Wh).
     </p>
 </div>
 
@@ -50,7 +50,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
     <li>يُسمح بنقل الباور بانك في <strong>الحقائب اليدوية (Carry-on Luggage)</strong> فقط، ويُمنع تماماً وضعه في حقائب الشحن الكبيرة التي توضع في بطن الطائرة (Checked Baggage) لتجنب مخاطر الانفجار بسبب انخفاض الضغط.</li>
     <li>الحد الأقصى المسموح به لأي بطارية ليثيوم دون إذن مسبق من شركة الطيران هو <strong>100 وات/ساعة (100 Wh)</strong>.</li>
     <li>باور بانك جويروم 20000 مللي أمبير يعمل ببطارية داخلية بجهد 3.7 فولت، وبالتالي طاقته الإجمالية هي: <code style="background:#f3f4f6;padding:2px 6px;border-radius:4px;">20,000mAh × 3.7V / 1000 = 74 Wh</code>.</li>
-    <li>بما أن الـ 74Wh أقل بوضوح من الـ 100Wh، فالباور بانك 20000 مللي أمبير **مقبول وآمن قانونياً 100% في جميع المطارات والمطارات المصرية**، بينما الباور بانك الـ 30000 أو 40000 مللي أمبير يتجاوز هذا الحد وغالباً يتم مصادرته عند التفتيش.</li>
+    <li>بما أن الـ 74Wh أقل بوضوح من الـ 100Wh، فالباور بانك ده مسموح في حقيبة اليد من غير موافقة مسبقة — بس قواعد شركة الطيران المشغّلة (العدد والاستخدام أثناء الرحلة) لسه بتتطبق. أما باور بانك 30000 أو 40000 مللي أمبير فغالباً بيعدّي 100Wh ويحتاج موافقة شركة الطيران (101–160Wh). التفاصيل في <a href="/blog/power-bank-airplane-rules-egypt-2026" style="color:#2563eb;">دليل قوانين الباور بانك في الطائرة</a>.</li>
 </ul>
 <p>تجدر الإشارة أيضاً إلى أن شركات الطيران تفرض وضع ملصق يوضح سعة البطارية بالوات/ساعة (Wh) بوضوح على ظهر الجهاز. إذا تم مسح هذا الملصق أو كتابته يدوياً بقلم جاف، فقد يرفض ضابط أمن المطار تمرير الجهاز لعدم القدرة على التحقق من طاقته الكيميائية بشكل رسمي. لذلك ننصح دائماً بحماية الملصق الخلفي للباور بانك الأصلي من التآكل.</p>
 
@@ -61,17 +61,17 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
     السعة النظرية عند 5 فولت = 74 Wh / 5V × 1000 = 14,800 mAh
 </div>
 
-<p>بافتراض كفاءة تحويل نموذجية تبلغ نحو 84.5% لبوردة التفريغ تحت حمل تيار مستمر 5V/2A — وهي نسبة معتادة للموديلات الجيدة في هذه الفئة — تكون السعة الحقيقية المقدَّرة لباور بانك جويروم 20000 مللي أمبير (JR-T014):</p>
+<p>في قياسنا على العيّنة (CV-PB-JRPBF14-001) عند تفريغ 5V/2A، طلعت الطاقة القابلة للاستخدام <strong>60.8Wh</strong> (حوالي 82% من 74Wh):</p>
 
 <div class="formula-box" style="background:#f3f4f6;border:1px solid #e5e7eb;padding:15px;border-radius:6px;margin:20px 0;font-family:monospace;text-align:center;font-size:18px;">
-    السعة الفعلية المقدَّرة = 14,800 mAh × 0.845 = 12,506 mAh
+    60.8 Wh ÷ 5V × 1000 ≈ 12,160 mAh عند 5 فولت
 </div>
 
-<p>هذا يعني أن لديك حوالي 12,500 مللي أمبير ساعة حقيقية لشحن أجهزتك. لتوضيح هذا بلغة بسيطة، إليك ما يعنيه هذا الرقم لبطاريات موبايلك:</p>
+<p>عدد الشحنات تقديري بالمعادلة: الطاقة المقاسة × 0.85 (فقد الشحن جوه الموبايل) ÷ طاقة بطارية الموبايل بالـ Wh:</p>
 <ul style="line-height:2;">
-    <li>شحن هاتف **iPhone 15 / 16** (بطارية ~3,349mAh): حوالي 3.5 شحنة كاملة بالتمام والكمال.</li>
-    <li>شحن هاتف **Samsung Galaxy S24 Ultra** (بطارية 5,000mAh): حوالي 2.3 شحنة كاملة.</li>
-    <li>شحن جهاز **iPad Pro 11-inch** (بطارية ~8,000mAh): شحنة واحدة كاملة ويتبقى حوالي 35% في الباور بانك لشحن سماعاتك.</li>
+    <li>شحن هاتف **iPhone 15** (حوالي 13Wh): حوالي 4 شحنات (تقدير).</li>
+    <li>شحن هاتف **Samsung Galaxy S24 Ultra** (بطارية 5,000mAh ≈ 19.4Wh): حوالي 2.7 شحنة (تقدير).</li>
+    <li>شحن جهاز **iPad Pro 11-inch** (حوالي 31Wh): حوالي 1.7 شحنة (تقدير).</li>
 </ul>
 
 <h2>ثالثاً: أداء الشحن السريع وبروتوكولات الطاقة (PD / QC / PPS)</h2>
@@ -87,50 +87,44 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
 <h2>رابعاً: مقارنة عملية بالجدول: Joyroom 20000 ضد بدائل Anker و Zolo بمصر</h2>
 <p>لتسهيل الاختيار، قمنا بمقارنة باور بانك جويروم 20000 مع منافسيه المباشرين المتوفرين في السوق المصري لعام 2026:</p>
 
-<table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
     <thead>
-        <tr style="background:#1e40af;color:#fff;">
-            <th style="padding:12px 10px;border:1px solid #3b82f6;text-align:right;">وجه المقارنة</th>
-            <th style="padding:12px 10px;border:1px solid #3b82f6;text-align:right;">Joyroom JR-T014</th>
-            <th style="padding:12px 10px;border:1px solid #3b82f6;text-align:right;">Anker PowerCore 20K</th>
-            <th style="padding:12px 10px;border:1px solid #3b82f6;text-align:right;">Anker Zolo 20K (كابل مدمج)</th>
+        <tr style="background:#f3f4f6;">
+            <th style="padding:12px 10px;border:1px solid #d1d5db;">وجه المقارنة</th>
+            <th style="padding:12px 10px;border:1px solid #d1d5db;">جوي روم JR-PBF14 Pro</th>
+            <th style="padding:12px 10px;border:1px solid #d1d5db;">انكر PowerCore 20000 (A1260)</th>
+            <th style="padding:12px 10px;border:1px solid #d1d5db;">انكر Zolo A110E (كابل مدمج)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;">السرعة القصوى</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">22.5W PD/QC</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">15W أو 20W PD</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">30W PD / PPS</td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;">كفاءة التفريغ</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">~84.5%</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">~86.2%</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">~83.0% (بسبب مقاومة الكابل المدمج)</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">السرعة القصوى</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">22.5W مقنن (ذروة 21.3W على USB-C في قياسنا)</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">USB-A حتى 18W QC (قسنا 17.1W) — مفيش USB-C</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">22.5W مقنن (ذروة 21.5W في قياسنا)</td>
         </tr>
         <tr>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;">الوزن الفعلي</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">~410 جرام</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">~350 جرام (أخف)</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">~385 جرام</td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;">خامات الهيكل</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">بلاستيك معالج مضاد للخدش</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">بلاستيك نسيجي متين</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">بلاستيك لامع مع كابل سيليكون مدمج</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">الطاقة القابلة للاستخدام (قياسنا)</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">60.8Wh من 74Wh (~82%)</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">61.4Wh من 72Wh (~85%)</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">62.0Wh من 74Wh (~84%)</td>
         </tr>
         <tr>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;">متوسط السعر في مصر</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">من 700 إلى 850 جنيه</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">من 1200 إلى 1500 جنيه</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">من 1400 إلى 1700 جنيه</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">الوزن</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">418 جرام (قياسنا)</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">راجع صفحة المنتج</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">394 جرام (قياسنا)</td>
+        </tr>
+        <tr>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">السعر على كايرو فولت</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">{{price:joyroom-power-bank-20000}} جنيه</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">{{price:anker-powercore-20000}} جنيه</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">{{price:anker-zolo-a110e-20000}} جنيه</td>
         </tr>
     </tbody>
 </table>
 
-<p>يتضح من المقارنة أن باور بانك جويروم يكتسح في معادلة **القيمة مقابل السعر**. يوفر لك سعة ضخمة وشحناً سريعاً بقوة 22.5 واط بنصف سعر باور بانك أنكر تقريباً. ومع ذلك، إذا كانت الأولوية لسرعة شحن لابتوب ماك بوك أو آيباد كبير بقوة 30 واط، فإن أنكر زولو (Zolo) مع كابله المدمج يمثل خياراً تقنياً متفوقاً رغم سعره المرتفع. كما تجدر الإشارة إلى أن خدمة الضمان وخدمة ما بعد البيع لشركة أنكر في مصر تعتبر أكثر تنظيماً وانتشاراً من جويروم، مما يفسر جزءاً من فارق السعر.</p>
+<p>في قياساتنا الطاقة القابلة للاستخدام متقاربة جداً بين التلاتة. جوي روم أرخص بنفس فئة الـ 22.5W، وانكر Zolo A110E بيكسب بالكابل المدمج وحماية ActiveShield، وPowerCore 20000 مناسب أكتر لموبايلات Quick Charge القديمة (مفيهوش USB-C). ولا واحد منهم بيطلع 20V، فمش مناسبين لشحن لابتوب. ولو بتقارن موديلات جوي روم كلها، شوف <a href="/blog/joyroom-power-banks-10k-20k-models-review" style="color:#2563eb;">مراجعة باور بانكات جوي روم 10K و20K</a>.</p>
 
 <h2>خامساً: معايير حماية السلامة للبطاريات الكبيرة أثناء السفر والرحلات</h2>
 <p>تمتلك بطاريات الـ 20000 مللي أمبير طاقة كيميائية هائلة قادرة على إحداث حريق كبير إذا حدث فيها تماس كهربائي. يدمج باور بانك جويروم 20000 عدة مستويات أمان هامة:</p>
@@ -172,7 +166,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
                 },
                 {
                     question: 'باور بانك جويروم 20000 بيشحن موبايل بسعة 5000 مللي أمبير كام مرة؟',
-                    answer: 'بيشحن موبايل 5000 مللي أمبير (مثل Samsung S24 Ultra أو Redmi Note 13) حوالي 2.3 إلى 2.5 مرة بالكامل، نظراً لأن السعة الفعلية المتاحة للتفريغ عند جهد 5 فولت هي حوالي 12,500 مللي أمبير ساعة بعد حساب فقد التحويل الحراري.'
+                    answer: 'حوالي 2.7 مرة (تقدير): قسنا 60.8Wh قابلة للاستخدام على عيّنتنا، وموبايل 5,000mAh (زي Samsung S24 Ultra) بطاريته حوالي 19.4Wh، فالحسبة 60.8 × 0.85 ÷ 19.4.'
                 },
                 {
                     question: 'هل ينفع أشحن الباور بانك والموبايل متوصلين مع بعض في نفس الوقت؟',
@@ -180,7 +174,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
                 },
                 {
                     question: 'إيه الفرق الرئيسي بين باور بانك جويروم وبديله من أنكر 20000 مللي أمبير؟',
-                    answer: 'الفرق هو السعر والوزن؛ باور بانك أنكر يتميز بوزن أخف (350 جرام مقابل 410 جرام لجويروم) وجودة مكونات داخلية أطول عمراً ولكن بسعر مضاعف. جويروم يقدم أداءً مماثلاً وسرعة 22.5W بسعر أوفر بكثير يناسب الميزانيات الاقتصادية.'
+                    answer: 'في قياساتنا الطاقة متقاربة: جوي روم 60.8Wh، وانكر Zolo A110E 62.0Wh، وانكر PowerCore 20000 61.4Wh. انكر Zolo A110E أخف (394 مقابل 418 جرام في قياسنا) وفيه كابل مدمج، وجوي روم أرخص بنفس فئة الـ 22.5W.'
                 }
             ]
         },
@@ -190,7 +184,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
             metaDescription: 'Rated capacity calculations, expected real-world numbers, and comparison with Anker alternatives. Joyroom 20000mAh power bank review for travel.',
             keywords: 'joyroom power bank, joyroom power bank original, joyroom power bank price egypt, joyroom 20000mah power bank, anker 20000mah power bank, samsung 20000mah power bank, best power bank egypt, flight power bank rules',
             excerpt: 'Planning a trip? Our detailed review of the Joyroom 20000mAh power bank breaks down real capacity, 22.5W fast charging benchmarks, and airline travel compatibility.',
-            quickAnswer: 'The Joyroom 20000mAh power bank delivers 74Wh of energy, making it fully compliant with airline regulations allowing up to 100Wh in carry-on bags. Accounting for typical conversion losses (~84.5% efficiency), it delivers an estimated 12,500mAh to 13,000mAh of real usable capacity at 5V. It supports 22.5W fast charging, enough to charge an iPhone 15 roughly 3.5 times.',
+            quickAnswer: 'The Joyroom 20000 (JR-PBF14 Pro) sample we tested is labelled 74Wh, under the 100Wh carry-on limit that needs no approval. We measured 60.8Wh usable (about 82%) — roughly 4 iPhone 15 charges or about 2.7 charges of a 5,000mAh phone (est.: 60.8 × 0.85 ÷ the phone\'s Wh) — and it supports 22.5W.',
             content: `<p>Imagine preparing for a 13-hour train journey from Aswan to Cairo. You have your phone, tablet, and wireless earbuds. In this situation, relying on a standard 10000mAh power bank is merely postponing the inevitable; the first recharge of your phone will deplete the power bank, leaving you staring at a dead screen for the rest of the trip. This is where 20000mAh power banks become indispensable, and Joyroom's 20000mAh series has emerged as one of the most popular value options in the Egyptian market, especially during rolling blackouts and long journeys.</p>
 
 <p>Before purchasing this device, however, you must understand its technical performance: What is the actual usable capacity you will get? How does it handle various fast charging protocols like USB Power Delivery (PD) and Quick Charge? And is it truly allowed on commercial airplanes for international flights? In this comprehensive review, we break down the math, estimate the conversion efficiency, and compare Joyroom's 20000mAh unit to alternatives from Anker and Zolo to see if it is worth your money.</p>
@@ -198,7 +192,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        The Joyroom 20000mAh power bank has a total energy capacity of 74 Watt-hours (Wh), placing it safely under the 100Wh international airline limit for carry-on luggage. The actual usable capacity is around 12,500mAh to 13,000mAh at 5V output, which is enough to charge an iPhone 15 about 3.5 times.
+        The Joyroom 20000 (JR-PBF14 Pro) sample we tested is labelled 74Wh — under the 100Wh carry-on limit. We measured 60.8Wh usable at 5V/2A (about 12,160mAh at 5V), roughly 4 iPhone 15 charges (est.: 60.8 × 0.85 ÷ 13Wh).
     </p>
 </div>
 
@@ -208,7 +202,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
     <li><strong>Carry-on Only:</strong> Power banks must be carried in your cabin baggage. They are strictly prohibited in checked luggage due to the risk of thermal runaway fires going unnoticed in the cargo hold.</li>
     <li><strong>The 100Wh Power Limit:</strong> Passengers can carry power banks with a capacity up to 100 Watt-hours (Wh) without prior airline approval.</li>
     <li><strong>Joyroom 20000mAh Math:</strong> The battery operates at a nominal cell voltage of 3.7V. Stored energy is calculated as: <code style="background:#f3f4f6;padding:2px 6px;border-radius:4px;">20,000mAh × 3.7V / 1000 = 74 Wh</code>.</li>
-    <li><strong>Result:</strong> Since 74Wh is well below the 100Wh threshold, a 20000mAh power bank is **100% legal and safe to carry on commercial flights**. In contrast, massive 30000mAh or 40000mAh power banks often exceed 111Wh and are routinely confiscated.</li>
+    <li><strong>Result:</strong> Since 74Wh is well below the 100Wh threshold, this power bank is allowed in carry-on without prior approval — though the operating airline's rules on how many you carry and in-flight use still apply. Larger 30000mAh or 40000mAh banks often exceed 100Wh and need airline approval (101–160Wh). Details in our <a href="/en/blog/power-bank-airplane-rules-egypt-2026" style="color:#2563eb;">power bank airline rules guide</a>.</li>
 </ul>
 <p>Additionally, airlines require that the factory-printed specifications label remains legible on the back of the device. If the capacity rating label is scratched off, damaged, or unreadable, airport security personnel are authorized to confiscate the device because they cannot verify its technical specs. It is highly recommended to protect the back of the device using a plastic wrap or a protective case.</p>
 
@@ -219,17 +213,17 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
     Theoretical Capacity at 5V = 74 Wh / 5V * 1000 = 14,800 mAh
 </div>
 
-<p>Assuming a typical conversion efficiency of about 84.5% for the Joyroom 20000mAh (JR-T014) at a constant 5V/2A (10W) load — a normal figure for a well-built budget-friendly model — the estimated usable capacity is:</p>
+<p>On our sample (CV-PB-JRPBF14-001) at a 5V/2A discharge, we measured <strong>60.8Wh</strong> usable (about 82% of 74Wh):</p>
 
 <div class="formula-box" style="background:#f3f4f6;border:1px solid #e5e7eb;padding:15px;border-radius:6px;margin:20px 0;font-family:monospace;text-align:center;font-size:18px;">
-    Real Usable Capacity = 14,800 mAh * 0.845 = 12,506 mAh
+    60.8 Wh ÷ 5V × 1000 ≈ 12,160 mAh at 5V
 </div>
 
-<p>This translates to approximately 12,500mAh of energy available to your devices. Here is what this looks like in terms of real-world device recharges:</p>
+<p>Charge counts are estimates: measured energy × 0.85 (charging loss inside the phone) ÷ the phone battery's Wh:</p>
 <ul style="line-height:2;">
-    <li><strong>iPhone 15 / 16:</strong> Approximately 3.5 complete charges.</li>
-    <li><strong>Samsung Galaxy S24 Ultra:</strong> Approximately 2.3 complete charges.</li>
-    <li><strong>iPad Pro 11-inch:</strong> 1 full charge, with enough energy left to top up your wireless earbuds.</li>
+    <li><strong>iPhone 15</strong> (about 13Wh): about 4 charges (est.).</li>
+    <li><strong>Samsung Galaxy S24 Ultra</strong> (5,000mAh ≈ 19.4Wh): about 2.7 charges (est.).</li>
+    <li><strong>iPad Pro 11-inch</strong> (about 31Wh): about 1.7 charges (est.).</li>
 </ul>
 
 <h2>3. Cell Chemistry Integration: Lithium-Polymer (Li-Po) vs. Lithium-Ion</h2>
@@ -241,7 +235,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
 </ul>
 
 <h2>4. Charging Protocol Impact: Power Delivery (PD) vs. Programmable Power Supply (PPS)</h2>
-<p>Modern fast charging protocols dictate how much energy is lost during the transfer process. When charging an iPhone via USB Power Delivery (PD), the phone requests a fixed 9V profile. The phone's internal charging IC must step down this 9V to ~4.3V to charge the lithium cell, generating heat inside the phone. When charging a Samsung device, the power bank utilizes PPS (Programmable Power Supply). PPS allows the phone to dynamically adjust the output voltage of the power bank's PMIC in 20mV (millivolt) steps. This shifts the conversion workload and heat generation from the phone to the power bank, keeping your phone cooler during the fast charging cycle.</p>
+<p>Modern fast charging protocols dictate how much energy is lost during the transfer process. When charging an iPhone via USB Power Delivery (PD), the phone requests a fixed 9V profile. The phone's internal charging IC must step down this 9V to ~4.3V to charge the lithium cell, generating heat inside the phone. With PPS (Programmable Power Supply), which Samsung's Super Fast Charging uses, the phone requests voltage in fine 20mV steps, shifting conversion heat from the phone to the charger. Check whether PPS is listed in the profiles printed on your unit — our sample's USB-C output tested in the PD/QC class, with no 20V profile.</p>
 
 <h2>5. USB-C Power Delivery and Fast Charging Benchmarks</h2>
 <p>Joyroom's 20000mAh power bank is equipped with modern charging protocols to deliver high speeds:</p>
@@ -255,50 +249,44 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
 <h2>6. Egypt Price Comparison: Joyroom 20K vs. Anker and Zolo</h2>
 <p>To help you decide, we have mapped out how the Joyroom 20000mAh power bank stacks up against popular alternatives in the Egyptian market:</p>
 
-<table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;">
     <thead>
-        <tr style="background:#1e40af;color:#fff;">
-            <th style="padding:12px 10px;border:1px solid #3b82f6;text-align:left;">Feature / Specification</th>
-            <th style="padding:12px 10px;border:1px solid #3b82f6;text-align:left;">Joyroom JR-T014</th>
-            <th style="padding:12px 10px;border:1px solid #3b82f6;text-align:left;">Anker PowerCore 20K</th>
-            <th style="padding:12px 10px;border:1px solid #3b82f6;text-align:left;">Anker Zolo 20K (Built-in Cable)</th>
+        <tr style="background:#f3f4f6;">
+            <th style="padding:12px 10px;border:1px solid #d1d5db;">Feature</th>
+            <th style="padding:12px 10px;border:1px solid #d1d5db;">Joyroom JR-PBF14 Pro</th>
+            <th style="padding:12px 10px;border:1px solid #d1d5db;">Anker PowerCore 20000 (A1260)</th>
+            <th style="padding:12px 10px;border:1px solid #d1d5db;">Anker Zolo A110E (built-in cable)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;">Max Output Speed</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">22.5W PD/QC</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">15W or 20W PD</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">30W PD / PPS</td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;">Typical Efficiency (est.)</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">84.5%</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">86.2%</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">83.0% (due to cable losses)</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">Max output</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">22.5W rated (21.3W USB-C peak in our test)</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">USB-A up to 18W QC (we measured 17.1W) — no USB-C</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">22.5W rated (21.5W peak in our test)</td>
         </tr>
         <tr>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;">Device Weight</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">~410g</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">~350g (Lighter)</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">~385g</td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;">Case Quality</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">Anti-scratch matte plastic</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">Textured durable polymer</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">Glossy plastic, silicone cable</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">Usable energy (our test)</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">60.8Wh of 74Wh (~82%)</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">61.4Wh of 72Wh (~85%)</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">62.0Wh of 74Wh (~84%)</td>
         </tr>
         <tr>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;">Average Price (Egypt)</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">700 to 850 EGP</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">1,200 to 1,500 EGP</td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">1,400 to 1,700 EGP</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">Weight</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">418g (measured)</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">See product page</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">394g (measured)</td>
+        </tr>
+        <tr>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">Price at CairoVolt</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">{{price:joyroom-power-bank-20000}} EGP</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">{{price:anker-powercore-20000}} EGP</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">{{price:anker-zolo-a110e-20000}} EGP</td>
         </tr>
     </tbody>
 </table>
 
-<p>Joyroom is the clear winner for **value for money**, delivering high speeds and large capacity at roughly half the cost of Anker models. However, if you need 30W output for charging a MacBook Air or iPad Pro, Anker's Zolo is the superior technical choice despite its higher price point. Anker also has a more robust local warranty presence in Egypt, which is worth considering.</p>
+<p>In our measurements, usable energy is very close across all three. The Joyroom is cheaper at the same 22.5W class, the Anker Zolo A110E wins on its built-in cable and ActiveShield protection, and the PowerCore 20000 suits older Quick Charge phones (it has no USB-C). None of them offers 20V, so none is suited to laptop charging. To compare the whole Joyroom range, see our <a href="/en/blog/joyroom-power-banks-10k-20k-models-review" style="color:#2563eb;">Joyroom 10K and 20K power bank roundup</a>.</p>
 
 <h2>7. Safety Measures and Environmental Heat Mitigation in Travel</h2>
 <p>Large lithium packs contain significant energy. Joyroom mitigates thermal risks with built-in hardware controls:</p>
@@ -332,7 +320,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
     <li><strong>Minimize Pass-Through Charging:</strong> Charging the power bank while charging a phone simultaneously creates double the thermal load on the internal components. Avoid this practice unless absolutely necessary.</li>
 </ul>
 
-<p>In summary, the Joyroom 20000mAh power bank is an excellent travel companion, offering reliable airline-safe capacity and fast charging at a budget-friendly price. Just make sure to purchase from authorized dealers to ensure safety.</p>`,
+<p>In summary, the Joyroom 20000mAh power bank is an excellent travel companion, offering reliable airline-safe capacity and fast charging at a budget-friendly price. Just buy from a seller that gives you an invoice and a written warranty, and use the Golden Code check if one is supplied.</p>`,
             faq: [
                 {
                     question: 'Can I bring my Joyroom 20000mAh power bank on commercial flights?',
@@ -340,7 +328,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
                 },
                 {
                     question: 'How many times can it charge a 5000mAh phone battery?',
-                    answer: 'It can charge a 5000mAh phone (like the Galaxy S24 Ultra) roughly 2.3 to 2.5 times, as its real usable capacity at 5V is around 12,500mAh after accounting for heat losses.'
+                    answer: 'About 2.7 times (est.): we measured 60.8Wh usable on our sample, and a 5,000mAh phone such as the Samsung S24 Ultra has about a 19.4Wh battery, so 60.8 × 0.85 ÷ 19.4.'
                 },
                 {
                     question: 'Is it safe to charge the power bank while charging a phone from it?',
@@ -348,7 +336,7 @@ export const joyroom_20000mah_power_bank_travel_performance_review: BlogArticle 
                 },
                 {
                     question: 'What is the main difference between Joyroom and Anker 20000mAh models?',
-                    answer: 'Anker units are lighter (350g vs 410g) and utilize premium Japanese capacitors for a longer lifecycle, but cost twice as much. Joyroom offers comparable 22.5W speeds at a much lower price.'
+                    answer: 'In our measurements the energy is close: Joyroom 60.8Wh, Anker Zolo A110E 62.0Wh and Anker PowerCore 20000 61.4Wh. The Anker Zolo A110E is lighter (394g vs 418g in our test) and has a built-in cable, while the Joyroom is cheaper at the same 22.5W class.'
                 }
             ]
         }

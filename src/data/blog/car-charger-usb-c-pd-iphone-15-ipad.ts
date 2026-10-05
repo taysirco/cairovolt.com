@@ -4,7 +4,7 @@ export const car_charger_usb_c_pd_iphone_15_ipad: BlogArticle = {
     slug: 'car-charger-usb-c-pd-iphone-15-ipad',
     category: 'buying-guide',
     publishDate: '2026-06-01',
-    modifiedDate: '2026-06-01',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'anker-car-charger-dual-usb',
@@ -21,13 +21,6 @@ export const car_charger_usb_c_pd_iphone_15_ipad: BlogArticle = {
     ],
     relatedCategories: ['Anker/car-chargers', 'Joyroom/car-chargers'],
     coverImage: '/images/blog/posts/car-charger-usb-c-pd-iphone-15-ipad.webp',
-    externalReferences: [
-        {
-            url: 'https://rubygems.org/gems/usb_pd_match/versions/0.1.1',
-            title: { ar: 'مرجع مطابقة قدرة USB Power Delivery', en: 'USB Power Delivery wattage matching reference' },
-            note: { ar: 'أداة مرجعية لمطابقة قدرة الشحن', en: 'A charger-wattage matching reference' },
-        },
-    ],
     translations: {
         ar: {
             title: 'ليه شاحن السيارة USB-C PD ضرورة لمستخدمي iPhone و iPad — وليس رفاهية',
@@ -70,7 +63,7 @@ export const car_charger_usb_c_pd_iphone_15_ipad: BlogArticle = {
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
         خد مثال شحن هاتف iPhone 15 Pro Max لمدة 30 دقيقة في ظروف قيادة واقعية (شاشة سطوع كامل + خرائط جوجل نشطة).
         <br>
-        <strong>النتيجة المحسوبة من القدرات المعلنة:</strong> منفذ السيارة المدمج (5W) يضيف نحو <strong>4% فقط</strong> مع ارتفاع ملحوظ في الحرارة نتيجة طول فترة الضغط الكهربي. شاحن USB-A بقوة 12W يضيف نحو <strong>14%</strong>. بينما شاحن السيارة <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">جوي روم 60W USB-C PD</a> يضيف نحو <strong>52% كاملة</strong> مع حرارة مستقرة بفضل سرعة إنجاز الشحن وتقنيات الأمان المدمجة.
+        <strong>النتيجة المحسوبة من القدرات المعلنة:</strong> منفذ السيارة المدمج (5W) يضيف نحو <strong>4% فقط</strong> مع ارتفاع ملحوظ في الحرارة نتيجة طول فترة الضغط الكهربي. شاحن USB-A بقوة 12W يضيف نحو <strong>14%</strong>. بينما شاحن السيارة <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">جوي روم JR-CCL05 (كابل USB-C المدمج)</a> يضيف نحو <strong>52% كاملة</strong> مع حرارة مستقرة بفضل سرعة إنجاز الشحن وتقنيات الأمان المدمجة.
     </p>
 </div>
 
@@ -143,7 +136,7 @@ export const car_charger_usb_c_pd_iphone_15_ipad: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ تسوق شواحن سيارات أصلية بضمان كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        احمِ أجهزتك واشترِ شواحن سيارات وكابلات أصلية بضمان 18 شهر حقيقي من الوكلاء المعتمدين في مصر. شحن سريع وتوصيل لأي مكان والدفع عند الاستلام مع دعم واتساب متكامل.
+        احمِ أجهزتك واشترِ شواحن سيارات وكابلات أصلية بفاتورة وضمان مكتوب — وفي كايرو فولت بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). شحن سريع وتوصيل لأي مكان والدفع عند الاستلام مع دعم واتساب متكامل.
     </p>
 </div>
 
@@ -217,7 +210,7 @@ export const car_charger_usb_c_pd_iphone_15_ipad: BlogArticle = {
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
         Take an iPhone 15 Pro Max charged for 30 minutes under active GPS usage and high screen brightness.
         <br>
-        <strong>Calculated from each charger's rated output:</strong> The built-in USB-A port (5W) increases the charge by only about <strong>4%</strong>, raising phone temperature due to prolonged charging stress. A standard 12W charger adds around <strong>14%</strong>. The <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom 60W USB-C PD charger</a> delivers about <strong>52% charge</strong> while keeping the device at a cool 35°C.
+        <strong>Calculated from each charger's rated output:</strong> The built-in USB-A port (5W) increases the charge by only about <strong>4%</strong>, raising phone temperature due to prolonged charging stress. A standard 12W charger adds around <strong>14%</strong>. The <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom JR-CCL05 (built-in USB-C cable)</a> delivers about <strong>52% charge</strong>.
     </p>
 </div>
 
@@ -289,7 +282,7 @@ export const car_charger_usb_c_pd_iphone_15_ipad: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Shop Genuine Car Chargers at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Protect your devices and buy original car chargers and cables with an 18-month warranty in Egypt. Fast shipping, cash on delivery, and WhatsApp support.
+        Protect your devices and buy original car chargers and cables with an invoice and a written warranty — at CairoVolt, CairoVolt's written store warranty (duration shown on each product page). Fast shipping, cash on delivery, and WhatsApp support.
     </p>
 </div>
 

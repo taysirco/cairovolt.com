@@ -4,14 +4,10 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
     slug: 'anker-car-charger-protection-voltage-regulation',
     category: 'how-to',
     publishDate: '2026-08-16T14:23:00+03:00',
-    modifiedDate: '2026-08-16T14:23:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
-        'anker-car-charger-dual-usb',
-        'anker-a2147-gan-charger-30w',
-        'anker-a8050-usb-c-cable',
-        'joyroom-60w-car-charger',
-        'anker-a2741-charger-30w',
+        'anker-a2732-charger-35w',
         'anker-a2216-magnetic-wireless-car-charger'
     ],
     relatedArticles: [
@@ -33,13 +29,13 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
             metaDescription: 'الحقيقة عن شواحن السيارة في مصر — ليه الشواحن الرخيصة بتبوظ الموبايل، إزاي تنظيم الجهد بيشتغل، ومقارنة أنكر الثنائي مع شواحن السيارات الرخيصة بالتفصيل.',
             keywords: 'شاحن سيارة مصر, انكر A2313 مصر, شاحن سيارة ضد التذبذب, تنظيم جهد شاحن سيارة, شاحن سيارة 12-24V, شاحن سيارة امن مصر, ليه شاحن السيارة بيبوظ, انكر car charger egypt, شاحن USB-C سيارة, حماية كهرباء سيارة',
             excerpt: 'كهرباء بطارية السيارة مش ثابتة — بتتراوح من 9V وقت تشغيل الموتور لـ 14.4V وقت دوران المولد. الشواحن الرخيصة مش بتتحمل ده وبتبوظ موبايلك. إزاي تختار الشاحن الصح لسيارتك في مصر.',
-            quickAnswer: 'شاحن السيارة الرخيص ممكن يبوظ موبايلك فعلاً — لأن كهرباء البطارية مش ثابتة (بتتراوح من 9V لـ 14.4V+). الشاحن الصح لازم يبقى عنده مدخل 12-24V (مش 12V بس)، تنظيم جهد داخلي، وحماية من الحرارة. أنكر الثنائي بمنفذ USB-A + USB-C ومدخل 12-24V هو الاختيار الآمن في السيارات والميكروباصات في مصر.',
+            quickAnswer: 'شاحن السيارة الرخيص ممكن يبوظ موبايلك فعلاً — لأن كهرباء البطارية مش ثابتة (بتتراوح من 9V لـ 14.4V+). الشاحن الصح لازم يبقى عنده مدخل 12-24V (مش 12V بس)، تنظيم جهد داخلي، وحماية من الحرارة. اختيارنا: انكر PowerDrive PD+ 2 (A2732) بمنفذ USB-C ومنفذ USB-A ومدخل 12V/24V بـ {{price:anker-a2732-charger-35w}} جنيه.',
             content: `<p>ليه شاحن السيارة بتاعك اشترقت رائحة غريبة وبعدين وقف؟ ليه الموبايل بيشحن ببطء في السيارة أكتر من البيت؟ ليه الشاحن الرخيص اللي اشتريته بـ 30 جنيه من ناحية المرور بقى مجرد بلاستيك ما بيشتغلش بعد أسبوعين؟ الإجابة واحدة: كهرباء بطارية السيارة مش زي كهرباء المنزل. هي مش ثابتة — وكتير من الشواحن الرخيصة مبنية لبيئة أكثر استقرار مما تقدر عليه بطارية سيارتك في شوارع القاهرة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        شاحن السيارة الرخيص ممكن يبوظ موبايلك — كهرباء البطارية بتتراوح من 9V لـ 14.4V+، والشواحن الرخيصة مش بتتحمل. الشاحن الآمن لازم مدخل 12-24V (مش 12V بس)، تنظيم جهد داخلي، وحماية حرارية. <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">أنكر الثنائي (A2732/A2313)</a> بمنفذ USB-A+USB-C ومدخل 12-24V هو الاختيار الآمن في مصر — بيشتغل في سيارات وميكروباصات وشاحنات.
+        شاحن السيارة الرخيص ممكن يبوظ موبايلك — كهرباء البطارية بتتراوح من 9V لـ 14.4V+، والشواحن الرخيصة مش بتتحمل. الشاحن الآمن لازم مدخل 12-24V (مش 12V بس)، تنظيم جهد داخلي، وحماية حرارية. اختيارنا: <a href="/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">انكر PowerDrive PD+ 2 (A2732)</a> بمنفذ USB-C ومنفذ USB-A ومدخل 12V/24V بـ {{price:anker-a2732-charger-35w}} جنيه — بيشتغل في سيارات وميكروباصات وشاحنات.
     </p>
 </div>
 
@@ -60,10 +56,10 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
 
 <h2>ثالثاً: نبضات تفريغ الحمل الكهرومغناطيسي (Alternator Load Dump)</h2>
 <p>أحد أخطر التحديات الكهربائية في السيارات هو ما يعرف هندسياً بنبضة تفريغ الحمل (Load Dump Surge) الموثقة بالمعيار الدولي ISO 7637-2. تحدث هذه النبضة عندما يتم فصل حمل كهربائي كبير فجأة (مثل إطفاء مكيف السيارة أو المصابيح الأمامية) أثناء دوران المولد وشحن البطارية. يؤدي الانهيار المفاجئ للمجال المغناطيسي داخل المولد إلى توليد نبضة جهد عالية وعنيفة جداً تتراوح بين 80 إلى 120 فولت تستمر لعدة أجزاء من الثانية.</p>
-<p>تحتوي شواحن أنكر على صمام ثنائي لقمع الجهد العابر (TVS Diode) يقوم بامتصاص وقمع هذه النبضات الفائقة وتأريضها على الفور لحماية الدوائر الحساسة. أما الشواحن التجارية الرخيصة، فتفتقر تماماً لهذه الصمامات الواقية، مما يؤدي إلى عبور نبضة الـ 100 فولت مباشرة إلى منفذ الـ USB لتصعق رقاقة إدارة الطاقة (PMIC) داخل الهاتف الذكي وتتلفها في جزء من الثانية.</p>
+<p>تحتوي شواحن انكر على صمام ثنائي لقمع الجهد العابر (TVS Diode) يقوم بامتصاص وقمع هذه النبضات الفائقة وتأريضها على الفور لحماية الدوائر الحساسة. أما الشواحن التجارية الرخيصة، فتفتقر تماماً لهذه الصمامات الواقية، مما يؤدي إلى عبور نبضة الـ 100 فولت مباشرة إلى منفذ الـ USB لتصعق رقاقة إدارة الطاقة (PMIC) داخل الهاتف الذكي وتتلفها في جزء من الثانية.</p>
 
 <h2>رابعاً: البنية الميكانيكية: اللوحة المطبوعة ثنائية الوجه ونقاط التلامس النحاسية</h2>
-<p>يتطلب العمل في تجويف ولاعة السجائر المغلق بالسيارة تصميماً حرارياً دقيقاً لعدم وجود أي تيار هوائي للتبريد. شاحن أنكر الثنائي يستخدم لوحة دوائر مطبوعة ثنائية الوجه مصنوعة من الألياف الزجاجية (Double-Sided FR4 PCB) ومزودة بفتحات حرارية (Thermal Vias) لتوزيع الحرارة بكفاءة.</p>
+<p>يتطلب العمل في تجويف ولاعة السجائر المغلق بالسيارة تصميماً حرارياً دقيقاً لعدم وجود أي تيار هوائي للتبريد. شاحن انكر الثنائي يستخدم لوحة دوائر مطبوعة ثنائية الوجه مصنوعة من الألياف الزجاجية (Double-Sided FR4 PCB) ومزودة بفتحات حرارية (Thermal Vias) لتوزيع الحرارة بكفاءة.</p>
 <p>كما يستخدم الشاحن زنبركات جانبية مصنوعة من فولاذ المنجنيز المقاوم للصدأ ومطلية بالذهب لضمان التثبيت الميكانيكي القوي داخل ولاعة السجائر. يمنع هذا التثبيت المحكم حدوث اهتزازات طفيفة أثناء السير في الطرق غير الممهدة، وهي الاهتزازات التي تؤدي في الشواحن الرخيصة لحدوث شرارات كهربائية ميكروسكوبية (Micro-arcs) تتسبب في سخونة المقبس وتلف ولاعة السيارة.</p>
 
 <h2>خامساً: ليه الشواحن الرخيصة بتبوظ وتبوظ معاها الموبايل؟</h2>
@@ -76,38 +72,37 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
 </ul>
 <p>الأخطر من كده: الشواحن الرخيصة أحياناً بيبقى فيها "حماية وهمية" — مكتوب على العلبة "OVP: Overvoltage Protection" لكن الدائرة الداخلية مش فيها أي حماية حقيقية. ده شايف عيني وأيدي العملاء اللي جابوا لنا شواحن تالفة وموبايلات بيها مشكلة في الشحن.</p>
 
-<h2>سادساً: شاحن أنكر الثنائي — المواصفات التفصيلية</h2>
+<h2>سادساً: شاحن انكر الثنائي (PowerDrive PD+ 2) — المواصفات التفصيلية</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
     <tbody>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;width:40%;">الموديل</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Anker Dual-USB Charger</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">المنافذ</td><td style="padding:10px 12px;border:1px solid #d1d5db;">1× USB-A + 1× USB-C</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الواط الكلي</td><td style="padding:10px 12px;border:1px solid #d1d5db;">33W total (20W USB-C + 12W USB-A)</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">مدخل السيارة</td><td style="padding:10px 12px;border:1px solid #d1d5db;color:#059669;"><strong>12-24V DC</strong> (سيارات + ميكروباصات + شاحنات)</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">بروتوكول الشحن</td><td style="padding:10px 12px;border:1px solid #d1d5db;">PowerIQ 3.0 (USB-C) + PowerIQ 2.0 (USB-A)</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">حماية الجهد</td><td style="padding:10px 12px;border:1px solid #d1d5db;">OVP (Overvoltage Protection) مدمجة</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">نظام المراقبة</td><td style="padding:10px 12px;border:1px solid #d1d5db;">ActiveShield — قياس حرارة أكتر من مليون مرة/يوم</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الحماية الحرارية</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Thermal cutoff تلقائي لو الحرارة تعدت الحد</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الحجم</td><td style="padding:10px 12px;border:1px solid #d1d5db;">صغير — بيدخل في كل فتحات ولاعة السيارة</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">السعر في مصر</td><td style="padding:10px 12px;border:1px solid #d1d5db;">250-350 جنيه</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;width:40%;">الموديل</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Anker PowerDrive PD+ 2 بقوة 35W (A2732)</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">المنافذ</td><td style="padding:10px 12px;border:1px solid #d1d5db;">1× USB-C + 1× USB-A</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الواط الكلي</td><td style="padding:10px 12px;border:1px solid #d1d5db;">35W مُدرج (20W USB-C PD + 15W USB-A) — قسنا 19.8W + 14.9W = 34.7W مع بعض</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">مدخل السيارة</td><td style="padding:10px 12px;border:1px solid #d1d5db;"><strong>12V / 24V DC</strong> — شغّلناه على 12V و24V في المعمل (سيارات + ميكروباصات + شاحنات)</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">بروتوكول الشحن</td><td style="padding:10px 12px;border:1px solid #d1d5db;">USB-C PD 20W (من غير PPS) + PowerIQ 2.0 على USB-A</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الحماية</td><td style="padding:10px 12px;border:1px solid #d1d5db;">ActiveShield 2.0 وMultiProtect حسب انكر؛ وفي اختبارنا فصل الحماية من التيار الزائد فوق 3.5A على USB-C</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">نطاق التشغيل</td><td style="padding:10px 12px;border:1px solid #d1d5db;">انكر بتحدد 0–40°م — افصله لو العربية واقفة في الشمس</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الحجم</td><td style="padding:10px 12px;border:1px solid #d1d5db;">35.0 × 38.1 × 38.0 مم و31.8 جرام (مقاس)، بحلقة LED زرقاء</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">السعر</td><td style="padding:10px 12px;border:1px solid #d1d5db;">{{price:anker-a2732-charger-35w}} جنيه على كايرو فولت</td></tr>
     </tbody>
 </table>
 
-<h2>سابعاً: مقارنة: شاحن رخيص مجهول vs أنكر الثنائي</h2>
+<h2>سابعاً: مقارنة: شاحن رخيص مجهول vs انكر الثنائي</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">البند</th>
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;color:#dc2626;">شاحن رخيص مجهول</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;color:#059669;">أنكر الثنائي ⭐</th>
+            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;color:#059669;">انكر الثنائي (A2732)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">نطاق مدخل الجهد</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">12V فقط — يفشل عند 14.4V+</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">12-24V — آمن مع المولد والشاحنات</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">12V/24V — شغّلناه على الاتنين في المعمل</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">تنظيم الجهد الداخلي</td>
@@ -117,37 +112,37 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">حماية من الجهد الزائد (OVP)</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ مكتوبة على العلبة فقط</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ دائرة OVP حقيقية مدمجة</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ MultiProtect حسب انكر</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">قطع حراري (Thermal cutoff)</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ غائب — بيسخن لحد ما يحترق</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ ActiveShield + thermal cutoff</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ ActiveShield 2.0 حسب انكر</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">التوافق مع 24V (شاحنات)</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ بيحترق فوراً</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ بيشتغل عادي</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ اشتغل على 24V في اختبارنا</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">البروتوكول</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">5V/1A ثابت — بطيء جداً</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">PowerIQ 3.0 — شحن ذكي وسريع</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">USB-C PD 20W + USB-A PowerIQ 2.0</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">السعر</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">30-80 جنيه</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">250-350 جنيه</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">{{price:anker-a2732-charger-35w}} جنيه</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">متوسط العمر</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">أسابيع إلى أشهر</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">سنوات مع ضمان 18 شهر</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">بضمان كايرو فولت المكتوب (المدة في صفحة المنتج)</td>
         </tr>
     </tbody>
 </table>
 
-<p>ولو ميزانيتك أعلى وعايز حاجة أشيك من فيشة USB عادية، نزل عندنا جديد <a href="/anker/car-chargers/anker-a2216-magnetic-wireless-car-charger" style="color:#2563eb;font-weight:600;">شاحن سيارة انكر المغناطيسي اللاسلكي</a> بـ 1200 جنيه — تثبيت مغناطيسي + شحن لاسلكي + باد قابل للفصل يكمل الشحن معاك خارج العربية، وبنفس فلسفة الحماية وتنظيم الجهد اللي بنتكلم عنها في المقال ده.</p>
+<p>ولو ميزانيتك أعلى وعايز حاجة أشيك من فيشة USB عادية، نزل عندنا جديد <a href="/anker/car-chargers/anker-a2216-magnetic-wireless-car-charger" style="color:#2563eb;font-weight:600;">شاحن سيارة انكر المغناطيسي اللاسلكي</a> بـ {{price:anker-a2216-magnetic-wireless-car-charger}} جنيه — تثبيت مغناطيسي + شحن لاسلكي + باد قابل للفصل يكمل الشحن معاك خارج العربية، وبنفس فلسفة الحماية وتنظيم الجهد اللي بنتكلم عنها في المقال ده.</p>
 
 <h2>ثامناً: الخطر الحقيقي — لما الشاحن مش بس بيبوظ نفسه</h2>
 <p>شاحن سيارة تالف بيعمل حاجتين خطيرتين:</p>
@@ -157,7 +152,7 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
 <h2>تاسعاً: مشكلة الصيف المصري — لماذا الحرارة تضاعف الخطر</h2>
 <p>في يوليو وأغسطس في مصر، السيارة الواقفة في الشمس ساعتين ممكن تبقى درجة الهواء جوّاها 65-70°م. الداشبورد والمقاعد أكتر. فيشة ولاعة السجاير التي يركب فيها الشاحن ترتفع درجة حرارتها أيضاً.</p>
 <p>الشاحن الرخيص في درجة حرارة 60°م جوّاه — بتبدأ المكثفات الإلكتروليتية الرخيصة تفقد كفاءة كيميائها الداخلية. المكثف بيتمدد، وممكن يترشّح، وبعدين الشاحن بيوقف أو بيشتغل بشكل عشوائي يضر الموبايل.</p>
-<p>ActiveShield في أنكر بيحل المشكلة دي: لما بيحس إن الشاحن وصل لدرجة حرارة معينة، بيخفض الخرج تلقائياً أو بيوقف التشغيل مؤقتاً حتى تنزل الحرارة. ده بيحمي الشاحن وبيحمي الموبايل في نفس الوقت.</p>
+<p>انكر بتقول إن ActiveShield بيراقب حرارة الشاحن وبيخفض الخرج لو سخن زيادة، وده بيحمي الشاحن والموبايل. بس انكر نفسها بتحدد نطاق تشغيل 0–40°م لشاحن A2732 — وفي اختبارنا التابلوه وصل 61.5°م بعد 40 دقيقة ركنة في الشمس. فافصل الشاحن وإنت راكن في الشمس، وشغّل التكييف كام دقيقة قبل الشحن.</p>
 
 <h2>عاشراً: ليه الشاحن بيوقف لما بشغّل الموتور؟</h2>
 <p>ده سؤال بيجيلنا كتير من العملاء — وإجابته في الفيزياء.</p>
@@ -167,7 +162,7 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
     <li>Under-voltage protection (UVP) — بيقطع الخرج لو الجهد نزل تحت حد معين</li>
     <li>بيشيل الحمل من الموبايل مؤقتاً وبيرجعه لما الجهد يستقر</li>
 </ul>
-<p>في أنكر، النطاق الواسع 12-24V بيغطي التقلبات دي بأمان. الشاحن ممكن يوقف الشحن لثانيتين وقت التكويع وبعدين يرجع تلقائياً — ده طبيعي وصح. الخطر هو الشاحن اللي مش بيشيل الحمل ويخلي التيار غير المنتظم يوصل للموبايل.</p>
+<p>في انكر، النطاق الواسع 12-24V بيغطي التقلبات دي بأمان. الشاحن ممكن يوقف الشحن لثانيتين وقت التكويع وبعدين يرجع تلقائياً — ده طبيعي وصح. الخطر هو الشاحن اللي مش بيشيل الحمل ويخلي التيار غير المنتظم يوصل للموبايل.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔎 من واقع حالات الإرجاع عندنا — أشهر أسباب أعطال شواحن السيارة:</p>
@@ -176,14 +171,14 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
     </p>
 </div>
 
-<h2>الحادي عشر: أنكر في الميكروباص والتوك توك</h2>
-<p>ميكروباصات مصر الكبيرة (النوع التجاري) بيستخدموا 24V system. لو حطّيت شاحن 12V في فيشة ولاعة ميكروباص 24V — هيحترق فوراً. شاحن أنكر بمدخل 12-24V بيشتغل في الاتنين بدون مشكلة.</p>
-<p>التوك توك المصري — معظمه بيستخدم نظام 12V مع بطارية واحدة. شاحن أنكر بيشتغل فيه عادي. الخطورة في التوك توك إن البطارية أحياناً بتكون متآكلة وجهودها بيكون متذبذب أكتر — وده بالظبط اللي بيتحمله بنطاقه الواسع.</p>
+<h2>الحادي عشر: انكر في الميكروباص والتوك توك</h2>
+<p>ميكروباصات مصر الكبيرة (النوع التجاري) بيستخدموا 24V system. لو حطّيت شاحن 12V في فيشة ولاعة ميكروباص 24V — هيحترق فوراً. شاحن انكر بمدخل 12-24V بيشتغل في الاتنين بدون مشكلة.</p>
+<p>التوك توك المصري — معظمه بيستخدم نظام 12V مع بطارية واحدة. شاحن انكر بيشتغل فيه عادي. الخطورة في التوك توك إن البطارية أحياناً بتكون متآكلة وجهودها بيكون متذبذب أكتر — وده بالظبط اللي بيتحمله بنطاقه الواسع.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أنكر الثنائي — شاحن السيارة الآمن بضمان 18 شهر</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ انكر PowerDrive PD+ 2 (A2732) — شاحن سيارة بمنفذين</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        متاح على كايرو فولت بـ <strong>250-350 جنيه</strong>. أصلي 100% بضمان 18 شهر. مدخل 12-24V — يشتغل في سيارات وميكروباصات وشاحنات. PowerIQ 3.0 + ActiveShield + OVP. توصيل لكل المحافظات + دفع عند الاستلام. <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#166534;font-weight:600;text-decoration:underline;">اطلب دلوقتي ←</a>
+        متاح على كايرو فولت بـ <strong>{{price:anker-a2732-charger-35w}} جنيه</strong> بضمان كايرو فولت المكتوب (المدة موضحة في صفحة المنتج). مدخل 12V/24V — يشتغل في سيارات وميكروباصات وشاحنات. USB-C PD 20W + USB-A PowerIQ 2.0، وActiveShield 2.0 وMultiProtect حسب انكر. توصيل لكل المحافظات + دفع عند الاستلام. <a href="/anker/car-chargers/anker-a2732-charger-35w" style="color:#166534;font-weight:600;text-decoration:underline;">اطلب دلوقتي ←</a>
     </p>
 </div>`,
             faq: [
@@ -196,8 +191,8 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
                     answer: 'شاحن 12V بس = مصمم للجهد الاسمي فقط. أي ارتفاع لـ 14.4V من المولد ممكن يضغط عليه، وفي 24V شاحنات بيحترق فوراً. شاحن 12-24V = فيه DC-DC converter يقبل النطاق الواسع ده. بيتعامل مع ارتفاعات المولد طبيعياً، وبيشتغل في السيارات والشاحنات والميكروباصات. الفرق في الجودة الداخلية — مش بس رقم على الورق.'
                 },
                 {
-                    question: 'هل شاحن أنكر بيشتغل في الميكروباص والتوك توك؟',
-                    answer: 'الميكروباص الكبير التجاري — أيوا، لأن شاحن أنكر بيقبل 24V. الميكروباص الصغير (زي ميكروباص 14 راكب) — أيوا كمان، لأن جهازه 12V. التوك توك المصري — أيوا، بيشتغل على 12V. الشرط الوحيد إن تكون الفيشة (ولاعة السجاير) شغالة صح وما فيهاش صدأ. لو الفيشة تالفة محتاج تصلحها الأول.'
+                    question: 'هل شاحن انكر بيشتغل في الميكروباص والتوك توك؟',
+                    answer: 'الميكروباص الكبير التجاري — أيوا، لأن شاحن انكر بيقبل 24V. الميكروباص الصغير (زي ميكروباص 14 راكب) — أيوا كمان، لأن جهازه 12V. التوك توك المصري — أيوا، بيشتغل على 12V. الشرط الوحيد إن تكون الفيشة (ولاعة السجاير) شغالة صح وما فيهاش صدأ. لو الفيشة تالفة محتاج تصلحها الأول.'
                 },
                 {
                     question: 'ليه شاحن السيارة بيوقف أحياناً لما بشغّل الموتور؟',
@@ -211,13 +206,13 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
             metaDescription: 'The truth about car chargers in Egypt — why cheap chargers damage your phone, how voltage regulation works, and Anker vs cheap alternatives.',
             keywords: 'car charger egypt, anker car charger, car charger voltage protection, car charger 12-24v, safe car charger egypt, why car charger breaks, anker car charger egypt, usb-c car charger egypt, car battery voltage fluctuation, voltage regulation charger',
             excerpt: 'Car battery voltage is not stable — it swings from 9V during engine start to 14.4V when the alternator is running. Cheap chargers cannot handle this and can damage your phone. How to choose the right car charger in Egypt.',
-            quickAnswer: 'A cheap car charger can genuinely damage your phone — because car battery voltage is unstable (ranging from 9V to 14.4V+). A safe charger must have 12-24V input (not just 12V), internal voltage regulation, and thermal protection. The Anker Dual-USB Charger with USB-A + USB-C and 12-24V input is the safe choice in Egypt — it works in cars, minibuses, and trucks.',
+            quickAnswer: 'A cheap car charger can genuinely damage your phone — because car battery voltage is unstable (ranging from 9V to 14.4V+). A safe charger must have 12-24V input (not just 12V), internal voltage regulation, and thermal protection. Our pick: the Anker PowerDrive PD+ 2 (A2732) with USB-C + USB-A and 12V/24V input, at EGP {{price:anker-a2732-charger-35w}}.',
             content: `<p>Why did your car charger emit a strange smell and then stop working? Why does your phone charge slower in the car than at home? Why did the cheap charger you bought near the traffic light for 30 EGP turn into a useless piece of plastic after two weeks? The answer is the same in every case: car battery electricity is not like home electricity. It is not stable — and many cheap chargers are built for a more stable environment than your car battery in Cairo traffic can provide.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        A cheap car charger can genuinely damage your phone — car battery voltage swings from 9V to 14.4V+, and cheap chargers cannot handle this. A safe charger needs 12-24V input (not just 12V), real internal voltage regulation, and thermal protection. The <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">Anker Dual-USB Charger</a> with USB-A + USB-C and 12-24V input is the safe choice in Egypt — it works in passenger cars, minibuses, and trucks.
+        A cheap car charger can genuinely damage your phone — car battery voltage swings from 9V to 14.4V+, and cheap chargers cannot handle this. A safe charger needs 12-24V input (not just 12V), real internal voltage regulation, and thermal protection. Our pick: the <a href="/en/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">Anker PowerDrive PD+ 2 (A2732)</a> with USB-C + USB-A and 12V/24V input, at EGP {{price:anker-a2732-charger-35w}} — it works in passenger cars, minibuses, and trucks.
     </p>
 </div>
 
@@ -254,20 +249,19 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
 </ul>
 <p>What makes this worse: cheap chargers often have "fake protection." The packaging says "OVP: Overvoltage Protection" but the internal circuit has no actual protection component. This is something we have seen repeatedly from customers who brought us damaged chargers and phones with charging issues.</p>
 
-<h2>6. Anker Dual-USB Charger — Detailed Specifications</h2>
+<h2>6. Anker Dual-Port Car Charger (PowerDrive PD+ 2) — Detailed Specifications</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
     <tbody>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;width:40%;">Model</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Anker Dual-USB Charger</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Ports</td><td style="padding:10px 12px;border:1px solid #d1d5db;">1× USB-A + 1× USB-C</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Total Wattage</td><td style="padding:10px 12px;border:1px solid #d1d5db;">33W total (20W USB-C + 12W USB-A)</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Input Voltage</td><td style="padding:10px 12px;border:1px solid #d1d5db;color:#059669;"><strong>12-24V DC</strong> (cars + minibuses + trucks)</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Charging Protocol</td><td style="padding:10px 12px;border:1px solid #d1d5db;">PowerIQ 3.0 (USB-C) + PowerIQ 2.0 (USB-A)</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Voltage Protection</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Built-in OVP (Overvoltage Protection)</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Monitoring System</td><td style="padding:10px 12px;border:1px solid #d1d5db;">ActiveShield — measures temperature over 1 million times per day</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Thermal Protection</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Automatic thermal cutoff if temperature exceeds threshold</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Size</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Compact — fits all standard car lighter sockets</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Price in Egypt</td><td style="padding:10px 12px;border:1px solid #d1d5db;">250-350 EGP</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;width:40%;">Model</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Anker PowerDrive PD+ 2 35W (A2732)</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Ports</td><td style="padding:10px 12px;border:1px solid #d1d5db;">1× USB-C + 1× USB-A</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Total Wattage</td><td style="padding:10px 12px;border:1px solid #d1d5db;">35W listed (20W USB-C PD + 15W USB-A) — we measured 19.8W + 14.9W = 34.7W together</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Input Voltage</td><td style="padding:10px 12px;border:1px solid #d1d5db;"><strong>12V / 24V DC</strong> — we ran it at both 12V and 24V in the lab (cars + minibuses + trucks)</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Charging Protocol</td><td style="padding:10px 12px;border:1px solid #d1d5db;">USB-C PD 20W (no PPS) + PowerIQ 2.0 on USB-A</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Protection</td><td style="padding:10px 12px;border:1px solid #d1d5db;">ActiveShield 2.0 and MultiProtect per Anker; in our test over-current protection cut in above 3.5A on USB-C</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Operating Range</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Anker specifies 0–40°C — unplug it when the car is parked in the sun</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Size</td><td style="padding:10px 12px;border:1px solid #d1d5db;">35.0 × 38.1 × 38.0 mm and 31.8 g (measured), with a blue LED ring</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Price</td><td style="padding:10px 12px;border:1px solid #d1d5db;">EGP {{price:anker-a2732-charger-35w}} on CairoVolt</td></tr>
     </tbody>
 </table>
 
@@ -278,7 +272,7 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
         <tr style="background:#f3f4f6;">
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Specification</th>
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;color:#dc2626;">Cheap No-Name Charger</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;color:#059669;">Anker Dual-USB Charger ⭐</th>
+            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;color:#059669;">Anker Dual-Port (A2732)</th>
         </tr>
     </thead>
     <tbody>
@@ -300,7 +294,7 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Thermal cutoff</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ Absent — heats until it fails</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ ActiveShield + automatic thermal cutoff</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅ ActiveShield 2.0 per Anker</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">24V truck compatibility</td>
@@ -310,22 +304,22 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Charging protocol</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">Fixed 5V/1A — very slow</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">PowerIQ 3.0 — smart fast charging</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">USB-C PD 20W + USB-A PowerIQ 2.0</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Price</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">30-80 EGP</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">250-350 EGP</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">EGP {{price:anker-a2732-charger-35w}}</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Expected lifespan</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">Weeks to months</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">Years with 18-month warranty</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">CairoVolt written store warranty (duration on the product page)</td>
         </tr>
     </tbody>
 </table>
 
-<p>If your budget allows and you want something beyond a plain socket charger, we have just stocked the <a href="/en/anker/car-chargers/anker-a2216-magnetic-wireless-car-charger" style="color:#2563eb;font-weight:600;">Anker Magnetic Wireless Car Charger</a> at 1200 EGP — a magnetic mount + wireless charging + a detachable pad that keeps charging outside the car, built to the same protection and voltage-regulation standards discussed throughout this article.</p>
+<p>If your budget allows and you want something beyond a plain socket charger, we have just stocked the <a href="/en/anker/car-chargers/anker-a2216-magnetic-wireless-car-charger" style="color:#2563eb;font-weight:600;">Anker Magnetic Wireless Car Charger</a> at EGP {{price:anker-a2216-magnetic-wireless-car-charger}} — a magnetic mount + wireless charging + a detachable pad that keeps charging outside the car, built to the same protection and voltage-regulation standards discussed throughout this article.</p>
 
 <h2>8. The Real Danger — When a Charger Damages More Than Itself</h2>
 <p>A failing car charger causes two serious problems:</p>
@@ -359,9 +353,9 @@ export const anker_car_charger_protection_voltage_regulation: BlogArticle = {
 <p>Egyptian tuk-tuks mostly use a 12V system with a single battery. The Anker Dual-USB Charger works in them normally. The specific risk in tuk-tuks is that the battery is often older and worn, meaning its voltage is more erratic than in a newer car — which is exactly what the charger's wide input range is designed to tolerate.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Anker Dual-USB Charger — Safe Car Charger with 18-Month Warranty</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Anker PowerDrive PD+ 2 (A2732) — Dual-Port Car Charger</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Available on CairoVolt at <strong>250-350 EGP</strong>. 100% authentic with 18-month warranty. 12-24V input — works in cars, minibuses, and trucks. PowerIQ 3.0 + ActiveShield + OVP. Delivery to all governorates + cash on delivery. <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#166534;font-weight:600;text-decoration:underline;">Order now ←</a>
+        Available on CairoVolt at <strong>EGP {{price:anker-a2732-charger-35w}}</strong> with CairoVolt's written store warranty (duration shown on the product page). 12V/24V input — works in cars, minibuses, and trucks. USB-C PD 20W + USB-A PowerIQ 2.0, with ActiveShield 2.0 and MultiProtect per Anker. Delivery to all governorates + cash on delivery. <a href="/en/anker/car-chargers/anker-a2732-charger-35w" style="color:#166534;font-weight:600;text-decoration:underline;">Order now ←</a>
     </p>
 </div>`,
             faq: [

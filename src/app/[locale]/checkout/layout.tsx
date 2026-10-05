@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { Suspense } from 'react';
 
 export async function generateMetadata({
     params,
@@ -24,10 +25,18 @@ export async function generateMetadata({
     };
 }
 
+// The checkout page reads useSearchParams(), which needs a Suspense boundary to
+// prerender. The route-level loading.tsx used to provide one implicitly; it was
+// removed so content pages stream their main content inline instead of inside
+// a hidden <div> (which non-JS crawlers drop).
 export default function CheckoutLayout({
     children,
 }: {
     children: React.ReactNode;
 }) {
-    return <>{children}</>;
+    return (
+        <Suspense fallback={<div className="min-h-[60vh] animate-pulse" aria-busy="true" />}>
+            {children}
+        </Suspense>
+    );
 }

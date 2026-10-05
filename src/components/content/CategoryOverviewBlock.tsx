@@ -158,6 +158,36 @@ export function CategoryOverviewBlock({
 }
 
 // ============================================
+// ARABIC COUNT AGREEMENT
+// ============================================
+// Arabic number–noun agreement for "product": 1 → منتج واحد, 2 → منتجان,
+// 3–10 → منتجات (plural), 11+ → منتجًا (accusative singular). The old copy
+// printed "3 منتجًا" for every count, which reads as a typo on small shelves.
+
+/** Noun only, for UIs that print the number separately (stat cards). */
+export function arabicProductNoun(count: number): string {
+    if (count === 2) return 'منتجان';
+    if (count >= 3 && count <= 10) return 'منتجات';
+    if (count >= 11) return 'منتجًا';
+    return 'منتج';
+}
+
+/** Number + noun phrase: منتج واحد / منتجان / 5 منتجات / 12 منتجًا. */
+export function arabicProductCount(count: number): string {
+    if (count === 1) return 'منتج واحد';
+    if (count === 2) return 'منتجان';
+    return `${count} ${arabicProductNoun(count)}`;
+}
+
+/** Same agreement rule for "section": قسم واحد / قسمان / 4 أقسام / 12 قسمًا. */
+function arabicSectionCount(count: number): string {
+    if (count === 1) return 'قسم واحد';
+    if (count === 2) return 'قسمان';
+    if (count >= 3 && count <= 10) return `${count} أقسام`;
+    return `${count} قسمًا`;
+}
+
+// ============================================
 // COLLECTION OVERVIEW BLOCK - For Category Pages
 // ============================================
 
@@ -170,6 +200,40 @@ interface CollectionOverviewBlockProps {
     locale: string;
 }
 
+/**
+ * The one catalogue-computed sentence that summarises a shelf: how many
+ * products, the live price range, and where the per-product terms live.
+ *
+ * Exported so the category page's CollectionPage JSON-LD `description` quotes
+ * exactly what the visible overview block says, instead of the first 300
+ * characters of the editorial description (a marketing hook with no count or
+ * price). Returns '' for an empty shelf so callers can fall back.
+ */
+export function buildCollectionOverviewSentence({
+    categoryName,
+    categoryNameAr,
+    brand,
+    productCount,
+    priceRange,
+    locale,
+}: CollectionOverviewBlockProps): string {
+    if (productCount <= 0 || !Number.isFinite(priceRange.min) || !Number.isFinite(priceRange.max)) {
+        return '';
+    }
+    const isArabic = locale === 'ar';
+    const displayBrand = isArabic ? localizeArabicBrandNames(brand) : brand;
+    const formatPrice = (price: number) => new Intl.NumberFormat(isArabic ? 'ar-EG' : 'en-EG', {
+        style: 'currency',
+        currency: 'EGP',
+        maximumFractionDigits: 0
+    }).format(price);
+
+    if (isArabic) {
+        return `تصفح ${arabicProductCount(productCount)} من ${categoryNameAr} ${displayBrand}. تتراوح الأسعار الحالية من ${formatPrice(priceRange.min)} إلى ${formatPrice(priceRange.max)}، وتوضح صفحة كل منتج مواصفاته وتوافره وشروط ضمان كايرو فولت.`;
+    }
+    return `Browse ${productCount} ${displayBrand} ${categoryName} ${productCount === 1 ? 'product' : 'products'}. Current prices range from ${formatPrice(priceRange.min)} to ${formatPrice(priceRange.max)}, and each product page states its specifications, availability, and CairoVolt warranty terms.`;
+}
+
 export function CollectionOverviewBlock({
     categoryName,
     categoryNameAr,
@@ -179,7 +243,6 @@ export function CollectionOverviewBlock({
     locale
 }: CollectionOverviewBlockProps) {
     const isArabic = locale === 'ar';
-    const displayBrand = isArabic ? localizeArabicBrandNames(brand) : brand;
     const hash = typeof categoryName === 'string' ? categoryName.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
 
     const arCategoryAria = ['نظرة عامة على القسم', 'اكتشف القسم', 'محتويات القسم سريعا'];
@@ -193,22 +256,14 @@ export function CollectionOverviewBlock({
     const selectedArHeading = arCategoryHeading[hash % arCategoryHeading.length];
     const selectedEnHeading = enCategoryHeading[hash % enCategoryHeading.length];
 
-    const formatPrice = (price: number) => {
-        return new Intl.NumberFormat(isArabic ? 'ar-EG' : 'en-EG', {
-            style: 'currency',
-            currency: 'EGP',
-            maximumFractionDigits: 0
-        }).format(price);
-    };
-
-    const getSummary = () => {
-        const name = isArabic ? categoryNameAr : categoryName;
-
-        if (isArabic) {
-            return `تصفح ${productCount} منتجًا من ${name} ${displayBrand}. تتراوح الأسعار الحالية من ${formatPrice(priceRange.min)} إلى ${formatPrice(priceRange.max)}، وتوضح صفحة كل منتج مواصفاته وتوافره وشروط ضمان كايرو فولت.`;
-        }
-        return `Browse ${productCount} ${displayBrand} ${name} products. Current prices range from ${formatPrice(priceRange.min)} to ${formatPrice(priceRange.max)}, and each product page states its specifications, availability, and CairoVolt warranty terms.`;
-    };
+    const getSummary = () => buildCollectionOverviewSentence({
+        categoryName,
+        categoryNameAr,
+        brand,
+        productCount,
+        priceRange,
+        locale,
+    });
 
     return (
         <section
@@ -237,7 +292,7 @@ export function CollectionOverviewBlock({
                                 {productCount}
                             </div>
                             <div className="text-xs text-gray-600 dark:text-gray-400">
-                                {isArabic ? 'منتج' : 'Products'}
+                                {isArabic ? arabicProductNoun(productCount) : (productCount === 1 ? 'Product' : 'Products')}
                             </div>
                         </div>
                         <div className="text-center">
@@ -288,7 +343,7 @@ export function BrandOverviewBlock({
 
     const getSummary = () => {
         if (isArabic) {
-            return `${displayBrandName} على كايرو فولت. ${displayBrandDescription} تضم الصفحة ${totalProducts} منتجًا في ${categoryCount} أقسام، مع توضيح مدة ضمان كايرو فولت وشروطه على صفحة كل منتج، وتوصيل متاح داخل مصر حسب العنوان.`;
+            return `${displayBrandName} على كايرو فولت. ${displayBrandDescription} تضم الصفحة ${arabicProductCount(totalProducts)} في ${arabicSectionCount(categoryCount)}، مع توضيح مدة ضمان كايرو فولت وشروطه على صفحة كل منتج، وتوصيل متاح داخل مصر حسب العنوان.`;
         }
         return `${displayBrandName} at CairoVolt. ${displayBrandDescription} This page covers ${totalProducts} products across ${categoryCount} categories. CairoVolt warranty duration and terms are stated on each product page, with delivery in Egypt subject to the address.`;
     };

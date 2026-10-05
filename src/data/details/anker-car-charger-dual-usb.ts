@@ -16,9 +16,9 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
             'Recall check 2026-07-24 — NOT recalled (anker.com/product-recalls + cpsc.gov; no car chargers in Anker’s active list). Single retail unit CV-CS-A2310011-001. No AC-input efficiency claimed (car DC in; PZEM not applicable).',
         ],
         ar: [
-            'انكر PowerDrive 2 (A2310 / MPN A2310011): شاحن مقبس سيارة بمنفذي USB-A — 24 واط إجمالي اسمي (5V/4.8A)، حتى 12 واط (5V/2.4A) لكل منفذ. قِست CairoVolt ذروة منفذ واحد 11.4 واط و21.8 واط مشاركة مزدوجة عند دخل مختبري 13.8V DC — قالب تعبئة PowerIQ بجهد 5V، وليس سكة USB-C PD بـ30 واط.',
+            'انكر PowerDrive 2 (A2310 / MPN A2310011) شاحن مقبس سيارة بمنفذي USB-A — 24 واط إجمالي اسمي (5V/4.8A) وحتى 12 واط (5V/2.4A) لكل منفذ. قِست CairoVolt ذروة منفذ واحد 11.4 واط و21.8 واط مشاركة مزدوجة عند 13.8V DC — شحن PowerIQ بجهد 5V، وليس سكة USB-C PD بـ30 واط.',
             'صدق A/B مقابل الإخوة الذهبيين: Anker A2741 وصل 29.3 واط USB-C PD؛ A2732 ثبّت 19.8 واط C + 14.9 واط A متزامنًا؛ Joyroom JR-CCL05 وصل 29.1 واط على كابل C القابل للسحب. A2310011 يبقى على PowerIQ 5V فقط — بلا QC ولا PD ولا PPS. اشترِه لكابلَي USB-A قديمين، لا للشحن السريع الحديث.',
-            'جهد 12V موثَّق بطريقتين: مصدر مختبري MECHANIC MP-3005D (12.6V تباطؤ / 13.8V يعمل) عبر تجهيزة CigarBUS12V-DC + مقبس ملحقات Toyota Corolla 2018. الملصق يطبع 12V/24V — دخل 24V للميكروباص/الشاحنة **لم يُغذَّ** في هذه الدورة. التموّج وLoad Dump **لم يُقاسا** (بلا راسم / بلا معدّة ISO).',
+            'جهد 12V موثَّق بطريقتين: مصدر مختبري MECHANIC MP-3005D (12.6V تباطؤ / 13.8V يعمل) عبر تجهيزة CigarBUS12V-DC + مقبس ملحقات Toyota Corolla 2018. الملصق يطبع 12V/24V — دخل 24V للميكروباص/الشاحنة لم يُغذَّ في هذه الدورة. التموّج وLoad Dump لم يُقاسا (بلا راسم / بلا معدّة ISO).',
             'المشاركة المزدوجة: المنفذان محمّلان معًا استقرا عند 21.8 واط إجمالي (~10.9 + ~10.9). سطح الجسم بعد 15 دقيقة حمل مزدوج بلغ ذروة 47.1°م (GM320) عند محيطة مختبر 28.0°م. الوزن 28.4 جرام؛ الأبعاد 65.2 × 28.3 × 28.1 ملم؛ البروز ~42 ملم بعد حافة Corolla.',
             'فحص استدعاء 2026-07-24 — غير مُستدعى (anker.com/product-recalls + cpsc.gov؛ لا شواحن سيارات في قائمة انكر النشطة). وحدة تجزئة واحدة CV-CS-A2310011-001. لا ادعاء كفاءة دخل AC (دخل DC من السيارة؛ PZEM غير منطبق).',
         ],
@@ -62,7 +62,7 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
         },
         'Category': {
             en: 'Cigarette-socket (12V/24V label) dual USB-A car charger — NOT a wall charger, NOT USB-C PD',
-            ar: 'شاحن سيارة لمقبس السيارة (ملصق 12V/24V) بمنفذي USB-A — **ليس** شاحن حائط، **وليس** USB-C PD',
+            ar: 'شاحن سيارة لمقبس السيارة (ملصق 12V/24V) بمنفذي USB-A — ليس شاحن حائط، وليس USB-C PD',
         },
         'MPN / GTIN': {
             en: 'MPN A2310011 · model family A2310 · GTIN 0848061073508 · CairoVolt SKU AR02',
@@ -74,7 +74,7 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
         },
         'Ports': {
             en: '2× USB-A only — no USB-C port on this SKU',
-            ar: '2× USB-A فقط — **لا** منفذ USB-C على هذا الـSKU',
+            ar: '2× USB-A فقط — لا منفذ USB-C على هذا الـSKU',
         },
         'Technology': {
             en: 'PowerIQ (5V class) — FNB58 confirmed no Quick Charge and no USB-C PD/PPS negotiation; every rail stayed near 5V',
@@ -86,7 +86,7 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
         },
         'Input': {
             en: 'Label 12V and 24V DC — CairoVolt powered at 12.6V / 13.8V lab PSU and from a Toyota Corolla 2018 12V accessory socket. 24V NOT tested this cycle.',
-            ar: 'الملصق 12V و24V DC — غذّت CairoVolt عند 12.6V / 13.8V بمصدر مختبري ومن مقبس ملحقات Toyota Corolla 2018 بجهد 12V. 24V **لم يُختبَر** في هذه الدورة.',
+            ar: 'الملصق 12V و24V DC — غذّت CairoVolt عند 12.6V / 13.8V بمصدر مختبري ومن مقبس ملحقات Toyota Corolla 2018 بجهد 12V. 24V لم يُختبَر في هذه الدورة.',
         },
         'Vehicle voltage tolerance (12V rail)': {
             en: 'Held dual-share ~21.2W at 12.6V lab idle; single-port still delivered ~10.8W at 12.0V; dropped offline below ~11.3V DC input (protection cutoff)',
@@ -106,11 +106,11 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
         },
         'Safety': {
             en: 'Manufacturer-listed MultiProtect — CairoVolt bench-verified OCP cut >2.8A on a single 5V port in ~2.3s; ripple / load-dump NOT measured',
-            ar: 'MultiProtect كما تدرجها انكر — تحقّقت CairoVolt من OCP يفصل >2.8A على منفذ 5V واحد خلال ~2.3 ثانية؛ التموّج / Load Dump **لم يُقاسا**',
+            ar: 'MultiProtect كما تدرجها انكر — تحقّقت CairoVolt من OCP يفصل >2.8A على منفذ 5V واحد خلال ~2.3 ثانية؛ التموّج / Load Dump لم يُقاسا',
         },
         'Ripple / Load dump': {
-            en: 'Voltage ripple NOT measured (no oscilloscope this cycle). Load-dump protection NOT tested (no ISO 7637 pulse equipment) — skipped per protocol §7.2 O.',
-            ar: 'تموّج الجهد **لم يُقَس** (بلا راسم في هذه الدورة). حماية Load Dump **لم تُختبَر** (بلا معدّة نبض ISO 7637) — تُتخطى وفق §7.2 O.',
+            en: 'Voltage ripple NOT measured (no oscilloscope this cycle). Load-dump protection NOT tested (no ISO 7637 pulse equipment) — skipped per protocol.',
+            ar: 'تموّج الجهد لم يُقَس (بلا راسم في هذه الدورة). حماية Load Dump لم تُختبَر (بلا معدّة نبض ISO 7637) — تُتخطى.',
         },
         'Recall status': {
             en: 'NOT RECALLED — verified 2026-07-24 against anker.com/product-recalls and cpsc.gov (Anker 2024–2025 recalls cover cables A8482/A8483/A8465 and power banks A1263/A1257/A1647/A1652/A1681/A1689; no car chargers listed)',
@@ -133,8 +133,8 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
             ar: 'CV-CS-A2310011-001 · م. عمر خالد · 2026-07-24',
         },
         'Protocol': {
-            en: 'CairoVolt Bench Test Protocol §7.2 (car chargers) + applicable §7.1 load/phone steps + §11 red-flag checklist',
-            ar: 'بروتوكول اختبار كايرو فولت §7.2 (شواحن السيارة) + خطوات الحمل/الهاتف المنطبقة من §7.1 + قائمة الأعلام الحمراء §11',
+            en: 'CairoVolt Bench Test Protocol (car chargers) + applicable load/phone steps + red-flag checklist',
+            ar: 'بروتوكول اختبار كايرو فولت (شواحن السيارة) + خطوات الحمل/الهاتف المنطبقة من + قائمة الأعلام الحمراء',
         },
     },
     benchTest: {
@@ -144,38 +144,38 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
         engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
         conditions: {
             en: 'One retail-stock unit (sample CV-CS-A2310011-001) · CairoVolt lab, New Cairo · ambient 28.0°C (HTC-2) · humidity 45% RH · DC input from MECHANIC MP-3005D at 12.6V (simulated idle) and 13.8V (simulated running-engine) via CigarBUS12V-DC socket jig · PLUS real-vehicle check in Toyota Corolla 2018 accessory socket (New Cairo, cabin AC-on 38.1°C; dashboard after 35-min sun-park 61.0°C GM320) · 24V NOT powered this cycle · same lab day A/B context vs A2741 / A2732 / JR-CCL05 gold sheets · single unit; production batches may vary',
-            ar: 'وحدة واحدة من مخزون التجزئة (عيّنة CV-CS-A2310011-001) · مختبر كايرو فولت، القاهرة الجديدة · حرارة محيطة 28.0°م (HTC-2) · رطوبة 45% · دخل DC من MECHANIC MP-3005D عند 12.6V (تباطؤ محاكى) و13.8V (محرك يعمل محاكى) عبر تجهيزة CigarBUS12V-DC · **إضافة** فحص سيارة حقيقية في مقبس ملحقات Toyota Corolla 2018 (القاهرة الجديدة، مقصورة تكييف 38.1°م؛ تابلوه بعد 35 دقيقة ركن شمسي 61.0°م GM320) · 24V **لم يُغذَّ** في هذه الدورة · سياق A/B بنفس يوم المختبر مقابل أوراق A2741 / A2732 / JR-CCL05 الذهبية · وحدة واحدة؛ قد تختلف دفعات الإنتاج',
+            ar: 'وحدة واحدة من مخزون التجزئة (عيّنة CV-CS-A2310011-001) · مختبر كايرو فولت، القاهرة الجديدة · حرارة محيطة 28.0°م (HTC-2) · رطوبة 45% · دخل DC من MECHANIC MP-3005D عند 12.6V (تباطؤ محاكى) و13.8V (محرك يعمل محاكى) عبر تجهيزة CigarBUS12V-DC · إضافة فحص سيارة حقيقية في مقبس ملحقات Toyota Corolla 2018 (القاهرة الجديدة، مقصورة تكييف 38.1°م؛ تابلوه بعد 35 دقيقة ركن شمسي 61.0°م GM320) · 24V لم يُغذَّ في هذه الدورة · سياق A/B بنفس يوم المختبر مقابل أوراق A2741 / A2732 / JR-CCL05 الذهبية · وحدة واحدة؛ قد تختلف دفعات الإنتاج',
         },
         methodology: {
             en:
-                'Per CairoVolt Bench Test Protocol §7.2 (car chargers) with applicable §7.1 phone/load steps on sample CV-CS-A2310011-001 (2026-07-24). ' +
+                'Per CairoVolt Bench Test Protocol (car chargers) with applicable phone/load steps on sample CV-CS-A2310011-001 (2026-07-24). ' +
                 'We powered A2310011 from a MECHANIC MP-3005D adjustable DC lab supply (0–30V/0–5A) set to 12.6V then 13.8V into a CigarBUS12V-DC spring-contact socket jig — documenting the 12V source as lab PSU, not inventing a truck rail. ' +
                 'Separately we seated the unit in a Toyota Corolla 2018 12V accessory socket for fit, idle behavior, LED visibility, and cabin-heat context. ' +
-                'We did NOT apply 24V this cycle despite the 12V/24V label — disclosed explicitly (§7.2 C silence over invention). ' +
+                'We did NOT apply 24V this cycle despite the 12V/24V label — disclosed explicitly. ' +
                 'Port output: FNIRSI FNB58 (fw v1.3) inline into JUWEI 35W electronic load — Port A alone, Port B alone, then both ports loaded together for dual-share. ' +
                 'Protocol scan: FNB58 confirmed no QC handshake and no PD/PPS advertisement — rails stayed at ~5V PowerIQ. ' +
                 'Real phones: Samsung Galaxy A15 (5000mAh) on Port A via USB-A→C cable; Apple iPhone 13 on Port B via USB-A→Lightning — alone and concurrent. ' +
                 'Thermal: BENETECH GM320 (ε=0.95) on charger body after 15 min dual load; Corolla dashboard sun-park reading for context. ' +
                 'Weight on Kkmoon 0.01g scale; dimensions on Mitutoyo 150mm caliper; protrusion past Corolla bezel with cloth scale. ' +
                 'OCP: requested >2.8A on a single 5V port via JUWEI. ' +
-                'Voltage ripple NOT measured — no Hantek/scope this cycle (§7.2 N); load-dump (§7.2 O) skipped — no ISO pulse equipment. ' +
-                'No AC-input efficiency — DC-in car charger; PZEM not applicable; figure omitted per §6 rule 7 / §11.3. ' +
+                'Voltage ripple NOT measured — no Hantek/scope this cycle; load-dump skipped — no ISO pulse equipment. ' +
+                'No AC-input efficiency — DC-in car charger; PZEM not applicable; figure omitted 7 /. ' +
                 'Independent corroboration (NOT our data): Anker PowerDrive 2 product materials list 24W total / 2× USB-A / PowerIQ / 12–24V input / MultiProtect — matching our rated column. ' +
                 'A/B cross-read same week: A2741 29.3W USB-C, A2732 34.7W simultaneous C+A, JR-CCL05 29.1W C-cable — establishing A2310011 as the lower-watt 5V dual-A tier. ' +
                 'Recall check 2026-07-24 on anker.com/product-recalls + cpsc.gov — not listed. Single unit; production batches may vary.',
             ar:
-                'وفق بروتوكول اختبار كايرو فولت §7.2 (شواحن السيارة) مع خطوات الهاتف/الحمل المنطبقة من §7.1 على العيّنة CV-CS-A2310011-001 (2026-07-24). ' +
+                'وفق بروتوكول اختبار كايرو فولت (شواحن السيارة) مع خطوات الهاتف/الحمل المنطبقة من على العيّنة CV-CS-A2310011-001 (2026-07-24). ' +
                 'غذّينا A2310011 من مصدر DC مختبري MECHANIC MP-3005D (0–30V/0–5A) مضبوط على 12.6V ثم 13.8V داخل تجهيزة مقبس CigarBUS12V-DC بنابض — موثّقين مصدر 12V كمصدر مختبري، دون اختراع سكة شاحنة. ' +
                 'بشكل منفصل ركّبنا الوحدة في مقبس ملحقات Toyota Corolla 2018 بجهد 12V للملاءمة وسلوك التباطؤ ورؤية LED وسياق حرارة المقصورة. ' +
-                '**لم** نطبّق 24V في هذه الدورة رغم ملصق 12V/24V — الإفصاح صريح (§7.2 C الصمت أقوى من الاختراع). ' +
+                'لم نطبّق 24V في هذه الدورة رغم ملصق 12V/24V — الإفصاح صريح. ' +
                 'خرج المنافذ: FNIRSI FNB58 (fw v1.3) على الخط داخل حمل JUWEI 35W — المنفذ A وحده، المنفذ B وحده، ثم المنفذان معًا للمشاركة المزدوجة. ' +
                 'مسح بروتوكول: أكّد FNB58 عدم مصافحة QC وعدم إعلان PD/PPS — بقيت السكك عند ~5V PowerIQ. ' +
                 'هواتف حقيقية: Samsung Galaxy A15 (5000mAh) على المنفذ A بكابل USB-A→C؛ Apple iPhone 13 على المنفذ B بكابل USB-A→Lightning — منفردين ومتزامنين. ' +
                 'الحرارة: BENETECH GM320 (ε=0.95) على جسم الشاحن بعد 15 دقيقة حمل مزدوج؛ قراءة تابلوه Corolla للركن الشمسي للسياق. ' +
                 'الوزن على ميزان Kkmoon 0.01g؛ الأبعاد على قدمة Mitutoyo 150 ملم؛ البروز بعد حافة Corolla بمازورة. ' +
                 'OCP: طلب >2.8A على منفذ 5V واحد عبر JUWEI. ' +
-                'تموّج الجهد **لم يُقَس** — بلا راسم Hantek في هذه الدورة (§7.2 N)؛ Load Dump (§7.2 O) تُخطّي — بلا معدّة نبض ISO. ' +
-                'لا كفاءة دخل AC — شاحن سيارة دخل DC؛ PZEM غير منطبق؛ الرقم محذوف وفق قاعدة §6 البند 7 / §11.3. ' +
+                'تموّج الجهد لم يُقَس — بلا راسم Hantek في هذه الدورة؛ Load Dump تُخطّي — بلا معدّة نبض ISO. ' +
+                'لا كفاءة دخل AC — شاحن سيارة دخل DC؛ PZEM غير منطبق؛ الرقم محذوف وفق القاعدة البند 7 /. ' +
                 'للاسترجاع المستقل (وليست بياناتنا): مواد منتج Anker PowerDrive 2 تدرج 24 واط إجمالي / 2× USB-A / PowerIQ / دخل 12–24V / MultiProtect — يطابق عمودنا الاسمي. ' +
                 'قراءة A/B في الأسبوع نفسه: A2741 29.3 واط USB-C، A2732 34.7 واط متزامن C+A، JR-CCL05 29.1 واط كابل C — تثبت A2310011 كطبقة 5V ثنائية A الأقل واطًا. ' +
                 'فحص استدعاء 2026-07-24 على anker.com/product-recalls + cpsc.gov — غير مدرج. وحدة واحدة؛ قد تختلف دفعات الإنتاج.',
@@ -196,7 +196,7 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
             { param: { en: 'Port B single-rail peak (lab 13.8V DC)', ar: 'ذروة سكة المنفذ B المنفردة (مختبر 13.8V DC)' }, rated: '12W (5V/2.4A)', measured: '11.3W (5.00V / 2.26A)', note: { en: 'matched Port A within meter tolerance', ar: 'يطابق المنفذ A ضمن تسامح المقياس' } },
             { param: { en: 'Total envelope peak (electronic load)', ar: 'ذروة الظرف الإجمالي (حمل إلكتروني)' }, rated: '24W (5V/4.8A)', measured: '22.6W', note: { en: 'primary FNB58 sum under dual stress — a little under label', ar: 'مجموع FNB58 الأساسي تحت إجهاد مزدوج — أقل قليلًا من الملصق' } },
             { param: { en: 'Dual-share both ports loaded', ar: 'المشاركة المزدوجة — المنفذان محمّلان' }, rated: '24W shared', measured: { en: '21.8W total (~10.9W + ~10.9W)', ar: '21.8 واط إجمالي (~10.9 + ~10.9)' }, note: { en: 'stable 10 min — not 12W+12W concurrent marketing arithmetic', ar: 'مستقر 10 دقائق — ليس 12+12 تسويقيًا كمتزامن' } },
-            { param: { en: 'Fast-charge negotiation (QC / PD / PPS)', ar: 'تفاوض الشحن السريع (QC / PD / PPS)' }, rated: { en: 'PowerIQ 5V only', ar: 'PowerIQ 5V فقط' }, measured: { en: 'no QC / no PD / no PPS — every rail stayed ~5V', ar: 'لا QC ولا PD ولا PPS — بقيت كل سكة ~5V' }, note: { en: 'A/B: A2741/A2732/JR-CCL05 C-legs DO negotiate PD', ar: 'A/B: سيقان C في A2741/A2732/JR-CCL05 **تتفاوض** PD' } },
+            { param: { en: 'Fast-charge negotiation (QC / PD / PPS)', ar: 'تفاوض الشحن السريع (QC / PD / PPS)' }, rated: { en: 'PowerIQ 5V only', ar: 'PowerIQ 5V فقط' }, measured: { en: 'no QC / no PD / no PPS — every rail stayed ~5V', ar: 'لا QC ولا PD ولا PPS — بقيت كل سكة ~5V' }, note: { en: 'A/B: A2741/A2732/JR-CCL05 C-legs DO negotiate PD', ar: 'A/B: سيقان C في A2741/A2732/JR-CCL05 تتفاوض PD' } },
             { param: { en: 'Galaxy A15 peak (USB-A→C, single port)', ar: 'ذروة Galaxy A15 (USB-A→C، منفذ واحد)' }, measured: '10.8W', note: { en: 'phone/cable limited below bench 11.4W JUWEI peak', ar: 'محدود بالهاتف/الكابل دون ذروة JUWEI 11.4 واط' } },
             { param: { en: 'Galaxy A15 0→50% (bench + car socket)', ar: 'Galaxy A15 من 0 إلى 50% (منضدة + مقبس سيارة)' }, measured: { en: '31 minutes', ar: '31 دقيقة' }, note: { en: '5V PowerIQ top-up speed — not PD fast charge', ar: 'سرعة تعبئة PowerIQ 5V — ليس شحن PD سريع' } },
             { param: { en: 'Galaxy A15 0→100% (in car)', ar: 'Galaxy A15 من 0 إلى 100% (في السيارة)' }, measured: { en: '2h 24m', ar: 'ساعتان و24 دقيقة' }, note: { en: 'fine for commute top-up; slow for a full empty pack', ar: 'جيد لتعبئة المشوار؛ بطيء لعبوة فارغة كاملة' } },
@@ -204,9 +204,9 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
             { param: { en: 'Galaxy A15 alongside iPhone 13 (dual)', ar: 'Galaxy A15 بجانب iPhone 13 (مزدوج)' }, measured: { en: '9.2W to A15 + 7.1W to iPhone ≈ 16.3W phone total', ar: '9.2 واط لـA15 + 7.1 واط لـiPhone ≈ 16.3 واط إجمالي هواتف' }, note: { en: 'phones draw less than JUWEI dual-share 21.8W envelope', ar: 'الهواتف تسحب أقل من ظرف JUWEI المزدوج 21.8 واط' } },
             { param: { en: '12.6V idle tolerance (lab PSU)', ar: 'تحمل تباطؤ 12.6V (مصدر مختبري)' }, measured: { en: 'dual-share held 21.2W; single-port 11.1W', ar: 'المشاركة المزدوجة حافظت على 21.2 واط؛ المنفذ الواحد 11.1 واط' }, note: { en: 'stop-start Cairo traffic relevance', ar: 'صلة بزحمة القاهرة ستوب-آند-جو' } },
             { param: { en: 'Low-voltage sag / cutoff (12V rail)', ar: 'هبوط الجهد / القطع (سكة 12V)' }, measured: { en: 'single-port ~10.8W at 12.0V; offline below ~11.3V DC', ar: 'منفذ واحد ~10.8 واط عند 12.0V؛ فصل تحت ~11.3V DC' }, note: { en: 'protection cutoff — weak battery / deep idle', ar: 'قطع حماية — بطارية ضعيفة / تباطؤ عميق' } },
-            { param: { en: '24V input (microbus/truck)', ar: 'دخل 24V (ميكروباص/شاحنة)' }, rated: { en: '12V and 24V on label', ar: '12V و24V على الملصق' }, measured: { en: 'NOT TESTED this cycle', ar: '**لم يُختبَر** في هذه الدورة' }, note: { en: 'protocol §7.2 — publish silence over invented 24V data', ar: 'بروتوكول §7.2 — الصمت أقوى من اختراع بيانات 24V' } },
-            { param: { en: 'Voltage ripple (scope)', ar: 'تموّج الجهد (راسم)' }, measured: { en: 'NOT measured — no oscilloscope this cycle', ar: '**لم يُقَس** — بلا راسم في هذه الدورة' }, note: { en: 'do not invent mV pk-pk (§7.2 N)', ar: 'لا نخترع mV ذروة-لذروة (§7.2 N)' } },
-            { param: { en: 'Load-dump protection', ar: 'حماية Load Dump' }, measured: { en: 'SKIPPED — no ISO 7637 equipment', ar: 'تُخطّي — بلا معدّة ISO 7637' }, note: { en: '§7.2 O', ar: '§7.2 O' } },
+            { param: { en: '24V input (microbus/truck)', ar: 'دخل 24V (ميكروباص/شاحنة)' }, rated: { en: '12V and 24V on label', ar: '12V و24V على الملصق' }, measured: { en: 'NOT TESTED this cycle', ar: 'لم يُختبَر في هذه الدورة' }, note: { en: 'No 24V data published until tested', ar: 'لا تُنشر بيانات 24V قبل اختبارها' } },
+            { param: { en: 'Voltage ripple (scope)', ar: 'تموّج الجهد (راسم)' }, measured: { en: 'NOT measured — no oscilloscope this cycle', ar: 'لم يُقَس — بلا راسم في هذه الدورة' }, note: { en: 'mV pk-pk not measured', ar: 'mV ذروة-لذروة غير مقيس' } },
+            { param: { en: 'Load-dump protection', ar: 'حماية Load Dump' }, measured: { en: 'SKIPPED — no ISO 7637 equipment', ar: 'تُخطّي — بلا معدّة ISO 7637' } },
             { param: { en: 'Body surface temp after 15 min dual load', ar: 'حرارة سطح الجسم بعد 15 دقيقة حمل مزدوج' }, measured: '47.1°C peak (GM320)', note: { en: 'lab ambient 28.0°C — warm; unplug in sun-parked cabin', ar: 'محيطة مختبر 28.0°م — دافئ؛ افصل في مقصورة مركونة بالشمس' } },
             { param: { en: 'Corolla cabin / dashboard context', ar: 'سياق مقصورة/تابلوه Corolla' }, measured: { en: 'cabin AC-on 38.1°C · dashboard sun-park 61.0°C', ar: 'مقصورة تكييف 38.1°م · تابلوه ركن شمسي 61.0°م' }, note: { en: 'Cairo summer heat — do not leave charger socketted in sun', ar: 'حرارة صيف القاهرة — لا تترك الشاحن في المقبس تحت الشمس' } },
             { param: { en: 'Over-current protection (single 5V port)', ar: 'حماية التيار الزائد (منفذ 5V واحد)' }, measured: { en: 'cut >2.8A in ~2.3s', ar: 'فصل >2.8A خلال ~2.3 ثانية' } },
@@ -234,8 +234,8 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
             { en: 'USB-A ports only — no USB-C receptacle; every modern C-port phone needs an A-to-C cable in the glovebox', ar: 'منافذ USB-A فقط — بلا مقبس USB-C؛ كل هاتف حديث بمنفذ C يحتاج كابل A-to-C في درج القفازات' },
             { en: 'Dual-share is a shared ~24W envelope — measured 21.8W total (~10.9W each), not 12W+12W concurrent; A15 dropped to 9.2W beside an iPhone', ar: 'المشاركة المزدوجة ظرف مشترك ~24 واط — قِيس 21.8 واط إجمالي (~10.9 لكل)؛ هبط A15 إلى 9.2 واط بجانب iPhone' },
             { en: '22.6W measured total peak — a little below the 24W label; Galaxy A15 full charge took 2h 24m in the car', ar: 'ذروة إجمالية مقاسة 22.6 واط — أقل قليلًا من ملصق 24 واط؛ شحن Galaxy A15 الكامل استغرق ساعتين و24 دقيقة في السيارة' },
-            { en: '24V microbus/truck input NOT tested this cycle — label claims 12V/24V; we only powered 12.6V/13.8V lab + Corolla 12V socket', ar: 'دخل 24V للميكروباص/الشاحنة **لم يُختبَر** في هذه الدورة — الملصق يدّعي 12V/24V؛ غذّينا فقط 12.6V/13.8V مختبرًا + مقبس Corolla 12V' },
-            { en: 'Voltage ripple NOT measured (no scope); load-dump NOT tested — no invented mV or ISO claims', ar: 'تموّج الجهد **لم يُقَس** (بلا راسم)؛ Load Dump **لم يُختبَر** — بلا اختراع mV أو ادعاءات ISO' },
+            { en: '24V microbus/truck input NOT tested this cycle — label claims 12V/24V; we only powered 12.6V/13.8V lab + Corolla 12V socket', ar: 'دخل 24V للميكروباص/الشاحنة لم يُختبَر في هذه الدورة — الملصق يدّعي 12V/24V؛ غذّينا فقط 12.6V/13.8V مختبرًا + مقبس Corolla 12V' },
+            { en: 'Voltage ripple NOT measured (no scope); load-dump NOT tested — no invented mV or ISO claims', ar: 'تموّج الجهد لم يُقَس (بلا راسم)؛ Load Dump لم يُختبَر — بلا اختراع mV أو ادعاءات ISO' },
             { en: 'No AC-input efficiency figure published — DC-in car charger; PZEM wall efficiency does not apply', ar: 'لا رقم كفاءة دخل AC منشور — شاحن سيارة دخل DC؛ كفاءة جدار PZEM غير منطبقة' },
             { en: '~42 mm protrusion and bright blue LED — can crowd shallow cup-holders and distract some night drivers vs mini A2741’s ~30 mm / no ring LED', ar: 'بروز ~42 ملم وLED زرقاء ساطعة — قد تزاحم مساند أكواب ضحلة وتشتّت بعض سائقي الليل مقابل A2741 الميني ~30 ملم / بلا حلقة LED' },
             { en: 'Not a laptop car charger and not a PD phone fast charger — wrong tool if your primary device is a modern USB-C iPhone/Samsung flagship', ar: 'ليس شاحن لابتوب للسيارة وليس شاحن هاتف PD سريع — أداة خاطئة إن كان جهازك الأساسي iPhone/Samsung أعلام حديث بـUSB-C' },

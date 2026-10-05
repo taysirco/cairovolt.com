@@ -1,6 +1,9 @@
 // Server Component — structured data
 // DO NOT add 'use client' here!
 
+import { toPlainAnswer } from '@/lib/blog-answer-normalize';
+import { getBrandEntity } from '@/lib/brand-entities';
+
 // ============================================
 // HOWTO SCHEMA - For Buying Guides
 // ============================================
@@ -118,8 +121,23 @@ interface ArticleProps {
     /**
      * schema.org `abstract` — the article's visible quick-answer summary.
      * Only pass text that is rendered on the page (e.g. QuickAnswerBox).
+     * Emitted as plain text (markup stripped).
      */
     abstract?: string;
+    /** Stable node id, e.g. `${url}#article`. Emitted as '@id' when given. */
+    id?: string;
+    /**
+     * Third-party sources the article cites (schema.org `citation`, a
+     * CreativeWork property). Never pass CairoVolt-controlled hosts.
+     */
+    citations?: Array<{ name: string; url: string }>;
+    /**
+     * Entities the article body actually discusses (schema.org `mentions`,
+     * a CreativeWork property), e.g. PDP Product nodes referenced by @id.
+     * Pass untyped references ({ '@id', name, url }): a typed name-only
+     * Product would be evaluated by Google as an incomplete Product snippet.
+     */
+    mentions?: Array<Record<string, unknown>>;
 }
 
 /**
@@ -136,18 +154,28 @@ export function ArticleSchema({
     locale,
     articleType = 'Article',
     abstract,
+    id,
+    citations,
+    mentions,
 }: ArticleProps) {
     // Combine sections into article body for structured content
     const articleBody = sections
         ?.map(s => `${s.heading}\n${s.content}`)
         .join('\n\n');
 
+    const plainAbstract = abstract ? toPlainAnswer(abstract) : '';
+    const citationNodes = (citations ?? [])
+        .filter(c => c && c.url && c.name)
+        .map(c => ({ '@type': 'CreativeWork', name: c.name, url: c.url }));
+    const mentionNodes = (mentions ?? []).filter(Boolean);
+
     const schema: Record<string, unknown> = {
         '@context': 'https://schema.org',
         '@type': articleType,
+        ...(id && { '@id': id }),
         headline: headline,
         description: description,
-        ...(abstract && { abstract }),
+        ...(plainAbstract && { abstract: plainAbstract }),
         ...(articleBody && { articleBody }),
         inLanguage: locale === 'ar' ? 'ar-EG' : 'en-EG',
         ...(datePublished && { datePublished }),
@@ -156,7 +184,9 @@ export function ArticleSchema({
             '@type': 'WebPage',
             '@id': url,
         },
+        isPartOf: { '@id': 'https://cairovolt.com/#website' },
         // Attribute site-owned articles to the same store organization node.
+        // The Arabic inline name is the organization's declared alternateName.
         author: {
             '@type': 'Organization',
             '@id': 'https://cairovolt.com/#organization',
@@ -167,13 +197,17 @@ export function ArticleSchema({
             '@type': 'Organization',
             '@id': 'https://cairovolt.com/#organization',
             name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
+            // Same node id as the organization logo in GlobalBusinessSchema.
             logo: {
                 '@type': 'ImageObject',
+                '@id': 'https://cairovolt.com/logo.png#image',
                 url: 'https://cairovolt.com/logo.png',
                 width: 1024,
                 height: 1024,
             },
         },
+        ...(citationNodes.length > 0 && { citation: citationNodes }),
+        ...(mentionNodes.length > 0 && { mentions: mentionNodes }),
     };
 
     // Optional article-cover URL. Do not assert rights without a separate
@@ -218,22 +252,23 @@ interface FAQPageSchemaProps {
 export function FAQPageSchema({ items, locale, url }: FAQPageSchemaProps) {
     if (!items || items.length === 0) return null;
 
+    // With a page URL the FAQ gets its own node id and is declared PART OF the
+    // page rather than its main entity — on blog pages the BlogPosting is the
+    // main entity, and two nodes both claiming the page left that ambiguous.
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
+        ...(url && { '@id': `${url}#faq` }),
         inLanguage: locale === 'ar' ? 'ar-EG' : 'en-EG',
         ...(url && {
-            mainEntityOfPage: {
-                '@type': 'WebPage',
-                '@id': url,
-            },
+            isPartOf: { '@id': url },
         }),
         mainEntity: items.map(item => ({
             '@type': 'Question',
-            name: item.question,
+            name: toPlainAnswer(item.question),
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: item.answer,
+                text: toPlainAnswer(item.answer),
             },
         })),
     };
@@ -345,6 +380,10 @@ export function CategoryCollectionSchema({
     locale,
 }: CategoryCollectionSchemaProps) {
     const isArabic = locale === 'ar';
+    // Reference the site-wide Brand node (the one carrying the verified
+    // Wikidata/Wikipedia sameAs) by @id, so `about` resolves to that entity
+    // instead of a disconnected name-only Brand.
+    const brandEntity = getBrandEntity(brandName);
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'CollectionPage',
@@ -355,7 +394,11 @@ export function CategoryCollectionSchema({
         inLanguage: isArabic ? 'ar-EG' : 'en-EG',
         isPartOf: { '@id': 'https://cairovolt.com/#website' },
         about: [
-            { '@type': 'Brand', name: brandName },
+            {
+                '@type': 'Brand',
+                ...(brandEntity && { '@id': brandEntity.id }),
+                name: brandEntity?.name ?? brandName,
+            },
             { '@type': 'Thing', name: categoryName },
         ],
         mainEntity: { '@id': `${url}#itemlist` },
@@ -407,6 +450,9 @@ export function CollectionPageSchema({ locale, collections }: CollectionPageSche
                 position: index + 1,
                 item: {
                     '@type': 'CollectionPage',
+                    // Same id the target page gives its own CollectionPage, so
+                    // the list items join those nodes instead of floating free.
+                    '@id': `${collection.url}#collectionpage`,
                     name: collection.name,
                     url: collection.url,
                     description: collection.description,

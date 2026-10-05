@@ -47,7 +47,6 @@ export interface CategoryContent {
             buyingGuide?: BuyingGuideSection[];
             faq?: FAQItem[];
             qualityBadges?: QualityBadge[];
-            products: Array<{ name: string; price: number; badge?: string }>;
         };
         en: {
             title: string;
@@ -56,7 +55,6 @@ export interface CategoryContent {
             buyingGuide?: BuyingGuideSection[];
             faq?: FAQItem[];
             qualityBadges?: QualityBadge[];
-            products: Array<{ name: string; price: number; badge?: string }>;
         };
     };
 }

@@ -32,7 +32,7 @@ export const joyroom_type_c_lightning_braided = {
                 metaTitle: "Joyroom Lightning Braided | iPhone Fast Charge",
                 metaDesc: "A tough braided USB-C to Lightning cable for daily iPhone charging — Joyroom JR-S-CL30B. Genuine, backed by store warranty and cash on delivery in Egypt.",
                 faqs: [
-                    { question: "Is this cable MFi certified?", answer: "Verify the MFi mark for model JR-S-CL30B on the supplied package or manufacturer documentation. Do not infer certification or error-free operation from the connector shape alone." },
+                    { question: "Is this cable MFi certified?", answer: "Not verified: our tested JR-S-CL30B sample had no Apple MFi packaging mark, and iOS showed an accessory warning. Treat MFi as unconfirmed unless your package shows the mark; the connector shape alone does not establish certification." },
                     { question: "How fast does the braided Lightning cable charge?", answer: "It supports USB-C PD up to the cable's listed rating with compatible iPhones and chargers. Actual speed varies by phone model, charger, cable condition, and battery level." },
                     { question: "Does it support fast charging?", answer: "It can use a supported USB-PD profile when the cable's printed rating, USB-C charger and Lightning device are compatible. It is not a 60W USB-C-to-USB-C cable for Samsung phones." },
                     { question: "How durable is this cable?", answer: "The manufacturer lists a bend-cycle rating for this reinforced braided model. Actual lifespan depends on use; avoid sharp bends and pulling the cable by the wire." }
@@ -51,7 +51,7 @@ export const joyroom_type_c_lightning_braided = {
                 metaTitle: "كابل جوي روم ايفون نايلون | شحن سريع | COD مصر",
                 metaDesc: "كابل جوي روم JR-S-CL30B المضفر من USB-C إلى Lightning لشحن ايفونك اليومي بمتانة. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [
-                    { question: "هل الكابل معتمد MFi؟", answer: "تحقق من علامة MFi للموديل JR-S-CL30B على العبوة الموردة أو وثائق الشركة المصنّعة. لا تفترض الاعتماد أو عدم ظهور أخطاء من شكل الموصل وحده." },
+                    { question: "هل الكابل معتمد MFi؟", answer: "غير مؤكَّد: عيّنة JR-S-CL30B المُختبرة لدينا بلا علامة Apple MFi على العبوة، وأظهر iOS تحذير ملحق. اعتبر MFi غير مؤكَّد ما لم تُظهر عبوتك العلامة؛ شكل الموصل وحده لا يثبت الاعتماد." },
                     { question: "كم سرعة شحن كابل Lightning المجدول؟", answer: "يدعم USB-C PD حتى القدرة المعلنة عند استخدام ايفون وشاحن متوافقين. السرعة الفعلية تختلف حسب موديل الهاتف والشاحن وحالة البطارية." },
                     { question: "هل يدعم الشحن السريع؟", answer: "يمكنه استخدام بروفايل USB-PD مدعوم عندما يتوافق تصنيف الكابل المطبوع وشاحن USB-C وجهاز Lightning. ليس كابل USB-C إلى USB-C بقوة 60 واط لهواتف سامسونج." },
                     { question: "الكابل هيعيش قد إيه؟", answer: "لا يمكن وعد عمر ثابت. تحقق من أي رقم لدورات الثني على العبوة، وتجنب السحب والثني الحاد وافحص الغلاف والموصل وتوقف عن الاستخدام عند التلف." }

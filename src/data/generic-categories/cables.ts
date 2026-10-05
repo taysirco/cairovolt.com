@@ -23,7 +23,7 @@ export const cables_generic: GenericCategory = {
             ar: {
                 title: 'كابلات شحن في مصر',
                 subtitle: 'USB-C وLightning — قارن القدرة والبيانات والطول',
-                intro: 'قارن كابلات شحن انكر وجوي روم حسب نوع الموصل والقدرة المعلنة ونقل البيانات والطول والغلاف. راجع مواصفات الموديل والسعر والمخزون وشروط ضمان كايرو فولت قبل الطلب.',
+                intro: 'قارن كابلات شحن انكر وجوي روم — أو «وصلة شاحن» زي ما بنقول في مصر — حسب نوع الموصل والقدرة المعلنة ونقل البيانات والطول والغلاف. راجع مواصفات الموديل والسعر والمخزون وشروط ضمان كايرو فولت قبل الطلب.',
                 buyingTips: [
                     'لـ iPhone 17: اختر كابل USB-C to USB-C يدعم PD والقدرة المطلوبة لجهازك',
                     'للمتانة: راجع عدد مرات الثني المعلن من الشركة واختر موصلات مدعمة',
@@ -93,19 +93,6 @@ export const cables_generic: GenericCategory = {
 <li><strong>كابل طويل:</strong> راجع الطول والقدرة المقننة، وتجنب الشد أو الثني الحاد أثناء الاستخدام</li>
 </ul>
 
-<h2 id="comparison-table">جدول مقارنة كابلات الشحن في مصر</h2>
-<table>
-<thead><tr><th>فئة الكابل</th><th>النوع</th><th>الطول</th><th>ما يجب مراجعته</th><th>الغلاف</th><th>السعر</th></tr></thead>
-<tbody>
-<tr><td>USB-C يومي</td><td>C to C</td><td>حسب الموديل</td><td>القدرة والبيانات</td><td>حسب الموديل</td><td>راجع صفحة المنتج</td></tr>
-<tr><td>متعدد الأطراف</td><td>متعدد</td><td>حسب الموديل</td><td>قدرة كل طرف والبيانات</td><td>حسب الموديل</td><td>راجع صفحة المنتج</td></tr>
-<tr><td><strong>USB-C مضفر</strong></td><td><strong>C to C</strong></td><td><strong>حسب الموديل</strong></td><td><strong>القدرة وe-marker</strong></td><td><strong>مضفر</strong></td><td><strong>راجع صفحة المنتج</strong></td></tr>
-<tr><td>Lightning</td><td>C to L</td><td>حسب الموديل</td><td>القدرة وMFi إن كان مدرجاً</td><td>حسب الموديل</td><td>راجع صفحة المنتج</td></tr>
-<tr><td>سيليكون ناعم</td><td>C to C</td><td>حسب الموديل</td><td>القدرة والبيانات</td><td>سيليكون</td><td>راجع صفحة المنتج</td></tr>
-<tr><td>قدرة لابتوب مرتفعة</td><td>C to C</td><td>حسب الموديل</td><td>القدرة و5A/e-marker</td><td>حسب الموديل</td><td>راجع صفحة المنتج</td></tr>
-</tbody>
-</table>
-
 <h2 id="usb-c-vs-lightning">USB-C vs Lightning — ماذا يحتاج جهازك؟</h2>
 <p>تستخدم أجهزة حديثة كثيرة USB-C، لكن بعض الأجهزة والملحقات ما زالت تستخدم Lightning أو موصلات أخرى. افحص منفذ جهازك:</p>
 <table>
@@ -114,12 +101,13 @@ export const cables_generic: GenericCategory = {
 <tr><td>iPhone 17 / 16 / 15</td><td>USB-C</td><td>USB-C to USB-C</td></tr>
 <tr><td>iPhone 14 وما قبله</td><td>Lightning</td><td>USB-C to Lightning</td></tr>
 <tr><td>Samsung S26 / S25 / S24</td><td>USB-C</td><td>USB-C to USB-C</td></tr>
-<tr><td>iPad Pro / Air (2022+)</td><td>USB-C</td><td>USB-C to USB-C</td></tr>
-<tr><td>MacBook Air / Pro</td><td>USB-C</td><td>USB-C to USB-C (100W+)</td></tr>
-<tr><td>AirPods Pro 2</td><td>USB-C</td><td>USB-C to USB-C</td></tr>
+<tr><td>iPad Pro (2018+)، iPad Air (الجيل الرابع، 2020+)</td><td>USB-C</td><td>USB-C to USB-C</td></tr>
+<tr><td>MacBook Air / Pro</td><td>USB-C</td><td>USB-C to USB-C (100W+)؛ ولشحن MacBook Pro 16 السريع بقدرة 140W عبر USB-C يلزم كابل 240W (موديلات نوفمبر 2023 وما بعدها)</td></tr>
+<tr><td>AirPods Pro 2</td><td>USB-C (علبة 2023) أو Lightning (علبة 2022) — راجع منفذ العلبة</td><td>USB-C to USB-C أو USB-C to Lightning</td></tr>
 </tbody>
 </table>
 <p><strong>نصيحة:</strong> قد يعمل كابل USB-C to USB-C واحد مع عدة أجهزة، لكن قدرته ونقل البيانات ودعم الفيديو يجب أن تطابق كل استخدام.</p>
+<p>المراجع: <a href="https://support.apple.com/en-us/102378" target="_blank" rel="noopener noreferrer">Apple — الشحن السريع لأجهزة MacBook</a> · <a href="https://support.apple.com/en-us/109525" target="_blank" rel="noopener noreferrer">Apple — التعرف على موديل AirPods</a> · <a href="https://support.apple.com/en-us/108043" target="_blank" rel="noopener noreferrer">Apple — التعرف على موديل iPad</a></p>
 
 <h2 id="braided-cables">لماذا كابلات النايلون المضفرة أفضل؟</h2>
 <p>يختلف الغلاف المضفر عن البلاستيك أو السيليكون في الملمس ومقاومة الاهتراء، لكن الأداء والعمر يعتمدان على تصميم الموديل والاستخدام:</p>
@@ -172,19 +160,6 @@ export const cables_generic: GenericCategory = {
 <li><strong>Long cable:</strong> Check listed length and power and avoid tension or sharp bends during use</li>
 </ul>
 
-<h2 id="comparison-table">Charging Cable Comparison Table</h2>
-<table>
-<thead><tr><th>Cable Class</th><th>Type</th><th>Length</th><th>What to Check</th><th>Jacket</th><th>Price</th></tr></thead>
-<tbody>
-<tr><td>Daily USB-C</td><td>C to C</td><td>By model</td><td>Power and data</td><td>By model</td><td>Check product page</td></tr>
-<tr><td>Multi-connector</td><td>Multi</td><td>By model</td><td>Per-tip power and data</td><td>By model</td><td>Check product page</td></tr>
-<tr><td><strong>Braided USB-C</strong></td><td><strong>C to C</strong></td><td><strong>By model</strong></td><td><strong>Power and e-marker</strong></td><td><strong>Braided</strong></td><td><strong>Check product page</strong></td></tr>
-<tr><td>Lightning</td><td>C to L</td><td>By model</td><td>Power and MFi if listed</td><td>By model</td><td>Check product page</td></tr>
-<tr><td>Soft silicone</td><td>C to C</td><td>By model</td><td>Power and data</td><td>Silicone</td><td>Check product page</td></tr>
-<tr><td>High-power laptop</td><td>C to C</td><td>By model</td><td>Power and 5A/e-marker</td><td>By model</td><td>Check product page</td></tr>
-</tbody>
-</table>
-
 <h2 id="usb-c-vs-lightning">USB-C vs Lightning — What Does Your Device Need?</h2>
 <p>Many modern devices use USB-C, while some devices and accessories still use Lightning or other connectors. Check your device port:</p>
 <table>
@@ -193,12 +168,13 @@ export const cables_generic: GenericCategory = {
 <tr><td>iPhone 17 / 16 / 15</td><td>USB-C</td><td>USB-C to USB-C</td></tr>
 <tr><td>iPhone 14 and older</td><td>Lightning</td><td>USB-C to Lightning</td></tr>
 <tr><td>Samsung S26 / S25 / S24</td><td>USB-C</td><td>USB-C to USB-C</td></tr>
-<tr><td>iPad Pro / Air (2022+)</td><td>USB-C</td><td>USB-C to USB-C</td></tr>
-<tr><td>MacBook Air / Pro</td><td>USB-C</td><td>USB-C to USB-C (100W+)</td></tr>
-<tr><td>AirPods Pro 2</td><td>USB-C</td><td>USB-C to USB-C</td></tr>
+<tr><td>iPad Pro (2018+), iPad Air (4th gen, 2020+)</td><td>USB-C</td><td>USB-C to USB-C</td></tr>
+<tr><td>MacBook Air / Pro</td><td>USB-C</td><td>USB-C to USB-C (100W+); 140W fast charging of the 16-inch MacBook Pro over USB-C needs a 240W cable (Nov 2023 models and later)</td></tr>
+<tr><td>AirPods Pro 2</td><td>USB-C (2023 case) or Lightning (2022 case) — check the case port</td><td>USB-C to USB-C or USB-C to Lightning</td></tr>
 </tbody>
 </table>
 <p><strong>Tip:</strong> One USB-C to USB-C cable may work with several devices, but its power, data, and video support must match each use.</p>
+<p>References: <a href="https://support.apple.com/en-us/102378" target="_blank" rel="noopener noreferrer">Apple — Fast charge your MacBook Air or MacBook Pro</a> · <a href="https://support.apple.com/en-us/109525" target="_blank" rel="noopener noreferrer">Apple — Identify your AirPods</a> · <a href="https://support.apple.com/en-us/108043" target="_blank" rel="noopener noreferrer">Apple — Identify your iPad model</a></p>
 
 <h2 id="braided-cables">Why Braided Nylon Cables Are Better</h2>
 <p>Braided, plastic, and silicone jackets differ in feel and wear resistance, but performance and lifespan depend on model design and use:</p>

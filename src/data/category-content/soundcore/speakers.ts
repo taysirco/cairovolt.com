@@ -84,12 +84,6 @@ export const soundcore_speakers_content: CategoryContent = {
                             answer: 'يمكن استخدام سبيكر يدعم Bluetooth أو AUX مع تلفزيون يملك خرجاً متوافقاً. قد يحدث تأخير للصوت عبر Bluetooth، وليست كل الموديلات مزودة بـAUX؛ راجع المنافذ ويمكنك تصفح [كابل انكر](/anker/cables) المناسب.'
                         }
                     ],
-                    products: [
-                        { name: 'Soundcore Motion+', price: 3600, badge: 'صوت Hi-Res' },
-                        { name: 'Soundcore Flare 2', price: 2999, badge: 'إضاءة LED' },
-                        { name: 'Soundcore Rave 3', price: 9450, badge: '200W كاريوكي' },
-                        { name: 'Soundcore Select 4 Go', price: 1249, badge: 'IP67 بتطفو' },
-                    ]
                 },
                 en: {
                     title: 'Soundcore Speakers',
@@ -158,12 +152,6 @@ PartyCast can link compatible models and versions according to the count and met
                             answer: 'A speaker with Bluetooth or AUX can work with a TV that has a matching output. Bluetooth audio may introduce delay, and not every model includes AUX — check the ports and browse a suitable Anker cable if needed.'
                         }
                     ],
-                    products: [
-                        { name: 'Soundcore Motion+', price: 3600, badge: 'Hi-Res Audio' },
-                        { name: 'Soundcore Flare 2', price: 2999, badge: 'LED Lights' },
-                        { name: 'Soundcore Rave 3', price: 9450, badge: '200W Karaoke' },
-                        { name: 'Soundcore Select 4 Go', price: 1249, badge: 'IP67 Floats' },
-                    ]
                 }
             }
         };

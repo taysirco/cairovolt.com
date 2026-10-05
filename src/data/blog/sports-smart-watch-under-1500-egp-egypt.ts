@@ -4,7 +4,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
     slug: 'sports-smart-watch-under-1500-egp-egypt',
     category: 'buying-guide',
     publishDate: '2026-06-08',
-    modifiedDate: '2026-06-08',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'joyroom-ft3-smartwatch',
@@ -28,14 +28,14 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
             metaDescription: 'دليل شامل لاختيار أفضل ساعة ذكية رياضية تحت 1500 جنيه في مصر — مقاومة المياه والعرق، تتبع التمارين، ونبض القلب أثناء التمرين. مقارنة 5 ساعات مع توصية نهائية.',
             keywords: 'ساعة ذكية رياضية مصر, ساعة ذكية تحت 1500 جنيه, ساعة رياضية بلوتوث, ساعة جيم, ساعة جري, ساعة ذكية مقاومة للعرق, أفضل ساعة رياضية رخيصة, ساعة ذكية تتبع تمارين, ساعة ذكية نبض قلب, ساعة جويروم رياضة',
             excerpt: 'دليل شامل لاختيار أفضل ساعة ذكية رياضية تحت 1500 جنيه — 7 معايير لازم تبص عليها، مقارنة 5 موديلات، وتوصية حسب نوع رياضتك.',
-            quickAnswer: 'أهم 3 معايير في ساعة رياضية: 1) مقاومة المياه IP68 أو أعلى 2) حساس نبض قلب بيشتغل أثناء التمرين 3) بطارية بتعيش 4+ أيام. في فئة تحت 1500 جنيه في مصر — Joyroom FT3 أقوى اختيار شامل: بطارية 5-7 أيام + IP68 + 100+ وضع رياضي + حساس نبض وأكسجين + شاشة كبيرة 1.85 بوصة. مش محتاج تدفع أكتر إلا لو عايز GPS مدمج.',
-            content: `<p>بتروح الجيم 4 مرات في الأسبوع. أو بتجري في الشارع الصبح. أو بتلعب كرة كل جمعة. أو الـ 3 مع بعض. في كل الحالات — محتاج ساعة ذكية بتفهم إنك رياضي مش مجرد واحد عايز يشوف الساعة كام. بس — ومش محتاج تدفع 5000+ جنيه عشان تحصل على تجربة رياضية محترمة. تحت 1500 جنيه في ساعات بتعمل الشغل كله.</p>
+            quickAnswer: 'أهم 3 معايير في ساعة رياضية: مقاومة مياه IP68، وحساس نبض بيشتغل أثناء التمرين، وبطارية 4 أيام أو أكتر. تحت 1500 جنيه، Joyroom FT3 بـ {{price:joyroom-ft3-smartwatch}} جنيه اختيار متوازن: بطارية قِسناها 4 أيام و7 ساعات على عيّنتنا (فئة الشركة ~5 أيام)، ~20 وضع رياضي معلن، وIP68 معلن. ملحوظة: مفيهاش مايك للمكالمات.',
+            content: `<p>بتروح الجيم 4 مرات في الأسبوع. أو بتجري في الشارع الصبح. أو بتلعب كرة كل جمعة. أو الـ 3 مع بعض. في كل الحالات — محتاج ساعة ذكية (ساعة سمارت) بتفهم إنك رياضي مش مجرد واحد عايز يشوف الساعة كام. بس — ومش محتاج تدفع 5000+ جنيه عشان تحصل على تجربة رياضية محترمة. تحت 1500 جنيه في ساعات بتعمل الشغل كله.</p>
 
 <p>في المقال ده هنحدد بالظبط إيه المعايير اللي بتفرق في ساعة رياضية (مش كل الساعات الذكية تنفع للرياضة)، هنقارن 5 موديلات متاحة في مصر تحت 1500 جنيه، وهنقولك بالظبط مين يشتري إيه حسب نوع رياضته.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أهم 3 معايير: مقاومة مياه IP68+، حساس نبض قلب أثناء التمرين، وبطارية 4+ أيام. تحت 1500 جنيه — <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> أقوى اختيار شامل: بطارية 5-7 أيام + IP68 + 100+ وضع رياضي.
+        <strong>💡 الإجابة السريعة:</strong> أهم 3 معايير: مقاومة مياه IP68+، حساس نبض قلب أثناء التمرين، وبطارية 4+ أيام. تحت 1500 جنيه — <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> بـ {{price:joyroom-ft3-smartwatch}} جنيه اختيار متوازن: بطارية قِسناها 4 أيام و7 ساعات على عيّنتنا + IP68 معلن + ~20 وضع رياضي معلن.
     </p>
 </div>
 
@@ -47,13 +47,13 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
     <li style="margin-bottom:12px;">💧 <strong>1. مقاومة المياه والعرق (IP68 minimum):</strong> لو الساعة مش IP68 على الأقل — متشتريهاش للرياضة. العرق بيبوظ أي ساعة مش مصممة ليه. IP68 يعني بتتحمل الغمر في مياه + العرق الكتير. لو بتعوم — محتاج WR50 (وده مش متاح تحت 1500 جنيه غالباً).</li>
     <li style="margin-bottom:12px;">❤️ <strong>2. حساس نبض القلب (Real-time HR):</strong> مش بس بيقيس نبضك — لازم يقيسه أثناء التمرين في الوقت الحقيقي. ده بيساعدك تعرف لو في heart rate zone معيّنة (fat burn / cardio / peak) وبتحسّن أداءك بناءً عليه.</li>
     <li style="margin-bottom:12px;">🔋 <strong>3. بطارية 4+ أيام:</strong> لو الساعة بتخلص شحنها كل يوم — هتنسى تشحنها وتروح الجيم من غيرها. البطارية اللي بتعيش 4-7 أيام بتخلّيك مش محتاج تفكر في الشحن خالص.</li>
-    <li style="margin-bottom:12px;">🏋️ <strong>4. أوضاع رياضية متعددة:</strong> ساعة بـ 5 أوضاع (مشي، جري، ركوب عجلة) مش كفاية لو بتلعب رياضات مختلفة. ابحث عن 50+ وضع رياضي على الأقل — كرة قدم، تنس، HIIT، CrossFit، يوغا، سباحة، إلخ.</li>
+    <li style="margin-bottom:12px;">🏋️ <strong>4. أوضاع رياضية متعددة:</strong> ساعة بـ 5 أوضاع (مشي، جري، ركوب عجلة) مش كفاية لو بتلعب رياضات مختلفة. اتأكد إن الرياضات اللي بتلعبها فعلاً (جري، مشي، عجلة، جيم...) موجودة في قايمة أوضاع الساعة — العدد الكبير لوحده مش هو المهم.</li>
     <li style="margin-bottom:12px;">📱 <strong>5. تطبيق موبايل محترم:</strong> الساعة بتجمع بيانات — بس لازم تقدر تشوفها بشكل مفصّل على الموبايل. تطبيق بيعرض تاريخ التمارين وتطور الأداء ومعدلات النبض — ده اللي بيحوّل الساعة من "gadget" لأداة تحسين حقيقية.</li>
     <li style="margin-bottom:12px;">⚖️ <strong>6. وزن خفيف وحزام مريح:</strong> ساعة تقيلة على إيدك أثناء البنش بريس أو الجري — كابوس. دوّر على ساعة تحت 40 جرام بحزام سيليكون ناعم ومرن — مش جلد ولا معدن.</li>
     <li style="margin-bottom:12px;">🌞 <strong>7. سطوع شاشة كافي للشمس:</strong> لو بتجري بره — لازم تقدر تقرأ الشاشة في الشمس المباشرة. سطوع 500 nit minimum.</li>
 </ul>
 
-<h2>مقارنة أقوى 5 ساعات رياضية تحت 1500 جنيه في مصر</h2>
+<h2>مقارنة 5 ساعات رياضية تحت 1500 جنيه في مصر</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:12px;">
     <thead><tr style="background:#f3f4f6;">
@@ -68,20 +68,20 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>مقاومة مياه</strong></td><td style="padding:8px;border:1px solid #d1d5db;">IP68</td><td style="padding:8px;border:1px solid #d1d5db;">5 ATM</td><td style="padding:8px;border:1px solid #d1d5db;">IP68</td><td style="padding:8px;border:1px solid #d1d5db;">IP68</td><td style="padding:8px;border:1px solid #d1d5db;">IP68</td></tr>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>نبض القلب</strong></td><td style="padding:8px;border:1px solid #d1d5db;">✅ Real-time</td><td style="padding:8px;border:1px solid #d1d5db;">✅ Real-time</td><td style="padding:8px;border:1px solid #d1d5db;">✅ Real-time</td><td style="padding:8px;border:1px solid #d1d5db;">✅ Real-time</td><td style="padding:8px;border:1px solid #d1d5db;">✅ Real-time</td></tr>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>SpO2</strong></td><td style="padding:8px;border:1px solid #d1d5db;">✅</td><td style="padding:8px;border:1px solid #d1d5db;">✅</td><td style="padding:8px;border:1px solid #d1d5db;">✅</td><td style="padding:8px;border:1px solid #d1d5db;">✅</td><td style="padding:8px;border:1px solid #d1d5db;">✅</td></tr>
-    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>البطارية</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>5-7 أيام</strong></td><td style="padding:8px;border:1px solid #d1d5db;">6-8 أيام</td><td style="padding:8px;border:1px solid #d1d5db;">حتى 7 أيام (20 استعداد)</td><td style="padding:8px;border:1px solid #d1d5db;">7-10 أيام</td><td style="padding:8px;border:1px solid #d1d5db;">7-10 أيام</td></tr>
-    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>أوضاع رياضية</strong></td><td style="padding:8px;border:1px solid #d1d5db;">100+</td><td style="padding:8px;border:1px solid #d1d5db;">150+</td><td style="padding:8px;border:1px solid #d1d5db;">110+</td><td style="padding:8px;border:1px solid #d1d5db;">60+</td><td style="padding:8px;border:1px solid #d1d5db;">100+</td></tr>
+    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>البطارية</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>4 أيام و7 ساعات (قسناها) — ~5 أيام معلن</strong></td><td style="padding:8px;border:1px solid #d1d5db;">6-8 أيام</td><td style="padding:8px;border:1px solid #d1d5db;">حتى 7 أيام (20 استعداد)</td><td style="padding:8px;border:1px solid #d1d5db;">7-10 أيام</td><td style="padding:8px;border:1px solid #d1d5db;">7-10 أيام</td></tr>
+    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>أوضاع رياضية</strong></td><td style="padding:8px;border:1px solid #d1d5db;">~20 (معلن)</td><td style="padding:8px;border:1px solid #d1d5db;">150+</td><td style="padding:8px;border:1px solid #d1d5db;">110+</td><td style="padding:8px;border:1px solid #d1d5db;">60+</td><td style="padding:8px;border:1px solid #d1d5db;">100+</td></tr>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>GPS مدمج</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">لا</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>نعم</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">لا</td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">لا</td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">لا</td></tr>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>حجم الشاشة</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>1.85"</strong></td><td style="padding:8px;border:1px solid #d1d5db;">1.74"</td><td style="padding:8px;border:1px solid #d1d5db;">1.43"</td><td style="padding:8px;border:1px solid #d1d5db;">1.83"</td><td style="padding:8px;border:1px solid #d1d5db;">1.43"</td></tr>
-    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>مكالمات BT</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">لا</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td></tr>
-    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>السعر تقريباً</strong></td><td style="padding:8px;border:1px solid #d1d5db;">~1,200 ج</td><td style="padding:8px;border:1px solid #d1d5db;">~1,400 ج</td><td style="padding:8px;border:1px solid #d1d5db;">~900 ج</td><td style="padding:8px;border:1px solid #d1d5db;">~800 ج</td><td style="padding:8px;border:1px solid #d1d5db;">~1,100 ج</td></tr>
+    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>مكالمات BT</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">لا (إشعار المكالمة + رفض/كتم بس)</td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">لا</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td></tr>
+    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>السعر (FT3 من كايرو فولت؛ الباقي نطاق سوق تقريبي)</strong></td><td style="padding:8px;border:1px solid #d1d5db;">{{price:joyroom-ft3-smartwatch}} ج</td><td style="padding:8px;border:1px solid #d1d5db;">~1,400 ج</td><td style="padding:8px;border:1px solid #d1d5db;">~900 ج</td><td style="padding:8px;border:1px solid #d1d5db;">~800 ج</td><td style="padding:8px;border:1px solid #d1d5db;">~1,100 ج</td></tr>
     </tbody>
 </table>
 
-<h2>التوصية #1 — Joyroom FT3: أفضل توازن شامل</h2>
+<h2>التوصية #1 — Joyroom FT3: توازن شامل</h2>
 
-<p><a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> بتجمع بين كل حاجة بتحتاجها في ساعة رياضية بسعر معقول: شاشة 1.85 بوصة كبيرة وواضحة بتقرأها أثناء التمرين، بطارية 5-7 أيام (مش هتحتاج تشحنها قبل كل جيم)، 100+ وضع رياضي يغطي كل حاجة من الجري لليوغا لكرة القدم، وحساس نبض قلب real-time بيتتبع أداءك طول التمرين.</p>
+<p><a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> بتجمع بين كل حاجة بتحتاجها في ساعة رياضية بسعر معقول: شاشة 1.85 بوصة كبيرة وواضحة بتقرأها أثناء التمرين، بطارية قِسناها 4 أيام و7 ساعات على عيّنتنا (CV-SW-JRFT3-001، بلوتوث متصل ونبض كل 10 دقايق وإشعارات شغالة) — والشركة بتعلن ~5 أيام، و~20 وضع رياضي معلن (جرّبنا منهم المشي والجري في الشارع والعجلة الثابتة والإليبتيكال)، وحساس نبض قلب بيتتبع أداءك أثناء التمرين (قراءات تقديرية مش طبية).</p>
 
-<p>الميزة الإضافية: بتدعم مكالمات بلوتوث — يعني لو حد كلّمك وإنت في الجيم تقدر تردّ من إيدك من غير ما تطلع موبايلك. وده بيفرق لو موبايلك في اللوكر. IP68 بتتحمل العرق والمطر والوضوء — بس مش للسباحة الفعلية.</p>
+<p>خد بالك: FT3 مفيهاش مايك للمكالمات — بتعرض إشعار المكالمة وتقدر ترفضها أو تكتمها من إيدك، لكن مش هتقدر ترد وتتكلم من الساعة. IP68 المعلن بيتحمل العرق والمطر والوضوء — بس مش للسباحة الفعلية.</p>
 
 <h2>التوصية #2 — Xiaomi Band 8 Pro: لو GPS أهم حاجة</h2>
 
@@ -113,11 +113,11 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:8px;">🏃 <strong>جري في الشارع:</strong> Xiaomi Band 8 Pro (GPS مدمج)</li>
-    <li style="margin-bottom:8px;">🏋️ <strong>جيم وحديد:</strong> Joyroom FT3 (شاشة كبيرة + مكالمات BT)</li>
+    <li style="margin-bottom:8px;">🏋️ <strong>جيم وحديد:</strong> Joyroom FT3 (شاشة كبيرة 1.85 بوصة + إشعارات المكالمات)</li>
     <li style="margin-bottom:8px;">⚽ <strong>كرة قدم / رياضات جماعية:</strong> Joyroom FT3 أو Realme Watch S2</li>
     <li style="margin-bottom:8px;">🧘 <strong>يوغا / تمارين خفيفة:</strong> Haylou Solar Plus (بطارية لحد 7 أيام)</li>
     <li style="margin-bottom:8px;">🚴 <strong>ركوب عجلة:</strong> Xiaomi Band 8 Pro (GPS لتتبع المسار)</li>
-    <li style="margin-bottom:8px;">🥊 <strong>CrossFit / HIIT:</strong> Joyroom FT3 (متينة + أوضاع رياضية كتير)</li>
+    <li style="margin-bottom:8px;">🥊 <strong>CrossFit / HIIT:</strong> Joyroom FT3 (خفيفة — حوالي 40 جرام على الإيد في قياسنا — وIP68 معلن)</li>
 </ul>
 
 <h2>إيه الفرق بين ساعة رياضية وساعة ذكية عادية؟</h2>
@@ -151,7 +151,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ ساعات ذكية رياضية أصلية — على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> أصلية بضمان 12 شهر — 100+ وضع رياضي + مقاومة مياه + نبض قلب real-time. توصيل لكل المحافظات + دعم فني واتساب 24/7.
+        <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> أصلية بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة المنتج) — ~20 وضع رياضي معلن + IP68 معلن + نبض قلب أثناء التمرين. توصيل لكل المحافظات + دعم فني على واتساب.
     </p>
 </div>`,
             faq: [
@@ -165,7 +165,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
                 },
                 {
                     question: 'الساعة بتتبع تمارين الحديد ولا الكارديو بس؟',
-                    answer: 'الساعات الحديثة بتتبع الاتنين. في وضع رفع الأثقال — بتتبع مدة التمرين ونبض القلب والسعرات. بعض الساعات (زي Xiaomi) بتكشف الـ reps تلقائي. في وضع الكارديو — بتتبع المسافة والسرعة ونبض القلب والـ pace. معظم الساعات في الفئة دي عندها 60-150 وضع رياضي مختلف.'
+                    answer: 'الساعات الحديثة بتتبع الاتنين. في وضع رفع الأثقال — بتتبع مدة التمرين ونبض القلب والسعرات. بعض الساعات (زي Xiaomi) بتكشف الـ reps تلقائي. في وضع الكارديو — بتتبع المسافة والسرعة ونبض القلب والـ pace. وعدد الأوضاع بيختلف من ساعة للتانية — FT3 مثلاً عليها ~20 وضع رياضي معلن.'
                 },
                 {
                     question: 'محتاج أشيل الموبايل معايا أثناء الجري ولا الساعة كفاية؟',
@@ -179,14 +179,14 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
             metaDescription: 'Complete guide to choosing the best sports smartwatch under 1,500 EGP in Egypt — water resistance, workout tracking, real-time heart rate, and a 5-model comp...',
             keywords: 'sports smartwatch egypt, smartwatch under 1500 egp, bluetooth sport watch, gym watch, running watch, sweat resistant smartwatch, best cheap sport watch, workout tracking watch, heart rate smartwatch, joyroom sports watch',
             excerpt: 'Complete guide to choosing the best sports smartwatch under 1,500 EGP — 7 criteria to evaluate, 5-model comparison, and recommendations based on your sport type.',
-            quickAnswer: 'Top 3 criteria for a sports watch: 1) IP68+ water resistance 2) Real-time heart rate sensor during workouts 3) 4+ day battery life. Under 1,500 EGP in Egypt — Joyroom FT3 is the strongest all-round pick: 5-7 day battery + IP68 + 100+ sport modes + HR and SpO2 sensors + large 1.85-inch display. No need to spend more unless you need built-in GPS.',
+            quickAnswer: 'The top 3 criteria for a sports watch: IP68 water resistance, a heart-rate sensor that works during workouts and 4+ days of battery. Under EGP 1,500, the Joyroom FT3 at EGP {{price:joyroom-ft3-smartwatch}} is a balanced pick: 4 days 7 hours measured on our sample (vendor class ~5 days), ~20 vendor-listed sport modes and listed IP68. It has no microphone for calls.',
             content: `<p>You hit the gym 4 times a week. Or you run outdoors every morning. Or you play football every Friday. Or all three. In every case — you need a smartwatch that understands you are an athlete, not just someone who wants to check the time. But — you do not need to spend 5,000+ EGP for a solid sports experience. Under 1,500 EGP, there are watches that do the entire job.</p>
 
 <p>In this article, we will define exactly which criteria matter for a sports watch (not all smartwatches are suitable for exercise), compare 5 models available in Egypt under 1,500 EGP, and tell you precisely who should buy what based on their sport type.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Top 3 criteria: IP68+ water resistance, real-time HR during workouts, and 4+ day battery. Under 1,500 EGP — <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> is the strongest all-round choice: 5-7 day battery + IP68 + 100+ sport modes.
+        <strong>💡 Quick Answer:</strong> Top 3 criteria: IP68+ water resistance, real-time HR during workouts, and 4+ day battery. Under 1,500 EGP — <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> at EGP {{price:joyroom-ft3-smartwatch}} is a balanced choice: 4 days 7 hours measured on our sample + listed IP68 + ~20 vendor-listed sport modes.
     </p>
 </div>
 
@@ -198,7 +198,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
     <li style="margin-bottom:12px;">💧 <strong>1. Water and Sweat Resistance (IP68 minimum):</strong> If the watch is not at least IP68 — do not buy it for sports. Sweat will destroy any watch not designed for it. IP68 means it withstands submersion in water plus heavy sweating. For actual swimming — you need WR50 (rarely available under 1,500 EGP).</li>
     <li style="margin-bottom:12px;">❤️ <strong>2. Heart Rate Sensor (Real-time HR):</strong> Not just measuring your pulse — it must measure it during the workout in real-time. This helps you know your heart rate zone (fat burn / cardio / peak) and improve your performance accordingly.</li>
     <li style="margin-bottom:12px;">🔋 <strong>3. Battery 4+ Days:</strong> If the watch dies every day — you will forget to charge it and go to the gym without it. A battery lasting 4-7 days means you never think about charging at all.</li>
-    <li style="margin-bottom:12px;">🏋️ <strong>4. Multiple Sport Modes:</strong> A watch with just 5 modes (walking, running, cycling) is not enough if you play different sports. Look for 50+ sport modes minimum — football, tennis, HIIT, CrossFit, yoga, swimming, and more.</li>
+    <li style="margin-bottom:12px;">🏋️ <strong>4. Multiple Sport Modes:</strong> A watch with just 5 modes (walking, running, cycling) is not enough if you play different sports. Check that the sports you actually do (running, walking, cycling, gym...) are in the watch's mode list — a big number on its own is not what matters.</li>
     <li style="margin-bottom:12px;">📱 <strong>5. Quality Mobile App:</strong> The watch collects data — but you need to view it in detail on your phone. An app showing workout history, performance trends, and heart rate analytics turns the watch from a gadget into a real improvement tool.</li>
     <li style="margin-bottom:12px;">⚖️ <strong>6. Light Weight and Comfortable Strap:</strong> A heavy watch on your wrist during bench press or running is a nightmare. Look for a watch under 40 grams with a soft, flexible silicone strap — not leather or metal.</li>
     <li style="margin-bottom:12px;">🌞 <strong>7. Sufficient Screen Brightness for Sunlight:</strong> If you run outdoors — you need to read the screen in direct sunlight. 500 nits minimum brightness.</li>
@@ -219,20 +219,20 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Water resistance</strong></td><td style="padding:8px;border:1px solid #d1d5db;">IP68</td><td style="padding:8px;border:1px solid #d1d5db;">5 ATM</td><td style="padding:8px;border:1px solid #d1d5db;">IP68</td><td style="padding:8px;border:1px solid #d1d5db;">IP68</td><td style="padding:8px;border:1px solid #d1d5db;">IP68</td></tr>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Heart rate</strong></td><td style="padding:8px;border:1px solid #d1d5db;">✅ Real-time</td><td style="padding:8px;border:1px solid #d1d5db;">✅ Real-time</td><td style="padding:8px;border:1px solid #d1d5db;">✅ Real-time</td><td style="padding:8px;border:1px solid #d1d5db;">✅ Real-time</td><td style="padding:8px;border:1px solid #d1d5db;">✅ Real-time</td></tr>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>SpO2</strong></td><td style="padding:8px;border:1px solid #d1d5db;">✅</td><td style="padding:8px;border:1px solid #d1d5db;">✅</td><td style="padding:8px;border:1px solid #d1d5db;">✅</td><td style="padding:8px;border:1px solid #d1d5db;">✅</td><td style="padding:8px;border:1px solid #d1d5db;">✅</td></tr>
-    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Battery</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>5-7 days</strong></td><td style="padding:8px;border:1px solid #d1d5db;">6-8 days</td><td style="padding:8px;border:1px solid #d1d5db;">Up to 7 days (20 standby)</td><td style="padding:8px;border:1px solid #d1d5db;">7-10 days</td><td style="padding:8px;border:1px solid #d1d5db;">7-10 days</td></tr>
-    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Sport modes</strong></td><td style="padding:8px;border:1px solid #d1d5db;">100+</td><td style="padding:8px;border:1px solid #d1d5db;">150+</td><td style="padding:8px;border:1px solid #d1d5db;">110+</td><td style="padding:8px;border:1px solid #d1d5db;">60+</td><td style="padding:8px;border:1px solid #d1d5db;">100+</td></tr>
+    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Battery</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>4 days 7 h (measured) — ~5 days listed</strong></td><td style="padding:8px;border:1px solid #d1d5db;">6-8 days</td><td style="padding:8px;border:1px solid #d1d5db;">Up to 7 days (20 standby)</td><td style="padding:8px;border:1px solid #d1d5db;">7-10 days</td><td style="padding:8px;border:1px solid #d1d5db;">7-10 days</td></tr>
+    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Sport modes</strong></td><td style="padding:8px;border:1px solid #d1d5db;">~20 (listed)</td><td style="padding:8px;border:1px solid #d1d5db;">150+</td><td style="padding:8px;border:1px solid #d1d5db;">110+</td><td style="padding:8px;border:1px solid #d1d5db;">60+</td><td style="padding:8px;border:1px solid #d1d5db;">100+</td></tr>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Built-in GPS</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">No</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>Yes</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">No</td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">No</td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">No</td></tr>
     <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Screen size</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>1.85"</strong></td><td style="padding:8px;border:1px solid #d1d5db;">1.74"</td><td style="padding:8px;border:1px solid #d1d5db;">1.43"</td><td style="padding:8px;border:1px solid #d1d5db;">1.83"</td><td style="padding:8px;border:1px solid #d1d5db;">1.43"</td></tr>
-    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>BT calls</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">No</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td></tr>
-    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Approx. price</strong></td><td style="padding:8px;border:1px solid #d1d5db;">~1,200 EGP</td><td style="padding:8px;border:1px solid #d1d5db;">~1,400 EGP</td><td style="padding:8px;border:1px solid #d1d5db;">~900 EGP</td><td style="padding:8px;border:1px solid #d1d5db;">~800 EGP</td><td style="padding:8px;border:1px solid #d1d5db;">~1,100 EGP</td></tr>
+    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>BT calls</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">No (call alert + reject/mute only)</td><td style="padding:8px;border:1px solid #d1d5db;color:#dc2626;">No</td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td><td style="padding:8px;border:1px solid #d1d5db;color:#059669;"><strong>✅</strong></td></tr>
+    <tr><td style="padding:8px;border:1px solid #d1d5db;"><strong>Price (FT3 at CairoVolt; others approximate market range)</strong></td><td style="padding:8px;border:1px solid #d1d5db;">EGP {{price:joyroom-ft3-smartwatch}}</td><td style="padding:8px;border:1px solid #d1d5db;">~1,400 EGP</td><td style="padding:8px;border:1px solid #d1d5db;">~900 EGP</td><td style="padding:8px;border:1px solid #d1d5db;">~800 EGP</td><td style="padding:8px;border:1px solid #d1d5db;">~1,100 EGP</td></tr>
     </tbody>
 </table>
 
-<h2>Recommendation #1 — Joyroom FT3: Best Overall Balance</h2>
+<h2>Recommendation #1 — Joyroom FT3: All-Round Balance</h2>
 
-<p>The <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> combines everything you need in a sports watch at a reasonable price: a large 1.85-inch screen that is readable during workouts, 5-7 day battery (no pre-gym charging anxiety), 100+ sport modes covering everything from running to yoga to football, and a real-time heart rate sensor that tracks your performance throughout the workout.</p>
+<p>The <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#2563eb;font-weight:600;">Joyroom FT3</a> combines everything you need in a sports watch at a reasonable price: a large 1.85-inch screen that is readable during workouts, a battery we measured at 4 days 7 hours on our sample (CV-SW-JRFT3-001, Bluetooth paired, heart rate every 10 minutes, notifications on) against a vendor class of ~5 days, ~20 vendor-listed sport modes (we used outdoor walk, outdoor run, indoor cycle and elliptical), and a heart-rate sensor that tracks your workout (wellness estimates, not medical).</p>
 
-<p>The bonus feature: it supports Bluetooth calls — meaning if someone calls you while at the gym, you can answer from your wrist without retrieving your phone from the locker. IP68 handles sweat, rain, and hand washing — but not actual swimming.</p>
+<p>Note: the FT3 has no microphone for calls — it shows the call alert and lets you reject or mute it from your wrist, but you cannot answer and talk on the watch. The listed IP68 handles sweat, rain and hand washing — but not actual swimming.</p>
 
 <h2>Recommendation #2 — Xiaomi Band 8 Pro: If GPS Is Your Priority</h2>
 
@@ -277,7 +277,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Original Sports Smartwatches — on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> original with 12-month warranty — 100+ sport modes + water resistance + real-time heart rate. Delivery across all Egyptian governorates + WhatsApp support 24/7.
+        <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> original, with an invoice and CairoVolt's written store warranty (duration shown on the product page) — ~20 vendor-listed sport modes + listed IP68 + workout heart rate. Delivery across all Egyptian governorates + WhatsApp support.
     </p>
 </div>`,
             faq: [
@@ -291,7 +291,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
                 },
                 {
                     question: 'Does the watch track weight training or only cardio?',
-                    answer: 'Modern watches track both. In weight lifting mode — they track workout duration, heart rate, and calories. Some watches (like Xiaomi) automatically detect reps. In cardio mode — they track distance, speed, heart rate, and pace. Most watches in this range offer 60-150 different sport modes.'
+                    answer: 'Modern watches track both. In weight lifting mode — they track workout duration, heart rate, and calories. Some watches (like Xiaomi) automatically detect reps. In cardio mode — they track distance, speed, heart rate, and pace. The number of modes varies by watch — the FT3, for example, has ~20 vendor-listed sport modes.'
                 },
                 {
                     question: 'Do I need to carry my phone while running or is the watch enough?',

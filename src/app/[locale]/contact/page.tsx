@@ -52,14 +52,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ContactPage({ params }: Props) {
     const { locale } = await params;
     const isArabic = locale === 'ar';
+    const pageUrl = `https://cairovolt.com${isArabic ? '' : '/en'}/contact`;
+    // Page-level entity pointing at the store node (and its ContactPoint with
+    // hoursAvailable) that the site-wide graph already defines.
+    const contactPageSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ContactPage',
+        '@id': `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: isArabic ? 'اتصل بنا' : 'Contact Us',
+        inLanguage: isArabic ? 'ar-EG' : 'en-EG',
+        isPartOf: { '@id': 'https://cairovolt.com/#website' },
+        mainEntity: { '@id': 'https://cairovolt.com/#organization' },
+    };
     return (
         <>
             <BreadcrumbSchema
                 items={[
                     { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
-                    { name: isArabic ? 'اتصل بنا' : 'Contact Us', url: `https://cairovolt.com${isArabic ? '' : '/en'}/contact` },
+                    { name: isArabic ? 'اتصل بنا' : 'Contact Us', url: pageUrl },
                 ]}
                 locale={locale}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }}
             />
             <ContactPageClient />
         </>

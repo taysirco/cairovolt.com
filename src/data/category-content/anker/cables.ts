@@ -86,15 +86,6 @@ export const anker_cables_content: CategoryContent = {
                             answer: 'الاتنين حسب الموديل. كثير من كابلات انكر USB-C تدعم نقل بيانات حتى 480Mbps إلى جانب شحن PD؛ راجع مواصفات صفحة المنتج للتأكد.'
                         }
                     ],
-                    products: [
-                        { name: 'كابل انكر 310 USB-C لايتننج', price: 730, badge: 'جديد' },
-                        { name: 'كابل انكر زولو USB-C مضفر', price: 790, badge: 'جديد' },
-                        { name: 'كابل انكر A82E2 يو اس بي سي 240 واط', price: 650, badge: '240 واط · E-Marker' },
-                        { name: 'كابل انكر A8050 مضفر USB-C', price: 570, badge: 'مضفر USB-C' },
-                        { name: 'كابل انكر SureStrong لايتننج', price: 599, badge: 'متين للايفون' },
-                        { name: 'Anker PowerLine II (USB-C to Lightning)', price: 630, badge: 'شحن سريع' },
-                        { name: 'Anker 322 Cable (USB-C to USB-C)', price: 590, badge: 'اقتصادي' },
-                    ]
                 },
                 en: {
                     title: 'Anker PowerLine Charging and Data Cables',
@@ -165,15 +156,6 @@ Many USB-C to Lightning and USB-C to USB-C models support PD. Check the cable ra
                             answer: 'Both, depending on the model. Many Anker USB-C cables support data transfer up to 480Mbps alongside PD charging; confirm on the product page.'
                         }
                     ],
-                    products: [
-                        { name: 'Anker 310 USB-C to Lightning', price: 730, badge: 'New' },
-                        { name: 'Anker Zolo USB-C Braided Cable', price: 790, badge: 'New' },
-                        { name: 'Anker A82E2 USB-C to USB-C 240W', price: 650, badge: '240W · E-Marker' },
-                        { name: 'Anker A8050 Braided USB-C', price: 570, badge: 'Braided USB-C' },
-                        { name: 'Anker SureStrong USB-C to Lightning', price: 599, badge: 'iPhone Tough' },
-                        { name: 'Anker PowerLine II (USB-C to Lightning)', price: 630, badge: 'Fast Charge' },
-                        { name: 'Anker 322 Cable (USB-C to USB-C)', price: 590, badge: 'Value' },
-                    ]
                 }
             }
         };

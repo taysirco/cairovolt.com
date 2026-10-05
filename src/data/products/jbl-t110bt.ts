@@ -46,7 +46,7 @@ export const jbl_t110bt = {
     <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Counterfeit Warning — How to Verify a Genuine JBL T110BT</h3>
     <p class="text-gray-700 mb-2">Like its wired sibling, the T110BT lives in the most-counterfeited price band of the JBL catalogue in Egypt. Genuine units cluster around 200–550 EGP at legitimate retailers, while street stalls and marketplace listings offer "JBL" neckbands for pocket change. Check all of these before and after paying:</p>
     <ol class="list-decimal mr-6 ml-6 text-gray-700 space-y-1">
-        <li>Price logic: a "new JBL T110BT" offered around 40% below our price (roughly 270 EGP or less) from an unknown seller is a strong counterfeit signal — and anything under ~150 EGP is a near-certainty.</li>
+        <li>Price logic: a "new JBL T110BT" offered around 40% below our price from an unknown seller is a strong counterfeit signal — and anything under ~150 EGP is a near-certainty.</li>
         <li>Logo and printing: genuine units carry a crisp, centred JBL logo on the earpieces and remote housing, identical on both sides. Smudged, off-centre or wrong-font logos are the most common fake tell.</li>
         <li>Packaging and serial sticker: the original box has sharp print, correct English spelling, and a model/serial sticker reading JBLT110BT. No serial, blurry gloss print, or misspellings mean walk away.</li>
         <li>The magnets: genuine buds snap together back-to-back with a firm click. Fakes often skip the magnets entirely or use weak ones — a ten-second check at delivery.</li>
@@ -88,7 +88,7 @@ export const jbl_t110bt = {
     <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير من التقليد — إزاي تتأكد إن JBL T110BT أصلية</h3>
     <p class="text-gray-700 mb-2">زي أختها السلك بالظبط، الـT110BT عايشة في شريحة الأسعار الأكتر تقليدًا من كتالوج JBL في مصر. الأصلية بتتراوح حوالين 200–550 جنيه عند التجار المحترمين، بينما فرشات الشارع وإعلانات الماركت بليس بتعرض نيك باند "JBL" بتمن ساندوتش. راجع كل النقط دي قبل وبعد ما تدفع:</p>
     <ol class="list-decimal mr-6 ml-6 text-gray-700 space-y-1">
-        <li>منطق السعر: "JBL T110BT جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 270 جنيه أو أقل) من بايع مجهول إشارة تقليد قوية — وأي حاجة تحت حوالي 150 جنيه شبه مؤكدة.</li>
+        <li>منطق السعر: "JBL T110BT جديدة" معروضة بأقل من سعرنا بحوالي 40% من بايع مجهول إشارة تقليد قوية — وأي حاجة تحت حوالي 150 جنيه شبه مؤكدة.</li>
         <li>الشعار والطباعة: الأصلية عليها شعار JBL حاد ومتوسّط على السماعتين وجسم الريموت، ومتطابق على الناحيتين. الشعار الملطخ أو المايل أو اللي خطه غلط هو أشهر علامة تقليد.</li>
         <li>العلبة والاستيكر التسلسلي: الكرتونة الأصلية طباعتها حادة وإملاؤها الإنجليزي سليم وعليها استيكر موديل ورقم تسلسلي مكتوب عليه JBLT110BT. مفيش رقم تسلسلي أو طباعة لامعة مهزوزة أو أخطاء إملا؟ امشي.</li>
         <li>المغناطيس: سماعات الأصلية بتتقفل على بعض ضهر لضهر بطقّة ثابتة. التقليد غالبًا بيلغي المغناطيس خالص أو بيحط واحد ضعيف — فحص عشر ثواني وقت الاستلام.</li>

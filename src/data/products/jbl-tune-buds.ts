@@ -52,7 +52,7 @@ export const jbl_tune_buds = {
         <li>ANC reality check: turn ANC on next to a running fan or AC — a genuine pair audibly dips the hum. Fakes ship a mute button labelled ANC.</li>
         <li>Packaging: original boxes have sharp print, correct spelling, a labelled serial number, and multiple ear-tip sizes.</li>
         <li>App pairing: genuine Tune Buds are recognised by the official JBL Headphones app with model name and firmware — most fakes never appear in it.</li>
-        <li>Price logic: a "new" pair offered around 40% below our price (roughly 3,000 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" pair offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -95,7 +95,7 @@ export const jbl_tune_buds = {
         <li>اختبار الـANC الحقيقي: شغّل العزل جنب مروحة أو تكييف شغال — الأصلية بتوطّي الهدير بشكل مسموع. التقليد بيبيعك زرار اسمه ANC مش بيعمل حاجة.</li>
         <li>العلبة: الكرتونة الأصلية طباعتها حادة، إملاؤها سليم، عليها رقم تسلسلي، وجواها أكتر من مقاس جيلاتين.</li>
         <li>التطبيق: الـTune Buds الأصلية بيتعرف عليها تطبيق JBL Headphones الرسمي باسم الموديل والفيرموير — أغلب التقليد عمره ما بيظهر فيه.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 3,000 جنيه أو أقل) شبه مؤكد مش أصلية.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

@@ -41,7 +41,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {
         title: { absolute: title },
         description,
-        robots: { index: true, follow: true },
+        // No page-level `robots`: it replaced the layout's googleBot block
+        // (max-image-preview:large, max-snippet:-1) on all 54 location URLs.
         alternates: {
             canonical,
             languages: {
@@ -143,6 +144,8 @@ export default async function GovernoratePage({ params }: PageProps) {
             },
         ];
 
+    // Mirrored word for word in the markdown twin (generateLocationMarkdown in
+    // src/app/api/markdown-negotiate/[...slug]/route.ts) — keep both identical.
     const questions = isArabic
         ? [
             {
@@ -239,9 +242,30 @@ export default async function GovernoratePage({ params }: PageProps) {
                 }}
             />
 
-            <main className="min-h-screen bg-gray-50 dark:bg-gradient-to-b dark:from-gray-950 dark:to-gray-900">
+            {/* A <div>, not <main>: the locale layout already renders the page's single <main>. */}
+            <div className="min-h-screen bg-gray-50 dark:bg-gradient-to-b dark:from-gray-950 dark:to-gray-900">
                 <section className="bg-gradient-to-br from-blue-700 via-blue-800 to-blue-900 py-16 text-white md:py-24">
                     <div className="container mx-auto px-4">
+                        {/* Visible trail — same names and URLs as the BreadcrumbList above. */}
+                        <nav aria-label={isArabic ? 'مسار التصفح' : 'Breadcrumb'} className="mx-auto mb-6 max-w-4xl text-sm text-blue-100">
+                            <ol className="flex flex-wrap items-center gap-1">
+                                <li className="inline-flex items-center gap-1">
+                                    <Link href={prefix || '/'} className="hover:text-white hover:underline">
+                                        {isArabic ? 'الرئيسية' : 'Home'}
+                                    </Link>
+                                </li>
+                                <li className="inline-flex items-center gap-1">
+                                    <span aria-hidden="true">/</span>
+                                    <Link href={`${prefix}/shipping`} className="hover:text-white hover:underline">
+                                        {isArabic ? 'الشحن والتوصيل' : 'Shipping'}
+                                    </Link>
+                                </li>
+                                <li className="inline-flex items-center gap-1">
+                                    <span aria-hidden="true">/</span>
+                                    <span aria-current="page" className="font-semibold text-white">{governorateName}</span>
+                                </li>
+                            </ol>
+                        </nav>
                         <div className="mx-auto max-w-4xl text-center">
                             <span className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-2 text-sm font-medium text-blue-50">
                                 <span aria-hidden="true">🚚</span>
@@ -529,7 +553,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                 </section>
 
                 <ShareAnalytics />
-            </main>
+            </div>
         </>
     );
 }

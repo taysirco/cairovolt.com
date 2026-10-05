@@ -2,6 +2,7 @@ import { staticProducts } from '@/lib/static-products';
 import {
     getMerchantGtin,
     getMerchantProductUrl,
+    isRecallAffectedSlug,
     MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
     normalizeMpn,
 } from '@/lib/merchant-product-data';
@@ -11,6 +12,68 @@ import { buildBrandSchemaNodes, getBrandEntity } from '@/lib/brand-entities';
 
 // Structured-data endpoint for the store, listed brands, and active products.
 export const revalidate = 86400;
+
+const DESCRIPTION_MAX_CHARS = 300;
+
+/**
+ * Plain, citable text for a Product node.
+ *
+ * The old `.slice(0, 300)` cut 63 of 117 descriptions mid-value ("Honest phone
+ * math ≈ 2.02 ") and passed through internal bench-protocol references and
+ * emoji bullets. This keeps whole sentences only, drops the internal
+ * references, and never returns a fragment.
+ */
+function cleanDescriptionText(value: string): string {
+    return value
+        .replace(/<[^>]*>/g, ' ')
+        // Emoji bullets and their joiners/variation selectors.
+        .replace(/[\p{Extended_Pictographic}\u{1F1E6}-\u{1F1FF}]/gu, ' ')
+        .replace(/[\u200D\uFE0E\uFE0F]/g, '')
+        // Internal bench-protocol section references, e.g. "(protocol §7.3)",
+        // "per Bench Test Protocol §4", or a bare "§7".
+        .replace(/\s*\([^()]*§[^()]*\)/g, '')
+        .replace(/\s*(?:per\s+)?(?:the\s+)?(?:CairoVolt\s+)?(?:Bench[- ]Test\s+)?protocol\s*§\s*[\d.]+[a-z]?/gi, '')
+        .replace(/\s*§\s*[\d.]+[a-z]?/g, '')
+        // Listing-style separators read as sentence breaks.
+        .replace(/\s+\|\s+/g, '; ')
+        .replace(/\s+/g, ' ')
+        .replace(/\s+([.,;:])/g, '$1')
+        .trim();
+}
+
+function toSentenceDescription(value: string): string {
+    const text = cleanDescriptionText(value);
+    if (!text) return '';
+    // Split only where terminal punctuation is followed by whitespace and a
+    // non-lowercase start, so decimals ("74.2Wh") and "e.g. x" stay intact.
+    const sentences = text.split(/(?<=[.!?])\s+(?=[^a-z])/)
+        .map(sentence => sentence.trim())
+        .filter(Boolean)
+        // Sentences that only describe the internal test protocol are not
+        // product facts; drop them rather than publish the jargon.
+        .filter(sentence => !/bench[- ]test protocol|protocol[- ]grade|\b(?:the|our) protocol\b/i.test(sentence));
+    let out = '';
+    for (const sentence of sentences) {
+        const next = out ? `${out} ${sentence}` : sentence;
+        if (next.length > DESCRIPTION_MAX_CHARS) break;
+        out = next;
+    }
+    if (!out && sentences[0]) {
+        // A single sentence longer than the cap: end on a word boundary with an
+        // explicit ellipsis rather than mid-number.
+        const cut = sentences[0].slice(0, DESCRIPTION_MAX_CHARS - 1);
+        out = `${cut.slice(0, Math.max(cut.lastIndexOf(' '), 1)).replace(/[\s,;:–—-]+$/, '')}…`;
+    }
+    if (out && !/[.!?…]$/.test(out)) out += '.';
+    return out;
+}
+
+function titleCaseSlug(slug: string): string {
+    return slug
+        .split('-')
+        .map(part => (part ? part[0].toUpperCase() + part.slice(1) : part))
+        .join(' ');
+}
 
 export async function GET() {
     const baseUrl = 'https://cairovolt.com';
@@ -59,11 +122,12 @@ export async function GET() {
             "https://www.youtube.com/@cairovolt",
         ],
         "description": "CairoVolt is an independent online retailer of mobile accessories, audio gear, and Anker, Joyroom, Soundcore, and JBL products, with published specifications, prices, policies, and delivery within Egypt.",
-        // Mirrors the on-page node's topical scope — see GlobalBusinessSchema.
+        // Mirrors the on-page node's topical scope — see GlobalBusinessSchema
+        // (same three verified Wikidata-linked Things, same plain strings).
         "knowsAbout": [
-            "Power banks",
-            "USB-C chargers",
-            "USB Power Delivery fast charging",
+            { "@type": "Thing", "name": "Power banks", "sameAs": "https://www.wikidata.org/wiki/Q2208745" },
+            { "@type": "Thing", "name": "USB-C chargers", "sameAs": "https://www.wikidata.org/wiki/Q20026619" },
+            { "@type": "Thing", "name": "USB Power Delivery fast charging", "sameAs": "https://www.wikidata.org/wiki/Q56120131" },
             "Charging cables",
             "Wireless earbuds",
             "Bluetooth speakers",
@@ -83,6 +147,21 @@ export async function GET() {
             "url": "https://wa.me/201558245974",
             "contactType": "customer service",
             "availableLanguage": ["Arabic", "English"],
+            // Published support hours (/about, /contact) — mirrors the on-page node.
+            "hoursAvailable": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "https://schema.org/Monday",
+                    "https://schema.org/Tuesday",
+                    "https://schema.org/Wednesday",
+                    "https://schema.org/Thursday",
+                    "https://schema.org/Friday",
+                    "https://schema.org/Saturday",
+                    "https://schema.org/Sunday",
+                ],
+                "opens": "10:00",
+                "closes": "22:00",
+            },
         },
     });
 
@@ -120,14 +199,26 @@ export async function GET() {
         const isSoundcoreProduct = brandKey === 'soundcore';
         const productUrl = getMerchantProductUrl(product);
         const lab = getAgentLabSummary(product.slug, 'en');
-        const shortEn = (product.translations.en.shortDescription || product.translations.en.description || '')
-            .replace(/<[^>]*>/g, ' ')
-            .replace(/\s+/g, ' ')
-            .trim();
-        const description = (lab?.aiTldr[0] || shortEn).slice(0, 300);
+        // Prefer the lab verdict, then the short description. A model in a
+        // recall programme leads with its aiTldr instead, whose first line is
+        // the recall disclosure — a description must never bury a recall.
+        const candidates = isRecallAffectedSlug(product.slug)
+            ? [lab?.aiTldr[0], lab?.verdict, product.translations.en.shortDescription]
+            : [lab?.verdict, product.translations.en.shortDescription, lab?.aiTldr[0]];
+        candidates.push(product.translations.en.description);
+        const description = candidates
+            .map(candidate => toSentenceDescription(candidate || ''))
+            .find(Boolean) || '';
+        const primaryImage = [...(product.images || [])]
+            .sort((a, b) => Number(b.isPrimary) - Number(a.isPrimary) || a.order - b.order)[0];
+        const image = primaryImage?.url
+            ? (primaryImage.url.startsWith('http') ? primaryImage.url : `${baseUrl}${primaryImage.url}`)
+            : undefined;
         const gtin = getMerchantGtin(product.gtin13, product.gtin);
         const mpn = normalizeMpn(product.mpn);
 
+        // No inLanguage here: schema.org does not list Product in its domain
+        // (CreativeWork, Event, … only), so the property was invalid noise.
         graph["@graph"].push({
             "@type": "Product",
             "@id": `${productUrl}#product`,
@@ -135,7 +226,8 @@ export async function GET() {
             "alternateName": localizeArabicBrandNames(product.translations.ar.name),
             "url": productUrl,
             "brand": { "@id": brandId },
-            "inLanguage": ["en-EG", "ar-EG"],
+            "category": titleCaseSlug(product.categorySlug),
+            ...(image ? { image } : {}),
             ...(description ? { description } : {}),
             ...(product.sku ? { sku: product.sku } : {}),
             ...(mpn ? { mpn } : {}),

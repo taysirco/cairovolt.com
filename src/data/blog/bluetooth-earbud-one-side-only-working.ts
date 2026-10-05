@@ -4,7 +4,7 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
     slug: 'bluetooth-earbud-one-side-only-working',
     category: 'how-to',
     publishDate: '2026-06-07',
-    modifiedDate: '2026-06-07',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
         'anker-soundcore-r50i-nc',
@@ -28,14 +28,14 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
             metaDescription: 'سماعة البلوتوث بتشتغل ناحية واحدة بس؟ 8 حلول مجربة لإصلاح المشكلة بنفسك — من إعادة التزامن والشحن لحد تنظيف نقاط الشحن وتحديث الفيرموير. تابع التفاصيل بمصر.',
             keywords: 'سماعة بلوتوث شغالة ناحية واحدة, سماعة ودن واحدة بس, إصلاح سماعة بلوتوث, سماعة يمين مش شغالة, سماعة شمال مبتشتغلش, حل مشكلة سماعة لاسلكية, سماعة بلوتوث مش بتتصل, reset سماعة بلوتوث, تزامن سماعات, سماعة ساوندكور مشكلة',
             excerpt: 'سماعة البلوتوث بتشتغل في ودن واحدة بس؟ دليل كامل بـ 8 حلول مجربة — من إعادة التزامن لحد تنظيف نقاط الشحن — قبل ما تقرر ترميها.',
-            quickAnswer: 'في 90% من الحالات المشكلة مش عطل حقيقي — ده فقد تزامن (desync) بين السماعتين. الحل السحري: ارجّع السماعتين للعلبة، اقفل الغطا، استنى 10 ثواني، وافتح تاني. لو مشتغلتش: امسح السماعة من البلوتوث وعيد الاقتران من الصفر. لو لسه: نضّف نقاط الشحن المعدنية في العلبة والسماعة بقطنة جافة.',
+            quickAnswer: 'في أغلب الحالات المشكلة مش عطل حقيقي — ده فقد تزامن (desync) بين السماعتين. الحل السحري: ارجّع السماعتين للعلبة، اقفل الغطا، استنى 10 ثواني، وافتح تاني. لو مشتغلتش: امسح السماعة من البلوتوث وعيد الاقتران من الصفر. لو لسه: نضّف نقاط الشحن المعدنية في العلبة والسماعة بقطنة جافة.',
             content: `<p>فتحت العلبة، طلعت السماعتين، حطيتهم في ودنك — اليمين شغّالة تمام، الشمال... ميتة. ولا صوت ولا LED ولا حياة. أو العكس: الشمال شغالة والميين ميتة. تقلعهم وترجعهم العلبة وتطلعهم تاني — نفس المشكلة. تحس إن السماعة خلاص باظت وعايز ترميها أو تشتري واحدة جديدة.</p>
 
-<p>بس استنى — في 90% من الحالات المشكلة مش عطل hardware خالص. هي مجرد فقد تزامن (desync) بين السماعة الرئيسية (primary) والثانوية (secondary)، أو مشكلة شحن بسيطة ليها حل في 30 ثانية. في المقال ده هنمشي معاك خطوة بخطوة — 8 حلول مرتبة من الأسهل للأصعب — وبعد ما تجرّب كلهم هتعرف بالظبط هل السماعة محتاجة إصلاح ولا ترجع تشتغل زي الأول.</p>
+<p>بس استنى — في أغلب الحالات المشكلة مش عطل hardware خالص. هي مجرد فقد تزامن (desync) بين السماعة الرئيسية (primary) والثانوية (secondary)، أو مشكلة شحن بسيطة ليها حل في 30 ثانية. في المقال ده هنمشي معاك خطوة بخطوة — 8 حلول مرتبة من الأسهل للأصعب — وبعد ما تجرّب كلهم هتعرف بالظبط هل السماعة محتاجة إصلاح ولا ترجع تشتغل زي الأول.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> في 90% من الحالات المشكلة مش عطل حقيقي — ده فقد تزامن بين السماعتين. الحل: ارجّع السماعتين للعلبة 10 ثواني وافتح تاني. لو مشتغلتش: امسح السماعة من البلوتوث وعيد الاقتران. لو لسه: نضّف نقاط الشحن المعدنية بقطنة جافة.
+        <strong>💡 الإجابة السريعة:</strong> في أغلب الحالات المشكلة مش عطل حقيقي — ده فقد تزامن بين السماعتين. الحل: ارجّع السماعتين للعلبة 10 ثواني وافتح تاني. لو مشتغلتش: امسح السماعة من البلوتوث وعيد الاقتران. لو لسه: نضّف نقاط الشحن المعدنية بقطنة جافة.
     </p>
 </div>
 
@@ -55,7 +55,7 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
 
 <h2>الحل #1 — إعادة وضع السماعات في العلبة (30 ثانية)</h2>
 
-<p>أبسط حل وبيحل 50% من الحالات:</p>
+<p>أبسط حل وبيحل المشكلة في حالات كتير:</p>
 
 <ol>
     <li>ارجّع السماعتين للعلبة</li>
@@ -100,7 +100,7 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
 
 <p>لو الحلول السابقة مانفعتش — محتاج تعمل Factory Reset للسماعة. الطريقة بتختلف حسب البراند:</p>
 
-<p><strong>لسماعات ساوند كور:</strong></p>
+<p><strong>لسماعات ساوندكور:</strong></p>
 <ol>
     <li>ارجّع السماعتين للعلبة</li>
     <li>افتح تطبيق Soundcore على الموبايل</li>
@@ -117,13 +117,13 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
 
 <p>أحياناً المشكلة بتكون bug في الـ firmware — والشركة نزلت تحديث بيحلّها بس إنت ما حدّثتش. افتح تطبيق السماعة (Soundcore / Sony Headphones / Samsung Wearable) وشوف لو في تحديث متاح. لو في — حدّث واستنى لحد ما يخلص (متقلعش السماعة أثناء التحديث) وبعدين جرّب تاني.</p>
 
-<p>سماعات <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ساوند كور</a> بتنزّل تحديثات firmware بشكل منتظم بتحل مشاكل الاتصال والتزامن — ده من مميزات إنك تشتري سماعة من براند محترم مش نو-نيم. التحديثات بتنزل من خلال تطبيق الموبايل وبتاخد 2-5 دقائق — وممنوع تقلع السماعة أو تقفل التطبيق أثناء التحديث عشان ممكن يبوظ الـ firmware وتبقى محتاج service center.</p>
+<p>سماعات <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ساوندكور</a> بتنزّل تحديثات firmware بشكل منتظم بتحل مشاكل الاتصال والتزامن — ده من مميزات إنك تشتري سماعة من براند محترم مش نو-نيم. التحديثات بتنزل من خلال تطبيق الموبايل وبتاخد 2-5 دقائق — وممنوع تقلع السماعة أو تقفل التطبيق أثناء التحديث عشان ممكن يبوظ الـ firmware وتبقى محتاج service center.</p>
 
 <h2>هل إصدار البلوتوث بيفرق في مشكلة التزامن؟</h2>
 
 <p>أيوا — وبيفرق كتير. البلوتوث القديم (4.2 وأقل) كان بيستخدم نظام relay: الموبايل بيبعت الصوت للسماعة الرئيسية، والرئيسية بتعيد إرسال الصوت للثانوية. ده كان بيسبب مشاكل تزامن كتير وتأخير بين السماعتين. البلوتوث 5.0 وأحدث بيدعم Simultaneous Transmission — الموبايل بيبعت لسماعتين في نفس الوقت. النتيجة: مشاكل تزامن أقل بكتير ولو حصلت بتتحل أسرع.</p>
 
-<p>لو سماعتك BT 4.2 أو أقل وبتعاني من المشكلة دي بشكل متكرر — ممكن يكون وقت الترقية. كل سماعات ساوند كور الحالية BT 5.3 أو أعلى — يعني التزامن أثبت بفرق واضح.</p>
+<p>لو سماعتك BT 4.2 أو أقل وبتعاني من المشكلة دي بشكل متكرر — ممكن يكون وقت الترقية. ولما تشتري سماعة جديدة، راجع إصدار البلوتوث في صفحة الموديل واختار BT 5.3 أو أحدث.</p>
 
 <h2>مشكلة الـ Multipoint — لما السماعة متوصلة بجهازين</h2>
 
@@ -151,7 +151,7 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
 <p>لو جرّبت كل الحلول السابقة ومفيش نتيجة — غالباً المشكلة hardware فعلاً (driver محروق أو بطارية خلصت عمرها). هنا الضمان بيفرق:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">✅ <strong>لو اشتريت سماعة أصلية بضمان:</strong> تواصل مع البائع — لو السماعة لسه في فترة الضمان هيتم استبدالها أو إصلاحها مجاناً. سماعات ساوند كور على كايرو فولت عليها ضمان 18 شهر — يعني لو حصلت المشكلة دي في أول سنة ونص، مش هتخسر فلوسك.</li>
+    <li style="margin-bottom:10px;">✅ <strong>لو اشتريت سماعة أصلية بضمان:</strong> تواصل مع البائع — لو السماعة لسه في فترة الضمان هيتم استبدالها أو إصلاحها مجاناً. سماعات ساوندكور على كايرو فولت بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) — يعني لو حصلت المشكلة دي في فترة الضمان، مش هتخسر فلوسك.</li>
     <li style="margin-bottom:10px;">❌ <strong>لو اشتريت سماعة نو-نيم من غير ضمان:</strong> للأسف مفيش حل — هتحتاج تشتري جديدة. وده بالظبط ليه بننصح دايماً بسماعات أصلية حتى لو أغلى شوية.</li>
 </ul>
 
@@ -168,9 +168,9 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
 <p>لو السماعة عندك قديمة وقررت إنها خلاص — شوف <a href="/blog/best-bluetooth-earbuds-egypt-2026" style="color:#2563eb;">دليل أفضل سماعات بلوتوث في مصر 2026</a> عشان تختار البديل الصح. ولو ميزانيتك محدودة — اقرأ <a href="/blog/soundcore-earbuds-under-1000-egp-students" style="color:#2563eb;">أقوى سماعات تحت 1000 جنيه</a>. ولو المشكلة إن السماعة بتقطع مش إنها مش بتشتغل — اقرأ <a href="/blog/bluetooth-earbuds-disconnect-6-causes-7-fixes" style="color:#2563eb;">سماعة البلوتوث بتقطع فجأة — 6 أسباب و7 حلول</a>.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ سماعات أصلية بضمان 18 شهر — على كايرو فولت</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ سماعات أصلية بضمان كايرو فولت المكتوب</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل <a href="/soundcore/audio" style="color:#166534;font-weight:600;">سماعات ساوند كور</a> عندنا أصلية — لو حصلت أي مشكلة في فترة الضمان بنبدّلها أو نصلّحها مجاناً. مش هتقعد تدوّر على حلول على النت — ابعتلنا واتساب وهنحل المشكلة. توصيل لكل المحافظات + دعم فني 24/7.
+        كل <a href="/soundcore/audio" style="color:#166534;font-weight:600;">سماعات ساوندكور</a> عندنا أصلية — لو حصلت أي مشكلة في فترة الضمان بنبدّلها أو نصلّحها مجاناً. مش هتقعد تدوّر على حلول على النت — ابعتلنا واتساب وهنحل المشكلة. توصيل لكل المحافظات + دعم فني على واتساب.
     </p>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore Liberty 4 NC</a>.</p></div>
@@ -178,7 +178,7 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
             faq: [
                 {
                     question: 'السماعة اليمين مبتشتغلش بس الشمال تمام — ده عطل hardware؟',
-                    answer: 'مش بالضرورة — في 90% من الحالات ده desync وحلّه بسيط. جرّب الخطوات بالترتيب: 1) ارجعهم العلبة 10 ثواني 2) امسح الاقتران وأعد التوصيل 3) نضّف نقاط الشحن 4) اعمل Factory Reset. لو بعد كل ده مفيش نتيجة — غالباً hardware ومحتاج ضمان.'
+                    answer: 'مش بالضرورة — في أغلب الحالات ده desync وحلّه بسيط. جرّب الخطوات بالترتيب: 1) ارجعهم العلبة 10 ثواني 2) امسح الاقتران وأعد التوصيل 3) نضّف نقاط الشحن 4) اعمل Factory Reset. لو بعد كل ده مفيش نتيجة — غالباً hardware ومحتاج ضمان.'
                 },
                 {
                     question: 'نقاط الشحن المعدنية بتتسخ بسرعة — إيه الحل الدائم؟',
@@ -200,14 +200,14 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
             metaDescription: 'Bluetooth earbud only working on one side? 8 proven fixes to repair it yourself — from re-syncing and charging to cleaning contact pins and firmware updates.',
             keywords: 'bluetooth earbud one side not working, earbud only plays in one ear, fix bluetooth earbuds, right earbud not working, left earbud not working, wireless earbud fix, bluetooth earbud not connecting, reset bluetooth earbuds, earbud sync problem, soundcore earbud troubleshooting',
             excerpt: 'Bluetooth earbud only working on one side? Complete guide with 8 proven fixes — from re-syncing to cleaning charging contacts — before you decide to throw it away.',
-            quickAnswer: 'In 90% of cases this is not a real hardware failure — it is a desync between the two earbuds. The magic fix: return both earbuds to the case, close the lid, wait 10 seconds, and reopen. If that fails: forget the device from Bluetooth and re-pair from scratch. Still nothing: clean the metal charging contacts on the case and earbuds with a dry cotton swab.',
+            quickAnswer: 'In most cases this is not a real hardware failure — it is a desync between the two earbuds. The magic fix: return both earbuds to the case, close the lid, wait 10 seconds, and reopen. If that fails: forget the device from Bluetooth and re-pair from scratch. Still nothing: clean the metal charging contacts on the case and earbuds with a dry cotton swab.',
             content: `<p>You opened the case, pulled out both earbuds, placed them in your ears — the right one works perfectly, the left one is dead. No sound, no LED, no sign of life. Or the reverse: left works, right is dead. You return them to the case and try again — same problem. You feel like the earbuds are broken and you need to throw them away or buy new ones.</p>
 
-<p>But wait — in 90% of cases, this is not a hardware failure at all. It is simply a desync between the primary and secondary earbuds, or a minor charging issue with a 30-second fix. In this article, we will walk you through step by step — 8 solutions ordered from easiest to most complex — and after trying them all, you will know exactly whether your earbuds need repair or will work like new again.</p>
+<p>But wait — in most cases, this is not a hardware failure at all. It is simply a desync between the primary and secondary earbuds, or a minor charging issue with a 30-second fix. In this article, we will walk you through step by step — 8 solutions ordered from easiest to most complex — and after trying them all, you will know exactly whether your earbuds need repair or will work like new again.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> In 90% of cases this is not a real hardware failure — it is a desync between the two earbuds. The fix: return both earbuds to the case for 10 seconds and reopen. If that fails: forget the device from Bluetooth and re-pair. Still nothing: clean the metal charging contacts with a dry cotton swab.
+        <strong>💡 Quick Answer:</strong> In most cases this is not a real hardware failure — it is a desync between the two earbuds. The fix: return both earbuds to the case for 10 seconds and reopen. If that fails: forget the device from Bluetooth and re-pair. Still nothing: clean the metal charging contacts with a dry cotton swab.
     </p>
 </div>
 
@@ -227,7 +227,7 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
 
 <h2>Fix #1 — Return Earbuds to the Case (30 seconds)</h2>
 
-<p>The simplest fix that resolves 50% of cases:</p>
+<p>The simplest fix, and it resolves many cases:</p>
 
 <ol>
     <li>Return both earbuds to the charging case</li>
@@ -313,7 +313,7 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
 <p>If you have tried all previous solutions with no result — the problem is likely a genuine hardware issue (burned driver or end-of-life battery). This is where warranty makes all the difference:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">✅ <strong>If you bought original earbuds with warranty:</strong> Contact the seller — if the earbuds are still within warranty, they will be replaced or repaired for free. Soundcore earbuds from CairoVolt come with an 18-month warranty — if this problem occurs within the first year and a half, you will not lose your money.</li>
+    <li style="margin-bottom:10px;">✅ <strong>If you bought original earbuds with warranty:</strong> Contact the seller — if the earbuds are still within warranty, they will be replaced or repaired for free. Soundcore earbuds from CairoVolt carry CairoVolt's written store warranty (duration shown on each product page) — if this problem occurs within the warranty period, you will not lose your money.</li>
     <li style="margin-bottom:10px;">❌ <strong>If you bought no-name earbuds without warranty:</strong> Unfortunately there is no recourse — you will need to buy new ones. This is exactly why we always recommend original earbuds even if they cost slightly more.</li>
 </ul>
 
@@ -330,9 +330,9 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
 <p>If your earbuds are beyond repair and you have decided to replace them — check our <a href="/en/blog/best-bluetooth-earbuds-egypt-2026" style="color:#2563eb;">Best Bluetooth Earbuds in Egypt 2026 Guide</a> to choose the right replacement. On a tight budget? Read <a href="/en/blog/soundcore-earbuds-under-1000-egp-students" style="color:#2563eb;">Best Earbuds Under 1,000 EGP</a>. If the problem is disconnections rather than one side not working — read <a href="/en/blog/bluetooth-earbuds-disconnect-6-causes-7-fixes" style="color:#2563eb;">Bluetooth Earbuds Keep Disconnecting — 6 Causes and 7 Fixes</a>.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Original Earbuds with 18-Month Warranty — on CairoVolt</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Original Earbuds with CairoVolt's Written Store Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> on our store are original — if any issue occurs within the warranty period, we replace or repair them for free. No need to search for fixes online — message us on WhatsApp and we will solve the problem. Delivery across all Egyptian governorates + 24/7 tech support.
+        All <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> on our store are original — if any issue occurs within the warranty period, we replace or repair them for free. No need to search for fixes online — message us on WhatsApp and we will solve the problem. Delivery across all Egyptian governorates + WhatsApp tech support.
     </p>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a>.</p></div>
@@ -340,7 +340,7 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
             faq: [
                 {
                     question: 'The right earbud is not working but the left is fine — is this a hardware defect?',
-                    answer: 'Not necessarily — in 90% of cases this is a desync with a simple fix. Try the steps in order: 1) Return to case for 10 seconds 2) Forget and re-pair via Bluetooth 3) Clean charging contacts 4) Factory Reset. If none of these work — it is likely hardware and requires warranty service.'
+                    answer: 'Not necessarily — in most cases this is a desync with a simple fix. Try the steps in order: 1) Return to case for 10 seconds 2) Forget and re-pair via Bluetooth 3) Clean charging contacts 4) Factory Reset. If none of these work — it is likely hardware and requires warranty service.'
                 },
                 {
                     question: 'Metal charging contacts get dirty quickly — is there a permanent solution?',

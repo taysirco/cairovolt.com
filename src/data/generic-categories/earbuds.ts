@@ -105,18 +105,6 @@ export const earbuds_generic: GenericCategory = {
 
 <h2 id="airpods-alternative">بديل AirPods بسعر أقل — هل يستحق؟</h2>
 <p>سؤال يسأله الكثيرون: هل سماعات <strong>ساوندكور</strong> أو <strong>جوي روم</strong> بديل مناسب لـ <strong>AirPods</strong>؟ يعتمد ذلك على جهازك والمقاس والميكروفون والخصائص والسعر الحالي.</p>
-<table>
-<thead><tr><th>المقارنة</th><th>AirPods Pro 2</th><th>ساوندكور Liberty 4 Pro</th><th>ساوندكور P20i</th></tr></thead>
-<tbody>
-<tr><td>السعر في مصر</td><td>راجع المتجر المختار</td><td>راجع صفحة المنتج</td><td>راجع صفحة المنتج</td></tr>
-<tr><td>إلغاء الضوضاء</td><td>راجع مواصفات Apple</td><td>راجع أوضاع الموديل</td><td>راجع صفحة الموديل</td></tr>
-<tr><td>الترميز والتطبيق</td><td>تكامل منظومة Apple</td><td>راجع LDAC وتطبيق ساوندكور</td><td>راجع تطبيق ساوندكور</td></tr>
-<tr><td>البطارية (سماعة)</td><td>حسب ظروف الشركة</td><td>حسب ظروف الشركة</td><td>حسب ظروف الشركة</td></tr>
-<tr><td>البطارية (مع العلبة)</td><td>راجع المواصفات الحالية</td><td>راجع المواصفات الحالية</td><td>راجع المواصفات الحالية</td></tr>
-<tr><td>التوافق</td><td>راجع جهازك وإصدار النظام</td><td>راجع جهازك والترميز</td><td>راجع جهازك</td></tr>
-<tr><td>فرق السعر</td><td>خط أساس المقارنة</td><td>يتغير وقت الشراء</td><td>يتغير وقت الشراء</td></tr>
-</tbody>
-</table>
 <p><strong>الخلاصة:</strong> اختر بعد مقارنة المقاس والتوافق والميكروفون والبطارية والخصائص التي تستخدمها فعلاً. راجع السعر الحالي لكل موديل ولا تفترض نسبة أداء ثابتة بين منتجين.</p>
 
 <h2 id="original-vs-fake">كيف تفرق بين سماعات البلوتوث الأصلية والتقليد؟</h2>
@@ -175,18 +163,6 @@ export const earbuds_generic: GenericCategory = {
 
 <h2 id="airpods-alternative">AirPods Alternative at Lower Price — Worth It?</h2>
 <p>A common question is whether <strong>Soundcore</strong> or <strong>Joyroom</strong> earbuds are a suitable <strong>AirPods</strong> alternative. The answer depends on your device, fit, microphone needs, features, and current price.</p>
-<table>
-<thead><tr><th>Comparison</th><th>AirPods Pro 2</th><th>Soundcore Liberty 4 Pro</th><th>Soundcore P20i</th></tr></thead>
-<tbody>
-<tr><td>Price in Egypt</td><td>Check the selected retailer</td><td>Check the product page</td><td>Check the product page</td></tr>
-<tr><td>ANC</td><td>Check Apple specifications</td><td>Check the model's modes</td><td>Check the model page</td></tr>
-<tr><td>Codec and app</td><td>Apple ecosystem integration</td><td>Check LDAC and Soundcore app support</td><td>Check Soundcore app support</td></tr>
-<tr><td>Battery (earbuds)</td><td>Manufacturer-rated conditions</td><td>Manufacturer-rated conditions</td><td>Manufacturer-rated conditions</td></tr>
-<tr><td>Battery (with case)</td><td>Check current specifications</td><td>Check current specifications</td><td>Check current specifications</td></tr>
-<tr><td>Compatibility</td><td>Check device and OS version</td><td>Check device and codec support</td><td>Check your device</td></tr>
-<tr><td>Price difference</td><td>Comparison baseline</td><td>Varies at time of purchase</td><td>Varies at time of purchase</td></tr>
-</tbody>
-</table>
 <p><strong>Bottom line:</strong> Choose after comparing fit, compatibility, microphones, battery, and the features you will use. Check each model's current price and do not assume a fixed performance percentage between products.</p>
 
 <h2 id="original-vs-fake">How to Tell Original Bluetooth Earbuds from Fake</h2>

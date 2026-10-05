@@ -11,7 +11,7 @@ export const huawei_watch_charger_compatibility_prices_egypt: BlogArticle = {
         'anker-powerport-20w',
         'joyroom-20w-usb-c-charger',
         'joyroom-ft3-smartwatch',
-        'anker-powercore-10000'
+        'anker-zolo-a110d-10000'
     ],
     relatedArticles: [
         'smartwatch-magnetic-chargers-original-vs-clones',

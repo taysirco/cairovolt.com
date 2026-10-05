@@ -4,15 +4,12 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
     slug: 'mah-vs-wh-power-bank-real-capacity-explained',
     category: 'buying-guide',
     publishDate: '2026-07-17T12:30:00+02:00',
-    modifiedDate: '2026-07-17T12:30:00+02:00',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'joyroom-power-bank-10000',
-        'anker-powercore-10000',
-        'joyroom-power-bank-20000',
         'anker-powercore-20000',
-        'anker-737-powerbank',
-        'anker-a2147-gan-charger-30w'
+        'anker-737-powerbank'
     ],
     relatedArticles: [
         '10000mah-power-bank-iphone-charges-count-math',
@@ -28,7 +25,7 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
             metaDescription: 'دليلك لمعرفة الفرق العلمي بين سعة mAh والـ Wh في الباوربانك، ولماذا تعتبر الواط-ساعة هي المقياس الحقيقي للطاقة المخزنة وحساب كفاءة الشحن الفعلي.',
             keywords: 'سعر باور بانك سامسونج 10000, سعر باور بانك سامسونج 20000 امبير, الفرق بين mah و wh, سعة الباوربانك الحقيقية, واط ساعة, مللي أمبير ساعة, حساب طاقة البطارية',
             excerpt: 'هل بتتساءل ليه المطار بيسألك عن الـ Wh للباوربانك مش الـ mAh؟ نشرح لك المفهوم الفيزيائي للفرق بينهم وإزاي تحسب سعة شحن موبايلك الحقيقية.',
-            quickAnswer: 'الـ **mAh (مللي أمبير ساعة)** تقيس كمية الشحنة الكهربائية فقط، وهي خادعة لأنها لا تأخذ الجهد (Voltage) في الاعتبار. أما الـ **Wh (واط ساعة)** فهي تقيس **الطاقة الكلية الفعلية** المخزنة بالبطارية (الطاقة = الشحنة × الجهد). باوربانك بسعة 10,000 مللي أمبير يعمل بجهد 3.7 فولت يحتوي على 37 واط-ساعة (37Wh)، بينما بطارية لابتوب بنفس سعة 10,000 مللي أمبير ولكن بجهد 11.1 فولت تحتوي على 111 واط-ساعة، أي ثلاثة أضعاف الطاقة تماماً! لهذا السبب، تفرض شركات الطيران قيودها بناءً على الـ Wh وليس الـ mAh.',
+            quickAnswer: 'الـ Wh هي المقياس الحقيقي للطاقة، والـ mAh لوحدها خادعة لأنها مش بتحسب الجهد (Wh = mAh × الفولت ÷ 1000). باور بانك 10,000 مللي أمبير على 3.7 فولت = 37Wh، وبطارية لابتوب بنفس الـ 10,000 مللي أمبير على 11.1 فولت = 111Wh، يعني 3 أضعاف الطاقة. وعشان كده شركات الطيران بتحسب بالـ Wh.',
             faq: [
                 {
                     question: 'كيف أحول من mAh إلى Wh في الباوربانك؟',
@@ -149,7 +146,7 @@ export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
             metaDescription: 'Learn the scientific difference between mAh and Wh in power banks, why Watt-hours represent the true energy capacity, and how to compute conversion rates.',
             keywords: 'samsung power bank 10000 price, samsung 20000mah power bank price, mah vs wh, power bank real capacity, watt hours, milliampere hours, battery energy calculation',
             excerpt: 'Ever wondered why airlines restrict power banks by Wh instead of mAh? Read our electrical guide explaining the physics of Watt-hours and milliampere-hours.',
-            quickAnswer: 'The **mAh (milliampere-hour)** measures electric charge capacity, which is misleading because it does not account for operating Voltage. The **Wh (Watt-hour)** measures the **actual total energy** stored in the battery (Energy = Charge × Voltage). A 10,000mAh power bank operating at 3.7V stores 37 Watt-hours (37Wh) of energy, while a laptop battery rated at 10,000mAh but operating at 11.1V stores 111 Watt-hours—exactly three times the energy! For this reason, aviation safety boards restrict power banks based on Wh rather than mAh.',
+            quickAnswer: 'Wh is the true measure of energy; mAh alone is misleading because it ignores voltage (Wh = mAh × volts ÷ 1000). A 10,000mAh power bank at 3.7V holds 37Wh, while a 10,000mAh laptop battery at 11.1V holds 111Wh — three times the energy. That is why airlines set their limits in Wh.',
             faq: [
                 {
                     question: 'How do I convert mAh to Wh for my portable charger?',

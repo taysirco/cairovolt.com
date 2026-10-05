@@ -5,21 +5,47 @@ import {
     getMerchantProductUrl,
     MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
 } from '@/lib/merchant-product-data';
+import { CATALOG_LASTMOD } from '@/data/catalog-lastmod.generated';
 
 // RSS feed for active catalogue listings.
 
 export const revalidate = 3600; // Refreshes the feed every hour
 
+/**
+ * Per-product date from the committed lastmod map (moves only when the
+ * product or details file changes). A slug the map does not know yet falls
+ * back to the catalog review date — never to the request time.
+ */
+function productDate(slug: string, fallback: Date): Date {
+    const entry = CATALOG_LASTMOD[slug];
+    const date = entry ? new Date(entry.lastmod) : undefined;
+    return date && !Number.isNaN(date.getTime()) ? date : fallback;
+}
+
 export async function GET() {
     const baseUrl = 'https://cairovolt.com';
-    const date = new Date(CATALOG_LAST_REVIEWED_AT);
+    const reviewedAt = new Date(CATALOG_LAST_REVIEWED_AT);
+    const listedProducts = staticProducts.filter(product =>
+        product.status === 'active'
+        && !MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(product.slug)
+    );
+    // lastBuildDate = the newest item date, so the channel and its items agree.
+    const date = listedProducts.reduce(
+        (latest, product) => {
+            const itemDate = productDate(product.slug, reviewedAt);
+            return itemDate > latest ? itemDate : latest;
+        },
+        reviewedAt,
+    );
 
     const feed = new Feed({
         title: 'CairoVolt Product Catalogue',
         description: 'Active Anker, Soundcore, Joyroom, and JBL product listings with current catalogue prices and links.',
         id: baseUrl,
         link: baseUrl,
-        language: "en, ar",
+        // One valid RSS language code. Item titles and bodies are English; the
+        // Arabic description inside each item is labelled as such.
+        language: 'en',
         image: `${baseUrl}/logo.png`,
         favicon: `${baseUrl}/favicon.ico`,
         copyright: `© ${date.getFullYear()} CairoVolt`,
@@ -35,10 +61,7 @@ export async function GET() {
         }
     });
 
-    staticProducts.filter(product =>
-        product.status === 'active'
-        && !MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(product.slug)
-    ).forEach(product => {
+    listedProducts.forEach(product => {
         const url = getMerchantProductUrl(product, 'en');
 
         feed.addItem({
@@ -62,7 +85,7 @@ export async function GET() {
                     link: baseUrl,
                 }
             ],
-            date,
+            date: productDate(product.slug, reviewedAt),
             image: product.images.length > 0
                 ? (product.images[0].url.startsWith('http') ? product.images[0].url : `${baseUrl}${product.images[0].url}`)
                 : undefined,

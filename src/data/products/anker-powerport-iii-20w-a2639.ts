@@ -79,7 +79,7 @@ export const anker_powerport_iii_20w_a2639 = {
                 faqs: [
                     { question: "What is the price of the Anker 20W Cube charger in Egypt?", answer: "Use the live price shown for A2149 and review current stock, package contents, warranty, payment and delivery terms before ordering." },
                     { question: "Does the A2149 support fast charging for compatible iPhones?", answer: "The charger supports USB-C PD up to its stated 20W output. Actual charging speed varies with the iPhone model, battery level, cable, and temperature." },
-                    { question: "Does it come with a cable?", answer: "Confirm the current package contents on this listing or the supplied box. If no suitable cable is included, choose the connector and rating required by your device." },
+                    { question: "Does it come with a cable?", answer: "No. Our tested unit came charger-only — the USB-C cable is sold separately, so budget a C-to-Lightning cable for iPhone 8–14 or C-to-C for iPhone 15+ and iPad. Check the contents on delivery." },
                     { question: "How many ports does the Anker 20W Cube have?", answer: "It has a single USB-C PD port rated 20W. To charge two devices at once, look at a multi-port GaN charger like the 30W or 67W models." },
                     { question: "Will it work with Egypt's 220V supply?", answer: "The charger label lists a 100-240V input range. Use it with a sound socket and suitable plug adapter if required; disconnect it during severe voltage instability or if it becomes unusually hot." },
                     { question: "How do I verify the supplied model?", answer: "Match A2149, the rear label and the printed output table with the package. Use the current official verification process if a serial or label is provided; weight alone is not proof." }
@@ -142,7 +142,7 @@ export const anker_powerport_iii_20w_a2639 = {
                 faqs: [
                     { question: "كم سعر شاحن انكر 20 واط كيوب في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لـ A2149 وراجع المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
                     { question: "هل الـ A2149 بيشحن ايفون 17 بسرعة؟", answer: "أيوه، الشاحن مصنّف بخرج USB-C PD حتى 20 واط مع الأجهزة المتوافقة. زمن الشحن الفعلي يختلف حسب موديل الايفون ونسبة البطارية والحرارة وحالة الكابل." },
-                    { question: "هل يأتي معه كابل؟", answer: "تحقق من محتويات العبوة الحالية في الصفحة أو على العلبة الموردة. إذا لم يتوفر كابل مناسب فاختر الموصل والتصنيف المطلوبين لجهازك." },
+                    { question: "هل يأتي معه كابل؟", answer: "لا. وصلت وحدتنا المُختبرة بالشاحن فقط، وكابل USB-C يُباع منفصلًا؛ فاحسب كابل C إلى Lightning لـ iPhone 8–14 أو C إلى C لـ iPhone 15+ والآيباد. راجع محتويات العبوة عند الاستلام." },
                     { question: "كام مدخل في شاحن انكر 20 واط كيوب؟", answer: "فيه مدخل USB-C واحد بقوة 20 واط. لو عايز تشحن جهازين مع بعض شوف شاحن GaN متعدد المنافذ زي موديل 30 واط أو 67 واط." },
                     { question: "هيشتغل مع كهرباء مصر 220 فولت؟", answer: "ملصق الشاحن يذكر نطاق دخل 100-240 فولت. استخدم بريزة سليمة ومحول قابس مناسب عند الحاجة، وافصله وقت التذبذب الشديد أو لو ظهرت سخونة غير طبيعية." },
                     { question: "أتحقق من الموديل المورّد إزاي؟", answer: "طابق A2149 والملصق الخلفي وجدول الخرج المطبوع مع العبوة. استخدم عملية التحقق الرسمية الحالية إذا توفر رقم أو ملصق؛ الوزن وحده ليس دليلاً." }

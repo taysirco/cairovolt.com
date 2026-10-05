@@ -43,7 +43,7 @@ export const jbl_tour_pro_2 = {
     </section>
     <section>
         <h2 class="text-2xl font-bold mb-3">Flagship Numbers, Stated Honestly</h2>
-        <p class="text-gray-700 leading-relaxed">JBL lists 10 hours in the buds and 30 in the case — 40 hours total, with ANC trimming that figure since the adaptive chip works continuously. The case charges over USB-C or any Qi wireless pad, a convenience that fits the desk-pad setups most flagship-phone owners already run. Bluetooth is 5.3 with LE Audio support, and the buds are IPX5-rated by JBL — resistant to sweat and low-pressure water jets within the stated conditions, with no dust rating and no immersion. Let us also be honest about the price: this is flagship money, and it buys the smart case, adaptive cancelling and six-mic array. If your list stops at "good ANC and long battery", the <a href="/en/jbl/earbuds/jbl-tune-buds">Tune Buds</a> deliver that for a fifth of the cost, and the over-ear <a href="/en/jbl/headphones/jbl-tune-770nc">Tune 770NC</a> stretches battery further still. The Tour Pro 2 is for the buyer who wants JBL's full toolbox in the smallest form it comes in.</p>
+        <p class="text-gray-700 leading-relaxed">JBL lists 10 hours in the buds and 30 in the case — 40 hours total, with ANC trimming that figure since the adaptive chip works continuously. The case charges over USB-C or any Qi wireless pad, a convenience that fits the desk-pad setups most flagship-phone owners already run. Bluetooth is 5.3 with LE Audio support, and the buds are IPX5-rated by JBL — resistant to sweat and low-pressure water jets within the stated conditions, with no dust rating and no immersion. Let us also be honest about the price: this is flagship money, and it buys the smart case, adaptive cancelling and six-mic array. If your list stops at "good ANC and long battery", the <a href="/en/jbl/earbuds/jbl-tune-buds">Tune Buds</a> deliver that for well under half the price, and the over-ear <a href="/en/jbl/headphones/jbl-tune-770nc">Tune 770NC</a> stretches battery further still. The Tour Pro 2 is for the buyer who wants JBL's full toolbox in the smallest form it comes in.</p>
     </section>
 </div>
 
@@ -55,7 +55,7 @@ export const jbl_tour_pro_2 = {
         <li>Model marking: crisp JBL branding on case and buds with the Tour Pro 2 identity on the box — misspellings and blurry logos are immediate red flags.</li>
         <li>Packaging: original boxes carry sharp print, a labelled serial number, and multiple sizes of oval ear-tips.</li>
         <li>App pairing: a genuine Tour Pro 2 is recognised by the JBL Headphones app with model name, firmware and case-screen customisation — fakes never expose the screen controls.</li>
-        <li>Price logic: anything near 1,500 EGP is counterfeit by definition, and even a "discounted" unit around 40% below our price (roughly 15,000 EGP or less) should be treated as suspect.</li>
+        <li>Price logic: anything near 1,500 EGP is counterfeit by definition, and even a "discounted" unit around 40% below our price should be treated as suspect.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -85,7 +85,7 @@ export const jbl_tour_pro_2 = {
     </section>
     <section>
         <h2 class="text-2xl font-bold mb-3">أرقام فلاجشيب، متقالة بصراحة</h2>
-        <p class="text-gray-700 leading-relaxed">JBL بتعلن 10 ساعات في السماعات و30 في العلبة — 40 ساعة إجمالي، والـANC بيقص من الرقم ده لأن شريحة العزل التكيفي شغالة طول الوقت. العلبة بتشحن بـUSB-C أو أي قاعدة شحن لاسلكي Qi — راحة بتلمّ مع تجهيزات المكتب اللي أصحاب الموبايلات الفلاجشيب أصلًا عايشين بيها. البلوتوث 5.3 بدعم LE Audio، والسماعات مصنّفة IPX5 من JBL — مقاومة للعرق ورشاش المية الخفيف ضمن الشروط المعلنة، من غير تصنيف أتربة ومن غير غطس. وخلينا صرحاء في السعر كمان: دي فلوس فلاجشيب، وبتشتري بيها العلبة الذكية والعزل التكيفي ومنظومة الـ6 مايكات. لو طلباتك بتقف عند "عزل كويس وبطارية طويلة"، <a href="/jbl/earbuds/jbl-tune-buds">Tune Buds</a> بتجيب ده بخُمس التمن، و<a href="/jbl/headphones/jbl-tune-770nc">Tune 770NC</a> اللي فوق الودن بتمد البطارية أكتر. الـTour Pro 2 للمشتري اللي عايز شنطة عدة JBL كاملة في أصغر شكل بتيجي فيه.</p>
+        <p class="text-gray-700 leading-relaxed">JBL بتعلن 10 ساعات في السماعات و30 في العلبة — 40 ساعة إجمالي، والـANC بيقص من الرقم ده لأن شريحة العزل التكيفي شغالة طول الوقت. العلبة بتشحن بـUSB-C أو أي قاعدة شحن لاسلكي Qi — راحة بتلمّ مع تجهيزات المكتب اللي أصحاب الموبايلات الفلاجشيب أصلًا عايشين بيها. البلوتوث 5.3 بدعم LE Audio، والسماعات مصنّفة IPX5 من JBL — مقاومة للعرق ورشاش المية الخفيف ضمن الشروط المعلنة، من غير تصنيف أتربة ومن غير غطس. وخلينا صرحاء في السعر كمان: دي فلوس فلاجشيب، وبتشتري بيها العلبة الذكية والعزل التكيفي ومنظومة الـ6 مايكات. لو طلباتك بتقف عند "عزل كويس وبطارية طويلة"، <a href="/jbl/earbuds/jbl-tune-buds">Tune Buds</a> بتجيب ده بأقل من نص التمن، و<a href="/jbl/headphones/jbl-tune-770nc">Tune 770NC</a> اللي فوق الودن بتمد البطارية أكتر. الـTour Pro 2 للمشتري اللي عايز شنطة عدة JBL كاملة في أصغر شكل بتيجي فيه.</p>
     </section>
 </div>
 
@@ -97,7 +97,7 @@ export const jbl_tour_pro_2 = {
         <li>علامة الموديل: شعار JBL حاد على العلبة والسماعات وهوية Tour Pro 2 على الكرتونة — الأخطاء الإملائية واللوجو المهزوز علامات خطر فورية.</li>
         <li>العلبة: الكرتونة الأصلية طباعتها حادة، عليها رقم تسلسلي، وجواها أكتر من مقاس جيلاتين بيضاوي.</li>
         <li>التطبيق: الـTour Pro 2 الأصلية بيتعرف عليها تطبيق JBL Headphones باسم الموديل والفيرموير وتخصيص شاشة العلبة — التقليد عمره ما بيظهر فيه تحكم الشاشة.</li>
-        <li>منطق السعر: أي حاجة قريبة من 1,500 جنيه تقليد بالتعريف، وحتى الوحدة "المخفضة" بأقل من سعرنا بحوالي 40% (يعني حوالي 15,000 جنيه أو أقل) اعتبرها مشبوهة.</li>
+        <li>منطق السعر: أي حاجة قريبة من 1,500 جنيه تقليد بالتعريف، وحتى الوحدة "المخفضة" بأقل من سعرنا بحوالي 40% اعتبرها مشبوهة.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

@@ -4,7 +4,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
     slug: 'poweriq-vooc-superfast-turbopower-explained',
     category: 'how-to',
     publishDate: '2026-06-09',
-    modifiedDate: '2026-06-09',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'anker-powerport-20w',
@@ -119,7 +119,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
     </tbody>
 </table>
 
-<h2>USB Power Delivery (PD) — الملك بلا منازع</h2>
+<h2>USB Power Delivery (PD) — المعيار المفتوح المشترك</h2>
 
 <p>لو هتتعلم تقنية شحن واحدة بس من المقال ده — خلّيها USB PD. ده المعيار العالمي المفتوح اللي اتفقت عليه كل الشركات تقريباً — Apple و Samsung و Google و Intel و Microsoft. الفكرة بسيطة: بدل ما كل شركة تخترع بروتوكول شحن خاص بيها، USB PD بيقول "تعالوا نتكلم لغة واحدة".</p>
 
@@ -127,10 +127,10 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
     <li style="margin-bottom:12px;">⚡ <strong>القدرة:</strong> من 5W لحد 240W (PD 3.1). يعني بيشحن من سماعة بلوتوث لحد لابتوب ألعاب.</li>
     <li style="margin-bottom:12px;">📱 <strong>التوافق:</strong> iPhone 15 والأحدث، كل Samsung Galaxy من S21 والأحدث، iPad، MacBook، Nintendo Switch، معظم لابتوبات USB-C.</li>
     <li style="margin-bottom:12px;">🔌 <strong>المنفذ:</strong> USB-C حصرياً. لو الشاحن USB-A — مش PD.</li>
-    <li style="margin-bottom:12px;">💡 <strong>الميزة الأهم:</strong> "التفاوض الذكي" — الشاحن والجهاز بيتفاوضوا تلقائياً على أقصى قدرة آمنة. يعني شاحن PD 45W بيشحن iPhone 17 Pro Max بـ 27W (أقصى قدرة الآيفون) بدون ما يضره.</li>
+    <li style="margin-bottom:12px;">💡 <strong>الميزة الأهم:</strong> "التفاوض الذكي" — الشاحن والجهاز بيتفاوضوا تلقائياً على أقصى قدرة آمنة. يعني شاحن PD 45W بيدّي iPhone 17 Pro Max اللي يطلبه بس (لحد حوالي 40W) بدون ما يضره.</li>
 </ul>
 
-<p>لو عندك iPhone وعايز شحن سريع حقيقي — محتاج شاحن PD 20W على الأقل. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر PowerPort 20W</a> أو <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">جوي روم 20W</a> — الاتنين PD معتمد وبيشحنوا iPhone 17 Pro Max من 0 لـ 50% في 25 دقيقة.</p>
+<p>لو عندك iPhone وعايز شحن سريع حقيقي — محتاج شاحن PD 20W على الأقل. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر PowerPort 20W</a> أو <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">جوي روم 20W</a> — الاتنين بيشحنوا الايفون بـ PD بأمان. ولو عايز أسرع شحن لـ iPhone 17 Pro Max، أبل بتقول إنه بيوصل لحد 50% في حوالي 20 دقيقة بأدابتر 40W أو أعلى.</p>
 
 <h2>Quick Charge (QC) — ملك الأندرويد</h2>
 
@@ -161,13 +161,13 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
 <p>OPPO اخترعت VOOC في 2014 بفكرة مختلفة تماماً عن QC و PD. بدل ما ترفع الفولت (زي QC)، VOOC بترفع الأمبير. النتيجة: شحن أسرع بحرارة أقل — لكن بشرط واحد كبير: <strong>لازم شاحن OPPO + كابل OPPO + موبايل OPPO</strong>. لو غيّرت أي واحد فيهم — بيشحن بسرعة عادية.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🟢 <strong>الميزة:</strong> OPPO Find X7 Ultra بيشحن من 0 لـ 100% في 27 دقيقة بـ SuperVOOC 100W. ده أسرع من أي iPhone أو Samsung.</li>
+    <li style="margin-bottom:12px;">🟢 <strong>الميزة:</strong> OPPO Find X7 Ultra بيشحن من 0 لـ 100% في حوالي 27 دقيقة بـ SuperVOOC 100W حسب أوبو، وده أسرع بوضوح من الشحن السلكي للايفون والسامسونج.</li>
     <li style="margin-bottom:12px;">🔴 <strong>العيب:</strong> الشاحن والكابل مش بيشتغلوا بسرعة مع أي جهاز تاني. لو ضاع كابل VOOC — لازم تشتري كابل OPPO أصلي تاني.</li>
 </ul>
 
 <h2>Super Fast Charging — سامسونج والحل الوسط</h2>
 
-<p>Samsung عملت حاجة ذكية: بنت تقنيتها فوق USB PD + PPS (Programmable Power Supply). يعني Super Fast Charging 2.0 (45W) بيشتغل مع أي شاحن PD بيدعم PPS — مش لازم شاحن Samsung أصلي. ده خبر ممتاز لأن معناه:</p>
+<p>Samsung عملت حاجة ذكية: بنت تقنيتها فوق USB PD + PPS (Programmable Power Supply). يعني Super Fast Charging 2.0 (45W) بيشتغل مع شاحن PD بيدعم PPS بالجهد والتيار المطلوبين (مش أي PPS — في قياساتنا شواحن PPS اللي بتقف عند 11 فولت بترجع لوضع 25W) — مش لازم شاحن Samsung أصلي. ده خبر ممتاز لأن معناه:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a> بيشحن Galaxy S26 Ultra بأقصى سرعة (45W) — زي شاحن Samsung الرسمي بالظبط.</li>
@@ -184,7 +184,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔶 <strong>TurboPower (Motorola):</strong> حتى 125W. بيحتاج شاحن Motorola أصلي. مع شاحن PD عادي → بيشحن بـ 18-20W بس.</li>
     <li style="margin-bottom:12px;">🟡 <strong>Dart Charge (Realme):</strong> حتى 150W. مبني على VOOC (Realme تابعة لـ OPPO). بيحتاج كابل خاص.</li>
-    <li style="margin-bottom:12px;">🟠 <strong>HyperCharge (Xiaomi):</strong> حتى 210W. الأسرع في العالم — بيشحن من 0 لـ 100% في 9 دقائق. لكن بيحتاج شاحن Xiaomi + كابل Xiaomi.</li>
+    <li style="margin-bottom:12px;">🟠 <strong>HyperCharge (Xiaomi):</strong> حتى 210W على موديلات معينة. لكن بيحتاج شاحن Xiaomi + كابل Xiaomi.</li>
 </ul>
 
 <p><strong>القاعدة الذهبية:</strong> التقنيات المغلقة (VOOC، Dart، HyperCharge، TurboPower) بتديك أقصى سرعة مع شاحنها بس. لو اشتريت شاحن PD بديل — هيشحن بسرعة عادية (15-20W). لكن ده لسه أسرع بكتير من شاحن 5W القديم. ولو عايز تفهم أكتر عن قدرات الشحن، اقرأ <a href="/blog/20w-30w-45w-65w-100w-charger-which-you-need" style="color:#2563eb;font-weight:600;">20W ولا 30W ولا 45W — إنت محتاج أنهي واحد؟</a></p>
@@ -196,8 +196,8 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
 <p>نصيحتنا العملية لو بتشتري شاحن جديد في مصر في 2026:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🎯 <strong>لو عندك iPhone بس:</strong> شاحن PD 20W كفاية — <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">جوي روم 20W بـ 350ج</a> اختيار ممتاز.</li>
-    <li style="margin-bottom:12px;">🎯 <strong>لو عندك Samsung S26 Ultra:</strong> محتاج PD + PPS عشان تستفيد بالـ 45W — <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a> هيشحنه بأقصى سرعة.</li>
+    <li style="margin-bottom:12px;">🎯 <strong>لو عندك iPhone بس:</strong> شاحن PD 20W كفاية — <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">جوي روم 20W بـ {{price:joyroom-20w-usb-c-charger}}ج</a> اختيار اقتصادي.</li>
+    <li style="margin-bottom:12px;">🎯 <strong>لو عندك Samsung S26 Ultra:</strong> بيشحن لحد 60W عن طريق PPS — <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a> (PPS لحد 21 فولت في قياسنا) هيشغّل وضع 45W، يعني أقل من أقصى سرعته بس شحن سريع فعلاً.</li>
     <li style="margin-bottom:12px;">🎯 <strong>لو عندك أجهزة مختلفة:</strong> شاحن PD + QC بـ PowerIQ — هيكتشف كل جهاز تلقائياً ويشحنه بأقصى سرعة آمنة.</li>
     <li style="margin-bottom:12px;">🎯 <strong>لو عندك OPPO أو Realme:</strong> خلّي شاحنهم الأصلي للشحن السريع، واستخدم شاحن PD كاحتياطي — هيشتغل بسرعة عادية لكن آمن تماماً.</li>
 </ul>
@@ -214,15 +214,15 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">iPhone 17 Pro Max</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">27W</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">حوالي 40W (أبل: 50% في حوالي 20 دقيقة بأدابتر 40W+)</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">USB PD</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 30W GaN</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a></td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">Samsung S26 Ultra</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">45W</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">60W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">PD + PPS</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a> (وضع 45W، أقل من الأقصى)</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">Samsung S26</td>
@@ -255,7 +255,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن USB PD + QC أصلية بضمان على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Anker بضمان 18 شهر + Joyroom بضمان 12 شهر. كل الشواحن بتدعم PD + QC — بتشحن أي موبايل بأقصى سرعة آمنة. <strong>أصلية 100%</strong> + توصيل لكل المحافظات + دفع عند الاستلام. هل الشحن السريع بيضر البطارية؟ اقرأ <a href="/blog/does-fast-charging-damage-battery-truth" style="color:#166534;font-weight:600;">الحقيقة الكاملة</a>.
+        شواحن انكر وجوي روم بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)، وكلها بتدعم PD وبتشحن معظم الموبايلات بأمان (الشحن الخاص زي SuperVOOC محتاج شاحنه الأصلي). <strong>أصلية 100%</strong> + توصيل لكل المحافظات + دفع عند الاستلام. هل الشحن السريع بيضر البطارية؟ اقرأ <a href="/blog/does-fast-charging-damage-battery-truth" style="color:#166534;font-weight:600;">الحقيقة الكاملة</a>.
     </p>
 </div>`,
             faq: [
@@ -265,7 +265,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
                 },
                 {
                     question: 'إيه الفرق بين PD و PPS؟',
-                    answer: 'PPS (Programmable Power Supply) هو امتداد لـ USB PD بيسمح للشاحن يغيّر الفولت بخطوات صغيرة (20mV) بدل القفزات الكبيرة. Samsung Super Fast Charging بيحتاج PPS علشان يوصل 45W. شاحن PD عادي بدون PPS بيشحن Samsung بـ 15-25W. شاحن PD مع PPS (زي انكر نانو 45W) بيشحن Samsung بأقصى سرعة.'
+                    answer: 'PPS (Programmable Power Supply) هو امتداد لـ USB PD بيخلي الموبايل يطلب الفولت بخطوات صغيرة (20mV) بدل القفزات الكبيرة. Samsung Super Fast Charging بيحتاج PPS علشان يوصل 45W. شاحن PD عادي بدون PPS بيشحن Samsung بـ 15-25W. شاحن PD مع PPS كفاية (زي انكر نانو 45W) بيشغّل وضع 45W على أجهزة Galaxy Ultra، والـ S26 Ultra اللي بيوصل لـ 60W هيشحن عليه أقل من أقصاه.'
                 },
                 {
                     question: 'هل PowerIQ 3.0 أحسن من USB PD؟',
@@ -374,7 +374,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
     </tbody>
 </table>
 
-<h2>USB Power Delivery (PD) — The Undisputed King</h2>
+<h2>USB Power Delivery (PD) — The Shared Open Standard</h2>
 
 <p>If you learn just one charging technology from this article — make it USB PD. This is the universal open standard agreed upon by virtually every company — Apple, Samsung, Google, Intel, and Microsoft. The concept is simple: instead of every company inventing its own proprietary charging protocol, USB PD says "let us all speak one language."</p>
 
@@ -382,10 +382,10 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
     <li style="margin-bottom:12px;">⚡ <strong>Power range:</strong> From 5W up to 240W (PD 3.1). That means it charges everything from Bluetooth earbuds to gaming laptops.</li>
     <li style="margin-bottom:12px;">📱 <strong>Compatibility:</strong> iPhone 15 and newer, all Samsung Galaxy from S21 onward, iPad, MacBook, Nintendo Switch, most USB-C laptops.</li>
     <li style="margin-bottom:12px;">🔌 <strong>Port:</strong> USB-C exclusively. If the charger is USB-A — it is not PD.</li>
-    <li style="margin-bottom:12px;">💡 <strong>Key feature:</strong> "Smart negotiation" — the charger and device automatically negotiate the maximum safe power. So a 45W PD charger charges an iPhone 17 Pro Max at 27W (the iPhone maximum) without any risk of damage.</li>
+    <li style="margin-bottom:12px;">💡 <strong>Key feature:</strong> "Smart negotiation" — the charger and device automatically negotiate the maximum safe power. So a 45W PD charger gives an iPhone 17 Pro Max only what it requests (up to about 40W) without any risk of damage.</li>
 </ul>
 
-<p>If you have an iPhone and want real fast charging — you need at minimum a 20W PD charger. The <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> or <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">Joyroom 20W</a> — both are certified PD and charge the iPhone 17 Pro Max from 0 to 50% in 25 minutes.</p>
+<p>If you have an iPhone and want real fast charging — you need at minimum a 20W PD charger. The <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> or <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">Joyroom 20W</a> — both charge an iPhone safely over PD. For the iPhone 17 Pro Max's fastest charge, Apple says it reaches up to 50% in around 20 minutes with a 40W or higher adapter.</p>
 
 <h2>Quick Charge (QC) — The Android King</h2>
 
@@ -416,13 +416,13 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
 <p>OPPO invented VOOC in 2014 with a completely different approach from QC and PD. Instead of increasing voltage (like QC), VOOC increases amperage. The result: faster charging with lower heat — but with one major condition: <strong>you need an OPPO charger + OPPO cable + OPPO phone</strong>. Change any one of them — and it charges at normal speed.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🟢 <strong>The advantage:</strong> The OPPO Find X7 Ultra charges from 0 to 100% in 27 minutes with SuperVOOC 100W. That is faster than any iPhone or Samsung.</li>
+    <li style="margin-bottom:12px;">🟢 <strong>The advantage:</strong> The OPPO Find X7 Ultra charges from 0 to 100% in about 27 minutes with SuperVOOC 100W per OPPO — clearly faster than iPhone and Samsung wired charging.</li>
     <li style="margin-bottom:12px;">🔴 <strong>The drawback:</strong> The charger and cable will not work at full speed with any other device. If you lose your VOOC cable — you must buy another original OPPO cable.</li>
 </ul>
 
 <h2>Super Fast Charging — Samsung's Smart Compromise</h2>
 
-<p>Samsung did something clever: they built their technology on top of USB PD + PPS (Programmable Power Supply). This means Super Fast Charging 2.0 (45W) works with any PD charger that supports PPS — you do not need an original Samsung charger. This is great news because it means:</p>
+<p>Samsung did something clever: they built their technology on top of USB PD + PPS (Programmable Power Supply). This means Super Fast Charging 2.0 (45W) works with a PD charger whose PPS covers the required voltage and current (not just any PPS — on our bench, chargers whose PPS stops at 11V fall back to the 25W mode) — you do not need an original Samsung charger. This is great news because it means:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ The <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> charges the Galaxy S26 Ultra at maximum speed (45W) — exactly like Samsung's official charger.</li>
@@ -439,7 +439,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔶 <strong>TurboPower (Motorola):</strong> Up to 125W. Requires an original Motorola charger. With a regular PD charger → charges at only 18-20W.</li>
     <li style="margin-bottom:12px;">🟡 <strong>Dart Charge (Realme):</strong> Up to 150W. Built on VOOC (Realme is an OPPO subsidiary). Requires a proprietary cable.</li>
-    <li style="margin-bottom:12px;">🟠 <strong>HyperCharge (Xiaomi):</strong> Up to 210W. The fastest in the world — charges from 0 to 100% in 9 minutes. But requires a Xiaomi charger + Xiaomi cable.</li>
+    <li style="margin-bottom:12px;">🟠 <strong>HyperCharge (Xiaomi):</strong> Up to 210W on specific models. But requires a Xiaomi charger + Xiaomi cable.</li>
 </ul>
 
 <p><strong>The golden rule:</strong> Proprietary technologies (VOOC, Dart, HyperCharge, TurboPower) give maximum speed only with their own charger. If you buy a PD alternative — it will charge at normal speed (15-20W). But that is still 4 times faster than the old 5W charger. To understand more about charging wattages, read <a href="/en/blog/20w-30w-45w-65w-100w-charger-which-you-need" style="color:#2563eb;font-weight:600;">20W vs 30W vs 45W — Which Do You Actually Need?</a></p>
@@ -456,15 +456,15 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">iPhone 17 Pro Max</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">27W</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">About 40W (Apple: 50% in about 20 min with a 40W+ adapter)</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">USB PD</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a></td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">Samsung S26 Ultra</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">45W</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">60W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">PD + PPS</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> (45W mode, below peak)</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">Samsung S26</td>
@@ -497,7 +497,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ USB PD + QC Chargers — Genuine with Warranty at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Anker with 18-month warranty + Joyroom with 12-month warranty. All chargers support PD + QC — charging any phone at maximum safe speed. <strong>100% genuine</strong> + delivery to all governorates + cash on delivery. Does fast charging damage the battery? Read <a href="/en/blog/does-fast-charging-damage-battery-truth" style="color:#166534;font-weight:600;">the full truth</a>.
+        Anker and Joyroom chargers covered by CairoVolt's written store warranty (duration shown on each product page); all support PD and charge most phones safely (proprietary modes such as SuperVOOC still need their own charger). <strong>100% genuine</strong> + delivery to all governorates + cash on delivery. Does fast charging damage the battery? Read <a href="/en/blog/does-fast-charging-damage-battery-truth" style="color:#166534;font-weight:600;">the full truth</a>.
     </p>
 </div>`,
             faq: [
@@ -507,7 +507,7 @@ export const poweriq_vooc_superfast_turbopower_explained: BlogArticle = {
                 },
                 {
                     question: 'What is the difference between PD and PPS?',
-                    answer: 'PPS (Programmable Power Supply) is an extension of USB PD that allows the charger to adjust voltage in small steps (20mV) instead of large jumps. Samsung Super Fast Charging requires PPS to reach 45W. A regular PD charger without PPS charges Samsung at 15-25W. A PD charger with PPS (like the Anker Nano 45W) charges Samsung at maximum speed.'
+                    answer: 'PPS (Programmable Power Supply) is an extension of USB PD that lets the phone request voltage in small steps (20mV) instead of large jumps. Samsung Super Fast Charging requires PPS to reach 45W. A regular PD charger without PPS charges Samsung at 15-25W. A PD charger with sufficient PPS (like the Anker Nano 45W) runs the 45W mode on Galaxy Ultra phones, while the S26 Ultra, which reaches 60W, charges below its peak on it.'
                 },
                 {
                     question: 'Is PowerIQ 3.0 better than USB PD?',

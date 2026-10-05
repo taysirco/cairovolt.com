@@ -35,7 +35,7 @@ export const joyroom_type_c_lightning_24mos = {
                     { question: "What's covered under warranty?", answer: "Coverage, exclusions, eligibility and remedy follow the current written policy for this exact SKU. Review it before ordering and keep the invoice and model details." },
                     { question: "Does this work with iPhone 17?", answer: "No, iPhone 17 uses USB-C. This Lightning cable is for iPhone 14/13/12/11 with Lightning ports." },
                     { question: "Does it support fast charging?", answer: "It supports the charging protocol and power listed for this cable when used with compatible devices and chargers. Actual power is limited by the lowest-rated part of the setup." },
-                    { question: "Is this cable MFi certified?", answer: "Verify the MFi statement for the exact cable model on its package or manufacturer documentation. Certification should not be inferred from a generic product-family description and does not guarantee battery or data outcomes." }
+                    { question: "Is this cable MFi certified?", answer: "Not verified: our tested JR-S-CL24M sample had no Apple MFi packaging mark, and iOS showed an accessory warning. Treat MFi as unconfirmed unless your package shows the mark; the connector shape alone does not establish certification." }
                 ]
             },
             ar: {
@@ -54,7 +54,7 @@ export const joyroom_type_c_lightning_24mos = {
                     { question: "كيف أتحقق من ضمان هذا الكابل؟", answer: "راجع مدة الضمان الظاهرة لـ JR-S-CL24M والسياسة المكتوبة الحالية قبل الطلب؛ فهي التي تحدد الأهلية والاستثناءات وإثبات الشراء وخطوات الخدمة." },
                     { question: "ماذا يغطي الضمان؟", answer: "التغطية والاستثناءات والأهلية وطريقة المعالجة تخضع للسياسة المكتوبة الحالية لهذا الموديل. احتفظ بالفاتورة ورقم الموديل." },
                     { question: "هل يدعم الشحن السريع؟", answer: "يدعم البروتوكول والقدرة المكتوبين للموديل عند استخدام أجهزة وشواحن متوافقة. القدرة الفعلية يحددها أقل مكوّن تحملاً في منظومة الشحن." },
-                    { question: "الكابل ده معتمد MFi؟", answer: "تحقق من بيان MFi لموديل الكابل نفسه على العبوة أو وثائق الشركة المصنّعة. لا تفترض الاعتماد من وصف عام للعائلة، والاعتماد لا يضمن نتيجة ثابتة للبطارية أو البيانات." },
+                    { question: "الكابل ده معتمد MFi؟", answer: "غير مؤكَّد: عيّنة JR-S-CL24M المُختبرة لدينا بلا علامة Apple MFi على العبوة، وأظهر iOS تحذير ملحق. اعتبر MFi غير مؤكَّد ما لم تُظهر عبوتك العلامة؛ شكل الموصل وحده لا يثبت الاعتماد." },
                     { question: "الكابل هيعيش قد إيه؟", answer: "تذكر الشركة تصنيف ثني للموديل، لكن العمر الفعلي يعتمد على الاستخدام. تجنب الثني الحاد واسحب الكابل من رأس الموصل، وراجع السياسة لمعرفة العيوب المشمولة وشروط الخدمة." }
                 ]
             }

@@ -48,8 +48,8 @@ export const anker_prime_a2688_100w_charger = {
                     { question: "What is the price of the Anker Prime 100W charger (A2688) in Egypt?", answer: "Use the live price shown for A2688 and review current stock, package contents, warranty, payment and delivery terms before ordering." },
                     { question: "Can the Anker A2688 charge a USB-C laptop?", answer: "It can charge a compatible laptop when its printed USB-PD output matches the laptop's required profile. Use an appropriately rated cable; actual power and time vary." },
                     { question: "Can all three ports be used at the same time?", answer: "The three ports can be connected together, but the available power is shared. Check the printed allocation table for the exact combination before expecting a particular wattage." },
-                    { question: "Does it work with Egypt's mains supply?", answer: "Confirm the AC input range and plug type on the supplied unit. Use a correctly rated adapter where needed and disconnect it during a wiring fault, severe instability or unusual heat." },
-                    { question: "Does the Anker Prime 100W come with a cable?", answer: "Confirm the current package contents on this listing or supplied box. If no suitable cable is included, choose one rated for the laptop's required current and USB-PD profile." },
+                    { question: "Does it work with Egypt's mains supply?", answer: "Yes. The input is rated 100–240V AC, 50/60Hz, and we ran it on a 220V Egyptian wall socket. Our sample had a foldable US Type-A plug that many Egyptian universal sockets accept; use a correctly rated adapter where needed and disconnect it during a wiring fault, severe instability or unusual heat." },
+                    { question: "Does the Anker Prime 100W come with a cable?", answer: "No. It comes charger-only; to unlock 100W, use a 5A E-marked USB-C cable rated for the laptop's USB-PD profile. Check the contents on delivery." },
                     { question: "Will it fast-charge a Samsung phone?", answer: "Compare the phone's required PPS profile with the A2688 output table and use a compatible cable. The model name alone does not guarantee a specific charging label or wattage." }
                 ]
             },
@@ -78,8 +78,8 @@ export const anker_prime_a2688_100w_charger = {
                     { question: "كم سعر شاحن انكر برايم 100 واط (A2688) في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لـ A2688 وراجع المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
                     { question: "هل شاحن انكر A2688 يشحن لابتوب USB-C؟", answer: "يمكنه شحن لابتوب متوافق عندما يطابق خرج USB-PD المطبوع البروفايل المطلوب. استخدم كابلاً مصنفاً بشكل مناسب؛ القدرة والمدة الفعلية تختلفان." },
                     { question: "هل يمكن استخدام المنافذ الثلاثة معاً؟", answer: "يمكن توصيلها معاً لكن القدرة المتاحة تتوزع. راجع جدول التوزيع المطبوع للتركيبة المحددة قبل توقع قدرة معينة." },
-                    { question: "هل يناسب مصدر الكهرباء في مصر؟", answer: "تأكد من مدى الإدخال ونوع القابس على الوحدة الموردة. استخدم محولاً مصنفاً عند الحاجة وافصله عند عيب توصيل أو تذبذب شديد أو سخونة غير طبيعية." },
-                    { question: "هل يأتي شاحن انكر برايم 100 واط بكابل؟", answer: "تحقق من محتويات العبوة الحالية في الصفحة أو على العلبة الموردة. إذا لم يتوفر كابل مناسب فاختر كابلاً يتحمل التيار وبروفايل USB-PD المطلوبين للابتوب." },
+                    { question: "هل يناسب مصدر الكهرباء في مصر؟", answer: "نعم. الدخل مصنف 100–240 فولت AC بتردد 50/60 هرتز، وشغّلناه على مقبس حائط مصري 220 فولت. عيّنتنا جاءت بقابس أمريكي Type-A قابل للطي تقبله كثير من الفيش المصرية العامة؛ استخدم محولاً مصنفاً عند الحاجة وافصله عند عيب توصيل أو تذبذب شديد أو سخونة غير طبيعية." },
+                    { question: "هل يأتي شاحن انكر برايم 100 واط بكابل؟", answer: "لا. يأتي بالشاحن فقط؛ ولفتح 100 واط استخدم كابل USB-C بشريحة E-marker يتحمل 5 أمبير ويناسب بروفايل USB-PD للابتوب. راجع محتويات العبوة عند الاستلام." },
                     { question: "هل يشحن هاتف سامسونج سريعاً؟", answer: "قارن بروفايل PPS المطلوب للهاتف بجدول خرج A2688 واستخدم كابلاً متوافقاً. اسم الموديل وحده لا يضمن ظهور تسمية شحن أو قدرة معينة." }
                 ]
             }

@@ -9,18 +9,20 @@ import type { ProductDetail } from './_types';
 export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Soundcore R50i Vi (A3969) is a SEPARATE MPN from A3949 (P20i/R50i/P25i) and A3959 (P30i/R50i NC). Own user guide on support.soundcore.com — do NOT copy A3949 numbers here. Battery math per A3969 SPECS: 60mAh × 2 earbuds (0.222Wh each · 0.444Wh pair) + 430mAh case (1.591Wh) = ~2.035Wh system. Inside §7.5 physics for a 10mm driver @50% — no red flag on the 10h / 30h claim.',
-            'THIS sample measured (Timer+, AAC on iPhone 15 @50%): 9h 48 min single-bud · 29h 05 min with case (−2.0% / −3.1% vs 10h / 30h — inside §7.5 B/C ±15%). Sibling refs only (not copied): retail R50i A3949 gold 9h 28 / 28h 12 · P20i gold 9h 35 / 28h 30 · P30i/R50i NC A3959 is a different MPN with ANC + ~43h case reserve.',
+            'Soundcore R50i Vi (A3969) are true-wireless earbuds with a 10mm driver, SBC/AAC and no ANC — a separate model from A3949 (P20i/R50i/P25i) and A3959 (P30i/R50i NC). We measured 9h 48min per charge and 29h 05min with the case at 50% volume (AAC).',
+            'A3969 has its own user guide on support.soundcore.com, so A3949 numbers do not apply. Battery math per A3969 SPECS: 60mAh × 2 earbuds (0.222Wh each · 0.444Wh pair) + 430mAh case (1.591Wh) = ~2.035Wh system — inside the physics for a 10mm driver @50%; no red flag on the 10h / 30h claim.',
+            'THIS sample measured (Timer+, AAC on iPhone 15 @50%): 9h 48 min single-bud · 29h 05 min with case (−2.0% / −3.1% vs 10h / 30h — inside ±15%). Sibling refs only (not copied): retail R50i A3949 gold 9h 28 / 28h 12 · P20i gold 9h 35 / 28h 30 · P30i/R50i NC A3959 is a different MPN with ANC + ~43h case reserve.',
             'Codecs are SBC + AAC only — verified via Soundcore App on iPhone 15 (AAC) and Samsung A54 (AAC default / SBC forced). No LDAC. No aptX / aptX HD / aptX Adaptive. Any listing that inherits LDAC from Liberty-tier siblings is wrong for A3969.',
-            'No ANC — passive silicone-tip isolation only (A3969 guide). CairoVolt publishes qualitative isolation notes only per §7.5 I — no invented dB. Need ANC under the “R50i” name → that is A3959 R50i NC / P30i, not this carton.',
-            'IPX5 vendor-stated (A3969 SPECS, earbuds only) — CairoVolt did NOT wet-test per §7.7 F. Bluetooth 5.3 Class 2 (NOT 5.4). Not recalled — verified anker.com/product-recalls + service.soundcore.com on 2026-07-24. Match printed A3969 before paying; knitted lanyard + L double-tap assistant are the Vi differentiators vs bare A3949.',
+            'No ANC — passive silicone-tip isolation only (A3969 guide). CairoVolt publishes qualitative isolation notes only — no invented dB. Need ANC under the “R50i” name → that is A3959 R50i NC / P30i, not this carton.',
+            'IPX5 vendor-stated (A3969 SPECS, earbuds only) — CairoVolt did NOT wet-test. Bluetooth 5.3 Class 2 (NOT 5.4). Not recalled — verified anker.com/product-recalls + service.soundcore.com on 2026-07-24. Match printed A3969 before paying; knitted lanyard + L double-tap assistant are the Vi differentiators vs bare A3949.',
         ],
         ar: [
-            'ساوندكور R50i Vi (A3969) رقم MPN منفصل عن A3949 (P20i/R50i/P25i) وعن A3959 (P30i/R50i NC). لها دليل مستخدم خاص على support.soundcore.com — لا تنسخ أرقام A3949 هنا. حساب البطارية وفق SPECS A3969: 60 مللي أمبير × 2 سماعتين (0.222Wh لكل · 0.444Wh للزوج) + علبة 430 مللي أمبير (1.591Wh) = ~2.035Wh للنظام. داخل فيزياء §7.5 لمحرك 10 ملم عند 50% — بلا علم أحمر على ادعاء 10 / 30 ساعة.',
-            'مقاس هذه العيّنة (Timer+، AAC على iPhone 15 @50%): 9 ساعات و48 دقيقة لسماعة مفردة · 29 ساعة و5 دقائق مع العلبة (−2.0% / −3.1% مقابل 10 / 30 — داخل §7.5 B/C ±15%). مراجع الأشقاء فقط (غير منسوخة): ذهب R50i تجزئة A3949 9س28 / 28س12 · ذهب P20i 9س35 / 28س30 · P30i/R50i NC A3959 MPN مختلف بـ ANC + احتياطي علبة ~43 ساعة.',
+            'ساوندكور R50i Vi (A3969) سماعات لاسلكية بمحرك 10 ملم وSBC/AAC وبلا ANC — موديل منفصل عن A3949 (P20i/R50i/P25i) وعن A3959 (P30i/R50i NC). قِسنا 9 س 48 د للشحنة و29 س 05 د مع العلبة عند 50% صوت (AAC).',
+            'لـ A3969 دليل مستخدم خاص على support.soundcore.com، فأرقام A3949 لا تنطبق عليها. حساب البطارية وفق SPECS A3969: 60 مللي أمبير × 2 سماعتين (0.222Wh لكل · 0.444Wh للزوج) + علبة 430 مللي أمبير (1.591Wh) = ~2.035Wh للنظام — داخل الفيزياء لمحرك 10 ملم عند 50%؛ بلا علم أحمر على ادعاء 10 / 30 ساعة.',
+            'مقاس هذه العيّنة (Timer+، AAC على iPhone 15 @50%): 9 ساعات و48 دقيقة لسماعة مفردة · 29 ساعة و5 دقائق مع العلبة (−2.0% / −3.1% مقابل 10 / 30 — داخل ±15%). مراجع الأشقاء فقط (غير منسوخة): ذهب R50i تجزئة A3949 9س28 / 28س12 · ذهب P20i 9س35 / 28س30 · P30i/R50i NC A3959 MPN مختلف بـ ANC + احتياطي علبة ~43 ساعة.',
             'الكودكات SBC + AAC فقط — مؤكد عبر تطبيق ساوندكور على iPhone 15 (AAC) وSamsung A54 (AAC افتراضي / SBC مجبر). لا LDAC. لا aptX / aptX HD / aptX Adaptive. أي قائمة ترث LDAC من فئة Liberty خطأ لـ A3969.',
-            'لا ANC — عزل سلبي بأطراف السيليكون فقط (دليل A3969). CairoVolt ينشر ملاحظات عزل نوعية فقط وفق §7.5 I — بلا ديسيبل مخترع. تحتاج ANC تحت اسم «R50i» → ذلك A3959 R50i NC / P30i، ليس هذه الكرتونة.',
-            'IPX5 معلن (SPECS A3969، السماعات فقط) — CairoVolt لم يختبر الماء وفق §7.7 F. Bluetooth 5.3 فئة 2 (وليس 5.4). لا استدعاء — تحقّق anker.com/product-recalls + service.soundcore.com في 2026-07-24. طابق A3969 المطبوع قبل الدفع؛ الحبل المحبوك + مساعد بنقرتين يسار هما فارق Vi مقابل A3949 العارية.',
+            'لا ANC — عزل سلبي بأطراف السيليكون فقط (دليل A3969). CairoVolt ينشر ملاحظات عزل نوعية فقط — بلا ديسيبل مخترع. تحتاج ANC تحت اسم «R50i» → ذلك A3959 R50i NC / P30i، ليس هذه الكرتونة.',
+            'IPX5 معلن (SPECS A3969، السماعات فقط) — CairoVolt لم يختبر الماء. Bluetooth 5.3 فئة 2 (وليس 5.4). لا استدعاء — تحقّق anker.com/product-recalls + service.soundcore.com في 2026-07-24. طابق A3969 المطبوع قبل الدفع؛ الحبل المحبوك + مساعد بنقرتين يسار هما فارق Vi مقابل A3949 العارية.',
         ],
     },
     localContext: {
@@ -34,14 +36,14 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
         'Battery per Earbud': { en: '60mAh × 3.7V nominal = 0.222Wh (A3969 SPECS — 60mAh × 2 earbuds)', ar: '60 مللي أمبير × 3.7 فولت اسمي = 0.222Wh (SPECS A3969 — 60 مللي أمبير × 2 سماعتين)' },
         'Battery — Charging Case': { en: '430mAh × 3.7V nominal = 1.591Wh (A3969 SPECS)', ar: '430 مللي أمبير × 3.7 فولت اسمي = 1.591Wh (SPECS A3969)' },
         'System Total Energy': { en: '~2.035Wh (2 × 0.222 + 1.591) — far below airline 100Wh threshold; always cabin-safe', ar: 'نحو 2.035Wh (2 × 0.222 + 1.591) — أقل بكثير من حد الطيران 100Wh؛ دائمًا آمن في المقصورة' },
-        'Battery physics (§7.5 / §11 red-flag)': { en: '0.222Wh ÷ 9.8h measured ≈ 22.7 mW avg single-bud draw @50% AAC — inside entry 10mm + BT 5.3 envelope (~15–30 mW). 10h / 30h claim is NOT an impossible 40h-on-40mAh class red flag.', ar: '0.222Wh ÷ 9.8س مقاسة ≈ 22.7 مللي واط سحب متوسط لسماعة مفردة @50% AAC — داخل مظروف دخول 10 ملم + BT 5.3 (~15–30 مللي واط). ادعاء 10 / 30 ساعة ليس علم أحمر من فئة 40 ساعة على 40 مللي أمبير المستحيلة.' },
+        'Battery physics (red-flag)': { en: '0.222Wh ÷ 9.8h measured ≈ 22.7 mW avg single-bud draw @50% AAC — inside entry 10mm + BT 5.3 envelope (~15–30 mW). 10h / 30h claim is NOT an impossible 40h-on-40mAh class red flag.', ar: '0.222Wh ÷ 9.8س مقاسة ≈ 22.7 مللي واط سحب متوسط لسماعة مفردة @50% AAC — داخل مظروف دخول 10 ملم + BT 5.3 (~15–30 مللي واط). ادعاء 10 / 30 ساعة ليس علم أحمر من فئة 40 ساعة على 40 مللي أمبير المستحيلة.' },
         'Bluetooth Version': { en: 'Bluetooth 5.3 (A3969 SPECS) — NOT 5.4 (A3959 P30i / R50i NC is 5.4)', ar: 'Bluetooth 5.3 (SPECS A3969) — وليس 5.4 (A3959 P30i / R50i NC هو 5.4)' },
         'Bluetooth Range (vendor)': { en: '10m / 33ft — Class 2 nominal (A3969 SPECS)', ar: '10 أمتار / 33 قدمًا — فئة 2 اسمية (SPECS A3969)' },
         'Codecs': { en: 'SBC + AAC only (verified via Soundcore App handshake). No LDAC. No aptX / aptX HD / aptX Adaptive.', ar: 'SBC + AAC فقط (مؤكد عبر مصافحة تطبيق ساوندكور). لا LDAC. لا aptX / aptX HD / aptX Adaptive.' },
         'ANC': { en: 'None — passive silicone-tip isolation only (A3969 guide). ANC lives on A3959 R50i NC / P30i, not here.', ar: 'لا يوجد — عزل سلبي بأطراف السيليكون فقط (دليل A3969). ANC موجود على A3959 R50i NC / P30i، لا هنا.' },
-        'Microphones': { en: '2 mics with AI-enhanced call clarity (vendor marketing for A3969) — CairoVolt mic notes are qualitative only per §7.5 J', ar: 'مايكين مع تعزيز AI لوضوح المكالمات (تسويق البائع لـ A3969) — ملاحظات CairoVolt نوعية فقط وفق §7.5 J' },
+        'Microphones': { en: '2 mics with AI-enhanced call clarity (vendor marketing for A3969) — CairoVolt mic notes are qualitative only', ar: 'مايكين مع تعزيز AI لوضوح المكالمات (تسويق البائع لـ A3969) — ملاحظات CairoVolt نوعية فقط' },
         'Voice Assistant': { en: 'Double-tap left bud activates phone voice assistant (A3969 controls table) — assistant depends on paired phone OS', ar: 'نقرتان على السماعة اليسرى تفعّل مساعد الهاتف (جدول تحكم A3969) — المساعد يعتمد على نظام الهاتف المقترن' },
-        'Water Resistance': { en: 'IPX5 earbuds (A3969 SPECS) — vendor-stated; CairoVolt did NOT wet-test per §7.7 F. Case is not rated. A3959 is IP54 — different SKU.', ar: 'السماعات IPX5 (SPECS A3969) — معلن من البائع؛ CairoVolt لم يختبر الماء وفق §7.7 F. العلبة بلا تصنيف. A3959 هو IP54 — SKU مختلف.' },
+        'Water Resistance': { en: 'IPX5 earbuds (A3969 SPECS) — vendor-stated; CairoVolt did NOT wet-test. Case is not rated. A3959 is IP54 — different SKU.', ar: 'السماعات IPX5 (SPECS A3969) — معلن من البائع؛ CairoVolt لم يختبر الماء. العلبة بلا تصنيف. A3959 هو IP54 — SKU مختلف.' },
         'Charging Port': { en: 'USB-C on the case (5V ⎓ 0.43A input, A3969 SPECS)', ar: 'USB-C على العلبة (دخل 5V ⎓ 0.43A، SPECS A3969)' },
         'Charging Time (vendor)': { en: 'Up to 2 hours (A3969 SPECS — single combined figure; guide does not split bud vs case)', ar: 'حتى ساعتين (SPECS A3969 — رقم موحّد؛ الدليل لا يفصل السماعة عن العلبة)' },
         'Playtime (vendor)': { en: 'Up to 10h earbuds · up to 30h total with case — varies by volume and content (A3969 SPECS)', ar: 'حتى 10 ساعات للسماعات · حتى 30 ساعة إجمالي مع العلبة — يختلف حسب الحجم والمحتوى (SPECS A3969)' },
@@ -58,7 +60,7 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
         'How A3969 differs from P40i / Liberty 4 Pro': { en: 'P40i / Liberty 4 Pro add real ANC and (per Soundcore) higher codecs / multipoint tiers. A3969 is entry passive-isolation daily wear. Do not cross-shop as equals.', ar: 'P40i / Liberty 4 Pro تضيف ANC حقيقي وكودكات/multipoint أعلى وفق ساوندكور. A3969 يومي عزل سلبي مبتدئ. لا تتسوق بينهما بالمساواة.' },
         'Recall Status': { en: 'NOT RECALLED — verified anker.com/product-recalls + service.soundcore.com on 2026-07-24. Active Anker recall families (A1257/A1263/A1647/A1652/A1681/A1689) are power banks; A3969 is not among them.', ar: 'لا يوجد استدعاء — تحقّق anker.com/product-recalls + service.soundcore.com في 2026-07-24. عائلات استدعاء انكر النشطة (A1257/A1263/A1647/A1652/A1681/A1689) باور بانك؛ A3969 ليس منها.' },
         'Warranty (vendor)': { en: 'Verify current Anker/Soundcore regional warranty + CairoVolt local store terms at purchase — do not assume A3949 Japan 18+6 months applies to A3969 ME stock', ar: 'تحقق من ضمان Anker/Soundcore الإقليمي الحالي + شروط متجر CairoVolt المحلية عند الشراء — لا تفترض أن 18+6 أشهر اليابان لـ A3949 تنطبق على مخزون A3969 للشرق الأوسط' },
-        'Protocol': { en: 'CairoVolt Bench Test Protocol §7.5 (earbuds) + §8 physics gates + §11 red-flag checklist', ar: 'بروتوكول اختبار كايرو فولت §7.5 (سماعات) + بوابات الفيزياء §8 + قائمة الأعلام الحمراء §11' },
+        'Protocol': { en: 'CairoVolt Bench Test Protocol (earbuds) + physics gates + red-flag checklist', ar: 'بروتوكول اختبار كايرو فولت (سماعات) + بوابات الفيزياء + قائمة الأعلام الحمراء' },
     },
     benchTest: {
         sku: 'A3969',
@@ -66,12 +68,12 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
         testDate: '2026-07-24',
         engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
         conditions: {
-            en: 'One retail-stock Soundcore R50i Vi A3969 unit (black A3969D11 carton) · sample tag CV-EB-A3969-001 · CairoVolt lab, New Cairo · ambient 28.7°C (HTC-2) · humidity 41% RH · mains 220V (UT61E) — mains only used to charge phones/case source · reference phones iPhone 15 (battery health 92%) + Samsung Galaxy A54 (battery health 96%) both paired to Soundcore App latest firmware · case recharged over generic USB-A → USB-C 3A cable · lab noise floor subjective only — no calibrated SPL/dB meter present · Cairo apartment + open balcony used for §7.5 H tape-measured BT walk · treated as DISTINCT stopwatch sample from A3949 family (CV-EB-A3949-R50I-001 / CV-EB-A3949Z11-001) and A3959 (CV-EB-A3959-001)',
-            ar: 'وحدة تجزئة واحدة Soundcore R50i Vi A3969 (كرتونة سوداء A3969D11) · وسم العيّنة CV-EB-A3969-001 · مختبر CairoVolt، القاهرة الجديدة · محيط 28.7°م (HTC-2) · رطوبة 41% · جهد الحائط 220 فولت (UT61E) — الحائط فقط لشحن مصدر الهواتف/العلبة · هواتف مرجعية iPhone 15 (صحة بطارية 92%) + Samsung Galaxy A54 (صحة بطارية 96%) مقرونان بأحدث فيرموير تطبيق ساوندكور · إعادة شحن العلبة عبر كابل USB-A → USB-C 3A عام · أرضية ضوضاء المختبر شخصية فقط — لا مقياس SPL/ديسيبل معاير · شقة قاهرة + شرفة مفتوحة للمسير المقاس بشريط لـ BT وفق §7.5 H · عُوملت كعيّنة ساعة إيقاف منفصلة عن عائلة A3949 (CV-EB-A3949-R50I-001 / CV-EB-A3949Z11-001) وعن A3959 (CV-EB-A3959-001)',
+            en: 'One retail-stock Soundcore R50i Vi A3969 unit (black A3969D11 carton) · sample tag CV-EB-A3969-001 · CairoVolt lab, New Cairo · ambient 28.7°C (HTC-2) · humidity 41% RH · mains 220V (UT61E) — mains only used to charge phones/case source · reference phones iPhone 15 (battery health 92%) + Samsung Galaxy A54 (battery health 96%) both paired to Soundcore App latest firmware · case recharged over generic USB-A → USB-C 3A cable · lab noise floor subjective only — no calibrated SPL/dB meter present · Cairo apartment + open balcony used for the tape-measured BT walk · treated as DISTINCT stopwatch sample from A3949 family (CV-EB-A3949-R50I-001 / CV-EB-A3949Z11-001) and A3959 (CV-EB-A3959-001)',
+            ar: 'وحدة تجزئة واحدة Soundcore R50i Vi A3969 (كرتونة سوداء A3969D11) · وسم العيّنة CV-EB-A3969-001 · مختبر CairoVolt، القاهرة الجديدة · محيط 28.7°م (HTC-2) · رطوبة 41% · جهد الحائط 220 فولت (UT61E) — الحائط فقط لشحن مصدر الهواتف/العلبة · هواتف مرجعية iPhone 15 (صحة بطارية 92%) + Samsung Galaxy A54 (صحة بطارية 96%) مقرونان بأحدث فيرموير تطبيق ساوندكور · إعادة شحن العلبة عبر كابل USB-A → USB-C 3A عام · أرضية ضوضاء المختبر شخصية فقط — لا مقياس SPL/ديسيبل معاير · شقة قاهرة + شرفة مفتوحة للمسير المقاس بشريط لـ BT · عُوملت كعيّنة ساعة إيقاف منفصلة عن عائلة A3949 (CV-EB-A3949-R50I-001 / CV-EB-A3949Z11-001) وعن A3959 (CV-EB-A3959-001)',
         },
         methodology: {
-            en: 'ELEVATED §7.5 A–L gold deepen for A3969 (R50i Vi), sample CV-EB-A3969-001, 2026-07-24 — Wave Adj/Mid. CRITICAL protocol: stopwatch THIS sealed A3969 sample — do NOT copy retail R50i A3949 9h28/28h12, P20i 9h35/28h30, or P30i/R50i NC A3959 9h41/~43h rows. Sibling figures appear only in A/B disclosure rows. Battery SPECS confirmed to official R50i VI User Guide PDF on support.soundcore.com (60mAh×2 / 430mAh case / 5V⎓0.43A / 10h·30h / BT 5.3 / IPX5) — NOT the A3949 shared guide. Preserved measured truths from the first protocol-grade pass (weights 4.6g / 46.1g / 55.3g, USB-C ~5V/0.42A/~2.1W, runtimes 9h48 / 5h35 / 29h05, QC yield 1h55). This deepen adds ladder hygiene vs A3949/A3959, battery Wh physics + §11 red-flag audit, airline cabin note, and naming-trap honesty. (1) Weighed each bud + case alone on Kkmoon 0.01g; case mm on steel tape. (2) Full-charged buds + case, rested 20 min. (3) Playback stopwatch at 50% volume: Spotify mixed pop/podcast on iPhone 15 (AAC confirmed in Soundcore App), single-bud left until auto power-off — Timer+. (4) Repeated at 100% volume with BassUp-style default EQ preset to reveal DSP tax. (5) Full case + full buds run with re-dock cycles until system exhausted per §7.5 C. (6) Case charge time 0→100% USB-C from Anker A2147 30W wall (drew only ~5V/0.42A ≈ 2.1W — case is a 5V input device per A3969 SPECS 5V/0.43A; PD irrelevant). (7) Bud charge time 0→100% inside case. (8) Quick-charge yield: 10 min inside a fully-drained case → play until auto-off (yield tested even though 10 min→2h is marketing-listed, not in A3969 SPECS block). (9) BT walk per §7.5 H — iPhone 15 in kitchen, tape until first audible glitch, then balcony open air. (10) Multipoint attempt: leave paired to iPhone 15, initiate pair from Samsung A54. (11) ANC = None — QUALITATIVE isolation notes only in café / main-road / metro platform per §7.5 I; no dB fabricated (§11.3). (12) Mic quality: WhatsApp 60s in (a) quiet lab, (b) Ring Road service mid-traffic, (c) Careem sedan windows-up AC-on ~60 km/h — qualitative only, no SNR per §7.5 J / §11.3. (13) Codecs verified twice via Soundcore App developer panel — iPhone 15 AAC + Samsung A54 AAC/SBC force. (14) Latency qualitative only per §7.5 L — YouTube + PUBG Mobile game-mode on/off; NO ms. Independent corroboration (not our data): support.soundcore.com R50i VI User Guide A3969 SPECS PDF; Anker-brand A3969 retail sheets for weight/case mm/quick-charge marketing. Recall check: anker.com/product-recalls + service.soundcore.com on 2026-07-24 — A3969 not listed. Explicit non-measurements: (a) no calibrated SPL/dB meter — isolation/mic notes are bilingual prose only; (b) no A/V sync tester — latency subjective; (c) no wet-test — IPX5 vendor-stated only; (d) no RTINGS/SoundGuys page for A3969 at test time — we did NOT invent substitute numbers; (e) single unit; production batches may vary.',
-            ar: 'تعميق ذهب §7.5 A–L لـ A3969 (R50i Vi)، عيّنة CV-EB-A3969-001، 2026-07-24 — Wave Adj/Mid. بروتوكول حرج: ساعة إيقاف على عيّنة A3969 هذه المغلقة — لا تنسخ صفوف R50i تجزئة A3949 9س28/28س12 أو P20i 9س35/28س30 أو P30i/R50i NC A3959 9س41/~43س. أرقام الأشقاء تظهر فقط في صفوف إفصاح أ/ب. مواصفات البطارية مؤكَّدة إلى PDF دليل R50i VI الرسمي على support.soundcore.com (60 مللي أمبير×2 / علبة 430 / 5V⎓0.43A / 10س·30س / BT 5.3 / IPX5) — وليس دليل A3949 المشترك. الحقائق المقاسة من المرور البروتوكولي الأول محفوظة (أوزان 4.6 / 46.1 / 55.3 جم، USB-C ~5V/0.42A/~2.1 واط، أزمنة 9س48 / 5س35 / 29س05، عائد شحن سريع 1س55). هذا التعميق يضيف نظافة السلم مقابل A3949/A3959 وفيزياء Wh البطارية + تدقيق علم أحمر §11 وملاحظة المقصورة وصدق فخ التسمية. (1) وزن كل سماعة + العلبة وحدها على Kkmoon 0.01g؛ أبعاد العلبة بشريط فولاذي. (2) شحن كامل + راحة 20 دقيقة. (3) ساعة إيقاف عند 50% حجم: Spotify مختلط على iPhone 15 (AAC مؤكد في التطبيق)، سماعة يسار حتى الإطفاء — Timer+. (4) أُعيدت عند 100% حجم مع بريست EQ افتراضي لكشف ضريبة DSP. (5) شغل كامل مع دورات إرجاع للعلبة حتى استنفاد النظام وفق §7.5 C. (6) زمن شحن العلبة 0→100% USB-C من Anker A2147 30 واط (سحب فقط ~5V/0.42A ≈ 2.1 واط — العلبة جهاز دخل 5V وفق SPECS A3969 5V/0.43A؛ PD غير ذي صلة). (7) زمن شحن السماعة 0→100% داخل العلبة. (8) عائد الشحن السريع: 10 دقائق داخل علبة مستنفدة → تشغيل حتى الإطفاء. (9) مسير BT وفق §7.5 H — مطبخ ثم شرفة. (10) محاولة multipoint: iPhone 15 ثم Samsung A54. (11) ANC = لا — ملاحظات عزل نوعية فقط (كافيه / طريق / مترو) وفق §7.5 I؛ بلا ديسيبل (§11.3). (12) جودة المايك: واتساب 60 ثانية في مختبر / طريق دائري / كريم — نوعي فقط بلا SNR وفق §7.5 J / §11.3. (13) الكودكات مرتين عبر لوحة مطوّر التطبيق. (14) التأخير نوعي فقط وفق §7.5 L — يوتيوب + PUBG؛ بلا ms. للاسترجاع المستقل: PDF دليل R50i VI A3969 على support.soundcore.com؛ أوراق تجزئة Anker لـ A3969. فحص الاستدعاء: anker.com/product-recalls + service.soundcore.com في 2026-07-24 — A3969 غير مدرج. عدم قياسات صريحة: (أ) لا مقياس SPL؛ (ب) لا مقياس تزامن صوت-صورة؛ (ج) لا اختبار ماء؛ (د) لا صفحة RTINGS/SoundGuys لـ A3969 وقت الاختبار — لم نخترع أرقامًا؛ (هـ) وحدة واحدة؛ الدفعات قد تختلف.',
+            en: 'ELEVATED gold deepen for A3969 (R50i Vi), sample CV-EB-A3969-001, 2026-07-24 — Wave Adj/Mid. CRITICAL protocol: stopwatch THIS sealed A3969 sample — do NOT copy retail R50i A3949 9h28/28h12, P20i 9h35/28h30, or P30i/R50i NC A3959 9h41/~43h rows. Sibling figures appear only in A/B disclosure rows. Battery SPECS confirmed to official R50i VI User Guide PDF on support.soundcore.com (60mAh×2 / 430mAh case / 5V⎓0.43A / 10h·30h / BT 5.3 / IPX5) — NOT the A3949 shared guide. Preserved measured truths from the first protocol-grade pass (weights 4.6g / 46.1g / 55.3g, USB-C ~5V/0.42A/~2.1W, runtimes 9h48 / 5h35 / 29h05, QC yield 1h55). This deepen adds ladder hygiene vs A3949/A3959, battery Wh physics + red-flag audit, airline cabin note, and naming-trap honesty. (1) Weighed each bud + case alone on Kkmoon 0.01g; case mm on steel tape. (2) Full-charged buds + case, rested 20 min. (3) Playback stopwatch at 50% volume: Spotify mixed pop/podcast on iPhone 15 (AAC confirmed in Soundcore App), single-bud left until auto power-off — Timer+. (4) Repeated at 100% volume with BassUp-style default EQ preset to reveal DSP tax. (5) Full case + full buds run with re-dock cycles until system exhausted. (6) Case charge time 0→100% USB-C from Anker A2147 30W wall (drew only ~5V/0.42A ≈ 2.1W — case is a 5V input device per A3969 SPECS 5V/0.43A; PD irrelevant). (7) Bud charge time 0→100% inside case. (8) Quick-charge yield: 10 min inside a fully-drained case → play until auto-off (yield tested even though 10 min→2h is marketing-listed, not in A3969 SPECS block). (9) BT walk — iPhone 15 in kitchen, tape until first audible glitch, then balcony open air. (10) Multipoint attempt: leave paired to iPhone 15, initiate pair from Samsung A54. (11) ANC = None — QUALITATIVE isolation notes only in café / main-road / metro platform; no dB fabricated. (12) Mic quality: WhatsApp 60s in (a) quiet lab, (b) Ring Road service mid-traffic, (c) Careem sedan windows-up AC-on ~60 km/h — qualitative only, no SNR. (13) Codecs verified twice via Soundcore App developer panel — iPhone 15 AAC + Samsung A54 AAC/SBC force. (14) Latency qualitative only — YouTube + PUBG Mobile game-mode on/off; NO ms. Independent corroboration (not our data): support.soundcore.com R50i VI User Guide A3969 SPECS PDF; Anker-brand A3969 retail sheets for weight/case mm/quick-charge marketing. Recall check: anker.com/product-recalls + service.soundcore.com on 2026-07-24 — A3969 not listed. Explicit non-measurements: (a) no calibrated SPL/dB meter — isolation/mic notes are bilingual prose only; (b) no A/V sync tester — latency subjective; (c) no wet-test — IPX5 vendor-stated only; (d) no RTINGS/SoundGuys page for A3969 at test time — we did NOT invent substitute numbers; (e) single unit; production batches may vary.',
+            ar: 'تعميق ذهب لـ A3969 (R50i Vi)، عيّنة CV-EB-A3969-001، 2026-07-24 — Wave Adj/Mid. بروتوكول حرج: ساعة إيقاف على عيّنة A3969 هذه المغلقة — لا تنسخ صفوف R50i تجزئة A3949 9س28/28س12 أو P20i 9س35/28س30 أو P30i/R50i NC A3959 9س41/~43س. أرقام الأشقاء تظهر فقط في صفوف إفصاح أ/ب. مواصفات البطارية مؤكَّدة إلى PDF دليل R50i VI الرسمي على support.soundcore.com (60 مللي أمبير×2 / علبة 430 / 5V⎓0.43A / 10س·30س / BT 5.3 / IPX5) — وليس دليل A3949 المشترك. الحقائق المقاسة من المرور البروتوكولي الأول محفوظة (أوزان 4.6 / 46.1 / 55.3 جم، USB-C ~5V/0.42A/~2.1 واط، أزمنة 9س48 / 5س35 / 29س05، عائد شحن سريع 1س55). هذا التعميق يضيف نظافة السلم مقابل A3949/A3959 وفيزياء Wh البطارية + تدقيق علم أحمر وملاحظة المقصورة وصدق فخ التسمية. (1) وزن كل سماعة + العلبة وحدها على Kkmoon 0.01g؛ أبعاد العلبة بشريط فولاذي. (2) شحن كامل + راحة 20 دقيقة. (3) ساعة إيقاف عند 50% حجم: Spotify مختلط على iPhone 15 (AAC مؤكد في التطبيق)، سماعة يسار حتى الإطفاء — Timer+. (4) أُعيدت عند 100% حجم مع بريست EQ افتراضي لكشف ضريبة DSP. (5) شغل كامل مع دورات إرجاع للعلبة حتى استنفاد النظام. (6) زمن شحن العلبة 0→100% USB-C من Anker A2147 30 واط (سحب فقط ~5V/0.42A ≈ 2.1 واط — العلبة جهاز دخل 5V وفق SPECS A3969 5V/0.43A؛ PD غير ذي صلة). (7) زمن شحن السماعة 0→100% داخل العلبة. (8) عائد الشحن السريع: 10 دقائق داخل علبة مستنفدة → تشغيل حتى الإطفاء. (9) مسير BT — مطبخ ثم شرفة. (10) محاولة multipoint: iPhone 15 ثم Samsung A54. (11) ANC = لا — ملاحظات عزل نوعية فقط (كافيه / طريق / مترو)؛ بلا ديسيبل. (12) جودة المايك: واتساب 60 ثانية في مختبر / طريق دائري / كريم — نوعي فقط بلا SNR. (13) الكودكات مرتين عبر لوحة مطوّر التطبيق. (14) التأخير نوعي فقط — يوتيوب + PUBG؛ بلا ms. للاسترجاع المستقل: PDF دليل R50i VI A3969 على support.soundcore.com؛ أوراق تجزئة Anker لـ A3969. فحص الاستدعاء: anker.com/product-recalls + service.soundcore.com في 2026-07-24 — A3969 غير مدرج. عدم قياسات صريحة: (أ) لا مقياس SPL؛ (ب) لا مقياس تزامن صوت-صورة؛ (ج) لا اختبار ماء؛ (د) لا صفحة RTINGS/SoundGuys لـ A3969 وقت الاختبار — لم نخترع أرقامًا؛ (هـ) وحدة واحدة؛ الدفعات قد تختلف.',
         },
         equipment: [
             {
@@ -106,7 +108,7 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
 
                 name: 'Fiberglass 5m tape measure',
 
-                use: { en: '§7.5 H BT range walk (indoor apartment + open balcony)', ar: 'مسير مدى BT وفق §7.5 H (شقة داخلية + شرفة مفتوحة)' },
+                use: { en: 'BT range walk (indoor apartment + open balcony)', ar: 'مسير مدى BT (شقة داخلية + شرفة مفتوحة)' },
 
             },
             {
@@ -127,7 +129,7 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
 
                 name: 'Timer app (Timer+) + written log',
 
-                use: { en: 'Playtime and charge-time stopwatch per §7.5 B–F', ar: 'ساعة إيقاف زمن التشغيل والشحن وفق §7.5 B–F' },
+                use: { en: 'Playtime and charge-time stopwatch', ar: 'ساعة إيقاف زمن التشغيل والشحن' },
 
             },
             {
@@ -168,13 +170,13 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
                param: { en: 'Wh consistency / battery physics (red-flag audit)', ar: 'اتساق Wh / فيزياء البطارية (تدقيق علم أحمر)' },
                rated: { en: '10h / 30h vendor @50%', ar: '10س / 30س بائع @50%' },
                measured: { en: '0.222Wh ÷ 9.8h ≈ 22.7 mW avg single-bud — PASS entry TWS envelope; claim NOT impossible-class', ar: '0.222Wh ÷ 9.8س ≈ 22.7 مللي واط متوسط سماعة — نجاح مظروف TWS دخول؛ الادعاء ليس فئة مستحيلة' },
-               note: { en: '§7.5 battery consistency + §11.1 data-consistency gate — no red flag', ar: 'اتساق بطارية §7.5 + بوابة اتساق بيانات §11.1 — بلا علم أحمر' },
+               note: { en: 'Battery consistency + data-consistency gate — no red flag', ar: 'اتساق بطارية + بوابة اتساق بيانات — بلا علم أحمر' },
             },
             {
                param: { en: 'Playtime @ 50% volume — single-bud left (THIS A3969)', ar: 'زمن التشغيل @ 50% حجم — سماعة يسار مفردة (A3969 هذه)' },
                rated: 'up to 10h',
                measured: '9h 48 min',
-               note: { en: 'Timer+ stopwatch, AAC on iPhone 15; −2.0% vs rated — inside §7.5 B ±15% · NOT copied from A3949 9h28 / A3959 9h41', ar: 'ساعة إيقاف Timer+، AAC على iPhone 15؛ −2.0% مقابل الاسمي — داخل نطاق §7.5 B ±15% · غير منسوخ من A3949 9س28 / A3959 9س41' },
+               note: { en: 'Timer+ stopwatch, AAC on iPhone 15; −2.0% vs rated — inside ±15% · NOT copied from A3949 9h28 / A3959 9h41', ar: 'ساعة إيقاف Timer+، AAC على iPhone 15؛ −2.0% مقابل الاسمي — داخل نطاق ±15% · غير منسوخ من A3949 9س28 / A3959 9س41' },
             },
             {
                param: { en: 'Playtime @ 100% volume — default bass-leaning EQ', ar: 'زمن التشغيل @ 100% حجم — EQ باس افتراضي' },
@@ -185,7 +187,7 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
                param: { en: 'Total system playtime with case @ 50% volume', ar: 'إجمالي تشغيل النظام مع العلبة @ 50% حجم' },
                rated: 'up to 30h',
                measured: '29h 05 min',
-               note: { en: '−3.1% vs rated — inside §7.5 C ±15% · NOT copied from A3949 28h12 / A3959 ~43h', ar: '−3.1% مقابل الاسمي — داخل نطاق §7.5 C ±15% · غير منسوخ من A3949 28س12 / A3959 ~43س' },
+               note: { en: '−3.1% vs rated — inside ±15% · NOT copied from A3949 28h12 / A3959 ~43h', ar: '−3.1% مقابل الاسمي — داخل نطاق ±15% · غير منسوخ من A3949 28س12 / A3959 ~43س' },
             },
             {
                param: { en: 'Bud charge time 0→100% (inside case)', ar: 'زمن شحن السماعة 0→100% (داخل العلبة)' },
@@ -203,18 +205,18 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
                param: { en: 'Quick-charge yield: 10 min → playback', ar: 'عائد الشحن السريع: 10 دقائق → تشغيل' },
                rated: 'up to 2h (retail marketing)',
                measured: '1h 55 min',
-               note: { en: '−4% vs marketing claim — inside §7.5 F ±20%; claim not in A3969 SPECS block', ar: '−4% مقابل الادعاء التسويقي — داخل §7.5 F ±20%؛ الادعاء غير موجود في كتلة SPECS A3969' },
+               note: { en: '−4% vs marketing claim — inside ±20%; claim not in A3969 SPECS block', ar: '−4% مقابل الادعاء التسويقي — داخل ±20%؛ الادعاء غير موجود في كتلة SPECS A3969' },
             },
             {
                param: { en: 'BT range indoor (Cairo apartment, thin walls)', ar: 'مدى BT داخلي (شقة قاهرة، حوائط رفيعة)' },
                rated: '10m nominal (Class 2)',
                measured: '10m tape before first audible glitch',
-               note: { en: 'iPhone 15 kitchen walk; inside §7.5 / §8 physics 8–12m Class 2 apartment window', ar: 'مشي مطبخ iPhone 15؛ داخل نافذة فيزياء §7.5 / §8 لفئة 2 في الشقة 8–12 مترًا' },
+               note: { en: 'iPhone 15 kitchen walk; inside the physics 8–12m Class 2 apartment window', ar: 'مشي مطبخ iPhone 15؛ داخل نافذة فيزياء لفئة 2 في الشقة 8–12 مترًا' },
             },
             {
                param: { en: 'BT range outdoor (open balcony, line-of-sight)', ar: 'مدى BT خارجي (شرفة مفتوحة، خط رؤية)' },
                measured: '20m tape before first glitch',
-               note: { en: 'inside §7.5 / §8 physics 15–25m Class 2 open-air window', ar: 'داخل نافذة فيزياء §7.5 / §8 لفئة 2 في الهواء المفتوح 15–25 مترًا' },
+               note: { en: 'inside the physics 15–25m Class 2 open-air window', ar: 'داخل نافذة فيزياء لفئة 2 في الهواء المفتوح 15–25 مترًا' },
             },
             {
                param: { en: 'Multipoint (simultaneous dual host)', ar: 'multipoint (استضافة مزدوجة متزامنة)' },
@@ -232,23 +234,23 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
                param: { en: 'ANC', ar: 'ANC' },
                rated: 'None (passive)',
                measured: { en: 'None — passive silicone-tip isolation only; qualitative: café HVAC hum softens; main-road traffic and metro brake screech still clearly audible', ar: 'لا يوجد — عزل سلبي بأطراف السيليكون فقط؛ نوعي: هدير تكييف الكافيه يخف؛ مرور الطريق الرئيسي وصرير فرامل المترو ما زالا مسموعين بوضوح' },
-               note: { en: 'no dB fabricated per §7.5 I / §11.3 red flag — ANC belongs to A3959, not A3969', ar: 'بلا اختراع ديسيبل وفق §7.5 I / علم أحمر §11.3 — ANC يخص A3959 لا A3969' },
+               note: { en: 'no dB fabricated red flag — ANC belongs to A3959, not A3969', ar: 'بلا اختراع ديسيبل / علم أحمر — ANC يخص A3959 لا A3969' },
             },
             {
                param: { en: 'IPX rating', ar: 'تصنيف IPX' },
                rated: 'IPX5 (vendor)',
-               measured: { en: 'NOT WET-TESTED per §7.7 F rule — trust vendor label on box; do not swim/shower', ar: 'لم نختبر الماء وفق قاعدة §7.7 F — ثق بملصق البائع على العلبة؛ لا سباحة/دش' },
+               measured: { en: 'NOT WET-TESTED — trust vendor label on box; do not swim/shower', ar: 'لم نختبر الماء — ثق بملصق البائع على العلبة؛ لا سباحة/دش' },
                note: { en: 'A3969 SPECS — earbuds only; case unrated', ar: 'SPECS A3969 — السماعات فقط؛ العلبة بلا تصنيف' },
             },
             {
-               param: { en: 'Latency (qualitative only per §7.5 L)', ar: 'التأخير (نوعي فقط وفق §7.5 L)' },
+               param: { en: 'Latency (qualitative only)', ar: 'التأخير (نوعي فقط)' },
                measured: { en: 'YouTube: no audible A/V drift. PUBG Mobile with Game Mode ON: acceptable for casual play. Game Mode OFF: noticeable lip-sync lag.', ar: 'يوتيوب: لا انحراف صوت-صورة مسموع. PUBG Mobile مع وضع الألعاب مفعل: مقبول للعب عادي. وضع الألعاب متوقف: تأخير مزامنة شفاه ملحوظ.' },
-               note: { en: 'no ms number — §11.3 red-line; no A/V sync tester', ar: 'بلا رقم ms — خط أحمر §11.3؛ لا مقياس تزامن صوت-صورة' },
+               note: { en: 'no ms number — red-line; no A/V sync tester', ar: 'بلا رقم ms — خط أحمر؛ لا مقياس تزامن صوت-صورة' },
             },
             {
-               param: { en: 'Mic quality (qualitative only per §7.5 J)', ar: 'جودة المايك (نوعي فقط وفق §7.5 J)' },
+               param: { en: 'Mic quality (qualitative only)', ar: 'جودة المايك (نوعي فقط)' },
                measured: { en: '(a) quiet lab: voice clear and natural; (b) Ring Road service road mid-traffic: voice intelligible, traffic bleeds in background; (c) Careem sedan windows-up ~60 km/h AC-on: voice clear, road hum present but not masking.', ar: '(أ) مختبر هادئ: صوت واضح وطبيعي؛ (ب) خدمة الطريق الدائري بمرور متوسط: صوت مفهوم، المرور يظهر في الخلفية؛ (ج) كريم سيدان بنوافذ مغلقة وتكييف ~60 كم/س: صوت واضح، هدير الطريق حاضر لكن لا يحجب.' },
-               note: { en: 'no SNR number — §11.3 red-line; AI 2-mic claim left as vendor marketing', ar: 'بلا رقم SNR — خط أحمر §11.3؛ ادعاء AI بمايكين بقي كتسويق بائع' },
+               note: { en: 'no SNR number — red-line; AI 2-mic claim left as vendor marketing', ar: 'بلا رقم SNR — خط أحمر؛ ادعاء AI بمايكين بقي كتسويق بائع' },
             },
             {
                param: { en: 'Voice-assistant control (A3969 map)', ar: 'تحكم المساعد الصوتي (خريطة A3969)' },
@@ -296,9 +298,9 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
                note: { en: 'citation only — CV-EB-A3959-001 owns P30i / R50i NC numbers', ar: 'استشهاد فقط — CV-EB-A3959-001 يملك أرقام P30i / R50i NC' },
             },
             {
-               param: { en: '§11 red-flag gate (pre-publication)', ar: 'بوابة علم أحمر §11 (قبل النشر)' },
+               param: { en: 'Red-flag gate (pre-publication)', ar: 'بوابة علم أحمر (قبل النشر)' },
                measured: { en: 'PASS — no invented dB/ms/SNR; measured rows attributed; single-unit disclosed; Wh physics consistent; recall checked 2026-07-24; Omar signed', ar: 'نجاح — بلا ديسيبل/ms/SNR مخترع؛ الصفوف المقاسة منسوبة؛ وحدة واحدة مُفصح عنها؛ فيزياء Wh متسقة؛ الاستدعاء فُحص 2026-07-24؛ عمر وقّع' },
-               note: { en: '§11.1–11.5 checklist cleared for this sheet', ar: 'قائمة §11.1–11.5 مُجتازة لهذه الورقة' },
+               note: { en: 'Checklist cleared for this sheet', ar: 'قائمة مُجتازة لهذه الورقة' },
             },
             {
                param: { en: 'Recall status (verified 2026-07-24)', ar: 'حالة الاستدعاء (متحققة 2026-07-24)' },
@@ -320,9 +322,9 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
             },
             {
 
-                en: '29h 05min measured system total — inside §7.5 C ±15%; covers a full week of ~2h/day metro or gym',
+                en: '29h 05min measured system total — inside ±15%; covers a full week of ~2h/day metro or gym',
 
-                ar: '29 ساعة و5 دقائق إجمالي مقاس — داخل §7.5 C ±15%؛ يغطي أسبوعًا كاملًا بمعدل ~2 ساعة/يوم مترو أو صالة',
+                ar: '29 ساعة و5 دقائق إجمالي مقاس — داخل ±15%؛ يغطي أسبوعًا كاملًا بمعدل ~2 ساعة/يوم مترو أو صالة',
 
             },
             {
@@ -341,16 +343,16 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
             },
             {
 
-                en: 'Quick-charge yield 1h 55min from 10 min dock — inside §7.5 F ±20% of 2h marketing claim',
+                en: 'Quick-charge yield 1h 55min from 10 min dock — inside ±20% of 2h marketing claim',
 
-                ar: 'عائد شحن سريع 1 ساعة و55 دقيقة من 10 دقائق إرجاع — داخل §7.5 F ±20% من الادعاء التسويقي ساعتين',
+                ar: 'عائد شحن سريع 1 ساعة و55 دقيقة من 10 دقائق إرجاع — داخل ±20% من الادعاء التسويقي ساعتين',
 
             },
             {
 
-                en: 'BT link stayed clean at 10m indoor and 20m outdoor tape-measured — inside Class 2 §7.5 physics window',
+                en: 'BT link stayed clean at 10m indoor and 20m outdoor tape-measured — inside Class 2 physics window',
 
-                ar: 'رابط BT بقي نظيفًا عند 10 أمتار داخلي و20 مترًا خارجي بشريط قياس — داخل نافذة فيزياء §7.5 لفئة 2',
+                ar: 'رابط BT بقي نظيفًا عند 10 أمتار داخلي و20 مترًا خارجي بشريط قياس — داخل نافذة فيزياء لفئة 2',
 
             },
             {
@@ -413,16 +415,16 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
             },
             {
 
-                en: 'IPX5 is vendor-stated only — CairoVolt did NOT wet-test per §7.7 F. No swimming, no shower, no submersion. Case is not rated.',
+                en: 'IPX5 is vendor-stated only — CairoVolt did NOT wet-test. No swimming, no shower, no submersion. Case is not rated.',
 
-                ar: 'IPX5 معلن من البائع فقط — CairoVolt لم يختبر الماء وفق §7.7 F. لا سباحة، لا دش، لا غمر. العلبة بلا تصنيف.',
+                ar: 'IPX5 معلن من البائع فقط — CairoVolt لم يختبر الماء. لا سباحة، لا دش، لا غمر. العلبة بلا تصنيف.',
 
             },
             {
 
-                en: '10 min → 2h quick-charge is retail marketing for A3969 — not printed in the official A3969 SPECS block. Measured yield was 1h 55min (inside §7.5 F ±20%). Single unit — batches may vary; isolation/mic notes are qualitative bilingual prose only (no invented dB/SNR/ms per §11.3).',
+                en: '10 min → 2h quick-charge is retail marketing for A3969 — not printed in the official A3969 SPECS block. Measured yield was 1h 55min (inside ±20%). Single unit — batches may vary; isolation/mic notes are qualitative bilingual prose only (no invented dB/SNR/ms).',
 
-                ar: 'شحن سريع 10 دقائق → ساعتان تسويق تجزئة لـ A3969 — غير مطبوع في كتلة SPECS الرسمية. العائد المقاس 1 ساعة و55 دقيقة (داخل §7.5 F ±20%). وحدة واحدة — الدفعات قد تختلف؛ ملاحظات العزل/المايك نثر ثنائي اللغة نوعي فقط (بلا اختراع dB/SNR/ms وفق §11.3).',
+                ar: 'شحن سريع 10 دقائق → ساعتان تسويق تجزئة لـ A3969 — غير مطبوع في كتلة SPECS الرسمية. العائد المقاس 1 ساعة و55 دقيقة (داخل ±20%). وحدة واحدة — الدفعات قد تختلف؛ ملاحظات العزل/المايك نثر ثنائي اللغة نوعي فقط (بلا اختراع dB/SNR/ms).',
 
             },
         ],

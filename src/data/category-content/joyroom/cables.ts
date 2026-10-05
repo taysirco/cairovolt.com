@@ -6,22 +6,22 @@ export const joyroom_cables_content: CategoryContent = {
             categoryName: 'Cables',
             metadata: {
                 en: {
-                    title: 'Joyroom Cable Egypt | USB-C PD, Lightning and Auto-Disconnect',
-                    description: 'Compare Joyroom cables by connector, rated power, data support, braiding, and Auto-Disconnect on listed models. Current price and CairoVolt warranty are shown per product.',
+                    title: 'Joyroom Cable Egypt | USB-C PD and Lightning',
+                    description: 'Compare Joyroom cables by connector, rated power, data support, and braiding — USB-C to Lightning, USB-C to USB-C, USB-A, and 3-in-1. Current price and CairoVolt warranty are shown per product.',
                     keywords: 'جوي روم cable, جوي روم USB-C cable, جوي روم lightning cable, جوي روم 100W cable, cable egypt, جوي روم auto disconnect, كابل جوي روم, جوي روم cable price egypt',
                 },
                 ar: {
-                    title: 'كابل جوي روم مصر | USB-C PD وLightning وفصل تلقائي',
-                    description: 'قارن كابلات جوي روم حسب الموصل والقدرة المقننة ونقل البيانات والتضفير والفصل التلقائي في الموديلات الداعمة. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
+                    title: 'كابل جوي روم مصر | USB-C PD وLightning',
+                    description: 'قارن كابلات جوي روم حسب الموصل والقدرة المقننة ونقل البيانات والتضفير — USB-C إلى Lightning وUSB-C إلى USB-C وUSB-A و3 في 1. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
                     keywords: 'كابل جوي روم, وصلة جيروم, سعر كابل جوي روم, كابل USB-C PD, كابل شحن سريع, كابل تايب سي 100 واط, وصلة شاحن ايفون مصر',
                 }
             },
             pageContent: {
                 ar: {
                     title: 'كابلات جوي روم للشحن ونقل البيانات',
-                    subtitle: 'اختر الموصل والقدرة وميزة الفصل التلقائي حسب الموديل',
+                    subtitle: 'اختر الموصل والقدرة ونقل البيانات حسب الموديل',
                     description: `
-      يذكر موديل جوي روم S-M411 ميزة **الفصل التلقائي** وفق مواصفات المنتج، بينما تختلف الميزة والقدرة ودعم نقل البيانات بين بقية الكابلات. راجع متطلبات هاتفك وشاحنك قبل الشراء.
+      كابلات شحن **جوي روم** — أو «وصلة شاحن جوي روم» زي ما بنقول في مصر — متاحة هنا بموصلات USB-C إلى Lightning وUSB-C إلى USB-C وUSB-A إلى Lightning أو USB-C أو Micro-USB، بالإضافة إلى كابل 3 في 1. القدرة المعلنة ودعم نقل البيانات والتضفير تختلف بين الموديلات، فراجع متطلبات هاتفك وشاحنك قبل الشراء.
 
       **قارن المتانة والتكلفة بوضوح:**
       راجع خامة الغلاف والموصلات وتقييم الثني المعلن وضمان كايرو فولت لكل موديل. السعر الحالي يظهر في صفحة المنتج، والعمر الفعلي يعتمد على الاستخدام والثني والتخزين.
@@ -30,7 +30,6 @@ export const joyroom_cables_content: CategoryContent = {
       تساعد طبقة **النايلون المضفر** والموصلات المدعمة في الموديلات الداعمة على مقاومة الاهتراء، لكنها لا تجعل الكابل غير قابل للتلف. تجنب الحرارة المباشرة والثني الحاد. موعد التوصيل تقديري حسب العنوان. تسوق [شاحن جوي روم](/joyroom/wall-chargers) لمنظومة متوافقة.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'الفصل التلقائي في الموديلات الداعمة' },
                         { type: 'warranty', text: 'ضمان كايرو فولت حسب صفحة المنتج' },
                         { type: 'expert_verified', text: 'قدرة الشحن ونقل البيانات تختلف حسب الموديل' }
                     ],
@@ -38,9 +37,11 @@ export const joyroom_cables_content: CategoryContent = {
                         {
                             title: 'كيف تختار الكابل المناسب؟',
                             content: `
-- **S-M411 (للايفون القديم):** كابل قماشي، يدعم الفصل التلقائي، ولمبة LED بتنور لما يشحن وتطفي لما يفصل.
+- **USB-C إلى Lightning (20–30 واط معلنة):** لايفون بمنفذ Lightning مع شاحن USB-C PD متوافق.
 - **Type-C 60W:** مناسب لأجهزة USB-C التي لا تتجاوز متطلباتها قدرة الكابل، مع شاحن متوافق.
-- **Type-C 100W:** مناسب لبعض اللابتوبات والأجهزة الأعلى قدرة عند استخدام شاحن وبروتوكول متوافقين؛ الجهاز يسحب فقط ما يدعمه.
+- **Type-C 100W (JR-S-CC100):** العلبة مكتوب عليها 100 واط، لكن عيّنتنا لم تظهر فيها شريحة E-marker وبلغت ذروتها 57.9 واط — تعامل معه ككابل فئة 60 واط.
+- **USB-A إلى Lightning أو USB-C أو Micro-USB:** للشواحن القديمة بمنفذ USB-A؛ لا يوفر شحن USB-C PD.
+- **3 في 1 (JR-S-1830G):** Lightning وUSB-C وMicro-USB في كابل واحد؛ التيار يتوزع عند توصيل أكثر من جهاز.
 `
                         },
                         {
@@ -53,19 +54,19 @@ export const joyroom_cables_content: CategoryContent = {
                     faq: [
                         {
                             question: 'هل الكابل آمن على بطارية الموبايل؟',
-                            answer: 'بعض الموديلات تستخدم شريحة Smart IC وتدعم الفصل التلقائي حسب مواصفات المنتج. استخدم الكابل مع شاحن وجهاز متوافقين وتوقف عن الاستخدام إذا ظهر تلف أو سخونة غير طبيعية.'
+                            answer: 'الكابل ينقل القدرة التي يتفاوض عليها الشاحن والموبايل، والموبايل هو الذي يدير الشحن ويوقفه عند الامتلاء. استخدم كابلًا مصنفًا للقدرة المطلوبة مع شاحن وجهاز متوافقين، وتوقف عن الاستخدام إذا ظهر تلف في الغلاف أو الموصل أو سخونة غير طبيعية.'
                         },
                         {
                             question: 'إيه الفرق بين كابل 60W و 100W؟',
-                            answer: 'الرقم هو الحد المقنن للكابل وليس ما يفرضه على الجهاز. اختر 60W أو 100W وفق قدرة الشاحن والجهاز، وتحقق من دعم PD ومن تصنيف الكابل المناسب لبعض القدرات الأعلى.'
+                            answer: 'الرقم هو الحد المقنن للكابل وليس ما يفرضه على الجهاز. كابل USB-C بدون شريحة E-marker محدود بـ 3 أمبير (حوالي 60 واط)، وفي مختبرنا لم تظهر شريحة E-marker في [جوي روم JR-S-CC100](/joyroom/cables/joyroom-type-c-to-type-c-cable) المكتوب على علبته 100 واط وبلغت ذروته 57.9 واط. لشحن لابتوب فوق 60 واط اختر كابلًا مؤكدًا بشريحة E-marker وتيار 5 أمبير.'
                         },
                         {
                             // كان: "ليه كابل جوي روم أحسن من كابل أبل الأصلي؟" — ادعاء تفضيل
                             // مقارن على منتج طرف ثالث، وهو ممنوع تحريرياً. أُعيدت الصياغة إلى
-                            // سؤال عن السمات التي يراجعها المشتري، وقُيّدت خاصية Auto-Disconnect
-                            // بصفحة الموديل لأنها لا تنطبق على كل الموديلات المعروضة هنا.
+                            // سؤال عن السمات التي يراجعها المشتري. لا يذكر أي كابل معروض هنا
+                            // خاصية فصل تلقائي في صفحته، فحُذفت من الإجابة.
                             question: '⚠️ إيه اللي أراجعه في كابل جوي روم قبل الشراء؟',
-                            answer: 'راجع القدرة المقننة ودعم PD ونقل البيانات في صفحة الموديل. النايلون المضفر والموصلات المدعمة يساعدان على مقاومة الاهتراء، وخاصية Auto-Disconnect تتوفر فقط في الموديلات التي تذكرها صفحتها.'
+                            answer: 'راجع القدرة المقننة ودعم PD ونقل البيانات والطول في صفحة الموديل. النايلون المضفر والموصلات المدعمة في بعض الموديلات يساعدان على مقاومة الاهتراء، لكنهما لا يغنيان عن مطابقة قدرة الكابل مع الشاحن والجهاز.'
                         },
                         {
                             question: 'الكابل ده بينقل بيانات ولا شحن بس؟',
@@ -88,17 +89,12 @@ export const joyroom_cables_content: CategoryContent = {
                             answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال موضحة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         }
                     ],
-                    products: [
-                        { name: 'Joyroom Light Speed (Auto-Stop)', price: 118, badge: 'Auto-Stop حسب الموديل' },
-                        { name: 'Joyroom 100W Type-C', price: 123, badge: 'للابتوب' },
-                        { name: 'Joyroom 3-in-1 Braided', price: 237, badge: 'عملي' },
-                    ]
                 },
                 en: {
-                    title: 'Joyroom Cables (Auto-Disconnect Tech)',
+                    title: 'Joyroom Cables (USB-C PD & Lightning)',
                     subtitle: 'Choose the connector, power rating, data support, and model features',
                     description: `
-      Joyroom lists **Auto-Disconnect** for the S-M411 according to its product specification. Features, rated power, and data support vary across the range, so check the exact model and the requirements of your device and charger.
+      Joyroom charging cables here come in USB-C to Lightning, USB-C to USB-C, and USB-A to Lightning, USB-C, or Micro-USB, plus a 3-in-1 cable. Rated power, data support, and braiding vary by model, so check the exact model and the requirements of your device and charger.
 
       **Compare Durability and Cost Clearly:**
       Check the jacket, connector reinforcement, stated bend rating, and CairoVolt warranty for each model. The current price is shown on the product page, while service life depends on use, bending, and storage.
@@ -107,7 +103,6 @@ export const joyroom_cables_content: CategoryContent = {
       Braided nylon and reinforced connectors on listed models can help resist wear, but do not make a cable damage-proof. Avoid direct heat and sharp bends. Delivery timing is an estimate based on the confirmed address.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'Auto-Disconnect on supported models' },
                         { type: 'warranty', text: 'CairoVolt warranty as listed per product' },
                         { type: 'expert_verified', text: 'Charging and data ratings vary by model' }
                     ],
@@ -115,9 +110,11 @@ export const joyroom_cables_content: CategoryContent = {
                         {
                             title: 'Choosing the Right Cable',
                             content: `
-- **S-M411 (Listing):** Fabric braided with listed Auto-Disconnect and LED indicator features; check connector compatibility with the exact iPhone model.
+- **USB-C to Lightning (listed 20–30W):** For Lightning iPhones with a compatible USB-C PD charger.
 - **Type-C 60W:** Suitable when the charger's and device's requirements do not exceed the cable rating.
-- **Type-C 100W:** Suitable for some higher-power laptops and devices with a compatible charger and protocol; the device draws only what it supports.
+- **Type-C 100W (JR-S-CC100):** The box says 100W, but our sample showed no E-marker chip and peaked at 57.9W — treat it as a 60W-class cable.
+- **USB-A to Lightning, USB-C, or Micro-USB:** For older USB-A chargers; these do not provide USB-C PD charging.
+- **3-in-1 (JR-S-1830G):** Lightning, USB-C, and Micro-USB on one cable; current is shared when more than one device is connected.
 `
                         },
                         {
@@ -130,15 +127,15 @@ Data support and speed vary by model. Some cables use USB 2.0 speeds and some ma
                     faq: [
                         {
                             question: 'Is the cable safe for phone battery health?',
-                            answer: 'Some models use a Smart IC chip and support auto-disconnect according to the product specs. Use the cable with a compatible charger and device, and stop use if damage or unusual heat appears.'
+                            answer: 'The cable carries the power the charger and phone negotiate, and the phone manages charging and stops it when full. Use a cable rated for the required power with a compatible charger and device, and stop use if the jacket or connector is damaged or unusual heat appears.'
                         },
                         {
                             question: 'What is the difference between a 60W and a 100W cable?',
-                            answer: 'The figure is the cable rated limit, not what it forces onto the device. Choose 60W or 100W based on charger and device power, and confirm PD support and the cable rating needed for higher power levels.'
+                            answer: 'The figure is the cable rated limit, not what it forces onto the device. A USB-C cable without an E-marker chip is limited to 3A (about 60W); in our lab the [Joyroom JR-S-CC100](/en/joyroom/cables/joyroom-type-c-to-type-c-cable), boxed as 100W, showed no E-marker and peaked at 57.9W. For laptop charging above 60W, choose a cable with a confirmed 5A E-marker.'
                         },
                         {
-                            question: 'Warning: Why choose a Joyroom cable over an Apple original cable?',
-                            answer: 'Auto-Disconnect on supported models stops power after charging completes, and braided nylon with reinforced connectors helps resist wear. Check bend rating and warranty per model.'
+                            question: 'Warning: What should I check in a Joyroom cable before buying?',
+                            answer: 'Check the rated power, PD support, data transfer, and length on the model page. Braided nylon and reinforced connectors on some models help resist wear, but they do not replace matching the cable rating to the charger and device.'
                         },
                         {
                             question: 'Does this cable transfer data or only charge?',
@@ -161,11 +158,6 @@ Data support and speed vary by model. Some cables use USB 2.0 speeds and some ma
                             answer: 'CairoVolt warranty duration, coverage, and replacement terms are shown on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
                         }
                     ],
-                    products: [
-                        { name: 'Joyroom Light Speed (Auto-Stop)', price: 118, badge: 'Auto-Stop by Model' },
-                        { name: 'Joyroom 100W Type-C', price: 123, badge: 'Laptop Ready' },
-                        { name: 'Joyroom 3-in-1 Braided', price: 237, badge: 'Multi-Use' },
-                    ]
                 }
             }
         };

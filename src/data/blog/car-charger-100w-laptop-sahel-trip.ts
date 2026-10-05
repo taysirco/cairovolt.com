@@ -5,7 +5,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
     slug: 'car-charger-100w-laptop-sahel-trip',
     category: 'buying-guide',
     publishDate: '2026-05-29',
-    modifiedDate: '2026-05-29',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'anker-car-charger-dual-usb',
@@ -27,13 +27,6 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
         title: { ar: 'محرر تقني', en: 'Tech Editor' },
         avatar: '/images/team/cairovolt-team.webp',
     },
-    externalReferences: [
-        {
-            url: 'https://gamesuy.wordpress.com/2026/06/21/staying-charged-on-the-go-best-anker-car-chargers-for-2026/',
-            title: { ar: 'أفضل شواحن السيارة من انكر 2026', en: 'Best Anker car chargers for 2026' },
-            note: { ar: 'للمزيد عن شواحن السيارة من انكر', en: 'More on Anker car chargers' },
-        },
-    ],
     translations: {
         ar: {
             title: 'شحن اللابتوب في العربية — دليل اختيار شاحن 100W لرحلات الطريق الطويلة',
@@ -41,7 +34,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
             metaDescription: 'دليل اختيار شاحن سيارة 100W لشحن اللابتوب في رحلات الساحل والعين السخنة. حسابات القدرة، مقارنة شواحن، وتحذيرات حرارة صيف مصر. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'شاحن سيارة 100 واط, شحن لابتوب في السيارة, شاحن سيارة للابتوب, شاحن 100W سيارة مصر, شاحن سيارة ساحل, شاحن USB-C PD سيارة, car charger 100w laptop egypt, شاحن سيارة ماك بوك, شاحن سيارة رحلات طويلة, شاحن GaN سيارة',
             excerpt: 'دليل اختيار شاحن سيارة 100W لشحن اللابتوب في رحلات الساحل والسخنة مع حسابات القدرة وتحذيرات حرارة الصيف.',
-            quickAnswer: 'أيوا، تقدر تشحن اللابتوب في السيارة بشاحن USB-C PD بشرط 3 حاجات: (1) الشاحن يدعم 65W على الأقل (100W للابتوبات القوية)، (2) كابل USB-C يدعم 100W زي أنكر زولو A8060، (3) ولاعة السجاير تطلع 120-180W (12V × 10-15A). أفضل خيار لرحلات الساحل: شاحن سيارة 100W GaN + كابل 100W + باور بانك أنكر 737 كاحتياطي.',
+            quickAnswer: 'أيوا، تقدر تشحن اللابتوب في السيارة بشاحن USB-C PD بشرط 3 حاجات: (1) الشاحن يدعم 65W على الأقل (100W للابتوبات القوية)، (2) كابل USB-C يدعم 100W زي انكر زولو A8060، (3) ولاعة السجاير تطلع 120-180W (12V × 10-15A). أفضل خيار لرحلات الساحل: شاحن سيارة 100W GaN + كابل 100W + باور بانك انكر 737 كاحتياطي.',
             content: `
 <p>الساعة 6 الصبح، العربية متحملة على أوتوستراد الإسكندرية الصحراوي، إنت ماسك الدركسيون بإيد والتانية بتحاول تفتح Excel sheet على اللابتوب — لأ طبعاً مش وإنت بتسوق، ده وإنت قاعد جنب السواق. البطارية على 12% والاجتماع بعد ساعة على Zoom. بتبص على شاحن السيارة اللي جايبه معاك — 18 واط. يا صديقي، 18 واط دول مش هيشحنوا اللابتوب بتاعك، دول بالعافية يشحنوا ساعة ذكية. الموقف ده أشبه بإنك تحاول تملا حمام سباحة بخرطوم مطبخ — تقنياً ممكن، عملياً هتقعد لبعد العيد.</p>
 
@@ -49,7 +42,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أيوا، تقدر تشحن اللابتوب في السيارة بشاحن USB-C PD بشرط 3 حاجات: (1) الشاحن يدعم 65W على الأقل (100W للابتوبات القوية)، (2) كابل USB-C يدعم 100W زي <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">انكر زولو A8060</a>، (3) ولاعة السجاير تطلع 120-180W (12V × 10-15A). أفضل خيار لرحلات الساحل: شاحن سيارة 100W GaN + <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل USB-C 100W</a> + <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">باور بانك أنكر 737</a> كاحتياطي.
+        <strong>💡 الإجابة السريعة:</strong> أيوا، تقدر تشحن اللابتوب في السيارة بشاحن USB-C PD بشرط 3 حاجات: (1) الشاحن يدعم 65W على الأقل (100W للابتوبات القوية)، (2) كابل USB-C يدعم 100W زي <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">انكر زولو A8060</a>، (3) ولاعة السجاير تطلع 120-180W (12V × 10-15A). أفضل خيار لرحلات الساحل: شاحن سيارة 100W GaN + <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">كابل USB-C 100W</a> + <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">باور بانك انكر 737</a> كاحتياطي.
     </p>
 </div>
 
@@ -111,63 +104,63 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>بروتوكول USB-C PD 3.0 أو أحدث:</strong> ده الشرط الأول. اللابتوب مش هيشحن من شاحن USB-A مهما كانت القدرة. لازم USB-C Power Delivery — وده البروتوكول اللي بيتفاوض مع اللابتوب على الفولت والأمبير الأمثل (5V/9V/15V/20V × حتى 5A).</li>
     <li style="margin-bottom:12px;">🔋 <strong>خرج حقيقي 100W من منفذ واحد:</strong> بعض الشواحن بتكتب "100W Total" — يعني مجموع كل المنافذ. إنت محتاج 100W من <strong>منفذ USB-C واحد</strong>. اتأكد إن المواصفات بتقول "Single port: 100W".</li>
-    <li style="margin-bottom:12px;">🔥 <strong>تقنية GaN (جاليوم نيترايد):</strong> شاحن سيليكون عادي بقدرة 100W هيبقى حجمه كبير وهيسخن جداً. شاحن GaN بيبقى أصغر 40-50% وأبرد 25-30% — وده مهم جداً في صيف مصر.</li>
+    <li style="margin-bottom:12px;">🔥 <strong>تقنية GaN (جاليوم نيترايد):</strong> شاحن سيليكون عادي بقدرة 100W هيبقى حجمه كبير وهيسخن جداً. شاحن GaN بيبقى أصغر عند نفس القدرة، والحرارة الفعلية بتختلف حسب الموديل والحمل — وده مهم في صيف مصر.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>حماية حرارية (Thermal Protection):</strong> الشاحن هيشتغل جوه عربية درجة حرارتها الداخلية 60-70°م في الصيف. لازم يكون فيه دايرة حماية بتخفض القدرة تلقائياً لو الحرارة عدت الحد الآمن (عادةً 45°م).</li>
     <li style="margin-bottom:12px;">🔌 <strong>منفذ إضافي للموبايل:</strong> إنت في رحلة طويلة — اللابتوب على شاحن، بس الموبايل كمان محتاج شحن للخرائط والمكالمات. الأفضل شاحن بمنفذين: USB-C 100W للابتوب + USB-C أو USB-A للموبايل.</li>
 </ul>
 
 <h2>مقارنة شواحن السيارة 100W+ المتاحة في مصر</h2>
 
-<p>خلّينا نحط الخيارات المتاحة جنب بعض في جدول واحد عشان المقارنة تبقى واضحة. بنقارن شاحن <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">انكر شاحن سيارة Dual USB</a> (الخيار الأساسي للموبايلات) مع <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">جوي روم 60W</a> (خيار متوسط للابتوبات الخفيفة):</p>
+<p>خلّينا نحط الخيارات المتاحة جنب بعض في جدول واحد عشان المقارنة تبقى واضحة. بنقارن شاحن <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">انكر شاحن سيارة Dual USB</a> (الخيار الأساسي للموبايلات) مع <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">جوي روم JR-CCL05</a> (4 في 1، 69W إجمالي معلن مشتركة بين المخارج):</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المعيار</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">شاحن 100W GaN (الأمثل)</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">جوي روم 60W</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">جوي روم JR-CCL05</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر Dual USB 24W</th>
     </tr></thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">القدرة القصوى</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>100W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">60W</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">69W إجمالي معلن (أعلى USB-C قسناه 29.1W)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">24W</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">يشحن لابتوب؟</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>✅ كل اللابتوبات</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">✅ لابتوبات خفيفة (Air)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">⚠️ شحن بطيء فقط (حوالي 30W على كابل USB-C)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">❌ لا</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">بروتوكول الشحن</td>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD 3.0</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD + QC 3.0</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD/PPS على الكابل المدمج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">PowerIQ</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">عدد المنافذ</td>
             <td style="padding:12px;border:1px solid #d1d5db;">2 (USB-C + USB-A)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">2 (USB-C + USB-A)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">4 (كابلين مدمجين USB-C و Lightning + USB-C + USB-A)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">2 (USB-A × 2)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">تقنية GaN</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>✅ نعم</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">❌ لا</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">غير مذكور</td>
             <td style="padding:12px;border:1px solid #d1d5db;">❌ لا</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">مناسب لرحلات الساحل</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ الأمثل</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">✅ جيد للابتوبات الخفيفة</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">📱 موبايلات وأجهزة صغيرة (لحد 4 أجهزة)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">📱 موبايلات فقط</td>
         </tr>
     </tbody>
 </table>
 
-<p><strong>التوصية:</strong> لو بتشتغل على MacBook Air أو لابتوب بيحتاج 30-45W، <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">جوي روم 60W</a> كافي وبسعر ممتاز. لكن لو عندك MacBook Pro 14"/16" أو لابتوب شغل بيحتاج 65W+، لازم شاحن 100W GaN — وده هيديك راحة البال إن اللابتوب بيتشحن بأقصى سرعة حتى وهو شغال.</p>
+<p><strong>التوصية:</strong> <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">جوي روم JR-CCL05</a> مناسب للموبايلات والأجهزة الصغيرة، لكن أعلى خرج USB-C فيه حوالي 30W (قسنا 29.1 واط)، فبيدّي اللابتوب شحن بطيء بس ومش هيلحق على لابتوب شغال بيسحب أكتر من كده. ولو عندك MacBook Pro 14"/16" أو لابتوب شغل بيحتاج 65W+، لازم شاحن 100W GaN — وده هيديك راحة البال إن اللابتوب بيتشحن بأقصى سرعة حتى وهو شغال.</p>
 
 <h2>سيناريوهات الرحلات المصرية: كام ساعة شحن محتاج؟</h2>
 
@@ -218,7 +211,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>يدعم 5A (100W):</strong> كابلات USB-C العادية بتدعم 3A بس (= 60W كحد أقصى على 20V). للوصول لـ 100W، محتاج كابل مصنّف E-Marker بيدعم 5A. <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">كابل انكر زولو A8060</a> من الكابلات اللي بتدعم 100W فعلي.</li>
-    <li style="margin-bottom:12px;">📏 <strong>الطول المناسب:</strong> في العربية، 1-1.5 متر مثالي. كابل أطوال من 2 متر بيزود المقاومة وبيخفض القدرة الفعلية. <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل انكر PowerLine USB-C</a> متاح بأطوال مناسبة.</li>
+    <li style="margin-bottom:12px;">📏 <strong>الطول المناسب:</strong> في العربية، 1-1.5 متر مثالي. كابل أطوال من 2 متر بيزود المقاومة وبيخفض القدرة الفعلية. <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">كابل انكر زولو A8060</a> طوله 1.5 متر ومصنّف 240W. (كابل انكر PowerLine III USB-C مصنّف 60W بس، فمش مناسب لـ 100W.)</li>
     <li style="margin-bottom:12px;">🛡️ <strong>التحمل:</strong> الكابل في العربية بيتعرض لحرارة عالية + ثني متكرر. كابل بدون تقوية عند الأطراف بيبوظ خلال 2-3 شهور في صيف مصر. اقرأ مقالنا عن <a href="/blog/protect-cables-car-summer-heat-cairo" style="color:#2563eb;">حماية الكابلات من حرارة صيف القاهرة</a> للتفاصيل.</li>
 </ul>
 
@@ -304,7 +297,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
 
 <div class="cta-box" style="background:linear-gradient(135deg,#eff6ff,#f0fdf4);border:2px solid #2563eb;border-radius:12px;padding:24px;margin:32px 0;text-align:center;">
     <p style="font-size:18px;font-weight:700;color:#1e40af;margin:0 0 12px;">⚡ جاهز لرحلة الساحل بدون قلق على البطارية؟</p>
-    <p style="font-size:15px;color:#374151;margin:0 0 16px;">تصفّح شواحن السيارة الأصلية على كايرو فولت — ضمان 18 شهر + توصيل لكل المحافظات.</p>
+    <p style="font-size:15px;color:#374151;margin:0 0 16px;">تصفّح شواحن السيارة الأصلية على كايرو فولت — بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات.</p>
     <p style="margin:0;"><a href="/anker/car-chargers" style="display:inline-block;background:#2563eb;color:#fff;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">تصفّح شواحن السيارة</a></p>
 </div>
 
@@ -312,7 +305,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
     <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 مصادر ومراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#78350f">
         <li><a href="https://www.usb.org/usb-charger-pd" target="_blank" rel="noopener" style="color:#1d4ed8">USB-IF — معيار USB Power Delivery (بالإنجليزية)</a></li>
-        <li><a href="https://support.apple.com/en-us/102385" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — حدود حرارة الشحن وتأثيرها على البطارية</a></li>
+        <li><a href="https://support.apple.com/ar-eg/118431" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — لو الآيفون أو الآيباد سخن جداً أو برد جداً</a></li>
         <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — إطالة عمر بطاريات الليثيوم</a></li>
         <li>مقالنا: <a href="/blog/best-car-charger-egypt-2026" style="color:#1d4ed8">أفضل شاحن سيارة في مصر 2026</a></li>
     </ul>
@@ -351,7 +344,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Yes, you can charge your laptop in the car with a USB-C PD charger under 3 conditions: (1) charger supports 65W minimum (100W for powerful laptops), (2) USB-C cable rated for 100W like <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060</a>, (3) cigarette lighter outputs 120-180W (12V × 10-15A). Best setup for Sahel trips: 100W GaN car charger + <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">100W USB-C cable</a> + <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 power bank</a> as backup.
+        <strong>💡 Quick Answer:</strong> Yes, you can charge your laptop in the car with a USB-C PD charger under 3 conditions: (1) charger supports 65W minimum (100W for powerful laptops), (2) USB-C cable rated for 100W like <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060</a>, (3) cigarette lighter outputs 120-180W (12V × 10-15A). Best setup for Sahel trips: 100W GaN car charger + <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">100W USB-C cable</a> + <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 power bank</a> as backup.
     </p>
 </div>
 
@@ -411,63 +404,63 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>USB-C PD 3.0 protocol or newer:</strong> This is non-negotiable. Your laptop won't charge from a USB-A charger regardless of wattage. It must be USB-C Power Delivery — the protocol that negotiates optimal voltage and current with your laptop (5V/9V/15V/20V × up to 5A).</li>
     <li style="margin-bottom:12px;">🔋 <strong>True 100W from a single port:</strong> Some chargers advertise "100W Total" — meaning combined across all ports. You need 100W from a <strong>single USB-C port</strong>. Confirm the specs state "Single port: 100W."</li>
-    <li style="margin-bottom:12px;">🔥 <strong>GaN (Gallium Nitride) technology:</strong> A traditional silicon charger at 100W runs large and extremely hot. GaN chargers are 40-50% smaller and 25-30% cooler — critical in Egypt's summer temperatures.</li>
+    <li style="margin-bottom:12px;">🔥 <strong>GaN (Gallium Nitride) technology:</strong> A traditional silicon charger at 100W runs large and extremely hot. A GaN charger is smaller at the same wattage, and real heat varies by model and load — which matters in Egypt's summer temperatures.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>Thermal protection:</strong> Your charger operates inside a car that reaches 60-70°C internally in Egyptian summer. It must include thermal throttling circuits that automatically reduce power output when temperature exceeds safe limits (typically 45°C).</li>
     <li style="margin-bottom:12px;">🔌 <strong>Secondary port for your phone:</strong> On a long road trip, your laptop takes the main port, but your phone also needs charging for maps and calls. Ideally: USB-C 100W for laptop + USB-C or USB-A for phone.</li>
 </ul>
 
 <h2>Comparing 100W+ Car Chargers Available in Egypt</h2>
 
-<p>Let's place the available options side by side. We're comparing the <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">Anker Car Charger Dual USB</a> (the baseline for phones) against the <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom 60W</a> (mid-range option for lighter laptops):</p>
+<p>Let's place the available options side by side. We're comparing the <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">Anker Car Charger Dual USB</a> (the baseline for phones) against the <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom JR-CCL05</a> (4-in-1, 69W total listed, shared across its outputs):</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Criteria</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">100W GaN (Optimal)</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Joyroom 60W</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Joyroom JR-CCL05</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Anker Dual USB 24W</th>
     </tr></thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Max power</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>100W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">60W</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">69W total listed (highest USB-C measured 29.1W)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">24W</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Charges laptops?</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>✅ All laptops</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">✅ Light laptops (Air)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">⚠️ Slow top-up only (about 30W on the USB-C cable)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">❌ No</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Charging protocol</td>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD 3.0</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD + QC 3.0</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD/PPS on the built-in cable</td>
             <td style="padding:12px;border:1px solid #d1d5db;">PowerIQ</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Port count</td>
             <td style="padding:12px;border:1px solid #d1d5db;">2 (USB-C + USB-A)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">2 (USB-C + USB-A)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">4 (built-in USB-C + Lightning cables + USB-C + USB-A)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">2 (USB-A × 2)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">GaN technology</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>✅ Yes</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">❌ No</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Not listed</td>
             <td style="padding:12px;border:1px solid #d1d5db;">❌ No</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Suitable for Sahel trips</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ Optimal</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">✅ Good for light laptops</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">📱 Phones and small devices (up to 4)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">📱 Phones only</td>
         </tr>
     </tbody>
 </table>
 
-<p><strong>Our recommendation:</strong> If you work on a MacBook Air or a laptop that draws 30-45W, the <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom 60W</a> is sufficient and excellent value. But if you own a MacBook Pro 14"/16" or a workstation laptop drawing 65W+, you need a 100W GaN charger — it guarantees your laptop charges at full speed even while in use.</p>
+<p><strong>Our recommendation:</strong> the <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom JR-CCL05</a> suits phones and small devices, but its highest USB-C output is about 30W (we measured 29.1W), so it can only top up a laptop slowly and cannot keep up with a laptop in use that draws more than that. If you own a MacBook Pro 14"/16" or a workstation laptop drawing 65W+, you need a 100W GaN charger — it guarantees your laptop charges at full speed even while in use.</p>
 
 <h2>Egyptian Road Trip Scenarios: How Much Charging Time Do You Get?</h2>
 
@@ -518,7 +511,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>5A (100W) support:</strong> Standard USB-C cables only support 3A (= 60W max at 20V). To reach 100W, you need an E-Marker rated cable supporting 5A. The <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060 cable</a> is one that delivers true 100W.</li>
-    <li style="margin-bottom:12px;">📏 <strong>Proper length:</strong> In a car, 1-1.5 meters is ideal. Cables longer than 2 meters increase resistance and reduce effective power. The <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C cable</a> is available in suitable lengths.</li>
+    <li style="margin-bottom:12px;">📏 <strong>Proper length:</strong> In a car, 1-1.5 meters is ideal. Cables longer than 2 meters increase resistance and reduce effective power. The <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060 cable</a> is 1.5 m long and rated 240W. (The Anker PowerLine III USB-C cable is rated 60W only, so it is not suited to 100W.)</li>
     <li style="margin-bottom:12px;">🛡️ <strong>Durability:</strong> Car cables face extreme heat + repeated bending. A cable without reinforced connectors fails within 2-3 months in Egyptian summer conditions. Read our article on <a href="/en/blog/protect-cables-car-summer-heat-cairo" style="color:#2563eb;">protecting cables from Cairo's summer heat</a> for details.</li>
 </ul>
 
@@ -604,7 +597,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
 
 <div class="cta-box" style="background:linear-gradient(135deg,#eff6ff,#f0fdf4);border:2px solid #2563eb;border-radius:12px;padding:24px;margin:32px 0;text-align:center;">
     <p style="font-size:18px;font-weight:700;color:#1e40af;margin:0 0 12px;">⚡ Ready for your Sahel trip without battery anxiety?</p>
-    <p style="font-size:15px;color:#374151;margin:0 0 16px;">Browse original car chargers on CairoVolt — 18-month warranty + delivery to all governorates across Egypt.</p>
+    <p style="font-size:15px;color:#374151;margin:0 0 16px;">Browse original car chargers on CairoVolt — covered by CairoVolt's written store warranty (duration shown on each product page) + delivery to all governorates across Egypt.</p>
     <p style="margin:0;"><a href="/en/anker/car-chargers" style="display:inline-block;background:#2563eb;color:#fff;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">Shop Car Chargers</a></p>
 </div>
 
@@ -612,7 +605,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
     <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 Sources & References:</p>
     <ul style="margin:0;padding-left:20px;color:#78350f">
         <li><a href="https://www.usb.org/usb-charger-pd" target="_blank" rel="noopener" style="color:#1d4ed8">USB-IF — USB Power Delivery Standard</a></li>
-        <li><a href="https://support.apple.com/en-us/102385" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — Charging temperature limits and battery impact</a></li>
+        <li><a href="https://support.apple.com/en-us/118431" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — If your iPhone or iPad gets too hot or too cold</a></li>
         <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — Prolonging Lithium Battery Life</a></li>
         <li>Our guide: <a href="/en/blog/best-car-charger-egypt-2026" style="color:#1d4ed8">Best Car Charger in Egypt 2026</a></li>
     </ul>

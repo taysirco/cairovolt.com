@@ -4,7 +4,7 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
     slug: 'soundcore-motion-plus-30w-hi-res-speaker-review',
     category: 'review',
     publishDate: '2026-08-01T21:31:00+03:00',
-    modifiedDate: '2026-08-01T21:31:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'anker-soundcore-motion-plus',
@@ -33,12 +33,12 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
             metaDescription: 'مراجعة Soundcore Motion+ 30W الشاملة بمصر: ميزات شهادة Hi-Res Audio الفائقة ونظام BassUp مع تفاصيل استجابة التردد والبطارية والأسعار المحدثة.',
             keywords: 'soundcore motion plus مراجعة, soundcore motion plus hi res, motion plus 30w باس, bassup شرح, سبيكر hi res مصر, soundcore motion plus سعر مصر, مقارنة flare 2 motion plus, سبيكر مكتب مصر, سبيكر 30w بلوتوث, soundcore motion plus flac',
             excerpt: 'Motion+ بيدعي إنه "بطل النقاء" في الفئة المتوسطة بشهادة Hi-Res Audio و30W وBassUp. حللنا المواصفات المعلنة وخبرات المستخدمين — الحقيقة مش كلها وردية بس بردو مفاجآت كتير.',
-            quickAnswer: 'Soundcore Motion+ 30W يستحق لقب "بطل النقاء" في الفئة السعرية 4,500-5,500ج. Hi-Res Audio بيعمل فرق حقيقي في الأغاني الغنية بالتفاصيل. BassUp أفضل من رفع باس عادي. البطارية 12 ساعة، IPX7. مش مناسب للحفلات (بدون LED وPartyCast). المثالي للاستماع الجاد في المنزل.',
+            quickAnswer: 'Soundcore Motion+ اختيار مناسب للاستماع الجاد في البيت والمكتب: 30 واط وشهادة Hi-Res Audio، وبتفرق أكتر مع ملفات FLAC والخدمات عالية الدقة. بطاريته حتى 12 ساعة معلنة (قسنا 11 ساعة و28 دقيقة عند 50% صوت على عيّنتنا)، وIPX7. سعره في كايرو فولت {{price:anker-soundcore-motion-plus}} جنيه. مش للحفلات: مفيش LED ولا PartyCast.',
             content: `<p>Motion+ بيجي بادعاء كبير: Hi-Res Audio في فئة السبيكرات المتوسطة السعر. اللقب ده بيعني إنه بيشغّل ترددات فوق الـ 20kHz — اللي هو سقف سماع الإنسان الطبيعي. الجدل هنا؟ هل ده حقيقي وبيعمل فرق ملموس، ولا مجرد ملصق تسويقي؟ جمعنا الصورة من المواصفات المعلنة وتجارب المستخدمين بمصر — والإجابة في هذا التحليل المفصل.</p>
 
 <div class="quick-answer-inline" style="background:#f0fdf4;border-right:4px solid #059669;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#166534;">
-        <strong>الحكم المختصر:</strong> Motion+ هو أفضل سبيكر بلوتوث في الفئة السعرية 4,500-5,500ج للاستماع الجاد والنقاء الصوتي. Hi-Res بيعمل فرق في الأغاني الغنية بالتفاصيل. BassUp تقنية ذكية حقيقية. لكن بدون LED وPartyCast — مش للحفلات.
+        <strong>الحكم المختصر:</strong> Motion+ بسعر {{price:anker-soundcore-motion-plus}} جنيه في كايرو فولت اختيار قوي للاستماع الجاد والنقاء الصوتي. Hi-Res بيعمل فرق في الأغاني الغنية بالتفاصيل. BassUp تقنية ذكية حقيقية. لكن بدون LED وPartyCast — مش للحفلات.
     </p>
 </div>
 
@@ -70,7 +70,7 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:11px;border:1px solid #bbf7d0;">البطارية</td>
-            <td style="padding:11px;border:1px solid #bbf7d0;">6,700mAh — 12 ساعة عند 60% صوت</td>
+            <td style="padding:11px;border:1px solid #bbf7d0;">6,700mAh — حتى 12 ساعة معلنة (قسنا 11 س 28 د عند 50% صوت)</td>
         </tr>
         <tr>
             <td style="padding:11px;border:1px solid #bbf7d0;">مقاومة المياه</td>
@@ -93,8 +93,8 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
             <td style="padding:11px;border:1px solid #bbf7d0;">لا يوجد</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:11px;border:1px solid #bbf7d0;">السعر في مصر</td>
-            <td style="padding:11px;border:1px solid #bbf7d0;color:#059669;font-weight:bold;">4,500 — 5,500 جنيه مصري</td>
+            <td style="padding:11px;border:1px solid #bbf7d0;">السعر في كايرو فولت</td>
+            <td style="padding:11px;border:1px solid #bbf7d0;color:#059669;font-weight:bold;">{{price:anker-soundcore-motion-plus}} جنيه</td>
         </tr>
     </tbody>
 </table>
@@ -103,14 +103,14 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
 <p>من أهم التفاصيل الهندسية في سبيكر Soundcore Motion+ والتي لا ينتبه لها الكثيرون هي زاوية ميل الهيكل الخارجي؛ حيث يأتي السبيكر مائلاً بزاوية 15 درجة إلى الأعلى. هذا التصميم ليس جمالياً فحسب، بل هو معيار صوتي دقيق يهدف إلى توجيه موجات الصوت الصادرة من مكبرات التويتر (الترددات العالية الحادة) مباشرة نحو مستوى أذن المستمع عند وضع السبيكر على مكتب العمل أو الطاولة، بدلاً من توجيهها نحو الصدر كما يحدث في السبيكرات المستقيمة. هذا التوجيه المباشر يقلل بشكل مذهل من تشتت الترددات الحادة ويمنحك إحساساً رائعاً بالوضوح والعمق الموسيقي الفائق أثناء الجلوس في مقابل السبيكر.</p>
 
 <h2>تقنية Bi-Amplification وتوزيع الطاقة على المحركات بشكل مستقل</h2>
-<p>تستخدم أنكر تقنية التضخيم الثنائي النشط (Active Bi-Amplification) داخل سبيكر Motion+ لضمان أعلى مستويات الأداء الصوتي؛ حيث لا يعتمد السبيكر على مضخم صوت واحد لتشغيل كل المحركات، بل يحتوي على مضخمات صوتية رقمية مستقلة (Class-D Amplifiers) تفصل وتوزع الطاقة الكهربائية بشكل مخصص. يتم تخصيص مضخم مستقل تماماً لتشغيل مكبرات الصوت عالية التردد (Tweeters)، ومضخم آخر مستقل مخصص لتغذية مكبرات الترددات المتوسطة والمنخفضة (Woofers). هذا الفصل النشط للترددات يقلل بنسبة كبيرة جداً من تشوهات التداخل الإشاري (Intermodulation Distortion)، ويضمن توفير الطاقة الكافية لكل محرك لإخراج صوت نقي وقوي للغاية حتى عند وصول السبيكر لأقصى طاقة تشغيلية له.</p>
+<p>تستخدم انكر تقنية التضخيم الثنائي النشط (Active Bi-Amplification) داخل سبيكر Motion+ لضمان أعلى مستويات الأداء الصوتي؛ حيث لا يعتمد السبيكر على مضخم صوت واحد لتشغيل كل المحركات، بل يحتوي على مضخمات صوتية رقمية مستقلة (Class-D Amplifiers) تفصل وتوزع الطاقة الكهربائية بشكل مخصص. يتم تخصيص مضخم مستقل تماماً لتشغيل مكبرات الصوت عالية التردد (Tweeters)، ومضخم آخر مستقل مخصص لتغذية مكبرات الترددات المتوسطة والمنخفضة (Woofers). هذا الفصل النشط للترددات يقلل بنسبة كبيرة جداً من تشوهات التداخل الإشاري (Intermodulation Distortion)، ويضمن توفير الطاقة الكافية لكل محرك لإخراج صوت نقي وقوي للغاية حتى عند وصول السبيكر لأقصى طاقة تشغيلية له.</p>
 
 <h2>التوافق مع ترميزات aptX و SBC على الأندرويد والكمبيوتر</h2>
 <p>يدعم سبيكر Soundcore Motion+ ترميز aptX عالي البث من شركة كوالكوم، بالإضافة إلى الترميز القياسي SBC. وتعتبر هذه الميزة هامة للغاية لمستخدمي هواتف الأندرويد وأجهزة الكمبيوتر التي تدعم كوالكوم؛ حيث تتيح تقنية aptX بث البيانات الصوتية بنطاق ترددات أوسع ومعدل نقل أسرع بكثير مع خفض كبير جداً في زمن تأخير الصوت (Latency). هذا يجعل السبيكر خياراً رائعاً ليس فقط للاستماع للموسيقى ذات الجودة الفائقة، بل وأيضاً لمشاهدة الأفلام ومقاطع الفيديو وممارسة الألعاب على اللابتوب والهواتف الذكية دون ملاحظة أي تأخير أو عدم توافق بين حركة الشفاه والصوت الصادر من السبيكر.</p>
 
 <h2>Hi-Res Audio — حقيقي ولا ملصق تسويقي؟</h2>
 <p>الجدل حول Hi-Res Audio في السبيكرات اللاسلكية حقيقي. الحقيقة: شهادة Hi-Res Audio من JAS (Japan Audio Society) تتطلب دعم تردد لحد 40,000Hz — وده موجود في Motion+ فعلاً. السؤال هو: هل تسمع الفرق؟</p>
-<p><strong>الإجابة العلمية:</strong> الإنسان العادي بيسمع لحد 20,000Hz. فوق ده مش محسوس مباشرةً. لكن اختبارات دوبل-بلايند (Double-blind tests) بتُظهر إن الأغاني ذات الجودة العالية (FLAC / 24-bit / 96kHz+) بتبان "أوضح وأكثر اتساعاً" على سبيكرات Hi-Res حتى لو المستمع مش عارف إيه الـ Hi-Res — والسبب محل جدل علمي، ممكن يكون التأثير النفسي وممكن يكون تفاعلات التردد غير المسموع مع الأجهزة المادية.</p>
+<p><strong>الإجابة العلمية:</strong> الإنسان العادي بيسمع لحد 20,000Hz. فوق ده مش محسوس مباشرةً. بعض المستمعين بيوصفوا الملفات عالية الجودة (FLAC / 24-bit / 96kHz+) بإنها "أوضح وأكثر اتساعاً" على سبيكرات Hi-Res، لكن ده محل جدل — ممكن يكون تأثير نفسي، وممكن يكون من جودة التسجيل نفسه أكتر من الترددات اللي فوق السمع.</p>
 <p>الاستفادة الفعلية من الـ Motion+ بتختلف حسب مصدر الصوت — 3 سيناريوهات شائعة:</p>
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🎵 <strong>Spotify (320kbps):</strong> الفرق عن سبيكر عادي محسوس — خاصةً في الحدة والمسرح الصوتي (soundstage)</li>
@@ -170,10 +170,10 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
 <p>يأتي سبيكر Soundcore Motion+ ببطارية ضخمة بسعة 6,700 مللي أمبير لدعم القوة الصوتية البالغة 30 واط. ونظراً لارتفاع درجات الحرارة في فصل الصيف بمصر، نوصي باتباع تعليمات الشحن التالية للحفاظ على سلامة خلايا البطارية وتجنب السخونة الزائدة: تجنب تماماً استخدام شواحن الهواتف الذكية السريعة (مثل شواحن 33 واط أو 67 واط) لشحن السبيكر؛ لأن هذه الشواحن تعطي جهداً كهربائياً لا يتوافق مع الدائرة الكهربائية الداخلية للسبيكر، مما يؤدي لتلف منظم الطاقة أو انتفاخ البطارية وتراجع عمرها الافتراضي سريعاً. استخدم دائماً شواحن عادية بقدرة 5 واط أو 10 واط كحد أقصى (5 فولت / 2 أمبير)، وتجنب استخدام السبيكر بأقصى صوت أثناء الشحن.</p>
 
 <h2>تفاصيل ضمان المتجر المكتوب بمصر وخدمة ما بعد البيع</h2>
-<p>عند شرائك سبيكر Soundcore Motion+ من متجر مستقل موثوق مثل كايرو فولت، فإنك تحصل على ضمان المتجر المكتوب لمدة 18 شهراً ضد عيوب الصناعة والأعطال الفنية الشائعة. يتم فحص السبيكر واستبداله بآخر جديد تماماً عبر خدمة عملاء كايرو فولت في حال وجود عيب فني حقيقي. يرجى التأكد من الاحتفاظ بالعلبة الأصلية للمنتج التي تحمل ملصق الرقم التسلسلي (Serial Number)؛ حيث يعتبر الاحتفاظ بالعلبة شرطاً أساسياً لتفعيل الضمان وقبول طلب الاستبدال.</p>
+<p>عند شرائك سبيكر Soundcore Motion+ من متجر مستقل موثوق مثل كايرو فولت، فإنك تحصل على ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) ضد عيوب الصناعة والأعطال الفنية الشائعة. يتم فحص السبيكر عبر خدمة عملاء كايرو فولت في حال وجود عيب فني حقيقي، والاستبدال أو الاسترداد يتم وفق نتيجة الفحص وشروط الضمان المنشورة. يرجى التأكد من الاحتفاظ بالعلبة الأصلية للمنتج التي تحمل ملصق الرقم التسلسلي (Serial Number)؛ حيث يعتبر الاحتفاظ بالعلبة شرطاً أساسياً لتفعيل الضمان وقبول طلب الاستبدال.</p>
 
 <h2>Motion+ مقابل Flare 2 — من يحتاج أيهم؟</h2>
-<p>الفرق السعري بينهم مش كبير (100-200ج)، لكن الفرق في الفلسفة كبير جداً. Motion+ مصمم للاستماع — كل حاجة فيه خدمة الصوت. Flare 2 مصمم للاجتماعية — كل حاجة فيه خدمة الجو والمشاركة.</p>
+<p>السعر في كايرو فولت: Motion+ بـ {{price:anker-soundcore-motion-plus}} جنيه وFlare 2 بـ {{price:anker-soundcore-flare-2}} جنيه، لكن الفرق الأكبر في الفلسفة. Motion+ مصمم للاستماع — كل حاجة فيه خدمة الصوت. Flare 2 مصمم للاجتماعية — كل حاجة فيه خدمة الجو والمشاركة.</p>
 
 <div class="expert-callout" style="background:#f0fdf4;border:1px solid #6ee7b7;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#166534;font-weight:bold;">اختر Motion+ لو:</p>
@@ -194,33 +194,21 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
 </div>
 
 <h2>البطارية والعملية اليومية</h2>
-<p>12 ساعة هو رقم الشركة المصنعة عند 60% صوت — وعملياً الرقم بيقل مع رفع الصوت: عند مستويات صوت أعلى توقّع نطاق من 7 لـ 11 ساعة تقريباً. وقت الشحن من 0 لـ 100% حوالي 4 ساعات وفق المواصفات المعلنة. ده ممتاز — يعني شحنة ليلة هتكفيك يوم كامل.</p>
+<p>12 ساعة هو رقم الشركة المصنعة، والرقم بيقل مع رفع الصوت: على عيّنتنا قسنا 11 ساعة و28 دقيقة عند 50% صوت، و5 ساعات و52 دقيقة عند 100% صوت. وقت الشحن من 0 لـ 100% حوالي 4 ساعات وفق المواصفات المعلنة. ده ممتاز — يعني شحنة ليلة هتكفيك يوم كامل.</p>
 <p>IPX7 بيخليه تاخده الحمام أو تستخدمه على السطح في الأمطار من غير قلق. الـ 830 جرام وزنه مناسب للحمل لكن مش "خفيف" — أثقل من Flare 2 (700 جرام) بمقدار محسوس.</p>
 <p>مقارنة Motion+ بغيره من السبيكرات؟ اقرأ <a href="/blog/bluetooth-speaker-office-home-2000-egp" style="color:#2563eb;font-weight:600;">أفضل سبيكرات المكتب والمنزل تحت 2000ج</a>.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">Soundcore Motion+ الأصلي على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        أصلي 100% بضمان رسمي Anker — بـ 4,500-5,500ج. توصيل لكل المحافظات + دفع عند الاستلام. <a href="/soundcore/speakers/anker-soundcore-motion-plus" style="color:#166534;font-weight:600;text-decoration:underline;">اشتري Motion+ دلوقتي</a>
+        أصلي 100% بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) — بـ {{price:anker-soundcore-motion-plus}} جنيه. توصيل لكل المحافظات + دفع عند الاستلام. <a href="/soundcore/speakers/anker-soundcore-motion-plus" style="color:#166534;font-weight:600;text-decoration:underline;">اشتري Motion+ دلوقتي</a>
     </p>
 </div>` ,
             faq: [
-                {
-                    question: 'هل Hi-Res Audio بيعمل فرق لو بسمع على Spotify؟',
-                    answer: 'بشكل جزئي. Spotify حتى بجودة 320kbps هو "Lossy" — مش Hi-Res. ستستفيد من جودة مكبرات Motion+ لكن مش من شهادة Hi-Res بالكامل. الاستفادة الكاملة تيجي من تشغيل ملفات FLAC (24-bit/96kHz+) أو استخدام Tidal HiFi. مع ذلك، Motion+ يبان أوضح من سبيكرات عادية حتى مع Spotify — لأن المكبرات ذاتها بجودة أعلى.'
-                },
-                {
-                    question: 'BassUp بيشتغل تلقائياً ولا محتاج أفعّله؟',
-                    answer: 'BassUp بيشتغل من التطبيق Soundcore. بتدخل على EQ وبتختار وضع BassUp — بعدها بيشتغل تلقائياً مع كل أغنية. ممكن تشيله في أي وقت لو حسيت الباس تقيل. الوضع الافتراضي الخارج من المصنع مش بيكون BassUp — محتاج تفعّله أول مرة.'
-                },
-                {
-                    question: 'Motion+ أفضل من JBL Charge 5 في نفس السعر؟',
-                    answer: 'كل منهم بيفضل في ناحية مختلفة. Motion+ أفضل في نقاء الصوت والتفاصيل (Hi-Res، تويتر مخصص، BassUp ذكي). JBL Charge 5 أفضل في البطارية (20 ساعة مقابل 12)، وبيقدر يشحن جهازك كـ power bank، وبناء أصلب. لو بتهتم بالصوت — Motion+. لو بتهتم بالمتانة والبطارية — Charge 5.'
-                },
-                {
-                    question: 'هل Motion+ مناسب لجلسات خارجية كبيرة؟',
-                    answer: 'للمجموعات الصغيرة (6-8 أشخاص) في فضاء متوسط — نعم، 30W كافية. للأماكن الكبيرة أو أماكن بفيها ضجيج خارجي عالي — مش كافي. المشكلة إن Motion+ صوته اتجاهي (مش 360° زي Flare 2)، يعني الناس اللي خلف السبيكر بتسمعوا أقل. للخروجات الكبيرة: Rave Neo أفضل.'
-                }
+                { question: 'هل Hi-Res Audio بيعمل فرق لو بسمع على Spotify؟', answer: 'بشكل جزئي. Spotify حتى بجودة 320kbps هو "Lossy" — مش Hi-Res. هتستفيد من جودة مكبرات Motion+ لكن مش من شهادة Hi-Res بالكامل. الاستفادة الكاملة بتيجي من تشغيل ملفات FLAC (24-bit/96kHz+) أو خدمة عالية الدقة زي Tidal.' },
+                { question: 'BassUp بيشتغل تلقائياً ولا محتاج أفعّله؟', answer: 'BassUp بيشتغل من تطبيق Soundcore. بتدخل على EQ وبتختار وضع BassUp — بعدها بيشتغل تلقائياً مع كل أغنية. ممكن تشيله في أي وقت لو حسيت الباس تقيل. الوضع الافتراضي من المصنع مش بيكون BassUp — محتاج تفعّله أول مرة.' },
+                { question: 'Motion+ ولا JBL Charge 5؟', answer: 'كل واحد بيتفوق في ناحية. Motion+ ({{price:anker-soundcore-motion-plus}} جنيه في كايرو فولت) مركّز على نقاء الصوت والتفاصيل: Hi-Res وتويتر مخصص وBassUp. JBL Charge 5 ({{price:jbl-charge-5}} جنيه) بطاريته أطول (20 ساعة معلنة مقابل 12)، وبيقدر يشحن موبايلك كـ power bank. لو بتهتم بالصوت — Motion+. لو بتهتم بالبطارية والمتانة — Charge 5.' },
+                { question: 'هل Motion+ مناسب لجلسات خارجية كبيرة؟', answer: 'للمجموعات الصغيرة (6-8 أشخاص) في مكان متوسط — نعم، 30 واط كفاية. للأماكن الكبيرة أو الأماكن اللي فيها ضوضاء خارجية عالية — مش كفاية، لأن صوت Motion+ اتجاهي (مش 360° زي Flare 2)، فاللي ورا السبيكر بيسمعوا أقل. للخروجات الكبيرة: سبيكر حفلات أكبر زي Soundcore Rave 3.' },
             ]
         },
         en: {
@@ -229,12 +217,12 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
             metaDescription: 'Soundcore Motion+ 30W review: Hi-Res Audio certification, BassUp technology, IPX7 waterproof rating, battery life, EGP pricing, and sound quality.',
             keywords: 'soundcore motion plus review, soundcore motion plus hi res audio, motion plus 30w bass test, bassup technology explained, hi res audio bluetooth speaker egypt, soundcore motion plus price egypt, flare 2 vs motion plus comparison, home office speaker egypt, 30w bluetooth speaker, soundcore motion plus flac',
             excerpt: 'Motion+ claims the "Clarity King" title in the mid-range category with Hi-Res Audio certification, 30W, and BassUp. We analyzed the published specs and user experiences — the truth is not all rosy, but there are plenty of genuine surprises.',
-            quickAnswer: 'Soundcore Motion+ 30W earns the "Clarity King" title in the 4,500-5,500 EGP price range. Hi-Res Audio makes a real difference with detail-rich music. BassUp is smarter than standard EQ bass boost. 12-hour battery, IPX7. Not suited for parties (no LED or PartyCast). Ideal for serious home listening.',
+            quickAnswer: 'The Soundcore Motion+ suits serious listening at home and in the office: 30W and Hi-Res Audio certification, which matters most with FLAC and high-resolution streaming. Battery is up to 12 hours listed (we measured 11 h 28 min at 50% volume on our sample), with IPX7. It costs EGP {{price:anker-soundcore-motion-plus}} at CairoVolt. Not for parties: no LED and no PartyCast.',
             content: `<p>The Motion+ arrives with a bold claim: Hi-Res Audio in the mid-range speaker category. This title means it reproduces frequencies up to 40,000Hz — far beyond normal human hearing range. The debate? Is this real and does it make a tangible difference, or is it just a marketing label? We dug into the published specs and independent measurements — and the answer sits in the middle.</p>
 
 <div class="quick-answer-inline" style="background:#f0fdf4;border-left:4px solid #059669;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#166534;">
-        <strong>Quick Verdict:</strong> Motion+ is the best Bluetooth speaker in the 4,500-5,500 EGP range for serious listening and high-fidelity output. Hi-Res makes a real difference with detail-rich music. BassUp is a genuinely smart technology. But without LED and PartyCast — it is not for parties.
+        <strong>Quick Verdict:</strong> At EGP {{price:anker-soundcore-motion-plus}} at CairoVolt, the Motion+ is a strong choice for serious listening and high-fidelity output. Hi-Res makes a real difference with detail-rich music. BassUp is a genuinely smart technology. But without LED and PartyCast — it is not for parties.
     </p>
 </div>
 
@@ -266,7 +254,7 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:11px;border:1px solid #bbf7d0;">Battery</td>
-            <td style="padding:11px;border:1px solid #bbf7d0;">6,700mAh — 12 hours at 60% volume</td>
+            <td style="padding:11px;border:1px solid #bbf7d0;">6,700mAh — up to 12h listed (we measured 11h 28min at 50% volume)</td>
         </tr>
         <tr>
             <td style="padding:11px;border:1px solid #bbf7d0;">Water Resistance</td>
@@ -289,8 +277,8 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
             <td style="padding:11px;border:1px solid #bbf7d0;">None</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:11px;border:1px solid #bbf7d0;">Price in Egypt</td>
-            <td style="padding:11px;border:1px solid #bbf7d0;color:#059669;font-weight:bold;">4,500 — 5,500 EGP</td>
+            <td style="padding:11px;border:1px solid #bbf7d0;">Price at CairoVolt</td>
+            <td style="padding:11px;border:1px solid #bbf7d0;color:#059669;font-weight:bold;">EGP {{price:anker-soundcore-motion-plus}}</td>
         </tr>
     </tbody>
 </table>
@@ -365,11 +353,11 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
 <h2>Charging Safeguards in Egyptian Power Grids</h2>
 <p>To shield the internal lithium-ion batteries and charging circuits of the Motion+ from voltage fluctuations and spikes common in local power networks, follow these guidelines: Do not charge the speaker using high-wattage mobile chargers (33W, 67W, or higher). These can cause excess heat buildup and accelerate battery degradation. Use a standard 5W (5V/1A) wall plug or charge via a computer USB port. Also, avoid leaving the device plugged in overnight to protect the cell capacity over long-term usage cycles.</p>
 
-<h2>Official Local Warranty and Technical Support in Egypt</h2>
-<p>Buyers of all original Soundcore speakers in Egypt receive a comprehensive 18-month written store warranty from CairoVolt, an independent online retailer. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or speaker driver failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim through CairoVolt customer support.</p>
+<h2>CairoVolt store warranty and support in Egypt</h2>
+<p>Buyers of all original Soundcore speakers in Egypt receive CairoVolt's written store warranty (duration shown on each product page) — CairoVolt is an independent online retailer. It covers manufacturing defects such as sudden battery degradation or speaker driver failures; replacement or refund follows the inspection result and the published warranty terms. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim through CairoVolt customer support.</p>
 
 <h2>Motion+ vs Flare 2 — Who Needs Which?</h2>
-<p>The price difference between them is not large (100-200 EGP), but the philosophical difference is significant. Motion+ is designed for listening — everything in it serves the sound. Flare 2 is designed for sociability — everything in it serves atmosphere and sharing.</p>
+<p>At CairoVolt the Motion+ is EGP {{price:anker-soundcore-motion-plus}} and the Flare 2 is EGP {{price:anker-soundcore-flare-2}}, but the bigger difference is philosophical. Motion+ is designed for listening — everything in it serves the sound. Flare 2 is designed for sociability — everything in it serves atmosphere and sharing.</p>
 
 <div class="expert-callout" style="background:#f0fdf4;border:1px solid #6ee7b7;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#166534;font-weight:bold;">Choose Motion+ if:</p>
@@ -390,33 +378,21 @@ export const soundcore_motion_plus_30w_hi_res_speaker_review: BlogArticle = {
 </div>
 
 <h2>Battery and Daily Practicality</h2>
-<p>12 hours is the manufacturer's figure at 60% volume — in practice the number drops as you raise the volume: at higher listening levels expect roughly 7 to 11 hours. Charging time from 0 to 100% is around 4 hours per the published specs. This is excellent — an overnight charge covers a full day.</p>
+<p>12 hours is the manufacturer's figure, and runtime drops as you raise the volume: on our sample we measured 11 h 28 min at 50% volume and 5 h 52 min at 100%. Charging time from 0 to 100% is around 4 hours per the published specs. This is excellent — an overnight charge covers a full day.</p>
 <p>IPX7 means you can take it to the bathroom or use it on a balcony in rain without worry. The 830-gram weight is manageable to carry but not "light" — noticeably heavier than the Flare 2 (700 grams).</p>
 <p>For a comparison of Motion+ against other home and office speakers, read <a href="/en/blog/bluetooth-speaker-office-home-2000-egp" style="color:#2563eb;font-weight:600;">Best Office and Home Speakers Under 2,000 EGP</a>.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">Genuine Soundcore Motion+ on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        100% authentic with official Anker warranty — 4,500-5,500 EGP. Delivery to all governorates + cash on delivery. <a href="/en/soundcore/speakers/anker-soundcore-motion-plus" style="color:#166534;font-weight:600;text-decoration:underline;">Buy Motion+ Now</a>
+        100% authentic, with an invoice and CairoVolt's written store warranty (duration shown on each product page) — EGP {{price:anker-soundcore-motion-plus}}. Delivery to all governorates + cash on delivery. <a href="/en/soundcore/speakers/anker-soundcore-motion-plus" style="color:#166534;font-weight:600;text-decoration:underline;">Buy Motion+ Now</a>
     </p>
 </div>`,
             faq: [
-                {
-                    question: 'هل Hi-Res Audio بيعمل فرق لو بسمع على Spotify؟',
-                    answer: 'بشكل جزئي. Spotify حتى بجودة 320kbps هو "Lossy" — مش Hi-Res. ستستفيد من جودة مكبرات Motion+ لكن مش من شهادة Hi-Res بالكامل. الاستفادة الكاملة تيجي من تشغيل ملفات FLAC (24-bit/96kHz+) أو استخدام Tidal HiFi. مع ذلك، Motion+ يبان أوضح من سبيكرات عادية حتى مع Spotify — لأن المكبرات ذاتها بجودة أعلى.'
-                },
-                {
-                    question: 'BassUp بيشتغل تلقائياً ولا محتاج أفعّله؟',
-                    answer: 'BassUp بيشتغل من التطبيق Soundcore. بتدخل على EQ وبتختار وضع BassUp — بعدها بيشتغل تلقائياً مع كل أغنية. ممكن تشيله في أي وقت لو حسيت الباس تقيل. الوضع الافتراضي الخارج من المصنع مش بيكون BassUp — محتاج تفعّله أول مرة.'
-                },
-                {
-                    question: 'Motion+ أفضل من JBL Charge 5 في نفس السعر؟',
-                    answer: 'كل منهم بيفضل في ناحية مختلفة. Motion+ أفضل في نقاء الصوت والتفاصيل (Hi-Res، تويتر مخصص، BassUp ذكي). JBL Charge 5 أفضل في البطارية (20 ساعة مقابل 12)، وبيقدر يشحن جهازك كـ power bank، وبناء أصلب. لو بتهتم بالصوت — Motion+. لو بتهتم بالمتانة والبطارية — Charge 5.'
-                },
-                {
-                    question: 'هل Motion+ مناسب لجلسات خارجية كبيرة؟',
-                    answer: 'للمجموعات الصغيرة (6-8 أشخاص) في فضاء متوسط — نعم، 30W كافية. للأماكن الكبيرة أو أماكن بفيها ضجيج خارجي عالي — مش كافي. المشكلة إن Motion+ صوته اتجاهي (مش 360° زي Flare 2)، يعني الناس اللي خلف السبيكر بتسمعوا أقل. للخروجات الكبيرة: Rave Neo أفضل.'
-                }
+                { question: 'Does Hi-Res Audio make a difference if I listen on Spotify?', answer: 'Partly. Even at 320kbps, Spotify is lossy — not Hi-Res. You benefit from the Motion+ drivers but not fully from the Hi-Res certification. The full benefit comes from FLAC files (24-bit/96kHz+) or a high-resolution service such as Tidal.' },
+                { question: 'Does BassUp turn on automatically or do I need to enable it?', answer: 'BassUp is enabled from the Soundcore app: open EQ and choose BassUp, and it then applies automatically to every track. You can turn it off any time if the bass feels too heavy. It is not on by default out of the box — you need to enable it the first time.' },
+                { question: 'Motion+ or JBL Charge 5?', answer: 'Each one wins in a different area. The Motion+ (EGP {{price:anker-soundcore-motion-plus}} at CairoVolt) focuses on clarity and detail: Hi-Res, a dedicated tweeter and BassUp. The JBL Charge 5 (EGP {{price:jbl-charge-5}}) has a longer listed battery (20 hours vs 12) and can charge your phone as a power bank. If sound matters most — Motion+. If battery and toughness matter most — Charge 5.' },
+                { question: 'Is the Motion+ suitable for large outdoor gatherings?', answer: 'For small groups (6–8 people) in a medium-sized space — yes, 30W is enough. For large spaces or places with loud background noise — no, because the Motion+ is directional (not 360° like the Flare 2), so people behind the speaker hear less. For big outings, choose a larger party speaker such as the Soundcore Rave 3.' },
             ]
         }
     }

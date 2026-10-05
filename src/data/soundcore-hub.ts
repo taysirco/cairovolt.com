@@ -5,6 +5,8 @@
  * overstate information that can change.
  */
 
+import { getStorePolicyFaq } from '@/data/brand-data';
+
 export interface LocalizedString {
     en: string;
     ar: string;
@@ -94,8 +96,8 @@ export const soundcoreHub = {
                 ar: 'يشير Hi-Res إلى قدرة أو اعتماد صوتي مذكور للأجهزة الداعمة، بينما LDAC كودك بلوتوث يحتاج أيضًا إلى مصدر صوت متوافق وإعدادات صحيحة. ايفون لا يرسل LDAC، لذلك تستخدم موديلات ساوندكور الداعمة كودك آخر متاحًا مع iOS.',
             },
             modelExamples: {
-                en: 'Catalogue examples that list LDAC include Liberty 4 NC, Liberty 5, Space One, and Q45. Entry models do not automatically include it.',
-                ar: 'من أمثلة الكتالوج التي تذكر LDAC: Liberty 4 NC وLiberty 5 وSpace One وQ45. وجوده ليس تلقائيًا في الموديلات الاقتصادية.',
+                en: 'Catalogue examples that list LDAC include Liberty 4 NC, Liberty 5, Space One, Q45, and R60i NC. Entry models do not automatically include it.',
+                ar: 'من أمثلة الكتالوج التي تذكر LDAC: Liberty 4 NC وLiberty 5 وSpace One وQ45 وR60i NC. وجوده ليس تلقائيًا في الموديلات الاقتصادية.',
             },
             icon: 'music',
             href: '/soundcore/audio',
@@ -143,4 +145,25 @@ export const soundcoreHub = {
             href: '/soundcore/speakers',
         },
     ] as SoundcoreTechnologyGlossaryItem[],
+    /**
+     * Single FAQ source for the Soundcore hub: the HTML accordion
+     * (app/[locale]/soundcore/page.tsx) and the markdown twin
+     * (lib/agent-hub-markdown.ts) both render this. Warranty, returns and
+     * shipping use the shared store-policy wording built from the enforcing
+     * constants instead of "eligibility and duration vary by product".
+     */
+    faq: {
+        ar: [
+            { question: 'ما علاقة ساوندكور بانكر؟', answer: 'ساوندكور علامة متخصصة في الصوتيات ضمن عائلة انكر. يعرض كايرو فولت منتجاتها في قسم السماعات الشخصية وقسم مكبرات الصوت.' },
+            { question: 'كيف أختار بين أقسام ساوندكور؟', answer: 'اختر قسم audio للايربودز والهيدفون، وقسم speakers لمكبرات الصوت المحمولة. راجع صفحة المنتج للتأكد من المواصفات والتوافق والتوافر.' },
+            ...getStorePolicyFaq('ar'),
+            { question: 'هل تطبيق ساوندكور يثبت أصالة المنتج؟', answer: 'توافق المنتج مع التطبيق ميزة تشغيلية وليس شهادة مستقلة من الشركة المصنّعة لإثبات الأصالة. راجع بيانات الموديل والفاتورة وأدوات الشركة المصنّعة إن وُجدت.' },
+        ],
+        en: [
+            { question: 'How are Soundcore and Anker related?', answer: 'Soundcore is an audio brand in the Anker family. CairoVolt groups its products into personal-audio and Bluetooth-speaker sections.' },
+            { question: 'Which Soundcore category should I choose?', answer: 'Use the audio section for earbuds and headphones, and the speakers section for portable speakers. Check each product page for specifications, compatibility, and availability.' },
+            ...getStorePolicyFaq('en'),
+            { question: 'Does the Soundcore app prove that a product is authentic?', answer: 'App compatibility is an operating feature, not an independent manufacturer authenticity certificate. Check the model details, invoice, and any manufacturer verification tools that are available.' },
+        ],
+    } as { ar: Array<{ question: string; answer: string }>; en: Array<{ question: string; answer: string }> },
 };

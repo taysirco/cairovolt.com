@@ -93,24 +93,24 @@ export const anker_prime_a2688_100w_charger_detail: ProductDetail = {
             ar: '100–240V AC 50/60Hz — اختُبر على 220V. العيّنة: US Type-A قابل للطي — كثير من الفيش المصرية العمومية تقبله؛ ليست Europlug؛ ليست BS 1363 على هذه الوحدة',
         },
         'AC efficiency / no-load': {
-            en: 'NOT MEASURED — no PZEM-004T AC-input pass; we refuse invented efficiency % (§7.1-I/J · §11.3)',
-            ar: 'غير مقاس — لا مرحلة PZEM-004T؛ نرفض اختراع نسبة كفاءة (§7.1-I/J · §11.3)',
+            en: 'NOT MEASURED — no PZEM-004T AC-input pass',
+            ar: 'غير مقاس — لا مرحلة PZEM-004T',
         },
         'Manufacturer operating range': {
             en: 'Anker states 0–25°C — flagged restrictive for hot climates; give 20 cm airflow in Cairo summer',
             ar: 'انكر تعلن 0–25°م — مقيد للمناخات الحارة؛ امنح 20 سم تهوية في صيف القاهرة',
         },
         'Safety / recall (2026-07-24)': {
-            en: 'OCP cut >5.5A @ 20V in ~2s. NOT under recall — anker.com/product-recalls + cpsc.gov re-checked 2026-07-24 (2024–25 Anker recalls = power banks + cables only, no wall chargers). 24-month manufacturer warranty',
-            ar: 'OCP فصل >5.5A على 20V خلال ~2ث. ليس تحت استدعاء — أُعيد الفحص 2026-07-24. ضمان مصنّع 24 شهرًا',
+            en: 'OCP cut >5.5A @ 20V in ~2s. NOT under recall — anker.com/product-recalls + cpsc.gov re-checked 2026-07-24 (2024–25 Anker recalls = power banks + cables only, no wall chargers)',
+            ar: 'OCP فصل >5.5A على 20V خلال ~2ث. ليس تحت استدعاء — أُعيد الفحص 2026-07-24',
         },
         'In the Box': {
             en: 'Charger only — supply a 5A E-marked USB-C cable to unlock 100W',
             ar: 'الشاحن فقط — أحضر كابل USB-C بـ E-marker 5A لفتح 100 واط',
         },
         'Protocol': {
-            en: 'CairoVolt Bench Test Protocol §7.1 (multi-port wall) + §8 physics gates + §11 red-flag checklist',
-            ar: 'بروتوكول اختبار كايرو فولت §7.1 (حائط متعدد المنافذ) + بوابات §8 + قائمة أعلام §11',
+            en: 'CairoVolt Bench Test Protocol (multi-port wall) + physics gates + red-flag checklist',
+            ar: 'بروتوكول اختبار كايرو فولت (حائط متعدد المنافذ) + بوابات + قائمة أعلام',
         },
     },
     benchTest: {
@@ -124,23 +124,23 @@ export const anker_prime_a2688_100w_charger_detail: ProductDetail = {
         },
         methodology: {
             en:
-                'A2688 was run under CairoVolt wall-charger protocol §7.1 (multi-port) on sample CV-CH-A2688-001 (Eng. Omar Khaled). Primary load data retained from the instrumented pass; 2026-07-24 refresh = identity re-read, FNB58 PDO re-decode on C1/C2/A, recall re-check — no invented same-hour thermal re-A/B vs A2669. ' +
-                '§8 gates: every fixed PDO obeys W=V×A; single-port peak ≤ 100W label; multi-port sum must not be marketed as 100W×N; phone times ≥ Battery_Wh÷(W×~0.90) floor. ' +
+                'A2688 was run under CairoVolt wall-charger protocol (multi-port) on sample CV-CH-A2688-001 (Eng. Omar Khaled). Primary load data retained from the instrumented pass; 2026-07-24 refresh = identity re-read, FNB58 PDO re-decode on C1/C2/A, recall re-check — no invented same-hour thermal re-A/B vs A2669. ' +
+                'Gates: every fixed PDO obeys W=V×A; single-port peak ≤ 100W label; multi-port sum must not be marketed as 100W×N; phone times ≥ Battery_Wh÷(W×~0.90) floor. ' +
                 '(A) FNB58 fw v1.3 PD Info no-load on C1 then C2 — enumerated fixed PDOs 5V/3A · 9V/3A · 12V/3A · 15V/3A · 20V/5A on both C ports when alone; PPS APDO 3.3–21V/5A on top C (C1). USB-A is QC/PowerIQ — not a PD PDO table. Re-decoded unchanged 2026-07-24. ' +
                 '(B–C) Fixed rails ≤35W held 2 min into JUWEI 35W. Rails above JUWEI ceiling (15V/3A=45W, 20V/5A=100W) logged with FNB58 + AVHzY CT-3 inline into MacBook Pro 14" M3 (or dual-instrument agreement ≤1.5%) — we do NOT claim JUWEI held 100W. Single-port peak = 98.4W on C1 20V/5A with A8865. Same C1 with 3A non-E-marked cable = 60.2W (cable limit). ' +
                 '(D) Shared envelope / port collapse: C1+C2 both requesting high PD → 94.2W total (~65/29). C1+C2+A → 89.6W total. Vendor C2+A 12+12W collapse noted as rating honesty (not re-invented as a third simultaneous 100W). ' +
                 '(E) PPS programmed holds on C1 APDO — Samsung SFC 2.0 path verified on Galaxy S24 Ultra at 20V/2.24A = 44.8W. Mid holds 8.5V/2.5A and 9.24V/2.71A class also exercised inside the APDO. ' +
                 '(F) Real devices: MacBook Pro 14" M3 (70Wh) 96.2W / ~32 min to 50%; MacBook Air M2 ~44W; S24 Ultra 44.8W PPS; iPad Pro 13" M4 ~40W; iPhone 15 Pro Max phone-capped ~27W; Switch OLED docked on 15V/3A PDO. ' +
-                '(G) BENETECH GM320 (ε=0.95) after 30 min: 58.4°C @ ~97W single-C; 63.2°C full triple — within §7.1 GaN 100W ≤65°C @ ~28°C ambient guidance. Cross-sheet A2669 56.8°C triple is a different SKU/day — no invented same-hour delta. ' +
+                '(G) BENETECH GM320 (ε=0.95) after 30 min: 58.4°C @ ~97W single-C; 63.2°C full triple — within the GaN 100W ≤65°C @ ~28°C ambient guidance. Cross-sheet A2669 56.8°C triple is a different SKU/day — no invented same-hour delta. ' +
                 '(H) OCP: >5.5A request on 20V cut in ~2s. ' +
-                '(I–J) Vampire / AC efficiency NOT measured — no PZEM-004T; refuse invented %. ' +
+                '(I–J) Vampire / AC efficiency NOT measured — no PZEM-004T. ' +
                 '(K) Weight 168g; dims 44.6×29.1×68.0 mm. ' +
                 '(L) Plug on this sample: foldable US Type-A / NEMA 1-15 — not assumed ME BS 1363. ' +
                 '(M) Recall 2026-07-24: anker.com/product-recalls + cpsc.gov — A2688 not listed. ' +
                 'Independent cross-refs (not our data): anker.com A2688 allocation table; apple.com/support 96W Pro 14 fast-charge; samsung.com Ultra SFC docs; MacRumors iPhone wired cap; Macworld Prime 0–25°C note. Single unit; batches/prong variants may vary.',
             ar:
-                'شُغّل A2688 وفق بروتوكول شواحن الحائط §7.1 (متعدد المنافذ) على العيّنة CV-CH-A2688-001 (م. عمر خالد). بيانات الحمل الأساسية محفوظة؛ تحديث 2026-07-24 = إعادة هوية + إعادة فك PDO + فحص استدعاء — بلا A/B حراري مخترع في نفس الساعة مقابل A2669. ' +
-                'بوابات §8: كل PDO ثابت يطيع W=V×A؛ ذروة المنفذ الواحد ≤ ملصق 100 واط؛ مجموع المنافذ لا يُسوَّق كـ 100×N. ' +
+                'شُغّل A2688 وفق بروتوكول شواحن الحائط (متعدد المنافذ) على العيّنة CV-CH-A2688-001 (م. عمر خالد). بيانات الحمل الأساسية محفوظة؛ تحديث 2026-07-24 = إعادة هوية + إعادة فك PDO + فحص استدعاء — بلا A/B حراري مخترع في نفس الساعة مقابل A2669. ' +
+                'بوابات: كل PDO ثابت يطيع W=V×A؛ ذروة المنفذ الواحد ≤ ملصق 100 واط؛ مجموع المنافذ لا يُسوَّق كـ 100×N. ' +
                 '(A) FNB58 fw v1.3 بلا حمل على C1 ثم C2 — PDO ثابتة 5V/3A · 9V/3A · 12V/3A · 15V/3A · 20V/5A على منفذَي C عند الانفراد؛ APDO لـ PPS 3.3–21V/5A على C العلوي. USB-A فئة QC وليس جدول PD. أُعيد الفك دون تغيير 2026-07-24. ' +
                 '(B–C) السكك ≤35 واط على JUWEI 35W لدقيقتين. فوق سقف JUWEI (15V/3A و20V/5A) عبر FNB58 + AVHzY CT-3 إلى MacBook Pro 14" — لا ندّعي أن JUWEI حمل 100 واط. ذروة المنفذ الواحد 98.4 واط على C1. بنفس المنفذ وكابل 3A = 60.2 واط. ' +
                 '(D) ظرف مشترك / انهيار منافذ: C1+C2 → 94.2 واط (~65/29). الثلاثة → 89.6 واط. انهيار C2+A 12+12 واط من جدول المصنّع موثّق بصدق. ' +
@@ -177,7 +177,7 @@ export const anker_prime_a2688_100w_charger_detail: ProductDetail = {
                 param: { en: 'C1 (top) PDO — 5V/3A', ar: 'C1 (علوي) PDO — 5V/3A' },
                 rated: '15W',
                 measured: '14.8W (5.02V/2.95A)',
-                note: { en: 'JUWEI 2 min — ≥95% of rated (§7.1-B)', ar: 'JUWEI دقيقتان — ≥95% من الاسمي (§7.1-B)' },
+                note: { en: 'JUWEI 2 min — ≥95% of rated', ar: 'JUWEI دقيقتان — ≥95% من الاسمي' },
             },
             {
                 param: { en: 'C1 (top) PDO — 9V/3A', ar: 'C1 (علوي) PDO — 9V/3A' },
@@ -201,7 +201,7 @@ export const anker_prime_a2688_100w_charger_detail: ProductDetail = {
                 param: { en: 'C1 (top) PDO — 20V/5A (E-marked)', ar: 'C1 (علوي) PDO — 20V/5A (E-marker)' },
                 rated: '100W',
                 measured: '98.4W (19.92V/4.94A)',
-                note: { en: '§7.1-C single-port peak — A8865 5A cable; CT-3 cross-check', ar: '§7.1-C ذروة المنفذ الواحد — كابل A8865 5A؛ تحقق CT-3' },
+                note: { en: 'Single-port peak — A8865 5A cable; CT-3 cross-check', ar: 'ذروة المنفذ الواحد — كابل A8865 5A؛ تحقق CT-3' },
             },
             {
                 param: { en: 'C1 same rail WITHOUT E-marked cable (3A)', ar: 'C1 نفس السكة بلا كابل E-marker (3A)' },
@@ -269,23 +269,23 @@ export const anker_prime_a2688_100w_charger_detail: ProductDetail = {
             {
                 param: { en: 'Case temp — full triple load (30 min)', ar: 'حرارة السطح — حمل ثلاثي كامل (30 دقيقة)' },
                 measured: '63.2°C',
-                note: { en: 'Within §7.1 GaN 100W ≤65°C @ ~28°C ambient; expect higher in 35°C Cairo apartment', ar: 'ضمن §7.1 GaN 100W ≤65°م عند ~28°م؛ أتوقع أعلى في شقة 35°م' },
+                note: { en: 'Within GaN 100W ≤65°C @ ~28°C ambient; expect higher in 35°C Cairo apartment', ar: 'ضمن GaN 100W ≤65°م عند ~28°م؛ أتوقع أعلى في شقة 35°م' },
             },
             {
                 param: { en: 'Over-current protection (OCP)', ar: 'حماية التيار الزائد (OCP)' },
                 measured: { en: 'Cuts >5.5A @ 20V in ~2s', ar: 'يفصل >5.5A على 20V خلال ~2ث' },
-                note: { en: '§7.1-H — trip ≤ 3 s', ar: '§7.1-H — فصل ≤ 3 ث' },
+                note: { en: 'Trip ≤ 3 s', ar: 'فصل ≤ 3 ث' },
             },
             {
                 param: { en: 'AC efficiency / no-load draw', ar: 'كفاءة AC / سحب بلا حمل' },
                 measured: { en: 'not measured — no PZEM-004T on this pass', ar: 'غير مقاس — لا PZEM-004T في هذه المرحلة' },
-                note: { en: '§11.3 — we do not invent efficiency %', ar: '§11.3 — لا نخترع نسبة كفاءة' },
+                note: { en: 'Efficiency % not measured', ar: 'نسبة الكفاءة غير مقيسة' },
             },
             {
                 param: { en: 'Plug type (Egypt sample)', ar: 'نوع القابس (عيّنة مصر)' },
                 rated: { en: 'regional variants exist', ar: 'توجد نسخ إقليمية' },
                 measured: { en: 'Foldable US Type-A / NEMA 1-15 on CV-CH-A2688-001 — many Egyptian universal sockets; NOT Europlug; NOT BS 1363', ar: 'US Type-A قابل للطي على العيّنة — كثير من الفيش العمومية المصرية؛ ليست Europlug؛ ليست BS 1363' },
-                note: { en: '§7.1-L honesty from the unit in hand', ar: 'صدق §7.1-L من الوحدة في اليد' },
+                note: { en: 'Honesty from the unit in hand', ar: 'صدق من الوحدة في اليد' },
             },
             {
                 param: { en: 'Weight · dimensions', ar: 'الوزن · الأبعاد' },

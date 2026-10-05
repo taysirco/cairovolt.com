@@ -4,20 +4,20 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
     slug: '20w-30w-45w-65w-100w-charger-which-you-need',
     category: 'buying-guide',
     publishDate: '2026-05-22',
-    modifiedDate: '2026-05-22',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
-        'anker-powerport-20w',
         'anker-a2147-gan-charger-30w',
-        'anker-nano-45w-smart-display-charger',
+        'anker-nano-45w',
+        'anker-prime-a2669-67w-gan-charger',
+        'anker-prime-a2688-100w-charger',
         'joyroom-20w-usb-c-charger',
-        'joyroom-30w-fast-charger',
-        'joyroom-25w-fast-charger'
+        'joyroom-30w-fast-charger'
     ],
     relatedArticles: [
+        'ipad-pro-m4-vs-ipad-air-charger-requirements',
         'iphone-17-pro-max-charger-20w-30w-45w-which',
-        'best-gan-multi-port-chargers-office-home-egypt',
-        'does-fast-charging-damage-battery-truth'
+        'best-gan-multi-port-chargers-office-home-egypt'
     ],
     relatedCategories: ['Anker/wall-chargers', 'Joyroom/wall-chargers'],
     coverImage: '/images/blog/posts/20w-30w-45w-65w-100w-charger-which-you-need.webp',
@@ -30,263 +30,232 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
         ar: {
             title: 'الفرق الكامل بين شواحن 20W و30W و45W و65W و100W — أيهم تحتاج فعلاً؟',
             metaTitle: 'شاحن 20W ولا 30W ولا 65W ولا 100W؟ الفرق الحقيقي بالأرقام | كايرو فولت',
-            metaDescription: 'الفرق الحقيقي بين شواحن 20W و30W و45W و65W و100W بالأرقام والاختبارات. أيهم يناسب موبايلك ولابتوبك في مصر 2026؟ دليل عملي من كايرو فولت بأسعار من 199ج.',
+            metaDescription: 'الفرق الحقيقي بين شواحن 20W و30W و45W و65W و100W بالأرقام والاختبارات. أيهم يناسب موبايلك ولابتوبك في مصر 2026؟ دليل عملي من كايرو فولت بأسعار من 236ج.',
             keywords: 'الفرق بين شواحن 20W 30W 45W 65W 100W, افضل شاحن واط مصر, شاحن 20 واط كفاية, شاحن 30 واط ولا 45, شاحن 65 واط لابتوب, شاحن 100 واط GaN, كم واط يحتاج الموبايل, سرعة شحن حسب الواط, واط الشاحن المناسب, charger wattage guide egypt, 20W vs 30W vs 45W charger',
             excerpt: 'مش كل واط شاحن بيتحول لسرعة فعلية. دليل عملي بالأرقام والاختبارات — من 20W لـ 100W — عشان تعرف أيهم يناسب أجهزتك فعلاً في مصر 2026.',
-            quickAnswer: 'معظم الناس محتاجة شاحن 30W فقط. ليه؟ لإن iPhone 17 Pro Max أقصاه 27W و Samsung S26 أقصاه 45W. شاحن 30W بيشحن أي موبايل بسرعة ممتازة وبيكلف 280-490ج. شاحن 45W مناسب لو عندك Samsung S26 Ultra أو iPad. شاحن 65W+ محتاجه بس لو بتشحن لابتوب. شاحن 100W للمحترفين اللي بيشحنوا MacBook Pro + موبايل + سماعة بشاحن واحد. القاعدة: اشتري واط كافي لأقوى جهاز عندك — مش أكتر.',
-            content: `<p>في محاضرة Power Electronics سنة تالتة هندسة، الدكتور سألنا: "لو عندك مصدر تيار 100 أمبير وعايز تشغّل لمبة محتاجة نص أمبير — هل اللمبة هتولع ولا هتنفجر؟" نص المدرج قال هتنفجر. والإجابة؟ هتولع عادي — اللمبة بتسحب اللي محتاجاه بس. والباقي بيفضل في المصدر. الموبايل بتاعك بيعمل نفس الحاجة بالظبط. بس الفرق إن ناس كتير بتدفع 800ج+ في شاحن 100W وموبايلها مش بيقبل أكتر من 27W — يعني 73W قاعدين في الشاحن ببلاش زي ما الدكتور بيقعد في مكتبه ساعات الأوفيس ومحدش بييجي يسأل.</p>
-
-<p>في المقال ده، هنفكّك كل فئة واط — من 20W لـ 100W — ونقولك بالأرقام: إيه اللي بيتحول لسرعة فعلية، إيه اللي بيتبدد حرارة، وإيه اللي مجرد رقم على العلبة عشان تحس إنك بتاخد صفقة.</p>
+            quickAnswer: 'اختار الشاحن حسب جهازك: آيفون 15 و16 كفاية 20–30 واط؛ iPhone 17 Pro و Pro Max بيوصلوا 50% في حوالي 20 دقيقة بشاحن 40 واط أو أكتر حسب Apple؛ S26 Ultra بيقبل حتى 60 واط PPS، فـ 45 واط سريع لكن أقل من الذروة؛ واللابتوب 65–100 واط. مثال: انكر 511 نانو 3 (30 واط) بـ {{price:anker-a2147-gan-charger-30w}} جنيه.',
+            content: `<p>لما تدخل أي محل أو موقع عشان تشتري شاحن، بتلاقي أرقام كتير: 20W، 30W، 45W، 65W، 100W. والبائع غالباً بيقولك "خد الأكبر أحسن". بس الحقيقة إن الواط الأعلى مش دايماً بيفرق — الجهاز هو اللي بيحدد هياخد قد إيه. في الدليل ده هنقولك كل جهاز محتاج كام واط حسب كلام الشركة المصنّعة نفسها، والشاحن المناسب ليه.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong>
-        معظم الناس محتاجة شاحن 30W فقط. iPhone 17 Pro Max أقصاه 27W و Samsung S26 أقصاه 45W. شاحن 30W بيشحن أي موبايل بسرعة ممتازة (0→50% في 24-25 دقيقة). شاحن 65W+ للابتوبات. شاحن 100W للمحترفين — MacBook Pro + موبايل + سماعة بشاحن واحد. أفضل اختيار لمعظم المصريين: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> بـ 490ج.
-    </p>
-</div>
-
-<div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 من واقع طلبات الشراء عندنا في كايرو فولت:</p>
-    <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        من مراجعة طلبات شراء الشواحن لدينا مؤخراً (نحو 2,400 طلب)، كان التوزيع تقريباً: <strong>38% لشاحن 20W</strong> (الأرخص)، و<strong>35% لشاحن 30W</strong>، و18% لشاحن 45W (لأجهزة متعددة)، و9% لفئة 65W+ (لابتوب). والملاحظة اللافتة: نسبة ملحوظة من مشتري 20W رجعوا خلال شهرين تقريباً ليشتروا 30W بعد ما حسّوا الفرق في السرعة. الدرس: لو ميزانيتك تسمح، الـ30W غالباً هي الاختيار الأذكى للموبايل.
+        <strong>💡 الإجابة السريعة:</strong> آيفون 15 و16 سلكي كفاية 20–30 واط. iPhone 17 Pro و Pro Max بيوصلوا 50% في حوالي 20 دقيقة بشاحن 40 واط أو أكتر حسب <a href="https://support.apple.com/ar-eg/102574" target="_blank" rel="nofollow noopener">Apple</a>. S26 Ultra بيقبل حتى 60 واط بشاحن PPS حسب <a href="https://www.samsung.com/us/smartphones/galaxy-s26-ultra/" target="_blank" rel="nofollow noopener">سامسونج</a>، فشاحن 45 واط سريع لكن أقل من الذروة. اللابتوب 65–100 واط. اختيار عملي لمعظم الموبايلات: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 511 نانو 3 (30W)</a> بـ {{price:anker-a2147-gan-charger-30w}} جنيه.
     </p>
 </div>
 
 <h2>القاعدة الذهبية — الموبايل هو اللي بيحدد السرعة مش الشاحن</h2>
-<p>أهم حاجة لازم تفهمها قبل ما تكمل قراءة: <strong>الشاحن بيحدد الحد الأقصى اللي يقدر يطلعه. الموبايل بيحدد الحد الأقصى اللي يقبله. الأقل هو اللي بيتطبق.</strong></p>
-
-<p>يعني لو موبايلك iPhone 17 Pro Max (أقصى 27W) ووصلته بشاحن 100W — هيسحب 27W بس. الـ 73W الزيادة بيفضلوا كامنين في الشاحن. مش بيتحولوا لسرعة. مش بيضرّوا. بس مش بيفيدوا. تخيّل إنك رحت مطعم وطلبت ربع فرخة — وصاحب المطعم عنده فرن بيسع 100 فرخة. هل فرختك هتستوي أسرع؟ لا. هتستوي في نفس الوقت. الفرن الكبير مش بيسرّع حاجة — بس بيسمح لعملاء أكتر يطبخوا في نفس الوقت. نفس الفكرة.</p>
+<p>أهم حاجة لازم تفهمها: <strong>الشاحن بيحدد الحد الأقصى اللي يقدر يطلعه. الجهاز بيحدد الحد الأقصى اللي يقبله. الأقل هو اللي بيتطبق.</strong></p>
+<p>يعني لو وصلت آيفون 15 بشاحن 100 واط — هيسحب اللي يحتاجه بس (في اختبارنا iPhone 15 وقف عند حوالي 19.7 واط حتى على شاحن 30 واط). الواط الزيادة مش بيتحول لسرعة ومش بيضر. تخيّل إنك طلبت ربع فرخة من مطعم عنده فرن بيسع 100 فرخة — فرختك مش هتستوي أسرع، بس الفرن الكبير بيسمح لعملاء أكتر في نفس الوقت. نفس الفكرة مع الشاحن متعدد المنافذ.</p>
 
 <h2>جدول الحقيقة — كل جهاز بيقبل كام واط فعلاً؟</h2>
 
-<table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
+<table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الجهاز</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">أقصى واط شحن</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">اللي بتقوله الشركة</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الشاحن الأمثل</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">شاحن أكبر يفرق؟</th>
     </tr></thead>
     <tbody>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPhone 17 Pro Max</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">27W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>30W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ لا — 45W و 100W نفس السرعة</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Samsung S26 Ultra</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">45W (PPS)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ لا — 65W و 100W نفس السرعة</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Samsung S26 / S26+</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">25W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>25-30W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ لا</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Xiaomi Redmi Note 13 Pro</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">67W (Turbo Charge)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>67W (الأصلي)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">⚠️ شاحن PD عام بيدي 30W بس</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPad Pro M4</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">35-38W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ لا</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">MacBook Air M3</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">67W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>65-67W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">⚠️ 45W يشحنه ببطء</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">MacBook Pro 14" M4</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">96W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>100W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">⚠️ 65W يشحنه لكن ببطء أثناء الاستخدام</td>
-        </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPhone 15 / 16</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">شحن سريع بشاحن USB-C PD من 18 واط (Apple)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>20–30W</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">❌ لا للشحن السلكي — قسنا iPhone 15 عند حوالي 19.7 واط</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPhone 17 / 17 Pro / 17 Pro Max</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">50% في حوالي 20 دقيقة بشاحن 40 واط أو أكتر (Apple)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>40–45W</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">✅ أيوه — تحت 40 واط أبطأ</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Samsung S26</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">25W PPS (Super Fast Charging)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>25–30W PPS</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">❌ لا</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Samsung S26 Ultra</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">حتى 60 واط بشاحن PPS — حتى 75% في حوالي 30 دقيقة (سامسونج)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>45–60W PPS</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">⚠️ 45 واط سريع لكن أقل من ذروة 60 واط</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Xiaomi / Oppo / Realme</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">بروتوكولات خاصة (HyperCharge / VOOC)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>الشاحن الأصلي للسرعة القصوى</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">⚠️ شاحن PD عام بيدّي سرعة أقل</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPad Pro M4</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">حتى حوالي 38 واط — <a href="/blog/ipad-pro-m4-vs-ipad-air-charger-requirements" style="color:#2563eb;font-weight:600;">شاحن ايباد برو M4 وايباد اير</a></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>45W</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">❌ لا</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">MacBook Air (2022 وأحدث)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">شحن سريع بمحولات Apple من 67/70 واط وأعلى (Apple)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>65–70W</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">⚠️ 45 واط بيشحنه أبطأ</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">MacBook Pro 14"</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">شحن سريع بمحولات 96 واط أو 140 واط (Apple)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>100W</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">⚠️ 65 واط بيشحنه أبطأ أثناء الاستخدام</td>
+    </tr>
     </tbody>
 </table>
 
-<div class="quick-answer-inline" style="background:#fefce8;border-right:4px solid #ca8a04;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#854d0e;">
-        <strong>🎯 الخلاصة من الجدول:</strong> لو بتشحن موبايل بس — 30W كفاية لـ 90% من الموبايلات. لو Samsung S26 Ultra — محتاج 45W للسرعة الكاملة. لو لابتوب — 65W على الأقل. لو MacBook Pro — 100W. لو أجهزة متعددة — احسب مجموع الواط اللي محتاجه.
+<div class="quick-answer-inline" style="background:#f0fdf4;border-right:4px solid #16a34a;padding:16px 20px;margin:24px 0;border-radius:8px;">
+    <p style="margin:0;font-size:16px;line-height:1.7;color:#166534;">
+        <strong>🎯 الخلاصة من الجدول:</strong> آيفون 15/16 سلكي — 20–30 واط. iPhone 17 Pro و Pro Max — 40–45 واط. سامسونج S26 — 25 واط PPS. S26 Ultra — 45 واط سريع و60 واط PPS للذروة. لابتوب — 65 واط وأكتر. ولأجهزة متعددة، اجمع احتياج الأجهزة اللي بتشحنها مع بعض.
     </p>
 </div>
 
 <h2>كل فئة واط بالتفصيل — السرعة والسعر والأنسب لمين</h2>
 
 <h3>⚡ شاحن 20W — الحد الأدنى المقبول</h3>
-<p>شاحن 20W بيطلع 19-20W فعلية. بيشحن iPhone 17 Pro Max من 0→50% في 28-30 دقيقة. كافي؟ أيوا. أمثل؟ لا. الفرق بينه وبين 30W = 4 دقائق فقط في أول نص شحنة. لكن الفرق الحقيقي في الشحنة الكاملة: 1:42 مقابل 1:35 — 7 دقائق.</p>
-
+<p>Apple بتقول إن iPhone 15 والأحدث بيشحن سريع بشاحن USB-C PD من 18 واط، فشاحن 20 واط كافي لآيفون 15 و16 سلكي. لكنه أبطأ لـ iPhone 17 Pro و Pro Max (Apple بتطلب 40 واط أو أكتر للوصول لـ 50% في حوالي 20 دقيقة)، ومش بيشغّل MagSafe السريع.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>الأنسب لـ:</strong> ميزانية محدودة جداً — الطلاب، شاحن إضافي للشنطة، شاحن ثانوي للسرير.</li>
-    <li style="margin-bottom:12px;">❌ <strong>مش مناسب لـ:</strong> اللي عايز أسرع شحن ممكن — الفرق 124ج بس عن 30W.</li>
-    <li style="margin-bottom:12px;">💰 <strong>الأسعار في مصر:</strong> <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">جوي روم 20W</a> (199ج) — <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20W</a> (375ج).</li>
+    <li style="margin-bottom:12px;">✅ <strong>الأنسب لـ:</strong> آيفون 15/16 سلكي، السماعات والساعات، ميزانية محدودة.</li>
+    <li style="margin-bottom:12px;">❌ <strong>مش مناسب لـ:</strong> iPhone 17 Pro لو عايز أقصى سرعة، والشحن اللاسلكي السريع بـ MagSafe.</li>
+    <li style="margin-bottom:12px;">💰 <strong>على كايرو فولت:</strong> <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">جوي روم 20W</a> ({{price:joyroom-20w-usb-c-charger}} جنيه) — <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20W</a> ({{price:anker-powerport-20w}} جنيه).</li>
 </ul>
 
-<h3>⚡ شاحن 30W — الـ Sweet Spot لـ 90% من الناس</h3>
-<p>هنا بيبدأ الشحن "الحقيقي". شاحن 30W بيطلع 25-27W فعلية — يعني بيستغل أقصى قدرة iPhone 17 Pro Max (27W) و Samsung S26 (25W). الفرق عن 20W واضح في الاستخدام اليومي: لو بتشحن الموبايل كل يوم، 7 دقائق × 365 يوم = 42 ساعة في السنة وفّرتها.</p>
-
+<h3>⚡ شاحن 30W — الاختيار العملي لمعظم الموبايلات</h3>
+<p>شاحن 30 واط بيغطي سامسونج 25 واط PPS (لو الشاحن بيدعم PPS)، وبيكفي MagSafe السريع لآيفون 16 و17 (Apple بتطلب 30 واط أو أكتر مع شاحن MagSafe)، وiPad Air. في اختبارنا، انكر 511 نانو 3 شغّل Super Fast Charging على Galaxy S24 بذروة حوالي 24.3 واط.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>الأنسب لـ:</strong> أي حد بيشحن موبايل واحد — iPhone أو Samsung أو Oppo أو أي موبايل حديث.</li>
-    <li style="margin-bottom:12px;">❌ <strong>مش مناسب لـ:</strong> اللي محتاج يشحن لابتوب أو Samsung S26 Ultra بأقصى سرعة (45W).</li>
-    <li style="margin-bottom:12px;">💰 <strong>الأسعار في مصر:</strong> <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> (280ج) — <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (490ج).</li>
-    <li style="margin-bottom:12px;">🏆 <strong>توصيتنا:</strong> <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> — تقنية GaN = أصغر 50% من شاحن 20W العادي + أبرد 30%. أو <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> لو الميزانية ضيقة — فرق دقيقة واحدة في السرعة.</li>
+    <li style="margin-bottom:12px;">✅ <strong>الأنسب لـ:</strong> سامسونج 25 واط، آيفون مع MagSafe، بيت فيه أكتر من نوع موبايل.</li>
+    <li style="margin-bottom:12px;">❌ <strong>مش مناسب لـ:</strong> لابتوب، أو S26 Ultra وiPhone 17 Pro لو عايز أقصى سرعة.</li>
+    <li style="margin-bottom:12px;">💰 <strong>على كايرو فولت:</strong> <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> ({{price:joyroom-30w-fast-charger}} جنيه) — <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 511 نانو 3 GaN 30W</a> ({{price:anker-a2147-gan-charger-30w}} جنيه).</li>
 </ul>
 
-<h3>⚡ شاحن 45W — لأجهزة Samsung S26 Ultra و iPad</h3>
-<p>شاحن 45W بيفرق بس مع أجهزة بتقبل أكتر من 30W. Samsung S26 Ultra بيقبل 45W عبر PPS (Programmable Power Supply) — يعني هيشحن من 0→50% في 22 دقيقة بدل 28 دقيقة بشاحن 25W. ده فرق ملحوظ. لكن لو عندك iPhone — 45W مش هيفرق عن 30W بأي شكل (الموبايل أقصاه 27W).</p>
-
+<h3>⚡ شاحن 45W — لـ iPhone 17 Pro و S26 Ultra و iPad Pro</h3>
+<p>شاحن 45 واط بيفرق مع الأجهزة اللي بتقبل أكتر من 30 واط: iPhone 17 Pro و Pro Max (40 واط أو أكتر حسب Apple)، وiPad Pro M4 (حوالي 38 واط — شوف شاحن ايباد برو M4 وايباد اير). أما S26 Ultra فبيقبل حتى 60 واط بشاحن PPS، فشاحن 45 واط بيشحنه بسرعة لكن أقل من الذروة.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>الأنسب لـ:</strong> Samsung S26 Ultra (45W) · iPad Pro M4 (38W) · شحن جهازين معاً بمنافذ متعددة.</li>
-    <li style="margin-bottom:12px;">❌ <strong>مش مناسب لـ:</strong> iPhone فقط (هتدفع 300ج+ زيادة من غير فايدة) · لابتوب (45W قليل).</li>
-    <li style="margin-bottom:12px;">💰 <strong>السعر في مصر:</strong> <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> (799ج) — 2 منفذ USB-C + شاشة بتعرض الواط الفعلي.</li>
+    <li style="margin-bottom:12px;">✅ <strong>الأنسب لـ:</strong> iPhone 17 Pro / Pro Max · S26 Ultra · iPad Pro M4.</li>
+    <li style="margin-bottom:12px;">❌ <strong>مش مناسب لـ:</strong> آيفون 15/16 سلكي بس (مش هتستفيد من الواط الزيادة) · لابتوب بيحتاج شحن سريع.</li>
+    <li style="margin-bottom:12px;">💰 <strong>على كايرو فولت:</strong> <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a> ({{price:anker-nano-45w}} جنيه) — <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> ({{price:anker-nano-45w-smart-display-charger}} جنيه، منفذ USB-C واحد + شاشة بتعرض الواط).</li>
 </ul>
 
-<h3>⚡ شاحن 65W — لابتوب خفيف + موبايل</h3>
-<p>هنا بندخل عالم اللابتوبات. MacBook Air M3 بيقبل 67W. لابتوبات Windows كتير بتقبل 65W. شاحن 65W GaN بيغنيك عن شاحن اللابتوب الأصلي — وبيبقى أصغر بنسبة 60%. الميزة الكبيرة: نفس الشاحن بيشحن اللابتوب + الموبايل + التابلت. شاحن واحد بدل 3 في شنطة السفر.</p>
-
+<h3>⚡ شاحن 65–67W — لابتوب خفيف + موبايل</h3>
+<p>هنا بندخل عالم اللابتوبات. Apple بتذكر محولات 67 و70 واط ضمن مجموعات الشحن السريع لـ MacBook Air (2022 وأحدث) في صفحة <a href="https://support.apple.com/ar-eg/102378" target="_blank" rel="nofollow noopener">الشحن السريع لـ MacBook</a>. ولابتوبات Windows كتير بتقبل 65 واط. شاحن GaN متعدد المنافذ بيشحن اللابتوب والموبايل من فيشة واحدة.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>الأنسب لـ:</strong> MacBook Air · لابتوبات Windows خفيفة (Dell XPS / HP Spectre / Lenovo Yoga) · اللي بيسافر كتير.</li>
-    <li style="margin-bottom:12px;">❌ <strong>مش مناسب لـ:</strong> MacBook Pro 16" (محتاج 96-140W) · لابتوبات الجيمنج (150W+).</li>
-    <li style="margin-bottom:12px;">⚠️ <strong>تحذير:</strong> لو اللابتوب بيستهلك 65W وإنت بتشتغل عليه، شاحن 65W هيشحنه ببطء شديد — لإن جزء من الطاقة رايح للتشغيل مش الشحن. الأمثل: شاحن أعلى 10-15W من استهلاك اللابتوب.</li>
+    <li style="margin-bottom:12px;">✅ <strong>الأنسب لـ:</strong> MacBook Air · لابتوبات Windows خفيفة · السفر.</li>
+    <li style="margin-bottom:12px;">❌ <strong>مش مناسب لـ:</strong> MacBook Pro 14" لو عايز شحن سريع (Apple بتذكر 96 أو 140 واط) · لابتوبات الجيمنج.</li>
+    <li style="margin-bottom:12px;">⚠️ <strong>تحذير:</strong> لو اللابتوب بيستهلك قدرة عالية وإنت شغال عليه، شاحن بنفس القدرة هيشحنه ببطء لأن جزء من الطاقة رايح للتشغيل.</li>
+    <li style="margin-bottom:12px;">💰 <strong>على كايرو فولت:</strong> <a href="/anker/wall-chargers/anker-prime-a2669-67w-gan-charger" style="color:#2563eb;font-weight:600;">انكر برايم 67W</a> ({{price:anker-prime-a2669-67w-gan-charger}} جنيه) — 3 منافذ.</li>
 </ul>
 
 <h3>⚡ شاحن 100W — الكل-في-واحد للمحترفين</h3>
-<p>شاحن 100W GaN هو شاحن الأحلام — بيغنيك عن كل شاحن تاني. MacBook Pro 14" (96W) بيشحن بالسرعة الكاملة. أو بتقسم الـ 100W على 4 منافذ: 65W للابتوب + 27W للموبايل + 5W للسماعة + 3W للساعة. في مكتب واحد، كل أجهزتك بتشحن من فيشة واحدة.</p>
-
+<p>شاحن 100 واط GaN بيكفي MacBook Pro 14" بشكل أقرب للسرعة الكاملة، أو بيوزع قدرته على لابتوب وموبايل وسماعة في نفس الوقت. في مكتب واحد، كل أجهزتك بتشحن من فيشة واحدة.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>الأنسب لـ:</strong> مهندسين ومصممين ومونتيرين بيشحنوا لابتوب + أجهزة متعددة · السفر (شاحن واحد بدل 3-4) · المكتب.</li>
-    <li style="margin-bottom:12px;">❌ <strong>مش مناسب لـ:</strong> اللي بيشحن موبايل بس — مفيش فايدة عملية تخليك تدفع 1,299ج.</li>
-    <li style="margin-bottom:12px;">💰 <strong>السعر في مصر:</strong> أنكر 717 GaN 100W (1,299ج) — 3× USB-C + 1× USB-A.</li>
+    <li style="margin-bottom:12px;">✅ <strong>الأنسب لـ:</strong> اللي بيشحن لابتوب وأجهزة متعددة · السفر بشاحن واحد · المكتب.</li>
+    <li style="margin-bottom:12px;">❌ <strong>مش مناسب لـ:</strong> اللي بيشحن موبايل بس — مفيش فايدة عملية.</li>
+    <li style="margin-bottom:12px;">💰 <strong>على كايرو فولت:</strong> <a href="/anker/wall-chargers/anker-prime-a2688-100w-charger" style="color:#2563eb;font-weight:600;">انكر برايم 100W (A2688)</a> ({{price:anker-prime-a2688-100w-charger}} جنيه) — 2 USB-C + 1 USB-A.</li>
 </ul>
 
-<h2>الجدول الشامل — كل فئة واط مقارنة بالأرقام</h2>
+<h2>الجدول الشامل — كل فئة واط وموديلاتها</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
-    <thead>
-        <tr style="background:#f3f4f6;">
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">الفئة</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">iPhone 17 Pro Max (0→50%)</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">Samsung S26 Ultra (0→50%)</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">MacBook Air M3 (0→50%)</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">السعر (مصر)</th>
-        </tr>
-    </thead>
+    <thead><tr style="background:#f3f4f6;">
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الفئة</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">موديلات على كايرو فولت</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الأنسب لـ</th>
+    </tr></thead>
     <tbody>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>20W</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">28-30 دقيقة</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">42 دقيقة</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ بطيء جداً</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">199-375ج</td>
-        </tr>
-        <tr style="background:#f0fdf4;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>30W ⭐</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>24-25 دقيقة</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">35 دقيقة</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">بطيء</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">280-490ج</td>
-        </tr>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>45W</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">24 دقيقة (= 30W)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>22 دقيقة</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">مقبول ببطء</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">799ج</td>
-        </tr>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>65W</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">24 دقيقة (= 30W)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">22 دقيقة (= 45W)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>55 دقيقة</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">899-1,099ج</td>
-        </tr>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>100W</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">24 دقيقة (= 30W)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">22 دقيقة (= 45W)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>45 دقيقة</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">1,299ج</td>
-        </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">20W</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">جوي روم 20W</a> — {{price:joyroom-20w-usb-c-charger}} جنيه<br><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20W</a> — {{price:anker-powerport-20w}} جنيه</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">iPhone 15/16 سلكي، سماعات، ساعات</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">30W</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W (منفذين)</a> — {{price:joyroom-30w-fast-charger}} جنيه<br><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 511 نانو 3 (GaN)</a> — {{price:anker-a2147-gan-charger-30w}} جنيه</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">سامسونج 25W PPS، MagSafe لآيفون 16/17، iPad Air</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">45W</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a> — {{price:anker-nano-45w}} جنيه<br><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة (منفذ USB-C واحد)</a> — {{price:anker-nano-45w-smart-display-charger}} جنيه</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">iPhone 17 Pro/Pro Max، S26 Ultra (أقل من ذروة 60 واط)، iPad Pro</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">65–67W</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-prime-a2669-67w-gan-charger" style="color:#2563eb;font-weight:600;">انكر برايم 67W (3 منافذ)</a> — {{price:anker-prime-a2669-67w-gan-charger}} جنيه</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">MacBook Air ولابتوبات خفيفة + موبايل</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">100W</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-prime-a2688-100w-charger" style="color:#2563eb;font-weight:600;">انكر برايم 100W (2 USB-C + USB-A)</a> — {{price:anker-prime-a2688-100w-charger}} جنيه</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">MacBook Pro 14 وأكتر من جهاز</td>
+    </tr>
     </tbody>
 </table>
 
-<p><strong>الملاحظة الأهم من الجدول:</strong> شاحن 30W بيشحن iPhone بنفس سرعة 45W و 65W و 100W بالظبط. الفرق بيظهر بس مع Samsung S26 Ultra (عند 45W) ومع اللابتوبات (عند 65W+). لو بتشحن iPhone بس — 30W هو الاختيار الأذكى.</p>
+<p><strong>الملاحظة الأهم:</strong> لآيفون 15/16 سلكي، 20–30 واط بيدّي نفس السرعة تقريباً لأن الموبايل هو اللي بيحدد. الفرق بيظهر مع iPhone 17 Pro (40 واط وأكتر)، وS26 Ultra (لحد 60 واط PPS)، واللابتوبات.</p>
 
-<h2>5 أخطاء شائعة في اختيار واط الشاحن في مصر</h2>
-
+<h2>5 أخطاء شائعة في اختيار واط الشاحن</h2>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ #1: "واط أكتر = شحن أسرع دايماً"</strong> — غلط. واط أكتر بيفيد بس لو الجهاز بيقبله. iPhone 17 Pro Max بشاحن 30W = نفس سرعة 100W بالملّي.</li>
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ #2: "شاحن 100W هيبوظ موبايلي"</strong> — غلط. الموبايل بيسحب اللي يحتاجه بس. مستحيل شاحن 100W يدفع 100W في موبايل بيقبل 27W. بروتوكولات PD و PPS بتنظّم ده تلقائياً.</li>
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ #3: "الشاحن الأصلي بتاع الموبايل أحسن حاجة"</strong> — مش دايماً. Apple مبتقدمش شاحن أصلاً. Samsung بتدّي 25W لكن الموبايل بيقبل 45W. شاحن أنكر أو جوي روم المعتمد بيدّي نفس الأداء أو أحسن.</li>
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ #4: "أشتري أقل واط عشان أحمي البطارية"</strong> — مفيش علاقة. الشحن البطيء (5W) ممكن يكون أسوأ لإن الموبايل بيفضل على الشاحن ساعات أطول = حرارة تراكمية أكتر. الشحن السريع 30W بيخلّص في وقت أقل = إجهاد حراري أقل إجمالاً.</li>
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ #5: "شاحن 20ج من الميكروباص بيشحن زي شاحن 500ج"</strong> — ده أخطر واحد. شاحن مجهول بـ 20ج مفيهوش حماية فولتية (100-240V). في كهرباء مصر المتذبذبة — خصوصاً في الصيف — ده بيبقى خطر حقيقي على البطارية والموبايل.</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ #1: "واط أكتر = شحن أسرع دايماً"</strong> — غلط. واط أكتر بيفيد بس لو الجهاز بيقبله. آيفون 15 على شاحن 30 واط قسناه عند حوالي 19.7 واط.</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ #2: "شاحن 100W هيبوظ موبايلي"</strong> — غلط. الجهاز بيسحب اللي يحتاجه بس، وبروتوكولات PD وPPS بتنظّم ده تلقائياً.</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ #3: "الشاحن الأصلي بتاع الموبايل أحسن حاجة"</strong> — مش دايماً. Apple مبتحطش شاحن في العلبة، وأي شاحن أصلي بيدعم نفس البروتوكول والقدرة بيدّي نفس الأداء.</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ #4: "أشتري أقل واط عشان أحمي البطارية"</strong> — الحرارة هي اللي بتأثر على البطارية أكتر من سرعة الشحن نفسها. شيل الجراب لو الموبايل سخن، ومتشحنش تحت مخدة.</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ #5: "شاحن 20 جنيه من الميكروباص بيشحن زي الأصلي"</strong> — ده أخطر واحد. الشاحن المجهول ممكن يفتقر لدوائر الحماية، وده خطر حقيقي مع تذبذب الكهرباء. اشتري من بائع بيدي فاتورة وضمان مكتوب باسمه.</li>
 </ul>
 
 <h2>شجرة القرار — اختار شاحنك في 30 ثانية</h2>
-
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ بتشحن لابتوب؟</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → MacBook Pro أو لابتوب قوي → <strong>أنكر 717 GaN 100W</strong> (1,299ج)</p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → MacBook Air أو لابتوب خفيف → شاحن 65W GaN</p>
+        <p style="margin:4px 0 0 20px;">✅ أيوه → MacBook Pro أو لابتوب قوي → انكر برايم 100W ({{price:anker-prime-a2688-100w-charger}} جنيه)</p>
+        <p style="margin:4px 0 0 20px;">✅ أيوه → MacBook Air أو لابتوب خفيف → انكر برايم 67W ({{price:anker-prime-a2669-67w-gan-charger}} جنيه)</p>
         <p style="margin:4px 0 0 20px;">❌ لا ←</p>
     </li>
     <li style="margin-bottom:16px;">
-        <p style="margin:0;"><strong>❓ عندك Samsung S26 Ultra أو جهاز بيقبل 45W؟</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a></strong> (799ج)</p>
+        <p style="margin:0;"><strong>❓ عندك iPhone 17 Pro أو S26 Ultra أو iPad Pro؟</strong></p>
+        <p style="margin:4px 0 0 20px;">✅ أيوه → انكر نانو 45W ({{price:anker-nano-45w}} جنيه)</p>
         <p style="margin:4px 0 0 20px;">❌ لا ←</p>
     </li>
     <li style="margin-bottom:16px;">
-        <p style="margin:0;"><strong>❓ ميزانيتك فوق 400ج؟</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a></strong> (490ج) — أصغر حجم + أبرد حرارة + أقصى سرعة لأي موبايل</p>
-        <p style="margin:4px 0 0 20px;">❌ لا → <strong><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a></strong> (280ج) — نفس السرعة تقريباً بنص السعر</p>
+        <p style="margin:0;"><strong>❓ عندك سامسونج أو آيفون بشاحن MagSafe؟</strong></p>
+        <p style="margin:4px 0 0 20px;">✅ أيوه → <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 511 نانو 3 (30W)</a> ({{price:anker-a2147-gan-charger-30w}} جنيه) أو <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> ({{price:joyroom-30w-fast-charger}} جنيه)</p>
+        <p style="margin:4px 0 0 20px;">❌ لا → آيفون 15/16 سلكي: جوي روم 20W ({{price:joyroom-20w-usb-c-charger}} جنيه) أو انكر 20W ({{price:anker-powerport-20w}} جنيه)</p>
     </li>
 </ul>
 
-<div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
-        <strong>⚠️ تحذير:</strong> في مصر، شواحن كتير على OLX و Facebook Marketplace بتتباع بواط مكتوب على العلبة أعلى من الفعلي. شاحن مكتوب عليه "65W" بـ 100ج ممكن يطلع 12W فعلية. اشتري دايماً من مصدر أصلي معتمد — أنكر و جوي روم على كايرو فولت بكود تحقق وضمان حقيقي.
-    </p>
-</div>
-
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن أصلية من 199ج لـ 1,299ج على كايرو فولت</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ كل فئات الشواحن على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل الشواحن <strong>أصلية بضمان 18 شهر</strong> (أنكر) أو 12 شهر (جوي روم). توصيل لكل المحافظات خلال 24-72 ساعة + دفع عند الاستلام + دعم واتساب 24/7.
+        كل الشواحن بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). التوصيل عادة من 1 لـ 6 أيام عمل حسب المحافظة + دفع عند الاستلام.
     </p>
 </div>
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#4b5563;">
-        <li><a href="https://www.usb.org/usb-charger-pd" rel="nofollow">USB Implementers Forum — USB Power Delivery Specification (بالإنجليزية)</a></li>
-        <li><a href="https://www.chargerlab.com" rel="nofollow">ChargerLAB — Independent USB-C charger testing (بالإنجليزية)</a></li>
-        <li><a href="https://support.apple.com/ar-eg/102571" rel="nofollow">Apple — Charging your iPhone fast</a></li>
+        <li><a href="https://www.usb.org/usb-charger-pd" rel="nofollow">USB Implementers Forum — USB Power Delivery (بالإنجليزية)</a></li>
+        <li><a href="https://support.apple.com/ar-eg/102574" rel="nofollow">Apple — الشحن السريع لجهاز iPhone</a></li>
+        <li><a href="https://support.apple.com/ar-eg/102378" rel="nofollow">Apple — الشحن السريع لـ MacBook Air وMacBook Pro</a></li>
+        <li><a href="https://www.samsung.com/us/smartphones/galaxy-s26-ultra/" rel="nofollow">Samsung — Galaxy S26 Ultra (بالإنجليزية)</a></li>
     </ul>
 </div>`,
             faq: [
                 {
-                    question: 'لو اشتريت شاحن 100W هل ممكن يبوظ موبايلي اللي بيقبل 27W بس؟',
-                    answer: 'مستحيل. الموبايل هو اللي بيتحكم في كمية الكهرباء اللي بيسحبها — مش الشاحن. لو وصلت iPhone 17 Pro Max (27W أقصى) بشاحن 100W، الموبايل هيسحب 27W بس. الباقي بيفضل كامن. بروتوكولات USB-PD و PPS بتنظّم العملية تلقائياً. نفس فكرة ملء كوباية مياه من خرطوم إطفاء — الكوباية بتاخد اللي تقدر عليه بس.'
+                    question: 'لو اشتريت شاحن 100W هل ممكن يبوظ موبايلي اللي بيقبل قدرة أقل؟',
+                    answer: 'لا. الموبايل والشاحن بيتفاوضوا عبر USB PD أو PPS، والموبايل بيسحب اللي يحتاجه بس. الواط الزيادة في الشاحن مش بتتدفع في الموبايل، فالشاحن الأكبر آمن طالما أصلي من بائع بفاتورة وضمان.'
                 },
                 {
                     question: 'هل الشحن السريع بشاحن 30W بيبوظ بطارية الموبايل على المدى الطويل؟',
-                    answer: 'لا. Apple و Samsung صمموا موبايلاتهم بأنظمة حماية ذكية: iPhone فيه Optimized Battery Charging بيوقف الشحن عند 80% لحد ما تحتاجه. Samsung فيه Adaptive Charging. كمان، الشحن السريع بيخلّص أسرع = الموبايل بيقضي وقت أقل على الشاحن = إجهاد حراري أقل. شاحن 5W القديم اللي بيشحن 3.5 ساعة ممكن يكون أسوأ للبطارية من 30W اللي بيخلّص في 1:35.'
+                    answer: 'الحرارة هي أكتر حاجة بتأثر على عمر البطارية، والموبايلات الحديثة بتتحكم في سرعة الشحن وبتقللها لما الحرارة تزيد. اشحن في مكان مكشوف، وشيل الجراب لو الموبايل سخن، واستخدم شاحن أصلي.'
                 },
                 {
                     question: 'ليه شاحن Xiaomi 67W مش بيشحن بنفس السرعة لما أستخدمه مع iPhone؟',
-                    answer: 'لإن Xiaomi بيستخدم بروتوكول شحن خاص (Turbo Charge / HyperCharge) مش متوافق مع iPhone. iPhone بيحتاج USB-PD. شاحن Xiaomi 67W ممكن يطلع 18-20W بس لـ iPhone عبر PD العام. لو عايز أقصى سرعة لـ iPhone — محتاج شاحن USB-C PD زي أنكر 30W. كل براند ليه بروتوكولات خاصة — VOOC لـ Oppo، Turbo Charge لـ Xiaomi، Super Fast لـ Samsung.'
+                    answer: 'لأن السرعات العالية في شواحن شاومي بتستخدم بروتوكول شاومي الخاص، والآيفون بيشحن عبر USB PD. فمع الآيفون هتاخد اللي الشاحن بيقدمه عبر PD بس (لو بيدعمه أصلاً)، والآيفون كمان ليه حد أقصى حسب الموديل.'
                 },
                 {
                     question: 'هل أقدر أشحن لابتوب بشاحن 45W؟',
-                    answer: 'يعتمد على اللابتوب. MacBook Air M3 بيشحن بـ 45W لكن ببطء (أبطأ 30% من شاحنه 67W الأصلي). MacBook Pro 14" محتاج 96W — شاحن 45W هيشحنه ببطء شديد ولو بتشتغل عليه ممكن البطارية تنزل بدل ما تزيد. القاعدة: اشتري شاحن أعلى 10-15W من استهلاك لابتوبك. لابتوب 45W استهلاك → شاحن 65W. لابتوب 96W → شاحن 100W.'
+                    answer: 'لابتوبات خفيفة كتير بتقبل 45 واط USB-C PD لكن بسرعة أقل. Apple بتذكر محولات 67 و70 واط وأعلى للشحن السريع لـ MacBook Air، و96 أو 140 واط لـ MacBook Pro 14 بوصة. لابتوبات الجيمنج محتاجة شاحنها الأصلي.'
                 }
             ]
         },
@@ -296,260 +265,229 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
             metaDescription: 'The real difference between 20W, 30W, 45W, 65W, and 100W chargers with test data. Which wattage suits your phone and laptop in Egypt 2026? Practical guide fr...',
             keywords: 'difference between 20W 30W 45W 65W 100W charger, best charger wattage, is 20W enough charger, 30W vs 45W charger, 65W laptop charger, 100W GaN charger, how many watts phone need, charging speed by wattage, charger wattage guide egypt, which watt charger to buy, USB-C PD wattage explained',
             excerpt: 'Not every charger watt translates to actual speed. A practical guide with real numbers — from 20W to 100W — so you know which wattage your devices actually need in Egypt 2026.',
-            quickAnswer: 'Most people only need a 30W charger. Why? iPhone 17 Pro Max caps at 27W and Samsung S26 caps at 45W. A 30W charger charges any phone at excellent speed (0→50% in 24-25 minutes) and costs 280-490 EGP. A 45W charger helps only if you have Samsung S26 Ultra or iPad. A 65W+ charger is only needed for laptops. A 100W charger is for professionals charging MacBook Pro + phone + earbuds from one charger. The rule: buy enough watts for your most demanding device — no more.',
-            content: `<p>In a Power Electronics lecture during third-year engineering, our professor asked: "If you have a 100-amp power source and want to power a lamp that needs half an amp — will the lamp light up or explode?" Half the lecture hall said it would explode. The answer? It lights up normally — the lamp draws only what it needs. The rest stays in the source. Your phone does exactly the same thing. But the difference is that many people pay 800+ EGP for a 100W charger when their phone accepts only 27W — meaning 73W sit idle in the charger, doing nothing, like a professor sitting in office hours with no students showing up.</p>
-
-<p>In this guide, we break down every wattage tier — from 20W to 100W — and tell you with real numbers: what converts to actual speed, what dissipates as heat, and what is just a number on the box to make you feel like you are getting a deal.</p>
+            quickAnswer: 'Pick the charger by device: iPhone 15 and 16 need only 20–30W; Apple says the iPhone 17 Pro and Pro Max reach 50% in about 20 minutes with a 40W-or-higher adapter; the S26 Ultra accepts up to 60W PPS, so 45W is fast but below the peak; laptops need 65–100W. Example: the Anker 511 Nano 3 (30W) at EGP {{price:anker-a2147-gan-charger-30w}}.',
+            content: `<p>Walk into any shop or website to buy a charger and you will face a flood of numbers: 20W, 30W, 45W, 65W, 100W. The salesperson will usually say "get the biggest one." The truth is that higher wattage does not always help — the device decides how much it takes. This guide tells you how many watts each device needs according to its own manufacturer, and which charger fits.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong>
-        Most people only need a 30W charger. iPhone 17 Pro Max caps at 27W, Samsung S26 caps at 45W. A 30W charger charges any phone at excellent speed (0→50% in 24-25 min). 65W+ is for laptops. 100W is for pros — MacBook Pro + phone + earbuds from one charger. Best pick for most: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> at 490 EGP.
+        <strong>💡 Quick Answer:</strong> iPhone 15 and 16 by cable need only 20–30W. The iPhone 17 Pro and Pro Max reach 50% in about 20 minutes with a 40W-or-higher adapter, per <a href="https://support.apple.com/en-us/102574" target="_blank" rel="nofollow noopener">Apple</a>. The S26 Ultra accepts up to 60W with a PPS charger, per <a href="https://www.samsung.com/us/smartphones/galaxy-s26-ultra/" target="_blank" rel="nofollow noopener">Samsung</a>, so a 45W charger is fast but below the peak. Laptops need 65–100W. A practical pick for most phones: the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 511 Nano 3 (30W)</a> at EGP {{price:anker-a2147-gan-charger-30w}}.
     </p>
 </div>
 
-<div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">📊 From our own charger orders at CairoVolt:</p>
-    <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        Reviewing our recent charger orders (around 2,400), the split was roughly: <strong>38% chose 20W</strong> (the cheapest), <strong>35% chose 30W</strong>, 18% chose 45W (multi-device), and 9% chose 65W+ (laptop). The notable pattern: a meaningful share of 20W buyers came back within about two months for a 30W once they felt the speed difference. The lesson: if your budget allows, 30W is usually the smartest pick for a phone.
-    </p>
-</div>
+<h2>The Golden Rule — The Device Sets the Speed, Not the Charger</h2>
+<p>The single most important thing to understand: <strong>the charger sets the maximum it can deliver; the device sets the maximum it accepts; the lower of the two applies.</strong></p>
+<p>So if you connect an iPhone 15 to a 100W charger, it only draws what it needs (in our test an iPhone 15 peaked at about 19.7W even on a 30W charger). The extra watts do not turn into speed and do not cause harm. Imagine ordering a quarter chicken at a restaurant with an oven big enough for 100 chickens — your chicken will not cook faster, but the big oven lets more customers cook at once. Same idea with a multi-port charger.</p>
 
-<h2>The Golden Rule — Your Phone Sets the Speed, Not the Charger</h2>
-<p>The most important thing to understand before reading further: <strong>The charger sets the maximum it can output. The phone sets the maximum it will accept. The lower number wins.</strong></p>
+<h2>The Reality Table — How Many Watts Does Each Device Actually Accept?</h2>
 
-<p>So if your iPhone 17 Pro Max (max 27W) is plugged into a 100W charger — it will draw only 27W. The extra 73W remain dormant in the charger. They do not convert to speed. They do not cause harm. But they provide zero benefit. Imagine going to a restaurant and ordering a quarter chicken — the restaurant has an oven that fits 100 chickens. Will your chicken cook faster? No. It cooks in the same time. The bigger oven does not speed anything up — it just allows more customers to cook simultaneously. Same concept.</p>
-
-<h2>The Truth Table — How Many Watts Does Each Device Actually Accept?</h2>
-
-<table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
+<table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Device</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Max Charging Watts</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Optimal Charger</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Higher Wattage Helps?</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">What the maker says</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Best charger</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Does a bigger charger help?</th>
     </tr></thead>
     <tbody>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPhone 17 Pro Max</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">27W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>30W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ No — 45W and 100W deliver identical speed</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Samsung S26 Ultra</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">45W (PPS)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ No — 65W and 100W deliver identical speed</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Samsung S26 / S26+</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">25W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>25-30W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ No</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Xiaomi Redmi Note 13 Pro</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">67W (Turbo Charge)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>67W (original)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">⚠️ Generic PD charger delivers only ~30W</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPad Pro M4</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">35-38W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ No</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">MacBook Air M3</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">67W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>65-67W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">⚠️ 45W charges slowly</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">MacBook Pro 14" M4</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">96W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>100W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">⚠️ 65W charges slowly under load</td>
-        </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPhone 15 / 16</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Fast charge with an 18W+ USB-C PD adapter (Apple)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>20–30W</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">❌ Not for wired — we measured iPhone 15 at about 19.7W</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPhone 17 / 17 Pro / 17 Pro Max</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">50% in about 20 min with a 40W+ adapter (Apple)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>40–45W</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">✅ Yes — below 40W is slower</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Samsung S26</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">25W PPS (Super Fast Charging)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>25–30W PPS</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">❌ No</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Samsung S26 Ultra</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Up to 60W with a PPS charger — up to 75% in about 30 min (Samsung)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>45–60W PPS</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">⚠️ 45W is fast but below the 60W peak</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Xiaomi / Oppo / Realme</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Proprietary protocols (HyperCharge / VOOC)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>The original charger for top speed</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">⚠️ A generic PD charger gives less</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">iPad Pro M4</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Up to about 38W — <a href="/en/blog/ipad-pro-m4-vs-ipad-air-charger-requirements" style="color:#2563eb;font-weight:600;">iPad Pro M4 / iPad Air charger guide</a></td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>45W</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">❌ No</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">MacBook Air (2022 or later)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Fast charge with Apple 67/70W adapters and up (Apple)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>65–70W</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">⚠️ 45W charges it more slowly</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">MacBook Pro 14"</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Fast charge with 96W or 140W adapters (Apple)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>100W</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">⚠️ 65W charges it slowly while in use</td>
+    </tr>
     </tbody>
 </table>
 
-<div class="quick-answer-inline" style="background:#fefce8;border-left:4px solid #ca8a04;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#854d0e;">
-        <strong>🎯 Table Takeaway:</strong> If you charge a phone only — 30W is sufficient for 90% of phones. Samsung S26 Ultra needs 45W for full speed. Laptops need 65W minimum. MacBook Pro needs 100W. Multiple devices — add up the watts you need.
+<div class="quick-answer-inline" style="background:#f0fdf4;border-left:4px solid #16a34a;padding:16px 20px;margin:24px 0;border-radius:8px;">
+    <p style="margin:0;font-size:16px;line-height:1.7;color:#166534;">
+        <strong>🎯 Table takeaway:</strong> iPhone 15/16 by cable — 20–30W. iPhone 17 Pro and Pro Max — 40–45W. Samsung S26 — 25W PPS. S26 Ultra — 45W is fast, 60W PPS for the peak. Laptops — 65W and up. For several devices, add up what the devices you charge together need.
     </p>
 </div>
 
-<h2>Every Wattage Tier Explained — Speed, Price, and Who It's For</h2>
+<h2>Each Wattage Class in Detail — Speed, Price, and Who It Suits</h2>
 
-<h3>⚡ 20W Charger — The Acceptable Minimum</h3>
-<p>A 20W charger delivers 19-20W actual. It charges iPhone 17 Pro Max from 0→50% in 28-30 minutes. Sufficient? Yes. Optimal? No. The difference between 20W and 30W = only 4 minutes for the first half charge. But the real gap shows in a full charge: 1:42 vs 1:35 — 7 minutes.</p>
-
+<h3>⚡ 20W Charger — The Minimum Acceptable</h3>
+<p>Apple says iPhone 15 and later fast charge with an 18W-or-higher USB-C PD adapter, so 20W is enough for an iPhone 15 or 16 by cable. It is slower for the iPhone 17 Pro and Pro Max (Apple asks for 40W or more to reach 50% in about 20 minutes), and it does not enable fast MagSafe charging.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>Best for:</strong> Very tight budgets — students, a spare bag charger, a secondary bedside charger.</li>
-    <li style="margin-bottom:12px;">❌ <strong>Not for:</strong> Anyone wanting the fastest possible charging — 30W costs only 124 EGP more.</li>
-    <li style="margin-bottom:12px;">💰 <strong>Prices in Egypt:</strong> <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">Joyroom 20W</a> (199 EGP) — <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> (490 EGP).</li>
+    <li style="margin-bottom:12px;">✅ <strong>Best for:</strong> iPhone 15/16 by cable, earbuds and watches, tight budgets.</li>
+    <li style="margin-bottom:12px;">❌ <strong>Not ideal for:</strong> the iPhone 17 Pro if you want top speed, and fast MagSafe wireless charging.</li>
+    <li style="margin-bottom:12px;">💰 <strong>On CairoVolt:</strong> <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">Joyroom 20W</a> (EGP {{price:joyroom-20w-usb-c-charger}}) — <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> (EGP {{price:anker-powerport-20w}}).</li>
 </ul>
 
-<h3>⚡ 30W Charger — The Sweet Spot for 90% of People</h3>
-<p>This is where "real" charging begins. A 30W charger delivers 25-27W actual — meaning it utilizes the full capacity of iPhone 17 Pro Max (27W) and Samsung S26 (25W). The difference from 20W is noticeable in daily use: if you charge daily, 7 minutes × 365 days = 42 hours saved per year.</p>
-
+<h3>⚡ 30W Charger — The Practical Pick for Most Phones</h3>
+<p>A 30W charger covers Samsung 25W PPS (if the charger supports PPS), is enough for fast MagSafe charging on iPhone 16 and 17 (Apple asks for 30W or more with the MagSafe Charger), and suits the iPad Air. In our test, the Anker 511 Nano 3 ran Super Fast Charging on a Galaxy S24 at a peak of about 24.3W.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>Best for:</strong> Anyone charging a single phone — iPhone, Samsung, Oppo, or any modern phone.</li>
-    <li style="margin-bottom:12px;">❌ <strong>Not for:</strong> Laptop charging or Samsung S26 Ultra at max speed (45W).</li>
-    <li style="margin-bottom:12px;">💰 <strong>Prices in Egypt:</strong> <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> (280 EGP) — <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (490 EGP).</li>
-    <li style="margin-bottom:12px;">🏆 <strong>Our pick:</strong> <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> — GaN technology = 50% smaller than a standard 20W charger + 30% cooler. Or <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> on a tight budget — only 1 minute speed difference.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Best for:</strong> Samsung 25W phones, iPhones on MagSafe, homes with more than one phone brand.</li>
+    <li style="margin-bottom:12px;">❌ <strong>Not ideal for:</strong> laptops, or the S26 Ultra and iPhone 17 Pro if you want top speed.</li>
+    <li style="margin-bottom:12px;">💰 <strong>On CairoVolt:</strong> <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> (EGP {{price:joyroom-30w-fast-charger}}) — <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 511 Nano 3 GaN 30W</a> (EGP {{price:anker-a2147-gan-charger-30w}}).</li>
 </ul>
 
-<h3>⚡ 45W Charger — For Samsung S26 Ultra and iPad</h3>
-<p>A 45W charger makes a difference only with devices that accept more than 30W. Samsung S26 Ultra accepts 45W via PPS (Programmable Power Supply) — meaning 0→50% in 22 minutes instead of 28 minutes with a 25W charger. That is a noticeable gap. But for iPhone — 45W delivers identical speed to 30W (the phone caps at 27W).</p>
-
+<h3>⚡ 45W Charger — For iPhone 17 Pro, S26 Ultra and iPad Pro</h3>
+<p>A 45W charger makes a difference with devices that accept more than 30W: the iPhone 17 Pro and Pro Max (40W or more per Apple) and the iPad Pro M4 (about 38W — see our iPad Pro M4 / iPad Air charger guide). The S26 Ultra accepts up to 60W with a PPS charger, so a 45W charger charges it fast but below the peak.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>Best for:</strong> Samsung S26 Ultra (45W) · iPad Pro M4 (38W) · Charging two devices simultaneously via multiple ports.</li>
-    <li style="margin-bottom:12px;">❌ <strong>Not for:</strong> iPhone only (you'd pay 300+ EGP extra for zero benefit) · Laptops (45W is insufficient).</li>
-    <li style="margin-bottom:12px;">💰 <strong>Price in Egypt:</strong> <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W with Smart Display</a> (799 EGP) — 2 USB-C ports + real-time wattage display.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Best for:</strong> iPhone 17 Pro / Pro Max · S26 Ultra · iPad Pro M4.</li>
+    <li style="margin-bottom:12px;">❌ <strong>Not ideal for:</strong> iPhone 15/16 by cable only (you will not use the extra watts) · laptops that need fast charging.</li>
+    <li style="margin-bottom:12px;">💰 <strong>On CairoVolt:</strong> <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> (EGP {{price:anker-nano-45w}}) — <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a> (EGP {{price:anker-nano-45w-smart-display-charger}}, single USB-C + a wattage display).</li>
 </ul>
 
-<h3>⚡ 65W Charger — Lightweight Laptop + Phone</h3>
-<p>This is where we enter laptop territory. MacBook Air M3 accepts 67W. Many Windows laptops accept 65W. A 65W GaN charger replaces your laptop's original charger — and is 60% smaller. The big advantage: the same charger powers laptop + phone + tablet. One charger instead of three in your travel bag.</p>
-
+<h3>⚡ 65–67W Charger — Light Laptop + Phone</h3>
+<p>This is where laptops come in. Apple lists 67W and 70W adapters among the fast-charge combinations for MacBook Air (2022 or later) on its <a href="https://support.apple.com/en-us/102378" target="_blank" rel="nofollow noopener">MacBook fast-charge page</a>, and many Windows laptops accept 65W. A multi-port GaN charger charges the laptop and the phone from one socket.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>Best for:</strong> MacBook Air · Lightweight Windows laptops (Dell XPS / HP Spectre / Lenovo Yoga) · Frequent travelers.</li>
-    <li style="margin-bottom:12px;">❌ <strong>Not for:</strong> MacBook Pro 16" (needs 96-140W) · Gaming laptops (150W+).</li>
-    <li style="margin-bottom:12px;">⚠️ <strong>Warning:</strong> If your laptop draws 65W while in use, a 65W charger will charge very slowly — because part of the power goes to running the laptop, not charging. Optimal: a charger 10-15W above your laptop's consumption.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Best for:</strong> MacBook Air · light Windows laptops · travel.</li>
+    <li style="margin-bottom:12px;">❌ <strong>Not ideal for:</strong> MacBook Pro 14" if you want fast charging (Apple lists 96W or 140W) · gaming laptops.</li>
+    <li style="margin-bottom:12px;">⚠️ <strong>Warning:</strong> if the laptop draws a lot of power while you work, a charger of the same rating will charge it slowly because part of the power goes to running it.</li>
+    <li style="margin-bottom:12px;">💰 <strong>On CairoVolt:</strong> <a href="/en/anker/wall-chargers/anker-prime-a2669-67w-gan-charger" style="color:#2563eb;font-weight:600;">Anker Prime 67W</a> (EGP {{price:anker-prime-a2669-67w-gan-charger}}) — 3 ports.</li>
 </ul>
 
 <h3>⚡ 100W Charger — The All-in-One for Professionals</h3>
-<p>A 100W GaN charger is the dream charger — it replaces every other charger. MacBook Pro 14" (96W) charges at full speed. Or split the 100W across 4 ports: 65W for laptop + 27W for phone + 5W for earbuds + 3W for watch. At one desk, all your devices charge from a single outlet.</p>
-
+<p>A 100W GaN charger gets a MacBook Pro 14" much closer to full speed, or shares its power across a laptop, a phone and earbuds at once. On one desk, all your devices charge from a single socket.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>Best for:</strong> Engineers, designers, and editors charging laptop + multiple devices · Travel (one charger instead of 3-4) · Office desks.</li>
-    <li style="margin-bottom:12px;">❌ <strong>Not for:</strong> Phone-only charging — no practical benefit justifies paying 1,299 EGP.</li>
-    <li style="margin-bottom:12px;">💰 <strong>Price in Egypt:</strong> Anker 717 GaN 100W (1,299 EGP) — 3× USB-C + 1× USB-A.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Best for:</strong> people charging a laptop and several devices · travelling with one charger · the office.</li>
+    <li style="margin-bottom:12px;">❌ <strong>Not ideal for:</strong> people who only charge a phone — no practical benefit.</li>
+    <li style="margin-bottom:12px;">💰 <strong>On CairoVolt:</strong> <a href="/en/anker/wall-chargers/anker-prime-a2688-100w-charger" style="color:#2563eb;font-weight:600;">Anker Prime 100W (A2688)</a> (EGP {{price:anker-prime-a2688-100w-charger}}) — 2 USB-C + 1 USB-A.</li>
 </ul>
 
-<h2>Complete Comparison Table — Every Tier by the Numbers</h2>
+<h2>The Full Table — Every Wattage Class and Its Models</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
-    <thead>
-        <tr style="background:#f3f4f6;">
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Tier</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">iPhone 17 Pro Max (0→50%)</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Samsung S26 Ultra (0→50%)</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">MacBook Air M3 (0→50%)</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Price (Egypt)</th>
-        </tr>
-    </thead>
+    <thead><tr style="background:#f3f4f6;">
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Class</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Models on CairoVolt</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Best for</th>
+    </tr></thead>
     <tbody>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>20W</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">28-30 min</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">42 min</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ Very slow</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">199-375 EGP</td>
-        </tr>
-        <tr style="background:#f0fdf4;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>30W ⭐</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>24-25 min</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">35 min</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">Slow</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">280-490 EGP</td>
-        </tr>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>45W</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">24 min (= 30W)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>22 min</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">Acceptable but slow</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">799 EGP</td>
-        </tr>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>65W</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">24 min (= 30W)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">22 min (= 45W)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>55 min</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">899-1,099 EGP</td>
-        </tr>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>100W</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">24 min (= 30W)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">22 min (= 45W)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>45 min</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">1,299 EGP</td>
-        </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">20W</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">Joyroom 20W</a> — EGP {{price:joyroom-20w-usb-c-charger}}<br><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> — EGP {{price:anker-powerport-20w}}</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">iPhone 15/16 wired, earbuds, watches</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">30W</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W (dual port)</a> — EGP {{price:joyroom-30w-fast-charger}}<br><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 511 Nano 3 (GaN)</a> — EGP {{price:anker-a2147-gan-charger-30w}}</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Samsung 25W PPS, iPhone 16/17 MagSafe, iPad Air</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">45W</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> — EGP {{price:anker-nano-45w}}<br><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display (single USB-C)</a> — EGP {{price:anker-nano-45w-smart-display-charger}}</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">iPhone 17 Pro/Pro Max, S26 Ultra (below its 60W peak), iPad Pro</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">65–67W</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-prime-a2669-67w-gan-charger" style="color:#2563eb;font-weight:600;">Anker Prime 67W (3 ports)</a> — EGP {{price:anker-prime-a2669-67w-gan-charger}}</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">MacBook Air and light laptops + a phone</td>
+    </tr>
+    <tr>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">100W</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-prime-a2688-100w-charger" style="color:#2563eb;font-weight:600;">Anker Prime 100W (2 USB-C + USB-A)</a> — EGP {{price:anker-prime-a2688-100w-charger}}</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">MacBook Pro 14 and several devices</td>
+    </tr>
     </tbody>
 </table>
 
-<p><strong>Key table insight:</strong> A 30W charger charges iPhone at identical speed to 45W, 65W, and 100W. The difference only appears with Samsung S26 Ultra (at 45W) and laptops (at 65W+). If you charge an iPhone only — 30W is the smartest choice.</p>
+<p><strong>The key takeaway:</strong> for an iPhone 15/16 by cable, 20–30W gives about the same speed because the phone sets the pace. The difference shows with the iPhone 17 Pro (40W and up), the S26 Ultra (up to 60W PPS) and laptops.</p>
 
-<h2>5 Common Mistakes When Choosing Charger Wattage in Egypt</h2>
-
+<h2>5 Common Charger-Wattage Mistakes</h2>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">❌ <strong>Mistake #1: "More watts = faster charging always"</strong> — Wrong. More watts help only if the device accepts them. iPhone 17 Pro Max with a 30W charger = identical speed to 100W, down to the millisecond.</li>
-    <li style="margin-bottom:16px;">❌ <strong>Mistake #2: "A 100W charger will damage my phone"</strong> — Wrong. The phone draws only what it needs. A 100W charger cannot force 100W into a phone that accepts 27W. PD and PPS protocols regulate this automatically.</li>
-    <li style="margin-bottom:16px;">❌ <strong>Mistake #3: "The original charger that came with the phone is the best"</strong> — Not always. Apple includes no charger at all. Samsung includes 25W but the phone accepts 45W. A certified Anker or Joyroom charger delivers equal or better performance.</li>
-    <li style="margin-bottom:16px;">❌ <strong>Mistake #4: "I should buy lower wattage to protect the battery"</strong> — No correlation. Slow charging (5W) can actually be worse because the phone stays on the charger for hours = more cumulative heat. Fast 30W charging finishes quicker = less total thermal stress.</li>
-    <li style="margin-bottom:16px;">❌ <strong>Mistake #5: "A 20 EGP charger from a street vendor charges just like a 500 EGP one"</strong> — This is the most dangerous. Unknown chargers lack voltage protection (100-240V). With Egypt's fluctuating power grid — especially in summer — this poses real danger to your battery and phone.</li>
+    <li style="margin-bottom:16px;">❌ <strong>Mistake #1: "More watts always means faster charging."</strong> Wrong. More watts help only if the device accepts them. We measured an iPhone 15 on a 30W charger at about 19.7W.</li>
+    <li style="margin-bottom:16px;">❌ <strong>Mistake #2: "A 100W charger will damage my phone."</strong> Wrong. The device draws only what it needs, and PD and PPS negotiate this automatically.</li>
+    <li style="margin-bottom:16px;">❌ <strong>Mistake #3: "The phone maker's original charger is always best."</strong> Not always. Apple does not include a charger in the box, and any genuine charger that supports the same protocol and power delivers the same performance.</li>
+    <li style="margin-bottom:16px;">❌ <strong>Mistake #4: "Buy the lowest wattage to protect the battery."</strong> Heat affects the battery more than charging speed itself. Remove the case if the phone gets hot, and do not charge under a pillow.</li>
+    <li style="margin-bottom:16px;">❌ <strong>Mistake #5: "A 20-pound minibus charger works like the original."</strong> The most dangerous one. A no-name charger may lack protection circuits — a real risk with Egypt\'s unstable grid. Buy from a seller that issues an invoice and a written warranty in its own name.</li>
 </ul>
 
-<h2>Decision Tree — Pick Your Charger in 30 Seconds</h2>
-
+<h2>The Decision Tree — Pick Your Charger in 30 Seconds</h2>
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">
-        <p style="margin:0;"><strong>❓ Do you charge a laptop?</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ Yes → MacBook Pro or powerful laptop → <strong>Anker 717 GaN 100W</strong> (1,299 EGP)</p>
-        <p style="margin:4px 0 0 20px;">✅ Yes → MacBook Air or lightweight laptop → 65W GaN charger</p>
+        <p style="margin:0;"><strong>❓ Charging a laptop?</strong></p>
+        <p style="margin:4px 0 0 20px;">✅ Yes → MacBook Pro or a powerful laptop → Anker Prime 100W (EGP {{price:anker-prime-a2688-100w-charger}})</p>
+        <p style="margin:4px 0 0 20px;">✅ Yes → MacBook Air or a light laptop → Anker Prime 67W (EGP {{price:anker-prime-a2669-67w-gan-charger}})</p>
         <p style="margin:4px 0 0 20px;">❌ No ←</p>
     </li>
     <li style="margin-bottom:16px;">
-        <p style="margin:0;"><strong>❓ Do you have a Samsung S26 Ultra or a 45W device?</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ Yes → <strong><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a></strong> (799 EGP)</p>
+        <p style="margin:0;"><strong>❓ Do you have an iPhone 17 Pro, an S26 Ultra or an iPad Pro?</strong></p>
+        <p style="margin:4px 0 0 20px;">✅ Yes → Anker Nano 45W (EGP {{price:anker-nano-45w}})</p>
         <p style="margin:4px 0 0 20px;">❌ No ←</p>
     </li>
     <li style="margin-bottom:16px;">
-        <p style="margin:0;"><strong>❓ Is your budget above 400 EGP?</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ Yes → <strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a></strong> (490 EGP) — smallest size + coolest temp + max phone speed</p>
-        <p style="margin:4px 0 0 20px;">❌ No → <strong><a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a></strong> (280 EGP) — nearly identical speed at half the price</p>
+        <p style="margin:0;"><strong>❓ Do you have a Samsung, or an iPhone on a MagSafe charger?</strong></p>
+        <p style="margin:4px 0 0 20px;">✅ Yes → <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 511 Nano 3 (30W)</a> (EGP {{price:anker-a2147-gan-charger-30w}}) or <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> (EGP {{price:joyroom-30w-fast-charger}})</p>
+        <p style="margin:4px 0 0 20px;">❌ No → iPhone 15/16 by cable: Joyroom 20W (EGP {{price:joyroom-20w-usb-c-charger}}) or Anker 20W (EGP {{price:anker-powerport-20w}})</p>
     </li>
 </ul>
-
-<div class="quick-answer-inline" style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
-        <strong>⚠️ Warning:</strong> In Egypt, many chargers on OLX and Facebook Marketplace advertise wattage higher than actual output. A charger labeled "65W" at 100 EGP may deliver only 12W in reality. Always buy from certified sources — Anker and Joyroom on CairoVolt come with verification codes and genuine warranty.
-    </p>
-</div>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic Chargers from 199 to 1,299 EGP on CairoVolt</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Every Charger Class on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All chargers are <strong>authentic with 18-month warranty</strong> (Anker) or 12-month warranty (Joyroom). Delivery to all governorates within 24-72 hours + cash on delivery + 24/7 WhatsApp support.
+        All chargers come with CairoVolt\'s written store warranty (duration shown on each product page). Delivery is commonly 1–6 business days depending on the governorate + cash on delivery.
     </p>
 </div>
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 References:</p>
     <ul style="margin:0;padding-left:20px;color:#4b5563;">
-        <li><a href="https://www.usb.org/usb-charger-pd" rel="nofollow">USB Implementers Forum — USB Power Delivery Specification</a></li>
-        <li><a href="https://www.chargerlab.com" rel="nofollow">ChargerLAB — Independent USB-C charger testing</a></li>
-        <li><a href="https://support.apple.com/en-us/102571" rel="nofollow">Apple — Charging your iPhone fast</a></li>
+        <li><a href="https://www.usb.org/usb-charger-pd" rel="nofollow">USB Implementers Forum — USB Power Delivery</a></li>
+        <li><a href="https://support.apple.com/en-us/102574" rel="nofollow">Apple — Fast charge your iPhone</a></li>
+        <li><a href="https://support.apple.com/en-us/102378" rel="nofollow">Apple — Fast charge your MacBook Air or MacBook Pro</a></li>
+        <li><a href="https://www.samsung.com/us/smartphones/galaxy-s26-ultra/" rel="nofollow">Samsung — Galaxy S26 Ultra</a></li>
     </ul>
 </div>`,
             faq: [
                 {
-                    question: 'Can a 100W charger damage my phone if it only accepts 27W?',
-                    answer: 'Impossible. The phone controls how much current it draws — not the charger. If you plug an iPhone 17 Pro Max (27W max) into a 100W charger, the phone draws only 27W. The rest remains dormant. USB-PD and PPS protocols regulate this automatically. Same concept as filling a cup from a fire hose — the cup takes only what it can hold.'
+                    question: 'Can a 100W charger damage my phone if it accepts less power?',
+                    answer: 'No. The phone and charger negotiate over USB PD or PPS, and the phone draws only what it needs. The extra watts are not pushed into the phone, so a bigger charger is safe as long as it is genuine and bought with an invoice and a warranty.'
                 },
                 {
                     question: 'Does fast charging with a 30W charger damage the battery long-term?',
-                    answer: 'No. Apple and Samsung designed their phones with smart protection systems: iPhone has Optimized Battery Charging that stops at 80% until needed. Samsung has Adaptive Charging. Additionally, fast charging finishes faster = phone spends less time on the charger = less cumulative thermal stress. The old 5W charger that takes 3.5 hours may actually be worse for battery health than a 30W charger that finishes in 1:35.'
+                    answer: 'Heat is what affects battery life most, and modern phones manage charging speed and slow it when temperature rises. Charge somewhere open, remove the case if the phone gets hot, and use a genuine charger.'
                 },
                 {
                     question: 'Why does my Xiaomi 67W charger not charge my iPhone at the same speed?',
-                    answer: 'Because Xiaomi uses a proprietary charging protocol (Turbo Charge / HyperCharge) incompatible with iPhone. iPhone requires USB-PD. A Xiaomi 67W charger may output only 18-20W for iPhone via generic PD. For maximum iPhone speed, you need a USB-C PD charger like Anker 30W. Every brand has proprietary protocols — VOOC for Oppo, Turbo Charge for Xiaomi, Super Fast for Samsung.'
+                    answer: 'Because the high speeds of Xiaomi chargers use Xiaomi\'s own protocol, while the iPhone charges over USB PD. With an iPhone you only get what the charger offers over PD (if it supports PD at all), and the iPhone has its own ceiling depending on the model.'
                 },
                 {
                     question: 'Can I charge a laptop with a 45W charger?',
-                    answer: 'It depends on the laptop. MacBook Air M3 charges at 45W but slowly (30% slower than its original 67W charger). MacBook Pro 14" needs 96W — a 45W charger will charge it very slowly, and if you are working on it, the battery may drain instead of charge. The rule: buy a charger 10-15W above your laptop\'s consumption. A 45W laptop → 65W charger. A 96W laptop → 100W charger.'
+                    answer: 'Many light laptops accept 45W USB-C PD, but more slowly. Apple lists 67W and 70W adapters and up for fast charging a MacBook Air, and 96W or 140W for the 14-inch MacBook Pro. Gaming laptops need their original charger.'
                 }
             ]
         }

@@ -5,11 +5,11 @@ import { useLocale, useTranslations } from 'next-intl';
 import { useMemo, useState, useTransition } from 'react';
 import { ProductImage } from '@/components/ui/ProductImage';
 import dynamic from 'next/dynamic';
-import { CategoryContent, BuyingGuideSection, SoundcoreData, PowerBankData } from '@/data/category-content';
+import { CategoryContent, SoundcoreData, PowerBankData } from '@/data/category-content';
 import { BreadcrumbSchema } from './schemas/ProductSchema';
-import { CategoryCollectionSchema, HowToSchema, ItemListSchema } from './schemas/StructuredDataSchemas';
+import { CategoryCollectionSchema, ItemListSchema } from './schemas/StructuredDataSchemas';
 import RelatedLinks from './content/RelatedLinks';
-import { CollectionOverviewBlock } from './content/CategoryOverviewBlock';
+import { CollectionOverviewBlock, buildCollectionOverviewSentence } from './content/CategoryOverviewBlock';
 import { SvgIcon } from './ui/SvgIcon';
 import { MarkdownRenderer } from './ui/MarkdownRenderer';
 import { trackWhatsappClick } from '@/lib/analytics';
@@ -50,6 +50,13 @@ interface RelatedArticle {
     readingTime: number;
 }
 
+/**
+ * One locale's shelf copy. The server page passes only the active locale (and
+ * has already resolved any {minPrice} token), so the other language's copy no
+ * longer ships in every category page's RSC payload.
+ */
+export type CategoryPageLocaleContent = CategoryContent['pageContent']['en'];
+
 /** One governorate chip, already localised server-side. */
 interface CoverageLink {
     slug: string;
@@ -61,7 +68,7 @@ interface CategoryTemplateProps {
     brandColor: 'blue' | 'red' | 'orange';
     category: string;
     categorySlug: string;
-    categoryInfo: CategoryContent['pageContent'];
+    categoryInfo: CategoryPageLocaleContent;
     soundcoreData?: SoundcoreData;
     powerBankData?: PowerBankData;
     initialProducts?: Product[];
@@ -132,8 +139,8 @@ export default function CategoryTemplate({
     const tCommon = useTranslations('Common');
     const isRTL = locale === 'ar';
     const content = isRTL
-        ? localizeArabicBrandContent(categoryInfo.ar)
-        : categoryInfo.en;
+        ? localizeArabicBrandContent(categoryInfo)
+        : categoryInfo;
     const displaySoundcoreData = isRTL && soundcoreData
         ? localizeArabicFields(soundcoreData)
         : soundcoreData;
@@ -230,6 +237,23 @@ export default function CategoryTemplate({
 
     const canonicalUrl = `https://cairovolt.com${localePrefix}/${brandSlug}/${categorySlug}`;
 
+    // One computed sentence feeds both the visible overview block and the
+    // CollectionPage JSON-LD description: product count, live price range and
+    // where the terms live — the answer an engine can quote — rather than the
+    // first 300 characters of the editorial hook.
+    const overviewProps = {
+        categoryName: translatedCategory,
+        categoryNameAr: tCat(categoryKey),
+        brand: translatedBrand,
+        productCount: displayProducts.length,
+        priceRange: {
+            min: Math.min(...displayProducts.map(p => p.price)),
+            max: Math.max(...displayProducts.map(p => p.price))
+        },
+        locale,
+    };
+    const overviewSentence = buildCollectionOverviewSentence(overviewProps);
+
     return (
         <div className="min-h-screen" dir={isRTL ? 'rtl' : 'ltr'}>
             <BreadcrumbSchema items={breadcrumbs} locale={locale} />
@@ -240,26 +264,16 @@ export default function CategoryTemplate({
             <CategoryCollectionSchema
                 url={canonicalUrl}
                 name={content.title}
-                description={toPlainSchemaText(content.description, 300)}
+                description={overviewSentence || toPlainSchemaText(content.description, 300)}
                 brandName={brand}
                 categoryName={translatedCategory}
                 locale={locale}
             />
 
-            {/* Buying guide schema */}
-            {content.buyingGuide && (
-                <HowToSchema
-                    title={locale === 'ar'
-                        ? `كيفية اختيار ${translatedCategory} ${translatedBrand}`
-                        : `How to Choose ${translatedBrand} ${translatedCategory}`}
-                    description={content.subtitle}
-                    steps={content.buyingGuide.map((section: BuyingGuideSection) => ({
-                        name: section.title,
-                        text: section.content,
-                    }))}
-                    locale={locale}
-                />
-            )}
+            {/* No HowTo JSON-LD here: the buying guide is reference material
+                (spec tables, warnings, series explainers), not a procedure, and
+                the old markup shipped raw markdown tables as HowToStep text.
+                The guide stays visible below. */}
 
             {/* ItemList Schema for Product Listings */}
             {displayProducts.length > 0 && (
@@ -317,7 +331,7 @@ export default function CategoryTemplate({
             <section className={`bg-gradient-to-br ${brandColorClass} text-white py-8 md:py-16`}>
                 <div className="container mx-auto px-4">
                     {/* Breadcrumb */}
-                    <nav className="text-xs sm:text-sm text-white/70 mb-4 md:mb-6 px-1">
+                    <nav aria-label={isRTL ? 'مسار التصفح' : 'Breadcrumb'} className="text-xs sm:text-sm text-white/70 mb-4 md:mb-6 px-1">
                         <Link href={localePrefix || '/'} className="hover:text-white">
                             {tCommon('home')}
                         </Link>
@@ -452,6 +466,11 @@ export default function CategoryTemplate({
                                 <h3 className="text-sm font-bold text-gray-900 line-clamp-2 leading-tight group-hover:text-blue-600 transition-colors mb-1">
                                     {product.name}
                                 </h3>
+                                {product.recalled && (
+                                    <span className="mb-1 flex items-center gap-1 text-[10px] font-semibold text-amber-700">
+                                        <span aria-hidden="true">⚠️</span>{isRTL ? 'استدعاء — راجع صفحة المنتج' : 'Recall — see product page'}
+                                    </span>
+                                )}
                                 {product.shortDescription && (
                                     <p className="text-xs text-gray-500 line-clamp-1 mb-2">
                                         {product.shortDescription}
@@ -756,17 +775,7 @@ export default function CategoryTemplate({
 
             {/* Category overview section */}
             <div className="container mx-auto px-4 py-4">
-                <CollectionOverviewBlock
-                    categoryName={translatedCategory}
-                    categoryNameAr={tCat(categoryKey)}
-                    brand={translatedBrand}
-                    productCount={displayProducts.length}
-                    priceRange={{
-                        min: Math.min(...displayProducts.map(p => p.price)),
-                        max: Math.max(...displayProducts.map(p => p.price))
-                    }}
-                    locale={locale}
-                />
+                <CollectionOverviewBlock {...overviewProps} />
             </div>
 
             {/* Content Section */}

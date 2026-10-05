@@ -82,13 +82,13 @@ export const joyroom_power_banks_content: CategoryContent = {
             ar: [
                 { question: 'جوي روم 10,000 ولا 20,000mAh؟', answer: 'اختار 10,000mAh للحمل اليومي، و20,000mAh للاستخدام الأطول أو شحن أكثر من جهاز. عدد الشحنات الفعلي يختلف حسب بطارية الهاتف وكفاءة التحويل وطريقة الشحن.' },
                 { question: 'هل الشحن السريع مناسب لهاتفي؟', answer: 'راجع البروتوكول والقدرة التي يدعمها الهاتف. الباور بانك المتوافق يقدّم القدرة التي يتفاوض عليها الجهاز، والسرعة الفعلية تتأثر بالكابل والمنفذ ونسبة البطارية.' },
-                { question: 'هل الباور بانك مسموح على الطائرة؟', answer: 'تحقق من قيمة Wh المطبوعة على المنتج ومن قواعد شركة الطيران قبل السفر. يُحمل الباور بانك عادةً في حقيبة اليد فقط.' },
+                { question: 'هل الباور بانك مسموح على الطائرة؟', answer: 'تحقق من قيمة Wh المطبوعة على المنتج ومن قواعد شركة الطيران قبل السفر. في حقيبة اليد فقط: حتى 100Wh مسموح عادةً بدون موافقة، ومن 100 إلى 160Wh يحتاج موافقة شركة الطيران، وأكثر من 160Wh غير مسموح في أمتعة الركاب (IATA/FAA). راجع قيمة Wh المطبوعة على الوحدة.' },
                 { question: 'كيف أحافظ على الباور بانك؟', answer: 'تجنب الشمس والحرارة المرتفعة، ولا تستخدم كابلاً تالفاً، ولا تترك البطارية فارغة فترة طويلة. توقف عن الاستخدام عند انتفاخ الجسم أو ظهور رائحة أو سخونة غير طبيعية.' }
             ],
             en: [
                 { question: 'Should I choose 10,000 or 20,000mAh?', answer: 'Choose 10,000mAh for easier daily carry and 20,000mAh for longer use or multiple devices. Actual charge count varies by phone battery, conversion efficiency, and charging method.' },
                 { question: 'Is fast charging compatible with my phone?', answer: 'Check the protocol and power supported by your phone. A compatible power bank supplies the power negotiated by the device; actual speed also depends on the cable, port, and battery level.' },
-                { question: 'Can I take the power bank on a flight?', answer: 'Check the Wh value printed on the product and your airline rules before travel. Power banks are normally permitted in carry-on baggage only.' },
+                { question: 'Can I take the power bank on a flight?', answer: 'Check the Wh value printed on the product and your airline rules before travel. Carry-on only: ≤100Wh is generally allowed without approval, 100–160Wh needs airline approval, and over 160Wh is not allowed in passenger baggage (IATA/FAA). Check the Wh printed on the unit.' },
                 { question: 'How should I care for a power bank?', answer: 'Keep it away from direct sun and excessive heat, avoid damaged cables, and do not leave it fully discharged for long periods. Stop using it if the case swells or you notice an unusual smell or heat.' }
             ]
         }
@@ -170,14 +170,9 @@ export const joyroom_power_banks_content: CategoryContent = {
             faq: [
                 { question: 'كام مرة يشحن الهاتف؟', answer: 'لا يوجد رقم ثابت؛ يعتمد على سعة بطارية الهاتف وكفاءة التحويل والكابل وطريقة الشحن. الشحن اللاسلكي يفقد طاقة أكثر من الشحن السلكي عادةً.' },
                 { question: 'هل يدعم شحن اللابتوب؟', answer: 'فقط إذا كانت قدرة USB-C PD الخارجة من الموديل تساوي أو تتجاوز متطلبات اللابتوب. راجع مواصفات اللابتوب والباور بانك والكابل.' },
-                { question: 'هل هو مناسب للسفر الجوي؟', answer: 'راجع قيمة Wh على المنتج وسياسة شركة الطيران. يُحمل الباور بانك عادةً في حقيبة اليد فقط.' },
+                { question: 'هل هو مناسب للسفر الجوي؟', answer: 'راجع قيمة Wh على المنتج وسياسة شركة الطيران. في حقيبة اليد فقط: حتى 100Wh مسموح عادةً بدون موافقة، ومن 100 إلى 160Wh يحتاج موافقة شركة الطيران، وأكثر من 160Wh غير مسموح في أمتعة الركاب (IATA/FAA). راجع قيمة Wh المطبوعة على الوحدة. التفاصيل: [قواعد الباور بانك في الطيران](/blog/power-bank-airplane-rules-egypt-2026) · [حل السفر بالباور بانك](/solutions/power-bank-airline-rules-egypt-travel).' },
                 { question: 'ما الضمان؟', answer: 'توضح صفحة المنتج وسياسة ضمان كايرو فولت مدة التغطية وشروطها لكل موديل.' }
             ],
-            products: [
-                { name: 'Joyroom 10000mAh Slim 22.5W', price: 1624, badge: 'حجم مدمج' },
-                { name: 'Joyroom 20000mAh Pro 22.5W', price: 997, badge: 'سعة أكبر' },
-                { name: 'Joyroom MagSafe 10000mAh', price: 850, badge: 'شحن لاسلكي' }
-            ]
         },
         en: {
             title: 'Joyroom Power Banks in Egypt by Capacity and Output',
@@ -243,14 +238,9 @@ Stop using it if the case swells, is damaged, or produces an unusual smell or he
             faq: [
                 { question: 'How many times will it charge my phone?', answer: 'There is no fixed number. It depends on the phone battery, conversion efficiency, cable, and charging method. Wireless charging usually loses more energy than wired charging.' },
                 { question: 'Can it charge a laptop?', answer: 'Only when the model\'s USB-C PD output meets the laptop power requirement. Check the specifications of the laptop, power bank, and cable.' },
-                { question: 'Is it suitable for air travel?', answer: 'Check the Wh value on the product and the airline policy. Power banks are normally carried in hand luggage only.' },
+                { question: 'Is it suitable for air travel?', answer: 'Check the Wh value on the product and the airline policy. Carry-on only: ≤100Wh is generally allowed without approval, 100–160Wh needs airline approval, and over 160Wh is not allowed in passenger baggage (IATA/FAA). Check the Wh printed on the unit. Details: [power bank airline rules](/en/blog/power-bank-airplane-rules-egypt-2026) · [flying with a power bank](/en/solutions/power-bank-airline-rules-egypt-travel).' },
                 { question: 'What is the warranty?', answer: 'The product page and CairoVolt warranty policy list the duration, coverage, and terms for each model.' }
             ],
-            products: [
-                { name: 'Joyroom 10000mAh Slim 22.5W', price: 1624, badge: 'Compact' },
-                { name: 'Joyroom 20000mAh Pro 22.5W', price: 997, badge: 'Higher Capacity' },
-                { name: 'Joyroom MagSafe 10000mAh', price: 850, badge: 'Wireless' }
-            ]
         }
     }
 };

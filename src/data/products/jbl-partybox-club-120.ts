@@ -56,7 +56,7 @@ export const jbl_partybox_club_120 = {
         <li>Weight: JBL lists roughly 10.6kg. A tower that feels far lighter has smaller drivers and battery inside.</li>
         <li>App pairing: a genuine unit is recognised by the official JBL PartyBox app — lookalikes never appear in it.</li>
         <li>Packaging: the original box has sharp print, correct spelling, and a labelled serial number.</li>
-        <li>Price logic: a "new" Club 120 offered around 40% below our price (roughly 13,000 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" Club 120 offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -99,7 +99,7 @@ export const jbl_partybox_club_120 = {
         <li>الوزن: JBL معلنة حوالي 10.6 كيلو. برج حاسسه أخف بكتير جواه درايفرات وبطارية أصغر.</li>
         <li>التطبيق: الوحدة الأصلية بيتعرف عليها تطبيق JBL PartyBox الرسمي — التقليد عمره ما بيظهر فيه.</li>
         <li>العلبة: الكرتونة الأصلية طباعتها حادة، إملاؤها سليم، وعليها رقم تسلسلي واضح.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 13,000 جنيه أو أقل) شبه مؤكد مش أصلية.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

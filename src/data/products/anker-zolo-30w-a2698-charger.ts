@@ -47,7 +47,7 @@ export const anker_zolo_30w_a2698_charger = {
                     { question: "How fast does it charge an iPhone 17?", answer: "The phone negotiates a supported USB-PD profile. Actual power and time vary by model, cable, battery level, temperature and use; consult the current device and A2698 documentation." },
                     { question: "Is it really GaN, and why does that matter?", answer: "Verify the GaN statement for A2698 on the supplied package and current manufacturer documentation. GaN can support a compact design, while temperature depends on load and test conditions." },
                     { question: "Do the prongs fold for travel?", answer: "The listing shows a foldable-plug design. Confirm the supplied plug variant, dimensions and weight, and use a correctly rated adapter if the socket requires one." },
-                    { question: "Does it support Samsung Super Fast Charging?", answer: "Check the exact phone's PPS requirement against the output range printed on A2698 and use the specified cable. The phone determines the accepted power." }
+                    { question: "Does it support Samsung Super Fast Charging?", answer: "Samsung 25W Super Fast Charging, yes: our FNB58 read a PPS window of 3.3–11V/3A, and a Galaxy S24 base charged 0→100% in ~65 min (measured). PPS does not reach 20V, so Samsung 45W SFC 2.0 is not covered. A 3A USB-C cable carries the full 30W." }
                 ]
             },
             ar: {
@@ -78,7 +78,7 @@ export const anker_zolo_30w_a2698_charger = {
                     { question: "بيشحن الايفون 17 بسرعة قد ايه؟", answer: "يتفاوض الهاتف على بروفايل USB-PD مدعوم. القدرة والزمن الفعليان يتغيران حسب الموديل والكابل ونسبة البطارية والحرارة والاستخدام؛ راجع وثائق الهاتف وA2698 الحالية." },
                     { question: "هو فعلاً GaN وده بيفرق ليه؟", answer: "تحقق من بيان GaN للموديل A2698 على العبوة الموردة ووثائق انكر الحالية. قد تساعد GaN على تصميم مدمج، بينما تتغير الحرارة حسب الحمل وظروف الاختبار." },
                     { question: "القابس بيتطوي للسفر؟", answer: "تعرض الصفحة تصميماً بقابس قابل للطي. تحقق من نوع القابس والأبعاد والوزن للنسخة الموردة، واستخدم محولاً مصنفاً إذا احتاجه المقبس." },
-                    { question: "بيدعم شحن سامسونج السريع؟", answer: "قارن متطلبات PPS للهاتف الدقيق بجدول خرج A2698 واستخدم الكابل المحدد. الهاتف يقرر القدرة المقبولة." }
+                    { question: "بيدعم شحن سامسونج السريع؟", answer: "شحن سامسونج 25 واط فائق السرعة: نعم؛ قرأ FNB58 لدينا نافذة PPS بين 3.3 و11 فولت عند 3 أمبير، وشُحن Galaxy S24 القاعدي من 0 إلى 100% في ~65 دقيقة (قياس). لا يصل PPS إلى 20 فولت، فلا يغطي Samsung 45W SFC 2.0. كابل USB-C بقدرة 3 أمبير يمرّر 30 واط كاملة." }
                 ]
             }
         },

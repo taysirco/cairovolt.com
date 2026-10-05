@@ -41,7 +41,7 @@ export const anker_powercore_26800 = {
                 faqs: [
                     { question: "Can it charge my laptop?", answer: "Only if the laptop accepts one of A1290's printed USB-C PD profiles and the cable is rated accordingly. A lower-power source may charge slowly or only under light load." },
                     { question: "Is it allowed on planes?", answer: "The listed capacity is close to but below the common 100Wh cabin threshold, but approval and use rules are airline- and route-specific. Confirm current rules and keep the Wh label readable." },
-                    { question: "What ports does it have?", answer: "Check the exact unit for one USB-C input/output and two USB-A outputs, then consult the shared-power table for simultaneous use." },
+                    { question: "What ports does it have?", answer: "One bidirectional USB-C port (PD up to 60W in and out; we measured a 58.6W peak) and two USB-A PowerIQ 2.0 outputs. Anker lists 78W max for USB-C plus one USB-A and 75W with all three active; consult the shared-power table for simultaneous use." },
                     { question: "How fast does it recharge?", answer: "Use the manufacturer table for the exact input profile. Time varies with source, cable, temperature and use during charging." },
                     { question: "How many phone charges does it provide?", answer: "A fixed count cannot be promised. Compare usable watt-hours with the device battery and allow for conversion loss and operating load." },
                     { question: "Does it support pass-through charging?", answer: "Use pass-through only if the supplied manual explicitly permits it and follow its load and thermal limits." }
@@ -64,7 +64,7 @@ export const anker_powercore_26800 = {
                 faqs: [
                     { question: "هل يشحن اللابتوب؟", answer: "فقط إذا قبل اللابتوب أحد ملفات USB-C PD المطبوعة على A1290 وكان الكابل بالقدرة المناسبة. قد يكون الشحن أبطأ من المحول الموصى به." },
                     { question: "هل يمكن السفر به؟", answer: "السعة المدرجة قريبة من حد 100Wh الشائع للمقصورة لكنها أدناه، لكن الموافقة وقواعد الاستخدام مرتبطة بالناقل والرحلة. تحقق من القواعد الحالية واترك ملصق Wh واضحًا." },
-                    { question: "ما المنافذ الموجودة؟", answer: "تحقق على الوحدة من USB-C للإدخال والإخراج ومنفذي USB-A، ثم راجع جدول توزيع القدرة للاستخدام المتزامن." },
+                    { question: "ما المنافذ الموجودة؟", answer: "منفذ USB-C واحد ثنائي الاتجاه (PD حتى 60 واط دخلًا وخرجًا؛ قِسنا ذروة 58.6 واط) ومنفذا USB-A بتقنية PowerIQ 2.0. تذكر انكر 78 واط كحد أقصى لـ USB-C مع منفذ USB-A واحد و75 واط مع المنافذ الثلاثة؛ راجع جدول توزيع القدرة للاستخدام المتزامن." },
                     { question: "كم يستغرق شحنه؟", answer: "استخدم جدول الشركة لملف الإدخال الدقيق. تختلف المدة حسب المصدر والكابل والحرارة والاستخدام أثناء الشحن." },
                     { question: "كم مرة يشحن الموبايل؟", answer: "لا يمكن ضمان عدد ثابت. قارن الطاقة القابلة للاستخدام ببطارية الجهاز واحتسب فقد التحويل والحمل." },
                     { question: "هل يدعم الشحن التمريري؟", answer: "استخدم الشحن التمريري فقط إذا سمح به الدليل المرفق صراحة واتبع حدود الحمل والحرارة." }

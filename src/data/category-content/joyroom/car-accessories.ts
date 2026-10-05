@@ -81,11 +81,6 @@ export const joyroom_car_accessories_content: CategoryContent = {
                             answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال تختلف حسب المنتج وتظهر في صفحته وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         }
                     ],
-                    products: [
-                        { name: 'شاحن سيارة جوي روم JR-CCL05 (4 في 1)', price: 513, badge: 'كابلات مدمجة' },
-                        { name: 'حامل جوال مغناطيسي جوي روم ZS290 (N52 MagSafe)', price: 934, badge: 'مغناطيسي' },
-                        { name: 'حامل موبايل سيارة جوي روم JR-ZS295', price: 169, badge: 'حامل' }
-                    ]
                 },
                 en: {
                     title: 'Joyroom Car Accessories',
@@ -152,11 +147,6 @@ export const joyroom_car_accessories_content: CategoryContent = {
                             answer: 'CairoVolt warranty duration, coverage, and replacement terms vary by product and appear on its page and the warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
                         }
                     ],
-                    products: [
-                        { name: 'Joyroom JR-CCL05 Car Charger (4-in-1)', price: 513, badge: 'Built-in cables' },
-                        { name: 'Joyroom ZS290 Magnetic Car Mount (N52 MagSafe)', price: 934, badge: 'Magnetic' },
-                        { name: 'Joyroom JR-ZS295 Car Phone Mount', price: 169, badge: 'Mount' }
-                    ]
                 }
             }
         };

@@ -10,8 +10,7 @@ export const gas_water_heater_power_charger_adapter_safety: BlogArticle = {
         'anker-powerport-20w',
         'anker-a2147-gan-charger-30w',
         'joyroom-20w-usb-c-charger',
-        'joyroom-30w-fast-charger',
-        'anker-a2741-charger-30w'
+        'joyroom-30w-fast-charger'
     ],
     relatedArticles: [
         'charger-spark-outlet-when-dangerous-replace',

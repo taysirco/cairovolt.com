@@ -3,6 +3,7 @@ import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
 import { validateApiKey } from '@/lib/api-auth';
+import { MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
 
 // ============================================
 // GET - List all products with pagination & filtering
@@ -32,7 +33,18 @@ export async function GET(req: NextRequest) {
     if (category) {
         products = products.filter(p => p.categorySlug === category);
     }
-    if (status) {
+    // Default = the public catalogue every other machine surface reports
+    // (llms.txt, llms-full, the knowledge graph, feed.xml, the lab export):
+    // active records outside MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS. Without
+    // this the endpoint listed retired cables with a price and stock that no
+    // product page sells. `?status=all` is the explicit opt-out for internal
+    // tools that need every record (e.g. the wholesale dashboard sync);
+    // any other `?status=` value filters on that exact status.
+    if (!status) {
+        products = products.filter(p =>
+            p.status === 'active' && !MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(p.slug),
+        );
+    } else if (status !== 'all') {
         products = products.filter(p => p.status === status);
     }
     if (slug) {

@@ -5,7 +5,12 @@ import { getGenericCategory } from '@/data/generic-categories';
 import { getIndexEntry } from '@/data/blog-index';
 import { staticProducts } from '@/lib/static-products';
 import { resolveMinPriceToken } from '@/lib/meta-price-token';
-import { isStorefrontPromotableSlug } from '@/lib/merchant-product-data';
+import {
+    isRecallAffectedSlug,
+    isRecallStockVerifiedOutsideScope,
+    isStorefrontPromotableSlug,
+} from '@/lib/merchant-product-data';
+import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
@@ -76,7 +81,9 @@ export function generateCategoryMetadata(locale: string, categorySlug: string): 
             description: metaDescription,
             images: ['https://cairovolt.com/logo.png'],
         },
-        robots: { index: true, follow: true },
+        // No page-level `robots` here: an override replaces the layout's whole
+        // robots block, which silently dropped its googleBot directives
+        // (max-image-preview:large, max-snippet:-1) on these hubs.
         other: {
             'article:author': isArabic ? 'كايرو فولت' : 'CairoVolt',
             'geo.region': 'EG',
@@ -165,10 +172,12 @@ export function GenericCategoryContent({
             />
             {/* FAQs stay visible without asserting FAQPage rich-result eligibility. */}
 
-            <main className="min-h-screen bg-gray-50 dark:bg-gray-950" dir={isArabic ? 'rtl' : 'ltr'} itemScope itemType="https://schema.org/CollectionPage">
-                <meta itemProp="name" content={content.title} />
-                <meta itemProp="description" content={resolvedDescription} />
-                <meta itemProp="inLanguage" content={isArabic ? 'ar-EG' : 'en-EG'} />
+            {/* A <div>, not <main>: the locale layout already renders the
+                page's single <main>. The CollectionPage/ItemList entities live
+                in the JSON-LD below; the old microdata layer duplicated them
+                as disconnected nodes (and soaked product names and Offers into
+                the CollectionPage). */}
+            <div className="min-h-screen bg-gray-50 dark:bg-gray-950" dir={isArabic ? 'rtl' : 'ltr'}>
 
                 {/* Breadcrumb */}
                 <div className="bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800">
@@ -186,14 +195,17 @@ export function GenericCategoryContent({
                 {/* Hero */}
                 <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-12 md:py-16">
                     <div className="container mx-auto px-4 text-center max-w-3xl">
-                        <h1 className="text-3xl md:text-5xl font-bold mb-4" itemProp="headline">{content.title}</h1>
+                        <h1 className="text-3xl md:text-5xl font-bold mb-4">{content.title}</h1>
                         <p className="text-lg md:text-xl text-white/90 mb-6">{content.subtitle}</p>
                         <p className="text-white/80 text-sm md:text-base leading-relaxed">{content.intro}</p>
                     </div>
                 </header>
 
                 {/* Brand Filters + Products */}
-                <section className="container mx-auto px-4 py-8" aria-label={isArabic ? 'المنتجات' : 'Products'}>
+                <section className="container mx-auto px-4 py-8" aria-labelledby={`${cleanSlug}-products-heading`}>
+                    <h2 id={`${cleanSlug}-products-heading`} className="text-xl md:text-2xl font-bold mb-4 text-center text-gray-900 dark:text-white">
+                        {isArabic ? 'المنتجات' : 'Products'}
+                    </h2>
                     <nav className="flex flex-wrap gap-3 justify-center mb-8" aria-label={isArabic ? 'تصفية حسب العلامة' : 'Filter by brand'}>
                         {data.brandCategories.map(bc => (
                             <Link
@@ -224,6 +236,9 @@ export function GenericCategoryContent({
                                     : rawTranslation;
                                 const localizedBrandDisplay = getBrandDisplayName(product.brandDisplay, locale);
                                 const primaryImage = product.images?.find(i => i.isPrimary)?.url || product.images?.[0]?.url;
+                                // Same marker and predicate as the brand shelf.
+                                const recalled = isRecallAffectedSlug(product.slug)
+                                    && !isRecallStockVerifiedOutsideScope(product.slug);
 
                                 return (
                                     <Link
@@ -232,7 +247,7 @@ export function GenericCategoryContent({
                                         className="group bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-xl transition-all hover:-translate-y-1"
                                     >
                                         {/* Image */}
-                                        <div className="relative aspect-square bg-white p-4" itemProp="image">
+                                        <div className="relative aspect-square bg-white p-4">
                                             <span className={`absolute top-2 ${isArabic ? 'left-2' : 'right-2'} px-2 py-0.5 text-xs font-medium rounded-full z-10 ${
                                                 product.brandDisplay === 'Anker'
                                                     ? 'bg-blue-100 text-blue-700'
@@ -273,23 +288,25 @@ export function GenericCategoryContent({
 
                                         {/* Info */}
                                         <div className="p-3 md:p-4">
-                                            <h3 className="font-medium text-sm text-gray-900 line-clamp-2 mb-1 group-hover:text-blue-600 transition-colors" itemProp="name">
+                                            <h3 className="font-medium text-sm text-gray-900 line-clamp-2 mb-1 group-hover:text-blue-600 transition-colors">
                                                 {t?.name || product.slug}
                                             </h3>
+                                            {recalled && (
+                                                <span className="mb-1 flex items-center gap-1 text-[10px] font-semibold text-amber-700">
+                                                    <span aria-hidden="true">⚠️</span>{isArabic ? 'استدعاء — راجع صفحة المنتج' : 'Recall — see product page'}
+                                                </span>
+                                            )}
                                             {t?.shortDescription && (
                                                 <p className="text-xs text-gray-500 line-clamp-1 mb-2">
                                                     {t.shortDescription}
                                                 </p>
                                             )}
-                                            <div className="flex items-end gap-2" itemProp="offers" itemScope itemType="https://schema.org/Offer">
-                                                <meta itemProp="priceCurrency" content="EGP" />
-                                                <meta itemProp="availability" content={product.stock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock'} />
-                                                <span className="text-lg font-bold text-gray-900" itemProp="price" content={String(product.price)}>
+                                            <div className="flex items-end gap-2">
+                                                <span className="text-lg font-bold text-gray-900">
                                                     {product.price.toLocaleString('en-US')}
                                                 </span>
                                                 <span className="text-xs text-gray-500">{isArabic ? 'ج.م' : 'EGP'}</span>
-                                                {/* Display-only pre-discount price — deliberately NOT marked up
-                                                    as an itemProp so the schema.org Offer keeps the real price. */}
+                                                {/* Display-only pre-discount price. */}
                                                 {product.originalPrice > product.price && (
                                                     <>
                                                         <span className="text-xs text-gray-400 line-through">{product.originalPrice.toLocaleString('en-US')}</span>
@@ -365,7 +382,9 @@ export function GenericCategoryContent({
                                         <span className="transform group-open:rotate-180 transition-transform text-gray-400 flex-shrink-0">▼</span>
                                     </summary>
                                     <div className="px-5 pb-5 text-gray-600 dark:text-gray-400 leading-relaxed border-t border-gray-100 dark:border-gray-700 pt-4">
-                                        {item.answer}
+                                        {/* Answers may carry markdown links (airline rules,
+                                            product pages, Apple support). */}
+                                        <MarkdownRenderer content={item.answer} />
                                     </div>
                                 </details>
                             ))}
@@ -375,16 +394,11 @@ export function GenericCategoryContent({
 
                 {/* Rich Content */}
                 {richContent && (
-                    <article className="bg-white dark:bg-gray-900 py-12 border-t border-gray-100 dark:border-gray-800" itemScope itemType="https://schema.org/Article">
-                        <meta itemProp="headline" content={content.title} />
-                        <meta itemProp="author" content={isArabic ? 'كايرو فولت' : 'CairoVolt'} />
-                        <meta itemProp="publisher" content={isArabic ? 'كايرو فولت' : 'CairoVolt'} />
-                        <meta itemProp="inLanguage" content={isArabic ? 'ar-EG' : 'en-EG'} />
+                    <article className="bg-white dark:bg-gray-900 py-12 border-t border-gray-100 dark:border-gray-800">
                         <div className="container mx-auto px-4 max-w-4xl">
                             <div
                                 className="prose prose-lg dark:prose-invert max-w-none prose-headings:scroll-mt-20 prose-h2:text-2xl prose-h2:font-bold prose-h2:mt-10 prose-h2:mb-4 prose-h2:text-gray-900 dark:prose-h2:text-white prose-table:text-sm prose-th:bg-gray-100 dark:prose-th:bg-gray-800 prose-th:p-3 prose-td:p-3 prose-table:border prose-table:border-gray-200 dark:prose-table:border-gray-700 prose-tr:border-b prose-tr:border-gray-200 dark:prose-tr:border-gray-700 prose-strong:text-gray-900 dark:prose-strong:text-white prose-a:text-blue-600 prose-li:my-1"
                                 dangerouslySetInnerHTML={{ __html: localizeInternalLinks(sanitizeHtml(richContent), locale) }}
-                                itemProp="articleBody"
                             />
                         </div>
                     </article>
@@ -502,7 +516,7 @@ export function GenericCategoryContent({
                         }),
                     }}
                 />
-            </main>
+            </div>
         </>
     );
 }

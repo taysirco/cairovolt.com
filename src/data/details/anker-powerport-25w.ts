@@ -1,20 +1,22 @@
 // Details for: anker-powerport-25w
 // IDENTITY GATE: catalogue mpn A2656111 = Anker A2656 (25W Compact, single USB-C, foldable).
-// Marketing English/Arabic names + img_2 alt incorrectly say A2322K11 — that SKU is PowerPort Atom III
+// Earlier marketing EN/AR names + img_2 alt said A2322K11 (corrected 2026-10-04) — that SKU is PowerPort Atom III
 // (A2322, ~60W dual-port GaN). Do NOT merge. Bench follows physical label / catalogue MPN A2656111.
 import type { ProductDetail } from './_types';
 
 export const anker_powerport_25w_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'CairoVolt catalogue MPN A2656111 = Anker Charger (25W, Compact) / model A2656 (store SKU AC02, GTIN 0194644063566, ~550 EGP). Physical retail sample label reads A2656 / A2656111 — NOT A2322. The listing title that says A2322K11 is a naming conflict: A2322 is PowerPort Atom III (~60W USB-C+USB-A GaN), a different product.',
+            'Anker Charger (25W, Compact), model A2656 / A2656111, is a single-port foldable USB-C wall charger. Our FNB58 read a PPS window of 5.0–11V/2.75A (measured), and a Galaxy S24 showed Super Fast Charging at ~24.3W peak. It suits Samsung 25W phones; iPhones stay near 20W.',
+            'Identity: CairoVolt catalogue MPN A2656111 = Anker Charger (25W, Compact) / model A2656 (store SKU AC02, GTIN 0194644063566, ~550 EGP). Physical retail sample label reads A2656 / A2656111 — NOT A2322. Earlier listing titles said A2322K11; that was a naming error: A2322 is PowerPort Atom III (~60W USB-C+USB-A GaN), a different product.',
             'FNB58 decoded fixed PDOs 5V/3A + 9V/2.77A plus PPS APDO 5.0–11V/2.75A (25W Max) — PPS present, so Samsung 25W Super Fast Charging marketing is valid on this sample. Peak fixed rail 24.5W; PPS hold 11V/2.27A ≈ 24.7W for 5 min on JUWEI.',
             'Real phones: Galaxy S24 base negotiated PPS SFC (~24.3W peak; 0→100% ≈ 66 min). iPhone 15 stayed in Apple\'s ~20W PD cap (~19.7W peak; 0→50% ≈ 28 min). Single USB-C only — no dual-port.',
             'Vs Joyroom JR-TCF23 (~342 EGP, also 25W with PPS 3.3–11V/2.25A): same Samsung-SFC job class; Anker is ~1.6× the street price for brand, foldable compact cube (measured 49.7g / 31.1×31.0×36.2 mm), and MultiProtect packaging — not for higher measured watts.',
             'Surface 54.2°C after 15 min at ~24.5W (ambient 28.0°C). No AC-input analyzer — we publish no efficiency %. Recall check 2026-07-24: A2656 wall charger not on Anker rc2506 power-bank list. Single unit; batches may vary. Verify the printed model on your unit before trusting SFC claims.',
         ],
         ar: [
-            'MPN كتالوج كايرو فولت A2656111 = Anker Charger (25W, Compact) / الطراز A2656 (SKU المتجر AC02، GTIN 0194644063566، ~550 جنيه). ملصق عيّنة التجزئة يقرأ A2656 / A2656111 — وليس A2322. عنوان القائمة الذي يقول A2322K11 تعارض تسمية: A2322 هو PowerPort Atom III (~60 واط USB-C+USB-A GaN)، منتج مختلف.',
+            'شاحن انكر Charger (25W, Compact) بالطراز A2656 / A2656111 شاحن حائط USB-C بمنفذ واحد وقابس قابل للطي. قرأ FNB58 لدينا نافذة PPS بين 5.0 و11 فولت عند 2.75 أمبير (قياس)، وأظهر Galaxy S24 الشحن السريع الفائق بذروة ~24.3 واط. يناسب هواتف سامسونج 25 واط، ويبقى الآيفون قرب 20 واط.',
+            'الهوية: MPN كتالوج كايرو فولت A2656111 = Anker Charger (25W, Compact) / الطراز A2656 (SKU المتجر AC02، GTIN 0194644063566، ~550 جنيه). ملصق عيّنة التجزئة يقرأ A2656 / A2656111 — وليس A2322. عناوين القائمة السابقة قالت A2322K11 وكان ذلك خطأ تسمية: A2322 هو PowerPort Atom III (~60 واط USB-C+USB-A GaN)، منتج مختلف.',
             'FNB58 فكّ PDO ثابتة 5V/3A + 9V/2.77A مع PPS APDO 5.0–11V/2.75A (25 واط حد أقصى) — PPS موجود، فتسويق Samsung 25W Super Fast Charging صالح على هذه العيّنة. ذروة المنفذ الثابت 24.5 واط؛ تثبيت PPS 11V/2.27A ≈ 24.7 واط لمدة 5 دقائق على JUWEI.',
             'هواتف حقيقية: Galaxy S24 القاعدي تفاوض PPS SFC (~24.3 واط ذروة؛ 0→100% ≈ 66 دقيقة). iPhone 15 بقي ضمن سقف آبل ~20 واط PD (~19.7 واط ذروة؛ 0→50% ≈ 28 دقيقة). منفذ USB-C واحد فقط — بلا منفذين.',
             'مقابل Joyroom JR-TCF23 (~342 جنيه، أيضًا 25 واط مع PPS 3.3–11V/2.25A): نفس فئة عمل Samsung-SFC؛ أنكر أغلى ~1.6× مقابل العلامة والكيوب القابل للطي (49.7 جرام / 31.1×31.0×36.2 ملم) وتعبئة MultiProtect — لا مقابل واط أعلى مقاس.',
@@ -24,7 +26,7 @@ export const anker_powerport_25w_detail: ProductDetail = {
     localContext: {
         en:
             'For an Egyptian buyer at ~550 EGP, A2656111 (Anker A2656 Compact 25W) answers: "I want a pocket foldable brick that actually lights Samsung Super Fast Charging, and I will pay Anker money over Joyroom." ' +
-            'IDENTITY FIRST: CairoVolt catalogue mpn is A2656111; some listing copy still says A2322K11. Those are different Anker products — A2322 = Atom III ~60W dual-port. Match the printed model on the brick (expect A2656 / A2656111) before checkout or after COD open. ' +
+            'IDENTITY FIRST: CairoVolt catalogue mpn is A2656111; earlier listing copy said A2322K11 in error. Those are different Anker products — A2322 = Atom III ~60W dual-port. Match the printed model on the brick (expect A2656 / A2656111) before checkout or after COD open. ' +
             'Six realistic fits. (1) SAMSUNG-FIRST HOUSEHOLD (Galaxy A54/A55/S23/S24 base): FNB58-confirmed PPS 5.0–11V/2.75A covers the Samsung 25W SFC envelope — our S24 showed Super Fast Charging and ~24.3W peak. ' +
             '(2) MIXED iPHONE + SAMSUNG HOME: one brick covers both; iPhone still caps ~20W (MacRumors), Samsung uses the PPS rail. ' +
             '(3) TRAVEL / POCKET (foldable Type-A): measured ~50g cube beats the longer Joyroom Europlug brick for bag space; Egyptian universal sockets often take US flat blades, but recessed/euro-only fixtures may need a cheap travel adapter — check your wall. ' +
@@ -34,7 +36,7 @@ export const anker_powerport_25w_detail: ProductDetail = {
             'ELECTRICITY: 25W for one hour ≈ 0.025 kWh → a few piastres on EgyptERA residential tariffs. No vampire/efficiency % — we did not run PZEM on this sample.',
         ar:
             'للمشتري المصري عند ~550 جنيه، A2656111 (Anker A2656 Compact 25W) يجيب: "عايز شاحن جيب قابس قابل للطي يشعل Samsung Super Fast Charging فعلًا، ومستعد أدفع سعر أنكر فوق جوي روم." ' +
-            'الهوية أولًا: MPN كتالوج كايرو فولت هو A2656111؛ بعض نصوص القائمة ما زالت تقول A2322K11. هذان منتجان أنكر مختلفان — A2322 = Atom III ~60 واط بمنفذين. طابق الطراز المطبوع على الشاحن (توقّع A2656 / A2656111) قبل الدفع أو بعد فتح COD. ' +
+            'الهوية أولًا: MPN كتالوج كايرو فولت هو A2656111؛ نصوص القائمة السابقة قالت A2322K11 خطأً. هذان منتجان أنكر مختلفان — A2322 = Atom III ~60 واط بمنفذين. طابق الطراز المطبوع على الشاحن (توقّع A2656 / A2656111) قبل الدفع أو بعد فتح COD. ' +
             'ستة استخدامات واقعية. (1) بيت سامسونج أولًا (Galaxy A54/A55/S23/S24 القاعدي): نافذة PPS 5.0–11V/2.75A المؤكّدة بـ FNB58 تغطي ظرف Samsung 25W SFC — S24 عندنا أظهر الشحن السريع الفائق وذروة ~24.3 واط. ' +
             '(2) بيت مختلط آيفون + سامسونج: شاحن واحد يغطي الاثنين؛ الآيفون يبقى بسقف ~20 واط (MacRumors)، والسامسونج يستخدم منفذ PPS. ' +
             '(3) سفر / جيب (Type-A قابل للطي): كيوب ~50 جرام يتفوّق على قالب Europlug المستطيل لجوي روم في الحقيبة؛ الفيش المصرية العامة غالبًا تقبل الشفرات الأمريكية المسطحة، لكن الفيش الغائرة/الأوروبية فقط قد تحتاج محوّل سفر رخيص — راجع حائطك. ' +
@@ -49,8 +51,8 @@ export const anker_powerport_25w_detail: ProductDetail = {
             ar: 'A2656111 — طراز أنكر A2656 / Anker Charger (25W, Compact)؛ SKU المتجر AC02؛ GTIN 0194644063566',
         },
         'Marketing-name conflict': {
-            en: 'Listing EN/AR titles and one image alt say A2322K11 — that is PowerPort Atom III (A2322, ~60W dual-port GaN), NOT this 25W single-C brick. Do not treat A2322 and A2656 as aliases.',
-            ar: 'عناوين القائمة EN/AR ونص بديل لصورة يقولان A2322K11 — ذلك PowerPort Atom III (A2322، ~60 واط بمنفذين GaN)، وليس هذا الشاحن 25 واط بمنفذ C واحد. لا تعامل A2322 وA2656 كأسماء بديلة.',
+            en: 'Earlier listing EN/AR titles and one image alt said A2322K11; they now read A2656111. A2322 is PowerPort Atom III (~60W dual-port GaN), NOT this 25W single-C brick, and the two codes are not aliases.',
+            ar: 'عناوين القائمة السابقة EN/AR ونص بديل لصورة قالت A2322K11، وأصبحت الآن A2656111. أما A2322 فهو PowerPort Atom III (~60 واط بمنفذين GaN)، وليس هذا الشاحن 25 واط بمنفذ C واحد، والرمزان ليسا اسمين بديلين.',
         },
         'Rated Output': { en: '25W Max (single USB-C)', ar: '25 واط كحد أقصى (USB-C واحد)' },
         'PD Fixed Profiles (Anker + FNB58)': {
@@ -98,8 +100,8 @@ export const anker_powerport_25w_detail: ProductDetail = {
             ar: 'غير مدرج في قائمة استدعاء باوربانك انكر النشطة (anker.com/rc2506: A1257/A1263/A1647/A1652/A1681/A1689) حتى 2026-07-24؛ لا إصابة CPSC لشاحن الحائط A2656',
         },
         'Efficiency': {
-            en: 'Not measured — no AC power analyzer (PZEM) on this pass; we do not invent wall efficiency %',
-            ar: 'غير مقيسة — بلا محلّل قدرة AC (PZEM) في هذه الجولة؛ لا نخترع نسبة كفاءة من الحائط',
+            en: 'Not measured — no AC power analyzer (PZEM) on this pass',
+            ar: 'غير مقيسة — بلا محلّل قدرة AC (PZEM) في هذه الجولة',
         },
     },
     benchTest: {
@@ -113,7 +115,7 @@ export const anker_powerport_25w_detail: ProductDetail = {
         },
         methodology: {
             en:
-                'A2656111 (Anker A2656 Compact 25W) was run under CairoVolt wall-charger protocol §7.1 on sample CV-CH-A2656111-001 (2026-07-24). ' +
+                'A2656111 (Anker A2656 Compact 25W) was run under CairoVolt wall-charger protocol on sample CV-CH-A2656111-001 (2026-07-24). ' +
                 'ALIAS GATE before load: catalogue mpn A2656111 and shell/box print A2656 / A2656111; listing marketing string A2322K11 rejected as identity — A2322 is Atom III dual-port ~60W, not this brick. Images (foldable single-C compact) match A2656. ' +
                 '(A) FNB58 fw v1.3 PD Info decode with no load — enumerated fixed PDOs and PPS APDO. Critical honesty gate vs "Samsung 25W": PPS must exist; fixed-PD-only would reject SFC marketing. ' +
                 '(B–C) Each fixed rail and peak rail loaded on JUWEI 35W for 2 minutes; logged FNB58 V·A·W. ' +
@@ -121,11 +123,11 @@ export const anker_powerport_25w_detail: ProductDetail = {
                 '(F) Real phones from ~0%: Samsung Galaxy S24 base (14.31Wh, PPS SFC) and Apple iPhone 15 (12.99Wh, ~20W PD cap), timed 0→50% and 0→100% where practical. ' +
                 '(G) BENETECH GM320 IR (ε=0.95) surface temps at 4 points after 15 min sustained ~24.5W. ' +
                 '(H) OCP: JUWEI request >3.0A on 9V rail. (K) Kkmoon 0.01g weight + Mitutoyo caliper. (L) Visual plug: foldable US Type-A 2-pin. (D) N/A — single port, no multi-port split. ' +
-                '(I–J) NOT run: no-load vampire draw and wall efficiency — no PZEM-004T on this pass; we publish neither (§11.3). ' +
+                '(I–J) NOT run: no-load vampire draw and wall efficiency — no PZEM-004T on this pass; we publish neither. ' +
                 'Independent corroboration (not our data): anker.com/products/a2656 lists 5V⎓3A / 9V⎓2.77A and PPS 5V–11V⎓2.75A Max (25W Max), ~31×31×36 mm; Anker Singapore A2656K11 sheet lists 50g; Samsung documents 25W SFC via PPS; MacRumors documents iPhone ~20W wired ceiling; Joyroom JR-TCF23 CairoVolt bench (CV-CH-JRTCF23-001) is the price/performance comparator. ' +
                 'Single unit; production batches may vary.',
             ar:
-                'شُغّل A2656111 (Anker A2656 Compact 25W) وفق بروتوكول شواحن الحائط §7.1 في كايرو فولت على العيّنة CV-CH-A2656111-001 (2026-07-24). ' +
+                'شُغّل A2656111 (Anker A2656 Compact 25W) وفق بروتوكول شواحن الحائط في كايرو فولت على العيّنة CV-CH-A2656111-001 (2026-07-24). ' +
                 'بوابة الاسم المستعار قبل الحمل: MPN الكتالوج A2656111 وطباعة الهيكل/الصندوق A2656 / A2656111؛ رُفضت سلسلة التسويق A2322K11 كهوية — A2322 هو Atom III بمنفذين ~60 واط، وليس هذا الشاحن. الصور (مدمج بمنفذ C واحد وقابس قابل للطي) تطابق A2656. ' +
                 '(A) فك FNB58 fw v1.3 لـ PD Info بلا حمل — أحصينا PDO الثابتة وPPS APDO. بوابة صدق حرجة مقابل "Samsung 25W": يجب وجود PPS؛ PD ثابت فقط يرفض تسويق SFC. ' +
                 '(B–C) كل منفذ ثابت ومنفذ الذروة حُمّل على JUWEI 35W لدقيقتين؛ سجّلنا V·A·W من FNB58. ' +
@@ -133,7 +135,7 @@ export const anker_powerport_25w_detail: ProductDetail = {
                 '(F) هواتف حقيقية من ~0%: Samsung Galaxy S24 القاعدي (14.31Wh، PPS SFC) وApple iPhone 15 (12.99Wh، سقف ~20 واط PD)، مع توقيت 0→50% و0→100% حيث أمكن. ' +
                 '(G) حرارة سطح BENETECH GM320 (ε=0.95) على 4 نقاط بعد 15 دقيقة عند ~24.5 واط متواصل. ' +
                 '(H) OCP: طلب JUWEI >3.0A على منفذ 9V. (K) وزن Kkmoon 0.01 جرام + قدمة Mitutoyo. (L) قابس بصري: أمريكي Type-A بسنّين قابل للطي. (D) غير منطبق — منفذ واحد بلا تقسيم. ' +
-                '(I–J) لم يُنفَّذا: استهلاك بلا حمل وكفاءة الحائط — بلا PZEM-004T في هذه الجولة؛ ولا ننشر أيًا منهما (§11.3). ' +
+                '(I–J) لم يُنفَّذا: استهلاك بلا حمل وكفاءة الحائط — بلا PZEM-004T في هذه الجولة؛ ولا ننشر أيًا منهما. ' +
                 'للاسترجاع المستقل (وليست بياناتنا): anker.com/products/a2656 يذكر 5V⎓3A / 9V⎓2.77A وPPS 5V–11V⎓2.75A حد أقصى (25 واط)، ~31×31×36 ملم؛ كتيّب Anker Singapore A2656K11 يذكر 50 جرامًا؛ سامسونج توثّق 25W SFC عبر PPS؛ MacRumors توثّق سقف الآيفون السلكي ~20 واط؛ مقعد Joyroom JR-TCF23 في كايرو فولت (CV-CH-JRTCF23-001) هو مقارن السعر/الأداء. ' +
                 'وحدة واحدة؛ قد تختلف دفعات الإنتاج.',
         },
@@ -150,9 +152,9 @@ export const anker_powerport_25w_detail: ProductDetail = {
         results: [
             {
                 param: { en: 'Identity — catalogue MPN vs marketing name', ar: 'الهوية — MPN الكتالوج مقابل اسم التسويق' },
-                rated: { en: 'catalogue mpn A2656111; listing title claims A2322K11', ar: 'MPN الكتالوج A2656111؛ عنوان القائمة يدّعي A2322K11' },
+                rated: { en: 'catalogue mpn A2656111; earlier listing title said A2322K11', ar: 'MPN الكتالوج A2656111؛ عنوان القائمة السابق قال A2322K11' },
                 measured: { en: 'Shell/box print A2656 / A2656111 — catalogue MPN confirmed; A2322K11 NOT on physical sample', ar: 'طباعة الهيكل/الصندوق A2656 / A2656111 — MPN الكتالوج مؤكّد؛ A2322K11 غير موجود على العيّنة الفعلية' },
-                note: { en: 'A2322 = Atom III ~60W dual-port — different SKU; do not merge (§ alias gate)', ar: 'A2322 = Atom III ~60 واط بمنفذين — SKU مختلف؛ لا تدمج (§ بوابة الاسم المستعار)' },
+                note: { en: 'A2322 = Atom III ~60W dual-port — a different SKU, not an alias of A2656', ar: 'A2322 = Atom III ~60 واط بمنفذين — SKU مختلف، وليس اسمًا بديلًا لـ A2656' },
             },
             {
                 param: { en: 'PDOs decoded (FNB58)', ar: 'PDO المفكوكة (FNB58)' },
@@ -182,7 +184,7 @@ export const anker_powerport_25w_detail: ProductDetail = {
                 param: { en: 'PPS hold 8.5V/2.5A (request)', ar: 'تثبيت PPS عند 8.5V/2.5A (طلب)' },
                 rated: { en: '21.25W request — inside 5.0–11V/2.75A APDO', ar: 'طلب 21.25 واط — داخل APDO 5.0–11V/2.75A' },
                 measured: { en: '21.1W (8.49V/2.49A) — stable 5 min; drift ≤ ±0.10V', ar: '21.1 واط (8.49V/2.49A) — ثابت 5 دقائق؛ انحراف ≤ ±0.10 فولت' },
-                note: { en: '§7.1-E mid step — granted near request (Anker 2.75A APDO ceiling higher than JR-TCF23 2.25A)', ar: 'خطوة وسط §7.1-E — مُنح قرب الطلب (سقف APDO أنكر 2.75A أعلى من 2.25A لـ JR-TCF23)' },
+                note: { en: 'Mid step — granted near request (Anker 2.75A APDO ceiling higher than JR-TCF23 2.25A)', ar: 'خطوة وسط — مُنح قرب الطلب (سقف APDO أنكر 2.75A أعلى من 2.25A لـ JR-TCF23)' },
             },
             {
                 param: { en: 'PPS hold 9.24V/2.71A (request)', ar: 'تثبيت PPS عند 9.24V/2.71A (طلب)' },
@@ -206,7 +208,7 @@ export const anker_powerport_25w_detail: ProductDetail = {
                 param: { en: 'iPhone 15 — peak / 0→50% / 0→100%', ar: 'iPhone 15 — الذروة / 0→50% / 0→100%' },
                 rated: { en: 'phone: ~20W PD real-world cap (MacRumors)', ar: 'الهاتف: سقف فعلي ~20 واط PD (MacRumors)' },
                 measured: { en: '~19.7W peak; ~28 min to 50%; ~92 min to 100%', ar: 'ذروة ~19.7 واط؛ ~28 دقيقة إلى 50%؛ ~92 دقيقة للامتلاء' },
-                note: { en: '25W label does not override Apple\'s wired ceiling — expected (§8 phone-cap rule)', ar: 'ملصق 25 واط لا يتجاوز سقف آبل السلكي — متوقّع (قاعدة سقف الهاتف §8)' },
+                note: { en: '25W label does not override Apple\'s wired ceiling — expected (phone-cap rule)', ar: 'ملصق 25 واط لا يتجاوز سقف آبل السلكي — متوقّع (قاعدة سقف الهاتف)' },
             },
             {
                 param: { en: 'Surface temp @~24.5W (15 min)', ar: 'حرارة السطح عند ~24.5 واط (15 دقيقة)' },
@@ -216,7 +218,7 @@ export const anker_powerport_25w_detail: ProductDetail = {
             {
                 param: { en: 'Over-current protection (OCP)', ar: 'حماية التيار الزائد (OCP)' },
                 measured: { en: 'Cut in ~2.2 s when JUWEI requested >3.0A on 9V rail', ar: 'فصل خلال ~2.2 ثانية عند طلب JUWEI >3.0A على منفذ 9V' },
-                note: { en: 'Protection exercised on highest fixed PDO (≤3 s = pass per §7.1-H)', ar: 'اختُبرت الحماية على أعلى PDO ثابت (≤3 ثوانٍ = نجاح وفق §7.1-H)' },
+                note: { en: 'Protection exercised on highest fixed PDO (≤3 s = pass)', ar: 'اختُبرت الحماية على أعلى PDO ثابت (≤3 ثوانٍ = نجاح)' },
             },
             {
                 param: { en: 'Plug type (visual)', ar: 'نوع القابس (بصري)' },
@@ -239,7 +241,7 @@ export const anker_powerport_25w_detail: ProductDetail = {
             {
                 param: { en: 'Dual-port / multi-load', ar: 'منفذان / حمل متعدد' },
                 rated: { en: 'single USB-C — N/A', ar: 'USB-C واحد — غير منطبق' },
-                measured: { en: 'One port only — §7.1-D multi-port split not applicable', ar: 'منفذ واحد فقط — تقسيم §7.1-D غير منطبق' },
+                measured: { en: 'One port only — multi-port split not applicable', ar: 'منفذ واحد فقط — تقسيم غير منطبق' },
                 note: { en: 'If you need dual-port ~60W Atom III, that is A2322 — different MPN', ar: 'إن احتجت منفذين ~60 واط Atom III فذلك A2322 — MPN مختلف' },
             },
             {
@@ -251,7 +253,7 @@ export const anker_powerport_25w_detail: ProductDetail = {
             {
                 param: { en: 'Wall efficiency / no-load draw', ar: 'كفاءة الحائط / الاستهلاك بلا حمل' },
                 measured: { en: 'NOT MEASURED — no PZEM AC analyzer on this pass', ar: 'غير مقيس — بلا محلّل PZEM AC في هذه الجولة' },
-                note: { en: 'Silence over invention — protocol §11.3', ar: 'الصمت أقوى من الاختراع — البروتوكول §11.3' },
+                note: { en: 'Not measured on this pass', ar: 'لم يُقس في هذا الاختبار' },
             },
             {
                 param: { en: 'Recall check (2026-07-24)', ar: 'فحص الاستدعاء (2026-07-24)' },
@@ -268,11 +270,11 @@ export const anker_powerport_25w_detail: ProductDetail = {
             { en: '9V fixed rail delivered 24.5W (8.93V/2.74A) — ~98% of the 9V/2.77A PDO on JUWEI', ar: 'منفذ 9V الثابت أوصل 24.5 واط (8.93V/2.74A) — ~98% من PDO 9V/2.77A على JUWEI' },
             { en: 'PPS mid holds granted closer to request than JR-TCF23 (2.75A APDO vs Joyroom 2.25A clamp on 9.24V/2.71A step)', ar: 'تثبيتات PPS الوسطى مُنحت أقرب للطلب من JR-TCF23 (APDO 2.75A مقابل تثبيت جوي روم 2.25A على خطوة 9.24V/2.71A)' },
             { en: 'Foldable compact cube: 49.7g and 31.1 × 31.0 × 36.2 mm — matches Anker A2656 sheet; smaller bag footprint than JR-TCF23 Europlug brick', ar: 'كيوب مدمج قابل للطي: 49.7 جرامًا و31.1 × 31.0 × 36.2 ملم — يطابق كتيّب Anker A2656؛ أصغر في الحقيبة من قالب Europlug لـ JR-TCF23' },
-            { en: 'OCP cut in ~2.2 s on 9V over-current push — within §7.1-H pass window', ar: 'OCP فصل خلال ~2.2 ثانية عند دفع تيار زائد على 9V — ضمن نافذة نجاح §7.1-H' },
+            { en: 'OCP cut in ~2.2 s on 9V over-current push — within the pass window', ar: 'OCP فصل خلال ~2.2 ثانية عند دفع تيار زائد على 9V — ضمن نافذة نجاح' },
             { en: 'No Anker/CPSC recall hit for A2656 wall charger as of 2026-07-24 (rc2506 is power-bank only)', ar: 'لا إصابة استدعاء Anker/CPSC لشاحن الحائط A2656 حتى 2026-07-24 (rc2506 باوربانك فقط)' },
         ],
         limits: [
-            { en: 'NAMING CONFLICT: catalogue/physical MPN is A2656111 (A2656). Listing EN/AR names and img_2 alt still say A2322K11 — that is PowerPort Atom III (~60W dual-port), a different product. Verify the printed label; do not assume A2322 ≡ A2656.', ar: 'تعارض تسمية: MPN الكتالوج/الفعلي هو A2656111 (A2656). أسماء القائمة EN/AR ونص بديل img_2 ما زالت تقول A2322K11 — ذلك PowerPort Atom III (~60 واط بمنفذين)، منتج مختلف. تحقّق من الملصق المطبوع؛ لا تفترض A2322 ≡ A2656.' },
+            { en: 'Naming history: catalogue/physical MPN is A2656111 (A2656). Earlier listing names and the img_2 alt said A2322K11 — that is PowerPort Atom III (~60W dual-port), a different product. Verify the printed label; A2322 is not A2656.', ar: 'تاريخ التسمية: MPN الكتالوج/الفعلي هو A2656111 (A2656). أسماء القائمة السابقة ونص بديل img_2 قالت A2322K11 — ذلك PowerPort Atom III (~60 واط بمنفذين)، منتج مختلف. تحقّق من الملصق المطبوع؛ A2322 ليس A2656.' },
             { en: 'Single USB-C only — cannot charge two devices at once; Atom III A2322 is the dual-port Anker SKU (different MPN)', ar: 'منفذ USB-C واحد فقط — لا يشحن جهازين معًا؛ Atom III A2322 هو موديل أنكر بمنفذين (MPN مختلف)' },
             { en: 'iPhone stays at Apple\'s ~20W wired cap (~19.7W peak on our iPhone 15) — the 25W rating mainly benefits PPS Android phones', ar: 'الآيفون يبقى عند سقف آبل السلكي ~20 واط (~19.7 واط ذروة على iPhone 15) — تصنيف 25 واط يفيد أساسًا هواتف أندرويد بـ PPS' },
             { en: 'Samsung 45W Super Fast Charging 2.0 (Ultra class) is NOT in range — PPS tops ~11V/2.75A (25W Max), not a 20V PPS envelope', ar: 'Samsung 45W Super Fast Charging 2.0 (فئة Ultra) خارج النطاق — سقف PPS ~11V/2.75A (25 واط حد أقصى)، وليس ظرف PPS 20 فولت' },
@@ -280,8 +282,8 @@ export const anker_powerport_25w_detail: ProductDetail = {
             { en: 'Foldable US Type-A plug — not native EU Europlug like JR-TCF23; some Egyptian recessed sockets need a travel adapter', ar: 'قابس أمريكي Type-A قابل للطي — ليس Europlug أوروبي أصلي مثل JR-TCF23؛ بعض الفيش المصرية الغائرة تحتاج محوّل سفر' },
             { en: 'Price honesty: ~550 EGP vs JR-TCF23 ~342 EGP for the same Samsung 25W SFC job class — Anker premium is form-factor/brand, not measured wattage', ar: 'صدق السعر: ~550 جنيه مقابل JR-TCF23 ~342 جنيه لنفس فئة عمل Samsung 25W SFC — علاوة أنكر شكل/علامة، لا واط مقاس' },
             { en: 'No USB-C cable in the CairoVolt pack — budget a 3A C-to-C (or C-to-Lightning for older iPhones)', ar: 'لا كابل USB-C في عبوة كايرو فولت — احسب كابل 3A من C إلى C (أو C إلى Lightning للآيفونات الأقدم)' },
-            { en: 'Wall efficiency and no-load draw NOT measured (no PZEM) — we do not invent % figures', ar: 'كفاءة الحائط والاستهلاك بلا حمل غير مقيسين (بلا PZEM) — لا نخترع نسبًا مئوية' },
-            { en: 'No public ChargerLAB silicon teardown cited for A2656 on this pass — we do not invent chip IDs', ar: 'لا تفكيك ChargerLAB علني للسيليكون مذكور لـ A2656 في هذه الجولة — لا نخترع هويات رقائق' },
+            { en: 'Wall efficiency and no-load draw NOT measured (no PZEM)', ar: 'كفاءة الحائط والاستهلاك بلا حمل غير مقيسين (بلا PZEM)' },
+            { en: 'No public ChargerLAB silicon teardown cited for A2656 on this pass, so no chip IDs are listed', ar: 'لا تفكيك ChargerLAB علني للسيليكون مذكور لـ A2656 في هذه الجولة، لذا لا نذكر هويات رقائق' },
             { en: 'Single unit tested (CV-CH-A2656111-001) — production batches may vary; always re-check the printed model if a future pack arrives mislabeled', ar: 'وحدة واحدة مُختبرة (CV-CH-A2656111-001) — قد تختلف دفعات الإنتاج؛ أعد فحص الطراز المطبوع إن وصلت عبوة لاحقًا بملصق خاطئ' },
         ],
     },

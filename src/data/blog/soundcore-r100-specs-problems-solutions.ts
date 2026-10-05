@@ -4,7 +4,7 @@ export const soundcore_r100_specs_problems_solutions: BlogArticle = {
     slug: 'soundcore-r100-specs-problems-solutions',
     category: 'tips',
     publishDate: '2026-07-25T11:31:00+03:00',
-    modifiedDate: '2026-07-25T11:31:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'anker-soundcore-r50i',
@@ -34,7 +34,7 @@ export const soundcore_r100_specs_problems_solutions: BlogArticle = {
             keywords: 'soundcore r100 مشاكل, soundcore r100 ضعف صوت, soundcore r100 factory reset, soundcore r100 جانب واحد شغال, soundcore r100 الكيس مش بيشحن, soundcore r100 انقطاع بلوتوث, حل مشاكل soundcore r100, soundcore r100 مواصفات مصر, soundcore r100 reset بالعربي',
             excerpt: 'تعد سماعة Soundcore R100 خياراً اقتصادياً شهيراً في مصر. نوضح في هذا الدليل حلول المشاكل الشائعة مثل ضعف الصوت المفاجئ، عمل ريست، وكيفية تنظيف شبكة الصوت.',
             quickAnswer: 'لا تدعم سماعة Soundcore R100 تطبيق الهاتف الرسمي. لحل مشكلة ضعف الصوت المفاجئ، اضغط مطولاً على السماعتين معاً لمدة ثانيتين لتغيير وضع الإيكوالايزر الداخلي، أو قم بتنظيف شبكة الصوت المعدنية بفرشاة جافة. إذا كان هناك جانب واحد لا يعمل، ضع السماعات بالعلبة واضغط الزر لمدة 10 ثوانٍ لعمل Factory Reset.',
-            content: `<p>حققت سماعة Soundcore R100 مبيعات واسعة جداً في السوق المصري بفضل سعرها الاقتصادي ومواصفاتها الممتازة من أنكر؛ حيث تقدم بلوتوث 5.3 وبطارية ممتازة بسعر يتراوح بين 800 إلى 1,300 جنيه مصري. ومع هذا الانتشار الكبير، يواجه المستخدمون بعض المشاكل الفنية الشائعة مثل ضعف الصوت المفاجئ في إحدى الجهات، أو توقف جهة واحدة عن العمل، أو عدم استجابة العلبة للشحن. في هذا الدليل الفني من كايرو فولت، سنشرح لك بالخطوات الدقيقة كيفية حل كافة مشاكل سماعة R100، سنوضح الحقيقة حول عدم دعم التطبيق لتفادي الارتباك.</p>
+            content: `<p>حققت سماعة Soundcore R100 مبيعات واسعة جداً في السوق المصري بفضل سعرها الاقتصادي ومواصفاتها الممتازة من انكر؛ حيث تقدم بلوتوث 5.3 وبطارية ممتازة بسعر اقتصادي. (كايرو فولت مش بتبيع R100 حالياً — الدليل ده لحل مشاكلها لو عندك واحدة.) ومع هذا الانتشار الكبير، يواجه المستخدمون بعض المشاكل الفنية الشائعة مثل ضعف الصوت المفاجئ في إحدى الجهات، أو توقف جهة واحدة عن العمل، أو عدم استجابة العلبة للشحن. في هذا الدليل الفني من كايرو فولت، سنشرح لك بالخطوات الدقيقة كيفية حل كافة مشاكل سماعة R100، سنوضح الحقيقة حول عدم دعم التطبيق لتفادي الارتباك.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -138,18 +138,18 @@ export const soundcore_r100_specs_problems_solutions: BlogArticle = {
     <li><strong>حماية الدوائر ضد تذبذب التيار:</strong> تم تجهيز علبة R100 بدائرة حماية أساسية. تجنب استخدام شواحن الهواتف الذكية السريعة جداً (فوق 15 واط)؛ حيث تسبب ارتفاع درجة حرارة الخلايا الداخلية وتسرع تلفها. استخدم دائماً منفذ USB الخاص بالكمبيوتر أو شاحن جداري قديم بقدرة 5 واط لشحن علبة السماعة بأمان.</li>
 </ul>
 
-<h2>الضمان المعتمد وخدمات الصيانة والدعم الفني في مصر</h2>
-<p>يحظى مشترو الموديل R100 من كايرو فولت بضمان استثنائي يمتد لـ 18 شهراً — ضمان المتجر المكتوب — والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول جهازك عند تقديم طلب الضمان.</p>
-<p>ملاحظة هامة من فريق الصيانة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن خارج المراكز المعتمدة. كما يوصى بالتحقق من ملصق الضمان الفضي الموجود على كرتونة المنتج للتأكد من الموزع المحلي المسؤول عن التغطية.</p>
+<h2>ضمان كايرو فولت المكتوب والدعم الفني في مصر</h2>
+<p>كايرو فولت مش بتبيع Soundcore R100 حالياً، فلو اشتريت R100 من مكان تاني، الضمان بيكون عند جهة البيع اللي اشتريت منها — احتفظ بالفاتورة وكرتونة المنتج اللي عليها الرقم التسلسلي (Serial Number). أما موديلات ساوندكور اللي بنبيعها (زي <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a>) فبتيجي بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) ضد عيوب الصناعة.</p>
+<p>ملاحظة هامة من فريق الصيانة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن بنفسك. كما يوصى بالاحتفاظ بفاتورة الشراء للتأكد من جهة البيع المسؤولة عن التغطية.</p>
 
-<h2>تفاصيل الضمان والصيانة في مصر من كايرو فولت</h2>
-<p>عند شرائك سماعة Soundcore R100 من موقعنا، ستحصل على الميزات التالية لحماية استثمارك:</p>
+<h2>لو هتشتري بديل من كايرو فولت</h2>
+<p>لو بتدور على سماعة بديلة متاحة عندنا، ده اللي هتحصل عليه:</p>
 <ul>
-    <li><strong>ضمان استبدال معتمد لمدة 18 شهراً:</strong> يغطي الضمان أي عيوب صناعة أو تلف مفاجئ بالبطارية والميكروفون خلال فترة الضمان.</li>
-    <li><strong>شحن سريع ودفع عند الاستلام:</strong> نقوم بشحن الطلب ليصلك خلال 24 إلى 48 ساعة فقط لجميع المحافظات، وتدفع كاش عند الاستلام، ومعاك سياسة إرجاع خلال 14 يوم لو المنتج مش مطابق.</li>
+    <li><strong>ضمان كايرو فولت المكتوب:</strong> المدة موضحة في صفحة كل منتج، ويغطي عيوب الصناعة.</li>
+    <li><strong>التوصيل والدفع عند الاستلام:</strong> التوصيل عادةً من 1 لـ 6 أيام عمل حسب المحافظة (القاهرة والجيزة 1-2 يوم)، والدفع كاش عند الاستلام، والإرجاع خلال 14 يوم وفق سياسة الإرجاع المنشورة (السماعات المفتوحة أو المستخدمة مش بترجع لأسباب صحية).</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 عروض مميزة على سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد المنتجات الأصلية: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i البديلة</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الصغيرة</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة R50i NC بعزل الضوضاء</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 سماعات ساوندكور أصلية بضمان كايرو فولت المكتوب:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد المنتجات الأصلية: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i البديلة</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الصغيرة</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة R50i NC بعزل الضوضاء</a>.</p></div>` ,
             faq: [
                 {
                     question: 'هل يمكنني توصيل سماعة Soundcore R100 بتطبيق الموبايل لتعديل الصوت؟',
@@ -176,7 +176,7 @@ export const soundcore_r100_specs_problems_solutions: BlogArticle = {
             keywords: 'soundcore r100 problems, soundcore r100 volume drop fix, soundcore r100 factory reset, soundcore r100 one side not working, soundcore r100 case not charging, soundcore r100 bluetooth stuttering, soundcore r100 troubleshooting, soundcore r100 specs egypt, soundcore r100 EQ fix',
             excerpt: 'The Anker Soundcore R100 is an incredibly popular budget model in Egypt. In this comprehensive guide, we show you how to fix low volume, clean earwax, and perform a factory reset.',
             quickAnswer: 'The Soundcore R100 does not support the companion app. To fix sudden volume drops, press and hold the touch controls on both earbuds for 2 seconds to toggle EQs, or clear earwax from the metal mesh. For connection issues, hold the case button for 10 seconds to factory reset.',
-            content: `<p>The Soundcore R100 is one of the most successful budget earbuds in the Egyptian market, courtesy of Anker\'s excellent build quality and aggressive pricing between 800 and 1,300 EGP. However, like any TWS earbuds, users frequently run into technical issues such as a sudden volume drop in one ear, a single earbud refusing to connect, or charging issues. In this technical troubleshooting guide by CairoVolt, we walk you through the verified steps to resolve these common R100 problems and address key misconceptions regarding its software compatibility.</p>
+            content: `<p>The Soundcore R100 is one of the most successful budget earbuds in the Egyptian market, courtesy of Anker\'s build quality and budget pricing. (CairoVolt does not stock the R100 right now — this guide is for fixing one you already own.) However, like any TWS earbuds, users frequently run into technical issues such as a sudden volume drop in one ear, a single earbud refusing to connect, or charging issues. In this technical troubleshooting guide by CairoVolt, we walk you through the verified steps to resolve these common R100 problems and address key misconceptions regarding its software compatibility.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -278,19 +278,18 @@ export const soundcore_r100_specs_problems_solutions: BlogArticle = {
     <li><strong>Use Safe Charging Adapters:</strong> High-wattage fast-chargers (33W, 67W, or higher) can trigger the case's over-temperature protection, halting charging. Always charge the case using a standard 5W power adapter or a computer USB port.</li>
 </ul>
 
-<h2>Official Local Warranty and Technical Support in Egypt</h2>
-<p>Buyers of the Model R100 in Egypt receive a comprehensive 18-month warranty from the authorized local distributor. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or connection failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim at official service centers.</p>
-<p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. Always cross-check the localized silver warranty sticker on the retail packaging to identify the exact local distributor responsible for servicing your product.</p>
-<p>The customer service centers in Cairo and Alexandria are fully equipped with specialized testing rigs to evaluate battery health and driver calibration. If a replacement is approved under warranty, the transaction is processed quickly. This gives local buyers absolute peace of mind compared to grey-market imports that lack warranty protection.</p>
+<h2>CairoVolt store warranty and support in Egypt</h2>
+<p>CairoVolt does not stock the Soundcore R100 right now, so if you bought an R100 elsewhere, your warranty is with the seller you bought it from — keep the invoice and the retail box with the printed Serial Number. Soundcore models CairoVolt does sell (such as the <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a>) come with an invoice and CairoVolt's written store warranty (duration shown on each product page) against manufacturing defects. CairoVolt is an independent online retailer.</p>
+<p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. Always keep your written purchase receipt to identify the seller responsible for servicing your product.</p>
 
-<h2>Authorized Warranty and Delivery in Egypt at CairoVolt</h2>
-<p>When purchasing the Soundcore R100 from CairoVolt, your investment is protected by our local customer service policies:</p>
+<h2>If You Buy a Replacement From CairoVolt</h2>
+<p>If you are looking for a replacement pair we stock, here is what you get:</p>
 <ul>
-    <li><strong>18-Month Local Warranty:</strong> Complete coverage against manufacturing defects, including sudden battery failures or connection issues.</li>
-    <li><strong>Fast Delivery and Package Inspection:</strong> Orders are delivered to all Egyptian governorates in 24 to 48 hours. CairoVolt permits customers to open and inspect the package before paying the courier.</li>
+    <li><strong>CairoVolt's written store warranty:</strong> the duration is shown on each product page and covers manufacturing defects.</li>
+    <li><strong>Delivery and cash on delivery:</strong> delivery commonly takes 1–6 business days depending on governorate (Cairo/Giza 1–2), with cash on delivery and 14-day returns per the published return policy (earbuds and audio products that have been opened or used are not returnable for hygiene reasons).</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore models at CairoVolt: <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (CairoVolt's written store warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Original Soundcore models at CairoVolt: <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a>.</p></div>` ,
             faq: [
                 {
                     question: 'Can I connect the Soundcore R100 to the official app to adjust settings?',

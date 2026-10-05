@@ -4,17 +4,19 @@ import type { ProductDetail } from './_types';
 export const joyroom_30w_fast_charger_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Joyroom JR-TCF30 (store SKU JC02 · GTIN 6956116750053 · ~280 EGP): dual-port wall charger — USB-C PD 3.0 up to a measured 29.1W peak + USB-A QC 3.0 up to a measured 21.8W peak. The 30W figure is a SHARED envelope, not 30W per port.',
+            'Joyroom JR-TCF30 is a dual-port wall charger: USB-C PD 3.0 (measured 29.1W peak) plus USB-A QC 3.0 (measured 21.8W peak). The 30W figure is a shared envelope, not 30W per port — both ports together fell to 14.7W. It suits a phone plus earbuds.',
+            'Listing identity: store SKU JC02, GTIN 6956116750053, ~280 EGP.',
             'FNB58 advertised fixed PDOs on USB-C: 5V/3A · 9V/3A · 12V/2.5A · 15V/2A · 20V/1.5A, plus PPS 3.3–11V/3A and 3.3–16V/2A. Dual-port load collapses to ~15W total (5V/3A shared) — measured 14.7W combined.',
             'Real phones: iPhone 13 peaked at 19.4W PD (Apple ~20W cap). Samsung Galaxy S24 engaged PPS Super Fast Charging (~24.2W peak). Egypt retail sample ships with EU Type-C Europlug (2-pin) — fits Egyptian sockets directly; not BS 1363 on this unit.',
-            'Honest vs Anker A2147 / Zolo A2698: JR-TCF30 adds a USB-A QC port the single-C Ankers lack, at roughly half the typical Anker 30W street price — but dual-port use drops hard to ~15W, and there is no public ChargerLAB silicon teardown. We do NOT invent A/B shell-temperature deltas against Anker units not re-tested on the same day.',
+            'Honest vs Anker A2147 / Zolo A2698: JR-TCF30 adds a USB-A QC port the single-C Ankers lack, at roughly half the typical Anker 30W street price — but dual-port use drops hard to ~15W, and there is no public ChargerLAB silicon teardown. No A/B shell-temperature deltas are claimed against Anker units not re-tested on the same day.',
             'AC-input efficiency and no-load (vampire) draw were NOT measured — no PZEM-004T pass on this sample. Recall check 2026-07-24: no Joyroom / CPSC recall for JR-TCF30; Anker power-bank recalls (A1257/A1263/A1647/A1652/A1681/A1689) do not apply to Joyroom wall chargers.',
         ],
         ar: [
-            'جوي روم JR-TCF30 (SKU المتجر JC02 · GTIN 6956116750053 · ~280 جنيه): شاحن حائط بمنفذين — USB-C PD 3.0 حتى ذروة مقاسة 29.1 واط + USB-A QC 3.0 حتى ذروة مقاسة 21.8 واط. رقم 30 واط ظرف مشترك، وليس 30 واط لكل منفذ.',
+            'جوي روم JR-TCF30 شاحن حائط بمنفذين: USB-C PD 3.0 (ذروة مقاسة 29.1 واط) وUSB-A QC 3.0 (ذروة مقاسة 21.8 واط). رقم 30 واط ظرف مشترك وليس 30 واط لكل منفذ — المنفذان معًا هبطا إلى 14.7 واط. يناسب هاتفًا مع سماعات.',
+            'هوية القائمة: SKU المتجر JC02، GTIN 6956116750053، ~280 جنيه.',
             'أعلن FNB58 PDOs ثابتة على USB-C: 5V/3A · 9V/3A · 12V/2.5A · 15V/2A · 20V/1.5A، مع PPS 3.3–11V/3A و3.3–16V/2A. الحمل المزدوج ينهار إلى ~15 واط إجمالي (5V/3A مشترك) — قِسنا 14.7 واط مجتمعين.',
             'هواتف حقيقية: iPhone 13 بلغ ذروة 19.4 واط PD (سقف آبل ~20 واط). Samsung Galaxy S24 فعّل PPS Super Fast Charging (~24.2 واط ذروة). عيّنة التجزئة المصرية تأتي بقابس أوروبي Type-C Europlug بسنَّين — يدخل الفيش المصرية مباشرة؛ ليست BS 1363 على هذه الوحدة.',
-            'مقارنة صادقة مع انكر A2147 / Zolo A2698: JR-TCF30 يضيف منفذ USB-A QC تفتقده شواحن انكر أحادية USB-C، بنحو نصف سعر تجزئة انكر 30 واط المعتاد — لكن الاستخدام المزدوج يهبط بقوة إلى ~15 واط، ولا يوجد تفكيك ChargerLAB علني للسيليكون. لا نخترع فروق حرارة سطح A/B مقابل وحدات انكر لم تُعاد اختبارها في نفس اليوم.',
+            'مقارنة صادقة مع انكر A2147 / Zolo A2698: JR-TCF30 يضيف منفذ USB-A QC تفتقده شواحن انكر أحادية USB-C، بنحو نصف سعر تجزئة انكر 30 واط المعتاد — لكن الاستخدام المزدوج يهبط بقوة إلى ~15 واط، ولا يوجد تفكيك ChargerLAB علني للسيليكون. لا ندّعي فروق حرارة سطح A/B مقابل وحدات انكر لم تُعاد اختبارها في نفس اليوم.',
             'كفاءة دخل التيار المتردد واستهلاك بلا حمل لم تُقَسا — لا مرحلة PZEM-004T لهذه العيّنة. فحص الاستدعاء 2026-07-24: لا استدعاء Joyroom / CPSC لـ JR-TCF30؛ استدعاءات باوربانك انكر (A1257/A1263/A1647/A1652/A1681/A1689) لا تنطبق على شواحن جوي روم الحائطية.',
         ],
     },
@@ -65,7 +67,7 @@ export const joyroom_30w_fast_charger_detail: ProductDetail = {
         'Body material': { en: 'PC fire-resistant polycarbonate (Joyroom listing language); internal silicon NOT identified — no public teardown located', ar: 'PC بولي كربونات مقاوم للحريق (لغة قائمة جوي روم)؛ السيليكون الداخلي غير محدّد — لا تفكيك علني موثّق' },
         'Weight': { en: 'CairoVolt measured 57.8g (Kkmoon 0.01g) — unit alone, no cable', ar: 'قِست CairoVolt 57.8 جرامًا (Kkmoon 0.01 جرام) — الوحدة وحدها بلا كابل' },
         'Dimensions': { en: 'CairoVolt measured 45.6 × 31.4 × 86.1 mm (Mitutoyo; body including plug face)', ar: 'قِست CairoVolt 45.6 × 31.4 × 86.1 ملم (Mitutoyo؛ الجسم شامل وجه القابس)' },
-        'AC efficiency / no-load': { en: 'NOT MEASURED — no PZEM-004T AC-input pass on this sample; we do not invent efficiency %', ar: 'غير مقاس — لا مرحلة PZEM-004T لدخل التيار المتردد لهذه العيّنة؛ لا نخترع نسبة كفاءة' },
+        'AC efficiency / no-load': { en: 'NOT MEASURED — no PZEM-004T AC-input pass on this sample', ar: 'غير مقاس — لا مرحلة PZEM-004T لدخل التيار المتردد لهذه العيّنة' },
         'Safety (vendor)': { en: 'Joyroom lists multi-point protection (OCP/OVP/OTP/SCP class language) — vendor claim; CairoVolt verified OCP cut on the 15V rail in ~2.5s at >3.5A request', ar: 'جوي روم تذكر حماية متعددة النقاط (لغة OCP/OVP/OTP/SCP) — ادعاء المصنّع؛ CairoVolt تحقّقت من فصل OCP على بروتوكول 15V خلال ~2.5 ثانية عند طلب >3.5A' },
         'Recall status (2026-07-24)': { en: 'NOT RECALLED — cpsc.gov + Joyroom public notices returned zero hits for JR-TCF30 / JC02 on 2026-07-24. Anker\'s active power-bank recalls (anker.com/rc2506: A1257/A1263/A1647/A1652/A1681/A1689) are Anker-only and do not apply to Joyroom wall chargers', ar: 'لا يوجد استدعاء — cpsc.gov + إشعارات جوي روم العلنية أعادت صفر نتائج لـ JR-TCF30 / JC02 في 2026-07-24. استدعاءات باوربانك انكر النشطة (anker.com/rc2506) خاصة بانكر ولا تنطبق على شواحن جوي روم الحائطية' },
         'Vs Anker A2147 / Zolo A2698 (candid)': { en: 'Same phone-class ~30W USB-C peak class (JR-TCF30 29.1W · Zolo 29.4W measured). JR-TCF30 wins on dual-port + price (~280 vs ~599/790 EGP). Ankers win on single-port focus, brand documentation (A2147 DoC + ChargerLAB silicon), and no dual-port 15W collapse. A2147 independent thermal pass not published — no invented heat A/B', ar: 'نفس فئة ذروة USB-C ~30 واط للهواتف (JR-TCF30 29.1 واط · Zolo 29.4 واط مقاس). JR-TCF30 يفوز بالمنفذين + السعر (~280 مقابل ~599/790 جنيه). انكر تفوز بتركيز المنفذ الواحد وتوثيق العلامة (شهادة A2147 + سيليكون ChargerLAB) وبلا انهيار 15 واط عند المنفذين. مرحلة حرارة A2147 المستقلة غير منشورة — لا فرق حرارة A/B مخترع' },
@@ -82,7 +84,7 @@ export const joyroom_30w_fast_charger_detail: ProductDetail = {
         },
         methodology: {
             en:
-                'Per CairoVolt Bench Test Protocol §7.1 wall chargers on sample CV-CH-JRTCF30-001 (2026-07-24). ' +
+                'Per CairoVolt Bench Test Protocol wall chargers on sample CV-CH-JRTCF30-001 (2026-07-24). ' +
                 '(A) FNB58 (fw v1.3) PD Info no-load enumeration on USB-C — recorded fixed PDOs 5V/3A · 9V/3A · 12V/2.5A · 15V/2A · 20V/1.5A and PPS envelopes 3.3–11V/3A · 3.3–16V/2A. ' +
                 'Advertisement matches the published Joyroom dual-port 30W A+C family table on ijoyroom.com (JR-TCF15 sheet used as cross-reference only; our unit label / GTIN identify JR-TCF30 / JC02). ' +
                 '(B–C) Each fixed PDO held 2 minutes into JUWEI 35W electronic load; peak W and voltage stability logged. Single-port USB-C peak = 29.1W on 15V/2A (~97% of 30W). ' +
@@ -91,7 +93,7 @@ export const joyroom_30w_fast_charger_detail: ProductDetail = {
                 '(F) Real phones: iPhone 13 (12.41Wh) USB-C PD peak 19.4W; Samsung Galaxy S24 base (14.31Wh) USB-C PPS peak 24.2W with Super Fast Charging indicator on. ' +
                 '(G) BENETECH GM320 (ε=0.95) surface temp at 4 points after 15 min sustained ~29W USB-C-only load — max 54.8°C (center face). ' +
                 '(H) OCP: >3.5A request on 15V rail cut in ~2.5s. ' +
-                '(I–J) AC efficiency and no-load vampire draw NOT measured — PZEM-004T not on this pass; we refuse invented efficiency %. ' +
+                '(I–J) AC efficiency and no-load vampire draw NOT measured — PZEM-004T not on this pass. ' +
                 '(K) Weight 57.8g (Kkmoon 0.01g); dimensions 45.6 × 31.4 × 86.1 mm (Mitutoyo). ' +
                 '(L) Plug: EU Type-C Europlug 2-pin confirmed on physical unit — not BS 1363 on this Egypt JC02 sample. ' +
                 '(M) Recall check 2026-07-24 on cpsc.gov + Joyroom notices — zero hits for JR-TCF30; Anker rc2506 power-bank list explicitly does not apply. ' +
@@ -99,7 +101,7 @@ export const joyroom_30w_fast_charger_detail: ProductDetail = {
                 'Independent cross-refs (not our data): ijoyroom.com JR-TCF15 dual-port PDO/QC/15W-share table; MacRumors iPhone ~20W wired cap; Samsung 25W SFC via PPS. ' +
                 'Single unit; production batches may vary.',
             ar:
-                'وفق بروتوكول اختبار كايرو فولت §7.1 لشواحن الحائط على العيّنة CV-CH-JRTCF30-001 (2026-07-24). ' +
+                'وفق بروتوكول اختبار كايرو فولت لشواحن الحائط على العيّنة CV-CH-JRTCF30-001 (2026-07-24). ' +
                 '(A) إحصاء PD Info بلا حمل بـ FNB58 (fw v1.3) على USB-C — سجّلنا PDOs ثابتة 5V/3A · 9V/3A · 12V/2.5A · 15V/2A · 20V/1.5A وظرفي PPS 3.3–11V/3A · 3.3–16V/2A. ' +
                 'الإعلان يطابق جدول عائلة جوي روم 30 واط A+C المنشور على ijoyroom.com (ورقة JR-TCF15 للمقارنة فقط؛ ملصق وحدتنا / GTIN يعرّفان JR-TCF30 / JC02). ' +
                 '(B–C) كل PDO ثابت لمدة دقيقتين على حمل JUWEI 35W؛ سُجِّلت ذروة W وثبات الجهد. ذروة USB-C بمنفذ واحد = 29.1 واط على 15V/2A (~97% من 30 واط). ' +
@@ -108,7 +110,7 @@ export const joyroom_30w_fast_charger_detail: ProductDetail = {
                 '(F) هواتف حقيقية: iPhone 13 (12.41Wh) ذروة PD 19.4 واط؛ Samsung Galaxy S24 القاعدي (14.31Wh) ذروة PPS 24.2 واط مع مؤشر Super Fast Charging. ' +
                 '(G) حرارة سطح BENETECH GM320 (ε=0.95) على 4 نقاط بعد 15 دقيقة حمل ~29 واط على USB-C وحده — أعلى 54.8°م (منتصف الوجه). ' +
                 '(H) OCP: طلب >3.5A على 15V فصل خلال ~2.5 ثانية. ' +
-                '(I–J) كفاءة التيار المتردد واستهلاك بلا حمل لم تُقَسا — لا PZEM-004T في هذه المرحلة؛ نرفض اختراع نسبة كفاءة. ' +
+                '(I–J) كفاءة التيار المتردد واستهلاك بلا حمل لم تُقَسا — لا PZEM-004T في هذه المرحلة. ' +
                 '(K) الوزن 57.8 جرامًا؛ الأبعاد 45.6 × 31.4 × 86.1 ملم. ' +
                 '(L) القابس: Europlug أوروبي بسنَّين مؤكّد على الوحدة — ليست BS 1363 على عيّنة JC02 المصرية. ' +
                 '(M) فحص استدعاء 2026-07-24 على cpsc.gov + إشعارات جوي روم — صفر لـ JR-TCF30؛ قائمة rc2506 لانكر لا تنطبق. ' +
@@ -145,15 +147,15 @@ export const joyroom_30w_fast_charger_detail: ProductDetail = {
             { param: { en: 'Samsung Galaxy S24 PPS (USB-C)', ar: 'Samsung Galaxy S24 PPS (USB-C)' }, rated: { en: 'phone 25W SFC via PPS', ar: 'الهاتف 25 واط SFC عبر PPS' }, measured: { en: '24.2W peak · Super Fast Charging indicator ON · ~68 min 0→100%', ar: 'ذروة 24.2 واط · مؤشر Super Fast Charging يعمل · ~68 دقيقة 0→100%' }, note: { en: 'PPS present on this sample — unlike Joyroom JR-TCF20 which has no PPS rail', ar: 'PPS موجود على هذه العيّنة — بخلاف Joyroom JR-TCF20 بلا نطاق PPS' } },
             { param: { en: 'Surface temp @~29W (15 min)', ar: 'حرارة السطح عند ~29 واط (15 دقيقة)' }, measured: { en: '54.8°C max (center face); sides 52.1 / 51.6°C; plug area 49.4°C', ar: 'أعلى 54.8°م (منتصف الوجه)؛ الجانبان 52.1 / 51.6°م؛ منطقة القابس 49.4°م' }, note: { en: '28.2°C ambient, GM320 ε=0.95 — JR-TCF30-only; no invented A/B delta vs A2147 or A2698', ar: 'محيطة 28.2°م، GM320 ε=0.95 — أرقام JR-TCF30 وحدها؛ لا فرق A/B مخترع مقابل A2147 أو A2698' } },
             { param: { en: 'Over-current protection', ar: 'حماية التيار الزائد' }, measured: { en: 'cut >3.5A @ 15V in ~2.5s', ar: 'فصل >3.5A على 15V خلال ~2.5 ثانية' }, note: { en: 'JUWEI request on highest sustained fixed rail', ar: 'طلب JUWEI على أعلى بروتوكول ثابت مستدام' } },
-            { param: { en: 'AC efficiency / no-load draw', ar: 'كفاءة التيار المتردد / سحب بلا حمل' }, measured: { en: 'not measured — no PZEM-004T on this pass', ar: 'غير مقاس — لا PZEM-004T في هذه المرحلة' }, note: { en: '§11.3 — we do not invent efficiency %', ar: '§11.3 — لا نخترع نسبة كفاءة' } },
+            { param: { en: 'AC efficiency / no-load draw', ar: 'كفاءة التيار المتردد / سحب بلا حمل' }, measured: { en: 'not measured — no PZEM-004T on this pass', ar: 'غير مقاس — لا PZEM-004T في هذه المرحلة' }, note: { en: 'Efficiency % not measured', ar: 'نسبة الكفاءة غير مقيسة' } },
             { param: { en: 'Weight', ar: 'الوزن' }, measured: '57.8g', note: { en: 'Kkmoon 0.01g — charger only', ar: 'Kkmoon 0.01 جرام — الشاحن فقط' } },
             { param: { en: 'Dimensions', ar: 'الأبعاد' }, measured: '45.6 × 31.4 × 86.1 mm', note: { en: 'Mitutoyo caliper — body including plug face', ar: 'قدمة Mitutoyo — الجسم شامل وجه القابس' } },
             { param: { en: 'Plug type (Egypt JC02 sample)', ar: 'نوع القابس (عيّنة JC02 مصر)' }, rated: { en: 'ME market varies (EU or UK)', ar: 'سوق الشرق الأوسط يتفاوت (EU أو UK)' }, measured: { en: 'EU Type-C Europlug (2-pin) — fits Egyptian sockets directly', ar: 'Europlug أوروبي Type-C بسنَّين — يدخل الفيش المصرية مباشرة' }, note: { en: 'NOT BS 1363 on this sample — verify your shipment', ar: 'ليست BS 1363 على هذه العيّنة — تحقق من شحنتك' } },
             { param: { en: 'Recall status (verified 2026-07-24)', ar: 'حالة الاستدعاء (متحققة 2026-07-24)' }, measured: { en: 'NOT recalled', ar: 'غير مُستدعى' }, note: { en: 'cpsc.gov + Joyroom notices: zero hits for JR-TCF30; Anker A1257/A1263/A1647/A1652/A1681/A1689 recalls are unrelated', ar: 'cpsc.gov + إشعارات جوي روم: صفر لـ JR-TCF30؛ استدعاءات انكر A1257/A1263/A1647/A1652/A1681/A1689 غير ذات صلة' } },
         ],
         verdict: {
-            en: 'JR-TCF30 delivered 29.1W on USB-C alone, 21.8W QC on USB-A alone, and collapsed to 14.7W with both ports loaded. PPS present — S24 Super Fast Charging engaged; iPhone 13 peaked 19.4W. Shell 54.8°C after 15 min. EU Europlug. Efficiency not measured. Best as a cheap dual-port phone brick — not 30W×2.',
-            ar: 'JR-TCF30 سلّم 29.1 واط على USB-C وحده، و21.8 واط QC على USB-A وحده، وانهار إلى 14.7 واط بتحميل المنفذين. PPS موجود — S24 فعّل Super Fast Charging؛ iPhone 13 بلغ 19.4 واط. السطح 54.8°م بعد 15 دقيقة. Europlug أوروبي. الكفاءة غير مقاسة. الأفضل كشاحن هاتف رخيص بمنفذين — ليس 30 واط×2.',
+            en: 'JR-TCF30 delivered 29.1W on USB-C alone, 21.8W QC on USB-A alone, and 14.7W with both ports loaded. PPS present — S24 Super Fast Charging engaged; iPhone 13 peaked 19.4W. Shell 54.8°C after 15 min. EU Europlug. Efficiency not measured. A cheap dual-port phone brick — not 30W×2.',
+            ar: 'JR-TCF30 سلّم 29.1 واط على USB-C وحده، و21.8 واط QC على USB-A وحده، و14.7 واط بتحميل المنفذين. PPS موجود — S24 فعّل Super Fast Charging؛ iPhone 13 بلغ 19.4 واط. السطح 54.8°م بعد 15 دقيقة. Europlug أوروبي. الكفاءة غير مقاسة. شاحن هاتف رخيص بمنفذين — ليس 30 واط×2.',
         },
         pros: [
             { en: 'Genuine ~30W USB-C single-port delivery — 29.1W measured peak on 15V/2A (~97% of rating) with full fixed PDO set through 20V/1.5A plus two PPS envelopes', ar: 'تسليم USB-C حقيقي ~30 واط على منفذ واحد — ذروة مقاسة 29.1 واط على 15V/2A (~97% من التصنيف) مع مجموعة PDO ثابتة حتى 20V/1.5A وظرفي PPS' },
@@ -166,7 +168,7 @@ export const joyroom_30w_fast_charger_detail: ProductDetail = {
         limits: [
             { en: 'Dual-port share is ~15W total (measured 14.7W) — NOT 30W+22.5W simultaneously. Two phones at once both get slow charge', ar: 'تقاسم المنفذين ~15 واط إجمالي (قِسنا 14.7 واط) — ليس 30+22.5 واط معًا. هاتفان معًا يحصلان على شحن بطيء' },
             { en: 'AC-input efficiency and no-load vampire draw were NOT measured (no PZEM) — we publish no invented efficiency %', ar: 'كفاءة دخل التيار المتردد وسحب بلا حمل لم تُقَسا (لا PZEM) — لا ننشر نسبة كفاءة مخترعة' },
-            { en: 'No public silicon teardown for JR-TCF30 — we do not invent chip IDs. Choose Anker A2147 if ChargerLAB-cited silicon matters', ar: 'لا تفكيك سيليكون علني لـ JR-TCF30 — لا نخترع معرّفات رقائق. اختر Anker A2147 إن كانت رقائق ChargerLAB تهمّك' },
+            { en: 'No public silicon teardown for JR-TCF30, so no chip IDs are listed. Choose Anker A2147 if ChargerLAB-cited silicon matters', ar: 'لا تفكيك سيليكون علني لـ JR-TCF30، لذا لا نذكر معرّفات رقائق. اختر Anker A2147 إن كانت رقائق ChargerLAB تهمّك' },
             { en: 'Shell 54.8°C after 15 min at ~29W (28.2°C ambient) — keep ventilated. No invented heat A/B vs A2147 (thermal pass unpublished there) or same-day A2698 retest', ar: 'السطح 54.8°م بعد 15 دقيقة عند ~29 واط (محيطة 28.2°م) — اترك تهوية. لا فرق حرارة A/B مخترع مقابل A2147 (مرحلة الحرارة غير منشورة هناك) أو إعادة اختبار A2698 في نفس اليوم' },
             { en: 'Cannot run Nintendo Switch OLED docked (needs 15V/2.6A = 39W; we top out at 15V/2A = 30W) or fast-charge a MacBook Pro', ar: 'لا يشغّل نينتندو سويتش OLED موصولًا (يحتاج 15V/2.6A = 39 واط؛ سقفنا 15V/2A = 30 واط) ولا يشحن MacBook Pro سريعًا' },
             { en: 'Xiaomi / Infinix / Tecno / Realme proprietary 33–120W protocols are NOT unlocked — those phones fall back to standard PD/PPS only', ar: 'بروتوكولات شاومي / إنفينكس / تكنو / ريلمي الملكية 33–120 واط لا تُفتح — تلك الهواتف ترجع إلى PD/PPS القياسي فقط' },

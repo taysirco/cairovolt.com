@@ -68,6 +68,14 @@ jobs:
           DRY_RUN:            ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
           ALLOW_LARGE:        ${{ github.event.inputs.allow_large == 'true' && '1' || '' }}
 
+      # Re-date the products whose files the price sync just changed, so sitemap
+      # lastmod / feed.xml follow real edits. Deterministic (no change = no write),
+      # and src/data/catalog-lastmod.generated.ts is staged by `git add src/data`
+      # below. Non-fatal: a generator failure must never block a price update.
+      - name: 🗓️ Update catalog lastmod map
+        if: steps.sync.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        run: node scripts/generate-catalog-lastmod.mjs || echo "::warning::catalog lastmod generation failed"
+
       - name: 💾 Commit & push (يُطلق نشر App Hosting)
         if: steps.sync.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
         run: |

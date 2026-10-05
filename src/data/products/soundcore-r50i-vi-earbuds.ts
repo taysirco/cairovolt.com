@@ -50,7 +50,7 @@ export const soundcore_r50i_vi_earbuds = {
                     { question: "Does Soundcore R50i Vi support multipoint Bluetooth?", answer: "Confirm multipoint in the current product documentation and firmware; supported combinations and switching behaviour can vary by source and software." },
                     { question: "Can I use Soundcore R50i Vi for workouts?", answer: "Review the listed IP rating and its limits in the manual. Water resistance is not permanent, fit varies during movement, and the earbuds and case should be dry before charging." },
                     { question: "How should I compare R50i Vi with AirPods or another model?", answer: "Compare fit, codecs, app and voice functions, microphone and battery conditions, IP limits, live price and warranty on current listings. Avoid percentage-of-experience claims without a shared test method." },
-                    { question: "What's in the Soundcore R50i Vi box?", answer: "Confirm package contents on the current listing and sealed package because accessories can vary by market or revision." },
+                    { question: "What's in the Soundcore R50i Vi box?", answer: "The listed contents are the R50i Vi earbuds, charging case (retail A3969 units carry a knitted lanyard), three sizes of silicone tips, a USB-C cable and quick start/safety documents. Check the sealed carton on delivery; accessories can vary by market or revision." },
             ]
         },
         ar: {
@@ -76,7 +76,7 @@ export const soundcore_r50i_vi_earbuds = {
                     { question: "سماعة ساوندكور R50i Vi بتتوصل بجهازين؟", answer: "تحقّق من دعم الاتصال المتعدد في وثائق المنتج والفيرموير الحاليين؛ قد تختلف مجموعات الأجهزة وسلوك التبديل حسب المصدر والبرنامج." },
                     { question: "أقدر أستخدم ساوندكور R50i Vi في التمارين؟", answer: "راجع تصنيف IP المدرج وحدوده في الدليل. مقاومة الماء ليست دائمة والثبات يختلف أثناء الحركة، ويجب تجفيف السماعة والعلبة قبل الشحن." },
                     { question: "أقارن ساوندكور R50i Vi مع AirPods أو موديل آخر إزاي؟", answer: "قارن الملاءمة والكودكات ووظائف التطبيق والصوت والمكالمات وشروط البطارية وحدود IP والسعر والضمان في القوائم الحالية. تجنب نسب التجربة من دون طريقة اختبار مشتركة." },
-                    { question: "إيه اللي في علبة ساوندكور R50i Vi؟", answer: "تأكد من محتويات العبوة في القائمة الحالية والعبوة المختومة؛ قد تختلف الملحقات حسب السوق أو الإصدار." },
+                    { question: "إيه اللي في علبة ساوندكور R50i Vi؟", answer: "المحتويات المدرجة: سماعات R50i Vi وعلبة الشحن (بحبل محبوك على وحدات تجزئة A3969) وثلاثة مقاسات من أطراف السيليكون وكابل USB-C ووثائق البدء السريع والسلامة. افحص الكرتونة المختومة عند الاستلام؛ قد تختلف الملحقات حسب السوق أو الإصدار." },
             ]
         }
     },

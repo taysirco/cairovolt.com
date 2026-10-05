@@ -5,7 +5,7 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
     slug: 'black-friday-egypt-real-deals-vs-fake-discounts',
     category: 'buying-guide',
     publishDate: '2026-06-13',
-    modifiedDate: '2026-06-13',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         "anker-a2147-gan-charger-30w",
@@ -16,9 +16,9 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
         "anker-nano-45w"
 ],
     relatedArticles: [
-        'genuine-vs-fake-anker-charger-egypt',
+        'how-to-identify-original-anker',
         'best-power-bank-egypt-2026',
-        'charger-watt-20w-30w-65w-explained',
+        '20w-30w-45w-65w-100w-charger-which-you-need',
     ],
     relatedCategories: ['Anker/wall-chargers', 'Anker/power-banks'],
     coverImage: '/images/blog/posts/black-friday-egypt-real-deals-vs-fake-discounts.webp',
@@ -29,16 +29,16 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
             metaDescription: 'دليل عملي لاكتشاف العروض المزيفة في الجمعة البيضاء: تضخيم الأسعار قبل الخصم، المنتجات المقلدة، وحيل العد التنازلي. اعرف تشتري صح بالأرقام. تابع التفاصيل بمصر.',
             keywords: 'الجمعة البيضاء مصر, عروض وهمية, خصومات مزيفة, بلاك فرايدي مصر 2026, عروض نون, عروض أمازون مصر, شواحن مقلدة, نصب إلكترونيات, كايرو فولت',
             excerpt: 'دليل هندسي لاكتشاف العروض الوهمية في الجمعة البيضاء: تضخيم الأسعار، المنتجات المقلدة، وحيل الاستعجال. اشتري صح وادّخر فلوسك.',
-            quickAnswer: 'أكتر من 60% من عروض الجمعة البيضاء مش أقل سعر في السنة. الحيلة الأشهر: رفع السعر قبل العرض بأسبوعين ثم "تخفيض" للسعر الأصلي. الحل: صوّر أسعار المنتجات اللي عايزها من دلوقتي، قارن يوم العرض، واشتري بس لو الخصم حقيقي 20%+ على السعر اللي كان قبل شهر.',
+            quickAnswer: 'كتير من عروض الجمعة البيضاء مش أقل سعر في السنة. الحيلة الأشهر: رفع السعر قبل العرض بأسبوعين لـ 4 أسابيع ثم "تخفيض" للسعر الأصلي. الحل: صوّر أسعار المنتجات اللي عايزها من دلوقتي، قارن يوم العرض، واشتري بس لو الخصم حقيقي 20%+ على السعر اللي كان قبل شهر.',
             content: `<p>كل سنة في آخر نوفمبر، مصر بتتحول لمعرض ضخم من "الخصومات". نون بتسميها الجمعة الصفراء، أمازون بتسميها White Friday، وجوميا عندها Black Friday. كل المنصات بتبعت إشعارات: "خصم 70%!"، "عرض لمدة 3 ساعات!"، "باقي 2 فقط!". بس السؤال الحقيقي: <strong>هل الخصم ده حقيقي فعلاً؟</strong></p>
 
-<p>الإجابة المختصرة: <strong>أغلبه لأ</strong>. دراسات عالمية بتقول إن 60% من عروض البلاك فرايدي مش أقل سعر في السنة. وفي مصر تحديداً، المشكلة أكبر لأن أدوات تتبع الأسعار أقل انتشاراً، والمستهلك بيعتمد على "الإحساس" إن السعر كويس بدل ما يتحقق بالأرقام.</p>
+<p>الإجابة المختصرة: <strong>أغلبه لأ</strong>. كتير من عروض البلاك فرايدي مش أقل سعر في السنة. وفي مصر تحديداً، المشكلة أكبر لأن أدوات تتبع الأسعار أقل انتشاراً، والمستهلك بيعتمد على "الإحساس" إن السعر كويس بدل ما يتحقق بالأرقام.</p>
 
 <p>في المقال ده — هنكشف كل حيل العروض الوهمية، ونديك أدوات حقيقية تفرّق بيها بين الخصم الحقيقي والنصب.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أكتر من 60% من عروض الجمعة البيضاء مش أقل سعر في السنة. الحيلة الأشهر: رفع السعر قبل العرض بأسبوعين ثم "تخفيض" للسعر الأصلي. الحل: صوّر أسعار المنتجات من دلوقتي وقارنها يوم العرض.
+        <strong>💡 الإجابة السريعة:</strong> كتير من عروض الجمعة البيضاء مش أقل سعر في السنة. الحيلة الأشهر: رفع السعر قبل العرض بأسبوعين لـ 4 أسابيع ثم "تخفيض" للسعر الأصلي. الحل: صوّر أسعار المنتجات من دلوقتي وقارنها يوم العرض.
     </p>
 </div>
 
@@ -89,7 +89,7 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
     </tbody>
 </table>
 
-<p>نصيحة: لو لقيت شاحن Anker 30W بسعر 150 جنيه بدل 500 جنيه — ده <strong>100% مقلد</strong>. الخصم الحقيقي على المنتجات الأصلية بيكون 10-25% — مش 70%.</p>
+<p>نصيحة: لو لقيت شاحن انكر 30W بسعر 150 جنيه، وهو في كايرو فولت بـ {{price:anker-a2147-gan-charger-30w}} جنيه — ده <strong>غالباً مقلد</strong>. الخصم الحقيقي على المنتجات الأصلية بيكون 10-25% — مش 70%.</p>
 
 <h2>الحيلة الثالثة: الاستعجال الوهمي — "باقي 2 فقط!"</h2>
 
@@ -112,7 +112,7 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
 
 <ul>
     <li><strong>اقرأ سياسة الإرجاع قبل ما تشتري</strong> — خصوصاً على بائعين طرف ثالث (Third-party sellers) على نون وأمازون</li>
-    <li>اشتري من <strong>البائع الرسمي</strong> أو من متاجر ليها سياسة إرجاع واضحة</li>
+    <li>اشتري من <strong>بائع بيديك فاتورة وضمان مكتوب</strong> باسمه وبياناته القانونية، أو من متاجر ليها سياسة إرجاع واضحة</li>
     <li><strong>صوّر المنتج وهو بيتفتح</strong> (Unboxing video) — دليل لو احتجت ترجّع</li>
 </ul>
 
@@ -133,7 +133,7 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
     <tr><td style="padding:12px;border:1px solid #d1d5db;">2</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>صوّر الأسعار قبل العرض</strong></td><td style="padding:12px;border:1px solid #d1d5db;">عشان تقارن وتكتشف التضخيم</td></tr>
     <tr><td style="padding:12px;border:1px solid #d1d5db;">3</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>قارن على 3 منصات</strong></td><td style="padding:12px;border:1px solid #d1d5db;">نون + أمازون + الموقع الرسمي</td></tr>
     <tr><td style="padding:12px;border:1px solid #d1d5db;">4</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>اتجاهل العد التنازلي</strong></td><td style="padding:12px;border:1px solid #d1d5db;">العرض الحقيقي مش بيضغط عليك</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;">5</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>تحقق من البائع</strong></td><td style="padding:12px;border:1px solid #d1d5db;">اشتري من البائع الرسمي أو الوكيل المعتمد</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;">5</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>تحقق من البائع</strong></td><td style="padding:12px;border:1px solid #d1d5db;">اشتري من بائع بيديك فاتورة وضمان مكتوب باسمه وبياناته القانونية</td></tr>
     <tr><td style="padding:12px;border:1px solid #d1d5db;">6</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>اقرأ سياسة الإرجاع</strong></td><td style="padding:12px;border:1px solid #d1d5db;">عشان متتفاجأش إنك مش قادر ترجّع</td></tr>
     </tbody>
 </table>
@@ -173,7 +173,7 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
 
 <h2>أسعار مرجعية — اعرف الحقيقي من المضروب</h2>
 
-<p>دي أسعار تقريبية لمنتجات أصلية شائعة. لو لقيت سعر أقل بكتير من كده — <strong>اتشكك</strong>:</p>
+<p>دي أسعار تقريبية لمنتجات أصلية شائعة (نطاق سوق تقريبي، بيختلف حسب البائع). لو لقيت سعر أقل بكتير من كده — <strong>اتشكك</strong>:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -193,31 +193,31 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
 
 <h2>إزاي تتحقق إن منتج Anker أصلي — في 30 ثانية</h2>
 
-<p>أنكر بتوفر نظام تحقق رسمي. على كل منتج أصلي في ملصق أمان — اكشط الطبقة الفضية وادخل الكود على <strong>us.anker.com/pages/verify</strong>. لو الكود صح: أصلي. لو فشل أو الملصق مش موجود: <strong>متستخدمهوش</strong>. في كايرو فولت، كل منتج بييجي بالملصق الأصلي + فاتورة ضمان 18 شهر.</p>
+<p>انكر بتوفر نظام تحقق رسمي على <strong>anker.com/verify</strong>: لو على العلبة ملصق أمان، اكشط الطبقة الفضية وادخل الكود (16 أو 20 رقم). الملصق موجود بس على المنتجات المبيعة في المتاجر، وغيابه مش معناه إن المنتج مقلّد — والعلبة أو الباركود لوحدهم مش دليل. لو الكود اتقال إنه مش صحيح، كلّم البائع وانكر قبل ما تستخدم المنتج. في كايرو فولت، كل منتج بفاتورة وبضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج).</p>
 
-<p>كمان في حاجة مهمة: البائعين المعتمدين في مصر لمنتجات أنكر محدودين. لو اشتريت من بائع طرف ثالث على نون أو أمازون — تحقق إن المنتج "مشحون بواسطة نون" أو "مشحون بواسطة أمازون" — ده بيديك حماية أكبر في الإرجاع. البائعين الغير معروفين بتقييمات أقل من 4 نجوم — <strong>ابعد عنهم</strong> خصوصاً في الجمعة البيضاء.</p>
+<p>كمان في حاجة مهمة: خُد فاتورة وضمان مكتوب باسم البائع وبياناته القانونية. لو اشتريت من بائع طرف ثالث على نون أو أمازون — تحقق إن المنتج "مشحون بواسطة نون" أو "مشحون بواسطة أمازون" — ده بيديك حماية أكبر في الإرجاع. البائعين الغير معروفين بتقييمات أقل من 4 نجوم — <strong>ابعد عنهم</strong> خصوصاً في الجمعة البيضاء.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أسعار ثابتة وشفافة طول السنة — كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        محتجش تستنى الجمعة البيضاء. <a href="/anker/wall-chargers" style="color:#166534;font-weight:600;">شواحن أصلية</a> بأسعار عادلة طول السنة + <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانك بضمان 18 شهر</a>. كل منتج بكود تحقق أصلي + فاتورة ضمان. <strong>مفيش تضخيم أسعار — مفيش خصومات وهمية</strong>.
+        محتجش تستنى الجمعة البيضاء. <a href="/anker/wall-chargers" style="color:#166534;font-weight:600;">شواحن أصلية</a> بأسعار عادلة طول السنة + <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانك بضمان كايرو فولت المكتوب</a>. كل منتج بفاتورة وضمان مكتوب (المدة موضحة في صفحة كل منتج). <strong>مفيش تضخيم أسعار — مفيش خصومات وهمية</strong>.
     </p>
 </div>
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
-        <li><a href="https://which.co.uk/news/article/black-friday-deals-investigation" rel="nofollow">Which? UK — تحقيق في عروض البلاك فرايدي الوهمية</a></li>
-        <li><a href="https://www.consumer.ftc.gov/articles/0070-holiday-shopping-scams" rel="nofollow">FTC — حماية المستهلك من النصب في العروض</a></li>
+        <li><a href="https://cpa.gov.eg/ar-eg/" rel="nofollow">جهاز حماية المستهلك المصري — احتفظ بالفاتورة وشهادة الضمان</a></li>
+        <li><a href="https://www.anker.com/verify" rel="nofollow">انكر — التحقق من المنتج (كود الأمان)</a></li>
     </ul>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">باور بانك Anker Zolo Slim 20000</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a>.</p></div>
 `,
             faq: [
-                { question: 'هل كل عروض الجمعة البيضاء مزيفة؟', answer: 'لأ مش كلها. في عروض حقيقية بخصم 10-25% على منتجات أصلية. بس دراسات بتقول إن 60%+ من العروض مش أقل سعر في السنة. الحل: قارن الأسعار قبل وبعد، واتحقق من البائع والمنتج.' },
+                { question: 'هل كل عروض الجمعة البيضاء مزيفة؟', answer: 'لأ مش كلها. في عروض حقيقية بخصم 10-25% على منتجات أصلية. بس كتير من العروض مش أقل سعر في السنة. الحل: قارن الأسعار قبل وبعد، واتحقق من البائع والمنتج.' },
                 { question: 'إزاي أعرف إن الشاحن اللي في العرض أصلي؟', answer: 'تحقق من 5 حاجات: الوزن (الأصلي أتقل)، علامات السلامة (UL, CE, FCC)، جودة العلبة والطباعة، السعر (لو أرخص بـ 50%+ — غالباً مقلد)، وكود التحقق على موقع الشركة الرسمي.' },
                 { question: 'إمتى الجمعة البيضاء في مصر 2026؟', answer: 'الجمعة البيضاء (White Friday) عادةً بتكون آخر جمعة في نوفمبر — في 2026 المتوقع 27 نوفمبر. بس أغلب المنصات بتمد العروض لأسبوع أو أكتر. نون وأمازون بيبدأوا من أول أسبوع في نوفمبر أحياناً.' },
-                { question: 'هل الأفضل أشتري من الجمعة البيضاء أو طول السنة؟', answer: 'لو بتشتري من متجر أسعاره ثابتة وشفافة طول السنة (زي كايرو فولت) — مش هيفرق كتير. العروض الحقيقية بتوفر 10-20% بس. أهم حاجة إنك تشتري منتج أصلي بضمان، مش منتج مقلد بسعر "مغري".' },
+                { question: 'هل الأفضل أشتري من الجمعة البيضاء أو طول السنة؟', answer: 'لو بتشتري من متجر أسعاره ثابتة وشفافة طول السنة (زي كايرو فولت) — مش هيفرق كتير. العروض الحقيقية غالباً بتوفر نسبة محدودة. أهم حاجة إنك تشتري منتج أصلي بضمان، مش منتج مقلد بسعر "مغري".' },
             ],
         },
         en: {
@@ -226,16 +226,16 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
             metaDescription: 'Practical guide to spotting fake Black Friday deals: pre-sale price inflation, counterfeit products, and urgency tricks. Learn to shop smart with real numbers.',
             keywords: 'black friday egypt, white friday deals, fake discounts, black friday scams egypt 2026, noon deals, amazon egypt deals, counterfeit chargers, electronics scams, CairoVolt',
             excerpt: 'Engineering guide to spotting fake Black Friday deals: price inflation, counterfeit products, and urgency tactics. Shop smart and save your money.',
-            quickAnswer: 'Over 60% of Black Friday deals are NOT the lowest price of the year. The most common trick: inflating the price 2-4 weeks before, then "discounting" back to the original price. The fix: screenshot prices now, compare on the sale day, and only buy if the discount is genuinely 20%+ off the pre-sale price.',
+            quickAnswer: 'Many Black Friday deals are NOT the lowest price of the year. The most common trick: inflating the price 2-4 weeks before, then "discounting" back to the original price. The fix: screenshot prices now, compare on the sale day, and only buy if the discount is genuinely 20%+ off the pre-sale price.',
             content: `<p>Every year in late November, Egypt transforms into a giant showcase of "discounts." Noon calls it Yellow Friday, Amazon calls it White Friday, and Jumia has Black Friday. Every platform sends notifications: "70% off!", "3-hour flash sale!", "Only 2 left!". But the real question is: <strong>is the discount actually real?</strong></p>
 
-<p>The short answer: <strong>mostly no</strong>. Global studies show that 60% of Black Friday deals aren't the lowest price of the year. In Egypt specifically, the problem is worse because price tracking tools are less common, and consumers rely on "gut feeling" rather than verifying with actual data.</p>
+<p>The short answer: <strong>mostly no</strong>. Many Black Friday deals aren't the lowest price of the year. In Egypt specifically, the problem is worse because price tracking tools are less common, and consumers rely on "gut feeling" rather than verifying with actual data.</p>
 
 <p>In this article, we'll expose every fake deal trick and give you real tools to distinguish genuine discounts from scams.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Over 60% of Black Friday deals aren't the lowest price of the year. The most common trick: inflating prices 2-4 weeks before, then "discounting" back to the original. Fix: screenshot prices from October and compare on sale day.
+        <strong>💡 Quick Answer:</strong> Many Black Friday deals aren't the lowest price of the year. The most common trick: inflating prices 2-4 weeks before, then "discounting" back to the original. Fix: screenshot prices from October and compare on sale day.
     </p>
 </div>
 
@@ -286,7 +286,7 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
     </tbody>
 </table>
 
-<p>Rule of thumb: if you find an Anker 30W charger for 150 EGP instead of 500 EGP — it's <strong>100% counterfeit</strong>. Real discounts on genuine products are 10-25% — not 70%.</p>
+<p>Rule of thumb: if you find an Anker 30W charger for 150 EGP when CairoVolt sells it for EGP {{price:anker-a2147-gan-charger-30w}} — it's <strong>almost certainly counterfeit</strong>. Real discounts on genuine products are 10-25% — not 70%.</p>
 
 <h2>Trick #3: Fake Urgency — "Only 2 Left!"</h2>
 
@@ -307,7 +307,7 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
 
 <ul>
     <li><strong>Read the return policy before buying</strong> — especially from third-party sellers on Noon and Amazon</li>
-    <li>Buy from the <strong>official seller</strong> or stores with clear return policies</li>
+    <li>Buy from a <strong>seller that gives an invoice and a written warranty</strong> naming its legal identity, or from stores with clear return policies</li>
     <li><strong>Record an unboxing video</strong> — evidence if you need to return the product</li>
 </ul>
 
@@ -328,7 +328,7 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
     <tr><td style="padding:12px;border:1px solid #d1d5db;">2</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>Screenshot prices before the sale</strong></td><td style="padding:12px;border:1px solid #d1d5db;">So you can compare and detect inflation</td></tr>
     <tr><td style="padding:12px;border:1px solid #d1d5db;">3</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>Compare across 3 platforms</strong></td><td style="padding:12px;border:1px solid #d1d5db;">Noon + Amazon + the official store</td></tr>
     <tr><td style="padding:12px;border:1px solid #d1d5db;">4</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>Ignore countdown timers</strong></td><td style="padding:12px;border:1px solid #d1d5db;">Real deals don't pressure you</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;">5</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>Verify the seller</strong></td><td style="padding:12px;border:1px solid #d1d5db;">Buy from the official seller or authorized distributor</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;">5</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>Verify the seller</strong></td><td style="padding:12px;border:1px solid #d1d5db;">Buy from a seller that gives an invoice and a written warranty naming its legal identity</td></tr>
     <tr><td style="padding:12px;border:1px solid #d1d5db;">6</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>Read the return policy</strong></td><td style="padding:12px;border:1px solid #d1d5db;">So you're not surprised when you can't return</td></tr>
     </tbody>
 </table>
@@ -368,7 +368,7 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
 
 <h2>Reference Prices — Know Real from Inflated</h2>
 
-<p>Here are approximate prices for common genuine products. If you find a price significantly below these — <strong>be suspicious</strong>:</p>
+<p>Here are approximate prices for common genuine products (approximate market range, varies by seller). If you find a price significantly below these — <strong>be suspicious</strong>:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -388,31 +388,31 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
 
 <h2>How to Verify an Anker Product Is Genuine — In 30 Seconds</h2>
 
-<p>Anker provides an official verification system. Every genuine product has a security sticker — scratch off the silver layer and enter the code at <strong>us.anker.com/pages/verify</strong>. If the code checks out: it's genuine. If it fails or there's no sticker: <strong>don't use it</strong>. At CairoVolt, every product comes with the original security sticker + an 18-month warranty invoice.</p>
+<p>Anker provides an official verification system at <strong>anker.com/verify</strong>: if the box carries a security label, scratch off the silver layer and enter the 16- or 20-digit code. Only units sold offline carry the label, and a missing label does not mean the product is counterfeit — packaging or a barcode alone proves nothing. If the code is reported invalid, contact the seller and Anker before using the product. At CairoVolt, every product comes with an invoice and CairoVolt's written store warranty (duration shown on each product page).</p>
 
-<p>Another important point: authorized Anker sellers in Egypt are limited. If you're buying from a third-party seller on Noon or Amazon — verify the product is "Fulfilled by Noon" or "Fulfilled by Amazon" — this gives you better return protection. Unknown sellers with ratings below 4 stars — <strong>stay away</strong>, especially during Black Friday.</p>
+<p>Another important point: get an invoice and a written warranty that names the seller's legal identity. If you're buying from a third-party seller on Noon or Amazon — verify the product is "Fulfilled by Noon" or "Fulfilled by Amazon" — this gives you better return protection. Unknown sellers with ratings below 4 stars — <strong>stay away</strong>, especially during Black Friday.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Fair, Transparent Prices All Year — CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        No need to wait for Black Friday. <a href="/en/anker/wall-chargers" style="color:#166534;font-weight:600;">Genuine chargers</a> at fair prices year-round + <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">power banks with 18-month warranty</a>. Every product includes a verification code + warranty invoice. <strong>No price inflation — no fake discounts</strong>.
+        No need to wait for Black Friday. <a href="/en/anker/wall-chargers" style="color:#166534;font-weight:600;">Genuine chargers</a> at fair prices year-round + <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">power banks with CairoVolt's written store warranty</a>. Every product includes an invoice and a written warranty (duration shown on each product page). <strong>No price inflation — no fake discounts</strong>.
     </p>
 </div>
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 References:</p>
     <ul style="margin:0;padding-left:20px;color:#6b7280;">
-        <li><a href="https://which.co.uk/news/article/black-friday-deals-investigation" rel="nofollow">Which? UK — Black Friday Fake Deals Investigation</a></li>
-        <li><a href="https://www.consumer.ftc.gov/articles/0070-holiday-shopping-scams" rel="nofollow">FTC — Consumer Protection from Sale Scams</a></li>
+        <li><a href="https://cpa.gov.eg/ar-eg/" rel="nofollow">Egyptian Consumer Protection Agency — keep the invoice and warranty certificate (Arabic)</a></li>
+        <li><a href="https://www.anker.com/verify" rel="nofollow">Anker — Product verification (security code)</a></li>
     </ul>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker Zolo Slim 20000 Power Bank</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a>.</p></div>
 `,
             faq: [
-                { question: 'Are all Black Friday deals fake?', answer: 'No, not all of them. There are genuine deals with 10-25% off on authentic products. But studies show 60%+ of deals aren\'t the lowest price of the year. The solution: compare prices before and after, and verify the seller and product authenticity.' },
+                { question: 'Are all Black Friday deals fake?', answer: 'No, not all of them. There are genuine deals with 10-25% off on authentic products. But many deals aren\'t the lowest price of the year. The solution: compare prices before and after, and verify the seller and product authenticity.' },
                 { question: 'How do I know if a charger on sale is genuine?', answer: 'Check 5 things: weight (genuine is heavier), safety marks (UL, CE, FCC), packaging quality and printing, price (if 50%+ cheaper — likely counterfeit), and verification code on the brand\'s official website.' },
                 { question: 'When is White Friday in Egypt 2026?', answer: 'White Friday is typically the last Friday of November — in 2026, that\'s expected to be November 27. However, most platforms extend deals for a week or more. Noon and Amazon sometimes start from the first week of November.' },
-                { question: 'Should I buy during Black Friday or throughout the year?', answer: 'If you buy from a store with consistent, transparent pricing year-round (like CairoVolt), it won\'t matter much. Real deals save 10-20% at best. The most important thing is buying genuine products with warranty, not counterfeit products at "attractive" prices.' },
+                { question: 'Should I buy during Black Friday or throughout the year?', answer: 'If you buy from a store with consistent, transparent pricing year-round (like CairoVolt), it won\'t matter much. Real deals usually save a limited percentage. The most important thing is buying genuine products with warranty, not counterfeit products at "attractive" prices.' },
             ],
         }
     }

@@ -4,15 +4,16 @@ export const power_bank_pos_machine_shop_cashier_solution: BlogArticle = {
     slug: 'power-bank-pos-machine-shop-cashier-solution',
     category: 'buying-guide',
     publishDate: '2026-10-03T19:27:00+03:00',
-    modifiedDate: '2026-10-03T19:27:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'joyroom-power-bank-10000',
         'joyroom-power-bank-20000',
-        'anker-powercore-10000',
+        'anker-zolo-a110d-10000',
         'anker-powercore-20000',
         'joyroom-3-in-1-data-cable',
-        'anker-a8050-usb-c-cable'
+        'joyroom-type-c-to-type-c-cable',
+        'anker-powerline-usb-c-usb-c'
     ],
     relatedArticles: [
         'power-bank-cgm-diabetes-continuous-glucose-monitor',
@@ -71,8 +72,8 @@ export const power_bank_pos_machine_shop_cashier_solution: BlogArticle = {
 
 <h2>ثالثاً: ميزة الشحن التمريري (Pass-Through Charging) — الحل المثالي للكاشير</h2>
 <p>لو المحل عندك شغال 24 ساعة، فإنت محتاج حل ذكي ومريح للموظفين. الباوربانك العادي لما بتوصله بالشاحن في الحائط، بيفصل الكهرباء عن الأجهزة المتصلة بيه لحد ما هو نفسه يشحن. لكن الباوربانكات الممتازة بتدعم ميزة تسمى **الشحن التمريري (Pass-Through)**.</p>
-<p>الميزة دي بتسمح للباوربانك إنه يشحن نفسه من فيشة الحائط وفي نفس الوقت يغذي ماكينة الـ POS المتصلة بيه بالكهرباء. لو الكهرباء شغالة، الطاقة بتروح مباشرة للماكينة؛ ولو الكهرباء قطعت فجأة، الباوربانك بيتحول تلقائياً لضخ الطاقة من بطاريته الداخلية للماكينة بدون انقطاع لثانية واحدة وبدون ما الكاشير يضطر يغير كابلات أو يدخل يفصل ويوصل يدوياً. ده بيشتغل كـ **UPS مصغر** لحماية عملك.</p>
-<p>موديلات مثل <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">باور بانك Joyroom 10000</a> و <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">باور بانك Anker PowerCore 10000</a> بيوفروا حماية ممتازة وتوافقاً كاملاً مع الشحن التمريري بآمان تام.</p>
+<p>الميزة دي بتسمح للباوربانك إنه يشحن نفسه من فيشة الحائط وفي نفس الوقت يغذي ماكينة الـ POS المتصلة بيه بالكهرباء. لو الكهرباء شغالة، الطاقة بتروح مباشرة للماكينة؛ ولو الكهرباء قطعت، الباوربانك بيكمّل من بطاريته الداخلية من غير ما الكاشير يغيّر كابلات. بس خد بالك: باور بانكات كتير بتقطع الخرج لحظة لما الكهرباء توصل أو تقطع، فده مش UPS حقيقي إلا لو جربته مع ماكينتك.</p>
+<p>دعم الشحن التمريري وسلوك الباور بانك لحظة توصيل أو قطع الكهرباء بيختلف من موديل لموديل ومش دايماً مكتوب، فراجع دليل الموديل وجرّبه مع ماكينتك قبل ما تعتمد عليه. التفاصيل في دليلنا عن <a href="/blog/pass-through-charging-power-bank-myth-truth" style="color:#2563eb;font-weight:600;">الشحن التمريري: حقيقة ولا خرافة</a>.</p>
 
 <h2>رابعاً: كيفية تشغيل ماكينات الـ POS القديمة (9 فولت أو 12 فولت) بالباوربانك</h2>
 <p>بعض المحلات والسوبرماركت الكبيرة لا تزال تستخدم ماكينات POS مكتبية قديمة أو كبيرة الحجم (مثل بعض موديلات Verifone أو Ingenico) التي لا تحتوي على بطارية داخلية ولا تدعم منافذ الـ USB للشحن، بل تعتمد على فيشة حائط ومحول طاقة (Adapter) يخرج جهد **9 فولت** أو **12 فولت** بتيار مستمر (DC).</p>
@@ -109,10 +110,10 @@ export const power_bank_pos_machine_shop_cashier_solution: BlogArticle = {
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">المحلات الصغيرة والمتوسطة وسهل وضعه بجانب الماكينة</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Anker PowerCore 10000</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;"><a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker Zolo A110D 10000</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">10,000 مللي أمبير</td>
             <td style="padding:12px;border:1px solid #d1d5db;">حوالي 3 شحنات كاملة</td>
-            <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">حماية قصوى وعمر افتراضي طويل للتشغيل اليومي المستمر</td>
+            <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">كابل USB-C مدمج وحماية مدمجة للتشغيل اليومي</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Joyroom Power Bank 20000</td>
@@ -180,8 +181,8 @@ export const power_bank_pos_machine_shop_cashier_solution: BlogArticle = {
 
 <h2>3. Pass-Through Charging: The Cashier's Mini-UPS</h2>
 <p>If your retail business operates 24/7, you need a convenient, set-and-forget setup for your employees. Standard power banks disable their output ports when they are connected to a wall charger to protect their internal cells. However, premium power banks support a feature called **Pass-Through Charging**.</p>
-<p>This feature allows the power bank to charge its internal battery while simultaneously supplying power to the connected POS machine. When grid power is active, electricity passes directly through to the terminal. If a power cut occurs, the power bank immediately switches to battery output, keeping the POS terminal online without a single millisecond of interruption. This acts as a miniature **Uninterruptible Power Supply (UPS)** for your cash register.</p>
-<p>Highly compatible models supporting this feature include the <a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom Power Bank 10000</a> and the <a href="/en/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">Anker PowerCore 10000</a>.</p>
+<p>This feature allows the power bank to charge its internal battery while simultaneously supplying power to the connected POS machine. When grid power is active, electricity passes directly through to the terminal. If a power cut occurs, the power bank carries on from its own battery without the cashier swapping cables. Be aware that many power banks briefly cut their output when wall power connects or drops, so it is not a true UPS unless you have tested it with your terminal.</p>
+<p>Pass-through support, and how a power bank behaves the moment wall power connects or drops, varies by model and is not always documented — check the model's manual and test it with your terminal before relying on it. More in our guide to <a href="/en/blog/pass-through-charging-power-bank-myth-truth" style="color:#2563eb;font-weight:600;">pass-through charging: myth vs truth</a>.</p>
 
 <h2>3.1. How to Power Legacy 9V or 12V POS Terminals Using a Power Bank</h2>
 <p>Many supermarkets and retail merchants in Egypt still rely on stationary desktop-like POS terminals (such as legacy Verifone or Ingenico models) that lack internal batteries and do not charge via standard USB ports. Instead, they plug directly into wall sockets using a power adapter that outputs **9V** or **12V** DC via a circular barrel connector.</p>
@@ -218,10 +219,10 @@ export const power_bank_pos_machine_shop_cashier_solution: BlogArticle = {
             <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">Small shops, highly portable and sits easily on cash drawers</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Anker PowerCore 10000</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;"><a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker Zolo A110D 10000</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">10,000mAh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Approx. 3 full charges</td>
-            <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">Busy cashiers requiring durable, daily continuous charging cycles</td>
+            <td style="padding:12px;color:#10b981;font-weight:bold;border:1px solid #d1d5db;">Built-in USB-C cable and protection for daily use</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Joyroom Power Bank 20000</td>

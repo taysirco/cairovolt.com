@@ -51,7 +51,7 @@ export const soundcore_p25i_earbuds = {
                     { question: "Does Soundcore P25i support multipoint Bluetooth?", answer: "Confirm multipoint in the current product documentation and firmware because supported combinations and switching behaviour can vary by source and software." },
                     { question: "Can I use Soundcore P25i for workouts?", answer: "Review the IPX5 limits in the manual. Water resistance is not permanent, fit varies during movement, and the earbuds and case should be dry before charging." },
                     { question: "How should I compare P25i with AirPods or another model?", answer: "Compare fit, supported codecs, app functions, microphone and battery conditions, IP limits, package contents, live price and warranty using current listings. Avoid percentage-of-experience claims without a shared test method." },
-                    { question: "What's in the Soundcore P25i box?", answer: "Confirm the supplied package contents on the current listing and sealed package; accessories can vary by market or revision." },
+                    { question: "What's in the Soundcore P25i box?", answer: "Anker Japan lists the P25i earbuds, charging case, three sizes of silicone tips, a USB-C charging cable, a quick start guide and a safety manual. Check the sealed box on delivery; accessories can vary by market or revision." },
             ]
         },
         ar: {
@@ -77,7 +77,7 @@ export const soundcore_p25i_earbuds = {
                     { question: "سماعة ساوندكور P25i بتتوصل بجهازين؟", answer: "تحقّق من دعم الاتصال المتعدد في وثائق المنتج والفيرموير الحاليين؛ قد تختلف مجموعات الأجهزة وسلوك التبديل حسب المصدر والبرنامج." },
                     { question: "أقدر أستخدم ساوندكور P25i في التمارين؟", answer: "راجع حدود IPX5 في الدليل. مقاومة الماء ليست دائمة، والثبات يختلف مع الحركة، ويجب تجفيف السماعات والعلبة قبل الشحن." },
                     { question: "أقارن ساوندكور P25i مع AirPods أو موديل آخر إزاي؟", answer: "قارن الملاءمة والكودكات والتطبيق والمكالمات وشروط البطارية وحدود IP ومحتويات العبوة والسعر والضمان في القوائم الحالية. تجنب نسب التجربة من دون طريقة اختبار مشتركة." },
-                    { question: "إيه اللي في علبة ساوندكور P25i؟", answer: "تأكد من محتويات العبوة في القائمة الحالية والعبوة المختومة؛ قد تختلف الملحقات حسب السوق أو الإصدار." },
+                    { question: "إيه اللي في علبة ساوندكور P25i؟", answer: "تذكر قائمة انكر اليابان سماعات P25i وعلبة الشحن وثلاثة مقاسات من أطراف السيليكون وكابل شحن USB-C ودليل البدء السريع ودليل السلامة. افحص العبوة المختومة عند الاستلام؛ قد تختلف الملحقات حسب السوق أو الإصدار." },
             ]
         }
     },

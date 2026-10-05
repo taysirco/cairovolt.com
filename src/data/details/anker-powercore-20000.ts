@@ -5,18 +5,20 @@ import type { ProductDetail } from './_types';
 export const anker_powercore_20000_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Anker PowerCore II 20000 (A1260 / A1260011): 20,000mAh / 72Wh cells (Anker 3.6V nominal: 20,000 × 3.6 ÷ 1000). CairoVolt measured 61.4Wh usable at 5V/2A (85.3% of 72Wh) — inside protocol §7.3 80–90% band. Independent Charging Kick bench recovered ~61% at heavier 2.4A — normal high-current conversion loss, not a defect.',
+            'Anker PowerCore II 20000 (A1260 / A1260011) is a 20,000mAh (72Wh, Anker 3.6V nominal) power bank with two USB-A ports. We measured 61.4Wh usable at 5V/2A (85.3% of 72Wh). It suits sharing a full day\'s charge across 2–3 phones.',
+            'Capacity math: 20,000 × 3.6 ÷ 1000 = 72Wh; the 61.4Wh result sits inside the 80–90% band. Independent Charging Kick bench recovered ~61% at heavier 2.4A — normal high-current conversion loss, not a defect.',
             'ASYMMETRIC ports (buyers miss this): Port 1 = PowerIQ 2.0 / QC 9V–12V up to 18W (we measured 17.1W @ 9.02V/1.90A into Galaxy A54). Port 2 = plain 5V/2.4A 12W class (we measured 11.6W @ 5.13V/2.26A). PCWorld: same phone fast-charges on Port 1 and does NOT on Port 2. Dual-load collapses Port 1 to 5V — fast charge is LOST (15.5W combined stable).',
             'Samsung sweet spot vs modern gap: Port 1 matches Egypt-common Adaptive Fast Charging phones (S9/S10, Note 9/10 base, A50/A51, M31) at real 15–18W QC. No PPS / no USB-C PD — S20+/S21+/A52+/A54 Super Fast and all Lightning/USB-C iPhones fall back to 5V. Micro-USB input only: ~5h 08m on 18W QC brick vs ~10h 35m on 5V/2A — plan overnight if you lack a QC wall brick.',
             'A/B honesty: vs RECALLED A1263 PowerCore 10000 (31.2Wh / pocket / Micro-USB 5V-only) — A1260 is larger energy + real QC Port 1 and is NOT recalled. vs A110E Zolo 20K (62.0Wh / USB-C 22.5W / built-in cable) — similar usable Wh, A110E wins modern ports. vs A1290 Elite 26K (80.9Wh / 60W USB-C laptop) — A1290 wins Wh + MacBook; A1260 is USB-A phone-era only.',
             '✅ NOT recalled: anker.com/product-recalls + CPSC.gov verified 2026-07-24 — A1260 outside A1257/A1263/A1647/A1652/A1681/A1689 (do NOT confuse with recalled A1263 10K). 72Wh < 100Wh cabin line — EgyptAir/Nile Air/Air Cairo/Emirates/Flydubai/Turkish/Qatar/Saudia carry-on OK; Emirates & Flydubai ban USING any power bank in-flight since 1 Oct 2025.',
         ],
         ar: [
-            'انكر PowerCore II 20000 (A1260 / A1260011): خلايا 20,000 مللي أمبير / 72Wh (حساب انكر الاسمي 3.6V: 20,000 × 3.6 ÷ 1000). قِست CairoVolt 61.4Wh قابلة للاستخدام عند 5V/2A (85.3% من 72Wh) — ضمن نطاق §7.3 للبروتوكول 80–90%. مختبَر Charging Kick المستقل استرجع نحو 61% تحت حمل أعلى 2.4A — خسارة تحويل طبيعية عند التيار العالي وليست عيبًا.',
-            'منافذ غير متماثلة (يفوت المشترين): المنفذ 1 = PowerIQ 2.0 / QC 9V–12V حتى 18 واط (قِسنا 17.1 واط @ 9.02V/1.90A داخل Galaxy A54). المنفذ 2 = فئة 5V/2.4A 12 واط عادية (قِسنا 11.6 واط @ 5.13V/2.26A). PCWorld: نفس الهاتف يشحن سريعًا على المنفذ 1 و**لا** على المنفذ 2. الحمل المزدوج يُسقط المنفذ 1 إلى 5V — يضيع الشحن السريع (15.5 واط مشترك مستقر).',
+            'انكر PowerCore II 20000 (A1260 / A1260011) باور بانك بسعة 20,000 مللي أمبير (72Wh بحساب انكر الاسمي 3.6V) ومنفذَي USB-A. قِست CairoVolt 61.4Wh قابلة للاستخدام عند 5V/2A (85.3% من 72Wh). يناسب توزيع شحن يوم كامل على 2–3 هواتف.',
+            'حساب السعة: 20,000 × 3.6 ÷ 1000 = 72Wh، ونتيجة 61.4Wh ضمن نطاق 80–90%. مختبَر Charging Kick المستقل استرجع نحو 61% تحت حمل أعلى 2.4A — خسارة تحويل طبيعية عند التيار العالي وليست عيبًا.',
+            'منافذ غير متماثلة (يفوت المشترين): المنفذ 1 = PowerIQ 2.0 / QC 9V–12V حتى 18 واط (قِسنا 17.1 واط @ 9.02V/1.90A داخل Galaxy A54). المنفذ 2 = فئة 5V/2.4A 12 واط عادية (قِسنا 11.6 واط @ 5.13V/2.26A). PCWorld: نفس الهاتف يشحن سريعًا على المنفذ 1 ولا على المنفذ 2. الحمل المزدوج يُسقط المنفذ 1 إلى 5V — يضيع الشحن السريع (15.5 واط مشترك مستقر).',
             'المنطقة الذهبية لسامسونج مقابل فجوة الحديثة: المنفذ 1 يطابق هواتف Adaptive Fast Charging الشائعة في مصر (S9/S10، Note 9/10 base، A50/A51، M31) بشحن QC حقيقي 15–18 واط. بلا PPS / بلا USB-C PD — S20+/S21+/A52+/A54 Super Fast وكل آيفون Lightning/USB-C تعود إلى 5V. دخل Micro-USB فقط: نحو 5 س 08 د على طوبة QC 18 واط مقابل نحو 10 س 35 د على 5V/2A — خطّط لليل إن لم تملك شاحن QC.',
-            'صدق A/B: مقابل A1263 PowerCore 10000 المُستدعى (31.2Wh / جيب / Micro-USB 5V فقط) — A1260 طاقة أكبر + QC حقيقي على المنفذ 1 وهو **غير** مُستدعى. مقابل A110E Zolo 20K (62.0Wh / USB-C 22.5 واط / كابل مدمج) — Wh قابلة للاستخدام متقاربة، وA110E يفوز بالمنافذ الحديثة. مقابل A1290 Elite 26K (80.9Wh / 60 واط USB-C لابتوب) — A1290 يفوز بالـWh وMacBook؛ A1260 عصر USB-A للهواتف فقط.',
-            '✅ لا استدعاء: anker.com/product-recalls + CPSC.gov تحقّق 2026-07-24 — A1260 خارج A1257/A1263/A1647/A1652/A1681/A1689 (**لا** تخلطه بـ A1263 10K المُستدعى). 72Wh < خط المقصورة 100Wh — مصر للطيران/النيل/إير كايرو/الإمارات/فلاي دبي/التركية/القطرية/السعودية مقصورة OK؛ الإمارات وفلاي دبي تحظران **استخدام** أي باور بانك أثناء الرحلة منذ 1 أكتوبر 2025.',
+            'صدق A/B: مقابل A1263 PowerCore 10000 المُستدعى (31.2Wh / جيب / Micro-USB 5V فقط) — A1260 طاقة أكبر + QC حقيقي على المنفذ 1 وهو غير مُستدعى. مقابل A110E Zolo 20K (62.0Wh / USB-C 22.5 واط / كابل مدمج) — Wh قابلة للاستخدام متقاربة، وA110E يفوز بالمنافذ الحديثة. مقابل A1290 Elite 26K (80.9Wh / 60 واط USB-C لابتوب) — A1290 يفوز بالـWh وMacBook؛ A1260 عصر USB-A للهواتف فقط.',
+            '✅ لا استدعاء: anker.com/product-recalls + CPSC.gov تحقّق 2026-07-24 — A1260 خارج A1257/A1263/A1647/A1652/A1681/A1689 (لا تخلطه بـ A1263 10K المُستدعى). 72Wh < خط المقصورة 100Wh — مصر للطيران/النيل/إير كايرو/الإمارات/فلاي دبي/التركية/القطرية/السعودية مقصورة OK؛ الإمارات وفلاي دبي تحظران استخدام أي باور بانك أثناء الرحلة منذ 1 أكتوبر 2025.',
         ],
     },
     localContext: {
@@ -39,7 +41,7 @@ export const anker_powercore_20000_detail: ProductDetail = {
             'ثمانية سيناريوهات بحساب 61.4Wh. مناسب لـ: ' +
             '(1) ساحل / شمال 3 أيام فيلا — فيشات متذبذبة ومقاهي استراحة بلا USB مضمون. مسافران بـ S10/Note 10 (~13–15Wh) ≈ ~16Wh لكل شحنة سريعة على المنفذ 1 → 61.4Wh ≈ 4 شحنات سريعة كاملة على 3 أيام مع هامش ~20%. ضع السامسونج على المنفذ 1؛ أعطِ المنفذ 2 للهاتف الثاني عند 5V عادي. ' +
             '(2) يوم عائلي (أب Samsung + ابنة iPhone + طفل iPad): iPad الجيل العاشر (28.6Wh) وحده يحرق نحو نصف الباور بانك لكل شحنة كاملة. خطة واقعية من الـWh المقاسة: تعبئة أب على المنفذ 1 (~16Wh) + ابنة على المنفذ 2 5V/2.4A (~16Wh) + iPad ~60% (~20Wh) ≈ 52Wh مع هامش ~7Wh — حدّي، يعمل مرة. ' +
-            '(3) أتوبيس القاهرة↔إسكندرية Go Bus / Blue Bus (~3 س) مع نتفليكس أطفال: موبايلان × ~8Wh + تابلت × ~10Wh ≈ 31Wh — نصف الباور بانك متبقٍ. يوم هاتف مريح؛ **صفر** لابتوبات (USB-A فقط، بلا PD). ' +
+            '(3) أتوبيس القاهرة↔إسكندرية Go Bus / Blue Bus (~3 س) مع نتفليكس أطفال: موبايلان × ~8Wh + تابلت × ~10Wh ≈ 31Wh — نصف الباور بانك متبقٍ. يوم هاتف مريح؛ صفر لابتوبات (USB-A فقط، بلا PD). ' +
             '(4) انقطاع منزلي (قطع مجدول ساعتين): موبايلان × ~4Wh طوارئ + لمبة LED USB ≈ ~17Wh لكل قطع → 3–4 انقطاعات من 61.4Wh. حاسم: راوترات WE/Vodafone/Etisalat/Orange المنزلية تستخدم برميل DC 12V بسحب 6–10 واط — USB-A في A1260 لا يشغّل راوترًا؛ اشترِ UPS. ' +
             '(5) مصور فرح/تخرج 8 ساعات بسامسونج ككاميرا متصلة (Cascable / Camera Connect + إنستجرام + hotspot): 3–4 شحنات ≈ ~52Wh — الباور بانك بالكاد أخضر؛ هذا أفضل سير عمل صُمّم له A1260 لمصوري S10/Note 10/A51. ' +
             '(6) عِدّة عمرة/حج لحاج سامسونج QC: 72Wh يسافر مجانًا تحت قواعد المقصورة GACA/IATA 100Wh على السعودية/النيل/مصر للطيران — تعبئة سريعة واحدة على المنفذ 1 وسط يوم الطواف؛ إعادة شحن Micro-USB ليلًا في الفندق بطوبة QC. ' +
@@ -55,8 +57,8 @@ export const anker_powercore_20000_detail: ProductDetail = {
             ar: 'انكر PowerCore II 20000 (A1260 / تجزئة A1260011)',
         },
         'Cell Capacity': {
-            en: '20,000mAh / 72Wh (Anker 3.6V nominal: 20,000 × 3.6 ÷ 1000) — keep 72Wh consistent; do not relabel as 74Wh 3.7V without a new bench',
-            ar: '20,000 مللي أمبير / 72Wh (اسمي انكر 3.6V: 20,000 × 3.6 ÷ 1000) — حافظ على اتساق 72Wh؛ لا تُعدّ التسمية إلى 74Wh عند 3.7V بلا قياس جديد',
+            en: '20,000mAh / 72Wh (Anker label; 3.6V nominal: 20,000 × 3.6 ÷ 1000)',
+            ar: '20,000 مللي أمبير / 72Wh (ملصق انكر؛ اسمي 3.6V: 20,000 × 3.6 ÷ 1000)',
         },
         'Usable Energy (CairoVolt measured)': {
             en: '61.4Wh at 5V/2A constant discharge (~85.3% of 72Wh) — headline reconciles across Port-1 / Port-2 / dual-load discharge paths',
@@ -68,7 +70,7 @@ export const anker_powercore_20000_detail: ProductDetail = {
         },
         'Port 2 (standard USB-A)': {
             en: '12W class 5V/2.4A ONLY — does NOT trigger Samsung AFC / QC. CairoVolt peak 11.6W (5.13V/2.26A). PCWorld confirmed same-phone asymmetry',
-            ar: 'فئة 12 واط 5V/2.4A فقط — **لا** يفعّل Samsung AFC / QC. ذروة CairoVolt 11.6 واط (5.13V/2.26A). أكدت PCWorld عدم التماثل على نفس الهاتف',
+            ar: 'فئة 12 واط 5V/2.4A فقط — لا يفعّل Samsung AFC / QC. ذروة CairoVolt 11.6 واط (5.13V/2.26A). أكدت PCWorld عدم التماثل على نفس الهاتف',
         },
         'Dual-load behaviour': {
             en: 'Both ports together: 15.5W total stable — Port 1 drops to 5V so QC/AFC is LOST while two devices charge',
@@ -80,11 +82,11 @@ export const anker_powercore_20000_detail: ProductDetail = {
         },
         'Fast Charging honesty': {
             en: 'PowerIQ 2.0 + QC 3.0 on Port 1 ONLY — no PPS, no USB-C PD. Modern Samsung Super Fast / iPhone PD will NOT unlock',
-            ar: 'PowerIQ 2.0 + QC 3.0 على المنفذ 1 فقط — بلا PPS، بلا USB-C PD. Samsung Super Fast الحديثة / iPhone PD **لن** تُفتح',
+            ar: 'PowerIQ 2.0 + QC 3.0 على المنفذ 1 فقط — بلا PPS، بلا USB-C PD. Samsung Super Fast الحديثة / iPhone PD لن تُفتح',
         },
         'How A1260 differs from A1263 (RECALLED)': {
             en: 'A1260 = 20K / 72Wh / 61.4Wh measured / asymmetric 18W+12W USB-A / NOT recalled. A1263 = 10K / 36Wh / 31.2Wh measured / single 12W USB-A / RECALLED (US Jan 2016–Oct 2019 batches, CPSC June 2025). Different SKUs — do not mix safety status.',
-            ar: 'A1260 = 20K / 72Wh / 61.4Wh مقاسة / USB-A غير متماثل 18+12 واط / **غير** مُستدعى. A1263 = 10K / 36Wh / 31.2Wh مقاسة / USB-A واحد 12 واط / **مُستدعى** (دفعات أمريكا يناير 2016–أكتوبر 2019، CPSC يونيو 2025). SKUs مختلفة — لا تخلط حالة السلامة.',
+            ar: 'A1260 = 20K / 72Wh / 61.4Wh مقاسة / USB-A غير متماثل 18+12 واط / غير مُستدعى. A1263 = 10K / 36Wh / 31.2Wh مقاسة / USB-A واحد 12 واط / مُستدعى (دفعات أمريكا يناير 2016–أكتوبر 2019، CPSC يونيو 2025). SKUs مختلفة — لا تخلط حالة السلامة.',
         },
         'How A1260 differs from A110E': {
             en: 'A1260 = Micro-USB in + dual USB-A out, Port-1 QC 18W, 61.4Wh, 372g, no built-in cable. A110E = USB-C bidirectional + built-in cable, 22.5W phone-class, 62.0Wh measured, 394g. Similar usable Wh; A110E wins modern port ecology.',
@@ -108,7 +110,7 @@ export const anker_powercore_20000_detail: ProductDetail = {
         },
         'Safety / Recall Status': {
             en: 'Manufacturer-listed MultiProtect. NOT RECALLED — verified anker.com/product-recalls + cpsc.gov on 2026-07-24. Outside A1257/A1263/A1647/A1652/A1681/A1689. Do NOT confuse with recalled A1263 PowerCore 10000.',
-            ar: 'MultiProtect كما تذكرها انكر. **لا استدعاء** — تحقّق anker.com/product-recalls + cpsc.gov في 2026-07-24. خارج A1257/A1263/A1647/A1652/A1681/A1689. **لا** تخلطه بـ A1263 PowerCore 10000 المُستدعى.',
+            ar: 'MultiProtect كما تذكرها انكر. لا استدعاء — تحقّق anker.com/product-recalls + cpsc.gov في 2026-07-24. خارج A1257/A1263/A1647/A1652/A1681/A1689. لا تخلطه بـ A1263 PowerCore 10000 المُستدعى.',
         },
     },
     benchTest: {
@@ -122,10 +124,10 @@ export const anker_powercore_20000_detail: ProductDetail = {
         },
         methodology: {
             en:
-                'Per Bench Test Protocol §7.3 (power banks) on sample CV-PB-A1260-001 (bench 2026-05-13; recall re-check 2026-07-24). ' +
-                '(A–B) Nominal Wh kept at Anker\'s printed 3.6V math: 20,000mAh × 3.6V ÷ 1000 = 72Wh — do not silently swap to 3.7V/74Wh on this sheet. ' +
+                'Per Bench Test Protocol (power banks) on sample CV-PB-A1260-001 (bench 2026-05-13; recall re-check 2026-07-24). ' +
+                '(A–B) Nominal Wh per Anker\'s printed 3.6V math: 20,000mAh × 3.6V ÷ 1000 = 72Wh. ' +
                 '(C) Fully charged over Micro-USB with Anker A2013 18W QC, rested 30 minutes, then THREE separate full discharges into JUWEI at 5V/2A — Port 1 alone, Port 2 alone, and dual-load — while FNIRSI FNB58 logged cumulative Wh. ' +
-                'Headline usable energy 61.4Wh reconciles across those paths (85.3% of 72Wh) — inside the §7.3 80–90% band. ' +
+                'Headline usable energy 61.4Wh reconciles across those paths (85.3% of 72Wh) — inside the 80–90% band. ' +
                 '(G) Peak negotiation: Port 1 into Galaxy A54 = 17.1W (9.02V/1.90A QC); Port 2 into same phone-class load = 11.6W (5.13V/2.26A) — confirms asymmetric fast-charge design flagged by PCWorld / Tech Advisor (+5.5W / +QC 9V on Port 1 only). ' +
                 'Dual-load both ports: 15.5W combined stable; Port 1 collapsed to 5V (QC/AFC lost). ' +
                 '(F/H) Self-recharge timed 0→100% on 18W QC Micro-USB (~5h 08m) and on plain 5V/2A (~10h 35m) — Micro-USB ceiling; no USB-C in. ' +
@@ -135,22 +137,22 @@ export const anker_powercore_20000_detail: ProductDetail = {
                 '(L) Recall check anker.com/product-recalls + cpsc.gov on 2026-07-24 — A1260 NOT listed (unlike A1263 PowerCore 10000). ' +
                 'Independent corroboration (NOT our data): Charging Kick ~12,195 mAh recovered (~61%) at 2.4A. ' +
                 'A/B Wh anchors from separate CairoVolt sheets: A1263 31.2Wh · A110E 62.0Wh · A1290 80.9Wh. ' +
-                'Surface IR / 9V constant-load Wh / PPS APDO: NOT on this pass — refuse invented °C or PDOs. Single unit; batches may vary.',
+                'Surface IR / 9V constant-load Wh / PPS APDO: NOT on this pass, so no °C or PDO figures are published. Single unit; batches may vary.',
             ar:
-                'وفق بروتوكول الاختبار §7.3 (باور بانك) على العيّنة CV-PB-A1260-001 (قياس 2026-05-13؛ إعادة فحص الاستدعاء 2026-07-24). ' +
+                'وفق بروتوكول الاختبار (باور بانك) على العيّنة CV-PB-A1260-001 (قياس 2026-05-13؛ إعادة فحص الاستدعاء 2026-07-24). ' +
                 '(A–B) الـWh الاسمي محفوظ على حساب انكر المطبوع 3.6V: 20,000mAh × 3.6V ÷ 1000 = 72Wh — لا تستبدل بصمت إلى 3.7V/74Wh على هذه الصحيفة. ' +
-                '(C) شحن كامل عبر Micro-USB بـ Anker A2013 QC 18 واط، راحة 30 دقيقة، ثم **ثلاث** تفريغات كاملة منفصلة داخل JUWEI عند 5V/2A — المنفذ 1 وحده، المنفذ 2 وحده، والحمل المزدوج — بينما سجّل FNB58 الـWh التراكمي. ' +
-                'الطاقة الأساسية 61.4Wh تتوافق عبر تلك المسارات (85.3% من 72Wh) — ضمن نطاق §7.3 80–90%. ' +
+                '(C) شحن كامل عبر Micro-USB بـ Anker A2013 QC 18 واط، راحة 30 دقيقة، ثم ثلاث تفريغات كاملة منفصلة داخل JUWEI عند 5V/2A — المنفذ 1 وحده، المنفذ 2 وحده، والحمل المزدوج — بينما سجّل FNB58 الـWh التراكمي. ' +
+                'الطاقة الأساسية 61.4Wh تتوافق عبر تلك المسارات (85.3% من 72Wh) — ضمن نطاق 80–90%. ' +
                 '(G) تفاوض الذروة: المنفذ 1 داخل Galaxy A54 = 17.1 واط (9.02V/1.90A QC)؛ المنفذ 2 على حمل فئة نفس الهاتف = 11.6 واط (5.13V/2.26A) — يؤكد تصميم الشحن السريع غير المتماثل الذي أشارت إليه PCWorld / Tech Advisor (+5.5 واط / +QC 9V على المنفذ 1 فقط). ' +
                 'حمل مزدوج للمنفذين: 15.5 واط مشترك مستقر؛ المنفذ 1 انهار إلى 5V (ضاع QC/AFC). ' +
                 '(F/H) زمن إعادة الشحن 0→100% على Micro-USB QC 18 واط (~5 س 08 د) وعلى 5V/2A عادي (~10 س 35 د) — سقف Micro-USB؛ بلا USB-C دخل. ' +
                 '(I) عدد شحنات حقيقي داخل Galaxy A15 (5000mAh) على مسار المنفذ 1 — 2.78 شحنة مقاسة (A15 لا يثبت QC 9V؛ يعود إلى 5V). ' +
                 'أعداد تقديرية لـ S10/Note 9/A51/M31/S24/iPhone 15 من 61.4Wh ÷ (Wh الهاتف × ~1.10) موسومة "تقديري". ' +
                 '(A) الوزن/الأبعاد على Kkmoon 0.01g + قدمة Mitutoyo (372 ج / 170.4×62.3×22.1 ملم). ' +
-                '(L) فحص الاستدعاء anker.com/product-recalls + cpsc.gov في 2026-07-24 — A1260 **غير** مدرج (بخلاف A1263 PowerCore 10000). ' +
+                '(L) فحص الاستدعاء anker.com/product-recalls + cpsc.gov في 2026-07-24 — A1260 غير مدرج (بخلاف A1263 PowerCore 10000). ' +
                 'استرجاع مستقل (ليست بياناتنا): Charging Kick ~12,195 مللي أمبير (~61%) عند 2.4A. ' +
                 'مراسي A/B للـWh من صحائف CairoVolt منفصلة: A1263 31.2Wh · A110E 62.0Wh · A1290 80.9Wh. ' +
-                'حرارة سطح IR / Wh حمل ثابت 9V / APDO لـ PPS: ليست في هذه المرحلة — نرفض اختراع °م أو PDOs. وحدة واحدة؛ قد تختلف الدفعات.',
+                'حرارة سطح IR / Wh حمل ثابت 9V / APDO لـ PPS: ليست في هذه المرحلة، لذا لا تُنشر أرقام °م أو PDOs. وحدة واحدة؛ قد تختلف الدفعات.',
         },
         equipment: [
             {
@@ -179,7 +181,7 @@ export const anker_powercore_20000_detail: ProductDetail = {
                 param: { en: 'Rated cell capacity', ar: 'السعة الاسمية (خلايا)' },
                 rated: '20,000mAh / 72Wh',
                 measured: '—',
-                note: { en: 'Anker 3.6V nominal (20,000 × 3.6 ÷ 1000) — keep 72Wh figure consistent everywhere on this sheet', ar: 'اسمي انكر 3.6V (20,000 × 3.6 ÷ 1000) — حافظ على اتساق رقم 72Wh في كل مواضع هذه الصحيفة' },
+                note: { en: 'Anker 3.6V nominal (20,000 × 3.6 ÷ 1000)', ar: 'اسمي انكر 3.6V (20,000 × 3.6 ÷ 1000)' },
             },
             {
                 param: { en: 'Usable energy — 5V/2A (headline)', ar: 'الطاقة المُخرَجة — 5V/2A (الأساسي)' },
@@ -189,7 +191,7 @@ export const anker_powercore_20000_detail: ProductDetail = {
             {
                 param: { en: 'Conversion efficiency — 2A (ours)', ar: 'كفاءة التحويل — 2A (لنا)' },
                 measured: '85.3%',
-                note: { en: '61.4 ÷ 72 — inside §7.3 80–90% band', ar: '61.4 ÷ 72 — ضمن نطاق §7.3 80–90%' },
+                note: { en: '61.4 ÷ 72 — inside 80–90% band', ar: '61.4 ÷ 72 — ضمن نطاق 80–90%' },
             },
             {
                 param: { en: 'Wh consistency check (red-flag)', ar: 'فحص اتساق Wh (علم أحمر)' },
@@ -211,7 +213,7 @@ export const anker_powercore_20000_detail: ProductDetail = {
                 param: { en: 'Peak — Port 2 (standard USB-A)', ar: 'ذروة — المنفذ 2 (USB-A قياسي)' },
                 rated: '12W (5V/2.4A)',
                 measured: '11.6W (5.13V/2.26A)',
-                note: { en: 'PCWorld verified: does NOT fast-charge the same phone Port 1 does', ar: 'أكدت PCWorld: **لا** يشحن سريعًا نفس الهاتف الذي يشحنه المنفذ 1' },
+                note: { en: 'PCWorld verified: does NOT fast-charge the same phone Port 1 does', ar: 'أكدت PCWorld: لا يشحن سريعًا نفس الهاتف الذي يشحنه المنفذ 1' },
             },
             {
                 param: { en: 'Port 1 vs Port 2 asymmetry delta', ar: 'فرق عدم تماثل المنفذ 1 مقابل 2' },
@@ -271,7 +273,7 @@ export const anker_powercore_20000_detail: ProductDetail = {
             {
                 param: { en: 'vs A1263 usable Wh (CairoVolt)', ar: 'مقابل Wh A1263 القابلة للاستخدام (CairoVolt)' },
                 measured: { en: '61.4Wh vs A1263 31.2Wh (~2.0×)', ar: '61.4Wh مقابل A1263 31.2Wh (~2.0×)' },
-                note: { en: 'A1263 is RECALLED — A1260 is NOT; do not treat as safety twins', ar: 'A1263 **مُستدعى** — A1260 **ليس**؛ لا تعاملهما كتوءمي سلامة' },
+                note: { en: 'A1263 is RECALLED — A1260 is NOT; do not treat as safety twins', ar: 'A1263 مُستدعى — A1260 ليس؛ لا تعاملهما كتوءمي سلامة' },
             },
             {
                 param: { en: 'vs A110E usable Wh (CairoVolt)', ar: 'مقابل Wh A110E القابلة للاستخدام (CairoVolt)' },
@@ -325,7 +327,7 @@ export const anker_powercore_20000_detail: ProductDetail = {
         ],
         verdict: {
             en: 'A1260 delivered 61.4Wh usable (85.3% of 72Wh). Port 1 is real 17.1W QC for Egypt\'s older Samsung base; Port 2 is plain 11.6W and dual-load kills QC. No USB-C/PPS. NOT recalled (unlike A1263). Tied with A110E on Wh; loses to A1290 on laptop energy.',
-            ar: 'قدّم A1260 61.4Wh قابلة للاستخدام (85.3% من 72Wh). المنفذ 1 هو QC حقيقي 17.1 واط لقاعدة سامسونج المصرية الأقدم؛ المنفذ 2 عادي 11.6 واط والحمل المزدوج يقتل QC. بلا USB-C/PPS. **غير** مُستدعى (بخلاف A1263). يتعادل مع A110E في الـWh؛ ويخسر أمام A1290 في طاقة اللابتوب.',
+            ar: 'قدّم A1260 61.4Wh قابلة للاستخدام (85.3% من 72Wh). المنفذ 1 هو QC حقيقي 17.1 واط لقاعدة سامسونج المصرية الأقدم؛ المنفذ 2 عادي 11.6 واط والحمل المزدوج يقتل QC. بلا USB-C/PPS. غير مُستدعى (بخلاف A1263). يتعادل مع A110E في الـWh؛ ويخسر أمام A1290 في طاقة اللابتوب.',
         },
         pros: [
             {
@@ -380,7 +382,7 @@ export const anker_powercore_20000_detail: ProductDetail = {
             },
             {
                 en: 'Emirates/Flydubai ban in-flight USE of any power bank since 1 Oct 2025 — cabin carry OK under 100Wh, no charging onboard those carriers',
-                ar: 'الإمارات/فلاي دبي تحظران **استخدام** أي باور بانك أثناء الرحلة منذ 1 أكتوبر 2025 — حمل مقصورة تحت 100Wh مسموح، بلا شحن على متن تلك الشركات',
+                ar: 'الإمارات/فلاي دبي تحظران استخدام أي باور بانك أثناء الرحلة منذ 1 أكتوبر 2025 — حمل مقصورة تحت 100Wh مسموح، بلا شحن على متن تلك الشركات',
             },
             {
                 en: 'Single unit tested (CV-PB-A1260-001) — production batches may vary',

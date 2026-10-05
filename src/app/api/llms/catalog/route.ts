@@ -1,6 +1,7 @@
 import { staticProducts } from '@/lib/static-products';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import {
+    CATALOG_LAST_REVIEWED_AT,
     getMerchantGtin,
     getMerchantProductUrl,
     MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
@@ -20,7 +21,12 @@ function cleanMarkdown(value: string | undefined): string {
 
 export async function GET() {
     const baseUrl = 'https://cairovolt.com';
-    const updated = new Date().toISOString().split('T')[0];
+    // Two different dates, labelled as such: when THIS snapshot was rendered
+    // (it is rebuilt from the live records every revalidate window), and when
+    // the catalogue content was last reviewed by a person. One unlabelled
+    // "Updated <today>" read as a freshness claim it could not back.
+    const generated = new Date().toISOString().split('T')[0];
+    const lastReviewed = CATALOG_LAST_REVIEWED_AT.split('T')[0];
     const publishedProducts = staticProducts.filter(product =>
         product.status === 'active'
         && !MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(product.slug)
@@ -28,9 +34,9 @@ export async function GET() {
     const categories = Array.from(new Set(publishedProducts.map(product => product.categorySlug)));
 
     let markdown = '# CairoVolt Product Catalog\n\n';
-    markdown += `> Current CairoVolt catalog snapshot. Updated ${updated}.\n`;
+    markdown += `> Snapshot generated ${generated} from live product records. Catalogue last reviewed ${lastReviewed}.\n`;
     markdown += `> Product pages remain the source of truth for current price and availability.\n`;
-    markdown += `> Full lab rows: ${baseUrl}/api/lab-data/json · Accept: text/markdown on product URLs.\n\n`;
+    markdown += `> Full lab rows: ${baseUrl}/api/lab-data/json · Markdown of any product page: ${baseUrl}/api/markdown-negotiate/{path} (e.g. ${baseUrl}/api/markdown-negotiate/en/anker/power-banks/anker-737-powerbank).\n\n`;
 
     for (const category of categories) {
         markdown += `## ${category.replace(/-/g, ' ').toUpperCase()}\n\n`;

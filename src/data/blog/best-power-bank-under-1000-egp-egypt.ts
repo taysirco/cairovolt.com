@@ -4,14 +4,15 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
     slug: 'best-power-bank-under-1000-egp-egypt',
     category: 'buying-guide',
     publishDate: '2026-05-18',
-    modifiedDate: '2026-05-18',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
-        'joyroom-magnetic-power-bank-10000',
-        'joyroom-power-bank-20000',
-        'anker-zolo-a110d-10000',
-        'anker-powercore-10000',
-        'joyroom-power-bank-10000',
+      'joyroom-magnetic-power-bank-10000',
+      'joyroom-power-bank-20000',
+      'anker-zolo-a110d-10000',
+      'anker-622-maggo',
+      'anker-prime-fusion-a1339-9600mah-65w',
+      'anker-prime-a1695-25000'
     ],
     relatedArticles: [
         'best-power-bank-egypt-2026',
@@ -32,15 +33,15 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
             metaDescription: 'الخيارات الأصلية تحت 1000 جنيه في مصر محدودة جداً — موديلان فقط. تعرّف عليهما + لماذا أغلب ما تجده على OLX مقلّد وكيف تكشفه بعلامات بسيطة.',
             keywords: 'باور بانك تحت 1000 جنيه, افضل باور بانك مصر, ارخص باور بانك اصلي, جوي روم magsafe egypt, جوي روم 20000mah, باور بانك رخيص اصلي ولا تقليد, باور بانك 850 جنيه, best power bank under 1000 egp',
             excerpt: 'الخيارات الأصلية تحت 1000 جنيه في السوق المصري محدودة جداً — موديلان فقط يستحقا الشراء. تعرّف عليهما + لماذا أغلب ما تجده على OLX مقلّد.',
-            quickAnswer: 'أفضل باور بانكات أصلية تحت 1000 جنيه في مصر فيها خياران فقط جديران بالشراء: (1) جوي روم MagSafe 10,000mAh بـ 850 جنيه — مثالي لمستخدمي iPhone مع MagSafe. (2) جوي روم 20,000mAh بـ 997 جنيه — سعة مضاعفة لمن يحتاج شحن أجهزة متعددة. أي شيء أرخص من 800 جنيه في OLX = غالباً مقلّد بدون ضمان.',
+            quickAnswer: 'أفضل باور بانكات أصلية تحت 1000 جنيه في مصر فيها خياران فقط جديران بالشراء: (1) جوي روم MagSafe 10,000mAh بـ {{price:joyroom-magnetic-power-bank-10000}} جنيه — مثالي لمستخدمي iPhone مع MagSafe. (2) جوي روم 20,000mAh بـ {{price:joyroom-power-bank-20000}} جنيه — سعة مضاعفة لمن يحتاج شحن أجهزة متعددة. أي شيء أرخص من 800 جنيه في OLX = غالباً مقلّد بدون ضمان.',
             content: `<p>أرخص باور بانك تحت 1000 جنيه في مصر = أكبر منطقة خداع في سوق الملحقات. السوق المصري بيقدّم لك مئات الخيارات على فيسبوك ماركت و OLX بأسعار 300-700 جنيه، لكن أغلبها مقلّد، بدون ضمان، وممكن يحرق بطارية موبايلك خلال شهور. السؤال الحقيقي مش "إيه أرخص باور بانك؟" — السؤال الصحيح: "إيه أرخص باور بانك <strong>أصلي</strong> أقدر أعتمد عليه؟"</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
         أفضل باور بانكات أصلية تحت 1000 جنيه في مصر فيها خياران فقط جديران بالشراء:
-        (1) <strong>جوي روم MagSafe 10,000mAh</strong> بـ 850 جنيه — مثالي لمستخدمي iPhone مع MagSafe.
-        (2) <strong>جوي روم 20,000mAh PD</strong> بـ 997 جنيه — سعة مضاعفة لشحن أجهزة متعددة.
+        (1) <strong>جوي روم MagSafe 10,000mAh</strong> بـ {{price:joyroom-magnetic-power-bank-10000}} جنيه — مثالي لمستخدمي iPhone مع MagSafe.
+        (2) <strong>جوي روم 20,000mAh PD</strong> بـ {{price:joyroom-power-bank-20000}} جنيه — سعة مضاعفة لشحن أجهزة متعددة.
         أي شيء أرخص من 800 جنيه في OLX = غالباً مقلّد بدون ضمان.
     </p>
 </div>
@@ -60,11 +61,11 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 
 <h2>ليه الخيارات الأصلية تحت 1000 جنيه محدودة جداً؟</h2>
 
-<p>سؤال منطقي بيطرحه كل مشترٍ مصري: لو في باور بانكات على فيسبوك ماركت بـ 400 جنيه، ليه جوي روم الأصلي يبدأ من 850؟ الإجابة في اقتصاد بسيط بيشرح ليه الـ 400 جنيه مش حقيقية.</p>
+<p>سؤال منطقي بيطرحه كل مشترٍ مصري: لو في باور بانكات على فيسبوك ماركت بـ 400 جنيه، ليه جوي روم الأصلي يبدأ من {{price:joyroom-magnetic-power-bank-10000}} جنيه؟ الإجابة في اقتصاد بسيط بيشرح ليه الـ 400 جنيه مش حقيقية.</p>
 
-<p>باور بانك سعة 10,000mAh أصلي بيتكلّف في التصنيع 25-35 دولار (1200-1700 جنيه) — شامل خلايا Lithium-Polymer أصلية من LG أو Samsung SDI، شريحة BMS ذكية لحماية البطارية، تغليف معتمد، شهادات سلامة (FCC + CE)، وضمان 12 شهر يغطّي العطل. لو شفت السعر النهائي 400 جنيه شامل التوصيل وهامش الربح للبائع، الحساب مش بيطلع — يبقى المنتج إما <strong>مقلّد</strong> أو <strong>خلايا مستعملة</strong> من بطاريات لاب توب قديمة.</p>
+<p>باور بانك سعة 10,000mAh أصلي فيه خلايا بسعة حقيقية، وشريحة BMS لحماية البطارية، وشهادات سلامة، وبيتباع بفاتورة وضمان — وكل ده ليه تكلفة. لو شفت السعر النهائي 400 جنيه شامل التوصيل وهامش الربح للبائع، الحساب مش بيطلع — يبقى المنتج إما <strong>مقلّد</strong> أو <strong>خلايا مستعملة</strong> من بطاريات لاب توب قديمة.</p>
 
-<p>القاعدة الذهبية: <strong>كل باور بانك أصلي 10,000mAh تحت 800 جنيه في مصر = شك كبير</strong>. السعر العادل في 2026 يبدأ من 850 جنيه (للجوي روم) ويصل إلى 2,800 جنيه (لـ أنكر MagGo) — الفرق الحقيقي في القدرة والشحن اللاسلكي والضمان.</p>
+<p>القاعدة الذهبية: <strong>كل باور بانك أصلي 10,000mAh تحت 800 جنيه في مصر = شك كبير</strong>. في كايرو فولت الأسعار بتبدأ من {{price:joyroom-magnetic-power-bank-10000}} جنيه (جوي روم المغناطيسي 10000) وتوصل لـ {{price:anker-622-maggo}} جنيه (انكر 622 MagGo) — الفرق الحقيقي في القدرة والشحن اللاسلكي والضمان.</p>
 
 
 <h2>تحذير: ماذا تشتري بـ 300-600 جنيه فعلاً؟</h2>
@@ -75,7 +76,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
     <li style="margin-bottom:12px;">⚖️ <strong>الوزن أخف بنسبة 30-40%:</strong> الأصلي 10,000mAh وزنه 190-220 جرام. المقلّد يتراوح بين 110-150 جرام — لأن الخلايا فاضية جزئياً أو خلايا مستعملة بسعة فعلية أقل.</li>
     <li style="margin-bottom:12px;">🔥 <strong>سخونة 60°م+ تحت الحمل:</strong> المقلّد بدون دوائر حماية حقيقية قد يتخطى 65°م بعد 30 دقيقة فقط من الشحن، بينما الأصلي بدوائر الحماية عادة لا يتجاوز نطاق 42-45°م في نفس الظروف.</li>
     <li style="margin-bottom:12px;">📉 <strong>السعة الفعلية أقل بنسبة 40-60%:</strong> "10,000mAh" المكتوبة على المنتج المقلّد تعطي شحنة فعلية ~3,000-4,000mAh فقط — يعني أقل من نص شحنة iPhone 17 Pro Max.</li>
-    <li style="margin-bottom:12px;">🚫 <strong>لا يوجد QR Code للتحقق:</strong> جوي روم و أنكر الأصليان يأتيان بـ QR code يربط بصفحة التحقق على الموقع الرسمي. المقلّد يفتقد هذا أو يحتوي QR مزيف.</li>
+    <li style="margin-bottom:12px;">🚫 <strong>لا يوجد QR Code للتحقق:</strong> جوي روم و انكر الأصليان يأتيان بـ QR code يربط بصفحة التحقق على الموقع الرسمي. المقلّد يفتقد هذا أو يحتوي QR مزيف.</li>
     <li style="margin-bottom:12px;">⛔ <strong>صفر ضمان عملي:</strong> البائع يختفي من فيسبوك ماركت بعد البيع، أو "الضمان شفهي" بدون فاتورة معتمدة. عند العطل بعد شهرين = خسارة كاملة.</li>
 </ul>
 
@@ -84,11 +85,11 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 
 <h2>الخيار الأول: جوي روم MagSafe 10,000mAh — لمن يناسب؟</h2>
 
-<p>أرخص باور بانك أصلي بضمان في مصر بـ <strong>850 جنيه</strong> — وهو
+<p>أقل باور بانك أصلي سعراً عندنا في كايرو فولت بـ <strong>{{price:joyroom-magnetic-power-bank-10000}} جنيه</strong> — وهو
 <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">جوي روم MagSafe باور بانك 10,000mAh</a>.
-المميز فيه إنه يدعم MagSafe الأصلي لمستخدمي iPhone 12 وأحدث، يعني تشحن لاسلكي بقدرة 15W بمجرد لصقه بظهر الموبايل بدون كابلات.</p>
+المميز فيه إنه بيلزق مغناطيسياً في ظهر iPhone 12 وأحدث ويشحن لاسلكي من غير كابلات. هو متوافق مع MagSafe (Qi + مغناطيس) لكنه مش Qi2 ومش معتمد من Apple، فالشحن اللاسلكي على الايفون استقر في اختبارنا عند 7.3–7.5W.</p>
 
-<p>المواصفات الفعلية: سعة 10,000mAh، خرج لاسلكي 15W MagSafe، خرج سلكي USB-C PD بقدرة 20W، يدعم شحن iPhone 17 Pro من 0 إلى 50% في 28 دقيقة، يحتوي حامل (Kickstand) قابل للطي لمشاهدة الفيديوهات. الوزن 215 جرام — بيدخل جيب الجاكيت بسهولة.</p>
+<p>المواصفات: سعة 10,000mAh (37Wh) وقسنا منه 32.1 واط/ساعة قابلة للاستخدام، شحن لاسلكي مغناطيسي (قسناه 7.3–7.5W على الايفون)، خرج سلكي USB-C وصل في اختبارنا 19.4W، وحامل (Kickstand) قابل للطي لمشاهدة الفيديوهات. الوزن حوالي 232 جرام — بيدخل جيب الجاكيت بسهولة.</p>
 
 <p>هذا الخيار مثالي للسيناريوهات التالية:</p>
 
@@ -104,11 +105,11 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 
 <h2>الخيار الثاني: جوي روم 20,000mAh PD — السعة المضاعفة بأقل من 1000 جنيه</h2>
 
-<p>بـ <strong>997 جنيه فقط</strong> تحصل على ضعف السعة:
+<p>بـ <strong>{{price:joyroom-power-bank-20000}} جنيه</strong> تحصل على ضعف السعة:
 <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم باور بانك 20,000mAh</a>
 بقدرة 22.5W PD+QC وثلاث منافذ (USB-C + 2x USB-A) — يعني تشحن 3 أجهزة معاً.</p>
 
-<p>الأرقام الواقعية: 20,000mAh = ~13,000mAh فعلية بعد التحويل = 2.7 شحنة كاملة لـ iPhone 17 Pro Max، أو 3 شحنات لـ Samsung Galaxy A55، أو شحنة كاملة + 30% لـ Samsung S26 Ultra. الوزن 405 جرام — أثقل من الـ 10,000mAh لكن مقبول لشنطة لاب توب.</p>
+<p>الأرقام الواقعية: قسنا من جوي روم 20,000mAh حوالي 60.8 واط/ساعة قابلة للاستخدام، يعني تقديرياً حوالي 3 شحنات لموبايل بطاريته نحو 17 واط/ساعة (60.8 × 0.85 ÷ 17)، والعدد بيقل مع الموبايلات الأكبر. الوزن حوالي 418 جرام — أثقل من الـ 10,000mAh لكن مقبول لشنطة لاب توب.</p>
 
 <p>هذا الخيار مثالي للسيناريوهات التالية:</p>
 
@@ -122,18 +123,18 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 <p>الحدود: <strong>لا يدعم MagSafe ولا الشحن اللاسلكي</strong> — يجب استخدام كابل USB-C أو USB-A. ولا ينفع للاب توبات gaming اللي تحتاج 100W+.</p>
 
 
-<h2>هل تستحق إضافة 250 جنيه للترقية لـ أنكر ZOLO؟</h2>
+<h2>هل تستحق الترقية لـ انكر ZOLO؟</h2>
 
-<p>بمجرد ما تتعدى حاجز الـ 1000 جنيه، يدخل اسم <strong>أنكر</strong> اللعبة. السؤال: هل الفرق بين جوي روم بـ 997 و
-<a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو 10,000mAh بـ 1,270 جنيه</a>
-يستحق الـ 273 جنيه الإضافية؟</p>
+<p>بمجرد ما تتعدى حاجز الـ 1000 جنيه، يدخل اسم <strong>انكر</strong> اللعبة. السؤال: هل الفرق بين جوي روم 20,000mAh بـ {{price:joyroom-power-bank-20000}} جنيه و
+<a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو 10,000mAh</a> بـ {{price:anker-zolo-a110d-10000}} جنيه
+يستحق فرق السعر؟</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المعيار</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">جوي روم 20,000mAh (997ج)</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر زولو 10,000mAh (1,270ج)</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">جوي روم 20,000mAh ({{price:joyroom-power-bank-20000}}ج)</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر زولو 10,000mAh ({{price:anker-zolo-a110d-10000}}ج)</th>
         </tr>
     </thead>
     <tbody>
@@ -154,8 +155,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">الضمان</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">12 شهر</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>18 شهر</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;" colspan="2">ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">حماية ActiveShield</td>
@@ -164,13 +164,13 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">الوزن</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">405 جرام</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>225 جرام</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حوالي 418 جرام</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>حوالي 231 جرام</strong></td>
         </tr>
     </tbody>
 </table>
 
-<p>القرار الذكي: <strong>لو السعة أولوية → خد جوي روم 20,000mAh.</strong> لو الوزن الخفيف والكابل المدمج والضمان الأطول أهم → ادفع 273 جنيه إضافية لـ أنكر ZOLO. القاعدة العامة: للسفر اليومي والشنطة الخفيفة، الكابل المدمج يوفّر مساحة ووقت — وقد يستحق الفرق.</p>
+<p>القرار الذكي: <strong>لو السعة أولوية → خد جوي روم 20,000mAh.</strong> لو الوزن الخفيف والكابل المدمج أهم → ادفع فرق السعر لـ انكر ZOLO. القاعدة العامة: للسفر اليومي والشنطة الخفيفة، الكابل المدمج يوفّر مساحة ووقت — وقد يستحق الفرق.</p>
 
 
 <h2>إزاي تتأكد إن الباور بانك اللي اشتريته أصلي؟</h2>
@@ -178,7 +178,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
         <strong>⚠️ 5 علامات تكشف الأصلي قبل الفتح:</strong> الوزن (≥ 190ج لـ 10,000mAh)،
-        كود QR على الصندوق + التحقق من الموقع الرسمي، فاتورة الموزع المعتمد،
+        كود التحقق على الصندوق (لو موجود) على موقع الشركة المصنعة، فاتورة وضمان مكتوب باسم البائع وبياناته القانونية،
         لمس الجسم (الأصلي لا ينحني تحت الضغط الخفيف)، والشحن الاختباري الأول
         (المقلّد يسخن في أول 10 دقائق).
     </p>
@@ -186,7 +186,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 
 <p>كل المنتجات المذكورة في هذا المقال موجودة على
 <a href="/joyroom/power-banks" style="color:#2563eb;font-weight:600;">كايرو فولت</a>
-— متجر مستقل يوفر منتجات جوي روم الأصلية في مصر — مع <strong>ضمان كايرو فولت المكتوب 12-18 شهر + استبدال خلال 14 يوم في حالة العطل + توصيل لكل المحافظات خلال 24-72 ساعة + دفع عند الاستلام</strong>.</p>
+— متجر مستقل يوفر منتجات جوي روم الأصلية في مصر — مع <strong>ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات (عادةً من 1 لـ 6 أيام عمل حسب المحافظة) + دفع عند الاستلام</strong>.</p>
 
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
@@ -194,27 +194,27 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
         ✅ خلاصة الاختيار
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <strong>تحت 1000 جنيه:</strong> اختر جوي روم MagSafe (850ج) لو عندك iPhone، أو جوي روم 20,000mAh (997ج) لو السعة أهم.
-        <strong>فوق 1000 جنيه بقليل (1,270ج):</strong> أنكر ZOLO 10,000mAh للوزن الخفيف والكابل المدمج.
-        كلهم متاحون على كايرو فولت بضمان أصلي + توصيل سريع.
+        <strong>تحت 1000 جنيه:</strong> اختر جوي روم MagSafe ({{price:joyroom-magnetic-power-bank-10000}}ج) لو عندك iPhone، أو جوي روم 20,000mAh ({{price:joyroom-power-bank-20000}}ج) لو السعة أهم.
+        <strong>فوق 1000 جنيه بقليل ({{price:anker-zolo-a110d-10000}}ج):</strong> انكر ZOLO 10,000mAh للوزن الخفيف والكابل المدمج.
+        كلهم متاحين على كايرو فولت بضمان كايرو فولت المكتوب + توصيل لكل المحافظات.
     </p>
 </div>`,
             faq: [
                 {
-                    question: 'ليه أرخص باور بانك أصلي يبدأ من 850 جنيه ومش من 500؟',
-                    answer: 'لإن تكلفة التصنيع وحدها لباور بانك 10,000mAh أصلي بتتعدى 25 دولار (1,200 جنيه) — شامل خلايا Lithium-Polymer أصلية، شريحة BMS، شهادات سلامة، وضمان 12 شهر. الموديلات بسعر 400-500 جنيه على OLX = خلايا مستعملة أو مقلّد بسعة فعلية أقل بنسبة 40-60%.',
+                    question: 'ليه أرخص باور بانك أصلي مش بيبدأ من 500 جنيه؟',
+                    answer: 'لإن الباور بانك الأصلي فيه خلايا بسعة حقيقية وشريحة BMS وشهادات سلامة وبيتباع بفاتورة وضمان، وده ليه تكلفة. في كايرو فولت أقل باور بانك أصلي سعراً هو جوي روم المغناطيسي 10000 بـ {{price:joyroom-magnetic-power-bank-10000}} جنيه. الموديلات اللي بـ 400-500 جنيه على OLX غالباً مقلّدة أو سعتها الفعلية أقل من المكتوب.',
                 },
                 {
                     question: 'هل سعة 10,000mAh تكفي iPhone 17 Pro Max طوال اليوم؟',
-                    answer: 'نعم، تكفي لشحنة كاملة واحدة من 0 إلى 100% — بطارية iPhone 17 Pro Max 4,685mAh، والباور بانك 10,000mAh يعطي ~6,500mAh فعلية بعد كفاءة التحويل 85%. لو محتاج شحنتين كاملتين أو شحن أجهزة متعددة، الترقية لـ 20,000mAh ضرورية.',
+                    answer: 'تقريباً شحنة كاملة واحدة لموبايل كبير. قسنا من باور بانك 10,000mAh زي انكر زولو A110D حوالي 31.1 واط/ساعة فعلية، والحساب التقديري = 31.1 × 0.85 ÷ سعة بطارية موبايلك بالواط/ساعة (لبطارية 17 واط/ساعة ≈ 1.5 شحنة). لو محتاج شحنتين أو أكتر من جهاز، اختار 20,000mAh.',
                 },
                 {
                     question: 'هل جوي روم 20,000mAh ينفع لشحن MacBook Air M3؟',
-                    answer: 'بقدرة 22.5W فقط، ينفع لشحن طارئ بطيء — يرفع MacBook Air M3 من 30% إلى 70% خلال ساعة ونص تقريباً. لكنه مش مثالي للشحن السريع للاب توب. للاب توب احتاج باور بانك 65W+ زي أنكر ZOLO 45W PD (2,200 جنيه) أو أنكر 737 (4,999 جنيه بقدرة 140W).',
+                    answer: 'بقدرة 22.5W فقط، ينفع لشحن طارئ بطيء — يرفع MacBook Air M3 من 30% إلى 70% خلال ساعة ونص تقريباً. لكنه مش مثالي للشحن السريع للاب توب. مفيش باور بانك 65W أو أكتر تحت 1,000 جنيه. أقل اختيار 65W+ سعراً في كايرو فولت هو انكر Prime Fusion A1339 (65W، {{price:anker-prime-fusion-a1339-9600mah-65w}} جنيه)، أو انكر زولو A1695 بسعة 25,000mAh وقدرة 165W ({{price:anker-prime-a1695-25000}} جنيه) للابتوب.',
                 },
                 {
-                    question: 'هل MagSafe في جوي روم 850 جنيه يشتغل مع iPhone 14 و 15 و 17؟',
-                    answer: 'نعم، MagSafe في جوي روم 10,000mAh متوافق مع كل أجيال iPhone من 12 إلى 17 (بكل موديلاتها Pro و Pro Max). الشحن اللاسلكي بقدرة 15W الكاملة بدون كابل. لمستخدمي Samsung و Android، يمكن استخدامه كباور بانك سلكي عادي بمنفذ USB-C PD 20W.',
+                    question: 'هل MagSafe في جوي روم المغناطيسي 10000 يشتغل مع iPhone 14 و 15 و 17؟',
+                    answer: 'نعم، المغناطيس بيلزق في iPhone 12 وأحدث، والشحن اللاسلكي شغال من غير كابل. لكنه مش Qi2، فالشحن اللاسلكي على الايفون استقر في اختبارنا عند 7.3–7.5W مش 15W. لمستخدمي Samsung و Android، يتستخدم كباور بانك سلكي بمنفذ USB-C (قسناه لحد 19.4W).',
                 },
             ],
         },
@@ -224,15 +224,15 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
             metaDescription: 'Authentic power bank options under 1000 EGP in Egypt are very limited — only 2 models worth buying. Plus: why most OLX listings are fake and how to spot them.',
             keywords: 'power bank under 1000 egp, cheapest authentic power bank egypt, joyroom magsafe egypt, joyroom 20000mah, fake vs original power bank, best budget power bank egypt 2026, joyroom 850 egp',
             excerpt: 'Authentic options under 1000 EGP in the Egyptian market are very limited — only 2 models worth buying. Plus: why most OLX listings are counterfeit.',
-            quickAnswer: 'The best authentic power banks under 1000 EGP in Egypt come down to two trusted options: (1) Joyroom MagSafe 10,000mAh at 850 EGP — perfect for iPhone users with MagSafe support. (2) Joyroom 20,000mAh PD at 997 EGP — double the capacity for multi-device charging. Anything cheaper than 800 EGP on OLX = likely counterfeit without warranty.',
+            quickAnswer: 'The best authentic power banks under 1000 EGP in Egypt come down to two trusted options: (1) Joyroom MagSafe 10,000mAh at {{price:joyroom-magnetic-power-bank-10000}} EGP — perfect for iPhone users with MagSafe support. (2) Joyroom 20,000mAh PD at {{price:joyroom-power-bank-20000}} EGP — double the capacity for multi-device charging. Anything cheaper than 800 EGP on OLX = likely counterfeit without warranty.',
             content: `<p>The cheapest power bank under 1000 EGP in Egypt = the biggest scam zone in the accessories market. The Egyptian market offers you hundreds of options on Facebook Marketplace and OLX at 300-700 EGP prices, but most are counterfeit, without warranty, and can damage your phone battery within months. The real question isn't "what's the cheapest power bank?" — it's: "what's the cheapest <strong>authentic</strong> power bank I can rely on?"</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
         The best authentic power banks under 1000 EGP in Egypt come down to two trusted options:
-        (1) <strong>Joyroom MagSafe 10,000mAh</strong> at 850 EGP — perfect for iPhone users with MagSafe.
-        (2) <strong>Joyroom 20,000mAh PD</strong> at 997 EGP — double the capacity for multi-device charging.
+        (1) <strong>Joyroom MagSafe 10,000mAh</strong> at {{price:joyroom-magnetic-power-bank-10000}} EGP — perfect for iPhone users with MagSafe.
+        (2) <strong>Joyroom 20,000mAh PD</strong> at {{price:joyroom-power-bank-20000}} EGP — double the capacity for multi-device charging.
         Anything cheaper than 800 EGP on OLX = likely counterfeit without warranty.
     </p>
 </div>
@@ -252,11 +252,11 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 
 <h2>Why Authentic Options Under 1000 EGP Are So Limited</h2>
 
-<p>A logical question every Egyptian buyer asks: if there are power banks on Facebook Marketplace for 400 EGP, why does authentic Joyroom start from 850? The answer lies in simple economics that explains why the 400 EGP price isn't real.</p>
+<p>A logical question every Egyptian buyer asks: if there are power banks on Facebook Marketplace for 400 EGP, why does authentic Joyroom start from EGP {{price:joyroom-magnetic-power-bank-10000}}? The answer lies in simple economics that explains why the 400 EGP price isn't real.</p>
 
-<p>An authentic 10,000mAh power bank costs 25-35 USD (1,200-1,700 EGP) to manufacture — including authentic Lithium-Polymer cells from LG or Samsung SDI, smart BMS chip for battery protection, certified packaging, safety certifications (FCC + CE), and 12-month warranty covering defects. If you see a final price of 400 EGP including delivery and seller margin, the math doesn't add up — meaning the product is either <strong>counterfeit</strong> or contains <strong>used cells</strong> from old laptop batteries.</p>
+<p>An authentic 10,000mAh power bank has cells with real capacity, a BMS chip to protect the battery, safety certifications, and is sold with an invoice and a warranty — all of which cost money. If you see a final price of 400 EGP including delivery and seller margin, the math doesn't add up — meaning the product is either <strong>counterfeit</strong> or contains <strong>used cells</strong> from old laptop batteries.</p>
 
-<p>The golden rule: <strong>any authentic 10,000mAh power bank under 800 EGP in Egypt = highly suspicious</strong>. The fair price in 2026 starts at 850 EGP (for Joyroom) and reaches 2,800 EGP (for Anker MagGo) — the real difference being capacity, wireless charging, and warranty length.</p>
+<p>The golden rule: <strong>any authentic 10,000mAh power bank under 800 EGP in Egypt = highly suspicious</strong>. At CairoVolt prices start at {{price:joyroom-magnetic-power-bank-10000}} EGP (Joyroom Magnetic 10000) and reach {{price:anker-622-maggo}} EGP (Anker 622 MagGo) — the real difference being capacity, wireless charging, and warranty length.</p>
 
 
 <h2>Warning: What You're Actually Buying at 300-600 EGP</h2>
@@ -276,11 +276,11 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 
 <h2>Option 1: Joyroom MagSafe 10,000mAh — Who Is It For?</h2>
 
-<p>The cheapest authentic power bank with warranty in Egypt at <strong>850 EGP</strong> — it's the
+<p>The lowest-priced authentic power bank at CairoVolt, at <strong>{{price:joyroom-magnetic-power-bank-10000}} EGP</strong> — it's the
 <a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom MagSafe Power Bank 10,000mAh</a>.
-What makes it special is supporting genuine MagSafe for iPhone 12 and later users, meaning wireless charging at 15W just by sticking it to your phone's back without cables.</p>
+What makes it special is that it snaps magnetically onto the back of an iPhone 12 or later and charges wirelessly without cables. It is MagSafe-compatible (Qi + magnets) but not Qi2 and not Apple-certified, so wireless charging on iPhone settled at 7.3–7.5W in our test.</p>
 
-<p>Actual specifications: 10,000mAh capacity, 15W MagSafe wireless output, 20W USB-C PD wired output, charges iPhone 17 Pro from 0 to 50% in 28 minutes, includes foldable kickstand for video watching. Weight 215g — fits jacket pocket easily.</p>
+<p>Specifications: 10,000mAh capacity (37Wh) with 32.1 Wh usable in our measurement, magnetic wireless charging (measured 7.3–7.5W on iPhone), wired USB-C output that reached 19.4W in our test, and a foldable kickstand for video watching. Weight about 232g — fits a jacket pocket easily.</p>
 
 <p>This option is ideal for these scenarios:</p>
 
@@ -296,11 +296,11 @@ What makes it special is supporting genuine MagSafe for iPhone 12 and later user
 
 <h2>Option 2: Joyroom 20,000mAh PD — Double Capacity Under 1000 EGP</h2>
 
-<p>At just <strong>997 EGP</strong> you get double the capacity:
+<p>At <strong>EGP {{price:joyroom-power-bank-20000}}</strong> you get double the capacity:
 <a href="/en/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20,000mAh Power Bank</a>
 with 22.5W PD+QC output and three ports (USB-C + 2x USB-A) — meaning you charge 3 devices simultaneously.</p>
 
-<p>Real numbers: 20,000mAh = ~13,000mAh actual after conversion = 2.7 full charges for iPhone 17 Pro Max, or 3 charges for Samsung Galaxy A55, or full charge + 30% for Samsung S26 Ultra. Weight 405g — heavier than 10,000mAh but acceptable for laptop bag.</p>
+<p>Real numbers: we measured about 60.8 Wh usable from the Joyroom 20,000mAh, an estimated 3 charges of a phone with a ~17 Wh battery (60.8 × 0.85 ÷ 17), fewer for larger phones. Weight about 418g — heavier than 10,000mAh but acceptable for laptop bag.</p>
 
 <p>This option is ideal for these scenarios:</p>
 
@@ -314,18 +314,18 @@ with 22.5W PD+QC output and three ports (USB-C + 2x USB-A) — meaning you charg
 <p>Limits: <strong>doesn't support MagSafe or wireless charging</strong> — must use USB-C or USB-A cable. And not suitable for gaming laptops needing 100W+.</p>
 
 
-<h2>Is It Worth Adding 250 EGP to Upgrade to Anker ZOLO?</h2>
+<h2>Is It Worth Upgrading to Anker ZOLO?</h2>
 
-<p>Once you cross the 1000 EGP barrier, <strong>Anker</strong> enters the game. The question: is the difference between Joyroom at 997 and
-<a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO 10,000mAh at 1,270 EGP</a>
-worth the extra 273 EGP?</p>
+<p>Once you cross the 1000 EGP barrier, <strong>Anker</strong> enters the game. The question: is the step from the Joyroom 20,000mAh at EGP {{price:joyroom-power-bank-20000}} to the
+<a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO 10,000mAh</a> at EGP {{price:anker-zolo-a110d-10000}}
+worth the price difference?</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Criterion</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Joyroom 20,000mAh (997 EGP)</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Anker ZOLO 10,000mAh (1,270 EGP)</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Joyroom 20,000mAh (EGP {{price:joyroom-power-bank-20000}})</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Anker ZOLO 10,000mAh (EGP {{price:anker-zolo-a110d-10000}})</th>
         </tr>
     </thead>
     <tbody>
@@ -346,8 +346,7 @@ worth the extra 273 EGP?</p>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Warranty</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">12 months</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>18 months</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;" colspan="2">CairoVolt's written store warranty (duration shown on each product page)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">ActiveShield Protection</td>
@@ -356,13 +355,13 @@ worth the extra 273 EGP?</p>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Weight</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">405g</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>225g</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">about 418g</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>about 231g</strong></td>
         </tr>
     </tbody>
 </table>
 
-<p>The smart decision: <strong>if capacity is priority → take Joyroom 20,000mAh.</strong> If lightweight, built-in cable, and longer warranty matter more → pay 273 EGP extra for Anker ZOLO. General rule: for daily commute and light bag, built-in cable saves space and time — and may be worth the difference.</p>
+<p>The smart decision: <strong>if capacity is priority → take Joyroom 20,000mAh.</strong> If light weight and a built-in cable matter more → pay the price difference for Anker ZOLO. General rule: for daily commute and light bag, built-in cable saves space and time — and may be worth the difference.</p>
 
 
 <h2>How to Verify Your Power Bank Is Authentic</h2>
@@ -370,7 +369,7 @@ worth the extra 273 EGP?</p>
 <div class="quick-answer-inline" style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
         <strong>⚠️ 5 signs that reveal authentic before opening:</strong> weight (≥ 190g for 10,000mAh),
-        QR code on box + verification on official site, certified distributor invoice,
+        verification code on the box (if present) checked on the manufacturer's site, an invoice and written warranty naming the seller's legal identity,
         body feel (authentic doesn't bend under light pressure), and first charging test
         (counterfeit heats up in first 10 minutes).
     </p>
@@ -378,7 +377,7 @@ worth the extra 273 EGP?</p>
 
 <p>All products mentioned in this article are available at
 <a href="/en/joyroom/power-banks" style="color:#2563eb;font-weight:600;">CairoVolt</a>
-— an independent store offering genuine Joyroom products in Egypt — with <strong>CairoVolt's written 12-18 month store warranty + replacement within 14 days on defect + delivery to all governorates within 24-72 hours + cash on delivery</strong>.</p>
+— an independent store offering genuine Joyroom products in Egypt — with <strong>CairoVolt's written store warranty (duration shown on each product page) + delivery to all governorates (commonly 1–6 business days depending on governorate) + cash on delivery</strong>.</p>
 
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
@@ -386,27 +385,27 @@ worth the extra 273 EGP?</p>
         ✅ Final Recommendation
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <strong>Under 1000 EGP:</strong> Choose Joyroom MagSafe (850 EGP) if you have iPhone, or Joyroom 20,000mAh (997 EGP) if capacity matters more.
-        <strong>Just over 1000 EGP (1,270 EGP):</strong> Anker ZOLO 10,000mAh for lightweight + built-in cable.
-        All available at CairoVolt with authentic warranty + fast delivery.
+        <strong>Under 1000 EGP:</strong> Choose Joyroom MagSafe ({{price:joyroom-magnetic-power-bank-10000}} EGP) if you have iPhone, or Joyroom 20,000mAh ({{price:joyroom-power-bank-20000}} EGP) if capacity matters more.
+        <strong>Just over 1000 EGP ({{price:anker-zolo-a110d-10000}} EGP):</strong> Anker ZOLO 10,000mAh for lightweight + built-in cable.
+        All available at CairoVolt with CairoVolt's written store warranty + delivery to all governorates.
     </p>
 </div>`,
             faq: [
                 {
-                    question: 'Why does the cheapest authentic power bank start at 850 EGP and not 500?',
-                    answer: 'Because manufacturing cost alone for an authentic 10,000mAh power bank exceeds 25 USD (1,200 EGP) — including authentic Lithium-Polymer cells, BMS chip, safety certifications, and 12-month warranty. Models priced 400-500 EGP on OLX = used cells or counterfeit with actual capacity 40-60% less.',
+                    question: 'Why doesn\'t the cheapest authentic power bank start at 500 EGP?',
+                    answer: 'Because an authentic power bank has cells with real capacity, a BMS chip, safety certifications and is sold with an invoice and a warranty, and that costs money. At CairoVolt the lowest-priced authentic power bank is the Joyroom Magnetic 10000 at {{price:joyroom-magnetic-power-bank-10000}} EGP. Models priced 400-500 EGP on OLX are often counterfeit or deliver less capacity than printed.',
                 },
                 {
                     question: 'Is 10,000mAh capacity enough for iPhone 17 Pro Max all day?',
-                    answer: 'Yes, enough for one full charge from 0 to 100% — iPhone 17 Pro Max battery is 4,685mAh, and 10,000mAh power bank delivers ~6,500mAh actual after 85% conversion efficiency. If you need two full charges or charging multiple devices, upgrading to 20,000mAh is essential.',
+                    answer: 'Roughly one full charge for a large phone. We measured about 31.1 Wh usable from a 10,000mAh bank such as the Anker Zolo A110D, and the estimate is 31.1 × 0.85 ÷ your phone battery in Wh (for a 17 Wh battery ≈ 1.5 charges). If you need two charges or several devices, choose 20,000mAh.',
                 },
                 {
                     question: 'Can Joyroom 20,000mAh charge a MacBook Air M3?',
-                    answer: 'At 22.5W only, it works for slow emergency charging — raises MacBook Air M3 from 30% to 70% in about 1.5 hours. But not ideal for fast laptop charging. For laptops you need a 65W+ power bank like Anker ZOLO 45W PD (2,200 EGP) or Anker 737 (4,999 EGP at 140W).',
+                    answer: 'At 22.5W only, it works for slow emergency charging — raises MacBook Air M3 from 30% to 70% in about 1.5 hours. But not ideal for fast laptop charging. No 65W+ power bank is available under 1,000 EGP; the lowest-priced 65W+ option at CairoVolt is Prime Fusion A1339 (65W, {{price:anker-prime-fusion-a1339-9600mah-65w}} EGP), or Zolo A1695 25,000mAh 165W ({{price:anker-prime-a1695-25000}} EGP) for laptops.',
                 },
                 {
-                    question: 'Does MagSafe in Joyroom 850 EGP work with iPhone 14, 15, and 17?',
-                    answer: 'Yes, MagSafe in Joyroom 10,000mAh is compatible with all iPhone generations from 12 to 17 (all Pro and Pro Max models). Full 15W wireless charging without cable. For Samsung and Android users, it can be used as a regular wired power bank with USB-C PD 20W port.',
+                    question: 'Does MagSafe on the Joyroom Magnetic 10000 work with iPhone 14, 15, and 17?',
+                    answer: 'Yes, the magnets attach to iPhone 12 and later and wireless charging works without a cable. But it is not Qi2, so wireless charging on iPhone settled at 7.3–7.5W in our test, not 15W. Samsung and Android users can use it as a wired power bank through its USB-C port (measured up to 19.4W).',
                 },
             ],
         }

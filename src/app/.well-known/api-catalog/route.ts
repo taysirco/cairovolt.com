@@ -40,6 +40,20 @@ export function GET() {
                     { href: `${BASE_URL}/api/llms/catalog` },
                     { href: `${BASE_URL}/api/lab-data/json` },
                     { href: `${BASE_URL}/api/lab-data/csv` },
+                    // Guides RSS (WebSub-pinged on reveal) — Arabic default, English via ?locale=en.
+                    // RFC 9264 §4.2.4: `type`/`title` are strings, `hreflang` is an array.
+                    {
+                        href: `${BASE_URL}/api/discover-feed`,
+                        type: 'application/rss+xml',
+                        hreflang: ['ar'],
+                        title: 'كايرو فولت — أحدث الأدلة',
+                    },
+                    {
+                        href: `${BASE_URL}/api/discover-feed?locale=en`,
+                        type: 'application/rss+xml',
+                        hreflang: ['en'],
+                        title: 'CairoVolt — Latest guides',
+                    },
                 ],
                 'service-desc': [
                     {

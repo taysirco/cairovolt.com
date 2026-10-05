@@ -30,7 +30,7 @@ export const joyroom_30w_pd_cable = {
                     { question: "What's the difference from a 60W cable?", answer: "The ratings are different ceilings under compatible conditions. Choose a cable rating at least as high as the USB-PD profile shared by the charger and device; a higher rating does not force extra power." },
                     { question: "Does it fast-charge a USB-C iPhone?", answer: "It can carry a supported USB-PD profile up to its listed rating when the charger, iPhone model and cable all match. Charging time varies with battery level, temperature, use and the exact device." },
                     { question: "How should I use the cable for longer charging sessions?", answer: "Use a compatible, undamaged charger and device, keep connectors ventilated and follow their manufacturers' guidance. Stop use if the cable or connector is damaged or unusually hot." },
-                    { question: "Can I use this cable for data transfer?", answer: "Confirm the data standard printed for the exact variant. A USB 2.0 rating is a theoretical link ceiling and actual transfer speed depends on both devices, storage and file workload; do not assume video output." },
+                    { question: "Can I use this cable for data transfer?", answer: "Yes, at USB 2.0 (480Mbps) for charge and sync. That is a theoretical link ceiling — actual speed depends on both devices, storage and file workload — and there is no DisplayPort/Alt-mode video output." },
                     { question: "How can I reduce fraying over time?", answer: "The reinforced connector ends are designed to reduce wear. Actual lifespan depends on use; unplug by the connector and avoid tight bends or pulling the wire." }
                 ]
             },
@@ -45,7 +45,7 @@ export const joyroom_30w_pd_cable = {
                     { question: "ما الفرق عن كابل 60 واط؟", answer: "التصنيفان حدان مختلفان تحت ظروف متوافقة. اختر تصنيفًا لا يقل عن ملف USB-PD المشترك بين الشاحن والجهاز؛ التصنيف الأعلى لا يجبر الجهاز على سحب قدرة إضافية." },
                     { question: "بيشحن ايفون USB-C سريع؟", answer: "يمكنه نقل ملف USB-PD مدعوم داخل تصنيفه عندما يتوافق الشاحن وموديل ايفون والكابل. يختلف الزمن حسب نسبة البطارية والحرارة والاستخدام والجهاز المحدد." },
                     { question: "إزاي أستخدم الكابل في جلسات الشحن الطويلة؟", answer: "استخدم شاحناً وجهازاً متوافقين وسليمين واترك تهوية للموصلات واتبع تعليمات الشركات المصنّعة. توقف عن الاستخدام عند تلف الكابل أو حدوث سخونة غير معتادة." },
-                    { question: "الكابل ده بينقل بيانات؟", answer: "تأكد من معيار البيانات المطبوع للنسخة المحددة. تصنيف USB 2.0 حد نظري للوصلة، بينما تتأثر السرعة بالجهازين والتخزين والملفات؛ لا تفترض دعم الفيديو." },
+                    { question: "الكابل ده بينقل بيانات؟", answer: "نعم، بسرعة USB 2.0 (480 ميغابت/ث) للشحن والمزامنة. هذا حد نظري للوصلة وتتأثر السرعة الفعلية بالجهازين والتخزين والملفات، ولا يدعم إخراج الفيديو عبر DisplayPort/Alt-mode." },
                     { question: "إزاي أحافظ على الكابل؟", answer: "افصل من جسم الموصل وتجنب اللف والشد والثني الحاد وحافظ على جفاف الأطراف. يختلف العمر حسب الاستخدام، وتوقف عند تلف الغلاف أو الموصل أو ظهور سخونة غير معتادة." }
                 ]
             }

@@ -4,7 +4,7 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
     slug: 'surge-protector-voltage-spike-egypt-electrical',
     category: 'tips',
     publishDate: '2026-06-24',
-    modifiedDate: '2026-06-24',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
       'anker-a2147-gan-charger-30w',
@@ -110,7 +110,7 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
 
 <p><strong>مش محتاجة واقي فولتية:</strong></p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:8px;">🔌 المروحة والسخان والمكواة — أجهزة كهربائية بسيطة (مقاومات وموتورات) مش بتتأثر بالذبذبات الصغيرة.</li>
+    <li style="margin-bottom:8px;">🔌 المروحة والسخان والمكواة — أجهزة كهربائية بسيطة (مقاومات وموتورات) مش بتتأثر بالذبذبات الصغيرة. (ولو بتفكر في <a href="/blog/gas-water-heater-power-charger-adapter-safety" style="color:#2563eb;font-weight:600;">بديل حجارة السخان بمحول</a>، اقرأ اعتبارات الأمان الأول.)</li>
     <li style="margin-bottom:8px;">🔌 الغسالة والثلاجة — عندها compressor محمي ذاتياً غالباً (بس لو الكهرباء عندك مش مستقرة أبداً — ممكن تحتاج voltage stabilizer منفصل).</li>
 </ul>
 
@@ -136,10 +136,10 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> فيها حماية داخلية متعددة الطبقات (حماية من ارتفاع الجهد + ارتفاع الحرارة + التيار الزيادة). وصّلها بواقي فولتية كويس — وأجهزتك في أمان تام. ضمان 18 شهر + توصيل لكل المحافظات.
+        <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> فيها حماية داخلية متعددة الطبقات (حماية من ارتفاع الجهد + ارتفاع الحرارة + التيار الزيادة). وصّلها بواقي فولتية كويس عشان تقلل خطر الارتفاعات المفاجئة في الجهد. ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات.
     </p>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل Anker PowerLine USB-C</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن سيارة Anker 30W</a> · <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل Anker PowerLine USB-C</a>.</p></div>
 `,
             faq: [
                 {
@@ -248,7 +248,7 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
 
 <p><strong>Don't need a surge protector:</strong></p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:8px;">🔌 Fans, heaters, and irons — simple electrical devices (resistors and motors) aren't affected by small fluctuations.</li>
+    <li style="margin-bottom:8px;">🔌 Fans, heaters, and irons — simple electrical devices (resistors and motors) aren't affected by small fluctuations. (If you are considering a <a href="/en/blog/gas-water-heater-power-charger-adapter-safety" style="color:#2563eb;font-weight:600;">gas water-heater adapter</a> instead of batteries, read the safety notes first.)</li>
     <li style="margin-bottom:8px;">🔌 Washing machines and refrigerators — have self-protected compressors usually (but if your electricity is very unstable — you might need a separate voltage stabilizer).</li>
 </ul>
 
@@ -268,10 +268,10 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> feature multi-layer internal protection (over-voltage + over-temperature + over-current). Connect them to a quality surge protector — and your devices are fully safe. 18-month warranty + delivery to all governorates.
+        <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> feature multi-layer internal protection (over-voltage + over-temperature + over-current). Connect them to a quality surge protector to reduce the risk from sudden voltage spikes. CairoVolt's written store warranty (duration shown on each product page) + delivery to all governorates.
     </p>
 </div>
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C Cable</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Car Charger</a> · <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C Cable</a>.</p></div>
 `,
             faq: [
                 {

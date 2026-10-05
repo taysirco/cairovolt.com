@@ -49,18 +49,18 @@ export const anker_power_banks_content: CategoryContent = {
                 ],
                 faq: {
                     ar: [
-                        { question: 'ما الفرق بين باور بانك انكر 10000 و 20000 مللي أمبير؟', answer: '10,000 مللي أمبير للجيب واليوم العادي، و20,000 للسفر والرحلات الطويلة أو لشحن أكثر من جهاز. الطاقة القابلة للاستخدام أقل من السعة المعلنة بعد فقد التحويل — الرقم المقاس لكل موديل على صفحته.' },
+                        { question: 'ما الفرق بين باور بانك انكر 10000 و 20000 مللي أمبير؟', answer: '10,000 مللي أمبير للجيب واليوم العادي، و20,000 للسفر والرحلات الطويلة أو لشحن أكثر من جهاز. الطاقة القابلة للاستخدام أقل من السعة المعلنة بعد فقد التحويل: صفحات موديلات انكر التي اختبرناها (12 من 14) تعرض الـWh القابلة للاستخدام التي قِسناها، والباقي يعرض الـWh المعلنة من الشركة.' },
                         { question: 'هل باور بانك انكر Prime يشحن لابتوب MacBook؟', answer: 'يمكن للموديل الذي يوفر خرج USB-C PD مناسباً شحن MacBook متوافق. راجع قدرة اللابتوب وتوزيع الطاقة عند توصيل عدة أجهزة وتصنيف الكابل في صفحة الموديل.' },
                         { question: 'أيهما أفضل باور بانك انكر أم شاومي (Xiaomi)؟', answer: 'لا توجد نتيجة واحدة لكل الموديلات. قارن السعة بوحدة Wh، خرج USB-C، توزيع القدرة، الوزن، خصائص الحماية، وضمان كل منتج. اختر الموديل الذي يطابق جهازك واحتياجك بدلاً من المقارنة بالعلامة وحدها.' },
-                        { question: 'كم مرة يشحن باور بانك انكر iPhone 17 Pro؟', answer: 'كقاعدة تقريبية: كل 5,000 مللي أمبير ≈ شحنة كاملة بعد فقد التحويل. العدد الفعلي يختلف حسب الموديل والكابل والحرارة — صفحة كل منتج تعرض الطاقة القابلة للاستخدام بالـWh التي قِسناها.' },
-                        { question: 'هل باور بانك انكر مسموح على الطائرة؟', answer: 'راجع قيمة Wh المطبوعة على الموديل وقواعد شركة الطيران والبلد قبل السفر؛ تختلف الموافقة وطريقة الحمل حسب الرحلة. لا تعتمد على mAh أو اسم الموديل وحدهما.' }
+                        { question: 'كم مرة يشحن باور بانك انكر iPhone 17 Pro؟', answer: 'تقدير (est.): الـWh القابلة للاستخدام × ~0.85 ÷ سعة بطارية الهاتف بالـWh. مثال من مختبرنا: [انكر PowerCore 20000](/anker/power-banks/anker-powercore-20000) مطبوع عليه 72Wh وقِسنا منه 61.4Wh قابلة للاستخدام. العدد الفعلي يختلف حسب الموديل والكابل والحرارة.' },
+                        { question: 'هل باور بانك انكر مسموح على الطائرة؟', answer: 'راجع قيمة Wh المطبوعة على الموديل وقواعد شركة الطيران والبلد قبل السفر؛ تختلف الموافقة وطريقة الحمل حسب الرحلة. لا تعتمد على mAh أو اسم الموديل وحدهما. في حقيبة اليد فقط: حتى 100Wh مسموح عادةً بدون موافقة، ومن 100 إلى 160Wh يحتاج موافقة شركة الطيران، وأكثر من 160Wh غير مسموح في أمتعة الركاب (IATA/FAA). راجع قيمة Wh المطبوعة على الوحدة. التفاصيل: [قواعد الباور بانك في الطيران](/blog/power-bank-airplane-rules-egypt-2026) · [حل السفر بالباور بانك](/solutions/power-bank-airline-rules-egypt-travel).' }
                     ],
                     en: [
-                        { question: 'What is the difference between Anker 10000mAh and 20000mAh power bank?', answer: '10,000mAh suits pocket carry and light daily use; 20,000mAh suits travel and charging more than one device. Usable energy is lower than the rated capacity after conversion loss — each product page lists the figure we measured for that unit.' },
+                        { question: 'What is the difference between Anker 10000mAh and 20000mAh power bank?', answer: '10,000mAh suits pocket carry and light daily use; 20,000mAh suits travel and charging more than one device. Usable energy is lower than the rated capacity after conversion loss: product pages for our bench-tested Anker models (12 of 14) list the usable Wh we measured; the others show the manufacturer-rated Wh.' },
                         { question: 'Can Anker Prime power bank charge a MacBook laptop?', answer: 'A model with sufficient USB-C PD output can charge a compatible MacBook. Check the laptop requirement, multi-device power distribution, and cable rating on the exact product page.' },
                         { question: 'Which is better: Anker or Xiaomi power bank?', answer: 'There is no single result across every model. Compare Wh capacity, USB-C output, power distribution, weight, listed protections, and each product warranty, then choose for your device and use case.' },
-                        { question: 'How many times can an Anker power bank charge iPhone 17 Pro?', answer: 'As a rough rule, every 5,000mAh ≈ one full charge after conversion loss. The real count varies by model, cable and heat — each product page shows the usable Wh we measured for that unit.' },
-                        { question: 'Are Anker power banks allowed on flights?', answer: 'Check the Wh value printed on the model and the current rules of your airline, route, and country. Approval and carry-on requirements vary, so do not rely on mAh or the product name alone.' }
+                        { question: 'How many times can an Anker power bank charge iPhone 17 Pro?', answer: 'Estimate (est.): usable Wh × ~0.85 ÷ the phone battery Wh. Example from our lab: the [Anker PowerCore 20000](/en/anker/power-banks/anker-powercore-20000) is rated 72Wh and we measured 61.4Wh usable. The real count varies by model, cable, and heat.' },
+                        { question: 'Are Anker power banks allowed on flights?', answer: 'Check the Wh value printed on the model and the current rules of your airline, route, and country. Approval and carry-on requirements vary, so do not rely on mAh or the product name alone. Carry-on only: ≤100Wh is generally allowed without approval, 100–160Wh needs airline approval, and over 160Wh is not allowed in passenger baggage (IATA/FAA). Check the Wh printed on the unit. Details: [power bank airline rules](/en/blog/power-bank-airplane-rules-egypt-2026) · [flying with a power bank](/en/solutions/power-bank-airline-rules-egypt-travel).' }
                     ]
                 }
             },
@@ -99,7 +99,7 @@ export const anker_power_banks_content: CategoryContent = {
                             content: `
 - **10,000 مللي أمبير:** مناسب غالباً للاستخدام اليومي، مع اختلاف عدد الشحنات حسب الهاتف وكفاءة التحويل. راجع وزن كل موديل في صفحة المنتج.
 - **20,000 مللي أمبير:** مناسب للسفر والاستخدام الطويل. تحقق من قيمة Wh وقواعد شركة الطيران قبل السفر.
-- **27,650 مللي أمبير (Prime):** مناسب للأجهزة التي تحتاج خرجاً مرتفعاً مثل بعض اللابتوبات، مع دعم شحن عدة أجهزة حسب توزيع الطاقة المعلن.
+- **20,000–25,000 مللي أمبير بخرج مرتفع:** مناسب للأجهزة التي تحتاج خرجاً مرتفعاً مثل بعض اللابتوبات — مثل [انكر برايم 20,000 مللي أمبير (A1336)](/anker/power-banks/anker-prime-a1336-20000mah-power-bank) بخرج إجمالي معلن 200 واط و[انكر 25,000 مللي أمبير 165 واط (A1695)](/anker/power-banks/anker-prime-a1695-25000)، مع شحن عدة أجهزة حسب توزيع الطاقة المعلن.
 `
                         },
                         {
@@ -120,18 +120,6 @@ export const anker_power_banks_content: CategoryContent = {
 `
                         }
                     ],
-                    products: [
-                        { name: 'باور بانك انكر ووكونج 3 في 1 (A1637)', price: 2999, badge: '🆕 3 في 1' },
-                        { name: 'باور بانك انكر برايم 20000 (200W)', price: 5900, badge: '🆕 200W' },
-                        { name: 'باور بانك انكر برايم فيوجن 65W', price: 3200, badge: '🆕 Hybrid' },
-                        { name: 'Anker PowerCore 20000mAh (iPhone 17 Ready)', price: 1550, badge: 'سعة 20,000mAh' },
-                        { name: 'Anker Nano 10000mAh', price: 1300, badge: 'حجم صغير' },
-                        { name: 'Anker PowerCore 26800mAh', price: 2300, badge: 'سعة عملاقة' },
-                        { name: 'باور بانك انكر زولو 20,000 بكابل مدمج (A110E)', price: 1730, badge: 'كابل مدمج' },
-                        { name: 'باور بانك انكر نانو 10,000 بكابل قابل للسحب (A1638)', price: 2300, badge: '45 واط · كابل مدمج' },
-                        { name: 'باور بانك انكر زولو 10,000 بكابل مدمج (A110D)', price: 1270, badge: 'خفيف للجيب' },
-                        { name: 'Anker 737 Power Bank', price: 4999, badge: 'Premium' },
-                    ]
                 },
                 en: {
                     title: 'Anker Power Banks in Egypt by Capacity and Output',
@@ -155,7 +143,7 @@ export const anker_power_banks_content: CategoryContent = {
                             content: `
 - **10,000mAh:** A practical daily-use size; actual charge count varies by phone and conversion efficiency. Check each model's listed weight.
 - **20,000mAh:** Suitable for travel and extended use. Confirm the Wh rating and your airline's rules before flying.
-- **27,650mAh (Prime):** Suited to higher-output devices such as compatible laptops, with multi-device charging based on the model's stated power distribution.
+- **20,000–25,000mAh high-output:** Suited to higher-output devices such as compatible laptops — for example the [Anker Prime 20,000mAh (A1336)](/en/anker/power-banks/anker-prime-a1336-20000mah-power-bank) with a listed 200W total output and the [Anker 25,000mAh 165W (A1695)](/en/anker/power-banks/anker-prime-a1695-25000), with multi-device charging based on each model's stated power distribution.
 `
                         },
                         {
@@ -177,18 +165,6 @@ export const anker_power_banks_content: CategoryContent = {
 `
                         }
                     ],
-                    products: [
-                        { name: 'Anker Wukong 3-in-1 Power Bank (A1637)', price: 2999, badge: '🆕 3-in-1' },
-                        { name: 'Anker Prime 20K 200W Power Bank', price: 5900, badge: '🆕 200W' },
-                        { name: 'Anker Prime Fusion 65W Power Bank', price: 3200, badge: '🆕 Hybrid' },
-                        { name: 'Anker PowerCore 20000mAh (iPhone 17)', price: 1550, badge: '20,000mAh' },
-                        { name: 'Anker Nano 10000mAh', price: 1300, badge: 'Compact' },
-                        { name: 'Anker PowerCore 26800mAh', price: 2300, badge: 'Huge Capacity' },
-                        { name: 'Anker Zolo 20,000 Built-in Cable (A110E)', price: 1730, badge: 'Built-in Cable' },
-                        { name: 'Anker Nano 10,000 Retractable Cable (A1638)', price: 2300, badge: '45W · built-in cable' },
-                        { name: 'Anker Zolo 10,000 Built-in Cable (A110D)', price: 1270, badge: 'Pocket-size' },
-                        { name: 'Anker 737 Power Bank', price: 4999, badge: 'Flagship' },
-                    ]
                 }
             }
         };

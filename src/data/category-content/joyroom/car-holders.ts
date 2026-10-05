@@ -98,10 +98,6 @@ export const joyroom_car_holders_content: CategoryContent = {
                             answer: 'يعتمد ذلك على شكل فتحة التكييف وحجم الهاتف. اختر مشبكاً مناسباً واضبط موضع الحامل بحيث لا يعوق تدفق الهواء أو أدوات التحكم.'
                         }
                     ],
-                    products: [
-                        { name: 'جوي روم Dashboard 360 (لاصق)', price: 169, badge: 'تثبيت على التابلوه' },
-                        { name: 'جوي روم JR-ZS290 MagSafe (مغناطيسي)', price: 934, badge: 'MagSafe ايفون' }
-                    ]
                 },
                 en: {
                     title: 'Joyroom Car Phone Holders by Mounting Type',
@@ -184,10 +180,6 @@ MagSafe-compatible mounts are designed for specified devices and cases, but a me
                             answer: 'That depends on vent shape and phone size. Choose a suitable clip and adjust the mount so it does not block airflow or controls.'
                         }
                     ],
-                    products: [
-                        { name: 'Joyroom Dashboard 360 (Adhesive)', price: 169, badge: 'Dashboard Mount' },
-                        { name: 'Joyroom JR-ZS290 MagSafe (Magnetic)', price: 934, badge: 'MagSafe iPhone' }
-                    ]
                 }
             }
         };

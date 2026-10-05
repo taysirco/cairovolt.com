@@ -4,7 +4,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
     slug: 'soundcore-liberty-air-2-factory-reset-connection-fix',
     category: 'how-to',
     publishDate: '2026-07-29T11:48:00+03:00',
-    modifiedDate: '2026-07-29T11:48:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
         'soundcore-liberty-air-2-pro',
@@ -217,7 +217,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 
 <div style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:15px;line-height:1.7;color:#991b1b;">
-        <strong>قبل ما تيجي لكايرو فولت:</strong> لو السماعة لسه في فترة الضمان وعندك إيصال الشراء، روح لنا مباشرة ولا تحاول تفكها أو تصلحها في أي محل تاني — ده بيلغي الضمان فوراً. كايرو فولت موزع معتمد Anker في مصر والضمان بيتنفّذ عندنا بشكل رسمي.
+        <strong>قبل ما تيجي لكايرو فولت:</strong> لو السماعة لسه في فترة الضمان وعندك إيصال الشراء، روح لنا مباشرة ولا تحاول تفكها أو تصلحها في أي محل تاني — فتح السماعة أو إصلاحها برّه بيلغي ضمان كايرو فولت المكتوب. كايرو فولت متجر مستقل، وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) بيتنفّذ عندنا مباشرة.
     </p>
 </div>
 <p>للتواصل مع فريق الدعم الفني في كايرو فولت، زور موقعنا أو تواصل معنا عبر وسائل التواصل. بنردّ على كل الاستفسارات في أسرع وقت.</p>` ,
@@ -429,10 +429,10 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 
 <div style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:15px;line-height:1.7;color:#991b1b;">
-        <strong>Before bringing earbuds in for service:</strong> If your earbuds are within the warranty period and you have your purchase receipt, contact CairoVolt first and do not attempt to open or repair the earbuds elsewhere. Third-party repairs void the Anker warranty. CairoVolt is the authorized Anker distributor in Egypt and handles all official warranty claims.
+        <strong>Before bringing earbuds in for service:</strong> If your earbuds are within the warranty period and you have your purchase receipt, contact CairoVolt first and do not attempt to open or repair the earbuds elsewhere. Opening or repairing the earbuds elsewhere voids CairoVolt's written store warranty. CairoVolt is an independent store, and its written warranty (duration shown on each product page) is handled by us directly.
     </p>
 </div>
-<p>The <a href="/en/blog/soundcore-models-guide-egypt-2026">Soundcore Egypt 2026 buying guide</a> has more information about warranty terms and authorized service procedures. For direct support, visit the CairoVolt website or reach out through our social channels — we respond to all technical inquiries as quickly as possible.</p>
+<p>The <a href="/en/blog/soundcore-models-guide-egypt-2026">Soundcore Egypt 2026 buying guide</a> has more information about warranty terms and service procedures. For direct support, visit the CairoVolt website or reach out through our social channels — we respond to all technical inquiries as quickly as possible.</p>
 <p>Additionally, the earbud charging cases vary significantly in size. The Liberty Buds case is the most pocketable and compact, fitting easily into coin pockets. The Liberty 4 NC features a unique button-release mechanism that pops the lid open smoothly, while the Liberty 4 Pro case features a glossy premium finish and a slide-to-open gesture sensor that gives it a futuristic feel. This variety allows buyers to prioritize pocketability, ease of access, or premium aesthetics.</p>`,
             faq: [
                 {
@@ -449,7 +449,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
                 },
                 {
                     question: 'When should I contact warranty support instead of troubleshooting myself?',
-                    answer: 'Escalate to warranty support if: (1) you\'ve completed all troubleshooting steps (reset, forget/re-pair, Bluetooth cache clear, codec change) and the problem continues; (2) only one earbud produces sound from the beginning; (3) charging doesn\'t work at all; or (4) there\'s visible physical damage. If the earbuds are within the warranty period, contact CairoVolt before any third-party repair attempts — third-party repairs void the Anker warranty.'
+                    answer: 'Escalate to warranty support if: (1) you\'ve completed all troubleshooting steps (reset, forget/re-pair, Bluetooth cache clear, codec change) and the problem continues; (2) only one earbud produces sound from the beginning; (3) charging doesn\'t work at all; or (4) there\'s visible physical damage. If the earbuds are within the warranty period, contact CairoVolt before any third-party repair attempts — opening or repairing the earbuds elsewhere voids CairoVolt\'s written store warranty.'
                 }
             ]
         }

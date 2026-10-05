@@ -118,17 +118,6 @@ export const jbl_speakers_content: CategoryContent = {
                     answer: 'سبيكرات JBL عندنا بتبدأ من 2,049 جنيه لـ Go 4 وبتوصل 22,649 جنيه لـ Boombox 3. اللي أغلب الناس بتقصده بكلمة "صب" — يعني باس ملموس — بيبدأ من Flip 6 بـ5,499 جنيه، وCharge 5 بـ6,999، وCharge 6 بـ9,149. السعر بيتغير مع المخزون والعروض، والسعر الحالي معروض على صفحة كل موديل بضمان كايرو فولت 12 شهر ودفع عند الاستلام.'
                 }
             ],
-            products: [
-                { name: 'JBL Go 4', price: 2049, badge: 'IP67 مدمجة' },
-                { name: 'JBL Clip 5', price: 2799, badge: 'كارابينر' },
-                { name: 'JBL Flip 6', price: 5499, badge: 'أقل سعر في التلاتة' },
-                { name: 'JBL Flip 7', price: 6499, badge: 'IP68 جديدة' },
-                { name: 'JBL Charge 5', price: 6999, badge: 'باور بانك + 20 ساعة' },
-                { name: 'JBL Charge 6', price: 9149, badge: 'باور بانك مدمج' },
-                { name: 'JBL Xtreme 4', price: 15849, badge: 'بطارية تتبدل' },
-                { name: 'JBL Pulse 5', price: 16749, badge: 'إضاءة 360°' },
-                { name: 'JBL Boombox 3', price: 22649, badge: '180 واط' },
-            ]
         },
         en: {
             title: 'JBL Bluetooth Speakers',
@@ -231,17 +220,6 @@ Bottom line: if this is your first JBL and it is going to the beach and on trips
                     answer: 'JBL speakers here start at 2,049 EGP for the Go 4 and reach 22,649 EGP for the Boombox 3. The class most buyers mean by real bass starts at the Flip 6 (5,499 EGP), with Charge 5 at 6,999 and Charge 6 at 9,149. Prices move with stock and promotions; the live figure is on each model page, and every model carries the CairoVolt 12-month warranty with cash on delivery.'
                 }
             ],
-            products: [
-                { name: 'JBL Go 4', price: 2049, badge: 'IP67 Compact' },
-                { name: 'JBL Clip 5', price: 2799, badge: 'Carabiner Clip' },
-                { name: 'JBL Flip 6', price: 5499, badge: 'Lowest of the three' },
-                { name: 'JBL Flip 7', price: 6499, badge: 'New IP68' },
-                { name: 'JBL Charge 5', price: 6999, badge: 'Powerbank + 20h' },
-                { name: 'JBL Charge 6', price: 9149, badge: 'Powerbank Built-in' },
-                { name: 'JBL Xtreme 4', price: 15849, badge: 'Swappable Battery' },
-                { name: 'JBL Pulse 5', price: 16749, badge: '360° Lightshow' },
-                { name: 'JBL Boombox 3', price: 22649, badge: '180W' },
-            ]
         }
     }
 };

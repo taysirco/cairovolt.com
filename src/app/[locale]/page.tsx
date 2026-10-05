@@ -11,6 +11,12 @@ import ProductShowcase from '@/components/home/ProductShowcase';
 import BrandShowcase from '@/components/home/BrandShowcase';
 import ShopByNeed from '@/components/home/ShopByNeed';
 import ProductFinder from '@/components/home/ProductFinder';
+import { governorates } from '@/data/governorates';
+import {
+  getStoreReturnsSummary,
+  getStoreShippingSummary,
+  getStoreWarrantySummary,
+} from '@/lib/warranty-policy';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -80,23 +86,32 @@ export default async function Home({ params }: Props) {
   setRequestLocale(locale);
   const isRTL = locale === 'ar';
 
+  // Labels name the shelf each URL actually is: the power-bank, charger and
+  // cable entries point at Anker-only shelves, not the cross-brand hubs.
   const schemaCategories = isRTL
     ? [
-      { title: 'باور بانك', href: '/anker/power-banks' },
+      { title: 'باور بانك انكر', href: '/anker/power-banks' },
       { title: 'ساوندكور', href: '/soundcore' },
       { title: 'سماعات JBL', href: '/jbl' },
       { title: 'سماعات جوي روم', href: '/joyroom/audio' },
-      { title: 'شواحن', href: '/anker/wall-chargers' },
-      { title: 'كابلات', href: '/anker/cables' },
+      { title: 'شواحن انكر', href: '/anker/wall-chargers' },
+      { title: 'كابلات انكر', href: '/anker/cables' },
     ]
     : [
-      { title: 'Power Banks', href: '/en/anker/power-banks' },
+      { title: 'Anker Power Banks', href: '/en/anker/power-banks' },
       { title: 'Soundcore Audio', href: '/en/soundcore' },
       { title: 'JBL Audio', href: '/en/jbl' },
       { title: 'Joyroom Earbuds', href: '/en/joyroom/audio' },
-      { title: 'Chargers', href: '/en/anker/wall-chargers' },
-      { title: 'Cables', href: '/en/anker/cables' },
+      { title: 'Anker Chargers', href: '/en/anker/wall-chargers' },
+      { title: 'Anker Cables', href: '/en/anker/cables' },
     ];
+
+  // Policy answers are built from the same constants the policy pages, the
+  // product schema and llms.txt use, so the numbers cannot drift apart.
+  const policyLocale = isRTL ? 'ar' : 'en';
+  const warrantyAnswer = getStoreWarrantySummary(policyLocale);
+  const returnsAnswer = getStoreReturnsSummary(policyLocale);
+  const shippingAnswer = getStoreShippingSummary(policyLocale, governorates);
 
   const prefix = isRTL ? '' : '/en';
 
@@ -265,17 +280,17 @@ export default async function Home({ params }: Props) {
               qaList={isRTL ? [
                 { question: 'أبدأ منين لو مش عارف الموديل المناسب؟', answer: 'ابدأ بقسم «اختار حسب استخدامك» أو مساعد الاختيار السريع في الصفحة. اختار هل محتاج صوت أفضل، بطارية أطول، أو شحن أسرع، وحدد ميزانيتك عشان تشوف نقطة بداية مناسبة.' },
                 { question: 'إزاي أراجع بيانات المنتج قبل الشراء؟', answer: 'طابق رقم الموديل والمواصفات مع مصادر الشركة المصنّعة وأدواتها إن وُجدت، واحتفظ بالفاتورة. أداة كايرو فولت تتحقق من سجل ضمان كايرو فولت فقط وليست شهادة أصالة من الشركة المصنّعة.' },
-                { question: 'الضمان كام شهر؟', answer: 'مدة الضمان تختلف حسب العلامة والموديل، لذلك نعرضها في صفحة كل منتج بدل وعد عام واحد. راجع بند الضمان في صفحة المنتج قبل إتمام الطلب.' },
+                { question: 'الضمان كام شهر؟', answer: warrantyAnswer },
                 { question: 'هل الدفع عند الاستلام متاح؟', answer: 'نعم، الدفع عند الاستلام متاح للطلبات المؤهلة. تفاصيل المبلغ والشحن تظهر بوضوح أثناء إتمام الطلب.' },
-                { question: 'هل التوصيل متاح خارج القاهرة؟', answer: 'نعم، نخدم عناوين مؤهلة داخل محافظات مصر. يؤكد توافر التوصيل، ومدته ورسومه، قبل إتمام الطلب.' },
-                { question: 'لو المنتج مش مناسب، أعمل إيه؟', answer: 'راجع سياسة الاسترجاع والاستبدال لمعرفة الشروط والمدة وحالة العبوة المطلوبة، وتواصل مع الدعم قبل إرسال المنتج.' },
+                { question: 'هل التوصيل متاح خارج القاهرة؟', answer: `نعم، نخدم العناوين المؤهلة داخل محافظات مصر. رسوم التوصيل ${shippingAnswer} يُؤكد توافر التوصيل ومدته ورسومه قبل إتمام الطلب.` },
+                { question: 'لو المنتج مش مناسب، أعمل إيه؟', answer: `${returnsAnswer} تواصل مع الدعم قبل إرسال المنتج.` },
               ] : [
                 { question: 'Where do I start if I do not know the right model?', answer: 'Start with Shop by Need or the quick choice assistant on this page. Choose better sound, longer battery, or faster charging, then set a budget for a useful starting point.' },
                 { question: 'How can I review a product before buying?', answer: 'Match the model number and specifications with manufacturer sources and any manufacturer tools that are available, and keep the invoice. CairoVolt\'s checker confirms only a CairoVolt warranty record; it is not a manufacturer authenticity certificate.' },
-                { question: 'How long is the warranty?', answer: 'Warranty length varies by brand and model, so it is shown on each product page instead of using one blanket promise. Review the warranty section before ordering.' },
+                { question: 'How long is the warranty?', answer: warrantyAnswer },
                 { question: 'Is cash on delivery available?', answer: 'Yes, cash on delivery is available for eligible orders. The order total and delivery details are shown during checkout.' },
-                { question: 'Do you deliver outside Cairo?', answer: 'Yes, we serve eligible addresses within Egyptian governorates. Delivery eligibility, timing, and fees are confirmed before the order is completed.' },
-                { question: 'What if the product is not right for me?', answer: 'Review the return and replacement policy for the applicable conditions, timeframe, and packaging requirements, then contact support before sending the item.' },
+                { question: 'Do you deliver outside Cairo?', answer: `Yes, we serve eligible addresses across Egypt's governorates. Delivery costs ${shippingAnswer} Availability, timing, and the fee are confirmed before the order is completed.` },
+                { question: 'What if the product is not right for me?', answer: `${returnsAnswer} Contact support before sending the item.` },
               ]}
             />
           </div>

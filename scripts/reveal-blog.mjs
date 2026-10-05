@@ -4,7 +4,9 @@
 // last ~26h (i.e. just went live today) and:
 //   1. Pings IndexNow and optionally calls the authenticated ISR webhook
 //      (which revalidates the article + listing + sitemap)
-//   2. Logs what was revealed.
+//   2. Pings the WebSub hub for both guide feeds (AR + EN) so feed readers and
+//      aggregators subscribed to /api/discover-feed hear about it (non-fatal).
+//   3. Logs what was revealed.
 // The publishDate GATE already reveals the article on the site via hourly ISR;
 // this refreshes discovery surfaces without promising a crawl or ranking.
 //
@@ -46,7 +48,15 @@ console.log(`🔔 كُشف اليوم: ${reveals.map(r => r.slug).join(', ')}`);
 const INDEXNOW_KEY = '09f1d32f07e4bd57775e7d023577797a';
 const urlList = reveals.flatMap(r => [`${ORIGIN}/blog/${r.slug}`, `${ORIGIN}/en/blog/${r.slug}`]);
 
-if (dry) { urlList.forEach(u => console.log(`  [dry] would ping IndexNow: ${u}`)); process.exit(0); }
+// WebSub: both feeds advertise <atom:link rel="hub"> to this hub.
+const WEBSUB_HUB = 'https://pubsubhubbub.appspot.com/';
+const FEED_URLS = [`${ORIGIN}/api/discover-feed`, `${ORIGIN}/api/discover-feed?locale=en`];
+
+if (dry) {
+    urlList.forEach(u => console.log(`  [dry] would ping IndexNow: ${u}`));
+    FEED_URLS.forEach(f => console.log(`  [dry] would ping WebSub hub for: ${f}`));
+    process.exit(0);
+}
 
 try {
     const res = await fetch('https://api.indexnow.org/indexnow', {
@@ -72,5 +82,21 @@ if (secret) {
             });
             console.log(`  ✓ ISR revalidated: ${r.slug}`);
         } catch { /* non-fatal */ }
+    }
+}
+
+// WebSub publish ping — tells the hub both feeds changed. Strictly non-fatal and
+// time-limited: a slow or failing hub must never fail the daily reveal job.
+for (const feedUrl of FEED_URLS) {
+    try {
+        const res = await fetch(WEBSUB_HUB, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams({ 'hub.mode': 'publish', 'hub.url': feedUrl }).toString(),
+            signal: AbortSignal.timeout(10000),
+        });
+        console.log(`  ✓ WebSub ping: ${res.status} (${feedUrl})`);
+    } catch (e) {
+        console.warn(`  ✗ WebSub (${feedUrl}): ${e?.message ?? e}`);
     }
 }

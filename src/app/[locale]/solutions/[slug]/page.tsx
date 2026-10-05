@@ -7,6 +7,8 @@ import { ProductImage } from '@/components/ui/ProductImage';
 import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { FAQPageSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
+import { getLiveIndex } from '@/data/blog-index.generated';
+import { isRecallAffectedSlug, isRecallStockVerifiedOutsideScope } from '@/lib/merchant-product-data';
 
 export const revalidate = 3600;
 // Closed slug space (solutionsDB) → unknown slugs get a real 404 instead of
@@ -92,17 +94,43 @@ export default async function SolutionPage({ params }: Props) {
         .map(pSlug => getProductBySlug(pSlug))
         .filter((p): p is NonNullable<typeof p> => p !== undefined);
 
+    const localePrefix = isArabic ? '' : '/en';
+    const breadcrumbItems = [
+        { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${localePrefix}`, href: localePrefix || '/' },
+        { name: isArabic ? 'حلول شائعة' : 'Common solutions', url: `https://cairovolt.com${localePrefix}/faq`, href: `${localePrefix}/faq` },
+        { name: title, url: pageUrl, href: `${localePrefix}/solutions/${slug}` },
+    ];
+
+    // Measured evidence, linked to the product page it was measured on.
+    const labProduct = solution.labEvidence ? getProductBySlug(solution.labEvidence.productSlug) : undefined;
+    const labEvidence = solution.labEvidence && labProduct
+        ? {
+            text: isArabic ? solution.labEvidence.text.ar : solution.labEvidence.text.en,
+            href: `${localePrefix}/${labProduct.brand.toLowerCase()}/${labProduct.categorySlug.toLowerCase()}/${labProduct.slug}`,
+            name: isArabic
+                ? localizeArabicBrandNames(labProduct.translations?.ar?.name || labProduct.slug)
+                : (labProduct.translations?.en?.name || labProduct.slug),
+        }
+        : null;
+
+    // Blog deep-dive for this problem — only linked while the article is live,
+    // so a scheduled slug can never be emitted as a 404.
+    const deepDiveEntry = solution.deepDiveBlogSlug
+        ? getLiveIndex().find(entry => entry.slug === solution.deepDiveBlogSlug)
+        : undefined;
+    const deepDive = deepDiveEntry
+        ? {
+            href: `${localePrefix}/blog/${deepDiveEntry.slug}`,
+            title: isArabic
+                ? localizeArabicBrandNames(deepDiveEntry.translations.ar.title)
+                : deepDiveEntry.translations.en.title,
+        }
+        : null;
+
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-gray-950 py-12" dir={isArabic ? 'rtl' : 'ltr'}>
             <BreadcrumbSchema
-                items={[
-                    { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
-                    { name: isArabic ? 'حلول شائعة' : 'Common solutions', url: `https://cairovolt.com${isArabic ? '' : '/en'}/faq` },
-                    {
-                        name: title,
-                        url: pageUrl,
-                    },
-                ]}
+                items={breadcrumbItems.map(({ name, url }) => ({ name, url }))}
                 locale={locale}
             />
             <HowToSchema
@@ -138,6 +166,22 @@ export default async function SolutionPage({ params }: Props) {
             />
             <div className="container mx-auto px-4 max-w-4xl">
 
+                {/* Visible breadcrumb — same names and URLs as the BreadcrumbList JSON-LD. */}
+                <nav aria-label={isArabic ? 'مسار التصفح' : 'Breadcrumb'} className="mb-4 text-sm text-gray-500 dark:text-gray-400">
+                    <ol className="flex flex-wrap items-center gap-1">
+                        {breadcrumbItems.map((item, idx) => (
+                            <li key={item.url} className="inline-flex items-center gap-1">
+                                {idx > 0 && <span aria-hidden="true">/</span>}
+                                {idx < breadcrumbItems.length - 1 ? (
+                                    <Link href={item.href} className="hover:text-blue-600">{item.name}</Link>
+                                ) : (
+                                    <span aria-current="page" className="font-medium text-gray-900 dark:text-white">{item.name}</span>
+                                )}
+                            </li>
+                        ))}
+                    </ol>
+                </nav>
+
                 {/* Solution Header */}
                 <div className="bg-white dark:bg-gray-900 rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 dark:border-gray-800 mb-8">
                     <span className="inline-block px-3 py-1 bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400 text-sm font-bold rounded-full mb-6">
@@ -162,6 +206,23 @@ export default async function SolutionPage({ params }: Props) {
                         <p className="text-lg md:text-xl leading-relaxed font-medium text-blue-50">
                             {answer}
                         </p>
+                        {labEvidence && (
+                            <p className="mt-5 rounded-2xl bg-white/10 p-4 text-base leading-relaxed text-blue-50">
+                                <span className="font-bold">{isArabic ? 'من مختبرنا: ' : 'From our lab: '}</span>
+                                {labEvidence.text}{' '}
+                                <Link href={labEvidence.href} className="font-bold underline underline-offset-4 hover:text-white">
+                                    {labEvidence.name}
+                                </Link>
+                            </p>
+                        )}
+                        {deepDive && (
+                            <p className="mt-4 text-base text-blue-100">
+                                {isArabic ? 'اقرأ الشرح الكامل: ' : 'Read the full guide: '}
+                                <Link href={deepDive.href} className="font-bold underline underline-offset-4 hover:text-white">
+                                    {deepDive.title}
+                                </Link>
+                            </p>
+                        )}
                     </div>
                 </div>
 
@@ -187,6 +248,9 @@ export default async function SolutionPage({ params }: Props) {
                             const rawName = isArabic ? product.translations?.ar?.name : product.translations?.en?.name;
                             const pName = isArabic && rawName ? localizeArabicBrandNames(rawName) : rawName;
                             const brandLabel = getBrandDisplayName(product.brand, isArabic ? 'ar' : 'en');
+                            // Same marker and predicate as the category shelf.
+                            const recalled = isRecallAffectedSlug(product.slug)
+                                && !isRecallStockVerifiedOutsideScope(product.slug);
 
                             return (
                                 <Link
@@ -212,6 +276,11 @@ export default async function SolutionPage({ params }: Props) {
                                     <div className="flex flex-col justify-center">
                                         <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">{brandLabel}</span>
                                         <h3 className="font-bold text-gray-900 dark:text-white mb-2 line-clamp-2">{pName}</h3>
+                                        {recalled && (
+                                            <span className="mb-2 flex items-center gap-1 text-xs font-semibold text-amber-700 dark:text-amber-400">
+                                                <span aria-hidden="true">⚠️</span>{isArabic ? 'استدعاء — راجع صفحة المنتج' : 'Recall — see product page'}
+                                            </span>
+                                        )}
                                         <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
                                             <span className="text-blue-600 dark:text-blue-400 font-black">{product.price} EGP</span>
                                             {product.originalPrice > product.price && (

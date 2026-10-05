@@ -5,7 +5,7 @@ export const chargers_hajj_umrah_saudi_arabia_essentials: BlogArticle = {
     slug: 'chargers-hajj-umrah-saudi-arabia-essentials',
     category: 'buying-guide',
     publishDate: '2026-06-13',
-    modifiedDate: '2026-06-13',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         "anker-zolo-a110e-20000",
@@ -268,14 +268,14 @@ export const chargers_hajj_umrah_saudi_arabia_essentials: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جهّز حقيبتك من كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانك أصلي</a> مسموح على الطيارة + <a href="/anker/wall-chargers" style="color:#166534;font-weight:600;">شواحن GaN</a> سريعة + <a href="/anker/cables" style="color:#166534;font-weight:600;">كابلات USB-C</a> متينة. <strong>أصلي بضمان 18 شهر</strong> + توصيل لكل المحافظات قبل سفرك.
+        <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانك أصلي</a> مسموح على الطيارة + <a href="/anker/wall-chargers" style="color:#166534;font-weight:600;">شواحن GaN</a> سريعة + <a href="/anker/cables" style="color:#166534;font-weight:600;">كابلات USB-C</a> متينة. <strong>أصلي بضمان كايرو فولت المكتوب</strong> (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات قبل سفرك.
     </p>
 </div>
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
-        <li><a href="https://www.iata.org/en/programs/safety/dangerous-goods/" rel="nofollow">IATA — بطاريات الليثيوم وقواعد الطيران</a></li>
+        <li><a href="https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf" rel="nofollow">إياتا — دليل نقل بطاريات الليثيوم (لوائح 2026، بالإنجليزية)</a></li>
         <li><a href="https://www.saudia.com/before-flying/baggage/restricted-items" rel="nofollow">الخطوط السعودية — الأمتعة المحظورة والمقيّدة</a></li>
         <li><a href="https://www.worldstandards.eu/electricity/plug-voltage-by-country/saudi-arabia/" rel="nofollow">World Standards — الفيشة والفولت في السعودية</a></li>
     </ul>
@@ -523,14 +523,14 @@ export const chargers_hajj_umrah_saudi_arabia_essentials: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Prepare Your Kit at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Genuine power banks</a> allowed on planes + <a href="/en/anker/wall-chargers" style="color:#166534;font-weight:600;">GaN fast chargers</a> + <a href="/en/anker/cables" style="color:#166534;font-weight:600;">durable USB-C cables</a>. <strong>Genuine with 18-month warranty</strong> + delivery to all governorates before your trip.
+        <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Genuine power banks</a> allowed on planes + <a href="/en/anker/wall-chargers" style="color:#166534;font-weight:600;">GaN fast chargers</a> + <a href="/en/anker/cables" style="color:#166534;font-weight:600;">durable USB-C cables</a>. <strong>Genuine, with CairoVolt's written store warranty</strong> (duration shown on each product page) + delivery to all governorates before your trip.
     </p>
 </div>
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 References:</p>
     <ul style="margin:0;padding-left:20px;color:#6b7280;">
-        <li><a href="https://www.iata.org/en/programs/safety/dangerous-goods/" rel="nofollow">IATA — Lithium Batteries and Aviation Rules</a></li>
+        <li><a href="https://www.iata.org/contentassets/05e6d8742b0047259bf3a700bc9d42b9/lithium-battery-guidance-document.pdf" rel="nofollow">IATA — Lithium Battery Guidance Document (2026 regulations)</a></li>
         <li><a href="https://www.saudia.com/before-flying/baggage/restricted-items" rel="nofollow">Saudia Airlines — Restricted and Prohibited Items</a></li>
         <li><a href="https://www.worldstandards.eu/electricity/plug-voltage-by-country/saudi-arabia/" rel="nofollow">World Standards — Saudi Arabia Plugs and Voltage</a></li>
     </ul>

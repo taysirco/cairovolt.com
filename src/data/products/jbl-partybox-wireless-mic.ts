@@ -53,7 +53,7 @@ export const jbl_partybox_wireless_mic = {
         <li>Contents: the genuine retail set is exactly 2 microphones plus the 2.4GHz dongle; a "set" with one mic or a generic USB receiver is not this product.</li>
         <li>Packaging: the original box has sharp print, correct spelling, and a labelled serial number.</li>
         <li>Dongle handshake: a genuine set is recognised by a compatible JBL PartyBox speaker as soon as the dongle connects — clones typically fail this handshake or behave as a generic mic.</li>
-        <li>Price logic: a "new" set offered around 40% below our price (roughly 5,400 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" set offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -95,7 +95,7 @@ export const jbl_partybox_wireless_mic = {
         <li>المحتويات: الطقم الأصلي بالظبط مايكروفونين + دونجل 2.4 جيجاهرتز؛ "طقم" فيه مايك واحد أو ريسيفر USB عمومي مش المنتج ده.</li>
         <li>العلبة: الأصلية طباعتها حادة، إملاؤها سليم، وعليها رقم تسلسلي واضح.</li>
         <li>مصافحة الدونجل: الطقم الأصلي سماعة JBL PartyBox المتوافقة بتتعرف عليه أول ما الدونجل يتوصل — التقليد غالبًا بيفشل في المصافحة دي أو بيتصرف كمايك عمومي.</li>
-        <li>منطق السعر: طقم "جديد" معروض بأقل من سعرنا بحوالي 40% (يعني حوالي 5,400 جنيه أو أقل) شبه مؤكد مش أصلي.</li>
+        <li>منطق السعر: طقم "جديد" معروض بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلي.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

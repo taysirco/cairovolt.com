@@ -105,13 +105,6 @@ export const jbl_earbuds_content: CategoryContent = {
                     answer: 'جرب اختبار التطبيق: JBL Headphones المفروض يتعرف على Wave Beam وTune Buds وTour Pro 2 بالموديل عند الاقتران (T110 وT110BT مش بيدعموا التطبيق وده طبيعي). طابق طباعة الموديل على السماعة والعلبة، واشتري من مصدر بفاتورة. راجع برنامج Buy Authentic الرسمي من JBL — والسعر الأقل بكتير من السوق علامة إنذار مش لقطة.'
                 }
             ],
-            products: [
-                { name: 'JBL Wave Beam', price: 2449, badge: 'قيمة ممتازة' },
-                { name: 'JBL Tune Buds', price: 5999, badge: 'عزل ضوضاء' },
-                { name: 'JBL Tour Pro 2', price: 14499, badge: 'علبة بشاشة' },
-                { name: 'JBL T110', price: 249, badge: 'الكلاسيكية بسلك' },
-                { name: 'JBL T110BT', price: 449, badge: 'نيك باند' },
-            ]
         },
         en: {
             title: 'JBL Earbuds and Earphones',
@@ -201,13 +194,6 @@ If your day includes metro and bus commutes, ANC makes an audible difference on 
                     answer: 'Run the app test: the JBL Headphones app should recognize Wave Beam, Tune Buds, and Tour Pro 2 by model name on pairing (T110 and T110BT do not support the app — that is expected). Match the model printing on buds and box, buy with an invoice, and check JBL\'s official Buy Authentic program. A price far below market is a warning sign, not a bargain.'
                 }
             ],
-            products: [
-                { name: 'JBL Wave Beam', price: 2449, badge: 'Best Value' },
-                { name: 'JBL Tune Buds', price: 5999, badge: 'ANC' },
-                { name: 'JBL Tour Pro 2', price: 14499, badge: 'Smart Case' },
-                { name: 'JBL T110', price: 249, badge: 'Wired Classic' },
-                { name: 'JBL T110BT', price: 449, badge: 'Neckband' },
-            ]
         }
     }
 };

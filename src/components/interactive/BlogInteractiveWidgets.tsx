@@ -7,14 +7,121 @@ const MermaidDiagram = dynamic(() => import('./MermaidDiagram'), { ssr: false })
 const BatteryCalculator = dynamic(() => import('./BatteryCalculator'), { ssr: false });
 const ChargingSpeedCalculator = dynamic(() => import('./ChargingSpeedCalculator'), { ssr: false });
 
+// ─────────────────────────────────────────────────────────────────────────────
+// Decision path — the flowchart's steps as real HTML.
+//
+// MermaidDiagram is client-only (ssr:false), so the charts' decision steps were
+// absent from the server HTML: crawlers and answer engines saw an empty box.
+// <DecisionPath> renders the SAME chart string's node labels and branch labels
+// as a visible list that IS server-rendered (this component is SSR'd via
+// dynamic() without ssr:false). Labels are parsed from the chart source, so the
+// list and the diagram cannot drift apart. Mermaid stays the visual layer.
+// ─────────────────────────────────────────────────────────────────────────────
+
+interface FlowNode {
+    id: string;
+    label: string;
+    decision: boolean;
+}
+
+interface FlowEdge {
+    from: string;
+    to: string;
+    label?: string;
+}
+
+const EDGE_SPLIT_RE = /\s*(-->|-\.->|==>|---)\s*(?:\|([^|]*)\|)?\s*/;
+const NODE_RE = /^([A-Za-z][\w-]*)\s*(?:\["([^"]*)"\]|\{"([^"]*)"\}|\("([^"]*)"\)|\[([^\]]*)\]|\{([^}]*)\}|\(([^)]*)\))?$/;
+
+/** Parse a Mermaid flowchart's [..], {..} and (..) node labels plus its edges. */
+export function parseFlowchart(chart: string): { nodes: FlowNode[]; edges: FlowEdge[] } {
+    const nodes = new Map<string, FlowNode>();
+    const edges: FlowEdge[] = [];
+
+    const touch = (segment: string): string | null => {
+        const m = NODE_RE.exec(segment.trim());
+        if (!m) return null;
+        const id = m[1];
+        const label = m[2] ?? m[3] ?? m[4] ?? m[5] ?? m[6] ?? m[7];
+        const decision = m[3] !== undefined || m[6] !== undefined;
+        const existing = nodes.get(id);
+        if (!existing) {
+            nodes.set(id, { id, label: label?.trim() || id, decision });
+        } else if (label && existing.label === id) {
+            existing.label = label.trim();
+            existing.decision = existing.decision || decision;
+        }
+        return id;
+    };
+
+    for (const rawLine of chart.split('\n')) {
+        const line = rawLine.trim();
+        if (!line || /^(flowchart|graph|style|classDef|class|linkStyle|click|%%)\b/.test(line)) continue;
+        // split() with capture groups → [node, op, label, node, op, label, node, …]
+        const parts = line.split(EDGE_SPLIT_RE);
+        let previous: string | null = null;
+        for (let i = 0; i < parts.length; i += 3) {
+            const id = touch(parts[i] ?? '');
+            if (id && previous) {
+                const edgeLabel = parts[i - 1]?.trim();
+                edges.push({ from: previous, to: id, ...(edgeLabel ? { label: edgeLabel } : {}) });
+            }
+            previous = id;
+        }
+    }
+    return { nodes: Array.from(nodes.values()), edges };
+}
+
+function DecisionPath({ chart, locale }: { chart: string; locale: string }) {
+    const isArabic = locale === 'ar';
+    const { nodes, edges } = parseFlowchart(chart);
+    if (nodes.length === 0) return null;
+    const labelOf = (id: string) => nodes.find((n) => n.id === id)?.label ?? id;
+
+    return (
+        <details open className="my-4 rounded-2xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800/50 p-4 md:p-5">
+            <summary className="cursor-pointer text-base font-bold text-gray-900 dark:text-white">
+                {isArabic ? 'مسار الاختيار' : 'Decision path'}
+            </summary>
+            <ol className="mt-3 list-decimal ps-6 space-y-2 text-sm leading-7 text-gray-700 dark:text-gray-300">
+                {nodes.map((node) => {
+                    const branches = edges.filter((e) => e.from === node.id && e.label);
+                    return (
+                        <li key={node.id}>
+                            {node.label}
+                            {branches.length > 0 && (
+                                <ul className="mt-1 list-disc ps-5 space-y-1">
+                                    {branches.map((edge, i) => (
+                                        <li key={`${edge.to}-${i}`}>
+                                            <strong className="text-gray-900 dark:text-white">{edge.label}:</strong>{' '}
+                                            {labelOf(edge.to)}
+                                        </li>
+                                    ))}
+                                </ul>
+                            )}
+                        </li>
+                    );
+                })}
+            </ol>
+        </details>
+    );
+}
+
 /**
  * Renders interactive widgets (Mermaid diagrams, calculators) for specific blog articles.
-
  */
 export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale: string }) {
     const isArabic = locale === 'ar';
     const chartByLocale = (arabicChart: string, englishChart: string) =>
         isArabic ? arabicChart : englishChart;
+    // One chart string feeds both layers: the Mermaid visual and the
+    // server-rendered decision path.
+    const flowchart = (title: string, chart: string) => (
+        <>
+            <MermaidDiagram title={title} locale={locale} chart={chart} />
+            <DecisionPath chart={chart} locale={locale} />
+        </>
+    );
 
     // Map slugs to their interactive content
     const widgets: Record<string, React.ReactNode> = {
@@ -22,10 +129,9 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
         'best-power-bank-egypt-2026': (
             <>
                 <BatteryCalculator locale={locale} />
-                <MermaidDiagram
-                    title={isArabic ? '🗺️ خريطة اختيار الباور بانك المناسب' : '🗺️ Power Bank Selection Flowchart'}
-                    locale={locale}
-                    chart={chartByLocale(`flowchart TD
+                {flowchart(
+                    isArabic ? '🗺️ خريطة اختيار الباور بانك المناسب' : '🗺️ Power Bank Selection Flowchart',
+                    chartByLocale(`flowchart TD
     A["حدد الأجهزة التي ستشحنها"] --> B{"هل تحتاج لشحن لابتوب؟"}
     B -->|نعم| C["طابق قدرة USB-C PD المطلوبة مع مواصفات اللابتوب"]
     B -->|لا| D{"كم مرة تحتاج لإعادة شحن الهاتف؟"}
@@ -47,8 +153,8 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     F --> G
 
     style A fill:#3b82f6,color:#fff,stroke:#2563eb
-    style G fill:#22c55e,color:#fff,stroke:#16a34a`)}
-                />
+    style G fill:#22c55e,color:#fff,stroke:#16a34a`),
+                )}
             </>
         ),
 
@@ -56,10 +162,9 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
         'best-iphone-17-charger-egypt': (
             <>
                 <ChargingSpeedCalculator locale={locale} />
-                <MermaidDiagram
-                    title={isArabic ? '🗺️ خريطة اختيار شاحن الايفون' : '🗺️ iPhone Charger Selection Guide'}
-                    locale={locale}
-                    chart={chartByLocale(`flowchart TD
+                {flowchart(
+                    isArabic ? '🗺️ خريطة اختيار شاحن الايفون' : '🗺️ iPhone Charger Selection Guide',
+                    chartByLocale(`flowchart TD
     A["حدد موديل الايفون والأجهزة الأخرى"] --> B{"هل ستشحن جهازًا واحدًا؟"}
     B -->|نعم| C["راجع القدرة ومعيار الشحن الموصى بهما من الشركة المصنّعة"]
     B -->|لا| D["احسب توزيع القدرة بين المنافذ عند الاستخدام المتزامن"]
@@ -81,8 +186,8 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
 
     style A fill:#f59e0b,color:#fff,stroke:#d97706
     style F fill:#22c55e,color:#fff,stroke:#16a34a
-    style G fill:#3b82f6,color:#fff,stroke:#2563eb`)}
-                />
+    style G fill:#3b82f6,color:#fff,stroke:#2563eb`),
+                )}
             </>
         ),
 
@@ -90,10 +195,9 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
         'anker-vs-joyroom-comparison': (
             <>
                 <BatteryCalculator locale={locale} />
-                <MermaidDiagram
-                    title={isArabic ? '🗺️ أيهما تختار: انكر أم جوي روم؟' : '🗺️ Anker vs Joyroom: Which to Choose?'}
-                    locale={locale}
-                    chart={chartByLocale(`flowchart TD
+                {flowchart(
+                    isArabic ? '🗺️ أيهما تختار: انكر أم جوي روم؟' : '🗺️ Anker vs Joyroom: Which to Choose?',
+                    chartByLocale(`flowchart TD
     A["حدد الجهاز والاستخدام"] --> B["اكتب القدرة والمنفذ والميزات المطلوبة"]
     B --> C["كوّن قائمة موديلات مطابقة من انكر وجوي روم"]
     C --> D["قارن المواصفات المنشورة والسعر الحالي والتوافر"]
@@ -109,17 +213,16 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     E --> F["Choose the model that fits your needs and budget"]
 
     style A fill:#6366f1,color:#fff,stroke:#4f46e5
-    style F fill:#22c55e,color:#fff,stroke:#16a34a`)}
-                />
+    style F fill:#22c55e,color:#fff,stroke:#16a34a`),
+                )}
             </>
         ),
 
         // Product-information review flowchart. Packaging cues alone are not proof.
         'how-to-identify-original-anker': (
-            <MermaidDiagram
-                title={isArabic ? '🗺️ خطوات مراجعة بيانات منتج انكر' : '🗺️ Anker Product Information Checks'}
-                locale={locale}
-                chart={chartByLocale(`flowchart TD
+            flowchart(
+                isArabic ? '🗺️ خطوات مراجعة بيانات منتج انكر' : '🗺️ Anker Product Information Checks',
+                chartByLocale(`flowchart TD
     A["راجع منتج انكر"] --> B{"هل رقم الموديل والقدرة يطابقان وثائق الشركة؟"}
     B -->|لا| X1["أوقف المراجعة وتواصل مع البائع أو دعم الشركة"]
     B -->|نعم| C{"هل توجد أداة تحقق من الشركة لهذا الموديل؟"}
@@ -147,16 +250,15 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     style A fill:#3b82f6,color:#fff
     style G fill:#22c55e,color:#fff,stroke:#16a34a
     style X1 fill:#f59e0b,color:#fff,stroke:#d97706
-    style X2 fill:#ef4444,color:#fff,stroke:#dc2626`)}
-            />
+    style X2 fill:#ef4444,color:#fff,stroke:#dc2626`),
+            )
         ),
 
         // Bluetooth earbuds — comparison chart
         'best-bluetooth-earbuds-egypt-2026': (
-            <MermaidDiagram
-                title={isArabic ? '🗺️ خريطة اختيار السماعة المناسبة' : '🗺️ Earbuds Selection Guide'}
-                locale={locale}
-                chart={chartByLocale(`flowchart TD
+            flowchart(
+                isArabic ? '🗺️ خريطة اختيار السماعة المناسبة' : '🗺️ Earbuds Selection Guide',
+                chartByLocale(`flowchart TD
     A["حدد استخدامك الأساسي"] --> B{"هل تحتاج عزل ضوضاء؟"}
     B -->|نعم| C["قارن موديلات ANC ودرجة الملاءمة والبطارية"]
     B -->|لا| D{"هل الأولوية للمكالمات أم الموسيقى أم الرياضة؟"}
@@ -182,18 +284,17 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     G --> H
 
     style A fill:#8b5cf6,color:#fff,stroke:#7c3aed
-    style H fill:#22c55e,color:#fff,stroke:#16a34a`)}
-            />
+    style H fill:#22c55e,color:#fff,stroke:#16a34a`),
+            )
         ),
 
         // How to charge power bank — lifecycle chart
         'how-to-charge-power-bank-correctly': (
             <>
                 <BatteryCalculator locale={locale} />
-                <MermaidDiagram
-                    title={isArabic ? '🗺️ دورة حياة بطارية الباور بانك' : '🗺️ Power Bank Battery Lifecycle'}
-                    locale={locale}
-                    chart={chartByLocale(`flowchart LR
+                {flowchart(
+                    isArabic ? '🗺️ دورة حياة بطارية الباور بانك' : '🗺️ Power Bank Battery Lifecycle',
+                    chartByLocale(`flowchart LR
     A["باور بانك جديد"] --> B["استخدام وشحن وفق تعليمات الشركة"]
     B --> C["راقب مدة التشغيل والحالة الجسدية"]
     C --> D{"هل يوجد انتفاخ أو تلف أو سخونة غير معتادة؟"}
@@ -217,8 +318,8 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     style A fill:#22c55e,color:#fff
     style E fill:#ef4444,color:#fff
     style F fill:#84cc16,color:#fff
-    style G fill:#991b1b,color:#fff`)}
-                />
+    style G fill:#991b1b,color:#fff`),
+                )}
             </>
         ),
 

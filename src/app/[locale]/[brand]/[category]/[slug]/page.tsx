@@ -1,6 +1,7 @@
 import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { getTranslations } from 'next-intl/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { getProductBySlug, getSmartRelatedProducts, getSmartBundleProducts, getProductsByCategory, getProductsByBrand, getFeaturedProducts, staticProducts, BRAND_FAMILIES } from '@/lib/static-products';
 import ProductPageClient from './ProductPageClient';
@@ -13,8 +14,10 @@ import { DeliveryStatus, LivePulseSkeleton } from '@/components/products/Deliver
 import { logger } from '@/lib/logger';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { BostaTracker } from '@/lib/bosta';
-import { getMerchantProductBrandSlug, SEO_NOINDEX_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
+import { getMerchantProductBrandSlug, getMerchantProductUrl, isRecallAffectedSlug, SEO_NOINDEX_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
 import { categoryContent } from '@/data/category-content';
+import { categoryKeyMap } from '@/lib/category-keys';
+import { getGuidesForProduct, stableStringHash } from '@/lib/blog-product-bridge';
 import { unstable_cache } from 'next/cache';
 import {
     getBrandDisplayName,
@@ -129,6 +132,17 @@ function sanitizeCuratedMetadata(value: string | undefined, isArabic: boolean): 
 
 // Default governorate for SSG — client-side detection in ProductPageClient
 const DEFAULT_GOV = { slug: 'cairo', display: 'Cairo' };
+
+/**
+ * Catalogue alts are authored per image in ONE language (about half Arabic, half Latin),
+ * so an English page could carry an Arabic og:image:alt and vice versa. An alt
+ * matches the page when it contains Arabic letters on an Arabic page, and none
+ * on an English page.
+ */
+function altMatchesLocale(alt: string, isArabic: boolean): boolean {
+    const hasArabic = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]/u.test(alt);
+    return isArabic ? hasArabic : !hasArabic;
+}
 
 /**
  * A product is served only at its one true path. The brand segment must match
@@ -291,12 +305,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 url: product.images[0].url.startsWith('http')
                     ? product.images[0].url
                     : `https://cairovolt.com${product.images[0].url}`,
-                // Use the real descriptive alt from the product data, not a generic fallback
-                alt: isArabic
-                    ? localizeArabicBrandNames(product.images[0].alt || `${t.name} - كايرو فولت مصر`)
-                    : (product.images[0].alt || `${t.name} - CairoVolt Egypt`),
-                width: 1200,
-                height: 630,
+                // Use the real descriptive alt from the product data when it is
+                // written in the page's language; otherwise a localized
+                // "<name> — view 1" label rather than the other language's alt.
+                alt: (() => {
+                    const rawAlt = product.images[0].alt?.trim();
+                    if (!rawAlt) {
+                        return isArabic
+                            ? localizeArabicBrandNames(`${t.name} - كايرو فولت مصر`)
+                            : `${t.name} - CairoVolt Egypt`;
+                    }
+                    if (!altMatchesLocale(rawAlt, isArabic)) {
+                        return `${productName} — ${isArabic ? 'صورة' : 'view'} 1`;
+                    }
+                    return isArabic ? localizeArabicBrandNames(rawAlt) : rawAlt;
+                })(),
+                // Real pixel size of the file when the catalogue records it
+                // (most primaries are 1080×1080). The old hard-coded 1200×630
+                // matched none of them, so it is omitted when unknown.
+                ...(product.images[0].width && product.images[0].height ? {
+                    width: product.images[0].width,
+                    height: product.images[0].height,
+                } : {}),
             }] : [],
             locale: isArabic ? 'ar_EG' : 'en_US',
             countryName: 'Egypt',
@@ -424,18 +454,27 @@ export default async function ProductPage({ params }: Props) {
         })()
         : undefined;
 
-    // «الذين اشتروا هذا المنتج في الغالب اشتروا أيضاً» — قائمة عريضة (≥13، حتى 16)
-    // تُعرض بنفس أسلوب «قد يعجبك أيضاً» على **كل** صفحات المنتجات (سواء كان المنتج
-    // من الكتالوج الثابت أو من فايرستور) — لذا نعتمد على مُعرّفات الرابط (brand /
-    // category / slug) بدل staticProduct الذي قد يكون فارغاً. المصدر دائماً كتالوج
-    // المتجر الثابت، مُرشَّحاً بفئة/علامة الرابط ثم الأكثر رواجاً، مع شبكة أمان
-    // تضمن العدد. نستبعد المنتج الحالي ومقترحات «قد يعجبك أيضاً» فلا يتكرّر منتج.
+    // «منتجات أخرى من نفس الفئة» — قائمة عريضة (≥13، حتى 16) تُعرض بنفس أسلوب
+    // «قد يعجبك أيضاً» على **كل** صفحات المنتجات (سواء كان المنتج من الكتالوج
+    // الثابت أو من فايرستور) — لذا نعتمد على مُعرّفات الرابط (brand / category /
+    // slug) بدل staticProduct الذي قد يكون فارغاً. المصدر دائماً كتالوج المتجر
+    // الثابت، مُرشَّحاً بفئة/علامة الرابط، مع شبكة أمان تضمن العدد. نستبعد المنتج
+    // الحالي ومقترحات «قد يعجبك أيضاً» فلا يتكرّر منتج. ليست بيانات طلبات فعلية.
+    //
+    // The same-category pool is ROTATED by a stable hash of this product's slug
+    // before the first 16 are taken. Walking it in catalogue order from index 0
+    // meant every PDP on a large shelf (Soundcore audio: 30+ SKUs) linked the
+    // same head of the list, and SKUs at positions 17+ received no PDP→PDP link
+    // at all. The offset is deterministic per page (no hydration or build drift).
     const alsoBoughtProducts = (() => {
         const brandLower = brand.toLowerCase();
         const family = BRAND_FAMILIES[brandLower] || [brandLower];
         const excluded = new Set<string>([slug, ...relatedProducts.map((p) => p.slug)]);
+        const categoryPool = getProductsByCategory(category).filter((p) => family.includes(p.brand.toLowerCase()));
+        const offset = categoryPool.length > 0 ? stableStringHash(slug) % categoryPool.length : 0;
+        const rotatedCategoryPool = [...categoryPool.slice(offset), ...categoryPool.slice(0, offset)];
         const pool = [
-            ...getProductsByCategory(category).filter((p) => family.includes(p.brand.toLowerCase())),
+            ...rotatedCategoryPool,
             ...getProductsByBrand(brand),
             ...getFeaturedProducts(),
             ...staticProducts, // شبكة أمان: تضمن 13+ حتى لو لم تُطابق الفئة/العلامة الكتالوج
@@ -486,6 +525,19 @@ export default async function ProductPage({ params }: Props) {
         categoryContent[product.brand.toLowerCase()]?.[product.categorySlug.toLowerCase()]
     );
 
+    // Localized shelf name — the same Categories message the visible breadcrumb
+    // renders, so the BreadcrumbList JSON-LD says "كابلات شحن" on Arabic pages
+    // instead of a title-cased English slug ("Cables").
+    const tCategories = await getTranslations({ locale, namespace: 'Categories' });
+    const categoryDisplayName = tCategories(categoryKeyMap[product.categorySlug.toLowerCase()] ?? 'other');
+
+    // Live guides whose body links to this product (server-only reverse index;
+    // the client component only receives the resulting {href, title} list).
+    const productGuides = getGuidesForProduct(product.slug, locale, 3);
+
+    // Canonical page URL (same helper as Product.url / Product.@id).
+    const productPageUrl = getMerchantProductUrl(product, locale);
+
     // Fetch verified aggregate rating for Structured Data (Cached)
     const verifiedAggregateRating = await getCachedAggregateRating(slug);
 
@@ -532,9 +584,9 @@ export default async function ProductPage({ params }: Props) {
                         en: {
                             name: product.translations?.en?.name || '',
                             description: product.translations?.en?.description || '',
-                            // Leads the JSON-LD description: a clean, spec-dense,
-                            // manufacturer-attributed sentence instead of the page body's
-                            // opening narrative scene.
+                            // JSON-LD description fallback only, used (cleaned of
+                            // pictographs, pipes and "Check…" segments) when the body
+                            // is too thin — see buildSchemaDescription.
                             shortDescription: product.translations?.en?.shortDescription || '',
                         },
                         ar: {
@@ -543,9 +595,13 @@ export default async function ProductPage({ params }: Props) {
                             shortDescription: localizeArabicBrandNames(product.translations?.ar?.shortDescription || ''),
                         }
                     },
+                    // Raw catalogue alt: ProductSchema applies the Arabic brand
+                    // spellings itself, and only to alts that are Arabic text —
+                    // localizing a Latin-only alt here produced hybrids such as
+                    // "انكر 737 premium aluminum body ...".
                     images: product.images?.map(img => ({
                         url: img.url,
-                        alt: isArabic ? localizeArabicBrandNames(img.alt || '') : (img.alt || ''),
+                        alt: img.alt || '',
                         width: img.width,
                         height: img.height,
                     })) || []
@@ -561,6 +617,11 @@ export default async function ProductPage({ params }: Props) {
                 specifications={isArabic
                     ? localizeArabicFields(productDetailData?.specifications)
                     : productDetailData?.specifications}
+                // Never bury a recall: a recall-programme model's JSON-LD
+                // description opens with the same disclosure shown under the H1.
+                leadNotice={isRecallAffectedSlug(product.slug)
+                    ? productDetailData?.aiTldr?.[isArabic ? 'ar' : 'en']?.[0]
+                    : undefined}
             />
 
             {(() => {
@@ -568,12 +629,19 @@ export default async function ProductPage({ params }: Props) {
                 if (productDetailData?.benchTest) speakableSelectors.push('[data-speakable="lab-verdict"]');
                 if (productDetailData?.aiTldr) speakableSelectors.push('[data-speakable="ai-tldr"]');
                 if (!speakableSelectors.length) return null;
-                const productUrl = `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${product.slug}`;
+                // The page's WebPage node, tied into the graph: it is about the
+                // Product on this URL (same `${url}#product` @id ProductSchema
+                // emits) and is part of the site-wide WebSite node.
                 return (
                     <SpeakableSchema
                         locale={locale}
-                        url={productUrl}
+                        url={productPageUrl}
                         cssSelectors={speakableSelectors}
+                        name={isArabic
+                            ? localizeArabicBrandNames(product.translations?.ar?.name || '')
+                            : (product.translations?.en?.name || '')}
+                        mainEntityId={`${productPageUrl}#product`}
+                        isPartOfId="https://cairovolt.com/#website"
                     />
                 );
             })()}
@@ -592,7 +660,7 @@ export default async function ProductPage({ params }: Props) {
                     { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
                     { name: getBrandDisplayName(product.brand, locale), url: `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}` },
                     ...(categoryRouteExists ? [{
-                        name: product.categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+                        name: categoryDisplayName,
                         url: `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}`
                     }] : []),
                     { name: productName, url: `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${product.slug}` },
@@ -634,6 +702,7 @@ export default async function ProductPage({ params }: Props) {
                 } as Product}
                 relatedProducts={relatedProducts}
                 alsoBoughtProducts={alsoBoughtProducts}
+                guides={productGuides}
                 bundleData={bundleData}
                 locale={locale}
                 brand={brand}

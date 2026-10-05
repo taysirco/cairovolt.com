@@ -7,9 +7,16 @@ import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { ArticleSchema, FAQPageSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
 import { SpeakableSchema } from '@/components/schemas/SpeakableSchema';
 import { getProductBySlug } from '@/lib/static-products';
-import { sanitizeRelatedProductSlugs } from '@/lib/merchant-product-data';
+import {
+    MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
+    getMerchantProductUrl,
+    isRecallAffectedSlug,
+    isRecallStockVerifiedOutsideScope,
+    sanitizeRelatedProductSlugs,
+} from '@/lib/merchant-product-data';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
+import { RecallNotice, getArticleRecallSlugs } from '@/components/blog/RecallNotice';
 import dynamic from 'next/dynamic';
 const BlogInteractiveWidgets = dynamic(() => import('@/components/interactive/BlogInteractiveWidgets'));
 
@@ -75,6 +82,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 'en-EG': `https://cairovolt.com/en/blog/${slug}`,
                 'x-default': `https://cairovolt.com/blog/${slug}`,
             },
+            // Advertise the locale's fresh-guides RSS (rel="alternate").
+            types: {
+                'application/rss+xml': isArabic
+                    ? [{ url: 'https://cairovolt.com/api/discover-feed', title: 'كايرو فولت — أحدث الأدلة' }]
+                    : [{ url: 'https://cairovolt.com/api/discover-feed?locale=en', title: 'CairoVolt — Latest guides' }],
+            },
         },
         openGraph: {
             title: trans.metaTitle,
@@ -99,12 +112,32 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             description: trans.metaDescription,
             ...(entry.coverImage ? { images: [`https://cairovolt.com/images/blog/og/${slug}.jpg`] } : {}),
         },
-        robots: {
-            index: true,
-            follow: true,
-        },
+        // No page-level `robots`: a page value REPLACES the layout's, which
+        // silently dropped googleBot max-image-preview:large / max-snippet:-1
+        // on every article. The layout's index/follow + googleBot block applies.
     };
 }
+
+/**
+ * Product slugs linked from an article's HTML, in first-appearance order.
+ * Same href shape as the index's bodyProductLinks (contract C2).
+ */
+function getLinkedProductSlugs(html: string): string[] {
+    const out: string[] = [];
+    const seen = new Set<string>();
+    const re = /href=\\?"(?:\/en)?\/(?:anker|soundcore|joyroom|jbl)\/[a-z0-9-]+\/([a-z0-9.-]+)\\?"/g;
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(html)) !== null) {
+        if (!seen.has(m[1])) {
+            seen.add(m[1]);
+            out.push(m[1]);
+        }
+    }
+    return out;
+}
+
+/** Hosts CairoVolt controls (or satellite copies of its own content): never a citation. */
+const SELF_CONTROLLED_REFERENCE_HOST = /cairovolt|cairovolteg|althaqelco|gamesuy|yumpu\.com|rubygems\.org/i;
 
 const categoryLabels: Record<string, { ar: string; en: string; icon: string }> = {
     'buying-guide': { ar: 'دليل شراء', en: 'Buying Guide', icon: 'book' },
@@ -207,6 +240,78 @@ export default async function BlogArticlePage({ params }: Props) {
         return picked;
     })();
 
+    const articleUrl = `https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`;
+
+    // Recall disclosure: curated relatedProducts in the recall set, plus model
+    // mentions in EITHER locale's copy (AR/EN parity — a notice must not appear
+    // on one language and be missing on the other).
+    const recallSlugs = getArticleRecallSlugs(article.relatedProducts || [], [
+        ...(['ar', 'en'] as const).flatMap((loc) => {
+            const t = article.translations[loc];
+            return [
+                t.content,
+                t.quickAnswer,
+                ...(t.faq || []).flatMap((item: { question: string; answer: string }) => [item.question, item.answer]),
+            ];
+        }),
+    ]);
+
+    // Products this locale's body actually links to (first-appearance order).
+    const linkedProductSlugs = getLinkedProductSlugs(rawTrans.content);
+
+    // BlogPosting.mentions — only products the body links to, only active ones
+    // that are not withheld from machine catalogues. @id = the PDP Product node.
+    // Deliberately an untyped @id reference (no '@type': 'Product'): Google
+    // evaluates every typed Product it finds, and a name-only Product here
+    // (no offers/review) would be reported as an invalid Product snippet /
+    // incomplete merchant listing on every guide — the same failure that made
+    // ItemListSchema drop its nested thin Products. The PDP owns the full node.
+    const schemaMentions = linkedProductSlugs.flatMap((productSlug) => {
+        const product = getProductBySlug(productSlug);
+        if (!product || product.status !== 'active' || MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(productSlug)) return [];
+        const productName = product.translations[isArabic ? 'ar' : 'en'].name;
+        const productUrl = getMerchantProductUrl(product, locale);
+        return [{
+            '@id': `${productUrl}#product`,
+            name: isArabic ? localizeArabicBrandNames(productName) : productName,
+            url: productUrl,
+        }];
+    });
+
+    // BlogPosting.citation — third-party sources only; references to hosts
+    // CairoVolt controls are not citations.
+    const schemaCitations = (article.externalReferences || []).flatMap((ref) => {
+        let host = '';
+        try {
+            host = new URL(ref.url).hostname;
+        } catch {
+            return [];
+        }
+        if (SELF_CONTROLLED_REFERENCE_HOST.test(host)) return [];
+        const name = ref.title[isArabic ? 'ar' : 'en'] || ref.title.en || ref.title.ar;
+        return name ? [{ name, url: ref.url }] : [];
+    });
+
+    // Dates are shown on the Cairo calendar: an offset timestamp such as
+    // 2026-10-05T01:30:00+03:00 must not print as the previous day on a UTC host.
+    const formatArticleDate = (iso: string) =>
+        new Date(iso).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US', {
+            year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Africa/Cairo',
+        });
+    const publishedLabel = formatArticleDate(article.publishDate);
+    const updatedLabel = formatArticleDate(article.modifiedDate);
+    // "Updated" only when the article really changed on a later day — a same-day
+    // value that differs only in format/time would print the same date twice.
+    const showUpdatedDate = article.publishDate !== article.modifiedDate
+        && Date.parse(article.modifiedDate) > Date.parse(article.publishDate)
+        && updatedLabel !== publishedLabel;
+    // schema.org dateModified must never precede datePublished: a date-only
+    // modifiedDate ('2026-10-04' = 00:00 UTC) on an article published later that
+    // same day would otherwise claim the edit happened before publication.
+    const schemaDateModified = Date.parse(article.modifiedDate) < Date.parse(article.publishDate)
+        ? article.publishDate
+        : article.modifiedDate;
+
     return (
         <div suppressHydrationWarning>
             {/* Structured Data */}
@@ -226,9 +331,12 @@ export default async function BlogArticlePage({ params }: Props) {
                 articleType="BlogPosting"
                 image={article.coverImage ? `https://cairovolt.com${article.coverImage}` : undefined}
                 datePublished={article.publishDate}
-                dateModified={article.modifiedDate}
+                dateModified={schemaDateModified}
                 // Visible quick-answer summary (QuickAnswerBox below) as schema.org abstract.
                 abstract={trans.quickAnswer}
+                id={`${articleUrl}#article`}
+                citations={schemaCitations}
+                mentions={schemaMentions}
             />
             {/* FAQPage markup mirrors the visible FAQ accordion at the end of the article —
                 same trans.faq array, so the markup can never diverge from on-page content. */}
@@ -242,7 +350,12 @@ export default async function BlogArticlePage({ params }: Props) {
             {trans.quickAnswer && (
                 <SpeakableSchema
                     locale={locale}
-                    url={`https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`}
+                    url={articleUrl}
+                    name={trans.title}
+                    // Joins the WebPage node to the BlogPosting (#article) and the
+                    // site's WebSite node, the same graph shape the PDP uses.
+                    mainEntityId={`${articleUrl}#article`}
+                    isPartOfId="https://cairovolt.com/#website"
                     cssSelectors={['[data-speakable="quick-answer"]']}
                 />
             )}
@@ -265,7 +378,8 @@ export default async function BlogArticlePage({ params }: Props) {
             {/* Share Analytics — captures WhatsApp shares as trackable direct traffic */}
             <ShareAnalytics />
 
-            <main className="min-h-screen bg-white dark:bg-gray-900" dir={isArabic ? 'rtl' : 'ltr'}>
+            {/* The layout owns the page's single <main>; the article itself is an <article>. */}
+            <article className="min-h-screen bg-white dark:bg-gray-900" dir={isArabic ? 'rtl' : 'ltr'}>
                 {/* Breadcrumb */}
                 <div className="bg-gray-50 dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700">
                     <div className="container mx-auto px-4 py-3">
@@ -365,14 +479,25 @@ export default async function BlogArticlePage({ params }: Props) {
                         <QuickAnswerBox answer={trans.quickAnswer} locale={locale} variant="highlighted" />
                     )}
 
+                    {/* Recall disclosure — directly under the answer, never buried. */}
+                    <RecallNotice slugs={recallSlugs} locale={locale} />
+
                     <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600 dark:text-gray-400 pb-6 border-b border-gray-100 dark:border-gray-700">
                         <span className="flex items-center gap-1.5">
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                            <time dateTime={article.modifiedDate}>
-                                {new Date(article.modifiedDate).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US', {
-                                    year: 'numeric', month: 'long', day: 'numeric',
-                                })}
-                            </time>
+                            {showUpdatedDate ? (
+                                <span>
+                                    {isArabic ? 'نُشر ' : 'Published '}
+                                    <time dateTime={article.publishDate}>{publishedLabel}</time>
+                                    {isArabic ? ' · حُدّث ' : ' · Updated '}
+                                    <time dateTime={article.modifiedDate}>{updatedLabel}</time>
+                                </span>
+                            ) : (
+                                <span>
+                                    {isArabic ? 'نُشر ' : 'Published '}
+                                    <time dateTime={article.publishDate}>{publishedLabel}</time>
+                                </span>
+                            )}
                         </span>
                         <span className="flex items-center gap-1.5">
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
@@ -402,7 +527,7 @@ export default async function BlogArticlePage({ params }: Props) {
                 </header>
 
                 {/* Article Content */}
-                <article className="container mx-auto px-4 md:px-4 max-w-4xl pb-16 md:pb-12">
+                <div className="container mx-auto px-4 md:px-4 max-w-4xl pb-16 md:pb-12">
                     <aside className="mb-8 rounded-2xl border border-blue-200 bg-blue-50 p-5 text-sm leading-7 text-slate-700 dark:border-blue-800 dark:bg-blue-950/30 dark:text-slate-200">
                         <strong className="block text-blue-800 dark:text-blue-200">
                             {isArabic ? 'ملاحظة عن المنهجية' : 'Methodology note'}
@@ -531,7 +656,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                         href={isArabic ? '/team' : '/en/team'}
                                         className="inline-flex items-center gap-2 text-sm font-semibold text-purple-600 dark:text-purple-400 hover:underline"
                                     >
-                                        {isArabic ? 'خبراء ننصح بمتابعتهم' : 'Experts we recommend'}
+                                        {isArabic ? 'قنوات تقنية خارجية' : 'External tech channels'}
                                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                                     </Link>
                                 </div>
@@ -614,14 +739,21 @@ export default async function BlogArticlePage({ params }: Props) {
                         </div>
                     </div>
 
-                    {/* Product Recommendations — remap aliases, drop recalls */}
+                    {/* Product Recommendations — remap aliases; products the body links to first */}
                     {(() => {
-                        const relatedSlugs = sanitizeRelatedProductSlugs(article.relatedProducts || []);
-                        if (relatedSlugs.length === 0) return null;
+                        const sanitized = sanitizeRelatedProductSlugs(article.relatedProducts || []);
+                        if (sanitized.length === 0) return null;
+                        // Stable partition: cards whose PDP the article body links to
+                        // lead (in the body's order), the rest keep their curated order.
+                        const linkedRank = new Map(linkedProductSlugs.map((s, i) => [s, i] as const));
+                        const relatedSlugs = [
+                            ...sanitized.filter(s => linkedRank.has(s)).sort((a, b) => (linkedRank.get(a) ?? 0) - (linkedRank.get(b) ?? 0)),
+                            ...sanitized.filter(s => !linkedRank.has(s)),
+                        ];
                         return (
                         <section className="mt-12 pt-8 border-t border-gray-100 dark:border-gray-800">
                             <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
-                                {isArabic ? <><SvgIcon name="cart" className="w-6 h-6 inline-block" /> المنتجات المذكورة في المقال</> : <><SvgIcon name="cart" className="w-6 h-6 inline-block" /> Products Mentioned in This Article</>}
+                                {isArabic ? <><SvgIcon name="cart" className="w-6 h-6 inline-block" /> منتجات مرتبطة بالموضوع</> : <><SvgIcon name="cart" className="w-6 h-6 inline-block" /> Related products</>}
                             </h2>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
                                 {relatedSlugs.map((slug: string) => {
@@ -631,6 +763,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                     const isAnkerBrand = prod.brand.toLowerCase() === 'anker';
                                     const isJblBrand = prod.brand.toLowerCase() === 'jbl';
                                     const primaryImage = prod.images?.find(img => img.isPrimary) || prod.images?.[0];
+                                    const showRecallBadge = isRecallAffectedSlug(slug) && !isRecallStockVerifiedOutsideScope(slug);
                                     return (
                                         <Link
                                             key={slug}
@@ -659,6 +792,14 @@ export default async function BlogArticlePage({ params }: Props) {
                                                         {getBrandDisplayName(prod.brand, locale)}
                                                     </span>
                                                 </div>
+                                                {/* Recall shelf marker (same rule as listing surfaces) */}
+                                                {showRecallBadge && (
+                                                    <div className="absolute bottom-2.5 inset-x-2.5">
+                                                        <span className="block text-center text-[11px] font-bold px-2.5 py-1 rounded-full bg-amber-500/95 text-white shadow-sm">
+                                                            {isArabic ? '⚠️ استدعاء — راجع صفحة المنتج' : '⚠️ Recall — see product page'}
+                                                        </span>
+                                                    </div>
+                                                )}
                                             </div>
                                             {/* Product Info */}
                                             <div className="p-4">
@@ -782,8 +923,8 @@ export default async function BlogArticlePage({ params }: Props) {
                             </div>
                         </section>
                     )}
-                </article>
-            </main>
+                </div>
+            </article>
         </div>
     );
 }

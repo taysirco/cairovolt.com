@@ -34,10 +34,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 'x-default': 'https://cairovolt.com/team',
             },
         },
-        robots: {
-            index: true,
-            follow: true,
-        },
+        // No page-level `robots`: it replaced the layout's googleBot block
+        // (max-image-preview:large, max-snippet:-1).
         openGraph: {
             title,
             description,
@@ -80,7 +78,7 @@ export default async function TeamPage({ params }: Props) {
                 locale={locale}
             />
 
-            <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800" dir={isArabic ? 'rtl' : 'ltr'}>
+            <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800" dir={isArabic ? 'rtl' : 'ltr'}>
                 <div className="container mx-auto px-4 py-16">
                     {/* Hero Section */}
                     <div className="text-center mb-16 max-w-4xl mx-auto">
@@ -300,7 +298,7 @@ export default async function TeamPage({ params }: Props) {
                         </div>
                     </div>
                 </div>
-            </main>
+            </div>
         </>
     );
 }

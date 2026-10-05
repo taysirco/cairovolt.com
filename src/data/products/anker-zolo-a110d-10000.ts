@@ -83,7 +83,7 @@ export const anker_zolo_a110d_10000 = {
                 metaTitle: "Anker ZOLO 10000mAh | Built-in Cable | COD Egypt",
                 metaDesc: "The genuine Anker ZOLO 10,000mAh power bank has a built-in USB-C cable and smart display. Buy in Egypt with store warranty and cash on delivery.",
                 faqs: [
-                    { question: "Does the built-in cable charge USB-C phones?", answer: "Confirm that the supplied A110D variant lists the built-in cable as an output and match its profile with the phone. Actual power depends on the phone, battery level, temperature and simultaneous use." },
+                    { question: "Does the built-in cable charge USB-C phones?", answer: "Yes. The built-in USB-C cable is bidirectional — it charges the pack and powers devices — and it delivered a 21.4W peak in our test (22.5W class rated). Actual power depends on the phone, battery level, temperature and simultaneous use." },
                     { question: "Can I use several outputs at the same time?", answer: "Check the printed simultaneous-use table for the built-in cable, USB-C and USB-A combination. Total power may be shared and can differ from a single-output figure." },
                     { question: "How long does it take to recharge the power bank?", answer: "Recharge time depends on the supported input profile, charger, cable, battery level, use and temperature. Verify whether the built-in cable supports input on the exact variant." },
                     { question: "Can it charge AirPods and smartwatches?", answer: "Use the listed low-power mode only after confirming the accessory's input and the operating steps in the A110D manual. A mode label is not a guarantee for every accessory." },
@@ -146,7 +146,7 @@ export const anker_zolo_a110d_10000 = {
                 metaTitle: "باور بانك انكر زولو 10000 | كابل مدمج | COD مصر",
                 metaDesc: "باور بانك انكر زولو الأصلي بسعة 10000 مللي أمبير وكابل USB-C مدمج وشاشة، متوفر في مصر بضمان المتجر والدفع عند الاستلام.",
                 faqs: [
-                    { question: "هل الكابل المدمج يشحن هواتف USB-C؟", answer: "تحقق أن نسخة A110D الموردة تذكر الكابل المدمج كمخرج وطابق بروفايله مع الهاتف. القدرة الفعلية تعتمد على الهاتف والبطارية والحرارة والاستخدام المتزامن." },
+                    { question: "هل الكابل المدمج يشحن هواتف USB-C؟", answer: "نعم. الكابل المدمج USB-C ثنائي الاتجاه — يشحن الباور بانك ويغذّي الأجهزة — وأعطى ذروة 21.4 واط في اختبارنا (فئة 22.5 واط اسميًا). القدرة الفعلية تعتمد على الهاتف والبطارية والحرارة والاستخدام المتزامن." },
                     { question: "هل أستخدم عدة مخارج معاً؟", answer: "راجع جدول الاستخدام المتزامن للكابل المدمج ومنفذي USB-C وUSB-A. قد تتوزع القدرة وتختلف عن رقم المنفذ الواحد." },
                     { question: "كام ساعة يشحن الباور بانك نفسه؟", answer: "زمن الشحن يعتمد على بروفايل الدخل والشاحن والكابل ومستوى البطارية والاستخدام والحرارة. تحقق هل الكابل المدمج يدعم الإدخال على النسخة الموردة." },
                     { question: "هل يناسب الايربودز والساعة الذكية؟", answer: "استخدم وضع التيار المنخفض فقط بعد مطابقة دخل الملحق وخطوات التشغيل في دليل A110D؛ اسم الوضع لا يضمن التوافق مع كل ملحق." },

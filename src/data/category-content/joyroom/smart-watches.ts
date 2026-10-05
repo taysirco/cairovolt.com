@@ -5,20 +5,20 @@ export const joyroom_smart_watches_content: CategoryContent = {
             categoryName: 'Smart Watches',
             metadata: {
                 en: {
-                    title: 'Joyroom Smartwatch Egypt | JR-FT3, IPS and Bluetooth Calling',
-                    description: 'Compare Joyroom smartwatches by display, Bluetooth calling, rated battery life, app compatibility, and water-resistance rating. Current price and CairoVolt warranty are listed per product.',
-                    keywords: 'جوي روم smartwatch, جوي روم smart watch, جوي روم watch egypt, جوي روم FT3, ساعة جوي روم FT3, smart watch egypt, fitness tracker egypt, joyroom JR-FT3 IPS watch, ساعة جوي روم, bluetooth calling watch',
+                    title: 'Joyroom Smartwatch Egypt | JR-FT3, IPS and Call Notifications',
+                    description: 'Compare Joyroom smartwatches by display, call notifications, rated battery life, app compatibility, and water-resistance rating. Current price and CairoVolt warranty are listed per product.',
+                    keywords: 'جوي روم smartwatch, جوي روم smart watch, جوي روم watch egypt, جوي روم FT3, ساعة جوي روم FT3, smart watch egypt, fitness tracker egypt, joyroom JR-FT3 IPS watch, ساعة جوي روم',
                 },
                 ar: {
-                    title: 'ساعة جوي روم الذكية JR-FT3 | شاشة IPS ومكالمات بلوتوث',
-                    description: 'قارن ساعات جوي روم حسب الشاشة ومكالمات البلوتوث وعمر البطارية المعلن وتوافق التطبيق وتصنيف مقاومة الماء. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
-                    keywords: 'ساعة جوي روم, ساعة ذكية جوي روم, ساعة ذكية مصر, جوي روم FT3, ساعة سمارت مصر, ساعة رياضية ذكية, ساعة بلوتوث كولينج, سعر ساعة جوي روم, ساعة مكالمات بلوتوث',
+                    title: 'ساعة جوي روم الذكية JR-FT3 | شاشة IPS وإشعارات مكالمات',
+                    description: 'قارن ساعات جوي روم حسب الشاشة وإشعارات المكالمات وعمر البطارية المعلن وتوافق التطبيق وتصنيف مقاومة الماء. السعر الحالي وضمان كايرو فولت موضحان لكل منتج.',
+                    keywords: 'ساعة جوي روم, ساعة ذكية جوي روم, ساعة ذكية مصر, جوي روم FT3, ساعة سمارت مصر, ساعة رياضية ذكية, ساعة بلوتوث كولينج, سعر ساعة جوي روم',
                 }
             },
             pageContent: {
                 ar: {
                     title: 'ساعة جوي روم الذكية حسب الشاشة والاتصال',
-                    subtitle: 'شاشة IPS 1.85 بوصة ومكالمات بلوتوث وبطارية قِسناها 4 أيام و7 ساعات',
+                    subtitle: 'شاشة IPS 1.85 بوصة وإشعارات مكالمات (رفض/كتم بدون مايك) وبطارية قِسناها 4 أيام و7 ساعات',
                     description: `
 تختلف ساعات **جوي روم** في نوع الشاشة وإصدار البلوتوث والمكالمات وعمر البطارية المعلن وتصنيف مقاومة الماء. راجع مواصفات الموديل المعروض هنا (JR-FT3) في صفحته، ولا تفترض أن كل موديلات الشركة تحمل الميزات نفسها.
 راجع السعر الحالي وضمان كايرو فولت في صفحة المنتج. موعد التوصيل تقديري حسب العنوان، وتسوق [شاحن جوي روم](/joyroom/wall-chargers) فقط إذا كان متوافقاً مع متطلبات الساعة.
@@ -54,7 +54,7 @@ export const joyroom_smart_watches_content: CategoryContent = {
                             content: `
 1. **الموديل:** طابق رقم الموديل ونوع الشاشة والحجم مع معلومات الشركة المتاحة.
 2. **التطبيق:** موديل JR-FT3 يقترن بتطبيق Smart Time Pro — تحقق من إصدارات iOS وAndroid المدعومة قبل الشراء.
-3. **البطارية:** استخدم المدة المعلنة للموديل باعتبارها تقديراً يتغير مع الشاشة والمكالمات والقياس.
+3. **البطارية:** استخدم المدة المعلنة للموديل باعتبارها تقديراً يتغير مع الشاشة وإشعارات المكالمات والقياس.
 4. **العلبة:** استخدم وسيلة التحقق الرسمية المتاحة إن وُجدت؛ كود QR أو السيريال وحده لا يثبت أصالة الشركة المصنّعة.
 5. **الفاتورة والضمان:** احتفظ بفاتورة كايرو فولت وراجع المدة والشروط في صفحة المنتج والسياسة.
 `
@@ -75,7 +75,7 @@ export const joyroom_smart_watches_content: CategoryContent = {
                     faq: [
                         {
                             question: 'هل ساعة جوي روم بتشحن الموبايل؟ (سؤال شائع)',
-                            answer: 'لا، الساعة لا تشحن الموبايل. عرض الإشعارات والرد على المكالمات من المعصم قد يقلل مرات فتح الشاشة، لكن أثر ذلك على بطارية الهاتف يختلف ولا توجد نسبة ثابتة.'
+                            answer: 'لا، الساعة لا تشحن الموبايل. عرض الإشعارات ورفض أو كتم المكالمات من المعصم قد يقلل مرات فتح الشاشة، لكن أثر ذلك على بطارية الهاتف يختلف ولا توجد نسبة ثابتة.'
                         },
                         {
                             question: 'هل الساعة آمنة على المعصم؟ وهل بتسبب حساسية؟',
@@ -84,7 +84,7 @@ export const joyroom_smart_watches_content: CategoryContent = {
                         {
                             // كان: "إيه الفرق بين FT3 Pro و FT5؟" — موديلان غير موجودين.
                             question: 'البطارية بتقعد قد إيه فعلاً؟',
-                            answer: 'قِسنا 4 أيام و7 ساعات على العيّنة CV-SW-JRFT3-001 من 100% حتى الإطفاء التلقائي، مع بلوتوث مقترن دائماً وملف استخدام يومي معرّف. المدة تقل مع المكالمات وكثرة إيقاظ الشاشة وقياس النبض المتكرر.'
+                            answer: 'قِسنا 4 أيام و7 ساعات على العيّنة CV-SW-JRFT3-001 من 100% حتى الإطفاء التلقائي، مع بلوتوث مقترن دائماً وملف استخدام يومي معرّف. المدة تقل مع كثرة إشعارات المكالمات وإيقاظ الشاشة وقياس النبض المتكرر.'
                         },
                         {
                             question: 'هل الساعة بتتوافق مع الايفون والاندرويد؟',
@@ -92,7 +92,7 @@ export const joyroom_smart_watches_content: CategoryContent = {
                         },
                         {
                             question: 'الساعة بتسخن ولا لا؟',
-                            answer: 'قد تصبح الساعة دافئة أثناء الشحن أو المكالمات الطويلة. استخدم الشاحن الموصى به، وانزع الساعة وتوقف عن استخدامها إذا ظهرت سخونة غير طبيعية.'
+                            answer: 'قد تصبح الساعة دافئة أثناء الشحن أو الاستخدام المكثف للشاشة والقياسات. استخدم الشاحن الموصى به، وانزع الساعة وتوقف عن استخدامها إذا ظهرت سخونة غير طبيعية.'
                         }
                         ,{
                             question: 'هل ساعة جوي روم بتقيس ضغط الدم والأكسجين؟',
@@ -103,19 +103,14 @@ export const joyroom_smart_watches_content: CategoryContent = {
                             answer: 'جزئياً. بتعرض الوقت والتاريخ وبتسجل الخطوات والنبض بدون موبايل. لكن المكالمات والإشعارات والطقس محتاجة اتصال بلوتوث بالموبايل.'
                         }
                         ,{
-                            question: 'كم سعر ساعة جوي روم في مصر؟',
-                            answer: 'السعر الحالي يظهر في بطاقة وصفحة كل موديل وقد يتغير مع المخزون والعروض. قارن الشاشة والمكالمات والتطبيق والبطارية، ثم راجع ضمان كايرو فولت المكتوب للمنتج.'
+                            question: 'سعر ساعة سمارت جوي روم FT3 كام؟',
+                            answer: 'ساعة جوي روم FT3 (JR-FT3) سعرها الحالي في كايرو فولت {minPrice} جنيه، والسعر المحدّث يظهر دائمًا على بطاقة المنتج ويتغير مع المخزون والعروض. قارن الشاشة وإشعارات المكالمات والتطبيق والبطارية، ثم راجع ضمان كايرو فولت المكتوب للمنتج.'
                         }
                     ],
-                    // كانا مدخلين بنفس السعر (1092) لموديلين غير موجودين — وهو في الحقيقة
-                    // سعر الموديل الوحيد المعروض. استُبدلا بمدخل واحد للمنتج الحقيقي.
-                    products: [
-                        { name: 'ساعة جوي روم FT3 (JR-FT3) — IP68 وأوضاع رياضية', price: 1092, badge: 'IPS 1.85 بوصة' }
-                    ]
                 },
                 en: {
                     title: 'Joyroom Smartwatches by Display and Connectivity',
-                    subtitle: '1.85" IPS display, Bluetooth calling, and a battery we measured at 4 days 7 hours',
+                    subtitle: '1.85" IPS display, call notifications (reject/mute, no mic), battery we measured at 4 days 7 hours',
                     description: `
 Joyroom smartwatch models vary in display type, Bluetooth version, calling features, rated battery life, and water-resistance rating. Check the specifications of the model listed here (JR-FT3) on its own page rather than assuming the whole range is identical.
 Check the current price and CairoVolt warranty on the product page. Delivery timing is estimated from the confirmed address. A serial number or warranty record alone does not prove manufacturer authenticity.
@@ -149,7 +144,7 @@ Check the current price and CairoVolt warranty on the product page. Delivery tim
                             content: `
 1. **Model:** Match the model number, display type, and dimensions with the manufacturer's available information.
 2. **App:** The JR-FT3 pairs with the Smart Time Pro app — confirm the supported iOS and Android versions before purchase.
-3. **Battery:** Treat the model's rated duration as an estimate affected by display, calls, and sensor use.
+3. **Battery:** Treat the model's rated duration as an estimate affected by display, call notifications, and sensor use.
 4. **Box:** Use an available official verification method if provided. A QR code or serial alone does not prove manufacturer authenticity.
 5. **Invoice and warranty:** Keep the CairoVolt invoice and review duration and terms on the product page and policy.
 `
@@ -170,7 +165,7 @@ Check the current price and CairoVolt warranty on the product page. Delivery tim
                     faq: [
                         {
                             question: 'Does a Joyroom watch charge the phone? (common question)',
-                            answer: 'No. The watch does not charge the phone. Showing notifications and answering calls from the wrist may reduce how often you open the screen, but the effect on phone battery varies and there is no fixed percentage.'
+                            answer: 'No. The watch does not charge the phone. Showing notifications and rejecting or muting calls from the wrist may reduce how often you open the screen, but the effect on phone battery varies and there is no fixed percentage.'
                         },
                         {
                             question: 'Is the watch safe on the wrist? Can it cause irritation?',
@@ -179,7 +174,7 @@ Check the current price and CairoVolt warranty on the product page. Delivery tim
                         {
                             // Was "FT3 Pro vs FT5" — neither model exists in the catalogue.
                             question: 'How long does the battery actually last?',
-                            answer: 'We measured 4 days 7 hours on sample CV-SW-JRFT3-001, from 100% to auto shutdown, with Bluetooth paired throughout and a defined daily-use profile. Expect less with calls, frequent screen wakes and repeated heart-rate readings.'
+                            answer: 'We measured 4 days 7 hours on sample CV-SW-JRFT3-001, from 100% to auto shutdown, with Bluetooth paired throughout and a defined daily-use profile. Expect less with frequent call notifications, screen wakes and repeated heart-rate readings.'
                         },
                         {
                             question: 'Does the watch work with iPhone and Android?',
@@ -187,7 +182,7 @@ Check the current price and CairoVolt warranty on the product page. Delivery tim
                         },
                         {
                             question: 'Does the watch get warm?',
-                            answer: 'The watch may become warm during charging or long calls. Use the recommended charger, and remove the watch and stop using it if unusual heat appears.'
+                            answer: 'The watch may become warm during charging or heavy screen and sensor use. Use the recommended charger, and remove the watch and stop using it if unusual heat appears.'
                         },
                         {
                             question: 'Does a Joyroom watch measure blood pressure and oxygen?',
@@ -198,15 +193,10 @@ Check the current price and CairoVolt warranty on the product page. Delivery tim
                             answer: 'Partially. It can show time and date and record steps and heart rate without a phone. Calls, notifications, and weather need a Bluetooth connection to the phone.'
                         },
                         {
-                            question: 'How much does a Joyroom watch cost in Egypt?',
-                            answer: 'The live price is shown on each model card and page and can change with stock and promotions. Compare display, calls, app, and battery, then review the CairoVolt warranty written for the product.'
+                            question: 'How much is the Joyroom FT3 smartwatch in Egypt?',
+                            answer: 'The Joyroom FT3 (JR-FT3) is currently {minPrice} EGP at CairoVolt; the live price always appears on the product card and can change with stock and promotions. Compare display, call notifications, app, and battery, then review the CairoVolt warranty written for the product.'
                         }
                     ],
-                    // Were two entries at the same price (1092) for two models that do not
-                    // exist — that price belongs to the one model actually listed.
-                    products: [
-                        { name: 'Joyroom FT3 Watch (JR-FT3) — IP68, sports modes', price: 1092, badge: '1.85" IPS' }
-                    ]
                 }
             }
         };

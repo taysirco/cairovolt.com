@@ -26,16 +26,16 @@ export const joyroom_t03s_pro_earbuds = {
         ],
         translations: {
             en: {
-                name: "Joyroom T03S Pro ANC Earbuds | 30H Battery | Bluetooth 5.3",
-                shortDescription: "🎧 Active Noise Cancellation (ANC) | 🔋 30H Total Playtime | 📱 Bluetooth 5.3 Low Latency | 💧 IPX5 Water Resistant | 👆 Touch Controls",
+                name: "Joyroom T03S Pro ANC Earbuds",
+                shortDescription: "🎧 Active Noise Cancellation (ANC) | 🔋 7h earbuds / 35h with case (manufacturer retail art) | 📱 Bluetooth 5.2 (as printed on the carton) | 💧 IPX5 Water Resistant | 👆 Touch Controls",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom T03S Pro</strong> listing describes active noise cancellation, Bluetooth 5.3, an IPX5 rating and manufacturer battery figures. Confirm model <strong>JR-AU-T03SPRO</strong>, the ANC and battery test conditions, codec and device support, environmental limits and package contents. Noise reduction, runtime, latency, call quality and fit vary by user, device and surroundings. Check current price, stock and warranty terms.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom T03S Pro</strong> listing describes active noise cancellation, Bluetooth 5.2 (as printed on the carton), an IPX5 rating and manufacturer battery figures. Confirm model <strong>JR-AU-T03SPRO</strong>, the ANC and battery test conditions, codec and device support, environmental limits and package contents. Noise reduction, runtime, latency, call quality and fit vary by user, device and surroundings. Check current price, stock and warranty terms.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
         <li>🎧 <strong>ANC:</strong> verify the published reduction figure and test method for this exact model.</li>
         <li>🔋 <strong>Published battery:</strong> confirm test conditions; actual runtime varies.</li>
-        <li>📱 <strong>Bluetooth 5.3:</strong> latency and pop-up support depend on the device and software.</li>
+        <li>📱 <strong>Bluetooth 5.2 (as printed on the carton):</strong> latency and pop-up support depend on the device and software.</li>
         <li>💧 <strong>IPX5:</strong> follow the exact limits and keep the charging case dry.</li>
     <li>💰 <strong>Current listing:</strong> Check the live price, stock and current warranty terms.</li></ul>
 </div>
@@ -70,7 +70,7 @@ export const joyroom_t03s_pro_earbuds = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Before paying, match model <strong>JR-AU-T03SPRO</strong>, the printed ratings, ports or connectors and package contents with the supplied unit and current manufacturer documentation. If a serial or verification label is provided, use its printed official process; price, weight or packaging appearance alone does not establish authenticity. Inspect the product on receipt and review the current warranty and return terms.</p></div>
 `,
-                features: ["🎧 Verify published ANC figure and method", "🔋 Published battery figures—actual runtime varies", "📱 Bluetooth 5.3—latency varies", "💧 IPX5—follow stated limits", "👆 Listed touch controls", "📱 Check iOS pop-up support", "🏆 Current warranty terms", "🔎 Verify ratings on unit and manufacturer documentation"],
+                features: ["🎧 Verify published ANC figure and method", "🔋 Published battery figures—actual runtime varies", "📱 Bluetooth 5.2 (as printed on the carton)—latency varies", "💧 IPX5—follow stated limits", "👆 Listed touch controls", "📱 Check iOS pop-up support", "🏆 Current warranty terms", "🔎 Verify ratings on unit and manufacturer documentation"],
                 metaTitle: "Joyroom T03S Pro Earbuds | ANC Noise Cancel | COD",
                 metaDesc: "Cut the noise and focus on your music with Joyroom T03S Pro earbuds — active noise cancellation and IPX5 resistance. Genuine, store warranty, COD Egypt.",
                 faqs: [
@@ -82,16 +82,16 @@ export const joyroom_t03s_pro_earbuds = {
                 ]
             },
             ar: {
-                name: "سماعة جوي روم T03S Pro | ANC وBluetooth 5.3",
-                shortDescription: "🎧 تحقق من مواصفات ANC | 🔋 أرقام بطارية معلنة | 📱 Bluetooth 5.3 | 💧 تصنيف IPX5",
+                name: "سماعة جوي روم T03S Pro | ANC",
+                shortDescription: "🎧 تحقق من مواصفات ANC | 🔋 أرقام بطارية معلنة | 📱 Bluetooth 5.2 (كما هو مطبوع على الكرتونة) | 💧 تصنيف IPX5",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">تذكر قائمة <strong>جوي روم T03S Pro</strong> إلغاء ضوضاء نشطاً وBluetooth 5.3 وتصنيف IPX5 وأرقام بطارية معلنة. تحقق من موديل <strong>JR-AU-T03SPRO</strong> وشروط اختبار ANC والبطارية ودعم الكودك والجهاز وحدود المقاومة ومحتويات العبوة. خفض الضوضاء والتشغيل والتأخير وجودة المكالمات والثبات تختلف حسب المستخدم والجهاز والبيئة. راجع السعر والمخزون والضمان الحالي.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">تذكر قائمة <strong>جوي روم T03S Pro</strong> إلغاء ضوضاء نشطاً وBluetooth 5.2 (كما هو مطبوع على الكرتونة) وتصنيف IPX5 وأرقام بطارية معلنة. تحقق من موديل <strong>JR-AU-T03SPRO</strong> وشروط اختبار ANC والبطارية ودعم الكودك والجهاز وحدود المقاومة ومحتويات العبوة. خفض الضوضاء والتشغيل والتأخير وجودة المكالمات والثبات تختلف حسب المستخدم والجهاز والبيئة. راجع السعر والمخزون والضمان الحالي.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
         <li>🎧 <strong>ANC:</strong> تحقق من رقم الخفض المعلن وطريقة اختبار الموديل الدقيق.</li>
         <li>🔋 <strong>البطارية المعلنة:</strong> راجع شروط الاختبار؛ التشغيل الفعلي يختلف.</li>
-        <li>📱 <strong>Bluetooth 5.3:</strong> التأخير والإشعار المنبثق يعتمدان على الجهاز والبرنامج.</li>
+        <li>📱 <strong>Bluetooth 5.2 (كما هو مطبوع على الكرتونة):</strong> التأخير والإشعار المنبثق يعتمدان على الجهاز والبرنامج.</li>
         <li>💧 <strong>IPX5:</strong> اتبع الحدود الدقيقة وحافظ على جفاف علبة الشحن.</li>
     </ul>
 </div>
@@ -126,7 +126,7 @@ export const joyroom_t03s_pro_earbuds = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحقق قبل الطلب:</h3><p class="text-gray-700">طابق JR-AU-T03SPRO ورقم تصنيف IP وأوضاع ANC والبطارية ومحتويات العبوة مع الوحدة ووثائق الشركة الحالية. لا تفترض زمناً ثابتاً مع ANC أو درجة عزل مماثلة لموديل آخر. جرّب مقاسات الأطراف وحافظ على مستوى صوت آمن وانتبه للطريق.</p></div>
 `,
-                features: ["🎧 تحقق من رقم ANC وطريقة الاختبار", "🔋 أرقام بطارية معلنة—التشغيل يختلف", "📱 Bluetooth 5.3—التأخير يختلف", "💧 تحقق من تصنيف IP وحدوده", "👆 تحكم باللمس حسب القائمة", "📱 تحقق من دعم إشعار iOS", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من القيم على الوحدة ووثائق الشركة"],
+                features: ["🎧 تحقق من رقم ANC وطريقة الاختبار", "🔋 أرقام بطارية معلنة—التشغيل يختلف", "📱 Bluetooth 5.2 (كما هو مطبوع على الكرتونة)—التأخير يختلف", "💧 تحقق من تصنيف IP وحدوده", "👆 تحكم باللمس حسب القائمة", "📱 تحقق من دعم إشعار iOS", "🧾 راجع سياسة الضمان والاسترجاع", "🔎 تحقق من القيم على الوحدة ووثائق الشركة"],
                 metaTitle: "سماعة جوي روم T03S Pro | إلغاء ضوضاء ANC | COD مصر",
                 metaDesc: "اقطع الضوضاء وركّز في موسيقاك مع سماعة جوي روم T03S Pro — عزل ضوضاء نشط ANC ومقاومة رذاذ IPX5. أصلية بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [

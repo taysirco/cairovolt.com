@@ -59,7 +59,7 @@ export const anker_737_powerbank = {
                     { question: "How many phone charges does it provide?", answer: "There is no universal count. It depends on phone battery size, battery health, cable, temperature, conversion losses and use during charging." },
                     { question: "What does the display show?", answer: "It shows operating power and time estimates. Values vary with load and are not calibrated laboratory measurements." },
                     { question: "How do I compare it with a lower-power bank?", answer: "Compare Wh, required laptop profile, port distribution, cable rating, size, live price and current warranty rather than wattage alone." },
-                    { question: "Does it support fast charging in both directions?", answer: "Check the printed input and output profiles. Maximum rates require compatible chargers, devices and cables." },
+                    { question: "Does it support fast charging in both directions?", answer: "Yes. Output: we measured a 136.8W USB-C peak against the 140W rating (needs a 140W-rated cable and an EPR-capable device). Input: Anker states about 1 hour to full with a 140W PD charger; an earlier CairoVolt run logged 52 minutes. Maximum rates require compatible chargers, devices and cables." },
                     { question: "How long does it take to recharge?", answer: "Recharge time depends on the charger's supported input profile, cable, temperature and remaining battery." },
                     { question: "Does it support pass-through charging?", answer: "Use pass-through only if the supplied manual explicitly supports it and follow its port and thermal limits." }
                 ]
@@ -85,7 +85,7 @@ export const anker_737_powerbank = {
                     { question: "يشحن الهاتف كام مرة؟", answer: "لا يوجد عدد ثابت؛ يتأثر بسعة بطارية الهاتف وصحتها والكابل والحرارة وفقد التحويل والاستخدام أثناء الشحن." },
                     { question: "ماذا تعرض الشاشة؟", answer: "تعرض قدرة التشغيل وتقديرات الوقت. تتغير القيم مع الحمل وليست قياسات معملية معايرة." },
                     { question: "كيف أقارنه بباور بانك أقل قدرة؟", answer: "قارن Wh وبروفايل اللابتوب وتوزيع المنافذ وتصنيف الكابل والحجم والسعر والضمان الحالي، لا الواط وحده." },
-                    { question: "هل يدعم الشحن السريع في الاتجاهين؟", answer: "راجع بروفايلات الإدخال والخرج المطبوعة. تحتاج المعدلات القصوى شواحن وأجهزة وكابلات متوافقة." },
+                    { question: "هل يدعم الشحن السريع في الاتجاهين؟", answer: "نعم. الخرج: قِسنا ذروة USB-C بلغت 136.8 واط مقابل تصنيف 140 واط (يتطلب كابلًا بتصنيف 140 واط وجهازًا يدعم EPR). الدخل: تذكر انكر نحو ساعة للامتلاء بشاحن PD بقدرة 140 واط، وسجّل اختبار سابق لكايرو فولت 52 دقيقة. تحتاج المعدلات القصوى شواحن وأجهزة وكابلات متوافقة." },
                     { question: "كم يستغرق شحنه؟", answer: "تعتمد المدة على بروفايل إدخال الشاحن والكابل والحرارة ونسبة البطارية المتبقية." },
                     { question: "هل يدعم الشحن التمريري؟", answer: "استخدمه فقط إذا كان الدليل المرفق يدعمه صراحة واتبع حدود المنافذ والحرارة." }
                 ]

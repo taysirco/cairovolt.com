@@ -4,7 +4,7 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
     slug: 'can-power-bank-charge-laptop-guide',
     category: 'buying-guide',
     publishDate: '2026-05-12',
-    modifiedDate: '2026-05-12',
+    modifiedDate: '2026-10-04',
     readingTime: 12,
     coverImage: '/images/blog/posts/can-power-bank-charge-laptop-guide.webp?v=2',
     author: {
@@ -30,7 +30,7 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
             metaDescription: 'اعرف هل الباور بانك بتاعك يقدر يشحن اللابتوب ولا لا — بالشروط العلمية الدقيقة. جدول توافق كامل لكل لابتوب + أفضل باور بانك للابتوب في مصر. تابع التفاصيل بمصر.',
             keywords: 'هل الباور بانك يشحن لابتوب, باور بانك للابتوب, شحن لابتوب من باور بانك, باور بانك لابتوب, افضل باور بانك للابتوب 2026, انكر 737 لابتوب, باور بانك 65 وات, شحن ماك بوك باور بانك, power bank laptop egypt, باور بانك USB-C PD',
             excerpt: 'مش أي باور بانك يشحن لابتوب. في 3 شروط لازم تتحقق — القدرة، البروتوكول، والسعة. اعرفهم بالأرقام.',
-            quickAnswer: 'أيوا، الباور بانك يقدر يشحن لابتوب بشرط 3 حاجات: (1) خرج USB-C بقدرة 45W على الأقل ببروتوكول PD 3.0، (2) سعة 20,000mAh فأكثر، (3) اللابتوب نفسه لازم يدعم الشحن عبر USB-C. معظم لابتوبات 2022+ بتدعم ده. أنكر 737 PowerBank (140W/24,000mAh) هو الخيار الأقوى — بيشحن MacBook Air من 0 لـ 100% مرة كاملة.',
+            quickAnswer: 'أيوا، الباور بانك يقدر يشحن لابتوب بشرط 3 حاجات: (1) خرج USB-C بقدرة 45W على الأقل ببروتوكول PD 3.0، (2) سعة 20,000mAh فأكثر، (3) اللابتوب نفسه لازم يدعم الشحن عبر USB-C. معظم لابتوبات 2022+ بتدعم ده. انكر 737 PowerBank (140W/24,000mAh) خيار قوي — في اختبار كايرو فولت شحن MacBook Air M2 من 0 لـ 91%.',
             content: `
 <h2>السؤال اللي بيسأله كل حد عنده لابتوب</h2>
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#1e3a5f" role="complementary" aria-label="الجواب السريع">
@@ -44,7 +44,7 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
 </div>
 
 <h2>الشرط #1: بروتوكول USB-C Power Delivery (PD) ⚡</h2>
-<p>اللابتوب مش زي الموبايل. الموبايل بياخد 5-30 وات. اللابتوب بياخد <strong>30-100 وات</strong>. عشان الباور بانك يوصّل القدرة دي، لازم يدعم بروتوكول <strong>USB Power Delivery (PD)</strong> — ده معيار بيسمح بنقل طاقة حتى 240W عبر كابل USB-C واحد.</p>
+<p>اللابتوب مش زي الموبايل. الموبايل بياخد 5-30 وات. اللابتوب بياخد <strong>30-100 وات</strong>. عشان الباور بانك يوصّل القدرة دي، لازم يدعم بروتوكول <strong>USB Power Delivery (PD)</strong> — ده معيار بيسمح بنقل طاقة حتى 240W عبر كابل USB-C واحد (اقرأ عن <a href="/blog/usb-pd-3-1-240w-when-need-it-supports" style="color:#2563eb;font-weight:600;">USB PD 3.1 بقدرة 240 واط</a>).</p>
 
 <div style="background:#fef2f2;border:1px solid #fecaca;border-radius:8px;padding:12px 16px;margin:12px 0">
     <p style="margin:0;color:#991b1b"><strong>🚨 مهم:</strong> باور بانك بدون PD حتى لو مكتوب عليه "20,000mAh" — <strong>مش هيشحن لابتوب</strong>. هيحاول يبعت 5V/2A (10W) واللابتوب هيرفض لأن ده أقل من الحد الأدنى.</p>
@@ -92,12 +92,12 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
         <tr><td>10,000mAh</td><td>37Wh</td><td>~31Wh</td><td>❌ أقل من نص شحنة</td></tr>
         <tr><td><strong>20,000mAh</strong></td><td>74Wh</td><td>~63Wh</td><td>✅ مرة واحدة تقريباً</td></tr>
         <tr><td><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb"><strong>انكر 737 (24,000mAh)</strong></a></td><td>87Wh</td><td>~74Wh</td><td>✅✅ مرة كاملة + 30%</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb"><strong>انكر 26,800mAh</strong></a></td><td>99Wh</td><td>~84Wh</td><td>✅✅ مرة ونص تقريباً</td></tr>
+        <tr><td><a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb"><strong>انكر PowerCore III Elite 25,600mAh (A1290)</strong></a></td><td>94.72Wh</td><td>~80Wh (تقديري)</td><td>✅✅ مرة ونص تقريباً</td></tr>
     </tbody>
 </table>
 
 <div style="background:#fef9c3;border:1px solid #fde68a;border-radius:8px;padding:12px 16px;margin:12px 0">
-    <p style="margin:0;color:#92400e"><strong>✈️ ملاحظة للسفر:</strong> شركات الطيران بتسمح بباور بانك حتى <strong>100Wh</strong> (حوالي 27,000mAh). باور بانك 26,800mAh = 99.2Wh — <strong>تحت الحد بفرق بسيط</strong>. اقرأ <a href="/blog/power-bank-airplane-rules-egypt-2026" style="color:#2563eb">دليل قوانين الطيران الكامل</a>.</p>
+    <p style="margin:0;color:#92400e"><strong>✈️ ملاحظة للسفر:</strong> شركات الطيران بتسمح بباور بانك حتى <strong>100Wh</strong> (حوالي 27,000mAh). انكر PowerCore III Elite (A1290) مطبوع عليه 25,600mAh ≈ 94.72Wh — <strong>تحت الحد</strong>، وراجع شركة الطيران قبل السفر لأن بعضها أشد. اقرأ <a href="/blog/power-bank-airplane-rules-egypt-2026" style="color:#2563eb">دليل قوانين الطيران الكامل</a>.</p>
 </div>
 
 <h2>النتائج المتوقعة بالحساب من المواصفات</h2>
@@ -132,11 +132,11 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
     </ul>
 </div>
 
-<p>كل المنتجات أصلية بضمان 18 شهر، وتقدر تتأكد من أصالتها عبر التحقق من الرقم التسلسلي على موقع الشركة المصنعة. توصيل لكل مصر خلال 24-72 ساعة. تصفّح <a href="/anker/power-banks" style="color:#2563eb;font-weight:bold">باور بانكات أنكر</a> على كايرو فولت.</p>
+<p>كل المنتجات أصلية بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). ولو على علبة انكر ملصق تحقق، تقدر تدخل الكود (16 أو 20 رقم) على anker.com/verify. توصيل لكل المحافظات (عادةً من 1 لـ 6 أيام عمل حسب المحافظة). تصفّح <a href="/anker/power-banks" style="color:#2563eb;font-weight:bold">باور بانكات انكر</a> على كايرو فولت.</p>
 `,
             faq: [
                 { question: 'هل الباور بانك يقدر يشحن لابتوب؟', answer: 'أيوا، بشرط إن الباور بانك يدعم USB-C Power Delivery بقدرة 45W على الأقل، سعته 20,000mAh فأكثر، واللابتوب نفسه يدعم الشحن عبر USB-C. معظم لابتوبات 2022+ بتدعم ده.' },
-                { question: 'إيه أفضل باور بانك لشحن اللابتوب في مصر؟', answer: 'أنكر 737 PowerBank (140W/24,000mAh) هو الأقوى — بيشحن MacBook Air من 0 لـ 100% في ساعة ونص. لميزانية أقل، أنكر Zolo 20,000mAh بيشحن اللابتوبات الخفيفة كويس.' },
+                { question: 'إيه أفضل باور بانك لشحن اللابتوب في مصر؟', answer: 'انكر 737 (140W، 24,000mAh) خيار قوي للابتوب: في اختبار كايرو فولت شحن MacBook Air M2 من 0 لـ 91%، وسعره {{price:anker-737-powerbank}} جنيه. أما باور بانك بقدرة 22.5W زي انكر زولو 20,000mAh فمناسب للموبايل، وأقل من الـ 45W اللي أغلب اللابتوبات محتاجاها.' },
                 { question: 'باور بانك 10,000mAh يشحن لابتوب؟', answer: 'غالباً لا. 10,000mAh = حوالي 31Wh فعلية — ده أقل من نص بطارية MacBook Air (52.6Wh). هتاخد أقل من نص شحنة وده مش عملي. الحد الأدنى العملي هو 20,000mAh.' },
                 { question: 'هل شحن اللابتوب من باور بانك بيأثر على البطارية؟', answer: 'لا. طالما الباور بانك أصلي وبيدعم PD، هو بيتواصل مع اللابتوب بنفس بروتوكول الشاحن الأصلي. اللابتوب هو اللي بيتحكم في الجهد والتيار — فالشحن آمن تماماً.' },
             ],
@@ -147,7 +147,7 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
             metaDescription: 'Find out if your power bank can charge your laptop — with exact scientific requirements. Full compatibility table for every laptop + best power banks for lap...',
             keywords: 'can power bank charge laptop, power bank for laptop, charge laptop with power bank, best power bank laptop 2026, Anker 737 laptop, 65W power bank, charge MacBook power bank, USB-C PD power bank, laptop power bank Egypt, how many watts to charge laptop',
             excerpt: 'Not every power bank can charge a laptop. There are 3 conditions that must be met — wattage, protocol, and capacity. Learn them with real numbers.',
-            quickAnswer: 'Yes, a power bank can charge a laptop if it meets 3 conditions: (1) USB-C output with at least 45W via PD 3.0 protocol, (2) capacity of 20,000mAh or more, (3) the laptop itself must support USB-C charging. Most 2022+ laptops support this. The Anker 737 PowerBank (140W/24,000mAh) is the strongest option — it charges a MacBook Air from 0 to 100% in one full cycle.',
+            quickAnswer: 'Yes, a power bank can charge a laptop if it meets 3 conditions: (1) USB-C output with at least 45W via PD 3.0 protocol, (2) capacity of 20,000mAh or more, (3) the laptop itself must support USB-C charging. Most 2022+ laptops support this. The Anker 737 PowerBank (140W/24,000mAh) is a strong option — in CairoVolt\'s test it took a MacBook Air M2 from 0 to 91%.',
             content: `
 <h2>The Question Every Laptop Owner Asks</h2>
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#1e3a5f" role="complementary" aria-label="Quick Answer">
@@ -162,7 +162,7 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
         <tr><td>Standard USB-A</td><td>10W</td><td>❌ No</td></tr>
         <tr><td>Quick Charge 3.0</td><td>18W</td><td>❌ No</td></tr>
         <tr><td><strong>USB-C PD 3.0</strong></td><td>100W</td><td>✅ Yes</td></tr>
-        <tr><td><strong>USB-C PD 3.1</strong></td><td>240W</td><td>✅✅ Yes</td></tr>
+        <tr><td><strong><a href="/en/blog/usb-pd-3-1-240w-when-need-it-supports" style="color:#2563eb;font-weight:600;">USB-C PD 3.1</a></strong></td><td>240W</td><td>✅✅ Yes</td></tr>
     </tbody>
 </table>
 
@@ -170,7 +170,7 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
 <p>Every laptop has a minimum charging threshold. MacBook Air needs 20W minimum (slow), Dell XPS 13 needs 30W, ThinkPad X1 needs 45W. Choose a power bank with output equal to or greater than your laptop's original charger.</p>
 
 <h2>Requirement #3: Sufficient Capacity (mAh) 📊</h2>
-<p>Real energy = mAh × 3.7V ÷ 1000 × 85% efficiency. A 20,000mAh bank delivers ~63Wh — enough for one full MacBook Air charge. The <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb"><strong>Anker 737 (24,000mAh)</strong></a> delivers ~74Wh for a full charge plus 30% extra. The <a href="/en/anker/power-banks/anker-powercore-26800" style="color:#2563eb"><strong>Anker 26,800mAh</strong></a> at 99Wh gives ~84Wh — about 1.5 full charges.</p>
+<p>Real energy = mAh × 3.7V ÷ 1000 × 85% efficiency. A 20,000mAh bank delivers ~63Wh — enough for one full MacBook Air charge. The <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb"><strong>Anker 737 (24,000mAh)</strong></a> delivers ~74Wh for a full charge plus 30% extra. The <a href="/en/anker/power-banks/anker-powercore-26800" style="color:#2563eb"><strong>Anker PowerCore III Elite 25,600mAh (A1290)</strong></a> is rated about 94.72Wh, so roughly 80Wh usable (est.) — about 1.5 full charges.</p>
 
 <h2>What to Expect by the Numbers</h2>
 <p>Worked example: charging a MacBook Air M3 (52.6Wh battery) from 10% to full, calculated from manufacturer specifications:</p>
@@ -195,11 +195,11 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
     </ul>
 </div>
 
-<p>All products are original with an 18-month warranty, and authenticity can be verified via the manufacturer's serial-number check. Shop <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:bold">Anker power banks</a> on CairoVolt — delivery across Egypt in 24-72 hours. ✈️ Taking your power bank on a flight? Read our <a href="/en/blog/power-bank-airplane-rules-egypt-2026" style="color:#2563eb">complete airplane rules guide</a>.</p>
+<p>All products are original and carry CairoVolt's written store warranty (duration shown on each product page). If an Anker box carries a security label, you can enter its 16- or 20-digit code at anker.com/verify. Shop <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:bold">Anker power banks</a> on CairoVolt — delivery across Egypt (commonly 1–6 business days depending on governorate). ✈️ Taking your power bank on a flight? Read our <a href="/en/blog/power-bank-airplane-rules-egypt-2026" style="color:#2563eb">complete airplane rules guide</a>.</p>
 `,
             faq: [
                 { question: 'Can a power bank charge a laptop?', answer: 'Yes, if it supports USB-C PD at 45W+, has 20,000mAh+ capacity, and the laptop supports USB-C charging. Most 2022+ laptops are compatible.' },
-                { question: 'Best power bank for laptop in Egypt 2026?', answer: 'Anker 737 (140W/24,000mAh) is the top choice — charges MacBook Air 0-100% in 1.5 hours. For budget option, Anker Zolo 20,000mAh handles lighter laptops.' },
+                { question: 'Best power bank for laptop in Egypt 2026?', answer: 'The Anker 737 (140W, 24,000mAh) is a strong laptop option: in CairoVolt\'s test it took a MacBook Air M2 from 0 to 91%, and it costs EGP {{price:anker-737-powerbank}}. A 22.5W bank such as the Anker Zolo 20,000mAh suits phones but falls short of the 45W most laptops need.' },
                 { question: 'Can 10,000mAh power bank charge a laptop?', answer: 'Practically no. 10,000mAh = ~31Wh effective — less than half a MacBook Air battery (52.6Wh). You would get less than half a charge. Minimum practical capacity is 20,000mAh.' },
                 { question: 'Does charging laptop from power bank damage the battery?', answer: 'No. Original PD power banks communicate with the laptop using the same protocol as the original charger. The laptop controls voltage and current — so charging is completely safe.' },
             ],

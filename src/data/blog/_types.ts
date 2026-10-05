@@ -56,9 +56,31 @@ export interface BlogArticle {
             metaDescription: string;
             keywords: string;
             excerpt: string;
-            content: string; // HTML content
+            /**
+             * HTML content. May contain `{{price:<product-slug>}}` (contract C1,
+             * see src/lib/blog-answer-normalize.ts): resolved at render time to
+             * the product's current catalogue `price` formatted with
+             * toLocaleString('en-US') (e.g. "1,730"); keep the currency word
+             * literal in the copy ("{{price:anker-nano-45w}} جنيه"). A missing or
+             * non-active product renders 'السعر في صفحة المنتج' /
+             * 'see product page for price'. Tokens are BANNED in title,
+             * metaTitle, metaDescription, excerpt and keywords — the index
+             * generator fails the build on them.
+             */
+            content: string;
+            /**
+             * Visible FAQ (also FAQPage JSON-LD). question/answer may use
+             * `{{price:<product-slug>}}` (C1). Rendered as PLAIN TEXT: tags,
+             * `**`, `__` and `[text](url)` are stripped on output, so write plain
+             * sentences.
+             */
             faq?: Array<{ question: string; answer: string }>;
-            quickAnswer?: string; // ~45 word concise answer for AI search
+            /**
+             * ~45-word concise answer for AI search (QuickAnswerBox, Speakable,
+             * BlogPosting.abstract). May use `{{price:<product-slug>}}` (C1).
+             * Rendered as PLAIN TEXT — markup is stripped on output.
+             */
+            quickAnswer?: string;
         };
         en: {
             title: string;
@@ -66,8 +88,11 @@ export interface BlogArticle {
             metaDescription: string;
             keywords: string;
             excerpt: string;
+            /** HTML content; may contain `{{price:<product-slug>}}` (C1 — see `ar.content`). */
             content: string;
+            /** Plain-text FAQ; may contain `{{price:<product-slug>}}` (C1 — see `ar.faq`). */
             faq?: Array<{ question: string; answer: string }>;
+            /** Plain-text quick answer; may contain `{{price:<product-slug>}}` (C1 — see `ar.quickAnswer`). */
             quickAnswer?: string;
         };
     };

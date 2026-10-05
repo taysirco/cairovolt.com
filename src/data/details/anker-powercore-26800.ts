@@ -8,14 +8,16 @@ import type { ProductDetail } from './_types';
 export const anker_powercore_26800_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Anker PowerCore III Elite 26K (A1290 / A1290011): 25,600mAh cells / 94.72Wh (A1290 user manual — 25600 × 3.7 ÷ 1000). CairoVolt measured 80.9Wh usable on USB-C at 5V/2A (~85.4% of 94.72Wh) — inside protocol §7.3 80–90% band. RED-FLAG: slug says "26800"; printed capacity is 25,600mAh — match the carton Wh label, not the URL.',
+            'Anker PowerCore III Elite 26K (A1290) is a near-100Wh travel power bank: 25,600mAh cells / 94.72Wh per its manual, with 60W USB-C PD and two USB-A ports. We measured 80.9Wh usable over USB-C. It suits MacBook Air days; match the carton Wh, not the “26800” slug.',
+            'Model detail: A1290 / A1290011; 25600 × 3.7 ÷ 1000 = 94.72Wh (A1290 user manual). The 80.9Wh result was measured at 5V/2A (~85.4% of 94.72Wh) — inside the 80–90% band. The slug says “26800” but the printed capacity is 25,600mAh.',
             'One USB-C PD port rated 60W (5/9/15/20V @ 3A in AND out — Anker Japan A1290) + two USB-A PowerIQ 2.0 ports. Combined ceiling 78W (USB-C + one USB-A) or 75W with all three (vendor table). Bench peaks: 58.6W USB-C into MacBook Air M2 (FNB58); 58.2W on a non-E-marked 3A cable — 60W-class does NOT need a 5A E-marker the way A1695/A1336 need for 100W.',
             'No PPS APDO in our FNB58 handshake (fixed PDOs only) — Galaxy Ultra 45W SFC 2.0 will NOT unlock (needs 20V PPS per samsung.com). Sibling A1291 is a different SKU (higher PD rails / ~87W class) — this page measures A1290 only. Reject ~349g image-alt weight myths; we weighed 571g.',
             '94.72Wh sits just under the 100Wh cabin line — flyable on EgyptAir / Nile Air / Air Cairo / Emirates / Flydubai / Turkish / Qatar / Saudia with a readable Wh label (verify DG pages). Emirates & Flydubai ban USING or charging any power bank in-flight since 1 Oct 2025. NOT recalled: anker.com/product-recalls + cpsc.gov on 2026-07-24 (A1290 outside A1257/A1263/A1647/A1652/A1681/A1689).',
             'Positioning honesty vs modern Anker: more raw Wh than A1695 (94.72 vs 90) and A1336 (72), but only 60W single-port — pick A1695 for built-in cables + 100W/165W, pick 737 for 140W EPR + Ultra PPS, pick A1290 when you want near-100Wh travel capacity at a lower price for MacBook Air-class loads.',
         ],
         ar: [
-            'انكر PowerCore III Elite 26K (A1290 / A1290011): خلايا 25,600 مللي أمبير / 94.72Wh (دليل A1290 — 25600 × 3.7 ÷ 1000). قِست CairoVolt 80.9Wh قابلة للاستخدام على USB-C بتفريغ 5V/2A (نحو 85.4% من 94.72Wh) — ضمن نطاق §7.3 للبروتوكول 80–90%. علم أحمر: الـslug يقول "26800"؛ السعة المطبوعة 25,600 مللي أمبير — طابق ملصق Wh على الكرتون لا عنوان الرابط.',
+            'انكر PowerCore III Elite 26K (A1290) باور بانك سفر قرب 100Wh: خلايا 25,600 مللي أمبير / 94.72Wh حسب دليله، مع USB-C PD بقدرة 60 واط ومنفذَي USB-A. قِسنا 80.9Wh قابلة للاستخدام عبر USB-C. يناسب أيام MacBook Air؛ طابق Wh على الكرتون لا رقم «26800» في الرابط.',
+            'تفصيل الموديل: A1290 / A1290011؛ 25600 × 3.7 ÷ 1000 = 94.72Wh (دليل A1290). قيست 80.9Wh بتفريغ 5V/2A (نحو 85.4% من 94.72Wh) — ضمن نطاق 80–90%. الـslug يقول «26800» بينما السعة المطبوعة 25,600 مللي أمبير.',
             'منفذ USB-C PD واحد بقدرة اسمية 60 واط (5/9/15/20V عند 3A دخلًا وخرجًا — Anker Japan A1290) + منفذا USB-A بـ PowerIQ 2.0. السقف المشترك 78 واط (USB-C + USB-A واحد) أو 75 واط للثلاثة (جدول البائع). ذروات المختبر: 58.6 واط USB-C داخل MacBook Air M2 (FNB58)؛ 58.2 واط على كابل 3A بلا E-marker — فئة 60 واط لا تحتاج E-marker 5A كما تحتاج A1695/A1336 لـ 100 واط.',
             'لا APDO لـ PPS في مصافحة FNB58 (PDOs ثابتة فقط) — لن يُفتح Galaxy Ultra 45W SFC 2.0 (يحتاج PPS 20 فولت وفق samsung.com). الشقيق A1291 SKU مختلف (سقوف PD أعلى / فئة ~87 واط) — هذه الصفحة تقيس A1290 فقط. ارفض أساطير وزن ~349 ج في alt الصور؛ وزّنّا 571 ج.',
             '94.72Wh تحت خط المقصورة 100Wh بقليل — قابل للطيران على مصر للطيران / النيل / إير كايرو / الإمارات / فلاي دبي / التركية / القطرية / السعودية بملصق Wh مقروء (تحقق من صفحات البضائع الخطرة). الإمارات وفلاي دبي تحظران استخدام أو شحن أي باور بانك أثناء الرحلة منذ 1 أكتوبر 2025. لا استدعاء: تحقّق anker.com/product-recalls + cpsc.gov في 2026-07-24 (A1290 خارج A1257/A1263/A1647/A1652/A1681/A1689).',
@@ -36,7 +38,7 @@ export const anker_powercore_26800_detail: ProductDetail = {
             '(10) Buyers confusing A1290 with A1291 — different PD ceilings. ' +
             'HEAT: 43.8°C shell after 15 min at ~55W in 28.1°C lab air; expect hotter in a closed Cairo July backpack — leave vents clear. ' +
             'ELECTRICITY: recharging ~94.72Wh at ~60W USB-C input draws ~0.11–0.12 kWh at the wall; EgyptERA Sept-2024 tariff (through March 2026) ≈ 8–27 piastres per full recharge by tier. ' +
-            'NAMING: carton/manual = 25,600mAh / 94.72Wh; URL slug = anker-powercore-26800 — never invent 26,800mAh.',
+            'NAMING: carton/manual = 25,600mAh / 94.72Wh; URL slug = anker-powercore-26800; the label does not say 26,800mAh.',
         ar:
             'A1290 هو حزمة "قرب 100Wh لحقيبة اللابتوب" المصرية من جيل Elite السابق لانكر — ما زالت مفيدة، لكنها ليست ملك الواط الأحدث. ستة سيناريوهات بذروات مقاسة 80.9Wh / 58.6 واط. ' +
             'مناسب لـ: (1) فريلانسر بـ MacBook Air M2/M3 في أيام عملاء بالتجمع / سمارت فيليج / الزمالك: 80.9Wh المقاسة ≈ تعبئة Air كاملة من ~15% مع هامش لتنقيط هاتف؛ 58.6 واط USB-C يبقي الـAir يشحن تحت تحرير خفيف/متوسط. ' +
@@ -50,7 +52,7 @@ export const anker_powercore_26800_detail: ProductDetail = {
             '(10) من يخلط A1290 مع A1291 — سقوف PD مختلفة. ' +
             'الحرارة: 43.8°م على الهيكل بعد 15 دقيقة عند ~55 واط في هواء مختبر 28.1°م؛ توقّع أحر في شنطة ظهر مغلقة في يوليو — اترك التهوية مكشوفة. ' +
             'الكهرباء: إعادة شحن ~94.72Wh بدخل USB-C ~60 واط تسحب نحو 0.11–0.12 كيلوواط·ساعة من الحائط؛ تعريفة EgyptERA سبتمبر 2024 (حتى مارس 2026) ≈ 8–27 قرشًا لكل إعادة شحن كاملة حسب الشريحة. ' +
-            'التسمية: الكرتون/الدليل = 25,600 مللي أمبير / 94.72Wh؛ slug الرابط = anker-powercore-26800 — لا تخترع 26,800 مللي أمبير.',
+            'التسمية: الكرتون/الدليل = 25,600 مللي أمبير / 94.72Wh؛ slug الرابط = anker-powercore-26800؛ والملصق لا يذكر 26,800 مللي أمبير.',
     },
     specifications: {
         'Model': {
@@ -58,16 +60,16 @@ export const anker_powercore_26800_detail: ProductDetail = {
             ar: 'انكر PowerCore III Elite 26K 60W (A1290 / تجزئة A1290011)',
         },
         'Naming honesty (slug ≠ 25,600)': {
-            en: 'URL slug "anker-powercore-26800" is legacy marketing; Anker prints 25,600mAh / 94.72Wh. Do not invent a 26,800mAh cell figure and do not rename the slug to 25600.',
-            ar: 'الـslug "anker-powercore-26800" تسمية تسويقية قديمة؛ انكر تطبع 25,600 مللي أمبير / 94.72Wh. لا تخترع رقم خلايا 26,800 ولا تُعدّ تسمية الـslug إلى 25600.',
+            en: 'URL slug "anker-powercore-26800" is legacy marketing; Anker prints 25,600mAh / 94.72Wh. The label shows no 26,800mAh cell figure.',
+            ar: 'الـslug "anker-powercore-26800" تسمية تسويقية قديمة؛ انكر تطبع 25,600 مللي أمبير / 94.72Wh. والملصق لا يذكر رقم خلايا 26,800.',
         },
-        'Cell Capacity (§7.3 B Wh math)': {
+        'Cell Capacity (Wh math)': {
             en: '25,600mAh / 94.72Wh (A1290 user manual — 3.7V nominal: 25600 × 3.7 ÷ 1000)',
             ar: '25,600 مللي أمبير / 94.72Wh (دليل A1290 — حساب 3.7V: 25600 × 3.7 ÷ 1000)',
         },
         'Usable Energy — USB-C (CairoVolt measured)': {
-            en: '80.9Wh on USB-C at 5V/2A constant discharge (~85.4% of 94.72Wh — inside protocol §7.3 80–90% band)',
-            ar: '80.9Wh على USB-C بتفريغ ثابت 5V/2A (نحو 85.4% من 94.72Wh — ضمن نطاق §7.3 80–90%)',
+            en: '80.9Wh on USB-C at 5V/2A constant discharge (~85.4% of 94.72Wh — inside protocol 80–90% band)',
+            ar: '80.9Wh على USB-C بتفريغ ثابت 5V/2A (نحو 85.4% من 94.72Wh — ضمن نطاق 80–90%)',
         },
         'USB-C Port (peaks)': {
             en: 'Bidirectional PD — 5V/3A · 9V/3A · 15V/3A · 20V/3A (60W max in/out). Measured peak 58.6W into MacBook Air M2; 58.2W on non-E-marked 3A cable. Fixed PDOs; no published PPS.',
@@ -129,46 +131,46 @@ export const anker_powercore_26800_detail: ProductDetail = {
                 'Anker A8865 100W 5A cable used for cross-check only (3A cable also verified for 60W) · wall recharge via Anker Prime A2688 set to feed USB-C PD ≤60W · ' +
                 'A/B Wh anchors from separate CairoVolt sheets: A1695 76.9Wh · A1336 61.8Wh · 737 74.2Wh · A1260 61.4Wh',
             ar:
-                'وحدة تجزئة **واحدة** A1290011 (CV-PB-A1290-001) — قد تختلف دفعات الإنتاج · مختبر كايرو فولت، القاهرة الجديدة · محيط 28.1°م (HTC-2) · رطوبة 46% · جهد الحائط 222 فولت (UT61E) · ' +
+                'وحدة تجزئة واحدة A1290011 (CV-PB-A1290-001) — قد تختلف دفعات الإنتاج · مختبر كايرو فولت، القاهرة الجديدة · محيط 28.1°م (HTC-2) · رطوبة 46% · جهد الحائط 222 فولت (UT61E) · ' +
                 'كابل Anker A8865 100W 5A للتحقق المتقاطع فقط (كابل 3A أيضًا مؤكد لـ 60 واط) · إعادة شحن الحائط عبر Anker Prime A2688 لتغذية USB-C PD ≤60 واط · ' +
                 'مراسي A/B للـWh من صحائف CairoVolt منفصلة: A1695 76.9Wh · A1336 61.8Wh · 737 74.2Wh · A1260 61.4Wh',
         },
         methodology: {
             en:
-                'ELEVATED §7.3 gold deepen for A1290 (Wave Adj/Mid), sample CV-PB-A1290-001, Eng. Omar Khaled, 2026-07-24. ' +
+                'ELEVATED gold deepen for A1290 (Wave Adj/Mid), sample CV-PB-A1290-001, Eng. Omar Khaled, 2026-07-24. ' +
                 'Preserved measured truths from the first protocol-grade pass; identity/date locked to 2026-07-24; deepen adds explicit Wh/peaks red-flag rows, slug≠25,600 naming hygiene, and A/B Wh ladder. ' +
-                'CRITICAL: slug "anker-powercore-26800" ≠ printed 25,600mAh — never invent 26,800mAh and never rename slug to 25600. ' +
+                'Note: slug "anker-powercore-26800" ≠ printed 25,600mAh; the printed figure is used throughout. ' +
                 'Steps: (A) Weight 571g on Kkmoon 0.01g; dimensions steel tape 184×82×24 mm. ' +
                 '(B) Nominal Wh from A1290 manual: 25,600mAh × 3.7V ÷ 1000 = 94.72Wh. ' +
-                '(C) Fully charged over USB-C from A2688, rested 30 min; discharged USB-C into JUWEI at constant 5V/2A; FNB58 cumulative Wh = 80.9Wh (85.4% of 94.72Wh — inside §7.3 80–90% band; AVHzY within 2%). ' +
+                '(C) Fully charged over USB-C from A2688, rested 30 min; discharged USB-C into JUWEI at constant 5V/2A; FNB58 cumulative Wh = 80.9Wh (85.4% of 94.72Wh — inside 80–90% band; AVHzY within 2%). ' +
                 '(G) Peak wattage: MacBook Air M2 on USB-C — 58.6W FNB58; AVHzY CT-3 within 1.4%. Repeated peak with non-E-marked 3A cable — still negotiated 20V/3A ≈ 58.2W (proves 60W-class does not require 5A E-marker). ' +
                 '(D/E) PD handshake: fixed 5/9/15/20V @ 3A only — no PPS APDO. Dual-load: Air on USB-C + iPhone 15 on USB-A — combined ~71W (devices self-capped vs 78W table). USB-A PowerIQ into Galaxy A54 — ~17.8W QC-class. ' +
                 '(F/H) Self-recharge 0→100% timed at ~60W USB-C input = 1 h 54 min. ' +
                 '(I) Est. charge counts: 80.9 ÷ (device Wh × 1.10) — Air ~1.2–1.4 top-ups; iPhone 15 ~5.7. ' +
-                '(J) Surface IR after 15 min ~55W: 43.8°C (28.1°C ambient — under §7.3 ≤50°C @65W-class threshold). ' +
+                '(J) Surface IR after 15 min ~55W: 43.8°C (28.1°C ambient — under ≤50°C @65W-class threshold). ' +
                 '(L) Recall check anker.com/product-recalls + cpsc.gov on 2026-07-24 — A1290 not listed. ' +
                 'Independent corroboration (NOT our data): A1290 user manual Wh/PDO; Anker Japan A1290 combined-output table; samsung.com SFC 2.0 20V PPS requirement. ' +
-                'HONEST GAPS: no 9V/20V constant-load Wh pass this cycle (5V/2A headline only); no PZEM AC-input (§6.7); SINGLE UNIT — batches may vary.',
+                'HONEST GAPS: no 9V/20V constant-load Wh pass this cycle (5V/2A headline only); no PZEM AC-input; SINGLE UNIT — batches may vary.',
             ar:
-                'تعميق ذهبي مرتفع §7.3 لـ A1290 (Wave Adj/Mid)، العيّنة CV-PB-A1290-001، م. عمر خالد، 2026-07-24. ' +
+                'تعميق ذهبي مرتفع لـ A1290 (Wave Adj/Mid)، العيّنة CV-PB-A1290-001، م. عمر خالد، 2026-07-24. ' +
                 'حُفظت الحقائق المقاسة من المرور الأول المطابق للبروتوكول؛ هُوية/تاريخ مُقفلان على 2026-07-24؛ التعميق يضيف صفوف علم أحمر لـ Wh/الذروات، نظافة تسمية slug≠25,600، وسلم A/B للـWh. ' +
-                'حاسم: الـslug "anker-powercore-26800" ≠ 25,600 مللي أمبير المطبوعة — لا تخترع 26,800 ولا تُعدّ تسمية الـslug إلى 25600. ' +
+                'ملاحظة: الـslug "anker-powercore-26800" ≠ 25,600 مللي أمبير المطبوعة؛ نستخدم الرقم المطبوع في كل مكان. ' +
                 'الخطوات: (A) الوزن 571 ج على Kkmoon 0.01ج؛ الأبعاد بشريط فولاذي 184×82×24 ملم. ' +
                 '(B) Wh الاسمي من دليل A1290: 25,600mAh × 3.7V ÷ 1000 = 94.72Wh. ' +
-                '(C) شحن كامل عبر USB-C من A2688، راحة 30 دقيقة؛ تفريغ USB-C داخل JUWEI عند 5V/2A ثابت؛ Wh تراكمي FNB58 = 80.9Wh (85.4% من 94.72Wh — ضمن نطاق §7.3 80–90%؛ AVHzY بفارق أقل من 2%). ' +
+                '(C) شحن كامل عبر USB-C من A2688، راحة 30 دقيقة؛ تفريغ USB-C داخل JUWEI عند 5V/2A ثابت؛ Wh تراكمي FNB58 = 80.9Wh (85.4% من 94.72Wh — ضمن نطاق 80–90%؛ AVHzY بفارق أقل من 2%). ' +
                 '(G) ذروة الواط: MacBook Air M2 على USB-C — 58.6 واط FNB58؛ AVHzY CT-3 بفارق أقل من 1.4%. أعدنا الذروة بكابل 3A بلا E-marker — ما زال تفاوض 20V/3A ≈ 58.2 واط (يثبت أن فئة 60 واط لا تحتاج E-marker 5A). ' +
                 '(D/E) مصافحة PD: ثابت 5/9/15/20V عند 3A فقط — بلا APDO لـ PPS. حمل مزدوج: Air على USB-C + iPhone 15 على USB-A — مشترك نحو 71 واط (الأجهزة حدّت نفسها مقابل جدول 78 واط). USB-A PowerIQ داخل Galaxy A54 — نحو 17.8 واط فئة QC. ' +
                 '(F/H) زمن إعادة الشحن الذاتي 0→100% عند دخل USB-C ~60 واط = ساعة و54 دقيقة. ' +
                 '(I) أعداد شحن تقديرية: 80.9 ÷ (Wh الجهاز × 1.10) — Air نحو 1.2–1.4 تعبئة؛ iPhone 15 نحو 5.7. ' +
-                '(J) حرارة سطحية بالأشعة تحت الحمراء بعد 15 دقيقة عند ~55 واط: 43.8°م (محيط 28.1°م — تحت عتبة §7.3 ≤50°م لفئة ~65 واط). ' +
+                '(J) حرارة سطحية بالأشعة تحت الحمراء بعد 15 دقيقة عند ~55 واط: 43.8°م (محيط 28.1°م — تحت عتبة ≤50°م لفئة ~65 واط). ' +
                 '(L) فحص الاستدعاء anker.com/product-recalls + cpsc.gov في 2026-07-24 — A1290 غير مدرج. ' +
                 'للاسترجاع المستقل (وليست بياناتنا): دليل A1290 لـ Wh/PDO؛ جدول الخرج المشترك في Anker Japan؛ متطلب samsung.com لـ SFC 2.0 بـ PPS 20 فولت. ' +
-                'الفجوات الأمينة: لا تفريغ Wh ثابت 9V/20V هذه الدورة (عنوان 5V/2A فقط)؛ لا PZEM لدخل AC (§6.7)؛ وحدة واحدة — قد تختلف الدفعات.',
+                'الفجوات الأمينة: لا تفريغ Wh ثابت 9V/20V هذه الدورة (عنوان 5V/2A فقط)؛ لا PZEM لدخل AC؛ وحدة واحدة — قد تختلف الدفعات.',
         },
         equipment: [
             { name: 'FNIRSI FNB58 (fw v1.3)', use: { en: 'Cumulative Wh + PD handshake + peak wattage', ar: 'Wh تراكمي + مصافحة PD + ذروة الواط' } },
             { name: 'AVHzY CT-3', use: { en: 'Second-instrument cross-check of USB-C usable Wh and peak', ar: 'تحقق مزدوج لـWh القابلة للاستخدام وذروة USB-C' } },
-            { name: 'JUWEI 35W USB electronic load', use: { en: 'Constant 5V/2A discharge for usable Wh (§7.3 C)', ar: 'تفريغ ثابت 5V/2A للـWh القابلة للاستخدام (§7.3 C)' } },
+            { name: 'JUWEI 35W USB electronic load', use: { en: 'Constant 5V/2A discharge for usable Wh', ar: 'تفريغ ثابت 5V/2A للـWh القابلة للاستخدام' } },
             { name: 'Anker Prime A2688 100W wall charger', use: { en: 'USB-C PD recharge source capped at pack 60W input', ar: 'مصدر إعادة شحن USB-C PD محدود بدخل الحزمة 60 واط' } },
             { name: 'Anker A8865 5A E-marked + generic 3A USB-C cable', use: { en: 'Prove 60W negotiates on 3A cable; cross-check on 5A', ar: 'إثبات تفاوض 60 واط على كابل 3A؛ تحقق متقاطع على 5A' } },
             { name: 'Apple MacBook Air M2 (52.6Wh) + iPhone 15 (12.99Wh)', use: { en: 'Real-device peak + dual-load + charge math', ar: 'ذروة جهاز حقيقي + حمل مزدوج + حساب الشحن' } },
@@ -178,20 +180,20 @@ export const anker_powercore_26800_detail: ProductDetail = {
         ],
         results: [
             {
-                param: { en: 'Rated cell capacity (§7.3 B)', ar: 'سعة الخلايا الاسمية (§7.3 B)' },
+                param: { en: 'Rated cell capacity', ar: 'سعة الخلايا الاسمية' },
                 rated: '25,600mAh / 94.72Wh',
                 measured: '—',
                 note: { en: 'A1290 manual — 25600 × 3.7 ÷ 1000 = 94.72Wh exact; slug "26800" is NOT a cell figure', ar: 'دليل A1290 — 25600 × 3.7 ÷ 1000 = 94.72Wh دقيق؛ الـslug "26800" ليس رقم خلايا' },
             },
             {
-                param: { en: 'Usable energy — USB-C @5V/2A (§7.3 C)', ar: 'الطاقة المُخرَجة — USB-C @5V/2A (§7.3 C)' },
+                param: { en: 'Usable energy — USB-C @5V/2A', ar: 'الطاقة المُخرَجة — USB-C @5V/2A' },
                 measured: '80.9 Wh',
                 note: { en: 'FNB58 cumulative after full charge + 30 min rest; AVHzY within 2%', ar: 'FNB58 تراكمي بعد شحن كامل + راحة 30 دقيقة؛ AVHzY بفارق أقل من 2%' },
             },
             {
-                param: { en: 'Cell → USB ratio (§8 gate)', ar: 'نسبة خلية → USB (بوابة §8)' },
+                param: { en: 'Cell → USB ratio (gate)', ar: 'نسبة خلية → USB (بوابة)' },
                 measured: '85.4%',
-                note: { en: '80.9 ÷ 94.72 — inside §7.3 80–90% band; NOT an AC-input efficiency (§6.7)', ar: '80.9 ÷ 94.72 — ضمن نطاق §7.3 80–90%؛ ليست كفاءة دخل AC (§6.7)' },
+                note: { en: '80.9 ÷ 94.72 — inside 80–90% band; NOT an AC-input efficiency', ar: '80.9 ÷ 94.72 — ضمن نطاق 80–90%؛ ليست كفاءة دخل AC' },
             },
             {
                 param: { en: 'Wh consistency check (red-flag)', ar: 'فحص اتساق Wh (علم أحمر)' },
@@ -202,7 +204,7 @@ export const anker_powercore_26800_detail: ProductDetail = {
                 param: { en: 'Slug vs printed capacity (red-flag)', ar: 'الـslug مقابل السعة المطبوعة (علم أحمر)' },
                 rated: { en: 'URL: anker-powercore-26800', ar: 'الرابط: anker-powercore-26800' },
                 measured: { en: 'Carton/manual: 25,600mAh / 94.72Wh', ar: 'الكرتون/الدليل: 25,600 مللي أمبير / 94.72Wh' },
-                note: { en: 'slug ≠ 25600 rename target — keep URL; never invent 26,800mAh cells', ar: 'الـslug ≠ هدف إعادة تسمية 25600 — أبقِ الرابط؛ لا تخترع خلايا 26,800' },
+                note: { en: 'URL slug kept; printed cells are 25,600mAh, not 26,800mAh', ar: 'الرابط باقٍ كما هو؛ الخلايا المطبوعة 25,600 مللي أمبير وليست 26,800' },
             },
             {
                 param: { en: 'USB-C peak (20V/3A path)', ar: 'ذروة USB-C (مسار 20V/3A)' },
@@ -260,7 +262,7 @@ export const anker_powercore_26800_detail: ProductDetail = {
             {
                 param: { en: 'Surface temp @~55W (15 min)', ar: 'حرارة السطح عند ~55 واط (15 دقيقة)' },
                 measured: { en: '43.8°C', ar: '43.8°م' },
-                note: { en: '28.1°C ambient — under §7.3 ≤50°C @65W-class; warmer in closed bags', ar: 'محيط 28.1°م — تحت عتبة §7.3 ≤50°م لفئة ~65 واط؛ أحر في الحقائب المغلقة' },
+                note: { en: '28.1°C ambient — under ≤50°C @65W-class; warmer in closed bags', ar: 'محيط 28.1°م — تحت عتبة ≤50°م لفئة ~65 واط؛ أحر في الحقائب المغلقة' },
             },
             {
                 param: { en: 'Weight (reject 349g myth)', ar: 'الوزن (ارفض أسطورة 349 ج)' },
@@ -291,8 +293,8 @@ export const anker_powercore_26800_detail: ProductDetail = {
             },
         ],
         verdict: {
-            en: 'A1290 delivered 80.9Wh usable (85.4% of 94.72Wh) and 58.6W USB-C peak — a near-100Wh travel pack that charges MacBook Air-class loads on a normal 3A cable. Slug "26800" ≠ printed 25,600mAh. No PPS, no 100W/140W ambition. Heavier than modern Primes. Not recalled (2026-07-24). Best when Wh and price matter more than newest wattage.',
-            ar: 'A1290 أخرج 80.9Wh قابلة للاستخدام (85.4% من 94.72Wh) وذروة USB-C 58.6 واط — حزمة سفر قرب 100Wh تشحن أحمال فئة MacBook Air على كابل 3A عادي. الـslug "26800" ≠ 25,600 مللي أمبير المطبوعة. بلا PPS، بلا طموح 100/140 واط. أثقل من Prime الحديثة. لا استدعاء (2026-07-24). الأفضل حين يهم الـWh والسعر أكثر من أحدث واط.',
+            en: 'A1290 delivered 80.9Wh usable (85.4% of 94.72Wh) and a 58.6W USB-C peak — a near-100Wh travel pack that charges MacBook Air-class loads on a normal 3A cable. Slug “26800” ≠ printed 25,600mAh. No PPS. Heavier than modern Primes. Not recalled (2026-07-24). Best when Wh and price matter more than wattage.',
+            ar: 'A1290 أخرج 80.9Wh قابلة للاستخدام (85.4% من 94.72Wh) وذروة USB-C 58.6 واط — حزمة سفر قرب 100Wh تشحن أحمال فئة MacBook Air على كابل 3A. الـslug «26800» ≠ 25,600 مللي أمبير المطبوعة. بلا PPS. أثقل من Prime الحديثة. لا استدعاء (2026-07-24). الأفضل حين يهم الـWh والسعر أكثر من الواط.',
         },
         pros: [
             {
@@ -330,8 +332,8 @@ export const anker_powercore_26800_detail: ProductDetail = {
                 ar: '571 جرامًا / 184×82×24 ملم — حزمة حقيبة لا جيب؛ ارفض أساطير 349 جرامًا. بلا كابلات مدمجة — احمل سلك USB-C (بخلاف A1695)',
             },
             {
-                en: 'Slug "26800" ≠ printed 25,600mAh / 94.72Wh — verify the physical Wh label before airline arguments; never invent 26,800mAh from the URL',
-                ar: 'الـslug "26800" ≠ 25,600 مللي أمبير / 94.72Wh المطبوعة — تحقق من ملصق Wh الفعلي قبل جدال المطار؛ لا تخترع 26,800 مللي أمبير من الرابط',
+                en: 'Slug "26800" ≠ printed 25,600mAh / 94.72Wh — verify the physical Wh label before airline arguments; the 26,800 in the URL is not the label figure',
+                ar: 'الـslug "26800" ≠ 25,600 مللي أمبير / 94.72Wh المطبوعة — تحقق من ملصق Wh الفعلي قبل جدال المطار؛ رقم 26,800 في الرابط ليس رقم الملصق',
             },
             {
                 en: 'Not A1291 (~87W class); Emirates/Flydubai cabin carry OK under 100Wh but no in-flight USE since 1 Oct 2025; single unit CV-PB-A1290-001 — batches may vary',

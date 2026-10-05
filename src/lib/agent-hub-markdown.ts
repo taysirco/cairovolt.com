@@ -17,6 +17,8 @@ import {
     localizeArabicBrandNames,
 } from '@/lib/arabic-brand-names';
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { resolveMinPriceToken } from '@/lib/meta-price-token';
+import { getLiveIndex } from '@/data/blog-index.generated';
 import { getAgentLabSummary, type AgentLocale } from '@/lib/agent-lab-export';
 import { formatLabIndexMarkdown, getLabIndexRows } from '@/lib/lab-index';
 
@@ -36,6 +38,14 @@ function clean(value: string | undefined): string {
         .replace(/&#x([0-9a-f]+);/gi, (_, hex: string) => String.fromCodePoint(parseInt(hex, 16)))
         .replace(/&#(\d+);/g, (_, dec: string) => String.fromCodePoint(parseInt(dec, 10)));
     return text.replace(/\s+/g, ' ').trim();
+}
+
+/**
+ * Hub FAQ answers carry site-relative markdown links ("[Warranty](/en/warranty)").
+ * In a markdown document fetched out of context those must be absolute.
+ */
+function absolutizeLinks(text: string): string {
+    return text.replace(/\]\((\/[^)\s]*)\)/g, (_m, href: string) => `](${BASE_URL}${href})`);
 }
 
 function isAgentCatalogProduct(product: (typeof staticProducts)[number]): boolean {
@@ -119,7 +129,7 @@ function appendFaqBlock(
     if (!items?.length) return '';
     let md = `## ${title}\n\n`;
     for (const item of items) {
-        md += `### ${clean(item.question)}\n\n${clean(item.answer)}\n\n`;
+        md += `### ${clean(item.question)}\n\n${absolutizeLinks(clean(item.answer))}\n\n`;
     }
     return md;
 }
@@ -186,12 +196,18 @@ export function generateBrandHubMarkdown(
         }
     }
 
+    // Same array the HTML hub accordion renders (single FAQ source per hub).
     const faq = brand.faq?.[locale];
     if (faq?.length) {
-        md += `## ${isAr ? 'أسئلة شائعة' : 'FAQ'}\n\n`;
-        for (const item of faq) {
-            md += `### ${clean(item.question)}\n\n${clean(item.answer)}\n\n`;
-        }
+        md += appendFaqBlock(
+            isAr ? 'أسئلة شائعة' : 'FAQ',
+            isAr
+                ? faq.map(item => ({
+                    question: localizeArabicBrandNames(item.question),
+                    answer: localizeArabicBrandNames(item.answer),
+                }))
+                : faq,
+        );
     }
 
     md += `## ${isAr ? 'منتجات في الكتالوج' : 'Catalog products'} (${products.length})\n\n`;
@@ -219,19 +235,8 @@ export function generateSoundcoreHubMarkdown(
         ? 'ساوندكور علامة صوتيات ضمن عائلة انكر. تنقسم المنتجات هنا إلى سماعات شخصية ومكبرات صوت، لكن تقنيات ANC وHearID وLDAC وBassUp وPartyCast وتصنيفات IP ليست موجودة بالمستوى نفسه في كل موديل. صفحة المنتج هي المرجع للمواصفات والتوافق.'
         : 'Soundcore is an audio brand in the Anker family. This catalogue separates personal audio from speakers, but ANC, HearID, LDAC, BassUp, PartyCast, and IP ratings are not shared equally by every model. The product page is the specification and compatibility reference.';
 
-    const faq = isAr
-        ? [
-            { question: 'ما علاقة ساوندكور بانكر؟', answer: 'ساوندكور علامة متخصصة في الصوتيات ضمن عائلة انكر. يعرض كايرو فولت منتجاتها في قسم السماعات الشخصية وقسم مكبرات الصوت.' },
-            { question: 'كيف أختار بين أقسام ساوندكور؟', answer: 'اختر قسم audio للايربودز والهيدفون، وقسم speakers لمكبرات الصوت المحمولة. راجع صفحة المنتج للتأكد من المواصفات والتوافق والتوافر.' },
-            { question: 'ما مدة ضمان كايرو فولت على منتجات ساوندكور؟', answer: 'تختلف مدة الضمان وأهليته حسب المنتج. صفحة كل منتج هي المرجع لشروط ضمان كايرو فولت المكتوبة وقت الطلب.' },
-            { question: 'هل تطبيق ساوندكور يثبت أصالة المنتج؟', answer: 'توافق المنتج مع التطبيق ميزة تشغيلية وليس شهادة مستقلة من الشركة المصنّعة لإثبات الأصالة. راجع بيانات الموديل والفاتورة وأدوات الشركة المصنّعة إن وُجدت.' },
-        ]
-        : [
-            { question: 'How are Soundcore and Anker related?', answer: 'Soundcore is an audio brand in the Anker family. CairoVolt groups its products into personal-audio and Bluetooth-speaker sections.' },
-            { question: 'Which Soundcore category should I choose?', answer: 'Use the audio section for earbuds and headphones, and the speakers section for portable speakers. Check each product page for specifications, compatibility, and availability.' },
-            { question: 'How long is the CairoVolt warranty on Soundcore products?', answer: 'Warranty eligibility and duration vary by product. The product page is the source for the written CairoVolt warranty terms at the time of ordering.' },
-            { question: 'Does the Soundcore app prove that a product is authentic?', answer: 'App compatibility is an operating feature, not an independent manufacturer authenticity certificate. Check the model details, invoice, and any manufacturer verification tools that are available.' },
-        ];
+    // Same array the HTML Soundcore hub renders (soundcore-hub.ts).
+    const faq = hub.faq[locale];
 
     let md = isAr
         ? `# ساوندكور من انكر — مصر\n\n`
@@ -284,6 +289,11 @@ export function generateBrandCategoryMarkdown(
     const products = getProductsByBrandAndCategory(brandSlug, categorySlug)
         .filter(isAgentCatalogProduct)
         .sort((a, b) => a.price - b.price);
+    // Same {minPrice} resolution the HTML shelf applies to its copy, against the
+    // active shelf the page lists.
+    const shelf = getProductsByBrandAndCategory(brandSlug, categorySlug)
+        .filter(product => product.status === 'active');
+    const resolveCopy = (text: string) => resolveMinPriceToken(text, shelf);
 
     let md = `# ${clean(page.title)}\n\n`;
     md += `${clean(page.subtitle)}\n\n`;
@@ -311,7 +321,10 @@ export function generateBrandCategoryMarkdown(
         }
     }
 
-    md += appendFaqBlock(isAr ? 'أسئلة شائعة' : 'FAQ', page.faq);
+    md += appendFaqBlock(
+        isAr ? 'أسئلة شائعة' : 'FAQ',
+        page.faq?.map(item => ({ question: resolveCopy(item.question), answer: resolveCopy(item.answer) })),
+    );
     md += appendFaqBlock(
         isAr ? 'أسئلة باور بانك' : 'Power bank FAQ',
         content.powerBankData?.faq?.[locale],
@@ -368,12 +381,7 @@ export function generateGenericCategoryMarkdown(
         md += '\n';
     }
 
-    if (faq?.length) {
-        md += `## ${isAr ? 'أسئلة شائعة' : 'FAQ'}\n\n`;
-        for (const item of faq) {
-            md += `### ${clean(item.question)}\n\n${clean(item.answer)}\n\n`;
-        }
-    }
+    md += appendFaqBlock(isAr ? 'أسئلة شائعة' : 'FAQ', faq);
 
     md += `## ${isAr ? 'المنتجات' : 'Products'} (${products.length})\n\n`;
     md += `${benchCoverageLine(products, locale)}\n\n`;
@@ -463,6 +471,22 @@ export function generateSolutionMarkdown(
     md += `${isAr ? 'الصفحة' : 'Page'}: ${url}\n\n`;
     md += `## ${isAr ? 'المشكلة' : 'Problem'}\n\n${clean(solution.problemStatement[locale])}\n\n`;
     md += `## ${isAr ? 'التحليل الهندسي' : 'Engineering explanation'}\n\n${clean(solution.engineeringExplanation[locale])}\n\n`;
+
+    if (solution.labEvidence) {
+        const labProduct = staticProducts.find(p => p.slug === solution.labEvidence?.productSlug && isAgentCatalogProduct(p));
+        if (labProduct) {
+            md += `## ${isAr ? 'من مختبرنا' : 'From our lab'}\n\n${clean(solution.labEvidence.text[locale])} — ${productLine(labProduct, locale).replace(/^- /, '')}\n\n`;
+        }
+    }
+
+    // Blog deep-dive, linked only while the article is live (same gate as HTML).
+    if (solution.deepDiveBlogSlug) {
+        const entry = getLiveIndex().find(e => e.slug === solution.deepDiveBlogSlug);
+        if (entry) {
+            const title = isAr ? localizeArabicBrandNames(entry.translations.ar.title) : entry.translations.en.title;
+            md += `${isAr ? 'اقرأ الشرح الكامل' : 'Read the full guide'}: [${clean(title)}](${BASE_URL}${localePrefix}/blog/${entry.slug})\n\n`;
+        }
+    }
 
     if (solution.steps?.[locale]?.length) {
         md += `## ${isAr ? 'خطوات عملية' : 'Practical steps'}\n\n`;

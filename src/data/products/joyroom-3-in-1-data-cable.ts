@@ -31,10 +31,10 @@ export const joyroom_3_in_1_data_cable = {
                 metaTitle: "Joyroom JR-S-1830G 3-in-1 Charging Cable | Egypt",
                 metaDesc: "One genuine Joyroom cable, three tips: Lightning, USB-C and Micro-USB for almost any device. In Egypt with store warranty and COD.",
                 faqs: [
-                    { question: "Can all three connectors charge at the same time?", answer: "Check the printed JR-S-1830G instructions. If simultaneous connection is allowed, the source current may be shared, so no branch is guaranteed its single-device maximum." },
+                    { question: "Can all three connectors charge at the same time?", answer: "Yes, all three legs can be loaded together, but they share one source budget: our sample's package lists 2.4A max shared, and with all three loaded we measured 10.8W (2.16A) total. No branch gets its single-device peak (~7.8–9.6W) while the others draw." },
                     { question: "Does it support USB-PD fast charging?", answer: "Do not infer USB-PD from the USB-C connector. Verify the exact input connector, voltage/current table and supported protocols on the package; a dedicated cable may be required for a phone's higher-power mode." },
                     { question: "Does every connector transfer data?", answer: "Not necessarily. Multi-connector cables often limit data functions to specific branches or provide charging only. Confirm the data specification for JR-S-1830G before purchase." },
-                    { question: "Is the Lightning connector MFi certified?", answer: "Verify an MFi statement covering JR-S-1830G on the supplied package or current manufacturer documentation. The connector's shape alone does not establish MFi status or future software compatibility." },
+                    { question: "Is the Lightning connector MFi certified?", answer: "Not verified: our tested JR-S-1830G sample had no Apple MFi packaging mark, and iOS showed an accessory warning. Treat MFi as unconfirmed unless your package shows the mark; the connector shape alone does not establish certification." },
                     { question: "How durable is it?", answer: "Any bend-cycle figure is a manufacturer test under controlled conditions, not a promised lifespan. Avoid pulling by the wire, inspect each branch regularly and stop use if damaged." }
                 ]
             },
@@ -49,10 +49,10 @@ export const joyroom_3_in_1_data_cable = {
                 metaTitle: "كابل جوي روم JR-S-1830G 3 في 1 | المواصفات والسعر",
                 metaDesc: "كابل جوي روم الأصلي 3 في 1 بأطراف Lightning وUSB-C وMicro-USB يشحن أغلب أجهزتك، في مصر بضمان المتجر والدفع عند الاستلام.",
                 faqs: [
-                    { question: "هل تعمل الموصلات الثلاثة معاً؟", answer: "راجع تعليمات JR-S-1830G المطبوعة. إذا سُمح بالتوصيل المتزامن فقد يتوزع تيار المصدر، لذلك لا يضمن أي فرع الحد الأقصى نفسه الموجود عند توصيل جهاز واحد." },
+                    { question: "هل تعمل الموصلات الثلاثة معاً؟", answer: "نعم، يمكن تحميل الأرجل الثلاثة معاً، لكنها تتقاسم ميزانية مصدر واحدة: عبوة عيّنتنا تذكر 2.4 أمبير كحد أقصى مشترك، ومع تحميل الثلاثة قِسنا 10.8 واط (2.16 أمبير) إجمالاً. لا يحصل أي فرع على ذروته المنفردة (~7.8–9.6 واط) أثناء سحب الفرعين الآخرين." },
                     { question: "هل يدعم شحن USB-PD السريع؟", answer: "لا تستنتج USB-PD من وجود USB-C. تحقق من موصل المصدر وجدول الجهد والتيار والبروتوكولات على العبوة؛ قد يحتاج وضع الهاتف الأعلى إلى كابل مخصص." },
                     { question: "هل كل موصل ينقل البيانات؟", answer: "ليس بالضرورة. قد تقصر الكابلات متعددة الفروع نقل البيانات على موصل معين أو توفر الشحن فقط. تحقق من مواصفة JR-S-1830G قبل الشراء." },
-                    { question: "موصل Lightning معتمد MFi؟", answer: "تحقق من بيان MFi يغطي JR-S-1830G على العبوة الموردة أو وثائق الشركة الحالية. شكل الموصل وحده لا يثبت حالة MFi أو التوافق البرمجي مستقبلاً." },
+                    { question: "موصل Lightning معتمد MFi؟", answer: "غير مؤكَّد: عيّنة JR-S-1830G المُختبرة لدينا بلا علامة Apple MFi على العبوة، وأظهر iOS تحذير ملحق. اعتبر MFi غير مؤكَّد ما لم تُظهر عبوتك العلامة؛ شكل الموصل وحده لا يثبت الاعتماد." },
                     { question: "الكابل متين قد إيه؟", answer: "أي رقم ثني هو اختبار شركة تحت شروط محددة وليس عمراً مضموناً. تجنب السحب من السلك وافحص كل فرع دورياً وتوقف عند التلف." }
                 ]
             }

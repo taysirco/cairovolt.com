@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
+import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { soundcoreHub } from '@/data/soundcore-hub';
 import { resolveMinPriceToken } from '@/lib/meta-price-token';
@@ -129,19 +130,18 @@ export default async function SoundcoreHubPage({ params }: Props) {
             { icon: 'shield', title: 'CairoVolt Warranty', description: 'Duration and terms are on the product page' },
             { icon: 'money', title: 'Cash on Delivery', description: 'Confirmed during order review' },
         ];
+    // Single FAQ source shared with the markdown twin (soundcore-hub.ts).
     const soundcoreFaq = isRTL
-        ? [
-            { question: `ما علاقة ${soundcoreAr} بـ${ankerAr}؟`, answer: `${soundcoreAr} علامة متخصصة في الصوتيات ضمن عائلة ${ankerAr}. يعرض كايرو فولت منتجاتها في قسم السماعات الشخصية وقسم مكبرات الصوت.` },
-            { question: `كيف أختار بين أقسام ${soundcoreAr}؟`, answer: 'اختر قسم audio للايربودز والهيدفون، وقسم speakers لمكبرات الصوت المحمولة. راجع صفحة المنتج للتأكد من المواصفات والتوافق والتوافر.' },
-            { question: `ما مدة ضمان كايرو فولت على منتجات ${soundcoreAr}؟`, answer: 'تختلف مدة الضمان وأهليته حسب المنتج. صفحة كل منتج هي المرجع لشروط ضمان كايرو فولت المكتوبة وقت الطلب.' },
-            { question: `هل تطبيق ${soundcoreAr} يثبت أصالة المنتج؟`, answer: 'توافق المنتج مع التطبيق ميزة تشغيلية وليس شهادة مستقلة من الشركة المصنّعة لإثبات الأصالة. راجع بيانات الموديل والفاتورة وأدوات الشركة المصنّعة إن وُجدت.' },
-        ]
-        : [
-            { question: 'How are Soundcore and Anker related?', answer: 'Soundcore is an audio brand in the Anker family. CairoVolt groups its products into personal-audio and Bluetooth-speaker sections.' },
-            { question: 'Which Soundcore category should I choose?', answer: 'Use the audio section for earbuds and headphones, and the speakers section for portable speakers. Check each product page for specifications, compatibility, and availability.' },
-            { question: 'How long is the CairoVolt warranty on Soundcore products?', answer: 'Warranty eligibility and duration vary by product. The product page is the source for the written CairoVolt warranty terms at the time of ordering.' },
-            { question: 'Does the Soundcore app prove that a product is authentic?', answer: 'App compatibility is an operating feature, not an independent manufacturer authenticity certificate. Check the model details, invoice, and any manufacturer verification tools that are available.' },
-        ];
+        ? data.faq.ar.map(item => ({
+            question: localizeArabicBrandNames(item.question),
+            answer: localizeArabicBrandNames(item.answer),
+        }))
+        : data.faq.en;
+    const breadcrumbItems = [
+        { name: isRTL ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${baseHref}`, href: baseHref || '/' },
+        { name: isRTL ? ankerAr : 'Anker', url: `https://cairovolt.com${baseHref}/anker`, href: getHref('/anker') },
+        { name: isRTL ? soundcoreAr : 'Soundcore', url: `https://cairovolt.com${baseHref}/soundcore`, href: getHref('/soundcore') },
+    ];
     const canonicalPage = `https://cairovolt.com${baseHref}/soundcore`;
     const featuredProductsSchema = {
         '@context': 'https://schema.org',
@@ -167,11 +167,7 @@ export default async function SoundcoreHubPage({ params }: Props) {
         <div className="min-h-screen bg-gray-50 dark:bg-black" dir={isRTL ? 'rtl' : 'ltr'}>
             {/* ─── Structured Data ─── */}
             <BreadcrumbSchema
-                items={[
-                    { name: isRTL ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${baseHref}` },
-                    { name: isRTL ? ankerAr : 'Anker', url: `https://cairovolt.com${baseHref}/anker` },
-                    { name: isRTL ? soundcoreAr : 'Soundcore', url: `https://cairovolt.com${baseHref}/soundcore` },
-                ]}
+                items={breadcrumbItems.map(({ name, url }) => ({ name, url }))}
                 locale={locale}
             />
             {/* Compact commerce header. The full explanatory copy remains
@@ -182,6 +178,22 @@ export default async function SoundcoreHubPage({ params }: Props) {
 
                 <div className="container relative z-10 mx-auto px-4 text-center lg:grid lg:grid-cols-5 lg:items-center lg:gap-8 lg:text-start">
                     <div className="lg:col-span-3">
+                        {/* Visible breadcrumb — same names and URLs as the
+                            BreadcrumbList JSON-LD above. */}
+                        <nav aria-label={isRTL ? 'مسار التصفح' : 'Breadcrumb'} className="mb-2 text-xs text-white/75">
+                            <ol className="inline-flex flex-wrap items-center gap-1">
+                                {breadcrumbItems.map((item, idx) => (
+                                    <li key={item.url} className="inline-flex items-center gap-1">
+                                        {idx > 0 && <span aria-hidden="true">/</span>}
+                                        {idx < breadcrumbItems.length - 1 ? (
+                                            <Link href={item.href} className="hover:text-white">{item.name}</Link>
+                                        ) : (
+                                            <span aria-current="page" className="font-medium text-white">{item.name}</span>
+                                        )}
+                                    </li>
+                                ))}
+                            </ol>
+                        </nav>
                         <div className="mb-2 flex flex-wrap items-center justify-center gap-2 lg:justify-start">
                             <Link
                                 href={getHref('/anker')}
@@ -280,6 +292,13 @@ export default async function SoundcoreHubPage({ params }: Props) {
                                     : rawTranslation;
                                 const productUrl = getHref(`/soundcore/${product.categorySlug}/${product.slug}`);
                                 const isSpeaker = product.categorySlug === 'speakers';
+                                // The audio shelf mixes earbuds, over-ear headphones and a
+                                // neckband; labelling all of them "Earbuds" was wrong.
+                                const audioBadge = product.slug.includes('headphones')
+                                    ? (isRTL ? 'هيدفون' : 'Headphones')
+                                    : product.slug.includes('neckband')
+                                        ? (isRTL ? 'نيك باند' : 'Neckband')
+                                        : (isRTL ? 'ايربودز' : 'Earbuds');
                                 return (
                                     <Link
                                         key={product.slug}
@@ -311,7 +330,7 @@ export default async function SoundcoreHubPage({ params }: Props) {
                                             }`}>
                                                 {isSpeaker
                                                     ? (isRTL ? 'سبيكر' : 'Speaker')
-                                                    : (isRTL ? 'ايربودز' : 'Earbuds')}
+                                                    : audioBadge}
                                             </span>
                                         </div>
                                         <div className="p-3">
@@ -476,7 +495,7 @@ export default async function SoundcoreHubPage({ params }: Props) {
                             <Link href={getHref('/soundcore/audio')} className="flex items-center gap-4 px-6 py-5 bg-white text-gray-900 rounded-2xl font-bold shadow-xl hover:shadow-2xl hover:scale-105 transition-all">
                                 <SvgIcon name="headphones" className="w-8 h-8 text-orange-600" />
                                 <div className={isRTL ? 'text-right flex-1' : 'text-left flex-1'}>
-                                    <div className="text-base">{isRTL ? `سماعات ${soundcoreAr}` : 'Soundcore Earbuds'}</div>
+                                    <div className="text-base">{isRTL ? `سماعات ${soundcoreAr}` : 'Soundcore Earbuds & Headphones'}</div>
                                     <div className="mt-1 text-xs font-normal leading-5 text-gray-500">
                                         {isRTL ? audioCategory?.description.ar : audioCategory?.description.en}
                                     </div>
@@ -514,7 +533,7 @@ export default async function SoundcoreHubPage({ params }: Props) {
                                     <span className="transform group-open:rotate-180 transition-transform text-gray-400">▼</span>
                                 </summary>
                                 <div className="px-5 pb-5 text-gray-600 dark:text-gray-400 leading-relaxed border-t border-gray-50 dark:border-gray-800 pt-4">
-                                    {item.answer}
+                                    <MarkdownRenderer content={item.answer} />
                                 </div>
                             </details>
                         ))}

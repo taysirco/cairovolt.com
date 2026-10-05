@@ -4,7 +4,7 @@ export const jbl_original_vs_fake_egypt: BlogArticle = {
     slug: 'jbl-original-vs-fake-egypt',
     category: 'tips',
     publishDate: '2026-08-16T10:00:00+03:00',
-    modifiedDate: '2026-08-16T10:00:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'jbl-t110',
@@ -13,7 +13,7 @@ export const jbl_original_vs_fake_egypt: BlogArticle = {
         'jbl-tune-520bt',
     ],
     relatedArticles: [
-        'jbl-vs-soundcore-egypt',
+        'anker-soundcore-vs-jbl-vs-bose-speakers-egypt',
         'jbl-sub-speaker-meaning',
         'anker-original-website-verify-barcode-guide',
         'accessories-warranty-egypt-consumer-legal-rights',
@@ -105,10 +105,10 @@ export const jbl_original_vs_fake_egypt: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">إنذار أحمر لو أقل من</th>
     </tr></thead>
     <tbody>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL T110 (سلك)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">300 - 700 ج</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~200 ج</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL Tune 520BT</strong></td><td style="padding:12px;border:1px solid #d1d5db;">1,700 - 2,000 ج</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~1,100 ج</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL Wave Beam</strong></td><td style="padding:12px;border:1px solid #d1d5db;">1,700 - 3,300 ج</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~1,200 ج</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL Flip 6</strong></td><td style="padding:12px;border:1px solid #d1d5db;">5,500 - 7,000 ج</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~3,500 ج</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL T110 (سلك)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">حوالي 300 - 700 ج (كايرو فولت: {{price:jbl-t110}} ج)</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~200 ج</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL Tune 520BT</strong></td><td style="padding:12px;border:1px solid #d1d5db;">حوالي 1,700 - 2,000 ج (كايرو فولت: {{price:jbl-tune-520bt}} ج)</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~1,100 ج</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL Wave Beam</strong></td><td style="padding:12px;border:1px solid #d1d5db;">حوالي 1,700 - 3,300 ج (كايرو فولت: {{price:jbl-wave-beam}} ج)</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~1,200 ج</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL Flip 6</strong></td><td style="padding:12px;border:1px solid #d1d5db;">حوالي 5,500 - 7,000 ج (كايرو فولت: {{price:jbl-flip-6}} ج)</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~3,500 ج</td></tr>
     </tbody>
 </table>
 
@@ -124,7 +124,7 @@ export const jbl_original_vs_fake_egypt: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🧾 <strong>فاتورة رسمية باسم المتجر</strong> — يعني في جهة معروفة مسؤولة قانونياً عن اللي اشتريته.</li>
-    <li style="margin-bottom:12px;">🛡️ <strong>ضمان كايرو فولت 12 شهر</strong> على منتجات JBL — مكتوب ومفعّل على السيستم، مش كلام شفوي.</li>
+    <li style="margin-bottom:12px;">🛡️ <strong>ضمان كايرو فولت المكتوب</strong> على منتجات JBL (المدة موضحة في صفحة كل منتج) — مكتوب ومفعّل على السيستم، مش كلام شفوي.</li>
     <li style="margin-bottom:12px;">↩️ <strong>سياسة استرجاع واضحة</strong> — لو المنتج وصلك فيه مشكلة، بيترجع. متجر بيبيع تقليد مش بيقدر يستحمل سياسة استرجاع أصلاً.</li>
     <li style="margin-bottom:12px;">💵 <strong>دفع عند الاستلام</strong> — افحص العلبة والمنتج قبل ما تدفع مليم.</li>
 </ul>
@@ -132,7 +132,7 @@ export const jbl_original_vs_fake_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ منتجات JBL أصلية على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        من <a href="/jbl/earbuds/jbl-t110" style="color:#2563eb;font-weight:600;">T110 السلك الكلاسيكية</a> لـ <a href="/jbl/earbuds" style="color:#2563eb;font-weight:600;">سماعات الأذن اللاسلكية</a> و<a href="/jbl/speakers" style="color:#2563eb;font-weight:600;">السبيكرات المحمولة</a> — كلها بفاتورة وضمان كايرو فولت 12 شهر ودفع عند الاستلام لكل المحافظات.
+        من <a href="/jbl/earbuds/jbl-t110" style="color:#2563eb;font-weight:600;">T110 السلك الكلاسيكية</a> لـ <a href="/jbl/earbuds" style="color:#2563eb;font-weight:600;">سماعات الأذن اللاسلكية</a> و<a href="/jbl/speakers" style="color:#2563eb;font-weight:600;">السبيكرات المحمولة</a> — كلها بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) ودفع عند الاستلام لكل المحافظات.
     </p>
 </div>`,
             faq: [
@@ -229,10 +229,10 @@ export const jbl_original_vs_fake_egypt: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Red Flag Below</th>
     </tr></thead>
     <tbody>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL T110 (wired)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">300 - 700 EGP</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~200 EGP</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL Tune 520BT</strong></td><td style="padding:12px;border:1px solid #d1d5db;">1,700 - 2,000 EGP</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~1,100 EGP</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL Wave Beam</strong></td><td style="padding:12px;border:1px solid #d1d5db;">1,700 - 3,300 EGP</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~1,200 EGP</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL Flip 6</strong></td><td style="padding:12px;border:1px solid #d1d5db;">5,500 - 7,000 EGP</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~3,500 EGP</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL T110 (wired)</strong></td><td style="padding:12px;border:1px solid #d1d5db;">approx. 300 - 700 EGP (CairoVolt: {{price:jbl-t110}} EGP)</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~200 EGP</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL Tune 520BT</strong></td><td style="padding:12px;border:1px solid #d1d5db;">approx. 1,700 - 2,000 EGP (CairoVolt: {{price:jbl-tune-520bt}} EGP)</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~1,100 EGP</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL Wave Beam</strong></td><td style="padding:12px;border:1px solid #d1d5db;">approx. 1,700 - 3,300 EGP (CairoVolt: {{price:jbl-wave-beam}} EGP)</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~1,200 EGP</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>JBL Flip 6</strong></td><td style="padding:12px;border:1px solid #d1d5db;">approx. 5,500 - 7,000 EGP (CairoVolt: {{price:jbl-flip-6}} EGP)</td><td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">~3,500 EGP</td></tr>
     </tbody>
 </table>
 
@@ -248,7 +248,7 @@ export const jbl_original_vs_fake_egypt: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🧾 <strong>An official invoice</strong> in the store's name — a known entity legally accountable for what you bought.</li>
-    <li style="margin-bottom:12px;">🛡️ <strong>CairoVolt 12-month warranty</strong> on JBL products — written and registered in our system, not a verbal promise.</li>
+    <li style="margin-bottom:12px;">🛡️ <strong>CairoVolt's written store warranty</strong> on JBL products (duration shown on each product page) — registered in our system, not a verbal promise.</li>
     <li style="margin-bottom:12px;">↩️ <strong>A clear return policy</strong> — a store selling fakes couldn't survive a return policy in the first place.</li>
     <li style="margin-bottom:12px;">💵 <strong>Cash on delivery</strong> — inspect the box and the product before paying a pound.</li>
 </ul>
@@ -256,7 +256,7 @@ export const jbl_original_vs_fake_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Genuine JBL at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        From the <a href="/en/jbl/earbuds/jbl-t110" style="color:#2563eb;font-weight:600;">classic wired T110</a> to <a href="/en/jbl/earbuds" style="color:#2563eb;font-weight:600;">wireless earbuds</a> and <a href="/en/jbl/speakers" style="color:#2563eb;font-weight:600;">portable speakers</a> — all with an invoice, CairoVolt 12-month warranty, and cash on delivery to every governorate.
+        From the <a href="/en/jbl/earbuds/jbl-t110" style="color:#2563eb;font-weight:600;">classic wired T110</a> to <a href="/en/jbl/earbuds" style="color:#2563eb;font-weight:600;">wireless earbuds</a> and <a href="/en/jbl/speakers" style="color:#2563eb;font-weight:600;">portable speakers</a> — all with an invoice, CairoVolt's written store warranty (duration shown on each product page), and cash on delivery to every governorate.
     </p>
 </div>`,
             faq: [

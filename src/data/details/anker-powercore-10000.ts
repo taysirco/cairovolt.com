@@ -6,16 +6,16 @@ import type { ProductDetail } from './_types';
 export const anker_powercore_10000_detail: ProductDetail = {
     aiTldr: {
         en: [
-            '⚠️ RECALL (do not skip): US CPSC June 2025 recalled Anker PowerCore 10000 model A1263 units manufactured for the US market between January 2016 and October 2019 — fire / overheating hazard. Check your serial at https://www.anker.com/a1263-recall before any use. CairoVolt guarantees replacement or refund on ANY A1263 unit we sold, regardless of batch.',
+            '⚠️ RECALL: US CPSC (June 2025) recalled Anker PowerCore 10000 A1263 units made for the US market from January 2016 to October 2019 (fire / overheating hazard). Check your serial at https://www.anker.com/a1263-recall before any use. CairoVolt guarantees replacement or refund on ANY A1263 unit we sold, regardless of batch.',
             'Our lab sample CV-PB-A1263-001 is a retail-stock unit with a manufacturing date verified OUTSIDE that Jan 2016 – Oct 2019 US recall window. Post-window does NOT erase the model-level recall history — every buyer should still run the serial checker. Recall status re-verified against anker.com/a1263-recall + anker.com/product-recalls + cpsc.gov on 2026-07-24.',
-            'Capacity honesty (§7.3 / §8): Anker rates 10,000mAh / 36Wh cells (10,000mAh × 3.6V = 36Wh). CairoVolt measured 31.2Wh usable at a moderate 5V/2A USB-A discharge → 86.7% conversion (31.2 ÷ 36). Independent Packstack + TechGearLab benches recovered only ~53% at a heavier 2.4A load — load-dependent loss, not a defect. We do NOT invent a second primary Wh figure.',
+            'Capacity honesty: Anker rates 10,000mAh / 36Wh cells (10,000mAh × 3.6V = 36Wh). CairoVolt measured 31.2Wh usable at a moderate 5V/2A USB-A discharge → 86.7% conversion (31.2 ÷ 36). Independent Packstack + TechGearLab benches recovered only ~53% at a heavier 2.4A load — load-dependent loss, not a defect. The 2A figure stays the single primary Wh value.',
             'Pocket day-pack: 182g, 92×61×22mm. ~1.4 full charges of a modern 5000mAh Egyptian phone (Galaxy A15 measured 1.43). Micro-USB input only — ~7h overnight recharge; no USB-C, no PD, no PPS. 36Wh << 100Wh airline cabin limit (EgyptAir / Nile Air / Air Cairo — cabin only).',
             'Honest vs siblings: A1260 (PowerCore II 20000) = 61.4Wh usable + QC 18W Port 1, NOT recalled, twice the energy, twice the bulk. A110D (Zolo 10K) = 31.1Wh + real 22.5W USB-C + built-in cable, NOT recalled. JR-T012 = 30.8Wh dual USB-A budget twin, usually cheaper, no Anker warranty, no A1263 recall baggage.',
         ],
         ar: [
             '⚠️ استدعاء (لا تتخطَّ): في يونيو 2025 استرجعت CPSC الأمريكية وحدات Anker PowerCore 10000 موديل A1263 المصنّعة للسوق الأمريكي بين يناير 2016 وأكتوبر 2019 — خطر حرارة/حريق. تحقق من رقم السيريال على https://www.anker.com/a1263-recall قبل أي استخدام. كايرو فولت يضمن استبدال أو استرجاع أي وحدة A1263 بعناها، بغض النظر عن الدفعة.',
             'عيّنة المختبر CV-PB-A1263-001 من مخزون التجزئة بتاريخ تصنيع مؤكد خارج نافذة الاسترجاع الأمريكية يناير 2016 – أكتوبر 2019. الخروج من النافذة لا يمحو تاريخ استدعاء الموديل — على كل مشترٍ تشغيل فاحص السيريال. أُعيد التحقق من حالة الاستدعاء مقابل anker.com/a1263-recall + anker.com/product-recalls + cpsc.gov في 2026-07-24.',
-            'أمانة السعة (§7.3 / §8): انكر تُدرج 10,000 مللي أمبير / 36Wh خلايا (10,000 مللي أمبير × 3.6V = 36Wh). قِست CairoVolt 31.2Wh قابلة للاستخدام بتفريغ USB-A معتدل 5V/2A → كفاءة 86.7% (31.2 ÷ 36). مختبَرا Packstack + TechGearLab المستقلان استرجعا نحو 53% فقط عند حمل أعلى 2.4A — خسارة تعتمد على الحمل وليست عيبًا. لا نخترع رقم Wh أساسيًا ثانيًا.',
+            'أمانة السعة: انكر تُدرج 10,000 مللي أمبير / 36Wh خلايا (10,000 مللي أمبير × 3.6V = 36Wh). قِست CairoVolt 31.2Wh قابلة للاستخدام بتفريغ USB-A معتدل 5V/2A → كفاءة 86.7% (31.2 ÷ 36). مختبَرا Packstack + TechGearLab المستقلان استرجعا نحو 53% فقط عند حمل أعلى 2.4A — خسارة تعتمد على الحمل وليست عيبًا. يبقى رقم حمل 2A هو قيمة Wh الأساسية الوحيدة.',
             'حزمة يوم جيب: 182 جرامًا، 92×61×22 ملم. نحو 1.4 شحنة كاملة لهاتف مصري 5000 مللي أمبير (Galaxy A15 مقاس 1.43). دخل Micro-USB فقط — إعادة شحن ~7 ساعات ليلاً؛ بلا USB-C ولا PD ولا PPS. 36Wh << حد المقصورة 100Wh (مصر للطيران / النيل / إير كايرو — مقصورة فقط).',
             'مقارنة صادقة: A1260 (PowerCore II 20000) = 61.4Wh + QC 18 واط على المنفذ 1، غير مُستدعى، ضعف الطاقة وضعف الحجم. A110D (Zolo 10K) = 31.1Wh + USB-C حقيقي 22.5 واط + كابل مدمج، غير مُستدعى. JR-T012 = توأم ميزانية 30.8Wh بمنفذَي USB-A، غالبًا أرخص، بلا ضمان انكر وبلا عبء استدعاء A1263.',
         ],
@@ -25,13 +25,13 @@ export const anker_powercore_10000_detail: ProductDetail = {
             'A1263 answers ONE Egyptian question — with a mandatory safety preface: "what fits in my pocket and covers one Egyptian day?" — but ONLY after you verify the serial is outside the US CPSC June 2025 recall window (Jan 2016 – Oct 2019 US manufacture). CairoVolt replaces or refunds any unit we sold; still run https://www.anker.com/a1263-recall. ' +
             'Five scenarios from customer conversations. RIGHT FOR (post-serial-check): (1) TALABAT / UBER EATS DRIVER (12h shift): GPS + screen-on loses ~10–15%/hr (Battery Spotlight; Google Maps navigation alone 15–25%/hr). Over 12h ≈ 23–29Wh drawn — our 31.2Wh usable gives ONE mid-shift top-up. Phone starts 100%, hits ~20% at hour 5–6; one top-up covers 6–12. Past 14h → take a 20K pack (A1260 / A110E class). (2) STUDENT (Cairo / Ain Shams / AUC, 8h+ campus): mixed background 5–8%/hr ≈ ~10Wh top-up; pack covers 2–3 exam days on one charge. (3) TOURIST (Khan el-Khalili, 10h Maps + photos): ~23–35Wh — one full recharge covers exactly one day; download Islamic Cairo offline (saves ~10% battery/hr around Al-Muizz). (4) RAMADAN (taraweeh + sahoor, 18 waking hours): two partial top-ups ≈ 18–22Wh with buffer. (5) UMRAH / HAJJ day: 36Wh well under GACA/IATA 100Wh cabin limit — one recharge covers Tawaf/Sa\'i tracking + WhatsApp family calls. ' +
             'WRONG FOR: (6) Anyone who will not check the serial — stop; use the recall URL first. (7) USB-C-only modern phone owners without an A-to-C cable — Micro-USB input + USB-A output is a 2016-era I/O pair. (8) Samsung 25W Super Fast / Realme SuperVOOC / Oppo VOOC chasers — no PD/PPS; everything falls back to ~5V/2A (~10W, ~3h for 5000mAh). (9) Buyers who want A110D-class speed — pay for Zolo A110D (22.5W USB-C + built-in cable, NOT recalled) instead. ' +
-            'EGYPTAIR / CAIRO CARRIERS (§8 airline math): 36Wh label << 100Wh — carry-on free on EgyptAir, Nile Air, Air Cairo, Saudia, Emirates, Flydubai, Turkish, Qatar (verify each DG page on travel day). Cabin only; NEVER checked baggage for Li-ion. Emirates/Flydubai ban in-flight power-bank use (rule since Oct 2025) — pack stays powered off in the cabin bag. ' +
+            'EGYPTAIR / CAIRO CARRIERS (airline math): 36Wh label << 100Wh — carry-on free on EgyptAir, Nile Air, Air Cairo, Saudia, Emirates, Flydubai, Turkish, Qatar (verify each DG page on travel day). Cabin only; NEVER checked baggage for Li-ion. Emirates/Flydubai ban in-flight power-bank use (rule since Oct 2025) — pack stays powered off in the cabin bag. ' +
             'MICRO-USB MODERNITY LIMIT: Anker specs 6–7h recharge on a 5V/2A brick; we measured ~7h. A modern USB-C 20W pack (A110D) recharges in ~3h. Plan overnight only — not between delivery shifts. Competing Egypt-shelf USB-C packs (Xiaomi Redmi PB ~799 EGP, Baseus Bipow ~855 EGP, Joyroom JR-T012 dual-A) win on connectors; A1263\'s remaining edge is Anker 5-year warranty + PowerIQ tuning + CairoVolt layered warranty — never "safer than the recall notice."',
         ar:
             'يجيب A1263 على سؤال مصري واحد — مع مقدمة سلامة إلزامية: "أيه اللي يدخل جيبي ويغطي يوم مصري كامل؟" — لكن فقط بعد التحقق أن السيريال خارج نافذة استدعاء CPSC يونيو 2025 (تصنيع أمريكي يناير 2016 – أكتوبر 2019). كايرو فولت يستبدل أو يسترجع أي وحدة بعناها؛ ومع ذلك شغّل https://www.anker.com/a1263-recall. ' +
             'خمسة سيناريوهات من محادثات العملاء. مناسب لـ (بعد فحص السيريال): (1) سائق طلبات / أوبر إيتس (وردية 12 ساعة): GPS + الشاشة تفقد نحو 10–15%/ساعة (Battery Spotlight؛ تنقّل جوجل مابس وحده 15–25%/ساعة). على 12 ساعة ≈ 23–29Wh مسحوبة — 31.2Wh القابلة للاستخدام تعطي تعبئة واحدة وسط الوردية. الهاتف يبدأ 100%، يصل ~20% عند الساعة 5–6؛ تعبئة تغطي 6–12. بعد 14 ساعة → خذ حزمة 20K (فئة A1260 / A110E). (2) طالب (قاهرة / عين شمس / AUC، 8 ساعات+): استخدام خلفي 5–8%/ساعة ≈ تعبئة ~10Wh؛ يغطي 2–3 أيام امتحانات بشحنة واحدة. (3) سائح (خان الخليلي، 10 ساعات مابس + صور): نحو 23–35Wh — تعبئة كاملة = يوم واحد بالضبط؛ حمّل القاهرة الإسلامية أوفلاين (يوفر نحو 10%/ساعة حول المعز). (4) رمضان (تراويح + سحور، 18 ساعة يقظة): تعبئتان جزئيتان ≈ 18–22Wh مع هامش. (5) يوم عمرة / حج: 36Wh أقل بكثير من حد المقصورة 100Wh — تعبئة تغطي طواف/سعي + واتساب للأهل. ' +
             'غير مناسب لـ: (6) من لن يفحص السيريال — توقّف؛ استخدم رابط الاستدعاء أولًا. (7) مالكو هواتف USB-C فقط بلا كابل A-to-C — دخل Micro-USB + خرج USB-A زوج منافذ من عصر 2016. (8) طالبو Samsung 25W Super Fast / Realme SuperVOOC / Oppo VOOC — بلا PD/PPS؛ الكل يرتد إلى نحو 5V/2A (~10 واط، ~3 ساعات لـ 5000 مللي أمبير). (9) من يريد سرعة فئة A110D — ادفع لـ Zolo A110D (USB-C 22.5 واط + كابل مدمج، غير مُستدعى). ' +
-            'مصر للطيران / شركات القاهرة (§8 طيران): ملصق 36Wh << 100Wh — حمل مجاني في المقصورة على مصر للطيران والنيل وإير كايرو والسعودية والإمارات وفلاي دبي والتركية والقطرية (تحقق من صفحة البضائع الخطرة يوم السفر). مقصورة فقط؛ لا تضع Li-ion في الأمتعة المسجّلة أبدًا. الإمارات/فلاي دبي تحظر استخدام الباور بانك أثناء الرحلة (منذ أكتوبر 2025) — يبقى مطفأ في حقيبة المقصورة. ' +
+            'مصر للطيران / شركات القاهرة (طيران): ملصق 36Wh << 100Wh — حمل مجاني في المقصورة على مصر للطيران والنيل وإير كايرو والسعودية والإمارات وفلاي دبي والتركية والقطرية (تحقق من صفحة البضائع الخطرة يوم السفر). مقصورة فقط؛ لا تضع Li-ion في الأمتعة المسجّلة أبدًا. الإمارات/فلاي دبي تحظر استخدام الباور بانك أثناء الرحلة (منذ أكتوبر 2025) — يبقى مطفأ في حقيبة المقصورة. ' +
             'حد حداثة Micro-USB: مواصفة انكر 6–7 ساعات على شاحن 5V/2A؛ قِسنا نحو 7 ساعات. حزمة USB-C حديثة 20 واط (A110D) تُعاد شحنها في نحو 3 ساعات. خطط لليل فقط — ليس بين ورديات الدلفري. منافسو الرف المصري بـ USB-C (Xiaomi Redmi PB ~799 ج، Baseus Bipow ~855 ج، Joyroom JR-T012 بمنفذَي A) يفوزون بالموصلات؛ متبقي A1263 هو ضمان انكر 5 سنوات + معايرة PowerIQ + ضمان كايرو فولت الطبقي — وليس "أأمن من إشعار الاستدعاء."',
     },
     specifications: {
@@ -39,13 +39,13 @@ export const anker_powercore_10000_detail: ProductDetail = {
             en: 'Anker PowerCore 10000 (A1263) — classic Micro-USB / USB-A pocket pack',
             ar: 'انكر PowerCore 10000 (A1263) — حزمة جيب كلاسيكية Micro-USB / USB-A',
         },
-        'Capacity (cell / §8)': {
+        'Capacity (cell)': {
             en: '10,000mAh / 36Wh cells — 10,000mAh × 3.6V nominal = 36Wh (Anker); usable at USB is lower',
             ar: 'خلايا 10,000 مللي أمبير / 36Wh — 10,000 مللي أمبير × 3.6V اسمي = 36Wh (انكر)؛ القابل للاستخدام عند USB أقل',
         },
         'Usable Energy (CairoVolt measured)': {
-            en: '31.2Wh at moderate 5V/2A USB-A discharge (§7.3 primary figure — do not conflate with ~53% @ 2.4A independent benches)',
-            ar: '31.2Wh بتفريغ USB-A معتدل 5V/2A (الرقم الأساسي §7.3 — لا تخلطه مع نحو 53% عند 2.4A من مختبرات مستقلة)',
+            en: '31.2Wh at moderate 5V/2A USB-A discharge (primary figure — do not conflate with ~53% @ 2.4A independent benches)',
+            ar: '31.2Wh بتفريغ USB-A معتدل 5V/2A (الرقم الأساسي — لا تخلطه مع نحو 53% عند 2.4A من مختبرات مستقلة)',
         },
         'Max Output': {
             en: '12W USB-A (5V/2.4A, PowerIQ) — no 9V rail, no PD, no PPS',
@@ -111,11 +111,11 @@ export const anker_powercore_10000_detail: ProductDetail = {
         },
         methodology: {
             en:
-                'Per Bench Test Protocol §7.3 (power banks) with §7.3 recall honesty and §8 Wh physics cross-checks. ' +
+                'Per Bench Test Protocol (power banks) with the recall honesty and Wh physics cross-checks. ' +
                 '(1) SAFETY GATE: photographed model A1263 + manufacturing date; confirmed sample is post-recall-window; logged serial-check URL https://www.anker.com/a1263-recall for buyer replication. Re-verified recall pages on 2026-07-24. ' +
                 '(2) Fully charged over Micro-USB from a 5V/2A brick, rested 20 minutes. ' +
                 '(3) Full discharge through USB-A into JUWEI electronic load at moderate constant 5V/2A while FNIRSI FNB58 logged cumulative V·A·W·Wh → PRIMARY usable energy 31.2Wh. ' +
-                '(4) §8 math: cell Wh = 10,000mAh × 3.6V ÷ 1000 = 36Wh; efficiency = 31.2 ÷ 36 = 86.7%; 5V-referred mAh ≈ 31.2Wh ÷ 5V = 6,240mAh. ' +
+                '(4) math: cell Wh = 10,000mAh × 3.6V ÷ 1000 = 36Wh; efficiency = 31.2 ÷ 36 = 86.7%; 5V-referred mAh ≈ 31.2Wh ÷ 5V = 6,240mAh. ' +
                 '(5) LOAD-DEPENDENCE NOTE (not our second primary): Packstack + TechGearLab independent benches ~53% recovery / 5,273 mAh at heavier 2.4A — we publish that as corroboration of Anker\'s device-/load-dependent claim, not as a conflicting CairoVolt Wh. ' +
                 '(6) Real-device charge count into Samsung Galaxy A15 (5000mAh / 19.25Wh cell) → 1.43 charges; physical per-charge draw 21.8Wh (31.2 ÷ 1.43). ' +
                 '(7) Peak USB-A PowerIQ wattage logged (11.2W at 5.15V/2.18A) — no 9V PD advertisement. ' +
@@ -123,11 +123,11 @@ export const anker_powercore_10000_detail: ProductDetail = {
                 '(9) Sibling honesty cross-check against same-lab figures: A1260 = 61.4Wh / NOT recalled; A110D = 31.1Wh USB-C / NOT recalled; JR-T012 = 30.8Wh dual-A. ' +
                 'Phone counts marked "est." use 31.2 ÷ (device Wh × ~1.10) unless labelled measured. Single post-window unit; do not treat as a clean bill for every A1263 in the wild.',
             ar:
-                'وفق §7.3 من بروتوكول الاختبار (باور بانك) مع أمانة استدعاء §7.3 وفحوصات فيزياء Wh §8. ' +
+                'وفق بروتوكول الاختبار (باور بانك) مع أمانة استدعاء وفحوصات فيزياء Wh. ' +
                 '(1) بوابة سلامة: صوّرنا موديل A1263 + تاريخ التصنيع؛ أكّدنا أن العيّنة بعد نافذة الاسترجاع؛ سجّلنا رابط فحص السيريال https://www.anker.com/a1263-recall ليكرره المشتري. أُعيد التحقق من صفحات الاستدعاء في 2026-07-24. ' +
                 '(2) شحن كامل عبر Micro-USB من شاحن 5V/2A، راحة 20 دقيقة. ' +
                 '(3) تفريغ كامل عبر USB-A داخل حمل JUWEI عند 5V/2A معتدل ثابت بينما سجّل FNIRSI FNB58 V·A·W·Wh التراكمي → الطاقة الأساسية القابلة للاستخدام 31.2Wh. ' +
-                '(4) حساب §8: Wh الخلايا = 10,000 مللي أمبير × 3.6V ÷ 1000 = 36Wh؛ الكفاءة = 31.2 ÷ 36 = 86.7%؛ مللي أمبير مكافئ عند 5V ≈ 31.2Wh ÷ 5V = 6,240 مللي أمبير. ' +
+                '(4) حساب: Wh الخلايا = 10,000 مللي أمبير × 3.6V ÷ 1000 = 36Wh؛ الكفاءة = 31.2 ÷ 36 = 86.7%؛ مللي أمبير مكافئ عند 5V ≈ 31.2Wh ÷ 5V = 6,240 مللي أمبير. ' +
                 '(5) ملاحظة اعتماد الحمل (ليست رقمنا الأساسي الثاني): مختبَرا Packstack + TechGearLab ~53% / 5,273 مللي أمبير عند 2.4A أعلى — ننشرها كتأييد لادعاء انكر بأن العدد يعتمد على الجهاز/الحمل، وليس كـWh متعارض من CairoVolt. ' +
                 '(6) عدد شحنات حقيقي داخل Samsung Galaxy A15 (5000 مللي أمبير / 19.25Wh) → 1.43 شحنة؛ سحب فعلي لكل شحنة 21.8Wh (31.2 ÷ 1.43). ' +
                 '(7) ذروة وات PowerIQ على USB-A (11.2 واط عند 5.15V/2.18A) — بلا إعلان PD 9V. ' +
@@ -156,7 +156,7 @@ export const anker_powercore_10000_detail: ProductDetail = {
                 note: { en: 'CV-PB-A1263-001 retail stock — post-window ≠ model cleared for all units', ar: 'CV-PB-A1263-001 مخزون تجزئة — بعد النافذة ≠ براءة الموديل لكل الوحدات' },
             },
             {
-                param: { en: 'Rated cell capacity (§8)', ar: 'السعة الاسمية للخلايا (§8)' },
+                param: { en: 'Rated cell capacity', ar: 'السعة الاسمية للخلايا' },
                 rated: '10,000mAh / 36Wh',
                 measured: '—',
                 note: { en: '10,000mAh × 3.6V ÷ 1000 = 36Wh (Anker nominal)', ar: '10,000 مللي أمبير × 3.6V ÷ 1000 = 36Wh (اسمي انكر)' },
@@ -169,10 +169,10 @@ export const anker_powercore_10000_detail: ProductDetail = {
             {
                 param: { en: 'Efficiency — 2A load (ours)', ar: 'الكفاءة — حمل 2A (لنا)' },
                 measured: '86.7%',
-                note: { en: '31.2 ÷ 36; within §7.3 expected 80–90% band', ar: '31.2 ÷ 36؛ ضمن نطاق §7.3 المتوقع 80–90%' },
+                note: { en: '31.2 ÷ 36; within the expected 80–90% band', ar: '31.2 ÷ 36؛ ضمن النطاق المتوقع 80–90%' },
             },
             {
-                param: { en: '5V-referred capacity (§8)', ar: 'سعة مكافئة عند 5V (§8)' },
+                param: { en: '5V-referred capacity', ar: 'سعة مكافئة عند 5V' },
                 measured: { en: '~6,240 mAh at 5V', ar: 'نحو 6,240 مللي أمبير عند 5V' },
                 note: { en: '31.2Wh ÷ 5V — explains why “10,000mAh” ≠ 10,000mAh at USB 5V', ar: '31.2Wh ÷ 5V — يوضح لماذا «10,000 مللي أمبير» ≠ 10,000 مللي أمبير عند USB 5V' },
             },
@@ -275,19 +275,13 @@ export const anker_powercore_10000_detail: ProductDetail = {
             },
         ],
         verdict: {
-            en:
-                'CV-PB-A1263-001 (post-recall-window) delivered 31.2Wh usable at 86.7% under 5V/2A — one modern 5000mAh Egyptian phone day. ' +
-                'Model-level US CPSC June 2025 recall still stands for Jan 2016 – Oct 2019 US units; verify every serial at anker.com/a1263-recall. ' +
-                'CairoVolt replaces/refunds any unit. Micro-USB ~7h and no PD are the modernity tax versus A110D / JR-T012.',
-            ar:
-                'قدّمت CV-PB-A1263-001 (بعد نافذة الاسترجاع) 31.2Wh قابلة للاستخدام بكفاءة 86.7% عند 5V/2A — يوم هاتف مصري 5000 مللي أمبير حديث. ' +
-                'استدعاء CPSC يونيو 2025 على مستوى الموديل ما زال قائمًا لوحدات أمريكية يناير 2016 – أكتوبر 2019؛ تحقق من كل سيريال على anker.com/a1263-recall. ' +
-                'كايرو فولت يستبدل/يسترجع أي وحدة. Micro-USB نحو 7 ساعات وبلا PD هما ضريبة الحداثة مقابل A110D / JR-T012.',
+            en: 'Recall first: the model-level US CPSC June 2025 recall still stands for Jan 2016 – Oct 2019 US units — verify every serial at anker.com/a1263-recall; CairoVolt replaces/refunds any unit. Our post-window sample delivered 31.2Wh usable (86.7%) at 5V/2A — about one 5,000mAh phone day. Micro-USB ~7h recharge, no PD.',
+            ar: 'الاستدعاء أولًا: استدعاء CPSC (يونيو 2025) للموديل ما زال قائمًا لوحدات أمريكية يناير 2016 – أكتوبر 2019؛ تحقق من كل سيريال على anker.com/a1263-recall، وكايرو فولت يستبدل/يسترجع أي وحدة. عيّنتنا بعد النافذة قدّمت 31.2Wh (86.7%) عند 5V/2A — نحو يوم هاتف 5000 مللي أمبير. Micro-USB نحو 7 ساعات وبلا PD.',
         },
         pros: [
             {
-                en: '31.2Wh measured usable at 86.7% (5V/2A) — §8-coherent with 36Wh cells; Galaxy A15 measured 1.43 charges',
-                ar: '31.2Wh قابلة للاستخدام مقاسة بكفاءة 86.7% (5V/2A) — متسقة §8 مع خلايا 36Wh؛ Galaxy A15 مقاس 1.43 شحنة',
+                en: '31.2Wh measured usable at 86.7% (5V/2A) — coherent with 36Wh cells; Galaxy A15 measured 1.43 charges',
+                ar: '31.2Wh قابلة للاستخدام مقاسة بكفاءة 86.7% (5V/2A) — متسقة مع خلايا 36Wh؛ Galaxy A15 مقاس 1.43 شحنة',
             },
             {
                 en: 'Genuinely pocket-sized — 92×61×22mm, 182g (9g over iPhone 15); fits jeans front pocket',
@@ -328,8 +322,8 @@ export const anker_powercore_10000_detail: ProductDetail = {
                 ar: 'مقابل JR-T012 / Xiaomi / Baseus على الرف المصري: المنافسون يضيفون USB-C أو منفذَي A بسعر غالبًا أقل — ميزة A1263 العلامة + ضمان 5 سنوات + PowerIQ، وليس رسالة «بلا استدعاء»',
             },
             {
-                en: 'Single unit tested — batches vary. 86.7% applies to moderate 2A; heavier 2.4A yields less per Packstack/TechGearLab. Do not invent alternate primary Wh.',
-                ar: 'وحدة واحدة مُختبَرة — الدفعات تختلف. 86.7% ينطبق على حمل 2A معتدل؛ 2.4A الأعلى يعطي أقل حسب Packstack/TechGearLab. لا تخترع Wh أساسيًا بديلًا.',
+                en: 'Single unit tested — batches vary. 86.7% applies to moderate 2A; heavier 2.4A yields less per Packstack/TechGearLab.',
+                ar: 'وحدة واحدة مُختبَرة — الدفعات تختلف. 86.7% ينطبق على حمل 2A معتدل؛ 2.4A الأعلى يعطي أقل حسب Packstack/TechGearLab.',
             },
         ],
     },

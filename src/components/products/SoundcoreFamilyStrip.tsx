@@ -41,13 +41,17 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
     const getLocalizedHref = (path: string) => (isRTL ? path : `/${locale}${path}`);
     const canonicalBase = `https://cairovolt.com${isRTL ? '' : '/en'}`;
 
-    // ItemList over the canonical Soundcore URLs.
+    // ItemList over the canonical Soundcore URLs. It renders on the Anker hub,
+    // so it gets its own stable @id instead of floating as an anonymous list.
+    // No `isPartOf`: schema.org defines that property on CreativeWork only, and
+    // ItemList is an Intangible.
     const itemListSchema = {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
+        '@id': `${canonicalBase}/anker#soundcore-family-list`,
         name: isRTL
-            ? localizeArabicBrandNames('7 مختارات Soundcore — الصوتيات من عائلة Anker')
-            : '7 Soundcore Picks — Audio from the Anker Family',
+            ? localizeArabicBrandNames(`${products.length} مختارات Soundcore — الصوتيات من عائلة Anker`)
+            : `${products.length} Soundcore Picks — Audio from the Anker Family`,
         numberOfItems: products.length,
         itemListOrder: 'https://schema.org/ItemListUnordered',
         itemListElement: products.map((p, idx) => ({

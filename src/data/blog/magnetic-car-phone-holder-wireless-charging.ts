@@ -5,7 +5,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
     slug: 'magnetic-car-phone-holder-wireless-charging',
     category: 'buying-guide',
     publishDate: '2026-05-30',
-    modifiedDate: '2026-05-30',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'joyroom-car-mount-zs290',
@@ -222,7 +222,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 <li><strong>معيار الشحن (Qi2 أو MagSafe):</strong> Qi2 هو المعيار الجديد اللي بيدعم 15W لكل الموبايلات مش بس آيفون. لو لسه بتشتري — دوّر على Qi2-compatible.</li>
 <li><strong>نوع التثبيت:</strong>
 <ul>
-<li><strong>Vent mount (فتحة التكييف):</strong> الأفضل في مصر — هواء التكييف بيبرّد الموبايل.</li>
+<li><strong>Vent mount (فتحة التكييف):</strong> مناسب جداً لصيف مصر — هواء التكييف بيبرّد الموبايل.</li>
 <li><strong>Dashboard (التابلوه):</strong> ثابت بس بيسخن في الصيف.</li>
 <li><strong>Suction cup (شفاط زجاج):</strong> مرن لكن بيقع في الحرارة العالية.</li>
 </ul>
@@ -246,7 +246,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 
 <div class="cta-box" style="background:linear-gradient(135deg,#eff6ff,#f0fdf4);border:2px solid #2563eb;border-radius:12px;padding:24px;margin:32px 0;text-align:center;">
     <p style="font-size:18px;font-weight:700;color:#1e40af;margin:0 0 12px;">🧲 جاهز تثبّت موبايلك في العربية بدون قلق؟</p>
-    <p style="font-size:15px;color:#374151;margin:0 0 16px;">تصفّح حوامل الموبايل الأصلية على كايرو فولت — ضمان 18 شهر + توصيل لكل المحافظات.</p>
+    <p style="font-size:15px;color:#374151;margin:0 0 16px;">تصفّح حوامل الموبايل الأصلية على كايرو فولت — بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات.</p>
     <p style="margin:0;"><a href="/joyroom/car-holders" style="display:inline-block;background:#2563eb;color:#fff;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">تصفّح حوامل السيارة</a></p>
 </div>
 
@@ -254,7 +254,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
     <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 مصادر ومراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#78350f">
         <li><a href="https://www.wirelesspowerconsortium.com/qi/" target="_blank" rel="noopener" style="color:#1d4ed8">Wireless Power Consortium — معيار Qi (بالإنجليزية)</a></li>
-        <li><a href="https://support.apple.com/en-us/108049" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — شحن MagSafe والحرارة</a></li>
+        <li><a href="https://support.apple.com/ar-eg/118431" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — لو الآيفون سخن أو برد زيادة عن اللزوم</a></li>
         <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — إطالة عمر بطاريات الليثيوم</a></li>
         <li>مقالنا: <a href="/blog/best-car-charger-egypt-2026" style="color:#1d4ed8">أفضل شاحن سيارة في مصر 2026</a></li>
         <li>مقالنا: <a href="/blog/magsafe-magnetic-power-bank-worth-extra-cost" style="color:#1d4ed8">باور بانك MagSafe — هل يستاهل الفرق؟</a></li>
@@ -474,7 +474,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 <li><strong>Charging standard (Qi2 or MagSafe):</strong> Qi2 is the new standard supporting 15W for all phones, not just iPhones. If you're buying now — look for Qi2-compatible mounts for future-proofing.</li>
 <li><strong>Mount type:</strong>
 <ul>
-<li><strong>Vent mount:</strong> Best for Egypt — AC airflow actively cools your phone during charging.</li>
+<li><strong>Vent mount:</strong> Well suited to Egypt's summer — AC airflow helps cool your phone during charging.</li>
 <li><strong>Dashboard mount:</strong> Stable but gets hot in summer under direct sunlight.</li>
 <li><strong>Suction cup (windshield):</strong> Flexible positioning but may fall off in extreme heat.</li>
 </ul>
@@ -494,7 +494,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
 
 <div class="cta-box" style="background:linear-gradient(135deg,#eff6ff,#f0fdf4);border:2px solid #2563eb;border-radius:12px;padding:24px;margin:32px 0;text-align:center;">
     <p style="font-size:18px;font-weight:700;color:#1e40af;margin:0 0 12px;">🧲 Ready to mount your phone worry-free?</p>
-    <p style="font-size:15px;color:#374151;margin:0 0 16px;">Browse original car phone mounts on CairoVolt — 18-month warranty + nationwide delivery.</p>
+    <p style="font-size:15px;color:#374151;margin:0 0 16px;">Browse original car phone mounts on CairoVolt — with CairoVolt's written store warranty (duration shown on each product page) + nationwide delivery.</p>
     <p style="margin:0;"><a href="/en/joyroom/car-holders" style="display:inline-block;background:#2563eb;color:#fff;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">Browse Car Mounts</a></p>
 </div>
 
@@ -502,7 +502,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
     <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 Sources & References:</p>
     <ul style="margin:0;padding-left:20px;color:#78350f">
         <li><a href="https://www.wirelesspowerconsortium.com/qi/" target="_blank" rel="noopener" style="color:#1d4ed8">Wireless Power Consortium — Qi Standard</a></li>
-        <li><a href="https://support.apple.com/en-us/108049" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — MagSafe Charging & Temperature</a></li>
+        <li><a href="https://support.apple.com/en-us/118431" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — If your iPhone or iPad gets too hot or too cold</a></li>
         <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — Prolonging Lithium Battery Life</a></li>
         <li>Our guide: <a href="/en/blog/best-car-charger-egypt-2026" style="color:#1d4ed8">Best Car Charger in Egypt 2026</a></li>
         <li>Our guide: <a href="/en/blog/magsafe-magnetic-power-bank-worth-extra-cost" style="color:#1d4ed8">MagSafe Power Bank — Worth the Extra Cost?</a></li>

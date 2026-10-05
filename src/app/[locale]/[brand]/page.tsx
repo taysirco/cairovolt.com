@@ -8,6 +8,7 @@ import { BrandOverviewBlock } from '@/components/content/CategoryOverviewBlock';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
+import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
 import { staticProducts } from '@/lib/static-products';
 import BestSellingProducts from '@/components/products/BestSellingProducts';
 import SoundcoreFamilyStrip from '@/components/products/SoundcoreFamilyStrip';
@@ -39,12 +40,6 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
                 { icon: 'scale', title: 'قارن الموديلات', description: 'قارن المواصفات والسعر الحالي والملحقات المرفقة دون الاعتماد على اسم العلامة وحده.' },
                 { icon: 'clipboard', title: 'راجع تفاصيل الطلب', description: 'تحقق من التوافر وخيارات الدفع والتوصيل وشروط ضمان كايرو فولت قبل التأكيد.' },
             ],
-            commonFaq: [
-                { question: `كيف أختار منتج ${brandName} المناسب؟`, answer: 'ابدأ بمواصفات جهازك: نوع المنفذ، قدرة الشحن المطلوبة، والسعة أو الميزات التي تحتاجها. بعد ذلك قارن الموديلات المطابقة في القسم المناسب.' },
-                { question: 'أين أجد السعر والتوافر الحاليين؟', answer: 'توضح صفحة كل منتج السعر الحالي وحالة التوافر. يُراجع التوافر مرة أخرى عند تأكيد الطلب.' },
-                { question: 'ما مدة ضمان كايرو فولت؟', answer: 'تختلف مدة الضمان وأهليته حسب المنتج. الشروط المكتوبة في صفحة المنتج وقت الطلب هي المرجع.' },
-                { question: 'هل سجل ضمان كايرو فولت يثبت أصالة المنتج؟', answer: 'لا. سجل كايرو فولت يؤكد بيانات تغطية المتجر فقط، وليس شهادة أصالة من الشركة المصنّعة. راجع رقم الموديل ووثائق الشركة وأدواتها إن وُجدت.' },
-            ],
         };
 
         if (isAnker) {
@@ -67,10 +62,6 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
                     '/anker/car-chargers': 'قارن نوع المنافذ والقدرة الكلية ودعم البروتوكول المطلوب، وتأكد من ملاءمة مقبس السيارة قبل الاستخدام.',
                     '/soundcore': 'انتقل إلى ساوندكور لمقارنة ايربودز وهيدفون ومكبرات صوت؛ خصائص ANC والتطبيق وLDAC ومقاومة المياه تختلف حسب الموديل.',
                 } as Record<string, string>,
-                faq: [
-                    { question: 'هل وجود GaN أو PowerIQ يعني أن كل شواحن انكر متشابهة؟', answer: 'لا. هذه أسماء لتقنيات أو عائلات خصائص تظهر في موديلات محددة. عدد المنافذ والقدرة وبروتوكولات PD وPPS وطريقة توزيع الطاقة تختلف، لذلك ارجع إلى مواصفات الموديل وجهازك.' },
-                    ...common.commonFaq,
-                ],
             };
         }
 
@@ -98,14 +89,6 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
                     '/jbl/headphones': 'اختر بين أون-إير وأوفر-إير، وراجع ساعات البطارية المعلنة ودعم عزل الضوضاء في الموديلات التي توفره.',
                     '/jbl/earbuds': 'قارن السلكية بموديلات البلوتوث، وراجع بطارية العلبة والعزل ودعم التطبيق حسب الموديل.',
                 } as Record<string, string>,
-                faq: [
-                    { question: 'كام سعر سماعات JBL في مصر؟', answer: 'الأسعار في كايرو فولت بتبدأ من 249 جنيه لسماعة T110 السلك، والايربودز اللاسلكية من 2449 جنيه، وسماعات الراس من 2149 جنيه، وسبيكرات البلوتوث من 2049 لحد 22649 جنيه، والبارتي بوكس من 20099 لحد 65999 جنيه. السعر الحالي والمخزون بيظهروا في صفحة كل منتج وبيتغيروا مع العروض.' },
-                    { question: 'هل فيه تقسيط على منتجات JBL؟', answer: 'حاليًا لأ — كايرو فولت بتقبل الدفع عند الاستلام فقط، من غير تقسيط ولا دفع إلكتروني. اللي بنقدمه بدل كده: السعر ظاهر كامل من غير فوائد مخفية، شحن مجاني للطلبات من 3,700 جنيه، ضمان كايرو فولت مكتوب 12 شهر، وحق الاسترجاع خلال 14 يوم حسب سياسة الاسترجاع.' },
-                    { question: 'هل كايرو فولت بتبيع ساوند بار JBL؟', answer: 'لأ، حاليًا مفيش ساوند بار JBL في كايرو فولت — المتاح هو السبيكرات المحمولة والبارتي بوكس وسماعات الراس والايربودز. لو عايز صوت للتلفزيون، السبيكر البلوتوث بيتوصل لكن ممكن تلاحظ تأخير بسيط في الصوت حسب التلفزيون.' },
-                    { question: 'كيف أختار منتج JBL المناسب؟', answer: 'ابدأ من مكان الاستخدام وحجم المساحة: سبيكر محمول للخروجات والبيت، بارتي بوكس للمناسبات، سماعة رأس أو ايربودز للاستخدام الشخصي. بعد كده قارن ساعات البطارية وتصنيف مقاومة الماء المعلنين من JBL لكل موديل في القسم المناسب.' },
-                    { question: 'هل دعم ربط السبيكرات يعني إمكانية ربط أي سبيكرين JBL؟', answer: 'لا. الربط بيشتغل بين الموديلات اللي بتدعم النظام نفسه: PartyBoost مع PartyBoost، وAuracast مع Auracast، والنظامان غير متوافقين مع بعضهما. راجع نظام الربط المذكور في مواصفات كل موديل قبل شراء سبيكر تاني.' },
-                    ...common.commonFaq.slice(1),
-                ],
             };
         }
 
@@ -131,10 +114,6 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
                 '/joyroom/car-accessories': 'تصفح شواحن وحوامل السيارة، وطابق قدرة الشحن وطريقة التثبيت والمقاس مع السيارة والهاتف.',
                 '/joyroom/accessories': 'قلم JR-X15 Pro للايباد: حساسية ميل معلنة وتثبيت مغناطيسي للحفظ وشحن USB-C وأطراف بديلة. راجع رقم A بتاع الايباد قبل الطلب.',
             } as Record<string, string>,
-            faq: [
-                { question: 'لماذا يجب مراجعة رقم موديل جوي روم؟', answer: 'لأن الاسم التجاري الواحد قد يشمل إصدارات بمنافذ أو قدرة أو تطبيق وملحقات مختلفة. رقم الموديل ومواصفات صفحة المنتج هما الأدق عند المقارنة.' },
-                ...common.commonFaq,
-            ],
         };
     }
 
@@ -150,12 +129,6 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
             { icon: 'phone', title: 'Identify your device', description: 'Check the connector, required charging output, and the features your device supports.' },
             { icon: 'scale', title: 'Compare models', description: 'Compare specifications, current price, and included accessories rather than relying on the brand name alone.' },
             { icon: 'clipboard', title: 'Review order details', description: 'Confirm availability, payment, delivery, and CairoVolt warranty terms before ordering.' },
-        ],
-        commonFaq: [
-            { question: `How do I choose the right ${brandName} product?`, answer: 'Start with your device requirements: connector, required charging output, and the capacity or features you need. Then compare matching models in the relevant category.' },
-            { question: 'Where can I find the current price and availability?', answer: 'Each product page states its current price and availability. Availability is reviewed again when the order is confirmed.' },
-            { question: 'How long is the CairoVolt warranty?', answer: 'Warranty eligibility and duration vary by product. The written terms on the product page at order time are the reference.' },
-            { question: 'Does a CairoVolt warranty record prove authenticity?', answer: 'No. A CairoVolt record confirms store warranty information only; it is not a manufacturer authenticity certificate. Review the model number, manufacturer documentation, and any available manufacturer tools.' },
         ],
     };
 
@@ -179,10 +152,6 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
                 '/anker/car-chargers': 'Compare port layout, total output, and required protocol support, and confirm that the charger fits the vehicle socket.',
                 '/soundcore': 'Visit Soundcore for earbuds, headphones, and speakers; ANC, app support, LDAC, and water ratings vary by model.',
             } as Record<string, string>,
-            faq: [
-                { question: 'Do GaN or PowerIQ make every Anker charger equivalent?', answer: 'No. These names identify technologies or feature families used on selected models. Port count, output, PD/PPS support, and power-sharing behavior vary, so check the exact model and your device requirements.' },
-                ...common.commonFaq,
-            ],
         };
     }
 
@@ -210,14 +179,6 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
                 '/jbl/headphones': 'Choose between on-ear and over-ear, then check listed battery hours and noise-cancelling support on the models that include it.',
                 '/jbl/earbuds': 'Compare wired and Bluetooth models, then review case battery, noise control, and app support per model.',
             } as Record<string, string>,
-            faq: [
-                { question: 'How much do JBL products cost in Egypt?', answer: 'At CairoVolt prices start at 249 EGP for the wired T110 earphones, with wireless earbuds from 2,449 EGP, headphones from 2,149 EGP, Bluetooth speakers from 2,049 to 22,649 EGP, and PartyBox models from 20,099 to 65,999 EGP. The live price and stock appear on each product page and change with promotions.' },
-                { question: 'Do you offer instalments on JBL products?', answer: 'Not at the moment — CairoVolt accepts cash on delivery only, with no instalment plans and no online payment. What we do offer instead: the full price shown with no hidden financing cost, free shipping on orders from 3,700 EGP, a written 12-month CairoVolt warranty, and a 14-day return window under the return policy.' },
-                { question: 'Does CairoVolt sell JBL soundbars?', answer: 'No — CairoVolt does not currently stock JBL soundbars. The range here is portable speakers, PartyBox party speakers, headphones and earbuds. For TV audio a Bluetooth speaker can connect, though some audio delay is possible depending on the TV.' },
-                { question: 'How do I choose the right JBL product?', answer: 'Start from where it will play and the space size: a portable speaker for outings and home, a PartyBox for events, headphones or earbuds for personal listening. Then compare the JBL-listed battery hours and water rating per model in the relevant category.' },
-                { question: 'Does speaker-linking support mean any two JBL speakers can pair together?', answer: 'No. Linking works between models that support the same standard: PartyBoost with PartyBoost, and Auracast with Auracast — the two standards are not compatible with each other. Check the linking standard listed in each model’s specifications before buying a second speaker.' },
-                ...common.commonFaq.slice(1),
-            ],
         };
     }
 
@@ -243,10 +204,6 @@ function getBrandPageCopy(brandSlug: string, brandName: string, isArabic: boolea
             '/joyroom/car-accessories': 'Browse car chargers and mounts, matching output, mounting method, and dimensions to the vehicle and phone.',
             '/joyroom/accessories': 'The JR-X15 Pro iPad stylus: vendor-stated tilt, magnetic parking on the iPad rail, USB-C charging and replaceable tips. Check your iPad A-number before ordering.',
         } as Record<string, string>,
-        faq: [
-            { question: 'Why should I check the exact Joyroom model number?', answer: 'A product family can include versions with different connectors, output, app support, and accessories. The model number and product-page specifications are the most reliable comparison points.' },
-            ...common.commonFaq,
-        ],
     };
 }
 
@@ -361,6 +318,15 @@ export default async function BrandHubPage({ params }: Props) {
         product => product.status === 'active' && product.brand.toLowerCase() === brand.toLowerCase()
     );
     const pageDescription = resolveMinPriceToken(copy.description, brandProducts);
+    // One FAQ source per hub: brand-data.ts. The markdown twin served to
+    // agents (agent-hub-markdown.ts) renders the same array, so the HTML and
+    // machine FAQ sets can no longer drift apart. Still no FAQPage JSON-LD on
+    // this commerce page (deliberate, see the note above the hero).
+    const hubFaq = data.faq?.[isRTL ? 'ar' : 'en'] ?? [];
+    const breadcrumbItems = [
+        { name: isRTL ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isRTL ? '' : '/en'}`, href: isRTL ? '/' : '/en' },
+        { name: isRTL ? brandDisplayName : data.hero.title, url: `https://cairovolt.com${isRTL ? '' : '/en'}/${brand.toLowerCase()}`, href: `${isRTL ? '' : '/en'}/${brand.toLowerCase()}` },
+    ];
     const safeCategories = data.categories.map((category) => ({
         href: category.href,
         icon: category.icon,
@@ -386,10 +352,7 @@ export default async function BrandHubPage({ params }: Props) {
         <div className="min-h-screen bg-gray-50 dark:bg-black" dir={isRTL ? 'rtl' : 'ltr'}>
             {/* Structured data */}
             <BreadcrumbSchema
-                items={[
-                    { name: isRTL ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isRTL ? '' : '/en'}` },
-                    { name: isRTL ? brandDisplayName : data.hero.title, url: `https://cairovolt.com${isRTL ? '' : '/en'}/${brand.toLowerCase()}` },
-                ]}
+                items={breadcrumbItems.map(({ name, url }) => ({ name, url }))}
                 locale={locale}
             />
 
@@ -406,6 +369,22 @@ export default async function BrandHubPage({ params }: Props) {
                 {/* Content */}
                 <div className="container relative z-10 mx-auto px-4 text-center lg:grid lg:grid-cols-5 lg:items-center lg:gap-8 lg:text-start">
                     <div className="lg:col-span-3">
+                        {/* Visible breadcrumb — same names and URLs as the
+                            BreadcrumbList JSON-LD above. */}
+                        <nav aria-label={isRTL ? 'مسار التصفح' : 'Breadcrumb'} className="mb-2 text-xs text-white/75">
+                            <ol className="inline-flex flex-wrap items-center gap-1">
+                                {breadcrumbItems.map((item, idx) => (
+                                    <li key={item.url} className="inline-flex items-center gap-1">
+                                        {idx > 0 && <span aria-hidden="true">/</span>}
+                                        {idx < breadcrumbItems.length - 1 ? (
+                                            <Link href={item.href} className="hover:text-white">{item.name}</Link>
+                                        ) : (
+                                            <span aria-current="page" className="font-medium text-white">{item.name}</span>
+                                        )}
+                                    </li>
+                                ))}
+                            </ol>
+                        </nav>
                         <div className="mb-2 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 backdrop-blur-md">
                             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
                             <span className="text-[11px] font-bold tracking-wide text-white md:text-xs">
@@ -613,7 +592,7 @@ export default async function BrandHubPage({ params }: Props) {
                 <div className="container mx-auto px-4">
                     <div className="mx-auto mb-10 max-w-3xl text-center">
                         <h2 className="text-3xl font-black dark:text-white md:text-4xl">
-                            {isRTL ? `كيف تختار من منتجات ${brandDisplayName}` : `How to choose a ${brandName} product`}
+                            {isRTL ? `كيف تختار من منتجات ${brandDisplayName}` : `How to choose ${/^[AEIOU]/i.test(brandName) ? 'an' : 'a'} ${brandName} product`}
                         </h2>
                         <p className="mt-3 text-gray-600 dark:text-gray-400">
                             {isRTL
@@ -640,16 +619,18 @@ export default async function BrandHubPage({ params }: Props) {
                         {isRTL ? 'الأسئلة الشائعة' : 'Frequently Asked Questions'}
                     </h2>
                     <div className="space-y-4">
-                        {copy.faq.map((item) => (
+                        {hubFaq.map((item) => (
                             <details key={item.question} className="group bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 open:shadow-lg transition-all duration-300">
                                 <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
-                                    <span className="font-bold text-lg dark:text-white">{item.question}</span>
+                                    <span className="font-bold text-lg dark:text-white">{isRTL ? localizeArabicBrandNames(item.question) : item.question}</span>
                                     <span className="transform group-open:rotate-180 transition-transform duration-300 text-gray-400">
                                         ▼
                                     </span>
                                 </summary>
                                 <div className="px-6 pb-6 text-gray-600 dark:text-gray-400 leading-relaxed border-t border-gray-50 dark:border-gray-800 pt-4">
-                                    {item.answer}
+                                    {/* Answers carry markdown links (warranty, returns,
+                                        shipping and the authenticity guide). */}
+                                    <MarkdownRenderer content={isRTL ? localizeArabicBrandNames(item.answer) : item.answer} />
                                 </div>
                             </details>
                         ))}

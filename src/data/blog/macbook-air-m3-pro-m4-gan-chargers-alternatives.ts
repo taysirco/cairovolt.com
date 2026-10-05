@@ -4,7 +4,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     slug: 'macbook-air-m3-pro-m4-gan-chargers-alternatives',
     category: 'buying-guide',
     publishDate: '2026-06-15',
-    modifiedDate: '2026-06-15',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'anker-nano-45w',
@@ -28,14 +28,14 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             metaDescription: 'اكتشف أفضل شواحن GaN البديلة لـ MacBook Air M3/M4 و MacBook Pro في مصر. مقارنة الأداء والحرارة والسعر مع شاحن Apple الأصلي — بأرقام حقيقية. تابع التفاصيل بمصر.',
             keywords: 'شاحن ماك بوك بديل, شاحن GaN للاب توب, بديل شاحن ابل, شاحن MacBook Air M4, شاحن ماك بوك في مصر, انكر نانو 45 واط ماك بوك, GaN charger MacBook Egypt, افضل شاحن لابتوب ابل',
             excerpt: 'مقارنة شاملة بين شاحن Apple الأصلي وبدائل GaN من Anker — أيهم أوفر وأصغر حجماً وبيشحن بنفس السرعة في مصر.',
-            quickAnswer: 'أيوا، شاحن GaN زي Anker Nano 45W بيشحن MacBook Air M3/M4 بنفس سرعة شاحن Apple الأصلي بالظبط (45W عبر USB-C PD 3.0) — بس بحجم أصغر 40% وسعر أقل 50%. الشرط الوحيد: كابل USB-C يدعم 60W+ زي Anker PowerLine. متاح على كايرو فولت بـ 790ج بضمان 24 شهر.',
+            quickAnswer: 'أيوا، شاحن GaN زي انكر Nano 45W بيشحن MacBook Air M3/M4 بنفس قدرة شاحن Apple الأصلي (45W عبر USB-C PD)، بحجم أصغر وسعر أقل. الشرط: كابل USB-C يدعم 60W زي انكر PowerLine. متاح على كايرو فولت بـ {{price:anker-nano-45w}} جنيه بضمان كايرو فولت المكتوب.',
             content: `<p>لو إنت من مستخدمي MacBook في مصر — وبالذات MacBook Air M3 أو M4 — فأكيد عديت بالموقف ده قبل كده: الشاحن الأصلي بتاع Apple اللي جاي في العلبة... مجاش في العلبة أصلاً. أيوا، Apple من 2022 بتبيعلك لابتوب بـ 40,000-65,000 جنيه وبتقولك "الشاحن عليك يا صديقي." وبعدين تروح الـ Apple Store أو الموزع المعتمد تلاقي الشاحن الأصلي 30W بـ 1,500ج والـ 35W Dual بـ 2,200ج. ساعتها بتبص للشاحن، وبتبص لمحفظتك، وبتسأل نفسك: "هو أنا لازم أدفع تمن عزومة كاملة في مطعم محترم عشان أشحن اللابتوب؟"</p>
 
 <p>الإجابة المختصرة: <strong>لأ.</strong> تقنية GaN (نيتريد الجاليوم) خلّت في شواحن بديلة بتدّي نفس الواط — وأحياناً أكتر — بحجم أصغر وسعر أقل. بس مش كل بديل يستاهل فلوسك. في المقال ده هنشرحلك بالفيزياء والأرقام: ليه شواحن GaN بتنافس Apple، وأنهي موديلات تستاهل فلوسك في السوق المصري، وأنهي حاجات لازم تاخد بالك منها عشان متحرقش البطارية أو المحفظة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أيوا، شاحن GaN زي Anker Nano 45W بيشحن MacBook Air M3/M4 بنفس سرعة شاحن Apple الأصلي بالظبط (45W عبر USB-C PD 3.0) — بس بحجم أصغر 40% وسعر أقل 50%. الشرط الوحيد: كابل USB-C يدعم 60W+ زي Anker PowerLine. متاح على كايرو فولت بـ 790ج بضمان 24 شهر.
+        <strong>💡 الإجابة السريعة:</strong> أيوا، شاحن GaN زي انكر Nano 45W بيشحن MacBook Air M3/M4 بنفس قدرة شاحن Apple الأصلي (45W عبر USB-C PD)، بحجم أصغر وسعر أقل. الشرط: كابل USB-C يدعم 60W زي انكر PowerLine. متاح على كايرو فولت بـ {{price:anker-nano-45w}} جنيه بضمان كايرو فولت المكتوب.
     </p>
 </div>
 
@@ -45,7 +45,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 
 <p>شاحن Apple 30W USB-C (Model A2164) في مصر بيتباع بـ 1,400-1,600ج من الموزعين المعتمدين. والـ 35W Dual USB-C (A2571) بـ 2,000-2,300ج. وده شاحن سيليكون تقليدي — مش GaN — يعني حجمه أكبر من البدائل الحديثة بنسبة 30-50%.</p>
 
-<p>في المقابل، شاحن <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W GaN III</a> بيدّي <strong>45 واط حقيقي</strong> عبر USB-C PD 3.0 — أعلى من شاحن Apple الأصلي بـ 15 واط — وحجمه أصغر 40% وسعره 790ج. يعني نص التمن وأداء أعلى. ده مش رأي — ده فيزياء.</p>
+<p>في المقابل، شاحن <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W GaN II</a> بيدّي <strong>45 واط حقيقي</strong> عبر USB-C PD 3.0 — أعلى من شاحن Apple الأصلي بـ 15 واط — وحجمه أصغر 40% وسعره {{price:anker-nano-45w}}ج. يعني نص التمن وأداء أعلى. ده مش رأي — ده فيزياء.</p>
 
 <h2>إيه هي تقنية GaN — وليه بتفرق في شحن الماك بوك؟</h2>
 
@@ -55,7 +55,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المعيار</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">سيليكون تقليدي</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">GaN III</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">GaN II</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الفرق</th>
     </tr></thead>
     <tbody>
@@ -100,7 +100,6 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">القدرة</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">التقنية</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">السعر (ج.م)</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الحجم</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الضمان</th>
     </tr></thead>
     <tbody>
@@ -108,54 +107,48 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">Apple 30W (A2164)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">سيليكون</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>1,500ج</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">كبير نسبياً</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">12 شهر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>~1,500ج</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">12 شهر (Apple)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Apple 35W Dual (A2571)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">35W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">سيليكون</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>2,200ج</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">أكبر (منفذين)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">12 شهر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>~2,200ج</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">12 شهر (Apple)</td>
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 3 GaN 30W</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>490ج</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">أصغر 50%</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">24 شهر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:anker-a2147-gan-charger-30w}}ج</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">ضمان كايرو فولت المكتوب</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W GaN III</a></strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W GaN II</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN III</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>790ج</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">أصغر 40%</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">24 شهر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN II</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:anker-nano-45w}}ج</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">ضمان كايرو فولت المكتوب</td>
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر Nano 45W Smart Display</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,250ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">أصغر 35%</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">24 شهر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-nano-45w-smart-display-charger}}ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">ضمان كايرو فولت المكتوب</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W PD</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">سيليكون</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>280ج</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">عادي</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">36 شهر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:joyroom-30w-fast-charger}}ج</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">ضمان كايرو فولت المكتوب</td>
         </tr>
     </tbody>
 </table>
 
-<p>لاحظ الأرقام: انكر Nano 45W بيدّيك <strong>قدرة أعلى بـ 50% من شاحن Apple 30W</strong>، بحجم أصغر 40%، وبسعر تقريباً نصف تمن شاحن Apple. يعني لو اشتريت شاحنين Anker Nano 45W — واحد للبيت وواحد للشغل — كمان هتكون دفعت أقل من شاحن Apple واحد. ده مش ذكاء في الشراء — ده محاضرة في الاقتصاد الهندسي.</p>
+<p>لاحظ الأرقام: انكر Nano 45W بيدّيك <strong>قدرة أعلى من شاحن Apple 30W</strong>، بحجم صغير وبسعر أقل بوضوح من أسعار السوق التقريبية لشواحن Apple.</p>
 
 <h2>هل شاحن 30 واط كافي لـ MacBook Air — ولا محتاج 45 واط؟</h2>
 
@@ -168,7 +161,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     <li style="margin-bottom:12px;">💡 <strong>القاعدة العملية:</strong> 30W = كافي للشحن أثناء الاستخدام الخفيف والمتوسط. 45W = يشحن بأقصى سرعة ممكنة حتى أثناء الحمل الثقيل. أكتر من 45W = MacBook Air مش بيقبلها أصلاً (Apple حاطّة سقف عند 45W).</li>
 </ul>
 
-<p>يعني — <strong>لو ميزانيتك 490ج</strong> وبتشتغل شغل عادي (Office + Chrome + Zoom)، <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 3 GaN 30W</a> هيكفّيك تماماً. ولو عايز أقصى سرعة ممكنة مع headroom مريح، <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W</a> بـ 790ج هو الاختيار الأمثل.</p>
+<p>يعني — <strong>لو ميزانيتك في حدود {{price:anker-a2147-gan-charger-30w}}ج</strong> وبتشتغل شغل عادي (Office + Chrome + Zoom)، <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 3 GaN 30W</a> هيكفّيك تماماً. ولو عايز أقصى سرعة ممكنة مع headroom مريح، <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W</a> بـ {{price:anker-nano-45w}}ج اختيار متوازن.</p>
 
 <h2>MacBook Pro — ليه القصة مختلفة؟</h2>
 
@@ -177,14 +170,14 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">💻 <strong>MacBook Pro 14" (M4 Pro):</strong> بييجي بشاحن 70W أصلي — ومحتاج 65W+ عشان يشحن بأقصى سرعة.</li>
     <li style="margin-bottom:12px;">💻 <strong>MacBook Pro 16" (M4 Max):</strong> بييجي بشاحن 140W أصلي عبر MagSafe 3 — ومحتاج 100W+ عبر USB-C.</li>
-    <li style="margin-bottom:12px;">⚠️ <strong>الحقيقة:</strong> حالياً في السوق المصري مفيش شواحن GaN من Anker أو Joyroom بأكتر من 45W متاحة رسمياً عبر الموزع المعتمد. يعني لو عندك MacBook Pro — شاحن 45W هيشحنه بس بسرعة أبطأ من الأصلي.</li>
+    <li style="margin-bottom:12px;">⚠️ <strong>لو عندك MacBook Pro:</strong> شاحن 45W هيشحنه بس بسرعة أبطأ من الأصلي. للقدرات الأعلى، متاح على كايرو فولت <a href="/anker/wall-chargers/anker-prime-a2669-67w-gan-charger" style="color:#2563eb;font-weight:600;">انكر Prime 67W (A2669)</a> بـ {{price:anker-prime-a2669-67w-gan-charger}}ج و<a href="/anker/wall-chargers/anker-prime-a2688-100w-charger" style="color:#2563eb;font-weight:600;">انكر Prime 100W (A2688)</a> بـ {{price:anker-prime-a2688-100w-charger}}ج — راجع توزيع القدرة بين المنافذ في صفحة كل منتج.</li>
 </ul>
 
 <p>شاحن 45W زي <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W</a> ممكن يشحن MacBook Pro 14" ببطء أثناء العمل — وده حل ممتاز كـ<strong>شاحن سفر ثانوي</strong> أو شاحن طوارئ. بس مينفعش يكون شاحنك الأساسي لو بتشتغل على Final Cut أو Blender طول اليوم.</p>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
-        <strong>⚠️ تحذير مهم:</strong> لو عندك MacBook Pro 16" (M4 Max) وبتشتغل على أحمال رندر ثقيلة، شاحن 45W مش هيغطّي استهلاك الجهاز أثناء العمل — البطارية ممكن تنزل حتى وهو متوصل بالشاحن. في الحالة دي، شاحن Apple 140W الأصلي أو بديل GaN بـ 100W+ (لما يتوفر رسمياً) هو الحل الوحيد.
+        <strong>⚠️ تحذير مهم:</strong> لو عندك MacBook Pro 16" (M4 Max) وبتشتغل على أحمال رندر ثقيلة، شاحن 45W مش هيغطّي استهلاك الجهاز أثناء العمل — البطارية ممكن تنزل حتى وهو متوصل بالشاحن. في الحالة دي، شاحن Apple 140W الأصلي أو بديل GaN بـ 100W زي انكر Prime A2688 هو الحل.
     </p>
 </div>
 
@@ -227,38 +220,36 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">أرخص خيار أصلي بضمان — بيشحن MacBook Air للعمل الخفيف</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:12px;border:1px solid #d1d5db;">400-500ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-a2147-gan-charger-30w}}ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 3 GaN 30W</a></strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">أفضل قيمة — GaN حقيقي بحجم صغير جداً + ضمان 24 شهر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">قيمة كويسة — GaN بحجم صغير</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>700-900ج ⭐</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W GaN III</a></strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ الاختيار الأمثل — أقصى سرعة لـ MacBook Air + يشحن iPhone 17 بسرعة كمان</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>{{price:anker-nano-45w}}ج ⭐</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W GaN II</a></strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ اختيار متوازن — أقصى سرعة لـ MacBook Air + يشحن iPhone 17 بسرعة كمان</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,500-2,000ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-nano-45w-smart-display-charger}}ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر Nano 45W Smart Display</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">نفس الأداء + شاشة TFT تعرض الواط لحظياً + Care Mode + تصميم Red Dot 2026</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">نفس فئة الـ 45W + شاشة بتعرض الواط لحظياً</td>
         </tr>
     </tbody>
 </table>
 
-<p>لو سألتني كمهندس إلكترونيات: <strong>انكر Nano 45W GaN III بـ 790ج</strong> هو أحسن توازن بين السعر والأداء والحجم. بتاخد أعلى سرعة شحن لـ MacBook Air، وكمان بتقدر تشحن بيه iPhone 17 أو Samsung S26 بسرعة — يعني شاحن واحد لكل أجهزتك. وبتوفّر أكتر من 700ج مقارنة بشاحن Apple الأصلي — فلوس ممكن تشتري بيها <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل USB-C محترم</a> وتفضّل معاك باقي.</p>
+<p>لو سألتني كمهندس إلكترونيات: <strong>انكر Nano 45W GaN II بـ {{price:anker-nano-45w}}ج</strong> توازن كويس بين السعر والأداء والحجم. بتاخد أعلى سرعة شحن لـ MacBook Air، وكمان بتقدر تشحن بيه iPhone 17 أو Samsung S26 بسرعة — يعني شاحن واحد لكل أجهزتك. وسعره أقل من شاحن Apple الأصلي — والفرق ممكن تشتري بيه <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل USB-C محترم</a> وتفضّل معاك باقي.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل شواحن GaN المذكورة في المقال <strong>أصلية بضمان المتجر المكتوب لمدة 24 شهر</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + دعم واتساب 24/7. لو الشاحن ضرب خلال فترة الضمان — بنبدّله مش بنصلّحه.
+        كل شواحن GaN المذكورة في المقال <strong>أصلية بضمان كايرو فولت المكتوب</strong> (المدة والشروط موضحة في صفحة كل منتج) + توصيل لكل المحافظات (عادةً 1–6 أيام عمل حسب المحافظة) + دعم واتساب 24/7.
     </p>
 </div>
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
-        <li><a href="https://www.anker.com/products/chargers" rel="nofollow">Anker Official — GaN Charger Specifications</a></li>
-        <li><a href="https://support.apple.com/en-us/111845" rel="nofollow">Apple Support — MacBook Air Charging Requirements</a></li>
-        <li><a href="https://www.tomshardware.com/reviews/best-usb-c-chargers" rel="nofollow">Tom's Hardware — Best USB-C Chargers 2026</a></li>
+        <li><a href="https://support.apple.com/en-us/102378" rel="nofollow">Apple Support — Fast charge your MacBook Air or MacBook Pro</a></li>
     </ul>
 </div>`,
             faq: [
@@ -268,7 +259,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
                 },
                 {
                     question: 'إيه الفرق بين شاحن Anker Nano 45W العادي وإصدار Smart Display؟',
-                    answer: 'الاتنين بيدّوا نفس الـ 45W بالظبط بتقنية GaN. الفرق إن Smart Display (A121D) عنده شاشة TFT صغيرة بتعرض الواط اللحظي + Care Mode بيقلل الشحن لـ 80% لإطالة عمر البطارية + تصميم حاصل على Red Dot 2026. السعر 1,250ج مقابل 790ج للعادي.',
+                    answer: 'الاتنين بيدّوا نفس الـ 45W بالظبط بتقنية GaN. الفرق إن Smart Display (A121D) عنده شاشة TFT صغيرة بتعرض الواط اللحظي + Care Mode بيقلل الشحن لـ 80% لإطالة عمر البطارية. السعر {{price:anker-nano-45w-smart-display-charger}}ج مقابل {{price:anker-nano-45w}}ج للعادي.',
                 },
                 {
                     question: 'أقدر أشحن MacBook Pro 14" بشاحن 45W؟',
@@ -276,7 +267,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
                 },
                 {
                     question: 'هل كابل USB-C العادي كافي لشحن MacBook من شاحن GaN؟',
-                    answer: 'مش أي كابل. لازم يكون كابل USB-C بيدعم 60W+ (3A @ 20V على الأقل). كابلات charge-only الرخيصة بتحدّ السرعة على 15W. الأفضل كابل Anker PowerLine أو زولو A8060 (140W) — بيضمن أقصى سرعة ويتحمل 10,000+ دورة ثني.',
+                    answer: 'مش أي كابل. لازم يكون كابل USB-C بيدعم 60W+ (3A @ 20V على الأقل). كابلات charge-only الرخيصة بتحدّ السرعة على 15W. الأفضل كابل انكر PowerLine (60W) لـ MacBook Air، أو انكر زولو A8060 (240W، PD 3.1) لو هتستخدمه مع شاحن أقوى.',
                 },
             ],
         },
@@ -286,14 +277,14 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             metaDescription: 'Discover the best GaN charger alternatives for MacBook Air M3/M4 and MacBook Pro in Egypt. Real performance, heat, and price comparison vs Apple original.',
             keywords: 'MacBook charger alternative Egypt, GaN charger for MacBook, Anker Nano 45W MacBook, MacBook Air M4 charger, best laptop charger Egypt, Apple charger alternative GaN, USB-C PD charger MacBook, cheap MacBook charger Egypt',
             excerpt: 'A comprehensive comparison between Apple\'s original MacBook charger and GaN alternatives from Anker — which one offers better value, smaller size, and equal speed in Egypt.',
-            quickAnswer: 'Yes, a GaN charger like Anker Nano 45W charges MacBook Air M3/M4 at exactly the same speed as Apple\'s original charger (45W via USB-C PD 3.0) — but 40% smaller and 50% cheaper. Only requirement: a 60W+ USB-C cable like Anker PowerLine. Available at CairoVolt for 790 EGP with 24-month warranty.',
+            quickAnswer: 'Yes. A GaN charger such as the Anker Nano 45W charges a MacBook Air M3/M4 at the same 45W as Apple\'s original charger (USB-C PD), in a smaller body and at a lower price. You need a USB-C cable rated for 60W, such as the Anker PowerLine. Available at CairoVolt for {{price:anker-nano-45w}} EGP with CairoVolt\'s written store warranty.',
             content: `<p>If you're a MacBook user in Egypt — especially a MacBook Air M3 or M4 owner — you've definitely experienced this moment before: the "original" Apple charger that came in the box... didn't actually come in the box. That's right — since 2022, Apple has been selling you a laptop worth 40,000-65,000 EGP and telling you "the charger is on you, buddy." Then you visit the Apple Store or authorized reseller and find the original 30W charger at 1,500 EGP and the 35W Dual at 2,200 EGP. At that point, you look at the charger, look at your wallet, and ask yourself: "Do I really need to spend the equivalent of a fancy dinner to charge my laptop?"</p>
 
 <p>The short answer: <strong>No.</strong> GaN (Gallium Nitride) technology has produced alternative chargers that deliver the same wattage — and sometimes more — in a smaller size at a lower price. But not every alternative is worth your money. In this article, we'll explain with physics and real numbers: why GaN chargers compete with Apple, which models are worth buying in Egypt, and what pitfalls to avoid to protect both your battery and your wallet.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Yes, a GaN charger like Anker Nano 45W charges MacBook Air M3/M4 at exactly the same speed as Apple's original charger (45W via USB-C PD 3.0) — but 40% smaller and 50% cheaper. Only requirement: a 60W+ USB-C cable like Anker PowerLine. Available at CairoVolt for 790 EGP with 24-month warranty.
+        <strong>💡 Quick Answer:</strong> Yes. A GaN charger such as the Anker Nano 45W charges a MacBook Air M3/M4 at the same 45W as Apple's original charger (USB-C PD), in a smaller body and at a lower price. You need a USB-C cable rated for 60W, such as the Anker PowerLine. Available at CairoVolt for {{price:anker-nano-45w}} EGP with CairoVolt's written store warranty.
     </p>
 </div>
 
@@ -303,7 +294,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 
 <p>Apple's 30W USB-C charger (Model A2164) sells for 1,400-1,600 EGP from authorized distributors in Egypt. The 35W Dual USB-C (A2571) goes for 2,000-2,300 EGP. And these are traditional silicon chargers — not GaN — meaning they're 30-50% larger than modern alternatives.</p>
 
-<p>In contrast, the <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W GaN III</a> delivers <strong>a real 45 watts</strong> via USB-C PD 3.0 — 15W more than Apple's original charger — while being 40% smaller and priced at 790 EGP. That's half the price with higher output. This isn't opinion — it's physics.</p>
+<p>In contrast, the <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W GaN II</a> delivers <strong>a real 45 watts</strong> via USB-C PD 3.0 — 15W more than Apple's original charger — while being 40% smaller and priced at {{price:anker-nano-45w}} EGP. That's half the price with higher output. This isn't opinion — it's physics.</p>
 
 <h2>What Is GaN Technology — and Why Does It Matter for MacBook Charging?</h2>
 
@@ -313,7 +304,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Metric</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Traditional Silicon</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">GaN III</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">GaN II</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Difference</th>
     </tr></thead>
     <tbody>
@@ -358,7 +349,6 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Power</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Technology</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Price (EGP)</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Size</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Warranty</th>
     </tr></thead>
     <tbody>
@@ -366,54 +356,48 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">Apple 30W (A2164)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Silicon</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>1,500 EGP</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Relatively large</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">12 months</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>~1,500 EGP</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">12 months (Apple)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Apple 35W Dual (A2571)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">35W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Silicon</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>2,200 EGP</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Larger (dual port)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">12 months</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>~2,200 EGP</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">12 months (Apple)</td>
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 3 GaN 30W</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>490 EGP</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">50% smaller</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">24 months</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:anker-a2147-gan-charger-30w}} EGP</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">CairoVolt written store warranty</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W GaN III</a></strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W GaN II</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN III</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>790 EGP</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">40% smaller</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">24 months</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN II</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:anker-nano-45w}} EGP</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">CairoVolt written store warranty</td>
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,250 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">35% smaller</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">24 months</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-nano-45w-smart-display-charger}} EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">CairoVolt written store warranty</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W PD</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Silicon</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>280 EGP</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Standard</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">36 months</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:joyroom-30w-fast-charger}} EGP</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">CairoVolt written store warranty</td>
         </tr>
     </tbody>
 </table>
 
-<p>Look at the numbers: the Anker Nano 45W delivers <strong>50% more power than Apple's 30W charger</strong>, in a 40% smaller body, at roughly half the price. If you bought two Anker Nano 45W chargers — one for home and one for the office — you'd still have paid less than a single Apple charger. That's not just smart shopping — it's an engineering economics lesson.</p>
+<p>Look at the numbers: the Anker Nano 45W delivers <strong>more power than Apple's 30W charger</strong>, in a small body and at a clearly lower price than Apple's approximate market prices.</p>
 
 <h2>Is 30W Enough for MacBook Air — or Do You Need 45W?</h2>
 
@@ -426,7 +410,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     <li style="margin-bottom:12px;">💡 <strong>Practical Rule:</strong> 30W = sufficient for light and medium use while charging. 45W = maximum possible charging speed even under heavy load. Above 45W = MacBook Air won't accept it anyway (Apple caps it at 45W).</li>
 </ul>
 
-<p>So — <strong>if your budget is 490 EGP</strong> and you do regular work (Office + Chrome + Zoom), the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 3 GaN 30W</a> will serve you perfectly. If you want maximum speed with comfortable headroom, the <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> at 790 EGP is the optimal choice.</p>
+<p>So — <strong>if your budget is around {{price:anker-a2147-gan-charger-30w}} EGP</strong> and you do regular work (Office + Chrome + Zoom), the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 3 GaN 30W</a> will serve you perfectly. If you want maximum speed with comfortable headroom, the <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> at {{price:anker-nano-45w}} EGP is a balanced choice.</p>
 
 <h2>MacBook Pro — Why the Story Is Different</h2>
 
@@ -435,14 +419,14 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">💻 <strong>MacBook Pro 14" (M4 Pro):</strong> Ships with a 70W original charger — needs 65W+ for maximum charging speed.</li>
     <li style="margin-bottom:12px;">💻 <strong>MacBook Pro 16" (M4 Max):</strong> Ships with a 140W original charger via MagSafe 3 — needs 100W+ via USB-C.</li>
-    <li style="margin-bottom:12px;">⚠️ <strong>The Reality:</strong> Currently in the Egyptian market, there are no GaN chargers from Anker or Joyroom above 45W available through official distributors. If you have a MacBook Pro, a 45W charger will charge it, but slower than the original.</li>
+    <li style="margin-bottom:12px;">⚠️ <strong>If you have a MacBook Pro:</strong> a 45W charger will charge it, but slower than the original. For higher wattage, CairoVolt stocks the <a href="/en/anker/wall-chargers/anker-prime-a2669-67w-gan-charger" style="color:#2563eb;font-weight:600;">Anker Prime 67W (A2669)</a> at {{price:anker-prime-a2669-67w-gan-charger}} EGP and the <a href="/en/anker/wall-chargers/anker-prime-a2688-100w-charger" style="color:#2563eb;font-weight:600;">Anker Prime 100W (A2688)</a> at {{price:anker-prime-a2688-100w-charger}} EGP — check the per-port power split on each product page.</li>
 </ul>
 
 <p>A 45W charger like the <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> can slow-charge a MacBook Pro 14" while working — an excellent solution as a <strong>secondary travel charger</strong> or emergency backup. But it shouldn't be your primary charger if you're running Final Cut or Blender all day.</p>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
-        <strong>⚠️ Important Warning:</strong> If you have a MacBook Pro 16" (M4 Max) running heavy render workloads, a 45W charger won't cover the device's consumption during work — the battery may drain even while plugged in. In this case, Apple's original 140W charger or a 100W+ GaN alternative (when officially available) is the only solution.
+        <strong>⚠️ Important Warning:</strong> If you have a MacBook Pro 16" (M4 Max) running heavy render workloads, a 45W charger won't cover the device's consumption during work — the battery may drain even while plugged in. In this case, Apple's original 140W charger or a 100W GaN alternative such as the Anker Prime A2688 is the solution.
     </p>
 </div>
 
@@ -485,38 +469,36 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">Cheapest genuine option with warranty — charges MacBook Air for light work</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:12px;border:1px solid #d1d5db;">400-500 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-a2147-gan-charger-30w}} EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 3 GaN 30W</a></strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Best value — real GaN in a tiny package + 24-month warranty</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Good value — GaN in a small package</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>700-900 EGP ⭐</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W GaN III</a></strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ Optimal Pick — maximum MacBook Air speed + charges iPhone 17 fast too</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>{{price:anker-nano-45w}} EGP ⭐</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W GaN II</a></strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ Balanced pick — maximum MacBook Air speed + charges iPhone 17 fast too</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,500-2,000 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-nano-45w-smart-display-charger}} EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Same performance + TFT display showing real-time watts + Care Mode + Red Dot 2026 design</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Same 45W class + a display showing real-time watts</td>
         </tr>
     </tbody>
 </table>
 
-<p>If you ask me as an electronics engineer: the <strong>Anker Nano 45W GaN III at 790 EGP</strong> is the best balance of price, performance, and size. You get maximum MacBook Air charging speed, and you can also fast-charge your iPhone 17 or Samsung S26 — one charger for all your devices. And you save over 700 EGP compared to Apple's original charger — enough to buy a <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">proper USB-C cable</a> and still have change left over.</p>
+<p>If you ask me as an electronics engineer: the <strong>Anker Nano 45W GaN II at {{price:anker-nano-45w}} EGP</strong> is a good balance of price, performance, and size. You get maximum MacBook Air charging speed, and you can also fast-charge your iPhone 17 or Samsung S26 — one charger for all your devices. And it costs less than Apple's original charger — the difference can buy a <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">proper USB-C cable</a> and still have change left over.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All GaN chargers mentioned in this article are <strong>genuine with a 24-month written store warranty</strong> from CairoVolt + delivery to all governorates within 24-72 hours + 24/7 WhatsApp support. If the charger fails during warranty — we replace it, not repair it.
+        All GaN chargers mentioned in this article are <strong>genuine, with CairoVolt's written store warranty</strong> (duration and terms shown on each product page) + delivery to all governorates (commonly 1–6 business days depending on governorate) + 24/7 WhatsApp support.
     </p>
 </div>
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 Sources:</p>
     <ul style="margin:0;padding-left:20px;color:#6b7280;">
-        <li><a href="https://www.anker.com/products/chargers" rel="nofollow">Anker Official — GaN Charger Specifications</a></li>
-        <li><a href="https://support.apple.com/en-us/111845" rel="nofollow">Apple Support — MacBook Air Charging Requirements</a></li>
-        <li><a href="https://www.tomshardware.com/reviews/best-usb-c-chargers" rel="nofollow">Tom's Hardware — Best USB-C Chargers 2026</a></li>
+        <li><a href="https://support.apple.com/en-us/102378" rel="nofollow">Apple Support — Fast charge your MacBook Air or MacBook Pro</a></li>
     </ul>
 </div>`,
             faq: [
@@ -526,7 +508,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
                 },
                 {
                     question: 'What\'s the difference between regular Anker Nano 45W and the Smart Display version?',
-                    answer: 'Both deliver exactly the same 45W via GaN technology. The Smart Display (A121D) adds a small TFT screen showing real-time wattage + Care Mode that limits charging to 80% for battery longevity + a Red Dot 2026 award-winning design. Price is 1,250 EGP versus 790 EGP for the standard version.',
+                    answer: 'Both deliver exactly the same 45W via GaN technology. The Smart Display (A121D) adds a small TFT screen showing real-time wattage + Care Mode that limits charging to 80% for battery longevity. Price is {{price:anker-nano-45w-smart-display-charger}} EGP versus {{price:anker-nano-45w}} EGP for the standard version.',
                 },
                 {
                     question: 'Can I charge a MacBook Pro 14" with a 45W charger?',
@@ -534,7 +516,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
                 },
                 {
                     question: 'Is any USB-C cable sufficient for charging MacBook from a GaN charger?',
-                    answer: 'Not just any cable. You need a USB-C cable rated for 60W+ (3A @ 20V minimum). Cheap charge-only cables limit speed to 15W. Best option is an Anker PowerLine or Zolo A8060 (140W rated) — ensures maximum speed and withstands 10,000+ bend cycles.',
+                    answer: 'Not just any cable. You need a USB-C cable rated for 60W+ (3A @ 20V minimum). Cheap charge-only cables limit speed to 15W. A good option is the Anker PowerLine (60W) for a MacBook Air, or the Anker Zolo A8060 (240W, PD 3.1) if you will pair it with a stronger charger.',
                 },
             ],
         },

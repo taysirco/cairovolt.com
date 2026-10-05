@@ -4,10 +4,10 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
     slug: 'pass-through-charging-power-bank-myth-truth',
     category: 'tips',
     publishDate: '2026-06-20',
-    modifiedDate: '2026-06-20',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
-        'anker-zolo-a110e-20000',
+        'anker-nano-power-bank-a1638-10k-45w',
         'anker-zolo-a110d-10000',
         'anker-powercore-20000',
         'anker-prime-a1695-25000',
@@ -21,13 +21,6 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
     ],
     relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
     coverImage: '/images/blog/posts/pass-through-charging-power-bank-myth-truth.webp',
-    externalReferences: [
-        {
-            url: 'https://gamesuy.wordpress.com/2026/06/21/charging-and-audio-gear-every-mobile-gamer-needs-in-2026/',
-            title: { ar: 'معدات الشحن والصوت للاعبي الموبايل', en: 'Charging & audio gear for mobile gamers' },
-            note: { ar: 'معدات الشحن والصوت للاعبين', en: 'Charging & audio gear for gamers' },
-        },
-    ],
     translations: {
         ar: {
             title: 'شحن Pass-Through — هل فعلاً تقدر تشحن الباور بانك وأجهزتك في نفس الوقت؟',
@@ -35,14 +28,14 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
             metaDescription: 'هل شحن Pass-Through بيضر الباور بانك؟ دليل مهندس يشرح الفرق بين الأنواع الثلاثة، التأثير على عمر البطارية، ومتى تستخدمه ومتى تتجنبه. تابع التفاصيل بمصر.',
             keywords: 'شحن pass through باور بانك, شحن الموبايل والباور بانك في نفس الوقت, pass through charging ضرر, باور بانك pass through انكر, هل pass through بيضر البطارية, شحن باور بانك وهو بيشحن الموبايل, pass through charging شرح عربي, باور بانك شحن متزامن',
             excerpt: 'بتوصّل الباور بانك بالشاحن وبتشحن الموبايل منه في نفس الوقت؟ ده اسمه Pass-Through — وفي 3 أنواع مختلفة. واحد بس منهم آمن فعلاً.',
-            quickAnswer: 'شحن Pass-Through = شحن الباور بانك وتشغيل أجهزتك منه في نفس الوقت. في 3 أنواع: (1) Basic — الباور بانك بيبقى "وسيط" بس بين الشاحن والموبايل — كويس بس البطارية بتسخن أكتر. (2) Smart Path — الشاحن بيغذّي الموبايل مباشرة والفائض يروح للبطارية — الأأمن (انكر بيستخدم ده). (3) No True Pass-Through — الباور بانك بيفصل الشحن لما توصّل جهاز — مش pass-through حقيقي. النصيحة: لو عندك بريزة — اشحن الموبايل من الشاحن مباشرة واشحن الباور بانك لوحده. استخدم pass-through بس لما مفيش بريزة كافية.',
+            quickAnswer: 'شحن Pass-Through يعني تشحن الباور بانك وهو بيشحن موبايلك في نفس الوقت. بيشتغل بس في الموديلات اللي دليلها بيدعمه، وبيزوّد السخونة لأن البطارية بتشحن وتفرغ مع بعض. لو عندك بريزة فاضية، اشحن الموبايل من الشاحن مباشرة والباور بانك لوحده، واستخدم pass-through بس لما البرايز قليلة.',
             content: `<p>تخيّل المشهد ده: إنت في الأوتيل، بريزة واحدة بس، الموبايل على 15%، والباور بانك على 30%. الحل "البديهي"؟ توصّل الشاحن بالبريزة، الشاحن بالباور بانك، والباور بانك بالموبايل — الباور بانك بيتشحن والموبايل بيتشحن في نفس الوقت. ده اسمه Pass-Through Charging. والسؤال اللي بيتسأل كل يوم: "ده كويس ولا بيضر الباور بانك؟"</p>
 
 <p>الإجابة مش "أيوا" أو "لا" — لأن في الحقيقة <strong>3 أنواع مختلفة</strong> من Pass-Through، وكل نوع بيتعامل مع الكهرباء بطريقة مختلفة تماماً. نوع واحد بس منهم آمن فعلاً على المدى الطويل. المقال ده هيشرحلك الثلاثة — بالدوائر الكهربائية والأرقام — عشان تاخد قرار مبني على علم مش على كلام فيسبوك.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> شحن Pass-Through = شحن الباور بانك وتشغيل أجهزتك منه في وقت واحد. <strong>النوع الآمن: Smart Path</strong> (زي اللي في <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">باور بانكات انكر</a>) — بيوصّل الشاحن للموبايل مباشرة والفائض للبطارية. النوع الخطر: Basic Pass-Through في باور بانكات رخيصة — بيشحن ويفرّغ البطارية في نفس الوقت وبيسخنها.
+        <strong>💡 الإجابة السريعة:</strong> شحن Pass-Through = شحن الباور بانك وتشغيل أجهزتك منه في وقت واحد. <strong>النوع الأأمن: Smart Path</strong> — بيوصّل الشاحن للموبايل مباشرة والفائض للبطارية. ومش كل الموديلات بتدعم pass-through أصلاً، فراجع دليل موديلك. النوع الخطر: Basic Pass-Through في باور بانكات رخيصة — بيشحن ويفرّغ البطارية في نفس الوقت وبيسخنها.
     </p>
 </div>
 
@@ -73,7 +66,7 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
 </ul>
 
 <div class="quick-answer-inline" style="background:#f0fdf4;border-right:4px solid #16a34a;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#166534;"><strong>✅ ده اللي بنرشحه:</strong> لو لازم تستخدم pass-through — استخدم باور بانك بتقنية Smart Path. كل باور بانكات <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">انكر</a> الحديثة (PowerCore، Prime، ZOLO) بتدعم Smart Path. الموبايل بيتشحن بأقصى سرعة والبطارية مش بتتأذى.</p>
+    <p style="margin:0;color:#166534;"><strong>✅ ده اللي بنرشحه:</strong> لو لازم تستخدم pass-through — استخدم موديل دليله أو صفحته بتذكر دعم الشحن المتزامن صراحةً، زي <a href="/anker/power-banks/anker-nano-power-bank-a1638-10k-45w" style="color:#2563eb;font-weight:600;">انكر Nano A1638</a> اللي مواصفاته بتذكر pass-through. الدعم بيختلف من موديل لموديل حتى داخل نفس الماركة، فمتفترضش إن كل باور بانك بيدعمه.</p>
 </div>
 
 <h3>النوع 3: No True Pass-Through (إيقاف الشحن عند التوصيل) — مش pass-through أصلاً</h3>
@@ -158,8 +151,8 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Anker (PowerCore / Prime / ZOLO)</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>✅ Smart Path</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">أولوية للجهاز المتصل — البطارية تاخد الفائض</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#f59e0b;"><strong>⚠️ يختلف حسب الموديل</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">بعض الموديلات (زي Nano A1638) مدرج فيها pass-through؛ في غيرها استخدمه بس لو الدليل بيسمح</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Samsung Battery Pack</strong></td>
@@ -173,8 +166,8 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Joyroom</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#f59e0b;"><strong>⚠️ Basic</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">بيدعم pass-through بس من النوع الأساسي — متستخدموش يومياً</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#f59e0b;"><strong>⚠️ يختلف حسب الموديل</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">راجع دليل الموديل — ولو مش مذكور، متستخدموش يومياً</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>ماركات مجهولة (تحت 300ج)</strong></td>
@@ -191,7 +184,7 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
     <li style="margin-bottom:16px;">🌡️ <strong>راقب الحرارة أول 15 دقيقة.</strong> لما تستخدم pass-through — حط إيدك على الباور بانك بعد ربع ساعة. لو حسيت بسخونة غير مريحة — افصل وغيّر الطريقة.</li>
     <li style="margin-bottom:16px;">⚡ <strong>استخدم شاحن بقدرة أعلى.</strong> لو الموبايل بيحتاج 20W والباور بانك بيحتاج 18W — شاحن 20W مش كفاية للاتنين. استخدم شاحن 30W أو 45W عشان يكفي الجهاز + الباور بانك بدون ما النظام يتعب.</li>
     <li style="margin-bottom:16px;">🔋 <strong>متسيبش pass-through شغال طول الليل.</strong> لو الموبايل وصل 100% — البطارية بتاعته بتكون في حالة "trickle charge" وده بيحمّل الباور بانك ضغط مستمر بلا فايدة. الأفضل: افصل الموبايل لما يكمل، أو استخدم باور بانك بخاصية Auto-Off.</li>
-    <li style="margin-bottom:16px;">📱 <strong>استخدم باور بانك بـ Smart Path لو بتسافر كتير.</strong> المسافرين — خصوصاً اللي بيسافروا بالطيران — بيحتاجوا pass-through في المطار والأوتيل بانتظام. في الحالة دي، الاستثمار في <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">باور بانك انكر بـ Smart Path</a> بيوفّر على المدى الطويل لأن البطارية هتعيش أطول.</li>
+    <li style="margin-bottom:16px;">📱 <strong>استخدم باور بانك بـ Smart Path لو بتسافر كتير.</strong> المسافرين — خصوصاً اللي بيسافروا بالطيران — بيحتاجوا pass-through في المطار والأوتيل بانتظام. في الحالة دي، اختار موديل مواصفاته بتذكر pass-through صراحةً زي <a href="/anker/power-banks/anker-nano-power-bank-a1638-10k-45w" style="color:#2563eb;font-weight:600;">انكر Nano A1638</a> بدل ما تفترض إن أي باور بانك بيدعمه.</li>
 </ul>
 
 <h2>الخلاصة — Pass-Through مش عدو، بس لازم تعرف نوعه</h2>
@@ -201,13 +194,13 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل باور بانكات <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">انكر</a> على كايرو فولت بتدعم تقنية Smart Path — أأمن أنواع Pass-Through. ضمان 18 شهر + توصيل لكل المحافظات. <a href="/joyroom/power-banks" style="color:#2563eb;font-weight:600;">جوي روم</a> متاح كمان بأسعار اقتصادية — بس استخدم pass-through عليه بحذر.
+        باور بانكات <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">انكر</a> على كايرو فولت بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات — وصفحة كل موديل بتوضح هل بيدعم pass-through. <a href="/joyroom/power-banks" style="color:#2563eb;font-weight:600;">جوي روم</a> متاح كمان بأسعار اقتصادية — بس استخدم pass-through عليه بحذر.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'هل شحن Pass-Through بيضر بطارية الباور بانك؟',
-                    answer: 'يعتمد على النوع. Basic Pass-Through (في الباور بانكات الرخيصة) بيسخن البطارية ويقلل عمرها 20-35%. Smart Path (في باور بانكات Anker) بيوجّه التيار للموبايل مباشرة والفائض للبطارية — تأثيره أقل من 5% على العمر.',
+                    answer: 'يعتمد على النوع. Basic Pass-Through بيشحن ويفرّغ البطارية في نفس الوقت فبيسخنها وممكن يقصّر عمرها مع الاستخدام اليومي. Smart Path بيوجّه التيار للموبايل مباشرة والفائض للبطارية فتأثيره أقل — بس استخدمه بس لو دليل موديلك بيدعم الشحن المتزامن.',
                 },
                 {
                     question: 'إزاي أعرف إن باور بانكي بيدعم Smart Path ولا Basic؟',
@@ -219,7 +212,7 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
                 },
                 {
                     question: 'لو عندي بريزة واحدة — أوصّل الموبايل بالشاحن ولا بالباور بانك؟',
-                    answer: 'الأفضل: وصّل الموبايل بالشاحن مباشرة (أسرع وأكفأ) واشحن الباور بانك بعدين. لكن لو محتاج تشحن الاتنين في نفس الوقت — وصّل الشاحن بالباور بانك والباور بانك بالموبايل (pass-through). مع باور بانك Smart Path زي Anker — ده حل آمن تماماً.',
+                    answer: 'الأفضل: وصّل الموبايل بالشاحن مباشرة (أسرع وأكفأ) واشحن الباور بانك بعدين. لكن لو محتاج تشحن الاتنين في نفس الوقت — وصّل الشاحن بالباور بانك والباور بانك بالموبايل (pass-through). مع موديل دليله بيدعم pass-through — ده حل عملي، وراقب الحرارة.',
                 },
             ],
         },
@@ -229,14 +222,14 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
             metaDescription: 'Does pass-through charging damage your power bank? Engineer\'s guide explaining the 3 types, battery impact, and when to use it vs. when to avoid it.',
             keywords: 'pass through charging power bank, charge power bank and phone same time, pass through charging damage battery, Anker smart path charging, pass through charging safe, simultaneous charge discharge power bank, power bank pass through explained, smart path vs basic pass through',
             excerpt: 'Plugging your phone into a power bank while the power bank charges from the wall? That\'s pass-through charging — and there are 3 types. Only one is truly safe.',
-            quickAnswer: 'Pass-through charging = charging the power bank while it powers your devices simultaneously. There are 3 types: (1) Basic — the power bank acts as a middleman, charging and discharging its battery at once — works but generates excessive heat. (2) Smart Path — the charger feeds your phone directly, excess goes to the battery — the safest (Anker uses this). (3) No True Pass-Through — the power bank stops one function when the other starts. Advice: if you have an outlet, charge your phone directly and charge the power bank separately. Use pass-through only when outlets are limited.',
+            quickAnswer: 'Pass-through charging means recharging the power bank while it charges your phone at the same time. It works only on models whose manual supports it, and it adds heat because the battery charges and discharges together. If an outlet is free, charge the phone directly and recharge the power bank separately; use pass-through only when outlets are limited.',
             content: `<p>Picture this: you're at a hotel, there's only one outlet, your phone is at 15%, and your power bank is at 30%. The "obvious" solution? Plug the charger into the wall, connect the charger to the power bank, and connect the power bank to your phone — the power bank charges while your phone charges simultaneously. This is called Pass-Through Charging. And the question that gets asked every day: "Is this okay, or does it damage the power bank?"</p>
 
 <p>The answer isn't a simple "yes" or "no" — because in reality, there are <strong>3 fundamentally different types</strong> of pass-through, and each handles electricity in a completely different way. Only one of them is truly safe for long-term use. This article will explain all three — with circuit diagrams and numbers — so you can make a decision based on science, not Facebook comments.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Pass-through charging = charging the power bank while running your devices from it simultaneously. <strong>The safe type: Smart Path</strong> (used in <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker power banks</a>) — routes charger power directly to your phone, excess to the battery. The risky type: Basic Pass-Through in cheap power banks — charges and discharges the battery simultaneously, generating excessive heat.
+        <strong>💡 Quick Answer:</strong> Pass-through charging = charging the power bank while running your devices from it simultaneously. <strong>The safer type: Smart Path</strong> — routes charger power directly to your phone, excess to the battery. Not every model supports pass-through at all, so check your model's manual. The risky type: Basic Pass-Through in cheap power banks — charges and discharges the battery simultaneously, generating excessive heat.
     </p>
 </div>
 
@@ -267,7 +260,7 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
 </ul>
 
 <div class="quick-answer-inline" style="background:#f0fdf4;border-left:4px solid #16a34a;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#166534;"><strong>✅ Our recommendation:</strong> If you need to use pass-through — use a power bank with Smart Path technology. All modern <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker</a> power banks (PowerCore, Prime, ZOLO) support Smart Path. Your phone charges at full speed and the battery isn't harmed.</p>
+    <p style="margin:0;color:#166534;"><strong>✅ Our recommendation:</strong> If you need to use pass-through — use a model whose manual or product page explicitly lists simultaneous charging, such as the <a href="/en/anker/power-banks/anker-nano-power-bank-a1638-10k-45w" style="color:#2563eb;font-weight:600;">Anker Nano A1638</a>, whose specs list pass-through. Support varies from model to model even within one brand, so don't assume every power bank has it.</p>
 </div>
 
 <h3>Type 3: No True Pass-Through (Charging Pauses on Connection) — Not Actually Pass-Through</h3>
@@ -352,8 +345,8 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Anker (PowerCore / Prime / ZOLO)</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>✅ Smart Path</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Priority to connected device — battery gets the surplus</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#f59e0b;"><strong>⚠️ Varies by model</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Some models (e.g. Nano A1638) list pass-through; on others use it only if the manual allows it</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Samsung Battery Pack</strong></td>
@@ -367,8 +360,8 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>Joyroom</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#f59e0b;"><strong>⚠️ Basic</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Supports pass-through but basic type — avoid daily use</td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#f59e0b;"><strong>⚠️ Varies by model</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Check the model's manual — if it isn't listed, avoid daily use</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;"><strong>No-name brands (under 300 EGP)</strong></td>
@@ -385,7 +378,7 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
     <li style="margin-bottom:16px;">🌡️ <strong>Monitor temperature during the first 15 minutes.</strong> When using pass-through — place your hand on the power bank after 15 minutes. If it feels uncomfortably hot — disconnect and change your approach.</li>
     <li style="margin-bottom:16px;">⚡ <strong>Use a higher-wattage charger.</strong> If your phone needs 20W and the power bank needs 18W — a 20W charger isn't enough for both. Use a 30W or 45W charger so there's enough power for the device + the power bank without straining the system.</li>
     <li style="margin-bottom:16px;">🔋 <strong>Don't leave pass-through running overnight.</strong> Once your phone reaches 100%, its battery enters "trickle charge" — which puts continuous, pointless stress on the power bank. Better: disconnect the phone when it finishes, or use a power bank with Auto-Off.</li>
-    <li style="margin-bottom:16px;">📱 <strong>Use a Smart Path power bank if you travel frequently.</strong> Travelers — especially those flying often — need pass-through at airports and hotels regularly. In this case, investing in an <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker power bank with Smart Path</a> saves money long-term because the battery lasts significantly longer.</li>
+    <li style="margin-bottom:16px;">📱 <strong>Use a Smart Path power bank if you travel frequently.</strong> Travelers — especially those flying often — need pass-through at airports and hotels regularly. In this case, pick a model whose specs explicitly list pass-through, such as the <a href="/en/anker/power-banks/anker-nano-power-bank-a1638-10k-45w" style="color:#2563eb;font-weight:600;">Anker Nano A1638</a>, rather than assuming any power bank supports it.</li>
 </ul>
 
 <h2>The Bottom Line — Pass-Through Isn't the Enemy, But You Need to Know Your Type</h2>
@@ -395,13 +388,13 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker</a> power banks at CairoVolt support Smart Path technology — the safest pass-through type. 18-month warranty + delivery to all governorates. <a href="/en/joyroom/power-banks" style="color:#2563eb;font-weight:600;">Joyroom</a> also available at budget prices — but use pass-through on it cautiously.
+        <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker</a> power banks at CairoVolt come with CairoVolt's written store warranty (duration shown on each product page) + delivery to all governorates — and each model's page shows whether it supports pass-through. <a href="/en/joyroom/power-banks" style="color:#2563eb;font-weight:600;">Joyroom</a> also available at budget prices — but use pass-through on it cautiously.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'Does pass-through charging damage a power bank\'s battery?',
-                    answer: 'It depends on the type. Basic Pass-Through (in cheap power banks) heats the battery and reduces lifespan by 20-35%. Smart Path (in Anker power banks) routes current directly to the phone with excess going to the battery — its impact on lifespan is under 5%.',
+                    answer: 'It depends on the type. Basic Pass-Through charges and discharges the battery at the same time, so it heats it and can shorten its life with daily use. Smart Path routes current directly to the phone with the excess going to the battery, so its impact is smaller — but use it only if your model\'s manual supports simultaneous charging.',
                 },
                 {
                     question: 'How can I tell if my power bank has Smart Path or Basic pass-through?',
@@ -413,7 +406,7 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
                 },
                 {
                     question: 'If I only have one outlet — should I plug my phone into the charger or the power bank?',
-                    answer: 'Best option: plug the phone directly into the charger (faster and more efficient) and charge the power bank later. But if you need both charged simultaneously — connect charger → power bank → phone (pass-through). With a Smart Path power bank like Anker — this is completely safe.',
+                    answer: 'Best option: plug the phone directly into the charger (faster and more efficient) and charge the power bank later. But if you need both charged simultaneously — connect charger → power bank → phone (pass-through). With a model whose manual supports pass-through, this is a practical option — just watch the temperature.',
                 },
             ],
         }

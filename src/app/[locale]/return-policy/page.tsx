@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Metadata } from 'next';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import { STANDARD_RETURN_WINDOW_DAYS } from '@/lib/merchant-product-data';
 
 export const revalidate = 2592000;
 
@@ -29,10 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 'x-default': 'https://cairovolt.com/return-policy',
             },
         },
-        robots: {
-            index: true,
-            follow: true,
-        },
+        // No page-level `robots`: it replaced the layout's googleBot block
+        // (max-image-preview:large, max-snippet:-1).
         openGraph: {
             title,
             description,
@@ -60,7 +59,7 @@ export default async function ReturnPolicyPage({ params }: Props) {
                 ]}
                 locale={locale}
             />
-            <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+            <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
                 <div className="container mx-auto px-4 py-16">
                     <div className="max-w-4xl mx-auto">
                         <h1 className="text-4xl font-bold text-center mb-3 bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
@@ -80,7 +79,7 @@ export default async function ReturnPolicyPage({ params }: Props) {
                                     {t('window.title')}
                                 </h2>
                                 <div className="bg-gradient-to-r from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20 rounded-xl p-6 text-center">
-                                    <p className="text-5xl font-bold text-orange-500 mb-2">14</p>
+                                    <p className="text-5xl font-bold text-orange-500 mb-2">{STANDARD_RETURN_WINDOW_DAYS}</p>
                                     <p className="text-lg font-medium">{t('window.days')}</p>
                                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">{t('window.description')}</p>
                                 </div>
@@ -202,7 +201,7 @@ export default async function ReturnPolicyPage({ params }: Props) {
                         </div>
                     </div>
                 </div>
-            </main>
+            </div>
         </>
     );
 }

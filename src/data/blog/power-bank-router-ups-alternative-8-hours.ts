@@ -12,7 +12,7 @@ export const power_bank_router_ups_alternative_8_hours: BlogArticle = {
         'joyroom-power-bank-20000',
         'joyroom-power-bank-10000',
         'anker-zolo-a110e-20000',
-        'anker-powercore-10000'
+        'anker-zolo-a110d-10000'
     ],
     relatedArticles: [
         'data-cable-vs-charge-only-cable-file-transfer',

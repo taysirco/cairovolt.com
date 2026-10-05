@@ -4,7 +4,7 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
     slug: 'charger-spark-outlet-when-dangerous-replace',
     category: 'tips',
     publishDate: '2026-06-21',
-    modifiedDate: '2026-06-21',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
       'anker-a2147-gan-charger-30w',
@@ -124,7 +124,7 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> معتمدة بشهادات UL/CE/FCC — 7 طبقات حماية من القصر والحرارة والشحن الزائد. ضمان 18 شهر + توصيل لكل المحافظات. متخاطرش بشاحن رخيص — السلامة أولاً.
+        <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> بتدرج انكر عليها حماية من القصر والحرارة والجهد الزائد. بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات. متخاطرش بشاحن رخيص — السلامة أولاً.
     </p>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a>.</p></div>
@@ -132,7 +132,7 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
             faq: [
                 {
                     question: 'هل شرارة الشاحن لما بوصله بالبريزة خطيرة؟',
-                    answer: 'في 95% من الحالات — لا. الشرارة الزرقاء اللحظية (أقل من ثانية) عند التوصيل طبيعية تماماً وبتحصل بسبب فيزياء القوس الكهربائي. بتكون خطيرة بس لو لونها برتقالي، مستمرة بعد التوصيل، فيها ريحة محروقة، أو مصحوبة بسخونة غير طبيعية.',
+                    answer: 'في أغلب الحالات — لا. الشرارة الزرقاء اللحظية (أقل من ثانية) عند التوصيل طبيعية تماماً وبتحصل بسبب فيزياء القوس الكهربائي. بتكون خطيرة بس لو لونها برتقالي، مستمرة بعد التوصيل، فيها ريحة محروقة، أو مصحوبة بسخونة غير طبيعية.',
                 },
                 {
                     question: 'إزاي أعرف المشكلة في الشاحن ولا في البريزة؟',
@@ -246,7 +246,7 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> are certified with UL/CE/FCC — 7 layers of protection against short circuits, overheating, and overcharging. 18-month warranty + delivery to all governorates. Don't risk a cheap charger — safety first.
+        <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> list protection against short circuits, overheating and overvoltage. CairoVolt's written store warranty (duration shown on each product page) + delivery to all governorates. Don't risk a cheap charger — safety first.
     </p>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W Charger</a>.</p></div>
@@ -254,7 +254,7 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
             faq: [
                 {
                     question: 'Is it dangerous when my charger sparks when I plug it in?',
-                    answer: 'In 95% of cases — no. A blue momentary spark (under 1 second) when plugging in is completely normal, caused by arc discharge physics. It\'s only dangerous if the color is orange, it continues after connection, there\'s a burning smell, or the charger/outlet gets abnormally hot.',
+                    answer: 'In most cases — no. A blue momentary spark (under 1 second) when plugging in is completely normal, caused by arc discharge physics. It\'s only dangerous if the color is orange, it continues after connection, there\'s a burning smell, or the charger/outlet gets abnormally hot.',
                 },
                 {
                     question: 'How do I know if the problem is the charger or the outlet?',

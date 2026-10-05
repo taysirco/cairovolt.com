@@ -4,7 +4,7 @@ export const anker_soundcore_life_p2i_specifications_audio_modes: BlogArticle = 
     slug: 'anker-soundcore-life-p2i-specifications-audio-modes',
     category: 'how-to',
     publishDate: '2026-07-21',
-    modifiedDate: '2026-07-21',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'anker-soundcore-life-p2i',
@@ -34,16 +34,16 @@ export const anker_soundcore_life_p2i_specifications_audio_modes: BlogArticle = 
             keywords: 'soundcore life p2i مواصفات, soundcore life p2i مصر, انكر life p2i, life p2i eq, soundcore life p2i سعر مصر, life p2i بطارية, life p2i مراجعة عربي, soundcore life p2i تطبيق, soundcore life p2i ألعاب',
             excerpt: 'Life P2i من Soundcore: المواصفات الكاملة + دليل عملي لضبط الـ EQ والـ Gaming Mode وفرق الـ Presets. كل اللي محتاج تعرفه في مكان واحد.',
             quickAnswer: 'Soundcore Life P2i لا تدعم تطبيق الهاتف، وتحتوي على وضعي صوت مدمجين بالهاردوير (Bass Mode و Podcast Mode). يمكنك التبديل بينهما بالضغط 3 مرات متتالية على السماعة اليمنى أو اليسرى. تأتي بدرايفر 10 مم وبطارية 8 ساعات.',
-            content: `<p>تعتبر سماعة Soundcore Life P2i من أنكر خياراً شهيراً جداً في السوق المصري ضمن الفئة الاقتصادية. ولكن هناك لبس كبير يحيط بهذه السماعة على الإنترنت ومجموعات الدعم الفني؛ حيث تشير بعض المراجعات بشكل خاطئ إلى دعمها لتطبيق الهاتف أو احتوائها على وضع للألعاب. في هذا الدليل الهندسي الصادق من فريق كايرو فولت، سنوضح لك المواصفات الحقيقية للسماعة، ونشرح لك كيف تتحكم في الصوت وتتنقل بين الأوضاع الصوتية المختلفة ميكانيكياً بدون الحاجة لتطبيق.</p>
+            content: `<p>تعتبر سماعة Soundcore Life P2i من انكر خياراً شهيراً جداً في السوق المصري ضمن الفئة الاقتصادية. ولكن هناك لبس كبير يحيط بهذه السماعة على الإنترنت ومجموعات الدعم الفني؛ حيث تشير بعض المراجعات بشكل خاطئ إلى دعمها لتطبيق الهاتف أو احتوائها على وضع للألعاب. في هذا الدليل الهندسي الصادق من فريق كايرو فولت، سنوضح لك المواصفات الحقيقية للسماعة، ونشرح لك كيف تتحكم في الصوت وتتنقل بين الأوضاع الصوتية المختلفة ميكانيكياً بدون الحاجة لتطبيق.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>الحقيقة الفنية لـ Life P2i:</strong> هذه السماعة <strong>لا تدعم تطبيق Soundcore</strong> على الموبايل نهائياً. وبدلاً من ذلك، قامت أنكر بدمج وضعي صوت (EQ) داخل شريحة الهاردوير الخاصة بالسماعة مباشرة (Bass Mode و Podcast Mode). يمكنك التبديل بينهما بسهولة عن طريق <strong>النقر ثلاث مرات متتالية (Triple Tap) على السماعة اليمنى أو اليسرى</strong>.
+        <strong>الحقيقة الفنية لـ Life P2i:</strong> هذه السماعة <strong>لا تدعم تطبيق Soundcore</strong> على الموبايل نهائياً. وبدلاً من ذلك، قامت انكر بدمج وضعي صوت (EQ) داخل شريحة الهاردوير الخاصة بالسماعة مباشرة (Bass Mode و Podcast Mode). يمكنك التبديل بينهما بسهولة عن طريق <strong>النقر ثلاث مرات متتالية (Triple Tap) على السماعة اليمنى أو اليسرى</strong>.
     </p>
 </div>
 
 <h2>المواصفات الفنية الحقيقية لـ Soundcore Life P2i</h2>
-<p>بعيداً عن الأرقام المغلوطة المنتشرة، إليك جدول المواصفات المادية والفيزيائية الدقيقة المأخوذة من اختبارات المعمل وعمليات التفكيك:</p>
+<p>بعيداً عن الأرقام المغلوطة المنتشرة، إليك جدول المواصفات من بيانات ساوندكور المعلنة وصفحة المنتج على كايرو فولت:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
@@ -67,12 +67,12 @@ export const anker_soundcore_life_p2i_specifications_audio_modes: BlogArticle = 
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">عمر بطارية السماعات</td>
             <td style="padding:12px;border:1px solid #d1d5db;">8 ساعات مستمرة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">في الاختبارات الفعلية المنشورة على مستوى صوت 70%، سجلت السماعة 7.5 ساعة شحن.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">في معمل كايرو فولت قسنا حوالي 7 ساعات و42 دقيقة للشحنة على مستوى صوت 50% (AAC).</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">بطارية علبة الشحن</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">28 ساعة إضافية (36 شحن إجمالي)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">العلبة تشحن السماعات بالكامل حوالي 3.5 شحنات إضافية.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حتى 28 ساعة إجمالي مع العلبة (حسب ساوندكور)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">يعني العلبة بتدّي حوالي 2.5 شحنة إضافية (تقديري: (28 − 8) ÷ 8)؛ وقسنا 26 ساعة و50 دقيقة إجمالي على صوت 50%.</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">الشحن السريع (Fast Charging)</td>
@@ -93,7 +93,7 @@ export const anker_soundcore_life_p2i_specifications_audio_modes: BlogArticle = 
 </table>
 
 <h2>أوضاع الصوت المدمجة (EQ Modes) — كيف تعمل؟</h2>
-<p>نظراً لغياب الدعم البرمجي، قامت أنكر بتخزين توقيعين صوتيين مختلفين تماماً داخل الذاكرة الثابتة (ROM) الخاصة بالسماعة. يمكنك التبديل بين هذين الوضعين عن طريق <strong>الضغط 3 مرات متتالية وسريعة على السماعة اليمنى أو اليسرى</strong>. ستسمع نغمة رنين قصيرة تشير إلى نجاح عملية التبديل:</p>
+<p>نظراً لغياب الدعم البرمجي، قامت انكر بتخزين توقيعين صوتيين مختلفين تماماً داخل الذاكرة الثابتة (ROM) الخاصة بالسماعة. يمكنك التبديل بين هذين الوضعين عن طريق <strong>الضغط 3 مرات متتالية وسريعة على السماعة اليمنى أو اليسرى</strong>. ستسمع نغمة رنين قصيرة تشير إلى نجاح عملية التبديل:</p>
 
 <h3>1. وضع الباس المرتفع (Bass Mode)</h3>
 <p>هذا هو الوضع الافتراضي للسماعة عند إخراجها من العلبة لأول مرة. يقوم هذا التعديل برفع استجابة الترددات المنخفضة (Low-End) بين 20 هرتز و 150 هرتز بشكل كبير. النتيجة هي صوت باسي ضخم يهتز بقوة، وهو مثالي جداً للاستماع إلى مهرجانات الشارع المصري، أغاني التراب، الموسيقى الإلكترونية، والروك الصاخب. الباس هنا يكون مسيطراً بشكل واضح على المشهد الصوتي.</p>
@@ -161,11 +161,11 @@ export const anker_soundcore_life_p2i_specifications_audio_modes: BlogArticle = 
     <li><strong>تجنب ترك السماعة في السيارات:</strong> ترتفع الحرارة داخل السيارات المغلقة في الصيف بمصر لتتجاوز 55 درجة، وهي درجة كافية للتسبب في انتفاخ بطارية الليثيوم وتدمير السماعة بالكامل.</li>
 </ul>
 
-<h2>الضمان المكتوب وخدمات الصيانة والدعم الفني في مصر</h2>
-<p>يحظى مشترو الموديل Life P2i في مصر بضمان استثنائي يمتد لـ 18 شهراً مكتوب من المتجر، والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول طلب الاستبدال الخاص بجهازك.</p>
-<p>ملاحظة هامة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن بنفسك. كما يوصى بالتحقق من ملصق الضمان الفضي الموجود على كرتونة المنتج للتأكد من البائع المسؤول عن التغطية.</p>
+<h2>ضمان كايرو فولت المكتوب والدعم الفني في مصر</h2>
+<p>سماعة Life P2i على كايرو فولت بتيجي بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) ضد عيوب التصنيع زي مشاكل البطارية أو الاتصال. احتفظ بالفاتورة وكرتونة المنتج اللي عليها الرقم التسلسلي (Serial Number) عشان طلب الضمان. وحسب سياسة الاسترجاع: الاسترجاع خلال 14 يوم من الاستلام، والسماعات المفتوحة أو المستخدمة مش بتترجع لأسباب صحية.</p>
+<p>ملاحظة هامة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن بنفسك. وكايرو فولت متجر مستقل، والضمان هنا ضمان المتجر المكتوب.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 تصفح عروض سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">قارن الأسعار واختر الأنسب لك: <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a> · <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P25i التوأم</a> · <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">سماعة Soundcore Life P2i الكلاسيكية</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 تصفح سماعات ساوندكور بضمان كايرو فولت المكتوب:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">قارن الأسعار واختر الأنسب لك: <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i</a> · <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P25i (نفس موديل P20i باسم إقليمي)</a> · <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">سماعة Soundcore Life P2i الكلاسيكية</a>.</p></div>` ,
             faq: [
                 {
                     question: 'هل تدعم سماعة Soundcore Life P2i تطبيق الموبايل؟',
@@ -201,7 +201,7 @@ export const anker_soundcore_life_p2i_specifications_audio_modes: BlogArticle = 
 </div>
 
 <h2>Actual Soundcore Life P2i Specifications</h2>
-<p>To cut through the marketing noise, here are the real hardware and physical specs verified through laboratory testing and teardowns:</p>
+<p>To cut through the marketing noise, here are the specs from Soundcore\'s published listing and the CairoVolt product page:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
@@ -225,12 +225,12 @@ export const anker_soundcore_life_p2i_specifications_audio_modes: BlogArticle = 
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud Battery Runtime</td>
             <td style="padding:12px;border:1px solid #d1d5db;">8 hours continuous playback</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Tested at 70% volume, delivering approximately 7.5 hours of real battery life.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">On the CairoVolt bench we measured about 7h 42min per charge at 50% volume (AAC).</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Charging Case Battery</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">28 extra hours (36 hours total)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">The case recharges the earbuds completely up to 3.5 times.</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Up to 28 hours total with the case (per Soundcore)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">So the case adds about 2.5 extra charges (est.: (28 − 8) ÷ 8); we measured 26h 50min total at 50% volume.</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Fast Charging Support</td>
@@ -320,11 +320,11 @@ export const anker_soundcore_life_p2i_specifications_audio_modes: BlogArticle = 
     <li><strong>Avoid Leaving Earbuds in Hot Cars:</strong> Temperatures inside locked cars during Egyptian summers can exceed 55°C, causing lithium batteries to swell and destroying the internal electronics.</li>
 </ul>
 
-<h2>Official Local Warranty and Technical Support in Egypt</h2>
-<p>Buyers of the Model Life P2i in Egypt receive a comprehensive 18-month warranty from the authorized local distributor. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or connection failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim at official service centers.</p>
-<p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. Always cross-check the localized silver warranty sticker on the retail packaging to identify the exact local distributor responsible for servicing your product.</p>
+<h2>CairoVolt store warranty and support in Egypt</h2>
+<p>The Life P2i on CairoVolt comes with CairoVolt's written store warranty (duration shown on each product page) against manufacturing defects such as battery or connection faults. Keep the invoice and the original box with the printed Serial Number for your warranty claim. Under the return policy, returns are accepted within 14 days from delivery; opened or used earbuds and audio products are not returnable for hygiene reasons.</p>
+<p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. CairoVolt is an independent retailer, and this is the store's own written warranty.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore models at CairoVolt: <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i (Square Case)</a> · <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P25i (Twin Model)</a> · <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Soundcore Life P2i (Classic Shape)</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related products with CairoVolt's written store warranty:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Soundcore models at CairoVolt: <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> · <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P25i (same model as the P20i under a regional name)</a> · <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Soundcore Life P2i (Classic Shape)</a>.</p></div>` ,
             faq: [
                 {
                     question: 'Does the Soundcore Life P2i support the companion app?',

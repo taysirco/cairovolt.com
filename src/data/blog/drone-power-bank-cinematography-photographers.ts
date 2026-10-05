@@ -4,7 +4,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     slug: 'drone-power-bank-cinematography-photographers',
     category: 'buying-guide',
     publishDate: '2026-06-19',
-    modifiedDate: '2026-06-19',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         "anker-powercore-26800",
@@ -27,14 +27,14 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
             metaDescription: 'دليل عملي لاختيار باور بانك لمصوري الدرون: حدود السعة المسموح بها في الطيران، شحن الريموت والموبايل في الفيلد، والتجهيز لجلسة تصوير بدون كهرباء.',
             keywords: 'باور بانك درون, باور بانك مصور, شحن ريموت درون, باور بانك طيران مسموح, power bank drone, باور بانك DJI, شحن درون في الصحراء, باور بانك تصوير سينمائي',
             excerpt: 'مصور الدرون محتاج يفهم حدود السعة المسموح بها في الطيران ويختار باور بانك يشحن الريموت والموبايل — مش الدرون نفسه.',
-            quickAnswer: 'الباور بانك مش بيشحن بطارية الدرون (محتاجة شاحن مخصص بجهد عالي). لكنه ضروري لشحن ريموت التحكم (بيفضي في 2-3 ساعات) والموبايل/التابلت (بيفضي أسرع مع شاشة مفتوحة + بث مباشر). للطيران: الحد الأقصى 100Wh بدون إذن (27,000mAh تقريباً). ترشيحنا: انكر PowerCore 20,000mAh (74Wh — 1,550ج) — تحت حد الطيران بأمان + بيشحن الريموت مرتين + الموبايل 3 مرات. لو بتشتغل يوم كامل بدون كهرباء: انكر 26,800mAh (96.5Wh — لسه تحت الـ 100Wh).',
+            quickAnswer: 'الباور بانك مش بيشحن بطارية الدرون (محتاجة شاحن مخصص)، لكنه بيشحن ريموت التحكم والموبايل. وفي الطيارة الحد 100Wh من غير موافقة شركة الطيران. ترشيحنا انكر PowerCore 20,000mAh (72Wh) بسعر {{price:anker-powercore-20000}} جنيه، ولجلسة يوم كامل انكر PowerCore III Elite 25,600mAh (A1290) بسعة 94.72Wh.',
             content: `<p>لو إنت مصور درون — سواء هاوي بيصور رحلاته أو محترف بيشتغل في تصوير عقاري أو إعلانات أو أفلام وثائقية — فإنت عارف إن أكبر عدو ليك مش الرياح أو القوانين (رغم إنهم مزعجين). أكبر عدو هو البطارية. بطارية الدرون بتعيش 20-45 دقيقة بس في الطيرة الواحدة. ريموت التحكم بيفضي في 2-3 ساعات. والموبايل اللي بيعرض البث المباشر من الكاميرا بيستهلك 20-25% في الساعة. يعني في جلسة تصوير 4-5 ساعات في الصحراء أو على الشاطئ — كل حاجة بتموت وإنت لسه في نص الشغل.</p>
 
 <p>المقال ده مش عن شحن الدرون نفسه — ده محتاج شاحن مخصص بجهد عالي (12-17V حسب الموديل) ومفيش باور بانك عادي يقدر يعمل ده. المقال عن الحاجات التانية اللي بتموت في أسوأ وقت: الريموت، الموبايل، التابلت، الشاشة الخارجية. ودي الحاجات اللي باور بانك كويس بيحل مشكلتها تماماً. كمان هنشرح قواعد الطيران المتعلقة بسعة الباور بانك — لأن ده بيأثر على اختيارك لو بتسافر بالطيارة لمواقع التصوير.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> الباور بانك مش بيشحن بطارية الدرون — بس بيشحن الريموت والموبايل. للطيران: الحد <strong>100Wh</strong> بدون إذن. <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (74Wh — 1,550ج) الخيار المثالي. لجلسة يوم كامل: <a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb;font-weight:600;">انكر PowerCore 26,800mAh</a> (96.5Wh — لسه تحت حد الـ 100Wh).
+        <strong>💡 الإجابة السريعة:</strong> الباور بانك مش بيشحن بطارية الدرون — بس بيشحن الريموت والموبايل. للطيران: الحد <strong>100Wh</strong> بدون إذن. <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (72Wh — {{price:anker-powercore-20000}}ج) الخيار المثالي. لجلسة يوم كامل: <a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb;font-weight:600;">انكر PowerCore III Elite 25,600mAh (A1290)</a> (94.72Wh — لسه تحت حد الـ 100Wh).
     </p>
 </div>
 
@@ -45,7 +45,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>الجهد مختلف تماماً:</strong> بطارية DJI Mini 4 Pro مثلاً (2S LiPo) جهدها 7.38V وبتحتاج شاحن بجهد 12V+. بطارية DJI Mavic 3 (4S LiPo) جهدها 15.4V وبتحتاج شاحن 17V. الباور بانك بيدّي 5V (USB-A) أو 5-20V (USB-C PD). يعني حتى USB-C PD بأقصى جهد (20V) مش بيكفي لكل الموديلات.</li>
     <li style="margin-bottom:12px;">🔋 <strong>بروتوكول الشحن مخصص:</strong> شحن بطاريات LiPo بيحتاج بروتوكول CC/CV (Constant Current / Constant Voltage) دقيق جداً مع موازنة الخلايا (cell balancing). الشاحن الأصلي بيعمل ده — الباور بانك لا. شحن LiPo غلط = خطر حريق أو انفجار.</li>
-    <li style="margin-bottom:12px;">📊 <strong>السعة مش كافية:</strong> حتى لو قدرت تشحن — بطارية DJI Mavic 3 سعتها 77Wh. يعني باور بانك 20,000mAh (74Wh) مش هيملاها ولا مرة واحدة بعد حساب كفاءة التحويل (60-70%). مش عملي.</li>
+    <li style="margin-bottom:12px;">📊 <strong>السعة مش كافية:</strong> حتى لو قدرت تشحن — بطارية DJI Mavic 3 سعتها 77Wh. يعني باور بانك 20,000mAh (72Wh) مش هيملاها ولا مرة واحدة بعد حساب كفاءة التحويل (60-70%). مش عملي.</li>
 </ul>
 
 <p><strong>الحل الحقيقي لشحن بطاريات الدرون في الفيلد:</strong> محطة طاقة متنقلة مع مخرج AC (زي <a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> — 256Wh) + الشاحن الأصلي. بتوصل الشاحن الأصلي بالمحطة وبتشحن البطاريات بأمان. محطة 256Wh بتشحن 3 بطاريات DJI Mini أو بطارية ونص DJI Mavic 3. ده الحل للمصورين المحترفين اللي بيشتغلوا يوم كامل بعيد عن الكهرباء.</p>
@@ -108,9 +108,9 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
 <p>الموضوع ده مهم بشكل خاص لمصوري الدرون لأنك غالباً بتحمل بطاريات الدرون نفسها (كل واحدة 30-80Wh) + الباور بانك + بطارية اللابتوب. لازم تحسب المجموع وتتأكد إنك متجاوزتش الحدود. شركات الطيران المصرية (مصر للطيران والنيل وإير كايرو) بتطبق نفس القواعد الدولية.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 ليه انكر PowerCore 26,800mAh خيار ذكي للمصورين</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 ليه انكر PowerCore III Elite 25,600mAh (A1290) خيار ذكي للمصورين</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        <a href="/anker/power-banks/anker-powercore-26800" style="color:#059669;font-weight:600;">انكر PowerCore 26,800mAh</a> سعته 96.5Wh — أقل من حد الـ 100Wh بفارق آمن. يعني بتاخده معاك في أي طيارة في العالم بدون إذن مسبق وبدون أسئلة. وفي نفس الوقت بيدي أعلى سعة ممكنة تحت الحد القانوني. ده بالضبط ليه المصورين المحترفين بيحبوه — أقصى طاقة بدون مشاكل في المطار.
+        <a href="/anker/power-banks/anker-powercore-26800" style="color:#059669;font-weight:600;">انكر PowerCore III Elite 25,600mAh (A1290)</a> سعته 94.72Wh — أقل من حد الـ 100Wh بفارق آمن. يعني مسموح في حقيبة اليد من غير موافقة مسبقة حسب قواعد FAA و IATA — بس راجع شركة الطيران، لأن بعضها أشد (طيران الإمارات منعت استخدام أي باور بانك على الطيارة من 1 أكتوبر 2025). وفي نفس الوقت سعته قريبة من الحد ده، فبيديك طاقة كبيرة وهو لسه تحته.
     </p>
 </div>
 
@@ -167,22 +167,22 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">هاوي (جلسة 1-2 ساعة)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;">انكر زولو 10,000mAh</a> (750ج)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">خفيف (185ج) — كفاية للريموت + موبايل</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;">انكر زولو 10,000mAh</a> ({{price:anker-zolo-a110d-10000}}ج)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">خفيف ({{price:anker-zolo-a110d-10000}}ج) — كفاية للريموت + موبايل</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">محترف (جلسة 4-6 ساعات)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;">انكر PowerCore 20,000mAh</a> (1,550ج)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">74Wh — تحت حد الطيران + يوم كامل</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;">انكر PowerCore 20,000mAh</a> ({{price:anker-powercore-20000}}ج)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">72Wh — تحت حد الطيران + يوم كامل</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">محترف يسافر بالطيران</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb;">انكر PowerCore 26,800mAh</a></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">96.5Wh — أقصى سعة تحت 100Wh</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb;">انكر PowerCore III Elite 25,600mAh (A1290)</a></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">94.72Wh — قريبة من حد 100Wh ومن غير ما تعدّيه</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">فريق إنتاج (يوم كامل)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;">انكر 521 PowerHouse</a> (5,500ج)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;">انكر 521 PowerHouse</a> ({{price:anker-521-powerhouse}}ج)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">256Wh + مخرج AC لشحن بطاريات الدرون</td>
     </tr>
     </tbody>
@@ -191,7 +191,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ اشحن تصويرك من كايرو فولت — بضمان المتجر المكتوب</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل باور بانكات المصورين متاحة بضمان <strong>المتجر المكتوب 18 شهر</strong> + توصيل لكل المحافظات. تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
+        كل باور بانكات المصورين متاحة بـ<strong>ضمان كايرو فولت المكتوب</strong> (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات. تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
     </p>
 </div>`,
             faq: [
@@ -201,7 +201,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
                 },
                 {
                     question: 'إيه أقصى سعة باور بانك مسموح بيها في الطيران؟',
-                    answer: 'أقل من 100Wh (حوالي 27,000mAh): مسموح بدون إذن في حقيبة اليد. من 100 لـ 160Wh: محتاج إذن مسبق من شركة الطيران. أكتر من 160Wh: ممنوع تماماً. انكر PowerCore 26,800mAh (96.5Wh) هو أعلى سعة تحت الحد القانوني.',
+                    answer: 'أقل من 100Wh (حوالي 27,000mAh): مسموح بدون إذن في حقيبة اليد. من 100 لـ 160Wh: محتاج إذن مسبق من شركة الطيران. أكتر من 160Wh: ممنوع تماماً. انكر PowerCore III Elite 25,600mAh (A1290) (94.72Wh) من أعلى السعات تحت الحد القانوني.',
                 },
                 {
                     question: 'كام ساعة باور بانك 20,000mAh بيشغل ريموت الدرون؟',
@@ -219,14 +219,14 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
             metaDescription: 'Practical guide to choosing a power bank for drone photographers: airline capacity limits, charging the controller and phone in the field, and preparing for ...',
             keywords: 'power bank drone, power bank photographer, drone controller charging, flight legal power bank, power bank DJI, drone desert charging, cinematography power bank, drone field charging',
             excerpt: 'Drone photographers need to understand flight-legal capacity limits and choose a power bank that charges the controller and phone — not the drone itself.',
-            quickAnswer: 'A power bank cannot charge the drone battery (requires a dedicated high-voltage charger). But it\'s essential for charging the remote controller (dies in 2-3 hours) and phone/tablet (drains faster with screen on + live feed). For flights: maximum 100Wh without airline approval (~27,000mAh). Our pick: Anker PowerCore 20,000mAh (74Wh — 1,550 EGP) — safely under the flight limit + charges the controller twice + phone 3 times. For full-day shoots: Anker 26,800mAh (96.5Wh — still under 100Wh).',
+            quickAnswer: 'A power bank cannot charge the drone battery (it needs a dedicated charger), but it charges the controller and phone. On flights, the limit is 100Wh without airline approval. Our pick is the Anker PowerCore 20,000mAh (72Wh) at EGP {{price:anker-powercore-20000}}; for full-day shoots, the Anker PowerCore III Elite 25,600mAh (A1290) at 94.72Wh.',
             content: `<p>If you're a drone photographer — whether a hobbyist filming trips or a professional working in real estate, advertising, or documentary filmmaking — you know that your biggest enemy isn't the wind or regulations (though they're annoying). Your biggest enemy is battery life. The drone battery lasts only 20-45 minutes per flight. The remote controller dies in 2-3 hours. And the phone displaying the live camera feed drains at 20-25% per hour. During a 4-5 hour shoot in the desert or at the beach — everything dies while you're still in the middle of work.</p>
 
 <p>This article isn't about charging the drone itself — that requires a dedicated high-voltage charger (12-17V depending on the model) and no regular power bank can do that. This article is about everything else that dies at the worst moment: the controller, phone, tablet, external monitor. These are exactly what a good power bank solves completely. We'll also explain flight regulations related to power bank capacity — because this affects your choice if you fly to shooting locations.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> A power bank can't charge the drone battery — but it charges the controller and phone. For flights: the limit is <strong>100Wh</strong> without prior approval. <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (74Wh — 1,550 EGP) is the ideal choice. For full-day shoots: <a href="/en/anker/power-banks/anker-powercore-26800" style="color:#2563eb;font-weight:600;">Anker PowerCore 26,800mAh</a> (96.5Wh — still under the 100Wh limit).
+        <strong>💡 Quick Answer:</strong> A power bank can't charge the drone battery — but it charges the controller and phone. For flights: the limit is <strong>100Wh</strong> without prior approval. <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (72Wh — EGP {{price:anker-powercore-20000}}) is the ideal choice. For full-day shoots: <a href="/en/anker/power-banks/anker-powercore-26800" style="color:#2563eb;font-weight:600;">Anker PowerCore III Elite 25,600mAh (A1290)</a> (94.72Wh — still under the 100Wh limit).
     </p>
 </div>
 
@@ -237,7 +237,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>Completely different voltage:</strong> A DJI Mini 4 Pro battery (2S LiPo) runs at 7.38V and needs a 12V+ charger. A DJI Mavic 3 battery (4S LiPo) runs at 15.4V and needs a 17V charger. A power bank outputs 5V (USB-A) or 5-20V (USB-C PD). Even USB-C PD at maximum voltage (20V) isn't sufficient for all models.</li>
     <li style="margin-bottom:12px;">🔋 <strong>Proprietary charging protocol:</strong> LiPo battery charging requires a precise CC/CV (Constant Current / Constant Voltage) protocol with cell balancing. The original charger does this — a power bank doesn't. Incorrect LiPo charging = fire or explosion risk.</li>
-    <li style="margin-bottom:12px;">📊 <strong>Insufficient capacity:</strong> Even if you could charge it — a DJI Mavic 3 battery is 77Wh. A 20,000mAh power bank (74Wh) can't fill it even once after accounting for conversion efficiency (60-70%). Not practical.</li>
+    <li style="margin-bottom:12px;">📊 <strong>Insufficient capacity:</strong> Even if you could charge it — a DJI Mavic 3 battery is 77Wh. A 20,000mAh power bank (72Wh) can't fill it even once after accounting for conversion efficiency (60-70%). Not practical.</li>
 </ul>
 
 <p><strong>The real solution for field charging drone batteries:</strong> A portable power station with AC output (like the <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> — 256Wh) + the original charger. Connect the original charger to the station and charge batteries safely. A 256Wh station charges 3 DJI Mini batteries or 1.5 DJI Mavic 3 batteries. This is the solution for professional photographers working full days away from power.</p>
@@ -300,9 +300,9 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
 <p>This is especially important for drone photographers because you're typically carrying the drone batteries themselves (each 30-80Wh) + the power bank + laptop battery. You need to calculate the total and ensure you haven't exceeded the limits. Egyptian airlines (EgyptAir, Nile Air, and Air Cairo) enforce the same international regulations.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 Why Anker PowerCore 26,800mAh Is a Smart Choice for Photographers</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 Why Anker PowerCore III Elite 25,600mAh (A1290) Is a Smart Choice for Photographers</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        The <a href="/en/anker/power-banks/anker-powercore-26800" style="color:#059669;font-weight:600;">Anker PowerCore 26,800mAh</a> has a capacity of 96.5Wh — under the 100Wh limit by a safe margin. This means you can take it on any flight worldwide without prior approval and without questions. At the same time, it provides the maximum possible capacity below the legal threshold. This is exactly why professional photographers love it — maximum power with zero airport hassle.
+        The <a href="/en/anker/power-banks/anker-powercore-26800" style="color:#059669;font-weight:600;">Anker PowerCore III Elite 25,600mAh (A1290)</a> has a capacity of 94.72Wh — under the 100Wh limit by a safe margin. This means it is allowed in carry-on without prior approval under FAA and IATA rules — but check your airline, because some are stricter (Emirates has banned using any power bank onboard since 1 October 2025). At the same time, its capacity sits close to that threshold, so you get substantial energy while staying under it.
     </p>
 </div>
 
@@ -359,31 +359,31 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Hobbyist (1-2 hour session)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;">Anker ZOLO 10,000mAh</a> (750 EGP)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;">Anker ZOLO 10,000mAh</a> ({{price:anker-zolo-a110d-10000}} EGP)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">Lightweight (185g) — enough for controller + phone</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Professional (4-6 hour session)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;">Anker PowerCore 20,000mAh</a> (1,550 EGP)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">74Wh — under flight limit + full day</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;">Anker PowerCore 20,000mAh</a> ({{price:anker-powercore-20000}} EGP)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">72Wh — under flight limit + full day</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Travel professional</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-powercore-26800" style="color:#2563eb;">Anker PowerCore 26,800mAh</a></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">96.5Wh — max capacity under 100Wh</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-powercore-26800" style="color:#2563eb;">Anker PowerCore III Elite 25,600mAh (A1290)</a></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">94.72Wh — close to, but under, the 100Wh limit</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Production team (full day)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;">Anker 521 PowerHouse</a> (5,500 EGP)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;">Anker 521 PowerHouse</a> ({{price:anker-521-powerhouse}} EGP)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">256Wh + AC output for drone batteries</td>
     </tr>
     </tbody>
 </table>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Power Your Shoots from CairoVolt — With Authorized Warranty</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Power Your Shoots from CairoVolt — With CairoVolt's Written Store Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All photographer power banks are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates. Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
+        All photographer power banks are covered by <strong>CairoVolt's written store warranty</strong> (duration shown on each product page) + delivery to all governorates. Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
     </p>
 </div>`,
             faq: [
@@ -393,7 +393,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
                 },
                 {
                     question: 'What is the maximum power bank capacity allowed on flights?',
-                    answer: 'Under 100Wh (approximately 27,000mAh): allowed without approval in carry-on luggage. 100-160Wh: requires prior airline approval. Over 160Wh: completely prohibited. Anker PowerCore 26,800mAh (96.5Wh) is the highest capacity under the legal limit.',
+                    answer: 'Under 100Wh (approximately 27,000mAh): allowed without approval in carry-on luggage. 100-160Wh: requires prior airline approval. Over 160Wh: completely prohibited. Anker PowerCore III Elite 25,600mAh (A1290) (94.72Wh) is among the highest capacities under the legal limit.',
                 },
                 {
                     question: 'How long does a 20,000mAh power bank run a drone controller?',

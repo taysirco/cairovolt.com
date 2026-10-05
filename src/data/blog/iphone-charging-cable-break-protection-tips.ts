@@ -4,13 +4,13 @@ export const iphone_charging_cable_break_protection_tips: BlogArticle = {
     slug: 'iphone-charging-cable-break-protection-tips',
     category: 'tips',
     publishDate: '2026-07-09T14:00:00+02:00',
-    modifiedDate: '2026-07-09T14:00:00+02:00',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'anker-powerline-usb-c-lightning',
         'anker-usb-c-lightning-sureistrong',
         'anker-a8050-usb-c-cable',
-        'anker-a2741-charger-30w',
+        'anker-a2147-gan-charger-30w',
         'anker-powerport-20w',
     ],
     relatedArticles: [
@@ -160,10 +160,10 @@ export const iphone_charging_cable_break_protection_tips: BlogArticle = {
 
 <h2>كابلات Anker MFi المتوفرة على كايرو فولت</h2>
 
-<p>على <a href="/anker/cables">كايرو فولت</a> بنتوفر كابلات Anker المعتمدة MFi بضمان كايرو فولت المكتوب لمدة 18 شهر. السعر أغلى من الكابلات الرخيصة بـ 50-100 جنيه، بس بيعيش أكتر من 5 أضعاف.</p>
+<p>على <a href="/anker/cables">كايرو فولت</a> بنوفر كابلات انكر (راجع شهادة MFi لكابلات Lightning في صفحة كل منتج) بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). السعر أعلى من الكابلات الرخيصة، بس عمرها المتوقع أطول بكتير.</p>
 
 <div class="expert-callout" style="background: #f0f7ff; border: 1px solid #3b82f6; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
-<strong>حساب بسيط:</strong> كابل رخيص بـ 50 جنيه كل 3 شهور = 200 جنيه في السنة. كابل Anker PowerLine بـ 200-250 جنيه بيدوم 2-3 سنين = 80-100 جنيه في السنة. يعني الكابل "الغالي" في الحقيقة أرخص.
+<strong>حساب بسيط:</strong> كابل رخيص بـ 50 جنيه بتغيّره كل كام شهر بيتراكم تمنه بسرعة. قارنه بكابل كويس بيعيش سنين زي <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb;">انكر PowerLine USB-C to Lightning</a> بـ {{price:anker-powerline-usb-c-lightning}} جنيه — احسب تكلفة السنة على حسب عدد المرات اللي بتغيّر فيها الكابل.
 </div>
 
 <h2>خلاصة الـ 7 طرق</h2>
@@ -237,9 +237,9 @@ export const iphone_charging_cable_break_protection_tips: BlogArticle = {
 
 <h2>هل ممكن أصلّح كابل بدأ يتلف؟</h2>
 
-<p>لو العازل بدأ يتشقق بس الكابل لسه بيشتغل — ممكن تحطّ شريط حراري (heat shrink tubing) على المنطقة المتضررة كحل مؤقت. الشريط بيتقلّص بالحرارة وبيعمل عزل جديد متين. بس لو الشحن بدأ يقطع ويرجع أو بطيء — الأسلاك الداخلية اتلفت وده خطر على بطارية الموبايل. في الحالة دي استبدله فوراً — كابل Anker بـ 570 جنيه أرخص بكتير من تغيير بطارية ايفون بـ 3,000+ جنيه.</p>
+<p>لو العازل بدأ يتشقق بس الكابل لسه بيشتغل — ممكن تحطّ شريط حراري (heat shrink tubing) على المنطقة المتضررة كحل مؤقت. الشريط بيتقلّص بالحرارة وبيعمل عزل جديد متين. بس لو الشحن بدأ يقطع ويرجع أو بطيء — الأسلاك الداخلية اتلفت وده خطر على بطارية الموبايل. في الحالة دي استبدله فوراً — كابل انكر جديد أرخص بكتير من تغيير بطارية ايفون (آلاف الجنيهات حسب الموديل والمكان).</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">معدات شحن ذات صلة: <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a>.</p></div>`,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">معدات شحن ذات صلة: <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a>.</p></div>`,
         },
         en: {
             title: 'iPhone Charging Cable Breaking at the End? 7 Practical Tips to Double Its Lifespan',
@@ -364,7 +364,7 @@ export const iphone_charging_cable_break_protection_tips: BlogArticle = {
 <h2>Simple Math: Is a Quality Cable Actually Cheaper?</h2>
 
 <div class="expert-callout" style="background: #f0f7ff; border: 1px solid #3b82f6; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
-<strong>Cost comparison:</strong> Cheap cable at ~50 EGP every 3 months = ~200 EGP/year. Anker PowerLine MFi at ~200-250 EGP lasting 2-3 years = ~80-100 EGP/year. The "expensive" cable is actually 50% cheaper per year of use.
+<strong>Cost comparison:</strong> a cheap ~50 EGP cable you replace every few months adds up quickly. Compare it with a quality cable that lasts years, such as the <a href="/en/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb;">Anker PowerLine USB-C to Lightning</a> at {{price:anker-powerline-usb-c-lightning}} EGP — work out the yearly cost from how often you replace your cable.
 </div>
 
 <h2>Summary: All 7 Tips at a Glance</h2>
@@ -438,9 +438,9 @@ export const iphone_charging_cable_break_protection_tips: BlogArticle = {
 
 <h2>Can You Repair a Fraying Cable?</h2>
 
-<p>If just the outer insulation is cracking but the cable still works — you can apply heat shrink tubing over the damaged area as a temporary fix. The tubing contracts with heat and creates a new, durable insulation layer. But if charging becomes intermittent or slow — the internal wires are damaged and this is a safety hazard for your phone's battery. Replace immediately — an Anker cable at 570 EGP is far cheaper than an iPhone battery replacement at 3,000+ EGP.</p>
+<p>If just the outer insulation is cracking but the cable still works — you can apply heat shrink tubing over the damaged area as a temporary fix. The tubing contracts with heat and creates a new, durable insulation layer. But if charging becomes intermittent or slow — the internal wires are damaged and this is a safety hazard for your phone's battery. Replace immediately — a new Anker cable is far cheaper than an iPhone battery replacement (thousands of EGP depending on model and service centre).</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Related charging gear: <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a>.</p></div>`,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Related charging gear: <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a>.</p></div>`,
         },
     },
 };

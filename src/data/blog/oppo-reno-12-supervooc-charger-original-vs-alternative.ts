@@ -4,10 +4,10 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
     slug: 'oppo-reno-12-supervooc-charger-original-vs-alternative',
     category: 'buying-guide',
     publishDate: '2026-06-15',
-    modifiedDate: '2026-06-15',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
-        'anker-a2741-charger-30w',
+        'anker-a2147-gan-charger-30w',
         'anker-powerport-20w',
         'joyroom-30w-fast-charger',
         'anker-powerline-usb-c-usb-c',
@@ -16,7 +16,7 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
     relatedArticles: [
         'samsung-galaxy-a55-a75-charger-affordable-alternatives',
         'xiaomi-redmi-note-14-accessories-students-budget',
-        '20w-30w-45w-65w-100w-charger-which-you-need',
+        '20w-30w-45w-65w-100w-charger-which-you-need'
     ],
     relatedCategories: ['Anker/wall-chargers', 'Joyroom/wall-chargers'],
     coverImage: '/images/blog/posts/oppo-reno-12-supervooc-charger-original-vs-alternative.webp',
@@ -27,16 +27,16 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
             metaDescription: 'دليل شامل لأفضل شاحن Oppo Reno 12 و Find X في مصر 2026 — مقارنة بين شاحن SuperVOOC الأصلي وبدائل Anker و Joyroom. هل البديل بيشحن بنفس السرعة؟ الإجابة بالأرقام.',
             keywords: 'شاحن اوبو أصلي, شاحن supervooc, بديل شاحن oppo, شاحن اوبو رينو 12, أفضل شاحن oppo مصر, supervooc vs pd, شاحن 80 واط اوبو, هل شاحن انكر يشحن اوبو',
             excerpt: 'هل شاحن SuperVOOC الأصلي يستاهل فلوسه ولا البديل بيدي نفس الأداء؟ مقارنة بالأرقام والاختبار الحقيقي على Oppo Reno 12.',
-            quickAnswer: 'شاحن SuperVOOC الأصلي (80W) بـ 700-900 جنيه هو الأسرع فعلاً — بيشحن Oppo Reno 12 من 0 لـ 50% في 15 دقيقة. لكن البدائل PD بتشحنه بـ 30W فقط (0→50% في 28 دقيقة). السبب: SuperVOOC بروتوكول مغلق خاص بـ Oppo مش زي PD المفتوح. لو السرعة القصوى مهمة ليك — الأصلي يستاهل. لو مش فارق معاك 13 دقيقة — Anker 30W بـ 500 جنيه بيوفرلك 400 جنيه.',
+            quickAnswer: 'شاحن SuperVOOC الأصلي (80W) هو الأسرع فعلاً لـ Oppo Reno 12: من 0 لـ 50% في حوالي 15 دقيقة، وسعره في حدود 700-900 جنيه (نطاق سوق تقريبي ويختلف حسب البائع). البدائل PD بتشحنه بحوالي 30W (0→50% في حوالي 28 دقيقة) لأن SuperVOOC بروتوكول مغلق. لو الفرق ده مش فارق معاك، انكر Nano 3 30W بـ {{price:anker-a2147-gan-charger-30w}} جنيه بديل عملي.',
             content: `<p>Oppo من أكتر الشركات اللي بتسوّق لسرعة الشحن — وفعلاً SuperVOOC تقنية مبهرة. Oppo Reno 12 بيتشحن من 0 لـ 100% في 46 دقيقة بشاحن 80W الأصلي. ده أسرع من أي iPhone أو Samsung في نفس الفئة السعرية. لكن السؤال اللي كل واحد اشترى Oppo بيسأله: "لو الشاحن الأصلي اتكسر أو ضاع — أشتري أصلي تاني بـ 700-900 جنيه ولا بديل أرخص؟"</p>
 
 <p>الإجابة هنا <strong>مختلفة تماماً</strong> عن إجابتنا مع سامسونج أو شاومي. مع سامسونج قلنا "البديل نفس الأداء بالظبط" — لأن سامسونج بيستخدم PD+PPS وده بروتوكول مفتوح. لكن Oppo مختلفة: SuperVOOC بروتوكول <strong>مغلق وخاص بـ Oppo/OnePlus فقط</strong>. يعني أي شاحن بديل مش هيقدر يوصل لسرعة SuperVOOC — هيشحن بالبروتوكول العالمي PD وبس. وده فرق حقيقي.</p>
 
-<p>في المقال ده هنشرحلك بالتفصيل: إيه الفرق الحقيقي بالدقايق؟ هل الفرق ده يستاهل 400 جنيه زيادة؟ وإيه أفضل بديل لو قررت توفر؟</p>
+<p>في المقال ده هنشرحلك بالتفصيل: إيه الفرق الحقيقي بالدقايق؟ هل الفرق ده يستاهل السعر الأعلى؟ وإيه أفضل بديل لو قررت توفر؟</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> شاحن SuperVOOC الأصلي (80W) بـ 700-900 جنيه هو الأسرع فعلاً — بيشحن Oppo Reno 12 من 0 لـ 50% في 15 دقيقة. لكن البدائل PD بتشحنه بـ 30W فقط (0→50% في 28 دقيقة). لو السرعة القصوى مهمة ليك — الأصلي يستاهل. لو مش فارق معاك 13 دقيقة — Anker 30W بـ 500 جنيه بيوفرلك 400 جنيه.
+        <strong>💡 الإجابة السريعة:</strong> شاحن SuperVOOC الأصلي (80W) هو الأسرع فعلاً لـ Oppo Reno 12: من 0 لـ 50% في حوالي 15 دقيقة، وسعره في حدود 700-900 جنيه (نطاق سوق تقريبي ويختلف حسب البائع). البدائل PD بتشحنه بحوالي 30W (0→50% في حوالي 28 دقيقة) لأن SuperVOOC بروتوكول مغلق. لو الفرق ده مش فارق معاك، انكر Nano 3 30W بـ {{price:anker-a2147-gan-charger-30w}} جنيه بديل عملي.
     </p>
 </div>
 
@@ -93,9 +93,9 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
     <tbody>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">السعر</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">700-900 ج</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">500 ج</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">350 ج</td>
+        <td style="padding:10px;border:1px solid #d1d5db;">700-900 ج (نطاق سوق تقريبي)</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">{{price:anker-a2147-gan-charger-30w}} ج</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">{{price:joyroom-30w-fast-charger}} ج</td>
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">البروتوكول مع Oppo</td>
@@ -123,9 +123,9 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">ضمان</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">12 شهر</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">18 شهر</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">18 شهر</td>
+        <td style="padding:10px;border:1px solid #d1d5db;">12 شهر (أوبو)</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">ضمان كايرو فولت المكتوب</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">ضمان كايرو فولت المكتوب</td>
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">بيشحن أجهزة تانية بنفس السرعة؟</td>
@@ -139,7 +139,7 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #f59e0b;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#f59e0b;font-weight:bold;">⚠️ نقطة مهمة عن SuperVOOC</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        على عكس سامسونج وشاومي، شاحن Oppo الأصلي <strong>أسرع فعلاً بفارق كبير</strong> عن أي بديل (80W vs 30W = ضعف السرعة تقريباً). ده مش رأي — ده حقيقة تقنية بسبب البروتوكول المغلق. فقرار الشراء هنا بيعتمد على: هل الـ 13 دقيقة الفرق في 0→50% تستاهل 200-550 جنيه زيادة؟
+        على عكس سامسونج وشاومي، شاحن Oppo الأصلي <strong>أسرع فعلاً بفارق كبير</strong> عن أي بديل (80W vs 30W = ضعف السرعة تقريباً). ده مش رأي — ده حقيقة تقنية بسبب البروتوكول المغلق. فقرار الشراء هنا بيعتمد على: هل الـ 13 دقيقة الفرق في 0→50% تستاهل فرق السعر؟
     </p>
 </div>
 
@@ -156,22 +156,22 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
 <h2>متى البديل أذكى؟</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">🌙 <strong>بتشحن بالليل:</strong> لو بتوصّل الشاحن قبل ما تنام — مش فارق لو 46 دقيقة أو 72 دقيقة. في الحالتين هتصحى على 100%. وفّر 400 جنيه.</li>
+    <li style="margin-bottom:16px;">🌙 <strong>بتشحن بالليل:</strong> لو بتوصّل الشاحن قبل ما تنام — مش فارق لو 46 دقيقة أو 72 دقيقة. في الحالتين هتصحى على 100%. وفّر فرق السعر.</li>
     <li style="margin-bottom:16px;">🔌 <strong>عندك أجهزة مختلفة:</strong> لو عندك iPhone أو iPad أو لابتوب جنب الـ Oppo — شاحن Anker 30W PD بيشحن كل حاجة. شاحن SuperVOOC مش هيشحن iPhone بسرعة — هيشحنه على 5W العادي فقط.</li>
-    <li style="margin-bottom:16px;">💰 <strong>ميزانيتك محدودة:</strong> الفرق 350-550 جنيه ممكن يتصرف في كابل + باور بانك — ملحقات هتستفيد منها يومياً أكتر من 13 دقيقة سرعة.</li>
+    <li style="margin-bottom:16px;">💰 <strong>ميزانيتك محدودة:</strong> فرق السعر ممكن يتصرف في كابل + باور بانك — ملحقات هتستفيد منها يومياً أكتر من 13 دقيقة سرعة.</li>
 </ul>
 
 <h2>توصياتنا — حسب أولوياتك</h2>
 
-<h3>لو اخترت البديل PD (التوصية الأولى لـ 70% من المستخدمين)</h3>
+<h3>لو اخترت البديل PD (التوصية الأولى لمعظم المستخدمين)</h3>
 
-<p><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W A2741</a> بـ 500 جنيه — GaN II يعني حرارة أقل وحجم أصغر. PD 3.0 كامل، بيشحن Oppo Reno 12 بـ 30W (ده أقصى خرج للشاحن ده — الموبايل نفسه بيقبل PD لحد حوالي 55W). <strong>وبيشحن أي جهاز تاني USB-C بنفس الكفاءة.</strong> ضمان 18 شهر.</p>
+<p><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 511 Nano 3 GaN 30W (A2147)</a> بـ {{price:anker-a2147-gan-charger-30w}} جنيه — شاحن GaN صغير الحجم. PD 3.0 كامل، بيشحن Oppo Reno 12 بـ 30W (ده أقصى خرج للشاحن ده — الموبايل نفسه بيقبل PD لحد حوالي 55W). <strong>وبيشحن أي جهاز تاني USB-C بيدعم PD.</strong> عليه ضمان كايرو فولت المكتوب (المدة موضحة في صفحة المنتج).</p>
 
-<p>البديل الاقتصادي: <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> بـ 350 جنيه — نفس الأداء على Oppo (30W PD) بسعر أقل. الفرق عن Anker: حجم أكبر شوية وحرارة أعلى بـ 3°م.</p>
+<p>البديل الاقتصادي: <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W PD+QC</a> بـ {{price:joyroom-30w-fast-charger}} جنيه — نفس القدرة على Oppo (حتى 30W PD) بسعر أقل، وفيه منفذ USB-A إضافي. الفرق عن انكر: حجمه أكبر شوية.</p>
 
 <h3>لو اخترت الأصلي</h3>
 
-<p>اشتري شاحن Oppo SuperVOOC 80W من التوكيل الرسمي أو موزع معتمد. <strong>تحذير مهم:</strong> شواحن SuperVOOC المقلدة منتشرة على أمازون وجوميا — والشاحن المقلد مش بس بطئ، لكن ممكن يحرق IC الشحن في الموبايل. تأكد من الهولوجرام على العلبة والسيريال نمبر على الشاحن نفسه وتحقق منه على موقع Oppo الرسمي.</p>
+<p>اشتري شاحن Oppo SuperVOOC 80W من بائع بيديك فاتورة وضمان مكتوب باسمه، والعلبة أو الباركود لوحدهم مش دليل أصالة. <strong>تحذير مهم:</strong> شواحن SuperVOOC المقلدة منتشرة على أمازون وجوميا — والشاحن المقلد مش بس بطئ، لكن ممكن يحرق IC الشحن في الموبايل. تأكد من الهولوجرام على العلبة والسيريال نمبر على الشاحن نفسه وتحقق منه على موقع Oppo الرسمي.</p>
 
 <h2>الكابل — النقطة اللي الكل بينساها مع Oppo</h2>
 
@@ -180,8 +180,8 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
 <p>لكن لو اخترت شاحن PD بديل — أي كابل USB-C محترم بيدعم 3A هيكفي:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">💰 <strong>الخيار الاقتصادي:</strong> <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">جوي روم كابل USB-C to USB-C</a> بـ 120 جنيه — 60W، نايلون مقاوم للثني.</li>
-    <li style="margin-bottom:12px;">🏆 <strong>الخيار المتين:</strong> <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">انكر PowerLine USB-C to USB-C</a> بـ 180 جنيه — 60W، 25,000 دورة ثني، ضمان 18 شهر.</li>
+    <li style="margin-bottom:12px;">💰 <strong>الخيار الاقتصادي:</strong> <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">جوي روم كابل USB-C to USB-C</a> بـ {{price:joyroom-type-c-to-type-c-cable}} جنيه — أقصاه حوالي 60W (من غير E-marker).</li>
+    <li style="margin-bottom:12px;">🏆 <strong>الخيار المتين:</strong> <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">انكر PowerLine USB-C to USB-C</a> بـ {{price:anker-powerline-usb-c-usb-c}} جنيه — حتى 60W، والشركة بتذكر تصنيف 25,000+ ثني.</li>
 </ul>
 
 <h2>جدول التكلفة الكاملة — أصلي vs بديل</h2>
@@ -191,35 +191,31 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الباقة</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الشاحن</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الكابل</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الإجمالي</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">0→50%</th>
     </tr></thead>
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">أصلي SuperVOOC</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">800 ج</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">250 ج (6A)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">1,050 ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">~800 ج (تقريبي)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">~250 ج (6A، تقريبي)</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">15 دقيقة</td>
     </tr>
     <tr style="background:#f0fdf4;">
         <td style="padding:12px;border:1px solid #d1d5db;">Anker 30W + Anker كابل</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">500 ج</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">180 ج</td>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">680 ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-a2147-gan-charger-30w}} ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-powerline-usb-c-usb-c}} ج</td>
         <td style="padding:12px;border:1px solid #d1d5db;">28 دقيقة</td>
     </tr>
     <tr style="background:#f0fdf4;">
         <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 30W + Joyroom كابل</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">350 ج</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">120 ج</td>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">470 ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">{{price:joyroom-30w-fast-charger}} ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">{{price:joyroom-type-c-to-type-c-cable}} ج</td>
         <td style="padding:12px;border:1px solid #d1d5db;">29 دقيقة</td>
     </tr>
     </tbody>
 </table>
 
-<p><strong>الخلاصة:</strong> باقة Joyroom بتوفرلك <strong>580 جنيه</strong> مقابل 14 دقيقة إضافية للوصول لـ 50%. يعني كل دقيقة سرعة بتكلفك 41 جنيه. لو الفلوس دي مفرقة معاك — البديل أذكى بكتير. لو الوقت أهم — الأصلي يستاهل.</p>
+<p><strong>الخلاصة:</strong> باقة جوي روم أرخص بوضوح من الأصلي، مقابل حوالي 14 دقيقة إضافية للوصول لـ 50%. لو الفلوس مفرقة معاك — البديل أذكى. لو الوقت أهم — الأصلي يستاهل. ولمقارنة أسعار شواحن وكابلات أوبو الأصلية وطرق كشف المقلد، شوف <a href="/blog/oppo-chargers-prices-egypt-identify-fakes" style="color:#2563eb;font-weight:600;">دليل أسعار شواحن Oppo في مصر</a>.</p>
 
 <h2>أسئلة شائعة عن شحن Oppo</h2>
 
@@ -250,7 +246,7 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        شواحن Anker و Joyroom المتوافقة مع Oppo Reno 12 <strong>أصلية بضمان 18 شهر</strong> + توصيل لكل المحافظات 24-72 ساعة. مش متأكد أنهي شاحن يناسب موبايلك؟ راسلنا على واتساب وهنساعدك.
+        شواحن Anker و Joyroom المتوافقة مع Oppo Reno 12 <strong>أصلية وعليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)</strong> + توصيل لكل المحافظات، عادةً من 1 لـ 6 أيام عمل حسب المحافظة. مش متأكد أنهي شاحن يناسب موبايلك؟ راسلنا على واتساب وهنساعدك.
     </p>
 </div>`,
             faq: [
@@ -278,16 +274,16 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
             metaDescription: 'Complete guide to the best Oppo Reno 12 and Find X charger in Egypt 2026 — comparing the original SuperVOOC charger with Anker and Joyroom alternatives. Does...',
             keywords: 'oppo charger original, supervooc charger, oppo charger alternative, oppo reno 12 charger, best oppo charger egypt, supervooc vs pd, 80w charger oppo, anker charger oppo compatible',
             excerpt: 'Is the original SuperVOOC charger worth its price or does the alternative deliver the same performance? Comparison with real numbers and actual testing on Oppo Reno 12.',
-            quickAnswer: 'The original SuperVOOC charger (80W) at 700-900 EGP is genuinely the fastest — charging Oppo Reno 12 from 0 to 50% in 15 minutes. But PD alternatives charge at only 30W (0→50% in 28 minutes). The reason: SuperVOOC is a closed proprietary protocol, unlike open PD. If maximum speed matters — the original is worth it. If 13 minutes don\'t bother you — Anker 30W at 500 EGP saves you 400 EGP.',
+            quickAnswer: 'The original 80W SuperVOOC charger is the fastest for the Oppo Reno 12: 0 to 50% in about 15 minutes, at roughly 700-900 EGP (approximate market range, varies by seller). PD alternatives reach about 30W (0→50% in about 28 minutes) because SuperVOOC is closed. If that gap doesn\'t matter, the Anker Nano 3 30W ({{price:anker-a2147-gan-charger-30w}} EGP) is a practical alternative.',
             content: `<p>Oppo is one of the companies that markets charging speed the most — and SuperVOOC is genuinely impressive technology. The Oppo Reno 12 charges from 0 to 100% in 46 minutes with the original 80W charger. That's faster than any iPhone or Samsung in the same price range. But the question every Oppo buyer asks: "If my original charger breaks or gets lost — do I buy another original at 700-900 EGP or a cheaper alternative?"</p>
 
 <p>The answer here is <strong>completely different</strong> from our answer with Samsung or Xiaomi. With Samsung we said "the alternative performs exactly the same" — because Samsung uses PD+PPS, an open protocol. But Oppo is different: SuperVOOC is a <strong>closed protocol exclusive to Oppo/OnePlus</strong>. Any alternative charger can't reach SuperVOOC speeds — it will charge using the universal PD protocol only. And that's a real difference.</p>
 
-<p>In this article, we'll explain in detail: what's the real difference in minutes? Is that difference worth 400 EGP extra? And what's the best alternative if you decide to save?</p>
+<p>In this article, we'll explain in detail: what's the real difference in minutes? Is that difference worth the higher price? And what's the best alternative if you decide to save?</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> The original SuperVOOC charger (80W) at 700-900 EGP is genuinely the fastest — charging Oppo Reno 12 from 0 to 50% in 15 minutes. But PD alternatives charge at only 30W (0→50% in 28 minutes). If maximum speed matters — the original is worth it. If 13 minutes don't bother you — Anker 30W at 500 EGP saves you 400 EGP.
+        <strong>💡 Quick Answer:</strong> The original 80W SuperVOOC charger is the fastest for the Oppo Reno 12: 0 to 50% in about 15 minutes, at roughly 700-900 EGP (approximate market range, varies by seller). PD alternatives reach about 30W (0→50% in about 28 minutes) because SuperVOOC is closed. If that gap doesn't matter, the Anker Nano 3 30W ({{price:anker-a2147-gan-charger-30w}} EGP) is a practical alternative.
     </p>
 </div>
 
@@ -344,9 +340,9 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
     <tbody>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">Price</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">700-900 EGP</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">500 EGP</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">350 EGP</td>
+        <td style="padding:10px;border:1px solid #d1d5db;">700-900 EGP (approx. market range)</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">{{price:anker-a2147-gan-charger-30w}} EGP</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">{{price:joyroom-30w-fast-charger}} EGP</td>
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">Protocol with Oppo</td>
@@ -374,9 +370,9 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">Warranty</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">12 months</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">18 months</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">18 months</td>
+        <td style="padding:10px;border:1px solid #d1d5db;">12 months (Oppo)</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">CairoVolt written store warranty</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">CairoVolt written store warranty</td>
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">Charges other devices at full speed?</td>
@@ -390,7 +386,7 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #f59e0b;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#f59e0b;font-weight:bold;">⚠️ Important Point About SuperVOOC</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        Unlike Samsung and Xiaomi, the original Oppo charger is <strong>genuinely much faster</strong> than any alternative (80W vs 30W = roughly double the speed). This isn't an opinion — it's a technical fact due to the closed protocol. So the buying decision here depends on: are those 13 minutes difference to reach 50% worth 200-550 EGP extra?
+        Unlike Samsung and Xiaomi, the original Oppo charger is <strong>genuinely much faster</strong> than any alternative (80W vs 30W = roughly double the speed). This isn't an opinion — it's a technical fact due to the closed protocol. So the buying decision here depends on: are those 13 minutes difference to reach 50% worth the price gap?
     </p>
 </div>
 
@@ -407,22 +403,22 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
 <h2>When the Alternative Is Smarter</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">🌙 <strong>You charge overnight:</strong> If you plug in before sleeping — it doesn't matter if it's 46 minutes or 72 minutes. Either way you'll wake up at 100%. Save 400 EGP.</li>
+    <li style="margin-bottom:16px;">🌙 <strong>You charge overnight:</strong> If you plug in before sleeping — it doesn't matter if it's 46 minutes or 72 minutes. Either way you'll wake up at 100%. Save the price difference.</li>
     <li style="margin-bottom:16px;">🔌 <strong>You have different devices:</strong> If you have an iPhone, iPad, or laptop alongside your Oppo — an Anker 30W PD charger handles everything. A SuperVOOC charger won't fast-charge an iPhone — it'll charge it at standard 5W only.</li>
-    <li style="margin-bottom:16px;">💰 <strong>You're on a tight budget:</strong> The 350-550 EGP difference could go toward a cable + power bank — accessories you'll use daily more than 13 minutes of speed.</li>
+    <li style="margin-bottom:16px;">💰 <strong>You're on a tight budget:</strong> The price difference could go toward a cable + power bank — accessories you'll use daily more than 13 minutes of speed.</li>
 </ul>
 
 <h2>Our Recommendations — Based on Your Priorities</h2>
 
-<h3>If You Choose a PD Alternative (Top Pick for 70% of Users)</h3>
+<h3>If You Choose a PD Alternative (Top Pick for Most Users)</h3>
 
-<p><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W A2741</a> at 500 EGP — GaN II means less heat and smaller size. Full PD 3.0, charges Oppo Reno 12 at 30W (this charger's max output — the phone itself accepts PD up to around 55W). <strong>And charges any other USB-C device at the same efficiency.</strong> 18-month warranty.</p>
+<p><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 511 Nano 3 GaN 30W (A2147)</a> at {{price:anker-a2147-gan-charger-30w}} EGP — a compact GaN charger. Full PD 3.0, charges Oppo Reno 12 at 30W (this charger's max output — the phone itself accepts PD up to around 55W). <strong>And charges any other USB-C device that supports PD.</strong> Covered by CairoVolt's written store warranty (duration shown on the product page).</p>
 
-<p>Budget alternative: <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> at 350 EGP — same Oppo performance (30W PD) at a lower price. The difference from Anker: slightly larger and 3°C warmer.</p>
+<p>Budget alternative: <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W PD+QC</a> at {{price:joyroom-30w-fast-charger}} EGP — the same output on Oppo (up to 30W PD) at a lower price, plus an extra USB-A port. The difference from Anker: slightly larger.</p>
 
 <h3>If You Choose the Original</h3>
 
-<p>Buy the Oppo SuperVOOC 80W charger from an authorized dealer or official distributor. <strong>Important warning:</strong> Counterfeit SuperVOOC chargers are widespread on Amazon and Jumia — and a counterfeit charger isn't just slow, it can burn your phone's charging IC. Verify the hologram on the box and the serial number on the charger itself through Oppo's official website.</p>
+<p>Buy the Oppo SuperVOOC 80W charger from a seller that gives you an invoice and a written warranty in its own name; packaging or a barcode alone does not prove authenticity. <strong>Important warning:</strong> Counterfeit SuperVOOC chargers are widespread on Amazon and Jumia — and a counterfeit charger isn't just slow, it can burn your phone's charging IC. Verify the hologram on the box and the serial number on the charger itself through Oppo's official website.</p>
 
 <h2>The Cable — The Point Everyone Forgets with Oppo</h2>
 
@@ -431,8 +427,8 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
 <p>But if you chose an alternative PD charger — any decent USB-C cable supporting 3A will suffice:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">💰 <strong>Budget pick:</strong> <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C to USB-C Cable</a> at 120 EGP — 60W, nylon braided for bend resistance.</li>
-    <li style="margin-bottom:12px;">🏆 <strong>Durable pick:</strong> <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C</a> at 180 EGP — 60W, 25,000 bend cycles, 18-month warranty.</li>
+    <li style="margin-bottom:12px;">💰 <strong>Budget pick:</strong> <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C to USB-C Cable</a> at {{price:joyroom-type-c-to-type-c-cable}} EGP — tops out around 60W (no E-marker).</li>
+    <li style="margin-bottom:12px;">🏆 <strong>Durable pick:</strong> <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C</a> at {{price:anker-powerline-usb-c-usb-c}} EGP — up to 60W, with a manufacturer-listed 25,000+ bend rating.</li>
 </ul>
 
 <h2>Complete Cost Table — Original vs Alternative</h2>
@@ -442,35 +438,31 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Bundle</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Charger</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Cable</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Total</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">0→50%</th>
     </tr></thead>
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Original SuperVOOC</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">800 EGP</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">250 EGP (6A)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">1,050 EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">~800 EGP (approx.)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">~250 EGP (6A, approx.)</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">15 min</td>
     </tr>
     <tr style="background:#f0fdf4;">
         <td style="padding:12px;border:1px solid #d1d5db;">Anker 30W + Anker Cable</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">500 EGP</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">180 EGP</td>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">680 EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-a2147-gan-charger-30w}} EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-powerline-usb-c-usb-c}} EGP</td>
         <td style="padding:12px;border:1px solid #d1d5db;">28 min</td>
     </tr>
     <tr style="background:#f0fdf4;">
         <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 30W + Joyroom Cable</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">350 EGP</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">120 EGP</td>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">470 EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">{{price:joyroom-30w-fast-charger}} EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">{{price:joyroom-type-c-to-type-c-cable}} EGP</td>
         <td style="padding:12px;border:1px solid #d1d5db;">29 min</td>
     </tr>
     </tbody>
 </table>
 
-<p><strong>Bottom line:</strong> The Joyroom bundle saves you <strong>580 EGP</strong> at the cost of 14 extra minutes to reach 50%. That means each minute of speed costs you 41 EGP. If that money matters to you — the alternative is much smarter. If time is more important — the original is worth it.</p>
+<p><strong>Bottom line:</strong> The Joyroom bundle costs clearly less than the original, at the cost of about 14 extra minutes to reach 50%. If that money matters to you — the alternative is smarter. If time is more important — the original is worth it. For original Oppo charger and cable prices and how to spot fakes, see our <a href="/en/blog/oppo-chargers-prices-egypt-identify-fakes" style="color:#2563eb;font-weight:600;">Oppo charger prices guide for Egypt</a>.</p>
 
 <h2>Oppo Charging FAQs</h2>
 
@@ -489,7 +481,7 @@ export const oppo_reno_12_supervooc_charger_original_vs_alternative: BlogArticle
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Anker and Joyroom chargers compatible with Oppo Reno 12 are <strong>genuine with 18-month warranty</strong> + delivery to all governorates in 24-72 hours. Not sure which charger suits your phone? Message us on WhatsApp and we'll help.
+        Anker and Joyroom chargers compatible with Oppo Reno 12 are <strong>genuine and covered by CairoVolt's written store warranty (duration shown on each product page)</strong> + delivery to all governorates, commonly 1–6 business days depending on governorate. Not sure which charger suits your phone? Message us on WhatsApp and we'll help.
     </p>
 </div>`,
             faq: [

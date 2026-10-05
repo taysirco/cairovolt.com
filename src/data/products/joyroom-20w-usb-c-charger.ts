@@ -41,7 +41,7 @@ export const joyroom_20w_usb_c_charger = {
                 faqs: [
                     { question: "Does it heat up?", answer: "Some warmth can occur. Temperature depends on load, device, ambient conditions and ventilation; stop use if heat is unusual." },
                     { question: "How does it compare with another 20W charger?", answer: "Compare the printed PD profiles, plug, port count, included cable, live price and current warranty rather than assuming identical performance." },
-                    { question: "Does it support Samsung Super Fast Charging?", answer: "Confirm the Samsung model and required PPS or PD profile. An unsupported profile may use a lower compatible rate." },
+                    { question: "Does it support Samsung Super Fast Charging?", answer: "No. Our FNB58 found no PPS window on this charger, and a Galaxy S24 stayed on standard PD at ~14.9W peak with the Super Fast Charging indicator off (~98 min to full, measured). For Samsung 25W SFC, Joyroom's JR-TCF23 25W charger (with PPS) engaged it on our S24." },
                     { question: "Is it suitable for travel?", answer: "The compact form can suit travel, subject to the destination plug and voltage requirements." },
                     { question: "What does the LED mean?", answer: "Check the supplied manual for exact LED states; the indicator alone does not confirm negotiated power or battery completion." }
                 ]
@@ -64,7 +64,7 @@ export const joyroom_20w_usb_c_charger = {
                 faqs: [
                     { question: "هل يسخن الشاحن؟", answer: "قد تظهر سخونة طبيعية. تعتمد الحرارة على الحمل والجهاز والجو والتهوية؛ توقف إذا كانت السخونة غير معتادة." },
                     { question: "كيف أقارنه بشاحن آخر 20 واط؟", answer: "قارن بروفايلات PD المطبوعة والقابس وعدد المنافذ والكابل والسعر والضمان الحالي، ولا تفترض أداء متماثلاً." },
-                    { question: "هل يدعم سامسونج فائق السرعة؟", answer: "تحقق من موديل سامسونج وبروفايل PPS أو PD المطلوب. البروفايل غير المدعوم قد يستخدم معدلاً أقل متوافقاً." },
+                    { question: "هل يدعم سامسونج فائق السرعة؟", answer: "لا. لم يجد FNB58 لدينا أي نافذة PPS على هذا الشاحن، وبقي Galaxy S24 على PD عادي بذروة ~14.9 واط ومؤشر الشحن فائق السرعة مطفأ (~98 دقيقة للامتلاء، قياس). لشحن سامسونج 25 واط فائق السرعة، شغّله شاحن جوي روم JR-TCF23 بقدرة 25 واط (مع PPS) على S24 لدينا." },
                     { question: "هل يناسب السفر؟", answer: "الحجم الصغير قد يناسب السفر مع مراعاة شكل القابس ومتطلبات الجهد في الوجهة." },
                     { question: "ماذا تعني اللمبة؟", answer: "راجع دليل الوحدة لمعاني اللمبة؛ المؤشر وحده لا يثبت القدرة المتفاوض عليها أو اكتمال البطارية." }
                 ]

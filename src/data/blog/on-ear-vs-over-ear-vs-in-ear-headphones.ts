@@ -4,7 +4,7 @@ export const on_ear_vs_over_ear_vs_in_ear_headphones: BlogArticle = {
     slug: 'on-ear-vs-over-ear-vs-in-ear-headphones',
     category: 'comparison',
     publishDate: '2026-06-06',
-    modifiedDate: '2026-06-06',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'soundcore-space-one-headphones',
@@ -21,13 +21,6 @@ export const on_ear_vs_over_ear_vs_in_ear_headphones: BlogArticle = {
     ],
     relatedCategories: ['Soundcore/audio'],
     coverImage: '/images/blog/posts/on-ear-vs-over-ear-vs-in-ear-headphones.webp',
-    externalReferences: [
-        {
-            url: 'https://www.tumblr.com/cairovolteg/820947539499089920/choosing-wireless-earbuds-that-actually-fit-your',
-            title: { ar: 'كيف تختار سماعات أذن لاسلكية مريحة', en: 'Choosing wireless earbuds that actually fit' },
-            note: { ar: 'عن اختيار سماعات الأذن المناسبة', en: 'On choosing earbuds that fit' },
-        },
-    ],
     translations: {
         ar: {
             title: 'On-Ear ضد Over-Ear ضد In-Ear — أي نوع سماعة يناسب ساعات عملك الطويلة؟',
@@ -205,7 +198,7 @@ export const on_ear_vs_over_ear_vs_in_ear_headphones: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ سماعات Over-Ear و In-Ear أصلية بضمان — على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        من <a href="/soundcore/audio" style="color:#166534;font-weight:600;">سماعات ساوند كور</a> — Over-Ear للمكتب و In-Ear للتنقل — كلها أصلية بضمان 18 شهر + توصيل لكل المحافظات + دعم فني واتساب 24/7. اختار النوع اللي يناسب استخدامك وسيبنا نوصّله لحد بابك.
+        من <a href="/soundcore/audio" style="color:#166534;font-weight:600;">سماعات ساوند كور</a> — Over-Ear للمكتب و In-Ear للتنقل — كلها أصلية وعليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات + دعم فني واتساب 24/7. اختار النوع اللي يناسب استخدامك وسيبنا نوصّله لحد بابك.
     </p>
 </div>`,
             faq: [
@@ -215,7 +208,7 @@ export const on_ear_vs_over_ear_vs_in_ear_headphones: BlogArticle = {
                 },
                 {
                     question: 'On-Ear بتتلف أسرع من Over-Ear؟',
-                    answer: 'مش بالضرورة — العمر الافتراضي بيعتمد على جودة التصنيع مش النوع. بس وسادات On-Ear بتتآكل أسرع شوية عشان الضغط عليها أكبر مقارنة بمساحتها. الحل: اشتري من براند محترم بيدّي ضمان طويل — ساوند كور بتدّي 18 شهر ضمان على كل السماعات.'
+                    answer: 'مش بالضرورة — العمر الافتراضي بيعتمد على جودة التصنيع مش النوع. بس وسادات On-Ear بتتآكل أسرع شوية عشان الضغط عليها أكبر مقارنة بمساحتها. الحل: اشتري من براند محترم وبائع بيديك ضمان مكتوب — سماعات ساوند كور على كايرو فولت عليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج).'
                 },
                 {
                     question: 'إيه أفضل نوع ear tips للراحة الطويلة مع In-Ear؟',
@@ -403,7 +396,7 @@ export const on_ear_vs_over_ear_vs_in_ear_headphones: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Original Over-Ear & In-Ear Headphones with Warranty — on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        From <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore headphones</a> — Over-Ear for the office and In-Ear for commuting — all original with 18-month warranty + delivery across all Egyptian governorates + WhatsApp support 24/7. Choose the type that fits your use case and we will deliver it to your door.
+        From <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore headphones</a> — Over-Ear for the office and In-Ear for commuting — all original and covered by CairoVolt's written store warranty (duration shown on each product page) + delivery across all Egyptian governorates + WhatsApp support 24/7. Choose the type that fits your use case and we will deliver it to your door.
     </p>
 </div>`,
             faq: [
@@ -413,7 +406,7 @@ export const on_ear_vs_over_ear_vs_in_ear_headphones: BlogArticle = {
                 },
                 {
                     question: 'Do On-Ear headphones wear out faster than Over-Ear?',
-                    answer: 'Not necessarily — lifespan depends on build quality, not the type. However, On-Ear pads do tend to degrade slightly faster because the pressure on them is greater relative to their size. The solution: buy from a reputable brand with a solid warranty — Soundcore offers 18 months on all headphones.'
+                    answer: 'Not necessarily — lifespan depends on build quality, not the type. However, On-Ear pads do tend to degrade slightly faster because the pressure on them is greater relative to their size. The solution: buy from a reputable brand and a seller that gives a written warranty — Soundcore headphones at CairoVolt are covered by CairoVolt\'s written store warranty (duration shown on each product page).'
                 },
                 {
                     question: 'What are the best ear tips for long-term In-Ear comfort?',

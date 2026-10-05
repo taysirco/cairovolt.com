@@ -28,7 +28,13 @@ function getLandingPageProducts(brand: string, category: string) {
         .filter(product => product.status === 'active');
 }
 
-// ISR: On-demand revalidation only (via /api/indexing webhook)
+// ISR: daily time-based revalidation plus on-demand revalidation from the
+// /api/indexing webhook (blog reveals and product updates). The "read before
+// buying" rail is built from the live blog index, so without a revalidate
+// window a newly revealed guide could only reach the shelf on the next deploy.
+// Same segment shape the PDP route uses (revalidate + dynamicParams=false).
+export const revalidate = 86400;
+
 // Closed param space (categoryContent keys) → real 404 for unknown categories
 // instead of FAH soft-404. Product [slug] below stays dynamic (Firebase-only
 // products are not enumerable at build time).
@@ -227,7 +233,13 @@ export default async function DynamicCategoryPage({ params }: Props) {
     // has any business in the browser bundle. Only the handful of strings the
     // template renders crosses the boundary — same projection rule applied to
     // `initialProducts` above.
-    const relatedArticles = getArticlesForCategory(brandKey, categoryKey, locale, 3).map(a => ({
+    const relatedArticles = getArticlesForCategory(
+        brandKey,
+        categoryKey,
+        locale,
+        5,
+        categoryProducts.map(p => p.slug),
+    ).map(a => ({
         slug: a.slug,
         title: a.title,
         excerpt: a.excerpt,
@@ -239,13 +251,39 @@ export default async function DynamicCategoryPage({ params }: Props) {
         return gov ? [{ slug: gov.slug, name: locale === 'ar' ? gov.nameAr : gov.nameEn }] : [];
     });
 
+    // Only the active locale's shelf copy crosses into the client component —
+    // passing the bilingual pageContent shipped the other language's full copy
+    // in every page's RSC payload. Any {minPrice} token in the copy (e.g. a
+    // price FAQ) is resolved here from the same shelf the grid renders, so the
+    // answer cannot drift from the catalogue.
+    const rawPageContent = locale === 'ar' ? data.pageContent.ar : data.pageContent.en;
+    const resolveCopy = (text: string) => resolveMinPriceToken(text, categoryProducts);
+    const pageContent = {
+        ...rawPageContent,
+        title: rawPageContent.title,
+        subtitle: resolveCopy(rawPageContent.subtitle),
+        description: resolveCopy(rawPageContent.description),
+        ...(rawPageContent.buyingGuide && {
+            buyingGuide: rawPageContent.buyingGuide.map(section => ({
+                title: resolveCopy(section.title),
+                content: resolveCopy(section.content),
+            })),
+        }),
+        ...(rawPageContent.faq && {
+            faq: rawPageContent.faq.map(item => ({
+                question: resolveCopy(item.question),
+                answer: resolveCopy(item.answer),
+            })),
+        }),
+    };
+
     return (
         <CategoryTemplate
             brand={data.brand}
             brandColor={data.brandColor}
             category={data.categoryName}
             categorySlug={categoryKey}
-            categoryInfo={data.pageContent}
+            categoryInfo={pageContent}
             soundcoreData={data.soundcoreData}
             powerBankData={data.powerBankData}
             initialProducts={initialProducts}

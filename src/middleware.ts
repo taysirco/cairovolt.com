@@ -3,6 +3,7 @@ import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
 import { BLOG_SCHEDULE } from './data/blog-schedule.generated';
 import { KNOWN_TOP_SEGMENTS, LEGACY_PRODUCT_REDIRECTS, RETIRED_CATEGORY_REDIRECTS } from './lib/known-routes';
+import { hasMarkdownTwin } from './lib/markdown-twin-routes';
 
 const intlMiddleware = createMiddleware(routing);
 
@@ -76,9 +77,16 @@ export default function middleware(request: NextRequest) {
         return NextResponse.next();
     }
 
-    // Honor explicit Markdown content negotiation for every caller equally.
+    // Honor explicit Markdown content negotiation for every caller equally —
+    // but only for pages that have a real markdown generator. Any other path
+    // (contact, terms, verify, …) falls through to its full HTML page instead
+    // of a thin stub; the markdown route 404s paths it cannot render.
     const acceptHeader = request.headers.get('accept') || '';
-    if (acceptHeader.includes('text/markdown') && !pathname.startsWith('/api')) {
+    if (
+        acceptHeader.includes('text/markdown')
+        && !pathname.startsWith('/api')
+        && hasMarkdownTwin(pathname)
+    ) {
         const url = request.nextUrl.clone();
         url.pathname = `/api/markdown-negotiate${pathname === '/' ? '/index' : pathname}`;
         return NextResponse.rewrite(url);

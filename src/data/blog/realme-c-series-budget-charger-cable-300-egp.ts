@@ -4,11 +4,11 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
     slug: 'realme-c-series-budget-charger-cable-300-egp',
     category: 'buying-guide',
     publishDate: '2026-06-15',
-    modifiedDate: '2026-06-15',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
         'anker-powerport-20w',
-        'joyroom-25w-fast-charger',
+        'joyroom-30w-fast-charger',
         'joyroom-type-c-to-type-c-cable',
         'anker-powerline-usb-c-usb-c',
         'joyroom-power-bank-10000',
@@ -27,7 +27,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
             metaDescription: 'دليل شامل لأفضل ملحقات Realme C65 و C55 و C53 في مصر 2026 — شاحن سريع وكابل USB-C بميزانية أقل من 300 جنيه. كل قطعة مختبرة ومتوافقة 100%. تابع التفاصيل بمصر.',
             keywords: 'شاحن ريلمي C65, شاحن realme c55, كابل ريلمي, بديل شاحن realme, أفضل شاحن realme مصر, شاحن سريع ريلمي رخيص, ملحقات ريلمي C series, شاحن 20 واط ريلمي',
             excerpt: 'دليل عملي لأفضل ملحقات Realme C series — شاحن سريع وكابل USB-C بميزانية محدودة تبدأ من 300 جنيه فقط.',
-            quickAnswer: 'موبايلات Realme C series (C65, C55, C53, C51) بتشحن سريع بـ SUPERVOOC — C65 بـ 45W والباقي بـ 33W، والشاحن جاي في العلبة. SUPERVOOC بروتوكول مغلق، فأي شاحن PD/QC عادي بينزل لـ 10-18W وبيشحن أبطأ. خلّي شاحن العلبة للسرعة، والبديل (Joyroom 25W بـ 300 جنيه أو Anker 20W بـ 490 جنيه) يبقى سبير أو لأجهزتك التانية. كابل C-C من 120 جنيه.',
+            quickAnswer: 'اختيارنا للشاحن السبير تحت 300 جنيه: شاحن جوي روم 30W PD+QC بـ {{price:joyroom-30w-fast-charger}} جنيه. بس خلّي شاحن العلبة SUPERVOOC للسرعة: Realme C65 بيشحن سريع بـ 45W (و C55 و C53 و C51 بـ 33W) عن طريق SUPERVOOC بس، فأي شاحن PD/QC بينزل لحوالي 10-18W. شاحن انكر 20W ({{price:anker-powerport-20w}} جنيه) أعلى من الميزانية دي.',
             content: `<p>Realme C series هي ملك الميزانية المحدودة في مصر — موبايلات بسعر 4,000-7,000 جنيه بمواصفات كانت فلاجشيب من 3 سنين. Realme C65 بالذات أصبح من أكتر الموبايلات مبيعاً في مصر 2026. والخبر الكويس إن Realme مش بتبخل في الشحن: الشاحن اللي جاي في العلبة هو شاحن SUPERVOOC سريع — 45W مع C65 و 33W مع C55 و C53 و C51. بطارية 5,000mAh مع شاحن SUPERVOOC = شحنة كاملة في حوالي ساعة أو أقل. المشكلة الحقيقية بتيجي بس لو الشاحن ضاع أو اتلف واشتريت بديل غلط.</p>
 
 <p>النقطة اللي لازم تفهمها: شحن Realme السريع بيشتغل ببروتوكول SUPERVOOC المغلق (نفس عائلة BBK زي Oppo VOOC). C65 بيقبل 45W و C55 و C53 و C51 بيقبلوا 33W — بس <strong>كله عن طريق SUPERVOOC بس</strong>. أي شاحن USB-C PD أو QC عادي مش بيفعّل SUPERVOOC، فبينزل لشحن عادي حوالي 10-18W وبيشحن أبطأ من شاحن العلبة. يعني الأولوية إنك تحافظ على شاحن SUPERVOOC الأصلي، وتعرف إمتى الشاحن البديل يستاهل.</p>
@@ -36,7 +36,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> موبايلات Realme C series بتشحن سريع بـ SUPERVOOC — C65 بـ 45W والباقي بـ 33W، والشاحن جاي في العلبة. SUPERVOOC مغلق، فأي شاحن PD/QC عادي بينزل لـ 10-18W. خلّي شاحن العلبة للسرعة، والبديل (Joyroom 25W بـ 300 جنيه أو Anker 20W بـ 490 جنيه) يبقى سبير أو لأجهزتك التانية. كابل C-C من 120 جنيه.
+        <strong>💡 الإجابة السريعة:</strong> اختيارنا للشاحن السبير تحت 300 جنيه: شاحن جوي روم 30W PD+QC بـ {{price:joyroom-30w-fast-charger}} جنيه. بس خلّي شاحن العلبة SUPERVOOC للسرعة: Realme C65 بيشحن سريع بـ 45W (و C55 و C53 و C51 بـ 33W) عن طريق SUPERVOOC بس، فأي شاحن PD/QC بينزل لحوالي 10-18W. شاحن انكر 20W ({{price:anker-powerport-20w}} جنيه) أعلى من الميزانية دي.
     </p>
 </div>
 
@@ -107,7 +107,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">40-48 دقيقة</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">80-95 دقيقة</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">2-3 ساعات+</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">300-490 ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">من {{price:joyroom-30w-fast-charger}} ج</td>
     </tr>
     </tbody>
 </table>
@@ -121,15 +121,15 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
 
 <h2>أفضل شاحن لـ Realme C Series — 3 خيارات</h2>
 
-<h3>🏆 الخيار الأول (التوصية): Joyroom 25W</h3>
+<h3>🏆 الخيار الأول (التوصية): جوي روم 30W PD+QC</h3>
 
-<p><a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم شاحن سريع 25W</a> بـ 300 جنيه — شاحن USB-C PD ممتاز كسبير أو لأجهزتك التانية. مهم تعرف: Realme C65 بيشحن سريع بـ SUPERVOOC بس، والشاحن ده مش SUPERVOOC، فهيشحن الـ C65 بشحن PD عادي حوالي 10-18W (أبطأ من شاحن العلبة). لكنه اختيار كويس ورخيص كشاحن إضافي بيشحن أي موبايل USB-C تاني. <strong>أرخص شاحن أصلي محترم في السوق.</strong> ضمان 18 شهر.</p>
+<p><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن جوي روم 30W PD+QC</a> بـ {{price:joyroom-30w-fast-charger}} جنيه — جوه الميزانية، وفيه منفذين: USB-C بـ PD 3.0 و USB-A بـ QC 3.0، فينفع مع كابل العلبة (USB-A to USB-C) أو مع كابل C-C. مهم تعرف: Realme C65 بيشحن سريع بـ SUPERVOOC بس، والشاحن ده مش SUPERVOOC، فهيشحن الـ C65 بشحن عادي حوالي 10-18W (أبطأ من شاحن العلبة). لكنه اختيار عملي كشاحن إضافي بيشحن أي موبايل تاني. عليه ضمان كايرو فولت المكتوب (المدة موضحة في صفحة المنتج).</p>
 
-<p>ليه Joyroom مش Anker هنا؟ عشان فئة Realme C Series هي فئة الميزانية — والمستخدم اللي اشترى موبايل بـ 5,000 جنيه مش هيحب يدفع 500 جنيه في شاحن. Joyroom 25W بيدي 95% من أداء Anker بـ 75% من سعره.</p>
+<p>ليه جوي روم مش انكر هنا؟ عشان فئة Realme C Series هي فئة الميزانية، والعنوان بيوعد بأقل من 300 جنيه — وشاحن جوي روم 30W هو اللي جوه الحد ده، وعلى Realme الاتنين هيشحنوا بنفس السرعة العادية (مش SUPERVOOC).</p>
 
-<h3>💰 الخيار الاقتصادي: Anker PowerPort 20W</h3>
+<h3>⬆️ أعلى من الميزانية دي: Anker PowerPort 20W</h3>
 
-<p><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر PowerPort 20W</a> بـ 490 جنيه — شاحن USB-C PD مدمج بجودة Anker المعروفة ودوائر حماية كويسة. زيه زي أي شاحن PD، هيشحن Realme C65 بشحن عادي حوالي 10-18W (مش SUPERVOOC)، فهو مش أسرع من شاحن العلبة على Realme — بس اختيار متين لو عايز شاحن سبير يعيش معاك سنين ويشحن كل أجهزتك USB-C.</p>
+<p><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر PowerPort 20W</a> بـ {{price:anker-powerport-20w}} جنيه (أعلى من ميزانية الـ 300 جنيه) — شاحن USB-C PD مدمج بجودة Anker المعروفة ودوائر حماية كويسة. زيه زي أي شاحن PD، هيشحن Realme C65 بشحن عادي حوالي 10-18W (مش SUPERVOOC)، فهو مش أسرع من شاحن العلبة على Realme — بس اختيار متين لو عايز شاحن سبير يعيش معاك سنين ويشحن كل أجهزتك USB-C.</p>
 
 <h3>🎯 لو ميزانيتك أقل من 200 جنيه</h3>
 
@@ -155,8 +155,8 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
 <p>توصياتنا:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">💰 <strong>الأرخص والأكفأ:</strong> <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">جوي روم كابل USB-C to USB-C</a> بـ 120 جنيه — 60W، 1.2 متر، نايلون مقاوم للثني. كافي لأقصى سرعة شحن على أي Realme C Series.</li>
-    <li style="margin-bottom:12px;">🏆 <strong>لو عايز يعيش أطول:</strong> <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">انكر PowerLine USB-C to USB-C</a> بـ 180 جنيه — 25,000 دورة ثني، ضمان 18 شهر.</li>
+    <li style="margin-bottom:12px;">💰 <strong>الأرخص والأكفأ:</strong> <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">جوي روم كابل USB-C to USB-C</a> بـ {{price:joyroom-type-c-to-type-c-cable}} جنيه — 1.2 متر، وأقصاه حوالي 60W (من غير E-marker). كافي لأقصى سرعة شحن على أي Realme C Series.</li>
+    <li style="margin-bottom:12px;">🏆 <strong>لو عايز يعيش أطول:</strong> <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">انكر PowerLine USB-C to USB-C</a> بـ {{price:anker-powerline-usb-c-usb-c}} جنيه (أعلى من الميزانية دي) — حتى 60W، والشركة بتذكر تصنيف 25,000+ ثني.</li>
 </ul>
 
 <h2>الباقات الكاملة — شاحن + كابل بأقل سعر</h2>
@@ -166,28 +166,25 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الباقة</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الشاحن</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الكابل</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الإجمالي</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">0→50%</th>
     </tr></thead>
     <tbody>
     <tr style="background:#f0fdf4;">
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">💰 باقة الميزانية</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 25W (300 ج)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom C-C (120 ج)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">420 ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">جوي روم 30W PD+QC ({{price:joyroom-30w-fast-charger}} ج)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom C-C ({{price:joyroom-type-c-to-type-c-cable}} ج)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">~60-90 دقيقة (PD)</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">🎯 باقة المتوازنة</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Anker 20W (490 ج)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Anker C-C (180 ج)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">530 ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">🎯 باقة انكر (أعلى من الميزانية)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Anker 20W ({{price:anker-powerport-20w}} ج)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Anker C-C ({{price:anker-powerline-usb-c-usb-c}} ج)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">~60-90 دقيقة (PD)</td>
     </tr>
     </tbody>
 </table>
 
-<p><strong>توصية كايرو فولت:</strong> لو محتاج شاحن سبير وكابل كويس، باقة الميزانية بـ 420 جنيه اختيار عملي بسعر يناسب فئة الموبايل — بس افتكر إن أسرع شحن للموبايل هيفضل من شاحن SUPERVOOC اللي في العلبة، والباقة دي للراحة والاستخدام الإضافي.</p>
+<p><strong>توصية كايرو فولت:</strong> لو محتاج شاحن سبير وكابل كويس، باقة الميزانية (شاحن جوي روم 30W + كابل جوي روم C-C) اختيار عملي بسعر يناسب فئة الموبايل — بس افتكر إن أسرع شحن للموبايل هيفضل من شاحن SUPERVOOC اللي في العلبة، والباقة دي للراحة والاستخدام الإضافي.</p>
 
 <h2>Realme بتحط شاحن SUPERVOOC كامل في العلبة — استغله صح</h2>
 
@@ -207,14 +204,14 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
 
 <h2>هل تحتاج باور بانك كمان؟</h2>
 
-<p>بطارية Realme C65 ضخمة (5,000mAh) وبتعيش يوم كامل مع الاستخدام العادي. مش كل مستخدم محتاج باور بانك. لكن لو بتخرج كتير أو بتستخدم الموبايل في تصوير أو ألعاب — <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">جوي روم باور بانك 10,000mAh</a> بـ 400 جنيه بيدّيك شحنتين كاملتين. ممكن تضيفه لاحقاً لما الميزانية تسمح.</p>
+<p>بطارية Realme C65 ضخمة (5,000mAh) وبتعيش يوم كامل مع الاستخدام العادي. مش كل مستخدم محتاج باور بانك. لكن لو بتخرج كتير أو بتستخدم الموبايل في تصوير أو ألعاب — <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">جوي روم باور بانك 10,000mAh</a> بيدّيك حوالي 1.3 شحنة لموبايل 5,000mAh (تقدير: 30.8Wh قابلة للاستخدام في قياسنا × 0.85 ÷ حوالي 19.4Wh للبطارية). ممكن تضيفه لاحقاً لما الميزانية تسمح.</p>
 
-<p><strong>الأولوية الصحيحة:</strong> شاحن أولاً (300 ج) ← كابل (120 ج) ← باور بانك (400 ج). ابدأ بالشاحن والكابل (420 ج) وأجّل الباور بانك — لأن الشاحن هتستخدمه كل يوم مرتين على الأقل.</p>
+<p><strong>الأولوية الصحيحة:</strong> شاحن أولاً ← كابل ← باور بانك. ابدأ بالشاحن والكابل وأجّل الباور بانك — لأن الشاحن هتستخدمه كل يوم مرتين على الأقل.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        شواحن وكابلات Realme C Series المذكورة <strong>أصلية بضمان 18 شهر</strong> + توصيل لكل المحافظات 24-72 ساعة. عايز تعرف أنهي شاحن يناسب موديلك بالظبط؟ راسلنا على واتساب وهنساعدك.
+        شواحن وكابلات Realme C Series المذكورة <strong>أصلية وعليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)</strong> + توصيل لكل المحافظات، عادةً من 1 لـ 6 أيام عمل حسب المحافظة. عايز تعرف أنهي شاحن يناسب موديلك بالظبط؟ راسلنا على واتساب وهنساعدك.
     </p>
 </div>`,
             faq: [
@@ -242,7 +239,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
             metaDescription: 'Complete guide to the best Realme C65, C55, and C53 accessories in Egypt 2026 — fast charger and USB-C cable on a budget under 300 EGP. Every item tested and...',
             keywords: 'realme c65 charger, realme c55 charger, realme cable, realme charger alternative, best realme charger egypt, budget fast charger realme, realme c series accessories, 20w charger realme',
             excerpt: 'A practical guide to the best Realme C series accessories — fast charger and USB-C cable on a tight budget starting from just 300 EGP.',
-            quickAnswer: 'Realme C series phones (C65, C55, C53, C51) fast-charge over SUPERVOOC — the C65 at 45W, the rest at 33W — and that charger ships in the box. SUPERVOOC is proprietary, so a generic PD/QC charger drops to ~10-18W and charges slower. Keep the box charger for speed; a third-party charger (Joyroom 25W at 300 EGP or Anker 20W at 490 EGP) is best as a spare. A C-to-C cable starts at 120 EGP.',
+            quickAnswer: 'Our pick under 300 EGP: the Joyroom 30W PD+QC charger at {{price:joyroom-30w-fast-charger}} EGP. Keep the in-box SUPERVOOC charger for speed, though: the Realme C65 fast-charges at 45W (C55, C53 and C51 at 33W) only over SUPERVOOC, so any PD/QC charger drops to about 10-18W. The Anker 20W ({{price:anker-powerport-20w}} EGP) is above this budget.',
             content: `<p>The Realme C series is the budget king in Egypt — phones priced at 4,000-7,000 EGP with specs that were flagship-level 3 years ago. The Realme C65 in particular has become one of the best-selling phones in Egypt in 2026. And the good news is Realme doesn't skimp on charging: the charger in the box is a fast SUPERVOOC unit — 45W on the C65 and 33W on the C55, C53 and C51. A 5,000mAh battery with a SUPERVOOC charger means a full charge in about an hour or less. The real problem only shows up if that charger is lost or damaged and you buy the wrong replacement.</p>
 
 <p>The key thing to understand: Realme's fast charging runs on the proprietary SUPERVOOC protocol (the same BBK family as Oppo's VOOC). The C65 accepts 45W and the C55, C53 and C51 accept 33W — but <strong>only over SUPERVOOC</strong>. A generic USB-C PD or QC charger does not trigger SUPERVOOC, so it drops to ordinary charging of roughly 10-18W and charges slower than the in-box charger. So the priority is to keep the original SUPERVOOC charger, and know when a third-party charger is actually worth it.</p>
@@ -251,7 +248,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Realme C series phones fast-charge over SUPERVOOC — the C65 at 45W, the rest at 33W — and that charger ships in the box. SUPERVOOC is proprietary, so a generic PD/QC charger drops to ~10-18W and charges slower. Keep the box charger for speed; a third-party charger (Joyroom 25W at 300 EGP or Anker 20W at 490 EGP) is best as a spare or for your other devices. A C-to-C cable starts at 120 EGP.
+        <strong>💡 Quick Answer:</strong> Our pick under 300 EGP: the Joyroom 30W PD+QC charger at {{price:joyroom-30w-fast-charger}} EGP. Keep the in-box SUPERVOOC charger for speed, though: the Realme C65 fast-charges at 45W (C55, C53 and C51 at 33W) only over SUPERVOOC, so any PD/QC charger drops to about 10-18W. The Anker 20W ({{price:anker-powerport-20w}} EGP) is above this budget.
     </p>
 </div>
 
@@ -322,7 +319,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">40-48 min</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">80-95 min</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">2-3 hours+</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">300-490 EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">from {{price:joyroom-30w-fast-charger}} EGP</td>
     </tr>
     </tbody>
 </table>
@@ -336,15 +333,15 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
 
 <h2>Best Charger for Realme C Series — 3 Options</h2>
 
-<h3>🏆 Top Pick: Joyroom 25W</h3>
+<h3>🏆 Top Pick: Joyroom 30W PD+QC</h3>
 
-<p><a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Fast Charger</a> at 300 EGP — an excellent USB-C PD charger as a spare or for your other devices. Important to know: the Realme C65 fast-charges only over SUPERVOOC, and this charger isn't SUPERVOOC, so it charges the C65 at ordinary PD speeds of roughly 10-18W (slower than the in-box charger). Still a great, cheap second charger that tops up any other USB-C phone. <strong>The cheapest genuine, reputable charger on the market.</strong> 18-month warranty.</p>
+<p><a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W PD+QC Charger</a> at {{price:joyroom-30w-fast-charger}} EGP — inside the budget, with two ports: USB-C with PD 3.0 and USB-A with QC 3.0, so it works with the in-box USB-A to USB-C cable or with a C-to-C cable. Important to know: the Realme C65 fast-charges only over SUPERVOOC, and this charger isn't SUPERVOOC, so it charges the C65 at ordinary speeds of roughly 10-18W (slower than the in-box charger). Still a practical second charger that tops up any other phone. It carries CairoVolt's written store warranty (duration shown on the product page).</p>
 
-<p>Why Joyroom over Anker here? Because the Realme C Series is a budget category — and someone who bought a 5,000 EGP phone won't want to spend 500 EGP on a charger. Joyroom 25W delivers 95% of Anker's performance at 75% of its price.</p>
+<p>Why Joyroom over Anker here? Because the Realme C Series is a budget category and the title promises under 300 EGP — the Joyroom 30W is the pick inside that limit, and on a Realme both charge at the same ordinary (non-SUPERVOOC) speed.</p>
 
-<h3>💰 Budget Pick: Anker PowerPort 20W</h3>
+<h3>⬆️ Above This Budget: Anker PowerPort 20W</h3>
 
-<p><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> at 490 EGP — a compact USB-C PD charger with Anker's build quality and solid protection circuitry. Like any PD charger, it charges the Realme C65 at ordinary speeds of roughly 10-18W (not SUPERVOOC), so it isn't faster than the in-box charger on a Realme — but it's a durable spare that lasts for years and tops up all your USB-C devices.</p>
+<p><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> at {{price:anker-powerport-20w}} EGP (above the 300 EGP budget) — a compact USB-C PD charger with Anker's build quality and solid protection circuitry. Like any PD charger, it charges the Realme C65 at ordinary speeds of roughly 10-18W (not SUPERVOOC), so it isn't faster than the in-box charger on a Realme — but it's a durable spare that lasts for years and tops up all your USB-C devices.</p>
 
 <h3>🎯 If Your Budget Is Under 200 EGP</h3>
 
@@ -370,8 +367,8 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
 <p>Our recommendations:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">💰 <strong>Cheapest and most effective:</strong> <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C to USB-C Cable</a> at 120 EGP — 60W, 1.2m, nylon braided. Sufficient for max charging speed on any Realme C Series.</li>
-    <li style="margin-bottom:12px;">🏆 <strong>If you want it to last longer:</strong> <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C</a> at 180 EGP — 25,000 bend cycles, 18-month warranty.</li>
+    <li style="margin-bottom:12px;">💰 <strong>Cheapest and most effective:</strong> <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C to USB-C Cable</a> at {{price:joyroom-type-c-to-type-c-cable}} EGP — 1.2m, tops out around 60W (no E-marker). Sufficient for max charging speed on any Realme C Series.</li>
+    <li style="margin-bottom:12px;">🏆 <strong>If you want it to last longer:</strong> <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C</a> at {{price:anker-powerline-usb-c-usb-c}} EGP (above this budget) — up to 60W, with a manufacturer-listed 25,000+ bend rating.</li>
 </ul>
 
 <h2>Complete Bundles — Charger + Cable at Lowest Price</h2>
@@ -381,28 +378,25 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Bundle</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Charger</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Cable</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Total</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">0→50%</th>
     </tr></thead>
     <tbody>
     <tr style="background:#f0fdf4;">
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">💰 Budget Bundle</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 25W (300)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom C-C (120)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">420 EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 30W PD+QC ({{price:joyroom-30w-fast-charger}} EGP)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom C-C ({{price:joyroom-type-c-to-type-c-cable}} EGP)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">~60-90 min (PD)</td>
     </tr>
     <tr>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">🎯 Balanced Bundle</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Anker 20W (350)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Anker C-C (180)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">530 EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">🎯 Anker Bundle (above this budget)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Anker 20W ({{price:anker-powerport-20w}} EGP)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Anker C-C ({{price:anker-powerline-usb-c-usb-c}} EGP)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">~60-90 min (PD)</td>
     </tr>
     </tbody>
 </table>
 
-<p><strong>CairoVolt's recommendation:</strong> If you need a spare charger and a good cable, the Budget Bundle at 420 EGP is a practical pick at a price that matches the phone's category — just remember the fastest charge still comes from the in-box SUPERVOOC charger, and this bundle is for convenience and extra use.</p>
+<p><strong>CairoVolt's recommendation:</strong> If you need a spare charger and a good cable, the Budget Bundle (Joyroom 30W charger + Joyroom C-C cable) is a practical pick at a price that matches the phone's category — just remember the fastest charge still comes from the in-box SUPERVOOC charger, and this bundle is for convenience and extra use.</p>
 
 <h2>Realme Bundles a Full SUPERVOOC Charger — Use It Right</h2>
 
@@ -420,14 +414,14 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
 
 <h2>Do You Need a Power Bank Too?</h2>
 
-<p>The Realme C65's battery is massive (5,000mAh) and lasts a full day with normal use. Not every user needs a power bank. But if you go out frequently or use the phone for photography or gaming — the <a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10,000mAh Power Bank</a> at 400 EGP gives you two full charges. You can add it later when the budget allows.</p>
+<p>The Realme C65's battery is massive (5,000mAh) and lasts a full day with normal use. Not every user needs a power bank. But if you go out frequently or use the phone for photography or gaming — the <a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10,000mAh Power Bank</a> gives about 1.3 charges of a 5,000mAh phone (est.: our measured 30.8Wh usable × 0.85 ÷ ~19.4Wh battery). You can add it later when the budget allows.</p>
 
-<p><strong>The right priority:</strong> Charger first (300 EGP) ← Cable (120 EGP) ← Power Bank (400 EGP). Start with the charger and cable (420 EGP) and postpone the power bank — because you'll use the charger at least twice daily.</p>
+<p><strong>The right priority:</strong> Charger first ← Cable ← Power Bank. Start with the charger and cable and postpone the power bank — because you'll use the charger at least twice daily.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All Realme C Series chargers and cables mentioned are <strong>genuine with 18-month warranty</strong> + delivery to all governorates in 24-72 hours. Want to know exactly which charger fits your model? Message us on WhatsApp and we'll help.
+        All Realme C Series chargers and cables mentioned are <strong>genuine and covered by CairoVolt's written store warranty (duration shown on each product page)</strong> + delivery to all governorates, commonly 1–6 business days depending on governorate. Want to know exactly which charger fits your model? Message us on WhatsApp and we'll help.
     </p>
 </div>`,
             faq: [

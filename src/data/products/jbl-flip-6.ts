@@ -54,7 +54,7 @@ export const jbl_flip_6 = {
         <li>Passive radiators: on a genuine unit the JBL "!" logos on both end radiators visibly vibrate with bass — static, purely decorative end caps are a classic fake tell.</li>
         <li>Packaging: original boxes have sharp print, correct spelling, and a labelled serial number.</li>
         <li>App pairing: a genuine Flip 6 is recognised by the official JBL Portable app — most fakes never appear in it.</li>
-        <li>Price logic: a "new" Flip 6 offered around 40% below our price (roughly 3,900 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" Flip 6 offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -98,7 +98,7 @@ export const jbl_flip_6 = {
         <li>الراديترات السلبية: في الوحدة الأصلية شعار "!" بتاع JBL على الطرفين بيهتز بشكل مرئي مع الباس — الأطراف الثابتة اللي شكلها ديكور بس من أشهر علامات التقليد.</li>
         <li>العلبة: الكرتونة الأصلية طباعتها حادة، إملاؤها سليم، وعليها رقم تسلسلي واضح.</li>
         <li>التطبيق: الـFlip 6 الأصلية بيتعرف عليها تطبيق JBL Portable الرسمي — أغلب التقليد عمره ما بيظهر فيه.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 3,900 جنيه أو أقل) شبه مؤكد مش أصلية.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

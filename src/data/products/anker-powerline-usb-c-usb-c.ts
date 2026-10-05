@@ -82,7 +82,7 @@ export const anker_powerline_usb_c_usb_c = {
                     },
                     {
                         question: "Can I use it for data transfer?",
-                        answer: "Verify the USB data rating printed for the supplied A8852H11. A power rating does not by itself establish data speed or video-output support."
+                        answer: "Yes, at USB 2.0 (480Mbps) — charge and sync only. There is no DisplayPort/Alt-mode or video output, and actual transfer speed depends on both devices."
                     },
                     {
                         question: "How durable is the Anker USB-C cable?",
@@ -145,7 +145,7 @@ export const anker_powerline_usb_c_usb_c = {
                 metaDesc: "اشحن اللابتوب والموبايل مع كابل انكر PowerLine III من USB-C إلى USB-C الأصلي بقدرة حتى 60 واط. بضمان متجر في مصر والدفع عند الاستلام.",
                 faqs: [
                     { question: "هل يدعم شحن سامسونج 45 واط؟", answer: "يعتمد وضع سامسونج على الهاتف وبروفايل PPS في الشاحن ومتطلب كابل 5 أمبير إن وُجد. طابق المواصفات المطبوعة للعناصر الثلاثة قبل توقع وضع محدد." },
-                    { question: "هل يمكن استخدامه لنقل البيانات؟", answer: "تحقق من تصنيف USB للبيانات المطبوع على موديل A8852H11 المورّد؛ قدرة الشحن وحدها لا تثبت سرعة البيانات أو دعم خرج الفيديو." },
+                    { question: "هل يمكن استخدامه لنقل البيانات؟", answer: "نعم، بسرعة USB 2.0 (480 ميغابت/ث) — للشحن والمزامنة فقط. لا يدعم DisplayPort/Alt-mode ولا إخراج الفيديو، والسرعة الفعلية تعتمد على الجهازين." },
                     { question: "ما مدى متانة كابل انكر USB-C؟", answer: "تذكر انكر تصنيف ثني مرتفعاً لهذا الموديل. العمر الفعلي يعتمد على الاستخدام؛ تجنب الثني الحاد وسحب الكابل من السلك." },
                     { question: "كيف أقارنه مع كابل آخر؟", answer: "قارن رقم الموديل وتصنيف الطاقة والتيار والبيانات والطول واختبار الثني المعلن والسعر والضمان الحالي بالطريقة نفسها؛ لا تستنتج عمراً أو أداءً متساوياً من رقم واحد." },
                     { question: "الكابل ده هيعيش قد إيه مع الاستخدام اليومي؟", answer: "العمر الفعلي يختلف حسب الاستخدام حتى مع تصنيف الثني المعلن. افصل الكابل من رأس الموصل وتجنب الشد والثني الحاد للحفاظ عليه." }

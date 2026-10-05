@@ -79,7 +79,7 @@ export const anker_powerline_usb_c_lightning = {
                     { question: "Does it work with CarPlay?", answer: "It can carry data for compatible CarPlay systems, but confirm the vehicle or head-unit requirements and the exact cable model." },
                     { question: "Does it support iPhone 15, 16 or 17?", answer: "No. Those models use USB-C, while this cable terminates in Lightning. Choose a rated USB-C to USB-C cable." },
                     { question: "How does it compare with another cable?", answer: "Compare connector type, length, verified MFi status, construction, live price and current warranty. Bend-cycle ratings do not promise a fixed lifespan." },
-                    { question: "What lengths are available?", answer: "Confirm the length of the supplied A8612H11 variant on the package before ordering." }
+                    { question: "What lengths are available?", answer: "The stocked A8612H11 is listed at 0.9m (3ft); we measured 93.6 cm connector tip to tip. 1.8m PowerLine variants exist, so confirm the length on the package before ordering." }
                 ]
             },
             ar: {
@@ -139,7 +139,7 @@ export const anker_powerline_usb_c_lightning = {
                     { question: "هل يعمل مع Apple CarPlay؟", answer: "يمكنه نقل البيانات لأنظمة CarPlay المتوافقة، لكن راجع متطلبات السيارة أو وحدة العرض وطابق موديل الكابل." },
                     { question: "هل يعمل مع ايفون 15 أو 16 أو 17؟", answer: "لا. هذه الموديلات تستخدم USB-C بينما ينتهي هذا الكابل بموصل Lightning. اختر كابل USB-C إلى USB-C مصنفاً." },
                     { question: "كيف أقارنه بكابل آخر؟", answer: "قارن الموصل والطول وحالة MFi المثبتة والتصميم والسعر والضمان الحالي. رقم دورات الثني لا يعد بعمر ثابت." },
-                    { question: "ما الأطوال المتاحة؟", answer: "أكد طول نسخة A8612H11 الموردة على العبوة قبل الطلب." }
+                    { question: "ما الأطوال المتاحة؟", answer: "نسخة A8612H11 المخزّنة مدرجة بطول 0.9 م (3 أقدام)، وقِسناها 93.6 سم من طرف الموصل إلى طرفه. توجد نسخ PowerLine بطول 1.8 م، فأكد الطول على العبوة قبل الطلب." }
                 ]
             }
         },

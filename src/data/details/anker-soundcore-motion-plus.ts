@@ -13,18 +13,20 @@ import type { ProductDetail } from './_types';
 export const anker_soundcore_motion_plus_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Soundcore Motion+ (A3116011): portable 30W directional stereo Bluetooth bar — dual neodymium woofers + dual UHF tweeters + passive radiators, manufacturer Hi-Res Audio mark, Qualcomm aptX over BT 5.0, 3.5mm AUX, BassUp, Soundcore-app EQ, TWS stereo pairing, vendor IPX7. Battery math: 6,700 mAh × 3.7 V ≈ 24.8 Wh (Soundcore / manual). That envelope supports the “up to 12h” claim at moderate volume (~2.1 W average draw class).',
-            'Playtime honesty (Timer+, BassUp OFF, SBC loop): CairoVolt measured 11h 28min @ 50% volume — −4.4% vs 12h, inside §7.7-B ±15%. At 100% volume: 5h 52min (~51% of the 50% figure — inside §7.7-C 40–60%). BassUp ON @ 50% cost a measured battery tax: 10h 41min (~7% shorter). Full USB-C charge 0→100% = 3h 54min at ~5.05 V / 1.92 A / ~9.7 W (FNB58) vs ~4h guide — plain 5V/2A-class input, not PD PPS.',
+            'Soundcore Motion+ (A3116011) is a 30W portable stereo Bluetooth speaker with a manufacturer Hi-Res Audio mark, aptX, 3.5mm AUX and vendor-listed IPX7. We measured 11h 28min at 50% volume (claim: up to 12h). It suits desk and balcony listening where sound quality matters more than lights.',
+            'Hardware detail: dual neodymium woofers + dual UHF tweeters + passive radiators, Qualcomm aptX over BT 5.0, BassUp, Soundcore-app EQ, TWS stereo pairing. Battery math: 6,700 mAh × 3.7 V ≈ 24.8 Wh (Soundcore / manual) — an envelope that supports the “up to 12h” claim at moderate volume (~2.1 W average draw class).',
+            'Playtime honesty (Timer+, BassUp OFF, SBC loop): CairoVolt measured 11h 28min @ 50% volume — −4.4% vs 12h, inside ±15%. At 100% volume: 5h 52min (~51% of the 50% figure — inside 40–60%). BassUp ON @ 50% cost a measured battery tax: 10h 41min (~7% shorter). Full USB-C charge 0→100% = 3h 54min at ~5.05 V / 1.92 A / ~9.7 W (FNB58) vs ~4h guide — plain 5V/2A-class input, not PD PPS.',
             'Codec truth: SBC + aptX VERIFIED on our bench (Galaxy S24 developer Bluetooth menu + Soundcore App). NO LDAC (LDAC is Motion X500/X600 — different SKUs). NO AAC — iPhone falls back to SBC (SoundGuys concurs; we reproduced). Wired AUX bypasses Bluetooth codecs entirely.',
-            'Sibling honesty: Motion+ = Hi-Res / aptX listening bar. Flare 2 = 20W 360° LED + PartyCast cylinder. Rave 3 = ~10 kg karaoke PA. Select 4 Go = ~5W beach-bag mono. Do not cross-shop. IPX7 is VENDOR-STATED — CairoVolt did NOT wet-test (§7.7-F). No dust digit (IPX7 ≠ IP67).',
-            '§11.3 / §7.7-G red-flag: NO invented dB / SPL / SNR / ms. Sound notes are qualitative bilingual prose only. TWS NOT measured (single sample). NOT recalled — anker.com/product-recalls + cpsc.gov checked 2026-07-24 (A3116011 ≠ CPSC 25-056 A3102/A3302).',
+            'Sibling honesty: Motion+ = Hi-Res / aptX listening bar. Flare 2 = 20W 360° LED + PartyCast cylinder. Rave 3 = ~10 kg karaoke PA. Select 4 Go = ~5W beach-bag mono. Do not cross-shop. IPX7 is VENDOR-STATED — CairoVolt did NOT wet-test. No dust digit (IPX7 ≠ IP67).',
+            'Red-flag: NO invented dB / SPL / SNR / ms. Sound notes are qualitative bilingual prose only. TWS NOT measured (single sample). NOT recalled — anker.com/product-recalls + cpsc.gov checked 2026-07-24 (A3116011 ≠ CPSC 25-056 A3102/A3302).',
         ],
         ar: [
-            'ساوندكور Motion+ (A3116011): شريط بلوتوث ستيريو اتجاهي محمول 30 واط — ووفران نيوديميوم + تويترا UHF + مشعات سلبية، علامة Hi-Res Audio من المصنّع، Qualcomm aptX عبر BT 5.0، AUX 3.5mm، BassUp، EQ بالتطبيق، ربط TWS، IPX7 من البائع. حساب البطارية: 6,700 مللي أمبير × 3.7 فولت ≈ 24.8Wh (Soundcore / الدليل). هذا المظروف يدعم ادعاء «حتى 12 ساعة» عند صوت معتدل (فئة سحب متوسط ~2.1 واط).',
-            'صدق زمن التشغيل (Timer+، BassUp مطفأ، حلقة SBC): قاست CairoVolt 11س 28د @ 50% صوت — −4.4% مقابل 12 ساعة، داخل §7.7-B ±15%. عند 100%: 5س 52د (~51% من رقم 50% — داخل §7.7-C 40–60%). BassUp مفعّل @ 50% كلّف ضريبة بطارية مقاسة: 10س 41د (~7% أقصر). شحن USB-C كامل 0→100% = 3س 54د عند ~5.05V / 1.92A / ~9.7 واط (FNB58) مقابل دليل ~4 ساعات — دخل فئة 5V/2A عادي، ليس PD PPS.',
+            'ساوندكور Motion+ (A3116011) سماعة بلوتوث ستيريو محمولة 30 واط بعلامة Hi-Res Audio من المصنّع وaptX وAUX 3.5mm وIPX7 معلن من البائع. قِسنا 11 ساعة و28 دقيقة عند 50% صوت (الادعاء حتى 12 ساعة). تناسب الاستماع على المكتب والبلكونة حين تهم جودة الصوت أكثر من الإضاءة.',
+            'تفصيل العتاد: ووفران نيوديميوم + تويترا UHF + مشعات سلبية، Qualcomm aptX عبر BT 5.0، BassUp، EQ بالتطبيق، ربط TWS. حساب البطارية: 6,700 مللي أمبير × 3.7 فولت ≈ 24.8Wh (Soundcore / الدليل) — مظروف يدعم ادعاء «حتى 12 ساعة» عند صوت معتدل (فئة سحب متوسط ~2.1 واط).',
+            'صدق زمن التشغيل (Timer+، BassUp مطفأ، حلقة SBC): قاست CairoVolt 11س 28د @ 50% صوت — −4.4% مقابل 12 ساعة، داخل ±15%. عند 100%: 5س 52د (~51% من رقم 50% — داخل 40–60%). BassUp مفعّل @ 50% كلّف ضريبة بطارية مقاسة: 10س 41د (~7% أقصر). شحن USB-C كامل 0→100% = 3س 54د عند ~5.05V / 1.92A / ~9.7 واط (FNB58) مقابل دليل ~4 ساعات — دخل فئة 5V/2A عادي، ليس PD PPS.',
             'حقيقة الكودك: SBC + aptX مؤكَّدان على مقعدنا (قائمة Bluetooth للمطوّرين على Galaxy S24 + تطبيق Soundcore). بلا LDAC (LDAC في Motion X500/X600 — SKUs مختلفة). بلا AAC — iPhone يرتد إلى SBC (SoundGuys توافق؛ أعدنا الإنتاج). AUX السلكي يتجاوز كودكات البلوتوث بالكامل.',
-            'صدق الأشقاء: Motion+ = شريط استماع Hi-Res / aptX. Flare 2 = أسطوانة 20 واط 360° LED + PartyCast. Rave 3 = PA كاريوكي ~10 كجم. Select 4 Go = مونو شنطة شاطئ ~5 واط. لا تتسوق بالتبادل. IPX7 معلن من البائع — CairoVolt لم يختبر الماء (§7.7-F). بلا رقم غبار (IPX7 ≠ IP67).',
-            'علم أحمر §11.3 / §7.7-G: بلا اختراع ديسيبل / SPL / SNR / ملّي ثانية. ملاحظات الصوت نثر ثنائي اللغة نوعي فقط. TWS لم يُقس (عينة واحدة). لا استدعاء — فحص anker.com/product-recalls + cpsc.gov في 2026-07-24 (A3116011 ≠ CPSC 25-056 A3102/A3302).',
+            'صدق الأشقاء: Motion+ = شريط استماع Hi-Res / aptX. Flare 2 = أسطوانة 20 واط 360° LED + PartyCast. Rave 3 = PA كاريوكي ~10 كجم. Select 4 Go = مونو شنطة شاطئ ~5 واط. لا تتسوق بالتبادل. IPX7 معلن من البائع — CairoVolt لم يختبر الماء. بلا رقم غبار (IPX7 ≠ IP67).',
+            'علم أحمر: بلا اختراع ديسيبل / SPL / SNR / ملّي ثانية. ملاحظات الصوت نثر ثنائي اللغة نوعي فقط. TWS لم يُقس (عينة واحدة). لا استدعاء — فحص anker.com/product-recalls + cpsc.gov في 2026-07-24 (A3116011 ≠ CPSC 25-056 A3102/A3302).',
         ],
     },
     localContext: {
@@ -57,12 +59,12 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
             ar: '6,700 مللي أمبير × 3.7 فولت ≈ 24.8Wh Li-ion (Soundcore / الدليل). مظروف فيزياء لادعاء 12 ساعة ≈ ~2.1 واط سحب متوسط عند شروط التقييم — ليست Wh من تفكيك.',
         },
         'Playtime — 50% volume (measured)': {
-            en: '11h 28min BassUp OFF (Soundcore-rated up to 12h — within §7.7-B ±15%)',
-            ar: '11س 28د BassUp مطفأ (ساوندكور حتى 12 ساعة — ضمن §7.7-B ±15%)',
+            en: '11h 28min BassUp OFF (Soundcore-rated up to 12h — within ±15%)',
+            ar: '11س 28د BassUp مطفأ (ساوندكور حتى 12 ساعة — ضمن ±15%)',
         },
         'Playtime — 100% volume (measured)': {
-            en: '5h 52min BassUp OFF (~51% of 50% run — inside §7.7-C 40–60% band)',
-            ar: '5س 52د BassUp مطفأ (~51% من تشغيل 50% — داخل نطاق §7.7-C 40–60%)',
+            en: '5h 52min BassUp OFF (~51% of 50% run — inside 40–60% band)',
+            ar: '5س 52د BassUp مطفأ (~51% من تشغيل 50% — داخل نطاق 40–60%)',
         },
         'Playtime — BassUp tax @ 50% (measured)': {
             en: '10h 41min BassUp ON — ~7% shorter than BassUp-OFF @50%',
@@ -77,20 +79,20 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
             ar: 'SBC + Qualcomm aptX على Galaxy S24. بلا LDAC. بلا AAC (iPhone → SBC). أكّد على جهاز المصدر.',
         },
         'Bluetooth': {
-            en: 'BT 5.0 + multipoint (2 devices) + TWS stereo pairing of two Motion+ units. Vendor “30m” is outdoor-LOS marketing; Class-2 indoor physics applies (§8).',
-            ar: 'BT 5.0 + multipoint (جهازان) + ربط TWS ستيريو لوحدتَي Motion+. «30م» من البائع تسويق خط رؤية خارجي؛ تطبّق فيزياء Class 2 داخليًا (§8).',
+            en: 'BT 5.0 + multipoint (2 devices) + TWS stereo pairing of two Motion+ units. Vendor “30m” is outdoor-LOS marketing; Class-2 indoor physics applies.',
+            ar: 'BT 5.0 + multipoint (جهازان) + ربط TWS ستيريو لوحدتَي Motion+. «30م» من البائع تسويق خط رؤية خارجي؛ تطبّق فيزياء Class 2 داخليًا.',
         },
         'AUX': {
             en: '3.5mm AUX input — verified wired playback from laptop / phone dongle; bypasses BT codecs',
             ar: 'مدخل AUX 3.5mm — تشغيل سلكي مؤكَّد من لابتوب / محول هاتف؛ يتجاوز كودكات البلوتوث',
         },
         'Water Resistance': {
-            en: 'IPX7 vendor-stated (fresh water per manual; close port flap). NO dust rating (not IP67). CairoVolt did NOT wet-test (§7.7-F). Never charge while wet.',
-            ar: 'IPX7 من البائع (ماء عذب وفق الدليل؛ أغلق غطاء المنفذ). بلا تصنيف غبار (ليس IP67). CairoVolt لم يختبر الماء (§7.7-F). لا تشحن وهي مبللة.',
+            en: 'IPX7 vendor-stated (fresh water per manual; close port flap). NO dust rating (not IP67). CairoVolt did NOT wet-test. Never charge while wet.',
+            ar: 'IPX7 من البائع (ماء عذب وفق الدليل؛ أغلق غطاء المنفذ). بلا تصنيف غبار (ليس IP67). CairoVolt لم يختبر الماء. لا تشحن وهي مبللة.',
         },
         'Weight (measured)': {
-            en: '1,048 g on Kkmoon (vendor 1.05 kg / 1,050 g — within §7.7-A ±5%)',
-            ar: '1,048 جم على Kkmoon (البائع 1.05 كجم / 1,050 جم — ضمن §7.7-A ±5%)',
+            en: '1,048 g on Kkmoon (vendor 1.05 kg / 1,050 g — within ±5%)',
+            ar: '1,048 جم على Kkmoon (البائع 1.05 كجم / 1,050 جم — ضمن ±5%)',
         },
         'Dimensions (measured)': {
             en: '256.9 × 79.1 × 80.8 mm Mitutoyo (vendor 257 × 79 × 81 mm — within ±5%)',
@@ -123,12 +125,12 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
             ar: 'وحدة تجزئة واحدة A3116011 · مختبر كايرو فولت، القاهرة الجديدة · محيط 28.1°م / 44% رطوبة (HTC-2) · جهد الحائط 222 فولت (UT61E) · مصدرا بلوتوث لفصل مسارَي الكودك: Samsung Galaxy S24 (صحة بطارية 96%، مسار aptX) وApple iPhone 15 (صحة بطارية 92%، مسار SBC — Motion+ بلا AAC) · مصدر AUX: MacBook USB-C → محول 3.5mm · BassUp مطفأ وEQ ساوندكور الافتراضي إلا إذا ذُكر خلاف ذلك · شاحن Anker A2147 30W GaN + كابل Anker A8865 لتسجيل شحن USB-C · لا مقياس SPL/ديسيبل/SNR معاير · بلا غمر مسبح',
         },
         methodology: {
-            en: 'ELEVATED §7.7 (Speakers — Bluetooth / Wired) gold deepen for A3116011 with §8 / §11 enforced — Battery physics + red-flag gate; NO invented dB/SPL/SNR/ms; IP cited from manufacturer only. (A) WEIGHT + DIMENSIONS: Kkmoon 0.01g scale + Mitutoyo caliper vs vendor 1.05 kg / 257×79×81 mm (±5%). (B) PLAYTIME @50% volume: full charge → rest 30 min → Bluetooth SBC loop playlist at fixed 50% hardware volume, BassUp OFF, until auto power-off; Timer+ stopwatch. (C) PLAYTIME @100% volume: identical playlist/source after full recharge — loud-party tax; expect 40–60% of the 50% figure. Extra: 50% with BassUp ON to quantify DSP bass tax. (D) FULL CHARGE TIME: FNB58 inline on USB-C from flat LED indication to 100% / charge-complete; adapter ≥5V/2A per manual; log V/A/W + cumulative Wh. (E) BT RANGE: fibreglass tape walk — apartment concrete walls to first drop, then balcony LOS; Class 2 envelope. Reject vendor "30m" as indoor claim. (F) IPX7: NOT tested — cite Soundcore/manual only. (G) SOUND QUALITY qualitative in three settings: quiet lab room, café with moderate chatter/AC, outdoor balcony — descriptive only. EXTRA (codec/AUX/multipoint): Soundcore App + Android developer Bluetooth codec menu confirm aptX on S24; iPhone path shows SBC only; LDAC absent; 3.5mm AUX verified; multipoint iPhone 15 + Galaxy A55 handoff observed; BassUp button toggles audible bass lift (qualitative). INDEPENDENT CORROBORATION (not our data): soundcore.com/products/a3116011 (30W, Hi-Res, aptX, IPX7, 12h, AUX, BT 5.0); SoundGuys Motion+ review (SBC/aptX, no AAC, multipoint, 16h 13min under their 75 dB(SPL) peak protocol, ~4h charge) — CITED; Cubed3 specs table (SBC/aptX, 6,700 mAh). RECALL: anker.com/product-recalls + cpsc.gov checked 2026-07-24 — A3116011 not listed; CPSC 25-056 is A3102/A3302 only. HONEST LIMITS: single unit, batches may vary; no calibrated SPL/SNR chamber; no A/V-sync tester; IPX7 not destructively verified; TWS needs a second unit (not run this cycle).',
-            ar: 'تعميق ذهب §7.7 (السماعات — بلوتوث / سلكي) لـ A3116011 مع تطبيق §8 / §11 — فيزياء البطارية + بوابة علم أحمر؛ بلا اختراع ديسيبل/SPL/SNR/ملّي ثانية؛ IP من شهادة المصنّع فقط. (A) الوزن + الأبعاد: ميزان Kkmoon 0.01 جم + قدمة Mitutoyo مقابل بائع 1.05 كجم / 257×79×81 ملم (±5%). (B) زمن التشغيل عند صوت 50%: شحن كامل → راحة 30 دقيقة → قائمة بلوتوث SBC بحجم عتاد ثابت 50%، BassUp مطفأ، حتى الإطفاء التلقائي؛ ساعة Timer+. (C) زمن التشغيل عند صوت 100%: نفس القائمة/المصدر بعد إعادة شحن كاملة — ضريبة الحفلة الصاخبة؛ المتوقع 40–60% من رقم 50%. إضافي: 50% مع BassUp مفعّل لقياس ضريبة باس DSP. (D) زمن الشحن الكامل: FNB58 على خط USB-C من إشارة LED الفارغة إلى سلوك 100% / اكتمال الشحن؛ محول ≥5V/2A وفق الدليل؛ تسجيل V/A/W + Wh تراكمي. (E) مدى BT: مشي بمازورة قماش — جدران شقة خرسانية حتى أول انقطاع، ثم شرفة خط رؤية؛ مغلف Class 2. ارفض "30م" من البائع كادعاء داخلي. (F) IPX7: لم يُختبر — استشهاد Soundcore/الدليل فقط. (G) جودة صوت نوعية في ثلاثة أوضاع: غرفة مختبر هادئة، مقهى بضجيج/تكييف متوسط، شرفة خارجية — وصفي فقط. إضافي (كودك/AUX/multipoint): تطبيق Soundcore + قائمة كودك Bluetooth للمطوّرين على أندرويد تؤكد aptX على S24؛ مسار iPhone يظهر SBC فقط؛ LDAC غائب؛ AUX 3.5mm مؤكَّد؛ multipoint iPhone 15 + Galaxy A55 مع تبديل ملحوظ؛ زر BassUp يرفع الباس مسموعًا (نوعي). الاسترجاع المستقل (وليست بياناتنا): soundcore.com/products/a3116011 (30 واط، Hi-Res، aptX، IPX7، 12 ساعة، AUX، BT 5.0)؛ مراجعة SoundGuys (SBC/aptX، بلا AAC، multipoint، 16س 13د تحت بروتوكولهم 75 dB(SPL) ذروة، شحن ~4 ساعات) — مُستشهد؛ جدول مواصفات Cubed3 (SBC/aptX، 6,700 مللي أمبير). الاستدعاء: فحص anker.com/product-recalls + cpsc.gov في 2026-07-24 — A3116011 غير مدرج؛ CPSC 25-056 يخص A3102/A3302 فقط. الحدود الأمينة: وحدة واحدة وقد تختلف الدفعات؛ بلا غرفة SPL/SNR معايرة؛ بلا جهاز مزامنة صوت-فيديو؛ IPX7 غير مُتحقَّق تدميريًا؛ TWS يحتاج وحدة ثانية (لم يُجرَ هذه الدورة).',
+            en: 'ELEVATED (Speakers — Bluetooth / Wired) gold deepen for A3116011 with the enforced — Battery physics + red-flag gate; NO invented dB/SPL/SNR/ms; IP cited from manufacturer only. (A) WEIGHT + DIMENSIONS: Kkmoon 0.01g scale + Mitutoyo caliper vs vendor 1.05 kg / 257×79×81 mm (±5%). (B) PLAYTIME @50% volume: full charge → rest 30 min → Bluetooth SBC loop playlist at fixed 50% hardware volume, BassUp OFF, until auto power-off; Timer+ stopwatch. (C) PLAYTIME @100% volume: identical playlist/source after full recharge — loud-party tax; expect 40–60% of the 50% figure. Extra: 50% with BassUp ON to quantify DSP bass tax. (D) FULL CHARGE TIME: FNB58 inline on USB-C from flat LED indication to 100% / charge-complete; adapter ≥5V/2A per manual; log V/A/W + cumulative Wh. (E) BT RANGE: fibreglass tape walk — apartment concrete walls to first drop, then balcony LOS; Class 2 envelope. Reject vendor "30m" as indoor claim. (F) IPX7: NOT tested — cite Soundcore/manual only. (G) SOUND QUALITY qualitative in three settings: quiet lab room, café with moderate chatter/AC, outdoor balcony — descriptive only. EXTRA (codec/AUX/multipoint): Soundcore App + Android developer Bluetooth codec menu confirm aptX on S24; iPhone path shows SBC only; LDAC absent; 3.5mm AUX verified; multipoint iPhone 15 + Galaxy A55 handoff observed; BassUp button toggles audible bass lift (qualitative). INDEPENDENT CORROBORATION (not our data): soundcore.com/products/a3116011 (30W, Hi-Res, aptX, IPX7, 12h, AUX, BT 5.0); SoundGuys Motion+ review (SBC/aptX, no AAC, multipoint, 16h 13min under their 75 dB(SPL) peak protocol, ~4h charge) — CITED; Cubed3 specs table (SBC/aptX, 6,700 mAh). RECALL: anker.com/product-recalls + cpsc.gov checked 2026-07-24 — A3116011 not listed; CPSC 25-056 is A3102/A3302 only. HONEST LIMITS: single unit, batches may vary; no calibrated SPL/SNR chamber; no A/V-sync tester; IPX7 not destructively verified; TWS needs a second unit (not run this cycle).',
+            ar: 'تعميق ذهب (السماعات — بلوتوث / سلكي) لـ A3116011 مع تطبيق — فيزياء البطارية + بوابة علم أحمر؛ بلا اختراع ديسيبل/SPL/SNR/ملّي ثانية؛ IP من شهادة المصنّع فقط. (A) الوزن + الأبعاد: ميزان Kkmoon 0.01 جم + قدمة Mitutoyo مقابل بائع 1.05 كجم / 257×79×81 ملم (±5%). (B) زمن التشغيل عند صوت 50%: شحن كامل → راحة 30 دقيقة → قائمة بلوتوث SBC بحجم عتاد ثابت 50%، BassUp مطفأ، حتى الإطفاء التلقائي؛ ساعة Timer+. (C) زمن التشغيل عند صوت 100%: نفس القائمة/المصدر بعد إعادة شحن كاملة — ضريبة الحفلة الصاخبة؛ المتوقع 40–60% من رقم 50%. إضافي: 50% مع BassUp مفعّل لقياس ضريبة باس DSP. (D) زمن الشحن الكامل: FNB58 على خط USB-C من إشارة LED الفارغة إلى سلوك 100% / اكتمال الشحن؛ محول ≥5V/2A وفق الدليل؛ تسجيل V/A/W + Wh تراكمي. (E) مدى BT: مشي بمازورة قماش — جدران شقة خرسانية حتى أول انقطاع، ثم شرفة خط رؤية؛ مغلف Class 2. ارفض "30م" من البائع كادعاء داخلي. (F) IPX7: لم يُختبر — استشهاد Soundcore/الدليل فقط. (G) جودة صوت نوعية في ثلاثة أوضاع: غرفة مختبر هادئة، مقهى بضجيج/تكييف متوسط، شرفة خارجية — وصفي فقط. إضافي (كودك/AUX/multipoint): تطبيق Soundcore + قائمة كودك Bluetooth للمطوّرين على أندرويد تؤكد aptX على S24؛ مسار iPhone يظهر SBC فقط؛ LDAC غائب؛ AUX 3.5mm مؤكَّد؛ multipoint iPhone 15 + Galaxy A55 مع تبديل ملحوظ؛ زر BassUp يرفع الباس مسموعًا (نوعي). الاسترجاع المستقل (وليست بياناتنا): soundcore.com/products/a3116011 (30 واط، Hi-Res، aptX، IPX7، 12 ساعة، AUX، BT 5.0)؛ مراجعة SoundGuys (SBC/aptX، بلا AAC، multipoint، 16س 13د تحت بروتوكولهم 75 dB(SPL) ذروة، شحن ~4 ساعات) — مُستشهد؛ جدول مواصفات Cubed3 (SBC/aptX، 6,700 مللي أمبير). الاستدعاء: فحص anker.com/product-recalls + cpsc.gov في 2026-07-24 — A3116011 غير مدرج؛ CPSC 25-056 يخص A3102/A3302 فقط. الحدود الأمينة: وحدة واحدة وقد تختلف الدفعات؛ بلا غرفة SPL/SNR معايرة؛ بلا جهاز مزامنة صوت-فيديو؛ IPX7 غير مُتحقَّق تدميريًا؛ TWS يحتاج وحدة ثانية (لم يُجرَ هذه الدورة).',
         },
         equipment: [
             { name: 'FNIRSI FNB58 (fw v1.3)', use: { en: 'USB-C charge logging — V/A/W, cumulative Wh, negotiation (5V-class path)', ar: 'تسجيل شحن USB-C — V/A/W، Wh التراكمي، التفاوض (مسار فئة 5V)' } },
-            { name: 'Kkmoon 0.01g digital scale', use: { en: 'Speaker mass vs vendor 1.05 kg (§7.7-A)', ar: 'كتلة السبيكر مقابل بائع 1.05 كجم (§7.7-A)' } },
+            { name: 'Kkmoon 0.01g digital scale', use: { en: 'Speaker mass vs vendor 1.05 kg', ar: 'كتلة السبيكر مقابل بائع 1.05 كجم' } },
             { name: 'Mitutoyo digital caliper', use: { en: 'Enclosure dimensions vs vendor 257 × 79 × 81 mm', ar: 'أبعاد الهيكل مقابل بائع 257 × 79 × 81 ملم' } },
             { name: 'HTC-2 ambient temp/RH probe', use: { en: 'Lab ambient temperature + relative humidity', ar: 'حرارة المحيط + رطوبة نسبية في المختبر' } },
             { name: 'BENETECH GM320 IR thermometer (ε=0.95)', use: { en: 'Enclosure surface temp near USB-C during charge', ar: 'حرارة سطح الهيكل قرب USB-C أثناء الشحن' } },
@@ -138,7 +140,7 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
             { name: 'Apple iPhone 15 (battery health 92%)', use: { en: 'SBC source path (no AAC on Motion+) + multipoint host', ar: 'مسار مصدر SBC (بلا AAC على Motion+) + مستضيف multipoint' } },
             { name: 'Samsung Galaxy A55', use: { en: 'Multipoint peer for handoff check', ar: 'طرف multipoint لفحص التبديل' } },
             { name: 'MacBook + USB-C→3.5mm dongle', use: { en: 'Wired AUX playback verification', ar: 'تحقق تشغيل AUX السلكي' } },
-            { name: 'Timer app (Timer+) + written log', use: { en: 'Stopwatch for playtime + charge-time (§7.7 B–D)', ar: 'ساعة إيقاف لزمن التشغيل + زمن الشحن (§7.7 B–D)' } },
+            { name: 'Timer app (Timer+) + written log', use: { en: 'Stopwatch for playtime + charge-time', ar: 'ساعة إيقاف لزمن التشغيل + زمن الشحن' } },
             { name: 'Anker A2147 30W GaN + A8865 cable', use: { en: 'Wall source for USB-C charge test (≥5V/2A capable)', ar: 'مصدر حائط لاختبار شحن USB-C (قادر على ≥5V/2A)' } },
             { name: 'Soundcore App (iOS + Android)', use: { en: 'EQ / BassUp / firmware / connection helpers', ar: 'EQ / BassUp / البرنامج / مساعدات الاتصال' } },
         ],
@@ -148,8 +150,8 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
                 rated: '6,700 mAh × 3.7 V ≈ 24.8 Wh',
                 measured: { en: '— (destructive teardown not run)', ar: '— (تفكيك تدميري لم يُجرَ)' },
                 note: {
-                    en: '§8 envelope: 24.8 Wh supports ~12h @ ~2.1 W average draw class; FNB58 charge-in 27.9 Wh ≈ 85–90% conversion',
-                    ar: 'مغلف §8: 24.8Wh تدعم ~12 ساعة بفئة سحب متوسط ~2.1 واط؛ دخل شحن FNB58 27.9Wh ≈ كفاءة 85–90%',
+                    en: 'Envelope: 24.8 Wh supports ~12h @ ~2.1 W average draw class; FNB58 charge-in 27.9 Wh ≈ 85–90% conversion',
+                    ar: 'مغلف: 24.8Wh تدعم ~12 ساعة بفئة سحب متوسط ~2.1 واط؛ دخل شحن FNB58 27.9Wh ≈ كفاءة 85–90%',
                 },
             },
             {
@@ -157,16 +159,16 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
                 rated: 'Soundcore: up to 12h',
                 measured: '11h 28min',
                 note: {
-                    en: '−4.4% vs rated — within §7.7-B ±15%; SBC loop, Galaxy S24; ~2.16 W average from 24.8 Wh',
-                    ar: '−4.4% مقابل الاسمي — ضمن §7.7-B ±15%؛ حلقة SBC، Galaxy S24؛ ~2.16 واط متوسط من 24.8Wh',
+                    en: '−4.4% vs rated — within ±15%; SBC loop, Galaxy S24; ~2.16 W average from 24.8 Wh',
+                    ar: '−4.4% مقابل الاسمي — ضمن ±15%؛ حلقة SBC، Galaxy S24؛ ~2.16 واط متوسط من 24.8Wh',
                 },
             },
             {
                 param: { en: 'Playtime @ 100% volume (BT, BassUp OFF)', ar: 'زمن التشغيل عند صوت 100% (بلوتوث، BassUp مطفأ)' },
                 measured: '5h 52min',
                 note: {
-                    en: '~51% of 50% run — inside §7.7-C expected 40–60% band (loud-party battery tax)',
-                    ar: '~51% من تشغيل 50% — داخل نطاق §7.7-C المتوقع 40–60% (ضريبة بطارية الحفلة الصاخبة)',
+                    en: '~51% of 50% run — inside the expected 40–60% band (loud-party battery tax)',
+                    ar: '~51% من تشغيل 50% — داخل النطاق المتوقع 40–60% (ضريبة بطارية الحفلة الصاخبة)',
                 },
             },
             {
@@ -199,21 +201,21 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
                 param: { en: 'Charge energy in (FNB58 cumulative)', ar: 'طاقة الشحن الداخلة (تراكمي FNB58)' },
                 measured: { en: '27.9 Wh in to fill from flat', ar: '27.9Wh دخل لملء من فارغ' },
                 note: {
-                    en: 'Consistent with ~24.8 Wh cell @ ~85–90% charge conversion (§8)',
-                    ar: 'متسق مع خلية ~24.8Wh بكفاءة شحن ~85–90% (§8)',
+                    en: 'Consistent with ~24.8 Wh cell @ ~85–90% charge conversion',
+                    ar: 'متسق مع خلية ~24.8Wh بكفاءة شحن ~85–90%',
                 },
             },
             {
                 param: { en: 'Mass', ar: 'الكتلة' },
                 rated: '1.05 kg (1,050 g)',
                 measured: '1,048 g',
-                note: { en: 'Kkmoon 0.01g; −0.2% vs vendor — within §7.7-A ±5%', ar: 'Kkmoon 0.01 جم؛ −0.2% مقابل البائع — ضمن §7.7-A ±5%' },
+                note: { en: 'Kkmoon 0.01g; −0.2% vs vendor — within ±5%', ar: 'Kkmoon 0.01 جم؛ −0.2% مقابل البائع — ضمن ±5%' },
             },
             {
                 param: { en: 'Dimensions (L × W × H)', ar: 'الأبعاد (ط × ع × ا)' },
                 rated: '257 × 79 × 81 mm',
                 measured: '256.9 × 79.1 × 80.8 mm',
-                note: { en: 'Mitutoyo; within §7.7-A ±5%', ar: 'Mitutoyo؛ ضمن §7.7-A ±5%' },
+                note: { en: 'Mitutoyo; within ±5%', ar: 'Mitutoyo؛ ضمن ±5%' },
             },
             {
                 param: { en: 'Enclosure temp during charge', ar: 'حرارة الهيكل أثناء الشحن' },
@@ -225,8 +227,8 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
                 rated: 'Vendor “30m” / Class-2 indoor ~8–12m',
                 measured: '9.6m',
                 note: {
-                    en: 'First audio drop; Class 2 indoor envelope (§7.7-E / §8) — reject 30m as apartment claim',
-                    ar: 'أول انقطاع صوت؛ مغلف Class 2 الداخلي (§7.7-E / §8) — ارفض 30م كادعاء شقة',
+                    en: 'First audio drop; Class 2 indoor envelope — reject 30m as apartment claim',
+                    ar: 'أول انقطاع صوت؛ مغلف Class 2 الداخلي — ارفض 30م كادعاء شقة',
                 },
             },
             {
@@ -290,27 +292,27 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
                     ar: 'رفع مسموع للترددات المنخفضة عند التبديل (نوعي)',
                 },
                 note: {
-                    en: '§11.3: NO dB/SNR figure for the lift',
-                    ar: '§11.3: بلا رقم ديسيبل/SNR للرفع',
+                    en: 'NO dB/SNR figure for the lift',
+                    ar: 'بلا رقم ديسيبل/SNR للرفع',
                 },
             },
             {
-                param: { en: 'Sound quality — quiet room / café / balcony (§7.7-G)', ar: 'جودة الصوت — غرفة هادئة / مقهى / شرفة (§7.7-G)' },
+                param: { en: 'Sound quality — quiet room / café / balcony', ar: 'جودة الصوت — غرفة هادئة / مقهى / شرفة' },
                 measured: {
                     en: '(1) quiet lab: clear mids/treble; default EQ lean on deep bass; BassUp fills low end for pop/EDM without muddying vocals at 50%. (2) café chatter+AC: podcast speech holds ~50–60% volume; music needs a notch up. (3) outdoor balcony: directional beam favors facing listeners; wind masks quiet passages. NO dB/SPL/SNR published.',
                     ar: '(1) مختبر هادئ: وسط/تربل واضحان؛ EQ الافتراضي خفيف على الباس العميق؛ BassUp يملأ المنخفض لـ pop/EDM دون طمس الغناء عند 50%. (2) مقهى كلام+تكييف: وضوح البودكاست يثبت عند ~50–60%؛ الموسيقى تحتاج درجة أعلى. (3) شرفة خارجية: الحزمة الاتجاهية تفضّل المستمعين المواجهين؛ الرياح تحجب المقاطع الهادئة. بلا نشر ديسيبل/SPL/SNR.',
                 },
                 note: {
-                    en: '§11.3 / §7.7-G red-flag — qualitative only; SoundGuys 75 dB(SPL) is THEIR cited protocol, not ours',
-                    ar: 'علم أحمر §11.3 / §7.7-G — نوعي فقط؛ 75 dB(SPL) لدى SoundGuys بروتوكولهم المُستشهد، ليس بروتوكولنا',
+                    en: 'Red-flag — qualitative only; SoundGuys 75 dB(SPL) is THEIR cited protocol, not ours',
+                    ar: 'علم أحمر — نوعي فقط؛ 75 dB(SPL) لدى SoundGuys بروتوكولهم المُستشهد، ليس بروتوكولنا',
                 },
             },
             {
                 param: { en: 'IPX rating', ar: 'تصنيف IPX' },
                 rated: 'IPX7 (Soundcore / manual)',
                 measured: {
-                    en: '— (destructive; not run per §7.7-F)',
-                    ar: '— (تدميري؛ لم نُجرِه وفق §7.7-F)',
+                    en: '— (destructive; not run)',
+                    ar: '— (تدميري؛ لم نُجرِه)',
                 },
                 note: {
                     en: 'Fresh-water limits + closed USB-C flap; no IP dust digit — IPX7 ≠ IP67',
@@ -350,13 +352,13 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
             },
         ],
         verdict: {
-            en: 'Motion+ hit 11h 28min @50% (−4.4% vs 12h) and 5h 52min @100% (inside §7.7-C). BassUp tax ~7% at 50%. Charge 3h 54min @ ~9.7W 5V-class. aptX verified; no LDAC/AAC. IPX7 vendor-only; no dB/SNR invented. Hi-Res bar — not Flare 2 / Rave 3. Not recalled.',
-            ar: 'Motion+ حققت 11س 28د @50% (−4.4% مقابل 12 ساعة) و5س 52د @100% (داخل §7.7-C). ضريبة BassUp ~7% عند 50%. شحن 3س 54د عند ~9.7 واط فئة 5V. aptX مؤكَّد؛ بلا LDAC/AAC. IPX7 من البائع فقط؛ بلا ديسيبل/SNR مخترع. شريط Hi-Res — ليست Flare 2 / Rave 3. لا استدعاء.',
+            en: 'Motion+ hit 11h 28min @50% (−4.4% vs 12h) and 5h 52min @100% (inside the expected band). BassUp tax ~7% at 50%. Charge 3h 54min @ ~9.7W 5V-class. aptX verified; no LDAC/AAC. IPX7 vendor-only; no dB/SNR figures stated. Hi-Res bar — not Flare 2 / Rave 3. Not recalled.',
+            ar: 'Motion+ حققت 11س 28د @50% (−4.4% مقابل 12 ساعة) و5س 52د @100% (داخل النطاق المتوقع). ضريبة BassUp ~7% عند 50%. شحن 3س 54د عند ~9.7 واط فئة 5V. aptX مؤكَّد؛ بلا LDAC/AAC. IPX7 من البائع فقط؛ بلا أرقام ديسيبل/SNR. شريط Hi-Res — ليست Flare 2 / Rave 3. لا استدعاء.',
         },
         pros: [
             {
-                en: '11h 28min measured @ 50% BassUp OFF — inside §7.7-B ±15% of the 12h claim; 24.8 Wh physics tracks (~2.16 W average)',
-                ar: '11س 28د مقاسة @ 50% BassUp مطفأ — داخل §7.7-B ±15% من ادعاء 12 ساعة؛ فيزياء 24.8Wh تتسق (~2.16 واط متوسط)',
+                en: '11h 28min measured @ 50% BassUp OFF — inside ±15% of the 12h claim; 24.8 Wh physics tracks (~2.16 W average)',
+                ar: '11س 28د مقاسة @ 50% BassUp مطفأ — داخل ±15% من ادعاء 12 ساعة؛ فيزياء 24.8Wh تتسق (~2.16 واط متوسط)',
             },
             {
                 en: 'aptX VERIFIED on Galaxy S24 (developer Bluetooth codec menu + Soundcore App) — real codec path; iPhone honestly falls to SBC',
@@ -367,12 +369,12 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
                 ar: 'AUX 3.5mm مؤكَّد — مسار سلكي من لابتوب/محول هاتف يتجاوز كودكات البلوتوث؛ مفيد لمصادر TV/PC',
             },
             {
-                en: 'Charge 0→100% in 3h 54min at ~5.05V/1.92A (FNB58); 27.9 Wh in matches ~24.8 Wh cell @ ~85–90% (§8)',
-                ar: 'شحن 0→100% في 3س 54د عند ~5.05V/1.92A (FNB58)؛ 27.9Wh دخل يطابق خلية ~24.8Wh بكفاءة ~85–90% (§8)',
+                en: 'Charge 0→100% in 3h 54min at ~5.05V/1.92A (FNB58); 27.9 Wh in matches ~24.8 Wh cell @ ~85–90%',
+                ar: 'شحن 0→100% في 3س 54د عند ~5.05V/1.92A (FNB58)؛ 27.9Wh دخل يطابق خلية ~24.8Wh بكفاءة ~85–90%',
             },
             {
-                en: 'Mass 1,048 g and dims 256.9×79.1×80.8 mm match vendor within §7.7-A ±5% — packaging claims track the unit in hand',
-                ar: 'الكتلة 1,048 جم والأبعاد 256.9×79.1×80.8 ملم تطابق البائع ضمن §7.7-A ±5% — ادعاءات العبوة تطابق الوحدة في اليد',
+                en: 'Mass 1,048 g and dims 256.9×79.1×80.8 mm match vendor within ±5% — packaging claims track the unit in hand',
+                ar: 'الكتلة 1,048 جم والأبعاد 256.9×79.1×80.8 ملم تطابق البائع ضمن ±5% — ادعاءات العبوة تطابق الوحدة في اليد',
             },
             {
                 en: 'NOT recalled — verified 2026-07-24 vs anker.com/product-recalls + cpsc.gov (A3116011 ≠ A3102/A3302)',
@@ -393,24 +395,24 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
                 ar: 'بلا LDAC / بلا AAC — من يريد LDAC يحتاج Motion X500/X600؛ مسار BT لـ iPhone هو SBC فقط (استخدم AUX + محول للدقة السلكية).',
             },
             {
-                en: '100% volume playtime 5h 52min (~51% of 50%-vol) — expected §7.7-C; BassUp + loud drive is not free (10h 41min @50% BassUp ON).',
-                ar: 'زمن التشغيل عند 100% 5س 52د (~51% من 50%) — متوقع §7.7-C؛ BassUp + قيادة عالية ليست مجانية (10س 41د @50% BassUp مفعّل).',
+                en: '100% volume playtime 5h 52min (~51% of 50%-vol) — expected; BassUp + loud drive is not free (10h 41min @50% BassUp ON).',
+                ar: 'زمن التشغيل عند 100% 5س 52د (~51% من 50%) — متوقع؛ BassUp + قيادة عالية ليست مجانية (10س 41د @50% BassUp مفعّل).',
             },
             {
-                en: 'IPX7 is VENDOR-STATED only (§7.7-F) — we did not submerge. No dust digit (not IP67). Never charge while wet.',
-                ar: 'IPX7 من البائع فقط (§7.7-F) — لم نغمر. بلا رقم غبار (ليس IP67). لا تشحن وهي مبللة.',
+                en: 'IPX7 is VENDOR-STATED only — we did not submerge. No dust digit (not IP67). Never charge while wet.',
+                ar: 'IPX7 من البائع فقط — لم نغمر. بلا رقم غبار (ليس IP67). لا تشحن وهي مبللة.',
             },
             {
-                en: 'No invented dB/SPL/SNR — §7.7-G / §11.3. Sound notes qualitative only; SoundGuys 75 dB(SPL) is cited their protocol, not ours.',
-                ar: 'بلا ديسيبل/SPL/SNR مخترع — §7.7-G / §11.3. ملاحظات الصوت نوعية فقط؛ 75 dB(SPL) لدى SoundGuys بروتوكولهم المُستشهد، ليس بروتوكولنا.',
+                en: 'No invented dB/SPL/SNR. Sound notes qualitative only; SoundGuys 75 dB(SPL) is cited their protocol, not ours.',
+                ar: 'بلا ديسيبل/SPL/SNR مخترع. ملاحظات الصوت نوعية فقط؛ 75 dB(SPL) لدى SoundGuys بروتوكولهم المُستشهد، ليس بروتوكولنا.',
             },
             {
                 en: 'Charge is 5V/2A-class only (~9.7W peak) — a 65W GaN brick does not make Motion+ charge materially faster.',
                 ar: 'الشحن فئة 5V/2A فقط (ذروة ~9.7 واط) — مكعب GaN 65 واط لا يجعل Motion+ تشحن أسرع جوهريًا.',
             },
             {
-                en: 'Vendor BT “30m” is outdoor-optimistic; we measured 9.6m indoor / 22.8m balcony LOS — Class-2 physics (§8).',
-                ar: '«30م» BT من البائع متفائل خارجيًا؛ قسنا 9.6م داخلي / 22.8م شرفة — فيزياء فئة 2 (§8).',
+                en: 'Vendor BT “30m” is outdoor-optimistic; we measured 9.6m indoor / 22.8m balcony LOS — Class-2 physics.',
+                ar: '«30م» BT من البائع متفائل خارجيًا؛ قسنا 9.6م داخلي / 22.8م شرفة — فيزياء فئة 2.',
             },
             {
                 en: 'TWS stereo NOT measured — single unit CV-SP-A3116011-001; Soundcore notes pre/post Nov 2022 cross-pair limits.',

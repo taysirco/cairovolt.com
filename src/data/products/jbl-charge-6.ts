@@ -54,7 +54,7 @@ export const jbl_charge_6 = {
         <li>Powerbank test: plug a phone into the USB-C port — a genuine Charge 6 charges it properly; most fakes trickle or fail.</li>
         <li>Packaging: original boxes have sharp print, correct spelling, and a labelled serial number.</li>
         <li>App pairing: a genuine Charge 6 is recognised by the official JBL Portable app — most fakes never appear in it.</li>
-        <li>Price logic: a "new" Charge 6 offered around 40% below our price (roughly 5,100 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" Charge 6 offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -97,7 +97,7 @@ export const jbl_charge_6 = {
         <li>اختبار الباور بانك: وصّل موبايل في منفذ الـUSB-C — الـCharge 6 الأصلية بتشحنه بشكل محترم؛ أغلب التقليد بيشحن ببطء شديد أو مش بيشحن.</li>
         <li>العلبة: الكرتونة الأصلية طباعتها حادة، إملاؤها سليم، وعليها رقم تسلسلي واضح.</li>
         <li>التطبيق: الـCharge 6 الأصلية بيتعرف عليها تطبيق JBL Portable الرسمي — أغلب التقليد عمره ما بيظهر فيه.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 5,100 جنيه أو أقل) شبه مؤكد مش أصلية.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

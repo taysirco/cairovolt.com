@@ -170,15 +170,18 @@ export const MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS = new Set([
  *
  * Membership here is *disclosure*, not suppression: these products stay in the
  * catalogue, in the grid and in listings. Suppression is a separate decision and
- * lives in MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS, which A1681 is in and A1263
- * deliberately is not.
+ * lives in MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS, which currently holds neither
+ * recall model: A1263 deliberately never was, and A1681 was removed after the
+ * 2026-07-28 serial attestation (see RECALL_STOCK_VERIFIED_OUTSIDE_SCOPE).
  */
 export const RECALL_AFFECTED_PRODUCT_SLUGS = new Set([
     // A1263 — CPSC June 2025, US-manufactured units Jan 2016 – Oct 2019,
     // fire/overheating hazard. Serial-scoped, so the PDP is the place that can
     // explain scope; listings only need to say "check before you buy".
     'anker-powercore-10000',
-    // A1681 — Anker/CPSC rc2506. Also Merchant-excluded above.
+    // A1681 — Anker/CPSC rc2506. Sold under the 2026-07-28 serial attestation
+    // (RECALL_STOCK_VERIFIED_OUTSIDE_SCOPE); not machine-excluded, not
+    // purchase-blocked. The disclosure on every surface still applies.
     'anker-zolo-a1681-20000',
 ]);
 
@@ -191,11 +194,13 @@ export function isRecallAffectedSlug(slug: string): boolean {
  * Recalls broad enough that the store does not sell the model at all, so the PDP
  * blocks purchase rather than merely disclosing.
  *
- * This is deliberately narrower than RECALL_AFFECTED_PRODUCT_SLUGS. A1681's
- * recall covers the whole model (anker.com/rc2506) and the page states plainly
- * that no new units are sold. A1263's is scoped to US-manufactured units from a
- * date window, so its buyers are told to check their serial — disclosure, not a
- * block.
+ * This is deliberately narrower than RECALL_AFFECTED_PRODUCT_SLUGS, and it is
+ * currently EMPTY. A1681 used to be listed here; since the owner's 2026-07-28
+ * attestation that the stock on hand was serial-checked against anker.com/rc2506
+ * and falls outside the affected range (RECALL_STOCK_VERIFIED_OUTSIDE_SCOPE), it
+ * is sold with its recall disclosure and buyers are told to check their serial.
+ * A1263's recall is scoped to US-manufactured units from a date window, so it is
+ * disclosure, not a block, too. Re-add a slug here if its stock is unverified.
  *
  * Keep this separate from SEO_NOINDEX_PRODUCT_SLUGS. The PDP used to derive both
  * its recall banner and its out-of-stock state from that indexing set, so making
@@ -248,15 +253,17 @@ export const SEO_ALIAS_REDIRECTS: Record<string, string> = {
 /**
  * Pages kept out of the index and the HTML sitemap.
  *
- * A1681 used to sit here. It was removed on the owner's instruction: the page is
- * a recall notice for people who already own the affected unit ("لا نبيع وحدات
- * جديدة منه" / shown as unavailable), and a safety notice nobody can find helps
- * nobody. It is indexable and listed again, and every listing surface renders it
- * with the ⚠️ recall marker via RECALL_AFFECTED_PRODUCT_SLUGS.
+ * A1681 used to sit here. It was removed on the owner's instruction: a safety
+ * notice nobody can find helps nobody. The page is indexable and listed, and
+ * since the 2026-07-28 serial attestation it is a purchasable product page that
+ * keeps its recall disclosure: the model is in a recall programme, the stock was
+ * checked and falls outside it, and buyers should check their own serial.
  *
- * It stays in MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS: organic discovery of a
- * safety notice is the point, but feeding a recalled model into Merchant as a
- * purchasable offer is a different act with its own policy exposure.
+ * It is NOT in MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS or
+ * RECALL_PURCHASE_BLOCKED_PRODUCT_SLUGS any more, so machine catalogues list it
+ * with the same disclosure. Whether Merchant Shopping listings should carry a
+ * model named in a CPSC recall is a separate owner decision
+ * (MERCHANT_FEED_WITHHELD_PRODUCT_SLUGS).
  */
 export const SEO_NOINDEX_PRODUCT_SLUGS = new Set<string>([]);
 

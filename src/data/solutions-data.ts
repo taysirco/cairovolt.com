@@ -24,6 +24,21 @@ export interface UserSolution {
         ar: string[];
     };
     faqs: SolutionFaq[];
+    /**
+     * Measured evidence from CairoVolt's lab, rendered with a link to the
+     * product page it was measured on. Only text that is present in that
+     * product's details/bench sheet belongs here.
+     */
+    labEvidence?: {
+        productSlug: string;
+        text: { en: string; ar: string };
+    };
+    /**
+     * The blog article that covers this problem in depth. Rendered as a
+     * contextual "read more" link only while the slug is live in the blog
+     * index, so a scheduled article can never be linked early.
+     */
+    deepDiveBlogSlug?: string;
     recommendedProductSlugs: string[];
     /** Related solution slugs (same field as URL segment), never internal ids. */
     relatedSolutions: string[];
@@ -71,8 +86,8 @@ export const solutionsDB: UserSolution[] = [
                     ar: 'هل شاحن السيارة USB-A يكفي للآيفون 15؟',
                 },
                 answer: {
-                    en: 'No for USB-C PD. iPhone 15 needs a USB-C PD source. USB-A adapters typically stay near 5–12W and push more conversion heat into the phone path via adapters.',
-                    ar: 'لا لشحن USB-C PD. الآيفون 15 يحتاج مصدر USB-C PD. محولات USB-A عادة تبقى حول 5–12 واط وتزيد حرارة التحويل عبر الوصلات.',
+                    en: 'Not for fast charging. A USB-A charger limits the iPhone 15 to USB-A charging rates; fast charging needs a USB-C charger that supports USB Power Delivery — Apple lists 18W or higher (support.apple.com/en-us/102574).',
+                    ar: 'ليس للشحن السريع. شاحن USB-A يحصر الآيفون 15 في معدلات شحن USB-A؛ والشحن السريع يحتاج شاحن USB-C يدعم USB Power Delivery — وتذكر Apple قدرة 18 واط أو أعلى (support.apple.com/en-us/102574).',
                 },
             },
             {
@@ -96,6 +111,7 @@ export const solutionsDB: UserSolution[] = [
                 },
             },
         ],
+        deepDiveBlogSlug: 'car-phone-holder-cooling-fan-summer-protection',
         recommendedProductSlugs: [
             'joyroom-60w-car-charger',
             'joyroom-usb-c-cable-60w',
@@ -113,8 +129,8 @@ export const solutionsDB: UserSolution[] = [
             ar: 'البطارية بتنقص والموبايل في الشاحن اثناء تشغيل الخرائط'
         },
         problemStatement: {
-            en: 'Running GPS, 4G/5G data, and maximum screen brightness consumes circa 12W of power. Standard 10W chargers result in a net negative power draw (battery drain).',
-            ar: 'تشغيل الـ GPS وبيانات الهاتف وأقصى سطوع للشاشة يستهلك حوالي 12 واط. استخدام شاحن تقليدي (10 واط) يؤدي إلى استنزاف مستمر للبطارية رغم توصيلها بالشاحن.'
+            en: 'Navigation, mobile data and full brightness together can draw more than a low-output charger supplies, so the battery may still fall while plugged in.',
+            ar: 'الملاحة وبيانات الهاتف وأقصى سطوع للشاشة معًا قد تسحب أكثر مما يوفره شاحن منخفض القدرة، فتستمر نسبة البطارية في النزول رغم توصيل الشاحن.'
         },
         engineeringExplanation: {
             en: 'To keep a positive net charge during intensive navigation, use a USB-C PD source of at least ~20W — typically a PD car charger in the vehicle, or a ≥20W PD wall charger when parked/at home. Legacy USB-A ~10W adapters usually cannot outpace Maps + GPS + bright screen draw.',
@@ -168,6 +184,14 @@ export const solutionsDB: UserSolution[] = [
                 },
             },
         ],
+        labEvidence: {
+            productSlug: 'anker-a2741-charger-30w',
+            text: {
+                en: 'In our A2741 bench, the Anker 30W USB-C PD car charger added +34 percentage points to an iPhone 15 (42% → 76%) over a 90-minute stop-start drive from New Cairo to 6th of October with Google Maps and a ride-hailing driver app running.',
+                ar: 'في اختبارنا لشاحن انكر A2741 للسيارة (USB-C PD بقدرة 30 واط) زادت بطارية iPhone 15 بمقدار 34 نقطة مئوية (من 42% إلى 76%) خلال 90 دقيقة من القيادة المتقطعة من القاهرة الجديدة إلى 6 أكتوبر مع تشغيل Google Maps وتطبيق سائق.',
+            },
+        },
+        deepDiveBlogSlug: 'why-phone-charging-slowly-causes-solutions',
         recommendedProductSlugs: [
             'joyroom-60w-car-charger',
             'joyroom-20w-usb-c-charger',
@@ -185,12 +209,12 @@ export const solutionsDB: UserSolution[] = [
             ar: 'لماذا شاحن USB-A بطيء جدًا على الموبايل الحديث',
         },
         problemStatement: {
-            en: 'Many phones now expect USB-C Power Delivery. A legacy USB-A wall brick capped near 5–12W looks “stuck” at low charge rates even when the cable feels fine.',
-            ar: 'معظم الهواتف الحديثة تتوقع USB-C Power Delivery. شاحن حائط USB-A قديم محدود بحوالي 5–12 واط يبدو «عالقًا» على شحن بطيء حتى لو بدا الكابل سليمًا.',
+            en: 'Many phones now expect USB-C Power Delivery. A USB-A charger limits the phone to USB-A charging rates, so it looks “stuck” at a low charge rate even when the cable feels fine.',
+            ar: 'معظم الهواتف الحديثة تتوقع USB-C Power Delivery. شاحن USB-A يحصر الهاتف في معدلات شحن USB-A، فيبدو «عالقًا» على شحن بطيء حتى لو بدا الكابل سليمًا.',
         },
         engineeringExplanation: {
-            en: 'USB-A ports speak older BC1.2 / proprietary profiles. USB-C PD negotiates higher voltage steps (e.g. 9V) so the same watts arrive with lower current and less cable loss. Replacing only the cable rarely unlocks PD if the wall adapter has no USB-C PD controller.',
-            ar: 'منافذ USB-A تتحدث بروفايلات قديمة مثل BC1.2. USB-C PD يتفاوض على خطوات جهد أعلى (مثل 9V) فيصل نفس الواط بتيار أقل وخسارة أقل في الكابل. استبدال الكابل وحده نادرًا يفعّل PD إن كان المحول بلا متحكم USB-C PD.',
+            en: 'USB-A ports speak older BC1.2 / proprietary profiles. USB-C PD negotiates higher voltage steps (e.g. 9V) so the same watts arrive with lower current and less cable loss. Replacing only the cable rarely unlocks PD if the wall adapter has no USB-C PD controller. For iPhone fast charging, Apple lists a USB-C power adapter that supports USB-PD at 18W or higher (support.apple.com/en-us/102574).',
+            ar: 'منافذ USB-A تتحدث بروفايلات قديمة مثل BC1.2. USB-C PD يتفاوض على خطوات جهد أعلى (مثل 9V) فيصل نفس الواط بتيار أقل وخسارة أقل في الكابل. استبدال الكابل وحده نادرًا يفعّل PD إن كان المحول بلا متحكم USB-C PD. ولشحن الآيفون السريع تذكر Apple محول USB-C يدعم USB-PD بقدرة 18 واط أو أعلى (support.apple.com/en-us/102574).',
         },
         steps: {
             en: [
@@ -230,6 +254,7 @@ export const solutionsDB: UserSolution[] = [
                 },
             },
         ],
+        deepDiveBlogSlug: 'travel-charger-usb-c-usb-a-sahel-trip',
         recommendedProductSlugs: [
             'anker-powerport-20w',
             'anker-nano-45w',
@@ -252,21 +277,21 @@ export const solutionsDB: UserSolution[] = [
             ar: 'المسافر يخلط قواعد المقصورة مقابل الشحن، وملصق الـ Wh، وحظر الاستخدام أثناء الرحلة — فيشتري سعة خاطئة أو يضع البنك في الشحن.',
         },
         engineeringExplanation: {
-            en: 'Airlines treat spare lithium batteries (including power banks) as cabin-only items within Wh limits printed on the pack. Capacity in mAh is not Wh: Wh ≈ (mAh × V) / 1000, usually using the pack’s labeled voltage (often ~3.6–3.7V for cells). Some carriers restrict in-flight use of power banks even when carriage is allowed — always follow your ticketed airline’s current page.',
-            ar: 'شركات الطيران تعامل بطاريات الليثيوم الاحتياطية (ومنها الباور بانك) كعناصر مقصورة فقط ضمن حدود الـ Wh المطبوعة. المللي أمبير ليست واط-ساعة: Wh ≈ (mAh × V) / 1000 حسب جهد الملصق (غالبًا ~3.6–3.7V للخلايا). بعض الناقلات تمنع الاستخدام أثناء الرحلة حتى مع السماح بالحمل — اتبع صفحة شركتك الحالية.',
+            en: 'Airlines treat spare lithium batteries (including power banks) as cabin-only items within Wh limits printed on the pack. Capacity in mAh is not Wh: Wh ≈ (mAh × V) / 1000, usually using the pack’s labeled voltage (often ~3.6–3.7V for cells). Under IATA and FAA rules, power banks up to 100Wh are generally allowed in carry-on without approval, 100–160Wh needs airline approval, and over 160Wh is not allowed in passenger baggage. Some carriers also restrict in-flight use even when carriage is allowed: Emirates has banned using any power bank onboard since 1 October 2025, while still allowing one power bank under 100Wh to be carried — always follow your ticketed airline’s current page.',
+            ar: 'شركات الطيران تعامل بطاريات الليثيوم الاحتياطية (ومنها الباور بانك) كعناصر مقصورة فقط ضمن حدود الـ Wh المطبوعة. المللي أمبير ليست واط-ساعة: Wh ≈ (mAh × V) / 1000 حسب جهد الملصق (غالبًا ~3.6–3.7V للخلايا). وفق قواعد IATA وFAA يُسمح عادةً بالباور بانك حتى 100Wh في حقيبة اليد بدون موافقة، ومن 100 إلى 160Wh يحتاج موافقة الناقلة، وأكثر من 160Wh غير مسموح في أمتعة الركاب. وبعض الناقلات تمنع الاستخدام أثناء الرحلة حتى مع السماح بالحمل: طيران الإمارات منعت تشغيل أي باور بانك على متن رحلاتها منذ 1 أكتوبر 2025، مع السماح بحمل باور بانك واحد أقل من 100Wh — اتبع صفحة شركتك الحالية.',
         },
         steps: {
             en: [
                 'Read the Wh (or V + mAh) label on the bank before you fly.',
                 'Pack power banks in carry-on only — never in checked baggage.',
-                'Prefer ≤100Wh units for simplest acceptance; 100–160Wh often needs airline approval.',
+                'Prefer ≤100Wh units for simplest acceptance; 100–160Wh needs airline approval, and over 160Wh is not allowed in passenger baggage.',
                 'Check your airline’s in-flight use policy (carriage ≠ permission to use mid-flight).',
                 'Buy a current, non-recalled model from a trusted seller and keep the rating label visible.',
             ],
             ar: [
                 'اقرأ ملصق Wh (أو V + mAh) قبل السفر.',
                 'ضع الباور بانك في اليد فقط — لا في الشحن أبدًا.',
-                'فضّل وحدات ≤100Wh لقبول أبسط؛ 100–160Wh غالبًا تحتاج موافقة الناقلة.',
+                'فضّل وحدات ≤100Wh لقبول أبسط؛ 100–160Wh تحتاج موافقة الناقلة، وأكثر من 160Wh غير مسموح في أمتعة الركاب.',
                 'راجع سياسة الاستخدام أثناء الرحلة (الحمل ≠ الإذن بالتشغيل).',
                 'اشترِ موديلًا حاليًا غير مُستدعى من بائع موثوق وأبقِ الملصق ظاهرًا.',
             ],
@@ -288,15 +313,17 @@ export const solutionsDB: UserSolution[] = [
                     ar: 'هل أقدر أشغّل البنك أثناء الرحلة؟',
                 },
                 answer: {
-                    en: 'Only if your airline allows it. Some Gulf carriers have restricted in-flight power-bank use even when carriage is fine — check before you rely on it.',
-                    ar: 'فقط إن سمحت شركتك. بعض ناقلات الخليج قيّدت الاستخدام أثناء الرحلة مع بقاء الحمل مسموحًا — تحقق قبل الاعتماد عليه.',
+                    en: 'Only if your airline allows it. Emirates, for example, has banned using any power bank onboard since 1 October 2025 even though carrying one under 100Wh is still allowed — check your airline before you rely on it.',
+                    ar: 'فقط إن سمحت شركتك. طيران الإمارات مثلًا منعت تشغيل أي باور بانك على متن رحلاتها منذ 1 أكتوبر 2025 رغم السماح بحمل واحد أقل من 100Wh — راجع شركتك قبل الاعتماد عليه.',
                 },
             },
         ],
+        deepDiveBlogSlug: 'power-bank-airplane-rules-egypt-2026',
+        // The recalled A1263 PowerCore 10000 is not recommended here: the two
+        // Zolo packs already cover the airline use case without a recall caveat.
         recommendedProductSlugs: [
             'anker-zolo-a110e-20000',
             'anker-zolo-a110d-10000',
-            'anker-powercore-10000',
         ],
         relatedSolutions: [
             'usb-a-charger-too-slow-for-modern-phone',

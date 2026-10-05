@@ -1,3 +1,95 @@
+import {
+    getCairoVoltWarrantyPolicy,
+    getStoreReturnsSummary,
+    getStoreShippingSummary,
+    getStoreWarrantySummary,
+} from '@/lib/warranty-policy';
+import { STANDARD_RETURN_WINDOW_DAYS } from '@/lib/merchant-product-data';
+import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { governorates } from '@/data/governorates';
+import { staticProducts } from '@/lib/static-products';
+
+type HubLocale = 'en' | 'ar';
+type FaqEntry = { question: string; answer: string };
+
+// ============================================================================
+// Store-policy answers shared by every brand hub (and the Soundcore hub).
+//
+// These used to say "warranty eligibility and duration vary by product", which
+// dodges the question a buyer actually asked. The answers are the shared store
+// sentences from warranty-policy.ts — the same ones the home page FAQ, llms.txt,
+// llms-full.txt and the /shipping markdown twin print — so hub copy cannot drift
+// from them. Every figure inside those sentences is read from the module that
+// enforces it: warranty-policy.ts (store warranty months),
+// merchant-product-data.ts (return window, shipping fee range), shipping.ts
+// (free-shipping threshold) and governorates.ts (per-governorate delivery
+// estimate, displayed as deliveryDays–deliveryDays+1 business days).
+// ============================================================================
+
+/**
+ * Warranty, returns and shipping answers in the shared store wording.
+ * Policy links are markdown and locale-prefixed ('' for Arabic, '/en' for English).
+ */
+export function getStorePolicyFaq(locale: HubLocale): FaqEntry[] {
+    const prefix = locale === 'ar' ? '' : '/en';
+    const warranty = getStoreWarrantySummary(locale);
+    const returns = getStoreReturnsSummary(locale);
+    const shipping = getStoreShippingSummary(locale, governorates);
+
+    if (locale === 'ar') {
+        return [
+            { question: 'ما مدة ضمان كايرو فولت؟', answer: `${warranty} [سياسة الضمان](${prefix}/warranty)` },
+            { question: 'هل أقدر أرجّع أو أستبدل المنتج؟', answer: `نعم، ${returns} [سياسة الإرجاع](${prefix}/return-policy)` },
+            { question: 'كام مصاريف الشحن ومدة التوصيل؟', answer: `${shipping} [سياسة الشحن](${prefix}/shipping)` },
+        ];
+    }
+
+    return [
+        { question: 'How long is the CairoVolt warranty?', answer: `${warranty} [Warranty policy](${prefix}/warranty)` },
+        { question: 'Can I return or exchange a product?', answer: `Yes. ${returns} [Return policy](${prefix}/return-policy)` },
+        { question: 'How much is shipping and how long does delivery take?', answer: `${shipping} [Shipping policy](${prefix}/shipping)` },
+    ];
+}
+
+// ============================================================================
+// JBL hub price facts, computed from the active catalogue at build time.
+// The FAQ and quick answer used to carry hand-typed figures, and skipped the
+// 449 EGP Bluetooth neckband entirely. The PartyBox range excludes the wireless
+// mic accessory, which is sold on that shelf but is not a speaker.
+// ============================================================================
+
+function jblPriceFacts() {
+    const active = staticProducts.filter(p => p.status === 'active' && p.brand.toLowerCase() === 'jbl');
+    const prices = (filter: (p: (typeof active)[number]) => boolean) => active.filter(filter).map(p => p.price);
+    const range = (values: number[]) => ({ min: Math.min(...values), max: Math.max(...values) });
+    const priceOf = (slug: string) => active.find(p => p.slug === slug)?.price;
+    return {
+        wired: priceOf('jbl-t110'),
+        neckband: priceOf('jbl-t110bt'),
+        tws: range(prices(p => p.categorySlug === 'earbuds' && p.slug !== 'jbl-t110' && p.slug !== 'jbl-t110bt')),
+        headphones: range(prices(p => p.categorySlug === 'headphones')),
+        speakers: range(prices(p => p.categorySlug === 'speakers')),
+        partybox: range(prices(p => p.categorySlug === 'partybox' && p.slug !== 'jbl-partybox-wireless-mic')),
+    };
+}
+
+/**
+ * `standalone` is for the hub quick answer, which is quoted out of context
+ * (markdown twin, answer engines) and so must name the brand itself — the FAQ
+ * answer sits under a question that already says "JBL".
+ */
+function jblPriceAnswer(locale: HubLocale, standalone = false): string {
+    const f = jblPriceFacts();
+    if (locale === 'ar') {
+        const lead = standalone ? 'أسعار JBL في كايرو فولت بتبدأ من' : 'الأسعار في كايرو فولت بتبدأ من';
+        return `${lead} ${f.wired} جنيه لسماعة T110 السلك، ونيك باند البلوتوث T110BT بـ${f.neckband} جنيه، والايربودز اللاسلكية بالكامل (True Wireless) من ${f.tws.min} جنيه، وسماعات الراس من ${f.headphones.min} جنيه، وسبيكرات البلوتوث من ${f.speakers.min} لحد ${f.speakers.max} جنيه، والبارتي بوكس من ${f.partybox.min} لحد ${f.partybox.max} جنيه.`;
+    }
+    const n = (v: number | undefined) => (v ?? 0).toLocaleString('en-US');
+    const lead = standalone ? 'JBL prices at CairoVolt start at' : 'At CairoVolt prices start at';
+    return `${lead} ${n(f.wired)} EGP for the wired T110 earphones and ${n(f.neckband)} EGP for the T110BT Bluetooth neckband, with true-wireless earbuds from ${n(f.tws.min)} EGP, headphones from ${n(f.headphones.min)} EGP, Bluetooth speakers from ${n(f.speakers.min)} to ${n(f.speakers.max)} EGP, and PartyBox speakers from ${n(f.partybox.min)} to ${n(f.partybox.max)} EGP.`;
+}
+
+const jblWarrantyMonths = getCairoVoltWarrantyPolicy(null, 'jbl').months;
 
 export interface BrandData {
     id: string;
@@ -169,21 +261,31 @@ export const brandData: Record<string, BrandData> = {
                 ]
             }
         },
+        // Single FAQ source for the Anker hub: the HTML accordion and the
+        // markdown twin (agent-hub-markdown.ts) both render this array.
         faq: {
             ar: [
+                { question: 'هل كايرو فولت توكيل انكر في مصر؟', answer: 'لا. كايرو فولت متجر إلكتروني مصري مستقل، وليس توكيلًا ولا موزعًا معتمدًا لانكر. بنبيع منتجات انكر الأصلية بفاتورة وضمان متجر مكتوب (مدته في صفحة كل منتج) والدفع عند الاستلام. [سياسة الضمان](/warranty) · [إزاي تعرف منتج انكر الأصلي](/blog/how-to-identify-original-anker)' },
                 { question: 'كيف أتحقق من منتج انكر؟', answer: 'افحص بيانات الموديل والرقم التسلسلي والعبوة، واتبع تعليمات الشركة وعنوان التحقق المطبوعين على العبوة المؤهلة؛ فقد تختلف وسيلة التحقق حسب المنتج والسوق. احتفظ بفاتورة وبيانات طلب كايرو فولت عند التواصل بشأن المنتج.' },
-                { question: 'ما الفرق بين ضمان انكر في كايرو فولت والمتاجر الأخرى؟', answer: 'تختلف شروط الضمان حسب البائع والمنتج. توضح كايرو فولت مدة ضمان المتجر وتغطيته واستثناءاته في صفحة كل منتج. تواصل معنا عبر واتساب لطلب الدعم أو التحقق من حالة تغطية طلبك.' },
+                ...getStorePolicyFaq('ar'),
                 { question: 'ما هو الفرق بين PowerIQ وPD (Power Delivery)؟', answer: '**PD** معيار شحن تستخدمه أجهزة ومنتجات متوافقة، بينما **PowerIQ** اسم تستخدمه انكر لبعض تقنيات إدارة الشحن لديها. يختلف دعم PD أوPPS أو غيرهما حسب الموديل والجهاز والكابل، وتوضح صفحة المنتج المعايير الموثقة.' },
+                { question: 'هل وجود GaN أو PowerIQ يعني أن كل شواحن انكر متشابهة؟', answer: 'لا. هذه أسماء لتقنيات أو عائلات خصائص تظهر في موديلات محددة. عدد المنافذ والقدرة وبروتوكولات PD وPPS وطريقة توزيع الطاقة تختلف، لذلك ارجع إلى مواصفات الموديل وجهازك.' },
                 { question: 'كيف أختار شاحن انكر مناسبًا للآيفون؟', answer: 'تحقق من القدرة ومعيار الشحن ونوع الكابل اللذين يدعمهما موديل الآيفون، ثم طابقهما مع مواصفات الشاحن. لا تنطبق شهادات الكابلات أو خصائص الحماية تلقائيًا على كل منتج، لذا راجع مواصفات الموديل وتعليماته.' },
-                { question: 'لماذا قد أختار منتجات انكر؟', answer: 'تضم انكر شواحن وباور بانك وكابلات بمواصفات متعددة. قارن القدرة والمنافذ والبروتوكولات والحجم والتوافق والسعر الحالي والضمان الموضح لكل منتج لاختيار ما يناسب استخدامك.' },
+                { question: 'كيف أختار منتج انكر المناسب؟', answer: 'ابدأ بمواصفات جهازك: نوع المنفذ، قدرة الشحن المطلوبة، والسعة أو الميزات التي تحتاجها. بعد ذلك قارن الموديلات المطابقة في القسم المناسب.' },
+                { question: 'أين أجد السعر والتوافر الحاليين؟', answer: 'توضح صفحة كل منتج السعر الحالي وحالة التوافر. يُراجع التوافر مرة أخرى عند تأكيد الطلب.' },
+                { question: 'هل سجل ضمان كايرو فولت يثبت أصالة المنتج؟', answer: 'لا. سجل كايرو فولت يؤكد بيانات تغطية المتجر فقط، وليس شهادة أصالة من الشركة المصنّعة. راجع رقم الموديل ووثائق الشركة وأدواتها إن وُجدت.' },
                 { question: 'كيف أحصل على دعم لمنتج انكر اشتريته من كايرو فولت؟', answer: 'كايرو فولت متجر إلكتروني ويقدم ضمان متجر وفق مدة وشروط صفحة المنتج، وليس مركز خدمة معتمدًا من الشركة ما لم يُذكر ذلك بوثيقة صريحة. تواصل عبر صفحة الدعم أو واتساب مع رقم الطلب ووصف المشكلة لتقييم الطلب وفق الشروط.' }
             ],
             en: [
+                { question: 'Is CairoVolt the official Anker agent in Egypt?', answer: 'No. CairoVolt is an independent Egyptian online store, not an Anker agent or authorized distributor. We sell genuine Anker products with an invoice, a written store warranty (the term is on each product page), and cash on delivery. [Warranty policy](/en/warranty) · [How to identify original Anker](/en/blog/how-to-identify-original-anker)' },
                 { question: 'How can I verify an Anker product?', answer: 'Check the model details, serial information, and packaging, then follow the manufacturer instructions and verification address printed on eligible packaging. The available method can vary by product and market. Keep your CairoVolt invoice and order details when requesting support.' },
-                { question: 'How does CairoVolt warranty compare with other stores?', answer: 'Warranty terms vary by seller and product. CairoVolt states its store-warranty period, coverage, and exclusions on each product page. Contact us on WhatsApp to request support or confirm the coverage for your order.' },
+                ...getStorePolicyFaq('en'),
                 { question: 'What is the difference between PowerIQ and PD (Power Delivery)?', answer: '**PD** is a charging standard used by compatible devices and products, while **PowerIQ** is Anker’s name for charging-management technologies included in selected models. PD, PPS, and other protocol support varies by model, device, and cable; check the documented specifications.' },
+                { question: 'Do GaN or PowerIQ make every Anker charger equivalent?', answer: 'No. These names identify technologies or feature families used on selected models. Port count, output, PD/PPS support, and power-sharing behavior vary, so check the exact model and your device requirements.' },
                 { question: 'How do I choose an Anker charger for an iPhone?', answer: 'Check the charging output, protocol, and cable type supported by your specific iPhone model, then match them to the charger specifications. Cable certifications and protection features do not automatically apply to every product, so review the selected model’s documentation.' },
-                { question: 'Why might I choose Anker products?', answer: 'Anker offers chargers, power banks, and cables across several specifications. Compare output, ports, protocols, size, compatibility, current price, and the stated warranty terms to choose a product that fits your use.' },
+                { question: 'How do I choose the right Anker product?', answer: 'Start with your device requirements: connector, required charging output, and the capacity or features you need. Then compare matching models in the relevant category.' },
+                { question: 'Where can I find the current price and availability?', answer: 'Each product page states its current price and availability. Availability is reviewed again when the order is confirmed.' },
+                { question: 'Does a CairoVolt warranty record prove authenticity?', answer: 'No. A CairoVolt record confirms store warranty information only; it is not a manufacturer authenticity certificate. Review the model number, manufacturer documentation, and any available manufacturer tools.' },
                 { question: 'How do I get support for an Anker product bought from CairoVolt?', answer: 'CairoVolt is an online retailer and provides a store warranty under the period and conditions stated on the product page; it is not presented as an authorized manufacturer service center unless expressly documented. Contact support or WhatsApp with your order number and issue details for assessment under those terms.' }
             ]
         },
@@ -308,20 +410,29 @@ description: { en: 'JR-FT3 — IP68, sports modes', ar: 'JR-FT3 — IP68 وأو�
                 ]
             }
         },
+        // Single FAQ source for the Joyroom hub (HTML accordion + markdown twin).
         faq: {
             ar: [
+                { question: 'لماذا يجب مراجعة رقم موديل جوي روم؟', answer: 'لأن الاسم التجاري الواحد قد يشمل إصدارات بمنافذ أو قدرة أو تطبيق وملحقات مختلفة. رقم الموديل ومواصفات صفحة المنتج هما الأدق عند المقارنة.' },
                 { question: 'كيف أستخدم وسيلة التحقق الموجودة على عبوة جوي روم؟', answer: 'إذا كانت العبوة المؤهلة تحمل ملصقًا أو رمز تحقق، فاتبع الخطوات وعنوان الموقع المطبوعين عليها حرفيًا. قد تختلف وسيلة التحقق حسب الموديل والسوق، ولا يكفي شكل الملصق وحده للحكم على المنتج. احتفظ بفاتورة كايرو فولت وبيانات الطلب للدعم.' },
+                ...getStorePolicyFaq('ar'),
                 { question: 'كيف أقارن سماعات T03s بسماعات أخرى؟', answer: 'قارن الموديل المحدد من حيث التوافق والميكروفون وأسلوب التحكم والبطارية والخصائص الصوتية والملحقات والسعر الحالي. لا تتوفر كل خاصية في جميع موديلات T03s، لذلك اعتمد على مواصفات صفحة المنتج بدل نسبة مقارنة عامة.' },
                 { question: 'كيف أستخدم باور بانك جوي روم بصورة مناسبة؟', answer: 'طابق قدرة الإدخال والإخراج والبروتوكول والكابل مع جهازك، واتبع تعليمات التشغيل والتخزين. يختلف نوع الخلايا وخصائص Smart IC والحماية حسب الموديل؛ راجع المواصفات الموثقة ولا تفترض انعدام السخونة أو الانتفاخ في أي بطارية.' },
                 { question: 'كيف أختار بين جوي روم وانكر؟', answer: 'قارن الموديلات المتاحة وفق القدرة والمنافذ والبروتوكولات والتوافق والحجم والسعر الحالي ومدة ضمان كايرو فولت وشروطه. يختلف الاختيار الأنسب حسب الجهاز والاستخدام والميزانية، ولا توجد إجابة واحدة مناسبة للجميع.' },
-                { question: 'ما مدة ضمان جوي روم وماذا يشمل؟', answer: 'توضح صفحة كل منتج مدة ضمان كايرو فولت وتغطيته والاستثناءات؛ ولا تنطبق مدة أو وسيلة معالجة واحدة على جميع الموديلات. تواصل عبر واتساب مع رقم الطلب ووصف المشكلة لتقييم الحالة وفق الشروط المنشورة.' }
+                { question: 'كيف أختار منتج جوي روم المناسب؟', answer: 'ابدأ بمواصفات جهازك: نوع المنفذ، قدرة الشحن المطلوبة، والسعة أو الميزات التي تحتاجها. بعد ذلك قارن الموديلات المطابقة في القسم المناسب.' },
+                { question: 'أين أجد السعر والتوافر الحاليين؟', answer: 'توضح صفحة كل منتج السعر الحالي وحالة التوافر. يُراجع التوافر مرة أخرى عند تأكيد الطلب.' },
+                { question: 'هل سجل ضمان كايرو فولت يثبت أصالة المنتج؟', answer: 'لا. سجل كايرو فولت يؤكد بيانات تغطية المتجر فقط، وليس شهادة أصالة من الشركة المصنّعة. راجع رقم الموديل ووثائق الشركة وأدواتها إن وُجدت.' }
             ],
             en: [
+                { question: 'Why should I check the exact Joyroom model number?', answer: 'A product family can include versions with different connectors, output, app support, and accessories. The model number and product-page specifications are the most reliable comparison points.' },
                 { question: 'How do I use a verification method shown on Joyroom packaging?', answer: 'If eligible packaging includes a verification label or code, follow the exact steps and website address printed on it. The available method can vary by model and market, and the appearance of a label alone is not conclusive. Keep your CairoVolt invoice and order details for support.' },
+                ...getStorePolicyFaq('en'),
                 { question: 'How should I compare T03s earbuds with other earbuds?', answer: 'Compare the specific model’s compatibility, microphone, controls, battery, documented audio features, included accessories, and current listed price. Features are not identical across all T03s models, so use the product specifications instead of a general percentage comparison.' },
                 { question: 'How should I use a Joyroom power bank with my phone?', answer: 'Match the input, output, protocol, and cable to your device, and follow the operating and storage instructions. Cell chemistry, Smart IC functions, and protection features vary by model; check the documented specifications and do not assume any battery has zero heat or swelling risk.' },
                 { question: 'How do I choose between Joyroom and Anker?', answer: 'Compare available models by output, ports, protocols, compatibility, size, current listed price, and the stated CairoVolt warranty period and conditions. The suitable choice depends on your device, use, and budget rather than one brand being universally better.' },
-                { question: 'What does the Joyroom warranty cover?', answer: 'Each product page states the applicable CairoVolt store-warranty period, coverage, and exclusions; one duration or remedy does not apply to every model. Contact WhatsApp with your order number and issue details for assessment under the published terms.' }
+                { question: 'How do I choose the right Joyroom product?', answer: 'Start with your device requirements: connector, required charging output, and the capacity or features you need. Then compare matching models in the relevant category.' },
+                { question: 'Where can I find the current price and availability?', answer: 'Each product page states its current price and availability. Availability is reviewed again when the order is confirmed.' },
+                { question: 'Does a CairoVolt warranty record prove authenticity?', answer: 'No. A CairoVolt record confirms store warranty information only; it is not a manufacturer authenticity certificate. Review the model number, manufacturer documentation, and any available manufacturer tools.' }
             ]
         },
         quickAnswer: {
@@ -436,31 +547,43 @@ description: { en: 'JR-FT3 — IP68, sports modes', ar: 'JR-FT3 — IP68 وأو�
                 ]
             }
         },
+        // Single FAQ source for the JBL hub (HTML accordion + markdown twin).
+        // Price figures are computed from the active catalogue (jblPriceAnswer).
         faq: {
             ar: [
-                { question: 'كام سعر سماعات JBL في مصر؟', answer: 'الأسعار في كايرو فولت بتبدأ من 249 جنيه لسماعة T110 السلك، والايربودز اللاسلكية من 2449 جنيه، وسماعات الراس من 2149 جنيه، وسبيكرات البلوتوث من 2049 لحد 22649 جنيه، والبارتي بوكس من 20099 لحد 65999 جنيه. السعر الحالي والمخزون بيظهروا في صفحة كل منتج وبيتغيروا مع العروض.' },
+                { question: 'كام سعر سماعات JBL في مصر؟', answer: `${jblPriceAnswer('ar')} السعر الحالي والمخزون بيظهروا في صفحة كل منتج وبيتغيروا مع العروض.` },
+                { question: 'هل كايرو فولت توكيل JBL الرسمي في مصر؟', answer: `لا، كايرو فولت متجر إلكتروني مستقل ومش وكيلًا رسميًا لـ JBL. المنتجات المعروضة أصلية، وبتتباع بضمان كايرو فولت ${jblWarrantyMonths} شهر وفق الشروط الموضحة في صفحة كل منتج، مع الدفع عند الاستلام.` },
+                ...getStorePolicyFaq('ar'),
+                { question: 'هل فيه تقسيط على منتجات JBL؟', answer: `حاليًا لأ — كايرو فولت بتقبل الدفع عند الاستلام فقط، من غير تقسيط ولا دفع إلكتروني. اللي بنقدمه بدل كده: السعر ظاهر كامل من غير فوائد مخفية، شحن مجاني للطلبات من ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} جنيه، ضمان كايرو فولت مكتوب ${jblWarrantyMonths} شهر، وحق الاسترجاع خلال ${STANDARD_RETURN_WINDOW_DAYS} يوم حسب سياسة الاسترجاع.` },
                 { question: 'هل كايرو فولت بتبيع ساوند بار JBL؟', answer: 'لأ، حاليًا مفيش ساوند بار JBL في كايرو فولت — بنوفر السبيكرات المحمولة والبارتي بوكس وسماعات الراس والايربودز. لو عايز صوت للتلفزيون، السبيكر البلوتوث بيتوصل لكن ممكن تلاحظ تأخير بسيط في الصوت حسب التلفزيون.' },
-                { question: 'هل كايرو فولت توكيل JBL الرسمي في مصر؟', answer: 'لا، كايرو فولت متجر إلكتروني مستقل ومش وكيلًا رسميًا لـ JBL. المنتجات المعروضة أصلية، وبتتباع بضمان كايرو فولت 12 شهر وفق الشروط الموضحة في صفحة كل منتج، مع الدفع عند الاستلام.' },
                 { question: 'إزاي أعرف إن سماعة JBL أصلية؟', answer: 'راجع إرشادات برنامج Buy Authentic الرسمي من JBL على موقع jbl.com، وجرّب اقتران المنتج بتطبيق JBL الرسمي في الموديلات المدعومة، وافحص جودة العبوة والنقش. وخد بالك من السعر: لو العرض أقل بكتير من السعر المعروف في السوق، فده مؤشر تحذير قوي.' },
-                { question: 'فين صيانة سماعات JBL في مصر؟', answer: 'داخل مدة ضمان كايرو فولت (12 شهر) بنتولى الاستبدال أو التصليح (الإصلاح) وفق سياسة الضمان الموضحة في صفحة المنتج — تواصل واتساب برقم الطلب ووصف المشكلة. خارج مدة الضمان، تقدر تراجع خدمة أي بائع معتمد حسب شروطه.' },
+                { question: 'فين صيانة سماعات JBL في مصر؟', answer: `داخل مدة ضمان كايرو فولت (${jblWarrantyMonths} شهر) بنتولى الاستبدال أو التصليح (الإصلاح) وفق سياسة الضمان الموضحة في صفحة المنتج — تواصل واتساب برقم الطلب ووصف المشكلة. خارج مدة الضمان، تقدر تراجع خدمة أي بائع معتمد حسب شروطه.` },
+                { question: 'كيف أختار منتج JBL المناسب؟', answer: 'ابدأ من مكان الاستخدام وحجم المساحة: سبيكر محمول للخروجات والبيت، بارتي بوكس للمناسبات، سماعة رأس أو ايربودز للاستخدام الشخصي. بعد كده قارن ساعات البطارية وتصنيف مقاومة الماء المعلنين من JBL لكل موديل في القسم المناسب.' },
                 { question: 'إيه الفرق بين سبيكرات JBL المحمولة والبارتي بوكس؟', answer: 'المحمولة زي Flip وCharge مصممة للشنطة والخروجات وبتشتغل بالبطارية، بينما البارتي بوكس سبيكرات مناسبات أكبر بكتير، بمداخل ميكروفون وإضاءة في موديلات محددة. قارن الوزن ومصدر الطاقة (بطارية أو كهرباء) حسب المواصفات المعلنة لكل موديل قبل الاختيار.' },
+                { question: 'هل دعم ربط السبيكرات يعني إمكانية ربط أي سبيكرين JBL؟', answer: 'لا. الربط بيشتغل بين الموديلات اللي بتدعم النظام نفسه: PartyBoost مع PartyBoost، وAuracast مع Auracast، والنظامان غير متوافقين مع بعضهما. راجع نظام الربط المذكور في مواصفات كل موديل قبل شراء سبيكر تاني.' },
                 { question: 'هل سماعات JBL بتشتغل مع ايفون وأندرويد؟', answer: 'موديلات البلوتوث بتقترن بأي هاتف يدعم بلوتوث، ايفون أو أندرويد. بعض الخصائص الإضافية زي الإكوالايزر بتحتاج تطبيق JBL الرسمي المتاح للنظامين، وبعض المزايا بتختلف حسب الموديل — راجع صفحة المنتج للتفاصيل.' },
-                { question: 'هل سبيكر بتصنيف IP67 ينفع للبحر والرمل في الساحل؟', answer: 'تصنيف IP67 المعلن بيغطي الغمر المؤقت في مياه عذبة والحماية من الأتربة وفق شروط اختبار الشركة، ومياه البحر المالحة والرمل الناعم أقسى من ظروف الاختبار. اشطف السبيكر بمياه عذبة بعد يوم البحر واتبع تعليمات JBL الخاصة بالموديل.' }
+                { question: 'هل سبيكر بتصنيف IP67 ينفع للبحر والرمل في الساحل؟', answer: 'تصنيف IP67 المعلن بيغطي الغمر المؤقت في مياه عذبة والحماية من الأتربة وفق شروط اختبار الشركة، ومياه البحر المالحة والرمل الناعم أقسى من ظروف الاختبار. اشطف السبيكر بمياه عذبة بعد يوم البحر واتبع تعليمات JBL الخاصة بالموديل.' },
+                { question: 'هل سجل ضمان كايرو فولت يثبت أصالة المنتج؟', answer: 'لا. سجل كايرو فولت يؤكد بيانات تغطية المتجر فقط، وليس شهادة أصالة من الشركة المصنّعة. راجع رقم الموديل ووثائق الشركة وأدواتها إن وُجدت.' }
             ],
             en: [
-                { question: 'How much do JBL products cost in Egypt?', answer: 'At CairoVolt prices start at 249 EGP for the wired T110 earphones, with wireless earbuds from 2,449 EGP, headphones from 2,149 EGP, Bluetooth speakers from 2,049 to 22,649 EGP, and PartyBox models from 20,099 to 65,999 EGP. The live price and stock appear on each product page and change with promotions.' },
+                { question: 'How much do JBL products cost in Egypt?', answer: `${jblPriceAnswer('en')} The live price and stock appear on each product page and change with promotions.` },
+                { question: 'Is CairoVolt the official JBL distributor in Egypt?', answer: `No. CairoVolt is an independent online retailer, not an official JBL distributor. The listed products are genuine and are sold with a CairoVolt ${jblWarrantyMonths}-month store warranty under the conditions stated on each product page, with cash on delivery.` },
+                ...getStorePolicyFaq('en'),
+                { question: 'Do you offer instalments on JBL products?', answer: `Not at the moment — CairoVolt accepts cash on delivery only, with no instalment plans and no online payment. What we do offer instead: the full price shown with no hidden financing cost, free shipping on orders from ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} EGP, a written ${jblWarrantyMonths}-month CairoVolt warranty, and a ${STANDARD_RETURN_WINDOW_DAYS}-day return window under the return policy.` },
                 { question: 'Does CairoVolt sell JBL soundbars?', answer: 'No — CairoVolt does not currently stock JBL soundbars. The range here is portable speakers, PartyBox party speakers, headphones and earbuds. For TV audio a Bluetooth speaker can connect, though some audio delay is possible depending on the TV.' },
-                { question: 'Is CairoVolt the official JBL distributor in Egypt?', answer: 'No. CairoVolt is an independent online retailer, not an official JBL distributor. The listed products are genuine and are sold with a CairoVolt 12-month store warranty under the conditions stated on each product page, with cash on delivery.' },
                 { question: 'How can I verify a JBL product is genuine?', answer: 'Follow JBL’s official Buy Authentic guidance on jbl.com, pair the product with the official JBL app on supported models, and inspect the packaging and engraving quality. Also apply price logic: an offer far below the known market price is a strong warning sign.' },
-                { question: 'Where can I service JBL products in Egypt?', answer: 'Within the CairoVolt 12-month warranty period, we handle replacement or repair under the warranty policy stated on the product page — contact WhatsApp with your order number and issue details. Outside that period, any authorized retailer’s service applies under its own terms.' },
+                { question: 'Where can I service JBL products in Egypt?', answer: `Within the CairoVolt ${jblWarrantyMonths}-month warranty period, we handle replacement or repair under the warranty policy stated on the product page — contact WhatsApp with your order number and issue details. Outside that period, any authorized retailer’s service applies under its own terms.` },
+                { question: 'How do I choose the right JBL product?', answer: 'Start from where it will play and the space size: a portable speaker for outings and home, a PartyBox for events, headphones or earbuds for personal listening. Then compare the JBL-listed battery hours and water rating per model in the relevant category.' },
                 { question: 'What is the difference between JBL portable speakers and PartyBox?', answer: 'Portable models such as Flip and Charge are battery-powered and built for bags and outings, while PartyBox models are much larger event speakers with mic inputs and light shows on listed models. Compare weight and power source (battery or mains) in the manufacturer specifications before choosing.' },
+                { question: 'Does speaker-linking support mean any two JBL speakers can pair together?', answer: 'No. Linking works between models that support the same standard: PartyBoost with PartyBoost, and Auracast with Auracast — the two standards are not compatible with each other. Check the linking standard listed in each model’s specifications before buying a second speaker.' },
                 { question: 'Do JBL headphones and speakers work with iPhone and Android?', answer: 'Bluetooth models pair with any phone that supports Bluetooth, iPhone or Android. Some extra features such as the equalizer require the official JBL app, available for both systems, and feature support varies by model — check the product page for details.' },
-                { question: 'Is an IP67 speaker suitable for the beach and sand?', answer: 'The listed IP67 rating covers temporary fresh-water immersion and dust protection under the manufacturer’s test conditions; salt water and fine sand are harsher than those conditions. Rinse the speaker with fresh water after a beach day and follow JBL’s instructions for the model.' }
+                { question: 'Is an IP67 speaker suitable for the beach and sand?', answer: 'The listed IP67 rating covers temporary fresh-water immersion and dust protection under the manufacturer’s test conditions; salt water and fine sand are harsher than those conditions. Rinse the speaker with fresh water after a beach day and follow JBL’s instructions for the model.' },
+                { question: 'Does a CairoVolt warranty record prove authenticity?', answer: 'No. A CairoVolt record confirms store warranty information only; it is not a manufacturer authenticity certificate. Review the model number, manufacturer documentation, and any available manufacturer tools.' }
             ]
         },
         quickAnswer: {
-            en: 'JBL prices at CairoVolt start at 249 EGP for the wired T110 earphones, with wireless earbuds from 2,449 EGP, headphones from 2,149 EGP, Bluetooth speakers from 2,049 to 22,649 EGP, and PartyBox models from 20,099 to 65,999 EGP. Current price and stock are shown on each product page.',
-            ar: 'أسعار JBL في كايرو فولت بتبدأ من 249 جنيه لسماعة T110 السلك، والايربودز اللاسلكية من 2449 جنيه، وسماعات الراس من 2149 جنيه، وسبيكرات البلوتوث من 2049 لحد 22649 جنيه، والبارتي بوكس من 20099 لحد 65999 جنيه. السعر الحالي والمخزون في صفحة كل منتج.'
+            en: `${jblPriceAnswer('en', true)} Current price and stock are shown on each product page.`,
+            ar: `${jblPriceAnswer('ar', true)} السعر الحالي والمخزون في صفحة كل منتج.`
         }
     }
 };

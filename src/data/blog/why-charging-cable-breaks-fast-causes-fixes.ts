@@ -4,7 +4,7 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
     slug: 'why-charging-cable-breaks-fast-causes-fixes',
     category: 'tips',
     publishDate: '2026-05-12',
-    modifiedDate: '2026-05-12',
+    modifiedDate: '2026-10-04',
     readingTime: 10,
     coverImage: '/images/blog/posts/why-charging-cable-breaks-fast-causes-fixes.webp?v=2',
     author: {
@@ -31,20 +31,17 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
             metaDescription: 'اعرف 6 أخطاء يومية بتخلي كابل الشحن يبوظ كل شهر — من طريقة اللف الغلط للشد من السلك. دليل علمي + أفضل كابلات متينة بضمان 18 شهر. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'ليه كابل الشحن بيبوظ, كابل شحن بيبوظ بسرعة, كابل شحن متين, ازاي احافظ على كابل الشحن, افضل كابل شحن مش بيبوظ, كابل انكر متين, كابل شحن بيقطع, عمر كابل الشحن, كابل شحن اصلي, كابل يوم بيبوظ كل شهر',
             excerpt: '6 أخطاء يومية بتعملها من غير ما تاخد بالك بتخلي كابل الشحن يبوظ كل شهرين. اعرف السبب العلمي والحل النهائي.',
-            quickAnswer: 'كابل الشحن بيبوظ بسرعة بسبب 6 أخطاء: الشد من السلك مش الفيشة، لف الكابل بإحكام شديد، ثني الكابل عند نقطة الاتصال، استخدام كابلات تقليد بدون تدريع نحاسي، تعريضه لحرارة فوق 45°C، وتوصيله بزاوية حادة. الحل: اشتري كابل بتقنية تقوية نقطة الانحناء زي أنكر PowerLine مع ضمان 18 شهر.',
+            quickAnswer: 'كابل الشحن بيبوظ بسرعة غالباً بسبب 6 أخطاء: الشد من السلك مش الفيشة، لف الكابل بإحكام، ثنيه بزاوية حادة عند نقطة الدخول، شراء كابل تقليد، تعريضه لحرارة عالية (فوق حوالي 45°م)، وتسيبه متوصل والموبايل في جيبك. الحل: كابل فيه تقوية عند الأطراف (Strain Relief) زي انكر PowerLine III، واتعامل معاه صح.',
             content: `
 <h2>مشكلة الكل بيعاني منها</h2>
-<div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role="complementary" aria-label="إحصائية">
-    <p><strong>📊 إحصائية:</strong> المصري العادي بيغيّر كابل الشحن كل <strong>2-3 شهور</strong>. يعني بيصرف 400-600 جنيه سنوياً على كابلات رخيصة. كابل أصلي واحد بـ 250 جنيه بيعيش <strong>3-5 سنين</strong>. ده فرق 1,500+ جنيه على 5 سنين.</p>
+<div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role="complementary" aria-label="نصيحة سريعة">
+    <p><strong>💡 نصيحة سريعة:</strong> كابل من ماركة معروفة بقدرة مكتوبة وتقوية عند الأطراف بيعيش أطول بكتير من الكابل الرخيص — بشرط إنك تتجنب الأخطاء الـ 6 اللي تحت.</p>
 </div>
 <p>كل شوية بتشتري كابل شحن جديد. الأول بيشتغل تمام، بعد شهرين بيبدأ يشحن من ناحية واحدة بس، وبعدها بيقطع خالص. والمحبط إنك بتفتكر إن "ده طبيعي — الكابلات كده." لكن الحقيقة إن <strong>مش الكابل هو المشكلة — إنت المشكلة</strong>. وده مش إهانة، ده علم.</p>
 
-<div class="expert-callout" style="background:#eff6ff;border-right:4px solid #3b82f6;padding:16px 20px;border-radius:8px;margin:20px 0">
-    <p><strong>🔬 اختبارنا العملي (كايرو فولت):</strong> فحصنا 8 كابلات من مرتجعات العملاء (4 أصلية رجعت بعد سنة + 4 تقليد رجعت بعد شهرين) وعايَنّا نقاط التلف بصرياً تحت المكبر. النتيجة على هذه العيّنة الاسترشادية: <strong>الغالبية العظمى من نقاط التلف (نحو 92%)</strong> كانت في أول 2 سم من طرف الكونكتور — المنطقة اللي بنثنيها وبنشدها كل يوم. عيّنة صغيرة لكنها تتسق مع طبيعة إجهاد الكابلات المعروفة.</p>
-</div>
 
 <h2>الخطأ #1: الشد من السلك مش من الفيشة ⚡</h2>
-<p>ده <strong>القاتل رقم 1</strong>. لما بتفصل الكابل من الموبايل، بتمسك السلك وتشد. ده بيعمل ضغط على نقطة اللحام بين السلك والكونكتور — وبعد 200-300 مرة شد، اللحام بيتفكك.</p>
+<p>ده <strong>من أشهر أسباب التلف</strong>. لما بتفصل الكابل من الموبايل، بتمسك السلك وتشد. ده بيعمل ضغط على نقطة اللحام بين السلك والكونكتور — وبعد 200-300 مرة شد، اللحام بيتفكك.</p>
 <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px 16px;margin:12px 0">
     <p style="margin:0;color:#166534"><strong>✅ الصح:</strong> امسك <strong>الفيشة البلاستيكية</strong> نفسها واسحبها في خط مستقيم. مش السلك.</p>
 </div>
@@ -52,18 +49,18 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
 <h2>الخطأ #2: لف الكابل بإحكام زي الحبل 🔄</h2>
 <p>لما بتلف الكابل حوالين الشاحن أو موبايلك بإحكام، بتعمل <strong>إجهاد ثني متكرر (repeated bending stress)</strong> على الأسلاك النحاسية الداخلية. النحاس بيتحمل عدد محدود من دورات الثني — بعد كده <strong>بينكسر من جوا</strong> حتى لو الغلاف الخارجي شكله سليم.</p>
 <table>
-    <thead><tr><th>طريقة اللف</th><th>عمر الكابل</th></tr></thead>
+    <thead><tr><th>طريقة اللف</th><th>التأثير على الكابل</th></tr></thead>
     <tbody>
-        <tr><td>لف محكم حول الشاحن ❌</td><td>2-4 شهور</td></tr>
-        <tr><td>لف دائري واسع (قطر 8+ سم) ✅</td><td>2-3 سنين</td></tr>
-        <tr><td>شكل 8 بدون إحكام ✅✅</td><td>3-5 سنين</td></tr>
+        <tr><td>لف محكم حول الشاحن ❌</td><td>بيقصّر عمر الكابل بوضوح</td></tr>
+        <tr><td>لف دائري واسع (قطر 8+ سم) ✅</td><td>أرفق بالكابل</td></tr>
+        <tr><td>شكل 8 بدون إحكام ✅✅</td><td>الأرفق بالكابل</td></tr>
     </tbody>
 </table>
 
 <h2>الخطأ #3: الشحن والموبايل مايل بزاوية 📐</h2>
 <p>لما موبايلك على السرير والكابل داخل فيه وأنت نايم عليه — الكابل بيتعرض لـ <strong>ثني بزاوية 90°</strong> عند نقطة الدخول لمدة 6-8 ساعات كل ليلة. ده أسوأ سيناريو للأسلاك الداخلية.</p>
 <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px 16px;margin:12px 0">
-    <p style="margin:0;color:#166534"><strong>✅ الحل:</strong> حط الموبايل على سطح مستوي وخلي الكابل ينزل في خط مستقيم أو بانحناء خفيف. الكابلات المعزّزة زي <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">انكر باور لاين</a> فيها تقوية عند نقطة الانحناء بتتحمل <strong>12,000 دورة ثني</strong>.</p>
+    <p style="margin:0;color:#166534"><strong>✅ الحل:</strong> حط الموبايل على سطح مستوي وخلي الكابل ينزل في خط مستقيم أو بانحناء خفيف. الكابلات المعزّزة زي <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">انكر باور لاين</a> فيها تقوية عند نقطة الانحناء، وانكر بتنشر لها تصنيف <strong>25,000+ ثنية</strong> في اختبار معملي (مش وعد بعمر محدد).</p>
 </div>
 
 <h2>الخطأ #4: شراء كابل تقليد بـ 30 جنيه 💸</h2>
@@ -71,11 +68,11 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
 <table>
     <thead><tr><th>المكوّن</th><th>كابل أصلي</th><th>كابل تقليد</th></tr></thead>
     <tbody>
-        <tr><td><strong>عدد الأسلاك</strong></td><td>28-56 سلك نحاس</td><td>8-12 سلك ألومنيوم</td></tr>
+        <tr><td><strong>عدد الأسلاك</strong></td><td>أسلاك نحاس بمقطع مناسب للقدرة المكتوبة</td><td>غالباً أسلاك أرفع، وأحياناً ألومنيوم مطلي</td></tr>
         <tr><td><strong>التدريع</strong></td><td>طبقة فويل + تجديل</td><td>بدون تدريع ❌</td></tr>
         <tr><td><strong>الغلاف</strong></td><td>نايلون مضفر أو TPE مرن</td><td>PVC رخيص بيتشقق</td></tr>
         <tr><td><strong>نقطة الانحناء</strong></td><td>معزّزة بـ Strain Relief</td><td>بدون تعزيز</td></tr>
-        <tr><td><strong>سرعة الشحن</strong></td><td>حتى 60-100W</td><td>5W فعلي بس</td></tr>
+        <tr><td><strong>سرعة الشحن</strong></td><td>حسب القدرة المكتوبة (مثلاً 60 أو 240 واط)</td><td>غالباً أقل بكتير من المكتوب</td></tr>
     </tbody>
 </table>
 <p>اقرأ <a href="/blog/how-to-spot-fake-chargers-7-tests" style="color:#2563eb;font-weight:bold">دليلنا لكشف التقليد بـ 7 اختبارات</a> عشان متتخدعش تاني.</p>
@@ -100,26 +97,25 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
     </ol>
 </div>
 
-<h3>أفضل كابلات متينة متاحة في مصر</h3>
+<h3>كابلات متينة متاحة في مصر</h3>
 <table>
     <thead><tr><th>الكابل</th><th>دورات الثني</th><th>القدرة</th><th>المميز</th></tr></thead>
     <tbody>
-        <tr><td><a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb"><strong>انكر A8050 (USB-A to USB-C)</strong></a></td><td>35,000+</td><td>شحن سريع من شواحن USB-A</td><td>نايلون مضفر بطول 1.8 متر</td></tr>
-        <tr><td><a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>انكر باور لاين USB-C</strong></a></td><td>12,000+</td><td>60W</td><td>نايلون مضفر مزدوج</td></tr>
-        <tr><td><a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb"><strong>انكر SureiStrong</strong></a></td><td>15,000+</td><td>30W</td><td>الأمتن لـ iPhone</td></tr>
-        <tr><td><a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>جوي روم USB-C 60W</strong></a></td><td>10,000+</td><td>60W</td><td>سعر اقتصادي ممتاز</td></tr>
+        <tr><td><a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb"><strong>انكر A8050 (USB-A to USB-C)</strong></a></td><td>35,000+ (معلن من انكر)</td><td>شحن سريع من شواحن USB-A</td><td>نايلون مضفر بطول 1.8 متر</td></tr>
+        <tr><td><a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>انكر باور لاين USB-C</strong></a></td><td>25,000+ (معلن من انكر)</td><td>60W</td><td>نايلون مزدوج الجدل</td></tr>
+        <tr><td><a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb"><strong>انكر SureIStrong</strong></a></td><td>غير منشور في صفحة المنتج</td><td>USB-C PD لأجهزة Lightning</td><td>طول 1.8 متر — لأجهزة Lightning</td></tr>
+        <tr><td><a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>جوي روم USB-C 60W</strong></a></td><td>غير منشور في صفحة المنتج</td><td>60W</td><td>مضفر بسعر اقتصادي</td></tr>
     </tbody>
 </table>
 
 <div style="background:linear-gradient(135deg,#065f46,#059669);border-radius:16px;padding:24px;margin:20px 0;color:white;text-align:center">
-    <p style="font-size:20px;font-weight:bold;margin-bottom:8px">💰 كابل أصلي بـ 250 جنيه = 5 سنين</p>
-    <p style="font-size:20px;font-weight:bold;margin-bottom:8px">كابل تقليد بـ 30 جنيه × 20 مرة = 600 جنيه + وجع دماغ</p>
-    <p style="opacity:0.9;margin:0;font-size:14px">كل كابلات كايرو فولت بضمان 18 شهر + إمكانية التحقق من الأصالة بالسيريال عبر موقع الشركة المصنعة</p>
+    <p style="font-size:20px;font-weight:bold;margin-bottom:8px">💰 الكابل الأصلي بتشتريه مرة — والتقليد بتشتريه كل شوية</p>
+    <p style="opacity:0.9;margin:0;font-size:14px">كل كابلات كايرو فولت بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) — ولمنتجات انكر اللي علبتها عليها ملصق كود أمان، تقدر تتحقق منه على anker.com/verify</p>
 </div>
 `,
             faq: [
                 { question: 'ليه كابل الشحن بيبوظ بسرعة؟', answer: 'أشهر 3 أسباب: الشد من السلك بدل الفيشة (بيفكك اللحام الداخلي)، لف الكابل بإحكام (بيكسر الأسلاك النحاسية)، والثني بزاوية 90° عند نقطة الدخول لفترات طويلة. الحل إنك تشتري كابل بتقنية Strain Relief وتتعامل معاه صح.' },
-                { question: 'إيه أفضل كابل شحن مش بيبوظ؟', answer: 'أنكر PowerLine و SureiStrong من أفضل الكابلات — متصممين يتحملوا 12,000-15,000 دورة ثني. كابلات جوي روم 60W كمان خيار ممتاز بسعر أقل. كلهم متاحين على كايرو فولت بضمان 18 شهر.' },
+                { question: 'إيه كابل الشحن اللي بيستحمل أكتر؟', answer: 'دوّر على كابل من ماركة معروفة فيه تقوية عند الأطراف وتضفير نايلون: انكر PowerLine III ({{price:anker-powerline-usb-c-usb-c}} جنيه) انكر بتنشر له تصنيف 25,000+ ثنية في اختبار معملي، وجوي روم USB-C 60W ({{price:joyroom-usb-c-cable-60w}} جنيه) مضفر بسعر أقل. الاتنين متاحين في كايرو فولت بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج).' },
                 { question: 'الكابل بيشحن من ناحية واحدة بس ده معناه إيه؟', answer: 'ده معناه إن بعض الأسلاك النحاسية الداخلية انكسرت من ناحية ولسه سليمة من الناحية التانية. لما بتحرك الكابل بتلاقي وضعية معينة بس بتشتغل. ده مرحلة متأخرة من التلف — غيّر الكابل فوراً لأنه ممكن يسبب شحن غير مستقر يضر البطارية.' },
                 { question: 'هل كابل الشحن السريع بيبوظ أسرع من العادي؟', answer: 'لا. كابلات الشحن السريع الأصلية متصممة لتيار أعلى (3-5 أمبير) بأسلاك أسمك. اللي بيبوظ أسرع هو كابل تقليد مكتوب عليه Fast Charging لكن أسلاكه رفيعة — بيسخن من التيار العالي وبيتلف بسرعة.' },
             ],
@@ -130,16 +126,16 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
             metaDescription: 'Discover 6 daily habits that destroy your charging cable every few months — from wrong wrapping to pulling by the cord. Science-backed guide + best durable c...',
             keywords: 'why charging cable breaks, charging cable keeps breaking, durable charging cable, how to protect charging cable, best cable that doesnt break, Anker PowerLine durable, cable strain relief, charging cable lifespan, USB-C cable breaking, cable bending damage',
             excerpt: '6 daily mistakes you make without realizing that kill your charging cable every 2 months. Learn the science behind it and the permanent solution.',
-            quickAnswer: 'Charging cables break fast due to 6 mistakes: pulling by the cord instead of the plug, wrapping too tightly, bending at 90° at the connection point, using counterfeit cables without copper shielding, heat exposure above 45°C, and keeping cable connected while phone is in pocket. Solution: buy cables with Strain Relief technology like Anker PowerLine with 18-month warranty.',
+            quickAnswer: 'Charging cables usually break fast because of 6 mistakes: pulling by the cord instead of the plug, wrapping too tightly, bending sharply at the connection point, buying counterfeit cables, heat above roughly 45°C, and leaving it connected while the phone is in your pocket. The fix: a cable with strain relief at the ends, such as the Anker PowerLine III, handled properly.',
             content: `
 <h2>The Universal Problem</h2>
-<div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role="complementary" aria-label="Statistic">
-    <p><strong>📊 Fact:</strong> The average person replaces their charging cable every <strong>2-3 months</strong>, spending 400-600 EGP yearly on cheap cables. One original cable at 250 EGP lasts <strong>3-5 years</strong> — saving 1,500+ EGP over 5 years.</p>
+<div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role="complementary" aria-label="Quick tip">
+    <p><strong>💡 Quick tip:</strong> A branded cable with a printed rating and reinforced ends lasts far longer than a cheap one — as long as you avoid the 6 mistakes below.</p>
 </div>
 <p>You buy a new cable, it works great for a couple months, then it starts only charging at certain angles, then dies. You assume "that's just how cables are." But the truth is — <strong>it's not the cable, it's how you treat it</strong>.</p>
 
 <h2>Mistake #1: Pulling by the Cord, Not the Plug ⚡</h2>
-<p>The <strong>#1 killer</strong>. When you yank the cable from your phone by the cord, you stress the solder joint between wire and connector. After 200-300 pulls, the joint breaks.</p>
+<p>One of the <strong>most common killers</strong>. When you yank the cable from your phone by the cord, you stress the solder joint between wire and connector. After 200-300 pulls, the joint breaks.</p>
 <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px 16px;margin:12px 0">
     <p style="margin:0;color:#166534"><strong>✅ Fix:</strong> Always grip the <strong>plastic housing</strong> of the connector and pull straight out.</p>
 </div>
@@ -147,16 +143,16 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
 <h2>Mistake #2: Wrapping Too Tightly 🔄</h2>
 <p>Tightly wrapping your cable around the charger creates repeated bending stress on internal copper wires. Copper has a limited number of bend cycles before fracturing internally — even if the outer jacket looks fine.</p>
 <table>
-    <thead><tr><th>Wrapping Method</th><th>Cable Lifespan</th></tr></thead>
+    <thead><tr><th>Wrapping Method</th><th>Effect on the Cable</th></tr></thead>
     <tbody>
-        <tr><td>Tight wrap around charger ❌</td><td>2-4 months</td></tr>
-        <tr><td>Loose circular (8+ cm diameter) ✅</td><td>2-3 years</td></tr>
-        <tr><td>Figure-8 without tension ✅✅</td><td>3-5 years</td></tr>
+        <tr><td>Tight wrap around charger ❌</td><td>Noticeably shortens cable life</td></tr>
+        <tr><td>Loose circular (8+ cm diameter) ✅</td><td>Gentler on the cable</td></tr>
+        <tr><td>Figure-8 without tension ✅✅</td><td>Gentlest on the cable</td></tr>
     </tbody>
 </table>
 
 <h2>Mistake #3: Charging at a 90° Angle 📐</h2>
-<p>Phone on the bed, cable bent sharply at the connection point for 6-8 hours every night. This is the worst-case scenario for internal wires. Cables with Strain Relief like <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine</a> are reinforced to handle <strong>12,000+ bend cycles</strong>.</p>
+<p>Phone on the bed, cable bent sharply at the connection point for 6-8 hours every night. This is the worst-case scenario for internal wires. Cables with Strain Relief like <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine</a> are reinforced at the bend point, and Anker publishes a <strong>25,000+ bend</strong> lab rating for it (not a lifespan promise).</p>
 
 <h2>Mistake #4: Buying Counterfeit Cables 💸</h2>
 <p>A cheap cable has 8-12 aluminum wires vs 28-56 copper wires in originals, no shielding, PVC jacket that cracks, and no strain relief reinforcement. Read our <a href="/en/blog/how-to-spot-fake-chargers-7-tests" style="color:#2563eb">guide to spotting fakes</a>.</p>
@@ -177,26 +173,26 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
     </ol>
 </div>
 
-<h3>Best Durable Cables Available in Egypt</h3>
+<h3>Durable Cables Available in Egypt</h3>
 <table>
     <thead><tr><th>Cable</th><th>Bend Cycles</th><th>Power</th><th>Key Feature</th></tr></thead>
     <tbody>
-        <tr><td><a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb"><strong>Anker A8050 (USB-A to USB-C)</strong></a></td><td>35,000+</td><td>Fast charge from USB-A chargers</td><td>Braided nylon, 1.8m</td></tr>
-        <tr><td><a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>Anker PowerLine</strong></a></td><td>12,000+</td><td>60W</td><td>Double-braided nylon</td></tr>
-        <tr><td><a href="/en/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb"><strong>Anker SureiStrong</strong></a></td><td>15,000+</td><td>30W</td><td>Toughest for iPhone</td></tr>
-        <tr><td><a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>Joyroom 60W</strong></a></td><td>10,000+</td><td>60W</td><td>Best budget option</td></tr>
+        <tr><td><a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb"><strong>Anker A8050 (USB-A to USB-C)</strong></a></td><td>35,000+ (Anker-listed)</td><td>Fast charge from USB-A chargers</td><td>Braided nylon, 1.8m</td></tr>
+        <tr><td><a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>Anker PowerLine</strong></a></td><td>25,000+ (Anker-listed)</td><td>60W</td><td>Double-braided nylon</td></tr>
+        <tr><td><a href="/en/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb"><strong>Anker SureIStrong</strong></a></td><td>Not listed on the product page</td><td>USB-C PD for Lightning devices</td><td>1.8m — for Lightning devices</td></tr>
+        <tr><td><a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>Joyroom 60W</strong></a></td><td>Not listed on the product page</td><td>60W</td><td>Braided, budget price</td></tr>
     </tbody>
 </table>
 
 <div style="background:linear-gradient(135deg,#065f46,#059669);border-radius:16px;padding:24px;margin:20px 0;color:white;text-align:center">
-    <p style="font-size:20px;font-weight:bold;margin-bottom:8px">💰 One original cable at 250 EGP = 5 years</p>
-    <p style="font-size:20px;font-weight:bold;margin-bottom:8px">20 cheap cables at 30 EGP = 600 EGP + frustration</p>
-    <p style="opacity:0.9;margin:0;font-size:14px">All CairoVolt cables come with an 18-month warranty + serial-number authenticity verification on the manufacturer's website</p>
+    <p style="font-size:20px;font-weight:bold;margin-bottom:8px">💰 You buy a genuine cable once — a cheap copy again and again</p>
+    <p style="opacity:0.9;margin:0;font-size:14px">All CairoVolt cables come with an invoice and CairoVolt's written store warranty (duration shown on each product page) — and for Anker products whose box carries a security-code label, you can check it at anker.com/verify</p>
 </div>
 `,
             faq: [
                 { question: 'Why does my charging cable break so fast?', answer: 'The top 3 causes: pulling by the cord (breaks internal solder), tight wrapping (fractures copper wires), and 90° bending at the connection point. Buy cables with Strain Relief technology and handle them properly.' },
-                { question: 'What is the most durable charging cable?', answer: 'Anker PowerLine and SureiStrong are among the best — rated for 12,000-15,000 bend cycles. Joyroom 60W cables are also excellent at a lower price point. All available on CairoVolt with 18-month warranty.' },
+                { question: 'Which charging cable holds up best?', answer: 'Look for a branded cable with reinforced ends and nylon braiding: the Anker PowerLine III (EGP {{price:anker-powerline-usb-c-usb-c}}) carries a 25,000+ bend lab rating published by Anker, and the Joyroom USB-C 60W (EGP {{price:joyroom-usb-c-cable-60w}}) is braided at a lower price. Both are available at CairoVolt with an invoice and CairoVolt\'s written store warranty (duration shown on each product page).' },
+                { question: 'My cable only charges at a certain angle — what does that mean?', answer: 'It means some of the internal copper wires have broken while others are still intact. When you move the cable, only one position works. This is a late stage of damage — replace the cable right away, because it can cause unstable charging that harms the battery.' },
                 { question: 'Does fast charging damage the cable faster?', answer: 'No. Original fast-charging cables are designed for higher current (3-5A) with thicker wires. What breaks faster are counterfeit cables labeled "Fast Charging" with thin wires — they overheat and degrade quickly.' },
             ],
         },

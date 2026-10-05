@@ -1,6 +1,9 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Metadata } from 'next';
+import Link from 'next/link';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import { governorates } from '@/data/governorates';
+import { getShippingFee } from '@/lib/shipping';
 
 export const revalidate = 2592000;
 
@@ -29,10 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 'x-default': 'https://cairovolt.com/shipping',
             },
         },
-        robots: {
-            index: true,
-            follow: true,
-        },
+        // No page-level `robots`: it replaced the layout's googleBot block
+        // (max-image-preview:large, max-snippet:-1).
         openGraph: {
             title,
             description,
@@ -50,6 +51,33 @@ export default async function ShippingPage({ params }: Props) {
     setRequestLocale(locale);
     const t = await getTranslations({ locale, namespace: 'Shipping' });
     const isArabic = locale === 'ar';
+    const prefix = isArabic ? '' : '/en';
+
+    // Delivery estimates come from the same governorate data the
+    // /locations/<governorate> pages render (deliveryDays to deliveryDays + 1
+    // business days, see src/lib/bosta.ts), so the summary cards, the
+    // per-governorate list and the location pages cannot disagree.
+    const deliveryDays = governorates.map(item => item.deliveryDays);
+    const fastestDays = Math.min(...deliveryDays);
+    const slowestDays = Math.max(...deliveryDays);
+    const middleDays = governorates
+        .filter(item => item.deliveryDays !== fastestDays && item.deliveryDays !== slowestDays)
+        .map(item => item.deliveryDays);
+    const otherRange = middleDays.length
+        ? `${Math.min(...middleDays)}–${Math.max(...middleDays) + 1}`
+        : `${slowestDays}–${slowestDays + 1}`;
+    const slowestNames = governorates
+        .filter(item => item.deliveryDays === slowestDays)
+        .map(item => (isArabic ? item.nameAr : item.nameEn));
+    const slowestLabel = isArabic
+        ? slowestNames.join(' و')
+        : slowestNames.length > 1
+            ? `${slowestNames.slice(0, -1).join(', ')} and ${slowestNames[slowestNames.length - 1]}`
+            : slowestNames.join('');
+    // Arabic: "1–2 يوم عمل" (as the Cairo card and the existing copy write it), "2–3 أيام عمل" otherwise.
+    const businessDays = (range: string) => (isArabic
+        ? `${range} ${range.startsWith('1–') ? 'يوم عمل' : 'أيام عمل'}`
+        : `${range} business days`);
 
     return (
         <>
@@ -60,7 +88,7 @@ export default async function ShippingPage({ params }: Props) {
                 ]}
                 locale={locale}
             />
-            <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+            <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
                 <div className="container mx-auto px-4 py-16">
                     <div className="max-w-4xl mx-auto">
                         <h1 className="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -95,20 +123,64 @@ export default async function ShippingPage({ params }: Props) {
                                     </span>
                                     {t('deliveryTime.title')}
                                 </h2>
-                                <div className="grid md:grid-cols-2 gap-6">
+                                <div className="grid md:grid-cols-3 gap-6">
                                     <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6">
                                         <h3 className="font-semibold text-lg mb-2">{t('deliveryTime.cairo')}</h3>
                                         <p className="text-2xl font-bold text-blue-600">
-                                            {isArabic ? 'تقدير شائع: 1–2 يوم عمل' : 'Common estimate: 1–2 business days'}
+                                            {isArabic
+                                                ? `تقدير شائع: ${fastestDays}–${fastestDays + 1} يوم عمل`
+                                                : `Common estimate: ${fastestDays}–${fastestDays + 1} business days`}
                                         </p>
                                     </div>
                                     <div className="bg-purple-50 dark:bg-purple-900/20 rounded-xl p-6">
                                         <h3 className="font-semibold text-lg mb-2">{t('deliveryTime.provinces')}</h3>
                                         <p className="text-2xl font-bold text-purple-600">
-                                            {isArabic ? 'تقدير شائع: 3–5 أيام عمل' : 'Common estimate: 3–5 business days'}
+                                            {isArabic ? `تقدير شائع: ${businessDays(otherRange)}` : `Common estimate: ${businessDays(otherRange)}`}
+                                        </p>
+                                    </div>
+                                    <div className="bg-amber-50 dark:bg-amber-900/20 rounded-xl p-6">
+                                        <h3 className="font-semibold text-lg mb-2">{slowestLabel}</h3>
+                                        <p className="text-2xl font-bold text-amber-700 dark:text-amber-400">
+                                            {isArabic
+                                                ? `تقدير: ${businessDays(`${slowestDays}–${slowestDays + 1}`)}`
+                                                : `Estimate: ${businessDays(`${slowestDays}–${slowestDays + 1}`)}`}
                                         </p>
                                     </div>
                                 </div>
+                                <p className="mt-4 text-sm text-gray-600 dark:text-gray-400">
+                                    {isArabic
+                                        ? `المدد تقديرية وتُؤكد بعد مراجعة العنوان. المحافظات الأطول في مدة التوصيل (${slowestLabel}) تستغرق ${businessDays(`${slowestDays}–${slowestDays + 1}`)}.`
+                                        : `Estimates are confirmed after the address is reviewed. The governorates with the longest estimate (${slowestLabel}) take ${businessDays(`${slowestDays}–${slowestDays + 1}`)}.`}
+                                </p>
+                            </section>
+
+                            {/* Delivery by governorate — links every /locations page (their breadcrumb parent is this page). */}
+                            <section id="delivery-by-governorate" className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
+                                <h2 className="text-2xl font-semibold mb-2">
+                                    {isArabic ? 'التوصيل حسب المحافظة' : 'Delivery by governorate'}
+                                </h2>
+                                <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm">
+                                    {isArabic
+                                        ? 'المدة التقديرية ورسوم الشحن للطلبات الأقل من حد الشحن المجاني لكل محافظة. افتح صفحة المحافظة للتفاصيل.'
+                                        : 'Estimated delivery time and the shipping fee below the free-shipping threshold for each governorate. Open a governorate for details.'}
+                                </p>
+                                <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
+                                    {governorates.map(item => (
+                                        <li key={item.slug}>
+                                            <Link
+                                                href={`${prefix}/locations/${item.slug}`}
+                                                className="flex items-center justify-between gap-3 rounded-xl border border-gray-200 dark:border-gray-700 px-4 py-3 text-sm hover:border-blue-400 transition-colors"
+                                            >
+                                                <span className="font-medium text-gray-900 dark:text-white">{isArabic ? item.nameAr : item.nameEn}</span>
+                                                <span className="text-gray-500 dark:text-gray-400 text-xs whitespace-nowrap">
+                                                    {businessDays(`${item.deliveryDays}–${item.deliveryDays + 1}`)}
+                                                    {' · '}
+                                                    {isArabic ? `${getShippingFee(item.slug, 0)} جنيه` : `${getShippingFee(item.slug, 0)} EGP`}
+                                                </span>
+                                            </Link>
+                                        </li>
+                                    ))}
+                                </ul>
                             </section>
 
                             {/* Shipping Cost */}
@@ -138,7 +210,7 @@ export default async function ShippingPage({ params }: Props) {
                         </div>
                     </div>
                 </div>
-            </main>
+            </div>
         </>
     );
 }

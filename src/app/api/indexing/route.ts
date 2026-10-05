@@ -88,6 +88,12 @@ export async function POST(req: Request) {
             revalidatePath(`/[locale]/blog/${slug}`, 'page');
             revalidatePath('/[locale]/blog', 'page');
             revalidatePath('/sitemap.xml');
+            // Category shelves and brand hubs carry "read before buying" rails
+            // built from the live blog index, so a newly revealed guide must
+            // reach them without waiting for the next deploy. Route-pattern
+            // calls cover every brand/category in both locales.
+            revalidatePath('/[locale]/[brand]/[category]', 'page');
+            revalidatePath('/[locale]/[brand]', 'page');
             console.log(`[ISR] Revalidated blog article: ${slug}`);
         }
 
@@ -96,21 +102,17 @@ export async function POST(req: Request) {
             // Product page (both locales)
             revalidatePath(`/[locale]/[brand]/[category]/${slug}`, 'page');
 
-            // Extract brand/category from URL for parent page invalidation
-            try {
-                const urlObj = new URL(url);
-                const parts = urlObj.pathname.split('/').filter(Boolean);
-                // URL format: /brand/category/slug or /en/brand/category/slug
-                const offset = parts[0] === 'en' || parts[0] === 'ar' ? 1 : 0;
-                const brand = parts[offset];
-                const category = parts[offset + 1];
-                if (brand && category) {
-                    // Category listing page
-                    revalidatePath(`/[locale]/${brand}/${category}`, 'page');
-                    // Brand hub page
-                    revalidatePath(`/[locale]/${brand}`, 'page');
-                }
-            } catch { /* URL parsing failed — skip parent pages */ }
+            // Parent pages that list this product's price/stock. A path that
+            // mixes a dynamic segment with literal values
+            // (`/[locale]/anker/power-banks`) matches no route file, so those
+            // calls silently purged nothing; the route-pattern form below
+            // covers every category shelf and brand hub in both locales.
+            revalidatePath('/[locale]/[brand]/[category]', 'page');
+            revalidatePath('/[locale]/[brand]', 'page');
+            // The Soundcore hub is its own static route (app/[locale]/soundcore),
+            // not covered by the [brand] pattern; it lists Soundcore prices too.
+            // The old per-brand call reached it for soundcore URLs — keep that.
+            revalidatePath('/[locale]/soundcore', 'page');
 
             // Home page (shows featured products with prices)
             revalidatePath('/[locale]', 'page');

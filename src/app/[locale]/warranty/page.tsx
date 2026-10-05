@@ -29,10 +29,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 'x-default': 'https://cairovolt.com/warranty',
             },
         },
-        robots: {
-            index: true,
-            follow: true,
-        },
+        // No page-level `robots`: it replaced the layout's googleBot block
+        // (max-image-preview:large, max-snippet:-1).
         openGraph: {
             title,
             description,
@@ -59,7 +57,7 @@ export default async function WarrantyPage({ params }: Props) {
                 ]}
                 locale={locale}
             />
-            <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+            <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
                 <div className="container mx-auto px-4 py-16">
                     <div className="max-w-4xl mx-auto">
                         <h1 className="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-transparent">
@@ -175,7 +173,7 @@ export default async function WarrantyPage({ params }: Props) {
                         </div>
                     </div>
                 </div>
-            </main>
+            </div>
         </>
     );
 }

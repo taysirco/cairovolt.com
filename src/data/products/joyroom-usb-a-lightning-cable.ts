@@ -35,7 +35,7 @@ export const joyroom_usb_a_lightning_cable = {
                     { question: "What's the difference between this and USB-C cables?", answer: "USB-A is the traditional rectangular connector found on older chargers. USB-C offers faster charging. Use this cable if your charger has USB-A port." },
                     { question: "What warranty and return terms apply?", answer: "Review the written policy for this exact listing. It defines the applicable duration, eligibility, covered defects, exclusions, proof of purchase and service steps." },
                     { question: "Does it support fast charging?", answer: "Charging speed is limited by the USB-A charger, Lightning device, and the cable's stated current rating. This connection does not provide USB-C PD fast charging." },
-                    { question: "Is this cable MFi certified?", answer: "Check the MFi statement for the exact model on the supplied packaging or Joyroom documentation. Do not infer certification, warranty status or surge protection from the connector shape alone." }
+                    { question: "Is this cable MFi certified?", answer: "Not verified: our tested JR-S-AL24 sample had no Apple MFi packaging mark, and iOS showed an accessory warning. Treat MFi as unconfirmed unless your package shows the mark; the connector shape alone does not establish certification." }
                 ]
             },
             ar: {
@@ -55,7 +55,7 @@ export const joyroom_usb_a_lightning_cable = {
                     { question: "ما الفرق بين هذا وكابلات USB-C؟", answer: "USB-A وUSB-C نوعا موصلات مختلفان، والسرعة تعتمد على بروفايل المصدر والكابل والجهاز. استخدم الموصل والتصنيف المطابقين لشاحنك وجهازك ولا تستنتج السرعة من الشكل وحده." },
                     { question: "ما شروط الضمان والاسترجاع المطبقة؟", answer: "راجع السياسة المكتوبة لهذا المنتج؛ فهي تحدد المدة المطبقة والأهلية والعيوب المشمولة والاستثناءات وإثبات الشراء وخطوات الخدمة." },
                     { question: "هل يدعم الشحن السريع؟", answer: "السرعة محدودة بشاحن USB-A وجهاز Lightning وتصنيف الكابل. هذا الاتصال لا يوفر USB-C PD، وتحقق من القدرة الدقيقة للموديل." },
-                    { question: "الكابل ده معتمد MFi؟", answer: "راجع بيان MFi للموديل نفسه على العبوة الموردة أو وثائق جوي روم. لا تفترض الاعتماد أو حالة الضمان أو الحماية من زيادة الجهد من شكل الموصل وحده." }
+                    { question: "الكابل ده معتمد MFi؟", answer: "غير مؤكَّد: عيّنة JR-S-AL24 المُختبرة لدينا بلا علامة Apple MFi على العبوة، وأظهر iOS تحذير ملحق. اعتبر MFi غير مؤكَّد ما لم تُظهر عبوتك العلامة؛ شكل الموصل وحده لا يثبت الاعتماد." }
                 ]
             }
         },

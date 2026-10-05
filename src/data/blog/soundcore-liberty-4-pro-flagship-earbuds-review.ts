@@ -4,7 +4,7 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
     slug: 'soundcore-liberty-4-pro-flagship-earbuds-review',
     category: 'review',
     publishDate: '2026-07-24',
-    modifiedDate: '2026-07-24',
+    modifiedDate: '2026-10-04',
     readingTime: 11,
     relatedProducts: [
         'soundcore-liberty-4-pro',
@@ -33,12 +33,12 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
             metaDescription: 'مراجعة تفصيلية لسماعة Soundcore Liberty 4 Pro وعزل الضوضاء. أداء الشاشة الذكية وشريط اللمس، ترميز LDAC ودرايفر ACAA المزدوج، والضمان المعتمد والسعر بمصر.',
             keywords: 'soundcore liberty 4 pro مراجعة, liberty 4 pro مصر سعر, سماعة شاشة ذكية, soundcore liberty 4 pro vs liberty 4 nc, ANC 43dB سماعة, افضل سماعة تحت 6000 جنيه, ACAA درايفر مزدوج soundcore, soundcore liberty 4 pro انكر مصر, hi-res audio earbuds egypt, liberty 4 pro review arabic',
             excerpt: 'تتميز سماعة Soundcore Liberty 4 Pro بعلبة شحن فريدة مزودة بشاشة ذكية وشريط لمس للتحكم الكامل، مع صوت نقي بدرايفر محوري مزدوج ACAA وترميز LDAC.',
-            quickAnswer: 'تعتبر سماعة Soundcore Liberty 4 Pro الخيار الفلاجشيب الأفضل في فئة المتوسط المرتفع بمصر (سعر 4,500 إلى 5,500 جنيه). وتتفوق عن الموديل 4 NC بوجود شاشة ذكية وشريط لمس مدمج بالعلبة لعرض مستوى الشحن والتحكم في وضع العزل بدون الهاتف، مع نظام صوتي بمحركين ACAA ونقاء موسيقي مذهل.',
-            content: `<p>بينما تتسابق الشركات التقنية الكبرى لتقديم سماعات لاسلكية رائدة تتجاوز أسعارها حاجز الـ 12 ألف جنيه في السوق المصري، نجحت أنكر في تقديم سماعة Soundcore Liberty 4 Pro التي تقدم تقنيات فلاجشيب استثنائية بنصف هذا السعر تقريباً. التحدي الأساسي في هذه الفئة هو تقديم ميزات حقيقية تبرر الفارق السعري عن الفئات الاقتصادية. في هذه المراجعة التفصيلية نستعرض أداء الشاشة الذكية الفريدة، وقوة الدرايفر المحوري المزدوج ACAA، ومدى فاعلية عزل الضوضاء النشط في الظروف المصرية الصاخبة، بالاستناد إلى المواصفات الرسمية المعلنة والمراجعات المستقلة المنشورة.</p>
+            quickAnswer: 'Soundcore Liberty 4 Pro هي الفئة الأعلى في سلسلة Liberty: علبة بشاشة ذكية وشريط لمس للتحكم في العزل من غير الموبايل، ودرايفر ACAA محوري مزدوج (10.5 + 4.6 مم)، وLDAC، وعزل تكيّفي معلن. على عيّنتنا قسنا 9 ساعات و51 دقيقة بدون ANC (AAC، صوت 50%). سعرها في كايرو فولت {{price:soundcore-liberty-4-pro}} جنيه.',
+            content: `<p>بينما تتسابق الشركات التقنية الكبرى لتقديم سماعات لاسلكية رائدة تتجاوز أسعارها حاجز الـ 12 ألف جنيه في السوق المصري، نجحت انكر في تقديم سماعة Soundcore Liberty 4 Pro التي تقدم تقنيات فلاجشيب استثنائية بنصف هذا السعر تقريباً. التحدي الأساسي في هذه الفئة هو تقديم ميزات حقيقية تبرر الفارق السعري عن الفئات الاقتصادية. في هذه المراجعة التفصيلية نستعرض أداء الشاشة الذكية الفريدة، وقوة الدرايفر المحوري المزدوج ACAA، ومدى فاعلية عزل الضوضاء النشط في الظروف المصرية الصاخبة، بالاستناد إلى المواصفات الرسمية المعلنة والمراجعات المستقلة المنشورة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>الحكم النهائي لـ Soundcore Liberty 4 Pro:</strong> تجمع السماعة بين الابتكار الهندسي الفريد الممثل في <strong>الشاشة الذكية وشريط اللمس التفاعلي المدمجين بالعلبة</strong>، والنقاء الموسيقي الفائق بفضل الدرايفر المزدوج المحوري وترميز LDAC. بسعر يتراوح بين <strong>4,500 إلى 5,500 جنيه مصري</strong>، تعد الخيار الذكي لمن يرفض تقديم أي تنازلات في جودة الصوت وتجربة التحكم الفاخرة.
+        <strong>الحكم النهائي لـ Soundcore Liberty 4 Pro:</strong> الفئة الأعلى في سلسلة Liberty: <strong>علبة بشاشة ذكية وشريط لمس</strong> للتحكم في العزل من غير الموبايل، ودرايفر ACAA محوري مزدوج، وLDAC، وعزل تكيّفي معلن. على عيّنتنا قسنا 9 ساعات و51 دقيقة بدون ANC (AAC، صوت 50%). سعرها <strong>{{price:soundcore-liberty-4-pro}} جنيه</strong> في كايرو فولت.
     </p>
 </div>
 
@@ -62,7 +62,7 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">النظام الصوتي (Drivers)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">درايفر مزدوج محوري ACAA (9.2 مم باص + 6 مم تريبل)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">درايفر مزدوج محوري ACAA (10.5 مم باص + 4.6 مم تريبل)</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">بلوتوث وترميز الصوت</td>
@@ -70,15 +70,15 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">إلغاء الضوضاء النشط (ANC)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">نعم — عزل ذكي متكيف يصل لـ -43 ديسيبل</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">نعم — عزل تكيّفي معلن من الشركة (ANC 3.0)</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">البطارية (مع تشغيل العزل)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">تستمر لنحو 9.5 ساعات متواصلة (8 ساعات مع تفعيل LDAC)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">البطارية (قياسنا، صوت 50%)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">9 ساعات و51 دقيقة بدون ANC (AAC)، و6 ساعات و22 دقيقة مع ANC، و5 ساعات و24 دقيقة مع LDAC وANC معاً</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">البطارية الإجمالية مع العلبة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">تصل إلى 40 ساعة إضافية من الشحن (إجمالي 50 ساعة)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حتى 40 ساعة إجمالاً مع العلبة (معلن من الشركة)</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">طرق الشحن وسرعته</td>
@@ -90,8 +90,8 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
 <h2>تقنية الدرايفر المزدوج ACAA ونقاء الصوت الموسيقي</h2>
 <p>تستخدم السماعة تقنية ACAA (Astria Coaxial Acoustic Architecture) الحصرية؛ حيث يستقر محركان للصوت داخل كبسولة الأذن الواحدة على محور هندسي واحد موجه مباشرة لقناة الأذن:</p>
 <ul>
-    <li><strong>الدرايفر الديناميكي الكبير (9.2 مم):</strong> يتخصص في معالجة الترددات المنخفضة (Bass) لتقديم نبضات طبل عميقة واهتزازات قوية دون التأثير على وضوح الأصوات البشرية.</li>
-    <li><strong>الدرايفر الصغير (6 مم):</strong> مخصص بالكامل للترددات المرتفعة (Treble) لضمان إبراز الآلات الوترية والصوت الحاد والآلات النحاسية بنقاء كريستالي فائق الوضوح.</li>
+    <li><strong>الدرايفر الديناميكي الكبير (10.5 مم):</strong> يتخصص في معالجة الترددات المنخفضة (Bass) لتقديم نبضات طبل عميقة واهتزازات قوية دون التأثير على وضوح الأصوات البشرية.</li>
+    <li><strong>الدرايفر الصغير (4.6 مم):</strong> مخصص بالكامل للترددات المرتفعة (Treble) لضمان إبراز الآلات الوترية والصوت الحاد والآلات النحاسية بنقاء كريستالي فائق الوضوح.</li>
 </ul>
 <p>هذا التقسيم الهندسي يلغي مشكلة تداخل الترددات الشائعة في سماعات الدرايفر الواحد، ويمنحك مسرحاً صوتياً واسعاً ومفصلاً تشعر معه بمكان كل آلة موسيقية حولك بوضوح.</p>
 
@@ -103,9 +103,9 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
 </ul>
 
 <h2>أداء عزل الضوضاء النشط (ANC) في الشارع المصري</h2>
-<p>بفضل خوارزمية ANC التي تصل قوتها لـ -43 ديسيبل، تقدم Liberty 4 Pro عزل ضوضاء ممتازاً يقارب أفضل سماعات سوني وبوز:</p>
+<p>بعزل ANC تكيّفي معلن من الشركة، بتقدم Liberty 4 Pro عزل ضوضاء قوي (تقييم نوعي — ساوندكور مش بتنشر نتيجة ديسيبل لكل بيئة):</p>
 <ul>
-    <li><strong>كتم الضجيج المستمر:</strong> تعزل السماعة ضوضاء محركات وسائل النقل وضجيج مكيفات الهواء في الشركات بشكل شبه كامل، مما يتيح لك مساحة هدوء مثالية للتركيز والعمل.</li>
+    <li><strong>كتم الضجيج المستمر:</strong> بتقلل السماعة ضوضاء محركات وسائل النقل وضجيج مكيفات الهواء في المكاتب بشكل واضح، وده بيساعد على التركيز والعمل.</li>
     <li><strong>التعامل مع الأصوات المفاجئة:</strong> تقوم الخوارزمية بتقليل حدة الأصوات الحادة وأبواق السيارات في شوارع القاهرة بشكل ملحوظ، مما يقلل من تشتت الانتباه ويوفر تجربة استماع مريحة وآمنة في نفس الوقت.</li>
 </ul>
 
@@ -137,7 +137,7 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">نظام محركات الصوت</td>
-            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;">ACAA مزدوج (9.2مم + 6مم)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;">ACAA محوري مزدوج (10.5مم + 4.6مم)</td>
             <td style="padding:12px;border:1px solid #d1d5db;text-align:center;">درايفر فردي 11 مم</td>
             <td style="padding:12px;border:1px solid #d1d5db;text-align:center;">درايفر فردي 8.4 مم فائق الدقة</td>
         </tr>
@@ -148,10 +148,10 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;text-align:center;color:#059669;">✅ نعم</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">السعر في مصر</td>
-            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;font-weight:bold;">4,500 - 5,500 جنيه</td>
-            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;font-weight:bold;">3,500 - 4,500 جنيه</td>
-            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;color:#dc2626;font-weight:bold;">12,000 - 15,000 جنيه</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">السعر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;font-weight:bold;">{{price:soundcore-liberty-4-pro}} جنيه (كايرو فولت)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;font-weight:bold;">{{price:soundcore-liberty-4-nc}} جنيه (كايرو فولت)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;color:#dc2626;font-weight:bold;">نطاق سوق تقريبي 12,000 - 15,000 جنيه</td>
         </tr>
     </tbody>
 </table>
@@ -160,25 +160,25 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
 <p>تحتوي Liberty 4 Pro على 6 ميكروفونات مدمجة (3 في كل جهة) مع خوارزمية ذكاء اصطناعي لعزل ضجيج الرياح والمحيط. في البيئات الداخلية والغرف المغلقة والمكاتب، يكون صوت المكالمة نقياً جداً وصافياً ومناسباً جداً لاجتماعات العمل عبر تطبيقات زووم ومايكروسوفت تيمز. أما في البيئات المفتوحة والشوارع الصاخبة، تقوم الكبسولة بعزل الأصوات الخلفية بكفاءة عالية، مما يضمن سماعك بوضوح من قبل الطرف الآخر، على الرغم من أن الخوارزمية قد تضغط نبرة الصوت قليلاً وتجعلها تبدو معدنية في ذروة الضجيج.</p>
 
 <h2>حماية الشحن المتقدمة ضد عدم استقرار التيار في مصر</h2>
-<p>نظراً لتكرار انقطاع الكهرباء وتذبذب الجهد الكهربائي في مصر، صممت أنكر الدوائر الداخلية لـ Liberty 4 Pro لحماية بطارية الكيس بسعة 800 مللي أمبير وشاحن Qi اللاسلكي:</p>
+<p>نظراً لتكرار انقطاع الكهرباء وتذبذب الجهد الكهربائي في مصر، صممت انكر الدوائر الداخلية لـ Liberty 4 Pro لحماية بطارية الكيس بسعة 800 مللي أمبير وشاحن Qi اللاسلكي:</p>
 <ul>
     <li><strong>دائرة قطع التيار الذاتية (OVP):</strong> تقوم الدائرة بفصل تيار الشحن بالكامل إذا ارتفع الجهد الداخل عن 5.5 فولت لحماية الشاشة وشاشات اللمس من الاحتراق الحراري.</li>
     <li><strong>إرشادات الاستخدام الصحيح:</strong> يُنصح بشدة بعدم شحن السماعة بواسطة شواحن الهواتف الفائقة السرعة (مثل شواحن 67 واط أو 120 واط)، ويفضل دائماً الاعتماد على شواحن بقدرة 5 واط (5 فولت / 1 أمبير) أو الشحن عبر منافذ اللابتوب لحماية عمر البطارية الطويل.</li>
 </ul>
 
-<h2>الضمان المعتمد وخدمات الصيانة والدعم الفني في مصر</h2>
-<p>يحظى مشترو الموديل Liberty 4 Pro في مصر بضمان مكتوب من متجر كايرو فولت يمتد لـ 18 شهراً، والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول جهازك لدى خدمة عملاء كايرو فولت.</p>
+<h2>ضمان كايرو فولت المكتوب والدعم الفني في مصر</h2>
+<p>يحظى مشترو الموديل Liberty 4 Pro في مصر بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)، ويغطي عيوب الصناعة الواضحة في البطارية أو جودة الاتصال خلال فترة الضمان، والاستبدال أو الاسترداد يتم وفق نتيجة الفحص وشروط الضمان المنشورة. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول جهازك لدى خدمة عملاء كايرو فولت.</p>
 <p>ملاحظة هامة من فريق الصيانة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن بنفسك. كما يوصى بالاحتفاظ بفاتورة الشراء للتأكد من جهة البيع المسؤولة عن التغطية.</p>
 
 <h2>تفاصيل الشراء والتوصيل من كايرو فولت</h2>
 <p>عند طلب سماعة Soundcore Liberty 4 Pro من كايرو فولت، ستحصل على الميزات التالية:</p>
 <ul>
-    <li><strong>أصلية 100%:</strong> بضمان استبدال معتمد لمدة 18 شهراً ضد عيوب الصناعة.</li>
-    <li><strong>توصيل سريع للغاية:</strong> شحن لكافة محافظات مصر خلال 24 إلى 48 ساعة فقط.</li>
-    <li><strong>إرجاع خلال 14 يوم:</strong> لو المنتج مش مطابق أو فيه مشكلة، ترجّعه خلال 14 يوم من الاستلام وفق شروط سياسة الإرجاع المنشورة.</li>
+    <li><strong>أصلية 100%:</strong> بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) ضد عيوب الصناعة.</li>
+    <li><strong>التوصيل لكل المحافظات:</strong> عادةً من 1 لـ 6 أيام عمل حسب المحافظة (القاهرة والجيزة 1-2 يوم).</li>
+    <li><strong>إرجاع خلال 14 يوم:</strong> لو المنتج مش مطابق أو فيه مشكلة، ترجّعه خلال 14 يوم من الاستلام وفق شروط سياسة الإرجاع المنشورة (السماعات المفتوحة أو المستخدمة مش بترجع لأسباب صحية).</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 تسوق سماعات أنكر الفاخرة بضمان 18 شهراً من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد العروض الحالية: <a href="/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">سماعة Soundcore Liberty 4 Pro بالشاشة</a> · <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">سماعة Liberty 4 NC الاقتصادية</a> · <a href="/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">سماعة الرأس Space One</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 تسوق سماعات ساوندكور الأصلية بضمان كايرو فولت المكتوب:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد العروض الحالية: <a href="/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">سماعة Soundcore Liberty 4 Pro بالشاشة</a> · <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">سماعة Liberty 4 NC الاقتصادية</a> · <a href="/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">سماعة الرأس Space One</a>.</p></div>` ,
             faq: [
                 {
                     question: 'ما هي فائدة الشاشة الذكية وشريط اللمس في علبة Liberty 4 Pro؟',
@@ -204,12 +204,12 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
             metaDescription: 'Soundcore Liberty 4 Pro review. Read about the smart charging case display, touch bar settings, ACAA 3.0 dual drivers, LDAC codec, and local warranty in Egypt.',
             keywords: 'soundcore liberty 4 pro review, liberty 4 pro egypt price, smart display earbuds, soundcore liberty 4 pro vs liberty 4 nc, ANC 43dB earbuds, best earbuds under 6000 EGP, ACAA dual driver soundcore, soundcore liberty 4 pro anker egypt, hi-res audio wireless earbuds, liberty 4 pro honest review',
             excerpt: 'The Soundcore Liberty 4 Pro introduces a revolutionary smart charging case with a digital display and touch bar, delivering flagship ACAA dual-driver audio.',
-            quickAnswer: 'The Soundcore Liberty 4 Pro stands as the ultimate flagship earbud in the EGP 4,500 - 5,500 price bracket in Egypt. Compared to the Liberty 4 NC, it features a smart case display and touch bar to monitor battery and toggle ANC without using your phone, alongside a premium ACAA coaxial dual-driver audio layout.',
-            content: `<p>While tech giants compete to release flagship wireless earbuds priced well above 12,000 EGP in the Egyptian market, Anker has introduced the Soundcore Liberty 4 Pro, delivering genuine premium specifications at roughly half that cost. The key challenge in the upper-midrange tier is presenting tangible engineering innovations that justify the price jump from budget models. In this exhaustive, one-month review by CairoVolt, we analyze the performance of the smart charging case display, the acoustic properties of the ACAA coaxial dual drivers, and the real-world efficiency of its active noise cancelling system.</p>
+            quickAnswer: 'The Soundcore Liberty 4 Pro is the top tier of the Liberty line: a smart display case with a touch bar for ANC control, an ACAA coaxial dual driver (10.5mm + 4.6mm), LDAC and manufacturer-listed adaptive ANC. We measured 9 h 51 min with ANC off on our sample (AAC, 50% volume). It costs EGP {{price:soundcore-liberty-4-pro}} at CairoVolt.',
+            content: `<p>While tech giants compete to release flagship wireless earbuds priced well above 12,000 EGP in the Egyptian market, Anker has introduced the Soundcore Liberty 4 Pro, delivering genuine premium specifications at roughly half that cost. The key challenge in the upper-midrange tier is presenting tangible engineering innovations that justify the price jump from budget models. In this review, CairoVolt analyzes the performance of the smart charging case display, the acoustic properties of the ACAA coaxial dual drivers, and the real-world efficiency of its active noise cancelling system.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>The Ultimate Verdict:</strong> The Soundcore Liberty 4 Pro merges technical innovation, highlighted by the <strong>smart display and touch bar built directly into the charging case</strong>, with elite-tier audio clarity driven by ACAA dual drivers and LDAC. Priced between <strong>4,500 and 5,500 EGP</strong> in Egypt, it is a highly recommended purchase for users seeking uncompromising sound quality and control.
+        <strong>Verdict:</strong> The top tier of the Liberty line: a <strong>smart display case with a touch bar</strong> for ANC control without your phone, an ACAA coaxial dual driver, LDAC and manufacturer-listed adaptive ANC. We measured 9 h 51 min with ANC off on our sample (AAC, 50% volume). It costs <strong>EGP {{price:soundcore-liberty-4-pro}}</strong> at CairoVolt.
     </p>
 </div>
 
@@ -233,7 +233,7 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Driver Configuration</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">ACAA Coaxial Dual Driver (9.2mm Bass + 6mm Treble)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">ACAA Coaxial Dual Driver (10.5mm Bass + 4.6mm Treble)</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Audio Codecs</td>
@@ -241,15 +241,15 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Active Noise Cancelling</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Adaptive Smart ANC up to -43dB</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Manufacturer-listed adaptive ANC (ANC 3.0)</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud Runtime (ANC On)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">9.5 hours actual (drops to 8 hours with LDAC activated)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud Runtime (our sample, 50% volume)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">9 h 51 min with ANC off (AAC), 6 h 22 min with ANC on, and 5 h 24 min with LDAC plus ANC</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Total Charging Case Battery</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Up to 50 hours total runtime (40 additional case hours)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Up to 40 hours total with the case (manufacturer-listed)</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Charging Inputs</td>
@@ -261,8 +261,8 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
 <h2>The Engineering of ACAA Coaxial Dual Drivers</h2>
 <p>Unlike standard earbuds that rely on a single driver to reproduce the entire audio spectrum, the Liberty 4 Pro utilizes an Astria Coaxial Acoustic Architecture (ACAA) design, aligning two distinct drivers on a single axis:</p>
 <ul>
-    <li><strong>9.2mm Dynamic Woofer:</strong> Handles low and low-mid frequencies, producing deep, resonant bass notes and warm mid-tones without overlapping high-frequency vocals.</li>
-    <li><strong>6mm Custom Tweeter:</strong> Specialized for high-frequency treble, delivering crisp details, string textures, and transient responses with crystal clarity.</li>
+    <li><strong>10.5mm Dynamic Woofer:</strong> Handles low and low-mid frequencies, producing deep, resonant bass notes and warm mid-tones without overlapping high-frequency vocals.</li>
+    <li><strong>4.6mm Tweeter:</strong> Specialized for high-frequency treble, delivering crisp details, string textures, and transient responses with crystal clarity.</li>
 </ul>
 <p>This layout prevents frequency interference and phase cancellation, providing a wider soundstage and exceptional instrument separation that makes acoustic tracks and live recordings sound incredibly realistic.</p>
 
@@ -274,10 +274,10 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
 </ul>
 
 <h2>Real-World ANC Performance in Egyptian Environments</h2>
-<p>We tested the -43dB Adaptive ANC system across Cairo's daily environments to measure its acoustic isolation:</p>
+<p>Here is how the manufacturer-listed adaptive ANC can be expected to behave in Cairo's daily environments (a qualitative assessment — Soundcore publishes no per-environment dB results):</p>
 <ul>
-    <li><strong>Office and Indoor Workspaces:</strong> The ANC filters out office chatter, computer fans, and air conditioning hums completely, establishing a quiet pocket of silence.</li>
-    <li><strong>Public Transit and Cairo Metro:</strong> Low-frequency train roar and motor hums are reduced by up to 90%. This allows you to listen to podcasts or audiobooks at normal, ear-safe volume levels.</li>
+    <li><strong>Office and Indoor Workspaces:</strong> The ANC clearly reduces office chatter, computer fans and air-conditioning hum, creating a quieter space to focus.</li>
+    <li><strong>Public Transit and Cairo Metro:</strong> Low-frequency train roar and motor hums are clearly reduced. This allows you to listen to podcasts or audiobooks at normal, ear-safe volume levels.</li>
     <li><strong>Loud Streets:</strong> The system dampens traffic rumble significantly. Sudden, high-frequency spikes like car horns are softened to protect your hearing while keeping you aware of your surroundings.</li>
 </ul>
 
@@ -309,7 +309,7 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Driver Layout</td>
-            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;">Coaxial Dual Driver (9.2mm + 6mm)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;">ACAA coaxial dual (10.5mm + 4.6mm)</td>
             <td style="padding:12px;border:1px solid #d1d5db;text-align:center;">Single 11mm Driver</td>
             <td style="padding:12px;border:1px solid #d1d5db;text-align:center;">Single 8.4mm Driver</td>
         </tr>
@@ -320,10 +320,10 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;text-align:center;color:#059669;">✅ Yes</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Average Price (Egypt)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;font-weight:bold;">4,500 - 5,500 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;font-weight:bold;">3,500 - 4,500 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;color:#dc2626;font-weight:bold;">12,000 - 15,000 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Price</td>
+            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;font-weight:bold;">EGP {{price:soundcore-liberty-4-pro}} (CairoVolt)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;font-weight:bold;">EGP {{price:soundcore-liberty-4-nc}} (CairoVolt)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;text-align:center;color:#dc2626;font-weight:bold;">Approximate market range 12,000 - 15,000 EGP</td>
         </tr>
     </tbody>
 </table>
@@ -338,20 +338,20 @@ export const soundcore_liberty_4_pro_flagship_earbuds_review: BlogArticle = {
     <li><strong>Charging Best Practices:</strong> We strongly advise against charging the case with high-wattage mobile fast-chargers (33W, 67W, or higher). For the longest battery health, charge via a standard 5W wall adapter or a computer USB port.</li>
 </ul>
 
-<h2>Official Local Warranty and Technical Support in Egypt</h2>
-<p>Buyers of the Model Liberty 4 Pro in Egypt receive a comprehensive 18-month written store warranty from CairoVolt, an independent online retailer. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or connection failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim with CairoVolt customer support.</p>
+<h2>CairoVolt store warranty and support in Egypt</h2>
+<p>Buyers of the Model Liberty 4 Pro in Egypt receive CairoVolt's written store warranty (duration shown on each product page) — CairoVolt is an independent online retailer. It covers manufacturing defects such as sudden battery degradation or connection failures; replacement or refund follows the inspection result and the published warranty terms. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim with CairoVolt customer support.</p>
 <p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. Always keep your written purchase receipt to identify the seller responsible for servicing your product.</p>
 <p>CairoVolt customer support handles warranty claims covering battery health and driver defects. If a replacement is approved under the written store warranty, the transaction is processed quickly. This gives local buyers absolute peace of mind compared to grey-market imports that lack warranty protection.</p>
 
 <h2>Secure Purchase and Delivery at CairoVolt</h2>
 <p>Ordering the Soundcore Liberty 4 Pro from CairoVolt guarantees a premium customer experience:</p>
 <ul>
-    <li><strong>100% Authentic Units:</strong> Accompanied by a certified 18-month local replacement warranty.</li>
-    <li><strong>Express Shipping:</strong> Doorstep delivery across all Egyptian governorates in 24 to 48 hours.</li>
-    <li><strong>Inspection Prior to Payment:</strong> We allow you to open and inspect the package before paying the courier.</li>
+    <li><strong>100% Authentic Units:</strong> Sold with an invoice and CairoVolt's written store warranty (duration shown on each product page).</li>
+    <li><strong>Delivery to every governorate:</strong> commonly 1–6 business days depending on governorate (Cairo/Giza 1–2).</li>
+    <li><strong>14-day returns:</strong> per the published return policy; earbuds and audio products that have been opened or used are not returnable for hygiene reasons.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Shop Original Soundcore models at CairoVolt (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Shop authentic models at CairoVolt: <a href="/en/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 Pro (Smart Case)</a> · <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC (ANC King)</a> · <a href="/en/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Soundcore Space One Over-Ear</a>.</p></div>` ,
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Shop Original Soundcore models at CairoVolt (written store warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Shop authentic models at CairoVolt: <a href="/en/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 Pro (Smart Case)</a> · <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC (Adaptive ANC)</a> · <a href="/en/soundcore/audio/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Soundcore Space One Over-Ear</a>.</p></div>` ,
             faq: [
                 {
                     question: 'What are the benefits of the smart display and touch bar on the Liberty 4 Pro case?',

@@ -94,9 +94,6 @@ export const anker_accessories_content: CategoryContent = {
                             answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال مكتوبة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري بعد تأكيد العنوان والطلب، مع إتاحة الدفع عند الاستلام للطلبات المؤهلة.'
                         }
                     ],
-                    products: [
-                        { name: 'قلم انكر Pencil Pro A7166 للايباد', price: 1199, badge: 'ستايلس ايباد' },
-                    ]
                 },
                 en: {
                     title: 'Anker Accessories and iPad Stylus',
@@ -175,9 +172,6 @@ Charging is over USB-C, and the published runtime and charge-time figures are ma
                             answer: 'CairoVolt warranty duration, coverage, and replacement terms are written on the product page and warranty policy. Delivery timing is an estimate after address confirmation, and cash on delivery is available for eligible orders.'
                         }
                     ],
-                    products: [
-                        { name: 'Anker Pencil Pro A7166 iPad Stylus', price: 1199, badge: 'iPad Stylus' },
-                    ]
                 }
             }
         };

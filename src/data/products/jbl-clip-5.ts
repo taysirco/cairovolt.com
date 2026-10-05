@@ -55,7 +55,7 @@ export const jbl_clip_5 = {
         <li>Carabiner: the genuine clip is integrated into the body and snaps shut firmly — flimsy, rattling clips are the most common giveaway on fakes.</li>
         <li>Packaging: original boxes have sharp print, correct spelling, and a labelled serial number.</li>
         <li>App pairing: a genuine Clip 5 is recognised by the official JBL Portable app — most fakes never appear in it.</li>
-        <li>Price logic: a "new" Clip 5 offered around 40% below our price (roughly 1,800 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" Clip 5 offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -99,7 +99,7 @@ export const jbl_clip_5 = {
         <li>الكارابينر: الكلبس الأصلي جزء من جسم السماعة وبيقفل بثبات — الكلبس المهزوز اللي بيشخشخ أشهر علامة على التقليد.</li>
         <li>العلبة: الكرتونة الأصلية طباعتها حادة، إملاؤها سليم، وعليها رقم تسلسلي واضح.</li>
         <li>التطبيق: الـClip 5 الأصلية بيتعرف عليها تطبيق JBL Portable الرسمي — أغلب التقليد عمره ما بيظهر فيه.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 1,800 جنيه أو أقل) شبه مؤكد مش أصلية.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

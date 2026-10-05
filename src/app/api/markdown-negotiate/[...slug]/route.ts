@@ -1,7 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { staticProducts } from '@/lib/static-products';
-import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
-import { KNOWN_TOP_SEGMENTS, LEGACY_PRODUCT_REDIRECTS } from '@/lib/known-routes';
+import { FREE_SHIPPING_THRESHOLD, getShippingFee } from '@/lib/shipping';
+import { KNOWN_TOP_SEGMENTS, LEGACY_PRODUCT_REDIRECTS, RETIRED_CATEGORY_REDIRECTS } from '@/lib/known-routes';
+import { getGovernorateBySlug, governorates } from '@/data/governorates';
+import { BostaTracker } from '@/lib/bosta';
+import { solutionsDB } from '@/data/solutions-data';
+import {
+    getMerchantProductUrl,
+    isRecallAffectedSlug,
+    isRecallStockVerifiedOutsideScope,
+    MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
+    STANDARD_RETURN_WINDOW_DAYS,
+} from '@/lib/merchant-product-data';
+import { getStoreShippingSummary } from '@/lib/warranty-policy';
 import { BLOG_SCHEDULE } from '@/data/blog-schedule.generated';
 import { categoryContent } from '@/data/category-content';
 import { getBlogArticleBySlug, getLiveIndex } from '@/data/blog-index';
@@ -22,7 +33,6 @@ import {
     generateGenericCategoryMarkdown,
     generateLabHubMarkdown,
     generateSolutionMarkdown,
-    generateSolutionsListingMarkdown,
 } from '@/lib/agent-hub-markdown';
 // Same translation source the HTML policy pages render via next-intl —
 // the markdown surface reuses the identical published copy, never new claims.
@@ -52,9 +62,14 @@ const VOICE_FAQS = {
  * of CairoVolt pages to AI agents.
  *
  * Strategy:
- * - Homepage → serves llms.txt (our curated markdown representation)
- * - Product pages → generate markdown from product data
- * - Other pages → return a minimal markdown summary
+ * - Homepages (/index = Arabic, /en = English) → serve llms.txt (our curated
+ *   markdown representation), canonical to the matching HTML home.
+ * - Product, brand, category, blog, lab, solution, governorate and policy
+ *   pages → generated from the same data the HTML page renders.
+ * - Anything else → 404. There is no generic stub: a 550-byte "CairoVolt —
+ *   <Path>" page served with 200 told agents less than the HTML page did.
+ *   The middleware only rewrites negotiated requests for paths that have a
+ *   generator (src/lib/markdown-twin-routes.ts), so those fall through to HTML.
  *
  * IMPORTANT — status parity with the HTML surface: the middleware rewrite
  * happens BEFORE its canonicalization/404 gates, so this handler replays
@@ -107,6 +122,28 @@ There is no page at cairovolt.com/${path}.
     });
 }
 
+// 404 for a path that passes the HTML gates but has no markdown generator
+// (contact, team, verify, terms, privacy, …). Same status and headers as
+// markdownNotFound, but it does not claim the HTML page is missing.
+function markdownUnavailable(path: string): NextResponse {
+    const md = `# No markdown version
+
+No markdown version is available for cairovolt.com/${path}. If the page exists, read its HTML at ${BASE_URL}/${path}.
+
+- [Markdown pages that exist](${BASE_URL}/llms.txt) (see "Public Resources")
+- [Full Product Catalog (Markdown)](${BASE_URL}/api/llms/catalog)
+`;
+    return new NextResponse(md, {
+        status: 404,
+        headers: {
+            'Content-Type': 'text/markdown; charset=utf-8',
+            'Vary': 'Accept',
+            'X-Robots-Tag': 'noindex',
+            'Cache-Control': 'public, max-age=300',
+        },
+    });
+}
+
 // Permanent redirect to the SAME canonical destination the HTML middleware
 // uses. A markdown client re-requests the canonical URL with its original
 // Accept header and receives the canonical page's markdown.
@@ -120,11 +157,15 @@ export async function GET(
 ) {
     const { slug } = await params;
     const path = slug.join('/');
-    const baseUrl = BASE_URL;
-    const isHome = path === 'index' || path === '';
+    // 'en' is the English homepage (/en). It used to fall through to the
+    // generic stub ("# CairoVolt — En", 541 bytes).
+    const isEnglishHome = path === 'en';
+    const isHome = path === 'index' || path === '' || isEnglishHome;
     // The HTML page this markdown is an alternate representation OF. Every 200
     // below advertises it as rel="canonical" (see markdownContent).
-    const canonicalUrl = isHome ? BASE_URL : `${BASE_URL}/${path}`;
+    const canonicalUrl = isEnglishHome
+        ? `${BASE_URL}/en`
+        : isHome ? BASE_URL : `${BASE_URL}/${path}`;
 
     // Homepage → serve llms.txt (our comprehensive markdown representation).
     // Call the route handler DIRECTLY — an HTTP self-fetch here once pinned a
@@ -138,7 +179,7 @@ export async function GET(
             homeResponse.headers.set('X-Content-Source', 'llms.txt');
             return homeResponse;
         } catch {
-            // Fall through to generic handler
+            // Fall through; an unrenderable home ends in the 404 below.
         }
     }
 
@@ -173,6 +214,17 @@ export async function GET(
         if (soundcoreMigration) {
             const [, migrationLocale, migrationCategory, rest] = soundcoreMigration;
             return markdownRedirect(`${migrationLocale || ''}/soundcore/${migrationCategory}${rest || ''}`);
+        }
+
+        // Retired CATEGORY prefix 301s — same map and regex as the middleware.
+        const retiredCategory = pathname.match(
+            /^(\/en)?\/((?:anker|joyroom|soundcore|jbl)\/[a-z0-9-]+)(?:\/.*)?$/
+        );
+        if (retiredCategory) {
+            const categoryTarget = RETIRED_CATEGORY_REDIRECTS[retiredCategory[2]];
+            if (categoryTarget) {
+                return markdownRedirect(`${retiredCategory[1] || ''}${categoryTarget}`);
+            }
         }
 
         // Retired product slug 301s — same map and regex as the middleware.
@@ -280,9 +332,10 @@ export async function GET(
         return markdownContent(generateLabHubMarkdown(hubLocale, localePrefix), canonicalUrl);
     }
 
-    // Solutions listing + individual solution pages.
+    // Individual solution pages. /solutions itself has no HTML page (404), so
+    // its markdown 404s too — status parity; /faq lists every solution.
     if (routeSegments.length === 1 && routeSegments[0] === 'solutions') {
-        return markdownContent(generateSolutionsListingMarkdown(hubLocale, localePrefix), canonicalUrl);
+        return markdownNotFound(path);
     }
     if (routeSegments.length === 2 && routeSegments[0] === 'solutions') {
         const solutionMd = generateSolutionMarkdown(routeSegments[1], hubLocale, localePrefix);
@@ -311,31 +364,20 @@ export async function GET(
         return markdownContent(generateKnownPageMarkdown(routeSegments[0], isArabicSurface, localePrefix), canonicalUrl);
     }
 
-    // Generic fallback for remaining known static pages (contact, locations,
-    // verify, team, …) — a basic markdown page with navigation hints.
-    // Lab + solutions are handled above with rich generators.
-    const md = `# CairoVolt — ${path.replace(/-/g, ' ').replace(/\//g, ' / ').replace(/\b\w/g, c => c.toUpperCase())}
+    // Governorate delivery pages (/locations/<governorate>) — same data and
+    // the same six FAQs as the HTML page. /locations itself has no page.
+    if (routeSegments.length === 2 && routeSegments[0] === 'locations') {
+        const governorate = getGovernorateBySlug(routeSegments[1]);
+        if (governorate) {
+            return markdownContent(generateLocationMarkdown(governorate, isArabicSurface, localePrefix), canonicalUrl);
+        }
+        return markdownNotFound(path);
+    }
 
-This page is available at [cairovolt.com/${path}](${baseUrl}/${path})
-
-## About CairoVolt
-
-CairoVolt is an Egyptian online store for **Anker**, **Joyroom**, **Soundcore**, and **JBL** accessories.
-
-### Key Links
-
-- [Full Product Catalog (Markdown)](${baseUrl}/api/llms/catalog)
-- [OpenAPI Specification](${baseUrl}/api/openapi.json)
-- [AI Instructions](${baseUrl}/.well-known/llms.txt)
-
-### Contact
-
-- WhatsApp: +201558245974
-- Email: info@cairovolt.com
-- Website: ${baseUrl}
-`;
-
-    return markdownContent(md, canonicalUrl);
+    // No generator for this path (contact, team, verify, terms, privacy, …).
+    // 404 rather than a thin stub; negotiated requests for these paths never
+    // get here because the middleware leaves them on the HTML page.
+    return markdownUnavailable(path);
 }
 
 
@@ -484,8 +526,8 @@ function generateBlogListingMarkdown(isArabic: boolean, localePrefix: string): s
         ? `أدلة شراء ومقارنات وشروحات ومراجعات ونصائح لإكسسوارات انكر وجوي روم وساوندكور في مصر. عدد المقالات المنشورة: ${entries.length}.\n\n`
         : `Buying guides, comparisons, how-tos, reviews, and tips for Anker, Joyroom, Soundcore, and JBL accessories in Egypt. Published articles: ${entries.length}.\n\n`;
     md += isArabic
-        ? 'كل رابط مقال يعيد نسخة ماركداون كاملة عند طلبه بترويسة `Accept: text/markdown`.\n\n'
-        : 'Each article URL returns full markdown when requested with `Accept: text/markdown`.\n\n';
+        ? `النسخة الماركداون الكاملة لأي مقال على ${BASE_URL}/api/markdown-negotiate${localePrefix}/blog/{slug}.\n\n`
+        : `Full markdown of any article: ${BASE_URL}/api/markdown-negotiate${localePrefix}/blog/{slug}.\n\n`;
 
     for (const entry of entries) {
         const title = isArabic
@@ -544,16 +586,238 @@ function generateBlogArticleMarkdown(
         }
     }
 
+    // Products the article links to, with today's catalogue price — so an
+    // agent reading an older article never has to trust a price in its prose.
+    const discussed = productsLinkedInContent(rawTrans.content);
+    if (discussed.length > 0) {
+        md += `## ${isArabic ? 'المنتجات المذكورة' : 'Products discussed'}\n\n`;
+        md += isArabic
+            ? 'السعر الحالي في الكتالوج؛ صفحة المنتج هي المرجع وقت الطلب.\n\n'
+            : 'Current catalogue price; the product page is authoritative when ordering.\n\n';
+        for (const product of discussed) {
+            const name = isArabic
+                ? localizeArabicBrandNames(plainText(product.translations.ar.name))
+                : plainText(product.translations.en.name);
+            const price = product.price.toLocaleString('en-US');
+            const url = getMerchantProductUrl(product, isArabic ? 'ar' : 'en');
+            // Never bury a recall: every recall-affected model carries the
+            // marker, worded by whether CairoVolt's stock was serial-checked.
+            const recall = !isRecallAffectedSlug(product.slug)
+                ? ''
+                : isRecallStockVerifiedOutsideScope(product.slug)
+                    ? (isArabic
+                        ? ' — ⚠️ موديل مُدرج في برنامج استدعاء من انكر؛ فُحص مخزوننا خارج النطاق المتأثر — راجع صفحة المنتج وتحقق من السيريال'
+                        : ' — ⚠️ model named in an Anker recall programme; our stock was serial-checked outside the affected range — see the product page and check your serial')
+                    : (isArabic
+                        ? ' — ⚠️ استدعاء — راجع صفحة المنتج وتحقق من السيريال'
+                        : ' — ⚠️ Recall — see the product page and check your serial');
+            md += `- [${name}](${url}) — ${isArabic ? `${price} جنيه` : `${price} EGP`}${recall}\n`;
+        }
+        md += '\n';
+    }
+
+    // The article's cited sources (rendered on the HTML page as "References").
+    const sources = (article.externalReferences || []).filter(ref => isExternalSource(ref.url));
+    if (sources.length > 0) {
+        md += `## ${isArabic ? 'المصادر' : 'Sources'}\n\n`;
+        for (const ref of sources) {
+            const title = isArabic ? ref.title.ar : ref.title.en;
+            const note = ref.note ? (isArabic ? ref.note.ar : ref.note.en) : '';
+            md += `- [${title}](${ref.url})${note ? ` — ${note}` : ''}\n`;
+        }
+        md += '\n';
+    }
+
     md += isArabic
         ? `## روابط\n\n- المدونة: ${BASE_URL}${localePrefix}/blog\n- الكتالوج الكامل (ماركداون): ${BASE_URL}/api/llms/catalog\n`
         : `## Links\n\n- Blog: ${BASE_URL}${localePrefix}/blog\n- Full Product Catalog (Markdown): ${BASE_URL}/api/llms/catalog\n`;
     return md;
 }
 
+// CairoVolt's own properties (its site, and its accounts on third-party
+// platforms such as tumblr.com/cairovolteg) are not independent sources, and
+// the file hosts below were never real references. Matched against host AND
+// path, because a self-owned account usually lives in the path.
+const SELF_OR_NON_SOURCE_MARKERS = ['cairovolt', 'cairovolteg', 'althaqelco', 'gamesuy', 'yumpu.com', 'rubygems.org'];
+
+function isExternalSource(url: string): boolean {
+    try {
+        const parsed = new URL(url);
+        const target = `${parsed.hostname}${parsed.pathname}`.toLowerCase();
+        return !SELF_OR_NON_SOURCE_MARKERS.some(marker => target.includes(marker));
+    } catch {
+        return false;
+    }
+}
+
+const PRODUCT_LINK_RE = /href=(["'])(?:https?:\/\/(?:www\.)?cairovolt\.com)?(?:\/en)?\/(anker|joyroom|soundcore|jbl)\/([a-z0-9-]+)\/([a-z0-9.-]+)\/?(?:[?#][^"']*)?\1/gi;
+
+/** Active, machine-listed catalogue products linked from the article body, in order of first link. */
+function productsLinkedInContent(html: string | undefined): Array<(typeof staticProducts)[number]> {
+    const found: Array<(typeof staticProducts)[number]> = [];
+    const seen = new Set<string>();
+    for (const match of (html || '').matchAll(PRODUCT_LINK_RE)) {
+        const slug = match[4].toLowerCase();
+        if (seen.has(slug)) continue;
+        seen.add(slug);
+        const product = staticProducts.find(item => item.slug === slug);
+        if (
+            product
+            && product.status === 'active'
+            && !MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(product.slug)
+        ) {
+            found.push(product);
+        }
+    }
+    return found;
+}
+
+/**
+ * Delivery-time breakdown shared by the /shipping twin. Same derivation as the
+ * HTML page (src/app/[locale]/shipping/page.tsx): governorate deliveryDays to
+ * deliveryDays + 1 business days.
+ */
+function deliveryBreakdown(isArabic: boolean) {
+    const days = governorates.map(item => item.deliveryDays);
+    const fastestDays = Math.min(...days);
+    const slowestDays = Math.max(...days);
+    const middle = governorates
+        .filter(item => item.deliveryDays !== fastestDays && item.deliveryDays !== slowestDays)
+        .map(item => item.deliveryDays);
+    const otherRange = middle.length
+        ? `${Math.min(...middle)}–${Math.max(...middle) + 1}`
+        : `${slowestDays}–${slowestDays + 1}`;
+    const slowestNames = governorates
+        .filter(item => item.deliveryDays === slowestDays)
+        .map(item => (isArabic ? item.nameAr : item.nameEn));
+    const slowestLabel = isArabic
+        ? slowestNames.join(' و')
+        : slowestNames.length > 1
+            ? `${slowestNames.slice(0, -1).join(', ')} and ${slowestNames[slowestNames.length - 1]}`
+            : slowestNames.join('');
+    // Arabic: "1–2 يوم عمل" (as the Cairo card and the existing copy write it), "2–3 أيام عمل" otherwise.
+    const businessDays = (range: string) => (isArabic
+        ? `${range} ${range.startsWith('1–') ? 'يوم عمل' : 'أيام عمل'}`
+        : `${range} business days`);
+    return { fastestDays, slowestDays, otherRange, slowestLabel, businessDays };
+}
+
+/**
+ * /locations/<governorate> — mirrors src/app/[locale]/locations/[governorate]/page.tsx.
+ * The six questions below are copied from that page; keep the strings identical.
+ */
+function generateLocationMarkdown(
+    governorate: NonNullable<ReturnType<typeof getGovernorateBySlug>>,
+    isArabic: boolean,
+    localePrefix: string,
+): string {
+    const locale = isArabic ? 'ar' : 'en';
+    const logistics = BostaTracker.getRegionalStats(governorate.slug, locale);
+    const shippingFee = getShippingFee(governorate.slug, 0);
+    const freeShippingFrom = FREE_SHIPPING_THRESHOLD.toLocaleString('en-US');
+    const cityList = (isArabic ? governorate.cities.ar : governorate.cities.en).join(isArabic ? ' و' : ', ');
+    const pageUrl = `${BASE_URL}${localePrefix}/locations/${governorate.slug}`;
+
+    const questions = isArabic
+        ? [
+            {
+                question: `التوصيل إلى ${governorate.nameAr} بياخد كام يوم؟`,
+                answer: `${logistics.delivery_estimate}. المدة تقديرية، ويتواصل فريق كايرو فولت لتأكيد الموعد بعد مراجعة الطلب.`,
+            },
+            {
+                question: `كم رسوم الشحن إلى ${governorate.nameAr}؟`,
+                answer: `رسوم الشحن إلى ${governorate.nameAr} ${shippingFee} جنيهاً للطلبات الأقل من ${freeShippingFrom} جنيه، والشحن مجاني للطلبات من ${freeShippingFrom} جنيه فأكثر وفق سياسة الشحن.`,
+            },
+            {
+                question: `هل الدفع عند الاستلام متاح في ${governorate.nameAr}؟`,
+                answer: logistics.cash_on_delivery
+                    ? 'نعم، الدفع عند الاستلام متاح للطلبات المؤهلة، ويُؤكد عند مراجعة الطلب.'
+                    : 'تُراجع طريقة الدفع مع فريق كايرو فولت عند تأكيد الطلب.',
+            },
+            {
+                question: 'إزاي أراجع الضمان والاسترجاع قبل الطلب؟',
+                answer: 'توجد شروط الضمان والاسترجاع مكتوبة في صفحات السياسات، ويمكنك مراجعتها قبل تأكيد الطلب.',
+            },
+            {
+                question: `إزاي أقدّر سعة الباور بانك المناسبة قبل الطلب إلى ${governorate.nameAr}؟`,
+                answer: 'استخدم الطاقة بالـWh لا رقم mAh وحده: Wh تقريباً = mAh × الجهد الاسمي ÷ 1000، ثم اخصم فاقد التحويل كتقدير. راجع قيمة Wh المكتوبة على الموديل متى كانت متاحة.',
+            },
+            {
+                question: 'هل الشاحن والكابل يغيران سرعة الشحن؟',
+                answer: 'نعم، لكن الهاتف هو الذي يحدد ما يقبله. يجب أن تتوافق قدرة الشاحن والبروتوكول والكابل مع الجهاز؛ رقم الواط الأكبر وحده لا يضمن سرعة أعلى.',
+            },
+        ]
+        : [
+            {
+                question: `How long does delivery to ${governorate.nameEn} take?`,
+                answer: `${logistics.delivery_estimate}. This is an estimate; CairoVolt confirms the date after reviewing the order.`,
+            },
+            {
+                question: `How much is shipping to ${governorate.nameEn}?`,
+                answer: `Shipping to ${governorate.nameEn} costs ${shippingFee} EGP for orders under ${freeShippingFrom} EGP; orders of ${freeShippingFrom} EGP or more ship free under the shipping policy.`,
+            },
+            {
+                question: `Is cash on delivery available in ${governorate.nameEn}?`,
+                answer: logistics.cash_on_delivery
+                    ? 'Yes. Cash on delivery is available for eligible orders and is confirmed during order review.'
+                    : 'The available payment method is confirmed by CairoVolt when the order is reviewed.',
+            },
+            {
+                question: 'Where can I review warranty and return terms?',
+                answer: 'The warranty and return terms are published on the policy pages and can be reviewed before ordering.',
+            },
+            {
+                question: `How do I estimate power-bank capacity before ordering to ${governorate.nameEn}?`,
+                answer: 'Use energy in Wh rather than mAh alone: approximate Wh = mAh × nominal voltage ÷ 1,000, then allow for conversion loss as an estimate. Use the model label\'s Wh value when available.',
+            },
+            {
+                question: 'Do the charger and cable affect charging speed?',
+                answer: 'Yes, but the device controls what it accepts. Charger output, protocol, and cable must all match the device; a larger wattage label alone does not guarantee a faster result.',
+            },
+        ];
+
+    let md = isArabic
+        ? `# باور بانك وحلول طاقة احتياطية في ${governorate.nameAr}\n\n`
+        : `# Power banks and backup-power options in ${governorate.nameEn}\n\n`;
+    md += isArabic
+        ? `## معلومات الطلب إلى ${governorate.nameAr}\n\n`
+        : `## Order information for ${governorate.nameEn}\n\n`;
+    md += isArabic
+        ? `| البند | القيمة |\n|---|---|\n`
+            + `| مدة التوصيل التقديرية | ${logistics.delivery_estimate} |\n`
+            + `| رسوم الشحن للطلبات الأقل من ${freeShippingFrom} جنيه | ${shippingFee} جنيه |\n`
+            + `| الشحن المجاني | للطلبات من ${freeShippingFrom} جنيه فأكثر |\n`
+            + `| الدفع عند الاستلام | ${logistics.cash_on_delivery ? 'متاح' : 'يُراجع'} |\n`
+            + `| تأكيد الموعد | بعد المراجعة |\n\n`
+        : `| Item | Value |\n|---|---|\n`
+            + `| Estimated delivery time | ${logistics.delivery_estimate} |\n`
+            + `| Shipping fee for orders under ${freeShippingFrom} EGP | ${shippingFee} EGP |\n`
+            + `| Free shipping | Orders of ${freeShippingFrom} EGP or more |\n`
+            + `| Cash on delivery | ${logistics.cash_on_delivery ? 'Available' : 'Reviewed'} |\n`
+            + `| Date confirmation | After review |\n\n`;
+    md += `${logistics.confirmation_note}\n\n`;
+    md += isArabic
+        ? `الشحن مجاني للطلبات من ${freeShippingFrom} جنيه فأكثر، والتوصيل متاح للعناوين المؤهلة في ${governorate.nameAr} بما يشمل ${cityList} وباقي المناطق.\n\n`
+        : `Shipping is free from ${freeShippingFrom} EGP, and delivery covers eligible addresses across ${governorate.nameEn}, including ${cityList}.\n\n`;
+
+    md += isArabic
+        ? `## أسئلة التوصيل إلى ${governorate.nameAr}\n\n`
+        : `## Delivery questions for ${governorate.nameEn}\n\n`;
+    for (const item of questions) {
+        md += `### ${item.question}\n\n${item.answer}\n\n`;
+    }
+
+    md += isArabic
+        ? `## روابط\n\n- سياسة الشحن: ${BASE_URL}${localePrefix}/shipping\n- سياسة الإرجاع: ${BASE_URL}${localePrefix}/return-policy\n- الضمان: ${BASE_URL}${localePrefix}/warranty\n- باور بانك: ${BASE_URL}${localePrefix}/power-banks\n- شواحن: ${BASE_URL}${localePrefix}/chargers\n- كابلات: ${BASE_URL}${localePrefix}/cables\n- سماعات: ${BASE_URL}${localePrefix}/earbuds\n- الصفحة: ${pageUrl}\n`
+        : `## Links\n\n- Shipping policy: ${BASE_URL}${localePrefix}/shipping\n- Return policy: ${BASE_URL}${localePrefix}/return-policy\n- Warranty: ${BASE_URL}${localePrefix}/warranty\n- Power banks: ${BASE_URL}${localePrefix}/power-banks\n- Chargers: ${BASE_URL}${localePrefix}/chargers\n- Cables: ${BASE_URL}${localePrefix}/cables\n- Earbuds and speakers: ${BASE_URL}${localePrefix}/earbuds\n- Page: ${pageUrl}\n`;
+    return md;
+}
+
 // Policy/info pages whose markdown mirrors the published HTML copy.
 const KNOWN_PAGE_SLUGS = new Set(['about', 'faq', 'shipping', 'return-policy', 'warranty']);
 
-const FAQ_CATEGORY_KEYS = ['ordering', 'shipping', 'warranty', 'products', 'payment'] as const;
+// Same order as faqCategories in src/app/[locale]/faq/page.tsx.
+const FAQ_CATEGORY_KEYS = ['ordering', 'shipping', 'returns', 'warranty', 'products', 'payment'] as const;
 
 function generateKnownPageMarkdown(
     page: string,
@@ -573,12 +837,37 @@ function generateKnownPageMarkdown(
         const areas = (['cairo', 'giza', 'alexandria', 'delta', 'upperEgypt', 'redSea'] as const)
             .map(area => `- ${s.deliveryAreas[area]}`)
             .join('\n');
-        // The two estimate strings are the exact ones the HTML page renders.
-        const cairoEstimate = isArabic ? 'تقدير شائع: 1–2 يوم عمل' : 'Common estimate: 1–2 business days';
-        const provincesEstimate = isArabic ? 'تقدير شائع: 3–5 أيام عمل' : 'Common estimate: 3–5 business days';
-        return `# ${s.title}\n\n${s.metaDescription}\n\n`
+        // The estimate strings are the ones the HTML page renders, derived
+        // from the same governorate data (see deliveryBreakdown).
+        const d = deliveryBreakdown(isArabic);
+        const cairoEstimate = isArabic
+            ? `تقدير شائع: ${d.fastestDays}–${d.fastestDays + 1} يوم عمل`
+            : `Common estimate: ${d.fastestDays}–${d.fastestDays + 1} business days`;
+        const provincesEstimate = isArabic
+            ? `تقدير شائع: ${d.businessDays(d.otherRange)}`
+            : `Common estimate: ${d.businessDays(d.otherRange)}`;
+        const slowestRange = `${d.slowestDays}–${d.slowestDays + 1}`;
+        const slowestEstimate = isArabic
+            ? `تقدير: ${d.businessDays(slowestRange)}`
+            : `Estimate: ${d.businessDays(slowestRange)}`;
+        const governorateLines = governorates
+            .map(item => {
+                const name = isArabic ? item.nameAr : item.nameEn;
+                const fee = getShippingFee(item.slug, 0);
+                return `- [${name}](${BASE_URL}${localePrefix}/locations/${item.slug}) — ${d.businessDays(`${item.deliveryDays}–${item.deliveryDays + 1}`)} · ${isArabic ? `${fee} جنيه` : `${fee} EGP`}`;
+            })
+            .join('\n');
+        return `# ${s.title}\n\n${isArabic ? 'رسوم الشحن ' : 'Shipping: '}${getStoreShippingSummary(isArabic ? 'ar' : 'en', governorates)}\n\n`
             + `## ${s.deliveryAreas.title}\n\n${s.deliveryAreas.description}\n\n${areas}\n\n`
-            + `## ${s.deliveryTime.title}\n\n- ${s.deliveryTime.cairo}: ${cairoEstimate}\n- ${s.deliveryTime.provinces}: ${provincesEstimate}\n\n`
+            + `## ${s.deliveryTime.title}\n\n- ${s.deliveryTime.cairo}: ${cairoEstimate}\n- ${s.deliveryTime.provinces}: ${provincesEstimate}\n- ${d.slowestLabel}: ${slowestEstimate}\n\n`
+            + (isArabic
+                ? `المدد تقديرية وتُؤكد بعد مراجعة العنوان. المحافظات الأطول في مدة التوصيل (${d.slowestLabel}) تستغرق ${d.businessDays(slowestRange)}.\n\n`
+                : `Estimates are confirmed after the address is reviewed. The governorates with the longest estimate (${d.slowestLabel}) take ${d.businessDays(slowestRange)}.\n\n`)
+            + `## ${isArabic ? 'التوصيل حسب المحافظة' : 'Delivery by governorate'}\n\n`
+            + (isArabic
+                ? 'المدة التقديرية ورسوم الشحن للطلبات الأقل من حد الشحن المجاني لكل محافظة.\n\n'
+                : 'Estimated delivery time and the shipping fee below the free-shipping threshold for each governorate.\n\n')
+            + `${governorateLines}\n\n`
             + `## ${s.shippingCost.title}\n\n${s.shippingCost.freeShipping.replace('🎉 ', '')}\n\n${s.shippingCost.belowMinimum}\n\n`
             + `## ${s.cod.title}\n\n${s.cod.description}\n\n`
             + contactBlock;
@@ -599,7 +888,7 @@ function generateKnownPageMarkdown(
             .map(item => `- ${r.defective[item]}`)
             .join('\n');
         return `# ${r.title}\n\n${r.lastUpdated}\n\n`
-            + `## ${r.window.title}\n\n14 ${r.window.days} — ${r.window.description}\n\n`
+            + `## ${r.window.title}\n\n${STANDARD_RETURN_WINDOW_DAYS} ${r.window.days} — ${r.window.description}\n\n`
             + `## ${r.eligible.title}\n\n${eligible}\n\n`
             + `## ${r.nonReturnable.title}\n\n${nonReturnable}\n\n`
             + `## ${r.howToReturn.title}\n\n${steps}\n\n`
@@ -647,6 +936,13 @@ function generateKnownPageMarkdown(
         for (const qa of isArabic ? VOICE_FAQS.ar : VOICE_FAQS.en) {
             md += `### ${qa.question}\n\n${qa.answer}\n\n`;
         }
+        // Mirrors the "Common solutions" section on the HTML /faq page.
+        md += `## ${isArabic ? 'حلول شائعة' : 'Common solutions'}\n\n`;
+        for (const solution of solutionsDB) {
+            const title = isArabic ? solution.searchQuery.ar : solution.searchQuery.en;
+            md += `- [${title}](${BASE_URL}${localePrefix}/solutions/${solution.slug})\n`;
+        }
+        md += '\n';
         return md + contactBlock;
     }
 

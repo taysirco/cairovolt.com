@@ -4,7 +4,7 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
     slug: 'earbuds-for-quran-recitation-clear-sound',
     category: 'buying-guide',
     publishDate: '2026-06-03',
-    modifiedDate: '2026-06-03',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'anker-soundcore-r50i',
@@ -28,14 +28,14 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
             metaDescription: 'دليل هندسي لاختيار سماعات بلوتوث بنقاء صوتي استثنائي لسماع القرآن الكريم والأذكار. مقارنة 5 سماعات ساوند كور بالترددات المتوسطة وراحة الأذن في الجلسات الطويلة.',
             keywords: 'سماعات لسماع القرآن, أفضل سماعة بلوتوث للأذكار, سماعة نقاء صوت عالي, سماعة مريحة للقراءة الطويلة, ساوندكور للقرآن, ايربودز صوت واضح, سماعة بدون بيس زيادة, earbuds for quran recitation egypt',
             excerpt: 'دليل هندسي متخصص لاختيار سماعة بلوتوث تبرز نقاء الصوت البشري والتجويد بأعلى وضوح، مع مقارنة عملية لأفضل 5 موديلات في مصر.',
-            quickAnswer: 'لسماع القرآن الكريم والأذكار بأعلى نقاء صوتي، اختر سماعة تتفوق في الترددات المتوسطة (250Hz-4kHz) — وهي نطاق الصوت البشري والتجويد. أفضل 3 خيارات في مصر: (1) ساوند كور Liberty 4 NC بتقنية LDAC ونقاء استثنائي بـ 2,800 جنيه، (2) ساوند كور R50i بتوازن ممتاز وسعر اقتصادي 880 جنيه، (3) ساوند كور A30i بتصميم مريح للجلسات الطويلة بـ 1,200 جنيه. ضبط EQ على وضع Vocal أو Podcast يبرز تفاصيل التجويد.',
+            quickAnswer: 'اختار سماعة صوتها واضح في الترددات المتوسطة (250Hz–4kHz) اللي فيها صوت القارئ وتفاصيل التجويد، وقلّل البيس من الـ EQ. ترشيحاتنا: ساوندكور Liberty 4 NC بـ {{price:soundcore-liberty-4-nc}} جنيه (LDAC وANC)، وR50i بـ {{price:anker-soundcore-r50i}} جنيه كخيار اقتصادي، وA30i بـ {{price:soundcore-a30i-earbuds}} جنيه لخفة وزنها في الجلسات الطويلة.',
             content: `<p>الساعة 4 الفجر. رمضان. إنت قاعد على السجادة بعد صلاة التهجد، الجو ساكن والبيت كله نايم. فتحت تطبيق القرآن على الموبايل وبدأت تسمع سورة الرحمن بصوت الشيخ عبد الباسط عبد الصمد. الصوت طالع من سماعة البلوتوث اللي اشتريتها الشهر اللي فات عشان "الجيمنج". بعد دقيقتين حسيت بحاجة غريبة... البيس (Bass) اللي كان بيخلّي صوت القنابل في PUBG ملحمي — نفس البيس ده بيخلّي صوت الشيخ "مخنوق" وكأنه بيقرأ من جوا برميل! الترددات المنخفضة الضخمة بتغطي على رخامة الصوت وتفاصيل التجويد. اللي بيحصل ده زي بالظبط لما تروح لدكتور عيون عشان تعمل نظارة شمس — المكان صح، بس الأداة غلط.</p>
 
 <p>والمفارقة إن ناس كتير بتشتري سماعات غالية ومواصفاتها ممتازة للموسيقى والجيمنج، وبعدين بتفاجأ إنها مش مثالية لسماع القرآن الكريم والأذكار والمحاضرات الدينية. السبب بسيط جداً من ناحية فيزياء الصوتيات: الصوت البشري — وبالذات صوت القراء والمشايخ — بيتركز في نطاق الترددات المتوسطة (250Hz إلى 4kHz). السماعات اللي بتضخّم البيس بشكل مبالغ فيه بتسرق الطاقة من النطاق ده وبتخلّي الصوت مبهم. من منظور هندسة الإلكترونيات والاتصالات، هنشرح في الدليل ده إيه المواصفات الهندسية اللي لازم تدوّر عليها في سماعة القرآن المثالية، وهنقارن 5 سماعات ساوند كور بالتفصيل مع شرح إزاي تظبط الإعدادات الصوتية (EQ) عشان تسمع كل حرف تجويد بوضوح كريستالي.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> لسماع القرآن الكريم والأذكار بأعلى نقاء صوتي، اختر سماعة تتفوق في الترددات المتوسطة (250Hz-4kHz) — وهي نطاق الصوت البشري والتجويد. أفضل 3 خيارات في مصر: (1) ساوند كور Liberty 4 NC بتقنية LDAC ونقاء استثنائي بـ 2,800 جنيه، (2) ساوند كور R50i بتوازن ممتاز وسعر اقتصادي 880 جنيه، (3) ساوند كور A30i بتصميم مريح للجلسات الطويلة بـ 1,200 جنيه. ضبط EQ على وضع Vocal أو Podcast يبرز تفاصيل التجويد.
+        <strong>💡 الإجابة السريعة:</strong> اختار سماعة صوتها واضح في الترددات المتوسطة (250Hz–4kHz) اللي فيها صوت القارئ وتفاصيل التجويد، وقلّل البيس من الـ EQ. ترشيحاتنا: ساوندكور Liberty 4 NC بـ {{price:soundcore-liberty-4-nc}} جنيه (LDAC وANC)، وR50i بـ {{price:anker-soundcore-r50i}} جنيه كخيار اقتصادي، وA30i بـ {{price:soundcore-a30i-earbuds}} جنيه لخفة وزنها في الجلسات الطويلة.
     </p>
 </div>
 
@@ -89,34 +89,34 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
 
 <h2>أفضل 5 سماعات ساوند كور لسماع القرآن والأذكار في مصر</h2>
 
-<p>بعد ما فهمنا الفيزياء، خلينا ننزل السوق المصري ونختار. اخترنا سماعات <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوند كور</a> تحديداً لأن تطبيق Soundcore بيديك تحكم كامل في الـ EQ — وده ميزة جوهرية عشان تظبط الصوت على نطاق التلاوة. كل السماعات دي متوفرة أصلية بضمان 18 شهر على كايرو فولت.</p>
+<p>بعد ما فهمنا الفيزياء، خلينا ننزل السوق المصري ونختار. اخترنا سماعات <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوند كور</a> تحديداً لأن تطبيق Soundcore بيديك تحكم كامل في الـ EQ — وده ميزة جوهرية عشان تظبط الصوت على نطاق التلاوة. كل السماعات دي متوفرة أصلية على كايرو فولت وعليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج).</p>
 
-<h3>1. ساوند كور Liberty 4 NC — الخيار الفلاجشيب للمستمع الجاد (2,800 ج.م)</h3>
+<h3>1. ساوند كور Liberty 4 NC — الخيار الفلاجشيب للمستمع الجاد ({{price:soundcore-liberty-4-nc}} ج.م)</h3>
 
-<p>سماعة <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور Liberty 4 NC</a> هي أفضل سماعة لسماع القرآن الكريم بنقاء استثنائي. ليه؟ لأنها بتجمع بين 3 ميزات حاسمة للتلاوة:</p>
+<p>سماعة <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوند كور Liberty 4 NC</a> خيار قوي لسماع القرآن الكريم بنقاء عالي. ليه؟ لأنها بتجمع بين 3 ميزات حاسمة للتلاوة:</p>
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🎵 <strong>LDAC Codec:</strong> بتنقل 990 كيلوبت في الثانية — 3 أضعاف الـ AAC العادي. يعني كل تفصيلة في صوت الشيخ بتوصل لودنك بدون ضغط أو تشويه. الفرق ملحوظ جداً في تسجيلات القرآن عالية الجودة.</li>
-    <li style="margin-bottom:12px;">🔇 <strong>إلغاء ضوضاء ANC:</strong> بتقلل الضوضاء المحيطة بـ 24 ديسيبل — يعني لو قاعد في المواصلات أو في مكان مزدحم، الأصوات الخارجية بتختفي وبيفضل صوت التلاوة فقط. تجربة روحانية حقيقية.</li>
+    <li style="margin-bottom:12px;">🔇 <strong>إلغاء ضوضاء ANC:</strong> بتقلل الضوضاء المحيطة بشكل ملحوظ — يعني لو قاعد في المواصلات أو في مكان مزدحم، الأصوات الخارجية بتختفي وبيفضل صوت التلاوة فقط. تجربة روحانية حقيقية.</li>
     <li style="margin-bottom:12px;">🎛️ <strong>HearID + 22 EQ Preset:</strong> ميزة HearID بتعمل اختبار سمعي وبتظبط الصوت على حساسية ودنك الشخصية. اختار preset "Vocal" أو "Podcast" وهتلاقي الترددات المتوسطة بارزة ومفصّلة — مثالي للتجويد.</li>
 </ul>
 <p>البطارية بتكمل <strong>7 ساعات مع ANC شغّال</strong> — يعني تقدر تسمع ختمة كاملة من تطبيق القرآن في جلسة واحدة بدون ما تشحن. العلبة بتديك 50 ساعة إجمالي.</p>
 
-<h3>2. ساوند كور R50i — التوازن الذهبي بسعر اقتصادي (880 ج.م)</h3>
+<h3>2. ساوند كور R50i — التوازن الذهبي بسعر اقتصادي ({{price:anker-soundcore-r50i}} ج.م)</h3>
 
 <p>سماعة <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">ساوند كور R50i</a> هي الخيار الأمثل لو عايز جودة ممتازة بسعر اقتصادي. الدرايفر 10 مم بتقنية Bass Booster — لكن لما تفتح تطبيق Soundcore وتختار وضع "Podcast" أو تعمل EQ مخصص تقلل فيه الـ Bass وترفع الـ Mids، الصوت بيتحوّل لصوت واضح ودافئ مثالي للتلاوة.</p>
 <p>اللي بيميّز الـ R50i للاستماع الطويل هو تصميم الساق (Stem Design) اللي بيوزّع الوزن على الأذن بالتساوي — يعني تقدر تلبسها ساعتين أو 3 متواصلين بدون ألم أو ضغط على قناة الأذن. البطارية <strong>10 ساعات شحنة واحدة</strong> (بدون ANC لأنها مش موجودة فيها) — أطول بطارية في الفئة الاقتصادية. ده معناه إنك تقدر تسمع أذكار الصباح والمساء وقرآن يومك كله من شحنة واحدة.</p>
 
-<h3>3. ساوند كور A30i — تصميم أنيق وراحة استثنائية (1,200 ج.م)</h3>
+<h3>3. ساوند كور A30i — تصميم أنيق وراحة استثنائية ({{price:soundcore-a30i-earbuds}} ج.م)</h3>
 
 <p>سماعة <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور A30i</a> بتيجي بتصميم "أحمر الشفاه" الأنيق — علبة الشحن شكلها زي المرآة المدمجة، وده بيخلّيها مناسبة جداً للأخوات اللي بيحبوا يسمعوا أذكار وقرآن في أي مكان بدون ما السماعة تكون ملفتة أو شكلها "جيمنج".</p>
-<p>هندسياً، الـ A30i بتدعم تقنية إلغاء ضوضاء ANC حقيقية مع درايفر 10 مم وبلوتوث 5.3. بتدعم تطبيق Soundcore بالكامل — يعني تقدري تظبطي الـ EQ على وضع "Vocal" وتسمعي التلاوة بنقاء عالي. الميزة الإضافية: تصميمها مدمج (In-Ear بدون ساق) وخفيفة جداً (<strong>4.8 جرام لكل سماعة</strong>) — أخف من وزن عملة معدنية. ده بيخلّيها مريحة جداً في جلسات الاستماع الطويلة وقت الأذكار أو قبل النوم. البطارية <strong>9 ساعات</strong> بدون ANC و<strong>7 ساعات</strong> مع ANC.</p>
+<p>هندسياً، الـ A30i بتدعم تقنية إلغاء ضوضاء ANC حقيقية مع درايفر 6 مم وبلوتوث 5.4. بتدعم تطبيق Soundcore بالكامل — يعني تقدري تظبطي الـ EQ على وضع "Vocal" وتسمعي التلاوة بنقاء عالي. الميزة الإضافية: تصميمها مدمج (In-Ear بدون ساق) وخفيفة جداً (<strong>3.7 جرام مدرجة لكل سماعة</strong>) — أخف من وزن عملة معدنية. ده بيخلّيها مريحة جداً في جلسات الاستماع الطويلة وقت الأذكار أو قبل النوم. البطارية حسب الشركة <strong>حتى 24 ساعة مع العلبة</strong>.</p>
 
-<h3>4. ساوند كور P25i — التوأم المدمج بنفس القوة (900 ج.م)</h3>
+<h3>4. ساوند كور P25i — التوأم المدمج بنفس القوة ({{price:soundcore-p25i-earbuds}} ج.م)</h3>
 
 <p>سماعة <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">ساوند كور P25i</a> هي التوأم التقني للـ R50i — نفس الدرايفر 10 مم ونفس المعالج ونفس دعم التطبيق — لكن بتصميم علبة مربعة مسطحة أصغر حجماً. لو بتفضل العلبة المدمجة اللي بتنزلق في الجيب بسهولة، الـ P25i هي اختيارك.</p>
 <p>لسماع القرآن: نفس كلام الـ R50i — افتح التطبيق، اختار "Podcast" preset أو اعمل EQ مخصص ترفع فيه نطاق 500Hz-3kHz. النتيجة: صوت القارئ بيطلع واضح ودافئ ومفصّل. البطارية <strong>10 ساعات</strong> — ممتازة للأيام الطويلة.</p>
 
-<h3>5. ساوند كور Life P2i — البديل الاقتصادي بأزرار فيزيائية (800 ج.م)</h3>
+<h3>5. ساوند كور Life P2i — البديل الاقتصادي بأزرار فيزيائية ({{price:anker-soundcore-life-p2i}} ج.م)</h3>
 
 <p>سماعة <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">ساوند كور Life P2i</a> هي أرخص خيار في القائمة وبتقدم أداء ممتاز للاستماع. الميزة الفريدة فيها هي الأزرار الفيزيائية الحقيقية — يعني تقدر تتحكم في الصوت والتشغيل بضغطة زر بدون ما تلمس شاشة اللمس اللي ممكن تضغط عليها بالغلط وأنت مغمض عينيك في الأذكار.</p>
 <p>نقطة مهمة: الـ Life P2i <strong>لا تدعم تطبيق Soundcore</strong> — يعني مفيش EQ مخصص. لكن التيونينج الافتراضي بتاعها (Dual EQ: Bass Mode و Normal Mode) بيقدم صوت متوازن في وضع Normal مناسب جداً للأصوات البشرية. بطاريتها <strong>8 ساعات</strong> وبتدعم IPX5 ضد العرق — مناسبة للاستماع أثناء المشي أو التمارين الرياضية.</p>
@@ -143,7 +143,7 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>إلغاء ضوضاء ANC</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>✅ 24 dB</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>✅ متاح</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">❌ غير متاح</td>
             <td style="padding:12px;border:1px solid #d1d5db;">✅ متاح</td>
             <td style="padding:12px;border:1px solid #d1d5db;">❌ غير متاح</td>
@@ -169,7 +169,7 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>البطارية (سماعة فقط)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">7 ساعات</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>10 ساعات ✅</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">9 ساعات</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">7 ساعات</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>10 ساعات ✅</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">8 ساعات</td>
         </tr>
@@ -177,17 +177,17 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>الراحة (جلسات طويلة)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">ممتازة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">ممتازة (ساق)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>الأفضل (4.8g) ✅</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>الأفضل (3.7g) ✅</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">ممتازة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">جيدة جداً</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>السعر في مصر</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">2,800 ج.م</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">880 ج.م</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,200 ج.م</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>900 ج.م ✅</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>800 ج.م ✅</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:soundcore-liberty-4-nc}} ج.م</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-soundcore-r50i}} ج.م</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:soundcore-a30i-earbuds}} ج.م</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:soundcore-p25i-earbuds}} ج.م ✅</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:anker-soundcore-life-p2i}} ج.م ✅</strong></td>
         </tr>
     </tbody>
 </table>
@@ -218,7 +218,7 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
     <li style="margin-bottom:12px;">📖 <strong>استخدم تسجيلات عالية الجودة:</strong> تطبيقات زي "قرآن مجيد" و "آيات" و "Quran Pro" بتوفر تسجيلات بجودة 128-320 kbps. لو عندك Liberty 4 NC مع LDAC، ابحث عن تسجيلات FLAC أو WAV على مواقع متخصصة — الفرق في الوضوح ملحوظ. تسجيلات الإذاعة المصرية القديمة لعبد الباسط عبد الصمد متوفرة بجودة عالية على عدة منصات.</li>
     <li style="margin-bottom:12px;">🔊 <strong>اضبط مستوى الصوت على 50-60%:</strong> الاستماع بصوت عالي أكتر من اللازم بيسبب "تشبّع" (Saturation) في الدرايفر — وده بيشوّه الترددات المتوسطة بالذات. الحجم المتوسط (50-60%) بيخلّي الدرايفر يشتغل في "المنطقة المثالية" (Sweet Spot) اللي فيها أعلى دقة صوتية.</li>
     <li style="margin-bottom:12px;">🧘 <strong>وضع الشفافية (Transparency Mode):</strong> لو بتسمع أذكار أثناء المشي في الشارع، فعّل وضع الشفافية بدل الـ ANC. ده بيسمح لأصوات الشارع تدخل بشكل طبيعي لحمايتك من السيارات وفي نفس الوقت تسمع التلاوة بوضوح. السلامة أولاً.</li>
-    <li style="margin-bottom:12px;">🛏️ <strong>للاستماع قبل النوم:</strong> اختار سماعة خفيفة الوزن زي A30i (4.8 جرام). لو بتنام على جنبك، السماعات بدون ساق (بدون Stem) أريح بكتير لأنها مش بتضغط على الأذن لما راسك تكون على المخدة.</li>
+    <li style="margin-bottom:12px;">🛏️ <strong>للاستماع قبل النوم:</strong> اختار سماعة خفيفة الوزن زي A30i (3.7 جرام). لو بتنام على جنبك، السماعات بدون ساق (بدون Stem) أريح بكتير لأنها مش بتضغط على الأذن لما راسك تكون على المخدة.</li>
     <li style="margin-bottom:12px;">⏰ <strong>اعمل Timer للتشغيل:</strong> أغلب تطبيقات القرآن فيها ميزة "Sleep Timer" — ضبطها على 30 أو 45 دقيقة لو بتسمع قبل النوم. كده السماعة والموبايل بيقفلوا لوحدهم وتوفر بطارية السماعة لليوم التاني.</li>
 </ul>
 
@@ -227,17 +227,17 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
 <p>عشان نوفّر عليك الحيرة، خد شجرة القرار دي:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">💰 <strong>ميزانيتك تحت 1,000 ج.م؟</strong> → <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Life P2i</a> (800 ج.م — أزرار فيزيائية) أو <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">P25i</a> (900 ج.م — تطبيق + EQ) أو <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 ج.م — الأشهر)</li>
-    <li style="margin-bottom:12px;">🎯 <strong>عايز ANC بميزانية متوسطة؟</strong> → <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">A30i</a> (1,200 ج.م — ANC + تصميم أنيق + خفيفة جداً)</li>
-    <li style="margin-bottom:12px;">👑 <strong>عايز أفضل نقاء ممكن بلا حدود؟</strong> → <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> (2,800 ج.م — LDAC + ANC + HearID)</li>
-    <li style="margin-bottom:12px;">🛏️ <strong>بتسمع كتير قبل النوم؟</strong> → <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">A30i</a> (أخف سماعة — 4.8 جرام)</li>
+    <li style="margin-bottom:12px;">💰 <strong>ميزانيتك تحت 1,000 ج.م؟</strong> → <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Life P2i</a> ({{price:anker-soundcore-life-p2i}} ج.م — أزرار فيزيائية) أو <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">P25i</a> ({{price:soundcore-p25i-earbuds}} ج.م — تطبيق + EQ) أو <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> ({{price:anker-soundcore-r50i}} ج.م — الأشهر)</li>
+    <li style="margin-bottom:12px;">🎯 <strong>عايز ANC بميزانية متوسطة؟</strong> → <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">A30i</a> ({{price:soundcore-a30i-earbuds}} ج.م — ANC + تصميم أنيق + خفيفة جداً)</li>
+    <li style="margin-bottom:12px;">👑 <strong>عايز أفضل نقاء ممكن بلا حدود؟</strong> → <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> ({{price:soundcore-liberty-4-nc}} ج.م — LDAC + ANC + HearID)</li>
+    <li style="margin-bottom:12px;">🛏️ <strong>بتسمع كتير قبل النوم؟</strong> → <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">A30i</a> (الأخف هنا — 3.7 جرام مدرجة)</li>
     <li style="margin-bottom:12px;">🏃 <strong>بتسمع أذكار أثناء المشي/الرياضة؟</strong> → <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> أو <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">P25i</a> (IPX5 + بطارية 10 ساعات)</li>
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أصلية بضمان 18 شهر من كايرو فولت</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أصلية وعليها ضمان كايرو فولت المكتوب</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل سماعات <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور</a> متوفرة أصلية 100% بضمان المتجر المكتوب في مصر. تصفّح الموديلات، قارن الأسعار، واطلب توصيل لباب بيتك خلال 24-72 ساعة مع الدفع عند الاستلام. لو محتاج مساعدة في اختيار السماعة المناسبة، تواصل معنا عبر واتساب.
+        كل سماعات <a href="/soundcore/audio" style="color:#2563eb;font-weight:600;">ايربودز ساوند كور</a> متوفرة أصلية 100% بضمان المتجر المكتوب في مصر. تصفّح الموديلات، قارن الأسعار، واطلب توصيل لباب بيتك (عادةً 1–6 أيام عمل حسب المحافظة) مع الدفع عند الاستلام. لو محتاج مساعدة في اختيار السماعة المناسبة، تواصل معنا عبر واتساب.
     </p>
 </div>
 
@@ -266,7 +266,7 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
                 },
                 {
                     question: 'أي سماعة أنسب للاستماع قبل النوم مباشرة؟',
-                    answer: 'ساوند كور A30i هي الأنسب — وزنها 4.8 جرام فقط (أخف من عملة معدنية) وتصميمها بدون ساق فمش بتضغط على ودنك لو نمت على جنبك. فعّل Sleep Timer في تطبيق القرآن على 30 دقيقة عشان السماعة والموبايل يقفلوا لوحدهم.'
+                    answer: 'ساوند كور A30i هي الأنسب — وزنها المدرج 3.7 جرام بس (أخف من عملة معدنية) وتصميمها بدون ساق فمش بتضغط على ودنك لو نمت على جنبك. فعّل Sleep Timer في تطبيق القرآن على 30 دقيقة عشان السماعة والموبايل يقفلوا لوحدهم.'
                 }
             ],
         },
@@ -276,14 +276,14 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
             metaDescription: 'Engineering guide to choosing Bluetooth earbuds with exceptional vocal clarity for Quran recitation and Adhkar. Comparing 5 Soundcore earbuds by mid-range fr...',
             keywords: 'earbuds for quran recitation, best bluetooth earbuds for adhkar, clear voice earbuds, comfortable earbuds long listening, soundcore earbuds for quran, vocal clarity earbuds Egypt, earbuds without heavy bass, best earbuds for speech clarity',
             excerpt: 'A specialized engineering guide to choosing Bluetooth earbuds that highlight human vocal clarity and Tajweed details with the highest fidelity. Practical comparison of 5 models available in Egypt.',
-            quickAnswer: 'For listening to Quran recitation and Adhkar with the highest vocal clarity, choose earbuds that excel in mid-range frequencies (250Hz-4kHz) — the range of the human voice and Tajweed details. Top 3 choices in Egypt: (1) Soundcore Liberty 4 NC with LDAC and exceptional clarity at 2,800 EGP, (2) Soundcore R50i with excellent balance at 880 EGP, (3) Soundcore A30i with a supremely comfortable design for long sessions at 1,200 EGP. Setting EQ to Vocal or Podcast mode highlights Tajweed details.',
+            quickAnswer: 'Choose earbuds with a clear mid-range (250Hz–4kHz), where the reciter\'s voice and Tajweed details sit, and turn the bass down in the EQ. Our picks: Soundcore Liberty 4 NC at {{price:soundcore-liberty-4-nc}} EGP (LDAC and ANC), the R50i at {{price:anker-soundcore-r50i}} EGP as the budget option, and the A30i at {{price:soundcore-a30i-earbuds}} EGP, light enough for long sessions.',
             content: `<p>It's 4 AM. Ramadan. You're sitting on your prayer mat after Tahajjud, the house is completely silent, and everyone is asleep. You open your Quran app and start listening to Surah Ar-Rahman in the voice of Sheikh Abdul Basit Abdul Samad. The audio is coming through the Bluetooth earbuds you bought last month for "gaming." Two minutes in, something feels off... The bass that made PUBG explosions sound epic — that same bass is making the Sheikh's voice sound "muffled," as if he's reciting from inside a barrel! The massive low frequencies are drowning out the richness of his voice and the fine details of Tajweed. What's happening here is exactly like going to an eye doctor to get sunglasses — the place is right, but the tool is wrong.</p>
 
 <p>The irony is that many people buy expensive earbuds with excellent specs for music and gaming, only to discover they're not ideal for listening to Quran recitation, Adhkar, and religious lectures. The reason is simple from an acoustic physics perspective: the human voice — especially the voices of Quran reciters — concentrates in the mid-range frequencies (250Hz to 4kHz). Earbuds that excessively boost bass steal energy from this range and make the voice sound unclear. From an electronics and telecommunications engineering perspective, this guide will explain the engineering specs you should look for in the ideal Quran listening earbuds, compare 5 Soundcore models in detail, and show you how to adjust your EQ settings so you hear every Tajweed detail with crystalline clarity.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> For listening to Quran recitation and Adhkar with the highest vocal clarity, choose earbuds that excel in mid-range frequencies (250Hz-4kHz) — the range of the human voice and Tajweed details. Top 3 choices in Egypt: (1) Soundcore Liberty 4 NC with LDAC and exceptional clarity at 2,800 EGP, (2) Soundcore R50i with excellent balance at 880 EGP, (3) Soundcore A30i with a supremely comfortable design for long sessions at 1,200 EGP. Setting EQ to Vocal or Podcast mode highlights Tajweed details.
+        <strong>💡 Quick Answer:</strong> Choose earbuds with a clear mid-range (250Hz–4kHz), where the reciter's voice and Tajweed details sit, and turn the bass down in the EQ. Our picks: Soundcore Liberty 4 NC at {{price:soundcore-liberty-4-nc}} EGP (LDAC and ANC), the R50i at {{price:anker-soundcore-r50i}} EGP as the budget option, and the A30i at {{price:soundcore-a30i-earbuds}} EGP, light enough for long sessions.
     </p>
 </div>
 
@@ -337,34 +337,34 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
 
 <h2>Top 5 Soundcore Earbuds for Quran and Adhkar Listening in Egypt</h2>
 
-<p>Now that we understand the physics, let's explore the Egyptian market. We specifically chose <a href="/en/soundcore" style="color:#2563eb;font-weight:600;">Soundcore</a> earbuds because the Soundcore App gives you full EQ control — a crucial feature for tuning the sound to the recitation range. All models are available authentic with an 18-month warranty on CairoVolt.</p>
+<p>Now that we understand the physics, let's explore the Egyptian market. We specifically chose <a href="/en/soundcore" style="color:#2563eb;font-weight:600;">Soundcore</a> earbuds because the Soundcore App gives you full EQ control — a crucial feature for tuning the sound to the recitation range. All models are available authentic on CairoVolt, covered by CairoVolt's written store warranty (duration shown on each product page).</p>
 
-<h3>1. Soundcore Liberty 4 NC — The Flagship Choice for the Serious Listener (2,800 EGP)</h3>
+<h3>1. Soundcore Liberty 4 NC — The Flagship Choice for the Serious Listener ({{price:soundcore-liberty-4-nc}} EGP)</h3>
 
-<p>The <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> is the best earbud for listening to Quran recitation with exceptional purity. Why? Because it combines 3 features that are critical for recitation:</p>
+<p>The <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> is a strong choice for listening to Quran recitation with high clarity. Why? Because it combines 3 features that are critical for recitation:</p>
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🎵 <strong>LDAC Codec:</strong> Transfers 990 kbps — 3 times the standard AAC rate. Every subtle detail in the reciter's voice reaches your ears without compression or distortion. The difference is highly noticeable with high-quality Quran recordings.</li>
-    <li style="margin-bottom:12px;">🔇 <strong>ANC Noise Cancellation:</strong> Reduces ambient noise by 24 dB — meaning if you're on public transport or in a crowded space, external sounds vanish and only the recitation remains. A truly spiritual experience.</li>
+    <li style="margin-bottom:12px;">🔇 <strong>ANC Noise Cancellation:</strong> Noticeably reduces ambient noise — meaning if you're on public transport or in a crowded space, external sounds vanish and only the recitation remains. A truly spiritual experience.</li>
     <li style="margin-bottom:12px;">🎛️ <strong>HearID + 22 EQ Presets:</strong> HearID runs a hearing test and tunes the sound to your personal hearing sensitivity. Select the "Vocal" or "Podcast" preset and you'll find mid-range frequencies prominent and detailed — ideal for Tajweed.</li>
 </ul>
 <p>Battery lasts <strong>7 hours with ANC on</strong> — meaning you can listen to an entire Khatma from your Quran app in a single session without charging. The case provides 50 total hours.</p>
 
-<h3>2. Soundcore R50i — The Golden Balance at a Budget Price (880 EGP)</h3>
+<h3>2. Soundcore R50i — The Golden Balance at a Budget Price ({{price:anker-soundcore-r50i}} EGP)</h3>
 
 <p>The <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> is the optimal choice if you want excellent quality at a budget price. The 10mm driver features Bass Booster technology — but when you open the Soundcore App and select the "Podcast" mode or create a custom EQ that reduces bass and boosts mids, the sound transforms into a clear, warm tone ideal for recitation.</p>
-<p>What makes the R50i great for long listening is its stem design, which distributes weight evenly across the ear — meaning you can wear them for 2-3 hours straight without pain or pressure on the ear canal. Battery lasts <strong>10 hours on a single charge</strong> (no ANC as it's not available) — the longest battery in the budget category. This means you can listen to your morning and evening Adhkar and your entire day's Quran from a single charge.</p>
+<p>What makes the R50i great for long listening is its stem design, which distributes weight evenly across the ear — meaning you can wear them for 2-3 hours straight without pain or pressure on the ear canal. Battery lasts <strong>10 hours on a single charge</strong> (no ANC as it's not available) — a long runtime for its price class. This means you can listen to your morning and evening Adhkar and your entire day's Quran from a single charge.</p>
 
-<h3>3. Soundcore A30i — Elegant Design with Exceptional Comfort (1,200 EGP)</h3>
+<h3>3. Soundcore A30i — Elegant Design with Exceptional Comfort ({{price:soundcore-a30i-earbuds}} EGP)</h3>
 
 <p>The <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A30i</a> features a "lipstick case" design — the charging case looks like a compact mirror, making it highly suitable for women who like to listen to Adhkar and Quran anywhere without their earbuds looking conspicuously "gaming-oriented."</p>
-<p>From an engineering standpoint, the A30i supports real ANC noise cancellation with a 10mm driver and Bluetooth 5.3. It fully supports the Soundcore App — meaning you can set the EQ to "Vocal" mode and listen to recitation with high clarity. The bonus: its compact in-ear design (no stem) is extremely lightweight at only <strong>4.8 grams per earbud</strong> — lighter than a coin. This makes it supremely comfortable for long Adhkar sessions or bedtime listening. Battery lasts <strong>9 hours</strong> without ANC and <strong>7 hours</strong> with ANC.</p>
+<p>From an engineering standpoint, the A30i supports real ANC noise cancellation with a 6mm driver and Bluetooth 5.4. It fully supports the Soundcore App — meaning you can set the EQ to "Vocal" mode and listen to recitation with high clarity. The bonus: its compact in-ear design (no stem) is extremely lightweight at a listed <strong>3.7 grams per earbud</strong> — lighter than a coin. This makes it supremely comfortable for long Adhkar sessions or bedtime listening. Battery is listed at <strong>up to 24 hours with the case</strong>.</p>
 
-<h3>4. Soundcore P25i — The Compact Twin with Equal Power (900 EGP)</h3>
+<h3>4. Soundcore P25i — The Compact Twin with Equal Power ({{price:soundcore-p25i-earbuds}} EGP)</h3>
 
 <p>The <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P25i</a> is the technical twin of the R50i — same 10mm driver, same processor, same app support — but with a square, flat case design that's smaller. If you prefer a compact case that slides easily into a pocket, the P25i is your choice.</p>
 <p>For Quran listening: the same approach as the R50i — open the app, select the "Podcast" preset or create a custom EQ that boosts the 500Hz-3kHz range. The result: the reciter's voice comes through clear, warm, and detailed. Battery lasts <strong>10 hours</strong> — excellent for long days.</p>
 
-<h3>5. Soundcore Life P2i — The Budget Option with Physical Buttons (800 EGP)</h3>
+<h3>5. Soundcore Life P2i — The Budget Option with Physical Buttons ({{price:anker-soundcore-life-p2i}} EGP)</h3>
 
 <p>The <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Soundcore Life P2i</a> is the most affordable option on this list and delivers excellent performance for listening. Its unique feature is real physical buttons — meaning you can control volume and playback with a button press without accidentally triggering the touch surface while your eyes are closed during Adhkar.</p>
 <p>Important note: the Life P2i <strong>does not support the Soundcore App</strong> — meaning no custom EQ. However, its default tuning (Dual EQ: Bass Mode and Normal Mode) provides a balanced sound in Normal mode that's well-suited for human voices. Battery lasts <strong>8 hours</strong> and it supports IPX5 sweat resistance — suitable for listening while walking or exercising.</p>
@@ -391,7 +391,7 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>ANC Noise Cancellation</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>✅ 24 dB</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>✅ Available</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">❌ Not available</td>
             <td style="padding:12px;border:1px solid #d1d5db;">✅ Available</td>
             <td style="padding:12px;border:1px solid #d1d5db;">❌ Not available</td>
@@ -417,7 +417,7 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Battery (Earbuds Only)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">7 hours</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>10 hours ✅</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">9 hours</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">7 hours</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>10 hours ✅</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">8 hours</td>
         </tr>
@@ -425,17 +425,17 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Comfort (Long Sessions)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">Excellent</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Excellent (stem)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Best (4.8g) ✅</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Best (3.7g) ✅</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">Excellent</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Very good</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Price in Egypt</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">2,800 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">880 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,200 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>900 EGP ✅</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>800 EGP ✅</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:soundcore-liberty-4-nc}} EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-soundcore-r50i}} EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:soundcore-a30i-earbuds}} EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:soundcore-p25i-earbuds}} EGP ✅</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:anker-soundcore-life-p2i}} EGP ✅</strong></td>
         </tr>
     </tbody>
 </table>
@@ -466,7 +466,7 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
     <li style="margin-bottom:12px;">📖 <strong>Use High-Quality Recordings:</strong> Apps like "Quran Majeed," "Ayat," and "Quran Pro" offer recordings at 128-320 kbps quality. If you have Liberty 4 NC with LDAC, look for FLAC or WAV recordings on specialized sites — the clarity difference is noticeable. Classic Egyptian Radio recordings of Abdul Basit Abdul Samad are available in high quality on several platforms.</li>
     <li style="margin-bottom:12px;">🔊 <strong>Set Volume to 50-60%:</strong> Listening at excessively high volume causes "saturation" in the driver — which distorts mid-range frequencies specifically. Medium volume (50-60%) keeps the driver operating in its "sweet spot" where sonic accuracy is highest.</li>
     <li style="margin-bottom:12px;">🧘 <strong>Transparency Mode for Walking:</strong> If you're listening to Adhkar while walking on the street, enable Transparency Mode instead of ANC. This allows street sounds to enter naturally for your safety from vehicles while still hearing the recitation clearly. Safety first.</li>
-    <li style="margin-bottom:12px;">🛏️ <strong>For Bedtime Listening:</strong> Choose lightweight earbuds like the A30i (4.8 grams). If you sleep on your side, earbuds without stems are far more comfortable since they don't press against your ear when your head is on the pillow.</li>
+    <li style="margin-bottom:12px;">🛏️ <strong>For Bedtime Listening:</strong> Choose lightweight earbuds like the A30i (listed 3.7 grams). If you sleep on your side, earbuds without stems are far more comfortable since they don't press against your ear when your head is on the pillow.</li>
     <li style="margin-bottom:12px;">⏰ <strong>Set a Playback Timer:</strong> Most Quran apps feature a "Sleep Timer" — set it to 30 or 45 minutes for bedtime listening. This way, the earbuds and phone shut off automatically, saving earbud battery for the next day.</li>
 </ul>
 
@@ -475,17 +475,17 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
 <p>To save you the confusion, here's a straightforward decision tree:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">💰 <strong>Budget under 1,000 EGP?</strong> → <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Life P2i</a> (800 EGP — physical buttons) or <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">P25i</a> (900 EGP — app + EQ) or <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> (880 EGP — most popular)</li>
-    <li style="margin-bottom:12px;">🎯 <strong>Want ANC on a mid-range budget?</strong> → <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">A30i</a> (1,200 EGP — ANC + elegant design + ultra-light)</li>
-    <li style="margin-bottom:12px;">👑 <strong>Want the best possible clarity, no limits?</strong> → <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> (2,800 EGP — LDAC + ANC + HearID)</li>
-    <li style="margin-bottom:12px;">🛏️ <strong>Listen frequently before bed?</strong> → <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">A30i</a> (lightest — 4.8 grams)</li>
+    <li style="margin-bottom:12px;">💰 <strong>Budget under 1,000 EGP?</strong> → <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Life P2i</a> ({{price:anker-soundcore-life-p2i}} EGP — physical buttons) or <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">P25i</a> ({{price:soundcore-p25i-earbuds}} EGP — app + EQ) or <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> ({{price:anker-soundcore-r50i}} EGP — most popular)</li>
+    <li style="margin-bottom:12px;">🎯 <strong>Want ANC on a mid-range budget?</strong> → <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">A30i</a> ({{price:soundcore-a30i-earbuds}} EGP — ANC + elegant design + ultra-light)</li>
+    <li style="margin-bottom:12px;">👑 <strong>Want the best possible clarity, no limits?</strong> → <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC</a> ({{price:soundcore-liberty-4-nc}} EGP — LDAC + ANC + HearID)</li>
+    <li style="margin-bottom:12px;">🛏️ <strong>Listen frequently before bed?</strong> → <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">A30i</a> (lightest here — listed 3.7 grams)</li>
     <li style="margin-bottom:12px;">🏃 <strong>Listen to Adhkar while walking/exercising?</strong> → <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">R50i</a> or <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">P25i</a> (IPX5 + 10-hour battery)</li>
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic with 18-Month Warranty from CairoVolt</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic, with CairoVolt's Written Store Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore earbuds</a> are available 100% authentic with a written CairoVolt store warranty in Egypt. Browse models, compare prices, and order delivery to your door within 24-72 hours with Cash on Delivery. Need help choosing the right earbuds? Contact us via WhatsApp.
+        All <a href="/en/soundcore/audio" style="color:#2563eb;font-weight:600;">Soundcore earbuds</a> are available 100% authentic with a written CairoVolt store warranty in Egypt. Browse models, compare prices, and order delivery to your door (commonly 1–6 business days depending on governorate) with Cash on Delivery. Need help choosing the right earbuds? Contact us via WhatsApp.
     </p>
 </div>
 
@@ -514,7 +514,7 @@ export const earbuds_for_quran_recitation_clear_sound: BlogArticle = {
                 },
                 {
                     question: 'Which earbuds are best for listening right before sleep?',
-                    answer: 'Soundcore A30i is the most suitable — weighing only 4.8 grams (lighter than a coin) with a stemless design that won\'t press against your ear if you sleep on your side. Enable Sleep Timer in your Quran app for 30 minutes so both the earbuds and phone shut off automatically.'
+                    answer: 'Soundcore A30i is the most suitable — with a listed weight of only 3.7 grams (lighter than a coin) with a stemless design that won\'t press against your ear if you sleep on your side. Enable Sleep Timer in your Quran app for 30 minutes so both the earbuds and phone shut off automatically.'
                 }
             ],
         }

@@ -4,7 +4,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
     slug: 'home-security-cameras-power-backup-outage',
     category: 'buying-guide',
     publishDate: '2026-06-18',
-    modifiedDate: '2026-06-18',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         "anker-521-powerhouse",
@@ -27,14 +27,14 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
             metaDescription: 'دليل عملي لتشغيل كاميرات المراقبة أثناء انقطاع الكهرباء في مصر. حساب السعة المطلوبة بالأرقام مع مقارنة UPS ضد باور بانك ضد محطة طاقة. تابع التفاصيل بمصر.',
             keywords: 'كاميرات مراقبة انقطاع كهرباء, ups كاميرات مراقبة, باور بانك كاميرا مراقبة, تشغيل كاميرات بدون كهرباء, حل انقطاع الكهرباء مصر, شحن DVR انقطاع كهرباء, battery backup security camera egypt',
             excerpt: 'كاميرات المراقبة بتوقف بالضبط وقت ما بتكون محتاجها — أثناء انقطاع الكهرباء. دليل عملي بالحسابات لاختيار نظام الطوارئ المناسب.',
-            quickAnswer: 'لتشغيل 4 كاميرات مراقبة + DVR لمدة 4 ساعات أثناء انقطاع الكهرباء: محتاج UPS بقدرة 600VA+ أو محطة طاقة متنقلة بسعة 200Wh+. الحساب: منظومة 4 كاميرات (5W لكل واحدة) + DVR (25W) = 45W إجمالي × 4 ساعات = 180Wh. ترشيحنا: انكر 521 PowerHouse (256Wh) — بيشغّل المنظومة 5+ ساعات ويتشحن في 5 ساعات. للحل الأرخص: باور بانك 20,000mAh + محول DC 12V بيشغّل كاميرا WiFi واحدة 8-10 ساعات.',
-            content: `<p>الساعة 2 بالليل. الكهرباء قطعت — زي ما بيحصل في كل صيف مصري. الحي كله ضلمة. وبالضبط في اللحظة دي — لما الأمان بيكون أهم حاجة — كاميرات المراقبة بتاعتك وقفت. الـ DVR طفي. الشاشة سودة. التسجيل وقف. لو حصلت سرقة أو حادثة في الدقائق دي، مفيش دليل. القصة دي مش خيال — حصلت مع عميل من المقطم ركّب 8 كاميرات بـ 15,000 جنيه ومغيّرش على نظام طوارئ. أول ما الكهرباء قطعت في ليلة صيفية، حد سرق موتوسيكل من قدام البيت. الكاميرات ماسجلتش ثانية واحدة. الموتوسيكل قيمته 45,000 جنيه — وكان ممكن يتحمي بنظام طوارئ تكلفته 2,000 جنيه بس.</p>
+            quickAnswer: 'محتاج حوالي 180Wh على الأقل عشان تشغّل 4 كاميرات (5W لكل واحدة) + DVR (25W) لمدة 4 ساعات (45W × 4). ترشيحنا: محطة انكر 521 PowerHouse (256Wh) بـ {{price:anker-521-powerhouse}} جنيه — حوالي 5 ساعات (تقدير: 256 × 0.85 ÷ 45). للحل الأرخص: انكر PowerCore 20000 + محول USB لـ 12V DC بيشغّل كاميرا 8W حوالي 6.5 ساعة (تقدير من قياسنا 61.4Wh).',
+            content: `<p>الساعة 2 بالليل. الكهرباء قطعت — زي ما بيحصل في كل صيف مصري. الحي كله ضلمة. وبالضبط في اللحظة دي — لما الأمان بيكون أهم حاجة — كاميرات المراقبة بتاعتك وقفت. الـ DVR طفي. الشاشة سودة. التسجيل وقف. لو حصلت سرقة أو حادثة في الدقائق دي، مفيش دليل. وده سيناريو بيتكرر: حد يركّب 8 كاميرات بـ 15,000 جنيه من غير نظام طوارئ. أول ما الكهرباء قطعت في ليلة صيفية، ممكن حد يسرق موتوسيكل من قدام البيت والكاميرات ماتسجلش ثانية واحدة. موتوسيكل قيمته 45,000 جنيه — وكان ممكن يتحمي بنظام طوارئ تكلفته 2,000 جنيه بس.</p>
 
-<p>انقطاع الكهرباء في مصر — خصوصاً في الصيف — بقى واقع يومي في مناطق كتير. وللأسف، اللحظات اللي الكهرباء بتقطع فيها هي بالضبط اللحظات اللي كاميرات المراقبة بتكون فيها أهم: بالليل، وقت الحر الشديد لما الناس بتنام بره أو بتفتح الأبواب. في المقال ده، هنحسبلك بالأرقام بالضبط كام واط بيستهلك نظام المراقبة بتاعك، وإيه الحلول المتاحة (من أرخص حل بـ 750 جنيه لحد أفضل حل بـ 5,500 جنيه)، ونصائح التركيب الصح عشان المنظومة تشتغل تلقائياً لحظة انقطاع الكهرباء بدون ما تعمل أي حاجة.</p>
+<p>انقطاع الكهرباء في مصر — خصوصاً في الصيف — بقى واقع يومي في مناطق كتير. وللأسف، اللحظات اللي الكهرباء بتقطع فيها هي بالضبط اللحظات اللي كاميرات المراقبة بتكون فيها أهم: بالليل، وقت الحر الشديد لما الناس بتنام بره أو بتفتح الأبواب. في المقال ده، هنحسبلك بالأرقام بالضبط كام واط بيستهلك نظام المراقبة بتاعك، وإيه الحلول المتاحة (من باور بانك بـ {{price:anker-zolo-a110d-10000}} جنيه لحد محطة طاقة بـ {{price:anker-521-powerhouse}} جنيه)، ونصائح التركيب الصح عشان المنظومة تشتغل تلقائياً لحظة انقطاع الكهرباء بدون ما تعمل أي حاجة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> لتشغيل 4 كاميرات + DVR لمدة 4 ساعات: محتاج <strong>180Wh</strong> على الأقل. <a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> (256Wh — 5,500ج) بيشغّلهم 5+ ساعات. للحل الأرخص: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (74Wh — 1,550ج) + محول DC 12V بيشغّل كاميرا WiFi واحدة 8-10 ساعات.
+        <strong>💡 الإجابة السريعة:</strong> محتاج حوالي <strong>180Wh</strong> على الأقل لـ 4 كاميرات + DVR لمدة 4 ساعات. <a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">محطة انكر 521 PowerHouse</a> (256Wh — {{price:anker-521-powerhouse}}ج) بتشغّلهم حوالي 5 ساعات (تقدير: 256 × 0.85 ÷ 45). للحل الأرخص: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (72Wh — {{price:anker-powercore-20000}}ج) + محول DC 12V بيشغّل كاميرا 8W حوالي 6.5 ساعة (تقدير من قياسنا 61.4Wh × 0.85 ÷ 8).
     </p>
 </div>
 
@@ -100,13 +100,13 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
 
 <p>كل حل من الحلول دي بيناسب ميزانية مختلفة وعدد كاميرات مختلف. اختار اللي يناسب نظامك وميزانيتك:</p>
 
-<h3>الحل 1: باور بانك + محول DC — الأرخص (750-1,550ج)</h3>
-<p>لو عندك كاميرات WiFi (بدون DVR) أو عايز تحمي كاميرا واحدة أو اتنين بس: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (74Wh) مع محول USB to 12V DC (متاح على أمازون بـ 50-100 جنيه) بيشغّل كاميرا IP واحدة (8W) لمدة 8-9 ساعات تقريباً. المحول بيحول الـ 5V USB لـ 12V DC اللي الكاميرا محتاجاه. التكلفة الإجمالية: حوالي 1,600 جنيه. القيد: مش بيشغل DVR — يعني التسجيل على الكلاود أو SD card في الكاميرا نفسها.</p>
+<h3>الحل 1: باور بانك + محول DC — الأرخص</h3>
+<p>لو عندك كاميرات WiFi (بدون DVR) أو عايز تحمي كاميرا واحدة أو اتنين بس: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (72Wh، {{price:anker-powercore-20000}}ج) مع محول USB to 12V DC (متاح على أمازون بـ 50-100 جنيه) بيشغّل كاميرا IP واحدة (8W) حوالي 6.5 ساعة (تقدير: 61.4Wh مقاسة × 0.85 ÷ 8W). المحول بيحول الـ 5V USB لـ 12V DC اللي الكاميرا محتاجاه. القيد: مش بيشغل DVR — يعني التسجيل على الكلاود أو SD card في الكاميرا نفسها.</p>
 
-<p>لو عايز تشغل كاميرا واحدة + الراوتر (عشان الكلاود يفضل شغال): <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو 20,000mAh</a> (74Wh) بيغطي كاميرا (8W) + راوتر (10W) = 18W لمدة 4 ساعات تقريباً. كفاية لانقطاع كهرباء عادي.</p>
+<p>لو عايز تشغل كاميرا واحدة + الراوتر (عشان الكلاود يفضل شغال): <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو 20,000mAh</a> (74Wh) بيغطي كاميرا (8W) + راوتر (10W) = 18W لمدة حوالي 3 ساعات (تقدير: 62.0Wh مقاسة × 0.85 ÷ 18W). كفاية لانقطاع كهرباء عادي.</p>
 
 <h3>الحل 2: UPS مخصص لكاميرات المراقبة — المتوسط (1,200-2,500ج)</h3>
-<p>الـ UPS (Uninterruptible Power Supply) هو الحل التقليدي وأشهر حل في محلات كاميرات المراقبة في مصر. UPS بقدرة 600VA (حوالي 360Wh) بيشغل 4 كاميرات + DVR لمدة 4-6 ساعات. الميزة الكبرى: <strong>التحويل تلقائي في أقل من 10 ميلي ثانية</strong> — يعني الكاميرات مش هتحس إن الكهرباء قطعت أصلاً. مفيش فجوة في التسجيل. التكلفة: 1,200-2,500 جنيه حسب السعة والماركة.</p>
+<p>الـ UPS (Uninterruptible Power Supply) هو الحل التقليدي وأشهر حل في محلات كاميرات المراقبة في مصر. UPS بقدرة 600VA (يعني قدرة خرج حوالي 360W — مش سعة بالـ Wh) بيشغل 4 كاميرات + DVR لمدة بتعتمد على سعة بطاريته الداخلية بالـ Wh، فراجعها قبل الشراء. الميزة الكبرى: <strong>التحويل تلقائي في أقل من 10 ميلي ثانية</strong> — يعني الكاميرات مش هتحس إن الكهرباء قطعت أصلاً. مفيش فجوة في التسجيل. التكلفة: 1,200-2,500 جنيه حسب السعة والماركة.</p>
 
 <p>لكن فيه مشاكل مع UPS التقليدي في مصر محتاج تعرفها:</p>
 <ul style="list-style:none;padding:0;">
@@ -122,7 +122,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
     </p>
 </div>
 
-<h3>الحل 3: محطة طاقة متنقلة — الأفضل والأذكى (5,500ج)</h3>
+<h3>الحل 3: محطة طاقة متنقلة — الأشمل ({{price:anker-521-powerhouse}}ج)</h3>
 <p><a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> — ده الحل اللي بنرشحه لأي حد جاد عن حماية نظام المراقبة بتاعه. ليه؟</p>
 
 <ul style="list-style:none;padding:0;">
@@ -135,7 +135,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
 
 <h2>الحل المجاني: كاميرات ببطارية مدمجة</h2>
 
-<p>لو لسه ماركبتش كاميرات أو بتفكر تضيف كاميرات جديدة — ممكن تبدأ بكاميرات WiFi ببطارية مدمجة (Battery-Powered WiFi Cameras). الكاميرات دي بتشتغل على بطارية ليثيوم مدمجة بتدوم 2-6 شهور على شحنة واحدة (لأنها بتسجل بالحركة فقط — motion detection). لما الكهرباء بتقطع، الكاميرا بتفضل شغالة عادي — وده ميزة ضخمة في ظروف مصر. الكاميرات دي بقت منتشرة جداً في السوق المصري من ماركات زي Ezviz و Reolink و Imou. أسعارها بتبدأ من 1,500 جنيه. بس لازم تاخد بالك: الكاميرا ببطارية مدمجة محتاجة الراوتر يكون شغال عشان ترفع الفيديو على الكلاود أو تبعتلك إشعار على الموبايل. يعني محتاج حل بسيط للراوتر بس — وده <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو 10,000mAh</a> (750ج) بيشغله 6-8 ساعات. لو الراوتر وقف، الكاميرا هتسجل محلياً على الـ SD card بس مش هتقدر تتابعها من بره البيت.</p>
+<p>لو لسه ماركبتش كاميرات أو بتفكر تضيف كاميرات جديدة — ممكن تبدأ بكاميرات WiFi ببطارية مدمجة (Battery-Powered WiFi Cameras). الكاميرات دي بتشتغل على بطارية ليثيوم مدمجة بتدوم 2-6 شهور على شحنة واحدة (لأنها بتسجل بالحركة فقط — motion detection). لما الكهرباء بتقطع، الكاميرا بتفضل شغالة عادي — وده ميزة ضخمة في ظروف مصر. الكاميرات دي بقت منتشرة جداً في السوق المصري من ماركات زي Ezviz و Reolink و Imou. أسعارها بتبدأ من 1,500 جنيه. بس لازم تاخد بالك: الكاميرا ببطارية مدمجة محتاجة الراوتر يكون شغال عشان ترفع الفيديو على الكلاود أو تبعتلك إشعار على الموبايل. يعني محتاج حل بسيط للراوتر بس — وده <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو 10,000mAh</a> ({{price:anker-zolo-a110d-10000}}ج) بيشغله كام ساعة حسب استهلاك الراوتر (راوترات كتير بتحتاج 12V DC مش USB، فهتحتاج محول). لو الراوتر وقف، الكاميرا هتسجل محلياً على الـ SD card بس مش هتقدر تتابعها من بره البيت.</p>
 
 <h2>إزاي تجهز المنظومة صح — خطوات التركيب</h2>
 
@@ -159,9 +159,9 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">التكلفة</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>750-1,600ج</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>من {{price:anker-zolo-a110d-10000}}ج + المحول</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;"><strong>1,200-2,500ج</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>5,500ج</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>{{price:anker-521-powerhouse}}ج</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">عدد كاميرات + DVR</td>
@@ -199,7 +199,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ احمِ كاميراتك من كايرو فولت — بضمان المتجر المكتوب</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل حلول الطوارئ لأنظمة المراقبة متاحة بضمان <strong>18 شهر مكتوب من المتجر</strong> + توصيل لكل المحافظات + دعم فني واتساب 24/7 لمساعدتك في حساب السعة المناسبة. تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a>.
+        كل حلول الطوارئ لأنظمة المراقبة متاحة بضمان <strong>كايرو فولت المكتوب</strong> (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات + دعم فني واتساب 24/7 لمساعدتك في حساب السعة المناسبة. تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a>.
     </p>
 </div>`,
             faq: [
@@ -209,7 +209,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
                 },
                 {
                     question: 'كام ساعة UPS 600VA بيشغل 4 كاميرات مراقبة؟',
-                    answer: 'UPS بقدرة 600VA (حوالي 360Wh) بيشغل 4 كاميرات IP خارجية (32W) + DVR 4 قنوات (20W) = 52W لمدة 4-6 ساعات تقريباً حسب حالة البطارية وعمرها. بعد سنة من الاستخدام في حرارة مصر، المدة بتقل لـ 2.5-4 ساعات.',
+                    answer: 'الـ 600VA رقم قدرة خرج (حوالي 360W) مش سعة. مدة التشغيل لحمل 52W (4 كاميرات IP خارجية 32W + DVR 4 قنوات 20W) = سعة بطارية الـ UPS بالـ Wh × حوالي 0.85 ÷ 52. يعني بطارية 168Wh (12V × 14Ah) بتدي حوالي 2.7 ساعة (تقدير)، والمدة بتقل مع عمر البطارية وحرارة مصر.',
                 },
                 {
                     question: 'إيه الفرق بين UPS عادي ومحطة طاقة متنقلة للكاميرات؟',
@@ -227,14 +227,14 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
             metaDescription: 'Practical guide to keeping security cameras operational during power outages in Egypt. Exact wattage calculations and comparison of UPS vs power bank vs port...',
             keywords: 'security camera power outage, ups for security cameras, power bank security camera, backup power CCTV egypt, DVR power backup, security camera battery backup, power outage surveillance egypt',
             excerpt: 'Security cameras stop working exactly when you need them most — during power outages. A practical guide with exact calculations for choosing the right backup power system.',
-            quickAnswer: 'To run 4 security cameras + DVR for 4 hours during a power outage: you need a UPS rated 600VA+ or a portable power station with 200Wh+ capacity. The math: 4-camera system (5W each) + DVR (25W) = 45W total × 4 hours = 180Wh. Our pick: Anker 521 PowerHouse (256Wh) — runs the system for 5+ hours and recharges in 5 hours. For a budget solution: a 20,000mAh power bank + 12V DC converter runs a single WiFi camera for 8-10 hours.',
-            content: `<p>It's 2 AM. The power goes out — just like it does every Egyptian summer. The whole neighborhood is dark. And at exactly that moment — when security matters most — your surveillance cameras stop. The DVR shuts down. The screen goes black. Recording stops. If a theft or incident happens in those minutes, there's no evidence. This isn't fiction — it happened to a customer from Mokattam who installed 8 cameras costing 15,000 EGP but never set up a backup power system. The first time power cut on a summer night, someone stole a motorcycle from in front of his house. The cameras didn't record a single second. The motorcycle was worth 45,000 EGP — and could have been protected by a backup system costing just 2,000 EGP.</p>
+            quickAnswer: 'You need at least about 180Wh to run 4 cameras (5W each) plus a DVR (25W) for 4 hours (45W × 4). Our pick: the Anker 521 PowerHouse (256Wh) at {{price:anker-521-powerhouse}} EGP — about 5 hours (est.: 256 × 0.85 ÷ 45). Budget option: an Anker PowerCore 20000 plus a USB-to-12V DC converter runs one 8W camera for about 6.5 hours (est. from our 61.4Wh bench measurement).',
+            content: `<p>It's 2 AM. The power goes out — just like it does every Egyptian summer. The whole neighborhood is dark. And at exactly that moment — when security matters most — your surveillance cameras stop. The DVR shuts down. The screen goes black. Recording stops. If a theft or incident happens in those minutes, there's no evidence. It's a common scenario: someone installs 8 cameras costing 15,000 EGP without any backup power. The first time power cut on a summer night, a motorcycle could be stolen from in front of the house without the cameras recording a single second. A motorcycle worth 45,000 EGP — and could have been protected by a backup system costing just 2,000 EGP.</p>
 
-<p>Power outages in Egypt — especially in summer — have become a daily reality in many areas. Unfortunately, the moments when power cuts happen are exactly when surveillance cameras matter most: at night, during extreme heat when people sleep outdoors or leave doors open. In this article, we'll calculate exactly how many watts your surveillance system consumes, what solutions are available (from the cheapest at 750 EGP to the best at 5,500 EGP), and installation tips so the system switches automatically the moment power cuts without you doing anything.</p>
+<p>Power outages in Egypt — especially in summer — have become a daily reality in many areas. Unfortunately, the moments when power cuts happen are exactly when surveillance cameras matter most: at night, during extreme heat when people sleep outdoors or leave doors open. In this article, we'll calculate exactly how many watts your surveillance system consumes, what solutions are available (from a power bank at {{price:anker-zolo-a110d-10000}} EGP to a power station at {{price:anker-521-powerhouse}} EGP), and installation tips so the system switches automatically the moment power cuts without you doing anything.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> To run 4 cameras + DVR for 4 hours: you need <strong>180Wh</strong> minimum. The <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> (256Wh — 5,500 EGP) runs them for 5+ hours. For a budget option: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (74Wh — 1,550 EGP) + DC 12V converter runs a single WiFi camera for 8-10 hours.
+        <strong>💡 Quick Answer:</strong> You need at least about <strong>180Wh</strong> for 4 cameras + a DVR for 4 hours. The <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> (256Wh — {{price:anker-521-powerhouse}} EGP) runs them for about 5 hours (est.: 256 × 0.85 ÷ 45). Budget option: the <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (72Wh — {{price:anker-powercore-20000}} EGP) + a 12V DC converter runs one 8W camera for about 6.5 hours (est. from our 61.4Wh measurement × 0.85 ÷ 8).
     </p>
 </div>
 
@@ -298,13 +298,13 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
 
 <h2>3 Solutions to Keep Cameras Running During Outages — From Cheapest to Best</h2>
 
-<h3>Solution 1: Power Bank + DC Converter — Cheapest (750-1,550 EGP)</h3>
-<p>If you have WiFi cameras (no DVR) or want to protect just 1-2 cameras: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (74Wh) with a USB to 12V DC converter (available on Amazon for 50-100 EGP) runs a single IP camera (8W) for approximately 8-9 hours. The converter transforms the 5V USB output to the 12V DC the camera needs. Total cost: around 1,600 EGP. Limitation: doesn't power a DVR — recording must be cloud-based or on the camera's SD card.</p>
+<h3>Solution 1: Power Bank + DC Converter — Cheapest</h3>
+<p>If you have WiFi cameras (no DVR) or want to protect just 1-2 cameras: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (72Wh, {{price:anker-powercore-20000}} EGP) with a USB to 12V DC converter (available on Amazon for 50-100 EGP) runs a single IP camera (8W) for about 6.5 hours (est.: 61.4Wh measured × 0.85 ÷ 8W). The converter transforms the 5V USB output to the 12V DC the camera needs. Limitation: doesn't power a DVR — recording must be cloud-based or on the camera's SD card.</p>
 
-<p>If you want to run one camera + the router (to keep cloud recording active): <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO 20,000mAh</a> (74Wh) covers a camera (8W) + router (10W) = 18W for approximately 4 hours. Sufficient for a typical power outage.</p>
+<p>If you want to run one camera + the router (to keep cloud recording active): <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO 20,000mAh</a> (74Wh) covers a camera (8W) + router (10W) = 18W for about 3 hours (est.: 62.0Wh measured × 0.85 ÷ 18W). Sufficient for a typical power outage.</p>
 
 <h3>Solution 2: Dedicated UPS for Surveillance — Mid-Range (1,200-2,500 EGP)</h3>
-<p>The UPS (Uninterruptible Power Supply) is the traditional solution and the most popular option at surveillance equipment shops in Egypt. A 600VA UPS (approximately 360Wh) runs 4 cameras + DVR for 4-6 hours. The key advantage: <strong>automatic switchover in less than 10 milliseconds</strong> — the cameras don't even notice the power cut. Zero recording gap. Cost: 1,200-2,500 EGP depending on capacity and brand.</p>
+<p>The UPS (Uninterruptible Power Supply) is the traditional solution and the most popular option at surveillance equipment shops in Egypt. A 600VA UPS (roughly 360W of output power — not a capacity in Wh) runs 4 cameras + DVR for a time set by its internal battery's Wh rating, so check that before buying. The key advantage: <strong>automatic switchover in less than 10 milliseconds</strong> — the cameras don't even notice the power cut. Zero recording gap. Cost: 1,200-2,500 EGP depending on capacity and brand.</p>
 
 <p>However, there are problems with traditional UPS systems in Egypt you should know about:</p>
 <ul style="list-style:none;padding:0;">
@@ -320,7 +320,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
     </p>
 </div>
 
-<h3>Solution 3: Portable Power Station — Best & Smartest (5,500 EGP)</h3>
+<h3>Solution 3: Portable Power Station — Most Complete ({{price:anker-521-powerhouse}} EGP)</h3>
 <p>The <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> — this is the solution we recommend for anyone serious about protecting their surveillance system. Here's why:</p>
 
 <ul style="list-style:none;padding:0;">
@@ -333,7 +333,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
 
 <h2>The Free Solution: Battery-Powered WiFi Cameras</h2>
 
-<p>If you haven't installed cameras yet or are planning to add new ones — consider battery-powered WiFi cameras. These run on built-in lithium batteries lasting 2-6 months on a single charge (because they only record on motion detection). When power cuts, the camera keeps working normally. But it needs the router to be running for cloud uploads. That means you need a simple router backup — and an <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO 10,000mAh</a> (750 EGP) keeps it running for 6-8 hours.</p>
+<p>If you haven't installed cameras yet or are planning to add new ones — consider battery-powered WiFi cameras. These run on built-in lithium batteries lasting 2-6 months on a single charge (because they only record on motion detection). When power cuts, the camera keeps working normally. But it needs the router to be running for cloud uploads. That means you need a simple router backup — and an <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO 10,000mAh</a> ({{price:anker-zolo-a110d-10000}} EGP) keeps it running for a few hours depending on the router's draw (many routers need 12V DC, not USB, so you will need a converter).</p>
 
 <h2>How to Set Up Your Backup System Correctly — Step by Step</h2>
 
@@ -357,9 +357,9 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Cost</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>750-1,600 EGP</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>From {{price:anker-zolo-a110d-10000}} EGP + converter</strong></td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;"><strong>1,200-2,500 EGP</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>5,500 EGP</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>{{price:anker-521-powerhouse}} EGP</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Cameras + DVR Support</td>
@@ -397,7 +397,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt — With Written Store Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All backup power solutions for surveillance systems are available with an <strong>18-month written store warranty</strong> + delivery to all governorates + 24/7 WhatsApp technical support to help you calculate the right capacity. Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Portable Power Stations</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a>.
+        All backup power solutions for surveillance systems are available with <strong>CairoVolt's written store warranty</strong> (duration shown on each product page) + delivery to all governorates + 24/7 WhatsApp technical support to help you calculate the right capacity. Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Portable Power Stations</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a>.
     </p>
 </div>`,
             faq: [
@@ -407,7 +407,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
                 },
                 {
                     question: 'How long does a 600VA UPS run 4 security cameras?',
-                    answer: 'A 600VA UPS (approximately 360Wh) runs 4 outdoor IP cameras (32W) + 4-channel DVR (20W) = 52W for approximately 4-6 hours depending on battery condition and age. After one year of use in Egyptian heat, runtime drops to 2.5-4 hours.',
+                    answer: '600VA is an output-power rating (about 360W), not a capacity. Runtime for a 52W load (4 outdoor IP cameras at 32W + a 4-channel DVR at 20W) = the UPS battery\'s Wh × about 0.85 ÷ 52. A 168Wh battery (12V × 14Ah), for example, gives about 2.7 hours (est.), and runtime falls as the battery ages in Egyptian heat.',
                 },
                 {
                     question: 'What is the difference between a UPS and a portable power station for cameras?',

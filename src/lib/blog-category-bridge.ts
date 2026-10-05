@@ -29,7 +29,9 @@
  * rendered. This module must not be able to emit a link to a page that 404s.
  */
 
-import { getLiveIndex, type BlogIndexEntry } from '@/data/blog-index.generated';
+import { existsSync } from 'fs';
+import path from 'path';
+import { blogIndex, getLiveIndex, type BlogIndexEntry } from '@/data/blog-index.generated';
 import { categoryContent } from '@/data/category-content';
 
 /**
@@ -80,6 +82,88 @@ export function resolveCategoryKey(raw: string, routes = realCategoryRoutes()): 
     return routes.has(mapped) ? mapped : null;
 }
 
+/**
+ * Evergreen explainers pinned to the shelf whose vocabulary they explain,
+ * keyed by the resolved `brand/category` route.
+ *
+ * The rail used to be "the three newest articles that declare this category",
+ * which on money shelves surfaced whatever shipped last — including posts about
+ * competitor brands — while the glossary pieces that answer the shelf's own
+ * terms (GaN, PD/PPS, mAh vs Wh, ANC, LDAC, 240W) never appeared. Pinned slugs
+ * still pass through getLiveIndex(), so a scheduled slug can never be linked.
+ */
+export const PINNED_ARTICLES: Record<string, readonly string[]> = {
+    'anker/wall-chargers': [
+        'what-is-gan-gallium-nitride-charger-explained-simply',
+        'pd-qc-pps-fast-charging-abbreviations-explained',
+        'poweriq-vooc-superfast-turbopower-explained',
+    ],
+    'anker/power-banks': [
+        'best-power-bank-egypt-2026',
+        '5000-vs-10000-vs-20000-mah-which-capacity',
+        'mah-vs-wh-power-bank-real-capacity-explained',
+        'power-bank-airplane-rules-egypt-2026',
+    ],
+    'joyroom/power-banks': [
+        'mah-vs-wh-power-bank-real-capacity-explained',
+        'pass-through-charging-power-bank-myth-truth',
+        'power-bank-airplane-rules-egypt-2026',
+    ],
+    'soundcore/audio': [
+        'anc-vs-enc-vs-transparency-mode-difference',
+        'bassup-ldac-aptx-audio-terms-explained-before-buying',
+        'bluetooth-5-4-vs-5-3-vs-5-0-real-difference',
+    ],
+    'anker/cables': [
+        'usb-c-240w-cable-gaming-laptop-when-need',
+        'usb-c-cable-guide-egypt-2026',
+    ],
+    'joyroom/cables': [
+        'usb-c-240w-cable-gaming-laptop-when-need',
+        'usb-c-cable-guide-egypt-2026',
+    ],
+    'soundcore/speakers': [
+        'bluetooth-speaker-beach-pool-ipx67-rating',
+    ],
+};
+
+/**
+ * A typo in PINNED_ARTICLES must be loud at build time, never a silent 404:
+ * every pinned slug has to be in the generated blog index (which is built from
+ * src/data/blog/*.ts), and — where the source tree is present, i.e. during a
+ * build — its article file must exist.
+ */
+(function validatePinnedArticles() {
+    const indexed = new Set(blogIndex.map(entry => entry.slug));
+    const blogDir = path.join(process.cwd(), 'src', 'data', 'blog');
+    const canCheckFiles = existsSync(blogDir);
+    for (const [route, slugs] of Object.entries(PINNED_ARTICLES)) {
+        for (const slug of slugs) {
+            if (!indexed.has(slug)) {
+                console.warn(`[blog-category-bridge] Pinned article "${slug}" for ${route} is not in the blog index.`);
+            }
+            if (canCheckFiles && !existsSync(path.join(blogDir, `${slug}.ts`))) {
+                console.warn(`[blog-category-bridge] Pinned article "${slug}" for ${route} has no file in src/data/blog.`);
+            }
+        }
+    }
+})();
+
+/**
+ * Posts whose primary subject is another accessory brand. They can still
+ * appear on a shelf that they declare, but they rank behind every on-brand
+ * guide rather than occupying the first slots of an Anker or Joyroom shelf.
+ */
+const OTHER_BRAND_SLUG_PREFIXES = ['mophie-', 'remax-', 'baseus-', 'ugreen-'];
+
+function isOtherBrandArticle(slug: string): boolean {
+    return OTHER_BRAND_SLUG_PREFIXES.some(prefix => slug.startsWith(prefix));
+}
+
+/** Rail composition: relevance-ranked slots first, then the newest. */
+const RELEVANCE_SLOTS = 3;
+const NEWEST_SLOTS = 2;
+
 export interface CategoryArticleLink {
     slug: string;
     title: string;
@@ -90,30 +174,118 @@ export interface CategoryArticleLink {
 }
 
 /**
- * Articles that declare this category, newest first, already localised.
+ * The shelf's "read before buying" rail, already localised: up to three
+ * relevance-ranked guides, then up to two of the newest, deduplicated.
+ *
+ * Relevance score for a live article:
+ *   +3  pinned for this route (PINNED_ARTICLES)
+ *   +2  per shelf product its body links to (`bodyProductLinks`); when an index
+ *       entry predates that field, +1 per shelf product in `relatedProducts`
+ *   +1  its first resolvable `relatedCategories` entry is this shelf
+ * Ties break on recency, and posts about another accessory brand rank last.
+ *
+ * Pinned guides are ranked as a tier ahead of unpinned ones (by score within
+ * the tier). Every live entry now carries `bodyProductLinks`, and a price list
+ * or model round-up links 5–20 shelf products — at +2 each that outweighs the
+ * +3 pin many times over, so on a pure sum the editorially chosen explainers
+ * never reached the three relevance slots. The score still orders the pinned
+ * guides among themselves and every unpinned candidate after them.
+ *
+ * Candidates are articles that declare this shelf, are pinned to it, or link
+ * one of its products in the body. The "newest" slots only draw from articles
+ * that declare the shelf, so recency never pulls in a tangential post.
  *
  * Scheduled-but-unpublished articles are excluded by `getLiveIndex()`: linking
  * to a slug whose page does not exist yet would emit a 404 into every category
  * page, which is the exact failure the scheduled-blog route was hardened
  * against. A category with no live article simply renders no rail.
+ *
+ * `shelfProductSlugs` is the product list the shelf renders; without it only
+ * the pinned and first-category signals apply.
  */
 export function getArticlesForCategory(
     brandSlug: string,
     categorySlug: string,
     locale: string,
-    limit = 3,
+    limit = 5,
+    shelfProductSlugs: readonly string[] = [],
 ): CategoryArticleLink[] {
     const routes = realCategoryRoutes();
     const target = `${brandSlug.toLowerCase()}/${categorySlug.toLowerCase()}`;
     if (!routes.has(target)) return [];
 
     const isArabic = locale === 'ar';
+    const pinned = new Set(PINNED_ARTICLES[target] ?? []);
+    const shelf = new Set(shelfProductSlugs);
 
-    return getLiveIndex()
-        .filter(entry =>
-            (entry.relatedCategories || []).some(raw => resolveCategoryKey(raw, routes) === target),
-        )
-        .sort((a, b) => Date.parse(b.publishDate) - Date.parse(a.publishDate))
+    const declares = (entry: BlogIndexEntry) =>
+        (entry.relatedCategories || []).some(raw => resolveCategoryKey(raw, routes) === target);
+
+    const shelfLinkScore = (entry: BlogIndexEntry): number => {
+        const bodyLinks = (entry as { bodyProductLinks?: string[] }).bodyProductLinks;
+        if (Array.isArray(bodyLinks)) {
+            return 2 * bodyLinks.filter(slug => shelf.has(slug)).length;
+        }
+        return (entry.relatedProducts || []).filter(slug => shelf.has(slug)).length;
+    };
+
+    const firstCategoryIsShelf = (entry: BlogIndexEntry): boolean => {
+        for (const raw of entry.relatedCategories || []) {
+            const resolved = resolveCategoryKey(raw, routes);
+            if (resolved) return resolved === target;
+        }
+        return false;
+    };
+
+    const scored = getLiveIndex()
+        .map(entry => {
+            const linkScore = shelfLinkScore(entry);
+            const isPinned = pinned.has(entry.slug);
+            const isDeclared = declares(entry);
+            const score = (isPinned ? 3 : 0) + linkScore + (firstCategoryIsShelf(entry) ? 1 : 0);
+            return {
+                entry,
+                score,
+                isPinned,
+                isDeclared,
+                isCandidate: isPinned || isDeclared || linkScore > 0,
+                otherBrand: isOtherBrandArticle(entry.slug),
+                time: Date.parse(entry.publishDate),
+            };
+        })
+        .filter(item => item.isCandidate);
+
+    const byRelevance = [...scored]
+        .filter(item => item.score > 0)
+        .sort((a, b) =>
+            Number(a.otherBrand) - Number(b.otherBrand)
+            || Number(b.isPinned) - Number(a.isPinned)
+            || b.score - a.score
+            || b.time - a.time,
+        );
+    const byRecency = [...scored]
+        .filter(item => item.isDeclared)
+        .sort((a, b) => Number(a.otherBrand) - Number(b.otherBrand) || b.time - a.time);
+
+    const chosen: BlogIndexEntry[] = [];
+    const seen = new Set<string>();
+    const take = (items: typeof scored, max: number) => {
+        let added = 0;
+        for (const item of items) {
+            if (chosen.length >= limit || added >= max) break;
+            if (seen.has(item.entry.slug)) continue;
+            seen.add(item.entry.slug);
+            chosen.push(item.entry);
+            added += 1;
+        }
+    };
+    take(byRelevance, RELEVANCE_SLOTS);
+    take(byRecency, NEWEST_SLOTS);
+    // A shelf with few declared articles still fills its rail from the
+    // remaining relevance-ranked candidates.
+    take(byRelevance, limit);
+
+    return chosen
         .slice(0, limit)
         .map(entry => {
             const t = isArabic ? entry.translations.ar : entry.translations.en;

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { Suspense } from 'react';
 import { staticProducts } from '@/lib/static-products';
 import SearchClient from './SearchClient';
 
@@ -50,5 +51,11 @@ export default async function SearchPage({ params }: Props) {
             image: p.images?.[0]?.url || '',
         }));
 
-    return <SearchClient locale={locale} index={index} />;
+    // SearchClient reads useSearchParams(), which needs a Suspense boundary to
+    // prerender (the route-level loading.tsx that provided one was removed).
+    return (
+        <Suspense fallback={<div className="min-h-[60vh] animate-pulse" aria-busy="true" />}>
+            <SearchClient locale={locale} index={index} />
+        </Suspense>
+    );
 }

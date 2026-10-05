@@ -191,7 +191,7 @@
     },
     "Shipping": {
         "metaTitle": "Shipping & Delivery",
-        "metaDescription": "Free shipping on eligible orders of 3,700 EGP or more, with an estimated delivery time commonly ranging from 1 to 5 business days by address and carrier.",
+        "metaDescription": "Free shipping on eligible orders of 3,700 EGP or more, with an estimated delivery time commonly ranging from 1 to 6 business days by address and carrier.",
         "title": "Shipping & Delivery",
         "deliveryAreas": {
             "title": "Delivery Areas",
@@ -273,11 +273,20 @@
             "shipping": {
                 "title": "Shipping",
                 "q1": "How long does delivery take?",
-                "a1": "The estimate is commonly 1-2 business days for Cairo and Giza and 3-5 business days for other eligible addresses, but it can vary by address and carrier.",
+                "a1": "Delivery commonly takes 1-6 business days depending on the governorate: 1-2 for Cairo and Giza, 5-6 for Aswan, North Sinai and New Valley, and in between elsewhere (each governorate's estimate is listed on the shipping page). It can vary by address and carrier.",
                 "q2": "Can I track my order?",
                 "a2": "We send tracking information by WhatsApp after dispatch when the carrier provides a tracking link.",
                 "q3": "Do you deliver to my area?",
                 "a3": "We serve eligible addresses within Egypt. Our team confirms delivery availability and cost before the order is finalized."
+            },
+            "returns": {
+                "title": "Returns & Exchanges",
+                "q1": "How many days do I have to return or exchange an item?",
+                "a1": "Return or exchange within 14 days of delivery under the return policy. Items must be unused, complete with all accessories, and in their original packaging.",
+                "q2": "Can I return earbuds or other audio products?",
+                "a2": "Opened or used earbuds and audio products are not returnable for hygiene reasons. If one arrives defective, the defective-product terms and the CairoVolt warranty apply.",
+                "q3": "Who pays for return shipping?",
+                "a3": "CairoVolt covers return shipping when a product defect or an error on our side is confirmed. Otherwise return shipping is the customer's responsibility, and the original shipping fee is non-refundable."
             },
             "warranty": {
                 "title": "Warranty",

@@ -60,11 +60,18 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 // Topical scope of the store, stated as entities rather than
                 // keywords. This is what an entity resolver reads to decide
                 // which subject area the organization is an authority in.
+                //
+                // The three core topics carry a Thing + Wikidata sameAs so the
+                // resolver lands on an unambiguous entity (verified IDs:
+                // Q2208745 power bank, Q20026619 USB-C, Q56120131 USB Power
+                // Delivery). The rest stay plain text: no verified item maps
+                // cleanly to them, and an approximate ID is worse than none.
+                // Keep in sync with /api/knowledge-graph, which mirrors this node.
                 knowsAbout: isArabic
                     ? [
-                        'باور بانك',
-                        'شواحن USB-C',
-                        'شحن سريع Power Delivery',
+                        { '@type': 'Thing', name: 'باور بانك', sameAs: 'https://www.wikidata.org/wiki/Q2208745' },
+                        { '@type': 'Thing', name: 'شواحن USB-C', sameAs: 'https://www.wikidata.org/wiki/Q20026619' },
+                        { '@type': 'Thing', name: 'شحن سريع Power Delivery', sameAs: 'https://www.wikidata.org/wiki/Q56120131' },
                         'كابلات شحن',
                         'سماعات لاسلكية',
                         'مكبرات صوت بلوتوث',
@@ -72,9 +79,9 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                         'إكسسوارات الموبايل في مصر',
                     ]
                     : [
-                        'Power banks',
-                        'USB-C chargers',
-                        'USB Power Delivery fast charging',
+                        { '@type': 'Thing', name: 'Power banks', sameAs: 'https://www.wikidata.org/wiki/Q2208745' },
+                        { '@type': 'Thing', name: 'USB-C chargers', sameAs: 'https://www.wikidata.org/wiki/Q20026619' },
+                        { '@type': 'Thing', name: 'USB Power Delivery fast charging', sameAs: 'https://www.wikidata.org/wiki/Q56120131' },
                         'Charging cables',
                         'Wireless earbuds',
                         'Bluetooth speakers',
@@ -145,6 +152,22 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     contactType: 'customer service',
                     areaServed: 'EG',
                     availableLanguage: ['ar', 'en'],
+                    // The published support hours on /about and /contact
+                    // ("Daily 10 AM - 10 PM" / "يومياً من 10 صباحاً - 10 مساءً").
+                    hoursAvailable: {
+                        '@type': 'OpeningHoursSpecification',
+                        dayOfWeek: [
+                            'https://schema.org/Monday',
+                            'https://schema.org/Tuesday',
+                            'https://schema.org/Wednesday',
+                            'https://schema.org/Thursday',
+                            'https://schema.org/Friday',
+                            'https://schema.org/Saturday',
+                            'https://schema.org/Sunday',
+                        ],
+                        opens: '10:00',
+                        closes: '22:00',
+                    },
                 },
                 hasShippingService: {
                     '@type': 'ShippingService',
@@ -220,10 +243,16 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     merchantReturnDays: STANDARD_RETURN_WINDOW_DAYS,
                     itemCondition: 'https://schema.org/NewCondition',
                     returnMethod: 'https://schema.org/ReturnByMail',
-                    returnFees: 'https://schema.org/ReturnFeesCustomerResponsibility',
+                    // Same field set as Offer.hasMerchantReturnPolicy on every
+                    // product page. The generic `returnFees` is omitted on
+                    // purpose: next to the two specific fee properties it read
+                    // as "the customer always pays", which contradicts the
+                    // visible policy (CairoVolt covers return shipping when a
+                    // defect or an order error is confirmed). A FullRefund
+                    // refund type is omitted too: the policy says original
+                    // shipping fees are non-refundable on remorse returns.
                     customerRemorseReturnFees: 'https://schema.org/ReturnFeesCustomerResponsibility',
                     itemDefectReturnFees: 'https://schema.org/FreeReturn',
-                    refundType: 'https://schema.org/FullRefund',
                     merchantReturnLink: `https://cairovolt.com${policyPrefix}/return-policy`,
                 },
             },

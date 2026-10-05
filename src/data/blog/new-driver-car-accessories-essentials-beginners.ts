@@ -4,7 +4,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
     slug: 'new-driver-car-accessories-essentials-beginners',
     category: 'buying-guide',
     publishDate: '2026-06-15',
-    modifiedDate: '2026-06-15',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'joyroom-car-phone-mount',
@@ -25,17 +25,17 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
         ar: {
             title: 'أول مرة تسوق؟ أساسيات حامل الموبايل والشاحن اللي كل سائق جديد محتاجها',
             metaTitle: 'أساسيات حامل الموبايل وشاحن السيارة للسائق الجديد | كايرو فولت',
-            metaDescription: 'دليل السائق الجديد في مصر لاختيار حامل موبايل وشاحن سيارة — بالمعايير الهندسية والأسعار المحدّثة. حلول من 169ج لـ 950ج بضمان رسمي. تابع التفاصيل بمصر.',
+            metaDescription: 'دليل السائق الجديد في مصر لاختيار حامل موبايل وشاحن سيارة — بالمعايير الهندسية والأسعار المحدّثة. حلول من 169ج لـ 950ج بضمان مكتوب من المتجر. تابع التفاصيل بمصر.',
             keywords: 'حامل موبايل سيارة, شاحن سيارة, سائق جديد مصر, حامل موبايل عربية, افضل شاحن سيارة مصر, حامل جوال سيارة, اكسسوارات سيارة للمبتدئين, car phone holder Egypt, car charger Egypt beginner',
             excerpt: 'دليل شامل للسائق الجديد في مصر — إزاي تختار حامل الموبايل وشاحن السيارة الصح من أول مرة بدون ما تدفع تمن غلطتك مرتين.',
-            quickAnswer: 'كل سائق جديد محتاج حاجتين أساسيتين: حامل موبايل ثابت وشاحن سيارة سريع. أرخص حل أصلي بضمان: حامل Joyroom بـ 169ج + شاحن Anker A2741 بـ 530ج = 699ج لكل اللي محتاجه. الحامل بيثبت على التابلوه بماصّة شفط قوية، والشاحن بيدّي 30W USB-C PD يشحن أي موبايل بسرعة حتى وإنت في الزحمة.',
-            content: `<p>أهلاً بيك في نادي "أنا باخد الكورنر ده بإيدي واحدة عشان الإيد التانية ماسكة الموبايل." لو ده أنت — يبقى إنت محتاج تقرأ المقال ده ضروري. مش بس عشان السلامة (اللي هي السبب الأول طبعاً)، لكن كمان عشان مخالفة استخدام الموبايل أثناء القيادة في مصر بقت 1,500ج + سحب الرخصة 3 شهور بعد تعديلات قانون المرور 2025. يعني لو ماسك الموبايل وإنت بتسوق — إنت حرفياً بتدفع تمن حامل موبايل كويس كل مرة يوقّفك ضابط مرور.</p>
+            quickAnswer: 'أهم حاجتين لأي سائق جديد: حامل موبايل ثابت وشاحن سيارة USB-C PD. أوفر بداية أصلية: حامل جوي روم JR-ZS295 بـ {{price:joyroom-car-phone-mount}}ج وشاحن انكر A2741 بـ {{price:anker-a2741-charger-30w}}ج. قسنا A2741 على iPhone 15 والخرائط شغّالة: زاد الشحن 34 نقطة في 90 دقيقة. تأكد من طريقة تركيب الحامل المناسبة لعربيتك قبل الشراء.',
+            content: `<p>أهلاً بيك في نادي "أنا باخد الكورنر ده بإيدي واحدة عشان الإيد التانية ماسكة الموبايل." لو ده أنت — يبقى إنت محتاج تقرأ المقال ده ضروري. مش بس عشان السلامة (اللي هي السبب الأول طبعاً)، لكن كمان عشان استخدام الموبايل باليد أثناء القيادة مخالفة عليها غرامة في قانون المرور المصري. يعني لو ماسك الموبايل وإنت بتسوق — ممكن تدفع في مخالفة واحدة أكتر من تمن حامل موبايل كويس.</p>
 
 <p>وبالنسبة للشاحن — الموبايل بيبقى GPS + موسيقى + مكالمات + كاميرا طول ما إنت في العربية. ده معناه إن البطارية بتنزف بمعدل 15-25% في الساعة. يعني رحلة القاهرة-الساحل (3 ساعات) بدون شاحن سيارة = موبايل ميت قبل ما توصل الشاليه. في المقال ده — كمهندس إلكترونيات عاشق للسواقة — هنغطّي كل اللي السائق الجديد محتاج يعرفه عن الحامل والشاحن: إيه اللي يشتريه، إيه اللي يتجنبه، وإزاي يوفّر فلوسه من أول مرة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> كل سائق جديد محتاج حاجتين أساسيتين: حامل موبايل ثابت وشاحن سيارة سريع. أرخص حل أصلي بضمان: حامل Joyroom بـ 169ج + شاحن Anker A2741 بـ 530ج = 699ج لكل اللي محتاجه. الحامل بيثبت على التابلوه بماصّة شفط قوية، والشاحن بيدّي 30W USB-C PD يشحن أي موبايل بسرعة حتى وإنت في الزحمة.
+        <strong>💡 الإجابة السريعة:</strong> أهم حاجتين لأي سائق جديد: حامل موبايل ثابت وشاحن سيارة USB-C PD. أوفر بداية أصلية: حامل جوي روم JR-ZS295 بـ {{price:joyroom-car-phone-mount}}ج وشاحن انكر A2741 بـ {{price:anker-a2741-charger-30w}}ج. قسنا A2741 على iPhone 15 والخرائط شغّالة: زاد الشحن 34 نقطة في 90 دقيقة. تأكد من طريقة تركيب الحامل المناسبة لعربيتك قبل الشراء.
     </p>
 </div>
 
@@ -44,8 +44,8 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
 <p>قبل ما نتكلم عن أنواع الحوامل، خلينا نفهم ليه الحامل مش رفاهية — ده ضرورة قانونية وهندسية:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚖️ <strong>قانونياً:</strong> مخالفة استخدام الهاتف أثناء القيادة = 1,500ج غرامة + سحب رخصة 3 شهور (قانون المرور المعدّل 2025). حامل بـ 169ج بيوفّرلك 1,500ج كل مرة.</li>
-    <li style="margin-bottom:12px;">🧠 <strong>علمياً:</strong> دراسة NHTSA (الإدارة الأمريكية لسلامة المرور) بتقول إن استخدام الموبايل باليد بيزوّد احتمال الحادث <strong>4 أضعاف</strong>. حامل بيخلّيك تشوف الخريطة بنظرة سريعة — زي ما بتبص على عدّاد السرعة.</li>
+    <li style="margin-bottom:12px;">⚖️ <strong>قانونياً:</strong> استخدام الهاتف باليد أثناء القيادة مخالفة يعاقب عليها قانون المرور المصري بغرامة، وقد تصل العقوبة لسحب الرخصة. راجع قيمة الغرامة الحالية لدى إدارة المرور — حامل بسيط أرخص من أي مخالفة.</li>
+    <li style="margin-bottom:12px;">🧠 <strong>علمياً:</strong> NHTSA (الإدارة الأمريكية لسلامة المرور) بتصنّف استخدام الموبايل أثناء القيادة كسبب رئيسي للتشتت والحوادث. حامل بيخلّيك تشوف الخريطة بنظرة سريعة — زي ما بتبص على عدّاد السرعة.</li>
     <li style="margin-bottom:12px;">🔋 <strong>عملياً:</strong> لما الموبايل في إيدك أو في حِجرك، مش بتقدر توصّله بالشاحن بسهولة. الحامل + الشاحن مع بعض = نظام متكامل: الموبايل مشحون ومرئي وإيدك الاتنين على الدركسيون.</li>
 </ul>
 
@@ -86,7 +86,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
     </tbody>
 </table>
 
-<p><strong>نصيحة المهندس للسائق الجديد:</strong> لو أول حامل ليك ومش عارف إيه اللي يناسبك — ابدأ بحامل ماصّة شفط زي <a href="/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">جوي روم حامل تابلوه</a> بـ 169ج. أرخص حل أصلي، بيناسب 95% من العربيات، ولو حبّيت تترقّى بعدين — الخسارة 169ج مش 2,000ج.</p>
+<p><strong>نصيحة المهندس للسائق الجديد:</strong> لو أول حامل ليك ومش عارف إيه اللي يناسبك — ابدأ بحامل بسيط زي <a href="/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">جوي روم حامل تابلوه (JR-ZS295)</a> بـ {{price:joyroom-car-phone-mount}}ج، وتأكد من طريقة التركيب المذكورة في العبوة (تابلوه أو زجاج أو تكييف) قبل ما تشتري. ده أرخص حل أصلي عندنا، ولو حبّيت تترقّى بعدين — مخاطرتك صغيرة.</p>
 
 <h2>مقارنة حوامل موبايل متاحة في مصر — بالأرقام</h2>
 
@@ -101,17 +101,17 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
     <tbody>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">جوي روم حامل تابلوه</a></strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">ماصّة شفط + ذراع</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>169ج</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">4.7"-7" (كل الموبايلات)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">36 شهر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حسب العبوة (تابلوه/زجاج/تكييف)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:joyroom-car-phone-mount}}ج</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حسب مقاس الموبايل (راجع صفحة المنتج)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">ضمان كايرو فولت المكتوب</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم MagSafe ZS290</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">مغناطيسي N52 + كليب تكييف</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">2,550ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:joyroom-car-mount-zs290}}ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">MagSafe (iPhone 13+)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">36 شهر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">ضمان كايرو فولت المكتوب</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">حامل OLX مجهول</td>
@@ -123,7 +123,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
     </tbody>
 </table>
 
-<p>لاحظ إن حامل OLX بـ 30ج — ممكن الماصّة بتاعته تسيب بعد أسبوعين، والموبايل يقع على الكونسول الأوسط أو بين الكراسي. ده مش مجرد إزعاج — ده خطر حقيقي لو الموبايل وقع أثناء القيادة واتلهّيت تجيبه. <strong>169ج لحامل Joyroom أصلي بضمان 36 شهر</strong> — ده أرخص بوليصة تأمين هتشتريها في حياتك.</p>
+<p>لاحظ إن حامل OLX بـ 30ج — ممكن الماصّة بتاعته تسيب بعد أسبوعين، والموبايل يقع على الكونسول الأوسط أو بين الكراسي. ده مش مجرد إزعاج — ده خطر حقيقي لو الموبايل وقع أثناء القيادة واتلهّيت تجيبه. <strong>{{price:joyroom-car-phone-mount}}ج لحامل جوي روم أصلي بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)</strong> — تمن صغير مقابل موبايل ثابت قدامك.</p>
 
 <h2>شاحن السيارة — ليه مش أي شاحن ينفع؟</h2>
 
@@ -131,8 +131,8 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>الشاحن الرخيص (5W):</strong> بيدّي 5 واط فقط — أقل من استهلاك الموبايل أثناء GPS + شاشة مضيئة (6-8W). يعني الموبايل <strong>بينزل وهو متوصل بالشاحن</strong>. ده مش شحن — ده "تأجيل الوفاة."</li>
-    <li style="margin-bottom:12px;">🔌 <strong>الشاحن المحترم (18-30W):</strong> بيدّي طاقة كافية لتشغيل كل حاجة + شحن البطارية فعلياً. شاحن 30W زي <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2741</a> بيشحن iPhone 17 من 20%→80% في 35 دقيقة حتى وGPS شغّال.</li>
-    <li style="margin-bottom:12px;">🔥 <strong>الحرارة:</strong> داخل العربية في صيف القاهرة بتوصل 60-75°م. شاحن رخيص بدون حماية حرارية (OTP) ممكن يسخن لدرجة إنه يدمّر منفذ الولاعة — أو أسوأ، يعمل short circuit. شواحن Anker عندها <a href="/blog/best-car-charger-egypt-2026" style="color:#2563eb;">9 طبقات حماية</a> مصمّمة للظروف دي.</li>
+    <li style="margin-bottom:12px;">🔌 <strong>الشاحن المحترم (18-30W):</strong> بيدّي طاقة كافية لتشغيل كل حاجة + شحن البطارية فعلياً. شاحن 30W زي <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2741</a> قسناه على iPhone 15 والخرائط وتطبيق السائق شغّالين: زاد الشحن 34 نقطة في 90 دقيقة وسط زحمة القاهرة.</li>
+    <li style="margin-bottom:12px;">🔥 <strong>الحرارة:</strong> داخل العربية في صيف القاهرة بتوصل 60-75°م. شاحن رخيص بدون حماية حرارية (OTP) ممكن يسخن لدرجة إنه يدمّر منفذ الولاعة — أو أسوأ، يعمل short circuit. شواحن Anker عندها <a href="/blog/best-car-charger-egypt-2026" style="color:#2563eb;">حماية حرارية وحماية من التيار الزائد</a> حسب مواصفات الشركة، ومع ذلك افصله والعربية راكنة في الشمس.</li>
 </ul>
 
 <h2>مقارنة شواحن سيارة — أيهم يناسب السائق الجديد؟</h2>
@@ -147,37 +147,37 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
     </tr></thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">جوي روم 60W</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>60W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">USB-C + USB-A</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">513ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">شحن سريع لجهازين + لابتوب صغير</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">جوي روم 4 في 1 (JR-CCL05)</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>69W مُعلَن (رقم الشركة، والقدرة موزعة)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">كابلين مدمجين (USB-C + Lightning) + USB-A + USB-C</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:joyroom-60w-car-charger}}ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">شحن لحد 4 أجهزة مع بعض (القدرة بتتقسم بينهم)</td>
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2741 Mini 30W</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C + USB-A</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>530ج</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ الأمثل للسائق الجديد — صغير جداً (15 جرام)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:anker-a2741-charger-30w}}ج</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ اختيارنا للسائق الجديد — صغير جداً (قسناه 15.1 جرام) + PPS</strong></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">انكر A2732 PD+ 35W</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">35W</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">35W إجمالي (USB-C حتى 20W)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD + USB-A</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">550ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">أعلى قدرة من Anker بسعر قريب</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-a2732-charger-35w}}ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">جهازين مع بعض بإجمالي أعلى (USB-C حتى 20W بس)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">انكر Dual USB</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">أعلى</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">2× USB</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">950ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">بيشحن جهازين بسرعة في نفس الوقت</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">24W</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">2× USB-A (بدون USB-C PD)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-car-charger-dual-usb}}ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">موبايلات قديمة بمنفذ USB-A — مش للشحن السريع الحديث</td>
         </tr>
     </tbody>
 </table>
 
-<p><strong>توصيتي للسائق الجديد:</strong> <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2741 Mini</a> بـ 530ج. ليه؟ لأنه <strong>أصغر شاحن سيارة هتشوفه في حياتك</strong> — 55mm × 24mm ووزنه 15 جرام. بيختفي جوا فتحة الولاعة تقريباً. وبيدّي 30W USB-C PD — كافي لشحن أي موبايل بسرعة حتى وGPS شغّال. ومعاه منفذ USB-A للراكب اللي جنبك. كل ده بضمان 24 شهر.</p>
+<p><strong>توصيتي للسائق الجديد:</strong> <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2741 Mini</a> بـ {{price:anker-a2741-charger-30w}}ج. ليه؟ لأنه <strong>صغير جداً</strong> — 54.6 × 23.9 ملم ووزنه 15 جرام (قسناه 15.1 جرام)، وبيبرز حوالي 30 ملم بس من فتحة الولاعة. وبيدّي لحد 30W USB-C PD/PPS (30W إجمالي مشترك بين المنفذين) — كافي لشحن الموبايل والـ GPS شغّال. ومعاه منفذ USB-A للراكب اللي جنبك، وبضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج).</p>
 
 <h2>الكومبو المثالي — حسب ميزانيتك</h2>
 
@@ -188,46 +188,42 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الميزانية</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الحامل</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الشاحن</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الإجمالي</th>
     </tr></thead>
     <tbody>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ الاقتصادي الذكي</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;">جوي روم تابلوه 169ج</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">انكر A2741 530ج</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>699ج</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;">جوي روم تابلوه {{price:joyroom-car-phone-mount}}ج</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">انكر A2741 {{price:anker-a2741-charger-30w}}ج</a></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">المتوسط</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;">جوي روم تابلوه 169ج</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;">جوي روم 60W 513ج</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">682ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;">جوي روم تابلوه {{price:joyroom-car-phone-mount}}ج</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;">جوي روم 4 في 1 {{price:joyroom-60w-car-charger}}ج</a></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">البريميوم</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;">جوي روم MagSafe 2,550ج</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;">انكر Dual 950ج</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">3,500ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;">جوي روم MagSafe ZS290 {{price:joyroom-car-mount-zs290}}ج</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">انكر A2741 {{price:anker-a2741-charger-30w}}ج</a></td>
         </tr>
     </tbody>
 </table>
 
-<p>لو سألتني شخصياً: <strong>الكومبو الاقتصادي (699ج)</strong> هو أذكى اختيار لأي سائق جديد. بتاخد حامل أصلي بضمان + شاحن سريع بضمان — وبتوفّر فلوسك لحاجة أهم (زي البنزين اللي بيغلى كل شهر). لو عندك iPhone 14+ وعايز تجربة مغناطيسية مبهرة — الحامل المغناطيسي ZS290 فعلاً حاجة تانية، بس سعره مش لكل الميزانيات.</p>
+<p>لو سألتني شخصياً: <strong>الكومبو الاقتصادي</strong> هو اختيارنا لأغلب السائقين الجدد. بتاخد حامل أصلي بضمان + شاحن سريع بضمان — وبتوفّر فلوسك لحاجة أهم (زي البنزين اللي بيغلى كل شهر). لو عندك iPhone 14+ وعايز تجربة مغناطيسية مبهرة — الحامل المغناطيسي ZS290 فعلاً حاجة تانية، بس سعره مش لكل الميزانيات.</p>
 
 <h2>6 أخطاء السائق الجديد بيعملها — وإزاي تتجنّبها</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">❌ <strong>#1 — الحامل على الزجاج الأمامي:</strong> في مصر، ممنوع قانوناً وضع أي حاجة تحجب الرؤية على الزجاج الأمامي. حامل على التابلوه أو فتحة التكييف — مش على البارَبريز.</li>
+    <li style="margin-bottom:16px;">❌ <strong>#1 — الحامل على الزجاج الأمامي:</strong> تجنّب أي حاجة تحجب الرؤية على الزجاج الأمامي. حامل على التابلوه أو فتحة التكييف — مش على البارَبريز.</li>
     <li style="margin-bottom:16px;">❌ <strong>#2 — شاحن بدون USB-C PD:</strong> لو موبايلك iPhone 15+ أو Samsung S24+ — بيدعم شحن سريع عبر USB-C PD. شاحن USB-A بس بيشحن بسرعة نص — زي ما تروح القاهرة-الأسكندرية بالترس التالت.</li>
     <li style="margin-bottom:16px;">❌ <strong>#3 — كابل رخيص:</strong> شاحن 30W + كابل 10ج = شحن 7W. الكابل الرخيص بيخنق التيار — لازم كابل يدعم 3A على الأقل. الأفضل تشتري كابل مع الشاحن من نفس البراند.</li>
     <li style="margin-bottom:16px;">❌ <strong>#4 — تشغيل الشاحن والعربية مطفية:</strong> شاحن السيارة بيسحب من بطارية العربية. تشغيله ساعة والعربية مطفية ممكن يخلّي بطارية العربية تضعف — وتلاقي العربية مش بتدور. استخدمه وأنت ماشي بس.</li>
-    <li style="margin-bottom:16px;">❌ <strong>#5 — حامل ضعيف + مطب:</strong> لو الحامل مش مثبّت كويس وعدّيت على مطب (وده في مصر يعني كل 200 متر) — الموبايل بيطير. موبايل iPhone 17 Pro Max بـ 60,000ج بيطير من حامل بـ 30ج. الحساب مش صعب.</li>
+    <li style="margin-bottom:16px;">❌ <strong>#5 — حامل ضعيف + مطب:</strong> لو الحامل مش مثبّت كويس وعدّيت على مطب (وده في مصر يعني كل 200 متر) — الموبايل بيطير. موبايل iPhone 17 Pro Max بحوالي 60,000ج (نطاق سوق تقريبي، يختلف حسب البائع) بيطير من حامل بـ 30ج. الحساب مش صعب.</li>
     <li style="margin-bottom:16px;">❌ <strong>#6 — نسيان الموبايل في العربية:</strong> ده مش عن الشاحن — بس مهم: لو سبت موبايلك في العربية في الشمس والحرارة 50°م+، بطارية الليثيوم بتتضرر بشكل دائم. خد موبايلك معاك لما تنزل — أو على الأقل حطه تحت الكرسي بعيد عن الشمس المباشرة.</li>
 </ul>
 
 <div class="quick-answer-inline" style="background:#fefce8;border-right:4px solid #ca8a04;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#854d0e;">
-        <strong>🎯 قاعدة ذهبية للسائق الجديد:</strong> اشترِ حامل وشاحن <strong>مرة واحدة صح</strong> — أحسن من 3 مرات غلط. حامل بـ 30ج بيتكسر بعد شهر + شاحن بـ 50ج بيسخن ويبوظ المنفذ = دفعت 80ج × 3 مرات = 240ج وخسرت وقتك ونفسيتك. حامل Joyroom 169ج + شاحن Anker 530ج = 699ج مرة واحدة وخلاص — بضمان سنتين أو 3 سنين.
+        <strong>🎯 قاعدة ذهبية للسائق الجديد:</strong> اشترِ حامل وشاحن <strong>مرة واحدة صح</strong> — أحسن من 3 مرات غلط. حامل بـ 30ج بيتكسر بعد شهر + شاحن بـ 50ج بيسخن ويبوظ المنفذ = دفعت 80ج × 3 مرات = 240ج وخسرت وقتك ونفسيتك. حامل جوي روم بـ {{price:joyroom-car-phone-mount}}ج وشاحن انكر بـ {{price:anker-a2741-charger-30w}}ج مرة واحدة وخلاص — بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج).
     </p>
 </div>
 
@@ -247,7 +243,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل الحوامل والشواحن المذكورة في المقال <strong>أصلية بضمان رسمي</strong> (24-36 شهر) + توصيل لكل المحافظات خلال 24-72 ساعة + الدفع عند الاستلام + دعم واتساب 24/7. لو مش عاجبك — بترجّعه خلال 14 يوم.
+        كل الحوامل والشواحن المذكورة في المقال <strong>أصلية بضمان كايرو فولت المكتوب</strong> (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات (عادةً 1–6 أيام عمل حسب المحافظة) + الدفع عند الاستلام + دعم واتساب 24/7. لو مش عاجبك — بترجّعه خلال 14 يوم.
     </p>
 </div>
 
@@ -255,8 +251,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
         <li><a href="https://www.nhtsa.gov/risky-driving/distracted-driving" rel="nofollow">NHTSA — Distracted Driving Statistics</a></li>
-        <li><a href="https://www.anker.com/products/car-chargers" rel="nofollow">Anker Official — Car Charger Specifications</a></li>
-        <li>قانون المرور المصري المعدّل 2025 — مادة 74 مكرر (استخدام الهاتف أثناء القيادة)</li>
+        <li>قانون المرور المصري وتعديلاته (استخدام الهاتف أثناء القيادة)</li>
     </ul>
 </div>`,
             faq: [
@@ -270,7 +265,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
                 },
                 {
                     question: 'إيه أحسن مكان لتركيب حامل الموبايل في العربية؟',
-                    answer: 'المنطقة يمين الدركسيون فوق فتحة التكييف المركزية هي الأمثل — بتشوف الخريطة بنظرة سريعة بدون ما تلفّ راسك. ممنوع الحامل على الزجاج الأمامي في مصر (يحجب الرؤية). ولو عربيتك فيها شاشة وسطية كبيرة، فتحة التكييف الجانبية بديل ممتاز.',
+                    answer: 'المنطقة يمين الدركسيون فوق فتحة التكييف المركزية هي الأمثل — بتشوف الخريطة بنظرة سريعة بدون ما تلفّ راسك. تجنّب تركيب الحامل في مكان يحجب الرؤية على الزجاج الأمامي. ولو عربيتك فيها شاشة وسطية كبيرة، فتحة التكييف الجانبية بديل ممتاز.',
                 },
                 {
                     question: 'هل ممكن أستخدم شاحن الحائط العادي في العربية؟',
@@ -281,17 +276,17 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
         en: {
             title: 'First Time Driving? Essential Phone Holder & Car Charger Every New Driver Needs in Egypt',
             metaTitle: 'Phone Holder & Car Charger for New Drivers Egypt | CairoVolt',
-            metaDescription: 'New driver guide for choosing the right car phone holder and charger in Egypt. Engineering-backed picks from 169 to 950 EGP with official warranty.',
+            metaDescription: 'New driver guide for choosing the right car phone holder and charger in Egypt. Engineering-backed picks from 169 to 950 EGP with a written store warranty.',
             keywords: 'car phone holder Egypt, car charger new driver, best car charger Egypt, phone mount car Egypt, beginner driver accessories, car phone holder suction, Anker car charger Egypt, Joyroom car mount',
             excerpt: 'Complete guide for new drivers in Egypt — how to choose the right phone holder and car charger from day one without paying for your mistakes twice.',
-            quickAnswer: 'Every new driver needs two essentials: a stable phone holder and a fast car charger. Most affordable genuine combo: Joyroom phone mount at 169 EGP + Anker A2741 charger at 530 EGP = 699 EGP for everything you need. The mount uses strong suction on your dashboard, and the charger delivers 30W USB-C PD to fast-charge any phone even in traffic.',
-            content: `<p>Welcome to the "I'm taking this corner with one hand because the other is holding my phone" club. If that's you — you need to read this article, urgently. Not just for safety (which is obviously reason number one), but also because the fine for using your phone while driving in Egypt is now 1,500 EGP + license suspension for 3 months under the 2025 traffic law amendments. In other words, every time you hold your phone while driving, you're essentially paying the price of a decent phone holder — in fines.</p>
+            quickAnswer: 'Every new driver needs two things: a stable phone holder and a USB-C PD car charger. The most affordable genuine start is the Joyroom JR-ZS295 mount at {{price:joyroom-car-phone-mount}} EGP plus the Anker A2741 at {{price:anker-a2741-charger-30w}} EGP. We measured the A2741 adding 34 points to an iPhone 15 in 90 minutes with Maps running. Confirm the mount type suits your car.',
+            content: `<p>Welcome to the "I'm taking this corner with one hand because the other is holding my phone" club. If that's you — you need to read this article, urgently. Not just for safety (which is obviously reason number one), but also because hand-held phone use while driving is a fined offence under Egypt\'s traffic law. In other words, a single ticket can cost you more than a decent phone holder.</p>
 
 <p>As for the charger — your phone runs GPS + music + calls + camera the entire time you're in the car. That means the battery drains at 15-25% per hour. A Cairo-to-North Coast trip (3 hours) without a car charger = dead phone before you reach the chalet. In this article — as an electronics engineer who loves driving — we'll cover everything a new driver needs to know about phone holders and car chargers: what to buy, what to avoid, and how to save money from day one.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Every new driver needs two essentials: a stable phone holder and a fast car charger. Most affordable genuine combo: Joyroom phone mount at 169 EGP + Anker A2741 charger at 530 EGP = 699 EGP for everything you need. The mount uses strong suction on your dashboard, and the charger delivers 30W USB-C PD to fast-charge any phone even in traffic.
+        <strong>💡 Quick Answer:</strong> Every new driver needs two things: a stable phone holder and a USB-C PD car charger. The most affordable genuine start is the Joyroom JR-ZS295 mount at {{price:joyroom-car-phone-mount}} EGP plus the Anker A2741 at {{price:anker-a2741-charger-30w}} EGP. We measured the A2741 adding 34 points to an iPhone 15 in 90 minutes with Maps running. Confirm the mount type suits your car.
     </p>
 </div>
 
@@ -300,8 +295,8 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
 <p>Before we discuss types of holders, let's understand why a phone holder isn't a luxury — it's a legal and engineering necessity:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚖️ <strong>Legally:</strong> Using your phone while driving in Egypt = 1,500 EGP fine + 3-month license suspension (amended traffic law 2025). A 169 EGP holder saves you 1,500 EGP every single time.</li>
-    <li style="margin-bottom:12px;">🧠 <strong>Scientifically:</strong> According to NHTSA (the US National Highway Traffic Safety Administration), handheld phone use increases crash risk by <strong>4 times</strong>. A holder lets you check the map with a quick glance — just like checking your speedometer.</li>
+    <li style="margin-bottom:12px;">⚖️ <strong>Legally:</strong> Hand-held phone use while driving is an offence under Egypt\'s traffic law, punishable by a fine and possibly license suspension. Check the current fine with the traffic authority — a simple holder costs less than any ticket.</li>
+    <li style="margin-bottom:12px;">🧠 <strong>Scientifically:</strong> NHTSA (the US National Highway Traffic Safety Administration) lists phone use while driving as a leading cause of distraction-related crashes. A holder lets you check the map with a quick glance — just like checking your speedometer.</li>
     <li style="margin-bottom:12px;">🔋 <strong>Practically:</strong> When your phone is in your hand or lap, you can't easily connect it to a charger. Holder + charger together = a complete system: phone charged, visible, and both hands on the steering wheel.</li>
 </ul>
 
@@ -342,7 +337,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
     </tbody>
 </table>
 
-<p><strong>Engineer's advice for new drivers:</strong> If this is your first phone holder and you're unsure what fits — start with a suction cup mount like the <a href="/en/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">Joyroom Dashboard Mount</a> at 169 EGP. It's the cheapest genuine option, fits 95% of cars, and if you decide to upgrade later — you've only risked 169 EGP, not 2,000 EGP.</p>
+<p><strong>Engineer's advice for new drivers:</strong> If this is your first phone holder and you're unsure what fits — start with a simple mount like the <a href="/en/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">Joyroom Dashboard Mount (JR-ZS295)</a> at {{price:joyroom-car-phone-mount}} EGP, and confirm the mounting method printed on the box (dashboard, windshield or vent) before you buy. It\'s our cheapest genuine option, and if you decide to upgrade later, you\'ve risked very little.</p>
 
 <h2>Phone Holder Comparison — Available in Egypt</h2>
 
@@ -357,17 +352,17 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
     <tbody>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;font-weight:600;">Joyroom Dashboard Mount</a></strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Suction cup + arm</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>169 EGP</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">4.7"-7" (all phones)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">36 months</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Per the box (dashboard/windshield/vent)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:joyroom-car-phone-mount}} EGP</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Depends on phone size (see product page)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">CairoVolt written store warranty</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom MagSafe ZS290</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">N52 magnetic + vent clip</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">2,550 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:joyroom-car-mount-zs290}} EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">MagSafe (iPhone 13+)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">36 months</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">CairoVolt written store warranty</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Unknown OLX holder</td>
@@ -379,7 +374,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
     </tbody>
 </table>
 
-<p>Note that a 30 EGP OLX holder's suction may fail after two weeks, and your phone lands on the center console or falls between the seats. This isn't just annoying — it's a real danger if the phone falls while driving and you reach down to grab it. <strong>169 EGP for a genuine Joyroom with 36-month warranty</strong> — that's the cheapest insurance policy you'll ever buy.</p>
+<p>Note that a 30 EGP OLX holder's suction may fail after two weeks, and your phone lands on the center console or falls between the seats. This isn't just annoying — it's a real danger if the phone falls while driving and you reach down to grab it. <strong>{{price:joyroom-car-phone-mount}} EGP for a genuine Joyroom with CairoVolt\'s written store warranty (duration shown on each product page)</strong> — a small price for a phone that stays in front of you.</p>
 
 <h2>Car Charger — Why Not Just Any Charger Works</h2>
 
@@ -387,8 +382,8 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>Cheap charger (5W):</strong> Delivers only 5 watts — less than the phone's consumption during GPS + bright screen (6-8W). This means the phone <strong>drains while plugged in</strong>. That's not charging — that's "delaying death."</li>
-    <li style="margin-bottom:12px;">🔌 <strong>Proper charger (18-30W):</strong> Provides enough power to run everything + actually charge the battery. A 30W charger like the <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741</a> charges iPhone 17 from 20%→80% in 35 minutes even with GPS running.</li>
-    <li style="margin-bottom:12px;">🔥 <strong>Heat:</strong> Inside a car in Cairo's summer heat reaches 60-75°C. A cheap charger without Over-Temperature Protection (OTP) can overheat enough to damage the cigarette lighter socket — or worse, cause a short circuit. Anker chargers have <a href="/en/blog/best-car-charger-egypt-2026" style="color:#2563eb;">9 layers of protection</a> designed for these conditions.</li>
+    <li style="margin-bottom:12px;">🔌 <strong>Proper charger (18-30W):</strong> Provides enough power to run everything + actually charge the battery. A 30W charger like the <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741</a> added 34 battery points to an iPhone 15 in 90 minutes of Cairo stop-start driving with Maps and a driver app running (our measurement).</li>
+    <li style="margin-bottom:12px;">🔥 <strong>Heat:</strong> Inside a car in Cairo's summer heat reaches 60-75°C. A cheap charger without Over-Temperature Protection (OTP) can overheat enough to damage the cigarette lighter socket — or worse, cause a short circuit. Anker chargers have <a href="/en/blog/best-car-charger-egypt-2026" style="color:#2563eb;">thermal and overcurrent protection</a> per Anker\'s specs, but still unplug it when the car is parked in the sun.</li>
 </ul>
 
 <h2>Car Charger Comparison — Which Suits a New Driver?</h2>
@@ -403,37 +398,37 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
     </tr></thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom 60W</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>60W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">USB-C + USB-A</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">513 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Fast-charging two devices + small laptops</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom 4-in-1 (JR-CCL05)</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>69W listed (vendor figure, power shared)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">2 built-in cables (USB-C + Lightning) + USB-A + USB-C</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:joyroom-60w-car-charger}} EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Charging up to 4 devices at once (power is shared)</td>
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741 Mini 30W</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C + USB-A</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>530 EGP</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ Best for new drivers — incredibly small (15g)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:anker-a2741-charger-30w}} EGP</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ Our pick for new drivers — very small (measured 15.1g) + PPS</strong></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">Anker A2732 PD+ 35W</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">35W</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">35W total (USB-C up to 20W)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD + USB-A</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">550 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Higher power from Anker at similar price</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-a2732-charger-35w}} EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Two devices at once with a higher total (USB-C only up to 20W)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;font-weight:600;">Anker Dual USB</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Higher</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">2× USB</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">950 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Fast-charging two devices simultaneously</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">24W</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">2× USB-A (no USB-C PD)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-car-charger-dual-usb}} EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Older phones with USB-A — not for modern fast charging</td>
         </tr>
     </tbody>
 </table>
 
-<p><strong>My recommendation for new drivers:</strong> The <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741 Mini</a> at 530 EGP. Why? Because it's <strong>the smallest car charger you'll ever see</strong> — 55mm × 24mm and weighing just 15 grams. It practically disappears into your 12V socket. Yet it delivers 30W USB-C PD — enough to fast-charge any phone even with GPS running. Plus it has a USB-A port for your passenger. All with a 24-month warranty.</p>
+<p><strong>My recommendation for new drivers:</strong> The <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2741 Mini</a> at {{price:anker-a2741-charger-30w}} EGP. Why? Because it\'s <strong>very small</strong> — 54.6 × 23.9 mm and 15 grams (we measured 15.1g), protruding only about 30mm from the socket. It delivers up to 30W USB-C PD/PPS (30W shared across both ports) — enough to charge your phone with GPS running. Plus a USB-A port for your passenger, with CairoVolt\'s written store warranty (duration shown on each product page).</p>
 
 <h2>The Perfect Combo — Based on Your Budget</h2>
 
@@ -444,46 +439,42 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Budget</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Holder</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Charger</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Total</th>
     </tr></thead>
     <tbody>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ Smart Budget</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;">Joyroom Dashboard 169 EGP</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker A2741 530 EGP</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>699 EGP</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;">Joyroom Dashboard {{price:joyroom-car-phone-mount}} EGP</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker A2741 {{price:anker-a2741-charger-30w}} EGP</a></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Mid-Range</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;">Joyroom Dashboard 169 EGP</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;">Joyroom 60W 513 EGP</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">682 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/car-holders/joyroom-car-phone-mount" style="color:#2563eb;">Joyroom Dashboard {{price:joyroom-car-phone-mount}} EGP</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;">Joyroom 4-in-1 {{price:joyroom-60w-car-charger}} EGP</a></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Premium</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;">Joyroom MagSafe 2,550 EGP</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;">Anker Dual 950 EGP</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">3,500 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;">Joyroom MagSafe ZS290 {{price:joyroom-car-mount-zs290}} EGP</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker A2741 {{price:anker-a2741-charger-30w}} EGP</a></td>
         </tr>
     </tbody>
 </table>
 
-<p>If you ask me personally: the <strong>Smart Budget combo (699 EGP)</strong> is the wisest choice for any new driver. You get a genuine holder with warranty + fast charger with warranty — and save your money for something more important (like the fuel prices that seem to go up every month). If you have an iPhone 14+ and want a magnetic experience — the ZS290 magnetic mount is truly a different league, but its price isn't for every budget.</p>
+<p>If you ask me personally: the <strong>Smart Budget combo</strong> is our pick for most new drivers. You get a genuine holder with warranty + fast charger with warranty — and save your money for something more important (like the fuel prices that seem to go up every month). If you have an iPhone 14+ and want a magnetic experience — the ZS290 magnetic mount is truly a different league, but its price isn't for every budget.</p>
 
 <h2>6 Mistakes New Drivers Make — and How to Avoid Them</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">❌ <strong>#1 — Mounting on the windshield:</strong> In Egypt, placing anything that obstructs visibility on the windshield is illegal. Mount on the dashboard or air vent — not on the glass.</li>
+    <li style="margin-bottom:16px;">❌ <strong>#1 — Mounting on the windshield:</strong> Avoid placing anything on the windshield that blocks your view. Mount on the dashboard or air vent — not on the glass.</li>
     <li style="margin-bottom:16px;">❌ <strong>#2 — Charger without USB-C PD:</strong> If your phone is an iPhone 15+ or Samsung S24+ — it supports fast charging via USB-C PD. A USB-A-only charger charges at half speed — like driving Cairo to Alexandria in third gear.</li>
     <li style="margin-bottom:16px;">❌ <strong>#3 — Cheap cable:</strong> 30W charger + 10 EGP cable = 7W charging. A cheap cable throttles the current — you need one rated for at least 3A. Best to buy a cable from the same brand as your charger.</li>
     <li style="margin-bottom:16px;">❌ <strong>#4 — Running the charger with engine off:</strong> The car charger draws from the car's battery. Leaving it on for an hour or two with the engine off can drain the car battery — and you'll find the car won't start. Use it while driving only.</li>
-    <li style="margin-bottom:16px;">❌ <strong>#5 — Weak holder + speed bump:</strong> If the holder isn't secured properly and you hit a speed bump (in Egypt, that's roughly every 200 meters) — the phone goes flying. An iPhone 17 Pro Max worth 60,000 EGP flying off a 30 EGP holder. The math is simple.</li>
+    <li style="margin-bottom:16px;">❌ <strong>#5 — Weak holder + speed bump:</strong> If the holder isn't secured properly and you hit a speed bump (in Egypt, that's roughly every 200 meters) — the phone goes flying. An iPhone 17 Pro Max worth around 60,000 EGP (approximate market range, varies by seller) flying off a 30 EGP holder. The math is simple.</li>
     <li style="margin-bottom:16px;">❌ <strong>#6 — Leaving phone in hot car:</strong> This isn't about the charger — but it's important: leaving your phone in a car at 50°C+ permanently damages the lithium battery. Take your phone when you exit — or at least put it under the seat away from direct sunlight.</li>
 </ul>
 
 <div class="quick-answer-inline" style="background:#fefce8;border-left:4px solid #ca8a04;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#854d0e;">
-        <strong>🎯 Golden Rule for New Drivers:</strong> Buy a holder and charger <strong>once, right</strong> — instead of 3 times wrong. A 30 EGP holder that breaks after a month + a 50 EGP charger that overheats and damages the port = 80 EGP × 3 times = 240 EGP and you've lost your time and sanity. Joyroom holder 169 EGP + Anker charger 530 EGP = 699 EGP once and done — with 2 or 3-year warranty.
+        <strong>🎯 Golden Rule for New Drivers:</strong> Buy a holder and charger <strong>once, right</strong> — instead of 3 times wrong. A 30 EGP holder that breaks after a month + a 50 EGP charger that overheats and damages the port = 80 EGP × 3 times = 240 EGP and you've lost your time and sanity. A Joyroom holder at {{price:joyroom-car-phone-mount}} EGP and an Anker charger at {{price:anker-a2741-charger-30w}} EGP, bought once and done — with CairoVolt\'s written store warranty (duration shown on each product page).
     </p>
 </div>
 
@@ -503,7 +494,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All holders and chargers mentioned in this article are <strong>genuine with official warranty</strong> (24-36 months) + delivery to all governorates within 24-72 hours + cash on delivery + 24/7 WhatsApp support. Not happy? Return within 14 days.
+        All holders and chargers mentioned in this article are <strong>genuine with CairoVolt\'s written store warranty</strong> (duration shown on each product page) + delivery to all governorates (commonly 1–6 business days depending on governorate) + cash on delivery + 24/7 WhatsApp support. Not happy? Return within 14 days.
     </p>
 </div>
 
@@ -511,8 +502,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 Sources:</p>
     <ul style="margin:0;padding-left:20px;color:#6b7280;">
         <li><a href="https://www.nhtsa.gov/risky-driving/distracted-driving" rel="nofollow">NHTSA — Distracted Driving Statistics</a></li>
-        <li><a href="https://www.anker.com/products/car-chargers" rel="nofollow">Anker Official — Car Charger Specifications</a></li>
-        <li>Egyptian Traffic Law 2025 Amendment — Article 74 bis (Phone use while driving)</li>
+        <li>Egyptian Traffic Law and its amendments (phone use while driving)</li>
     </ul>
 </div>`,
             faq: [
@@ -526,7 +516,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
                 },
                 {
                     question: 'What\'s the best placement for a phone holder in the car?',
-                    answer: 'The area to the right of the steering wheel above the central AC vent is optimal — you can check the map with a quick glance without turning your head. Windshield mounting is illegal in Egypt (obstructs visibility). If your car has a large central screen, the side AC vent is an excellent alternative.',
+                    answer: 'The area to the right of the steering wheel above the central AC vent is optimal — you can check the map with a quick glance without turning your head. Avoid mounting it anywhere on the windshield that blocks your view. If your car has a large central screen, the side AC vent is an excellent alternative.',
                 },
                 {
                     question: 'Can I use a wall charger in my car?',

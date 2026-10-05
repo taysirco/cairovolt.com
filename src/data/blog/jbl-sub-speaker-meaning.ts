@@ -4,16 +4,17 @@ export const jbl_sub_speaker_meaning: BlogArticle = {
     slug: 'jbl-sub-speaker-meaning',
     category: 'buying-guide',
     publishDate: '2026-08-17T10:00:00+03:00',
-    modifiedDate: '2026-08-17T10:00:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'jbl-charge-6',
         'jbl-flip-6',
         'jbl-xtreme-4',
         'jbl-partybox-stage-320',
+        'jbl-go-4',
     ],
     relatedArticles: [
-        'jbl-vs-soundcore-egypt',
+        'best-anker-soundcore-bluetooth-speakers-egypt',
         'jbl-original-vs-fake-egypt',
         'anker-soundcore-vs-jbl-vs-bose-speakers-egypt',
     ],
@@ -65,11 +66,11 @@ export const jbl_sub_speaker_meaning: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">توقّع الباص الواقعي</th>
     </tr></thead>
     <tbody>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>Go 4</strong> (190 جم)</td><td style="padding:12px;border:1px solid #d1d5db;">4.2 واط RMS</td><td style="padding:12px;border:1px solid #d1d5db;">صوت نضيف لأوضة صغيرة — متطلبش منها صب، دي سماعة جيب مش سماعة قعدة</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/jbl/speakers/jbl-go-4" style="color:#2563eb;font-weight:600;">Go 4</a></strong> (190 جم)</td><td style="padding:12px;border:1px solid #d1d5db;">4.2 واط RMS</td><td style="padding:12px;border:1px solid #d1d5db;">صوت نضيف لأوضة صغيرة — متطلبش منها صب، دي سماعة جيب مش سماعة قعدة</td></tr>
     <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>Flip 6</strong> (550 جم)</td><td style="padding:12px;border:1px solid #d1d5db;">30 واط (ووفر 20 + تويتر 10)</td><td style="padding:12px;border:1px solid #d1d5db;">باص محترم لقعدة 4-6 أفراد جوه البيت أو على تراس</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>Charge 6</strong> (~990 جم)</td><td style="padding:12px;border:1px solid #d1d5db;">45 واط RMS</td><td style="padding:12px;border:1px solid #d1d5db;">أول درجة في السلم ينفع تقول عليها "صب" — باص محسوس في تجمع مفتوح</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/jbl/speakers/jbl-charge-6" style="color:#2563eb;font-weight:600;">Charge 6</a></strong> (~990 جم)</td><td style="padding:12px;border:1px solid #d1d5db;">45 واط RMS</td><td style="padding:12px;border:1px solid #d1d5db;">أول درجة في السلم ينفع تقول عليها "صب" — باص محسوس في تجمع مفتوح</td></tr>
     <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>Xtreme 4</strong> (2.1 كجم)</td><td style="padding:12px;border:1px solid #d1d5db;">لحد 100 واط (2 ووفر × 30 + 2 تويتر × 20)</td><td style="padding:12px;border:1px solid #d1d5db;">باص بيملى مكان مفتوح — رحلات وتجمعات كبيرة</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>PartyBox Stage 320</strong> (16.5 كجم)</td><td style="padding:12px;border:1px solid #d1d5db;">240 واط (2 ووفر 6.5 بوصة + 2 تويتر 1 بوصة)</td><td style="padding:12px;border:1px solid #d1d5db;">فئة تانية خالص — دي اللي الناس بتسميها بازوكا</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/jbl/partybox/jbl-partybox-stage-320" style="color:#2563eb;font-weight:600;">PartyBox Stage 320</a></strong> (16.5 كجم)</td><td style="padding:12px;border:1px solid #d1d5db;">240 واط (2 ووفر 6.5 بوصة + 2 تويتر 1 بوصة)</td><td style="padding:12px;border:1px solid #d1d5db;">فئة تانية خالص — دي اللي الناس بتسميها بازوكا</td></tr>
     </tbody>
 </table>
 
@@ -81,12 +82,12 @@ export const jbl_sub_speaker_meaning: BlogArticle = {
 
 <h2>الصراحة الكاملة: إمتى الحل يكون صب سلكي حقيقي؟</h2>
 
-<p>هنا لازم نكون أمناء معاك حتى لو ده معناه إنك مش هتشتري مننا حاجة: لو حلمك سينما منزلية أو سيستم ثابت في أوضة معينة — باص بينزل لـ 20-30 هرتز ويهز الكنبة — الحل الصح مش سماعة بلوتوث خالص. الحل هو subwoofer سلكي حقيقي بيتوصل بريسيفر أو مضخم: صندوق كبير متخصص في تردد واحد وبياخد كهربا من الحيطة على طول. سماعات البلوتوث المحمولة اتصممت لحاجة تانية: إنها تتشال وتشتغل ببطارية في أي حتة — من الرووف للساحل — وده trade-off هندسي مقصود. السماعة المحمولة بتديك 90% من المتعة في 100% من الأماكن؛ الصب السلكي بيديك 100% من الباص في أوضة واحدة بس. اختار على حسب حياتك إنت.</p>
+<p>هنا لازم نكون أمناء معاك حتى لو ده معناه إنك مش هتشتري مننا حاجة: لو حلمك سينما منزلية أو سيستم ثابت في أوضة معينة — باص عميق جداً يهز الكنبة — الحل الصح مش سماعة بلوتوث خالص. الحل هو subwoofer سلكي حقيقي بيتوصل بريسيفر أو مضخم: صندوق كبير متخصص في تردد واحد وبياخد كهربا من الحيطة على طول. سماعات البلوتوث المحمولة اتصممت لحاجة تانية: إنها تتشال وتشتغل ببطارية في أي حتة — من الرووف للساحل — وده trade-off هندسي مقصود. السماعة المحمولة بتديك 90% من المتعة في 100% من الأماكن؛ الصب السلكي بيديك 100% من الباص في أوضة واحدة بس. اختار على حسب حياتك إنت.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ سلم الباص كامل على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        من <a href="/jbl/speakers/jbl-flip-6" style="color:#2563eb;font-weight:600;">Flip 6</a> للقعدات، لـ <a href="/jbl/speakers/jbl-charge-6" style="color:#2563eb;font-weight:600;">Charge 6</a> اللي بتشحن موبايلك كمان، لـ <a href="/jbl/speakers/jbl-xtreme-4" style="color:#2563eb;font-weight:600;">Xtreme 4</a> ببطارية بتتبدل، للبازوكات في <a href="/jbl/partybox" style="color:#2563eb;font-weight:600;">فئة PartyBox</a> — كلها أصلية بضمان كايرو فولت 12 شهر ودفع عند الاستلام.
+        من <a href="/jbl/speakers/jbl-flip-6" style="color:#2563eb;font-weight:600;">Flip 6</a> للقعدات، لـ <a href="/jbl/speakers/jbl-charge-6" style="color:#2563eb;font-weight:600;">Charge 6</a> اللي بتشحن موبايلك كمان، لـ <a href="/jbl/speakers/jbl-xtreme-4" style="color:#2563eb;font-weight:600;">Xtreme 4</a> ببطارية بتتبدل، للبازوكات في <a href="/jbl/partybox" style="color:#2563eb;font-weight:600;">فئة PartyBox</a> — كلها أصلية بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) ودفع عند الاستلام.
     </p>
 </div>`,
             faq: [
@@ -157,11 +158,11 @@ export const jbl_sub_speaker_meaning: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Realistic Bass Expectation</th>
     </tr></thead>
     <tbody>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>Go 4</strong> (190g)</td><td style="padding:12px;border:1px solid #d1d5db;">4.2W RMS</td><td style="padding:12px;border:1px solid #d1d5db;">Clean sound for a small room — don't ask it for sub; it's a pocket speaker, not a party one</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/jbl/speakers/jbl-go-4" style="color:#2563eb;font-weight:600;">Go 4</a></strong> (190g)</td><td style="padding:12px;border:1px solid #d1d5db;">4.2W RMS</td><td style="padding:12px;border:1px solid #d1d5db;">Clean sound for a small room — don't ask it for sub; it's a pocket speaker, not a party one</td></tr>
     <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>Flip 6</strong> (550g)</td><td style="padding:12px;border:1px solid #d1d5db;">30W (20W woofer + 10W tweeter)</td><td style="padding:12px;border:1px solid #d1d5db;">Respectable bass for a 4-6 person hangout indoors or on a terrace</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>Charge 6</strong> (~990g)</td><td style="padding:12px;border:1px solid #d1d5db;">45W RMS</td><td style="padding:12px;border:1px solid #d1d5db;">First rung of the ladder you can honestly call "sub" — bass you feel at an open-air gathering</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/jbl/speakers/jbl-charge-6" style="color:#2563eb;font-weight:600;">Charge 6</a></strong> (~990g)</td><td style="padding:12px;border:1px solid #d1d5db;">45W RMS</td><td style="padding:12px;border:1px solid #d1d5db;">First rung of the ladder you can honestly call "sub" — bass you feel at an open-air gathering</td></tr>
     <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>Xtreme 4</strong> (2.1kg)</td><td style="padding:12px;border:1px solid #d1d5db;">Up to 100W (2×30W woofers + 2×20W tweeters)</td><td style="padding:12px;border:1px solid #d1d5db;">Bass that fills an open space — trips and large gatherings</td></tr>
-    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong>PartyBox Stage 320</strong> (16.5kg)</td><td style="padding:12px;border:1px solid #d1d5db;">240W (2×6.5" woofers + 2×1" tweeters)</td><td style="padding:12px;border:1px solid #d1d5db;">A different class entirely — what Egyptians call the "bazooka"</td></tr>
+    <tr><td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/jbl/partybox/jbl-partybox-stage-320" style="color:#2563eb;font-weight:600;">PartyBox Stage 320</a></strong> (16.5kg)</td><td style="padding:12px;border:1px solid #d1d5db;">240W (2×6.5" woofers + 2×1" tweeters)</td><td style="padding:12px;border:1px solid #d1d5db;">A different class entirely — what Egyptians call the "bazooka"</td></tr>
     </tbody>
 </table>
 
@@ -173,12 +174,12 @@ export const jbl_sub_speaker_meaning: BlogArticle = {
 
 <h2>Full Honesty: When Is a Real Wired Subwoofer the Answer?</h2>
 
-<p>Here we have to be honest even if it means you don't buy anything from us: if your dream is a home cinema or a fixed system in one room — bass digging down to 20-30Hz and shaking the couch — the right answer isn't a Bluetooth speaker at all. It's a real wired subwoofer connected to a receiver or amplifier: a large enclosure dedicated to one job, drawing wall power continuously. Portable Bluetooth speakers were engineered for something else: running on battery anywhere from a rooftop to the North Coast — a deliberate engineering trade-off. The portable gives you 90% of the fun in 100% of the places; a wired sub gives you 100% of the bass in exactly one room. Choose based on your actual life.</p>
+<p>Here we have to be honest even if it means you don't buy anything from us: if your dream is a home cinema or a fixed system in one room — deep bass that shakes the couch — the right answer isn't a Bluetooth speaker at all. It's a real wired subwoofer connected to a receiver or amplifier: a large enclosure dedicated to one job, drawing wall power continuously. Portable Bluetooth speakers were engineered for something else: running on battery anywhere from a rooftop to the North Coast — a deliberate engineering trade-off. The portable gives you 90% of the fun in 100% of the places; a wired sub gives you 100% of the bass in exactly one room. Choose based on your actual life.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ The Full Bass Ladder at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        From the <a href="/en/jbl/speakers/jbl-flip-6" style="color:#2563eb;font-weight:600;">Flip 6</a> for hangouts, to the <a href="/en/jbl/speakers/jbl-charge-6" style="color:#2563eb;font-weight:600;">Charge 6</a> that charges your phone too, to the <a href="/en/jbl/speakers/jbl-xtreme-4" style="color:#2563eb;font-weight:600;">Xtreme 4</a> with a swappable battery, up to the bazookas in the <a href="/en/jbl/partybox" style="color:#2563eb;font-weight:600;">PartyBox category</a> — all genuine, with CairoVolt 12-month warranty and cash on delivery.
+        From the <a href="/en/jbl/speakers/jbl-flip-6" style="color:#2563eb;font-weight:600;">Flip 6</a> for hangouts, to the <a href="/en/jbl/speakers/jbl-charge-6" style="color:#2563eb;font-weight:600;">Charge 6</a> that charges your phone too, to the <a href="/en/jbl/speakers/jbl-xtreme-4" style="color:#2563eb;font-weight:600;">Xtreme 4</a> with a swappable battery, up to the bazookas in the <a href="/en/jbl/partybox" style="color:#2563eb;font-weight:600;">PartyBox category</a> — all genuine, with CairoVolt's written store warranty (duration shown on each product page) and cash on delivery.
     </p>
 </div>`,
             faq: [

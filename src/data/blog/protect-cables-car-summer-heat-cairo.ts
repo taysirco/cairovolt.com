@@ -4,7 +4,7 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
     slug: 'protect-cables-car-summer-heat-cairo',
     category: 'tips',
     publishDate: '2026-05-28',
-    modifiedDate: '2026-05-28',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'anker-a8050-usb-c-cable',
@@ -175,7 +175,7 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
     <li style="margin-bottom:14px;">✅ <strong>العلامات الدالة على الجودة الحقيقية:</strong> ثقل محسوس في اليد، رأس معدني صلب، ضفيرة قماش ناعمة ومحكمة، ضمان مكتوب على الكرتونة.</li>
 </ul>
 
-<p>على OLX وFacebook Marketplace في مصر، نسبة كبيرة من الكابلات اللي بتتباع على إنها nylon braided بتطلع إما مقلّدة أو بمواصفات أقل بكتير من المكتوب. الأمان الوحيد: الشراء من متجر موثوق زي <a href="/anker/cables" style="color:#2563eb;font-weight:600;">قسم كابلات انكر</a> أو <a href="/joyroom/cables" style="color:#2563eb;font-weight:600;">قسم كابلات جوي روم</a> على كايرو فولت بضمان 18 شهر مكتوب من المتجر.</p>
+<p>على OLX وFacebook Marketplace في مصر، نسبة كبيرة من الكابلات اللي بتتباع على إنها nylon braided بتطلع إما مقلّدة أو بمواصفات أقل بكتير من المكتوب. الأمان الوحيد: الشراء من متجر موثوق زي <a href="/anker/cables" style="color:#2563eb;font-weight:600;">قسم كابلات انكر</a> أو <a href="/joyroom/cables" style="color:#2563eb;font-weight:600;">قسم كابلات جوي روم</a> على كايرو فولت، وعليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج).</p>
 
 <h2>حساب التكلفة الحقيقية — الكابل الرخيص أغلى على المدى البعيد</h2>
 
@@ -191,7 +191,7 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
     <tbody>
         <tr><td style="padding:12px;border:1px solid #d1d5db;">PVC رخيص</td><td style="padding:12px;border:1px solid #d1d5db;">25-50 ج</td><td style="padding:12px;border:1px solid #d1d5db;">2-4 شهور</td><td style="padding:12px;border:1px solid #d1d5db;"><strong style="color:#dc2626;">150-300 ج</strong> (6+ كابلات)</td></tr>
         <tr><td style="padding:12px;border:1px solid #d1d5db;">TPE متوسط</td><td style="padding:12px;border:1px solid #d1d5db;">100-180 ج</td><td style="padding:12px;border:1px solid #d1d5db;">8-14 شهر</td><td style="padding:12px;border:1px solid #d1d5db;"><strong>200-360 ج</strong> (2-3 كابلات)</td></tr>
-        <tr style="background:#f0fdf4;"><td style="padding:12px;border:1px solid #d1d5db;"><strong>Nylon Braided كايرو فولت</strong></td><td style="padding:12px;border:1px solid #d1d5db;"><strong>180-320 ج</strong></td><td style="padding:12px;border:1px solid #d1d5db;"><strong>24-36 شهر</strong></td><td style="padding:12px;border:1px solid #d1d5db;"><strong style="color:#059669;">180-320 ج</strong> (كابل واحد)</td></tr>
+        <tr style="background:#f0fdf4;"><td style="padding:12px;border:1px solid #d1d5db;"><strong>Nylon Braided بجودة كويسة</strong></td><td style="padding:12px;border:1px solid #d1d5db;"><strong>180-320 ج</strong></td><td style="padding:12px;border:1px solid #d1d5db;"><strong>24-36 شهر</strong></td><td style="padding:12px;border:1px solid #d1d5db;"><strong style="color:#059669;">180-320 ج</strong> (كابل واحد)</td></tr>
     </tbody>
 </table>
 
@@ -217,7 +217,7 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
     <li style="margin-bottom:14px;">🔄 <strong>استبدال استباقي:</strong> الكابلات PVC — بدّلها قبل الصيف مش بعده. أرخص وأأمن من انتظار الانهيار الكامل في أوسط يوليو.</li>
 </ul>
 
-<p>الحل الأذكى: اشتري كابل nylon braided واحد كويس (<a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050</a> أو <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">جوي روم 60W</a>) وطبّق الـ 5 حلول — وهتبقى آخر مرة بتشتري كابل للعربية لمدة 2-3 سنين. ده أرخص بكتير من 4-5 كابلات PVC في نفس الفترة. كايرو فولت بيوفّر ضمان 18 شهر على كل الكابلات + توصيل لكل محافظات مصر.</p>
+<p>الحل الأذكى: اشتري كابل nylon braided واحد كويس (<a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050</a> أو <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">جوي روم 60W</a>) وطبّق الـ 5 حلول — وهتبقى آخر مرة بتشتري كابل للعربية لمدة 2-3 سنين. ده أرخص بكتير من 4-5 كابلات PVC في نفس الفترة. كابلات كايرو فولت عليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل محافظات مصر.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ خلاصة العملية</p>
@@ -355,7 +355,7 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
     <li style="margin-bottom:14px;">✅ <strong>Markers of genuine quality:</strong> Noticeable weight in the hand, solid metal connector, tight and silky fabric weave, printed warranty card in the packaging.</li>
 </ul>
 
-<p>On OLX and Facebook Marketplace Egypt, the risk of receiving a counterfeit or misrepresented cable is high. The only reliable protection: purchase from a trusted store like CairoVolt's <a href="/en/anker/cables" style="color:#2563eb;font-weight:600;">Anker cables section</a> or <a href="/en/joyroom/cables" style="color:#2563eb;font-weight:600;">Joyroom cables section</a> with an 18-month written store warranty.</p>
+<p>On OLX and Facebook Marketplace Egypt, the risk of receiving a counterfeit or misrepresented cable is high. The only reliable protection: purchase from a trusted store like CairoVolt's <a href="/en/anker/cables" style="color:#2563eb;font-weight:600;">Anker cables section</a> or <a href="/en/joyroom/cables" style="color:#2563eb;font-weight:600;">Joyroom cables section</a> covered by CairoVolt's written store warranty (duration shown on each product page).</p>
 
 <h2>True Cost Analysis — The Cheap Cable Is the Expensive Choice</h2>
 
@@ -389,7 +389,7 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
     <li style="margin-bottom:14px;">🔄 <strong>Proactive PVC replacement:</strong> If you're still using PVC cables in your car, replace them before summer — not during. The cost of a mid-summer breakdown (missed appointment, stranded with a dead phone) far exceeds the price of a quality replacement cable.</li>
 </ul>
 
-<p>The smart investment: one quality nylon braided cable (<a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050</a> or <a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">Joyroom 60W USB-C</a>), five daily habits, and a five-minute annual inspection — and you're set for 2-3 summers without a cable failure. Available at CairoVolt with 18-month warranty and nationwide delivery across Egypt.</p>`,
+<p>The smart investment: one quality nylon braided cable (<a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050</a> or <a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">Joyroom 60W USB-C</a>), five daily habits, and a five-minute annual inspection — and you're set for 2-3 summers without a cable failure. Available at CairoVolt with CairoVolt's written store warranty (duration shown on each product page) and nationwide delivery across Egypt.</p>`,
         },
     },
 };

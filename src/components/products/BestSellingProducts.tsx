@@ -5,7 +5,12 @@ import { ProductImage } from '@/components/ui/ProductImage';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { staticProducts, StaticProduct } from '@/lib/static-products';
 import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
-import { isStorefrontPromotableSlug } from '@/lib/merchant-product-data';
+import {
+    isRecallAffectedSlug,
+    isRecallStockVerifiedOutsideScope,
+    isStorefrontPromotableSlug,
+} from '@/lib/merchant-product-data';
+import { getBrandEntity } from '@/lib/brand-entities';
 
 interface BestSellingProductsProps {
     brandSlug: string;
@@ -105,6 +110,9 @@ export default function BestSellingProducts({
     const isSoundcore = brandSlug === 'soundcore';
     const products = getFeaturedProducts(brandSlug, maxProducts);
     const displayBrandName = getBrandDisplayName(brandDisplayName, locale);
+    // Entity name for the ItemList ("Anker"), not the hub's display title
+    // ("Anker Egypt"), which produced "Featured Anker Egypt Products in Egypt".
+    const schemaBrandName = getBrandEntity(brandSlug)?.name ?? displayBrandName;
 
     if (products.length === 0) return null;
 
@@ -121,7 +129,7 @@ export default function BestSellingProducts({
         '@id': `${canonicalBase}/${brandSlug}#featured-products-list`,
         name: isRTL
             ? `منتجات مختارة من ${displayBrandName} في مصر`
-            : `Featured ${displayBrandName} Products in Egypt`,
+            : `Featured ${schemaBrandName} Products in Egypt`,
         isPartOf: { '@id': `${canonicalBase}/${brandSlug}#collectionpage` },
         numberOfItems: products.length,
         itemListOrder: 'https://schema.org/ItemListUnordered',
@@ -197,6 +205,11 @@ export default function BestSellingProducts({
                             `/${brandSlug}/${product.categorySlug}/${product.slug}`
                         );
                         const catLabel = categoryLabels[product.categorySlug] || categoryLabels['other'];
+                        // Same marker and predicate as the category shelf: a model in
+                        // a recall programme is disclosed on every listing, unless our
+                        // stock was serial-checked outside the affected range.
+                        const recalled = isRecallAffectedSlug(product.slug)
+                            && !isRecallStockVerifiedOutsideScope(product.slug);
 
                         return (
                             <Link
@@ -244,6 +257,11 @@ export default function BestSellingProducts({
                                     >
                                         {productName}
                                     </h3>
+                                    {recalled && (
+                                        <span className="-mt-1 mb-2 flex items-center gap-1 text-[10px] md:text-xs font-semibold text-amber-700 dark:text-amber-400">
+                                            <span aria-hidden="true">⚠️</span>{isRTL ? 'استدعاء — راجع صفحة المنتج' : 'Recall — see product page'}
+                                        </span>
+                                    )}
 
                                     {/* Price Row */}
                                     <div className="flex items-end justify-between gap-1">

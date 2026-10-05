@@ -108,13 +108,6 @@ Encore Essential وClub 120 وStage 320 بيشتغلوا على بطارية أ�
                             answer: 'مفيش تقسيط ومفيش دفع أونلاين — الدفع كاش عند الاستلام بس، على كل الموديلات مهما كان سعرها. مش بناخد عربون ولا مقدم ولا أي دفعة قبل ما تستلم. ومعنى إننا مش بنقسّط إنك مش بتدفع فوايد ولا مصاريف إدارية مضافة على السعر. البازوكات التقيلة زي PartyBox 1000 (34.7 كيلو) بنرتّبلها توصيل مخصوص مش الشحن العادي، والدفع فيها كاش عند الاستلام برضه. وكل طلب بفاتورة وضمان كايرو فولت مكتوب وإرجاع خلال 14 يوم وفق الشروط.'
                         }
                     ],
-                    products: [
-                        { name: 'JBL PartyBox Encore Essential', price: 20099, badge: 'بداية البازوكا' },
-                        { name: 'JBL PartyBox Club 120', price: 20949, badge: 'بطارية تتبدل' },
-                        { name: 'JBL PartyBox Stage 320', price: 29449, badge: '240 واط + عجل' },
-                        { name: 'JBL PartyBox 1000', price: 65999, badge: '1100 واط' },
-                        { name: 'JBL PartyBox Wireless Mic', price: 5949, badge: 'ميكروفون ×2' },
-                    ]
                 },
                 en: {
                     title: 'JBL PartyBox — Party Speakers',
@@ -207,13 +200,6 @@ Every order comes with an invoice, a written CairoVolt warranty, and returns wit
                             answer: 'The battery models (Encore Essential, Club 120, Stage 320) suit trips, and IPX4 on supporting models covers light splashes only — not immersion or sand. Keep it away from direct water and sand, and dry the ports before charging. Leave the PartyBox 1000 for venues, since it is AC-only.'
                         }
                     ],
-                    products: [
-                        { name: 'JBL PartyBox Encore Essential', price: 20099, badge: 'Entry PartyBox' },
-                        { name: 'JBL PartyBox Club 120', price: 20949, badge: 'Swappable Battery' },
-                        { name: 'JBL PartyBox Stage 320', price: 29449, badge: '240W + wheels' },
-                        { name: 'JBL PartyBox 1000', price: 65999, badge: '1100W Flagship' },
-                        { name: 'JBL PartyBox Wireless Mic', price: 5949, badge: 'Wireless Mic ×2' },
-                    ]
                 }
             }
         };

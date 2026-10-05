@@ -4,7 +4,7 @@ export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
     slug: 'soundcore-flare-2-partycast-led-speaker-review',
     category: 'review',
     publishDate: '2026-07-31T11:43:00+03:00',
-    modifiedDate: '2026-07-31T11:43:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'anker-soundcore-flare-2',
@@ -33,12 +33,12 @@ export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
             metaDescription: 'مراجعة Soundcore Flare 2 الشاملة بمصر: صوت محيطي 360 درجة، وميزة PartyCast لربط السبيكرات المتعددة، وحلقات إضاءة LED تفاعلية مع البطارية والضمان.',
             keywords: 'soundcore flare 2 مراجعة, soundcore flare 2 سعر مصر, partycast soundcore شرح, سبيكر 360 درجة, سبيكر led حفلات مصر, soundcore flare 2 باس, سبيكر بلوتوث ipx7 مصر, flare 2 مقابل motion plus, soundcore flare 2 بطارية, سبيكر شاطئ led',
             excerpt: 'Soundcore Flare 2 مش بس سبيكر — ده تجربة جو كاملة. إضاءة LED بتتزامن مع المزيكا، PartyCast يربط أكتر من وحدة، وصوت 360° بـ 20W. حللنا أداءه للشاطئ والجلسات الداخلية بالأرقام — الحقيقة هنا.',
-            quickAnswer: 'Soundcore Flare 2 سبيكر حفلات ممتاز بـ 20W وصوت 360° (مكبرين تويتر + مكبرين ووفر). PartyCast بيربط أكتر من سبيكر في نفس الأغنية بدون تأخير. LED 10 أوضاع بتتزامن مع الإيقاع. البطارية 12 ساعة وIPX7 للمياه. السعر 3,000-3,500ج. مثالي للجلسات والحفلات الصغيرة — مش للاستماع الجاد.',
+            quickAnswer: 'Soundcore Flare 2 سبيكر حفلات ممتاز بـ 20W وصوت 360° (مكبرين تويتر + مكبرين ووفر). PartyCast بيربط أكتر من سبيكر في نفس الأغنية بدون تأخير. LED 10 أوضاع بتتزامن مع الإيقاع. البطارية 12 ساعة وIPX7 للمياه. السعر في كايرو فولت {{price:anker-soundcore-flare-2}} جنيه. مناسب للجلسات والحفلات الصغيرة — مش للاستماع الجاد.',
             content: `<p>سبيكر Soundcore Flare 2 المحمول بيتحط في مصر في ظروف بيئية مختلفة تماماً: جلسة عائلية على شاطئ البحر الأحمر في العين السخنة، أو سهرة شبابية في شقة مغلقة مساحتها 80 متراً مربعاً، أو بيت ريفي مفتوح بمحافظة القليوبية. والخلاصة من مواصفاته وطبيعة تصميمه وتجارب المستخدمين المنشورة؟ السبيكر مصمم ليحدث فرقاً كبيراً وممتازاً عندما يلتف حوله الأصدقاء في الرحلات والجمعات المختلفة والترفيهية، وليس للاستماع الشخصي المنفرد. وفي هذه المراجعة الشاملة والدقيقة سنشرح لك كافة التفاصيل والعيوب والمميزات بالأرقام الواقعية لمساعدتك في قرار الشراء.</p>
 
 <div class="quick-answer-inline" style="background:#fdf4ff;border-right:4px solid #7c3aed;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#6b21a8;">
-        <strong>الحكم السريع:</strong> Soundcore Flare 2 سبيكر حفلات رائع — PartyCast وLED وصوت 360° بـ 20W وIPX7 بـ 3,000-3,500ج. لكن لو بتدور على نقاء صوت وتفاصيل موسيقية جادة ومستقلة، ابحث عن Motion+ بدلاً منه.
+        <strong>الحكم السريع:</strong> Soundcore Flare 2 سبيكر حفلات رائع — PartyCast وLED وصوت 360° بـ 20W وIPX7 بـ {{price:anker-soundcore-flare-2}} جنيه. لكن لو بتدور على نقاء صوت وتفاصيل موسيقية جادة ومستقلة، ابحث عن Motion+ بدلاً منه.
     </p>
 </div>
 
@@ -86,8 +86,8 @@ export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
             <td style="padding:11px;border:1px solid #e9d5ff;">‎ø9.3cm × 18.7cm — 700 جرام</td>
         </tr>
         <tr style="background:#faf5ff;">
-            <td style="padding:11px;border:1px solid #e9d5ff;">السعر في مصر</td>
-            <td style="padding:11px;border:1px solid #e9d5ff;color:#7c3aed;font-weight:bold;">3,000 — 3,500 جنيه مصري</td>
+            <td style="padding:11px;border:1px solid #e9d5ff;">السعر في كايرو فولت</td>
+            <td style="padding:11px;border:1px solid #e9d5ff;color:#7c3aed;font-weight:bold;">{{price:anker-soundcore-flare-2}} جنيه</td>
         </tr>
     </tbody>
 </table>
@@ -127,8 +127,8 @@ export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
 <h2>تأثير تذبذب الكهرباء المحلي على عمر بطارية سبيكر Flare 2 وطرق الشحن الآمنة</h2>
 <p>يحتوي سبيكر Soundcore Flare 2 على بطارية ليثيوم بسعة 4,800 مللي أمبير تتطلب عناية خاصة لضمان استمرار كفاءتها لسنوات طويلة. ونظراً لتذبذب التيار والجهد الكهربائي الذي قد يطرأ على الشبكة الكهربائية المحلية، نوصي بشدة بعدم توصيل السبيكر بشواحن الهواتف الذكية السريعة (مثل شواحن 33 واط أو 67 واط أو الشواحن السوبر دارت)، نظراً لأن الجهد المرتفع والحرارة المتولدة قد تؤدي لتلف دائرة تنظيم الشحن الداخلية (Power IC). الخيار الأفضل والأكثر أماناً هو شحن السبيكر بشاحن حائط عادي بقدرة 5 واط أو 10 واط كحد أقصى، مع تجنب تركه متصلاً بالشاحن طوال الليل بعد اكتمال الشحن بنسبة 100%. كما يفضل عدم تشغيل الإضاءة والتحميل الكامل على الصوت بأقصى طاقة أثناء عملية الشحن للحفاظ على عمر البطارية وتجنب ارتفاع حرارة جسم السبيكر الخارجي.</p>
 
-<h2>الضمان المحلي المعتمد وتفاصيل خدمة ما بعد البيع بمصر</h2>
-<p>جميع سبيكرات Soundcore Flare 2 المباعة عبر كايرو فولت في السوق المصري تحظى بضمان استبدال مكتوب من المتجر لمدة 18 شهراً من تاريخ الشراء. ويشمل الضمان صيانة واستبدال الجهاز مجاناً في حال ظهور عيوب صناعة مثل توقف أحد مكبرات الصوت أو عطل مفاجئ في شريحة البلوتوث أو دائرة الشحن. يرجى الاحتفاظ بالكرتونة الأصلية للمنتج التي تحمل ملصق الرقم التسلسلي (Serial Number) كشرط أساسي لقبول وتفعيل طلب الاستبدال أو الصيانة. ونوفر لك في كايرو فولت دعماً متكاملاً طوال فترة الضمان لتسريع الإجراءات واستلام سبيكر بديل وجديد تماماً في حال ثبوت العيب الفني.</p>
+<h2>ضمان كايرو فولت المكتوب والدعم الفني في مصر</h2>
+<p>جميع سبيكرات Soundcore Flare 2 المباعة عبر كايرو فولت في السوق المصري تحظى بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). ويغطي الضمان عيوب الصناعة مثل توقف أحد مكبرات الصوت أو عطل مفاجئ في البلوتوث أو دائرة الشحن، والاستبدال أو الاسترداد يتم وفق نتيجة الفحص وشروط الضمان المنشورة. يرجى الاحتفاظ بالكرتونة الأصلية للمنتج التي تحمل ملصق الرقم التسلسلي (Serial Number) كشرط أساسي لقبول وتفعيل طلب الاستبدال أو الصيانة. وفريق دعم كايرو فولت متاح طوال فترة الضمان لمتابعة الطلب.</p>
 
 <h2>الإضاءة LED — ده مجرد تكميلة ولا فيه قيمة حقيقية؟</h2>
 <p>فيه ناس بتشوف الـ LED زي ما هو زينة مش أكتر. لكن في الاستخدام الفعلي — بيعمل فرق حقيقي في الأجواء. الـ 10 أوضاع بتشمل: تنبيض مع الإيقاع، ألوان ثابتة، تدرج ألوان (Rainbow)، ووضع "Flash" سريع لأغاني أسرع. التطبيق Soundcore بيديك تحكم كامل في اختيار الوضع واللون.</p>
@@ -146,7 +146,7 @@ export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
 <div class="cta-box" style="background:#faf5ff;border:1px solid #c4b5fd;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#6b21a8;">Soundcore Flare 2 الأصلي على كايرو فولت</p>
     <p style="margin:0;color:#7c3aed;font-size:15px;line-height:1.8;">
-        أصلي 100% بضمان رسمي Anker — بـ 3,000-3,500ج. توصيل لكل المحافظات + دفع عند الاستلام. <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#6b21a8;font-weight:600;text-decoration:underline;">اشتري Flare 2 دلوقتي</a>
+        أصلي 100% بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) — بـ {{price:anker-soundcore-flare-2}} جنيه. توصيل لكل المحافظات + دفع عند الاستلام. <a href="/soundcore/speakers/anker-soundcore-flare-2" style="color:#6b21a8;font-weight:600;text-decoration:underline;">اشتري Flare 2 دلوقتي</a>
     </p>
 </div>` ,
             faq: [
@@ -174,12 +174,12 @@ export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
             metaDescription: 'Soundcore Flare 2 review: 360-degree immersive sound, PartyCast multi-speaker linking, syncable LED light rings, IPX7 waterproof rating, and battery life.',
             keywords: 'soundcore flare 2 review egypt, soundcore flare 2 price egypt, partycast how it works, 360 degree speaker bluetooth, led party speaker egypt, soundcore flare 2 bass test, ipx7 bluetooth speaker egypt, flare 2 vs motion plus, soundcore flare 2 battery life, beach party speaker led',
             excerpt: 'Soundcore Flare 2 is not just a speaker — it is a complete atmosphere experience. LED lighting that syncs with music, PartyCast linking multiple units, and 360° sound at 20W. From the beach to indoor gatherings, we break down the numbers — here is the honest truth.',
-            quickAnswer: 'Soundcore Flare 2 is an excellent party speaker with 20W and 360° sound (dual tweeters + dual woofers). PartyCast syncs multiple speakers with no perceptible delay. LED has 10 rhythm-synced modes. 12-hour battery and IPX7 water resistance. Price 3,000-3,500 EGP. Ideal for gatherings and small parties — not for serious solo listening.',
+            quickAnswer: 'Soundcore Flare 2 is an excellent party speaker with 20W and 360° sound (dual tweeters + dual woofers). PartyCast syncs multiple speakers with no perceptible delay. LED has 10 rhythm-synced modes. 12-hour battery and IPX7 water resistance. Price at CairoVolt: EGP {{price:anker-soundcore-flare-2}}. Suited for gatherings and small parties — not for serious solo listening.',
             content: `<p>The Soundcore Flare 2 gets used in very different conditions in Egypt: a beach session in Ain Sokhna, an evening gathering in an 80-square-meter apartment, or an open rural house. The takeaway from its specifications, its design, and published user experiences? This is a speaker that shines more when people are around — not when you are listening alone. In this review, we explain why, with real numbers and honest details relevant to how it is actually used in Egypt.</p>
 
 <div class="quick-answer-inline" style="background:#fdf4ff;border-left:4px solid #7c3aed;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#6b21a8;">
-        <strong>Quick Verdict:</strong> Soundcore Flare 2 is an excellent party speaker — PartyCast, LED, 360° sound at 20W, and IPX7 for 3,000-3,500 EGP. But if you want audio clarity and musical detail, look at the Motion+ instead.
+        <strong>Quick Verdict:</strong> Soundcore Flare 2 is an excellent party speaker — PartyCast, LED, 360° sound at 20W, and IPX7 for EGP {{price:anker-soundcore-flare-2}}. But if you want audio clarity and musical detail, look at the Motion+ instead.
     </p>
 </div>
 
@@ -227,8 +227,8 @@ export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
             <td style="padding:11px;border:1px solid #e9d5ff;">ø9.3cm × 18.7cm — 700g</td>
         </tr>
         <tr style="background:#faf5ff;">
-            <td style="padding:11px;border:1px solid #e9d5ff;">Price in Egypt</td>
-            <td style="padding:11px;border:1px solid #e9d5ff;color:#7c3aed;font-weight:bold;">3,000 — 3,500 EGP</td>
+            <td style="padding:11px;border:1px solid #e9d5ff;">Price at CairoVolt</td>
+            <td style="padding:11px;border:1px solid #e9d5ff;color:#7c3aed;font-weight:bold;">EGP {{price:anker-soundcore-flare-2}}</td>
         </tr>
     </tbody>
 </table>
@@ -272,8 +272,8 @@ export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
     <li><strong>Avoid Overnight Charging:</strong> Unplug the charging cable once the indicator confirms a full charge. This prevents continuous over-charging, protecting the battery's longevity.</li>
 </ul>
 
-<h2>Official Local Warranty and Technical Support in Egypt</h2>
-<p>Buyers of all original Soundcore speakers in Egypt receive a comprehensive 18-month written store warranty from CairoVolt, an independent online retailer. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or speaker driver failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim through CairoVolt customer support.</p>
+<h2>CairoVolt store warranty and support in Egypt</h2>
+<p>Buyers of all original Soundcore speakers in Egypt receive CairoVolt's written store warranty (duration shown on each product page) — CairoVolt is an independent online retailer. It covers manufacturing defects such as sudden battery degradation or speaker driver failures; replacement or refund follows the inspection result and the published warranty terms. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim through CairoVolt customer support.</p>
 
 <h2>LED Lighting — Gimmick or Real Value?</h2>
 <p>Some people see LED as purely decorative. In real-world use — it does make a genuine difference to the atmosphere. The 10 modes include: pulse with the beat, static colors, Rainbow color gradient, and a fast "Flash" mode for upbeat music. The Soundcore app gives you full control over mode and color selection.</p>
@@ -291,7 +291,7 @@ export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
 <div class="cta-box" style="background:#faf5ff;border:1px solid #c4b5fd;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#6b21a8;">Genuine Soundcore Flare 2 on CairoVolt</p>
     <p style="margin:0;color:#7c3aed;font-size:15px;line-height:1.8;">
-        100% authentic with official Anker warranty — 3,000-3,500 EGP. Delivery to all governorates + cash on delivery. <a href="/en/soundcore/speakers/anker-soundcore-flare-2" style="color:#6b21a8;font-weight:600;text-decoration:underline;">Buy Flare 2 Now</a>
+        100% authentic, with an invoice and CairoVolt's written store warranty (duration shown on each product page) — EGP {{price:anker-soundcore-flare-2}}. Delivery to all governorates + cash on delivery. <a href="/en/soundcore/speakers/anker-soundcore-flare-2" style="color:#6b21a8;font-weight:600;text-decoration:underline;">Buy Flare 2 Now</a>
     </p>
 </div>` ,
             faq: [

@@ -72,7 +72,7 @@ export const joyroom_magnetic_power_bank_10000 = {
                     { question: "How many times can it charge a phone?", answer: "There is no fixed count. The cell rating differs from usable output energy, and results depend on the phone battery, starting level, conversion loss, alignment, temperature and use while charging." },
                     { question: "Can I use it while attached to my phone?", answer: "Check magnetic alignment and case compatibility, and support the phone if movement could detach the battery. The stand can provide a viewing angle on a stable surface, but retention varies by phone, case, orientation and temperature." },
                     { question: "Does it charge through phone cases?", answer: "Confirm that the exact case supports the required magnetic wireless standard. Thick, metal-containing or misaligned cases can reduce charging and attachment." },
-                    { question: "Can I take it on an airplane?", answer: "Check the Wh value printed on the unit and the current airline, country and route rules. Power banks are commonly restricted to cabin baggage, but the carrier controls acceptance." }
+                    { question: "Can I take it on an airplane?", answer: "Usually yes, in cabin baggage only: 10,000mAh works out to about 37Wh at 3.7V nominal (some regional listings print 38.5Wh), well under the common 100Wh limit. Check the Wh printed on your unit and the current airline, country and route rules; the carrier controls acceptance." }
                 ]
             },
             ar: {
@@ -126,7 +126,7 @@ export const joyroom_magnetic_power_bank_10000 = {
                     { question: "كم شحنة يعطي باور بانك 10000 لهاتف متوافق؟", answer: "لا يوجد عدد ثابت؛ تصنيف الخلايا يختلف عن الطاقة القابلة للاستخدام، وتؤثر بطارية الهاتف ونسبة البداية وكفاءة التحويل والمحاذاة والحرارة واستخدام الهاتف في النتيجة." },
                     { question: "هل أستطيع استخدامه ملتصقاً بالهاتف؟", answer: "تحقق من المحاذاة والجراب وادعم الهاتف إذا كانت الحركة قد تفصل البطارية. يمكن للحامل توفير زاوية على سطح ثابت، لكن التثبيت يختلف حسب الهاتف والجراب والاتجاه والحرارة." },
                     { question: "هل يشحن من خلال الجراب؟", answer: "تأكد أن الجراب نفسه يدعم معيار الشحن المغناطيسي المطلوب. الجراب السميك أو المعدني أو غير المحاذي قد يقلل الشحن والتثبيت." },
-                    { question: "ينفع آخده على الطيارة؟", answer: "تحقق من قيمة Wh المطبوعة وقواعد شركة الطيران والبلد والرحلة الحالية. غالباً توضع الباور بانكات في أمتعة المقصورة، لكن الناقل هو الذي يقرر القبول." }
+                    { question: "ينفع آخده على الطيارة؟", answer: "غالباً نعم، في أمتعة المقصورة فقط: 10,000 مللي أمبير تعادل نحو 37Wh عند جهد اسمي 3.7 فولت (بعض القوائم الإقليمية تطبع 38.5Wh)، أقل بكثير من الحد الشائع 100Wh. تحقق من قيمة Wh المطبوعة على وحدتك وقواعد شركة الطيران والبلد والرحلة الحالية؛ الناقل هو الذي يقرر القبول." }
                 ]
             }
         },

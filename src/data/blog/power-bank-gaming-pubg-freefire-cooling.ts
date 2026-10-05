@@ -4,7 +4,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
     slug: 'power-bank-gaming-pubg-freefire-cooling',
     category: 'buying-guide',
     publishDate: '2026-05-18',
-    modifiedDate: '2026-05-18',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
         "anker-zolo-a110e-20000",
@@ -51,8 +51,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
         🔬 خلاصة كايرو فولت — فيزياء الشحن أثناء اللعب
     </p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        قاعدة موثقة في قياسات المراجعات المستقلة على أجهزة زي iPhone 17 Pro Max و Galaxy S26 و Galaxy A55 و Xiaomi Redmi Note 14 في سيشنز PUBG Mobile و Free Fire و COD Mobile:
-        <strong>الاكتشاف الصادم:</strong> الشحن بـ 45W ممكن يرفع حرارة الموبايل بحوالي 6°م إضافية مقارنة بباور بانك 22.5W في نفس السيشن — لأن الشحن الأسرع ينتج حرارة أعلى تتراكم مع حرارة GPU/CPU. باور بانك "أقوى" = أسوأ للاعب. السر في معدل الشحن المعتدل + التبريد الخارجي.
+        أثناء اللعب، المعالج والشاشة بيطلعوا حرارة كبيرة، والشحن السريع بيضيف حرارة فوقها لأن البطارية بتستقبل قدرة أعلى. <strong>النتيجة العملية:</strong> الشحن بقدرة أعلى أثناء سيشن طويل ممكن يخلي الموبايل يسخن أكتر ويوصل لمرحلة تقليل الأداء (throttling) أسرع. باور بانك "أقوى" = أسوأ للاعب. السر في معدل الشحن المعتدل + التبريد الخارجي.
     </p>
 </div>
 
@@ -161,7 +160,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">لاعب عادي (1-3 ساعات)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>انكر زولو A110E 22.5W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">1,730ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Trickle-Charge + 20,000mAh + ضمان 18 شهر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Trickle-Charge + 20,000mAh + ضمان كايرو فولت المكتوب</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">لاعب نصف محترف (3-5 ساعات)</td>
@@ -219,7 +218,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
         <strong>القاعدة الأهم:</strong> 22.5W (مش 45W) + Trickle-Charge + كابل قصير 30cm + مروحة خارجية + غرفة مكيفة.
         <strong>الباور بانك الأمثل:</strong> أنكر ZOLO A110E (1,730ج) للاعب العادي،
         <strong>أو</strong> أنكر Prime 165W (3,950ج) لاحتراف e-sports.
-        كلهم متاحون على كايرو فولت بضمان أصلي 18 شهر + توصيل لكل المحافظات + دفع عند الاستلام.
+        كلهم متاحين على كايرو فولت بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>`,
             faq: [
@@ -233,7 +232,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
                 },
                 {
                     question: 'مروحة التبريد المغناطيسية تستحق 300-500 جنيه إضافية؟',
-                    answer: 'نعم للسيشنز فوق 90 دقيقة. القياسات المنشورة للمراوح المغناطيسية بتوضح خفض حرارة 8-12°م خلال ساعة في المتوسط. ده الفرق بين throttling محبط و FPS ثابت. للمحترفين: مروحة Peltier (600-900ج) تخفض 15-18°م لكن تحتاج باور بانك 15W إضافية. للاعب 1-2 ساعة يومي، المروحة المغناطيسية البسيطة كافية.',
+                    answer: 'غالباً أيوه للسيشنز الطويلة (فوق ساعة ونص): المروحة بتساعد الموبايل يفضل أبرد فيقل الـ throttling ويثبت الـ FPS. مراوح Peltier أقوى في التبريد لكن أغلى (نطاق سوق تقريبي 600-900 جنيه، ويختلف حسب البائع) وبتسحب طاقة إضافية من الباور بانك. للاعب ساعة أو ساعتين يومياً، المروحة المغناطيسية البسيطة كفاية.',
                 },
                 {
                     question: 'iPhone 17 Pro Max وGalaxy S26 — أيهما أفضل في PUBG بدون throttling؟',
@@ -267,8 +266,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
         🔬 CairoVolt Breakdown — The Physics of Charging While Gaming
     </p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        A pattern documented in independent review measurements on phones like the iPhone 17 Pro Max, Galaxy S26, Galaxy A55, and Xiaomi Redmi Note 14 during PUBG Mobile, Free Fire, and COD Mobile sessions:
-        <strong>Shocking finding:</strong> charging at 45W can raise phone temperature by an extra 6°C compared to 22.5W in the same session — because faster charging produces more heat that stacks on GPU/CPU heat. A "stronger" power bank = worse for the gamer. The secret lies in moderate charging rate + external cooling.
+        While gaming, the processor and screen already generate a lot of heat, and fast charging adds more on top because the battery is taking in more power. <strong>The practical result:</strong> charging at a higher rate during a long session can make the phone run hotter and reach thermal throttling sooner. A "stronger" power bank = worse for the gamer. The secret lies in moderate charging rate + external cooling.
     </p>
 </div>
 
@@ -377,7 +375,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">Casual (1-3 hours)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Anker ZOLO A110E 22.5W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">1,730 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Trickle-Charge + 20,000mAh + 18-month warranty</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Trickle-Charge + 20,000mAh + CairoVolt written store warranty</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Semi-pro (3-5 hours)</td>
@@ -435,7 +433,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
         <strong>Most important rule:</strong> 22.5W (not 45W) + Trickle-Charge + short 30cm cable + external fan + AC room.
         <strong>Optimal power bank:</strong> Anker ZOLO A110E (1,730 EGP) for casual gamer,
         <strong>or</strong> Anker Prime 165W (3,950 EGP) for e-sports pro.
-        All available at CairoVolt with authentic 18-month warranty + delivery to all governorates + cash on delivery.
+        All available at CairoVolt with CairoVolt's written store warranty (duration shown on each product page) + delivery to all governorates + cash on delivery.
     </p>
 </div>`,
             faq: [
@@ -449,7 +447,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
                 },
                 {
                     question: 'Is a magnetic cooling fan worth the extra 300-500 EGP?',
-                    answer: 'Yes for sessions over 90 minutes. Published measurements of magnetic cooling fans show an average temperature drop of 8-12°C over an hour. That is the difference between demoralizing throttling and stable FPS. For pros: a Peltier fan (600-900 EGP) drops 15-18°C but needs an extra 15W from the power bank. For 1-2 hour daily gaming, a simple magnetic fan is enough.',
+                    answer: 'Usually yes for long sessions (over 90 minutes): a fan helps the phone stay cooler, so it throttles less and holds a steadier FPS. Peltier fans cool harder but cost more (approximate market range 600-900 EGP, varies by seller) and draw extra power from the power bank. For 1-2 hours of daily gaming, a simple magnetic fan is enough.',
                 },
                 {
                     question: 'iPhone 17 Pro Max vs Galaxy S26 — which throttles less in PUBG?',

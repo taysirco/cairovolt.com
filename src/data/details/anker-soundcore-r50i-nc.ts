@@ -13,13 +13,13 @@ import type { ProductDetail } from './_types';
 export const anker_soundcore_r50i_nc_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Soundcore R50i NC (model A3959 printed on the retail box) is a separately stocked CairoVolt listing — ANC earbuds sold in Egypt with cash on delivery and CairoVolt store warranty; live price and stock are on this page.',
+            'Soundcore R50i NC (A3959H11 listing) are ANC earbuds with manufacturer-listed up to 45h total battery and IP54, sold by CairoVolt in Egypt with cash on delivery and a written store warranty; it is stocked as its own listing, with live price and stock on this page.',
             'Do not confuse it with the non-ANC R50i (model A3949) or the P20i/P25i family. The NC suffix and the printed A-number on the box and charging-case hinge are the reliable tells before ordering.',
             'Specification figures on this page — the 42dB ANC ceiling, battery hours, quick-charge figure, phone-stand case — are manufacturer-listed values under Soundcore\'s stated test conditions, not CairoVolt bench measurements. CairoVolt has not published a measured bench report under this listing.',
             'Recall check (verified 2026-07-24): A3959 appears on no Anker/CPSC earbud recall list — anker.com/product-recalls and CPSC checked; the recalled Anker SKUs are unrelated power-bank and speaker models.',
         ],
         ar: [
-            'سماعة ساوندكور R50i NC (الموديل A3959 المطبوع على العبوة) قائمة مستقلة بمخزونها لدى كايرو فولت — سماعات بعزل ضوضاء تُباع في مصر بالدفع عند الاستلام وضمان متجر كايرو فولت؛ السعر والمخزون المباشران في هذه الصفحة.',
+            'سماعة ساوندكور R50i NC (قائمة A3959H11) سماعات بعزل ضوضاء نشط ANC وبطارية معلنة من الشركة حتى 45 ساعة إجمالًا وتصنيف IP54، تبيعها كايرو فولت في مصر بالدفع عند الاستلام وضمان متجر مكتوب؛ وهي قائمة مستقلة بمخزونها، والسعر والمخزون المباشران في هذه الصفحة.',
             'لا تخلط بينها وبين R50i بلا عزل (موديل A3949) أو عائلة P20i/P25i. لاحقة NC ورقم A المطبوع على العبوة ومفصل علبة الشحن هما الفيصل قبل الطلب.',
             'أرقام المواصفات في هذه الصفحة — سقف العزل 42dB وساعات البطارية ورقم الشحن السريع وعلبة الستاند — قيم معلنة من الشركة المصنّعة وفق شروط اختبارها، وليست قياسات كايرو فولت. لم تنشر كايرو فولت تقرير قياس معملي تحت هذه القائمة.',
             'فحص الاستدعاء (تحقق 2026-07-24): A3959 غير مدرج في أي قائمة استدعاء سماعات لدى انكر أو CPSC — فُحص anker.com/product-recalls وCPSC؛ الوحدات المستدعاة لدى انكر موديلات باور بانك وسبيكرات غير ذات صلة.',

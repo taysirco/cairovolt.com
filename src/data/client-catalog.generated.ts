@@ -208,7 +208,7 @@ export const clientCatalog: ClientCatalogProduct[] = [
         },
         "image": {
             "url": "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-samsung-galaxy-compatible.webp",
-            "alt": "Anker PowerCore 20000 LED 4-light battery indicator showing remaining charge level - CairoVolt"
+            "alt": "Anker PowerCore 20000 black power bank, three-quarter view with the round power button and two USB-A ports - CairoVolt"
         }
     },
     {
@@ -269,10 +269,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Anker 25W PPS Charger (A2322K11) | Samsung-Compatible USB-C PD"
+                "name": "Anker 25W PPS Charger (A2656111) | Samsung-Compatible USB-C PD"
             },
             "ar": {
-                "name": "شاحن انكر 25 واط PPS (A2322K11) | USB-C PD متوافق مع موديلات سامسونج المدعومة"
+                "name": "شاحن انكر 25 واط PPS (A2656111) | USB-C PD متوافق مع موديلات سامسونج المدعومة"
             }
         },
         "image": {
@@ -453,10 +453,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Joyroom T03S Pro ANC Earbuds | 30H Battery | Bluetooth 5.3"
+                "name": "Joyroom T03S Pro ANC Earbuds"
             },
             "ar": {
-                "name": "سماعة جوي روم T03S Pro | ANC وBluetooth 5.3"
+                "name": "سماعة جوي روم T03S Pro | ANC"
             }
         },
         "image": {

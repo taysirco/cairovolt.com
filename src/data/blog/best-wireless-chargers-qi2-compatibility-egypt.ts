@@ -4,14 +4,13 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
     slug: 'best-wireless-chargers-qi2-compatibility-egypt',
     category: 'buying-guide',
     publishDate: '2026-08-22T21:48:00+03:00',
-    modifiedDate: '2026-08-22T21:48:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
-        'anker-a2741-charger-30w',
+        'anker-a2147-gan-charger-30w',
         'anker-powerport-20w',
         'anker-nano-45w-smart-display-charger',
         'joyroom-30w-fast-charger',
-        'anker-powercore-10000',
         'anker-a2216-magnetic-wireless-car-charger'
     ],
     relatedArticles: [
@@ -188,7 +187,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 <p>شاحنات الحائط USB-C المناسبة عندنا:</p>
 <ul style="padding-right:20px;line-height:1.9;">
     <li><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W Smart Display</a> — 45W، USB-C مع شاشة رقمية تحديد القوة.</li>
-    <li><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> — مثالي لـ pad الـ Qi2، كمبيوم بين الحجم والقوة.</li>
+    <li><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;">Anker 30W</a> — مثالي لـ pad الـ Qi2، كمبيوم بين الحجم والقوة.</li>
     <li><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;">Joyroom 30W Fast Charger</a> — بديل اقتصادي مع نفس الكفاءة.</li>
 </ul>
 
@@ -253,16 +252,15 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
     </tbody>
 </table>
 
-<p>ولو سيناريو العربية هو اللي مهمك أكتر: وصلنا <a href="/anker/car-chargers/anker-a2216-magnetic-wireless-car-charger" style="color:#2563eb;">شاحن سيارة انكر المغناطيسي اللاسلكي</a> بـ 1200 جنيه — تثبيت مغناطيسي وشحن لاسلكي في نفس الوقت، والباد نفسه قابل للفصل يعني بيكمل الشحن معاك حتى خارج العربية.</p>
+<p>ولو سيناريو العربية هو اللي مهمك أكتر: وصلنا <a href="/anker/car-chargers/anker-a2216-magnetic-wireless-car-charger" style="color:#2563eb;">شاحن سيارة انكر المغناطيسي اللاسلكي</a> بـ {{price:anker-a2216-magnetic-wireless-car-charger}} جنيه — تثبيت مغناطيسي وشحن لاسلكي في نفس الوقت، والباد نفسه قابل للفصل يعني بيكمل الشحن معاك حتى خارج العربية.</p>
 
 <h2>Qi2 والشاحن المناسب — الحسبة الكاملة</h2>
 
 <p>لو قررت تجرب Qi2، الحسبة بتكون:</p>
 
 <ul style="padding-right:20px;line-height:1.9;">
-    <li><strong>Pad لاسلكي Qi2:</strong> 400-800 جنيه</li>
-    <li><strong>شاحن حائط USB-C 20-30W (لو مش عندك):</strong> <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> حوالي 250-350 جنيه</li>
-    <li><strong>الإجمالي للانطلاق:</strong> 650-1150 جنيه</li>
+    <li><strong>Pad لاسلكي Qi2:</strong> حوالي 400-800 جنيه (نطاق سعر تقريبي في السوق، بيختلف حسب البائع)</li>
+    <li><strong>شاحن حائط USB-C 20-30W (لو مش عندك):</strong> <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;">Anker 30W (A2147)</a> بسعر {{price:anker-a2147-gan-charger-30w}} جنيه</li>
 </ul>
 
 <h2>آلية عمل Qi2 على مستوى العتاد والترددات الكهرومغناطيسية</h2>
@@ -279,7 +277,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 
 <p>شاحنات Qi2 اللاسلكية لسه مش منتشرة كتير في السوق المصري. الموجود أكتر هو شاحنات Qi القديمة أو شاحنات MagSafe أصلية من Apple بأسعار مرتفعة.</p>
 
-<p>الحل الذكي الآن: ابدأ بشاحن حائط USB-C جيد — ده هتحتاجه على أي حال سواء اشتريت pad لاسلكي أم لا. <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W</a> أو <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> هيشحن تليفونك بسرعة بالكابل، وبعدين لو اشتريت pad Qi2، الشاحن ده متوافق معاه تماماً.</p>`,
+<p>الحل الذكي الآن: ابدأ بشاحن حائط USB-C جيد — ده هتحتاجه على أي حال سواء اشتريت pad لاسلكي أم لا. <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W</a> أو <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;">Anker 30W</a> هيشحن تليفونك بسرعة بالكابل، وبعدين لو اشتريت pad Qi2، الشاحن ده متوافق معاه تماماً.</p>`,
             faq: [
                 {
                     question: 'هل iPhone 15 بيشحن بـ 15W على أي شاحن لاسلكي Qi2؟',
@@ -458,7 +456,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 <p>Compatible wall adapters available from us that work perfectly with any Qi2 pad:</p>
 <ul style="padding-left:20px;line-height:1.9;">
     <li><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W Smart Display</a> — 45W with a digital display showing real-time wattage output. Overkill for Qi2 alone but useful for simultaneous laptop or tablet charging.</li>
-    <li><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W USB-C</a> — the practical sweet spot for powering a Qi2 pad with headroom to spare.</li>
+    <li><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;">Anker 30W USB-C</a> — the practical sweet spot for powering a Qi2 pad with headroom to spare.</li>
     <li><a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;">Joyroom 30W Fast Charger</a> — budget-friendly option with the same performance level for Qi2 use.</li>
 </ul>
 
@@ -523,16 +521,15 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
     </tbody>
 </table>
 
-<p>If the in-car scenario is what interests you most, we now stock the <a href="/en/anker/car-chargers/anker-a2216-magnetic-wireless-car-charger" style="color:#2563eb;">Anker Magnetic Wireless Car Charger</a> at 1200 EGP — a magnetic mount and wireless charger in one, with a detachable pad that keeps charging your phone even after you leave the car.</p>
+<p>If the in-car scenario is what interests you most, we now stock the <a href="/en/anker/car-chargers/anker-a2216-magnetic-wireless-car-charger" style="color:#2563eb;">Anker Magnetic Wireless Car Charger</a> at EGP {{price:anker-a2216-magnetic-wireless-car-charger}} — a magnetic mount and wireless charger in one, with a detachable pad that keeps charging your phone even after you leave the car.</p>
 
 <h2>The Total Cost Equation for Qi2 in Egypt</h2>
 
 <p>A realistic budget for setting up Qi2 charging in Egypt today:</p>
 
 <ul style="padding-left:20px;line-height:1.9;">
-    <li><strong>Qi2 wireless pad:</strong> 400-800 EGP</li>
-    <li><strong>USB-C wall adapter at 20-30W (if you do not already own one):</strong> <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> approximately 250-350 EGP</li>
-    <li><strong>Total to get started:</strong> 650-1150 EGP</li>
+    <li><strong>Qi2 wireless pad:</strong> about 400-800 EGP (approximate market range, varies by seller)</li>
+    <li><strong>USB-C wall adapter at 20-30W (if you do not already own one):</strong> <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;">Anker 30W (A2147)</a> at EGP {{price:anker-a2147-gan-charger-30w}}</li>
 </ul>
 
 <p>Compared to a quality USB-C cable (100-200 EGP) — wireless is significantly more expensive. The question to ask honestly: does the convenience justify it for your daily habits? For people who find plugging and unplugging a cable genuinely annoying, or who want phone-always-visible on a desk pad without a cable dangling — yes, the Qi2 setup makes sense. For people who charge once at night and plug in the cable on the way to sleep — the cable approach is simpler, cheaper, and marginally faster.</p>
@@ -541,7 +538,7 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
 
 <p>Qi2 wireless pads are not yet widely available in Egypt's retail market. What is available are old Qi pads and Apple's own MagSafe at high prices. The smart move right now: invest in a quality USB-C wall adapter — you need one regardless of whether you ever buy a wireless pad.</p>
 
-<p>The <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W</a> or <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;">Anker 30W</a> will fast-charge your phone by cable today, and when you add a Qi2 pad to your setup later, the same adapter powers it perfectly. That is a future-proof purchase either way.</p>`,
+<p>The <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W</a> or <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;">Anker 30W</a> will fast-charge your phone by cable today, and when you add a Qi2 pad to your setup later, the same adapter powers it perfectly. That is a future-proof purchase either way.</p>`,
             faq: [
                 {
                     question: 'Does iPhone 15 charge at 15W on any Qi2 wireless charger?',

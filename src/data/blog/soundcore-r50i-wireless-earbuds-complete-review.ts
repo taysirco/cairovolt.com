@@ -4,7 +4,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
     slug: 'soundcore-r50i-wireless-earbuds-complete-review',
     category: 'review',
     publishDate: '2026-07-17',
-    modifiedDate: '2026-07-17',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'anker-soundcore-r50i',
@@ -32,7 +32,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
             metaDescription: 'مراجعة سماعة Soundcore R50i بالتفصيل: ليه بقت من الأكثر انتشاراً في مصر؟ أرقام واقعية للبطارية الفوق ممتازة وجودة الصوت وموثوقيتها في حرارة الصيف والتعرق.',
             keywords: 'soundcore r50i مراجعة, مراجعة soundcore r50i مصر, سماعة soundcore r50i سعر مصر, soundcore r50i بالعربي, افضل سماعة بلوتوث مصر 2026, soundcore r50i بطارية, soundcore r50i انكر, سماعة لاسلكية رخيصة مصر, soundcore r50i مواصفات, الأكثر مبيعاً سماعة مصر 2026',
             excerpt: 'Soundcore R50i واحدة من أكثر السماعات اللاسلكية مبيعاً في مصر. مراجعة شاملة بالأرقام — الصوت، البطارية، الراحة، والعيوب الحقيقية اللي مش هتلاقيها في مراجعات تانية.',
-            quickAnswer: 'Soundcore R50i من الأكثر مبيعاً في مصر لأسباب منطقية: بطارية 9 ساعات + 36 ساعة في الكيس، شحن سريع (10 دقايق = ساعتين)، IPX5 للتعرق، Bluetooth 5.3، وصوت كويس للسعر. العيوب: لا ANC، لا تطبيق EQ، جودة مكالمات متوسطة.',
+            quickAnswer: 'Soundcore R50i اختيار اقتصادي شائع لأسباب منطقية: الشركة بتعلن 10 ساعات للسماعة و30 ساعة إجمالاً، وعلى عيّنتنا قسنا 9 ساعات و28 دقيقة لسماعة مفردة، مع شحن سريع (10 دقايق = ساعتين) وIPX5 وبلوتوث 5.3 ودعم تطبيق Soundcore. العيوب: لا ANC، ومكالمات متوسطة في الخارج. سعرها {{price:anker-soundcore-r50i}} جنيه.',
             content: `<p>لو دوّرت على سماعة بلوتوث مصر في 2025-2026، على الأغلب ظهرلك Soundcore R50i مرة أو أكتر. مش صدفة — ده منتج وصل لنقطة توازن مثالية بين السعر والأداء. بس هل فعلاً يستحق؟ مراجعة كاملة بالأرقام — مع العيوب الحقيقية.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -48,64 +48,64 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المواصفة</th>
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">القيمة</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المقارنة بالسوق</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">ملاحظة</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">البلوتوث</td>
             <td style="padding:12px;border:1px solid #d1d5db;">5.3</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">⬆ أحسن من كتير في نفس السعر (5.1)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حسب ساوندكور</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">بطارية السماعة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">9 ساعات</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">⬆ المعدل السوقي 6-7 ساعات</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">10 ساعات (معلن)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">على عيّنتنا: 9 ساعات و28 دقيقة (صوت 50%)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">بطارية الكيس</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">36 ساعات إضافية</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">⬆ المعدل 20-25 ساعة</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حتى 30 ساعة إجمالاً (معلن)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">على عيّنتنا: 28 ساعة و12 دقيقة إجمالاً</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">شحن سريع</td>
             <td style="padding:12px;border:1px solid #d1d5db;">10 دقايق = ساعتين</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">⬆ كتير من المنافسين مش عندهم ده</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">رقم معلن من الشركة</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">مقاومة مياه</td>
             <td style="padding:12px;border:1px solid #d1d5db;">IPX5</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">⬆ المعدل IPX4 في نفس السعر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">رذاذ وعرق — مش للغطس</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">إلغاء ضوضاء ANC</td>
             <td style="padding:12px;border:1px solid #d1d5db;">لأ</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">= معظم في نفس السعر كمان ما عندهاش</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">لو محتاج عزل نشط: R50i NC</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">تطبيق EQ</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">لأ</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">= ميزة موجودة في R50i NC بس</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">أيوه (تطبيق Soundcore)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">تعديل الصوت والتحكم من التطبيق</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">درايفر</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">9.2 مم</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">⬆ المعدل 8 مم</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">10 مم BassUp</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حسب ساوندكور</td>
         </tr>
     </tbody>
 </table>
 
-<h2>ليه R50i بقت من الأكثر مبيعاً في مصر؟</h2>
+<h2>ليه ناس كتير في مصر بتختار R50i؟</h2>
 
-<p>مش كل منتج بيبيع كتير بيكون الأحسن — لكن R50i نجحت لأسباب حقيقية:</p>
+<p>الانتشار لوحده مش معناه إن المنتج يناسبك — لكن R50i عندها أسباب عملية:</p>
 
 <h3>السبب الأول — البطارية</h3>
-<p>9 ساعات على السماعة + 36 ساعة في الكيس = 45 ساعة إجمالي. ده ضعف كتير من المنافسين. للمصري اللي بيسافر كثير (القاهرة-الإسكندرية-الصعيد) أو بيشتغل يوم كامل برّه — ده فارق حقيقي.</p>
+<p>الشركة بتعلن حتى 10 ساعات للسماعة و30 ساعة إجمالاً مع الكيس. للمصري اللي بيسافر كثير (القاهرة-الإسكندرية-الصعيد) أو بيشتغل يوم كامل برّه — ده فارق حقيقي.</p>
 
 <div class="expert-callout" style="background:#f0fdf4;border:1px solid #86efac;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#166534;font-weight:bold;">🔋 البطارية في الاستخدام الواقعي:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#166534;font-weight:bold;">🔋 قياس كايرو فولت للبطارية:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        حسب تقارير المستخدمين والمراجعات المستقلة، البطارية الفعلية بتيجي قريبة جداً من المعلن — <strong>حوالي 8.5-9 ساعات</strong> على صوت متوسط وبلوتوث متصل. الكيس بيضيف 36 ساعة وفق المواصفات (حوالي 4 شحنات كاملة). وميزة الـ 10 دقايق = ساعتين معلنة رسمياً من الشركة.
+        على عيّنتنا (CV-EB-A3949-R50I-001، AAC على iPhone 15، صوت 50%) قسنا <strong>9 ساعات و28 دقيقة</strong> لسماعة مفردة و28 ساعة و12 دقيقة إجمالاً مع الكيس — في حدود 6% من المعلن (10 / 30 ساعة). تفاصيل القياس في <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">صفحة المنتج</a>. وميزة الـ 10 دقايق = ساعتين معلنة من الشركة.
     </p>
 </div>
 
@@ -142,7 +142,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 <p>R50i بتيجي بـ 3 أحجام من الطرف المطاطي (ear tip): صغير، متوسط، كبير. اختر المناسب لأذنك — ده بيأثر على:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:8px;"><strong>العزل الصوتي الطبيعي (Passive Isolation):</strong> الطرف المناسب بيعزل طبيعياً بدون ANC بنسبة 10-15 dB.</li>
+    <li style="margin-bottom:8px;"><strong>العزل الصوتي الطبيعي (Passive Isolation):</strong> الطرف المناسب بيعزل الضوضاء طبيعياً بدرجة معقولة من غير ANC.</li>
     <li style="margin-bottom:8px;"><strong>ثبات الجلسة:</strong> الطرف المناسب يخلي السماعة مش بتوقع في الجري أو المشي السريع.</li>
     <li style="margin-bottom:8px;"><strong>الراحة لمدة طويلة:</strong> الطرف الكبير أوي بيضغط، الصغير أوي بيضيع. الوسط أحسن للساعات الطويلة.</li>
 </ul>
@@ -159,13 +159,13 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 
 <p>بفضل تزويد السماعة بشريحة بلوتوث 5.3 الحديثة، فإن استقرار الاتصال ممتاز. ولكن بالنسبة للاعبين في مصر (خاصة محبي ألعاب الأكشن والشوتر مثل PUBG Mobile أو Free Fire)، فإن تأخر الصوت (Latency) يمثل فارقاً بين الفوز والخسارة.</p>
 
-<p>عند تفعيل **وضع الألعاب (Gaming Mode)** عبر تطبيق Soundcore، ينخفض زمن تأخير الصوت بشكل كبير ليصل إلى حوالي 80 مللي ثانية فقط. هذا يجعل الصوت متزامناً تماماً مع الحركة على الشاشة وصوت إطلاق النار والخطوات في الألعاب التنافسية. أما بالنسبة لمشاهدة مقاطع فيديو يوتيوب أو مسلسلات نتفليكس، فإن تزامن الشفاه تلقائي ومثالي حتى بدون تفعيل وضع الألعاب.</p>
+<p>عند تفعيل <strong>وضع الألعاب (Gaming Mode)</strong> عبر تطبيق Soundcore، بيقل زمن تأخير الصوت بشكل ملحوظ (الشركة مش بتنشر رقم مللي ثانية، وإحنا ما قسناهوش). ده بيخلي الصوت متزامن أكتر مع الحركة على الشاشة وصوت إطلاق النار والخطوات في الألعاب التنافسية. أما بالنسبة لمشاهدة مقاطع فيديو يوتيوب أو مسلسلات نتفليكس، فإن تزامن الشفاه تلقائي ومثالي حتى بدون تفعيل وضع الألعاب.</p>
 
 <h2>لماذا تعد المواد الخام للعلبة والسماعات مقاومة للصدمات؟</h2>
 
 <p>صُنعت علبة السماعة من بلاستيك البوليكربونات المقوى المعالج بطلاء مطفي. هذا الاختيار الهندسي للمواد يحميها من التشرخ أو الخدوش العميقة عند سقوطها العرضي على الأرضيات الصلبة مثل البلاط أو الأسفلت. بالإضافة إلى ذلك، فإن القطع المغناطيسية الداخلية التي تثبت السماعات في مكانها قوية بما يكفي لمنع خروج السماعات وتناثرها في الشارع عند سقوط علبة الشحن وهي مغلقة.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات أنكر أصلية 100% بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">سماعات أصلية قابلة للتخصيص: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الأساسية</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات أصلية 100% بضمان كايرو فولت المكتوب:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">سماعات أصلية قابلة للتخصيص: <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الأساسية</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a> · <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a>.</p></div>
 
 <h2>جودة المكالمات — صادقون معك</h2>
 
@@ -211,7 +211,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
     <p style="margin:0;color:#92400e;font-size:15px;line-height:1.8;">
         <strong>العيوب الفعلية:</strong><br>
         1. <strong>لا ANC:</strong> الضوضاء موجودة — العزل من الطرف المطاطي بس (passive). لو بيئتك صاخبة جداً، محتاج R50i NC.<br>
-        2. <strong>لا تطبيق EQ:</strong> الصوت ثابت — ما تقدرش تغيّر توقيع الصوت. لو بتحب التخصيص — R50i NC يدي ده.<br>
+        2. <strong>ترميز SBC/AAC بس:</strong> مفيش LDAC، والباس قوي في الإعداد الافتراضي — بس تقدر تعدّله من تطبيق Soundcore.<br>
         3. <strong>جودة مكالمات متوسطة في الخارج:</strong> موضّحة في الجدول فوق.<br>
         4. <strong>الاتصال بجهاز واحد بس:</strong> مش بيدعم Multipoint — مش بيتصل بالموبايل واللاب توب في نفس الوقت.
     </p>
@@ -236,22 +236,22 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;">ANC</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ لأ</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">✅ نعم (-25dB)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">✅ نعم (معلن)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">تطبيق EQ</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">❌ لأ</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">✅ نعم (22 نطاق)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">✅ نعم</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">✅ نعم</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;">بطارية السماعة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">9 ساعة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">10h (ANC OFF) / 7h (ANC ON)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حتى 10 ساعات (معلن)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حتى 10 ساعات (معلن)، أقل مع ANC</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">بطارية الكيس</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">36 ساعة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">40 ساعة</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حتى 30 ساعة إجمالاً</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حتى 45 ساعة إجمالاً</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;">جودة مكالمات</td>
@@ -270,31 +270,19 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 <li><strong>طريقة إعادة ضبط المصنع (Reset):</strong> إذا واجهت مشكلة في التزامن بين الفردتين، ضع السماعتين داخل علبة الشحن واترك الغطاء مفتوحاً. اضغط مع الاستمرار على منطقة اللمس في السماعتين معاً لمدة 10 ثوانٍ حتى تومض لمبات LED ثلاث مرات باللون الأحمر. الآن تم مسح ذاكرة الاقتران ويمكنك ربطها بالهاتف مجدداً كمنتج جديد تماماً.</li>
 </ol>
 
-<p>شراء السماعة من مصدر رسمي يضمن لك الحصول على كابل شحن أصلي وحبل تعليق متين داخل علبة التجزئة المغلقة بمصنع الشركة، وهو ما يضمن لك عدم التعرض للغش التجاري المنتشر بكثرة في المتاجر غير المعتمدة.</p>
+<p>علشان تضمن إن السماعة أصلية وكاملة المحتويات (كابل الشحن وحبل التعليق في علبة مقفولة): اشتري بفاتورة وضمان مكتوب من البائع، ولو العلبة عليها ملصق كود أمان (16 أو 20 رقم تحت طبقة الخدش) اتأكد منه على <a href="https://www.anker.com/verify" target="_blank" rel="noopener" style="color:#1d4ed8">anker.com/verify</a> — وغياب الملصق لوحده مش معناه إن المنتج مقلد.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Soundcore R50i أصلية بضمان 18 شهر — كايرو فولت.كوم</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Soundcore R50i أصلية بضمان كايرو فولت المكتوب — كايرو فولت.كوم</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         متاحة على كايرو فولت.كوم بضمان حقيقي يشمل عيوب التصنيع والبطارية. توصيل لكل المحافظات + دفع عند الاستلام. اشتري بضمان المتجر المكتوب واطمن.
     </p>
 </div>`,
             faq: [
-                {
-                    question: 'ليه Soundcore R50i من الأكثر مبيعاً في مصر؟',
-                    answer: 'لأسباب عملية ملموسة: بطارية 9 ساعات (الأعلى في فئتها السعرية)، كيس يضيف 36 ساعة إضافية، شحن سريع (10 دقايق = ساعتين)، IPX5 لمقاومة التعرق في الصيف المصري، وBluetooth 5.3. مجموع ده بسعر اقتصادي هو مزيج نادر في السوق.'
-                },
-                {
-                    question: 'هل Soundcore R50i بتتحمل التعرق في الجيم والشارع؟',
-                    answer: 'نعم. IPX5 معناه إنها بتتحمل رذاذ مياه مباشر وتعرق شديد، حتى مع الاستخدام الممتد في حرارة الصيف — وتجارب المستخدمين بتأكد ده. مناسبة للرياضة وللاستخدام الخارجي في الصيف المصري.'
-                },
-                {
-                    question: 'هل ممكن أضبط الصوت في R50i العادية؟',
-                    answer: 'لأ. R50i الأساسية ما عندهاش تطبيق EQ — الصوت ثابت. لو عايز تخصيص صوت، محتاج R50i NC اللي عندها تطبيق Soundcore بـ 22 نطاق EQ. الفرق مهم لو بتفضّل صوت مختلف عن التوقيع الافتراضي (باس قوي).'
-                },
-                {
-                    question: 'كام ساعة بطارية R50i فعلياً مش في الإعلانات؟',
-                    answer: 'واقعياً وحسب تقارير المستخدمين: حوالي 8.5-9 ساعات على صوت متوسط وبلوتوث متصل — قريب جداً من وعد الشركة بـ 9 ساعات. الكيس بيضيف 36 ساعة إجمالي وفق المواصفات (حوالي 4 شحنات كاملة). والشحن السريع (10 دقايق = ساعتين) ميزة معلنة رسمياً.'
-                }
+                { question: 'ليه ناس كتير في مصر بتختار Soundcore R50i؟', answer: 'لأسباب عملية: الشركة بتعلن 10 ساعات للسماعة و30 ساعة إجمالاً (على عيّنتنا قسنا 9 ساعات و28 دقيقة لسماعة مفردة)، وشحن سريع (10 دقايق = ساعتين)، وIPX5 لمقاومة التعرق، وبلوتوث 5.3، ودعم تطبيق Soundcore — بسعر {{price:anker-soundcore-r50i}} جنيه.' },
+                { question: 'هل Soundcore R50i بتتحمل التعرق في الجيم والشارع؟', answer: 'أيوه. تصنيف IPX5 المعلن معناه إنها بتتحمل رذاذ المية والتعرق الشديد، فمناسبة للرياضة والاستخدام الخارجي في الصيف — بس مش للغطس.' },
+                { question: 'هل ممكن أضبط الصوت في R50i العادية؟', answer: 'أيوه. R50i بتشتغل مع تطبيق Soundcore، وتقدر منه تعدّل الإيكوالايزر وتخصص أزرار اللمس. اللي ناقصها مقارنة بـ R50i NC هو عزل الضوضاء النشط ANC.' },
+                { question: 'كام ساعة بطارية R50i فعلياً مش في الإعلانات؟', answer: 'على عيّنتنا (AAC على iPhone 15، صوت 50%) قسنا 9 ساعات و28 دقيقة لسماعة مفردة و28 ساعة و12 دقيقة إجمالاً مع الكيس، والشركة بتعلن 10 و30 ساعة. والشحن السريع (10 دقايق = ساعتين) رقم معلن من الشركة.' },
             ]
         },
         en: {
@@ -303,7 +291,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
             metaDescription: 'Honest review of Soundcore R50i wireless earbuds. Why is it among Egypt\'s best sellers? Realistic numbers for battery, sound quality, and physical reliability.',
             keywords: 'soundcore r50i review, soundcore r50i egypt review, soundcore r50i price egypt, soundcore r50i specs, best budget earbuds egypt 2026, soundcore r50i battery test, soundcore r50i anker, wireless earbuds egypt cheap, soundcore r50i vs r50i nc, most popular earbuds egypt 2026',
             excerpt: 'Soundcore R50i is one of the best-selling wireless earbuds in Egypt. A complete review with real numbers — sound, battery, comfort, and the honest cons you will not find in other reviews.',
-            quickAnswer: 'Soundcore R50i became Egypt\'s bestseller for real reasons: 9-hour battery + 36-hour case, 10-minute fast charge = 2 hours playback, IPX5 for sweat resistance, Bluetooth 5.3, and good sound for the price. Honest cons: no ANC, no EQ app, average call quality outdoors.',
+            quickAnswer: 'The Soundcore R50i is a popular budget pick for practical reasons: Soundcore lists 10 hours per earbud and 30 hours in total, and we measured 9 h 28 min single-bud on our sample, plus fast charge (10 minutes = 2 hours), IPX5, Bluetooth 5.3 and Soundcore app support. Cons: no ANC and average outdoor calls. It costs EGP {{price:anker-soundcore-r50i}}.',
             content: `<p>If you searched for wireless earbuds in Egypt in 2025-2026, the Soundcore R50i almost certainly appeared in your results more than once. This is not a coincidence — it is a product that has hit an optimal price-to-performance sweet spot. But does it actually deserve the hype? Complete review with real numbers — including the honest cons.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -319,64 +307,64 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Specification</th>
             <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Value</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">vs Market Average</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Note</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Bluetooth</td>
             <td style="padding:12px;border:1px solid #d1d5db;">5.3</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">⬆ Better than many at this price (5.1)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Per Soundcore</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud battery</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">9 hours</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">⬆ Market average is 6-7 hours</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">10 hours (listed)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Our sample: 9 h 28 min (50% volume)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Case battery</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">36 additional hours</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">⬆ Market average is 20-25 hours</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Up to 30 hours total (listed)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Our sample: 28 h 12 min total</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Quick charge</td>
             <td style="padding:12px;border:1px solid #d1d5db;">10 minutes = 2 hours</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">⬆ Many competitors lack this</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Manufacturer figure</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Water resistance</td>
             <td style="padding:12px;border:1px solid #d1d5db;">IPX5</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">⬆ Market average is IPX4</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Splashes and sweat — not for submersion</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">ANC</td>
             <td style="padding:12px;border:1px solid #d1d5db;">No</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">= Most at this price also lack it</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">For active noise cancelling: R50i NC</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">EQ app</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">No</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">= Feature available on R50i NC only</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Yes (Soundcore app)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Sound and control adjustments in the app</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Driver</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">9.2mm</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">⬆ Market average is 8mm</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">10mm BassUp</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Per Soundcore</td>
         </tr>
     </tbody>
 </table>
 
-<h2>Why R50i Became Egypt's Bestseller</h2>
+<h2>Why So Many People in Egypt Pick the R50i</h2>
 
-<p>Not every bestseller is the best product — but the R50i succeeded for real reasons:</p>
+<p>Popularity alone does not make a product right for you — but the R50i has practical reasons behind it:</p>
 
 <h3>Reason #1 — The Battery</h3>
-<p>9 hours on the earbuds + 36 hours in the case = 45 hours total. That is double many competitors. For an Egyptian who travels frequently (Cairo-Alexandria-Upper Egypt) or works full days away from an outlet — this is a genuine differentiator.</p>
+<p>Soundcore lists up to 10 hours per earbud and 30 hours in total with the case. For an Egyptian who travels frequently (Cairo-Alexandria-Upper Egypt) or works full days away from an outlet — this is a genuine differentiator.</p>
 
 <div class="expert-callout" style="background:#f0fdf4;border:1px solid #86efac;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#166534;font-weight:bold;">🔋 CairoVolt Battery Test:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#166534;font-weight:bold;">🔋 CairoVolt Battery Measurement:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We tracked 4 R50i units in daily real-world use for 3 weeks. <strong>Actual average battery life: 8.7 hours</strong> at 65% volume with an active Bluetooth connection. The case provided 4 full recharges. The 10-minute = 2-hour fast charge claim was confirmed across 3 separate tests.
+        On our sample (CV-EB-A3949-R50I-001, AAC on an iPhone 15, 50% volume) we measured <strong>9 h 28 min</strong> single-bud and 28 h 12 min in total with the case — within 6% of the listed 10 / 30 hours. Measurement details are on the <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">product page</a>. The 10-minute = 2-hour quick charge is a manufacturer figure.
     </p>
 </div>
 
@@ -399,7 +387,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🎵 <strong>Arabic and pop music:</strong> Excellent. Strong bass, clear rhythms, warm presentation.</li>
     <li style="margin-bottom:12px;">🎵 <strong>Podcasts and spoken word:</strong> Very good. Voices are clear and comfortable for long sessions.</li>
-    <li style="margin-bottom:12px;">🎵 <strong>EDM and hip-hop:</strong> Bass comes through with authority — maybe slightly too much if you prefer flat. No adjustment without an app (not available on the base model).</li>
+    <li style="margin-bottom:12px;">🎵 <strong>EDM and hip-hop:</strong> Bass comes through with authority — maybe slightly too much if you prefer flat. You can tone it down from the Soundcore app.</li>
     <li style="margin-bottom:12px;">🎵 <strong>Classical and jazz:</strong> Acceptable. Soundstage is limited but not distracting.</li>
 </ul>
 
@@ -408,7 +396,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 <p>The R50i comes with 3 ear tip sizes: small, medium, large. Choosing the right fit affects:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:8px;"><strong>Passive noise isolation:</strong> The right tip passively isolates 10-15 dB without any ANC.</li>
+    <li style="margin-bottom:8px;"><strong>Passive noise isolation:</strong> The right tip gives reasonable passive isolation without any ANC.</li>
     <li style="margin-bottom:8px;"><strong>Stability during movement:</strong> Correct fit keeps the earbuds in place during running or fast walking.</li>
     <li style="margin-bottom:8px;"><strong>Long-session comfort:</strong> Too large creates pressure, too small falls out. Medium is best for extended wear.</li>
 </ul>
@@ -459,21 +447,21 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 
 <p>Equipped with a Bluetooth 5.3 chip, the R50i offers outstanding wireless stability. However, for mobile gamers in Egypt playing high-stakes shooters like PUBG Mobile or Call of Duty Mobile, audio latency is a critical performance factor.</p>
 
-<p>By enabling **Gaming Mode** via the Soundcore app, latency drops to an impressive ~80ms. This ensures that in-game footsteps and gunfire sounds synchronize perfectly with the on-screen action, giving you a competitive edge. For standard media consumption on YouTube or Netflix, automatic audio-video synchronization is seamless and doesn't require Gaming Mode to be active.</p>
+<p>By enabling <strong>Gaming Mode</strong> via the Soundcore app, latency drops noticeably (Soundcore publishes no millisecond figure and we have not measured one). This keeps in-game footsteps and gunfire better in sync with the on-screen action, giving you a competitive edge. For standard media consumption on YouTube or Netflix, automatic audio-video synchronization is seamless and doesn't require Gaming Mode to be active.</p>
 
 <h2>Drop-Resistant Polycarbonate Shell Materials</h2>
 
 <p>The charging case and earbuds are constructed from a durable, impact-resistant polycarbonate blend treated with a textured matte finish. This engineering choice helps the device survive accidental drops on hard concrete or tiled floors without cracking the housing. Furthermore, the internal magnets anchoring the earbuds inside their slots are strong enough to prevent them from flying out and rolling into street grates if the case drops while closed.</p>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore earbuds: <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (CairoVolt's written store warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Original Soundcore earbuds: <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a>.</p></div>
 
 <h2>Real Cons — No Glossing Over</h2>
 
 <div class="quick-answer-inline" style="background:#fef3c7;border-left:4px solid #f59e0b;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;color:#92400e;font-size:15px;line-height:1.8;">
         <strong>Actual shortcomings:</strong><br>
-        1. <strong>No ANC:</strong> Background noise is present — only the ear tip provides passive isolation (10-15 dB). If your environment is very loud, you need the R50i NC.<br>
-        2. <strong>No EQ app:</strong> Sound is fixed — you cannot change the sound signature. If you want customization, the R50i NC offers a 22-band EQ.<br>
+        1. <strong>No ANC:</strong> Background noise is present — only the ear tip provides passive isolation. If your environment is very loud, you need the R50i NC.<br>
+        2. <strong>SBC/AAC only:</strong> No LDAC, and the default tuning is bass-heavy — though you can adjust it in the Soundcore app.<br>
         3. <strong>Average outdoor call quality:</strong> Detailed in the table above.<br>
         4. <strong>Single device connection:</strong> No Multipoint support — cannot be connected to both a phone and a laptop simultaneously.
     </p>
@@ -486,31 +474,19 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 <li><strong>Perform a Factory Reset:</strong> If the left and right earbuds lose synchronization, place both buds inside the charging case and keep the lid open. Press and hold the touch sensor areas on both earbuds simultaneously for 10 seconds until the LED indicators flash red three times. Remove them from the case and pair them again with your device.</li>
 </ul>
 
-<p>This troubleshooting process takes less than five minutes but resolves over 90% of reported issues. Keeping the charging pins clean also prevents long-term oxidation, which is accelerated by high temperatures and moisture. Buying from a trusted source like CairoVolt ensures you receive a factory-sealed box with all original components, including the custom lanyard and official Type-C charging cable.</p>
+<p>This troubleshooting process takes less than five minutes and resolves many common pairing issues. Keeping the charging pins clean also prevents long-term oxidation, which is accelerated by high temperatures and moisture. To make sure the earbuds are genuine and complete (charging cable and lanyard in a sealed box), buy with an invoice and a written warranty from the seller, and if the box carries a scratch-off security label (16 or 20 digits), check it at <a href="https://www.anker.com/verify" target="_blank" rel="noopener" style="color:#1d4ed8">anker.com/verify</a> — a missing label alone does not mean the product is fake.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic Soundcore R50i with 18-Month Warranty — CairoVolt.com</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic Soundcore R50i with CairoVolt's Written Store Warranty — CairoVolt.com</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         Available on CairoVolt.com with a real warranty covering manufacturing defects and battery issues. Delivery to all governorates + cash on delivery. Buy with confidence — backed by CairoVolt's written store warranty.
     </p>
 </div>`,
             faq: [
-                {
-                    question: 'Why is the Soundcore R50i the most popular earbuds in Egypt?',
-                    answer: 'For concrete practical reasons: 9-hour battery (highest in its price category), a case that adds 36 more hours, fast charge (10 minutes = 2 hours), IPX5 sweat resistance for Egyptian summer, and Bluetooth 5.3. That combination at a budget price is rare in the market.'
-                },
-                {
-                    question: 'Does the Soundcore R50i handle sweating during exercise or outdoor use?',
-                    answer: 'Yes. IPX5 means it handles direct water splashing and heavy sweating. We tested 90 minutes in 37-degree heat outdoors — no issues. It is suitable for sports and outdoor use in the Egyptian summer.'
-                },
-                {
-                    question: 'Can I adjust the sound on the base R50i?',
-                    answer: 'No. The base R50i has no EQ app — the sound signature is fixed. If you want sound customization, you need the R50i NC which includes the Soundcore app with a 22-band EQ. This matters if you prefer a sound signature different from the default (bass-forward) tuning.'
-                },
-                {
-                    question: 'What is the actual real-world battery life on the R50i?',
-                    answer: 'In our real-world testing: 8.7 hours at 65% volume with active Bluetooth connection. The manufacturer claims 9 hours — confirmed. The case provided 4 full recharges (36 total hours). The quick charge feature (10 minutes = 2 hours) was confirmed across 3 separate tests.'
-                }
+                { question: 'Why do so many people in Egypt pick the Soundcore R50i?', answer: 'For practical reasons: Soundcore lists 10 hours per earbud and 30 hours in total (we measured 9 h 28 min single-bud on our sample), plus fast charge (10 minutes = 2 hours), IPX5 sweat resistance, Bluetooth 5.3 and Soundcore app support — at EGP {{price:anker-soundcore-r50i}}.' },
+                { question: 'Does the Soundcore R50i handle sweating during exercise or outdoor use?', answer: 'Yes. The listed IPX5 rating means it handles water splashes and heavy sweat, so it suits sport and outdoor use in summer — but it is not for submersion.' },
+                { question: 'Can I adjust the sound on the base R50i?', answer: 'Yes. The R50i works with the Soundcore app, where you can adjust the EQ and customize touch controls. What it lacks compared with the R50i NC is active noise cancelling.' },
+                { question: 'What is the actual real-world battery life on the R50i?', answer: 'On our sample (AAC on an iPhone 15, 50% volume) we measured 9 h 28 min single-bud and 28 h 12 min in total with the case, against the listed 10 and 30 hours. The quick charge (10 minutes = 2 hours) is a manufacturer figure.' },
             ]
         }
     }

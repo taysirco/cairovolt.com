@@ -72,7 +72,7 @@ export const joyroom_25w_fast_charger = {
                 metaDesc: "Charge iPhone and Samsung fast with the genuine Joyroom 25W USB-C PD charger, PD/PPS ready. In Egypt with store warranty and COD.",
                 faqs: [
                     { question: "How fast will it charge my iPhone or Samsung phone?", answer: "There is no single time for every model. Compare the phone's required USB-PD or PPS profile with the JR-TCF23 output table; the negotiated power then varies with cable, battery level, temperature and use." },
-                    { question: "Does it support Egypt's mains voltage?", answer: "Check that the supplied unit is marked for the local voltage and frequency before connection. A wide input range does not protect against every electrical fault; use a sound outlet and follow the manufacturer instructions." },
+                    { question: "Does it support Egypt's mains voltage?", answer: "Yes. The label rates input at AC 100–240V, 50/60Hz, and our sample's fixed Europlug seated in Egyptian wall sockets without an adapter. A wide input range does not protect against every electrical fault; use a sound outlet and follow the manufacturer instructions." },
                     { question: "Can I leave it charging unattended?", answer: "Follow the phone and charger manufacturers' safety guidance. Keep the charger ventilated, use an undamaged rated cable and outlet, and stop use if any part is damaged or becomes unusually hot." },
                     { question: "What cable do I need for iPhone 17?", answer: "Use a USB-C to USB-C cable whose printed rating and supported profile meet the phone and charger requirements. Earlier Lightning iPhones need the appropriate USB-C to Lightning cable. Confirm whether a cable is included before ordering." },
                     { question: "How long will this charger last?", answer: "Service life varies with temperature, outlet quality, load and handling, so a fixed lifespan cannot be promised. Check the current warranty terms and inspect the charger regularly for damage or unusual heat." }
@@ -131,7 +131,7 @@ export const joyroom_25w_fast_charger = {
                     { question: "ينفع أسيبه يشحن من غير متابعة؟", answer: "اتبع تعليمات السلامة الخاصة بالهاتف والشاحن. اترك تهوية واستخدم كابل ومقبساً سليمين وتوقف عن الاستخدام عند التلف أو السخونة غير المعتادة." },
                     { question: "ما الكابل المطلوب للايفون 17؟", answer: "استخدم كابل USB-C إلى USB-C بتصنيف مطبوع وبروفايل مناسبين للهاتف والشاحن. تحتاج أجهزة ايفون الأقدم بموصل Lightning إلى الكابل المناسب، وتحقق مما إذا كان الكابل مشمولاً قبل الطلب." },
                     { question: "25 واط هتضر بطارية موبايلي؟", answer: "الهاتف والشاحن يتفاوضان على بروفايل مشترك، لكن يجب أن يكون الموديل والكابل متوافقين وسليمين. اتبع تعليمات الهاتف ولا تستخدم معدات تالفة أو غير مطابقة." },
-                    { question: "بيشتغل على كهرباء مصر؟", answer: "تحقق من طباعة نطاق الجهد والتردد المناسبين على الوحدة الموردة قبل التوصيل. نطاق الدخل الواسع لا يحمي من كل أعطال الكهرباء؛ استخدم مقبساً سليماً واتبع التعليمات." }
+                    { question: "بيشتغل على كهرباء مصر؟", answer: "نعم. الملصق يحدد الدخل بتيار متردد 100–240 فولت و50/60 هرتز، وقابس Europlug الثابت في عيّنتنا دخل الفيش المصرية بلا محوّل. نطاق الدخل الواسع لا يحمي من كل أعطال الكهرباء؛ استخدم مقبساً سليماً واتبع التعليمات." }
                 ]
             }
         },

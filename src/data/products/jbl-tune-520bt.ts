@@ -53,7 +53,7 @@ export const jbl_tune_520bt = {
         <li>Weight and build: JBL lists roughly 160g. A unit that feels notably lighter or has creaky, loose hinges usually has cheaper internals.</li>
         <li>Packaging: original boxes have sharp print, correct spelling, and a labelled serial number.</li>
         <li>App pairing: a genuine Tune 520BT is recognised by the official JBL Headphones app — most fakes never appear in it.</li>
-        <li>Price logic: a "new" Tune 520BT offered around 40% below our price (roughly 1,200 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" Tune 520BT offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -95,7 +95,7 @@ export const jbl_tune_520bt = {
         <li>الوزن والخامة: JBL معلنة حوالي 160 جرام. وحدة حاسسها أخف بشكل ملحوظ أو مفصلاتها بتزَقزق غالبًا جواها مكونات أرخص.</li>
         <li>العلبة: الكرتونة الأصلية طباعتها حادة، إملاؤها سليم، وعليها رقم تسلسلي واضح.</li>
         <li>التطبيق: الـTune 520BT الأصلي بيتعرف عليه تطبيق JBL Headphones الرسمي — أغلب التقليد عمره ما بيظهر فيه.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 1,200 جنيه أو أقل) شبه مؤكد مش أصلية.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

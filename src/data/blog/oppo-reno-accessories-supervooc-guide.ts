@@ -16,7 +16,8 @@ export const oppo_reno_accessories_supervooc_guide: BlogArticle = {
     relatedArticles: [
         'does-fast-charging-damage-battery-truth',
         'buy-samsung-phone-egypt-guide-accessories',
-        'samsung-s-ultra-45w-fast-charging-accessories'
+        'samsung-s-ultra-45w-fast-charging-accessories',
+        'oppo-chargers-prices-egypt-identify-fakes'
     ],
     relatedCategories: ['Joyroom/wall-chargers', 'Joyroom/earbuds'],
     coverImage: '/images/blog/posts/oppo-reno-accessories-supervooc-guide.webp',

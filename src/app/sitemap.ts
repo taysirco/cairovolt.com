@@ -9,6 +9,7 @@ import { blogIndex, isIndexEntryLive } from '@/data/blog-index';
 import { genericCategories } from '@/data/generic-categories';
 import { getFirestore } from '@/lib/firebase-admin';
 import { CATALOG_LAST_REVIEWED_AT, SEO_SITEMAP_EXCLUDED_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
+import { CATALOG_LASTMOD, CATALOG_SOURCE_LASTMOD } from '@/data/catalog-lastmod.generated';
 
 // The blog scheduling gate is time-based (isIndexEntryLive), so this route must
 // NOT be a frozen build-time prerender: without ISR a scheduled article goes
@@ -20,16 +21,66 @@ export const revalidate = 3600;
 const baseUrl = 'https://cairovolt.com';
 
 /**
- * Catalog surfaces (home, brand hubs, category pages, product pages, location
- * pages) all render the same catalog data, so they share ONE honest
- * lastModified: the date of the last full catalog content and offer review.
+ * Catalog lastmod comes from src/data/catalog-lastmod.generated.ts — a committed
+ * map that moves a product's date only when its product or details file
+ * actually changes (scripts/generate-catalog-lastmod.mjs; price-sync.yml runs it).
  *
- * Google discards lastmod it judges unreliable — a date that moves to "today"
- * on every build is the classic way to lose the signal. Pinning these to the
- * real review date keeps lastmod trustworthy and lets it actually influence
- * recrawl scheduling.
+ * One shared "catalog reviewed" date used to stamp every catalog URL, including
+ * products added after it, which is the classic way to make Google discard
+ * lastmod altogether. CATALOG_LAST_REVIEWED_AT is now only the fallback for a
+ * slug the map does not know yet — never the build time.
  */
 const catalogReviewedAt = new Date(CATALOG_LAST_REVIEWED_AT);
+
+function mapDate(entry: { lastmod: string } | undefined): Date | undefined {
+    if (!entry) return undefined;
+    const date = new Date(entry.lastmod);
+    return Number.isNaN(date.getTime()) ? undefined : date;
+}
+
+function maxDate(dates: Array<Date | undefined>): Date | undefined {
+    return dates.reduce<Date | undefined>(
+        (latest, date) => (date && (!latest || date > latest) ? date : latest),
+        undefined,
+    );
+}
+
+/** A product's own lastmod; falls back to the review date, never to "now". */
+function productLastmod(slug: string): Date {
+    return mapDate(CATALOG_LASTMOD[slug]) ?? catalogReviewedAt;
+}
+
+function sourceLastmod(key: string): Date | undefined {
+    return mapDate(CATALOG_SOURCE_LASTMOD[key]);
+}
+
+/** Active products shown on a brand/category shelf. */
+function shelfProductSlugs(brandSlug: string, categorySlug: string): string[] {
+    return staticProducts
+        .filter(product =>
+            product.status === 'active'
+            && product.brand.toLowerCase() === brandSlug
+            && product.categorySlug === categorySlug,
+        )
+        .map(product => product.slug);
+}
+
+/** A category shelf changes when one of its products or its own copy changes. */
+function categoryLastmod(brandSlug: string, categorySlug: string): Date {
+    return maxDate([
+        ...shelfProductSlugs(brandSlug, categorySlug).map(productLastmod),
+        sourceLastmod(`category:${brandSlug}/${categorySlug}`),
+    ]) ?? catalogReviewedAt;
+}
+
+/** A brand hub = the newest of its shelves plus its own hub copy. */
+function brandLastmod(brandSlug: string, hubSourceKey: string): Date {
+    const categories = Object.keys(categoryContent[brandSlug] || {});
+    return maxDate([
+        ...categories.map(categorySlug => categoryLastmod(brandSlug, toLower(categorySlug))),
+        sourceLastmod(hubSourceKey),
+    ]) ?? catalogReviewedAt;
+}
 
 /**
  * Coerce a Firestore Timestamp / Date / ISO string into a usable Date.
@@ -106,41 +157,51 @@ function addBilingual(
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const routes: MetadataRoute.Sitemap = [];
 
-    // ── Home ──
-    addBilingual(routes, '', 1.0, 'weekly', catalogReviewedAt);
+    // ── Home ── (featured shelves from every brand + its own FAQ copy)
+    const homeLastmod = maxDate([
+        ...staticProducts
+            .filter(product => product.status === 'active')
+            .map(product => productLastmod(product.slug)),
+        sourceLastmod('source:home'),
+    ]) ?? catalogReviewedAt;
+    addBilingual(routes, '', 1.0, 'weekly', homeLastmod);
 
     // ── Static Pages ──
-    addBilingual(routes, '/about', 0.5, 'monthly', new Date('2025-12-01'));
-    addBilingual(routes, '/team', 0.6, 'monthly', new Date('2026-05-29'));
-    addBilingual(routes, '/contact', 0.6, 'monthly', new Date('2025-12-01'));
-    addBilingual(routes, '/faq', 0.7, 'weekly');
+    // Dates of the last substantive content commit on each page (git log of
+    // the page source), not of markup-only edits.
+    addBilingual(routes, '/about', 0.5, 'monthly', new Date('2026-08-10'));
+    addBilingual(routes, '/team', 0.6, 'monthly', new Date('2026-07-17'));
+    addBilingual(routes, '/contact', 0.6, 'monthly', new Date('2026-07-18'));
+    addBilingual(routes, '/faq', 0.7, 'weekly', sourceLastmod('source:faq') ?? new Date('2026-07-17'));
     // Preserve the established bilingual URL as a transparent specifications
-    // and calculations hub; no synthetic test dataset is exposed.
-    addBilingual(routes, '/lab', 0.8, 'monthly', new Date('2026-07-17'));
+    // and calculations hub; no synthetic test dataset is exposed. Dated by the
+    // newest bench sheet it indexes (benchTest.testDate 2026-07-24).
+    addBilingual(routes, '/lab', 0.8, 'monthly', new Date('2026-07-24'));
     // ── Legal & Policy ──
     addBilingual(routes, '/return-policy', 0.4, 'yearly', new Date('2025-10-01'));
     addBilingual(routes, '/warranty', 0.4, 'yearly', new Date('2025-10-01'));
     addBilingual(routes, '/verify', 0.8, 'monthly', new Date('2026-04-20'));
-    addBilingual(routes, '/shipping', 0.5, 'monthly', new Date('2025-12-15'));
+    // 2026-10-04: per-governorate delivery list and the 5–6 day line added.
+    addBilingual(routes, '/shipping', 0.5, 'monthly', new Date('2026-10-04'));
     addBilingual(routes, '/terms', 0.3, 'yearly', new Date('2025-08-01'));
     addBilingual(routes, '/privacy', 0.3, 'yearly', new Date('2025-08-01'));
 
     // ── Brand Pages ──
     Object.keys(brandData).forEach(brandId => {
-        addBilingual(routes, `/${toLower(brandId)}`, 0.9, 'weekly', catalogReviewedAt);
+        addBilingual(routes, `/${toLower(brandId)}`, 0.9, 'weekly', brandLastmod(toLower(brandId), 'source:brand-data'));
     });
 
     // ── Soundcore Hub (Anker audio sub-brand) ──
     // Standalone landing for the Soundcore audio catalogue.
     // Served by a custom route (src/app/[locale]/soundcore/page.tsx) — NOT brandData.
     // Sub-pages (/soundcore/audio, /soundcore/speakers, products) come from categoryContent loop below.
-    addBilingual(routes, '/soundcore', 0.95, 'weekly', new Date('2026-05-26'));
+    addBilingual(routes, '/soundcore', 0.95, 'weekly', brandLastmod('soundcore', 'source:soundcore-hub'));
 
     // ── Category Pages ──
     Object.keys(categoryContent).forEach(brandId => {
         const brandSlug = toLower(brandId);
         Object.keys(categoryContent[brandId]).forEach(catSlug => {
-            addBilingual(routes, `/${brandSlug}/${toLower(catSlug)}`, 0.8, 'weekly', catalogReviewedAt);
+            addBilingual(routes, `/${brandSlug}/${toLower(catSlug)}`, 0.8, 'weekly', categoryLastmod(brandSlug, toLower(catSlug)));
         });
     });
 
@@ -153,7 +214,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             const path = `/${toLower(product.brand)}/${toLower(product.categorySlug)}/${product.slug}`;
             // 'weekly' is the honest cadence — product copy rarely changes daily,
             // and overstating freshness erodes sitemap trust.
-            addBilingual(routes, path, 0.9, 'weekly', catalogReviewedAt);
+            addBilingual(routes, path, 0.9, 'weekly', productLastmod(product.slug));
         });
 
     // Firebase-only products (hard 12s ceiling so prerender never stalls the build)
@@ -189,7 +250,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     // ── Generic Category Pages ──
     genericCategories.forEach(cat => {
-        addBilingual(routes, `/${cat.slug}`, 0.8, 'weekly', catalogReviewedAt);
+        const genericLastmod = maxDate([
+            ...cat.brandCategories.map(shelf => categoryLastmod(toLower(shelf.brandSlug), shelf.categorySlug)),
+            sourceLastmod(`generic:${cat.slug}`),
+        ]) ?? catalogReviewedAt;
+        addBilingual(routes, `/${cat.slug}`, 0.8, 'weekly', genericLastmod);
     });
 
     // ── Blog ── (only LIVE articles — scheduled/future ones stay out of the
@@ -207,18 +272,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
 
     // ── Governorate Location Pages ──
-    // Templated from the same catalog + shipping data, so they share its
-    // review date rather than claiming an independent update cadence.
+    // Rendered from governorates.ts + the shipping fee table, so they move
+    // when that data does (falls back to the catalog review date).
+    const locationsLastmod = sourceLastmod('source:locations') ?? catalogReviewedAt;
     governorates.forEach(gov => {
-        addBilingual(routes, `/locations/${gov.slug}`, 0.8, 'weekly', catalogReviewedAt);
+        addBilingual(routes, `/locations/${gov.slug}`, 0.8, 'weekly', locationsLastmod);
     });
 
     // ── Solution Pages ──
     try {
         const { solutionsDB } = await import('@/data/solutions-data');
+        const solutionsLastmod = sourceLastmod('source:solutions') ?? new Date('2026-07-24');
         solutionsDB.forEach(solution => {
             // Thin solution set — keep discoverable but do not over-claim crawl priority.
-            addBilingual(routes, `/solutions/${solution.slug}`, 0.4, 'monthly');
+            addBilingual(routes, `/solutions/${solution.slug}`, 0.4, 'monthly', solutionsLastmod);
         });
     } catch {
         // Solutions data not available

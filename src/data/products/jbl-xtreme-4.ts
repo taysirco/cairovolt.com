@@ -54,7 +54,7 @@ export const jbl_xtreme_4 = {
         <li>The battery door: the genuine Xtreme 4 has a proper replaceable-pack compartment per JBL's design — most fakes are fully sealed.</li>
         <li>Packaging: original boxes have sharp print, correct spelling, and a labelled serial number.</li>
         <li>App pairing: a genuine Xtreme 4 is recognised by the official JBL Portable app — most fakes never appear in it.</li>
-        <li>Price logic: a "new" Xtreme 4 offered around 40% below our price (roughly 13,000 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" Xtreme 4 offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -97,7 +97,7 @@ export const jbl_xtreme_4 = {
         <li>باب البطارية: الـXtreme 4 الأصلية فيها بيت بطارية بتتبدل فعلًا حسب تصميم JBL — أغلب التقليد مقفول تمامًا.</li>
         <li>العلبة: الكرتونة الأصلية طباعتها حادة، إملاؤها سليم، وعليها رقم تسلسلي واضح.</li>
         <li>التطبيق: الـXtreme 4 الأصلية بيتعرف عليها تطبيق JBL Portable الرسمي — أغلب التقليد عمره ما بيظهر فيه.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 13,000 جنيه أو أقل) شبه مؤكد مش أصلية.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

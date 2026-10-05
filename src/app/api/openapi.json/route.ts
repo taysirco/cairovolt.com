@@ -274,13 +274,14 @@ export async function GET() {
             '/api/products': {
                 get: {
                     operationId: 'listProducts',
-                    summary: 'List all products with filtering & pagination',
+                    summary: 'List catalogue products with filtering & pagination',
+                    description: 'Without a status parameter the list is the public catalogue: active products only, excluding records withheld from machine catalogues (the same set as llms.txt, the knowledge graph and feed.xml). Pass status=all to include every record, or a specific status (e.g. active, retired) to filter on it.',
                     tags: ['Products'],
                     parameters: [
                         { name: 'brand', in: 'query', description: 'Filter by brand (e.g., Anker, Joyroom)', schema: { type: 'string' } },
                         { name: 'category', in: 'query', description: 'Filter by category slug (e.g., power-banks, wall-chargers)', schema: { type: 'string' } },
                         { name: 'slug', in: 'query', description: 'Filter by product slug', schema: { type: 'string' } },
-                        { name: 'status', in: 'query', description: 'Filter by status (active, draft)', schema: { type: 'string' } },
+                        { name: 'status', in: 'query', description: 'Omit for the public catalogue (active, not machine-excluded). "all" returns every record; any other value (e.g. active, retired) filters on that exact status.', schema: { type: 'string' } },
                         { name: 'search', in: 'query', description: 'Search by name (EN/AR) or slug', schema: { type: 'string' } },
                         { name: 'page', in: 'query', description: 'Page number (default: 1)', schema: { type: 'integer', default: 1 } },
                         { name: 'limit', in: 'query', description: 'Items per page (default: 50)', schema: { type: 'integer', default: 50 } },

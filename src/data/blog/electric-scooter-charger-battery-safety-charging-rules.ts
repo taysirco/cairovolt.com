@@ -8,7 +8,7 @@ export const electric_scooter_charger_battery_safety_charging_rules: BlogArticle
     modifiedDate: '2026-08-17T14:12:00+03:00',
     readingTime: 7,
     relatedProducts: [
-        "anker-powercore-10000",
+        "anker-zolo-a110d-10000",
         "anker-zolo-a110e-20000",
         "joyroom-power-bank-10000",
         "joyroom-power-bank-20000",

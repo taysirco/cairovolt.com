@@ -6,18 +6,18 @@ import type { ProductDetail } from './_types';
 export const anker_737_powerbank_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Anker 737 Power Bank (PowerCore 24K, A1289/A1289011): 24,000mAh / 86.4Wh cell rating (24,000mAh × 3.6V ÷ 1000 = 86.4Wh — §8 Wh identity). CairoVolt measured 74.2Wh usable USB-C output → usable-energy ratio 74.2 ÷ 86.4 = 85.9% (USB output vs rated cell Wh; NOT AC wall-plug efficiency).',
+            'Anker 737 Power Bank (PowerCore 24K, A1289/A1289011): 24,000mAh / 86.4Wh cell rating (24,000mAh × 3.6V ÷ 1000 = 86.4Wh — Wh identity). CairoVolt measured 74.2Wh usable USB-C output → usable-energy ratio 74.2 ÷ 86.4 = 85.9% (USB output vs rated cell Wh; NOT AC wall-plug efficiency).',
             'CairoVolt measured 136.8W on the fixed 28V/5A PD 3.1 EPR rail (FNB58: 27.4V × 4.99A = 136.726W ≈ 136.8W; 136.8 ÷ 140 = 97.7% of printed max). Real laptop-class output, but full 140W behaviour still depends on the laptop and a 140W-rated USB-C cable. Rail type is fixed EPR PDO — not USB PD AVS.',
             'Current safety check, 2026-07-23: Anker rc2506 / CPSC Sept 2025 power-bank recall set covers A1257 / A1263 / A1647 / A1652 / A1681 / A1689 — NOT A1289. Still verify the printed model (A1289011) and serial on the received unit against anker.com/rc2506 + anker.com/product-recalls.',
             'At 86.4Wh it sits below the common IATA 100Wh carry-on threshold, but Emirates and flydubai (since ~1 Oct 2025) prohibit using the power bank, charging devices from it, or charging the pack from aircraft sockets in-flight — carry-on only under labelled ≤100Wh rules. Check the carrier DG page before travel.',
-            'Physical device anchors: Galaxy A15 3.36 full-charge equivalents; MacBook Air M2 top-up 0→91%. iPhone 15 ~5.15 and MacBook Pro 14" ~0.94 are calculated from 74.2Wh (§8), not re-benched on those devices. Single retail unit; June raw sheet gaps disclosed below.',
+            'Physical device anchors: Galaxy A15 3.36 full-charge equivalents; MacBook Air M2 top-up 0→91%. iPhone 15 ~5.15 and MacBook Pro 14" ~0.94 are calculated from 74.2Wh, not re-benched on those devices. Single retail unit; June raw sheet gaps disclosed below.',
         ],
         ar: [
-            'باور بانك انكر 737 (PowerCore 24K، A1289/A1289011): سعة خلايا 24,000 مللي أمبير / 86.4Wh (24,000×3.6V÷1000 = 86.4Wh — هوية Wh وفق §8). قاست CairoVolt خرج USB-C فعليًا 74.2Wh → نسبة الطاقة القابلة للاستخدام 74.2÷86.4 = 85.9% (خرج USB مقابل Wh الخلايا الاسمية؛ وليست كفاءة فيشة الحائط AC).',
+            'باور بانك انكر 737 (PowerCore 24K، A1289/A1289011): سعة خلايا 24,000 مللي أمبير / 86.4Wh (24,000×3.6V÷1000 = 86.4Wh — هوية Wh). قاست CairoVolt خرج USB-C فعليًا 74.2Wh → نسبة الطاقة القابلة للاستخدام 74.2÷86.4 = 85.9% (خرج USB مقابل Wh الخلايا الاسمية؛ وليست كفاءة فيشة الحائط AC).',
             'قِسنا 136.8 واط على مسار PD 3.1 EPR الثابت 28V/5A (FNB58: 27.4V×4.99A = 136.726 واط ≈ 136.8؛ 136.8÷140 = 97.7% من الحد المطبوع). خرج حقيقي لفئة اللابتوب، لكن سلوك 140 واط الكامل يظل مشروطًا باللابتوب وكابل USB-C مصنّف 140 واط. نوع المسار PDO EPR ثابت — وليس USB PD AVS.',
             'فحص السلامة الحالي 2026-07-23: مجموعة استدعاء باور بانك Anker rc2506 / CPSC سبتمبر 2025 تشمل A1257 / A1263 / A1647 / A1652 / A1681 / A1689 — ولا تشمل A1289. مع ذلك طابق الموديل المطبوع (A1289011) والرقم التسلسلي على الوحدة المستلمة مع anker.com/rc2506 + anker.com/product-recalls.',
             'سعته 86.4Wh أقل من حد IATA الشائع 100Wh لحقيبة المقصورة، لكن الإمارات وفلاي دبي (منذ نحو 1 أكتوبر 2025) تمنعان استخدام الباور بانك أو شحن الأجهزة منه أو شحنه من مقابس الطائرة أثناء الرحلة — حمل فقط وفق قواعد الجهاز واضح الملصق ≤100Wh. راجع صفحة البضائع الخطرة قبل السفر.',
-            'مراسي أجهزة فعلية: Galaxy A15 = 3.36 شحنة مكافئة؛ تعبئة MacBook Air M2 من 0→91%. iPhone 15 نحو 5.15 وMacBook Pro 14 نحو 0.94 محسوبة من 74.2Wh (§8)، ولم تُعاد على تلك الأجهزة. وحدة تجزئة واحدة؛ نواقص خام يونيو مُفصح عنها أدناه.',
+            'مراسي أجهزة فعلية: Galaxy A15 = 3.36 شحنة مكافئة؛ تعبئة MacBook Air M2 من 0→91%. iPhone 15 نحو 5.15 وMacBook Pro 14 نحو 0.94 محسوبة من 74.2Wh، ولم تُعاد على تلك الأجهزة. وحدة تجزئة واحدة؛ نواقص خام يونيو مُفصح عنها أدناه.',
         ],
     },
     localContext: {
@@ -84,8 +84,8 @@ export const anker_737_powerbank_detail: ProductDetail = {
             ar: 'تذكر Anker نحو ساعة مع شاحن PD 140 واط؛ وسجّل اختبار CairoVolt القديم 52 دقيقة — موديل شاحن المصدر لم يُحفظ في ورقة خام يونيو',
         },
         'Cells (independent teardown)': {
-            en: 'ChargerLAB teardown: 6× Lishen LR2170LA 21700 cells, plus Infineon CYPD3171 protocol chip',
-            ar: 'تفكيك ChargerLAB: ست خلايا Lishen LR2170LA 21700، مع شريحة بروتوكول Infineon CYPD3171',
+            en: 'ChargerLAB teardown (not opened by CairoVolt): Lishen LR2170LA 21700 cells, plus Infineon CYPD3171 protocol chip — https://www.chargerlab.com/teardown-of-anker-140w-pd3-1-power-bank-737-power-bank/',
+            ar: 'تفكيك ChargerLAB (لم تفتحه كايرو فولت): خلايا Lishen LR2170LA 21700، مع شريحة بروتوكول Infineon CYPD3171 — https://www.chargerlab.com/teardown-of-anker-140w-pd3-1-power-bank-737-power-bank/',
         },
         'Weight': {
             en: '632g manufacturer spec; CairoVolt measured 634g',
@@ -119,14 +119,14 @@ export const anker_737_powerbank_detail: ProductDetail = {
         },
         methodology: {
             en:
-                'Per Bench Test Protocol §7.3 (power banks) + §8 physics gates: we charged one retail A1289 unit to 100%, rested it 30 minutes, then discharged it over USB-C into a JUWEI electronic load while a FNIRSI FNB58 logged cumulative V/A/W/Wh and captured the fixed 28V/5A PD 3.1 EPR contract. ' +
-                '§8 math published before claims: (1) rated Wh identity 24,000mAh × 3.6V ÷ 1000 = 86.4Wh; (2) usable-energy ratio = 74.2 ÷ 86.4 = 85.9% (USB output vs cell Wh — NOT AC wall efficiency); (3) peak identity 27.4V × 4.99A = 136.726W ≈ 136.8W and 136.8 ÷ 140 = 97.7% of label; (4) phone/router counts that are calculated use 74.2Wh as the numerator and are labelled calculated. ' +
+                'Per Bench Test Protocol (power banks) + physics gates: we charged one retail A1289 unit to 100%, rested it 30 minutes, then discharged it over USB-C into a JUWEI electronic load while a FNIRSI FNB58 logged cumulative V/A/W/Wh and captured the fixed 28V/5A PD 3.1 EPR contract. ' +
+                'Math published before claims: (1) rated Wh identity 24,000mAh × 3.6V ÷ 1000 = 86.4Wh; (2) usable-energy ratio = 74.2 ÷ 86.4 = 85.9% (USB output vs cell Wh — NOT AC wall efficiency); (3) peak identity 27.4V × 4.99A = 136.726W ≈ 136.8W and 136.8 ÷ 140 = 97.7% of label; (4) phone/router counts that are calculated use 74.2Wh as the numerator and are labelled calculated. ' +
                 'We physically checked a Samsung Galaxy A15 full charge-count run and a MacBook Air M2 top-up, then measured weight and dimensions. ' +
                 'This 2026-07-23 v1.2 deepen did NOT invent missing raw data and did NOT re-measure Wh/peak: humidity, wall-voltage, exact source-charger model for the legacy 52-minute recharge note, GM320 surface temperature, OCP trip, and a full programmable PPS sweep were not preserved or not run — disclosed as limits. ' +
                 'Independent corroboration for context: Anker service article for A1289 profiles/dimensions, ChargerLAB 2022 teardown for cell/BOM identity, Review-Hub/TechRadar usable-energy bands (~83–89%), Anker rc2506 + CPSC recall pages (A1289 absent), IATA lithium guidance, Emirates and flydubai power-bank carriage/use rules. Single unit; production batches may vary.',
             ar:
-                'وفق §7.3 من بروتوكول الاختبار (باور بانك) + بوابات فيزياء §8: شحنّا وحدة تجزئة واحدة A1289 إلى 100%، ثم أرحناها 30 دقيقة، وفرّغناها عبر USB-C داخل حمل إلكتروني JUWEI بينما سجّل FNIRSI FNB58 قيم V/A/W/Wh المتراكمة والتقط عقد PD 3.1 EPR الثابت 28V/5A. ' +
-                'رياضيات §8 المنشورة قبل الادعاءات: (1) هوية Wh الاسمية 24,000×3.6V÷1000 = 86.4Wh؛ (2) نسبة الطاقة القابلة للاستخدام = 74.2÷86.4 = 85.9% (خرج USB مقابل Wh الخلايا — ليست كفاءة حائط AC)؛ (3) هوية الذروة 27.4V×4.99A = 136.726 واط ≈ 136.8 و136.8÷140 = 97.7% من الملصق؛ (4) أعداد الهاتف/الراوتر الحسابية تستخدم 74.2Wh كبسط وتُوسم محسوبة. ' +
+                'وفق بروتوكول الاختبار (باور بانك) + بوابات فيزياء: شحنّا وحدة تجزئة واحدة A1289 إلى 100%، ثم أرحناها 30 دقيقة، وفرّغناها عبر USB-C داخل حمل إلكتروني JUWEI بينما سجّل FNIRSI FNB58 قيم V/A/W/Wh المتراكمة والتقط عقد PD 3.1 EPR الثابت 28V/5A. ' +
+                'الرياضيات المنشورة قبل الادعاءات: (1) هوية Wh الاسمية 24,000×3.6V÷1000 = 86.4Wh؛ (2) نسبة الطاقة القابلة للاستخدام = 74.2÷86.4 = 85.9% (خرج USB مقابل Wh الخلايا — ليست كفاءة حائط AC)؛ (3) هوية الذروة 27.4V×4.99A = 136.726 واط ≈ 136.8 و136.8÷140 = 97.7% من الملصق؛ (4) أعداد الهاتف/الراوتر الحسابية تستخدم 74.2Wh كبسط وتُوسم محسوبة. ' +
                 'راجعنا فعليًا اختبار عدد شحنات Samsung Galaxy A15 وتعبئة MacBook Air M2، ثم قسنا الوزن والأبعاد. ' +
                 'تعميق v1.2 في 2026-07-23 لم يخترع بيانات خام ناقصة ولم يُعد قياس Wh/الذروة: الرطوبة، جهد الحائط، موديل شاحن المصدر الدقيق لملاحظة إعادة الشحن القديمة 52 دقيقة، حرارة السطح بـ GM320، فصل OCP، ومسح PPS كامل بحمل مبرمج لم تُحفظ أو لم تُنفّذ — مُفصح عنها كحدود. ' +
                 'للاسترجاع المستقل والسياق: مقال خدمة Anker لمواصفات A1289، تفكيك ChargerLAB 2022 لهوية الخلايا وBOM، نطاقات طاقة Review-Hub/TechRadar (~83–89%)، صفحات استدعاء Anker rc2506 وCPSC (A1289 غائب)، إرشاد بطاريات الليثيوم من IATA، وقواعد الإمارات وفلاي دبي لحمل/استخدام الباور بانك. وحدة واحدة؛ وقد تختلف دفعات الإنتاج.',
@@ -141,7 +141,7 @@ export const anker_737_powerbank_detail: ProductDetail = {
         ],
         results: [
             {
-                param: { en: 'Rated cell capacity (§8 Wh identity)', ar: 'سعة الخلايا الاسمية (هوية Wh §8)' },
+                param: { en: 'Rated cell capacity (Wh identity)', ar: 'سعة الخلايا الاسمية (هوية Wh)' },
                 rated: '24,000mAh / 86.4Wh',
                 measured: '—',
                 note: {
@@ -159,7 +159,7 @@ export const anker_737_powerbank_detail: ProductDetail = {
                 },
             },
             {
-                param: { en: 'Usable-energy ratio (§8)', ar: 'نسبة الطاقة القابلة للاستخدام (§8)' },
+                param: { en: 'Usable-energy ratio', ar: 'نسبة الطاقة القابلة للاستخدام' },
                 measured: '85.9%',
                 note: {
                     en: '74.2 ÷ 86.4 = 85.9%; USB output vs rated cell Wh, not AC-input efficiency; aligns with independent ~83–89% bands',
@@ -167,7 +167,7 @@ export const anker_737_powerbank_detail: ProductDetail = {
                 },
             },
             {
-                param: { en: 'Peak USB-C output (§8 W=V×A)', ar: 'ذروة خرج USB-C (§8 W=V×A)' },
+                param: { en: 'Peak USB-C output (=V×A)', ar: 'ذروة خرج USB-C (=V×A)' },
                 rated: '140W',
                 measured: '136.8W (27.4V/4.99A)',
                 note: {
@@ -217,8 +217,8 @@ export const anker_737_powerbank_detail: ProductDetail = {
                 param: { en: 'Galaxy A15 (5000mAh) charge count', ar: 'عدد شحنات Galaxy A15 (5000mAh)' },
                 measured: { en: '3.36 charges', ar: '3.36 شحنة' },
                 note: {
-                    en: 'Physical phone run; 74.2Wh ÷ 22.1Wh per observed full-charge equivalent (§8)',
-                    ar: 'اختبار هاتف فعلي؛ 74.2Wh ÷ 22.1Wh لكل معادل شحنة كاملة مرصود (§8)',
+                    en: 'Physical phone run; 74.2Wh ÷ 22.1Wh per observed full-charge equivalent',
+                    ar: 'اختبار هاتف فعلي؛ 74.2Wh ÷ 22.1Wh لكل معادل شحنة كاملة مرصود',
                 },
             },
             {
@@ -250,8 +250,8 @@ export const anker_737_powerbank_detail: ProductDetail = {
                 param: { en: 'Wi-Fi router runtime (~10W)', ar: 'زمن تشغيل راوتر Wi-Fi (~10 واط)' },
                 measured: { en: '~7.4 hours (calculated)', ar: 'نحو 7.4 ساعات (محسوبة)' },
                 note: {
-                    en: '74.2Wh ÷ ~10W ≈ 7.4h (§8); real routers and PD trigger cables vary',
-                    ar: '74.2Wh ÷ ~10W ≈ 7.4 ساعة (§8)؛ يختلف الواقع حسب الراوتر وكابل تحفيز PD',
+                    en: '74.2Wh ÷ ~10W ≈ 7.4h; real routers and PD trigger cables vary',
+                    ar: '74.2Wh ÷ ~10W ≈ 7.4 ساعة؛ يختلف الواقع حسب الراوتر وكابل تحفيز PD',
                 },
             },
             {
@@ -302,25 +302,25 @@ export const anker_737_powerbank_detail: ProductDetail = {
             },
         ],
         verdict: {
-            en: 'A1289 remains a credible laptop-class pack: 74.2Wh usable USB-C energy and 136.8W on fixed 28V/5A EPR (§8: 27.4×4.99≈136.8; 74.2÷86.4=85.9%). Not on rc2506. Emirates/flydubai: carry ≤100Wh, no in-flight use. June raw gaps stay disclosed.',
-            ar: 'A1289 ما زال باور بانك موثوقًا لفئة اللابتوب: 74.2Wh خرج USB-C قابل للاستخدام و136.8 واط على EPR ثابت 28V/5A (§8: 27.4×4.99≈136.8؛ 74.2÷86.4=85.9%). خارج rc2506. الإمارات/فلاي دبي: حمل ≤100Wh بلا استخدام أثناء الرحلة. نواقص خام يونيو ما زالت مُفصح عنها.',
+            en: 'A1289 remains a credible laptop-class pack: 74.2Wh usable USB-C energy and 136.8W on fixed 28V/5A EPR (27.4×4.99≈136.8; 74.2÷86.4=85.9%). Not on rc2506. Emirates/flydubai: carry ≤100Wh, no in-flight use. June raw gaps stay disclosed.',
+            ar: 'A1289 ما زال باور بانك موثوقًا لفئة اللابتوب: 74.2Wh خرج USB-C قابل للاستخدام و136.8 واط على EPR ثابت 28V/5A (27.4×4.99≈136.8؛ 74.2÷86.4=85.9%). خارج rc2506. الإمارات/فلاي دبي: حمل ≤100Wh بلا استخدام أثناء الرحلة. نواقص خام يونيو ما زالت مُفصح عنها.',
         },
         pros: [
             {
-                en: '74.2Wh measured usable USB-C energy from an 86.4Wh pack — 85.9% usable-energy ratio (§8: 74.2÷86.4) aligning with independent 83–89% bands (Review-Hub/TechRadar)',
-                ar: '74.2Wh طاقة USB-C قابلة للاستخدام من حزمة 86.4Wh — نسبة 85.9% (§8: 74.2÷86.4) متسقة مع نطاقات 83–89% المستقلة (Review-Hub/TechRadar)',
+                en: '74.2Wh measured usable USB-C energy from an 86.4Wh pack — 85.9% usable-energy ratio (74.2÷86.4) aligning with independent 83–89% bands (Review-Hub/TechRadar)',
+                ar: '74.2Wh طاقة USB-C قابلة للاستخدام من حزمة 86.4Wh — نسبة 85.9% (74.2÷86.4) متسقة مع نطاقات 83–89% المستقلة (Review-Hub/TechRadar)',
             },
             {
-                en: '136.8W measured on the fixed 28V/5A PD 3.1 EPR rail (§8: 27.4V×4.99A) — real laptop-class output when paired with a compatible device and 140W-rated cable',
-                ar: '136.8 واط مقاسة على مسار PD 3.1 EPR الثابت 28V/5A (§8: 27.4V×4.99A) — خرج حقيقي لفئة اللابتوب مع جهاز وكابل 140 واط متوافقين',
+                en: '136.8W measured on the fixed 28V/5A PD 3.1 EPR rail (27.4V×4.99A) — real laptop-class output when paired with a compatible device and 140W-rated cable',
+                ar: '136.8 واط مقاسة على مسار PD 3.1 EPR الثابت 28V/5A (27.4V×4.99A) — خرج حقيقي لفئة اللابتوب مع جهاز وكابل 140 واط متوافقين',
             },
             {
                 en: 'CairoVolt physically verified a MacBook Air M2 top-up to 91% and 3.36 Galaxy A15 charge equivalents; other phone/laptop counts are clearly marked calculated from 74.2Wh',
                 ar: 'CairoVolt تحققت فعليًا من تعبئة MacBook Air M2 إلى 91% و3.36 شحنة مكافئة لـ Galaxy A15؛ وباقي أعداد الهواتف/اللابتوب موسومة بوضوح كحسابية من 74.2Wh',
             },
             {
-                en: 'Independent teardown provenance: ChargerLAB documented six Lishen LR2170LA 21700 cells and the Infineon CYPD3171 protocol chip',
-                ar: 'أصل تفكيك مستقل: ChargerLAB وثّق ست خلايا Lishen LR2170LA 21700 وشريحة بروتوكول Infineon CYPD3171',
+                en: 'Independent teardown provenance: ChargerLAB documented Lishen LR2170LA 21700 cells and the Infineon CYPD3171 protocol chip (https://www.chargerlab.com/teardown-of-anker-140w-pd3-1-power-bank-737-power-bank/)',
+                ar: 'أصل تفكيك مستقل: ChargerLAB وثّق خلايا Lishen LR2170LA 21700 وشريحة بروتوكول Infineon CYPD3171 (https://www.chargerlab.com/teardown-of-anker-140w-pd3-1-power-bank-737-power-bank/)',
             },
             {
                 en: '86.4Wh below the common 100Wh cabin threshold; A1289 not on Anker rc2506 / CPSC Sept 2025 recall set (A1257/A1263/A1647/A1652/A1681/A1689)',

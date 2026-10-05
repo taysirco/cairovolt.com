@@ -48,7 +48,9 @@ export const BRAND_ENTITIES: readonly BrandEntity[] = [
         id: brandId('anker'),
         sameAs: [
             'https://www.wikidata.org/wiki/Q28452620',
-            'https://en.wikipedia.org/wiki/Anker_Innovations',
+            // The enwiki sitelink of Q28452620 is "Anker"; /wiki/Anker_Innovations
+            // is only a redirect to it, so link the article itself.
+            'https://en.wikipedia.org/wiki/Anker',
             'https://www.anker.com',
         ],
         description: {

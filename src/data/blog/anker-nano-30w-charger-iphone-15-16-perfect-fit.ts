@@ -4,15 +4,14 @@ export const anker_nano_30w_charger_iphone_15_16_perfect_fit: BlogArticle = {
     slug: 'anker-nano-30w-charger-iphone-15-16-perfect-fit',
     category: 'review',
     publishDate: '2026-08-14T20:21:00+03:00',
-    modifiedDate: '2026-08-14T20:21:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
-        'anker-a2741-charger-30w',
         'anker-a2147-gan-charger-30w',
         'anker-zolo-30w-a2698-charger',
         'anker-powerport-20w',
-        'anker-powerport-25w',
-        'anker-a8050-usb-c-cable'
+        'anker-nano-45w',
+        'anker-powerline-usb-c-usb-c'
     ],
     relatedArticles: [
         '20w-30w-45w-65w-100w-charger-which-you-need',
@@ -30,71 +29,64 @@ export const anker_nano_30w_charger_iphone_15_16_perfect_fit: BlogArticle = {
         ar: {
             title: 'شاحن نانو 30 واط — الاختيار الذكي لآيفون 15 و16 في حجم عملة جنيه',
             metaTitle: 'أنكر نانو 30W — مراجعة كاملة لشاحن iPhone 15 و16 في مصر | كايرو فولت',
-            metaDescription: 'مراجعة شاحن أنكر نانو 30W (A2741) بالتفصيل — أصغر شاحن GaN يشحن iPhone 15 و16 بأقصى سرعة ممكنة. مقارنة مع Apple 20W و30W والتوافق مع كهرباء مصر.',
+            metaDescription: 'مراجعة شاحن أنكر نانو 30W (A2147) بالتفصيل — أصغر شاحن GaN يشحن iPhone 15 و16 بأقصى سرعة ممكنة. مقارنة مع Apple 20W و30W والتوافق مع كهرباء مصر.',
             keywords: 'انكر نانو 30W مصر, شاحن iPhone 15 مصر, شاحن iPhone 16 مصر, انكر A2741, شاحن GaN صغير مصر, شاحن 30W افضل من 20W, شاحن Apple مقارنة, انكر نانو مقارنة, شاحن USB-C PD مصر, anker nano 30w egypt, شاحن ايفون اصلي مصر',
-            excerpt: 'أصغر شاحن 30W في مصر في حجم عملة الجنيه — بيشحن iPhone 16 Pro Max من 0 إلى 50% في 30 دقيقة بضمان 18 شهر. مقارنة حقيقية مع شاحن Apple 20W و30W.',
-            quickAnswer: 'أنكر نانو 30W (A2741) هو أفضل شاحن لـ iPhone 15 و16 في مصر. شحن الآيفون بيدور حوالي 27–30 واط حسب الموديل — فشاحن 30W بيديك السرعة الكاملة اليومية. مقاسه 45.6×29.3 مم، أصغر من شاحن Apple 20W الأصلي. السعر في مصر 450-550ج مقارنة بـ 375ج لشاحن Apple 20W الأبطأ. يشتغل على كهرباء مصر 220V بأمان.',
-            content: `<p>خد معاك شاحن Apple 20W اللي جه مع الآيفون. قيسه — 44×44×29 مم. دلوقتي خد شاحن أنكر نانو 30W — 45.6×29.3 مم. الأنكر نانو في يدك زي عملة الجنيه المصري تقريباً. بس الفرق مش في الحجم بس — الأنكر بيشحن آيفونك أسرع، أمن أكتر في كهرباء مصر المتذبذبة، وفيه تقنية GaN اللي بتشتغل أبرد. السؤال الصح مش "هل أشتري شاحن 30W؟" — السؤال الصح "إيه أحسن شاحن 30W لآيفون في مصر؟" والإجابة: أنكر نانو A2741.</p>
+            excerpt: 'أصغر شاحن 30W في مصر في حجم عملة الجنيه — شحن iPhone 15 من 0 إلى 50% في حوالي 27 دقيقة في اختبارنا، بضمان 18 شهر. مقارنة حقيقية مع شاحن Apple 20W و30W.',
+            quickAnswer: 'اختيارنا لشاحن آيفون صغير هو انكر 511 نانو 3 (A2147، {{price:anker-a2147-gan-charger-30w}} جنيه): منفذ USB-C واحد 30 واط GaN ومقاسه 28.4×28.5×35.1 مم (قياسنا). على iPhone 15 قسنا ذروة حوالي 19.7 واط و50% في حوالي 27 دقيقة — ده سقف الآيفون السلكي نفسه؛ والـ 30 واط بتفيد شحن MagSafe السريع لآيفون 16 وشحن سامسونج PPS.',
+            content: `<p>خد شاحن Apple 20W اللي جه مع الآيفون وحطه جنب انكر 511 نانو 3 (A2147): الانكر مكعب صغير مقاسه 28.4 × 28.5 × 35.1 مم ووزنه 47.2 جرام (قياس كايرو فولت على العيّنة CV-CH-A2147-001). السؤال اللي بنجاوب عليه هنا: هل شاحن 30 واط بيشحن آيفون 15 و16 أسرع من 20 واط؟ والإجابة هنا من القياس مش من الكتالوج.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">أنكر نانو 30W (A2741)</a> هو أقصى ما تحتاجه لشحن iPhone 15 أو 16. شحن الآيفون بيدور حوالي 27–30 واط حسب الموديل — فـ 30W بيديك السرعة الكاملة اليومية. حجمه أصغر من شاحن Apple 20W، سعره 450-550ج، وبيشتغل على 220V كهرباء مصر بأمان كامل. مفيش داعي لـ 45W أو 65W لشحن الآيفون لوحده — الفرق ضئيل جداً.
+        <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 511 نانو 3 (A2147)</a> شاحن USB-C واحد 30 واط GaN بسعر {{price:anker-a2147-gan-charger-30w}} جنيه. على iPhone 15 قسنا ذروة حوالي 19.7 واط و50% في حوالي 27 دقيقة — يعني الآيفون نفسه بيحدد سرعة الشحن السلكي حوالين 20 واط. ميزة الـ 30 واط: شحن MagSafe السريع لآيفون 16 (Apple بتطلب شاحن 30 واط أو أعلى)، وشحن سامسونج PPS، وحجم صغير.
     </p>
 </div>
 
 <h2>أولاً: تقنية GaN — ليه مهمة في شاحن صغير زي ده؟</h2>
-<p>GaN اختصار Gallium Nitride (جاليوم نيترايد) — مادة أشباه موصلات بديلة للسيليكون التقليدي. الفرق العملي: GaN بيشتغل بتردد أعلى من السيليكون، يعني المحولات الداخلية بتبقى أصغر، والطاقة المهدرة كحرارة بتنخفض. النتيجة؟ شاحن أصغر بواط أعلى وحرارة أقل.</p>
-<p>في حالة أنكر نانو 30W، تقنية GaN خلّت شاحن 30W يبقى في حجم شاحن Apple 5W القديم تقريباً. المنافسين اللي مش بيستخدموا GaN محتاجين ضعف الحجم عشان يطلعوا نفس الواط. ده هو سبب "النانو" في الاسم — مش بس تسمية تسويقية.</p>
+<p>GaN اختصار Gallium Nitride (جاليوم نيترايد) — مادة أشباه موصلات بديلة للسيليكون التقليدي. الفرق العملي: GaN بيشتغل بتردد أعلى من السيليكون، يعني المحولات الداخلية بتبقى أصغر، والطاقة المهدرة كحرارة بتنخفض. النتيجة؟ شاحن أصغر بواط أعلى.</p>
+<p>في حالة انكر 511 نانو 3، تقنية GaN خلّت شاحن 30 واط يبقى مكعب طول ضلعه حوالي 2.8 سم (قسناه 28.4 × 28.5 × 35.1 مم مع الفيشة).</p>
 
 <h2>ثانياً: مقارنة أشباه الموصلات: نيتريد الغاليوم (GaN) ضد السيليكون</h2>
-<p>لتوضيح التفوق العلمي لتقنية GaN، يجب مقارنة الخواص الفيزيائية للمادتين. تمتلك مادة نيتريد الغاليوم فجوة نطاق طاقة (Bandgap) تبلغ 3.4 إلكترون فولت، وهي أكبر بثلاثة أضعاف من فجوة نطاق السيليكون التقليدي البالغة 1.1 إلكترون فولت. تتيح فجوة النطاق الأوسع لـ GaN تحمل جهود وتيارات كهربائية أعلى بكثير داخل شريحة متناهية الصغر دون حدوث انهيار كهربائي.</p>
-<p>بالإضافة إلى ذلك، تتحرك الإلكترونات داخل مادة GaN بسرعة تفوق سرعة حركتها في السيليكون بـ 150 مرة. هذا يعني أن مفتاح الطاقة الداخلي (MOSFET) يمكنه الإغلاق والفتح بترددات ترددية فائقة السرعة، مما يقلل من فاقد الطاقة الكهربية المتحولة إلى حرارة مشتتة بنسبة تصل إلى 60%، ولهذا السبب يستطيع شاحن أنكر نانو ضخ قدرة 30 واط كاملة دون أن تتجاوز حرارته الخارجية الحدود الآمنة للتشغيل الطبيعي.</p>
+<p>تمتلك مادة نيتريد الغاليوم فجوة نطاق طاقة (Bandgap) حوالي 3.4 إلكترون فولت، مقابل حوالي 1.1 إلكترون فولت للسيليكون. فجوة النطاق الأوسع بتسمح للمادة بتحمّل جهود أعلى في مساحة أصغر من غير انهيار كهربائي.</p>
+<p>عملياً، ده بيسمح بتشغيل مفاتيح الطاقة بترددات أعلى، فالمحول والمكثفات بيصغروا والشاحن كله بيصغر. لكن الحرارة ما بتختفيش: الشاحن الصغير بيسخن في الإيد تحت الحمل الكامل (شوف قياس الحرارة تحت).</p>
 
-<h2>ثالثاً: مواصفات أنكر نانو 30W (A2741) — الأرقام الحقيقية</h2>
+<h2>ثالثاً: مواصفات انكر 511 نانو 3 (A2147) — الأرقام الحقيقية</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
     <tbody>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;width:40%;">الموديل</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Anker A2741</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الواط الأقصى</td><td style="padding:10px 12px;border:1px solid #d1d5db;">30W</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">المنافذ</td><td style="padding:10px 12px;border:1px solid #d1d5db;">USB-C واحد (PD 3.0)</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الأبعاد</td><td style="padding:10px 12px;border:1px solid #d1d5db;">45.6 × 29.3 مم</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الوزن</td><td style="padding:10px 12px;border:1px solid #d1d5db;">47 جرام</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">مدخل الكهرباء</td><td style="padding:10px 12px;border:1px solid #d1d5db;">100-240V ~ 50/60Hz (عالمي)</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">خرج USB-C</td><td style="padding:10px 12px;border:1px solid #d1d5db;">5V⎓3A / 9V⎓3A / 15V⎓2A / 20V⎓1.5A</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">بروتوكولات الشحن</td><td style="padding:10px 12px;border:1px solid #d1d5db;">USB PD 3.0، Apple Fast Charge</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">التقنية</td><td style="padding:10px 12px;border:1px solid #d1d5db;">GaN II</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">نظام الحماية</td><td style="padding:10px 12px;border:1px solid #d1d5db;">ActiveShield 2.0 + MultiProtect 11 نقطة</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">السعر في مصر</td><td style="padding:10px 12px;border:1px solid #d1d5db;">450 - 550 جنيه</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;width:40%;">الموديل</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Anker 511 Nano 3 (A2147)</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الواط الأقصى</td><td style="padding:10px 12px;border:1px solid #d1d5db;">30W معلن — أعلى ذروة قسناها 29.5 واط على 15V/2A</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">المنافذ</td><td style="padding:10px 12px;border:1px solid #d1d5db;">USB-C واحد</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الأبعاد</td><td style="padding:10px 12px;border:1px solid #d1d5db;">28.4 × 28.5 × 35.1 مم (قياسنا)</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الوزن</td><td style="padding:10px 12px;border:1px solid #d1d5db;">47.2 جرام (قياسنا)</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">مدخل الكهرباء</td><td style="padding:10px 12px;border:1px solid #d1d5db;">100-240V ~ 50/60Hz (اتجرب على 222V)</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">خرج USB-C</td><td style="padding:10px 12px;border:1px solid #d1d5db;">5V⎓3A / 9V⎓3A / 15V⎓2A / 20V⎓1.5A + PPS 3.3–11V⎓3A و3.3–16V⎓2A (قراءتنا)</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">بروتوكولات الشحن</td><td style="padding:10px 12px;border:1px solid #d1d5db;">USB PD 3.0 + PPS</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">التقنية</td><td style="padding:10px 12px;border:1px solid #d1d5db;">GaN</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">نظام الحماية</td><td style="padding:10px 12px;border:1px solid #d1d5db;">ActiveShield 2.0 + MultiProtect (حسب انكر)</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">السعر</td><td style="padding:10px 12px;border:1px solid #d1d5db;">{{price:anker-a2147-gan-charger-30w}} جنيه</td></tr>
     </tbody>
 </table>
 
 <h2>رابعاً: تنظيم الجهد ومستوى الضوضاء الكهربائية (Ripple Noise)</h2>
-<p>تعاني شبكة الكهرباء في مصر أحياناً من ضوضاء كهربائية وتذبذب مستمر في التردد، وهو ما يمكن أن ينتقل للآيفون كتيارات مشوشة تضر بمكوناته الدقيقة. لحماية الأجهزة، قامت أنكر بتزويد شاحن نانو 30W بمكثفات تصفية عالية الجودة وحلقة تنظيم جهد متطورة تعمل على خفض "الضوضاء المتذبذبة" (Ripple Noise) إلى مستويات متدنية للغاية تقل عن 30 مللي فولت.</p>
-<p>في الشواحن التجارية الرخيصة وغير المعتمدة، ترتفع الضوضاء الكهربائية لتتجاوز 100 مللي فولت، مما يتسبب في إجهاد حراري مستمر لشريحة إدارة الطاقة الرئيسية (PMIC) داخل جهاز الآيفون الخاص بك. بمرور الأشهر، يؤدي هذا الإجهاد الكهربائي المستتر لتقليص العمر الافتراضي لبطارية هاتفك وتراجع نسبة صحتها بشكل متسارع، وهي ميزة حيوية تجعل الاستثمار في شاحن أصلي من أنكر ضرورياً للحفاظ على استثمارك الأساسي في الهاتف.</p>
+<p>تعاني شبكة الكهرباء في مصر أحياناً من تذبذب في الجهد، والشاحن بيقبل مدخل 100-240V. انكر بتذكر لهذا الموديل حماية MultiProtect وActiveShield 2.0. إحنا ما قسناش الـ Ripple Noise على العيّنة دي، فمش هننشر رقم ليه.</p>
+<p>اللي نقدر نقوله بثقة: الشواحن المجهولة الرخيصة ممكن تفتقر لدوائر الحماية والتصفية، وده سبب كافي تشتري شاحن أصلي من بائع بيدي فاتورة وضمان مكتوب.</p>
 
-<h2>خامساً: لماذا 30W هو النقطة المثالية لآيفون؟ — الحقيقة التقنية</h2>
-<p>ده أهم جزء في المراجعة دي. كتير من الناس بيفكروا إن 45W أو 65W هيشحن آيفون أسرع من 30W. ده غلط 100%.</p>
-<p>شحن الآيفون السريع بيدور حوالي <strong>27–30 واط</strong> حسب الموديل: موبايلات iPhone 13–15 كلاس بتوصل لـ ~27 واط، وiPhone 16 Pro/Pro Max بتسحب ~30 واط مستمرة وممكن تلمس ~37 واط لحظياً مع شاحن أقوى (قياسات مستقلة). Apple مابتنشرش رقم "سقف" ثابت في وثائقها — التوثيق الرسمي بيقول بس إنك بتوصل 50% في حوالي 30 دقيقة بشاحن 20 واط أو أعلى. عملياً: شاحن 30W بيديك السرعة الكاملة اليومية للآيفون 15/16، والقفزة لـ 45W أو 65W بتضيف فرق بسيط جداً للآيفون بس بتنفع لو هتشحن جهاز أقوى (لابتوب أو تابلت).</p>
-<p>يعني إيه ده عملياً؟</p>
+<h2>خامساً: هل 30W بتشحن الآيفون أسرع من 20W؟ — اللي قسناه</h2>
+<p>Apple في صفحة الدعم <a href="https://support.apple.com/ar-eg/102574" target="_blank" rel="nofollow noopener">الشحن السريع لجهاز iPhone</a> بتقول إن iPhone 15 والأحدث بيشحن سريع بشاحن USB-C يدعم USB-PD بقدرة 18 واط أو أكتر. وفي اختبار كايرو فولت (عيّنة CV-CH-A2147-001)، iPhone 15 على الشاحن ده وصل لذروة حوالي 19.7 واط، و0→50% في حوالي 27 دقيقة، و0→100% في حوالي 90 دقيقة.</p>
+<p>يعني الآيفون نفسه هو اللي حدد السرعة السلكية حوالين 20 واط، والواط الزيادة ما سرّعتش الشحن السلكي. طب ليه 30 واط؟</p>
 <ul style="line-height:2;">
-    <li><strong>شاحن 20W Apple:</strong> بيطلع فعلياً ~19W للآيفون — أبطأ من السقف.</li>
-    <li><strong>شاحن 30W أنكر:</strong> بيطلع فعلياً ~26.8-27W — في السقف بالضبط.</li>
-    <li><strong>شاحن 45W أو 65W:</strong> بيطلع ~27W لآيفون 15 كلاس (فرق صفر) و~30 واط لآيفون 16 Pro Max (فرق بسيط جداً) — الزيادة بتنفع أكتر مع لابتوب أو تابلت.</li>
+    <li><strong>آيفون 16 وأحدث مع MagSafe:</strong> Apple بتطلب شاحن 30 واط أو أعلى مع شاحن MagSafe عشان الشحن اللاسلكي السريع.</li>
+    <li><strong>سامسونج:</strong> الشاحن بيدعم PPS، وجالاكسي S24 في اختبارنا اشتغل Super Fast Charging بذروة حوالي 24.3 واط.</li>
+    <li><strong>أجهزة USB-C تانية:</strong> آيباد وسماعات وأجهزة صغيرة على نفس الشاحن.</li>
 </ul>
-<p>النتيجة الفعلية من الشحن من 0% لـ 50%:</p>
-<ul style="line-height:2;">
-    <li>Apple 20W: ~36 دقيقة</li>
-    <li>أنكر نانو 30W: ~30 دقيقة</li>
-    <li>أي شاحن 45W+: ~30 دقيقة (نفس الـ 30W)</li>
-</ul>
-<p>الخلاصة: 30W = أقصى سرعة ممكنة لآيفون. ما فيش داعي تدفع أكتر على 45W أو 65W للشحن المنزلي.</p>
+<p>لو بتشحن آيفون سلكي بس وعايز الأرخص، شاحن 20 واط سليم زي <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20W (A2347)</a> بـ {{price:anker-powerport-20w}} جنيه هيديك تقريباً نفس السرعة السلكية. ولو عندك iPhone 17 Pro أو Pro Max، Apple بتقول إنه بيوصل 50% في حوالي 20 دقيقة بشاحن 40 واط أو أعلى — هنا شاحن زي <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a> بيفرق فعلاً.</p>
 
 <h2>سادساً: التوافق مع بروتوكولات الشحن السريع PPS و PD 3.0</h2>
-<p>يدعم شاحن أنكر نانو 30 واط معيار PPS (Programmable Power Supply) وهو بروتوكول فرعي متطور من معيار USB Power Delivery 3.0. تتيح تقنية PPS للشاحن إمكانية تعديل الجهد والتيار الخارجين بشكل ديناميكي ومستمر بناءً على القراءة اللحظية لنسبة شحن بطارية الموبايل وحالتها الحرارية.</p>
-<p>يقوم الشاحن بتغيير الفولتية بخطوات بالغة الدقة (بزيادات قدرها 20 مللي فولت) والتيار (بزيادات قدرها 50 مللي أمبير). يمنع هذا التنظيم الدقيق توليد حرارة غير ضرورية داخل الموبايل أثناء تحويل الطاقة، مما يضمن كفاءة شحن استثنائية وحماية فائقة لخلايا ليثيوم أيون البطارية من التحلل الحراري المبكر، وهو ما يفسر عدم سخونة الموبايل أثناء الشحن السريع.</p>
+<p>الشاحن بيعلن نافذتين PPS (Programmable Power Supply) حسب قراءتنا: 3.3–11V⎓3A و3.3–16V⎓2A. في PPS الموبايل بيطلب الجهد بخطوات 20 مللي فولت والتيار بخطوات 50 مللي أمبير، فالتحويل بيحصل بفقد أقل جوه الموبايل.</p>
+<p>الآيفون مش بيستخدم PPS — بيشحن عبر PD العادي. سامسونج بيستخدم PPS عشان Super Fast Charging، وده سبب إن الشاحن ده مناسب للبيت اللي فيه آيفون وسامسونج مع بعض.</p>
 
-<h2>سابعاً: مقارنة أنكر نانو 30W مع Apple 20W وApple 30W</h2>
+<h2>سابعاً: مقارنة انكر 511 نانو 3 مع Apple 20W وApple 30W</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead>
@@ -102,45 +94,33 @@ export const anker_nano_30w_charger_iphone_15_16_perfect_fit: BlogArticle = {
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">البند</th>
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">Apple 20W</th>
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;">Apple 30W</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;background:#eff6ff;">أنكر نانو 30W ⭐</th>
+            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:right;background:#eff6ff;">انكر 511 نانو 3 (A2147)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">السعر في مصر</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">375 جنيه</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">800+ جنيه</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>450-550 جنيه</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">السعر</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">يختلف حسب البائع</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">يختلف حسب البائع</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>{{price:anker-a2147-gan-charger-30w}} جنيه</strong></td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">الواط الفعلي لآيفون</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~19W</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~27W</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>~26.8W</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">القدرة المعلنة</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">20W</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">30W</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>30W</strong></td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">0% → 50% iPhone 16</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~36 دقيقة</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~30 دقيقة</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>~30 دقيقة</strong></td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">الأبعاد</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">44 × 44 × 29 مم</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">45 × 45 × 29 مم</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>45.6 × 29.3 مم</strong></td>
-        </tr>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">تقنية GaN</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ لا</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ لا</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;color:#059669;"><strong>✅ GaN II</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">iPhone 15 (قياسنا)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">لم نقسه</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">لم نقسه</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>ذروة ~19.7W · ~27 دقيقة لـ 50%</strong></td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">ActiveShield</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;color:#059669;"><strong>✅</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;color:#059669;"><strong>✅ (حسب انكر)</strong></td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">دخل الكهرباء</td>
@@ -149,274 +129,256 @@ export const anker_nano_30w_charger_iphone_15_16_perfect_fit: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>100-240V</strong></td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">ضمان في مصر</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">12 شهر Apple</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">12 شهر Apple</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>18 شهر كايرو فولت</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">الضمان</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">ضمان Apple للشركة المصنّعة</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">ضمان Apple للشركة المصنّعة</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)</strong></td>
         </tr>
     </tbody>
 </table>
 
-<p>المقارنة واضحة: Apple 30W بتحصل على نفس سرعة شحن الأنكر — لكن بسعر أعلى (800+ج)، بدون GaN، وبدون ActiveShield. Apple 20W أرخص (375ج) لكن أبطأ 6 دقائق وواطها الفعلي أقل بـ 8W من السقف المتاح لآيفون.</p>
+<p>الخلاصة: لشحن آيفون سلكي، الفرق في السرعة بين 20 و30 واط صغير لأن الآيفون هو اللي بيحدد السرعة. ميزة A2147 الحقيقية: الحجم، ودعم PPS لسامسونج، وقدرة 30 واط اللي Apple بتطلبها لشحن MagSafe السريع على آيفون 16.</p>
 
-<p>ولو النانو مش متوفر أو حابب تصميم مختلف، وصلنا حديثاً بديل من أنكر نفسها: <a href="/anker/wall-chargers/anker-zolo-30w-a2698-charger" style="color:#2563eb;font-weight:600;">شاحن انكر زولو 30W</a> بـ 599 جنيه — من أرخص شواحن 30W GaN الأصلية في مصر، وبنفس سقف السرعة ده بيوصّل ايفون 17 من 0 لـ 50% في حوالي 25 دقيقة.</p>
+<p>وفيه بديل من انكر نفسها: <a href="/anker/wall-chargers/anker-zolo-30w-a2698-charger" style="color:#2563eb;font-weight:600;">شاحن انكر زولو 30W (A2698)</a> بـ {{price:anker-zolo-30w-a2698-charger}} جنيه — منفذ USB-C واحد 30 واط برضه، لكن من غير خرج 20V، فمش مناسب لو هتستخدمه لشحن MacBook Air بالبطيء.</p>
 
-<h2>ثمانياً: تصميم تشتيت الحرارة الداخلي (Thermal Gel Injection)</h2>
-<p>برغم أن كفاءة مادة GaN مرتفعة، إلا أن حشر المكونات داخل هيكل ضيق جداً يولد تحدياً هندسياً للتبريد. لتشتيت الحرارة بكفاءة، تعتمد أنكر على تقنية ملء الفراغات بجل السيليكون العازل (Thermal Potting Compound) عالي التوصيل للحرارة. يملأ هذا الجل الفراغات الهوائية الداخلية تماماً بين المحول والمكثفات وهيكل الشاحن الخارجي.</p>
-<p>يعمل الجل كجسر نقل حراري ينقل الطاقة الحرارية المتولدة داخل القطع إلى السطح البلاستيكي الخارجي مباشرة، مما يساعد على تبريد المكونات الحساسة ويبقي درجة حرارة الشاحن آمنة وصالحة للمس المباشر حتى عند التشغيل بأقصى قدرة لفترات طويلة.</p>
+<h2>ثامناً: الحرارة — اللي قسناه</h2>
+<p>بعد 15 دقيقة على حوالي 29 واط، سطح الشاحن وصل 53.8°م وحرارة الغرفة 28.3°م (عيّنة CV-CH-A2147-001). ده سخن في الإيد، ومتوقع لشاحن بالحجم ده تحت الحمل الكامل.</p>
+<p>انكر بتحدد تشغيله بين 0 و40°م، وصيف القاهرة بيوصل حوالي 35°م. سيب حوالين الشاحن مساحة للتهوية، ومتغطيهوش بمخدة، ومتسيبهوش على تابلوه العربية.</p>
 
 <h2>تاسعاً: ActiveShield 2.0 — ليه مهم في مصر تحديداً؟</h2>
-<p>ActiveShield هو نظام مراقبة ذكي في شواحن أنكر. بيقيس درجة حرارة الشاحن أكتر من مليون مرة في اليوم (تقريباً كل 86 ميللي ثانية) ويعدّل خرج الكهرباء تلقائياً عشان يحافظ على درجة حرارة آمنة للشاحن وللبطارية.</p>
-<p>في مصر، عندنا تحديات كهربائية غير موجودة في دول تانية:</p>
+<p>ActiveShield هو نظام مراقبة الحرارة اللي بتذكره انكر في شواحنها: بيتابع حرارة الشاحن ويقلل الخرج لو الحرارة زادت. في مصر عندنا تحديات كهربائية واضحة:</p>
 <ul style="line-height:2;">
-    <li><strong>تذبذب الجهد:</strong> الكهرباء في مصر مفروض 220V لكن ممكن تتراوح بين 200-240V خصوصاً في الصيف لما الحمل على الشبكة بيزيد. الشاحن بيقبل 100-240V بأمان.</li>
-    <li><strong>قطع الكهرباء والرجوعها فجأة:</strong> لما الكهرباء ترجع بعد قطع، ممكن يكون فيه voltage spike لحظي. MultiProtect بيحمي من ده.</li>
-    <li><strong>درجات الحرارة العالية في الصيف:</strong> في أتاوة أو في سيارة واقفة في الشمس، درجة الحرارة المحيطة عالية. ActiveShield بيعوّض ده بتخفيض الطاقة لو الشاحن حسّ بحرارة زيادة.</li>
+    <li><strong>تذبذب الجهد:</strong> الكهرباء في مصر مفروض 220V لكن ممكن تتراوح خصوصاً في الصيف لما الحمل على الشبكة بيزيد. الشاحن بيقبل 100-240V.</li>
+    <li><strong>قطع الكهرباء ورجوعها فجأة:</strong> ممكن يحصل ارتفاع لحظي في الجهد. انكر بتذكر حماية MultiProtect، والأحسن كمان توصيل الشواحن على مشترك فيه حماية من الزيادة.</li>
+    <li><strong>درجات الحرارة العالية في الصيف:</strong> في أوضة حرّانة أو عربية واقفة في الشمس، الحرارة المحيطة عالية — وده بيخلي التهوية حوالين الشاحن أهم.</li>
 </ul>
 
 <h2>عاشراً: هل يشحن أجهزة غير Apple؟</h2>
-<p>طبعاً — منفذ USB-C PD 3.0 معيار عالمي. أنكر نانو 30W بيشحن:</p>
+<p>أيوه — منفذ USB-C PD معيار عام. انكر 511 نانو 3 بيشحن:</p>
 <ul style="line-height:2;">
-    <li><strong>Samsung Galaxy S24 / S25:</strong> بالـ 25W بروتوكول PD (Samsung بيقبل PD مع بعض الموديلات)</li>
-    <li><strong>iPad Air / iPad Mini:</strong> بالـ 20-23W — شحن سريع كمان</li>
-    <li><strong>AirPods Pro:</strong> بالـ 5W (كافي)</li>
-    <li><strong>أي جهاز USB-C:</strong> بروتوكول PD بيتفاوض مع الجهاز تلقائياً</li>
+    <li><strong>Samsung Galaxy S24 وموبايلات سامسونج اللي بتدعم 25W:</strong> عبر PPS — في اختبارنا S24 اشتغل Super Fast Charging بذروة حوالي 24.3 واط ووصل 100% في حوالي 64 دقيقة.</li>
+    <li><strong>iPad Air / iPad Mini:</strong> عبر USB-C PD.</li>
+    <li><strong>AirPods وسماعات USB-C:</strong> بقدرة بسيطة، ومفيش مشكلة.</li>
+    <li><strong>MacBook Air:</strong> خرج 20V/1.5A يعني 30 واط — شحن بطيء للطوارئ بس، مش شحن سريع.</li>
 </ul>
+<p>مش مناسب لشحن شاومي أو أوبو أو ريلمي بسرعاتهم الخاصة (HyperCharge / VOOC) — الموبايلات دي بترجع لسرعة PD أقل. والكابل مش مرفق في العلبة؛ محتاج كابل USB-C إلى USB-C يتحمل 3A زي <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل انكر PowerLine III USB-C إلى USB-C</a>.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">💡 ليه شاحن أنكر نانو 30W مناسب لآيفون؟</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">💡 مين يشتري انكر 511 نانو 3 (A2147)؟</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        آيفون 15 و16 يصلان لأقصى سرعة شحن عند حدود 30 واط تقريباً، فشاحن 30W يعطيك السقف الفعلي للهاتف في حجم صغير. مقارنةً بشاحن 20W، الفارق حوالي 6 دقائق أسرع في الشحنة الواحدة — يتراكم على مدار السنة. اختر 30W لو عايز أقصى سرعة يدعمها الآيفون بأقل حجم، وراجع السعر الحالي قبل الشراء.
+        اختيارنا لبيت فيه آيفون 16 بشاحن MagSafe، أو آيفون وسامسونج مع بعض، أو لأي حد عايز شاحن 30 واط صغير في الشنطة. لو بتشحن آيفون سلكي بس، شاحن 20 واط سليم بيدّي سرعة قريبة جداً، فالقرار هنا قرار حجم ومرونة مش سرعة.
     </p>
 </div>
 
 <h2>أين تشتري وكيف تتحقق من الأصالة</h2>
-<p>شاحن أنكر نانو 30W متاح على <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">كايرو فولت بسعر 450-550ج</a> — أصلي 100% بكود تحقق من أنكر. التحقق من الأصل بسيط:</p>
+<p>انكر 511 نانو 3 (A2147) متاح على كايرو فولت بسعر {{price:anker-a2147-gan-charger-30w}} جنيه. قبل الشراء من أي مكان:</p>
 <ul style="line-height:2;">
-    <li>الباركود على العلبة يروح على موقع verify.anker.com</li>
-    <li>الشاحن فيه ختم "Anker" على نفس الجسم مش ملصق</li>
-    <li>العلبة بيكون عليها رقم موديل A2741 صح</li>
+    <li>لو العلبة عليها ملصق أمان، اكشط الطبقة وادخل الكود (16 أو 20 رقم) على anker.com/verify — الكود موجود بس على المنتجات المبيعة في المحلات، وانكر بتقول إن غياب الملصق مش دليل تقليد.</li>
+    <li>طابق رقم الموديل A2147 والقدرات المطبوعة على الشاحن مع العلبة ومع مستندات انكر.</li>
+    <li>اشتري من بائع بيدي فاتورة وضمان مكتوب باسمه وكيانه القانوني — العلبة أو الباركود لوحدهم مش إثبات أصالة.</li>
 </ul>
-<p>تجنب الشراء من جهات مجهولة على سوشيال ميديا — السوق فيه تقليد كتير لشواحن أنكر. الشاحن المقلد مش بس بطيء — ممكن يبوظ بطارية آيفونك مع الوقت لأن منفذ الحماية بيكون وهمي.</p>
+<p>تجنب الشراء من جهات مجهولة على سوشيال ميديا — السوق فيه تقليد كتير لشواحن انكر، والشاحن المقلد ممكن يفتقر لدوائر الحماية.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أنكر نانو 30W أصلي بضمان 18 شهر</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ انكر 511 نانو 3 (A2147) على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        متاح على كايرو فولت بـ <strong>450-550 جنيه</strong>. أصلي 100% بكود تحقق من أنكر. ضمان 18 شهر يشمل عيوب التصنيع. توصيل لكل المحافظات + دفع عند الاستلام. <a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#166534;font-weight:600;text-decoration:underline;">اطلب دلوقتي ←</a>
+        متاح بـ <strong>{{price:anker-a2147-gan-charger-30w}} جنيه</strong>، بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) اللي بيغطي عيوب التصنيع. توصيل لكل المحافظات + دفع عند الاستلام. <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;text-decoration:underline;">اطلب دلوقتي ←</a>
     </p>
 </div>`,
             faq: [
                 {
                     question: 'هل شاحن 30W بيشحن iPhone 16 Pro Max بأقصى سرعة؟',
-                    answer: 'شاحن 30W اختيار ممتاز لآيفون 16 Pro Max — الموبايل بيسحب ~30 واط مستمرة وممكن يلمس ~37 واط لحظياً مع شاحن أقوى (قياسات مستقلة، مش رقم رسمي من Apple). شاحن 45W أو 65W ممكن يضيف فرق بسيط جداً على 16 Pro Max، لكن لآيفون 15 كلاس (~27 واط) مش هيفرق. عملياً 30W بيديك السرعة الكاملة اليومية.'
+                    answer: 'للشحن السلكي، Apple بتقول إن iPhone 15 والأحدث بيشحن سريع بأي شاحن USB-C PD من 18 واط أو أكتر، وفي اختبارنا iPhone 15 على A2147 وقف عند ذروة حوالي 19.7 واط. ما قسناش iPhone 16 Pro Max على الشاحن ده، فمش هنحط رقم. الميزة الأكيدة للـ 30 واط على آيفون 16: الشحن اللاسلكي السريع بشاحن MagSafe، اللي Apple بتطلب له شاحن حائط 30 واط أو أعلى.'
                 },
                 {
-                    question: 'إيه الفرق بين شاحن أنكر نانو 30W وشاحن Apple 20W الأصلي؟',
-                    answer: 'الفرق في 3 حاجات: الأول الواط — أنكر 30W بيطلع 26.8W فعلية للآيفون مقابل 19W لشاحن Apple 20W، يعني أنكر أسرع بـ 6 دقائق في كل شحنة من 0 لـ 50%. الثاني التقنية — أنكر GaN بيشتغل أبرد وأكفأ من Silicon في Apple 20W. الثالث الحماية — أنكر عنده ActiveShield وMultiProtect 11 نقطة، Apple 20W عنده حماية أبسط. السعر الفرق 75-175ج بس بين الاتنين.'
+                    question: 'إيه الفرق بين انكر 511 نانو 3 (A2147) وشاحن Apple 20W الأصلي؟',
+                    answer: 'على الآيفون السلكي الفرق في السرعة صغير لأن الآيفون بيحدد السرعة حوالين 20 واط (قسنا ذروة حوالي 19.7 واط على iPhone 15 مع A2147). الفرق الحقيقي: A2147 صغير (28.4 × 28.5 × 35.1 مم قياسنا)، بيدعم PPS لسامسونج، وقدرته 30 واط تكفي MagSafe السريع لآيفون 16. سعره {{price:anker-a2147-gan-charger-30w}} جنيه، وسعر شاحن Apple بيختلف حسب البائع.'
                 },
                 {
                     question: 'هل الشاحن ده بيشحن Samsung ولا بس Apple؟',
-                    answer: 'بيشحن Samsung وأي جهاز USB-C تاني. منفذ USB-C PD 3.0 معيار عالمي. Samsung Galaxy S24/S25 هيتشحن بـ 25W (PD). iPad Air هيتشحن بـ 20-23W. AirPods بـ 5W. الفرق: Samsung بالأساس بيستخدم Super Fast Charge الخاص (45W PPS) اللي بيحتاج شاحن Samsung. أنكر 30W هيشحنه بـ 25W PD — سريع ومقبول لكن مش أقصى سرعة Samsung الخاصة.'
+                    answer: 'بيشحن سامسونج وأي جهاز USB-C. الشاحن بيدعم PPS، وفي اختبارنا جالاكسي S24 اشتغل Super Fast Charging بذروة حوالي 24.3 واط ووصل 100% في حوالي 64 دقيقة. لكنه مش هيدّي شحن 45 واط لموبايلات Ultra، ولا سرعات شاومي وأوبو الخاصة (HyperCharge / VOOC).'
                 },
                 {
                     question: 'هل 45W أحسن من 30W لآيفون؟',
-                    answer: 'للآيفون 15 كلاس (~27 واط) 45W مش بيضيف سرعة تُذكر مقارنة بـ 30W. لآيفون 16 Pro Max (~30 واط مستمرة) ممكن 45W يضيف فرق بسيط جداً. عملياً 30W هو الاختيار الأمثل والأوفر للآيفون؛ و45W بينفع أكتر لو هتشحن جهازين في نفس الوقت أو جهاز أقوى زي لابتوب.'
+                    answer: 'لشحن آيفون 15 أو 16 سلكي، في الغالب لأ: الآيفون بيحدد السرعة، وiPhone 15 في اختبارنا وقف عند حوالي 19.7 واط. الاستثناء iPhone 17 Pro و Pro Max: Apple بتقول إنهم بيوصلوا 50% في حوالي 20 دقيقة بشاحن 40 واط أو أكتر، وهنا 45 واط بتفرق. و45 واط مفيدة كمان لو هتشحن جهازين أو لابتوب.'
                 }
             ]
         },
         en: {
             title: 'Anker Nano 30W Charger — The Smart Choice for iPhone 15 and 16',
             metaTitle: 'Anker Nano 30W Review — Best Charger for iPhone 15 and 16 in Egypt | CairoVolt',
-            metaDescription: 'Full review of the Anker Nano 30W (A2741) — the smallest GaN charger that charges iPhone 15 and 16 at maximum speed. Comparison with Apple 20W and 30W.',
+            metaDescription: 'Full review of the Anker Nano 30W (A2147) — the smallest GaN charger that charges iPhone 15 and 16 at maximum speed. Comparison with Apple 20W and 30W.',
             keywords: 'anker nano 30w egypt, iphone 15 charger egypt, iphone 16 charger egypt, anker a2741, small gan charger egypt, 30w vs 20w charger iphone, apple charger comparison egypt, anker nano review, usb-c pd charger egypt, best iphone charger 2026',
-            excerpt: 'The smallest 30W charger in Egypt, roughly coin-sized — charges iPhone 16 Pro Max from 0 to 50% in 30 minutes with an 18-month warranty. Real comparison with Apple 20W and Apple 30W.',
-            quickAnswer: 'The Anker Nano 30W (A2741) is the best iPhone 15 and 16 charger in Egypt. iPhone fast charging runs about 27–30W depending on the model, so a 30W charger delivers full everyday speed. It measures 45.6 × 29.3 mm, smaller in profile than Apple\'s own 20W charger. Price in Egypt 450-550 EGP versus 375 EGP for the slower Apple 20W. Works on Egypt\'s 220V grid safely.',
-            content: `<p>Pick up your Apple 20W charger — the one that came in the iPhone box. Measure it: 44 × 44 × 29 mm. Now pick up the Anker Nano 30W: 45.6 × 29.3 mm. The Anker Nano sits in your hand like an Egyptian pound coin. But the difference is not just size — the Anker charges your iPhone faster, handles Egypt's unstable power grid better, and runs cooler thanks to GaN technology. The real question is not "should I buy a 30W charger?" The real question is "which 30W charger is best for iPhone in Egypt?" The answer: Anker Nano A2741.</p>
+            excerpt: 'The smallest 30W charger in Egypt, roughly coin-sized — charged an iPhone 15 from 0 to 50% in about 27 minutes in our test, with an 18-month store warranty. Real comparison with Apple 20W and Apple 30W.',
+            quickAnswer: 'Our pick for a compact iPhone charger is the Anker 511 Nano 3 (A2147, EGP {{price:anker-a2147-gan-charger-30w}}): one 30W GaN USB-C port, 28.4 × 28.5 × 35.1 mm (our measurement). On iPhone 15 we measured a ~19.7W peak and about 27 min to 50% — the iPhone\'s own wired ceiling; the 30W headroom helps iPhone 16 MagSafe fast charging and Samsung PPS.',
+            content: `<p>Pick up the Apple 20W charger that came with your iPhone and put it next to the Anker 511 Nano 3 (A2147): the Anker is a small cube measuring 28.4 × 28.5 × 35.1 mm and weighing 47.2 g (CairoVolt measurements on sample CV-CH-A2147-001). The question this review answers: does a 30W charger charge an iPhone 15 or 16 faster than a 20W one? The answer here comes from measurement, not from the catalogue.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        The <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W (A2741)</a> is everything you need for iPhone 15 or 16. iPhone fast charging runs about 27–30W depending on the model, so a 30W charger delivers full everyday speed. It is smaller than Apple's 20W charger, costs 450-550 EGP, and works safely on Egypt's 220V power. No real need to spend more on 45W or 65W for iPhone alone — the difference is marginal.
+        The <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 511 Nano 3 (A2147)</a> is a single-port 30W GaN USB-C charger at EGP {{price:anker-a2147-gan-charger-30w}}. On iPhone 15 we measured a ~19.7W peak and about 27 minutes to 50% — the iPhone itself sets its wired charging speed at around 20W. What 30W adds: iPhone 16 MagSafe fast charging (Apple asks for a 30W-or-higher adapter), Samsung PPS charging, and a small body.
     </p>
 </div>
 
 <h2>GaN Technology — Why It Matters in a Charger This Small</h2>
-<p>GaN stands for Gallium Nitride — a semiconductor material that replaces traditional silicon. The practical difference: GaN operates at higher switching frequencies than silicon, which means internal transformers can be smaller, and the energy wasted as heat drops significantly. The result is a smaller charger that outputs more watts and runs cooler.</p>
-<p>In the case of the Anker Nano 30W, GaN technology allowed a 30W charger to fit into a body approximately the size of the old Apple 5W charger. Competitors who do not use GaN need roughly twice the volume to deliver the same wattage. That is why "Nano" is in the name — it is not just marketing language.</p>
+<p>GaN stands for Gallium Nitride — a semiconductor material that replaces traditional silicon. The practical difference: GaN operates at higher switching frequencies than silicon, which means internal transformers can be smaller and less energy is wasted as heat. The result is a smaller charger that outputs more watts.</p>
+<p>In the Anker 511 Nano 3, GaN lets a 30W charger fit into a cube roughly 2.8 cm on a side (we measured 28.4 × 28.5 × 35.1 mm including the plug).</p>
 
 <h2>Semiconductor Physics: Gallium Nitride (GaN) vs. Silicon</h2>
-<p>To understand the technological leap of GaN, we must look at the bandgap difference. Gallium Nitride is a wide-bandgap semiconductor with a bandgap of 3.4 eV, compared to traditional Silicon\'s 1.1 eV. This wide bandgap allows the material to handle significantly higher electrical field gradients and voltage differentials within a microscopic footprint without experiencing electrical breakdown.</p>
-<p>Additionally, electron mobility inside GaN is 150 times faster than in Silicon. This translates to switching speeds in the megahertz range, allowing the internal MOSFET switches to cycle on and off rapidly. This high efficiency cuts power loss due to heat by 60%, allowing the Anker Nano to output 30W of energy from a housing that remains cool to the touch.</p>
+<p>Gallium Nitride is a wide-bandgap semiconductor with a bandgap of about 3.4 eV, compared to roughly 1.1 eV for silicon. The wider bandgap lets the material withstand higher voltages in a smaller footprint without electrical breakdown.</p>
+<p>In practice, this allows the power switches to run at higher frequencies, so the transformer and capacitors shrink and so does the whole charger. Heat does not disappear, though: a charger this small gets warm under full load (see our temperature measurement below).</p>
 
-<h2>Anker Nano 30W (A2741) Specifications — Real Numbers</h2>
+<h2>Anker 511 Nano 3 (A2147) Specifications — Real Numbers</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
     <tbody>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;width:40%;">Model</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Anker A2741</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Maximum Wattage</td><td style="padding:10px 12px;border:1px solid #d1d5db;">30W</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Ports</td><td style="padding:10px 12px;border:1px solid #d1d5db;">1× USB-C (PD 3.0)</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Dimensions</td><td style="padding:10px 12px;border:1px solid #d1d5db;">45.6 × 29.3 mm</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Weight</td><td style="padding:10px 12px;border:1px solid #d1d5db;">47 grams</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Input Voltage</td><td style="padding:10px 12px;border:1px solid #d1d5db;">100-240V ~ 50/60Hz (Universal)</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">USB-C Output</td><td style="padding:10px 12px;border:1px solid #d1d5db;">5V⎓3A / 9V⎓3A / 15V⎓2A / 20V⎓1.5A</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Charging Protocols</td><td style="padding:10px 12px;border:1px solid #d1d5db;">USB PD 3.0, Apple Fast Charge</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Technology</td><td style="padding:10px 12px;border:1px solid #d1d5db;">GaN II</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Safety System</td><td style="padding:10px 12px;border:1px solid #d1d5db;">ActiveShield 2.0 + MultiProtect 11-point</td></tr>
-        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Price in Egypt</td><td style="padding:10px 12px;border:1px solid #d1d5db;">450 - 550 EGP</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;width:40%;">Model</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Anker 511 Nano 3 (A2147)</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Max Wattage</td><td style="padding:10px 12px;border:1px solid #d1d5db;">30W listed — highest peak we measured: 29.5W on 15V/2A</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Ports</td><td style="padding:10px 12px;border:1px solid #d1d5db;">1× USB-C</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Dimensions</td><td style="padding:10px 12px;border:1px solid #d1d5db;">28.4 × 28.5 × 35.1 mm (our measurement)</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Weight</td><td style="padding:10px 12px;border:1px solid #d1d5db;">47.2 g (our measurement)</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Power Input</td><td style="padding:10px 12px;border:1px solid #d1d5db;">100-240V ~ 50/60Hz (tested on 222V)</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">USB-C Output</td><td style="padding:10px 12px;border:1px solid #d1d5db;">5V⎓3A / 9V⎓3A / 15V⎓2A / 20V⎓1.5A + PPS 3.3–11V⎓3A and 3.3–16V⎓2A (our reading)</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Charging Protocols</td><td style="padding:10px 12px;border:1px solid #d1d5db;">USB PD 3.0 + PPS</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Technology</td><td style="padding:10px 12px;border:1px solid #d1d5db;">GaN</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Protection</td><td style="padding:10px 12px;border:1px solid #d1d5db;">ActiveShield 2.0 + MultiProtect (Anker-listed)</td></tr>
+        <tr style="background:#f3f4f6;"><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Price</td><td style="padding:10px 12px;border:1px solid #d1d5db;">EGP {{price:anker-a2147-gan-charger-30w}}</td></tr>
     </tbody>
 </table>
 
 <h2>Voltage Regulation Loop and Ripple Noise Mitigation</h2>
-<p>Egypt\'s power grid can suffer from high ripple noise and frequency fluctuations that can compromise mobile hardware. Anker engineers resolved this on the Nano 30W by integrating premium filter capacitors and a voltage regulation feedback loop that keeps output ripple noise under 30mV.</p>
-<p>Cheap, uncertified chargers frequently exhibit ripple noises exceeding 100mV, causing continuous thermal stress to your phone\'s Power Management Integrated Circuit (PMIC). Over several months, this electronic noise degrades the phone\'s battery health, leading to capacity loss. Using a stable, regulated charger like Anker protects the phone\'s battery health over its lifespan.</p>
+<p>Egypt's grid sometimes fluctuates in voltage, and this charger accepts a 100-240V input. Anker lists MultiProtect and ActiveShield 2.0 for this model. We did not measure ripple noise on this sample, so we do not publish a figure for it.</p>
+<p>What we can say with confidence: cheap no-name chargers may lack protection and filtering circuits, which is reason enough to buy a genuine charger from a seller that issues an invoice and a written warranty.</p>
 
-<h2>Why 30W Is the Sweet Spot for iPhone — The Technical Truth</h2>
-<p>This is the most important part of this review. Many people assume that 45W or 65W will charge an iPhone faster than 30W. That is completely wrong.</p>
-<p>iPhone fast charging runs about <strong>27–30W</strong> depending on the model: iPhone 13–15-class phones peak near 27W, while the iPhone 16 Pro/Pro Max draw ~30W sustained and can touch ~37W momentarily with a stronger adapter (independent measurements). Apple publishes no fixed wattage "cap" — its official documentation only states you reach 50% in about 30 minutes with a 20W-or-higher adapter. In practice, a 30W charger gives you full everyday speed on iPhone 15/16, and stepping up to 45W or 65W adds very little for the phone — it's only worth it if you also charge a more power-hungry device (a laptop or tablet).</p>
-<p>What does this mean in practice?</p>
+<h2>Does 30W Charge an iPhone Faster Than 20W? — What We Measured</h2>
+<p>On its <a href="https://support.apple.com/en-us/102574" target="_blank" rel="nofollow noopener">Fast charge your iPhone</a> support page, Apple says iPhone 15 and later fast charge with a USB-C adapter that supports USB-PD at 18W or more. On the CairoVolt bench (sample CV-CH-A2147-001), an iPhone 15 on this charger peaked at about 19.7W, reached 50% in about 27 minutes and 100% in about 90 minutes.</p>
+<p>In other words, the iPhone itself set its wired speed at around 20W, and the extra watts did not make wired charging faster. So why 30W?</p>
 <ul style="line-height:2;">
-    <li><strong>Apple 20W charger:</strong> Delivers approximately 19W to the iPhone — below the ceiling.</li>
-    <li><strong>Anker Nano 30W:</strong> Delivers approximately 26.8-27W — right at the ceiling.</li>
-    <li><strong>45W or 65W charger:</strong> Delivers ~27W to an iPhone 15-class phone (no difference) and ~30W to the iPhone 16 Pro Max (a marginal gain) — the extra headroom helps more with a laptop or tablet.</li>
+    <li><strong>iPhone 16 and later with MagSafe:</strong> Apple asks for a 30W-or-higher adapter with the MagSafe Charger for wireless fast charging.</li>
+    <li><strong>Samsung:</strong> the charger supports PPS, and our Galaxy S24 ran Super Fast Charging at a peak of about 24.3W.</li>
+    <li><strong>Other USB-C devices:</strong> iPad, earbuds and small gadgets on the same brick.</li>
 </ul>
-<p>Real-world 0% to 50% charge times:</p>
-<ul style="line-height:2;">
-    <li>Apple 20W: approximately 36 minutes</li>
-    <li>Anker Nano 30W: approximately 30 minutes</li>
-    <li>Any 45W+ charger: approximately 30 minutes (identical to the 30W)</li>
-</ul>
-<p>The conclusion: 30W equals maximum possible speed for iPhone. There is no reason to spend more on 45W or 65W for home iPhone charging.</p>
+<p>If you only charge an iPhone by cable and want the cheapest option, a sound 20W charger such as the <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W (A2347)</a> at EGP {{price:anker-powerport-20w}} gives you about the same wired speed. If you have an iPhone 17 Pro or Pro Max, Apple says it reaches 50% in about 20 minutes with a 40W-or-higher adapter — that is where a charger such as the <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> actually makes a difference.</p>
 
 <h2>Programmable Power Supply (PPS) and PD 3.0 Compatibility</h2>
-<p>The Anker Nano 30W is fully compatible with PPS (Programmable Power Supply), a sub-protocol of the USB Power Delivery 3.0 standard. PPS allows the charger to dynamically adjust its output voltage and current in real time based on the phone\'s battery charge level and temperature readings.</p>
-<p>Instead of fixed voltage steps (like 5V or 9V), PPS enables changes in 20mV voltage steps and 50mA current steps. This precision prevents energy loss as heat inside the phone\'s internal converter circuits, reducing thermal stress on the lithium-ion battery cells and preventing early battery degradation.</p>
+<p>By our reading, the charger advertises two PPS (Programmable Power Supply) ranges: 3.3–11V⎓3A and 3.3–16V⎓2A. With PPS the phone requests voltage in 20 mV steps and current in 50 mA steps, so less power is lost in conversion inside the phone.</p>
+<p>The iPhone does not use PPS — it charges over standard PD. Samsung uses PPS for Super Fast Charging, which is why this charger suits a home with both an iPhone and a Samsung.</p>
 
-<h2>Anker Nano 30W vs Apple 20W vs Apple 30W Comparison</h2>
+<h2>Anker 511 Nano 3 vs Apple 20W vs Apple 30W Comparison</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead>
         <tr style="background:#f3f4f6;">
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Specification</th>
+            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Feature</th>
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Apple 20W</th>
             <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;">Apple 30W</th>
-            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;background:#eff6ff;">Anker Nano 30W ⭐</th>
+            <th style="padding:10px 8px;border:1px solid #d1d5db;text-align:left;background:#eff6ff;">Anker 511 Nano 3 (A2147)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Price in Egypt</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">375 EGP</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">800+ EGP</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>450-550 EGP</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Price</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Varies by seller</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Varies by seller</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>EGP {{price:anker-a2147-gan-charger-30w}}</strong></td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Actual Watts to iPhone</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~19W</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~27W</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>~26.8W</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Listed wattage</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">20W</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">30W</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>30W</strong></td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">0% → 50% iPhone 16</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~36 minutes</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">~30 minutes</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>~30 minutes</strong></td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Dimensions</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">44 × 44 × 29 mm</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">45 × 45 × 29 mm</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>45.6 × 29.3 mm</strong></td>
-        </tr>
-        <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">GaN Technology</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ No</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ No</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;color:#059669;"><strong>✅ GaN II</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">iPhone 15 (our measurement)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Not measured</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Not measured</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>~19.7W peak · ~27 min to 50%</strong></td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">ActiveShield</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;color:#059669;"><strong>✅</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;color:#059669;"><strong>✅ (Anker-listed)</strong></td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Input Voltage</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Power input</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">100-240V</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">100-240V</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>100-240V</strong></td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Warranty in Egypt</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">12 months Apple</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">12 months Apple</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>18 months CairoVolt</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:bold;">Warranty</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Apple manufacturer warranty</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">Apple manufacturer warranty</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;background:#f0fdf4;"><strong>CairoVolt's written store warranty (duration shown on each product page)</strong></td>
         </tr>
     </tbody>
 </table>
 
-<p>The comparison is clear: the Apple 30W delivers the same iPhone charge speed as the Anker — but at a higher price (800+ EGP), without GaN, and without ActiveShield. The Apple 20W is cheaper (375 EGP) but 6 minutes slower per charge session and delivers 8W less than the available iPhone ceiling.</p>
+<p>Bottom line: for wired iPhone charging, the speed difference between 20W and 30W is small because the iPhone sets the pace. The A2147's real advantages are its size, PPS support for Samsung, and the 30W that Apple asks for to MagSafe fast charge an iPhone 16.</p>
 
-<p>If the Nano is out of stock or you prefer a different design, we have just stocked another in-house Anker alternative: the <a href="/en/anker/wall-chargers/anker-zolo-30w-a2698-charger" style="color:#2563eb;font-weight:600;">Anker Zolo 30W</a> at 599 EGP — among the cheapest genuine 30W GaN chargers in Egypt, and at the same speed ceiling it takes an iPhone 17 from 0 to 50% in roughly 25 minutes.</p>
+<p>There is also an alternative from Anker itself: the <a href="/en/anker/wall-chargers/anker-zolo-30w-a2698-charger" style="color:#2563eb;font-weight:600;">Anker Zolo 30W (A2698)</a> at EGP {{price:anker-zolo-30w-a2698-charger}} — also a single 30W USB-C port, but without a 20V output, so it is not the one to use for slow-charging a MacBook Air.</p>
 
-<h2>Thermal Management and Silica Gel Potting</h2>
-<p>While GaN technology is highly efficient, packaging high power into a micro-sized casing presents thermal dissipation challenges. To manage this, Anker uses thermal silicone gel (potting compound) to fill all internal voids between the transformer, capacitors, and outer casing.</p>
-<p>This gel acts as a heat conductor, transferring heat away from internal hot spots directly to the outer plastic casing. This prevents internal components from baking in high heat, maintaining a safe surface touch temperature and extending the charger\'s operational lifespan.</p>
+<h2>Heat — What We Measured</h2>
+<p>After 15 minutes at about 29W, the charger's shell reached 53.8°C with the room at 28.3°C (sample CV-CH-A2147-001). That is warm to the touch, and expected for a charger this size at full load.</p>
+<p>Anker rates it for 0–40°C operation, and Cairo summers reach about 35°C. Leave some airflow around the charger, do not cover it with a pillow, and do not leave it on a car dashboard.</p>
 
 <h2>ActiveShield 2.0 — Why It Matters Specifically in Egypt</h2>
-<p>ActiveShield is Anker's intelligent monitoring system built into their chargers. It measures the charger's internal temperature over a million times per day (approximately every 86 milliseconds) and automatically adjusts the output to maintain a safe temperature for both the charger and the connected device's battery.</p>
-<p>In Egypt, there are electrical realities not present in many other markets:</p>
+<p>ActiveShield is the temperature-monitoring system Anker lists for its chargers: it tracks charger temperature and reduces output if it climbs. Egypt has clear electrical challenges:</p>
 <ul style="line-height:2;">
-    <li><strong>Voltage fluctuation:</strong> Egypt's grid is nominally 220V but can vary between 200-240V, especially in summer when grid load peaks. The charger accepts 100-240V across the full range safely.</li>
-    <li><strong>Power cuts and sudden restoration:</strong> When power returns after a cut, there can be a momentary voltage spike. MultiProtect's overvoltage protection handles this.</li>
-    <li><strong>High ambient temperatures in summer:</strong> On a desk near a window or in a parked car, ambient temperature can be 40°C or above. ActiveShield compensates by throttling power if the charger detects excessive heat buildup.</li>
+    <li><strong>Voltage fluctuations:</strong> Egyptian mains should be 220V but can swing, especially in summer when grid demand peaks. The charger accepts 100-240V.</li>
+    <li><strong>Sudden power restoration after outages:</strong> a brief voltage spike can occur. Anker lists MultiProtect, and it is also wise to plug chargers into a surge-protected power strip.</li>
+    <li><strong>High summer temperatures:</strong> in a hot room or a parked car, ambient heat is high — which makes airflow around the charger more important.</li>
 </ul>
 
 <h2>Does It Charge Devices Other Than Apple?</h2>
-<p>Yes — USB-C PD 3.0 is a universal standard. The Anker Nano 30W charges:</p>
+<p>Yes — USB-C PD is an open standard. The Anker 511 Nano 3 charges:</p>
 <ul style="line-height:2;">
-    <li><strong>Samsung Galaxy S24 / S25:</strong> At 25W via PD protocol (Samsung accepts PD on compatible models)</li>
-    <li><strong>iPad Air / iPad Mini:</strong> At 20-23W — fast charging supported</li>
-    <li><strong>AirPods Pro:</strong> At 5W — fully compatible</li>
-    <li><strong>Any USB-C device:</strong> PD protocol negotiates automatically with the device</li>
+    <li><strong>Samsung Galaxy S24 and other 25W Samsung phones:</strong> over PPS — in our test the S24 ran Super Fast Charging at a peak of about 24.3W and reached 100% in about 64 minutes.</li>
+    <li><strong>iPad Air / iPad Mini:</strong> over USB-C PD.</li>
+    <li><strong>AirPods and USB-C earbuds:</strong> at low power, no problem.</li>
+    <li><strong>MacBook Air:</strong> the 20V/1.5A output means 30W — an emergency slow charge only, not fast charging.</li>
 </ul>
+<p>It is not the charger for Xiaomi, Oppo or Realme proprietary speeds (HyperCharge / VOOC) — those phones fall back to slower PD. The cable is not in the box; you need a 3A-capable USB-C to USB-C cable such as the <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine III USB-C to USB-C</a>.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">💡 Why the Anker Nano 30W fits iPhone</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">💡 Who should buy the Anker 511 Nano 3 (A2147)?</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        iPhone 15 and 16 reach their peak charging speed at roughly a 30W ceiling, so a 30W charger gives you the phone's real maximum in a compact size. Compared with a 20W charger, the difference is about 6 minutes faster per charge session — which adds up over a year. Choose the 30W if you want the fastest speed the iPhone supports in the smallest size, and check the current price before buying.
+        Our pick for a home with an iPhone 16 on a MagSafe charger, a home with both an iPhone and a Samsung, or anyone who wants a compact 30W charger in the bag. If you only charge an iPhone by cable, a sound 20W charger is very close in speed, so the decision here is about size and flexibility, not speed.
     </p>
 </div>
 
 <h2>Where to Buy and How to Verify Authenticity</h2>
-<p>The Anker Nano 30W is available on <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">CairoVolt at 450-550 EGP</a> — 100% authentic with an Anker verification code. Verifying authenticity is straightforward:</p>
+<p>The Anker 511 Nano 3 (A2147) is available on CairoVolt at EGP {{price:anker-a2147-gan-charger-30w}}. Before buying anywhere:</p>
 <ul style="line-height:2;">
-    <li>Barcode on packaging scans to verify.anker.com</li>
-    <li>The "Anker" text is molded into the charger body, not a sticker</li>
-    <li>Packaging shows model number A2741 correctly</li>
+    <li>If the box carries a security label, scratch it and enter the 16- or 20-digit code at anker.com/verify — only offline-sold units carry the code, and Anker says a missing label does not mean counterfeit.</li>
+    <li>Match the A2147 model number and the printed ratings on the charger to the box and to Anker's documentation.</li>
+    <li>Buy from a seller that issues an invoice and a written warranty naming its legal identity — packaging or a barcode alone does not prove authenticity.</li>
 </ul>
+<p>Avoid buying from anonymous sellers on social media — there are many Anker counterfeits on the market, and a counterfeit charger may lack protection circuits.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic Anker Nano 30W with 18-Month Warranty</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Anker 511 Nano 3 (A2147) on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Available on CairoVolt at <strong>450-550 EGP</strong>. 100% authentic with Anker verification code. 18-month warranty covering manufacturing defects. Delivery to all governorates + cash on delivery. <a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#166534;font-weight:600;text-decoration:underline;">Order now ←</a>
+        Available at <strong>EGP {{price:anker-a2147-gan-charger-30w}}</strong>, covered by CairoVolt's written store warranty (duration shown on each product page) against manufacturing defects. Delivery to all governorates + cash on delivery. <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;text-decoration:underline;">Order now →</a>
     </p>
 </div>`,
             faq: [
                 {
-                    question: 'Does the Anker Nano 30W charge iPhone 16 Pro Max at full speed?',
-                    answer: 'A 30W charger is an excellent match for the iPhone 16 Pro Max — the phone draws ~30W sustained and can touch ~37W momentarily with a stronger adapter (independent measurements, not an official Apple figure). A 45W or 65W charger may add a little on the 16 Pro Max, but for iPhone 15-class phones (~27W) it makes no difference. In practice 30W gives you full everyday speed.'
+                    question: 'Does a 30W charger charge the iPhone 16 Pro Max at maximum speed?',
+                    answer: 'For wired charging, Apple says iPhone 15 and later fast charge with any USB-C PD adapter of 18W or more, and in our test an iPhone 15 on the A2147 peaked at about 19.7W. We have not measured an iPhone 16 Pro Max on this charger, so we do not give a figure. The clear benefit of 30W on an iPhone 16 is MagSafe wireless fast charging, for which Apple asks for a 30W-or-higher wall adapter.'
                 },
                 {
-                    question: 'What is the difference between the Anker Nano 30W and the original Apple 20W charger?',
-                    answer: 'The difference comes down to three things. First, wattage: the Anker 30W delivers 26.8W actual to the iPhone vs 19W for the Apple 20W, meaning the Anker is 6 minutes faster per charge session from 0 to 50%. Second, technology: Anker uses GaN II which runs cooler and more efficiently than the silicon in the Apple 20W. Third, safety: Anker has ActiveShield temperature monitoring and MultiProtect 11-point safety, while the Apple 20W has a simpler protection system. The price gap is only 75-175 EGP.'
+                    question: 'What is the difference between the Anker 511 Nano 3 (A2147) and the original Apple 20W charger?',
+                    answer: 'On a wired iPhone the speed difference is small because the iPhone sets the pace at around 20W (we measured a ~19.7W peak on iPhone 15 with the A2147). The real differences: the A2147 is small (28.4 × 28.5 × 35.1 mm, our measurement), supports PPS for Samsung, and its 30W covers iPhone 16 MagSafe fast charging. It costs EGP {{price:anker-a2147-gan-charger-30w}}; the Apple charger price varies by seller.'
                 },
                 {
-                    question: 'Does this charger work with Samsung and other Android phones?',
-                    answer: 'Yes — it works with Samsung, Google Pixel, and any USB-C device. The USB-C PD 3.0 protocol is universal and the charger auto-negotiates with each device. Samsung Galaxy S24/S25 will charge at 25W via PD. The distinction: Samsung\'s maximum proprietary Super Fast Charge (45W PPS) requires either a Samsung charger or a PPS-compatible charger. The Anker 30W charges Samsung at 25W standard PD — fast, but not Samsung\'s proprietary peak speed.'
+                    question: 'Does this charger work with Samsung or just Apple?',
+                    answer: 'It charges Samsung and any other USB-C device. The charger supports PPS, and in our test a Galaxy S24 ran Super Fast Charging at a peak of about 24.3W and reached 100% in about 64 minutes. It will not deliver 45W charging to Ultra models, nor Xiaomi or Oppo proprietary speeds (HyperCharge / VOOC).'
                 },
                 {
                     question: 'Is a 45W charger better than 30W for iPhone?',
-                    answer: 'For iPhone 15-class phones (~27W), 45W adds no meaningful speed over 30W. For the iPhone 16 Pro Max (~30W sustained) a 45W charger may add a little. In practice 30W is the sweet spot and best value for iPhone; 45W makes more sense if you want to charge two devices at once (phone + tablet) or a more power-hungry device like a laptop.'
+                    answer: 'For wired charging of an iPhone 15 or 16, usually not: the iPhone sets the pace, and our iPhone 15 peaked at about 19.7W. The exception is the iPhone 17 Pro and Pro Max: Apple says they reach 50% in about 20 minutes with a 40W-or-higher adapter, so 45W makes a difference there. 45W also helps if you charge two devices or a laptop.'
                 }
             ]
         }

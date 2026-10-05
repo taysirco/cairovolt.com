@@ -11,14 +11,16 @@ import type { ProductDetail } from './_types';
 export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Anker Nano 45W Smart Display A121D (~1,250 EGP): single USB-C GaN + TFT live W/V·A + Auto/Care + 180° flush-fold prongs. FNB58 decoded fixed PDOs 5V/3A · 9V/3A · 15V/3A · 20V/2.25A and ONE PPS APDO 3.3–11V/4.05A — NOT the dual PPS-to-21V set on Nano II A2664 (slug anker-nano-45w).',
+            'Anker Nano 45W Smart Display (A121D) is a single-port USB-C GaN charger with a TFT screen showing live watts, Auto/Care modes and 180° flush-fold prongs. Our FNB58 read one PPS window (3.3–11V/4.05A), not Nano II\'s dual set to 21V. It suits bedside and desk use.',
+            'Listing price ~1,250 EGP. FNB58 fixed PDOs: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A. The dual PPS-to-21V set belongs to Nano II A2664 (slug anker-nano-45w).',
             'CairoVolt peaks: 44.1W on 20V/2.25A (19.92V/2.21A) and 44.0W on PPS 11V/4.00A held on JUWEI — ~98% of the 45W label on sample CV-CH-A121D-001 (primary load 2026-07-22; refresh 2026-07-24 · Eng. Omar Khaled). TFT agreed with FNB58 within ±0.2W.',
             'Real devices: MacBook Air M2 0→100% in 1h 50m; iPhone 15 ~20W PD (~25 min to 50%); Galaxy S24 base Samsung 25W SFC ON (~65 min to full). Galaxy S24 Ultra FALLS BACK to 25W SFC — PPS caps at 11V; Ultra 45W SFC 2.0 needs 20V PPS (samsung.com). Buy A2664 for Ultra 45W.',
             'Care Mode measured: after iPhone 15 ~80%, touch selector dropped 9V/2.2A → 5V/2.0A in ~2s. 180° hinge flushes prongs (≤0.5mm protrusion) — unique vs A2664/A2692 ~90° folds. Switch OLED docked at 15V/2.6A = 39W full-speed.',
             'Surface 53.2°C after 15 min at ~44W (ambient 28.2°C). No PZEM — we publish no wall efficiency %. Recall refresh 2026-07-24: A121D not on anker.com/product-recalls. Single unit (White); batches/colors may vary.',
         ],
         ar: [
-            'انكر نانو 45W بشاشة ذكية A121D (~1,250 جنيه): منفذ USB-C واحد GaN + شاشة TFT حيّة W/V·A + Auto/Care + سنون تطوى 180° ملاصقة. FNB58 فكّ PDO ثابتة 5V/3A · 9V/3A · 15V/3A · 20V/2.25A وAPDO واحد لـ PPS 3.3–11V/4.05A — ليست مجموعة PPS المزدوجة حتى 21 فولت في Nano II A2664 (slug anker-nano-45w).',
+            'انكر نانو 45W بشاشة ذكية (A121D) شاحن GaN بمنفذ USB-C واحد مع شاشة TFT تعرض الواط الحي ووضعي Auto/Care وسنون تطوى 180° ملاصقة. قرأ FNB58 لدينا نافذة PPS واحدة (3.3–11V/4.05A)، لا مجموعة Nano II المزدوجة حتى 21 فولت. يناسب جانب السرير والمكتب.',
+            'سعر القائمة ~1,250 جنيه. PDO الثابتة على FNB58: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A. مجموعة PPS المزدوجة حتى 21 فولت تخص Nano II A2664 (slug anker-nano-45w).',
             'ذروات CairoVolt: 44.1 واط على 20V/2.25A (19.92V/2.21A) و44.0 واط على PPS 11V/4.00A على JUWEI — نحو 98% من ملصق 45 واط على العيّنة CV-CH-A121D-001 (حمل أساسي 2026-07-22؛ تحديث 2026-07-24 · م. عمر خالد). TFT تطابقت مع FNB58 ضمن ±0.2 واط.',
             'أجهزة حقيقية: MacBook Air M2 0→100% في ساعة و50 دقيقة؛ iPhone 15 ~20 واط PD (~25 دقيقة إلى 50%)؛ Galaxy S24 القاعدي Samsung 25W SFC يعمل (~65 دقيقة للامتلاء). Galaxy S24 Ultra يرتد إلى 25W SFC — سقف PPS 11 فولت؛ Ultra 45W SFC 2.0 يحتاج PPS 20 فولت (samsung.com). اشترِ A2664 لـ Ultra 45 واط.',
             'وضع Care مقاس: بعد iPhone 15 ~80%، الزر اللمسي خفّض 9V/2.2A → 5V/2.0A خلال ~2 ث. مفصل 180° يلاصق السنون (بروز ≤0.5 ملم) — فريد مقابل طي ~90° في A2664/A2692. Switch OLED بالدوك عند 15V/2.6A = 39 واط بأقصى سرعة.',
@@ -122,13 +124,13 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
             ar: 'غير مستدعى — A121D غائب عن anker.com/product-recalls (rc2506 / قائمة باور بانك يونيو 2025) ولا إصابة CPSC لشاحن حائط A121D',
         },
         'Efficiency': {
-            en: 'Not measured — no AC power analyzer (PZEM) on this pass; we do not invent wall efficiency %',
-            ar: 'غير مقيسة — بلا محلّل قدرة AC (PZEM)؛ لا نخترع نسبة كفاءة من الحائط',
+            en: 'Not measured — no AC power analyzer (PZEM) on this pass',
+            ar: 'غير مقيسة — بلا محلّل قدرة AC (PZEM)',
         },
         'Sample / Lab ID': { en: 'CV-CH-A121D-001 · Eng. Omar Khaled · primary 2026-07-22 · refresh 2026-07-24', ar: 'CV-CH-A121D-001 · م. عمر خالد · أساسي 2026-07-22 · تحديث 2026-07-24' },
         'Protocol': {
-            en: 'CairoVolt Bench Test Protocol §7.1 (wall chargers) + §8 physics gates + §11 red-flag checklist',
-            ar: 'بروتوكول اختبار كايرو فولت §7.1 (شواحن الحائط) + بوابات الفيزياء §8 + قائمة الأعلام الحمراء §11',
+            en: 'CairoVolt Bench Test Protocol (wall chargers) + physics gates + red-flag checklist',
+            ar: 'بروتوكول اختبار كايرو فولت (شواحن الحائط) + بوابات الفيزياء + قائمة الأعلام الحمراء',
         },
     },
     benchTest: {
@@ -146,31 +148,31 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
         },
         methodology: {
             en:
-                'A121D was run under CairoVolt wall-charger protocol §7.1 on sample CV-CH-A121D-001 (primary load 2026-07-22; refresh 2026-07-24 · Eng. Omar Khaled). ' +
+                'A121D was run under CairoVolt wall-charger protocol on sample CV-CH-A121D-001 (primary load 2026-07-22; refresh 2026-07-24 · Eng. Omar Khaled). ' +
                 'ALIAS GATE before load: shell/box print A121D; sibling slug anker-nano-45w (A2664 Nano II) and A2692 Nano Pro rejected as identity. If FNB58 had shown dual PPS windows to 16V/21V, we would flag a misboxed A2664. ' +
-                '§8 physics gates: every fixed PDO obeys W = V × A (5×3 = 15W; 9×3 = 27W; 15×3 = 45W; 20×2.25 = 45W); PPS APDO ceiling obeys 11×4.05 = 44.55W; single-port peak ≤ 45W label; iPhone 15 half-charge ≥ Battery_Wh ÷ (Charging_W × ~0.90) theoretical floor — ~25 min measured at ~20W is allowed; Samsung 45W SFC 2.0 cannot appear without a 20V PPS APDO. ' +
+                'Physics gates: every fixed PDO obeys W = V × A (5×3 = 15W; 9×3 = 27W; 15×3 = 45W; 20×2.25 = 45W); PPS APDO ceiling obeys 11×4.05 = 44.55W; single-port peak ≤ 45W label; iPhone 15 half-charge ≥ Battery_Wh ÷ (Charging_W × ~0.90) theoretical floor — ~25 min measured at ~20W is allowed; Samsung 45W SFC 2.0 cannot appear without a 20V PPS APDO. ' +
                 '(A) FNB58 fw v1.3 PD Info decode, no load — enumerated FOUR fixed PDOs + ONE PPS APDO 3.3–11V/4.05A; confirmed ZERO dual-PPS-to-21V (SKU honesty vs A2664). Re-decoded unchanged on 2026-07-24 refresh. ' +
                 '(B–C) Each fixed rail loaded on JUWEI; logged FNB58 V·A·W; 20V peak held as primary laptop rail; visually cross-checked TFT wattage vs FNB58 (agreement within ~0.2W). ' +
                 '(D) N/A — single port. (E) PPS programmed holds: 8.5V/2.5A, 9.24V/2.71A, then 11V/4.00A for 5 minutes — voltage stability + APDO behaviour noted. ' +
                 '(F) Real devices from ~0%: MacBook Air M2 (52.6Wh), iPhone 15 (12.99Wh), Galaxy S24 base (14.31Wh, 25W SFC), Galaxy S24 Ultra (19.4Wh, 45W SFC 2.0 attempt), Nintendo Switch OLED docked. Care Mode validated on iPhone 15 after ~80%. iPad / Pro Max times labelled est. — not invented same-day A/B. ' +
                 '(G) GM320 IR (ε=0.95) surface temps at 4 points after 15 min sustained ~44W. NOT re-run as paired same-hour A/B vs A2664 52.4–54.8°C or A2692 51.8–54.2°C. ' +
                 '(H) OCP: JUWEI push >3.5A on 20V rail. (K) Kkmoon 0.01g + Mitutoyo + prong-clearance jig for 180° flush. (L) Visual plug: foldable US Type-A 180° — Egypt fit note. ' +
-                '(I–J) NOT run: no-load vampire and wall efficiency — no PZEM; publish neither (§6.7 / §11.3). ' +
+                '(I–J) NOT run: no-load vampire and wall efficiency — no PZEM; publish neither. ' +
                 '(M) Recall check anker.com/product-recalls + cpsc.gov dated 2026-07-24 — A121D not listed. ' +
                 'Sibling numbers cited for SKU contrast only (A2664 peak 44.2W + dual PPS to 21V; A2692 peak 43.8W + PPS to 11V, no display) — not same-hour paired thermal A/B. ' +
                 'Independent corroboration (not our data): Anker A121D product page (display + Auto/Care + 180° fold); samsung.com/global/galaxy Super Fast Charging 2.0 20V PPS requirement; MacRumors ~20–27W iPhone wired ceiling; switchchargers.com 15V/3A docked Switch. ' +
                 'Single unit (White); production batches and other colorways may vary slightly in finish but share identical electrical spec per Anker product page.',
             ar:
-                'شُغّل A121D وفق بروتوكول شواحن الحائط §7.1 في كايرو فولت على العيّنة CV-CH-A121D-001 (حمل أساسي 2026-07-22؛ تحديث 2026-07-24 · م. عمر خالد). ' +
+                'شُغّل A121D وفق بروتوكول شواحن الحائط في كايرو فولت على العيّنة CV-CH-A121D-001 (حمل أساسي 2026-07-22؛ تحديث 2026-07-24 · م. عمر خالد). ' +
                 'بوابة الاسم المستعار قبل الحمل: طباعة الهيكل/الصندوق A121D؛ رُفض slug الشقيق anker-nano-45w (A2664 Nano II) وA2692 Nano Pro كهوية. لو أظهر FNB58 نافذتَي PPS حتى 16V/21V لأشرنا إلى وحدة A2664 خاطئة التعبئة. ' +
-                'بوابات الفيزياء §8: كل PDO ثابت يطيع W = V × A (5×3 = 15 واط؛ 9×3 = 27 واط؛ 15×3 = 45 واط؛ 20×2.25 = 45 واط)؛ سقف APDO لـ PPS يطيع 11×4.05 = 44.55 واط؛ ذروة المنفذ الواحد ≤ ملصق 45 واط؛ نصف شحن iPhone 15 ≥ الحد النظري Battery_Wh ÷ (Charging_W × ~0.90) — ~25 دقيقة مقيسة عند ~20 واط مسموحة؛ Samsung 45W SFC 2.0 لا يظهر بلا APDO PPS 20 فولت. ' +
+                'بوابات الفيزياء: كل PDO ثابت يطيع W = V × A (5×3 = 15 واط؛ 9×3 = 27 واط؛ 15×3 = 45 واط؛ 20×2.25 = 45 واط)؛ سقف APDO لـ PPS يطيع 11×4.05 = 44.55 واط؛ ذروة المنفذ الواحد ≤ ملصق 45 واط؛ نصف شحن iPhone 15 ≥ الحد النظري Battery_Wh ÷ (Charging_W × ~0.90) — ~25 دقيقة مقيسة عند ~20 واط مسموحة؛ Samsung 45W SFC 2.0 لا يظهر بلا APDO PPS 20 فولت. ' +
                 '(A) فك FNB58 fw v1.3 لـ PD Info بلا حمل — أحصينا أربعة PDO ثابتة + APDO واحد لـ PPS 3.3–11V/4.05A؛ وأكّدنا صفر PPS مزدوج حتى 21 فولت (صدق الموديل مقابل A2664). أُعيد الفك دون تغيير في تحديث 2026-07-24. ' +
                 '(B–C) كل منفذ ثابت حُمّل على JUWEI؛ سجّلنا V·A·W من FNB58؛ وثبّتنا ذروة 20V كمنفذ اللابتوب الأساسي؛ وتحقّقنا بصرياً من قدرة TFT مقابل FNB58 (تطابق ضمن ~0.2 واط). ' +
                 '(D) غير منطبق — منفذ واحد. (E) تثبيتات PPS مبرمجة: 8.5V/2.5A ثم 9.24V/2.71A ثم 11V/4.00A لمدة 5 دقائق — مع تسجيل ثبات الجهد وسلوك APDO. ' +
                 '(F) أجهزة حقيقية من ~0%: MacBook Air M2 (52.6Wh)، iPhone 15 (12.99Wh)، Galaxy S24 القاعدي (14.31Wh، 25W SFC)، Galaxy S24 Ultra (19.4Wh، محاولة 45W SFC 2.0)، Nintendo Switch OLED بالدوك. وضع Care أُكّد على iPhone 15 بعد ~80%. أزمنة الآيباد / Pro Max موسومة تقديري — بلا A/B مخترع في نفس اليوم. ' +
                 '(G) حرارة سطح GM320 (ε=0.95) على 4 نقاط بعد 15 دقيقة عند ~44 واط متواصل. لم تُعَد كـ A/B حراري مقترن في نفس الساعة مقابل 52.4–54.8°م لـ A2664 أو 51.8–54.2°م لـ A2692. ' +
                 '(H) OCP: دفع JUWEI >3.5A على منفذ 20V. (K) وزن Kkmoon 0.01 جرام + قدمة Mitutoyo + حامل بروز لطي 180°. (L) القابس بصريًا: US Type-A قابل للطي 180° — ملاحظة ملاءمة مصر. ' +
-                '(I–J) لم يُنفَّذا: استهلاك بلا حمل وكفاءة الحائط — بلا PZEM؛ ولا ننشر أيًا منهما (§6.7 / §11.3). ' +
+                '(I–J) لم يُنفَّذا: استهلاك بلا حمل وكفاءة الحائط — بلا PZEM؛ ولا ننشر أيًا منهما. ' +
                 '(M) فحص استدعاء anker.com/product-recalls + cpsc.gov بتاريخ 2026-07-24 — A121D غير مدرج. ' +
                 'أرقام الأشقاء للاستشهاد بالتباين فقط (A2664 ذروة 44.2 واط + PPS مزدوج حتى 21 فولت؛ A2692 ذروة 43.8 واط + PPS حتى 11 فولت بلا شاشة) — ليست A/B حراريًا في نفس الساعة. ' +
                 'للاسترجاع المستقل (وليست بياناتنا): صفحة منتج Anker A121D (شاشة + Auto/Care + طي 180°)؛ متطلب samsung.com/global/galaxy لـ Super Fast Charging 2.0 بـ PPS 20 فولت؛ سقف MacRumors السلكي للآيفون ~20–27 واط؛ switchchargers.com لـ Switch بالدوك على 15V/3A. ' +
@@ -194,7 +196,7 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
                 param: { en: 'Identity — A121D vs A2664 Nano II', ar: 'الهوية — A121D مقابل A2664 Nano II' },
                 rated: { en: 'this listing: A121D; sibling slug anker-nano-45w claims A2664', ar: 'هذه القائمة: A121D؛ الـ slug الشقيق يدّعي A2664' },
                 measured: { en: 'Shell/box print A121D on CV-CH-A121D-001 — TFT + 180° hinge present; A2664 NOT on this sample', ar: 'طباعة الهيكل/الصندوق A121D على CV-CH-A121D-001 — TFT + مفصل 180° موجودان؛ A2664 غير موجود على هذه العيّنة' },
-                note: { en: '§ alias gate — do not merge with anker-nano-45w', ar: '§ بوابة الاسم المستعار — لا تدمج مع anker-nano-45w' },
+                note: { en: 'Different product from the anker-nano-45w listing (A2664); not an alias', ar: 'منتج مختلف عن قائمة anker-nano-45w (A2664)؛ ليس اسمًا بديلًا' },
             },
             {
                 param: { en: 'PDOs decoded (FNB58)', ar: 'PDO المفكوكة (FNB58)' },
@@ -206,13 +208,13 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
                 param: { en: 'PPS APDO windows (FNB58)', ar: 'نوافذ PPS APDO (FNB58)' },
                 rated: '3.3–11V/4.05A (single)',
                 measured: { en: 'ONE APDO confirmed — NO second window to 16V/21V; Samsung 25W SFC envelope available; Ultra 45W SFC 2.0 unavailable', ar: 'APDO واحد مؤكّد — بلا نافذة ثانية حتى 16V/21V؛ ظرف Samsung 25W SFC متاح؛ Ultra 45W SFC 2.0 غير متاح' },
-                note: { en: 'Critical vs A2664: that sibling has dual PPS to 21V. Claiming Ultra 45W SFC on A121D would be false (§7.1-E / §11).', ar: 'حرج مقابل A2664: ذلك الشقيق بـ PPS مزدوج حتى 21 فولت. ادعاء Ultra 45W SFC على A121D يكون كاذبًا (§7.1-E / §11).' },
+                note: { en: 'Critical vs A2664: that sibling has dual PPS to 21V. Claiming Ultra 45W SFC on A121D would be false.', ar: 'حرج مقابل A2664: ذلك الشقيق بـ PPS مزدوج حتى 21 فولت. ادعاء Ultra 45W SFC على A121D يكون كاذبًا.' },
             },
             {
                 param: { en: 'Peak 5V/3A rail', ar: 'ذروة منفذ 5V/3A' },
                 rated: '15W',
                 measured: '14.8W (5.01V/2.95A)',
-                note: { en: 'JUWEI hold — ≥95% of rated (§7.1-B); TFT agreed within 0.2W', ar: 'تثبيت JUWEI — ≥95% من الاسمي (§7.1-B)؛ TFT تطابقت ضمن 0.2 واط' },
+                note: { en: 'JUWEI hold — ≥95% of rated; TFT agreed within 0.2W', ar: 'تثبيت JUWEI — ≥95% من الاسمي؛ TFT تطابقت ضمن 0.2 واط' },
             },
             {
                 param: { en: 'Peak 9V/3A rail', ar: 'ذروة منفذ 9V/3A' },
@@ -230,19 +232,19 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
                 param: { en: 'Peak 20V/2.25A rail (primary laptop)', ar: 'ذروة منفذ 20V/2.25A (اللابتوب الأساسي)' },
                 rated: '45W',
                 measured: '44.1W (19.92V/2.21A)',
-                note: { en: 'Primary peak — ~98% of rated; ≤ 45W label (§8 / §11.1); TFT cross-agreed within 0.2W', ar: 'الذروة الأساسية — نحو 98% من الاسمي؛ ≤ ملصق 45 واط (§8 / §11.1)؛ TFT تطابقت ضمن 0.2 واط' },
+                note: { en: 'Primary peak — ~98% of rated; ≤ 45W label; TFT cross-agreed within 0.2W', ar: 'الذروة الأساسية — نحو 98% من الاسمي؛ ≤ ملصق 45 واط؛ TFT تطابقت ضمن 0.2 واط' },
             },
             {
                 param: { en: 'Single-port peak (highest rail)', ar: 'ذروة المنفذ الواحد (أعلى منفذ)' },
                 rated: '45W',
                 measured: '44.1W (20V fixed ≈ PPS 11V hold class)',
-                note: { en: '§7.1-C — ≥97% of charger total; peak ≤ label', ar: '§7.1-C — ≥97% من إجمالي الشاحن؛ الذروة ≤ الملصق' },
+                note: { en: '≥97% of charger total; peak ≤ label', ar: '≥97% من إجمالي الشاحن؛ الذروة ≤ الملصق' },
             },
             {
                 param: { en: 'PPS hold 8.5V/2.5A', ar: 'تثبيت PPS عند 8.5V/2.5A' },
                 rated: { en: '21.25W request — inside 3.3–11V/4.05A APDO', ar: 'طلب 21.25 واط — داخل APDO 3.3–11V/4.05A' },
                 measured: { en: '21.1W (8.48V/2.49A); drift ≤ ±0.10V over 5 min', ar: '21.1 واط (8.48V/2.49A)؛ انحراف ≤ ±0.10 فولت خلال 5 د' },
-                note: { en: '§7.1-E mid step — granted inside APDO current ceiling', ar: 'خطوة وسط §7.1-E — مُنح داخل سقف تيار APDO' },
+                note: { en: 'Mid step — granted inside APDO current ceiling', ar: 'خطوة وسط — مُنح داخل سقف تيار APDO' },
             },
             {
                 param: { en: 'PPS hold 9.24V/2.71A', ar: 'تثبيت PPS عند 9.24V/2.71A' },
@@ -308,7 +310,7 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
             {
                 param: { en: 'Over-current protection (OCP)', ar: 'حماية التيار الزائد (OCP)' },
                 measured: { en: 'Cut in ~2.0 s when JUWEI requested >3.5A on 20V rail', ar: 'فصل خلال ~2.0 ثانية عند طلب JUWEI >3.5A على منفذ 20V' },
-                note: { en: '§7.1-H — trip ≤ 3 s on highest fixed PDO', ar: '§7.1-H — الفصل ≤ 3 ث على أعلى PDO ثابت' },
+                note: { en: 'Trip ≤ 3 s on highest fixed PDO', ar: 'الفصل ≤ 3 ث على أعلى PDO ثابت' },
             },
             {
                 param: { en: '180° prong flush test', ar: 'اختبار طي السنون 180°' },
@@ -319,7 +321,7 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
                 param: { en: 'Plug type (visual / Egypt fit)', ar: 'نوع القابس (بصري / ملاءمة مصر)' },
                 rated: { en: 'Foldable Type-A Nano family (Anker A121D)', ar: 'عائلة Nano Type-A قابلة للطي (Anker A121D)' },
                 measured: { en: 'Confirmed foldable US Type-A / NEMA 1-15 with 180° hinge — seats in many Egyptian universal sockets; NOT Europlug; NOT BS 1363', ar: 'مؤكّد US Type-A / NEMA 1-15 قابل للطي بمفصل 180° — يدخل كثيراً من الفيش العمومية؛ ليس Europlug؛ ليس BS 1363' },
-                note: { en: '§7.1-L honesty — deep-recess / Europlug-only outlets may need a rated adapter', ar: 'صدق §7.1-L — المخارج الغائرة / Europlug فقط قد تحتاج محوّلاً مصنّفاً' },
+                note: { en: 'Honesty — deep-recess / Europlug-only outlets may need a rated adapter', ar: 'صدق — المخارج الغائرة / Europlug فقط قد تحتاج محوّلاً مصنّفاً' },
             },
             {
                 param: { en: 'Weight', ar: 'الوزن' },
@@ -336,7 +338,7 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
             {
                 param: { en: 'Wall efficiency / no-load draw', ar: 'كفاءة الحائط / الاستهلاك بلا حمل' },
                 measured: { en: 'NOT MEASURED — no PZEM AC analyzer on this pass', ar: 'غير مقيس — بلا محلّل PZEM AC في هذه الجولة' },
-                note: { en: 'Silence over invention — protocol §6.7 / §11.3', ar: 'الصمت أقوى من الاختراع — البروتوكول §6.7 / §11.3' },
+                note: { en: 'Not measured on this pass', ar: 'لم يُقس في هذا الاختبار' },
             },
             {
                 param: { en: 'Sample refresh (2026-07-24) · Eng. Omar Khaled', ar: 'تحديث العيّنة (2026-07-24) · م. عمر خالد' },
@@ -369,7 +371,7 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
             { en: 'TFT live readout accurate to ±0.2W vs FNB58 across fixed rails and PPS holds — ends "am I fast-charging?" guesswork', ar: 'قراءة TFT حيّة بدقة ±0.2 واط مقابل FNB58 عبر المنافذ الثابتة وتثبيتات PPS — تنهي تخمين "هل أشحن سريعاً؟"' },
             { en: 'Care Mode measured: 9V/2.2A → 5V/2.0A in ~2s after ~80% on iPhone 15 — useful overnight thermal management', ar: 'وضع Care مقاس: 9V/2.2A → 5V/2.0A خلال ~2 ث بعد ~80% على iPhone 15 — مفيد لإدارة حرارة الشحن الليلي' },
             { en: 'Unique 180° flush fold (≤0.5mm protrusion) vs A2664/A2692 ~90° — measurable win for tight Egyptian apartment sockets', ar: 'طي 180° ملاصق فريد (بروز ≤0.5 ملم) مقابل ~90° لـ A2664/A2692 — مكسب قابل للقياس لضيق فيش الشقق المصرية' },
-            { en: '20V rail delivered 44.1W (19.92V/2.21A) — ~98% of 45W label; PPS 11V/4.00A held 44.0W; OCP cut >3.5A @20V in ~2s (§7.1-H)', ar: 'منفذ 20V أوصل 44.1 واط (19.92V/2.21A) — نحو 98% من ملصق 45 واط؛ PPS 11V/4.00A ثبّت 44.0 واط؛ OCP فصل >3.5A على 20V خلال ~2 ث (§7.1-H)' },
+            { en: '20V rail delivered 44.1W (19.92V/2.21A) — ~98% of 45W label; PPS 11V/4.00A held 44.0W; OCP cut >3.5A @20V in ~2s', ar: 'منفذ 20V أوصل 44.1 واط (19.92V/2.21A) — نحو 98% من ملصق 45 واط؛ PPS 11V/4.00A ثبّت 44.0 واط؛ OCP فصل >3.5A على 20V خلال ~2 ث' },
             { en: 'Samsung 25W SFC engages on S24 base (~24.6W, indicator ON); MacBook Air M2 full in 1h 50m; Switch OLED docked at 39W full-speed', ar: 'Samsung 25W SFC يعمل على S24 القاعدي (~24.6 واط، المؤشر يعمل)؛ MacBook Air M2 يمتلئ في ساعة و50 دقيقة؛ Switch OLED بالدوك عند 39 واط بأقصى سرعة' },
             { en: 'Sample refresh 2026-07-24 · Eng. Omar Khaled re-confirmed identity + single PPS APDO + NOT recalled — without inventing same-hour thermal A/B vs A2664/A2692', ar: 'تحديث عيّنة 2026-07-24 · م. عمر خالد أعاد تأكيد الهوية + APDO PPS واحد + غير مستدعى — بلا اختراع A/B حراري في نفس الساعة مقابل A2664/A2692' },
         ],
@@ -379,12 +381,12 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
             { en: 'Same PPS-to-11V Ultra limitation as A2692 — A121D premium buys display + Care + 180° flush, not a wider PPS table', ar: 'نفس قيد Ultra لـ PPS حتى 11 فولت كـ A2692 — علاوة A121D تشتري الشاشة + Care + طي 180° ملاصق، لا جدول PPS أوسع' },
             { en: 'Single USB-C only; no cable in the box — budget a 3A C-to-C (or C-to-Lightning for older iPhones)', ar: 'منفذ USB-C واحد فقط؛ بلا كابل في العلبة — احسب كابل 3A من C إلى C (أو C إلى Lightning للآيفونات الأقدم)' },
             { en: 'Not enough for MacBook Pro 16" fast-charge (needs 96W+); 20V/2.25A only trickle-charges during active use', ar: 'لا يكفي لشحن ماك بوك برو 16 بوصة سريعًا (يحتاج 96 واط+)؛ 20V/2.25A يشحنه ببطء أثناء الاستخدام النشط' },
-            { en: 'Surface reached 53.2°C after 15 min at ~44W — keep ventilated; do NOT invent same-hour win/loss vs A2664 54.8°C or A2692 54.2°C', ar: 'السطح بلغ 53.2°م بعد 15 دقيقة عند ~44 واط — اترك تهوية؛ لا تخترع انتصار/خسارة في نفس الساعة مقابل 54.8°م لـ A2664 أو 54.2°م لـ A2692' },
+            { en: 'Surface reached 53.2°C after 15 min at ~44W — keep ventilated; no same-hour win/loss is claimed vs A2664 54.8°C or A2692 54.2°C', ar: 'السطح بلغ 53.2°م بعد 15 دقيقة عند ~44 واط — اترك تهوية؛ لا ندّعي انتصارًا/خسارة في نفس الساعة مقابل 54.8°م لـ A2664 أو 54.2°م لـ A2692' },
             { en: 'ActiveShield 5.0 "24 samples/sec" is Anker-stated — we verified OCP (~2s cut), not the sampling rate itself', ar: 'ادعاء ActiveShield 5.0 بـ "24 عيّنة/ث" من انكر — تحققنا من OCP (فصل ~2 ث) لا من معدل العيّنة نفسه' },
             { en: 'iPhone stays at Apple\'s ~20W wired cap — TFT will show ~20W honestly; some buyers mistake that for a charger fault', ar: 'الآيفون يبقى عند سقف آبل السلكي ~20 واط — الشاشة ستُظهر ~20 واط بصدق؛ بعض المشترين يظنون ذلك عيب شاحن' },
             { en: '~1,250 EGP vs A2664 ~790 EGP — ~460 EGP premium for display + Care + 180° hinge; identical raw 45W charging without those features costs less', ar: '~1,250 جنيه مقابل A2664 ~790 جنيه — علاوة ~1,100 جنيه للشاشة + Care + مفصل 180°؛ شحن 45 واط الخام بلا هذه الميزات أرخص' },
             { en: 'Foldable US Type-A plug — not native Europlug; some recessed / Europlug-only Egyptian sockets need a rated travel adapter', ar: 'قابس US Type-A قابل للطي — ليس Europlug أصلي؛ بعض الفيش الغائرة / Europlug فقط تحتاج محوّل سفر مصنّف' },
-            { en: 'Wall efficiency and no-load draw NOT measured (no PZEM) — we do not invent % figures', ar: 'كفاءة الحائط والاستهلاك بلا حمل غير مقيسين (بلا PZEM) — لا نخترع نسبًا مئوية' },
+            { en: 'Wall efficiency and no-load draw NOT measured (no PZEM)', ar: 'كفاءة الحائط والاستهلاك بلا حمل غير مقيسين (بلا PZEM)' },
             { en: 'iPad / Pro Max times labelled est. were not physically re-timed on this sample — only Air M2, iPhone 15, S24 base, S24 Ultra, and Switch docked are physical runs', ar: 'أزمنة الآيباد / Pro Max الموسومة تقديري لم تُوقَّت فعليًا على هذه العيّنة — فقط Air M2 وiPhone 15 وS24 القاعدي وS24 Ultra وSwitch بالدوك جولات فعلية' },
             { en: 'Single unit tested (White, CV-CH-A121D-001) — production batches and other colorways may vary cosmetically; electrical figures are this sample\'s primary-day results', ar: 'وحدة واحدة مُختبرة (أبيض، CV-CH-A121D-001) — قد تختلف الدفعات والألوان تجميليًا؛ الأرقام الكهربائية خاصة بعيّنتنا في يوم الحمل الأساسي' },
         ],

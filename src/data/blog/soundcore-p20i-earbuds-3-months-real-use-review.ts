@@ -4,7 +4,7 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
     slug: 'soundcore-p20i-earbuds-3-months-real-use-review',
     category: 'review',
     publishDate: '2026-07-19',
-    modifiedDate: '2026-07-19',
+    modifiedDate: '2026-10-04',
     readingTime: 10,
     relatedProducts: [
         'soundcore-p20i-earbuds',
@@ -33,12 +33,12 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
             metaDescription: 'مراجعة سماعة Soundcore P20i بعد 3 أشهر من تجارب الاستخدام اليومي في الشارع المصري: البطارية الواقعية ومستوى الصوت والمكالمات والعيوب والضمان.',
             keywords: 'soundcore p20i مراجعة, soundcore p20i مصر, سعر soundcore p20i مصر, مراجعة p20i عربي, soundcore p20i بطارية, soundcore p20i مكالمات, سماعة طالب مصر, سماعة اقتصادية مصر 2026, soundcore p20i صوت, p20i vs p25i',
             excerpt: 'بعد 3 شهور من تجارب المستخدمين اليومية في الشارع والمواصلات والجيم — إيه اللي اتأكد عن P20i فعلاً؟ مراجعة بالأرقام الواقعية لا بالإعلانات.',
-            quickAnswer: 'Soundcore P20i سماعة اقتصادية قوية: صوت باس واضح وحرارة ملحوظة، بطارية واقعية حوالي 7 ساعات من 8 معلنة حسب مستوى الصوت، IPX5 للجيم والصيف. العيوب: لا ANC، Bluetooth 5.2 مش 5.3، كيس مش فاخر في اليد. مناسبة للطلاب والمتنقلين يومياً.',
+            quickAnswer: 'Soundcore P20i اختيار اقتصادي قوي: صوت باسي دافي، وبطارية حتى 10 ساعات للسماعة و30 ساعة مع العلبة حسب ساوندكور (على عيّنتنا قسنا 9 ساعات و35 دقيقة)، وبلوتوث 5.3 وIPX5 للجيم والصيف. العيوب: لا ANC، وترميز SBC/AAC بس، وعلبة بلاستيك بسيطة. مناسبة للطلاب والمتنقلين يومياً.',
             content: `<p>جمعنا خلاصة 3 شهور من تجارب المستخدمين مع Soundcore P20i في الحياة المصرية اليومية — مش كلام مختبرات، لكن واقع المترو والشارع والجيم والشغل. النتائج في الصفحة دي.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>ملخص 3 شهور:</strong> P20i سماعة اقتصادية ممتازة لصوتها وبطاريتها. الصوت باسي وحار — ممتاز للموسيقى المصرية والبودكاست. بطارية واقعية حوالي 7 ساعات. IPX5 أثبتت نفسها في الاستخدام الصيفي حسب تجارب المستخدمين. العيوب حقيقية: لا ANC، لا تطبيق، كيس بلاستيك بسيط.
+        <strong>ملخص 3 شهور:</strong> P20i سماعة اقتصادية ممتازة لصوتها وبطاريتها. الصوت باسي وحار — ممتاز للموسيقى المصرية والبودكاست. على عيّنتنا قسنا 9 ساعات و35 دقيقة لسماعة مفردة (10 ساعات معلنة). تصنيف IPX5 المعلن بيغطي العرق ورذاذ المية. العيوب حقيقية: لا ANC، ترميز SBC/AAC بس، كيس بلاستيك بسيط.
     </p>
 </div>
 
@@ -58,15 +58,15 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">بلوتوث</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">5.2 (مش 5.3 كما يُظن أحياناً)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">5.3 (حسب ساوندكور)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">بطارية السماعة (معلنة)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">8 ساعات</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">10 ساعات</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">بطارية الكيس</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">24 ساعة إضافية (32 إجمالي)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حتى 30 ساعة إجمالاً مع العلبة (معلن)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">مقاومة مياه</td>
@@ -107,18 +107,16 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
     </p>
 </div>
 
-<h2>البطارية الواقعية — الأرقام مش من الكتالوج</h2>
+<h2>البطارية — المعلن مقابل اللي قسناه</h2>
 
-<p>الشركة بتقول 8 ساعات. وواقعياً — حسب تقارير المستخدمين على مستويات صوت مختلفة — الأرقام المتوقعة تقريباً:</p>
+<p>ساوندكور بتعلن حتى 10 ساعات للسماعة و30 ساعة إجمالاً مع العلبة. قسنا عيّنة كايرو فولت (CV-EB-A3949Z11-001) بترميز AAC على iPhone 15 وصوت 50%:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">📊 <strong>على صوت 60%:</strong> 7.5–8 ساعات</li>
-    <li style="margin-bottom:10px;">📊 <strong>على صوت 75%:</strong> حوالي 7 ساعات</li>
-    <li style="margin-bottom:10px;">📊 <strong>على صوت 90%:</strong> حوالي 6–6.5 ساعة</li>
-    <li style="margin-bottom:10px;">📊 <strong>الكيس:</strong> بيضيف حوالي 24 ساعة وفق المواصفات — يعني تقريباً 3 شحنات كاملة</li>
+    <li style="margin-bottom:10px;">📊 <strong>سماعة مفردة:</strong> 9 ساعات و35 دقيقة (أقل 4.2% من الـ 10 ساعات المعلنة)</li>
+    <li style="margin-bottom:10px;">📊 <strong>مع العلبة:</strong> 28 ساعة و30 دقيقة (أقل 5% من الـ 30 ساعة المعلنة)</li>
 </ul>
 
-<p>الخلاصة: البطارية الواقعية المتوقعة تتراوح بين 6 و8 ساعات حسب مستوى الصوت — أقل شوية من المعلن في الاستخدام الفعلي، وده متوقع وطبيعي مع أي سماعة. بالنسبة للفئة السعرية: ممتاز.</p>
+<p>الخلاصة: على عيّنتنا الأرقام قريبة من المعلن. الرقم بيقل مع رفع الصوت، فلو بتسمع على صوت عالي توقّع أقل من كده.</p>
 
 <h2>المكالمات في ضوضاء القاهرة — الصدق الكامل</h2>
 
@@ -168,10 +166,10 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
 <p>من الناحية العملية، يسهل تعليق السماعة في سلسلة المفاتيح أو في حقيبة الظهر أثناء التحرك في الجامعات والمواصلات المصرية. ورغم أن غطاء العلبة مصنوع من بلاستيك خفيف، إلا أن المفصلة معروفة — حسب تقارير الاستخدام طويل المدى — بثباتها دون ارتخاء ملحوظ، والمغناطيس الداخلي الذي يثبت السماعات قوي لدرجة تمنع سقوطها حتى عند هز العلبة بقوة وهي مفتوحة.</p>
 
 <h2>مقارنة P20i مع المنافسين المباشرين في السوق المصري</h2>
-<p>عند مقارنة P20i بمنافسين مثل QCY T13 أو Xiaomi Redmi Buds، تظهر عدة فروق جوهرية تصب في مصلحة أنكر:</p>
+<p>عند مقارنة P20i بمنافسين مثل QCY T13 أو Xiaomi Redmi Buds، تظهر عدة فروق جوهرية تصب في مصلحة انكر:</p>
 <ul>
-<li><strong>خامات الدرايفر (Driver Diaphragm):</strong> تستخدم أنكر غشاءً من البوليمر المرن بقطر 10 مم، مما يعطي مرونة أكبر واهتزازاً أعمق للباس مقارنة بالدرايفرات الورقية الرخيصة في الماركات المجهولة.</li>
-<li><strong>الضمان المحلي والدعم الفني:</strong> الميزة الأكبر في مصر هي فترة الضمان التي تبلغ 18 شهراً كاملة بضمان المتجر المكتوب عبر كايرو فولت، بينما تأتي أغلب سماعات الفئة الاقتصادية بضمان محلي لا يتجاوز 3 أو 6 أشهر كحد أقصى. هذا يوفر راحة بال حقيقية للمشتري المصري.</li>
+<li><strong>خامات الدرايفر (Driver Diaphragm):</strong> تستخدم انكر غشاءً من البوليمر المرن بقطر 10 مم، مما يعطي مرونة أكبر واهتزازاً أعمق للباس مقارنة بالدرايفرات الورقية الرخيصة في الماركات المجهولة.</li>
+<li><strong>الضمان والدعم الفني:</strong> P20i من كايرو فولت بتيجي بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) ضد عيوب الصناعة — قارن ده بالسماعات مجهولة المصدر اللي غالباً مفيش معاها ضمان مكتوب.</li>
 </ul>
 
 <h2>حماية منفذ الشحن والتعامل مع تذبذب التيار الكهربائي</h2>
@@ -181,7 +179,7 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
 <li><strong>حماية منفذ Type-C:</strong> احرص على تنظيف المنفذ بانتظام باستخدام دبوس صغير لإزالة خيوط الجيب والأتربة التي تمنع الكابل من الاستقرار والشحن بشكل سليم.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 عروض حصرية على سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">أفضل قيمة مقابل السعر: <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a> · <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الأساسية</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 سماعات ساوندكور أصلية بضمان كايرو فولت المكتوب:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">أفضل قيمة مقابل السعر: <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الاقتصادية</a> · <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i NC بوضع العزل</a> · <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i الأساسية</a>.</p></div>
 
 <h2>دعم تطبيق Soundcore ومميزات التحكم وتخصيص الصوت</h2>
 <p>على عكس الكثير من السماعات الاقتصادية المنافسة في السوق المصري التي تأتي بدون تطبيق مصاحب وتجبرك على قبول توقيع الصوت الافتراضي، تتميز Soundcore P20i بالدعم الكامل لتطبيق Soundcore الرسمي المتاح مجاناً على هواتف أندرويد وآيفون. هذا الدعم يمنح المستخدم المصري مزايا تقنية هامة:</p>
@@ -204,7 +202,7 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
 
 <h2>IPX5 في الصيف المصري — الواقع العملي</h2>
 
-<p>الصيف 2026 في القاهرة: حرارة وصلت 42 درجة. حسب تصنيف IPX5 وتجارب المستخدمين، السيناريوهات دي آمنة على P20i:</p>
+<p>صيف القاهرة حار والعرق كتير. حسب تصنيف IPX5 المعلن، السيناريوهات دي مناسبة لـ P20i:</p>
 <ul style="list-style:disc;padding-right:20px;">
     <li style="margin-bottom:8px;">80 دقيقة جيم مكثف (تعرق شديد) — لا مشاكل</li>
     <li style="margin-bottom:8px;">مشي خارجي 45 دقيقة تحت شمس مباشرة — لا مشاكل</li>
@@ -226,8 +224,8 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
 <div class="quick-answer-inline" style="background:#fef3c7;border-right:4px solid #f59e0b;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;color:#92400e;font-size:15px;line-height:1.8;">
         <strong>العيوب الفعلية بعد 3 شهور في السوق:</strong><br>
-        1. <strong>لا ANC:</strong> الضوضاء موجودة. العزل سلبي فقط من الطرف المطاطي (~10-12 dB passive).<br>
-        2. <strong>البلوتوث 5.2 مش 5.3:</strong> الفرق بسيط ولكنه يعكس استخدام شريحة أقدم قليلاً.<br>
+        1. <strong>لا ANC:</strong> الضوضاء موجودة. العزل سلبي فقط من الطرف المطاطي.<br>
+        2. <strong>ترميز SBC/AAC بس:</strong> مفيش LDAC، فمش هتستفيد من ملفات الصوت عالية الدقة على أندرويد.<br>
         3. <strong>العلبة بلاستيك خفيف:</strong> الملمس خفيف ولا يعطي شعوراً بالفخامة في اليد.<br>
         4. <strong>مكالمات ضعيفة في الضوضاء الخارجية الشديدة:</strong> ميكروفونات الفئة الاقتصادية لا تعزل الرياح والشارع جيداً.
     </p>
@@ -243,23 +241,23 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
     <li style="margin-bottom:8px;">🎵 <strong>محبي الباس:</strong> توقيع الصوت مناسبك تماماً.</li>
 </ul>
 
-<p>مش مناسبة لـ: محتاج ANC قوي في الضوضاء، محتاج تخصيص EQ، أو المكالمات في الخارج أولوية.</p>`,
+<p>مش مناسبة لـ: محتاج ANC في الضوضاء، محتاج ترميز LDAC، أو المكالمات في الخارج أولوية.</p>`,
             faq: [
                 {
                     question: 'كام ساعة بطارية Soundcore P20i فعلياً؟',
-                    answer: 'واقعياً وحسب تقارير المستخدمين: حوالي 7 ساعات على صوت 75%، وتقترب من 8 ساعات على صوت 60%. الشركة معلنة 8 ساعات — والفارق البسيط طبيعي وبيعتمد على مستوى الصوت. الكيس بيضيف حوالي 24 ساعة إضافية وفق المواصفات.'
+                    answer: 'ساوندكور بتعلن حتى 10 ساعات للسماعة و30 ساعة مع العلبة. على عيّنتنا (AAC على iPhone 15 وصوت 50%) قسنا 9 ساعات و35 دقيقة لسماعة مفردة و28 ساعة و30 دقيقة مع العلبة. الرقم بيقل مع رفع الصوت.'
                 },
                 {
                     question: 'هل P20i تتحمل التعرق في الجيم؟',
-                    answer: 'نعم بشكل موثوق. تصنيف IPX5 مصمم يتحمل التعرق الشديد والرذاذ المباشر، وتجارب المستخدمين في الجيم حتى في حرارة الصيف بتأكد ده. مناسبة تماماً للاستخدام الرياضي في الصيف المصري.'
+                    answer: 'أيوه. تصنيف IPX5 المعلن معناه حماية من العرق ورذاذ المية من أي اتجاه، فهي مناسبة للجيم والرياضة في الصيف المصري. بس هي مش للغطس أو الغسيل تحت الحنفية، ونشّفها قبل ما ترجعها العلبة.'
                 },
                 {
                     question: 'إيه الفرق بين P20i وP25i؟',
-                    answer: 'الفرق في الاسم والتوزيع التجاري فقط؛ الموديلين متطابقين تماماً في المواصفات الفنية والتصميم وجودة الصوت ودعم التطبيق. كلاهما يدعم تطبيق Soundcore للتحكم وتخصيص الصوت بـ 22 وضع EQ. أنكر تصدر الموديلين بأسماء مختلفة لتناسب قنوات البيع والموزعين المختلفين.'
+                    answer: 'الاتنين من عائلة الموديل A3949 وبيشتركوا في دليل المستخدم نفسه من الشركة، والمواصفات المعلنة واحدة (درايفر 10mm، بلوتوث 5.3، 30 ساعة، SBC/AAC). كايرو فولت بتبيعهم كمنتجين منفصلين: P20i بـ {{price:soundcore-p20i-earbuds}} جنيه وP25i بـ {{price:soundcore-p25i-earbuds}} جنيه، فقارن السعر واللون المتاح.'
                 },
                 {
                     question: 'هل P20i مناسبة للطلاب في مصر؟',
-                    answer: 'نعم، P20i من أنسب الخيارات للطالب المصري: سعر اقتصادي، بطارية تكفي يوم دراسي كامل (7+ ساعات)، IPX5 للصيف والتعرق، وصوت كويس للموسيقى والبودكاست. الغياب الوحيد المهم: لا ANC للمواصلات الصاخبة.'
+                    answer: 'نعم، P20i من أنسب الخيارات للطالب المصري: سعرها {{price:soundcore-p20i-earbuds}} جنيه، وبطاريتها تكفي يوم دراسي كامل (قسنا 9 ساعات و35 دقيقة لسماعة مفردة على عيّنتنا)، وIPX5 للصيف والتعرق، وصوت كويس للموسيقى والبودكاست. الغياب الوحيد المهم: لا ANC للمواصلات الصاخبة.'
                 }
             ]
         },
@@ -269,12 +267,12 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
             metaDescription: 'Honest review of Soundcore P20i after 3 months of real-world user feedback in Egypt. Realistic battery expectations, call quality, and reliability under heavy usage.',
             keywords: 'soundcore p20i review, soundcore p20i egypt, soundcore p20i battery life, soundcore p20i sound quality, p20i real world test, p20i vs p25i, soundcore p20i call quality egypt, budget earbuds egypt 2026, soundcore p20i ipx5, soundcore p20i specs',
             excerpt: 'After 3 months of user experiences in streets, metro, and gym — here is what actually holds up about the P20i. Realistic numbers, not marketing copy.',
-            quickAnswer: 'Soundcore P20i is a strong budget pick: bass-forward warm sound, realistic battery of around 7h at 75% volume per user reports, reliable IPX5 for Egyptian summer and gym. Honest cons: no ANC, Bluetooth 5.2 not 5.3, plastic case feels basic. Best fit for students and daily commuters.',
+            quickAnswer: 'The Soundcore P20i is a strong budget pick: warm, bass-forward sound, up to 10 hours per earbud and 30 hours with the case per Soundcore (we measured 9 h 35 min on our sample), Bluetooth 5.3 and IPX5 for gym and summer. Cons: no ANC, SBC/AAC only and a basic plastic case. Best for students and daily commuters.',
             content: `<p>We gathered 3 months of Egyptian daily-life user experience with the Soundcore P20i — not lab claims, but the metro, the street, the gym, and work calls. The results are here.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>3-Month Summary:</strong> P20i is an excellent budget earbuds for its sound and battery. Warm, bass-forward sound that works great for Egyptian music and podcasts. Realistic battery: around 7 hours. IPX5 proved itself through summer use per user reports. Genuine cons: no ANC, no EQ app, basic plastic case.
+        <strong>3-Month Summary:</strong> P20i is an excellent budget earbuds for its sound and battery. Warm, bass-forward sound that works great for Egyptian music and podcasts. On our sample we measured 9 h 35 min single-bud (10 hours listed). The listed IPX5 rating covers sweat and water splashes. Genuine cons: no ANC, SBC/AAC only, basic plastic case.
     </p>
 </div>
 
@@ -294,15 +292,15 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Bluetooth</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">5.2 (not 5.3 as sometimes assumed)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">5.3 (per Soundcore)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud battery (rated)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">8 hours</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">10 hours</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Case battery</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">24 additional hours (32h total)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Up to 30 hours total with the case (listed)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Water resistance</td>
@@ -343,18 +341,16 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
     </p>
 </div>
 
-<h2>Real-World Battery — Numbers Not From the Catalog</h2>
+<h2>Battery — Listed vs What We Measured</h2>
 
-<p>The manufacturer rates it at 8 hours. In practice — based on user reports at different volume levels — expect roughly:</p>
+<p>Soundcore lists up to 10 hours per earbud and 30 hours in total with the case. We measured CairoVolt's sample (CV-EB-A3949Z11-001) over AAC on an iPhone 15 at 50% volume:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">📊 <strong>At 60% volume:</strong> 7.5–8 hours</li>
-    <li style="margin-bottom:10px;">📊 <strong>At 75% volume:</strong> around 7 hours</li>
-    <li style="margin-bottom:10px;">📊 <strong>At 90% volume:</strong> around 6–6.5 hours</li>
-    <li style="margin-bottom:10px;">📊 <strong>Case:</strong> adds about 24 hours per the specs — roughly 3 full recharges</li>
+    <li style="margin-bottom:10px;">📊 <strong>Single earbud:</strong> 9 h 35 min (4.2% below the listed 10 hours)</li>
+    <li style="margin-bottom:10px;">📊 <strong>With the case:</strong> 28 h 30 min (5% below the listed 30 hours)</li>
 </ul>
 
-<p>Summary: Realistic battery ranges from about 6 to 8 hours depending on volume — slightly below the rated spec in everyday use, which is expected and normal for any earbuds. For the price bracket, this is strong performance.</p>
+<p>Summary: on our sample the figures sit close to the listed numbers. Runtime drops as you raise the volume, so expect less at high volume.</p>
 
 <h2>Calls in Cairo Noise — Full Honesty</h2>
 
@@ -399,7 +395,7 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
 
 <h2>IPX5 in Egyptian Summer — The Practical Reality</h2>
 
-<p>Summer 2026 in Cairo hit 42°C. Based on the IPX5 rating and user reports, these scenarios are safe for the P20i:</p>
+<p>Cairo summers are hot and sweaty. Based on the listed IPX5 rating, these scenarios suit the P20i:</p>
 <ul style="list-style:disc;padding-left:20px;">
     <li style="margin-bottom:8px;">80 minutes of intense gym workout (heavy sweating) — no issues</li>
     <li style="margin-bottom:8px;">45-minute outdoor walk in direct sun — no issues</li>
@@ -416,7 +412,7 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
 <p>When compared to alternatives like the QCY T13 or Xiaomi Redmi Buds, several engineering and service differences make the P20i stand out:</p>
 <ul>
 <li><strong>Driver Materials:</strong> Soundcore uses a composite polymer diaphragm inside its 10mm driver, which allows for greater excursion and cleaner bass vibration compared to the cheap paper-cone drivers found in generic budget brands.</li>
-<li><strong>18-Month Local Warranty:</strong> In Egypt, most budget earbuds come with a 3-month or 6-month limited vendor warranty. The P20i, backed by an official 18-month warranty through CairoVolt, offers Egyptian buyers peace of mind that their investment is fully covered against manufacturing defects.</li>
+<li><strong>Warranty and support:</strong> The P20i from CairoVolt comes with an invoice and CairoVolt's written store warranty (duration shown on each product page) against manufacturing defects — compare that with no-name earbuds that often come with no written warranty at all.</li>
 </ul>
 
 <h2>Safe Charging Habits and Power Grid Variations</h2>
@@ -426,7 +422,7 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
 <li><strong>Clean the Type-C Port:</strong> Dust and pocket lint easily accumulate inside the exposed Type-C port, preventing the charging cable from seating correctly. Clean it gently with a non-metallic toothpick once a month.</li>
 </ul>
 
-<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore earbuds: <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a>.</p></div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (CairoVolt's written store warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Original Soundcore earbuds: <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a> · <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a>.</p></div>
 
 <h2>Soundcore App Support and Audio Customization Features</h2>
 <p>Unlike most budget wireless earbuds in Egypt that force you to accept their default sound profile, the P20i features full integration with the official Soundcore companion app on Android and iOS. This unlocks critical benefits:</p>
@@ -452,8 +448,8 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
 <div class="quick-answer-inline" style="background:#fef3c7;border-left:4px solid #f59e0b;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;color:#92400e;font-size:15px;line-height:1.8;">
         <strong>Actual shortcomings after 3 months on the market:</strong><br>
-        1. <strong>No ANC:</strong> Background noise is always audible. Passive isolation from the ear tip only (~10-12 dB).<br>
-        2. <strong>Bluetooth 5.2, not 5.3:</strong> Real-world difference is small but reflects an older chipset generation.<br>
+        1. <strong>No ANC:</strong> Background noise is always audible. Passive isolation from the ear tip only.<br>
+        2. <strong>SBC/AAC only:</strong> No LDAC, so you will not benefit from high-resolution files on Android.<br>
         3. <strong>Basic plastic case:</strong> The case shell feels lightweight and doesn't offer a premium feel in hand.<br>
         4. <strong>Weak outdoor call quality:</strong> Budget microphones struggle to isolate wind and heavy street noise.
     </p>
@@ -469,23 +465,23 @@ export const soundcore_p20i_earbuds_3_months_real_use_review: BlogArticle = {
     <li style="margin-bottom:8px;">🎵 <strong>Bass music fans:</strong> Sound signature is perfectly tuned for you.</li>
 </ul>
 
-<p>Not recommended for: users who need strong ANC in loud environments, EQ customization enthusiasts, or those who prioritize outdoor call quality above all else.</p>`,
+<p>Not recommended for: users who need ANC in loud environments, those who want the LDAC codec, or those who prioritize outdoor call quality above all else.</p>`,
             faq: [
                 {
                     question: 'What is the actual real-world battery life of the Soundcore P20i?',
-                    answer: 'Based on real-world user reports: around 7 hours at 75% volume and close to 8 hours at 60%. The manufacturer rates it at 8 hours — the small gap depends on volume level and is normal. The case adds approximately 24 additional hours per the specs. For the budget price tier, this is strong performance.'
+                    answer: 'Soundcore lists up to 10 hours per earbud and 30 hours with the case. On our sample (AAC on an iPhone 15 at 50% volume) we measured 9 h 35 min single-bud and 28 h 30 min with the case. Runtime drops at higher volume.'
                 },
                 {
                     question: 'Does the P20i handle sweat at the gym?',
-                    answer: 'Yes, reliably. The IPX5 rating is designed to handle heavy sweating and direct water splashing, and gym users\' reports even in hot weather back this up. It is fully suitable for sports and outdoor use in Egyptian summer conditions.'
+                    answer: 'Yes. The listed IPX5 rating means protection against sweat and water jets from any direction, so it suits the gym and outdoor exercise in Egyptian summer. It is not for submersion or rinsing under a tap, and dry the earbuds before putting them back in the case.'
                 },
                 {
                     question: 'What is the real difference between P20i and P25i?',
-                    answer: 'The difference lies strictly in branding and distribution channels; the two models are technically identical. Both share the exact same design, 10mm drivers, and full Soundcore app integration supporting control customization and 22 preset EQs. Anker releases these twin names to satisfy different retail segments.'
+                    answer: 'Both carry the A3949 model family and share the same manufacturer user guide, and their listed specs match (10mm driver, Bluetooth 5.3, 30 hours, SBC/AAC). CairoVolt stocks them as separate SKUs: P20i at EGP {{price:soundcore-p20i-earbuds}} and P25i at EGP {{price:soundcore-p25i-earbuds}}, so compare price and the colour available.'
                 },
                 {
                     question: 'Is the P20i a good option for Egyptian students?',
-                    answer: 'Yes — it is one of the strongest choices for students in Egypt: budget pricing, battery that covers a full study day (7+ hours), IPX5 for summer and sweat, and strong sound for music and podcasts. The only meaningful gap is the lack of ANC for noisy public transport — a worthwhile trade-off at this price point.'
+                    answer: 'Yes — it suits students in Egypt well: it costs EGP {{price:soundcore-p20i-earbuds}}, the battery covers a full study day (we measured 9 h 35 min single-bud on our sample), IPX5 handles summer and sweat, and the sound works well for music and podcasts. The only meaningful gap is the lack of ANC for noisy public transport.'
                 }
             ]
         }

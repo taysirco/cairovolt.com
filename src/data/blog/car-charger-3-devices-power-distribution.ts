@@ -5,7 +5,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
     slug: 'car-charger-3-devices-power-distribution',
     category: 'tips',
     publishDate: '2026-05-31',
-    modifiedDate: '2026-05-31',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
         'joyroom-60w-car-charger',
@@ -28,7 +28,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
             metaDescription: 'إزاي توزّع 60 واط على 3 أجهزة في شاحن سيارة واحد بدون ما جهاز يتظلم؟ سيناريوهات حقيقية، جداول توزيع القدرة، وأفضل شواحن سيارة في مصر 2026. تابع التفاصيل بمصر.',
             keywords: 'شاحن سيارة 3 أجهزة, توزيع قدرة شاحن سيارة, شحن 3 موبايلات في السيارة, شاحن سيارة 60 واط, شاحن سيارة متعدد المنافذ, power distribution car charger, شاحن جوي روم 60 واط سيارة, شاحن انكر سيارة مصر, شحن موبايل وتابلت في السيارة, أفضل شاحن سيارة متعدد',
             excerpt: 'دليل توزيع 60 واط على 3 أجهزة في شاحن سيارة واحد — سيناريوهات واقعية وجداول توزيع القدرة مع أفضل شواحن متعددة المنافذ في مصر.',
-            quickAnswer: 'شاحن سيارة 60W مش بيقسم القدرة بالتساوي — كل جهاز بيتفاوض على احتياجه. موبايل بياخد 15-25W، تابلت بياخد 15-20W، والباقي للجهاز التالت. أفضل استراتيجية: وصّل الجهاز الأكتر احتياجاً الأول على منفذ USB-C PD، والباقي على USB-A. شاحن جوي روم 60W بيوزّع القدرة تلقائياً بين 3 منافذ بدون تدخل منك.',
+            quickAnswer: 'شاحن السيارة متعدد المنافذ مش بيقسم القدرة بالتساوي — كل جهاز بيتفاوض على احتياجه، والمجموع مقيّد بسقف الشاحن. أفضل استراتيجية: وصّل الجهاز الأكتر احتياجاً على مخرج USB-C PD والباقي على المخارج التانية. مثلاً جوي روم JR-CCL05 (4 في 1، 69W إجمالي معلن): أعلى حمل متزامن قسناه على المخارج الأربعة 51.4 واط.',
             content: `
 <p>الموقف ده هيبقى مألوف عند أي حد عنده عيلة أو صحاب: إنت سايق على طريق الساحل، الموبايل بتاعك على 8% عشان Google Maps شغال من ساعة ما طلعت من المعادي، مراتك — أو صاحبك — قاعد جنبك والموبايل بتاعه على 15% عشان كان بيعمل Reels على الطريق، وفي الكرسي الخلفي واحد تالت بيسأل "ممكن أشحن عندكم؟" وموبايله على 3%. إنت عندك شاحن سيارة واحد فيه 3 منافذ وبيطلع 60 واط. السؤال اللي بيفرض نفسه: مين هياخد كام واط؟ وهل الـ 60 واط دول هيتقسموا 20-20-20 بالعدل؟ يا ريت! الموضوع أعقد من كده — وأذكى.</p>
 
@@ -36,7 +36,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> شاحن سيارة 60W مش بيقسم القدرة بالتساوي — كل جهاز بيتفاوض على احتياجه. موبايل بياخد 15-25W، تابلت بياخد 15-20W، والباقي للجهاز التالت. أفضل استراتيجية: وصّل الجهاز الأكتر احتياجاً الأول على منفذ USB-C PD، والباقي على USB-A. <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">شاحن جوي روم 60W</a> بيوزّع القدرة تلقائياً بين 3 منافذ.
+        <strong>💡 الإجابة السريعة:</strong> شاحن السيارة متعدد المنافذ مش بيقسم القدرة بالتساوي — كل جهاز بيتفاوض على احتياجه، والمجموع مقيّد بسقف الشاحن. أفضل استراتيجية: وصّل الجهاز الأكتر احتياجاً على مخرج USB-C PD والباقي على المخارج التانية. مثلاً <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">جوي روم JR-CCL05</a> (4 في 1، 69W إجمالي معلن): أعلى حمل متزامن قسناه على المخارج الأربعة 51.4 واط.
     </p>
 </div>
 
@@ -76,7 +76,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <h2>سيناريوهات واقعية: 3 أجهزة × شاحن 60W — مين بياخد كام؟</h2>
 
-<p>خلينا نشوف 4 سيناريوهات واقعية — زي ما بتحصل بالظبط على طريق الساحل أو الدائري:</p>
+<p>خلينا نشوف 4 سيناريوهات توضيحية على طريق الساحل أو الدائري (الأرقام تقريبية وبتختلف حسب الشاحن والموبايل ونسبة البطارية — مش قياسات معملية):</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
@@ -133,7 +133,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <h3>❌ الخطأ الأول: استخدام سبليتر ولاعة سجاير رخيص</h3>
 
-<p>السبليتر ده بيحول فتحة ولاعة السجاير الواحدة لـ 2 أو 3 فتحات. المشكلة؟ <strong>كلهم بيشتركوا في نفس الفيوز</strong> (10-15 أمبير). لو حطيت شاحنين 60W على سبليتر واحد، إنت بتسحب 120W من فتحة مصممة لـ 120W كحد أقصى — يعني <strong>صفر هامش أمان</strong>. والنتيجة: الفيوز بيضرب، أو الأسوأ — السبليتر بيسخن ويدوب. شفنا حالات السبليتر ساح فعلياً من الحرارة في عز أغسطس.</p>
+<p>السبليتر ده بيحول فتحة ولاعة السجاير الواحدة لـ 2 أو 3 فتحات. المشكلة؟ <strong>كلهم بيشتركوا في نفس الفيوز</strong> (10-15 أمبير). لو حطيت شاحنين 60W على سبليتر واحد، إنت بتسحب 120W من فتحة مصممة لـ 120W كحد أقصى — يعني <strong>صفر هامش أمان</strong>. والنتيجة: الفيوز بيضرب، أو الأسوأ — السبليتر بيسخن ويدوب. والخطر ده بيزيد مع حرارة العربية في الصيف.</p>
 
 <h3>❌ الخطأ التاني: كوابل رخيصة بتخنق القدرة</h3>
 
@@ -161,7 +161,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <h3>1. اختار شاحن بقدرة كافية</h3>
 
-<p>القاعدة الذهبية: <strong>عدد الأجهزة × 20W = القدرة المطلوبة</strong>. يعني 3 أجهزة = 60W كحد أدنى. <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">شاحن جوي روم 60W</a> هو الخيار المثالي — <strong>منفذين USB-C + منفذ USB-A</strong>، بيوزّع القدرة تلقائياً ويدعم PD 3.0 و QC 3.0.</p>
+<p>القاعدة الذهبية: <strong>عدد الأجهزة × 20W = القدرة المطلوبة</strong>. يعني 3 أجهزة = 60W كحد أدنى. <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">شاحن جوي روم JR-CCL05</a> (4 في 1) فيه <strong>كابلين مدمجين (USB-C و Lightning) + منفذ USB-C + منفذ USB-A</strong> و69W إجمالي معلن — بس أعلى حمل متزامن قسناه 51.4 واط، وكابل USB-C المدمج بياخد أولوية PD (حوالي 24.8 واط وقت الحمل الكامل).</p>
 
 <h3>2. افهم ترتيب الأولويات</h3>
 
@@ -211,28 +211,28 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المعيار</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;"><a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;">جوي روم 60W</a></th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;"><a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;">جوي روم JR-CCL05</a></th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;"><a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;">انكر Dual USB</a></th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;"><a href="/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;">انكر A2732 35W</a></th>
     </tr></thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">القدرة الإجمالية</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>60W ✅</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>69W معلنة (أعلى حمل متزامن قسناه 51.4W)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">24W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">35W</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">عدد المنافذ</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>3 (2×USB-C + 1×USB-A)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>4 (كابل USB-C + كابل Lightning مدمجين + USB-C + USB-A)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">2 (USB-A)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">2 (USB-C + USB-C)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">2 (USB-C + USB-A)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">✅ PD 3.0</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">✅ على الكابل المدمج (قسنا 29.1W)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">❌</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">✅ PD 3.0</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">✅ على USB-C (قسنا 19.8W)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">أنسب لـ 3 أجهزة؟</td>
@@ -250,12 +250,12 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">الأنسب لـ</td>
             <td style="padding:12px;border:1px solid #d1d5db;">عيلة/3 أجهزة/رحلات</td>
             <td style="padding:12px;border:1px solid #d1d5db;">جهاز واحد أو اتنين</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">جهازين محتاجين PD</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">جهازين (USB-C + USB-A)</td>
         </tr>
     </tbody>
 </table>
 
-<p><strong>النصيحة:</strong> لو هتشحن 3 أجهزة بانتظام في السيارة، <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">شاحن جوي روم 60W</a> هو الخيار الوحيد اللي فيه 3 منافذ فعلية — <strong>2 USB-C PD + 1 USB-A</strong> — بقدرة إجمالية كافية. لو بتشحن جهازين بس ومحتاج PD على الاتنين، <a href="/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">انكر A2732</a> خيار ممتاز.</p>
+<p><strong>النصيحة:</strong> لو هتشحن 3 أجهزة بانتظام في السيارة، <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">شاحن جوي روم JR-CCL05</a> فيه 4 مخارج (كابلين مدمجين + منفذين)، فمناسب لـ 3 أجهزة — بس خد بالك إن القدرة مشتركة بينهم. لو بتشحن جهازين بس (موبايل على USB-C وجهاز تاني على USB-A)، <a href="/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">انكر A2732</a> خيار كويس: قسنا 19.8 واط على USB-C و14.9 واط على USB-A في نفس الوقت.</p>
 
 <h2>نصائح إضافية لشحن آمن في صيف مصر</h2>
 
@@ -269,7 +269,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <div class="cta-box" style="background:linear-gradient(135deg,#1e40af 0%,#3b82f6 100%);border-radius:12px;padding:32px 24px;margin:32px 0;text-align:center;">
     <p style="font-size:20px;font-weight:700;color:#fff;margin:0 0 12px;">🔌 جهّز عربيتك لأي رحلة</p>
-    <p style="font-size:15px;color:#dbeafe;margin:0 0 20px;">شواحن سيارة أصلية من انكر وجوي روم — ضمان 18 شهر + توصيل لكل المحافظات.</p>
+    <p style="font-size:15px;color:#dbeafe;margin:0 0 20px;">شواحن سيارة أصلية من انكر وجوي روم — بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات.</p>
     <p style="margin:0;"><a href="/anker/car-chargers" style="display:inline-block;background:#fff;color:#1e40af;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">تسوّق شواحن السيارة</a></p>
 </div>
 
@@ -278,7 +278,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
     <ul style="margin:0;padding-right:20px;color:#78350f">
         <li><a href="https://www.usb.org/usb-charger-pd" target="_blank" rel="noopener" style="color:#1d4ed8">USB-IF — معيار USB Power Delivery</a></li>
         <li><a href="https://batteryuniversity.com/article/bu-409-charging-lithium-ion" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — مراحل شحن بطاريات الليثيوم أيون</a></li>
-        <li><a href="https://support.apple.com/en-us/102385" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — تأثير الحرارة على البطارية والشحن</a></li>
+        <li><a href="https://support.apple.com/ar-eg/118431" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — لو الآيفون أو الآيباد سخن جداً أو برد جداً</a></li>
         <li>دليلنا: <a href="/blog/best-car-charger-egypt-2026" style="color:#1d4ed8">أفضل شاحن سيارة في مصر 2026</a></li>
         <li>دليلنا: <a href="/blog/car-charger-100w-laptop-sahel-trip" style="color:#1d4ed8">شاحن سيارة 100W للابتوب — دليل رحلات الساحل</a></li>
     </ul>
@@ -309,7 +309,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
             metaDescription: 'How to distribute 60W across 3 devices on a single car charger without any device being short-changed. Real scenarios, power distribution tables, and the bes...',
             keywords: 'car charger 3 devices, power distribution car charger, charging 3 phones car, 60w car charger, multi port car charger, car charger power splitting, joyroom 60w car charger, anker car charger egypt, charging phone tablet car, best multi device car charger',
             excerpt: 'A guide to distributing 60 watts across 3 devices on a single car charger — real-world scenarios and power distribution tables with the best multi-port car chargers in Egypt.',
-            quickAnswer: 'A 60W car charger doesn\'t split power equally — each device negotiates its needs. A phone takes 15-25W, a tablet takes 15-20W, and the remainder goes to the third device. Best strategy: connect the most depleted device first to the USB-C PD port, and the rest to USB-A. The Joyroom 60W charger automatically distributes power across 3 ports without manual intervention.',
+            quickAnswer: 'A multi-port car charger does not split power equally — each device negotiates its needs, and the total is capped by the charger. Best strategy: put the most depleted device on the USB-C PD output and the rest on the other outputs. For example, the Joyroom JR-CCL05 (4-in-1, 69W total listed) held 51.4W at most across all four outputs in our test.',
             content: `
 <p>Here's a scene you've probably lived through: you're driving down the Cairo-Alexandria Desert Road at 6 AM, your phone is at 8% because Google Maps has been running since Maadi, your passenger's phone is at 15% from recording Reels the entire trip, and someone in the back seat asks "can I charge mine too?" with their phone at 3%. You've got one car charger with 3 ports pumping out 60 watts total. The million-dollar question: who gets how many watts? Will the charger split 60W into a neat 20-20-20? Not even close. The reality is far more interesting — and far smarter.</p>
 
@@ -317,7 +317,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> A 60W car charger doesn't split power equally — each device negotiates its needs. A phone takes 15-25W, a tablet takes 15-20W, and the remainder goes to the third device. Best strategy: connect the most depleted device first to the USB-C PD port, and the rest to USB-A. The <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom 60W charger</a> automatically distributes power across 3 ports.
+        <strong>💡 Quick Answer:</strong> A multi-port car charger does not split power equally — each device negotiates its needs, and the total is capped by the charger. Best strategy: put the most depleted device on the USB-C PD output and the rest on the other outputs. For example, the <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom JR-CCL05</a> (4-in-1, 69W total listed) held 51.4W at most across all four outputs in our test.
     </p>
 </div>
 
@@ -357,7 +357,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <h2>Real Scenarios: 3 Devices × 60W Charger — Who Gets How Much?</h2>
 
-<p>Let's examine 4 realistic scenarios — exactly as they happen on the North Coast highway or Cairo Ring Road:</p>
+<p>Let's examine 4 illustrative scenarios on the North Coast highway or Cairo Ring Road (the figures are approximate and vary by charger, phone and battery level — they are not lab measurements):</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
@@ -414,7 +414,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <h3>❌ Mistake #1: Using a Cheap Cigarette Lighter Splitter</h3>
 
-<p>A splitter converts one cigarette lighter socket into 2 or 3 sockets. The problem? <strong>They all share the same fuse</strong> (10-15 amps). If you plug two 60W chargers into one splitter, you're drawing 120W from a socket designed for 120W maximum — meaning <strong>zero safety margin</strong>. The result: the fuse blows, or worse — the splitter overheats and melts. We've seen cases where splitters literally melted from the heat in peak August temperatures.</p>
+<p>A splitter converts one cigarette lighter socket into 2 or 3 sockets. The problem? <strong>They all share the same fuse</strong> (10-15 amps). If you plug two 60W chargers into one splitter, you're drawing 120W from a socket designed for 120W maximum — meaning <strong>zero safety margin</strong>. The result: the fuse blows, or worse — the splitter overheats and melts. The risk rises with cabin heat in summer.</p>
 
 <h3>❌ Mistake #2: Cheap Cables That Throttle Power</h3>
 
@@ -442,7 +442,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <h3>1. Choose a Charger with Sufficient Wattage</h3>
 
-<p>The golden rule: <strong>number of devices × 20W = required wattage</strong>. So 3 devices = 60W minimum. The <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom 60W Car Charger</a> is the ideal choice — <strong>2 USB-C ports + 1 USB-A port</strong>, with automatic power distribution, supporting PD 3.0 and QC 3.0.</p>
+<p>The golden rule: <strong>number of devices × 20W = required wattage</strong>. So 3 devices = 60W minimum. The <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom JR-CCL05</a> (4-in-1) has <strong>two built-in cables (USB-C and Lightning) + a USB-C port + a USB-A port</strong> and 69W total listed — but the highest simultaneous load we measured was 51.4W, with the built-in USB-C cable keeping PD priority (about 24.8W at full load).</p>
 
 <h3>2. Understand the Priority Order</h3>
 
@@ -492,28 +492,28 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Feature</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;"><a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;">Joyroom 60W</a></th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;"><a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;">Joyroom JR-CCL05</a></th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;"><a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb;">Anker Dual USB</a></th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;"><a href="/en/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;">Anker A2732 35W</a></th>
     </tr></thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Total Power</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>60W ✅</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>69W listed (51.4W highest simultaneous load measured)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">24W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">35W</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Number of Ports</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>3 (2×USB-C + 1×USB-A)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>4 (built-in USB-C + Lightning cables + USB-C + USB-A)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">2 (USB-A)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">2 (USB-C + USB-C)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">2 (USB-C + USB-A)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C PD</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">✅ PD 3.0</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">✅ on the built-in cable (measured 29.1W)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">❌</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">✅ PD 3.0</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">✅ on USB-C (measured 19.8W)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Best for 3 devices?</td>
@@ -531,12 +531,12 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">Best For</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Families/3 devices/road trips</td>
             <td style="padding:12px;border:1px solid #d1d5db;">1-2 devices</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">2 devices needing PD</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">2 devices (USB-C + USB-A)</td>
         </tr>
     </tbody>
 </table>
 
-<p><strong>Our recommendation:</strong> If you regularly charge 3 devices in your car, the <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom 60W Car Charger</a> is the only option with 3 actual ports — <strong>2 USB-C PD + 1 USB-A</strong> — with sufficient total wattage. If you only charge two devices and need PD on both, the <a href="/en/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">Anker A2732</a> is an excellent choice.</p>
+<p><strong>Our recommendation:</strong> If you regularly charge 3 devices in your car, the <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb;font-weight:600;">Joyroom JR-CCL05</a> has 4 outputs (two built-in cables + two ports), so it suits 3 devices — just remember the power is shared between them. If you only charge two devices (a phone on USB-C and another device on USB-A), the <a href="/en/anker/car-chargers/anker-a2732-charger-35w" style="color:#2563eb;font-weight:600;">Anker A2732</a> is a good choice: we measured 19.8W on USB-C and 14.9W on USB-A at the same time.</p>
 
 <h2>Additional Tips for Safe Charging in Egyptian Summer</h2>
 
@@ -550,7 +550,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <div class="cta-box" style="background:linear-gradient(135deg,#1e40af 0%,#3b82f6 100%);border-radius:12px;padding:32px 24px;margin:32px 0;text-align:center;">
     <p style="font-size:20px;font-weight:700;color:#fff;margin:0 0 12px;">🔌 Equip Your Car for Any Trip</p>
-    <p style="font-size:15px;color:#dbeafe;margin:0 0 20px;">Original car chargers from Anker and Joyroom — 18-month warranty + delivery to all governorates across Egypt.</p>
+    <p style="font-size:15px;color:#dbeafe;margin:0 0 20px;">Original car chargers from Anker and Joyroom — covered by CairoVolt's written store warranty (duration shown on each product page) + delivery to all governorates across Egypt.</p>
     <p style="margin:0;"><a href="/en/anker/car-chargers" style="display:inline-block;background:#fff;color:#1e40af;padding:12px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px;">Shop Car Chargers</a></p>
 </div>
 
@@ -559,7 +559,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
     <ul style="margin:0;padding-left:20px;color:#78350f">
         <li><a href="https://www.usb.org/usb-charger-pd" target="_blank" rel="noopener" style="color:#1d4ed8">USB-IF — USB Power Delivery Standard</a></li>
         <li><a href="https://batteryuniversity.com/article/bu-409-charging-lithium-ion" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — Lithium-Ion Battery Charging Phases</a></li>
-        <li><a href="https://support.apple.com/en-us/102385" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — Heat Impact on Battery and Charging</a></li>
+        <li><a href="https://support.apple.com/en-us/118431" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — If your iPhone or iPad gets too hot or too cold</a></li>
         <li>Our guide: <a href="/en/blog/best-car-charger-egypt-2026" style="color:#1d4ed8">Best Car Charger in Egypt 2026</a></li>
         <li>Our guide: <a href="/en/blog/car-charger-100w-laptop-sahel-trip" style="color:#1d4ed8">100W Car Charger for Laptops — Sahel Trip Guide</a></li>
     </ul>

@@ -16,7 +16,7 @@
  *  - The blog-articles.ts barrel regeneration should trigger this
  */
 
-import { readFileSync, writeFileSync, readdirSync } from 'fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync } from 'fs';
 import { join, basename } from 'path';
 
 const BLOG_DIR = join(import.meta.dirname, '..', 'src', 'data', 'blog');
@@ -84,6 +84,69 @@ function extractTranslation(text, locale) {
     };
 }
 
+// ── Body product links (contract C2) ──
+// The article's HTML lives in two string literals (template literals in every
+// current file): `content: \`…\`` inside translations.ar and translations.en.
+// Locate both (string-aware: a literal ends at the first unescaped copy of its
+// opening quote) and attribute each to its locale block.
+function extractContentLiterals(text) {
+    const out = [];
+    const re = /\bcontent:\s*([`'"])/g;
+    let m;
+    while ((m = re.exec(text)) !== null) {
+        const quote = m[1];
+        let i = m.index + m[0].length;
+        let value = '';
+        while (i < text.length) {
+            const ch = text[i];
+            if (ch === '\\') { value += ch + (text[i + 1] ?? ''); i += 2; continue; }
+            if (ch === quote) break;
+            value += ch;
+            i++;
+        }
+        out.push({ index: m.index, value });
+        re.lastIndex = i + 1;
+    }
+    return out;
+}
+
+function extractLocaleContent(text) {
+    const trStart = text.search(/translations:\s*\{/);
+    const scope = trStart >= 0 ? trStart : 0;
+    const arRel = text.slice(scope).search(/\bar:\s*\{/);
+    const enRel = text.slice(scope).search(/\ben:\s*\{/);
+    const arAt = arRel >= 0 ? scope + arRel : -1;
+    const enAt = enRel >= 0 ? scope + enRel : -1;
+    const result = { ar: '', en: '' };
+    for (const { index, value } of extractContentLiterals(text)) {
+        if (index < scope) continue;
+        // A literal belongs to whichever locale block opened most recently before it.
+        const owner = arAt >= 0 && enAt >= 0
+            ? (arAt < enAt ? (index > enAt ? 'en' : index > arAt ? 'ar' : null) : (index > arAt ? 'ar' : index > enAt ? 'en' : null))
+            : (arAt >= 0 && index > arAt ? 'ar' : enAt >= 0 && index > enAt ? 'en' : null);
+        if (owner && !result[owner]) result[owner] = value;
+    }
+    return result;
+}
+
+const BODY_PRODUCT_HREF_RE = /href=\\?"(?:\/en)?\/(?:anker|soundcore|joyroom|jbl)\/[a-z0-9-]+\/([a-z0-9.-]+)\\?"/g;
+
+/** Unique product slugs linked from the body, AR content first then EN, first-appearance order. */
+function extractBodyProductLinks(text) {
+    const { ar, en } = extractLocaleContent(text);
+    const seen = new Set();
+    const out = [];
+    for (const html of [ar, en]) {
+        for (const match of html.matchAll(BODY_PRODUCT_HREF_RE)) {
+            if (!seen.has(match[1])) {
+                seen.add(match[1]);
+                out.push(match[1]);
+            }
+        }
+    }
+    return out;
+}
+
 function extractAuthor(text) {
     // Find author: { ... }
     const startRe = /author:\s*\{/;
@@ -139,6 +202,7 @@ for (const file of files) {
             relatedProducts: extractStringArray(raw, 'relatedProducts'),
             relatedCategories: extractStringArray(raw, 'relatedCategories'),
             relatedArticles: extractStringArray(raw, 'relatedArticles'),
+            bodyProductLinks: extractBodyProductLinks(raw),
             author: extractAuthor(raw),
             translations: {
                 ar: extractTranslation(raw, 'ar'),
@@ -151,10 +215,43 @@ for (const file of files) {
             console.warn(`  ⚠️  ${slug}: missing title in ar or en`);
         }
 
+        // Price tokens ({{price:<slug>}}, contract C1) are resolved only for
+        // quickAnswer / FAQ / content. These fields reach <title>, meta tags,
+        // listings and the RSS feed straight from this index, so a token here
+        // would ship literally — fail the build instead. `keywords` is checked
+        // too: generateMetadata prints it from this index as <meta name="keywords">.
+        for (const loc of ['ar', 'en']) {
+            for (const field of ['title', 'metaTitle', 'metaDescription', 'excerpt', 'keywords']) {
+                if ((entry.translations[loc]?.[field] || '').includes('{{price:')) {
+                    throw new Error(`price token is not allowed in ${loc}.${field} — use a literal or move it to quickAnswer/faq/content`);
+                }
+            }
+        }
+
         entries.push(entry);
     } catch (err) {
+        // A banned price token is a hard failure (the build must stop); every
+        // other per-file problem keeps the historical log-and-continue behaviour.
+        if (/price token is not allowed/.test(err.message)) {
+            throw new Error(`[generate-blog-index] ${slug}: ${err.message}`);
+        }
         console.error(`  ❌ ${slug}: ${err.message}`);
         errors++;
+    }
+}
+
+// Curated relatedArticles must point at real article files. A dangling slug is
+// silently replaced by a random same-category article on the page, so the
+// curation is lost. Warn only — never fail (a scheduled article's file exists,
+// so it is not flagged; only slugs with no file at all are).
+const articleSlugs = new Set(entries.map(e => e.slug));
+let danglingRelated = 0;
+for (const e of entries) {
+    for (const related of e.relatedArticles || []) {
+        if (!articleSlugs.has(related) && !existsSync(join(BLOG_DIR, `${related}.ts`))) {
+            danglingRelated++;
+            console.warn(`  ⚠️  ${e.slug}: relatedArticles → "${related}" has no file in src/data/blog`);
+        }
     }
 }
 
@@ -186,6 +283,12 @@ export interface BlogIndexEntry {
     relatedProducts: string[];
     relatedCategories: string[];
     relatedArticles?: string[];
+    /**
+     * Unique product slugs linked from the article body (AR content, then EN),
+     * in first-appearance order. Contract C2 — read by PDP guide rails and
+     * category rails.
+     */
+    bodyProductLinks: string[];
     author?: {
         name: { ar: string; en: string };
         title: { ar: string; en: string };
@@ -226,6 +329,7 @@ for (const e of entries) {
     if (e.relatedArticles?.length > 0) {
         output += `        relatedArticles: [${e.relatedArticles.map(escapeStr).join(', ')}],\n`;
     }
+    output += `        bodyProductLinks: [${e.bodyProductLinks.map(escapeStr).join(', ')}],\n`;
     if (e.author) {
         output += `        author: {\n`;
         output += `            name: { ar: ${escapeStr(e.author.name.ar)}, en: ${escapeStr(e.author.name.en)} },\n`;
@@ -304,6 +408,9 @@ console.log(`\n✅ Generated ${OUTPUT}`);
 console.log(`   ${entries.length} articles indexed`);
 if (errors > 0) {
     console.log(`   ⚠️  ${errors} errors`);
+}
+if (danglingRelated > 0) {
+    console.log(`   ⚠️  ${danglingRelated} relatedArticles slug(s) with no article file (see warnings above)`);
 }
 
 const sizeKB = (Buffer.byteLength(output, 'utf8') / 1024).toFixed(1);

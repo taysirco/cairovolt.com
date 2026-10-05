@@ -125,9 +125,6 @@ export const joyroom_accessories_content: CategoryContent = {
                     answer: 'الفرق الأساسي في طريقة الشحن: قلم انكر Pencil Pro A7166 بيشحن لاسلكياً بالتثبيت المغناطيسي على حافة الايباد وملوش منفذ USB-C، بينما قلم جوي روم JR-X15 Pro بيشحن عبر USB-C والمغناطيس عنده للحفظ فقط. الاتنين بيذكروا حساسية ميل والاتنين بدون حساسية ضغط. راجع صفحة كل منتج للسعر والتوافق الحاليين.'
                 }
             ],
-            products: [
-                { name: 'قلم جوي روم JR-X15 Pro للايباد — ميل وتثبيت مغناطيسي وشحن USB-C', price: 1199, badge: 'شحن 15 دقيقة (بيان الشركة)' }
-            ]
         },
         en: {
             title: 'Joyroom Accessories and the JR-X15 Pro iPad Stylus',
@@ -232,9 +229,6 @@ The **Joyroom accessories** shelf at CairoVolt currently holds the **Joyroom JR-
                     answer: 'The main difference is how they charge. The Anker Pencil Pro A7166 charges wirelessly by magnetic attachment to the iPad rail and has no USB-C port, while the Joyroom JR-X15 Pro charges over USB-C and uses its magnet only for storage. Both list tilt and neither lists pressure sensitivity. Check each product page for current price and compatibility.'
                 }
             ],
-            products: [
-                { name: 'Joyroom JR-X15 Pro iPad Stylus — tilt, magnetic parking, USB-C charging', price: 1199, badge: '15-min charge (vendor-stated)' }
-            ]
         }
     }
 };

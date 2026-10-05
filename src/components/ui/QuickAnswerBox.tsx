@@ -4,7 +4,12 @@
  *
  * Design: Subtle, professional box that doesn't disrupt reading
  * but catches attention with a complete, citable answer.
+ *
+ * The answer is always printed as PLAIN TEXT: this node is the Speakable target
+ * and the source of BlogPosting.abstract, so stray `<strong>`, `**` or
+ * `[text](url)` markup in the data would otherwise be read out literally.
  */
+import { toPlainAnswer } from '@/lib/blog-answer-normalize';
 
 interface QuickAnswerBoxProps {
     /** The concise summary text (aim for ~45 words / 3 bullet points) */
@@ -17,6 +22,11 @@ interface QuickAnswerBoxProps {
 
 export function QuickAnswerBox({ answer, locale, variant = 'subtle' }: QuickAnswerBoxProps) {
     const isArabic = locale === 'ar';
+    // Defensive: blog answers arrive pre-normalized (getBlogArticleBySlug), but
+    // brand hubs pass their own strings straight in.
+    const plainAnswer = toPlainAnswer(answer);
+    // Prefix/label rotation keys off the string as passed in (unchanged), so
+    // hubs whose copy carries no markup keep exactly the label they had.
     const hash = typeof answer === 'string' ? answer.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
 
     // Labels must stay NEUTRAL. 'مباشرة من المعمل:' and 'Straight from the Lab:'
@@ -51,7 +61,7 @@ export function QuickAnswerBox({ answer, locale, variant = 'subtle' }: QuickAnsw
         >
             <p>
                 <strong className="text-gray-900 dark:text-white">{prefix}</strong>{' '}
-                {answer}
+                {plainAnswer}
             </p>
         </div>
     );

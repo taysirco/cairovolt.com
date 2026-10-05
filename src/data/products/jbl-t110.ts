@@ -46,7 +46,7 @@ export const jbl_t110 = {
     <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Counterfeit Warning — The Most-Faked JBL Product in Egypt</h3>
     <p class="text-gray-700 mb-2">The T110 is, by a wide margin, the JBL product you are most likely to meet as a fake in Egyptian markets — street stalls, marketplace listings and accessory shops sell "JBL T110" units at 50–100 EGP. Genuine units cluster around 300–700 EGP at legitimate retailers; the arithmetic below a certain price simply does not work for a licensed Harman product. Check every one of these before and after paying:</p>
     <ol class="list-decimal mr-6 ml-6 text-gray-700 space-y-1">
-        <li>Price logic first: a "new JBL T110" at 50–100 EGP is a near-certain counterfeit. Anything roughly 40% below our price (about 270 EGP or less) deserves deep suspicion.</li>
+        <li>Price logic first: a "new JBL T110" at 50–100 EGP is a near-certain counterfeit. Anything roughly 40% below our price deserves deep suspicion.</li>
         <li>Logo alignment: on genuine units the JBL logo on each earpiece is crisply printed, centred and identical on both sides — fakes commonly show off-centre, smudged or slightly wrong-font logos.</li>
         <li>Packaging and serial sticker: the original box has sharp print, correct English spelling, and a labelled serial/model sticker (JBLT110). Missing serials, glossy blurry print and spelling errors are classic fake tells.</li>
         <li>Cable build: the genuine cable is flat and tangle-resistant. A thin round rubbery cable on a "T110" is a red flag.</li>
@@ -88,7 +88,7 @@ export const jbl_t110 = {
     <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير من التقليد — أكتر منتج JBL بيتقلد في مصر</h3>
     <p class="text-gray-700 mb-2">الـT110 هي — وبفارق كبير — منتج JBL اللي أغلب احتمال تقابله مقلد في السوق المصري: فرشات الشارع وإعلانات الماركت بليس ومحلات الإكسسوارات بتبيع "JBL T110" بـ50–100 جنيه. الأصلية بتتراوح حوالين 300–700 جنيه عند التجار المحترمين؛ وتحت سعر معين الحسبة نفسها مش بتنفع لمنتج مرخّص من Harman. راجع كل نقطة من دول قبل وبعد ما تدفع:</p>
     <ol class="list-decimal mr-6 ml-6 text-gray-700 space-y-1">
-        <li>منطق السعر الأول: "JBL T110 جديدة" بـ50–100 جنيه شبه مؤكد تقليد. وأي حاجة أقل من سعرنا بحوالي 40% (يعني حوالي 270 جنيه أو أقل) تستاهل شك عميق.</li>
+        <li>منطق السعر الأول: "JBL T110 جديدة" بـ50–100 جنيه شبه مؤكد تقليد. وأي حاجة أقل من سعرنا بحوالي 40% تستاهل شك عميق.</li>
         <li>ضبط الشعار: في الأصلية شعار JBL على كل سماعة مطبوع حاد، متوسّط، ومتطابق على الناحيتين — التقليد غالبًا شعاره مايل أو ملطخ أو خطه مختلف شوية.</li>
         <li>العلبة والاستيكر التسلسلي: الكرتونة الأصلية طباعتها حادة وإملاؤها الإنجليزي سليم وعليها استيكر موديل ورقم تسلسلي (JBLT110). غياب الرقم التسلسلي والطباعة اللامعة المهزوزة وأخطاء الإملا علامات تقليد كلاسيكية.</li>
         <li>خامة الكابل: كابل الأصلية مسطح وبيقاوم التعقيد. كابل رفيع دائري مطاطي على "T110" علامة خطر.</li>

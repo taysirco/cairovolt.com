@@ -52,7 +52,7 @@ export const jbl_partybox_encore_essential = {
         <li>Weight: JBL lists roughly 6kg. Lookalike towers often feel dramatically lighter — smaller drivers and battery inside.</li>
         <li>Packaging: the original box has sharp print, correct spelling, and a labelled serial number.</li>
         <li>App pairing: a genuine unit is recognised by the official JBL PartyBox app — lookalikes never appear in it.</li>
-        <li>Price logic: a "new" Encore Essential offered around 40% below our price (roughly 12,500 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" Encore Essential offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -94,7 +94,7 @@ export const jbl_partybox_encore_essential = {
         <li>الوزن: JBL معلنة حوالي 6 كيلو. البازوكات الشبيهة غالبًا أخف بشكل مفاجئ — درايفرات وبطارية أصغر جواها.</li>
         <li>العلبة: الكرتونة الأصلية طباعتها حادة، إملاؤها سليم، وعليها رقم تسلسلي واضح.</li>
         <li>التطبيق: الوحدة الأصلية بيتعرف عليها تطبيق JBL PartyBox الرسمي — التقليد عمره ما بيظهر فيه.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 12,500 جنيه أو أقل) شبه مؤكد مش أصلية.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

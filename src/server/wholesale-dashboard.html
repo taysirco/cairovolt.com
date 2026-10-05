@@ -1546,7 +1546,7 @@ function firstSegment(s) { return String(s || '').split('|')[0].trim(); }
 async function syncFromCatalog() {
     let items;
     try {
-        const res = await fetch('/api/products?limit=500', { cache: 'no-store' });
+        const res = await fetch('/api/products?limit=500&status=all', { cache: 'no-store' });
         if (!res.ok) return;
         const data = await res.json();
         items = Array.isArray(data.items) ? data.items : [];

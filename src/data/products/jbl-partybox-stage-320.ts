@@ -57,7 +57,7 @@ export const jbl_partybox_stage_320 = {
         <li>Weight: JBL lists 16.5kg. A tower that one person swings around easily has smaller drivers and battery inside.</li>
         <li>App pairing: a genuine unit is recognised by the official JBL PartyBox app — lookalikes never appear in it.</li>
         <li>Packaging: the original box has sharp print, correct spelling, and a labelled serial number.</li>
-        <li>Price logic: a "new" Stage 320 offered around 40% below our price (roughly 17,500 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" Stage 320 offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -100,7 +100,7 @@ export const jbl_partybox_stage_320 = {
         <li>الوزن: JBL معلنة 16.5 كيلو. برج بيتشال بإيد واحدة بسهولة جواه درايفرات وبطارية أصغر.</li>
         <li>التطبيق: الوحدة الأصلية بيتعرف عليها تطبيق JBL PartyBox الرسمي — التقليد عمره ما بيظهر فيه.</li>
         <li>العلبة: الكرتونة الأصلية طباعتها حادة، إملاؤها سليم، وعليها رقم تسلسلي واضح.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 17,500 جنيه أو أقل) شبه مؤكد مش أصلية.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

@@ -26,7 +26,10 @@ export default function BenchTestSection({ data, isRTL }: { data: BenchTest; isR
 
     return (
         <section
-            className="p-6 md:p-8 border-t border-gray-100 dark:border-gray-800"
+            // Stable anchor so guides and the /lab hub can deep-link to the
+            // measured results: /<brand>/<category>/<slug>#bench-test
+            id="bench-test"
+            className="p-6 md:p-8 border-t border-gray-100 dark:border-gray-800 scroll-mt-24"
             aria-label={isRTL ? 'اختبار كايرو فولت المعملي' : 'CairoVolt bench test'}
         >
             <CollapsibleSection

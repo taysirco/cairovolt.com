@@ -47,8 +47,9 @@ export const chargers_generic: GenericCategory = {
             ar: [
                 { question: 'كيف أختار شاحن ايفون مناسبًا في مصر؟', answer: 'طابق القدرة والبروتوكول الموصى بهما لطراز ايفون في دليل Apple مع مواصفات منفذ الشاحن والكابل. راجع صفحة المنتج لمعرفة السعر والتوفر الحاليين؛ فالقدرة الفعلية تتأثر بالطراز والكابل وحالة البطارية.' },
                 { question: 'ما هو شاحن GaN؟', answer: 'GaN اختصار Gallium Nitride أو نيتريد الغاليوم، وهي مادة شبه موصلة قد تتيح تصميمات أكثر إحكامًا وكفاءة. الحجم والحرارة والكفاءة الفعلية تختلف بين الموديلات، لذا تحقق من مواصفات الموديل المحدد.' },
-                { question: 'كم واط يحتاج iPhone 17 للشحن السريع؟', answer: 'تختلف قدرة الشحن حسب طراز iPhone 17 وظروف الاستخدام. راجع صفحة المواصفات أو دليل Apple لطرازك، ثم اختر شاحن USB-C PD وكابلًا متوافقًا مع القدرة الموصى بها.' },
+                { question: 'كم واط يحتاج iPhone 17 للشحن السريع؟', answer: 'حسب Apple: iPhone 17 و17 Pro و17 Pro Max تصل إلى حوالي 50% في نحو 20 دقيقة بشاحن 40 واط أو أعلى، وiPhone 17e وiPhone Air إلى حوالي 50% في نحو 30 دقيقة بشاحن 20 واط أو أعلى. اختر شاحن USB-C PD وكابل USB-C مناسبين، والسرعة الفعلية تتغير مع الحرارة وحالة البطارية.' },
                 { question: 'ما الفرق بين PD وPPS؟', answer: 'USB Power Delivery بروتوكول تفاوض للطاقة عبر USB-C. أما PPS فهو ملف طاقة قابل للبرمجة ضمن USB PD وقد تستخدمه بعض الأجهزة. يجب أن يدعم الجهاز والشاحن والكابل المتطلبات المذكورة في دليل الجهاز.' },
+                { question: 'راس شاحن 20 واط ولا 30 واط للايفون؟', answer: 'للايفون الأقدم زي iPhone 15 الفرق صغير: في مختبرنا وصل iPhone 15 إلى 50% في حوالي 29 دقيقة على [انكر 20 واط (A2347K11)](/anker/wall-chargers/anker-powerport-20w) وحوالي 27 دقيقة على [انكر 511 Nano 3 بقدرة 30 واط (A2147)](/anker/wall-chargers/anker-a2147-gan-charger-30w). أما iPhone 17 و17 Pro و17 Pro Max فتذكر Apple أنها تصل إلى حوالي 50% في نحو 20 دقيقة بشاحن 40 واط أو أعلى، وiPhone 17e وiPhone Air إلى حوالي 50% في نحو 30 دقيقة بشاحن 20 واط أو أعلى ([دعم Apple](https://support.apple.com/en-us/102574)).' },
                 { question: 'هل شاحن 20 واط كافٍ؟', answer: 'يعتمد ذلك على القدرة التي يقبلها جهازك وطريقة استخدامه. قارن توصية الشركة المصنّعة مع خرج المنفذ المحدد، وانتبه إلى أن القدرة قد تتوزع عند توصيل أكثر من جهاز.' },
                 { question: 'كيف أتحقق من بيانات الشاحن قبل الشراء؟', answer: 'طابق اسم الموديل ورقمه والمواصفات والباركود أو الرقم التسلسلي، إن وفرت الشركة وسيلة للتحقق، مع بيانات العبوة وصفحة الشركة المصنّعة. احتفظ بالفاتورة واقرأ سياسة الإرجاع وضمان كايرو فولت المكتوب للمنتج.' },
                 { question: 'كيف أختار شاحنًا للابتوب والموبايل معًا؟', answer: 'تحقق من القدرة المطلوبة لكل جهاز ومن توزيع الطاقة لكل منفذ عند الاستخدام المتزامن. اختر موديلًا يدعم البروتوكولات المطلوبة واستخدم كابلات مناسبة، ثم راجع السعر الحالي في صفحة المنتج.' },
@@ -56,8 +57,9 @@ export const chargers_generic: GenericCategory = {
             en: [
                 { question: 'How do I choose an iPhone charger in Egypt?', answer: 'Match the power and protocol recommended for your iPhone model in Apple\'s documentation with the charger port and cable specifications. Check the product page for current price and availability; actual input can vary with the model, cable, battery state, and conditions.' },
                 { question: 'What is a GaN charger?', answer: 'GaN stands for gallium nitride, a semiconductor material that can enable compact and efficient power designs. Actual size, temperature, and efficiency vary by charger model, so check the specifications for the exact product.' },
-                { question: 'How many watts does iPhone 17 need for fast charging?', answer: 'Charging input varies by iPhone 17 model and conditions. Check Apple\'s technical specifications or manual for your model, then choose a compatible USB-C PD charger and cable that meet the stated recommendation.' },
+                { question: 'How many watts does iPhone 17 need for fast charging?', answer: 'Per Apple, iPhone 17, 17 Pro, and 17 Pro Max reach about 50% in around 20 minutes with a 40W-or-higher adapter, while iPhone 17e and iPhone Air reach about 50% in around 30 minutes with 20W or higher. Use a USB-C PD charger and a suitable USB-C cable; real speed varies with temperature and battery condition.' },
                 { question: 'What is the difference between PD and PPS?', answer: 'USB Power Delivery negotiates power over USB-C. PPS is an optional programmable power profile within USB PD that some devices use. The device, charger, and cable must meet the requirements in the device documentation.' },
+                { question: '20W or 30W charger for iPhone?', answer: 'For older iPhones such as the iPhone 15 the difference is small: in our lab the iPhone 15 reached 50% in about 29 minutes on the [Anker 20W (A2347K11)](/en/anker/wall-chargers/anker-powerport-20w) and about 27 minutes on the [Anker 511 Nano 3 30W (A2147)](/en/anker/wall-chargers/anker-a2147-gan-charger-30w). Apple says iPhone 17, 17 Pro, and 17 Pro Max reach about 50% in around 20 minutes with a 40W-or-higher adapter, and iPhone 17e and iPhone Air about 50% in around 30 minutes with 20W or higher ([Apple Support](https://support.apple.com/en-us/102574)).' },
                 { question: 'Is a 20W charger enough?', answer: 'It depends on the input supported by your device and how you use it. Compare the manufacturer\'s recommendation with the output of the specific port, and remember that multi-port chargers may redistribute power when more devices are connected.' },
                 { question: 'How can I verify a charger before buying?', answer: 'Match the model name, model number, specifications, barcode, and serial number, where the manufacturer offers verification, with the packaging and manufacturer information. Keep the invoice and read the return policy and the written CairoVolt warranty for that product.' },
                 { question: 'How do I choose a charger for a laptop and phone together?', answer: 'Check each device\'s required input and the charger\'s per-port distribution during simultaneous use. Choose a model with the required protocols and suitable cables, then check the product page for the current price.' },
@@ -92,20 +94,6 @@ export const chargers_generic: GenericCategory = {
 <li><strong>الكابل:</strong> بعض ملفات الطاقة الأعلى تحتاج كابل USB-C مناسبًا؛ راجع متطلبات الجهاز والشاحن.</li>
 <li><strong>الاستخدام المتزامن:</strong> افحص جدول توزيع الطاقة عند شحن هاتف وجهاز آخر معًا، وراجع السعر الحالي في صفحة المنتج.</li>
 </ul>
-
-<h2 id="comparison-table">جدول مقارنة مواصفات الشواحن في مصر</h2>
-<table>
-<thead><tr><th>الشاحن</th><th>القدرة المعلنة</th><th>المنافذ</th><th>التقنية</th><th>أساس الاختيار</th><th>السعر</th></tr></thead>
-<tbody>
-<tr><td>جوي روم 20W</td><td>حتى 20W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من دعم PD للموديل</td><td>توافق الجهاز والكابل</td><td>السعر الحالي في صفحة المنتج</td></tr>
-<tr><td>انكر Nano 20W</td><td>حتى 20W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وGaN للموديل</td><td>الحجم والتوافق الفعليان</td><td>السعر الحالي في صفحة المنتج</td></tr>
-<tr><td>انكر PowerPort 25W</td><td>حتى 25W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وPPS للموديل</td><td>متطلبات طراز Samsung</td><td>السعر الحالي في صفحة المنتج</td></tr>
-<tr><td>انكر 511 30W</td><td>حتى 30W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وGaN للموديل</td><td>متطلبات الجهاز المحدد</td><td>السعر الحالي في صفحة المنتج</td></tr>
-<tr><td>جوي روم 30W</td><td>حتى 30W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من PD وQC للموديل</td><td>توزيع الطاقة بين المنافذ</td><td>السعر الحالي في صفحة المنتج</td></tr>
-<tr><td>انكر نانو 45W</td><td>حتى 45W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من بروتوكولات الإصدار</td><td>توزيع الطاقة بين المنافذ</td><td>السعر الحالي في صفحة المنتج</td></tr>
-<tr><td>انكر برايم 67W</td><td>حتى 67W وفق إصدار الموديل</td><td>راجع صفحة المنتج</td><td>تحقق من GaN وPD للإصدار</td><td>متطلبات اللابتوب والهاتف</td><td>السعر الحالي في صفحة المنتج</td></tr>
-</tbody>
-</table>
 
 <h2 id="gan-technology">ما هي تقنية GaN ومتى تفيد؟</h2>
 <p><strong>GaN (Gallium Nitride)</strong> أو نيتريد الغاليوم مادة شبه موصلة تستخدم في بعض دوائر الطاقة. يمكن أن تمنح المصمم مرونة في الحجم والكفاءة، لكنها ليست ضمانًا منفردًا لحجم أو حرارة أو سرعة محددة:</p>
@@ -168,20 +156,6 @@ export const chargers_generic: GenericCategory = {
 <li><strong>Cable:</strong> Some higher-power profiles require a suitably rated USB-C cable; follow the device and charger requirements.</li>
 <li><strong>Simultaneous use:</strong> Review the power-distribution table when charging another device at the same time, and check the product page for the current price.</li>
 </ul>
-
-<h2 id="comparison-table">Charger Specifications Comparison Table</h2>
-<table>
-<thead><tr><th>Charger</th><th>Stated Power</th><th>Ports</th><th>Technology</th><th>Selection Check</th><th>Price</th></tr></thead>
-<tbody>
-<tr><td>Joyroom 20W</td><td>Up to 20W for the listed version</td><td>See product page</td><td>Confirm PD for the exact model</td><td>Device and cable compatibility</td><td>Current price on product page</td></tr>
-<tr><td>Anker Nano 20W</td><td>Up to 20W for the listed version</td><td>See product page</td><td>Confirm PD and GaN for the exact model</td><td>Actual size and compatibility</td><td>Current price on product page</td></tr>
-<tr><td>Anker PowerPort 25W</td><td>Up to 25W for the listed version</td><td>See product page</td><td>Confirm PD and PPS for the exact model</td><td>Samsung model requirements</td><td>Current price on product page</td></tr>
-<tr><td>Anker 511 30W</td><td>Up to 30W for the listed version</td><td>See product page</td><td>Confirm PD and GaN for the exact model</td><td>Requirements of the exact device</td><td>Current price on product page</td></tr>
-<tr><td>Joyroom 30W</td><td>Up to 30W for the listed version</td><td>See product page</td><td>Confirm PD and QC for the exact model</td><td>Power distribution between ports</td><td>Current price on product page</td></tr>
-<tr><td>Anker Nano 45W</td><td>Up to 45W for the listed version</td><td>See product page</td><td>Confirm protocols for the listed version</td><td>Power distribution between ports</td><td>Current price on product page</td></tr>
-<tr><td>Anker Prime 67W</td><td>Up to 67W for the listed version</td><td>See product page</td><td>Confirm GaN and PD for the version</td><td>Laptop and phone requirements</td><td>Current price on product page</td></tr>
-</tbody>
-</table>
 
 <h2 id="gan-technology">What Is GaN and When Is It Useful?</h2>
 <p><strong>GaN (gallium nitride)</strong> is a semiconductor material used in some power circuits. It can give designers flexibility in size and efficiency, but it does not by itself guarantee a specific size, temperature, or charging speed:</p>

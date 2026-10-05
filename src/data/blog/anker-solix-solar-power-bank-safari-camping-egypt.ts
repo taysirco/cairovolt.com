@@ -4,7 +4,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     slug: 'anker-solix-solar-power-bank-safari-camping-egypt',
     category: 'buying-guide',
     publishDate: '2026-06-18',
-    modifiedDate: '2026-06-18',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         "anker-powercore-20000",
@@ -27,14 +27,14 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
             metaDescription: 'تحليل علمي للباور بانك الشمسي في ظروف مصر: كفاءة الألواح الحقيقية، مقارنة بالباور بانك العادي، والبديل الأذكى لرحلات السفاري والكامبينج. تابع التفاصيل بمصر.',
             keywords: 'باور بانك شمسي, باور بانك كامبينج, شحن بالطاقة الشمسية مصر, باور بانك رحلات, solar power bank egypt, انكر باور بانك سفاري, شحن موبايل صحراء, باور بانك سفر مصر',
             excerpt: 'الباور بانك الشمسي فكرته حلوة — بس هل كفاءته الحقيقية تناسب شمس مصر ورحلات السفاري؟ تحليل بالأرقام والفيزياء مع البديل الأذكى.',
-            quickAnswer: 'الباور بانك الشمسي فكرته مغرية لكن أداؤه الفعلي ضعيف: اللوح الشمسي المدمج (2-5W) بيحتاج 40-80 ساعة شمس صافية لشحن باور بانك 20,000mAh — يعني 5-10 أيام! البديل الأذكى لرحلات الكامبينج في مصر: باور بانك عادي بسعة 20,000mAh+ (زي انكر PowerCore 20K بـ 1,550ج) واشحنه كامل قبل الرحلة. لو الرحلة أطول من 3 أيام، محطة طاقة متنقلة زي انكر 521 PowerHouse هي الحل الحقيقي.',
+            quickAnswer: 'الباور بانك الشمسي فكرته مغرية لكن أداؤه الفعلي ضعيف: اللوح الشمسي المدمج (2-5W) بيحتاج 40-80 ساعة شمس صافية لشحن باور بانك 20,000mAh — يعني 5-10 أيام! البديل الأذكى لرحلات الكامبينج في مصر: باور بانك عادي بسعة 20,000mAh+ (زي انكر PowerCore 20K بـ {{price:anker-powercore-20000}} جنيه) واشحنه كامل قبل الرحلة. لو الرحلة أطول من 3 أيام، محطة طاقة متنقلة زي انكر 521 PowerHouse هي الحل الحقيقي.',
             content: `<p>كل ما بتخطط لرحلة كامبينج في الفيوم أو سفاري في الصحراء البيضاء أو حتى يوم على شاطئ العين السخنة، بتسأل نفس السؤال: "الموبايل هيفضل معايا ولا هيموت في نص الرحلة؟" وطبعاً أول حاجة بتطلع قدامك على أمازون: "باور بانك شمسي 30,000mAh — بيشحن من الشمس!" بسعر 200-400 جنيه. الصور حلوة، التقييمات 4.5 نجمة، والفكرة نفسها رائعة — طاقة مجانية من الشمس المصرية اللي بتحرق دماغنا 300 يوم في السنة. إيه اللي ممكن يغلط؟</p>
 
 <p>كتير، للأسف. في المقال ده هنحلل بالفيزياء والأرقام — مش بالآراء — كفاءة الباور بانك الشمسي الحقيقية، ونقارنها بالباور بانك العادي، ونقولك بالضبط إمتى الشمسي يستاهل فلوسه وإمتى هو مجرد خدعة تسويقية بتاخد فلوسك وبتسيبك بموبايل ميت في نص الصحراء. المقال ده مبني على حسابات فيزيائية من المواصفات المعلنة لموديلات الباور بانك الشمسي المنتشرة في السوق — أرقام تقدر تراجعها بنفسك خطوة بخطوة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> الباور بانك الشمسي المدمج (اللوح الصغير المدمج في الجسم) <strong>مش عملي</strong> — بيحتاج 40-80 ساعة شمس لشحن نفسه (5-10 أيام!). البديل الأذكى: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (1,550ج) واشحنه في البيت قبل الرحلة. لو رحلتك أطول من 3 أيام، <a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> هي الحل الحقيقي — أو لوح شمسي منفصل بقدرة 20W+ مع باور بانك عادي.
+        <strong>💡 الإجابة السريعة:</strong> الباور بانك الشمسي المدمج (اللوح الصغير المدمج في الجسم) <strong>مش عملي</strong> — بيحتاج 40-80 ساعة شمس لشحن نفسه (5-10 أيام!). البديل الأذكى: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> ({{price:anker-powercore-20000}} جنيه) واشحنه في البيت قبل الرحلة. لو رحلتك أطول من 3 أيام، <a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> هي الحل الحقيقي — أو لوح شمسي منفصل بقدرة 20W+ مع باور بانك عادي.
     </p>
 </div>
 
@@ -72,13 +72,13 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المعيار</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">باور بانك شمسي (200-800ج)</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر PowerCore 20K (1,550ج)</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر PowerCore 20K ({{price:anker-powercore-20000}} جنيه)</th>
     </tr></thead>
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">السعة الفعلية</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>6,000-12,000mAh (مبالغ فيها)</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>18,200mAh حقيقية (91%)</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>61.4 واط/ساعة قابلة للاستخدام (قياسنا، 85% من 72)</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">الشحن من الشمس</td>
@@ -88,32 +88,32 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">الشحن من الكهرباء</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;"><strong>5W — 8-10 ساعات</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>22.5W — 4 ساعات</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;"><strong>Micro-USB — حوالي 5 ساعات على شاحن QC 18 واط (قياسنا)</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">شحن سريع للموبايل</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>لا — 5W فقط</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>نعم — 22.5W</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>QC حتى 18 واط (منفذ 1)</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">الوزن</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;"><strong>400-600 جرام</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>340 جرام</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>372 جرام (قياسنا)</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">حماية حرارية</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>لا — خلايا رخيصة</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>ActiveShield 2.0</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>غير معروفة</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>MultiProtect (حسب انكر)</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">عمر افتراضي</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>6-12 شهر</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>3+ سنين</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>غير معروف — خلايا مجهولة</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>حسب الاستخدام والحرارة</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">ضمان</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>بدون</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>18 شهر معتمد</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>ضمان كايرو فولت المكتوب</strong></td>
     </tr>
     </tbody>
 </table>
@@ -125,13 +125,13 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 <p>الطاقة الشمسية ممكن تكون حل عبقري — بس مش في شكل لوح صغير مدمج في باور بانك. الحلول الشمسية الحقيقية اللي بتشتغل في رحلات الصحراء المصرية:</p>
 
 <h3>1. لوح شمسي منفصل (20W+) + باور بانك عادي</h3>
-<p>لوح شمسي منفصل بقدرة 20-30W مع MPPT controller بيشحن باور بانك عادي بكفاءة عالية. اللوح المنفصل مساحته أكبر بـ 10x من المدمج — يعني بيولد 10x طاقة. لوح 20W بيشحن باور بانك 10,000mAh في 4-5 ساعات شمس. ده حل عملي لرحلات 5-7 أيام. سعر اللوح 500-1,200 جنيه + <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">باور بانك انكر زولو 20,000mAh</a> (1,350ج).</p>
+<p>لوح شمسي منفصل بقدرة 20-30W مع MPPT controller بيشحن باور بانك عادي بكفاءة عالية. اللوح المنفصل مساحته أكبر بـ 10x من المدمج — يعني بيولد 10x طاقة. لوح 20W بيشحن باور بانك 10,000mAh في 4-5 ساعات شمس. ده حل عملي لرحلات 5-7 أيام. سعر اللوح نطاق تقريبي في السوق ويختلف حسب البائع (حوالي 500–1,200 جنيه)، مع <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">باور بانك انكر زولو 20,000mAh</a> ({{price:anker-zolo-a110e-20000}} جنيه).</p>
 
 <h3>2. محطة طاقة متنقلة (للرحلات الجماعية)</h3>
 <p><a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">انكر 521 PowerHouse</a> — محطة طاقة متنقلة بسعة 256Wh. بتشحن 8-10 موبايلات أو لابتوب + موبايل + سبيكر بلوتوث. فيها مخرج AC (زي بريزة البيت) ومنافذ USB-A و USB-C. الحل المثالي لمجموعة 4-6 أشخاص في رحلة كامبينج. بتتشحن من الكهرباء في 5 ساعات أو من لوح شمسي 60-100W في 6-8 ساعات. ده الحل الحقيقي للاستقلالية عن الكهرباء.</p>
 
 <h3>3. الحل البسيط: اشحن كل حاجة قبل ما تمشي</h3>
-<p>لو رحلتك يومين أو 3 — وده الأغلب — الحل الأبسط والأوفر: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (1,550ج) مشحون 100% بيديك 3.5 شحنات كاملة للموبايل. يعني 3 أيام كاملين بدون كهرباء مع استخدام معقول. لو معاك اتنين (أو واحد 20,000 + واحد 10,000)، بتغطي أسبوع كامل.</p>
+<p>لو رحلتك يومين أو 3 — وده الأغلب — الحل الأبسط والأوفر: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> ({{price:anker-powercore-20000}} جنيه) مشحون 100% بيديك حوالي 3–4 شحنات لموبايل متوسط (تقديري: 61.4 واط/ساعة مقاسة × 0.85 ÷ بطارية الموبايل). يعني 3 أيام كاملين بدون كهرباء مع استخدام معقول. لو معاك اتنين (أو واحد 20,000 + واحد 10,000)، بتغطي أسبوع كامل.</p>
 
 <h2>دليل اختيار شحن الرحلة حسب المدة والعدد</h2>
 
@@ -145,27 +145,27 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">يوم واحد — شخص واحد</td>
         <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;">انكر زولو 10,000mAh</a></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">750ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-zolo-a110d-10000}} جنيه</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">2-3 أيام — شخص واحد</td>
         <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;">انكر PowerCore 20,000mAh</a></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">1,550ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-powercore-20000}} جنيه</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">3-5 أيام — شخص واحد</td>
         <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;">انكر زولو 20,000mAh</a> × 2</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">2,700ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-zolo-a110e-20000}} جنيه للواحد</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">3-5 أيام — مجموعة 4-6</td>
         <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;">انكر 521 PowerHouse</a></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">5,500ج (مشتركة)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">{{price:anker-521-powerhouse}} جنيه (مشتركة)</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">أسبوع+ — بدون كهرباء</td>
         <td style="padding:12px;border:1px solid #d1d5db;">محطة طاقة + لوح شمسي 60W منفصل</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">7,000-10,000ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">سعر المحطة في صفحتها + سعر اللوح حسب البائع</td>
     </tr>
     </tbody>
 </table>
@@ -186,7 +186,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 
 <h2>تحذير من "30,000mAh شمسي بـ 200 جنيه" على أمازون</h2>
 
-<p>لو شفت باور بانك على أمازون مصر أو جوميا مكتوب عليه "Solar 30,000mAh" بسعر 150-250 جنيه — ده scam بنسبة 99%. إليك الأسباب:</p>
+<p>لو شفت باور بانك على أمازون مصر أو جوميا مكتوب عليه "Solar 30,000mAh" بسعر 150-250 جنيه — ده غالباً إعلان مضلل. إليك الأسباب:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔍 <strong>السعة مزيفة:</strong> تكلفة خلايا ليثيوم حقيقية بسعة 30,000mAh وحدها أعلى من 300 جنيه. باور بانك كامل بـ 200 جنيه مستحيل يكون 30,000mAh. السعة الفعلية غالباً 5,000-8,000mAh.</li>
@@ -205,7 +205,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جهّز رحلتك من كايرو فولت — بضمان المتجر المكتوب</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل باور بانكات الرحلات ومحطات الطاقة المتنقلة متاحة بضمان <strong>18 شهر مكتوب</strong> + توصيل لكل المحافظات خلال 24-72 ساعة + دفع عند الاستلام. لو بتخطط لرحلة كامبينج أو سفاري، تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
+        كل باور بانكات الرحلات ومحطات الطاقة المتنقلة متاحة بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل عادة من 1 لـ 6 أيام عمل حسب المحافظة + دفع عند الاستلام. لو بتخطط لرحلة كامبينج أو سفاري، تصفح <a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a> أو <a href="/anker/power-banks" style="color:#166534;font-weight:600;">محطات الطاقة المتنقلة</a>.
     </p>
 </div>`,
             faq: [
@@ -219,7 +219,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
                 },
                 {
                     question: 'إيه أفضل باور بانك لرحلة كامبينج 3 أيام؟',
-                    answer: 'لشخص واحد في رحلة 3 أيام: انكر PowerCore 20,000mAh (1,550ج) بيديك 3.5 شحنات كاملة — كافي تماماً مع استخدام معقول. لو بتصور كتير أو معاك أجهزة تانية، أضف انكر زولو 10,000mAh (750ج) كاحتياطي.',
+                    answer: 'لشخص واحد في رحلة 3 أيام: انكر PowerCore 20,000mAh ({{price:anker-powercore-20000}} جنيه) بيديك حوالي 3–4 شحنات لموبايل متوسط (تقديري، قسنا منه 61.4 واط/ساعة) — كافي مع استخدام معقول. لو بتصور كتير أو معاك أجهزة تانية، أضف انكر زولو 10,000mAh ({{price:anker-zolo-a110d-10000}} جنيه) كاحتياطي.',
                 },
                 {
                     question: 'هل الباور بانك مسموح بيه في رحلات الطيران للوصول لمنطقة الكامبينج؟',
@@ -233,14 +233,14 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
             metaDescription: 'Scientific analysis of solar power banks in Egyptian conditions: real panel efficiency, comparison with regular power banks, and smarter alternatives for saf...',
             keywords: 'solar power bank egypt, camping power bank, solar charging egypt, safari power bank, solar charger desert, anker power bank camping, phone charging desert egypt, portable power camping',
             excerpt: 'Solar power banks sound great in theory — but does their real-world efficiency match Egypt\'s sun and safari conditions? A numbers-and-physics analysis with smarter alternatives.',
-            quickAnswer: 'Solar power banks with built-in panels (2-5W) need 40-80 hours of direct sunlight to charge a 20,000mAh battery — that\'s 5-10 days! The smarter alternative for camping in Egypt: a regular 20,000mAh+ power bank (like Anker PowerCore 20K at 1,550 EGP) fully charged before the trip. For trips longer than 3 days, a portable power station like the Anker 521 PowerHouse is the real solution.',
+            quickAnswer: 'Solar power banks with built-in panels (2-5W) need 40-80 hours of direct sunlight to charge a 20,000mAh battery — that\'s 5-10 days! The smarter alternative for camping in Egypt: a regular 20,000mAh+ power bank (like Anker PowerCore 20K at EGP {{price:anker-powercore-20000}}) fully charged before the trip. For trips longer than 3 days, a portable power station like the Anker 521 PowerHouse is the real solution.',
             content: `<p>Every time you plan a camping trip to Fayoum, a safari in the White Desert, or even a day at Ain Sokhna beach, you ask the same question: "Will my phone last or will it die in the middle of the trip?" And naturally, the first thing that pops up on Amazon: "Solar Power Bank 30,000mAh — charges from the sun!" at 200-400 EGP. The photos look great, the reviews are 4.5 stars, and the concept itself is brilliant — free energy from the Egyptian sun that burns our heads 300 days a year. What could possibly go wrong?</p>
 
 <p>A lot, unfortunately. In this article, we'll analyze with physics and numbers — not opinions — the real efficiency of solar power banks, compare them with regular power banks, and tell you exactly when solar is worth it and when it's just a marketing gimmick that takes your money and leaves you with a dead phone in the middle of the desert. This article is built on physics calculations from the published specifications of the solar power bank models common on the market — numbers you can verify yourself, step by step.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Built-in solar panels on power banks (2-5W) are <strong>practically useless</strong> — they need 40-80 hours of direct sunlight to charge (5-10 days!). The smarter alternative: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (1,550 EGP) fully charged at home before the trip. For trips longer than 3 days, the <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> is the real solution — or a separate 20W+ solar panel with a regular power bank.
+        <strong>💡 Quick Answer:</strong> Built-in solar panels on power banks (2-5W) are <strong>practically useless</strong> — they need 40-80 hours of direct sunlight to charge (5-10 days!). The smarter alternative: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (EGP {{price:anker-powercore-20000}}) fully charged at home before the trip. For trips longer than 3 days, the <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> is the real solution — or a separate 20W+ solar panel with a regular power bank.
     </p>
 </div>
 
@@ -278,13 +278,13 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Metric</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Solar Power Bank (200-800 EGP)</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Anker PowerCore 20K (1,550 EGP)</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Anker PowerCore 20K (EGP {{price:anker-powercore-20000}})</th>
     </tr></thead>
     <tbody>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Actual Capacity</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>6,000-12,000mAh (inflated)</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>18,200mAh genuine (91%)</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>61.4Wh usable (our bench, 85% of 72Wh)</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Solar Charging</td>
@@ -294,32 +294,32 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Wall Charging Speed</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;"><strong>5W — 8-10 hours</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>22.5W — 4 hours</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;"><strong>Micro-USB — about 5 hours on an 18W QC charger (our bench)</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Fast Charging Output</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>No — 5W only</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Yes — 22.5W</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>QC up to 18W (port 1)</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Weight</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;"><strong>400-600g</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>340g</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>372g (measured)</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Thermal Protection</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>None — cheap cells</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>ActiveShield 2.0</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>Unknown</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>MultiProtect (Anker-listed)</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Lifespan</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>6-12 months</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>3+ years</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>Unknown — no-name cells</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Depends on use and heat</strong></td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">Warranty</td>
         <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>None</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>18 months authorized</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>CairoVolt written store warranty</strong></td>
     </tr>
     </tbody>
 </table>
@@ -331,13 +331,13 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 <p>Solar power can be a brilliant solution — just not in the form of a tiny panel embedded in a power bank. Real solar solutions that actually work on Egyptian desert trips:</p>
 
 <h3>1. Separate Solar Panel (20W+) + Regular Power Bank</h3>
-<p>A standalone 20-30W solar panel with an MPPT controller charges a regular power bank with high efficiency. A separate panel has 10x the surface area of a built-in one — meaning it generates 10x the energy. A 20W panel charges a 10,000mAh power bank in 4-5 hours of sunshine. This is a practical solution for 5-7 day trips. Panel cost: 500-1,200 EGP + <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO 20,000mAh</a> (1,350 EGP).</p>
+<p>A standalone 20-30W solar panel with an MPPT controller charges a regular power bank with high efficiency. A separate panel has 10x the surface area of a built-in one — meaning it generates 10x the energy. A 20W panel charges a 10,000mAh power bank in 4-5 hours of sunshine. This is a practical solution for 5-7 day trips. Panel cost is an approximate market range that varies by seller (about 500–1,200 EGP), plus an <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO 20,000mAh</a> (EGP {{price:anker-zolo-a110e-20000}}).</p>
 
 <h3>2. Portable Power Station (For Group Trips)</h3>
 <p>The <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;font-weight:600;">Anker 521 PowerHouse</a> — a portable power station with 256Wh capacity. Charges 8-10 phones, or a laptop + phone + Bluetooth speaker. Features AC output (like a home outlet) plus USB-A and USB-C ports. The ideal solution for groups of 4-6 people on a camping trip. Charges from mains in 5 hours or from a 60-100W solar panel in 6-8 hours. This is the real solution for power independence.</p>
 
 <h3>3. The Simple Solution: Charge Everything Before You Leave</h3>
-<p>If your trip is 2-3 days — which covers most cases — the simplest and most cost-effective solution: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (1,550 EGP) fully charged gives you 3.5 complete phone charges. That's 3 full days without electricity with moderate use. If you bring two (or one 20,000 + one 10,000), you're covered for a full week.</p>
+<p>If your trip is 2-3 days — which covers most cases — the simplest and most cost-effective solution: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (EGP {{price:anker-powercore-20000}}) fully charged gives you about 3–4 charges of a typical phone (est.: 61.4Wh measured × 0.85 ÷ phone battery). That's 3 full days without electricity with moderate use. If you bring two (or one 20,000 + one 10,000), you're covered for a full week.</p>
 
 <h2>Trip Charging Guide by Duration and Group Size</h2>
 
@@ -351,27 +351,27 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">1 day — 1 person</td>
         <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;">Anker ZOLO 10,000mAh</a></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">750 EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">EGP {{price:anker-zolo-a110d-10000}}</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">2-3 days — 1 person</td>
         <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;">Anker PowerCore 20,000mAh</a></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">1,550 EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">EGP {{price:anker-powercore-20000}}</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">3-5 days — 1 person</td>
         <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;">Anker ZOLO 20,000mAh</a> × 2</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">2,700 EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">EGP {{price:anker-zolo-a110e-20000}} each</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">3-5 days — group of 4-6</td>
         <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#2563eb;">Anker 521 PowerHouse</a></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">5,500 EGP (shared)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">EGP {{price:anker-521-powerhouse}} (shared)</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">1 week+ — no grid</td>
         <td style="padding:12px;border:1px solid #d1d5db;">Power station + separate 60W solar panel</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">7,000-10,000 EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Station price on its page + panel price by seller</td>
     </tr>
     </tbody>
 </table>
@@ -392,7 +392,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 
 <h2>Warning About "30,000mAh Solar for 200 EGP" on Amazon</h2>
 
-<p>If you see a power bank on Amazon Egypt or Jumia labeled "Solar 30,000mAh" for 150-250 EGP — it's a scam 99% of the time. Here's why:</p>
+<p>If you see a power bank on Amazon Egypt or Jumia labeled "Solar 30,000mAh" for 150-250 EGP — it is almost certainly misleading. Here's why:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔍 <strong>Fake Capacity:</strong> The cost of genuine lithium cells with 30,000mAh capacity alone exceeds 300 EGP. A complete power bank at 200 EGP cannot be 30,000mAh. Actual capacity is usually 5,000-8,000mAh.</li>
@@ -409,9 +409,9 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
 </div>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt — With Authorized Warranty</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt — With CairoVolt\'s Written Store Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All trip power banks and portable power stations are available with an <strong>18-month authorized warranty</strong> + delivery to all governorates within 24-72 hours + cash on delivery. Planning a camping or safari trip? Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
+        All trip power banks and portable power stations come with CairoVolt\'s written store warranty (duration shown on each product page) + delivery commonly in 1–6 business days depending on the governorate + cash on delivery. Planning a camping or safari trip? Browse <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a> or <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Portable Power Stations</a>.
     </p>
 </div>`,
             faq: [
@@ -425,7 +425,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
                 },
                 {
                     question: 'What is the best power bank for a 3-day camping trip?',
-                    answer: 'For one person on a 3-day trip: Anker PowerCore 20,000mAh (1,550 EGP) provides 3.5 full phone charges — perfectly sufficient with moderate use. If you shoot lots of photos or have other devices, add an Anker ZOLO 10,000mAh (750 EGP) as backup.',
+                    answer: 'For one person on a 3-day trip: the Anker PowerCore 20,000mAh (EGP {{price:anker-powercore-20000}}) gives about 3–4 charges of a typical phone (est.; we measured 61.4Wh usable) — enough with moderate use. If you shoot lots of photos or carry other devices, add an Anker ZOLO 10,000mAh (EGP {{price:anker-zolo-a110d-10000}}) as backup.',
                 },
                 {
                     question: 'Are power banks allowed on flights to reach the camping destination?',

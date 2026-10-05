@@ -52,7 +52,7 @@ export const jbl_tune_770nc = {
         <li>Weight and build: JBL lists roughly 230g. A notably lighter unit with creaky hinges usually lacks the real ANC hardware.</li>
         <li>The ANC test: toggle ANC near a running fan or AC — on a genuine unit the low hum audibly drops. Fakes often have a button that does nothing.</li>
         <li>App pairing: a genuine Tune 770NC is recognised by the official JBL Headphones app, including its ANC and Smart Ambient controls — most fakes never appear in it.</li>
-        <li>Price logic: a "new" Tune 770NC offered around 40% below our price (roughly 3,300 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" Tune 770NC offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -94,7 +94,7 @@ export const jbl_tune_770nc = {
         <li>الوزن والخامة: JBL معلنة حوالي 230 جرام. وحدة أخف بشكل ملحوظ ومفصلاتها بتزَقزق غالبًا ناقصها هاردوير العزل الحقيقي.</li>
         <li>اختبار العزل: شغّل وقفّل العزل جنب مروحة أو تكييف شغال — في الوحدة الأصلية الونّة المنخفضة بتقل بشكل مسموع. التقليد كتير زراره مبيعملش حاجة.</li>
         <li>التطبيق: الـTune 770NC الأصلي بيتعرف عليه تطبيق JBL Headphones الرسمي بكل تحكمات العزل وSmart Ambient — أغلب التقليد عمره ما بيظهر فيه.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 3,300 جنيه أو أقل) شبه مؤكد مش أصلية.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

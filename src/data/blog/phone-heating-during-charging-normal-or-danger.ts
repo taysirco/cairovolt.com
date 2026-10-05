@@ -5,15 +5,14 @@ export const phone_heating_during_charging_normal_or_danger: BlogArticle = {
     slug: 'phone-heating-during-charging-normal-or-danger',
     category: 'tips',
     publishDate: '2026-06-13',
-    modifiedDate: '2026-06-13',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'anker-a2147-gan-charger-30w',
         'anker-powerport-25w',
         'anker-nano-45w',
         'anker-zolo-a110e-20000',
-        'anker-737-powerbank',
-        'anker-a2732-charger-35w',
+        'anker-737-powerbank'
     ],
     relatedArticles: [
         'does-fast-charging-damage-battery-truth',
@@ -225,15 +224,14 @@ export const phone_heating_during_charging_normal_or_danger: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن آمنة على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        شواحن GaN من <a href="/anker/wall-chargers" style="color:#166534;font-weight:600;">انكر</a> بتشحن بكفاءة 93-95% — يعني حرارة أقل على موبايلك. كلها <strong>أصلية بضمان 18 شهر</strong> + توصيل لكل المحافظات + دعم واتساب 24/7.
+        شواحن GaN من <a href="/anker/wall-chargers" style="color:#166534;font-weight:600;">انكر</a> فيها حماية من الحرارة الزايدة. كلها <strong>أصلية وعليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)</strong> + توصيل لكل المحافظات + دعم واتساب 24/7.
     </p>
 </div>
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
-        <li><a href="https://support.apple.com/en-us/102455" rel="nofollow">Apple — Keeping iPhone within acceptable operating temperatures</a></li>
-        <li><a href="https://www.samsung.com/global/galaxy/what-is/adaptive-charging/" rel="nofollow">Samsung — Adaptive Charging Technology</a></li>
+        <li><a href="https://support.apple.com/en-us/118431" rel="nofollow">Apple — If your iPhone or iPad gets too hot or too cold</a></li>
         <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" rel="nofollow">Battery University — How to Prolong Li-ion Battery Life</a></li>
     </ul>
 </div>`,
@@ -446,15 +444,14 @@ export const phone_heating_during_charging_normal_or_danger: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Safe Chargers at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        GaN chargers from <a href="/en/anker/wall-chargers" style="color:#166534;font-weight:600;">Anker</a> charge at 93-95% efficiency — meaning less heat on your phone. All products are <strong>genuine with 18-month warranty</strong> + delivery to all governorates + 24/7 WhatsApp support.
+        GaN chargers from <a href="/en/anker/wall-chargers" style="color:#166534;font-weight:600;">Anker</a> include over-temperature protection. All products are <strong>genuine and covered by CairoVolt's written store warranty (duration shown on each product page)</strong> + delivery to all governorates + 24/7 WhatsApp support.
     </p>
 </div>
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 References:</p>
     <ul style="margin:0;padding-left:20px;color:#6b7280;">
-        <li><a href="https://support.apple.com/en-us/102455" rel="nofollow">Apple — Keeping iPhone within acceptable operating temperatures</a></li>
-        <li><a href="https://www.samsung.com/global/galaxy/what-is/adaptive-charging/" rel="nofollow">Samsung — Adaptive Charging Technology</a></li>
+        <li><a href="https://support.apple.com/en-us/118431" rel="nofollow">Apple — If your iPhone or iPad gets too hot or too cold</a></li>
         <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" rel="nofollow">Battery University — How to Prolong Li-ion Battery Life</a></li>
     </ul>
 </div>`,

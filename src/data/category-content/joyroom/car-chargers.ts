@@ -89,9 +89,6 @@ export const joyroom_car_chargers_content: CategoryContent = {
                             answer: 'يعمل مع السيارات التي توفر منفذ طاقة 12V أو 24V ضمن نطاق الدخل المكتوب على الموديل. راجع دليل سيارتك وشكل المقبس وقدرة الفيوز قبل الاستخدام.'
                         }
                     ],
-                    products: [
-                        { name: 'شاحن سيارة جوي روم 69W قابل للسحب 4 في 1 (JR-CCL05)', price: 513, badge: 'كابلان قابلان للسحب' }
-                    ]
                 },
                 en: {
                     title: 'Joyroom Car Chargers',
@@ -165,9 +162,6 @@ It depends on the vehicle: some 12V outlets switch off with the engine while oth
                             answer: 'It works with cars that provide a 12V or 24V power socket within the input range printed on the model. Check your vehicle manual, socket shape, and fuse rating before use.'
                         }
                     ],
-                    products: [
-                        { name: 'Joyroom 69W Retractable 4-in-1 Car Charger (JR-CCL05)', price: 513, badge: 'Two Retractable Cables' }
-                    ]
                 }
             }
         };

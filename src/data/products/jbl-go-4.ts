@@ -54,7 +54,7 @@ export const jbl_go_4 = {
         <li>Weight: JBL lists 190g. A unit that feels notably lighter usually has a smaller battery and driver inside.</li>
         <li>Packaging: original boxes have sharp print, correct spelling, and a labelled serial number.</li>
         <li>App pairing: a genuine Go 4 is recognised by the official JBL Portable app — most fakes never appear in it.</li>
-        <li>Price logic: a "new" Go 4 offered around 40% below our price (roughly 1,250 EGP or less) is almost certainly not genuine.</li>
+        <li>Price logic: a "new" Go 4 offered around 40% below our price is almost certainly not genuine.</li>
         <li>When in doubt, use JBL's official <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a> guidance.</li>
     </ol>
 </div>
@@ -97,7 +97,7 @@ export const jbl_go_4 = {
         <li>الوزن: JBL معلنة 190 جرام. الوحدة اللي حاسسها أخف بشكل ملحوظ غالبًا جواها بطارية ودرايفر أصغر.</li>
         <li>العلبة: الكرتونة الأصلية طباعتها حادة، إملاؤها سليم، وعليها رقم تسلسلي واضح.</li>
         <li>التطبيق: الـGo 4 الأصلية بيتعرف عليها تطبيق JBL Portable الرسمي — أغلب التقليد عمره ما بيظهر فيه.</li>
-        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% (يعني حوالي 1,250 جنيه أو أقل) شبه مؤكد مش أصلية.</li>
+        <li>منطق السعر: وحدة "جديدة" معروضة بأقل من سعرنا بحوالي 40% شبه مؤكد مش أصلية.</li>
         <li>لو لسه شاكك، ارجع لإرشادات JBL الرسمية <a href="https://www.jbl.com/customer-service/ordering/buy-authentic.html" target="_blank" rel="nofollow noopener">Buy Authentic</a>.</li>
     </ol>
 </div>

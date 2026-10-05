@@ -4,7 +4,7 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
     slug: 'electric-scooter-charging-accessories-egypt',
     category: 'buying-guide',
     publishDate: '2026-06-18',
-    modifiedDate: '2026-06-18',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         "anker-powercore-20000",
@@ -28,14 +28,14 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
             metaDescription: 'دليل شامل لمستخدمي السكوتر الكهربائي في مصر: حساب تكلفة الشحن الفعلية، حامل الموبايل الآمن، باور بانك للرحلات الطويلة، ونصائح السلامة. تابع التفاصيل بمصر.',
             keywords: 'سكوتر كهربائي مصر, شحن سكوتر كهربائي, ملحقات سكوتر كهربائي, حامل موبايل سكوتر, باور بانك سكوتر, electric scooter egypt, e-scooter accessories, تكلفة شحن سكوتر كهربائي',
             excerpt: 'السكوتر الكهربائي بينتشر في شوارع مصر بسرعة — بس قبل ما تشتري واحد، اعرف تكلفة الشحن الحقيقية وأهم الملحقات اللي هتحتاجها.',
-            quickAnswer: 'تكلفة شحن السكوتر الكهربائي في مصر حوالي 3-6 جنيهات للشحنة الكاملة (بسعر الكهرباء الحالي) — يعني 10-20 قرش/كم مقابل 1.5-2.5 جنيه/كم للبنزين. أهم 3 ملحقات تشتريها: (1) حامل موبايل ميكانيكي مش مغناطيسي (زي جوي روم ZS290 بـ 934ج) عشان الاهتزاز، (2) باور بانك 10,000mAh+ للموبايل في الرحلات الطويلة، (3) إضاءة LED إضافية للرؤية بالليل.',
+            quickAnswer: 'تكلفة شحن السكوتر الكهربائي في مصر حوالي 3-6 جنيهات للشحنة الكاملة (بسعر الكهرباء الحالي) — يعني حوالي 4-15 قرش/كم مقابل 35-50 قرش/كم لموتوسيكل البنزين. أهم 3 ملحقات تشتريها: (1) حامل موبايل للمقود بقبضة ميكانيكية مش مغناطيسي عشان الاهتزاز، (2) باور بانك 10,000mAh+ للموبايل في الرحلات الطويلة، (3) إضاءة LED إضافية للرؤية بالليل.',
             content: `<p>السكوتر الكهربائي بقى مشهد يومي في شوارع القاهرة والجيزة والإسكندرية. من ماركات زي NIU و Xiaomi و Segway-Ninebot لغاية السكوترات الصينية اللي بتتباع في المولات. الأسعار بتبدأ من 15,000 جنيه وبتوصل لـ 80,000+ جنيه للموديلات الاحترافية. بس السؤال اللي بيسأله كل مستخدم جديد — سواء بيفكر يشتري أو لسه اشترى — مش عن السكوتر نفسه. السؤال عن التفاصيل اللي بتخلي التجربة اليومية إما ممتازة أو كارثية: كام بيكلف الشحن فعلاً؟ إيه الملحقات الأساسية اللي محتاجها؟ وإزاي أحافظ على سلامتي في شوارع مصر اللي مشهورة بالزحمة والمطبات والأسفلت المكسّر؟</p>
 
 <p>المقال ده مكتوب بالتعاون مع 3 مستخدمين مصريين للسكوتر الكهربائي — اتنين في القاهرة وواحد في الإسكندرية — شاركونا تجربتهم على مدار أكتر من سنة. هنغطي كل حاجة من فيزياء الشحن والتكلفة الفعلية لغاية أهم ملحقات السلامة والشحن اللي هتحتاجها.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> الشحنة الكاملة للسكوتر بتكلف <strong>3-6 جنيهات</strong> (حسب سعة البطارية وشريحة الكهرباء). أهم 3 ملحقات: <a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">حامل موبايل جوي روم ZS290</a> (ميكانيكي — آمن ضد الاهتزاز)، <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو 10,000mAh</a> للموبايل في الرحلات الطويلة، وإضاءة LED إضافية.
+        <strong>💡 الإجابة السريعة:</strong> الشحنة الكاملة للسكوتر بتكلف <strong>3-6 جنيهات</strong> (حسب سعة البطارية وشريحة الكهرباء). أهم 3 ملحقات: حامل موبايل للمقود بقبضة ميكانيكية (مش مغناطيسي)، <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو 10,000mAh</a> للموبايل في الرحلات الطويلة، وإضاءة LED إضافية.
     </p>
 </div>
 
@@ -113,10 +113,10 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
 <h2>أهم 5 ملحقات لمستخدم السكوتر الكهربائي في مصر</h2>
 
 <h3>1. حامل موبايل — ميكانيكي مش مغناطيسي</h3>
-<p>الموبايل على السكوتر ضروري للملاحة (Google Maps أو Waze). بس اختيار الحامل حاسم — السكوتر الكهربائي اهتزازه أقل من الموتوسيكل البنزين بكتير، لكن الطرق المصرية (مطبات + حفر + أسفلت مكسّر) بتعوّض الفرق! لازم تختار حامل <strong>ميكانيكي</strong> بذراع قفل مش مغناطيسي. الحامل المغناطيسي ممكن يسقط الموبايل على مطب قوي. الأهم: Apple و Samsung حذّروا رسمياً إن اهتزاز الموتوسيكلات ممكن يتلف نظام OIS في كاميرا الموبايل. <a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> (934ج) حامل ميكانيكي بذراع قفل وقاعدة ماصة للاهتزاز — مناسب تماماً للسكوتر.</p>
+<p>الموبايل على السكوتر ضروري للملاحة (Google Maps أو Waze). بس اختيار الحامل حاسم — السكوتر الكهربائي اهتزازه أقل من الموتوسيكل البنزين بكتير، لكن الطرق المصرية (مطبات + حفر + أسفلت مكسّر) بتعوّض الفرق! لازم تختار حامل <strong>ميكانيكي</strong> بذراع قفل مش مغناطيسي. الحامل المغناطيسي ممكن يسقط الموبايل على مطب قوي. الأهم: Apple حذّرت رسمياً إن اهتزاز الموتوسيكلات ممكن يتلف نظام OIS في كاميرا الايفون. خد بالك: حوامل جوي روم المتاحة عندنا مصممة للعربية — مثلاً <a href="/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">جوي روم ZS290</a> حامل مغناطيسي (MagSafe)، فحسب القاعدة دي مش هو الاختيار لمقود السكوتر؛ دوّر على حامل مقود بقبضة ميكانيكية وذراع قفل.</p>
 
 <h3>2. باور بانك للموبايل — مش للسكوتر</h3>
-<p>السكوتر نفسه بطاريته كبيرة ومش محتاج باور بانك. لكن الموبايل اللي شغّال GPS + شاشة مفتوحة طول الوقت بيستهلك بطارية بسرعة رهيبة — 15-20% في الساعة! لو رحلتك أطول من ساعة، محتاج باور بانك للموبايل. <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو 10,000mAh</a> (750ج) خفيف (185 جرام) وبيدي شحنتين كاملين. أو <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> (1,550ج) لو بتقطع مسافات طويلة يومياً. وصّل الباور بانك بكابل قصير (20-30 سم) عشان ميعلقش ويسبب حادثة.</p>
+<p>السكوتر نفسه بطاريته كبيرة ومش محتاج باور بانك. لكن الموبايل اللي شغّال GPS + شاشة مفتوحة طول الوقت بيستهلك بطارية بسرعة رهيبة — 15-20% في الساعة! لو رحلتك أطول من ساعة، محتاج باور بانك للموبايل. <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو 10,000mAh</a> ({{price:anker-zolo-a110d-10000}}ج) بوزن مدرج 229 جرام وكابل USB-C مدمج. أو <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر PowerCore 20,000mAh</a> ({{price:anker-powercore-20000}}ج) لو بتقطع مسافات طويلة يومياً. وصّل الباور بانك بكابل قصير (20-30 سم) عشان ميعلقش ويسبب حادثة.</p>
 
 <h3>3. إضاءة LED إضافية</h3>
 <p>إضاءة السكوتر الأصلية في معظم الموديلات ضعيفة — خصوصاً الإضاءة الخلفية. في شوارع مصر بالليل (إضاءة شوارع ضعيفة أو مفيش أصلاً)، ده خطر حقيقي. ركّب إضاءة LED خلفية حمراء فلاشر + إضاءة أمامية قوية. الأسعار بتبدأ من 100 جنيه وبتشتغل ببطاريات أو شحن USB. ده أهم استثمار سلامة تعمله — السيارات مش بتشوف السكوتر بالليل.</p>
@@ -148,7 +148,7 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جهّز سكوترك من كايرو فولت — بضمان المتجر المكتوب</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        حوامل الموبايل والباور بانكات المناسبة للسكوتر الكهربائي متاحة بضمان <strong>18 شهر مكتوب من المتجر</strong> + توصيل لكل المحافظات. تصفح <a href="/joyroom/car-holders" style="color:#166534;font-weight:600;">حوامل الموبايل</a> و<a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a>.
+        حوامل الموبايل والباور بانكات متاحة بضمان <strong>كايرو فولت المكتوب</strong> (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات. تصفح <a href="/joyroom/car-holders" style="color:#166534;font-weight:600;">حوامل الموبايل</a> و<a href="/anker/power-banks" style="color:#166534;font-weight:600;">باور بانكات انكر</a>.
     </p>
 </div>`,
             faq: [
@@ -162,7 +162,7 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
                 },
                 {
                     question: 'إيه أفضل حامل موبايل للسكوتر الكهربائي؟',
-                    answer: 'حامل ميكانيكي بذراع قفل — مش مغناطيسي — عشان اهتزاز الطرق المصرية ممكن يسقط الموبايل من الحامل المغناطيسي. جوي روم ZS290 (934ج) خيار ممتاز — فيه قاعدة ماصة للاهتزاز وذراع قفل محكم.',
+                    answer: 'حامل ميكانيكي بذراع قفل — مش مغناطيسي — عشان اهتزاز الطرق المصرية ممكن يسقط الموبايل من الحامل المغناطيسي. خد بالك إن حوامل العربية المغناطيسية زي جوي روم ZS290 مش مصممة لمقود السكوتر.',
                 },
                 {
                     question: 'هل السكوتر الكهربائي قانوني في مصر؟',
@@ -176,14 +176,14 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
             metaDescription: 'Complete guide for electric scooter users in Egypt: real charging cost calculations, safe phone mounts, power banks for long rides, and essential safety tips.',
             keywords: 'electric scooter egypt, e-scooter charging cost, scooter accessories egypt, phone mount scooter, power bank scooter, electric scooter safety, e-scooter charging tips, electric motorcycle egypt',
             excerpt: 'Electric scooters are spreading fast across Egypt\'s streets — but before you buy one, know the real charging cost and the essential accessories you\'ll need.',
-            quickAnswer: 'Charging an electric scooter in Egypt costs approximately 3-6 EGP per full charge (at current electricity rates) — that\'s 0.10-0.20 EGP/km versus 1.5-2.5 EGP/km for gasoline. The 3 most important accessories: (1) a mechanical phone mount, not magnetic (like Joyroom ZS290 at 934 EGP) due to vibrations, (2) a 10,000mAh+ power bank for your phone on long rides, (3) additional LED lighting for night visibility.',
+            quickAnswer: 'Charging an electric scooter in Egypt costs approximately 3-6 EGP per full charge (at current electricity rates) — roughly 0.04-0.15 EGP/km versus 0.35-0.50 EGP/km for a gasoline motorcycle. The 3 most important accessories: (1) a handlebar phone holder with a mechanical grip, not a magnetic one, because of vibration, (2) a 10,000mAh+ power bank for your phone on long rides, (3) additional LED lighting for night visibility.',
             content: `<p>Electric scooters have become a daily sight on the streets of Cairo, Giza, and Alexandria. From brands like NIU, Xiaomi, and Segway-Ninebot to Chinese-made scooters sold in malls. Prices start at 15,000 EGP and reach 80,000+ EGP for professional models. But the question every new user asks — whether considering buying or having just purchased — isn't about the scooter itself. It's about the details that make the daily experience either excellent or disastrous: How much does charging actually cost? What essential accessories do I need? And how do I stay safe on Egyptian streets famous for their traffic, speed bumps, and broken asphalt?</p>
 
 <p>This article was written in collaboration with 3 Egyptian electric scooter users — two in Cairo and one in Alexandria — who shared their experiences over more than a year. We'll cover everything from charging physics and real costs to the most important safety and charging accessories you'll need.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> A full scooter charge costs <strong>3-6 EGP</strong> (depending on battery capacity and electricity tier). Top 3 accessories: <a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290 phone mount</a> (mechanical — vibration-safe), <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO 10,000mAh</a> for your phone on long rides, and additional LED lighting.
+        <strong>💡 Quick Answer:</strong> A full scooter charge costs <strong>3-6 EGP</strong> (depending on battery capacity and electricity tier). Top 3 accessories: a handlebar phone holder with a mechanical grip (not magnetic), <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO 10,000mAh</a> for your phone on long rides, and additional LED lighting.
     </p>
 </div>
 
@@ -257,10 +257,10 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
 <h2>Top 5 Accessories for Electric Scooter Users in Egypt</h2>
 
 <h3>1. Phone Mount — Mechanical, Not Magnetic</h3>
-<p>A phone on the scooter is essential for navigation (Google Maps or Waze). But mount choice is critical — electric scooters vibrate less than gasoline motorcycles, but Egyptian roads (speed bumps + potholes + broken asphalt) more than make up the difference! You must choose a <strong>mechanical mount</strong> with a locking arm, not magnetic. Magnetic mounts can drop your phone on a hard bump. More importantly: Apple and Samsung have officially warned that motorcycle vibrations can damage the OIS system in phone cameras. The <a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a> (934 EGP) is a mechanical mount with locking arm and vibration-dampening base — perfectly suited for scooters.</p>
+<p>A phone on the scooter is essential for navigation (Google Maps or Waze). But mount choice is critical — electric scooters vibrate less than gasoline motorcycles, but Egyptian roads (speed bumps + potholes + broken asphalt) more than make up the difference! You must choose a <strong>mechanical mount</strong> with a locking arm, not magnetic. Magnetic mounts can drop your phone on a hard bump. More importantly: Apple has officially warned that motorcycle vibrations can damage the OIS system in iPhone cameras. Note that the Joyroom holders we stock are designed for cars — the <a href="/en/joyroom/car-holders/joyroom-car-mount-zs290" style="color:#2563eb;font-weight:600;">Joyroom ZS290</a>, for example, is a magnetic (MagSafe) mount, so by this rule it is not the pick for a scooter handlebar; look for a handlebar holder with a mechanical grip and locking arm.</p>
 
 <h3>2. Power Bank for Your Phone — Not the Scooter</h3>
-<p>The scooter itself has a large battery and doesn't need a power bank. But your phone running GPS + screen on constantly drains battery incredibly fast — 15-20% per hour! If your ride is longer than an hour, you need a power bank for the phone. <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO 10,000mAh</a> (750 EGP) is lightweight (185g) and provides two full charges. Or <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> (1,550 EGP) if you cover long distances daily. Connect the power bank with a short cable (20-30 cm) to prevent snagging and causing an accident.</p>
+<p>The scooter itself has a large battery and doesn't need a power bank. But your phone running GPS + screen on constantly drains battery incredibly fast — 15-20% per hour! If your ride is longer than an hour, you need a power bank for the phone. <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO 10,000mAh</a> ({{price:anker-zolo-a110d-10000}} EGP) has a listed weight of 229g and a built-in USB-C cable. Or <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">Anker PowerCore 20,000mAh</a> ({{price:anker-powercore-20000}} EGP) if you cover long distances daily. Connect the power bank with a short cable (20-30 cm) to prevent snagging and causing an accident.</p>
 
 <h3>3. Additional LED Lighting</h3>
 <p>Stock scooter lighting on most models is weak — especially rear lights. On Egyptian streets at night (weak or nonexistent street lighting), this is a genuine danger. Install a red flashing rear LED light + powerful front light. Prices start at 100 EGP and run on batteries or USB charging. This is the most important safety investment — cars simply don't see scooters at night.</p>
@@ -292,7 +292,7 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Gear Up Your Scooter from CairoVolt — With Written Store Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Phone mounts and power banks suitable for electric scooters are available with an <strong>18-month written store warranty</strong> + delivery to all governorates. Browse <a href="/en/joyroom/car-holders" style="color:#166534;font-weight:600;">Phone Mounts</a> and <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a>.
+        Phone mounts and power banks are available with <strong>CairoVolt's written store warranty</strong> (duration shown on each product page) + delivery to all governorates. Browse <a href="/en/joyroom/car-holders" style="color:#166534;font-weight:600;">Phone Mounts</a> and <a href="/en/anker/power-banks" style="color:#166534;font-weight:600;">Anker Power Banks</a>.
     </p>
 </div>`,
             faq: [
@@ -306,7 +306,7 @@ export const electric_scooter_charging_accessories_egypt: BlogArticle = {
                 },
                 {
                     question: 'What is the best phone mount for an electric scooter?',
-                    answer: 'A mechanical mount with a locking arm — not magnetic — because Egyptian road vibrations can knock the phone off a magnetic mount. Joyroom ZS290 (934 EGP) is an excellent choice with a vibration-dampening base and secure locking arm.',
+                    answer: 'A mechanical mount with a locking arm — not magnetic — because Egyptian road vibrations can knock the phone off a magnetic mount. Note that magnetic car mounts such as the Joyroom ZS290 are not designed for a scooter handlebar.',
                 },
                 {
                     question: 'Are electric scooters legal in Egypt?',

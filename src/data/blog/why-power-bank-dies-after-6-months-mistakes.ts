@@ -4,14 +4,12 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
     slug: 'why-power-bank-dies-after-6-months-mistakes',
     category: 'tips',
     publishDate: '2026-05-20',
-    modifiedDate: '2026-05-20',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
         "anker-zolo-a110e-20000",
         "anker-prime-a1695-25000",
-        "joyroom-power-bank-20000",
-        "joyroom-power-bank-10000",
-        "anker-powercore-10000"
+        "joyroom-power-bank-20000"
 ],
     relatedArticles: [
         'how-to-charge-power-bank-correctly',
@@ -32,13 +30,13 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
             metaDescription: 'الباور بانك بيخلص بسرعة ومش بيشحن زي الأول؟ 5 أخطاء يومية بتقتل بطارية الليثيوم — من سخونة العربية لشحن 0% المتكرر. الحل بالأرقام والعلم في مصر 2026.',
             keywords: 'ليه الباور بانك بيبوظ, باور بانك بيخلص بسرعة, عمر باور بانك, اخطاء شحن باور بانك, باور بانك مش بيشحن زي الاول, بطارية ليثيوم عمر افتراضي, باور بانك حرارة صيف مصر, power bank dies fast egypt, كام دورة شحن باور بانك, باور بانك اصلي ضد مقلد عمر',
             excerpt: 'باور بانك اشتريته من 6 شهور وبقى يشحن الموبايل نص شحنة بس؟ 5 أخطاء يومية بتقتل بطارية الليثيوم — وإزاي تتجنبهم.',
-            quickAnswer: 'الباور بانك بيموت بدري بسبب 5 أخطاء: (1) تفريغه لـ 0% باستمرار — ده بيدمر خلايا الليثيوم أسرع 3 مرات. (2) سيبته في عربية مقفولة صيفاً (60-70°م) — الحرارة بتقلل السعة 20% في 3 شهور. (3) شحنه بشاحن مقلّد بيطلع جهد غير مستقر. (4) استخدام Pass-through يومياً. (5) تخزينه فاضي شهور بدون شحن. الحل: اشحنه عند 20%، خزّنه بـ 50%، وابعده عن الحرارة.',
+            quickAnswer: 'الباور بانك بيفقد سعته بدري غالباً بسبب العادات مش الجهاز: أخطرها الحرارة (زي عربية مقفولة في الصيف)، وتفريغه لـ 0% باستمرار، وتخزينه فاضي شهور، والشحن بشاحن مقلّد. الحل: اشحنه قبل ما يفضى خالص، وخزّنه على حوالي 50% لو مش هتستخدمه فترة، وابعده عن الشمس والعربية المقفولة.',
             content: `<p>اشتريت باور بانك من 6 شهور وكان بيشحن الموبايل شحنتين كاملين. دلوقتي بالعافية بيشحنه مرة واحدة — ومش بتكمل. قبل ما تقول "المنتج مضروب" أو "الصيني ده بايظ"، اعرف إن جزءاً كبيراً من فقدان سعة الباور بانك المبكر سببه عادات الاستخدام اليومية مش عيب صناعة — وده نمط موثّق جيداً في أبحاث بطاريات الليثيوم وإرشادات العناية من الشركات المصنّعة.</p>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
         <strong>⚠️ تحذير سريع:</strong>
-        الباور بانك بيموت بدري بسبب 5 أخطاء: (1) تفريغه لـ 0% باستمرار — ده بيدمر خلايا الليثيوم أسرع 3 مرات. (2) سيبته في عربية مقفولة صيفاً (60-70°م) — الحرارة بتقلل السعة 20% في 3 شهور. (3) شحنه بشاحن مقلّد بيطلع جهد غير مستقر. (4) استخدام Pass-through يومياً. (5) تخزينه فاضي شهور بدون شحن. الحل: اشحنه عند 20%، خزّنه بـ 50%، وابعده عن الحرارة.
+        الباور بانك بيفقد سعته بدري غالباً بسبب العادات مش الجهاز: أخطرها الحرارة (زي عربية مقفولة في الصيف)، وتفريغه لـ 0% باستمرار، وتخزينه فاضي شهور، والشحن بشاحن مقلّد. الحل: اشحنه قبل ما يفضى خالص، وخزّنه على حوالي 50% لو مش هتستخدمه فترة، وابعده عن الشمس والعربية المقفولة.
     </p>
 </div>
 
@@ -46,7 +44,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 العادات هي اللي بتفرق:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
         الفرق بين باور بانك يعيش سنين وواحد يموت في 6 شهور نادراً ما يكون في الجهاز نفسه — الفرق في العادات.
-        <strong>الخلاصة من أبحاث خلايا الليثيوم المنشورة:</strong> الالتزام بقواعد الشحن الصحيحة بيحافظ على كفاءة البطارية فوق 85% من السعة الأصلية لسنوات، بينما التفريغ الكامل لـ 0% يومياً والشحن في حرارة العربية المرتفعة بيؤديان لفقدان ملحوظ في السعة خلال 6-8 شهور بس.
+        <strong>الخلاصة من أبحاث خلايا الليثيوم المنشورة:</strong> التفريغ الجزئي والبعد عن الحرارة بيطوّلوا عمر الخلايا بوضوح، بينما التفريغ الكامل المتكرر والحرارة العالية بيسرّعوا فقد السعة (التفاصيل بالأرقام من Battery University تحت).
     </p>
 </div>
 
@@ -60,34 +58,30 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">نمط التفريغ</th>
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">عدد الدورات المتوقع</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">العمر التقريبي</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>100% → 0% كل مرة</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">300-500 دورة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">سنة — سنة ونص</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حوالي 300 دورة</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>80% → 20% (المثالي)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,000-1,200 دورة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">3-4 سنين</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حوالي 600 دورة</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">100% → 50%</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">600-800 دورة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">سنتين — سنتين ونص</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حوالي 600–1,000 دورة</td>
         </tr>
     </tbody>
 </table>
 
-<p><strong>القاعدة الذهبية:</strong> اشحن الباور بانك لما يوصل 20% — متستناش يطفي. ده بمفرده هيضاعف عمره الافتراضي. لو عايز تفهم ليه الباور بانك مش بيشحن الموبايل بالعدد المتوقع، اقرأ <a href="/blog/power-bank-10000mah-real-capacity-myth" style="color:#2563eb;font-weight:600;">حقيقة سعة 10,000mAh الفعلية</a>.</p>
+<p><strong>القاعدة الذهبية:</strong> اشحن الباور بانك لما يوصل 20% — متستناش يطفي. حسب جدول Battery University (BU-808) لخلايا NMC، الدورات التقريبية لحد ما السعة توصل 70% بتزيد من حوالي 300 مع التفريغ الكامل لحوالي 400 لو بتشحنه عند 20%، ولحوالي 600 لو خليته بين 80% و20% — يعني ممكن تضاعف عمره. لو عايز تفهم ليه الباور بانك مش بيشحن الموبايل بالعدد المتوقع، اقرأ <a href="/blog/power-bank-10000mah-real-capacity-myth" style="color:#2563eb;font-weight:600;">حقيقة سعة 10,000mAh الفعلية</a>.</p>
 
 <h2>الخطأ #2 — سيب الباور بانك في العربية صيفاً</h2>
-<p>في صيف القاهرة والجيزة، العربية المقفولة بتوصل 60-70°م جواها. الباور بانك اللي ساكن في الكونسول أو الدرج — بيطبخ حرفياً.</p>
+<p>في صيف القاهرة والجيزة، العربية المقفولة بتسخن جداً من جوا. الباور بانك اللي ساكن في الكونسول أو الدرج — بيطبخ حرفياً.</p>
 
-<p>خلايا الليثيوم بتبدأ تتدهور بشكل دائم فوق 45°م. مش بتبوظ فجأة — بتفقد سعة تدريجياً. دراسة Battery University بتقول إن تخزين بطارية ليثيوم بشحنة 100% في حرارة 40°م بيخليها تفقد 35% من سعتها في سنة واحدة. في 60°م (حرارة عربية مصرية عادية)، الرقم ده بيوصل 40-50% في 6 شهور بس.</p>
+<p>خلايا الليثيوم بتبدأ تتدهور بشكل دائم فوق 45°م. مش بتبوظ فجأة — بتفقد سعة تدريجياً. حسب جدول Battery University (BU-808)، تخزين بطارية ليثيوم بشحنة 100% في حرارة 40°م بيخليها تفقد حوالي 35% من سعتها في سنة، وفي 60°م بتفقد حوالي 40% في 3 شهور بس.</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔥 <strong>الأعراض:</strong> الباور بانك بيسخن أكتر من الطبيعي أثناء الشحن، بينتفخ (ولو بسيط)، بيفصل فجأة عند 15-20% بدل ما يكمل لـ 5%.</li>
@@ -100,19 +94,19 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
 <h2>الخطأ #3 — شحن الباور بانك بشاحن مقلّد أو تالف</h2>
 <p>الشاحن المقلّد مش بس بطيء — ده خطير. المشكلة مش في الواط، المشكلة في استقرار الجهد. الشاحن الأصلي بيطلع 5V/3A أو 9V/2A ثابتين. المقلّد بيتذبذب بين 4.2V و5.8V — وده زي ما تدي قلب المريض صدمات كهربائية عشوائية بدل نبضات منتظمة.</p>
 
-<p>كل تذبذب في الجهد بيسبب حرارة موضعية في خلايا الليثيوم. مع التكرار اليومي، الخلايا بتفقد قدرتها على الاحتفاظ بالشحن. بعد 3-4 شهور من الشحن بشاحن مقلّد، الباور بانك ممكن يفقد 30% من سعته الأصلية — حتى لو هو نفسه أصلي 100%.</p>
+<p>كل تذبذب في الجهد بيسبب حرارة موضعية في خلايا الليثيوم. مع التكرار اليومي، الخلايا بتفقد قدرتها على الاحتفاظ بالشحن. ومع الوقت الباور بانك ممكن يفقد جزء ملحوظ من سعته — حتى لو هو نفسه أصلي.</p>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#991b1b;"><strong>⚠️ تحذير:</strong> 4 من كل 10 شواحن على OLX وFacebook Marketplace مقلّدة — حتى لو مكتوب عليها "أصلي". لو الشاحن سعره أقل من نص سعر الأصلي، 90% احتمال إنه مقلّد. استخدم شاحن من براند موثوق بضمان حقيقي.</p>
+    <p style="margin:0;color:#991b1b;"><strong>⚠️ تحذير:</strong> كتير من الشواحن على OLX وFacebook Marketplace مقلّدة — حتى لو مكتوب عليها "أصلي"، والسعر الأقل بكتير من سعر الأصلي علامة تحذير. استخدم شاحن من براند موثوق بضمان حقيقي.</p>
 </div>
 
 <h2>الخطأ #4 — استخدام Pass-through كل يوم</h2>
 <p>Pass-through يعني إنك بتشحن الباور بانك من الحيطة وفي نفس الوقت بتشحن الموبايل منه. سهل ومريح — لكن بيقتل البطارية.</p>
 
-<p>السبب فيزيائي: لما الباور بانك بيستقبل تيار (دخل) ويطلع تيار (خرج) في نفس الوقت، الحرارة الداخلية بتتضاعف. خلايا الليثيوم حساسة جداً للحرارة — كل 10°م زيادة في درجة الحرارة الداخلية بتقلل العمر الافتراضي بنسبة 15-20%.</p>
+<p>السبب فيزيائي: لما الباور بانك بيستقبل تيار (دخل) ويطلع تيار (خرج) في نفس الوقت، الحرارة الداخلية بتزيد. وخلايا الليثيوم حساسة جداً للحرارة، فالحرارة الزيادة بتقصّر عمرها.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">❌ <strong>مش مرة مش مرتين:</strong> لو بتعمل كده مرة كل أسبوع في الطوارئ، الأثر محدود. لكن لو ده عادة يومية — هتلاقي الباور بانك فقد 25% من سعته بعد 4-5 شهور.</li>
+    <li style="margin-bottom:12px;">❌ <strong>مش مرة مش مرتين:</strong> لو بتعمل كده مرة كل أسبوع في الطوارئ، الأثر محدود. لكن لو ده عادة يومية — هتلاحظ إنه بيفقد سعته أسرع.</li>
     <li style="margin-bottom:12px;">✅ <strong>البديل الذكي:</strong> اشحن الباور بانك الأول لحد ما يكمل → افصله من الكهرباء → وبعدين وصّل الموبايل فيه. خطوة واحدة زيادة — بس بتضيف سنة كاملة لعمر البطارية.</li>
 </ul>
 
@@ -121,7 +115,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
 <h2>الخطأ #5 — تخزين الباور بانك فاضي لشهور</h2>
 <p>اشتريت باور بانك للسفر. استخدمته في رحلة مرسى علم، رجعت وحطيته في الدرج — فاضي. بعد 4 شهور، طلعته ولقيته مش بيشحن خالص. إيه اللي حصل؟</p>
 
-<p>خلايا الليثيوم فيها تسريب ذاتي (Self-Discharge) — بتفقد 2-3% شهرياً حتى وهي مش متوصلة بحاجة. لو سيبت الباور بانك على 5% وحطيته في الدرج، بعد شهرين هيوصل لـ 0% الحقيقي — تحت الحد الآمن. لما الجهد ينزل تحت 2.5V لكل خلية (Deep Discharge)، الخلايا ممكن تتلف بشكل دائم ومش بتقبل شحن تاني.</p>
+<p>خلايا الليثيوم فيها تسريب ذاتي (Self-Discharge) — بتفقد نسبة صغيرة كل شهر حتى وهي مش متوصلة بحاجة. لو سيبت الباور بانك على 5% وحطيته في الدرج، بعد شهرين هيوصل لـ 0% الحقيقي — تحت الحد الآمن. لما الجهد ينزل تحت 2.5V لكل خلية (Deep Discharge)، الخلايا ممكن تتلف بشكل دائم ومش بتقبل شحن تاني.</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔋 <strong>القاعدة:</strong> قبل ما تخزّن الباور بانك لأي فترة، اشحنه لـ 50%. ده المستوى المثالي — مش 100% (ضغط على الخلايا) ومش 0% (خطر Deep Discharge).</li>
@@ -171,7 +165,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ باور بانكات أصلية بضمان حقيقي على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل الباور بانكات المذكورة <strong>أصلية 100%</strong> مع ضمان 18 شهر يشمل عيوب البطارية. لو السعة نزلت تحت 80% خلال فترة الضمان — بنبدّله. توصيل لكل المحافظات + دفع عند الاستلام.
+        كل الباور بانكات المذكورة <strong>أصلية</strong> بفاتورة وضمان كايرو فولت المكتوب (المدة والشروط موضحة في صفحة كل منتج). توصيل لكل المحافظات عادةً من 1 لـ 6 أيام عمل حسب المحافظة + دفع عند الاستلام.
     </p>
 </div>
 
@@ -179,13 +173,12 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#4b5563;">
         <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" rel="nofollow">Battery University — BU-808: How to Prolong Lithium-based Batteries (بالإنجليزية)</a></li>
-        <li><a href="https://batteryuniversity.com/article/bu-804-how-to-prolong-lithium-based-batteries" rel="nofollow">Battery University — BU-804: Temperature Effects on Lithium Cells (بالإنجليزية)</a></li>
     </ul>
 </div>`,
             faq: [
                 {
                     question: 'هل الباور بانك ممكن ينفجر لو سبته في العربية؟',
-                    answer: 'نادر جداً مع البراندات الأصلية (أنكر/Joyroom) لإن فيهم رقاقات حماية بتقطع التيار عند 60°م. لكن الباور بانكات المقلّدة (من OLX أو الرصيف) ممكن فعلاً تنتفخ أو تشتعل — لإن مفيهاش حماية حرارية. القاعدة: متسيبش أي باور بانك في عربية مقفولة صيفاً، أصلي أو مقلّد.'
+                    answer: 'نادر مع البراندات الأصلية (انكر/جوي روم) لإن فيهم دوائر حماية حرارية بتقطع الشحن لو الحرارة زادت. لكن الباور بانكات المقلّدة (من OLX أو الرصيف) ممكن فعلاً تنتفخ أو تشتعل — لإن مفيهاش حماية حرارية. القاعدة: متسيبش أي باور بانك في عربية مقفولة صيفاً، أصلي أو مقلّد.'
                 },
                 {
                     question: 'لو الباور بانك فقد نص سعته، أقدر أرجعه زي الأول؟',
@@ -193,11 +186,11 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
                 },
                 {
                     question: 'كام سنة المفروض الباور بانك يعيش؟',
-                    answer: 'الأصلي بعادات صحيحة: 3-4 سنين (800-1,200 دورة). بعادات سيئة: سنة — سنة ونص (300-400 دورة). المقلّد: 3-8 شهور بغض النظر عن العادات لإن الخلايا نفسها رديئة وممكن تكون مستعملة (Refurbished cells).'
+                    answer: 'بيختلف حسب الخلايا والاستخدام، والشركات عادةً بتقيس العمر بعدد دورات الشحن. العادات الصح — بعيد عن الحرارة ومن غير تفريغ كامل متكرر — بتطوّل عمره، والمقلّد غالباً خلاياه أضعف فبيفقد سعته أسرع. لو لاحظت إنه بقى بيشحن موبايلك أقل بكتير من الأول، أو اتنفخ، بطّل تستخدمه.'
                 },
                 {
                     question: 'هل الشحن السريع بيبوظ بطارية الباور بانك؟',
-                    answer: 'لو الباور بانك بيدعم الشحن السريع رسمياً (زي أنكر ZOLO A1681 بدعم 30W) — لا، مش بيضره. الرقاقة الداخلية بتنظم التيار. لكن لو استخدمت شاحن 65W على باور بانك أقصاه 18W — الشاحن هيطلع 18W بس (الباور بانك بيفاوض تلقائياً). المشكلة الحقيقية في الشواحن المقلّدة اللي مش بتفاوض وبتدفع جهد غير مستقر.'
+                    answer: 'لو الباور بانك بيدعم الشحن السريع رسمياً (زي انكر زولو A110E اللي بيقبل شحن لحد 20 واط حسب انكر) — لا، مش بيضره. الرقاقة الداخلية بتنظم التيار. لكن لو استخدمت شاحن 65W على باور بانك أقصاه 18W — الشاحن هيطلع 18W بس (الباور بانك بيفاوض تلقائياً). المشكلة الحقيقية في الشواحن المقلّدة اللي مش بتفاوض وبتدفع جهد غير مستقر.'
                 }
             ]
         },
@@ -207,13 +200,13 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
             metaDescription: 'Power bank losing capacity fast? 5 daily mistakes destroying lithium cells — from car heat to constant 0% drains. Science-backed fixes you can apply today in Egypt.',
             keywords: 'why power bank dies fast, power bank loses capacity, power bank battery lifespan, power bank mistakes, lithium battery degradation, power bank heat damage egypt, power bank charge cycles, how long power bank lasts, power bank not charging like before, power bank 0 percent damage',
             excerpt: 'Bought a power bank 6 months ago and it barely gives one charge now? 5 daily mistakes that kill lithium batteries — and how to avoid them.',
-            quickAnswer: 'Power banks die early due to 5 mistakes: (1) Draining to 0% constantly — this destroys lithium cells 3x faster. (2) Leaving it in a parked car during summer (60-70°C) — heat reduces capacity by 20% in 3 months. (3) Charging with a counterfeit charger that outputs unstable voltage. (4) Daily pass-through charging. (5) Storing it empty for months. The fix: recharge at 20%, store at 50%, and keep it away from heat.',
+            quickAnswer: 'A power bank usually loses capacity early because of habits, not the unit itself: the worst is heat (such as a parked car in summer), followed by draining it to 0% repeatedly, storing it empty for months and charging it with a counterfeit charger. The fix: recharge before it is empty, store it at about 50% if unused for a while, and keep it away from sun and parked cars.',
             content: `<p>You bought a power bank 6 months ago and it used to fully charge your phone twice. Now it barely manages one charge — and does not even complete it. Before you say "the product is defective" or "this cheap brand is trash," it is worth knowing that a large share of premature power bank capacity loss comes from everyday usage habits, not manufacturing defects — a pattern well documented in lithium-battery research and manufacturer care guidelines.</p>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
         <strong>⚠️ Quick Warning:</strong>
-        Power banks die early due to 5 mistakes: (1) Draining to 0% constantly — this destroys lithium cells 3x faster. (2) Leaving it in a parked car during summer (60-70°C) — heat reduces capacity by 20% in 3 months. (3) Charging with a counterfeit charger that outputs unstable voltage. (4) Daily pass-through charging. (5) Storing it empty for months. The fix: recharge at 20%, store at 50%, and keep it away from heat.
+        A power bank usually loses capacity early because of habits, not the unit itself: the worst is heat (such as a parked car in summer), followed by draining it to 0% repeatedly, storing it empty for months and charging it with a counterfeit charger. The fix: recharge before it is empty, store it at about 50% if unused for a while, and keep it away from sun and parked cars.
     </p>
 </div>
 
@@ -221,7 +214,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 It comes down to habits:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
         Whether a power bank lasts for years or dies within 6 months rarely comes down to the unit itself — it comes down to habits.
-        <strong>What published lithium-cell research shows:</strong> sticking to healthy charging practices keeps a battery above roughly 85% of its original capacity for years, whereas draining to 0% daily and charging in high in-car heat lead to noticeable capacity loss within just 6-8 months.
+        <strong>What published lithium-cell research shows:</strong> partial discharges and avoiding heat clearly extend cell life, while repeated full drains and high heat speed up capacity loss (Battery University figures below).
     </p>
 </div>
 
@@ -235,34 +228,30 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Discharge Pattern</th>
             <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Expected Cycles</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Approximate Lifespan</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;"><strong>100% → 0% every time</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">300-500 cycles</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1 — 1.5 years</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">about 300 cycles</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>80% → 20% (ideal)</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,000-1,200 cycles</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">3-4 years</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">about 600 cycles</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">100% → 50%</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">600-800 cycles</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">2 — 2.5 years</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">about 600–1,000 cycles</td>
         </tr>
     </tbody>
 </table>
 
-<p><strong>Golden Rule:</strong> Recharge your power bank when it hits 20% — do not wait until it dies. This single habit alone can double its lifespan. If you want to understand why your power bank does not charge your phone as many times as expected, read <a href="/en/blog/power-bank-10000mah-real-capacity-myth" style="color:#2563eb;font-weight:600;">The Truth About 10,000mAh Real Capacity</a>.</p>
+<p><strong>Golden Rule:</strong> Recharge your power bank when it hits 20% — do not wait until it dies. Per Battery University's BU-808 table for NMC cells, approximate cycles to 70% capacity rise from about 300 with full drains to about 400 if you recharge at 20%, and to about 600 if you keep it between 80% and 20% — roughly double. If you want to understand why your power bank does not charge your phone as many times as expected, read <a href="/en/blog/power-bank-10000mah-real-capacity-myth" style="color:#2563eb;font-weight:600;">The Truth About 10,000mAh Real Capacity</a>.</p>
 
 <h2>Mistake #2 — Leaving the Power Bank in a Parked Car During Summer</h2>
-<p>During Cairo's summer, a parked car's interior reaches 60-70°C. A power bank sitting in the center console or glove box is literally being cooked.</p>
+<p>During Cairo's summer, a parked car's interior gets extremely hot. A power bank sitting in the center console or glove box is literally being cooked.</p>
 
-<p>Lithium cells begin permanent degradation above 45°C. They do not fail suddenly — they lose capacity gradually. According to Battery University, storing a lithium battery at 100% charge in 40°C causes it to lose 35% of its capacity in one year. At 60°C (a normal Egyptian car interior), that number reaches 40-50% in just 6 months.</p>
+<p>Lithium cells begin permanent degradation above 45°C. They do not fail suddenly — they lose capacity gradually. According to Battery University's BU-808 table, storing a lithium battery at 100% charge at 40°C loses about 35% of its capacity in a year, and at 60°C it loses about 40% in just 3 months.</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔥 <strong>Symptoms:</strong> The power bank heats up more than usual during charging, shows slight swelling, or shuts off suddenly at 15-20% instead of draining to 5%.</li>
@@ -275,19 +264,19 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
 <h2>Mistake #3 — Charging with a Counterfeit or Damaged Charger</h2>
 <p>A counterfeit charger is not just slow — it is dangerous. The problem is not wattage; it is voltage stability. A genuine charger delivers a steady 5V/3A or 9V/2A. A counterfeit fluctuates between 4.2V and 5.8V — like giving a patient random electric shocks instead of regular heartbeats.</p>
 
-<p>Every voltage fluctuation causes localized heat inside the lithium cells. With daily repetition, the cells lose their ability to hold charge. After 3-4 months of charging with a counterfeit charger, a power bank can lose 30% of its original capacity — even if the bank itself is 100% genuine.</p>
+<p>Every voltage fluctuation causes localized heat inside the lithium cells. With daily repetition, the cells lose their ability to hold charge. Over time, a power bank can lose a noticeable share of its capacity — even if the bank itself is genuine.</p>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#991b1b;"><strong>⚠️ Warning:</strong> 4 out of 10 chargers on OLX and Facebook Marketplace are counterfeit — even if labeled "original." If the price is less than half the official price, there is a 90% chance it is fake. Use a charger from a trusted brand with a real warranty.</p>
+    <p style="margin:0;color:#991b1b;"><strong>⚠️ Warning:</strong> Many chargers on OLX and Facebook Marketplace are counterfeit — even if labeled "original" — and a price far below the genuine one is a warning sign. Use a charger from a trusted brand with a real warranty.</p>
 </div>
 
 <h2>Mistake #4 — Using Pass-Through Charging Daily</h2>
 <p>Pass-through means charging your power bank from the wall while simultaneously charging your phone from it. Convenient — but it kills the battery.</p>
 
-<p>The reason is physical: when a power bank receives current (input) and delivers current (output) simultaneously, internal heat doubles. Lithium cells are extremely heat-sensitive — every 10°C increase in internal temperature reduces lifespan by 15-20%.</p>
+<p>The reason is physical: when a power bank receives current (input) and delivers current (output) simultaneously, internal heat rises. Lithium cells are very heat-sensitive, so the extra heat shortens their life.</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">❌ <strong>Not once or twice:</strong> If you do this once a week in emergencies, the impact is minimal. But as a daily habit, you will find the power bank has lost 25% capacity after 4-5 months.</li>
+    <li style="margin-bottom:12px;">❌ <strong>Not once or twice:</strong> If you do this once a week in emergencies, the impact is minimal. But as a daily habit, you will notice it losing capacity faster.</li>
     <li style="margin-bottom:12px;">✅ <strong>Smart alternative:</strong> Charge the power bank first until it completes → unplug it from the wall → then connect your phone. One extra step — but it adds a full year to the battery's lifespan.</li>
 </ul>
 
@@ -296,7 +285,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
 <h2>Mistake #5 — Storing the Power Bank Empty for Months</h2>
 <p>You bought a power bank for a trip. Used it in Marsa Alam, came back, and tossed it in a drawer — empty. Four months later, you pull it out and it will not charge at all. What happened?</p>
 
-<p>Lithium cells have self-discharge — they lose 2-3% monthly even when disconnected from everything. If you leave a power bank at 5% and store it, after two months it reaches true 0% — below the safe threshold. When voltage drops below 2.5V per cell (Deep Discharge), the cells can suffer permanent damage and refuse to accept a charge again.</p>
+<p>Lithium cells have self-discharge — they lose a small amount every month even when disconnected. If you leave a power bank at 5% and store it, after two months it reaches true 0% — below the safe threshold. When voltage drops below 2.5V per cell (Deep Discharge), the cells can suffer permanent damage and refuse to accept a charge again.</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔋 <strong>The Rule:</strong> Before storing any power bank for any period, charge it to 50%. This is the ideal level — not 100% (stresses cells) and not 0% (risks Deep Discharge).</li>
@@ -346,7 +335,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic Power Banks with Real Warranty on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All listed power banks are <strong>100% authentic</strong> with an 18-month warranty that covers battery defects. If capacity drops below 80% during the warranty period — we replace it. Delivery to all governorates + cash on delivery.
+        All listed power banks are <strong>genuine</strong>, sold with an invoice and CairoVolt's written store warranty (duration and terms shown on each product page). Delivery to every governorate, commonly 1–6 business days depending on governorate, with cash on delivery.
     </p>
 </div>
 
@@ -354,13 +343,12 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 References:</p>
     <ul style="margin:0;padding-left:20px;color:#4b5563;">
         <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" rel="nofollow">Battery University — BU-808: How to Prolong Lithium-based Batteries</a></li>
-        <li><a href="https://batteryuniversity.com/article/bu-804-how-to-prolong-lithium-based-batteries" rel="nofollow">Battery University — BU-804: Temperature Effects on Lithium Cells</a></li>
     </ul>
 </div>`,
             faq: [
                 {
                     question: 'Can a power bank explode if left in a car?',
-                    answer: 'Extremely rare with genuine brands (Anker/Joyroom) because they have protection chips that cut current at 60°C. However, counterfeit power banks (from OLX or street vendors) can indeed swell or ignite — they lack thermal protection. Rule: never leave any power bank in a parked car during summer, genuine or not.'
+                    answer: 'Rare with genuine brands (Anker/Joyroom) because they have thermal protection circuits that cut charging when temperature rises too far. However, counterfeit power banks (from OLX or street vendors) can indeed swell or ignite — they lack thermal protection. Rule: never leave any power bank in a parked car during summer, genuine or not.'
                 },
                 {
                     question: 'If my power bank lost half its capacity, can I restore it?',
@@ -368,11 +356,11 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
                 },
                 {
                     question: 'How many years should a power bank last?',
-                    answer: 'Genuine with proper habits: 3-4 years (800-1,200 cycles). With bad habits: 1 — 1.5 years (300-400 cycles). Counterfeit: 3-8 months regardless of habits, because the cells themselves are poor quality and may be refurbished (used cells repackaged as new).'
+                    answer: 'It depends on the cells and how you use it; makers usually rate lifespan in charge cycles. Good habits — keeping it away from heat and avoiding repeated full drains — extend its life, while counterfeits usually have weaker cells that lose capacity faster. If it now charges your phone far less than before, or it has swollen, stop using it.'
                 },
                 {
                     question: 'Does fast charging damage the power bank battery?',
-                    answer: 'If the power bank officially supports fast charging (like Anker ZOLO A1681 with 30W support) — no, it does not harm it. The internal chip regulates current. If you use a 65W charger on a bank rated for 18W max, the charger will deliver only 18W (the bank auto-negotiates). The real problem is counterfeit chargers that skip negotiation and push unstable voltage.'
+                    answer: 'If the power bank officially supports fast charging (like the Anker ZOLO A110E, which Anker lists for up to 20W input) — no, it does not harm it. The internal chip regulates current. If you use a 65W charger on a bank rated for 18W max, the charger will deliver only 18W (the bank auto-negotiates). The real problem is counterfeit chargers that skip negotiation and push unstable voltage.'
                 }
             ]
         }

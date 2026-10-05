@@ -4,7 +4,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
     slug: 'cpap-medical-power-bank-egypt-safety-first',
     category: 'buying-guide',
     publishDate: '2026-06-19',
-    modifiedDate: '2026-06-19',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         'anker-521-powerhouse',
@@ -28,7 +28,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
             metaDescription: 'دليل مهندس لاختيار باور بانك أو محطة طاقة لجهاز CPAP في مصر. نشرح حسابات السعة، خطورة الموجة المعدلة، وأفضل الخيارات الآمنة بالأسعار. تابع التفاصيل بمصر.',
             keywords: 'باور بانك CPAP, شاحن جهاز تنفس, باور بانك انقطاع كهرباء CPAP, محطة طاقة CPAP مصر, CPAP battery backup Egypt, باور بانك طبي, شحن CPAP بدون كهرباء, انكر محطة طاقة CPAP, باور بانك pure sine wave, UPS لجهاز CPAP',
             excerpt: 'مريض انقطاع التنفس أثناء النوم محتاج حل طاقة احتياطي لجهاز الـ CPAP. الدليل ده بيشرح حسابات السعة والموجة النقية وأخطار الخيارات الرخيصة.',
-            quickAnswer: 'جهاز CPAP بيستهلك 30-60 واط في الساعة (بدون مسخن) و80-100 واط (مع مسخن). لليلة كاملة (8 ساعات بدون مسخن) محتاج محطة طاقة بسعة 400Wh+ بمخرج Pure Sine Wave — مش باور بانك عادي. الموجة المعدلة (Modified Sine Wave) ممكن تحرق موتور الجهاز. ترشيحنا: محطة طاقة 500Wh+ بخرج AC نقي. ❌ الباور بانك العادي (5V USB) مش بيشغّل CPAP. ❌ إنفرتر رخيص بموجة معدلة = خطر على الجهاز والمريض.',
+            quickAnswer: 'جهاز CPAP بيسحب حوالي 30–60 واط من غير المرطّب و80–100 واط معاه. لليلة 8 ساعات من غير مرطّب محتاج محطة طاقة سعتها 400Wh أو أكتر بخرج AC Pure Sine Wave — الباور بانك العادي (5V USB) مش بيشغّله، والإنفرتر بالموجة المعدلة ممكن يضر الجهاز. واستشير طبيبك قبل أي حل.',
             content: `<p>الساعة 2 الليل. إنت نايم — أو بتحاول تنام — وفجأة الكهرباء بتقطع. لو إنت شخص عادي، أقصى خسارة إن التكييف يقف وتصحى عرقان. بس لو إنت واحد من 15-20% من المصريين البالغين اللي عندهم انقطاع تنفس أثناء النوم (Obstructive Sleep Apnea — OSA) وبتعتمد على جهاز CPAP عشان تفضل بتتنفس وإنت نايم — قطع الكهرباء مش إزعاج. ده خطر صحي حقيقي. الجهاز بيقف، ممرات الهواء بتقفل، الأكسجين بينخفض، والضغط على القلب بيزيد. ودي مش مبالغة — ده كلام الجمعية الأمريكية لطب النوم (AASM) والأبحاث اللي بتقول إن ليلة واحدة بدون CPAP بتزوّد ضغط الدم بمعدل 10-15 mmHg وبتضاعف خطر عدم انتظام ضربات القلب (cardiac arrhythmia).</p>
 
 <p>في مصر — وبالذات في الصيف — الكهرباء بتقطع. مش بنقول ممكن. بنقول بتقطع. وسؤال "إيه الحل لجهاز الـ CPAP لما الكهرباء تقطع؟" بقى من أكتر الأسئلة اللي بتوصلنا. المشكلة إن الإجابة مش بسيطة زي "اشتري باور بانك" — لأن معظم الباور بانكات العادية مش بتشغّل CPAP أصلاً، والاختيار الغلط ممكن يحرق الجهاز اللي سعره 15,000-40,000 جنيه. المقال ده هيشرحلك بالأرقام والفيزياء: إيه المطلوب بالظبط، إيه الخطر الحقيقي، وإيه أحسن خيار لميزانيتك.</p>
@@ -92,10 +92,10 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 </ul>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#991b1b;"><strong>⚠️ تحذير حقيقي:</strong> أي إنفرتر أو محطة طاقة بموجة Modified Sine Wave على جهاز CPAP = خطر مزدوج: (1) تلف الموتور وبورد التحكم — إصلاح أو استبدال بيكلف 5,000-15,000ج. (2) توقف الجهاز في نص الليل بدون تنبيه — وده الخطر الصحي الحقيقي. <strong>كل شركات CPAP الكبرى (ResMed, Philips, Fisher & Paykel) بتحذّر صراحةً في كتيّب المستخدم من استخدام Modified Sine Wave.</strong></p>
+    <p style="margin:0;color:#991b1b;"><strong>⚠️ تحذير حقيقي:</strong> أي إنفرتر أو محطة طاقة بموجة Modified Sine Wave على جهاز CPAP = خطر مزدوج: (1) تلف الموتور وبورد التحكم — وإصلاحه أو استبداله مكلف. (2) توقف الجهاز في نص الليل بدون تنبيه — وده الخطر الصحي الحقيقي. <strong>راجع كتيّب جهازك ومتطلبات الكهرباء فيه قبل ما تشغّله على أي إنفرتر أو محطة طاقة.</strong></p>
 </div>
 
-<p>المشكلة في مصر إن إنفرترات "الموجة المعدلة" أرخص بنسبة 40-60% من الموجة النقية. وكتير من البائعين بيكتبوا "Pure Sine Wave" على المنتج وهو في الحقيقة Modified — خصوصاً المنتجات اللي بأقل من 500 جنيه على OLX أو الأسواق. طريقة التأكد الوحيدة: (1) اشتري من مصدر موثوق بضمان، (2) تأكد من رقم THD في الـ datasheet — لازم يكون أقل من 3%.</p>
+<p>المشكلة في مصر إن إنفرترات "الموجة المعدلة" أرخص من الموجة النقية. وكتير من البائعين بيكتبوا "Pure Sine Wave" على المنتج وهو في الحقيقة Modified — خصوصاً المنتجات اللي بأقل من 500 جنيه على OLX أو الأسواق. طريقة التأكد الوحيدة: (1) اشتري من مصدر موثوق بضمان، (2) تأكد من رقم THD في الـ datasheet — لازم يكون أقل من 3%.</p>
 
 <h2>حسابات السعة — كام Wh محتاج عشان الـ CPAP يكمّل الليلة؟</h2>
 
@@ -166,7 +166,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 <h2>5 أخطاء قاتلة بيعملها مرضى CPAP في مصر — وإزاي تتجنبها</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ 1: شراء إنفرتر بدون التأكد من نوع الموجة.</strong> في مصر، 70%+ من الإنفرترات المتاحة في الأسواق Modified Sine Wave حتى لو مكتوب "Pure". الحل: اشتري من وكيل معتمد + تأكد من رقم THD في الـ datasheet (لازم أقل من 3%).</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ 1: شراء إنفرتر بدون التأكد من نوع الموجة.</strong> في مصر، كتير من الإنفرترات المتاحة في الأسواق Modified Sine Wave حتى لو مكتوب "Pure". الحل: اشتري من بائع بيديك فاتورة وضمان مكتوب + تأكد من رقم THD في الـ datasheet (لازم أقل من 3%).</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ 2: حساب السعة بدون هامش أمان.</strong> لو جهازك بيستهلك 40W × 8 ساعات = 320Wh — متشتريش محطة 320Wh. الكفاءة مش 100%. اشتري 400Wh+ على الأقل. الـ 15-20% الزيادة = ليلة نوم كاملة بدل ما تصحى الساعة 4 الفجر والجهاز واقف.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ 3: تشغيل المسخن (Humidifier) على البطارية.</strong> المسخن لوحده بيستهلك 30-50W إضافية. ده ممكن يخلّي البطارية تفضي في نص الليل. لو الكهرباء قطعت — أطفئ المسخن واستخدم الجهاز جاف لحين عودة الكهرباء.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ 4: عدم اختبار النظام قبل ما تحتاجه.</strong> أسوأ وقت تكتشف إن المحطة مش بتشغّل الجهاز هو الساعة 2 الليل. قبل ما تعتمد عليها: وصّل الـ CPAP بالمحطة وشغّله ساعتين وإنت صاحي. تأكد إن الموتور بيشتغل بدون صوت غريب، الضغط ثابت، ومفيش تنبيه خطأ على الشاشة.</li>
@@ -186,7 +186,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        محطات الطاقة المتنقلة من <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">انكر</a> متوفرة بضمان 18 شهر + توصيل لكل المحافظات. <strong>استشر طبيبك أولاً</strong> عن إعدادات جهازك، ثم تواصل معانا عبر واتساب لنساعدك تختار السعة المناسبة.
+        محطات الطاقة المتنقلة من <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">انكر</a> متوفرة بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات. <strong>استشر طبيبك أولاً</strong> عن إعدادات جهازك، ثم تواصل معانا عبر واتساب لنساعدك تختار السعة المناسبة.
     </p>
 </div>
 
@@ -194,8 +194,6 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
         <li><a href="https://aasm.org/resources/factsheets/sleepapnea.pdf" rel="nofollow">AASM — Sleep Apnea Fact Sheet</a></li>
-        <li><a href="https://www.resmed.com/en-us/support/product-support/troubleshooting/" rel="nofollow">ResMed — Power Requirements & Troubleshooting</a></li>
-        <li><a href="https://www.usa.philips.com/healthcare/product/HC1137985" rel="nofollow">Philips — DreamStation Battery Guide</a></li>
     </ul>
 </div>`,
             faq: [
@@ -223,7 +221,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
             metaDescription: 'Engineer\'s guide to choosing a battery backup for CPAP machines in Egypt. We explain capacity math, pure sine wave requirements, and the safest options with...',
             keywords: 'CPAP battery backup Egypt, CPAP power bank, portable power station CPAP, pure sine wave CPAP, CPAP power outage Egypt, sleep apnea battery backup, CPAP UPS Egypt, Anker power station CPAP, CPAP modified sine wave danger, BiPAP battery backup',
             excerpt: 'Sleep apnea patients need a reliable battery backup for their CPAP machine. This guide covers capacity calculations, pure sine wave requirements, and the dangers of cheap alternatives.',
-            quickAnswer: 'A CPAP machine draws 30-60W per hour (without humidifier) or 80-100W (with humidifier). For a full 8-hour night without the humidifier, you need a 400Wh+ portable power station with a Pure Sine Wave AC output — not a regular USB power bank. Modified Sine Wave inverters can damage the motor. Our recommendation: a 500Wh+ pure sine wave power station. ❌ Regular USB power banks cannot run CPAP machines. ❌ Cheap modified sine wave inverters risk destroying the device and endangering the patient.',
+            quickAnswer: 'A CPAP machine draws about 30–60W without a humidifier and 80–100W with one. For an 8-hour night without the humidifier you need a 400Wh+ power station with a Pure Sine Wave AC output — a regular 5V USB power bank cannot run it, and a modified sine wave inverter can damage the device. Consult your doctor first.',
             content: `<p>It's 2 AM. You're asleep — or trying to be — when the power goes out. If you're an average person, the worst that happens is the AC stops and you wake up sweaty. But if you're among the estimated 15-20% of Egyptian adults with Obstructive Sleep Apnea (OSA) who depend on a CPAP machine to keep breathing through the night — a power outage isn't just an inconvenience. It's a genuine health risk. The machine stops, your airway collapses, blood oxygen drops, and cardiac stress spikes. This isn't hyperbole — the American Academy of Sleep Medicine (AASM) and peer-reviewed research confirm that a single night without CPAP can raise blood pressure by 10-15 mmHg and double the risk of cardiac arrhythmia.</p>
 
 <p>In Egypt — especially during summer — power outages happen. Not "might happen." They happen. And "What do I do about my CPAP when the power goes out?" has become one of the most common questions we receive. The problem is that the answer isn't as simple as "buy a power bank" — because most regular power banks can't run a CPAP at all, and the wrong choice can fry a machine worth 15,000-40,000 EGP. This article will explain, with real numbers and physics, exactly what you need, what the real dangers are, and the best option for your budget.</p>
@@ -287,10 +285,10 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 </ul>
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
-    <p style="margin:0;color:#991b1b;"><strong>⚠️ Critical Warning:</strong> Any Modified Sine Wave inverter or power station connected to a CPAP machine poses a dual risk: (1) Motor and control board damage — repair or replacement costs 5,000-15,000 EGP. (2) Silent mid-night shutdown — the real health danger. <strong>Every major CPAP manufacturer (ResMed, Philips, Fisher & Paykel) explicitly warns against Modified Sine Wave in their user manuals.</strong></p>
+    <p style="margin:0;color:#991b1b;"><strong>⚠️ Critical Warning:</strong> Any Modified Sine Wave inverter or power station connected to a CPAP machine poses a dual risk: (1) Motor and control board damage — repair or replacement is expensive. (2) Silent mid-night shutdown — the real health danger. <strong>Check your device manual and its power requirements before running it on any inverter or power station.</strong></p>
 </div>
 
-<p>The problem in Egypt is that modified sine wave inverters are 40-60% cheaper than pure sine wave units. Many sellers label their products "Pure Sine Wave" when they're actually modified — especially products under 500 EGP on OLX or local markets. The only way to verify: (1) Buy from an authorized dealer with warranty, (2) Check the THD specification in the datasheet — it must be under 3%.</p>
+<p>The problem in Egypt is that modified sine wave inverters are cheaper than pure sine wave units. Many sellers label their products "Pure Sine Wave" when they're actually modified — especially products under 500 EGP on OLX or local markets. The only way to verify: (1) Buy from a seller that gives an invoice and a written warranty, (2) Check the THD specification in the datasheet — it must be under 3%.</p>
 
 <h2>Capacity Math — How Many Wh Do You Need for a Full Night?</h2>
 
@@ -361,7 +359,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 <h2>5 Critical Mistakes CPAP Patients Make in Egypt — and How to Avoid Them</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">❌ <strong>Mistake 1: Buying an inverter without verifying the waveform type.</strong> In Egypt, 70%+ of inverters available in markets are Modified Sine Wave even when labeled "Pure." The fix: buy from an authorized dealer with warranty + verify the THD number in the datasheet (must be under 3%).</li>
+    <li style="margin-bottom:16px;">❌ <strong>Mistake 1: Buying an inverter without verifying the waveform type.</strong> In Egypt, many inverters available in markets are Modified Sine Wave even when labeled "Pure." The fix: buy from a seller that gives an invoice and a written warranty + verify the THD number in the datasheet (must be under 3%).</li>
     <li style="margin-bottom:16px;">❌ <strong>Mistake 2: Calculating capacity without a safety margin.</strong> If your machine draws 40W × 8 hours = 320Wh — don't buy a 320Wh station. Efficiency isn't 100%. Buy 400Wh+ minimum. That extra 15-20% is the difference between a full night's sleep and waking up at 4 AM with a dead machine.</li>
     <li style="margin-bottom:16px;">❌ <strong>Mistake 3: Running the humidifier on battery power.</strong> The humidifier alone draws an additional 30-50W. This can drain the battery by mid-night. If the power is out — turn off the humidifier and run the machine dry until power returns.</li>
     <li style="margin-bottom:16px;">❌ <strong>Mistake 4: Not testing the system before you need it.</strong> The worst time to discover your power station can't run the machine is at 2 AM. Before relying on it: connect your CPAP to the power station and run it for 2 hours while you're awake. Verify the motor runs without unusual noise, pressure is stable, and there are no error alerts on the screen.</li>
@@ -381,7 +379,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Portable power stations from <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker</a> are available with 18-month warranty + delivery across all governorates. <strong>Consult your doctor first</strong> about your machine's settings, then contact us via WhatsApp to help you choose the right capacity.
+        Portable power stations from <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker</a> are available with CairoVolt's written store warranty (duration shown on each product page) + delivery across all governorates. <strong>Consult your doctor first</strong> about your machine's settings, then contact us via WhatsApp to help you choose the right capacity.
     </p>
 </div>
 
@@ -389,8 +387,6 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 References:</p>
     <ul style="margin:0;padding-left:20px;color:#6b7280;">
         <li><a href="https://aasm.org/resources/factsheets/sleepapnea.pdf" rel="nofollow">AASM — Sleep Apnea Fact Sheet</a></li>
-        <li><a href="https://www.resmed.com/en-us/support/product-support/troubleshooting/" rel="nofollow">ResMed — Power Requirements & Troubleshooting</a></li>
-        <li><a href="https://www.usa.philips.com/healthcare/product/HC1137985" rel="nofollow">Philips — DreamStation Battery Guide</a></li>
     </ul>
 </div>`,
             faq: [

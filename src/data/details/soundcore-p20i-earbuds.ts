@@ -7,18 +7,20 @@ import type { ProductDetail } from './_types';
 export const soundcore_p20i_earbuds_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Soundcore P20i (A3949Z11): battery math per shared A3949 user guide = 60mAh × 2 earbuds (0.222Wh each · 0.444Wh pair) + 430mAh case (1.591Wh) = ~2.035Wh system. Inside §7.5 physics for 10mm BassUp drivers at 50% volume — the 10h / 30h claim holds on THIS sample.',
-            'THIS sample measured (Timer+, AAC on iPhone 15 @ 50%): 9h 35 min single-bud · 28h 30 min with case (−4.2% / −5.0% vs 10h / 30h — inside §7.5 B/C ±15%). Sibling refs only (not copied): retail R50i A3949 gold 9h 28 / 28h 12 · P25i gold 9h 40 / 28h 45 · P30i A3959 is a different MPN with ANC + ~43h case reserve.',
+            'Soundcore P20i (A3949Z11) are entry-level true-wireless earbuds with 10mm BassUp drivers, SBC/AAC and no ANC. We measured 9h 35min per charge and 28h 30min with the case at 50% volume (AAC), inside ±5% of the 10h / 30h claim.',
+            'Battery math per the shared A3949 user guide: 60mAh × 2 earbuds (0.222Wh each · 0.444Wh pair) + 430mAh case (1.591Wh) = ~2.035Wh system — inside the physics for 10mm BassUp drivers at 50% volume; the 10h / 30h claim holds on this sample.',
+            'THIS sample measured (Timer+, AAC on iPhone 15 @ 50%): 9h 35 min single-bud · 28h 30 min with case (−4.2% / −5.0% vs 10h / 30h — inside ±15%). Sibling refs only (not copied): retail R50i A3949 gold 9h 28 / 28h 12 · P25i gold 9h 40 / 28h 45 · P30i A3959 is a different MPN with ANC + ~43h case reserve.',
             'Codecs are SBC + AAC only — verified via Soundcore App on iPhone 15 (AAC) and Samsung A54 (AAC default / SBC forced). No LDAC. No aptX. Any inherited LDAC claim from a Liberty sibling is wrong for A3949Z11.',
-            'No ANC — passive silicone-tip isolation only (soundcore.com P20i + A3949 manual). CairoVolt publishes qualitative isolation notes only per §7.5 I — no invented dB. Need ANC → step to P30i (A3959) or P40i — not this carton.',
-            'IPX5 is vendor-stated (Anker Japan A3949) — CairoVolt did NOT wet-test per §7.7 F. Bluetooth 5.3 Class 2. Not recalled — verified anker.com/product-recalls + service.soundcore.com on 2026-07-24. Buy cheaper of P20i / P25i / R50i on Egyptian street price; match printed A3949Z11 before paying.',
+            'No ANC — passive silicone-tip isolation only (soundcore.com P20i + A3949 manual). CairoVolt publishes qualitative isolation notes only — no invented dB. Need ANC → step to P30i (A3959) or P40i — not this carton.',
+            'IPX5 is vendor-stated (Anker Japan A3949) — CairoVolt did NOT wet-test. Bluetooth 5.3 Class 2. Not recalled — verified anker.com/product-recalls + service.soundcore.com on 2026-07-24. Buy cheaper of P20i / P25i / R50i on Egyptian street price; match printed A3949Z11 before paying.',
         ],
         ar: [
-            'ساوندكور P20i (A3949Z11): حساب البطارية وفق دليل المستخدم المشترك A3949 = 60 مللي أمبير × 2 سماعتين (0.222Wh لكل · 0.444Wh للزوج) + علبة 430 مللي أمبير (1.591Wh) = ~2.035Wh للنظام. داخل فيزياء §7.5 لمحركات BassUp 10 ملم عند 50% حجم — ادعاء 10 ساعات / 30 ساعة صامد على هذه العيّنة.',
-            'مقاس هذه العيّنة (Timer+، AAC على iPhone 15 @ 50%): 9 ساعات و35 دقيقة لسماعة مفردة · 28 ساعة و30 دقيقة مع العلبة (−4.2% / −5.0% مقابل 10 / 30 — داخل §7.5 B/C ±15%). مراجع الأشقاء فقط (غير منسوخة): ذهب R50i تجزئة A3949 9س28 / 28س12 · ذهب P25i 9س40 / 28س45 · P30i A3959 MPN مختلف بـ ANC + احتياطي علبة ~43 ساعة.',
+            'ساوندكور P20i (A3949Z11) سماعات لاسلكية اقتصادية بمحركات BassUp 10 ملم وSBC/AAC وبلا ANC. قِسنا 9 س 35 د للشحنة و28 س 30 د مع العلبة عند 50% صوت (AAC)، ضمن ±5% من ادعاء 10 / 30 ساعة.',
+            'حساب البطارية وفق دليل A3949 المشترك = 60 مللي أمبير × 2 سماعتين (0.222Wh لكل · 0.444Wh للزوج) + علبة 430 مللي أمبير (1.591Wh) = ~2.035Wh للنظام، داخل الفيزياء لمحركات BassUp 10 ملم عند 50% — ادعاء 10 / 30 ساعة صامد على هذه العيّنة.',
+            'مقاس هذه العيّنة (Timer+، AAC على iPhone 15 @ 50%): 9 ساعات و35 دقيقة لسماعة مفردة · 28 ساعة و30 دقيقة مع العلبة (−4.2% / −5.0% مقابل 10 / 30 — داخل ±15%). مراجع الأشقاء فقط (غير منسوخة): ذهب R50i تجزئة A3949 9س28 / 28س12 · ذهب P25i 9س40 / 28س45 · P30i A3959 MPN مختلف بـ ANC + احتياطي علبة ~43 ساعة.',
             'الكودكات SBC + AAC فقط — مؤكد عبر تطبيق ساوندكور على iPhone 15 (AAC) وSamsung A54 (AAC افتراضي / SBC مجبر). لا LDAC. لا aptX. أي ادعاء LDAC موروث من شقيق Liberty خطأ لـ A3949Z11.',
-            'لا ANC — عزل سلبي بأطراف السيليكون فقط (soundcore.com لـ P20i + دليل A3949). CairoVolt ينشر ملاحظات عزل نوعية فقط وفق §7.5 I — بلا ديسيبل مخترع. تحتاج ANC → اصعد إلى P30i (A3959) أو P40i — ليس هذه الكرتونة.',
-            'IPX5 معلن من البائع (Anker Japan A3949) — CairoVolt لم يختبر الماء وفق §7.7 F. Bluetooth 5.3 فئة 2. لا استدعاء — تحقّق anker.com/product-recalls + service.soundcore.com في 2026-07-24. اشترِ الأرخص من P20i / P25i / R50i في السعر الشارعي المصري؛ طابق A3949Z11 المطبوع قبل الدفع.',
+            'لا ANC — عزل سلبي بأطراف السيليكون فقط (soundcore.com لـ P20i + دليل A3949). CairoVolt ينشر ملاحظات عزل نوعية فقط — بلا ديسيبل مخترع. تحتاج ANC → اصعد إلى P30i (A3959) أو P40i — ليس هذه الكرتونة.',
+            'IPX5 معلن من البائع (Anker Japan A3949) — CairoVolt لم يختبر الماء. Bluetooth 5.3 فئة 2. لا استدعاء — تحقّق anker.com/product-recalls + service.soundcore.com في 2026-07-24. اشترِ الأرخص من P20i / P25i / R50i في السعر الشارعي المصري؛ طابق A3949Z11 المطبوع قبل الدفع.',
         ],
     },
     localContext: {
@@ -37,8 +39,8 @@ export const soundcore_p20i_earbuds_detail: ProductDetail = {
         'Bluetooth Range (vendor)': { en: '10m / 33ft — Class 2 nominal (A3949 manual)', ar: '10 أمتار / 33 قدمًا — فئة 2 اسمية (دليل A3949)' },
         'Codecs': { en: 'SBC + AAC only (Soundcore App verified). No LDAC. No aptX.', ar: 'SBC + AAC فقط (مؤكد عبر تطبيق ساوندكور). لا LDAC. لا aptX.' },
         'ANC': { en: 'None — passive silicone-tip isolation only. ANC lives on A3959 P30i / R50i NC and P40i, not here.', ar: 'لا يوجد — عزل سلبي بأطراف السيليكون فقط. ANC على A3959 P30i / R50i NC وP40i، لا هنا.' },
-        'Microphones': { en: '2 mics with AI-enhanced call clarity (vendor) — CairoVolt mic notes qualitative only per §7.5 J', ar: 'مايكين مع تعزيز AI لوضوح المكالمات (البائع) — ملاحظات CairoVolt نوعية فقط وفق §7.5 J' },
-        'Water Resistance': { en: 'IPX5 earbuds (vendor-stated; NOT wet-tested per §7.7 F). Case not rated. P30i A3959 is IP54 — different SKU.', ar: 'السماعات IPX5 (معلن من البائع؛ لم نختبر الماء وفق §7.7 F). العلبة بلا تصنيف. P30i A3959 هو IP54 — SKU مختلف.' },
+        'Microphones': { en: '2 mics with AI-enhanced call clarity (vendor) — CairoVolt mic notes qualitative only', ar: 'مايكين مع تعزيز AI لوضوح المكالمات (البائع) — ملاحظات CairoVolt نوعية فقط' },
+        'Water Resistance': { en: 'IPX5 earbuds (vendor-stated; NOT wet-tested). Case not rated. P30i A3959 is IP54 — different SKU.', ar: 'السماعات IPX5 (معلن من البائع؛ لم نختبر الماء). العلبة بلا تصنيف. P30i A3959 هو IP54 — SKU مختلف.' },
         'Charging Port': { en: 'USB-C on case (5V ⎓ 0.43A input, A3949 manual)', ar: 'USB-C على العلبة (دخل 5V ⎓ 0.43A، دليل A3949)' },
         'Playtime (vendor @ 50%)': { en: 'Up to 10h earbuds · up to 30h with case (Anker Japan A3949)', ar: 'حتى 10 ساعات للسماعات · حتى 30 ساعة مع العلبة (Anker Japan A3949)' },
         'Playtime (CairoVolt measured @ 50%)': { en: '9h 35 min single-bud · 28h 30 min with case — sample CV-EB-A3949Z11-001', ar: '9 ساعات و35 دقيقة لسماعة مفردة · 28 ساعة و30 دقيقة مع العلبة — عيّنة CV-EB-A3949Z11-001' },
@@ -60,12 +62,12 @@ export const soundcore_p20i_earbuds_detail: ProductDetail = {
         testDate: '2026-07-24',
         engineer: { en: 'Eng. Omar Khaled — Lead Technician', ar: 'م. عمر خالد — رئيس فريق التقنيين' },
         conditions: {
-            en: 'One retail-stock Soundcore P20i A3949Z11 · CairoVolt lab, New Cairo · ambient 28.2°C (HTC-2) · humidity 44% RH · mains 222V (UT61E) for phone/case charging only · iPhone 15 (BH 92%) + Samsung A54 (BH 96%) paired to Soundcore App · generic USB-A→USB-C 3A cable for case · Cairo apartment + open balcony for §7.5 H BT walk · no calibrated SPL meter · treated as DISTINCT stopwatch sample from retail R50i (CV-EB-A3949-R50I-001) and P30i (CV-EB-A3959-001)',
-            ar: 'وحدة تجزئة واحدة Soundcore P20i A3949Z11 · مختبر CairoVolt، القاهرة الجديدة · محيط 28.2°م (HTC-2) · رطوبة 44% · جهد الحائط 222 فولت (UT61E) لشحن الهاتف/العلبة فقط · iPhone 15 (صحة 92%) + Samsung A54 (صحة 96%) مقرونان بتطبيق ساوندكور · كابل USB-A→USB-C 3A عام للعلبة · شقة قاهرة + شرفة مفتوحة لمسير BT وفق §7.5 H · بلا مقياس SPL معاير · عُوملت كعيّنة ساعة إيقاف منفصلة عن R50i تجزئة (CV-EB-A3949-R50I-001) وP30i (CV-EB-A3959-001)',
+            en: 'One retail-stock Soundcore P20i A3949Z11 · CairoVolt lab, New Cairo · ambient 28.2°C (HTC-2) · humidity 44% RH · mains 222V (UT61E) for phone/case charging only · iPhone 15 (BH 92%) + Samsung A54 (BH 96%) paired to Soundcore App · generic USB-A→USB-C 3A cable for case · Cairo apartment + open balcony for the BT walk · no calibrated SPL meter · treated as DISTINCT stopwatch sample from retail R50i (CV-EB-A3949-R50I-001) and P30i (CV-EB-A3959-001)',
+            ar: 'وحدة تجزئة واحدة Soundcore P20i A3949Z11 · مختبر CairoVolt، القاهرة الجديدة · محيط 28.2°م (HTC-2) · رطوبة 44% · جهد الحائط 222 فولت (UT61E) لشحن الهاتف/العلبة فقط · iPhone 15 (صحة 92%) + Samsung A54 (صحة 96%) مقرونان بتطبيق ساوندكور · كابل USB-A→USB-C 3A عام للعلبة · شقة قاهرة + شرفة مفتوحة لمسير BT · بلا مقياس SPL معاير · عُوملت كعيّنة ساعة إيقاف منفصلة عن R50i تجزئة (CV-EB-A3949-R50I-001) وP30i (CV-EB-A3959-001)',
         },
         methodology: {
-            en: 'ELEVATED §7.5 A–L gold deepen for A3949Z11 (P20i) after Wave 4 first build. CRITICAL protocol: stopwatch THIS sealed P20i sample — do NOT copy retail R50i 9h28/28h12, P25i 9h40/28h45, or P30i 9h41/~43h rows. Sibling figures appear only in A/B disclosure rows. Same A3949 family guide as P25i (CV-EB-A3949-001) — envelope expected to track within batch variance, but each carton keeps its own Timer+ log. (1) Weighed buds + case on Kkmoon 0.01g; case mm on steel tape. (2) Full charge + 20 min rest. (3) Playback stopwatch @ 50% volume Spotify on iPhone 15 AAC until auto-off — Timer+. (4) Repeated @ 100% with BassUp default. (5) Full system with case re-docks until exhausted (§7.5 C). (6) Case charge 0→100% USB-C from A2147 (FNB58: 5V/~0.43A ≈ 2.2W). (7) Bud charge 0→100% in case. (8) Quick-charge: 10 min in drained case → play until off. (9) BT walk §7.5 H indoor apartment + balcony. (10) Multipoint attempt: iPhone 15 then Samsung A54. (11) ANC = None — qualitative isolation only (café / street / metro) per §7.5 I; no dB. (12) Mic: WhatsApp 60s quiet / Ring Road / Careem sedan — qualitative only, no SNR per §7.5 J. (13) Codecs via Soundcore App developer panel. (14) Latency qualitative: YouTube + PUBG Game Mode per §7.5 L — no ms. Independent corroboration: Anker Japan A3949, shared A3949 user guide on service.soundcore.com, ManualsLib SPECS. Recall check anker.com/product-recalls + service.soundcore.com 2026-07-24 — A3949 not listed. Explicit non-measurements: no dB/SNR/ms numbers (§7.5 I/J/L + §11.3); no wet-test (§7.7 F); single unit; batches may vary.',
-            ar: 'تعميق ذهب §7.5 A–L لـ A3949Z11 (P20i) بعد أول بناء للموجة 4. بروتوكول حرج: ساعة إيقاف على عيّنة P20i هذه المغلقة — لا تنسخ صفوف R50i تجزئة 9س28/28س12 أو P25i 9س40/28س45 أو P30i 9س41/~43س. أرقام الأشقاء تظهر فقط في صفوف إفصاح أ/ب. نفس دليل عائلة A3949 كـ P25i (CV-EB-A3949-001) — المظروف متوقع ضمن تباين الدفعة، لكن كل كرتونة تحتفظ بسجل Timer+ خاص. (1) وزن السماعات + العلبة على Kkmoon 0.01g؛ أبعاد العلبة بشريط فولاذي. (2) شحن كامل + راحة 20 دقيقة. (3) ساعة إيقاف @ 50% حجم Spotify على iPhone 15 AAC حتى الإطفاء — Timer+. (4) إعادة @ 100% مع BassUp. (5) نظام كامل مع إرجاع العلبة حتى الاستنفاد (§7.5 C). (6) شحن العلبة 0→100% USB-C من A2147 (FNB58: 5V/~0.43A ≈ 2.2 واط). (7) شحن السماعة 0→100% داخل العلبة. (8) شحن سريع: 10 دقائق في علبة فارغة → تشغيل حتى الإطفاء. (9) مسير BT §7.5 H شقة + شرفة. (10) محاولة multipoint: iPhone 15 ثم Samsung A54. (11) ANC = لا — عزل نوعي فقط (كافيه / شارع / مترو) وفق §7.5 I؛ بلا ديسيبل. (12) مايك: واتساب 60 ثانية هادئ / الطريق الدائري / كريم — نوعي فقط بلا SNR وفق §7.5 J. (13) كودكات عبر لوحة مطوّر التطبيق. (14) تأخير نوعي: يوتيوب + وضع ألعاب PUBG وفق §7.5 L — بلا ms. للاسترجاع: Anker Japan A3949، دليل A3949 المشترك، ManualsLib SPECS. فحص الاستدعاء 2026-07-24 — A3949 غير مدرج. عدم قياسات: بلا أرقام dB/SNR/ms؛ بلا اختبار ماء؛ وحدة واحدة؛ الدفعات قد تختلف.',
+            en: 'ELEVATED gold deepen for A3949Z11 (P20i) after Wave 4 first build. CRITICAL protocol: stopwatch THIS sealed P20i sample — do NOT copy retail R50i 9h28/28h12, P25i 9h40/28h45, or P30i 9h41/~43h rows. Sibling figures appear only in A/B disclosure rows. Same A3949 family guide as P25i (CV-EB-A3949-001) — envelope expected to track within batch variance, but each carton keeps its own Timer+ log. (1) Weighed buds + case on Kkmoon 0.01g; case mm on steel tape. (2) Full charge + 20 min rest. (3) Playback stopwatch @ 50% volume Spotify on iPhone 15 AAC until auto-off — Timer+. (4) Repeated @ 100% with BassUp default. (5) Full system with case re-docks until exhausted. (6) Case charge 0→100% USB-C from A2147 (FNB58: 5V/~0.43A ≈ 2.2W). (7) Bud charge 0→100% in case. (8) Quick-charge: 10 min in drained case → play until off. (9) BT walk indoor apartment + balcony. (10) Multipoint attempt: iPhone 15 then Samsung A54. (11) ANC = None — qualitative isolation only (café / street / metro); no dB. (12) Mic: WhatsApp 60s quiet / Ring Road / Careem sedan — qualitative only, no SNR. (13) Codecs via Soundcore App developer panel. (14) Latency qualitative: YouTube + PUBG Game Mode — no ms. Independent corroboration: Anker Japan A3949, shared A3949 user guide on service.soundcore.com, ManualsLib SPECS. Recall check anker.com/product-recalls + service.soundcore.com 2026-07-24 — A3949 not listed. Explicit non-measurements: no dB/SNR/ms numbers; no wet-test; single unit; batches may vary.',
+            ar: 'تعميق ذهب لـ A3949Z11 (P20i) بعد أول بناء للموجة 4. بروتوكول حرج: ساعة إيقاف على عيّنة P20i هذه المغلقة — لا تنسخ صفوف R50i تجزئة 9س28/28س12 أو P25i 9س40/28س45 أو P30i 9س41/~43س. أرقام الأشقاء تظهر فقط في صفوف إفصاح أ/ب. نفس دليل عائلة A3949 كـ P25i (CV-EB-A3949-001) — المظروف متوقع ضمن تباين الدفعة، لكن كل كرتونة تحتفظ بسجل Timer+ خاص. (1) وزن السماعات + العلبة على Kkmoon 0.01g؛ أبعاد العلبة بشريط فولاذي. (2) شحن كامل + راحة 20 دقيقة. (3) ساعة إيقاف @ 50% حجم Spotify على iPhone 15 AAC حتى الإطفاء — Timer+. (4) إعادة @ 100% مع BassUp. (5) نظام كامل مع إرجاع العلبة حتى الاستنفاد. (6) شحن العلبة 0→100% USB-C من A2147 (FNB58: 5V/~0.43A ≈ 2.2 واط). (7) شحن السماعة 0→100% داخل العلبة. (8) شحن سريع: 10 دقائق في علبة فارغة → تشغيل حتى الإطفاء. (9) مسير BT شقة + شرفة. (10) محاولة multipoint: iPhone 15 ثم Samsung A54. (11) ANC = لا — عزل نوعي فقط (كافيه / شارع / مترو)؛ بلا ديسيبل. (12) مايك: واتساب 60 ثانية هادئ / الطريق الدائري / كريم — نوعي فقط بلا SNR. (13) كودكات عبر لوحة مطوّر التطبيق. (14) تأخير نوعي: يوتيوب + وضع ألعاب PUBG — بلا ms. للاسترجاع: Anker Japan A3949، دليل A3949 المشترك، ManualsLib SPECS. فحص الاستدعاء 2026-07-24 — A3949 غير مدرج. عدم قياسات: بلا أرقام dB/SNR/ms؛ بلا اختبار ماء؛ وحدة واحدة؛ الدفعات قد تختلف.',
         },
         equipment: [
             {
@@ -86,7 +88,7 @@ export const soundcore_p20i_earbuds_detail: ProductDetail = {
             },
             {
                 name: 'Fiberglass 5m tape',
-                use: { en: '§7.5 H BT range walk (indoor apartment + open balcony)', ar: 'مسير مدى BT وفق §7.5 H (شقة داخلية + شرفة مفتوحة)' },
+                use: { en: 'BT range walk (indoor apartment + open balcony)', ar: 'مسير مدى BT (شقة داخلية + شرفة مفتوحة)' },
             },
             {
                 name: 'Apple iPhone 15 (BT 5.3, battery health 92%)',
@@ -98,7 +100,7 @@ export const soundcore_p20i_earbuds_detail: ProductDetail = {
             },
             {
                 name: 'Timer+ app + written lab log',
-                use: { en: 'Playtime and charge-time stopwatch per §7.5 B–F', ar: 'ساعة إيقاف زمن التشغيل والشحن وفق §7.5 B–F' },
+                use: { en: 'Playtime and charge-time stopwatch', ar: 'ساعة إيقاف زمن التشغيل والشحن' },
             },
             {
                 name: 'Anker A2147 30W wall charger',
@@ -133,8 +135,8 @@ export const soundcore_p20i_earbuds_detail: ProductDetail = {
                 rated: 'up to 10h',
                 measured: '9h 35 min',
                 note: {
-                    en: 'Timer+, AAC on iPhone 15; −4.2% vs rated — inside §7.5 B ±15% · NOT copied from R50i 9h28',
-                    ar: 'Timer+، AAC على iPhone 15؛ −4.2% — داخل §7.5 B ±15% · غير منسوخ من R50i 9س28',
+                    en: 'Timer+, AAC on iPhone 15; −4.2% vs rated — inside ±15% · NOT copied from R50i 9h28',
+                    ar: 'Timer+، AAC على iPhone 15؛ −4.2% — داخل ±15% · غير منسوخ من R50i 9س28',
                 },
             },
             {
@@ -147,8 +149,8 @@ export const soundcore_p20i_earbuds_detail: ProductDetail = {
                 rated: 'up to 30h',
                 measured: '28h 30 min',
                 note: {
-                    en: '−5% vs rated — inside §7.5 C ±15% · NOT copied from R50i 28h12 / P30i ~43h',
-                    ar: '−5% مقابل الاسمي — داخل §7.5 C ±15% · غير منسوخ من R50i 28س12 / P30i ~43س',
+                    en: '−5% vs rated — inside ±15% · NOT copied from R50i 28h12 / P30i ~43h',
+                    ar: '−5% مقابل الاسمي — داخل ±15% · غير منسوخ من R50i 28س12 / P30i ~43س',
                 },
             },
             {
@@ -167,18 +169,18 @@ export const soundcore_p20i_earbuds_detail: ProductDetail = {
                 param: { en: 'Quick-charge: 10 min → playback', ar: 'شحن سريع: 10 دقائق → تشغيل' },
                 rated: 'up to 2h',
                 measured: '1h 46 min',
-                note: { en: 'inside §7.5 F ±20%', ar: 'داخل §7.5 F ±20%' },
+                note: { en: 'inside ±20%', ar: 'داخل ±20%' },
             },
             {
                 param: { en: 'BT range indoor apartment', ar: 'مدى BT شقة داخلية' },
                 rated: '10m Class 2',
                 measured: '9m before first glitch',
-                note: { en: 'inside §7.5 8–12m Class 2 window', ar: 'داخل نافذة §7.5 لفئة 2 8–12م' },
+                note: { en: 'inside 8–12m Class 2 window', ar: 'داخل نافذة لفئة 2 8–12م' },
             },
             {
                 param: { en: 'BT range outdoor balcony', ar: 'مدى BT شرفة خارجية' },
                 measured: '17m before first glitch',
-                note: { en: 'inside §7.5 15–25m open-air window', ar: 'داخل نافذة §7.5 هواء مفتوح 15–25م' },
+                note: { en: 'inside 15–25m open-air window', ar: 'داخل نافذة هواء مفتوح 15–25م' },
             },
             {
                 param: { en: 'Multipoint', ar: 'multipoint' },
@@ -206,15 +208,15 @@ export const soundcore_p20i_earbuds_detail: ProductDetail = {
                     ar: 'لا — هدير تكييف الكافيه يقل؛ مرور الطريق / صرير فرامل المترو لا يُحجب',
                 },
                 note: {
-                    en: 'no dB invented per §7.5 I / §11.3 — ANC belongs to A3959 / P40i',
-                    ar: 'بلا ديسيبل مخترع وفق §7.5 I / §11.3 — ANC يخص A3959 / P40i',
+                    en: 'no dB invented — ANC belongs to A3959 / P40i',
+                    ar: 'بلا ديسيبل مخترع — ANC يخص A3959 / P40i',
                 },
             },
             {
                 param: { en: 'IPX rating', ar: 'تصنيف IPX' },
                 rated: 'IPX5 (vendor)',
                 measured: { en: 'NOT WET-TESTED — vendor label only', ar: 'لم نختبر الماء — ملصق البائع فقط' },
-                note: { en: '§7.7 F rule — case unrated', ar: 'قاعدة §7.7 F — العلبة بلا تصنيف' },
+                note: { en: 'Vendor rating cited only — case unrated', ar: 'نذكر تصنيف البائع فقط — العلبة بلا تصنيف' },
             },
             {
                 param: { en: 'Latency (qualitative)', ar: 'التأخير (نوعي)' },
@@ -230,7 +232,7 @@ export const soundcore_p20i_earbuds_detail: ProductDetail = {
                     en: 'Quiet lab: clear. Ring Road mid-traffic: intelligible, traffic bleeds. Careem sedan AC-on: clear, road hum present.',
                     ar: 'مختبر هادئ: واضح. الطريق الدائري: مفهوم مع تسرب مرور. كريم بتكييف: واضح مع هدير طريق.',
                 },
-                note: { en: 'no SNR invented per §7.5 J', ar: 'بلا SNR مخترع وفق §7.5 J' },
+                note: { en: 'no SNR invented', ar: 'بلا SNR مخترع' },
             },
             {
                 param: { en: 'Weight per earbud', ar: 'وزن السماعة' },
@@ -296,7 +298,7 @@ export const soundcore_p20i_earbuds_detail: ProductDetail = {
         ],
         verdict: {
             en: 'P20i THIS sample delivered 9h 35min single-bud @50% and 28h 30min system total — inside vendor ±5%. SBC/AAC only, no ANC, no multipoint, no LDAC. Shared A3949 family with P25i/R50i (per-sample stopwatch). Not A3959 NC. Not recalled. Buy cheaper of P20i/P25i/R50i; step to P30i/P40i for ANC.',
-            ar: 'P20i هذه العيّنة أخرجت 9 ساعات و35 دقيقة لسماعة مفردة @50% وإجمالي نظام 28 ساعة و30 دقيقة — داخل ±5% من البائع. SBC/AAC فقط، بلا ANC، بلا multipoint، بلا LDAC. نفس عائلة A3949 كـ P25i/R50i (ساعة إيقاف لكل عيّنة). ليست A3959 NC. لا استدعاء. اشترِ الأرخص من P20i/P25i/R50i؛ اصعد إلى P30i/P40i لـ ANC.',
+            ar: 'P20i أخرجت 9 ساعات و35 دقيقة لسماعة مفردة @50% وإجمالي 28 ساعة و30 دقيقة — داخل ±5% من البائع. SBC/AAC فقط، بلا ANC ولا multipoint ولا LDAC. نفس عائلة A3949 كـ P25i/R50i. ليست A3959 NC. لا استدعاء. اشترِ الأرخص من P20i/P25i/R50i؛ اصعد إلى P30i/P40i لـ ANC.',
         },
         pros: [
             {
@@ -316,12 +318,12 @@ export const soundcore_p20i_earbuds_detail: ProductDetail = {
                 ar: 'العلبة تشحن في 1 ساعة و54 دقيقة من أي شاحن هاتف USB-C 5V — FNB58 ~2.2 واط؛ بلا ضريبة PD',
             },
             {
-                en: 'Quick-charge yield 1h 46min from 10 min dock — inside §7.5 F ±20% of 2h claim',
-                ar: 'عائد شحن سريع 1 ساعة و46 دقيقة من 10 دقائق إرجاع — داخل §7.5 F ±20% من ادعاء ساعتين',
+                en: 'Quick-charge yield 1h 46min from 10 min dock — inside ±20% of 2h claim',
+                ar: 'عائد شحن سريع 1 ساعة و46 دقيقة من 10 دقائق إرجاع — داخل ±20% من ادعاء ساعتين',
             },
             {
-                en: 'BT clean at 9m indoor / 17m outdoor — inside Class 2 §7.5 window',
-                ar: 'BT نظيف عند 9م داخلي / 17م خارجي — داخل نافذة فئة 2 §7.5',
+                en: 'BT clean at 9m indoor / 17m outdoor — inside Class 2 window',
+                ar: 'BT نظيف عند 9م داخلي / 17م خارجي — داخل نافذة فئة 2',
             },
             {
                 en: 'Not recalled — verified 2026-07-24 against anker.com/product-recalls + service.soundcore.com',
@@ -354,8 +356,8 @@ export const soundcore_p20i_earbuds_detail: ProductDetail = {
                 ar: 'عند 100% يهبط إلى 5 ساعات و15 دقيقة — DSP لـ BassUp ليس مجانيًا.',
             },
             {
-                en: 'IPX5 vendor-stated only — no wet-test per §7.7 F. No swim / shower / submersion. Case not rated.',
-                ar: 'IPX5 معلن فقط — بلا اختبار ماء وفق §7.7 F. لا سباحة / دش / غمر. العلبة بلا تصنيف.',
+                en: 'IPX5 vendor-stated only — no wet-test. No swim / shower / submersion. Case not rated.',
+                ar: 'IPX5 معلن فقط — بلا اختبار ماء. لا سباحة / دش / غمر. العلبة بلا تصنيف.',
             },
             {
                 en: 'Single unit — batches may vary. No independent audio-lab dB/SNR/ms numbers. Isolation and mic notes are qualitative bilingual prose only.',

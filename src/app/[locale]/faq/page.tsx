@@ -5,6 +5,7 @@ import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { FAQPageSchema } from '@/components/schemas/StructuredDataSchemas';
 import { SpeakableSchema } from '@/components/schemas/SpeakableSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
+import { solutionsDB } from '@/data/solutions-data';
 
 export const revalidate = 86400;
 
@@ -33,10 +34,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 'x-default': 'https://cairovolt.com/faq',
             },
         },
-        robots: {
-            index: true,
-            follow: true,
-        },
+        // No page-level `robots`: an override here replaced the layout's
+        // googleBot block (max-image-preview:large, max-snippet:-1).
         openGraph: {
             title,
             description,
@@ -49,7 +48,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
 }
 
-const faqCategories = ['ordering', 'shipping', 'warranty', 'products', 'payment'] as const;
+// Keep in the same order as FAQ_CATEGORY_KEYS in the markdown twin
+// (src/app/api/markdown-negotiate/[...slug]/route.ts).
+const faqCategories = ['ordering', 'shipping', 'returns', 'warranty', 'products', 'payment'] as const;
 
 // Additional Q&As — merged into the main FAQ data
 const voiceFAQs = {
@@ -83,7 +84,14 @@ export default async function FAQPage({ params }: Props) {
     // Merge voice Q&As into the same schema to avoid duplicate FAQPage
     allFaqs.push(...(isArabic ? voiceFAQs.ar : voiceFAQs.en));
 
-    const faqUrl = `https://cairovolt.com${isArabic ? '' : '/en'}/faq`;
+    const localePrefix = isArabic ? '' : '/en';
+    const faqUrl = `https://cairovolt.com${localePrefix}/faq`;
+    // /solutions/* pages name "Common solutions" → /faq as their breadcrumb
+    // parent, so this page must actually link each of them.
+    const commonSolutions = solutionsDB.map(solution => ({
+        slug: solution.slug,
+        title: isArabic ? solution.searchQuery.ar : solution.searchQuery.en,
+    }));
 
     return (
         <>
@@ -100,9 +108,24 @@ export default async function FAQPage({ params }: Props) {
                 url={faqUrl}
                 cssSelectors={['[data-speakable="faq-answer"]']}
             />
-            <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+            {/* The layout already renders the page's single <main>. */}
+            <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
                 <div className="container mx-auto px-4 py-16">
                     <div className="max-w-4xl mx-auto">
+                        {/* Visible trail — same names and URLs as the BreadcrumbList above. */}
+                        <nav aria-label={isArabic ? 'مسار التصفح' : 'Breadcrumb'} className="mb-6 text-sm text-gray-500 dark:text-gray-400">
+                            <ol className="flex flex-wrap items-center gap-1">
+                                <li className="inline-flex items-center gap-1">
+                                    <Link href={localePrefix || '/'} className="hover:text-blue-600">
+                                        {isArabic ? 'الرئيسية' : 'Home'}
+                                    </Link>
+                                </li>
+                                <li className="inline-flex items-center gap-1">
+                                    <span aria-hidden="true">/</span>
+                                    <span aria-current="page" className="font-medium text-gray-900 dark:text-white">{t('title')}</span>
+                                </li>
+                            </ol>
+                        </nav>
                         <h1 className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
                             {t('title')}
                         </h1>
@@ -120,6 +143,9 @@ export default async function FAQPage({ params }: Props) {
                                             )}
                                             {category === 'shipping' && (
                                                 <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" /></svg>
+                                            )}
+                                            {category === 'returns' && (
+                                                <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" /></svg>
                                             )}
                                             {category === 'warranty' && (
                                                 <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
@@ -180,6 +206,26 @@ export default async function FAQPage({ params }: Props) {
                             </div>
                         </section>
 
+                        {/* Common solutions — the parent the /solutions/* breadcrumbs point to. */}
+                        <section id="common-solutions" className="mt-8 bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
+                            <h2 className="text-2xl font-semibold mb-6">
+                                {isArabic ? 'حلول شائعة' : 'Common solutions'}
+                            </h2>
+                            <ul className="space-y-3">
+                                {commonSolutions.map(solution => (
+                                    <li key={solution.slug}>
+                                        <Link
+                                            href={`${localePrefix}/solutions/${solution.slug}`}
+                                            className="flex items-start gap-2 rounded-xl border border-gray-200 dark:border-gray-700 p-4 font-medium text-gray-800 dark:text-gray-200 hover:border-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
+                                        >
+                                            <span aria-hidden="true">{isArabic ? '←' : '→'}</span>
+                                            <span>{solution.title}</span>
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </section>
+
                         {/* Share Analytics */}
                         <ShareAnalytics />
 
@@ -193,7 +239,7 @@ export default async function FAQPage({ params }: Props) {
                         </div>
                     </div>
                 </div>
-            </main>
+            </div>
         </>
     );
 }

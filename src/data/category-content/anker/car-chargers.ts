@@ -86,12 +86,6 @@ export const anker_car_chargers_content: CategoryContent = {
                             answer: 'يعمل مع السيارات التي توفر منفذ طاقة 12V أو 24V متوافقاً. راجع دليل سيارتك وقدرة الفيوز قبل الاستخدام.'
                         }
                     ],
-                    products: [
-                        { name: 'شاحن سيارة انكر مغناطيسي لاسلكي', price: 1200, badge: '🆕 MagSafe' },
-                        { name: 'Anker PowerDrive Speed+ 2', price: 950, badge: 'PD سريع' },
-                        { name: 'شاحن سيارة انكر 35W منفذين (A2732)', price: 550, badge: 'قيمة ممتازة' },
-                        { name: 'شاحن سيارة انكر 30W USB-C (A2741)', price: 530, badge: 'اقتصادي' },
-                    ]
                 },
                 en: {
                     title: 'Anker Car Chargers by Port and Power',
@@ -161,12 +155,6 @@ It depends on the vehicle: some 12V outlets switch off with the engine while oth
                             answer: 'It works with cars that provide a compatible 12V or 24V power socket. Check your vehicle manual and fuse rating before use.'
                         }
                     ],
-                    products: [
-                        { name: 'Anker Magnetic Wireless Car Charger', price: 1200, badge: '🆕 MagSafe' },
-                        { name: 'Anker PowerDrive Speed+ 2', price: 950, badge: 'PD Fast' },
-                        { name: 'Anker 35W Dual-Port Car Charger (A2732)', price: 550, badge: 'Great Value' },
-                        { name: 'Anker 30W USB-C Car Charger (A2741)', price: 530, badge: 'Budget' },
-                    ]
                 }
             }
         };

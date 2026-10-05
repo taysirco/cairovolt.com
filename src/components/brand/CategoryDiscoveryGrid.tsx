@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { getBrandEntity } from '@/lib/brand-entities';
 import {
     categoryDiscovery,
     type DiscoveryCollectionKey,
@@ -104,6 +105,20 @@ const accentClasses = {
 
 const arrow = (isArabic: boolean) => (isArabic ? '←' : '→');
 
+/**
+ * Entity names for JSON-LD only. The visible tile may carry a UI arrow or a
+ * "(Sub-brand)" hint, but in structured data that text became part of the
+ * entity name — on a node that shares its @id (…/soundcore#collectionpage)
+ * with the Soundcore hub's own CollectionPage, which names it differently.
+ */
+function schemaName(label: string): string {
+    return label
+        .replace(/^\s*[→←]\s*/u, '')
+        .replace(/\s*[→←]\s*$/u, '')
+        .replace(/\s*\((?:Sub-brand|علامة فرعية)\)\s*/giu, ' ')
+        .trim();
+}
+
 export default function CategoryDiscoveryGrid({
     collection,
     categories,
@@ -122,6 +137,9 @@ export default function CategoryDiscoveryGrid({
         return presentation ? [{ category, presentation }] : [];
     });
     const imageObjectId = (index: number) => `${pageUrl}#category-image-${index + 1}`;
+    // Link `about` to the site-wide Brand node (the one carrying the verified
+    // Wikidata/Wikipedia sameAs) by @id, as the category CollectionPage does.
+    const brandEntity = getBrandEntity(content.sourceBrand);
 
     const schema = {
         '@context': 'https://schema.org',
@@ -136,7 +154,8 @@ export default function CategoryDiscoveryGrid({
                 isPartOf: { '@id': 'https://cairovolt.com/#website' },
                 about: {
                     '@type': 'Brand',
-                    name: content.sourceBrand,
+                    ...(brandEntity && { '@id': brandEntity.id }),
+                    name: brandEntity?.name ?? content.sourceBrand,
                 },
                 spatialCoverage: {
                     '@type': 'Country',
@@ -150,7 +169,7 @@ export default function CategoryDiscoveryGrid({
                     '@type': 'CollectionPage',
                     '@id': `https://cairovolt.com${localizedPrefix}${category.href}#collectionpage`,
                     url: `https://cairovolt.com${localizedPrefix}${category.href}`,
-                    name: category.title[language],
+                    name: schemaName(category.title[language]),
                     description: category.description[language],
                 })),
                 mainEntity: {
@@ -161,7 +180,7 @@ export default function CategoryDiscoveryGrid({
                     itemListElement: visibleCategories.map(({ category, presentation }, index) => ({
                         '@type': 'ListItem',
                         position: index + 1,
-                        name: category.title[language],
+                        name: schemaName(category.title[language]),
                         description: presentation.description[language],
                         url: `https://cairovolt.com${localizedPrefix}${category.href}`,
                         image: `https://cairovolt.com${presentation.imageBase}-800.webp`,

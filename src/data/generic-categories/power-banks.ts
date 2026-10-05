@@ -52,7 +52,7 @@ export const power_banks_generic: GenericCategory = {
                 { question: 'ما الفرق بين 10000 و20000 مللي أمبير؟', answer: 'عادة تكون فئة 10,000mAh أخف، بينما توفر فئة 20,000mAh طاقة أكبر مقابل حجم ووزن أعلى. عدد الشحنات الفعلي يعتمد على Wh وكفاءة التحويل وبطارية الجهاز والاستخدام.' },
                 { question: 'هل الشحن من الباور بانك يضر البطارية؟', answer: 'استخدم موديلًا سليمًا يطابق متطلبات جهازك وكابلًا مناسبًا واتبع تعليمات الشركة. لا توجد بطارية بلا مخاطر؛ أوقف الاستخدام عند الانتفاخ أو التلف أو الحرارة غير المعتادة.' },
                 { question: 'ما الفرق بين PD و QC في الشحن السريع؟', answer: 'PD (Power Delivery) هو معيار USB عالمي يعمل مع iPhone و Samsung و MacBook. QC (Quick Charge) من Qualcomm يعمل أساساً مع أجهزة Android. الباور بانك المثالي يدعم الاثنين معاً.' },
-                { question: 'كيف أختار باور بانك للسفر والرحلات؟', answer: 'راجع قيمة Wh المطبوعة والوزن واحتياجاتك، ثم تحقق من قواعد شركة الطيران والرحلة قبل السفر. غالبًا تُحمل البطاريات الاحتياطية في حقيبة اليد، وقد تفرض الشركة موافقة أو حدودًا إضافية.' },
+                { question: 'كيف أختار باور بانك للسفر والرحلات؟', answer: 'راجع قيمة Wh المطبوعة والوزن واحتياجاتك، ثم تحقق من قواعد شركة الطيران والرحلة قبل السفر. في حقيبة اليد فقط: حتى 100Wh مسموح عادةً بدون موافقة، ومن 100 إلى 160Wh يحتاج موافقة شركة الطيران، وأكثر من 160Wh غير مسموح في أمتعة الركاب (IATA/FAA). راجع قيمة Wh المطبوعة على الوحدة. وقد تفرض الشركة حدودًا إضافية. التفاصيل: [قواعد الباور بانك في الطيران](/blog/power-bank-airplane-rules-egypt-2026) · [حل السفر بالباور بانك](/solutions/power-bank-airline-rules-egypt-travel).' },
                 { question: 'كيف أختار بين موديلات بأسعار مختلفة؟', answer: 'قارن Wh والقدرة والبروتوكولات والمنافذ والوزن والشاشة والملحقات وشروط الضمان. السعر الأعلى لا يثبت وحده جودة الخلايا أو العمر؛ اعتمد على بيانات الموديل.' },
                 { question: 'كيف أتحقق من بيانات الباور بانك قبل الشراء؟', answer: 'طابق رقم الموديل وملصق mAh وWh والإدخال والإخراج مع صفحة المنتج ومعلومات الشركة. لا تفترض اعتماد FCC أو UL أو وجود هولوجرام لكل موديل، واستخدم وسيلة التحقق التي تحددها الشركة فقط.' },
             ],
@@ -62,7 +62,7 @@ export const power_banks_generic: GenericCategory = {
                 { question: 'What is the difference between 10000 and 20000mAh?', answer: 'A 10,000mAh class model is usually lighter, while a 20,000mAh class model offers more energy at a larger size and weight. Actual charge count depends on Wh, conversion efficiency, device battery, and use.' },
                 { question: 'Does charging from a power bank damage the battery?', answer: 'Use an undamaged model that matches your device requirements, a suitable cable, and the manufacturer instructions. No battery is risk-free; stop using it if it swells, is damaged, or becomes unusually hot.' },
                 { question: 'What is the difference between PD and QC fast charging?', answer: 'PD (Power Delivery) is a universal USB standard that works with iPhone, Samsung, and MacBook. QC (Quick Charge) by Qualcomm primarily works with Android devices. The ideal power bank supports both.' },
-                { question: 'How do I choose a power bank for travel?', answer: 'Check the printed Wh value, weight, and your needs, then confirm the airline and itinerary rules before travel. Spare batteries are generally carried in cabin baggage, and an airline may impose approval or additional limits.' },
+                { question: 'How do I choose a power bank for travel?', answer: 'Check the printed Wh value, weight, and your needs, then confirm the airline and itinerary rules before travel. Carry-on only: ≤100Wh is generally allowed without approval, 100–160Wh needs airline approval, and over 160Wh is not allowed in passenger baggage (IATA/FAA). Check the Wh printed on the unit. An airline may impose additional limits. Details: [power bank airline rules](/en/blog/power-bank-airplane-rules-egypt-2026) · [flying with a power bank](/en/solutions/power-bank-airline-rules-egypt-travel).' },
                 { question: 'How do I compare power banks at different prices?', answer: 'Compare Wh, output, protocols, ports, weight, display, included accessories, and written warranty terms. A higher price alone does not prove cell quality or lifespan; use model-specific data.' },
                 { question: 'How do I verify power bank details before buying?', answer: 'Match model number, mAh and Wh labels, input, and output with the product page and manufacturer information. Do not assume every model has FCC, UL, or a hologram; use only the verification method identified by the manufacturer.' },
             ],
@@ -96,30 +96,8 @@ export const power_banks_generic: GenericCategory = {
 <li><strong>مناسب لـ:</strong> السفر، الرحلات، انقطاع الكهرباء، شحن أكثر من جهاز</li>
 </ul>
 
-<h2 id="comparison-table">جدول مقارنة أسعار ومواصفات الباور بانك في مصر</h2>
-<table>
-<thead><tr><th>فئة المنتج</th><th>السعة الاسمية</th><th>ما يجب مراجعته</th><th>المنافذ</th><th>السعر</th><th>الاستخدام المحتمل</th></tr></thead>
-<tbody>
-<tr><td>10,000mAh مدمج</td><td>10,000</td><td>Wh والخرج والوزن</td><td>حسب الموديل</td><td>راجع صفحة المنتج</td><td>حمل يومي</td></tr>
-<tr><td>10,000mAh مع PD</td><td>10,000</td><td>قدرة USB-C والتوافق</td><td>حسب الموديل</td><td>راجع صفحة المنتج</td><td>هواتف متوافقة</td></tr>
-<tr><td>20,000mAh</td><td>20,000</td><td>Wh والقدرة والمنافذ</td><td>حسب الموديل</td><td>راجع صفحة المنتج</td><td>طاقة أكبر ووزن أعلى</td></tr>
-<tr><td><strong>20,000mAh مع شاشة</strong></td><td><strong>20,000</strong></td><td><strong>دقة البيانات والخرج</strong></td><td><strong>حسب الموديل</strong></td><td><strong>راجع صفحة المنتج</strong></td><td><strong>متابعة الشحن</strong></td></tr>
-<tr><td>24,000mAh</td><td>24,000</td><td>Wh وقواعد السفر</td><td>حسب الموديل</td><td>راجع صفحة المنتج</td><td>أجهزة متعددة</td></tr>
-<tr><td>فئة لابتوب عالية الخرج</td><td>حسب الموديل</td><td>خرج المنفذ ومتطلبات اللابتوب</td><td>حسب الموديل</td><td>راجع صفحة المنتج</td><td>أجهزة USB-C متوافقة</td></tr>
-</tbody>
-</table>
-
 <h2 id="capacity-guide">الفرق بين سعات الباور بانك: 10000 و 20000 و 30000</h2>
-<p>لا تحدد mAh وحدها عدد الشحنات. استخدم Wh المكتوبة للموديل واطرح فاقد التحويل كتقدير، ثم اقسم الطاقة المتاحة على Wh بطارية الهاتف:</p>
-<table>
-<thead><tr><th>السعة</th><th>الطاقة بالواط/ساعة</th><th>عدد الشحنات</th><th>الوزن</th><th>ملاحظة</th></tr></thead>
-<tbody>
-<tr><td>5,000mAh</td><td>راجع ملصق الموديل</td><td>احسب من Wh</td><td>حسب الموديل</td><td>طاقة محدودة وحجم أصغر عادة</td></tr>
-<tr><td>10,000mAh</td><td>راجع ملصق الموديل</td><td>احسب من Wh</td><td>حسب الموديل</td><td>توازن محتمل بين الحجم والطاقة</td></tr>
-<tr><td><strong>20,000mAh</strong></td><td><strong>راجع ملصق الموديل</strong></td><td><strong>احسب من Wh</strong></td><td><strong>حسب الموديل</strong></td><td><strong>طاقة أكبر ووزن أعلى عادة</strong></td></tr>
-<tr><td>30,000mAh</td><td>راجع ملصق الموديل</td><td>احسب من Wh</td><td>حسب الموديل</td><td>تحقق من قواعد السفر</td></tr>
-</tbody>
-</table>
+<p>لا تحدد mAh وحدها عدد الشحنات. استخدم Wh المكتوبة للموديل واطرح فاقد التحويل كتقدير، ثم اقسم الطاقة المتاحة على Wh بطارية الهاتف. مثال من مختبرنا: <a href="/anker/power-banks/anker-powercore-20000">انكر PowerCore 20000</a> مطبوع عليه 72Wh، وقِسنا منه 61.4Wh قابلة للاستخدام عند 5V/2A.</p>
 
 <h2 id="fast-charging">باور بانك شحن سريع PD — لماذا يهم؟</h2>
 <p>الشحن السريع <strong>Power Delivery (PD)</strong> هو أهم ميزة يجب أن تبحث عنها في أي باور بانك حديث:</p>
@@ -167,30 +145,8 @@ export const power_banks_generic: GenericCategory = {
 <li><strong>Potential uses:</strong> Travel, backup charging, and multiple devices</li>
 </ul>
 
-<h2 id="comparison-table">Power Bank Price & Specs Comparison Table</h2>
-<table>
-<thead><tr><th>Product Class</th><th>Nominal Capacity</th><th>What to Check</th><th>Ports</th><th>Price</th><th>Potential Use</th></tr></thead>
-<tbody>
-<tr><td>Compact 10,000mAh</td><td>10,000</td><td>Wh, output, and weight</td><td>By model</td><td>Check product page</td><td>Daily carry</td></tr>
-<tr><td>10,000mAh with PD</td><td>10,000</td><td>USB-C output and compatibility</td><td>By model</td><td>Check product page</td><td>Compatible phones</td></tr>
-<tr><td>20,000mAh</td><td>20,000</td><td>Wh, output, and ports</td><td>By model</td><td>Check product page</td><td>More energy at higher weight</td></tr>
-<tr><td><strong>20,000mAh with display</strong></td><td><strong>20,000</strong></td><td><strong>Display data and output</strong></td><td><strong>By model</strong></td><td><strong>Check product page</strong></td><td><strong>Charging visibility</strong></td></tr>
-<tr><td>24,000mAh</td><td>24,000</td><td>Wh and travel rules</td><td>By model</td><td>Check product page</td><td>Multiple devices</td></tr>
-<tr><td>High-output laptop class</td><td>By model</td><td>Per-port output and laptop requirements</td><td>By model</td><td>Check product page</td><td>Compatible USB-C devices</td></tr>
-</tbody>
-</table>
-
 <h2 id="capacity-guide">Power Bank Capacity Guide: 10000 vs 20000 vs 30000</h2>
-<p>mAh alone does not determine charge count. Use the model's printed Wh, apply a disclosed conversion-loss estimate, and divide usable energy by the phone battery's Wh:</p>
-<table>
-<thead><tr><th>Capacity</th><th>Energy in Wh</th><th>Charge Count</th><th>Weight</th><th>Note</th></tr></thead>
-<tbody>
-<tr><td>5,000mAh</td><td>Check model label</td><td>Calculate from Wh</td><td>By model</td><td>Limited energy, usually smaller</td></tr>
-<tr><td>10,000mAh</td><td>Check model label</td><td>Calculate from Wh</td><td>By model</td><td>Potential size-energy balance</td></tr>
-<tr><td><strong>20,000mAh</strong></td><td><strong>Check model label</strong></td><td><strong>Calculate from Wh</strong></td><td><strong>By model</strong></td><td><strong>Usually more energy and weight</strong></td></tr>
-<tr><td>30,000mAh</td><td>Check model label</td><td>Calculate from Wh</td><td>By model</td><td>Confirm travel rules</td></tr>
-</tbody>
-</table>
+<p>mAh alone does not determine charge count. Use the model's printed Wh, apply a disclosed conversion-loss estimate, and divide usable energy by the phone battery's Wh. An example from our lab: the <a href="/en/anker/power-banks/anker-powercore-20000">Anker PowerCore 20000</a> is printed 72Wh, and we measured 61.4Wh usable at 5V/2A.</p>
 
 <h2 id="fast-charging">PD Fast Charging Power Bank — Why It Matters</h2>
 <p><strong>Power Delivery (PD)</strong> fast charging is the most important feature to look for in any modern power bank:</p>

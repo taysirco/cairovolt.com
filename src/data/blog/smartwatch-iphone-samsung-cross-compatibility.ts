@@ -4,7 +4,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
     slug: 'smartwatch-iphone-samsung-cross-compatibility',
     category: 'buying-guide',
     publishDate: '2026-06-08',
-    modifiedDate: '2026-06-08',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
         'joyroom-ft3-smartwatch',
@@ -28,7 +28,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
             metaDescription: 'دليل شامل لاختيار ساعة ذكية متوافقة مع iPhone و Samsung في نفس الوقت — إيه اللي بتخسره لو غيّرت موبايلك، وإيه الساعات اللي بتشتغل على أي نظام من غير مشاكل.',
             keywords: 'ساعة ذكية iPhone Android, ساعة ذكية متوافقة Samsung iPhone, ساعة بتشتغل على أي موبايل, ساعة ذكية cross platform, ساعة ذكية بدون قفل نظام, ساعة جويروم iPhone Samsung, ساعة ذكية universal مصر, توافق ساعة ذكية, ساعة ذكية Android iOS',
             excerpt: 'مش كل ساعة ذكية بتشتغل على كل الموبايلات. دليل كامل لاختيار ساعة متوافقة مع iPhone و Samsung — من غير ما تخسر مميزات لو غيّرت موبايلك.',
-            quickAnswer: 'Apple Watch بتشتغل على iPhone بس. Galaxy Watch بتشتغل أحسن على Samsung بس ممكن على أي Android. لو عايز ساعة بتشتغل على أي موبايل (iPhone + Android) من غير مشاكل — الساعات المستقلة زي Joyroom FT3 هي الحل: بتتوصل بالبلوتوث على أي نظام تشغيل وبتديك كل المميزات الأساسية (إشعارات + صحة + رياضة + مكالمات) من غير ecosystem lock-in.',
+            quickAnswer: 'Apple Watch بتشتغل على iPhone بس، وGalaxy Watch بتشتغل أحسن على Samsung وممكن على أي Android. لو عايز ساعة بتشتغل على أي موبايل — الساعات المستقلة زي Joyroom FT3 بـ {{price:joyroom-ft3-smartwatch}} جنيه هي الحل: بتتوصل بالبلوتوث بأي نظام وبتديك الإشعارات وتنبيهات المكالمات وقراءات الصحة والرياضة، من غير ecosystem lock-in. ملحوظة: FT3 مفيهاش مايك للرد على المكالمات.',
             content: `<p>عندك iPhone دلوقتي — بس مين يضمن إنك مش هتشتري Samsung السنة الجاية؟ أو العكس. أو عندك iPhone وزوجتك عندها Samsung وعايزين تشتروا ساعة ذكية هدية لحد ومش عارفين موبايله إيه. الموضوع أعقد مما تتخيّل — لأن عالم الساعات الذكية مليان "أقفال" بتربطك بنظام تشغيل واحد.</p>
 
 <p>في المقال ده هنشرح بالظبط إيه الساعات اللي بتشتغل على إيه، إيه اللي بتخسره لو استخدمت ساعة على نظام مش مصممة ليه، وإيه أفضل الخيارات لو عايز ساعة "حرة" بتشتغل على أي موبايل من غير قيود.</p>
@@ -93,7 +93,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 
 <h2>التكلفة الحقيقية — حسبة مفيش حد بيعملها</h2>
 
-<p>خلّينا نحسبها صح. لو اشتريت Apple Watch SE بـ 7,000 جنيه وبعد سنتين غيّرت لـ Samsung — محتاج تشتري ساعة جديدة. يعني التكلفة الحقيقية = 7,000 + ساعة جديدة. لو اشتريت Joyroom FT3 بـ 1,092 جنيه — لو غيّرت موبايلك 10 مرات الساعة بتفضل شغّالة. التكلفة الحقيقية = 1,200 جنيه وبس. حتى لو Apple Watch أحسن تقنياً في كذا حاجة — الفرق في السعر + حرية التنقل بين الأنظمة بيخلّي الساعة المستقلة أذكى اقتصادياً لمعظم المصريين.</p>
+<p>خلّينا نحسبها صح. لو اشتريت Apple Watch SE (نطاق سوق تقريبي حوالي 7,000 جنيه) وبعد سنتين غيّرت لـ Samsung — محتاج تشتري ساعة جديدة. لو اشتريت Joyroom FT3 بـ {{price:joyroom-ft3-smartwatch}} جنيه — لو غيّرت موبايلك 10 مرات الساعة بتفضل شغّالة. حتى لو Apple Watch أحسن تقنياً في كذا حاجة — الفرق في السعر + حرية التنقل بين الأنظمة بيخلّي الساعة المستقلة أذكى اقتصادياً لمعظم المصريين.</p>
 
 <h2>Google Pixel Watch و WearOS — بديل تالت؟</h2>
 
@@ -162,7 +162,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ ساعة ذكية بتشتغل على أي موبايل — على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> متوافقة مع iPhone وSamsung وكل أجهزة Android — بضمان 12 شهر + مكالمات بلوتوث + 100+ وضع رياضي. توصيل لكل المحافظات.
+        <a href="/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> متوافقة مع iPhone وSamsung وكل أجهزة Android — بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة المنتج) + تنبيهات المكالمات (بدون مايك للرد) + ~20 وضع رياضي معلن. توصيل لكل المحافظات.
     </p>
 </div>`,
             faq: [
@@ -176,7 +176,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
                 },
                 {
                     question: 'إيه أفضل ساعة ذكية تشتغل على iPhone و Android معاً؟',
-                    answer: 'الساعات المستقلة (زي Joyroom FT3, Xiaomi Band, Haylou, Amazfit) بتشتغل على أي نظام بنفس الكفاءة. Joyroom FT3 تحديداً بتدعم مكالمات بلوتوث + 100+ وضع رياضي + حساسات صحية على كل الأنظمة.'
+                    answer: 'الساعات المستقلة (زي Joyroom FT3, Xiaomi Band, Haylou, Amazfit) بتشتغل على أي نظام بنفس الكفاءة. Joyroom FT3 تحديداً بتديك إشعارات وتنبيهات المكالمات (من غير مايك للرد) و~20 وضع رياضي معلن وحساسات صحية تقديرية على كل الأنظمة.'
                 },
                 {
                     question: 'لو غيّرت موبايلي — بيانات الساعة الصحية بتضيع؟',
@@ -190,7 +190,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
             metaDescription: 'Complete guide to choosing a smartwatch compatible with both iPhone and Samsung — what you lose when switching phones, and which watches work on any operatin...',
             keywords: 'smartwatch iPhone Android, smartwatch compatible Samsung iPhone, watch works any phone, smartwatch cross platform, smartwatch no ecosystem lock, joyroom iPhone Samsung, universal smartwatch egypt, smartwatch compatibility, smartwatch Android iOS',
             excerpt: 'Not every smartwatch works with every phone. Complete guide to choosing a watch compatible with both iPhone and Samsung — without losing features when you switch phones.',
-            quickAnswer: 'Apple Watch works with iPhone only. Galaxy Watch works best with Samsung but can work with other Android devices. If you want a watch that works with any phone (iPhone + Android) without issues — independent watches like the Joyroom FT3 are the solution: they connect via Bluetooth to any operating system and provide all essential features (notifications, health, sports, calls) without ecosystem lock-in.',
+            quickAnswer: 'Apple Watch works with iPhone only, and Galaxy Watch works best with Samsung but can pair with other Android phones. For a watch that works with any phone, independent watches such as the Joyroom FT3 at EGP {{price:joyroom-ft3-smartwatch}} are the answer: they pair over Bluetooth with any system and give notifications, call alerts, health and sport tracking without ecosystem lock-in. Note: the FT3 has no microphone for answering calls.',
             content: `<p>You have an iPhone now — but who guarantees you will not buy a Samsung next year? Or vice versa. Or you have an iPhone and your spouse has a Samsung and you want to buy someone a smartwatch gift but do not know what phone they use. The situation is more complex than you might think — because the smartwatch world is full of "locks" that bind you to a single operating system.</p>
 
 <p>In this article, we will explain exactly which watches work with which phones, what you lose when using a watch on a system it was not designed for, and what the best options are if you want a "free" watch that works with any phone without restrictions.</p>
@@ -253,7 +253,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 
 <h2>The True Cost — A Calculation Nobody Makes</h2>
 
-<p>Let us calculate properly. If you buy an Apple Watch SE for 7,000 EGP and switch to Samsung two years later — you need a new watch. The true cost = 7,000 + new watch. If you buy a Joyroom FT3 for 1,092 EGP — even if you switch phones 10 times, the watch keeps working. The true cost = 1,200 EGP total. Even if Apple Watch is technically superior in several areas — the price difference plus the freedom to move between systems makes independent watches economically smarter for most Egyptian consumers.</p>
+<p>Let us calculate properly. If you buy an Apple Watch SE (approximate market range around 7,000 EGP) and switch to Samsung two years later — you need a new watch. If you buy a Joyroom FT3 at EGP {{price:joyroom-ft3-smartwatch}} — even if you switch phones 10 times, the watch keeps working. Even if Apple Watch is technically superior in several areas — the price difference plus the freedom to move between systems makes independent watches economically smarter for most Egyptian consumers.</p>
 
 <h2>Google Pixel Watch and WearOS — A Third Alternative?</h2>
 
@@ -309,7 +309,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Smartwatch That Works With Any Phone — on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> compatible with iPhone, Samsung, and all Android devices — 12-month warranty + Bluetooth calls + 100+ sport modes. Delivery across all governorates.
+        <a href="/en/joyroom/smart-watches/joyroom-ft3-smartwatch" style="color:#166534;font-weight:600;">Joyroom FT3</a> compatible with iPhone, Samsung and all Android devices — invoice and CairoVolt's written store warranty (duration shown on the product page) + call alerts (no microphone for answering) + ~20 vendor-listed sport modes. Delivery across all governorates.
     </p>
 </div>`,
             faq: [
@@ -323,7 +323,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
                 },
                 {
                     question: 'What is the best smartwatch that works on both iPhone and Android?',
-                    answer: 'Independent watches (like Joyroom FT3, Xiaomi Band, Haylou, Amazfit) work on any system with equal efficiency. The Joyroom FT3 specifically supports Bluetooth calls, 100+ sport modes, and health sensors on all operating systems.'
+                    answer: 'Independent watches (like Joyroom FT3, Xiaomi Band, Haylou, Amazfit) work on any system with equal efficiency. The Joyroom FT3 specifically gives notifications and call alerts (no microphone for answering), ~20 vendor-listed sport modes and wellness-grade health sensors on all operating systems.'
                 },
                 {
                     question: 'If I change phones — does my health data from the watch get lost?',

@@ -4,7 +4,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
     slug: 'best-100w-fast-charge-power-bank-iphone-samsung',
     category: 'buying-guide',
     publishDate: '2026-05-18',
-    modifiedDate: '2026-05-18',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
         "anker-prime-a1695-25000",
@@ -32,7 +32,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
             metaDescription: 'iPhone 17 Pro Max يقف عند 40W و Galaxy S26 Ultra عند 60W — فلماذا تحتاج باور بانك 100W؟ 3 أسباب علمية + أفضل خيارين بالأرقام في مصر 2026. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'باور بانك 100 واط, باور بانك ايفون 17, باور بانك سامسونج S26, شحن سريع باور بانك, انكر prime 165w, انكر 737 140w, باور بانك لابتوب وموبايل, 100w power bank iphone samsung egypt, افضل باور بانك شحن سريع 2026',
             excerpt: 'iPhone 17 Pro Max يقف عند 40W و Galaxy S26 Ultra عند 60W — فلماذا قد تحتاج باور بانك 100W فعلاً؟ 3 أسباب علمية تفسر الفرق + خياران مدروسان بالأرقام والمواصفات لمصر.',
-            quickAnswer: 'iPhone 17 Pro Max يحد الشحن عند 40W و Galaxy S26 Ultra عند 60W — لكن باور بانك 100W+ يستحق الفرق لـ 3 أسباب: (1) شحن جهازين معاً بكامل السرعة، (2) إعادة شحن الباور بانك نفسه في حوالي ساعتين بدل 5-6 ساعات، (3) شحن لابتوب طوارئ. أفضل خيارين: أنكر Prime 165W (3,950ج) و أنكر 737 140W (4,999ج).',
+            quickAnswer: 'iPhone 17 Pro Max يحد الشحن عند 40W و Galaxy S26 Ultra عند 60W — لكن باور بانك 100W+ يستحق الفرق لـ 3 أسباب: (1) شحن جهازين معاً بكامل السرعة، (2) إعادة شحن الباور بانك نفسه في حوالي ساعة لساعتين بدل 5-6 ساعات، (3) شحن لابتوب طوارئ. أفضل خيارين: انكر زولو 165W (A1695) ({{price:anker-prime-a1695-25000}}ج) و انكر 737 140W ({{price:anker-737-powerbank}}ج).',
             content: `<p>أكبر مفهوم خاطئ في سوق الباور بانك المصري: إن باور بانك 100W هيشحن iPhone 17 أو Galaxy S26 أسرع من باور بانك 30W. الحقيقة العلمية مختلفة تماماً — iPhone 17 Pro Max بيحد الشحن داخلياً عند حوالي 40W، و Samsung Galaxy S26 Ultra بيقف عند 60W مهما كان مصدر الكهرباء. يعني بمجرد ما الباور بانك يغطّي الحد ده، أي زيادة فوقه مش هتزوّد سرعة الموبايل — الـ iPhone 17 Pro Max هياخد نفس السرعة من باور بانك 45W زي 165W، و الـ Galaxy S26 Ultra محتاج مصدر 60W علشان يشتغل بأقصى سرعته. السؤال الحقيقي: <strong>طب ليه تدفع 4,000 جنيه إضافية في باور بانك 100W+؟</strong> الإجابة في 3 أسباب علمية بنشرحها بالأرقام.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -40,9 +40,9 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         <strong>💡 الإجابة السريعة:</strong>
         iPhone 17 Pro Max يحد الشحن عند 40W و Galaxy S26 Ultra عند 60W — لكن باور بانك 100W+ يستحق الفرق لـ 3 أسباب:
         (1) شحن موبايل + لابتوب معاً بكامل السرعة بدون اختناق،
-        (2) إعادة شحن الباور بانك نفسه في حوالي ساعتين بدلاً من 5-6 ساعات،
+        (2) إعادة شحن الباور بانك نفسه في حوالي ساعة لساعتين بدلاً من 5-6 ساعات،
         (3) شحن MacBook Pro طوارئ بسرعة الشاحن الأصلي.
-        أفضل خيارين: <strong>انكر برايم 165W</strong> (3,950ج) و <strong>انكر 737 140W</strong> (4,999ج).
+        أفضل خيارين: <strong>انكر زولو 165W (A1695)</strong> ({{price:anker-prime-a1695-25000}}ج) و <strong>انكر 737 140W</strong> ({{price:anker-737-powerbank}}ج).
     </p>
 </div>
 
@@ -106,15 +106,15 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
 
 <p>افتح أي باور بانك 45W ووصّله بموبايل + لابتوب في نفس الوقت — هتلاقي حاجة مزعجة: <strong>الباور بانك يقسم الـ 45W بين الجهازين بطريقة غير متساوية</strong>. النتيجة المعتادة: 30W للابتوب، 15W للموبايل. الموبايل اللي بياخد عادة حتى 40W، بياخد أقل من نص ده — يعني وقت شحن مضاعف.</p>
 
-<p>الباور بانك 100W+ بيحل المشكلة دي بـ <strong>Independent Port Power Allocation</strong> — كل منفذ بياخد طاقته الكاملة بدون مزاحمة. وفق جداول توزيع الطاقة المعلنة من أنكر، سيناريو
-<a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم 165W</a>
-مع MacBook Air M3 + iPhone 17 Pro Max في نفس اللحظة بيطلع كده:</p>
+<p>الباور بانك 100W+ بيحل المشكلة دي بـ <strong>Independent Port Power Allocation</strong> — كل منفذ بياخد طاقته الكاملة بدون مزاحمة. وبما إن السقف المشترك 165W، ده سيناريو تقديري لـ
+<a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر زولو 165W (A1695)</a>
+مع MacBook Air M3 + iPhone 17 Pro Max في نفس اللحظة (الأرقام تقريبية وبتختلف حسب الأجهزة):</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">💻 <strong>MacBook Air M3:</strong> 65W كاملة على المنفذ USB-C #1 — شحن بسرعة الشاحن الأصلي تماماً.</li>
     <li style="margin-bottom:12px;">📱 <strong>iPhone 17 Pro Max:</strong> 40W كاملة على المنفذ USB-C #2 — أقصى سرعة يدعمها الموبايل بدون اختناق.</li>
     <li style="margin-bottom:12px;">⌚ <strong>Apple Watch Series 10:</strong> 5W لاسلكي عبر شاحن Apple Watch المغناطيسي بمنفذ USB-A.</li>
-    <li style="margin-bottom:12px;">🌡️ <strong>الحرارة:</strong> النظام بيعتمد على تبريد سلبي (جسم معدني) + وضع Active Cooling بيقلّل القدرة تلقائياً عند الأحمال العالية عشان يحافظ على الحرارة في نطاق آمن حوالي 38°م.</li>
+    <li style="margin-bottom:12px;">🌡️ <strong>الحرارة:</strong> فيه مروحة تبريد نشطة حسب انكر، وفي اختبارنا وصلت حرارة السطح لحوالي 44.2°م بعد 15 دقيقة على حمل حوالي 90 واط لجهازين — سيبه في مكان مهوّى.</li>
 </ul>
 
 <p>المقارنة مع باور بانك 45W في نفس السيناريو: الـ 45W ينقسم لـ 30W لابتوب + 15W موبايل = موبايل يشحن بنص السرعة + لابتوب يكمل بكفاءة 90% فقط. لو بتسافر مع لابتوب وموبايل معاً، الفرق العملي ساعة كاملة من التوفير.</p>
@@ -160,40 +160,40 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
 <p>للمسافرين والذين يقضون يومهم خارج المنزل، التوفير ده ضخم. <strong>تخيّل تطلع البيت الصبح بباور بانك مشحون 100% بعد ساعة فقط من توصيله بدلاً من تركه طول الليل.</strong></p>
 
 
-<h2>الخيار الأول: أنكر Prime 165W A1695 — الأفضل قيمة في مصر 2026</h2>
+<h2>الخيار الأول: انكر زولو 165W (A1695) — قيمة قوية في مصر 2026</h2>
 
-<p>سعر 3,950 جنيه يبدو مرتفع، لكن المواصفات بتبرّره:
-<a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695 باور بانك 25,000mAh 165W</a>
-هو الباور بانك الأقوى في حجم محمول قانوني للطيران في مصر — بسعة 92.7Wh (أقل من حد TSA 100Wh بقليل).</p>
+<p>سعر {{price:anker-prime-a1695-25000}} جنيه ممكن يبان مرتفع، لكن المواصفات بتبرّره:
+<a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر زولو A1695 باور بانك 25,000mAh 165W</a>
+باور بانك قوي في حجم محمول مسموح في الطيارة — سعته 90Wh (أقل من حد الـ 100Wh في حقيبة اليد).</p>
 
 <p>أهم المواصفات المعلنة بالأرقام:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>165W قدرة كلية:</strong> كل منفذ USB-C يطلع حتى 100W كحد أقصى (20V⎓5A)، والـ 165W هي الإجمالي الموزّع على المنافذ عند شحن أكتر من جهاز معاً — يشحن MacBook Pro 16" بسرعة عالية جداً (لكن أقل شوية من شاحنه الأصلي 140W).</li>
-    <li style="margin-bottom:12px;">🔋 <strong>25,000mAh = 5 شحنات iPhone 17 Pro Max</strong> أو شحنة كاملة + 50% لـ MacBook Pro 16.</li>
-    <li style="margin-bottom:12px;">🌡️ <strong>تبريد سلبي + Active Cooling Mode:</strong> جسم معدني بيوزّع الحرارة، ومع الأحمال العالية وضع Active Cooling البرمجي بيخفّض القدرة تلقائياً عشان الحرارة ما تتعداش 42°م حتى في صيف القاهرة.</li>
-    <li style="margin-bottom:12px;">⏱️ <strong>شحن ذاتي 100W input:</strong> من 0 إلى 80% في حوالي ساعة ونصف (شحن كامل في حوالي ساعتين) مع شاحن أنكر Prime 100W.</li>
-    <li style="margin-bottom:12px;">📊 <strong>شاشة رقمية:</strong> تعرض الوات الحي لكل منفذ + الحرارة + النسبة المتبقية + الوقت المقدر.</li>
-    <li style="margin-bottom:12px;">✈️ <strong>92.7Wh:</strong> أقصى سعة قانونية للطيران المدني — مسموح في حقيبة اليد بدون تفتيش إضافي.</li>
+    <li style="margin-bottom:12px;">🔋 <strong>25,000mAh (90Wh):</strong> قسنا منه 76.9 واط/ساعة قابلة للاستخدام — يعني تقديرياً حوالي 3.8 شحنات لموبايل بطاريته نحو 17 واط/ساعة (76.9 × 0.85 ÷ 17)، والعدد بيقل مع الموبايلات الأكبر.</li>
+    <li style="margin-bottom:12px;">🌡️ <strong>التبريد:</strong> فيه مروحة تبريد نشطة حسب انكر، وفي اختبارنا وصلت حرارة السطح لحوالي 44.2°م بعد 15 دقيقة على حمل حوالي 90 واط لجهازين (محيط 28°م).</li>
+    <li style="margin-bottom:12px;">⏱️ <strong>شحن ذاتي 100W input:</strong> انكر بتعلن دخل لحد 100W، وقسنا شحنه من 0 لـ 100% في حوالي 67 دقيقة بشاحن حائط 100W وكابل e-Marker.</li>
+    <li style="margin-bottom:12px;">📊 <strong>شاشة رقمية:</strong> تعرض الواط الحي والنسبة المتبقية والوقت المقدر.</li>
+    <li style="margin-bottom:12px;">✈️ <strong>90Wh:</strong> تحت حد الـ 100Wh — مسموح في حقيبة اليد من غير موافقة شركة الطيران.</li>
 </ul>
 
 <p>الفئة المستهدفة: المسافرون أكتر من 3 أيام بدون كهرباء مستقرة، صناع المحتوى اللي بيستخدموا MacBook + iPhone في الشغل، والموظفون اللي بيقضوا يوم كامل خارج المكتب مع لابتوب.</p>
 
 
-<h2>الخيار الثاني: أنكر 737 PowerCore 140W — للذين يفضلون البساطة</h2>
+<h2>الخيار الثاني: انكر 737 PowerCore 140W — للذين يفضلون البساطة</h2>
 
-<p>بسعر 4,999 جنيه،
+<p>بسعر {{price:anker-737-powerbank}} جنيه،
 <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 باور كور 24K</a>
 يقدم 140W مع تصميم أبسط وأمتن — بدون أجزاء متحركة، بيعتمد على تبريد سلبي بالكامل.</p>
 
-<p>الميزة اللي يتفوّق فيها على Prime A1695: <strong>المتانة الفائقة والبساطة</strong>. الجسم ألومنيوم مصنّع بدقة، بدون أجزاء متحركة (لا مراوح). للسفر القاسي (سفاري الصحراء، الكامبينج، رحلات السيارة الطويلة) — الـ 737 خيار ممتاز بجسمه الألومنيوم المتين وبدون أجزاء متحركة.</p>
+<p>الميزة اللي يتفوّق فيها على زولو A1695: <strong>المتانة الفائقة والبساطة</strong>. الجسم ألومنيوم مصنّع بدقة، بدون أجزاء متحركة (لا مراوح). للسفر القاسي (سفاري الصحراء، الكامبينج، رحلات السيارة الطويلة) — الـ 737 خيار ممتاز بجسمه الألومنيوم المتين وبدون أجزاء متحركة.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المعيار</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر برايم 165W (3,950ج)</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر 737 140W (4,999ج)</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر زولو 165W (A1695) ({{price:anker-prime-a1695-25000}}ج)</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر 737 140W ({{price:anker-737-powerbank}}ج)</th>
         </tr>
     </thead>
     <tbody>
@@ -204,28 +204,22 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">السعة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>25,000mAh (92.7Wh)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>25,000mAh (90Wh)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">24,000mAh (86.4Wh)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">التبريد</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Active Cooling Mode + Passive</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>مروحة تبريد نشطة (حسب انكر)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">Passive فقط</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">السعر/الوات</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>23.9 جنيه/وات</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">35.7 جنيه/وات</td>
-        </tr>
-        <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">المتانة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">جيدة (بدون أجزاء متحركة)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">فيه مروحة تبريد وكابل قابل للسحب</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>ممتازة (لا أجزاء متحركة)</strong></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">الضمان (كايرو فولت)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>24 شهر</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">18 شهر</td>
+            <td style="padding:12px;border:1px solid #d1d5db;" colspan="2">ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)</td>
         </tr>
     </tbody>
 </table>
@@ -235,14 +229,14 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#fefce8;border-right:4px solid #ca8a04;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#854d0e;">
-        <strong>🎯 الخلاصة:</strong> لو ما عندكش لابتوب USB-C، وما بتسافرش لـ 2+ يوم بدون كهرباء، وما بتشحنش 3 أجهزة معاً —
+        <strong>🎯 الخلاصة:</strong> لو ما عندكش لابتوب USB-C، وما بتسافرش لـ 2+ يوم بدون كهرباء، وما بتشحنش 3 أجهزة معاً (شوف <a href="/blog/power-bank-charge-4-devices-simultaneously" style="color:#2563eb;font-weight:600;">باور بانك يشحن 4 أجهزة مرة واحدة</a>) —
         الـ 100W+ مش ضروري. البديل الذكي:
-        <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">انكر زولو 20,000mAh 45W PD</a>
-        بـ 2,200 جنيه — يشحن iPhone 17 بكامل سرعته و Galaxy S26 Ultra بشحن سريع قوي (الـ Ultra بيوصل لأقصى 60W مع مصدر أكبر) مع <strong>توفير 1,750 جنيه</strong>.
+        <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">انكر زولو 20,000mAh (A110E)</a>
+        بقدرة 22.5W وسعر {{price:anker-zolo-a110e-20000}} جنيه — كافي لشحن الموبايل يومياً، لكنه أبطأ من ذروة iPhone 17 Pro (40W) و Galaxy S26 Ultra (60W).
     </p>
 </div>
 
-<p>المعادلة الواقعية: <strong>أغلب الموبايلات في 2026 مش محتاجة أكتر من 40-60W</strong> — الـ iPhone 17 Pro Max بيقف عند 40W و الـ Galaxy S26 Ultra عند 60W. فوق ده ميزات للابتوب و multi-device فقط. لو احتياجك موبايل + سماعة + ساعة، باور بانك 45-60W كافي. الفرق الفعلي في وقت الشحن بين باور بانك 45W و 165W لـ iPhone 17 Pro Max وحده: <strong>أقل من دقيقة في الـ 50% الأولى</strong> — هل تستحق 1,750 جنيه إضافية؟ لا.</p>
+<p>المعادلة الواقعية: <strong>أغلب الموبايلات في 2026 مش محتاجة أكتر من 40-60W</strong> — الـ iPhone 17 Pro Max بيقف عند 40W و الـ Galaxy S26 Ultra عند 60W. فوق ده ميزات للابتوب و multi-device فقط. لو احتياجك موبايل + سماعة + ساعة، باور بانك 45-60W كافي. ولـ iPhone 17 Pro Max لوحده، باور بانك 45W و 165W بيدّوه تقريباً نفس السرعة لأنه بياخد حوالي 40W في الحالتين — فالفرق في السعر مش هيرجعلك في سرعة شحن الموبايل.</p>
 
 
 <h2>الكابل: العامل الخفي اللي بيحدد سرعتك الفعلية</h2>
@@ -265,10 +259,10 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         ✅ التوصية النهائية
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <strong>لو بتشحن موبايل بس (iPhone 17 / S26):</strong> أنكر ZOLO 45W (2,200ج) كافي تماماً ووفّر 1,750ج.
-        <strong>لو عندك لابتوب + بتسافر:</strong> أنكر Prime 165W (3,950ج) — الأفضل قيمة لكل وات.
-        <strong>لو بتحتاج متانة أعلى:</strong> أنكر 737 140W (4,999ج) بدون أجزاء متحركة.
-        كلهم متاحون على كايرو فولت بضمان أصلي 18-24 شهر + توصيل لكل المحافظات + دفع عند الاستلام.
+        <strong>لو بتشحن موبايل بس (iPhone 17 / S26):</strong> باور بانك 20,000mAh زي انكر زولو A110E (22.5W، {{price:anker-zolo-a110e-20000}}ج) كافي للاستخدام اليومي، ولو عايز أقصى سرعة لـ iPhone 17 Pro محتاج 40W أو أكتر.
+        <strong>لو عندك لابتوب + بتسافر:</strong> انكر زولو 165W (A1695) ({{price:anker-prime-a1695-25000}}ج).
+        <strong>لو بتحتاج متانة أعلى:</strong> انكر 737 140W ({{price:anker-737-powerbank}}ج) بدون أجزاء متحركة.
+        كلهم متاحين على كايرو فولت بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>`,
             faq: [
@@ -278,11 +272,11 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
                 },
                 {
                     question: 'إيه الفرق بين 100W input و 100W output؟',
-                    answer: 'الـ Output هو الكهرباء اللي بتطلع من الباور بانك لأجهزتك. الـ Input هي السرعة اللي بيشحن بيها الباور بانك نفسه. باور بانك 100W output ممكن يكون 30W input فقط — يعني يطلع طاقة بسرعة لكن يحتاج 5+ ساعات يمتلي. أنكر Prime 165W يدعم 100W input — يمتلي من 0 إلى 80% في حوالي ساعة ونصف (شحن كامل في حوالي ساعتين).',
+                    answer: 'الـ Output هو الكهرباء اللي بتطلع من الباور بانك لأجهزتك. الـ Input هي السرعة اللي بيشحن بيها الباور بانك نفسه. باور بانك 100W output ممكن يكون 30W input فقط — يعني يطلع طاقة بسرعة لكن يحتاج 5+ ساعات يمتلي. انكر زولو 165W (A1695) بيدعم دخل لحد 100W — وقسنا شحنه من 0 لـ 100% في حوالي 67 دقيقة بشاحن 100W.',
                 },
                 {
                     question: 'هل أقدر أركّب باور بانك 25,000mAh في الطيارة؟',
-                    answer: 'نعم، أنكر Prime A1695 سعة 92.7Wh — أقل من حد TSA الدولي وحد الطيران المصري (100Wh). مسموح في حقيبة اليد فقط (لا تضعه في الشحن). أي باور بانك أكبر من 100Wh ممنوع تماماً. التحقق: ابحث عن رقم Wh مطبوع على الجسم — لو غير موجود فهو غير معتمد للطيران.',
+                    answer: 'نعم، انكر زولو A1695 سعته 90Wh — أقل من حد TSA الدولي وحد الطيران المصري (100Wh). مسموح في حقيبة اليد فقط (لا تضعه في الشحن). أي باور بانك من 101 لـ 160Wh محتاج موافقة شركة الطيران، وفوق 160Wh ممنوع. التحقق: ابحث عن رقم Wh مطبوع على الجسم — لو غير موجود فهو غير معتمد للطيران.',
                 },
                 {
                     question: 'هل Galaxy S26 Ultra محتاج باور بانك 100W علشان شحن سريع 60W؟',
@@ -296,7 +290,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
             metaDescription: 'iPhone 17 Pro Max caps at 40W and Galaxy S26 Ultra at 60W — so why pay for a 100W power bank? 3 scientific reasons + the 2 top picks by the numbers in Egypt 2026.',
             keywords: '100w power bank, iphone 17 power bank, samsung s26 power bank, anker prime 165w, anker 737 140w, fast charge power bank, laptop power bank egypt, 100w power bank iphone samsung egypt, best fast charge power bank 2026',
             excerpt: 'iPhone 17 Pro Max caps at 40W and Galaxy S26 Ultra at 60W — so why might you actually need a 100W power bank? 3 scientific reasons explained + 2 top options picked by the numbers for Egypt.',
-            quickAnswer: 'iPhone 17 Pro Max caps charging at 40W and Galaxy S26 Ultra at 60W — but a 100W+ power bank earns its premium for 3 reasons: (1) charging two devices simultaneously at full speed, (2) recharging the power bank itself in about 2 hours instead of 5-6 hours, (3) emergency laptop charging. Top picks: Anker Prime 165W (3,950 EGP) and Anker 737 140W (4,999 EGP).',
+            quickAnswer: 'iPhone 17 Pro Max caps charging at 40W and Galaxy S26 Ultra at 60W — but a 100W+ power bank earns its premium for 3 reasons: (1) charging two devices simultaneously at full speed, (2) recharging the power bank itself in about 1-2 hours instead of 5-6 hours, (3) emergency laptop charging. Top picks: Anker Zolo 165W (A1695) (EGP {{price:anker-prime-a1695-25000}}) and Anker 737 140W (EGP {{price:anker-737-powerbank}}).',
             content: `<p>The biggest misconception in Egypt's power bank market: that a 100W power bank charges iPhone 17 or Galaxy S26 faster than a 30W one. The scientific reality is different — iPhone 17 Pro Max caps charging internally at around 40W, and Samsung Galaxy S26 Ultra tops out at 60W regardless of the power source. Meaning once the power bank meets each phone's cap, anything above it adds no speed — the iPhone 17 Pro Max charges just as fast from a 45W bank as from a 165W one, while the Galaxy S26 Ultra needs a 60W source to hit its top speed. The real question: <strong>so why pay an extra 4,000 EGP for a 100W+ power bank?</strong> The answer lies in 3 scientific reasons we explain with numbers.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -304,9 +298,9 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         <strong>💡 Quick Answer:</strong>
         iPhone 17 Pro Max caps at 40W and Galaxy S26 Ultra at 60W — but a 100W+ power bank earns its premium for 3 reasons:
         (1) charging phone + laptop simultaneously at full speed without throttling,
-        (2) recharging the power bank itself in about 2 hours instead of 5-6 hours,
+        (2) recharging the power bank itself in about 1-2 hours instead of 5-6 hours,
         (3) emergency MacBook Pro charging at original adapter speed.
-        Top picks: <strong>Anker Prime 165W</strong> (3,950 EGP) and <strong>Anker 737 140W</strong> (4,999 EGP).
+        Top picks: <strong>Anker Zolo 165W (A1695)</strong> (EGP {{price:anker-prime-a1695-25000}}) and <strong>Anker 737 140W</strong> (EGP {{price:anker-737-powerbank}}).
     </p>
 </div>
 
@@ -370,15 +364,15 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
 
 <p>Open any 45W power bank and plug in phone + laptop simultaneously — you'll notice something annoying: <strong>the power bank splits 45W between the two devices unevenly</strong>. The typical result: 30W for laptop, 15W for phone. The phone normally takes up to 40W, but gets far less — meaning double charging time.</p>
 
-<p>100W+ power banks solve this with <strong>Independent Port Power Allocation</strong> — each port gets its full wattage without competition. Based on Anker's published power-allocation tables, the
-<a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime 165W</a>
-scenario with MacBook Air M3 + iPhone 17 Pro Max simultaneously looks like this:</p>
+<p>100W+ power banks solve this with <strong>Independent Port Power Allocation</strong> — each port gets its full wattage without competition. Given its shared 165W ceiling, here is an estimated scenario for the
+<a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Zolo 165W (A1695)</a>
+with MacBook Air M3 + iPhone 17 Pro Max at the same time (approximate figures that vary by device):</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">💻 <strong>MacBook Air M3:</strong> Full 65W on USB-C port #1 — charging at original adapter speed exactly.</li>
     <li style="margin-bottom:12px;">📱 <strong>iPhone 17 Pro Max:</strong> Full 40W on USB-C port #2 — max speed phone supports without throttling.</li>
     <li style="margin-bottom:12px;">⌚ <strong>Apple Watch Series 10:</strong> 5W wireless via a USB-A Apple Watch magnetic charging dongle.</li>
-    <li style="margin-bottom:12px;">🌡️ <strong>Temperature:</strong> The unit relies on passive cooling (metal chassis) plus a software Active Cooling Mode that lowers output automatically under heavy loads to keep it in a safe range around 38°C.</li>
+    <li style="margin-bottom:12px;">🌡️ <strong>Temperature:</strong> it has an active cooling fan per Anker, and in our test the surface reached about 44.2°C after 15 minutes at roughly 90W across two devices — keep it ventilated.</li>
 </ul>
 
 <p>Comparison with 45W power bank in the same scenario: 45W splits into 30W laptop + 15W phone = phone charges at half speed + laptop completes at only 90% efficiency. If you travel with laptop and phone together, the real-world savings reach a full hour.</p>
@@ -424,21 +418,21 @@ scenario with MacBook Air M3 + iPhone 17 Pro Max simultaneously looks like this:
 <p>For travelers and those who spend their day outside, the savings are enormous. <strong>Imagine leaving home in the morning with a power bank fully charged after just 1 hour of plugging in — instead of leaving it overnight.</strong></p>
 
 
-<h2>Option 1: Anker Prime 165W A1695 — Best Value in Egypt 2026</h2>
+<h2>Option 1: Anker Zolo 165W (A1695) — Strong Value in Egypt 2026</h2>
 
-<p>The 3,950 EGP price tag seems steep, but the specs justify it:
-<a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695 25,000mAh 165W</a>
-is the most powerful flight-legal portable power bank in Egypt — at 92.7Wh (just under TSA's 100Wh limit).</p>
+<p>The EGP {{price:anker-prime-a1695-25000}} price tag may seem steep, but the specs justify it:
+<a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Zolo A1695 25,000mAh 165W</a>
+is a powerful portable bank that can fly — rated 90Wh (under the 100Wh carry-on limit).</p>
 
 <p>The key published specs by the numbers:</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>165W total power:</strong> each USB-C port delivers up to 100W max (20V⎓5A), and the 165W is the combined total across ports when charging multiple devices — enough to fast-charge a MacBook Pro 16" quickly (though below its original 140W adapter).</li>
-    <li style="margin-bottom:12px;">🔋 <strong>25,000mAh = 5 iPhone 17 Pro Max full charges</strong> or 1 full + 50% MacBook Pro 16" charge.</li>
-    <li style="margin-bottom:12px;">🌡️ <strong>Passive cooling + Active Cooling Mode:</strong> a metal chassis spreads heat, and under high loads the software Active Cooling Mode lowers output automatically so temperature stays under 42°C even in Cairo summer.</li>
-    <li style="margin-bottom:12px;">⏱️ <strong>100W input self-charging:</strong> From 0 to 80% in about 1.5 hours (full charge in about 2 hours) with the Anker Prime 100W charger.</li>
-    <li style="margin-bottom:12px;">📊 <strong>Smart digital display:</strong> Shows real-time watts per port + temperature + remaining % + estimated time.</li>
-    <li style="margin-bottom:12px;">✈️ <strong>92.7Wh:</strong> Max legally-allowed flight capacity — permitted in carry-on bags without extra inspection.</li>
+    <li style="margin-bottom:12px;">🔋 <strong>25,000mAh (90Wh):</strong> we measured 76.9 Wh usable — an estimated 3.8 charges of a phone with a ~17 Wh battery (76.9 × 0.85 ÷ 17), fewer on larger phones.</li>
+    <li style="margin-bottom:12px;">🌡️ <strong>Cooling:</strong> it has an active cooling fan per Anker, and in our test the surface reached about 44.2°C after 15 minutes at roughly 90W across two devices (28°C ambient).</li>
+    <li style="margin-bottom:12px;">⏱️ <strong>100W input self-charging:</strong> Anker rates it for up to 100W input, and we measured 0 to 100% in about 67 minutes with a 100W wall charger and an e-marked cable.</li>
+    <li style="margin-bottom:12px;">📊 <strong>Smart digital display:</strong> Shows live watts, remaining % and estimated time.</li>
+    <li style="margin-bottom:12px;">✈️ <strong>90Wh:</strong> under the 100Wh limit — allowed in carry-on without airline approval.</li>
 </ul>
 
 <p>Target user: travelers spending 3+ days without stable power, content creators using MacBook + iPhone for work, and professionals spending full days outside the office with a laptop.</p>
@@ -446,18 +440,18 @@ is the most powerful flight-legal portable power bank in Egypt — at 92.7Wh (ju
 
 <h2>Option 2: Anker 737 PowerCore 140W — For Those Who Prefer Simplicity</h2>
 
-<p>At 4,999 EGP,
+<p>At EGP {{price:anker-737-powerbank}},
 <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 PowerCore 24K</a>
 offers 140W with a simpler, more rugged design — with no moving parts, relying entirely on passive cooling.</p>
 
-<p>What it wins over Prime A1695: <strong>extreme durability and simplicity</strong>. The body is precision-machined aluminum, with no moving parts (no fans). For rough travel (desert safari, camping, long road trips) — the 737 is an excellent choice with its durable aluminum body and no moving parts.</p>
+<p>What it wins over the Zolo A1695: <strong>extreme durability and simplicity</strong>. The body is precision-machined aluminum, with no moving parts (no fans). For rough travel (desert safari, camping, long road trips) — the 737 is an excellent choice with its durable aluminum body and no moving parts.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Criterion</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Anker Prime 165W (3,950 EGP)</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Anker 737 140W (4,999 EGP)</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Anker Zolo 165W (A1695) (EGP {{price:anker-prime-a1695-25000}})</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Anker 737 140W (EGP {{price:anker-737-powerbank}})</th>
         </tr>
     </thead>
     <tbody>
@@ -468,28 +462,22 @@ offers 140W with a simpler, more rugged design — with no moving parts, relying
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Capacity</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>25,000mAh (92.7Wh)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>25,000mAh (90Wh)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">24,000mAh (86.4Wh)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Cooling</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Active Cooling Mode + Passive</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Active cooling fan (per Anker)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">Passive only</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">EGP per Watt</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>23.9 EGP/W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">35.7 EGP/W</td>
-        </tr>
-        <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Durability</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Good (no moving parts)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Has a cooling fan and a retractable cable</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Excellent (no moving parts)</strong></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Warranty (CairoVolt)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>24 months</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">18 months</td>
+            <td style="padding:12px;border:1px solid #d1d5db;" colspan="2">CairoVolt's written store warranty (duration shown on each product page)</td>
         </tr>
     </tbody>
 </table>
@@ -499,14 +487,14 @@ offers 140W with a simpler, more rugged design — with no moving parts, relying
 
 <div class="quick-answer-inline" style="background:#fefce8;border-left:4px solid #ca8a04;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#854d0e;">
-        <strong>🎯 Bottom Line:</strong> If you don't have a USB-C laptop, don't travel 2+ days without power, and don't charge 3 devices simultaneously —
+        <strong>🎯 Bottom Line:</strong> If you don't have a USB-C laptop, don't travel 2+ days without power, and don't charge 3 devices simultaneously (see a <a href="/en/blog/power-bank-charge-4-devices-simultaneously" style="color:#2563eb;font-weight:600;">power bank for 4 devices at once</a>) —
         100W+ isn't necessary. Smart alternative:
-        <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">Anker ZOLO 20,000mAh 45W PD</a>
-        at 2,200 EGP — fully saturates iPhone 17 charging and fast-charges the Galaxy S26 Ultra (which hits its full 60W only with a larger source) while <strong>saving 1,750 EGP</strong>.
+        <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">Anker Zolo 20,000mAh (A110E)</a>
+        at 22.5W and EGP {{price:anker-zolo-a110e-20000}} — enough for daily phone charging, though slower than the iPhone 17 Pro (40W) and Galaxy S26 Ultra (60W) peaks.
     </p>
 </div>
 
-<p>The real-world math: <strong>most phones in 2026 don't need more than 40-60W</strong> — the iPhone 17 Pro Max caps at 40W and the Galaxy S26 Ultra at 60W. Above that is features for laptops and multi-device only. If your need is phone + earbuds + watch, a 45-60W bank is plenty. The actual charging time difference between a 45W and a 165W power bank for iPhone 17 Pro Max alone: <strong>under a minute for the first 50%</strong> — is that worth an extra 1,750 EGP? No.</p>
+<p>The real-world math: <strong>most phones in 2026 don't need more than 40-60W</strong> — the iPhone 17 Pro Max caps at 40W and the Galaxy S26 Ultra at 60W. Above that is features for laptops and multi-device only. If your need is phone + earbuds + watch, a 45-60W bank is plenty. For an iPhone 17 Pro Max alone, a 45W and a 165W power bank give roughly the same speed because the phone takes about 40W either way — so the price difference does not buy faster phone charging.</p>
 
 
 <h2>The Cable: The Hidden Factor Determining Your Real Speed</h2>
@@ -529,10 +517,10 @@ offers 140W with a simpler, more rugged design — with no moving parts, relying
         ✅ Final Recommendation
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <strong>Phone-only user (iPhone 17 / S26):</strong> Anker ZOLO 45W (2,200 EGP) is plenty and saves 1,750 EGP.
-        <strong>Laptop + travel:</strong> Anker Prime 165W (3,950 EGP) — best value per watt.
-        <strong>Maximum durability:</strong> Anker 737 140W (4,999 EGP) with no moving parts.
-        All available at CairoVolt with authentic 18-24 month warranty + delivery to all governorates + cash on delivery.
+        <strong>Phone-only user (iPhone 17 / S26):</strong> a 20,000mAh bank like the Anker Zolo A110E (22.5W, EGP {{price:anker-zolo-a110e-20000}}) is enough for daily use; for top iPhone 17 Pro speed you need 40W or more.
+        <strong>Laptop + travel:</strong> Anker Zolo 165W (A1695) (EGP {{price:anker-prime-a1695-25000}}).
+        <strong>Maximum durability:</strong> Anker 737 140W (EGP {{price:anker-737-powerbank}}) with no moving parts.
+        All available at CairoVolt with CairoVolt's written store warranty (duration shown on each product page) + delivery to all governorates + cash on delivery.
     </p>
 </div>`,
             faq: [
@@ -542,11 +530,11 @@ offers 140W with a simpler, more rugged design — with no moving parts, relying
                 },
                 {
                     question: 'What is the difference between 100W input and 100W output?',
-                    answer: 'Output is the power flowing from the power bank to your devices. Input is the speed at which the power bank itself recharges. A 100W output power bank may only have 30W input — meaning it outputs fast but needs 5+ hours to refill. Anker Prime 165W supports 100W input — refilling from 0 to 80% in about 1.5 hours (full charge in about 2 hours).',
+                    answer: 'Output is the power flowing from the power bank to your devices. Input is the speed at which the power bank itself recharges. A 100W output power bank may only have 30W input — meaning it outputs fast but needs 5+ hours to refill. Anker Zolo 165W (A1695) supports up to 100W input — we measured a full 0 to 100% recharge in about 67 minutes with a 100W charger.',
                 },
                 {
                     question: 'Can I take a 25,000mAh power bank on a plane?',
-                    answer: 'Yes, Anker Prime A1695 is 92.7Wh — under the international TSA limit and Egyptian aviation limit (100Wh). Allowed in carry-on only (not checked baggage). Any power bank above 100Wh is strictly forbidden. To verify: look for the Wh rating printed on the body — if missing, it is not flight-certified.',
+                    answer: 'Yes, the Anker Zolo A1695 is 90Wh — under the international TSA limit and Egyptian aviation limit (100Wh). Allowed in carry-on only (not checked baggage). Power banks of 101–160Wh need airline approval, and above 160Wh are not allowed. To verify: look for the Wh rating printed on the body — if missing, it is not flight-certified.',
                 },
                 {
                     question: 'Does Galaxy S26 Ultra need a 100W power bank for its 60W Super Fast Charging?',

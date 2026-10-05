@@ -4,7 +4,7 @@ export const phone_battery_needs_replacement_5_signs: BlogArticle = {
     slug: 'phone-battery-needs-replacement-5-signs',
     category: 'tips',
     publishDate: '2026-06-23',
-    modifiedDate: '2026-06-23',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
       "anker-a2147-gan-charger-30w",
@@ -152,7 +152,7 @@ export const phone_battery_needs_replacement_5_signs: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">باور بانك انكر</a> — الحل الفوري لبطارية ضعيفة. و<a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> — الحل الدائم اللي يحمي بطاريتك الجديدة. ضمان 18 شهر + توصيل لكل المحافظات.
+        <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">باور بانك انكر</a> — الحل الفوري لبطارية ضعيفة. و<a href="/anker/wall-chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> — الحل الدائم اللي يحمي بطاريتك الجديدة. ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات.
     </p>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">شاحن Anker 20W</a> · <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">باور بانك Anker Zolo 10000</a> · <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">باور بانك Anker Zolo 20000</a>.</p></div>
@@ -305,7 +305,7 @@ export const phone_battery_needs_replacement_5_signs: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available at CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker power banks</a> — the instant solution for a weak battery. And <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> — the long-term solution to protect your new battery. 18-month warranty + delivery to all governorates.
+        <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker power banks</a> — the instant solution for a weak battery. And <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> — the long-term solution to protect your new battery. CairoVolt's written store warranty (duration shown on each product page) + delivery to all governorates.
     </p>
 </div>
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W Charger</a> · <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker Zolo 10000 Power Bank</a> · <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker Zolo 20000 Power Bank</a>.</p></div>

@@ -49,10 +49,10 @@ export const anker_nano_pro_45w_a2692 = {
                 faqs: [
                     { question: "What is the price of the Anker Nano Pro 45W (A2692) in Egypt?", answer: "Use the live price shown for A2692 and review current stock, package contents, warranty, payment and delivery terms before ordering." },
                     { question: "Can this port charge a USB-C laptop or iPhone?", answer: "It can charge a compatible device when A2692 provides a profile that device accepts. Compare the printed table, recommended adapter and cable rating; actual wattage and time vary." },
-                    { question: "Does it support Samsung enhanced charging modes?", answer: "Check the exact PPS profile required by the Samsung model against A2692's printed output and use the required cable. The 45W label alone does not guarantee a specific on-screen mode." },
-                    { question: "How compact is A2692?", answer: "Check the dimensions and weight printed on the supplied package. Treat any percentage graphic as a manufacturer comparison with its stated reference charger, not with every 45W charger." },
+                    { question: "Does it support Samsung enhanced charging modes?", answer: "Samsung 25W Super Fast Charging, yes: our FNB58 read one PPS window of 3.3–11V/4.05A, and a Galaxy S24 showed Super Fast Charging at ~24.2W peak (measured). Samsung 45W SFC 2.0, no: our S24 Ultra fell back to 25W because PPS stops at 11V. Use the required cable." },
+                    { question: "How compact is A2692?", answer: "Anker rates it at ~60 g and about 44 × 42 × 36 mm; we measured 60 g and ~44 × 42 × 36 mm on our sample. Treat any percentage graphic as a manufacturer comparison with its stated reference charger, not with every 45W charger." },
                     { question: "How does it handle voltage and heat?", answer: "Use it only within the input range printed on the charger. Anker lists GaN and ActiveShield thermal monitoring for this model; keep it ventilated and disconnect it during severe voltage instability or unusual heat." },
-                    { question: "Does the plug fit my wall socket?", answer: "Confirm the plug variant on the supplied unit and match it to the socket. Use a correctly rated adapter if required; do not force mismatched pins." }
+                    { question: "Does the plug fit my wall socket?", answer: "Our sample has foldable US-style Type-A prongs that seated in standard Egyptian universal sockets without a travel adapter; it is not a Europlug. If your socket differs, use a correctly rated adapter; do not force mismatched pins." }
                 ]
             },
             ar: {
@@ -80,10 +80,10 @@ export const anker_nano_pro_45w_a2692 = {
                 faqs: [
                     { question: "كم سعر شاحن انكر نانو برو 45 واط A2692 في مصر؟", answer: "اعتمد على السعر المباشر الظاهر لـ A2692 وراجع المخزون ومحتويات العبوة وشروط الضمان والدفع والتوصيل الحالية قبل الطلب." },
                     { question: "هل يشحن لابتوب USB-C أو ايفون؟", answer: "يمكنه شحن جهاز متوافق عندما يوفر A2692 بروفايلاً يقبله الجهاز. قارن الجدول المطبوع والمحول الموصى به وقدرة الكابل؛ تختلف القدرة والمدة الفعلية." },
-                    { question: "هل يدعم أوضاع الشحن المحسن لسامسونج؟", answer: "قارن بروفايل PPS المطلوب لموديل سامسونج بخرج A2692 المطبوع واستخدم الكابل المطلوب. لا يضمن تصنيف 45 واط وحده ظهور وضع بعينه." },
-                    { question: "ما مدى صغر A2692؟", answer: "راجع المقاسات والوزن المطبوعين على العبوة الموردة. تعامل مع أي نسبة كمرجع مقارنة من الشركة بالشاحن المحدد في الرسم، لا بكل شاحن 45 واط." },
+                    { question: "هل يدعم أوضاع الشحن المحسن لسامسونج؟", answer: "شحن سامسونج 25 واط فائق السرعة: نعم؛ قرأ FNB58 لدينا نافذة PPS واحدة 3.3–11V/4.05A، وأظهر Galaxy S24 الشحن فائق السرعة بذروة ~24.2 واط (قياس). أما Samsung 45W SFC 2.0 فلا: ارتد S24 Ultra لدينا إلى 25 واط لأن PPS يتوقف عند 11 فولت. استخدم الكابل المطلوب." },
+                    { question: "ما مدى صغر A2692؟", answer: "تذكر انكر وزنًا نحو 60 جرامًا ومقاسات نحو 44 × 42 × 36 ملم، وقِسنا 60 جرامًا ونحو 44 × 42 × 36 ملم على عيّنتنا. تعامل مع أي نسبة كمرجع مقارنة من الشركة بالشاحن المحدد في الرسم، لا بكل شاحن 45 واط." },
                     { question: "بيتعامل إزاي مع الفولت والحرارة؟", answer: "استخدمه فقط داخل نطاق الدخل المطبوع على الشاحن. تذكر انكر تقنية GaN ومراقبة ActiveShield لهذا الموديل؛ وفر له تهوية وافصله عند تذبذب شديد أو سخونة غير طبيعية." },
-                    { question: "هل القابس يناسب المقبس عندي؟", answer: "تحقق من نسخة القابس على الوحدة الموردة وطابقها مع المقبس. استخدم محولاً مصنفاً بشكل صحيح عند الحاجة ولا تضغط سنوناً غير متوافقة." }
+                    { question: "هل القابس يناسب المقبس عندي؟", answer: "عيّنتنا بقابس أمريكي Type-A قابل للطي دخل الفيش المصرية القياسية مباشرة بلا محوّل سفر، وليس Europlug. إن اختلف مقبسك فاستخدم محولاً مصنفاً بشكل صحيح ولا تضغط سنوناً غير متوافقة." }
                 ]
             }
         },

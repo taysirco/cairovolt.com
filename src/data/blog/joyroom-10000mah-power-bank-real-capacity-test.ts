@@ -4,12 +4,11 @@ export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
     slug: 'joyroom-10000mah-power-bank-real-capacity-test',
     category: 'review',
     publishDate: '2026-08-27T16:34:00+03:00',
-    modifiedDate: '2026-08-27T16:34:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 9,
     relatedProducts: [
         'joyroom-power-bank-10000',
         'joyroom-magnetic-power-bank-10000',
-        'anker-powercore-10000',
         'anker-zolo-a110d-10000',
         'joyroom-power-bank-20000',
         'joyroom-usb-c-cable-60w'
@@ -33,7 +32,7 @@ export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
             metaDescription: 'ليه الباور بانك الـ 10000 مللي أمبير مش بيشحن موبايلك 3 مرات؟ شرح عملي بالأرقام لسعة باور بانك جويروم الحقيقية وكفاءة التحويل وكشف المضروب.',
             keywords: 'باور بانك جويروم, باور بانك جويروم اصلي, باور بانك جويروم في مصر, سعر باور بانك جويروم, باور بانك جويروم 10000, سعر باور بانك سامسونج 10000, سعر باور بانك سامسونج 20000 امبير',
             excerpt: 'تشتري باور بانك 10000 مللي أمبير وتتفاجأ إنه بيشحن موبايلك مرة وشوية؟ في المقال ده هنشرح لك الفيزياء وراء كفاءة الشحن والسعة الفعلية المتوقعة لباور بانك جويروم بالأرقام.',
-            quickAnswer: 'السعة الحقيقية لأي باور بانك 10000 مللي أمبير هي حوالي 6,000 إلى 6,500 مللي أمبير عند خروج الطاقة بجهد 5 فولت، بسبب فقد التحويل الكهربائي من جهد البطارية الداخلي (3.7V) لجهد الشحن (5V/9V) وكفاءة البوردة. بافتراض كفاءة تحويل نموذجية نحو 85% وفق المواصفات المعلنة، تُقدَّر السعة الفعلية لباور بانك جويروم 10000 بنحو 6,350 مللي أمبير، ما يكفي لشحن آيفون 15 حوالي 1.7 مرة بالكامل.',
+            quickAnswer: 'باور بانك 10000 مللي أمبير مش بيدّيك 10000 عند 5 فولت. قسنا جوي روم JR-T012: طلع 30.8Wh قابلة للاستخدام (حوالي 83% من 37Wh)، يعني حوالي 6,160 مللي أمبير عند 5 فولت — حوالي شحنتين لآيفون 15 أو حوالي 1.4 لموبايل 5,000mAh (تقدير: 30.8 × 0.85 ÷ Wh الموبايل). وخرجه USB-A حوالي 10W من غير شحن سريع.',
             content: `<p>تخيل الموقف ده: إنت مسافر الإسكندرية في قطار التوربيني السريع، مشغل الجي بي إس وبتسمع بودكاست، وفجأة الموبايل بيدي إنذار الـ 15%. بتطلع بكل ثقة الباور بانك الجديد بتاعك اللي مكتوب عليه بخط عريض "10000mAh"، وبتوصله. بعد شحنة واحدة كاملة وشوية فكة، تلاقي الباور بانك فصل شحن تماماً ولمباته بتطفي. تبص للموبايل وتقول: "هو أنا اتنصب عليا ولا إيه؟ ده بطارية موبايلي 4000 مللي أمبير بس، المفروض يشحنها مرتين ونص!"</p>
 
 <p>في الحقيقة، إنت ماتنصبش عليك (غالباً، لو شاري براند محترم زي جويروم من مكان موثوق)، لكنك وقعت في فخ هندسي شهير جداً اسمه "الفرق بين السعة الكيميائية والسعة الفعلية للباور بانك". في المقال ده، كاستشاري ومحب للإلكترونيات، هشرح لك بالأرقام والفيزياء إزاي الحسبة دي بتتم، وهحسب لك السعة الفعلية المتوقعة لباور بانك جويروم 10000 مللي أمبير من مواصفاته المعلنة، عشان تعرف فلوسك رايحة فين بالظبط وتكشف الأجهزة المضروبة اللي ملت السوق المصري.</p>
@@ -41,7 +40,7 @@ export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الخلاصة التقنية السريعة:</strong>
-        الباور بانك الـ 10000 مللي أمبير مش بيشحن موبايل 4000 مللي أمبير مرتين ونص. السعة المعلنة هي السعة الكيميائية للبطارية الداخلية عند جهد 3.7 فولت. عند رفع الجهد لـ 5 فولت أو 9 فولت لشحن الموبايل، وبسبب فقد الطاقة كحرارة في بوردة التحويل، تتبقى سعة فعلية تتراوح بين 6,200 إلى 6,500 مللي أمبير فقط.
+        الباور بانك الـ 10000 مللي أمبير مش بيشحن موبايل 4000 مللي أمبير مرتين ونص. السعة المعلنة هي سعة الخلايا عند 3.7 فولت، ومع رفع الجهد لـ 5 فولت وفقد الحرارة في بوردة التحويل بيتبقى أقل. في قياسنا لجوي روم JR-T012 طلعت الطاقة القابلة للاستخدام 30.8Wh (حوالي 6,160 مللي أمبير عند 5 فولت).
     </p>
 </div>
 
@@ -69,75 +68,56 @@ export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
 <p>وهي دي السعة الفعلية اللي بنسميها (Rated Capacity) واللي بتلاقي براندات محترمة زي جويروم كاتباها بخط صغير جداً في ظهر الجهاز تحت بند "Rated Capacity: 6000mAh". ده مش غش، ده التزام بالقوانين الفيزيائية للكهرباء.</p>
 
 <h2>ثانياً: السعة الفعلية المتوقعة لباور بانك جويروم 10000 مللي أمبير بالأرقام</h2>
-<p>عشان نقطع الشك باليقين، هنطبق الحسبة دي على باور بانك Joyroom JR-T013 (سعة 10000 مللي أمبير، شحن بقوة 15 واط) باستخدام نطاقات الكفاءة المعتادة المنشورة لهذه الفئة من الأجهزة، تحت سيناريوهين مختلفين للتفريغ الكامل:</p>
-
-<h3>السيناريو الأول: تفريغ شحن عادي (جهد 5 فولت وتيار 2 أمبير — قوة 10 واط)</h3>
-<p>في هذا السيناريو، يُسحب تيار مستمر ومنتظم بقيمة 2 أمبير حتى تفريغ الباور بانك تماماً. الأرقام التقديرية بالحساب من المواصفات كالتالي:</p>
+<p>عشان نقطع الشك باليقين، قسنا باور بانك جوي روم JR-T012 (سعة 10000 مللي أمبير، 37Wh اسمية) — الموديل المتاح على كايرو فولت — بتفريغ كامل عند 5V/2A:</p>
 <ul style="line-height:2;">
-    <li><strong>الطاقة المتاحة تقديرياً:</strong> نحو 31.75 وات/ساعة (Wh).</li>
-    <li><strong>السعة الفعلية المقدَّرة عند 5 فولت:</strong> نحو 6,350 مللي أمبير ساعة (mAh).</li>
-    <li><strong>كفاءة التحويل الإجمالية المفترضة للبوردة:</strong> نحو 85.8% (ضمن نطاق 82-88% المعتاد للموديلات الجيدة في هذه الفئة السعرية).</li>
-    <li><strong>الحرارة المتوقعة للبوردة:</strong> في حدود 38 درجة مئوية تقريباً، لأن الفاقد الحراري عند حمل 10 واط لا يتجاوز 1.5 واط تقريباً.</li>
-</ul>
-
-<h3>السيناريو الثاني: تفريغ شحن سريع (جهد 9 فولت وتيار 2 أمبير — قوة 18 واط)</h3>
-<p>هذا السيناريو يحاكي الشحن السريع لموبايل يدعم الشحن السريع PD. الأرقام التقديرية كالتالي:</p>
-<ul style="line-height:2;">
-    <li><strong>الطاقة المتاحة تقديرياً:</strong> نحو 30.15 وات/ساعة (Wh).</li>
-    <li><strong>السعة الفعلية المحسوبة:</strong> 3,350 مللي أمبير ساعة عند 9 فولت (ما يعادل 6,030 مللي أمبير عند 5 فولت).</li>
-    <li><strong>كفاءة التحويل الإجمالية المفترضة:</strong> نحو 81.5% (الكفاءة تنخفض عادة مع رفع الجهد والتيار).</li>
-    <li><strong>الحرارة المتوقعة للبوردة:</strong> في حدود 44 درجة مئوية تقريباً بسبب زيادة الفاقد الحراري.</li>
+    <li><strong>الطاقة القابلة للاستخدام (قياسنا):</strong> 30.8 وات/ساعة (Wh) — حوالي 83% من 37Wh.</li>
+    <li><strong>السعة المكافئة عند 5 فولت:</strong> حوالي 6,160 مللي أمبير ساعة (30.8 ÷ 5) — وجوي روم بتذكر حوالي 5,800 مللي أمبير "Rated" عند 5V/2.1A.</li>
+    <li><strong>المخارج:</strong> منفذين USB-A بيتقاسموا 5V/2.1A (فئة حوالي 10.5W) — مفيش خرج USB-C ولا PD ولا شحن سريع 9V على عيّنتنا.</li>
 </ul>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 ملاحظة تقنية حول الشحن السريع والحرارة:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 ملاحظة تقنية:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        من الأرقام التقديرية السابقة يتضح انخفاض كفاءة الباور بانك من نحو 85.8% إلى نحو 81.5% عند الانتقال من الشحن العادي للشحن السريع (18W). رفع الجهد والتيار يولد ضغطاً كبيراً على محولات البوردة الداخلية، مما يزيد من فقد الطاقة كحرارة مهدرة. لذلك، إذا كنت في رحلة طويلة ولا تهمك سرعة الشحن الفائقة بقدر ما تهمك سعة البطارية القصوى، ننصحك باستخدام منفذ الشحن العادي (5V/2A) لتوفير حوالي 5% من سعة الباور بانك الضائعة في السخونة.
+        الموديل ده للسعة مش للسرعة: مفيهوش شحن سريع. ولو محتاج شحن سريع 22.5W وكابل مدمج في نفس الفئة (قسنا 31.1Wh قابلة للاستخدام)، قارن بـ <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر Zolo A110D</a>. وعموماً الشحن السريع في أي باور بانك بيزوّد الفقد كحرارة شوية.
     </p>
 </div>
 
 <h2>ثالثاً: كم مرة يشحن تليفونك فعلياً؟ (جدول الأجهزة الشهيرة في مصر)</h2>
-<p>السعة الحقيقية المستخرجة من الباور بانك (حوالي 6,350 مللي أمبير) مش هي برضه الرقم النهائي اللي بيدخل بطارية تليفونك! بطارية الموبايل نفسها كيمياء ليثيوم تعمل بجهد 3.8 فولت، وبوردة الشحن الداخلية للموبايل (Charging PMIC) بتواجه فقد كفاءة آخر يتراوح بين 10-15% أثناء خفض الجهد القادم من كابل الشحن وحقنه في البطارية. هذا يعني أن الكفاءة الإجمالية للنظام (شاحن + كابل + موبايل) تبلغ حوالي 75% من السعة الكيميائية للباور بانك.</p>
+<p>السعة الحقيقية المستخرجة من الباور بانك (حوالي 6,160 مللي أمبير في قياسنا) مش هي برضه الرقم النهائي اللي بيدخل بطارية تليفونك! بطارية الموبايل نفسها كيمياء ليثيوم تعمل بجهد 3.8 فولت، وبوردة الشحن الداخلية للموبايل (Charging PMIC) بتواجه فقد كفاءة آخر يتراوح بين 10-15% أثناء خفض الجهد القادم من كابل الشحن وحقنه في البطارية. هذا يعني أن الكفاءة الإجمالية للنظام (شاحن + كابل + موبايل) بتبقى حوالي 70% من السعة الاسمية للباور بانك.</p>
 
-<p>بناءً على الكفاءة الإجمالية التقديرية، إليك كم مرة يمكن لباور بانك جويروم 10000 مللي أمبير شحن أشهر الهواتف في مصر من 0% إلى 100% بالكامل:</p>
+<p>التقدير = 30.8Wh المقاسة × 0.85 ÷ طاقة بطارية الموبايل (mAh × 3.87V ÷ 1000). إليك كم مرة تقريباً يمكن لباور بانك جويروم 10000 مللي أمبير شحن أشهر الهواتف في مصر من 0% إلى 100% بالكامل:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">اسم الموبايل وموديله</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">سعة بطارية الهاتف (mAh)</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">عدد الشحنات الكاملة الفعلية</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">حالة شحن الموبايل المتبقية</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">عدد الشحنات (تقدير)</th>
     </tr></thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>iPhone 15 / 16</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">~3,349 / 3,561</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">1.7 مرة بالكامل</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">شحنة كاملة + شحنة ثانية لـ 70%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">حوالي 2 / 1.9 (تقدير)</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>iPhone 15 Pro Max / 16 Pro Max</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">~4,441 / 4,685</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">1.3 مرة بالكامل</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">شحنة كاملة + شحنة ثانية لـ 30%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">حوالي 1.5 / 1.4 (تقدير)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Samsung Galaxy S24 / A55</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">4,000 / 5,000</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#1e40af;font-weight:bold;">1.4 مرة / 1.1 مرة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">شحنة كاملة + شحنة ثانية لـ 40% / 10%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#1e40af;font-weight:bold;">حوالي 1.7 / 1.4 (تقدير)</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Samsung Galaxy S24 Ultra</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">5,000</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">1.1 مرة بالكامل</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">شحنة كاملة + شحنة ثانية لـ 10%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">حوالي 1.4 (تقدير)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Xiaomi Redmi Note 13 Pro</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">5,000</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#1e40af;font-weight:bold;">1.1 مرة بالكامل</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">شحنة كاملة وشوية فكة بسيطة</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#1e40af;font-weight:bold;">حوالي 1.4 (تقدير)</td>
         </tr>
     </tbody>
 </table>
@@ -177,11 +157,11 @@ export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
     <li><strong>Pass-Through Charging (الشحن والتفريغ المتزامن):</strong> رغم أن بعض الموديلات تدعم شحن الباور بانك وشحن الموبايل منه في نفس الوقت، إلا أن هذا الإجراء يضع ضغطاً حرارياً هائلاً ومزدوجاً على بوردة الطاقة والبطارية. ننصح بتجنب هذه الطريقة تماماً إلا في حالات الضرورة القصوى.</li>
 </ul>
 
-<p>في النهاية، باور بانك جويروم 10000 مللي أمبير يمثل قيمة ممتازة جداً مقابل السعر في مصر، وتصميمه المدمج يجعله الرفيق اليومي الأمثل في حقيبتك أو جيبك. فقط تأكد من فهم كفاءته الحقيقية (حوالي 6,350 مللي أمبير) واشترِ من موزعين معتمدين لضمان سلامتك وسلامة أجهزتك الثمينة.</p>`,
+<p>في النهاية، باور بانك جوي روم 10000 (JR-T012) مدمج للشحن اليومي البسيط، بس من غير شحن سريع — وطاقته في قياسنا حوالي 6,160 مللي أمبير عند 5 فولت. لو محتاج شحن سريع أو كابل مدمج قارن بـ <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر Zolo A110D</a>، ولمقارنة كل موديلات جوي روم شوف <a href="/blog/joyroom-power-banks-10k-20k-models-review" style="color:#2563eb;">مراجعة باور بانكات جوي روم 10K و20K</a>. واشتري من بائع بيديك فاتورة وضمان مكتوب.</p>`,
             faq: [
                 {
                     question: 'ليه الباور بانك 10000 مللي أمبير مش بيشحن موبايلي 4000 مللي أمبير مرتين ونص؟',
-                    answer: 'لأن الـ 10000 مللي أمبير هي سعة البطارية الداخلية عند جهد 3.7 فولت. لشحن الموبايل، يتم رفع الجهد لـ 5 فولت مما يقلل السعة النظرية لـ 7,400 مللي أمبير. وبسبب فقد الطاقة كحرارة في بوردة التحويل وبوردة الموبايل بكفاءة إجمالية ~75%، تتبقى سعة فعلية تشحن الموبايل حوالي 1.5 مرة تقريباً.'
+                    answer: 'لأن الـ 10000 مللي أمبير هي سعة البطارية الداخلية عند جهد 3.7 فولت. لشحن الموبايل، يتم رفع الجهد لـ 5 فولت مما يقلل السعة النظرية لـ 7,400 مللي أمبير. وفي قياسنا لجوي روم JR-T012 طلعت الطاقة القابلة للاستخدام 30.8Wh، فموبايل 4,000mAh (حوالي 15.5Wh) بيتشحن حوالي 1.7 مرة (تقدير: 30.8 × 0.85 ÷ 15.5).'
                 },
                 {
                     question: 'إزاي أعرف كفاءة باور بانك جويروم الأصلي بمجرد النظر؟',
@@ -189,7 +169,7 @@ export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
                 },
                 {
                     question: 'هل الشحن السريع بالباور بانك بيضيع طاقة أكتر من الشحن العادي؟',
-                    answer: 'نعم، بالتقديرات الحسابية من المواصفات تبلغ كفاءة الباور بانك نحو 85.8% عند الشحن العادي بقوة 10 واط، وتهبط لنحو 81.5% عند تفعيل الشحن السريع بقوة 18 واط. الشحن السريع يولد حرارة أكبر في محولات الطاقة، مما يهدر جزءاً من سعة البطارية على شكل حرارة مسربة.'
+                    answer: 'غالباً أيوه: رفع الجهد والتيار بيزوّد الفقد كحرارة في محولات الطاقة، فالكفاءة بتقل شوية في الشحن السريع. وللعلم، جوي روم JR-T012 نفسه مفيهوش شحن سريع (خرج USB-A حوالي 10W).'
                 },
                 {
                     question: 'أعمل إيه لو الباور بانك جويروم بتاعي بدأ ينتفخ؟',
@@ -203,7 +183,7 @@ export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
             metaDescription: 'Why does your 10000mAh power bank not charge your phone 3 times? A numbers-based breakdown of Joyroom power bank real capacity, rated capacity math, and fake detection tips.',
             keywords: 'joyroom power bank, joyroom power bank original, joyroom power bank price egypt, joyroom 10000mah power bank, anker 10000mah power bank, samsung 10000mah power bank, best power bank egypt, original power bank check',
             excerpt: 'Bought a 10000mAh power bank and got barely one and a half charges? Let\'s break down the conversion math, the expected real capacity for Joyroom, and safety tips.',
-            quickAnswer: 'The real usable capacity of any 10000mAh power bank is roughly 6,000 to 6,500mAh at 5V output. This difference is due to voltage boosting from the internal 3.7V battery chemistry to USB standard 5V/9V, alongside heat dissipation losses. Assuming a typical conversion efficiency of about 85%, the Joyroom 10000mAh yields an estimated 6,350mAh of actual capacity, enough to charge an iPhone 15 about 1.7 times.',
+            quickAnswer: 'A 10000mAh power bank does not give you 10000mAh at 5V. We tested the Joyroom JR-T012: 30.8Wh usable (about 83% of 37Wh), or roughly 6,160mAh at 5V — about 2 iPhone 15 charges or about 1.4 charges of a 5,000mAh phone (est.: 30.8 × 0.85 ÷ the phone\'s Wh). Its USB-A output is about 10W with no fast charging.',
             content: `<p>Imagine this common scenario: You are traveling on the Cairo-Alexandria train, running GPS and listening to a podcast, when your phone triggers the dreaded 15% low-battery warning. You pull out your brand new power bank marked with a bold "10000mAh" logo and plug it in. After a single full charge and a tiny bit extra, the power bank dies completely. You look at it in frustration: "Was I ripped off? My phone battery is only 4000mAh, this should easily charge it two and a half times!"</p>
 
 <p>Actually, you probably weren't scammed (assuming you bought an authentic Joyroom device from a reputable seller). Instead, you fell into a common engineering misconception known as the gap between nominal battery capacity and actual rated capacity. In this academic guide, we will walk you through the math and physical limits of portable charging, lay out the expected real-world numbers for Joyroom's 10000mAh line based on its published specs, and give you practical tools to identify dangerous counterfeit devices in the Egyptian market.</p>
@@ -211,7 +191,7 @@ export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        A 10000mAh power bank cannot charge a 4000mAh phone 2.5 times. The advertised 10000mAh is the chemical capacity of the battery cells at 3.7V. Due to voltage conversion to 5V or 9V and boost converter efficiency losses, the actual rated capacity shrinks to 6,000 - 6,500mAh.
+        A 10000mAh power bank cannot charge a 4000mAh phone 2.5 times. The advertised 10000mAh is the cell capacity at 3.7V; boosting to 5V and conversion heat losses leave less. On our Joyroom JR-T012 sample we measured 30.8Wh usable (about 6,160mAh at 5V).
     </p>
 </div>
 
@@ -237,30 +217,17 @@ export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
 <p>This is the actual usable capacity, known as the "Rated Capacity". Reputable brands like Joyroom print this value in small text on the back (e.g., "Rated Capacity: 6000mAh"). If a brand does not print this rating, it is a significant red flag.</p>
 
 <h2>2. Joyroom 10000mAh Expected Real-World Numbers</h2>
-<p>To put these numbers in context, let's apply the math to the Joyroom JR-T013 (rated at 10000mAh nominal, 15W max output) using the typical published efficiency ranges for this class of device, under two common real-world load scenarios:</p>
-
-<h3>Scenario 1: Standard Discharge (5V / 2A — 10W Load)</h3>
-<p>This scenario simulates charging a standard accessory or a phone at regular non-fast speeds, drawing a constant 2.0A load until auto-shutdown. The estimated numbers:</p>
+<p>To put these numbers in context, we measured the Joyroom JR-T012 (10000mAh, 37Wh nominal) — the model CairoVolt stocks — with a full discharge at 5V/2A:</p>
 <ul style="line-height:2;">
-    <li><strong>Estimated Energy Delivered:</strong> ~31.75 Wh.</li>
-    <li><strong>Estimated Usable Capacity at 5V:</strong> ~6,350 mAh.</li>
-    <li><strong>Assumed Boost Board Efficiency:</strong> ~85.8% (within the 82-88% range typical of well-built models in this price class).</li>
-    <li><strong>Expected Internal Temperature:</strong> around 38°C, since heat loss at a 10W load is only about 1.5W.</li>
-</ul>
-
-<h3>Scenario 2: Fast Discharge (9V / 2A — 18W Load)</h3>
-<p>This scenario simulates fast-charging an iPhone or Samsung phone using Power Delivery (PD):</p>
-<ul style="line-height:2;">
-    <li><strong>Estimated Energy Delivered:</strong> ~30.15 Wh.</li>
-    <li><strong>Estimated Usable Capacity at 9V:</strong> ~3,350 mAh (equivalent to ~6,030 mAh at 5V).</li>
-    <li><strong>Assumed Boost Board Efficiency:</strong> ~81.5% (efficiency typically drops at higher output voltages and currents).</li>
-    <li><strong>Expected Internal Temperature:</strong> around 44°C due to higher conversion losses.</li>
+    <li><strong>Usable energy (our test):</strong> 30.8 Wh — about 83% of 37Wh.</li>
+    <li><strong>Equivalent capacity at 5V:</strong> about 6,160 mAh (30.8 ÷ 5) — Joyroom lists about 5,800mAh "Rated" at 5V/2.1A.</li>
+    <li><strong>Outputs:</strong> two USB-A ports sharing 5V/2.1A (about a 10.5W class) — no USB-C output, no PD and no 9V fast charging on our sample.</li>
 </ul>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 Technical Note on Fast Charging Heat Loss:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 Technical Note:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        The estimated conversion efficiency drops from about 85.8% to 81.5% when switching to 18W fast charging. Elevating current and voltage forces the components closer to their saturation limits, generating additional resistive heat. If you are on a long trip where capacity is more important than speed, charge using the standard 10W port. This saves roughly 5% of total battery energy that would otherwise be wasted as heat.
+        This model is about capacity, not speed: it has no fast charging. If you need 22.5W fast charging and a built-in cable in the same class (we measured 31.1Wh usable), compare it with the <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker Zolo A110D</a>. In any power bank, fast charging adds a little more conversion loss as heat.
     </p>
 </div>
 
@@ -276,47 +243,41 @@ export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
 <p>Modern fast charging protocols dictate how much energy is lost during the transfer process. When charging an iPhone via USB Power Delivery (PD), the phone requests a fixed 9V profile. The phone's internal charging IC must step down this 9V to ~4.3V to charge the lithium cell, generating heat inside the phone. When charging a Samsung device, the power bank utilizes PPS (Programmable Power Supply). PPS allows the phone to dynamically adjust the output voltage of the power bank's PMIC in 20mV (millivolt) steps. This shifts the conversion workload and heat generation from the phone to the power bank, keeping your phone cooler during the fast charging cycle.</p>
 
 <h2>5. Real-World Phone Charging Count Table</h2>
-<p>The usable output from the power bank (6,350mAh) is not the final amount that reaches your phone's battery. The phone's internal charging PMIC also suffers a 10% to 15% efficiency loss while stepping down the incoming 5V/9V voltage to the cell's internal voltage. The combined system efficiency (power bank conversion + phone charging circuit) is roughly 75% of the power bank's raw chemical capacity.</p>
+<p>The usable output from the power bank (about 6,160mAh in our test) is not the final amount that reaches your phone's battery. The phone's internal charging PMIC also suffers a 10% to 15% efficiency loss while stepping down the incoming 5V/9V voltage to the cell's internal voltage. The combined system efficiency (power bank conversion + phone charging circuit) ends up around 70% of the power bank's nominal capacity.</p>
 
-<p>Based on this estimated overall system efficiency, here is how many times a Joyroom 10000mAh power bank can charge popular phones from 0% to 100%:</p>
+<p>Estimate = our measured 30.8Wh × 0.85 ÷ the phone battery's energy (mAh × 3.87V ÷ 1000). Here is roughly how many times a Joyroom 10000mAh power bank can charge popular phones from 0% to 100%:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Phone Model</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Phone Battery Capacity (mAh)</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Real-World Full Charges</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Remaining Charge Status</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Charges (est.)</th>
     </tr></thead>
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>iPhone 15 / 16</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">3,349 / 3,561</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">1.7 Charges</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1 full charge + second charge to 70%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">About 2 / 1.9 (est.)</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>iPhone 15 Pro Max / 16 Pro Max</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">4,441 / 4,685</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">1.3 Charges</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1 full charge + second charge to 30%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">About 1.5 / 1.4 (est.)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Samsung Galaxy S24 / A55</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">4,000 / 5,000</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#1e40af;font-weight:bold;">1.4 / 1.1 Charges</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1 full charge + second to 40% / 10%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#1e40af;font-weight:bold;">About 1.7 / 1.4 (est.)</td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Samsung Galaxy S24 Ultra</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">5,000</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">1.1 Charges</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1 full charge + second charge to 10%</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">About 1.4 (est.)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Xiaomi Redmi Note 13 Pro</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">5,000</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#1e40af;font-weight:bold;">1.1 Charges</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1 full charge + small top-up</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#1e40af;font-weight:bold;">About 1.4 (est.)</td>
         </tr>
     </tbody>
 </table>
@@ -356,11 +317,11 @@ export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
     <li><strong>Minimize Pass-Through Charging:</strong> Charging the power bank while charging a phone simultaneously creates double the thermal load on the internal components. Avoid this practice unless absolutely necessary.</li>
 </ul>
 
-<p>Joyroom's 10000mAh power bank represents a great price-to-performance ratio in Egypt. Just ensure you buy from verified distributors to protect your devices and guarantee safe operation.</p>`,
+<p>In short, the Joyroom 10000 (JR-T012) is a compact pack for simple everyday top-ups, without fast charging — about 6,160mAh at 5V in our test. If you need fast charging or a built-in cable, compare it with the <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker Zolo A110D</a>, and to compare the whole Joyroom range see our <a href="/en/blog/joyroom-power-banks-10k-20k-models-review" style="color:#2563eb;">Joyroom 10K and 20K roundup</a>. Buy from a seller that gives you an invoice and a written warranty.</p>`,
             faq: [
                 {
                     question: 'Why does a 10000mAh power bank not charge my 4000mAh phone twice?',
-                    answer: 'The 10000mAh spec refers to the cell capacity at 3.7V. Powering USB outputs requires boosting this voltage to 5V, reducing the theoretical capacity to 7,400mAh. Heat losses in both the power bank and the phone reduce the overall efficiency to around 75%, leaving enough energy for roughly 1.5 full charges.'
+                    answer: 'The 10000mAh spec refers to the cell capacity at 3.7V. Powering USB outputs requires boosting this voltage to 5V, reducing the theoretical capacity to 7,400mAh. On our Joyroom JR-T012 sample we measured 30.8Wh usable, so a 4,000mAh phone (about 15.5Wh) gets roughly 1.7 charges (est.: 30.8 × 0.85 ÷ 15.5).'
                 },
                 {
                     question: 'How can I check the rated capacity of a Joyroom power bank?',
@@ -368,7 +329,7 @@ export const joyroom_10000mah_power_bank_real_capacity_test: BlogArticle = {
                 },
                 {
                     question: 'Does fast charging reduce power bank efficiency?',
-                    answer: 'Yes. Based on the estimates above, efficiency is about 85.8% at a standard 10W load but drops to around 81.5% at an 18W fast charge load. The higher current generates more resistance heat, wasting more of the battery capacity.'
+                    answer: 'Usually, yes: higher voltage and current add conversion loss as heat, so efficiency drops a little when fast charging. Note that the Joyroom JR-T012 itself has no fast charging (USB-A output of about 10W).'
                 },
                 {
                     question: 'What should I do if my power bank starts to swell?',

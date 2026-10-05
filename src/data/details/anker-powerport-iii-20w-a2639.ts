@@ -8,14 +8,16 @@ import type { ProductDetail } from './_types';
 export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
     aiTldr: {
         en: [
-            'Anker PowerPort III 20W Cube A2149 / A2149P21 (~520 EGP): single USB-C fixed PD — FNB58 decoded ONLY 5V/3A + 9V/2.22A. NOT A2347K11 (that SKU adds 12V/1.67A and is a longer foldable brick on slug anker-powerport-20w).',
+            'Anker PowerPort III 20W Cube (A2149 / A2149P21) is a single-port USB-C fixed-PD wall charger: our FNB58 decoded only 5V/3A + 9V/2.22A, and the 9V rail peaked at 19.76W. It is not A2347K11, which adds 12V/1.67A in a longer foldable brick.',
+            'Listing price ~520 EGP. A2347K11 is sold on the anker-powerport-20w listing.',
             'CairoVolt peak 19.76W on the 9V rail (8.94V/2.21A) — 98.8% of the 19.98W PDO — on sample CV-CH-A2149-001 (primary load day 2026-07-14). 5V rail held 15.02W (5.04V/2.98A).',
             'iPhone 13 timed 0→50% in 27 min / 0→100% in 1h 37m (Lightning PD). iPhone 15/16 peaks labelled est. from Apple\'s ~20W wired ceiling + that iPhone 13 run — not a invented same-day Pro Max A/B.',
             'Foldable US Type-A / NEMA 1-15 cube (~32 mm, 42.1g) — pocketable for Cairo→Hurghada; many Egyptian universal sockets accept Type-A; Europlug-only / deep-recess fixtures may need a rated adapter. No PPS — Galaxy A15 stayed at 5V/2A (2h 18m to full).',
             'Surface 61.3°C after 30 min at ~20W (ambient ~28°C). Sample refresh 2026-07-24 · Eng. Omar Khaled: identity + PDO re-decode + recall re-check only — no invented same-hour thermal A/B vs A2347K11\'s 15-min 57.9°C. NOT on anker.com/product-recalls.',
         ],
         ar: [
-            'انكر PowerPort III 20W Cube A2149 / A2149P21 (~520 جنيه): منفذ USB-C واحد PD ثابت — FNB58 فكّ فقط 5V/3A + 9V/2.22A. ليس A2347K11 (ذلك الموديل يضيف 12V/1.67A وهو قالب أطول قابل للطي على slug anker-powerport-20w).',
+            'انكر PowerPort III 20W Cube (A2149 / A2149P21) شاحن حائط بمنفذ USB-C واحد وPD ثابت: فكّ FNB58 لدينا فقط 5V/3A + 9V/2.22A، وبلغت ذروة منفذ 9V نحو 19.76 واط. ليس A2347K11 الذي يضيف 12V/1.67A في قالب أطول قابل للطي.',
+            'سعر القائمة ~520 جنيه. يُباع A2347K11 على قائمة anker-powerport-20w.',
             'ذروة CairoVolt 19.76 واط على منفذ 9V (8.94V/2.21A) — 98.8% من PDO 19.98 واط — على العيّنة CV-CH-A2149-001 (يوم الحمل الأساسي 2026-07-14). منفذ 5V ثبت 15.02 واط (5.04V/2.98A).',
             'iPhone 13 وُقّت 0→50% في 27 دقيقة / 0→100% في 1س 37د (Lightning PD). ذروات iPhone 15/16 موسومة تقديري من سقف آبل السلكي ~20 واط + جولة iPhone 13 — بلا A/B Pro Max مخترع في نفس اليوم.',
             'كيوب US Type-A / NEMA 1-15 قابل للطي (~32 ملم، 42.1 جرام) — عملي لرحلة القاهرة→الغردقة؛ كثير من الفيش المصرية العمومية تقبل Type-A؛ مخارج Europlug فقط / الغائرة قد تحتاج محوّلًا مصنّفًا. بلا PPS — Galaxy A15 بقي على 5V/2A (2س 18د للامتلاء).',
@@ -94,8 +96,8 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
             ar: 'غير مستدعى — A2149 / A2149P21 غائبان عن anker.com/product-recalls (rc2506 / قائمة باور بانك يونيو 2025)؛ لا إصابة CPSC لشاحن حائط A2149',
         },
         'Efficiency': {
-            en: 'Not measured — no AC power analyzer (PZEM) on this pass; we do not invent wall efficiency %',
-            ar: 'غير مقيسة — بلا محلّل قدرة AC (PZEM)؛ لا نخترع نسبة كفاءة من الحائط',
+            en: 'Not measured — no AC power analyzer (PZEM) on this pass',
+            ar: 'غير مقيسة — بلا محلّل قدرة AC (PZEM)',
         },
     },
     benchTest: {
@@ -113,30 +115,30 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
         },
         methodology: {
             en:
-                'A2149 / A2149P21 Cube was run under CairoVolt wall-charger protocol §7.1 on sample CV-CH-A2149-001 (primary load 2026-07-14; refresh 2026-07-24 · Eng. Omar Khaled). ' +
+                'A2149 / A2149P21 Cube was run under CairoVolt wall-charger protocol on sample CV-CH-A2149-001 (primary load 2026-07-14; refresh 2026-07-24 · Eng. Omar Khaled). ' +
                 'ALIAS GATE before load: shell/box print A2149 / A2149P21; filename token "a2639" and sibling slug anker-powerport-20w (A2347K11) rejected as identity. A2347 adds 12V/1.67A — if FNB58 had shown a 12V PDO, we would flag a misboxed unit. ' +
-                '§8 physics gates: every fixed PDO obeys W = V × A (5×3 = 15W; 9×2.22 = 19.98W); single-port peak ≤ 20W label; iPhone 13 half-charge ≥ Battery_Wh ÷ (Charging_W × ~0.90) theoretical floor — 27 min measured is allowed; Samsung 25W SFC cannot appear without a PPS APDO. ' +
+                'Physics gates: every fixed PDO obeys W = V × A (5×3 = 15W; 9×2.22 = 19.98W); single-port peak ≤ 20W label; iPhone 13 half-charge ≥ Battery_Wh ÷ (Charging_W × ~0.90) theoretical floor — 27 min measured is allowed; Samsung 25W SFC cannot appear without a PPS APDO. ' +
                 '(A) FNB58 fw v1.3 PD Info decode, no load — enumerated TWO fixed PDOs; confirmed ZERO PPS APDO and ZERO 12V rail (SKU honesty vs A2347). Re-decoded unchanged on 2026-07-24 refresh. ' +
                 '(B–C) Each fixed rail loaded on JUWEI 35W; logged FNB58 V·A·W; 9V peak held as primary iPhone rail. ' +
                 '(D) N/A — single port. (E) PPS programmed holds N/A — no APDO; documented absent rather than inventing 8.5V/2.5A data. ' +
                 '(F) Real phones from ~0%: Apple iPhone 13 (Lightning PD, USB-C→Lightning cable) and Samsung Galaxy A15 (USB-C, PPS-capable) — timed 0→50% / 0→100%. iPhone 15/16 / iPad times labelled est. from published Wh + Apple 20W class + our iPhone 13 measurement + cited 9to5Mac/PhoneArena — not invented same-day A/B. ' +
                 '(G) GM320 IR surface temps under sustained ~20W for 30 min (5-min interval log); hottest face 61.3°C. NOT re-run as paired same-hour A/B vs A2347\'s 15-min protocol on 2026-07-24. ' +
                 '(H) OCP: JUWEI push >3A on 5V and >2.22A on 9V. (K) Kkmoon 0.01g + Mitutoyo caliper. (L) Visual plug: foldable US Type-A / NEMA 1-15 — Egypt fit note (universal vs Europlug-only). ' +
-                '(I–J) NOT run: no-load vampire and wall efficiency — no PZEM; publish neither (§6.7 / §11.3). ' +
+                '(I–J) NOT run: no-load vampire and wall efficiency — no PZEM; publish neither. ' +
                 '(M) Recall check anker.com/product-recalls dated 2026-07-24 — A2149 not on the power-bank recall list. ' +
                 'A2347K11 cross-sheet numbers (peak 19.72W, 12V rail 19.68W, iPhone 15 ~19.4W/~29 min to 50%, 57.9°C/15 min, 39.6g) are from CV-CH-A2347K11-001 on 2026-07-24 — cited for SKU contrast only; not a same-hour paired thermal A/B. ' +
                 'Independent corroboration (not our data): anker.com/eu-en/products/a2149 claims iPhone 13 to 50% in 30 min (our sample beat by 3 min); 9to5Mac 2023 confirms 20W brick remains sufficient for current iPhones; MacRumors documents ~20W iPhone wired ceiling. Single unit; batches may vary.',
             ar:
-                'شُغّل كيوب A2149 / A2149P21 وفق بروتوكول شواحن الحائط §7.1 في كايرو فولت على العيّنة CV-CH-A2149-001 (حمل أساسي 2026-07-14؛ تحديث 2026-07-24 · م. عمر خالد). ' +
+                'شُغّل كيوب A2149 / A2149P21 وفق بروتوكول شواحن الحائط في كايرو فولت على العيّنة CV-CH-A2149-001 (حمل أساسي 2026-07-14؛ تحديث 2026-07-24 · م. عمر خالد). ' +
                 'بوابة الاسم المستعار قبل الحمل: طباعة الهيكل/الصندوق A2149 / A2149P21؛ رُفض رمز الملف "a2639" وslug الشقيق anker-powerport-20w (A2347K11) كهوية. A2347 يضيف 12V/1.67A — لو أظهر FNB58 PDO 12V لأشرنا إلى وحدة خاطئة التعبئة. ' +
-                'بوابات الفيزياء §8: كل PDO ثابت يطيع W = V × A (5×3 = 15 واط؛ 9×2.22 = 19.98 واط)؛ ذروة المنفذ الواحد ≤ ملصق 20 واط؛ نصف شحن iPhone 13 ≥ الحد النظري Battery_Wh ÷ (Charging_W × ~0.90) — 27 دقيقة مقيسة مسموحة؛ Samsung 25W SFC لا يظهر بلا PPS APDO. ' +
+                'بوابات الفيزياء: كل PDO ثابت يطيع W = V × A (5×3 = 15 واط؛ 9×2.22 = 19.98 واط)؛ ذروة المنفذ الواحد ≤ ملصق 20 واط؛ نصف شحن iPhone 13 ≥ الحد النظري Battery_Wh ÷ (Charging_W × ~0.90) — 27 دقيقة مقيسة مسموحة؛ Samsung 25W SFC لا يظهر بلا PPS APDO. ' +
                 '(A) فك FNB58 fw v1.3 لـ PD Info بلا حمل — أحصينا PDOين ثابتين؛ وأكّدنا صفر PPS APDO وصفر منفذ 12V (صدق الموديل مقابل A2347). أُعيد الفك دون تغيير في تحديث 2026-07-24. ' +
                 '(B–C) كل منفذ ثابت حُمّل على JUWEI 35W؛ سجّلنا V·A·W من FNB58؛ وثبّتنا ذروة 9V كمنفذ الآيفون الأساسي. ' +
                 '(D) غير منطبق — منفذ واحد. (E) تثبيتات PPS غير منطبقة — لا APDO؛ وثّقنا الغياب بدل اختراع بيانات 8.5V/2.5A. ' +
                 '(F) هواتف حقيقية من ~0%: Apple iPhone 13 (Lightning PD، كابل USB-C→Lightning) وSamsung Galaxy A15 (USB-C، قادر على PPS) — مع توقيت 0→50% / 0→100%. أزمنة iPhone 15/16 / الآيباد موسومة تقديري من Wh المنشور + فئة آبل 20 واط + قياس iPhone 13 + 9to5Mac/PhoneArena المستشهدة — بلا A/B مخترع في نفس اليوم. ' +
                 '(G) حرارة سطح GM320 تحت ~20 واط متواصل 30 دقيقة (تسجيل كل 5 دقائق)؛ أعلى وجه 61.3°م. لم تُعَد كـ A/B حراري مقترن في نفس الساعة مقابل بروتوكول A2347 لمدة 15 دقيقة في 2026-07-24. ' +
                 '(H) OCP: دفع JUWEI >3A على 5V و>2.22A على 9V. (K) وزن Kkmoon 0.01 جرام + قدمة Mitutoyo. (L) القابس بصريًا: US Type-A / NEMA 1-15 قابل للطي — ملاحظة ملاءمة مصر (عمومي مقابل Europlug فقط). ' +
-                '(I–J) لم يُنفَّذا: استهلاك بلا حمل وكفاءة الحائط — بلا PZEM؛ ولا ننشر أيًا منهما (§6.7 / §11.3). ' +
+                '(I–J) لم يُنفَّذا: استهلاك بلا حمل وكفاءة الحائط — بلا PZEM؛ ولا ننشر أيًا منهما. ' +
                 '(M) فحص استدعاء anker.com/product-recalls بتاريخ 2026-07-24 — A2149 غير مدرج في قائمة باور بانك. ' +
                 'أرقام A2347K11 عبر الأوراق (ذروة 19.72 واط، منفذ 12V 19.68 واط، iPhone 15 ~19.4 واط/~29 دقيقة إلى 50%، 57.9°م/15 دقيقة، 39.6 جرام) من CV-CH-A2347K11-001 في 2026-07-24 — للاستشهاد بالتباين فقط؛ ليست A/B حراريًا في نفس الساعة. ' +
                 'للاسترجاع المستقل (وليست بياناتنا): anker.com/eu-en/products/a2149 تدّعي iPhone 13 إلى 50% في 30 دقيقة (عيّنتنا سبقتها بـ 3 دقائق)؛ 9to5Mac 2023 يؤكّد كفاية شاحن 20 واط للآيفونات الحالية؛ MacRumors يوثّق سقف الآيفون السلكي ~20 واط. وحدة واحدة؛ قد تختلف الدفعات.',
@@ -154,7 +156,7 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
                 param: { en: 'Identity — A2149 Cube vs A2347K11', ar: 'الهوية — كيوب A2149 مقابل A2347K11' },
                 rated: { en: 'this listing: A2149 / A2149P21; sibling slug claims A2347K11', ar: 'هذه القائمة: A2149 / A2149P21؛ الـ slug الشقيق يدّعي A2347K11' },
                 measured: { en: 'Shell/box print A2149 / A2149P21 on CV-CH-A2149-001 — Cube form; A2347K11 NOT on this sample', ar: 'طباعة الهيكل/الصندوق A2149 / A2149P21 على CV-CH-A2149-001 — شكل كيوب؛ A2347K11 غير موجود على هذه العيّنة' },
-                note: { en: '§ alias gate — do not merge with anker-powerport-20w', ar: '§ بوابة الاسم المستعار — لا تدمج مع anker-powerport-20w' },
+                note: { en: 'Different product from the anker-powerport-20w listing (A2347K11); not an alias', ar: 'منتج مختلف عن قائمة anker-powerport-20w (A2347K11)؛ ليس اسمًا بديلًا' },
             },
             {
                 param: { en: 'PDOs decoded (FNB58)', ar: 'PDO المفكوكة (FNB58)' },
@@ -166,7 +168,7 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
                 param: { en: 'PPS APDO windows (FNB58)', ar: 'نوافذ PPS APDO (FNB58)' },
                 rated: { en: 'none advertised for A2149 fixed-PD Cube', ar: 'غير معلنة لكيوب A2149 PD الثابت' },
                 measured: { en: 'NONE — zero APDO; Samsung 25W SFC envelope unavailable', ar: 'لا يوجد — صفر APDO؛ ظرف Samsung 25W SFC غير متاح' },
-                note: { en: '§7.1-E skipped honestly — no PPS to program; claiming SFC would be false', ar: '§7.1-E تُخطّي بصدق — لا PPS للبرمجة؛ ادعاء SFC يكون كاذبًا' },
+                note: { en: 'Skipped honestly — no PPS to program; claiming SFC would be false', ar: 'تُخطّي بصدق — لا PPS للبرمجة؛ ادعاء SFC يكون كاذبًا' },
             },
             {
                 param: { en: 'Peak 5V/3A rail', ar: 'ذروة منفذ 5V/3A' },
@@ -178,7 +180,7 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
                 param: { en: 'Peak 9V/2.22A rail (primary iPhone)', ar: 'ذروة منفذ 9V/2.22A (الآيفون الأساسي)' },
                 rated: '19.98W',
                 measured: '19.76W (8.94V/2.21A)',
-                note: { en: 'Primary peak — 98.8% of rated PDO; ≤ 20W label (§8)', ar: 'الذروة الأساسية — 98.8% من PDO الاسمي؛ ≤ ملصق 20 واط (§8)' },
+                note: { en: 'Primary peak — 98.8% of rated PDO; ≤ 20W label', ar: 'الذروة الأساسية — 98.8% من PDO الاسمي؛ ≤ ملصق 20 واط' },
             },
             {
                 param: { en: '12V rail presence (SKU honesty)', ar: 'وجود منفذ 12V (صدق الموديل)' },
@@ -189,7 +191,7 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
             {
                 param: { en: 'Over-current protection (OCP)', ar: 'الحماية من التيار الزائد (OCP)' },
                 measured: { en: 'Cuts output above the rated limit in 2–3 seconds on both rails', ar: 'يقطع الخرج فوق الحد المُعلن خلال 2–3 ثوانٍ على المستويين' },
-                note: { en: '>3A on 5V · >2.22A on 9V — both trip cleanly (§7.1-H ≤ 3 s)', ar: 'أعلى من 3A على 5V · أعلى من 2.22A على 9V — الاثنان يفصلان بنظافة (§7.1-H ≤ 3 ث)' },
+                note: { en: '>3A on 5V · >2.22A on 9V — both trip cleanly (≤ 3 s)', ar: 'أعلى من 3A على 5V · أعلى من 2.22A على 9V — الاثنان يفصلان بنظافة (≤ 3 ث)' },
             },
             {
                 param: { en: 'iPhone 13 — peak context / 0→50% / 0→100%', ar: 'iPhone 13 — سياق الذروة / 0→50% / 0→100%' },
@@ -235,7 +237,7 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
                 param: { en: 'Plug type (visual / Egypt fit)', ar: 'نوع القابس (بصري / ملاءمة مصر)' },
                 rated: { en: 'Foldable Type-A Cube family (Anker A2149)', ar: 'عائلة كيوب Type-A قابل للطي (Anker A2149)' },
                 measured: { en: 'Confirmed foldable US Type-A / NEMA 1-15 — seats in many Egyptian universal sockets; NOT Europlug; NOT BS 1363', ar: 'مؤكّد US Type-A / NEMA 1-15 قابل للطي — يدخل كثيرًا من الفيش المصرية العمومية؛ ليس Europlug؛ ليس BS 1363' },
-                note: { en: '§7.1-L honesty from the unit in hand — deep-recess / Europlug-only outlets may need a rated adapter', ar: 'صدق §7.1-L من الوحدة في اليد — المخارج الغائرة / Europlug فقط قد تحتاج محوّلًا مصنّفًا' },
+                note: { en: 'Honesty from the unit in hand — deep-recess / Europlug-only outlets may need a rated adapter', ar: 'صدق من الوحدة في اليد — المخارج الغائرة / Europlug فقط قد تحتاج محوّلًا مصنّفًا' },
             },
             {
                 param: { en: 'Weight', ar: 'الوزن' },
@@ -252,7 +254,7 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
             {
                 param: { en: 'Wall efficiency / no-load draw', ar: 'كفاءة الحائط / الاستهلاك بلا حمل' },
                 measured: { en: 'NOT MEASURED — no PZEM AC analyzer on this pass', ar: 'غير مقيس — بلا محلّل PZEM AC في هذه الجولة' },
-                note: { en: 'Silence over invention — protocol §6.7 / §11.3', ar: 'الصمت أقوى من الاختراع — البروتوكول §6.7 / §11.3' },
+                note: { en: 'Not measured on this pass', ar: 'لم يُقس في هذا الاختبار' },
             },
             {
                 param: { en: 'Sample refresh (2026-07-24) · Eng. Omar Khaled', ar: 'تحديث العيّنة (2026-07-24) · م. عمر خالد' },
@@ -280,7 +282,7 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
             { en: '9V rail delivered 19.76W (8.94V/2.21A) — 98.8% of the 19.98W PDO; unusually honest for a sub-EGP-550 brick', ar: 'منفذ 9V أوصل 19.76 واط (8.94V/2.21A) — 98.8% من PDO 19.98 واط؛ أمانة نادرة لشاحن أقل من 550 جنيه' },
             { en: 'iPhone 13 to 50% in 27 min beat Anker\'s 30-min claim; lands on Apple\'s ~20W wired class (9to5Mac / MacRumors corroboration)', ar: 'iPhone 13 إلى 50% في 27 دقيقة أسرع من ادعاء انكر 30 دقيقة؛ يقع على فئة آبل السلكية ~20 واط (استشهاد 9to5Mac / MacRumors)' },
             { en: 'Genuine ~32 mm foldable Type-A cube at 42.1g — smaller bag footprint than elongated A2347 chassis (different SKU/day)', ar: 'كيوب Type-A قابل للطي ~32 ملم بوزن 42.1 جرام — أصغر في الحقيبة من هيكل A2347 المستطيل (موديل/يوم مختلف)' },
-            { en: 'OCP tripped in 2–3 s on both 5V and 9V over-current pushes (§7.1-H)', ar: 'OCP فصل خلال 2–3 ث عند دفع تيار زائد على منفذي 5V و9V (§7.1-H)' },
+            { en: 'OCP tripped in 2–3 s on both 5V and 9V over-current pushes', ar: 'OCP فصل خلال 2–3 ث عند دفع تيار زائد على منفذي 5V و9V' },
             { en: 'Sample refresh 2026-07-24 · Eng. Omar Khaled re-confirmed identity + PDOs + NOT recalled — without inventing a same-day thermal A/B vs A2347', ar: 'تحديث عيّنة 2026-07-24 · م. عمر خالد أعاد تأكيد الهوية + PDO + غير مستدعى — بلا اختراع A/B حراري في نفس اليوم مقابل A2347' },
         ],
         limits: [
@@ -292,7 +294,7 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
             { en: 'Single USB-C only; no cable in the box — budget EGP 150–250 for C-to-Lightning (iPhone 8–14) or C-to-C (iPhone 15+/iPad)', ar: 'منفذ USB-C واحد فقط؛ بلا كابل في العلبة — احسب 150–250 جنيه لكابل C إلى Lightning (iPhone 8–14) أو C إلى C (iPhone 15+/آيباد)' },
             { en: 'Nintendo Switch docked TV mode NOT supported — dock wants 15V/2.6A; this Cube tops at 9V', ar: 'وضع Nintendo Switch بالدوك للتلفزيون غير مدعوم — الدوك يريد 15V/2.6A؛ هذا الكيوب يتوقف عند 9V' },
             { en: 'iPhone 15/16, iPad, AirPods times labelled est. were not physically re-timed on this sample — only iPhone 13 and Galaxy A15 are physical phone runs', ar: 'أزمنة iPhone 15/16 والآيباد وAirPods الموسومة تقديري لم تُوقَّت فعليًا على هذه العيّنة — فقط iPhone 13 وGalaxy A15 جولات هاتف فعلية' },
-            { en: 'Wall efficiency and no-load draw NOT measured (no PZEM) — we do not invent % figures', ar: 'كفاءة الحائط والاستهلاك بلا حمل غير مقيسين (بلا PZEM) — لا نخترع نسبًا مئوية' },
+            { en: 'Wall efficiency and no-load draw NOT measured (no PZEM)', ar: 'كفاءة الحائط والاستهلاك بلا حمل غير مقيسين (بلا PZEM)' },
             { en: 'No public A2149-specific silicon teardown — we do not publish chip IDs we did not open', ar: 'لا تفكيك سيليكون عام مخصّص لـ A2149 — لا ننشر معرّفات رقائق لم نفتحها' },
             { en: 'Single unit tested (CV-CH-A2149-001) — production batches and regional plug variants may vary; 27-min / 61.3°C figures are this sample\'s primary-day results', ar: 'وحدة واحدة مُختبرة (CV-CH-A2149-001) — قد تختلف دفعات الإنتاج ونسخ القابس؛ أرقام 27 دقيقة / 61.3°م خاصة بعيّنتنا في يوم الحمل الأساسي' },
         ],

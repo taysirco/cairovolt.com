@@ -4,10 +4,10 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
     slug: 'honor-x-series-chargers-vs-samsung-xiaomi',
     category: 'buying-guide',
     publishDate: '2026-06-15',
-    modifiedDate: '2026-06-15',
+    modifiedDate: '2026-10-04',
     readingTime: 7,
     relatedProducts: [
-        'anker-a2741-charger-30w',
+        'anker-a2147-gan-charger-30w',
         'anker-powerport-20w',
         'joyroom-30w-fast-charger',
         'anker-powerline-usb-c-usb-c',
@@ -27,7 +27,7 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
             metaDescription: 'دليل شامل لأفضل شاحن Honor X8b و X7b و X6b في مصر 2026 — مقارنة بين الشاحن الأصلي وبدائل Anker و Joyroom. Honor بتشحن 35 واط عبر SuperCharge الخاص بيها والبديل PD حل احتياطي...',
             keywords: 'شاحن هونر x8b, شاحن honor x7b, بديل شاحن honor, أفضل شاحن honor مصر, شاحن سريع هونر, honor vs samsung شاحن, شاحن 35 واط هونر, هونر شحن سريع',
             excerpt: 'دليل عملي لأفضل شاحن Honor X series — هل البديل بيشحن بنفس سرعة الأصلي؟ الإجابة بالأرقام والاختبار.',
-            quickAnswer: 'Honor X8b بيشحن 35W عبر بروتوكول HONOR SuperCharge الخاص بيها (مش PD المفتوح)، وبيجي بشاحن 35W SuperCharge في العلبة. أي شاحن PD كويس بيشحنه كمان بس بسرعة أقل (حوالي 18-22.5W) كحل احتياطي متوفر دايماً بضمان محلي — أبطأ من الأصلي بس عملي لو ضاع شاحنك.',
+            quickAnswer: 'Honor X8b بيشحن 35W عبر بروتوكول HONOR SuperCharge الخاص بيها (مش PD المفتوح)، وبيجي بشاحن 35W SuperCharge في العلبة. أي شاحن PD كويس بيشحنه كمان بس بسرعة أقل (حوالي 18-22.5W) كحل احتياطي متوفر دايماً بضمان مكتوب من المتجر — أبطأ من الأصلي بس عملي لو ضاع شاحنك.',
             content: `<p>Honor بدأت تاخد حصة كبيرة في السوق المصري — خصوصاً بعد انفصالها عن Huawei في 2020 ورجوعها لخدمات Google. سلسلة Honor X (X8b, X7b, X6b) بقت من أكتر الموبايلات مبيعاً في فئة 5,000-9,000 جنيه. بس السؤال اللي كل مشتري Honor بيسأله: "أنا مش لاقي شاحن Honor أصلي في أي مكان — أشتري إيه؟"</p>
 
 <p>الحقيقة إن Honor X series بتستخدم بروتوكول <strong>HONOR SuperCharge</strong> الخاص بيها (SCP) — نفس عيلة Huawei SuperCharge القديمة، مش PD المفتوح زي سامسونج. عشان توصل لأقصى سرعة 35W محتاج شاحن Honor SuperCharge الأصلي، واللي بيجي مع X8b و X7b في العلبة أصلاً. أي شاحن PD محترم بيشحن Honor كمان بس بسرعة أقل (حوالي 18-22.5W) — مفيد كحل احتياطي لو ضاع شاحنك الأصلي أو محتاج شاحن تاني.</p>
@@ -36,7 +36,7 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> Honor X8b بيشحن 35W عبر HONOR SuperCharge الخاص بيها (مش PD المفتوح)، وبيجي بشاحنه في العلبة. أي شاحن PD كويس بيشحنه كمان بس بسرعة أقل (حوالي 18-22.5W) — حل احتياطي متوفر دايماً بضمان محلي.
+        <strong>💡 الإجابة السريعة:</strong> Honor X8b بيشحن 35W عبر HONOR SuperCharge الخاص بيها (مش PD المفتوح)، وبيجي بشاحنه في العلبة. أي شاحن PD كويس بيشحنه كمان بس بسرعة أقل (حوالي 18-22.5W) — حل احتياطي متوفر دايماً بضمان مكتوب من المتجر.
     </p>
 </div>
 
@@ -148,27 +148,15 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
     <tbody>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">السعر</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">400-600 ج (لو لقيته)</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">500 ج</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">350 ج</td>
+        <td style="padding:10px;border:1px solid #d1d5db;">400-600 ج تقريباً (نطاق سوق يختلف حسب البائع، لو لقيته)</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">{{price:anker-a2147-gan-charger-30w}} ج</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">{{price:joyroom-30w-fast-charger}} ج</td>
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">سرعة الشحن الفعلية</td>
         <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">35W ⬆️</td>
         <td style="padding:10px;border:1px solid #d1d5db;">~22.5W (PD)</td>
         <td style="padding:10px;border:1px solid #d1d5db;">~22.5W (PD)</td>
-    </tr>
-    <tr>
-        <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">0→50% (X8b)</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">25 دقيقة</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">28 دقيقة</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">29 دقيقة</td>
-    </tr>
-    <tr>
-        <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">0→100% (X8b)</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">59 دقيقة</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">65 دقيقة</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">66 دقيقة</td>
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">متوفر في مصر بسهولة؟</td>
@@ -178,9 +166,9 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">ضمان</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">6-12 شهر</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">18 شهر</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">18 شهر</td>
+        <td style="padding:10px;border:1px solid #d1d5db;">حسب البائع</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">ضمان كايرو فولت المكتوب (المدة في صفحة المنتج)</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">ضمان كايرو فولت المكتوب (المدة في صفحة المنتج)</td>
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">بيشحن أجهزة تانية؟</td>
@@ -191,13 +179,13 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
     </tbody>
 </table>
 
-<p><strong>المهم تعرفه:</strong> الشاحن الأصلي 35W SuperCharge (اللي بيجي في العلبة) هو الأسرع. شاحن PD بديل بيشحن X8b بسرعة أقل (حوالي 18-22.5W) لأنه مش بيفعّل SuperCharge — يعني أبطأ من الأصلي مش أسرع. بس ميزته إنه <strong>متوفر دايماً وبضمان محلي</strong>، فهو الخيار الأنسب لو ضاع شاحنك أو محتاج شاحن تاني للبيت أو الشغل.</p>
+<p><strong>المهم تعرفه:</strong> الشاحن الأصلي 35W SuperCharge (اللي بيجي في العلبة) هو الأسرع. شاحن PD بديل بيشحن X8b بسرعة أقل (حوالي 18-22.5W) لأنه مش بيفعّل SuperCharge — يعني أبطأ من الأصلي مش أسرع. بس ميزته إنه <strong>متوفر دايماً وبضمان مكتوب من المتجر</strong>، فهو الخيار الأنسب لو ضاع شاحنك أو محتاج شاحن تاني للبيت أو الشغل.</p>
 
 <h2>ليه شاحن Honor الأصلي صعب تلاقيه في مصر؟</h2>
 
 <p>Honor لسه بتبني شبكة توزيع في مصر — وتوفر الإكسسوارات الأصلية أقل بكتير من سامسونج أو شاومي. حتى في التوكيلات الرسمية، الشواحن مش دايماً متوفرة. وعلى أمازون وجوميا، معظم شواحن "Honor الأصلية" بتكون مستوردة من الصين بدون ضمان محلي — وبعضها مقلد.</p>
 
-<p>ده بالظبط ليه البديل PD هو الخيار العملي لو محتاج شاحن احتياطي لـ Honor — متوفر دايماً وبضمان محلي حقيقي، حتى لو أبطأ شوية من شاحن الـ 35W الأصلي. مش محتاج تستنى Honor تحل مشكلة التوزيع — خد شاحن Anker أو Joyroom كشاحن تاني وانسى الموضوع.</p>
+<p>ده بالظبط ليه البديل PD هو الخيار العملي لو محتاج شاحن احتياطي لـ Honor — متوفر دايماً وبضمان مكتوب من المتجر، حتى لو أبطأ شوية من شاحن الـ 35W الأصلي. مش محتاج تستنى Honor تحل مشكلة التوزيع — خد شاحن Anker أو Joyroom كشاحن تاني وانسى الموضوع.</p>
 
 <h2>الباقات الكاملة — شاحن + كابل</h2>
 
@@ -206,23 +194,17 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الباقة</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الشاحن</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الكابل</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الإجمالي</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">0→50% (X8b)</th>
     </tr></thead>
     <tbody>
     <tr style="background:#f0fdf4;">
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">💰 باقة الميزانية</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 30W (350 ج)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom C-C (120 ج)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">470 ج</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">29 دقيقة</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">جوي روم 30W ({{price:joyroom-30w-fast-charger}} ج)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">جوي روم C-C ({{price:joyroom-type-c-to-type-c-cable}} ج)</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">🏆 باقة الأداء</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Anker 30W (500 ج)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Anker C-C (180 ج)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">680 ج</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">28 دقيقة</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">انكر نانو 30W A2147 ({{price:anker-a2147-gan-charger-30w}} ج)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">انكر PowerLine C-C ({{price:anker-powerline-usb-c-usb-c}} ج)</td>
     </tr>
     </tbody>
 </table>
@@ -241,9 +223,9 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
 
 <h3>Honor X8b — الخيار الأمثل</h3>
 
-<p><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W A2741</a> بـ 500 جنيه — شاحن PD احتياطي ممتاز لـ Honor X8b. بيشحن الموبايل بحوالي 18-22.5W (أبطأ شوية من شاحن الـ 35W SuperCharge الأصلي لأنه PD مش SuperCharge)، بس GaN II يعني حجم أصغر وحرارة أقل و PD 3.0 كامل يخدم كل أجهزتك. <strong>أفضل خيار كشاحن تاني لـ Honor X8b.</strong></p>
+<p><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر نانو GaN 30W (A2147)</a> بـ {{price:anker-a2147-gan-charger-30w}} جنيه — شاحن حائط PD احتياطي كويس لـ Honor X8b. بيشحن الموبايل بحوالي 18-22.5W (أبطأ شوية من شاحن الـ 35W SuperCharge الأصلي لأنه PD مش SuperCharge)، بس GaN يعني حجم أصغر وحرارة أقل، و PD يخدم كل أجهزتك. <strong>خيار قوي كشاحن تاني لـ Honor X8b.</strong></p>
 
-<p>البديل الاقتصادي: <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> بـ 350 جنيه — نفس فكرة الشحن بالـ PD (حوالي 22.5W على Honor) بسعر أقل. الفرق: حجم أكبر شوية وحرارة أعلى بـ 3°م.</p>
+<p>البديل الاقتصادي: <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> بـ {{price:joyroom-30w-fast-charger}} جنيه — نفس فكرة الشحن بالـ PD (حوالي 22.5W على Honor) بسعر أقل. الفرق: حجم أكبر شوية وحرارة أعلى بـ 3°م.</p>
 
 <h3>Honor X7b — نفس الشاحن بس مع ملاحظة</h3>
 
@@ -251,15 +233,15 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
 
 <h3>Honor X6b — الشاحن المرفق كافي</h3>
 
-<p>X6b بيجي بشاحن 22.5W في العلبة — بس الموبايل نفسه بيقبل لحد 35W عبر HONOR SuperCharge، فلو عايز أقصى سرعة استخدم شاحن Honor SuperCharge 35W. لو ضاع أو اتكسر شاحنك وعايز بديل رخيص للاستخدام اليومي: <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20W</a> بـ 350 جنيه هيشحنه بـ 20W — أبطأ من الـ 35W بس كافي للشحن العادي. ولو عايز أسرع شوية بالـ PD — Joyroom 25W بـ 300 جنيه هيوصل لحوالي 22.5W.</p>
+<p>X6b بيجي بشاحن 22.5W في العلبة — بس الموبايل نفسه بيقبل لحد 35W عبر HONOR SuperCharge، فلو عايز أقصى سرعة استخدم شاحن Honor SuperCharge 35W. لو ضاع أو اتكسر شاحنك وعايز بديل رخيص للاستخدام اليومي: <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20W</a> بـ {{price:anker-powerport-20w}} جنيه هيشحنه بـ 20W — أبطأ من الـ 35W بس كافي للشحن العادي. ولو عايز أسرع شوية بالـ PD — <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 25W</a> بـ {{price:joyroom-25w-fast-charger}} جنيه هيوصل لحوالي 22.5W.</p>
 
 <h2>الكابل — نفس القصة مع كل البراندات</h2>
 
 <p>Honor X series كلها USB-C. لو اشتريت شاحن PD (USB-C) — محتاج كابل USB-C to USB-C:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">💰 <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">جوي روم USB-C to USB-C</a> بـ 120 جنيه — 60W، نايلون، يكفي لأقصى سرعة.</li>
-    <li style="margin-bottom:12px;">🏆 <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">انكر PowerLine USB-C to USB-C</a> بـ 180 جنيه — 25,000 دورة ثني، ضمان 18 شهر.</li>
+    <li style="margin-bottom:12px;">💰 <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">جوي روم USB-C to USB-C</a> بـ {{price:joyroom-type-c-to-type-c-cable}} جنيه — حتى 60W (من غير e-marker)، نايلون، يكفي لأقصى سرعة.</li>
+    <li style="margin-bottom:12px;">🏆 <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">انكر PowerLine USB-C to USB-C</a> بـ {{price:anker-powerline-usb-c-usb-c}} جنيه — 60W، بضمان كايرو فولت المكتوب (المدة في صفحة المنتج).</li>
 </ul>
 
 <h2>Honor و Huawei — هل الشواحن متبادلة؟</h2>
@@ -276,12 +258,12 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
 
 <h2>ملخص عام — Honor X Series في سطرين</h2>
 
-<p>Honor X series من أذكى الخيارات في الفئة المتوسطة — بمواصفات كويسة وشحن سريع 35W عبر HONOR SuperCharge بيجي شاحنه في العلبة (على X8b و X7b). عشان أقصى سرعة استخدم شاحن SuperCharge الأصلي. ولو محتاج شاحن تاني أو احتياطي — خد شاحن Joyroom 30W بـ 350 جنيه، هيشحن Honor بسرعة معقولة عبر PD وهيخدم كمان باقي أجهزة USB-C في البيت. شاحن واحد لكل حاجة كحل عملي.</p>
+<p>Honor X series من أذكى الخيارات في الفئة المتوسطة — بمواصفات كويسة وشحن سريع 35W عبر HONOR SuperCharge بيجي شاحنه في العلبة (على X8b و X7b). عشان أقصى سرعة استخدم شاحن SuperCharge الأصلي. ولو محتاج شاحن تاني أو احتياطي — خد شاحن جوي روم 30W بـ {{price:joyroom-30w-fast-charger}} جنيه، هيشحن Honor بسرعة معقولة عبر PD وهيخدم كمان باقي أجهزة USB-C في البيت. شاحن واحد لكل حاجة كحل عملي.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        شواحن Anker و Joyroom المتوافقة مع Honor X series <strong>أصلية بضمان 18 شهر</strong> + توصيل لكل المحافظات 24-72 ساعة. مش عارف تختار؟ راسلنا على واتساب بموديل موبايلك وهنرشحلك الشاحن المناسب.
+        شواحن Anker و Joyroom المتوافقة مع Honor X series <strong>أصلية بضمان كايرو فولت المكتوب</strong> (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات (عادةً 1–6 أيام عمل حسب المحافظة). مش عارف تختار؟ راسلنا على واتساب بموديل موبايلك وهنرشحلك الشاحن المناسب.
     </p>
 </div>`,
             faq: [
@@ -309,7 +291,7 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
             metaDescription: 'Complete guide to the best Honor X8b, X7b, and X6b charger in Egypt 2026 — comparing the original charger with Anker and Joyroom alternatives. Honor charges at 35W via its own SuperCharge...',
             keywords: 'honor x8b charger, honor x7b charger, honor charger alternative, best honor charger egypt, fast charger honor, honor vs samsung charger, 35w charger honor, honor fast charging',
             excerpt: 'A practical guide to the best Honor X series charger — does the alternative charge at the same speed as the original? The answer with real numbers.',
-            quickAnswer: 'Honor X8b charges at 35W via HONOR SuperCharge (SCP), its own protocol — not open PD — and it ships with a 35W SuperCharge charger in the box. A good PD charger also works but at a slower fallback speed (~18-22.5W), making it a handy always-available spare with local warranty — slower than the original, but practical if you lose your charger.',
+            quickAnswer: 'Honor X8b charges at 35W via HONOR SuperCharge (SCP), its own protocol — not open PD — and it ships with a 35W SuperCharge charger in the box. A good PD charger also works but at a slower fallback speed (~18-22.5W), making it a handy always-available spare with a written store warranty — slower than the original, but practical if you lose your charger.',
             content: `<p>Honor has been gaining significant market share in Egypt — especially after separating from Huawei in 2020 and returning to Google services. The Honor X series (X8b, X7b, X6b) has become one of the best-selling phone lines in the 5,000-9,000 EGP range. But the question every Honor buyer asks: "I can't find an original Honor charger anywhere — what should I buy?"</p>
 
 <p>Here's the reality: Honor X series uses <strong>HONOR SuperCharge</strong> (SCP), its own protocol — the same family as the old Huawei SuperCharge — not the open PD standard like Samsung. To reach the full 35W you need an Honor SuperCharge charger, which actually ships in the box with the X8b and X7b. Any reputable PD charger will also charge Honor, but at a lower fallback speed (~18-22.5W) — useful as a spare if you lose the original or need a second charger.</p>
@@ -318,7 +300,7 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Honor X8b charges at 35W via HONOR SuperCharge (its own protocol, not open PD) and ships with its charger in the box. A good PD charger also works but at a slower fallback (~18-22.5W) — a reliable, always-available spare with local warranty.
+        <strong>💡 Quick Answer:</strong> Honor X8b charges at 35W via HONOR SuperCharge (its own protocol, not open PD) and ships with its charger in the box. A good PD charger also works but at a slower fallback (~18-22.5W) — a reliable, always-available spare with a written store warranty.
     </p>
 </div>
 
@@ -428,27 +410,15 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
     <tbody>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">Price</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">400-600 EGP (if available)</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">500 EGP</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">350 EGP</td>
+        <td style="padding:10px;border:1px solid #d1d5db;">approx. 400-600 EGP (market range, varies by seller; if available)</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">{{price:anker-a2147-gan-charger-30w}} EGP</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">{{price:joyroom-30w-fast-charger}} EGP</td>
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">Actual charging speed</td>
         <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">35W ⬆️</td>
         <td style="padding:10px;border:1px solid #d1d5db;">~22.5W (PD)</td>
         <td style="padding:10px;border:1px solid #d1d5db;">~22.5W (PD)</td>
-    </tr>
-    <tr>
-        <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">0→50% (X8b)</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">25 min</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">28 min</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">29 min</td>
-    </tr>
-    <tr>
-        <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">0→100% (X8b)</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">59 min</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">65 min</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">66 min</td>
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">Easily available in Egypt?</td>
@@ -458,9 +428,9 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">Warranty</td>
-        <td style="padding:10px;border:1px solid #d1d5db;">6-12 months</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">18 months</td>
-        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">18 months</td>
+        <td style="padding:10px;border:1px solid #d1d5db;">Depends on seller</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">CairoVolt written store warranty (duration on product page)</td>
+        <td style="padding:10px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">CairoVolt written store warranty (duration on product page)</td>
     </tr>
     <tr>
         <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">Charges other devices?</td>
@@ -471,13 +441,13 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
     </tbody>
 </table>
 
-<p><strong>What to know:</strong> The original 35W SuperCharge brick (included in the box) is the fastest option. A third-party PD charger charges the X8b at a slower fallback speed (~18-22.5W) because it can't trigger SuperCharge — so it's slower than the original, not faster. Its real value is that it's <strong>always available with a local warranty</strong>, making it the practical pick if you lose your charger or need a second one for work or travel.</p>
+<p><strong>What to know:</strong> The original 35W SuperCharge brick (included in the box) is the fastest option. A third-party PD charger charges the X8b at a slower fallback speed (~18-22.5W) because it can't trigger SuperCharge — so it's slower than the original, not faster. Its real value is that it's <strong>always available with a written store warranty</strong>, making it the practical pick if you lose your charger or need a second one for work or travel.</p>
 
 <h2>Why Is the Original Honor Charger Hard to Find in Egypt?</h2>
 
 <p>Honor is still building its distribution network in Egypt — and accessory availability is much lower than Samsung or Xiaomi. Even at official dealers, chargers aren't always in stock. And on Amazon and Jumia, most "original Honor" chargers are imported from China without local warranty — and some are counterfeit.</p>
 
-<p>This is exactly why a PD alternative is the practical pick for a spare Honor charger — always available with a real local warranty, even if it's a bit slower than the 35W original. You don't need to wait for Honor to solve their distribution problem — get an Anker or Joyroom charger as a second charger and forget about it.</p>
+<p>This is exactly why a PD alternative is the practical pick for a spare Honor charger — always available with a written store warranty, even if it's a bit slower than the 35W original. You don't need to wait for Honor to solve their distribution problem — get an Anker or Joyroom charger as a second charger and forget about it.</p>
 
 <h2>Complete Bundles — Charger + Cable</h2>
 
@@ -486,23 +456,17 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Bundle</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Charger</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Cable</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Total</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">0→50% (X8b)</th>
     </tr></thead>
     <tbody>
     <tr style="background:#f0fdf4;">
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">💰 Budget Bundle</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 30W (350)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom C-C (120)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">470 EGP</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">29 min</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 30W ({{price:joyroom-30w-fast-charger}} EGP)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Joyroom C-C ({{price:joyroom-type-c-to-type-c-cable}} EGP)</td>
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">🏆 Performance Bundle</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Anker 30W (500)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Anker C-C (180)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">680 EGP</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">28 min</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Anker Nano 30W A2147 ({{price:anker-a2147-gan-charger-30w}} EGP)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Anker PowerLine C-C ({{price:anker-powerline-usb-c-usb-c}} EGP)</td>
     </tr>
     </tbody>
 </table>
@@ -521,9 +485,9 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
 
 <h3>Honor X8b — The Optimal Choice</h3>
 
-<p><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W A2741</a> at 500 EGP — an excellent PD spare for the Honor X8b. It charges the phone at roughly 18-22.5W (a bit slower than the original 35W SuperCharge brick, since it's PD not SuperCharge), but GaN II means smaller size and lower heat, with full PD 3.0 that powers all your other devices. <strong>The best pick for a second Honor X8b charger.</strong></p>
+<p><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano GaN 30W (A2147)</a> at {{price:anker-a2147-gan-charger-30w}} EGP — a good PD wall-charger spare for the Honor X8b. It charges the phone at roughly 18-22.5W (a bit slower than the original 35W SuperCharge brick, since it's PD not SuperCharge), but GaN means smaller size and lower heat, with PD that powers your other devices. <strong>A strong pick for a second Honor X8b charger.</strong></p>
 
-<p>Budget alternative: <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> at 350 EGP — same PD fallback speed (~22.5W on Honor) at a lower price. The difference: slightly larger and 3°C warmer.</p>
+<p>Budget alternative: <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> at {{price:joyroom-30w-fast-charger}} EGP — same PD fallback speed (~22.5W on Honor) at a lower price. The difference: slightly larger and 3°C warmer.</p>
 
 <h3>Honor X7b — Same Charger But with a Note</h3>
 
@@ -531,15 +495,15 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
 
 <h3>Honor X6b — The Bundled Charger Is Sufficient</h3>
 
-<p>The X6b comes with a 22.5W charger in the box — but the phone itself accepts up to 35W via HONOR SuperCharge, so for maximum speed use a 35W Honor SuperCharge charger. If you lose or break your charger and want an affordable spare for everyday use: <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at 490 EGP is enough — it charges at 20W, slower than 35W but fine for normal daily charging.</p>
+<p>The X6b comes with a 22.5W charger in the box — but the phone itself accepts up to 35W via HONOR SuperCharge, so for maximum speed use a 35W Honor SuperCharge charger. If you lose or break your charger and want an affordable spare for everyday use: <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at {{price:anker-powerport-20w}} EGP is enough — it charges at 20W, slower than 35W but fine for normal daily charging.</p>
 
 <h2>The Cable — Same Story as Every Brand</h2>
 
 <p>All Honor X series phones are USB-C. If you buy a PD charger (USB-C) — you need a USB-C to USB-C cable:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">💰 <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C to USB-C</a> at 120 EGP — 60W, nylon braided, sufficient for max speed.</li>
-    <li style="margin-bottom:12px;">🏆 <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C</a> at 180 EGP — 25,000 bend cycles, 18-month warranty.</li>
+    <li style="margin-bottom:12px;">💰 <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C to USB-C</a> at {{price:joyroom-type-c-to-type-c-cable}} EGP — up to 60W (no e-marker), nylon braided, sufficient for max speed.</li>
+    <li style="margin-bottom:12px;">🏆 <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C</a> at {{price:anker-powerline-usb-c-usb-c}} EGP — 60W, with CairoVolt's written store warranty (duration on the product page).</li>
 </ul>
 
 <h2>Honor and Huawei — Are Their Chargers Interchangeable?</h2>
@@ -556,12 +520,12 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
 
 <h2>Summary — Honor X Series in Two Lines</h2>
 
-<p>Honor X series is one of the smartest choices in the mid-range — with solid specs and 35W HONOR SuperCharge that ships in the box (on the X8b and X7b). For maximum speed use the original SuperCharge charger. And if you need a second or spare charger, grab a Joyroom 30W at 350 EGP — it charges Honor at a reasonable PD speed and also powers all your other USB-C devices. One charger for everything, as a practical spare.</p>
+<p>Honor X series is one of the smartest choices in the mid-range — with solid specs and 35W HONOR SuperCharge that ships in the box (on the X8b and X7b). For maximum speed use the original SuperCharge charger. And if you need a second or spare charger, grab a Joyroom 30W at {{price:joyroom-30w-fast-charger}} EGP — it charges Honor at a reasonable PD speed and also powers all your other USB-C devices. One charger for everything, as a practical spare.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Anker and Joyroom chargers compatible with Honor X series are <strong>genuine with 18-month warranty</strong> + delivery to all governorates in 24-72 hours. Not sure which to pick? Message us on WhatsApp with your phone model and we'll recommend the right charger.
+        Anker and Joyroom chargers compatible with Honor X series are <strong>genuine, with CairoVolt's written store warranty</strong> (duration shown on each product page) + delivery to all governorates (commonly 1–6 business days depending on governorate). Not sure which to pick? Message us on WhatsApp with your phone model and we'll recommend the right charger.
     </p>
 </div>`,
             faq: [

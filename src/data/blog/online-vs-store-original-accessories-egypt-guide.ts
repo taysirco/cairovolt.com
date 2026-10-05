@@ -9,7 +9,7 @@ export const online_vs_store_original_accessories_egypt_guide: BlogArticle = {
     relatedProducts: [
         'anker-a2147-gan-charger-30w',
         'joyroom-power-bank-10000',
-        'anker-powercore-10000',
+        'anker-zolo-a110d-10000',
         'joyroom-3-in-1-data-cable',
         'anker-a8050-usb-c-cable',
         'soundcore-p20i-earbuds'

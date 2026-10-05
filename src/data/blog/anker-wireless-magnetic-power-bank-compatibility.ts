@@ -4,7 +4,7 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
     slug: 'anker-wireless-magnetic-power-bank-compatibility',
     category: 'buying-guide',
     publishDate: '2026-08-07T16:56:00+03:00',
-    modifiedDate: '2026-08-07T16:56:00+03:00',
+    modifiedDate: '2026-10-04',
     readingTime: 8,
     relatedProducts: [
         "joyroom-magnetic-power-bank-10000",
@@ -111,14 +111,14 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
 
 <h2>الأمان الديناميكي والكشف عن الأجسام الغريبة (FOD)</h2>
 <p>من أهم ميزات الأمان الضرورية في الشواحن المتنقلة اللاسلكية هي تقنية الكشف عن الأجسام الغريبة (Foreign Object Detection). تعمل هذه التقنية باستمرار بمجرد تفعيل حقل الحث المغناطيسي. إذا تم وضع أي قطعة معدنية (مثل العملات المعدنية، المفاتيح، أو الحلقات الحديدية غير المتوافقة) بطريق الخطأ بين الباور بانك وظهر الهاتف، فإن حقل الحث سيقوم بتسخين هذا الجسم المعدني بسرعة فائقة لدرجة قد تتسبب في حروق للجلد أو انصهار البلاستيك.</p>
-<p>تقوم باور بانكات أنكر وجوي روم الأصلية بفصل التيار فوراً بمجرد استشعار أي إشارة ترددية غير طبيعية تدل على وجود معدن غير ملف الاستقبال النحاسي القياسي، مع وميض مؤشر LED باللون الأحمر لتحذير المستخدم. هذا النظام الوقائي ضروري لحماية هاتفك الذكي من أي مخاطر كهربائية أو حرارية أثناء الاستخدام اليومي المعتاد.</p>
+<p>تقوم باور بانكات انكر وجوي روم الأصلية بفصل التيار فوراً بمجرد استشعار أي إشارة ترددية غير طبيعية تدل على وجود معدن غير ملف الاستقبال النحاسي القياسي، مع وميض مؤشر LED باللون الأحمر لتحذير المستخدم. هذا النظام الوقائي ضروري لحماية هاتفك الذكي من أي مخاطر كهربائية أو حرارية أثناء الاستخدام اليومي المعتاد.</p>
 
 <h2>جرابات الهواتف والـ MagSafe: تأثير السمك على قوة الالتصاق المغناطيسي</h2>
 <p>مغناطيسات الباور بانك والجرابات تخضع لقانون التربيع العكسي الفيزيائي، مما يعني أن كل مليمتر إضافي من البلاستيك أو السيليكون يفصل بين مغناطيسات الهاتف ومغناطيسات الباور بانك يضعف قوة الالتصاق بشكل حاد جداً. إذا كنت تستخدم جراباً تقليدياً سميكاً (بدون حلقات مغناطيسية مدمجة)، فلن يلتصق الباور بانك بثبات وسيسقط مع أدنى حركة، بالإضافة إلى زيادة المسافة الكفيلة بإفشال عملية الشحن اللاسلكي تماماً.</p>
 <p>لذا، نوصي دائماً باستخدام جرابات تدعم تقنية MagSafe تحتوي على حلقة مغناطيسية مدمجة تعيد توجيه وتركيز خطوط المجال المغناطيسي لضمان التصاق حديدي. كما نحذر من استخدام الجرابات التي تحتوي على قطع معدنية أو مساند خلفية من الحديد، لأنها تسخن بشدة تحت تأثير الحث المغناطيسي وقد تسبب ضرراً بالغاً لبطارية هاتفك.</p>
 
 <h2>قوة الالتصاق والأمان العملي: هل يمكنك الثقة في التثبيت المغناطيسي؟</h2>
-<p>يقلق الكثير من المستخدمين من احتمالية انزلاق الهاتف وسقوطه أثناء استخدام الباور بانك المغناطيسي باليد. تقاس قوة الالتصاق المغناطيسي بالنيوتن، وتفرض معايير أبل MagSafe الصارمة قوة جذب تتراوح بين 8 إلى 12 نيوتن لمنع الانفصال العشوائي. توفر الشواحن المتنقلة من ماركات موثوقة مثل جوي روم وأنكر مغناطيسات نيوديميوم (Neodymium Magnets) قوية وموزعة بدقة تحاكي المعيار الأصلي.</p>
+<p>يقلق الكثير من المستخدمين من احتمالية انزلاق الهاتف وسقوطه أثناء استخدام الباور بانك المغناطيسي باليد. تقاس قوة الالتصاق المغناطيسي بالنيوتن، وتفرض معايير أبل MagSafe الصارمة قوة جذب تتراوح بين 8 إلى 12 نيوتن لمنع الانفصال العشوائي. توفر الشواحن المتنقلة من ماركات موثوقة مثل جوي روم وانكر مغناطيسات نيوديميوم (Neodymium Magnets) قوية وموزعة بدقة تحاكي المعيار الأصلي.</p>
 <p>يتضمن التصميم أيضاً مغناطيساً إضافياً صغيراً في الأسفل مخصصاً لتحديد الاتجاه العمودي (Orientation Magnet)، مما يمنع الباور بانك من الدوران حول نفسه أو الانحراف أثناء الاستخدام باليد أو وضعه داخل الجيب، مما يمنحك ثباتاً حديدياً كاملاً وموثوقية عالية أثناء الحركة والأنشطة اليومية المتنوعة.</p>
 
 <h2>المعايير المستقبلية: ما هو Qi2 وماذا يعني لمستخدمي الأندرويد؟</h2>
@@ -126,8 +126,8 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
 <p>الميزة الكبرى لمعيار Qi2 هي رفع سرعة الشحن اللاسلكي القياسي إلى 15 واط لجميع الأجهزة المتوافقة بدلاً من سرعة 5 واط أو 7.5 واط القديمة والمقيدة. سيتيح هذا لمستخدمي أندرويد مستقبلاً الاستمتاع بالتصاق مغناطيسي فائق وشحن لاسلكي سريع دون الحاجة لاستخدام جرابات معدلة أو ملصقات خارجية تؤثر على مظهر الهاتف الجمالي.</p>
 
 <h2>جوي روم المغناطيسي 10,000mAh — الأرقام الحقيقية</h2>
-<p>السعة 10,000mAh مع خرج لاسلكي 7.5W (MagSafe لـ آيفون) و15W Qi2 (للأجهزة الداعمة) وسلكي 20W عبر USB-C. الوزن: 230 جرام — أثقل من الباور بانك العادي 10K (180 جرام) بسبب مكونات اللاسلكي الإضافية.</p>
-<p>شحنات آيفون 17: 31.5Wh فعلية × 0.85 ÷ 13.72Wh = 1.95 مرة لاسلكياً. لكن لو استخدمت الكابل USB-C: السعة الفعلية ترتفع لـ 34-35Wh (الشحن السلكي أكفأ من اللاسلكي) = 2.2 مرة. يعني دايماً الكابل أكفأ حتى لو عندك باور بانك لاسلكي.</p>
+<p>السعة 10,000mAh (37 واط/ساعة اسمية). في معمل كايرو فولت قسنا 32.1 واط/ساعة قابلة للاستخدام عبر USB-C، وحوالي 24.0 واط/ساعة وصلت لاسلكياً لآيفون 13 (عيّنة CV-PB-JRW050-001). الشحن اللاسلكي على الآيفون استقر عند 7.3–7.5 واط — الباور بانك متوافق مع MagSafe (مغناطيس + Qi) لكنه مش Qi2 — والشحن السلكي PD وصل لذروة 19.4 واط. الوزن حوالي 232 جرام، أتقل من باور بانك 10K عادي بسبب مكونات اللاسلكي.</p>
+<p>شحنات آيفون 17 (تقديري، بطارية حوالي 13.72Wh): لاسلكياً حوالي 24.0Wh ÷ 13.72Wh ≈ 1.7 مرة، وبالكابل حوالي 32.1Wh × 0.85 ÷ 13.72Wh ≈ 2 مرة. يعني الكابل دايماً أكفأ حتى لو عندك باور بانك لاسلكي.</p>
 
 <h2>امتى الباور بانك المغناطيسي يستحق؟</h2>
 <p>في سيناريوهات معينة، المغناطيسي بيكسب الكابل بشكل واضح:</p>
@@ -155,26 +155,26 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;"><a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">جوي روم المغناطيسي 10K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">10,000mAh</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">7.5W (MagSafe) / 15W (Qi2)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">20W USB-C</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>850ج ⭐</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">7.3–7.5W على الآيفون (مقاس) — مش Qi2</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">~19.4W USB-C PD (مقاس)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>{{price:joyroom-magnetic-power-bank-10000}}ج</strong></td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">انكر باور كور 10K عادي</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو A110D 10K</a> (من غير لاسلكي)</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">10,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ لا يوجد</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">12W</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">1,300ج</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">22.5W</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">{{price:anker-zolo-a110d-10000}}ج</td>
         </tr>
     </tbody>
 </table>
 
-<p>الـ 850ج لجوي روم المغناطيسي مقابل 1,300ج للأنكر العادي اللي مالوش لاسلكي — ده معناه إن الميزة اللاسلكية بتيجي بسعر أرخص فعلياً. لو آيفون 12+ عندك والباور بانك العادي مش معاك دلوقتي — جوي روم المغناطيسي قرار سهل وسريع لراحتك اليومية.</p>
+<p>جوي روم المغناطيسي بـ {{price:joyroom-magnetic-power-bank-10000}}ج بيضيف الشحن اللاسلكي المغناطيسي (قسناه 7.3–7.5 واط على الآيفون)؛ قارن سعره بباور بانكات 10,000 السلكية زي انكر زولو A110D ({{price:anker-zolo-a110d-10000}}ج) في صفحة كل منتج. لو آيفون 12+ عندك والباور بانك العادي مش معاك دلوقتي — جوي روم المغناطيسي قرار سهل وسريع لراحتك اليومية.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جوي روم المغناطيسي 10,000mAh متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#166534;font-weight:600;">جوي روم Magnetic 10K — 850ج</a> بضمان 12 شهر. يجي مع خاتم مغناطيسي للأندرويد. أصلي 100% بكود تحقق. توصيل لكل المحافظات + دفع عند الاستلام.
+        <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#166534;font-weight:600;">جوي روم Magnetic 10K — {{price:joyroom-magnetic-power-bank-10000}}ج</a> بضمان كايرو فولت المكتوب (المدة موضحة في صفحة المنتج). يجي مع خاتم مغناطيسي للأندرويد. توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>`,
             faq: [
@@ -295,8 +295,8 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
 <p>By standardizing these magnetic arrays, Qi2 power banks will deliver up to 15W wireless charging speeds to compatible non-Apple devices without requiring specialized adhesive rings or third-party cases. This promises to reshape the universal charging accessory landscape in Egypt in the coming years.</p>
 
 <h2>Joyroom Magnetic 10,000mAh — Real Numbers</h2>
-<p>10,000mAh capacity with 7.5W MagSafe wireless output (for iPhone), 15W Qi2 wireless (for Qi2-compatible devices), and 20W wired via USB-C. Weight: 230g — heavier than the standard 10K power bank (180g) due to the added wireless charging components.</p>
-<p>iPhone 17 charges: 31.5Wh actual × 0.85 ÷ 13.72Wh = 1.95 times wirelessly. But if you use the USB-C cable: actual usable capacity rises to 34-35Wh (wired is more efficient) = 2.2 times. Meaning cable charging is always more efficient even if you own a wireless power bank.</p>
+<p>10,000mAh capacity (37Wh nominal). In the CairoVolt lab we measured 32.1Wh usable over USB-C and about 24.0Wh delivered wirelessly into an iPhone 13 (sample CV-PB-JRW050-001). Wireless charging on the iPhone settled at 7.3–7.5W — the pack is MagSafe-compatible (magnets + Qi) but not Qi2 — and wired PD peaked at 19.4W. It weighs about 232g, heavier than a standard 10K pack because of the wireless components.</p>
+<p>iPhone 17 charges (est., battery about 13.72Wh): wirelessly about 24.0Wh ÷ 13.72Wh ≈ 1.7 times, and by cable about 32.1Wh × 0.85 ÷ 13.72Wh ≈ 2 times. Cable charging is always more efficient, even if you own a wireless power bank.</p>
 
 <h2>When Does a Magnetic Power Bank Make Sense?</h2>
 <p>In specific scenarios, magnetic attachment genuinely beats a cable:</p>
@@ -323,26 +323,26 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;"><a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom Magnetic 10K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">10,000mAh</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">7.5W (MagSafe) / 15W (Qi2)</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">20W USB-C</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>850 EGP ⭐</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">7.3–7.5W on iPhone (measured) — not Qi2</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">~19.4W USB-C PD (measured)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>EGP {{price:joyroom-magnetic-power-bank-10000}}</strong></td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">Anker PowerCore 10K (standard)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker Zolo A110D 10K</a> (no wireless)</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">10,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌ None</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">12W</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">1,300 EGP</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">22.5W</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">EGP {{price:anker-zolo-a110d-10000}}</td>
         </tr>
     </tbody>
 </table>
 
-<p>The Joyroom Magnetic at 850 EGP versus the standard Anker without wireless at 1,300 EGP — the wireless feature actually comes at a lower price point here. If you have an iPhone 12 or later and do not already own a power bank, the Joyroom Magnetic is an easy decision to make for ultimate daily convenience.</p>
+<p>The Joyroom Magnetic at EGP {{price:joyroom-magnetic-power-bank-10000}} adds magnetic wireless charging (we measured 7.3–7.5W on iPhone); compare its price with wired 10,000mAh packs such as the Anker Zolo A110D (EGP {{price:anker-zolo-a110d-10000}}) on each product page. If you have an iPhone 12 or later and do not already own a power bank, the Joyroom Magnetic is an easy choice for daily convenience.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Joyroom Magnetic 10,000mAh Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#166534;font-weight:600;">Joyroom Magnetic 10K — 850 EGP</a> with 12-month warranty. Includes magnetic ring for Android. 100% authentic with verification code. Delivery to all governorates + cash on delivery.
+        <a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#166534;font-weight:600;">Joyroom Magnetic 10K — EGP {{price:joyroom-magnetic-power-bank-10000}}</a> with CairoVolt's written store warranty (duration shown on the product page). Includes magnetic ring for Android. Delivery to all governorates + cash on delivery.
     </p>
 </div>`,
             faq: [

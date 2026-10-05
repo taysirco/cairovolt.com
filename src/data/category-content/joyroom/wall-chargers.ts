@@ -60,6 +60,10 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                             answer: '20W قد يناسب هاتفاً متوافقاً، و35W قد يوفر هامشاً أو منفذين حسب الموديل، و65W قد يناسب بعض اللابتوبات. راجع متطلبات الجهاز وتوزيع القدرة والسعر الحالي في صفحة المنتج.'
                         },
                         {
+                            question: 'راس شاحن 20 واط ولا 30 واط للايفون؟',
+                            answer: 'للايفون الأقدم زي iPhone 15 الفرق صغير لأن الهاتف نفسه يحدد السقف: في مختبرنا وصل iPhone 15 إلى 50% في حوالي 30 دقيقة على [جوي روم 20 واط (JR-TCF20)](/joyroom/wall-chargers/joyroom-20w-usb-c-charger) وحوالي 28 دقيقة على [جوي روم 25 واط (JR-TCF23)](/joyroom/wall-chargers/joyroom-25w-fast-charger). أما iPhone 17 و17 Pro و17 Pro Max فتذكر Apple أنها تصل إلى حوالي 50% في نحو 20 دقيقة بشاحن 40 واط أو أعلى، وiPhone 17e وiPhone Air إلى حوالي 50% في نحو 30 دقيقة بشاحن 20 واط أو أعلى ([دعم Apple](https://support.apple.com/en-us/102574)).'
+                        },
+                        {
                             question: 'هل بيستحمل تذبذب كهرباء مصر؟',
                             answer: 'تحقق من نطاق الدخل المكتوب على الشاحن. عند وجود تذبذب شديد أو ارتفاعات مفاجئة، استخدم واقي تيار مناسباً وافصل الشاحن حتى استقرار الكهرباء.'
                         },
@@ -80,12 +84,6 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                             answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال مكتوبة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         }
                     ],
-                    products: [
-                        { name: 'Joyroom 20W PD Charger', price: 236, badge: 'اقتصادي' },
-                        { name: 'Joyroom 35W GaN Dual', price: 342, badge: 'منفذان حسب الموديل' },
-                        { name: 'Joyroom 65W Laptop Charger', price: 280, badge: 'للابتوب' },
-                        { name: 'محطة جوي روم 3 في 1 لاسلكي', price: 1206, badge: '🆕 ايفون + ساعة + ايربودز' }
-                    ]
                 },
                 en: {
                     title: 'Joyroom Chargers by Power and Protocol',
@@ -131,6 +129,10 @@ Joyroom models labeled for 100V-240V input can be used within that stated range.
                             answer: '20W may suit a compatible phone, 35W may provide headroom or two ports depending on the model, and 65W may suit some laptops. Check device requirements, power distribution, and the live price on the product page.'
                         },
                         {
+                            question: '20W or 30W charger for iPhone?',
+                            answer: 'For older iPhones such as the iPhone 15 the difference is small because the phone sets the ceiling: in our lab the iPhone 15 reached 50% in about 30 minutes on the [Joyroom 20W (JR-TCF20)](/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger) and about 28 minutes on the [Joyroom 25W (JR-TCF23)](/en/joyroom/wall-chargers/joyroom-25w-fast-charger). Apple says iPhone 17, 17 Pro, and 17 Pro Max reach about 50% in around 20 minutes with a 40W-or-higher adapter, and iPhone 17e and iPhone Air about 50% in around 30 minutes with 20W or higher ([Apple Support](https://support.apple.com/en-us/102574)).'
+                        },
+                        {
                             question: 'Can it handle Egypt power fluctuations?',
                             answer: 'Check the input range printed on the charger. During severe fluctuation or sudden surges, use suitable surge protection and unplug the charger until the supply is stable.'
                         },
@@ -151,12 +153,6 @@ Joyroom models labeled for 100V-240V input can be used within that stated range.
                             answer: 'CairoVolt warranty duration, coverage, and replacement terms are written on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
                         }
                     ],
-                    products: [
-                        { name: 'Joyroom 20W PD Charger', price: 236, badge: 'Value' },
-                        { name: 'Joyroom 35W GaN Dual', price: 342, badge: 'Dual Port by Model' },
-                        { name: 'Joyroom 65W Laptop Charger', price: 280, badge: 'Laptop-Ready' },
-                        { name: 'Joyroom 3-in-1 Wireless Station', price: 1206, badge: '🆕 iPhone + Watch + Buds' }
-                    ]
                 }
             }
         };

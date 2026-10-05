@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import { getLiveIndex } from '@/data/blog-index';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import BlogPagination from '@/components/blog/BlogPagination';
@@ -33,6 +34,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 'ar-EG': 'https://cairovolt.com/blog',
                 'en-EG': 'https://cairovolt.com/en/blog',
                 'x-default': 'https://cairovolt.com/blog',
+            },
+            // Advertise the locale's fresh-guides RSS (rel="alternate").
+            types: {
+                'application/rss+xml': isArabic
+                    ? [{ url: 'https://cairovolt.com/api/discover-feed', title: 'كايرو فولت — أحدث الأدلة' }]
+                    : [{ url: 'https://cairovolt.com/api/discover-feed?locale=en', title: 'CairoVolt — Latest guides' }],
             },
         },
         openGraph: {
@@ -81,18 +88,81 @@ export default async function BlogPage({ params }: Props) {
         });
 
     const totalArticles = sortedArticles.length;
+    const localePrefix = isArabic ? '' : '/en';
+    const pageUrl = `https://cairovolt.com${localePrefix}/blog`;
+
+    // Breadcrumb trail — one list feeds both the JSON-LD and the visible nav,
+    // so their names and URLs cannot drift apart.
+    const breadcrumbItems = [
+        { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${localePrefix}`, href: isArabic ? '/' : '/en' },
+        { name: isArabic ? 'المدونة' : 'Blog', url: pageUrl, href: `${localePrefix}/blog` },
+    ];
+
+    // Crawlable index of EVERY live guide, grouped by topic. The paginated grid
+    // above is client state (<button>s), so without this list only the first 20
+    // articles had a real <a href> from the hub. Live entries only (getLiveIndex
+    // is publishDate-gated); no new URLs, no pagination parameters.
+    const guidesByCategory = [
+        ...Object.keys(categoryLabels),
+        ...Array.from(new Set(sortedArticles.map((a) => a.category))).filter((c) => !(c in categoryLabels)),
+    ]
+        .map((category) => ({
+            category,
+            label: categoryLabels[category]
+                ? (isArabic ? categoryLabels[category].ar : categoryLabels[category].en)
+                : category,
+            articles: sortedArticles.filter((a) => a.category === category),
+        }))
+        .filter((group) => group.articles.length > 0);
+
+    // Blog node: names the hub as a Blog and lists its live posts by the same
+    // @id each article page gives its BlogPosting (…/blog/<slug>#article).
+    const blogSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Blog',
+        '@id': `${pageUrl}#blog`,
+        url: pageUrl,
+        name: isArabic ? 'مدونة كايرو فولت' : 'CairoVolt Blog',
+        inLanguage: isArabic ? 'ar-EG' : 'en-EG',
+        isPartOf: { '@id': 'https://cairovolt.com/#website' },
+        publisher: { '@id': 'https://cairovolt.com/#organization' },
+        blogPost: sortedArticles.map((a) => {
+            const articleUrl = `${pageUrl}/${a.slug}`;
+            return {
+                '@type': 'BlogPosting',
+                '@id': `${articleUrl}#article`,
+                url: articleUrl,
+                headline: a.title,
+            };
+        }),
+    };
 
     return (
         <>
             <BreadcrumbSchema
-                items={[
-                    { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
-                    { name: isArabic ? 'المدونة' : 'Blog', url: `https://cairovolt.com${isArabic ? '' : '/en'}/blog` },
-                ]}
+                items={breadcrumbItems.map(({ name, url }) => ({ name, url }))}
                 locale={locale}
             />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+            />
 
-            <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+            <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+                {/* Breadcrumb — mirrors the BreadcrumbList JSON-LD above */}
+                <div className="bg-gray-50 dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700" dir={isArabic ? 'rtl' : 'ltr'}>
+                    <div className="container mx-auto px-4 py-3">
+                        <nav aria-label={isArabic ? 'مسار التنقل' : 'Breadcrumb'} className="text-sm text-gray-500 flex items-center gap-1 flex-wrap">
+                            <Link href={breadcrumbItems[0].href} className="hover:text-blue-600 transition-colors">
+                                {breadcrumbItems[0].name}
+                            </Link>
+                            <span className="mx-1">/</span>
+                            <span className="text-gray-900 dark:text-white font-medium" aria-current="page">
+                                {breadcrumbItems[1].name}
+                            </span>
+                        </nav>
+                    </div>
+                </div>
                 <div className="container mx-auto px-4 py-12 md:py-16">
 
                     {/* ── Hero ──────────────────────────────────────── */}
@@ -130,8 +200,42 @@ export default async function BlogPage({ params }: Props) {
                         categoryLabels={categoryLabels}
                     />
 
+                    {/* ── All guides by topic (server-rendered, crawlable) ── */}
+                    <section
+                        aria-labelledby="all-guides-by-topic"
+                        className="max-w-6xl mx-auto mt-16 pt-10 border-t border-gray-200 dark:border-gray-700"
+                        dir={isArabic ? 'rtl' : 'ltr'}
+                    >
+                        <h2 id="all-guides-by-topic" className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+                            {isArabic ? 'كل الأدلة حسب الموضوع' : 'All guides by topic'}
+                        </h2>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8">
+                            {guidesByCategory.map((group) => (
+                                <div key={group.category}>
+                                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
+                                        {group.label}{' '}
+                                        <span className="text-sm font-normal text-gray-500 dark:text-gray-400">({group.articles.length})</span>
+                                    </h3>
+                                    <ul className="space-y-1.5 text-sm leading-6">
+                                        {group.articles.map((a) => (
+                                            <li key={a.slug}>
+                                                <Link
+                                                    href={`${localePrefix}/blog/${a.slug}`}
+                                                    prefetch={false}
+                                                    className="text-blue-700 dark:text-blue-400 hover:underline"
+                                                >
+                                                    {a.title}
+                                                </Link>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+
                 </div>
-            </main>
+            </div>
         </>
     );
 }

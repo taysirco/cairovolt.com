@@ -53,7 +53,8 @@ export async function generateMetadata({
             description,
             images: ['https://cairovolt.com/og-cover.png'],
         },
-        robots: { index: true, follow: true },
+        // No page-level `robots`: it replaced the layout's googleBot block
+        // (max-image-preview:large, max-snippet:-1).
         other: {
             'geo.region': 'EG',
             'geo.placename': isArabic ? 'القاهرة، مصر' : 'Cairo, Egypt',

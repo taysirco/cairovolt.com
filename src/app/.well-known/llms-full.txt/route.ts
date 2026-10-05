@@ -11,6 +11,20 @@ import {
     formatAgentLabMarkdown,
     getAgentLabSummary,
 } from '@/lib/agent-lab-export';
+import {
+    getCairoVoltWarrantyPolicy,
+    getStoreReturnsSummary,
+    getStoreShippingSummary,
+    PRODUCT_WARRANTY_OVERRIDES,
+} from '@/lib/warranty-policy';
+import { governorates } from '@/data/governorates';
+
+const WARRANTY_BRANDS = [
+    { key: 'anker', name: 'Anker' },
+    { key: 'soundcore', name: 'Soundcore' },
+    { key: 'joyroom', name: 'Joyroom' },
+    { key: 'jbl', name: 'JBL' },
+] as const;
 
 /**
  * Detailed machine-readable product reference generated from the same static
@@ -33,6 +47,36 @@ export function GET() {
     // `new Date()` restamped this document "updated today" on every fetch, which
     // makes the freshness claim meaningless and defeats client-side caching.
     const updated = CATALOG_LAST_REVIEWED_AT.split('T')[0];
+
+    // Store policies first: a client that truncates this long file still gets
+    // the shipping, return and warranty terms, generated from the same
+    // constants the policy pages, product schema and llms.txt use.
+    const warrantyRows = WARRANTY_BRANDS.map(brand => {
+        const months = getCairoVoltWarrantyPolicy(null, brand.key).months;
+        return `| ${brand.name} | ${months ? `${months} months` : 'see product page'} |`;
+    });
+    const overrideRows = Object.entries(PRODUCT_WARRANTY_OVERRIDES)
+        .map(([slug, months]) => {
+            const product = staticProducts.find(item => item.slug === slug);
+            // Product names may contain "|", which would split the table cell.
+            const name = clean(product?.translations.en.name).replace(/\s*\|\s*/g, ' — ');
+            return product ? `| ${name} | ${months} months |` : null;
+        })
+        .filter((row): row is string => Boolean(row));
+    const storePolicies = `## Store policies
+
+- Delivery: ${getStoreShippingSummary('en', governorates)} The exact fee is shown at checkout; the date is confirmed after address review. Coverage: eligible delivery addresses across Egypt, confirmed with the order.
+- Payment: Cash on Delivery (COD) in EGP.
+- Returns: ${getStoreReturnsSummary('en')}
+- Warranty: CairoVolt's own written store warranty (not a manufacturer warranty unless a page says so). The product page and order confirmation record the term that applies.
+
+| Brand or product | CairoVolt store warranty |
+|---|---|
+${[...warrantyRows, ...overrideRows].join('\n')}
+
+- Policy pages: ${baseUrl}/shipping · ${baseUrl}/return-policy · ${baseUrl}/warranty · ${baseUrl}/faq · per governorate: ${baseUrl}/locations/{governorate-slug}
+- Buying guides (one canonical page per question): see "Buying guides" in ${baseUrl}/llms.txt
+`;
 
     const productSections = publishedProducts.map(product => {
         const brand = product.brand || 'Unknown';
@@ -83,6 +127,7 @@ export function GET() {
 > Product pages are the source of truth for current price, availability, warranty, delivery, and return terms.
 > Machine lab export: ${baseUrl}/api/lab-data/json
 
+${storePolicies}
 ## Catalog Summary
 
 - Total products: ${publishedProducts.length}

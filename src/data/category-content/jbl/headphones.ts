@@ -96,11 +96,6 @@ export const jbl_headphones_content: CategoryContent = {
                     answer: 'طابق اسم الموديل المحفور على السماعة مع العلبة، وجرب الاقتران بتطبيق JBL Headphones الرسمي — التقليد الرخيص غالبًا مش بيتعرف عليه التطبيق. اتشكك في أي سعر أقل بكتير من المعتاد في السوق، وراجع برنامج JBL الرسمي للشراء الموثوق على موقعهم. واحتفظ بالفاتورة لضمان كايرو فولت.'
                 }
             ],
-            products: [
-                { name: 'JBL Tune 520BT', price: 2149, badge: '57 ساعة' },
-                { name: 'JBL Tune 720BT', price: 3049, badge: '76 ساعة' },
-                { name: 'JBL Tune 770NC', price: 4049, badge: 'عزل ضوضاء تكيفي' },
-            ]
         },
         en: {
             title: 'JBL Wireless Headphones',
@@ -181,11 +176,6 @@ JBL lists two figures for the Tune 770NC: **70 hours with ANC off** and **44 hou
                     answer: 'Match the model name engraved on the headphones with the box, and try pairing with the official JBL Headphones app — cheap fakes usually fail app recognition. Be suspicious of prices far below the usual market range, review JBL\'s official Buy Authentic program on their site, and keep your invoice for the CairoVolt warranty.'
                 }
             ],
-            products: [
-                { name: 'JBL Tune 520BT', price: 2149, badge: '57h Battery' },
-                { name: 'JBL Tune 720BT', price: 3049, badge: '76h Battery' },
-                { name: 'JBL Tune 770NC', price: 4049, badge: 'Adaptive ANC' },
-            ]
         }
     }
 };

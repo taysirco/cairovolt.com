@@ -39,10 +39,10 @@ export const joyroom_usb_c_lightning_cable = {
                 metaDesc: "Fast-charge your iPhone from USB-C with the genuine Joyroom JR-S-CL20 Lightning cable. In Egypt with store warranty, invoice and cash on delivery.",
                 faqs: [
                     { question: "How durable is this cable?", answer: "Braiding may help resist abrasion, but bend counts are manufacturer test figures and do not guarantee a fixed lifespan. Avoid sharp bends and pulling from the wire." },
-                    { question: "Does it support data transfer?", answer: "Verify the exact JR-S-CL20 data specification on the package and current documentation before relying on it for sync." },
+                    { question: "Does it support data transfer?", answer: "Yes: JR-S-CL20 is rated USB 2.0 (480Mbps) for charge and sync. CarPlay depends on the vehicle and is not guaranteed without verified MFi." },
                     { question: "Will it charge an iPad?", answer: "Only if the iPad has a Lightning port and accepts a supported profile. USB-C iPads need USB-C to USB-C." },
                     { question: "Does it support fast charging?", answer: "Charging requires a compatible USB-C PD source and Lightning device. The device controls accepted power, so actual rate varies." },
-                    { question: "Is it MFi certified?", answer: "Verify any MFi statement for the exact SKU on the supplied packaging or current manufacturer documentation; do not infer permanent future compatibility." }
+                    { question: "Is it MFi certified?", answer: "Not verified: our tested JR-S-CL20 sample had no Apple MFi packaging mark, and iOS showed an accessory warning. Treat MFi as unconfirmed unless your package shows the mark; the connector shape alone does not establish certification." }
                 ]
             },
             ar: {
@@ -60,10 +60,10 @@ export const joyroom_usb_c_lightning_cable = {
                 metaDesc: "اشحن ايفونك بسرعة من USB-C بكابل جوي روم JR-S-CL20 الأصلي لايتننج. في مصر بضمان متجر وفاتورة ودفع عند الاستلام.",
                 faqs: [
                     { question: "ما متانة هذا الكابل؟", answer: "يساعد التضفير ضد الاحتكاك، لكن أرقام الثني اختبارات من الشركة ولا تضمن عمراً ثابتاً. تجنب الثني الحاد والسحب من السلك." },
-                    { question: "هل يدعم نقل البيانات؟", answer: "تحقق من مواصفات البيانات الدقيقة للموديل JR-S-CL20 على العبوة والوثائق الحالية قبل الاعتماد عليه للمزامنة." },
+                    { question: "هل يدعم نقل البيانات؟", answer: "نعم: JR-S-CL20 مصنف USB 2.0 (480 ميغابت/ث) للشحن والمزامنة. CarPlay يعتمد على السيارة وغير مضمون بلا MFi مؤكَّد." },
                     { question: "هل يشحن الايباد؟", answer: "فقط إذا كان الايباد بمنفذ Lightning ويقبل ملفاً مدعوماً. موديلات USB-C تحتاج USB-C إلى USB-C." },
                     { question: "هل يدعم الشحن السريع؟", answer: "يتطلب مصدر USB-C PD وجهاز Lightning متوافقين. الجهاز يحدد القدرة المقبولة ولذلك تختلف السرعة." },
-                    { question: "هل هو MFi؟", answer: "تحقق من أي بيان MFi للـSKU نفسه على العبوة أو وثائق الشركة الحالية ولا تفترض توافقاً مستقبلياً دائماً." }
+                    { question: "هل هو MFi؟", answer: "غير مؤكَّد: عيّنة JR-S-CL20 المُختبرة لدينا بلا علامة Apple MFi على العبوة، وأظهر iOS تحذير ملحق. اعتبر MFi غير مؤكَّد ما لم تُظهر عبوتك العلامة؛ شكل الموصل وحده لا يثبت الاعتماد." }
                 ]
             }
         },

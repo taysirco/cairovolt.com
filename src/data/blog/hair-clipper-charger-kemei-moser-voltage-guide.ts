@@ -11,7 +11,7 @@ export const hair_clipper_charger_kemei_moser_voltage_guide: BlogArticle = {
         'joyroom-3-in-1-data-cable',
         'anker-powerport-20w',
         'joyroom-20w-usb-c-charger',
-        'anker-powercore-10000'
+        'anker-zolo-a110d-10000'
     ],
     relatedArticles: [
         'best-car-charger-egypt-2026',
