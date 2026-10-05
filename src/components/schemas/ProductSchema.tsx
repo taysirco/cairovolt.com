@@ -468,10 +468,11 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             },
             // Same field set as the store-level #return-policy node
             // (GlobalBusinessSchema). Merchant listings read the Offer-level
-            // policy first, and the old one carried only the generic return-fees
-            // property set to ReturnFeesCustomerResponsibility — "the customer
-            // always pays" — while the visible policy says CairoVolt covers
-            // return shipping when a defect or an order error is confirmed.
+            // policy first. `returnFees` is Google's DEFAULT fee type and must
+            // stay (Search Console flags "Missing field returnFees" without
+            // it); the itemDefect property overrides it, so together they say
+            // what the visible policy says: the customer pays return shipping
+            // unless the item is defective, which returns free.
             // Inlined rather than an @id reference: Google's merchant-listings
             // validator does not resolve cross-<script> references.
             hasMerchantReturnPolicy: {
@@ -482,6 +483,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 merchantReturnDays: STANDARD_RETURN_WINDOW_DAYS,
                 itemCondition: 'https://schema.org/NewCondition',
                 returnMethod: 'https://schema.org/ReturnByMail',
+                returnFees: 'https://schema.org/ReturnFeesCustomerResponsibility',
                 customerRemorseReturnFees: 'https://schema.org/ReturnFeesCustomerResponsibility',
                 itemDefectReturnFees: 'https://schema.org/FreeReturn',
                 merchantReturnLink: `${baseUrl}${isArabic ? '' : '/en'}/return-policy`,

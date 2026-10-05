@@ -27,7 +27,7 @@ The four route-level `loading.tsx` files made every page stream its H1, price, q
 **Entity graph / structured data**
 - Linked `@id`s: `BlogPosting #article` + `isPartOf #website`, `FAQPage #faq`, Blog node on `/blog`, AboutPage / ContactPage, Speakable `mainEntity #product`.
 - Article `citation` (external references, self-controlled hosts filtered) and `mentions` (PDP `#product` nodes).
-- One `MerchantReturnPolicy` shape on the Offer and the org node (remorse returns customer-paid, defect returns free; no blanket `FullRefund`).
+- One `MerchantReturnPolicy` shape on the Offer and the org node (default `returnFees` = customer pays return shipping, `itemDefectReturnFees` = free; no blanket `FullRefund`). Follow-up 2026-10-05: the first version dropped the default `returnFees`, and Search Console flagged "Missing field returnFees" on merchant listings — Google documents it as the default fee type that the remorse/defect properties override, so it is back on both nodes.
 - Brand `@id`s on CollectionPage `about`; `knowsAbout` Things with verified Wikidata (power bank Q2208745, USB-C Q20026619, USB PD Q56120131); Anker `sameAs` → the brand article; JBL manufacturer = Harman International (Q1585599).
 - Removed misapplied HowTo on category pages, duplicate microdata on generic hubs, `inLanguage` on Product.
 

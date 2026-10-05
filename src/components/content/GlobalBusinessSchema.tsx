@@ -244,13 +244,17 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     itemCondition: 'https://schema.org/NewCondition',
                     returnMethod: 'https://schema.org/ReturnByMail',
                     // Same field set as Offer.hasMerchantReturnPolicy on every
-                    // product page. The generic `returnFees` is omitted on
-                    // purpose: next to the two specific fee properties it read
-                    // as "the customer always pays", which contradicts the
-                    // visible policy (CairoVolt covers return shipping when a
-                    // defect or an order error is confirmed). A FullRefund
-                    // refund type is omitted too: the policy says original
-                    // shipping fees are non-refundable on remorse returns.
+                    // product page. Google documents `returnFees` as the DEFAULT
+                    // fee type and the customerRemorse/itemDefect properties as
+                    // specific overrides, and Search Console flags a policy
+                    // without the default ("Missing field returnFees"). So:
+                    // the customer pays return shipping by default (and on
+                    // change-of-mind returns), and a defective item returns
+                    // free — the visible /return-policy, field for field.
+                    // A FullRefund refund type stays omitted: the policy says
+                    // original shipping fees are non-refundable on remorse
+                    // returns.
+                    returnFees: 'https://schema.org/ReturnFeesCustomerResponsibility',
                     customerRemorseReturnFees: 'https://schema.org/ReturnFeesCustomerResponsibility',
                     itemDefectReturnFees: 'https://schema.org/FreeReturn',
                     merchantReturnLink: `https://cairovolt.com${policyPrefix}/return-policy`,
