@@ -5,6 +5,7 @@ import { KNOWN_TOP_SEGMENTS, LEGACY_PRODUCT_REDIRECTS, RETIRED_CATEGORY_REDIRECT
 import { getGovernorateBySlug, governorates } from '@/data/governorates';
 import { BostaTracker } from '@/lib/bosta';
 import { solutionsDB } from '@/data/solutions-data';
+import { isSelfControlledReference } from '@/lib/self-controlled-hosts';
 import {
     getMerchantProductUrl,
     isRecallAffectedSlug,
@@ -634,20 +635,10 @@ function generateBlogArticleMarkdown(
     return md;
 }
 
-// CairoVolt's own properties (its site, and its accounts on third-party
-// platforms such as tumblr.com/cairovolteg) are not independent sources, and
-// the file hosts below were never real references. Matched against host AND
-// path, because a self-owned account usually lives in the path.
-const SELF_OR_NON_SOURCE_MARKERS = ['cairovolt', 'cairovolteg', 'althaqelco', 'gamesuy', 'yumpu.com', 'rubygems.org'];
-
+// CairoVolt-controlled properties are not independent sources — see
+// src/lib/self-controlled-hosts.ts.
 function isExternalSource(url: string): boolean {
-    try {
-        const parsed = new URL(url);
-        const target = `${parsed.hostname}${parsed.pathname}`.toLowerCase();
-        return !SELF_OR_NON_SOURCE_MARKERS.some(marker => target.includes(marker));
-    } catch {
-        return false;
-    }
+    return !isSelfControlledReference(url);
 }
 
 const PRODUCT_LINK_RE = /href=(["'])(?:https?:\/\/(?:www\.)?cairovolt\.com)?(?:\/en)?\/(anker|joyroom|soundcore|jbl)\/([a-z0-9-]+)\/([a-z0-9.-]+)\/?(?:[?#][^"']*)?\1/gi;

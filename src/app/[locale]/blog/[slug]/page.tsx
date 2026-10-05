@@ -27,6 +27,7 @@ import { ExternalReferences } from '@/components/content/ExternalReferences';
 import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 import { getBrandDisplayName, localizeArabicBrandContent, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { getCategoriesForArticle, getCategoryDisplayName } from '@/lib/blog-category-bridge';
+import { isSelfControlledReference } from '@/lib/self-controlled-hosts';
 
 // Hourly ISR — so a scheduled article reveals within ~1h of its publishDate
 // (the daily reveal cron also force-revalidates on the exact day).
@@ -135,9 +136,6 @@ function getLinkedProductSlugs(html: string): string[] {
     }
     return out;
 }
-
-/** Hosts CairoVolt controls (or satellite copies of its own content): never a citation. */
-const SELF_CONTROLLED_REFERENCE_HOST = /cairovolt|cairovolteg|althaqelco|gamesuy|yumpu\.com|rubygems\.org/i;
 
 const categoryLabels: Record<string, { ar: string; en: string; icon: string }> = {
     'buying-guide': { ar: 'دليل شراء', en: 'Buying Guide', icon: 'book' },
@@ -281,13 +279,8 @@ export default async function BlogArticlePage({ params }: Props) {
     // BlogPosting.citation — third-party sources only; references to hosts
     // CairoVolt controls are not citations.
     const schemaCitations = (article.externalReferences || []).flatMap((ref) => {
-        let host = '';
-        try {
-            host = new URL(ref.url).hostname;
-        } catch {
-            return [];
-        }
-        if (SELF_CONTROLLED_REFERENCE_HOST.test(host)) return [];
+        // Host AND path: tumblr.com/cairovolteg or github.com/althaqelco/... pass a host-only check.
+        if (isSelfControlledReference(ref.url)) return [];
         const name = ref.title[isArabic ? 'ar' : 'en'] || ref.title.en || ref.title.ar;
         return name ? [{ name, url: ref.url }] : [];
     });

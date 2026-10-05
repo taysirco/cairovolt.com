@@ -13,6 +13,7 @@
 
 import type { BlogArticle } from '@/data/blog/_types';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import { isSelfControlledReference } from '@/lib/self-controlled-hosts';
 
 type Props = {
     refs: NonNullable<BlogArticle['externalReferences']>;
@@ -23,8 +24,10 @@ export function ExternalReferences({ refs, locale }: Props) {
     const isArabic = locale === 'ar';
     const lang = isArabic ? 'ar' : 'en';
 
-    // Guard: drop anything without a real URL; render nothing if none remain.
-    const items = (refs || []).filter((r) => r?.url && r.url.trim() && r.title?.[lang]?.trim());
+    // Guard: drop anything without a real URL, and anything on a CairoVolt-
+    // controlled property (never an independent reference — linking those
+    // reads as a link scheme); render nothing if none remain.
+    const items = (refs || []).filter((r) => r?.url && r.url.trim() && r.title?.[lang]?.trim() && !isSelfControlledReference(r.url));
     if (items.length === 0) return null;
 
     return (

@@ -78,7 +78,7 @@ Deliberately left: manufacturer-attributed ANC figures in names/metas (A30i 46dB
 2. ~~Locked SERP fields contradicting corrected bodies~~ — fixed in the batch above.
 3. **Physical / accounting checks:** JR-T012 price 1,624 EGP; Anker 310 jacket (TPE vs braided); PowerCore 20000 hero vs the stocked A1260011; joyroom-car-phone-mount mechanical vs magnetic.
 4. **People:** is "Eng. Omar Khaled — Lead Technician" a real, consenting employee, and is there a lab in New Cairo (registered office is New Damietta)? Until confirmed, no Person schema / named bylines.
-5. **Satellite pages** linking back (tumblr cairovolteg, gamesuy.wordpress, github althaqelco guide, yumpu upload, rubygems gem) — link-scheme risk; take down or de-link.
+5. **Satellite pages** linking back (tumblr cairovolteg, gamesuy.wordpress, github althaqelco guide, yumpu upload, rubygems gem) — link-scheme risk. **On-site side DONE:** the 9 article references that pointed to them were removed in `17e3e6b0a`; a live scan of all 836 sitemap pages + llms/feeds/knowledge-graph found 0 links; `src/lib/self-controlled-hosts.ts` now filters them out of every reference surface (visible "further reading", Article.citation, markdown twins) so a re-added one never renders. **Off-site side (owner):** the pages themselves still exist on those platforms — take them down or remove their links to cairovolt.com from those accounts.
 6. **Bing Webmaster Tools**: verify via GSC import, submit sitemap.xml, image-sitemap.xml, /api/discover-feed.
 7. **Merchant Center** return settings must match the corrected schema (remorse = customer pays, defect = free).
 
