@@ -8,6 +8,7 @@ import Image from 'next/image';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackPurchase, trackPrintInvoice, trackWhatsappClick } from '@/lib/analytics';
 import { ttqPlaceAnOrder, ttqCompletePayment } from '@/lib/tiktokPixel';
+import { ORDER_LEAD_READY_EVENT, trackConfirmedOrderLead } from '@/lib/tiktokOrderLead';
 import ShareButtons from '@/components/products/ShareButtons';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { BostaTracker } from '@/lib/bosta';
@@ -109,6 +110,16 @@ function ConfirmContent() {
 
         return () => window.clearTimeout(timer);
     }, [searchParams]);
+
+    // New lead pixel: only a successfully submitted order reaching this page.
+    // If the SDK has not initialized, retry when its queue becomes available.
+    useEffect(() => {
+        if (!orderData?.orderId) return;
+        const report = () => { trackConfirmedOrderLead(orderData.orderId); };
+        report();
+        window.addEventListener(ORDER_LEAD_READY_EVENT, report);
+        return () => window.removeEventListener(ORDER_LEAD_READY_EVENT, report);
+    }, [orderData?.orderId]);
 
     // Analytics: log order on confirmation page
     useEffect(() => {

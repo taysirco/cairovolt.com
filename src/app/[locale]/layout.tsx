@@ -327,7 +327,19 @@ export default async function RootLayout({
                       var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
                       ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
                       ttq.load('DAA0JC3C77U98E0UIGAG');
-                      ttq.page();
+                      ttq.instance('DAA0JC3C77U98E0UIGAG').page();
+                      // Separate confirmed-order lead pixel. Legacy events are
+                      // instance-scoped; warranty/contact/payment cannot leak in.
+                      w.__cvLoadOrderLeadPixel = function() {
+                        if (w.__cvOrderLeadPixelReady || w.location.search || w.location.hash) return;
+                        var leadConsent = true;
+                        try { leadConsent = w.localStorage.getItem('cv_measurement_consent') !== 'denied'; } catch (e) {}
+                        if (!leadConsent) return;
+                        ttq.load('DB1O8PBC77U5DCODCAM0');
+                        w.__cvOrderLeadPixelReady = true;
+                        w.dispatchEvent(new Event('cv:tiktok-order-leads-ready'));
+                      };
+                      w.__cvLoadOrderLeadPixel();
                     }(window, document, 'ttq');
                   } catch (e) {}
 

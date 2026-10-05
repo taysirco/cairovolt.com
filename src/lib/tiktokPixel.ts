@@ -16,6 +16,7 @@ interface TtqInstance {
   track: (event: string, params?: Record<string, unknown>, options?: { event_id?: string }) => void;
   identify: (params: Record<string, unknown>) => void;
   load: (pixelId: string) => void;
+  instance: (pixelId: string) => TtqInstance;
 }
 
 interface TtqWindow extends Window {
@@ -32,8 +33,9 @@ interface TtqContentItem {
 function getTtq(): TtqInstance | null {
   if (typeof window === 'undefined') return null;
   const w = window as unknown as TtqWindow;
-  if (!w.ttq || typeof w.ttq.track !== 'function') return null;
-  return w.ttq;
+  if (!w.ttq || typeof w.ttq.instance !== 'function') return null;
+  // Keep legacy events out of the separate confirmed-order lead pixel.
+  return w.ttq.instance('DAA0JC3C77U98E0UIGAG');
 }
 
 /**

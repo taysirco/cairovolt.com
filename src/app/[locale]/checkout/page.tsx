@@ -8,6 +8,7 @@ import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackBeginCheckout } from '@/lib/analytics';
 import { ttqInitiateCheckout, ttqSubmitForm } from '@/lib/tiktokPixel';
+import { armConfirmedOrderLead } from '@/lib/tiktokOrderLead';
 import {
     collectAdsContext,
     oaiCheckoutStarted,
@@ -513,6 +514,10 @@ export default function CheckoutPage() {
                 setLoading(false);
                 return;
             }
+
+            // Arm the separate lead pixel only after the server committed an order.
+            // It emits nothing here; /confirm must be reached first.
+            try { armConfirmedOrderLead(result.orderId); } catch { /* never break checkout */ }
 
             // Prepare order data for confirmation page
             const confirmData = {
