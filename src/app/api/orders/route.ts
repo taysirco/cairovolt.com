@@ -3,7 +3,6 @@ import { after } from 'next/server';
 import crypto from 'crypto';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
-import { safeAppendOrderToSheet } from '@/lib/google-sheets';
 import { safeSendLeadToCRM } from '@/lib/crm';
 import { validateApiKey } from '@/lib/api-auth';
 import { sendTtqOrderEvent } from '@/lib/tiktokEventsApi';
@@ -413,10 +412,9 @@ export async function POST(req: NextRequest) {
         const conversionTimestampMs = Date.now();
 
         // Complete the business-system synchronization before returning a response.
-        await Promise.all([
-            safeAppendOrderToSheet({ ...orderData, id: docRef.id }),
-            safeSendLeadToCRM({ ...orderData, id: docRef.id }),
-        ]);
+        // The CRM reconciles this collection every 5 minutes, so an order whose
+        // webhook fails still reaches it (the Google Sheet copy was retired 2026-10).
+        await safeSendLeadToCRM({ ...orderData, id: docRef.id });
 
         // TikTok S2S stays deferred — it's analytics, not business-critical
         const clientIp = ip === 'unknown' ? '' : ip;

@@ -7,7 +7,8 @@ import { logger } from './logger';
 // replying — so waiting longer than a couple of seconds buys no reliability,
 // it only delays the customer's order confirmation. Aborting early is treated
 // as "delivered" below (never retried), which the CRM's fingerprint
-// idempotency and the sheet reconciliation both back up.
+// idempotency and its 5-minute reconciliation against this store's own
+// Firestore orders both back up.
 const CRM_TIMEOUT_MS = 2500;
 
 interface CrmOrderItem {
@@ -73,7 +74,7 @@ function buildLeadPayload(orderData: CrmOrderData) {
         : null;
 
     return {
-        // This reference matches the Google Sheets reconciliation column.
+        // The CRM keys idempotency and its store-order reconciliation on this reference.
         fingerprint: String(orderData.orderId || orderData.id || ''),
         name: orderData.customerName,
         phone: orderData.phone,
@@ -146,5 +147,5 @@ export async function safeSendLeadToCRM(orderData: CrmOrderData): Promise<void> 
         }
         if (attempt < MAX_ATTEMPTS) await new Promise((r) => setTimeout(r, 800 * attempt));
     }
-    console.error(`[CRM] Lead synchronization failed after ${MAX_ATTEMPTS} attempts; sheet reconciliation remains available.`);
+    console.error(`[CRM] Lead synchronization failed after ${MAX_ATTEMPTS} attempts; the CRM's store-order reconciliation will recover it.`);
 }

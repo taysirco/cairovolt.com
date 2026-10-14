@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
-import { safeAppendOrderToSheet } from '@/lib/google-sheets';
 import { safeSendLeadToCRM } from '@/lib/crm';
 import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { checkRateLimit } from '@/lib/rate-limit';
@@ -530,14 +529,11 @@ export async function POST(req: NextRequest) {
 
         const docRef = await db.collection('orders').add(orderData);
 
-        // ═══ Google Sheets sync — BEFORE response (critical business data) ═══
-        // Moved from after() because Firebase App Hosting (Cloud Run) may kill
-        // the container before deferred callbacks complete, causing silent data loss.
-        // Sheets + CRM بالتوازي — كلاهما fail-open ولا يؤخر أحدهما الآخر
-        await Promise.all([
-            safeAppendOrderToSheet({ ...orderData, id: docRef.id }),
-            safeSendLeadToCRM({ ...orderData, id: docRef.id }),
-        ]);
+        // ═══ CRM sync — BEFORE response (critical business data) ═══
+        // Not in after(): Firebase App Hosting (Cloud Run) may kill the container
+        // before deferred callbacks complete. Fail-open; the CRM reconciles this
+        // collection every 5 minutes (the Google Sheet copy was retired 2026-10).
+        await safeSendLeadToCRM({ ...orderData, id: docRef.id });
 
         return NextResponse.json({
             success: true,

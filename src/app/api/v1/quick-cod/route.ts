@@ -4,7 +4,6 @@ import crypto from 'crypto';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
-import { safeAppendOrderToSheet } from '@/lib/google-sheets';
 import { safeSendLeadToCRM } from '@/lib/crm';
 import { checkRateLimit } from '@/lib/rate-limit';
 import { getClientIp } from '@/lib/request-ip';
@@ -379,14 +378,11 @@ export async function POST(req: NextRequest) {
         }, { status: 500 });
     }
 
-    // ═══ 8. Google Sheets sync — BEFORE response (critical business data) ═══
-    // Moved from after() because Firebase App Hosting (Cloud Run) may kill
-    // the container before deferred callbacks complete, causing silent data loss.
-    // Sheets + CRM بالتوازي — كلاهما fail-open ولا يؤخر أحدهما الآخر
-    await Promise.all([
-        safeAppendOrderToSheet({ ...orderData, id: docRef.id }),
-        safeSendLeadToCRM({ ...orderData, id: docRef.id }),
-    ]);
+    // ═══ 8. CRM sync — BEFORE response (critical business data) ═══
+    // Not in after(): Firebase App Hosting (Cloud Run) may kill the container
+    // before deferred callbacks complete. Fail-open; the CRM reconciles this
+    // collection every 5 minutes (the Google Sheet copy was retired 2026-10).
+    await safeSendLeadToCRM({ ...orderData, id: docRef.id });
 
     // ── 9. Success Response ──
     const productName = input.locale === 'ar'
