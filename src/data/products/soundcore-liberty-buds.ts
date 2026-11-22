@@ -7,7 +7,7 @@ export const soundcore_liberty_buds = {
     gtin: "",
     gtin13: "",
     mpn: "D1200Z11",
-    price: 1925,
+    price: 1750,
     originalPrice: 2329,
     stock: 751,
     featured: false,

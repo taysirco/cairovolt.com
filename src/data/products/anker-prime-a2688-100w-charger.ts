@@ -7,7 +7,7 @@ export const anker_prime_a2688_100w_charger = {
         gtin: "",
         gtin13: "",
         mpn: "A2688",
-        price: 2174,
+        price: 1999,
         originalPrice: 2649,
         stock: 276,
         featured: false,

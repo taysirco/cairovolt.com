@@ -7,7 +7,7 @@ export const soundcore_select_4_go_speaker = {
     gtin: "",
     gtin13: "",
     mpn: "A31X1",
-    price: 1424,
+    price: 1249,
     originalPrice: 1680,
     stock: 927,
     featured: false,

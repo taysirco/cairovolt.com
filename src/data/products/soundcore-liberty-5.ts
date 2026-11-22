@@ -7,7 +7,7 @@ export const soundcore_liberty_5 = {
     gtin: "",
     gtin13: "",
     mpn: "A3957",
-    price: 4172,
+    price: 3997,
     originalPrice: 4830,
     stock: 856,
     featured: true,

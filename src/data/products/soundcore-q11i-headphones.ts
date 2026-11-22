@@ -7,7 +7,7 @@ export const soundcore_q11i_headphones = {
     gtin: "",
     gtin13: "",
     mpn: "A3005",
-    price: 2487,
+    price: 2312,
     originalPrice: 2920,
     stock: 813,
     featured: false,

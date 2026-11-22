@@ -7,7 +7,7 @@ export const soundcore_p25i_earbuds = {
     gtin: "",
     gtin13: "",
     mpn: "A3949",
-    price: 945,
+    price: 770,
     originalPrice: 1099,
     stock: 1089,
     featured: false,

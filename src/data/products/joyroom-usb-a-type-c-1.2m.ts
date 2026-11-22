@@ -8,7 +8,7 @@ export const joyroom_usb_a_type_c_1_2m = {
         gtin: "6956116750220",
         gtin13: "6956116750220",
         mpn: "JR-S-AC12",
-        price: 389,
+        price: 214,
         originalPrice: 449,
         stock: 510,
         featured: false,

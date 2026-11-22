@@ -8,7 +8,7 @@ export const joyroom_power_bank_20000 = {
         gtin: "6956116750022",
         gtin13: "6956116750022",
         mpn: "JR-PBF14 Pro",
-        price: 1172,
+        price: 997,
         originalPrice: 1399,
         stock: 1254,
         featured: true,

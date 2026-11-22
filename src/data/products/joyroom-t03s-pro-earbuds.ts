@@ -8,7 +8,7 @@ export const joyroom_t03s_pro_earbuds = {
         gtin: "6956116714048",
         gtin13: "6956116714048",
         mpn: "JR-AU-T03SPRO",
-        price: 839,
+        price: 664,
         originalPrice: 1009,
         stock: 579,
         featured: true,

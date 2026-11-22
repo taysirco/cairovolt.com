@@ -8,7 +8,7 @@ export const joyroom_25w_fast_charger = {
         gtin: "6956116750046",
         gtin13: "6956116750046",
         mpn: "JR-TCF23",
-        price: 517,
+        price: 342,
         originalPrice: 620,
         stock: 1058,
         featured: true,

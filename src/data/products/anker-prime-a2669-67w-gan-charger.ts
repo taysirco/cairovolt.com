@@ -7,7 +7,7 @@ export const anker_prime_a2669_67w_gan_charger = {
         gtin: "",
         gtin13: "",
         mpn: "A2669",
-        price: 2145,
+        price: 1970,
         originalPrice: 2540,
         stock: 313,
         featured: false,

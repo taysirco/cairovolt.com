@@ -7,7 +7,7 @@ export const anker_nano_45w_1c_pd = {
         gtin: "",
         gtin13: "",
         mpn: "A2664",
-        price: 950,
+        price: 775,
         originalPrice: 1099,
         stock: 222,
         featured: true,

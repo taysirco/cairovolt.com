@@ -8,7 +8,7 @@ export const anker_powerline_usb_c_usb_c = {
         gtin: "0848061040371",
         gtin13: "0848061040371",
         mpn: "A8852H11",
-        price: 765,
+        price: 590,
         originalPrice: 910,
         stock: 1409,
         featured: false,

@@ -8,7 +8,7 @@ export const anker_powerline_usb_c_lightning = {
         gtin: "0848061099430",
         gtin13: "0848061099430",
         mpn: "A8612H11",
-        price: 805,
+        price: 630,
         originalPrice: 969,
         stock: 452,
         featured: true,

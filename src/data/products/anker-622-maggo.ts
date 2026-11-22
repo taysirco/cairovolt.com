@@ -8,7 +8,7 @@ export const anker_622_maggo = {
         gtin: "0194644092122",
         gtin13: "0194644092122",
         mpn: "A1611",
-        price: 2975,
+        price: 2800,
         originalPrice: 3519,
         stock: 457,
         featured: true,

@@ -8,7 +8,7 @@ export const anker_car_charger_dual_usb = {
         gtin: "0848061073508",
         gtin13: "0848061073508",
         mpn: "A2310011",
-        price: 1125,
+        price: 950,
         originalPrice: 1280,
         stock: 525,
         featured: true,
