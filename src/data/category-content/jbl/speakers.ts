@@ -73,7 +73,7 @@ export const jbl_speakers_content: CategoryContent = {
                 {
                     title: 'Charge 5 ولا Charge 6؟ الفرق بـ2,150 جنيه',
                     content: `
-الفرق في السعر عندنا 2,150 جنيه (6,999 مقابل 9,149)، واللي بتشتريه بالفرق ده حسب المواصفات المعلنة من JBL:
+الفرق في السعر عندنا 2,150 جنيه (7,174 مقابل 9,324)، واللي بتشتريه بالفرق ده حسب المواصفات المعلنة من JBL:
 
 - **البطارية:** 20 ساعة → 24 ساعة (+4 ساعات بوضع Playtime Boost في Charge 6).
 - **مقاومة الماء:** IP67 → IP68، وزيادة تصنيف ضد السقوط من متر — وده بيعالج السبب الأشهر لموت السبيكرات فعليًا: الوقعة من على الترابيزة مش الغرق.
@@ -115,7 +115,7 @@ export const jbl_speakers_content: CategoryContent = {
                 },
                 {
                     question: 'سعر صب JBL كام في مصر؟',
-                    answer: 'سبيكرات JBL عندنا بتبدأ من 2,049 جنيه لـ Go 4 وبتوصل 22,649 جنيه لـ Boombox 3. اللي أغلب الناس بتقصده بكلمة "صب" — يعني باس ملموس — بيبدأ من Flip 6 بـ5,499 جنيه، وCharge 5 بـ6,999، وCharge 6 بـ9,149. السعر بيتغير مع المخزون والعروض، والسعر الحالي معروض على صفحة كل موديل بضمان كايرو فولت 12 شهر ودفع عند الاستلام.'
+                    answer: 'سبيكرات JBL عندنا بتبدأ من 2,224 جنيه لـ Go 4 وبتوصل 22,824 جنيه لـ Boombox 3. اللي أغلب الناس بتقصده بكلمة "صب" — يعني باس ملموس — بيبدأ من Flip 6 بـ5,674 جنيه، وCharge 5 بـ7,174، وCharge 6 بـ9,324. السعر بيتغير مع المخزون والعروض، والسعر الحالي معروض على صفحة كل موديل بضمان كايرو فولت 12 شهر ودفع عند الاستلام.'
                 }
             ],
         },
@@ -175,7 +175,7 @@ Bottom line: tighter budget and shorter sessions → Flip 6. Newest protocols in
                 {
                     title: 'Charge 5 or Charge 6? What the 2,150 EGP buys',
                     content: `
-The price gap here is 2,150 EGP (6,999 vs 9,149). What it buys, per JBL's listed specs:
+The price gap here is 2,150 EGP (7,174 vs 9,324). What it buys, per JBL's listed specs:
 
 - **Battery:** 20h → 24h (+4h in Charge 6's Playtime Boost mode).
 - **Water rating:** IP67 → IP68, plus a 1-metre drop rating — which addresses how portable speakers actually die: the fall off a table, not immersion.
@@ -217,7 +217,7 @@ Bottom line: if this is your first JBL and it is going to the beach and on trips
                 },
                 {
                     question: 'How much does a JBL speaker cost in Egypt?',
-                    answer: 'JBL speakers here start at 2,049 EGP for the Go 4 and reach 22,649 EGP for the Boombox 3. The class most buyers mean by real bass starts at the Flip 6 (5,499 EGP), with Charge 5 at 6,999 and Charge 6 at 9,149. Prices move with stock and promotions; the live figure is on each model page, and every model carries the CairoVolt 12-month warranty with cash on delivery.'
+                    answer: 'JBL speakers here start at 2,224 EGP for the Go 4 and reach 22,824 EGP for the Boombox 3. The class most buyers mean by real bass starts at the Flip 6 (5,674 EGP), with Charge 5 at 7,174 and Charge 6 at 9,324. Prices move with stock and promotions; the live figure is on each model page, and every model carries the CairoVolt 12-month warranty with cash on delivery.'
                 }
             ],
         }

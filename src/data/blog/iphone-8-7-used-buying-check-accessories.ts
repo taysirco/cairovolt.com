@@ -136,7 +136,7 @@ export const iphone_8_7_used_buying_check_accessories: BlogArticle = {
 <p>يتطلب ايفون 7 و 8 كابلات معتمدة بموجب ترخيص **MFi (Made for iPhone)** من أبل. تحتوي كابلات لايتنينج الأصلية والمعتمدة على شريحة تحكم بالغة الصغر (رقاقة **C48** أو رقاقة **C89** الجديدة).</p>
 <p>تقوم هذه الشريحة بمراقبة الجهد الكهربائي القادم من الشاحن بشكل مستمر؛ فإذا ارتفع الجهد عن 5.2 فولت نتيجة خلل في رأس الشاحن التجاري، تقوم الشريحة فوراً بقطع التيار الكهربائي لمنع تدفقه للهاتف. غياب هذه الشريحة في الكابلات الرخيصة يتسبب في وصول الفولت العالي لرقاقة تنظيم الشحن باللوحة الأم (**Tristar/U2 IC**), مما يؤدي لتلفها واحتراق البوردة تماماً وتوقف الهاتف عن العمل بشكل نهائي.</p>
 <ul>
-    <li>🔌 <strong>كابل معتمد MFi ننصح به:</strong> ترشيحنا هنا هو <a href="/anker/cables/anker-310-usb-c-lightning-cable" style="color:#2563eb;font-weight:600;">كابل انكر 310 USB-C لايتننج</a> بسعر 730 ج.م؛ الكابل معتمد MFi رسمياً من أبل، ومع أي شاحن PD (مثل شاحن جويروم بالأعلى) هيوصل ايفون 8 من 0 لـ50% في حوالي 30 دقيقة من غير أي خطر على رقاقة Tristar.</li>
+    <li>🔌 <strong>كابل معتمد MFi ننصح به:</strong> ترشيحنا هنا هو <a href="/anker/cables/anker-310-usb-c-lightning-cable" style="color:#2563eb;font-weight:600;">كابل انكر 310 USB-C لايتننج</a> بسعر 905 ج.م؛ الكابل معتمد MFi رسمياً من أبل، ومع أي شاحن PD (مثل شاحن جويروم بالأعلى) هيوصل ايفون 8 من 0 لـ50% في حوالي 30 دقيقة من غير أي خطر على رقاقة Tristar.</li>
 </ul>
 
 <h3>3. سماعات بلوتوث متكاملة لتوفير البطارية</h3>
@@ -262,7 +262,7 @@ export const iphone_8_7_used_buying_check_accessories: BlogArticle = {
 <p>Apple enforces strict hardware specifications under its **MFi (Made for iPhone)** licensing program. MFi-certified Lightning cables incorporate a small security coprocessor (historically the **C48 chip**, updated to the **C89 chip** in modern versions) inside the Lightning tip.</p>
 <p>This chip continuously communicates with the iPhone\'s power logic. If the voltage fluctuates above 5.2V due to a faulty adapter, the MFi chip immediately halts the current flow. Cheap, uncertified cables omit this security component. This allows raw voltage spikes to reach the iPhone\'s motherboard **Tristar/U2 charging IC**, causing immediate component failure and leaving the phone unable to boot or charge.</p>
 <ul>
-    <li>🔌 <strong>Recommended MFi Cable:</strong> Our pick is the <a href="/en/anker/cables/anker-310-usb-c-lightning-cable" style="color:#2563eb;font-weight:600;">Anker 310 USB-C to Lightning</a> cable (730 EGP). It is officially MFi certified, and paired with any USB-PD charger it takes an iPhone 8 from 0 to 50% in roughly 30 minutes without endangering the Tristar IC.</li>
+    <li>🔌 <strong>Recommended MFi Cable:</strong> Our pick is the <a href="/en/anker/cables/anker-310-usb-c-lightning-cable" style="color:#2563eb;font-weight:600;">Anker 310 USB-C to Lightning</a> cable (905 EGP). It is officially MFi certified, and paired with any USB-PD charger it takes an iPhone 8 from 0 to 50% in roughly 30 minutes without endangering the Tristar IC.</li>
 </ul>
 
 <h3>Compatible Bluetooth Earbuds</h3>

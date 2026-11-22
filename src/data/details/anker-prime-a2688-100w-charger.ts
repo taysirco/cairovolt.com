@@ -29,7 +29,7 @@ export const anker_prime_a2688_100w_charger_detail: ProductDetail = {
             '(3) MULTI-DEVICE HOME OFFICE — MacBook on C1 + iPad on C2 + phone on A: vendor three-port ceiling 89W; we measured 89.6W combined — usable, not three full-speed fast-charges. ' +
             '(4) CAIRO–ALEX / SAHEL laptop commute (Blue Bus / GO Bus seat sockets) — 0→50% in ~30 min on A2688 vs slower normal charge on A2669 over a 3-hour trip. ' +
             '(5) TWO-LAPTOP DEVELOPER — C1+C2 shared ~94.2W (~65/29) keeps work + personal machines alive from one brick. ' +
-            'WRONG FOR: (6) single iPhone or single Samsung-base owner — phone caps ~20–27W / 25W; Nano II A2664 (~790 EGP) covers that job at a fraction of ~1,999 EGP. MacBook Pro 16" still wants Apple\'s 140W class for full fast-charge — A2688 gives normal-charge class only. ' +
+            'WRONG FOR: (6) single iPhone or single Samsung-base owner — phone caps ~20–27W / 25W; Nano II A2664 (~965 EGP) covers that job at a fraction of ~2,174 EGP. MacBook Pro 16" still wants Apple\'s 140W class for full fast-charge — A2688 gives normal-charge class only. ' +
             'HEAT: Anker lists 0–25°C operating range (Macworld: "a little restrictive"); Cairo Jul–Aug daily high ~35°C (WeatherSpark). Bench 63.2°C triple-load at 28.3°C ambient → expect hotter in a closed 35°C apartment — 20 cm airflow, never buried. ' +
             'PLUG: CV-CH-A2688-001 has foldable US Type-A / NEMA 1-15 — fits many Egyptian universal wall plates; deep-recess Europlug-only outlets may need a rated adapter. Confirm your shipment (ME variants can differ). ' +
             'ELECTRICITY: ~96W × 1 h ≈ 0.10 kWh ≈ 7–23 piastres on EgyptERA Sept-2024 tiers — under ~85 EGP/year for daily full Pro fast-charge even at top tier. ' +
@@ -41,7 +41,7 @@ export const anker_prime_a2688_100w_charger_detail: ProductDetail = {
             '(3) مكتب منزلي متعدد الأجهزة — لابتوب على C1 + iPad على C2 + هاتف على A: سقف المصنّع الثلاثي 89 واط؛ قِسنا 89.6 واط — مفيد، وليس ثلاث شحنات سريعة كاملة. ' +
             '(4) رحلة القاهرة–إسكندرية/الساحل باللابتوب — 0→50% في ~30 دقيقة على A2688 مقابل شحن طبيعي أبطأ على A2669 خلال 3 ساعات. ' +
             '(5) مطوّر بلابتوبين — تقاسم C1+C2 ~94.2 واط (~65/29) يُبقي الجهازين من شاحن واحد. ' +
-            'غير مناسب لـ: (6) مالك iPhone وحيد أو Samsung قاعدي — الهاتف يتوقف عند ~20–27 / 25 واط؛ Nano II A2664 يكفي بجزء من ~1,999 جنيه. MacBook Pro 16 بوصة ما زال يفضّل فئة 140 واط للشحن السريع الكامل. ' +
+            'غير مناسب لـ: (6) مالك iPhone وحيد أو Samsung قاعدي — الهاتف يتوقف عند ~20–27 / 25 واط؛ Nano II A2664 يكفي بجزء من ~2,174 جنيه. MacBook Pro 16 بوصة ما زال يفضّل فئة 140 واط للشحن السريع الكامل. ' +
             'الحرارة: انكر تعلن 0–25°م؛ متوسط عظمى القاهرة يوليو–أغسطس ~35°م. قِسنا 63.2°م ثلاثيًا عند 28.3°م → أتوقع أسخن في شقة 35°م — 20 سم تهوية. ' +
             'القابس: العيّنة بسنون US Type-A قابلة للطي — تدخل كثيرًا من الفيش العمومية المصرية؛ المخارج الغائرة Europlug فقط قد تحتاج محوّلًا. أكّد شحنتك. ' +
             'الكهرباء: ~96 واط × ساعة ≈ 0.10 كيلوواط·ساعة ≈ 7–23 قرشًا. ' +

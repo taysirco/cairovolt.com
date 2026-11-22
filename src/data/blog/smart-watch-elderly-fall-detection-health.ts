@@ -105,7 +105,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <p>في دراسة نُشرت في Journal of Medical Internet Research (2024): المرضى اللي استخدموا تنبيهات ساعة ذكية لمواعيد الأدوية حققوا نسبة التزام 87% مقارنة بـ 65% للي بيعتمدوا على الذاكرة بس. ده فرق 22 نقطة — ممكن يكون الفرق بين ضغط مضبوط وأزمة ارتفاع ضغط مفاجئة.</p>
 
-<h2>مقارنة عملية — ساعة بـ 1,092 جنيه ضد ساعة بـ 10,000 جنيه</h2>
+<h2>مقارنة عملية — ساعة بـ 1,267 جنيه ضد ساعة بـ 10,000 جنيه</h2>
 
 <p>خلّينا نكون واقعيين ونقارن اللي فعلاً في إيدنا:</p>
 
@@ -128,7 +128,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     <tr><td style="padding:10px;border:1px solid #d1d5db;">عمر البطارية</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>5-7 أيام</strong></td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 ساعة</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 ساعة</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">شاشة</td><td style="padding:10px;border:1px solid #d1d5db;">1.96 بوصة TFT</td><td style="padding:10px;border:1px solid #d1d5db;">1.78 بوصة OLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.9 بوصة OLED</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">التوافق</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">أي موبايل</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone فقط</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone فقط</td></tr>
-    <tr style="background:#f0fdf4;"><td style="padding:10px;border:1px solid #d1d5db;"><strong>السعر في مصر</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>1,092 جنيه</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>7,000+ جنيه</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>12,000+ جنيه</strong></td></tr>
+    <tr style="background:#f0fdf4;"><td style="padding:10px;border:1px solid #d1d5db;"><strong>السعر في مصر</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>1,267 جنيه</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>7,000+ جنيه</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>12,000+ جنيه</strong></td></tr>
     </tbody>
 </table>
 
@@ -268,7 +268,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <p>A study published in the Journal of Medical Internet Research (2024) found that patients using smartwatch medication reminders achieved an 87% adherence rate compared to 65% for those relying on memory alone. That is a 22-point difference — which could be the difference between controlled blood pressure and a sudden hypertensive crisis.</p>
 
-<h2>Practical Comparison — A 1,092 EGP Watch vs. a 10,000 EGP Watch</h2>
+<h2>Practical Comparison — A 1,267 EGP Watch vs. a 10,000 EGP Watch</h2>
 
 <p>Let us be realistic and compare what is actually available:</p>
 
@@ -291,7 +291,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Battery Life</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>5-7 days</strong></td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 hours</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 hours</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Screen</td><td style="padding:10px;border:1px solid #d1d5db;">1.96" TFT</td><td style="padding:10px;border:1px solid #d1d5db;">1.78" OLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.9" OLED</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Compatibility</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">Any phone</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone only</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone only</td></tr>
-    <tr style="background:#f0fdf4;"><td style="padding:10px;border:1px solid #d1d5db;"><strong>Price in Egypt</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>1,092 EGP</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>7,000+ EGP</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>12,000+ EGP</strong></td></tr>
+    <tr style="background:#f0fdf4;"><td style="padding:10px;border:1px solid #d1d5db;"><strong>Price in Egypt</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>1,267 EGP</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>7,000+ EGP</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>12,000+ EGP</strong></td></tr>
     </tbody>
 </table>
 

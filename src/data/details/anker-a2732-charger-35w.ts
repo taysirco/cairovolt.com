@@ -38,7 +38,7 @@ export const anker_a2732_charger_35w_detail: ProductDetail = {
             '(3) TALABAT / INSTASHOP / ELMENUS courier — company USB-A Android + personal USB-C phone on one socket without cable ping-pong. ' +
             '(4) VW GOLF / SKODA OCTAVIA deep sockets — 32g / 38 mm body seats deeper and jiggles less on Ring Road / Faisal potholes than ultralight 15g A2741. ' +
             '(5) MICROBUS / TRUCK 24V — both SKUs dual-rated; we verified A2732 at 24V lab DC (19.8W C + 14.9W A). ' +
-            '(6) SECOND-CAR / glovebox spare when price is ~550 EGP vs A2741 ~530 EGP — nearly identical street money; pick on features, not “budget.” ' +
+            '(6) SECOND-CAR / glovebox spare when price is ~725 EGP vs A2741 ~705 EGP — nearly identical street money; pick on features, not “budget.” ' +
             'WRONG FOR / RED-FLAG: (7) Samsung S23/S24/S25 Ultra owners wanting Super Fast Charging in-car — A2732 has NO PPS; SFC falls back to ~15W PD. Buy A2741. ' +
             '(8) Solo modern USB-C phone (iPhone / Pixel / Samsung) — A2741’s 29.3W C peak beats A2732’s 19.8W C. ' +
             'HEAT: Cairo July sun-park dashboard hit 61.5°C on our Corolla (GM320; SAE J1211 summer class). Anker rates 0–40°C operating window — unplug in direct sun; glovebox; let AC cool ≥5 min before high-load charge. ' +
@@ -53,7 +53,7 @@ export const anker_a2732_charger_35w_detail: ProductDetail = {
             '(3) مندوب طلبات / إنستا شوب / الميناس — أندرويد شركة USB-A + هاتف شخصي USB-C على مقبس واحد دون تبادل كابلات. ' +
             '(4) VW Golf / Skoda Octavia بمقابس عميقة — جسم 32 جرامًا / 38 ملم يستقر أعمق ويهتز أقل على مطبّات الدائري / فيصل من A2741 خفيف 15 جرامًا. ' +
             '(5) ميكروباص / شاحنة 24V — كلا الموديلين مصنّف مزدوجًا؛ تحقّقنا من A2732 عند 24V مختبري (19.8 واط C + 14.9 واط A). ' +
-            '(6) سيارة ثانية / احتياطي درج عندما السعر ~550 جنيه مقابل A2741 ~530 — مال شارع متقارب؛ اختر بالميزات لا بـ"الميزانية". ' +
+            '(6) سيارة ثانية / احتياطي درج عندما السعر ~725 جنيه مقابل A2741 ~705 — مال شارع متقارب؛ اختر بالميزات لا بـ"الميزانية". ' +
             'غير مناسب / علم أحمر: (7) أصحاب Samsung S23/S24/S25 Ultra يريدون Super Fast Charging في السيارة — A2732 بلا PPS؛ SFC يرتد إلى ~15 واط PD. اشترِ A2741. ' +
             '(8) هاتف USB-C حديث منفرد — ذروة A2741 على C بـ29.3 واط تتفوق على 19.8 واط في A2732. ' +
             'الحرارة: تابلوه يوليو بعد ركن شمسي بلغ 61.5°م على Corolla (GM320؛ فئة SAE J1211 الصيفية). انكر تدرج نطاق تشغيل 0–40°م — افصل في الشمس المباشرة؛ درج القفازات؛ دع التكييف يبرّد ≥5 دقائق قبل شحن بحمل عالٍ. ' +

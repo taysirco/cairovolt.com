@@ -25,7 +25,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
         ar: {
             title: 'أول مرة تسوق؟ أساسيات حامل الموبايل والشاحن اللي كل سائق جديد محتاجها',
             metaTitle: 'أساسيات حامل الموبايل وشاحن السيارة للسائق الجديد | كايرو فولت',
-            metaDescription: 'دليل السائق الجديد في مصر لاختيار حامل موبايل وشاحن سيارة — بالمعايير الهندسية والأسعار المحدّثة. حلول من 169ج لـ 950ج بضمان مكتوب من المتجر. تابع التفاصيل بمصر.',
+            metaDescription: 'دليل السائق الجديد في مصر لاختيار حامل موبايل وشاحن سيارة — بالمعايير الهندسية والأسعار المحدّثة. حلول من 344ج لـ 1,125ج بضمان مكتوب من المتجر. تابع التفاصيل بمصر.',
             keywords: 'حامل موبايل سيارة, شاحن سيارة, سائق جديد مصر, حامل موبايل عربية, افضل شاحن سيارة مصر, حامل جوال سيارة, اكسسوارات سيارة للمبتدئين, car phone holder Egypt, car charger Egypt beginner',
             excerpt: 'دليل شامل للسائق الجديد في مصر — إزاي تختار حامل الموبايل وشاحن السيارة الصح من أول مرة بدون ما تدفع تمن غلطتك مرتين.',
             quickAnswer: 'أهم حاجتين لأي سائق جديد: حامل موبايل ثابت وشاحن سيارة USB-C PD. أوفر بداية أصلية: حامل جوي روم JR-ZS295 بـ {{price:joyroom-car-phone-mount}}ج وشاحن انكر A2741 بـ {{price:anker-a2741-charger-30w}}ج. قسنا A2741 على iPhone 15 والخرائط شغّالة: زاد الشحن 34 نقطة في 90 دقيقة. تأكد من طريقة تركيب الحامل المناسبة لعربيتك قبل الشراء.',
@@ -276,7 +276,7 @@ export const new_driver_car_accessories_essentials_beginners: BlogArticle = {
         en: {
             title: 'First Time Driving? Essential Phone Holder & Car Charger Every New Driver Needs in Egypt',
             metaTitle: 'Phone Holder & Car Charger for New Drivers Egypt | CairoVolt',
-            metaDescription: 'New driver guide for choosing the right car phone holder and charger in Egypt. Engineering-backed picks from 169 to 950 EGP with a written store warranty.',
+            metaDescription: 'New driver guide for choosing the right car phone holder and charger in Egypt. Engineering-backed picks from 344 to 1,125 EGP with a written store warranty.',
             keywords: 'car phone holder Egypt, car charger new driver, best car charger Egypt, phone mount car Egypt, beginner driver accessories, car phone holder suction, Anker car charger Egypt, Joyroom car mount',
             excerpt: 'Complete guide for new drivers in Egypt — how to choose the right phone holder and car charger from day one without paying for your mistakes twice.',
             quickAnswer: 'Every new driver needs two things: a stable phone holder and a USB-C PD car charger. The most affordable genuine start is the Joyroom JR-ZS295 mount at {{price:joyroom-car-phone-mount}} EGP plus the Anker A2741 at {{price:anker-a2741-charger-30w}} EGP. We measured the A2741 adding 34 points to an iPhone 15 in 90 minutes with Maps running. Confirm the mount type suits your car.',

@@ -43,7 +43,7 @@ export const anker_ultra_soft_usb_c_240w_cable_detail: ProductDetail = {
     },
     localContext: {
         en:
-            'CairoVolt is an independent retailer — this cable carries our store warranty, not a manufacturer or agent warranty. At 650 EGP it is priced as a premium cable, and the honest justification is the E-Marker, the 240W headroom and the soft braid, not charging your phone faster. ' +
+            'CairoVolt is an independent retailer — this cable carries our store warranty, not a manufacturer or agent warranty. At 825 EGP it is priced as a premium cable, and the honest justification is the E-Marker, the 240W headroom and the soft braid, not charging your phone faster. ' +
             'RIGHT FOR: (1) THE ONE-CABLE HOUSEHOLD — a USB-C laptop, a USB-C phone, an iPad and earbuds all served by a single cable that is never the bottleneck. This is the strongest case and the only one we will lead with. ' +
             '(2) MACBOOK AND USB-C LAPTOP OWNERS — 240W is comfortably above the ~140W a 16-inch MacBook Pro draws, so the cable never limits a laptop charger. ' +
             '(3) THE SOFA AND BEDSIDE SOCKET — Egyptian flats often put the only free socket across the room; 1.8 m is the length that makes the phone usable while it charges. ' +
@@ -60,7 +60,7 @@ export const anker_ultra_soft_usb_c_240w_cable_detail: ProductDetail = {
             'AUTHENTICITY: match the printed model code on the sleeve. We have left the MPN field blank rather than guess between Anker’s several similar 240W braided cables — a fabricated model number in structured data is worse than an absent one. ' +
             'WHAT WE DID NOT INVENT: no CairoVolt wattage, temperature, weight, resistance or transfer-speed measurement exists for this cable. No claim that it speeds up phone charging. No claim of video output or USB 3 data. No invented model number.',
         ar:
-            'كايرو فولت متجر مستقل — الكابل ده بضمان المتجر، وليس ضمان الشركة المصنّعة أو الوكيل. وبسعر 650 جنيه هو مسعّر ككابل بريميوم، والمبرر الصادق هو شريحة E-Marker وهامش الـ240 واط والجديلة الناعمة، مش إنه هيشحن موبايلك أسرع. ' +
+            'كايرو فولت متجر مستقل — الكابل ده بضمان المتجر، وليس ضمان الشركة المصنّعة أو الوكيل. وبسعر 825 جنيه هو مسعّر ككابل بريميوم، والمبرر الصادق هو شريحة E-Marker وهامش الـ240 واط والجديلة الناعمة، مش إنه هيشحن موبايلك أسرع. ' +
             'مناسب لـ: (1) البيت اللي عايز كابل واحد — لابتوب USB-C وموبايل USB-C وايباد وسماعات، كلهم على كابل واحد مش هيكون هو العائق أبداً. ده أقوى سبب وهو الوحيد اللي هنبدأ بيه. ' +
             '(2) أصحاب MacBook ولابتوبات USB-C — الـ240 واط أعلى بمساحة من الـ140 واط اللي بيسحبها MacBook Pro مقاس 16 بوصة، فالكابل مابيحدّش شاحن اللابتوب أبداً. ' +
             '(3) مقبس الكنبة وجنب السرير — الشقق المصرية كتير بيكون المقبس الفاضي الوحيد فيها في الناحية التانية من الأوضة؛ و1.8 متر هو الطول اللي بيخلي الموبايل قابل للاستخدام وهو بيشحن. ' +

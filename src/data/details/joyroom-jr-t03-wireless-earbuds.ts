@@ -7,24 +7,24 @@ export const joyroom_jr_t03_wireless_earbuds_detail: ProductDetail = {
     aiTldr: {
         en: [
             'Joyroom JR-T03 (JR-AU-T03) are entry true-wireless earbuds with 13mm drivers, SBC/AAC and no ANC. We measured 4h 25min per charge and 17h 40min with the case at 50% volume; the marketed ~20H is the total with the case, not one charge.',
-            'Listing identity: store JH01, GTIN 6956116714055, ~774 EGP. Battery math from Joyroom T03-family published cells = 45mAh × 2 earbuds (0.1665Wh each · 0.333Wh pair) + 350mAh case (1.295Wh) = ~1.628Wh system — inside the envelope for a 13mm BT 5.0-era TWS.',
+            'Listing identity: store JH01, GTIN 6956116714055, ~949 EGP. Battery math from Joyroom T03-family published cells = 45mAh × 2 earbuds (0.1665Wh each · 0.333Wh pair) + 350mAh case (1.295Wh) = ~1.628Wh system — inside the envelope for a 13mm BT 5.0-era TWS.',
             'Measured playtime (Timer+, AAC on iPhone 15 @ 50% volume): 4h 25 min single charge · 17h 40 min with case. That is −11.7% vs a 20h total claim (inside ±15%) and far below Soundcore P20i/P25i (9h35 / ~28h30 on A3949). Do not rubber-stamp 20H as day-long single-bud runtime.',
             'Codecs observed: SBC + AAC only — iPhone 15 held AAC; Samsung A54 AAC default / SBC when forced. No Joyroom companion app on this SKU to prove LDAC/aptX. No LDAC. No aptX. Any inherited “hi-res codec” claim from a Liberty-tier Soundcore sibling is wrong here.',
             'No ANC on JR-AU-T03 — product listing + carton are clear; T03S Pro (JR-AU-T03SPRO) is the ANC sibling. CairoVolt publishes qualitative isolation only — no invented dB. IPX4 is vendor-stated; not wet-tested.',
-            'Positioning honesty: vs T03S Pro — T03 is older BT 5.0 / no ANC; T03S Pro lists ANC + BT 5.3 and is often cheaper on CairoVolt (~664 EGP). vs Soundcore P20i/P25i — same price band, but A3949 wins measured battery (~2× single-charge) and BT 5.3 + app EQ. Buy T03 only if you specifically want this carton / fit; otherwise P20i/P25i or T03S Pro usually serve better.',
+            'Positioning honesty: vs T03S Pro — T03 is older BT 5.0 / no ANC; T03S Pro lists ANC + BT 5.3 and is often cheaper on CairoVolt (~839 EGP). vs Soundcore P20i/P25i — same price band, but A3949 wins measured battery (~2× single-charge) and BT 5.3 + app EQ. Buy T03 only if you specifically want this carton / fit; otherwise P20i/P25i or T03S Pro usually serve better.',
         ],
         ar: [
             'جوي روم JR-T03 (JR-AU-T03) سماعات لاسلكية اقتصادية بمحركات 13 ملم وSBC/AAC وبلا ANC. قِسنا 4 س 25 د للشحنة و17 س 40 د مع العلبة عند 50% صوت؛ ورقم «~20 ساعة» التسويقي إجمالي مع العلبة وليس شحنة واحدة.',
-            'هوية القائمة: متجر JH01 · GTIN 6956116714055 · نحو 774 جنيه. حساب البطارية من خلايا عائلة T03 المنشورة = 45 مللي أمبير × 2 سماعتين (0.1665Wh لكل · 0.333Wh للزوج) + علبة 350 مللي أمبير (1.295Wh) = ~1.628Wh للنظام — داخل مظروف سماعة 13 ملم من جيل BT 5.0.',
+            'هوية القائمة: متجر JH01 · GTIN 6956116714055 · نحو 949 جنيه. حساب البطارية من خلايا عائلة T03 المنشورة = 45 مللي أمبير × 2 سماعتين (0.1665Wh لكل · 0.333Wh للزوج) + علبة 350 مللي أمبير (1.295Wh) = ~1.628Wh للنظام — داخل مظروف سماعة 13 ملم من جيل BT 5.0.',
             'زمن التشغيل المقاس (Timer+، AAC على iPhone 15 @ 50% حجم): 4 ساعات و25 دقيقة شحنة واحدة · 17 ساعة و40 دقيقة مع العلبة. هذا −11.7% مقابل ادعاء إجمالي 20 ساعة (داخل ±15%) وأقل بكثير من Soundcore P20i/P25i (9س35 / ~28س30 على A3949). لا تُثبّت 20 ساعة كتشغيل يومي لسماعة مفردة.',
             'الكودكات المرصودة: SBC + AAC فقط — iPhone 15 ثبت على AAC؛ Samsung A54 AAC افتراضي / SBC عند الإجبار. لا تطبيق Joyroom مرافق لهذا SKU لإثبات LDAC/aptX. لا LDAC. لا aptX. أي ادعاء «كودك Hi-res» موروث من شقيق Liberty خطأ هنا.',
             'لا ANC على JR-AU-T03 — القائمة والكرتونة واضحتان؛ T03S Pro (JR-AU-T03SPRO) هو شقيق ANC. CairoVolt ينشر عزلًا نوعيًا فقط — بلا ديسيبل مخترع. IPX4 معلن من البائع؛ لم نختبر الماء.',
-            'صدق التموضع: مقابل T03S Pro — T03 أقدم BT 5.0 / بلا ANC؛ T03S Pro يعلن ANC + BT 5.3 وغالبًا أرخص على CairoVolt (~664 ج). مقابل Soundcore P20i/P25i — نفس شريحة السعر، لكن A3949 يفوز بالبطارية المقاسة (~ضعف الشحنة الواحدة) وBT 5.3 + EQ بالتطبيق. اشترِ T03 فقط إن أردت هذه الكرتونة / الملاءمة؛ وإلا P20i/P25i أو T03S Pro يخدمان أفضل عادة.',
+            'صدق التموضع: مقابل T03S Pro — T03 أقدم BT 5.0 / بلا ANC؛ T03S Pro يعلن ANC + BT 5.3 وغالبًا أرخص على CairoVolt (~839 ج). مقابل Soundcore P20i/P25i — نفس شريحة السعر، لكن A3949 يفوز بالبطارية المقاسة (~ضعف الشحنة الواحدة) وBT 5.3 + EQ بالتطبيق. اشترِ T03 فقط إن أردت هذه الكرتونة / الملاءمة؛ وإلا P20i/P25i أو T03S Pro يخدمان أفضل عادة.',
         ],
     },
     localContext: {
         en:
-            'JR-T03 is the earlier Joyroom street TWS — buy it for a simple BT 5.0 tip-seal commute bud around ~774 EGP, not as an ANC or long-haul battery champion. ' +
+            'JR-T03 is the earlier Joyroom street TWS — buy it for a simple BT 5.0 tip-seal commute bud around ~949 EGP, not as an ANC or long-haul battery champion. ' +
             'Egypt scenarios. RIGHT FOR: (1) AUC / GUC short study blocks — 4h 25 min measured @50% covers a morning lecture + library stretch; dock at noon. ' +
             '(2) Metro Line 1–3 music — no ANC; tip seal cuts some HVAC hum but brake screech and announcements bleed (expected). ' +
             '(3) Uber / Careem passenger WhatsApp — quiet cabin windows-up intelligible; street and open-window wind bleed. ' +
@@ -32,12 +32,12 @@ export const joyroom_jr_t03_wireless_earbuds_detail: ProductDetail = {
             'WRONG FOR: (5) Full-day AUC campus without case top-ups — measured single charge is ~4.5h, not marketing 20H. ' +
             '(6) Flight / metro noise hunters — no ANC; step to T03S Pro (ANC sibling) or Soundcore P40i. ' +
             '(7) Hi-res / gaming-competitive — SBC+AAC only; PUBG Game Mode qualitative only, no ms invent. ' +
-            '(8) Buyers chasing battery under ~800 EGP — Soundcore P20i/P25i measured ~9h35 single / ~28h30 system on shared A3949. ' +
-            'PRICE NOTE: T03S Pro often lists cheaper (~664 EGP) with ANC + BT 5.3 — compare live carts. ' +
+            '(8) Buyers chasing battery under ~1,000 EGP — Soundcore P20i/P25i measured ~9h35 single / ~28h30 system on shared A3949. ' +
+            'PRICE NOTE: T03S Pro often lists cheaper (~839 EGP) with ANC + BT 5.3 — compare live carts. ' +
             'HEAT: buds + case 30.1°C after 90 min play in 28.0°C lab air. ' +
             'RECALL: JR-AU-T03 NOT on Joyroom / CPSC earbud recall lists — verified joyroom.com support notices + CPSC.gov search on 2026-07-24.',
         ar:
-            'JR-T03 سماعة Joyroom الشارعية الأقدم — تشتريها كسماعة تنقل بسيطة BT 5.0 بإحكام طرف حول ~774 ج، لا كبطل ANC أو بطارية يوم كامل. ' +
+            'JR-T03 سماعة Joyroom الشارعية الأقدم — تشتريها كسماعة تنقل بسيطة BT 5.0 بإحكام طرف حول ~949 ج، لا كبطل ANC أو بطارية يوم كامل. ' +
             'سيناريوهات مصر. مناسب لـ: (1) كتل مذاكرة قصيرة AUC / GUC — 4 ساعات و25 دقيقة مقاسة @50% تغطي محاضرة صباح + مكتبة؛ أعد للشحن ظهرًا. ' +
             '(2) موسيقى مترو الخطوط 1–3 — بلا ANC؛ إحكام الطرف يخفف هدير التكييف لكن صرير الفرامل والإعلانات تتسرب (متوقع). ' +
             '(3) واتساب راكب أوبر / كريم — مقصورة هادئة بنوافذ مغلقة مفهومة؛ الشارع ورياح النوافذ المفتوحة تتسرب. ' +
@@ -45,8 +45,8 @@ export const joyroom_jr_t03_wireless_earbuds_detail: ProductDetail = {
             'غير مناسب لـ: (5) يوم جامعة كامل بلا إعادة شحن من العلبة — الشحنة الواحدة المقاسة نحو 4.5 ساعات، ليست تسويق 20 ساعة. ' +
             '(6) صيادو ضوضاء طيران / مترو — بلا ANC؛ اصعد إلى T03S Pro (شقيق ANC) أو Soundcore P40i. ' +
             '(7) Hi-res / ألعاب تنافسية — SBC+AAC فقط؛ PUBG وضع ألعاب نوعي فقط بلا اختراع ms. ' +
-            '(8) من يلاحق البطارية تحت ~800 ج — Soundcore P20i/P25i قاستا نحو 9س35 مفرد / ~28س30 نظام على A3949 المشترك. ' +
-            'ملاحظة سعر: T03S Pro غالبًا أرخص (~664 ج) مع ANC + BT 5.3 — قارن السلات الحية. ' +
+            '(8) من يلاحق البطارية تحت ~1,000 ج — Soundcore P20i/P25i قاستا نحو 9س35 مفرد / ~28س30 نظام على A3949 المشترك. ' +
+            'ملاحظة سعر: T03S Pro غالبًا أرخص (~839 ج) مع ANC + BT 5.3 — قارن السلات الحية. ' +
             'الحرارة: سماعات + علبة 30.1°م بعد 90 دقيقة في هواء مختبر 28.0°م. ' +
             'الاستدعاء: JR-AU-T03 غير مدرج — تحقّق إشعارات joyroom.com + بحث CPSC.gov في 2026-07-24.',
     },
@@ -72,7 +72,7 @@ export const joyroom_jr_t03_wireless_earbuds_detail: ProductDetail = {
         'Weight Total (buds + case)': { en: 'CairoVolt Kkmoon 0.01g: 41.8g (buds + case)', ar: 'CairoVolt Kkmoon 0.01g: 41.8 جرام (سماعات + علبة)' },
         'Dimensions (case)': { en: 'CairoVolt steel tape: 60 × 45 × 28 mm', ar: 'شريط CairoVolt الفولاذي: 60 × 45 × 28 ملم' },
         'How T03 differs from T03S Pro': { en: 'T03 = no ANC, BT 5.0, ~20h marketing, ~1.63Wh system. T03S Pro = ANC-listed, BT 5.3, ~30h marketing, often lower street price on CairoVolt. Step to T03S Pro if ANC matters.', ar: 'T03 = بلا ANC، BT 5.0، تسويق ~20 ساعة، نظام ~1.63Wh. T03S Pro = معلن ANC، BT 5.3، تسويق ~30 ساعة، غالبًا سعر شارعي أقل على CairoVolt. اصعد إلى T03S Pro إن كان ANC يهم.' },
-        'How T03 differs from Soundcore P20i / P25i': { en: 'P20i/P25i (A3949) = 60mAh buds + 430mAh case (~2.035Wh), BT 5.3, Soundcore App EQ, measured ~9h35 single / ~28h30 system — clear battery/app win in the same ~EGP 700–800 band. T03 is older Joyroom hardware.', ar: 'P20i/P25i (A3949) = سماعتان 60 مللي أمبير + علبة 430 (~2.035Wh)، BT 5.3، EQ بتطبيق ساوندكور، مقاس ~9س35 مفرد / ~28س30 نظام — فوز واضح بالبطارية/التطبيق في شريحة ~700–800 ج. T03 عتاد Joyroom أقدم.' },
+        'How T03 differs from Soundcore P20i / P25i': { en: 'P20i/P25i (A3949) = 60mAh buds + 430mAh case (~2.035Wh), BT 5.3, Soundcore App EQ, measured ~9h35 single / ~28h30 system — clear battery/app win in the same ~EGP 875–975 band. T03 is older Joyroom hardware.', ar: 'P20i/P25i (A3949) = سماعتان 60 مللي أمبير + علبة 430 (~2.035Wh)، BT 5.3، EQ بتطبيق ساوندكور، مقاس ~9س35 مفرد / ~28س30 نظام — فوز واضح بالبطارية/التطبيق في شريحة ~875–975 ج. T03 عتاد Joyroom أقدم.' },
         'Recall Status': {
             en: 'NOT RECALLED — verified joyroom.com support / notices + CPSC.gov product search on 2026-07-24. No JR-AU-T03 / JH01 earbud recall hit.',
             ar: 'لا استدعاء — تحقّق دعم/إشعارات joyroom.com + بحث منتجات CPSC.gov في 2026-07-24. لا إصابة استدعاء لسماعة JR-AU-T03 / JH01.',
@@ -82,8 +82,8 @@ export const joyroom_jr_t03_wireless_earbuds_detail: ProductDetail = {
             ar: 'إحكام طرف سيليكون على عيّنة JH01 (طرف M افتراضي) — جرّب S/M/L لإحكام المترو؛ الملاءمة شخصية',
         },
         'Price band (CairoVolt listing)': {
-            en: '~774 EGP at publish time — compare live cart vs T03S Pro (~664 EGP) and Soundcore P20i/P25i',
-            ar: 'نحو 774 ج وقت النشر — قارن السلة الحية مع T03S Pro (~664 ج) وSoundcore P20i/P25i',
+            en: '~949 EGP at publish time — compare live cart vs T03S Pro (~839 EGP) and Soundcore P20i/P25i',
+            ar: 'نحو 949 ج وقت النشر — قارن السلة الحية مع T03S Pro (~839 ج) وSoundcore P20i/P25i',
         },
     },
     benchTest: {
@@ -132,7 +132,7 @@ export const joyroom_jr_t03_wireless_earbuds_detail: ProductDetail = {
             { param: { en: 'Weight per earbud', ar: 'وزن السماعة' }, rated: '~4g', measured: '4.1g', note: { en: 'Kkmoon 0.01g', ar: 'Kkmoon 0.01g' } },
             { param: { en: 'Weight total (buds + case)', ar: 'الوزن الإجمالي (سماعات + علبة)' }, measured: '41.8g', note: { en: 'Kkmoon 0.01g', ar: 'Kkmoon 0.01g' } },
             { param: { en: 'Case dimensions', ar: 'أبعاد العلبة' }, rated: '60 × 45 × 28 mm (listing)', measured: '60 × 45 × 28 mm', note: { en: 'steel tape', ar: 'شريط فولاذي' } },
-            { param: { en: 'A/B vs T03S Pro sibling', ar: 'أ/ب مقابل شقيق T03S Pro' }, measured: { en: 'T03: no ANC, BT 5.0, 17h40 measured total. T03S Pro listing: ANC + BT 5.3 + ~30h marketing, often ~664 EGP (cheaper).', ar: 'T03: بلا ANC، BT 5.0، إجمالي مقاس 17س40. قائمة T03S Pro: ANC + BT 5.3 + تسويق ~30 ساعة، غالبًا ~664 ج (أرخص).' }, note: { en: 'buy T03S Pro if ANC / newer BT matters', ar: 'اشترِ T03S Pro إن كان ANC / BT أحدث يهم' } },
+            { param: { en: 'A/B vs T03S Pro sibling', ar: 'أ/ب مقابل شقيق T03S Pro' }, measured: { en: 'T03: no ANC, BT 5.0, 17h40 measured total. T03S Pro listing: ANC + BT 5.3 + ~30h marketing, often ~839 EGP (cheaper).', ar: 'T03: بلا ANC، BT 5.0، إجمالي مقاس 17س40. قائمة T03S Pro: ANC + BT 5.3 + تسويق ~30 ساعة، غالبًا ~839 ج (أرخص).' }, note: { en: 'buy T03S Pro if ANC / newer BT matters', ar: 'اشترِ T03S Pro إن كان ANC / BT أحدث يهم' } },
             { param: { en: 'A/B vs Soundcore P20i / P25i', ar: 'أ/ب مقابل Soundcore P20i / P25i' }, measured: { en: 'P20i/P25i gold: ~9h35–9h40 single / ~28h30–28h45 system, BT 5.3, app EQ — clear battery win in same EGP band', ar: 'ذهب P20i/P25i: ~9س35–9س40 مفرد / ~28س30–28س45 نظام، BT 5.3، EQ تطبيق — فوز بطارية واضح في نفس شريحة الجنيه' }, note: { en: 'CV-EB-A3949Z11-001 / CV-EB-A3949-001', ar: 'CV-EB-A3949Z11-001 / CV-EB-A3949-001' } },
             {
                 param: { en: 'Surface heat after 90 min play @50%', ar: 'حرارة السطح بعد 90 دقيقة تشغيل @50%' },

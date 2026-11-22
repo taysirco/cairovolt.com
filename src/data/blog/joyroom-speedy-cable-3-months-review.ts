@@ -194,7 +194,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
                 { question: 'هل كابل جوي روم Speedy بيشحن سريع فعلاً؟', answer: 'أيوا. قدرته المعلنة 60W (20V/3A) ويدعم PD 3.0 و QC 4.0 — يعني عملياً 58-60W مع الأجهزة المتوافقة. بيشحن Samsung S24 Ultra من 0% لـ 50% في نحو 24 دقيقة.' },
                 { question: 'كابل جوي روم بيستحمل حر مصر ولا بيبوظ بسرعة؟', answer: 'الغلاف النايلون المضفر مصمم يتحمل حر القاهرة (42°C+) وحرارة العربية (55-65°C). أفضل بمراحل من كابلات PVC الرخيصة اللي بتتشقق بعد أسبوعين.' },
                 { question: 'إيه الفرق بين كابل جوي روم وكابل انكر؟', answer: 'انكر PowerLine ({{price:anker-powerline-usb-c-usb-c}} ج) أغلى من جوي روم Speedy ({{price:joyroom-usb-c-cable-60w}} ج) — والاتنين 60W ومن غير E-Marker في قياسنا (طبيعي لحد 60W). انكر بيقدم نايلون مزدوج الجدل ورقم ثني منشور 25,000، وجوي روم أرخص بكتير لنفس الـ 60W.' },
-                { question: 'هل كابل جوي روم Speedy يشحن لابتوب؟', answer: 'لا. أقصى قدرة الكابل 60W وده كافي لأي موبايل أو تابلت، لكن اللابتوبات محتاجة 65-100W. لشحن لابتوب اشتري كابل 140 واط زي أنكر زولو A8060 بـ 790 جنيه.' },
+                { question: 'هل كابل جوي روم Speedy يشحن لابتوب؟', answer: 'لا. أقصى قدرة الكابل 60W وده كافي لأي موبايل أو تابلت، لكن اللابتوبات محتاجة 65-100W. لشحن لابتوب اشتري كابل 140 واط زي أنكر زولو A8060 بـ 965 جنيه.' },
             ],
         },
         en: {
@@ -364,7 +364,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
                 { question: 'Does the Joyroom Speedy cable actually fast charge?', answer: 'Yes. It is rated at 60W (20V/3A) and supports PD 3.0 and QC 4.0 — in practice 58-60W with compatible devices. It charges a Samsung S24 Ultra from 0% to 50% in about 24 minutes.' },
                 { question: 'Can the Joyroom cable survive Egyptian heat?', answer: 'The braided nylon jacket is built to withstand Cairo heat (42°C+) and car temperatures (55-65°C). Far superior to cheap PVC cables that crack after two weeks in a hot car.' },
                 { question: 'What is the difference between Joyroom and Anker cables?', answer: 'The Anker PowerLine ({{price:anker-powerline-usb-c-usb-c}} EGP) costs more than the Joyroom Speedy ({{price:joyroom-usb-c-cable-60w}} EGP) — both are 60W and neither has an E-marker in our tests (normal up to 60W). Anker adds double-braided nylon and a published 25,000-bend figure; Joyroom is far cheaper for the same 60W.' },
-                { question: 'Can the Joyroom Speedy cable charge a laptop?', answer: 'No. Maximum output is 60W — sufficient for any phone or tablet, but laptops need 65-100W. For laptop charging, get a 140W cable like the Anker Zolo A8060 at 790 EGP.' },
+                { question: 'Can the Joyroom Speedy cable charge a laptop?', answer: 'No. Maximum output is 60W — sufficient for any phone or tablet, but laptops need 65-100W. For laptop charging, get a 140W cable like the Anker Zolo A8060 at 965 EGP.' },
             ],
         },
     },

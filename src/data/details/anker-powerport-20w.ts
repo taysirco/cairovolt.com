@@ -10,7 +10,7 @@ export const anker_powerport_20w_detail: ProductDetail = {
     aiTldr: {
         en: [
             'Anker PowerPort 20W (A2347K11) is a single-port USB-C fixed-PD wall charger: our FNB58 decoded 5V/3A + 9V/2.22A + 12V/1.67A, and the 9V rail peaked at 19.72W. It is not the A2149 Cube, which stops at 5V + 9V.',
-            'Listing identity: store SKU AC04, GTIN 0194644031275, ~490 EGP.',
+            'Listing identity: store SKU AC04, GTIN 0194644031275, ~665 EGP.',
             'CairoVolt peak 19.72W on the 9V rail (8.96V/2.20A) and 19.68W on 12V/1.67A — both ≥98% of the 20W label on sample CV-CH-A2347K11-001 (2026-07-24).',
             'iPhone 15 peaked ~19.4W PD (0→50% ≈ 29 min). Samsung Galaxy S24 did NOT engage 25W Super Fast Charging — no PPS APDO on this brick; phone stayed on fixed PD (~15.1W peak, Super Fast indicator OFF).',
             'Foldable US Type-A (NEMA 1-15) prongs on our retail sample — not Europlug, not BS 1363. Many Egyptian universal sockets accept Type-A; pure Europlug-only outlets need an adapter. Cable not sealed with this CairoVolt unit.',
@@ -18,7 +18,7 @@ export const anker_powerport_20w_detail: ProductDetail = {
         ],
         ar: [
             'انكر PowerPort 20W (A2347K11) شاحن حائط بمنفذ USB-C واحد وPD ثابت: فكّ FNB58 لدينا 5V/3A + 9V/2.22A + 12V/1.67A، وبلغت ذروة منفذ 9V نحو 19.72 واط. ليس كيوب A2149 الذي يتوقف عند 5V+9V بلا منفذ 12V.',
-            'هوية القائمة: SKU المتجر AC04، GTIN 0194644031275، ~490 جنيه.',
+            'هوية القائمة: SKU المتجر AC04، GTIN 0194644031275، ~665 جنيه.',
             'ذروة CairoVolt 19.72 واط على منفذ 9V (8.96V/2.20A) و19.68 واط على 12V/1.67A — كلاهما ≥98% من ملصق 20 واط على العيّنة CV-CH-A2347K11-001 (2026-07-24).',
             'iPhone 15 بلغ ذروة ~19.4 واط PD (0→50% ≈ 29 دقيقة). Samsung Galaxy S24 لم يشغّل Super Fast Charging 25 واط — بلا PPS APDO على هذا الشاحن؛ بقي على PD ثابت (ذروة ~15.1 واط، مؤشر Super Fast مطفأ).',
             'أطراف قابلة للطي US Type-A (NEMA 1-15) على عيّنة التجزئة — ليست Europlug وليست BS 1363. كثير من الفيش المصرية العمومية تقبل Type-A؛ مخارج Europlug فقط تحتاج محوّل. الكابل غير مُغلق مع هذه الوحدة في كايرو فولت.',
@@ -27,12 +27,12 @@ export const anker_powerport_20w_detail: ProductDetail = {
     },
     localContext: {
         en:
-            'For an Egyptian buyer at ~490 EGP, A2347K11 answers: "I need a genuine Anker 20W iPhone brick with a foldable plug for travel, and I am not buying the A2149 Cube by accident." ' +
+            'For an Egyptian buyer at ~665 EGP, A2347K11 answers: "I need a genuine Anker 20W iPhone brick with a foldable plug for travel, and I am not buying the A2149 Cube by accident." ' +
             'DISAMBIGUATION FIRST: PowerPort III 20W Cube A2149 (slug anker-powerport-iii-20w-a2639) is a different gold sheet — two PDOs only, ~32 mm cube, tested 2026-07-14. A2347K11 adds a 12V/1.67A PDO and a longer foldable chassis (vendor 27.7 × 42.8 × 44.5 mm). Compare electrical peaks if you like; do not treat our 15-min shell temp here as a same-hour A/B vs A2149\'s older 30-min 61.3°C figure. ' +
             'Six realistic fits. (1) iPHONE 12→17 LOST-THE-BOX: 9V/2.22A lands on Apple\'s ~20W wired ceiling (MacRumors); our iPhone 15 hit ~19.4W / ~29 min to 50%. (2) CAIRO→HURGHADA WEEKENDER: foldable NEMA Type-A prongs disappear in a pouch — but confirm your hotel socket (universal vs Europlug-only). (3) MIXED iPHONE HOUSEHOLD: fine for AirPods/iPad overnight on 5V/9V; not a dual-port desk brick. (4) WRONG PICK — SAMSUNG-FIRST: no PPS → Galaxy S24 Super Fast Charging stays OFF; buy A2147 / A2669 / Joyroom JR-TCF23 class instead. (5) UMRAH / GATE CHARGING: wall brick beats in-cabin power-bank use after airline restrictions; this unit is not on Anker\'s power-bank recall list. (6) WRONG PICK — SWITCH DOCKED TV: needs 15V/2.6A; A2347 tops at 12V. ' +
             'PLUG HONESTY: physical sample = foldable US Type-A, not BS 1363 and not fixed Europlug. ELECTRICITY: 20W for one hour ≈ 0.02 kWh → a few piastres on EgyptERA residential tariffs. No vampire/efficiency % — PZEM not run.',
         ar:
-            'للمشتري المصري عند ~490 جنيه، A2347K11 يجيب: "أحتاج شاحن انكر 20 واط أصلي للآيفون بقابس قابل للطي للسفر، ومش هشتري كيوب A2149 بالغلط." ' +
+            'للمشتري المصري عند ~665 جنيه، A2347K11 يجيب: "أحتاج شاحن انكر 20 واط أصلي للآيفون بقابس قابل للطي للسفر، ومش هشتري كيوب A2149 بالغلط." ' +
             'التمييز أولاً: PowerPort III 20W Cube A2149 (slug anker-powerport-iii-20w-a2639) ورقة ذهبية مختلفة — PDOان فقط، كيوب ~32 ملم، اختُبر 2026-07-14. A2347K11 يضيف PDO 12V/1.67A وهيكل أطول قابل للطي (معلن 27.7 × 42.8 × 44.5 ملم). قارن ذروات الكهرباء إن شئت؛ لا تعامل حرارة الغلاف بعد 15 دقيقة هنا كـ A/B في نفس الساعة مقابل رقم A2149 الأقدم 61.3°م بعد 30 دقيقة. ' +
             'ستة استخدامات واقعية. (1) آيفون 12→17 ضاعت العلبة: 9V/2.22A يقع على سقف آبل السلكي ~20 واط (MacRumors)؛ iPhone 15 عندنا ~19.4 واط / ~29 دقيقة إلى 50%. (2) رحلة القاهرة→الغردقة: أطراف NEMA Type-A القابلة للطي تختفي في الجيب — لكن أكّد فيش الفندق (عمومي مقابل Europlug فقط). (3) بيت آيفون مختلط: مناسب لـ AirPods/آيباد ليلاً على 5V/9V؛ ليس شاحن مكتب بمنفذين. (4) اختيار خاطئ — سامسونج أولاً: بلا PPS → Super Fast Charging على Galaxy S24 يبقى مطفأ؛ اشترِ فئة A2147 / A2669 / Joyroom JR-TCF23. (5) عمرة / شحن البوابة: شاحن الحائط أفضل من استخدام باور بانك داخل المقصورة بعد قيود الطيران؛ هذه الوحدة ليست على قائمة استدعاء الباور بانك. (6) اختيار خاطئ — Switch بالدوك: يحتاج 15V/2.6A؛ A2347 يتوقف عند 12V. ' +
             'صدق القابس: العيّنة الفعلية = US Type-A قابل للطي، ليس BS 1363 وليس Europlug ثابت. الكهرباء: 20 واط لساعة ≈ 0.02 كيلوواط·ساعة → قروش على تعريفة EgyptERA. بلا نسب vampire/كفاءة — لم يُشغَّل PZEM.',

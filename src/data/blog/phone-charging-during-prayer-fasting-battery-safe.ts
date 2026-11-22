@@ -251,28 +251,28 @@ export const phone_charging_during_prayer_fasting_battery_safe: BlogArticle = {
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر PowerPort 20W</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">375ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">665ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>ActiveShield 2.0</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ الأمثل — iPhone + شحن طويل</strong></td>
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">انكر PowerPort 25W</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">25W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">550ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">725ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>ActiveShield 2.0</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ الأمثل — Samsung + PPS</strong></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">499ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">665ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN + حماية متقدمة</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">شحن سريع + لابتوب خفيف</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر Smart Display 45W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">45W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,250ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,425ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Care Mode (80%)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">🏆 أقصى حماية — شاشة + 80% تلقائي</td>
         </tr>
@@ -282,7 +282,7 @@ export const phone_charging_during_prayer_fasting_battery_safe: BlogArticle = {
 <h2>5 قواعد ذهبية للشحن الطويل بأمان</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">✅ <strong>#1 — استخدم شاحن أصلي بحماية OVP/OTP.</strong> ده الشرط الوحيد اللي مفيش تفاوض فيه. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;">انكر 20W بـ 375ج</a> أو <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;">جوي روم 20W بـ 236ج</a> — اختار اللي يناسب ميزانيتك.</li>
+    <li style="margin-bottom:16px;">✅ <strong>#1 — استخدم شاحن أصلي بحماية OVP/OTP.</strong> ده الشرط الوحيد اللي مفيش تفاوض فيه. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;">انكر 20W بـ 665ج</a> أو <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;">جوي روم 20W بـ 411ج</a> — اختار اللي يناسب ميزانيتك.</li>
     <li style="margin-bottom:16px;">✅ <strong>#2 — حط الموبايل على سطح صلب مفتوح.</strong> كومودينو، مكتب، رخام المطبخ — أي حاجة تسمح بالتهوية. <strong>أبداً</strong> تحت المخدة أو على السرير أو على قماش.</li>
     <li style="margin-bottom:16px;">✅ <strong>#3 — فعّل Optimized Battery Charging.</strong> iPhone: Settings → Battery → Battery Health → Optimized Charging ON. Samsung: Settings → Battery → Battery Protection → Maximum/Adaptive. الميزة دي بتتعلم عاداتك وبتوقف الشحن عند 80% لحد وقت صحيانك.</li>
     <li style="margin-bottom:16px;">✅ <strong>#4 — شيل الكفر التخين.</strong> الكفر السيليكون بيحبس 5-8°م إضافية. في الصيف المصري — ده فرق كبير. لو مش عايز تشيله — على الأقل حط الموبايل على ضهره (الشاشة لتحت).</li>
@@ -557,28 +557,28 @@ export const phone_charging_during_prayer_fasting_battery_safe: BlogArticle = {
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">375 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">665 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>ActiveShield 2.0</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ Optimal — iPhone + extended charging</strong></td>
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">25W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">550 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">725 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>ActiveShield 2.0</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>⭐ Optimal — Samsung + PPS</strong></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">499 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">665 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN + advanced protection</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">Fast charge + light laptop</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Smart Display 45W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">45W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,250 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,425 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Care Mode (80%)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">🏆 Maximum protection — display + auto 80%</td>
         </tr>
@@ -588,7 +588,7 @@ export const phone_charging_during_prayer_fasting_battery_safe: BlogArticle = {
 <h2>5 Golden Rules for Safe Extended Charging</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">✅ <strong>#1 — Use a genuine charger with OVP/OTP protection.</strong> This is the only non-negotiable requirement. <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;">Anker 20W at 490 EGP</a> or <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;">Joyroom 20W at 236 EGP</a> — pick what fits your budget.</li>
+    <li style="margin-bottom:16px;">✅ <strong>#1 — Use a genuine charger with OVP/OTP protection.</strong> This is the only non-negotiable requirement. <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;">Anker 20W at 665 EGP</a> or <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;">Joyroom 20W at 411 EGP</a> — pick what fits your budget.</li>
     <li style="margin-bottom:16px;">✅ <strong>#2 — Place phone on a hard, open surface.</strong> Nightstand, desk, kitchen counter — anything that allows ventilation. <strong>Never</strong> under a pillow, on a bed, or on fabric.</li>
     <li style="margin-bottom:16px;">✅ <strong>#3 — Enable Optimized Battery Charging.</strong> iPhone: Settings → Battery → Battery Health → Optimized Charging ON. Samsung: Settings → Battery → Battery Protection → Maximum/Adaptive. This feature learns your habits and holds charging at 80% until your wake-up time.</li>
     <li style="margin-bottom:16px;">✅ <strong>#4 — Remove thick cases.</strong> Silicone cases trap 5-8°C of extra heat. In Egyptian summers — that's a significant difference. If you don't want to remove it — at least place the phone face-down (screen down) so heat escapes upward.</li>

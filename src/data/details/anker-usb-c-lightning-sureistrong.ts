@@ -78,8 +78,8 @@ export const anker_usb_c_lightning_sureistrong_detail: ProductDetail = {
             ar: '19.5 واط — ضمن سقف Apple السلكي؛ +0.6 واط مقابل Joyroom JR-S-CL20 (18.9 واط) ويطابق PowerLine Select A8612H11 (19.2 واط) على نفس الطوبة — الهاتف هو السقف، لا هذا الكابل',
         },
         'Cross-brand A/B vs Joyroom JR-S-CL20': {
-            en: 'A8652H21 = 1.8m soft-touch, verified MFi (silent iOS), 19.5W peak. JR-S-CL20 = 1.2m braid, ~118 EGP, MFi not verified (iOS accessory warning on sample), 18.9W peak. Pick Anker when confirmed MFi matters; Joyroom when price/length/jacket matter more.',
-            ar: 'A8652H21 = 1.8 م ناعم، MFi مؤكَّد (iOS صامت)، ذروة 19.5 واط. JR-S-CL20 = 1.2 م مضفر، ~118 جنيه، MFi غير مؤكَّد (تحذير ملحق iOS على العينة)، ذروة 18.9 واط. اختر Anker عندما يهم MFi المؤكَّد؛ وجوي روم عندما يهم السعر/الطول/الغلاف أكثر.',
+            en: 'A8652H21 = 1.8m soft-touch, verified MFi (silent iOS), 19.5W peak. JR-S-CL20 = 1.2m braid, ~293 EGP, MFi not verified (iOS accessory warning on sample), 18.9W peak. Pick Anker when confirmed MFi matters; Joyroom when price/length/jacket matter more.',
+            ar: 'A8652H21 = 1.8 م ناعم، MFi مؤكَّد (iOS صامت)، ذروة 19.5 واط. JR-S-CL20 = 1.2 م مضفر، ~293 جنيه، MFi غير مؤكَّد (تحذير ملحق iOS على العينة)، ذروة 18.9 واط. اختر Anker عندما يهم MFi المؤكَّد؛ وجوي روم عندما يهم السعر/الطول/الغلاف أكثر.',
         },
         'SureIStrong vs PowerLine Select A8612H11 (0.9m sibling)': {
             en: 'A8652H21 = 1.8m soft-touch (bedroom/car reach); A8612H11 = 0.9m braided (compact desk). Same MFi certification, same iPhone ceiling — pick by length and jacket feel, not by claimed max wattage.',
@@ -90,8 +90,8 @@ export const anker_usb_c_lightning_sureistrong_detail: ProductDetail = {
             ar: 'iPhone 8/SE (2020)/X/XR/XS/11/12/13/14 وSE (2022)؛ أجهزة iPad Lightning (iPad الجيل 9 وأجهزة Pro الأقدم)؛ علبة AirPods بمنفذ Lightning؛ مسار بيانات CarPlay (يخضع لتوافق وحدة العرض)',
         },
         'Where this cable is NOT for': {
-            en: 'iPhone 15 / 16 / 17 (all variants — USB-C native, needs USB-C to USB-C); MacBook / iPad Pro USB-C; DisplayPort/Alt-mode video output; 100GB+ iPhone backups where USB 3 speed matters; buyers who only need a ~118 EGP spare (see JR-S-CL20)',
-            ar: 'iPhone 15 / 16 / 17 (كل النسخ — USB-C أصلي، يحتاج USB-C إلى USB-C)؛ MacBook / iPad Pro USB-C؛ إخراج فيديو DisplayPort/Alt-mode؛ نسخ احتياطية 100 جيجا+ حيث تهم سرعة USB 3؛ مشترٍ يحتاج فقط قطعة احتياطية ~118 جنيه (انظر JR-S-CL20)',
+            en: 'iPhone 15 / 16 / 17 (all variants — USB-C native, needs USB-C to USB-C); MacBook / iPad Pro USB-C; DisplayPort/Alt-mode video output; 100GB+ iPhone backups where USB 3 speed matters; buyers who only need a ~293 EGP spare (see JR-S-CL20)',
+            ar: 'iPhone 15 / 16 / 17 (كل النسخ — USB-C أصلي، يحتاج USB-C إلى USB-C)؛ MacBook / iPad Pro USB-C؛ إخراج فيديو DisplayPort/Alt-mode؛ نسخ احتياطية 100 جيجا+ حيث تهم سرعة USB 3؛ مشترٍ يحتاج فقط قطعة احتياطية ~293 جنيه (انظر JR-S-CL20)',
         },
         'Recall Status': {
             en: 'NOT recalled — A8652H21 ≠ A8482/A8483/A8465 (Anker USB-C cable recall / CPSC 24-187). Verified anker.com/product-recalls 2026-07-24. Active Anker recall set also includes power banks A1257/A1263/A1647/A1652/A1681/A1689 — different product family.',
@@ -170,7 +170,7 @@ export const anker_usb_c_lightning_sureistrong_detail: ProductDetail = {
             { en: 'USB 2.0 data only (480Mbps) — 100GB iPhone backups over USB will take 30–40 min; not a USB 3 Lightning cable', ar: 'بيانات USB 2.0 فقط (480 ميغابت/ث) — نسخ 100 جيجا من iPhone عبر USB سيأخذ 30–40 دقيقة؛ ليس كابل Lightning بـ USB 3' },
             { en: 'CarPlay depends on the vehicle head unit — MFi does not guarantee every car; not bench-tested in-vehicle this date', ar: 'CarPlay يعتمد على وحدة العرض في السيارة — MFi لا يضمن كل سيارة؛ لم يُختبر داخل سيارة في هذا التاريخ' },
             { en: 'Anker\'s bio-based reinforcement fibre claim is a manufacturer specification — CairoVolt verified only continuity after 50 bench flex cycles, not a lifetime bend count', ar: 'ادعاء ألياف التقوية "حيوية الأساس" من انكر مواصفة مصنّع — تحقّقت CairoVolt فقط من الاستمرارية بعد 50 دورة ثني على المنضدة، وليس من عدد ثني عمرًا' },
-            { en: 'Premium vs JR-S-CL20 budget braid — if you only need ~118 EGP spare length and accept unverified MFi risk, Joyroom is the cheaper drawer cable', ar: 'فئة فاخرة مقابل مضفر Joyroom JR-S-CL20 الاقتصادي — إن احتجت فقط قطعة ~118 جنيه وقبلت مخاطرة MFi غير مؤكَّد، جوي روم أرخص لدرج الاحتياط' },
+            { en: 'Premium vs JR-S-CL20 budget braid — if you only need ~293 EGP spare length and accept unverified MFi risk, Joyroom is the cheaper drawer cable', ar: 'فئة فاخرة مقابل مضفر Joyroom JR-S-CL20 الاقتصادي — إن احتجت فقط قطعة ~293 جنيه وقبلت مخاطرة MFi غير مؤكَّد، جوي روم أرخص لدرج الاحتياط' },
             { en: 'No independent lab teardown of A8652H21 published — CairoVolt did NOT open the housings; do not assume specific IC identity beyond confirmed MFi authentication', ar: 'لا يوجد تفكيك مختبر مستقل منشور لـ A8652H21 — لم تفتح CairoVolt المبيت؛ لا تفترض هوية شريحة محددة أبعد من مصادقة MFi المؤكَّدة' },
             { en: 'Single retail unit tested; production batches may vary — verify the printed model "A8652H21" and MFi mark on your delivered unit', ar: 'وحدة تجزئة واحدة مُختبرة؛ قد تختلف دفعات الإنتاج — تحقق من الموديل المطبوع "A8652H21" وعلامة MFi على وحدتك المستلمة' },
         ],

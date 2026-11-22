@@ -32,9 +32,9 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
         ar: {
             title: 'شاحن سفر بمنفذين USB-C و USB-A — أيهما الأفضل لعطلة الساحل 2026؟',
             metaTitle: 'شاحن سفر USB-C ولا USB-A؟ دليل عطلة الساحل 2026 | كايرو فولت',
-            metaDescription: 'أيهما تختار لعطلة الساحل الشمالي: شاحن USB-C ولا USB-A ولا الاتنين؟ مقارنة سرعات + توافق + أسعار من 236ج لـ 1250ج. دليل عملي من كايرو فولت. تابع التفاصيل بمصر.',
+            metaDescription: 'أيهما تختار لعطلة الساحل الشمالي: شاحن USB-C ولا USB-A ولا الاتنين؟ مقارنة سرعات + توافق + أسعار من 411ج لـ 1425ج. دليل عملي من كايرو فولت. تابع التفاصيل بمصر.',
             keywords: 'شاحن سفر مصر, شاحن USB-C USB-A, شاحن الساحل الشمالي, افضل شاحن للسفر 2026, شاحن منفذين, شاحن رحلات مصر, travel charger egypt, شاحن USB-C ولا USB-A, شاحن عطلة الصيف, شاحن انكر سفر, شاحن GaN سفر',
-            excerpt: 'رايح الساحل ومحتار تاخد شاحن USB-C ولا USB-A؟ دليل عملي بالأرقام — من سرعات الشحن للتوافق مع كل أجهزتك، مع أفضل الاختيارات من 236ج.',
+            excerpt: 'رايح الساحل ومحتار تاخد شاحن USB-C ولا USB-A؟ دليل عملي بالأرقام — من سرعات الشحن للتوافق مع كل أجهزتك، مع أفضل الاختيارات من 411ج.',
             quickAnswer: 'لو كل أجهزتك بمنفذ USB-C، شاحن USB-C واحد كفاية زي انكر نانو 30W (A2147) بـ {{price:anker-a2147-gan-charger-30w}} جنيه. لو معاك سماعة أو ساعة أو باور بانك بكابل USB-A، خد شاحن بمنفذين زي جوي روم 30W بـ {{price:joyroom-30w-fast-charger}} جنيه (USB-C PD + USB-A). ولأكتر من جهازين في نفس الوقت: انكر برايم 67W بـ 3 منافذ بـ {{price:anker-prime-a2669-67w-gan-charger}} جنيه.',
             content: `<p>إنت لسه بتحضّر شنطة الساحل الشمالي: مايوه، واقي شمس، شاحن... وهنا بتقف. معاك iPhone 17، سماعة Bluetooth قديمة بمنفذ Micro-USB، ساعة ذكية بكابل USB-A، وباور بانك. شاحن واحد يقدر يشحن كل ده؟ ولا محتاج تشيل 3 شواحن ومحوّلات؟ الإجابة في الفرق بين USB-C و USB-A — وده اللي هنشرحه بالأرقام.</p>
 
@@ -220,9 +220,9 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
         en: {
             title: 'Travel Charger with USB-C and USB-A — Which Is Best for Your Sahel Trip 2026?',
             metaTitle: 'Travel Charger USB-C vs USB-A? Sahel Trip Guide 2026 | CairoVolt',
-            metaDescription: 'Which travel charger for North Coast Egypt: USB-C, USB-A, or both? Speed comparison + device compatibility + prices from 236 to 1250 EGP. Practical guide from...',
+            metaDescription: 'Which travel charger for North Coast Egypt: USB-C, USB-A, or both? Speed comparison + device compatibility + prices from 411 to 1425 EGP. Practical guide from...',
             keywords: 'travel charger egypt, USB-C vs USB-A charger, north coast charger, best travel charger 2026, dual port charger, sahel trip charger, charger for vacation egypt, USB-C USB-A difference, GaN travel charger, anker travel charger egypt',
-            excerpt: 'Heading to the North Coast and unsure whether to pack a USB-C or USB-A charger? A practical guide with real numbers — from charging speeds to device compatibility, with top picks from 236 EGP.',
+            excerpt: 'Heading to the North Coast and unsure whether to pack a USB-C or USB-A charger? A practical guide with real numbers — from charging speeds to device compatibility, with top picks from 411 EGP.',
             quickAnswer: 'If all your devices use USB-C, one USB-C charger is enough, such as the Anker Nano 30W (A2147) at EGP {{price:anker-a2147-gan-charger-30w}}. If you carry earbuds, a watch or a power bank with a USB-A cable, take a dual-port charger such as the Joyroom 30W at EGP {{price:joyroom-30w-fast-charger}} (USB-C PD + USB-A). For more than two devices at once: the 3-port Anker Prime 67W at EGP {{price:anker-prime-a2669-67w-gan-charger}}.',
             content: `<p>You are packing for your North Coast vacation: swimsuit, sunscreen, charger... and here you pause. You have an iPhone 17, old Bluetooth earbuds with a Micro-USB port, a smartwatch with a USB-A cable, and a power bank. Can one charger handle all of that? Or do you need 3 chargers and adapters? The answer lies in the difference between USB-C and USB-A — and that is exactly what we will break down with real numbers.</p>
 

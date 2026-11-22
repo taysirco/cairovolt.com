@@ -54,7 +54,7 @@ export function getStorePolicyFaq(locale: HubLocale): FaqEntry[] {
 // ============================================================================
 // JBL hub price facts, computed from the active catalogue at build time.
 // The FAQ and quick answer used to carry hand-typed figures, and skipped the
-// 449 EGP Bluetooth neckband entirely. The PartyBox range excludes the wireless
+// 624 EGP Bluetooth neckband entirely. The PartyBox range excludes the wireless
 // mic accessory, which is sold on that shelf but is not a speaker.
 // ============================================================================
 

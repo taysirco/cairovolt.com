@@ -9,7 +9,7 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
     aiTldr: {
         en: [
             'Anker PowerPort III 20W Cube (A2149 / A2149P21) is a single-port USB-C fixed-PD wall charger: our FNB58 decoded only 5V/3A + 9V/2.22A, and the 9V rail peaked at 19.76W. It is not A2347K11, which adds 12V/1.67A in a longer foldable brick.',
-            'Listing price ~520 EGP. A2347K11 is sold on the anker-powerport-20w listing.',
+            'Listing price ~695 EGP. A2347K11 is sold on the anker-powerport-20w listing.',
             'CairoVolt peak 19.76W on the 9V rail (8.94V/2.21A) — 98.8% of the 19.98W PDO — on sample CV-CH-A2149-001 (primary load day 2026-07-14). 5V rail held 15.02W (5.04V/2.98A).',
             'iPhone 13 timed 0→50% in 27 min / 0→100% in 1h 37m (Lightning PD). iPhone 15/16 peaks labelled est. from Apple\'s ~20W wired ceiling + that iPhone 13 run — not a invented same-day Pro Max A/B.',
             'Foldable US Type-A / NEMA 1-15 cube (~32 mm, 42.1g) — pocketable for Cairo→Hurghada; many Egyptian universal sockets accept Type-A; Europlug-only / deep-recess fixtures may need a rated adapter. No PPS — Galaxy A15 stayed at 5V/2A (2h 18m to full).',
@@ -17,7 +17,7 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
         ],
         ar: [
             'انكر PowerPort III 20W Cube (A2149 / A2149P21) شاحن حائط بمنفذ USB-C واحد وPD ثابت: فكّ FNB58 لدينا فقط 5V/3A + 9V/2.22A، وبلغت ذروة منفذ 9V نحو 19.76 واط. ليس A2347K11 الذي يضيف 12V/1.67A في قالب أطول قابل للطي.',
-            'سعر القائمة ~520 جنيه. يُباع A2347K11 على قائمة anker-powerport-20w.',
+            'سعر القائمة ~695 جنيه. يُباع A2347K11 على قائمة anker-powerport-20w.',
             'ذروة CairoVolt 19.76 واط على منفذ 9V (8.94V/2.21A) — 98.8% من PDO 19.98 واط — على العيّنة CV-CH-A2149-001 (يوم الحمل الأساسي 2026-07-14). منفذ 5V ثبت 15.02 واط (5.04V/2.98A).',
             'iPhone 13 وُقّت 0→50% في 27 دقيقة / 0→100% في 1س 37د (Lightning PD). ذروات iPhone 15/16 موسومة تقديري من سقف آبل السلكي ~20 واط + جولة iPhone 13 — بلا A/B Pro Max مخترع في نفس اليوم.',
             'كيوب US Type-A / NEMA 1-15 قابل للطي (~32 ملم، 42.1 جرام) — عملي لرحلة القاهرة→الغردقة؛ كثير من الفيش المصرية العمومية تقبل Type-A؛ مخارج Europlug فقط / الغائرة قد تحتاج محوّلًا مصنّفًا. بلا PPS — Galaxy A15 بقي على 5V/2A (2س 18د للامتلاء).',
@@ -26,12 +26,12 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
     },
     localContext: {
         en:
-            'For an Egyptian buyer at ~520 EGP, the A2149 Cube answers: "I lost the iPhone/iPad box brick, I will not pay EGP 900–1,200 for Apple\'s 20W, and I am not buying A2347K11 by accident." ' +
+            'For an Egyptian buyer at ~695 EGP, the A2149 Cube answers: "I lost the iPhone/iPad box brick, I will not pay EGP 900–1,200 for Apple\'s 20W, and I am not buying A2347K11 by accident." ' +
             'DISAMBIGUATION FIRST: slug anker-powerport-20w is A2347K11 (three PDOs incl. 12V/1.67A, elongated foldable body, CV-CH-A2347K11-001 on 2026-07-24). This sheet is A2149 / A2149P21 PowerPort III Cube — two PDOs only, ~32 mm cube, primary load day 2026-07-14 with a 2026-07-24 identity/PDO/recall refresh by Eng. Omar Khaled. Compare 9V electrical peaks across sheets if useful; do NOT treat 61.3°C/30 min here as a same-hour win/loss vs A2347\'s 57.9°C/15 min. ' +
             'Six realistic fits. (1) LOST-THE-BOX iPhone 12→16: 9V/2.22A lands on Apple\'s ~20W wired ceiling; our iPhone 13 hit 27 min to 50% (beats Anker\'s 30-min claim on anker.com/eu-en/products/a2149). (2) CAIRO→HURGHADA/SHARM weekender: 42.1g foldable cube disappears in a passport pouch — leave ~5 cm clearance in an unair-conditioned Sahel room (Cairo July avg ~35°C; brick hit 61.3°C under load). (3) iPhone+AirPods bedside: 5V/3A falls back cleanly to AirPods case (~3W); 9V goes to phone. (4) UMRAH / GATE WALL CHARGE: wall brick beats in-cabin power-bank use after airline restrictions; A2149 is not on Anker\'s power-bank recall list. (5) WRONG PICK — Samsung-first (A15/A25/S-series): no PPS → our Galaxy A15 stayed 5V/2A / 2h 18m; buy A2669 / A2147 / JR-TCF23 class. (6) WRONG PICK — Switch docked TV: needs 15V/2.6A; A2149 tops at 9V (handheld-only per Anker EU page). ' +
             'PLUG HONESTY (Egypt): physical sample = foldable US Type-A / NEMA 1-15, not Europlug, not BS 1363. Universal sockets often accept it; pure Europlug-only or deep-recess fixtures may need a cheap rated travel adapter. ELECTRICITY: 20W × 1 h ≈ 0.02 kWh → a few piastres on EgyptERA residential tariffs. No vampire/efficiency % — PZEM not run.',
         ar:
-            'للمشتري المصري عند ~520 جنيه، كيوب A2149 يجيب: "ضاعت علبة الآيفون/الآيباد، مش هدفع 900–1200 لشاحن آبل 20 واط، ومش هشتري A2347K11 بالغلط." ' +
+            'للمشتري المصري عند ~695 جنيه، كيوب A2149 يجيب: "ضاعت علبة الآيفون/الآيباد، مش هدفع 900–1200 لشاحن آبل 20 واط، ومش هشتري A2347K11 بالغلط." ' +
             'التمييز أولاً: slug anker-powerport-20w هو A2347K11 (ثلاثة PDO تشمل 12V/1.67A، جسم أطول قابل للطي، CV-CH-A2347K11-001 في 2026-07-24). هذه الورقة A2149 / A2149P21 PowerPort III Cube — PDOان فقط، كيوب ~32 ملم، يوم الحمل الأساسي 2026-07-14 مع تحديث هوية/PDO/استدعاء في 2026-07-24 بواسطة م. عمر خالد. قارن ذروات 9V عبر الأوراق إن أفاد؛ لا تعامل 61.3°م/30 دقيقة هنا كانتصار/خسارة في نفس الساعة مقابل 57.9°م/15 دقيقة لـ A2347. ' +
             'ستة استخدامات واقعية. (1) آيفون 12→16 ضاعت العلبة: 9V/2.22A يقع على سقف آبل السلكي ~20 واط؛ iPhone 13 عندنا 27 دقيقة إلى 50% (أسرع من ادعاء انكر 30 دقيقة على anker.com/eu-en/products/a2149). (2) رحلة القاهرة→الغردقة/شرم: كيوب 42.1 جرام قابل للطي يختفي في جيب الباسبور — اترك ~5 سم فراغ في شاليه غير مكيّف (متوسط يوليو بالقاهرة ~35°م؛ الشاحن بلغ 61.3°م تحت الحمل). (3) آيفون+AirPods بجانب السرير: 5V/3A ينزل بنظافة لعلبة AirPods (~3 واط)؛ 9V للهاتف. (4) عمرة / شحن حائط عند البوابة: شاحن الحائط أفضل من استخدام باور بانك داخل المقصورة بعد قيود الطيران؛ A2149 ليس على قائمة استدعاء الباور بانك. (5) اختيار خاطئ — سامسونج أولاً (A15/A25/S): بلا PPS → Galaxy A15 عندنا بقي 5V/2A / 2س 18د؛ اشترِ فئة A2669 / A2147 / JR-TCF23. (6) اختيار خاطئ — Switch بالدوك: يحتاج 15V/2.6A؛ A2149 يتوقف عند 9V (محمول فقط وفق صفحة انكر الأوروبية). ' +
             'صدق القابس (مصر): العيّنة الفعلية = US Type-A / NEMA 1-15 قابل للطي، ليس Europlug وليس BS 1363. الفيش العمومية غالبًا تقبله؛ Europlug فقط أو الغائرة قد تحتاج محوّل سفر رخيص مصنّف. الكهرباء: 20 واط × ساعة ≈ 0.02 كيلوواط·ساعة → قروش على تعريفة EgyptERA. بلا نسب vampire/كفاءة — لم يُشغَّل PZEM.',
@@ -279,7 +279,7 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
         },
         pros: [
             { en: 'Two-PDO decode on FNB58 — 5V/3A · 9V/2.22A — matched Anker A2149 EU page; zero phantom 12V (candid vs A2347K11)', ar: 'فك PDOين على FNB58 — 5V/3A · 9V/2.22A — مطابق لصفحة Anker A2149 الأوروبية؛ صفر 12V وهمي (صدق مقابل A2347K11)' },
-            { en: '9V rail delivered 19.76W (8.94V/2.21A) — 98.8% of the 19.98W PDO; unusually honest for a sub-EGP-550 brick', ar: 'منفذ 9V أوصل 19.76 واط (8.94V/2.21A) — 98.8% من PDO 19.98 واط؛ أمانة نادرة لشاحن أقل من 550 جنيه' },
+            { en: '9V rail delivered 19.76W (8.94V/2.21A) — 98.8% of the 19.98W PDO; unusually honest for a sub-EGP-700 brick', ar: 'منفذ 9V أوصل 19.76 واط (8.94V/2.21A) — 98.8% من PDO 19.98 واط؛ أمانة نادرة لشاحن أقل من 700 جنيه' },
             { en: 'iPhone 13 to 50% in 27 min beat Anker\'s 30-min claim; lands on Apple\'s ~20W wired class (9to5Mac / MacRumors corroboration)', ar: 'iPhone 13 إلى 50% في 27 دقيقة أسرع من ادعاء انكر 30 دقيقة؛ يقع على فئة آبل السلكية ~20 واط (استشهاد 9to5Mac / MacRumors)' },
             { en: 'Genuine ~32 mm foldable Type-A cube at 42.1g — smaller bag footprint than elongated A2347 chassis (different SKU/day)', ar: 'كيوب Type-A قابل للطي ~32 ملم بوزن 42.1 جرام — أصغر في الحقيبة من هيكل A2347 المستطيل (موديل/يوم مختلف)' },
             { en: 'OCP tripped in 2–3 s on both 5V and 9V over-current pushes', ar: 'OCP فصل خلال 2–3 ث عند دفع تيار زائد على منفذي 5V و9V' },

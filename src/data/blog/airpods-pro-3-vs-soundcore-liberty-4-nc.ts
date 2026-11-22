@@ -21,9 +21,9 @@ export const airpods_pro_3_vs_soundcore_liberty_4_nc: BlogArticle = {
         ar: {
             title: 'AirPods Pro 3 ضد Soundcore Liberty 4 NC — مقارنة صادمة بالأرقام والمواصفات الفعلية',
             metaTitle: 'AirPods Pro 3 ضد Liberty 4 NC مقارنة بالأرقام | كايرو فولت',
-            metaDescription: 'مقارنة هندسية تفصيلية بين AirPods Pro 3 وSoundcore Liberty 4 NC بالأرقام الفعلية. مقارنة ANC والصوت والبطارية والمكالمات. اكتشف هل فرق 6 أضعاف السعر يستاهل ف...',
+            metaDescription: 'مقارنة هندسية تفصيلية بين AirPods Pro 3 وSoundcore Liberty 4 NC بالأرقام الفعلية. مقارنة ANC والصوت والبطارية والمكالمات. اكتشف هل فرق 5 أضعاف السعر يستاهل ف...',
             keywords: 'ايربودز برو 3 ضد ساوندكور ليبرتي 4, AirPods Pro 3 ضد ساوندكور Liberty 4 NC, مقارنة سماعات بلوتوث مصر, سماعة ANC, ساوندكور ليبرتي 4 NC مصر, سماعات ايفون اندرويد',
-            excerpt: 'مقارنة هندسية صادمة بالأرقام بين AirPods Pro 3 بـ 15,000 جنيه و Soundcore Liberty 4 NC بـ 2,570 جنيه. هل فرق 6 أضعاف السعر يترجم لـ 6 أضعاف الأداء؟',
+            excerpt: 'مقارنة هندسية صادمة بالأرقام بين AirPods Pro 3 بـ 15,000 جنيه و Soundcore Liberty 4 NC بـ 2,745 جنيه. هل فرق 5 أضعاف السعر يترجم لـ 5 أضعاف الأداء؟',
             quickAnswer: 'AirPods Pro 3 مناسبة لمستخدمي iPhone بفضل تكامل نظام Apple وشريحة Apple H2. Soundcore Liberty 4 NC بسعر {{price:soundcore-liberty-4-nc}} جنيه بتدّي إلغاء ضوضاء تكيفي ودعم LDAC على أندرويد و50 ساعة بطارية مع العلبة. لو بتستخدم Android أو ميزانيتك محدودة، Liberty 4 NC اختيار منطقي؛ ولو عايز أقصى تكامل مع Apple، AirPods Pro 3.',
             content: `<p>تخيّل المشهد ده — سيناريو افتراضي بيتكرر في مكاتب كتير في مصر: موظف اشترى AirPods Pro 3، وزميله في نفس اليوم اشترى Soundcore Liberty 4 NC بسعر أقل بكتير. في الميتنج الصاخب، الاتنين شغّلوا إلغاء الضوضاء والاتنين سامعين المدير كويس. السؤال اللي بيطرح نفسه — وهو اللي وصّلك للمقال ده: هل فرق السعر الكبير بيترجم لفرق ملموس؟ ولا إنت بتدفع على التكامل والاسم؟</p>
 
@@ -166,7 +166,7 @@ export const airpods_pro_3_vs_soundcore_liberty_4_nc: BlogArticle = {
             metaTitle: 'AirPods Pro 3 vs Liberty 4 NC Real Comparison | CairoVolt',
             metaDescription: 'Detailed engineering comparison between AirPods Pro 3 and Soundcore Liberty 4 NC with real numbers. ANC, sound quality, battery, and call comparisons. Is the ...',
             keywords: 'AirPods Pro 3 vs Soundcore Liberty 4 NC, Bluetooth earbuds comparison Egypt, ANC earbuds, Soundcore Liberty 4 NC Egypt, iPhone Android earbuds',
-            excerpt: 'A shocking engineering comparison with real numbers between AirPods Pro 3 at 15,000 EGP and Soundcore Liberty 4 NC at 2,570 EGP. Does the 6x price difference translate to 6x better performance?',
+            excerpt: 'A shocking engineering comparison with real numbers between AirPods Pro 3 at 15,000 EGP and Soundcore Liberty 4 NC at 2,745 EGP. Does the 5x price difference translate to 5x better performance?',
             quickAnswer: 'AirPods Pro 3 suit iPhone users thanks to Apple ecosystem integration and the Apple H2 chip. The Soundcore Liberty 4 NC, at EGP {{price:soundcore-liberty-4-nc}}, offers adaptive noise cancellation, LDAC on Android and 50 hours of battery with the case. On Android or a tighter budget, the Liberty 4 NC is the sensible choice; for the deepest Apple integration, AirPods Pro 3.',
             content: `<p>Picture this — a hypothetical scene repeated in many Egyptian offices: one employee buys AirPods Pro 3, and a colleague buys a Soundcore Liberty 4 NC for far less on the same day. In a noisy meeting, both switch on noise cancellation and both hear the manager fine. The question that follows — the one that brought you here: does the big price gap translate into a real difference? Or are you paying for integration and the name?</p>
 

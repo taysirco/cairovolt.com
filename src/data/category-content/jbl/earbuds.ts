@@ -19,7 +19,7 @@ export const jbl_earbuds_content: CategoryContent = {
     pageContent: {
         ar: {
             title: 'ايربودز وسماعات JBL',
-            subtitle: 'من T110 السلك بـ249 جنيه لحد Tour Pro 2 بعلبة الشاشة — قارن قبل ما تختار',
+            subtitle: 'من T110 السلك بـ424 جنيه لحد Tour Pro 2 بعلبة الشاشة — قارن قبل ما تختار',
             description: `
 كتير بيدور على "**airpods jbl**" — والمقصود عادة الايربودز اللاسلكية TWS من JBL، لأن AirPods اسم منتج Apple بس الناس اتعودت تسمي أي ايربودز كده. اللي انت بتدور عليه فعلاً موجود هنا: سماعات True Wireless من JBL بدرايفرات Pure Bass، من فئة اقتصادية زي **Wave Beam** لحد **Tour Pro 2** بعلبة الشحن اللي فيها شاشة لمس.
 
@@ -56,7 +56,7 @@ export const jbl_earbuds_content: CategoryContent = {
 فئة الايربودز تحت 2500 جنيه هي أكتر فئة فيها تقليد. خطوات عملية:
 
 1. **اختبار التطبيق:** حمّل تطبيق JBL Headphones وجرب الاقتران — Wave Beam وTune Buds وTour Pro 2 المفروض التطبيق يتعرف عليها بالموديل. لو التطبيق مش شايف السماعة، دي علامة إنذار قوية (لاحظ إن T110 وT110BT مش بيدعموا التطبيق أصلاً — ده طبيعي).
-2. **منطق السعر:** لو لقيت "Wave Beam جديدة" بأقل من حوالي 40% من سعرنا (يعني تحت ~1300 جنيه)، السؤال مش "لقطة ولا لأ" — السؤال ليه حد يبيع بخسارة؟
+2. **منطق السعر:** لو لقيت "Wave Beam جديدة" بأقل من حوالي 40% من سعرنا (يعني تحت ~1400 جنيه)، السؤال مش "لقطة ولا لأ" — السؤال ليه حد يبيع بخسارة؟
 3. **الموديل والعلبة:** طابق اسم الموديل المطبوع على السماعة والعلبة مع صور JBL الرسمية، وراجع جودة الطباعة والخط.
 4. **المرجع الرسمي:** JBL نفسها عندها برنامج [Buy Authentic](https://www.jbl.com/customer-service/ordering/buy-authentic.html) بتشرح فيه مخاطر شراء المقلد وإزاي تشتري من مصادر موثوقة. احتفظ بالفاتورة دايمًا.
 `
@@ -71,7 +71,7 @@ export const jbl_earbuds_content: CategoryContent = {
                 }
             ],
             faq: [
-                        { question: 'كام سعر ايربودز JBL في مصر؟', answer: 'أرخص دخول لصوت JBL هو T110 السلك بـ249 جنيه، والنيك باند T110BT بـ449. الايربودز اللاسلكية بتبدأ من Wave Beam بـ2,449 جنيه، وTune Buds بعزل الضوضاء بـ5,999، والفلاجشيب Tour Pro 2 بعلبة الشاشة بـ14,499 جنيه.' },
+                        { question: 'كام سعر ايربودز JBL في مصر؟', answer: 'أرخص دخول لصوت JBL هو T110 السلك بـ424 جنيه، والنيك باند T110BT بـ624. الايربودز اللاسلكية بتبدأ من Wave Beam بـ2,624 جنيه، وTune Buds بعزل الضوضاء بـ6,174، والفلاجشيب Tour Pro 2 بعلبة الشاشة بـ14,674 جنيه.' },
                 {
                     question: 'هو JBL بتعمل AirPods؟ إيه اللي بيطلع لما أدور "jbl airpods"؟',
                     answer: 'AirPods اسم منتج Apple، لكن الناس بتستخدم الكلمة لأي ايربودز لاسلكية. اللي بتدور عليه هو سماعات JBL True Wireless (TWS) — زي Wave Beam وTune Buds وTour Pro 2 — وكلها بتشتغل مع الأندرويد والايفون عادي عبر البلوتوث.'
@@ -145,7 +145,7 @@ Rule of thumb: tightest budget → wired. Worried about losing a bud on public t
 The under-2,500 EGP earbuds tier is where most counterfeits live. Practical steps:
 
 1. **App pairing test:** Install the JBL Headphones app and pair — Wave Beam, Tune Buds, and Tour Pro 2 should be recognized by model name. If the app cannot see the earbuds, that is a strong red flag (note: T110 and T110BT do not support the app at all — that is normal).
-2. **Price logic:** A "new Wave Beam" at more than ~40% below our price (under roughly 1,300 EGP) raises the real question — why would anyone sell at a loss?
+2. **Price logic:** A "new Wave Beam" at more than ~40% below our price (under roughly 1,400 EGP) raises the real question — why would anyone sell at a loss?
 3. **Model markings and box:** Match the model name printed on the buds and packaging against JBL's official photos; check print quality and fonts.
 4. **Official reference:** JBL runs a [Buy Authentic program](https://www.jbl.com/customer-service/ordering/buy-authentic.html) explaining counterfeit risks and trusted sourcing. Always keep your invoice.
 `
@@ -160,7 +160,7 @@ If your day includes metro and bus commutes, ANC makes an audible difference on 
                 }
             ],
             faq: [
-                        { question: 'How much do JBL earbuds cost in Egypt?', answer: 'The cheapest way into JBL sound is the wired T110 at 249 EGP, with the T110BT neckband at 449. True-wireless starts with the Wave Beam at 2,449 EGP, the ANC Tune Buds at 5,999, and the touchscreen-case Tour Pro 2 flagship at 14,499 EGP.' },
+                        { question: 'How much do JBL earbuds cost in Egypt?', answer: 'The cheapest way into JBL sound is the wired T110 at 424 EGP, with the T110BT neckband at 624. True-wireless starts with the Wave Beam at 2,624 EGP, the ANC Tune Buds at 6,174, and the touchscreen-case Tour Pro 2 flagship at 14,674 EGP.' },
                 {
                     question: 'Does JBL make AirPods? What do I get when I search "JBL AirPods"?',
                     answer: 'AirPods is Apple\'s product name, but people use it for any true wireless earbuds. What you are looking for is JBL\'s TWS line — Wave Beam, Tune Buds, and Tour Pro 2 — all of which pair with both Android and iPhone over standard Bluetooth.'

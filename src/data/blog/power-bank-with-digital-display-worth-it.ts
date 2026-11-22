@@ -28,7 +28,7 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
         ar: {
             title: 'هل الباور بانك بشاشة رقمية يستحق 200 جنيه زيادة؟ مقارنة بالأرقام',
             metaTitle: 'باور بانك بشاشة رقمية — يستحق ولا مضيعة فلوس؟ | كايرو فولت',
-            metaDescription: 'مقارنة عملية بين الباور بانك بشاشة رقمية واللمبات LED: الشاشة بدقة ~1% بينما اللمبات ممكن تفصل فجأة بدون إنذار. مقارنة أسعار وموديلات من 997ج لـ 3,950ج في مصر.',
+            metaDescription: 'مقارنة عملية بين الباور بانك بشاشة رقمية واللمبات LED: الشاشة بدقة ~1% بينما اللمبات ممكن تفصل فجأة بدون إنذار. مقارنة أسعار وموديلات من 1,172ج لـ 4,125ج في مصر.',
             keywords: 'باور بانك بشاشة رقمية, شاشة ديجيتال باور بانك, لمبات LED باور بانك, هل الشاشة الرقمية تستحق, انكر زولو 10000 شاشة, باور بانك بشاشة مصر 2026, power bank digital display, افضل باور بانك بشاشة رقمية, مقارنة باور بانك شاشة ولمبات, اسعار باور بانك مصر',
             excerpt: 'هل الشاشة الرقمية في الباور بانك تستحق فعلاً دفع 200 جنيه زيادة مقارنة باللمبات التقليدية؟ مقارنة عملية بالأرقام وأسعار السوق في مصر 2026.',
             quickAnswer: 'أيوا، الشاشة الرقمية غالباً تستحق: بتقرأ النسبة بدقة حوالي 1% بدل لمبات LED اللي بتتحرك بخطوات 25% تقريباً وممكن تفصل فجأة، وبتأكدلك إن الشحن السريع شغال فعلاً. ومثال لموديل بشاشة رقمية وكابل مدمج: انكر Zolo A110D بسعة 10,000mAh بـ {{price:anker-zolo-a110d-10000}} جنيه على كايرو فولت.',
@@ -197,7 +197,7 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
         en: {
             title: 'Is a Power Bank with a Digital Display Worth 200 EGP More?',
             metaTitle: 'Digital Display Power Bank — Worth It or Waste? | CairoVolt',
-            metaDescription: 'Digital-display power banks vs LED-dot models compared: screens read to about 1% accuracy while LED dots can cut out unpredictably. Prices from 997 to 3,950 EGP in Egypt.',
+            metaDescription: 'Digital-display power banks vs LED-dot models compared: screens read to about 1% accuracy while LED dots can cut out unpredictably. Prices from 1,172 to 4,125 EGP in Egypt.',
             keywords: 'digital display power bank, power bank screen vs led, led indicator vs digital display power bank, anker zolo display power bank, power bank screen worth it egypt, best display power bank 2026, power bank digital screen comparison, joyroom power bank display, power bank price egypt egp',
             excerpt: 'Is a digital display on a power bank worth 200 EGP more than traditional LED dots? A numbers-based comparison, price breakdown, and buying recommendations for Egypt 2026.',
             quickAnswer: 'Yes, a digital display is usually worth having: it reads charge to about 1%, while LED dots move in roughly 25% steps and can cut out with no warning, and it confirms that fast charging is actually active. One example with a display and built-in cable: the Anker Zolo A110D 10,000mAh at {{price:anker-zolo-a110d-10000}} EGP at CairoVolt.',

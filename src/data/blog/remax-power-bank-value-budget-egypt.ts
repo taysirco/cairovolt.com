@@ -49,7 +49,7 @@ export const remax_power_bank_value_budget_egypt: BlogArticle = {
 <ul style="padding-right:24px;line-height:2.2;">
     <li>🎨 <strong>التصميم والجماليات الاستثنائية:</strong> بدلاً من القوالب البلاستيكية السوداء التقليدية المملة، تقدم ريماكس باور بانكات بهياكل شفافة تظهر اللوحة الأم والمكونات الداخلية بوضوح مع شاشات رقمية ليد ملونة لإظهار نسبة الشحن بدقة.</li>
     <li>🔌 <strong>الكابلات المدمجة (Built-in Cables):</strong> تأتي معظم موديلات ريماكس الحديثة (مثل سلسلة Remax Koven) بكابلات Type-C و Lightning مدمجة ومسطحة تلتف حول الباور بانك لتشكل مقبضاً للحمل، مما يغنيك تماماً عن حمل كابلات إضافية في حقيبتك.</li>
-    <li>💰 <strong>السعر التنافسي:</strong> يتراوح سعر باور بانك ريماكس 10000mAh الأصلي في مصر بين 600 إلى 750 جنيه مصري، مقارنة بماركة أنكر التي تبدأ موديلاتها المماثلة من 1,300 جنيه، مما يجعله الخيار الأنسب للطلبة وأصحاب الميزانيات المحدودة.</li>
+    <li>💰 <strong>السعر التنافسي:</strong> يتراوح سعر باور بانك ريماكس 10000mAh الأصلي في مصر بين 600 إلى 750 جنيه مصري، مقارنة بماركة أنكر التي تبدأ موديلاتها المماثلة من 1,475 جنيه، مما يجعله الخيار الأنسب للطلبة وأصحاب الميزانيات المحدودة.</li>
 </ul>
 
 <h2>أهم عيوب ونقاط ضعف باور بانك ريماكس</h2>
@@ -140,7 +140,7 @@ export const remax_power_bank_value_budget_egypt: BlogArticle = {
 <ul style="padding-left:24px;line-height:2.2;">
     <li>🎨 <strong>Eye-Catching Aesthetics:</strong> Instead of generic black plastic blocks, Remax offers transparent housings that showcase the internal PCB alongside bright, color-accurate LED percentage displays.</li>
     <li>🔌 <strong>Built-in Charging Cables:</strong> Most contemporary Remax models (such as the Remax Koven series) feature flat, integrated Type-C and Lightning cables that wrap around the frame to double as a carrying strap. This eliminates the need to carry external cables.</li>
-    <li>💰 <strong>Affordable Pricing:</strong> A genuine Remax 10,000mAh unit retails between 600 and 750 EGP in Egypt, whereas similar Anker models start around 1,300 EGP. This makes Remax highly appealing to students and budget shoppers.</li>
+    <li>💰 <strong>Affordable Pricing:</strong> A genuine Remax 10,000mAh unit retails between 600 and 750 EGP in Egypt, whereas similar Anker models start around 1,475 EGP. This makes Remax highly appealing to students and budget shoppers.</li>
 </ul>
 
 <h2>Major Drawbacks and Potential Failure Points</h2>

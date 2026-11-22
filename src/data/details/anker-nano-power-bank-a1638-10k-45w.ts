@@ -39,7 +39,7 @@ export const anker_nano_power_bank_a1638_10k_45w_detail: ProductDetail = {
     },
     localContext: {
         en:
-            'CairoVolt is an independent retailer — this pack carries our store warranty, not a manufacturer or agent warranty. At 2,300 EGP the A1638 is priced above a plain 10,000mAh brick, and the honest justification is the built-in retractable cable plus 45W, not extra capacity. ' +
+            'CairoVolt is an independent retailer — this pack carries our store warranty, not a manufacturer or agent warranty. At 2,475 EGP the A1638 is priced above a plain 10,000mAh brick, and the honest justification is the built-in retractable cable plus 45W, not extra capacity. ' +
             'RIGHT FOR: (1) THE PERSON WHO KEEPS FORGETTING THE CABLE — the single strongest case. A pack with a 70cm USB-C cable inside it is a pack that works on the day you grabbed it and nothing else. ' +
             '(2) CAIRO COMMUTES AND DELIVERY WORK — Metro Line 3, microbus, Uber and Talabat riders whose phones drain fast with GPS and screen-on time; 231g in a jacket pocket with no cable to untangle at a traffic light. ' +
             '(3) UNIVERSITY DAYS — AUC, GUC, Cairo University: a full lecture day of notes, WhatsApp and hotspot on roughly two iPhone charges. ' +
@@ -56,7 +56,7 @@ export const anker_nano_power_bank_a1638_10k_45w_detail: ProductDetail = {
             'AUTHENTICITY: match the printed A1638 on the unit. If your unit has a short non-retracting loop cable and no lanyard, it is the A1259 30W model and not this listing — contact us. ' +
             'WHAT WE DID NOT INVENT: no CairoVolt runtime, efficiency, recharge-time, weight or temperature measurement exists for this SKU. No claim that 45W is available to two devices. No merged or rounded charge count presented as measured — the per-phone figures are arithmetic from published Wh, labelled as estimates.',
         ar:
-            'كايرو فولت متجر مستقل — الباور بانك ده بضمان المتجر، وليس ضمان الشركة المصنّعة أو الوكيل. وبسعر 2300 جنيه، A1638 أغلى من باور بانك 10000 عادي، والمبرر الصادق هو الكابل المدمج القابل للسحب مع الـ45 واط، مش سعة أكبر. ' +
+            'كايرو فولت متجر مستقل — الباور بانك ده بضمان المتجر، وليس ضمان الشركة المصنّعة أو الوكيل. وبسعر 2475 جنيه، A1638 أغلى من باور بانك 10000 عادي، والمبرر الصادق هو الكابل المدمج القابل للسحب مع الـ45 واط، مش سعة أكبر. ' +
             'مناسب لـ: (1) اللي دايماً بينسى الكابل — وده أقوى سبب على الإطلاق. الباور بانك اللي جواه كابل USB-C بطول 70 سم هو اللي بيشتغل في اليوم اللي خطفته فيه ومعاك ولا حاجة تانية. ' +
             '(2) مشاوير القاهرة وشغل التوصيل — مترو خط 3 والميكروباص وأوبر وسواقين طلبات اللي موبايلاتهم بتفضى بسرعة مع GPS والشاشة الشغالة؛ 231 جرام في جيب الجاكيت وبلا كابل تفكّه على إشارة مرور. ' +
             '(3) أيام الجامعة — AUC وGUC وجامعة القاهرة: يوم محاضرات كامل من المذكرات وواتساب والهوت سبوت على حوالي شحنتين آيفون. ' +

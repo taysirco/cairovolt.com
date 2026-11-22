@@ -29,21 +29,21 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
         ar: {
             title: 'باور بانك MagSafe — هل الفرق يستحق 800 جنيه إضافية في مصر 2026؟',
             metaTitle: 'باور بانك MagSafe يستحق 800ج إضافية؟ | كايرو فولت',
-            metaDescription: 'باور بانك MagSafe بـ 850ج مقابل سلكي عادي بـ 450ج — الفرق 400-800 جنيه. تحليل الراحة والسرعة والكفاءة بالمواصفات المعلنة. الإجابة بالأرقام.',
+            metaDescription: 'باور بانك MagSafe بـ 1,025ج مقابل سلكي عادي بـ 450ج — الفرق 575-800 جنيه. تحليل الراحة والسرعة والكفاءة بالمواصفات المعلنة. الإجابة بالأرقام.',
             keywords: 'باور بانك MagSafe, باور بانك مغناطيسي, جوي روم magsafe egypt, أنكر 622 maggo, باور بانك ايفون مغناطيسي, شحن لاسلكي ايفون, magsafe vs cable power bank, افضل باور بانك magsafe مصر 2026',
-            excerpt: 'باور بانك MagSafe بـ 850 جنيه مقابل سلكي عادي بنفس السعة بـ 450 جنيه — هل الفرق 400-800 جنيه يستحق فعلاً؟ مقارنة عملية بالأرقام.',
-            quickAnswer: 'باور بانك MagSafe يستحق 400-800 جنيه إضافية فقط إذا كنت: (1) مستخدم iPhone 12 أو أحدث، (2) تشحن عدة مرات يومياً قصيرة (10-20 دقيقة)، (3) تكره الكابلات في الشنطة. عيوبه: الشحن أبطأ 50% (7.5W لاسلكي مقابل 20W سلكي) + فقد كفاءة 25% + سخونة أعلى. التوصية: جوي روم MagSafe 10,000mAh بـ 850ج هو نقطة التوازن المثلى.',
-            content: `<p>السوق المصري للباور بانك MagSafe انفجر في 2026 — من 5 موديلات سنة 2024 إلى أكثر من 40 موديل الآن. مع هذا الانفجار جاء فرق سعري غريب: باور بانك جوي روم سلكي عادي 10,000mAh بـ 450 جنيه، نفس السعة بـ MagSafe بـ 850 جنيه. الفرق 400 جنيه = حوالي 90% زيادة. الـ أنكر 622 MagGo يصل لـ 2,800 جنيه لنفس فكرة المغناطيسية. السؤال الذي يدور في رأس كل مشترٍ مصري: <strong>هل المغناطيسية تستحق 400-2,000 جنيه إضافية فعلاً؟</strong> قارنّا الموديلات المغناطيسية بالسلكية المكافئة اعتماداً على المواصفات المعلنة وحسابات كفاءة الشحن المعروفة. النتائج بالأرقام بتقول حاجة مختلفة عن الإعلانات.</p>
+            excerpt: 'باور بانك MagSafe بـ 1,025 جنيه مقابل سلكي عادي بنفس السعة بـ 450 جنيه — هل الفرق 575-800 جنيه يستحق فعلاً؟ مقارنة عملية بالأرقام.',
+            quickAnswer: 'باور بانك MagSafe يستحق 575-800 جنيه إضافية فقط إذا كنت: (1) مستخدم iPhone 12 أو أحدث، (2) تشحن عدة مرات يومياً قصيرة (10-20 دقيقة)، (3) تكره الكابلات في الشنطة. عيوبه: الشحن أبطأ 50% (7.5W لاسلكي مقابل 20W سلكي) + فقد كفاءة 25% + سخونة أعلى. التوصية: جوي روم MagSafe 10,000mAh بـ 1,025ج هو نقطة التوازن المثلى.',
+            content: `<p>السوق المصري للباور بانك MagSafe انفجر في 2026 — من 5 موديلات سنة 2024 إلى أكثر من 40 موديل الآن. مع هذا الانفجار جاء فرق سعري غريب: باور بانك جوي روم سلكي عادي 10,000mAh بـ 450 جنيه، نفس السعة بـ MagSafe بـ 1,025 جنيه. الفرق 575 جنيه = حوالي 128% زيادة. الـ أنكر 622 MagGo يصل لـ 2,975 جنيه لنفس فكرة المغناطيسية. السؤال الذي يدور في رأس كل مشترٍ مصري: <strong>هل المغناطيسية تستحق 575-2,000 جنيه إضافية فعلاً؟</strong> قارنّا الموديلات المغناطيسية بالسلكية المكافئة اعتماداً على المواصفات المعلنة وحسابات كفاءة الشحن المعروفة. النتائج بالأرقام بتقول حاجة مختلفة عن الإعلانات.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        باور بانك MagSafe يستحق 400-800 جنيه إضافية فقط إذا كنت:
+        باور بانك MagSafe يستحق 575-800 جنيه إضافية فقط إذا كنت:
         (1) مستخدم iPhone 12 أو أحدث،
         (2) تشحن عدة مرات يومياً قصيرة (10-20 دقيقة)،
         (3) تكره الكابلات في الشنطة.
         عيوبه: الشحن أبطأ 50% (7.5W لاسلكي مقابل 20W سلكي) + فقد كفاءة 25% + سخونة أعلى.
-        التوصية: <strong>جوي روم MagSafe 10,000mAh</strong> بـ 850ج هو نقطة التوازن المثلى.
+        التوصية: <strong>جوي روم MagSafe 10,000mAh</strong> بـ 1,025ج هو نقطة التوازن المثلى.
     </p>
 </div>
 
@@ -52,7 +52,7 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
         🔬 تحليل كايرو فولت بالأرقام
     </p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        قارنّا الباور بانكات المغناطيسية (زي جوي روم MagSafe بـ 850ج و أنكر 622 MagGo) بالسلكية المكافئة اعتماداً على المواصفات المعلنة والبيانات المنشورة عن الشحن اللاسلكي.
+        قارنّا الباور بانكات المغناطيسية (زي جوي روم MagSafe بـ 1,025ج و أنكر 622 MagGo) بالسلكية المكافئة اعتماداً على المواصفات المعلنة والبيانات المنشورة عن الشحن اللاسلكي.
         <strong>الخلاصة:</strong> فقد الكفاءة في الشحن اللاسلكي يُقدَّر بـ 22-28% (مقابل 8-12% للسلكي)، الحرارة النموذجية أثناء الشحن حوالي 41°م (مقابل 33°م للسلكي)، والحرارة الأعلى بتقلل دورات الشحن المتوقعة قبل تدهور البطارية (~480 دورة مقابل ~620 للسلكي). لكن الراحة في الاستخدام اليومي قياس آخر تماماً.
     </p>
 </div>
@@ -161,7 +161,7 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
     </tbody>
 </table>
 
-<p>الباور بانك MagSafe يعيش أقل بنسبة 25-30%. ده يعني لو هتشتري جوي روم MagSafe بـ 850ج، اعتبر السعر الحقيقي/الشهر = 50 جنيه/شهر. الـ جوي روم السلكي بـ 450ج = 22 جنيه/شهر فقط. <strong>على المدى الطويل، السلكي أوفر بنسبة 56%.</strong></p>
+<p>الباور بانك MagSafe يعيش أقل بنسبة 25-30%. ده يعني لو هتشتري جوي روم MagSafe بـ 1,025ج، اعتبر السعر الحقيقي/الشهر = 60 جنيه/شهر. الـ جوي روم السلكي بـ 450ج = 22 جنيه/شهر فقط. <strong>على المدى الطويل، السلكي أوفر بنسبة 63%.</strong></p>
 
 
 <h2>متى يستحق MagSafe الفرق فعلاً؟</h2>
@@ -179,7 +179,7 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">📚 <strong>الطالب الجامعي:</strong> تشحن مرة في اليوم لمدة طويلة. السلكي بنفس السعة بـ 450ج يعطي أداء أفضل وعمر أطول.</li>
     <li style="margin-bottom:12px;">🚗 <strong>السائق بحامل سيارة سلكي:</strong> الكابل في السيارة موصول بالفعل. MagSafe لا يضيف قيمة في هذا السيناريو.</li>
-    <li style="margin-bottom:12px;">🔋 <strong>من يحتاج سعة كبيرة (20,000mAh+):</strong> باور بانكات MagSafe بسعة 20,000mAh+ نادرة وغالية جداً (3,000ج+). السلكي 20,000mAh بـ 997-1,730ج أفضل عقلياً.</li>
+    <li style="margin-bottom:12px;">🔋 <strong>من يحتاج سعة كبيرة (20,000mAh+):</strong> باور بانكات MagSafe بسعة 20,000mAh+ نادرة وغالية جداً (3,000ج+). السلكي 20,000mAh بـ 1,172-1,905ج أفضل عقلياً.</li>
 </ul>
 
 
@@ -217,8 +217,8 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
         ✅ التوصية النهائية بالأرقام
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <strong>يستحق:</strong> جوي روم MagSafe 10,000mAh (850ج) لمستخدم iPhone النشط — الفرق 400ج عن السلكي يُبرّر بالراحة اليومية.
-        <strong>لا يستحق:</strong> أنكر 622 MagGo (2,800ج) لمستخدم عادي — السعر 6× من السلكي مقابل ميزات هامشية.
+        <strong>يستحق:</strong> جوي روم MagSafe 10,000mAh (1,025ج) لمستخدم iPhone النشط — الفرق 575ج عن السلكي يُبرّر بالراحة اليومية.
+        <strong>لا يستحق:</strong> أنكر 622 MagGo (2,975ج) لمستخدم عادي — السعر 7× من السلكي مقابل ميزات هامشية.
         <strong>الذكي:</strong> جوي روم MagSafe + جوي روم سلكي 20K = أفضل من MagSafe واحد بريميوم.
         كل المنتجات على كايرو فولت بضمان أصلي + توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
@@ -245,21 +245,21 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
         en: {
             title: 'MagSafe Power Bank — Is It Worth 800 EGP Extra in Egypt 2026?',
             metaTitle: 'Is MagSafe Power Bank Worth 800 EGP Extra? | CairoVolt',
-            metaDescription: 'A MagSafe power bank at 850 EGP vs a wired one at 450 EGP — the gap is 400-800 EGP. We analyze convenience, speed, and efficiency from published specs. Answer in numbers.',
+            metaDescription: 'A MagSafe power bank at 1,025 EGP vs a wired one at 450 EGP — the gap is 575-800 EGP. We analyze convenience, speed, and efficiency from published specs. Answer in numbers.',
             keywords: 'magsafe power bank, magnetic power bank, joyroom magsafe egypt, anker 622 maggo, iphone magnetic power bank, wireless charging iphone, magsafe vs cable power bank, best magsafe power bank egypt 2026',
-            excerpt: 'A 10,000mAh MagSafe power bank costs 850 EGP, the wired equivalent costs 450 EGP — is the 400-800 EGP gap really worth it? A practical numbers-based comparison.',
-            quickAnswer: 'A MagSafe power bank only earns its 400-800 EGP premium if you: (1) own iPhone 12 or later, (2) charge several short sessions daily (10-20 min), (3) hate cables in your bag. Downsides: 50% slower charging (7.5W wireless vs 20W wired) + 25% efficiency loss + higher heat. Recommendation: Joyroom MagSafe 10,000mAh at 850 EGP is the optimal balance point.',
-            content: `<p>Egypt's MagSafe power bank market exploded in 2026 — from 5 models in 2024 to over 40 today. With this explosion came a strange price gap: a regular wired Joyroom 10,000mAh costs 450 EGP, the same capacity with MagSafe costs 850 EGP. The 400 EGP gap = roughly a 90% premium. Anker 622 MagGo reaches 2,800 EGP for the same magnetic concept. The question circling every Egyptian buyer's mind: <strong>is the magnetic feature really worth 400-2,000 EGP extra?</strong> We compared magnetic models against wired equivalents using published specs and standard charging-efficiency math. The numbers tell a different story from the marketing.</p>
+            excerpt: 'A 10,000mAh MagSafe power bank costs 1,025 EGP, the wired equivalent costs 450 EGP — is the 575-800 EGP gap really worth it? A practical numbers-based comparison.',
+            quickAnswer: 'A MagSafe power bank only earns its 575-800 EGP premium if you: (1) own iPhone 12 or later, (2) charge several short sessions daily (10-20 min), (3) hate cables in your bag. Downsides: 50% slower charging (7.5W wireless vs 20W wired) + 25% efficiency loss + higher heat. Recommendation: Joyroom MagSafe 10,000mAh at 1,025 EGP is the optimal balance point.',
+            content: `<p>Egypt's MagSafe power bank market exploded in 2026 — from 5 models in 2024 to over 40 today. With this explosion came a strange price gap: a regular wired Joyroom 10,000mAh costs 450 EGP, the same capacity with MagSafe costs 1,025 EGP. The 575 EGP gap = roughly a 128% premium. Anker 622 MagGo reaches 2,975 EGP for the same magnetic concept. The question circling every Egyptian buyer's mind: <strong>is the magnetic feature really worth 575-2,000 EGP extra?</strong> We compared magnetic models against wired equivalents using published specs and standard charging-efficiency math. The numbers tell a different story from the marketing.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        A MagSafe power bank only earns its 400-800 EGP premium if you:
+        A MagSafe power bank only earns its 575-800 EGP premium if you:
         (1) own iPhone 12 or later,
         (2) charge several short sessions daily (10-20 min),
         (3) hate cables in your bag.
         Downsides: 50% slower charging (7.5W wireless vs 20W wired) + 25% efficiency loss + higher heat.
-        Recommendation: <strong>Joyroom MagSafe 10,000mAh</strong> at 850 EGP is the optimal balance.
+        Recommendation: <strong>Joyroom MagSafe 10,000mAh</strong> at 1,025 EGP is the optimal balance.
     </p>
 </div>
 
@@ -268,7 +268,7 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
         🔬 CairoVolt Numbers Analysis
     </p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        We compared magnetic power banks (such as the Joyroom MagSafe at 850 EGP and the Anker 622 MagGo) against wired equivalents using published specs and the available data on wireless charging.
+        We compared magnetic power banks (such as the Joyroom MagSafe at 1,025 EGP and the Anker 622 MagGo) against wired equivalents using published specs and the available data on wireless charging.
         <strong>The takeaway:</strong> wireless charging efficiency loss is estimated at 22-28% (vs 8-12% for wired), typical charging temperature around 41°C (vs 33°C for wired), and the extra heat reduces expected charge cycles before battery degradation (~480 vs ~620 for wired). But daily-use convenience is a completely different metric.
     </p>
 </div>
@@ -377,7 +377,7 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
     </tbody>
 </table>
 
-<p>The MagSafe power bank lives 25-30% shorter. That means a Joyroom MagSafe at 850 EGP costs effectively 50 EGP/month. The wired Joyroom at 450 EGP = only 22 EGP/month. <strong>Long-term, the wired is 56% cheaper.</strong></p>
+<p>The MagSafe power bank lives 25-30% shorter. That means a Joyroom MagSafe at 1,025 EGP costs effectively 60 EGP/month. The wired Joyroom at 450 EGP = only 22 EGP/month. <strong>Long-term, the wired is 63% cheaper.</strong></p>
 
 
 <h2>When Does MagSafe Actually Earn Its Premium?</h2>
@@ -395,7 +395,7 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">📚 <strong>University student:</strong> you charge once daily for a long session. Wired at the same capacity for 450 EGP gives better performance and longer life.</li>
     <li style="margin-bottom:12px;">🚗 <strong>Driver with wired car mount:</strong> the cable is already routed in the car. MagSafe adds no value here.</li>
-    <li style="margin-bottom:12px;">🔋 <strong>High-capacity needs (20,000mAh+):</strong> 20,000mAh+ MagSafe power banks are rare and very expensive (3,000+ EGP). Wired 20,000mAh at 997-1,730 EGP is the smarter call.</li>
+    <li style="margin-bottom:12px;">🔋 <strong>High-capacity needs (20,000mAh+):</strong> 20,000mAh+ MagSafe power banks are rare and very expensive (3,000+ EGP). Wired 20,000mAh at 1,172-1,905 EGP is the smarter call.</li>
 </ul>
 
 
@@ -433,8 +433,8 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
         ✅ Final Numbers-Based Recommendation
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <strong>Worth it:</strong> Joyroom MagSafe 10,000mAh (850 EGP) for the active iPhone user — the 400 EGP gap vs wired pays back in daily convenience.
-        <strong>Not worth it:</strong> Anker 622 MagGo (2,800 EGP) for a casual user — 6× the wired price for marginal features.
+        <strong>Worth it:</strong> Joyroom MagSafe 10,000mAh (1,025 EGP) for the active iPhone user — the 575 EGP gap vs wired pays back in daily convenience.
+        <strong>Not worth it:</strong> Anker 622 MagGo (2,975 EGP) for a casual user — 7× the wired price for marginal features.
         <strong>The smart combo:</strong> Joyroom MagSafe + Joyroom wired 20K = better than one premium MagSafe.
         All products on CairoVolt with authentic warranty + delivery to all governorates + cash on delivery.
     </p>

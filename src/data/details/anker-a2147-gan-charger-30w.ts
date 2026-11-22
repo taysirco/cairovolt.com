@@ -1,5 +1,5 @@
 // Details for: anker-a2147-gan-charger-30w (Anker 511 Charger, Nano 3, 30W — model A2147)
-// Lab sheet: CV-CH-A2147-001 — Wave Adj/Mid §7.1 elevated gold-depth (Anker 511 Nano 3 · A2147 · ~490 EGP).
+// Lab sheet: CV-CH-A2147-001 — Wave Adj/Mid §7.1 elevated gold-depth (Anker 511 Nano 3 · A2147 · ~665 EGP).
 // CRITICAL A/B: HAS 20V/1.5A fixed PDO + dual PPS (3.3–11V/3A · 3.3–16V/2A) ≠ Zolo A2698 (NO 20V · single PPS 3.3–11V/3A) · ≠ JR-TCF30 (dual C+A shared 30W).
 // Honesty gate: FNB58 confirmed four fixed PDOs + BOTH PPS APDOs before Samsung 25W SFC / 20V claims; peaks ≤ 30W label; no invented PZEM %.
 // Elevated bar: ≥170 lines · ≥18 results · 5+5 aiTldr · shell temp · Egypt plug · recall 2026-07-24 · Eng. Omar Khaled.
@@ -11,7 +11,7 @@ export const anker_a2147_gan_charger_30w_detail: ProductDetail = {
     aiTldr: {
         en: [
             'Anker 511 Nano 3 (A2147) is a single-port 30W USB-C GaN charger. Our FNB58 decoded fixed PDOs 5V/3A · 9V/3A · 15V/2A · 20V/1.5A plus two PPS windows (3.3–11V/3A, 3.3–16V/2A), matching Anker\'s DoC. Unlike Zolo A2698, it has a 20V PDO.',
-            'Listing identity: GTIN 194644126940, ~490 EGP. The PDO/PPS set matches Anker\'s DoC on service.anker.com; Zolo A2698 has NO 20V PDO.',
+            'Listing identity: GTIN 194644126940, ~665 EGP. The PDO/PPS set matches Anker\'s DoC on service.anker.com; Zolo A2698 has NO 20V PDO.',
             'CairoVolt peaks: 29.5W on 15V/2A (14.92V/1.98A) and 29.3W on 20V/1.5A (19.90V/1.47A); PPS hold 11V/2.70A = 29.6W for 5 min on JUWEI — ≥98% of the 30W label on sample CV-CH-A2147-001 (2026-07-24).',
             'Real phones: Galaxy S24 base negotiated PPS Super Fast Charging (~24.3W peak; 0→100% ≈ 64 min; indicator ON). iPhone 15 stayed in Apple\'s ~20W PD cap (~19.7W peak; 0→50% ≈ 27 min) — watts above 20W do not unlock faster iPhone wired charge.',
             'ChargerLAB public teardown (not our open): Southchip SC3056 · Infineon CYPD3174 · Vanguard VS3506AE GaN · SC3503 + AOS SR · ZOWIE Z4RGP30MP. Surface 53.8°C after 15 min at ~29W (ambient 28.3°C). Cable not in pack — bring a 3A USB-C.',
@@ -19,7 +19,7 @@ export const anker_a2147_gan_charger_30w_detail: ProductDetail = {
         ],
         ar: [
             'انكر 511 نانو 3 (A2147) شاحن حائط GaN بمنفذ USB-C واحد بقدرة 30 واط. فكّ FNB58 لدينا PDO ثابتة 5V/3A · 9V/3A · 15V/2A · 20V/1.5A مع نافذتَي PPS (3.3–11V/3A و3.3–16V/2A)، مطابقة لشهادة انكر. وبخلاف Zolo A2698 يملك PDO بجهد 20 فولت.',
-            'هوية القائمة: GTIN 194644126940، ~490 جنيه. مجموعة PDO/PPS مطابقة لشهادة انكر على service.anker.com؛ وZolo A2698 بلا PDO 20V.',
+            'هوية القائمة: GTIN 194644126940، ~665 جنيه. مجموعة PDO/PPS مطابقة لشهادة انكر على service.anker.com؛ وZolo A2698 بلا PDO 20V.',
             'ذروات CairoVolt: 29.5 واط على 15V/2A (14.92V/1.98A) و29.3 واط على 20V/1.5A (19.90V/1.47A)؛ تثبيت PPS 11V/2.70A = 29.6 واط لمدة 5 دقائق على JUWEI — ≥98% من ملصق 30 واط على العيّنة CV-CH-A2147-001 (2026-07-24).',
             'هواتف حقيقية: Galaxy S24 القاعدي تفاوض PPS Super Fast Charging (ذروة ~24.3 واط؛ 0→100% ≈ 64 دقيقة؛ المؤشر يعمل). iPhone 15 بقي ضمن سقف آبل ~20 واط PD (ذروة ~19.7 واط؛ 0→50% ≈ 27 دقيقة) — الواط فوق 20 لا يسرّع شحن الآيفون السلكي.',
             'تفكيك ChargerLAB العام (ليس فتحنا): Southchip SC3056 · Infineon CYPD3174 · Vanguard VS3506AE GaN · SC3503 + AOS SR · ZOWIE Z4RGP30MP. السطح 53.8°م بعد 15 دقيقة عند ~29 واط (محيط 28.3°م). الكابل غير مرفق — أحضر USB-C 3A.',
@@ -28,8 +28,8 @@ export const anker_a2147_gan_charger_30w_detail: ProductDetail = {
     },
     localContext: {
         en:
-            'For an Egyptian buyer at ~490 EGP, A2147 answers: "I want the compact Anker 30W GaN brick with the full published PD/PPS set — including the 20V rail Zolo skips — and silicon transparency from a public teardown." ' +
-            'CRITICAL SKU MAP (do not confuse the Anker/Joyroom 30W shelf). (A) A2147 = this sheet — single USB-C, 30W WITH four fixed PDOs including 20V/1.5A + dual PPS — ChargerLAB-cited silicon. (B) Zolo A2698 (~599 EGP street on some shelves; value tier) = single USB-C 30W, PPS 3.3–11V/3A, NO 20V PDO, no public teardown. (C) Joyroom JR-TCF30 (~280 EGP) = dual USB-C + USB-A shared 30W — different job (phone + earbuds). ' +
+            'For an Egyptian buyer at ~665 EGP, A2147 answers: "I want the compact Anker 30W GaN brick with the full published PD/PPS set — including the 20V rail Zolo skips — and silicon transparency from a public teardown." ' +
+            'CRITICAL SKU MAP (do not confuse the Anker/Joyroom 30W shelf). (A) A2147 = this sheet — single USB-C, 30W WITH four fixed PDOs including 20V/1.5A + dual PPS — ChargerLAB-cited silicon. (B) Zolo A2698 (~774 EGP street on some shelves; value tier) = single USB-C 30W, PPS 3.3–11V/3A, NO 20V PDO, no public teardown. (C) Joyroom JR-TCF30 (~455 EGP) = dual USB-C + USB-A shared 30W — different job (phone + earbuds). ' +
             'Six realistic fits. (1) SAMSUNG-FIRST HOUSEHOLD (Galaxy A54/A55/S23/S24 base): FNB58-confirmed PPS 3.3–11V/3A is the Samsung 25W SFC window — our S24 showed Super Fast Charging and ~24.3W peak. ' +
             '(2) MIXED iPHONE + SAMSUNG HOME: one brick covers both; iPhone still caps ~20W (MacRumors), Samsung uses the PPS rails; 9V/3A carries both. ' +
             '(3) STUDENT / TRAVEL POCKET (AUC/GUC/Cairo University + Sahel weekend): ~28.5 mm cube class, measured 47.2g — luggage pick vs three bricks. ' +
@@ -41,8 +41,8 @@ export const anker_a2147_gan_charger_30w_detail: ProductDetail = {
             'We publish NO invented same-hour thermal win/loss vs A2698 56.3°C or JR-TCF30 54.8°C — different SKUs/days/loads. ' +
             'ELECTRICITY: 30W × 1 h ≈ 0.030 kWh → a few piastres on EgyptERA residential tariffs. No vampire/efficiency % — PZEM not run.',
         ar:
-            'للمشتري المصري عند ~490 جنيه، A2147 يجيب: "أريد شاحن انكر GaN 30 واط المدمج بمجموعة PD/PPS المنشورة كاملة — بما فيها سكة 20V التي يتخطاها Zolo — وشفافية سيليكون من تفكيك عام." ' +
-            'خريطة الموديلات الحرجة (لا تخلط رف 30 واط). (أ) A2147 = هذه الورقة — USB-C واحد، 30 واط مع أربعة PDO ثابتة تشمل 20V/1.5A + نافذتَي PPS — سيليكون موثّق ChargerLAB. (ب) Zolo A2698 = USB-C واحد 30 واط، PPS 3.3–11V/3A، بلا PDO 20V، بلا تفكيك عام. (ج) Joyroom JR-TCF30 (~280 جنيه) = منفذا USB-C + USB-A بظرف مشترك 30 واط — وظيفة مختلفة. ' +
+            'للمشتري المصري عند ~665 جنيه، A2147 يجيب: "أريد شاحن انكر GaN 30 واط المدمج بمجموعة PD/PPS المنشورة كاملة — بما فيها سكة 20V التي يتخطاها Zolo — وشفافية سيليكون من تفكيك عام." ' +
+            'خريطة الموديلات الحرجة (لا تخلط رف 30 واط). (أ) A2147 = هذه الورقة — USB-C واحد، 30 واط مع أربعة PDO ثابتة تشمل 20V/1.5A + نافذتَي PPS — سيليكون موثّق ChargerLAB. (ب) Zolo A2698 = USB-C واحد 30 واط، PPS 3.3–11V/3A، بلا PDO 20V، بلا تفكيك عام. (ج) Joyroom JR-TCF30 (~455 جنيه) = منفذا USB-C + USB-A بظرف مشترك 30 واط — وظيفة مختلفة. ' +
             'ستة استخدامات واقعية. (1) بيت سامسونج أولاً: نافذة PPS 3.3–11V/3A المؤكّدة بـ FNB58 هي ما يحتاجه Samsung 25W SFC — S24 عندنا أظهر المؤشر وذروة ~24.3 واط. ' +
             '(2) بيت مختلط آيفون + سامسونج: شاحن واحد؛ الآيفون بسقف ~20 واط؛ السامسونج على PPS. ' +
             '(3) جيب طالب/سفر: فئة مكعّب ~28.5 ملم، وزن مقاس 47.2 جرامًا. ' +
@@ -55,7 +55,7 @@ export const anker_a2147_gan_charger_30w_detail: ProductDetail = {
     },
     specifications: {
         'Model': { en: 'Anker 511 (A2147) — Nano 3, 30W USB-C GaN wall charger', ar: 'انكر 511 (A2147) — نانو 3، شاحن حائط USB-C GaN 30 واط' },
-        'GTIN / MPN / Street': { en: 'GTIN 194644126940 · MPN A2147 · CairoVolt street ~490 EGP', ar: 'GTIN 194644126940 · MPN A2147 · سعر كايرو فولت ~490 جنيه' },
+        'GTIN / MPN / Street': { en: 'GTIN 194644126940 · MPN A2147 · CairoVolt street ~665 EGP', ar: 'GTIN 194644126940 · MPN A2147 · سعر كايرو فولت ~665 جنيه' },
         'Rated Output': { en: '30W Max (single USB-C) — shared-envelope N/A (one port)', ar: '30 واط كحد أقصى (USB-C واحد) — ظرف مشترك غير منطبق (منفذ واحد)' },
         'PD Fixed Profiles (vendor + FNB58)': { en: '5V/3A (15W) · 9V/3A (27W) · 15V/2A (30W) · 20V/1.5A (30W) — four PDOs; 20V present (unlike Zolo A2698)', ar: '5V/3A (15 واط) · 9V/3A (27 واط) · 15V/2A (30 واط) · 20V/1.5A (30 واط) — أربعة PDO؛ 20V موجود (بخلاف Zolo A2698)' },
         'PPS Windows (vendor + FNB58)': { en: '3.3–11V/3A · 3.3–16V/2A — covers Samsung 25W SFC; does NOT cover Samsung 45W SFC 2.0 Ultra class', ar: '3.3–11V/3A · 3.3–16V/2A — يغطي Samsung 25W SFC؛ لا يغطي Samsung 45W SFC 2.0 فئة Ultra' },
@@ -67,7 +67,7 @@ export const anker_a2147_gan_charger_30w_detail: ProductDetail = {
         'Technology / Safety': { en: 'GaN + PowerIQ 3.0 + ActiveShield 2.0 + MultiProtect (Anker-listed); CairoVolt verified OCP trip only', ar: 'GaN + PowerIQ 3.0 + ActiveShield 2.0 + MultiProtect (مدرجة انكر)؛ CairoVolt تحقّقت من فصل OCP فقط' },
         'Confirmed Internal Silicon (ChargerLAB teardown)': { en: 'Southchip SC3056 primary · Infineon CYPD3174 PD · Vanguard VS3506AE GaN VBUS · Southchip SC3503 + AOS SR · ZOWIE Z4RGP30MP bridge — chargerlab.com/teardown-of-anker-30w-usb-c-gan-511-charger-nano-3 (not opened by CairoVolt)', ar: 'متحكم Southchip SC3056 · PD Infineon CYPD3174 · GaN Vanguard VS3506AE · SC3503 + AOS SR · مقوّم ZOWIE Z4RGP30MP — تفكيك ChargerLAB (لم نفتحه)' },
         'Vs A2698 Zolo (candid)': { en: 'Same 30W phone-class peak band (A2147 29.5W · A2698 29.4W). A2147 adds 20V/1.5A PDO, second PPS APDO 3.3–16V/2A, ActiveShield 2.0 named, and ChargerLAB silicon IDs. A2698 is the budget rung when 20V/silicon docs do not matter.', ar: 'نفس فئة ذروة 30 واط للهواتف (A2147 29.5 · A2698 29.4). A2147 يضيف PDO 20V/1.5A وPPS ثاني 3.3–16V/2A وActiveShield 2.0 وهويات ChargerLAB. A2698 درجة الميزانية حين لا تهم 20V/وثائق السيليكون.' },
-        'Vs JR-TCF30 (candid)': { en: 'JR-TCF30 = dual C+A shared 30W (~29.1W C-alone) at ~280 EGP — phone + earbuds job. A2147 = single-C premium Nano 3 with silicon docs — not dual-port.', ar: 'JR-TCF30 = منفذا C+A بقدرة مشتركة 30 واط (~29.1 على C وحده) عند ~280 جنيه — وظيفة هاتف + سماعة. A2147 = USB-C واحد نانو 3 مع وثائق سيليكون — ليس بمنفذين.' },
+        'Vs JR-TCF30 (candid)': { en: 'JR-TCF30 = dual C+A shared 30W (~29.1W C-alone) at ~455 EGP — phone + earbuds job. A2147 = single-C premium Nano 3 with silicon docs — not dual-port.', ar: 'JR-TCF30 = منفذا C+A بقدرة مشتركة 30 واط (~29.1 على C وحده) عند ~455 جنيه — وظيفة هاتف + سماعة. A2147 = USB-C واحد نانو 3 مع وثائق سيليكون — ليس بمنفذين.' },
         'In the Box (CairoVolt listing)': { en: 'Charger only — USB-C cable not sealed with CV-CH-A2147-001 (bring a 3A C-to-C)', ar: 'الشاحن فقط — كابل USB-C غير مُغلق مع CV-CH-A2147-001 (أحضر كابل 3A من C إلى C)' },
         'Recall Status (2026-07-24)': { en: 'NOT RECALLED — anker.com/product-recalls + anker.com/rc2506 + cpsc.gov re-checked 2026-07-24; active Anker recalls = power banks A1257/A1263/A1647/A1652/A1681/A1689 + listed cables — no A2147 wall charger', ar: 'لا يوجد استدعاء — أُعيد الفحص 2026-07-24؛ استدعاءات انكر النشطة = باوربانك + كابلات مدرجة — لا شاحن حائط A2147' },
         'Efficiency': { en: 'Not measured — no AC power analyzer (PZEM) on this pass', ar: 'غير مقيسة — بلا محلّل قدرة AC (PZEM)' },

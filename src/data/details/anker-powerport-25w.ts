@@ -8,40 +8,40 @@ export const anker_powerport_25w_detail: ProductDetail = {
     aiTldr: {
         en: [
             'Anker Charger (25W, Compact), model A2656 / A2656111, is a single-port foldable USB-C wall charger. Our FNB58 read a PPS window of 5.0–11V/2.75A (measured), and a Galaxy S24 showed Super Fast Charging at ~24.3W peak. It suits Samsung 25W phones; iPhones stay near 20W.',
-            'Identity: CairoVolt catalogue MPN A2656111 = Anker Charger (25W, Compact) / model A2656 (store SKU AC02, GTIN 0194644063566, ~550 EGP). Physical retail sample label reads A2656 / A2656111 — NOT A2322. Earlier listing titles said A2322K11; that was a naming error: A2322 is PowerPort Atom III (~60W USB-C+USB-A GaN), a different product.',
+            'Identity: CairoVolt catalogue MPN A2656111 = Anker Charger (25W, Compact) / model A2656 (store SKU AC02, GTIN 0194644063566, ~725 EGP). Physical retail sample label reads A2656 / A2656111 — NOT A2322. Earlier listing titles said A2322K11; that was a naming error: A2322 is PowerPort Atom III (~60W USB-C+USB-A GaN), a different product.',
             'FNB58 decoded fixed PDOs 5V/3A + 9V/2.77A plus PPS APDO 5.0–11V/2.75A (25W Max) — PPS present, so Samsung 25W Super Fast Charging marketing is valid on this sample. Peak fixed rail 24.5W; PPS hold 11V/2.27A ≈ 24.7W for 5 min on JUWEI.',
             'Real phones: Galaxy S24 base negotiated PPS SFC (~24.3W peak; 0→100% ≈ 66 min). iPhone 15 stayed in Apple\'s ~20W PD cap (~19.7W peak; 0→50% ≈ 28 min). Single USB-C only — no dual-port.',
-            'Vs Joyroom JR-TCF23 (~342 EGP, also 25W with PPS 3.3–11V/2.25A): same Samsung-SFC job class; Anker is ~1.6× the street price for brand, foldable compact cube (measured 49.7g / 31.1×31.0×36.2 mm), and MultiProtect packaging — not for higher measured watts.',
+            'Vs Joyroom JR-TCF23 (~517 EGP, also 25W with PPS 3.3–11V/2.25A): same Samsung-SFC job class; Anker is ~1.6× the street price for brand, foldable compact cube (measured 49.7g / 31.1×31.0×36.2 mm), and MultiProtect packaging — not for higher measured watts.',
             'Surface 54.2°C after 15 min at ~24.5W (ambient 28.0°C). No AC-input analyzer — we publish no efficiency %. Recall check 2026-07-24: A2656 wall charger not on Anker rc2506 power-bank list. Single unit; batches may vary. Verify the printed model on your unit before trusting SFC claims.',
         ],
         ar: [
             'شاحن انكر Charger (25W, Compact) بالطراز A2656 / A2656111 شاحن حائط USB-C بمنفذ واحد وقابس قابل للطي. قرأ FNB58 لدينا نافذة PPS بين 5.0 و11 فولت عند 2.75 أمبير (قياس)، وأظهر Galaxy S24 الشحن السريع الفائق بذروة ~24.3 واط. يناسب هواتف سامسونج 25 واط، ويبقى الآيفون قرب 20 واط.',
-            'الهوية: MPN كتالوج كايرو فولت A2656111 = Anker Charger (25W, Compact) / الطراز A2656 (SKU المتجر AC02، GTIN 0194644063566، ~550 جنيه). ملصق عيّنة التجزئة يقرأ A2656 / A2656111 — وليس A2322. عناوين القائمة السابقة قالت A2322K11 وكان ذلك خطأ تسمية: A2322 هو PowerPort Atom III (~60 واط USB-C+USB-A GaN)، منتج مختلف.',
+            'الهوية: MPN كتالوج كايرو فولت A2656111 = Anker Charger (25W, Compact) / الطراز A2656 (SKU المتجر AC02، GTIN 0194644063566، ~725 جنيه). ملصق عيّنة التجزئة يقرأ A2656 / A2656111 — وليس A2322. عناوين القائمة السابقة قالت A2322K11 وكان ذلك خطأ تسمية: A2322 هو PowerPort Atom III (~60 واط USB-C+USB-A GaN)، منتج مختلف.',
             'FNB58 فكّ PDO ثابتة 5V/3A + 9V/2.77A مع PPS APDO 5.0–11V/2.75A (25 واط حد أقصى) — PPS موجود، فتسويق Samsung 25W Super Fast Charging صالح على هذه العيّنة. ذروة المنفذ الثابت 24.5 واط؛ تثبيت PPS 11V/2.27A ≈ 24.7 واط لمدة 5 دقائق على JUWEI.',
             'هواتف حقيقية: Galaxy S24 القاعدي تفاوض PPS SFC (~24.3 واط ذروة؛ 0→100% ≈ 66 دقيقة). iPhone 15 بقي ضمن سقف آبل ~20 واط PD (~19.7 واط ذروة؛ 0→50% ≈ 28 دقيقة). منفذ USB-C واحد فقط — بلا منفذين.',
-            'مقابل Joyroom JR-TCF23 (~342 جنيه، أيضًا 25 واط مع PPS 3.3–11V/2.25A): نفس فئة عمل Samsung-SFC؛ أنكر أغلى ~1.6× مقابل العلامة والكيوب القابل للطي (49.7 جرام / 31.1×31.0×36.2 ملم) وتعبئة MultiProtect — لا مقابل واط أعلى مقاس.',
+            'مقابل Joyroom JR-TCF23 (~517 جنيه، أيضًا 25 واط مع PPS 3.3–11V/2.25A): نفس فئة عمل Samsung-SFC؛ أنكر أغلى ~1.6× مقابل العلامة والكيوب القابل للطي (49.7 جرام / 31.1×31.0×36.2 ملم) وتعبئة MultiProtect — لا مقابل واط أعلى مقاس.',
             'السطح 54.2°م بعد 15 دقيقة عند ~24.5 واط (محيط 28.0°م). بلا محلّل دخل AC — لا ننشر نسبة كفاءة %. فحص الاستدعاء 2026-07-24: شاحن الحائط A2656 ليس في قائمة باوربانك انكر rc2506. وحدة واحدة؛ قد تختلف الدفعات. تحقّق من الطراز المطبوع على وحدتك قبل الوثوق بادعاءات SFC.',
         ],
     },
     localContext: {
         en:
-            'For an Egyptian buyer at ~550 EGP, A2656111 (Anker A2656 Compact 25W) answers: "I want a pocket foldable brick that actually lights Samsung Super Fast Charging, and I will pay Anker money over Joyroom." ' +
+            'For an Egyptian buyer at ~725 EGP, A2656111 (Anker A2656 Compact 25W) answers: "I want a pocket foldable brick that actually lights Samsung Super Fast Charging, and I will pay Anker money over Joyroom." ' +
             'IDENTITY FIRST: CairoVolt catalogue mpn is A2656111; earlier listing copy said A2322K11 in error. Those are different Anker products — A2322 = Atom III ~60W dual-port. Match the printed model on the brick (expect A2656 / A2656111) before checkout or after COD open. ' +
             'Six realistic fits. (1) SAMSUNG-FIRST HOUSEHOLD (Galaxy A54/A55/S23/S24 base): FNB58-confirmed PPS 5.0–11V/2.75A covers the Samsung 25W SFC envelope — our S24 showed Super Fast Charging and ~24.3W peak. ' +
             '(2) MIXED iPHONE + SAMSUNG HOME: one brick covers both; iPhone still caps ~20W (MacRumors), Samsung uses the PPS rail. ' +
             '(3) TRAVEL / POCKET (foldable Type-A): measured ~50g cube beats the longer Joyroom Europlug brick for bag space; Egyptian universal sockets often take US flat blades, but recessed/euro-only fixtures may need a cheap travel adapter — check your wall. ' +
             '(4) STUDENT who already owns Anker cables / warranty habit: pay the Anker premium for ecosystem + CairoVolt store warranty path. ' +
-            '(5) BUDGET SAMSUNG SFC: buy Joyroom JR-TCF23 (~342 EGP) instead — same 25W PPS job class on our benches, ~208 EGP less. ' +
+            '(5) BUDGET SAMSUNG SFC: buy Joyroom JR-TCF23 (~517 EGP) instead — same 25W PPS job class on our benches, ~208 EGP less. ' +
             '(6) WRONG PICK — dual-device desk or Atom III shoppers: this SKU is one USB-C only; for C+A ~60W see a true A2322 Atom III (different MPN). Also wrong for Samsung Ultra 45W SFC 2.0 (needs a wider/higher PPS envelope than ~11V/2.75A). ' +
             'ELECTRICITY: 25W for one hour ≈ 0.025 kWh → a few piastres on EgyptERA residential tariffs. No vampire/efficiency % — we did not run PZEM on this sample.',
         ar:
-            'للمشتري المصري عند ~550 جنيه، A2656111 (Anker A2656 Compact 25W) يجيب: "عايز شاحن جيب قابس قابل للطي يشعل Samsung Super Fast Charging فعلًا، ومستعد أدفع سعر أنكر فوق جوي روم." ' +
+            'للمشتري المصري عند ~725 جنيه، A2656111 (Anker A2656 Compact 25W) يجيب: "عايز شاحن جيب قابس قابل للطي يشعل Samsung Super Fast Charging فعلًا، ومستعد أدفع سعر أنكر فوق جوي روم." ' +
             'الهوية أولًا: MPN كتالوج كايرو فولت هو A2656111؛ نصوص القائمة السابقة قالت A2322K11 خطأً. هذان منتجان أنكر مختلفان — A2322 = Atom III ~60 واط بمنفذين. طابق الطراز المطبوع على الشاحن (توقّع A2656 / A2656111) قبل الدفع أو بعد فتح COD. ' +
             'ستة استخدامات واقعية. (1) بيت سامسونج أولًا (Galaxy A54/A55/S23/S24 القاعدي): نافذة PPS 5.0–11V/2.75A المؤكّدة بـ FNB58 تغطي ظرف Samsung 25W SFC — S24 عندنا أظهر الشحن السريع الفائق وذروة ~24.3 واط. ' +
             '(2) بيت مختلط آيفون + سامسونج: شاحن واحد يغطي الاثنين؛ الآيفون يبقى بسقف ~20 واط (MacRumors)، والسامسونج يستخدم منفذ PPS. ' +
             '(3) سفر / جيب (Type-A قابل للطي): كيوب ~50 جرام يتفوّق على قالب Europlug المستطيل لجوي روم في الحقيبة؛ الفيش المصرية العامة غالبًا تقبل الشفرات الأمريكية المسطحة، لكن الفيش الغائرة/الأوروبية فقط قد تحتاج محوّل سفر رخيص — راجع حائطك. ' +
             '(4) طالب يملك كابلات/ضمان أنكر: ادفع علاوة أنكر مقابل المنظومة ومسار ضمان متجر كايرو فولت. ' +
-            '(5) سامسونج SFC بميزانية: اشترِ Joyroom JR-TCF23 (~342 جنيه) بدلًا — نفس فئة عمل 25 واط PPS على مقاعدنا، أرخص بنحو 208 جنيه. ' +
+            '(5) سامسونج SFC بميزانية: اشترِ Joyroom JR-TCF23 (~517 جنيه) بدلًا — نفس فئة عمل 25 واط PPS على مقاعدنا، أرخص بنحو 208 جنيه. ' +
             '(6) اختيار خاطئ — مكتب بجهازين أو باحثو Atom III: هذا الموديل USB-C واحد فقط؛ لـ C+A ~60 واط انظر A2322 Atom III الحقيقي (MPN مختلف). خاطئ أيضًا لـ Samsung Ultra 45W SFC 2.0 (يحتاج ظرف PPS أوسع/أعلى من ~11V/2.75A). ' +
             'الكهرباء: 25 واط لساعة ≈ 0.025 كيلوواط·ساعة → قروش على تعريفة EgyptERA السكنية. بلا نسب vampire/كفاءة — لم نشغّل PZEM على هذه العيّنة.',
     },
@@ -88,8 +88,8 @@ export const anker_powerport_25w_detail: ProductDetail = {
             ar: 'الشاحن فقط — كابل USB-C غير مرفق في عبوة هذا المنتج (أكّد القائمة الحية)',
         },
         'Vs Joyroom JR-TCF23 (candid)': {
-            en: 'Both are real 25W PPS Samsung-SFC bricks on our benches. JR-TCF23 ~342 EGP with native EU Europlug; A2656 ~550 EGP with foldable US Type-A cube. Pay Anker for size/brand/warranty habit — not for more watts.',
-            ar: 'كلاهما شاحن 25 واط PPS حقيقي لـ Samsung-SFC على مقاعدنا. JR-TCF23 ~342 جنيه بقابس أوروبي أصلي؛ A2656 ~550 جنيه بكيوب Type-A قابل للطي. ادفع لأنكر مقابل الحجم/العلامة/عادة الضمان — لا مقابل واط أكثر.',
+            en: 'Both are real 25W PPS Samsung-SFC bricks on our benches. JR-TCF23 ~517 EGP with native EU Europlug; A2656 ~725 EGP with foldable US Type-A cube. Pay Anker for size/brand/warranty habit — not for more watts.',
+            ar: 'كلاهما شاحن 25 واط PPS حقيقي لـ Samsung-SFC على مقاعدنا. JR-TCF23 ~517 جنيه بقابس أوروبي أصلي؛ A2656 ~725 جنيه بكيوب Type-A قابل للطي. ادفع لأنكر مقابل الحجم/العلامة/عادة الضمان — لا مقابل واط أكثر.',
         },
         'Vs A2322 (candid — NOT this SKU)': {
             en: 'A2322 PowerPort Atom III ≈ 60W shared dual-port (USB-C + USB-A). Completely different hardware. If your box says A2322, you do not have this listing\'s A2656.',
@@ -246,7 +246,7 @@ export const anker_powerport_25w_detail: ProductDetail = {
             },
             {
                 param: { en: 'Price / performance vs JR-TCF23', ar: 'السعر / الأداء مقابل JR-TCF23' },
-                rated: { en: 'A2656 ~550 EGP · JR-TCF23 ~342 EGP (CairoVolt live prices)', ar: 'A2656 ~550 جنيه · JR-TCF23 ~342 جنيه (أسعار كايرو فولت الحية)' },
+                rated: { en: 'A2656 ~725 EGP · JR-TCF23 ~517 EGP (CairoVolt live prices)', ar: 'A2656 ~725 جنيه · JR-TCF23 ~517 جنيه (أسعار كايرو فولت الحية)' },
                 measured: { en: 'Same SFC job (~24.3W vs ~24.1W on S24); Anker premium ≈ 208 EGP for foldable cube + brand — not for higher watts', ar: 'نفس مهمة SFC (~24.3 واط مقابل ~24.1 واط على S24)؛ علاوة أنكر ≈ 208 جنيه للكيوب القابل للطي + العلامة — لا لواط أعلى' },
                 note: { en: 'Honest buyer math — pick Anker for pocket form / warranty habit; pick Joyroom for EGP/watt', ar: 'حساب مشتري صادق — اختر أنكر لشكل الجيب / عادة الضمان؛ اختر جوي روم ل جنيه/واط' },
             },
@@ -280,7 +280,7 @@ export const anker_powerport_25w_detail: ProductDetail = {
             { en: 'Samsung 45W Super Fast Charging 2.0 (Ultra class) is NOT in range — PPS tops ~11V/2.75A (25W Max), not a 20V PPS envelope', ar: 'Samsung 45W Super Fast Charging 2.0 (فئة Ultra) خارج النطاق — سقف PPS ~11V/2.75A (25 واط حد أقصى)، وليس ظرف PPS 20 فولت' },
             { en: 'Surface reached 54.2°C after 15 min at ~24.5W (28.0°C ambient) — keep ventilated; do not pillow-cover or leave on a hot Cairo car dashboard', ar: 'السطح بلغ 54.2°م بعد 15 دقيقة عند ~24.5 واط (محيط 28.0°م) — اترك تهوية؛ لا تغطه بوسادة ولا تتركه على تابلوه سيارة حار في القاهرة' },
             { en: 'Foldable US Type-A plug — not native EU Europlug like JR-TCF23; some Egyptian recessed sockets need a travel adapter', ar: 'قابس أمريكي Type-A قابل للطي — ليس Europlug أوروبي أصلي مثل JR-TCF23؛ بعض الفيش المصرية الغائرة تحتاج محوّل سفر' },
-            { en: 'Price honesty: ~550 EGP vs JR-TCF23 ~342 EGP for the same Samsung 25W SFC job class — Anker premium is form-factor/brand, not measured wattage', ar: 'صدق السعر: ~550 جنيه مقابل JR-TCF23 ~342 جنيه لنفس فئة عمل Samsung 25W SFC — علاوة أنكر شكل/علامة، لا واط مقاس' },
+            { en: 'Price honesty: ~725 EGP vs JR-TCF23 ~517 EGP for the same Samsung 25W SFC job class — Anker premium is form-factor/brand, not measured wattage', ar: 'صدق السعر: ~725 جنيه مقابل JR-TCF23 ~517 جنيه لنفس فئة عمل Samsung 25W SFC — علاوة أنكر شكل/علامة، لا واط مقاس' },
             { en: 'No USB-C cable in the CairoVolt pack — budget a 3A C-to-C (or C-to-Lightning for older iPhones)', ar: 'لا كابل USB-C في عبوة كايرو فولت — احسب كابل 3A من C إلى C (أو C إلى Lightning للآيفونات الأقدم)' },
             { en: 'Wall efficiency and no-load draw NOT measured (no PZEM)', ar: 'كفاءة الحائط والاستهلاك بلا حمل غير مقيسين (بلا PZEM)' },
             { en: 'No public ChargerLAB silicon teardown cited for A2656 on this pass, so no chip IDs are listed', ar: 'لا تفكيك ChargerLAB علني للسيليكون مذكور لـ A2656 في هذه الجولة، لذا لا نذكر هويات رقائق' },

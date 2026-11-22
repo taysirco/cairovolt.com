@@ -12,7 +12,7 @@ export const joyroom_car_mount_zs290_detail: ProductDetail = {
     aiTldr: {
         en: [
             'Joyroom JR-ZS290 is a MagSafe-compatible magnetic wireless car charger holder with an air-vent clip (on our sample), 360° ball joint and LED ring; it has no battery. A bare iPhone 15 needed ~1.08 kgf to pull off axially. It suits landscape Maps on Uber/Careem shifts.',
-            'Listing identity: store SKU JR01, GTIN 6956116714024, ~934 EGP. Powered by a Type-C puck. Sibling JR-ZS295 is a mechanical clamp/grip mount — a different category, not magnetic MagSafe.',
+            'Listing identity: store SKU JR01, GTIN 6956116714024, ~1,109 EGP. Powered by a Type-C puck. Sibling JR-ZS295 is a mechanical clamp/grip mount — a different category, not magnetic MagSafe.',
             'CairoVolt pull (handheld kgf scale): bare iPhone 15 axial detach ~1.08 kgf · sideways slip ~0.96 kgf · Apple MagSafe silicone case axial ~1.01 kgf. Thick non-MagSafe rugged case: will not latch (fail mode). N52 grade is vendor-stated — no gaussmeter, so no gauss figure.',
             '30-min Cairo drive (Ring Road + side-street uneven asphalt): bare MagSafe iPhone 15 + MagSafe-case iPhone 13 stayed attached in landscape Uber/Careem Maps; ball nut needed one re-tighten after ~22 min when landscape drooped ~a few degrees. No invented G-force numbers.',
             'Charging honesty: rim/carton claim 5/7.5/10/15W(MAX). Desk 12V feed — iPhone 15 MagSafe-compatible path settled ~7.4–7.6W phone-side (iOS Battery); FNB58 USB-C input ~11.2W. REJECT continuous 15W MagSafe-for-iPhone marketing on this third-party sample. NOT Qi2-marked on our carton.',
@@ -20,7 +20,7 @@ export const joyroom_car_mount_zs290_detail: ProductDetail = {
         ],
         ar: [
             'جوي روم JR-ZS290 حامل سيارة شاحن لاسلكي مغناطيسي متوافق مع MagSafe بمشبك فتحة تكييف (على عيّنتنا) ومفصل كروي 360° وحلقة LED، وبلا بطارية. احتاج iPhone 15 بلا جراب نحو 1.08 كجم قوة للفصل المحوري. يناسب الملاحة الأفقية في ورديات أوبر/كريم.',
-            'هوية القائمة: SKU المتجر JR01، GTIN 6956116714024، ~934 جنيه. يُغذّى عبر لوحة Type-C. الشقيق JR-ZS295 حامل مشبك/قبضة ميكانيكية — فئة مختلفة، ليس MagSafe مغناطيسي.',
+            'هوية القائمة: SKU المتجر JR01، GTIN 6956116714024، ~1,109 جنيه. يُغذّى عبر لوحة Type-C. الشقيق JR-ZS295 حامل مشبك/قبضة ميكانيكية — فئة مختلفة، ليس MagSafe مغناطيسي.',
             'سحب CairoVolt (ميزان يد kgf): فصل محوري لـ iPhone 15 عاري ~1.08 كجم-قوة · انزلاق جانبي ~0.96 كجم-قوة · جراب Apple MagSafe سيليكون محوري ~1.01 كجم-قوة. جراب سميك غير MagSafe: لا يلتصق (وضع فشل). درجة N52 معلنة من البائع — بلا مقياس غاوس، فلا رقم غاوس.',
             'قيادة 30 دقيقة في القاهرة (الطريق الدائري + شارع جانبي غير مستوٍ): iPhone 15 MagSafe عاري + iPhone 13 بجراب MagSafe بقيا ملتصقين في وضع Maps العرضي لأوبر/كريم؛ احتجنا إعادة ربط صامولة المفصل مرة بعد ~22 دقيقة عندما مال العرض بضع درجات. بلا أرقام G مخترعة.',
             'صدق الشحن: الكرتون/الحافة تدّعي 5/7.5/10/15 واط (أقصى). تغذية مكتب 12V — مسار iPhone 15 المتوافق MagSafe استقر ~7.4–7.6 واط من جانب الهاتف (iOS Battery)؛ دخل FNB58 على USB-C ~11.2 واط. ارفض تسويق 15 واط MagSafe مستمر للآيفون على هذه العيّنة من طرف ثالث. بلا علامة Qi2 على كرتوننا.',

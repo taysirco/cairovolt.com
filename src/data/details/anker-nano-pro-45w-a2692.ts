@@ -1,5 +1,5 @@
 // Details for: anker-nano-pro-45w-a2692  (Anker Nano Pro 45W, model A2692)
-// Lab sheet: CV-CH-A2692-001 — Wave Adj/Mid §7.1 ELEVATED gold-depth (Anker Nano Pro A2692 · store AC08 · ~790 EGP).
+// Lab sheet: CV-CH-A2692-001 — Wave Adj/Mid §7.1 ELEVATED gold-depth (Anker Nano Pro A2692 · store AC08 · ~965 EGP).
 // CRITICAL A/B: A2692 = single PPS window 3.3–11V/4.05A · NO TFT · ~90° fold · IQ3/ActiveShield 3.0
 //   ≠ anker-nano-45w (A2664 Nano II — dual PPS to 21V, Samsung 45W SFC 2.0 YES)
 //   ≠ anker-nano-45w-smart-display-charger (A121D — TFT display + Care Mode + 180° flush hinge · 75g)
@@ -14,7 +14,7 @@ export const anker_nano_pro_45w_a2692_detail: ProductDetail = {
     aiTldr: {
         en: [
             'Anker Nano Pro A2692 is a single-port 45W USB-C GaN charger with no display. Our FNB58 read fixed PDOs up to 20V/2.25A plus one PPS window (3.3–11V/4.05A). It suits iPhone, MacBook Air and Galaxy base/A-series users who do not need Ultra 45W SFC 2.0.',
-            'Listing identity: store AC08, ~790 EGP. Not Nano II A2664 and not Smart Display A121D. FNB58 fixed PDOs: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A; the single PPS window is not dual to 21V.',
+            'Listing identity: store AC08, ~965 EGP. Not Nano II A2664 and not Smart Display A121D. FNB58 fixed PDOs: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A; the single PPS window is not dual to 21V.',
             'CairoVolt peaks: 43.8W on 20V/2.25A (19.47V/2.25A) and ~44W PPS hold at 11V/4A — ≥97% of the 45W label on sample CV-CH-A2692-001 (2026-07-24). Cross-check AVHzY CT-3 within 1.8%.',
             'Real devices: MacBook Air M2 (52.6Wh) 0→100% in 1h 52m; Galaxy S24 base Samsung 25W SFC ON via 9V PPS (~65 min full); S24 Ultra FALLS BACK to 25W SFC (needs 20V PPS — A2692 caps at 11V). Switch OLED docked runs at 15V/2.6A = 39W.',
             'SKU map: A2664 (Nano 45W / Nano II) = dual PPS to 21V → Ultra 45W SFC 2.0 YES. A121D = same 3.3–11V PPS class BUT adds TFT wattage screen + Care Mode + 180° flush hinge at 75g. A2692 = lighter 60g no-screen Pro brick.',
@@ -22,7 +22,7 @@ export const anker_nano_pro_45w_a2692_detail: ProductDetail = {
         ],
         ar: [
             'انكر نانو برو A2692 شاحن GaN بمنفذ USB-C واحد بقدرة 45 واط وبلا شاشة. قرأ FNB58 لدينا PDO ثابتة حتى 20V/2.25A مع نافذة PPS واحدة (3.3–11V/4.05A). يناسب مستخدمي الآيفون وMacBook Air وجالاكسي القاعدي/فئة A ممن لا يحتاجون Ultra 45W SFC 2.0.',
-            'هوية القائمة: المتجر AC08، ~790 جنيه. ليس Nano II A2664 وليس Smart Display A121D. PDO الثابتة على FNB58: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A؛ ونافذة PPS الواحدة ليست مزدوجة حتى 21 فولت.',
+            'هوية القائمة: المتجر AC08، ~965 جنيه. ليس Nano II A2664 وليس Smart Display A121D. PDO الثابتة على FNB58: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A؛ ونافذة PPS الواحدة ليست مزدوجة حتى 21 فولت.',
             'ذروات CairoVolt: 43.8 واط على 20V/2.25A (19.47V/2.25A) و~44 واط تثبيت PPS عند 11V/4A — ≥97% من ملصق 45 واط على العيّنة CV-CH-A2692-001 (2026-07-24). تحقق مزدوج AVHzY CT-3 بفارق أقل من 1.8%.',
             'أجهزة حقيقية: MacBook Air M2 (52.6Wh) 0→100% في ساعة و52 دقيقة؛ Galaxy S24 القاعدي Samsung 25W SFC يعمل عبر PPS 9 فولت (~65 دقيقة للامتلاء)؛ S24 Ultra يرتد إلى 25W SFC (يحتاج PPS 20 فولت — سقف A2692 11 فولت). Switch OLED الموصول يعمل عند 15V/2.6A = 39 واط.',
             'خريطة الموديلات: A2664 (Nano 45W / Nano II) = نافذتَا PPS حتى 21 فولت → Ultra 45W SFC 2.0 نعم. A121D = نفس فئة PPS 3.3–11 فولت لكن يضيف شاشة TFT + وضع Care + مفصل 180° عند 75 جرامًا. A2692 = طوبة Pro أخف 60 جرامًا بلا شاشة.',
@@ -31,19 +31,19 @@ export const anker_nano_pro_45w_a2692_detail: ProductDetail = {
     },
     localContext: {
         en:
-            'For an Egyptian buyer at ~790 EGP, A2692 answers: "I want a pocketable 45W GaN for iPhone + MacBook Air + Galaxy base/A-series, without paying for a TFT screen or needing Ultra 45W SFC 2.0." ' +
+            'For an Egyptian buyer at ~965 EGP, A2692 answers: "I want a pocketable 45W GaN for iPhone + MacBook Air + Galaxy base/A-series, without paying for a TFT screen or needing Ultra 45W SFC 2.0." ' +
             'CRITICAL SKU MAP (do not confuse the Anker Nano 45W family). (A) A2692 = this sheet — Nano Pro, single USB-C, ONE PPS window 3.3–11V/4.05A, no display, ~90° foldable US prongs, 60g, IQ3 + ActiveShield 3.0. (B) A2664 = anker-nano-45w / Nano II — dual PPS 3.3–16V/3A · 3.3–21V/2.25A — the Ultra 45W SFC 2.0 brick. (C) A121D = anker-nano-45w-smart-display-charger — same PPS class as A2692 BUT TFT live wattage + Care Mode + 180° flush hinge, 75g. ' +
             'Six realistic fits. (1) CAIRO iPHONE + MACBOOK AIR OWNER: iPhone 15/16 caps ~20W PD; Air M2 (52.6Wh) rides 20V/2.25A — one 60g brick replaces Apple\'s 145g 35W dual. (2) GALAXY A54/A55 OR S24 BASE (not Ultra): Samsung 25W SFC via 9V PPS sits inside 3.3–11V — full advertised phone speed. (3) NINTENDO SWITCH OLED HOUSEHOLD: docked 15V/2.6A = 39W; A2692\'s 15V/3A PDO runs the dock without video drops (switchchargers.com); Nintendo OEM brick in Egypt 1,800–2,400 EGP. (4) AUC / GUC / CAIRO UNIVERSITY student: 60g + foldable prongs in a pencil case; iPhone ~30% in a 20-min break; Air net-charges during a 1.5h lecture. (5) BUDGET vs A121D: same PPS honesty class, skip the display premium if you do not need Care Mode or flush 180° hinge. (6) WRONG PICK — Galaxy S23/S24/S25 Ultra wanting 45W SFC 2.0: needs 20V PPS — buy A2664, not A2692 or A121D. Also wrong for 16" MacBook Pro (96W+). ' +
             'PLUG HONESTY: physical sample = foldable US-style Type-A prongs (~90°, not A121D\'s 180° flush) — seats in Egyptian universal sockets without adapter. HEAT: Cairo July avg high ~35°C (WeatherSpark); keep ventilated, never dashboard-covered at 45W. ELECTRICITY: full Air charge ~0.081 kWh → a few piastres on EgyptERA tariffs. No vampire/efficiency % — PZEM not run.',
         ar:
-            'للمشتري المصري عند ~790 جنيه، A2692 يجيب: "عايز 45 واط GaN للجيب لايفون + ماك بوك اير + جالاكسي قاعدي/A، من غير دفع ثمن شاشة TFT ومن غير احتياج Ultra 45W SFC 2.0." ' +
+            'للمشتري المصري عند ~965 جنيه، A2692 يجيب: "عايز 45 واط GaN للجيب لايفون + ماك بوك اير + جالاكسي قاعدي/A، من غير دفع ثمن شاشة TFT ومن غير احتياج Ultra 45W SFC 2.0." ' +
             'خريطة الموديلات الحرجة (لا تخلط عائلة Anker Nano 45 واط). (أ) A2692 = هذه الورقة — Nano Pro، USB-C واحد، نافذة PPS واحدة 3.3–11V/4.05A، بلا شاشة، قابس أمريكي يُطوى ~90°، 60 جرامًا، IQ3 + ActiveShield 3.0. (ب) A2664 = anker-nano-45w / Nano II — نافذتَا PPS 3.3–16V/3A · 3.3–21V/2.25A — طوبة Ultra 45W SFC 2.0. (ج) A121D = anker-nano-45w-smart-display-charger — نفس فئة PPS كـ A2692 لكن شاشة TFT + وضع Care + مفصل 180°، 75 جرامًا. ' +
             'ستة استخدامات واقعية. (1) مالك ايفون + ماك بوك اير في القاهرة: ايفون 15/16 سقف ~20 واط PD؛ Air M2 (52.6Wh) على 20V/2.25A — طوبة 60 جرامًا بدل شاحن آبل 35 واط 145 جرامًا. (2) جالاكسي A54/A55 أو S24 القاعدي (ليس Ultra): Samsung 25W SFC عبر PPS 9 فولت داخل 3.3–11 فولت — السرعة الكاملة المعلنة. (3) بيت Nintendo Switch OLED: الدوك 15V/2.6A = 39 واط؛ PDO 15V/3A يشغّل الدوك بلا انقطاع فيديو (switchchargers.com)؛ شاحن نينتندو الأصلي في مصر 1,800–2,400 جنيه. (4) طالب AUC / GUC / جامعة القاهرة: 60 جرامًا + قابس قابل للطي في مقلمة؛ ايفون ~30% في استراحة 20 دقيقة. (5) ميزانية مقابل A121D: نفس فئة صدق PPS، تخطَّ علاوة الشاشة إن لم تحتج Care أو مفصل 180°. (6) اختيار خاطئ — Ultra يريد 45W SFC 2.0: يحتاج PPS 20 فولت — اشترِ A2664 لا A2692 ولا A121D. خاطئ أيضًا لـ MacBook Pro 16 بوصة (96 واط+). ' +
             'صدق القابس: العيّنة = قابس أمريكي Type-A قابل للطي (~90°، ليس 180° في A121D) — يدخل الفيش المصرية العامة بلا محوّل. الحرارة: متوسط عظمى القاهرة يوليو ~35°م (WeatherSpark)؛ هوّه ولا تغطه على التابلوه عند 45 واط. الكهرباء: شحن Air كامل ~0.081 كيلوواط·ساعة → قروش على EgyptERA. بلا نسب vampire/كفاءة — لم يُشغَّل PZEM.',
     },
     specifications: {
         'Model': { en: 'Anker Nano Pro (A2692) — 45W USB-C GaN (store SKU AC08)', ar: 'انكر نانو برو (A2692) — 45 واط USB-C GaN (SKU المتجر AC08)' },
-        'MPN / Street': { en: 'MPN A2692 · street ~790 EGP (was ~970)', ar: 'MPN A2692 · سعر الشارع ~790 جنيه (كان ~970)' },
+        'MPN / Street': { en: 'MPN A2692 · street ~965 EGP (was ~1,180)', ar: 'MPN A2692 · سعر الشارع ~965 جنيه (كان ~1,180)' },
         'Rated Output': { en: '45W Max (single USB-C)', ar: '45 واط كحد أقصى (USB-C واحد)' },
         'PD Fixed Profiles (vendor + FNB58)': { en: '5V/3A · 9V/3A · 15V/3A · 20V/2.25A — decoded on our sample', ar: '5V/3A · 9V/3A · 15V/3A · 20V/2.25A — فُكّت على عيّنتنا' },
         'PPS Window (vendor + FNB58)': { en: 'ONE APDO 3.3–11V/4.05A — Samsung 25W SFC YES; Samsung 45W SFC 2.0 NO (needs 20V PPS). NOT dual PPS to 21V (that is A2664)', ar: 'APDO واحدة 3.3–11V/4.05A — Samsung 25W SFC نعم؛ Samsung 45W SFC 2.0 لا (يحتاج PPS 20 فولت). ليست نافذتَي PPS حتى 21 فولت (ذلك A2664)' },

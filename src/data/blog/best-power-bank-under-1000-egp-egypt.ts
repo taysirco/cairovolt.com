@@ -31,7 +31,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
             title: 'أفضل باور بانك تحت 1000 جنيه في مصر 2026 — الخيارات الأصلية وتحذير من التقليد',
             metaTitle: 'أفضل باور بانك تحت 1000 جنيه في مصر 2026 | كايرو فولت',
             metaDescription: 'الخيارات الأصلية تحت 1000 جنيه في مصر محدودة جداً — موديلان فقط. تعرّف عليهما + لماذا أغلب ما تجده على OLX مقلّد وكيف تكشفه بعلامات بسيطة.',
-            keywords: 'باور بانك تحت 1000 جنيه, افضل باور بانك مصر, ارخص باور بانك اصلي, جوي روم magsafe egypt, جوي روم 20000mah, باور بانك رخيص اصلي ولا تقليد, باور بانك 850 جنيه, best power bank under 1000 egp',
+            keywords: 'باور بانك تحت 1000 جنيه, افضل باور بانك مصر, ارخص باور بانك اصلي, جوي روم magsafe egypt, جوي روم 20000mah, باور بانك رخيص اصلي ولا تقليد, باور بانك 1025 جنيه, best power bank under 1000 egp',
             excerpt: 'الخيارات الأصلية تحت 1000 جنيه في السوق المصري محدودة جداً — موديلان فقط يستحقا الشراء. تعرّف عليهما + لماذا أغلب ما تجده على OLX مقلّد.',
             quickAnswer: 'أفضل باور بانكات أصلية تحت 1000 جنيه في مصر فيها خياران فقط جديران بالشراء: (1) جوي روم MagSafe 10,000mAh بـ {{price:joyroom-magnetic-power-bank-10000}} جنيه — مثالي لمستخدمي iPhone مع MagSafe. (2) جوي روم 20,000mAh بـ {{price:joyroom-power-bank-20000}} جنيه — سعة مضاعفة لمن يحتاج شحن أجهزة متعددة. أي شيء أرخص من 800 جنيه في OLX = غالباً مقلّد بدون ضمان.',
             content: `<p>أرخص باور بانك تحت 1000 جنيه في مصر = أكبر منطقة خداع في سوق الملحقات. السوق المصري بيقدّم لك مئات الخيارات على فيسبوك ماركت و OLX بأسعار 300-700 جنيه، لكن أغلبها مقلّد، بدون ضمان، وممكن يحرق بطارية موبايلك خلال شهور. السؤال الحقيقي مش "إيه أرخص باور بانك؟" — السؤال الصحيح: "إيه أرخص باور بانك <strong>أصلي</strong> أقدر أعتمد عليه؟"</p>
@@ -80,7 +80,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
     <li style="margin-bottom:12px;">⛔ <strong>صفر ضمان عملي:</strong> البائع يختفي من فيسبوك ماركت بعد البيع، أو "الضمان شفهي" بدون فاتورة معتمدة. عند العطل بعد شهرين = خسارة كاملة.</li>
 </ul>
 
-<p>الفرق المالي بين الأصلي والمقلّد قد يبدو 400 جنيه، لكن الأصلي يعمل 4-5 سنوات بينما المقلّد متوسط عمره 8 شهور. الحساب الواقعي: <strong>الأصلي أوفر فعلياً على المدى الطويل.</strong></p>
+<p>الفرق المالي بين الأصلي والمقلّد قد يبدو 575 جنيه، لكن الأصلي يعمل 4-5 سنوات بينما المقلّد متوسط عمره 8 شهور. الحساب الواقعي: <strong>الأصلي أوفر فعلياً على المدى الطويل.</strong></p>
 
 
 <h2>الخيار الأول: جوي روم MagSafe 10,000mAh — لمن يناسب؟</h2>
@@ -222,7 +222,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
             title: 'Best Power Bank Under 1000 EGP in Egypt 2026 — Authentic Options vs Counterfeits',
             metaTitle: 'Best Power Bank Under 1000 EGP in Egypt 2026 | CairoVolt',
             metaDescription: 'Authentic power bank options under 1000 EGP in Egypt are very limited — only 2 models worth buying. Plus: why most OLX listings are fake and how to spot them.',
-            keywords: 'power bank under 1000 egp, cheapest authentic power bank egypt, joyroom magsafe egypt, joyroom 20000mah, fake vs original power bank, best budget power bank egypt 2026, joyroom 850 egp',
+            keywords: 'power bank under 1000 egp, cheapest authentic power bank egypt, joyroom magsafe egypt, joyroom 20000mah, fake vs original power bank, best budget power bank egypt 2026, joyroom 1025 egp',
             excerpt: 'Authentic options under 1000 EGP in the Egyptian market are very limited — only 2 models worth buying. Plus: why most OLX listings are counterfeit.',
             quickAnswer: 'The best authentic power banks under 1000 EGP in Egypt come down to two trusted options: (1) Joyroom MagSafe 10,000mAh at {{price:joyroom-magnetic-power-bank-10000}} EGP — perfect for iPhone users with MagSafe support. (2) Joyroom 20,000mAh PD at {{price:joyroom-power-bank-20000}} EGP — double the capacity for multi-device charging. Anything cheaper than 800 EGP on OLX = likely counterfeit without warranty.',
             content: `<p>The cheapest power bank under 1000 EGP in Egypt = the biggest scam zone in the accessories market. The Egyptian market offers you hundreds of options on Facebook Marketplace and OLX at 300-700 EGP prices, but most are counterfeit, without warranty, and can damage your phone battery within months. The real question isn't "what's the cheapest power bank?" — it's: "what's the cheapest <strong>authentic</strong> power bank I can rely on?"</p>
@@ -271,7 +271,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
     <li style="margin-bottom:12px;">⛔ <strong>Zero practical warranty:</strong> Seller disappears from Facebook Marketplace after sale, or "verbal warranty" without certified invoice. On failure after 2 months = total loss.</li>
 </ul>
 
-<p>The financial difference between authentic and counterfeit may seem 400 EGP, but authentic lasts 4-5 years while counterfeit averages 8 months. The real math: <strong>authentic is actually cheaper in the long run.</strong></p>
+<p>The financial difference between authentic and counterfeit may seem 575 EGP, but authentic lasts 4-5 years while counterfeit averages 8 months. The real math: <strong>authentic is actually cheaper in the long run.</strong></p>
 
 
 <h2>Option 1: Joyroom MagSafe 10,000mAh — Who Is It For?</h2>

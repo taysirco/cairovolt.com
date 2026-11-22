@@ -29,9 +29,9 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
         ar: {
             title: 'أفضل 5 شواحن GaN متعددة المنافذ للمكتب والمنزل في مصر 2026',
             metaTitle: 'أفضل 5 شواحن GaN متعددة المنافذ — مكتب ومنزل مصر 2026 | كايرو فولت',
-            metaDescription: 'دليل اختيار شاحن GaN متعدد المنافذ في مصر 2026. من 30W لـ 100W — اشحن موبايل + لابتوب + تابلت بشاحن واحد. أسعار من 490ج لـ 1,999ج مع مقارنة تفصيلية بالمواصفات.',
+            metaDescription: 'دليل اختيار شاحن GaN متعدد المنافذ في مصر 2026. من 30W لـ 100W — اشحن موبايل + لابتوب + تابلت بشاحن واحد. أسعار من 665ج لـ 2,174ج مع مقارنة تفصيلية بالمواصفات.',
             keywords: 'شاحن GaN مصر, شاحن متعدد المنافذ, شاحن GaN انكر, افضل شاحن مكتب 2026, شاحن USB-C متعدد, شاحن 65W GaN, شاحن 100W GaN مصر, شاحن واحد لكل الاجهزة, GaN charger egypt, شاحن جاليوم نيترايد, شاحن لابتوب وموبايل معا, انكر gan charger egypt',
-            excerpt: 'اشحن موبايل + لابتوب + تابلت بشاحن واحد صغير. أفضل 5 شواحن GaN متعددة المنافذ في مصر — من 490ج لـ 1,999ج مع مقارنة تفصيلية بالمواصفات.',
+            excerpt: 'اشحن موبايل + لابتوب + تابلت بشاحن واحد صغير. أفضل 5 شواحن GaN متعددة المنافذ في مصر — من 665ج لـ 2,174ج مع مقارنة تفصيلية بالمواصفات.',
             quickAnswer: 'لو محتاج شاحن GaN متعدد المنافذ للمكتب، ابدأ بـ انكر Prime A2688 بقدرة 100W ({{price:anker-prime-a2688-100w-charger}} جنيه): منفذين USB-C ومنفذ USB-A، وقسنا منه 98.4 واط من منفذ واحد. للابتوب الأخف انكر Prime A2669 بقدرة 67W وبنفس المنافذ. ولو بتشحن جهاز واحد، انكر نانو 45W بشاشة (A121D) اختيار مدمج بمنفذ USB-C واحد.',
             content: `<p>مكتبك فيه 3 شواحن: واحد للموبايل، واحد للتابلت، وواحد للابتوب. كل واحد بسلك ومحوّل. الطبلون ورا المكتب شكله كارثي — و3 بريزات مشغولة. الحل؟ شاحن GaN واحد بمنافذ متعددة بيشحن كل أجهزتك. أصغر حجماً من الشاحن العادي وبيطلع واط أكتر. بس مش كل شواحن GaN متساوية — قارنّا 5 موديلات بالمواصفات والأرقام المعلنة عشان نقولك تشتري إيه.</p>
 
@@ -213,7 +213,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
         <p style="margin:4px 0 0 20px;">❌ لا ←</p>
     </li>
     <li style="margin-bottom:16px;">
-        <p style="margin:0;"><strong>❓ ميزانيتك فوق 400ج؟</strong></p>
+        <p style="margin:0;"><strong>❓ ميزانيتك فوق 600ج؟</strong></p>
         <p style="margin:4px 0 0 20px;">✅ أيوا → <strong>انكر GaN 30W</strong> ({{price:anker-a2147-gan-charger-30w}}ج) أو <strong>انكر نانو 45W بشاشة</strong> لو موبايلك iPhone 17 Pro</p>
         <p style="margin:4px 0 0 20px;">❌ لا → <strong>جوي روم 30W</strong> ({{price:joyroom-30w-fast-charger}}ج) — سرعة قريبة على موبايل واحد بسعر أقل</p>
     </li>
@@ -263,9 +263,9 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
         en: {
             title: 'Best 5 GaN Multi-Port Chargers for Office and Home in Egypt 2026',
             metaTitle: 'Best 5 GaN Multi-Port Chargers — Office & Home Egypt 2026 | CairoVolt',
-            metaDescription: 'Guide to choosing a GaN multi-port charger in Egypt 2026. From 30W to 100W — charge phone + laptop + tablet with one charger. Prices from 490 to 1,999 EGP with a spec comparison.',
+            metaDescription: 'Guide to choosing a GaN multi-port charger in Egypt 2026. From 30W to 100W — charge phone + laptop + tablet with one charger. Prices from 665 to 2,174 EGP with a spec comparison.',
             keywords: 'GaN charger egypt, multi-port charger, anker GaN charger, best office charger 2026, USB-C multi-port charger, 65W GaN charger, 100W GaN charger egypt, one charger all devices, gallium nitride charger, laptop phone charger one, anker gan charger egypt',
-            excerpt: 'Charge phone + laptop + tablet with one tiny charger. Best 5 GaN multi-port chargers in Egypt — from 490 to 1,999 EGP with a detailed spec comparison.',
+            excerpt: 'Charge phone + laptop + tablet with one tiny charger. Best 5 GaN multi-port chargers in Egypt — from 665 to 2,174 EGP with a detailed spec comparison.',
             quickAnswer: 'For a multi-port GaN charger for the office, start with the Anker Prime A2688 100W (EGP {{price:anker-prime-a2688-100w-charger}}): two USB-C ports plus one USB-A, and we measured 98.4W from a single port. For lighter laptops, the Anker Prime A2669 67W has the same port layout. Charging one device? The Anker Nano 45W Smart Display (A121D) is a compact single USB-C option.',
             content: `<p>Your desk has 3 chargers: one for the phone, one for the tablet, and one for the laptop. Each with its own cable and adapter. The power strip behind your desk looks like a disaster — and 3 outlets are occupied. The solution? A single GaN charger with multiple ports that charges all your devices. Smaller than a regular charger and outputs more wattage. But not all GaN chargers are equal — we compared 5 models on their published specs to tell you which to buy.</p>
 
@@ -447,7 +447,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
         <p style="margin:4px 0 0 20px;">❌ No ←</p>
     </li>
     <li style="margin-bottom:16px;">
-        <p style="margin:0;"><strong>❓ Is your budget above 400 EGP?</strong></p>
+        <p style="margin:0;"><strong>❓ Is your budget above 600 EGP?</strong></p>
         <p style="margin:4px 0 0 20px;">✅ Yes → <strong>Anker GaN 30W</strong> (EGP {{price:anker-a2147-gan-charger-30w}}), or the <strong>Anker Nano 45W Smart Display</strong> if your phone is an iPhone 17 Pro</p>
         <p style="margin:4px 0 0 20px;">❌ No → <strong>Joyroom 30W</strong> (EGP {{price:joyroom-30w-fast-charger}}) — similar speed on one phone for less</p>
     </li>

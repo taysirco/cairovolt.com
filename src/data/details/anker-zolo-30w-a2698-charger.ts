@@ -1,5 +1,5 @@
 // Details for: anker-zolo-30w-a2698-charger  (Anker Zolo 30W USB-C Wall Charger, model A2698)
-// Lab sheet: CV-CH-A2698-001 — Wave Adj/Mid §7.1 ELEVATED gold-depth (Anker Zolo A2698 · ~599 EGP).
+// Lab sheet: CV-CH-A2698-001 — Wave Adj/Mid §7.1 ELEVATED gold-depth (Anker Zolo A2698 · ~774 EGP).
 // CRITICAL PDO truth: fixed rails 5V/3A · 9V/3A · 15V/2A ONLY — NO 20V PDO (unlike A2147 Nano 3 DoC 20V/1.5A).
 // Honesty gate: FNB58 confirmed three fixed PDOs + PPS 3.3–11V/3A; peak 29.4W on 15V/2A; no invented silicon IDs.
 // Elevated bar: ≥170 lines · ≥18 results · 5+5 aiTldr · shell temp · Egypt plug honesty · recall 2026-07-24 · Eng. Omar Khaled.
@@ -12,37 +12,37 @@ export const anker_zolo_30w_a2698_charger_detail: ProductDetail = {
     aiTldr: {
         en: [
             'Anker Zolo 30W (A2698) is an entry-tier single-port USB-C GaN charger. Our FNB58 read fixed PDOs 5V/3A · 9V/3A · 15V/2A only — no 20V PDO — plus PPS 3.3–11V/3A, which covers Samsung 25W Super Fast Charging on S23/S24 base and A54/A55.',
-            'Listing price ~599 EGP. For contrast, the A2147 Nano 3 DoC lists a 20V/1.5A PDO.',
+            'Listing price ~774 EGP. For contrast, the A2147 Nano 3 DoC lists a 20V/1.5A PDO.',
             'CairoVolt peaks: 29.4W on 15V/2A (JUWEI) and PPS hold 11V/2.7A ≈ 29.7W for 5 min — ~98% of the 30W label on sample CV-CH-A2698-001 (2026-07-24). Also 14.7W @5V and 26.6W @9V.',
             'Real phones: Galaxy S24 base 0→100% ≈ 65 min via 9V PPS; iPhone 15 ~26 min to 50% / ~91 min to 100% at Apple\'s ~20W wired cap — extra watts above ~20W do not unlock faster iPhone charge.',
-            'Candid vs A2147: ~98% of published phone-class PD/PPS for ~75% of street price. Measurable Zolo costs on our sample: no 20V PDO, shell 56.3°C @29W, ±0.15V stability, no public ChargerLAB teardown. A2147 load/thermal pass not yet on its page — no invented A/B delta.',
+            'Candid vs A2147: ~98% of published phone-class PD/PPS. Measurable Zolo costs on our sample: no 20V PDO, shell 56.3°C @29W, ±0.15V stability, no public ChargerLAB teardown. A2147 load/thermal pass not yet on its page — no invented A/B delta.',
             'Foldable prongs; weight 46g exact. No PZEM — we publish no wall efficiency %. Recall check 2026-07-24: A2698 not on anker.com/product-recalls or cpsc.gov. Single unit; batches may vary.',
         ],
         ar: [
             'Anker Zolo 30W (A2698) شاحن GaN اقتصادي بمنفذ USB-C واحد. فكّ FNB58 لدينا PDO ثابتة 5V/3A · 9V/3A · 15V/2A فقط — بلا PDO 20V — مع PPS 3.3–11V/3A يغطي Samsung 25W Super Fast Charging على S23/S24 القاعدي وA54/A55.',
-            'سعر القائمة ~599 جنيه. للمقارنة: شهادة A2147 Nano 3 تُدرج PDO بجهد 20V/1.5A.',
+            'سعر القائمة ~774 جنيه. للمقارنة: شهادة A2147 Nano 3 تُدرج PDO بجهد 20V/1.5A.',
             'ذروات CairoVolt: 29.4 واط على 15V/2A (JUWEI) وتثبيت PPS 11V/2.7A ≈ 29.7 واط لمدة 5 دقائق — نحو 98% من ملصق 30 واط على العيّنة CV-CH-A2698-001 (2026-07-24). كذلك 14.7 واط عند 5V و26.6 واط عند 9V.',
             'هواتف حقيقية: Galaxy S24 القاعدي 0→100% ≈ 65 دقيقة عبر PPS 9 فولت؛ iPhone 15 نحو 26 دقيقة إلى 50% / نحو 91 دقيقة للامتلاء ضمن سقف آبل ~20 واط — الواط الزائد فوق ~20 لا يسرّع شحن الآيفون السلكي.',
-            'صراحة مقابل A2147: نحو 98% من قدرة PD/PPS المنشورة لفئة الهواتف بنحو 75% من سعر الشارع. تكاليف Zolo المقاسة: بلا PDO 20V، سطح 56.3°م عند 29 واط، ثبات ±0.15V، بلا تفكيك ChargerLAB عام. مرحلة تحميل/حرارة A2147 غير منشورة بعد — لا فرق A/B مخترع.',
+            'صراحة مقابل A2147: نحو 98% من قدرة PD/PPS المنشورة لفئة الهواتف. تكاليف Zolo المقاسة: بلا PDO 20V، سطح 56.3°م عند 29 واط، ثبات ±0.15V، بلا تفكيك ChargerLAB عام. مرحلة تحميل/حرارة A2147 غير منشورة بعد — لا فرق A/B مخترع.',
             'سنون قابلة للطي؛ الوزن 46 جرامًا تطابق تام. بلا PZEM — لا ننشر كفاءة حائط %. فحص الاستدعاء 2026-07-24: A2698 غير مدرج في anker.com/product-recalls أو cpsc.gov. وحدة واحدة؛ قد تختلف الدفعات.',
         ],
     },
     localContext: {
         en:
-            'For an Egyptian buyer at ~599 EGP, A2698 Zolo answers: "I need a real 30W USB-C GaN brick without paying Nano 3 money." ' +
-            'CRITICAL SKU MAP. (A) A2698 = this sheet — single USB-C, 30W, fixed PDOs stop at 15V/2A, PPS 3.3–11V/3A, foldable prongs, ~46g. (B) A2147 Nano 3 (~790 EGP typical) = same phone-class PPS envelope PLUS published 20V/1.5A + ChargerLAB silicon — pick when 20V or chip transparency matters. (C) A2741/A2732 = car chargers, not wall. ' +
-            'Six realistic fits. (1) STUDENT (AUC/GUC/Cairo University): iPhone 15 or Galaxy A55 + maybe a tablet — 30W covers phone caps (iPhone ~20W, A55 25W, iPad Air ~20W); save ~200 EGP vs A2147 for a 100W-rated cable. ' +
+            'For an Egyptian buyer at ~774 EGP, A2698 Zolo answers: "I need a real 30W USB-C GaN brick without paying Nano 3 money." ' +
+            'CRITICAL SKU MAP. (A) A2698 = this sheet — single USB-C, 30W, fixed PDOs stop at 15V/2A, PPS 3.3–11V/3A, foldable prongs, ~46g. (B) A2147 Nano 3 (~665 EGP) = same phone-class PPS envelope PLUS published 20V/1.5A + ChargerLAB silicon — pick when 20V or chip transparency matters. (C) A2741/A2732 = car chargers, not wall. ' +
+            'Six realistic fits. (1) STUDENT (AUC/GUC/Cairo University): iPhone 15 or Galaxy A55 + maybe a tablet — 30W covers phone caps (iPhone ~20W, A55 25W, iPad Air ~20W). ' +
             '(2) UBER / CAREEM driver home top-up: wall brick only — not a 12V car socket unit; GaN heat still matters in a 45°C parked car if you ever misuse it there. ' +
-            '(3) First-job graduate leaving MicroUSB: enter PD/PPS under 600 EGP. (4) Family bulk-buy: 200 EGP/unit vs A2147 scales across 3–4 bricks. ' +
+            '(3) First-job graduate leaving MicroUSB: enter PD/PPS under 800 EGP. (4) Family bulk-buy of 3–4 identical phone bricks. ' +
             '(5) Expat visiting from Dubai/Riyadh needing a temporary Egyptian-socket charger for two weeks. (6) WRONG — silicon hobbyists (no ChargerLAB teardown) and anyone who needs a confirmed 20V PDO for occasional MacBook Air trickle (choose A2147 or A2664). ' +
             'HEAT: Cairo July–Aug avg high ~35°C (WeatherSpark). We measured 56.3°C shell after 15 min @29W in 28.4°C lab air — expect ~60–62°C in a hotter apartment; keep uncovered. ' +
             'ELECTRICITY: 30W × 1 h ≈ 0.030 kWh → a few piastres on EgyptERA tariffs. No vampire/efficiency % — PZEM not run. PLUG: sample may be UK BS 1363 or EU2 — verify the unit in hand.',
         ar:
-            'للمشتري المصري عند ~599 جنيه، A2698 Zolo يجيب: "أحتاج شاحن USB-C GaN 30 واط حقيقيًا بلا دفع سعر Nano 3." ' +
-            'خريطة الموديلات الحرجة. (أ) A2698 = هذه الورقة — USB-C واحد، 30 واط، PDO الثابتة تقف عند 15V/2A، PPS 3.3–11V/3A، سنون قابلة للطي، ~46 جرامًا. (ب) A2147 Nano 3 (~790 جنيه معتاد) = نفس ظرف PPS لفئة الهواتف مع 20V/1.5A منشور + سيليكون ChargerLAB — اختره عند الحاجة لـ 20V أو شفافية الرقائق. (ج) A2741/A2732 = شواحن سيارة لا حائط. ' +
-            'ستة استخدامات واقعية. (1) طالب (AUC/GUC/جامعة القاهرة): iPhone 15 أو Galaxy A55 وربما تابلت — 30 واط يغطي أسقف الهاتف؛ وفّر ~200 جنيه مقابل A2147 لكابل بتصنيف 100 واط. ' +
+            'للمشتري المصري عند ~774 جنيه، A2698 Zolo يجيب: "أحتاج شاحن USB-C GaN 30 واط حقيقيًا بلا دفع سعر Nano 3." ' +
+            'خريطة الموديلات الحرجة. (أ) A2698 = هذه الورقة — USB-C واحد، 30 واط، PDO الثابتة تقف عند 15V/2A، PPS 3.3–11V/3A، سنون قابلة للطي، ~46 جرامًا. (ب) A2147 Nano 3 (~665 جنيه) = نفس ظرف PPS لفئة الهواتف مع 20V/1.5A منشور + سيليكون ChargerLAB — اختره عند الحاجة لـ 20V أو شفافية الرقائق. (ج) A2741/A2732 = شواحن سيارة لا حائط. ' +
+            'ستة استخدامات واقعية. (1) طالب (AUC/GUC/جامعة القاهرة): iPhone 15 أو Galaxy A55 وربما تابلت — 30 واط يغطي أسقف الهاتف. ' +
             '(2) سائق أوبر/كريم تعبئة منزلية: شاحن حائط فقط — ليس مقبس 12V؛ حرارة GaN تهم إن أُسيء استخدامه في سيارة متوقفة. ' +
-            '(3) خريج يغادر MicroUSB: دخول PD/PPS بأقل من 600 جنيه. (4) شراء عائلي: توفير 200 جنيه/وحدة مقابل A2147 عبر 3–4 شواحن. ' +
+            '(3) خريج يغادر MicroUSB: دخول PD/PPS بأقل من 800 جنيه. (4) شراء عائلي لـ 3–4 شواحن هاتف متطابقة. ' +
             '(5) مغترب زائر يحتاج شاحنًا مؤقتًا بفيشة مصرية. (6) خاطئ — هواة السيليكون (بلا تفكيك ChargerLAB) ومن يحتاج PDO 20V مؤكّدًا لشحن MacBook Air بطيء أحيانًا (اختر A2147 أو A2664). ' +
             'الحرارة: متوسط عظمى القاهرة يوليو–أغسطس ~35°م. قِسنا 56.3°م سطح بعد 15 دقيقة عند 29 واط في هواء مختبر 28.4°م — توقّع ~60–62°م في شقة أحر؛ اتركه مكشوفًا. ' +
             'الكهرباء: 30 واط × ساعة ≈ 0.030 كيلوواط·ساعة → قروش على تعريفة EgyptERA. بلا نسب vampire/كفاءة — لم يُشغَّل PZEM. القابس: العيّنة قد تكون BS 1363 أو EU2 — تحقق من الوحدة في يدك.',
@@ -50,7 +50,7 @@ export const anker_zolo_30w_a2698_charger_detail: ProductDetail = {
     specifications: {
         'Model': { en: 'Anker Zolo 30W USB-C Wall Charger (A2698)', ar: 'Anker Zolo 30W شاحن حائط USB-C (A2698)' },
         'Positioning (candid)': { en: 'Anker BUDGET / entry-tier 30W GaN — Zolo is Anker\'s own value sub-brand (NOT a counterfeit); sits below 511 Nano 3 (A2147) in Anker\'s hierarchy', ar: 'شاحن GaN 30 واط اقتصادي / أول درجة من انكر — Zolo علامة فرعية لانكر نفسها (ليست تقليدًا)؛ تحت 511 Nano 3 (A2147) في تسلسل انكر' },
-        'Street price (Egypt)': { en: '~599 EGP typical CairoVolt retail', ar: '~599 جنيه سعر تجزئة معتاد في كايرو فولت' },
+        'Street price (Egypt)': { en: '~774 EGP typical CairoVolt retail', ar: '~774 جنيه سعر تجزئة معتاد في كايرو فولت' },
         'Rated Output': { en: '30W Max (single USB-C PD 3.0)', ar: '30 واط كحد أقصى (USB-C واحد PD 3.0)' },
         'PD Fixed Profiles (FNB58)': { en: '5V/3A · 9V/3A · 15V/2A — three fixed rails ONLY; does NOT expose 20V PDO (A2147 DoC lists 20V/1.5A)', ar: '5V/3A · 9V/3A · 15V/2A — ثلاثة بروتوكولات ثابتة فقط؛ لا يعرض PDO 20V (شهادة A2147 تُدرج 20V/1.5A)' },
         'PPS Window (FNB58)': { en: '3.3–11V/3A — covers Samsung 25W SFC; does NOT reach 20V PPS for Samsung 45W SFC 2.0 Ultra class', ar: '3.3–11V/3A — يغطي Samsung 25W SFC؛ لا يصل إلى PPS 20 فولت لفئة Samsung 45W SFC 2.0 Ultra' },
@@ -63,7 +63,7 @@ export const anker_zolo_30w_a2698_charger_detail: ProductDetail = {
         'Plug (ME sample honesty)': { en: 'UK BS 1363 OR EU2 depending on shipment — verify on the physical unit before assuming socket fit', ar: 'بريطاني BS 1363 أو EU2 حسب الشحنة — تحقق على الوحدة الفعلية قبل افتراض ملاءمة الفيشة' },
         'Safety': { en: 'Anker ActiveShield thermal monitoring + MultiProtect; OCP cut ~2s at >3.5A on 15V (CairoVolt)', ar: 'مراقبة ActiveShield + MultiProtect؛ OCP فصل ~2 ث عند >3.5A على 15V (CairoVolt)' },
         'In the Box': { en: 'Charger only — USB-C cable not included (3A cable carries full 30W)', ar: 'الشاحن فقط — كابل USB-C غير مرفق (كابل 3A يمرّر 30 واط كاملة)' },
-        'Vs A2147 (candid)': { en: 'Phone-class PD/PPS ≈ A2147 for ~75% price. Zolo costs on our sample: (a) no 20V PDO (b) 56.3°C @29W (c) ±0.15V (d) no teardown (e) unspecified ActiveShield gen. A2147 load/thermal not yet published — no invented delta.', ar: 'قدرة هاتف PD/PPS ≈ A2147 بنحو 75% من السعر. تكاليف Zolo: (أ) بلا 20V (ب) 56.3°م عند 29 واط (ج) ±0.15V (د) بلا تفكيك (هـ) جيل ActiveShield غير محدد. مرحلة A2147 غير منشورة — بلا فرق مخترع.' },
+        'Vs A2147 (candid)': { en: 'Phone-class PD/PPS ≈ A2147. Zolo costs on our sample: (a) no 20V PDO (b) 56.3°C @29W (c) ±0.15V (d) no teardown (e) unspecified ActiveShield gen. A2147 load/thermal not yet published — no invented delta.', ar: 'قدرة هاتف PD/PPS ≈ A2147. تكاليف Zolo: (أ) بلا 20V (ب) 56.3°م عند 29 واط (ج) ±0.15V (د) بلا تفكيك (هـ) جيل ActiveShield غير محدد. مرحلة A2147 غير منشورة — بلا فرق مخترع.' },
         'Efficiency': { en: 'Not measured — no PZEM AC analyzer on this pass', ar: 'غير مقيسة — بلا محلّل PZEM AC' },
         'Recall Status (2026-07-24)': { en: 'NOT RECALLED — anker.com/product-recalls + cpsc.gov; Anker 2024–2025 recalls cover cables A8482/A8483/A8465 and power banks A1263/A1257/A1647/A1652/A1681/A1689 — no Zolo wall chargers', ar: 'لا استدعاء — anker.com/product-recalls + cpsc.gov؛ استدعاءات 2024–2025 تخص كابلات وباوربانك — لا شواحن Zolo حائط' },
         'Sample / Lab ID': { en: 'CV-CH-A2698-001 · Eng. Omar Khaled · 2026-07-24', ar: 'CV-CH-A2698-001 · م. عمر خالد · 2026-07-24' },
@@ -154,7 +154,7 @@ export const anker_zolo_30w_a2698_charger_detail: ProductDetail = {
             { en: 'iPhone 15 reached 50% in ~26 min within Apple\'s ~20W wired ceiling — honest phone-cap behaviour, not charger magic', ar: 'iPhone 15 وصل 50% في نحو 26 دقيقة ضمن سقف آبل ~20 واط — سلوك سقف هاتف أمين، وليس سحر الشاحن' },
             { en: '46g exact + 34.2×33.1×30.0 mm folded — pocket GaN with foldable prongs and tight QC match to Anker spec', ar: '46 جرامًا تطابق تام + 34.2×33.1×30.0 ملم مطوي — GaN جيبي بسنون قابلة للطي ومطابقة جودة لمواصفة انكر' },
             { en: 'Anker sub-brand backing (Zolo = Anker value line, not a knock-off) + MultiProtect / ActiveShield marketing + CairoVolt warranty path', ar: 'دعم علامة انكر الفرعية (Zolo = خط انكر الاقتصادي، ليس تقليدًا) + MultiProtect / ActiveShield + مسار ضمان كايرو فولت' },
-            { en: '~200 EGP cheaper than typical A2147 street (~599 vs ~790) for essentially the same phone-class PPS job — and NOT recalled as of 2026-07-24', ar: 'أرخص بنحو 200 جنيه من سعر A2147 المعتاد (~599 مقابل ~790) لنفس وظيفة PPS لفئة الهواتف تقريبًا — وغير مستدعى حتى 2026-07-24' },
+            { en: 'Essentially the same phone-class PPS job as A2147 — and NOT recalled as of 2026-07-24', ar: 'نفس وظيفة PPS لفئة الهواتف تقريبًا مثل A2147 — وغير مستدعى حتى 2026-07-24' },
         ],
         limits: [
             { en: 'NO 20V PDO — highest fixed rail is 15V/2A; A2147 has 20V/1.5A. Occasional MacBook Air trickle → choose A2147 (or A2664 for more headroom)', ar: 'بلا PDO 20V — أعلى ثابت 15V/2A؛ A2147 يملك 20V/1.5A. شحن MacBook Air بطيء أحيانًا → اختر A2147 (أو A2664 لفارق أكبر)' },

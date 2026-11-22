@@ -30,7 +30,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
         ar: {
             title: 'أنكر ضد جوي روم في الباور بانكات — مقارنة 12 موديل بالأرقام والأسعار في مصر 2026',
             metaTitle: 'انكر ضد جوي روم باور بانك — 12 موديل بالأرقام | كايرو فولت',
-            metaDescription: 'مقارنة بالأرقام بين 7 باور بانكات أنكر و5 جوي روم: السعة الحقيقية والخرج الفعلي والحرارة والسعر — من 997ج لـ 3,950ج. التفاصيل الكاملة.',
+            metaDescription: 'مقارنة بالأرقام بين 7 باور بانكات أنكر و5 جوي روم: السعة الحقيقية والخرج الفعلي والحرارة والسعر — من 1,172ج لـ 4,125ج. التفاصيل الكاملة.',
             keywords: 'انكر ضد جوي روم باور بانك, مقارنة باور بانك انكر وجوي روم, افضل باور بانك مصر 2026, انكر زولو ضد جوي روم 20000, مقارنة مواصفات باور بانك, انكر vs جوي روم power bank egypt, سعة باور بانك, باور بانك مصر, اسعار باور بانك مصر 2026, انكر برايم ضد جوي روم',
             excerpt: 'مقارنة تفصيلية لـ 12 باور بانك من أنكر و جوي روم — السعة الحقيقية والخرج الفعلي والحرارة والسعر. النتائج المفاجئة بالأرقام.',
             quickAnswer: 'في قياسات كايرو فولت الفرق بين انكر وجوي روم في الطاقة الفعلية صغير: انكر زولو A110E أعطى 62.0 واط/ساعة مقابل 60.8 لجوي روم JR-PBF14 Pro. جوي روم 20K ({{price:joyroom-power-bank-20000}} جنيه) اختيارنا للميزانية، وانكر A110E ({{price:anker-zolo-a110e-20000}} جنيه) لو عايز كابل مدمج، وللابتوب انكر PowerCore III Elite 26K (60 واط) أو زولو A1695 (165 واط).',
@@ -238,7 +238,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
         en: {
             title: 'Anker vs Joyroom Power Banks — 12 Models Compared with Real Numbers in Egypt 2026',
             metaTitle: 'Anker vs Joyroom Power Banks — 12 Models Compared | CairoVolt',
-            metaDescription: '7 Anker vs 5 Joyroom power banks compared by the numbers. Real capacity, output stability, temperature, and price — from 997 to 3,950 EGP in Egypt.',
+            metaDescription: '7 Anker vs 5 Joyroom power banks compared by the numbers. Real capacity, output stability, temperature, and price — from 1,172 to 4,125 EGP in Egypt.',
             keywords: 'anker vs joyroom power bank, anker vs joyroom comparison egypt, best power bank egypt 2026, anker zolo vs joyroom 20000, power bank specification comparison, anker prime vs joyroom, power bank price egypt egp, anker or joyroom which better, power bank output comparison, power bank compatibility',
             excerpt: 'A detailed comparison of 12 power banks from Anker and Joyroom — real capacity, output stability, temperature, and price. The surprising results by the numbers.',
             quickAnswer: 'On the CairoVolt bench the energy gap between Anker and Joyroom is small: the Anker Zolo A110E gave 62.0Wh usable versus 60.8Wh from the Joyroom JR-PBF14 Pro. The Joyroom 20K (EGP {{price:joyroom-power-bank-20000}}) is our budget pick, the Anker A110E (EGP {{price:anker-zolo-a110e-20000}}) if you want a built-in cable, and for laptops the PowerCore III Elite 26K (60W) or Zolo A1695 (165W).',

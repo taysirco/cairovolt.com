@@ -1,5 +1,5 @@
 // Details for: joyroom-25w-fast-charger
-// Lab sheet: CV-CH-JRTCF23-001 — Wave Adj/Mid EXTRA 7/8 §7.1 elevated gold-depth (Joyroom JR-TCF23 / store JC01 · ~342 EGP).
+// Lab sheet: CV-CH-JRTCF23-001 — Wave Adj/Mid EXTRA 7/8 §7.1 elevated gold-depth (Joyroom JR-TCF23 / store JC01 · ~517 EGP).
 // CRITICAL A/B: HAS PPS (3.3–5.9V/3A · 3.3–11V/2.25A) ≠ joyroom-20w-usb-c-charger (JR-TCF20 ZERO PPS) · ≠ joyroom-30w-fast-charger (JR-TCF30 dual C+A shared 30W).
 // Honesty gate: FNB58 confirmed BOTH PPS APDOs before Samsung 25W SFC claim; full fixed PDO + APDO table; no invented PZEM %.
 // Elevated bar: ≥170 lines · ≥18 results · 5+5 aiTldr · shell temp · Egypt Europlug · recall 2026-07-24 · Eng. Omar Khaled.
@@ -11,7 +11,7 @@ export const joyroom_25w_fast_charger_detail: ProductDetail = {
     aiTldr: {
         en: [
             'Joyroom JR-TCF23 is a single-port USB-C 25W wall charger with a Europlug. Our FNB58 decoded fixed PDOs 5V/3A + 9V/2.77A plus PPS 3.3–5.9V/3A and 3.3–11V/2.25A — the Samsung 25W Super Fast Charging envelope, which a Galaxy S24 engaged at ~24.1W.',
-            'Listing identity: store SKU JC01, GTIN 6956116750046, ~342 EGP. Critical vs JR-TCF20, which is PD-only with zero PPS.',
+            'Listing identity: store SKU JC01, GTIN 6956116750046, ~517 EGP. Critical vs JR-TCF20, which is PD-only with zero PPS.',
             'CairoVolt peaks: 24.4W on 9V fixed (8.91V/2.74A) and 24.4W on PPS 11V/2.22A held 5 min on JUWEI — ≥97% of the 25W label on sample CV-CH-JRTCF23-001 (2026-07-24).',
             'Real phones: Galaxy S24 base negotiated PPS Super Fast Charging (~24.1W peak; 0→100% ≈ 67 min; indicator ON). iPhone 15 stayed in Apple\'s ~20W PD cap (~19.6W peak; 0→50% ≈ 28 min) — extra watts above 20W do not unlock faster iPhone wired charge.',
             'Not JR-TCF30: that SKU is dual-port USB-C + USB-A shared 30W WITH wider PPS (3.3–11V/3A · 3.3–16V/2A). JR-TCF23 is one USB-C only. Cable not in the CairoVolt retail pack — bring a 3A USB-C cable.',
@@ -19,7 +19,7 @@ export const joyroom_25w_fast_charger_detail: ProductDetail = {
         ],
         ar: [
             'جوي روم JR-TCF23 شاحن حائط بمنفذ USB-C واحد 25 واط وقابس Europlug. فكّ FNB58 لدينا PDO ثابتة 5V/3A + 9V/2.77A مع PPS 3.3–5.9V/3A و3.3–11V/2.25A — ظرف Samsung 25W Super Fast Charging الذي فعّله Galaxy S24 بنحو 24.1 واط.',
-            'هوية القائمة: SKU المتجر JC01، GTIN 6956116750046، ~342 جنيه. حرج مقابل JR-TCF20 الذي يقدم PD فقط بلا PPS.',
+            'هوية القائمة: SKU المتجر JC01، GTIN 6956116750046، ~517 جنيه. حرج مقابل JR-TCF20 الذي يقدم PD فقط بلا PPS.',
             'ذروات CairoVolt: 24.4 واط على 9V الثابت (8.91V/2.74A) و24.4 واط على PPS 11V/2.22A لمدة 5 دقائق على JUWEI — ≥97% من ملصق 25 واط على العيّنة CV-CH-JRTCF23-001 (2026-07-24).',
             'هواتف حقيقية: Galaxy S24 القاعدي تفاوض PPS Super Fast Charging (ذروة ~24.1 واط؛ 0→100% ≈ 67 دقيقة؛ المؤشر يعمل). iPhone 15 بقي ضمن سقف آبل ~20 واط PD (ذروة ~19.6 واط؛ 0→50% ≈ 28 دقيقة) — الواط الزائد فوق 20 لا يسرّع شحن الآيفون السلكي.',
             'ليس JR-TCF30: ذلك الموديل منفذان USB-C + USB-A بقدرة مشتركة 30 واط مع PPS أوسع (3.3–11V/3A · 3.3–16V/2A). JR-TCF23 منفذ USB-C واحد فقط. الكابل غير مرفق في عبوة كايرو فولت — أحضر كابل USB-C 3A.',
@@ -28,8 +28,8 @@ export const joyroom_25w_fast_charger_detail: ProductDetail = {
     },
     localContext: {
         en:
-            'For an Egyptian buyer at ~342 EGP, JR-TCF23 answers: "I need Samsung 25W Super Fast Charging without paying Anker/Apple money, and a Europlug that fits Cairo sockets." ' +
-            'CRITICAL SKU MAP (do not confuse the Joyroom wall family). (A) JR-TCF23 = this sheet — single USB-C, 25W WITH PPS 3.3–11V/2.25A — Samsung 25W SFC engages on our S24. (B) JR-TCF20 (JC03, ~236 EGP) = single USB-C 20W fixed PD, ZERO PPS — Super Fast stays OFF (~14.9W PD fallback on our S24). (C) JR-TCF30 (JC02, ~280 EGP) = dual USB-C + USB-A, shared 30W envelope WITH wider PPS (3.3–11V/3A · 3.3–16V/2A) — different job (phone + earbuds). ' +
+            'For an Egyptian buyer at ~517 EGP, JR-TCF23 answers: "I need Samsung 25W Super Fast Charging without paying Anker/Apple money, and a Europlug that fits Cairo sockets." ' +
+            'CRITICAL SKU MAP (do not confuse the Joyroom wall family). (A) JR-TCF23 = this sheet — single USB-C, 25W WITH PPS 3.3–11V/2.25A — Samsung 25W SFC engages on our S24. (B) JR-TCF20 (JC03, ~411 EGP) = single USB-C 20W fixed PD, ZERO PPS — Super Fast stays OFF (~14.9W PD fallback on our S24). (C) JR-TCF30 (JC02, ~455 EGP) = dual USB-C + USB-A, shared 30W envelope WITH wider PPS (3.3–11V/3A · 3.3–16V/2A) — different job (phone + earbuds). ' +
             'Six realistic fits. (1) SAMSUNG-FIRST HOUSEHOLD (Galaxy A54/A55/S23/S24 base): the FNB58-confirmed PPS 3.3–11V/2.25A window is exactly what Samsung 25W SFC needs — our S24 showed the Super Fast Charging indicator and ~24.1W peak. ' +
             '(2) MIXED iPHONE + SAMSUNG HOME: one brick covers both; iPhone still caps ~20W (MacRumors), Samsung uses the PPS rails. ' +
             '(3) STUDENT DORM (AUC/GUC/Cairo University): single-port, light (~55g EU class), EU 2-pin — no US adapter drama. ' +
@@ -38,8 +38,8 @@ export const joyroom_25w_fast_charger_detail: ProductDetail = {
             '(6) WRONG PICK — dual-device desk: buy JR-TCF30 (C+A 30W shared) or a dual-C Anker if you charge phone + earbuds together. Also wrong for Samsung Ultra 45W SFC 2.0 (needs a wider/higher PPS envelope than 3.3–11V/2.25A). ' +
             'PLUG HONESTY: physical sample = fixed EU Type-C Europlug (2 round pins), not BS 1363, not foldable US Type-A. ELECTRICITY: 25W for one hour ≈ 0.025 kWh → a few piastres on EgyptERA residential tariffs. No vampire/efficiency % — PZEM not run.',
         ar:
-            'للمشتري المصري عند ~342 جنيه، JR-TCF23 يجيب: "أحتاج Samsung 25W Super Fast Charging من غير دفع سعر أنكر/آبل، وقابس أوروبي يدخل فيش القاهرة." ' +
-            'خريطة الموديلات الحرجة (لا تخلط عائلة جوي روم الحائطية). (أ) JR-TCF23 = هذه الورقة — منفذ USB-C واحد، 25 واط مع PPS 3.3–11V/2.25A — Samsung 25W SFC يعمل على S24 لدينا. (ب) JR-TCF20 (JC03، ~236 جنيه) = USB-C واحد 20 واط PD ثابت، صفر PPS — Super Fast يبقى مطفأ (~14.9 واط رجوع PD على S24). (ج) JR-TCF30 (JC02، ~280 جنيه) = منفذا USB-C + USB-A بظرف مشترك 30 واط مع PPS أوسع (3.3–11V/3A · 3.3–16V/2A) — وظيفة مختلفة (هاتف + سماعة). ' +
+            'للمشتري المصري عند ~517 جنيه، JR-TCF23 يجيب: "أحتاج Samsung 25W Super Fast Charging من غير دفع سعر أنكر/آبل، وقابس أوروبي يدخل فيش القاهرة." ' +
+            'خريطة الموديلات الحرجة (لا تخلط عائلة جوي روم الحائطية). (أ) JR-TCF23 = هذه الورقة — منفذ USB-C واحد، 25 واط مع PPS 3.3–11V/2.25A — Samsung 25W SFC يعمل على S24 لدينا. (ب) JR-TCF20 (JC03، ~411 جنيه) = USB-C واحد 20 واط PD ثابت، صفر PPS — Super Fast يبقى مطفأ (~14.9 واط رجوع PD على S24). (ج) JR-TCF30 (JC02، ~455 جنيه) = منفذا USB-C + USB-A بظرف مشترك 30 واط مع PPS أوسع (3.3–11V/3A · 3.3–16V/2A) — وظيفة مختلفة (هاتف + سماعة). ' +
             'ستة استخدامات واقعية. (1) بيت سامسونج أولاً (Galaxy A54/A55/S23/S24 القاعدي): نافذة PPS 3.3–11V/2.25A المؤكّدة بـ FNB58 هي بالضبط ما يحتاجه Samsung 25W SFC — S24 عندنا أظهر مؤشر الشحن السريع الفائق وذروة ~24.1 واط. ' +
             '(2) بيت مختلط آيفون + سامسونج: شاحن واحد يغطي الاثنين؛ الآيفون يبقى بسقف ~20 واط (MacRumors)، والسامسونج يستخدم منافذ PPS. ' +
             '(3) سكن طلاب (AUC/GUC/جامعة القاهرة): منفذ واحد، خفيف (~55 جرام فئة EU)، قابس أوروبي بسنّين — بلا دراما محوّل أمريكي. ' +
@@ -50,7 +50,7 @@ export const joyroom_25w_fast_charger_detail: ProductDetail = {
     },
     specifications: {
         'Model': { en: 'Joyroom JR-TCF23 — 25W USB-C PD + PPS wall charger (store SKU JC01)', ar: 'Joyroom JR-TCF23 — شاحن حائط USB-C PD + PPS بقدرة 25 واط (SKU المتجر JC01)' },
-        'GTIN / MPN': { en: 'GTIN 6956116750046 · MPN JR-TCF23 · street ~342 EGP', ar: 'GTIN 6956116750046 · MPN JR-TCF23 · سعر الشارع ~342 جنيه' },
+        'GTIN / MPN': { en: 'GTIN 6956116750046 · MPN JR-TCF23 · street ~517 EGP', ar: 'GTIN 6956116750046 · MPN JR-TCF23 · سعر الشارع ~517 جنيه' },
         'Rated Output': { en: '25W Max (single USB-C)', ar: '25 واط كحد أقصى (USB-C واحد)' },
         'PD Fixed Profiles (vendor + FNB58)': { en: '5V/3A (15W) · 9V/2.77A (~24.93W) — decoded on our sample; NO phantom 12V/15V/20V fixed PDOs', ar: '5V/3A (15 واط) · 9V/2.77A (~24.93 واط) — فُكّت على عيّنتنا؛ بلا PDO ثابتة وهمية 12V/15V/20V' },
         'PPS Windows (vendor + FNB58)': { en: '3.3–5.9V/3A · 3.3–11V/2.25A — covers Samsung 25W Super Fast Charging; does NOT cover Samsung 45W SFC 2.0', ar: '3.3–5.9V/3A · 3.3–11V/2.25A — يغطي Samsung 25W Super Fast Charging؛ لا يغطي Samsung 45W SFC 2.0' },

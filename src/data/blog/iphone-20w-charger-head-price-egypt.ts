@@ -124,7 +124,7 @@ export const iphone_20w_charger_head_price_egypt: BlogArticle = {
 <li><strong>الشهادات:</strong> UL/CE/FCC — شهادات أمان عالمية</li>
 </ul>
 
-<p>كل المواصفات دي موجودة بالظبط في <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> — نفس البروتوكول، نفس القوة، نفس الشهادات. الفرق الوحيد: الحجم (Anker أصغر شوية) والسعر (Anker أرخص بـ 50%+). وده مش كلامنا — ده كلام كل المراجعات التقنية المستقلة اللي قارنت بين الاتنين.</p>
+<p>كل المواصفات دي موجودة بالظبط في <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> — نفس البروتوكول، نفس القوة، نفس الشهادات. الفرق الوحيد: الحجم (Anker أصغر شوية) والسعر (Anker أرخص بـ 20%+). وده مش كلامنا — ده كلام كل المراجعات التقنية المستقلة اللي قارنت بين الاتنين.</p>
 
 <h2>البديل الأذكى: Anker 20W مقابل Apple 20W — المقارنة الكاملة</h2>
 
@@ -330,7 +330,7 @@ export const iphone_20w_charger_head_price_egypt: BlogArticle = {
 <li><strong>Certifications:</strong> UL/CE/FCC — global safety certifications</li>
 </ul>
 
-<p>All these specifications are exactly matched by the <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> — same protocol, same power, same certifications. The only differences: size (Anker is slightly smaller) and price (Anker is 50%+ cheaper). And this isn't just our opinion — it's confirmed by every independent technical review that compared the two.</p>
+<p>All these specifications are exactly matched by the <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> — same protocol, same power, same certifications. The only differences: size (Anker is slightly smaller) and price (Anker is 20%+ cheaper). And this isn't just our opinion — it's confirmed by every independent technical review that compared the two.</p>
 
 <h2>The Smarter Alternative: Anker 20W vs Apple 20W — Full Comparison</h2>
 

@@ -29,7 +29,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
         ar: {
             title: 'باور بانك لشحن 4 أجهزة معاً — موبايل + لابتوب + سماعة + ساعة في مصر 2026',
             metaTitle: 'باور بانك يشحن 4 أجهزة في نفس الوقت — الدليل الكامل | كايرو فولت',
-            metaDescription: 'إزاي تشحن موبايل ولابتوب وسماعة وساعة ذكية من باور بانك واحد؟ فيزياء توزيع الوات + جدول التوافق + أفضل 4 موديلات من 997ج لـ 3,950ج في مصر 2026.',
+            metaDescription: 'إزاي تشحن موبايل ولابتوب وسماعة وساعة ذكية من باور بانك واحد؟ فيزياء توزيع الوات + جدول التوافق + أفضل 4 موديلات من 1,172ج لـ 4,125ج في مصر 2026.',
             keywords: 'باور بانك 4 اجهزة, باور بانك يشحن لابتوب وموبايل, شحن اجهزة متعددة باور بانك, انكر برايم 25000, انكر 737 باور بانك, باور بانك متعدد المنافذ مصر, power bank 4 devices egypt, باور بانك USB-C PD لابتوب, افضل باور بانك للسفر 2026, توزيع واط باور بانك',
             excerpt: 'دليل عملي لشحن 4 أجهزة في وقت واحد من باور بانك واحد — الشروط التقنية الحقيقية وأفضل الموديلات المتاحة في مصر بالأسعار.',
             quickAnswer: 'أيوا، تقدر تشحن موبايل + لابتوب + سماعة + ساعة من باور بانك واحد — بشرط 3 حاجات: (1) سعة 20,000mAh على الأقل (المثالي 25,000mAh)، (2) 3 منافذ خرج أو أكتر مع دعم USB-C PD بقدرة 65W+، (3) إجمالي خرج 100W+ علشان الوات يتوزع كفاية. أفضل خيار: أنكر Prime A1695 — 25,000mAh، 165W إجمالي، منفذين USB-C + USB-A، بيشحن لابتوب كامل + 3 أجهزة صغيرة معاً.',
@@ -180,7 +180,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
     <li style="margin-bottom:12px;">✅ <strong>بتشتغل عن بُعد من الكافيهات:</strong> اللابتوب + الموبايل + السماعة = حياتك كلها معلقة على شحنة واحدة. <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم</a> بيغطي يوم عمل كامل (6-8 ساعات).</li>
     <li style="margin-bottom:12px;">✅ <strong>بتسافر كتير:</strong> رحلة 5 ساعات للساحل أو الغردقة — باور بانك واحد بدل 3 شواحن و3 كابلات. خفّف شنطتك.</li>
     <li style="margin-bottom:12px;">✅ <strong>صانع محتوى:</strong> كاميرا + موبايل + لابتوب + ميكروفون لاسلكي. <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 (140W)</a> بيشحنهم كلهم من غير ما تدور على بريزة.</li>
-    <li style="margin-bottom:12px;">❌ <strong>استخدامك خفيف:</strong> لو بتشحن موبايلك بس مرة في اليوم، <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم 20,000mAh</a> بـ 997ج كفاية ومش محتاج تدفع 3,000+ جنيه.</li>
+    <li style="margin-bottom:12px;">❌ <strong>استخدامك خفيف:</strong> لو بتشحن موبايلك بس مرة في اليوم، <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم 20,000mAh</a> بـ 1,172ج كفاية ومش محتاج تدفع 3,000+ جنيه.</li>
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
@@ -211,7 +211,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
         en: {
             title: 'Power Bank for Charging 4 Devices Simultaneously — Phone + Laptop + Earbuds + Watch in Egypt 2026',
             metaTitle: 'Power Bank for 4 Devices at Once — Complete Guide | CairoVolt',
-            metaDescription: 'How to charge a phone, laptop, earbuds, and smartwatch from one power bank. Wattage distribution physics + compatibility chart + top 4 models from 997 to 3,9...',
+            metaDescription: 'How to charge a phone, laptop, earbuds, and smartwatch from one power bank. Wattage distribution physics + compatibility chart + top 4 models from 1,172 to 4,125 EGP.',
             keywords: 'power bank 4 devices simultaneously, power bank charge laptop phone, multi-port power bank egypt, anker prime 25000 egypt, anker 737 power bank, power bank usb-c pd laptop, best multi-device power bank 2026, power bank wattage distribution, charge 4 devices one power bank, power bank egypt egp price',
             excerpt: 'A practical guide to charging 4 devices at once from a single power bank — the real technical requirements and best models available in Egypt with prices.',
             quickAnswer: 'Yes, you can charge a phone + laptop + earbuds + smartwatch from a single power bank — with 3 conditions: (1) at least 20,000mAh capacity (ideally 25,000mAh), (2) 3 or more output ports with USB-C PD support at 65W+, (3) total output of 100W+ so wattage distributes adequately. Best pick: Anker Prime A1695 — 25,000mAh, 165W total, dual USB-C + USB-A, charges a full laptop + 3 smaller devices simultaneously.',
@@ -362,7 +362,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
     <li style="margin-bottom:12px;">✅ <strong>You work remotely from cafés:</strong> Laptop + phone + earbuds = your entire livelihood depends on a single charge. The <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime</a> covers a full work day (6-8 hours).</li>
     <li style="margin-bottom:12px;">✅ <strong>You travel frequently:</strong> A 5-hour trip to the North Coast or Hurghada — one power bank instead of 3 chargers and 3 cables. Lighten your bag.</li>
     <li style="margin-bottom:12px;">✅ <strong>You are a content creator:</strong> Camera + phone + laptop + wireless mic. The <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 (140W)</a> charges them all without hunting for an outlet.</li>
-    <li style="margin-bottom:12px;">❌ <strong>Your usage is light:</strong> If you only charge your phone once a day, the <a href="/en/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20,000mAh</a> at 997 EGP is more than enough — no need to spend 3,000+ EGP.</li>
+    <li style="margin-bottom:12px;">❌ <strong>Your usage is light:</strong> If you only charge your phone once a day, the <a href="/en/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20,000mAh</a> at 1,172 EGP is more than enough — no need to spend 3,000+ EGP.</li>
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">

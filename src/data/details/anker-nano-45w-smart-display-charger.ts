@@ -1,5 +1,5 @@
 // Details for: anker-nano-45w-smart-display-charger (Anker Nano 45W Smart Display, model A121D)
-// Lab sheet: CV-CH-A121D-001 — Wave Adj/Mid §7.1 elevated gold-depth (A121D · ~1,250 EGP).
+// Lab sheet: CV-CH-A121D-001 — Wave Adj/Mid §7.1 elevated gold-depth (A121D · ~1,425 EGP).
 // CRITICAL ≠ anker-nano-45w (A2664 Nano II): A2664 = dual PPS to 21V (Samsung 45W SFC 2.0 YES) · ~60g · no display.
 // A121D = single PPS 3.3–11V/4.05A (Samsung 45W SFC 2.0 NO) · TFT + Care Mode · 180° flush fold · 75g.
 // Same PPS envelope class as A2692 Nano Pro — differentiator is display + Care + 180° hinge, not Ultra 45W.
@@ -12,7 +12,7 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
     aiTldr: {
         en: [
             'Anker Nano 45W Smart Display (A121D) is a single-port USB-C GaN charger with a TFT screen showing live watts, Auto/Care modes and 180° flush-fold prongs. Our FNB58 read one PPS window (3.3–11V/4.05A), not Nano II\'s dual set to 21V. It suits bedside and desk use.',
-            'Listing price ~1,250 EGP. FNB58 fixed PDOs: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A. The dual PPS-to-21V set belongs to Nano II A2664 (slug anker-nano-45w).',
+            'Listing price ~1,425 EGP. FNB58 fixed PDOs: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A. The dual PPS-to-21V set belongs to Nano II A2664 (slug anker-nano-45w).',
             'CairoVolt peaks: 44.1W on 20V/2.25A (19.92V/2.21A) and 44.0W on PPS 11V/4.00A held on JUWEI — ~98% of the 45W label on sample CV-CH-A121D-001 (primary load 2026-07-22; refresh 2026-07-24 · Eng. Omar Khaled). TFT agreed with FNB58 within ±0.2W.',
             'Real devices: MacBook Air M2 0→100% in 1h 50m; iPhone 15 ~20W PD (~25 min to 50%); Galaxy S24 base Samsung 25W SFC ON (~65 min to full). Galaxy S24 Ultra FALLS BACK to 25W SFC — PPS caps at 11V; Ultra 45W SFC 2.0 needs 20V PPS (samsung.com). Buy A2664 for Ultra 45W.',
             'Care Mode measured: after iPhone 15 ~80%, touch selector dropped 9V/2.2A → 5V/2.0A in ~2s. 180° hinge flushes prongs (≤0.5mm protrusion) — unique vs A2664/A2692 ~90° folds. Switch OLED docked at 15V/2.6A = 39W full-speed.',
@@ -20,7 +20,7 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
         ],
         ar: [
             'انكر نانو 45W بشاشة ذكية (A121D) شاحن GaN بمنفذ USB-C واحد مع شاشة TFT تعرض الواط الحي ووضعي Auto/Care وسنون تطوى 180° ملاصقة. قرأ FNB58 لدينا نافذة PPS واحدة (3.3–11V/4.05A)، لا مجموعة Nano II المزدوجة حتى 21 فولت. يناسب جانب السرير والمكتب.',
-            'سعر القائمة ~1,250 جنيه. PDO الثابتة على FNB58: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A. مجموعة PPS المزدوجة حتى 21 فولت تخص Nano II A2664 (slug anker-nano-45w).',
+            'سعر القائمة ~1,425 جنيه. PDO الثابتة على FNB58: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A. مجموعة PPS المزدوجة حتى 21 فولت تخص Nano II A2664 (slug anker-nano-45w).',
             'ذروات CairoVolt: 44.1 واط على 20V/2.25A (19.92V/2.21A) و44.0 واط على PPS 11V/4.00A على JUWEI — نحو 98% من ملصق 45 واط على العيّنة CV-CH-A121D-001 (حمل أساسي 2026-07-22؛ تحديث 2026-07-24 · م. عمر خالد). TFT تطابقت مع FNB58 ضمن ±0.2 واط.',
             'أجهزة حقيقية: MacBook Air M2 0→100% في ساعة و50 دقيقة؛ iPhone 15 ~20 واط PD (~25 دقيقة إلى 50%)؛ Galaxy S24 القاعدي Samsung 25W SFC يعمل (~65 دقيقة للامتلاء). Galaxy S24 Ultra يرتد إلى 25W SFC — سقف PPS 11 فولت؛ Ultra 45W SFC 2.0 يحتاج PPS 20 فولت (samsung.com). اشترِ A2664 لـ Ultra 45 واط.',
             'وضع Care مقاس: بعد iPhone 15 ~80%، الزر اللمسي خفّض 9V/2.2A → 5V/2.0A خلال ~2 ث. مفصل 180° يلاصق السنون (بروز ≤0.5 ملم) — فريد مقابل طي ~90° في A2664/A2692. Switch OLED بالدوك عند 15V/2.6A = 39 واط بأقصى سرعة.',
@@ -29,9 +29,9 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
     },
     localContext: {
         en:
-            'For an Egyptian buyer at ~1,250 EGP, A121D answers: "I want a living-room / bedside 45W brick that shows live watts and can slow-charge overnight — and I am not buying Nano II A2664 by accident." ' +
+            'For an Egyptian buyer at ~1,425 EGP, A121D answers: "I want a living-room / bedside 45W brick that shows live watts and can slow-charge overnight — and I am not buying Nano II A2664 by accident." ' +
             'CRITICAL SKU MAP (do not merge the Anker Nano 45W family). (A) A121D = this sheet — TFT + Care + 180° flush fold · PPS 3.3–11V/4.05A · Samsung 25W SFC YES / Ultra 45W SFC 2.0 NO · 75g · CV-CH-A121D-001. ' +
-            '(B) A2664 Nano II (slug anker-nano-45w, ~790 EGP) = NO display · dual PPS 3.3–16V/3A · 3.3–21V/2.25A · Ultra 45W SFC 2.0 YES · ~60g · ~90° fold only. ' +
+            '(B) A2664 Nano II (slug anker-nano-45w, ~965 EGP) = NO display · dual PPS 3.3–16V/3A · 3.3–21V/2.25A · Ultra 45W SFC 2.0 YES · ~60g · ~90° fold only. ' +
             '(C) A2692 Nano Pro = same PPS-to-11V class as A121D (Ultra 45W NO) · NO display/Care/180° flush · ~60g. A121D premium is display + Care + flush hinge — not a wider PPS table. ' +
             'Six realistic fits. (1) BEDSIDE OVERNIGHT iPhone 15/16: Care Mode drops to 5V/2A after ~80% (measured ~2s); TFT shows trickle ~5–10W vs fast ~20W — no smart-plug required. ' +
             '(2) TIGHT POWER-STRIP CLEARANCE (Zamalek / Heliopolis / Nasr City shallow sockets behind Ikea tables): 180° hinge flushes prongs — we measured ≤0.5mm protrusion vs ~90° siblings. ' +
@@ -44,9 +44,9 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
             'HEAT: Cairo July avg high ~35°C (WeatherSpark); lab 53.2°C @44W / 28.2°C ambient → expect ~58–61°C in a hot apartment — leave air gap. ' +
             'ELECTRICITY: ~45W × 1h 50m ≈ 0.083 kWh → a few piastres on EgyptERA residential tariffs. No vampire/efficiency % — PZEM not run.',
         ar:
-            'للمشتري المصري عند ~1,250 جنيه، A121D يجيب: "عايز شاحن 45 واط للصالة/الكوميدينو يعرض الواط الحي ويقدر يشحن ببطء ليلاً — ومش هشتري Nano II A2664 بالغلط." ' +
+            'للمشتري المصري عند ~1,425 جنيه، A121D يجيب: "عايز شاحن 45 واط للصالة/الكوميدينو يعرض الواط الحي ويقدر يشحن ببطء ليلاً — ومش هشتري Nano II A2664 بالغلط." ' +
             'خريطة الموديلات الحرجة (لا تدمج عائلة Anker Nano 45 واط). (أ) A121D = هذه الورقة — TFT + Care + طي 180° ملاصق · PPS 3.3–11V/4.05A · Samsung 25W SFC نعم / Ultra 45W SFC 2.0 لا · 75 جرام · CV-CH-A121D-001. ' +
-            '(ب) A2664 Nano II (slug anker-nano-45w، ~790 جنيه) = بلا شاشة · PPS مزدوج 3.3–16V/3A · 3.3–21V/2.25A · Ultra 45W SFC 2.0 نعم · ~60 جرام · طي ~90° فقط. ' +
+            '(ب) A2664 Nano II (slug anker-nano-45w، ~965 جنيه) = بلا شاشة · PPS مزدوج 3.3–16V/3A · 3.3–21V/2.25A · Ultra 45W SFC 2.0 نعم · ~60 جرام · طي ~90° فقط. ' +
             '(ج) A2692 Nano Pro = نفس فئة PPS حتى 11 فولت كـ A121D (Ultra 45 واط لا) · بلا شاشة/Care/طي 180° ملاصق · ~60 جرام. علاوة A121D هي الشاشة + Care + المفصل — وليست جدول PPS أوسع. ' +
             'ستة استخدامات واقعية. (1) شحن ليلي لـ iPhone 15/16: وضع Care ينزل إلى 5V/2A بعد ~80% (مقاس ~2 ث)؛ الشاشة تُظهر تنقيط ~5–10 واط مقابل سريع ~20 واط. ' +
             '(2) ضيق الفيش (الزمالك / مصر الجديدة / مدينة نصر خلف كومودينو IKEA): مفصل 180° يلاصق السنون — قِسنا بروز ≤0.5 ملم مقابل أشقاء ~90°. ' +
@@ -376,7 +376,7 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
             { en: 'Sample refresh 2026-07-24 · Eng. Omar Khaled re-confirmed identity + single PPS APDO + NOT recalled — without inventing same-hour thermal A/B vs A2664/A2692', ar: 'تحديث عيّنة 2026-07-24 · م. عمر خالد أعاد تأكيد الهوية + APDO PPS واحد + غير مستدعى — بلا اختراع A/B حراري في نفس الساعة مقابل A2664/A2692' },
         ],
         limits: [
-            { en: 'CRITICAL SKU MIX-UP RISK: A2664 Nano II (slug anker-nano-45w, ~790 EGP) also markets as Anker Nano 45W — that unit has dual PPS to 21V and NO display. Match printed A121D before trusting this sheet.', ar: 'خطر خلط موديل حرج: A2664 Nano II (slug anker-nano-45w، ~790 جنيه) يُسوَّق أيضًا كـ Anker Nano 45 واط — تلك الوحدة بـ PPS مزدوج حتى 21 فولت وبلا شاشة. طابق المطبوع A121D قبل الوثوق بهذه الورقة.' },
+            { en: 'CRITICAL SKU MIX-UP RISK: A2664 Nano II (slug anker-nano-45w, ~965 EGP) also markets as Anker Nano 45W — that unit has dual PPS to 21V and NO display. Match printed A121D before trusting this sheet.', ar: 'خطر خلط موديل حرج: A2664 Nano II (slug anker-nano-45w، ~965 جنيه) يُسوَّق أيضًا كـ Anker Nano 45 واط — تلك الوحدة بـ PPS مزدوج حتى 21 فولت وبلا شاشة. طابق المطبوع A121D قبل الوثوق بهذه الورقة.' },
             { en: 'Does NOT deliver Samsung 45W Super Fast Charging 2.0 on Galaxy Ultra — PPS ceiling 11V; SFC 2.0 needs 20V PPS (samsung.com). Ultra falls back to 25W SFC (~28 min slower). Buy A2664 for Ultra full speed.', ar: 'لا يقدّم Samsung 45W Super Fast Charging 2.0 على Galaxy Ultra — سقف PPS 11 فولت؛ SFC 2.0 يحتاج PPS 20 فولت (samsung.com). الـUltra يرتد إلى 25W SFC (~28 دقيقة أبطأ). اشترِ A2664 لسرعة Ultra الكاملة.' },
             { en: 'Same PPS-to-11V Ultra limitation as A2692 — A121D premium buys display + Care + 180° flush, not a wider PPS table', ar: 'نفس قيد Ultra لـ PPS حتى 11 فولت كـ A2692 — علاوة A121D تشتري الشاشة + Care + طي 180° ملاصق، لا جدول PPS أوسع' },
             { en: 'Single USB-C only; no cable in the box — budget a 3A C-to-C (or C-to-Lightning for older iPhones)', ar: 'منفذ USB-C واحد فقط؛ بلا كابل في العلبة — احسب كابل 3A من C إلى C (أو C إلى Lightning للآيفونات الأقدم)' },
@@ -384,7 +384,7 @@ export const anker_nano_45w_smart_display_charger_detail: ProductDetail = {
             { en: 'Surface reached 53.2°C after 15 min at ~44W — keep ventilated; no same-hour win/loss is claimed vs A2664 54.8°C or A2692 54.2°C', ar: 'السطح بلغ 53.2°م بعد 15 دقيقة عند ~44 واط — اترك تهوية؛ لا ندّعي انتصارًا/خسارة في نفس الساعة مقابل 54.8°م لـ A2664 أو 54.2°م لـ A2692' },
             { en: 'ActiveShield 5.0 "24 samples/sec" is Anker-stated — we verified OCP (~2s cut), not the sampling rate itself', ar: 'ادعاء ActiveShield 5.0 بـ "24 عيّنة/ث" من انكر — تحققنا من OCP (فصل ~2 ث) لا من معدل العيّنة نفسه' },
             { en: 'iPhone stays at Apple\'s ~20W wired cap — TFT will show ~20W honestly; some buyers mistake that for a charger fault', ar: 'الآيفون يبقى عند سقف آبل السلكي ~20 واط — الشاشة ستُظهر ~20 واط بصدق؛ بعض المشترين يظنون ذلك عيب شاحن' },
-            { en: '~1,250 EGP vs A2664 ~790 EGP — ~460 EGP premium for display + Care + 180° hinge; identical raw 45W charging without those features costs less', ar: '~1,250 جنيه مقابل A2664 ~790 جنيه — علاوة ~1,100 جنيه للشاشة + Care + مفصل 180°؛ شحن 45 واط الخام بلا هذه الميزات أرخص' },
+            { en: '~1,425 EGP vs A2664 ~965 EGP — ~460 EGP premium for display + Care + 180° hinge; identical raw 45W charging without those features costs less', ar: '~1,425 جنيه مقابل A2664 ~965 جنيه — علاوة ~1,100 جنيه للشاشة + Care + مفصل 180°؛ شحن 45 واط الخام بلا هذه الميزات أرخص' },
             { en: 'Foldable US Type-A plug — not native Europlug; some recessed / Europlug-only Egyptian sockets need a rated travel adapter', ar: 'قابس US Type-A قابل للطي — ليس Europlug أصلي؛ بعض الفيش الغائرة / Europlug فقط تحتاج محوّل سفر مصنّف' },
             { en: 'Wall efficiency and no-load draw NOT measured (no PZEM)', ar: 'كفاءة الحائط والاستهلاك بلا حمل غير مقيسين (بلا PZEM)' },
             { en: 'iPad / Pro Max times labelled est. were not physically re-timed on this sample — only Air M2, iPhone 15, S24 base, S24 Ultra, and Switch docked are physical runs', ar: 'أزمنة الآيباد / Pro Max الموسومة تقديري لم تُوقَّت فعليًا على هذه العيّنة — فقط Air M2 وiPhone 15 وS24 القاعدي وS24 Ultra وSwitch بالدوك جولات فعلية' },

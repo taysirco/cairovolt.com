@@ -13,7 +13,7 @@ export const joyroom_power_bank_20000_detail: ProductDetail = {
             'Joyroom JR-PBF14 Pro is a 20,000mAh power bank rated 74Wh nominal (Wh label on our sample). We measured 60.8Wh usable on USB-C at 5V/2A (~82.2% of 74Wh) — inside the 80–90% band. Check the Wh printed on your delivered unit.',
             'Detail (sample CV-PB-JRPBF14-001): 20,000mAh × 3.7V ÷ 1000 = 74Wh; 5V-referred ≈ 12,160mAh (60.8 ÷ 5). Some Joyroom listings omit or round Wh, and retail blurbs sometimes say 72Wh.',
             'Peaks (this sample): USB-C 21.3W PD/QC-class (rated 22.5W); USB-A ~18W into QC-compatible Galaxy A54. NO 20V PDO — phone-class only, NOT laptop PD. LED % display is an estimate, not a lab instrument. Ports: 1× USB-C + 2× USB-A.',
-            'A/B vs Anker Zolo A110E (same lab week, disclosure only): Joyroom 60.8Wh / 21.3W / 418g / 3h22 / no built-in cable / ~997 EGP class vs A110E 62.0Wh / 21.5W / 394g / 3h06 / built-in USB-C cable / ActiveShield / ~1,730 EGP class. Joyroom wins price + dual USB-A; Anker wins cable convenience and +1.2Wh / +1.6 pp efficiency on our single units.',
+            'A/B vs Anker Zolo A110E (same lab week, disclosure only): Joyroom 60.8Wh / 21.3W / 418g / 3h22 / no built-in cable / ~1,172 EGP class vs A110E 62.0Wh / 21.5W / 394g / 3h06 / built-in USB-C cable / ActiveShield / ~1,905 EGP class. Joyroom wins price + dual USB-A; Anker wins cable convenience and +1.2Wh / +1.6 pp efficiency on our single units.',
             'Self-recharge at ~18–20W USB-C in: 3 h 22 min 0→100%. Surface 43.5°C at ~22W after 15 min (28.4°C ambient) — warmest of our A110D/A110E/JR-PBF14 trio; under the 45°C soft flag but needs airflow in Cairo summer.',
             'Red-flag / recall (2026-07-24): Wh consistency PASS (60.8 ≤ 74 × 0.90). No Joyroom JR-PBF14 hit on cpsc.gov; Anker recalls A1257/A1263/A1647/A1652/A1681/A1689 do NOT apply (different brand). Still verify CE/FCC/UN38.3 + packaging authenticity — grey-market clones exist. 74Wh < 100Wh cabin; Emirates/Flydubai no in-flight USE since 1 Oct 2025.',
         ],
@@ -21,14 +21,14 @@ export const joyroom_power_bank_20000_detail: ProductDetail = {
             'جوي روم JR-PBF14 Pro باور بانك بسعة 20,000 مللي أمبير وتصنيف 74Wh اسميًا (ملصق Wh على عيّنتنا). قِسنا 60.8Wh قابلة للاستخدام على USB-C عند 5V/2A (نحو 82.2% من 74Wh) — ضمن نطاق 80–90%. تحقق من Wh المطبوع على وحدتك المستلمة.',
             'تفصيل (العيّنة CV-PB-JRPBF14-001): 20,000 مللي أمبير × 3.7 فولت ÷ 1000 = 74Wh؛ مكافئ عند 5V ≈ 12,160 مللي أمبير (60.8 ÷ 5). بعض قوائم Joyroom تحذف أو تقرّب Wh، ونصوص التجزئة أحيانًا تقول 72Wh.',
             'الذروات (هذه العيّنة): USB-C 21.3 واط فئة PD/QC (مدرج 22.5 واط)؛ USB-A نحو 18 واط داخل Galaxy A54 متوافق QC. لا PDO 20 فولت — فئة هاتف فقط، وليس PD للابتوب. شاشة LED % تقدير وليست أداة معمل. المنافذ: 1× USB-C + 2× USB-A.',
-            'A/B مقابل Anker Zolo A110E (نفس أسبوع المختبر، إفصاح فقط): Joyroom 60.8Wh / 21.3 واط / 418 ج / 3س22 / بلا كابل مدمج / فئة ~997 جنيه مقابل A110E 62.0Wh / 21.5 واط / 394 ج / 3س06 / كابل USB-C مدمج / ActiveShield / فئة ~1,730 جنيه. Joyroom يفوز بالسعر وUSB-A المزدوج؛ Anker يفوز براحة الكابل و+1.2Wh / +1.6 نقطة كفاءة على وحداتنا المفردة.',
+            'A/B مقابل Anker Zolo A110E (نفس أسبوع المختبر، إفصاح فقط): Joyroom 60.8Wh / 21.3 واط / 418 ج / 3س22 / بلا كابل مدمج / فئة ~1,172 جنيه مقابل A110E 62.0Wh / 21.5 واط / 394 ج / 3س06 / كابل USB-C مدمج / ActiveShield / فئة ~1,905 جنيه. Joyroom يفوز بالسعر وUSB-A المزدوج؛ Anker يفوز براحة الكابل و+1.2Wh / +1.6 نقطة كفاءة على وحداتنا المفردة.',
             'إعادة شحن ذاتي بدخل USB-C ~18–20 واط: 3 س 22 د 0→100%. السطح 43.5°م عند ~22 واط بعد 15 د (محيط 28.4°م) — الأكثر دفئًا بين ثلاثي A110D/A110E/JR-PBF14؛ تحت العلامة الناعمة عند 45°م لكنه يحتاج تهوية في صيف القاهرة.',
             'علم أحمر / استدعاء (2026-07-24): اتساق Wh ناجح (60.8 ≤ 74 × 0.90). لا إصابة Joyroom JR-PBF14 على cpsc.gov؛ استدعاءات Anker A1257/A1263/A1647/A1652/A1681/A1689 لا تنطبق (علامة مختلفة). ما زال تحقق CE/FCC/UN38.3 وأصالة العبوة — التقليد موجود. 74Wh < حد المقصورة 100Wh؛ الإمارات/فلاي دبي ممنوع الاستخدام أثناء الرحلة منذ 1 أكتوبر 2025.',
         ],
     },
     localContext: {
         en:
-            'JR-PBF14 Pro answers the Egyptian buyer question: "I need A110E-class phone energy at ~997 EGP, and I already carry my own cable." ' +
+            'JR-PBF14 Pro answers the Egyptian buyer question: "I need A110E-class phone energy at ~1,172 EGP, and I already carry my own cable." ' +
             'Eight scenarios from measured 60.8Wh / 21.3W peaks. RIGHT FOR: ' +
             '(1) BUDGET-CONSCIOUS STUDENT (Ain Shams / Helwan / Zagazig): est. ~4.2 iPhone 15 full charges (60.8 ÷ (12.99 × 1.10)) — similar phone-day count to A110E at roughly 40% lower street price; trade-off is no built-in cable and −1.2Wh vs A110E on our samples. ' +
             '(2) UBER / inDrive DRIVER on a tight equipment budget: 21.3W USB-C + ~18W USB-A QC handles your phone and a passenger\'s Android simultaneously; LED % ends the "how much left?" guess during a 6th-October ↔ Maadi shift. ' +
@@ -44,7 +44,7 @@ export const joyroom_power_bank_20000_detail: ProductDetail = {
             'AUTHENTICITY: Joyroom ≠ Anker recall list, but grey-market clones exist — check hologram / Golden Code if supplied, MPN JR-PBF14 Pro, CE/FCC/UN38.3, and the printed Wh (expect ~74Wh class; reject unlabeled). ' +
             'ELECTRICITY: recharging 74Wh at ~18W ≈ 0.086 kWh ≈ 6–16 piastres on EgyptERA Sept-2024 tiers — NOT an AC system-efficiency % (no PZEM).',
         ar:
-            'JR-PBF14 Pro يجيب على سؤال المشتري المصري: "أحتاج طاقة هاتف فئة A110E بـ ~997 جنيه، ولدي كابلي أصلًا." ' +
+            'JR-PBF14 Pro يجيب على سؤال المشتري المصري: "أحتاج طاقة هاتف فئة A110E بـ ~1,172 جنيه، ولدي كابلي أصلًا." ' +
             'ثمانية سيناريوهات من 60.8Wh المقاسة / ذروات 21.3 واط. مناسب لـ: ' +
             '(1) طالب حساس للميزانية (عين شمس / حلوان / الزقازيق): تقديري ~4.2 شحنة iPhone 15 كاملة (60.8 ÷ (12.99 × 1.10)) — عدد أيام هاتف مشابه لـ A110E بنحو 40% سعر أقل؛ التنازل: لا كابل مدمج و−1.2Wh مقابل A110E على عيّناتنا. ' +
             '(2) سائق Uber / inDrive بميزانية معدات ضيقة: 21.3 واط USB-C + ~18 واط USB-A QC يخدم هاتفك وهاتف راكب أندرويد معًا؛ شاشة LED % تنهي تخمين "فاضي قد إيه؟" خلال وردية 6 أكتوبر ↔ المعادي. ' +
@@ -69,8 +69,8 @@ export const joyroom_power_bank_20000_detail: ProductDetail = {
         'USB-A Ports (×2, peak)': { en: 'QC-class shared output — CairoVolt measured ~18W peak into compatible Android (Galaxy A54)', ar: 'خرج QC-class مشترك — قِسنا نحو 18 واط ذروة على أندرويد متوافق (Galaxy A54)' },
         'Display': { en: 'LED digital percentage — estimated battery level (estimates, not a lab instrument)', ar: 'LED رقمية للنسبة — مستوى بطارية تقديري (تقديرات، وليست أداة معمل)' },
         'How JR-PBF14 Pro differs from Anker Zolo A110E': {
-            en: 'Joyroom = ~997 EGP class, no built-in cable, 60.8Wh / 21.3W measured, 418g, 2× USB-A. A110E = ~1,730 EGP class, built-in USB-C cable, 62.0Wh / 21.5W measured, 394g, ActiveShield 3.0. Same ~22.5W phone-class ceiling; Joyroom wins price + dual-A; Anker wins cable + slight Wh/efficiency edge on our samples.',
-            ar: 'Joyroom = فئة ~997 جنيه، لا كابل مدمج، 60.8Wh / 21.3 واط مقاسة، 418 ج، 2× USB-A. A110E = فئة ~1,730 جنيه، كابل USB-C مدمج، 62.0Wh / 21.5 واط مقاسة، 394 ج، ActiveShield 3.0. نفس سقف ~22.5 واط فئة هاتف؛ Joyroom يفوز بالسعر وUSB-A المزدوج؛ Anker يفوز بالكابل وحافة Wh/كفاءة طفيفة على عيّناتنا.',
+            en: 'Joyroom = ~1,172 EGP class, no built-in cable, 60.8Wh / 21.3W measured, 418g, 2× USB-A. A110E = ~1,905 EGP class, built-in USB-C cable, 62.0Wh / 21.5W measured, 394g, ActiveShield 3.0. Same ~22.5W phone-class ceiling; Joyroom wins price + dual-A; Anker wins cable + slight Wh/efficiency edge on our samples.',
+            ar: 'Joyroom = فئة ~1,172 جنيه، لا كابل مدمج، 60.8Wh / 21.3 واط مقاسة، 418 ج، 2× USB-A. A110E = فئة ~1,905 جنيه، كابل USB-C مدمج، 62.0Wh / 21.5 واط مقاسة، 394 ج، ActiveShield 3.0. نفس سقف ~22.5 واط فئة هاتف؛ Joyroom يفوز بالسعر وUSB-A المزدوج؛ Anker يفوز بالكابل وحافة Wh/كفاءة طفيفة على عيّناتنا.',
         },
         'Input / Self-recharge': { en: 'USB-C ~18–20W class; CairoVolt measured 3 h 22 min 0→100%', ar: 'USB-C فئة ~18–20 واط؛ قِسنا 3 س 22 د 0→100%' },
         'Weight': { en: 'Listing 420g; CairoVolt measured 418g on a 0.01g scale', ar: 'القائمة 420 جرام؛ قِست CairoVolt 418 جرامًا على ميزان 0.01 جرام' },
@@ -151,12 +151,12 @@ export const joyroom_power_bank_20000_detail: ProductDetail = {
             { param: { en: 'Teardown / silicon IDs (red-flag)', ar: 'Teardown / معرفات الرقائق (علم أحمر)' }, measured: { en: 'NOT performed — no ChargerLAB report to cite', ar: 'لم يُجرَ — لا تقرير ChargerLAB للاستشهاد' }, note: { en: 'CairoVolt did not open the sample, so no controller names are listed', ar: 'CairoVolt لم تفتح العيّنة، لذا لا نذكر أسماء متحكمات' } },
         ],
         verdict: {
-            en: 'JR-PBF14 Pro delivered 60.8Wh usable (82.2% of 74Wh) at 21.3W USB-C peak — honest phone-class output at ~997 EGP. Slightly below A110E on Wh/efficiency/heat/recharge; wins on price and dual USB-A. No built-in cable. No 20V PDO. Wh consistency PASS. Verify Wh label + authenticity.',
-            ar: 'JR-PBF14 Pro أخرج 60.8Wh قابلة للاستخدام (82.2% من 74Wh) بذروة 21.3 واط USB-C — خرج صادق لفئة الهاتف بسعر فئة ~997 جنيه. أقل قليلًا من A110E في Wh/الكفاءة/الحرارة/إعادة الشحن؛ يفوز بالسعر وUSB-A المزدوج. لا كابل مدمج. لا PDO 20 فولت. اتساق Wh ناجح. تحقق من ملصق Wh والأصالة.',
+            en: 'JR-PBF14 Pro delivered 60.8Wh usable (82.2% of 74Wh) at 21.3W USB-C peak — honest phone-class output at ~1,172 EGP. Slightly below A110E on Wh/efficiency/heat/recharge; wins on price and dual USB-A. No built-in cable. No 20V PDO. Wh consistency PASS. Verify Wh label + authenticity.',
+            ar: 'JR-PBF14 Pro أخرج 60.8Wh قابلة للاستخدام (82.2% من 74Wh) بذروة 21.3 واط USB-C — خرج صادق لفئة الهاتف بسعر فئة ~1,172 جنيه. أقل قليلًا من A110E في Wh/الكفاءة/الحرارة/إعادة الشحن؛ يفوز بالسعر وUSB-A المزدوج. لا كابل مدمج. لا PDO 20 فولت. اتساق Wh ناجح. تحقق من ملصق Wh والأصالة.',
         },
         pros: [
             { en: '60.8Wh measured usable at 82.2% cell→USB (60.8 ÷ 74) — inside 80–90% band; est. ~4.2 iPhone 15 charges from measured Wh', ar: '60.8Wh قابلة للاستخدام بنسبة خلية→USB 82.2% (60.8 ÷ 74) — ضمن نطاق 80–90%؛ تقديري ~4.2 شحنة iPhone 15 من الـWh المقاسة' },
-            { en: '~997 EGP street class vs ~1,730 EGP Anker A110E — meaningful savings if you already own a good USB-C cable', ar: 'فئة ~997 جنيه في السوق مقابل ~1,730 جنيه Anker A110E — توفير ملموس إن كنت تملك كابل USB-C جيدًا' },
+            { en: '~1,172 EGP street class vs ~1,905 EGP Anker A110E — meaningful savings if you already own a good USB-C cable', ar: 'فئة ~1,172 جنيه في السوق مقابل ~1,905 جنيه Anker A110E — توفير ملموس إن كنت تملك كابل USB-C جيدًا' },
             { en: 'Peaks match phone-class job: 21.3W USB-C + ~18W USB-A QC — handy for Uber driver serving Android passengers while your phone takes USB-C', ar: 'الذروات تطابق مهمة الهاتف: 21.3 واط USB-C + ~18 واط USB-A QC — مفيد لسائق Uber يخدم ركاب أندرويد بينما هاتفك يأخذ USB-C' },
             { en: 'LED percentage display + dual USB-A — clearer remaining-energy cue than basic LED-dot packs; three-device topology without Anker cable premium', ar: 'شاشة LED للنسبة + USB-A مزدوج — إشارة أوضح للطاقة المتبقية من حزم LED-dot؛ طوبولوجيا ثلاثة أجهزة بلا علاوة كابل Anker' },
             { en: '74Wh label on our sample — below 100Wh airline cabin limit; Wh consistency red-flag PASS (60.8 ≤ 66.6Wh ceiling)', ar: 'ملصق 74Wh على عيّنتنا — تحت حد المقصورة 100Wh؛ علم أحمر اتساق Wh ناجح (60.8 ≤ سقف 66.6Wh)' },

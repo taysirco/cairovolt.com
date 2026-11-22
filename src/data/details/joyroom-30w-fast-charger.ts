@@ -5,29 +5,29 @@ export const joyroom_30w_fast_charger_detail: ProductDetail = {
     aiTldr: {
         en: [
             'Joyroom JR-TCF30 is a dual-port wall charger: USB-C PD 3.0 (measured 29.1W peak) plus USB-A QC 3.0 (measured 21.8W peak). The 30W figure is a shared envelope, not 30W per port — both ports together fell to 14.7W. It suits a phone plus earbuds.',
-            'Listing identity: store SKU JC02, GTIN 6956116750053, ~280 EGP.',
+            'Listing identity: store SKU JC02, GTIN 6956116750053, ~455 EGP.',
             'FNB58 advertised fixed PDOs on USB-C: 5V/3A · 9V/3A · 12V/2.5A · 15V/2A · 20V/1.5A, plus PPS 3.3–11V/3A and 3.3–16V/2A. Dual-port load collapses to ~15W total (5V/3A shared) — measured 14.7W combined.',
             'Real phones: iPhone 13 peaked at 19.4W PD (Apple ~20W cap). Samsung Galaxy S24 engaged PPS Super Fast Charging (~24.2W peak). Egypt retail sample ships with EU Type-C Europlug (2-pin) — fits Egyptian sockets directly; not BS 1363 on this unit.',
-            'Honest vs Anker A2147 / Zolo A2698: JR-TCF30 adds a USB-A QC port the single-C Ankers lack, at roughly half the typical Anker 30W street price — but dual-port use drops hard to ~15W, and there is no public ChargerLAB silicon teardown. No A/B shell-temperature deltas are claimed against Anker units not re-tested on the same day.',
+            'Honest vs Anker A2147 / Zolo A2698: JR-TCF30 adds a USB-A QC port the single-C Ankers lack, at roughly 60–70% of the typical Anker 30W street price — but dual-port use drops hard to ~15W, and there is no public ChargerLAB silicon teardown. No A/B shell-temperature deltas are claimed against Anker units not re-tested on the same day.',
             'AC-input efficiency and no-load (vampire) draw were NOT measured — no PZEM-004T pass on this sample. Recall check 2026-07-24: no Joyroom / CPSC recall for JR-TCF30; Anker power-bank recalls (A1257/A1263/A1647/A1652/A1681/A1689) do not apply to Joyroom wall chargers.',
         ],
         ar: [
             'جوي روم JR-TCF30 شاحن حائط بمنفذين: USB-C PD 3.0 (ذروة مقاسة 29.1 واط) وUSB-A QC 3.0 (ذروة مقاسة 21.8 واط). رقم 30 واط ظرف مشترك وليس 30 واط لكل منفذ — المنفذان معًا هبطا إلى 14.7 واط. يناسب هاتفًا مع سماعات.',
-            'هوية القائمة: SKU المتجر JC02، GTIN 6956116750053، ~280 جنيه.',
+            'هوية القائمة: SKU المتجر JC02، GTIN 6956116750053، ~455 جنيه.',
             'أعلن FNB58 PDOs ثابتة على USB-C: 5V/3A · 9V/3A · 12V/2.5A · 15V/2A · 20V/1.5A، مع PPS 3.3–11V/3A و3.3–16V/2A. الحمل المزدوج ينهار إلى ~15 واط إجمالي (5V/3A مشترك) — قِسنا 14.7 واط مجتمعين.',
             'هواتف حقيقية: iPhone 13 بلغ ذروة 19.4 واط PD (سقف آبل ~20 واط). Samsung Galaxy S24 فعّل PPS Super Fast Charging (~24.2 واط ذروة). عيّنة التجزئة المصرية تأتي بقابس أوروبي Type-C Europlug بسنَّين — يدخل الفيش المصرية مباشرة؛ ليست BS 1363 على هذه الوحدة.',
-            'مقارنة صادقة مع انكر A2147 / Zolo A2698: JR-TCF30 يضيف منفذ USB-A QC تفتقده شواحن انكر أحادية USB-C، بنحو نصف سعر تجزئة انكر 30 واط المعتاد — لكن الاستخدام المزدوج يهبط بقوة إلى ~15 واط، ولا يوجد تفكيك ChargerLAB علني للسيليكون. لا ندّعي فروق حرارة سطح A/B مقابل وحدات انكر لم تُعاد اختبارها في نفس اليوم.',
+            'مقارنة صادقة مع انكر A2147 / Zolo A2698: JR-TCF30 يضيف منفذ USB-A QC تفتقده شواحن انكر أحادية USB-C، بنحو 60–70% من سعر تجزئة انكر 30 واط المعتاد — لكن الاستخدام المزدوج يهبط بقوة إلى ~15 واط، ولا يوجد تفكيك ChargerLAB علني للسيليكون. لا ندّعي فروق حرارة سطح A/B مقابل وحدات انكر لم تُعاد اختبارها في نفس اليوم.',
             'كفاءة دخل التيار المتردد واستهلاك بلا حمل لم تُقَسا — لا مرحلة PZEM-004T لهذه العيّنة. فحص الاستدعاء 2026-07-24: لا استدعاء Joyroom / CPSC لـ JR-TCF30؛ استدعاءات باوربانك انكر (A1257/A1263/A1647/A1652/A1681/A1689) لا تنطبق على شواحن جوي روم الحائطية.',
         ],
     },
     localContext: {
         en:
-            'For the Egyptian buyer at ~280 EGP, JR-TCF30 is the dual-port "phone + earbuds / phone + older Lightning-A cable" brick — not a laptop brick, and not a dual-30W miracle. ' +
+            'For the Egyptian buyer at ~455 EGP, JR-TCF30 is the dual-port "phone + earbuds / phone + older Lightning-A cable" brick — not a laptop brick, and not a dual-30W miracle. ' +
             'Six realistic Cairo scenarios. (1) MIXED HOUSEHOLD (iPhone + Galaxy + one USB-A earbud stick): overnight, plug the phone on USB-C (full 30W-class PD/PPS when alone) and the earbuds on USB-A. ' +
             'When BOTH need a morning top-up at once, expect ~15W shared — fine for earbuds + slow phone trickle, wrong if both phones need fast charge before leaving. ' +
             '(2) AUC / GUC / CAIRO UNIVERSITY DORM: one wall socket, roommate with an older USB-A cable. USB-C takes your iPhone 13/15; USB-A takes theirs. Budget win vs buying two Anker bricks — just know simultaneous use is the slow 15W mode. ' +
             '(3) TALABAT / UBER / CAREEM DRIVER AT HOME BETWEEN SHIFTS: use USB-C alone for a real ~19–24W phone top-up; leave USB-A for a power bank or dashboard camera that only has USB-A. This is a WALL charger — for in-car 12V see Joyroom/Anker car SKUs. ' +
-            '(4) FAMILY BULK BUY: four units at ~280 EGP each undercuts four Anker Zolo A2698 (~599 EGP) or A2147 (~790 EGP) units meaningfully. Trade-off is brand ecosystem + silicon documentation, not raw single-port 30W delivery (we measured 29.1W on C alone — same class as Zolo\'s 29.4W). ' +
+            '(4) FAMILY BULK BUY: four units at ~455 EGP each undercuts four Anker Zolo A2698 (~774 EGP) or A2147 (~665 EGP) units meaningfully. Trade-off is brand ecosystem + silicon documentation, not raw single-port 30W delivery (we measured 29.1W on C alone — same class as Zolo\'s 29.4W). ' +
             '(5) SAMSUNG-FIRST HOUSEHOLD (S24 / A55 25W SFC): PPS 3.3–11V/3A is present on this sample — Super Fast Charging engages on USB-C alone. Do NOT expect that speed with a second device sharing the brick. ' +
             '(6) TRAVEL WITHIN EGYPT (Alex / Sahel / Luxor hotels): EU Europlug on our JC02 sample slots into Egyptian universal sockets with no adapter — same practical fit as Joyroom JR-TCF20. ' +
             'WRONG FOR: (7) two phones that both need full-speed charge at 7am — buy a second brick or a higher dual-port wattage unit; ' +
@@ -38,12 +38,12 @@ export const joyroom_30w_fast_charger_detail: ProductDetail = {
             'ELECTRICITY: 30W for one hour = 0.030 kWh ≈ 2–8 piastres on EgyptERA Sept-2024 residential tiers (0.68–2.58 EGP/kWh). ' +
             'PLUG VERIFICATION: ME market Joyroom 30W siblings sometimes ship UK BS 1363; our CairoVolt JC02 retail sample is EU Type-C Europlug (2 round pins) — confirmed on the physical unit, fits Egyptian sockets directly.',
         ar:
-            'للمشتري المصري عند ~280 جنيه، JR-TCF30 هو شاحن "هاتف + سماعة / هاتف + كابل Lightning-A قديم" بمنفذين — ليس شاحن لابتوب، وليس معجزة 30 واط×2. ' +
+            'للمشتري المصري عند ~455 جنيه، JR-TCF30 هو شاحن "هاتف + سماعة / هاتف + كابل Lightning-A قديم" بمنفذين — ليس شاحن لابتوب، وليس معجزة 30 واط×2. ' +
             'ستة سيناريوهات قاهرية واقعية. (1) بيت مختلط (iPhone + Galaxy + عصا سماعة USB-A): ليلًا، وصّل الهاتف على USB-C (PD/PPS فئة 30 واط كاملًا عند الانفراد) والسماعة على USB-A. ' +
             'عندما يحتاج الاثنان تعبئة صباحية معًا، توقّع ~15 واط مشترك — مناسب لسماعة + شحن هاتف بطيء، خطأ إن احتاج هاتفان شحنًا سريعًا قبل الخروج. ' +
             '(2) سكن AUC / GUC / جامعة القاهرة: فيشة واحدة، زميل بكابل USB-A قديم. USB-C لهاتفك iPhone 13/15؛ USB-A لهاتفه. توفير مقابل شراء شاحنَي انكر — فقط اعرف أن الاستخدام المتزامن هو وضع 15 واط البطيء. ' +
             '(3) سائق Talabat / Uber / Careem في البيت بين النوبات: استخدم USB-C وحده لتعبئة هاتف حقيقية ~19–24 واط؛ اترك USB-A لباوربانك أو كاميرا تابلوه USB-A فقط. هذا شاحن حائط — لـ12V في السيارة انظر شواحن السيارة. ' +
-            '(4) شراء عائلي بالجملة: أربع وحدات عند ~280 جنيه أرخص بوضوح من أربع وحدات Anker Zolo A2698 (~599) أو A2147 (~790). المقايضة هي منظومة العلامة وتوثيق السيليكون، لا تسليم 30 واط على منفذ واحد (قِسنا 29.1 واط على C وحده — نفس فئة 29.4 واط لـ Zolo). ' +
+            '(4) شراء عائلي بالجملة: أربع وحدات عند ~455 جنيه أرخص بوضوح من أربع وحدات Anker Zolo A2698 (~774) أو A2147 (~665). المقايضة هي منظومة العلامة وتوثيق السيليكون، لا تسليم 30 واط على منفذ واحد (قِسنا 29.1 واط على C وحده — نفس فئة 29.4 واط لـ Zolo). ' +
             '(5) بيت سامسونج أولًا (S24 / A55 بـ25W SFC): PPS 3.3–11V/3A موجود على هذه العيّنة — Super Fast Charging يعمل على USB-C وحده. لا تتوقّع تلك السرعة مع جهاز ثانٍ يشارك الشاحن. ' +
             '(6) سفر داخل مصر (إسكندرية / الساحل / فنادق الأقصر): Europlug الأوروبي على عيّنة JC02 يدخل الفيش المصرية بلا محوّل — نفس ملاءمة Joyroom JR-TCF20 العملية. ' +
             'غير مناسب لـ: (7) هاتفين يحتاجان شحنًا كامل السرعة الساعة 7 صباحًا — اشترِ شاحنًا ثانيًا أو وحدة أعلى قدرة بمنفذين؛ ' +
@@ -70,7 +70,7 @@ export const joyroom_30w_fast_charger_detail: ProductDetail = {
         'AC efficiency / no-load': { en: 'NOT MEASURED — no PZEM-004T AC-input pass on this sample', ar: 'غير مقاس — لا مرحلة PZEM-004T لدخل التيار المتردد لهذه العيّنة' },
         'Safety (vendor)': { en: 'Joyroom lists multi-point protection (OCP/OVP/OTP/SCP class language) — vendor claim; CairoVolt verified OCP cut on the 15V rail in ~2.5s at >3.5A request', ar: 'جوي روم تذكر حماية متعددة النقاط (لغة OCP/OVP/OTP/SCP) — ادعاء المصنّع؛ CairoVolt تحقّقت من فصل OCP على بروتوكول 15V خلال ~2.5 ثانية عند طلب >3.5A' },
         'Recall status (2026-07-24)': { en: 'NOT RECALLED — cpsc.gov + Joyroom public notices returned zero hits for JR-TCF30 / JC02 on 2026-07-24. Anker\'s active power-bank recalls (anker.com/rc2506: A1257/A1263/A1647/A1652/A1681/A1689) are Anker-only and do not apply to Joyroom wall chargers', ar: 'لا يوجد استدعاء — cpsc.gov + إشعارات جوي روم العلنية أعادت صفر نتائج لـ JR-TCF30 / JC02 في 2026-07-24. استدعاءات باوربانك انكر النشطة (anker.com/rc2506) خاصة بانكر ولا تنطبق على شواحن جوي روم الحائطية' },
-        'Vs Anker A2147 / Zolo A2698 (candid)': { en: 'Same phone-class ~30W USB-C peak class (JR-TCF30 29.1W · Zolo 29.4W measured). JR-TCF30 wins on dual-port + price (~280 vs ~599/790 EGP). Ankers win on single-port focus, brand documentation (A2147 DoC + ChargerLAB silicon), and no dual-port 15W collapse. A2147 independent thermal pass not published — no invented heat A/B', ar: 'نفس فئة ذروة USB-C ~30 واط للهواتف (JR-TCF30 29.1 واط · Zolo 29.4 واط مقاس). JR-TCF30 يفوز بالمنفذين + السعر (~280 مقابل ~599/790 جنيه). انكر تفوز بتركيز المنفذ الواحد وتوثيق العلامة (شهادة A2147 + سيليكون ChargerLAB) وبلا انهيار 15 واط عند المنفذين. مرحلة حرارة A2147 المستقلة غير منشورة — لا فرق حرارة A/B مخترع' },
+        'Vs Anker A2147 / Zolo A2698 (candid)': { en: 'Same phone-class ~30W USB-C peak class (JR-TCF30 29.1W · Zolo 29.4W measured). JR-TCF30 wins on dual-port + price (~455 vs ~774/665 EGP). Ankers win on single-port focus, brand documentation (A2147 DoC + ChargerLAB silicon), and no dual-port 15W collapse. A2147 independent thermal pass not published — no invented heat A/B', ar: 'نفس فئة ذروة USB-C ~30 واط للهواتف (JR-TCF30 29.1 واط · Zolo 29.4 واط مقاس). JR-TCF30 يفوز بالمنفذين + السعر (~455 مقابل ~774/665 جنيه). انكر تفوز بتركيز المنفذ الواحد وتوثيق العلامة (شهادة A2147 + سيليكون ChargerLAB) وبلا انهيار 15 واط عند المنفذين. مرحلة حرارة A2147 المستقلة غير منشورة — لا فرق حرارة A/B مخترع' },
         'In the Box': { en: 'Charger only on this listing unless package-contents state otherwise — supply a 3A-rated USB-C cable for full PD', ar: 'الشاحن فقط في هذه القائمة ما لم تذكر محتويات العبوة غير ذلك — أحضر كابل USB-C بتصنيف 3A لـ PD الكامل' },
     },
     benchTest: {
@@ -162,7 +162,7 @@ export const joyroom_30w_fast_charger_detail: ProductDetail = {
             { en: 'USB-A QC 3.0 measured 21.8W peak — real second-port utility for older cables / earbuds that Anker A2147 and Zolo A2698 (single USB-C) cannot serve', ar: 'USB-A QC 3.0 قاس ذروة 21.8 واط — منفعة حقيقية للمنفذ الثاني للكابلات/السماعات الأقدم التي لا يخدمها A2147 وZolo A2698 (USB-C واحد)' },
             { en: 'Samsung Galaxy S24 engaged PPS Super Fast Charging (24.2W peak) — unlike Joyroom JR-TCF20 which has no PPS rail', ar: 'Samsung Galaxy S24 فعّل PPS Super Fast Charging (ذروة 24.2 واط) — بخلاف Joyroom JR-TCF20 بلا نطاق PPS' },
             { en: 'iPhone 13 peaked at 19.4W PD — lands on Apple\'s ~20W wired ceiling; phone-limited, not charger-limited', ar: 'iPhone 13 بلغ ذروة 19.4 واط PD — يقع على سقف آبل السلكي ~20 واط؛ محدود بالهاتف لا بالشاحن' },
-            { en: 'Egypt-ready EU Europlug on JC02 sample — no US-to-EU adapter; street price ~280 EGP undercuts typical Anker 30W bricks', ar: 'Europlug أوروبي جاهز لمصر على عيّنة JC02 — بلا محوّل أمريكي؛ سعر الشارع ~280 جنيه أقل من شواحن انكر 30 واط المعتادة' },
+            { en: 'Egypt-ready EU Europlug on JC02 sample — no US-to-EU adapter; street price ~455 EGP undercuts typical Anker 30W bricks', ar: 'Europlug أوروبي جاهز لمصر على عيّنة JC02 — بلا محوّل أمريكي؛ سعر الشارع ~455 جنيه أقل من شواحن انكر 30 واط المعتادة' },
             { en: 'NOT recalled as of 2026-07-24 (cpsc.gov + Joyroom) — Anker power-bank recalls do not apply to this Joyroom wall charger', ar: 'غير مُستدعى حتى 2026-07-24 (cpsc.gov + جوي روم) — استدعاءات باوربانك انكر لا تنطبق على شاحن جوي روم الحائطي هذا' },
         ],
         limits: [

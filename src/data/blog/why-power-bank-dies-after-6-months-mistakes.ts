@@ -120,7 +120,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔋 <strong>القاعدة:</strong> قبل ما تخزّن الباور بانك لأي فترة، اشحنه لـ 50%. ده المستوى المثالي — مش 100% (ضغط على الخلايا) ومش 0% (خطر Deep Discharge).</li>
     <li style="margin-bottom:12px;">📅 <strong>كل 3 شهور:</strong> طلّع الباور بانك وشوف النسبة. لو نزل تحت 30%، اشحنه لـ 50% تاني. 5 دقائق كل 3 شهور بتحمي استثمارك.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>الميزة:</strong> <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E</a> (1,730ج) فيه شاشة رقمية — بتشوف النسبة فوراً من غير ما تحتاج توصّله.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>الميزة:</strong> <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E</a> (1,905ج) فيه شاشة رقمية — بتشوف النسبة فوراً من غير ما تحتاج توصّله.</li>
 </ul>
 
 <h2>إزاي تعرف إن بطارية الباور بانك بدأت تموت؟</h2>
@@ -290,7 +290,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔋 <strong>The Rule:</strong> Before storing any power bank for any period, charge it to 50%. This is the ideal level — not 100% (stresses cells) and not 0% (risks Deep Discharge).</li>
     <li style="margin-bottom:12px;">📅 <strong>Every 3 Months:</strong> Pull out the power bank and check its level. If it has dropped below 30%, charge it back to 50%. Five minutes every 3 months protects your investment.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>Advantage:</strong> The <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E</a> (1,730 EGP) has a digital display — you can see the percentage instantly without needing to plug it in.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>Advantage:</strong> The <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E</a> (1,905 EGP) has a digital display — you can see the percentage instantly without needing to plug it in.</li>
 </ul>
 
 <h2>How to Tell If Your Power Bank Battery Is Dying</h2>

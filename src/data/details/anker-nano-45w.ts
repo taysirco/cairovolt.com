@@ -1,4 +1,4 @@
-// Details for: anker-nano-45w  (Anker 713 Charger, Nano II 45W, model A2664 / retail MPN A2664K11 · ~790 EGP)
+// Details for: anker-nano-45w  (Anker 713 Charger, Nano II 45W, model A2664 / retail MPN A2664K11 · ~965 EGP)
 // Lab sheet: CV-CH-A2664-001 — Wave Adj/Mid §7.1 elevated gold-depth (canonical A2664K11 sample — NOT the separate 1C-PD listing).
 // CRITICAL A/B: dual PPS to 21V (3.3–16V/3A · 3.3–21V/2.25A) ≠ A2692 Nano Pro (single PPS 3.3–11V/4.05A) ≠ A121D Smart Display (PPS 3.3–11V/4.05A).
 // BENCH GATE: gold bench lives HERE (sample CV-CH-A2664-001) — `anker-nano-45w-1c-pd` is a separate listing (SKU AC09) with no measured sample of its own; do not duplicate measurements there.
@@ -11,7 +11,7 @@ export const anker_nano_45w_detail: ProductDetail = {
     aiTldr: {
         en: [
             'Anker 713 Nano II 45W (A2664 / A2664K11) is a single-port USB-C GaN II wall charger. Our FNB58 read two PPS windows (3.3–16V/3A, 3.3–21V/2.25A), and a Galaxy S24 Ultra showed 45W Super Fast Charging 2.0 at ~43.6W peak. It suits MacBook Air plus Galaxy Ultra owners.',
-            'Listing price ~790 EGP. FNB58 fixed PDOs: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A. The dual-PPS path is what unlocks Samsung 45W SFC 2.0 on Galaxy Ultra — critical vs A2692 / A121D, whose PPS tops out at 11V.',
+            'Listing price ~965 EGP. FNB58 fixed PDOs: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A. The dual-PPS path is what unlocks Samsung 45W SFC 2.0 on Galaxy Ultra — critical vs A2692 / A121D, whose PPS tops out at 11V.',
             'CairoVolt peaks: 44.2W on 15V/3A (14.82V/2.98A) and 44.0W on 20V/2.25A held on JUWEI — ≥98% of the 45W label on sample CV-CH-A2664-001 (2026-07-24). Voltage drift ±0.06–0.08V across fixed rails.',
             'Real devices: MacBook Air M2 (52.6Wh) 0→100% in 1h 48m on 20V rail. Galaxy S24 Ultra negotiated PPS SFC 2.0 (~43.6W peak; 0→100% ≈ 41 min; Super Fast indicator ON). iPhone 15 Pro stayed in Apple\'s ~27W PD cap (~26.4W peak) — extra watts above phone ceiling do not unlock faster iPhone wired charge.',
             'Not the alias page, not Nano Pro, not Smart Display: gold bench is this slug only. A2692/A121D lack the 3.3–21V PPS window. Single USB-C, no cable in box, foldable US-style prongs. Nintendo Switch OLED docked (15V/2.6A = 39W) ran full-speed on the 15V/3A PDO.',
@@ -19,7 +19,7 @@ export const anker_nano_45w_detail: ProductDetail = {
         ],
         ar: [
             'انكر 713 نانو II 45 واط (A2664 / A2664K11) شاحن حائط GaN II بمنفذ USB-C واحد. قرأ FNB58 لدينا نافذتَي PPS (3.3–16V/3A و3.3–21V/2.25A)، وأظهر Galaxy S24 Ultra الشحن فائق السرعة 2.0 بقدرة 45 واط بذروة ~43.6 واط. يناسب من يملك MacBook Air وجالاكسي Ultra.',
-            'سعر القائمة ~790 جنيه. PDO الثابتة على FNB58: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A. مسار PPS المزدوج هو ما يفتح Samsung 45W Super Fast Charging 2.0 على Galaxy Ultra — حرج مقابل A2692 / A121D (سقف PPS 11 فولت).',
+            'سعر القائمة ~965 جنيه. PDO الثابتة على FNB58: 5V/3A · 9V/3A · 15V/3A · 20V/2.25A. مسار PPS المزدوج هو ما يفتح Samsung 45W Super Fast Charging 2.0 على Galaxy Ultra — حرج مقابل A2692 / A121D (سقف PPS 11 فولت).',
             'ذروات CairoVolt: 44.2 واط على 15V/3A (14.82V/2.98A) و44.0 واط على 20V/2.25A على JUWEI — ≥98% من ملصق 45 واط على العيّنة CV-CH-A2664-001 (2026-07-24). انحراف جهد ±0.06–0.08 فولت عبر المنافذ الثابتة.',
             'أجهزة حقيقية: MacBook Air M2 (52.6Wh) 0→100% في ساعة و48 دقيقة على منفذ 20V. Galaxy S24 Ultra تفاوض PPS SFC 2.0 (ذروة ~43.6 واط؛ 0→100% ≈ 41 دقيقة؛ مؤشر الشحن السريع الفائق يعمل). iPhone 15 Pro بقي ضمن سقف آبل ~27 واط PD (ذروة ~26.4 واط) — الواط الزائد فوق سقف الهاتف لا يسرّع شحن الآيفون السلكي.',
             'ليست صفحة الـalias، وليست Nano Pro، وليست Smart Display: الـbench الذهبي على هذا الـslug فقط. A2692/A121D بلا نافذة PPS 3.3–21V. منفذ USB-C واحد، بلا كابل في العلبة، قابس أمريكي قابل للطي. Nintendo Switch OLED موصول (15V/2.6A = 39 واط) عمل بأقصى سرعة على PDO 15V/3A.',
@@ -28,7 +28,7 @@ export const anker_nano_45w_detail: ProductDetail = {
     },
     localContext: {
         en:
-            'For an Egyptian buyer at ~790 EGP, A2664 answers: "I need one 60g brick that fast-charges a MacBook Air AND unlocks Samsung Ultra 45W SFC 2.0." ' +
+            'For an Egyptian buyer at ~965 EGP, A2664 answers: "I need one 60g brick that fast-charges a MacBook Air AND unlocks Samsung Ultra 45W SFC 2.0." ' +
             'CRITICAL SKU MAP (do not confuse the Anker 45W Nano family). (A) A2664 = this sheet — Nano II, dual PPS to 16V/3A + 21V/2.25A — Samsung Ultra 45W SFC 2.0 engages. (B) A2692 Nano Pro = single PPS 3.3–11V/4.05A — Ultra falls back to 25W SFC. (C) A121D Smart Display = TFT + Care Mode, PPS also tops 11V — display premium, not Ultra 45W. (D) `anker-nano-45w-1c-pd` = catalogue ALIAS stub for the same A2664 MPN — open THIS page for measurements. ' +
             'Six realistic fits. (1) CAIRO–ALEX REMOTE COMMUTE (train / Go Bus ~2.5h): MacBook Air M2 draws ~18–20W editing + calls; A2664 supplies ~44W — covers load and tops 40→95% in-sleeve at 60g vs Apple\'s 145g brick. ' +
             '(2) SAHEL / MARINA WEEKEND: one brick for Air (52.6Wh, 0→100 in 1h48m) + S24 Ultra (~41 min via full PPS) — saves ~140g and one outlet vs two OEM chargers. ' +
@@ -38,7 +38,7 @@ export const anker_nano_45w_detail: ProductDetail = {
             '(6) AUC / GUC / CAIRO UNIVERSITY 20-min break: S24 Ultra from ~20% gains a large mid-session chunk under PPS; iPhone 15 Pro adds ~30% capped ~27W. WRONG FOR: dual-device desk (buy dual-C) and 16-inch MacBook Pro (≥96W ask). ' +
             'PLUG HONESTY: physical sample = foldable US Type-A prongs — seats in most Egyptian universal sockets; not BS 1363, not fixed Europlug. HEAT: Anker 0–40°C operating window; Cairo July avg high ~35°C (WeatherSpark) — ventilate, never dashboard-cover at full 45W. ELECTRICITY: ~0.081 kWh per full Air charge → piastres on EgyptERA tariffs. No vampire/efficiency % — PZEM not run.',
         ar:
-            'للمشتري المصري عند ~790 جنيه، A2664 يجيب: "أحتاج طوبة 60 جرامًا تشحن MacBook Air بسرعة وتفتح Samsung Ultra 45W SFC 2.0." ' +
+            'للمشتري المصري عند ~965 جنيه، A2664 يجيب: "أحتاج طوبة 60 جرامًا تشحن MacBook Air بسرعة وتفتح Samsung Ultra 45W SFC 2.0." ' +
             'خريطة الموديلات الحرجة (لا تخلط عائلة Anker Nano 45 واط). (أ) A2664 = هذه الورقة — Nano II، PPS مزدوج حتى 16V/3A + 21V/2.25A — Samsung Ultra 45W SFC 2.0 يعمل. (ب) A2692 Nano Pro = PPS واحد 3.3–11V/4.05A — الـUltra يرتد إلى 25W SFC. (ج) A121D Smart Display = شاشة TFT + وضع Care، وسقف PPS أيضًا 11 فولت — علاوة الشاشة لا 45 واط Ultra. (د) `anker-nano-45w-1c-pd` = قائمة مستقلة (SKU AC09) بلا قياسات خاصة بها — القياسات في هذه الصفحة. ' +
             'ستة استخدامات واقعية. (1) تنقل عمل عن بُعد القاهرة–الإسكندرية (قطار / Go Bus ~2.5 ساعة): MacBook Air M2 يسحب ~18–20 واط؛ A2664 يوفّر ~44 واط — يغطي الحمل ويرفع 40→95% بوزن 60 جرامًا مقابل 145 جرامًا لآبل. ' +
             '(2) عطلة الساحل / مارينا: شاحن واحد للـAir (52.6Wh، 0→100 في ساعة و48 دقيقة) + S24 Ultra (~41 دقيقة عبر PPS كامل) — يوفّر ~140 جرامًا وفيشة. ' +
@@ -50,7 +50,7 @@ export const anker_nano_45w_detail: ProductDetail = {
     },
     specifications: {
         'Model': { en: 'Anker 713 (A2664) — Nano II 45W GaN II (retail MPN A2664K11)', ar: 'انكر 713 (A2664) — نانو II 45 واط GaN II (MPN التجزئة A2664K11)' },
-        'GTIN / MPN / Street': { en: 'GTIN 0194644085551 · MPN A2664K11 · street ~790 EGP', ar: 'GTIN 0194644085551 · MPN A2664K11 · سعر الشارع ~790 جنيه' },
+        'GTIN / MPN / Street': { en: 'GTIN 0194644085551 · MPN A2664K11 · street ~965 EGP', ar: 'GTIN 0194644085551 · MPN A2664K11 · سعر الشارع ~965 جنيه' },
         'Rated Output': { en: '45W Max (single USB-C)', ar: '45 واط كحد أقصى (USB-C واحد)' },
         'PD Fixed Profiles (vendor + FNB58)': { en: '5V/3A (15W) · 9V/3A (27W) · 15V/3A (45W) · 20V/2.25A (45W) — decoded on our sample', ar: '5V/3A (15 واط) · 9V/3A (27 واط) · 15V/3A (45 واط) · 20V/2.25A (45 واط) — فُكّت على عيّنتنا' },
         'PPS Windows (vendor + FNB58)': { en: '3.3–16V/3A · 3.3–21V/2.25A — covers Samsung 45W Super Fast Charging 2.0 on Galaxy Ultra (20V PPS path)', ar: '3.3–16V/3A · 3.3–21V/2.25A — يغطي Samsung 45W Super Fast Charging 2.0 على Galaxy Ultra (مسار PPS 20 فولت)' },

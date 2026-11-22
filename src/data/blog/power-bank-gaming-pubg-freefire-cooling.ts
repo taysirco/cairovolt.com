@@ -31,7 +31,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
             metaDescription: '4 ساعات لعب PUBG = الموبايل يصل 48°م + throttling + خسارة الـ FPS. أفضل باور بانك للاعب المصري بمنهجية تبريد ثلاثية عملية وموثقة. تابع التفاصيل بمصر.',
             keywords: 'باور بانك للالعاب, باور بانك جيمنج, باور بانك pubg mobile, شحن وقت لعب free fire, throttling موبايل اثناء اللعب, أنكر zolo gaming, ابطأ الموبايل وقت اللعب, gaming power bank egypt 2026',
             excerpt: '4 ساعات لعب PUBG = موبايل يصل 48°م + throttling + خسارة الـ FPS. أفضل باور بانك للاعب المصري بمنهجية تبريد ثلاثية عملية وموثقة.',
-            quickAnswer: 'لاعب PUBG / Free Fire يحتاج باور بانك بـ 3 ميزات حرجة: (1) خرج 22.5W أو أقل (الأعلى يسخن أكثر أثناء اللعب)، (2) Trickle-charge mode للحفاظ على البطارية مستوى 80-85% بدون رفعها لـ 100%، (3) كابل قصير 30cm لتقليل المقاومة الحرارية. أفضل خيار: أنكر ZOLO A110E 22.5W (1,730ج) لـ 4-6 ساعات لعب، مع باور بانك إضافي + مروحة تبريد للسيشن الطويلة.',
+            quickAnswer: 'لاعب PUBG / Free Fire يحتاج باور بانك بـ 3 ميزات حرجة: (1) خرج 22.5W أو أقل (الأعلى يسخن أكثر أثناء اللعب)، (2) Trickle-charge mode للحفاظ على البطارية مستوى 80-85% بدون رفعها لـ 100%، (3) كابل قصير 30cm لتقليل المقاومة الحرارية. أفضل خيار: أنكر ZOLO A110E 22.5W (1,905ج) لـ 4-6 ساعات لعب، مع باور بانك إضافي + مروحة تبريد للسيشن الطويلة.',
             content: `<p>اللاعب المصري في 2026 بيواجه ثلاث مشاكل ما تتحلش بشاحن عادي: <strong>(1) الموبايل بيوصل 48-52°م بعد ساعتين PUBG = throttling = الـ FPS بينزل من 90 لـ 30</strong>، (2) البطارية بتمشي 1% كل 6 دقائق في حركات الـ Erangel، (3) الشحن أثناء اللعب بيخلّي الموبايل ساخن أكتر. الحل اللي أغلب اللاعبين مايعرفوهوش: <strong>الباور بانك القوي مش الحل — الباور بانك الذكي هو الحل</strong>. بمقارنة 6 باور بانكات مع 4 موديلات موبايل في سيناريوهات PUBG و Free Fire و Call of Duty Mobile — بالاعتماد على المواصفات المعلنة وقياسات المراجعات المستقلة — النتائج عكس المتوقع تماماً.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -41,7 +41,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
         (1) خرج 22.5W أو أقل — الأعلى يسخن أكتر أثناء اللعب،
         (2) Trickle-charge mode للحفاظ على البطارية 80-85% بدون رفعها لـ 100%،
         (3) كابل قصير 30cm لتقليل المقاومة الحرارية.
-        أفضل خيار: <strong>انكر زولو A110E 22.5W</strong> (1,730ج) لـ 4-6 ساعات لعب +
+        أفضل خيار: <strong>انكر زولو A110E 22.5W</strong> (1,905ج) لـ 4-6 ساعات لعب +
         مروحة تبريد للسيشن الطويلة.
     </p>
 </div>
@@ -127,7 +127,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
 
 <p>أفضل باور بانك يدعم Trickle-Charge في مصر:
 <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E 20,000mAh</a>
-(1,730ج). اضغط زر الباور مرتين سريعاً لتفعيل الوضع.</p>
+(1,905ج). اضغط زر الباور مرتين سريعاً لتفعيل الوضع.</p>
 
 
 <h2>قاعدة الجيمنج #3: التبريد الخارجي ضرورة في الصيف المصري</h2>
@@ -159,25 +159,25 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">لاعب عادي (1-3 ساعات)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>انكر زولو A110E 22.5W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,730ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,905ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Trickle-Charge + 20,000mAh + ضمان كايرو فولت المكتوب</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">لاعب نصف محترف (3-5 ساعات)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>جوي روم 20,000mAh + مروحة</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">997ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,172ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">سعة كبيرة + 3 منافذ لتشغيل مروحة معاً</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">لاعب محترف / e-sports (5+ ساعات)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>انكر برايم 165W + مروحة Peltier</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">3,950ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">4,125ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh + 3 منافذ مستقلة + تبريد كامل</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">صانع محتوى يبث (Live Streaming)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>انكر 737 140W + لابتوب</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">4,999ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">5,174ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">شحن موبايل + لابتوب البث + إنارة LED</td>
         </tr>
     </tbody>
@@ -216,8 +216,8 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <strong>القاعدة الأهم:</strong> 22.5W (مش 45W) + Trickle-Charge + كابل قصير 30cm + مروحة خارجية + غرفة مكيفة.
-        <strong>الباور بانك الأمثل:</strong> أنكر ZOLO A110E (1,730ج) للاعب العادي،
-        <strong>أو</strong> أنكر Prime 165W (3,950ج) لاحتراف e-sports.
+        <strong>الباور بانك الأمثل:</strong> أنكر ZOLO A110E (1,905ج) للاعب العادي،
+        <strong>أو</strong> أنكر Prime 165W (4,125ج) لاحتراف e-sports.
         كلهم متاحين على كايرو فولت بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>`,
@@ -246,7 +246,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
             metaDescription: '4 hours of PUBG = phone hits 48°C + throttling + FPS drop. Best power bank for Egyptian gamer with a practical, well-documented triple-cooling methodology.',
             keywords: 'gaming power bank, pubg mobile power bank, free fire charging, phone throttling during gaming, anker zolo gaming, phone slow during gaming, gaming power bank egypt 2026, trickle charge gaming',
             excerpt: '4 hours of PUBG = phone reaches 48°C + throttling + FPS drop. Best power bank for the Egyptian gamer with a practical, well-documented triple-cooling methodology.',
-            quickAnswer: 'A PUBG / Free Fire gamer needs a power bank with 3 critical features: (1) 22.5W output or lower — higher wattage heats more during gameplay, (2) Trickle-charge mode to maintain battery at 80-85% without pushing to 100%, (3) short 30cm cable to reduce thermal resistance. Top pick: Anker ZOLO A110E 22.5W (1,730 EGP) for 4-6 hours of gaming, plus extra power bank + cooling fan for longer sessions.',
+            quickAnswer: 'A PUBG / Free Fire gamer needs a power bank with 3 critical features: (1) 22.5W output or lower — higher wattage heats more during gameplay, (2) Trickle-charge mode to maintain battery at 80-85% without pushing to 100%, (3) short 30cm cable to reduce thermal resistance. Top pick: Anker ZOLO A110E 22.5W (1,905 EGP) for 4-6 hours of gaming, plus extra power bank + cooling fan for longer sessions.',
             content: `<p>The Egyptian gamer in 2026 faces three problems no regular charger solves: <strong>(1) the phone reaches 48-52°C after 2 hours of PUBG = throttling = FPS drops from 90 to 30</strong>, (2) battery drains 1% every 6 minutes during Erangel action, (3) charging during gameplay heats the phone even more. The solution most gamers don't know: <strong>the powerful power bank isn't the answer — the smart power bank is</strong>. Comparing 6 power banks against 4 phone models across PUBG, Free Fire, and Call of Duty Mobile scenarios — based on published specifications and independent review measurements — the results are the opposite of conventional wisdom.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -256,7 +256,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
         (1) 22.5W output or lower — higher wattage heats more during gameplay,
         (2) Trickle-charge mode to hold battery at 80-85% without pushing to 100%,
         (3) short 30cm cable to reduce thermal resistance.
-        Top pick: <strong>Anker ZOLO A110E 22.5W</strong> (1,730 EGP) for 4-6 gaming hours +
+        Top pick: <strong>Anker ZOLO A110E 22.5W</strong> (1,905 EGP) for 4-6 gaming hours +
         cooling fan for longer sessions.
     </p>
 </div>
@@ -342,7 +342,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
 
 <p>Best Trickle-Charge power bank in Egypt:
 <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E 20,000mAh</a>
-(1,730 EGP). Double-press the power button quickly to activate the mode.</p>
+(1,905 EGP). Double-press the power button quickly to activate the mode.</p>
 
 
 <h2>Gaming Rule #3: External Cooling Is Essential in Egyptian Summer</h2>
@@ -374,25 +374,25 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Casual (1-3 hours)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Anker ZOLO A110E 22.5W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1,730 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,905 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Trickle-Charge + 20,000mAh + CairoVolt written store warranty</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Semi-pro (3-5 hours)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Joyroom 20,000mAh + fan</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">997 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1,172 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Large capacity + 3 ports to run the fan together</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Pro / e-sports (5+ hours)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Anker Prime 165W + Peltier fan</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">3,950 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">4,125 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh + 3 independent ports + full cooling</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Live-streaming content creator</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Anker 737 140W + laptop</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">4,999 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">5,174 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Phone + streaming laptop + LED light</td>
         </tr>
     </tbody>
@@ -431,8 +431,8 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <strong>Most important rule:</strong> 22.5W (not 45W) + Trickle-Charge + short 30cm cable + external fan + AC room.
-        <strong>Optimal power bank:</strong> Anker ZOLO A110E (1,730 EGP) for casual gamer,
-        <strong>or</strong> Anker Prime 165W (3,950 EGP) for e-sports pro.
+        <strong>Optimal power bank:</strong> Anker ZOLO A110E (1,905 EGP) for casual gamer,
+        <strong>or</strong> Anker Prime 165W (4,125 EGP) for e-sports pro.
         All available at CairoVolt with CairoVolt's written store warranty (duration shown on each product page) + delivery to all governorates + cash on delivery.
     </p>
 </div>`,

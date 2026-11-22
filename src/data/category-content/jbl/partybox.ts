@@ -60,7 +60,7 @@ Encore Essential وClub 120 وStage 320 بيشتغلوا على بطارية أ�
                         {
                             title: 'بتدفع إزاي في بازوكا بعشرين ألف أو أكتر؟',
                             content: `
-سؤال منطقي لما يكون الطلب بـ20 ألف جنيه أو 65,999. الإجابة عندنا واحدة لكل الموديلات: **الدفع كاش عند الاستلام**، من غير عربون ولا مقدم ولا أي دفعة قبل ما تشوف الجهاز.
+سؤال منطقي لما يكون الطلب بـ20 ألف جنيه أو 66,174. الإجابة عندنا واحدة لكل الموديلات: **الدفع كاش عند الاستلام**، من غير عربون ولا مقدم ولا أي دفعة قبل ما تشوف الجهاز.
 
 **مفيش تقسيط ومفيش دفع أونلاين.** ده مش نقص — ده معناه إنك مش بتدفع فوايد ولا مصاريف إدارية مخبّية في السعر المعروض. السعر اللي قدامك هو اللي هتدفعه.
 
@@ -77,7 +77,7 @@ Encore Essential وClub 120 وStage 320 بيشتغلوا على بطارية أ�
                         },
                         {
                             question: 'هل الصوت يكفي فرح شارع؟',
-                            answer: 'الاختيار بيتحدد بحجم المكان وعدد الناس مش بالواط لوحده. القاعدة العملية: قعدة بيت أو رووف لحد 30-40 فرد → Encore Essential (100 واط معلنة، 20,099 ج). فرح صالة أو كافيه لحد 100 فرد → [Club 120](/jbl/partybox/jbl-partybox-club-120) (160 واط، 20,949 ج) أو [Stage 320](/jbl/partybox/jbl-partybox-stage-320) (240 واط، 29,449 ج) — والاتنين بطاريتهم بتتبدل يعني مفيش انقطاع نص الفرح، وStage 320 بعجل ويد تليسكوبية لأن وزنها 16.5 كجم. فرح شارع أو قاعة كبيرة أو شغل DJ → [PartyBox 1000](/jbl/partybox/jbl-partybox-1000) (1,100 واط، 65,999 ج) بس خد بالك إنها كهربا بس من غير بطارية، فلازم مصدر كهرباء ثابت. وحاجتين بيفرقوا أكتر من الواط: المكان المفتوح بيبلع الصوت أكتر من القاعة المقفولة، ورفع الصوت لآخره بيشوّه — الأفضل موديل أكبر. ولو محتاج كلمة العريس أو كاريوكي، ضيف [طقم المايكات اللاسلكية](/jbl/partybox/jbl-partybox-wireless-mic) (5,949 ج، مايكين بمدى معلن 30 متر).'
+                            answer: 'الاختيار بيتحدد بحجم المكان وعدد الناس مش بالواط لوحده. القاعدة العملية: قعدة بيت أو رووف لحد 30-40 فرد → Encore Essential (100 واط معلنة، 20,274 ج). فرح صالة أو كافيه لحد 100 فرد → [Club 120](/jbl/partybox/jbl-partybox-club-120) (160 واط، 21,124 ج) أو [Stage 320](/jbl/partybox/jbl-partybox-stage-320) (240 واط، 29,624 ج) — والاتنين بطاريتهم بتتبدل يعني مفيش انقطاع نص الفرح، وStage 320 بعجل ويد تليسكوبية لأن وزنها 16.5 كجم. فرح شارع أو قاعة كبيرة أو شغل DJ → [PartyBox 1000](/jbl/partybox/jbl-partybox-1000) (1,100 واط، 66,174 ج) بس خد بالك إنها كهربا بس من غير بطارية، فلازم مصدر كهرباء ثابت. وحاجتين بيفرقوا أكتر من الواط: المكان المفتوح بيبلع الصوت أكتر من القاعة المقفولة، ورفع الصوت لآخره بيشوّه — الأفضل موديل أكبر. ولو محتاج كلمة العريس أو كاريوكي، ضيف [طقم المايكات اللاسلكية](/jbl/partybox/jbl-partybox-wireless-mic) (6,124 ج، مايكين بمدى معلن 30 متر).'
                         },
                         {
                             question: 'إزاي أوصل مايك على البازوكا؟',
@@ -152,7 +152,7 @@ The Encore Essential, Club 120, and Stage 320 run on battery or AC; the Club 120
                         {
                             title: 'How do you pay for a 20,000+ EGP party speaker?',
                             content: `
-A fair question when the order is 20,000 EGP or 65,999. The answer is the same for every model: **cash on delivery**, with no deposit, no down payment, and nothing paid before you see the unit.
+A fair question when the order is 20,000 EGP or 66,174. The answer is the same for every model: **cash on delivery**, with no deposit, no down payment, and nothing paid before you see the unit.
 
 **There are no instalments and no online payment.** That is not a gap — it means you are not paying interest or administrative fees buried in the listed price. The price you see is the price you pay.
 
@@ -169,7 +169,7 @@ Every order comes with an invoice, a written CairoVolt warranty, and returns wit
                         },
                         {
                             question: 'Is the sound enough for a street wedding?',
-                            answer: 'The choice is set by room size and headcount, not wattage alone. The practical rule: a home or rooftop gathering of 30-40 people → Encore Essential (a listed 100W, 20,099 EGP). A hall or cafe up to about 100 people → [Club 120](/en/jbl/partybox/jbl-partybox-club-120) (160W, 20,949 EGP) or [Stage 320](/en/jbl/partybox/jbl-partybox-stage-320) (240W, 29,449 EGP) — both take a swappable battery so the party does not stop mid-way, and the Stage 320 rides on wheels with a telescopic handle because it weighs 16.5 kg. A street wedding, a large hall or DJ work → [PartyBox 1000](/en/jbl/partybox/jbl-partybox-1000) (1,100W, 65,999 EGP), but note it is mains-powered with no battery, so it needs a fixed power source. Two things matter more than watts: an open space absorbs sound far more than an enclosed hall, and pushing any speaker to maximum distorts it — a larger model is the better answer. If you need speeches or karaoke, add the [wireless mic set](/en/jbl/partybox/jbl-partybox-wireless-mic) (5,949 EGP, two mics with a listed 30 m range).'
+                            answer: 'The choice is set by room size and headcount, not wattage alone. The practical rule: a home or rooftop gathering of 30-40 people → Encore Essential (a listed 100W, 20,274 EGP). A hall or cafe up to about 100 people → [Club 120](/en/jbl/partybox/jbl-partybox-club-120) (160W, 21,124 EGP) or [Stage 320](/en/jbl/partybox/jbl-partybox-stage-320) (240W, 29,624 EGP) — both take a swappable battery so the party does not stop mid-way, and the Stage 320 rides on wheels with a telescopic handle because it weighs 16.5 kg. A street wedding, a large hall or DJ work → [PartyBox 1000](/en/jbl/partybox/jbl-partybox-1000) (1,100W, 66,174 EGP), but note it is mains-powered with no battery, so it needs a fixed power source. Two things matter more than watts: an open space absorbs sound far more than an enclosed hall, and pushing any speaker to maximum distorts it — a larger model is the better answer. If you need speeches or karaoke, add the [wireless mic set](/en/jbl/partybox/jbl-partybox-wireless-mic) (6,124 EGP, two mics with a listed 30 m range).'
                         },
                         {
                             question: 'How do I connect a microphone?',
