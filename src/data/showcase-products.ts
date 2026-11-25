@@ -108,7 +108,7 @@ export const showcaseProducts: ShowcaseProduct[] = [
     slug: 'joyroom-20w-usb-c-charger',
     name: { en: 'Joyroom 20W USB-C PD Charger', ar: 'شاحن جوي روم USB-C 20 واط' },
     image: '/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-1-thumb.webp',
-    price: 236,
+    price: 411,
     originalPrice: 500,
     brand: 'Joyroom',
     badge: { en: 'Everyday Value', ar: 'اختيار اقتصادي' },

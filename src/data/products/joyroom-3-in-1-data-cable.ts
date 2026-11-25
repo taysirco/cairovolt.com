@@ -8,7 +8,7 @@ export const joyroom_3_in_1_data_cable = {
         gtin: "6956116750107",
         gtin13: "6956116750107",
         mpn: "JR-S-1830G",
-        price: 237,
+        price: 412,
         originalPrice: 490,
         stock: 413,
         featured: false,

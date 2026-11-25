@@ -8,7 +8,7 @@ export const joyroom_type_c_lightning_braided = {
         gtin: "6956116750121",
         gtin13: "6956116750121",
         mpn: "JR-S-CL30B",
-        price: 214,
+        price: 389,
         originalPrice: 449,
         stock: 481,
         featured: false,

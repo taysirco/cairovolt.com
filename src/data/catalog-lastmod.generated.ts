@@ -273,24 +273,24 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-22T17:58:50.000Z"
     },
     "joyroom-20w-usb-c-charger": {
-        "hash": "4784f19bf9316f489b4277aff6bc9d7492ab2eae",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "ae1dfbbb5cd9265ac6bd2079185317c52cd0ecbb",
+        "lastmod": "2026-11-25T14:17:12.000Z"
     },
     "joyroom-25w-fast-charger": {
-        "hash": "1f0e5ff1c0892fea7f58c8d286d6ac53d7dcd497",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "da761ff7181f6d01569f269bf766f562461e96da",
+        "lastmod": "2026-11-25T14:17:12.000Z"
     },
     "joyroom-3-in-1-data-cable": {
-        "hash": "de44c8ba95c727f443934b5e637b03fb68a9d592",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "a918d93c2ff379ad1a94f938f6b814616de41aee",
+        "lastmod": "2026-11-25T14:17:12.000Z"
     },
     "joyroom-3-in-1-wireless-charging-station": {
         "hash": "889d5feb2e26050f1b83f8f2264d3a5e3d6e2798",
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "joyroom-30w-fast-charger": {
-        "hash": "feb901f89f4e827b0aa2be24141715e496d5e232",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "3849a904de160a9be497cbfe0e5804dd5d79165a",
+        "lastmod": "2026-11-25T14:17:12.000Z"
     },
     "joyroom-30w-pd-cable": {
         "hash": "97f59776486f6e54ed397f31684fce3e811cd1aa",
@@ -345,8 +345,8 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-22T17:58:50.000Z"
     },
     "joyroom-type-c-lightning-braided": {
-        "hash": "3dd1ae7818226564e95b29450b3c35927ab6a05c",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "eb58d09cfd1ce459cda90c16451cb7cfd8c04f97",
+        "lastmod": "2026-11-25T14:17:12.000Z"
     },
     "joyroom-type-c-to-type-c-cable": {
         "hash": "b448f4ee0ab1f89eab94df1980dabfe4be4b8476",
@@ -365,8 +365,8 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-22T17:58:50.000Z"
     },
     "joyroom-usb-a-type-c-1.2m": {
-        "hash": "c947f042884b4399b7c0c0db32396c7bd2f15c3a",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "08909b4900edd3f90bca85414a081e0c3c165a2e",
+        "lastmod": "2026-11-25T14:17:12.000Z"
     },
     "joyroom-usb-a-type-c-cable": {
         "hash": "2764011d634d7378f484a9dc8ff1eb2067bdecac",
