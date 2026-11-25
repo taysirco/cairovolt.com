@@ -85,7 +85,7 @@ export const iphone_13_pro_max_battery_drain_power_bank: BlogArticle = {
 <ul>
     <li>🚀 <strong>سرعة 27 واط كحد أقصى:</strong> هاتف ايفون 13 برو ماكس يدعم الشحن السلكي بسرعة تصل إلى **27 واط** عند استخدام شاحن أو باور بانك يدعم بروتوكول PD وكابل USB-C to Lightning معتمد.</li>
     <li>🔋 <strong>ترشيحنا للعمل الشاق:</strong> نوصي باستخدام باور بانك مثل <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">باور بانك جويروم 20,000 مللي أمبير بقوة 22.5 واط</a>. هذا الباور بانك يمنح هاتفك حوالي **3 شحنات كاملة**، ويشحن بطارية الايفون الضخمة من 0% إلى 50% في غضون 30 دقيقة فقط بفضل دعم منافذ الـ PD السريعة.</li>
-    <li>🔌 <strong>حل الكل في واحد للنسايين:</strong> ولو انت من النوع اللي دايماً بينسى الكابل أو الشاحن في البيت، وصلنا حديثاً <a href="/anker/power-banks/anker-a1637-wukong-3-in-1-power-bank" style="color:#2563eb;font-weight:600;">باور بانك انكر ووكونج 3 في 1</a> بسعر 3,174 جنيه: كابل USB-C مدمج + فيشة حائط مدمجة تشحن الباور بانك نفسه من أي مكان + سعة 10,000 مللي أمبير — يعني مفيش كابل تنساه تاني.</li>
+    <li>🔌 <strong>حل الكل في واحد للنسايين:</strong> ولو انت من النوع اللي دايماً بينسى الكابل أو الشاحن في البيت، وصلنا حديثاً <a href="/anker/power-banks/anker-a1637-wukong-3-in-1-power-bank" style="color:#2563eb;font-weight:600;">باور بانك انكر ووكونج 3 في 1</a> بسعر 1,900 جنيه: كابل USB-C مدمج + فيشة حائط مدمجة تشحن الباور بانك نفسه من أي مكان + سعة 10,000 مللي أمبير — يعني مفيش كابل تنساه تاني.</li>
 </ul>
 
 <h2>رابعاً: كابلات الشحن الموثوقة لمنع تسريب استهلاك البطارية</h2>
@@ -198,7 +198,7 @@ export const iphone_13_pro_max_battery_drain_power_bank: BlogArticle = {
 <ul>
     <li>🚀 <strong>Peak 27W Speeds:</strong> The iPhone 13 Pro Max can draw up to **27W** of power when connected to a USB-PD wall adapter or power bank via a USB-C to Lightning cable.</li>
     <li>🔋 <strong>High-Capacity Backup:</strong> We recommend using the <a href="/en/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20,000mAh 22.5W Power Bank</a>. It provides enough capacity for **3 full charges** and can power the iPhone from 0% to 50% in just 30 minutes.</li>
-    <li>🔌 <strong>All-in-One Convenience:</strong> If you tend to forget your charger or cable at home, the newly stocked <a href="/en/anker/power-banks/anker-a1637-wukong-3-in-1-power-bank" style="color:#2563eb;font-weight:600;">Anker × Wukong 3-in-1</a> (3,174 EGP) solves it elegantly: a built-in USB-C cable, a built-in wall plug that recharges the bank anywhere, and 10,000mAh of capacity — nothing extra to forget.</li>
+    <li>🔌 <strong>All-in-One Convenience:</strong> If you tend to forget your charger or cable at home, the newly stocked <a href="/en/anker/power-banks/anker-a1637-wukong-3-in-1-power-bank" style="color:#2563eb;font-weight:600;">Anker × Wukong 3-in-1</a> (1,900 EGP) solves it elegantly: a built-in USB-C cable, a built-in wall plug that recharges the bank anywhere, and 10,000mAh of capacity — nothing extra to forget.</li>
 </ul>
 
 <h2>4. Choosing a Certified Charging Cable</h2>

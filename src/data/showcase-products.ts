@@ -136,7 +136,7 @@ export const finderExtraProducts: ShowcaseProduct[] = [
     name: { en: 'Anker Nano 45W Smart Display', ar: 'انكر نانو 45 واط بشاشة ذكية' },
     image: '/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-charger-front-180-foldable-white-cairovolt-thumb.webp',
     price: 1425,
-    originalPrice: 1900,
+    originalPrice: 1750,
     brand: 'Anker',
     href: '/anker/wall-chargers/anker-nano-45w-smart-display-charger',
     categorySlug: 'wall-chargers',
