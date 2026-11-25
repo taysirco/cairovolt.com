@@ -7,7 +7,7 @@ export const anker_prime_fusion_a1339_9600mah_65w = {
         gtin: "",
         gtin13: "",
         mpn: "A1339",
-        price: 3200,
+        price: 3375,
         originalPrice: 3809,
         stock: 209,
         featured: false,

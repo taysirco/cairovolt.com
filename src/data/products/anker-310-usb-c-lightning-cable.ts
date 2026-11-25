@@ -7,7 +7,7 @@ export const anker_310_usb_c_lightning_cable = {
         gtin: "",
         gtin13: "",
         mpn: "A81A5",
-        price: 730,
+        price: 905,
         originalPrice: 1039,
         stock: 271,
         featured: false,

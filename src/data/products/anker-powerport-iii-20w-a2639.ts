@@ -7,7 +7,7 @@ export const anker_powerport_iii_20w_a2639 = {
         gtin: "",
         gtin13: "",
         mpn: "A2149P21",
-        price: 520,
+        price: 695,
         originalPrice: 830,
         stock: 247,
         featured: false,

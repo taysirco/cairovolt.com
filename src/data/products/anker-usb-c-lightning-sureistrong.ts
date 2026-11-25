@@ -8,7 +8,7 @@ export const anker_usb_c_lightning_sureistrong = {
         gtin: "0194644008048",
         gtin13: "0194644008048",
         mpn: "A8652H21",
-        price: 599,
+        price: 774,
         originalPrice: 940,
         stock: 511,
         featured: true,

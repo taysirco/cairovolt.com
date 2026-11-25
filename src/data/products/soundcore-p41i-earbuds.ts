@@ -7,7 +7,7 @@ export const soundcore_p41i_earbuds = {
     gtin: "",
     gtin13: "",
     mpn: "A3937",
-    price: 2439,
+    price: 2614,
     originalPrice: 3070,
     stock: 1070,
     featured: false,

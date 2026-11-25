@@ -8,7 +8,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         gtin: "6956116750060",
         gtin13: "6956116750060",
         mpn: "JR-W050",
-        price: 850,
+        price: 1025,
         originalPrice: 1229,
         stock: 758,
         featured: true,

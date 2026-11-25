@@ -7,7 +7,7 @@ export const anker_pencil_stylus = {
     gtin: "",
     gtin13: "",
     mpn: "A7166",
-    price: 1199,
+    price: 1374,
     originalPrice: 1589,
     stock: 750,
     featured: true,

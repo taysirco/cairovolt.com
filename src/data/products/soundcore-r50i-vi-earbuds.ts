@@ -7,7 +7,7 @@ export const soundcore_r50i_vi_earbuds = {
     gtin: "",
     gtin13: "",
     mpn: "A3969",
-    price: 785,
+    price: 960,
     originalPrice: 1100,
     stock: 992,
     featured: false,

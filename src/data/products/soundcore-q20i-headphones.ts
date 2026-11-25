@@ -7,7 +7,7 @@ export const soundcore_q20i_headphones = {
     gtin: "",
     gtin13: "",
     mpn: "A3004",
-    price: 2522,
+    price: 2697,
     originalPrice: 3280,
     stock: 939,
     featured: true,

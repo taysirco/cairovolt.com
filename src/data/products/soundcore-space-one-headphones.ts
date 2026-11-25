@@ -7,7 +7,7 @@ export const soundcore_space_one_headphones = {
     gtin: "",
     gtin13: "",
     mpn: "A3035",
-    price: 4700,
+    price: 4875,
     originalPrice: 5669,
     stock: 1031,
     featured: true,

@@ -8,7 +8,7 @@ export const anker_521_powerhouse = {
         gtin: "0194644081034",
         gtin13: "0194644081034",
         mpn: "A1720Z21",
-        price: 11000,
+        price: 11175,
         originalPrice: 13030,
         stock: 727,
         featured: false,

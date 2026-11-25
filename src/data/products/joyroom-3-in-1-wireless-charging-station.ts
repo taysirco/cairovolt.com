@@ -8,7 +8,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
         gtin: "6956116750084",
         gtin13: "6956116750084",
         mpn: "JR-WQN01",
-        price: 1206,
+        price: 1381,
         originalPrice: 1690,
         stock: 416,
         featured: true,

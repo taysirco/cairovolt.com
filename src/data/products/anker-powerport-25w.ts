@@ -8,7 +8,7 @@ export const anker_powerport_25w = {
         gtin: "0194644063566",
         gtin13: "0194644063566",
         mpn: "A2656111",
-        price: 550,
+        price: 725,
         originalPrice: 840,
         stock: 1179,
         featured: true,

@@ -8,7 +8,7 @@ export const anker_zolo_a110e_20000 = {
         gtin: "194644277703",
         gtin13: "0194644277703",
         mpn: "A110E-P11",
-        price: 1730,
+        price: 1905,
         originalPrice: 2159,
         stock: 779,
         featured: true,

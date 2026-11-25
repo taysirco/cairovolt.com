@@ -7,7 +7,7 @@ export const soundcore_life_q20_headphones = {
     gtin: "",
     gtin13: "",
     mpn: "A3025",
-    price: 2350,
+    price: 2525,
     originalPrice: 3089,
     stock: 796,
     featured: false,

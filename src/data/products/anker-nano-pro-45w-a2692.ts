@@ -7,7 +7,7 @@ export const anker_nano_pro_45w_a2692 = {
         gtin: "",
         gtin13: "",
         mpn: "A2692",
-        price: 790,
+        price: 965,
         originalPrice: 1180,
         stock: 291,
         featured: false,

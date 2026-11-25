@@ -7,7 +7,7 @@ export const soundcore_c40i_earbuds = {
     gtin: "",
     gtin13: "",
     mpn: "A3331",
-    price: 3050,
+    price: 3225,
     originalPrice: 3759,
     stock: 1045,
     featured: false,

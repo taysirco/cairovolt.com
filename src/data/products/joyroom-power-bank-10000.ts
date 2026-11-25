@@ -8,7 +8,7 @@ export const joyroom_power_bank_10000 = {
         gtin: "6956116750015",
         gtin13: "6956116750015",
         mpn: "JR-T012",
-        price: 1624,
+        price: 1799,
         originalPrice: 2179,
         stock: 462,
         featured: true,
