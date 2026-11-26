@@ -192,7 +192,7 @@ export const iphone_20w_charger_head_price_egypt: BlogArticle = {
 </tbody>
 </table>
 
-<p>في الشاحن الفرق في السعر واضح لصالح انكر بنفس قدرة 20W. في الكابل الأسعار أقرب لبعض — ولو عايز أوفر، <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">كابل جوي روم USB-C</a> بـ {{price:joyroom-type-c-to-type-c-cable}} جنيه. كل المنتجات دي متاحة في <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">كايرو فولت</a> بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) وفاتورة.</p>
+<p>في الشاحن الفرق في السعر واضح لصالح انكر بنفس قدرة 20W. في الكابل الأسعار أقرب لبعض — ولو عايز أوفر، <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">كابل جوي روم USB-C</a> بـ {{price:joyroom-type-c-to-type-c-cable}} جنيه. كل المنتجات دي متاحة في <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">كايرو فولت</a> بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) وفاتورة. وكايرو فولت موزع رسمي لانكر وجوي روم في مصر، والضمان هنا 18 شهر على انكر و12 شهر على أغلب منتجات جوي روم، مع كرت ضمان مطبوع سيرياله بيتراجع على cairovolt.com/verify.</p>
 
 <h2>الكابل: لا تنسى النصف التاني من المعادلة</h2>
 
@@ -398,7 +398,7 @@ export const iphone_20w_charger_head_price_egypt: BlogArticle = {
 </tbody>
 </table>
 
-<p>For the charger, the price gap clearly favours Anker at the same 20W. For the cable, prices are closer — and if you want to save, the <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C cable</a> is {{price:joyroom-type-c-to-type-c-cable}} EGP. All these products are available at <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">CairoVolt</a> with CairoVolt's written store warranty (duration shown on each product page) and a receipt.</p>
+<p>For the charger, the price gap clearly favours Anker at the same 20W. For the cable, prices are closer — and if you want to save, the <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C cable</a> is {{price:joyroom-type-c-to-type-c-cable}} EGP. All these products are available at <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">CairoVolt</a> with CairoVolt's written store warranty (duration shown on each product page) and a receipt. CairoVolt is an official distributor of Anker and Joyroom in Egypt; the warranty is 18 months on Anker and 12 months on most Joyroom products, with a physical warranty card whose serial is checked at cairovolt.com/verify.</p>
 
 <h2>The Cable: Don’t Forget the Other Half of the Equation</h2>
 

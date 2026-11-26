@@ -1,6 +1,13 @@
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import { WARRANTY_PERIOD_PARAGRAPH } from '@/lib/warranty-policy';
+import {
+    DISTRIBUTOR_GRANT,
+    DISTRIBUTOR_STATEMENT,
+    JBL_RELATIONSHIP,
+    WARRANTY_CARD_STATEMENT,
+} from '@/lib/distributor-status';
 
 export const revalidate = 2592000;
 
@@ -65,6 +72,19 @@ export default async function WarrantyPage({ params }: Props) {
                         </h1>
 
                         <div className="space-y-8">
+                            {/* Who issues the warranty — wording from src/lib/distributor-status.ts */}
+                            <div className="rounded-2xl border border-green-200 bg-green-50 p-6 dark:border-green-800 dark:bg-green-900/20">
+                                <p className="font-semibold leading-relaxed text-green-900 dark:text-green-200">
+                                    {DISTRIBUTOR_STATEMENT[isArabic ? 'ar' : 'en']}
+                                </p>
+                                <p className="mt-2 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+                                    {WARRANTY_CARD_STATEMENT[isArabic ? 'ar' : 'en']} {DISTRIBUTOR_GRANT[isArabic ? 'ar' : 'en']}
+                                </p>
+                                <p className="mt-2 text-xs leading-relaxed text-gray-600 dark:text-gray-400">
+                                    {JBL_RELATIONSHIP[isArabic ? 'ar' : 'en']}
+                                </p>
+                            </div>
+
                             {/* Warranty Period */}
                             <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
                                 <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
@@ -74,9 +94,7 @@ export default async function WarrantyPage({ params }: Props) {
                                     {t('period.title')}
                                 </h2>
                                 <p className="mb-6 text-sm leading-relaxed text-gray-600 dark:text-gray-300">
-                                    {isArabic
-                                        ? 'هذه سياسة ضمان كايرو فولت للمنتجات المؤهلة: 18 شهرًا لمنتجات انكر وساوندكور، و12 شهرًا لمنتجات جوي روم وJBL، ما لم تعرض صفحة منتج محدد مدة مختلفة. لا تمثل ضمانًا من الشركة المصنّعة إلا إذا ذُكر ذلك صراحةً مع مستند يمكن التحقق منه. صفحة المنتج وتأكيد الطلب هما مرجع المدة المطبقة وقت الشراء.'
-                                        : 'Eligible Anker and Soundcore products carry an 18-month CairoVolt store warranty, while eligible Joyroom and JBL products carry 12 months unless a specific product page states a different duration. This is not a manufacturer-issued warranty unless expressly stated with verifiable documentation. The product page and order confirmation record the terms applicable at purchase.'}
+                                    {WARRANTY_PERIOD_PARAGRAPH[isArabic ? 'ar' : 'en']}
                                 </p>
                                 <div className="grid md:grid-cols-3 gap-6">
                                     <div className="bg-green-50 dark:bg-green-900/20 rounded-xl p-6 text-center">

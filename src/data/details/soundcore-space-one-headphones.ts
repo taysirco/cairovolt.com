@@ -19,7 +19,7 @@
 //   (A3028, Transport/Indoor/Outdoor + hard case, no LDAC) → Space One (A3035,
 //   Adaptive ANC + LDAC + soft pouch, this file) → Space Q45 (A3040, Adaptive
 //   ANC + LDAC + hard case, longer vendor cell). Sibling files untouched.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const soundcore_space_one_headphones_detail: ProductDetail = {
@@ -135,7 +135,7 @@ export const soundcore_space_one_headphones_detail: ProductDetail = {
             { param: { en: 'Recall status (verified 2026-07-24)', ar: 'حالة الاستدعاء (متحققة 2026-07-24)' }, measured: { en: 'NOT recalled — A3035 not on anker.com/product-recalls; not in CPSC 25-056 (A3102/A3302 speakers)', ar: 'غير مُستدعى — A3035 ليس على anker.com/product-recalls؛ وليس ضمن CPSC 25-056 (سماعات A3102/A3302)' }, note: { en: 'checked 2026-07-24; cabin-legal vs Emirates/Flydubai power-bank USE ban', ar: 'فُحص في 2026-07-24؛ قانوني في الكابينة مقابل حظر استخدام باور بانك الإمارات/فلاي دبي' } },
             { param: { en: 'Vendor ANC % / dB / "2× vs Q30" claim handling', ar: 'التعامل مع ادعاء % / ديسيبل / "ضعف مقابل Q30" من البائع' }, rated: { en: 'Soundcore "up to 98% noise reduction" + "2× stronger voice reduction vs Life Q30" under stated lab conditions', ar: 'ساوندكور "حتى 98% خفض ضوضاء" + "ضعف خفض الصوت مقابل Life Q30" في ظروف مختبر معلنة' }, measured: { en: 'NOT independently measured in dB — qualitative notes only', ar: 'غير مقاس مستقلًا بالديسيبل — ملاحظات نوعية فقط' }, note: { en: 'No isolation dB measured; vendor % not restated as measured', ar: 'لا ديسيبل عزل مقاس؛ ولا تُعاد نسبة البائع كقياس' } },
             { param: { en: 'A/B runtime ladder @ 50% Adaptive/ANC ON (siblings)', ar: 'سلم زمن التشغيل A/B @ 50% Adaptive/ANC مفعّل (أشقاء)' }, measured: { en: 'Q20i ~37 h 42 min · Q30 ~38 h 10 min · Space One 37 h 18 min (this unit) · Q45 ~47 h 10 min', ar: 'Q20i ~37 س 42 د · Q30 ~38 س 10 د · Space One 37 س 18 د (هذه الوحدة) · Q45 ~47 س 10 د' }, note: { en: 'sibling figures from their own gold benches — disclosure only; do not paste Q45/Q30 hours onto CV-EB-A3035-001', ar: 'أرقام الأشقاء من مقاعدهم الذهبية — إفصاح فقط؛ لا تلصق ساعات Q45/Q30 على CV-EB-A3035-001' } },
-            { param: { en: 'Independent-retailer disclosure', ar: 'إفصاح بائع مستقل' }, measured: { en: 'CairoVolt is an independent retailer — not an authorized Soundcore/Anker distributor; bench figures are in-house on CV-EB-A3035-001 only', ar: 'كايرو فولت بائع مستقل — ليس موزعًا معتمدًا لساوندكور/أنكر؛ أرقام المقعد داخلية على CV-EB-A3035-001 فقط' }, note: { en: 'reject "official lab" marketing language', ar: 'ارفض لغة تسويق "مختبر رسمي"' } },
+            { param: { en: 'Seller status', ar: 'صفة البائع' }, measured: { en: 'CairoVolt is an official distributor of Anker\'s Soundcore brand in Egypt; bench figures are in-house on CV-EB-A3035-001 only', ar: 'كايرو فولت موزع رسمي لساوندكور (علامة انكر الصوتية) في مصر؛ أرقام المقعد داخلية على CV-EB-A3035-001 فقط' }, note: { en: 'reject "official lab" marketing language', ar: 'ارفض لغة تسويق "مختبر رسمي"' } },
         ],
         verdict: {
             en: 'Space One (A3035) delivered 51 h 42 min ANC-OFF and 37 h 18 min Adaptive-ANC-ON at 50% — inside ±15% of Soundcore\'s 55 h / 40 h. LDAC verified on S24 (43 h 08 min / 31 h 25 min). Soft pouch, 264.7 g, no hard case. Not recalled.',

@@ -210,7 +210,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 <ul>
 <li><strong>iStyle / Tradeline:</strong> توكيل Apple الرسمي — أغلى سعر بس 100% أصلي + ضمان كامل</li>
 <li><strong>B.TECH / 2B:</strong> أسعار أقل 5-10% + ضمان معتمد</li>
-<li><strong>كايرو فولت:</strong> بدائل أصلية (انكر/جوي روم) بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)</li>
+<li><strong>كايرو فولت:</strong> موزع رسمي لانكر وجوي روم في مصر — بدائل أصلية بضمان كايرو فولت المكتوب (18 شهر على انكر و12 شهر على أغلب منتجات جوي روم، والمدة موضحة في صفحة كل منتج) وكرت ضمان مطبوع سيرياله بيتراجع على cairovolt.com/verify</li>
 <li><strong>محلات الموبايل الصغيرة:</strong> خطر! احتمال التقليد 70%+ — بدون ضمان حقيقي</li>
 </ul>
 
@@ -404,7 +404,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 <ul>
 <li><strong>iStyle / Tradeline:</strong> Official Apple dealer — highest price but 100% genuine + full warranty</li>
 <li><strong>B.TECH / 2B:</strong> 5-10% cheaper + authorized warranty</li>
-<li><strong>CairoVolt:</strong> Genuine alternatives (Anker/Joyroom) with CairoVolt's written store warranty (duration shown on each product page)</li>
+<li><strong>CairoVolt:</strong> An official distributor of Anker and Joyroom in Egypt — genuine alternatives with CairoVolt's written store warranty (18 months on Anker, 12 months on most Joyroom products, duration shown on each product page) and a physical warranty card whose serial is checked at cairovolt.com/verify</li>
 <li><strong>Small mobile shops:</strong> Risky! 70%+ chance of counterfeit — no real warranty</li>
 </ul>
 

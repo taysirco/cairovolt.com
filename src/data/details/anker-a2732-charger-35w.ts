@@ -43,7 +43,7 @@ export const anker_a2732_charger_35w_detail: ProductDetail = {
             '(8) Solo modern USB-C phone (iPhone / Pixel / Samsung) — A2741’s 29.3W C peak beats A2732’s 19.8W C. ' +
             'HEAT: Cairo July sun-park dashboard hit 61.5°C on our Corolla (GM320; SAE J1211 summer class). Anker rates 0–40°C operating window — unplug in direct sun; glovebox; let AC cool ≥5 min before high-load charge. ' +
             'ELECTRICITY: ~35W DC for 10 h engine-off ≈ 350Wh vs a healthy 45Ah 12V pack ~540Wh — one night will not flatten a healthy battery, but multi-day stand drains cranking margin. ' +
-            'CairoVolt is an independent retailer — store warranty only, not an authorized Anker distributor.',
+            'CairoVolt is an official Anker distributor in Egypt; this car charger carries the CairoVolt store warranty.',
         ar:
             'A2732 هو اختيار المنفذين "الأقدم لكن ما زال مفيدًا مشروعًا" — الإجابة عندما تشحن iPhone وأجهزة USB-A عائلية أقدم معًا، أو تقود نوبات ركّاب أجرة متأخرة وتريد حلقة LED دون إضاءة السقف. ' +
             'خريطة A/B الحرجة مقابل الذهب A2741 (لا تخلط). (أ) A2732 = هذه الورقة — USB-C 20 واط PD ثابت + USB-A 15 واط PowerIQ 2.0، متزامن مقاس 34.7 واط، بدون PPS، حلقة LED زرقاء، 32 جرامًا / بروز ~40 ملم. ' +
@@ -58,7 +58,7 @@ export const anker_a2732_charger_35w_detail: ProductDetail = {
             '(8) هاتف USB-C حديث منفرد — ذروة A2741 على C بـ29.3 واط تتفوق على 19.8 واط في A2732. ' +
             'الحرارة: تابلوه يوليو بعد ركن شمسي بلغ 61.5°م على Corolla (GM320؛ فئة SAE J1211 الصيفية). انكر تدرج نطاق تشغيل 0–40°م — افصل في الشمس المباشرة؛ درج القفازات؛ دع التكييف يبرّد ≥5 دقائق قبل شحن بحمل عالٍ. ' +
             'الكهرباء: ~35 واط DC لـ10 ساعات محرك مطفأ ≈ 350 واط·ساعة مقابل عبوة 45Ah 12V سليمة ~540 واط·ساعة — ليلة واحدة لا تفرغ بطارية سليمة، لكن أيامًا متعددة تضعف هامش التشغيل. ' +
-            'كايروفولت متجر مستقل — ضمان المتجر فقط، وليس موزع انكر معتمدًا.',
+            'كايروفولت موزع رسمي لانكر في مصر؛ وشاحن السيارة يحمل ضمان متجر كايروفولت.',
     },
     specifications: {
         'Model': {

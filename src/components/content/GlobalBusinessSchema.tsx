@@ -1,6 +1,11 @@
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { governorates } from '@/data/governorates';
-import { buildBrandSchemaNodes } from '@/lib/brand-entities';
+import { buildBrandSchemaNodes, getBrandEntity } from '@/lib/brand-entities';
+import {
+    buildDistributorCredentialNodes,
+    DISTRIBUTOR_STATEMENT,
+    getOrganizationDescription,
+} from '@/lib/distributor-status';
 import {
     STANDARD_DELIVERY_MAX_DAYS,
     STANDARD_DELIVERY_MIN_DAYS,
@@ -27,8 +32,8 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 name: 'CairoVolt',
                 alternateName: 'كايرو فولت',
                 description: isArabic
-                    ? 'متجر إكسسوارات موبايل وصوتيات في مصر — انكر وجوي روم وساوندكور وJBL مع مواصفات واضحة وسياسات ضمان مكتوبة.'
-                    : 'Mobile accessories and audio store in Egypt — Anker, Joyroom, Soundcore, and JBL products with clear specifications and written warranty policies.',
+                    ? 'متجر إكسسوارات موبايل وصوتيات في مصر وموزع رسمي لانكر وساوندكور وجوي روم — مع منتجات JBL ومواصفات واضحة وسياسات ضمان مكتوبة.'
+                    : 'Mobile accessories and audio store in Egypt and an official distributor of Anker, Soundcore, and Joyroom — plus JBL products, with clear specifications and written warranty policies.',
                 publisher: { '@id': 'https://cairovolt.com/#organization' },
                 inLanguage: ['ar-EG', 'en-EG'],
                 potentialAction: {
@@ -54,9 +59,16 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     value: '8446',
                 },
                 url: 'https://cairovolt.com',
-                description: isArabic
-                    ? 'كايرو فولت بائع تجزئة إلكتروني مستقل لإكسسوارات الموبايل والصوتيات ومنتجات انكر وجوي روم وساوندكور وJBL، مع مواصفات وأسعار وسياسات مكتوبة وخدمة توصيل داخل مصر.'
-                    : 'CairoVolt is an independent online retailer of mobile accessories, audio gear, and Anker, Joyroom, Soundcore, and JBL products, with published specifications, prices, policies, and delivery within Egypt.',
+                // Relationship wording comes from src/lib/distributor-status.ts
+                // (owner-confirmed: official distributor of Anker incl. Soundcore
+                // and Joyroom in Egypt; JBL sold as an independent retailer).
+                description: getOrganizationDescription(isArabic ? 'ar' : 'en'),
+                disambiguatingDescription: DISTRIBUTOR_STATEMENT[isArabic ? 'ar' : 'en'],
+                hasCredential: buildDistributorCredentialNodes(isArabic ? 'ar' : 'en', {
+                    anker: getBrandEntity('anker')!.id,
+                    soundcore: getBrandEntity('soundcore')!.id,
+                    joyroom: getBrandEntity('joyroom')!.id,
+                }),
                 // Topical scope of the store, stated as entities rather than
                 // keywords. This is what an entity resolver reads to decide
                 // which subject area the organization is an authority in.
@@ -90,11 +102,11 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     ],
                 // NOTE — deliberately NOT set on this node:
                 // • `brand`: schema.org defines it as brands *maintained by* the
-                //   organization. CairoVolt resells Anker/Soundcore/Joyroom and
-                //   states plainly that it is not their agent or distributor, so
-                //   claiming them here would contradict that disclosure. The
-                //   Brand entities live as standalone nodes in this @graph and
-                //   are referenced from each Product.brand instead.
+                //   organization. CairoVolt is an official DISTRIBUTOR of
+                //   Anker/Soundcore/Joyroom, not their owner, so the status is
+                //   carried by `hasCredential` above instead. The Brand entities
+                //   live as standalone nodes in this @graph and are referenced
+                //   from each Product.brand and from the credentials.
                 // • `currenciesAccepted` / `paymentAccepted`: LocalBusiness-only
                 //   properties; OnlineStore descends from Organization. Currency
                 //   and COD are stated where they validate — Offer.priceCurrency

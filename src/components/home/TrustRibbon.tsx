@@ -7,11 +7,18 @@ interface TrustRibbonProps {
 
 const trustItems = [
   {
+    icon: 'shield',
+    en: 'Official Anker & Joyroom distributor',
+    ar: 'موزع رسمي لانكر وجوي روم',
+    detailEn: 'Including Soundcore, in Egypt',
+    detailAr: 'ومنها ساوندكور، داخل مصر',
+  },
+  {
     icon: 'check-circle',
-    en: 'CairoVolt warranty records',
-    ar: 'سجل ضمان كايرو فولت',
-    detailEn: 'Check an issued warranty-card serial',
-    detailAr: 'راجع سيريال كرت الضمان الصادر من كايرو فولت',
+    en: 'Printed CairoVolt warranty card',
+    ar: 'كرت ضمان كايرو فولت مطبوع',
+    detailEn: 'Activate and check its serial online',
+    detailAr: 'فعّل سيرياله وراجعه أونلاين',
   },
   {
     icon: 'truck',
@@ -26,13 +33,6 @@ const trustItems = [
     ar: 'ادفع عند الاستلام',
     detailEn: 'Available on eligible orders',
     detailAr: 'متاح للطلبات المؤهلة',
-  },
-  {
-    icon: 'shield',
-    en: 'Clear CairoVolt warranty per product',
-    ar: 'ضمان كايرو فولت واضح حسب المنتج',
-    detailEn: 'No one-size-fits-all claims',
-    detailAr: 'من غير وعود عامة مبهمة',
   },
 ];
 

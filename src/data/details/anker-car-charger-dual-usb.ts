@@ -38,7 +38,7 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
             'HEAT: Cairo July dashboard after sun-park hit 61.0°C on our Corolla (GM320); after 15-min dual USB-A bench load the body peaked 47.1°C at 28.0°C lab ambient. ' +
             'Unplug when parking in direct sun; let AC cool the cabin before long dual-load sessions. ' +
             'ELECTRICITY: ~22W DC draw is negligible vs a Corolla alternator; do not leave dual phones charging for hours with the engine off on a weak 12V battery. ' +
-            'CairoVolt is an independent retailer — store warranty only, not an authorized Anker distributor.',
+            'CairoVolt is an official Anker distributor in Egypt; this car charger carries the CairoVolt store warranty.',
         ar:
             'A2310011 هو "شاحن درج القفازات القديم بمنفذي USB-A" — الاختيار الصادق عندما ما زال الهاتفان يستخدمان كابلات USB-A ولا تحتاج PD/PPS في السيارة. ' +
             'ستة سيناريوهات قاهرية. مناسب لـ: (1) هاتفا أندرويد أقدم / Lightning عبر A في زحمة الطريق الدائري ستوب-آند-جو — PowerIQ فئة 5V/2.4A يُبقي الخرائط حيّة دون ادعاء شحن سريع. ' +
@@ -53,7 +53,7 @@ export const anker_car_charger_dual_usb_detail: ProductDetail = {
             'الحرارة: تابلوه يوليو بعد ركن شمسي بلغ 61.0°م على Corolla لدينا (GM320)؛ بعد حمل USB-A مزدوج 15 دقيقة على المنضدة بلغت ذروة الجسم 47.1°م عند محيطة مختبر 28.0°م. ' +
             'افصل عند الركن في الشمس؛ دع التكييف يبرّد قبل جلسات حمل مزدوج طويلة. ' +
             'الكهرباء: سحب ~22 واط DC ضئيل مقابل مولد Corolla؛ لا تترك هاتفين يشحنان ساعات والمحرك مطفأ على بطارية 12V ضعيفة. ' +
-            'كايروفولت متجر مستقل — ضمان المتجر فقط، وليس موزع انكر معتمدًا.',
+            'كايروفولت موزع رسمي لانكر في مصر؛ وشاحن السيارة يحمل ضمان متجر كايروفولت.',
     },
     specifications: {
         'Model': {

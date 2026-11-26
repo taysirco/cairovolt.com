@@ -19,6 +19,7 @@ import {
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { resolveMinPriceToken } from '@/lib/meta-price-token';
 import { getLiveIndex } from '@/data/blog-index.generated';
+import { getDistributorDisclosure } from '@/lib/distributor-status';
 import { getAgentLabSummary, type AgentLocale } from '@/lib/agent-lab-export';
 import { formatLabIndexMarkdown, getLabIndexRows } from '@/lib/lab-index';
 
@@ -89,6 +90,7 @@ function catalogFooter(locale: AgentLocale, localePrefix: string): string {
             `- صفحة المختبر: ${BASE_URL}${localePrefix}/lab`,
             `- تعليمات الذكاء الاصطناعي: ${BASE_URL}/llms.txt`,
             `- شحن مجاني فوق ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} جنيه`,
+            `- صفة البائع: ${getDistributorDisclosure('ar')}`,
             '',
         ].join('\n')
         : [
@@ -100,6 +102,7 @@ function catalogFooter(locale: AgentLocale, localePrefix: string): string {
             `- Lab page: ${BASE_URL}${localePrefix}/lab`,
             `- AI instructions: ${BASE_URL}/llms.txt`,
             `- Free shipping above ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} EGP`,
+            `- Seller status: ${getDistributorDisclosure('en')}`,
             '',
         ].join('\n');
 }

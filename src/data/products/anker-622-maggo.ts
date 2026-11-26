@@ -70,7 +70,7 @@ export const anker_622_maggo = {
     </ul>
 </div>
 `,
-                features: ["🧲 Listed 7.5W Magnetic Wireless Charging", "📱 Built-in Foldable Kickstand", "📐 Check listed 13mm thickness", "🔌 USB-C Two-Way Charging", "🔄 Verify Pass-Through Support in Manual", "🧾 Current Anker Warranty Terms", "🔎 Verify ratings on the unit and manufacturer documentation", "✈️ Check Current Airline Rules"],
+                features: ["🧲 Listed 7.5W Magnetic Wireless Charging", "📱 Built-in Foldable Kickstand", "📐 Check listed 13mm thickness", "🔌 USB-C Two-Way Charging", "🔄 Verify Pass-Through Support in Manual", "🧾 CairoVolt Store Warranty Terms", "🔎 Verify ratings on the unit and manufacturer documentation", "✈️ Check Current Airline Rules"],
                 metaTitle: "Anker 622 MagGo Wireless | MagSafe iPhone | COD",
                 metaDesc: "Snap-on wireless power for iPhone — Anker 622 MagGo with magnetic MagSafe charging, built-in kickstand and slim design. Genuine, store warranty & COD in Egypt.",
                 faqs: [
@@ -126,7 +126,7 @@ export const anker_622_maggo = {
     </ul>
 </div>
 `,
-                features: ["🧲 شحن لاسلكي مغناطيسي معلن 7.5 واط", "📱 حامل مدمج قابل للطي", "📐 تحقق من السمك المعلن 13مم", "🔌 USB-C في الاتجاهين", "🔄 تحقق من دعم الشحن التمريري في الدليل", "🧾 راجع شروط ضمان انكر الحالية", "🔎 تحقق من القيم على الوحدة ووثائق الشركة", "✈️ تحقق من قواعد الطيران الحالية"],
+                features: ["🧲 شحن لاسلكي مغناطيسي معلن 7.5 واط", "📱 حامل مدمج قابل للطي", "📐 تحقق من السمك المعلن 13مم", "🔌 USB-C في الاتجاهين", "🔄 تحقق من دعم الشحن التمريري في الدليل", "🧾 راجع شروط ضمان متجر كايرو فولت", "🔎 تحقق من القيم على الوحدة ووثائق الشركة", "✈️ تحقق من قواعد الطيران الحالية"],
                 metaTitle: "باور بانك انكر 622 MagGo | شحن لاسلكي ايفون",
                 metaDesc: "طاقة لاسلكية تلتصق بظهر ايفونك — انكر 622 MagGo بشحن مغناطيسي MagSafe وحامل مدمج وتصميم نحيف. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [

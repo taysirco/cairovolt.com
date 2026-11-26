@@ -4,6 +4,7 @@ import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { getBrandEntity } from '@/lib/brand-entities';
 import { buildProductImageSchema } from '@/lib/image-licensing';
 import { getCairoVoltWarrantyPolicy } from '@/lib/warranty-policy';
+import { getBrandRelationshipLabel, isOfficialDistributorBrand } from '@/lib/distributor-status';
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { arSpecLabel } from '@/lib/spec-labels-ar';
 import {
@@ -432,7 +433,19 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 '@type': 'Country',
                 name: 'Egypt',
             },
-            seller: { '@id': 'https://cairovolt.com/#organization' },
+            // Inlined name/type for the same reason as shipping and returns
+            // below (cross-<script> @id references are not resolved), plus the
+            // seller's relationship to this product's brand — "Official Anker
+            // distributor in Egypt", or "Independent JBL retailer" for JBL.
+            seller: {
+                '@type': 'OnlineStore',
+                '@id': 'https://cairovolt.com/#organization',
+                name: 'CairoVolt',
+                url: 'https://cairovolt.com',
+                ...(getBrandRelationshipLabel(product.brand, isArabic ? 'ar' : 'en')
+                    ? { description: getBrandRelationshipLabel(product.brand, isArabic ? 'ar' : 'en') }
+                    : {}),
+            },
             // Inline the shipping + return details (Google's merchant-listings
             // validator does not resolve cross-<script> @id references, so a
             // bare @id read as "missing shippingDetails/hasMerchantReturnPolicy").
@@ -489,10 +502,10 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 merchantReturnLink: `${baseUrl}${isArabic ? '' : '/en'}/return-policy`,
             },
             acceptedPaymentMethod: 'http://purl.org/goodrelations/v1#COD',
-            // CairoVolt's OWN written store warranty, from the same policy source
-            // the page copy renders — explicitly not a manufacturer warranty.
-            // It is the strongest differentiator we have and was invisible to
-            // machines while being stated in prose on every product page.
+            // CairoVolt's OWN written store warranty (physical warranty card,
+            // serial checked at /verify), from the same policy source the page
+            // copy renders. For Anker/Soundcore/Joyroom it is issued by CairoVolt
+            // as an official distributor; for JBL it stays a retailer warranty.
             ...(() => {
                 const months = getCairoVoltWarrantyPolicy(product.slug, product.brand).months;
                 return months
@@ -504,9 +517,13 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                                 value: months,
                                 unitCode: 'MON',
                             },
-                            warrantyScope: isArabic
-                                ? `ضمان كايرو فولت المكتوب لمدة ${months} شهر — ليس ضمان الشركة المصنّعة`
-                                : `CairoVolt written store warranty, ${months} months — not a manufacturer warranty`,
+                            warrantyScope: isOfficialDistributorBrand(product.brand)
+                                ? (isArabic
+                                    ? `ضمان متجر كايرو فولت المكتوب لمدة ${months} شهرًا بكرت ضمان مطبوع — تصدره كايرو فولت، وهي ${getBrandRelationshipLabel(product.brand, 'ar')}`
+                                    : `CairoVolt written store warranty, ${months} months, with a physical warranty card — issued by CairoVolt as an ${getBrandRelationshipLabel(product.brand, 'en').replace(/^Official/, 'official')}`)
+                                : (isArabic
+                                    ? `ضمان كايرو فولت المكتوب لمدة ${months} شهر — ليس ضمان الشركة المصنّعة`
+                                    : `CairoVolt written store warranty, ${months} months — not a manufacturer warranty`),
                         },
                     }
                     : {};

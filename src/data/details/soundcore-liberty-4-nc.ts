@@ -4,7 +4,7 @@
 //   ≠ R50i (A3949) ≠ P30i / R50i NC (A3959). Do NOT paste sibling stopwatch rows onto this page.
 // Battery SPECS from Soundcore Liberty 4 NC User Guide A3947C: 53mAh×2 buds + 800mAh case
 //   (prior sheet used ~55–60 / ~500 vendor-class guesses — corrected to published SPECS).
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const soundcore_liberty_4_nc_detail: ProductDetail = {

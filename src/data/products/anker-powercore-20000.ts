@@ -58,7 +58,7 @@ export const anker_powercore_20000 = {
                     { question: "Can I charge two devices at once?", answer: "The model lists two USB-A outputs. Check the printed total-output table because power may be shared between them." },
                     { question: "How long does the power bank take to recharge?", answer: "Use the exact input rating and manufacturer table for A1260011. Time varies with the source, cable, temperature and use during charging." },
                     { question: "Is it allowed on airplanes?", answer: "The listed 72Wh is below the common 100Wh cabin threshold, but approval is carrier- and route-specific. Confirm current rules and keep power banks out of checked baggage unless explicitly permitted." },
-                    { question: "What warranty applies?", answer: "Review the current warranty period, seller eligibility, exclusions and claim process shown for this listing." },
+                    { question: "What warranty applies?", answer: "CairoVolt sells this model as an official Anker distributor in Egypt, with the CairoVolt store warranty (18 months) and a physical warranty card. Review the exclusions and claim process shown for this listing." },
                     { question: "Does it support USB-C PD fast charging?", answer: "Do not assume USB-C PD support from the 20,000mAh name. Compare the exact USB-A output table with your device and cable requirements." }
                 ]
             },
@@ -89,7 +89,7 @@ export const anker_powercore_20000 = {
                     { question: "هل يمكن شحن جهازين معاً؟", answer: "الموديل يذكر منفذي USB-A. راجع جدول الخرج الكلي المطبوع لأن القدرة قد تتوزع بينهما." },
                     { question: "كم يستغرق شحن الباور بانك؟", answer: "استخدم قدرة الإدخال الدقيقة وجدول الشركة للموديل A1260011. تتغير المدة حسب المصدر والكابل والحرارة والاستخدام أثناء الشحن." },
                     { question: "هل مسموح به في الطائرة؟", answer: "السعة المعلنة 72Wh أقل من حد 100Wh الشائع للمقصورة، لكن الموافقة مرتبطة بشركة الطيران والرحلة. تحقق من القواعد الحالية." },
-                    { question: "ما الضمان المطبق؟", answer: "راجع مدة الضمان الحالية وأهلية البائع والاستثناءات وطريقة المطالبة الموضحة لهذه القائمة." },
+                    { question: "ما الضمان المطبق؟", answer: "تبيع كايرو فولت هذا الموديل بصفتها موزعًا رسميًا لانكر في مصر، بضمان متجر كايرو فولت لمدة 18 شهرًا وكرت ضمان مطبوع. راجع الاستثناءات وطريقة المطالبة الموضحة لهذه القائمة." },
                     { question: "هل يدعم USB-C PD؟", answer: "لا تستنتج دعم USB-C PD من اسم السعة. قارن جدول مخارج USB-A الدقيق بمتطلبات الجهاز والكابل." }
                 ]
             }

@@ -9,7 +9,7 @@
 //   L = latency qualitative (no ms); IP = vendor-stated only per §7.7 F rule.
 // CRITICAL SKU hygiene: A3213 ≠ P20i/P25i (A3949 TWS) ≠ P40i (ANC TWS) ≠ Liberty 4 Pro.
 //   Do NOT paste TWS case-total hours or ANC dB onto this neckband page.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const soundcore_life_u2i_neckband_detail: ProductDetail = {

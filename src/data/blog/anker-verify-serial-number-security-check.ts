@@ -159,7 +159,7 @@ export const anker_verify_serial_number_security_check: BlogArticle = {
 <li><strong>وقف الاستخدام فوراً:</strong> مش آمن تفضل تستخدمه حتى بعد الاكتشاف</li>
 <li><strong>الرجوع للبائع:</strong> لو اشتريت من محل وادعى إنه أصلي — طالب باسترداد المبلغ</li>
 <li><strong>الإبلاغ عن التقليد:</strong> ممكن تبلّغ Anker عبر موقعهم بالبيانات — ده بيساعدهم في مكافحة التقليد</li>
-<li><strong>التالي، اشتري من بائع بفاتورة وضمان مكتوب:</strong> بائع بيذكر اسمه وكيانه القانوني في الفاتورة والضمان — زي كايرو فولت، متجر مستقل بضمان مكتوب (المدة موضحة في صفحة كل منتج)</li>
+<li><strong>التالي، اشتري من بائع بفاتورة وضمان مكتوب:</strong> بائع بيذكر اسمه وكيانه القانوني في الفاتورة والضمان — زي كايرو فولت، موزع رسمي لانكر في مصر بضمان مكتوب (18 شهر، والمدة موضحة في صفحة كل منتج)</li>
 </ol>
 
 <h2>لماذا بعض الناس لا يلاحظون الفرق؟</h2>
@@ -207,7 +207,7 @@ export const anker_verify_serial_number_security_check: BlogArticle = {
 <li><strong>العلبة أو الباركود لوحدهم:</strong> مش دليل على الأصالة</li>
 </ul>
 
-<p>كايرو فولت متجر مستقل، ومنتجات انكر عندنا عليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). تقدر تتصفحها على <a href="/anker/wall-chargers">صفحة الشواحن</a>، <a href="/anker/cables">صفحة الكابلات</a>، و<a href="/anker/power-banks">صفحة البور بانكات</a>.</p>
+<p>كايرو فولت موزع رسمي لانكر في مصر، ومنتجات انكر عندنا عليها ضمان متجر كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) وكرت ضمان مطبوع سيرياله بيتراجع على صفحة التحقق في كايرو فولت. تقدر تتصفحها على <a href="/anker/wall-chargers">صفحة الشواحن</a>، <a href="/anker/cables">صفحة الكابلات</a>، و<a href="/anker/power-banks">صفحة البور بانكات</a>.</p>
 
 <h2>خلاصة نظام Anker Verify</h2>
 
@@ -372,7 +372,7 @@ export const anker_verify_serial_number_security_check: BlogArticle = {
 <li><strong>Stop using it immediately:</strong> Don't continue use even after discovering it's fake</li>
 <li><strong>Return to the seller:</strong> If a store claimed it was genuine — demand a refund</li>
 <li><strong>Report to Anker:</strong> You can report counterfeit products via their website — helps them track and combat fakes</li>
-<li><strong>Replace from a seller with an invoice and a written warranty:</strong> one that names its legal identity on both — such as CairoVolt, an independent store whose written store warranty duration is shown on each product page</li>
+<li><strong>Replace from a seller with an invoice and a written warranty:</strong> one that names its legal identity on both — such as CairoVolt, an official Anker distributor in Egypt whose written store warranty (18 months) is also shown on each product page</li>
 </ol>
 
 <h2>Why Many People Don't Notice the Problem Immediately</h2>

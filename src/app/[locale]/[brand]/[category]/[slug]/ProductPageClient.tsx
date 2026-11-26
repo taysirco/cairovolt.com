@@ -71,6 +71,7 @@ const ShareButtons = dynamic(() => import('@/components/products/ShareButtons'),
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
 import { getCairoVoltWarrantyPolicy } from '@/lib/warranty-policy';
+import { getBrandRelationshipLabel, isOfficialDistributorBrand } from '@/lib/distributor-status';
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { STANDARD_RETURN_WINDOW_DAYS } from '@/lib/merchant-product-data';
 import { getDiscountInfo } from '@/lib/pricing-display';
@@ -926,6 +927,22 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
 
                         {/* Trust row — COD, delivery estimate and shipping policy (published policy, estimate-only wording) */}
                         <div className="space-y-1.5 text-sm text-gray-700 dark:text-gray-300 -mt-2">
+                            {/* Seller status + warranty card (src/lib/distributor-status.ts):
+                                Anker, Soundcore and Joyroom only — JBL is sold as an
+                                independent retailer and gets no distributor line. */}
+                            {isOfficialDistributorBrand(brand) && (
+                                <p className="flex items-center gap-1.5 font-semibold text-blue-800 dark:text-blue-300">
+                                    <span aria-hidden="true">🛡️</span>
+                                    <Link href={isRTL ? '/about' : '/en/about'} className="hover:underline">
+                                        {getBrandRelationshipLabel(brand, isRTL ? 'ar' : 'en')}
+                                        {warrantyPolicy.months
+                                            ? (isRTL
+                                                ? ` — ضمان كايرو فولت ${warrantyPolicy.months} شهرًا بكرت ضمان مطبوع`
+                                                : ` — ${warrantyPolicy.months}-month CairoVolt warranty with a printed warranty card`)
+                                            : ''}
+                                    </Link>
+                                </p>
+                            )}
                             {deliveryIntelligence.cash_on_delivery && (
                                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-green-50 dark:bg-green-950/30 border border-green-200 dark:border-green-900/50 font-bold text-green-700 dark:text-green-400">
                                     <span aria-hidden="true">💵</span>

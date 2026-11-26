@@ -140,7 +140,7 @@ export const best_anker_soundcore_bluetooth_speakers_egypt: BlogArticle = {
 </ul>
 
 <h2>الضمان المحلي المكتوب والدعم الفني لسبيكرات انكر وساوندكور بمصر</h2>
-<p>تحظى جميع سبيكرات Soundcore الأصلية المُباعة عبر كايرو فولت — متجر مستقل — بضمان كايرو فولت المكتوب ضد عيوب الصناعة (المدة موضحة في صفحة كل منتج). يرجى الاحتفاظ بالكرتونة الأصلية للمنتج التي تحمل ملصق الرقم التسلسلي (Serial Number) الفريد؛ حيث يعتبر الرقم التسلسلي والكرتونة شرطاً أساسياً لقبول طلب الاستبدال. كما نوفر في كايرو فولت لعملائنا الكرام إمكانية التواصل مباشرة مع فريق الدعم الفني لمساعدتهم في تقديم طلبات الضمان وتنسيق مواعيد تسليم المنتجات التالفة واستلام البدائل الجديدة بكل سهولة ويسر دون أي تعقيد.</p>
+<p>تحظى جميع سبيكرات Soundcore الأصلية المُباعة عبر كايرو فولت — موزع رسمي لساوندكور (علامة انكر الصوتية) في مصر — بضمان كايرو فولت المكتوب ضد عيوب الصناعة (18 شهرًا، والمدة موضحة في صفحة كل منتج) وكرت ضمان مطبوع يُراجَع سيرياله على cairovolt.com/verify. يرجى الاحتفاظ بالكرتونة الأصلية للمنتج التي تحمل ملصق الرقم التسلسلي (Serial Number) الفريد؛ حيث يعتبر الرقم التسلسلي والكرتونة شرطاً أساسياً لقبول طلب الاستبدال. كما نوفر في كايرو فولت لعملائنا الكرام إمكانية التواصل مباشرة مع فريق الدعم الفني لمساعدتهم في تقديم طلبات الضمان وتنسيق مواعيد تسليم المنتجات التالفة واستلام البدائل الجديدة بكل سهولة ويسر دون أي تعقيد.</p>
 
 <h2>دليل الاختيار النهائي — أيهما تشتري؟</h2>
 <ul>
@@ -285,7 +285,7 @@ export const best_anker_soundcore_bluetooth_speakers_egypt: BlogArticle = {
 </ul>
 
 <h2>Written Local Store Warranty and Technical Support in Egypt</h2>
-<p>Buyers of all original Soundcore speakers from CairoVolt — an independent retailer — are covered by CairoVolt's written store warranty against manufacturing defects (duration shown on each product page). Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim. Additionally, our customers at CairoVolt can contact our support team directly to help them register their devices, submit warranty requests, coordinate replacement schedules, and verify serial numbers seamlessly without any administrative hassle.</p>
+<p>Buyers of all original Soundcore speakers from CairoVolt — an official distributor of Anker's Soundcore brand in Egypt — are covered by CairoVolt's written store warranty against manufacturing defects (18 months, also shown on each product page) and a physical warranty card whose serial is checked at cairovolt.com/verify. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim. Additionally, our customers at CairoVolt can contact our support team directly to help them register their devices, submit warranty requests, coordinate replacement schedules, and verify serial numbers seamlessly without any administrative hassle.</p>
 
 <h2>Decision Framework — Which Speaker Fits You?</h2>
 <ul>

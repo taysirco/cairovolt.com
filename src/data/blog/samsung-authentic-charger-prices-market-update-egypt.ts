@@ -126,7 +126,7 @@ export const samsung_authentic_charger_prices_market_update_egypt: BlogArticle =
                 },
                 {
                     question: 'ما هي فترة ضمان شواحن انكر من كايرو فولت؟',
-                    answer: 'شواحن انكر على كايرو فولت تأتي بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) ضد عيوب الصناعة، مع فاتورة. كايرو فولت متجر مستقل، والضمان ضمان المتجر.'
+                    answer: 'شواحن انكر على كايرو فولت تأتي بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) ضد عيوب الصناعة، مع فاتورة. كايرو فولت موزع رسمي لانكر في مصر، والضمان اسمه ضمان متجر كايرو فولت.'
                 },
                 {
                     question: 'هل يؤثر الشحن السريع بقوة 45 واط على عمر البطارية؟',
@@ -233,7 +233,7 @@ export const samsung_authentic_charger_prices_market_update_egypt: BlogArticle =
                 },
                 {
                     question: 'What warranty do Anker chargers from CairoVolt carry?',
-                    answer: 'Anker chargers on CairoVolt come with CairoVolt\'s written store warranty (duration shown on each product page) against manufacturing defects, plus an invoice. CairoVolt is an independent retailer, and the warranty is the store\'s own.'
+                    answer: 'Anker chargers on CairoVolt come with CairoVolt\'s written store warranty (duration shown on each product page) against manufacturing defects, plus an invoice. CairoVolt is an official Anker distributor in Egypt, and the warranty is the CairoVolt store warranty.'
                 },
                 {
                     question: 'Does charging at 45W degrade the battery faster than 25W?',

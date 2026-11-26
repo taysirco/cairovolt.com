@@ -89,7 +89,7 @@ export const soundcore_audio_content: CategoryContent = {
       - **ألعاب:** راجع دعم Game Mode وزمن التأخير المعلن للموديل والجهاز المصدر.
 
       **ليه تختار ساوندكور المناسبة لك؟**
-      يتيح تطبيق ساوندكور ميزات مثل EQ وHearID والتحديثات في الموديلات الداعمة. عدم تعرف التطبيق لا يثبت وحده أن السماعة مقلدة؛ راجع توافق الموديل ووسيلة الشركة الرسمية واحتفظ بالفاتورة. ضمان كايرو فولت وموعد التوصيل التقديري موضحان حسب المنتج والعنوان.
+      يتيح تطبيق ساوندكور ميزات مثل EQ وHearID والتحديثات في الموديلات الداعمة. عدم تعرف التطبيق لا يثبت وحده أن السماعة مقلدة؛ راجع توافق الموديل ووسيلة الشركة الرسمية واحتفظ بالفاتورة. كايرو فولت موزع رسمي لساوندكور (علامة انكر الصوتية) في مصر، وتصلك السماعة بضمان متجر كايرو فولت لمدة 18 شهرًا وكرت ضمان مطبوع؛ وتفاصيل الضمان وموعد التوصيل التقديري موضحة حسب المنتج والعنوان.
 
       ⬅️ تصفّح [مركز ساوندكور الكامل](/soundcore) لكل منتجات ساوندكور — ايربودز وسبيكرات في صفحة واحدة. أو تسوق [كابل انكر](/anker/cables) لشحن السماعة، [باور بانك انكر](/anker/power-banks) لتشغيلها في الرحلات، أو [سبيكر ساوندكور](/soundcore/speakers) لصوت أعلى.
     `,
@@ -128,7 +128,7 @@ export const soundcore_audio_content: CategoryContent = {
       - **Gaming:** Check Game Mode support and the model's stated latency with your source device.
 
       **Choosing the Right Soundcore Model:**
-      The Soundcore app provides EQ and features such as HearID or firmware updates on compatible models. App detection alone is not proof of authenticity; check model support, use the manufacturer's available official guidance, and retain your invoice. CairoVolt warranty duration and terms are listed per product.
+      The Soundcore app provides EQ and features such as HearID or firmware updates on compatible models. App detection alone is not proof of authenticity; check model support, use the manufacturer's available official guidance, and retain your invoice. CairoVolt is an official distributor of Anker's Soundcore brand in Egypt; Soundcore earbuds come with the CairoVolt store warranty (18 months) and a physical warranty card, with terms listed per product.
 
       ⬅️ Visit the full [Soundcore Hub](/en/soundcore) to browse all Soundcore products — earbuds and speakers in one place. Also check [Anker cables](/en/anker/cables) to charge them, [Anker power banks](/en/anker/power-banks) for travel, or [Soundcore speakers](/en/soundcore/speakers) for louder sound.
     `,

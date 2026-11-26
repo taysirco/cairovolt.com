@@ -66,7 +66,7 @@
     },
     "Footer": {
         "aboutUs": "About Us",
-        "aboutDescription": "CairoVolt is an independent Egyptian online retailer of genuine Anker, Soundcore, JBL & Joyroom products — clear prices, an invoice with every order, and a written store warranty.",
+        "aboutDescription": "CairoVolt is an Egyptian online store and an official distributor of Anker, Soundcore & Joyroom in Egypt, also offering genuine JBL products — clear prices, an invoice with every order, and a written store warranty with a physical warranty card.",
         "shopAnker": "Shop Anker",
         "shopJoyroom": "Shop Joyroom",
         "shopJbl": "Shop JBL",
@@ -293,14 +293,14 @@
                 "q1": "How long is the warranty?",
                 "a1": "Eligible Anker and Soundcore products carry an 18-month CairoVolt store warranty, while eligible Joyroom and JBL products carry 12 months unless a specific product page states otherwise. The product page and order confirmation record the terms applicable at purchase.",
                 "q2": "How do I claim warranty?",
-                "a2": "Contact us on WhatsApp with your order number and describe the issue.",
+                "a2": "Contact us on WhatsApp with your order number or warranty-card serial and describe the issue; CairoVolt reviews the case directly.",
                 "q3": "Is the warranty transferable?",
                 "a3": "Warranty is tied to the original purchase, not transferable."
             },
             "products": {
                 "title": "Products",
                 "q1": "Are these original products?",
-                "a1": "We sell each item under the brand and model identified on its product page, with the available images and specifications. A CairoVolt warranty record is not a manufacturer authenticity certificate; match the model and packaging on receipt and use the written return policy if anything differs.",
+                "a1": "Yes. CairoVolt is an official distributor of Anker (including Soundcore) and Joyroom in Egypt, so those products reach you through an official distribution channel with an invoice and the CairoVolt store warranty; the JBL products listed are genuine and sold by CairoVolt as an independent retailer. Match the model and packaging on receipt; the warranty-card serial confirms a CairoVolt warranty record and is not a manufacturer authenticity certificate.",
                 "q2": "What's the difference between Anker and Joyroom?",
                 "a2": "Power, ports, compatibility, price, and warranty vary by model. Compare the actual product details rather than relying on the brand name alone.",
                 "q3": "Can I get product advice?",
@@ -382,17 +382,17 @@
         },
         "relationship": {
             "title": "Our Relationship With Brands",
-            "description": "CairoVolt is an independent online retailer in Egypt. We do not claim to be the official agent or authorized distributor of Anker, Soundcore, Joyroom, or JBL, and the CairoVolt warranty is not a manufacturer warranty, unless a specific product page expressly says otherwise and provides verifiable documentation. Brand names and logos belong to their owners and are used to identify products offered for sale. CairoVolt is a brand of Taysir Smart Investment LLC, registered in Egypt under Commercial Register No. 8446 (GAFI, Gamasa Investment Office), Tax Registration No. 777471566, based in New Damietta."
+            "description": "CairoVolt is an official distributor of Anker (including its Soundcore audio brand) and Joyroom in Egypt. The status was granted directly by Anker and Joyroom, and the distribution document is available for review on request at info@cairovolt.com. JBL products are sold by CairoVolt as an independent retailer; we are not an official JBL distributor. Eligible products carry the written CairoVolt store warranty with a physical warranty card — a warranty issued and serviced directly by CairoVolt, not the manufacturer's international warranty. Brand names and logos belong to their owners and are used to identify products offered for sale. CairoVolt is a brand of Taysir Smart Investment LLC, registered in Egypt under Commercial Register No. 8446 (GAFI, Gamasa Investment Office), Tax Registration No. 777471566, based in New Damietta."
         },
         "whyUs": {
             "title": "Why Choose Us",
             "original": {
-                "title": "Clear Product Details",
-                "description": "Brand, model, specifications, and price are shown before purchase"
+                "title": "Official Anker & Joyroom Distributor",
+                "description": "Anker, Soundcore and Joyroom products reach you from an official distributor in Egypt, with model, specifications and price shown before purchase"
             },
             "warranty": {
                 "title": "CairoVolt Warranty",
-                "description": "Duration and coverage are stated on each eligible product page"
+                "description": "A written term on each eligible product page, plus a physical warranty card whose serial you activate on the verify page"
             },
             "prices": {
                 "title": "Clear Prices",
@@ -512,7 +512,7 @@
             },
             "warranty": {
                 "title": "Product Warranty",
-                "content": "Eligible products include a written CairoVolt warranty. Duration and coverage vary by model and are stated on the product page and in the warranty policy. CairoVolt warranty is not a manufacturer-issued warranty unless that relationship is expressly stated with verifiable documentation."
+                "content": "Eligible products include the written CairoVolt store warranty and a physical warranty card. Duration and coverage vary by model and are stated on the product page and in the warranty policy. The warranty is issued and serviced directly by CairoVolt — an official distributor of Anker (including Soundcore) and Joyroom in Egypt — and is not the manufacturer's international warranty."
             },
             "liability": {
                 "title": "Limitation of Liability",

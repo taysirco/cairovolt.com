@@ -69,9 +69,9 @@ export const how_to_identify_original_anker: BlogArticle = {
                                                                                                                                                                                                 <p> فغالباً المنتج مقلد.</p>
 
                                                                                                                                                                                                     <h3> 5. اشتري بفاتورة وضمان مكتوب 🏪</h3>
-<p> الطريقة العملية لتقليل خطر المقلد: اشتري من بائع بيديك <strong>فاتورة وضمان مكتوب</strong>، واستخدم أداة التحقق من الشركة المصنعة لو متاحة. CairoVolt متجر مستقل (مش وكيل رسمي) بيبيع منتجات انكر الأصلية في مصر ويقدم:</p>
+<p> الطريقة العملية لتقليل خطر المقلد: اشتري من بائع بيديك <strong>فاتورة وضمان مكتوب</strong>، واستخدم أداة التحقق من الشركة المصنعة لو متاحة. CairoVolt موزع رسمي لانكر في مصر (والصفة دي ممنوحة مباشرةً من انكر)، وبيقدم مع منتجات انكر الأصلية:</p>
 <ul>
-<li>ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)</li>
+<li>ضمان متجر كايرو فولت المكتوب (18 شهر على انكر، والمدة موضحة في صفحة كل منتج) بكرت ضمان مطبوع</li>
 <li> فاتورة </li>
 <li> التحقق من سيريال ضمان كايرو فولت على <a href="/verify" style="color:#2563eb">صفحة التحقق</a></li>
                                                                                                                                                                                                                         <li> دعم واتساب 24 / 7 </li>
@@ -151,9 +151,9 @@ export const how_to_identify_original_anker: BlogArticle = {
                             </ul>
 
                                 <h3> 5. Buy With an Invoice and a Written Warranty 🏪</h3>
-<p> The practical way to cut the risk of fakes: buy from a seller that gives you <strong>an invoice and a written warranty</strong>, and use the manufacturer's verification tool where one exists. CairoVolt, an independent Egyptian store (not an official agent) selling genuine Anker, offers:</p>
+<p> The practical way to cut the risk of fakes: buy from a seller that gives you <strong>an invoice and a written warranty</strong>, and use the manufacturer's verification tool where one exists. CairoVolt, an official Anker distributor in Egypt (a status granted directly by Anker), offers with genuine Anker products:</p>
 <ul>
-<li>CairoVolt's written store warranty (duration shown on each product page)</li>
+<li>CairoVolt's written store warranty (18 months on Anker, also shown on each product page) with a physical warranty card</li>
 <li>Invoice</li>
 <li>CairoVolt warranty-serial check on our <a href="/en/verify" style="color:#2563eb">verification page</a></li>
                                         <li>24/7 WhatsApp support</li>

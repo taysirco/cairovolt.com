@@ -219,7 +219,7 @@ export const anker_usb_c_charging_cables_powerline_vs_flow: BlogArticle = {
                 },
                 {
                     question: 'إيه الضمان على كابلات انكر PowerLine من كايرو فولت؟',
-                    answer: 'على كايرو فولت — متجر مستقل — الكابل عليه ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) ضد عيوب التصنيع، ومش بيغطي القطع من سوء الاستخدام أو الحرارة الشديدة. أي ضمان بتعلنه انكر في أسواق تانية بيتبع شروط انكر هناك.'
+                    answer: 'على كايرو فولت — موزع رسمي لانكر في مصر — الكابل عليه ضمان كايرو فولت المكتوب (18 شهر، والمدة موضحة في صفحة كل منتج) ضد عيوب التصنيع، ومش بيغطي القطع من سوء الاستخدام أو الحرارة الشديدة. أي ضمان بتعلنه انكر في أسواق تانية بيتبع شروط انكر هناك.'
                 }
             ]
         },
@@ -414,7 +414,7 @@ export const anker_usb_c_charging_cables_powerline_vs_flow: BlogArticle = {
                 },
                 {
                     question: 'What warranty do Anker PowerLine cables from CairoVolt carry?',
-                    answer: 'On CairoVolt — an independent retailer — the cable carries CairoVolt\'s written store warranty (duration shown on each product page) against manufacturing defects; it does not cover damage from misuse or extreme heat. Any warranty Anker advertises in other markets follows Anker\'s terms there.'
+                    answer: 'On CairoVolt — an official Anker distributor in Egypt — the cable carries CairoVolt\'s written store warranty (18 months, also shown on each product page) against manufacturing defects; it does not cover damage from misuse or extreme heat. Any warranty Anker advertises in other markets follows Anker\'s terms there.'
                 }
             ]
         }

@@ -273,7 +273,7 @@ export const soundcore_flare_2_partycast_led_speaker_review: BlogArticle = {
 </ul>
 
 <h2>CairoVolt store warranty and support in Egypt</h2>
-<p>Buyers of all original Soundcore speakers in Egypt receive CairoVolt's written store warranty (duration shown on each product page) — CairoVolt is an independent online retailer. It covers manufacturing defects such as sudden battery degradation or speaker driver failures; replacement or refund follows the inspection result and the published warranty terms. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim through CairoVolt customer support.</p>
+<p>Buyers of all original Soundcore speakers in Egypt receive CairoVolt's written store warranty (duration shown on each product page) — CairoVolt is an official distributor of Anker's Soundcore brand in Egypt. It covers manufacturing defects such as sudden battery degradation or speaker driver failures; replacement or refund follows the inspection result and the published warranty terms. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim through CairoVolt customer support.</p>
 
 <h2>LED Lighting — Gimmick or Real Value?</h2>
 <p>Some people see LED as purely decorative. In real-world use — it does make a genuine difference to the atmosphere. The 10 modes include: pulse with the beat, static colors, Rainbow color gradient, and a fast "Flash" mode for upbeat music. The Soundcore app gives you full control over mode and color selection.</p>

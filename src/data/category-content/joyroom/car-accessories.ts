@@ -78,7 +78,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
                         }
                         ,{
                             question: 'ما ضمان اكسسوارات جوي روم للسيارة؟',
-                            answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال تختلف حسب المنتج وتظهر في صفحته وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
+                            answer: 'تبيع كايرو فولت اكسسوارات جوي روم للسيارة بصفتها موزعًا رسميًا لجوي روم في مصر، بضمان متجر كايرو فولت لمدة 12 شهرًا وكرت ضمان مطبوع تراجع سيرياله على صفحة التحقق. نطاق التغطية وشروط الاستبدال تظهر في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         }
                     ],
                 },
@@ -144,7 +144,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
                         },
                         {
                             question: 'What warranty covers Joyroom car accessories?',
-                            answer: 'CairoVolt warranty duration, coverage, and replacement terms vary by product and appear on its page and the warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
+                            answer: 'CairoVolt sells Joyroom car accessories as an official Joyroom distributor in Egypt, with the CairoVolt store warranty (12 months) and a physical warranty card whose serial you can check at cairovolt.com/verify. Coverage and replacement terms appear on the product page and the warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
                         }
                     ],
                 }

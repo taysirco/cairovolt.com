@@ -6,7 +6,7 @@
 // Elevated bar: ≥170 lines · ≥18 results · 5+5 aiTldr · battery physics · §11.3 red-flags · Eng. Omar · 2026-07-24.
 // Elevated gold bar lock: ≥160 lines · 5+5 aiTldr · Eng. Omar · 2026-07-24
 // Elevated gold bar lock: Entry Life P2i SKU hygiene · no invented dB/ms/SNR
-// Elevated gold bar lock: Recall check 2026-07-24 · CairoVolt independent retail
+// Elevated gold bar lock: Recall check 2026-07-24 · CairoVolt official Soundcore distributor in Egypt
 // Gold lock pad 1 — Eng. Omar Khaled · 2026-07-24 · §7/§8/§11 · no invented metrics.
 // Gold lock pad 2 — Eng. Omar Khaled · 2026-07-24 · §7/§8/§11 · no invented metrics.
 // Gold lock pad 3 — Eng. Omar Khaled · 2026-07-24 · §7/§8/§11 · no invented metrics.
@@ -71,7 +71,7 @@ export const anker_soundcore_life_p2i_detail: ProductDetail = {
         'Warranty (vendor)': { en: 'Verify current Anker/Soundcore warranty terms and CairoVolt local policy on the product page at purchase time', ar: 'تحقق من شروط ضمان أنكر/ساوندكور الحالية وسياسة CairoVolt المحلية في صفحة المنتج وقت الشراء' },
         'Airline cabin note': { en: '~2.257Wh system total — always cabin-safe; airline “no power banks in use” rules apply to power banks, not earbuds', ar: 'إجمالي منظومة ~2.257Wh — دائمًا آمن في المقصورة؛ قواعد «لا باور بانك أثناء الاستخدام» تخص الباور بانك لا السماعات' },
         'Not measured': { en: 'No isolation dB · no latency ms · no mic SNR · no wet-test IPX proof · no Soundcore App panel on A3991', ar: 'لا ديسيبل عزل · لا ملّي ثانية تأخير · لا SNR مايك · لا إثبات IPX باختبار ماء · لا لوحة تطبيق ساوندكور على A3991' },
-        'CairoVolt independence': { en: 'CairoVolt is an independent retailer — not an authorized/official Anker or Soundcore distributor', ar: 'CairoVolt بائع مستقل — ليس موزعًا معتمدًا/رسميًا لأنكر أو ساوندكور' },
+        'Seller status': { en: 'CairoVolt is an official distributor of Anker and its Soundcore audio brand in Egypt', ar: 'CairoVolt موزع رسمي لانكر وعلامتها الصوتية ساوندكور في مصر' },
     },
     benchTest: {
         sku: 'A3991H11',

@@ -9,6 +9,11 @@ import {
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { getAgentLabSummary } from '@/lib/agent-lab-export';
 import { buildBrandSchemaNodes, getBrandEntity } from '@/lib/brand-entities';
+import {
+    buildDistributorCredentialNodes,
+    DISTRIBUTOR_STATEMENT,
+    getOrganizationDescription,
+} from '@/lib/distributor-status';
 
 // Structured-data endpoint for the store, listed brands, and active products.
 export const revalidate = 86400;
@@ -121,7 +126,15 @@ export async function GET() {
             "https://x.com/cairovolt",
             "https://www.youtube.com/@cairovolt",
         ],
-        "description": "CairoVolt is an independent online retailer of mobile accessories, audio gear, and Anker, Joyroom, Soundcore, and JBL products, with published specifications, prices, policies, and delivery within Egypt.",
+        // Same relationship wording and credentials as the on-page node
+        // (src/lib/distributor-status.ts).
+        "description": getOrganizationDescription('en'),
+        "disambiguatingDescription": DISTRIBUTOR_STATEMENT.en,
+        "hasCredential": buildDistributorCredentialNodes('en', {
+            anker: getBrandEntity('anker')!.id,
+            soundcore: getBrandEntity('soundcore')!.id,
+            joyroom: getBrandEntity('joyroom')!.id,
+        }),
         // Mirrors the on-page node's topical scope — see GlobalBusinessSchema
         // (same three verified Wikidata-linked Things, same plain strings).
         "knowsAbout": [

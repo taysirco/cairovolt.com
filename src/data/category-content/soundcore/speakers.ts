@@ -69,7 +69,7 @@ export const soundcore_speakers_content: CategoryContent = {
                         },
                         {
                             question: 'ما ضمان سماعة انكر في مصر؟',
-                            answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال مكتوبة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
+                            answer: 'تبيع كايرو فولت سبيكرات ساوندكور بصفتها موزعًا رسميًا لساوندكور (علامة انكر الصوتية) في مصر، بضمان متجر كايرو فولت لمدة 18 شهرًا وكرت ضمان مطبوع تراجع سيرياله على صفحة التحقق. نطاق التغطية وشروط الاستبدال مكتوبة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         },
                         {
                             question: 'كام ساعة بطارية سماعة انكر ساوندكور؟',
@@ -137,7 +137,7 @@ PartyCast can link compatible models and versions according to the count and met
                         },
                         {
                             question: 'What warranty covers a Soundcore speaker in Egypt?',
-                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are written on the product page and warranty policy. Delivery timing is an estimate from the confirmed address, and cash on delivery is available for eligible orders.'
+                            answer: 'CairoVolt sells Soundcore speakers as an official distributor of Anker\'s Soundcore brand in Egypt, with the CairoVolt store warranty (18 months) and a physical warranty card whose serial you can check at cairovolt.com/verify. Coverage and replacement terms are written on the product page and warranty policy. Delivery timing is an estimate from the confirmed address, and cash on delivery is available for eligible orders.'
                         },
                         {
                             question: 'How many hours of battery does a Soundcore speaker last?',

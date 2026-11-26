@@ -155,7 +155,7 @@ export const anker_power_bank_prices_all_capacities_egypt: BlogArticle = {
 </ol>
 
 <h2>سادساً: شراء باور بانك انكر بضمان حقيقي في السوق المصري</h2>
-<p>المعيار مش اسم المحل؛ المعيار: بائع بيدي فاتورة وضمان مكتوب باسمه وكيانه القانوني، وموديل وقدرات مطابقة لمستندات انكر، وكود أمان سليم على anker.com/verify لو العلبة عليها ملصق. كايرو فولت متجر مستقل، ومنتجات انكر عندنا عليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج).</p>
+<p>المعيار مش اسم المحل؛ المعيار: بائع بيدي فاتورة وضمان مكتوب باسمه وكيانه القانوني، وموديل وقدرات مطابقة لمستندات انكر، وكود أمان سليم على anker.com/verify لو العلبة عليها ملصق. كايرو فولت موزع رسمي لانكر في مصر، ومنتجات انكر عندنا عليها ضمان متجر كايرو فولت المكتوب (18 شهر، والمدة موضحة في صفحة كل منتج) وكرت ضمان مطبوع سيرياله بيتراجع على cairovolt.com/verify.</p>
 
 <h2>سابعاً: إرشادات معملية لإطالة العمر الافتراضي لخلايا انكر</h2>
 <p>للحفاظ على كفاءة خلايا الليثيوم لسنين، اتبع القواعد دي:</p>
@@ -325,7 +325,7 @@ export const anker_power_bank_prices_all_capacities_egypt: BlogArticle = {
 </ol>
 
 <h2>6. Buying an Anker Power Bank with a Real Warranty in Egypt</h2>
-<p>The test is not the shop\'s name. Buy from a seller that issues an invoice and a written warranty naming its legal identity; match the model and ratings to Anker\'s documentation; and where the box carries one, check the security code at anker.com/verify. CairoVolt is an independent store, and Anker products from us carry CairoVolt\'s written store warranty (duration shown on each product page).</p>
+<p>The test is not the shop\'s name. Buy from a seller that issues an invoice and a written warranty naming its legal identity; match the model and ratings to Anker\'s documentation; and where the box carries one, check the security code at anker.com/verify. CairoVolt is an official Anker distributor in Egypt, and Anker products from us carry CairoVolt\'s written store warranty (18 months, also shown on each product page) and a physical warranty card whose serial is checked at cairovolt.com/verify.</p>
 
 <h2>7. Lab Guidelines for Extending Anker Cell Life</h2>
 <p>To keep lithium cells healthy for years:</p>

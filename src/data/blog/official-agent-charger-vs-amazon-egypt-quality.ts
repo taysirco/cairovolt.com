@@ -40,7 +40,7 @@ export const official_agent_charger_vs_amazon_egypt_quality: BlogArticle = {
 </div>
 
 <h2>أولاً: فهم طبيعة نموذج العمل (وكيل رسمي ضد منصة مفتوحة)</h2>
-<p>عشان نفهم سر تفاوت الأسعار، لازم نفهم إحنا بنشتري من مين بالظبط. الوكيل الرسمي (مثل راية أو بي تك لمنتجات سامسونج وأبل، أو توكيل أنكر المعتمد في مصر) هو مستورد مباشر بيشتري المنتجات من المصنع الرئيسي للشركة الأم، ويخضع لشروط جودة صارمة، ويدفع جمارك وضرائب كاملة، ويوفر مراكز صيانة حقيقية لاستبدال التالف. التكلفة التشغيلية دي كلها بتنعكس على سعر البيع النهائي للمستهلك.</p>
+<p>عشان نفهم سر تفاوت الأسعار، لازم نفهم إحنا بنشتري من مين بالظبط. الوكيل الرسمي (مثل راية أو بي تك لمنتجات سامسونج وأبل) هو مستورد مباشر بيشتري المنتجات من المصنع الرئيسي للشركة الأم، ويخضع لشروط جودة صارمة، ويدفع جمارك وضرائب كاملة، ويوفر مراكز صيانة حقيقية لاستبدال التالف. التكلفة التشغيلية دي كلها بتنعكس على سعر البيع النهائي للمستهلك.</p>
 <p>أما أمازون مصر، فهو مش بائع واحد. أمازون عبارة عن **سوق مفتوح (Marketplace)** بيجمع بين أربعة أنواع من البائعين:</p>
 <ul style="line-height:2;">
     <li><strong>أمازون كبائع مباشر (Sold by Amazon):</strong> هنا أمازون هي اللي بتستورد البضاعة بنفسها وتضمن أصليتها 100%.</li>
@@ -130,7 +130,7 @@ export const official_agent_charger_vs_amazon_egypt_quality: BlogArticle = {
 <p>الخلاصة اللي بننصحك بيها هي التوازن والذكاء المالي. لو عايز توفر وتشتري من أمازون مصر، التزم بالقواعد دي:</p>
 <ul style="line-height:2;">
     <li>اشترِ الموديلات الأصلية بأسعار معتدلة من متجر أنكر أو جويروم الرسمي على المنصة، واستغل أيام العروض السنوية زي عروض نوفمبر وكاش باك البنوك والمحافظ الإلكترونية لتوفير يصل لـ 30%.</li>
-    <li>لو الشاحن مش متوفر ببائع موثوق على أمازون، متخاطرش بشراءه من بائعين مجهولين؛ اشتريه من بائع بيديك فاتورة ضريبية وضمان مكتوب باسمه. ولمنتجات انكر وساوندكور، لو العلبة عليها ملصق كود أمان (Scratch-off) اكشطه واتحقق منه على anker.com/verify — الملصق ده موجود على الوحدات المباعة في المحلات (Offline) بس، وغيابه مش دليل إن المنتج مقلد. العلبة أو الباركود لوحدهم مش دليل أصالة.</li>
+    <li>لو الشاحن مش متوفر ببائع موثوق على أمازون، متخاطرش بشراءه من بائعين مجهولين؛ اشتريه من بائع بيديك فاتورة ضريبية وضمان مكتوب باسمه. وللعلم، كايرو فولت موزع رسمي لانكر (ومنها ساوندكور) وجوي روم في مصر، ومنتجاتهم عندنا بضمان متجر كايرو فولت المكتوب (18 شهر لانكر وساوندكور و12 شهر لأغلب منتجات جوي روم، والمدة في صفحة كل منتج) وكرت ضمان مطبوع سيرياله بيتراجع على cairovolt.com/verify. ولمنتجات انكر وساوندكور، لو العلبة عليها ملصق كود أمان (Scratch-off) اكشطه واتحقق منه على anker.com/verify — الملصق ده موجود على الوحدات المباعة في المحلات (Offline) بس، وغيابه مش دليل إن المنتج مقلد. العلبة أو الباركود لوحدهم مش دليل أصالة.</li>
     <li>تأكد من خلو منفذ الشاحن من أي عيوب قبل استخدامه؛ ودايماً اختبره في البداية على جهاز قديم أو باور بانك قبل ما توصله بموبايلك الأساسي الغالي للتأكد من استقرار الجهد وعدم حدوث سخونة مفرطة.</li>
 </ul>
 
@@ -173,7 +173,7 @@ export const official_agent_charger_vs_amazon_egypt_quality: BlogArticle = {
 </div>
 
 <h2>1. Understanding the Business Model (Official Agent vs. Open Marketplace)</h2>
-<p>To understand the price discrepancies, we must analyze the sales structure. An official agent (such as Raya or B.Tech for Samsung and Apple, or the authorized Anker agent in Egypt) is a direct importer buying products directly from the parent company's factories. They must adhere to strict quality control, pay full customs and local taxes, and maintain physical customer service centers for warranty claims and replacements. These operating costs are reflected in the final retail price.</p>
+<p>To understand the price discrepancies, we must analyze the sales structure. An official agent (such as Raya or B.Tech for Samsung and Apple) is a direct importer buying products directly from the parent company's factories. They must adhere to strict quality control, pay full customs and local taxes, and maintain physical customer service centers for warranty claims and replacements. These operating costs are reflected in the final retail price.</p>
 <p>Amazon Egypt, on the other hand, is an **open marketplace** hosting four distinct types of sellers:</p>
 <ul style="line-height:2;">
     <li><strong>Amazon as a Direct Seller (Sold by Amazon):</strong> Amazon imports the goods directly and guarantees 100% authenticity.</li>
@@ -264,7 +264,7 @@ export const official_agent_charger_vs_amazon_egypt_quality: BlogArticle = {
 <ul style="line-height:2;">
 <li>🛒 Buy original chargers on Amazon Egypt during discount events (like White Friday or bank promotions) but **only** from the brand's official store or directly from Amazon. We recommend the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W charger</a> for excellent performance.</li>
 <li>🛒 Pair your adapter with original cables. Do not combine a premium charger with a cheap, unverified cable. Check out our <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;">Anker PowerLine cables</a> for certified safety.</li>
-<li>🛒 If the specific model is out of stock from official sellers on Amazon, do not take the risk with unverified third-party sellers. Buy from a seller that gives you a tax invoice and a written warranty in its own name. For Anker and Soundcore, if the box carries a scratch-off security label, check the code at anker.com/verify — the label appears on offline-sold units only, and a missing label is not proof of a fake. Packaging or a barcode alone does not prove authenticity. It is cheaper than replacing your phone's mainboard.</li>
+<li>🛒 If the specific model is out of stock from official sellers on Amazon, do not take the risk with unverified third-party sellers. Buy from a seller that gives you a tax invoice and a written warranty in its own name. For reference, CairoVolt is an official distributor of Anker (including its Soundcore audio brand) and Joyroom in Egypt; those products ship with the written CairoVolt store warranty (18 months on Anker and Soundcore, 12 months on most Joyroom products, with the term shown on each product page) and a physical warranty card whose serial is checked at cairovolt.com/verify. For Anker and Soundcore, if the box carries a scratch-off security label, check the code at anker.com/verify — the label appears on offline-sold units only, and a missing label is not proof of a fake. Packaging or a barcode alone does not prove authenticity. It is cheaper than replacing your phone's mainboard.</li>
 </ul>
 
 <p>Ultimately, a genuine charger is not just an accessory; it is the first line of defense for your phone's battery health and safety against voltage fluctuations. Investing a small additional amount upfront to purchase an authentic, high-quality power adapter from a verified seller is the smartest financial decision you can make. It protects you from the massive, unexpected costs of repairing a fried phone motherboard or replacing a degraded lithium battery damaged by a cheap, unverified counterfeit brick.</p>`,

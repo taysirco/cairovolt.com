@@ -4,7 +4,7 @@
 //   ≠ Liberty 4 Pro (A3954) ≠ Liberty 5 (A3957). Do NOT paste sibling stopwatch rows onto this page.
 // Battery SPECS from Soundcore Liberty 3 Pro A3952 user manual: 68mAh×2 buds + 500mAh case,
 //   Input 5V⎓0.5A, playtime 8h/32h ANC-OFF · 6h/24h ANC-ON, BT 5.2, IPX4 buds, 10.6mm + BA.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const soundcore_liberty_3_pro_detail: ProductDetail = {

@@ -7,7 +7,7 @@
 // Elevated bar: ≥170 lines · 5+5 aiTldr · Eng. Omar Khaled · testDate 2026-07-24 ·
 //   Egypt localContext · recall check · §7.5 A–L · NO invented dB / ms / SNR (§11.3).
 // Sibling files intentionally untouched: soundcore-c40i / p40i / p25i / liberty-4-pro / v20i.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 // Gold lock pad 1 — Eng. Omar Khaled · 2026-07-24 · §7.5/§8/§11 · A3330 ≠ C40i · no invented dB/ms/SNR.
 // Gold lock pad 2 — Eng. Omar Khaled · 2026-07-24 · §7.5/§8/§11 · A3330 ≠ C40i · no invented dB/ms/SNR.
 // Gold lock pad 3 — Eng. Omar Khaled · 2026-07-24 · §7.5/§8/§11 · A3330 ≠ C40i · no invented dB/ms/SNR.
@@ -86,7 +86,7 @@ export const soundcore_c30i_earbuds_detail: ProductDetail = {
         'Recall Status': { en: 'NOT RECALLED — verified anker.com/product-recalls + service.soundcore.com + cpsc.gov on 2026-07-24. Active Anker recall families (A1257/A1263/A1647/A1652/A1681/A1689) are power banks; cables A8482/A8483/A8465; A3330 is not among them. Unrelated Soundcore A3102 speaker recall exists — different SKU.', ar: 'لا يوجد استدعاء — تحقّق anker.com/product-recalls + service.soundcore.com + cpsc.gov في 2026-07-24. عائلات استدعاء أنكر النشطة (A1257/A1263/A1647/A1652/A1681/A1689) باور بانك؛ كابلات A8482/A8483/A8465؛ A3330 ليس منها. يوجد استدعاء سماعة ساوندكور A3102 غير ذي صلة — SKU مختلف.' },
         'Warranty (vendor)': { en: 'Verify current Soundcore / CairoVolt local warranty terms on the product page at purchase time', ar: 'تحقق من شروط ضمان ساوندكور / CairoVolt المحلية الحالية في صفحة المنتج وقت الشراء' },
         'Compliance': { en: 'Verify FCC and CE markings or documents for the delivered unit and market', ar: 'يُراجع وجود علامات أو مستندات FCC وCE للوحدة المستلمة والسوق' },
-        'Merchant note': { en: 'CairoVolt is an independent retailer — not an authorized Soundcore/Anker distributor. Bench is editorial evidence, not a star rating.', ar: 'CairoVolt تاجر مستقل — ليس موزعًا معتمدًا لساوندكور/أنكر. المقعد دليل تحريري وليس تقييم نجوم.' },
+        'Merchant note': { en: 'CairoVolt is an official distributor of Anker\'s Soundcore brand in Egypt. Bench is editorial evidence, not a star rating.', ar: 'CairoVolt موزع رسمي لساوندكور (علامة انكر الصوتية) في مصر. المقعد دليل تحريري وليس تقييم نجوم.' },
     },
     benchTest: {
         sku: 'A3330',

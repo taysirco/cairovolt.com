@@ -64,7 +64,7 @@ export const anker_a2741_charger_30w = {
                 faqs: [
                     { question: "How should I compare the A2741 with A2732?", answer: "Compare the current printed dimensions, weight, single-port and shared output tables, PD/PPS profiles, socket clearance, live prices and warranty terms. Do not infer the better choice from size or one wattage alone." },
                     { question: "Does PPS make a difference for Samsung phones?", answer: "PPS can enable a compatible negotiated charging mode only when the phone, charger profile and cable all meet the requirements. Check the exact phone and A2741 output table." },
-                    { question: "It's only 15g — is it durable enough?", answer: "The 15g figure describes the listed size, not service life. Verify the supplied model and use it within the printed automotive input and temperature limits; review the current Anker warranty terms for coverage." },
+                    { question: "It's only 15g — is it durable enough?", answer: "The 15g figure describes the listed size, not service life. Verify the supplied model and use it within the printed automotive input and temperature limits; review the CairoVolt store warranty terms for coverage." },
                     { question: "What happens when both ports charge simultaneously?", answer: "Power is shared according to the printed A2741 table and may change by port combination. Each device also draws only a supported profile; verify the unit rather than assuming an approximate split." },
                     { question: "What does the warranty cover?", answer: "Coverage, exclusions, proof of purchase and service steps are controlled by the written warranty and return policy in effect for this SKU. Review those terms before ordering and keep the invoice." }
                 ]
@@ -111,9 +111,9 @@ export const anker_a2741_charger_30w = {
                 faqs: [
                     { question: "إزاي أقارنه مع A2732؟", answer: "قارن الأبعاد والوزن وجدول المنفذ الواحد والتوزيع المشترك وبروفايلات PD/PPS ومساحة المقبس والسعر والضمان الحاليين. لا تحسم الاختيار من الحجم أو رقم قدرة واحد." },
                     { question: "الـ PPS بيفرق إيه مع سامسونج؟", answer: "يسمح PPS بتفاوض متدرج للجهد والتيار مع هواتف متوافقة. يجب أن يدعم الهاتف والكابل وملف الشاحن الوضع نفسه، لذلك راجع مواصفات جهاز سامسونج والقيم المطبوعة على A2741 بدل افتراض معدل ثابت." },
-                    { question: "15 جرام بس — ده متين كفاية؟", answer: "وزن 15 جرام يصف الحجم المعلن وليس العمر الافتراضي. تحقق من الموديل واستخدمه ضمن قيم دخل السيارة والحرارة المطبوعة، وراجع شروط ضمان انكر الحالية لمعرفة التغطية." },
+                    { question: "15 جرام بس — ده متين كفاية؟", answer: "وزن 15 جرام يصف الحجم المعلن وليس العمر الافتراضي. تحقق من الموديل واستخدمه ضمن قيم دخل السيارة والحرارة المطبوعة، وراجع شروط ضمان متجر كايرو فولت لمعرفة التغطية." },
                     { question: "لما المنفذين بيشحنوا في نفس الوقت بيحصل إيه؟", answer: "تتوزع القدرة حسب جدول A2741 المطبوع وقد تتغير حسب تركيب المنافذ. يسحب كل جهاز بروفايلاً يدعمه؛ تحقق من الوحدة ولا تفترض توزيعاً تقريبياً ثابتاً." },
-                    { question: "الضمان بيغطي إيه؟", answer: "التغطية والأهلية تخضعان لشروط ضمان انكر وسياسة كايرو فولت المنشورتين وقت الطلب. احتفظ بالفاتورة والعلبة وتواصل برقم الموديل ووصف العطل للتقييم." }
+                    { question: "الضمان بيغطي إيه؟", answer: "التغطية والأهلية تخضعان لشروط ضمان متجر كايرو فولت المنشورة وقت الطلب، وكايرو فولت موزع رسمي لانكر في مصر وتتولى الضمان مباشرةً. احتفظ بالفاتورة والعلبة وتواصل برقم الموديل ووصف العطل للتقييم." }
                 ]
             }
         },

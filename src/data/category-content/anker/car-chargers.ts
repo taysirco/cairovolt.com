@@ -67,7 +67,7 @@ export const anker_car_chargers_content: CategoryContent = {
                         },
                         {
                             question: 'ما ضمان شاحن سيارة انكر في مصر؟',
-                            answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال موضحة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
+                            answer: 'تبيع كايرو فولت شواحن سيارة انكر بصفتها موزعًا رسميًا لانكر في مصر، بضمان متجر كايرو فولت لمدة 18 شهرًا وكرت ضمان مطبوع تراجع سيرياله على صفحة التحقق. نطاق التغطية وشروط الاستبدال موضحة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         },
                         {
                             question: 'هل بيشحن ايفون 17 بسرعة في السيارة؟',
@@ -137,7 +137,7 @@ It depends on the vehicle: some 12V outlets switch off with the engine while oth
                         },
                         {
                             question: 'What warranty covers an Anker car charger in Egypt?',
-                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are shown on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
+                            answer: 'CairoVolt sells Anker car chargers as an official Anker distributor in Egypt, with the CairoVolt store warranty (18 months) and a physical warranty card whose serial you can check at cairovolt.com/verify. Coverage and replacement terms are shown on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
                         },
                         {
                             question: 'Will it charge an iPhone 17 quickly in the car?',

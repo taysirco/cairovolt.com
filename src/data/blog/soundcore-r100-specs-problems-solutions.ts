@@ -279,7 +279,7 @@ export const soundcore_r100_specs_problems_solutions: BlogArticle = {
 </ul>
 
 <h2>CairoVolt store warranty and support in Egypt</h2>
-<p>CairoVolt does not stock the Soundcore R100 right now, so if you bought an R100 elsewhere, your warranty is with the seller you bought it from — keep the invoice and the retail box with the printed Serial Number. Soundcore models CairoVolt does sell (such as the <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a>) come with an invoice and CairoVolt's written store warranty (duration shown on each product page) against manufacturing defects. CairoVolt is an independent online retailer.</p>
+<p>CairoVolt does not stock the Soundcore R100 right now, so if you bought an R100 elsewhere, your warranty is with the seller you bought it from — keep the invoice and the retail box with the printed Serial Number. Soundcore models CairoVolt does sell (such as the <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a>) come with an invoice and CairoVolt's written store warranty (duration shown on each product page) against manufacturing defects. CairoVolt is an official distributor of Anker's Soundcore brand in Egypt.</p>
 <p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. Always keep your written purchase receipt to identify the seller responsible for servicing your product.</p>
 
 <h2>If You Buy a Replacement From CairoVolt</h2>

@@ -8,7 +8,7 @@
 // CRITICAL SKU hygiene: A3951 ≠ Liberty 3 Pro (A3952) ≠ Liberty 4 NC (A3947)
 //   ≠ Liberty 4 Pro (A3954) ≠ Liberty 5 (A3957). Do NOT paste sibling stopwatch rows.
 // Battery SPECS from Soundcore A3951 user manual: 55mAh×2 buds + 500mAh case @ 3.7V.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const soundcore_liberty_air_2_pro_detail: ProductDetail = {

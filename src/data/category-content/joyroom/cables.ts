@@ -86,7 +86,7 @@ export const joyroom_cables_content: CategoryContent = {
                         }
                         ,{
                             question: 'ما ضمان كابل جوي روم من CairoVolt؟',
-                            answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال موضحة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
+                            answer: 'تبيع كايرو فولت كابلات جوي روم بصفتها موزعًا رسميًا لجوي روم في مصر، بضمان متجر كايرو فولت لمدة 12 شهرًا (و24 أو 36 شهرًا على كابلَي Type-C إلى Lightning المحددين في صفحتيهما) وكرت ضمان مطبوع تراجع سيرياله على صفحة التحقق. نطاق التغطية وشروط الاستبدال موضحة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         }
                     ],
                 },
@@ -155,7 +155,7 @@ Data support and speed vary by model. Some cables use USB 2.0 speeds and some ma
                         },
                         {
                             question: 'What warranty covers a Joyroom cable from CairoVolt?',
-                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are shown on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
+                            answer: 'CairoVolt sells Joyroom cables as an official Joyroom distributor in Egypt, with the CairoVolt store warranty (12 months; 24 or 36 months on the two Type-C to Lightning cables that state it on their pages) and a physical warranty card whose serial you can check at cairovolt.com/verify. Coverage and replacement terms are shown on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
                         }
                     ],
                 }

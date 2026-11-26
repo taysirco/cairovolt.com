@@ -18,8 +18,10 @@
  *   - (warning) markup (<tag, **, ](…) in quickAnswer / FAQ answers
  *   - (warning) quickAnswer over 80 words
  *   - (warning) externalReferences pointing at CairoVolt-controlled hosts
- *   - (warning) a sentence pairing CairoVolt/"our store" with authorized /
- *     official / certified / وكيل / موزع … (CairoVolt is an independent retailer)
+ *   - (warning) a sentence pairing CairoVolt/"our store" with an exclusivity or
+ *     agent claim (حصري / الوحيد / الوكيل / توكيل / exclusive / official agent),
+ *     or putting JBL under the official-distributor status (CairoVolt is an
+ *     official distributor of Anker/Soundcore/Joyroom only)
  *   - (warning) AR vs EN literal EGP amounts near the same product link differ
  *   - (warning) relatedArticles slug with no article file
  *   - --prices: (warning) literal EGP amount near a product link or model code
@@ -149,7 +151,15 @@ const TOKEN_ALLOWED_PATH = /^translations\.(ar|en)\.(quickAnswer|content|faq\[\d
 const SELF_CONTROLLED_HOST = /cairovolt|cairovolteg|althaqelco|gamesuy|yumpu\.com|rubygems\.org/i;
 const PRODUCT_HREF_RE = /href=\\?"(?:\/en)?\/(?:anker|soundcore|joyroom|jbl)\/[a-z0-9-]+\/([a-z0-9.-]+)\\?"/g;
 const RETAILER_SUBJECT = /(CairoVolt|كايرو فولت|عندنا|متجرنا)/i;
-const RETAILER_CLAIM = /(authori[sz]ed|official|certified|معتمد|رسمي|وكيل|موزع)/i;
+// CairoVolt IS an official distributor of Anker (incl. Soundcore) and Joyroom
+// in Egypt (owner-confirmed 2026-11-26, src/lib/distributor-status.ts), so
+// "official distributor" / "موزع رسمي" is now correct. What still needs a
+// human look: exclusivity or agent claims (never granted), and any sentence
+// that puts JBL under the distributor status (JBL is sold as an independent
+// retailer).
+const RETAILER_CLAIM = /(exclusive|sole (distributor|agent)|the only (official|authori[sz]ed)|authori[sz]ed agent|official agent|certified (dealer|reseller)|حصري|الوحيد|الوكيل|توكيل|وكيل رسمي|وكيلًا|وكيلاً)/i;
+const JBL_DISTRIBUTOR_CLAIM = /JBL[^.؟!]*(official distributor|authori[sz]ed distributor|موزع رسمي|موزع معتمد)|(official distributor|authori[sz]ed distributor|موزع رسمي|موزع معتمد)[^.؟!]*JBL/i;
+const JBL_INDEPENDENT = /(independent|مستقل|not an official JBL|ليست موزعًا رسميًا|ليس موزعًا رسميًا|لسنا موزعًا)/i;
 
 /** Every string in the article with its dotted path (translations.ar.faq[0].answer …). */
 function walkStrings(value, pathSoFar, out) {
@@ -302,12 +312,13 @@ function newChecks(article, slug, errors, warnings) {
             }
         }
 
-        // 5) Retailer-status claims (CairoVolt is an independent retailer).
+        // 5) Retailer-status over-claims (agent / exclusive / JBL as distributor).
         const texts = [t.content, t.quickAnswer, ...(t.faq || []).flatMap((q) => [q && q.question, q && q.answer])];
         for (const text of texts) {
             if (typeof text !== 'string') continue;
             for (const sentence of sentencesOf(text)) {
-                if (RETAILER_SUBJECT.test(sentence) && RETAILER_CLAIM.test(sentence)) {
+                if (RETAILER_SUBJECT.test(sentence) && (RETAILER_CLAIM.test(sentence)
+                    || (JBL_DISTRIBUTOR_CLAIM.test(sentence) && !JBL_INDEPENDENT.test(sentence)))) {
                     STATS.retailerClaimSentences++;
                     warnings.push(`${loc} retailer-claim sentence: "${sentence.slice(0, 140)}${sentence.length > 140 ? '…' : ''}"`);
                 }

@@ -115,7 +115,7 @@ export const earbuds_generic: GenericCategory = {
 <li><strong>وسيلة التحقق:</strong> استخدم QR أو السيريال فقط إذا وصفته الشركة وسيلة تحقق لهذا الموديل</li>
 <li><strong>المواصفات:</strong> راجع إصدار البلوتوث والبطارية والمدخل وتصنيف الماء كما هو مطبوع</li>
 <li><strong>سجل الطلب:</strong> احتفظ برقم طلب كايرو فولت والعبوة والملحقات</li>
-<li><strong>الدعم:</strong> راجع شروط ضمان كايرو فولت المكتوبة وتواصل معنا عند وجود اختلاف</li>
+<li><strong>الدعم:</strong> كايرو فولت موزع رسمي لساوندكور (علامة انكر الصوتية) وجوي روم في مصر، وتبيع JBL كمتجر تجزئة مستقل؛ راجع شروط ضمان متجر كايرو فولت المكتوبة وتواصل معنا عند وجود اختلاف</li>
 </ul>
 
 <h2 id="how-to-use">كيفية تشغيل واستخدام سماعات البلوتوث</h2>
@@ -173,7 +173,7 @@ export const earbuds_generic: GenericCategory = {
 <li><strong>Verification method:</strong> Use QR or serial checks only when the manufacturer describes them for that model</li>
 <li><strong>Specifications:</strong> Check Bluetooth version, battery input, and water rating as printed</li>
 <li><strong>Order record:</strong> Keep the CairoVolt order number, packaging, and accessories</li>
-<li><strong>Support:</strong> Review the written CairoVolt warranty and contact us if details do not match</li>
+<li><strong>Support:</strong> CairoVolt is an official distributor of Soundcore (Anker's audio brand) and Joyroom in Egypt, and sells JBL as an independent retailer; review the written CairoVolt store warranty and contact us if details do not match</li>
 </ul>
 
 <h2 id="how-to-use">How to Set Up and Use Bluetooth Earbuds</h2>

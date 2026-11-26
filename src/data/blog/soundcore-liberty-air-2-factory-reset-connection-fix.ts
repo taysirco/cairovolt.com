@@ -217,7 +217,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 
 <div style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:15px;line-height:1.7;color:#991b1b;">
-        <strong>قبل ما تيجي لكايرو فولت:</strong> لو السماعة لسه في فترة الضمان وعندك إيصال الشراء، روح لنا مباشرة ولا تحاول تفكها أو تصلحها في أي محل تاني — فتح السماعة أو إصلاحها برّه بيلغي ضمان كايرو فولت المكتوب. كايرو فولت متجر مستقل، وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) بيتنفّذ عندنا مباشرة.
+        <strong>قبل ما تيجي لكايرو فولت:</strong> لو السماعة لسه في فترة الضمان وعندك إيصال الشراء، روح لنا مباشرة ولا تحاول تفكها أو تصلحها في أي محل تاني — فتح السماعة أو إصلاحها برّه بيلغي ضمان كايرو فولت المكتوب. كايرو فولت موزع رسمي لساوندكور (علامة انكر الصوتية) في مصر، وضمان متجر كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) بيتنفّذ عندنا مباشرة.
     </p>
 </div>
 <p>للتواصل مع فريق الدعم الفني في كايرو فولت، زور موقعنا أو تواصل معنا عبر وسائل التواصل. بنردّ على كل الاستفسارات في أسرع وقت.</p>` ,
@@ -429,7 +429,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 
 <div style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:15px;line-height:1.7;color:#991b1b;">
-        <strong>Before bringing earbuds in for service:</strong> If your earbuds are within the warranty period and you have your purchase receipt, contact CairoVolt first and do not attempt to open or repair the earbuds elsewhere. Opening or repairing the earbuds elsewhere voids CairoVolt's written store warranty. CairoVolt is an independent store, and its written warranty (duration shown on each product page) is handled by us directly.
+        <strong>Before bringing earbuds in for service:</strong> If your earbuds are within the warranty period and you have your purchase receipt, contact CairoVolt first and do not attempt to open or repair the earbuds elsewhere. Opening or repairing the earbuds elsewhere voids CairoVolt's written store warranty. CairoVolt is an official distributor of Anker's Soundcore brand in Egypt, and its written store warranty (duration shown on each product page) is handled by us directly.
     </p>
 </div>
 <p>The <a href="/en/blog/soundcore-models-guide-egypt-2026">Soundcore Egypt 2026 buying guide</a> has more information about warranty terms and service procedures. For direct support, visit the CairoVolt website or reach out through our social channels — we respond to all technical inquiries as quickly as possible.</p>

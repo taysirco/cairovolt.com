@@ -154,7 +154,7 @@ export const gaming_earbuds_pubg_freefire_low_latency: BlogArticle = {
 <p>تأخير الصوت في الألعاب اللاسلكية مشكلة حقيقية، بس حلها مبقاش غالي زي زمان. لو ميزانيتك في حدود الـ {{price:anker-soundcore-r50i}} جنيه وعايز أحسن تجربة شاملة مع بيس قوي ودعم كامل للتطبيق وتأخير أقل بشكل ملحوظ مع وضع الألعاب، <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة ساوند كور R50i</a> هي اختيارك الأول والأنسب للشارع المصري. لو بتفضل التصميمات المربعة المسطحة السهلة في الجيب، <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوند كور P25i</a> هي البديل المتطابق تقنياً بنسبة 100%. أما لو كنت جيمر بتتحرك كتير وبتعرق في الجيم وتضايقك ضغطات اللمس الخاطئة، <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">سماعة ساوند كور Life P2i</a> هي خيارك العملي بأزرارها الميكانيكية الحقيقية وسعرها الموفر.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أصلية بضمان الوكيل في مصر</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أصلية بضمان متجر كايرو فولت — موزع رسمي لساوندكور في مصر</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         جميع موديلات سماعات ساوند كور الاقتصادية والاحترافية متوفرة أصلية 100% في قسم <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوند كور</a> على كايرو فولت، وعليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). تصفح المنتجات دلوقتي توصيل لباب بيتك (عادةً 1–6 أيام عمل حسب المحافظة) مع الدفع عند الاستلام.
     </p>
@@ -321,7 +321,7 @@ export const gaming_earbuds_pubg_freefire_low_latency: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ 100% Original with Warranty in Egypt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        All budget and premium Soundcore models are available 100% original in the <a href="/en/soundcore" style="color:#2563eb;font-weight:600;">Soundcore</a> section on CairoVolt, covered by CairoVolt's written store warranty (duration shown on each product page). Browse products now and order delivery to your door (commonly 1–6 business days depending on governorate), cash on delivery.
+        All budget and premium Soundcore models are available 100% original in the <a href="/en/soundcore" style="color:#2563eb;font-weight:600;">Soundcore</a> section on CairoVolt, an official distributor of Anker's Soundcore brand in Egypt, covered by CairoVolt's written store warranty (duration shown on each product page). Browse products now and order delivery to your door (commonly 1–6 business days depending on governorate), cash on delivery.
     </p>
 </div>
 

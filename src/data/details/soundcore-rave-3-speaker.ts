@@ -8,7 +8,7 @@
 //   no invented dB/SPL · Eng. Omar Khaled · testDate 2026-07-24.
 // Red-flag audit: 160W vs 200W peak wording · IPX4 table vs FAQ "No" · 12 h ≠ 100%-vol night ·
 //   vendor BT 50 m ≠ Cairo apartment · HexaGlow ON shortens pack vs lights-OFF bench · no wet test.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const soundcore_rave_3_speaker_detail: ProductDetail = {

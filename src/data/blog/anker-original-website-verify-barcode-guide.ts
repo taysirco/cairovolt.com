@@ -172,7 +172,7 @@ export const anker_original_website_verify_barcode_guide: BlogArticle = {
 
 <h3>اشتري من بائع بفاتورة وضمان مكتوب</h3>
 
-<p>في النهاية، فحص كود الأمان على موقع Anker خطوة مفيدة، لكن مش كل علبة عليها كود. عشان كده اشتري من بائع بيدي فاتورة وضمان مكتوب بيذكر اسمه وكيانه القانوني، وطابق الموديل والقدرات مع وثائق انكر، واستخدم أداة التحقق بتاعة انكر لو العلبة عليها ملصق. كايرو فولت متجر مستقل، ومنتجات انكر عندنا عليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج).</p>
+<p>في النهاية، فحص كود الأمان على موقع Anker خطوة مفيدة، لكن مش كل علبة عليها كود. عشان كده اشتري من بائع بيدي فاتورة وضمان مكتوب بيذكر اسمه وكيانه القانوني، وطابق الموديل والقدرات مع وثائق انكر، واستخدم أداة التحقق بتاعة انكر لو العلبة عليها ملصق. كايرو فولت موزع رسمي لانكر في مصر، ومنتجات انكر عندنا عليها ضمان متجر كايرو فولت المكتوب (18 شهر، والمدة موضحة في صفحة كل منتج) وكرت ضمان مطبوع سيرياله بيتراجع على صفحة التحقق في كايرو فولت (cairovolt.com/verify).</p>
 
 <h3>خطورة استخدام منتجات Anker المقلدة على الهواتف والأجهزة</h3>
 
@@ -330,7 +330,7 @@ export const anker_original_website_verify_barcode_guide: BlogArticle = {
 
 <h3>Buy From a Seller With an Invoice and a Written Warranty</h3>
 
-<p>In the end, the security-code check on Anker's site is a useful step, but not every box carries a code. So buy from a seller that issues an invoice and a written warranty naming its legal identity, match the model and ratings to Anker's documentation, and use Anker's verification tool when the box carries a label. CairoVolt is an independent retailer, and Anker products bought from us are covered by CairoVolt's written store warranty (duration shown on each product page).</p>
+<p>In the end, the security-code check on Anker's site is a useful step, but not every box carries a code. So buy from a seller that issues an invoice and a written warranty naming its legal identity, match the model and ratings to Anker's documentation, and use Anker's verification tool when the box carries a label. CairoVolt is an official Anker distributor in Egypt, and Anker products bought from us are covered by CairoVolt's written store warranty (18 months, also shown on each product page) and a physical warranty card whose serial is checked on CairoVolt's own verification page (cairovolt.com/verify).</p>
 
 <h2>Summary and Smart Shopping Checklist</h2>
 

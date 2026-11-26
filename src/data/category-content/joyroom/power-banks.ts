@@ -171,7 +171,7 @@ export const joyroom_power_banks_content: CategoryContent = {
                 { question: 'كام مرة يشحن الهاتف؟', answer: 'لا يوجد رقم ثابت؛ يعتمد على سعة بطارية الهاتف وكفاءة التحويل والكابل وطريقة الشحن. الشحن اللاسلكي يفقد طاقة أكثر من الشحن السلكي عادةً.' },
                 { question: 'هل يدعم شحن اللابتوب؟', answer: 'فقط إذا كانت قدرة USB-C PD الخارجة من الموديل تساوي أو تتجاوز متطلبات اللابتوب. راجع مواصفات اللابتوب والباور بانك والكابل.' },
                 { question: 'هل هو مناسب للسفر الجوي؟', answer: 'راجع قيمة Wh على المنتج وسياسة شركة الطيران. في حقيبة اليد فقط: حتى 100Wh مسموح عادةً بدون موافقة، ومن 100 إلى 160Wh يحتاج موافقة شركة الطيران، وأكثر من 160Wh غير مسموح في أمتعة الركاب (IATA/FAA). راجع قيمة Wh المطبوعة على الوحدة. التفاصيل: [قواعد الباور بانك في الطيران](/blog/power-bank-airplane-rules-egypt-2026) · [حل السفر بالباور بانك](/solutions/power-bank-airline-rules-egypt-travel).' },
-                { question: 'ما الضمان؟', answer: 'توضح صفحة المنتج وسياسة ضمان كايرو فولت مدة التغطية وشروطها لكل موديل.' }
+                { question: 'ما الضمان؟', answer: 'تبيع كايرو فولت باور بانك جوي روم بصفتها موزعًا رسميًا لجوي روم في مصر، بضمان متجر كايرو فولت لمدة 12 شهرًا وكرت ضمان مطبوع تراجع سيرياله على صفحة التحقق. وتوضح صفحة المنتج وسياسة الضمان نطاق التغطية وشروطها لكل موديل.' }
             ],
         },
         en: {
@@ -239,7 +239,7 @@ Stop using it if the case swells, is damaged, or produces an unusual smell or he
                 { question: 'How many times will it charge my phone?', answer: 'There is no fixed number. It depends on the phone battery, conversion efficiency, cable, and charging method. Wireless charging usually loses more energy than wired charging.' },
                 { question: 'Can it charge a laptop?', answer: 'Only when the model\'s USB-C PD output meets the laptop power requirement. Check the specifications of the laptop, power bank, and cable.' },
                 { question: 'Is it suitable for air travel?', answer: 'Check the Wh value on the product and the airline policy. Carry-on only: ≤100Wh is generally allowed without approval, 100–160Wh needs airline approval, and over 160Wh is not allowed in passenger baggage (IATA/FAA). Check the Wh printed on the unit. Details: [power bank airline rules](/en/blog/power-bank-airplane-rules-egypt-2026) · [flying with a power bank](/en/solutions/power-bank-airline-rules-egypt-travel).' },
-                { question: 'What is the warranty?', answer: 'The product page and CairoVolt warranty policy list the duration, coverage, and terms for each model.' }
+                { question: 'What is the warranty?', answer: 'CairoVolt sells Joyroom power banks as an official Joyroom distributor in Egypt, with the CairoVolt store warranty (12 months) and a physical warranty card whose serial you can check at cairovolt.com/verify. The product page and warranty policy list the coverage and terms for each model.' }
             ],
         }
     }

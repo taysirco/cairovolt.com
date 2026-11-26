@@ -125,7 +125,7 @@ export const chargers_generic: GenericCategory = {
 <li><strong>المواصفات:</strong> راجع خرج كل منفذ والبروتوكولات وتوزيع الطاقة بدل الاستدلال من الشكل أو الوزن.</li>
 <li><strong>العبوة والملحقات:</strong> قارن محتويات العبوة ووثائق السلامة بما هو مذكور للموديل والمنطقة.</li>
 <li><strong>الفاتورة والسياسات:</strong> احتفظ بإثبات الشراء واقرأ سياسة الإرجاع قبل إتمام الطلب.</li>
-<li><strong>الضمان:</strong> الضمان المقدم هو ضمان كايرو فولت المكتوب للمنتج ووفق شروطه، وليس ضمان الشركة المصنّعة إلا إذا ذكرت صفحة المنتج ذلك صراحةً بوثيقة قابلة للتحقق.</li>
+<li><strong>الضمان:</strong> تبيع كايرو فولت شواحن انكر وجوي روم بصفتها موزعًا رسميًا للعلامتين في مصر، بضمان متجر كايرو فولت المكتوب (18 شهرًا لانكر و12 شهرًا لجوي روم) وكرت ضمان مطبوع؛ ومدة الضمان لكل موديل موضحة في صفحته.</li>
 </ul>
 `,
             en: `
@@ -187,7 +187,7 @@ export const chargers_generic: GenericCategory = {
 <li><strong>Specifications:</strong> Check each port's output, protocols, and power distribution instead of inferring authenticity from appearance or weight.</li>
 <li><strong>Packaging and contents:</strong> Compare the included items and safety documentation with the listing for the model and region.</li>
 <li><strong>Invoice and policies:</strong> Keep proof of purchase and read the return policy before completing the order.</li>
-<li><strong>Warranty:</strong> The offered coverage is the written CairoVolt warranty for the product under its stated terms, not a manufacturer warranty unless the product page explicitly documents one with verifiable evidence.</li>
+<li><strong>Warranty:</strong> Anker and Joyroom chargers are sold by CairoVolt, an official distributor of both brands in Egypt, with the written CairoVolt store warranty (18 months for Anker, 12 months for Joyroom) and a physical warranty card; the term for each model is on its product page.</li>
 </ul>
 `,
         },

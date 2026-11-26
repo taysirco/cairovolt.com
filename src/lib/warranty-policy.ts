@@ -127,6 +127,17 @@ export function getStoreWarrantySummary(locale: 'ar' | 'en'): string {
 }
 
 /**
+ * The period paragraph the /warranty page renders above the duration tiles,
+ * shared with its markdown twin (/api/markdown-negotiate/warranty) so the two
+ * cannot drift. Name and terms are unchanged (owner, 2026-11-26): the
+ * "CairoVolt store warranty", issued and serviced by CairoVolt.
+ */
+export const WARRANTY_PERIOD_PARAGRAPH: Readonly<Record<'ar' | 'en', string>> = {
+    ar: 'هذه سياسة ضمان متجر كايرو فولت للمنتجات المؤهلة: 18 شهرًا لمنتجات انكر وساوندكور، و12 شهرًا لمنتجات جوي روم وJBL، ما لم تعرض صفحة منتج محدد مدة مختلفة. يصدر الضمان من كايرو فولت ويصلك معه كرت ضمان مطبوع، وتتولى كايرو فولت خدمته مباشرةً؛ وهو ليس ضمان الشركة المصنّعة الدولي. صفحة المنتج وتأكيد الطلب هما مرجع المدة المطبقة وقت الشراء.',
+    en: 'Eligible Anker and Soundcore products carry an 18-month CairoVolt store warranty, while eligible Joyroom and JBL products carry 12 months unless a specific product page states a different duration. The warranty is issued by CairoVolt, comes with a physical warranty card, and is serviced directly by CairoVolt; it is not the manufacturer\'s international warranty. The product page and order confirmation record the terms applicable at purchase.',
+};
+
+/**
  * The published return policy (/return-policy) in one sentence, e.g. (en):
  * "Return or exchange within 14 days of delivery under the return policy;
  * items must be unused, complete and in original packaging; opened or used

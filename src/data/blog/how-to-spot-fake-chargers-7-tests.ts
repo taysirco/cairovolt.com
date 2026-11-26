@@ -159,7 +159,7 @@ export const how_to_spot_fake_chargers_7_tests: BlogArticle = {
                 },
                 {
                     question: 'هل كل المنتجات على كايرو فولت أصلية؟',
-                    answer: 'أيوا. كايرو فولت متجر مستقل بيبيع منتجات انكر وجوي روم الأصلية في مصر، بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)، وتقدر تتحقق من سيريال ضمان كايرو فولت على صفحة التحقق عندنا.',
+                    answer: 'أيوا. كايرو فولت موزع رسمي لانكر وجوي روم في مصر وبيبيع منتجاتهم الأصلية بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)، وتقدر تتحقق من سيريال ضمان كايرو فولت على صفحة التحقق عندنا.',
                 },
             ],
         },
@@ -248,7 +248,7 @@ export const how_to_spot_fake_chargers_7_tests: BlogArticle = {
                 },
                 {
                     question: 'Are all products on CairoVolt original?',
-                    answer: 'Yes. CairoVolt is an independent store selling genuine Anker and Joyroom products in Egypt, with an invoice and CairoVolt\'s written store warranty (duration shown on each product page), and you can check your CairoVolt warranty serial on our verification page.',
+                    answer: 'Yes. CairoVolt is an official distributor of Anker and Joyroom in Egypt and sells their genuine products with an invoice and CairoVolt\'s written store warranty (duration shown on each product page), and you can check your CairoVolt warranty serial on our verification page.',
                 },
             ],
         },

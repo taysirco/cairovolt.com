@@ -32,12 +32,12 @@ export const anker_stores_egypt_cairo_alexandria: BlogArticle = {
             metaDescription: 'دليل شراء منتجات انكر الأصلية في مصر. مخاطر الشراء من بائعين غير معتمدين، إزاي تتعرف على البائع الموثوق، وليه كايرو فولت هو الخيار الأضمن أونلاين.',
             keywords: 'فين اشتري انكر اصلي مصر, متاجر انكر مصر, انكر معتمد مصر, شراء انكر اونلاين مصر, كايروفولت انكر, انكر متجر تجزئة مصر, ضمان انكر مصر, انكر فيكتوريا مصر, شراء انكر بالضمان مصر, انكر اصلي من فين',
             excerpt: 'بتدور على منتجات انكر أصلية بضمان حقيقي في مصر؟ الدليل الكامل — مخاطر البائعين غير المعتمدين، علامات البائع الموثوق، وليه الشراء أونلاين من متجر موثوق أضمن.',
-            quickAnswer: 'اشتري انكر الأصلي في مصر من بائع بيدي فاتورة وضمان مكتوب باسمه وكيانه القانوني، زي كايرو فولت.كوم — متجر مستقل (مش وكيل انكر) بضمان كايرو فولت المكتوب وتوصيل لكل المحافظات. ولو العلبة عليها ملصق أمان، افحص الكود (16 أو 20 رقم) على anker.com/verify. تجنب بائعي OLX والأرصفة المجهولين.',
+            quickAnswer: 'اشتري انكر الأصلي في مصر من بائع بيدي فاتورة وضمان مكتوب باسمه وكيانه القانوني، زي كايرو فولت.كوم — موزع رسمي لانكر في مصر بضمان كايرو فولت المكتوب (18 شهر) وكرت ضمان مطبوع وتوصيل لكل المحافظات. ولو العلبة عليها ملصق أمان، افحص الكود (16 أو 20 رقم) على anker.com/verify. تجنب بائعي OLX والأرصفة المجهولين.',
             content: `<p>السؤال اللي بيجيلنا كل يوم على واتساب وإنستجرام: "فين أشتري انكر أصلي في مصر؟" الإجابة مش بسيطة زي ما بتبدو — لأن مصر فيها كمية ضخمة من المنتجات المقلّدة اللي بتبان أصلية. والفرق بين الشراء الصح والغلط مش في السعر بس — في الأمان، الضمان، وصحة أجهزتك.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>الإجابة المختصرة:</strong> اشتري من بائع بيدي فاتورة وضمان مكتوب باسمه، زي <strong>كايرو فولت.كوم</strong> — متجر مستقل بيبيع منتجات انكر أصلية في مصر — بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). ولو العلبة عليها ملصق أمان، افحص الكود على anker.com/verify.
+        <strong>الإجابة المختصرة:</strong> اشتري من بائع بيدي فاتورة وضمان مكتوب باسمه، زي <strong>كايرو فولت.كوم</strong> — موزع رسمي لانكر في مصر — بضمان كايرو فولت المكتوب (18 شهر، ومكتوب في صفحة كل منتج) وكرت ضمان مطبوع سيرياله بيتراجع على cairovolt.com/verify. ولو العلبة عليها ملصق أمان، افحص الكود على anker.com/verify.
     </p>
 </div>
 
@@ -109,7 +109,7 @@ export const anker_stores_egypt_cairo_alexandria: BlogArticle = {
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🛡️ مين كايرو فولت بالظبط؟</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        <strong>كايرو فولت.كوم</strong> متجر مصري مستقل متخصص في بيع منتجات انكر الأصلية — مش وكيل ولا موزع معتمد من انكر. اللي بنقدمه مكتوب وواضح: ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج)، وفاتورة مع كل طلب. وعلب انكر المبيعة في المحلات بيكون عليها كود أمان تقدر تفحصه على anker.com/verify — وانكر بتقول إن غياب الملصق مش دليل تقليد.
+        <strong>كايرو فولت.كوم</strong> موزع رسمي لمنتجات انكر (ومنها علامتها الصوتية ساوندكور) في مصر، والصفة دي ممنوحة مباشرةً من انكر، ومستند التوزيع متاح للاطلاع عند الطلب عبر info@cairovolt.com. اللي بنقدمه مكتوب وواضح: ضمان متجر كايرو فولت المكتوب (18 شهر على انكر وساوندكور، والمدة موضحة في صفحة كل منتج)، وكرت ضمان مطبوع سيرياله بيتفعّل ويتراجع على cairovolt.com/verify، وفاتورة مع كل طلب. وعلب انكر المبيعة في المحلات بيكون عليها كود أمان تقدر تفحصه على anker.com/verify — وانكر بتقول إن غياب الملصق مش دليل تقليد.
     </p>
 </div>
 
@@ -187,7 +187,7 @@ export const anker_stores_egypt_cairo_alexandria: BlogArticle = {
             faq: [
                 {
                     question: 'هل كايرو فولت موزع رسمي معتمد لانكر في مصر؟',
-                    answer: 'لا — كايرو فولت.كوم متجر مصري مستقل مش وكيل أو موزع معتمد من انكر. كل طلب بيجي بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). وعلب انكر المبيعة في المحلات عليها كود أمان تحت طبقة كشط تقدر تفحصه على anker.com/verify؛ وانكر بتقول إن غياب الملصق مش دليل تقليد.'
+                    answer: 'أيوه — كايرو فولت.كوم موزع رسمي لانكر (ومنها ساوندكور) في مصر، والصفة دي ممنوحة مباشرةً من انكر، ومستند التوزيع متاح للاطلاع عند الطلب عبر info@cairovolt.com. كل طلب بيجي بفاتورة وضمان متجر كايرو فولت المكتوب (18 شهر على انكر وساوندكور) وكرت ضمان مطبوع سيرياله بيتراجع على cairovolt.com/verify. وعلب انكر المبيعة في المحلات عليها كود أمان تحت طبقة كشط تقدر تفحصه على anker.com/verify؛ وانكر بتقول إن غياب الملصق مش دليل تقليد.'
                 },
                 {
                     question: 'هل ممكن أشتري انكر من أمازون مصر أو جوميا؟',
@@ -209,12 +209,12 @@ export const anker_stores_egypt_cairo_alexandria: BlogArticle = {
             metaDescription: 'Complete guide to buying genuine Anker products in Egypt. Risks of unauthorized sellers, how to identify trusted sources, and why CairoVolt is your best option.',
             keywords: 'where to buy anker egypt, anker authorized store egypt, anker genuine egypt, buy anker online egypt, cairovolt anker, anker retailer with clear identity and written policies egypt, anker warranty egypt, anker authentic store cairo, buy anker with warranty egypt, anker original where to buy',
             excerpt: 'Looking for authentic Anker products with a real warranty in Egypt? The complete guide — risks of unauthorized sellers, signs of a trusted retailer, and why buying online from a trusted store is the safest option.',
-            quickAnswer: 'Buy genuine Anker in Egypt from a seller that issues an invoice and a written warranty naming its legal identity, such as CairoVolt.com — an independent store (not an Anker agent) with a written store warranty and delivery to all governorates. If the box carries a security label, check the 16- or 20-digit code at anker.com/verify. Avoid anonymous OLX and street sellers.',
+            quickAnswer: 'Buy genuine Anker in Egypt from a seller that issues an invoice and a written warranty naming its legal identity, such as CairoVolt.com — an official Anker distributor in Egypt with the written CairoVolt store warranty (18 months), a physical warranty card and delivery to all governorates. If the box carries a security label, check the 16- or 20-digit code at anker.com/verify. Avoid anonymous OLX and street sellers.',
             content: `<p>The question we receive daily on WhatsApp and Instagram: "Where can I buy authentic Anker products in Egypt?" The answer is not as simple as it seems — because Egypt has a massive volume of counterfeit products that look genuine. And the difference between buying right and buying wrong is not just about price — it is about safety, warranty, and the health of your devices.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>Short Answer:</strong> Buy from a seller that issues an invoice and a written warranty naming its legal identity, such as <strong>CairoVolt.com</strong> — an independent store selling genuine Anker products in Egypt — covered by CairoVolt's written store warranty (duration shown on each product page). If the box carries a security label, check the code at anker.com/verify.
+        <strong>Short Answer:</strong> Buy from a seller that issues an invoice and a written warranty naming its legal identity, such as <strong>CairoVolt.com</strong> — an official Anker distributor in Egypt — covered by CairoVolt's written store warranty (18 months, also shown on each product page) and a physical warranty card whose serial is checked at cairovolt.com/verify. If the box carries a security label, check the code at anker.com/verify.
     </p>
 </div>
 
@@ -286,7 +286,7 @@ export const anker_stores_egypt_cairo_alexandria: BlogArticle = {
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🛡️ Who Exactly Is CairoVolt?</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        <strong>CairoVolt.com</strong> is an independent Egyptian store specializing in genuine Anker products — not an Anker agent or authorized distributor. What we offer is written and clear: CairoVolt's written store warranty (duration shown on each product page) and an invoice with every order. Offline-sold Anker packaging carries a scratch-off security code you can check at anker.com/verify; Anker says a missing label is not proof of a fake.
+        <strong>CairoVolt.com</strong> is an official distributor of Anker (including its Soundcore audio brand) in Egypt; the status was granted directly by Anker, and the distribution document is available for review on request at info@cairovolt.com. What we offer is written and clear: the CairoVolt store warranty (18 months on Anker and Soundcore, also shown on each product page), a physical warranty card whose serial is activated and checked at cairovolt.com/verify, and an invoice with every order. Offline-sold Anker packaging carries a scratch-off security code you can check at anker.com/verify; Anker says a missing label is not proof of a fake.
     </p>
 </div>
 
@@ -349,13 +349,13 @@ export const anker_stores_egypt_cairo_alexandria: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Buy Authentic Anker with Real Warranty — CairoVolt.com</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <strong>Written store warranty</strong> (duration on each product page) | <strong>Invoice</strong> for warranty registration | <strong>14-day returns</strong> under the return policy | <strong>Delivery to all governorates</strong> | <strong>Cash on delivery</strong>. All from a trusted independent store with written policies — not an anonymous middleman reseller.
+        <strong>Written store warranty</strong> (duration on each product page) | <strong>Invoice</strong> for warranty registration | <strong>14-day returns</strong> under the return policy | <strong>Delivery to all governorates</strong> | <strong>Cash on delivery</strong>. All from an official Anker distributor in Egypt with written policies — not an anonymous middleman reseller.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'Is CairoVolt an officially authorized Anker distributor in Egypt?',
-                    answer: 'No — CairoVolt.com is an independent Egyptian store, not an Anker agent or authorized distributor. Every order comes with an invoice and CairoVolt\'s written store warranty (duration shown on each product page). Offline-sold Anker packaging carries a scratch-off security code checkable at anker.com/verify; Anker says a missing label is not proof of a fake.'
+                    answer: 'Yes — CairoVolt.com is an official distributor of Anker (including Soundcore) in Egypt; the status was granted directly by Anker, and the distribution document is available for review on request at info@cairovolt.com. Every order comes with an invoice and the written CairoVolt store warranty (18 months on Anker and Soundcore) with a physical warranty card checkable at cairovolt.com/verify. Offline-sold Anker packaging carries a scratch-off security code checkable at anker.com/verify; Anker says a missing label is not proof of a fake.'
                 },
                 {
                     question: 'Can I buy Anker from Amazon Egypt or Jumia?',

@@ -40,7 +40,7 @@ export const soundcore_q45_headphones = {
                     { question: "Can I use the Q45 wired when the battery is low?", answer: "The model lists a 3.5mm input. Confirm the supplied cable and which functions remain available in wired mode." },
                     { question: "How comfortable is the Q45 for long sessions?", answer: "Comfort is personal. Adjust the headband, check the cushion seal and take regular listening breaks." },
                     { question: "Does the Q45 support LDAC on iPhone?", answer: "iPhone does not provide LDAC. Codec selection and available features depend on the source device and operating system." },
-                    { question: "What does the warranty cover?", answer: "Review the current warranty period, seller eligibility, exclusions and claim process shown for this listing; do not assume a fixed coverage list." }
+                    { question: "What does the warranty cover?", answer: "CairoVolt sells the Q45 as an official distributor of Anker's Soundcore brand in Egypt, with the CairoVolt store warranty (18 months) and a physical warranty card. Review the exclusions and claim process shown for this listing; do not assume a fixed coverage list." }
             ]
         },
         ar: {
@@ -56,7 +56,7 @@ export const soundcore_q45_headphones = {
                     { question: "أقدر أستخدم Q45 بالسلك؟", answer: "الموديل يذكر مدخل 3.5mm. تحقق من الكابل المرفق والوظائف التي تظل متاحة في الوضع السلكي." },
                     { question: "Q45 مريحة لجلسات طويلة؟", answer: "الراحة تختلف من شخص لآخر. اضبط الهيدباند وتحقق من إحكام الوسائد وخذ فواصل استماع منتظمة." },
                     { question: "هل LDAC يعمل على ايفون؟", answer: "ايفون لا يوفر LDAC. اختيار الكودك والميزات المتاحة يعتمد على الجهاز المصدر ونظام التشغيل." },
-                    { question: "الضمان بيغطي إيه؟", answer: "راجع مدة الضمان الحالية وأهلية البائع والاستثناءات وطريقة المطالبة الموضحة لهذه القائمة؛ لا تفترض قائمة تغطية ثابتة." }
+                    { question: "الضمان بيغطي إيه؟", answer: "كايرو فولت موزع رسمي لساوندكور (علامة انكر الصوتية) في مصر، والسماعة تصلك بضمان متجر كايرو فولت لمدة 18 شهرًا وكرت ضمان مطبوع. راجع الاستثناءات وطريقة المطالبة الموضحة لهذه القائمة؛ لا تفترض قائمة تغطية ثابتة." }
             ]
         }
     },

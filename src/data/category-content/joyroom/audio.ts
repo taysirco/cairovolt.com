@@ -67,7 +67,7 @@ export const joyroom_audio_content: CategoryContent = {
                         { question: 'هل سماعات جوي روم بتشتغل مع ايفون وسامسونج؟', answer: 'تعمل موديلات Bluetooth المتوافقة مع iPhone وSamsung، لكن Pop-up Pairing والمساعد الصوتي وإصدار البلوتوث تختلف حسب الموديل والجهاز. راجع صفحة المنتج قبل الشراء.' },
                         { question: 'ما الفرق بين جوي روم وAirPods؟', answer: 'قارن موديلًا بموديل في ANC والميكروفونات والترميز والملاءمة وعمر البطارية وتكامل النظام. لا تتطابق كل ميزات جوي روم مع AirPods، والسعر الحالي يظهر في صفحة كل منتج.' },
                         { question: 'كم عمر بطارية سماعات جوي روم؟', answer: 'يختلف حسب الموديل ومستوى الصوت وتشغيل ANC والمكالمات. راجع مدة التشغيل المعلنة في صفحة كل منتج؛ JR-T03 مثلًا معلن له تشغيل إجمالي حتى 20 ساعة.' },
-                        { question: 'ما ضمان سماعات جوي روم من CairoVolt؟', answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال موضحة في صفحة المنتج وسياسة الضمان. احتفظ بالفاتورة وبيانات الموديل عند طلب الدعم.' },
+                        { question: 'ما ضمان سماعات جوي روم من CairoVolt؟', answer: 'تبيع كايرو فولت سماعات جوي روم بصفتها موزعًا رسميًا لجوي روم في مصر، بضمان متجر كايرو فولت لمدة 12 شهرًا وكرت ضمان مطبوع تراجع سيرياله على صفحة التحقق. نطاق التغطية وشروط الاستبدال موضحة في صفحة المنتج وسياسة الضمان. احتفظ بالفاتورة وبيانات الموديل عند طلب الدعم.' },
                         { question: 'هل سماعات جوي روم مقاومة للماء والعرق؟', answer: 'موديل T03s Pro يحمل تصنيف IPX5 وفق مواصفات الشركة، ما يجعله مناسباً للعرق ورذاذ الماء ضمن حدود التصنيف. لا تستخدمه للسباحة أو الغمر.' },
                         { question: 'هل فيه تطبيق لضبط صوت سماعة جوي روم؟', answer: 'دعم التطبيق وميزات EQ وANC والتحديثات تختلف حسب الموديل. راجع صفحة المنتج وقائمة الموديلات المدعومة في متجر التطبيق قبل الاعتماد على الميزة.' },
                         { question: 'سماعة جوي روم ولا سماعة بدون علامة؟ إيه الفرق؟', answer: 'قارن المواصفات المكتوبة والملاءمة وسياسة الضمان وخدمة ما بعد البيع. ضمان كايرو فولت ومدته حسب المنتج، ولا يُعد وجود كود على العبوة دليلاً منفرداً على أصالة الشركة المصنّعة.' }
@@ -137,7 +137,7 @@ A code or warranty record alone does not prove manufacturer authenticity. Match 
                         },
                         {
                             question: 'What warranty covers Joyroom earbuds from CairoVolt?',
-                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are shown on the product page and warranty policy. Keep the invoice and model details when requesting support.'
+                            answer: 'CairoVolt sells Joyroom earbuds as an official Joyroom distributor in Egypt, with the CairoVolt store warranty (12 months) and a physical warranty card whose serial you can check at cairovolt.com/verify. Coverage and replacement terms are shown on the product page and warranty policy. Keep the invoice and model details when requesting support.'
                         },
                         {
                             question: 'Are Joyroom earbuds water- and sweat-resistant?',

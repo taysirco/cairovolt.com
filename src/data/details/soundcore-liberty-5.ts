@@ -4,7 +4,7 @@
 //   ≠ Liberty 4 base ≠ Liberty 5 Pro. Do NOT paste sibling stopwatch rows onto this page.
 // Bud/case mAh NOT published on soundcore.com/products/a3957 retail page — physics via
 //   FNB58 case-input Wh + 12h/48h envelope only (§7.5); do not invent label mAh.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 // Elevated bar: ≥170 lines · ≥18 results · 5+5 aiTldr · Eng. Omar Khaled · 2026-07-24
 //   · NO invented dB/ms/SNR · ≠ L4 Pro/NC stopwatch · recall 2026-07-24.
 import type { ProductDetail } from './_types';

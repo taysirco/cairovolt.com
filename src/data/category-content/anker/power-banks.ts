@@ -115,7 +115,7 @@ export const anker_power_banks_content: CategoryContent = {
                             content: `
 1. **بيانات الموديل:** طابق رقم الموديل والسعة بوحدة mAh وWh والخرج مع صفحة الشركة أو العبوة الرسمية المتاحة.
 2. **وسيلة التحقق:** استخدم فقط وسيلة التحقق التي تعلنها الشركة للموديل والمنطقة؛ وجود رقم تسلسلي أو سجل ضمان لا يثبت وحده أصالة الشركة المصنّعة.
-3. **الفاتورة والضمان:** احتفظ بفاتورة كايرو فولت وراجع مدة التغطية وشروط الاستبدال المكتوبة في صفحة المنتج والسياسة.
+3. **الفاتورة والضمان:** كايرو فولت موزع رسمي لانكر في مصر، وباور بانك انكر يصلك منها بضمان متجر كايرو فولت لمدة 18 شهرًا وكرت ضمان مطبوع؛ احتفظ بالفاتورة وراجع شروط الاستبدال المكتوبة في صفحة المنتج والسياسة.
 4. **السلامة:** توقف عن الاستخدام إذا ظهرت سخونة أو انتفاخ أو رائحة غير طبيعية، ولا تستخدم كابلاً أو شاحناً غير متوافق.
 `
                         }
@@ -160,7 +160,7 @@ export const anker_power_banks_content: CategoryContent = {
                             content: `
 1. **Model data:** Match the model number, mAh and Wh capacity, and output against the manufacturer's available product information and packaging.
 2. **Verification method:** Use only the manufacturer's stated method for that model and region. A serial number or warranty record alone does not prove manufacturer authenticity.
-3. **Invoice and warranty:** Keep the CairoVolt invoice and review the coverage duration and replacement terms on the product page and policy.
+3. **Invoice and warranty:** CairoVolt is an official Anker distributor in Egypt; its Anker power banks carry the CairoVolt store warranty (18 months) and a physical warranty card. Keep the invoice and review the replacement terms on the product page and policy.
 4. **Safety:** Stop use if you notice unusual heat, swelling, odor, or damage, and use compatible cables and chargers.
 `
                         }

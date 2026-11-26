@@ -52,7 +52,7 @@ export const anker_prime_a2669_67w_gan_charger = {
                     { question: "Can it replace separate chargers for several devices?", answer: "It can charge multiple compatible devices within its 67W total output. Power is redistributed when more than one port is used, so check the allocation table for your device combination." },
                     { question: "What should I check before using it with my phone?", answer: "Compare the phone's accepted profile with the printed output table and use a rated cable and sound socket. ActiveShield and other listed protections do not replace ventilation or inspection; stop use if heat or damage is unusual." },
                     { question: "What do the three ports output together?", answer: "Use the allocation table printed on the supplied A2669 or its current manufacturer documentation. Do not infer a fixed split from the 67W total alone." },
-                    { question: "How do I verify my A2669?", answer: "Match model A2669, the input/output table, ports and package contents with current manufacturer documentation. If a verification label is present, follow the official process printed with it; weight or packaging alone is not proof." }
+                    { question: "How do I verify my A2669?", answer: "Match model A2669, the input/output table, ports and package contents with current manufacturer documentation. If a verification label is present, follow the official process printed with it; weight or packaging alone is not proof. CairoVolt is an official Anker distributor in Egypt, and the A2669 comes with the CairoVolt store warranty (18 months) and a physical warranty card." }
                 ]
             },
             ar: {
@@ -83,7 +83,7 @@ export const anker_prime_a2669_67w_gan_charger = {
                     { question: "ينفع بدل كذا شاحن لأجهزة مختلفة؟", answer: "ينفع يشحن عدة أجهزة متوافقة ضمن إجمالي 67 واط. القدرة بتتوزع من جديد عند استخدام أكثر من منفذ، فراجع جدول توزيع المخارج لتركيبة أجهزتك." },
                     { question: "ماذا أتحقق قبل استخدامه مع الهاتف؟", answer: "قارن البروفايل المقبول للهاتف بجدول الخرج المطبوع واستخدم كابلاً مصنفاً ومقبساً سليماً. وظائف الحماية لا تغني عن التهوية والفحص؛ توقف عند سخونة أو تلف غير معتاد." },
                     { question: "ما خرج المنافذ الثلاثة معاً؟", answer: "اعتمد على جدول التوزيع المطبوع على A2669 المورّد أو وثائقه الحالية. لا تستنتج توزيعاً ثابتاً من رقم 67 واط الإجمالي وحده." },
-                    { question: "أعرف إزاي إن الـ A2669 بتاعي أصلي؟", answer: "طابق رقم الموديل A2669 وجدول الإدخال والخرج والمنافذ ومحتويات العبوة مع الوحدة ووثائق انكر الحالية. إذا وُجد كود أو رقم تسلسلي فاتبع مسار التحقق الرسمي المطبوع؛ الوزن أو شكل العبوة وحدهما لا يثبتان الأصالة." }
+                    { question: "أعرف إزاي إن الـ A2669 بتاعي أصلي؟", answer: "طابق رقم الموديل A2669 وجدول الإدخال والخرج والمنافذ ومحتويات العبوة مع الوحدة ووثائق انكر الحالية. إذا وُجد كود أو رقم تسلسلي فاتبع مسار التحقق الرسمي المطبوع؛ الوزن أو شكل العبوة وحدهما لا يثبتان الأصالة. وكايرو فولت موزع رسمي لانكر في مصر، والشاحن يصلك بضمان متجر كايرو فولت لمدة 18 شهرًا وكرت ضمان مطبوع." }
                 ]
             }
         },

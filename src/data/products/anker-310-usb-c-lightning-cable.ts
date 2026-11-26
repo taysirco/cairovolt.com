@@ -36,7 +36,7 @@ export const anker_310_usb_c_lightning_cable = {
   "📏 0.9m (3ft) Length",
   "Verify the listed USB 2.0 data rating",
   "📱 iPhone 14/13/12/11 + SE + iPad",
-  "🏆 Current Anker Warranty Terms",
+  "🏆 CairoVolt Store Warranty Terms",
   "🚚 Cash on Delivery Across Egypt"
 ],
                 metaTitle: "Anker 310 Lightning Cable A81A5 | Verify MFi and USB-PD",
@@ -68,7 +68,7 @@ export const anker_310_usb_c_lightning_cable = {
   "📏 طول 0.9 متر (3 قدم)",
   "تحقق من تصنيف بيانات USB 2.0 المعلن",
   "📱 ايفون 14/13/12/11 + SE + ايباد",
-  "🏆 راجع شروط ضمان انكر الحالية",
+  "🏆 راجع شروط ضمان متجر كايرو فولت",
   "🚚 الدفع عند الاستلام في كل مصر"
 ],
                 metaTitle: "كابل انكر 310 لايتننج A81A5 | تحقق من MFi وUSB-PD",

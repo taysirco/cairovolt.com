@@ -64,7 +64,7 @@ export const anker_soundcore_life_p2i = {
     </ul>
 </div>
 `,
-                features: ["🎧 28H Total Playtime", "🤖 AI Dual-Mic Calls", "🎵 Dual EQ (Bass/Podcast)", "⚡ 10 Min = 1H Fast Charge", "📱 Bluetooth 5.2", "🔊 10mm Large Drivers", "🏆 Current Anker Warranty Terms", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
+                features: ["🎧 28H Total Playtime", "🤖 AI Dual-Mic Calls", "🎵 Dual EQ (Bass/Podcast)", "⚡ 10 Min = 1H Fast Charge", "📱 Bluetooth 5.2", "🔊 10mm Large Drivers", "🏆 CairoVolt Store Warranty Terms", "🔎 Verify compliance marks on the unit and manufacturer documentation"],
                 metaTitle: "Anker Soundcore Life P2i | 28h + Clear Calls | COD",
                 metaDesc: "All-day 28h playtime and clear dual-mic calls with the Soundcore Life P2i, plus a 10-minute fast charge. Genuine, store warranty and COD in Egypt.",
                 faqs: [
@@ -120,7 +120,7 @@ export const anker_soundcore_life_p2i = {
     </ul>
 </div>
 `,
-                features: ["🎧 28 ساعة بطارية", "🤖 مكالمات AI بميكروفونين", "🎵 EQ مزدوج (Bass/Podcast)", "⚡ 10 دقائق = ساعة", "📱 Bluetooth 5.2", "🔊 10mm سماعات كبيرة", "🏆 راجع شروط ضمان انكر الحالية", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
+                features: ["🎧 28 ساعة بطارية", "🤖 مكالمات AI بميكروفونين", "🎵 EQ مزدوج (Bass/Podcast)", "⚡ 10 دقائق = ساعة", "📱 Bluetooth 5.2", "🔊 10mm سماعات كبيرة", "🏆 راجع شروط ضمان متجر كايرو فولت", "🔎 تحقق من علامات المطابقة على الوحدة ووثائق الشركة المصنّعة"],
                 metaTitle: "سماعة انكر Life P2i | 28 ساعة + مكالمات واضحة",
                 metaDesc: "بطارية 28 ساعة ومكالمات واضحة بميكروفونين مع سماعة ساوندكور Life P2i وشحن سريع 10 دقائق. أصلية بضمان متجر ودفع عند الاستلام في مصر.",
                 faqs: [

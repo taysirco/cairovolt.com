@@ -82,7 +82,7 @@ export const joyroom_car_chargers_content: CategoryContent = {
                         },
                         {
                             question: 'ما ضمان شاحن سيارة جوي روم في مصر؟',
-                            answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال موضحة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
+                            answer: 'تبيع كايرو فولت شواحن سيارة جوي روم بصفتها موزعًا رسميًا لجوي روم في مصر، بضمان متجر كايرو فولت لمدة 12 شهرًا وكرت ضمان مطبوع تراجع سيرياله على صفحة التحقق. نطاق التغطية وشروط الاستبدال موضحة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         },
                         {
                             question: 'هل بيشتغل مع كل العربيات؟',
@@ -155,7 +155,7 @@ It depends on the vehicle: some 12V outlets switch off with the engine while oth
                         },
                         {
                             question: 'What warranty covers a Joyroom car charger in Egypt?',
-                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are shown on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
+                            answer: 'CairoVolt sells Joyroom car chargers as an official Joyroom distributor in Egypt, with the CairoVolt store warranty (12 months) and a physical warranty card whose serial you can check at cairovolt.com/verify. Coverage and replacement terms are shown on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
                         },
                         {
                             question: 'Does it work with every car?',

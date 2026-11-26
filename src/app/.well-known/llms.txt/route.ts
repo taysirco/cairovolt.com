@@ -14,6 +14,12 @@ import {
     getStoreWarrantySummary,
 } from '@/lib/warranty-policy';
 import { governorates } from '@/data/governorates';
+import {
+    DISTRIBUTOR_STATEMENT,
+    getDistributorDisclosure,
+    JBL_RELATIONSHIP,
+    WARRANTY_CARD_STATEMENT,
+} from '@/lib/distributor-status';
 import { BLOG_SCHEDULE } from '@/data/blog-schedule.generated';
 import { CATALOG_LASTMOD } from '@/data/catalog-lastmod.generated';
 
@@ -129,7 +135,7 @@ export function GET() {
 
     const content = `# CairoVolt — كايرو فولت
 
-> Egyptian online store for mobile power, charging, audio, and related accessories.
+> Egyptian online store for mobile power, charging, audio, and related accessories — an official distributor of Anker (including Soundcore) and Joyroom in Egypt.
 
 ## Store
 
@@ -140,6 +146,7 @@ export function GET() {
 | Languages | Arabic, English |
 | Currency | EGP |
 | Brands in catalog | Anker, Joyroom, Soundcore, JBL |
+| Brand relationship | Official distributor of Anker (including Soundcore) and Joyroom in Egypt; JBL sold as an independent retailer |
 | Active catalog items | ${totalProducts} |
 | Currently listed as available | ${availableProducts} |
 | Legal entity | شركة تيسير للاستثمار الذكي (ش.ذ.م.م) — Taysir Smart Investment LLC, Commercial Register (Egypt) 8446, Tax Registration 777471566 |
@@ -165,13 +172,13 @@ Cash on Delivery (COD) in EGP is the payment method at checkout. The order total
 ${returnsSummary} Full conditions: ${baseUrl}/return-policy.
 
 **What warranty applies?**
-${warrantySummary} It is CairoVolt's own written warranty, not a manufacturer warranty, unless the page explicitly says otherwise. See ${baseUrl}/warranty.
+${warrantySummary} ${WARRANTY_CARD_STATEMENT.en} It is CairoVolt's own written store warranty, issued and serviced by CairoVolt; it is not the manufacturer's international warranty. See ${baseUrl}/warranty.
 
 **Where does CairoVolt deliver?**
 Eligible delivery addresses across Egypt; availability is confirmed with the order. Per-governorate pages are at ${baseUrl}/locations/{governorate-slug} (for example ${baseUrl}/locations/aswan).
 
-${recallAnswer}**Are the products genuine / is CairoVolt an authorized distributor?**
-CairoVolt is an independent retailer, not an authorized distributor or agent for Anker, Soundcore, Joyroom, or JBL. The serial check at ${baseUrl}/verify confirms a CairoVolt-issued warranty card only — it is not a manufacturer authenticity certificate.
+${recallAnswer}**Is CairoVolt an official distributor? Are the products genuine?**
+${getDistributorDisclosure('en')} Anker, Soundcore, and Joyroom products are therefore supplied to customers through an official distribution channel, with an invoice and the CairoVolt store warranty. The serial check at ${baseUrl}/verify confirms a CairoVolt-issued warranty card and activates its record — it is not a manufacturer authenticity certificate.
 
 **Are the lab measurements real?**
 Figures labelled as measured come from CairoVolt bench tests on a specific retail sample, with the method published alongside them at ${baseUrl}/lab. Figures labelled \`est.\` are calculated, not measured. Third-party numbers are attributed to their source.
@@ -197,7 +204,7 @@ Policies and reference: ${baseUrl}/faq · ${baseUrl}/shipping · ${baseUrl}/retu
 
 Soundcore is Anker's audio brand. JBL is a Harman International (Samsung) brand. Arabic pages use the Arabic brand spellings انكر، ساوندكور، and جوي روم in headings and descriptions; JBL keeps its Latin mark in both languages.
 
-CairoVolt is an independent retailer; it is not the manufacturer of, nor an official agent or authorized distributor for, Anker, Soundcore, Joyroom, or JBL. Product warranties referenced on the site are CairoVolt's own written store warranty unless explicitly attributed to the manufacturer.
+${DISTRIBUTOR_STATEMENT.en} ${JBL_RELATIONSHIP.en} CairoVolt is not the manufacturer of any of these brands. Product warranties referenced on the site are CairoVolt's own written store warranty unless explicitly attributed to the manufacturer.
 
 ## Public Resources
 

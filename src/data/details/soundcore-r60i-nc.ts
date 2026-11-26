@@ -3,7 +3,7 @@
 // as one product. All figures are MANUFACTURER-LISTED (soundcore.com spec page)
 // — CairoVolt has NOT bench-tested this SKU yet; no benchTest block until a
 // real §7.7 session runs.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const soundcore_r60i_nc_detail: ProductDetail = {

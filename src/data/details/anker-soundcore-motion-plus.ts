@@ -7,7 +7,7 @@
 //   Eng. Omar Khaled · testDate 2026-07-24 · NO invented dB/SPL/SNR/ms (§7.7 G / §11.3).
 // Red-flag audit: no phantom LDAC/AAC · IPX7 ≠ IP67 · vendor "30m BT" ≠ apartment claim ·
 //   SoundGuys 75 dB(SPL) = CITED their protocol only · CPSC 25-056 ≠ A3116011 · no PD fast-charge myth.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const anker_soundcore_motion_plus_detail: ProductDetail = {

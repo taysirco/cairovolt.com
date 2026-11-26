@@ -819,7 +819,7 @@ OCP zap test:
 - ❌ صفات مطلقة في `verdict` أو `pros` ("الأفضل"، "الأسرع")
 - ❌ نسب efficiency بلا قياس AC-input
 - ❌ أرقام dB / ms / SNR للسماعات بدون معدّات مختصة
-- ❌ ادعاء "authorized dealer" / "الوكيل المعتمد" / "official distributor"
+- ❌ ادعاء "الوكيل" / "توكيل" / "exclusive" / "الموزع الوحيد" لكايرو فولت، أو وصفها بموزع رسمي لـ JBL. (الصحيح منذ 2026-11-26: "موزع رسمي لانكر وساوندكور وجوي روم في مصر" — المصدر `src/lib/distributor-status.ts`)
 - ❌ خصم/عرض بلا شروط واضحة (يتحكم Merchant Center policies)
 - ❌ ادعاء بدون رابط مصدر (`vendor-stated` بلا URL)
 

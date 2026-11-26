@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { getBrandRelationshipLabel } from '@/lib/distributor-status';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
@@ -207,7 +208,7 @@ export default async function SoundcoreHubPage({ params }: Props) {
                             <div className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/15 px-3 py-1 backdrop-blur-md">
                                 <span className="h-2 w-2 rounded-full bg-green-300 animate-pulse"></span>
                                 <span className="text-[11px] font-bold tracking-wide text-white md:text-xs">
-                                    {isRTL ? `صوتيات ${soundcoreAr}` : 'Soundcore Audio'}
+                                    {getBrandRelationshipLabel('soundcore', isRTL ? 'ar' : 'en')}
                                 </span>
                             </div>
                         </div>

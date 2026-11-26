@@ -41,7 +41,7 @@ export const anker_zolo_usb_c_braided_cable = {
   "🔌 Slim 10 × 5.8 mm aluminum USB-C connectors",
   "📊 USB 2.0 480Mbps data",
   "🛡️ Verify compliance documentation for A8060",
-  "🏆 Current Anker Warranty Terms"
+  "🏆 CairoVolt Store Warranty Terms"
 ],
                 metaTitle: "Anker Zolo 240W USB-C Cable ⚡ Braided PD 3.1 | Egypt",
                 metaDesc: "Power laptops and phones with the genuine Anker Zolo 240W braided USB-C cable, PD 3.1 and 1.5m reach. In Egypt with store warranty and COD.",
@@ -72,7 +72,7 @@ export const anker_zolo_usb_c_braided_cable = {
   "🔌 موصلات USB-C ألومنيوم نحيفة 10 × 5.8 مم",
   "📊 نقل بيانات USB 2.0 بسرعة 480Mbps",
   "🛡️ تحقق من وثائق المطابقة للموديل A8060",
-  "🏆 راجع شروط ضمان انكر الحالية"
+  "🏆 راجع شروط ضمان متجر كايرو فولت"
 ],
                 metaTitle: "كابل انكر زولو 240 واط USB-C ⚡ مضفر PD 3.1 مصر",
                 metaDesc: "شغّل اللابتوب والموبايل بكابل انكر زولو الأصلي 240 واط المضفر، PD 3.1 وطول 1.5 متر، في مصر بضمان المتجر والدفع عند الاستلام.",

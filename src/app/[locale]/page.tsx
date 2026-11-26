@@ -261,11 +261,11 @@ export default async function Home({ params }: Props) {
             <div className="mx-auto mt-4 max-w-3xl text-sm leading-8 text-slate-600">
               {isRTL ? (
                 <p>
-                  كايرو فولت يجمع منتجات <strong className="text-slate-900">انكر</strong> للشحن والطاقة، ومنتجات <strong className="text-slate-900">ساوندكور</strong> و<strong className="text-slate-900">JBL</strong> للصوتيات، وخيارات <strong className="text-slate-900">جوي روم</strong> العملية للاستخدام اليومي. تقدر تقارن بين الباور بانك، الشواحن، الكابلات، الايربودز والهيدفون، وتشوف السعر والتوافق والضمان الخاص بكل منتج قبل الطلب. التوصيل متاح للعناوين المؤهلة داخل مصر، ويظهر تأكيد الشحن والدفع عند الاستلام قبل إتمام الطلب.
+                  كايرو فولت يجمع منتجات <strong className="text-slate-900">انكر</strong> للشحن والطاقة، ومنتجات <strong className="text-slate-900">ساوندكور</strong> و<strong className="text-slate-900">JBL</strong> للصوتيات، وخيارات <strong className="text-slate-900">جوي روم</strong> العملية للاستخدام اليومي. وكايرو فولت موزع رسمي لمنتجات انكر وساوندكور وجوي روم في مصر، وكل طلب مؤهل يصلك بفاتورة وكرت ضمان كايرو فولت مطبوع. تقدر تقارن بين الباور بانك، الشواحن، الكابلات، الايربودز والهيدفون، وتشوف السعر والتوافق والضمان الخاص بكل منتج قبل الطلب. التوصيل متاح للعناوين المؤهلة داخل مصر، ويظهر تأكيد الشحن والدفع عند الاستلام قبل إتمام الطلب.
                 </p>
               ) : (
                 <p>
-                  CairoVolt brings together <strong className="text-slate-900">Anker</strong> charging and power products, <strong className="text-slate-900">Soundcore</strong> and <strong className="text-slate-900">JBL</strong> audio, and practical <strong className="text-slate-900">Joyroom</strong> everyday options. Compare power banks, chargers, cables, earbuds, and headphones with clear pricing, compatibility, and product-specific warranty terms before ordering. Delivery is available to eligible addresses within Egypt, with shipping and cash-on-delivery eligibility confirmed before the order is completed.
+                  CairoVolt brings together <strong className="text-slate-900">Anker</strong> charging and power products, <strong className="text-slate-900">Soundcore</strong> and <strong className="text-slate-900">JBL</strong> audio, and practical <strong className="text-slate-900">Joyroom</strong> everyday options. CairoVolt is an official distributor of Anker, Soundcore, and Joyroom in Egypt, and every eligible order arrives with an invoice and a printed CairoVolt warranty card. Compare power banks, chargers, cables, earbuds, and headphones with clear pricing, compatibility, and product-specific warranty terms before ordering. Delivery is available to eligible addresses within Egypt, with shipping and cash-on-delivery eligibility confirmed before the order is completed.
                 </p>
               )}
             </div>
@@ -279,14 +279,14 @@ export default async function Home({ params }: Props) {
               locale={locale}
               qaList={isRTL ? [
                 { question: 'أبدأ منين لو مش عارف الموديل المناسب؟', answer: 'ابدأ بقسم «اختار حسب استخدامك» أو مساعد الاختيار السريع في الصفحة. اختار هل محتاج صوت أفضل، بطارية أطول، أو شحن أسرع، وحدد ميزانيتك عشان تشوف نقطة بداية مناسبة.' },
-                { question: 'إزاي أراجع بيانات المنتج قبل الشراء؟', answer: 'طابق رقم الموديل والمواصفات مع مصادر الشركة المصنّعة وأدواتها إن وُجدت، واحتفظ بالفاتورة. أداة كايرو فولت تتحقق من سجل ضمان كايرو فولت فقط وليست شهادة أصالة من الشركة المصنّعة.' },
+                { question: 'إزاي أراجع بيانات المنتج قبل الشراء؟', answer: 'كايرو فولت موزع رسمي لانكر وساوندكور وجوي روم في مصر. طابق رقم الموديل والمواصفات مع مصادر الشركة المصنّعة وأدواتها إن وُجدت، واحتفظ بالفاتورة. أداة كايرو فولت تتحقق من سجل ضمان كايرو فولت فقط وليست شهادة أصالة من الشركة المصنّعة.' },
                 { question: 'الضمان كام شهر؟', answer: warrantyAnswer },
                 { question: 'هل الدفع عند الاستلام متاح؟', answer: 'نعم، الدفع عند الاستلام متاح للطلبات المؤهلة. تفاصيل المبلغ والشحن تظهر بوضوح أثناء إتمام الطلب.' },
                 { question: 'هل التوصيل متاح خارج القاهرة؟', answer: `نعم، نخدم العناوين المؤهلة داخل محافظات مصر. رسوم التوصيل ${shippingAnswer} يُؤكد توافر التوصيل ومدته ورسومه قبل إتمام الطلب.` },
                 { question: 'لو المنتج مش مناسب، أعمل إيه؟', answer: `${returnsAnswer} تواصل مع الدعم قبل إرسال المنتج.` },
               ] : [
                 { question: 'Where do I start if I do not know the right model?', answer: 'Start with Shop by Need or the quick choice assistant on this page. Choose better sound, longer battery, or faster charging, then set a budget for a useful starting point.' },
-                { question: 'How can I review a product before buying?', answer: 'Match the model number and specifications with manufacturer sources and any manufacturer tools that are available, and keep the invoice. CairoVolt\'s checker confirms only a CairoVolt warranty record; it is not a manufacturer authenticity certificate.' },
+                { question: 'How can I review a product before buying?', answer: 'CairoVolt is an official distributor of Anker, Soundcore, and Joyroom in Egypt. Match the model number and specifications with manufacturer sources and any manufacturer tools that are available, and keep the invoice. CairoVolt\'s checker confirms only a CairoVolt warranty record; it is not a manufacturer authenticity certificate.' },
                 { question: 'How long is the warranty?', answer: warrantyAnswer },
                 { question: 'Is cash on delivery available?', answer: 'Yes, cash on delivery is available for eligible orders. The order total and delivery details are shown during checkout.' },
                 { question: 'Do you deliver outside Cairo?', answer: `Yes, we serve eligible addresses across Egypt's governorates. Delivery costs ${shippingAnswer} Availability, timing, and the fee are confirmed before the order is completed.` },

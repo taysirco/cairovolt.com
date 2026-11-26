@@ -213,7 +213,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
 
 <h2>Soundcore في مصر — أصلية ولا مش أصلية؟</h2>
 
-<p>سؤال بيتسأل كتير. كايرو فولت متجر مصري مستقل — مش وكيل ولا موزع معتمد لانكر — وبنبيع سماعات ساوندكور أصلية في علبتها المقفولة بفاتورة و<strong>ضمان كايرو فولت المكتوب</strong> (المدة موضحة في صفحة كل منتج).</p>
+<p>سؤال بيتسأل كتير. كايرو فولت موزع رسمي لساوندكور (علامة انكر الصوتية) في مصر، وبنبيع سماعات ساوندكور أصلية في علبتها المقفولة بفاتورة و<strong>ضمان كايرو فولت المكتوب</strong> (18 شهر، والمدة موضحة في صفحة كل منتج) وكرت ضمان مطبوع سيرياله بيتراجع على cairovolt.com/verify.</p>
 
 <p>إزاي تتأكد بنفسك من أي بايع:</p>
 <ul style="padding-right:20px;line-height:1.9;">
@@ -256,7 +256,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
     <li><strong>عايز الفئة الأعلى في سلسلة Liberty؟</strong> — <a href="/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;">Liberty 4 Pro</a> بـ {{price:soundcore-liberty-4-pro}} جنيه.</li>
 </ul>`,
             faq: [
-                { question: 'هل سماعات Soundcore أصلية ولا مقلدة في مصر؟', answer: 'كايرو فولت متجر مستقل بيبيع سماعات ساوندكور أصلية في علبتها المقفولة بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). عشان تتأكد من أي بايع: اطلب فاتورة وضمان مكتوب، وطابق رقم الموديل على العلبة، ولو عليها ملصق أمان ادخل الكود (16 أو 20 رقم) على anker.com/verify — غياب الملصق مش معناه إن المنتج مقلد. تطبيق Soundcore مش وسيلة للتأكد من الأصالة.' },
+                { question: 'هل سماعات Soundcore أصلية ولا مقلدة في مصر؟', answer: 'كايرو فولت موزع رسمي لساوندكور في مصر وبيبيع سماعات ساوندكور أصلية في علبتها المقفولة بفاتورة وضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). عشان تتأكد من أي بايع: اطلب فاتورة وضمان مكتوب، وطابق رقم الموديل على العلبة، ولو عليها ملصق أمان ادخل الكود (16 أو 20 رقم) على anker.com/verify — غياب الملصق مش معناه إن المنتج مقلد. تطبيق Soundcore مش وسيلة للتأكد من الأصالة.' },
                 { question: 'هل P20i كافية للطالب في المترو؟', answer: 'P20i كافية لو مش محتاج ANC: IPX5 معلن، وحتى 10 ساعات للسماعة و30 مع العلبة حسب ساوندكور. المشكلة الوحيدة في المترو إنها من غير ANC، فهتحتاج ترفع الصوت عشان تغطي الدوشة — ولو ده يومي، R50i NC بـ ANC معلن بـ {{price:anker-soundcore-r50i-nc}} جنيه.' },
                 { question: 'إيه الفرق الحقيقي بين R50i و R50i NC؟', answer: 'R50i من عائلة A3949 بدون ANC: حتى 10 ساعات للسماعة و30 مع العلبة وIPX5. R50i NC موديل منفصل من عائلة A3959 بـ ANC معلن، وحتى 45 ساعة معلنة، و4 مايكات، وعلبة بحامل للموبايل، وIP54 معلن. السعر الحالي: R50i بـ {{price:anker-soundcore-r50i}} جنيه وR50i NC بـ {{price:anker-soundcore-r50i-nc}} جنيه.' },
                 { question: 'هل Liberty 4 NC تستاهل فرق السعر عن R50i NC؟', answer: 'Liberty 4 NC بتضيف ANC تكيّفي معلن، وLDAC على أندرويد المتوافق، وHearID، وعلبة بشحن لاسلكي، وحتى 50 ساعة معلنة (40 مع ANC). تستاهل لو بتسمع موسيقى عالية الجودة على أندرويد أو بتشتغل في مكان صاخب لساعات؛ لو الأولوية عزل أساسي في المترو بميزانية أقل، R50i NC كفاية. السعر الحالي: R50i NC بـ {{price:anker-soundcore-r50i-nc}} جنيه وLiberty 4 NC بـ {{price:soundcore-liberty-4-nc}} جنيه.' },
@@ -447,7 +447,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
 
 <h2>Soundcore in Egypt — Authentic or Not?</h2>
 
-<p>A common question. CairoVolt is an independent Egyptian store — not an Anker agent or authorized distributor — and we sell genuine Soundcore earbuds in their sealed boxes with an invoice and <strong>CairoVolt's written store warranty</strong> (duration shown on each product page).</p>
+<p>A common question. CairoVolt is an official distributor of Anker's Soundcore brand in Egypt, and we sell genuine Soundcore earbuds in their sealed boxes with an invoice, <strong>CairoVolt's written store warranty</strong> (18 months, also shown on each product page) and a physical warranty card whose serial is checked at cairovolt.com/verify.</p>
 
 <p>How to check any seller yourself:</p>
 <ul style="padding-left:20px;line-height:1.9;">
@@ -490,7 +490,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
     <li><strong>Want the top of the Liberty series?</strong> — <a href="/en/soundcore/audio/soundcore-liberty-4-pro" style="color:#2563eb;">Liberty 4 Pro</a> at EGP {{price:soundcore-liberty-4-pro}}.</li>
 </ul>`,
             faq: [
-                { question: 'Are Soundcore earbuds authentic in Egypt?', answer: 'CairoVolt is an independent store that sells genuine Soundcore earbuds in sealed boxes with an invoice and CairoVolt\'s written store warranty (duration shown on each product page). To check any seller: ask for an invoice and a written warranty, match the model number on the box, and if the box carries a security label, enter its 16- or 20-digit code at anker.com/verify — a missing label does not mean the product is counterfeit. The Soundcore app is not an authenticity check.' },
+                { question: 'Are Soundcore earbuds authentic in Egypt?', answer: 'CairoVolt is an official distributor of Anker\'s Soundcore brand in Egypt and sells genuine Soundcore earbuds in sealed boxes with an invoice and CairoVolt\'s written store warranty (duration shown on each product page). To check any seller: ask for an invoice and a written warranty, match the model number on the box, and if the box carries a security label, enter its 16- or 20-digit code at anker.com/verify — a missing label does not mean the product is counterfeit. The Soundcore app is not an authenticity check.' },
                 { question: 'Is the P20i good enough for a student on the Cairo metro?', answer: 'The P20i works if you do not need ANC: listed IPX5, and up to 10 hours per charge and 30 with the case per Soundcore. The only problem on the metro is the lack of ANC, so you will raise the volume to cover the noise — if that is your daily commute, the R50i NC with listed ANC costs EGP {{price:anker-soundcore-r50i-nc}}.' },
                 { question: 'What is the real difference between R50i and R50i NC?', answer: 'The R50i is part of the A3949 family without ANC: up to 10 hours per charge, 30 with the case, and IPX5. The R50i NC is a separate model from the A3959 family with listed ANC, up to 45 hours listed, 4 mics, a phone-stand case and a listed IP54 rating. Current prices: R50i EGP {{price:anker-soundcore-r50i}}, R50i NC EGP {{price:anker-soundcore-r50i-nc}}.' },
                 { question: 'Is the Liberty 4 NC worth the price premium over the R50i NC?', answer: 'The Liberty 4 NC adds listed adaptive ANC, LDAC on compatible Android phones, HearID, a wireless-charging case and up to 50 hours listed (40 with ANC). It is worth it if you listen to high-quality music on Android or work in a loud place for hours; if your priority is basic noise cancelling on the metro on a smaller budget, the R50i NC is enough. Current prices: R50i NC EGP {{price:anker-soundcore-r50i-nc}}, Liberty 4 NC EGP {{price:soundcore-liberty-4-nc}}.' },

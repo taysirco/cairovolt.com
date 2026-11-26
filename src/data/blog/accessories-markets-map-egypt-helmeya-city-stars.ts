@@ -136,6 +136,7 @@ export const accessories_markets_map_egypt_helmeya_city_stars: BlogArticle = {
     <li>🚫 <strong>رفض بيع المنتجات المجهولة:</strong> المحلات الراقية التي تحافظ على اسمها ترفض تماماً عرض الشواحن الشعبية مجهولة الهوية التي تباع بدون علب أو بشريط لاصق، وتقتصر على المنتجات المغلفة بعناية والتابعة لتوكيلات معروفة بمصر.</li>
 </ol>
 <p>فمثلاً، في الإسكندرية ستجد محلات ممتازة بمناطق سموحة والمنشية، وفي المنصورة ستجد تجاراً معتمدين بشارع المشاية وقناة السويس، وفي طنطا ستجد خيارات جيدة بمنطقة سعيد والشارع التجاري. أما في الصعيد مثل أسيوط والمنيا وسوهاج، فإن محطات المراكز الرئيسية بالمدن الكبرى تضم فروعاً معتمدة لموزعي بي تك وراية لضمان حصولك على المنتج الأصلي دون الحاجة للسفر للقاهرة. الاهتمام بالتفاصيل يضمن لك أفضل حماية استثمارية لهاتفك ويوفر عليك تكلفة الصيانة. لذلك ننصح بالتروي الشديد والاستثمار في منتجات الوكلاء المعتمدين لضمان أفضل تجربة للمستخدم.</p>
+<p>وإذا لم تجد محلاً موثوقاً بالقرب منك، فإن كايرو فولت موزع رسمي لمنتجات انكر (ومنها علامتها الصوتية ساوندكور) وجوي روم في مصر، وتوصّل إلى كل المحافظات بضمان متجر كايرو فولت المكتوب (18 شهرًا على انكر وساوندكور و12 شهرًا على أغلب منتجات جوي روم، والمدة الدقيقة موضحة في صفحة كل منتج) مع كرت ضمان مطبوع يُراجَع سيرياله على cairovolt.com/verify.</p>
 `,
         },
         en: {
@@ -251,7 +252,8 @@ export const accessories_markets_map_egypt_helmeya_city_stars: BlogArticle = {
     <li>📜 <strong>Printed Receipts and Importer Seals:</strong> A trustworthy retailer provides a detailed printed receipt showing the product's serial number, along with explanation of the local importer's warranty and replacement policy.</li>
     <li>🚫 <strong>Refusal to Stock Loose Generic Items:</strong> Professional shops protect their reputation by refusing to sell loose, unbranded street chargers packaged in plastic bags. They strictly display boxed, sealed units imported through certified channels.</li>
 </ol>
-<p>For example, in Alexandria, you can find excellent dealers in Smouha and El-Mansheya. In Mansoura, reputable retailers operate around El-Mashaia and Suez Canal streets. In Tanta, Saeed Street is a reliable commercial hub. For Upper Egypt governorates such as Assiut, Minya, and Sohag, major city centers host authorized B.TECH and Raya branches, providing local access to original imports without requiring travel to Cairo. Paying close attention to these parameters secures the best protection for your mobile hardware and saves you from high maintenance expenses.</p>`
+<p>For example, in Alexandria, you can find excellent dealers in Smouha and El-Mansheya. In Mansoura, reputable retailers operate around El-Mashaia and Suez Canal streets. In Tanta, Saeed Street is a reliable commercial hub. For Upper Egypt governorates such as Assiut, Minya, and Sohag, major city centers host authorized B.TECH and Raya branches, providing local access to original imports without requiring travel to Cairo. Paying close attention to these parameters secures the best protection for your mobile hardware and saves you from high maintenance expenses.</p>
+<p>If there is no reputable shop near you, CairoVolt is an official distributor of Anker (including its Soundcore audio brand) and Joyroom in Egypt and delivers to all governorates, with the written CairoVolt store warranty (18 months on Anker and Soundcore, 12 months on most Joyroom products; the exact term is shown on each product page) and a physical warranty card whose serial is checked at cairovolt.com/verify.</p>`
         }
     }
 };

@@ -10,11 +10,11 @@
 //   (A3949) ≠ R50i Vi (A3969) ≠ P30i / R50i NC (A3959). Do NOT paste sibling
 //   Timer+ rows (P20i 9h35/28h30 · P40i 8h47/5h52 · R50i 9h28/28h12) onto this page.
 // Codecs ground truth: support.soundcore.com A3937 = SBC, AAC only (no LDAC).
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 // Elevated gold bar lock: ≥160 lines · 5+5 aiTldr · Eng. Omar Khaled · 2026-07-24
 // Elevated gold bar lock: SKU hygiene ≠ P20i / P40i / R50i — THIS sample owns stopwatches
 // Elevated gold bar lock: No invented dB/ms/SNR · recall check 2026-07-24
-// Elevated gold bar lock: CairoVolt independent retailer — not Soundcore corporate lab
+// Elevated gold bar lock: CairoVolt official Soundcore distributor in Egypt — not Soundcore corporate lab
 // Elevated gold bar lock: Bench sample CV-EB-A3937-001 · New Cairo lab
 // Elevated gold bar lock: Power-bank case usable Wh disclosed separately from earbud playtime
 // Elevated gold bar lock: Airline: case power-bank USE banned in-flight Emirates/Flydubai since 1 Oct 2025

@@ -18,7 +18,7 @@
 //   soft pouch) → Life Q30 (A3028, Transport/Indoor/Outdoor + hard case, this
 //   file) → Space One (A3035, Adaptive ANC + LDAC + soft pouch) → Space Q45
 //   (A3040, Adaptive ANC + LDAC + hard case). Sibling files intentionally untouched.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 // Engineer sign-off: Eng. Omar Khaled · testDate 2026-07-24 · sample CV-EB-A3028-001.
 import type { ProductDetail } from './_types';
 
@@ -77,7 +77,7 @@ export const soundcore_q30_headphones_detail: ProductDetail = {
         'Launch': { en: '2020 · MSRP historically ~$79.99 (Egyptian shelf price varies — verify live listing)', ar: '2020 · السعر الأصلي تاريخيًا ~79.99 دولار (سعر الرف المصري يتغير — تحقّق من القائمة الحالية)' },
         'Airline cabin note': { en: 'Emirates/Flydubai 1 Oct 2025 in-flight-USE ban = power banks only — Q30 has no separable spare cell; fine to wear in the cabin', ar: 'حظر الإمارات/فلاي دبي 1 أكتوبر 2025 يخص باور بانك فقط — الـQ30 بلا خلية احتياط منفصلة؛ مسموح ارتداؤها في الكابينة' },
         'BassUp (app feature)': { en: 'BassUp toggle present in Soundcore App on 2026-07-24 firmware — subjective bass lift; not a measured frequency-response claim', ar: 'مفتاح BassUp ظاهر في تطبيق Soundcore على فيرموير 2026-07-24 — رفع باس ذاتي؛ ليس ادعاء استجابة ترددية مقاسة' },
-        'Independent retailer': { en: 'CairoVolt is an independent retailer — not an authorized Soundcore/Anker distributor; reject "official lab" language', ar: 'كايرو فولت بائع مستقل — ليس موزعًا معتمدًا لساوندكور/أنكر؛ ارفض لغة "مختبر رسمي"' },
+        'Seller status': { en: 'CairoVolt is an official distributor of Anker\'s Soundcore brand in Egypt; bench numbers are in-house or cited — reject "official lab" language', ar: 'كايرو فولت موزع رسمي لساوندكور (علامة انكر الصوتية) في مصر؛ أرقام المقعد داخلية أو موثّقة المصدر — ارفض لغة "مختبر رسمي"' },
     },
     benchTest: {
         sku: 'A3028',
@@ -136,7 +136,7 @@ export const soundcore_q30_headphones_detail: ProductDetail = {
             { param: { en: 'Recall status (verified 2026-07-24)', ar: 'حالة الاستدعاء (متحققة 2026-07-24)' }, measured: { en: 'NOT recalled — A3028 not on anker.com/product-recalls; not in CPSC 25-056 (A3102/A3302 speakers)', ar: 'غير مُستدعى — A3028 ليس على anker.com/product-recalls؛ وليس ضمن CPSC 25-056 (سماعات A3102/A3302)' }, note: { en: 'checked 2026-07-24; cabin-legal vs Emirates/Flydubai power-bank USE ban', ar: 'فُحص في 2026-07-24؛ قانوني في الكابينة مقابل حظر استخدام باور بانك الإمارات/فلاي دبي' } },
             { param: { en: 'Vendor ANC % / dB claim handling', ar: 'التعامل مع ادعاء % / ديسيبل للعزل من البائع' }, rated: { en: 'Soundcore hybrid-ANC marketing "% reduction" under stated conditions; third-party labs may publish their own dB', ar: 'تسويق ساوندكور للعزل الهجين "% خفض" في ظروف معلنة؛ مختبرات طرف ثالث قد تنشر ديسيبلها' }, measured: { en: 'NOT independently measured in dB by CairoVolt — qualitative notes only', ar: 'غير مقاس مستقلًا بالديسيبل من CairoVolt — ملاحظات نوعية فقط' }, note: { en: 'No isolation dB measured', ar: 'لا ديسيبل عزل مقاس' } },
             { param: { en: 'A/B runtime ladder @ 50% ANC/Adaptive ON (siblings)', ar: 'سلم زمن التشغيل A/B @ 50% ANC/Adaptive مفعّل (أشقاء)' }, measured: { en: 'Q20i ~37 h 42 min · Q30 38 h 10 min (this unit) · Space One ~37 h 18 min · Q45 ~47 h 10 min', ar: 'Q20i ~37 س 42 د · Q30 38 س 10 د (هذه الوحدة) · Space One ~37 س 18 د · Q45 ~47 س 10 د' }, note: { en: 'sibling figures from their own gold benches — disclosure only; do not paste Q45/Space One hours onto CV-EB-A3028-001', ar: 'أرقام الأشقاء من مقاعدهم الذهبية — إفصاح فقط؛ لا تلصق ساعات Q45/Space One على CV-EB-A3028-001' } },
-            { param: { en: 'Independent-retailer disclosure', ar: 'إفصاح بائع مستقل' }, measured: { en: 'CairoVolt is an independent retailer — not an authorized Soundcore/Anker distributor; bench figures are in-house on CV-EB-A3028-001 only', ar: 'كايرو فولت بائع مستقل — ليس موزعًا معتمدًا لساوندكور/أنكر؛ أرقام المقعد داخلية على CV-EB-A3028-001 فقط' }, note: { en: 'reject "official lab" marketing language', ar: 'ارفض لغة تسويق "مختبر رسمي"' } },
+            { param: { en: 'Seller status', ar: 'صفة البائع' }, measured: { en: 'CairoVolt is an official distributor of Anker\'s Soundcore brand in Egypt; bench figures are in-house on CV-EB-A3028-001 only', ar: 'كايرو فولت موزع رسمي لساوندكور (علامة انكر الصوتية) في مصر؛ أرقام المقعد داخلية على CV-EB-A3028-001 فقط' }, note: { en: 'reject "official lab" marketing language', ar: 'ارفض لغة تسويق "مختبر رسمي"' } },
         ],
         verdict: {
             en: 'Life Q30 delivered 57 h 20 min ANC-OFF and 38 h 10 min ANC-ON at 50% volume — inside the ±15% band of Soundcore\'s 60 h / 40 h claims. Transport/Indoor/Outdoor modes + hard case verified. AAC/SBC only. ANC described qualitatively. Not recalled.',

@@ -43,7 +43,7 @@ export const joyroom_60w_car_charger_detail: ProductDetail = {
             'HEAT: Cairo July dashboard after sun-park hit 60.8°C on our Corolla (GM320); after a 15-min multi-output bench load the charger body peaked 51.2°C and the USB-C cable mid-span 41.6°C at 28.1°C lab ambient. ' +
             'Unplug when parking in direct sun; let AC cool the cabin before high-load charging. ' +
             'ELECTRICITY: car-alternator draw at ~50W is negligible vs a Corolla alternator; do not leave multi-device load running for hours with the engine off on a weak 12V battery. ' +
-            'Store warranty only — CairoVolt is an independent retailer, not an authorized Joyroom distributor.',
+            'CairoVolt store warranty — CairoVolt is an official Joyroom distributor in Egypt.',
         ar:
             'JR-CCL05 يجيب على سؤال السائق المصري: "عايز كابلين مدمجين عشان أبطل أدوّر على Lightning وUSB-C تحت المقعد، وزيادة منفذين للأطفال/الركاب." ' +
             'ستة سيناريوهات قاهرية. مناسب لـ: (1) رحلة عائلية (العين السخنة / الإسكندرية / الساحل): السائق على USB-C القابل للسحب (خرائط)، الزوج/ة على iPhone بـLightning، تابلت الأطفال على USB-C وUSB-A الحرّين — اقبل التخفيف المشترك (~51 واط إجمالي مقاس، ليس 69 واط). ' +
@@ -59,7 +59,7 @@ export const joyroom_60w_car_charger_detail: ProductDetail = {
             'الحرارة: تابلوه يوليو بعد ركن شمسي بلغ 60.8°م على Corolla لدينا (GM320)؛ بعد حمل متعدد المخارج 15 دقيقة على المنضدة بلغت ذروة جسم الشاحن 51.2°م ومنتصف كابل USB-C 41.6°م عند محيطة مختبر 28.1°م. ' +
             'افصل عند الركن في الشمس؛ دع التكييف يبرّد قبل الشحن بحمل عالٍ. ' +
             'الكهرباء: سحب ~50 واط من المولد ضئيل مقابل مولد Corolla؛ لا تترك حمل أجهزة متعددة ساعات والمحرك مطفأ على بطارية 12V ضعيفة. ' +
-            'ضمان المتجر فقط — كايروفولت متجر مستقل وليس موزع Joyroom معتمدًا.',
+            'ضمان متجر كايروفولت — كايروفولت موزع رسمي لجوي روم في مصر.',
     },
     specifications: {
         'Model': {

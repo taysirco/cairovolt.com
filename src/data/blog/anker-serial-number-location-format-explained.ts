@@ -137,7 +137,7 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 
 <h2>ليه الفاتورة والضمان المكتوب مهمين؟</h2>
 
-<p>السيريال نمبر بيعرّف القطعة، لكنه مش أداة لإثبات الأصالة: ممكن يتنسخ على علب كتير، وصفحة anker.com/verify أصلاً بتتحقق بكود الأمان اللي تحت طبقة الكشط على العلبة، مش بالسيريال. عشان كده اشتري من بائع بيدي فاتورة وضمان مكتوب بيذكر اسمه وكيانه القانوني، وطابق الموديل والقدرات المطبوعة مع وثائق انكر، واستخدم أداة التحقق بتاعة انكر لو العلبة عليها ملصق أمان. كايرو فولت متجر مستقل، ومنتجات انكر عندنا عليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج).</p>
+<p>السيريال نمبر بيعرّف القطعة، لكنه مش أداة لإثبات الأصالة: ممكن يتنسخ على علب كتير، وصفحة anker.com/verify أصلاً بتتحقق بكود الأمان اللي تحت طبقة الكشط على العلبة، مش بالسيريال. عشان كده اشتري من بائع بيدي فاتورة وضمان مكتوب بيذكر اسمه وكيانه القانوني، وطابق الموديل والقدرات المطبوعة مع وثائق انكر، واستخدم أداة التحقق بتاعة انكر لو العلبة عليها ملصق أمان. كايرو فولت موزع رسمي لانكر في مصر، ومنتجات انكر عندنا عليها ضمان متجر كايرو فولت المكتوب (18 شهر، والمدة موضحة في صفحة كل منتج).</p>
 
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات انكر بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;"><a href="/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن سيارة انكر 30 واط (A2741)</a> · <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">شاحن انكر 45 واط بشاشة</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-A إلى USB-C</a>.</p></div>
 
@@ -190,7 +190,7 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ منتجات انكر من كايرو فولت — بضمان مكتوب</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كايرو فولت متجر مستقل، ومنتجات انكر عندنا عليها ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج). علب انكر المبيعة في المحلات بيكون عليها ملصق كود أمان تقدر تفحصه على anker.com/verify، وانكر بتقول إن غياب الملصق مش دليل تقليد. لو عندك أي سؤال عن القطعة اللي استلمتها — تواصل معانا.
+        كايرو فولت موزع رسمي لانكر في مصر، ومنتجات انكر عندنا عليها ضمان متجر كايرو فولت المكتوب (18 شهر، والمدة موضحة في صفحة كل منتج) وكرت ضمان مطبوع سيرياله بيتراجع على صفحة التحقق في كايرو فولت. علب انكر المبيعة في المحلات بيكون عليها ملصق كود أمان تقدر تفحصه على anker.com/verify، وانكر بتقول إن غياب الملصق مش دليل تقليد. لو عندك أي سؤال عن القطعة اللي استلمتها — تواصل معانا.
     </p>
 </div>`,
             faq: [
@@ -322,7 +322,7 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 
 <h2>Why an Invoice and a Written Warranty Matter</h2>
 
-<p>The serial number identifies the unit, but it is not an authenticity tool: it can be copied onto many boxes, and anker.com/verify checks the scratch-off security code on the package, not the serial. So buy from a seller that issues an invoice and a written warranty naming its legal identity, match the model and printed ratings to Anker's documentation, and use Anker's verification tool when the box carries a security label. CairoVolt is an independent retailer, and Anker products bought from us are covered by CairoVolt's written store warranty (duration shown on each product page).</p>
+<p>The serial number identifies the unit, but it is not an authenticity tool: it can be copied onto many boxes, and anker.com/verify checks the scratch-off security code on the package, not the serial. So buy from a seller that issues an invoice and a written warranty naming its legal identity, match the model and printed ratings to Anker's documentation, and use Anker's verification tool when the box carries a security label. CairoVolt is an official Anker distributor in Egypt, and Anker products bought from us are covered by CairoVolt's written store warranty (18 months, also shown on each product page).</p>
 
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Anker products with CairoVolt's written store warranty (duration shown on each product page):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;"><a href="/en/anker/car-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Car Charger (A2741)</a> · <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker 45W Charger with Display</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Wall Charger</a>.</p></div>
 
@@ -358,7 +358,7 @@ export const anker_serial_number_location_format_explained: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Anker Products from CairoVolt — With a Written Warranty</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        CairoVolt is an independent retailer, and Anker products bought from us are covered by CairoVolt's written store warranty (duration shown on each product page). Offline-sold Anker packaging carries a scratch-off security code you can check at anker.com/verify; Anker says a missing label is not proof of a fake. If you have any question about the unit you received — contact us.
+        CairoVolt is an official Anker distributor in Egypt, and Anker products bought from us are covered by CairoVolt's written store warranty (18 months, also shown on each product page) and a physical warranty card whose serial is checked on CairoVolt's verification page. Offline-sold Anker packaging carries a scratch-off security code you can check at anker.com/verify; Anker says a missing label is not proof of a fake. If you have any question about the unit you received — contact us.
     </p>
 </div>`,
             faq: [

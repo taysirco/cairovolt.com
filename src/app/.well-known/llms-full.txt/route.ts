@@ -18,6 +18,7 @@ import {
     PRODUCT_WARRANTY_OVERRIDES,
 } from '@/lib/warranty-policy';
 import { governorates } from '@/data/governorates';
+import { getDistributorDisclosure, WARRANTY_CARD_STATEMENT } from '@/lib/distributor-status';
 
 const WARRANTY_BRANDS = [
     { key: 'anker', name: 'Anker' },
@@ -68,7 +69,8 @@ export function GET() {
 - Delivery: ${getStoreShippingSummary('en', governorates)} The exact fee is shown at checkout; the date is confirmed after address review. Coverage: eligible delivery addresses across Egypt, confirmed with the order.
 - Payment: Cash on Delivery (COD) in EGP.
 - Returns: ${getStoreReturnsSummary('en')}
-- Warranty: CairoVolt's own written store warranty (not a manufacturer warranty unless a page says so). The product page and order confirmation record the term that applies.
+- Brand relationship: ${getDistributorDisclosure('en')}
+- Warranty: the CairoVolt store warranty — CairoVolt's own written warranty, issued and serviced by CairoVolt (it is not the manufacturer's international warranty). ${WARRANTY_CARD_STATEMENT.en} The product page and order confirmation record the term that applies.
 
 | Brand or product | CairoVolt store warranty |
 |---|---|

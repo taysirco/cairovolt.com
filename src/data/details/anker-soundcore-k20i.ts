@@ -3,7 +3,7 @@
 // Elevated bar: ≥170 lines · ≥18 results · 5+5 aiTldr · Battery Wh math + §8 conservation · kids/volume red-flag · Eng. Omar Khaled · 2026-07-24.
 // Red-flag audit: NO kids hardware volume limiter · NO ANC dB · NO latency ms · NO SNR · IPX5 vendor-only · 6h/36h claim passes §7.5 physics (no battery red flag).
 // CRITICAL: A3994 ≠ A3949 R50i/P20i/P25i (tip-seal ~10h) ≠ A3959 R50i NC. Do NOT paste sibling stopwatch rows onto this page.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official Anker/Soundcore distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const anker_soundcore_k20i_detail: ProductDetail = {

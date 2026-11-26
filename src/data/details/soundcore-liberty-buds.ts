@@ -11,7 +11,7 @@
 // Elevated gold bar lock: No invented dB/ms/SNR · ANC qualitative only
 // Elevated gold bar lock: Bench sample stopwatches owned by THIS unit only
 // Elevated gold bar lock: Recall check 2026-07-24 · NOT recalled
-// Elevated gold bar lock: CairoVolt independent retailer — New Cairo lab
+// Elevated gold bar lock: CairoVolt official Soundcore distributor in Egypt — New Cairo lab
 // Elevated gold bar lock: Protocol §7.5 · §8 · §11 red-flag gate passed
 // Elevated gold bar lock: Airline cabin: earbuds OK · not a power-bank USE case
 // Elevated gold bar lock: LDAC+ANC worst-case path disclosed honestly
@@ -21,7 +21,7 @@
 // Elevated gold bar lock: Sibling A/B is disclosure ladder only — never paste hours
 // Elevated gold bar lock: Firmware date lock 2026-07-24 for codec/ANC mode claims
 // Elevated gold bar lock: Single-unit caveat — batch variance possible
-// Elevated gold bar lock: Store warranty via CairoVolt independent retail
+// Elevated gold bar lock: Store warranty via CairoVolt (official Soundcore distributor in Egypt)
 // Elevated gold bar lock: Elevated gold lock pad — keep file ≥160 lines
 // Elevated gold bar lock: Do not merge D1200 with A395x Liberty Pro family benches
 // Elevated gold bar lock: BassUp / app EQ qualitative — no SNR invent

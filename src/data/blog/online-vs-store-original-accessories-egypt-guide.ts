@@ -69,7 +69,7 @@ export const online_vs_store_original_accessories_egypt_guide: BlogArticle = {
 <p>أخطر حاجة ممكن تعملها هي شراء شاحن سريع من كشك في الشارع أو محل مجهول الهوية بداعي التوفير. الشواحن دي بتكون مقلدة، ومبتدعمش بروتوكولات الشحن الآمنة. استخدامها هو السبب الأول وراء حرق إيسي الشحن (Charging IC) بالهاتف، مما يسبب مشكلة هاتف سامسونج لا يشتغل ولا يقبل الشحن.</p>
 <p>لحماية موبايلك:</p>
 <ol style="line-height:2;">
-    <li>🔌 اشترِ الملحقات فقط من التوكيلات الرسمية أونلاين أو من محلات مرخصة ومعتمدة تعرض شهادات ضمان الوكيل المحلي بمصر.</li>
+    <li>🔌 اشترِ الملحقات فقط من التوكيلات الرسمية أونلاين أو من محلات مرخصة ومعتمدة تعرض شهادات ضمان الوكيل المحلي بمصر. وللعلم، كايرو فولت موزع رسمي لمنتجات انكر (ومنها ساوندكور) وجوي روم في مصر، وتبيعها أونلاين بضمان متجر كايرو فولت المكتوب (18 شهرًا على انكر وساوندكور و12 شهرًا على أغلب منتجات جوي روم) مع كرت ضمان مطبوع يُراجَع سيرياله على cairovolt.com/verify.</li>
     <li>⚡ كابل الشحن لازم يكون أصلي ومتين مثل <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل أنكر الأصلي</a> لتنظيم مرور التيار وحماية الهاتف من السخونة الزائدة.</li>
 </ol>
 
@@ -224,7 +224,7 @@ export const online_vs_store_original_accessories_egypt_guide: BlogArticle = {
 <p>To avoid receiving counterfeit goods when shopping online in Egypt, follow these guidelines:</p>
 <ol style="line-height:2;">
     <li>🚫 <strong>Avoid Shady Social Media Pages:</strong> Purchasing from social media pages that lack a commercial register or tax card makes it difficult to claim returns or exchange items legally.</li>
-    <li>🛡️ <strong>Look for Verified Seller Badges:</strong> When shopping on major platforms, buy from listings marked as "sold by the official brand store" or "fulfilled by authorized distributor".</li>
+    <li>🛡️ <strong>Look for Verified Seller Badges:</strong> When shopping on major platforms, buy from listings marked as "sold by the official brand store" or "fulfilled by authorized distributor". For reference, CairoVolt is an official distributor of Anker (including its Soundcore audio brand) and Joyroom in Egypt and sells online with the written CairoVolt store warranty (18 months on Anker and Soundcore, 12 months on most Joyroom products) and a physical warranty card whose serial is checked at cairovolt.com/verify.</li>
     <li>📦 <strong>Refuse Damaged Packages:</strong> If the delivery agent presents a parcel with broken seals or missing plastic shrink wrapping, reject the delivery and request a replacement.</li>
 </ol>
 

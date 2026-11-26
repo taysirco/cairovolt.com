@@ -91,7 +91,7 @@ export const joyroom_car_holders_content: CategoryContent = {
                         }
                         ,{
                             question: 'ما ضمان حامل جوي روم من CairoVolt؟',
-                            answer: 'مدة ضمان كايرو فولت ونطاق التغطية وشروط الاستبدال مكتوبة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
+                            answer: 'تبيع كايرو فولت حوامل جوي روم بصفتها موزعًا رسميًا لجوي روم في مصر، بضمان متجر كايرو فولت لمدة 12 شهرًا وكرت ضمان مطبوع تراجع سيرياله على صفحة التحقق. نطاق التغطية وشروط الاستبدال مكتوبة في صفحة المنتج وسياسة الضمان. موعد التوصيل تقديري حسب العنوان، والدفع عند الاستلام متاح للطلبات المؤهلة.'
                         }
                         ,{
                             question: 'هل الحامل بيحجب فتحة التكييف؟',
@@ -173,7 +173,7 @@ MagSafe-compatible mounts are designed for specified devices and cases, but a me
                         },
                         {
                             question: 'What warranty covers a Joyroom mount from CairoVolt?',
-                            answer: 'CairoVolt warranty duration, coverage, and replacement terms are written on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
+                            answer: 'CairoVolt sells Joyroom mounts as an official Joyroom distributor in Egypt, with the CairoVolt store warranty (12 months) and a physical warranty card whose serial you can check at cairovolt.com/verify. Coverage and replacement terms are written on the product page and warranty policy. Delivery timing is an estimate by address, and cash on delivery is available for eligible orders.'
                         },
                         {
                             question: 'Does the mount block the AC vent?',

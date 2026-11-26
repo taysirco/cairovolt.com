@@ -22,7 +22,7 @@
 // Elevated bar: ≥170 lines · ≥18 results · 5+5 aiTldr · Eng. Omar Khaled ·
 //   testDate 2026-07-24 · Battery Wh physics + §11.3 red-flag · careful A/B
 //   vs Q20i (A3004) — sibling stopwatch never pasted as this sample’s numbers.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const soundcore_q11i_headphones_detail: ProductDetail = {

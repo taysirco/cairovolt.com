@@ -30,7 +30,7 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
 </div>
 
 <h2>ما هي ساوندكور؟</h2>
-<p>ساوندكور هي العلامة الصوتية التابعة لـ<strong>انكر (Anker)</strong>: سماعات أذن لاسلكية، وهيدفون فوق الأذن، وسبيكرات بلوتوث. كايرو فولت متجر مصري مستقل بيبيع موديلات ساوندكور الأصلية بفاتورة و<strong>ضمان كايرو فولت المكتوب</strong> (المدة موضحة في صفحة كل منتج).</p>
+<p>ساوندكور هي العلامة الصوتية التابعة لـ<strong>انكر (Anker)</strong>: سماعات أذن لاسلكية، وهيدفون فوق الأذن، وسبيكرات بلوتوث. كايرو فولت موزع رسمي لساوندكور (علامة انكر الصوتية) في مصر، وبيبيع موديلات ساوندكور الأصلية بفاتورة و<strong>ضمان كايرو فولت المكتوب</strong> (18 شهر، والمدة موضحة في صفحة كل منتج) وكرت ضمان مطبوع سيرياله بيتراجع على cairovolt.com/verify.</p>
 
 <div class="hub-callout" style="background:linear-gradient(90deg,#fff7ed,#fef2f2);border:2px solid #fb923c;border-radius:12px;padding:16px 20px;margin:20px 0;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
   <div style="flex:1;min-width:240px">
@@ -128,7 +128,7 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
 </div>
 
 <h2>What is Soundcore?</h2>
-<p>Soundcore is the audio brand of <strong>Anker</strong>: wireless earbuds, over-ear headphones and Bluetooth speakers. CairoVolt is an independent Egyptian store that sells genuine Soundcore models with an invoice and <strong>CairoVolt's written store warranty</strong> (duration shown on each product page).</p>
+<p>Soundcore is the audio brand of <strong>Anker</strong>: wireless earbuds, over-ear headphones and Bluetooth speakers. CairoVolt is an official distributor of Anker's Soundcore brand in Egypt and sells genuine Soundcore models with an invoice, <strong>CairoVolt's written store warranty</strong> (18 months, also shown on each product page) and a physical warranty card whose serial is checked at cairovolt.com/verify.</p>
 
 <div class="hub-callout" style="background:linear-gradient(90deg,#fff7ed,#fef2f2);border:2px solid #fb923c;border-radius:12px;padding:16px 20px;margin:20px 0;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
   <div style="flex:1;min-width:240px">

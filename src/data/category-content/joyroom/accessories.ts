@@ -35,7 +35,7 @@ export const joyroom_accessories_content: CategoryContent = {
 
 **قبل ما تشتري:** افتح **الإعدادات ← عام ← حول** واقرأ **رقم الموديل** (بيبدأ بحرف A)، وقارنه بجدول التوافق المطبوع على العلبة والموجود كامل في صفحة المنتج. الجدول بيغطي أجيال الايباد من 2018 لـ 2021، والأجهزة الأحدث مش موجودة فيه.
 
-**ضمان كايرو فولت:** التغطية والمدة والاستبدال حسب المكتوب في صفحة المنتج وسياسة الضمان، والتوصيل تقديري بعد تأكيد العنوان مع إتاحة الدفع عند الاستلام للطلبات المؤهلة. ولو محتاج كابل أو شاحن USB-C للقلم، شوف [كابلات جوي روم](/joyroom/cables) و[شواحن جوي روم](/joyroom/wall-chargers).
+**ضمان كايرو فولت:** كايرو فولت موزع رسمي لجوي روم في مصر، والقلم بيوصلك بضمان متجر كايرو فولت لمدة 12 شهر وكرت ضمان مطبوع تقدر تراجع سيرياله على صفحة التحقق. التغطية والاستبدال حسب المكتوب في صفحة المنتج وسياسة الضمان، والتوصيل تقديري بعد تأكيد العنوان مع إتاحة الدفع عند الاستلام للطلبات المؤهلة. ولو محتاج كابل أو شاحن USB-C للقلم، شوف [كابلات جوي روم](/joyroom/cables) و[شواحن جوي روم](/joyroom/wall-chargers).
     `,
             qualityBadges: [
                 { type: 'originality', text: 'رقم الموديل المطبوع على العلبة موضح في صفحة المنتج' },
@@ -139,7 +139,7 @@ The **Joyroom accessories** shelf at CairoVolt currently holds the **Joyroom JR-
 
 **Before you buy:** open **Settings → General → About** and read the **Model Number** (it starts with A). Match it against the carton compatibility table, reproduced in full on the product page. The table covers the 2018–2021 iPad generations; newer hardware is not on it.
 
-**CairoVolt warranty:** coverage, duration and replacement follow the product page and warranty policy. Delivery timing is estimated after address confirmation, with cash on delivery available for eligible orders. If you need a USB-C cable or charger for the pen, see [Joyroom cables](/joyroom/cables) and [Joyroom chargers](/joyroom/wall-chargers).
+**CairoVolt warranty:** CairoVolt is an official Joyroom distributor in Egypt, and the pen comes with the CairoVolt store warranty (12 months) and a physical warranty card whose serial you can check at cairovolt.com/verify. Coverage and replacement follow the product page and warranty policy. Delivery timing is estimated after address confirmation, with cash on delivery available for eligible orders. If you need a USB-C cable or charger for the pen, see [Joyroom cables](/joyroom/cables) and [Joyroom chargers](/joyroom/wall-chargers).
     `,
             qualityBadges: [
                 { type: 'originality', text: 'Carton-printed model number shown on the product page' },

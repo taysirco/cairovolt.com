@@ -4,7 +4,7 @@
 // CRITICAL SKU hygiene: A3948 ≠ A30i (A3958 Adaptive ANC lipstick) ≠ P25i (A3949 10mm/430mAh)
 //   ≠ open-ear C30i/C40i/V20i/AeroFit. Do NOT paste A30i 6h42 / 22h50 / lipstick ANC rows onto this page.
 // Battery SPECS from A3948 / A20i–A25i user manual: 60mAh×2 buds + 350mAh case, 5V⎓0.5A, 9h/28h, BT 5.3, IPX5, 6mm.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const soundcore_a25i_earbuds_detail: ProductDetail = {

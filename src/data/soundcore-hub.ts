@@ -154,13 +154,13 @@ export const soundcoreHub = {
      */
     faq: {
         ar: [
-            { question: 'ما علاقة ساوندكور بانكر؟', answer: 'ساوندكور علامة متخصصة في الصوتيات ضمن عائلة انكر. يعرض كايرو فولت منتجاتها في قسم السماعات الشخصية وقسم مكبرات الصوت.' },
+            { question: 'ما علاقة ساوندكور بانكر؟', answer: 'ساوندكور علامة متخصصة في الصوتيات ضمن عائلة انكر. وكايرو فولت موزع رسمي لانكر وعلامتها الصوتية ساوندكور في مصر، ويعرض منتجاتها في قسم السماعات الشخصية وقسم مكبرات الصوت.' },
             { question: 'كيف أختار بين أقسام ساوندكور؟', answer: 'اختر قسم audio للايربودز والهيدفون، وقسم speakers لمكبرات الصوت المحمولة. راجع صفحة المنتج للتأكد من المواصفات والتوافق والتوافر.' },
             ...getStorePolicyFaq('ar'),
             { question: 'هل تطبيق ساوندكور يثبت أصالة المنتج؟', answer: 'توافق المنتج مع التطبيق ميزة تشغيلية وليس شهادة مستقلة من الشركة المصنّعة لإثبات الأصالة. راجع بيانات الموديل والفاتورة وأدوات الشركة المصنّعة إن وُجدت.' },
         ],
         en: [
-            { question: 'How are Soundcore and Anker related?', answer: 'Soundcore is an audio brand in the Anker family. CairoVolt groups its products into personal-audio and Bluetooth-speaker sections.' },
+            { question: 'How are Soundcore and Anker related?', answer: 'Soundcore is an audio brand in the Anker family. CairoVolt is an official distributor of Anker, including its Soundcore audio brand, in Egypt, and groups Soundcore products into personal-audio and Bluetooth-speaker sections.' },
             { question: 'Which Soundcore category should I choose?', answer: 'Use the audio section for earbuds and headphones, and the speakers section for portable speakers. Check each product page for specifications, compatibility, and availability.' },
             ...getStorePolicyFaq('en'),
             { question: 'Does the Soundcore app prove that a product is authentic?', answer: 'App compatibility is an operating feature, not an independent manufacturer authenticity certificate. Check the model details, invoice, and any manufacturer verification tools that are available.' },

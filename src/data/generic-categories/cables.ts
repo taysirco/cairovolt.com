@@ -128,7 +128,7 @@ export const cables_generic: GenericCategory = {
 <li><strong>الحالة:</strong> أوقف الاستخدام إذا ظهر تلف أو ارتخاء أو حرارة غير معتادة</li>
 <li><strong>الخامة:</strong> طابق الغلاف والطول والموصلات مع وصف الموديل</li>
 <li><strong>التحقق:</strong> استخدم MFi أو QR أو السيريال فقط عندما توفر الشركة ذلك للموديل</li>
-<li><strong>سجل الطلب:</strong> احتفظ برقم الطلب وراجع شروط ضمان كايرو فولت المكتوبة</li>
+<li><strong>سجل الطلب:</strong> كايرو فولت موزع رسمي لانكر وجوي روم في مصر؛ احتفظ برقم الطلب وكرت الضمان المطبوع، وراجع مدة ضمان متجر كايرو فولت وشروطه في صفحة الموديل</li>
 </ul>
 `,
             en: `
@@ -195,7 +195,7 @@ export const cables_generic: GenericCategory = {
 <li><strong>Condition:</strong> Stop using it if the connector is loose, damaged, or unusually hot</li>
 <li><strong>Material:</strong> Match the jacket, length, and connectors with the model description</li>
 <li><strong>Verification:</strong> Use MFi, QR, or serial checks only when the manufacturer provides them for the model</li>
-<li><strong>Order record:</strong> Keep the order number and review the written CairoVolt warranty terms</li>
+<li><strong>Order record:</strong> CairoVolt is an official distributor of Anker and Joyroom in Egypt; keep the order number and the physical warranty card, and review the CairoVolt store warranty term and conditions on the model page</li>
 </ul>
 `,
         },

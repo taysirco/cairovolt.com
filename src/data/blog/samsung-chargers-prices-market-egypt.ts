@@ -162,7 +162,7 @@ export const samsung_chargers_prices_market_egypt: BlogArticle = {
 <p>الشاحن التقليد ممكن يفتقر لدوائر الحماية، فيعرّض الموبايل لسخونة أو تلف في دايرة الشحن أو انتفاخ البطارية — وتكلفة الإصلاح ساعتها أكبر بكتير من فرق السعر. عشان كده الشاحن الاقتصادي الحقيقي هو الشاحن الأصلي اللي سعره معقول، مش الأرخص.</p>
 
 <h2>أفضل أماكن الشراء في مصر</h2>
-<p>المكان اللي بتشتري منه بيفرق أكتر من السعر نفسه. المعيار: بائع بيدي فاتورة وضمان مكتوب باسمه وكيانه القانوني، والموديل والقدرات المطبوعة مطابقة لمستندات الشركة. لو بتشتري أونلاين، اتأكد مين البائع الفعلي. كايرو فولت متجر مستقل، والبدائل اللي عندنا بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) وفاتورة.</p>
+<p>المكان اللي بتشتري منه بيفرق أكتر من السعر نفسه. المعيار: بائع بيدي فاتورة وضمان مكتوب باسمه وكيانه القانوني، والموديل والقدرات المطبوعة مطابقة لمستندات الشركة. لو بتشتري أونلاين، اتأكد مين البائع الفعلي. كايرو فولت موزع رسمي لانكر وجوي روم في مصر، والبدائل اللي عندنا بضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) وفاتورة.</p>
 
 <h2>الخلاصة: أيهم تشتري؟</h2>
 <ul>
@@ -319,7 +319,7 @@ export const samsung_chargers_prices_market_egypt: BlogArticle = {
 <p>A counterfeit charger may lack protection circuits, exposing the phone to heat, charging-circuit damage or battery swelling — and the repair then costs far more than the price difference. That is why the truly economical charger is a genuine one at a sensible price, not the cheapest one.</p>
 
 <h2>Best Places to Buy in Egypt</h2>
-<p>Where you buy matters more than the price itself. The test: a seller that issues an invoice and a written warranty naming its legal identity, with a model and ratings that match the manufacturer\'s documentation. If you buy online, check who the actual seller is. CairoVolt is an independent store, and the alternatives we sell come with CairoVolt\'s written store warranty (duration shown on each product page) and an invoice.</p>
+<p>Where you buy matters more than the price itself. The test: a seller that issues an invoice and a written warranty naming its legal identity, with a model and ratings that match the manufacturer\'s documentation. If you buy online, check who the actual seller is. CairoVolt is an official distributor of Anker and Joyroom in Egypt, and the alternatives we sell come with CairoVolt\'s written store warranty (duration shown on each product page) and an invoice.</p>
 
 <h2>The Bottom Line: Which One Should You Buy?</h2>
 <ul>

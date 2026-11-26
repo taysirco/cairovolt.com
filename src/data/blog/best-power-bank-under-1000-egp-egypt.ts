@@ -186,7 +186,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 
 <p>كل المنتجات المذكورة في هذا المقال موجودة على
 <a href="/joyroom/power-banks" style="color:#2563eb;font-weight:600;">كايرو فولت</a>
-— متجر مستقل يوفر منتجات جوي روم الأصلية في مصر — مع <strong>ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) + توصيل لكل المحافظات (عادةً من 1 لـ 6 أيام عمل حسب المحافظة) + دفع عند الاستلام</strong>.</p>
+— موزع رسمي لجوي روم وانكر في مصر — مع <strong>ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) وكرت ضمان مطبوع سيرياله بيتراجع على cairovolt.com/verify + توصيل لكل المحافظات (عادةً من 1 لـ 6 أيام عمل حسب المحافظة) + دفع عند الاستلام</strong>.</p>
 
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
@@ -377,7 +377,7 @@ worth the price difference?</p>
 
 <p>All products mentioned in this article are available at
 <a href="/en/joyroom/power-banks" style="color:#2563eb;font-weight:600;">CairoVolt</a>
-— an independent store offering genuine Joyroom products in Egypt — with <strong>CairoVolt's written store warranty (duration shown on each product page) + delivery to all governorates (commonly 1–6 business days depending on governorate) + cash on delivery</strong>.</p>
+— an official distributor of Joyroom and Anker in Egypt — with <strong>CairoVolt's written store warranty (duration shown on each product page) and a physical warranty card whose serial is checked at cairovolt.com/verify + delivery to all governorates (commonly 1–6 business days depending on governorate) + cash on delivery</strong>.</p>
 
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">

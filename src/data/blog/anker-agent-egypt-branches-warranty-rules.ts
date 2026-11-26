@@ -39,12 +39,12 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
             metaTitle: 'ضمان Anker 18 شهر في مصر — ضمان المتجر المكتوب وشروط الاستبدال',
             metaDescription: 'كل شيء عن ضمان Anker في مصر: 18 شهر ضمان مكتوب من متجر كايرو فولت، ما بيغطيه الضمان، ما بيغطيهوش، الأوراق المطلوبة، وطريقة تقديم طلب الضمان خطوة بخطوة.',
             excerpt: 'ضمان متجر كايرو فولت 18 شهر على Anker في مصر — ما بيغطيه، ما بيغطيهوش، والأوراق اللي محتاجها لاستخدامه.',
-            quickAnswer: 'كايرو فولت متجر مصري مستقل وليس توكيل انكر. منتجات انكر عندنا بضمان متجر مكتوب — مدته في صفحة كل منتج — يغطي عيوب التصنيع وليس الكسر أو الماء. لطلب الضمان: فاتورة الشراء والمنتج، والتقديم عبر info@cairovolt.com أو صفحة الضمان على الموقع.',
+            quickAnswer: 'كايرو فولت موزع رسمي لانكر في مصر. منتجات انكر عندنا بضمان متجر كايرو فولت المكتوب (18 شهر، ومكتوب في صفحة كل منتج) مع كرت ضمان مطبوع سيرياله بيتراجع على cairovolt.com/verify — يغطي عيوب التصنيع وليس الكسر أو الماء. لطلب الضمان: فاتورة الشراء والمنتج، والتقديم عبر info@cairovolt.com أو صفحة الضمان على الموقع.',
             keywords: 'ضمان انكر مصر, انكر warranty Egypt, توكيل انكر في مصر, كايرو فولت ضمان, ضمان شاحن انكر, استبدال منتج انكر, ضمان وفق المدة الموضحة على صفحة المنتج انكر, انكر متجر التجزئة مصر',
             faq: [
                 {
                     question: 'ضمان Anker في مصر كام شهر؟',
-                    answer: 'منتجات انكر اللي بتشتريها من كايرو فولت عليها ضمان كايرو فولت المكتوب، ومدته موضحة في صفحة كل منتج وعلى الفاتورة. كايرو فولت متجر مستقل وليس توكيل انكر، فالضمان ده ضمان المتجر نفسه ويسري على المشتريات من كايرو فولت مباشرة.',
+                    answer: 'منتجات انكر اللي بتشتريها من كايرو فولت عليها ضمان كايرو فولت المكتوب لمدة 18 شهر، والمدة موضحة كمان في صفحة كل منتج وعلى الفاتورة. كايرو فولت موزع رسمي لانكر في مصر، والضمان ده ضمان متجر كايرو فولت نفسه، بتصدره وتتولاه كايرو فولت، ويسري على المشتريات من كايرو فولت مباشرة.',
                 },
                 {
                     question: 'هل ضمان Anker بيغطي الشاحن لو وقع في المية؟',
@@ -62,16 +62,16 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
             content: `<p>هل اشتريت شاحن أو باور بانك أو كابل من منتجات Anker وعايز تفهم حقوقك الاستهلاكية والضمانية بالكامل في مصر؟ أو بتفكر تشتري ومتردد عشان خايف من مشاكل ما بعد البيع في السوق المصري؟ في المقال ده، بصفتنا فريقاً تقنياً متخصصاً، هنشرح بالتفصيل الممل كل ما يخص ضمان كايرو فولت المكتوب على منتجات انكر في مصر — إيه اللي بيغطيه الضمان الفعلي، وإيه الحالات اللي بتلغيه فوراً، والأوراق القانونية المطلوبة لتقديم طلب الاستبدال بسهولة تامة وبدون تعقيدات.</p>
 
 <div class="quick-answer-inline" style="background: #f0f7ff; border-right: 4px solid #2563eb; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
-<strong>الإجابة السريعة:</strong> كايرو فولت متجر مصري مستقل وليس توكيل انكر. منتجات انكر عندنا بضمان متجر مكتوب — مدته في صفحة كل منتج — يغطي عيوب التصنيع وليس الكسر أو الماء. المطلوب: فاتورة الشراء + المنتج. التقديم عبر info@cairovolt.com.
+<strong>الإجابة السريعة:</strong> كايرو فولت موزع رسمي لانكر في مصر. منتجات انكر عندنا بضمان متجر كايرو فولت المكتوب (18 شهر، ومكتوب في صفحة كل منتج) مع كرت ضمان مطبوع سيرياله بيتراجع على cairovolt.com/verify — يغطي عيوب التصنيع وليس الكسر أو الماء. المطلوب: فاتورة الشراء + المنتج. التقديم عبر info@cairovolt.com.
 </div>
 
 <h2>Anker في مصر — التوزيع والضمان</h2>
 
-<p>كايرو فولت متجر مستقل متخصص في بيع منتجات Anker الأصلية في مصر، ومش توكيل انكر. المنتجات اللي بتتباع من خلال كايرو فولت:</p>
+<p>كايرو فولت موزع رسمي لمنتجات انكر (ومنها علامتها الصوتية ساوندكور) في مصر، والصفة دي ممنوحة مباشرةً من انكر، ومستند التوزيع متاح للاطلاع عند الطلب عبر info@cairovolt.com. المنتجات اللي بتتباع من خلال كايرو فولت:</p>
 
 <ul style="line-height: 1.9; margin-right: 20px;">
 <li>منتجات أصلية 100%</li>
-<li>ضمان كايرو فولت المكتوب (المدة موضحة في صفحة كل منتج) من تاريخ الشراء</li>
+<li>ضمان كايرو فولت المكتوب (18 شهر على منتجات انكر، والمدة موضحة في صفحة كل منتج) من تاريخ الشراء، مع كرت ضمان مطبوع سيرياله بيتفعّل ويتراجع على cairovolt.com/verify</li>
 <li>دعم فني بالعربي واللغة المصرية</li>
 <li>استبدال من مخزون مصر بدون انتظار شحن دولي</li>
 </ul>
@@ -102,7 +102,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <tr style="background: #f0fdf4;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><strong>Anker (من كايرو فولت)</strong></td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>موضحة في صفحة كل منتج</strong></td>
-<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">ضمان متجر مكتوب</td>
+<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">ضمان متجر كايرو فولت المكتوب (موزع رسمي لانكر في مصر)</td>
 </tr>
 <tr>
 <td style="padding: 10px;">ماركات مجهولة</td>
@@ -249,12 +249,12 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
             metaTitle: 'Anker Warranty Egypt — 18 Months, Written Store Warranty, and Replacement Process',
             metaDescription: 'Complete guide to the 18-month CairoVolt store warranty on Anker in Egypt. What is covered, what is not, and how to file a replacement claim easily.',
             excerpt: 'CairoVolt\'s 18-month store warranty on Anker in Egypt — exactly what it covers, what voids it, and how to claim it with minimal hassle.',
-            quickAnswer: 'CairoVolt is an independent Egyptian store, not an Anker agent. Anker products bought from CairoVolt carry a written store warranty — duration shown on each product page — that covers manufacturing defects, not breakage or water damage. To claim: the purchase invoice and the product, via info@cairovolt.com or the warranty page.',
+            quickAnswer: 'CairoVolt is an official Anker distributor in Egypt. Anker products bought from CairoVolt carry the written CairoVolt store warranty (18 months, also shown on each product page) and a physical warranty card whose serial is checked at cairovolt.com/verify — the warranty covers manufacturing defects, not breakage or water damage. To claim: the purchase invoice and the product, via info@cairovolt.com or the warranty page.',
             keywords: 'Anker warranty Egypt, Anker retailer with clear identity and written policies Egypt, CairoVolt Anker warranty, Anker warranty for the written term shown on the product page or invoice, Anker warranty claim Egypt, Anker replacement Egypt, Anker warranty conditions, Anker original Egypt',
             faq: [
                 {
                     question: 'How long is the Anker warranty in Egypt?',
-                    answer: 'Anker products bought from CairoVolt carry CairoVolt\'s written store warranty; the duration is shown on each product page and on the invoice. CairoVolt is an independent store, not an Anker agent, so this is the store\'s own warranty and it applies to purchases made from CairoVolt directly.',
+                    answer: 'Anker products bought from CairoVolt carry CairoVolt\'s written store warranty for 18 months; the duration is also shown on each product page and on the invoice. CairoVolt is an official Anker distributor in Egypt, and this is the CairoVolt store warranty, issued and serviced by CairoVolt; it applies to purchases made from CairoVolt directly.',
                 },
                 {
                     question: 'Does Anker warranty cover water damage?',
@@ -272,16 +272,16 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
             content: `<p>Have you recently purchased an Anker charger, power bank, or cable and want to understand your consumer rights under Egypt's warranty framework? Or are you considering a purchase but feel hesitant about after-sales support in the Egyptian market? In this article, written from a technical engineering perspective, we break down everything regarding CairoVolt’s written store warranty on Anker products in Egypt — what is covered, what immediately voids your coverage, and the required documentation to file a replacement claim without any hassle.</p>
 
 <div class="quick-answer-inline" style="background: #f0f7ff; border-left: 4px solid #2563eb; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
-<strong>Quick Answer:</strong> CairoVolt is an independent Egyptian store, not an Anker agent. Anker products bought from CairoVolt carry a written store warranty — duration shown on each product page — that covers manufacturing defects, not breakage or water damage. Required: purchase invoice + product. Submit via info@cairovolt.com.
+<strong>Quick Answer:</strong> CairoVolt is an official Anker distributor in Egypt. Anker products bought from CairoVolt carry the written CairoVolt store warranty (18 months, also shown on each product page) and a physical warranty card whose serial is checked at cairovolt.com/verify — the warranty covers manufacturing defects, not breakage or water damage. Required: purchase invoice + product. Submit via info@cairovolt.com.
 </div>
 
 <h2>Anker in Egypt — Distribution and Warranty</h2>
 
-<p>CairoVolt is an independent online retailer specializing in genuine Anker products in Egypt, not an Anker agent. Products sold through CairoVolt are:</p>
+<p>CairoVolt is an official distributor of Anker (including its Soundcore audio brand) in Egypt. The status was granted directly by Anker, and the distribution document is available for review on request at info@cairovolt.com. Products sold through CairoVolt are:</p>
 
 <ul style="line-height: 1.9; margin-left: 20px;">
 <li>100% genuine Anker products</li>
-<li>Backed by CairoVolt's written store warranty (duration shown on each product page) from the date of purchase</li>
+<li>Backed by CairoVolt's written store warranty (18 months on Anker products, also shown on each product page) from the date of purchase, with a physical warranty card whose serial is activated and checked at cairovolt.com/verify</li>
 <li>Supported in Arabic by a local team</li>
 <li>Replaceable from Egyptian inventory (no international shipping delays)</li>
 </ul>
@@ -312,7 +312,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <tr style="background: #f0fdf4;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><strong>Anker (via CairoVolt)</strong></td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>Shown on each product page</strong></td>
-<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">Written store warranty</td>
+<td style="padding: 10px; border-bottom: 1px solid #e2e8f0;">CairoVolt store warranty (official Anker distributor in Egypt)</td>
 </tr>
 <tr>
 <td style="padding: 10px;">Unknown brands</td>

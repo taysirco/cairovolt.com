@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { getBrandRelationshipLabel, isOfficialDistributorBrand } from '@/lib/distributor-status';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { brandData } from '@/data/brand-data';
@@ -388,7 +389,9 @@ export default async function BrandHubPage({ params }: Props) {
                         <div className="mb-2 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 backdrop-blur-md">
                             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
                             <span className="text-[11px] font-bold tracking-wide text-white md:text-xs">
-                                {isRTL ? `كتالوج ${brandDisplayName}` : `${brandName} Catalogue`}
+                                {isOfficialDistributorBrand(brand)
+                                    ? getBrandRelationshipLabel(brand, isRTL ? 'ar' : 'en')
+                                    : (isRTL ? `كتالوج ${brandDisplayName}` : `${brandName} Catalogue`)}
                             </span>
                         </div>
 

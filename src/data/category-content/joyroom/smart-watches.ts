@@ -56,7 +56,7 @@ export const joyroom_smart_watches_content: CategoryContent = {
 2. **التطبيق:** موديل JR-FT3 يقترن بتطبيق Smart Time Pro — تحقق من إصدارات iOS وAndroid المدعومة قبل الشراء.
 3. **البطارية:** استخدم المدة المعلنة للموديل باعتبارها تقديراً يتغير مع الشاشة وإشعارات المكالمات والقياس.
 4. **العلبة:** استخدم وسيلة التحقق الرسمية المتاحة إن وُجدت؛ كود QR أو السيريال وحده لا يثبت أصالة الشركة المصنّعة.
-5. **الفاتورة والضمان:** احتفظ بفاتورة كايرو فولت وراجع المدة والشروط في صفحة المنتج والسياسة.
+5. **الفاتورة والضمان:** كايرو فولت موزع رسمي لجوي روم في مصر، والساعة تصلك بضمان متجر كايرو فولت لمدة 12 شهرًا وكرت ضمان مطبوع؛ احتفظ بالفاتورة وراجع الشروط في صفحة المنتج والسياسة.
 `
                         },
                         {
@@ -146,7 +146,7 @@ Check the current price and CairoVolt warranty on the product page. Delivery tim
 2. **App:** The JR-FT3 pairs with the Smart Time Pro app — confirm the supported iOS and Android versions before purchase.
 3. **Battery:** Treat the model's rated duration as an estimate affected by display, call notifications, and sensor use.
 4. **Box:** Use an available official verification method if provided. A QR code or serial alone does not prove manufacturer authenticity.
-5. **Invoice and warranty:** Keep the CairoVolt invoice and review duration and terms on the product page and policy.
+5. **Invoice and warranty:** CairoVolt is an official Joyroom distributor in Egypt; the watch comes with the CairoVolt store warranty (12 months) and a physical warranty card. Keep the invoice and review the terms on the product page and policy.
 `
                         },
                         {

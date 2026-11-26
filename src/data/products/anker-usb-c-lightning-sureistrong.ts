@@ -22,7 +22,7 @@ export const anker_usb_c_lightning_sureistrong = {
         translations: {
             en: {
                 name: "Anker SureIStrong USB-C to Lightning Cable",
-                shortDescription: "🔌 Soft-touch 1.8m cable | USB-C PD for compatible Lightning devices | Verify MFi for A8652H21 | Check current Anker warranty",
+                shortDescription: "🔌 Soft-touch 1.8m cable | USB-C PD for compatible Lightning devices | Verify MFi for A8652H21 | Check the CairoVolt store warranty",
 
                 description: `
 <div class="quick-answer">
@@ -63,7 +63,7 @@ export const anker_usb_c_lightning_sureistrong = {
     </ul>
 </div>
 `,
-                features: ["⚡ USB-C PD support", "✨ Verify MFi for A8652H21", "✨ Soft-touch low-tangle design", "✨ Easy-clean jacket", "📱 Compatible Lightning devices", "✨ 1.8m listed length", "🏆 Check current Anker warranty", "🛡️ Bend figures are manufacturer test conditions"],
+                features: ["⚡ USB-C PD support", "✨ Verify MFi for A8652H21", "✨ Soft-touch low-tangle design", "✨ Easy-clean jacket", "📱 Compatible Lightning devices", "✨ 1.8m listed length", "🏆 Check the CairoVolt store warranty", "🛡️ Bend figures are manufacturer test conditions"],
                 metaTitle: "Anker SureIStrong USB-C to Lightning | A8652H21 | Egypt",
                 metaDesc: "Reliable iPhone charging with the Anker SureIStrong USB-C to Lightning cable: durable 1.8m soft-touch, MFi. Genuine, store warranty, COD in Egypt.",
 
@@ -118,7 +118,7 @@ export const anker_usb_c_lightning_sureistrong = {
     </ul>
 </div>
 `,
-                features: ["⚡ دعم USB-C PD", "✨ تحقق من MFi للموديل A8652H21", "✨ غلاف ناعم قليل التشابك", "✨ سطح سهل التنظيف", "✨ لأجهزة Lightning المتوافقة", "✨ طول مدرج 1.8 متر", "🏆 راجع ضمان انكر الحالي", "🛡️ أرقام الثني شروط اختبار من الشركة"],
+                features: ["⚡ دعم USB-C PD", "✨ تحقق من MFi للموديل A8652H21", "✨ غلاف ناعم قليل التشابك", "✨ سطح سهل التنظيف", "✨ لأجهزة Lightning المتوافقة", "✨ طول مدرج 1.8 متر", "🏆 راجع ضمان متجر كايرو فولت", "🛡️ أرقام الثني شروط اختبار من الشركة"],
                 metaTitle: "كابل انكر ايفون SureIStrong | شحن سريع 30 واط",
                 metaDesc: "شحن ايفون سريع وموثوق بكابل انكر SureIStrong من USB-C إلى Lightning: متين بطول 1.8 متر وشهادة MFi. أصلي بضمان متجر ودفع عند الاستلام في مصر.",
 

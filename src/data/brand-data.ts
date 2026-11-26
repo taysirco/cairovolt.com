@@ -90,6 +90,7 @@ function jblPriceAnswer(locale: HubLocale, standalone = false): string {
 }
 
 const jblWarrantyMonths = getCairoVoltWarrantyPolicy(null, 'jbl').months;
+const ankerWarrantyMonths = getCairoVoltWarrantyPolicy(null, 'anker').months;
 
 export interface BrandData {
     id: string;
@@ -157,14 +158,14 @@ export const brandData: Record<string, BrandData> = {
         id: 'anker',
         hero: {
             bgGradient: 'from-blue-600 via-blue-700 to-blue-900',
-            badge: { en: 'Charging accessories for everyday devices', ar: 'ملحقات شحن للأجهزة اليومية' },
+            badge: { en: 'Official Anker distributor in Egypt', ar: 'موزع رسمي لانكر في مصر' },
             title: 'Anker Egypt',
             description: {
                 en: 'Explore Anker chargers, power banks, and cables for compatible phones, tablets, and laptops. Warranty coverage and supported charging standards are stated on each product page.',
                 ar: 'اكتشف شواحن انكر والباور بانك والكابلات للهواتف والتابلت واللابتوب المتوافقة. توضح كل صفحة منتج معايير الشحن المدعومة ومدة ضمان كايرو فولت وشروطه.'
             },
             features: [
-                { en: 'CairoVolt Warranty Terms by Product', ar: 'شروط ضمان كايرو فولت حسب المنتج' },
+                { en: 'Official Anker Distributor · Printed Warranty Card', ar: 'موزع رسمي لانكر · كرت ضمان مطبوع' },
                 { en: 'Safety Features Listed by Model', ar: 'خصائص حماية موضحة لكل موديل' },
                 { en: 'Charging Standards Listed by Model', ar: 'معايير الشحن موضحة لكل موديل' }
             ]
@@ -183,7 +184,7 @@ export const brandData: Record<string, BrandData> = {
                 { icon: 'globe', title: { en: 'Established Product Range', ar: 'تشكيلة منتجات متنوعة' }, description: { en: 'Charging accessories across several device categories', ar: 'ملحقات شحن لعدة فئات من الأجهزة' } },
                 { icon: 'brain', title: { en: 'PowerIQ Options', ar: 'خيارات PowerIQ' }, description: { en: 'PowerIQ support is identified in each compatible model\'s specifications', ar: 'يظهر دعم PowerIQ في مواصفات كل موديل متوافق' } },
                 { icon: 'shield', title: { en: 'Model-Specific Protection', ar: 'حماية حسب الموديل' }, description: { en: 'Check the product page for the protection features included with that model', ar: 'راجع صفحة المنتج لمعرفة خصائص الحماية المتاحة في الموديل' } },
-                { icon: 'handshake', title: { en: 'CairoVolt Warranty', ar: 'ضمان كايرو فولت' }, description: { en: 'Coverage period and conditions are stated on each product page', ar: 'مدة التغطية وشروطها موضحة في صفحة كل منتج' } },
+                { icon: 'handshake', title: { en: 'Official Anker Distributor', ar: 'موزع رسمي لانكر' }, description: { en: 'CairoVolt is an official Anker distributor in Egypt; the CairoVolt store warranty term is on each product page', ar: 'كايرو فولت موزع رسمي لانكر في مصر، ومدة ضمان متجر كايرو فولت موضحة في صفحة كل منتج' } },
             ]
         },
         // About section
@@ -215,7 +216,7 @@ export const brandData: Record<string, BrandData> = {
         // Optional trust indicators
         trustBadges: [
             { icon: 'check-circle', title: { en: 'Product Verification', ar: 'التحقق من المنتج' }, description: { en: 'Follow the manufacturer instructions printed on eligible packaging', ar: 'اتبع تعليمات الشركة المطبوعة على العبوة المؤهلة' } },
-            { icon: 'shield', title: { en: 'CairoVolt Warranty', ar: 'ضمان كايرو فولت' }, description: { en: 'Duration and conditions are listed by product', ar: 'المدة والشروط موضحة حسب المنتج' } },
+            { icon: 'shield', title: { en: 'CairoVolt Warranty', ar: 'ضمان كايرو فولت' }, description: { en: 'Written term per product and a printed warranty card', ar: 'مدة مكتوبة لكل منتج وكرت ضمان مطبوع' } },
             { icon: 'coin', title: { en: 'Current Product Price', ar: 'سعر المنتج الحالي' }, description: { en: 'The current listed price is shown on the product page and at checkout', ar: 'السعر الحالي يظهر في صفحة المنتج وعند الدفع' } },
             { icon: 'truck', title: { en: 'Delivery Across Egypt', ar: 'توصيل داخل مصر' }, description: { en: 'Estimated timing and fees depend on the destination and order', ar: 'المدة والتكلفة تقديريتان حسب العنوان والطلب' } },
             { icon: 'star', title: { en: 'Customer Feedback', ar: 'آراء العملاء' }, description: { en: 'Published reviews are shown where available', ar: 'تظهر المراجعات المنشورة عند توفرها' } },
@@ -265,7 +266,7 @@ export const brandData: Record<string, BrandData> = {
         // markdown twin (agent-hub-markdown.ts) both render this array.
         faq: {
             ar: [
-                { question: 'هل كايرو فولت توكيل انكر في مصر؟', answer: 'لا. كايرو فولت متجر إلكتروني مصري مستقل، وليس توكيلًا ولا موزعًا معتمدًا لانكر. بنبيع منتجات انكر الأصلية بفاتورة وضمان متجر مكتوب (مدته في صفحة كل منتج) والدفع عند الاستلام. [سياسة الضمان](/warranty) · [إزاي تعرف منتج انكر الأصلي](/blog/how-to-identify-original-anker)' },
+                { question: 'هل كايرو فولت توكيل انكر في مصر؟', answer: `كايرو فولت موزع رسمي لمنتجات انكر في مصر، ومنها علامتها الصوتية ساوندكور، وهذه الصفة ممنوحة مباشرةً من انكر ومستند التوزيع متاح للاطلاع عند الطلب. بنبيع منتجات انكر بفاتورة وضمان متجر كايرو فولت ${ankerWarrantyMonths} شهرًا مع كرت ضمان مطبوع، والدفع عند الاستلام. [سياسة الضمان](/warranty) · [إزاي تعرف منتج انكر الأصلي](/blog/how-to-identify-original-anker)` },
                 { question: 'كيف أتحقق من منتج انكر؟', answer: 'افحص بيانات الموديل والرقم التسلسلي والعبوة، واتبع تعليمات الشركة وعنوان التحقق المطبوعين على العبوة المؤهلة؛ فقد تختلف وسيلة التحقق حسب المنتج والسوق. احتفظ بفاتورة وبيانات طلب كايرو فولت عند التواصل بشأن المنتج.' },
                 ...getStorePolicyFaq('ar'),
                 { question: 'ما هو الفرق بين PowerIQ وPD (Power Delivery)؟', answer: '**PD** معيار شحن تستخدمه أجهزة ومنتجات متوافقة، بينما **PowerIQ** اسم تستخدمه انكر لبعض تقنيات إدارة الشحن لديها. يختلف دعم PD أوPPS أو غيرهما حسب الموديل والجهاز والكابل، وتوضح صفحة المنتج المعايير الموثقة.' },
@@ -274,10 +275,10 @@ export const brandData: Record<string, BrandData> = {
                 { question: 'كيف أختار منتج انكر المناسب؟', answer: 'ابدأ بمواصفات جهازك: نوع المنفذ، قدرة الشحن المطلوبة، والسعة أو الميزات التي تحتاجها. بعد ذلك قارن الموديلات المطابقة في القسم المناسب.' },
                 { question: 'أين أجد السعر والتوافر الحاليين؟', answer: 'توضح صفحة كل منتج السعر الحالي وحالة التوافر. يُراجع التوافر مرة أخرى عند تأكيد الطلب.' },
                 { question: 'هل سجل ضمان كايرو فولت يثبت أصالة المنتج؟', answer: 'لا. سجل كايرو فولت يؤكد بيانات تغطية المتجر فقط، وليس شهادة أصالة من الشركة المصنّعة. راجع رقم الموديل ووثائق الشركة وأدواتها إن وُجدت.' },
-                { question: 'كيف أحصل على دعم لمنتج انكر اشتريته من كايرو فولت؟', answer: 'كايرو فولت متجر إلكتروني ويقدم ضمان متجر وفق مدة وشروط صفحة المنتج، وليس مركز خدمة معتمدًا من الشركة ما لم يُذكر ذلك بوثيقة صريحة. تواصل عبر صفحة الدعم أو واتساب مع رقم الطلب ووصف المشكلة لتقييم الطلب وفق الشروط.' }
+                { question: 'كيف أحصل على دعم لمنتج انكر اشتريته من كايرو فولت؟', answer: 'كايرو فولت موزع رسمي لانكر في مصر، وتتولى بنفسها ضمان متجر كايرو فولت وفق مدة وشروط صفحة المنتج. تواصل عبر صفحة الدعم أو واتساب برقم الطلب أو سيريال كرت الضمان مع وصف المشكلة لتقييم الطلب وفق الشروط.' }
             ],
             en: [
-                { question: 'Is CairoVolt the official Anker agent in Egypt?', answer: 'No. CairoVolt is an independent Egyptian online store, not an Anker agent or authorized distributor. We sell genuine Anker products with an invoice, a written store warranty (the term is on each product page), and cash on delivery. [Warranty policy](/en/warranty) · [How to identify original Anker](/en/blog/how-to-identify-original-anker)' },
+                { question: 'Is CairoVolt the official Anker agent in Egypt?', answer: `CairoVolt is an official Anker distributor in Egypt, including Anker’s Soundcore audio brand — a status granted directly by Anker, with the distribution document available for review on request. We sell Anker products with an invoice, the ${ankerWarrantyMonths}-month CairoVolt store warranty with a printed warranty card, and cash on delivery. [Warranty policy](/en/warranty) · [How to identify original Anker](/en/blog/how-to-identify-original-anker)` },
                 { question: 'How can I verify an Anker product?', answer: 'Check the model details, serial information, and packaging, then follow the manufacturer instructions and verification address printed on eligible packaging. The available method can vary by product and market. Keep your CairoVolt invoice and order details when requesting support.' },
                 ...getStorePolicyFaq('en'),
                 { question: 'What is the difference between PowerIQ and PD (Power Delivery)?', answer: '**PD** is a charging standard used by compatible devices and products, while **PowerIQ** is Anker’s name for charging-management technologies included in selected models. PD, PPS, and other protocol support varies by model, device, and cable; check the documented specifications.' },
@@ -286,19 +287,19 @@ export const brandData: Record<string, BrandData> = {
                 { question: 'How do I choose the right Anker product?', answer: 'Start with your device requirements: connector, required charging output, and the capacity or features you need. Then compare matching models in the relevant category.' },
                 { question: 'Where can I find the current price and availability?', answer: 'Each product page states its current price and availability. Availability is reviewed again when the order is confirmed.' },
                 { question: 'Does a CairoVolt warranty record prove authenticity?', answer: 'No. A CairoVolt record confirms store warranty information only; it is not a manufacturer authenticity certificate. Review the model number, manufacturer documentation, and any available manufacturer tools.' },
-                { question: 'How do I get support for an Anker product bought from CairoVolt?', answer: 'CairoVolt is an online retailer and provides a store warranty under the period and conditions stated on the product page; it is not presented as an authorized manufacturer service center unless expressly documented. Contact support or WhatsApp with your order number and issue details for assessment under those terms.' }
+                { question: 'How do I get support for an Anker product bought from CairoVolt?', answer: 'CairoVolt is an official Anker distributor in Egypt and handles the CairoVolt store warranty itself, under the period and conditions stated on the product page. Contact support or WhatsApp with your order number or warranty-card serial and the issue details for assessment under those terms.' }
             ]
         },
         quickAnswer: {
-            en: 'CairoVolt lists Anker power banks, chargers, cables, and car chargers in Egypt. Availability and price are live on each product page; compatibility, specifications, and CairoVolt warranty terms vary by model. For Anker’s Soundcore audio sub-brand, visit /soundcore.',
-            ar: 'تعرض كايرو فولت باور بانك وشواحن وكابلات وشواحن سيارة من انكر في مصر. يظهر السعر والمخزون الحاليان في صفحة كل منتج، وتختلف المواصفات والتوافق وشروط ضمان كايرو فولت حسب الموديل. لصوتيات ساوندكور، العلامة الفرعية من انكر، تصفّح /soundcore.'
+            en: 'CairoVolt, an official Anker distributor in Egypt, lists Anker power banks, chargers, cables, and car chargers. Availability and price are live on each product page; compatibility, specifications, and CairoVolt warranty terms vary by model. For Anker’s Soundcore audio sub-brand, visit /soundcore.',
+            ar: 'تعرض كايرو فولت، وهي موزع رسمي لانكر في مصر، باور بانك وشواحن وكابلات وشواحن سيارة من انكر. يظهر السعر والمخزون الحاليان في صفحة كل منتج، وتختلف المواصفات والتوافق وشروط ضمان كايرو فولت حسب الموديل. لصوتيات ساوندكور، العلامة الفرعية من انكر، تصفّح /soundcore.'
         }
     },
     joyroom: {
         id: 'joyroom',
         hero: {
             bgGradient: 'from-red-600 via-red-700 to-red-900',
-            badge: { en: 'Joyroom: Value-focused accessories', ar: 'جوي روم: ملحقات بخيارات متنوعة' },
+            badge: { en: 'Official Joyroom distributor in Egypt', ar: 'موزع رسمي لجوي روم في مصر' },
             title: 'Joyroom Egypt',
             description: {
                 en: 'Browse Joyroom earbuds, power banks, chargers, cables, watches, and car accessories. Check each product page for current listed price, availability, specifications, compatibility, and CairoVolt warranty terms.',
@@ -306,7 +307,7 @@ export const brandData: Record<string, BrandData> = {
             },
             features: [
                 { en: 'Packaging Verification Where Available', ar: 'التحقق عبر العبوة عند توفره' },
-                { en: 'CairoVolt Warranty Terms by Product', ar: 'شروط ضمان كايرو فولت حسب المنتج' },
+                { en: 'Official Joyroom Distributor · Printed Warranty Card', ar: 'موزع رسمي لجوي روم · كرت ضمان مطبوع' },
                 { en: 'Specifications and Prices by Model', ar: 'المواصفات والأسعار حسب الموديل' }
             ],
             heroProduct: {
@@ -332,7 +333,7 @@ description: { en: 'JR-FT3 — IP68, sports modes', ar: 'JR-FT3 — IP68 وأو�
             items: [
                 { icon: 'coin', title: { en: 'Price Options', ar: 'خيارات سعرية' }, description: { en: 'Compare the current listed price and specifications of each model', ar: 'قارن السعر الحالي ومواصفات كل موديل' } },
                 { icon: 'sparkles', title: { en: 'Design Variety', ar: 'تنوع التصميم' }, description: { en: 'Different form factors are available across the range', ar: 'تتوفر أشكال وتصميمات مختلفة ضمن المجموعة' } },
-                { icon: 'shield', title: { en: 'Packaging Verification', ar: 'التحقق عبر العبوة' }, description: { en: 'Follow the manufacturer instructions printed on eligible packaging', ar: 'اتبع تعليمات الشركة المطبوعة على العبوة المؤهلة' } },
+                { icon: 'shield', title: { en: 'Official Joyroom Distributor', ar: 'موزع رسمي لجوي روم' }, description: { en: 'CairoVolt is an official Joyroom distributor in Egypt; packaging verification steps still apply where printed', ar: 'كايرو فولت موزع رسمي لجوي روم في مصر، مع اتباع تعليمات التحقق المطبوعة على العبوة عند توفرها' } },
                 { icon: 'headphones', title: { en: 'T03s Range', ar: 'مجموعة T03s' }, description: { en: 'Compare the documented features of available T03s models', ar: 'قارن الخصائص الموثقة لموديلات T03s المتاحة' } },
             ]
         },
@@ -364,7 +365,7 @@ description: { en: 'JR-FT3 — IP68, sports modes', ar: 'JR-FT3 — IP68 وأو�
         // Optional trust indicators for Joyroom
         trustBadges: [
             { icon: 'lock', title: { en: 'Packaging Verification', ar: 'التحقق عبر العبوة' }, description: { en: 'Follow printed manufacturer instructions where provided', ar: 'اتبع تعليمات الشركة المطبوعة عند توفرها' } },
-            { icon: 'shield', title: { en: 'CairoVolt Warranty', ar: 'ضمان كايرو فولت' }, description: { en: 'Duration and conditions are listed by product', ar: 'المدة والشروط موضحة حسب المنتج' } },
+            { icon: 'shield', title: { en: 'CairoVolt Warranty', ar: 'ضمان كايرو فولت' }, description: { en: 'Written term per product and a printed warranty card', ar: 'مدة مكتوبة لكل منتج وكرت ضمان مطبوع' } },
             { icon: 'battery', title: { en: 'Battery Details', ar: 'تفاصيل البطارية' }, description: { en: 'Capacity and cell information are model-specific', ar: 'السعة وبيانات الخلايا حسب الموديل' } },
             { icon: 'coin', title: { en: 'Current Product Price', ar: 'سعر المنتج الحالي' }, description: { en: 'The current listed price is shown on the product page and at checkout', ar: 'السعر الحالي يظهر في صفحة المنتج وعند الدفع' } },
             { icon: 'phone', title: { en: 'Device Compatibility', ar: 'توافق الأجهزة' }, description: { en: 'Confirm your device and operating-system requirements by model', ar: 'تحقق من متطلبات جهازك ونظامه حسب الموديل' } },
@@ -436,8 +437,8 @@ description: { en: 'JR-FT3 — IP68, sports modes', ar: 'JR-FT3 — IP68 وأو�
             ]
         },
         quickAnswer: {
-            en: 'CairoVolt lists Joyroom earbuds, power banks, chargers, cables, watches, and car accessories in Egypt. Price and stock are live on each product page; specifications, packaging verification options, compatibility, and CairoVolt warranty terms vary by model.',
-            ar: 'تعرض كايرو فولت سماعات وباور بانك وشواحن وكابلات وساعات وإكسسوارات سيارة من جوي روم في مصر. يظهر السعر والمخزون الحاليان في صفحة كل منتج، وتختلف المواصفات ووسائل التحقق عبر العبوة والتوافق وشروط ضمان كايرو فولت حسب الموديل.'
+            en: 'CairoVolt, an official Joyroom distributor in Egypt, lists Joyroom earbuds, power banks, chargers, cables, watches, and car accessories. Price and stock are live on each product page; specifications, packaging verification options, compatibility, and CairoVolt warranty terms vary by model.',
+            ar: 'تعرض كايرو فولت، وهي موزع رسمي لجوي روم في مصر، سماعات وباور بانك وشواحن وكابلات وساعات وإكسسوارات سيارة من جوي روم. يظهر السعر والمخزون الحاليان في صفحة كل منتج، وتختلف المواصفات ووسائل التحقق عبر العبوة والتوافق وشروط ضمان كايرو فولت حسب الموديل.'
         }
     },
     jbl: {

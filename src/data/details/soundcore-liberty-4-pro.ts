@@ -3,7 +3,7 @@
 // CRITICAL SKU hygiene: A3954 ≠ Liberty 4 NC (A3947) ≠ Liberty 3 Pro (A3952) ≠ Liberty 5 (A3957)
 //   ≠ Liberty 4 base. Do NOT paste sibling stopwatch rows onto this page.
 // Battery physics: vendor-class ~60mAh buds + ~500mAh case → ~2.29Wh system (10h/40h envelope).
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const soundcore_liberty_4_pro_detail: ProductDetail = {

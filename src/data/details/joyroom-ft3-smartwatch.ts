@@ -12,7 +12,7 @@ export const joyroom_ft3_smartwatch_detail: ProductDetail = {
             'Joyroom FT3 (JR-FT3) is a smartwatch with manufacturer-listed IP68, sports modes and wellness sensors (estimates, not medical readings). On our sample a full charge lasted 4 days 7 h with Bluetooth paired, ~90 screen wakes/day, heart rate every 10 min and notifications on.',
             'Battery context (sample CV-SW-JRFT3-001): 4 days 7 h is under the common vendor “~5 days typical” class, not a “week+” claim. Magnetic charge 0→100% = 1 h 58 min (Timer+; Anker A2147 5V USB-C path via the included magnetic puck; FNB58 ~4.8–5.1 V / ~0.35–0.48 A bulk).',
             'Accuracy honesty: HR / SpO2 / BP / sleep tiles are consumer wellness estimates ONLY — NOT medical measurements, NOT diagnostic, NOT a substitute for a clinic cuff / pulse oximeter / sleep study. No ECG on this SKU. We did NOT publish clinical SpO2 or BP accuracy vs instruments. Not a medical device.',
-            'Egypt fit (~1267 EGP): AUC/GUC/Cairo Uni / Smart Village wrist for WhatsApp + call banners; Metro Line 3 / microbus commute + gym / Corniche walk modes we exercised; 40.1 g as worn (Kkmoon) for July heat. IPS noon glare washes outdoors — shade or hand-cup. CairoVolt independent store warranty.',
+            'Egypt fit (~1267 EGP): AUC/GUC/Cairo Uni / Smart Village wrist for WhatsApp + call banners; Metro Line 3 / microbus commute + gym / Corniche walk modes we exercised; 40.1 g as worn (Kkmoon) for July heat. IPS noon glare washes outdoors — shade or hand-cup. CairoVolt store warranty (official Joyroom distributor in Egypt).',
             'SKU honesty: carton MPN JR-FT3 · store SKU JW02 · GTIN 6956116714017. Call notify/reject-mute only on this sample — NO on-watch BT calling mic (≠ some FT3 Pro calling ads). Smart Time Pro via sample QR (iPhone 13 iOS 17.5 + Galaxy A54 Android 14). Outdoor Run distance = phone-GPS-assisted when phone present — not Ultra dual-frequency GNSS. IP68 = vendor-stated only; NO CairoVolt submersion lab (speaker-style IP cite-only rule).',
             'Recall (2026-07-24): no Joyroom / CPSC hit for JR-FT3 / JW02 on cpsc.gov + Joyroom notices. Anker power-bank recalls (A1257/A1263/A1647/A1652/A1681/A1689 class) do NOT apply to Joyroom watches. Single retail unit — verify printed codes on your carton.',
         ],
@@ -20,14 +20,14 @@ export const joyroom_ft3_smartwatch_detail: ProductDetail = {
             'جوي روم FT3 (JR-FT3) ساعة ذكية بتصنيف IP68 معلن من الشركة وأوضاع رياضية ومستشعرات صحية (تقديرات وليست قياسات طبية). على عيّنتنا دامت الشحنة الكاملة 4 أيام و7 ساعات مع بلوتوث مقترن ونحو 90 إيقاظ شاشة يوميًا ونبض كل 10 دقائق وإشعارات مفعّلة.',
             'سياق البطارية (عيّنة CV-SW-JRFT3-001): 4 أيام و7 ساعات تحت فئة المصنّع الشائعة «~5 أيام استخدام عادي»، وليس ادعاء «أسبوع+». الشحن المغناطيسي 0→100% = 1 س 58 د (Timer+؛ مسار USB-C 5V من Anker A2147 عبر القرص المغناطيسي المرفق؛ FNB58 ~4.8–5.1 فولت / ~0.35–0.48 أمبير في الشحن الكبير).',
             'أمانة الدقة: بلاطات النبض / SpO2 / الضغط / النوم تقديرات عافية للمستهلك فقط — ليست قياسات طبية، وليست تشخيصًا، وليست بديلاً عن كُمّ عيادي / مقياس أكسجين / دراسة نوم. لا ECG على هذا الموديل. لم ننشر دقة SpO2 أو ضغط سريرية مقابل أجهزة. ليست جهازًا طبيًا.',
-            'مصر (~1267 جنيه): معصم AUC/GUC/جامعة القاهرة / القرية الذكية للافتات واتساب والمكالمات؛ تنقّل مترو خط 3 / ميكروباص + أوضاع جيم / مشي كورنيش مارسناها؛ 40.1 ج كما تُرتدى (Kkmoon) لحر يوليو. وهج ظهيرة IPS يغسل في الخارج — ظل أو تظليل باليد. ضمان متجر CairoVolt المستقل.',
+            'مصر (~1267 جنيه): معصم AUC/GUC/جامعة القاهرة / القرية الذكية للافتات واتساب والمكالمات؛ تنقّل مترو خط 3 / ميكروباص + أوضاع جيم / مشي كورنيش مارسناها؛ 40.1 ج كما تُرتدى (Kkmoon) لحر يوليو. وهج ظهيرة IPS يغسل في الخارج — ظل أو تظليل باليد. ضمان متجر CairoVolt (موزع رسمي لجوي روم في مصر).',
             'أمانة الموديل: الكرتون MPN JR-FT3 · SKU المتجر JW02 · GTIN 6956116714017. إشعار مكالمة/رفض-كتم فقط على هذه العيّنة — بلا مايك مكالمات بلوتوث من الساعة (≠ بعض إعلانات مكالمات FT3 Pro). Smart Time Pro عبر QR العيّنة (iPhone 13 iOS 17.5 + Galaxy A54 Android 14). مسافة الركض الخارجي بمساعدة GPS الهاتف عند وجوده — ليست GNSS ثنائية التردد فئة Ultra. IP68 = بيان مصنّع فقط؛ بلا مختبر غمر من CairoVolt (قاعدة الاستشهاد بالـ IP فقط).',
             'الاستدعاء (2026-07-24): لا نتيجة Joyroom / CPSC لـ JR-FT3 / JW02 على cpsc.gov + إشعارات جوي روم. استدعاءات باوربانك Anker (فئة A1257/A1263/A1647/A1652/A1681/A1689) لا تنطبق على ساعات جوي روم. وحدة تجزئة واحدة — تحقق من الأكواد المطبوعة على كرتونك.',
         ],
     },
     localContext: {
         en:
-            'CairoVolt is an independent retailer — JR-FT3 carries our store warranty. At ~1267 EGP this is the Egyptian “notifications + step count + gym modes without Apple Watch money” answer, not a clinical wearable. ' +
+            'CairoVolt is an official Joyroom distributor in Egypt — JR-FT3 carries our store warranty. At ~1267 EGP this is the Egyptian “notifications + step count + gym modes without Apple Watch money” answer, not a clinical wearable. ' +
             'Six Cairo scenarios. RIGHT FOR: (1) STUDENT / OFFICE WRIST (AUC / GUC / Cairo University / Smart Village) — WhatsApp + call banners on the wrist so the phone stays in a bag during lectures or meetings; our 3-day wear notes: silicone strap stayed comfortable in AC offices, wiped clean after Metro sweat. ' +
             '(2) GYM / CORNICHE WALK — vendor lists ~20 sports modes; we exercised Outdoor Walk, Outdoor Run, Indoor Cycle, and Elliptical; distance is phone-GPS-assisted when the phone is present — do not expect Ultra-class dual-frequency GPS. ' +
             '(3) CAIRO SUMMER COMMUTE (Metro Line 3 / microbus / Uber) — light body (~40 g with strap measured) and IP68 vendor rating for rain/splash/sweat; wipe dry before magnetic charging; hot showers/soap/pool chemicals are outside what we claim. ' +
@@ -42,7 +42,7 @@ export const joyroom_ft3_smartwatch_detail: ProductDetail = {
             'AUTHENTICITY: match printed JR-FT3 / JW02 and GTIN 6956116714017 on the carton; do not assume FT3 Pro calling features from a similar photo. ' +
             'RECALL (2026-07-24): no Joyroom / CPSC recall hit for JR-FT3; Anker power-bank recalls do not apply to Joyroom watches.',
         ar:
-            'CairoVolt متجر تجزئة مستقل — وJR-FT3 يحمل ضمان المتجر. عند ~1267 جنيه هذا رد مصر «إشعارات + خطوات + أوضاع جيم بلا فلوس Apple Watch»، وليس جهازًا سريريًا. ' +
+            'CairoVolt موزع رسمي لجوي روم في مصر — وJR-FT3 يحمل ضمان المتجر. عند ~1267 جنيه هذا رد مصر «إشعارات + خطوات + أوضاع جيم بلا فلوس Apple Watch»، وليس جهازًا سريريًا. ' +
             'ستة سيناريوهات قاهرية. مناسب لـ: (1) معصم طالب / مكتب (AUC / GUC / جامعة القاهرة / القرية الذكية) — لافتات واتساب ومكالمات على المعصم ليبقى الهاتف في الحقيبة؛ ملاحظات ارتداء 3 أيام: سوار السيليكون بقي مريحًا في مكاتب التكييف، ويُمسَح بعد عرق المترو. ' +
             '(2) جيم / مشي كورنيش — المصنّع يدرج ~20 وضعًا رياضيًا؛ مارسنا مشي خارجي وركض خارجي ودراجة داخلية وإليپتيكال؛ المسافة بمساعدة GPS الهاتف عند وجوده — لا تتوقع GPS ثنائي التردد فئة Ultra. ' +
             '(3) تنقّل صيف القاهرة (مترو خط 3 / ميكروباص / أوبر) — جسم خفيف (~40 ج مع السوار مقاس) وتصنيف IP68 بيان مصنّع للمطر/رذاذ/عرق؛ جفّف قبل الشحن المغناطيسي؛ الدش الساخن/الصابون/كيماويات المسبح خارج ما ندّعيه. ' +
@@ -123,8 +123,8 @@ export const joyroom_ft3_smartwatch_detail: ProductDetail = {
             ar: 'لا يوجد استدعاء — cpsc.gov + إشعارات جوي روم: صفر نتائج لـ JR-FT3 / JW02 في 2026-07-24. استدعاءات باوربانك Anker خاصة بانكر ولا تنطبق',
         },
         'Warranty': {
-            en: 'CairoVolt store warranty (independent retailer) — water ingress subject to stated IP-use conditions and written exclusions; verify live terms',
-            ar: 'ضمان متجر CairoVolt (تاجر مستقل) — دخول الماء يخضع لشروط استخدام IP والاستثناءات المكتوبة؛ راجع الشروط الحالية',
+            en: 'CairoVolt store warranty (official Joyroom distributor in Egypt) — water ingress subject to stated IP-use conditions and written exclusions; verify live terms',
+            ar: 'ضمان متجر CairoVolt (موزع رسمي لجوي روم في مصر) — دخول الماء يخضع لشروط استخدام IP والاستثناءات المكتوبة؛ راجع الشروط الحالية',
         },
         'In the Box (sample)': {
             en: 'Watch + silicone strap + magnetic charge cable + quick guide — confirm live package contents before ordering',

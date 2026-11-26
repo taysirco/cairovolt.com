@@ -1,7 +1,7 @@
 // Details for: soundcore-select-4-go-speaker  (Soundcore Select 4 Go, MPN A31X1 · CairoVolt sku SS03)
 // Lab sheet: CV-SP-A31X1-001 — first protocol-grade §7.7 bench for this SKU (previously shallow specs-only)
 // Compact / ultra-portable class — NOT Flare 2 party cylinder, NOT Motion+ Hi-Res bar, NOT Rave 3 karaoke PA.
-// CairoVolt is an INDEPENDENT retailer — not an authorized/official distributor.
+// CairoVolt is an OFFICIAL DISTRIBUTOR of Anker/Soundcore/Joyroom in Egypt (src/lib/distributor-status.ts) — store warranty terms in src/lib/warranty-policy.ts.
 import type { ProductDetail } from './_types';
 
 export const soundcore_select_4_go_speaker_detail: ProductDetail = {
