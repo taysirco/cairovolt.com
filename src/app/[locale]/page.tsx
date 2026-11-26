@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { getMarkdownTwinTypes } from '@/lib/markdown-twin-routes';
 import { setRequestLocale } from 'next-intl/server';
 import { Metadata } from 'next';
 import { CollectionPageSchema } from '@/components/schemas/StructuredDataSchemas';
@@ -33,6 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         'en-EG': 'https://cairovolt.com/en',
         'x-default': 'https://cairovolt.com',
       },
+      types: getMarkdownTwinTypes(locale === 'ar' ? 'https://cairovolt.com' : 'https://cairovolt.com/en'),
     },
   };
 

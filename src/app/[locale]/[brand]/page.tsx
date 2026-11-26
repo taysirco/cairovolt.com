@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { getMarkdownTwinTypes } from '@/lib/markdown-twin-routes';
 import { getBrandRelationshipLabel, isOfficialDistributorBrand } from '@/lib/distributor-status';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -267,6 +268,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 'en-EG': `https://cairovolt.com/en/${brand.toLowerCase()}`,
                 'x-default': `https://cairovolt.com/${brand.toLowerCase()}`,
             },
+            types: getMarkdownTwinTypes(canonical),
         },
         openGraph: {
             title: dynamicTitle,

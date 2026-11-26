@@ -14,6 +14,7 @@ import {
     getStoreWarrantySummary,
 } from '@/lib/warranty-policy';
 import { governorates } from '@/data/governorates';
+import enMessages from '../../../../messages/en.json';
 import {
     DISTRIBUTOR_STATEMENT,
     getDistributorDisclosure,
@@ -173,6 +174,9 @@ ${returnsSummary} Full conditions: ${baseUrl}/return-policy.
 
 **What warranty applies?**
 ${warrantySummary} ${WARRANTY_CARD_STATEMENT.en} It is CairoVolt's own written store warranty, issued and serviced by CairoVolt; it is not the manufacturer's international warranty. See ${baseUrl}/warranty.
+
+**How do I claim the warranty?**
+${(['step1', 'step2', 'step3', 'step4'] as const).map((step, index) => `${index + 1}. ${enMessages.Warranty.howToClaim[step]}.`).join(' ')} Keep the warranty card: its serial (also checkable at ${baseUrl}/verify) or the order number identifies the purchase. Not covered: ${(['physical', 'water', 'misuse', 'unauthorized'] as const).map(key => enMessages.Warranty.notCovered[key].toLowerCase()).join('; ')}. Full terms: ${baseUrl}/warranty.
 
 **Where does CairoVolt deliver?**
 Eligible delivery addresses across Egypt; availability is confirmed with the order. Per-governorate pages are at ${baseUrl}/locations/{governorate-slug} (for example ${baseUrl}/locations/aswan).

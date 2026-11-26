@@ -13,24 +13,24 @@ export interface CatalogLastmodEntry {
 
 export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
     "anker-310-usb-c-lightning-cable": {
-        "hash": "81f48888a7ac1d4cf9a4238f8ff51e736a9764bc",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "8d8b99a63b31e17cd415a54d1699653e11bcc2c7",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-521-powerhouse": {
         "hash": "d44dc3b4b6e46c8445fb7a8b3f994c99d73ca681",
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "anker-622-maggo": {
-        "hash": "8233508e3aa7cb38db228b41df4a0aa3b1925472",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "2b6b3cde84f3e765f0363b5a3829157067b2434a",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-737-powerbank": {
         "hash": "8f8b985f41938720cf7bfc39db51b49643b7a44d",
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "anker-a1637-wukong-3-in-1-power-bank": {
-        "hash": "4074f1f5729c9c3f7d4239207c7e91cba2e14518",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "c168edbcfe0965f8b503289e33a84bf56eee1f97",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-a2147-gan-charger-30w": {
         "hash": "492d3a9be10d3139e46fcc78a8a1bfea51d00b6a",
@@ -41,20 +41,20 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "anker-a2732-charger-35w": {
-        "hash": "732697c3fec2e517505e70a75fce59ac9e2436c6",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "c31b1452871a53ec22919ddbf9117b6c3ff7ea86",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-a2741-charger-30w": {
-        "hash": "c8746b0dedae991ef6c312c60bfcbe4b79775973",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "fd2ace2b685bce698c68e1a596217f02b78b6d13",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-a8050-usb-c-cable": {
-        "hash": "66c47e4af008ecb935604513a9e9fe98d80a045c",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "5dc4aff951f529e5bc9e4a1d2e23f8394b62202c",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-car-charger-dual-usb": {
-        "hash": "58f79b23be250dce92b8ee458b4365611012c0e3",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "90d4c87aa75eac04010e80d9720174e440f17cd0",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-nano-45w": {
         "hash": "edb159ad6894454bf436f54c841bcb29833bd042",
@@ -65,44 +65,44 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "anker-nano-45w-smart-display-charger": {
-        "hash": "8163b7dfbadfd358c6cf079a0b0612641b5b1a4f",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "b23a10fbedf68b85bd4ffbd3fa00d7c42b4c0cbe",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-nano-power-bank-a1638-10k-45w": {
-        "hash": "634862bcb404536e3a6aeec6526a5ed780dd99a7",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "3d0cae26f709a146d387074a67fa7a0c25b1d645",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-nano-pro-45w-a2692": {
         "hash": "71b79cfe575ca9cef4bc762486f78bd03631c9f5",
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "anker-pencil-stylus": {
-        "hash": "1edd9df9dd69b067ad2e248af0b0d1c46569db67",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "8240bfb6057f5f8db5fc504ed1b5dedc28dab899",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-powercore-10000": {
         "hash": "5f877c46ff946ec04e43b44dbe25b61292645501",
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "anker-powercore-20000": {
-        "hash": "614e2a8561a2ea74c9abaee3bdaa920fac27708c",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "3c56a59469e1972955018929e9bd29893942736c",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-powercore-26800": {
         "hash": "634cce1a4b2b7eaa1c88eccc6c68df4405ee87c6",
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "anker-powerline-usb-c-lightning": {
-        "hash": "ec9a60978ea2c619a3854b9b3bf8f380118da184",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "1ef5c345348c90e3045ce5e09944f484e287c706",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-powerline-usb-c-usb-c": {
-        "hash": "4857f19df4653b1b4493ebc8c156b9b9838f1521",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "3a78776f03d36c48a15ad905e7ea2f0cf3853d28",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-powerport-20w": {
-        "hash": "e1a1810c825d01b1ccf1e107b2dedbc63df75adc",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "05d49db2f89944796dd68310f4f159b80ef85e8a",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-powerport-25w": {
         "hash": "a9c89712bfdd9d65f8f0bf1b5f8b27c42fddf27f",
@@ -121,8 +121,8 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "anker-prime-a2669-67w-gan-charger": {
-        "hash": "a704a58bfe5efccb91540a8d734acb16bdb2725e",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "6432f9d10e7b4b22f28df51433dad655799c44e1",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-prime-a2688-100w-charger": {
         "hash": "bef6b73b5db6c89f6a51fbf1e42dc625f77a85d2",
@@ -137,32 +137,32 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "anker-soundcore-k20i": {
-        "hash": "91fae58b6c6a1377d996449fa751a64a3e19fc76",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "6a7b9ccb8ab406d78fcc5f0de9dcb7d53cacc8c3",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-soundcore-life-p2i": {
-        "hash": "9ef44adda7fc946827d7017eaa6576fc806b7d4b",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "7d467cd88729c71e077f6926aa40bcfe5ab735c0",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-soundcore-motion-plus": {
-        "hash": "919ff650da260a2932e379e59634a3bb1cc2472d",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "f9e990b9339a216e34ccdf80252609ceff1a4a7b",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-soundcore-r50i": {
-        "hash": "7d2f34a09b3708fe38e4274be2592ceacfdd129e",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "3702649e00272e2c2e66f23dcd722136463c895b",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-soundcore-r50i-nc": {
         "hash": "b4b742a2fe15c72b23343e319a4faa180a7d0aaa",
         "lastmod": "2026-11-22T17:58:50.000Z"
     },
     "anker-ultra-soft-usb-c-240w-cable": {
-        "hash": "335e3eaf2b9f3b9d2399c1f00137d5217789d43e",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "bda4471a461db416b0737e7cae5d664565e17298",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-usb-c-lightning-sureistrong": {
-        "hash": "8ec7a63f04e376ab947cab4aa61f20f17a3c002c",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "9e33e68c28ea39e0b2385847803f5ed05cc59fb8",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-zolo-30w-a2698-charger": {
         "hash": "f2727db4eab5ff0d8b66be98c097e7875eee4226",
@@ -181,8 +181,8 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "anker-zolo-usb-c-braided-cable": {
-        "hash": "1c570a655d8ee3eb126e56896f77a09ce1ebc8c4",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "68ceced34df1612f40519ca4d02082c9c6bdfa93",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "jbl-boombox-3": {
         "hash": "8cc7d72e23b4609fb5f31440bf322b45c8e67336",
@@ -281,8 +281,8 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-25T14:17:12.000Z"
     },
     "joyroom-3-in-1-data-cable": {
-        "hash": "a918d93c2ff379ad1a94f938f6b814616de41aee",
-        "lastmod": "2026-11-25T14:17:12.000Z"
+        "hash": "05f250bd34aebf80dd4aa45e0c0e468b765e1b28",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-3-in-1-wireless-charging-station": {
         "hash": "889d5feb2e26050f1b83f8f2264d3a5e3d6e2798",
@@ -293,32 +293,32 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-25T14:17:12.000Z"
     },
     "joyroom-30w-pd-cable": {
-        "hash": "97f59776486f6e54ed397f31684fce3e811cd1aa",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "e698a699a215d05b07e629dc4d3cfc2bf22d0891",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-60w-car-charger": {
-        "hash": "96aaa8b14b57afe36d3ec4a3a569de2f0fadab5c",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "a17c5ffd329358e1e67332283e55b5db6f5a6cf8",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-car-mount-zs290": {
         "hash": "ddce4494ee64c10b43fb69fdc2555a3e055d801e",
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "joyroom-car-phone-mount": {
-        "hash": "0706b584dc3b0e480923265ad0fe635630c1ab97",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "056383d2942ba5bae4649eceb0f0df999ffd4711",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-ft3-smartwatch": {
-        "hash": "6d9a669c32128321dc228ebcb6bb635e05ec830e",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "11f58c289e64603117d6f1f76e414c8fa0a08fd6",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-jr-t03-wireless-earbuds": {
         "hash": "8fc9c0bddb6bc9ff37c2b7420169a6bc36733c04",
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "joyroom-jr-x15-pro-stylus-pen": {
-        "hash": "fec0f44064ac1bafbdaec388394ef68430e7bf94",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "a543052fe7ff0f4cf5299ed032646ffedb65918e",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-magnetic-power-bank-10000": {
         "hash": "ab68ad7a56dad9d60efab2c30bce2beef11749d1",
@@ -337,96 +337,96 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "joyroom-type-c-lightning-24mos": {
-        "hash": "8446e9924d8a54eba186a51d29a06254069fa323",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "c918207df0329c910b69a09eed6e98b0ba06aecd",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-type-c-lightning-36mos": {
-        "hash": "d7af6c5fe80e38c502153d554c5f1c49a18f96c4",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "c98c892ec62fef9607b6487f690d101ca7bf4863",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-type-c-lightning-braided": {
-        "hash": "eb58d09cfd1ce459cda90c16451cb7cfd8c04f97",
-        "lastmod": "2026-11-25T14:17:12.000Z"
+        "hash": "3558aa739c4f945052c9430f79523b399ce1653d",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-type-c-to-type-c-cable": {
-        "hash": "b448f4ee0ab1f89eab94df1980dabfe4be4b8476",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "d2323ba04e07f2991a0c211157e46ebe3f0f2f0a",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-usb-a-lightning-1.2m": {
-        "hash": "3ef39582a66337a22e807d3fe169ebb26864cd70",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "55512c5057c1d316d49394d752e4b2625e508655",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-usb-a-lightning-cable": {
-        "hash": "025c2e77bbaf3c4127c319ac64e616fd7cdb455d",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "df6cd75faff64f041b22809ec5bb71a481ec256d",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-usb-a-micro-cable": {
-        "hash": "ac5550228311e520bd0a92f1aac03602ac78966c",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "7b8fdeb77acc17ce023ec336fdbca5e88eb517ad",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-usb-a-type-c-1.2m": {
-        "hash": "08909b4900edd3f90bca85414a081e0c3c165a2e",
-        "lastmod": "2026-11-25T14:17:12.000Z"
+        "hash": "186e24036275688f1f6e10839e69988f38f46697",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-usb-a-type-c-cable": {
-        "hash": "2764011d634d7378f484a9dc8ff1eb2067bdecac",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "a698a2c37fa4ac36ca6af46cbc9a362810ce1732",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-usb-c-cable-60w": {
-        "hash": "bd9a0d7f664dc7f47fdc6407831b2b7443bdf58e",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "0acc12fabf520a443f1b41f4846d97247a07b8e7",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "joyroom-usb-c-lightning-cable": {
-        "hash": "21ca0fdfb049c93d621b5e5d14d5f1a5434643cb",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "cc89de3c335769a3604216d32f30ae84a5a2fd0f",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-a25i-earbuds": {
-        "hash": "bd412a4b5c2a8963e38f7a49e25b9b55b02ace30",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "680e5a0ca1960735711e90ea6b1cfdd61a4146b4",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-a30i-earbuds": {
         "hash": "612b9b7fc851502d03bd0711f1eeaaf688b23591",
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "soundcore-c30i-earbuds": {
-        "hash": "7c897f0c2917ee42612803ab1d5a57b8d0135da0",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "da2b877734335710246db77c1279aa015fbdee34",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-c40i-earbuds": {
-        "hash": "fd9a7cc22ae38bab7f094f69b7f6003577715507",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "49562acaf12a535ca2b4173371446279f815d44b",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-liberty-3-pro": {
-        "hash": "8296ef554b12187e0106b283e56431f54a7438a6",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "e046a4d69ee1ea9c573ae9d36d7db5c1e2d7685f",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-liberty-4-nc": {
-        "hash": "ce9ab1c82edf868bc7d7ec5f7da663addba57143",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "ddded0099e9cc7c491c43eb40fa59fa78e44c891",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-liberty-4-pro": {
-        "hash": "9978a353bff541a2c52dea5021fd036463c48055",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "50cce0e81bff201e072bbd993b3d1070ae2cc9ec",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-liberty-5": {
-        "hash": "87a1fe705fd937ecd204919c9493318d3df7bd96",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "3822c7e61146b1307d16afab7a3e40223f79215c",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-liberty-air-2-pro": {
-        "hash": "133ae413a5dcaab00b9424c7a64d457f2ebe1c4c",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "62f4d6bd84ea7b5a3bc7959d57a9ed20658aa341",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-liberty-buds": {
-        "hash": "49435d7c0122b2f4cacfc662d2232bac84e92b28",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "430abbf70f24e59886f172564d2cbdd7ce73031c",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-life-q20-headphones": {
-        "hash": "8c4cefb75459926c4ab5a230565b0aa31b287c43",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "dcbe196b9ed137f2128257ead9f312f458abe7b5",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-life-u2i-neckband": {
-        "hash": "9e9708842c2f24d4aab1665c80edf3ecf1c78192",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "ce5392f855ee7a5e1b0d4dd1751b4675627f6596",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-p20i-earbuds": {
         "hash": "e88757e3efc3382535ad6ee3e0a7024155866a54",
@@ -445,44 +445,44 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "soundcore-p41i-earbuds": {
-        "hash": "cff0e216169d098be33b6417005e0b11fbf17c91",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "12827170a8c94936d8f64702b95e4bf23ad4182f",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-q11i-headphones": {
-        "hash": "4ea10a6e7f08a8f264164959942bbaf990303e62",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "db485db1fa51257fd066c0d6cfa62179eeac8ed4",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-q20i-headphones": {
-        "hash": "0d76c2506d634a9e97f49f0705fd2f6655f3e665",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "36035fceb4d497a62005111424f38d59b9a4eec0",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-q30-headphones": {
-        "hash": "98031ccbb3321b4809b897ca4b608e4478511f38",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "281e0e69fd42ea6c6bae424612d715299a725874",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-q45-headphones": {
-        "hash": "851797bebc949b6124bbf46cdab0476011d454f3",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "d72a2cf9073040be7b5bcf4fb05c2243662b8629",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-r50i-vi-earbuds": {
         "hash": "594486575697cde1ab6369af92e073bcd18ae49c",
         "lastmod": "2026-11-25T14:16:25.000Z"
     },
     "soundcore-r60i-nc": {
-        "hash": "d88f50a77a18818a30d014c15b0ad988b2c8010a",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "30deb8ff6e86012ca722a83cdeb738df17aad874",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-rave-3-speaker": {
-        "hash": "13be09e853eea0b85ed41e48fb0599f061cec896",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "1750503396ce02e84e3eb8a563d5b531b7a329a8",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-select-4-go-speaker": {
-        "hash": "a0c2295772fa83a73048a53fbf27f45ba41f50cd",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "9d5926f3aa3ff8036e97c9cffd3dba57674aaa6f",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-space-one-headphones": {
-        "hash": "b416a09c73ae28a777d1ac28e48d25de30c965db",
-        "lastmod": "2026-11-25T14:16:25.000Z"
+        "hash": "37605e73416de9b2de639d8ee3e4b4ad935c3951",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-v20i-earbuds": {
         "hash": "d302b18c2aeb08e2a38fc02a6c8b42c211771411",
@@ -492,24 +492,24 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
 
 export const CATALOG_SOURCE_LASTMOD: Record<string, CatalogLastmodEntry> = {
     "category:anker/accessories": {
-        "hash": "40570ad8d8243de9d1471050e164e0c2ca426d7c",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "5d9a43607cf234eb43319ee1e845c0dfe3673ca2",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:anker/cables": {
-        "hash": "1c2dfa47f6ff6472d3e7d7888d4fa216c7d72b6a",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "6763975bddcaec5cc3f2a99605acd725aa0734d2",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:anker/car-chargers": {
-        "hash": "1256f7dd2d4d5d77c56b331268ebd70ca90d6475",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "6f80ee737913bfe1b6553aeba3f537921099015e",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:anker/power-banks": {
-        "hash": "e500b347bc574099a8db8051186dd2ace1b21d10",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "b6243567a8a6f3dfe6e4c04e50a8dc7a130a3286",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:anker/wall-chargers": {
-        "hash": "a30661b5a898be2470e26fa4c259bee5881db851",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "c872c11a9cd5990e17738408cfaba5ff3d745672",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:jbl/earbuds": {
         "hash": "97649c989ef450623a8920af287becaf9ddc5ba7",
@@ -528,76 +528,76 @@ export const CATALOG_SOURCE_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-22T17:58:50.000Z"
     },
     "category:joyroom/accessories": {
-        "hash": "602ce4906b1d63fcf81c98e991a04f1e64352e6c",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "76bfed6c0012199bd5077769fac5ccbd7d9dc655",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:joyroom/audio": {
-        "hash": "55b78e63091419c4a45ab2632639a007f2057382",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "12f24720e3a4edab9dd44d82bdf18f72d8c89023",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:joyroom/cables": {
-        "hash": "33d0fc84bb173532ac3292c9e45efe5dc5c04db1",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "b5c88a410a2a93bf67770bc4b4fe910181af87dd",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:joyroom/car-accessories": {
-        "hash": "37a18e27d08937cff44b88cb20531340ff17a365",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "12870081fbddd80b790871568c5eda3cb9ff57af",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:joyroom/car-chargers": {
-        "hash": "be1c3ac5827fb268719256707af99c99dc72c699",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "86b6522dde8d96bdbe9617f8d26748d41719850c",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:joyroom/car-holders": {
-        "hash": "b77bf0c3713528ccbf77de04be82d3625a999cd7",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "979eef9559c6dced372077dd3571cdd67b84a1de",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:joyroom/power-banks": {
-        "hash": "15d7afb5f15c01e1c35ba4a05ceea376fd01e8c8",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "392d5bd3663762cd43703870ab438dba580b8eab",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:joyroom/smart-watches": {
-        "hash": "2c89a78e45d003999510f1d45ea1231481d35235",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "91db09de489b4e0cb87d6f3e094aac718b70e6bd",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:joyroom/wall-chargers": {
-        "hash": "c86bc9ef5931201be1f0cd73b01f9974f61d892e",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "5e0789baf4c65cacf602ea328677caa752ea42cb",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:soundcore/audio": {
-        "hash": "a783525d79748845431ebce70716d69fd8dbd3e3",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "cc9bf0704d56f28c50102438c21969676bbcdf60",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:soundcore/speakers": {
-        "hash": "32ff0ececfb08ca82e04b80152faa8bb45ed4d24",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "85f64ad8f512c25dc9e6cd681d1f3f6735faaad8",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "generic:cables": {
-        "hash": "cd82109509244119995e637813eb64054d37c141",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "4e9a9a69af1b7383131d4c952f02e82cbfa18b12",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "generic:chargers": {
-        "hash": "aa4365979b31b0072d24302b26ad6996d2c3f839",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "73f005c480561e3b1a5fd55ebef59e1aa2fbad66",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "generic:earbuds": {
-        "hash": "6a0cf7358f8984736f5fa1b97b2ba25d4a4acba9",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "de024db537909b706ff1d2230424854cceb2e0a4",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "generic:power-banks": {
-        "hash": "5b70a448e8876e97f6be6a6bac56c9bea617b7aa",
-        "lastmod": "2026-10-04T14:08:40.000Z"
+        "hash": "cab0cb0f574b9d2d7b6628663a5ebc7230187965",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "source:brand-data": {
-        "hash": "33dee4949171b4db669190239f93c8130e89208c",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "689b3838c731d0055ec50e5340c5b7bf45c6c74f",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "source:faq": {
-        "hash": "845f6711139fb09e0d753c0d37df1529dc2879e7",
-        "lastmod": "2026-10-04T14:22:47.000Z"
+        "hash": "6b27273679b2d5ea9cf7617e6baad84f8c40591c",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "source:home": {
-        "hash": "e3417c1371d0ba6abe811743234fe197c998fbb6",
-        "lastmod": "2026-10-04T14:22:47.000Z"
+        "hash": "1ad01853fc4f5fa9a6533f4e2634ef071ba95a0b",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "source:locations": {
         "hash": "25dc67b88f110b438c7c41fb107ee8cc8e1a250d",
@@ -608,7 +608,7 @@ export const CATALOG_SOURCE_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-10-04T14:08:40.000Z"
     },
     "source:soundcore-hub": {
-        "hash": "942db2c8af8526a8ea7b8f8d8de3b1691534fc05",
-        "lastmod": "2026-10-05T01:14:34.000Z"
+        "hash": "93c1f6197c69739cbe46ebfe996ed366a5bb5933",
+        "lastmod": "2026-11-26T12:26:00.000Z"
     }
 };

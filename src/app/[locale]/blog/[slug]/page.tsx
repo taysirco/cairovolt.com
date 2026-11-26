@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { getMarkdownTwinTypes } from '@/lib/markdown-twin-routes';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -28,6 +29,7 @@ import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 import { getBrandDisplayName, localizeArabicBrandContent, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { getCategoriesForArticle, getCategoryDisplayName } from '@/lib/blog-category-bridge';
 import { isSelfControlledReference } from '@/lib/self-controlled-hosts';
+import { extractContentCitations } from '@/lib/blog-citations';
 
 // Hourly ISR — so a scheduled article reveals within ~1h of its publishDate
 // (the daily reveal cron also force-revalidates on the exact day).
@@ -88,6 +90,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 'application/rss+xml': isArabic
                     ? [{ url: 'https://cairovolt.com/api/discover-feed', title: 'كايرو فولت — أحدث الأدلة' }]
                     : [{ url: 'https://cairovolt.com/api/discover-feed?locale=en', title: 'CairoVolt — Latest guides' }],
+                ...getMarkdownTwinTypes(isArabic
+                    ? `https://cairovolt.com/blog/${slug}`
+                    : `https://cairovolt.com/en/blog/${slug}`),
             },
         },
         openGraph: {
@@ -278,12 +283,20 @@ export default async function BlogArticlePage({ params }: Props) {
 
     // BlogPosting.citation — third-party sources only; references to hosts
     // CairoVolt controls are not citations.
-    const schemaCitations = (article.externalReferences || []).flatMap((ref) => {
+    const referenceCitations = (article.externalReferences || []).flatMap((ref) => {
         // Host AND path: tumblr.com/cairovolteg or github.com/althaqelco/... pass a host-only check.
         if (isSelfControlledReference(ref.url)) return [];
         const name = ref.title[isArabic ? 'ar' : 'en'] || ref.title.en || ref.title.ar;
         return name ? [{ name, url: ref.url }] : [];
     });
+    // Plus the primary sources the body itself links to (see blog-citations.ts):
+    // curated references first, then in-text sources not already listed.
+    const referencedUrls = new Set(referenceCitations.map(c => c.url.replace(/#.*$/, '').replace(/\/$/, '')));
+    const schemaCitations = [
+        ...referenceCitations,
+        ...extractContentCitations(rawTrans.content)
+            .filter(c => !referencedUrls.has(c.url.replace(/#.*$/, '').replace(/\/$/, ''))),
+    ];
 
     // Dates are shown on the Cairo calendar: an offset timestamp such as
     // 2026-10-05T01:30:00+03:00 must not print as the previous day on a UTC host.

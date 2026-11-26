@@ -79,6 +79,9 @@ interface CategoryTemplateProps {
      */
     relatedArticles?: RelatedArticle[];
     coverageLinks?: CoverageLink[];
+    /** Newest content-hash change among the listed products, resolved on the
+     *  server (the change log itself never ships to the browser). */
+    dateModified?: string;
 }
 
 /**
@@ -131,7 +134,8 @@ export default function CategoryTemplate({
     powerBankData,
     initialProducts = [],
     relatedArticles = [],
-    coverageLinks = []
+    coverageLinks = [],
+    dateModified,
 }: CategoryTemplateProps) {
     const locale = useLocale();
     const tCat = useTranslations('Categories');
@@ -268,6 +272,7 @@ export default function CategoryTemplate({
                 brandName={brand}
                 categoryName={translatedCategory}
                 locale={locale}
+                dateModified={dateModified}
             />
 
             {/* No HowTo JSON-LD here: the buying guide is reference material

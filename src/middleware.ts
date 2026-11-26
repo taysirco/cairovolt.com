@@ -3,7 +3,7 @@ import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
 import { BLOG_SCHEDULE } from './data/blog-schedule.generated';
 import { KNOWN_TOP_SEGMENTS, LEGACY_PRODUCT_REDIRECTS, RETIRED_CATEGORY_REDIRECTS } from './lib/known-routes';
-import { hasMarkdownTwin } from './lib/markdown-twin-routes';
+import { getMarkdownTwinUrl, hasMarkdownTwin } from './lib/markdown-twin-routes';
 
 const intlMiddleware = createMiddleware(routing);
 
@@ -290,8 +290,13 @@ export default function middleware(request: NextRequest) {
         if (isCacheablePage) {
             response.headers.set('Cache-Control', 'public, max-age=0, must-revalidate');
             response.headers.set('CDN-Cache-Control', 'public, max-age=3600, stale-while-revalidate=86400');
+            // The markdown twin is advertised per page (only where one exists):
+            // the same alternate an agent would otherwise have to guess from
+            // the URL pattern documented in llms.txt.
+            const markdownTwin = getMarkdownTwinUrl(pathname);
             const discoveryLink =
-                '</.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json", </llms.txt>; rel="describedby"; type="text/plain"';
+                '</.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json", </llms.txt>; rel="describedby"; type="text/plain"'
+                + (markdownTwin ? `, <${markdownTwin}>; rel="alternate"; type="text/markdown"` : '');
             const existingLink = response.headers.get('Link');
             response.headers.set(
                 'Link',

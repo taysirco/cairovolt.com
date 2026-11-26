@@ -1,4 +1,5 @@
 import CategoryTemplate from '@/components/CategoryTemplate';
+import { getMarkdownTwinTypes } from '@/lib/markdown-twin-routes';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { categoryContent } from '@/data/category-content';
@@ -9,6 +10,7 @@ import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { resolveMinPriceToken } from '@/lib/meta-price-token';
 import { isRecallAffectedSlug, isRecallStockVerifiedOutsideScope } from '@/lib/merchant-product-data';
 import { getArticlesForCategory } from '@/lib/blog-category-bridge';
+import { CATALOG_LASTMOD } from '@/data/catalog-lastmod.generated';
 import { governorates, COVERAGE_GOVERNORATE_SLUGS } from '@/data/governorates';
 
 /**
@@ -131,6 +133,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 'en-EG': `https://cairovolt.com/en/${path}`,
                 'x-default': `https://cairovolt.com/${path}`,
             },
+            types: getMarkdownTwinTypes(canonical),
         },
         openGraph: {
             ...(meta.openGraph || {}),
@@ -289,6 +292,11 @@ export default async function DynamicCategoryPage({ params }: Props) {
             initialProducts={initialProducts}
             relatedArticles={relatedArticles}
             coverageLinks={coverageLinks}
+            dateModified={initialProducts
+                .map(product => CATALOG_LASTMOD[product.slug]?.lastmod)
+                .filter((value): value is string => Boolean(value))
+                .sort()
+                .pop()}
         />
     );
 }

@@ -143,6 +143,9 @@ interface ProductPageClientProps {
     /** Live blog guides whose body links to this product, already localized
      *  (built server-side by getGuidesForProduct). Empty → no block. */
     guides?: Array<{ href: string; title: string }>;
+    /** Last real change to this product's data (content-hash change log),
+     *  pre-formatted on the server so hydration cannot disagree. */
+    lastUpdated?: { iso: string; label: string };
 }
 
 // Category slug → Categories message key lives in '@/lib/category-keys', shared
@@ -151,7 +154,7 @@ interface ProductPageClientProps {
 /** True when the text contains at least one Arabic letter. */
 const hasArabicLetters = (text: string): boolean => /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]/u.test(text);
 
-export default function ProductPageClient({ product, relatedProducts = [], alsoBoughtProducts = [], guides = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail, spin360FrameCount = 0 }: ProductPageClientProps) {
+export default function ProductPageClient({ product, relatedProducts = [], alsoBoughtProducts = [], guides = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail, spin360FrameCount = 0, lastUpdated }: ProductPageClientProps) {
     const isRTL = locale === 'ar';
     const tCommon = useTranslations('Common');
 
@@ -1294,6 +1297,16 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                                         )}
                                     </td>
                                 </tr>
+                                {lastUpdated && (
+                                    <tr>
+                                        <td className="py-4 text-gray-600 dark:text-gray-400">
+                                            {isRTL ? 'آخر تحديث لبيانات المنتج' : 'Product data last updated'}
+                                        </td>
+                                        <td className="py-4 font-bold text-end text-gray-900 dark:text-white">
+                                            <time dateTime={lastUpdated.iso}>{lastUpdated.label}</time>
+                                        </td>
+                                    </tr>
+                                )}
                                 <tr>
                                     <td className="py-4 text-gray-600 dark:text-gray-400">{isRTL ? 'المخزون' : 'Stock'}</td>
                                     <td className={`py-4 font-bold text-end ${!isOutOfStock ? 'text-green-600' : 'text-red-600'}`}>

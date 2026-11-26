@@ -45,3 +45,29 @@ export function hasMarkdownTwin(pathname: string): boolean {
 
     return false;
 }
+
+/**
+ * Absolute URL of a page's markdown twin ("/" → /api/markdown-negotiate/index),
+ * or null when the page has none. Used for the HTTP `Link` header and the
+ * `<link rel="alternate" type="text/markdown">` head tag, so agents that only
+ * read one of the two still discover the twin.
+ */
+export function getMarkdownTwinUrl(pathname: string): string | null {
+    const clean = pathname.replace(/\/+$/, '') || '/';
+    if (!hasMarkdownTwin(clean)) return null;
+    return `https://cairovolt.com/api/markdown-negotiate${clean === '/' ? '/index' : clean}`;
+}
+
+/**
+ * `alternates.types` entry for Next.js metadata: renders
+ * `<link rel="alternate" type="text/markdown" href="…">` for a canonical URL
+ * that has a markdown twin, or nothing. The twin itself is noindex with a
+ * canonical back to the HTML page, so search engines keep the HTML original.
+ */
+export function getMarkdownTwinTypes(canonicalUrl: string): Record<string, string> {
+    let pathname = '/';
+    try { pathname = new URL(canonicalUrl).pathname; } catch { return {}; }
+    const twin = getMarkdownTwinUrl(pathname);
+    return twin ? { 'text/markdown': twin } : {};
+}
+

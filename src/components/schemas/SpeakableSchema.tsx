@@ -17,9 +17,11 @@ interface SpeakableSchemaProps {
     mainEntityId?: string;
     /** @id of the WebSite this page belongs to (WebPage.isPartOf). */
     isPartOfId?: string;
+    /** WebPage.dateModified — only a content-hash-backed date (never build time). */
+    dateModified?: string;
 }
 
-export function SpeakableSchema({ cssSelectors, locale, url, name, mainEntityId, isPartOfId }: SpeakableSchemaProps) {
+export function SpeakableSchema({ cssSelectors, locale, url, name, mainEntityId, isPartOfId, dateModified }: SpeakableSchemaProps) {
     const selectors = cssSelectors.map(s => s.trim()).filter(Boolean);
     if (!selectors.length) return null;
 
@@ -31,6 +33,7 @@ export function SpeakableSchema({ cssSelectors, locale, url, name, mainEntityId,
         ...(name ? { name } : {}),
         ...(isPartOfId ? { isPartOf: { '@id': isPartOfId } } : {}),
         ...(mainEntityId ? { mainEntity: { '@id': mainEntityId } } : {}),
+        ...(dateModified ? { dateModified } : {}),
         speakable: {
             '@type': 'SpeakableSpecification',
             cssSelector: selectors,

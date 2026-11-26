@@ -1,4 +1,5 @@
 import { Suspense } from 'react';
+import { getMarkdownTwinTypes } from '@/lib/markdown-twin-routes';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
@@ -7,6 +8,7 @@ import { getProductBySlug, getSmartRelatedProducts, getSmartBundleProducts, getP
 import ProductPageClient from './ProductPageClient';
 import { ProductSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { SpeakableSchema } from '@/components/schemas/SpeakableSchema';
+import { CATALOG_LASTMOD } from '@/data/catalog-lastmod.generated';
 import { calculateVerifiedAggregateRating, getProductReviews as getVerifiedProductReviews } from '@/lib/verified-reviews';
 import { getProductDetailAsync } from '@/data/product-details';
 import { getSpin360FrameCount } from '@/lib/product-spin';
@@ -369,7 +371,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 'ar-EG': `https://cairovolt.com/${brand.toLowerCase()}/${category.toLowerCase()}/${slug}`,
                 'en-EG': `https://cairovolt.com/en/${brand.toLowerCase()}/${category.toLowerCase()}/${slug}`,
                 'x-default': `https://cairovolt.com/${brand.toLowerCase()}/${category.toLowerCase()}/${slug}`,
-            }
+            },
+            types: getMarkdownTwinTypes(isArabic
+                ? `https://cairovolt.com/${brand.toLowerCase()}/${category.toLowerCase()}/${slug}`
+                : `https://cairovolt.com/en/${brand.toLowerCase()}/${category.toLowerCase()}/${slug}`),
         },
     };
 }
@@ -542,6 +547,15 @@ export default async function ProductPage({ params }: Props) {
 
     // Canonical page URL (same helper as Product.url / Product.@id).
     const productPageUrl = getMerchantProductUrl(product, locale);
+    // Last real change to this product's catalogue or details source — from
+    // the content-hash change log (catalog-lastmod.generated.ts), the same
+    // value the sitemap and feed.xml publish. Never the build time.
+    const productLastmod = CATALOG_LASTMOD[product.slug]?.lastmod;
+    const productLastmodLabel = productLastmod
+        ? new Date(productLastmod).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US', {
+            year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Africa/Cairo',
+        })
+        : '';
 
     // Fetch verified aggregate rating for Structured Data (Cached)
     const verifiedAggregateRating = await getCachedAggregateRating(slug);
@@ -647,6 +661,7 @@ export default async function ProductPage({ params }: Props) {
                             : (product.translations?.en?.name || '')}
                         mainEntityId={`${productPageUrl}#product`}
                         isPartOfId="https://cairovolt.com/#website"
+                        dateModified={productLastmod}
                     />
                 );
             })()}
@@ -727,6 +742,7 @@ export default async function ProductPage({ params }: Props) {
                     benchTest: productDetailData.benchTest,
                 } : null}
                 spin360FrameCount={spin360FrameCount}
+                lastUpdated={productLastmod ? { iso: productLastmod.split('T')[0], label: productLastmodLabel } : undefined}
             />
 
             {/* Live delivery tracking — streamed dynamically via Suspense */}

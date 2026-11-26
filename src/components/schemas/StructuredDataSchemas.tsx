@@ -356,6 +356,8 @@ interface CategoryCollectionSchemaProps {
     /** Display category, e.g. "Bluetooth Speakers". */
     categoryName: string;
     locale: string;
+    /** Newest content-hash change among the listed products (never build time). */
+    dateModified?: string;
 }
 
 /**
@@ -367,9 +369,11 @@ interface CategoryCollectionSchemaProps {
  * to. This supplies the missing node and references the ItemList by @id
  * rather than repeating it, so the products are described exactly once.
  *
- * Deliberately no `dateModified`: the pages are hourly-ISR, so any build-time
- * date would churn every hour and assert a freshness that did not happen.
- * An untruthful recency signal is worse than none.
+ * `dateModified` is NEVER a build or request time: the pages are hourly-ISR,
+ * so such a date would churn every hour and assert a freshness that did not
+ * happen. Callers pass the newest entry of the content-hash change log
+ * (catalog-lastmod.generated.ts) among the listed products — a date that
+ * moves only when a listed product's source actually changes — or nothing.
  */
 export function CategoryCollectionSchema({
     url,
@@ -378,6 +382,7 @@ export function CategoryCollectionSchema({
     brandName,
     categoryName,
     locale,
+    dateModified,
 }: CategoryCollectionSchemaProps) {
     const isArabic = locale === 'ar';
     // Reference the site-wide Brand node (the one carrying the verified
@@ -402,6 +407,7 @@ export function CategoryCollectionSchema({
             { '@type': 'Thing', name: categoryName },
         ],
         mainEntity: { '@id': `${url}#itemlist` },
+        ...(dateModified && { dateModified }),
     };
 
     return (
