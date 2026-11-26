@@ -105,9 +105,14 @@ function sanitizeCuratedMetadata(value: string | undefined, isArabic: boolean): 
         .replace(/\b(?:Anker|Soundcore|Joyroom)\s+(?:official\s+)?warranty\b/giu, warrantyLabel)
         .replace(/(?:انكر|ساوندكور|جوي\s*روم)\s+(?:official\s+)?warranty\b/giu, warrantyLabel)
         .replace(/(?:الضمان\s+(?:الرسمي|المعتمد)|ضمان\s+(?:رسمي|الوكيل|الشركة\s+المصنعة|انكر|ساوندكور|جوي\s*روم))/gu, warrantyLabel)
-        // Do not present CairoVolt as an authorised representative of a brand.
-        .replace(/\b(?:official|authorized)\s+(?:(?:Anker|Soundcore|Joyroom|انكر|ساوندكور|جوي\s*روم)\s+)?(?:dealer|distributor|reseller|agent)\b/giu, storeLabel)
-        .replace(/(?:(?:الوكيل|الموزع|المتجر)\s+(?:الرسمي|المعتمد)|(?:وكيل|موزع)\s+(?:انكر|ساوندكور|جوي\s*روم)\s+(?:رسمي|معتمد))/gu, storeLabel)
+        // CairoVolt IS an official distributor of Anker/Soundcore/Joyroom in
+        // Egypt (owner-confirmed 2026-11-26, src/lib/distributor-status.ts),
+        // so that status passes through. Still rewritten: an AGENT claim
+        // (never granted) and any JBL distributor/dealer claim (JBL is sold
+        // as an independent retailer).
+        .replace(/\b(?:official|authorized|exclusive)\s+(?:(?:Anker|Soundcore|Joyroom|JBL|انكر|ساوندكور|جوي\s*روم)\s+)?agent\b/giu, storeLabel)
+        .replace(/\b(?:official|authorized|exclusive)\s+JBL\s+(?:dealer|distributor|reseller)\b/giu, storeLabel)
+        .replace(/(?:الوكيل\s+(?:الرسمي|المعتمد|الحصري)|وكيل\s+(?:انكر|ساوندكور|جوي\s*روم|JBL)\s+(?:رسمي|معتمد)|موزع\s+JBL\s+(?:رسمي|معتمد))/gu, storeLabel)
         // Keep the authenticity term, but remove an unsupported absolute promise.
         .replace(/\b100\s*%\s*(?:guaranteed\s+)?(original|genuine|authentic)\b/giu, '$1')
         .replace(/\b(original|genuine|authentic)\s*100\s*%(?:\s*guaranteed\b)?/giu, '$1')

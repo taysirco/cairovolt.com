@@ -76,7 +76,7 @@ export default async function VerifyPage({
         ? [
             {
                 question: 'ما الذي يؤكده فحص رقم السيريال؟',
-                answer: 'يؤكد الفحص أن رقم السيريال صدر من كايرو فولت وأن له سجلاً في قاعدة بيانات الضمان. لا يُعد هذا الفحص شهادة مستقلة من الشركة المصنعة لإثبات أصالة المنتج.',
+                answer: 'يؤكد الفحص أن رقم السيريال صدر من كايرو فولت وأن له سجلاً في قاعدة بيانات الضمان، وكايرو فولت موزع رسمي لمنتجات انكر (ومنها ساوندكور) وجوي روم في مصر وتصدر كرت الضمان بنفسها. لا يُعد هذا الفحص شهادة مستقلة من الشركة المصنعة لإثبات أصالة المنتج.',
             },
             {
                 question: 'لماذا أتحقق من رقم السيريال؟',
@@ -94,7 +94,7 @@ export default async function VerifyPage({
         : [
             {
                 question: 'What does the serial check confirm?',
-                answer: 'It confirms that the serial number was issued by CairoVolt and has a record in the CairoVolt warranty database. It is not an independent manufacturer certificate of product authenticity.',
+                answer: 'It confirms that the serial number was issued by CairoVolt and has a record in the CairoVolt warranty database; CairoVolt is an official distributor of Anker (including Soundcore) and Joyroom in Egypt and issues the warranty card itself. It is not an independent manufacturer certificate of product authenticity.',
             },
             {
                 question: 'Why should I check the serial number?',

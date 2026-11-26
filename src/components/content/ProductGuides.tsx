@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { getBrandRelationshipLabel, isOfficialDistributorBrand } from '@/lib/distributor-status';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import CollapsibleSection from '@/components/products/CollapsibleSection';
 
@@ -188,6 +189,11 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                 {isArabic
                     ? 'الأسعار والتغطية والمدة موضحة لكل منتج ضمن ضمان كايرو فولت المكتوب. ذكر العلامة والموديل ليس شهادة أصالة من الشركة المصنّعة.'
                     : 'Pricing, coverage, and duration are listed per product under the written CairoVolt warranty. Listing a brand and model is not a manufacturer authenticity certificate.'}
+                {isOfficialDistributorBrand(product.brand) && (
+                    isArabic
+                        ? ` ${product.translations.ar.name} تبيعه كايرو فولت، وهي ${getBrandRelationshipLabel(product.brand, 'ar')}.`
+                        : ` ${product.translations.en.name} is sold by CairoVolt, an ${getBrandRelationshipLabel(product.brand, 'en').replace(/^Official/, 'official')}.`
+                )}
             </p>
         </div>
     );

@@ -7,6 +7,7 @@ import {
     MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
 } from '@/lib/merchant-product-data';
 import { getAgentLabSummary } from '@/lib/agent-lab-export';
+import { getDistributorDisclosure } from '@/lib/distributor-status';
 
 /**
  * Compact Markdown catalog for assistants and other machine clients.
@@ -36,6 +37,7 @@ export async function GET() {
     let markdown = '# CairoVolt Product Catalog\n\n';
     markdown += `> Snapshot generated ${generated} from live product records. Catalogue last reviewed ${lastReviewed}.\n`;
     markdown += `> Product pages remain the source of truth for current price and availability.\n`;
+    markdown += `> Seller status: ${getDistributorDisclosure('en')}\n`;
     markdown += `> Full lab rows: ${baseUrl}/api/lab-data/json · Markdown of any product page: ${baseUrl}/api/markdown-negotiate/{path} (e.g. ${baseUrl}/api/markdown-negotiate/en/anker/power-banks/anker-737-powerbank).\n\n`;
 
     for (const category of categories) {
