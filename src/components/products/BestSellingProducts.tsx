@@ -57,13 +57,13 @@ export const soundcoreBestSellers: string[] = [
     // four times the next model. It ranked nowhere while it was suppressed as an
     // alias; see the restoration in the product-alias notes.
     'anker-soundcore-r50i-nc',
+    'soundcore-liberty-4-nc',
     'anker-soundcore-r50i',
     'soundcore-p30i-earbuds',
     'anker-soundcore-life-p2i',
     'anker-soundcore-k20i',
     'soundcore-a25i-earbuds',
     'soundcore-p20i-earbuds',
-    'soundcore-liberty-4-nc',
     'soundcore-liberty-5',
     // Speakers
     'anker-soundcore-motion-plus',

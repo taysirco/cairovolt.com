@@ -68,6 +68,10 @@ interface ProductSchemaProps {
      * assistants quote as *the* description silently buried the recall.
      */
     leadNotice?: string;
+    /** Bilingual canonical query aliases for Product.alternateName entity matching. */
+    alternateNames?: readonly string[];
+    /** Verified official manufacturer product page URL(s) for Product.sameAs. */
+    sameAs?: readonly string[];
 }
 
 /** Named entities the catalogue bodies use beyond the XML five. */
@@ -276,7 +280,7 @@ const PRICE_VALID_UNTIL = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000)
     .toISOString()
     .split('T')[0];
 
-export function ProductSchema({ product, locale, aggregateRating, reviews, specifications, isAccessoryOrSparePartFor, leadNotice }: ProductSchemaProps) {
+export function ProductSchema({ product, locale, aggregateRating, reviews, specifications, isAccessoryOrSparePartFor, leadNotice, alternateNames, sameAs }: ProductSchemaProps) {
     const t = product.translations[locale as 'en' | 'ar'] || product.translations.en;
     const isArabic = locale === 'ar';
     const baseUrl = 'https://cairovolt.com';
@@ -349,6 +353,12 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         // outside an offer context.
         url: productUrl,
         name: productDisplayName,
+        ...(alternateNames && alternateNames.length > 0 && {
+            alternateName: alternateNames.length === 1 ? alternateNames[0] : [...alternateNames],
+        }),
+        ...(sameAs && sameAs.length > 0 && {
+            sameAs: sameAs.length === 1 ? sameAs[0] : [...sameAs],
+        }),
         description: plainDescription,
         // No language property on the Product node: schema.org's domain for it
         // is CreativeWork/Event/etc., not Product. The page's WebPage node

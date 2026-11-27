@@ -153,8 +153,8 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-soundcore-r50i-nc": {
-        "hash": "b4b742a2fe15c72b23343e319a4faa180a7d0aaa",
-        "lastmod": "2026-11-22T17:58:50.000Z"
+        "hash": "0e903c647883d748d99486a7f03a25f8e08dbaa5",
+        "lastmod": "2026-11-27T23:10:03.000Z"
     },
     "anker-ultra-soft-usb-c-240w-cable": {
         "hash": "bda4471a461db416b0737e7cae5d664565e17298",
@@ -401,8 +401,8 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "soundcore-liberty-4-nc": {
-        "hash": "ddded0099e9cc7c491c43eb40fa59fa78e44c891",
-        "lastmod": "2026-11-26T12:26:00.000Z"
+        "hash": "43cbc16475216e42f54f5f01df9448b14303121b",
+        "lastmod": "2026-11-27T23:10:03.000Z"
     },
     "soundcore-liberty-4-pro": {
         "hash": "50cce0e81bff201e072bbd993b3d1070ae2cc9ec",
@@ -564,8 +564,8 @@ export const CATALOG_SOURCE_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "category:soundcore/audio": {
-        "hash": "cc9bf0704d56f28c50102438c21969676bbcdf60",
-        "lastmod": "2026-11-26T12:26:00.000Z"
+        "hash": "77f19ad648f58d8ffdc0e3dd8ecc90020c4afa1f",
+        "lastmod": "2026-11-27T23:10:03.000Z"
     },
     "category:soundcore/speakers": {
         "hash": "85f64ad8f512c25dc9e6cd681d1f3f6735faaad8",
@@ -580,8 +580,8 @@ export const CATALOG_SOURCE_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "generic:earbuds": {
-        "hash": "de024db537909b706ff1d2230424854cceb2e0a4",
-        "lastmod": "2026-11-26T12:26:00.000Z"
+        "hash": "b43c65631d15381b0d9cde2a975ee10837cf615f",
+        "lastmod": "2026-11-27T23:10:03.000Z"
     },
     "generic:power-banks": {
         "hash": "cab0cb0f574b9d2d7b6628663a5ebc7230187965",

@@ -341,4 +341,4 @@ export function sanitizeRelatedProductSlugs(slugs: readonly string[]): string[] 
 }
 
 /** Date of the latest full catalog-content and offer review. */
-export const CATALOG_LAST_REVIEWED_AT = '2026-08-10T00:00:00+03:00';
+export const CATALOG_LAST_REVIEWED_AT = '2026-11-28T00:00:00+02:00';

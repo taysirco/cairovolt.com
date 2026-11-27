@@ -1235,10 +1235,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Soundcore R50i NC A3959 Earbuds | Manufacturer-Listed ANC and Battery | Phone-Stand Case"
+                "name": "Anker Soundcore R50i NC (A3959) — 42dB Adaptive ANC & Phone-Stand Earbuds"
             },
             "ar": {
-                "name": "سماعة ساوندكور R50i NC موديل A3959 | عزل وبطارية معلنان من الشركة | علبة بحامل | الضمان الحالي"
+                "name": "سماعة انكر ساوندكور R50i NC (موديل A3959) بعزل ضوضاء 42dB وحامل موبايل مدمج"
             }
         },
         "image": {
@@ -1350,10 +1350,10 @@ export const clientCatalog: ClientCatalogProduct[] = [
         "status": "active",
         "translations": {
             "en": {
-                "name": "Soundcore Liberty 4 NC | Manufacturer-Listed Adaptive ANC | 11mm | LDAC | Up to 50h"
+                "name": "Anker Soundcore Liberty 4 NC (A3947) — Adaptive ANC 2.0 & LDAC Earbuds"
             },
             "ar": {
-                "name": "سماعة ساوندكور ليبرتي 4 NC | عزل تكيفي معلن | 11mm | LDAC | حتى 50 ساعة"
+                "name": "سماعة انكر ساوندكور ليبرتي 4 NC (موديل A3947) بعزل ضوضاء تكيفي وLDAC"
             }
         },
         "image": {

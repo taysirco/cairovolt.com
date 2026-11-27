@@ -1,6 +1,7 @@
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { governorates } from '@/data/governorates';
 import { buildBrandSchemaNodes, getBrandEntity } from '@/lib/brand-entities';
+import { ORGANIZATION_SAME_AS, ORGANIZATION_TELEPHONE } from '@/lib/org-sameas';
 import {
     buildDistributorCredentialNodes,
     DISTRIBUTOR_STATEMENT,
@@ -86,6 +87,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                         { '@type': 'Thing', name: 'شحن سريع Power Delivery', sameAs: 'https://www.wikidata.org/wiki/Q56120131' },
                         'كابلات شحن',
                         'سماعات لاسلكية',
+                        'سماعات عزل الضوضاء ANC',
                         'مكبرات صوت بلوتوث',
                         'سماعات رأس',
                         'إكسسوارات الموبايل في مصر',
@@ -96,6 +98,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                         { '@type': 'Thing', name: 'USB Power Delivery fast charging', sameAs: 'https://www.wikidata.org/wiki/Q56120131' },
                         'Charging cables',
                         'Wireless earbuds',
+                        'Active noise-cancelling earbuds',
                         'Bluetooth speakers',
                         'Headphones',
                         'Mobile accessories in Egypt',
@@ -127,6 +130,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     acquireLicensePage: 'https://cairovolt.com/contact',
                 },
                 email: 'info@cairovolt.com',
+                telephone: ORGANIZATION_TELEPHONE,
                 // Locality-level HQ address — matches the published legal identity
                 // on /contact ('based in New Damietta') and the Merchant Center
                 // business-info address. No street-level detail is published.
@@ -151,16 +155,10 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                         containedInPlace: { '@type': 'Country', name: 'Egypt' },
                     })),
                 ],
-                sameAs: [
-                    'https://www.facebook.com/cairovolt',
-                    'https://www.instagram.com/cairovolt',
-                    'https://www.tiktok.com/@cairovolt',
-                    'https://x.com/cairovolt',
-                    'https://www.youtube.com/@cairovolt',
-                ],
+                sameAs: [...ORGANIZATION_SAME_AS],
                 contactPoint: {
                     '@type': 'ContactPoint',
-                    telephone: '+201558245974',
+                    telephone: ORGANIZATION_TELEPHONE,
                     contactType: 'customer service',
                     areaServed: 'EG',
                     availableLanguage: ['ar', 'en'],

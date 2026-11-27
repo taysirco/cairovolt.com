@@ -7,14 +7,18 @@ import { BostaTracker } from '@/lib/bosta';
 import { solutionsDB } from '@/data/solutions-data';
 import { isSelfControlledReference } from '@/lib/self-controlled-hosts';
 import {
+    getMerchantGtin,
     getMerchantProductUrl,
     isRecallAffectedSlug,
     isRecallStockVerifiedOutsideScope,
     MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS,
+    normalizeMpn,
     STANDARD_RETURN_WINDOW_DAYS,
 } from '@/lib/merchant-product-data';
-import { getStoreShippingSummary, WARRANTY_PERIOD_PARAGRAPH } from '@/lib/warranty-policy';
-import { DISTRIBUTOR_STATEMENT, WARRANTY_CARD_STATEMENT } from '@/lib/distributor-status';
+import { getCairoVoltWarrantyPolicy, getStoreShippingSummary, WARRANTY_PERIOD_PARAGRAPH } from '@/lib/warranty-policy';
+import { DISTRIBUTOR_STATEMENT, getBrandRelationshipLabel, WARRANTY_CARD_STATEMENT } from '@/lib/distributor-status';
+import { getProductDetail } from '@/data/product-details';
+import { arSpecLabel } from '@/lib/spec-labels-ar';
 import { BLOG_SCHEDULE } from '@/data/blog-schedule.generated';
 import { categoryContent } from '@/data/category-content';
 import { getBlogArticleBySlug, getLiveIndex } from '@/data/blog-index';
@@ -971,10 +975,48 @@ function generateProductMarkdown(
     const description = isArabic
         ? (descAr || descEn)
         : (descEn || descAr);
-    const productPath = `${localePrefix}/${product.brand.toLowerCase()}/${product.categorySlug}/${product.slug}`;
-    const productUrl = `https://cairovolt.com${productPath}`;
+    const productUrl = getMerchantProductUrl(product, locale);
+    const gtin = getMerchantGtin(product.gtin13, product.gtin);
+    const mpn = normalizeMpn(product.mpn);
+    const warrantyMonths = getCairoVoltWarrantyPolicy(product.slug, product.brand).months;
+    const sellerRelationship = getBrandRelationshipLabel(product.brand, locale);
+    const detail = getProductDetail(product.slug);
     const labSummary = getAgentLabSummary(product.slug, locale, { maxResults: 8 });
     const labBlock = labSummary ? `\n${formatAgentLabMarkdown(labSummary, locale)}\n` : '';
+
+    // Specifications table (exact same source rendered on the HTML PDP).
+    let specsBlock = '';
+    const specEntries = detail?.specifications ? Object.entries(detail.specifications) : [];
+    if (specEntries.length > 0) {
+        const specTitle = isArabic ? 'المواصفات الفنية' : 'Specifications';
+        const colKey = isArabic ? 'المواصفة' : 'Specification';
+        const colVal = isArabic ? 'القيمة' : 'Value';
+        const hasAr = (text: string) => /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]/u.test(text);
+        const rows = specEntries.map(([key, val]) => {
+            const label = isArabic
+                ? (hasAr(arSpecLabel(key)) ? localizeArabicBrandNames(arSpecLabel(key)) : arSpecLabel(key))
+                : key;
+            const value = isArabic ? localizeArabicBrandNames(val.ar) : val.en;
+            return `| ${label.replace(/\|/g, '/')} | ${value.replace(/\|/g, '/')} |`;
+        });
+        specsBlock = `\n## ${specTitle}\n\n| ${colKey} | ${colVal} |\n|---|---|\n${rows.join('\n')}\n`;
+    }
+
+    // Product FAQs (exact same source rendered in the HTML accordion).
+    let faqsBlock = '';
+    const rawFaqs = (isArabic ? product.translations.ar.faqs : product.translations.en.faqs) || [];
+    if (rawFaqs.length > 0) {
+        const faqTitle = isArabic ? 'أسئلة شائعة عن المنتج' : 'Frequently Asked Questions';
+        const items = rawFaqs.map((faq) => {
+            const q = isArabic ? localizeArabicBrandNames(plainText(faq.question)) : plainText(faq.question);
+            const rawAnswer = isArabic
+                ? localizeArabicBrandHtml(faq.answer)
+                : faq.answer.replace(/href=(["'])(\/(?!en(?:\/|$)|api\/|products\/|images\/)[^"']*)\1/gi, `href=$1${localePrefix}$2$1`);
+            const a = htmlToMarkdown(rawAnswer);
+            return `### ${q}\n\n${a}`;
+        });
+        faqsBlock = `\n## ${faqTitle}\n\n${items.join('\n\n')}\n`;
+    }
 
     const fieldsTitle = isArabic ? 'الحقول' : 'Field';
     const valuesTitle = isArabic ? 'القيمة' : 'Value';
@@ -985,21 +1027,30 @@ function generateProductMarkdown(
         ? `${primaryName} مدرج في كتالوج كايرو فولت.`
         : `${primaryName} is listed in the CairoVolt catalog.`;
 
+    const metaRows: string[] = [
+        `| ${isArabic ? 'العلامة التجارية' : 'Brand'} | ${product.brand} |`,
+        `| ${isArabic ? 'الفئة' : 'Category'} | ${product.categorySlug} |`,
+        ...(product.sku ? [`| SKU | ${product.sku} |`] : []),
+        ...(mpn ? [`| MPN | ${mpn} |`] : []),
+        ...(gtin ? [`| GTIN-13 | ${gtin} |`] : []),
+        `| ${isArabic ? 'السعر' : 'Price'} | ${product.price} EGP |`,
+        `| ${isArabic ? 'التوافر' : 'In Stock'} | ${product.stock > 0 ? (isArabic ? 'نعم' : 'Yes') : (isArabic ? 'لا' : 'No')} |`,
+        ...(warrantyMonths ? [`| ${isArabic ? 'ضمان كايرو فولت' : 'CairoVolt Warranty'} | ${isArabic ? `${warrantyMonths} شهرًا (ضمان متجر مكتوب)` : `${warrantyMonths} months (written store warranty)`} |`] : []),
+        ...(sellerRelationship ? [`| ${isArabic ? 'صفة البائع' : 'Seller Status'} | ${sellerRelationship} |`] : []),
+        `| ${isArabic ? 'الشحن' : 'Shipping'} | ${isArabic ? `مجاني للطلبات من ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} جنيه` : `Free above ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} EGP`} |`,
+        `| ${isArabic ? 'الدفع' : 'Payment'} | ${isArabic ? 'الدفع عند الاستلام (COD)' : 'Cash on Delivery (COD)'} |`,
+    ];
+
     return `# ${primaryName}${secondaryName && secondaryName !== primaryName ? ` (${secondaryName})` : ''}
 
 | ${fieldsTitle} | ${valuesTitle} |
 |-------|-------|
-| Brand | ${product.brand} |
-| Category | ${product.categorySlug} |
-| Price | ${product.price} EGP |
-| In Stock | ${product.stock > 0 ? (isArabic ? 'نعم' : 'Yes') : (isArabic ? 'لا' : 'No')} |
-| Shipping | Free above ${FREE_SHIPPING_THRESHOLD.toLocaleString('en-US')} EGP |
-| Payment | Cash on Delivery |
+${metaRows.join('\n')}
 
 ## ${descHeading}
 
 ${description || fallbackDesc}
-${labBlock}
+${labBlock}${specsBlock}${faqsBlock}
 ## ${buyHeading}
 
 \`\`\`bash

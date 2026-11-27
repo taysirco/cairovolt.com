@@ -41,6 +41,17 @@ export const showcaseProducts: ShowcaseProduct[] = [
     categorySlug: 'audio',
   },
   {
+    slug: 'soundcore-liberty-4-nc',
+    name: { en: 'Soundcore Liberty 4 NC', ar: 'ساوندكور ليبرتي 4 NC' },
+    image: '/products/anker/soundcore-liberty-4-nc/soundcore-liberty-4-nc-features-angle-cairovolt-thumb.webp',
+    price: 2745,
+    originalPrice: 3300,
+    brand: 'Soundcore',
+    badge: { en: 'Adaptive ANC', ar: 'عزل تكيفي ANC' },
+    href: '/soundcore/audio/soundcore-liberty-4-nc',
+    categorySlug: 'audio',
+  },
+  {
     slug: 'soundcore-p30i-earbuds',
     name: { en: 'Soundcore P30i ANC', ar: 'ساوندكور P30i' },
     image: '/products/anker/soundcore-p30i-earbuds/soundcore-p30i-earbuds-main-view-cairovolt-thumb.webp',

@@ -90,7 +90,7 @@ export const earbuds_generic: GenericCategory = {
 <tbody>
 <tr><td><strong>استخدام يومي</strong></td><td>ساوندكور P20i, P25i, جوي روم T03S</td><td>الإصدار، البطارية المعلنة، المقاس والتحكم</td><td>طلاب واستخدام يومي</td></tr>
 <tr><td><strong>رياضة ومكالمات</strong></td><td>ساوندكور R50i, C30i, C40i, V20i</td><td>الثبات، تصنيف الماء والميكروفونات</td><td>رياضة واستخدام متكرر</td></tr>
-<tr><td><strong>عزل ضوضاء</strong></td><td>ساوندكور P40i, P41i, Liberty 4 NC, A30i</td><td>ANC والتطبيق والراحة</td><td>مواصلات ومكتب</td></tr>
+<tr><td><strong>عزل ضوضاء</strong></td><td><a href="/soundcore/audio/anker-soundcore-r50i-nc">ساوندكور R50i NC</a>, <a href="/soundcore/audio/soundcore-liberty-4-nc">ساوندكور Liberty 4 NC</a>, P40i, A30i</td><td>ANC والتطبيق والراحة</td><td>مواصلات ومكتب</td></tr>
 <tr><td><strong>خصائص صوت متقدمة</strong></td><td>ساوندكور Liberty 4 Pro, Liberty 5, Liberty 3 Pro</td><td>الترميز والتطبيق والميكروفونات</td><td>من يريد خصائص الموديلات المتقدمة</td></tr>
 </tbody>
 </table>
@@ -98,8 +98,8 @@ export const earbuds_generic: GenericCategory = {
 <h2 id="best-anc-earbuds">أفضل سماعات بإلغاء ضوضاء (ANC) في مصر</h2>
 <p><strong>إلغاء الضوضاء النشط (ANC)</strong> قد يقلل بعض الأصوات المحيطة في المترو والمكتب والطيران. قارن أوضاع كل موديل وملاءمة أطراف الأذن:</p>
 <ul>
-<li><strong>ساوندكور P40i:</strong> راجع أوضاع ANC والبطارية المعلنة ودعم تطبيق ساوندكور والسعر الحالي في صفحة المنتج</li>
-<li><strong>ANC متقدم — ساوندكور Liberty 4 NC:</strong> إلغاء ضوضاء متكيف، بطارية طويلة، وحجم صغير وفق مواصفات الشركة</li>
+<li><strong>أفضل قيمة اقتصادية مع ANC — <a href="/soundcore/audio/anker-soundcore-r50i-nc">ساوندكور R50i NC (موديل A3959)</a>:</strong> عزل تكيفي معلن حتى 42dB، بطارية معلنة حتى 45 ساعة، بلوتوث 5.4، IP54، وعلبة شحن بحامل موبايل مدمج</li>
+<li><strong>ANC متقدم مع LDAC — <a href="/soundcore/audio/soundcore-liberty-4-nc">ساوندكور Liberty 4 NC (موديل A3947)</a>:</strong> إلغاء ضوضاء تكيفي Adaptive ANC 2.0، درايفر 11mm، دعم LDAC للأندرويد، علبة شحن لاسلكي Qi، وقياس بطارية فعلي 9س 42د في معمل كايرو فولت</li>
 <li><strong>ساوندكور Liberty 4 Pro:</strong> قارن خصائص ANC والترميز والميكروفونات والتوافق والسعر الحالي مع البدائل التي تفكر فيها</li>
 </ul>
 
@@ -148,7 +148,7 @@ export const earbuds_generic: GenericCategory = {
 <tbody>
 <tr><td><strong>Daily use</strong></td><td>Soundcore P20i, P25i, Joyroom T03S</td><td>Version, rated battery, fit, and controls</td><td>Students and daily use</td></tr>
 <tr><td><strong>Sport and calls</strong></td><td>Soundcore R50i, C30i, C40i, V20i</td><td>Fit, water rating, and microphones</td><td>Sport and frequent use</td></tr>
-<tr><td><strong>Noise control</strong></td><td>Soundcore P40i, P41i, Liberty 4 NC, A30i</td><td>ANC, app, and comfort</td><td>Commuting and office</td></tr>
+<tr><td><strong>Noise control</strong></td><td><a href="/en/soundcore/audio/anker-soundcore-r50i-nc">Soundcore R50i NC</a>, <a href="/en/soundcore/audio/soundcore-liberty-4-nc">Soundcore Liberty 4 NC</a>, P40i, A30i</td><td>ANC, app, and comfort</td><td>Commuting and office</td></tr>
 <tr><td><strong>Advanced audio features</strong></td><td>Soundcore Liberty 4 Pro, Liberty 5, Liberty 3 Pro</td><td>Codec, app, and microphones</td><td>Users who need listed advanced features</td></tr>
 </tbody>
 </table>
@@ -156,8 +156,8 @@ export const earbuds_generic: GenericCategory = {
 <h2 id="best-anc-earbuds">Best Noise Cancelling (ANC) Earbuds in Egypt</h2>
 <p><strong>Active Noise Cancellation (ANC)</strong> can reduce some surrounding sounds on transport, in an office, or on a flight. Compare each model's modes and ear-tip fit:</p>
 <ul>
-<li><strong>Soundcore P40i:</strong> Check ANC modes, manufacturer-rated battery life, Soundcore app support, and current price on the product page</li>
-<li><strong>Advanced ANC — Soundcore Liberty 4 NC:</strong> Adaptive noise cancellation, long rated battery life, and a compact design</li>
+<li><strong>Best value ANC — <a href="/en/soundcore/audio/anker-soundcore-r50i-nc">Soundcore R50i NC (A3959)</a>:</strong> manufacturer-listed 42dB adaptive ANC, up to 45h rated battery, Bluetooth 5.4 multipoint, IP54 buds, and a built-in phone-stand charging case</li>
+<li><strong>Advanced ANC &amp; LDAC — <a href="/en/soundcore/audio/soundcore-liberty-4-nc">Soundcore Liberty 4 NC (A3947)</a>:</strong> Adaptive ANC 2.0, 11mm driver, Android LDAC, Qi wireless charging case, and 9h 42min measured AAC runtime in CairoVolt's lab</li>
 <li><strong>Soundcore Liberty 4 Pro:</strong> Compare ANC features, codec support, microphones, compatibility, and current price with the alternatives you are considering</li>
 </ul>
 

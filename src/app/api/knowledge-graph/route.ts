@@ -9,6 +9,7 @@ import {
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 import { getAgentLabSummary } from '@/lib/agent-lab-export';
 import { buildBrandSchemaNodes, getBrandEntity } from '@/lib/brand-entities';
+import { getProductEntityMeta, ORGANIZATION_SAME_AS, ORGANIZATION_TELEPHONE } from '@/lib/org-sameas';
 import {
     buildDistributorCredentialNodes,
     DISTRIBUTOR_STATEMENT,
@@ -111,6 +112,7 @@ export async function GET() {
         "url": baseUrl,
         "logo": `${baseUrl}/logo.png`,
         "email": "info@cairovolt.com",
+        "telephone": ORGANIZATION_TELEPHONE,
         // Locality-level HQ address — same published detail as the on-page
         // node and /contact ('based in New Damietta'); no street invention.
         "address": {
@@ -119,13 +121,7 @@ export async function GET() {
             "addressRegion": "Damietta",
             "addressCountry": "EG",
         },
-        "sameAs": [
-            "https://www.facebook.com/cairovolt",
-            "https://www.instagram.com/cairovolt",
-            "https://www.tiktok.com/@cairovolt",
-            "https://x.com/cairovolt",
-            "https://www.youtube.com/@cairovolt",
-        ],
+        "sameAs": [...ORGANIZATION_SAME_AS],
         // Same relationship wording and credentials as the on-page node
         // (src/lib/distributor-status.ts).
         "description": getOrganizationDescription('en'),
@@ -143,6 +139,7 @@ export async function GET() {
             { "@type": "Thing", "name": "USB Power Delivery fast charging", "sameAs": "https://www.wikidata.org/wiki/Q56120131" },
             "Charging cables",
             "Wireless earbuds",
+            "Active noise-cancelling earbuds",
             "Bluetooth speakers",
             "Headphones",
             "Mobile accessories in Egypt",
@@ -229,6 +226,11 @@ export async function GET() {
             : undefined;
         const gtin = getMerchantGtin(product.gtin13, product.gtin);
         const mpn = normalizeMpn(product.mpn);
+        const entityMeta = getProductEntityMeta(product.slug);
+        const arName = localizeArabicBrandNames(product.translations.ar.name);
+        const alternateNames = entityMeta
+            ? Array.from(new Set([arName, ...entityMeta.alternateNames.en]))
+            : arName;
 
         // No inLanguage here: schema.org does not list Product in its domain
         // (CreativeWork, Event, … only), so the property was invalid noise.
@@ -236,7 +238,10 @@ export async function GET() {
             "@type": "Product",
             "@id": `${productUrl}#product`,
             "name": product.translations.en.name,
-            "alternateName": localizeArabicBrandNames(product.translations.ar.name),
+            "alternateName": alternateNames,
+            ...(entityMeta?.sameAs?.length ? {
+                "sameAs": entityMeta.sameAs.length === 1 ? entityMeta.sameAs[0] : [...entityMeta.sameAs],
+            } : {}),
             "url": productUrl,
             "brand": { "@id": brandId },
             "category": titleCaseSlug(product.categorySlug),

@@ -17,6 +17,7 @@ import { logger } from '@/lib/logger';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { BostaTracker } from '@/lib/bosta';
 import { getMerchantProductBrandSlug, getMerchantProductUrl, isRecallAffectedSlug, SEO_NOINDEX_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
+import { getProductEntityMeta } from '@/lib/org-sameas';
 import { categoryContent } from '@/data/category-content';
 import { categoryKeyMap } from '@/lib/category-keys';
 import { getGuidesForProduct, stableStringHash } from '@/lib/blog-product-bridge';
@@ -481,9 +482,16 @@ export default async function ProductPage({ params }: Props) {
         const family = BRAND_FAMILIES[brandLower] || [brandLower];
         const excluded = new Set<string>([slug, ...relatedProducts.map((p) => p.slug)]);
         const categoryPool = getProductsByCategory(category).filter((p) => family.includes(p.brand.toLowerCase()));
+        // Curated same-category siblings (e.g. Liberty 4 NC ↔ R50i NC) lead
+        // the shelf ahead of the hash-rotated pool so priority model pairs
+        // always cross-link deterministically.
+        const curatedSameCategory = (staticProduct?.relatedProducts || [])
+            .map((relSlug) => categoryPool.find((p) => p.slug === relSlug))
+            .filter((p): p is (typeof categoryPool)[number] => Boolean(p));
         const offset = categoryPool.length > 0 ? stableStringHash(slug) % categoryPool.length : 0;
         const rotatedCategoryPool = [...categoryPool.slice(offset), ...categoryPool.slice(0, offset)];
         const pool = [
+            ...curatedSameCategory,
             ...rotatedCategoryPool,
             ...getProductsByBrand(brand),
             ...getFeaturedProducts(),
@@ -641,12 +649,15 @@ export default async function ProductPage({ params }: Props) {
                 leadNotice={isRecallAffectedSlug(product.slug)
                     ? productDetailData?.aiTldr?.[isArabic ? 'ar' : 'en']?.[0]
                     : undefined}
+                alternateNames={getProductEntityMeta(product.slug)?.alternateNames[isArabic ? 'ar' : 'en']}
+                sameAs={getProductEntityMeta(product.slug)?.sameAs}
             />
 
             {(() => {
                 const speakableSelectors: string[] = [];
                 if (productDetailData?.benchTest) speakableSelectors.push('[data-speakable="lab-verdict"]');
                 if (productDetailData?.aiTldr) speakableSelectors.push('[data-speakable="ai-tldr"]');
+                if (productDescription.includes('quick-answer')) speakableSelectors.push('.quick-answer');
                 if (!speakableSelectors.length) return null;
                 // The page's WebPage node, tied into the graph: it is about the
                 // Product on this URL (same `${url}#product` @id ProductSchema
