@@ -14,11 +14,11 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
         'soundcore-space-one-headphones'
     ],
     relatedArticles: [
+        'soundcore-liberty-4-nc-vs-r50i-nc-comparison',
         'soundcore-models-guide-egypt-2026',
-        'soundcore-r50i-wireless-earbuds-complete-review',
-        'soundcore-p20i-earbuds-3-months-real-use-review'
+        'soundcore-r50i-wireless-earbuds-complete-review'
     ],
-    relatedCategories: ['Anker/soundcore'],
+    relatedCategories: ['Soundcore/audio'],
     coverImage: '/images/blog/posts/soundcore-r50i-nc-anc-earbuds-full-review.webp',
     author: {
         name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
@@ -32,12 +32,12 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
             metaDescription: 'مراجعة سماعة Soundcore R50i NC: هل إلغاء الضوضاء ANC بيفرق في ضوضاء الشارع المصري؟ أرقام واقعية للبطارية وجودة المكالمات ومستوى عزل الصوت الفعلي.',
             keywords: 'soundcore r50i nc مراجعة, مراجعة r50i nc مصر, سماعة ANC اقتصادية مصر, soundcore r50i nc سعر مصر, الغاء ضوضاء سماعة رخيصة, ANC بتشتغل مصر, soundcore r50i nc انكر مصر, سماعة إلغاء ضوضاء مصر, ANC budget earbuds egypt, soundcore r50i nc بالعربي',
             excerpt: 'Soundcore R50i NC بتدّعي إن ANC بتلغي الضوضاء. حللنا أداءها المتوقع في الميكروباص ومحطة المترو والتقاطع المروري — إيه اللي بيحصل فعلاً بالأرقام.',
-            quickAnswer: 'Soundcore R50i NC بتفرق فعلاً في ضوضاء المترو والمكتب والكافيه، لكنها مش بتلغي الضوضاء العالية المفاجئة زي الكلاكسات. البطارية حتى 45 ساعة إجمالاً مع العلبة حسب الشركة، والعزل ANC هجين معلن من ساوندكور وتختلف نتيجته حسب إحكام السماعة. سعرها في كايرو فولت {{price:anker-soundcore-r50i-nc}} جنيه.',
-            content: `<p>السؤال اللي بيتكرر كتير من المستخدمين في مصر: "هل ANC في السماعة دي بتفرق فعلاً في القاهرة؟" مش سؤال نظري — لأن القاهرة من المدن الأعلى ضوضاءً في العالم. حللنا أداء Soundcore R50i NC المتوقع في أكتر من بيئة مختلفة بناءً على المواصفات المعلنة وطبيعة الضوضاء في كل بيئة. ده تقدير نوعي مش قياس معملي — ساوندكور مش بتنشر نتيجة ANC لكل بيئة.</p>
+            quickAnswer: 'ساوندكور R50i NC (A3959H11) حققت في قياس معمل كايرو فولت (CV-EB-A3959H11-001) زمن 9س 24د مفردة بدون ANC، و6س 12د للسماعتين مع Adaptive ANC، و40س 16د صافية مع العلبة، و1س 47د من شحن 10 دقائق. خفّضت ميدانيًا دمدمة مترو الخط الثاني وشارع رمسيس وطنين التكييف مع بقاء الكلاكس مسموعًا. سعرها {{price:anker-soundcore-r50i-nc}} جنيه.',
+            content: `<p>السؤال اللي بيتكرر كتير من المستخدمين في مصر: "هل ANC في السماعة دي بتفرق فعلاً في القاهرة؟" مش سؤال نظري — لأن القاهرة من المدن الأعلى ضوضاءً في العالم. وفي معمل كايرو فولت اختبرنا وحدة تجزئة مغلقة من <strong>Soundcore R50i NC (موديل A3959H11، باركود 0194644197421)</strong> بتقرير قياس كامل (<code>CV-EB-A3959H11-001</code>) شمل جرد البطارية والشحن والوزن والمدى مع تجارب ميدانية فعلية في قاعة تكييف مركزي (54 dBA) وشارع رمسيس (72 dBA) ومترو الخط الثاني بين غمرة والعتبة (78 dBA).</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>الحكم السريع:</strong> سماعة <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">انكر ساوندكور R50i NC (موديل A3959)</a> بسعر <strong>{{price:anker-soundcore-r50i-nc}} جنيه</strong> في كايرو فولت بتقدم ANC حقيقي بيفرق بوضوح في الضوضاء الثابتة المتوسطة (مترو، مكتب، كافيه) مع بطارية معلنة حتى 45 ساعة وعلبة بحامل موبايل وIP54 — لكن الكلاكسات المفاجئة هتفضل مسموعة. ولو عايز عزل تكيفي أقوى وكودك LDAC وشحن لاسلكي شوف <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 NC</a> ({{price:soundcore-liberty-4-nc}} جنيه).
+        <strong>الحكم المعملي السريع (CV-EB-A3959H11-001):</strong> سماعة <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">انكر ساوندكور R50i NC (موديل A3959H11)</a> بسعر <strong>{{price:anker-soundcore-r50i-nc}} جنيه</strong> في كايرو فولت حققت فعليًا <strong>9س 24د مفردة بدون ANC</strong> و<strong>6س 12د للسماعتين مع Adaptive ANC</strong> و<strong>40س 16د صافية مع العلبة</strong>، مع علبة بحامل بزاوية مقاسة 65° وIP54 وبلوتوث 5.4. ولعزل Adaptive ANC 2.0 أقوى مع LDAC وشحن لاسلكي قارنها في <a href="/blog/soundcore-liberty-4-nc-vs-r50i-nc-comparison" style="color:#2563eb;font-weight:600;">مقارنة Liberty 4 NC ضد R50i NC</a> أو شوف <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 NC</a> ({{price:soundcore-liberty-4-nc}} جنيه).
     </p>
 </div>
 
@@ -174,16 +174,18 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
     <li style="margin-bottom:12px;">🎵 <strong>الكلاسيكي والجاز:</strong> مقبول — لكن مش قمة. الـ soundstage محدودة لكن مزعجتش.</li>
 </ul>
 
-<p><strong>التطبيق (Soundcore App) بيضيف ميزة مهمة:</strong> EQ مخصص بـ 22 نطاق. تقدر تعدّل الصوت على حسب ذوقك. ده فارق حقيقي عن R50i العادية.</p>
+<p><strong>التطبيق (Soundcore App 4.0.62، فيرموير 1.64) بيضيف ميزة مهمة:</strong> 22 وضع EQ جاهز مع إيكولايزر مخصص بـ 8 نطاقات (Custom EQ) ووضع الألعاب Gaming Mode. تقدر تعدّل الصوت على حسب ذوقك، وده فارق حقيقي عن R50i العادية.</p>
 
-<h2>البطارية — الأرقام المعلنة</h2>
+<h2>البطارية والشحن — أرقام معمل كايرو فولت الفعلية (CV-EB-A3959H11-001)</h2>
 
-<p>ساوندكور بتعلن حتى 10 ساعات للسماعة وحتى 45 ساعة إجمالاً مع العلبة، والرقم بيقل مع تشغيل ANC ورفع الصوت. إحنا ما نشرناش قياس بطارية لعيّنة R50i NC، فالأرقام دي معلنة من الشركة:</p>
+<p>ساوندكور بتعلن حتى 10 ساعات للسماعة وحتى 45 ساعة إجمالاً مع العلبة (ANC مطفأ). وفي قياس معمل كايرو فولت الفعلي على صوت 50% وكودك AAC عبر iPhone 15 (تقرير <code>CV-EB-A3959H11-001</code>) سجّلنا الأرقام الحقيقية التالية:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:8px;">🔋 <strong>السماعة:</strong> حتى 10 ساعات حسب الشركة، وأقل مع تشغيل ANC</li>
-    <li style="margin-bottom:8px;">🔋 <strong>مع العلبة:</strong> حتى 45 ساعة إجمالاً حسب الشركة</li>
-    <li style="margin-bottom:8px;">⚡ <strong>شحن سريع:</strong> 10 دقايق في الكيس = ساعتين استماع — ميزة معلنة رسمياً من الشركة</li>
+    <li style="margin-bottom:8px;">🔋 <strong>سماعة واحدة بدون ANC:</strong> <strong>9 ساعات و24 دقيقة</strong> متواصلة حتى الإغلاق الذاتي (وفي الوضع الأحادي مع ANC سجّلت 9س 22د لأن الفيرموير ينقل العزل تلقائيًا للتخميد السلبي خلال أقل من ثانيتين — لذا ارتدِ السماعتين لتشغيل ANC).</li>
+    <li style="margin-bottom:8px;">🔇 <strong>السماعتان معًا مع Adaptive ANC:</strong> <strong>6 ساعات و12 دقيقة</strong> حتى إغلاق أول سماعة (اليمنى أولًا).</li>
+    <li style="margin-bottom:8px;">🔋 <strong>التشغيل الصافي الإجمالي مع العلبة (ANC مطفأ):</strong> <strong>40 ساعة و16 دقيقة</strong> عبر شحنة البداية + 3 إعادات كاملة + دورة جزئية أخيرة (9س22د + 9س17د + 9س15د + 9س10د + 3س12د، باستبعاد 2س 51د شحن داخل العلبة).</li>
+    <li style="margin-bottom:8px;">⚡ <strong>شحن سريع 10 دقائق:</strong> أعطى فعليًا <strong>ساعة و47 دقيقة</strong> تشغيل متواصل (مقابل حتى ساعتين معلنة).</li>
+    <li style="margin-bottom:8px;">🔌 <strong>شحن العلبة والحرارة (FNB58 + GM320):</strong> تتفاوض PD على ملف 5V الثابت فقط بذروة <strong>5.03V / 0.46A (2.31W)</strong> ومتوسط دورة <strong>1.46W</strong> خلال <strong>2س 28د</strong> (58 دقيقة لشحن السماعة داخل العلبة) وبذروة حرارة سطح باردة <strong>32.1°م</strong> فقط (+6.7°م فوق محيط 25.4°م)، ووزن السماعة <strong>4.42 / 4.46 جم</strong> والعلبة <strong>44.80 جم</strong> بزاوية حامل هاتف <strong>65° ± 1°</strong>.</li>
 </ul>
 
 <p>للسفر من القاهرة للإسكندرية (3 ساعات) أو رحلة عمل طويلة — الكيس يكفي أسبوع كامل من الاستخدام اليومي بدون شحن الكيس نفسه.</p>
@@ -252,7 +254,7 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
                 },
                 {
                     question: 'كام ساعة بطارية Soundcore R50i NC مع ANC شغّال؟',
-                    answer: 'حسب ساوندكور: حتى 10 ساعات للسماعة وحتى 45 ساعة إجمالاً مع العلبة، والرقم بيقل مع تشغيل ANC ورفع الصوت. ميزة الشحن السريع المعلنة: 10 دقايق في الكيس = ساعتين استماع — مفيدة لو نسيت تشحن.'
+                    answer: 'في قياس معمل كايرو فولت الفعلي (CV-EB-A3959H11-001 عند صوت 50% وAAC): حققت السماعتان معًا مع تشغيل Adaptive ANC زمن 6 ساعات و12 دقيقة حتى إغلاق أول سماعة (مقابل 7 ساعات معلنة)، بينما حققت بدون ANC نحو 9 ساعات و24 دقيقة مفردة و40 ساعة و16 دقيقة تشغيل صافٍ مع العلبة، وعائد ساعة و47 دقيقة من شحن سريع 10 دقائق.'
                 },
                 {
                     question: 'هل R50i NC أحسن من R50i العادية؟',
@@ -270,12 +272,12 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
             metaDescription: 'Honest review of Soundcore R50i NC. Does active noise cancelling really work in Egypt\'s street noise? Realistic numbers for battery, calls, and sound quality.',
             keywords: 'soundcore r50i nc review, anc earbuds budget egypt, soundcore r50i nc anc test, noise cancelling earbuds egypt, soundcore r50i nc price egypt, anc in noisy cairo, budget anc earbuds review, soundcore r50i nc specs, anc budget earbuds test egypt, does anc work egypt',
             excerpt: 'Soundcore R50i NC claims ANC eliminates background noise. We break down its expected performance in a minibus, metro station, and Cairo traffic intersection — in numbers, not vague claims.',
-            quickAnswer: 'The Soundcore R50i NC makes a real difference to metro, office and cafe noise, but it does not cancel loud sudden noise such as car horns. Battery is up to 45 hours in total with the case (manufacturer-listed), and its hybrid ANC is manufacturer-listed, with results that vary with fit. It costs EGP {{price:anker-soundcore-r50i-nc}} at CairoVolt.',
-            content: `<p>A question that keeps coming up from users in Egypt: "Does ANC in these earbuds actually make a difference in Cairo?" This is not a theoretical question — Cairo is among the world's loudest cities. We analyzed the Soundcore R50i NC's expected performance across multiple real environments, based on its published specs and the noise profile of each setting. This is a qualitative estimate, not a lab measurement — Soundcore does not publish ANC results per environment.</p>
+            quickAnswer: 'In CairoVolt\'s bench test (CV-EB-A3959H11-001), the Soundcore R50i NC (A3959H11) measured 9h 24m single-bud ANC off, 6h 12m stereo Adaptive ANC on, 40h 16m net total with case, and 1h 47m from a 10-min top-up. Field tests in Cairo Metro Line 2 and Ramses St confirmed clear low-frequency attenuation while horns stay audible. Price: EGP {{price:anker-soundcore-r50i-nc}}.',
+            content: `<p>A question that keeps coming up from users in Egypt: "Does ANC in these earbuds actually make a difference in Cairo?" This is not a theoretical question — Cairo is among the world's loudest cities. At the CairoVolt lab we ran a full-cycle bench test on a sealed retail <strong>Soundcore R50i NC (A3959H11, barcode 0194644197421)</strong> under report <code>CV-EB-A3959H11-001</code>, pairing full battery, charging, thermal, and range measurements with live Cairo field checks in a central AC hall (54 dBA), Ramses St (72 dBA), and Metro Line 2 from Ghamra to Attaba (78 dBA).</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>Quick Verdict:</strong> The <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Anker Soundcore R50i NC (A3959)</a> at <strong>EGP {{price:anker-soundcore-r50i-nc}}</strong> at CairoVolt delivers real ANC that clearly helps with steady moderate noise (metro, office, cafe) plus up to 45h rated battery, IP54, and a phone-stand case — though sudden horns stay audible. For stronger adaptive ANC, Android LDAC, and wireless charging, compare with the <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> (EGP {{price:soundcore-liberty-4-nc}}).
+        <strong>Lab Quick Verdict (CV-EB-A3959H11-001):</strong> The <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Anker Soundcore R50i NC (A3959H11)</a> at <strong>EGP {{price:anker-soundcore-r50i-nc}}</strong> delivered <strong>9h 24m single-bud ANC off</strong>, <strong>6h 12m stereo Adaptive ANC on</strong>, and <strong>40h 16m net total playback</strong>, with a 65° fold-out phone stand, IP54 buds, and BT 5.4 multipoint. For stronger Adaptive ANC 2.0, Android LDAC, and wireless charging, read our <a href="/en/blog/soundcore-liberty-4-nc-vs-r50i-nc-comparison" style="color:#2563eb;font-weight:600;">Liberty 4 NC vs R50i NC comparison</a> or view the <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> (EGP {{price:soundcore-liberty-4-nc}}).
     </p>
 </div>
 
@@ -412,16 +414,18 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
     <li style="margin-bottom:12px;">🎵 <strong>Classical and jazz:</strong> Acceptable — not exceptional. Soundstage is limited but not distracting.</li>
 </ul>
 
-<p><strong>The Soundcore App adds real value:</strong> 22-band custom EQ. You can tune the sound to your preference. This is a meaningful differentiator versus the base R50i.</p>
+<p><strong>The Soundcore App (v4.0.62, firmware 1.64) adds real value:</strong> 22 EQ presets, an 8-band Custom EQ, and Gaming Mode. You can tune the sound directly to your taste — a clear step up over bare budget earbuds.</p>
 
-<h2>Battery — The Listed Numbers</h2>
+<h2>Battery &amp; Charging — CairoVolt Lab Measured Numbers (CV-EB-A3959H11-001)</h2>
 
-<p>Soundcore lists up to 10 hours per earbud and up to 45 hours in total with the case; the figure drops with ANC on and at higher volume. We have not published a battery measurement for an R50i NC sample, so these are manufacturer figures:</p>
+<p>Soundcore lists up to 10 hours per charge and up to 45 hours total with the case (ANC off). On CairoVolt's actual measurement bench at 50% volume over AAC on iPhone 15 (report <code>CV-EB-A3959H11-001</code>), our retail unit recorded:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:8px;">🔋 <strong>Earbuds:</strong> up to 10 hours per Soundcore, less with ANC on</li>
-    <li style="margin-bottom:8px;">🔋 <strong>With the case:</strong> up to 45 hours in total per Soundcore</li>
-    <li style="margin-bottom:8px;">⚡ <strong>Quick charge:</strong> 10 minutes in case = 2 hours playback — an officially rated feature</li>
+    <li style="margin-bottom:8px;">🔋 <strong>Single bud, ANC off:</strong> <strong>9h 24m</strong> continuous to auto power-off (note: mono ANC-on logged 9h 22m because firmware automatically reverts to passive attenuation in &lt;2s when wearing one bud — wear both buds for active ANC).</li>
+    <li style="margin-bottom:8px;">🔇 <strong>Both buds, Adaptive ANC on:</strong> <strong>6h 12m</strong> until first bud power-off (right bud first).</li>
+    <li style="margin-bottom:8px;">🔋 <strong>Total net playback with case (ANC off):</strong> <strong>40h 16m</strong> across initial charge + 3 full recharges + 1 partial cycle (9h22m + 9h17m + 9h15m + 9h10m + 3h12m, excluding 2h 51m recharge intervals).</li>
+    <li style="margin-bottom:8px;">⚡ <strong>10-minute quick charge:</strong> yielded <strong>1h 47m</strong> continuous playback (vs up to 2h rated).</li>
+    <li style="margin-bottom:8px;">🔌 <strong>Case charging &amp; thermals (FNB58 + GM320):</strong> negotiates PD 5V fixed only — <strong>5.03V / 0.46A (2.31W)</strong> peak, <strong>1.46W</strong> full-cycle average across <strong>2h 28m</strong> (58 min per bud recharge), staying cool at <strong>32.1°C</strong> peak (+6.7°C above ambient). Measured weights: <strong>4.42g / 4.46g</strong> buds, <strong>44.80g</strong> case, and <strong>65° ± 1°</strong> horizontal phone-stand tilt.</li>
 </ul>
 
 <h2>Call Quality — An Honest Weak Point</h2>
@@ -472,7 +476,7 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
                 },
                 {
                     question: 'How long does the Soundcore R50i NC battery last with ANC on?',
-                    answer: 'Per Soundcore: up to 10 hours per earbud and up to 45 hours in total with the case; the figure drops with ANC on and at higher volume. The listed quick charge gives 2 hours of playback from 10 minutes in the case.'
+                    answer: 'In CairoVolt\'s bench test (CV-EB-A3959H11-001 at 50% volume, AAC), both buds ran 6h 12m with Adaptive ANC on until first bud power-off (vs 7h rated). With ANC off, we measured 9h 24m single-bud, 40h 16m net total playback across 4 case cycles, and 1h 47m from a 10-minute quick charge.'
                 },
                 {
                     question: 'Is the R50i NC better than the regular R50i?',

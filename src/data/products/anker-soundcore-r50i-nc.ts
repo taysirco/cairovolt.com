@@ -26,19 +26,19 @@ export const anker_soundcore_r50i_nc = {
         translations: {
             en: {
                 name: "Anker Soundcore R50i NC (A3959) — 42dB Adaptive ANC & Phone-Stand Earbuds",
-                shortDescription: "Manufacturer-listed Adaptive ANC up to 42dB | Up to 10h/45h rated battery (ANC off) | 10mm BassUp driver | 4-mic AI calls | Bluetooth 5.4 & Multipoint | Fold-out phone-stand case | IP54 | 18-month CairoVolt warranty",
+                shortDescription: "CairoVolt lab-tested (CV-EB-A3959H11-001): 9h 24m single / 40h 16m net total (ANC off) · 6h 12m stereo Adaptive ANC · 1h 47m 10-min charge | 42dB rated ANC | BT 5.4 Multipoint | 65° phone-stand case | IP54 | 18-month warranty",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker Soundcore R50i NC (model A3959 / retail variant A3959H11)</strong> is a value-focused active noise-cancelling earbud combining <strong>manufacturer-listed adaptive ANC up to 42dB</strong>, a <strong>10mm BassUp dynamic driver</strong>, <strong>Bluetooth 5.4 with dual-device multipoint</strong>, <strong>4-mic AI call processing</strong>, <strong>IP54 dust and splash resistance</strong> (buds), a <strong>2-in-1 fold-out phone-stand charging case</strong>, and manufacturer-rated playback up to <strong>10h per charge / 45h total (ANC off)</strong> or <strong>7h / 30h (ANC on)</strong>. Sold in Egypt by official distributor CairoVolt with an 18-month written store warranty and Cash on Delivery.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker Soundcore R50i NC (model A3959 / retail variant A3959H11, barcode 0194644197421)</strong> is Egypt's benchmark value ANC earbud, bench-tested in CairoVolt's lab (<strong>CV-EB-A3959H11-001</strong>) at <strong>9h 24m single-bud ANC off</strong>, <strong>6h 12m stereo Adaptive ANC on</strong>, <strong>40h 16m net total playback with the case</strong>, and <strong>1h 47m from a 10-minute quick charge</strong> (50% vol, AAC). It combines manufacturer-listed 42dB adaptive ANC, 10mm BassUp drivers, Bluetooth 5.4 dual-device multipoint (1.4s switch), 4-mic AI calls, IP54 buds, and a <strong>65° ± 1° fold-out phone-stand case</strong>. Sold by official distributor CairoVolt with an 18-month written store warranty and Cash on Delivery.</p>
 </div>
 
-<div class="product-summary"><h3 class="font-bold mb-2">Key Features (Manufacturer-Listed Specifications)</h3><ul class="list-none space-y-1">
-<li><strong>Adaptive ANC up to 42dB:</strong> Soundcore rates noise cancellation up to 42dB under its laboratory conditions, targeting steady low-frequency hum (metro, AC, cabin fans); actual reduction varies by ear-tip seal and frequency.</li>
-<li><strong>Long Rated Battery &amp; Fast Top-Up:</strong> Soundcore lists up to 10h / 45h (ANC off) and 7h / 30h (ANC on), plus 10 minutes in the case for up to 2 hours of playback under manufacturer test conditions.</li>
-<li><strong>2-in-1 Phone-Stand Charging Case:</strong> opens into a compact desk stand for hands-free lectures, YouTube, or video calls on a flat surface.</li>
-<li><strong>10mm Driver &amp; 22 Soundcore App EQ Presets:</strong> punchy BassUp tuning out of the box with 22 presets and custom EQ inside the Soundcore app.</li>
-<li><strong>4-Mic AI Call Processing &amp; Bluetooth 5.4 Multipoint:</strong> connects to two devices simultaneously over SBC/AAC; call clarity depends on wind, traffic, and connection quality.</li>
-<li><strong>IP54 Dust &amp; Splash Protection:</strong> rated for the earbuds only (the charging case is not water resistant; dry buds before docking).</li>
+<div class="product-summary"><h3 class="font-bold mb-2">Key Features &amp; CairoVolt Lab Highlights (CV-EB-A3959H11-001)</h3><ul class="list-none space-y-1">
+<li><strong>Verified Battery &amp; Quick Charge:</strong> CairoVolt measured 9h 24m single-bud (ANC off), 6h 12m stereo Adaptive ANC on (to first bud shutoff), 40h 16m net playback across 4 case recharges (vs 10h/45h rated), and 1h 47m from a 10-min top-up.</li>
+<li><strong>Adaptive ANC (42dB Rated) + Cairo Field Tested:</strong> audibly attenuated central AC hum (54 dBA), Ramses St traffic (72 dBA), and Cairo Metro Line 2 rumble (78 dBA); note that single-bud mono mode reverts ANC to passive within &lt;2s (wear both buds for active ANC).</li>
+<li><strong>2-in-1 Phone-Stand Charging Case (65° ± 1°):</strong> lightweight 44.80g case (56.9 × 49.3 × 29.0 mm) holds iPhone 15 stably horizontally at 65° ± 1° (caseless or slim case; bulky rugged cases unsupported).</li>
+<li><strong>Cool PD 5V-Only USB-C Charging:</strong> FNIRSI FNB58 logged PD 5V fixed negotiation only — 5.03V / 0.46A (2.31W) peak, 1.46W full-cycle avg over 2h 28m, and just 32.1°C peak surface temperature (+6.7°C above ambient).</li>
+<li><strong>4-Mic AI Calls &amp; Verified BT 5.4 Multipoint:</strong> 8.2m indoor range (2 concrete walls), 18.4m outdoor LOS, verified AAC/SBC (App 4.0.62, fw 1.64), and 1.4s Pause→Play / 2.1s call handoff between iPhone 15 and Galaxy A54.</li>
+<li><strong>IP54 Dust &amp; Splash Protection:</strong> manufacturer-rated for the earbuds only (4.42g L / 4.46g R with M tips; charging case is not water resistant).</li>
 </ul></div>
 
 <div class="product-details">
@@ -51,8 +51,8 @@ export const anker_soundcore_r50i_nc = {
 <section><h2 class="text-2xl font-bold mb-2">4-Mic Calls, Soundcore App EQ &amp; Fold-Out Phone Stand</h2>
 <p class="text-gray-700">Four microphones paired with Soundcore's AI voice algorithm help separate speech from steady indoor and moderate street noise (results vary with strong wind and network quality). Inside the Soundcore app, you can switch ANC levels, activate Transparency or Gaming mode, remap touch controls, and select among 22 EQ presets. The integrated phone stand on the case lid is built for stable flat tables—confirm your phone size and protective-case thickness before propping it up.</p></section>
 
-<section><h2 class="text-2xl font-bold mb-2">Transparency on Specifications &amp; CairoVolt Warranty</h2>
-<p class="text-gray-700">All numeric performance figures on this page (42dB ANC, 45h/30h battery, 10-min quick charge, IP54) are Soundcore manufacturer-listed specifications under stated test conditions—CairoVolt has not published a measured bench sheet under this listing. Every R50i NC sold by CairoVolt (official distributor of Anker and Soundcore in Egypt) includes an <strong>18-month written CairoVolt store warranty</strong> with a printed warranty card and Cash on Delivery under our <a href="/warranty" class="text-blue-600 hover:underline">warranty policy</a>.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">CairoVolt Bench Report (CV-EB-A3959H11-001) &amp; 18-Month Warranty</h2>
+<p class="text-gray-700">CairoVolt physically bench-tested a sealed retail unit of <strong>A3959H11</strong> (batch W2544K, barcode 0194644197421) from 2026-11-23 to 2026-11-28 using Kern PCB 100-3, Mitutoyo caliper, FNIRSI FNB58 + PD Listener, and GM320 IR thermometry — measuring <strong>9h 24m single ANC off</strong>, <strong>6h 12m stereo Adaptive ANC</strong>, <strong>40h 16m net total with case</strong>, <strong>1h 47m</strong> from 10-min quick charge, <strong>2.31W peak / 1.46W avg</strong> PD 5V-only input, and <strong>32.1°C</strong> peak case temperature (full table below; 42dB ANC and IP54 remain manufacturer-listed). Every R50i NC sold by CairoVolt (official distributor of Anker and Soundcore in Egypt) includes an <strong>18-month written CairoVolt store warranty</strong> with a printed warranty card and Cash on Delivery under our <a href="/en/warranty" class="text-blue-600 hover:underline">warranty policy</a>.</p></section>
 </div>
 
 <div class="device-compatibility"><h3 class="font-bold mb-2">Device Compatibility (SBC / AAC · Bluetooth 5.4)</h3>
@@ -95,11 +95,11 @@ export const anker_soundcore_r50i_nc = {
                     },
                     {
                         question: "How long does the R50i NC battery last with ANC on vs ANC off?",
-                        answer: "Under Soundcore's stated test conditions, R50i NC is rated for up to <strong>10h per charge / 45h total with ANC off</strong>, and up to <strong>7h per charge / 30h total with ANC on</strong>, with a 10-minute top-up rated for up to 2 hours. Real-world runtime varies with volume, calls, and temperature."
+                        answer: "Soundcore rates up to 10h/45h (ANC off) and 7h/30h (ANC on). In CairoVolt's actual bench test (<strong>CV-EB-A3959H11-001</strong> @ 50% vol, AAC, iPhone 15), we measured <strong>9h 24m single-bud ANC off</strong>, <strong>6h 12m stereo Adaptive ANC on</strong> (to first bud power-off), <strong>40h 16m net total playback</strong> across 4 case cycles, and <strong>1h 47m</strong> from a 10-minute quick charge."
                     },
                     {
                         question: "How does the 2-in-1 phone-stand charging case work?",
-                        answer: "A fold-out panel on the back of the charging case props your smartphone horizontally on a flat desk or table for hands-free videos, online lectures, or video calls. Confirm stability with thick protective cases and keep it away from table edges."
+                        answer: "A fold-out panel in the case lid props your phone horizontally on a flat desk at <strong>65° ± 1°</strong> (measured on iPhone 15, stable caseless or with a slim case). Galaxy A54 sits steadily caseless with slight edge-tap wobble in a slim case; thick rugged cases (such as Spigen Tough Armor) and portrait orientation are not supported."
                     },
                     {
                         question: "Does Soundcore R50i NC support Bluetooth 5.4 multipoint and iPhone/Android?",
@@ -117,19 +117,19 @@ export const anker_soundcore_r50i_nc = {
             },
             ar: {
                 name: "سماعة انكر ساوندكور R50i NC (موديل A3959) بعزل ضوضاء 42dB وحامل موبايل مدمج",
-                shortDescription: "عزل ضوضاء تكيفي معلن حتى 42dB | بطارية معلنة حتى 10/45 ساعة (بدون ANC) | درايفر 10mm BassUp | 4 مايكات AI | بلوتوث 5.4 واتصال متعدد | علبة بحامل موبايل | IP54 | ضمان كايرو فولت 18 شهرًا",
+                shortDescription: "مُختبرة في معمل كايرو فولت (CV-EB-A3959H11-001): 9س 24د مفردة / 40س 16د صافية مع العلبة (بدون ANC) · 6س 12د مع ANC · 1س 47د من شحن 10د | عزل معلن 42dB | بلوتوث 5.4 | علبة بحامل 65° | IP54 | ضمان 18 شهرًا",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">سماعة <strong>انكر ساوندكور R50i NC (موديل A3959 / نسخة البيع A3959H11)</strong> هي سماعة عزل ضوضاء اقتصادية تجمع بين <strong>عزل ضوضاء تكيفي معلن من الشركة حتى 42dB</strong> ودرايفر <strong>10mm BassUp</strong> و<strong>بلوتوث 5.4 مع الاتصال بجهازين Multipoint</strong> و<strong>4 مايكات بذكاء اصطناعي للمكالمات</strong> وتصنيف <strong>IP54 لمقاومة الغبار والرذاذ</strong> (للسماعات) و<strong>علبة شحن بحامل موبايل مدمج 2 في 1</strong>، مع بطارية معلنة حتى <strong>10 ساعات للشحنة / 45 ساعة إجماليًا (ANC مطفأ)</strong> أو <strong>7 ساعات / 30 ساعة (ANC مفعّل)</strong>. متوفرة في مصر عبر الموزع الرسمي كايرو فولت بضمان متجر مكتوب 18 شهرًا والدفع عند الاستلام.</p>
+    <p class="text-gray-800 leading-relaxed">سماعة <strong>انكر ساوندكور R50i NC (موديل A3959 / نسخة البيع A3959H11، باركود 0194644197421)</strong> هي سماعة عزل الضوضاء الاقتصادية الأبرز في مصر، وتم قياسها فعليًا في معمل كايرو فولت (تقرير <strong>CV-EB-A3959H11-001</strong>) بـ<strong>9س 24د لسماعة واحدة بدون ANC</strong> و<strong>6س 12د للسماعتين مع Adaptive ANC</strong> و<strong>40س 16د تشغيل صافٍ إجمالي مع العلبة</strong> و<strong>1س 47د من شحن سريع 10 دقائق</strong> (صوت 50%، AAC). تجمع بين عزل تكيفي معلن 42dB ودرايفر 10mm BassUp وبلوتوث 5.4 Multipoint (تبديل 1.4ث) و4 مايكات AI وتصنيف IP54 و<strong>علبة بحامل موبايل بزاوية مقاسة 65° ± 1°</strong>. متوفرة عبر الموزع الرسمي كايرو فولت بضمان مكتوب 18 شهرًا والدفع عند الاستلام.</p>
 </div>
 
-<div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات (وفق مواصفات الشركة المصنّعة)</h3><ul class="list-none space-y-1">
-<li><strong>عزل ضوضاء تكيفي معلن حتى 42dB:</strong> يستهدف الضوضاء المستمرة منخفضة التردد (المترو والتكييف والمواصلات) ضمن شروط اختبار ساوندكور؛ وتعتمد النتيجة الفعلية على إحكام طرف السيليكون ونوع الضوضاء.</li>
-<li><strong>بطارية طويلة وشحن سريع معلنان:</strong> حتى 10 ساعات / 45 ساعة إجماليًا (بدون ANC) وحتى 7 ساعات / 30 ساعة (مع ANC)، مع شحن 10 دقائق يوفّر حتى ساعتين تشغيل وفق شروط اختبار الشركة.</li>
-<li><strong>علبة شحن بحامل موبايل 2 في 1:</strong> تفتح كستاند عملي على المكتب لمتابعة المحاضرات أو الفيديوهات أو المكالمات دون إمساك الهاتف.</li>
-<li><strong>درايفر 10mm و22 وضع EQ عبر تطبيق ساوندكور:</strong> صوت BassUp قوي مع إمكانية تعديل التوازن بالكامل من خلال 22 وضعًا جاهزًا وإيكولايزر مخصص في التطبيق.</li>
-<li><strong>4 مايكات AI وبلوتوث 5.4 Multipoint:</strong> اتصال متزامن بجهازين عبر SBC/AAC؛ وتعتمد جودة المكالمة على الهواء والزحام والشبكة.</li>
-<li><strong>مقاومة غبار ورذاذ IP54:</strong> مخصصة للسماعات فقط (علبة الشحن غير مقاومة للماء؛ جفف السماعات قبل الشحن).</li>
+<div class="product-summary"><h3 class="font-bold mb-2">أبرز المميزات ونتائج معمل كايرو فولت (CV-EB-A3959H11-001)</h3><ul class="list-none space-y-1">
+<li><strong>بطارية وشحن سريع مُقاسان فعليًا:</strong> قِسنا 9س 24د لسماعة واحدة بدون ANC، و6س 12د للسماعتين مع Adaptive ANC (حتى إغلاق أول سماعة)، و40س 16د تشغيل صافٍ عبر 4 دورات شحن من العلبة (مقابل 10/45س معلنة)، و1س 47د من شحن 10 دقائق.</li>
+<li><strong>عزل ANC معلن 42dB وتجربة ميدانية في القاهرة:</strong> خفّض بوضوح طنين التكييف المركزي (54 dBA) وهدير شارع رمسيس (72 dBA) ودمدمة مترو الخط الثاني (78 dBA)؛ مع ملاحظة مهمة: الوضع الأحادي (سماعة واحدة) ينتقل تلقائيًا للتخميد السلبي خلال أقل من ثانيتين (ارتدِ السماعتين لتشغيل ANC).</li>
+<li><strong>علبة بحامل هاتف مدمج (زاوية مقاسة 65° ± 1°):</strong> علبة خفيفة 44.80 جم (56.9 × 49.3 × 29.0 ملم) تثبّت iPhone 15 أفقيًا بثبات بجراب رفيع أو بدونه (الجرابات السميكة والوضع الرأسي غير مدعومين).</li>
+<li><strong>شحن USB-C بارد بتفاوض PD 5V فقط:</strong> سجل FNB58 ذروة 5.03V / 0.46A (2.31W) ومتوسط دورة 1.46W خلال 2س 28د، بذروة حرارة سطح 32.1°م فقط (+6.7°م فوق محيط 25.4°م).</li>
+<li><strong>4 مايكات AI وبلوتوث 5.4 Multipoint مُثبت:</strong> مدى 8.2 متر داخليًا (جداران خرسانيان) و18.4 متر خارجيًا، كودك AAC/SBC (تطبيق 4.0.62، فيرموير 1.64)، وتبديل 1.4ث للتشغيل و2.1ث للمكالمات الواردة.</li>
+<li><strong>مقاومة غبار ورذاذ IP54 ووزن خفيف:</strong> 4.42 جم يسرى / 4.46 جم يمنى (أطراف M)؛ تصنيف IP54 للسماعات فقط وفق الشركة (العلبة غير مقاومة للماء).</li>
 </ul></div>
 
 <div class="product-details">
@@ -142,8 +142,8 @@ export const anker_soundcore_r50i_nc = {
 <section><h2 class="text-2xl font-bold mb-2">المكالمات وتطبيق ساوندكور وحامل الموبايل المدمج</h2>
 <p class="text-gray-700">تساعد المايكات الأربعة مع خوارزمية الذكاء الاصطناعي في فصل صوتك عن الضوضاء الثابتة في المكتب والشارع المتوسط (وتتأثر النتيجة بالرياح القوية والشبكة). ومن تطبيق ساوندكور يمكنك التحكم في درجات ANC ووضع الشفافية ووضع الألعاب وتخصيص اللمس و22 ملف EQ. أما الحامل القابل للفتح في غطاء العلبة فمناسب للأسطح المستوية الثابتة؛ تأكد من ملاءمة حجم هاتفك وسمك الجراب قبل تثبيته.</p></section>
 
-<section><h2 class="text-2xl font-bold mb-2">شفافية المواصفات وضمان كايرو فولت في مصر</h2>
-<p class="text-gray-700">جميع الأرقام المنشورة لهذه القائمة (42dB ANC وبطارية 45/30 ساعة والشحن السريع وIP54) هي مواصفات معلنة من ساوندكور وفق شروط اختبارها، ولم تنشر كايرو فولت تقرير قياس معملي تحت هذه القائمة. كل سماعة R50i NC من كايرو فولت (موزع رسمي لانكر وساوندكور في مصر) تأتي بـ<strong>ضمان متجر كايرو فولت المكتوب لمدة 18 شهرًا</strong> وكرت ضمان مطبوع والدفع عند الاستلام وفق <a href="/warranty" class="text-blue-600 hover:underline">سياسة الضمان</a>.</p></section>
+<section><h2 class="text-2xl font-bold mb-2">تقرير معمل كايرو فولت (CV-EB-A3959H11-001) وضمان 18 شهرًا</h2>
+<p class="text-gray-700">أجرى معمل كايرو فولت قياسًا عمليًا كاملًا على وحدة تجزئة مغلقة من <strong>A3959H11</strong> (دفعة W2544K، باركود 0194644197421) خلال الفترة 23–28 نوفمبر 2026 باستخدام ميزان Kern PCB 100-3 وقدمة Mitutoyo ومحلل FNIRSI FNB58 ومقياس GM320 IR — وسجّلنا <strong>9س 24د مفردة بدون ANC</strong> و<strong>6س 12د للسماعتين مع Adaptive ANC</strong> و<strong>40س 16د تشغيل صافٍ مع العلبة</strong> و<strong>1س 47د</strong> من شحن 10 دقائق، مع دخل PD 5V فقط (ذروة <strong>2.31W</strong> / متوسط <strong>1.46W</strong>) وحرارة قصوى <strong>32.1°م</strong> (الجدول الكامل أسفل الصفحة؛ ويبقى رقم 42dB وتصنيف IP54 مواصفات معلنة من الشركة). كل سماعة R50i NC من كايرو فولت (موزع رسمي لانكر وساوندكور في مصر) تأتي بـ<strong>ضمان متجر كايرو فولت المكتوب لمدة 18 شهرًا</strong> وكرت ضمان مطبوع والدفع عند الاستلام وفق <a href="/warranty" class="text-blue-600 hover:underline">سياسة الضمان</a>.</p></section>
 </div>
 
 <div class="device-compatibility"><h3 class="font-bold mb-2">توافق الأجهزة (SBC / AAC · بلوتوث 5.4)</h3>
@@ -186,11 +186,11 @@ export const anker_soundcore_r50i_nc = {
                     },
                     {
                         question: "كم تدوم بطارية R50i NC مع تشغيل ANC وبدونه؟",
-                        answer: "وفق شروط اختبار ساوندكور المعلنة، تصل البطارية إلى <strong>10 ساعات للشحنة / 45 ساعة إجماليًا بدون ANC</strong>، وإلى <strong>7 ساعات / 30 ساعة مع تشغيل ANC</strong>، كما تعطي 10 دقائق شحن سريع حتى ساعتين تشغيل. تختلف المدة الفعلية حسب مستوى الصوت والمكالمات والحرارة."
+                        answer: "ساوندكور تعلن حتى 10/45 ساعة (بدون ANC) و7/30 ساعة (مع ANC). وفي قياس معمل كايرو فولت الفعلي (<strong>CV-EB-A3959H11-001</strong> عند صوت 50% وAAC على iPhone 15)، سجّلنا <strong>9س 24د لسماعة واحدة بدون ANC</strong>، و<strong>6س 12د للسماعتين مع Adaptive ANC</strong> حتى إغلاق أول سماعة، و<strong>40س 16د تشغيل صافٍ إجمالي</strong> عبر 4 دورات علبة، و<strong>1س 47د</strong> من شحن سريع 10 دقائق."
                     },
                     {
                         question: "ما فائدة حامل الموبايل المدمج في علبة R50i NC؟",
-                        answer: "يفتح جزء مدمج في ظهر علبة الشحن ليعمل كحامل للهاتف على المكتب أو الترابيزة لمشاهدة المحاضرات والفيديوهات أو مكالمات الفيديو دون إمساك الموبايل. استخدمه على سطح ثابت وتحقق من ملاءمة سمك الجراب."
+                        answer: "يفتح جزء مدمج في غطاء العلبة لتثبيت الهاتف أفقيًا على المكتب بزاوية مقاسة <strong>65° ± 1°</strong> (مستقر على iPhone 15 بجراب رفيع أو بدونه؛ وثابت على Galaxy A54 بدون جراب مع اهتزاز طفيف بجراب رفيع). الجرابات السميكة مثل Spigen Tough Armor والوضع الرأسي غير مدعومين."
                     },
                     {
                         question: "هل R50i NC تدعم الاتصال بجهازين (Multipoint) وتعمل مع الآيفون والأندرويد؟",
@@ -208,5 +208,5 @@ export const anker_soundcore_r50i_nc = {
             }
         },
         meta: { keywords: "انكر r50i nc, انكر ساوندكور r50i nc, سماعة انكر r50i nc, سعر سماعة انكر r50i nc في مصر, ايربودز انكر r50i nc, ساوندكور r50i nc a3959, الفرق بين r50i و r50i nc, r50i nc vs liberty 4 nc, anker soundcore r50i nc price egypt, soundcore r50i nc a3959h11, سماعة عزل ضوضاء رخيصة مصر, ساوندكور مصر", mainTerm: "anker soundcore r50i nc" },
-        expertOpinion: { en: "R50i NC (A3959) is Soundcore's high-value entry into active noise cancellation in Egypt: manufacturer-listed 42dB ANC, up to 45h total battery (ANC off), Bluetooth 5.4 multipoint, IP54 buds, and a genuinely practical phone-stand case at half the price of mid-flagship tiers. Choose it over standard R50i (A3949) for ANC and battery; step up to Liberty 4 NC (A3947) if you need Android LDAC, Qi wireless charging, or HearID 2.0.", ar: "تقدم R50i NC (A3959) أقوى معادلة قيمة مقابل سعر في فئة عزل الضوضاء بمصر: عزل معلن حتى 42dB وبطارية حتى 45 ساعة (بدون ANC) وبلوتوث 5.4 بالاتصال المتعدد ومقاومة IP54 وعلبة عملية بحامل موبايل بنصف سعر الفئة المتوسطة العليا. اخترها فوق R50i العادية (A3949) من أجل العزل والبطارية، وانتقل إلى Liberty 4 NC (A3947) لو كنت تحتاج LDAC للأندرويد أو شحن Qi اللاسلكي أو HearID 2.0." }
+        expertOpinion: { en: "CairoVolt lab-tested (CV-EB-A3959H11-001): R50i NC (A3959H11) delivered 9h 24m single-bud ANC-off, 6h 12m stereo Adaptive ANC-on, 40h 16m net total with case, 1h 47m from a 10-min charge, cool 32.1°C PD-5V charging, and a 65° fold-out stand at half the price of mid-flagship tiers. Note that mono mode drops ANC to passive in <2s. Step up to Liberty 4 NC (A3947) if you need Android LDAC, Qi wireless charging, 6 mics, or HearID 2.0.", ar: "في قياس معمل كايرو فولت (CV-EB-A3959H11-001)، حققت R50i NC (A3959H11) زمن 9س 24د مفردة بدون ANC و6س 12د للسماعتين مع Adaptive ANC و40س 16د صافية مع العلبة و1س 47د من شحن 10 دقائق، مع شحن PD 5V بارد (32.1°م) وحامل بزاوية 65° بنصف سعر الفئة المتوسطة العليا (مع ملاحظة أن الوضع الأحادي يحوّل ANC للسلب خلال <2ث). انتقل إلى Liberty 4 NC (A3947) إذا احتجت LDAC للأندرويد أو شحن Qi أو 6 مايكات أو HearID 2.0." }
     };

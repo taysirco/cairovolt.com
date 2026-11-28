@@ -153,8 +153,8 @@ export const CATALOG_LASTMOD: Record<string, CatalogLastmodEntry> = {
         "lastmod": "2026-11-26T12:26:00.000Z"
     },
     "anker-soundcore-r50i-nc": {
-        "hash": "0e903c647883d748d99486a7f03a25f8e08dbaa5",
-        "lastmod": "2026-11-27T23:10:03.000Z"
+        "hash": "2e04c2e30e200d17bb7b90894dde787cad44357c",
+        "lastmod": "2026-11-28T00:33:41.000Z"
     },
     "anker-ultra-soft-usb-c-240w-cable": {
         "hash": "bda4471a461db416b0737e7cae5d664565e17298",

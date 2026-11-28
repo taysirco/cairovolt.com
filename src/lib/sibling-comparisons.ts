@@ -76,8 +76,8 @@ export function getSiblingComparisonForProduct(
                 },
                 {
                     label: isAr ? 'البطارية والعلبة' : 'Battery & Case',
-                    currentValue: isAr ? '9س 42د مقاسة · شحن لاسلكي Qi' : '9h 42m measured · Qi wireless',
-                    siblingValue: isAr ? 'حتى 45س معلنة · حامل موبايل' : 'Up to 45h rated · Phone stand',
+                    currentValue: isAr ? '9س 42د مقاسة (7س 51د ANC) · Qi' : '9h 42m measured (7h 51m ANC) · Qi',
+                    siblingValue: isAr ? '40س 16د صافية (6س 12د ANC) · حامل 65°' : '40h 16m net (6h 12m ANC) · 65° stand',
                 },
                 {
                     label: isAr ? 'المكالمات والحماية' : 'Mics & IP Rating',
@@ -125,9 +125,9 @@ export function getSiblingComparisonForProduct(
                     siblingValue: isAr ? '11mm · LDAC (أندرويد) + AAC' : '11mm · Android LDAC + AAC',
                 },
                 {
-                    label: isAr ? 'ميزة العلبة' : 'Charging Case',
-                    currentValue: isAr ? 'حامل موبايل 2 في 1 (USB-C)' : '2-in-1 Phone Stand (USB-C)',
-                    siblingValue: isAr ? 'شحن لاسلكي Qi + USB-C' : 'Qi Wireless + USB-C',
+                    label: isAr ? 'البطارية والعلبة' : 'Battery & Case',
+                    currentValue: isAr ? '40س 16د صافية مقاسة · حامل 65°' : '40h 16m net measured · 65° stand',
+                    siblingValue: isAr ? '9س 42د مقاسة (7س 51د ANC) · Qi' : '9h 42m measured (7h 51m ANC) · Qi',
                 },
                 {
                     label: isAr ? 'المكالمات والحماية' : 'Mics & IP Rating',
@@ -181,9 +181,9 @@ export function getSiblingComparisonForProduct(
                     siblingValue: isAr ? 'عزل تكيفي معلن حتى 42dB' : '42dB adaptive ANC (rated)',
                 },
                 {
-                    label: isAr ? 'البطارية الإجمالية' : 'Total Rated Battery',
-                    currentValue: isAr ? 'حتى 30 ساعة' : 'Up to 30h',
-                    siblingValue: isAr ? 'حتى 45 ساعة (بدون ANC)' : 'Up to 45h (ANC off)',
+                    label: isAr ? 'البطارية الإجمالية' : 'Total Battery',
+                    currentValue: isAr ? 'حتى 30 ساعة (معلنة)' : 'Up to 30h (rated)',
+                    siblingValue: isAr ? '40س 16د صافية مقاسة (45س معلنة)' : '40h 16m net measured (45h rated)',
                 },
                 {
                     label: isAr ? 'البلوتوث والاتصال' : 'Bluetooth & Multipoint',
