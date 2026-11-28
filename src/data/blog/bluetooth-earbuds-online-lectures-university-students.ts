@@ -4,23 +4,22 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
     slug: 'bluetooth-earbuds-online-lectures-university-students',
     category: 'buying-guide',
     publishDate: '2026-10-13T20:41:00+03:00',
-    modifiedDate: '2026-10-13T20:41:00+03:00',
+    modifiedDate: '2026-11-28',
     readingTime: 9,
     relatedProducts: [
-        'soundcore-p20i-earbuds',
-        'anker-soundcore-r50i',
+        'anker-soundcore-r50i-nc',
         'soundcore-liberty-4-nc',
+        'soundcore-p20i-earbuds',
         'soundcore-space-one-headphones',
         'soundcore-q20i-headphones',
-        'soundcore-a30i-earbuds',
         'soundcore-a25i-earbuds'
     ],
     relatedArticles: [
-        'eq-settings-arabic-music-egyptian-earbuds-tuning',
-        'online-vs-store-original-accessories-egypt-guide',
-        'accessories-warranty-egypt-consumer-legal-rights'
+        'soundcore-r50i-nc-anc-earbuds-full-review',
+        'soundcore-liberty-4-nc-anc-performance-review',
+        'eq-settings-arabic-music-egyptian-earbuds-tuning'
     ],
-    relatedCategories: ['Anker/chargers', 'Joyroom/power-banks'],
+    relatedCategories: ['Soundcore/audio'],
     coverImage: '/images/blog/posts/bluetooth-earbuds-online-lectures-university-students.webp',
     translations: {
         ar: {
@@ -29,7 +28,7 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
             metaDescription: 'دليلك لاختيار أفضل سماعة بلوتوث للمحاضرات والمذاكرة لطلاب الجامعة بمصر، بمواصفات البطارية الطويلة وعزل الضوضاء والمايك الواضح للتعلم عن بعد.',
             keywords: 'كيفية اقتران سماعة البلوتوث بالجوال سامسونج, سعر سماعات akg سامسونج الاصلية, كيفية تشغيل السماعة البلوتوث على الموبايل, المايك لا يعمل والسماعة تعمل سامسونج, سماعات محاضرات طلاب الجامعة, عزل الضوضاء للمذاكرة, سماعات أونلاين زوم, ميكروفون مكالمات زووم',
             excerpt: 'محاضرات الأونلاين بتطول وعايز سماعة تفصلك عن زحمة البيت وصوتها ميروحش في نص السكشن؟ بنرشح لك أفضل الخيارات لطلاب الجامعة بمصر معايير وعملياً.',
-            quickAnswer: 'لاختيار سماعة بلوتوث مثالية للمحاضرات والتعلم أونلاين لطلاب الجامعة، ابحث عن ثلاثة معايير فنية: **أولاً: عمر بطارية طويل** لا يقل عن 6 إلى 8 ساعات من التشغيل المتواصل للاستماع للمحاضرات الطويلة. **ثانياً: ميكروفون متعدد مع عزل الذكاء الاصطناعي** لتوضيح صوتك أثناء العروض التقديمية (Presentations). **ثالثاً: ميزة عزل الضوضاء النشط (ANC)** لتفصلك تماماً عن ضوضاء البيت أو المقهى وتركز في المذاكرة. سماعات مثل ساوندكور ليبرتي 4 NC وسبيس ون هيدفون هي الأفضل لهذه الفئة.',
+            quickAnswer: 'لاختيار سماعة بلوتوث مثالية لمحاضرات الجامعة أونلاين، ركز على ثلاثة معايير: بطارية تصمد 6 إلى 10 ساعات متواصلة، وميكروفونات متعددة بعزل ضوضاء بالذكاء الاصطناعي لوضوح صوتك في العروض التقديمية، وعزل ضوضاء نشط ANC لفصلك عن زحمة البيت. تتصدر ساوندكور R50i NC (بعلبة تتحول لحامل هاتف للمحاضرات) وساوندكور Liberty 4 NC وهيدفون Space One هذه الفئة.',
             faq: [
                 {
                     question: 'هل تصلح سماعات البلوتوث الاقتصادية للمحاضرات الطويلة؟',
@@ -50,7 +49,7 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
             ],
             content: `<p>حياة الطالب الجامعي في مصر مليانة تفاصيل وتحديات. بين محاضرات المدرج الصباحية، السكاشن العملية، ومحاضرات الأونلاين اللي بتنزل بالليل على تيمز وزووم، إنت دايماً محتاج تكون مركز. وسط زحمة البيت وصوت التلفزيون في الصالة وأخواتك الصغار بيلعبوا جنبك، المذاكرة والتركيز بيبقوا مهمة شبه مستحيلة بدون أداة تفصلك تماماً عن المحيط الخارجي. الأداة دي هي سماعة البلوتوث المجهزة خصيصاً للدراسة.</p>
 
-<p>في كايرو فولت، إحنا بنفهم احتياجات الشباب وميزانيات طلاب الجامعات بمصر. شراء سماعة للمحاضرات بيختلف عن شراء سماعة للجيم أو الرفاهية؛ هنا الأولوية بتكون لـ **وضوح الصوت البشري، بطارية تكمل اليوم، ميكروفون ينقل صوتك للدكتور بوضوح، وعزل يفصلك عن العالم**. في الدليل ده، هنرسم لك الخريطة الفنية لأفضل خيارات سماعات البلوتوث المتاحة لطلاب الجامعات بمصر، ونشرح لك إزاي تختارها وتضبطها عشان تحصل على أعلى درجات التركيز.</p>
+<p>في كايرو فولت، إحنا بنفهم احتياجات الشباب وميزانيات طلاب الجامعات بمصر. شراء سماعة للمحاضرات بيختلف عن شراء سماعة للجيم أو الرفاهية؛ هنا الأولوية بتكون لـ <strong>وضوح الصوت البشري، بطارية تكمل اليوم، ميكروفون ينقل صوتك للدكتور بوضوح، وعزل يفصلك عن العالم</strong>. في الدليل ده، هنرسم لك الخريطة الفنية لأفضل خيارات سماعات البلوتوث المتاحة لطلاب الجامعات بمصر، ونشرح لك إزاي تختارها وتضبطها عشان تحصل على أعلى درجات التركيز.</p>
 
 <h2>أولاً: المعايير الفنية الأربعة لاختيار سماعة المذاكرة والتعلم أونلاين</h2>
 <p>لما تيجي تشتري سماعة للدراسة، لازم تركز على المواصفات دي بالترتيب:</p>
@@ -60,7 +59,7 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
     <li>🎤 <strong>ميكروفون واضح يدعم إلغاء الضوضاء:</strong> لما الدكتور يطلب منك تجاوب أو تعمل Presentation، لازم صوتك يوصله نقي بدون ما يسمع صوت باعة الشارع أو صوت مروحة اللابتوب.</li>
     <li>🛋️ <strong>الراحة الجسدية للأذن (Comfort):</strong> السماعة لازم تكون خفيفة وتصميمها مريح عشان تقدر تلبسها 4 أو 5 ساعات متواصلة بدون ما تسبب لك ألم في صوان الأذن أو ضغط على الفك.</li>
 </ul>
-<p>خيارات ممتازة مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> للاقتصاد، أو <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> للعزل القوي، بتلبي الاحتياجات دي بذكاء.</p>
+<p>خيارات ممتازة مثل <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">انكر ساوندكور R50i NC</a> (بسعر {{price:anker-soundcore-r50i-nc}} ج.م — عزل ANC و4 مايكات وعلبة تتحول لحامل هاتف على المكتب لمتابعة محاضرات Zoom وTeams بدون إمساك الموبايل)، أو <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 NC</a> ({{price:soundcore-liberty-4-nc}} ج.م) لأقوى عزل تكيفي مع 6 مايكات، أو <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> لأقل ميزانية، بتلبي الاحتياجات دي بذكاء.</p>
 
 <h2>ثانياً: هيدفون الرأس ضد سماعة الأذن الصغيرة — أيهما أفضل للدراسة؟</h2>
 <p>المقارنة دي بيقع فيها طلاب كتير. إليك التحليل الفني للمساعدة في الاختيار:</p>
@@ -77,7 +76,7 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
     <li>مثل سماعة <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;">Soundcore A30i</a> وهي الخيار الأفضل للحركة والنزول للجامعة.</li>
     <li>حجمها صغير جداً وسهلة الوضع في الجيب، وبتصميم خفي تقريباً.</li>
     <li>ممتازة لحضور المحاضرات السريعة في الكافيه أو المواصلات، بس لو ودنك حساسة ممكن تتعبك بعد 3 ساعات استخدام متواصل.</li>
-    <li>ولو بتدور على حل وسط وصلنا جديد: <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;">سماعة ساوندكور A25i</a> بسعر 1545 ج.م — بتديك 28 ساعة تشغيل إجمالي مع علبة الشحن يعني تعدي أسبوع محاضرات كامل، ومعاها تقنية BassUp ومقاومة مياه IPX5. سماعة يومية متوازنة بسعر عاقل لميزانية الطالب.</li>
+    <li>ولو بتدور على حل وسط: <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;">سماعة ساوندكور A25i</a> بسعر {{price:soundcore-a25i-earbuds}} ج.م — بتديك 28 ساعة تشغيل إجمالي مع علبة الشحن يعني تعدي أسبوع محاضرات كامل، ومعاها تقنية BassUp ومقاومة مياه IPX5. ولو عايز عزل ANC وبطارية حتى 45 ساعة وحامل موبايل مدمج في العلبة للمذاكرة أونلاين، فشوف <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">ساوندكور R50i NC</a> بسعر {{price:anker-soundcore-r50i-nc}} ج.م.</li>
 </ul>
 
 <h2>ثالثاً: كيفية تفعيل ميزة الاقتران المتعدد (Multipoint Connection) لتسهيل المذاكرة</h2>
@@ -163,7 +162,7 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
             metaDescription: 'A student guide to choosing the best Bluetooth earbuds for online lectures and study in Egypt. Focus on long battery life, ANC, and clear microphones.',
             keywords: 'how to pair bluetooth earbuds samsung phone, original akg earbuds samsung price egypt, turn on bluetooth earbuds mobile guide, mic not working earbuds samsung fix, student earbuds online lectures, active noise cancelling study, zoom meeting headphones, Microsoft Teams audio setup laptop',
             excerpt: 'Long online lectures demanding focus? Discover the best Bluetooth earbuds for college students in Egypt, offering active noise cancelling and clear microphones.',
-            quickAnswer: 'To choose the ideal Bluetooth earbuds for university lectures and online study, prioritize three technical parameters: **First: Extensive battery life** of 6 to 8 hours minimum of continuous playback for long lecture blocks. **Second: Multi-microphone array with AI reduction** to ensure clear voice output during student presentations. **Third: Active Noise Cancellation (ANC)** to isolate you from household background noise. The Soundcore Liberty 4 NC and Space One headphones are top-tier choices for students.',
+            quickAnswer: 'For university online lectures, prioritize three audio essentials: 6 to 10 hours of single-charge battery life, multi-mic AI noise reduction for clear Zoom and Teams presentations, and Active Noise Cancellation (ANC) to block household distractions. Top student picks in Egypt are the Soundcore R50i NC (with a built-in phone-stand case for desk lectures), Soundcore Liberty 4 NC, and Space One headphones.',
             faq: [
                 {
                     question: 'Are budget Bluetooth earbuds suitable for long university lectures?',
@@ -184,7 +183,7 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
             ],
             content: `<p>A university student's life in Egypt is packed with academic challenges. Between early morning lectures on campus, laboratory sessions, and late-night online lectures on Microsoft Teams and Zoom, maintaining focus is essential. Amidst household activities, TV noise in the living room, and family distractions, studying becomes difficult without an acoustic tool to isolate you from your surroundings. This tool is a pair of study-focused Bluetooth headphones.</p>
 
-<p>At the CairoVolt lab, we analyze student requirements and budget constraints in Egypt. Purchasing earbuds for studying requires a different set of priorities than sports or casual gear: here, the focus targets **vocal clarity, all-day battery life, a reliable presentation microphone, and active isolation**. In this guide, we map out the best Bluetooth audio options for college students in Egypt, explaining how to choose and configure them for maximum academic focus.</p>
+<p>At the CairoVolt lab, we analyze student requirements and budget constraints in Egypt. Purchasing earbuds for studying requires a different set of priorities than sports or casual gear: here, the focus targets <strong>vocal clarity, all-day battery life, a reliable presentation microphone, and active isolation</strong>. In this guide, we map out the best Bluetooth audio options for college students in Egypt, explaining how to choose and configure them for maximum academic focus.</p>
 
 <h2>1. The Four Technical Rules for Choosing Study-Focused Earbuds</h2>
 <p>When selecting audio gear for academic learning, review the following specifications in order of importance:</p>
@@ -194,7 +193,7 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
     <li>🎤 <strong>Noise-Canceling Microphone:</strong> When asked to answer a question or deliver an online presentation, your voice must reach the meeting clearly without transmitting fan noise or background chatter.</li>
     <li>🛋️ <strong>Physical Comfort and Ergonomics:</strong> The audio unit must be lightweight and well-designed so you can wear it for 4 or 5 hours continuously without experiencing ear canal soreness or jaw pressure.</li>
 </ul>
-<p>Excellent products like the budget-friendly <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> or the high-isolation <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> satisfy these criteria perfectly.</p>
+<p>Standout options like the <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Anker Soundcore R50i NC</a> (EGP {{price:anker-soundcore-r50i-nc}} — featuring ANC, 4 AI call mics, and a built-in fold-out phone-stand case for hands-free Zoom and Teams lectures), the high-isolation <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> (EGP {{price:soundcore-liberty-4-nc}}) with Adaptive ANC 2.0 and 6 mics, or the entry-level <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> satisfy these study criteria cleanly.</p>
 
 <h2>2. Over-Ear Headphones vs. In-Ear Earbuds: Which is Better for Study?</h2>
 <p>This is a common dilemma for college students. Here is the technical breakdown to guide your choice:</p>
@@ -211,7 +210,7 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
     <li>Models like the ultra-compact <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A30i</a> are optimized for commuting and campus use.</li>
     <li>Their small footprint fits easily into pockets, offering a discreet profile.</li>
     <li>They are perfect for attending quick sessions in transit or libraries, though they may cause minor canal fatigue after 3 hours of continuous insertion.</li>
-    <li>For a middle-ground pick, the newly stocked <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A25i</a> (1,545 EGP) delivers 28 hours of total battery with the charging case — enough for a full week of lectures — plus BassUp tuning and IPX5 water resistance, making it a balanced daily earbud at a sane price for student budgets.</li>
+    <li>For a middle-ground pick, the <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A25i</a> (EGP {{price:soundcore-a25i-earbuds}}) delivers 28 hours of total battery with the charging case — enough for a full week of lectures — plus BassUp tuning and IPX5 water resistance. If you also want active noise cancellation, up to 45 hours total battery, and a charging case that doubles as a desk phone stand for lectures, choose the <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC</a> (EGP {{price:anker-soundcore-r50i-nc}}).</li>
 </ul>
 
 <h2>3. Enabling Multipoint Connection for Seamless Device Switching</h2>

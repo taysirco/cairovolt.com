@@ -849,6 +849,30 @@ export async function getReviewsByGovernorate(governorateName: string, max: numb
 }
 
 /**
+ * Approved reviews across all catalog products for the Google Merchant Center
+ * Product Ratings XML feed (/api/feed/reviews). Equality-only filter avoids
+ * requiring a composite Firestore index, and every record passes through the
+ * exact same integrity filter (`filterOrderBackedReviews`) used on product pages
+ * so seeded/unverified fixtures can never enter the feed.
+ */
+export async function getAllApprovedVerifiedReviews(limit: number = 500): Promise<VerifiedReview[]> {
+    const safeLimit = Math.max(1, Math.min(Number.isInteger(limit) ? limit : 500, 1000));
+
+    try {
+        const db = await getFirestore();
+        const snapshot = await db.collection('reviews')
+            .where('status', '==', 'approved')
+            .limit(safeLimit)
+            .get();
+
+        return await filterOrderBackedReviews(db, snapshot.docs);
+    } catch {
+        logger.warn('Failed to fetch approved reviews for feed');
+        return [];
+    }
+}
+
+/**
  * Get total review count for a product
  */
 export async function getProductReviewCount(productSlug: string): Promise<number> {

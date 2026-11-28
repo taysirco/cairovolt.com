@@ -4,7 +4,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
     slug: 'soundcore-r50i-wireless-earbuds-complete-review',
     category: 'review',
     publishDate: '2026-07-17',
-    modifiedDate: '2026-10-04',
+    modifiedDate: '2026-11-28',
     readingTime: 9,
     relatedProducts: [
         'anker-soundcore-r50i',
@@ -37,7 +37,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>ملخص الحكم:</strong> R50i تستحق شهرتها. بطارية استثنائية لسعرها، صوت كويس جداً، ومقاومة التعرق خلّتها مناسبة للصيف المصري. العيب الوحيد الحقيقي: لا ANC. لو مش محتاج إلغاء ضوضاء — هي الخيار الأمثل في فئتها السعرية.
+        <strong>ملخص الحكم:</strong> <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">ساوندكور R50i العادية</a> ({{price:anker-soundcore-r50i}} جنيه) تستحق شهرتها ببطارية ممتازة ومقاومة تعرق IPX5. العيب الوحيد الحقيقي: بدون ANC — لو محتاج عزل ضوضاء للمواصلات وعلبة بحامل موبايل وبطارية حتى 45 ساعة انتقل مباشرة إلى <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">ساوندكور R50i NC (موديل A3959)</a> بسعر {{price:anker-soundcore-r50i-nc}} جنيه.
     </p>
 </div>
 
@@ -80,7 +80,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">إلغاء ضوضاء ANC</td>
             <td style="padding:12px;border:1px solid #d1d5db;">لأ</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">لو محتاج عزل نشط: R50i NC</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">لو محتاج عزل نشط: <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">ساوندكور R50i NC</a></td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">تطبيق EQ</td>
@@ -296,7 +296,7 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>Summary Verdict:</strong> The R50i deserves its reputation. Exceptional battery for its price, very good sound, and sweat resistance make it ideal for Egyptian summer. The only real drawback: no ANC. If you do not need noise cancellation — it is the optimal choice in its price category.
+        <strong>Summary Verdict:</strong> The <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> (EGP {{price:anker-soundcore-r50i}}) earns its reputation with strong battery life and IPX5 sweat resistance. Its one real drawback is no ANC — if you commute and want active noise cancelling, a 45h rated battery, and a phone-stand case, step up to the <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC (A3959)</a> at EGP {{price:anker-soundcore-r50i-nc}}.
     </p>
 </div>
 

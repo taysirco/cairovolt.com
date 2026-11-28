@@ -235,6 +235,7 @@ export const BLOG_SCHEDULE: Record<string, number> = {
     'soundcore-flare-2-partycast-led-speaker-review': 1785487380000,
     'soundcore-k20i-semi-in-ear-earbuds-comfort-review': 1785065760000,
     'soundcore-liberty-4-nc-anc-performance-review': 1784764800000,
+    'soundcore-liberty-4-nc-vs-r50i-nc-comparison': 1795824000000,
     'soundcore-liberty-4-pro-flagship-earbuds-review': 1784851200000,
     'soundcore-liberty-air-2-factory-reset-connection-fix': 1785314880000,
     'soundcore-liberty-buds-complete-lineup-comparison': 1785252960000,

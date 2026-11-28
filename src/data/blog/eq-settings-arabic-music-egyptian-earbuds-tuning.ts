@@ -4,23 +4,22 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
     slug: 'eq-settings-arabic-music-egyptian-earbuds-tuning',
     category: 'buying-guide',
     publishDate: '2026-10-12T14:02:00+03:00',
-    modifiedDate: '2026-10-12T14:02:00+03:00',
+    modifiedDate: '2026-11-28',
     readingTime: 9,
     relatedProducts: [
-        'soundcore-p20i-earbuds',
-        'anker-soundcore-r50i',
         'soundcore-liberty-4-nc',
+        'anker-soundcore-r50i-nc',
+        'anker-soundcore-r50i',
+        'soundcore-p20i-earbuds',
         'soundcore-space-one-headphones',
-        'soundcore-q20i-headphones',
-        'soundcore-a30i-earbuds',
-        'soundcore-a25i-earbuds'
+        'soundcore-q20i-headphones'
     ],
     relatedArticles: [
-        'online-vs-store-original-accessories-egypt-guide',
-        'accessories-warranty-egypt-consumer-legal-rights',
-        'accessories-markets-map-egypt-helmeya-city-stars'
+        'soundcore-liberty-4-nc-anc-performance-review',
+        'soundcore-r50i-nc-anc-earbuds-full-review',
+        'soundcore-models-guide-egypt-2026'
     ],
-    relatedCategories: ['Anker/chargers', 'Joyroom/power-banks'],
+    relatedCategories: ['Soundcore/audio'],
     coverImage: '/images/blog/posts/eq-settings-arabic-music-egyptian-earbuds-tuning.webp',
     translations: {
         ar: {
@@ -29,7 +28,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
             metaDescription: 'دليلك لضبط إعدادات الإيكولايزر EQ على سماعات البلوتوث للموسيقى العربية، من الطرب الشرقي إلى المهرجانات، وطريقة إبراز صوت العود والطبقة الصوتية.',
             keywords: 'كيفية اقتران سماعة البلوتوث بالجوال سامسونج, سعر سماعات akg سامسونج الاصلية, كيفية تشغيل السماعة البلوتوث على الموبايل, المايك لا يعمل والسماعة تعمل سامسونج, إعدادات EQ الموسيقى العربية, ضبط سماعات ساوندكور, ترددات الآلات الشرقية, إيكولايزر الطرب الشرقي',
             excerpt: 'بتسمع أم كلثوم أو مهرجانات وصوت السماعة مش عاجبك؟ بنعلمك إزاي تضبط الـ EQ وسلك الترددات عشان تبرز صوت الدف، العود، والآلات الشرقية بمزاج عالي.',
-            quickAnswer: 'لضبط الإيكولايزر (EQ) على سماعات البلوتوث للموسيقى العربية بمثالية، نوصي بثلاثة أنماط رئيسية: **أولاً: نمط الطرب الكلاسيكي** (لأم كلثوم وفيروز) ويتم برفع الترددات المتوسطة (Mid-range من 500Hz إلى 2kHz) لإبراز العود والآلات الخشبية وصوت الغناء. **ثانياً: نمط المهرجانات والتكنو الشعبي** ويتم برفع ترددات الباس المنخفضة (Bass من 20Hz إلى 150Hz) ورفع الترددات المرتفعة (Treble من 8kHz إلى 16kHz) لإبراز قوة الطبلة والإيقاع العنيف. **ثالثاً: نمط الآلات الشرقية الصرفة** ويتم برفع بسيط في الترددات فوق المتوسطة (High-Mids 4kHz) لإبراز نقاء القانون والكمان.',
+            quickAnswer: 'لضبط الإيكولايزر (EQ) للموسيقى العربية، استخدم ثلاثة أنماط أساسية: أولاً نمط الطرب الكلاسيكي (أم كلثوم وفيروز) برفع الترددات المتوسطة من 500Hz إلى 2kHz لإبراز العود والغناء. ثانياً نمط المهرجانات والتكنو الشعبي برفع الباس (20Hz إلى 150Hz) والتريبل (8kHz إلى 16kHz) لإبراز الطبلة والإيقاع. ثالثاً نمط الآلات الشرقية برفع بسيط عند 4kHz لنقاء القانون والكمان.',
             faq: [
                 {
                     question: 'كيف يمكنني تعديل إعدادات الـ EQ على سماعات ساوندكور بمصر؟',
@@ -59,7 +58,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
     <li>🎤 <strong>الترددات المتوسطة (Mids - من 250Hz إلى 4kHz):</strong> دي أهم منطقة للموسيقى العربية. هنا بيقع صوت المطرب (زي أم كلثوم أو عبد الحليم) وصوت آلة العود والكمان والناي. ضبط المنطقة دي بيعطي دفيء ونقاء غير عادي للصوت البشري.</li>
     <li>🎻 <strong>الترددات المرتفعة (Treble - من 4kHz إلى 20kHz):</strong> دي المسؤولة عن صوت الصاجات، طبلة الرق، والسهم الحاد في نغمات الكمان. رفعها بيدي بهجة ووضوح، بس لو زادت عن حدها هتسبب ألم في الأذن وصوت صفير مزعج.</li>
 </ol>
-<p>سماعات ممتازة مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> أو سماعات <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> بتديك تحكم كامل في الترددات دي من خلال معادل الصوت الرسومي (Graphic Equalizer) في التطبيق الخاص بها.</p>
+<p>سماعات ساوندكور مثل <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">انكر ساوندكور Liberty 4 NC</a> (بدعم HearID 2.0 وكودك LDAC وEQ بـ 8 نطاقات) و<a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">انكر ساوندكور R50i NC</a> (بـ 22 وضع EQ جاهز وإيكولايزر مخصص)، إلى جانب <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> و<a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a>، بتديك تحكم كامل في الترددات دي من خلال معادل الصوت الرسومي (Graphic Equalizer) في تطبيق ساوندكور.</p>
 
 <h2>ثانياً: خلطة الإعدادات السحرية — ثلاثة أنماط تناسب مزاجك المصري</h2>
 <p>إليك الإعدادات الدقيقة لكل نوع من الموسيقى التي تسمعها يومياً في مصر:</p>
@@ -80,7 +79,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
     <li>الترددات المتوسطة (500Hz - 1kHz): اخفضها بمقدار (-2dB) لإعطاء مساحة للبيز والتريبل للتنفس.</li>
     <li>الترددات المرتفعة (8kHz - 16kHz): ارفعها بمقدار (+3dB) لتوضيح التريبل وصوت الإيقاعات السريعة.</li>
 </ul>
-<p>ولو لسه بتدور على سماعة يومية تستحمل النمط ده، <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور A25i</a> بسعر 1545 جنيه نزلت عندنا قريب، وفيها وضع BassUp بيرفع البيز بضغطة واحدة قبل ما تبدأ تظبط المؤشرات بنفسك، مع 28 ساعة تشغيل إجمالي ومقاومة IPX5 للعرق — سماعة متوازنة بسعر عاقل لمزاج المهرجانات والجيم.</p>
+<p>ولو لسه بتدور على سماعة يومية تستحمل النمط ده، <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور A25i</a> بسعر {{price:soundcore-a25i-earbuds}} جنيه نزلت عندنا قريب، وفيها وضع BassUp بيرفع البيز بضغطة واحدة قبل ما تبدأ تظبط المؤشرات بنفسك، مع 28 ساعة تشغيل إجمالي ومقاومة IPX5 للعرق — سماعة متوازنة بسعر عاقل لمزاج المهرجانات والجيم.</p>
 
 <h2>ثالثاً: كيفية اقتران سماعة البلوتوث وتفعيل الإعدادات على هواتف سامسونج وغيرها</h2>
 <p>لكي تبدأ الاستمتاع بهذه الإعدادات، يجب أولاً معرفة <a href="/blog/accessories-markets-map-egypt-helmeya-city-stars" style="color:#2563eb;">كيفية اقتران سماعة البلوتوث بالجوال سامسونج</a> أو آيفون وتشغيلها بشكل صحيح:</p>
@@ -133,7 +132,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
 
 <h2>خامساً مكرر: أهمية تفعيل ترميز LDAC و AAC على سماعات البلوتوث الحديثة بمصر</h2>
 <p>للاستمتاع بالخلطة الصوتية الممتازة التي قمنا بضبطها في معادل الصوت، يجب ألا نغفل الجانب الرقمي واللاسلكي لنقل البيانات. يعتمد الكثير من المستخدمين على ترميز SBC التقليدي والافتراضي عند توصيل السماعة، وهو ترميز رديء يضغط البيانات الصوتية بشدة ويفقدها نقاءها الشرقي الجميل.</p>
-<p>لتحقيق أقصى استفادة، تأكد من الدخول إلى خيارات المطور (Developer Options) in هاتف سامسونج الخاص بك وتفعيل ترميز **LDAC** (إذا كانت سماعتك تدعمه مثل سماعات ساوندكور ليبرتي 4) أو ترميز **AAC** كحد أدنى. هذه الترميزات الحديثة تضاعف من سرعة نقل البيانات اللاسلكية وتسمح بنقل الموجات الصوتية المعقدة لآلات مثل العود والقانون بكامل دقتها الفنية والترددية دون أي خسائر رقمية، مما يجعل تجربتك الصوتية مطابقة لتجربة الاستوديو الأصلي بمصر. إن التخطيط السليم واختيار الترددات الصوتية المناسبة لا يضمن لك فقط أفضل جودة صوتية لمزاجك الطربي، بل يحمي أيضاً سماعاتك وهاتفك المحمول وسلامة أذنك بمصر. وتذكر دائماً أن جودة مصدر الصوت نفسه تلعب دوراً محورياً؛ فبث الموسيقى عبر منصات عالية الدقة مثل Apple Music أو Tidal يعطيك عمقاً صوتياً لا يمكن مقارنته بالملفات المضغوطة ذات الجودة المنخفضة التي يتم تداولها على تطبيقات المراسلة مثل واتساب، حيث تتشوه تفاصيل الآلات الشرقية وتضيع المؤثرات الصوتية الدقيقة تماماً.</p>
+<p>لتحقيق أقصى استفادة، تأكد من الدخول إلى خيارات المطور (Developer Options) في هاتف سامسونج الخاص بك وتفعيل ترميز <strong>LDAC</strong> (إذا كانت سماعتك تدعمه مثل <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 NC</a>) أو ترميز <strong>AAC</strong> كحد أدنى. هذه الترميزات الحديثة تضاعف من سرعة نقل البيانات اللاسلكية وتسمح بنقل الموجات الصوتية المعقدة لآلات مثل العود والقانون بكامل دقتها الفنية والترددية دون أي خسائر رقمية، مما يجعل تجربتك الصوتية مطابقة لتجربة الاستوديو الأصلي بمصر. إن التخطيط السليم واختيار الترددات الصوتية المناسبة لا يضمن لك فقط أفضل جودة صوتية لمزاجك الطربي، بل يحمي أيضاً سماعاتك وهاتفك المحمول وسلامة أذنك بمصر. وتذكر دائماً أن جودة مصدر الصوت نفسه تلعب دوراً محورياً؛ فبث الموسيقى عبر منصات عالية الدقة مثل Apple Music أو Tidal يعطيك عمقاً صوتياً لا يمكن مقارنته بالملفات المضغوطة ذات الجودة المنخفضة التي يتم تداولها على تطبيقات المراسلة مثل واتساب، حيث تتشوه تفاصيل الآلات الشرقية وتضيع المؤثرات الصوتية الدقيقة تماماً.</p>
 
 <h2>رابعاً مكرر: مخاطر رفع الباس (Bass Boost) المبالغ فيه على طبلة الأذن وعمر السماعة</h2>
 <p>يلجأ الكثير من الشباب بمصر، وخصوصاً عند الاستماع للمهرجانات والتكنو الشعبي، لرفع مستويات الباس لأقصى حد ممكن (Bass Boost) للحصول على اهتزازات عنيفة. بالرغم من بهجة هذا الشعور للبعض، إلا أنه يمثل خطراً حقيقياً من الناحية الطبية والهندسية.</p>
@@ -152,7 +151,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
             metaDescription: 'A guide to tuning Equalizer (EQ) settings on Bluetooth earbuds for Arabic music. Enhance vocals, Oud, and percussion on Soundcore and Joyroom gear.',
             keywords: 'how to pair bluetooth earbuds samsung phone, original akg earbuds samsung price egypt, turn on bluetooth earbuds mobile guide, mic not working earbuds samsung fix, arabic music EQ settings, soundcore custom EQ guide, oriental instruments frequencies, Egyptian tarab sound signature',
             excerpt: 'Listening to classic Tarab or modern Arabic beats on your earbuds? Discover how to tune Equalizer bands to highlight the Oud, Tabla, and vocals perfectly.',
-            quickAnswer: 'To optimize Equalizer (EQ) settings on Bluetooth earbuds for Arabic music, we recommend three distinct profiles: **First: Classic Tarab Profile** (for Umm Kulthum and Fairuz) by boosting the Mid-range (500Hz to 2kHz) to highlight the Oud, violins, and vocals. **Second: Mahraganat & Shaabi Profile** (modern street beats) by boosting the Low-bass (20Hz to 150Hz) and High-treble (8kHz to 16kHz) to emphasize deep percussion and high synthesizers. **Third: Instrument-focused Profile** (solo Oud/Qanun) by applying a slight boost at 4kHz to elevate clarity.',
+            quickAnswer: 'For Arabic music EQ on Bluetooth earbuds, use three core profiles: Classic Tarab (Umm Kulthum and Fairuz) boosts mid-range frequencies (500Hz to 2kHz) for Oud, violins, and vocals; Mahraganat and Shaabi boosts low bass (20Hz to 150Hz) and high treble (8kHz to 16kHz) for deep percussion and synths; and Solo Oriental Instruments adds a light 4kHz lift for Qanun and Oud clarity.',
             faq: [
                 {
                     question: 'How do I adjust the EQ settings on Soundcore earbuds in Egypt?',
@@ -182,7 +181,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
     <li>🎤 <strong>Mid-Range Frequencies (Mids - 250Hz to 4kHz):</strong> This is the most critical range for Arabic music. It reproduces the vocalist's voice (such as Umm Kulthum or Abdel Halim) and acoustic instruments like the Oud and Nay flute. Proper tuning adds warmth and presence.</li>
     <li>🎻 <strong>High Frequencies (Treble - 4kHz to 20kHz):</strong> These control percussion cymbals, the sharp snap of the tambourine, and high violin notes. Boosting this band adds clarity and sparkle, but excessive levels cause ear fatigue and sibilance.</li>
 </ol>
-<p>High-quality earbuds like the <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> or the <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> offer a full Graphic Equalizer within their official app to let you customize these bands.</p>
+<p>Soundcore earbuds such as the <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Anker Soundcore Liberty 4 NC</a> (with HearID 2.0, Android LDAC, and 8-band Custom EQ) and <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Anker Soundcore R50i NC</a> (22 presets + Custom EQ), alongside <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> and <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a>, offer a full Graphic Equalizer within the official Soundcore app to let you customize these bands.</p>
 
 <h2>2. The EQ Profiles: 3 Custom Setups for the Egyptian Listener</h2>
 <p>Here are the step-by-step slider adjustments for your daily listening options in Egypt:</p>
@@ -203,14 +202,14 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
     <li>Mids (500Hz - 1kHz): Reduce by (-2dB) to create acoustic space for bass and treble highlights.</li>
     <li>Treble (8kHz - 16kHz): Boost by (+3dB) to clarify electronic synthesizers and fast percussion snaps.</li>
 </ul>
-<p>If you are still shopping for a daily pair that handles this profile, the newly stocked <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A25i</a> (1,545 EGP) features a one-tap BassUp mode that applies this low-end boost instantly before you fine-tune the sliders yourself, along with 28 hours of total battery life and IPX5 sweat resistance — a balanced daily earbud at a sane price for Mahraganat sessions and gym workouts.</p>
+<p>If you are still shopping for a daily pair that handles this profile, the newly stocked <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A25i</a> (EGP {{price:soundcore-a25i-earbuds}}) features a one-tap BassUp mode that applies this low-end boost instantly before you fine-tune the sliders yourself, along with 28 hours of total battery life and IPX5 sweat resistance — a balanced daily earbud at a sane price for Mahraganat sessions and gym workouts.</p>
 
 <h2>3. How to Pair Bluetooth Earbuds and Apply EQ Settings on Samsung Phones</h2>
 <p>To enjoy these custom profiles, you must first complete the pairing process. Here is <a href="/en/blog/accessories-markets-map-egypt-helmeya-city-stars" style="color:#2563eb;font-weight:600;">how to pair bluetooth earbuds samsung phone</a> or iOS devices:</p>
 <ol style="line-height:2;">
     <li>Charge your earbuds fully, open the charging case lid, and press the pairing button until the LED light flashes.</li>
     <li>Open the Bluetooth settings on your Samsung phone, tap "Scan for new devices," and select your earbud model to connect.</li>
-    <li>For the best audio control on Samsung devices, download the **Sound Assistant** app from the Galaxy Store, enable "Multi-Sound," and use the system-level Equalizer to refine your frequencies.</li>
+    <li>For the best audio control on Samsung devices, download the <strong>Sound Assistant</strong> app from the Galaxy Store, enable "Multi-Sound," and use the system-level Equalizer to refine your frequencies.</li>
 </ol>
 
 <h2>4. Oriental Instruments and Their Frequency Ranges</h2>
@@ -256,7 +255,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
 
 <h2>5.1. The Importance of LDAC and AAC Audio Codecs in Egypt</h2>
 <p>To experience the full benefits of your custom Equalizer profiles, you must configure the digital transmission settings on your phone. Many users unknowingly stream audio using the default SBC codec, which heavily compresses data and degrades the rich acoustics of traditional instruments.</p>
-<p>To maximize audio quality, enable Developer Options on your Samsung device and choose the **LDAC** codec (supported by high-end earbuds like the Soundcore Liberty 4) or the **AAC** codec as a baseline. These modern codecs double wireless transmission speeds, allowing microtonal details from the Oud and Qanun to stream at full bitrates without digital compression loss, delivering a studio-grade listening experience in Egypt. By choosing the appropriate Equalizer parameters and protecting your ears from excessive volume, you maximize the service life of your audio gear and protect your hearing in Egypt. Always keep in mind that the quality of the source file itself plays a vital role. Streaming lossless audio through high-fidelity platforms like Apple Music or Tidal provides an acoustic depth that cannot be matched by low-quality compressed files shared on messaging applications like WhatsApp, where microtonal details are flattened and fine elements are lost.</p>
+<p>To maximize audio quality, enable Developer Options on your Samsung device and choose the <strong>LDAC</strong> codec (supported by high-end earbuds like the <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a>) or the <strong>AAC</strong> codec as a baseline. These modern codecs double wireless transmission speeds, allowing microtonal details from the Oud and Qanun to stream at full bitrates without digital compression loss, delivering a studio-grade listening experience in Egypt. By choosing the appropriate Equalizer parameters and protecting your ears from excessive volume, you maximize the service life of your audio gear and protect your hearing in Egypt. Always keep in mind that the quality of the source file itself plays a vital role. Streaming lossless audio through high-fidelity platforms like Apple Music or Tidal provides an acoustic depth that cannot be matched by low-quality compressed files shared on messaging applications like WhatsApp, where microtonal details are flattened and fine elements are lost.</p>
 
 <h2>4.1. The Risks of Excessive Bass Boosting on Hearing Safety and Driver Durability</h2>
 <p>Many young listeners in Egypt apply extreme bass boosts (Bass Boost) to experience deep vibrations when listening to Shaabi and Mahraganat music. While this creates a powerful physical sensation, it poses severe risks from both medical and engineering standpoints.</p>

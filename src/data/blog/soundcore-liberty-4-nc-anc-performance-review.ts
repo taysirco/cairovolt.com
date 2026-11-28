@@ -4,13 +4,13 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
     slug: 'soundcore-liberty-4-nc-anc-performance-review',
     category: 'review',
     publishDate: '2026-07-23',
-    modifiedDate: '2026-10-04',
+    modifiedDate: '2026-11-28',
     readingTime: 11,
     relatedProducts: [
         'soundcore-liberty-4-nc',
+        'anker-soundcore-r50i-nc',
         'soundcore-liberty-4-pro',
         'soundcore-liberty-buds',
-        'soundcore-liberty-air-2-pro',
         'soundcore-q45-headphones',
         'soundcore-space-one-headphones'
     ],
@@ -29,8 +29,8 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
     translations: {
         ar: {
             title: 'Soundcore Liberty 4 NC — مراجعة شاملة لملك عزل الضوضاء في الفئة المتوسطة',
-            metaTitle: 'مراجعة سماعة Soundcore Liberty 4 NC وعزل الضوضاء | كايرو فولت',
-            metaDescription: 'مراجعة سماعة Soundcore Liberty 4 NC وعزل الضوضاء ANC الفعلي حتى 46 ديسيبل، وأداء خوارزميات الصوت، والبطارية الفائقة، والضمان المعتمد والسعر في مصر.',
+            metaTitle: 'مراجعة سماعة انكر ساوندكور Liberty 4 NC (A3947) وعزل الضوضاء | كايرو فولت',
+            metaDescription: 'مراجعة سماعة انكر ساوندكور Liberty 4 NC (A3947) في مصر: أداء Adaptive ANC 2.0، كودك LDAC، قياس البطارية الفعلي في معمل كايرو فولت، وضمان 18 شهرًا.',
             keywords: 'soundcore liberty 4 nc مراجعة, soundcore liberty 4 nc مصر, liberty 4 nc سعر مصر, liberty 4 nc anc, soundcore liberty 4 nc bose مقارنة, liberty 4 nc ldac, liberty 4 nc مكالمات, soundcore liberty 4 nc اختبار, افضل سماعة anc مصر, liberty 4 nc جودة صوت',
             excerpt: 'Liberty 4 NC تدعي إلغاء 98.5% من الضوضاء الخارجية. نحلل أداء العزل النشط ANC في ظروف شوارع القاهرة ومحطات المترو المزدحمة لمعرفة الحقيقة الكاملة.',
             quickAnswer: 'Soundcore Liberty 4 NC اختيار قوي لعزل الضوضاء في فئتها: عزل ANC تكيّفي معلن من الشركة، وLDAC، واتصال بجهازين. على عيّنتنا قسنا 7 ساعات و51 دقيقة مع تشغيل ANC (AAC، صوت 50%)، والشركة بتعلن 10 ساعات و50 ساعة إجمالاً بدون العزل. سعرها في كايرو فولت {{price:soundcore-liberty-4-nc}} جنيه.',
@@ -38,7 +38,7 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>الحكم النهائي لـ Soundcore Liberty 4 NC:</strong> عزل ضوضاء قوي في فئتها السعرية بسعر <strong>{{price:soundcore-liberty-4-nc}} جنيه</strong> في كايرو فولت. بتقنية ANC 2.0 التكيّفية المعلنة وترميز LDAC بتقدم تجربة استماع هادية بشكل واضح، وعلى عيّنتنا قسنا 7 ساعات و51 دقيقة مع تشغيل العزل (AAC، صوت 50%) — والشركة بتعلن 10 ساعات بدون العزل. تفاصيل القياس في <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">صفحة Liberty 4 NC</a>.
+        <strong>الحكم النهائي لـ Soundcore Liberty 4 NC:</strong> عزل ضوضاء قوي في فئتها السعرية بسعر <strong>{{price:soundcore-liberty-4-nc}} جنيه</strong> في كايرو فولت. بتقنية ANC 2.0 التكيّفية المعلنة وترميز LDAC بتقدم تجربة استماع هادية بشكل واضح، وعلى عيّنتنا قسنا 7 ساعات و51 دقيقة مع تشغيل العزل (AAC، صوت 50%) — والشركة بتعلن 10 ساعات بدون العزل. تفاصيل القياس والطلب في <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">صفحة سماعة انكر ساوندكور Liberty 4 NC</a> (ولو ميزانيتك أقل وتريد ANC اقتصادي بعلبة بحامل موبايل فقارنها مع <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">ساوندكور R50i NC</a> بسعر {{price:anker-soundcore-r50i-nc}} جنيه).
     </p>
 </div>
 
@@ -117,7 +117,7 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
 <h2>وضع الألعاب وزمن تأخير الاستجابة (Gaming Mode & Latency)</h2>
 <p>تحتوي سماعة Liberty 4 NC على وضع مخصص للألعاب يمكن تفعيله من تطبيق الهاتف الذكي:</p>
 <ul>
-    <li><strong>زمن تأخير منخفض للغاية (Low Latency):</strong> عند تفعيل وضع الألعاب (Gaming Mode)، ينخفض زمن تأخير الاستجابة إلى حوالي 80 مللي ثانية فقط. هذا يجعل السماعة ممتازة للألعاب التنافسية مثل ببجي موبايل (PUBG Mobile) وكول أوف ديوتي، حيث يتزامن صوت إطلاق الرصاص وخطوات الأقدام بدقة عالية مع الصورة المعروضة على الشاشة.</li>
+    <li><strong>تقليل تأخير الصوت في الألعاب (تقييم نوعي):</strong> عند تفعيل وضع الألعاب (Gaming Mode) مع إطفاء LDAC، يتحسن تزامن الصوت مع الصورة بشكل ملحوظ في الفيديوهات والألعاب مثل ببجي موبايل (PUBG Mobile) وكول أوف ديوتي (تقييم عملي نوعي — بدون رقم ملّي ثانية مقاس معملياً).</li>
     <li><strong>تأثير ترميز LDAC على الألعاب:</strong> تجدر الإشارة إلى أن تفعيل ترميز LDAC عالي الدقة يرفع زمن التأخير تلقائياً إلى أكثر من 200 مللي ثانية نتيجة للحجم الكبير للبيانات التي يتم نقلها ومعالجتها. لذلك، إذا كنت تخطط للعب، ننصح بشدة بتعطيل LDAC من إعدادات التطبيق وتفعيل وضع الألعاب للحصول على أسرع استجابة ممكنة.</li>
 </ul>
 
@@ -217,7 +217,7 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>Verdict:</strong> Strong noise cancelling for its price class, at <strong>EGP {{price:soundcore-liberty-4-nc}}</strong> at CairoVolt. With manufacturer-listed Adaptive ANC 2.0 and LDAC it gives a clearly quieter listening experience, and on our sample we measured 7 h 51 min with ANC on (AAC, 50% volume) — Soundcore lists 10 hours with ANC off. Measurement details are on the <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Liberty 4 NC product page</a>.
+        <strong>Verdict:</strong> Strong noise cancelling for its price class, at <strong>EGP {{price:soundcore-liberty-4-nc}}</strong> at CairoVolt. With manufacturer-listed Adaptive ANC 2.0 and LDAC it gives a clearly quieter listening experience, and on our sample we measured 7 h 51 min with ANC on (AAC, 50% volume) — Soundcore lists 10 hours with ANC off. Full lab measurements and order details are on the <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Anker Soundcore Liberty 4 NC product page</a> (or if you want a lower-priced ANC option with a phone-stand case, compare with the <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC</a> at EGP {{price:anker-soundcore-r50i-nc}}).
     </p>
 </div>
 
@@ -291,8 +291,8 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
 <h2>Gaming Mode and Audio Latency Performance</h2>
 <p>For mobile gamers, the Soundcore Liberty 4 NC features a dedicated Low-Latency Gaming Mode accessible via the application settings:</p>
 <ul>
-    <li><strong>Reduced Audio Delay:</strong> Engaging the Gaming Mode drops the transmission latency to approximately 80 milliseconds. This significant reduction aligns in-game audio events, such as footsteps and gunshots in PUBG Mobile or Call of Duty, with the on-screen action, providing a highly competitive gaming experience.</li>
-    <li><strong>The LDAC Latency Tradeoff:</strong> It is critical to note that high-resolution codecs like LDAC require substantial processing buffers. When LDAC is active, transmission latency can spike above 200ms, causing a noticeable delay between video and audio during fast-paced gaming. We highly recommend toggling LDAC off and enabling the Gaming Mode whenever you enter a match.</li>
+    <li><strong>Reduced Audio Delay (Qualitative):</strong> Engaging Gaming Mode (with LDAC off) noticeably tightens audio-visual sync for YouTube and mobile games such as PUBG Mobile or Call of Duty (qualitative assessment — CairoVolt publishes no unmeasured millisecond latency claim).</li>
+    <li><strong>The LDAC Latency Tradeoff:</strong> High-resolution codecs like LDAC require larger processing buffers, which adds noticeable delay during fast-paced gaming. Toggle LDAC off and enable Gaming Mode whenever you enter a match.</li>
 </ul>
 
 <h2>Multipoint Connection and Multi-Device Management</h2>
@@ -331,7 +331,7 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Battery Life (ANC On)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">~9.5 Hours actual</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">7h 51m measured (AAC, 50% vol)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">~6 Hours actual</td>
             <td style="padding:12px;border:1px solid #d1d5db;">~8 Hours actual</td>
         </tr>

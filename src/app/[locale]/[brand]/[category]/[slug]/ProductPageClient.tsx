@@ -13,6 +13,8 @@ import { useCart } from '@/context/CartContext';
 import ProductGuarantees from '@/components/products/ProductGuarantees';
 import BenchTestSection from '@/components/products/BenchTestSection';
 import CollapsibleSection from '@/components/products/CollapsibleSection';
+import SiblingQuickCompare from '@/components/products/SiblingQuickCompare';
+import type { SiblingComparisonData } from '@/lib/sibling-comparisons';
 import type { BenchTest } from '@/data/details/_types';
 import BrandVerification from '@/components/UX/BrandVerification';
 import OpenInBrowserBanner from '@/components/OpenInBrowserBanner';
@@ -146,6 +148,8 @@ interface ProductPageClientProps {
     /** Last real change to this product's data (content-hash change log),
      *  pre-formatted on the server so hydration cannot disagree. */
     lastUpdated?: { iso: string; label: string };
+    /** Curated live-price comparison against an adjacent sibling tier. */
+    siblingComparison?: SiblingComparisonData | null;
 }
 
 // Category slug → Categories message key lives in '@/lib/category-keys', shared
@@ -154,7 +158,7 @@ interface ProductPageClientProps {
 /** True when the text contains at least one Arabic letter. */
 const hasArabicLetters = (text: string): boolean => /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]/u.test(text);
 
-export default function ProductPageClient({ product, relatedProducts = [], alsoBoughtProducts = [], guides = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail, spin360FrameCount = 0, lastUpdated }: ProductPageClientProps) {
+export default function ProductPageClient({ product, relatedProducts = [], alsoBoughtProducts = [], guides = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail, spin360FrameCount = 0, lastUpdated, siblingComparison }: ProductPageClientProps) {
     const isRTL = locale === 'ar';
     const tCommon = useTranslations('Common');
 
@@ -1087,6 +1091,9 @@ export default function ProductPageClient({ product, relatedProducts = [], alsoB
                         )}
 
                         {/* Quality Badges removed — trust signals already covered by ProductGuarantees Trust Matrix below */}
+                        {siblingComparison && (
+                            <SiblingQuickCompare data={siblingComparison} locale={locale} />
+                        )}
                     </div>
                 </article>
             </div>

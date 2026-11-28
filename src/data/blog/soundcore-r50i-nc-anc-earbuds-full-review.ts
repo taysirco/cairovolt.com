@@ -4,7 +4,7 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
     slug: 'soundcore-r50i-nc-anc-earbuds-full-review',
     category: 'review',
     publishDate: '2026-07-16',
-    modifiedDate: '2026-10-04',
+    modifiedDate: '2026-11-28',
     readingTime: 9,
     relatedProducts: [
         'anker-soundcore-r50i-nc',
@@ -27,8 +27,8 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
     },
     translations: {
         ar: {
-            title: 'تجربة إلغاء الضوضاء ANC في السماعة الاقتصادية — هل فعلاً بتفرق في الشارع المصري؟',
-            metaTitle: 'مراجعة Soundcore R50i NC — هل ANC شغّال فعلاً في مصر؟ | كايرو فولت',
+            title: 'مراجعة ساوندكور R50i NC (A3959) — هل عزل الضوضاء ANC بيفرق فعلاً في الشارع المصري؟',
+            metaTitle: 'مراجعة ساوندكور R50i NC (A3959) — هل ANC شغّال فعلاً في مصر؟ | كايرو فولت',
             metaDescription: 'مراجعة سماعة Soundcore R50i NC: هل إلغاء الضوضاء ANC بيفرق في ضوضاء الشارع المصري؟ أرقام واقعية للبطارية وجودة المكالمات ومستوى عزل الصوت الفعلي.',
             keywords: 'soundcore r50i nc مراجعة, مراجعة r50i nc مصر, سماعة ANC اقتصادية مصر, soundcore r50i nc سعر مصر, الغاء ضوضاء سماعة رخيصة, ANC بتشتغل مصر, soundcore r50i nc انكر مصر, سماعة إلغاء ضوضاء مصر, ANC budget earbuds egypt, soundcore r50i nc بالعربي',
             excerpt: 'Soundcore R50i NC بتدّعي إن ANC بتلغي الضوضاء. حللنا أداءها المتوقع في الميكروباص ومحطة المترو والتقاطع المروري — إيه اللي بيحصل فعلاً بالأرقام.',
@@ -37,7 +37,7 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>الحكم السريع:</strong> R50i NC بتقدم ANC حقيقي بيفرق بوضوح في الضوضاء الثابتة المتوسطة (مترو، مكتب، كافيه). بتحسّن تجربة الاستماع في القاهرة — لكن مش هتحس إنك في غرفة عازلة، والكلاكسات المفاجئة هتفضل مسموعة.
+        <strong>الحكم السريع:</strong> سماعة <a href="/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">انكر ساوندكور R50i NC (موديل A3959)</a> بسعر <strong>{{price:anker-soundcore-r50i-nc}} جنيه</strong> في كايرو فولت بتقدم ANC حقيقي بيفرق بوضوح في الضوضاء الثابتة المتوسطة (مترو، مكتب، كافيه) مع بطارية معلنة حتى 45 ساعة وعلبة بحامل موبايل وIP54 — لكن الكلاكسات المفاجئة هتفضل مسموعة. ولو عايز عزل تكيفي أقوى وكودك LDAC وشحن لاسلكي شوف <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">ساوندكور Liberty 4 NC</a> ({{price:soundcore-liberty-4-nc}} جنيه).
     </p>
 </div>
 
@@ -265,8 +265,8 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
             ]
         },
         en: {
-            title: 'ANC Noise Cancellation in Budget Earbuds Review — Does It Actually Work in Egyptian Streets?',
-            metaTitle: 'Soundcore R50i NC Review — Does ANC Work in Egypt? | CairoVolt',
+            title: 'Soundcore R50i NC (A3959) Review — Does Budget ANC Actually Work in Egyptian Streets?',
+            metaTitle: 'Soundcore R50i NC (A3959) Review — Does ANC Work in Egypt? | CairoVolt',
             metaDescription: 'Honest review of Soundcore R50i NC. Does active noise cancelling really work in Egypt\'s street noise? Realistic numbers for battery, calls, and sound quality.',
             keywords: 'soundcore r50i nc review, anc earbuds budget egypt, soundcore r50i nc anc test, noise cancelling earbuds egypt, soundcore r50i nc price egypt, anc in noisy cairo, budget anc earbuds review, soundcore r50i nc specs, anc budget earbuds test egypt, does anc work egypt',
             excerpt: 'Soundcore R50i NC claims ANC eliminates background noise. We break down its expected performance in a minibus, metro station, and Cairo traffic intersection — in numbers, not vague claims.',
@@ -275,7 +275,7 @@ export const soundcore_r50i_nc_anc_earbuds_full_review: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>Quick Verdict:</strong> R50i NC delivers real ANC that clearly helps with steady, moderate noise (metro, office, cafe). It improves the listening experience in Cairo — but do not expect a sound-proof room, and sudden horns stay audible.
+        <strong>Quick Verdict:</strong> The <a href="/en/soundcore/audio/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Anker Soundcore R50i NC (A3959)</a> at <strong>EGP {{price:anker-soundcore-r50i-nc}}</strong> at CairoVolt delivers real ANC that clearly helps with steady moderate noise (metro, office, cafe) plus up to 45h rated battery, IP54, and a phone-stand case — though sudden horns stay audible. For stronger adaptive ANC, Android LDAC, and wireless charging, compare with the <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a> (EGP {{price:soundcore-liberty-4-nc}}).
     </p>
 </div>
 

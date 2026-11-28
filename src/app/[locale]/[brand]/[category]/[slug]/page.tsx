@@ -18,6 +18,7 @@ import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { BostaTracker } from '@/lib/bosta';
 import { getMerchantProductBrandSlug, getMerchantProductUrl, isRecallAffectedSlug, SEO_NOINDEX_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
 import { getProductEntityMeta } from '@/lib/org-sameas';
+import { getSiblingComparisonForProduct } from '@/lib/sibling-comparisons';
 import { categoryContent } from '@/data/category-content';
 import { categoryKeyMap } from '@/lib/category-keys';
 import { getGuidesForProduct, stableStringHash } from '@/lib/blog-product-bridge';
@@ -552,6 +553,7 @@ export default async function ProductPage({ params }: Props) {
     // Live guides whose body links to this product (server-only reverse index;
     // the client component only receives the resulting {href, title} list).
     const productGuides = getGuidesForProduct(product.slug, locale, 3);
+    const siblingComparison = getSiblingComparisonForProduct(product.slug, locale);
 
     // Canonical page URL (same helper as Product.url / Product.@id).
     const productPageUrl = getMerchantProductUrl(product, locale);
@@ -754,6 +756,7 @@ export default async function ProductPage({ params }: Props) {
                 } : null}
                 spin360FrameCount={spin360FrameCount}
                 lastUpdated={productLastmod ? { iso: productLastmod.split('T')[0], label: productLastmodLabel } : undefined}
+                siblingComparison={siblingComparison}
             />
 
             {/* Live delivery tracking — streamed dynamically via Suspense */}

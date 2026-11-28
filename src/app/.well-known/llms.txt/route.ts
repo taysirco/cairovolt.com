@@ -34,6 +34,7 @@ const BUYING_GUIDES: ReadonlyArray<{ question: string; slug: string }> = [
     { question: 'Which capacity: 5,000 vs 10,000 vs 20,000 mAh', slug: '5000-vs-10000-vs-20000-mah-which-capacity' },
     { question: 'Power bank under 1,000 EGP', slug: 'best-power-bank-under-1000-egp-egypt' },
     { question: 'Best Bluetooth earbuds in Egypt', slug: 'best-bluetooth-earbuds-egypt-2026' },
+    { question: 'Soundcore Liberty 4 NC vs R50i NC comparison in Egypt', slug: 'soundcore-liberty-4-nc-vs-r50i-nc-comparison' },
     { question: 'Soundcore Liberty 4 NC (A3947) ANC & LDAC review', slug: 'soundcore-liberty-4-nc-anc-performance-review' },
     { question: 'Soundcore R50i NC (A3959) ANC earbuds review', slug: 'soundcore-r50i-nc-anc-earbuds-full-review' },
     { question: 'Soundcore earbuds & speakers lineup guide in Egypt', slug: 'soundcore-models-guide-egypt-2026' },
